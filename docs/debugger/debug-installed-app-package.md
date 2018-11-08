@@ -41,7 +41,7 @@ For more information about debugging UWP apps, see the blog posts on [debugging 
    
 1. Under **Installed App Packages**, non-running installed app packages appear under **Not running**, and running apps are under **Running**. Select the app you want to debug, or type its name in the search box.
    
-1. If necessary, change the code type to debug under **Debug this code type**, and select other options. Select **Do not launch, but debug my code when it starts** to start debugging when the app starts. Starting debugging when the app launches is an effective way to debug control paths from [different launch methods](/windows/uwp/xbox-apps/automate-launching-uwp-apps), such as protocol activation with custom parameters.
+1. If necessary, change the code type under **Debug this code type**, and select other options. Select **Do not launch, but debug my code when it starts** to start debugging when the app starts. Starting debugging when the app launches is an effective way to debug control paths from [different launch methods](/windows/uwp/xbox-apps/automate-launching-uwp-apps), such as protocol activation with custom parameters.
 
 1. Select **Start**, or if the app is running, select **Attach**.
 
@@ -76,7 +76,7 @@ The first time Visual Studio debugs an installed UWP app on a Windows 10 device 
 
 1. In the **Debug Installed App Package** dialog, select or type the name of the app you want to debug under **Not running** or **Running**.
    
-1. If necessary, change the code type to debug under **Debug this code type**, and select other options. Select **Do not launch, but debug my code when it starts** to start debugging when the app starts. Starting debugging when the app launches is an effective way to debug control paths from [different launch methods](/windows/uwp/xbox-apps/automate-launching-uwp-apps), such as protocol activation with custom parameters.
+1. If necessary, change the code type under **Debug this code type**, and select other options. Select **Do not launch, but debug my code when it starts** to start debugging when the app starts. Starting debugging when the app launches is an effective way to debug control paths from [different launch methods](/windows/uwp/xbox-apps/automate-launching-uwp-apps), such as protocol activation with custom parameters.
    
 1. Select **Start**, or if the app is running, select **Attach**.
 
