@@ -42,7 +42,7 @@ You can write run-time messages to the **Output** window using the <xref:System.
   
 - The <xref:System.Diagnostics.Debug.Fail%2A?displayProperty=fullName> and <xref:System.Diagnostics.Trace.Fail%2A?displayProperty=fullName> methods, which always break execution and output information. By default, the `Fail` methods display the information in a dialog box.  
   
-In addition to output from your app, the **Output** window can display information about:  
+The **Output** window can also display information about:  
   
 - Modules the debugger has loaded or unloaded.  
   
