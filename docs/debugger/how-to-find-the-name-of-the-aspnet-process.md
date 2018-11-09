@@ -41,6 +41,6 @@ To debug a running [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)]
 **See also:**
 
  [Attach to a running process](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)  
- [Prerequistes for remote debugging web applications](../debugger/prerequistes-for-remote-debugging-web-applications.md)   
+ [Prerequisites for remote debugging web applications](../debugger/prerequistes-for-remote-debugging-web-applications.md)   
  [System requirements](../debugger/aspnet-debugging-system-requirements.md)   
  [Debug ASP.NET applications](../debugger/how-to-enable-debugging-for-aspnet-applications.md)
