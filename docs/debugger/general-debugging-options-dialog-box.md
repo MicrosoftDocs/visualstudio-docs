@@ -1,7 +1,7 @@
 ---
 title: "General, Debugging, Options Dialog Box | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/06/2018"
+ms.date: "11/09/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "reference"
 f1_keywords: 
@@ -24,11 +24,11 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# General, Debugging, Options Dialog Box
-The **Tools** > **Options** > **Debugging** > **General** page lets you set the options described in this article.
-
-You can restore default settings with **Tools** > **Import and Export Settings** > **Reset all settings**. To reset a subset of settings, save your settings with the **Import and Export Settings Wizard** before making the changes that you want to test, then import your saved settings afterward.
+# General debugging options
+To set Visual Studio debugger options, select **Tools** > **Options**, and under **Debugging** select or deselect the boxes next to the **General** options. You can restore all default settings with **Tools** > **Import and Export Settings** > **Reset all settings**. To reset a subset of settings, save your settings with the **Import and Export Settings Wizard** before making the changes that you want to test, then import your saved settings afterward.
   
+You can set the following **General** options:
+
 **Ask before deleting all breakpoints**: 
 Requires confirmation before completing the **Delete All Breakpoints** command.  
   
@@ -38,11 +38,11 @@ Simultaneously breaks all processes to which the debugger is attached, when a br
 **Break when exceptions cross AppDomain or managed/native boundaries**: 
 In managed or mixed-mode debugging, the common language runtime can catch exceptions that cross application domain boundaries or managed/native boundaries when the following conditions are true:  
   
-1\) When native code calls managed code by using COM Interop and the managed code throws an exception. See [Introduction to COM Interop](/dotnet/articles/visual-basic/programming-guide/com-interop/introduction-to-com-interop).  
+1. When native code calls managed code by using COM Interop and the managed code throws an exception. See [Introduction to COM Interop](/dotnet/articles/visual-basic/programming-guide/com-interop/introduction-to-com-interop).  
   
-2\) When managed code running in application domain 1 calls managed code in application domain 2, and the code in application domain 2 throws an exception. See [Programming with application domains](/dotnet/articles/framework/app-domains/index).  
+2. When managed code running in application domain 1 calls managed code in application domain 2, and the code in application domain 2 throws an exception. See [Programming with application domains](/dotnet/articles/framework/app-domains/index).  
 
-3\) When code calls a function by using reflection, and that function throws an exception. See [Reflection](/dotnet/framework/reflection-and-codedom/reflection).  
+3. When code calls a function by using reflection, and that function throws an exception. See [Reflection](/dotnet/framework/reflection-and-codedom/reflection).  
   
 In conditions 2 and 3, the exception is sometimes caught by managed code in `mscorlib` rather than by the common language runtime. This option does not affect breaking on exceptions caught by `mscorlib`.  
   
@@ -95,10 +95,10 @@ Tells the Visual Studio debugger to get source files from source servers that im
     When source server support is enabled, this setting overrides the default behavior of prompting when running an untrusted command.
 
 **Enable Source Link support**: 
-    Tells the Visual Studio debugger to download source files for .pdb files that contain Source Link information. For more information about Source Link, see the [Source link specification](https://github.com/dotnet/core/blob/master/Documentation/diagnostics/source_link.md).
+    Tells the Visual Studio debugger to download source files for *.pdb* files that contain Source Link information. For more information about Source Link, see the [Source link specification](https://github.com/dotnet/core/blob/master/Documentation/diagnostics/source_link.md).
 
-    > [!IMPORTANT]
-    >  Because Source Link will download files using http or https, make sure you trust the .pdb file.  
+> [!IMPORTANT]
+>  Because Source Link will download files using http or https, make sure you trust the *.pdb* file.  
   
 - **Fall back to Git Credential Manager authentication for all Source Link requests**: 
     When source link support is enabled, and a source link request fails authentication, Visual Studio then calls the Git Credential Manager.
@@ -193,7 +193,7 @@ Enables the Edit and Continue functionality while debugging.
 **Show Run to Click button in editor while debugging**: 
 When this option is selected, the [Run to Click](debugger-feature-tour.md#run-to-a-point-in-your-code-quickly-using-the-mouse) button will be shown while debugging.
 
-## Options supported in older versions of Visual Studio
+## Options available in older versions of Visual Studio
 
 If you're using an older version of Visual Studio, some additional options might be present.
 
