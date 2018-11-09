@@ -25,7 +25,7 @@ Visual Studio (all versions) automatically detects each installed Python interpr
 
 If Visual Studio does not detect an installed environment, see [Manually identify an existing environment](managing-python-environments-in-visual-studio.md#manually-identify-an-existing-environment).
 
-Visual Studio shows all known environments in the [**Python Environments**](managing-python-environments-in-visual-studio.md) window, and automatically detects updates to existing interpreters.
+Visual Studio shows all known environments in the [**Python Environments**](managing-python-environments-in-visual-studio.md#the-python-environments-window) window, and automatically detects updates to existing interpreters.
 
 | Interpreter | Description |
 | --- | --- |
