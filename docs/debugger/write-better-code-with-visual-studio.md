@@ -141,7 +141,7 @@ catch (SerializationException)
 }
 ```
 
-A `try/catch` block has some performance cost, so you'll only want to use them when you really need them, that is, where (1) they might occur in the release version of the app, and where (2) the documentation for the method indicates that you should check for the exception (assuming the documentation is complete!). In many cases, you can handle an exception appropriately and the user will never need to know about it.
+A `try/catch` block has some performance cost, so you'll only want to use them when you really need them, that is, where (a) they might occur in the release version of the app, and where (b) the documentation for the method indicates that you should check for the exception (assuming the documentation is complete!). In many cases, you can handle an exception appropriately and the user will never need to know about it.
 
 Here are a couple of important tips for exception handling:
 
@@ -166,57 +166,72 @@ For the sample app, fix the `SerializationException` in the `GetJsonData` method
 
 ## Clarify your code intent by using assert
 
-Now that you've fixed the exception, run the app again.
+Click the **Restart** ![Restart App](../debugger/media/dbg-tour-restart.png "RestartApp") button in the Debug Toolbar (**Ctrl** + **Shift** + **F5**). This restarts the app in fewer steps. You see the following output in the console window.
 
-Click the **Restart** ![Restart App](../debugger/media/dbg-tour-restart.png "RestartApp") button in the Debug Toolbar (**Ctrl** + **Shift** + **F5**). This restarts the app in fewer steps.
+![Null value in output](../debugger/media/write-better-code-using-assert-null-output.png)
 
-This time, the app throws another exception, a run-of-the-mill `NullReferenceException`.
+You can see something in this output that is not quite right. **name** and **lastname** for the third record are blank!
 
-![A NullReferenceException occurs](../debugger/media/write-better-code-null-reference-exception.png)
-
-**firstname**, in bold, has the `null` value that caused the exception. The exception occurred because you called a method (`Trim()`) on a non-object reference (`null`). In the sample app, **firstname** is just a variable referencing a property you defined in your code, not a library method that throws a special exception, so there is no good reason to use a `try/catch` block for this common exception. Let's review other options by asking the same questions as before--is this a bug you can easily fix? Might users encounter this exception?
-
-If you think it might be a fixable bug, you have several options here. But instead of fixing the bug just yet, let's take the opportunity to discuss a helpful coding practice, often underutilized, which is to use `assert` statements in your functions. By adding the following code, you include a runtime check to make sure that `firstname` is not `null`.
+There's an opportunity here to show a helpful coding practice, often underutilized, which is to use `assert` statements in your functions. By adding the following code, you include a runtime check to make sure that `firstname` and `lastname` are not `null`. Replace the following code in the `UpdateRecords` method:
 
 ```csharp
-// To use assert, add a using statement for System.Diagnostics at the start of the file.
+if (existingUser == false)
+{
+    User user = new User();
+    user.firstname = users[i].firstname;
+    user.lastname = users[i].lastname;
+```
+
+with this:
+
+```csharp
+// Also, add a using statement for System.Diagnostics at the start of the file.
 Debug.Assert(users[i].firstname != null);
 Debug.Assert(users[i].lastname != null);
 if (existingUser == false)
 {
     User user = new User();
-    user.firstname = users[i].firstname.Trim();
-    user.lastname = users[i].lastname.Trim();
+    user.firstname = users[i].firstname;
+    user.lastname = users[i].lastname;
 ```
 
-By adding `assert` statements to your functions during the development process, you can help specify the intent of your code. By specifying intent in this way, you enforce your requirements. This is a simple and handy method that you can use to surface bugs during development. (`assert` statements are also used as the main element in unit tests.)
+By adding `assert` statements like this to your functions during the development process, you can help specify the intent of your code. In the preceding example, we specify the following:
 
-When you add the preceding `assert` statements and rerun the code (click the **Restart** ![Restart App](../debugger/media/dbg-tour-restart.png "RestartApp") button), the debugger pauses on the `assert` statement, as expected, because the expression evaluates to `false`. (The `assert` code is active only in a Debug build.) 
+* A valid string is required for the first name
+* A valid string is required for the last name
+
+By specifying intent in this way, you enforce your requirements. This is a simple and handy method that you can use to surface bugs during development. (`assert` statements are also used as the main element in unit tests.)
+
+Click the **Restart** ![Restart App](../debugger/media/dbg-tour-restart.png "RestartApp") button in the Debug Toolbar (**Ctrl** + **Shift** + **F5**).
+
+> [!NOTE]
+> The `assert` code is active only in a Debug build.
+
+When you restart, the debugger pauses on the `assert` statement, because the expression `users[i].firstname != null` evaluates to `false` instead of `true`.
 
 ![Assert resolves to false](../debugger/media/write-better-code-using-assert.png)
 
-The `assert` error tells you that there's a problem that you need to investigate. Why use an `assert` statement if the debugger shows you an exception anyway? The answer is that `assert` can cover many scenarios where you don't necessarily see an exception. In this example, if we didn't call `Trim()`, the user will never see the `NullReferenceException` at this point and a `null` value will be added as `firstname` in your database. This could cause problems later on and might be harder to debug.
+The `assert` error tells you that there's a problem that you need to investigate. `assert` can cover many scenarios where you don't necessarily see an exception. In this example, the user won't see an exception (although a `NullReferenceException` is a common result), and a `null` value gets added as `firstname` in your database. This may cause problems later on (such as you see in the console output) and might be harder to debug.
 
-During the debugging process, it's good to keep a particular `assert` statement until you know you need to replace it with an actual code fix. An easy option to fix this code is to get rid of the `Trim()` method call. But, let's say you decide that you need to keep the `Trim()` method call to eliminate whitespace, and that the user might encounter the exception in a release build of the app. In that case, you must refactor code to make sure that your app doesn't throw a fatal exception. So, to fix this code, replace the following statement:
+During the debugging process, it's good to keep a particular `assert` statement until you know you need to replace it with an actual code fix. Let's say you decide that the user might encounter the exception in a release build of the app. In that case, you must refactor code to make sure that your app doesn't throw a fatal exception or result in some other error. So, to fix this code, replace the following code:
 
 ```csharp
-user.firstname = users[i].firstname.Trim();
+if (existingUser == false)
+{
+    User user = new User();
 ```
 
 with this code:
 
 ```csharp
-if(users[i].firstname != null)
+if (existingUser == false && users[i].firstname != null && users[i].lastname != null)
 {
-    user.firstname = users[i].firstname.Trim();
-}
-else
-{
-    user.firstname = users[i].firstname;
-}
+    User user = new User();
 ```
 
-Typically, when using `assert`, it's best to add `assert` statements at the entry point of a function or method. You are currently looking at the `UpdateRecords` method in the sample app. In this method, you know you are in trouble if either of the method arguments is `null`, so check them both with an `assert` statement at the function's entry point.
+By using this code, you fulfill your requirements and make sure that a record with a `firstname` or `lastname` value of `null` is not added to the data.
+
+In this example, we added the two `assert` statements inside of a loop. Typically, when using `assert`, it's best to add `assert` statements at the entry point (beginning) of a function or method. You are currently looking at the `UpdateRecords` method in the sample app. In this method, you know you are in trouble if either of the method arguments is `null`, so check them both with an `assert` statement at the function's entry point.
 
 ```csharp
 public static void UpdateRecords(List<User> db, User[] users)
@@ -225,17 +240,19 @@ public static void UpdateRecords(List<User> db, User[] users)
     Debug.Assert(users != null);
 ```
 
+For the preceding statements, your intent is that you load existing data (`db`) and retrieve new data (`users`) before updating anything.
+
 You can use `assert` with any kind of expression that resolves to `true` or `false`. So, for example, you could add an `assert` statement like this.
 
 ```csharp
 Debug.Assert(users[0].points > 0);
 ```
 
-The preceding code makes sense if it's critical that every user entry update in your app adds new points to the record.
+The preceding code is useful if you want to specify the following intent: a new point value greater than zero (0) is required to update the user's record.
 
 ## Inspect your code in the debugger
 
-OK, now that you've fixed everything critical that's wrong with the sample app, you can move onto bigger things!
+OK, now that you've fixed everything critical that's wrong with the sample app, you can move onto other important stuff!
 
 We showed you the debugger's Exception Helper, but the debugger is a much more powerful tool that also lets you do other things like step through your code and inspect its variables. These more powerful capabilities are useful in many scenarios, especially the following:
 
@@ -347,8 +364,8 @@ namespace Console_Parse_JSON_DotNetCore
                 if (existingUser == false)
                 {
                     User user = new User();
-                    user.firstname = users[i].firstname.Trim();
-                    user.lastname = users[i].lastname.Trim();
+                    user.firstname = users[i].firstname;
+                    user.lastname = users[i].lastname;
                     user.totalpoints = users[i].points;
 
                     db.Add(user);
