@@ -20,6 +20,9 @@ Projects have properties that govern many aspects of compilation, debugging, tes
 
 ![Properties node in Solution Explorer tree](../ide/media/vs2015_props_se.png)
 
+> [!NOTE]
+> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Managing solution and project properties (Visual Studio for Mac)](/visualstudio/mac/managing-solutions-and-project-properties).
+
 ## Project properties
 
 Project properties are organized into groups, and each group has its own property page. The pages might be different for different languages and project types.
@@ -50,3 +53,4 @@ To access properties on the solution, right click the solution node in **Solutio
 ## See also
 
 - [Solutions and projects in Visual Studio](../ide/solutions-and-projects-in-visual-studio.md)
+- [Managing solution and project properties (Visual Studio for Mac)](/visualstudio/mac/managing-solutions-and-project-properties)

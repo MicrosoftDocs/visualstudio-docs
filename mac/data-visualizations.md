@@ -98,4 +98,5 @@ Some other types that also have their own inline visualizers are listed below:
 
 ## See also
 
+- [Inspect variables in the Autos and Locals windows (Visual Studio on Windows)](/visualstudio/debugger/autos-and-locals-windows)
 - [View strings in a visualizer (Visual Studio on Windows)](/visualstudio/debugger/string-visualizer-dialog-box)

@@ -1,5 +1,5 @@
 ---
-title: Solutions and projects in Visual Studio
+title: Solutions and projects
 ms.date: 10/05/2017
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
@@ -29,6 +29,11 @@ ms.workload:
 ---
 # Solutions and projects in Visual Studio
 
+This article describes the concept of a *project* and a *solution* in Visual Studio. It also briefly covers how to create a new project, and the **Solution Explorer** tool window.
+
+> [!NOTE]
+> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Projects and solutions in Visual Studio for Mac](/visualstudio/mac/projects-and-solutions).
+
 ## Projects
 
 When you create an app, website, plug-in, etc. in Visual Studio, you start with a *project*. In a logical sense, a project contains all the source code files, icons, images, data files, etc. that are compiled into an executable, library, or website. A project also contains compiler settings and other configuration files that might be needed by various services or components that your program communicates with.
@@ -56,7 +61,7 @@ Visual Studio uses two file types (*.sln* and *.suo*) to store settings for solu
 
 ## Create new projects
 
-The easiest way to create a new project is to start from a project template for a particular type of application or website. A project template consists of a basic set of pre-generated code files, config files, assets, and settings. These templates are what you see in the **New Project** or **New Web Site** dialog box when you choose **File** > **New** > **Project** or **File** > **New** > **Web Site**. For more information, see [Create solutions and projects](../ide/creating-solutions-and-projects.md).
+The easiest way to create a new project is to start from a project template for a particular type of application or website. A project template consists of a basic set of pre-generated code files, config files, assets, and settings. These templates are what you see in the **New Project** dialog box when you choose **File** > **New** > **Project**. For more information, see [Create solutions and projects](../ide/creating-solutions-and-projects.md).
 
 You can also create custom project and item templates. For more information, see [Create project and item templates](../ide/creating-project-and-item-templates.md).
 
@@ -69,3 +74,5 @@ After you create a new project, you can use **Solution Explorer** to view and ma
 ## See also
 
 - [Visual Studio IDE](../ide/visual-studio-ide.md)
+- [Projects and solutions (Visual Studio for Mac)](/visualstudio/mac/projects-and-solutions)
+- [Add and remove project items (Visual Studio for Mac)](/visualstudio/mac/add-and-remove-project-items)

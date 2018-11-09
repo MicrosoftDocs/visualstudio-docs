@@ -75,3 +75,4 @@ Now go to **Server Explorer** again, right-click on the **Azure** node and choos
 ## See also
 
 - [Sign in to Visual Studio](signing-in-to-visual-studio.md)
+- [Sign in to Visual Studio for Mac](/visualstudio/mac/signing-in)

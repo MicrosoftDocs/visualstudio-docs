@@ -28,7 +28,7 @@
       href: install/create-an-offline-installation-of-visual-studio.md
     - name: Install required certificates for offline installation
       href: install/install-certificates-for-visual-studio-offline.md
-  - name: Set installation locations
+  - name: Select installation locations
     href: install/change-installation-locations.md
   - name: Troubleshoot installation issues
     href: install/troubleshooting-installation-issues.md

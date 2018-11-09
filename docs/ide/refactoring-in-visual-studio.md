@@ -26,3 +26,4 @@ Different refactoring operations are available for different programming languag
 - [Visual Studio IDE](../ide/visual-studio-ide.md)
 - [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md)
 - [Preview changes](../ide/preview-changes.md)
+- [Refactoring (Visual Studio for Mac)](/visualstudio/mac/refactoring)
