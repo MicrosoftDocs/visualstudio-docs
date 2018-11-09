@@ -1,5 +1,5 @@
 ---
-title: Solutions and projects in Visual Studio
+title: Solutions and projects
 ms.date: 10/05/2017
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
@@ -32,7 +32,7 @@ ms.workload:
 This article describes the concept of a *project* and a *solution* in Visual Studio. It also briefly covers how to create a new project, and the **Solution Explorer** tool window.
 
 > [!NOTE]
-> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Add and remove project items](/visualstudio/mac/add-and-remove-project-items).
+> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Projects and solutions in Visual Studio for Mac](/visualstudio/mac/projects-and-solutions).
 
 ## Projects
 
@@ -74,4 +74,5 @@ After you create a new project, you can use **Solution Explorer** to view and ma
 ## See also
 
 - [Visual Studio IDE](../ide/visual-studio-ide.md)
+- [Projects and solutions (Visual Studio for Mac)](/visualstudio/mac/projects-and-solutions)
 - [Add and remove project items (Visual Studio for Mac)](/visualstudio/mac/add-and-remove-project-items)

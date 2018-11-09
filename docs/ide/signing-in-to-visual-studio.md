@@ -18,7 +18,7 @@ ms.workload:
 You can personalize and optimize your development experience in Visual Studio if you set your Personalization account by signing in to the IDE.
 
 > [!NOTE]
-> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Activation for Visual Studio for Mac](/visualstudio/mac/activation).
+> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Sign in to Visual Studio for Mac](/visualstudio/mac/signing-in).
 
 ## Why should I sign in to Visual Studio?
 
@@ -66,4 +66,5 @@ If you encounter any problems while signing in, please see the [Accounts support
 
 * [How to Unlock Visual Studio](../ide/how-to-unlock-visual-studio.md)
 * [Visual Studio IDE Overview](../ide/visual-studio-ide.md)
+* [Sign in (Visual Studio for Mac)](/visualstudio/mac/signing-in)
 * [Activation (Visual Studio for Mac)](/visualstudio/mac/activation)
