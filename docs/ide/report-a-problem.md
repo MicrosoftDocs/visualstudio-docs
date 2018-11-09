@@ -1,26 +1,26 @@
 ---
-title: "Report a problem with Visual Studio"
+title: "Understanding Report a Problem in Visual Studio"
 description: "Provides and overview of Report a Problem, problem states and defintions"
-ms.date: 10/17/2018
+ms.date: 11/12/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: Seiyer
 ms.author: seiyer
-manager: shve
+manager: DougE
 ms.workload:
   - "multiple"
 ---
 # Report a problem 
 
-Report a problem enables the Visual Studio developer community to submit issues and bugs.  Each one of your problem reports becomes a work item in our core engineering system, empowering you to engage directly with our product teams to help us identify impactful issues.  Your feedback is critical to improving the Visual Studio product family.  We really appreciate you taking the time to report a problem so we can diagnose and fix it.
+Report a problem enables the Visual Studio developer community to submit issues.  Each one of your problem reports becomes a work item in our core engineering system, empowering you to engage directly with our product teams to help us identify and resolve impactful issues. Your feedback submitted with rich diagnostic information is critical to improving the Visual Studio product family.  We really appreciate you taking the time to report problems.
 
-In addition, when you vote on feedback from other community members, you help us understand the impact it has for the larger developer community.
+In addition, vote on feedback from other community members to bring  more attention and help fix it faster.
 
 ## Problem status
 
-After you report a problem, states indicate where your submissions are in their lifecycle. As Microsoft teams review your feedback, they tag it with an appropriate state.  Track the progress of your problem reports by referencing the states listed below, along with their meaning and color indicators.
+After you report a problem, states indicate where your submissions are in their lifecycle. As Microsoft teams review your feedback, they set it with an appropriate state.  Track the progress of your problem reports by referencing the states listed below, along with their meaning and color indicators.
 
 ![New state for problem reporting on Developer Community](../ide/media/ProblemStates/New.jpg)
 
@@ -30,7 +30,7 @@ After you report a problem, states indicate where your submissions are in their 
 
 ![Triaged state for problem reporting on Developer Community](../ide/media/ProblemStates/Triaged.jpg)
 
-**Triaged** indicates that preliminary checks such as duplicates are complete. Your ticket has been routed to the appropriate engineering team for consideration.
+**Triaged** indicates that preliminary steps such as moderation, translation, and  initial check for duplicates are  complete. Your ticket has been routed to the appropriate engineering team for consideration.
 
 - - -
 
@@ -42,13 +42,13 @@ After you report a problem, states indicate where your submissions are in their 
 
 ![Under Investigation state for problem reporting on Developer Community](../ide/media/ProblemStates/UnderInvestigation.jpg)
 
-**Under Investigation** indicates that engineers are actively investigating your problem to find a fix.
+**Under Investigation** indicates that engineers are actively investigating your problem to find a resolution.
 
 - - -
 
 ![Need More Info state for problem reporting on Developer Community](../ide/media/ProblemStates/NeedMoreInfo.jpg)
 
-**Need More Info** indicates that we need more diagnostic information from you so that we can proceed further with the investigation.
+**Need More Info** indicates that we need more diagnostic information from you so that we can go forward with the investigation.
 
 - - -
 
@@ -72,7 +72,7 @@ After you report a problem, states indicate where your submissions are in their 
 
 ![Closed - Lower Priority state for problem reporting on Developer Community](../ide/media/ProblemStates/ClosedLowerPriority.jpg)
 
-**Closed - Lower Priority** To focus on bringing each of you in our developer community the best value, we prioritize issues with the highest customer impact. Although we are unable to address this particular issue at this time, please be assured that all your feedback is valuable and helps improve Visual Studio.
+**Closed - Lower Priority** To focus on bringing each of you in our developer community the best value, we prioritize issues with the highest customer impact. Although we are unable to address this particular issue at this time, be assured that all your feedback is valuable and helps improve Visual Studio.
 
 - - -
 
@@ -96,7 +96,7 @@ After you report a problem, states indicate where your submissions are in their 
 
 ![Closed - Won't Fix state for problem reporting on Developer Community](../ide/media/ProblemStates/ClosedWontFix.jpg)
 
-**Closed - Won't Fix** To ensure we bring each of you in our developer community the best value, we prioritize issues having the highest community impact. Although we are unable to address this particular issue, please be assured that all your feedback is valuable and helps improve Visual Studio.
+**Closed - Won't Fix** To ensure we bring each of you in our developer community the best value, we prioritize issues having the highest community impact. Although we are unable to address this particular issue, be assured that all your feedback is valuable and helps improve Visual Studio.
 
 - - -
 
@@ -104,28 +104,28 @@ After you report a problem, states indicate where your submissions are in their 
 
 ### How can I increase the chance of my problem getting resolved quickly?
 
-We recommend using search to ensure that the problem you're about to report hasn't already been reported. If you find an existing item matching your problem, please follow and vote on that problem ticket.
+We recommend using search to ensure that the problem you're about to report hasn't already been reported. If you find an existing item matching your problem, follow and vote on that problem ticket.
 
-Where possible, provide all the information you can to help our teams reproduce what you're experiencing.
+ Provide all the information you can to help our teams reproduce what you're experiencing.  This information includes  necessary repro steps, code fragments, screenshots, repro recordings, log files, and other artifacts.  Here is [how to report a problem in Visual Studio](./how-to-report-a-problem-with-visual-studio-2017.md).
 
 ### How is my feedback prioritized?
 
-We receive a very large number of valuable suggestions from our customers. To ensure that we're bringing the best value to each of you in our developer community, we prioritize action on feedback that has the highest community impact. 
+We receive a large number of valuable problems from our customers. To ensure that we're bringing the best value to each of you in our developer community, we prioritize action on feedback that has the highest community impact.
 
-If we're not able to respond personally to your feedback, know that we fully appreciate your input. Please be assured that all your feedback gets to the right person and team. 
+If we're not able to respond personally to your feedback, know that we fully appreciate your input. Be assured that all your feedback gets to the right team.
 
 We truly value the time you invest in making Visual Studio better.
 
 ### What actions can I take if I'm not satisfied with the resolution?
 
-Our teams do their best to diagnose and fix any issues you experience, however there may be times when you're not fully satisfied with our recommendation. Please comment back on the feedback and let us know exactly what you're not satisfied with, and we will try our best to ensure we meet your needs.
+Our teams do their best to diagnose and fix any issues you experience, however there may be times when you're not fully satisfied with our recommendation. Comment back on the feedback and let us know exactly what you're not satisfied with, and we will try our best to ensure we meet your needs.
 
 ### How will I get notified of progress on my feedback?
 
-Microsoft engineering teams will communicate with you by commenting on the feedback ticket and changing the state of your ticket as they make progress. Watch for e-mail notifications that are sent every time the ticket state changes or a comment is posted.
+Microsoft engineering teams will communicate with you by commenting on the feedback ticket and changing the state of your ticket as they make progress. Watch for e-mail notifications that are sent when  ticket state changes or a comment is posted.  You can manage frequency of notifications in Profile and Preferences settings on Developer Community site.
 
 ### Why can't I add a problem for Visual Studio IDE on the Developer Community website?
 
-Reporting a problem through Visual Studio allows for diagnostic information to automatically be included in the report. This is essential to give our engineers the context they need to fully understand your issue and work to resolve it. 
+Reporting a problem through Visual Studio allows for diagnostic information to automatically be included in the report. It is essential to give our engineers the context they need to fully understand your issue and work to resolve it. 
 
-When you initiate your problem report through Visual Studio, you're enabled to give our engineers an idea of your environment, send them a reproduction of the issue, and you can easily see if your problem has already been reported.
+When you report through Visual Studio, you're able to easily share  rich diagnostic information including large log files, crash information, screenshots, repro recording, and other artifacts that help us deliver higher-quality resolutions faster to you.
