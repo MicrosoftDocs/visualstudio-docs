@@ -19,15 +19,15 @@ manager: douge
 ms.workload: 
   - "aspnet"
 ---
-# Find the running ASP.NET process
+# Find the name of the ASP.NET process
 
 To debug a running [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] app, the Visual Studio debugger must attach to the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] process by name.
 
-**To find out the process running an ASP.NET app:**
+**To find out which process is running an ASP.NET app:**
 
 1. With the app running, in Visual Studio, select **Debug** > **Attach to Process**. 
    
-1. In the **Attach to Process** dialog, type the first letter of a process name from the following list, or enter it into the search box. The process that is running is the one running the ASP.NET app. Attach to that process to debug the app. 
+1. In the **Attach to Process** dialog, type the first letters of process names from the following list, or enter them into the search box. The one that is running is the one running the ASP.NET app. Attach to that process to debug the app. 
    
     - *w3wp.exe* is IIS 6.0 and later. 
     - *aspnet_wp.exe* is earlier versions of IIS.

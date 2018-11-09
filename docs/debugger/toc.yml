@@ -408,7 +408,7 @@
           href: debugging-preparation-windows-forms-applications.md
         - name: "Debugging preparation: Windows services"
           href: debugging-preparation-windows-services.md
-      - name: Diagnostic Messages in the Output window
+      - name: Send messages to the Output window
         href: diagnostic-messages-in-the-output-window.md
       - name: Assertions in managed code
         href: assertions-in-managed-code.md
