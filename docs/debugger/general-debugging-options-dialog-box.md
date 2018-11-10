@@ -101,7 +101,7 @@ Tells the Visual Studio debugger to get source files from source servers that im
 >  Because Source Link will download files using http or https, make sure you trust the *.pdb* file.  
   
 - **Fall back to Git Credential Manager authentication for all Source Link requests**: 
-    When source link support is enabled, and a source link request fails authentication, Visual Studio then calls the Git Credential Manager.
+    When Source Link support is enabled, and a Source Link request fails authentication, Visual Studio then calls the Git Credential Manager.
 
 **Highlight entire line for breakpoints and current statement (C++ only)**: 
 When the debugger highlights a breakpoint or current statement, it highlights the entire line.  
