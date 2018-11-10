@@ -193,6 +193,9 @@ Enables the Edit and Continue functionality while debugging.
 **Show Run to Click button in editor while debugging**: 
 When this option is selected, the [Run to Click](debugger-feature-tour.md#run-to-a-point-in-your-code-quickly-using-the-mouse) button will be shown while debugging.
 
+**Automatically close the console when debugging stops**: 
+Tells Visual Studio to close the console at the end of a debugging session.
+  
 ## Options available in older versions of Visual Studio
 
 If you're using an older version of Visual Studio, some additional options might be present.
@@ -214,9 +217,6 @@ When this option is selected, the debugger uses the Visual Studio 2010 native de
   
 - Use this option when you are debugging .NET C++ code, because the new debugging engine does not support evaluating .NET C++ expressions. However, enabling Native Compatibility Mode disables many features that depend on the current debugger implementation to operate. For example, the legacy engine lacks many visualizers for built-in types like `std::string` in Visual Studio 2015 projects.   Use Visual Studio 2013 projects for the optimal debugging experience in these cases.
 
-**Automatically close the console when debugging stops**: 
-Tells Visual Studio to close the console at the end of a debugging session.
-  
 ## See also  
  [Debugging in Visual Studio](../debugger/index.md)  
  [Debugger feature tour](../debugger/debugger-feature-tour.md)
