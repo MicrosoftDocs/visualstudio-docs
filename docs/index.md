@@ -151,6 +151,9 @@ ms.topic: hub-page
                                     </div>
                                 </div>
                             </li>
+                        </ul>  
+                     <div> 
+                       <ul class="cardsL"> 
                             <li>
                                 <div class="cardSize">
                                     <div class="cardPadding">
