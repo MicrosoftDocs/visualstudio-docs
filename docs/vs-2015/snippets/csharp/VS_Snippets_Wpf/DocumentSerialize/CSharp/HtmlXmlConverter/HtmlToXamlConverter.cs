@@ -1748,7 +1748,7 @@ namespace SdkSample
         }
 
         /// <summary>
-        /// Gets index at which a column should be inseerted into the columnStarts ArrayList. This is
+        /// Gets index at which a column should be inserted into the columnStarts ArrayList. This is
         /// decided by the value columnStart. The columnStarts ArrayList is ordered in ascending order.
         /// Returns an integer representing the index at which the column should be inserted
         /// </summary>
