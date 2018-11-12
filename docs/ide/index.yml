@@ -40,7 +40,7 @@ sections:
   items:
   - type: paragraph
     text: ''
-    - type: list
+  - type: list
     style: icon48
     items: 
     - image: 
