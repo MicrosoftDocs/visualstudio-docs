@@ -1082,7 +1082,7 @@ namespace SdkSample
         /// Array of doubles - column start coordinates.
         /// Can be null, which means that column size information is not available
         /// and we must use source colgroup/col information.
-        /// In case wneh it's not null, we will ignore source colgroup/col information.
+        /// In case when it's not null, we will ignore source colgroup/col information.
         /// </param>
         /// <param name="currentProperties"></param>
         /// <param name="stylesheet"></param>
