@@ -135,7 +135,7 @@ private void VSColorPaint(object sender, System.Windows.Forms.PaintEventArgs e)
     {
         //get the COLORREF structure
         uint win32Color;
-        uiShell.GetVSSysColorEx(VSSYSCOLOREX.VSCOLOR_SMARTTAG_HOVER_FILL, out win32Color);
+        uiShell2.GetVSSysColorEx((int)__VSSYSCOLOREX.VSCOLOR_SMARTTAG_HOVER_FILL, out win32Color);
 
         //translate it to a managed Color structure
         Color myColor = ColorTranslator.FromWin32((int)win32Color);
