@@ -1567,7 +1567,7 @@ namespace SdkSample
         /// </param>
         /// <param name="tableWidth">
         /// Double value representing the current width of the table.
-        /// Return 0 if analisys was unsuccessful.
+        /// Return 0 if analysis was unsuccessful.
         /// </param>
         private static double AnalyzeTRStructure(XmlElement htmlTRElement, ArrayList columnStarts, ArrayList activeRowSpans, double tableWidth, CssStylesheet stylesheet)
         {
