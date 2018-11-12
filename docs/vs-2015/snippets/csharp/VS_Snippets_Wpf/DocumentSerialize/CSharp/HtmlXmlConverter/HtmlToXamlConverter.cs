@@ -1761,7 +1761,7 @@ namespace SdkSample
         /// <param name="columnIndex">
         /// Int representing the current column index. This acts as a clue while finding the insertion index.
         /// If the value of columnStarts at columnIndex is the same as columnStart, then this position alrady exists
-        /// in the array and we can jsut return columnIndex.
+        /// in the array and we can just return columnIndex.
         /// </param>
         /// <returns></returns>
         private static int GetNextColumnIndex(int columnIndex, double columnWidth, ArrayList columnStarts, ArrayList activeRowSpans)
