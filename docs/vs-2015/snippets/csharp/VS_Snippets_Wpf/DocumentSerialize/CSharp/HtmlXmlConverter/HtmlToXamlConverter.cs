@@ -44,7 +44,7 @@ namespace SdkSample
         /// <param name="asFlowDocument">
         /// true indicates that we need a FlowDocument as a root element;
         /// false means that Section or Span elements will be used
-        /// dependeing on StartFragment/EndFragment comments locations.
+        /// depending on StartFragment/EndFragment comments locations.
         /// </param>
         /// <returns>
         /// Well-formed xml representing XAML equivalent for the input html string.
