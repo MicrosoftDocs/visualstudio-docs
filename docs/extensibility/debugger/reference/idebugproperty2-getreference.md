@@ -23,13 +23,13 @@ Returns a reference to the property's value.
   
 ```cpp  
 HRESULT GetReference(  
-   IDebugReference2** ppReference  
+   IDebugReference2** ppReference  
 );  
 ```  
   
 ```csharp  
 int GetReference(  
-   out IDebugReference2 ppReference  
+   out IDebugReference2 ppReference  
 );  
 ```  
   

@@ -28,11 +28,11 @@ Reads a block of data from the executable's image in memory.
   
 ```cpp#  
 HRESULT readMemory(   
-   enum MemoryTypeEnum type,  
-   ULONGLONG           va,  
-   DWORD               cbData,  
-   DWORD*              pcbData,  
-   BYTE*               pbData  
+   enum MemoryTypeEnum type,  
+   ULONGLONG           va,  
+   DWORD               cbData,  
+   DWORD*              pcbData,  
+   BYTE*               pbData  
 );  
 ```  
   

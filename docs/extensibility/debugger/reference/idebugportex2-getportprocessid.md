@@ -23,13 +23,13 @@ Gets the process ID of the port itself.
   
 ```cpp  
 HRESULT GetPortProcessId (   
-   DWORD* pdwProcessId  
+   DWORD* pdwProcessId  
 );  
 ```  
   
 ```csharp  
 int GetPortProcessId (   
-   out uint pdwProcessId  
+   out uint pdwProcessId  
 );  
 ```  
   

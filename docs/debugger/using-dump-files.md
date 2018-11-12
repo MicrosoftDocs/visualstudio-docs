@@ -58,11 +58,11 @@ Dump files with or without heaps; create a dump file; open a dump file; find the
 ##  <a name="BKMK_Create_a_dump_file"></a> Create a dump file
  To create a dump file with Visual Studio:
 
--   While you are debugging a process in Visual Studio, you can save a dump file when the debugger has stopped at an exception or at a breakpoint. Choose **Debug**, then **Save Dump As**, then **Debug**. In the **Save Dump As** dialog box, in the **Save as type** list, you can select **Minidump** or **Minidump with Heap** (the default).
+- While you are debugging a process in Visual Studio, you can save a dump file when the debugger has stopped at an exception or at a breakpoint. Choose **Debug**, then **Save Dump As**, then **Debug**. In the **Save Dump As** dialog box, in the **Save as type** list, you can select **Minidump** or **Minidump with Heap** (the default).
 
--   With [Just-In-Time Debugging](../debugger/just-in-time-debugging-in-visual-studio.md) enabled, you can attach the debugger to a crashed process that is running outside the debugger, and then save a dump file. See [Attach to Running Processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)
+- With [Just-In-Time Debugging](../debugger/just-in-time-debugging-in-visual-studio.md) enabled, you can attach the debugger to a crashed process that is running outside the debugger, and then save a dump file. See [Attach to Running Processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)
 
- You can also create dump files with any program that supports the Windows minidump format. For example, the **Procdump** command-line utility from [Windows Sysinternals](http://technet.microsoft.com/sysinternals/default) can create process crash dump files based on triggers or on-demand. See [Requirements and limitations](../debugger/using-dump-files.md#BKMK_Requirements_and_limitations) in this topic for additional information about using other tools to create dump files.
+  You can also create dump files with any program that supports the Windows minidump format. For example, the **Procdump** command-line utility from [Windows Sysinternals](http://technet.microsoft.com/sysinternals/default) can create process crash dump files based on triggers or on-demand. See [Requirements and limitations](../debugger/using-dump-files.md#BKMK_Requirements_and_limitations) in this topic for additional information about using other tools to create dump files.
 
 ##  <a name="BKMK_Open_a_dump_file"></a> Open a dump file
 
@@ -79,31 +79,31 @@ Dump files with or without heaps; create a dump file; open a dump file; find the
 ##  <a name="BKMK_Find_binaries__symbol___pdb__files__and_source_files"></a> Find binaries, symbol (.pdb) files, and source files
  To use the full features of Visual Studio to debug a dump file, you need access to:
 
--   The .exe file for which the dump was taken and other binaries (DLLs, etc.) that were used in the dump process.
+- The .exe file for which the dump was taken and other binaries (DLLs, etc.) that were used in the dump process.
 
-     If you are debugging a dump with heap data, Visual Studio can cope with missing binaries for some modules, but it must have binaries for enough modules to generate valid call stacks. Visual Studio includes the native modules in a dump file with heap.
+   If you are debugging a dump with heap data, Visual Studio can cope with missing binaries for some modules, but it must have binaries for enough modules to generate valid call stacks. Visual Studio includes the native modules in a dump file with heap.
 
--   Symbol (.pdb) files for the .exe and other binaries.
+- Symbol (.pdb) files for the .exe and other binaries.
 
--   Source files for the modules that you are interested in.
+- Source files for the modules that you are interested in.
 
-     The executable and the .pdb files must match exactly the version and build of the files used when the dump was created.
+   The executable and the .pdb files must match exactly the version and build of the files used when the dump was created.
 
-     You can debug using the disassembly of the modules if you can't find the source files,
+   You can debug using the disassembly of the modules if you can't find the source files,
 
- **Default search paths for executable files**
+  **Default search paths for executable files**
 
- Visual Studio automatically searches these locations for executable files that aren't included in the dump file:
+  Visual Studio automatically searches these locations for executable files that aren't included in the dump file:
 
-1.  The directory that contains the dump file.
+1. The directory that contains the dump file.
 
-2.  The path of the module that is specified in the dump file. This is the module path on the machine where the dump was collected.
+2. The path of the module that is specified in the dump file. This is the module path on the machine where the dump was collected.
 
-3.  The symbol paths specified in the **Debugging**, **Options**, **Symbols** page of the Visual Studio **Tools**, **Options** dialog box. You can add more locations to search on this page.
+3. The symbol paths specified in the **Debugging**, **Options**, **Symbols** page of the Visual Studio **Tools**, **Options** dialog box. You can add more locations to search on this page.
 
- **Using the No Binary > Symbol > Source pages**
+   **Using the No Binary > Symbol > Source pages**
 
- If Visual Studio can't find the files needed to debug a module in the dump, it displays an appropriate page (**No Binary Found**, **No Symbols Found**, or **No Source Found**). These pages provide detailed information about the cause of the issue and provide action links that can help you identify the correct location of the files. See [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).
+   If Visual Studio can't find the files needed to debug a module in the dump, it displays an appropriate page (**No Binary Found**, **No Symbols Found**, or **No Source Found**). These pages provide detailed information about the cause of the issue and provide action links that can help you identify the correct location of the files. See [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).
 
 ## See also
 

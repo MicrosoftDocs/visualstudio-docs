@@ -22,9 +22,9 @@ Retrieves the previous symbols in order by address.
   
 ```C++  
 HRESULT Prev (   
-   ULONG        celt,   
-   IDiaSymbol** rgelt,  
-   ULONG*       pceltFetched  
+   ULONG        celt,   
+   IDiaSymbol** rgelt,  
+   ULONG*       pceltFetched  
 );  
 ```  
   

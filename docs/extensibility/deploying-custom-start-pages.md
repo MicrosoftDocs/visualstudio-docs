@@ -36,17 +36,17 @@ You can obtain the Start Page project template by using **Extension Manager** or
 
  To create a VSIX deployment without using the Start Page project template, first create a *.vsix* file for the Start Page in either of these two ways:
 
--   By adding your custom Start Page files to an empty VSIX Project. For more information, see [VSIX project template](../extensibility/vsix-project-template.md).
+- By adding your custom Start Page files to an empty VSIX Project. For more information, see [VSIX project template](../extensibility/vsix-project-template.md).
 
--   By manually creating a *.vsix* file. To create a *.vsix* file manually:
+- By manually creating a *.vsix* file. To create a *.vsix* file manually:
 
-    1.  Create the *extension.vsixmanifest* file and the *[Content_Types].xml* file in a new folder. For more information, see [Anatomy of a VSIX package](../extensibility/anatomy-of-a-vsix-package.md).
+  1.  Create the *extension.vsixmanifest* file and the *[Content_Types].xml* file in a new folder. For more information, see [Anatomy of a VSIX package](../extensibility/anatomy-of-a-vsix-package.md).
 
-    2.  In Windows Explorer, right-click the folder that contains the two XML files, click **Send To**, and then click Compressed (zipped) Folder. Rename the resulting *.zip* file to *Filename.vsix*, where Filename is the name of the redistributable file that installs your package.
+  2.  In Windows Explorer, right-click the folder that contains the two XML files, click **Send To**, and then click Compressed (zipped) Folder. Rename the resulting *.zip* file to *Filename.vsix*, where Filename is the name of the redistributable file that installs your package.
 
- For Visual Studio to recognize a Start Page, the `Content Element` of the VSIX Manifest must contain a `CustomExtension Element` that has the `Type` attribute set to `"StartPage"`. A Start Page extension that has been installed by using VSIX deployment appears in the **Customize Start Page** list on the **Startup** options page as **[Installed Extension]** *Extension Name*.
+  For Visual Studio to recognize a Start Page, the `Content Element` of the VSIX Manifest must contain a `CustomExtension Element` that has the `Type` attribute set to `"StartPage"`. A Start Page extension that has been installed by using VSIX deployment appears in the **Customize Start Page** list on the **Startup** options page as **[Installed Extension]** *Extension Name*.
 
- If your Start Page package includes assemblies, you must add binding path registration so that they are available when Visual Studio starts. To do this, make sure that your package includes a *.pkgdef* file that has the following information.
+  If your Start Page package includes assemblies, you must add binding path registration so that they are available when Visual Studio starts. To do this, make sure that your package includes a *.pkgdef* file that has the following information.
 
 ```
 [$RootKey$\BindingPaths\{Insert a new GUID here}]
@@ -79,7 +79,7 @@ You can obtain the Start Page project template by using **Extension Manager** or
      This tells Visual Studio to look in the new Start Page location.
 
 ## File copy deployment
- You do not have to create a *.vsix* file to deploy a custom Start Page. Instead, you can copy the markup and supporting files directly into the user's *\StartPages\* folder. The **Customize Start Page** list on the **Startup** options page lists every *.xaml* file in that folder, together with the path—for example, *%USERPROFILE%\My Documents\Visual Studio {version}\StartPages\\{File Name}.xaml*. If your Start Page includes references to private assemblies, you must copy them and paste them in the *\PrivateAssemblies\* folder.
+ You do not have to create a *.vsix* file to deploy a custom Start Page. Instead, you can copy the markup and supporting files directly into the user's <em>\StartPages\* folder. The **Customize Start Page</em>* list on the **Startup** options page lists every *.xaml* file in that folder, together with the path—for example, *%USERPROFILE%\My Documents\Visual Studio {version}\StartPages\\{File Name}.xaml*. If your Start Page includes references to private assemblies, you must copy them and paste them in the *\PrivateAssemblies\* folder.
 
  To distribute a Start Page that you created without packaging it in a *.vsix* file, we recommend that you use a basic file copy strategy, for example, a batch script, or any other deployment technology that lets you put the files in the required directories.
 

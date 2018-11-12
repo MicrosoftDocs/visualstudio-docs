@@ -1,21 +1,19 @@
 ---
-title: "Color Value Reference for Visual Studio | Microsoft Docs"
+title: Color Value Reference
 description: "Reference: Hex codes for creating new Visual Studio color tokens"
 keywords: "color, hex code, hue, themed UI, theming"
 author: "brickgeorge"
-ms.author: "v-brickg"
+ms.author: gregvanl
 ms.date: 08/04/2017
-ms.topic: "conceptual"
+ms.topic: conceptual
 ms.assetid: 694ffb31-132c-4d63-b930-8254e7c50c25
-ms.custom: ""
 ms.reviewer: "Jamie.Young"
 ms.technology: 
   - "vs-ide-sdk"
 manager: douge
-ms.workload: 
-  - "v-brickg"
 ---
 # Color value reference for Visual Studio
+
 This topic is a reference for creating new color tokens. When you're creating new UI, you can use similar colors from existing UI to choose the colors for each main theme and the system color name for that element for High Contrast themes. 
 
 For implementation information about creating new color tokens, see [Color theming tools](../../extensibility/internals/color-theming-tools.md).
@@ -43,14 +41,14 @@ When using this reference guide, remember:
 
 | | Light theme | Dark theme | Blue theme | High Contrast | 
 | --- | :---: | :---: | :---: | :---: |
-| Default | ![#FFEEEEF2 swatch](../../extensibility/ux-guidelines/media/EEEEF2.png "#FFEEEEF2 swatch")<br />`#FFEEEEF2` |   ![#FF2D2D30 swatch](../../extensibility/ux-guidelines/media/2D2D30.png "#FF2D2D30 swatch")<br />`#FF2D2D30` |  ![#FFEEEEF2 swatch](../../extensibility/ux-guidelines/media/EEEEF2.png "#FFEEEEF2 swatch")<br />`#FFEEEEF2` |  ![ControlDark swatch](../../extensibility/ux-guidelines/media/HCControlDark.png "ControlDark swatch")<br />`ControlDark` |
+| Default | ![#FFEEEEF2 swatch](../../extensibility/ux-guidelines/media/EEEEF2.png "#FFEEEEF2 swatch")<br />`#FFEEEEF2` | ![#FF2D2D30 swatch](../../extensibility/ux-guidelines/media/2D2D30.png "#FF2D2D30 swatch")<br />`#FF2D2D30` | ![#FFEEEEF2 swatch](../../extensibility/ux-guidelines/media/EEEEF2.png "#FFEEEEF2 swatch")<br />`#FFEEEEF2` | ![ControlDark swatch](../../extensibility/ux-guidelines/media/HCControlDark.png "ControlDark swatch")<br />`ControlDark` |
 
 ### Expander glyph
 
 | | Light theme | Dark theme | Blue theme | High Contrast | 
 | --- | :---: | :---: | :---: | :---: |
-| Foreground |![#FF1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E swatch")<br />`#FF1E1E1E` |    ![#FFF1F1F1 swatch](../../extensibility/ux-guidelines/media/F1F1F1.png "#FFF1F1F1 swatch")<br />`#FFF1F1F1` |    ![#FF1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E swatch")<br />`#FF1E1E1E` | ![ControlText swatch](../../extensibility/ux-guidelines/media/HCControlText.png "ControlText swatch")<br />`ControlText` |
-| Background | ![#FFF5F5F5 swatch](../../extensibility/ux-guidelines/media/F5F5F5.png "#FFF5F5F5 swatch")<br />`#FFF5F5F5` |  ![#FF252526 swatch](../../extensibility/ux-guidelines/media/252526.png "#FF252526 swatch")<br />`#FF252526` |  ![#FFF6F6F6 swatch](../../extensibility/ux-guidelines/media/F6F6F6.png "#FFF6F6F6 swatch")<br />`#FFF6F6F6` | ![Window swatch](../../extensibility/ux-guidelines/media/HCWindow.png "Window swatch")<br />`Window`|
+| Foreground |![#FF1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E swatch")<br />`#FF1E1E1E` | ![#FFF1F1F1 swatch](../../extensibility/ux-guidelines/media/F1F1F1.png "#FFF1F1F1 swatch")<br />`#FFF1F1F1` | ![#FF1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E swatch")<br />`#FF1E1E1E` | ![ControlText swatch](../../extensibility/ux-guidelines/media/HCControlText.png "ControlText swatch")<br />`ControlText` |
+| Background | ![#FFF5F5F5 swatch](../../extensibility/ux-guidelines/media/F5F5F5.png "#FFF5F5F5 swatch")<br />`#FFF5F5F5` | ![#FF252526 swatch](../../extensibility/ux-guidelines/media/252526.png "#FF252526 swatch")<br />`#FF252526` | ![#FFF6F6F6 swatch](../../extensibility/ux-guidelines/media/F6F6F6.png "#FFF6F6F6 swatch")<br />`#FFF6F6F6` | ![Window swatch](../../extensibility/ux-guidelines/media/HCWindow.png "Window swatch")<br />`Window`|
 | Foreground: hover | ![#FF007ACC swatch](../../extensibility/ux-guidelines/media/007ACC.png "#FF007ACC swatch")<br />`#FF007ACC` | ![#FF007ACC swatch](../../extensibility/ux-guidelines/media/007ACC.png "#FF007ACC swatch")<br />`#FF007ACC` |![#FF007ACC swatch](../../extensibility/ux-guidelines/media/007ACC.png "#FF007ACC swatch")<br />`#FF007ACC` |![HighlightText swatch](../../extensibility/ux-guidelines/media/HCHighlightText.png "HighlightText swatch")<br />`HighlightText` |
 | Background: hover | ![#FFC9DEF5 swatch](../../extensibility/ux-guidelines/media/C9DEF5.png "#FFC9DEF5 swatch")<br />`#FFC9DEF5` | ![#FF3E3E40 swatch](../../extensibility/ux-guidelines/media/3E3E40.png "#FF3E3E40 swatch")<br />`#FF3E3E40` | ![#FFFFFCF4 swatch](../../extensibility/ux-guidelines/media/FFFCF4.png "#FFFFFCF4 swatch")<br />`#FFFFFCF4` | ![Highlight swatch](../../extensibility/ux-guidelines/media/HCHighlight.png "Highlight swatch")<br />`Highlight` |
 | Border | ![#FFF5F5F5 swatch](../../extensibility/ux-guidelines/media/F5F5F5.png "#FFF5F5F5 swatch")<br />`#FFF5F5F5` | ![#FF252526 swatch](../../extensibility/ux-guidelines/media/252526.png "#FF252526 swatch")<br />`#FF252526` | ![#FFF6F6F6 swatch](../../extensibility/ux-guidelines/media/F6F6F6.png "#FFF6F6F6 swatch")<br />`#FFF6F6F6` | ![Window swatch](../../extensibility/ux-guidelines/media/HCWindow.png "Window swatch")<br />`Window` |

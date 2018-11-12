@@ -22,7 +22,7 @@ Skips a specified number of injected sources in an enumeration sequence.
   
 ```C++  
 HRESULT Skip (   
-   ULONG celt  
+   ULONG celt  
 );  
 ```  
   

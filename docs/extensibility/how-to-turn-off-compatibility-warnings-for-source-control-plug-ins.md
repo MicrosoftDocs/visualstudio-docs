@@ -20,11 +20,11 @@ A user may see several compatibility warnings when employing source control in [
   
 ### To disable the warning: "To ensure optimal source control integration with Visual Studio"  
   
--   Set the following registry entry (adding the value if necessary):  
+- Set the following registry entry (adding the value if necessary):  
   
-     **HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\8.0\SourceControl\DontDisplayCheckDotNETCompatible = dword:00000001**  
+   **HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\8.0\SourceControl\DontDisplayCheckDotNETCompatible = dword:00000001**  
   
-     This warning is displayed for all non-[!INCLUDE[vsvss](../extensibility/includes/vsvss_md.md)] plug-ins.  
+   This warning is displayed for all non-[!INCLUDE[vsvss](../extensibility/includes/vsvss_md.md)] plug-ins.  
   
 ### To disable the warning: "The installed source control provider does not support all the capabilities"  
   

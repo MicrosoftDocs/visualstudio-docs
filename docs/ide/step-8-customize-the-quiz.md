@@ -24,7 +24,7 @@ In the last part of the tutorial, you'll explore some ways to customize the quiz
   
 ## To continue or review  
   
--   To download a completed version of the quiz, see [Complete math quiz tutorial sample](http://code.msdn.microsoft.com/Complete-Math-Quiz-8581813c).  
+-   To download a completed version of the quiz, see [Complete math quiz tutorial sample](https://code.msdn.microsoft.com/Complete-Math-Quiz-8581813c).  
   
 -   To go to the next tutorial, see [Tutorial 3: Create a matching game](../ide/tutorial-3-create-a-matching-game.md).  
   

@@ -29,11 +29,11 @@ You can require that code analysis be run on all code projects in a team project
   
  Code analysis check-in policies are set in the team project settings and apply to each code project in the team project. Code analysis runs are configured for code projects in the project (.xxproj) file for the code project. Code analysis runs are performed on the local computer. When you enable a code analysis check-in policy, files in a code project that are to be checked in must be compiled after their last edit and a code analysis run that contains, at a minimum, the rules in the team project settings must be performed on the computer where the changes have been made.  
   
--   For managed code, you set the check-in policy by specifying a *rule set* that contains a subset of the code analysis rules.  
+- For managed code, you set the check-in policy by specifying a *rule set* that contains a subset of the code analysis rules.  
   
--   For C/C++ code, the check-in policy requires that all code analysis rules are run. You can add pre-processor directives to disable specific rules for the individual code projects in your team project.  
+- For C/C++ code, the check-in policy requires that all code analysis rules are run. You can add pre-processor directives to disable specific rules for the individual code projects in your team project.  
   
- After you specify a check-in policy for managed code, team members can synchronize their code analysis settings for code projects to the team project policy settings.  
+  After you specify a check-in policy for managed code, team members can synchronize their code analysis settings for code projects to the team project policy settings.  
   
 ### To open the check-in policy editor  
   

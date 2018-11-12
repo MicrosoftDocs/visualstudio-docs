@@ -23,9 +23,9 @@ This function retrieves a variety of user-specific options.
   
 ```cpp  
 SCCRTN SccGetUserOption(  
-   LPVOID pContext,  
-   LONG nOption,  
-   LPLONG lpVal  
+   LPVOID pContext,  
+   LONG nOption,  
+   LPLONG lpVal  
 );  
 ```  
   

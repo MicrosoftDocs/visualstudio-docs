@@ -28,7 +28,7 @@ Retrieves a flag that specifies whether the function contains any unmanaged C++-
   
 ```cpp  
 HRESULT get_hasEH(  
-   BOOL *pFlag  
+   BOOL *pFlag  
 );  
 ```  
   

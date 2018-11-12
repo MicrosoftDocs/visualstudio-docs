@@ -28,13 +28,13 @@ Sets or changes the condition associated with the pending breakpoint.
   
 ```cpp#  
 HRESULT SetCondition(   
-   BP_CONDITION bpCondition  
+   BP_CONDITION bpCondition  
 );  
 ```  
   
 ```csharp  
 int SetCondition(   
-   BP_CONDITION bpCondition  
+   BP_CONDITION bpCondition  
 );  
 ```  
   

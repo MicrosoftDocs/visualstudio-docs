@@ -28,8 +28,8 @@ Reads `BSTR` values in a property set.
   
 ```cpp#  
 HRESULT ReadBSTR (   
-   PROPID id,  
-   BSTR*  pValue  
+   PROPID id,  
+   BSTR*  pValue  
 );  
 ```  
   

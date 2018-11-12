@@ -1,7 +1,7 @@
 ---
 title: IPython REPL (interactive window)
 description: Using the Visual Studio interactive window in IPython mode for a user-friendly interactive development environment with Interactive Parallel Computing features.
-ms.date: 06/19/2018
+ms.date: 10/29/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: conceptual
@@ -24,30 +24,30 @@ For this walkthrough you should have the [Anaconda](https://www.continuum.io) en
 
 1. Open Visual Studio, switch to the **Python Environments** window (**View** > **Other Windows** > **Python Environments**), and select an Anaconda environment.
 
-1. Examine the **Packages (Conda)** tab (which may appear as **pip** or **Packages**) for that environment to make sure that `ipython` and `matplotlib` are listed. If not, install them here. (See [Python Environments windows - Packages tab](python-environments-window-tab-reference.md).)
+2. Examine the **Packages (Conda)** tab (which may appear as **pip** or **Packages**) for that environment to make sure that `ipython` and `matplotlib` are listed. If not, install them here. (See [Python Environments windows - Packages tab](python-environments-window-tab-reference.md).)
 
-1. Select the **Overview** tab and select **Use IPython interactive mode**. (In Visual Studio 2015, select **Configure interactive options** to open the **Options** dialog, then set **Interactive Mode** to **IPython**, and select **OK**).
+3. Select the **Overview** tab and select **Use IPython interactive mode**. (In Visual Studio 2015, select **Configure interactive options** to open the **Options** dialog, then set **Interactive Mode** to **IPython**, and select **OK**).
 
-1. Select **Open interactive window** to bring up the **Interactive** window in IPython mode. You may need to reset the window if you have just changed the interactive mode; you might also need to press **Enter** if only a >>> prompt appears, so that you get a prompt like **In [2]**.
+4. Select **Open interactive window** to bring up the **Interactive** window in IPython mode. You may need to reset the window if you have just changed the interactive mode; you might also need to press **Enter** if only a >>> prompt appears, so that you get a prompt like **In [2]**.
 
     ![The interactive window in IPython mode](media/ipython-repl-03.png)
 
-1. Enter the following code:
+5. Enter the following code:
 
-  ```python
-  import matplotlib.pyplot as plt
-  import numpy as np
+   ```python
+   import matplotlib.pyplot as plt
+   import numpy as np
   
-  x = np.linspace(0, 5, 10)
-  y = x ** 2
-  plt.plot(x, y, 'r', x, x ** 3, 'g', x, x ** 4, 'b')
-  ```
+   x = np.linspace(0, 5, 10)
+   y = x ** 2
+   plt.plot(x, y, 'r', x, x ** 3, 'g', x, x ** 4, 'b')
+   ```
 
-1. After entering the last line, you should see an inline graph (which you can resize by dragging on the lower right-hand corner if desired).
+6. After entering the last line, you should see an inline graph (which you can resize by dragging on the lower right-hand corner if desired).
 
     ![Inline graph in the interactive window](media/ipython-repl-04.png)
 
-1. Instead of typing in the REPL, you can instead write code in the editor, select it, right-click, and select the **Send to Interactive** command (or press **Ctrl**+**Enter**). Try pasting the code below into a new file in the editor, selecting it with **Ctrl**+**A**, then sending to the **Interactive** window. (Visual Studio sends the code as one unit to avoid giving you intermediate or partial graphs. And if you don't have a Python project open with a different environment selected, Visual Studio opens an **Interactive** window for whatever environment is selected as your default in the **Python Environments** window.)
+7. Instead of typing in the REPL, you can instead write code in the editor, select it, right-click, and select the **Send to Interactive** command (or press **Ctrl**+**Enter**). Try pasting the code below into a new file in the editor, selecting it with **Ctrl**+**A**, then sending to the **Interactive** window. (Visual Studio sends the code as one unit to avoid giving you intermediate or partial graphs. And if you don't have a Python project open with a different environment selected, Visual Studio opens an **Interactive** window for whatever environment is selected as your default in the **Python Environments** window.)
 
     ```python
     from mpl_toolkits.mplot3d import Axes3D
@@ -72,7 +72,7 @@ For this walkthrough you should have the [Anaconda](https://www.continuum.io) en
 
     ![Sending code from the editor to the interactive window](media/ipython-repl-05.png)
 
-1. To see the graphs outside of the **Interactive** window, run the code instead using the **Debug** > **Start without Debugging** command.
+8. To see the graphs outside of the **Interactive** window, run the code instead using the **Debug** > **Start without Debugging** command.
 
 IPython has many other useful features such as escaping to the system shell, variable substitution, capturing output, etc. Refer to the [IPython documentation](http://ipython.org/documentation.html) for more.
 

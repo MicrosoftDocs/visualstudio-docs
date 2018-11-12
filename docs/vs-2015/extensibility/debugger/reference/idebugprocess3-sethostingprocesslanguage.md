@@ -27,13 +27,13 @@ This method sets the language that the process will be hosted under. This langua
   
 ```cpp  
 HRESULT SetHostingProcessLanguage(  
-   REFGUID guidLang  
+   REFGUID guidLang  
 );  
 ```  
   
 ```csharp  
 int SetHostingProcessLanguage(  
-   ref Guid guidLang  
+   ref Guid guidLang  
 );  
 ```  
   

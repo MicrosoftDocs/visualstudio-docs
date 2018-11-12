@@ -25,19 +25,19 @@ Retrieves a expression evaluator local object given the metric name.
   
 ```cpp#  
 HRESULT GetEELocalObject(  
-   REFGUID     guidLang,  
-   REFGUID     guidVendor,  
-   LPCWSTR     pszMetric,  
-   IUnknown ** ppUnk  
+   REFGUID     guidLang,  
+   REFGUID     guidVendor,  
+   LPCWSTR     pszMetric,  
+   IUnknown ** ppUnk  
 );  
 ```  
   
 ```csharp  
 private int GetEELocalObject(  
-   ref Guid          guidLang,  
-   ref Guid          guidVendor,  
-   string            pszMetric,  
-   out System.Object ppUnk  
+   ref Guid          guidLang,  
+   ref Guid          guidVendor,  
+   string            pszMetric,  
+   out System.Object ppUnk  
 );  
 ```  
   

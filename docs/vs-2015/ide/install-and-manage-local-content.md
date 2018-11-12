@@ -103,9 +103,9 @@ By using the Microsoft Help Viewer, you can add, remove, update, and move the He
   
 #### To update local content  
   
--   In the lower-right corner of the status bar, choose the **Click here to download now** link.  
+- In the lower-right corner of the status bar, choose the **Click here to download now** link.  
   
- Update times can vary, but you can view the update progress in the status bar.  
+  Update times can vary, but you can view the update progress in the status bar.  
   
 ## Moving local content  
  You can save disk space by moving installed content from your local computer to a network share or to another partition on your local computer.  

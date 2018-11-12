@@ -21,7 +21,7 @@ An MSBuild Toolset contains references to tasks, targets, and tools that you can
  MSBuild 15.0 includes the following standard Toolsets:  
   
 |ToolsVersion|Toolset path (as specified in the MSBuildToolsPath or MSBuildBinPath build property)|  
-|------------------|--------------------------------------------------------------------------------------------|  
+|------------------| - |  
 |2.0|*\<Windows installation path>\Microsoft.Net\Framework\v2.0.50727\\*|  
 |3.5|*\<Windows installation path>\Microsoft.NET\Framework\v3.5\\*|  
 |4.0|*\<Windows installation path>\Microsoft.NET\Framework\v4.0.30319\\*|  
@@ -33,9 +33,9 @@ An MSBuild Toolset contains references to tasks, targets, and tools that you can
   
 |Registry key|Key name|String key value|  
 |------------------|--------------|----------------------|  
-|**\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ MSBuild\ToolsVersions\2.0\\**  |**MSBuildToolsPath**|**.NET Framework 2.0 Install Path**|  
-|**\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ MSBuild\ToolsVersions\3.5\\**  |**MSBuildToolsPath**|**.NET Framework 3.5 Install Path**|  
-|**\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ MSBuild\ToolsVersions\4.0\\**  |**MSBuildToolsPath**|**.NET Framework 4 Install Path**|  
+|**\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ MSBuild\ToolsVersions\2.0\\** |**MSBuildToolsPath**|**.NET Framework 2.0 Install Path**|  
+|**\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ MSBuild\ToolsVersions\3.5\\** |**MSBuildToolsPath**|**.NET Framework 3.5 Install Path**|  
+|**\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ MSBuild\ToolsVersions\4.0\\** |**MSBuildToolsPath**|**.NET Framework 4 Install Path**|  
   
 ### Sub-toolsets  
  If the registry key in the previous table has a subkey, MSBuild uses it to determine the path of a sub-toolset that overrides the path in the parent Toolset. The following subkey is an example:  
@@ -85,11 +85,11 @@ An MSBuild Toolset contains references to tasks, targets, and tools that you can
   
  The following properties are specific to the value of `ToolsVersion` that is used in projects:  
   
--   **$(MSBuildBinPath)** is set to the `ToolsPath` value that is specified either in the registry or in the configuration file where the `ToolsVersion` is defined. The `$(MSBuildToolsPath)` setting in the registry or the configuration file specifies the location of the core tasks and targets. In the project file, this maps to the $(MSBuildBinPath) property, and also to the $(MSBuildToolsPath) property.  
+- **$(MSBuildBinPath)** is set to the `ToolsPath` value that is specified either in the registry or in the configuration file where the `ToolsVersion` is defined. The `$(MSBuildToolsPath)` setting in the registry or the configuration file specifies the location of the core tasks and targets. In the project file, this maps to the $(MSBuildBinPath) property, and also to the $(MSBuildToolsPath) property.  
   
--   `$(MSBuildToolsPath)` is a reserved property that is supplied by the MSBuildToolsPath property that is specified in the configuration file. (This property replaces `$(MSBuildBinPath)`. However, `$(MSBuildBinPath)` is carried forward for compatibility.) A custom Toolset must define either `$(MSBuildToolsPath)` or `$(MSBuildBinPath)` but not both, unless they both have the same value.  
+- `$(MSBuildToolsPath)` is a reserved property that is supplied by the MSBuildToolsPath property that is specified in the configuration file. (This property replaces `$(MSBuildBinPath)`. However, `$(MSBuildBinPath)` is carried forward for compatibility.) A custom Toolset must define either `$(MSBuildToolsPath)` or `$(MSBuildBinPath)` but not both, unless they both have the same value.  
   
- You can also add custom, ToolsVersion-specific properties to the configuration file by using the same syntax that you use to add the MSBuildToolsPath property. To make these custom properties available to the project file, use the same name as the name of the value that is specified in the configuration file. You may define Toolsets but not sub-toolsets in the configuration file.  
+  You can also add custom, ToolsVersion-specific properties to the configuration file by using the same syntax that you use to add the MSBuildToolsPath property. To make these custom properties available to the project file, use the same name as the name of the value that is specified in the configuration file. You may define Toolsets but not sub-toolsets in the configuration file.  
   
 ## See also  
  [Toolset (ToolsVersion)](../msbuild/msbuild-toolset-toolsversion.md)

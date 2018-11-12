@@ -37,7 +37,7 @@ ms.workload:
 You can add these members to types on a class diagram and configure those members in the **Class Details** window:
 
 |**Type**|**Members it can contain**|
-|--------------|--------------------------------|
+|--------------| - |
 |Class|method, property (for C# and Visual Basic), field, event (for C# and Visual Basic), constructor (method), destructor (method), constant|
 |Enum|member|
 |Interface|method, property, event (for C# and Visual Basic)|
@@ -52,7 +52,7 @@ You can add these members to types on a class diagram and configure those member
 ## Common tasks
 
 |Task|Supporting content|
-|----------|------------------------|
+|----------| - |
 |**Get started:** Before you create and configure type members, you must open the **Class Details** window.|- [Open the Class Details window](creating-and-configuring-type-members.md#open-the-class-details-window)<br />- [Class Details usage notes](creating-and-configuring-type-members.md#class-details-usage-notes)<br />- [Display of read-only information](creating-and-configuring-type-members.md#display-of-read-only-information)<br />- [Keyboard and mouse shortcuts in the Class Diagram and Class Details window](keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window.md)|
 |**Create and modify type members:** You can create new members, modify members, and add parameters to a method by using the **Class Details** window.|- [Create members](creating-and-configuring-type-members.md#create-members)<br />- [Modify type members](creating-and-configuring-type-members.md#modify-type-members)<br />- [Add parameters to methods](creating-and-configuring-type-members.md#add-parameters-to-methods)|
 

@@ -22,7 +22,7 @@ Retrieves the memory location where the image should be based.
   
 ```C++  
 HRESULT get_imageBase (   
-   ULONGLONG* pRetVal  
+   ULONGLONG* pRetVal  
 );  
 ```  
   

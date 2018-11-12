@@ -22,7 +22,7 @@ Retrieves the segment number.
   
 ```C++  
 HRESULT get_frame (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

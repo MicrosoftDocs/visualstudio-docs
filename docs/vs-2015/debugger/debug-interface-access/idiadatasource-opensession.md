@@ -28,7 +28,7 @@ Opens a session for querying symbols.
   
 ```cpp#  
 HRESULT openSession (   
-   IDiaSession** ppSession  
+   IDiaSession** ppSession  
 );  
 ```  
   

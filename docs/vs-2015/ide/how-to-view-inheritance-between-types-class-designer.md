@@ -28,23 +28,23 @@ You can find the inheritance relationship, if it exists, between a base type and
   
 ### To find the base type  
   
-1.  On the class diagram, click the type for which you want to see the base class or interface.  
+1. On the class diagram, click the type for which you want to see the base class or interface.  
   
-2.  On the **Class Diagram** menu, choose **Show Base Class** or **Show Base Interfaces**.  
+2. On the **Class Diagram** menu, choose **Show Base Class** or **Show Base Interfaces**.  
   
-     The type's base class or interface appears selected on the diagram. Any hidden inheritance lines now appear between the two shapes.  
+    The type's base class or interface appears selected on the diagram. Any hidden inheritance lines now appear between the two shapes.  
   
- You can also right-click the type whose base type you want to display, and choose **Show Base Class** or **Show Base Interfaces**.  
+   You can also right-click the type whose base type you want to display, and choose **Show Base Class** or **Show Base Interfaces**.  
   
 ### To find the derived types  
   
-1.  On the class diagram, click the type for which you want to see the derived classes or interfaces.  
+1. On the class diagram, click the type for which you want to see the derived classes or interfaces.  
   
-2.  On the **Class Diagram** menu, choose **Show Derived Classes** or **Show Derived Interfaces**.  
+2. On the **Class Diagram** menu, choose **Show Derived Classes** or **Show Derived Interfaces**.  
   
-     The type’s derived classes or interfaces appear on the diagram. Any hidden inheritance lines now appear between the shapes.  
+    The type’s derived classes or interfaces appear on the diagram. Any hidden inheritance lines now appear between the shapes.  
   
- You can also right-click the type for which you want to see its derived types, and choose **Show Derived Classes** or **Show Derived Interfaces**.  
+   You can also right-click the type for which you want to see its derived types, and choose **Show Derived Classes** or **Show Derived Interfaces**.  
   
 ## See Also  
  [How to: Create Associations Between Types (Class Designer)](../ide/how-to-create-associations-between-types-class-designer.md)   

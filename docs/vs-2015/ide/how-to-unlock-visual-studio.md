@@ -52,13 +52,13 @@ You can evaluate Visual Studio for free up to 30 days. When you sign into the ID
   
  This message indicates that while your subscription may still be valid, the license token Visual Studio uses to keep your subscription up to date hasn’t been refreshed and has gone stale due to one of the following reasons:  
   
-1.  You have not used Visual Studio or have had no internet connection for an extend period of time.  
+1. You have not used Visual Studio or have had no internet connection for an extend period of time.  
   
-2.  You signed out of Visual Studio.  
+2. You signed out of Visual Studio.  
   
- Before the license token goes stale, Visual Studio will first show a warning message asking you to re-enter your credentials.  
+   Before the license token goes stale, Visual Studio will first show a warning message asking you to re-enter your credentials.  
   
- If you do not reenter your credentials the token starts to go stale. When this happens, the Account Settings dialog tells you how many days you have left before your token will fully expire. After your token expires, you will need to reenter your credentials for this account or license with another method above before you can continue using Visual Studio.  
+   If you do not reenter your credentials the token starts to go stale. When this happens, the Account Settings dialog tells you how many days you have left before your token will fully expire. After your token expires, you will need to reenter your credentials for this account or license with another method above before you can continue using Visual Studio.  
   
 > [!IMPORTANT]
 >  If you are using Visual Studio for extended periods in environments with limited or no internet access, you should use a product key to unlock Visual Studio in order to avoid interruption.  

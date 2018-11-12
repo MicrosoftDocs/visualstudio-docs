@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA2216: Disposable types should declare finalizer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|DisposableTypesShouldDeclareFinalizer|

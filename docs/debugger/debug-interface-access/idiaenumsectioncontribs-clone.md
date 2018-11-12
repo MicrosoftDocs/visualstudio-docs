@@ -22,7 +22,7 @@ Creates an enumerator that contains the same enumeration state as the current en
   
 ```C++  
 HRESULT Clone(   
-   IDiaEnumSectionContrib** ppenum  
+   IDiaEnumSectionContrib** ppenum  
 );  
 ```  
   

@@ -201,19 +201,19 @@ freedbg(pbData, _CLIENT_BLOCK|(MYSUBTYPE<<16));
   
  **To use the debug heap**  
   
--   Link the debug build of your application with a debug version of the C run-time library.  
+- Link the debug build of your application with a debug version of the C run-time library.  
   
- **To change one or more _crtDbgFlag bit fields and create a new state for the flag**  
+  **To change one or more _crtDbgFlag bit fields and create a new state for the flag**  
   
-1.  Call `_CrtSetDbgFlag` with the `newFlag` parameter set to `_CRTDBG_REPORT_FLAG` (to obtain the current `_crtDbgFlag` state) and store the returned value in a temporary variable.  
+1. Call `_CrtSetDbgFlag` with the `newFlag` parameter set to `_CRTDBG_REPORT_FLAG` (to obtain the current `_crtDbgFlag` state) and store the returned value in a temporary variable.  
   
-2.  Turn on any bits by `OR`-ing (bitwise &#124; symbol) the temporary variable with the corresponding bitmasks (represented in the application code by manifest constants).  
+2. Turn on any bits by `OR`-ing (bitwise &#124; symbol) the temporary variable with the corresponding bitmasks (represented in the application code by manifest constants).  
   
-3.  Turn off the other bits by `AND`-ing (bitwise & symbol) the variable with a `NOT` (bitwise ~ symbol) of the appropriate bitmasks.  
+3. Turn off the other bits by `AND`-ing (bitwise & symbol) the variable with a `NOT` (bitwise ~ symbol) of the appropriate bitmasks.  
   
-4.  Call `_CrtSetDbgFlag` with the `newFlag` parameter set to the value stored in the temporary variable to create the new state for `_crtDbgFlag`.  
+4. Call `_CrtSetDbgFlag` with the `newFlag` parameter set to the value stored in the temporary variable to create the new state for `_crtDbgFlag`.  
   
- For example, the following lines of code turn on automatic leak detection and turn off checking for blocks of type `_CRT_BLOCK`:  
+   For example, the following lines of code turn on automatic leak detection and turn off checking for blocks of type `_CRT_BLOCK`:  
   
 ```cpp
 // Get current flag  

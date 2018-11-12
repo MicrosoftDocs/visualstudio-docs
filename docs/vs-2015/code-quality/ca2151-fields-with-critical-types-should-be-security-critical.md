@@ -17,6 +17,7 @@ manager: "wpickett"
 ---
 # CA2151: Fields with critical types should be security critical
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName||
@@ -37,7 +38,6 @@ manager: "wpickett"
    {
       Type1 m_field; // CA2151, transparent field of critical type
    }
-
 ```
 
  In this example, `m_field` is a security transparent field of a type that is security critical.
@@ -71,7 +71,6 @@ manager: "wpickett"
       [SecurityCritical]
       Type1 m_field; // Fixed: critical type, critical field
    }
-
 ```
 
 ## When to Suppress Warnings

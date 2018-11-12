@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA2006: Use SafeHandle to encapsulate native resources
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|UseSafeHandleToEncapsulateNativeResources|

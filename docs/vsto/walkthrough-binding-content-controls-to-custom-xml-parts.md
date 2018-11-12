@@ -30,19 +30,19 @@ ms.workload:
   
  This walkthrough illustrates the following tasks:  
   
--   Adding content controls to the Word document in a document-level project at design time.  
+- Adding content controls to the Word document in a document-level project at design time.  
   
--   Creating an XML data file and an XML schema that defines the elements to bind to the content controls.  
+- Creating an XML data file and an XML schema that defines the elements to bind to the content controls.  
   
--   Attaching the XML schema to the document at design time.  
+- Attaching the XML schema to the document at design time.  
   
--   Adding the contents of the XML file to a custom XML part in the document at runtime.  
+- Adding the contents of the XML file to a custom XML part in the document at runtime.  
   
--   Binding the content controls to elements in the custom XML part.  
+- Binding the content controls to elements in the custom XML part.  
   
--   Binding a <xref:Microsoft.Office.Tools.Word.DropDownListContentControl> to a set of values that are defined in the XML schema.  
+- Binding a <xref:Microsoft.Office.Tools.Word.DropDownListContentControl> to a set of values that are defined in the XML schema.  
   
- [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
+  [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
   
 ## Prerequisites  
  You need the following components to complete this walkthrough:  
@@ -65,36 +65,36 @@ ms.workload:
   
 ### To add content controls to the document  
   
-1.  In the Word document that is hosted in the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] designer, on the Ribbon, choose the **Insert** tab.  
+1. In the Word document that is hosted in the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] designer, on the Ribbon, choose the **Insert** tab.  
   
-2.  In the **Tables** group, choose **Table**, and insert a table with 2 columns and 3 rows.  
+2. In the **Tables** group, choose **Table**, and insert a table with 2 columns and 3 rows.  
   
-3.  Type text in the first column so that it resembles the following column:  
+3. Type text in the first column so that it resembles the following column:  
   
-    ||  
-    |-|  
-    |**Employee Name**|  
-    |**Hire Date**|  
-    |**Title**|  
+   ||  
+   |-|  
+   |**Employee Name**|  
+   |**Hire Date**|  
+   |**Title**|  
   
-4.  In the second column of the table, choose the first row (next to **Employee Name**).  
+4. In the second column of the table, choose the first row (next to **Employee Name**).  
   
-5.  On the Ribbon, choose the **Developer** tab.  
+5. On the Ribbon, choose the **Developer** tab.  
   
-    > [!NOTE]  
-    >  If the **Developer** tab is not visible, you must first show it. For more information, see [How to: Show the developer tab on the ribbon](../vsto/how-to-show-the-developer-tab-on-the-ribbon.md).  
+   > [!NOTE]  
+   >  If the **Developer** tab is not visible, you must first show it. For more information, see [How to: Show the developer tab on the ribbon](../vsto/how-to-show-the-developer-tab-on-the-ribbon.md).  
   
-6.  In the **Controls** group, choose the **Text** button ![PlainTextContentControl](../vsto/media/plaintextcontrol.gif "PlainTextContentControl") to add a <xref:Microsoft.Office.Tools.Word.PlainTextContentControl> to the first cell.  
+6. In the **Controls** group, choose the **Text** button ![PlainTextContentControl](../vsto/media/plaintextcontrol.gif "PlainTextContentControl") to add a <xref:Microsoft.Office.Tools.Word.PlainTextContentControl> to the first cell.  
   
-7.  In the second column of the table, choose the second row (next to **Hire Date**).  
+7. In the second column of the table, choose the second row (next to **Hire Date**).  
   
-8.  In the **Controls** group, choose the **Date Picker** button ![DatePickerContentControl](../vsto/media/datepicker.gif "DatePickerContentControl") to add a <xref:Microsoft.Office.Tools.Word.DatePickerContentControl> to the second cell.  
+8. In the **Controls** group, choose the **Date Picker** button ![DatePickerContentControl](../vsto/media/datepicker.gif "DatePickerContentControl") to add a <xref:Microsoft.Office.Tools.Word.DatePickerContentControl> to the second cell.  
   
 9. In the second column of the table, choose the third row (next to **Title**).  
   
 10. In the **Controls** group, choose the **Drop-Down List** button ![DropDownListContentControl](../vsto/media/dropdownlist.gif "DropDownListContentControl") to add a <xref:Microsoft.Office.Tools.Word.DropDownListContentControl> to the last cell.  
   
- That is the entire user interface for this project. If you run the project now, you can type text in the first row and select a date in the second row. The next step is to attach the data that you want to display to the document in an XML file.  
+    That is the entire user interface for this project. If you run the project now, you can type text in the first row and select a date in the second row. The next step is to attach the data that you want to display to the document in an XML file.  
   
 ## Create the XML data file  
  Typically, you will obtain XML data to store in a custom XML part from an external source, such as a file or a database. In this walkthrough, you create an XML file that contains the employee data, marked by elements that you will bind to the content controls in the document. To make the data available at runtime, embed the XML file as a resource in the customization assembly.  
@@ -183,7 +183,7 @@ ms.workload:
 ## Attach the XML schema to the document  
  You must attach the XML schema to the document to bind the <xref:Microsoft.Office.Tools.Word.DropDownListContentControl> to the valid values of the `title` element.  
   
-### To attach the XML schema to the document ([!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)])  
+### To attach the XML schema to the document ( [!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)])  
   
 1.  Activate **EmployeeControls.docx** in the designer.  
   
@@ -290,7 +290,7 @@ ms.workload:
   
 9. Name the file **EmployeeControls.docx.zip**.  
   
-     The **EmployeeControls.docx** document is saved in the Open XML Format. By renaming this document with the *.zip* file name extension, you can examine the contents of the document. For more information about Open XML, see the technical article [Introducing the Office (2007) Open XML file formats](http://msdn.microsoft.com/96018532-f62c-4da7-bbff-16b96a483fbf).  
+     The **EmployeeControls.docx** document is saved in the Open XML Format. By renaming this document with the *.zip* file name extension, you can examine the contents of the document. For more information about Open XML, see the technical article [Introducing the Office (2007) Open XML file formats](/previous-versions/office/developer/office-2007/aa338205(v=office.12)).  
   
 10. Open the **EmployeeControls.docx.zip** file.  
   

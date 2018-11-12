@@ -40,7 +40,7 @@ A common application scenario is to display selected data on a form. For example
   
 -   Creating and configuring the data source in your application with the **Data Source Configuration** wizard.  
   
--   Setting the drop type of the items in the **Data Sources**window.  
+-   Setting the drop type of the items in the **Data Sources** window.  
   
 -   Creating controls that display data by dragging items from the **Data Sources** window onto a form.  
   

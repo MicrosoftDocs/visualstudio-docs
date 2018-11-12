@@ -23,13 +23,13 @@ Gets the result of expression evaluation.
   
 ```cpp  
 HRESULT GetResult(   
-   IDebugProperty2** ppResult  
+   IDebugProperty2** ppResult  
 );  
 ```  
   
 ```csharp  
 int GetResult(   
-   out IDebugProperty2 ppResult  
+   out IDebugProperty2 ppResult  
 );  
 ```  
   

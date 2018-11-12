@@ -61,7 +61,7 @@ ms.workload:
   
  You can debug an application page just as you would debug other SharePoint project items in Visual Studio. When you start the Visual Studio debugger, Visual Studio opens the SharePoint site.  
   
- To view the application page, you must manually navigate to the location of the application page (for example: http://*Server_Name*/_layouts/*Project_Name*/ApplicationPage1.aspx).  
+ To view the application page, you must manually navigate to the location of the application page (for example: http://<em>Server_Name</em>/_layouts/*Project_Name*/ApplicationPage1.aspx).  
   
  For more information about how to debug SharePoint projects, see [Troubleshoot SharePoint solutions](../sharepoint/troubleshooting-sharepoint-solutions.md).  
   

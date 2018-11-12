@@ -22,8 +22,8 @@ Retrieves an injected source by means of an index.
   
 ```C++  
 HRESULT Item (   
-   DWORD                index,  
-   IDiaInjectedSource** injectedSource  
+   DWORD                index,  
+   IDiaInjectedSource** injectedSource  
 );  
 ```  
   

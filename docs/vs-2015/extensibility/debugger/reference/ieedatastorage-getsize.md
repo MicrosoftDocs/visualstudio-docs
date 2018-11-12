@@ -27,13 +27,13 @@ Returns the number of bytes contained in this object.
   
 ```cpp#  
 HRESULT GetSize(  
-   ULONG* size  
+   ULONG* size  
 );  
 ```  
   
 ```csharp  
 int GetSize(  
-   out uint size  
+   out uint size  
 );  
 ```  
   

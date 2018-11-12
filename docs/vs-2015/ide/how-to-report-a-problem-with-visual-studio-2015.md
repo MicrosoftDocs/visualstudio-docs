@@ -31,13 +31,13 @@ If you encounter a problem with Visual Studio 2015, we want to know about it so 
   
 ###  <a name="describe_the_problem"></a>  
   
-1.  Give a descriptive title for the problem that will help us route it to the correct team within Visual Studio.  
+1. Give a descriptive title for the problem that will help us route it to the correct team within Visual Studio.  
   
-2.  Give any additional details and if possible, the steps to reproduce the problem.  
+2. Give any additional details and if possible, the steps to reproduce the problem.  
   
-3.  Choose a problem area from the dropdown. Make a best guess if you are not sure.  
+3. Choose a problem area from the dropdown. Make a best guess if you are not sure.  
   
- ![Report A Problem Dialog](../ide/media/report-a-problem-dialog.png "Report A Problem Dialog")  
+   ![Report A Problem Dialog](../ide/media/report-a-problem-dialog.png "Report A Problem Dialog")  
   
 ## Provide a screenshot (optional)  
  Choose **Include a screenshot** to send your current screen to Microsoft. The tool enables you to crop the image to show only            the part of the screen that shows the problem. You can attach additional screenshots or other files by clicking the **Attach Additional Files** button.  

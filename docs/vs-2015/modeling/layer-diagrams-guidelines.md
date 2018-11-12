@@ -86,9 +86,9 @@ Describe your app's architecture at a high level by creating *layer diagrams* in
   
 #### To reverse-engineer existing dependencies between layers  
   
--   Select one layer or multiple layers, right-click a selected layer, and then click **Generate Dependencies**.  
+- Select one layer or multiple layers, right-click a selected layer, and then click **Generate Dependencies**.  
   
- Typically, you will see some dependencies that should not exist. You can edit these dependencies to align them with the intended design.  
+  Typically, you will see some dependencies that should not exist. You can edit these dependencies to align them with the intended design.  
   
 ##  <a name="EditArchitecture"></a> Edit layers and dependencies to show the intended design  
  To describe the changes that you plan to make to your system or the intended architecture, use the following steps to edit the layer diagram. You might also consider making some refactoring changes to improve the structure of the code before extending it. See [Improving the structure of the code](#Improving).  
@@ -145,11 +145,11 @@ Describe your app's architecture at a high level by creating *layer diagrams* in
 ##  <a name="UpdateCode"></a> Update the code to conform to the new architecture  
  Typically, errors will appear the first time that you validate code against an updated layer diagram. These errors can have several causes:  
   
--   An artifact is assigned to the wrong layer. In this case, move the artifact.  
+- An artifact is assigned to the wrong layer. In this case, move the artifact.  
   
--   An artifact, such as a class, uses another class in a way that conflicts with your architecture. In this case, refactor the code to remove the dependency.  
+- An artifact, such as a class, uses another class in a way that conflicts with your architecture. In this case, refactor the code to remove the dependency.  
   
- To resolve these errors, update the code until no more errors appear during validation. This is usually an iterative process. For more information about these errors, see [Validate code with layer diagrams](../modeling/validate-code-with-layer-diagrams.md).  
+  To resolve these errors, update the code until no more errors appear during validation. This is usually an iterative process. For more information about these errors, see [Validate code with layer diagrams](../modeling/validate-code-with-layer-diagrams.md).  
   
 > [!NOTE]
 >  As you develop or refactor the code, you might have new artifacts to link to the layer diagram. However, this might not be necessary, for example, when you have layers that represent existing namespaces, and the new code only adds more material to those namespaces.  

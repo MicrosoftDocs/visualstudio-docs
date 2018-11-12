@@ -28,9 +28,9 @@ Retrieves a specified symbol type that contains, or is closest to, a specified r
   
 ```cpp#  
 HRESULT findSymbolByRVA (   
-   DWORD        rva,  
-   SymTagEnum   symtag,  
-   IDiaSymbol** ppSymbol  
+   DWORD        rva,  
+   SymTagEnum   symtag,  
+   IDiaSymbol** ppSymbol  
 );  
 ```  
   

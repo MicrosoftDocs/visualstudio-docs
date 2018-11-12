@@ -37,21 +37,21 @@ In the Concurrency Visualizer, markers are icons that represent events in an app
 ## Known sources of markers  
  Any ETW provider can generate markers, as long as the provider adheres to certain constraints. You can configure the Concurrency Visualizer to listen to additional event sources for markers. By default, it listens to these event sources:  
   
--   [Concurrency Visualizer SDK](../profiling/concurrency-visualizer-sdk.md)  
+- [Concurrency Visualizer SDK](../profiling/concurrency-visualizer-sdk.md)  
   
--   [Task Parallel Library (TPL)](/dotnet/standard/parallel-programming/task-parallel-library-tpl)  
+- [Task Parallel Library (TPL)](/dotnet/standard/parallel-programming/task-parallel-library-tpl)  
   
--   [Dataflow](/dotnet/standard/parallel-programming/dataflow-task-parallel-library)  
+- [Dataflow](/dotnet/standard/parallel-programming/dataflow-task-parallel-library)  
   
--   [Parallel LINQ (PLINQ)](/dotnet/standard/parallel-programming/parallel-linq-plinq)  
+- [Parallel LINQ (PLINQ)](/dotnet/standard/parallel-programming/parallel-linq-plinq)  
   
--   [Concurrency Runtime](/cpp/parallel/concrt/concurrency-runtime)  
+- [Concurrency Runtime](/cpp/parallel/concrt/concurrency-runtime)  
   
--   [Scenario Marker Support](http://msdn.microsoft.com/en-us/e3b55bc2-b451-4214-ae00-0c7f5a5baec8)  
+- [Scenario Marker Support](/previous-versions/visualstudio/visual-studio-2010/dd984115\(v\=vs.100\))  
   
--   [C++ AMP (C++ Accelerated Massive Parallelism)](/cpp/parallel/amp/cpp-amp-cpp-accelerated-massive-parallelism)  
+- [C++ AMP (C++ Accelerated Massive Parallelism)](/cpp/parallel/amp/cpp-amp-cpp-accelerated-massive-parallelism)  
   
- You can use the Markers tab in the [Advanced Settings](../profiling/advanced-settings-dialog-box-concurrency-visualizer.md) dialog box to control whether markers from various sources are displayed in the Concurrency Visualizer and you can filter for markers based on importance and category.  
+  You can use the Markers tab in the [Advanced Settings](../profiling/advanced-settings-dialog-box-concurrency-visualizer.md) dialog box to control whether markers from various sources are displayed in the Concurrency Visualizer and you can filter for markers based on importance and category.  
   
 ## Markers from EventSource  
  The Concurrency Visualizer can also display EventSource events.  For more information, see [Visualize EventSource events as markers](../profiling/visualizing-eventsource-events-as-markers.md).  

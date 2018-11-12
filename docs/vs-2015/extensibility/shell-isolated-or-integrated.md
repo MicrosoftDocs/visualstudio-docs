@@ -47,11 +47,11 @@ You can create your own Visual Studio-based application in either integrated or 
   
 > [!IMPORTANT]
 >  The [End User License Agreement (EULA)](https://www.visualstudio.com/en-us/support/legal/mt171552) for the Visual Studio integrated and isolated shells includes a section on data collection (**Section 3. Data**).  It describes the customer usage data that may be collected by Microsoft from users of either the integrated or isolated shell software that you build into your application. For more information, see [Microsoft Visual Studio Product Family Privacy Statement](https://www.visualstudio.com/en-us/dn948229).  
->   
+> 
 >  If you collect separate usage data from your customers through your application, you must provide appropriate notice to users of your application of what you collect.  When you distribute either the isolated or integrated shell software as part of your application, according to the Visual Studio Software Development Kit license, you must include one of the following:  
->   
->  -   the End User License Agreement as part of your application license  
-> -   your own EULA that requires your customers to agree to terms that protect the Visual Studio integrated or isolated shell at least as much as the Microsoft End User License Terms for the shell software  
+> 
+> - the End User License Agreement as part of your application license  
+>   -   your own EULA that requires your customers to agree to terms that protect the Visual Studio integrated or isolated shell at least as much as the Microsoft End User License Terms for the shell software  
   
 ## Additional Resources  
  For more information about redistributable packages, see the [Visual Studio Extensibility Downloads](http://go.microsoft.com/fwlink/?LinkID=119298) Web site.  

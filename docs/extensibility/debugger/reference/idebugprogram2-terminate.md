@@ -23,7 +23,7 @@ Terminates the program.
   
 ```cpp  
 HRESULT Terminate(   
-   void   
+   void   
 );  
 ```  
   

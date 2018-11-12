@@ -28,7 +28,7 @@ Retrieves the address section of a thunk target.
   
 ```cpp#  
 HRESULT get_targetSection (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

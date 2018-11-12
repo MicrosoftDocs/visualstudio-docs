@@ -25,30 +25,30 @@ Data drives the Windows Installer model. Rather than writing a procedural script
 ## Database Entries  
  To install a VSPackage, a Windows Installer package must contain database entries to perform the following tasks:  
   
--   Search the system to locate the versions of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] your VSPackage supports (using Windows Installer tables that include AppSearch, CompLocator, RegLocator, DrLocator, and Signature).  
+- Search the system to locate the versions of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] your VSPackage supports (using Windows Installer tables that include AppSearch, CompLocator, RegLocator, DrLocator, and Signature).  
   
--   Cancel the installation if no supported version of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] is installed or if another system requirement of the VSPackage is not met (using the LaunchCondition table).  
+- Cancel the installation if no supported version of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] is installed or if another system requirement of the VSPackage is not met (using the LaunchCondition table).  
   
--   Install the VSPackage and dependent files (using the directory, component, and file tables).  
+- Install the VSPackage and dependent files (using the directory, component, and file tables).  
   
--   Add appropriate information for the VSPackage to the registry (using the Registry table).  
+- Add appropriate information for the VSPackage to the registry (using the Registry table).  
   
--   Integrate the VSPackage in [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] by calling **devenv.exe /setup** (using the CustomAction table).  
+- Integrate the VSPackage in [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] by calling **devenv.exe /setup** (using the CustomAction table).  
   
- For more information, see [Windows Installer](http://msdn.microsoft.com/library/cc185688\(VS.85\).aspx).  
+  For more information, see [Windows Installer](http://msdn.microsoft.com/library/cc185688\(VS.85\).aspx).  
   
 ## Setup Tools  
  A variety of third-party setup tools provide a development environment for Windows Installer packages. Two free tools are the following:  
   
--   InstallShield Limited Edition  
+- InstallShield Limited Edition  
   
-     You can get a limited version of InstallShield through the Visual Studio **New Project** dialog. Expand **Other Project Types** and then select **Setup and Deployment**. Select the InstallShield template.  
+   You can get a limited version of InstallShield through the Visual Studio **New Project** dialog. Expand **Other Project Types** and then select **Setup and Deployment**. Select the InstallShield template.  
   
--   Windows Installer XML Toolset  
+- Windows Installer XML Toolset  
   
-     The Toolset builds Windows Installer packages from XML source files. The Toolset is a Microsoft open-source project. You can download the source code and executables from [http://sourceforge.net/projects/wix](http://sourceforge.net/projects/wix).  
+   The Toolset builds Windows Installer packages from XML source files. The Toolset is a Microsoft open-source project. You can download the source code and executables from [http://sourceforge.net/projects/wix](http://sourceforge.net/projects/wix).  
   
- For commercial products that integrate into [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] by using the [!INCLUDE[vsipsdk](../../includes/vsipsdk-md.md)], see [http://visualstudiogallery.com](http://visualstudiogallery.com/).  
+  For commercial products that integrate into [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] by using the [!INCLUDE[vsipsdk](../../includes/vsipsdk-md.md)], see [http://visualstudiogallery.com](http://visualstudiogallery.com/).  
   
 ## See Also  
  [Installing VSPackages With Windows Installer](../../extensibility/internals/installing-vspackages-with-windows-installer.md)

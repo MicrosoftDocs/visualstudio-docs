@@ -82,7 +82,7 @@ The connection strings define provider-specific information for accessing data s
 3. In the first **add** element, create the following attributes and values for a connection to a Microsoft Access database:
 
 |Attribute|Values|
-|---------------|------------|
+|-|------------|
 |`name`|`"MyJetConn"`|
 |`connectionString`|`"Provider=Microsoft.Jet.OLEDB.4.0; Data Source=C:\testdatasource.accdb; Persist Security Info=False;"`|
 |`providerName`|`"System.Data.OleDb"`|
@@ -129,7 +129,7 @@ In this section, you'll define two data sources to use in a unit test.
 4. In the first **add** element, create the following attributes and values for a Microsoft Access data source:
 
 |Attribute|Values|
-|---------------|------------|
+|-|------------|
 |`name`|`"MyJetDataSource"`|
 |`connectionString`|`"MyJetConn"`|
 |`dataTableName`|`"MyDataTable"`|

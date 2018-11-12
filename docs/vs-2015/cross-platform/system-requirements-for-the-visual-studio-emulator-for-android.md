@@ -44,76 +44,76 @@ Visual Studio Emulator for Android runs as a virtual machine on Hyper-V, the vir
   
  System requirements  
   
--   Hyper-V support (see Hyper-V requirements below)  
+- Hyper-V support (see Hyper-V requirements below)  
   
--   6 GB or more of RAM.  
+- 6 GB or more of RAM.  
   
--   64-bit version of the Pro edition of Windows 8, Windows 8.1, Windows10 or higher  
+- 64-bit version of the Pro edition of Windows 8, Windows 8.1, Windows10 or higher  
   
--   A processor that supports SSSE3 or later.  
+- A processor that supports SSSE3 or later.  
   
- Network requirements  
+  Network requirements  
   
--   DHCP  
+- DHCP  
   
--   Automatically configured DNS and gateway settings  
+- Automatically configured DNS and gateway settings  
   
- Hyper-V requirements  
+  Hyper-V requirements  
   
--   In the BIOS, the following features must be supported:  
+- In the BIOS, the following features must be supported:  
   
-    -   Hardware-assisted virtualization  
+  -   Hardware-assisted virtualization  
   
-    -   Second Level Address Translation (SLAT)  
+  -   Second Level Address Translation (SLAT)  
   
-    -   Hardware-based Data Execution Prevention (DEP)  
+  -   Hardware-based Data Execution Prevention (DEP)  
   
--   In Windows, Hyper-V must be enabled and running.  
+- In Windows, Hyper-V must be enabled and running.  
   
--   You have to be a member of the local Hyper-V Administrators group.  
+- You have to be a member of the local Hyper-V Administrators group.  
   
 ##  <a name="System"></a> System requirements  
  Your computer must meet the following requirements:  
   
--   Hyper-V support (see [Hyper-V requirements](#HyperV))  
+- Hyper-V support (see [Hyper-V requirements](#HyperV))  
   
--   6 GB or more of RAM.  
+- 6 GB or more of RAM.  
   
--   64-bit version of the Pro edition of Windows 8, Windows 8.1, Windows10 or higher.  
+- 64-bit version of the Pro edition of Windows 8, Windows 8.1, Windows10 or higher.  
   
- To check requirements for RAM and Windows, in Control Panel, choose System and Security, and then choose System.  
+  To check requirements for RAM and Windows, in Control Panel, choose System and Security, and then choose System.  
   
- ![Verify the system requirements](../cross-platform/media/android-emu-system-requirements.png "Android_Emu_System_Requirements")  
+  ![Verify the system requirements](../cross-platform/media/android-emu-system-requirements.png "Android_Emu_System_Requirements")  
   
 ##  <a name="Network"></a> Network requirements  
  Your network must meet the following requirements:  
   
--   DHCP  
+- DHCP  
   
-     The emulator requires DHCP because it configures itself as a separate device on the network with its own IP address.  
+   The emulator requires DHCP because it configures itself as a separate device on the network with its own IP address.  
   
--   Automatically configured DNS and gateway settings  
+- Automatically configured DNS and gateway settings  
   
-     It’s not possible to configure DNS and gateway settings manually for the emulator.  
+   It’s not possible to configure DNS and gateway settings manually for the emulator.  
   
- To troubleshoot networking issues in the emulator, see the following topics:  
+  To troubleshoot networking issues in the emulator, see the following topics:  
   
--   [Troubleshooting the Visual Studio Emulator for Android](../cross-platform/troubleshooting-the-visual-studio-emulator-for-android.md)  
+- [Troubleshooting the Visual Studio Emulator for Android](../cross-platform/troubleshooting-the-visual-studio-emulator-for-android.md)  
   
 ##  <a name="HyperV"></a> Hyper-V requirements  
  Hyper-V requirements in the BIOS  
   
  Your computer’s BIOS must support the following requirements, and they must be enabled:  
   
--   Hardware-assisted virtualization  
+- Hardware-assisted virtualization  
   
--   Second Level Address Translation (SLAT)  
+- Second Level Address Translation (SLAT)  
   
--   Hardware-based Data Execution Prevention (DEP)  
+- Hardware-based Data Execution Prevention (DEP)  
   
- Hyper-V requirements in Windows  
+  Hyper-V requirements in Windows  
   
- When your computer and BIOS settings are already configured to support Hyper-V, the setup program enables and starts Hyper-V. Otherwise you may have to enable these requirements manually.  
+  When your computer and BIOS settings are already configured to support Hyper-V, the setup program enables and starts Hyper-V. Otherwise you may have to enable these requirements manually.  
   
 |Requirement|How to check and enable this requirement|  
 |-----------------|----------------------------------------------|  
@@ -141,15 +141,15 @@ Visual Studio Emulator for Android runs as a virtual machine on Hyper-V, the vir
 ##  <a name="Files"></a> Hyper-V requires uncompressed and unencrypted files  
  On a hard drive configured with the NTFS file system, the virtual hard disk files used by Hyper-V must be uncompressed and unencrypted. Make sure that the following directories are not compressed or encrypted:  
   
--   %localappdata%\Microsoft\XDE  
+- %localappdata%\Microsoft\XDE  
   
--   C:\Program Files (x86)\Microsoft Emulator Manager  
+- C:\Program Files (x86)\Microsoft Emulator Manager  
   
--   C:\Program Files (x86)\Microsoft Visual Studio Emulator for Android  
+- C:\Program Files (x86)\Microsoft Visual Studio Emulator for Android  
   
--   %localappdata%\Microsoft\VisualStudioEmulator  
+- %localappdata%\Microsoft\VisualStudioEmulator  
   
- On the ReFS file system, the virtual hard disk files must not have the integrity bit set.  
+  On the ReFS file system, the virtual hard disk files must not have the integrity bit set.  
   
 ## Hardware Graphics Forwarding (OpenGL ES support) Requirements  
  In order for the emulator to emulate calls to the GPU, such as those used by OpenGL ES, your machine must have a DirectX compatible GPU with appropriate DirectX drivers installed.  

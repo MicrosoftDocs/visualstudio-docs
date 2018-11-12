@@ -36,15 +36,15 @@ manager: "ghogen"
   
 #### To add controls from the Toolbox to a designer from the keyboard  
   
-1.  On the menu bar, choose **View**, **Toolbox**.  
+1. On the menu bar, choose **View**, **Toolbox**.  
   
-2.  Choose the Ctrl + Up Arrow or Ctrl + Down Arrow keys to move among the sections in the current Toolbox tab.  
+2. Choose the Ctrl + Up Arrow or Ctrl + Down Arrow keys to move among the sections in the current Toolbox tab.  
   
-3.  Choose the Up Arrow or **Down Arrow** keys to move among the controls.  
+3. Choose the Up Arrow or **Down Arrow** keys to move among the controls.  
   
-4.  After the control is selected, choose the Enter key.  
+4. After the control is selected, choose the Enter key.  
   
- The control is added to the form or designer.  
+   The control is added to the form or designer.  
   
 ## Dialog Box Options  
  You can move among the options in a dialog and change option settings using the keyboard.  

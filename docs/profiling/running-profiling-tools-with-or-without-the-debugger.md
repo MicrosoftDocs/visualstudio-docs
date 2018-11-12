@@ -36,60 +36,60 @@ You can use the profiling tools without the debugger with Windows 7 and later. W
 ##  <a name="BKMK_Quick_start__Collect_diagnostic_data"></a> Collect profiling data while debugging  
  The following section deals with debugging locally. You can find out about debugging on a device or remote debugging, in later sections.  
   
-1.  Open the project you want to debug, then click **Debug** > **Start Debugging** (or **Start** on the toolbar, or **F5**).  
+1. Open the project you want to debug, then click **Debug** > **Start Debugging** (or **Start** on the toolbar, or **F5**).  
   
-2.  The **Diagnostic Tools** window appears automatically unless you have turned it off. To bring up the window again, click **Debug** > **Windows** > **Show Diagnostic Tools**.  
+2. The **Diagnostic Tools** window appears automatically unless you have turned it off. To bring up the window again, click **Debug** > **Windows** > **Show Diagnostic Tools**.  
   
-3.  Run the scenarios that you want to collect data for.  
+3. Run the scenarios that you want to collect data for.  
   
-     While you are running the session, you can see information about events, process memory, and CPU utilization.  
+    While you are running the session, you can see information about events, process memory, and CPU utilization.  
   
-     The following graphic shows the **Diagnostic Tools** window in Visual Studio 2015 Update 1:  
+    The following graphic shows the **Diagnostic Tools** window in Visual Studio 2015 Update 1:  
   
-     ![DiagnosticTools&#45;Update1](../profiling/media/diagnostictools-update1.png "DiagnosticTools-Update1")  
+    ![DiagnosticTools&#45;Update1](../profiling/media/diagnostictools-update1.png "DiagnosticTools-Update1")  
   
-4.  You can choose whether to see **Memory Usage** or **CPU Usage** (or both) with the **Select Tools** setting on the toolbar. If you are running Visual Studio Enterprise,  you can enable or disable IntelliTrace in **Tools** > **Options** > **IntelliTrace**.  
+4. You can choose whether to see **Memory Usage** or **CPU Usage** (or both) with the **Select Tools** setting on the toolbar. If you are running Visual Studio Enterprise,  you can enable or disable IntelliTrace in **Tools** > **Options** > **IntelliTrace**.  
   
-5.  The diagnostic session ends when you stop debugging.  
+5. The diagnostic session ends when you stop debugging.  
   
- In Visual Studio 2015 Update 1, the **Diagnostic Tools** window makes it easier for you focus on the events you are interested in.   The event names are now shown with category prefixes (**Gesture**, **Program Output**, **Breakpoint**, **File**, etc.) so you can quickly scan the list for a given category or skip the categories you don't care about.  
+   In Visual Studio 2015 Update 1, the **Diagnostic Tools** window makes it easier for you focus on the events you are interested in.   The event names are now shown with category prefixes (**Gesture**, **Program Output**, **Breakpoint**, **File**, etc.) so you can quickly scan the list for a given category or skip the categories you don't care about.  
   
- The window now has a search box so that you can find a specific string anywhere in the event list. For example, the following graphic shows the results of a search for the string "install" that matched four events:  
+   The window now has a search box so that you can find a specific string anywhere in the event list. For example, the following graphic shows the results of a search for the string "install" that matched four events:  
   
- ![DiagnosticsEventSearch](../profiling/media/diagnosticseventsearch.png "DiagnosticsEventSearch")  
+   ![DiagnosticsEventSearch](../profiling/media/diagnosticseventsearch.png "DiagnosticsEventSearch")  
   
- You can also filter events in and out of view in the window. In the **Filter** dropdown, you can check or uncheck specific categories of events:. The category names are the same as the prefix names.  
+   You can also filter events in and out of view in the window. In the **Filter** dropdown, you can check or uncheck specific categories of events:. The category names are the same as the prefix names.  
   
- ![DiagnosticEventFilter](../profiling/media/diagnosticeventfilter.png "DiagnosticEventFilter")  
+   ![DiagnosticEventFilter](../profiling/media/diagnosticeventfilter.png "DiagnosticEventFilter")  
   
- For more information, see [Searching and filtering the Events tab of the Diagnostic Tools window](http://blogs.msdn.com/b/visualstudioalm/archive/2015/11/12/searching-and-filtering-the-events-tab-of-the-diagnostic-tools-window.aspx).  
+   For more information, see [Searching and filtering the Events tab of the Diagnostic Tools window](https://blogs.msdn.microsoft.com/devops/2015/11/12/searching-and-filtering-the-events-tab-of-the-diagnostic-tools-window/).  
   
 ## Collect profiling data without debugging  
  Some profiling tools require administrator privileges to run. You can start Visual Studio as an administrator, or you can choose to run the tools as an administrator when you start the diagnostic session.  
   
-1.  Open the project in Visual Studio.  
+1. Open the project in Visual Studio.  
   
-2.  On the **Debug** menu, choose **Performance Profiler** (Shortcut key: **Alt**+**F2**).  
+2. On the **Debug** menu, choose **Performance Profiler** (Shortcut key: **Alt**+**F2**).  
   
-3.  On the diagnostic launch page, choose one or more tools to run in the session. Only the tools that are applicable to the project type, operating system, and programming language are displayed. When you choose a diagnostic tool, the selections for tools that cannot be run in the same diagnostic session are disabled. Here's how your choices might look for a C# UWP app:  
+3. On the diagnostic launch page, choose one or more tools to run in the session. Only the tools that are applicable to the project type, operating system, and programming language are displayed. When you choose a diagnostic tool, the selections for tools that cannot be run in the same diagnostic session are disabled. Here's how your choices might look for a C# UWP app:  
   
-     ![Select the diagnostic tools](../profiling/media/diag_selecttool.png "DIAG_SelectTool")  
+    ![Select the diagnostic tools](../profiling/media/diag_selecttool.png "DIAG_SelectTool")  
   
-4.  To start the diagnostic session, click **Start**.  
+4. To start the diagnostic session, click **Start**.  
   
-5.  Run the scenarios for which you want to collect data.  
+5. Run the scenarios for which you want to collect data.  
   
-     While you are running the session, some tools display graphs of real-time data on the diagnostic tools launch page.  
+    While you are running the session, some tools display graphs of real-time data on the diagnostic tools launch page.  
   
-     ![Collect data on the Performance and Diagnostic pag](../profiling/media/pdhub_collectdata.png "PDHUB_CollectData")  
+    ![Collect data on the Performance and Diagnostic pag](../profiling/media/pdhub_collectdata.png "PDHUB_CollectData")  
   
-6.  To end the diagnostic session, click **Stop collection**.  
+6. To end the diagnostic session, click **Stop collection**.  
   
- When you stop collecting data in a diagnostic session, the data is analyzed and the report is displayed in the Diagnostic page.  
+   When you stop collecting data in a diagnostic session, the data is analyzed and the report is displayed in the Diagnostic page.  
   
- You can also open saved .diagnostic session files from the recently opened list on the diagnostic tools launch page.  
+   You can also open saved .diagnostic session files from the recently opened list on the diagnostic tools launch page.  
   
- ![Open a saved diagnosis session file](../profiling/media/pdhub_openexistingdiagsession.png "PDHUB_OpenExistingDiagSession")  
+   ![Open a saved diagnosis session file](../profiling/media/pdhub_openexistingdiagsession.png "PDHUB_OpenExistingDiagSession")  
   
 ## The profiling report  
  ![Diagnostic tools report](../profiling/media/diag_report.png "DIAG_Report")  
@@ -120,18 +120,18 @@ You can use the profiling tools without the debugger with Windows 7 and later. W
  Running a diagnostic session on a remote PC or tablet requires that the Visual Studio Remote Tools be installed and running on the remote target. For desktop apps, see [Remote Debugging](../debugger/remote-debugging.md).  For UWP apps, see [Run UWP apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md).  
   
 ## Blog posts and MSDN articles from the Diagnostics development team  
- [MSDN Magazine: Analyze Performance While Debugging in Visual Studio 2015](https://msdn.microsoft.com/en-us/magazine/dn973013.aspx)  
+ [MSDN Magazine: Analyze Performance While Debugging in Visual Studio 2015](https://msdn.microsoft.com/magazine/dn973013.aspx)
   
- [MSDN Magazine: Use IntelliTrace to Diagnose Issues Faster](https://msdn.microsoft.com/en-us/magazine/dn973014.aspx)  
+ [MSDN Magazine: Use IntelliTrace to Diagnose Issues Faster](https://msdn.microsoft.com/magazine/dn973014.aspx)
   
- [Blog post: Diagnosing Event Handler Leaks with the Memory Usage Tool in Visual Studio 2015](http://blogs.msdn.com/b/visualstudioalm/archive/2015/04/29/diagnosing-event-handler-leaks-with-the-memory-usage-tool-in-visual-studio-2015.aspx)  
+ [Blog post: Diagnosing Event Handler Leaks with the Memory Usage Tool in Visual Studio 2015](https://blogs.msdn.microsoft.com/devops/2015/04/29/diagnosing-event-handler-leaks-with-the-memory-usage-tool-in-visual-studio-2015/)
   
- [Video: Historical Debugging with IntelliTrace in Microsoft Visual Studio Ultimate 2015](https://channel9.msdn.com/Events/Ignite/2015/BRK3716)  
+ [Video: Historical Debugging with IntelliTrace in Microsoft Visual Studio Ultimate 2015](https://channel9.msdn.com/Events/Ignite/2015/BRK3716)
   
- [Video: Debugging Performance Issues Using Visual Studio 2015](https://channel9.msdn.com/Events/Build/2015/3-731)  
+ [Video: Debugging Performance Issues Using Visual Studio 2015](https://channel9.msdn.com/Events/Build/2015/3-731)
   
- [PerfTips: Performance Information at-a-glance while Debugging with Visual Studio](http://blogs.msdn.com/b/visualstudioalm/archive/2014/08/18/perftips-performance-information-at-a-glance-while-debugging-with-visual-studio.aspx)  
+ [PerfTips: Performance Information at-a-glance while Debugging with Visual Studio](https://blogs.msdn.microsoft.com/devops/2014/08/18/perftips-performance-information-at-a-glance-while-debugging-with-visual-studio/)
   
- [Diagnostic Tools debugger window in Visual Studio 2015](http://blogs.msdn.com/b/visualstudioalm/archive/2015/01/16/diagnostic-tools-debugger-window-in-visual-studio-2015.aspx)  
+ [Diagnostic Tools debugger window in Visual Studio 2015](https://blogs.msdn.microsoft.com/devops/2015/01/16/diagnostic-tools-debugger-window-in-visual-studio-2015/)
   
- [IntelliTrace in Visual Studio Enterprise 2015](http://blogs.msdn.com/b/visualstudioalm/archive/2015/01/16/intellitrace-in-visual-studio-ultimate-2015.aspx)
+ [IntelliTrace in Visual Studio Enterprise 2015](https://blogs.msdn.microsoft.com/devops/2015/01/16/intellitrace-in-visual-studio-ultimate-2015/)

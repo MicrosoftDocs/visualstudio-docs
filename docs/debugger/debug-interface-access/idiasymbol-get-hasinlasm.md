@@ -22,7 +22,7 @@ Retrieves a flag that specifies whether the function contains inline assembly.
   
 ```C++  
 HRESULT get_hasInlAsm(  
-   BOOL *pFlag  
+   BOOL *pFlag  
 );  
 ```  
   

@@ -28,15 +28,15 @@ Retrieves a list of paths that are searched for symbols as well as the results o
   
 ```cpp#  
 HRESULT GetSymbolInfo(  
-   SYMBOL_SEARCH_INFO_FIELDS  dwFields,  
-   MODULE_SYMBOL_SEARCH_INFO* pInfo  
+   SYMBOL_SEARCH_INFO_FIELDS  dwFields,  
+   MODULE_SYMBOL_SEARCH_INFO* pInfo  
 );  
 ```  
   
 ```csharp  
 int GetSymbolInfo(  
-   enum_SYMBOL_SEARCH_INFO_FIELDS dwFields,   
-   MODULE_SYMBOL_SEARCH_INFO[]    pinfo  
+   enum_SYMBOL_SEARCH_INFO_FIELDS dwFields,   
+   MODULE_SYMBOL_SEARCH_INFO[]    pinfo  
 );  
   
 ```  
@@ -70,16 +70,16 @@ int GetSymbolInfo(
 ```cpp#  
 void ShowSymbolSearchResults(IDebugModule3 *pIDebugModule3)  
 {  
-    MODULE_SYMBOL_SEARCH_INFO ssi = { 0 };  
-    HRESULT hr;  
-    hr = pIDebugModule3->GetSymbolInfo(SSIF_VERBOSE_SEARCH_INFO,&ssi);  
-    if (SUCCEEDED(hr)) {  
-        CComBSTR searchInfo = ssi.bstrVerboseSearchInfo;  
-        if (searchInfo.Length() != 0) {  
-            std::wcout << (wchar_t *)(BSTR)searchInfo;  
-            std::wcout << std::endl;  
-        }  
-    }  
+    MODULE_SYMBOL_SEARCH_INFO ssi = { 0 };  
+    HRESULT hr;  
+    hr = pIDebugModule3->GetSymbolInfo(SSIF_VERBOSE_SEARCH_INFO,&ssi);  
+    if (SUCCEEDED(hr)) {  
+        CComBSTR searchInfo = ssi.bstrVerboseSearchInfo;  
+        if (searchInfo.Length() != 0) {  
+            std::wcout << (wchar_t *)(BSTR)searchInfo;  
+            std::wcout << std::endl;  
+        }  
+    }  
 }  
 ```  
   

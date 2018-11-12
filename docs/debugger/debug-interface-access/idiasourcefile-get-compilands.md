@@ -22,7 +22,7 @@ Retrieves an enumerator of compilands that have line numbers referencing this fi
   
 ```C++  
 HRESULT get_compilands (   
-   IDiaEnumSymbols** ppRetVal  
+   IDiaEnumSymbols** ppRetVal  
 );  
 ```  
   

@@ -22,15 +22,15 @@ Retrieves a service object given its unique identifier.
   
 ```cpp  
 HRESULT GetService (  
-   GUID        uid,  
-   IUnknown ** ppService  
+   GUID        uid,  
+   IUnknown ** ppService  
 );  
 ```  
   
 ```csharp  
 int GetService (  
-   Guid       uid,  
-   out object ppService  
+   Guid       uid,  
+   out object ppService  
 );  
 ```  
   

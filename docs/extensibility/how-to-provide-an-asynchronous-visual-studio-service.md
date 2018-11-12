@@ -98,11 +98,11 @@ If you want to obtain a service without blocking the UI thread, you should creat
 ## Register a service  
  To register a service, add the <xref:Microsoft.VisualStudio.Shell.ProvideServiceAttribute> to the package that provides the service. Different to registering a synchronous service, you have to make sure both package and service supports async loading:
   
--   You must add the **AllowsBackgroundLoading = true** field to the <xref:Microsoft.VisualStudio.Shell.PackageRegistrationAttribute> to ensure package can be initialized asynchronously For more information about the PackageRegistrationAttribute, see [Register and unregister VSPackages](../extensibility/registering-and-unregistering-vspackages.md).  
+- You must add the **AllowsBackgroundLoading = true** field to the <xref:Microsoft.VisualStudio.Shell.PackageRegistrationAttribute> to ensure package can be initialized asynchronously For more information about the PackageRegistrationAttribute, see [Register and unregister VSPackages](../extensibility/registering-and-unregistering-vspackages.md).  
   
--   You must add the **IsAsyncQueryable = true** field to the <xref:Microsoft.VisualStudio.Shell.ProvideServiceAttribute> to ensure service instance can be initialized asynchronously.
+- You must add the **IsAsyncQueryable = true** field to the <xref:Microsoft.VisualStudio.Shell.ProvideServiceAttribute> to ensure service instance can be initialized asynchronously.
 
- Here is an example of an `AsyncPackage` with an asynchronous service registration:
+  Here is an example of an `AsyncPackage` with an asynchronous service registration:
   
 ```csharp  
 [ProvideService((typeof(STextWriterService)), IsAsyncQueryable = true)]  

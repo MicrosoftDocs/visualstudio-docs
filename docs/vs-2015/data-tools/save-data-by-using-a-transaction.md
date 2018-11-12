@@ -46,7 +46,7 @@ You save data in a transaction by using the <xref:System.Transactions> namespace
   
 1.  On the **Project** menu, select **Add Reference**.  
   
-2.  On the **.NET** tab (**SQL Server** tab for SQL Server projects), select **System.Transactions**, and thenselect**OK**.  
+2.  On the **.NET** tab (**SQL Server** tab for SQL Server projects), select **System.Transactions**, and then select **OK**.  
   
      A reference to System.Transactions.dll is added to the project.  
   

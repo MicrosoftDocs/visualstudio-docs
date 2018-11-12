@@ -20,7 +20,7 @@ DslDefinition properties define *domain-specific language* definition properties
  DslDefinition has the properties in the following table:
 
 |Property|Description|Default|
-|--------------|-----------------|-------------|
+|-|-|-|
 |Access Modifier|Determines if the access modifier for the domain class is public or internal.|public|
 |Custom Attributes|Custom defined attributes for the domain class.<br /><br /> **Note** Use the browse button to add an attribute.|\<none>|
 |Company Name|The name of the current company name in the system registry.|Current company name|
@@ -40,4 +40,4 @@ DslDefinition properties define *domain-specific language* definition properties
 
 ## See Also
 
-- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+- [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

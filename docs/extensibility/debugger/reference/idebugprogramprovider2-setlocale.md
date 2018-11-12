@@ -23,13 +23,13 @@ Establishes a locale to be used for any locale-specific resources.
   
 ```cpp  
 HRESULT SetLocale(  
-   WORD wLangID  
+   WORD wLangID  
 );  
 ```  
   
 ```csharp  
 int SetLocale(  
-   ushort wLangID  
+   ushort wLangID  
 );  
 ```  
   

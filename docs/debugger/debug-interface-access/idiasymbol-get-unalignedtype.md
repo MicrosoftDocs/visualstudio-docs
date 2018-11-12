@@ -22,7 +22,7 @@ Retrieves a flag that specifies whether the user-defined data type is unaligned.
   
 ```C++  
 HRESULT get_unalignedType (   
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 );  
 ```  
   

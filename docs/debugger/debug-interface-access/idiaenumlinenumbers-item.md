@@ -22,8 +22,8 @@ Retrieves a line number by means of an index.
   
 ```C++  
 HRESULT Item (   
-   DWORD            index,  
-   IDiaLineNumber** lineNumber  
+   DWORD            index,  
+   IDiaLineNumber** lineNumber  
 );  
 ```  
   

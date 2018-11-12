@@ -24,11 +24,11 @@ manager: "ghogen"
 
 These segments in the timeline are associated with blocking times that are categorized as Synchronization. When a thread is marked as blocked on synchronization, one of these things is implied:  
   
--   The execution of the thread may have resulted in a call to a well-known thread synchronization API such as `EnterCriticalSection()` or `WaitForSingleObject()`.  
+- The execution of the thread may have resulted in a call to a well-known thread synchronization API such as `EnterCriticalSection()` or `WaitForSingleObject()`.  
   
--   The API matching algorithm cannot be totally comprehensive, and therefore some APIs that could be mapped to other categories may also appear as synchronization because a frame in the call stack eventually reached an underlying kernel blocking primitive that was mapped to this category.  
+- The API matching algorithm cannot be totally comprehensive, and therefore some APIs that could be mapped to other categories may also appear as synchronization because a frame in the call stack eventually reached an underlying kernel blocking primitive that was mapped to this category.  
   
- To understand the underlying cause for a thread blocking event, carefully examine the blocking call stacks and profile reports.  
+  To understand the underlying cause for a thread blocking event, carefully examine the blocking call stacks and profile reports.  
   
 ## See Also  
  [Threads View](../profiling/threads-view-parallel-performance.md)

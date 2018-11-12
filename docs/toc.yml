@@ -746,28 +746,44 @@
           href: ide/reference/options-text-editor-file-extension.md
         - name: Text Editor - All Languages
           href: ide/reference/options-text-editor-all-languages.md
+        - name: Text Editor - All Languages, Scroll Bars
+          href: ide/reference/options-text-editor-all-languages-scroll-bars.md
         - name: Text Editor - All Languages, Tabs
           href: ide/reference/options-text-editor-all-languages-tabs.md
-        - name: Text Editor - Basic (Visual Basic)
+        - name: Text Editor - Basic (Visual Basic), Advanced
           href: ide/reference/options-text-editor-basic-visual-basic.md
+        - name: Text Editor - Basic (Visual Basic), Code Style
+          href: ide/code-styles-and-quick-actions.md
+        - name: Text Editor - Basic (Visual Basic), IntelliSense
+          href: ide/visual-basic-specific-intellisense.md
         - name: Text Editor - C/C++, Formatting
           href: ide/reference/options-text-editor-c-cpp-formatting.md
         - name: Text Editor - C/C++, Advanced
           href: ide/reference/options-text-editor-c-cpp-advanced.md
         - name: Text Editor - C/C++, Experimental
           href: ide/reference/options-text-editor-c-cpp-experimental.md
-        - name: Text Editor - C#, Formatting
+        - name: Text Editor - C/C++, View
+          href: ide/reference/options-text-editor-c-cpp-view.md
+        - name: Text Editor - C#, Code Style, Formatting
           href: ide/reference/options-text-editor-csharp-formatting.md
         - name: Text Editor - C#, Advanced
           href: ide/reference/options-text-editor-csharp-advanced.md
         - name: Text Editor - C#, IntelliSense
           href: ide/reference/options-text-editor-csharp-intellisense.md
+        - name: Text Editor - JavaScript, Code Validation
+          href: ide/reference/options-text-editor-javascript-code-validation.md
         - name: Text Editor - JavaScript, Formatting
           href: ide/reference/options-text-editor-javascript-formatting.md
         - name: Text Editor - JavaScript, IntelliSense
           href: ide/reference/options-text-editor-javascript-intellisense.md
         - name: Text Editor - XAML, Formatting
           href: ide/reference/options-text-editor-xaml-formatting.md
+        - name: Text Editor - XAML, Miscellaneous
+          href: ide/reference/options-text-editor-xaml-miscellaneous.md
+        - name: Text Editor - XML, Formatting
+          href: ide/reference/options-text-editor-xml-formatting.md
+        - name: Text Editor - XML, Miscellaneous
+          href: ide/reference/options-text-editor-xml-miscellaneous.md
       - name: Projects and Solutions Options Dialog Box
         href: ide/reference/projects-and-solutions-options-dialog-box.md
         items:

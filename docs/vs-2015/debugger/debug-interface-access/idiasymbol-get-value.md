@@ -28,7 +28,7 @@ Retrieves the value of a constant.
   
 ```cpp#  
 HRESULT get_value (   
-   VARIANT* pRetVal  
+   VARIANT* pRetVal  
 );  
 ```  
   

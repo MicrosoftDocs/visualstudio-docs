@@ -17,24 +17,24 @@ The Visual Studio **Network** diagnostics tool collects data about network opera
  The Network tool supports only UWP apps. Other platforms are not supported at this time.  
   
 > [!NOTE]
->  For a more complete description of the Network tool, see [Introducing Visual Studio's network tool](http://blogs.msdn.com/b/visualstudio/archive/2015/05/04/introducing-visual-studios-network-tool.aspx).  
+>  For a more complete description of the Network tool, see [Introducing Visual Studio's network tool](https://blogs.msdn.microsoft.com/visualstudio/2015/05/04/introducing-visual-studios-network-tool/).  
   
 ## Collect network tool data  
  You should run the **Network** tool with an open Visual Studio project on the Visual Studio computer.  
   
-1.  Open the project in Visual Studio.  
+1. Open the project in Visual Studio.  
   
-2.  On the  menu, click **Debug / Performance Profiler**. Choose **Network**, and then choose **Start**.  
+2. On the  menu, click **Debug / Performance Profiler**. Choose **Network**, and then choose **Start**.  
   
-3.  The network tool begins collecting your app's HTTP traffic.  
+3. The network tool begins collecting your app's HTTP traffic.  
   
-     As you run your app, the summary view in the left pane automatically displays a list of captured HTTP operations. Select an item on the summary view to see more information in the details panel in the right pane.  
+    As you run your app, the summary view in the left pane automatically displays a list of captured HTTP operations. Select an item on the summary view to see more information in the details panel in the right pane.  
   
-4.  Choose **Stop** to close the app.  
+4. Choose **Stop** to close the app.  
   
- The report window should appear something like this:  
+   The report window should appear something like this:  
   
- ![The Network window](../profiling/media/network_fullwindow.png "NETWORK_FullWindow")  
+   ![The Network window](../profiling/media/network_fullwindow.png "NETWORK_FullWindow")  
   
 ## Analyze data  
  You can analyze captured HTTP traffic while your app is running, or even after the app has been closed, by selecting any of the network operations displayed on the summary view.  
@@ -69,6 +69,6 @@ The Visual Studio **Network** diagnostics tool collects data about network opera
 ## See also  
  [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md)  
  [Visual Studio blog: Introducing Visual Studio's network inspector](http://go.microsoft.com/fwlink/?LinkId=535022)   
- [Channel 9 Video: VS diagnostics tools - new Network Profiler](http://channel9.msdn.com/Series/ConnectOn-Demand/206)  
+ [Channel 9 Video: VS diagnostics tools - new Network Profiler](https://channel9.msdn.com/Series/ConnectOn-Demand/206)  
  [Profiling in Visual Studio](../profiling/index.md)  
  [First look at profiling tools](../profiling/profiling-feature-tour.md)

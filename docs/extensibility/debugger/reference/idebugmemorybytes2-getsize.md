@@ -24,13 +24,13 @@ Retrieves the size, in bytes, of the memory represented by this [IDebugMemoryByt
   
 ```cpp  
 HRESULT GetSize(   
-   UINT64* pqwSize  
+   UINT64* pqwSize  
 );  
 ```  
   
 ```csharp  
 int GetSize(  
-   out ulong pqwSize  
+   out ulong pqwSize  
 );  
 ```  
   

@@ -23,17 +23,17 @@ This method makes a program available for debug engines (DEs) and the session de
   
 ```cpp  
 HRESULT PublishProgram(  
-   CONST_GUID_ARRAY Engines,  
-   LPCOLESTR        szFriendlyName,  
-   IUnknown*        pDebuggeeInterface  
+   CONST_GUID_ARRAY Engines,  
+   LPCOLESTR        szFriendlyName,  
+   IUnknown*        pDebuggeeInterface  
 );  
 ```  
   
 ```csharp  
 int PublishProgram(  
-   CONST_GUID_ARRAY Engines,  
-   string           szFriendlyName,  
-   object           pDebuggeeInterface  
+   CONST_GUID_ARRAY Engines,  
+   string           szFriendlyName,  
+   object           pDebuggeeInterface  
 );  
 ```  
   

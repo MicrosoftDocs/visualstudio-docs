@@ -24,6 +24,7 @@ manager: "wpickett"
 ---
 # CA1062: Validate arguments of public methods
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|ValidateArgumentsOfPublicMethods|
@@ -68,23 +69,22 @@ manager: "wpickett"
 
 public class Person
 {
-    public string Name { get; private set; }
-    public int Age { get; private set; }
+    public string Name { get; private set; }
+    public int Age { get; private set; }
 
-    public Person(string name, int age)
-    {
-        Name = name;
-        Age = age;
-    }
+    public Person(string name, int age)
+    {
+        Name = name;
+        Age = age;
+    }
 
-    // Copy constructor CA1062 fires because other is dereferenced
-    // without being checked for null
-    public Person(Person other)
-        : this(other.Name, other.Age)
-    {
-    }
+    // Copy constructor CA1062 fires because other is dereferenced
+    // without being checked for null
+    public Person(Person other)
+        : this(other.Name, other.Age)
+    {
+    }
 }
-
 ```
 
 ## Example
@@ -93,31 +93,30 @@ public class Person
 ```
 public class Person
 {
-    public string Name { get; private set; }
-    public int Age { get; private set; }
+    public string Name { get; private set; }
+    public int Age { get; private set; }
 
-    public Person(string name, int age)
-    {
-        Name = name;
-        Age = age;
-    }
+    public Person(string name, int age)
+    {
+        Name = name;
+        Age = age;
+    }
 
-    // Copy constructor
-    public Person(Person other)
-        : this(PassThroughNonNull(other).Name,
-          PassThroughNonNull(other).Age)
-    {
-    }
+    // Copy constructor
+    public Person(Person other)
+        : this(PassThroughNonNull(other).Name,
+          PassThroughNonNull(other).Age)
+    {
+    }
 
-    // Null check method
-    private static Person PassThroughNonNull(Person person)
-    {
-        if (person == null)
-            throw new ArgumentNullException("person");
-        return person;
-    }
+    // Null check method
+    private static Person PassThroughNonNull(Person person)
+    {
+        if (person == null)
+            throw new ArgumentNullException("person");
+        return person;
+    }
 }
-
 ```
 
 

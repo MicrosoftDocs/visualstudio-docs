@@ -26,15 +26,15 @@ Retrieves a type given its primitive type.
   
 ```cpp#  
 HRESULT GetTypeFromPrimitive(  
-   DWORD         dwCorElementType,  
-   IDebugField** ppType  
+   DWORD         dwCorElementType,  
+   IDebugField** ppType  
 );  
 ```  
   
 ```csharp  
 int GetTypeFromPrimitive(  
-   uint            dwCorElementType,  
-   out IDebugField ppType  
+   uint            dwCorElementType,  
+   out IDebugField ppType  
 );  
 ```  
   

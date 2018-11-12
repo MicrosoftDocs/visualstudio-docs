@@ -27,15 +27,15 @@ This method determines the run-time type of an object.
   
 ```cpp#  
 HRESULT ResolveRuntimeType(   
-   IDebugObject* pObject,  
-   IDebugField** ppResolved  
+   IDebugObject* pObject,  
+   IDebugField** ppResolved  
 );  
 ```  
   
 ```csharp  
 int ResolveRuntimeType(  
-   IDebugObject     pObject,   
-   out IDebugField  ppResolved  
+   IDebugObject     pObject,   
+   out IDebugField  ppResolved  
 );  
 ```  
   

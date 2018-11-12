@@ -36,15 +36,15 @@ manager: "ghogen"
   
 The dataset is an in-memory copy of data. If you modify that data, it's a good practice to save those changes back to the database. You do this in one of three ways:  
   
--   By calling one of the `Update` methods of a TableAdapter  
+- By calling one of the `Update` methods of a TableAdapter  
   
--   By calling one of DBDirect methods of the TableAdapter  
+- By calling one of DBDirect methods of the TableAdapter  
   
--   By calling the UpdateAll method on  the `TableAdapterManager` that Visual Studio generates for you when the dataset contains tables that are related to other tables in the dataset  
+- By calling the UpdateAll method on  the `TableAdapterManager` that Visual Studio generates for you when the dataset contains tables that are related to other tables in the dataset  
   
- When you data bind dataset tables to controls on a Windows Form or XAML page, the data binding architecture does all the work for you.  
+  When you data bind dataset tables to controls on a Windows Form or XAML page, the data binding architecture does all the work for you.  
   
- If you're familiar with TableAdapters, you can jump directly to one of these topics:  
+  If you're familiar with TableAdapters, you can jump directly to one of these topics:  
   
 |Topic|Description|  
 |-----------|-----------------|  
@@ -101,11 +101,11 @@ Two-stage update process and the role of the DataRowVersion in a successful upda
   
  To prevent premature constraint violations you can temporarily suspend update constraints. This serves two purposes:  
   
--   It prevents an error from being thrown after  you've finished updating one column but haven't started updating another.  
+- It prevents an error from being thrown after  you've finished updating one column but haven't started updating another.  
   
--   It prevents certain update events from being raised (events that are often used for validation).  
+- It prevents certain update events from being raised (events that are often used for validation).  
   
- After you complete an update, you can re-enable constraint checking, which also re-enables update events and raises them.  
+  After you complete an update, you can re-enable constraint checking, which also re-enables update events and raises them.  
   
 > [!NOTE]
 >  In Windows Forms, the data binding architecture that's built into the datagrid suspends constraint checking until focus moves out of a row, and you do not have to explicitly call the <xref:System.Data.DataRow.BeginEdit%2A>, <xref:System.Data.DataRow.EndEdit%2A>, or <xref:System.Data.DataRow.CancelEdit%2A> methods.  
@@ -171,33 +171,33 @@ Two-stage update process and the role of the DataRowVersion in a successful upda
   
  If the changes reflect the current state of the data source, you no longer need to maintain this information. Typically, there are two times when the dataset and its source are in sync:  
   
--   Immediately after you have loaded information into the dataset, such as when you read data from the source.  
+- Immediately after you have loaded information into the dataset, such as when you read data from the source.  
   
--   After sending changes from the dataset to the data source, (but not before, because you would lose the change information that's required to send changes to the database).  
+- After sending changes from the dataset to the data source, (but not before, because you would lose the change information that's required to send changes to the database).  
   
- You can commit the pending changes to the dataset by calling the <xref:System.Data.DataSet.AcceptChanges%2A> method. Typically, <xref:System.Data.DataSet.AcceptChanges%2A> is called during the following times in your application.  
+  You can commit the pending changes to the dataset by calling the <xref:System.Data.DataSet.AcceptChanges%2A> method. Typically, <xref:System.Data.DataSet.AcceptChanges%2A> is called during the following times in your application.  
   
--   After you load the dataset. If you load a dataset by calling a TableAdapter's `Fill` method, then the adapter automatically commits changes for you. However, if you load a dataset by merging another dataset into it, then you have to commit the changes manually.  
+- After you load the dataset. If you load a dataset by calling a TableAdapter's `Fill` method, then the adapter automatically commits changes for you. However, if you load a dataset by merging another dataset into it, then you have to commit the changes manually.  
   
-    > [!NOTE]
-    >  You can prevent the adapter from automatically committing the changes when you call the `Fill` method by setting the `AcceptChangesDuringFill` property of the adapter to `false`. If it's set to `false`, then the <xref:System.Data.DataRow.RowState%2A> of each row that's inserted during the fill is set to <xref:System.Data.DataRowState>.  
+  > [!NOTE]
+  >  You can prevent the adapter from automatically committing the changes when you call the `Fill` method by setting the `AcceptChangesDuringFill` property of the adapter to `false`. If it's set to `false`, then the <xref:System.Data.DataRow.RowState%2A> of each row that's inserted during the fill is set to <xref:System.Data.DataRowState>.  
   
--   After you send dataset changes to another process, such as an XML Web service.  
+- After you send dataset changes to another process, such as an XML Web service.  
   
-    > [!CAUTION]
-    >  Committing the change this way erases any change information. Do not commit changes until after you  finish performing operations that require your application to know what changes have been made in the dataset.  
+  > [!CAUTION]
+  >  Committing the change this way erases any change information. Do not commit changes until after you  finish performing operations that require your application to know what changes have been made in the dataset.  
   
- This method accomplishes the following:  
+  This method accomplishes the following:  
   
--   Writes the <xref:System.Data.DataRowVersion> version of a record into its <xref:System.Data.DataRowVersion> version and overwrites the original version.  
+- Writes the <xref:System.Data.DataRowVersion> version of a record into its <xref:System.Data.DataRowVersion> version and overwrites the original version.  
   
--   Removes any row where the <xref:System.Data.DataRow.RowState%2A> property is set to <xref:System.Data.DataRowState>.  
+- Removes any row where the <xref:System.Data.DataRow.RowState%2A> property is set to <xref:System.Data.DataRowState>.  
   
--   Sets the <xref:System.Data.DataRow.RowState%2A> property of a record to <xref:System.Data.DataRowState>.  
+- Sets the <xref:System.Data.DataRow.RowState%2A> property of a record to <xref:System.Data.DataRowState>.  
   
- The <xref:System.Data.DataSet.AcceptChanges%2A> method is available at three levels. You can call it on a <xref:System.Data.DataRow> object to commits changes for just that row. You can also call it on a <xref:System.Data.DataTable> object to commit all rows in a table. Finally, you can call it on the <xref:System.Data.DataSet> object to commit all pending changes in all records of all tables of the dataset.  
+  The <xref:System.Data.DataSet.AcceptChanges%2A> method is available at three levels. You can call it on a <xref:System.Data.DataRow> object to commits changes for just that row. You can also call it on a <xref:System.Data.DataTable> object to commit all rows in a table. Finally, you can call it on the <xref:System.Data.DataSet> object to commit all pending changes in all records of all tables of the dataset.  
   
- The following table describes which changes are committed based on what object the method is called on.  
+  The following table describes which changes are committed based on what object the method is called on.  
   
 |Method|Result|  
 |------------|------------|  
@@ -215,16 +215,16 @@ Two-stage update process and the role of the DataRowVersion in a successful upda
   
  You can validate data in several ways:  
   
--   In the business layer, by adding code to your application to validate data. The dataset is one place you can do this. The dataset provides some of the advantages of back-end validation — such as the ability to validate changes as column and row values are changing. For more information, see [Validate data in datasets](../data-tools/validate-data-in-datasets.md).  
+- In the business layer, by adding code to your application to validate data. The dataset is one place you can do this. The dataset provides some of the advantages of back-end validation — such as the ability to validate changes as column and row values are changing. For more information, see [Validate data in datasets](../data-tools/validate-data-in-datasets.md).  
   
--   In the presentation layer, by adding validation to forms. For more information, see [User Input Validation in Windows Forms](http://msdn.microsoft.com/library/4ec07681-1dee-4bf9-be5e-718f635a33a1).  
+- In the presentation layer, by adding validation to forms. For more information, see [User Input Validation in Windows Forms](http://msdn.microsoft.com/library/4ec07681-1dee-4bf9-be5e-718f635a33a1).  
   
--   In the data back end, by sending data to the data source — for example, the database — and allowing it to accept or reject the data. If you are working with a database that has sophisticated facilities for validating data and providing error information, this can be a practical approach because you can validate the data no matter where it comes from. However, this approach might not accommodate application-specific validation requirements. Additionally, having the data source validate data can result in numerous round trips to the data source, depending on how your application facilitates the resolution of validation errors raised by the back end.  
+- In the data back end, by sending data to the data source — for example, the database — and allowing it to accept or reject the data. If you are working with a database that has sophisticated facilities for validating data and providing error information, this can be a practical approach because you can validate the data no matter where it comes from. However, this approach might not accommodate application-specific validation requirements. Additionally, having the data source validate data can result in numerous round trips to the data source, depending on how your application facilitates the resolution of validation errors raised by the back end.  
   
-    > [!IMPORTANT]
-    >  When using data commands with a <xref:System.Data.SqlClient.SqlCommand.CommandType%2A> property that's set to <xref:System.Data.CommandType>, carefully check information that is sent from a client before passing it to your database. Malicious users might try to send (inject) modified or additional SQL statements in an effort to gain unauthorized access or damage the database. Before you transfer user input to a database, always verify that the information is valid. It's a best practice to always use parameterized queries or stored procedures when possible. For more information, see [Script Exploits Overview](http://msdn.microsoft.com/library/772c7312-211a-4eb3-8d6e-eec0aa1dcc07).  
+  > [!IMPORTANT]
+  >  When using data commands with a <xref:System.Data.SqlClient.SqlCommand.CommandType%2A> property that's set to <xref:System.Data.CommandType>, carefully check information that is sent from a client before passing it to your database. Malicious users might try to send (inject) modified or additional SQL statements in an effort to gain unauthorized access or damage the database. Before you transfer user input to a database, always verify that the information is valid. It's a best practice to always use parameterized queries or stored procedures when possible. For more information, see [Script Exploits Overview](http://msdn.microsoft.com/library/772c7312-211a-4eb3-8d6e-eec0aa1dcc07).  
   
- After changes have been made in a dataset, you can transmit the changes to a data source. Most commonly, you do this by calling the `Update` method of a TableAdapter (or data adapter). The method loops through each record in a data table, determines what type of update is required (update, insert, or delete), if any, and then runs the appropriate command.  
+  After changes have been made in a dataset, you can transmit the changes to a data source. Most commonly, you do this by calling the `Update` method of a TableAdapter (or data adapter). The method loops through each record in a data table, determines what type of update is required (update, insert, or delete), if any, and then runs the appropriate command.  
   
 ## Transmitting updates to the data source  
  As an illustration of how updates are made, suppose your application uses a dataset that contains a single data table. The application fetches two rows from the database. After the retrieval, the in-memory data table looks like this:  

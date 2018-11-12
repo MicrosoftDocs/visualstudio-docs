@@ -27,19 +27,19 @@ Watches for execution (or stops watching for execution) to occur on the given th
   
 ```cpp#  
 HRESULT WatchForThreadStep(   
-   IDebugProgram2* pOriginatingProgram,  
-   DWORD           dwTid,  
-   BOOL            fWatch,  
-   DWORD           dwFrame  
+   IDebugProgram2* pOriginatingProgram,  
+   DWORD           dwTid,  
+   BOOL            fWatch,  
+   DWORD           dwFrame  
 );  
 ```  
   
 ```csharp  
 int WatchForThreadStep(   
-   IDebugProgram2 pOriginatingProgram,  
-   uint           dwTid,  
-   int            fWatch,  
-   uint           dwFrame  
+   IDebugProgram2 pOriginatingProgram,  
+   uint           dwTid,  
+   int            fWatch,  
+   uint           dwFrame  
 );  
 ```  
   

@@ -1,4 +1,3 @@
-
 ---
 title: "Isolating Code Under Test with Microsoft Fakes in Visual Studio"
 ms.date: 11/04/2016
@@ -158,7 +157,6 @@ Suppose your component contains calls to `DateTime.Now`:
     {
        return DateTime.Now.Year;
     }
-
 ```
 
 During testing, you would like to shim the `Now` property, because the real version inconveniently returns a different value at every call.

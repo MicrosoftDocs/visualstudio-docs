@@ -22,7 +22,7 @@ Retrieves the offset in the virtual function table of a virtual function.
   
 ```C++  
 HRESULT get_virtualBaseOffset (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

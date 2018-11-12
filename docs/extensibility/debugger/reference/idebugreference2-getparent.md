@@ -23,13 +23,13 @@ Gets the parent reference of a reference. Reserved for future use.
   
 ```cpp  
 HRESULT GetParent (   
-   IDebugReference2** ppParent  
+   IDebugReference2** ppParent  
 );  
 ```  
   
 ```csharp  
 int GetParent (   
-   out IDebugReference2 ppParent  
+   out IDebugReference2 ppParent  
 );  
 ```  
   

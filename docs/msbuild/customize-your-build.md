@@ -40,13 +40,13 @@ For example, if you wanted to enable all of your projects to access the new Rosl
 1. Create a new file in the root of your repo called *Directory.Build.props*.
 2. Add the following XML to the file.
 
-  ```xml
-  <Project>
+   ```xml
+   <Project>
     <PropertyGroup>
       <Deterministic>true</Deterministic>
     </PropertyGroup>
-  </Project>
-  ```
+   </Project>
+   ```
 3. Run MSBuild. Your project’s existing imports of *Microsoft.Common.props* and *Microsoft.Common.targets* find the file and import it.
 
 ### Search scope

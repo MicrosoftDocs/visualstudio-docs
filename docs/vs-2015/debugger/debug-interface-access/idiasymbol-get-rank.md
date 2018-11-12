@@ -28,7 +28,7 @@ Retrieves the rank (number of dimensions) of a FORTRAN multi-dimensional array.
   
 ```cpp#  
 HRESULT get_rank (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

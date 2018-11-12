@@ -27,13 +27,13 @@ Sets the reference type. Reserved for future use.
   
 ```cpp#  
 HRESULT SetReferenceType (   
-   REFERENCE_TYPE dwRefType  
+   REFERENCE_TYPE dwRefType  
 );  
 ```  
   
 ```csharp  
 int SetReferenceType (   
-   enum_REFERENCE_TYPE dwRefType  
+   enum_REFERENCE_TYPE dwRefType  
 );  
 ```  
   

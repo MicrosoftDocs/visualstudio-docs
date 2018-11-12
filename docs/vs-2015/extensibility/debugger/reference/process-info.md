@@ -27,29 +27,29 @@ Contains information about a process.
   
 ```cpp#  
 typedef struct tagPROCESS_INFO {   
-   PROCESS_INFO_FIELDS Fields;  
-   BSTR                bstrFileName;  
-   BSTR                bstrBaseName;  
-   BSTR                bstrTitle;  
-   AD_PROCESS_ID       ProcessId;  
-   DWORD               dwSessionId;  
-   BSTR                bstrAttachedSessionName;  
-   FILETIME            CreationTime;  
-   PROCESS_INFO_FLAGS  Flags;  
+   PROCESS_INFO_FIELDS Fields;  
+   BSTR                bstrFileName;  
+   BSTR                bstrBaseName;  
+   BSTR                bstrTitle;  
+   AD_PROCESS_ID       ProcessId;  
+   DWORD               dwSessionId;  
+   BSTR                bstrAttachedSessionName;  
+   FILETIME            CreationTime;  
+   PROCESS_INFO_FLAGS  Flags;  
 } PROCESS_INFO;  
 ```  
   
 ```csharp  
 public struct PROCESS_INFO {   
-   public uint          Fields;  
-   public string        bstrFileName;  
-   public string        bstrBaseName;  
-   public string        bstrTitle;  
-   public AD_PROCESS_ID ProcessId;  
-   public uint          dwSessionId;  
-   public string        bstrAttachedSessionName;  
-   public FILETIME      CreationTime;  
-   public uint          Flags;  
+   public uint          Fields;  
+   public string        bstrFileName;  
+   public string        bstrBaseName;  
+   public string        bstrTitle;  
+   public AD_PROCESS_ID ProcessId;  
+   public uint          dwSessionId;  
+   public string        bstrAttachedSessionName;  
+   public FILETIME      CreationTime;  
+   public uint          Flags;  
 };  
 ```  
   

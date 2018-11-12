@@ -49,7 +49,7 @@ A VSIX package is a *.vsix* file that contains one or more Visual Studio extensi
 ## Installation location  
  During installation, **Extensions and Updates** looks for the contents of the VSIX package in a folder under *%LocalAppData%\Microsoft\VisualStudio\14.0\Extensions*.  
   
- By default, the installation applies only to the current user, because *%LocalAppData%* is a user-specific directory. However, if you set the [AllUsers](https://msdn.microsoft.com/library/ac817f50-3276-4ddb-b467-8bbb1432455b) element of the manifest to `True`, the extension will be installed under *..\\*VisualStudioInstallationFolder*\Common7\IDE\Extensions* and will be available to all users of the computer.  
+ By default, the installation applies only to the current user, because *%LocalAppData%* is a user-specific directory. However, if you set the [AllUsers](https://msdn.microsoft.com/library/ac817f50-3276-4ddb-b467-8bbb1432455b) element of the manifest to `True`, the extension will be installed under <em>..\\</em>VisualStudioInstallationFolder<em>\Common7\IDE\Extensions</em> and will be available to all users of the computer.  
   
 ## [Content_Types].xml  
  The *[Content_Types].xml* file identifies the file types in the expanded *.vsix* file. Visual Studio uses this file during installation of the package but does not install the file itself. For more information about this file, see [The structure of the [Content_types].xml file](the-structure-of-the-content-types-dot-xml-file.md).  

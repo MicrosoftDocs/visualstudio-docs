@@ -22,7 +22,7 @@ Retrieves the compiler-specific frame type.
   
 ```C++  
 HRESULT get_type (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

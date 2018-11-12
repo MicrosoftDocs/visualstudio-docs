@@ -22,7 +22,7 @@ Retrieves the number of source files.
   
 ```C++  
 HRESULT get_Count (   
-   LONG* pRetVal  
+   LONG* pRetVal  
 );  
 ```  
   

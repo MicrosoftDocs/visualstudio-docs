@@ -46,7 +46,7 @@ You might want to add a test agent to a different test controller or you might h
       2. Enter the password in **Password**.
 
         |**Important user account information**|
-        |--------------------------------------------|
+        |-|
         |-   Null passwords are not supported for user accounts.|
         |-   If you want to use the IntelliTrace collector or the network emulation, the user account must be a member of the Administrators group.|
         |-   If the agent user name is not in the agent service it will try to add it, which requires permissions on the test controller.|
@@ -109,7 +109,7 @@ A test agent must be set to the offline state before it can be removed.
 The status of the test agent can be any one of the following values:
 
 |Status|Description|
-|------------|-----------------|
+|-|-----------------|
 |Running Test|Running tests|
 |Ready|Available to run tests or collect data and diagnostics|
 |Offline|Unavailable to run tests or collect data and diagnostics|
@@ -135,7 +135,7 @@ You can change the status and other settings for a test agent using the followin
 1. Change the following test agent properties as required:
 
 |Test Agent Property|Description|
-|-------------------------|-----------------|
+|-|-----------------|
 |**Weighting**|Used to distribute load when you use test agents with different performance levels. For example, a test agent with a weighting of 100 receives two times the load as a test agent with a weighting of 50.|
 |**IP Switching**|Used to configure IP switching. IP switching allows a test agent to send requests to a server by using a range of IP addresses. This simulates calls that come from different client computers.<br /><br /> IP Switching is important if your load test is accessing a web farm. Most load balancers establish affinity between a client and a particular web server by using the client's IP address. If all requests seem like they are coming from a single client, the load balancer will not balance the load. To obtain good load balance in the web farm, make sure that requests come from a range of IP addresses. **Note:**  You can specify a network adapter, or use **(All unassigned)** to automatically select one that is currently not being used. <br /><br /> To use the IP switching feature, the Visual Studio Test Agent service must be running as a user in the Administrators group for that agent computer. This user is selected during agent setup, but can be changed by modifying the properties of the service and restarting it.<br /><br /> To verify that IP switching is working correctly, enable IIS logging on the web server, use the IIS logging functionality to verify that requests are coming from the IP addresses that you configured.|
 |**Attributes**|Set of name/value pairs that can be used in test agent selection. For example, a test might require a particular OS. You can add attributes in the **Roles** tab of your test settings file and they can be used to select a test agent that has matching attributes. If you want to run a test on multiple machines, create an attribute in the test settings role that is configured to run your tests, and then configure a matching attribute on each test agent that you want to use in that role.. **Note:**  This setting is only available for test agents that are registered with a test controller that is not registered to a project, because these attributes are only used in test settings for Visual Studio.|

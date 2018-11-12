@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA1413: Avoid non-public fields in COM visible value types
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|AvoidNonpublicFieldsInComVisibleValueTypes|

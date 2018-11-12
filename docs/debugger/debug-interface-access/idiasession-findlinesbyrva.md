@@ -22,9 +22,9 @@ Retrieves the lines in a specified compiland that contain a specified relative v
   
 ```C++  
 HRESULT findLinesByRVA (   
-   DWORD                 rva,  
-   DWORD                 length,  
-   IDiaEnumLineNumbers** ppResult  
+   DWORD                 rva,  
+   DWORD                 length,  
+   IDiaEnumLineNumbers** ppResult  
 );  
 ```  
   

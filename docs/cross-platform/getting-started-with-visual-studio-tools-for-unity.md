@@ -57,21 +57,21 @@ Starting with Unity 2018.1, Visual Studio should be the default external script 
 
 1. Select **Preferences** from the **Edit** menu.
 
-  ![Select Preferences](media/vstu_unity-preferences.png)
+   ![Select Preferences](media/vstu_unity-preferences.png)
 
-1. In the Preferences dialog, select the **External Tools** tab.
+2. In the Preferences dialog, select the **External Tools** tab.
 
-1. From the **External Script Editor** dropdown list, choose your desired version of Visual Studio if it is listed, otherwise select **Browse...**.
+3. From the **External Script Editor** dropdown list, choose your desired version of Visual Studio if it is listed, otherwise select **Browse...**.
 
-  ![Select Visual Studio](media/vstu_unity-external-tools.png)
+   ![Select Visual Studio](media/vstu_unity-external-tools.png)
 
-1. If **Browse...** was selected, navigate to the **Common7/IDE** directory inside your Visual Studio installation directory and select **devenv.exe**. Then click **Open**.
+4. If **Browse...** was selected, navigate to the **Common7/IDE** directory inside your Visual Studio installation directory and select **devenv.exe**. Then click **Open**.
 
-  ![Select Open](media/vstu_browse-for-application.png)
+   ![Select Open](media/vstu_browse-for-application.png)
 
-1. Once Visual Studio is selected in the **External Script Editor** list, confirm that the **Editor Attaching** checkbox is selected.
+5. Once Visual Studio is selected in the **External Script Editor** list, confirm that the **Editor Attaching** checkbox is selected.
 
-1. Close the **Preferences** dialog to complete the configuration process.
+6. Close the **Preferences** dialog to complete the configuration process.
 
 ## Support for older versions
 

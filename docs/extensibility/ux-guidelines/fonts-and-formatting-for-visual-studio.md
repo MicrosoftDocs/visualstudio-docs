@@ -46,13 +46,13 @@ ms.workload:
   
 ```xaml
 <ui:DialogWindow  
-    x:Class"MyNameSpace.MyWindow"  
-    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  
-    xmlns:s="http://schemas.microsoft.com/winfx/2006/xaml"  
-    xmlns:ui="clr-namespace:Microsoft.VisualStudio.PlatformUI;assembly=Microsoft.VisualStudio.Shell.11.0"  
-    ShowInTaskbar="False"  
-    WindowStartupLocation="CenterOwner"  
-    Title="My Dialog">  
+    x:Class"MyNameSpace.MyWindow"  
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  
+    xmlns:s="http://schemas.microsoft.com/winfx/2006/xaml"  
+    xmlns:ui="clr-namespace:Microsoft.VisualStudio.PlatformUI;assembly=Microsoft.VisualStudio.Shell.11.0"  
+    ShowInTaskbar="False"  
+    WindowStartupLocation="CenterOwner"  
+    Title="My Dialog">  
 </ui:DialogWindow>  
 ```
 
@@ -245,7 +245,7 @@ label.SetResourceReference(Label.StyleProperty,  
 ```csharp
 private void Form1_FontChanged(object sender, System.EventArgs e)  
 {  
-          SetFontStyles();  
+          SetFontStyles();  
 }  
   
 /// <summary>  
@@ -259,20 +259,20 @@ private void Form1_FontChanged(object sender, System.EventArgs e)
 /// </summary>   
 protected void SetFontStyles()  
 {  
-     SetFontStyles(this, this, this.Font);  
+     SetFontStyles(this, this, this.Font);  
 }  
   
 protected static void SetFontStyles(Control topControl, Control parent, Font referenceFont)  
 {  
-     foreach(Control c in parent.Controls)  
-     {  
-          if (c.Controls != null && c.Controls.Count > 0) {  
-               SetFontStyles(topControl, c, referenceFont);  
-          }  
-          if (c.Font != topControl.Font) {  
-               c.Font = new Font(referenceFont, c.Font.Style);  
-          }  
-     }  
+     foreach(Control c in parent.Controls)  
+     {  
+          if (c.Controls != null && c.Controls.Count > 0) {  
+               SetFontStyles(topControl, c, referenceFont);  
+          }  
+          if (c.Font != topControl.Font) {  
+               c.Font = new Font(referenceFont, c.Font.Style);  
+          }  
+     }  
 }  
 ```
   
@@ -319,13 +319,13 @@ protected static void SetFontStyles(Control topControl, Control parent, Font ref
 ##### Title case  
  Title case is a style in which the first letters of most or all of the words within a phrase are capitalized. In Visual Studio, title case is used for many items, including:  
   
--   **Tooltips.** Example: "Preview Selected Items"  
+- **Tooltips.** Example: "Preview Selected Items"  
   
--   **Column headers.** Example: "System Response"  
+- **Column headers.** Example: "System Response"  
   
--   **Menu items.** Example: "Save All"  
+- **Menu items.** Example: "Save All"  
   
- When using title case, these are the guidelines for when to capitalize words and when to leave them lowercase:  
+  When using title case, these are the guidelines for when to capitalize words and when to leave them lowercase:  
   
 |Uppercase|Comments and examples|  
 |---------------|---------------------------|  

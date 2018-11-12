@@ -22,7 +22,7 @@ Retrieves the offset to the beginning of a user-defined type (UDT) of a member i
   
 ```C++  
 HRESULT get_offsetInUdt(   
-   DWORD* pRetVal)  
+   DWORD* pRetVal)  
 );  
 ```  
   

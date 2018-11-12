@@ -86,21 +86,21 @@ The **Parallel Stacks** window is useful when you are debugging multithreaded ap
 ## Tasks View  
  If your application is using <xref:System.Threading.Tasks.Task?displayProperty=fullName> objects (managed code) or `task_handle` objects (native code) to express parallelism, you can use the combo box in the Parallel Stacks window toolbar to switch to *Tasks View*. Tasks View shows call stacks of tasks instead of threads. Tasks View differs from Threads View as follows:  
   
--   Call stacks of threads that are not running tasks are not shown.  
+- Call stacks of threads that are not running tasks are not shown.  
   
--   Call stacks of threads that are running tasks are visually trimmed at the top and bottom to show the most relevant frames that pertain to tasks.  
+- Call stacks of threads that are running tasks are visually trimmed at the top and bottom to show the most relevant frames that pertain to tasks.  
   
--   When multiple tasks are on one thread, the call stacks of those tasks are split out into separate nodes.  
+- When multiple tasks are on one thread, the call stacks of those tasks are split out into separate nodes.  
   
- The following illustration shows the Parallel Stacks Tasks View on the right and the corresponding Threads View on the left.  
+  The following illustration shows the Parallel Stacks Tasks View on the right and the corresponding Threads View on the left.  
   
- ![Tasks view in Parallel Stacks window](../debugger/media/parallel_tasksview.png "Parallel_TasksView")  
+  ![Tasks view in Parallel Stacks window](../debugger/media/parallel_tasksview.png "Parallel_TasksView")  
   
- To see the entire call stack, just switch back to Threads View by right-clicking a stack frame and then clicking **Go to Thread**.  
+  To see the entire call stack, just switch back to Threads View by right-clicking a stack frame and then clicking **Go to Thread**.  
   
- As described in the earlier table, by hovering over a method, you can see additional information. The following image shows the information in the tooltip for the Threads View and the Tasks View.  
+  As described in the earlier table, by hovering over a method, you can see additional information. The following image shows the information in the tooltip for the Threads View and the Tasks View.  
   
- ![Tooltips in Parallel Stacks window](../debugger/media/parallel_stack_tooltips.png "Parallel_Stack_Tooltips")  
+  ![Tooltips in Parallel Stacks window](../debugger/media/parallel_stack_tooltips.png "Parallel_Stack_Tooltips")  
   
 ## Method View  
  From either Threads View or Tasks View, you can pivot the graph on the current method by clicking the Method View icon on the toolbar. Method View shows at a glance all methods on all threads that either call or are called by the current method. The following illustration shows a Threads View, and also how the same information looks in Method View.  

@@ -99,7 +99,7 @@ Hover over the refresh icon or see the **Value** column for the reason the expre
   
 - Automatic evaluation of properties and implicit function calls is disabled. 
   
-  If the refresh icon appears because automatic evaluation of properties and implicit function calls is disabled, you can enable it by selecting **Enable property evaluation and other implicit function calls** in **Tools** > **Options** > **Debugging** > **General**. 
+If the refresh icon appears because automatic evaluation of properties and implicit function calls is disabled, you can enable it by selecting **Enable property evaluation and other implicit function calls** in **Tools** > **Options** > **Debugging** > **General**.
 
 To demonstrate using the refresh icon:
 
@@ -178,7 +178,6 @@ public class Program
          Console.WriteLine("done");
     }
 }
-
 ```
 
 To find out the name of the `Person` in the `DoSomething()` method, you can add a reference to the `Person` Object ID in the **Watch** window.

@@ -27,15 +27,15 @@ Retrieves a specific port supplier.
   
 ```cpp#  
 HRESULT GetPortSupplier(   
-   REFGUID               guidPortSupplier,  
-   IDebugPortSupplier2** ppPortSupplier  
+   REFGUID               guidPortSupplier,  
+   IDebugPortSupplier2** ppPortSupplier  
 );  
 ```  
   
 ```csharp  
 int GetPortSupplier(   
-   ref Guid                guidPortSupplier,  
-   out IDebugPortSupplier2 ppPortSupplier  
+   ref Guid                guidPortSupplier,  
+   out IDebugPortSupplier2 ppPortSupplier  
 );  
 ```  
   

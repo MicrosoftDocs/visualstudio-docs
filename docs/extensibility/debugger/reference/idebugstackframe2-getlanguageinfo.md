@@ -23,15 +23,15 @@ Gets the language associated with this stack frame.
   
 ```cpp  
 HRESULT GetLanguageInfo (   
-   BSTR* pbstrLanguage,  
-   GUID* pguidLanguage  
+   BSTR* pbstrLanguage,  
+   GUID* pguidLanguage  
 );  
 ```  
   
 ```csharp  
 int GetLanguageInfo (   
-   ref string pbstrLanguage,  
-   ref Guid   pguidLanguage  
+   ref string pbstrLanguage,  
+   ref Guid   pguidLanguage  
 );  
 ```  
   

@@ -39,19 +39,19 @@ By completing this walkthrough, you’ll  become more familiar with several opti
   
 #### To install the sample application  
   
-1.  On the menu bar, choose **Tools**, **Extensions and Updates**.  
+1. On the menu bar, choose **Tools**, **Extensions and Updates**.  
   
-2.  Choose the **Online** category, and then choose the **Samples Gallery** category.  
+2. Choose the **Online** category, and then choose the **Samples Gallery** category.  
   
-3.  Specify `Introduction` in the search box to find the sample.  
+3. Specify `Introduction` in the search box to find the sample.  
   
-     ![Extensions and Updates dialog box](../ide/media/buildwalk-extensionsdialogsampledownload.png "BuildWalk_ExtensionsDialogSampleDownload")  
+    ![Extensions and Updates dialog box](../ide/media/buildwalk-extensionsdialogsampledownload.png "BuildWalk_ExtensionsDialogSampleDownload")  
   
-4.  In the results list, choose either **Introduction to Building WPF Applications (Visual C#)** or **Introduction to Building WPF Applications (Visual Basic)**.  
+4. In the results list, choose either **Introduction to Building WPF Applications (Visual C#)** or **Introduction to Building WPF Applications (Visual Basic)**.  
   
-5.  Choose the **Download** button, and then choose the **Close** button.  
+5. Choose the **Download** button, and then choose the **Close** button.  
   
- The Introduction to Building WPF Applications sample appears in the **New Project** dialog box.  
+   The Introduction to Building WPF Applications sample appears in the **New Project** dialog box.  
   
 #### To create a solution for the sample application  
   
@@ -80,48 +80,48 @@ By completing this walkthrough, you’ll  become more familiar with several opti
   
 #### To create a build configuration  
   
-1.  Open the **Configuration Manager** dialog box.  
+1. Open the **Configuration Manager** dialog box.  
   
-     ![Build menu, Configuration Manager command](../ide/media/buildwalk-configurationmanagerdialogbox.png "BuildWalk_ConfigurationManagerDialogBox")  
+    ![Build menu, Configuration Manager command](../ide/media/buildwalk-configurationmanagerdialogbox.png "BuildWalk_ConfigurationManagerDialogBox")  
   
-2.  In the **Active solution configuration** list, choose **New**.  
+2. In the **Active solution configuration** list, choose **New**.  
   
-3.  In the **New Solution Configuration** dialog box, name the new configuration `Test`, copy settings from the existing Debug configuration, and then choose the **OK** button.  
+3. In the **New Solution Configuration** dialog box, name the new configuration `Test`, copy settings from the existing Debug configuration, and then choose the **OK** button.  
   
-     ![New Solution Configuration Dialog Box](../ide/media/buildwalk-newsolutionconfigdlgbox.png "BuildWalk_NewSolutionConfigDlgBox")  
+    ![New Solution Configuration Dialog Box](../ide/media/buildwalk-newsolutionconfigdlgbox.png "BuildWalk_NewSolutionConfigDlgBox")  
   
-4.  In the **Active solution platform** list, choose **New**.  
+4. In the **Active solution platform** list, choose **New**.  
   
-5.  In the **New Solution Platform** dialog box, choose**x64**, and don’t copy settings from the x86 platform.  
+5. In the **New Solution Platform** dialog box, choose **x64**, and don’t copy settings from the x86 platform.  
   
-     ![New Solution Platform Dialog Box](../ide/media/buildwalk-newsolutionplatform.png "BuildWalk_NewSolutionPlatform")  
+    ![New Solution Platform Dialog Box](../ide/media/buildwalk-newsolutionplatform.png "BuildWalk_NewSolutionPlatform")  
   
-6.  Choose the **OK** button.  
+6. Choose the **OK** button.  
   
- The active solution configuration has been changed to Test with the active solution platform set to x64.  
+   The active solution configuration has been changed to Test with the active solution platform set to x64.  
   
- ![Configuration Manager with Test configuration](../ide/media/buildwalk-configmanagertestconfig.png "BuildWalk_ConfigManagerTestconfig")  
+   ![Configuration Manager with Test configuration](../ide/media/buildwalk-configmanagertestconfig.png "BuildWalk_ConfigManagerTestconfig")  
   
- You can quickly verify or change the active solution configuration by using the **Solution Configurations** list on the **Standard** toolbar.  
+   You can quickly verify or change the active solution configuration by using the **Solution Configurations** list on the **Standard** toolbar.  
   
- ![Solution Configuration option Standard Toolbar](../ide/media/buildwalk-standardtoolbarsolutioncongfig.png "BuildWalk_StandardToolbarSolutionCongfig")  
+   ![Solution Configuration option Standard Toolbar](../ide/media/buildwalk-standardtoolbarsolutioncongfig.png "BuildWalk_StandardToolbarSolutionCongfig")  
   
 ##  <a name="BKMK_building"></a> Build the Application  
  Next, you’ll build the solution with the custom build configuration.  
   
 #### To build the solution  
   
--   On the menu bar, choose **Build**, **Build Solution**.  
+- On the menu bar, choose **Build**, **Build Solution**.  
   
- The **Output** window displays the results of the build. The build succeeded, but several warning messages were generated.  
+  The **Output** window displays the results of the build. The build succeeded, but several warning messages were generated.  
   
- Figure 1: Visual Basic warnings  
+  Figure 1: Visual Basic warnings  
   
- ![Output Window Visual Basic](../ide/media/buildwalk-vbbuildoutputwnd.png "BuildWalk_VBBuildOutputWnd")  
+  ![Output Window Visual Basic](../ide/media/buildwalk-vbbuildoutputwnd.png "BuildWalk_VBBuildOutputWnd")  
   
- Figure 2: Visual C# warnings  
+  Figure 2: Visual C# warnings  
   
- ![Output Window Visual C&#35;](../ide/media/buildwalk-csharpbuildoutputwnd.png "BuildWalk_CsharpBuildOutputWnd")  
+  ![Output Window Visual C&#35;](../ide/media/buildwalk-csharpbuildoutputwnd.png "BuildWalk_CsharpBuildOutputWnd")  
   
 ##  <a name="BKMK_hidewarning"></a> Hide Compiler Warnings  
  You can temporarily hide certain warning messages during a build rather than have them clutter up the build output.  
@@ -136,7 +136,7 @@ By completing this walkthrough, you’ll  become more familiar with several opti
   
 3.  Choose the **Build** page and then, in the **Suppress warnings** box, specify the warning number `1762`.  
   
-     ![Build page, Project Designer](../ide/media/buildwalk-csharpsupresswarnings.png "BuildWalk_CsharpSupressWarnings")  
+     ![Build page, Project Designer](../ide/media/buildwalk-csharpsuppresswarnings.png "BuildWalk_CsharpSuppressWarnings")  
   
      For more information, see [Build Page, Project Designer (C#)](../ide/reference/build-page-project-designer-csharp.md).  
   
@@ -148,25 +148,25 @@ By completing this walkthrough, you’ll  become more familiar with several opti
   
 #### To suppress all Visual Basic build warnings  
   
-1.  In **Solution Explorer**, choose the top-level project node.  
+1. In **Solution Explorer**, choose the top-level project node.  
   
-2.  On the menu bar, choose **View**, **Property Pages**.  
+2. On the menu bar, choose **View**, **Property Pages**.  
   
-     The **Project Designer** opens.  
+    The **Project Designer** opens.  
   
-3.  On the **Compile** page, select the **Disable all warnings** check box.  
+3. On the **Compile** page, select the **Disable all warnings** check box.  
   
-     ![Compile page, Project Designer](../ide/media/buildwalk-vbsupresswarnings.png "BuildWalk_VBSupressWarnings")  
+    ![Compile page, Project Designer](../ide/media/buildwalk-vbsuppresswarnings.png "BuildWalk_VBSuppressWarnings")  
   
-     For more information, see [Configuring Warnings in Visual Basic](../ide/configuring-warnings-in-visual-basic.md).  
+    For more information, see [Configuring Warnings in Visual Basic](../ide/configuring-warnings-in-visual-basic.md).  
   
-4.  Build the solution.  
+4. Build the solution.  
   
- The **Output** window displays only summary information for the build.  
+   The **Output** window displays only summary information for the build.  
   
- ![Output Window, Visual Basic Build Warnings](../ide/media/buildwalk-visualbasicbuildwarnings.png "BuildWalk_VisualBasicBuildWarnings")  
+   ![Output Window, Visual Basic Build Warnings](../ide/media/buildwalk-visualbasicbuildwarnings.png "BuildWalk_VisualBasicBuildWarnings")  
   
- For more information, see [How to: Suppress Compiler Warnings](../ide/how-to-suppress-compiler-warnings.md).  
+   For more information, see [How to: Suppress Compiler Warnings](../ide/how-to-suppress-compiler-warnings.md).  
   
 ##  <a name="BKMK_outputdetails"></a> Display Additional Build Details in the Output Window  
  You can change how much information about the build process appears in the **Output** window. Build verbosity is usually set to Minimal, which means that the **Output** window displays only a summary of the build process along with any high priority warnings or errors. You can display more information about the build by using the [Options Dialog Box,  Projects and Solutions, Build and Run](../ide/reference/options-dialog-box-projects-and-solutions-build-and-run.md).  
@@ -176,28 +176,28 @@ By completing this walkthrough, you’ll  become more familiar with several opti
   
 #### To change the amount of information in the Output window  
   
-1.  Open the **Options** dialog box.  
+1. Open the **Options** dialog box.  
   
-     ![Options command on the Tools menu](../ide/media/exploreide-toolsoptionsmenu.png "ExploreIDE-ToolsOptionsmenu")  
+    ![Options command on the Tools menu](../ide/media/exploreide-toolsoptionsmenu.png "ExploreIDE-ToolsOptionsmenu")  
   
-2.  Choose the **Projects and Solutions** category, and then choose the **Build and Run** page.  
+2. Choose the **Projects and Solutions** category, and then choose the **Build and Run** page.  
   
-3.  In the **MSBuild project build output verbosity** list, choose **Normal**, and then choose the **OK** button.  
+3. In the **MSBuild project build output verbosity** list, choose **Normal**, and then choose the **OK** button.  
   
-4.  On the menu bar, choose **Build**, **Clean Solution**.  
+4. On the menu bar, choose **Build**, **Clean Solution**.  
   
-5.  Build the solution, and then review the information in the **Output** window.  
+5. Build the solution, and then review the information in the **Output** window.  
   
-     The build information includes the time that the build started (located at the beginning), the order in which files were processed, and the amount of time that the process took to complete (located at the end). This information also includes the actual compiler syntax that Visual Studio runs during the build.  
+    The build information includes the time that the build started (located at the beginning), the order in which files were processed, and the amount of time that the process took to complete (located at the end). This information also includes the actual compiler syntax that Visual Studio runs during the build.  
   
-     For example, in the Visual C# build, the [/nowarn](http://msdn.microsoft.com/library/7ebf2106-0652-4fdc-bf60-70fc86465d83) option lists the warning code, 1762, that you specified earlier in this topic, along with three other warnings.  
+    For example, in the Visual C# build, the [/nowarn](http://msdn.microsoft.com/library/7ebf2106-0652-4fdc-bf60-70fc86465d83) option lists the warning code, 1762, that you specified earlier in this topic, along with three other warnings.  
   
-     In the Visual Basic build, [/nowarn](http://msdn.microsoft.com/library/7ebf2106-0652-4fdc-bf60-70fc86465d83) doesn’t include specific warnings to exclude, so no warnings appear.  
+    In the Visual Basic build, [/nowarn](http://msdn.microsoft.com/library/7ebf2106-0652-4fdc-bf60-70fc86465d83) doesn’t include specific warnings to exclude, so no warnings appear.  
   
-    > [!TIP]
-    >  You can search the contents of the **Output** window if you display the **Find** dialog box by choosing the Ctrl+F keys.  
+   > [!TIP]
+   >  You can search the contents of the **Output** window if you display the **Find** dialog box by choosing the Ctrl+F keys.  
   
- For more information, see [How to: View, Save, and Configure Build Log Files](../ide/how-to-view-save-and-configure-build-log-files.md).  
+   For more information, see [How to: View, Save, and Configure Build Log Files](../ide/how-to-view-save-and-configure-build-log-files.md).  
   
 ##  <a name="BKMK_releasebuild"></a> Create a Release Build  
  You can build a version of the sample application that’s optimized for shipping it. For the release build, you’ll specify that the executable is copied to a network share before the build is kicked off.  
@@ -229,30 +229,30 @@ By completing this walkthrough, you’ll  become more familiar with several opti
   
 #### To specify a release build for Visual C#  
   
-1.  Open the **Project Designer**.  
+1. Open the **Project Designer**.  
   
-     ![View menu, Property Pages command](../ide/media/buildwalk-viewpropertypages.png "BuildWalk_ViewPropertyPages")  
+    ![View menu, Property Pages command](../ide/media/buildwalk-viewpropertypages.png "BuildWalk_ViewPropertyPages")  
   
-2.  Choose the **Build** page.  
+2. Choose the **Build** page.  
   
-3.  In the **Configuration** list, choose **Release**.  
+3. In the **Configuration** list, choose **Release**.  
   
-4.  In the **Platform** list, choose **x86**.  
+4. In the **Platform** list, choose **x86**.  
   
-5.  In the **Output path** box, specify a network path.  
+5. In the **Output path** box, specify a network path.  
   
-     For example, you could specify \\\myserver\builds.  
+    For example, you could specify \\\myserver\builds.  
   
-    > [!IMPORTANT]
-    >  A message box might appear, warning you that the network share that you’ve specified might not be a trusted location. If you trust the location that you’ve specified, choose the **OK** button in the message box.  
+   > [!IMPORTANT]
+   >  A message box might appear, warning you that the network share that you’ve specified might not be a trusted location. If you trust the location that you’ve specified, choose the **OK** button in the message box.  
   
-6.  Build the application.  
+6. Build the application.  
   
-     ![Build Solution command on the Build menu](../ide/media/exploreide-buildsolution.png "ExploreIDE-BuildSolution")  
+    ![Build Solution command on the Build menu](../ide/media/exploreide-buildsolution.png "ExploreIDE-BuildSolution")  
   
- The executable file is copied to the network path that you specified. Its path would be \\\myserver\builds\\*FileName*.exe.  
+   The executable file is copied to the network path that you specified. Its path would be \\\myserver\builds\\*FileName*.exe.  
   
- Congratulations: you’ve successfully completed this walkthrough.  
+   Congratulations: you’ve successfully completed this walkthrough.  
   
 ## See Also  
  [Walkthrough: Building a Project (C++)](http://msdn.microsoft.com/library/d459bc03-88ef-48d0-9f9a-82d17f0b6a4d)   

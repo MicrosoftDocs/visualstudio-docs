@@ -28,10 +28,10 @@ Specifies the type of memory to access.
   
 ```cpp#  
 enum MemoryTypeEnum {  
-   MemTypeCode,  
-   MemTypeData,  
-   MemTypeStack,  
-   MemTypeAny = -1  
+   MemTypeCode,  
+   MemTypeData,  
+   MemTypeStack,  
+   MemTypeAny = -1  
 };  
 ```  
   

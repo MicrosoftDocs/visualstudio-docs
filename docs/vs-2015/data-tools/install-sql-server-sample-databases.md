@@ -24,7 +24,7 @@ Sample databases are useful for experimenting with SQL and LINQ queries, databin
   
 #### To restore a database from a .bak file in Visual Studio  
   
-1.  When you back up a Microsoft SQL Server database, the result is a .bak file. To make the .bak file usable again as a database file, it must be *restored*. On the main menu, select**View** > **SQL Server Object Explorer**. If you don't see it, you might need to install it. Go to **Control Panel** > **Programs and Features**, find Microsoft Visual Studio 2015, and click the **Change** button. When the list of installed components appears in the installer window, select the **SQL Server Object Explorer**check box and then continue with the installation.  
+1.  When you back up a Microsoft SQL Server database, the result is a .bak file. To make the .bak file usable again as a database file, it must be *restored*. On the main menu, select **View** > **SQL Server Object Explorer**. If you don't see it, you might need to install it. Go to **Control Panel** > **Programs and Features**, find Microsoft Visual Studio 2015, and click the **Change** button. When the list of installed components appears in the installer window, select the **SQL Server Object Explorer** check box and then continue with the installation.  
   
 2.  In SQL Server Object Explorer, right-click any SQL Server database engine(for example, localdb), and select**New Query**.  
   

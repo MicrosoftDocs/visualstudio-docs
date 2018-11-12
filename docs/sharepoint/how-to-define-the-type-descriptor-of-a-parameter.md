@@ -78,43 +78,43 @@ ms.workload:
   
 ### To define a collection of entities  
   
-1.  In the **BDC Method Details** window, choose the type descriptor of the parameter that you want.  
+1. In the **BDC Method Details** window, choose the type descriptor of the parameter that you want.  
   
-2.  On the menu bar, choose **View**, **Properties Window**.  
+2. On the menu bar, choose **View**, **Properties Window**.  
   
-3.  In the **Properties** window, set the **Name** property to a name that describes the entity (For example: **Contacts**).  
+3. In the **Properties** window, set the **Name** property to a name that describes the entity (For example: **Contacts**).  
   
-4.  Set the **IsCollection** property to **True**. This indicates that this type descriptor is a collection of entities.  
+4. Set the **IsCollection** property to **True**. This indicates that this type descriptor is a collection of entities.  
   
-5.  Set the **TypeName** property to a string that contains a reference to the <xref:System.Collections.Generic.IEnumerable%601> interface, and the fully qualified name of the type that represents the entity. This type can be a class in your project, a type defined in an assembly that you reference in your solution, or a type defined in the BDC object model.  
+5. Set the **TypeName** property to a string that contains a reference to the <xref:System.Collections.Generic.IEnumerable%601> interface, and the fully qualified name of the type that represents the entity. This type can be a class in your project, a type defined in an assembly that you reference in your solution, or a type defined in the BDC object model.  
   
-    -   For a class in your project, choose the down arrow next to the **TypeName** property, choose the **Current Project** tab in the dialog box that appears, and then choose the class in your project.  
+   - For a class in your project, choose the down arrow next to the **TypeName** property, choose the **Current Project** tab in the dialog box that appears, and then choose the class in your project.  
   
-         The fully qualified name includes the namespace and name of the class followed by the name of the LOB system.  
+      The fully qualified name includes the namespace and name of the class followed by the name of the LOB system.  
   
-         The following example sets the value of the **TypeName** property to a collection of classes in your project.  
+      The following example sets the value of the **TypeName** property to a collection of classes in your project.  
   
-         `System.Collections.Generic.IEnumerable`1 [MyBDCNamespace.` `BdcModel1.Contact, BdcModel1]`  
+      `System.Collections.Generic.IEnumerable`1 [MyBDCNamespace.` `BdcModel1.Contact, BdcModel1]`  
   
-    -   For a type located in an assembly in your solution, the fully qualified name includes the name of the type, the name of the assembly, the version number, the culture, and the public key token.  
+   - For a type located in an assembly in your solution, the fully qualified name includes the name of the type, the name of the assembly, the version number, the culture, and the public key token.  
   
-         The following example sets the value of the **TypeName** property to a collection of types in an assembly that you reference in your solution.  
+      The following example sets the value of the **TypeName** property to a collection of types in an assembly that you reference in your solution.  
   
-         `System.Collections.Generic.IEnumerable`1 [MyNamespace.Contact, myAssemblyName, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]`  
+      `System.Collections.Generic.IEnumerable`1 [MyNamespace.Contact, myAssemblyName, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]`  
   
-    -   For a type defined in the BDC object model, the fully qualified name includes only the namespace and name of the type.  
+   - For a type defined in the BDC object model, the fully qualified name includes only the namespace and name of the type.  
   
-         The following example sets the value of the **TypeName** property to a collection of types defined in the BDC object model.  
+      The following example sets the value of the **TypeName** property to a collection of types defined in the BDC object model.  
   
-         `System.Collections.Generic.IEnumerable`1 [Microsoft.BusinessData.Runtime.DynamicType]`  
+      `System.Collections.Generic.IEnumerable`1 [Microsoft.BusinessData.Runtime.DynamicType]`  
   
-6.  In the **BDC Method Details** window, open the list that appears for the type descriptor, and then choose **Edit**.  
+6. In the **BDC Method Details** window, open the list that appears for the type descriptor, and then choose **Edit**.  
   
-     The **BDC Explorer** window opens.  
+    The **BDC Explorer** window opens.  
   
-7.  In the **BDC Explorer**, open the shortcut menu of the type descriptor, and then choose **Add Type Descriptor**.  
+7. In the **BDC Explorer**, open the shortcut menu of the type descriptor, and then choose **Add Type Descriptor**.  
   
-     A new type descriptor is added as a child to the collection type descriptor. Configure this type descriptor as an entity.  
+    A new type descriptor is added as a child to the collection type descriptor. Configure this type descriptor as an entity.  
   
 ## See also
  [BDC model design tools overview](../sharepoint/bdc-model-design-tools-overview.md)   

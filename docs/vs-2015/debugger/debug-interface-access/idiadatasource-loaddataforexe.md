@@ -28,9 +28,9 @@ Opens and prepares the debug data associated with the .exe/.dll file.
   
 ```cpp#  
 HRESULT loadDataForExe (  
-   LPCOLESTR executable,  
-   LPCOLESTR searchPath,  
-   IUnknown* pCallback  
+   LPCOLESTR executable,  
+   LPCOLESTR searchPath,  
+   IUnknown* pCallback  
 );  
 ```  
   

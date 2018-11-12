@@ -41,17 +41,17 @@ ms.workload:
 ## Call VBA code from the customization assembly  
  You can call macros in Word documents, and you can call macros and functions in Excel workbooks. To do this, use one of the following methods:  
   
--   For Word, call the <xref:Microsoft.Office.Interop.Word._Application.Run%2A>method of the <xref:Microsoft.Office.Interop.Word.Application> class.  
+- For Word, call the <xref:Microsoft.Office.Interop.Word._Application.Run%2A>method of the <xref:Microsoft.Office.Interop.Word.Application> class.  
   
--   For Excel, call the <xref:Microsoft.Office.Interop.Excel._Application.Run%2A> method of the <xref:Microsoft.Office.Interop.Excel.Application> class.  
+- For Excel, call the <xref:Microsoft.Office.Interop.Excel._Application.Run%2A> method of the <xref:Microsoft.Office.Interop.Excel.Application> class.  
   
- For each method, the first parameter identifies the name of the macro or function you want to call, and the remaining optional parameters specify the parameters to pass to the macro or function. The first parameter can have different formats for Word and Excel:  
+  For each method, the first parameter identifies the name of the macro or function you want to call, and the remaining optional parameters specify the parameters to pass to the macro or function. The first parameter can have different formats for Word and Excel:  
   
--   For Word, the first parameter is a string that can be any combination of template, module, and macro name. If you specify the document name, your code can only run macros in documents related to the current context — not just any macro in any document.  
+- For Word, the first parameter is a string that can be any combination of template, module, and macro name. If you specify the document name, your code can only run macros in documents related to the current context — not just any macro in any document.  
   
--   For Excel, the first parameter can be a string that specifies the macro name, a <xref:Microsoft.Office.Interop.Excel.Range> that indicates where the function is, or a register ID for a registered DLL (XLL) function. If you pass a string, the string will be evaluated in the context of the active sheet.  
+- For Excel, the first parameter can be a string that specifies the macro name, a <xref:Microsoft.Office.Interop.Excel.Range> that indicates where the function is, or a register ID for a registered DLL (XLL) function. If you pass a string, the string will be evaluated in the context of the active sheet.  
   
- The following code example shows how to call a macro named `MyMacro` from a document-level project for Excel. This example assumes that `MyMacro` is defined in `Sheet1`.  
+  The following code example shows how to call a macro named `MyMacro` from a document-level project for Excel. This example assumes that `MyMacro` is defined in `Sheet1`.  
   
 ```vb  
 Globals.Sheet1.Application.Run("MyMacro")  
@@ -71,11 +71,11 @@ Globals.Sheet1.Application.Run("MyMacro", missing, missing, missing,
 ## Call code in document-level customizations from VBA  
  You can configure a document-level project for Word or Excel so that Visual Basic for Applications (VBA) code in the document can call code in the customization assembly. This is useful in the following scenarios:  
   
--   You want to extend existing VBA code in a document by using features in a document-level customization that is associated with the same document.  
+- You want to extend existing VBA code in a document by using features in a document-level customization that is associated with the same document.  
   
--   You want to make services that you develop in a document-level customization available to end users who can access the services by writing VBA code in the document.  
+- You want to make services that you develop in a document-level customization available to end users who can access the services by writing VBA code in the document.  
   
- The Office development tools in Visual Studio provide a similar feature for VSTO Add-ins. If you are developing a VSTO Add-in, you can call code in your VSTO Add-in from other Microsoft Office solutions. For more information, see [Call code in VSTO Add-ins from other Office solutions](../vsto/calling-code-in-vsto-add-ins-from-other-office-solutions.md).  
+  The Office development tools in Visual Studio provide a similar feature for VSTO Add-ins. If you are developing a VSTO Add-in, you can call code in your VSTO Add-in from other Microsoft Office solutions. For more information, see [Call code in VSTO Add-ins from other Office solutions](../vsto/calling-code-in-vsto-add-ins-from-other-office-solutions.md).  
   
 > [!NOTE]  
 >  This feature cannot be used in Word template projects. It can be used only in Word document, Excel workbook, or Excel template projects.  
@@ -100,21 +100,21 @@ Globals.Sheet1.Application.Run("MyMacro", missing, missing, missing,
 ## Enable VBA code to call into the customization assembly  
  There are two different ways that you can expose members in a customization assembly to VBA code in the document:  
   
--   You can expose members of a host item class in a [!INCLUDE[vbprvb](../sharepoint/includes/vbprvb-md.md)] project to VBA. To do this, set the **EnableVbaCallers** property of the host item to **True** in the **Properties** window while the host item (that is, the document, worksheet, or workbook) is open in the designer. Visual Studio automatically performs all of the work required to enable VBA code to call members of the class.  
+- You can expose members of a host item class in a [!INCLUDE[vbprvb](../sharepoint/includes/vbprvb-md.md)] project to VBA. To do this, set the **EnableVbaCallers** property of the host item to **True** in the **Properties** window while the host item (that is, the document, worksheet, or workbook) is open in the designer. Visual Studio automatically performs all of the work required to enable VBA code to call members of the class.  
   
--   You can expose members in any public class in a Visual C# project, or members in a non-host item class in a [!INCLUDE[vbprvb](../sharepoint/includes/vbprvb-md.md)] project, to VBA. This option provides you with more freedom to choose which classes you expose to VBA, but it also requires more manual steps.  
+- You can expose members in any public class in a Visual C# project, or members in a non-host item class in a [!INCLUDE[vbprvb](../sharepoint/includes/vbprvb-md.md)] project, to VBA. This option provides you with more freedom to choose which classes you expose to VBA, but it also requires more manual steps.  
   
-     To do this, you must perform the following main steps:  
+   To do this, you must perform the following main steps:  
   
-    1.  Expose the class to COM.  
+  1.  Expose the class to COM.  
   
-    2.  Override the **GetAutomationObject** method of a host item class in your project to return an instance of the class that you are exposing to VBA.  
+  2.  Override the **GetAutomationObject** method of a host item class in your project to return an instance of the class that you are exposing to VBA.  
   
-    3.  Set the **ReferenceAssemblyFromVbaProject** property of any host item class in the project to **True**. This embeds the customization assembly's type library into the assembly and adds a reference to the type library to the VBA project in the document.  
+  3.  Set the **ReferenceAssemblyFromVbaProject** property of any host item class in the project to **True**. This embeds the customization assembly's type library into the assembly and adds a reference to the type library to the VBA project in the document.  
   
- For detailed instructions, see [How to: Expose code to VBA in a Visual Basic project](../vsto/how-to-expose-code-to-vba-in-a-visual-basic-project.md) and [How to: Expose code to VBA in a Visual C&#35; project](../vsto/how-to-expose-code-to-vba-in-a-visual-csharp-project.md).  
+  For detailed instructions, see [How to: Expose code to VBA in a Visual Basic project](../vsto/how-to-expose-code-to-vba-in-a-visual-basic-project.md) and [How to: Expose code to VBA in a Visual C&#35; project](../vsto/how-to-expose-code-to-vba-in-a-visual-csharp-project.md).  
   
- The **EnableVbaCallers** and **ReferenceAssemblyFromVbaProject** properties are available only in the **Properties** window at design time; they cannot be used at run time. To view the properties, open the designer for a host item in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. For more information about the specific tasks that Visual Studio performs when you set these properties, see [Tasks performed by the host item properties](#PropertyTasks).  
+  The **EnableVbaCallers** and **ReferenceAssemblyFromVbaProject** properties are available only in the **Properties** window at design time; they cannot be used at run time. To view the properties, open the designer for a host item in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. For more information about the specific tasks that Visual Studio performs when you set these properties, see [Tasks performed by the host item properties](#PropertyTasks).  
   
 > [!NOTE]  
 >  If the workbook or document does not already contain VBA code or if VBA code in the document is not trusted to run, you will receive an error message when you set the **EnableVbaCallers** or **ReferenceAssemblyFromVbaProject** property to **True**. This is because Visual Studio cannot modify the VBA project in the document in this situation.  
@@ -122,11 +122,11 @@ Globals.Sheet1.Application.Run("MyMacro", missing, missing, missing,
 ## Use members in VBA code to call into the customization assembly  
  After you configure your project to enable VBA code to call into the customization assembly, Visual Studio adds the following members to the VBA project in the document:  
   
--   For all projects, Visual Studio adds a global method named `GetManagedClass`.  
+- For all projects, Visual Studio adds a global method named `GetManagedClass`.  
   
--   For [!INCLUDE[vbprvb](../sharepoint/includes/vbprvb-md.md)] projects in which you expose members of a host item class by using the **EnableVbaCallers** property, Visual Studio also adds a property named `CallVSTOAssembly` to the `ThisDocument`, `ThisWorkbook`, `Sheet1`, `Sheet2`, or `Sheet3` module in the VBA project.  
+- For [!INCLUDE[vbprvb](../sharepoint/includes/vbprvb-md.md)] projects in which you expose members of a host item class by using the **EnableVbaCallers** property, Visual Studio also adds a property named `CallVSTOAssembly` to the `ThisDocument`, `ThisWorkbook`, `Sheet1`, `Sheet2`, or `Sheet3` module in the VBA project.  
   
- You can use the `CallVSTOAssembly` property or `GetManagedClass` method to access public members of the class that you exposed to VBA code in the project.  
+  You can use the `CallVSTOAssembly` property or `GetManagedClass` method to access public members of the class that you exposed to VBA code in the project.  
   
 > [!NOTE]  
 >  While you develop and deploy your solution, there are several different copies of the document where you can add the VBA code. For more information, see [Guidelines for adding VBA code to the document](#Guidelines).  
@@ -204,37 +204,37 @@ GetManagedClass(pdispInteropObject Object) As Object
 ### EnableVbaCallers  
  When you set the **EnableVbaCallers** property of a host item to **True** in a Visual Basic project, Visual Studio performs the following tasks:  
   
-1.  It adds the <xref:Microsoft.VisualBasic.ComClassAttribute> and <xref:System.Runtime.InteropServices.ComVisibleAttribute> attributes to the host item class.  
+1. It adds the <xref:Microsoft.VisualBasic.ComClassAttribute> and <xref:System.Runtime.InteropServices.ComVisibleAttribute> attributes to the host item class.  
   
-2.  It overrides the **GetAutomationObject** method of the host item class.  
+2. It overrides the **GetAutomationObject** method of the host item class.  
   
-3.  It sets the **ReferenceAssemblyFromVbaProject** property of the host item to **True**.  
+3. It sets the **ReferenceAssemblyFromVbaProject** property of the host item to **True**.  
   
- When you set the **EnableVbaCallers** property back to **False**, Visual Studio performs the following tasks:  
+   When you set the **EnableVbaCallers** property back to **False**, Visual Studio performs the following tasks:  
   
-1.  It removes the <xref:Microsoft.VisualBasic.ComClassAttribute> and <xref:System.Runtime.InteropServices.ComVisibleAttribute> attributes from the `ThisDocument` class.  
+4. It removes the <xref:Microsoft.VisualBasic.ComClassAttribute> and <xref:System.Runtime.InteropServices.ComVisibleAttribute> attributes from the `ThisDocument` class.  
   
-2.  It removes the **GetAutomationObject** method from the host item class.  
+5. It removes the **GetAutomationObject** method from the host item class.  
   
-    > [!NOTE]  
-    >  Visual Studio does not automatically set the **ReferenceAssemblyFromVbaProject** property back to **False**. You can set this property to **False** manually by using the **Properties** window.  
+   > [!NOTE]  
+   >  Visual Studio does not automatically set the **ReferenceAssemblyFromVbaProject** property back to **False**. You can set this property to **False** manually by using the **Properties** window.  
   
 ### ReferenceAssemblyFromVbaProject  
  When the **ReferenceAssemblyFromVbaProject** property of any host item in a Visual Basic or Visual C# project is set to **True**, Visual Studio performs the following tasks:  
   
-1.  It generates a type library for the customization assembly and embeds the type library in the assembly.  
+1. It generates a type library for the customization assembly and embeds the type library in the assembly.  
   
-2.  It adds a reference to the following type libraries in the VBA project in the document:  
+2. It adds a reference to the following type libraries in the VBA project in the document:  
   
-    -   The type library for your customization assembly.  
+   -   The type library for your customization assembly.  
   
-    -   The Microsoft Visual Studio Tools for Office Execution Engine 9.0 Type Library. This type library is included in the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)].  
+   -   The Microsoft Visual Studio Tools for Office Execution Engine 9.0 Type Library. This type library is included in the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)].  
   
- When the **ReferenceAssemblyFromVbaProject** property is set back to **False**, Visual Studio performs the following tasks:  
+   When the **ReferenceAssemblyFromVbaProject** property is set back to **False**, Visual Studio performs the following tasks:  
   
-1.  It removes the type library references from the VBA project in the document.  
+3. It removes the type library references from the VBA project in the document.  
   
-2.  It removes the embedded type library from the assembly.  
+4. It removes the embedded type library from the assembly.  
   
 ## Troubleshoot
  The following table lists some common errors and suggestions for fixing the errors.  

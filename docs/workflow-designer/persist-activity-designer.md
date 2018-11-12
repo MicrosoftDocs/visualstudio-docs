@@ -32,7 +32,7 @@ The **Persist** activity designer can be dragged from the **Toolbox** and droppe
 The following table shows the <xref:System.Activities.Statements.Persist> properties and describes how they are used in the designer. These properties can be edited in property grid and some of them can be edited on Workflow Designer surface.
 
 |Property Name|Required|Usage|
-|-------------------|--------------|-----------|
+|-|--------------|-|
 |<xref:System.Activities.Activity.DisplayName%2A>|False|The friendly name of the <xref:System.Activities.Statements.Persist> activity. The default is Persist. Although the display name is not strictly required, it is a best practice to use a display name.|
 
 ## See also

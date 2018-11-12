@@ -47,47 +47,47 @@ The **Fonts and Colors** page of the **Options** dialog box lets you establish a
  **Show settings for**  
  Lists all of the user interface elements for which you can change font and color schemes. After selecting an item from this list you can customize color settings for the item selected in **Display items**.  
   
--   **Text Editor**  
+- **Text Editor**  
   
-     Changes to font style, size, and color display settings for Text Editor affect the appearance of text in your default text editor. Documents opened in a text editor outside the IDE will not be affected by these settings.  
+   Changes to font style, size, and color display settings for Text Editor affect the appearance of text in your default text editor. Documents opened in a text editor outside the IDE will not be affected by these settings.  
   
--   **Printer**  
+- **Printer**  
   
-     Changes to font style, size, and color display settings for Printer affect the appearance of text in printed documents.  
+   Changes to font style, size, and color display settings for Printer affect the appearance of text in printed documents.  
   
-    > [!NOTE]
-    >  As needed, you can select a different default font for printing than that used for display in the text editor. This can be useful when printing code that contains both single-byte and double-byte characters.  
+  > [!NOTE]
+  >  As needed, you can select a different default font for printing than that used for display in the text editor. This can be useful when printing code that contains both single-byte and double-byte characters.  
   
--   **Statement Completion**  
+- **Statement Completion**  
   
-     Changes the font style and size for the text that appears in statement completion pop-up in the editor.  
+   Changes the font style and size for the text that appears in statement completion pop-up in the editor.  
   
--   **Editor Tooltip**  
+- **Editor Tooltip**  
   
-     Changes the font style and size for the text that appears in ToolTips displayed in the editor.  
+   Changes the font style and size for the text that appears in ToolTips displayed in the editor.  
   
--   **Environment Font**  
+- **Environment Font**  
   
-     Changes the font style and size for all IDE user interface elements that do not already have a separate option in **Show settings for.** For example, this option applies to the **Start Page** but would not affect the **Output** window.  
+   Changes the font style and size for all IDE user interface elements that do not already have a separate option in **Show settings for.** For example, this option applies to the **Start Page** but would not affect the **Output** window.  
   
--   **[All Text Tool Windows]**  
+- **[All Text Tool Windows]**  
   
-     Changes to font style, size, and color display settings for this item affect the appearance of text in tool windows that have output panes in the IDE. For example, Output window, Command window, Immediate window, etc.  
+   Changes to font style, size, and color display settings for this item affect the appearance of text in tool windows that have output panes in the IDE. For example, Output window, Command window, Immediate window, etc.  
   
-    > [!NOTE]
-    >  Changes to the text of **[All Text Tool Windows]** items do not take effect during the session in which you make them. You can evaluate such changes by opening another instance of Visual Studio.  
+  > [!NOTE]
+  >  Changes to the text of **[All Text Tool Windows]** items do not take effect during the session in which you make them. You can evaluate such changes by opening another instance of Visual Studio.  
   
- **Use Defaults**  
- Resets the font and color values of the list item selected in **Show settings for**. The **Use** button appears when other display schemes are available for selection. For example, you can choose from two schemes for the Printer.  
+  **Use Defaults**  
+  Resets the font and color values of the list item selected in **Show settings for**. The **Use** button appears when other display schemes are available for selection. For example, you can choose from two schemes for the Printer.  
   
- **Font (bold type indicates fixed-width fonts)**  
- Lists all the fonts installed on your system. When the drop-down menu first appears, the current font for the element selected in the **Show settings for** field is highlighted. Fixed fonts — which are easier to align in the editor — appear in bold.  
+  **Font (bold type indicates fixed-width fonts)**  
+  Lists all the fonts installed on your system. When the drop-down menu first appears, the current font for the element selected in the **Show settings for** field is highlighted. Fixed fonts — which are easier to align in the editor — appear in bold.  
   
- **Size**  
- Lists available point sizes for the highlighted font. Changing the size of the font affects all **Display items** for the **Show settings for** selection.  
+  **Size**  
+  Lists available point sizes for the highlighted font. Changing the size of the font affects all **Display items** for the **Show settings for** selection.  
   
- **Display items**  
- Lists the items for which you can modify the foreground and background color.  
+  **Display items**  
+  Lists the items for which you can modify the foreground and background color.  
   
 > [!NOTE]
 >  **Plain Text** is the default display item. As such, properties assigned to **PlainText** will be overridden by properties assigned to other display items. For example, if you assign the color blue to **PlainText** and the color green to **Identifier**, all identifiers will appear in green. In this example, **Identifier** properties override **PlainText** properties.  
@@ -147,7 +147,7 @@ The **Fonts and Colors** page of the **Options** dialog box lets you establish a
 |**Keyword**|Keywords for the given language that are reserved. For example: class and namespace.|  
 |**Memory Address**|The color of text used to display the address column inside the **Memory** window.|  
 |**Memory Changed**|The color of text used to display changed data inside the **Memory** window.|  
-|**Memory Data**|The color of text used to display data inside the M**emory** window.|  
+|**Memory Data**|The color of text used to display data inside the **Memory** window.|  
 |**Memory Unreadable**|The color of text used to display unreadable memory areas within the **Memory** window.|  
 |**Number**|A number in code that represents an actual numeric value.|  
 |**Operator**|Operators such as +, -, and !=.|  

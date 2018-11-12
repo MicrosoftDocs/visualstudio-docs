@@ -28,14 +28,14 @@ Gets the count of elements in the array.
 ```  
 [C++]  
 HRESULT GetCount(   
-   DWORD* pdwElements  
+   DWORD* pdwElements  
 );  
 ```  
   
 ```  
 [C#]  
 int GetCount(  
-   out uint pdwElements  
+   out uint pdwElements  
 );  
 ```  
   

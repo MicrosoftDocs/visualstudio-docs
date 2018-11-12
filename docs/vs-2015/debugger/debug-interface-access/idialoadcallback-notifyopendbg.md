@@ -28,8 +28,8 @@ Called when a candidate .dbg file has been opened.
   
 ```cpp#  
 HRESULT NotifyOpenDBG (   
-   LPCOLESTR dbgPath,  
-   HRESULT   resultCode  
+   LPCOLESTR dbgPath,  
+   HRESULT   resultCode  
 );  
 ```  
   

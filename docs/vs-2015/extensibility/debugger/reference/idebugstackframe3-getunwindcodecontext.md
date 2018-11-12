@@ -27,13 +27,13 @@ Returns the code context representing a location if a stack unwind operation occ
   
 ```cpp#  
 HRESULT GetUnwindCodeContext(  
-   IDebugCodeContext2 **ppCodeContext  
+   IDebugCodeContext2 **ppCodeContext  
 );  
 ```  
   
 ```csharp  
 int GetUnwindCodeContext(  
-   out IDebugCodeContext2 ppCodeContext  
+   out IDebugCodeContext2 ppCodeContext  
 );  
 ```  
   

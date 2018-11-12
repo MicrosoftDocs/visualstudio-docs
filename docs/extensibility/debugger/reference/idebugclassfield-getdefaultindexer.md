@@ -23,13 +23,13 @@ Gets the name of the default indexer.
   
 ```cpp  
 HRESULT GetDefaultIndexer(   
-   BSTR* pbstrIndexer  
+   BSTR* pbstrIndexer  
 );  
 ```  
   
 ```csharp  
 int GetDefaultIndexer(  
-   out string pbstrIndexer  
+   out string pbstrIndexer  
 );  
 ```  
   

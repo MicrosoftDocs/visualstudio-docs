@@ -100,13 +100,13 @@ If you want to run coded UI tests for your XAML-based Windows Store application,
   
 <ListBox Name="listBox1" ItemsSource="{Binding Source={StaticResource employees}}">  
    <ListBox.ItemTemplate>  
-      <DataTemplate>  
-         <StackPanel Orientation="Horizontal">  
-            <TextBlock Text="{Binding EmployeeName}" />  
-            <TextBlock Text="{Binding EmployeeID}" />  
-         </StackPanel>  
-      </DataTemplate>  
-   </ListBox.ItemTemplate>  
+      <DataTemplate>  
+         <StackPanel Orientation="Horizontal">  
+            <TextBlock Text="{Binding EmployeeName}" />  
+            <TextBlock Text="{Binding EmployeeID}" />  
+         </StackPanel>  
+      </DataTemplate>  
+   </ListBox.ItemTemplate>  
 </ListBox>  
 ```  
   
@@ -115,20 +115,20 @@ If you want to run coded UI tests for your XAML-based Windows Store application,
 ```xaml  
   
       <ListBox Name="listBox1" ItemsSource="{Binding Source={StaticResource employees}}">  
-            <ListBox.ItemContainerStyle>  
-                <Style TargetType="ListBoxItem">  
-                    <Setter Property="Template">  
-                        <Setter.Value>  
-                            <ControlTemplate TargetType="ListBoxItem">  
-                                <Grid>  
-                                    <Button Content="{Binding EmployeeName}" AutomationProperties.AutomationId="{Binding EmployeeID}"/>  
-                                </Grid>  
-                            </ControlTemplate>  
-                        </Setter.Value>  
-                    </Setter>  
-                </Style>  
-            </ListBox.ItemContainerStyle>           
-        </ListBox>  
+            <ListBox.ItemContainerStyle>  
+                <Style TargetType="ListBoxItem">  
+                    <Setter Property="Template">  
+                        <Setter.Value>  
+                            <ControlTemplate TargetType="ListBoxItem">  
+                                <Grid>  
+                                    <Button Content="{Binding EmployeeName}" AutomationProperties.AutomationId="{Binding EmployeeID}"/>  
+                                </Grid>  
+                            </ControlTemplate>  
+                        </Setter.Value>  
+                    </Setter>  
+                </Style>  
+            </ListBox.ItemContainerStyle>           
+        </ListBox>  
   
 ```  
   
@@ -142,9 +142,9 @@ If you want to run coded UI tests for your XAML-based Windows Store application,
 Employee[] employees = new Employee[]   
 {  
    new Employee("john", "4384"),  
-   new Employee("margaret", "7556"),  
-   new Employee("richard", "8688"),  
-   new Employee("george", "1293")  
+   new Employee("margaret", "7556"),  
+   new Employee("richard", "8688"),  
+   new Employee("george", "1293")  
 };  
   
 listBox1.ItemsSource = employees;  

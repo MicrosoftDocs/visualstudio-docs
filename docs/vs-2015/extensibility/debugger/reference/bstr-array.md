@@ -27,15 +27,15 @@ A structure that describes an array of strings.
   
 ```cpp#  
 typedef struct tagBSTR_ARRAY {  
-   DWORD dwCount;  
-   BSTR* Members;  
+   DWORD dwCount;  
+   BSTR* Members;  
 } BSTR_ARRAY;  
 ```  
   
 ```csharp  
 struct BSTR_ARRAY {  
-   DWORD    dwCount;  
-   string[] Members;  
+   DWORD    dwCount;  
+   string[] Members;  
 }  
 ```  
   

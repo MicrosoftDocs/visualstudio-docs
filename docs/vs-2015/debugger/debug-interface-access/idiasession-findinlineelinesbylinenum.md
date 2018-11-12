@@ -26,11 +26,11 @@ Retrieves an enumeration that allows a client to iterate through the line number
   
 ```cpp#  
 HRESULT findInlineeLinesByVA (   
-   IDiaSymbol*           compiland,  
+   IDiaSymbol*           compiland,  
    IDiaSourceFile*       file,  
    DWORD                 linenum,  
    DWORD                 column,  
-   IDiaEnumLineNumbers** ppResult  
+   IDiaEnumLineNumbers** ppResult  
 );  
 ```  
   

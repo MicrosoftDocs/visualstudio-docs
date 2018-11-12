@@ -14,6 +14,7 @@ ms.workload:
   - "multiple"
 ---
 # CA2139: Transparent methods may not use the HandleProcessCorruptingExceptions attribute
+
 |||
 |-|-|
 |TypeName|TransparentMethodsMustNotHandleProcessCorruptingExceptions|

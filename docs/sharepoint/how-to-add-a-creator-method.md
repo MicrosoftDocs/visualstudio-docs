@@ -28,39 +28,39 @@ ms.workload:
   
 ### To add a Creator method  
   
-1.  On the **BDC Designer**, choose an entity.  
+1. On the **BDC Designer**, choose an entity.  
   
-2.  On the menu bar, choose **View** > **Other Windows** >**BDC Method Details**.  
+2. On the menu bar, choose **View** > **Other Windows** >**BDC Method Details**.  
   
-     The **BDC Method Details** window opens. For more information about that window, see [BDC model design tools overview](../sharepoint/bdc-model-design-tools-overview.md).  
+    The **BDC Method Details** window opens. For more information about that window, see [BDC model design tools overview](../sharepoint/bdc-model-design-tools-overview.md).  
   
-3.  In the **Add a Method** list, choose **Create Creator Method**.  
+3. In the **Add a Method** list, choose **Create Creator Method**.  
   
-     Visual Studio adds the following elements to the model, and these elements appear in the **BDC Method Details** window.  
+    Visual Studio adds the following elements to the model, and these elements appear in the **BDC Method Details** window.  
   
-    -   A method named **Create**.  
+   - A method named **Create**.  
   
-    -   An input parameter for the method.  
+   - An input parameter for the method.  
   
-    -   A return parameter for the method.  
+   - A return parameter for the method.  
   
-    -   Type descriptors for the parameters.  
+   - Type descriptors for the parameters.  
   
-    -   A method instance for the method.  
+   - A method instance for the method.  
   
      For more information, see [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md).  
   
-4.  In **Solution Explorer**, open the shortcut menu of the service code file that was generated for the entity, and then choose **View Code**.  
+4. In **Solution Explorer**, open the shortcut menu of the service code file that was generated for the entity, and then choose **View Code**.  
   
-     The entity service code file opens in the Code Editor. For more information about the entity service code file, see [Create a business data connectivity model](../sharepoint/creating-a-business-data-connectivity-model.md).  
+    The entity service code file opens in the Code Editor. For more information about the entity service code file, see [Create a business data connectivity model](../sharepoint/creating-a-business-data-connectivity-model.md).  
   
-5.  Add code to the Creator method that adds data to the data source. The following example adds a contact to the AdventureWorks sample database for SQL Server.  
+5. Add code to the Creator method that adds data to the data source. The following example adds a contact to the AdventureWorks sample database for SQL Server.  
   
-    > [!NOTE]  
-    >  Replace the value of the `ServerName` field with the name of your server.  
+   > [!NOTE]  
+   >  Replace the value of the `ServerName` field with the name of your server.  
   
-     [!code-csharp[SP_BDC#4](../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/contactservice.cs#4)]
-     [!code-vb[SP_BDC#4](../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/contactservice.vb#4)]  
+    [!code-csharp[SP_BDC#4](../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/contactservice.cs#4)]
+    [!code-vb[SP_BDC#4](../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/contactservice.vb#4)]  
   
 ## See also
  [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md)   

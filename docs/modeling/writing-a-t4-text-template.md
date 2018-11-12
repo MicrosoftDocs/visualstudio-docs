@@ -249,10 +249,9 @@ private void WriteSquareLine(int i)
 #>
 Content of MyFile.txt is:
 <#= myFile #>
-
 ```
 
-You can also obtain other services that are provided by the host. For more information, see [Accessing Visual Studio or other Hosts from a Template](http://msdn.microsoft.com/0556f20c-fef4-41a9-9597-53afab4ab9e4).
+You can also obtain other services that are provided by the host. For more information, see [Accessing Visual Studio or other Hosts from a Template](/previous-versions/visualstudio/visual-studio-2010/gg604090\(v\=vs.100\)).
 
 ### Design-time Text Templates run in a separate AppDomain
 
@@ -266,7 +265,7 @@ You can also obtain other services that are provided by the host. For more infor
 ## Related topics
 
 |Task|Topic|
-|----------|-----------|
+|-|-|
 |Writing a template.|[Guidelines for Writing T4 Text Templates](../modeling/guidelines-for-writing-t4-text-templates.md)|
 |Generate text by using program code.|[Text Template Structure](../modeling/writing-a-t4-text-template.md)|
 |Generate files in a Visual Studio solution.|[Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md)|

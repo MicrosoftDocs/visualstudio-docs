@@ -22,7 +22,7 @@ Requests that the firewall not block remote debugging.
   
 ```cpp  
 HRESULT EnsureDCOMUnblocked(   
-    Void  
+    Void  
 );  
 ```  
   

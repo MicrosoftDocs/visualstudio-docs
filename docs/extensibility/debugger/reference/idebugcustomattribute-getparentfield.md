@@ -23,13 +23,13 @@ Gets the field to which the custom attribute is attached.
   
 ```cpp  
 HRESULT GetParentField(   
-   IDebugField** ppField  
+   IDebugField** ppField  
 );  
 ```  
   
 ```csharp  
 int GetParentField(  
-   out IDebugField ppField  
+   out IDebugField ppField  
 );  
 ```  
   

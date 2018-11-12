@@ -27,12 +27,12 @@ This method explicitly disables Edit and Continue on this process (and all progr
   
 ```cpp  
 HRESULT DisableENC(  
-   EncUnavailableReason reason  
+   EncUnavailableReason reason  
 );  
 ```  
   
 ```csharp  
-   EncUnavailableReason reason  
+   EncUnavailableReason reason  
 );  
 ```  
   

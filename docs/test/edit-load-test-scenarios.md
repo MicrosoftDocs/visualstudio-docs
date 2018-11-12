@@ -40,7 +40,7 @@ A scenario has several other properties that you can edit by using the **Load Te
 ## Tasks
 
 |Tasks|Associated Topics|
-|-----------|-----------------------|
+|-|-----------------------|
 |**Add artificial human interaction pauses in your scenario:** Think times are used to simulate human behavior that causes people to wait between interactions with a website. Think times occur between requests in a web performance test and between test iterations in a load test scenario. Using think times in a load test can be useful in creating more accurate load simulations.|-   [Edit think times to simulate website human interaction delays](../test/edit-think-times-in-load-test-scenarios.md)|
 |**Specify the number of virtual users for your scenario:** You can configure the load pattern properties to specify how the simulated user load is adjusted during a load test. You get three built-in load patterns: constant, step, and goal-based. You choose the load pattern and adjust the properties to appropriate levels for your load test goals.|-   [Edit load patterns to model virtual user activities](../test/edit-load-patterns-to-model-virtual-user-activities.md)|
 |**Configure the probability of a virtual user running a test in the scenario:** You can use the test mix, which specifies the probability of a virtual user running a given test in a load test scenario. This lets you simulate load more realistically. Instead of having just one workflow through your applications, you can have several workflows, which is a closer approximation of how end-users interact with your applications.|-   [Edit text mix models](../test/edit-test-mix-models-to-specify-the-probability-of-a-virtual-user-running-a-test.md)|

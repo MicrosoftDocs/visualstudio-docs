@@ -26,8 +26,8 @@ Retrieves an enumeration that allows a client to iterate through the line number
   
 ```cpp#  
 HRESULT findInlineeLinesByAddr (   
-   IDiaSymbol*           parent,   DWORD                 isect,   DWORD                 offset,   DWORD                 length,  
-   IDiaEnumLineNumbers** ppResult  
+   IDiaSymbol*           parent,   DWORD                 isect,   DWORD                 offset,   DWORD                 length,  
+   IDiaEnumLineNumbers** ppResult  
 );  
 ```  
   

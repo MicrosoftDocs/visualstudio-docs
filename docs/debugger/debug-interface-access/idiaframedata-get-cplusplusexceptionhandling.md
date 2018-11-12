@@ -22,7 +22,7 @@ Retrieves a flag that indicates whether C++ exception handling is in effect.
   
 ```C++  
 HRESULT get_cplusplusExceptionHandling (   
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 );  
 ```  
   

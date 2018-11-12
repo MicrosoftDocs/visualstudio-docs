@@ -20,7 +20,7 @@ Decorators are icons, text, or expand/collapse chevrons that can appear on shape
 ## Expand/Collapse Decorator
 
 |Property|Description|Default|
-|--------------|-----------------|-------------|
+|-|-|-|
 |DisplayName|The name of the decorator that will be displayed in the generated designer.|Expand Collapse Decorator|
 |Name|The name of the decorator.|ExpandCollapseDecorator|
 |Notes|Informal notes that are associated with this decorator.|\<none>|
@@ -33,7 +33,7 @@ Decorators are icons, text, or expand/collapse chevrons that can appear on shape
 ## Icon Decorator
 
 |Property|Description|Default|
-|--------------|-----------------|-------------|
+|-|-|-|
 |DefaultIcon|The path of the icon or image file to be displayed.|\<none>|
 |DisplayName|The name of the decorator to be displayed in the generated designer.|Icon Decorator|
 |Name|The name of the decorator.|IconDecorator|
@@ -47,7 +47,7 @@ Decorators are icons, text, or expand/collapse chevrons that can appear on shape
 ## TextDecorator
 
 |Property|Description|Default|
-|--------------|-----------------|-------------|
+|-|-|-|
 |DefaultText|The default text to be displayed.|Label|
 |DisplayName|The name of the decorator to be displayed in the generated designer.|Label|
 |FontSize|The font size for the text that is displayed in the decorator.|8|
@@ -62,4 +62,4 @@ Decorators are icons, text, or expand/collapse chevrons that can appear on shape
 
 ## See Also
 
-- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+- [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

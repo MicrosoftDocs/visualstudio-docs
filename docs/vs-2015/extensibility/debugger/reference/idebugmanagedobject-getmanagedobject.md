@@ -27,13 +27,13 @@ Returns an interface that represents the managed object.
   
 ```cpp#  
 HRESULT GetManagedObject(   
-   IUnknown** ppManagedObject  
+   IUnknown** ppManagedObject  
 );  
 ```  
   
 ```cpp#  
 int GetManagedObject(  
-   out object ppManagedObject  
+   out object ppManagedObject  
 );  
 ```  
   

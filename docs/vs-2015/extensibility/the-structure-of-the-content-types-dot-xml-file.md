@@ -44,9 +44,9 @@ Contains information about the kinds of content in a VSIX package. Visual Studio
   
 ### {Attribute name} Attribute  
   
-|Value|Description|  
-|-----------|-----------------|  
-|http://schemas.openformats.org/package/2006/content-types|The location of the content types schema.|  
+|                           Value                           |                Description                |
+|-----------------------------------------------------------|-------------------------------------------|
+| http://schemas.openformats.org/package/2006/content-types | The location of the content types schema. |
   
 ### Child Elements  
  The `Types` element can contain any number of `Default` elements.  

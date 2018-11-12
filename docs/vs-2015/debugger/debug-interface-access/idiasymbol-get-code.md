@@ -28,7 +28,7 @@ Retrieves a flag that specifies whether the symbol refers to a code address.
   
 ```cpp#  
 HRESULT get_code (   
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 );  
 ```  
   

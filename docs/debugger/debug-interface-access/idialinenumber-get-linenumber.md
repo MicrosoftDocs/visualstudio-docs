@@ -22,7 +22,7 @@ Retrieves the line number in the source file.
   
 ```C++  
 HRESULT get_lineNumber (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

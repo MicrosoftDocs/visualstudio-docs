@@ -37,13 +37,13 @@ ms.workload:
 ## BDC Designer
  The BDC Designer enables you to define the entities in your model and to visually arrange their relationships with one another. Use the BDC Designer to accomplish the following tasks:  
   
--   Add entities to the model.  
+- Add entities to the model.  
   
--   Remove entities from the model.  
+- Remove entities from the model.  
   
--   Define relationships between entities.  
+- Define relationships between entities.  
   
- To open the BDC Designer, double-click the model file in your project, or open the shortcut menu for the model file and then choose **Open**. Add an entity to the model by dragging or copying an **Entity** from the **Toolbox** onto the designer. To create an association between two entities, choose the **Association** control in the **Toolbox**, choose the first entity, and then choose the second entity.  
+  To open the BDC Designer, double-click the model file in your project, or open the shortcut menu for the model file and then choose **Open**. Add an entity to the model by dragging or copying an **Entity** from the **Toolbox** onto the designer. To create an association between two entities, choose the **Association** control in the **Toolbox**, choose the first entity, and then choose the second entity.  
   
 ## BDC Method Details window
  Use the **BDC Method Details** window to define the parameters, instances, and filter descriptors of a method.  

@@ -25,15 +25,15 @@ ms.workload:
   
  The bookmark object can be one of two types:  
   
--   A <xref:Microsoft.Office.Tools.Word.Bookmark> host control.  
+- A <xref:Microsoft.Office.Tools.Word.Bookmark> host control.  
   
-     <xref:Microsoft.Office.Tools.Word.Bookmark> controls extend native <xref:Microsoft.Office.Interop.Word.Bookmark> objects by enabling data binding and exposing events. For more information about host controls, see [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md).  
+   <xref:Microsoft.Office.Tools.Word.Bookmark> controls extend native <xref:Microsoft.Office.Interop.Word.Bookmark> objects by enabling data binding and exposing events. For more information about host controls, see [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md).  
   
--   A native <xref:Microsoft.Office.Interop.Word.Bookmark> object.  
+- A native <xref:Microsoft.Office.Interop.Word.Bookmark> object.  
   
-     <xref:Microsoft.Office.Interop.Word.Bookmark> objects do not have events or data binding capabilities.  
+   <xref:Microsoft.Office.Interop.Word.Bookmark> objects do not have events or data binding capabilities.  
   
- When you assign text to a bookmark, the behavior differs between a <xref:Microsoft.Office.Interop.Word.Bookmark> and a <xref:Microsoft.Office.Tools.Word.Bookmark>. For more information, see [Bookmark control](../vsto/bookmark-control.md).  
+  When you assign text to a bookmark, the behavior differs between a <xref:Microsoft.Office.Interop.Word.Bookmark> and a <xref:Microsoft.Office.Tools.Word.Bookmark>. For more information, see [Bookmark control](../vsto/bookmark-control.md).  
   
 ## Use host controls  
   

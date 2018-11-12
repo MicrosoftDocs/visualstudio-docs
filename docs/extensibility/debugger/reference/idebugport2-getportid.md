@@ -23,13 +23,13 @@ Gets the port identifier.
   
 ```cpp  
 HRESULT GetPortId(   
-   GUID* pguidPort  
+   GUID* pguidPort  
 );  
 ```  
   
 ```csharp  
 int GetPortId(   
-   out Guid pguidPort  
+   out Guid pguidPort  
 );  
 ```  
   

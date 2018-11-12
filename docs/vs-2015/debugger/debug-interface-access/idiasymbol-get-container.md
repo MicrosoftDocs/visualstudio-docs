@@ -28,7 +28,7 @@ This function retrieves a pointer to a symbol representing the parent/container 
   
 ```cpp#  
 HRESULT get_container(  
-   IDiaSymbol **pRetVal  
+   IDiaSymbol **pRetVal  
 );  
 ```  
   

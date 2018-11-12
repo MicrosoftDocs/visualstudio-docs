@@ -19,6 +19,7 @@ ms.workload:
   - "multiple"
 ---
 # CA2136: Members should not have conflicting transparency annotations
+
 |||
 |-|-|
 |TypeName|TransparencyAnnotationsShouldNotConflict|

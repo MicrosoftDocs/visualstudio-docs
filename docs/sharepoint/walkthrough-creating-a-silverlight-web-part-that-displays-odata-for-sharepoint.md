@@ -36,25 +36,25 @@ ms.workload:
   
 #### To create a Silverlight application and Silverlight web part
   
-1.  On the menu bar, choose **File** > **New** > **Project** to display the **New Project** dialog box.  
+1. On the menu bar, choose **File** > **New** > **Project** to display the **New Project** dialog box.  
   
-2.  Expand the **SharePoint** node under either **Visual C#** or **Visual Basic**, and then choose the **2010** node.  
+2. Expand the **SharePoint** node under either **Visual C#** or **Visual Basic**, and then choose the **2010** node.  
   
-3.  In the templates pane, choose the **SharePoint 2010 Silverlight Web Part** template.  
+3. In the templates pane, choose the **SharePoint 2010 Silverlight Web Part** template.  
   
-4.  In the **Name** box, enter **SLWebPartTest** and then choose the **OK** button.  
+4. In the **Name** box, enter **SLWebPartTest** and then choose the **OK** button.  
   
-     The **SharePoint Customization Wizard** dialog box appears.  
+    The **SharePoint Customization Wizard** dialog box appears.  
   
-5.  On the **Specify the site and security level for debugging** page, enter the URL for the SharePoint server site where you want to debug the site definition, or use the default location (http://*system name*/).  
+5. On the **Specify the site and security level for debugging** page, enter the URL for the SharePoint server site where you want to debug the site definition, or use the default location (http://<em>system name</em>/).  
   
-6.  In the **What is the trust level for this SharePoint solution?** section, choose the **Deploy as a farm solution** option button.  
+6. In the **What is the trust level for this SharePoint solution?** section, choose the **Deploy as a farm solution** option button.  
   
-     Although this example uses a farm solution, Silverlight web part projects can be deployed as either farm or sandboxed solutions. For more information about sandboxed solutions and farm solutions, see [Sandboxed solution considerations](../sharepoint/sandboxed-solution-considerations.md).  
+    Although this example uses a farm solution, Silverlight web part projects can be deployed as either farm or sandboxed solutions. For more information about sandboxed solutions and farm solutions, see [Sandboxed solution considerations](../sharepoint/sandboxed-solution-considerations.md).  
   
-7.  In the **How do you want to associate the Silverlight Web Part** section of the **Specify Silverlight Configuration Information** page, choose the **Create a new Silverlight project and associate it with the web part** option button.  
+7. In the **How do you want to associate the Silverlight Web Part** section of the **Specify Silverlight Configuration Information** page, choose the **Create a new Silverlight project and associate it with the web part** option button.  
   
-8.  Change the **Name** to **SLApplication**, set **Language** to either **Visual Basic** or **Visual C#**, and then set **Silverlight Version** to **Silverlight 4.0**.  
+8. Change the **Name** to **SLApplication**, set **Language** to either **Visual Basic** or **Visual C#**, and then set **Silverlight Version** to **Silverlight 4.0**.  
   
 9. Choose the **Finish** button. The projects appear in **Solution Explorer**.  
   

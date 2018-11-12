@@ -26,55 +26,55 @@ Multi-project templates act as containers for two or more projects. When a proje
   
  A multi-project template must include the following items, compressed into a .zip file:  
   
--   A root .vstemplate file for the entire multi-project template. This root .vstemplate file contains the metadata that the **New Project** dialog box displays, and specifies where to find the .vstemplate files for the projects in this template. This file must be located at the root of the .zip file.  
+- A root .vstemplate file for the entire multi-project template. This root .vstemplate file contains the metadata that the **New Project** dialog box displays, and specifies where to find the .vstemplate files for the projects in this template. This file must be located at the root of the .zip file.  
   
--   One or more folders that contain the files that are required for a complete project template. This includes all code files for the project, and also a .vstemplate file for the project.  
+- One or more folders that contain the files that are required for a complete project template. This includes all code files for the project, and also a .vstemplate file for the project.  
   
- For example, a multi-project template .zip file that has two projects could have the following files and directories:  
+  For example, a multi-project template .zip file that has two projects could have the following files and directories:  
   
- MultiProjectTemplate.vstemplate  
+  MultiProjectTemplate.vstemplate  
   
- \Project1\Project1.vstemplate  
+  \Project1\Project1.vstemplate  
   
- \Project1\Project1.vbproj  
+  \Project1\Project1.vbproj  
   
- \Project1\Class.vb  
+  \Project1\Class.vb  
   
- \Project2\Project2.vstemplate  
+  \Project2\Project2.vstemplate  
   
- \Project2\Project2.vbproj  
+  \Project2\Project2.vbproj  
   
- \Project2\Class.vb  
+  \Project2\Class.vb  
   
- The root .vstemplate file for a multi-project template differs from a single-project template in the following ways:  
+  The root .vstemplate file for a multi-project template differs from a single-project template in the following ways:  
   
--   The `Type` attribute of the `VSTemplate` element contains the value `ProjectGroup`. For example:  
+- The `Type` attribute of the `VSTemplate` element contains the value `ProjectGroup`. For example:  
   
-    ```  
-    <VSTemplate Version="2.0.0" Type="ProjectGroup"  
-        xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">  
-    ```  
+  ```  
+  <VSTemplate Version="2.0.0" Type="ProjectGroup"  
+      xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">  
+  ```  
   
--   The `TemplateContent` element contains a `ProjectCollection` element that has one or more `ProjectTemplateLink` elements that define the paths to the .vstemplate files of the included projects. For example:  
+- The `TemplateContent` element contains a `ProjectCollection` element that has one or more `ProjectTemplateLink` elements that define the paths to the .vstemplate files of the included projects. For example:  
   
-    ```  
-    <TemplateContent>  
-        <ProjectCollection>  
-            <ProjectTemplateLink>  
-                Project1\Project1.vstemplate  
-            </ProjectTemplateLink>  
-            <ProjectTemplateLink>  
-                Project2\Project2.vstemplate  
-            </ProjectTemplateLink>  
-        </ProjectCollection>  
-    </TemplateContent>  
-    ```  
+  ```  
+  <TemplateContent>  
+      <ProjectCollection>  
+          <ProjectTemplateLink>  
+              Project1\Project1.vstemplate  
+          </ProjectTemplateLink>  
+          <ProjectTemplateLink>  
+              Project2\Project2.vstemplate  
+          </ProjectTemplateLink>  
+      </ProjectCollection>  
+  </TemplateContent>  
+  ```  
   
- Multi-project templates also behave differently than normal templates. Multi-project templates have the following unique characteristics:  
+  Multi-project templates also behave differently than normal templates. Multi-project templates have the following unique characteristics:  
   
--   Individual projects in a multi-project template cannot be assigned names by the **New Project** dialog box. Instead, use the `ProjectName` attribute on the `ProjectTemplateLink` element to specify the name for each project. For more information, see the first example in the following section.  
+- Individual projects in a multi-project template cannot be assigned names by the **New Project** dialog box. Instead, use the `ProjectName` attribute on the `ProjectTemplateLink` element to specify the name for each project. For more information, see the first example in the following section.  
   
--   Multi-project templates can contain projects written in different languages, but the entire template itself can only be put in one category by using the `ProjectType` element.  
+- Multi-project templates can contain projects written in different languages, but the entire template itself can only be put in one category by using the `ProjectType` element.  
   
 ### To create a multi-project template  
   

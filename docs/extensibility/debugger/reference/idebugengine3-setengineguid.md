@@ -23,14 +23,14 @@ This method sets the debug engine's (DE) `GUID`.
   
 ```cpp  
 HRESULT SetEngineGuid(  
-   GUID* guidEngine  
+   GUID* guidEngine  
 );  
 ```  
   
 ```  
 [C#]  
 int SetEngineGuid(  
-   ref Guid guidEngine  
+   ref Guid guidEngine  
 );  
 ```  
   

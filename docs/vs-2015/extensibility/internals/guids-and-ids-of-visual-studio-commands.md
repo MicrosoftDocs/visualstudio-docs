@@ -32,30 +32,30 @@ The GUID and ID values of the commands included in the Visual Studio integrated 
   
 #### To locate a command definition  
   
-1.  In Visual Studio, open the following files in the *Visual Studio SDK installation path*\VisualStudioIntegration\Common\Inc\ folder: SharedCmdDef.vsct, ShellCmdDef.vsct, VsDbgCmdUsed.vsct, Venusmenu.vsct.  
+1. In Visual Studio, open the following files in the *Visual Studio SDK installation path*\VisualStudioIntegration\Common\Inc\ folder: SharedCmdDef.vsct, ShellCmdDef.vsct, VsDbgCmdUsed.vsct, Venusmenu.vsct.  
   
-     Most Visual Studio commands are defined in SharedCmdDef.vsct and ShellCmdDef.vsct. VsDbgCmdUsed.vsct defines commands that pertain to the debugger, and Venusmenu.vsct defines commands that are specific to Web development.  
+    Most Visual Studio commands are defined in SharedCmdDef.vsct and ShellCmdDef.vsct. VsDbgCmdUsed.vsct defines commands that pertain to the debugger, and Venusmenu.vsct defines commands that are specific to Web development.  
   
-2.  If the command is a menu item, note the exact text of the menu item. If the command is a button on a toolbar, note the tooltip text that appears when you pause on it.  
+2. If the command is a menu item, note the exact text of the menu item. If the command is a button on a toolbar, note the tooltip text that appears when you pause on it.  
   
-3.  Press CTRL+F to open the **Find** dialog box.  
+3. Press CTRL+F to open the **Find** dialog box.  
   
-4.  In the **Find what** box, type the text you noted in step 2.  
+4. In the **Find what** box, type the text you noted in step 2.  
   
-5.  Verify that **All Open Documents** is displayed in the **Look in** box.  
+5. Verify that **All Open Documents** is displayed in the **Look in** box.  
   
-6.  Click the **Find Next** button until the text is selected in the `<Strings>` section of a [Button Element](../../extensibility/button-element.md).  
+6. Click the **Find Next** button until the text is selected in the `<Strings>` section of a [Button Element](../../extensibility/button-element.md).  
   
-     The `<Button>` element that the command appears in is the command definition.  
+    The `<Button>` element that the command appears in is the command definition.  
   
- When you have found the command definition, you can put a copy of the command on another menu or toolbar by creating a [CommandPlacement Element](../../extensibility/commandplacement-element.md) that has the same `guid` and `id` values as the command. For more information, see [Creating Reusable Groups of Buttons](../../extensibility/creating-reusable-groups-of-buttons.md).  
+   When you have found the command definition, you can put a copy of the command on another menu or toolbar by creating a [CommandPlacement Element](../../extensibility/commandplacement-element.md) that has the same `guid` and `id` values as the command. For more information, see [Creating Reusable Groups of Buttons](../../extensibility/creating-reusable-groups-of-buttons.md).  
   
 ### Special Cases  
  In the following cases, the menu text or tooltip text may not exactly match what is in the command definition.  
   
 -   Menu items that include an underlined character, such as the **Print** command on the **File** menu, in which the P is underlined.  
   
-     Characters that are preceded by the '&' character in menu item names are displayed as underlined. However, .vsct files are written in XML, which uses the '&' character to indicate special characters and requires that an ampersand that is to be displayed must be spelled out as '&amp;'. Therefore, in a .vsct file, the **P**rint command appears as '&amp;Print'.  
+     Characters that are preceded by the '&' character in menu item names are displayed as underlined. However, .vsct files are written in XML, which uses the '&' character to indicate special characters and requires that an ampersand that is to be displayed must be spelled out as '&amp;'. Therefore, in a .vsct file, the **Print** command appears as '&amp;Print'.  
   
 -   Commands that have dynamic text, such as **Save** *Current Filename*, and dynamically generated menu items, such as the items on the **Recent Files** list.  
   

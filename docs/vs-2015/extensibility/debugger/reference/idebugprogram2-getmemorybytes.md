@@ -27,13 +27,13 @@ Retrieves the memory bytes occupied by the program.
   
 ```cpp#  
 HRESULT GetMemoryBytes(   
-   IDebugMemoryBytes2** ppMemoryBytes  
+   IDebugMemoryBytes2** ppMemoryBytes  
 );  
 ```  
   
 ```csharp  
 int GetMemoryBytes(   
-   out IDebugMemoryBytes2 ppMemoryBytes  
+   out IDebugMemoryBytes2 ppMemoryBytes  
 );  
 ```  
   

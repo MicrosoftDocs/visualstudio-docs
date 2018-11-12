@@ -38,7 +38,7 @@ The **ParallelForEach\<T>** activity designer can be dragged from the **Toolbox*
 The following table shows the most useful <xref:System.Activities.Statements.ParallelForEach%601> activity properties and describes how they are used in the designer.
 
 |Property Name|Required|Usage|
-|-------------------|--------------|-----------|
+|-|--------------|-|
 |<xref:System.Activities.Activity.DisplayName%2A>|False|Specifies the friendly display name of the activity designer in the header. The default value is **ParallelForEach\<Int32>**. The value can be optionally edited in the **Properties** grid or directly on the activity designer header.|
 |<xref:System.Activities.Statements.ParallelForEach%601.Body%2A>|False|The activity to execute for each item in the collection. To add the <xref:System.Activities.Statements.ParallelForEach%601.Body%2A> activity, drop an activity from the toolbox into the **Body** box on the **ParallelForEach\<T>** activity designer with hint text "Drop Activity Here".|
 |**TypeArgument**|True|The type of the items in the <xref:System.Activities.Statements.ParallelForEach%601.Values%2A> collection specified by the generic parameter *T*. By default, **TypeArgument** is set to **Int32**. To change the type T in the **ParallelForEach<T\>** activity designer, change the value of the **TypeArgument** combo box in the Property Grid.|

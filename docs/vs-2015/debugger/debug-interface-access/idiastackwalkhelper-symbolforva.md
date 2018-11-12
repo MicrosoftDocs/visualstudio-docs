@@ -28,8 +28,8 @@ Retrieves the symbol that contains the specified virtual address.
   
 ```cpp#  
 HRESULT symbolForVA(   
-   ULONGLONG     va,  
-   IDiaSymbol**  ppSymbol  
+   ULONGLONG     va,  
+   IDiaSymbol**  ppSymbol  
 );  
 ```  
   

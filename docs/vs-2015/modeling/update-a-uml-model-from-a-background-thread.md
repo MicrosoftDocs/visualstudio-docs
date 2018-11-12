@@ -29,35 +29,35 @@ It can sometimes be useful to make changes to a model in a background thread. Fo
   
 #### To run the example  
   
-1.  Create a command handler in a C# project as described in [Define a menu command on a modeling diagram](../modeling/define-a-menu-command-on-a-modeling-diagram.md).  
+1. Create a command handler in a C# project as described in [Define a menu command on a modeling diagram](../modeling/define-a-menu-command-on-a-modeling-diagram.md).  
   
-2.  Make sure that the project includes references to these assemblies:  
+2. Make sure that the project includes references to these assemblies:  
   
-    -   Microsoft.VisualStudio.ArchitectureTools.Extensibility  
+   -   Microsoft.VisualStudio.ArchitectureTools.Extensibility  
   
-    -   Microsoft.VisualStudio.Modeling.Sdk.[version]  
+   -   Microsoft.VisualStudio.Modeling.Sdk.[version]  
   
-    -   Microsoft.VisualStudio.Modeling.Sdk.Diagrams.[version]  
+   -   Microsoft.VisualStudio.Modeling.Sdk.Diagrams.[version]  
   
-    -   Microsoft.VisualStudio.Uml.Interfaces  
+   -   Microsoft.VisualStudio.Uml.Interfaces  
   
-    -   System.ComponentModel.Composition  
+   -   System.ComponentModel.Composition  
   
-    -   System.Windows.Forms  
+   -   System.Windows.Forms  
   
-3.  Add to the project a Windows form named **ProgressForm**. It should display a message that states that the updates are in progress. It does not have to have any other controls.  
+3. Add to the project a Windows form named **ProgressForm**. It should display a message that states that the updates are in progress. It does not have to have any other controls.  
   
-4.  Add a C# file that contains the code that is shown after step 7.  
+4. Add a C# file that contains the code that is shown after step 7.  
   
-5.  Build and run the project.  
+5. Build and run the project.  
   
-     A new instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] will start in experimental mode.  
+    A new instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] will start in experimental mode.  
   
-6.  Create or open a UML class diagram in the experimental instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
+6. Create or open a UML class diagram in the experimental instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
   
-7.  Right-click anywhere in the UML class diagram and then click **Add Several UML Classes**.  
+7. Right-click anywhere in the UML class diagram and then click **Add Several UML Classes**.  
   
- Several new class boxes will appear in the diagram, one after another at intervals of a half second.  
+   Several new class boxes will appear in the diagram, one after another at intervals of a half second.  
   
 ```csharp  
 using System;  

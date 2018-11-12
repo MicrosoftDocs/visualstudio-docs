@@ -29,7 +29,7 @@ Visual Studio Modeling and Visualization SDK (VMSDK) provides several levels at 
 ## <a name="customShapes"></a> In this Section
 
 |To achieve this effect|Refer to this topic|
-|----------------------------|-------------------------|
+|-|-|
 |Allow the user to set the color and style properties of a shape.|Right-click the shape or connector class, point to **Add Exposed**, and click an item.<br /><br /> See [Customizing Presentation on the Diagram](../modeling/customizing-presentation-on-the-diagram.md).|
 |Different classes of model element look similar on the diagram, sharing properties such as initial height and width, color, tooltips.|Use inheritance between shapes or connector classes. Mappings between derived shapes and derived domain classes inherit the mapping details of the parents.<br /><br /> Or, map different domain classes to the same shape class.|
 |A class of model element is displayed by different shapes contexts.|Map more than one shape class to the same domain class. When you build the solution, follow the error report and provide the requested code to decide what shape to use.|

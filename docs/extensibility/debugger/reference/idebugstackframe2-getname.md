@@ -23,13 +23,13 @@ Gets the name of the stack frame.
   
 ```cpp  
 HRESULT GetName (   
-   BSTR* pbstrName  
+   BSTR* pbstrName  
 );  
 ```  
   
 ```csharp  
 int GetName (   
-   out string pbstrName  
+   out string pbstrName  
 );  
 ```  
   

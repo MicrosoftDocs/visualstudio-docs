@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA1811: Avoid uncalled private code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|AvoidUncalledPrivateCode|

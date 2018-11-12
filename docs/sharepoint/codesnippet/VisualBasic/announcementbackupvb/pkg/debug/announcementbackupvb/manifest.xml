@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="f9cbab64-9521-46ad-8716-280d8018e584">
-  <Assemblies>
-    <Assembly Location="AnnouncementBackupVB.dll" DeploymentTarget="GlobalAssemblyCache" />
-  </Assemblies>
-  <FeatureManifests>
-    <FeatureManifest Location="AnnouncementBackupVB_Feature1\Feature.xml" />
-  </FeatureManifests>
-</Solution>

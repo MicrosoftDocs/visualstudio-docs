@@ -30,9 +30,9 @@ You can open multiple performance sessions in the **Performance Explorer**, and 
   
  **Requirements**  
   
--   [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsPro](../includes/vspro-md.md)]  
+- [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsPro](../includes/vspro-md.md)]  
   
- After you set a session as the current session, clicking **Launch** on the **Performance Explorer** toolbar will start profiling the current session.  
+  After you set a session as the current session, clicking **Launch** on the **Performance Explorer** toolbar will start profiling the current session.  
   
 ### To set current performance session  
   

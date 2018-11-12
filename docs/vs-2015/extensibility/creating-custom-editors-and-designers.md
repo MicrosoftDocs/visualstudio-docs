@@ -22,15 +22,15 @@ manager: "ghogen"
 
 The Visual Studio integrated development environment (IDE) can host different types of editor:  
   
--   The Visual Studio core editor  
+- The Visual Studio core editor  
   
--   Custom editors  
+- Custom editors  
   
--   External Editors  
+- External Editors  
   
--   Designers  
+- Designers  
   
- The following information helps you choose the type of editor you need.  
+  The following information helps you choose the type of editor you need.  
   
 ## Types of Editor  
  For information about the Visual Studio core editor, see [Extending the Editor and Language Services](../extensibility/extending-the-editor-and-language-services.md).  

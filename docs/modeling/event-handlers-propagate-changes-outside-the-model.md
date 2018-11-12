@@ -167,7 +167,7 @@ If you write an event that updates the store:
 Each event type corresponds to a collection in Store.EventManagerDirectory. You can add or remove event handlers at any time, but it is usual to add them when the document is loaded.
 
 |`EventManagerDirectory` Property name|Executed when|
-|-------------------------------------------|-------------------|
+|-|-|
 |ElementAdded|An instance of a domain class, domain relationship, shape, connector or diagram is created.|
 |ElementDeleted|A model element has been removed from the store's element directory and is no longer the source or target of any relationship. The element is not actually deleted from memory, but is retained in case of a future Undo.|
 |ElementEventsBegun|Invoked at the end of an outer transaction.|
@@ -183,6 +183,6 @@ Each event type corresponds to a collection in Store.EventManagerDirectory. You 
 ## See Also
 
 - [Responding to and Propagating Changes](../modeling/responding-to-and-propagating-changes.md)
-- [Sample code: Circuit Diagrams](http://code.msdn.microsoft.com/Visualization-Modeling-SDK-763778e8)
+- [Sample code: Circuit Diagrams](https://code.msdn.microsoft.com/Visualization-Modeling-SDK-763778e8)
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]

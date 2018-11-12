@@ -28,16 +28,16 @@ Indicates the particular scope of a data value.
   
 ```cpp#  
 enum DataKind {   
-   DataIsUnknown,  
-   DataIsLocal,  
-   DataIsStaticLocal,  
-   DataIsParam,  
-   DataIsObjectPtr,  
-   DataIsFileStatic,  
-   DataIsGlobal,  
-   DataIsMember,  
-   DataIsStaticMember,  
-   DataIsConstant  
+   DataIsUnknown,  
+   DataIsLocal,  
+   DataIsStaticLocal,  
+   DataIsParam,  
+   DataIsObjectPtr,  
+   DataIsFileStatic,  
+   DataIsGlobal,  
+   DataIsMember,  
+   DataIsStaticMember,  
+   DataIsConstant  
 };  
 ```  
   

@@ -40,19 +40,19 @@ This section provides guidance for testing your source control plug-in with [!IN
  Web project  
  There are four types of Web projects: File System, Local IIS, Remote Sites, and FTP.  
   
--   File System projects are created on a local path, but they do not require the Internet Information Services (IIS) to be installed as they are accessed internally via a UNC path, and can be placed under source control from inside the IDE, much like client projects.  
+- File System projects are created on a local path, but they do not require the Internet Information Services (IIS) to be installed as they are accessed internally via a UNC path, and can be placed under source control from inside the IDE, much like client projects.  
   
--   Local IIS projects work with IIS that is installed on the same machine and are accessed with a URL pointing to the local machine.  
+- Local IIS projects work with IIS that is installed on the same machine and are accessed with a URL pointing to the local machine.  
   
--   Remote Sites projects are also created under an IIS Services, but they are placed under source control on the IIS server machine and not from inside the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] IDE.  
+- Remote Sites projects are also created under an IIS Services, but they are placed under source control on the IIS server machine and not from inside the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] IDE.  
   
--   FTP projects are accessed through a remote FTP server but they cannot be placed under source control.  
+- FTP projects are accessed through a remote FTP server but they cannot be placed under source control.  
   
- Enlistment  
- Another term for the solution or project under source control.  
+  Enlistment  
+  Another term for the solution or project under source control.  
   
- Version Store  
- The source control database that is being accessed through the Source Control Plug-in API.  
+  Version Store  
+  The source control database that is being accessed through the Source Control Plug-in API.  
   
 ## Test Areas Covered in This Section  
   

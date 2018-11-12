@@ -20,22 +20,22 @@ manager: "ghogen"
 
 In this tutorial, you build a matching game, where the player must match pairs of hidden icons. You learn how to:  
   
--   Store objects, such as icons, in a `List` object.  
+- Store objects, such as icons, in a `List` object.  
   
--   Use a `foreach` loop in Visual C# or a `For Each` loop in Visual Basic to iterate through items in a list.  
+- Use a `foreach` loop in Visual C# or a `For Each` loop in Visual Basic to iterate through items in a list.  
   
--   Keep track of a form's state by using reference variables.  
+- Keep track of a form's state by using reference variables.  
   
--   Build an event handler to respond to events that you can use with multiple objects.  
+- Build an event handler to respond to events that you can use with multiple objects.  
   
--   Make a timer that counts down and then fires an event exactly once after being started.  
+- Make a timer that counts down and then fires an event exactly once after being started.  
   
- When you finish this tutorial, your program will look like the following picture.  
+  When you finish this tutorial, your program will look like the following picture.  
   
- ![Game that you create in this tutorial](../ide/media/express-finishedgame.png "Express_FinishedGame")  
-Game that you create in this tutorial  
+  ![Game that you create in this tutorial](../ide/media/express-finishedgame.png "Express_FinishedGame")  
+  Game that you create in this tutorial  
   
- To download a completed version of the sample, see [Complete Matching Game tutorial sample](http://code.msdn.microsoft.com/Complete-Matching-Game-4cffddba).  
+  To download a completed version of the sample, see [Complete Matching Game tutorial sample](http://code.msdn.microsoft.com/Complete-Matching-Game-4cffddba).  
   
 > [!NOTE]
 >  In this tutorial, both Visual C# and Visual Basic are covered, so focus on information specific to the programming language that you're using.  

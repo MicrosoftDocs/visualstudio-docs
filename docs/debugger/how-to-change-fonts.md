@@ -18,13 +18,13 @@ You can change the font, font style, and font size for Spy++ windows.
   
 ### To change font options  
   
-1.  From the **View** menu, choose **Font**.  
+1. From the **View** menu, choose **Font**.  
   
-2.  Choose a font, font style, and font size.  
+2. Choose a font, font style, and font size.  
   
-3.  Click **OK**.  
+3. Click **OK**.  
   
- Selecting **Save Font As Default** will cause all future Spy++ windows to use this font.  
+   Selecting **Save Font As Default** will cause all future Spy++ windows to use this font.  
   
 ## See Also  
  [Using Spy++](../debugger/using-spy-increment.md)   

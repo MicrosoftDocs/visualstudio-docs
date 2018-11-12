@@ -22,7 +22,7 @@ Retrieves a flag that specifies whether the data symbol is part of an aggregate 
   
 ```C++  
 HRESULT get_isAggregated(  
-   BOOL *pFlag  
+   BOOL *pFlag  
 );  
 ```  
   

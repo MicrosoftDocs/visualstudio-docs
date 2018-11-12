@@ -28,7 +28,7 @@ Retrieves a reference to the symbol for the compiland that contributed the bytes
   
 ```cpp#  
 HRESULT get_compiland (   
-   IDiaSymbol** pRetVal  
+   IDiaSymbol** pRetVal  
 );  
 ```  
   

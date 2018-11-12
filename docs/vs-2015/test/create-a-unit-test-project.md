@@ -45,13 +45,13 @@ Unit tests often mirror the structure of the code under test. For example, a uni
   
  See one of the following sections:  
   
--   [Writing Unit Tests for the .NET Framework with the Microsoft Unit Test Framework for Managed Code](../test/writing-unit-tests-for-the-dotnet-framework-with-the-microsoft-unit-test-framework-for-managed-code.md)  
+- [Writing Unit Tests for the .NET Framework with the Microsoft Unit Test Framework for Managed Code](../test/writing-unit-tests-for-the-dotnet-framework-with-the-microsoft-unit-test-framework-for-managed-code.md)  
   
--   [Writing Unit tests for C/C++ with the Microsoft Unit Testing Framework for C++](../test/writing-unit-tests-for-c-cpp-with-the-microsoft-unit-testing-framework-for-cpp.md)  
+- [Writing Unit tests for C/C++ with the Microsoft Unit Testing Framework for C++](../test/writing-unit-tests-for-c-cpp-with-the-microsoft-unit-testing-framework-for-cpp.md)  
   
- **Running unit tests**  
+  **Running unit tests**  
   
- [Run unit tests with Test Explorer](../test/run-unit-tests-with-test-explorer.md)
+  [Run unit tests with Test Explorer](../test/run-unit-tests-with-test-explorer.md)
 
 
 

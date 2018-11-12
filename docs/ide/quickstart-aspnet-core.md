@@ -2,7 +2,7 @@
 title: "Use Visual Studio to create an ASP.NET Core web app in C#"
 description: "Learn how to create a simple Hello World web app in Visual Studio with C# and ASP.NET Core, step-by-step."
 ms.custom: mvc
-ms.date: 07/20/2018
+ms.date: 10/29/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
@@ -22,11 +22,23 @@ experiment_id: "bef9e21b-00d0-4b"
 
 In this 5-10 minute introduction to how to use Visual Studio, you'll create a simple "Hello World" web app by using an ASP.NET project template and the C# programming language.
 
+## Before you begin
+
+### Install Visual Studio
+
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
+
+### Update Visual Studio
+
+If you've already installed Visual Studio, make sure that you are running the most recent release. For more information about how to update your installation, see the [Update Visual Studio 2017 to the most recent release](../install/update-visual-studio.md) page.
+
+### Choose your theme (optional)
+
+This quickstart tutorial includes screenshots that use the dark theme. If you aren't using the dark theme but would like to, see the [Personalize the Visual Studio IDE and Editor](quickstart-personalize-the-ide.md) page to learn how.
 
 ## Create a project
 
-First, you'll create an ASP.NET Core web application project. The project type comes with all template files to create a web app, before you've even added anything!
+To start, you'll create an ASP.NET Core web application project. The project type comes with all template files to create a web app, before you've even added anything!
 
 1. Open Visual Studio 2017.
 
@@ -37,7 +49,7 @@ First, you'll create an ASP.NET Core web application project. The project type c
    ![Create the new ASP.NET Core Web Application project for C#](../ide/media/csharp-aspnet-choose-template-name-file.png)
 
    > [!NOTE]
-   > If you don't see the **.NET Core** project template category, choose the **Open Visual Studio Installer** link in the left pane.
+   > If you don't see the **.NET Core** project template category, choose the **Open Visual Studio Installer** link in the left pane. (Depending on your display settings, you might have to scroll to see it.)
    >
    > ![Open Visual Studio Installer from the new project dialog box](../ide/media/open-visual-studio-installer.png)
    >
@@ -47,7 +59,12 @@ First, you'll create an ASP.NET Core web application project. The project type c
    >
    > (You might have to close Visual Studio before you can continue installing the new workload.)
 
-1. In the **New ASP.NET Core Web Application** dialog box, verify that **ASP.NET Core 2.0** appears in the top drop-down menu. Then, choose **Web Application** and choose **OK**.
+1. In the **New ASP.NET Core Web Application** dialog box, select **ASP.NET Core 2.0** or later from the top drop-down menu.
+
+   > [!NOTE]
+   > If you don't see **ASP.NET Core 2.0** or later, make sure that you are running the most recent release of Visual Studio. For more information about how to update your installation, see the [Update Visual Studio 2017 to the most recent release](../install/update-visual-studio.md) page.
+
+1. Next, choose **Web Application**, and then choose **OK**.
 
    ![New ASP.NET Core Web Application dialog box](../ide/media/quickstart-aspnet-core20.png)
 
@@ -88,7 +105,7 @@ Soon after, Visual Studio opens your project file.
 1. Press **Ctrl**+**F5** to run the app and open it in a web browser.
 
    > [!NOTE]
-   > If you get an error message that says, **Unable to connect to web server 'IIS Express'**, close Visual Studio and then open it by using the **Run as administrator** option from the right-click or context menu. Then, run the application again.
+   > If you get an error message that says, **Unable to connect to web server 'IIS Express'**, or an error message that mentions an SSL certificate, close Visual Studio. Next, open Visual Studio by using the **Run as administrator** option from the right-click or context menu. Then, run the application again.
 
 1. At the top of the web page, choose **About**.
 
@@ -111,4 +128,4 @@ To learn more, continue with the following tutorial:
 
 ## See also
 
-[Publish your web app to Azure App Service by using Visual Studio](..//deployment/quickstart-deploy-to-azure.md)
+[Publish your web app to Azure App Service by using Visual Studio](../deployment/quickstart-deploy-to-azure.md)

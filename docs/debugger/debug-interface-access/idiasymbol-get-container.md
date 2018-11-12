@@ -22,7 +22,7 @@ This function retrieves a pointer to a symbol representing the parent/container 
   
 ```C++  
 HRESULT get_container(  
-   IDiaSymbol **pRetVal  
+   IDiaSymbol **pRetVal  
 );  
 ```  
   

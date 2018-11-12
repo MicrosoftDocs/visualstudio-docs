@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA1002: Do not expose generic lists
+
 |||
 |-|-|
 |TypeName|DoNotExposeGenericLists|

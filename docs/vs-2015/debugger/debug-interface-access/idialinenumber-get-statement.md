@@ -28,7 +28,7 @@ Retrieves a flag indicating that this line information describes the beginning o
   
 ```cpp#  
 HRESULT get_statement (   
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 );  
 ```  
   

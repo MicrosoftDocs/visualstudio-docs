@@ -22,8 +22,8 @@ Retrieves part or all of an undecorated name for a C++ decorated (linkage) name.
   
 ```C++  
 HRESULT get_undecoratedNameEx(   
-   DWORD undecorateOptions,  
-   BSTR* pRetval  
+   DWORD undecorateOptions,  
+   BSTR* pRetval  
 );  
 ```  
   

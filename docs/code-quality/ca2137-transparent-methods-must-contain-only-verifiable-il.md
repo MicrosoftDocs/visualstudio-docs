@@ -14,6 +14,7 @@ ms.workload:
   - "multiple"
 ---
 # CA2137: Transparent methods must contain only verifiable IL
+
 |||
 |-|-|
 |TypeName|TransparentMethodsMustBeVerifiable|

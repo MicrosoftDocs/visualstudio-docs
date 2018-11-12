@@ -20,7 +20,7 @@ To debug .NET Framework source, you must have access to debugging symbols for th
   
 ### To enable .NET Framework source debugging  
   
-1.  On the **Tools** menu, click **Option**s.  
+1.  On the **Tools** menu, click **Options**.  
   
 2.  In the **Options** dialog box, click the **Debugging** category.  
   

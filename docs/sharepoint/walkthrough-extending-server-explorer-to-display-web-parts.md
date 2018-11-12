@@ -42,26 +42,26 @@ ms.workload:
 ## Prerequisites  
  You need the following components on the development computer to complete this walkthrough:  
   
--   Supported editions of Windows, SharePoint and Visual Studio.  
+- Supported editions of Windows, SharePoint and Visual Studio.  
   
--   The Visual Studio SDK. This walkthrough uses the **VSIX Project** template in the SDK to create a VSIX package to deploy the project item. For more information, see [Extend the SharePoint tools in Visual Studio](../sharepoint/extending-the-sharepoint-tools-in-visual-studio.md).  
+- The Visual Studio SDK. This walkthrough uses the **VSIX Project** template in the SDK to create a VSIX package to deploy the project item. For more information, see [Extend the SharePoint tools in Visual Studio](../sharepoint/extending-the-sharepoint-tools-in-visual-studio.md).  
   
- Knowledge of the following concepts is helpful, but not required, to complete the walkthrough:  
+  Knowledge of the following concepts is helpful, but not required, to complete the walkthrough:  
   
--   Using the server object model for SharePoint. For more information, see [Using the SharePoint Foundation Server-Side Object Model](http://go.microsoft.com/fwlink/?LinkId=177796).  
+- Using the server object model for SharePoint. For more information, see [Using the SharePoint Foundation Server-Side Object Model](http://go.microsoft.com/fwlink/?LinkId=177796).  
   
--   Web Parts in SharePoint solutions. For more information, see [Web Parts Overview](http://go.microsoft.com/fwlink/?LinkId=177803).  
+- Web Parts in SharePoint solutions. For more information, see [Web Parts Overview](http://go.microsoft.com/fwlink/?LinkId=177803).  
   
 ## Create the projects
  To complete this walkthrough, you must create three projects:  
   
--   A VSIX project to create the VSIX package to deploy the extension.  
+- A VSIX project to create the VSIX package to deploy the extension.  
   
--   A class library project that implements the extension. This project must target the .NET Framework 4.5.  
+- A class library project that implements the extension. This project must target the .NET Framework 4.5.  
   
--   A class library project that defines the custom SharePoint commands. This project must target the.NET Framework 3.5.  
+- A class library project that defines the custom SharePoint commands. This project must target the.NET Framework 3.5.  
   
- Start the walkthrough by creating the projects.  
+  Start the walkthrough by creating the projects.  
   
 #### To create the VSIX project  
   

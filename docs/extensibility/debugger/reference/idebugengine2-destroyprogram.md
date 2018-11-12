@@ -23,13 +23,13 @@ Informs a debug engine (DE) that the program specified has been atypically termi
   
 ```cpp  
 HRESULT DestroyProgram(   
-   IDebugProgram2* pProgram  
+   IDebugProgram2* pProgram  
 );  
 ```  
   
 ```cpp  
 int DestroyProgram(   
-   IDebugProgram2 pProgram  
+   IDebugProgram2 pProgram  
 );  
 ```  
   

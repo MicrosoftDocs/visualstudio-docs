@@ -25,17 +25,17 @@ Designers, like editors, typically need to support undo operations so that users
   
  Designer implementations that need to provide support for the undo feature:  
   
--   Provide undo management by implementing the abstract base class <xref:System.ComponentModel.Design.UndoEngine>  
+- Provide undo management by implementing the abstract base class <xref:System.ComponentModel.Design.UndoEngine>  
   
--   Supply persistence and CodeDOM support by implementing the <xref:System.ComponentModel.Design.Serialization.IDesignerSerializationService> and the <xref:System.ComponentModel.Design.IComponentChangeService> classes.  
+- Supply persistence and CodeDOM support by implementing the <xref:System.ComponentModel.Design.Serialization.IDesignerSerializationService> and the <xref:System.ComponentModel.Design.IComponentChangeService> classes.  
   
- For more information on writing designers using [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)], see [Extending Design-Time Support](http://msdn.microsoft.com/library/d6ac8a6a-42fd-4bc8-bf33-b212811297e2).  
+  For more information on writing designers using [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)], see [Extending Design-Time Support](http://msdn.microsoft.com/library/d6ac8a6a-42fd-4bc8-bf33-b212811297e2).  
   
- The [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)] provides a default undo infrastructure by:  
+  The [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)] provides a default undo infrastructure by:  
   
--   Providing undo management implementations through the <xref:Microsoft.VisualStudio.Shell.Design.OleUndoEngine> and <xref:Microsoft.VisualStudio.Shell.Design.OleUndoEngine.UndoUnit> classes.  
+- Providing undo management implementations through the <xref:Microsoft.VisualStudio.Shell.Design.OleUndoEngine> and <xref:Microsoft.VisualStudio.Shell.Design.OleUndoEngine.UndoUnit> classes.  
   
--   Supplying persistence and CodeDOM support through the default <xref:System.ComponentModel.Design.Serialization.CodeDomComponentSerializationService> and <xref:System.ComponentModel.Design.IComponentChangeService> implementations.  
+- Supplying persistence and CodeDOM support through the default <xref:System.ComponentModel.Design.Serialization.CodeDomComponentSerializationService> and <xref:System.ComponentModel.Design.IComponentChangeService> implementations.  
   
 ## Obtaining Undo Support Automatically  
  Any designer created in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] has automatic and full undo support if, the designer:  
@@ -62,44 +62,44 @@ Designers, like editors, typically need to support undo operations so that users
   
  Visual Studio provides the following feature to designer undo:  
   
--   Linked undo functionality across multiple designers.  
+- Linked undo functionality across multiple designers.  
   
--   Child units within a designer can interact with their parents by implementing <xref:Microsoft.VisualStudio.OLE.Interop.IOleUndoUnit> and <xref:Microsoft.VisualStudio.OLE.Interop.IOleParentUndoUnit> on <xref:Microsoft.VisualStudio.Shell.Design.OleUndoEngine.UndoUnit>.  
+- Child units within a designer can interact with their parents by implementing <xref:Microsoft.VisualStudio.OLE.Interop.IOleUndoUnit> and <xref:Microsoft.VisualStudio.OLE.Interop.IOleParentUndoUnit> on <xref:Microsoft.VisualStudio.Shell.Design.OleUndoEngine.UndoUnit>.  
   
- The Environment SDK provides CodeDOM and persistence support by supplying:  
+  The Environment SDK provides CodeDOM and persistence support by supplying:  
   
--   <xref:System.ComponentModel.Design.Serialization.CodeDomComponentSerializationService> as an implementations of the <xref:System.ComponentModel.Design.Serialization.IDesignerSerializationService>  
+- <xref:System.ComponentModel.Design.Serialization.CodeDomComponentSerializationService> as an implementations of the <xref:System.ComponentModel.Design.Serialization.IDesignerSerializationService>  
   
- A <xref:System.ComponentModel.Design.IComponentChangeService> provided by the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]``design host.  
+  A <xref:System.ComponentModel.Design.IComponentChangeService> provided by the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]``design host.  
   
 ## Using the Environment SDK Features to Supply Undo Support  
  To obtain undo support, an object implementing a designer must:  
   
--   Instantiate and initialize an instance of the <xref:Microsoft.VisualStudio.Shell.Design.OleUndoEngine> class with a valid <xref:System.IServiceProvider> implementation.  
+- Instantiate and initialize an instance of the <xref:Microsoft.VisualStudio.Shell.Design.OleUndoEngine> class with a valid <xref:System.IServiceProvider> implementation.  
   
--   This <xref:System.IServiceProvider> class must provide the following services:  
+- This <xref:System.IServiceProvider> class must provide the following services:  
   
-    -   <xref:System.ComponentModel.Design.IDesignerHost>.  
+  -   <xref:System.ComponentModel.Design.IDesignerHost>.  
   
-    -   <xref:System.ComponentModel.Design.Serialization.IDesignerSerializationService>  
+  -   <xref:System.ComponentModel.Design.Serialization.IDesignerSerializationService>  
   
-         Designers using [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] CodeDOM serialization may choose to use <xref:System.ComponentModel.Design.Serialization.CodeDomComponentSerializationService> provided with the [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)] as its implementation of the <xref:System.ComponentModel.Design.Serialization.IDesignerSerializationService>.  
+       Designers using [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] CodeDOM serialization may choose to use <xref:System.ComponentModel.Design.Serialization.CodeDomComponentSerializationService> provided with the [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)] as its implementation of the <xref:System.ComponentModel.Design.Serialization.IDesignerSerializationService>.  
   
-         In this case, the <xref:System.IServiceProvider> class provided to the <xref:Microsoft.VisualStudio.Shell.Design.OleUndoEngine> constructor should return this object as an implementation of the <xref:System.ComponentModel.Design.Serialization.IDesignerSerializationService> class.  
+       In this case, the <xref:System.IServiceProvider> class provided to the <xref:Microsoft.VisualStudio.Shell.Design.OleUndoEngine> constructor should return this object as an implementation of the <xref:System.ComponentModel.Design.Serialization.IDesignerSerializationService> class.  
   
-    -   <xref:System.ComponentModel.Design.IComponentChangeService>  
+  -   <xref:System.ComponentModel.Design.IComponentChangeService>  
   
-         Designers using the default <xref:System.ComponentModel.Design.DesignSurface> provided by the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] design host are guaranteed to have a default implementation of the <xref:System.ComponentModel.Design.IComponentChangeService> class.  
+       Designers using the default <xref:System.ComponentModel.Design.DesignSurface> provided by the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] design host are guaranteed to have a default implementation of the <xref:System.ComponentModel.Design.IComponentChangeService> class.  
   
- Designers implementing a <xref:Microsoft.VisualStudio.Shell.Design.OleUndoEngine> based undo mechanism automatically tracks changes if:  
+  Designers implementing a <xref:Microsoft.VisualStudio.Shell.Design.OleUndoEngine> based undo mechanism automatically tracks changes if:  
   
--   Property changes are made through the <xref:System.ComponentModel.TypeDescriptor> object.  
+- Property changes are made through the <xref:System.ComponentModel.TypeDescriptor> object.  
   
--   <xref:System.ComponentModel.Design.IComponentChangeService> events are manually generated when an undoable change is committed.  
+- <xref:System.ComponentModel.Design.IComponentChangeService> events are manually generated when an undoable change is committed.  
   
--   Modification on the designer was created within the context of a <xref:System.ComponentModel.Design.DesignerTransaction>.  
+- Modification on the designer was created within the context of a <xref:System.ComponentModel.Design.DesignerTransaction>.  
   
--   The designer chooses to explicitly create undo units using either the standard undo unit provided by an implementation of <xref:System.ComponentModel.Design.UndoEngine.UndoUnit> or the Visual Studio-specific implementation <xref:Microsoft.VisualStudio.Shell.Design.OleUndoEngine.UndoUnit>, which derives from <xref:System.ComponentModel.Design.UndoEngine.UndoUnit> and also provides an implementation of both <xref:Microsoft.VisualStudio.OLE.Interop.IOleUndoUnit> and <xref:Microsoft.VisualStudio.OLE.Interop.IOleParentUndoUnit>.  
+- The designer chooses to explicitly create undo units using either the standard undo unit provided by an implementation of <xref:System.ComponentModel.Design.UndoEngine.UndoUnit> or the Visual Studio-specific implementation <xref:Microsoft.VisualStudio.Shell.Design.OleUndoEngine.UndoUnit>, which derives from <xref:System.ComponentModel.Design.UndoEngine.UndoUnit> and also provides an implementation of both <xref:Microsoft.VisualStudio.OLE.Interop.IOleUndoUnit> and <xref:Microsoft.VisualStudio.OLE.Interop.IOleParentUndoUnit>.  
   
 ## See Also  
  <xref:System.ComponentModel.Design.UndoEngine>   

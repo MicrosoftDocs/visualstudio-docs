@@ -28,7 +28,7 @@ Retrieves the bit position of location. Used when the [LocationType Enumeration]
   
 ```cpp#  
 HRESULT get_bitPosition (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

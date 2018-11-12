@@ -52,7 +52,7 @@ Public Class TreeNode_Bounds
             customer1.CustomerOrders.Add(New Order("Order" + yIndex.ToString()))
          Next yIndex
       Next customer1
-      ' Supress repainting of the TreeView.
+      ' Suppress repainting of the TreeView.
       myTreeView.BeginUpdate()
 
       ' Clear the TreeView each time the method is called.

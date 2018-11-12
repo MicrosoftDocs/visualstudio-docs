@@ -34,8 +34,8 @@ The Extension Pack item template creates an Extension Pack with set of extension
   
 3. ExtensionPack1.vsext file is added which contains the following code
 
-  ```json
-  {
+   ```json
+   {
     "id": "ExtensionPack1",
     "name": "ExtensionPack1",
     "description": "Read about creating extension packs at https://aka.ms/vsextpack",
@@ -50,8 +50,8 @@ The Extension Pack item template creates an Extension Pack with set of extension
         "name": "CopyAsHtml"
       }
     ]
-  }  
-  ```
+   }  
+   ```
 
 4. The vsixid of the extension to include in the Extension Pack can be found on the [Visual Studio Marketplace](https://marketplace.visualstudio.com/). Find the extension you want to include and click on **Copy ID**. You can update the existing **vsixId** in the above file or add another extension to the list.
 

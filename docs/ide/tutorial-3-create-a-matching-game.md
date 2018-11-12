@@ -33,12 +33,12 @@ When you finish this tutorial, your program will look like the following picture
 
 ## Tutorial links
 
-To download a completed version of the sample, see [Complete matching game tutorial sample](http://code.msdn.microsoft.com/Complete-Matching-Game-4cffddba).
+To download a completed version of the sample, see [Complete matching game tutorial sample](https://code.msdn.microsoft.com/Complete-Matching-Game-4cffddba).
 
 > [!NOTE]
 > In this tutorial, both Visual C# and Visual Basic are covered, so focus on information specific to the programming language that you're using.
 
-If you get stuck or have programming questions, try posting your question on one of the MSDN forums. See [Visual Basic forum](http://social.msdn.microsoft.com/Forums/home?forum=vbgeneral) and [Visual C# forum](http://social.msdn.microsoft.com/Forums/home?forum=csharpgeneral). Also, there are great, free video learning resources available to you. To learn more about programming in Visual Basic, see [Visual Basic fundamentals: Development for absolute beginners](http://channel9.msdn.com/Series/Visual-Basic-Development-for-Absolute-Beginners). To learn more about programming in Visual C#, see [C# fundamentals: Development for absolute beginners](http://channel9.msdn.com/Series/C-Sharp-Fundamentals-Development-for-Absolute-Beginners).
+If you get stuck or have programming questions, try posting your question on one of the MSDN forums. See [Visual Basic forum](https://social.msdn.microsoft.com/Forums/vstudio/home?forum=vbgeneral) and [Visual C# forum](https://social.msdn.microsoft.com/Forums/vstudio/home?forum=csharpgeneral). Also, there are great, free video learning resources available to you. To learn more about programming in Visual Basic, see [Visual Basic fundamentals: Development for absolute beginners](https://channel9.msdn.com/Series/Visual-Basic-Development-for-Absolute-Beginners). To learn more about programming in Visual C#, see [C# fundamentals: Development for absolute beginners](https://channel9.msdn.com/Series/C-Sharp-Fundamentals-Development-for-Absolute-Beginners).
 
 ## Related topics
 

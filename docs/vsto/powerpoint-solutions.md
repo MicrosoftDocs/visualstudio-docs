@@ -36,15 +36,15 @@ ms.workload:
 ## Automate PowerPoint by using the PowerPoint object model  
  The PowerPoint object model exposes many types that you can use to automate PowerPoint. These types enable you to write code to accomplish common tasks:  
   
--   Programmatically create and format presentations.  
+- Programmatically create and format presentations.  
   
--   Add or remove slides from presentations.  
+- Add or remove slides from presentations.  
   
--   Add or change shapes on a slide.  
+- Add or change shapes on a slide.  
   
- To access the PowerPoint object model from a VSTO Add-in, use the `Application` field of the `ThisAddIn` class in your project. The `Application` field returns a <xref:Microsoft.Office.Interop.PowerPoint.Application> object that represents the current instance of PowerPoint. For more information, see [Program VSTO Add-Ins](../vsto/programming-vsto-add-ins.md).  
+  To access the PowerPoint object model from a VSTO Add-in, use the `Application` field of the `ThisAddIn` class in your project. The `Application` field returns a <xref:Microsoft.Office.Interop.PowerPoint.Application> object that represents the current instance of PowerPoint. For more information, see [Program VSTO Add-Ins](../vsto/programming-vsto-add-ins.md).  
   
- When you call into the PowerPoint object model, you use types that are provided in the primary interop assembly for PowerPoint. The primary interop assembly acts as a bridge between the managed code in the VSTO Add-in and the COM object model in PowerPoint. All types in the PowerPoint primary interop assembly are defined in the <xref:Microsoft.Office.Interop.PowerPoint> namespace. For more information about primary interop assemblies, see [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md) and [Office primary interop assemblies](../vsto/office-primary-interop-assemblies.md).  
+  When you call into the PowerPoint object model, you use types that are provided in the primary interop assembly for PowerPoint. The primary interop assembly acts as a bridge between the managed code in the VSTO Add-in and the COM object model in PowerPoint. All types in the PowerPoint primary interop assembly are defined in the <xref:Microsoft.Office.Interop.PowerPoint> namespace. For more information about primary interop assemblies, see [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md) and [Office primary interop assemblies](../vsto/office-primary-interop-assemblies.md).  
   
 ##  <a name="WordOMDocumentation"></a> Use the PowerPoint object model documentation  
  For complete information about the PowerPoint object model, you can refer to the PowerPoint primary interop assembly (PIA) reference and the VBA object model reference.  

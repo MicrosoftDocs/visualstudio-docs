@@ -34,7 +34,7 @@ The **Architecture** menu now contains a command to directly create a Dependency
 
 You now see the impact of your changes immediately in the analysis results for the current code in the solution each time you save the diagram. You don't have to wait any longer for the completion of the "Validate Dependencies" command.
 
-For more details, see [this blog post](https://blogs.msdn.microsoft.com/visualstudioalm/2016/10/07/live-architecture-dependency-validation-in-visual-studio-15-preview-5/).
+For more details, see [this blog post](https://blogs.msdn.microsoft.com/devops/2016/10/07/live-architecture-dependency-validation-in-visual-studio-15-preview-5/).
 
 ## UML designers have been removed
 
@@ -55,7 +55,7 @@ However, support for visualizing the architecture of .NET and C++ code is availa
 
 If you are a significant user of the UML designers, you can continue to use Visual Studio 2015 or earlier versions while you decide on an alternative tool for your UML needs.
 
-For more details, see [this blog post](https://blogs.msdn.microsoft.com/visualstudioalm/2016/10/14/uml-designers-have-been-removed-layer-designer-now-supports-live-architectural-analysis/).
+For more details, see [this blog post](https://blogs.msdn.microsoft.com/devops/2016/10/14/uml-designers-have-been-removed-layer-designer-now-supports-live-architectural-analysis/).
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
 
@@ -64,7 +64,7 @@ For more details, see [this blog post](https://blogs.msdn.microsoft.com/visualst
 Visual Studio 2017 is available in several editions. Not all of these provide support for the architecture and modeling tools. The following table shows the availability of each tool.
 
 |**Feature**|**Enterprise edition**|**Professional edition**|**Community edition**|
-|-----------------|--------------------|----------------------|-------------------|
+|-|-|-|-|
 |**Code maps**|Yes|Only supports reading code maps, filtering code maps, adding new generic nodes, and creating a new Directed Graph from a selection.|-|
 |**Dependency diagrams**|Yes|Only supports reading dependency diagrams.|Only supports reading dependency diagrams.|
 |**Directed graphs** (DGML diagrams)|Yes|Yes|Yes|

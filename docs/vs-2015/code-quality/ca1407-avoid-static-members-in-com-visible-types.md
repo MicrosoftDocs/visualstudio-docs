@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA1407: Avoid static members in COM visible types
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|AvoidStaticMembersInComVisibleTypes|
@@ -49,13 +50,13 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 namespace Samples
 {
-    [ComVisible(true)]
-    public class MyClass
-    {
-        public static void DoSomething()
-        {
-        }
-    }
+    [ComVisible(true)]
+    public class MyClass
+    {
+        public static void DoSomething()
+        {
+        }
+    }
 }
 ```
 

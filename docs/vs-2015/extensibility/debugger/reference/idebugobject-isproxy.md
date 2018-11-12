@@ -26,13 +26,13 @@ Determines if the object is a transparent proxy.
   
 ```cpp#  
 HRESULT IsProxy (  
-   BOOL* pfIsProxy  
+   BOOL* pfIsProxy  
 );  
 ```  
   
 ```csharp  
 int IsProxy (  
-   out bool pfIsProxy  
+   out bool pfIsProxy  
 );  
 ```  
   

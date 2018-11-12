@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA1721: Property names should not match get methods
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|PropertyNamesShouldNotMatchGetMethods|

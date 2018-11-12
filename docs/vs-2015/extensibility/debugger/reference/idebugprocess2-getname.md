@@ -27,15 +27,15 @@ Gets the title, friendly name, or file name of the process.
   
 ```cpp#  
 HRESULT GetName(   
-   GETNAME_TYPE  gnType,  
-   BSTR*         pbstrName  
+   GETNAME_TYPE  gnType,  
+   BSTR*         pbstrName  
 );  
 ```  
   
 ```csharp  
 int GetName(   
-   enum_GETNAME_TYPE  gnType,  
-   out string         pbstrName  
+   enum_GETNAME_TYPE  gnType,  
+   out string         pbstrName  
 );  
 ```  
   

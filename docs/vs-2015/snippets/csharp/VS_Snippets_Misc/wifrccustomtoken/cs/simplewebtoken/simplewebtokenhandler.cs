@@ -477,7 +477,7 @@ namespace SimpleWebToken
         /// Parses the token into a collection.
         /// </summary>
         /// <param name="encodedToken">The serialized token.</param>
-        /// <returns>A colleciton of all name-value pairs from the token.</returns>
+        /// <returns>A collection of all name-value pairs from the token.</returns>
         NameValueCollection ParseToken( string encodedToken )
         {
             if ( String.IsNullOrEmpty( encodedToken ) )
