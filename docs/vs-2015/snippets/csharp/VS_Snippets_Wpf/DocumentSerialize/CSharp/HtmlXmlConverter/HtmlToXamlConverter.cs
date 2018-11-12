@@ -1401,7 +1401,7 @@ namespace SdkSample
         /// <returns>
         /// ArrayList of type double which contains the function output. If analysis is successful, this ArrayList contains
         /// all the points which are the starting position of any column in the table, ordered from left to right.
-        /// In case if analisys was impossible we return null.
+        /// In case if analysis was impossible we return null.
         /// </returns>
         private static ArrayList AnalyzeTableStructure(XmlElement htmlTableElement, CssStylesheet stylesheet)
         {
@@ -1440,7 +1440,7 @@ namespace SdkSample
                         {
                             // Tbody analysis may return 0, probably due to unprocessable format.
                             // We should also fail.
-                            columnWidthsAvailable = false; // interrupt the analisys
+                            columnWidthsAvailable = false; // interrupt the analysis
                         }
                         break;
                     case "tr":
@@ -1452,13 +1452,13 @@ namespace SdkSample
                         }
                         else if (trWidth == 0)
                         {
-                            columnWidthsAvailable = false; // interrupt the analisys
+                            columnWidthsAvailable = false; // interrupt the analysis
                         }
                         break;
                     case "td":
                         // Incorrect formatting, too deep to analyze at this level. Return null.
                         // TODO: implement analysis at this level, possibly by creating a new tr
-                        columnWidthsAvailable = false; // interrupt the analisys
+                        columnWidthsAvailable = false; // interrupt the analysis
                         break;
                     default:
                         // Element should not occur directly in table. Ignore it.
@@ -1535,7 +1535,7 @@ namespace SdkSample
                         }
                         break;
                     case "td":
-                        columnWidthsAvailable = false; // interrupt the analisys
+                        columnWidthsAvailable = false; // interrupt the analysis
                         break;
                     default:
                         break;
@@ -1567,7 +1567,7 @@ namespace SdkSample
         /// </param>
         /// <param name="tableWidth">
         /// Double value representing the current width of the table.
-        /// Return 0 if analisys was insuccessful.
+        /// Return 0 if analysis was insuccessful.
         /// </param>
         private static double AnalyzeTRStructure(XmlElement htmlTRElement, ArrayList columnStarts, ArrayList activeRowSpans, double tableWidth, CssStylesheet stylesheet)
         {
