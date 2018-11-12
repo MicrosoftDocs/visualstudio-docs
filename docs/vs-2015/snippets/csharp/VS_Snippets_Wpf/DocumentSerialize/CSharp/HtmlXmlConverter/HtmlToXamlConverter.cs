@@ -1208,7 +1208,7 @@ namespace SdkSample
             Debug.Assert(xamlTableBodyElement.LocalName == Xaml_TableRowGroup);
             Debug.Assert(currentProperties != null);
 
-            // Initialize child node for iteratimg through children to the first tr element
+            // Initialize child node for iterating through children to the first tr element
             XmlNode htmlChildNode = htmlTRStartNode;
             ArrayList activeRowSpans = null;
             if (columnStarts != null)
