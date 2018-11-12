@@ -1076,7 +1076,7 @@ namespace SdkSample
         /// XmlElement representing a source html table.
         /// </param>
         /// <param name="xamlTableElement">
-        /// XmlElement repesenting a resulting xaml table.
+        /// XmlElement representing a resulting xaml table.
         /// </param>
         /// <param name="columnStartsAllRows">
         /// Array of doubles - column start coordinates.
