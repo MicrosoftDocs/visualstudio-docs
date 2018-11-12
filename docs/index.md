@@ -107,15 +107,15 @@ ms.topic: hub-page
                                                         <td style="border-top-color:transparent!important;padding-left:0;">
                                                             <ul class="noBullet">
                                                                 <li>
-                                                                    <a class="barLink" href="/cpp/build/vscpp-step-0-installation">
-                                                                        <img src="https://docs.microsoft.com/media/logos/logo_Cplusplus.svg" alt="C++ icon">
-                                                                        C++
-                                                                    </a>
-                                                                </li>
-                                                                <li>
                                                                     <a class="barLink" href="/visualstudio/ide/tutorial-csharp-aspnet-core">
                                                                         <img src="https://docs.microsoft.com/media/logos/logo_CSharp.svg" alt="C# icon">
                                                                         C#
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a class="barLink" href="/visualstudio/ide/quickstart-fsharp">
+                                                                        <img src="https://docs.microsoft.com/dotnet/images/hub/fsharp.svg" alt="F# logo">
+                                                                        F#
                                                                     </a>
                                                                 </li>
                                                                 <li>
@@ -128,6 +128,12 @@ ms.topic: hub-page
                                                         </td>
                                                         <td style="border-top-color:transparent!important;padding-left:0;">
                                                             <ul class="noBullet">
+                                                                <li>
+                                                                    <a class="barLink" href="/cpp/build/vscpp-step-0-installation">
+                                                                        <img src="https://docs.microsoft.com/media/logos/logo_Cplusplus.svg" alt="C++ icon">
+                                                                        C++
+                                                                    </a>
+                                                                </li>
                                                                 <li>
                                                                     <a class="barLink" href="/visualstudio/python/tutorial-working-with-python-in-visual-studio-step-01-create-project">
                                                                         <img src="https://docs.microsoft.com/media/logos/logo_python.svg" alt="Python icon">
@@ -147,69 +153,6 @@ ms.topic: hub-page
                                     </div>
                                 </div>
                             </li>
-                            <li>
-                                <div class="cardSize">
-                                    <div class="cardPadding">
-                                        <div class="card">
-                                            <div class="cardText">
-                                                <h3>Try a 5-minute Quickstart</h3>
-                                                <h4>Build "Hello, World" in the language of your choice.</h4>
-                                                <table cellpadding="0" cellspacing="0" border="0">
-                                                    <tr>
-                                                        <td style="border-top-color:transparent!important;padding-left:0;">
-                                                            <ul class="noBullet">
-                                                                <li>
-                                                                    <a class="barLink" href="/visualstudio/ide/quickstart-aspnet-core">
-                                                                        <img src="https://docs.microsoft.com/media/logos/logo_CSharp.svg" alt="C# logo">
-                                                                        C#
-                                                                    </a>
-                                                                </li>
-                                                                <li>
-                                                                    <a class="barLink" href="/visualstudio/ide/quickstart-fsharp">
-                                                                        <img src="https://docs.microsoft.com/dotnet/images/hub/fsharp.svg" alt="F# logo">
-                                                                        F#
-                                                                    </a>
-                                                                </li>
-                                                                <li>
-                                                                    <a class="barLink" href="/visualstudio/ide/quickstart-visual-basic-console">
-                                                                        <img src="https://docs.microsoft.com/media/logos/logo_vb.svg" alt="VB logo">
-                                                                        Visual Basic
-                                                                    </a>
-                                                            </ul>
-                                                        </td>
-                                                        <td style="border-top-color:transparent!important;padding-left:0;">
-                                                            <ul class="noBullet">
-                                                                <li>
-                                                                    <a class="barLink" href="/visualstudio/ide/getting-started-with-cpp-in-visual-studio">
-                                                                        <img src="https://docs.microsoft.com/media/logos/logo_Cplusplus.svg" alt="C++ logo">
-                                                                        C++
-                                                                    </a>
-                                                                </li>
-                                                                <li>
-                                                                    <a class="barLink" href="/visualstudio/ide/quickstart-python">
-                                                                        <img src="https://docs.microsoft.com/media/logos/logo_python.svg" alt="Python logo">
-                                                                        Python
-                                                                    </a>
-                                                                </li>
-                                                                <li>
-                                                                    <a class="barLink" href="/visualstudio/ide/quickstart-nodejs">
-                                                                        <img src="https://docs.microsoft.com/media/logos/logo_nodejs.svg" alt="Node.js logo">
-                                                                        Node.js
-                                                                    </a>
-                                                                </li>
-                                                            </ul>
-                                                        </td>
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                     <div>
-                        <ul class="cardsL">
                             <li>
                                 <div class="cardSize">
                                     <div class="cardPadding">
