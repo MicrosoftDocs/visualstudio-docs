@@ -22,6 +22,9 @@ ms.workload:
 
 You can choose to hide some code from view by collapsing a region of code so that it appears under a plus sign (**+**). You expand a collapsed region by clicking the plus sign. If you are a keyboard user, you can choose **Ctrl**+**M**+**M** to collapse and expand. You can also collapse an outlining region by double-clicking any line in the region on the outlining margin, which appears just to the left of the code. You can see the contents of a collapsed region as a tooltip when you hover over the collapsed region.
 
+> [!NOTE]
+> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Source editor (Visual Studio for Mac)](/visualstudio/mac/source-editor).
+
 Regions in the outlining margin are also highlighted when you hover over the margin with the mouse. The default highlighting color may seem rather faint in some color configurations. You can change it in **Tools** > **Options** > **Environment** > **Fonts and Colors** > **Collapsible Region**.
 
 When you work in outlined code, you can expand the sections you want to work on, collapse them when you are done, and then move to other sections. When you do not wish to have outlining displayed, you can use the **Stop Outlining** command to remove the outline information without disturbing your underlying code.
@@ -49,3 +52,4 @@ You can also use the Visual Studio SDK to define the text regions you want to ex
 ## See also
 
 - [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md)
+- [Source editor (Visual Studio for Mac)](/visualstudio/mac/source-editor)

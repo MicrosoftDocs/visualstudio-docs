@@ -36,9 +36,9 @@ For more information, see [Analyze virtual user activity in the Details view](..
 
 -   Complete these procedures:
 
-    -   [Record and run a web performance test](http://msdn.microsoft.com/en-us/bd0a82fd-cec0-4861-bc09-e1b0b2d258ef).
+    -   [Record and run a web performance test](/azure/devops/test/load-test/run-performance-tests-app-before-release#recordtests).
 
-    -   [Create and run a load test](http://msdn.microsoft.com/en-us/7041cbcf-9ab1-4579-98ff-8f296aeaded4)
+    -   [Create and run a load test](/azure/devops/test/load-test/run-performance-tests-app-before-release#create-a-load-test)
 
 ## Open the ColorWebApp solution created in the previous walkthroughs
 

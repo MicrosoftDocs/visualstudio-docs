@@ -17,6 +17,9 @@ ms.workload:
 
 The Visual Studio editor provides many features that make it easier for you to write and manage your code and text. You can expand and collapse different blocks of code by using outlining. You can learn more about the code by using IntelliSense, the **Object Browser**, and the Call Hierarchy. You can find code by using features such as **Go To**, **Go To Definition**, and **Find All References**. You can insert blocks of code with code snippets, and you can generate code by using features such as **Generate From Usage**. If you have never used the Visual Studio editor before, see [Edit your code](https://visualstudio.microsoft.com/vs/features/ide/) for a quick overview.
 
+> [!NOTE]
+> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Source editor (Visual Studio for Mac)](/visualstudio/mac/source-editor).
+
 You can view your code in a number of different ways. By default, **Solution Explorer** shows your code organized by files. You can click on the **Class View** tab at the bottom of the window to view your code organized by classes.
 
 You can search and replace text in single or multiple files. For more information, see [Find and replace text](../ide/finding-and-replacing-text.md). You can use regular expressions to find and replace text. For more information, see [Use regular expressions in Visual Studio](../ide/using-regular-expressions-in-visual-studio.md).
@@ -81,6 +84,7 @@ For more information about customizing the editor, see [Customize the editor](..
 
 ## See also
 
+- [Source editor (Visual Studio for Mac)](/visualstudio/mac/source-editor)
 - [Visual Studio IDE](../ide/visual-studio-ide.md)
 - [Get started with C++ in Visual Studio](../ide/getting-started-with-cpp-in-visual-studio.md)
 - [Get started with C# and ASP.NET in Visual Studio](../ide/tutorial-csharp-aspnet-core.md)

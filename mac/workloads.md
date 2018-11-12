@@ -9,12 +9,12 @@ ms.assetid: DDC39599-8C5D-4CB9-8DA5-229E085384CA
 
 # Visual Studio for Mac Workloads
 
-Visual Studio for Mac comes pre-installed with workloads for the following:
+Visual Studio for Mac comes pre-installed with workloads for developing the following types of app:
 
 * Cross-Platform Mobile apps with .NET: Android, iOS, tvOS, watchOS
 * Mac desktop apps
-* .NET Core applications
-* ASP.NET Core Web applications
+* .NET Core apps
+* ASP.NET Core Web apps
 * Cross-platform Unity games
 
 ## Xamarin
@@ -25,7 +25,7 @@ For information on using Xamarin in Visual Studio for Mac, refer to the [Xamarin
 
 ## .NET Core applications
 
-For more information on using .NET Core, refer to the [documentation](https://docs.microsoft.com/dotnet/core/).
+For more information on using .NET Core, refer to the [documentation](/dotnet/core/).
 
 ## ASP.NET Core Web Applications
 

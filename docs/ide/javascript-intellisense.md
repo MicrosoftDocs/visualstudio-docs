@@ -137,3 +137,4 @@ If you do not wish to use auto-acquisition, disable it by adding a configuration
 ## See also
 
 - [Using IntelliSense](../ide/using-intellisense.md)
+- [JavaScript support (Visual Studio for Mac)](/visualstudio/mac/javascript)

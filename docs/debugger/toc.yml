@@ -1,7 +1,11 @@
 - name: Debugger documentation
   href: index.md
 - name: Overview
-  href: debugger-overview.md
+  items:
+  - name: "What is debugging?"
+    href: what-is-debugging.md
+  - name: "Write better C# code with Visual Studio"
+    href: write-better-code-with-visual-studio.md
 - name: Quickstarts
   items:
   - name: First look at the debugger

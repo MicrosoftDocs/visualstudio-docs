@@ -128,7 +128,7 @@ Partial Public Class CustomerAddress
     ' Default constructor for initializers.
     Sub New()
     End Sub
-    ' Public constructors with propeties.
+    ' Public constructors with properties.
     Sub New(ByVal customerID As String, _
         ByVal address As String, _
         ByVal city As String, _
