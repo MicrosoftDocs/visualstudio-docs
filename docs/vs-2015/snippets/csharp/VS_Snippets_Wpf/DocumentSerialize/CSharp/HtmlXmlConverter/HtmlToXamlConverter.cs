@@ -2058,7 +2058,7 @@ namespace SdkSample
 
                     case "width":
                     case "height":
-                        // TODO: Decide what to do with width and height propeties
+                        // TODO: Decide what to do with width and height properties
                         break;
 
                     case "margin-top":
