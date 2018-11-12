@@ -40,7 +40,7 @@ To create the app, open Visual Studio and choose **File > New Project**. Under *
 
 ## Find the red and green squiggles!
 
-Before you try to start the sample app and run the debugger, check the code in the code editor for red and green squiggles. These represent errors and warnings that are identified by the IDE's code analyzer. The red squiggles are compile-time errors, which you must fix before you can run the code. The green squiggles are warnings. Although you can often run your app without fixing the warnings, they can be a source of bugs and you might save yourself time and trouble by investigating them. These warnings and errors also show up in the **Error List** window, if you prefer a list view.
+Before you try to start the sample app and run the debugger, check the code in the code editor for red and green squiggles. These represent errors and warnings that are identified by the IDE's code analyzer. The red squiggles are compile-time errors, which you must fix before you can run the code. The green squiggles are warnings. Although you can often run your app without fixing the warnings, they can be a source of bugs and you often save yourself time and trouble by investigating them. These warnings and errors also show up in the **Error List** window, if you prefer a list view.
 
 In the sample app, you see several red squiggles that you need to fix, and one green one that you'll look at. Here is the first error.
 
@@ -52,7 +52,7 @@ To fix this error, you'll look at another feature of the IDE, represented by the
 
 The first red squiggle represents a compile-time error. Hover over it and you see the message ```The name `Encoding` does not exist in the current context```.
 
-Notice that this error shows a light bulb icon to the lower left. Along with the screwdriver icon, the light bulb icon represents Quick Actions that can help you fix or refactor code inline. Use the first suggested fix to resolve this error by clicking **using System.Text** on the left.
+Notice that this error shows a light bulb icon to the lower left. Along with the screwdriver icon ![screwdriver icon](../ide/media/screwdriver-icon.png), the light bulb icon ![light bulb icon](../ide/media/light-bulb-icon.png) represents Quick Actions that can help you fix or refactor code inline. The light bulb represents issues that you *should* fix. The screwdriver is for issues that you might choose to fix. Use the first suggested fix to resolve this error by clicking **using System.Text** on the left.
 
 ![Use the light bulb to fix code](../debugger/media/write-better-code-missing-include.png)
 
@@ -172,7 +172,7 @@ Click the **Restart** ![Restart App](../debugger/media/dbg-tour-restart.png "Res
 
 You can see something in this output that is not quite right. **name** and **lastname** for the third record are blank!
 
-There's an opportunity here to show a helpful coding practice, often underutilized, which is to use `assert` statements in your functions. By adding the following code, you include a runtime check to make sure that `firstname` and `lastname` are not `null`. Replace the following code in the `UpdateRecords` method:
+This is a good time to talk about a helpful coding practice, often underutilized, which is to use `assert` statements in your functions. By adding the following code, you include a runtime check to make sure that `firstname` and `lastname` are not `null`. Replace the following code in the `UpdateRecords` method:
 
 ```csharp
 if (existingUser == false)
@@ -211,7 +211,7 @@ When you restart, the debugger pauses on the `assert` statement, because the exp
 
 ![Assert resolves to false](../debugger/media/write-better-code-using-assert.png)
 
-The `assert` error tells you that there's a problem that you need to investigate. `assert` can cover many scenarios where you don't necessarily see an exception. In this example, the user won't see an exception (although a `NullReferenceException` is a common result), and a `null` value gets added as `firstname` in your database. This may cause problems later on (such as you see in the console output) and might be harder to debug.
+The `assert` error tells you that there's a problem that you need to investigate. `assert` can cover many scenarios where you don't necessarily see an exception. In this example, the user won't see an exception (in other scenarios a `NullReferenceException` may occur), and a `null` value gets added as `firstname` in your database. This may cause problems later on (such as you see in the console output) and might be harder to debug.
 
 During the debugging process, it's good to keep a particular `assert` statement until you know you need to replace it with an actual code fix. Let's say you decide that the user might encounter the exception in a release build of the app. In that case, you must refactor code to make sure that your app doesn't throw a fatal exception or result in some other error. So, to fix this code, replace the following code:
 
@@ -229,7 +229,7 @@ if (existingUser == false && users[i].firstname != null && users[i].lastname != 
     User user = new User();
 ```
 
-By using this code, you fulfill your requirements and make sure that a record with a `firstname` or `lastname` value of `null` is not added to the data.
+By using this code, you fulfill your code requirements and make sure that a record with a `firstname` or `lastname` value of `null` is not added to the data.
 
 In this example, we added the two `assert` statements inside of a loop. Typically, when using `assert`, it's best to add `assert` statements at the entry point (beginning) of a function or method. You are currently looking at the `UpdateRecords` method in the sample app. In this method, you know you are in trouble if either of the method arguments is `null`, so check them both with an `assert` statement at the function's entry point.
 
@@ -256,7 +256,7 @@ OK, now that you've fixed everything critical that's wrong with the sample app, 
 
 We showed you the debugger's Exception Helper, but the debugger is a much more powerful tool that also lets you do other things like step through your code and inspect its variables. These more powerful capabilities are useful in many scenarios, especially the following:
 
-* You are trying to isolate a runtime bug in your code, but are unable to do it using other tools and methods.
+* You are trying to isolate a runtime bug in your code, but are unable to do it using methods and tools previously discussed.
 
 * You want to validate your code, that is, watch it while it runs to make sure it is behaving in the way you expect and doing what you want it to.
 
