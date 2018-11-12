@@ -1760,7 +1760,7 @@ namespace SdkSample
         /// </param>
         /// <param name="columnIndex">
         /// Int representing the current column index. This acts as a clue while finding the insertion index.
-        /// If the value of columnStarts at columnIndex is the same as columnStart, then this position alrady exists
+        /// If the value of columnStarts at columnIndex is the same as columnStart, then this position already exists
         /// in the array and we can jsut return columnIndex.
         /// </param>
         /// <returns></returns>
