@@ -32,7 +32,7 @@ namespace WSFAM
         //<Snippet3>
         void WSFederationAuthenticationModule_SignedIn(object sender, EventArgs e)
         {
-            //Anything that's needed right after succesful session and before hitting the application code goes here
+            //Anything that's needed right after successful session and before hitting the application code goes here
             System.Diagnostics.Trace.WriteLine("Handling SignIn event");
         }
         //</Snippet3>
