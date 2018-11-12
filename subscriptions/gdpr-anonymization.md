@@ -21,6 +21,8 @@ For more information about GDPR, visit the European Commission's [Data protectio
 
 To ensure compliance with GDPR, steps to render Visual Studio subscription sign-in data anonymous will be taken whenever certain events involving a subscription occur.
 
+[!INCLUDE [GDPR-related guidance](docs/misc/includes/gdpr-intro-sentence.md)] 
+
 ## What happens when a subscriber's data is "anonymized"?
 
 When an event occurs that blocks a subscriber's use of a subscription, such as the expiration of a subscription or the deletion of a subscriber's sign-in account, the user's personal information such as name and sign-in account are essentially scrambled to render them unusable.  This is done to safeguard the subscriber's personal information.
