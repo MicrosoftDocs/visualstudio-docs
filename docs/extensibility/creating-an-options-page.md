@@ -225,7 +225,7 @@ This walkthrough creates a simple Tools/Options page that uses a property grid t
   
 1.  In the package code file, add a public property called **OptionInteger** to the **MyToolsOptionsPackage** class.  
   
-    ```  
+    ```csharp  
     public int OptionInteger  
     {  
         get  
