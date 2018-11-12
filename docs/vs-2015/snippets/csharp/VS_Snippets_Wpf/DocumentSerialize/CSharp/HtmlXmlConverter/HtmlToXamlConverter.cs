@@ -1871,7 +1871,7 @@ namespace SdkSample
             columnWidthAsString = null;
             columnWidth = -1;
 
-            // Get string valkue for the width
+            // Get string value for the width
             columnWidthAsString = GetAttribute(htmlTDElement, "width");
             if (columnWidthAsString == null)
             {
