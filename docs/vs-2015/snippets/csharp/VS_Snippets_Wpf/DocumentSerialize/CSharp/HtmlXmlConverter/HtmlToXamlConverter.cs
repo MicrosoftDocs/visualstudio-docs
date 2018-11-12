@@ -1635,7 +1635,7 @@ namespace SdkSample
                             // we are either adding after another column of the same row, in which case it should not inherit
                             // the previous column's span. Otherwise we are adding after the last column of some previous
                             // row, and assuming the table widths line up, we should not be spanned by it. If there is
-                            // an incorrect tbale structure where a columns starts in the middle of a row span, we do not
+                            // an incorrect table structure where a columns starts in the middle of a row span, we do not
                             // guarantee correct output
                             columnStarts.Add(columnStart);
                             activeRowSpans.Add(0);
