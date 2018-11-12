@@ -2435,7 +2435,7 @@ namespace SdkSample
         /// A name of css attribute to extract
         /// </param>
         /// <returns>
-        /// A string rrepresentation of an attribute value if found;
+        /// A string representation of an attribute value if found;
         /// null if there is no such attribute in a given string.
         /// </returns>
         private static string GetCssAttribute(string cssStyle, string attributeName)
