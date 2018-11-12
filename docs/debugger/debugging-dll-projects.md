@@ -124,6 +124,9 @@ During debugging, you can use the **Modules** window to verify the DLLs and *.ex
 
 You can use the **Immediate** window to evaluate DLL functions or methods at design time. The **Immediate** window plays the role of a calling app. 
 
+>[!NOTE]
+>You can use the **Immediate** window at design time with most project types. It's not currently supported for .NET Core, SQL, or web projects.
+
 For example, to test a method named `Test` in class `Class1`:
 
 1. With the DLL project open, open the **Immediate** window by selecting **Debug** > **Windows** > **Immediate** or pressing **Ctrl**+**Alt**+**I**.  
@@ -134,7 +137,7 @@ For example, to test a method named `Test` in class `Class1`:
    Class1 obj = new Class1();  
    ```  
   
-   In C#, all names must be fully qualified, and any methods or variables must be in the current scope and context of the debugging session.  
+   In C#, all names must be fully qualified. Any methods or variables must be in the current scope and context when the language service tries to evaluate the expression.  
    
 1. Assuming that `Test` takes one `int` parameter, evaluate `Test` using the **Immediate** window:  
    
