@@ -900,7 +900,7 @@ namespace SdkSample
         /// Parent xaml element to which a converted table must be added.
         /// </param>
         /// <param name="htmlTableElement">
-        /// XmlElement reprsenting the Html table element to be converted
+        /// XmlElement representing the Html table element to be converted
         /// </param>
         /// <param name="inheritedProperties">
         /// Hashtable representing properties inherited from parent context.
@@ -1076,7 +1076,7 @@ namespace SdkSample
         /// XmlElement representing a source html table.
         /// </param>
         /// <param name="xamlTableElement">
-        /// XmlElement repesenting a resulting xaml table.
+        /// XmlElement representing a resulting xaml table.
         /// </param>
         /// <param name="columnStartsAllRows">
         /// Array of doubles - column start coordinates.
