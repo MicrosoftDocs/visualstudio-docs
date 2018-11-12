@@ -2218,7 +2218,7 @@ namespace SdkSample
         private static void ComposeThicknessProperty(XmlElement xamlElement, string propertyName, string left, string right, string top, string bottom)
         {
             // Xaml syntax:
-            // We have a reasonable interpreation for one value (all four edges), two values (horizontal, vertical),
+            // We have a reasonable interpretation for one value (all four edges), two values (horizontal, vertical),
             // and four values (left, top, right, bottom).
             //  switch (i) {
             //    case 1: return new Thickness(lengths[0]);
