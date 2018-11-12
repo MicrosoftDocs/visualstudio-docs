@@ -185,7 +185,7 @@ namespace SdkSample
                 if (htmlElementNamespace != HtmlParser.XhtmlNamespace)
                 {
                     // Non-html element. skip it
-                    // Isn't it too agressive? What if this is just an error in html tag name?
+                    // Isn't it too aggressive? What if this is just an error in html tag name?
                     // TODO: Consider skipping just a wparrer in recursing into the element tree,
                     // which may produce some garbage though coming from xml fragments.
                     return htmlElement;
@@ -1761,7 +1761,7 @@ namespace SdkSample
         /// <param name="columnIndex">
         /// Int representing the current column index. This acts as a clue while finding the insertion index.
         /// If the value of columnStarts at columnIndex is the same as columnStart, then this position already exists
-        /// in the array and we can jsut return columnIndex.
+        /// in the array and we can just return columnIndex.
         /// </param>
         /// <returns></returns>
         private static int GetNextColumnIndex(int columnIndex, double columnWidth, ArrayList columnStarts, ArrayList activeRowSpans)
@@ -1871,7 +1871,7 @@ namespace SdkSample
             columnWidthAsString = null;
             columnWidth = -1;
 
-            // Get string valkue for the width
+            // Get string value for the width
             columnWidthAsString = GetAttribute(htmlTDElement, "width");
             if (columnWidthAsString == null)
             {
@@ -2058,7 +2058,7 @@ namespace SdkSample
 
                     case "width":
                     case "height":
-                        // TODO: Decide what to do with width and height propeties
+                        // TODO: Decide what to do with width and height properties
                         break;
 
                     case "margin-top":
@@ -2218,7 +2218,7 @@ namespace SdkSample
         private static void ComposeThicknessProperty(XmlElement xamlElement, string propertyName, string left, string right, string top, string bottom)
         {
             // Xaml syntax:
-            // We have a reasonable interpreation for one value (all four edges), two values (horizontal, vertical),
+            // We have a reasonable interpretation for one value (all four edges), two values (horizontal, vertical),
             // and four values (left, top, right, bottom).
             //  switch (i) {
             //    case 1: return new Thickness(lengths[0]);
@@ -2429,13 +2429,13 @@ namespace SdkSample
         /// Extracts a value of css attribute from css style definition.
         /// </summary>
         /// <param name="cssStyle">
-        /// Source csll style definition
+        /// Source css style definition
         /// </param>
         /// <param name="attributeName">
         /// A name of css attribute to extract
         /// </param>
         /// <returns>
-        /// A string rrepresentation of an attribute value if found;
+        /// A string representation of an attribute value if found;
         /// null if there is no such attribute in a given string.
         /// </returns>
         private static string GetCssAttribute(string cssStyle, string attributeName)
@@ -2619,7 +2619,7 @@ namespace SdkSample
         public const string Xaml_FontFamily = "FontFamily";
 
         public const string Xaml_FontSize = "FontSize";
-        // The sizes for an increasing range, each is uo to 1.5 times as large as the previous one. If the mediun is 10pt, then:
+        // The sizes for an increasing range, each is uo to 1.5 times as large as the previous one. If the median is 10pt, then:
         public const string Xaml_FontSize_XXLarge = "34pt"; // "XXLarge";
         public const string Xaml_FontSize_XLarge  = "22pt"; // "XLarge";
         public const string Xaml_FontSize_Large   = "15pt"; // "Large";
