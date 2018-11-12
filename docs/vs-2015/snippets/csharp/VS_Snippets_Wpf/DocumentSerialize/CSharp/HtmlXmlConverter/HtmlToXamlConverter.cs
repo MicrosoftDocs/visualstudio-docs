@@ -2429,7 +2429,7 @@ namespace SdkSample
         /// Extracts a value of css attribute from css style definition.
         /// </summary>
         /// <param name="cssStyle">
-        /// Source csll style definition
+        /// Source css style definition
         /// </param>
         /// <param name="attributeName">
         /// A name of css attribute to extract
