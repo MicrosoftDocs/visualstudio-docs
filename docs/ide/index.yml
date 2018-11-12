@@ -36,10 +36,10 @@ sections:
       image:
         src: https://docs.microsoft.com/media/common/i_whats-new.svg 
       title: What's New in Visual Studio 2017
-- title: Choose a language to get started in
+- title: Tutorials
   items:
   - type: paragraph
-    text: ''
+    text: 'Get started with Visual Studio in the language of your choice.'
   - type: list
     style: icon48
     items: 
@@ -70,7 +70,7 @@ sections:
 - title: Develop Applications
   items:
   - type: paragraph
-    text: 'Go deeper with tutorials for using Visual Studio to develop and test applications'
+    text: 'Learn more with deeper tutorials for using Visual Studio to develop and test applications'
   - type: list
     style: cards
     className: cardsM
