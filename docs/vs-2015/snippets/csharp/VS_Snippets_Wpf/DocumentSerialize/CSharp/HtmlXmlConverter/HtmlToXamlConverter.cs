@@ -185,7 +185,7 @@ namespace SdkSample
                 if (htmlElementNamespace != HtmlParser.XhtmlNamespace)
                 {
                     // Non-html element. skip it
-                    // Isn't it too agressive? What if this is just an error in html tag name?
+                    // Isn't it too aggressive? What if this is just an error in html tag name?
                     // TODO: Consider skipping just a wparrer in recursing into the element tree,
                     // which may produce some garbage though coming from xml fragments.
                     return htmlElement;
