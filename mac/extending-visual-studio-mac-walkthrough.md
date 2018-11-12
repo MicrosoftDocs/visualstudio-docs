@@ -130,3 +130,7 @@ This example uses the Add-in Maker. The Add-In Maker creates a new Project templ
 15. Finally, let's run our extension package to test it. In the new instance of Visual Studio for Mac, select **Edit > Insert Date**. The current date and time is inserted at our caret, as illustrated by the screenshot below:
 
     ![Insert Date Screenshot](media/extending-visual-studio-mac-addin12.png)
+
+## See also
+
+- [Create your first extension (Visual Studio on Windows)](/visualstudio/extensibility/extensibility-hello-world)

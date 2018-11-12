@@ -31,7 +31,7 @@ Files with a *.zip* or *.egg* extension can also be added as search paths by sel
 
 If you are regularly using the same search paths and the contents do not often change, it may be more efficient to install it into your site-packages folder. The search path is then analyzed and stored in the IntelliSense database, is always associated with the intended environment, and does not require a search path to be added to each project.
 
-### See also
+## See also
 
 - [Manage Python environments in Visual Studio](managing-python-environments-in-visual-studio.md)
 - [Select an interpreter for a project](selecting-a-python-environment-for-a-project.md)

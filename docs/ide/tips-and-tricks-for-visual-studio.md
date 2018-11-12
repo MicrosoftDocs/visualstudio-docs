@@ -17,6 +17,9 @@ You can navigate in Visual Studio more easily by using the keyboard shortcuts in
 > [!TIP]
 > The shortcuts listed here are only a subset of the available keyboard shortcuts. For a more complete list, see [Default keyboard shortcuts](../ide/default-keyboard-shortcuts-in-visual-studio.md).
 
+> [!NOTE]
+> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Common keyboard shortcuts in Visual Studio for Mac](/visualstudio/mac/keyboard-shortcuts).
+
 ## Window management
 
 |||
@@ -130,4 +133,5 @@ You can navigate in Visual Studio more easily by using the keyboard shortcuts in
 
 - [Accessibility tips and tricks](../ide/reference/accessibility-tips-and-tricks.md)
 - [Keyboard shortcuts (Azure DevOps Services and TFS)](/azure/devops/project/navigation/keyboard-shortcuts?view=vsts)
-- [Visual Studio tips and tricks blog](https://blogs.msdn.com/b/zainnab)
+- [Visual Studio tips and tricks blog](https://blogs.msdn.microsoft.com/zainnab/)
+- [Common keyboard shortcuts in Visual Studio for Mac](/visualstudio/mac/keyboard-shortcuts)

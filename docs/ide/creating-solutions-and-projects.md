@@ -24,6 +24,9 @@ ms.workload:
 
 ![Solution/project hierarchy](./media/vside-proj-soln.png)
 
+> [!NOTE]
+> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Create projects in Visual Studio for Mac](/visualstudio/mac/create-new-projects).
+
 You can view your solutions and projects in a tool window called **Solution Explorer**. The following screenshot shows an example solution in **Solution Explorer** (**BikeSharing.Xamarin-UWP**) that contains two projects: **BikeSharing.Clients.Core** and **BikeSharing.Clients.Windows**. Each project contains multiple files, folders, and references. The project name in bold is the *startup project*; that is, the project that starts when you run the app. You can specify which project is the startup project.
 
 ![Solution Explorer with projects](./media/vside-solution-explorer-projects.png)
@@ -33,7 +36,7 @@ While you can construct a project yourself by adding the necessary files to it, 
 That being said, solutions and projects are not required to develop apps in Visual Studio. You can also just open code that you have cloned from Git or downloaded elsewhere. For more information, see [Develop code in Visual Studio without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md).
 
 > [!NOTE]
-> The descriptions in this topic are based on the Visual Studio Community edition. The dialog boxes and menu commands you see might differ from those described here, depending on your settings or Visual Studio edition. To change your settings, for example to **General** or **Visual C++** settings, choose **Tools**, **Import and Export Settings**, and then choose **Reset all settings**.
+> The descriptions in this topic are based on the Visual Studio Community edition. The dialog boxes and menu commands you see might differ from those described here, depending on your settings or Visual Studio edition. To change your settings, for example to **General** or **Visual C++** settings, choose **Tools** > **Import and Export Settings**, and then choose **Reset all settings**.
 
 ## To create a project from a project template
 
@@ -132,3 +135,4 @@ You can delete solutions and their contents permanently, but not by using the Vi
 - [Solutions and projects](../ide/solutions-and-projects-in-visual-studio.md)
 - [Microsoft's open source repositories on GitHub](https://github.com/Microsoft)
 - [Developer code samples](https://code.msdn.microsoft.com/)
+- [Create projects (Visual Studio for Mac)](/visualstudio/mac/create-new-projects)

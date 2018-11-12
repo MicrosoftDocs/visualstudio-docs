@@ -54,7 +54,7 @@ This refactoring applies to:
    The method will be immediately created. From here, you can now rename the method simply by typing the new name.
 
    > [!TIP]
-   > You can also update comments and other strings to use this new name, as well as [preview changes](../../ide/preview-changes.md) before saving, using the checkboxes in the **Rename** box which appears at the top right of your IDE.
+   > You can also update comments and other strings to use this new name, as well as [preview changes](../../ide/preview-changes.md) before saving, using the checkboxes in the **Rename** box that appears at the top right of your IDE.
 
    - C#:
 

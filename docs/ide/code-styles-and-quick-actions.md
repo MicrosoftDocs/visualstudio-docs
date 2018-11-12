@@ -21,6 +21,9 @@ Each item in the list shows a preview of the preference when selected:
 
 ![Code style options](media/code-style-quick-actions-dialog.png)
 
+> [!NOTE]
+> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Editor behavior in Visual Studio for Mac](/visualstudio/mac/editor-behavior).
+
 ## Preference and severity
 
 For each item, you can set the **Preference** and **Severity** values using the drop-downs on each line. Severity can be set to **None**, **Suggestion**, **Warning**, or **Error**. If you want to enable [Quick Actions](../ide/quick-actions.md) for a code style, ensure that the **Severity** setting is set to something other than **None**. The **Quick Actions** light bulb icon ![Small light bulb icon](media/vs2015_lightbulbsmall.png) appears when a non-preferred style is used, and you can choose an option on the **Quick Actions** list to automatically rewrite code to the preferred style.
@@ -44,3 +47,4 @@ The first time you trigger the **Format Document** command in Visual Studio 2017
 
 - [Quick Actions](../ide/quick-actions.md)
 - [.NET coding convention settings for EditorConfig](../ide/editorconfig-code-style-settings-reference.md)
+- [Editor behavior (Visual Studio for Mac)](/visualstudio/mac/editor-behavior)
