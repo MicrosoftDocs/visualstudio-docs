@@ -25,11 +25,17 @@ Visual Studio ignores the search path environment variable, however, even when t
 
 Visual Studio thus provides a means to specify search paths directly in both environments and projects. Code that you run or debug in Visual Studio receives search paths in the value of `PYTHONPATH` (and other equivalent variables). By adding search paths, Visual Studio inspects the libraries in those locations and builds IntelliSense databases for them when needed (Visual Studio 2017 version 15.5 and earlier; constructing the database may take some time depending on the number of libraries).
 
-To add a search path, right-click on the **Search Paths** item in **Solution Explorer**, select **Add Folder to Search Path**, and select the folder to include. This path is used for any environment associated with the project. (You may see errors if the environment is based on Python 3 and you attempt to add a search path to Python 2.7 modules.)
+To add a search path, go to **Solution Explorer**, expand your project node, right-click on **Search Paths**, select **Add Folder to Search Path**"
 
-Files with a *.zip* or *.egg* extension can also be added as search paths by selecting **Add Zip Archive to Search Path**. As with folders, the contents of these files are scanned and made available to IntelliSense.
+![Add Folder to Search Path command on Search Paths in Solution Explorer](media/search-paths-command.png)
 
-If you are regularly using the same search paths and the contents do not often change, it may be more efficient to install it into your site-packages folder. The search path is then analyzed and stored in the IntelliSense database, is always associated with the intended environment, and does not require a search path to be added to each project.
+This command displays a browser in which you then select the folder to include.
+
+If your `PYTHONPATH` environment variable already includes the folder(s) you want, use the **Add PYTHONPATH to Search Paths** as a convenient shortcut.
+
+Once folders are added to the search paths, Visual Studio uses those paths for any environment associated with the project. (You may see errors if the environment is based on Python 3 and you attempt to add a search path to Python 2.7 modules.)
+
+Files with a *.zip* or *.egg* extension can also be added as search paths by selecting **Add Zip Archive to Search Path** command. As with folders, the contents of these files are scanned and made available to IntelliSense.
 
 ## See also
 
