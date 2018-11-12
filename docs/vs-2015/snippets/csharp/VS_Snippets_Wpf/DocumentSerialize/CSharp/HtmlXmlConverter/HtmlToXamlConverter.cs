@@ -2619,7 +2619,7 @@ namespace SdkSample
         public const string Xaml_FontFamily = "FontFamily";
 
         public const string Xaml_FontSize = "FontSize";
-        // The sizes for an increasing range, each is uo to 1.5 times as large as the previous one. If the mediun is 10pt, then:
+        // The sizes for an increasing range, each is uo to 1.5 times as large as the previous one. If the median is 10pt, then:
         public const string Xaml_FontSize_XXLarge = "34pt"; // "XXLarge";
         public const string Xaml_FontSize_XLarge  = "22pt"; // "XLarge";
         public const string Xaml_FontSize_Large   = "15pt"; // "Large";
