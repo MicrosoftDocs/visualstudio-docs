@@ -111,54 +111,7 @@ ms.topic: hub-page
                                                                         <img src="https://docs.microsoft.com/media/logos/logo_CSharp.svg" alt="C# icon">
                                                                         C#
                                                                     </a>
-                                                                </li>
-                                                                <li>
-                                                                    <a class="barLink" href="/visualstudio/ide/tutorial-visual-basic-console">
-                                                                        <img src="https://docs.microsoft.com/media/logos/logo_vb.svg" alt="VB icon">
-                                                                        Visual Basic
-                                                                    </a>
-                                                                </li>
-                                                            </ul>
-                                                        </td>
-                                                        <td style="border-top-color:transparent!important;padding-left:0;">
-                                                            <ul class="noBullet">
-                                                                <li>
-                                                                    <a class="barLink" href="/visualstudio/python/tutorial-working-with-python-in-visual-studio-step-01-create-project">
-                                                                        <img src="https://docs.microsoft.com/media/logos/logo_python.svg" alt="Python icon">
-                                                                        Python</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a class="barLink" href="/visualstudio/javascript/tutorial-nodejs/">
-                                                                        <img src="https://docs.microsoft.com/media/logos/logo_nodejs.svg" alt="Node.js icon">
-                                                                        Node.js</a>
-                                                                </li>
-                                                            </ul>
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="cardSize">
-                                    <div class="cardPadding">
-                                        <div class="card">
-                                            <div class="cardText">
-                                                <h3>Try a 5-minute Quickstart</h3>
-                                                <h4>Build &quot;Hello, World&quot; in the language of your choice.</h4>
-                                                <table cellpadding="0" cellspacing="0" border="0">
-                                                    <tr>
-                                                        <td style="border-top-color:transparent!important;padding-left:0;">
-                                                            <ul class="noBullet">
-                                                                <li>
-                                                                    <a class="barLink" href="/visualstudio/ide/quickstart-aspnet-core">
-                                                                        <img src="https://docs.microsoft.com/media/logos/logo_CSharp.svg" alt="C# logo">
-                                                                        C#
-                                                                    </a>
-                                                                </li>
-                                                                <li>
+                                                                </li>                                             <li>
                                                                     <a class="barLink" href="/visualstudio/ide/quickstart-fsharp">
                                                                         <img src="https://docs.microsoft.com/dotnet/images/hub/fsharp.svg" alt="F# logo">
                                                                         F#
@@ -173,8 +126,7 @@ ms.topic: hub-page
                                                             </ul>
                                                         </td>
                                                         <td style="border-top-color:transparent!important;padding-left:0;">
-                                                            <ul class="noBullet">
-                                                                <li>
+                                                            <ul class="noBullet">                                     <li>
                                                                     <a class="barLink" href="/cpp/build/vscpp-step-0-installation">
                                                                         <img src="https://docs.microsoft.com/media/logos/logo_Cplusplus.svg" alt="C++ icon">
                                                                         C++
