@@ -150,12 +150,15 @@ ms.topic: hub-page
                                     </div>
                                 </div>
                             </li>
+                        </ul>  
+                     <div> 
+                       <ul class="cardsL"> 
                             <li>
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
                                             <div class="cardText">
-                                                <h3>Create an app</h3>
+                                                <h3>Or choose what you want to develop</h3>
                                                 <table cellpadding="0" cellspacing="0" border="0"><tr><td style="border-top-color:transparent!important;padding-left:0;">
                                                 <ul class="noBullet">
                                                     <li>
