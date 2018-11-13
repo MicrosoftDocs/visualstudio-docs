@@ -188,7 +188,7 @@ namespace SdkSample
                 _nextToken.Append("/>");
                 this.GetNextCharacter();
                 this.GetNextCharacter();
-                _ignoreNextWhitespace = false; // Whitespace after no-scope tags are sifnificant
+                _ignoreNextWhitespace = false; // Whitespace after no-scope tags are significant
             }
             else if (IsGoodForNameStart(this.NextCharacter))
             {
@@ -702,7 +702,7 @@ namespace SdkSample
             // verify that we are at a processing directive
             Debug.Assert(_nextCharacter == '<' && _lookAheadCharacter == '?');
 
-            // advance twice, once to get the lookahead character and then to reach the start of the drective
+            // advance twice, once to get the lookahead character and then to reach the start of the directive
             this.GetNextCharacter();
             this.GetNextCharacter();
 
