@@ -5,7 +5,7 @@ keywords:
 author: TerryGLee
 ms.author: tglee
 manager: douge
-ms.date: 08/14/2018
+ms.date: 11/13/2018
 ms.topic: reference
 helpviewer_keywords:
   - "workload ID, Visual Studio"
@@ -56,10 +56,10 @@ Microsoft.Net.Component.4.6.TargetingPack | .NET Framework 4.6 targeting pack | 
 Microsoft.Net.Component.4.TargetingPack | .NET Framework 4 targeting pack | 15.6.27406.0 | Required
 Microsoft.Net.ComponentGroup.DevelopmentPrerequisites | .NET Framework 4.6.1 development tools | 15.8.27825.0 | Required
 Microsoft.Net.ComponentGroup.TargetingPacks.Common | .NET Framework 4 – 4.6 development tools | 15.6.27406.0 | Required
-Microsoft.VisualStudio.Component.Common.Azure.Tools | Connectivity and publishing tools | 1.10.50912.1 | Required
+Microsoft.VisualStudio.Component.Common.Azure.Tools | Connectivity and publishing tools | 15.9.28107.0 | Required
 Microsoft.VisualStudio.Component.CoreEditor | Visual Studio core editor | 15.8.27729.1 | Required
 Microsoft.VisualStudio.Component.EntityFramework | Entity Framework 6 tools | 15.6.27406.0 | Required
-Microsoft.VisualStudio.Component.NuGet | NuGet package manager | 15.8.27825.0 | Required
+Microsoft.VisualStudio.Component.NuGet | NuGet package manager | 15.9.28016.0 | Required
 Microsoft.VisualStudio.Component.Roslyn.Compiler | C# and Visual Basic Roslyn compilers | 15.6.27309.0 | Required
 Microsoft.VisualStudio.Component.Roslyn.LanguageServices | C# and Visual Basic | 15.8.27729.1 | Required
 Microsoft.VisualStudio.Component.SQL.ADAL | SQL ADAL runtime | 15.6.27406.0 | Required
@@ -68,12 +68,12 @@ Microsoft.VisualStudio.Component.SQL.CMDUtils | SQL Server Command Line Utilitie
 Microsoft.VisualStudio.Component.SQL.DataSources | Data sources for SQL Server support | 15.0.26621.2 | Required
 Microsoft.VisualStudio.Component.SQL.LocalDB.Runtime | SQL Server Express 2016 LocalDB | 15.7.27617.1 | Required
 Microsoft.VisualStudio.Component.SQL.NCLI | SQL Server Native Client | 15.0.26208.0 | Required
-Microsoft.VisualStudio.Component.SQL.SSDT | SQL Server Data Tools | 15.7.27625.0 | Required
+Microsoft.VisualStudio.Component.SQL.SSDT | SQL Server Data Tools | 15.9.28107.0 | Required
 Microsoft.VisualStudio.Component.Static.Analysis.Tools | Static analysis tools | 15.0.26208.0 | Required
 Microsoft.VisualStudio.Component.TextTemplating | Text Template Transformation | 15.0.26208.0 | Required
 Microsoft.VisualStudio.Component.VC.CLI.Support | C++/CLI support | 15.6.27309.0 | Required
 Microsoft.VisualStudio.Component.VC.Tools.ARM | Visual C++ compilers and libraries for ARM | 15.8.27825.0 | Required
-Microsoft.VisualStudio.Component.VC.Tools.ARM64 | Visual C++ compilers and libraries for ARM64 | 15.6.27309.0 | Required
+Microsoft.VisualStudio.Component.VC.Tools.ARM64 | Visual C++ compilers and libraries for ARM64 | 15.9.28230.55 | Required
 Microsoft.VisualStudio.Component.VisualStudioData | Data sources and service references | 15.6.27406.0 | Required
 Microsoft.VisualStudio.Component.Windows10SDK.14393 | Windows 10 SDK (10.0.14393.0) | 15.6.27406.0 | Required
 Microsoft.VisualStudio.Component.Windows10SDK.17134 | Windows 10 SDK (10.0.17134.0) | 15.8.27924.0 | Required
