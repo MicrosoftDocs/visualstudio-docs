@@ -72,12 +72,12 @@ The following command-line switches do not display the IDE.
 
 |Command line switch|Description|
 | - |-----------------|
-|[/?](../../ide/reference/q-devenv-exe.md)|Displays help for devenv switches in the **Command Prompt window**.<br /><br /> **Devenv /?**|
-|[/Build](../../ide/reference/build-devenv-exe.md)|Builds the specified solution or project according to the configuration of the specified solution.<br /><br /> **Devenv myproj.csproj /build**|
-|[/Clean](../../ide/reference/clean-devenv-exe.md)|Deletes any files created by the build command, without affecting source files.<br /><br /> **Devenv myproj.csproj /clean**|
-|[/Deploy](../../ide/reference/deploy-devenv-exe.md)|Builds the solution, along with files necessary for deployment, according to the solutions configuration.<br /><br /> **Devenv myproj.csproj /deploy**|
+|[/?](../../ide/reference/q-devenv-exe.md)|Displays help for devenv switches in the **Command Prompt window**.<br /><br /> `devenv /?`|
+|[/Build](../../ide/reference/build-devenv-exe.md)|Builds the specified solution or project according to the configuration of the specified solution.<br /><br /> `devenv myproj.csproj /build`|
+|[/Clean](../../ide/reference/clean-devenv-exe.md)|Deletes any files created by the build command, without affecting source files.<br /><br /> `devenv myproj.csproj /clean`|
+|[/Deploy](../../ide/reference/deploy-devenv-exe.md)|Builds the solution, along with files necessary for deployment, according to the solutions configuration.<br /><br /> `devenv myproj.csproj /deploy`|
 |[/Diff](../../ide/reference/diff.md)|Compares two files. Takes four parameters: SourceFile, TargetFile, SourceDisplayName (optional), TargetDisplayName (optional).|
-|[/Out](../../ide/reference/out-devenv-exe.md)|Lets you specify a file to receive errors when you build.<br /><br /> **Devenv myproj.csproj /build /out log.txt**|
+|[/Out](../../ide/reference/out-devenv-exe.md)|Lets you specify a file to receive errors when you build.<br /><br /> `devenv myproj.csproj /build /out log.txt`|
 |[/Project](../../ide/reference/project-devenv-exe.md)|The project to build, clean, or deploy. You can use this switch only if you have also supplied the /build, /rebuild, /clean, or /deploy switch.|
 |[/ProjectConfig](../../ide/reference/projectconfig-devenv-exe.md)|Specifies the project configuration to build or deploy. You can use this switch only if you have also supplied the /project switch.|
 |[/Rebuild](../../ide/reference/rebuild-devenv-exe.md)|Cleans and then builds the specified solution or project according to the configuration of the specified solution.|
