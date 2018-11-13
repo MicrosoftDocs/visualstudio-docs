@@ -17,11 +17,11 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Navigate code with the Visual Studio debugger
+# Navigate through code with the Visual Studio debugger
 
 The Visual Studio debugger can help you navigate through code to inspect the state of an app and show its execution flow. You can use keyboard shortcuts, debug commands, breakpoints, and other features to quickly get to the code you want to examine. Familiarity with debugger navigation commands and shortcuts makes it faster and easier to find and resolve app issues.  
   
-## Start debugging  
+## Basic debugging  
 
 To start your app with the debugger attached, press **F5**, select **Debug** > **Start Debugging**, or select the green arrow in the Visual Studio toolbar.  
   
@@ -37,7 +37,7 @@ In break mode, app execution is suspended while functions, variables, and object
 
 If you break in code that doesn't have source or symbol (*.pdb*) files loaded, the debugger displays a **Source Files Not Found** or **Symbols Not Found** page that can help you find and load the files. See [Specify symbol (.pdb) and source files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md). If you can't load the symbol or source files, you can still debug the assembly instructions in the **Disassembly** window. 
 
-You don't always have to start debugging by starting an app at the beginning. You can also press **F11** to [step into code](#BKMK_Step_into__over__or_out_of_the_code), press **F10**  to [step over code](#BKMK_Step_over_Step_out), or **Run to Cursor** or other locations.    
+You don't always have to start debugging by starting an app at the beginning. You can also press **F11** to [step into code](#BKMK_Step_into__over__or_out_of_the_code), press **F10**  to [step over code](#BKMK_Step_over_Step_out), or [run to a specific location or function](#BKMK_Break_into_code_by_using_breakpoints_or_Break_All).    
 
 ##  Step through code
 
