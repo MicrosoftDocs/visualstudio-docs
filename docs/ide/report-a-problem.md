@@ -12,7 +12,7 @@ manager: DougE
 ms.workload:
   - "multiple"
 ---
-# Understanding Report a problem in Visual Studio
+# Understanding Report a Problem
 
 Report a problem enables the Visual Studio developer community to submit issues.  Each one of your problem reports becomes a work item in our core engineering system, empowering you to engage directly with our product teams to help us identify and resolve impactful issues. Your feedback submitted with rich diagnostic information is critical to improving the Visual Studio product family.  We really appreciate you taking the time to report problems.
 
@@ -48,7 +48,9 @@ After you report a problem, states indicate where your submissions are in their 
 
 ![Need More Info state for problem reporting on Developer Community](../ide/media/ProblemStates/NeedMoreInfo.jpg)
 
-**Need More Info** indicates that we need more diagnostic information from you so that we can go forward with the investigation.  [Learn how to respond to Need More Info requests.](./how-to-report-a-problem-with-visual-studio-2017?view=vs-2017#when-further-information-is-needed-need-more-info)
+**Need More Info** indicates that we need more diagnostic information from you so that we can go forward with the investigation.  [Learn how to respond to Need More Info requests.](./how-to-report-a-problem-with-visual-studio-2017.md#when-further-information-is-needed-need-more-info)
+
+
 
 - - -
 
