@@ -150,10 +150,7 @@ ms.topic: hub-page
                                     </div>
                                 </div>
                             </li>
-                        </ul>  
-                     <div> 
-                       <ul class="cardsL"> 
-                            <li>
+<li>
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
@@ -195,7 +192,7 @@ ms.topic: hub-page
                                 </div>
                             </li>
                         </ul>
-                    </div>
+                    </li>  
                 </ul>
             </li>
             <li>
