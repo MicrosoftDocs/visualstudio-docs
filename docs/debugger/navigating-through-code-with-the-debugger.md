@@ -105,9 +105,9 @@ You can tell the debugger to run until it reaches a specified function. You can 
    
 1. Select **OK**. 
 
-If the function is overloaded or in more than one namespace, you can choose the one you want in the **Choose Breakpoints** dialog box.  
+If the function is overloaded or in more than one namespace, you can choose the one you want in the **Breakpoints** window.  
 
-![Choose Breakpoints dialog box](../debugger/media/dbg_execution_overloadedbreakpoints.png "DBG_Execution_OverloadedBreakpoints")  
+![Overloaded function breakpoints](../debugger/media/dbg_execution_overloadedbreakpoints.png "Overloaded function breakpoints")  
   
 **To select a function breakpoint from the call stack** 
   
@@ -123,7 +123,7 @@ To run to the cursor location, in source code or the **Call Stack** window, sele
 
 ### Run to Click 
 
-While paused in the debugger, hover over a statement in source code or the **Disassembly** window, and select the **Run execution to here** green arrow icon. Using **Run to Click** eliminates the need to set a temporary breakpoint.
+While paused in the debugger, you can hover over a statement in source code or the **Disassembly** window, and select the **Run execution to here** green arrow icon. Using **Run to Click** eliminates the need to set a temporary breakpoint.
 
 ![Run to Click](../debugger/media/dbg-run-to-click.png "Run to Click") 
 
@@ -174,7 +174,7 @@ To load Microsoft symbols, see [Configure symbol locations and loading options](
 
 1. While you're debugging, open the **Modules** window by selecting **Debug** > **Windows** > **Modules**, or pressing **Ctrl**+**Alt**+**U**.  
   
-1. In the **Modules** window, you can tell which modules have symbols loaded in the **Symbol Status** column. Select the module that you want to load symbols for, and select **Load Symbols**.  
+1. In the **Modules** window, you can tell which modules have symbols loaded in the **Symbol Status** column. Right-click the module that you want to load symbols for, and select **Load Symbols**.  
   
 ##  <a name="BKMK_Step_into_properties_and_operators_in_managed_code"></a> Step into properties and operators in managed code  
  By default, the debugger steps over properties and operators in managed code. Stepping over properties and operators usually provides a better debugging experience. To enable stepping into properties and operators, in **Tools** (or **Debug**) > **Options** > **Debugging** > **General**, clear the **Step over properties and operators (Managed only)** check box.
