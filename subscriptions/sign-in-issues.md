@@ -56,4 +56,4 @@ To avoid impacts to your subscription access, use one of these techniques.
 
 ## Next steps
 - Learn how to [link MSA and AAD accounts](/azure/active-directory/b2b/add-users-administrator) within AAD.
-- Learn more about [anonymization](/anonymization). 
+- Learn more about [anonymization](anonymization.md). 

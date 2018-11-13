@@ -15,7 +15,7 @@ searchscope: VS Subscription
 
 When an event occurs that blocks a subscriber's use of a subscription, such as the expiration of a subscription or the deletion of a subscriber's sign-in account, the user's personal information such as name and sign-in account are essentially scrambled to render them unusable.  This is done to safeguard the subscriber's personal information.
 
-[!INCLUDE [GDPR-related guidance](/visualstudio/docs/misc/includes/gdpr-intro-sentence.md)] 
+[!INCLUDE [GDPR-related guidance](/visualstudio/docs/misc/includes/gdpr-intro-sentence)] 
 
 ## When does anonymization occur?
 
