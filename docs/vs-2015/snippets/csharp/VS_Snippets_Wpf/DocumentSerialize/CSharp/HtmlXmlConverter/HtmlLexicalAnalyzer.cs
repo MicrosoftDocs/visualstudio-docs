@@ -188,7 +188,7 @@ namespace SdkSample
                 _nextToken.Append("/>");
                 this.GetNextCharacter();
                 this.GetNextCharacter();
-                _ignoreNextWhitespace = false; // Whitespace after no-scope tags are sifnificant
+                _ignoreNextWhitespace = false; // Whitespace after no-scope tags are significant
             }
             else if (IsGoodForNameStart(this.NextCharacter))
             {
