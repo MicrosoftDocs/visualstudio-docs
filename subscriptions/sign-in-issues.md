@@ -47,11 +47,13 @@ The sign-up block described here only prevents the creation of new accounts. It 
 
 ## Deleting a sign-in address may prevent access to a subscription
 
-If you delete one or more identities (MSA or AAD) associated with your subscription, your subscriber information including your user name and sign-in ID may be rendered anonymous, resulting in the loss of access to your subscription. This anonymization of the subscriber information is performed to comply with the European Commission's General Data Protection Regulation (GDPR).  To avoid impacts to your subscription access, use one of these techniques.  
+If you delete one or more identities (MSA or AAD) associated with your subscription, your subscriber information including your user name and sign-in ID may be rendered anonymous, resulting in the loss of access to your subscription. 
+
+To avoid impacts to your subscription access, use one of these techniques.  
 - Deploy a single identity management system -- either MSA or AAD -- but not both.  
 - Associate the AAD and MSA identities via the tenant. 
 
 
 ## Next steps
 - Learn how to [link MSA and AAD accounts](/azure/active-directory/b2b/add-users-administrator) within AAD.
-- Learn more about [anonymization and GDPR compliance](/gdpr-anonymization). 
+- Learn more about [anonymization](/anonymization). 

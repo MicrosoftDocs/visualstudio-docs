@@ -7,7 +7,7 @@
 ##### [Alternate Identities](vs-alternate-identity.md)
 ##### [Sign in with Aliases](aliasing.md)
 ##### [Issues with Signing in](sign-in-issues.md)
-##### [Anonymizations and GDPR](gdpr-anonymization.md)
+##### [Anonymizations of Subscriber Data](anonymization.md)
 #### [Manage Your Subscriptions](manage-vs-subscriptions.md)
 ### [Download Software](subscriber-downloads.md)
 #### [List of Available Software Downloads](software-download-list.md)
