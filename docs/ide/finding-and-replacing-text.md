@@ -87,6 +87,9 @@ You can define component sets as your search scope by choosing the **Edit Custom
 
 ## Multi-caret selection
 
+> [!NOTE]
+> This section applies to Visual Studio on Windows. For Visual Studio for Mac, see [Block selection](/visualstudio/mac/block-selection).
+
 **New in Visual Studio 2017 version 15.8**
 
 Use *multi-caret selection* to make the same edit in two or more places at the same time. For example, you can insert the same text or modify existing text in multiple locations at the same time.
@@ -124,3 +127,4 @@ Some of the commands are also available on the **Edit** menu, under **Multiple C
 
 - [Use regular expressions in Visual Studio](../ide/using-regular-expressions-in-visual-studio.md)
 - [Refactor code in Visual Studio](../ide/refactoring-in-visual-studio.md)
+- [Block selection (Visual Studio for Mac)](/visualstudio/mac/block-selection)

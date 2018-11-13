@@ -94,7 +94,7 @@ We have an empty project. Let's add a code file.
    }
    ```
 
-   You don't need to understand what the code does, but if you want, you can run the program and see that it prints today's date to the console (or standard output) window.
+   You don't need to understand what the code does, but if you want, you can run the program by pressing **Ctrl**+**F5** and see that it prints today's date to the console (or standard output) window.
 
 ## Add a second project
 
@@ -142,7 +142,7 @@ We're going to use the new unit test project to test our method in the **QuickDa
 
    You'll see a red "squiggly" under some of the code. We'll fix this error by making the test project a [friend assembly](/dotnet/csharp/programming-guide/concepts/assemblies-gac/friend-assemblies) to the **QuickDate** project.
 
-1. Back in the **QuickDate** project, open the *Calendar.cs* file if it's not already open, and add the following [using statement](/dotnet/csharp/language-reference/keywords/using-statement) and <xref:System.Runtime.CompilerServices.InternalsVisibleToAttribute> attribute, to resolve the error in the test project.
+1. Back in the **QuickDate** project, open the *Calendar.cs* file if it's not already open, and add the following [using statement](/dotnet/csharp/language-reference/keywords/using-statement) and <xref:System.Runtime.CompilerServices.InternalsVisibleToAttribute> attribute to the top of the file, to resolve the error in the test project.
 
    ```csharp
    using System.Runtime.CompilerServices;
@@ -156,11 +156,11 @@ We're going to use the new unit test project to test our method in the **QuickDa
 
 ## Project properties
 
-The line in the C# code file that contains the <xref:System.Runtime.CompilerServices.InternalsVisibleToAttribute> attribute references the assembly name (file name) of the **QuickTest** project. The assembly name might not always be the same as the project name. To find the assembly name of a project, open the project properties.
+The line in the *Calendar.cs* file that contains the <xref:System.Runtime.CompilerServices.InternalsVisibleToAttribute> attribute references the assembly name (file name) of the **QuickTest** project. The assembly name might not always be the same as the project name. To find the assembly name of a project, open the project properties.
 
 1. In **Solution Explorer**, select the **QuickTest** project. From the right-click or context menu, select **Properties**, or just press **Alt**+**Enter**.
 
-   The *property pages* for the project open on the **Application** tab. The property pages contain various settings for the project. Notice that the assembly name of the **QuickTest** project is indeed "QuickTest". If you wanted to change it, this is where you'd change it. Then, when you build the test project, the name of the resulting executable file would change from *QuickTest.exe* to whatever you chose.
+   The *property pages* for the project open on the **Application** tab. The property pages contain various settings for the project. Notice that the assembly name of the **QuickTest** project is indeed "QuickTest". If you wanted to change it, this is where you'd do that. Then, when you build the test project, the name of the resulting binary file would change from *QuickTest.dll* to whatever you chose.
 
    ![Project properties](media/quickstart-projects-properties.png)
 
@@ -169,6 +169,11 @@ The line in the C# code file that contains the <xref:System.Runtime.CompilerServ
 ## Next steps
 
 If you want to check that your unit test is working, choose **Test** > **Run** > **All Tests** from the menu bar. A window called **Test Explorer** opens, and you should see that the **TestGetCurrentDate** test passes.
+
+![Text Explorer in Visual Studio showing passed test](media/quickstart-projects-test-explorer.png)
+
+> [!TIP]
+> If **Test Explorer** doesn't open automatically, open it by choosing **Test** > **Windows** > **Test Explorer** from the menu bar.
 
 ## See also
 

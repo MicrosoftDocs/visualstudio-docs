@@ -106,4 +106,4 @@ A DSL is a notation that you design for a specific purpose. In Visual Studio, it
 ## See also
 
 - [What's new](../modeling/what-s-new-for-design-in-visual-studio.md)
-- [DevOps and Application Lifecycle Management](http://msdn.microsoft.com/Library/74a1f71d-7f23-4c71-8fd7-89ede614fab6)
+- [DevOps and Application Lifecycle Management](/azure/devops/user-guide/devops-alm-overview)

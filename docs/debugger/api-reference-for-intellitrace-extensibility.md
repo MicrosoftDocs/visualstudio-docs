@@ -1,7 +1,7 @@
 ---
 title: "API Reference for IntelliTrace Extensibility | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "11/07/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
@@ -13,20 +13,20 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# API Reference for IntelliTrace Extensibility
+# API reference for IntelliTrace extensibility
 
 By using the information in this section, you can use IntelliTrace extensibility APIs to read and decode .itrace files in your application.  
   
-## In This Section
+## In this section
 
- This IntelliTrace extensibility APIs are contained in one namespace  
+This namespace contains the IntelliTrace extensibility APIs:
   
 - <xref:Microsoft.VisualStudio.IntelliTrace>  
   
-## Related Sections
+## Related sections
 
- [IntelliTrace](../debugger/intellitrace.md)  
- Provides information about how to debug with IntelliTrace.  
+[IntelliTrace](../debugger/intellitrace.md)  
+Provides information about how to debug with IntelliTrace.  
   
- [MSDN Code Gallery](https://code.msdn.microsoft.com/)  
- Hosts a sample application showing how to use IntelliTrace extensibility.
+[Developer code samples](https://code.msdn.microsoft.com/)  
+Hosts a sample application showing how to use IntelliTrace extensibility.

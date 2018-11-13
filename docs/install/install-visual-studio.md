@@ -24,6 +24,9 @@ ms.workload:
 
 Welcome to a new way to install Visual Studio! In our newest version, we've made it easier for you to select and install just the features you need. We've also reduced the minimum footprint of Visual Studio so that it installs more quickly and with less system impact than ever before.
 
+> [!NOTE]
+> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Install Visual Studio for Mac](/visualstudio/mac/installation).
+
 Want to know more about what else is new in this version? See our [release notes](/visualstudio/releasenotes/vs2017-relnotes).
 
 Ready to install? We'll walk you through it, step-by-step.
@@ -143,4 +146,4 @@ For more information, see the [Change installation locations in Visual Studio](c
 * [Uninstall Visual Studio 2017](uninstall-visual-studio.md)
 * [Create an offline installation of Visual Studio 2017](create-an-offline-installation-of-visual-studio.md)
 * [Use command-line parameters to install Visual Studio 2017](use-command-line-parameters-to-install-visual-studio.md)
-* [Setup and install Visual Studio for Mac](/visualstudio/mac/installation)
+* [Install Visual Studio for Mac](/visualstudio/mac/installation)

@@ -78,7 +78,7 @@
     href: azure-sdk-for-python.md
 - name: How-to guides
   items:
-  - name: Managing environments
+  - name: Manage Python environments
     href: managing-python-environments-in-visual-studio.md
     items:
     - name: Select an interpreter for a project
