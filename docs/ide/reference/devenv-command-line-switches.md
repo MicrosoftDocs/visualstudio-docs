@@ -39,7 +39,7 @@ The syntax rules for `devenv` switches resemble those for other DOS command-line
 
 - If the first argument is a file that is not a solution or project, that file opens in the appropriate editor, in a new instance of the IDE.
 
-- When you supply a project file name instead of a solution file name, a `devenv` command searches the parent folder of the project file for a solution file that has the same name. For example, the command `devenv /build myproject1.vbproj` searches the parent folder for a solution file that is named "myproject1.sln".
+- When you supply a project file name instead of a solution file name, a `devenv` command searches the parent folder of the project file for a solution file that has the same name. For example, the command `devenv myproject1.vbproj /build` searches the parent folder for a solution file that is named "myproject1.sln".
 
     > [!NOTE]
     > One and only one solution file that references this project should be located in its parent folder. If the parent folder contains no solution file that references this project, or if the parent folder contains two or more solution files that reference it, then a temporary solution file is created.
