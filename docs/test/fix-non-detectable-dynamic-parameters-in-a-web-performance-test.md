@@ -182,7 +182,7 @@ To demonstrate both a detectable and a non-detectable dynamic parameter, we’ll
 
 3.  Return to the Web Performance Test Results Viewer and select the *JScriptQuery.aspx* page that failed. Then, choose the request tab, verify that the show raw data check box is cleared, scroll down and choose quick find on the CustomQueryString.
 
-     ![Use quick find to isolate the dynamic paramter](../test/media/web_test_dynamicparameter_runresultsquckfind.png)
+     ![Use quick find to isolate the dynamic parameter](../test/media/web_test_dynamicparameter_runresultsquckfind.png)
 
 4.  We know from looking at the test editor, that the *JScriptQuery.aspx* request's CustomQueryString was assigned a value of: `jScriptQueryString___1v0yhyiyr0raa2w4j4pwf5zl`, and that the suspected dynamic portion is "1v0yhyiyr0raa2w4j4pwf5zl". In the find what drop-down list, remove the suspect portion of the search string. The string should be "CustomQueryString=jScriptQueryString___".
 

@@ -68,7 +68,7 @@ namespace SdkSample
         /// and identifies its type
         /// if no valid token is found, the output parameters are set to null
         /// if end of stream is reached without matching any token, token type
-        /// paramter is set to EOF
+        /// parameter is set to EOF
         /// </summary>
         internal void GetNextContentToken()
         {
