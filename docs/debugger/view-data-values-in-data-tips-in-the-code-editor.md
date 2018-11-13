@@ -22,6 +22,8 @@ ms.workload:
 ---
 # View data values in DataTips in the code editor
 DataTips provide a convenient way to view information about variables in your program during debugging. DataTips work only in break mode and only with variables that are in the current scope of execution.
+
+![Survey](../debugger/media/take-survey.png) Help us improve the debugger documentation by taking a short five-minute [**survey**](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR7pwAHb32OZLo9GnCP7e2_pUNDhSRzBDMFFGVURFTFJRWlpSRFNRVkQ0RC4u)!
   
 ### To display a DataTip  
   

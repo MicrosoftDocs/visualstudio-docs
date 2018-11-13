@@ -19,9 +19,9 @@ ms.workload:
 ---
 # Inspect variables in the Autos and Locals windows
 
-The **Autos** and **Locals** windows show variable values while you are debugging. The windows are only available during a debugging session.
+The **Autos** and **Locals** windows show variable values while you are debugging. The windows are only available during a debugging session. The **Autos** window shows variables used around the current breakpoint. The **Locals** window shows variables defined in the local scope, which is usually the current function or method. 
 
-The **Autos** window shows variables used around the current breakpoint. The **Locals** window shows variables defined in the local scope, which is usually the current function or method.  
+![Survey](../debugger/media/take-survey.png) Help us improve the debugger documentation by taking a short five-minute [**survey**](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR7pwAHb32OZLo9GnCP7e2_pUNDhSRzBDMFFGVURFTFJRWlpSRFNRVkQ0RC4u)!
   
 To open the **Autos** window, while debugging, select **Debug** > **Windows** > **Autos**, or press **Ctrl**+**Alt**+**V** > **A**.  
 

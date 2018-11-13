@@ -19,7 +19,9 @@ ms.workload:
 ---
 # Navigate Code with the Visual Studio Debugger
 Get familiar with commands and shortcuts to navigate code in the debugger and that will make it faster and easier to find and resolve issues in your app. While you navigate code in the debugger, you can inspect the state of your app or learn more about its execution flow.  
-  
+
+![Survey](../debugger/media/take-survey.png) Help us improve the debugger documentation by taking a short five-minute [**survey**](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR7pwAHb32OZLo9GnCP7e2_pUNDhSRzBDMFFGVURFTFJRWlpSRFNRVkQ0RC4u)!
+
 ## Start debugging  
  Often, you start a debugging session using **F5** (**Debug** > **Start Debugging**). This command starts your app with the debugger attached.  
   
