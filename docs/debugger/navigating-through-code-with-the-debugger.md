@@ -21,6 +21,12 @@ ms.workload:
 
 The Visual Studio debugger can help you navigate through code to inspect the state of an app and show its execution flow. You can use keyboard shortcuts, debug commands, breakpoints, and other features to quickly get to the code you want to examine. Familiarity with debugger navigation commands and shortcuts makes it faster and easier to find and resolve app issues.  
   
+## Start debugging  
+
+To start your app with the debugger attached, press **F5**, select **Debug** > **Start Debugging**, or select the green arrow in the Visual Studio toolbar.  
+  
+ ![DBG&#95;Basics&#95;Start&#95;Debugging](../debugger/media/dbg_basics_start_debugging.png "DBG_Basics_Start_Debugging")  
+  
 While you're debugging, a yellow highlight shows the code line that will execute next.  
   
  ![DBG&#95;Basics&#95;Break&#95;Mode](../debugger/media/dbg_basics_break_mode.png "Break mode")  
@@ -31,13 +37,7 @@ In break mode, app execution is suspended while functions, variables, and object
 
 If you break in code that doesn't have source or symbol (*.pdb*) files loaded, the debugger displays a **Source Files Not Found** or **Symbols Not Found** page that can help you find and load the files. See [Specify symbol (.pdb) and source files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md). If you can't load the symbol or source files, you can still debug the assembly instructions in the **Disassembly** window. 
 
-## Start debugging  
-
-To start your app with the debugger attached, press **F5**, select **Debug** > **Start Debugging**, or select the green arrow in the Visual Studio toolbar.  
-  
- ![DBG&#95;Basics&#95;Start&#95;Debugging](../debugger/media/dbg_basics_start_debugging.png "DBG_Basics_Start_Debugging")  
-  
-You don't always have to start debugging by starting an app at the beginning. You can also press **F11** to [step into code](#BKMK_Step_into__over__or_out_of_the_code)), press **F10**  to [step over code](#BKMK_Step_over_Step_out)), or **Run to Cursor** or other locations.    
+You don't always have to start debugging by starting an app at the beginning. You can also press **F11** to [step into code](#BKMK_Step_into__over__or_out_of_the_code), press **F10**  to [step over code](#BKMK_Step_over_Step_out), or **Run to Cursor** or other locations.    
 
 ##  Step through code
 
@@ -81,7 +81,7 @@ You may not care about a function while debugging, or you know it works, like we
   
 ##  <a name="BKMK_Break_into_code_by_using_breakpoints_or_Break_All"></a> Run to a specific location or function  
 
-You may prefer to use the following debugging methods when you know exactly what code you want to inspect, or you know where you want to start debugging.  
+You may prefer to run directly to a specific location or function when you know exactly what code you want to inspect, or you know where you want to start debugging.  
   
 ### Run to a breakpoint in code  
   
@@ -107,7 +107,7 @@ You can tell the debugger to run until it reaches a specified function. You can 
 
 If the function is overloaded or in more than one namespace, you can choose the one you want in the **Choose Breakpoints** dialog box.  
 
-     ![Choose Breakpoints dialog box](../debugger/media/dbg_execution_overloadedbreakpoints.png "DBG_Execution_OverloadedBreakpoints")  
+![Choose Breakpoints dialog box](../debugger/media/dbg_execution_overloadedbreakpoints.png "DBG_Execution_OverloadedBreakpoints")  
   
 **To select a function breakpoint from the call stack** 
   
@@ -127,8 +127,8 @@ While paused in the debugger, hover over a statement in source code or the **Dis
 
 ![Run to Click](../debugger/media/dbg-run-to-click.png "Run to Click") 
 
-    > [!NOTE]
-    > **Run to Click** is new in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)].
+> [!NOTE]
+> **Run to Click** is new in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)].
   
 ### Manually break into code  
   
@@ -150,10 +150,10 @@ The program counter jumps directly to the new location, and instructions between
 >- In native C++, if you have run-time checks enabled, setting the next statement can cause an exception to be thrown when execution reaches the end of the method.  
 >- When Edit and Continue is enabled, **Set Next Statement** fails if you have made edits that Edit and Continue cannot remap immediately. This can occur, for example, if you have edited code inside a catch block. When this happens, an error message tells you that the operation is not supported.  
 >- In managed code, you cannot move the next statement if:  
->  - The next statement is in a different method than the current statement.  
->  - Debugging was started by Just-In-Time debugging.  
->  - A call stack unwind is in progress.  
->  - A System.StackOverflowException or System.Threading.ThreadAbortException exception has been thrown.  
+>   - The next statement is in a different method than the current statement.  
+>   - Debugging was started by Just-In-Time debugging.  
+>   - A call stack unwind is in progress.  
+>   - A System.StackOverflowException or System.Threading.ThreadAbortException exception has been thrown.  
   
 ## <a name="BKMK_Restrict_stepping_to_Just_My_Code"></a>Debug non-user code  
 
@@ -170,7 +170,7 @@ If you have loaded debugging symbols for Microsoft system code, and disabled Jus
   
 To load Microsoft symbols, see [Configure symbol locations and loading options](specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md#configure-symbol-locations-and-loading-options).  
   
-***To load symbols for a specific system component:***
+**To load symbols for a specific system component:**
 
 1. While you're debugging, open the **Modules** window by selecting **Debug** > **Windows** > **Modules**, or pressing **Ctrl**+**Alt**+**U**.  
   
