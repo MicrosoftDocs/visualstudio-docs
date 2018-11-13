@@ -123,6 +123,39 @@ These command-line parameters are **new in 15.7**. For more information about th
 
   `vs_enterprise.exe --add Microsoft.VisualStudio.Workload.CoreEditor --path install="C:\VS"`
 
+## Using export
+
+This command-line command is **new in 15.9**. For more information about it, see the [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md) page.
+
+* Using export to save the selection from an installation:
+
+```cmd
+vs_enterprise.exe export --installPath "C:\VS" --config "C:\.vsconfig"
+```
+
+* Using export to save custom selection from scratch:
+
+```cmd
+vs_enterprise.exe export --add Microsoft.VisualStudio.Workload.ManagedDesktop --includeRecommended --config "C:\.vsconfig"
+```
+
+## Using --config
+
+This command-line parameter is **new in 15.9**. For more information about it, see the [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md) page.
+
+* Using --config to install the workloads and components from a previously saved installation configuration file:
+
+```cmd
+vs_enterprise.exe --config "C:\.vsconfig" --installPath "C:\VS"
+```
+
+* Using --config to add workloads and components to an existing installation:
+
+```cmd
+vs_enterprise.exe modify --installPath "C:\VS" --config "C:\.vsconfig"
+```
+
+
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
 ## See also
