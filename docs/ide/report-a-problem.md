@@ -12,7 +12,7 @@ manager: DougE
 ms.workload:
   - "multiple"
 ---
-# Report a problem 
+# Understanding Report a problem in Visual Studio
 
 Report a problem enables the Visual Studio developer community to submit issues.  Each one of your problem reports becomes a work item in our core engineering system, empowering you to engage directly with our product teams to help us identify and resolve impactful issues. Your feedback submitted with rich diagnostic information is critical to improving the Visual Studio product family.  We really appreciate you taking the time to report problems.
 
@@ -48,19 +48,19 @@ After you report a problem, states indicate where your submissions are in their 
 
 ![Need More Info state for problem reporting on Developer Community](../ide/media/ProblemStates/NeedMoreInfo.jpg)
 
-**Need More Info** indicates that we need more diagnostic information from you so that we can go forward with the investigation.
+**Need More Info** indicates that we need more diagnostic information from you so that we can go forward with the investigation.  [Learn how to respond to Need More Info requests.](./how-to-report-a-problem-with-visual-studio-2017?view=vs-2017#when-further-information-is-needed-need-more-info)
 
 - - -
 
 ![Fixed - Pending Release state for problem reporting on Developer Community](../ide/media/ProblemStates/FixedPendingRelease.jpg)
 
-**Fixed - Pending Release** indicates that we have fixed your problem for an upcoming preview or release.
+**Fixed - Pending Release** indicates that we have a fix for the problem and it will be available in an upcoming preview or release.  When the fix becomes available in a preview, the problem is tagged with a 'fixed in' tag specifying the preview version.
 
 - - -
 
 ![Closed - Fixed state for problem reporting on Developer Community](../ide/media/ProblemStates/ClosedFixed.jpg) 
 
-**Closed - Fixed** indicates that we have fixed your issue. Look for the "fixed in:" tag to check out the preview or release where your fix is available.
+**Closed - Fixed** indicates that we have released a fix for the problem. The problem is also now tagged with a "fixed in:" tag specifying the release version.
 
 - - -
 
@@ -78,7 +78,7 @@ After you report a problem, states indicate where your submissions are in their 
 
 ![Closed - Not a Bug state for problem reporting on Developer Community](../ide/media/ProblemStates/ClosedNotaBug.jpg)
 
-**Closed - Not a Bug**  indicates that we have determined that the reported bug doesn’t exist in the latest release  
+**Closed - Not a Bug**  indicates that we have determined that the reported functionality is rather by current design.
 
 - - -
 
@@ -90,13 +90,13 @@ After you report a problem, states indicate where your submissions are in their 
 
 ![Closed - Other Product state for problem reporting on Developer Community](../ide/media/ProblemStates/ClosedOtherProduct.jpg)
 
-**Closed - Other Product** indicates  we have determined that your issue applies to  another product. Check the tags to see which product the issue applies to and track the other product bug via the link in the comments.
+**Closed - Other Product** indicates  we have determined that your issue applies to  another product. See the comment from Microsoft for which external product and any related links.
 
 - - -
 
 ![Closed - Won't Fix state for problem reporting on Developer Community](../ide/media/ProblemStates/ClosedWontFix.jpg)
 
-**Closed - Won't Fix** To ensure we bring each of you in our developer community the best value, we prioritize issues having the highest community impact. Although we are unable to address this particular issue, be assured that all your feedback is valuable and helps improve Visual Studio.
+**Closed - Won't Fix** indicates that we are not pursuing this issue due to factors such as lack of product direction alignment or community impact. See the comment from Microsoft for any addtional clarity.  Although we are unable to address this particular issue, be assured that all your feedback is valuable and helps improve Visual Studio.
 
 - - -
 
