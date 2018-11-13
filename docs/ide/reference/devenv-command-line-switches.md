@@ -25,9 +25,9 @@ Devenv lets you set various options for the integrated development environment (
 
 ## Devenv switch syntax
 
-By default, devenv commands pass switches to the devenv.com utility. The devenv.com utility delivers output through standard system streams, such as `stdout` and `stderr`. The utility determines the appropriate I/O redirection when it captures output, for example to a .txt file.
+Commands that begin with `devenv` are handled by the `devenv.com` utility, which delivers output through standard system streams, such as `stdout` and `stderr`. The utility determines the appropriate I/O redirection when it captures output, for example to a .txt file.
 
-On the other hand, commands that begin with `devenv.exe` can use the same switches, but the devenv.com utility is bypassed.
+On the other hand, commands that begin with `devenv.exe` can use the same switches, but the `devenv.com` utility is bypassed. Using `devenv.exe` directly prevents output from appearing on the console.
 
 The syntax rules for `devenv` switches resemble those for other DOS command-line utilities. The following syntax rules apply to all `devenv` switches and their arguments:
 
