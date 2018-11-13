@@ -5,7 +5,7 @@ keywords:
 author: TerryGLee
 ms.author: tglee
 manager: douge
-ms.date: 11/08/2018
+ms.date: 11/13/2018
 ms.topic: reference
 helpviewer_keywords:
   - "workload ID, Visual Studio"
@@ -427,19 +427,11 @@ Microsoft.VisualStudio.Component.VC.Tools.14.13 | VC++ 2017 version 15.6 v14.13 
 Microsoft.VisualStudio.Component.VC.Tools.14.14 | VC++ 2017 version 15.7 v14.14 toolset | 15.0.27924.0
 Microsoft.VisualStudio.Component.VC.Tools.14.15 | VC++ 2017 version 15.8 v14.15 toolset | 15.0.28230.55
 
-## Get support
-
-Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page. If none of the troubleshooting steps help, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://www.visualstudio.com/vs/support/#talktous).
-
-Here are a few more support options:
-
-* You can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
-* You can share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
-* You can track product issues and find answers in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/).
-* You can also engage with us and other Visual Studio developers through the [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio). (This option requires a [GitHub](https://github.com/) account.)
+[!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
 ## See also
 
+* [Build Tools for Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017#build-tools-for-visual-studio-2017)
 * [Visual Studio workload and component IDs](workload-and-component-ids.md)
 * [Visual Studio administrator guide](visual-studio-administrator-guide.md)
 * [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
