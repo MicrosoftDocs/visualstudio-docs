@@ -1,3 +1,5 @@
+(You can replace all of this text with your description.)
+
 Before creating your pull request, please check your content against these quality criteria:
 
 - Did you consider search engine optimization (SEO) when you chose the title in the metadata section and the H1 heading (i.e. the displayed title that starts with a single #)?
