@@ -8,7 +8,7 @@
     - name: About the code editor
       href: ../ide/quickstart-editor.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
     - name: About projects and solutions
-      href: ../ide/quickstart-projects-solutions.md
+      href: quickstart-projects-solutions.md
     - name: More Visual Studio features
       href: ../ide/advanced-feature-overview.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
   - name: Create an app
