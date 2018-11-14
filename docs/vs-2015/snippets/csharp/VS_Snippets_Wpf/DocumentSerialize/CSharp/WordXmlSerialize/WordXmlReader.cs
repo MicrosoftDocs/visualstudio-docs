@@ -210,7 +210,7 @@ namespace SdkSample
                 {
                     case XmlNodeType.Attribute:
                         System.Diagnostics.Debug.Assert(false,
-                            "Attributes should never be processed by top-level convertion loop.");
+                            "Attributes should never be processed by top-level conversion loop.");
                         break;
                     case XmlNodeType.EndElement:
                         System.Diagnostics.Trace.WriteLine("WordXmlReader.ReadDocument - EndElement [" +
