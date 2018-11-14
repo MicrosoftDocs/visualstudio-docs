@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugObject::GetMemoryContext method"
 ms.assetid: 6760a0d3-a898-4e81-b68f-c45c584b225b
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugObject::GetMemoryContext

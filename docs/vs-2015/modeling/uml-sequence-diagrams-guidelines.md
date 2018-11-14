@@ -23,7 +23,7 @@ helpviewer_keywords:
   - "behaviors, UML"
 ms.assetid: 5990ef7c-ba60-4e20-a36d-e29c1fa6c8bb
 caps.latest.revision: 55
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
 manager: "douge"
 ---

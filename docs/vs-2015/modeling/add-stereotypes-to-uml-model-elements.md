@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "UML model, stereotypes"
 ms.assetid: 82545252-83ce-4e11-a419-61373be75d16
 caps.latest.revision: 17
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
 manager: "douge"
 ---

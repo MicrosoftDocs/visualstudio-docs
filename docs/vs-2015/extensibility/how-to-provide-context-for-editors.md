@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], legacy - provide context"
 ms.assetid: 12df4d06-df6b-4eaf-a7bf-c83655a0c683
 caps.latest.revision: 18
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # How to: Provide Context for Editors

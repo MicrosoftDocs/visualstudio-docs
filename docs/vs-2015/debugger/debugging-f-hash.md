@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "F#, debugging"
 ms.assetid: 20bcd51c-2d06-4281-9a1e-ef2b91d1a779
 caps.latest.revision: 7
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Debugging F# #

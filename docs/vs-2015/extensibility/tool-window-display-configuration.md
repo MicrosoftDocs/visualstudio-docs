@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "tool windows, appearance"
 ms.assetid: 502a4926-bb83-473e-94e2-8e833c5f8b53
 caps.latest.revision: 9
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Tool Window Display Configuration

@@ -24,8 +24,8 @@ helpviewer_keywords:
   - "applications [Visual Studio], debugging"
 ms.assetid: 6968625d-9783-4ad6-8bf5-eb85b548844c
 caps.latest.revision: 35
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Debugging Web Applications and Script

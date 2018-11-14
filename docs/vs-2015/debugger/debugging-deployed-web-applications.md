@@ -23,8 +23,8 @@ helpviewer_keywords:
   - "XML Web services, debugging"
 ms.assetid: b938a91b-be96-416f-83bc-4177e7f3929a
 caps.latest.revision: 34
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Debugging Deployed Web Applications

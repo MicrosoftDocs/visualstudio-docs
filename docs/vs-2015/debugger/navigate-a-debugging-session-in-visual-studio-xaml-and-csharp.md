@@ -16,8 +16,8 @@ dev_langs:
   - "C++"
 ms.assetid: 1da33203-333f-4a05-b4e2-8d407c497233
 caps.latest.revision: 21
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Navigate a debugging session in Visual Studio (Xaml and C#)

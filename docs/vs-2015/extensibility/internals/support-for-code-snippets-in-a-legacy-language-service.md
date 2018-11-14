@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "language services [managed package framework], supporting code snippets"
 ms.assetid: 7490325b-acee-4c2d-ac56-1cd5db1a1083
 caps.latest.revision: 29
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Support for Code Snippets in a Legacy Language Service

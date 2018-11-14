@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugArrayObject::GetElements method"
 ms.assetid: f6a6262f-5183-46ce-8a45-33ef46088b98
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugArrayObject::GetElements

@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "CV_CFL_LANG enumeration"
 ms.assetid: 4e8e0613-ad02-4de9-9f46-e4753c5b0251
 caps.latest.revision: 16
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # CV_CFL_LANG

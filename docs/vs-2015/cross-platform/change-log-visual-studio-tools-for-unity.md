@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ea490b7e-fc0d-44b1-858a-a725ce20e396
 caps.latest.revision: 14
-author: "TerryGLee"
-ms.author: "tglee"
+author: conceptdev
+ms.author: crdun
 manager: "ghogen"
 ---
 # Change Log (Visual Studio Tools for Unity)

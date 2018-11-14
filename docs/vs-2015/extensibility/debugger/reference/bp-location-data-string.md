@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "BP_LOCATION_DATA_STRING structure"
 ms.assetid: 445d6f3f-95b0-47ac-85e2-51b778240687
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # BP_LOCATION_DATA_STRING

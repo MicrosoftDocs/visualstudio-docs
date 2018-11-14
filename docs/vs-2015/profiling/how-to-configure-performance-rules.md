@@ -13,8 +13,8 @@ f1_keywords:
   - "vs.performance.ruleseditor"
 ms.assetid: a148b468-b849-4858-880a-808a6b47e596
 caps.latest.revision: 19
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Configure Performance Rules

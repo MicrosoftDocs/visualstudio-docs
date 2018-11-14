@@ -18,7 +18,7 @@ helpviewer_keywords:
   - "tool windows"
 ms.assetid: 06990510-5424-44b8-9fd9-6481acec5c76
 caps.latest.revision: 38
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Extending the Properties, Task List, Output, and Options Windows

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IEnumDebugPorts2"
 ms.assetid: 1754eef3-cf62-42e0-b218-1911acba77d4
 caps.latest.revision: 13
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IEnumDebugPorts2

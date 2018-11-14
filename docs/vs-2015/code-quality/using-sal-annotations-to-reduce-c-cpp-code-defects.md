@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "code analysis, annotation"
 ms.assetid: a16e47d0-6f3e-4ed6-8883-459b2874e9a4
 caps.latest.revision: 29
-author: "corob-msft"
-ms.author: gewarren
+author: mikeblome
+ms.author: mblome
 manager: "ghogen"
 ---
 # Using SAL Annotations to Reduce C/C++ Code Defects

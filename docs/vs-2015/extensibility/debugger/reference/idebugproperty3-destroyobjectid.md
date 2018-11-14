@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugProperty3::DestroyObjectID"
 ms.assetid: bd08f356-cc67-4717-98c9-c3d00cad2040
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugProperty3::DestroyObjectID

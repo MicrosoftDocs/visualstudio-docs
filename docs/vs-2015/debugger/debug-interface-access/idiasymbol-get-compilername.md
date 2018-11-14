@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSymbol::get_compilerName method"
 ms.assetid: 66eaaf72-68d4-40ee-b132-97bea9fe395c
 caps.latest.revision: 9
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_compilerName

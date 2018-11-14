@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "source control plug-ins, checking items in"
 ms.assetid: d0329fa8-7a8d-4d30-b67b-6f2a97b75a30
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Test Area 4: Check In

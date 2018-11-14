@@ -13,8 +13,8 @@ f1_keywords:
   - "vs.graphics.callstack"
 ms.assetid: 8a30168d-8b39-4de1-b094-c7356ba101a3
 caps.latest.revision: 12
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Graphics Event Call Stack

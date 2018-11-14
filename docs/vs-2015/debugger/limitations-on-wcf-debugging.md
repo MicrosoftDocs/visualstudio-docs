@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "WCF, debugging limitations"
 ms.assetid: 8e0333c4-1ddc-4abe-8f1c-d19bf6a2a07a
 caps.latest.revision: 33
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Limitations on WCF Debugging

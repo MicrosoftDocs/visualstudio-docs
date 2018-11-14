@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSession::findSymbolByVA method"
 ms.assetid: 0350df23-9a5d-4e8d-8c26-7f571d8fb1af
 caps.latest.revision: 13
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSession::findSymbolByVA

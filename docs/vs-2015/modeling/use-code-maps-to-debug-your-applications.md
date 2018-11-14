@@ -18,7 +18,7 @@ helpviewer_keywords:
   - "mapping relationships in code"
 ms.assetid: 9fd0c9a2-d351-40c8-be88-0749788264bf
 caps.latest.revision: 51
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
 manager: "douge"
 ---

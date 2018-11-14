@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugReference2 interface"
 ms.assetid: 3cfed312-f532-4bce-84a5-1677c14567d7
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugReference2

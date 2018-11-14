@@ -8,7 +8,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 34990c37-ae98-4140-9b1e-a91c192220d9
 caps.latest.revision: 38
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Image Service and Catalog

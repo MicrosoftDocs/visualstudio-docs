@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugField::Equal method"
 ms.assetid: 75369fe6-ddd3-497d-80d1-2488e6100e9f
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugField::Equal

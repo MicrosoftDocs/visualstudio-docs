@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "source control packages, Query Edit Query Save events"
 ms.assetid: c360d2ad-fe42-4d65-899d-d1588cc8a322
 caps.latest.revision: 18
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Query Edit Query Save (Source Control VSPackage)

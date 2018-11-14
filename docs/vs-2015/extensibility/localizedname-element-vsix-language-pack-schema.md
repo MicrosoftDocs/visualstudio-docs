@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 57b7f502-3b04-42d9-90d5-f57772a7c757
 caps.latest.revision: 8
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # LocalizedName Element (VSIX Language Pack Schema)

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugLoadCompleteEvent2"
 ms.assetid: 37eb7360-28e9-4273-862a-4c17f22af690
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugLoadCompleteEvent2

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugPortSupplier3::EnumPersistedPorts"
 ms.assetid: 1c3dead3-5d6c-4067-8418-4015f0b0dd07
 caps.latest.revision: 13
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugPortSupplier3::EnumPersistedPorts

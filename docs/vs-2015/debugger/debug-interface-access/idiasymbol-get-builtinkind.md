@@ -13,8 +13,8 @@ dev_langs:
   - "C++"
 ms.assetid: 953e6dba-582e-4b76-b736-898b92e5693e
 caps.latest.revision: 6
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_builtInKind

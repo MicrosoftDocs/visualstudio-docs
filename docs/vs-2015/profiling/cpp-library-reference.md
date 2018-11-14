@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "Concurrency Visualizer SDK, C++ Library Reference"
 ms.assetid: c9f8eea2-c964-485d-9ad0-55a4bf425ae7
 caps.latest.revision: 8
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # C++ Library Reference

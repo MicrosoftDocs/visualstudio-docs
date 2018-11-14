@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "IDebugExtendedField interface"
 ms.assetid: b491499c-af57-47da-87d6-34b7398f6591
 caps.latest.revision: 7
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugExtendedField

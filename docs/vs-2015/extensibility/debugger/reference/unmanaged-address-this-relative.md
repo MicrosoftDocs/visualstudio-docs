@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "UNMANAGED_ADDRESS_THIS_RELATIVE structure"
 ms.assetid: e6a91ace-2d47-4ff9-aefb-8d8b68eab0b2
 caps.latest.revision: 7
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # UNMANAGED_ADDRESS_THIS_RELATIVE

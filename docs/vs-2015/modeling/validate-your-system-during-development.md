@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "layer diagrams"
 ms.assetid: c9dafb47-7b1d-4c72-9432-d43be3db1799
 caps.latest.revision: 39
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
 manager: "douge"
 ---

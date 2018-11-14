@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugProgram2::CanDetach"
 ms.assetid: dcd9ab6c-49e5-447e-aa7c-89f571f4a052
 caps.latest.revision: 8
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugProgram2::CanDetach

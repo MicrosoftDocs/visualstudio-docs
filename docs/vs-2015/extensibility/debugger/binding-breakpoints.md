@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "breakpoints, binding"
 ms.assetid: 70737387-c52f-4dae-8865-77d4b203bf25
 caps.latest.revision: 13
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Binding Breakpoints

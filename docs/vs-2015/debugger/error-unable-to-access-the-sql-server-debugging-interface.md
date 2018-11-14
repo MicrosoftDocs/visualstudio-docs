@@ -19,8 +19,8 @@ dev_langs:
   - "SQL"
 ms.assetid: 527cf400-d12d-45ef-a7e7-baa65ca96ec5
 caps.latest.revision: 8
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Error: Unable to access the SQL Server debugging interface

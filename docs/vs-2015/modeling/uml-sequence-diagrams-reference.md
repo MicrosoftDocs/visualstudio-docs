@@ -19,7 +19,7 @@ helpviewer_keywords:
   - "UML, sequence diagrams"
 ms.assetid: 366fc324-aeeb-4894-bd13-ec2e40754b8e
 caps.latest.revision: 43
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
 manager: "douge"
 ---

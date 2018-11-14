@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugThread2::GetThreadProperties"
 ms.assetid: 304403fd-f4f8-4096-ac2c-bd3b59663aad
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugThread2::GetThreadProperties

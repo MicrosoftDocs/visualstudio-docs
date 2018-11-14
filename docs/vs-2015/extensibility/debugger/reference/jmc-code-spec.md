@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "JMC_CODE_SPEC structure"
 ms.assetid: d89498f1-4234-46d9-b4e2-abbcbca5068a
 caps.latest.revision: 7
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # JMC_CODE_SPEC

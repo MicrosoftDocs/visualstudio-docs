@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "command-table file compilation (VSCT files)"
 ms.assetid: 9dc6c33f-e6cf-4cf2-9b05-e8f7bfac1cfb
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # VSCT Compiler Command-Line Flags

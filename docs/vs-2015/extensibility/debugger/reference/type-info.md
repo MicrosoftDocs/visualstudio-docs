@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "TYPE_INFO structure"
 ms.assetid: d725cb68-a565-49d1-a16f-ff0445c587a0
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # TYPE_INFO

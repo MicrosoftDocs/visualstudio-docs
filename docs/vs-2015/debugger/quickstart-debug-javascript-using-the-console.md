@@ -22,8 +22,8 @@ helpviewer_keywords:
   - "debugging, JavaScript"
 ms.assetid: ea7adb71-52b6-4a5a-9346-98ca94b06bd7
 caps.latest.revision: 10
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # QuickStart: Debug JavaScript using the console

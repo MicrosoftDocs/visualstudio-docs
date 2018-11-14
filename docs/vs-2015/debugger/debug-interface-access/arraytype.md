@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "ArrayType symbol"
 ms.assetid: 1d973a3a-2bde-46df-8625-85d519bb3cc9
 caps.latest.revision: 18
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # ArrayType

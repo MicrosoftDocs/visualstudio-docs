@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "Modules view"
 ms.assetid: 9c05b51a-8382-44cf-a8f7-3fabdd2e8f1b
 caps.latest.revision: 17
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Modules View - .NET Memory Sampling Data

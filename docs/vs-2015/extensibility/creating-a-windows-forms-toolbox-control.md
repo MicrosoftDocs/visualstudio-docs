@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "windows forms"
 ms.assetid: 0be6ffc1-8afd-4d02-9a5d-e27dde05fde6
 caps.latest.revision: 20
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Creating a Windows Forms Toolbox Control

@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "symbols [DIA SDK], locations"
 ms.assetid: 7c8cd8fe-169e-4161-9cff-5e9015984add
 caps.latest.revision: 10
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Symbol Locations

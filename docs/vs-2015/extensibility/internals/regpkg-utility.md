@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "registration, regpkg utility"
 ms.assetid: 1683ee18-59d1-4bab-a674-dd00dd960de3
 caps.latest.revision: 13
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # RegPkg Utility

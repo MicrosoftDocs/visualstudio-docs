@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaFrameData::get_addressOffset method"
 ms.assetid: b68e2e68-6483-4936-bf97-1b0a13cb75e2
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaFrameData::get_addressOffset

@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "automation [Visual Studio SDK], VSPackages"
 ms.assetid: 104c4c55-78b8-42f4-b6b0-9a334101aaea
 caps.latest.revision: 16
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Providing Automation for VSPackages

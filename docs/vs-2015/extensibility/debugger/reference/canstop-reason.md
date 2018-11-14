@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "CANSTOP_REASON enumeration"
 ms.assetid: 6da944eb-36cd-4a8c-8d71-544c775cfcc1
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # CANSTOP_REASON

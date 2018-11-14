@@ -29,8 +29,8 @@ helpviewer_keywords:
   - "buffers, viewing"
 ms.assetid: 7f7a0439-10e4-4966-bb2d-51f04cda4fe2
 caps.latest.revision: 37
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Memory Windows

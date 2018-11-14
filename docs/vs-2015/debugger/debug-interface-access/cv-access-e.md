@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "CV_access_e enumeration"
 ms.assetid: 33c05d65-abb4-4800-a382-54a3805ea7b0
 caps.latest.revision: 10
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # CV_access_e

@@ -39,7 +39,7 @@ helpviewer_keywords:
   - "UML diagrams"
 ms.assetid: b69d9d91-c7e7-4dee-8eb6-706076eecb85
 caps.latest.revision: 60
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
 manager: "douge"
 ---

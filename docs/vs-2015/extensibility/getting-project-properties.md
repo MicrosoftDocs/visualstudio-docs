@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "tool windows, displaying project propeties"
 ms.assetid: 96ba07ca-0811-4013-8602-12550ac4ba79
 caps.latest.revision: 30
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Getting Project Properties

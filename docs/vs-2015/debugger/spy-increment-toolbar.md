@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "Spy++ toolbar"
 ms.assetid: 949c18fb-bb25-42ed-9130-c4a47869f24d
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Spy++ Toolbar

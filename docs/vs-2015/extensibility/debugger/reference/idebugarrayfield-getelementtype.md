@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugArrayField::GetElementType method"
 ms.assetid: c46bf625-0a48-4cbb-8f1f-286356f2c065
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugArrayField::GetElementType

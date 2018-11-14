@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "IDebugComPlusSymbolProvider::GetAttributedClassesForLanguage"
 ms.assetid: e5b1b8b6-52a6-4ade-9a36-644abfa9f4b2
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugComPlusSymbolProvider::GetAttributedClassesForLanguage

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugThread2::Resume"
 ms.assetid: 36aad682-b0b9-40a2-b3fc-f0e61d41cdbc
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugThread2::Resume

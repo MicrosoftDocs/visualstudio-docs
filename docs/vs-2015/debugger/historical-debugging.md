@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 7cc5ddf2-2f7c-4f83-b7ca-58e92e9bfdd2
 caps.latest.revision: 9
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Historical Debugging

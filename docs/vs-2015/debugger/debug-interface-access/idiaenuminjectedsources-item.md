@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaEnumInjectedSources::Item method"
 ms.assetid: 14846955-7270-451d-91d2-9cb34bb65187
 caps.latest.revision: 10
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaEnumInjectedSources::Item

@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "unattended installation, Visual Studio"
 ms.assetid: 3867b5dc-ed34-4ee2-be32-a42e7e320517
 caps.latest.revision: 44
-author: "TerryGLee"
-ms.author: "tglee"
+author: TerryGLee
+ms.author: tglee
 manager: "ghogen"
 ---
 # How to: Create and Run an Unattended Installation of Visual Studio

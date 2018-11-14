@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "Properties window, fields and interfaces"
 ms.assetid: 0328f0e5-2380-4a7a-a872-b547cb775050
 caps.latest.revision: 13
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Properties Window Fields and Interfaces

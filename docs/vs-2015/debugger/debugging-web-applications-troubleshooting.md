@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "troubleshooting Web applications"
 ms.assetid: 1624e4af-018e-4b7c-9a00-063bfe97fb7d
 caps.latest.revision: 13
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Debugging Web Applications: Troubleshooting

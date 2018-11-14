@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "IDebugComPlusSymbolProvider2 interface"
 ms.assetid: fa2f9b49-03ad-43c7-92d6-6dcb9c3d0531
 caps.latest.revision: 7
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugComPlusSymbolProvider2

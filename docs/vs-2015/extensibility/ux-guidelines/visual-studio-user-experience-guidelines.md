@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3abbe495-cbbc-4982-a809-38bda34553a7
 caps.latest.revision: 4
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Visual Studio User Experience Guidelines

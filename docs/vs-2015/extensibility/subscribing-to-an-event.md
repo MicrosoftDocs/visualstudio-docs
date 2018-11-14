@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "running document table (RDT), subscribing to events"
 ms.assetid: e94a4fea-94df-488e-8560-9538413422bc
 caps.latest.revision: 36
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Subscribing to an Event

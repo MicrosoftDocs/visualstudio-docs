@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugProgram2::Detach"
 ms.assetid: 5e8d88b0-a8d4-4746-88c0-ad332ee73f33
 caps.latest.revision: 9
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugProgram2::Detach

@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "IDebugPrimitiveTypeField interface"
 ms.assetid: 73a428fd-797e-4ceb-8392-ba16f1c5226b
 caps.latest.revision: 7
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugPrimitiveTypeField

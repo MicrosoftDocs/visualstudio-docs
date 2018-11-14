@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a3643792-b0df-481c-bc35-576f948e04cf
 caps.latest.revision: 5
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Interaction Patterns for Visual Studio

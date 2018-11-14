@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSymbol::get_virtualTableShape method"
 ms.assetid: 92360cbd-0761-446e-93f9-04dc8f4b66c6
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_virtualTableShape

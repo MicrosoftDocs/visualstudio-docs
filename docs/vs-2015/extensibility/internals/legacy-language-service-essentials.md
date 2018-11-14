@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "programming languages, integrating into Visual Studio"
 ms.assetid: c15e0ccb-e7c5-4dbb-affb-fe3d3244debe
 caps.latest.revision: 22
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Legacy Language Service Essentials

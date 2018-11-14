@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "BP_TYPE enumeration"
 ms.assetid: ef07191e-7966-43ab-96fb-1a0b1db3115d
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # BP_TYPE

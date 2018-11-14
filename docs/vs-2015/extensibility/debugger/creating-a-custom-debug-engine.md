@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], custom debug engines"
 ms.assetid: 52794238-6fae-451c-bf1c-99f344c6f173
 caps.latest.revision: 16
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Creating a Custom Debug Engine

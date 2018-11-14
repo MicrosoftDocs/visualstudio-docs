@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "dialog boxes, managing in Visual Studio"
 ms.assetid: 491bc0de-7dba-478c-a76b-923440e090f3
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Creating and Managing Modal Dialog Boxes

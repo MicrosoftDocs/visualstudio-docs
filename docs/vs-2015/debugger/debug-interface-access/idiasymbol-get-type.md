@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSymbol::get_type method"
 ms.assetid: 1c6a4176-dd4e-4c22-8b8f-0e559fc078ba
 caps.latest.revision: 14
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_type

@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSectionContrib::get_discardable method"
 ms.assetid: 30ca88d4-3198-4b0f-b30e-2e54b3607fe9
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSectionContrib::get_discardable

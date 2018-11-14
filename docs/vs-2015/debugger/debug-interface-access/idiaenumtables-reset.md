@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaEnumTables::Reset method"
 ms.assetid: 033039f4-5132-48c4-ba46-376243e3519f
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaEnumTables::Reset

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugMethodField::IsCustomAttributeDefined method"
 ms.assetid: 1b5d95a8-cc87-4acb-9e6a-3928f3632b7c
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugMethodField::IsCustomAttributeDefined

@@ -17,7 +17,7 @@ helpviewer_keywords:
   - "registry, Add New Project dialog box"
 ms.assetid: 6b909f93-d7f5-4aec-81c6-ee9ff0f31638
 caps.latest.revision: 28
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Registering Project and Item Templates

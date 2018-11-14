@@ -34,7 +34,7 @@ helpviewer_keywords:
   - "applications, designing"
 ms.assetid: c9f04cfa-72bd-419d-a952-616eed01472e
 caps.latest.revision: 129
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
 manager: "douge"
 ---

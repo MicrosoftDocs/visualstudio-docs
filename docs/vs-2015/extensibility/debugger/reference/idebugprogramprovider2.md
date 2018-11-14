@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugProgramProvider2 interface"
 ms.assetid: a9ec7b3e-a59c-4069-b2ee-6f45916eeb78
 caps.latest.revision: 15
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugProgramProvider2

@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "Call Browser tool"
 ms.assetid: 8fb0de61-71e7-42d1-8b41-2ad915474384
 caps.latest.revision: 22
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # How to: Identify Symbols in a Library

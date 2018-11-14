@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "Profiling Tools,.NET memory method"
 ms.assetid: 62a6dd5f-db66-4456-9d57-f8913dbfe4d5
 caps.latest.revision: 23
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Collecting .NET Memory Allocation and Lifetime Data

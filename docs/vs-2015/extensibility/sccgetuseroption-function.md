@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "SccGetUserOption function"
 ms.assetid: 17863747-1901-4c53-a2b3-ed996085e120
 caps.latest.revision: 13
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # SccGetUserOption Function

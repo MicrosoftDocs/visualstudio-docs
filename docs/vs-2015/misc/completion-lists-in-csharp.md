@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "IntelliSense [C#], completion lists"
 ms.assetid: fd070dc3-6f43-4f73-a2ef-32ab3da9f474
 caps.latest.revision: 16
-author: "BillWagner"
-ms.author: "billchi"
+author: BillWagner
+ms.author: wiwagn
 manager: "douge"
 ---
 # Completion Lists in C# #

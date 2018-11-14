@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugDocumentPosition2::IsPositionInDocument"
 ms.assetid: d5cf57cb-b93b-4e1d-bec9-185f4fe8668d
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugDocumentPosition2::IsPositionInDocument

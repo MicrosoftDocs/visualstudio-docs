@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e559471b-5e0f-468f-a5b8-903c44fe9073
 caps.latest.revision: 4
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Extending Connected Services

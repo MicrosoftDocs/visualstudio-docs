@@ -16,8 +16,8 @@ f1_keywords:
   - "vs.performance.10"
 ms.assetid: 3987e21a-5b4f-45e4-8a33-6b3f0a472c08
 caps.latest.revision: 16
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # DA0010: Expensive GetHashCode

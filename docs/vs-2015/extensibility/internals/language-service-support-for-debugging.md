@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "language services, debugging support"
 ms.assetid: 7a44067f-a410-4a6a-84d2-bda5184140bc
 caps.latest.revision: 16
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Language Service Support for Debugging

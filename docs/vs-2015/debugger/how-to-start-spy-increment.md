@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "Spy++, starting"
 ms.assetid: 1d36813a-dc2a-4fda-9b3d-a38928a62ced
 caps.latest.revision: 14
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Start Spy++

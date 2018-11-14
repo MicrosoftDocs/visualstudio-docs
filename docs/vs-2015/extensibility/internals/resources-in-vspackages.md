@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "VSPackages, managed resources"
 ms.assetid: cc8c17a6-b190-4856-b001-0c1104f104b2
 caps.latest.revision: 24
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Resources in VSPackages

@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], custom - simple view embedding"
 ms.assetid: f1292478-a57d-48ec-8c9e-88a23f04ffe5
 caps.latest.revision: 17
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Simplified Embedding

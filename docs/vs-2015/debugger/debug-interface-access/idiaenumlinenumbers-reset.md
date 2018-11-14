@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaEnumLineNumbers::Reset method"
 ms.assetid: d50e73aa-11a1-4813-ba23-d5861090ee12
 caps.latest.revision: 10
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaEnumLineNumbers::Reset

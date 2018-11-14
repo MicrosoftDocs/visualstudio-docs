@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 80f0104f-a4db-44dd-bd55-37bb67776c62
 caps.latest.revision: 7
-ms.author: "crdun"
+ms.author: crdun
 manager: "crdun"
 ---
 # Visual Studio Emulator for Android

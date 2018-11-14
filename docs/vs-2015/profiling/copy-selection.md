@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "Concurrency Visualizer, Copy Selection"
 ms.assetid: 645d9bd3-0a17-4a09-9b25-b37ae3ff484a
 caps.latest.revision: 12
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Copy Selection

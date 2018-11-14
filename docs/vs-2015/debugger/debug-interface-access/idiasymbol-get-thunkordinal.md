@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSymbol::get_thunkOrdinal method"
 ms.assetid: 4b28d78a-1974-4d8a-8bb7-781bf630f2f4
 caps.latest.revision: 12
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_thunkOrdinal

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugDocumentTextEvents2::onReplaceText"
 ms.assetid: cb39f025-66d8-4dc0-bef6-1bdc8e07db92
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugDocumentTextEvents2::onReplaceText

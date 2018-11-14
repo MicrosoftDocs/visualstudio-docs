@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "IDebugPendingBreakpoint2::GetState method"
 ms.assetid: e88d543f-2e83-4ba7-86ca-f874e39955ff
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugPendingBreakpoint2::GetState

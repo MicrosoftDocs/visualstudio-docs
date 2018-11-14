@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaImageData interface"
 ms.assetid: b696f350-fc08-4352-9287-a15e87512c1e
 caps.latest.revision: 12
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaImageData
