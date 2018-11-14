@@ -25,9 +25,9 @@ Devenv lets you set various options for the integrated development environment (
 
 ## Devenv switch syntax
 
-By default, devenv commands pass switches to the devenv.com utility. The devenv.com utility delivers output through standard system streams, such as `stdout` and `stderr`. The utility determines the appropriate I/O redirection when it captures output, for example to a .txt file.
+Commands that begin with `devenv` are handled by the `devenv.com` utility, which delivers output through standard system streams, such as `stdout` and `stderr`. The utility determines the appropriate I/O redirection when it captures output, for example to a .txt file.
 
-On the other hand, commands that begin with `devenv.exe` can use the same switches, but the devenv.com utility is bypassed.
+On the other hand, commands that begin with `devenv.exe` can use the same switches, but the `devenv.com` utility is bypassed. Using `devenv.exe` directly prevents output from appearing on the console.
 
 The syntax rules for `devenv` switches resemble those for other DOS command-line utilities. The following syntax rules apply to all `devenv` switches and their arguments:
 
@@ -39,7 +39,7 @@ The syntax rules for `devenv` switches resemble those for other DOS command-line
 
 - If the first argument is a file that is not a solution or project, that file opens in the appropriate editor, in a new instance of the IDE.
 
-- When you supply a project file name instead of a solution file name, a `devenv` command searches the parent folder of the project file for a solution file that has the same name. For example, the command `devenv /build myproject1.vbproj` searches the parent folder for a solution file that is named "myproject1.sln".
+- When you supply a project file name instead of a solution file name, a `devenv` command searches the parent folder of the project file for a solution file that has the same name. For example, the command `devenv myproject1.vbproj /build` searches the parent folder for a solution file that is named "myproject1.sln".
 
     > [!NOTE]
     > One and only one solution file that references this project should be located in its parent folder. If the parent folder contains no solution file that references this project, or if the parent folder contains two or more solution files that reference it, then a temporary solution file is created.
@@ -72,12 +72,12 @@ The following command-line switches do not display the IDE.
 
 |Command line switch|Description|
 | - |-----------------|
-|[/?](../../ide/reference/q-devenv-exe.md)|Displays help for devenv switches in the **Command Prompt window**.<br /><br /> **Devenv /?**|
-|[/Build](../../ide/reference/build-devenv-exe.md)|Builds the specified solution or project according to the configuration of the specified solution.<br /><br /> **Devenv myproj.csproj /build**|
-|[/Clean](../../ide/reference/clean-devenv-exe.md)|Deletes any files created by the build command, without affecting source files.<br /><br /> **Devenv myproj.csproj /clean**|
-|[/Deploy](../../ide/reference/deploy-devenv-exe.md)|Builds the solution, along with files necessary for deployment, according to the solutions configuration.<br /><br /> **Devenv myproj.csproj /deploy**|
+|[/?](../../ide/reference/q-devenv-exe.md)|Displays help for devenv switches in the **Command Prompt window**.<br /><br /> `devenv /?`|
+|[/Build](../../ide/reference/build-devenv-exe.md)|Builds the specified solution or project according to the configuration of the specified solution.<br /><br /> `devenv myproj.csproj /build`|
+|[/Clean](../../ide/reference/clean-devenv-exe.md)|Deletes any files created by the build command, without affecting source files.<br /><br /> `devenv myproj.csproj /clean`|
+|[/Deploy](../../ide/reference/deploy-devenv-exe.md)|Builds the solution, along with files necessary for deployment, according to the solutions configuration.<br /><br /> `devenv myproj.csproj /deploy`|
 |[/Diff](../../ide/reference/diff.md)|Compares two files. Takes four parameters: SourceFile, TargetFile, SourceDisplayName (optional), TargetDisplayName (optional).|
-|[/Out](../../ide/reference/out-devenv-exe.md)|Lets you specify a file to receive errors when you build.<br /><br /> **Devenv myproj.csproj /build /out log.txt**|
+|[/Out](../../ide/reference/out-devenv-exe.md)|Lets you specify a file to receive errors when you build.<br /><br /> `devenv myproj.csproj /build /out log.txt`|
 |[/Project](../../ide/reference/project-devenv-exe.md)|The project to build, clean, or deploy. You can use this switch only if you have also supplied the /build, /rebuild, /clean, or /deploy switch.|
 |[/ProjectConfig](../../ide/reference/projectconfig-devenv-exe.md)|Specifies the project configuration to build or deploy. You can use this switch only if you have also supplied the /project switch.|
 |[/Rebuild](../../ide/reference/rebuild-devenv-exe.md)|Cleans and then builds the specified solution or project according to the configuration of the specified solution.|
