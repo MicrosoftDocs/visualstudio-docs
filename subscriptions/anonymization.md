@@ -5,21 +5,21 @@ ms.author: lank
 manager: lank
 ms.date: 10/31/2018
 ms.topic: conceptual
-description:  Learn how subscriber data is anonymized when access to subscriptions is lost. 
+description:  Learn how subscriber data is anonymized when access to subscriptions is lost.
 ms.prod: vs-subscription
 ms.technology: vs-subscriptions
 searchscope: VS Subscription
 ---
 
-# Anonymization of Visual Studio subscriber information 
+# Anonymization of Visual Studio subscriber information
 
 When an event occurs that blocks a subscriber's use of a subscription, such as the expiration of a subscription or the deletion of a subscriber's sign-in account, the user's personal information such as name and sign-in account are essentially scrambled to render them unusable.  This is done to safeguard the subscriber's personal information.
 
-[!INCLUDE [GDPR-related guidance](/visualstudio/docs/misc/includes/gdpr-intro-sentence)] 
+[!INCLUDE [GDPR-related guidance](/visualstudio/misc/includes/gdpr-intro-sentence)]
 
 ## When does anonymization occur?
 
-Events that render a subscription unusable to a subscriber will trigger anonymization.  How quickly the anonymization occurs depends on the type of subscription and the triggering event. See the table below for more information. 
+Events that render a subscription unusable to a subscriber will trigger anonymization.  How quickly the anonymization occurs depends on the type of subscription and the triggering event. See the table below for more information.
 
 | Subscription Type                                                                                                                       | Event triggering anonymization                                                                                                     | When anonymization occurs |
 |-----------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|---------------------------|
@@ -32,10 +32,10 @@ Events that render a subscription unusable to a subscriber will trigger anonymiz
 ## FAQ
 
 ### Q:  Does the anonymization of the subscriber's personal information cause them to lose access to the subscription?
-A:  No.  The anonymization is in response to an event that causes the loss of access to the subscription, but does not cause the lack of access. 
+A:  No.  The anonymization is in response to an event that causes the loss of access to the subscription, but does not cause the lack of access.
 
 ### Q:  I'm an administrator for my organization's subscriptions.  If one of my subscriber's information is anonymized, can that subscription be reassigned to another user?
-A:  Yes -- As long as the subscription has not expired, it can be reassigned to another subscriber.  
+A:  Yes -- As long as the subscription has not expired, it can be reassigned to another subscriber.
 
 ## Next steps
 
