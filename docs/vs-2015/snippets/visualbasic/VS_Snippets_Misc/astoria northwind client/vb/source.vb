@@ -996,13 +996,13 @@ Public Class SourceVb
                     "This is an expected error.", ex)
         End Try
     End Sub
-    Public Shared Sub ProjectWithConvertion()
+    Public Shared Sub ProjectWithConversion()
         ' Create the DataServiceContext using the service URI.
         Dim context = New NorthwindEntities(svcUri)
 
         ' Define an anonymous LINQ query that projects the Customers type into 
         ' a CustomerAddress type that contains only address properties.
-        '<snippetProjectWithConvertion> 
+        '<snippetProjectWithConversion> 
         Dim query = From c In context.Customers _
                         Where c.Country = "Germany" _
                         Select New CustomerAddress With _
@@ -1012,7 +1012,7 @@ Public Class SourceVb
                             .Region = c.Region, _
                             .PostalCode = c.PostalCode, _
                             .Country = c.Country}
-        '</snippetProjectWithConvertion>
+        '</snippetProjectWithConversion>
 
         Try
             ' Enumerate over the query result, which is executed implicitly.

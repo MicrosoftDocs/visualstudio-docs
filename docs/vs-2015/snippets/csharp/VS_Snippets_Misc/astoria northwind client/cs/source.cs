@@ -1186,14 +1186,14 @@ namespace NorthwindClient
                     "This is an expected error.", ex);
             }
         }
-        public static void ProjectWithConvertion()
+        public static void ProjectWithConversion()
         {
             // Create the DataServiceContext using the service URI.
             NorthwindEntities context = new NorthwindEntities(svcUri);
 
             // Define an anonymous LINQ query that projects the Customers type into 
             // a CustomerAddress type that contains only address properties.
-            //<snippetProjectWithConvertion> 
+            //<snippetProjectWithConversion> 
             var query = from c in context.Customers
                         where c.Country == "Germany"
                         select new CustomerAddress
@@ -1205,7 +1205,7 @@ namespace NorthwindClient
                             PostalCode = c.PostalCode,
                             Country = c.Country
                         };
-            //</snippetProjectWithConvertion>
+            //</snippetProjectWithConversion>
 
             try
             {
