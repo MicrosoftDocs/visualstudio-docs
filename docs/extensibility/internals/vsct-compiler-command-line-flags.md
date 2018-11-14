@@ -35,7 +35,7 @@ Syntax: vsct <infile> [<outfile>] [-S[symbols file]] [-D<preprocessor-define>]*
   
   -D    Specify any additional preprocessor defines  
   -I    Indcate what additional include paths to send to the preprocessor  
-  -L    Specify the langauge to use when selecting strings  
+  -L    Specify the language to use when selecting strings  
   -E    Emit C# objects in the specified namespace for command items,  
         folowed by [L|F|H|N]:<value>  
         F = Name of the file to emit (used if -EL is provided)  
