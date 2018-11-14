@@ -1,7 +1,7 @@
 ---
 title: "Getting started with performance tools | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "11/04/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
@@ -15,23 +15,24 @@ ms.workload:
   - "multiple"
 ---
 # Getting started with performance tools
-This section provides an overview of the concepts and tasks that you will apply when you collect, view, and analyze code performance using the Visual Studio performance tools.  
+
+This article provides an overview of the concepts and tasks used to collect, view, and analyze code performance with the Visual Studio **Performance Wizard** or **Performance Explorer**.  
   
- These tools provide you with several ways to collect and analyze performance data. But in many cases, the best way to begin is to use the default settings of Performance Wizard, which allows you to  collect application statistics that can point you to performance issues in your code.  
+Visual Studio offers several ways to collect and analyze performance data in Visual Studio. 
+
+In many cases, the best way to get started with performance tools is to use the default settings of the **Performance Wizard**. The wizard lets you collect app statistics that can point to performance issues in your code.  
   
--   *Performance warnings* notify you of common coding issues. Warnings are displayed in the Visual Studio Errors window. You can navigate from the warning to your source code and to detailed help topics that help you write more efficient code.  
+-   *Performance warnings* notify you of common coding issues. Warnings appear in the Visual Studio **Errors** window. You can navigate from the warning to your source code, and to detailed help topics that help you write more efficient code.  
   
--   Performance reports provide views on the different levels of your application structure from source code lines to processes, and program execution data from the calling and called functions of a specific function to the call tree of the entire application.  
+-   *Performance reports* provide views on different levels of your app structure, from source code lines to processes. Performance reports show app execution data, from the calling and called functions of a specific function, to the call tree of the entire app.  
   
-## Common tasks  
+To quickly profile an app or ASP.NET website with the **Performance Wizard**, see [Beginners guide to performance profiling](../profiling/beginners-guide-to-cpu-sampling.md) and [How to: Collect performance data for a website](../profiling/how-to-collect-performance-data-for-a-web-site.md).  
+
+To manually specify and configure a performance profiling session, use the **Targets** folder and **Properties** pages in the **Performance Explorer**. For details, see [How to: Manually create performance sessions](../profiling/how-to-manually-create-performance-sessions.md).  
   
-|Task|Related Content|  
-|----------|---------------------|  
-|**Quickly profile an application or a Web site:** Use the Performance Wizard to configure and run a profiling session for a Visual Studio solution or a Web site.|-   [Beginners Guide to Performance Profiling](../profiling/beginners-guide-to-cpu-sampling.md)<br />-   [How to: Collect Performance Data for a Web Site](../profiling/how-to-collect-performance-data-for-a-web-site.md)|  
-|**Profile an application without the wizard:** Learn to use the performance session property pages to create a performance session.|-   [How to: Manually Create Performance Sessions](../profiling/how-to-manually-create-performance-sessions.md)|  
+**See also:**
   
-## See also  
- [Overviews](../profiling/overviews-performance-tools.md)   
- [Analyzing Performance Tools Data](../profiling/analyzing-performance-tools-data.md)   
- [Using Performance Rules to Analyze Data](../profiling/using-performance-rules-to-analyze-data.md)   
- [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)
+ [Performance tools overviews](../profiling/overviews-performance-tools.md)   
+ [Analyzing performance tools data](../profiling/analyzing-performance-tools-data.md)   
+ [Using performance rules to analyze data](../profiling/using-performance-rules-to-analyze-data.md)   
+ [Configuring performance sessions](../profiling/configuring-performance-sessions.md)
