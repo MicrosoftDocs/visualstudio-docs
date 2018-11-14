@@ -13,29 +13,25 @@ ms.workload:
 ---
 # Run profiling tools with or without the debugger
 
-Some Visual Studio performance tools, like **CPU Usage** and **Memory Usage**, can run with or without the debugger. They work on Release or Debug build configurations. Debugger-integrated tools like the **Diagnostic Tools** window run only on Debug builds.  
+Visual Studio offers a choice of performance measurement and profiling tools. Some, like **CPU Usage** and **Memory Usage**, can run within or outside of the debugger, and on Release or Debug build configurations. **Performance Profiler** tools like **Application Timeline** can run on Debug or Release builds. Debugger-integrated tools like the **Diagnostic Tools** window and **Events** tab run only during debugging sessions.  
 
 >[!NOTE]
->You can use the non-debugger performance tools with Windows 7 and later. Windows 8 or later is required to run debugger-integrated profiling tools.
+>You can use the non-debugger performance tools with Windows 7 and later. Windows 8 or later is required to run the debugger-integrated profiling tools.
 
-Non-debugger and debugger-integrated performance tools offer different information and experiences. Debugger-integrated tools let you set breakpoints and inspect variable values. Non-debugger tools offer closer to an end-user experience. 
+The non-debugger **Performance Profiler** and the debugger-integrated **Diagnostic Tools** provide different information and experiences. Debugger-integrated tools show you breakpoints and variable values. Non-debugger tools run on something closer to the end-user experience. 
 
-To decide which tools and results to use, consider the following points:
+To help decide which tools and results to use, consider the following points:
 
-- External performance problems, like file I/O or network responsiveness issues, won't look much different whether you run the non-debugger or debugger-integrated tools. 
-- For issues due to CPU-intensive calls, there may be considerable performance differences between Release and Debug builds. Check to see whether the issue also exists in Release builds before using the debugger-integrated tools. 
-- If an issue occurs only during development, you probably don't need to run the performance tools on a Release build. For issues found in Release builds, decide whether the debugger will help for further investigation. 
-- Release builds provide optimizations like inlining function calls and constants, pruning unused code paths, and storing variables in ways that can't be used by the debugger. Performance numbers in the debugger-integrated tools are less accurate because Debug builds lack these optimizations. 
+- External performance problems, like file I/O or network responsiveness issues, won't look much different in the debugger or non-debugger tools. 
+- There may be considerable performance differences between Release and Debug builds for issues due to CPU-intensive calls. Check to see whether the issue exists in Release builds. 
+- If the issue occurs only during Debug builds, you probably don't need to run the non-debugger tools. For issues in Release builds, decide whether the debugger will help for further investigation. 
+- Release builds provide optimizations like inlining function calls and constants, pruning unused code paths, and storing variables in ways that can't be used by the debugger. Performance numbers in the debugger-integrated tools are less accurate, because Debug builds lack these optimizations. 
 - The debugger itself changes performance times as it performs necessary debugger operations like intercepting exception and module load events. 
-- Performance numbers for Release configurations with the non-debugger tools are much more precise and accurate. Debugger-integrated tool results are more useful to compare with other debugging-related measurements.
+- Performance numbers for Release builds using the non-debugger **Performance Profiler** tools are the most precise and accurate. Debugger-integrated tool results are most useful to compare with other debugging-related measurements.
 
 ##  <a name="BKMK_Quick_start__Collect_diagnostic_data"></a> Collect profiling data while debugging  
 
-While you are debugging a Visual Studio project, the **Diagnostic Tools** window shows information about events, process memory, and CPU utilization. 
-
-1. With the project open, select **Debug** > **Start Debugging**, select the green **Start** arrow on the toolbar, or press **F5**.  
-  
-1. The **Diagnostic Tools** window appears by default when you start debugging. To open it manually, select **Debug** > **Windows** > **Show Diagnostic Tools**.  
+When you start debugging in Visual Studio by selecting **Debug** > **Start Debugging** or pressing **F5**, the **Diagnostic Tools** window appears by default. To open it manually, select **Debug** > **Windows** > **Show Diagnostic Tools**. The **Diagnostic Tools** window shows information about events, process memory, and CPU utilization.  
 
 ![Diagnostic Tools](../profiling/media/diagnostictools-update1.png "Diagnostic Tools")  
 
@@ -47,11 +43,10 @@ While you are debugging a Visual Studio project, the **Diagnostic Tools** window
   
 The diagnostic session ends when you stop debugging.  
   
-You can also view **Diagnostic Tools** for remote debugging targets, or installed or running apps. For remote debugging and profiling, the Visual Studio remote debugger must be installed and running on the remote target. 
+You can also view **Diagnostic Tools** for remote debugging targets. For remote debugging and profiling, the Visual Studio remote debugger must be installed and running on the remote target. 
 - For remote debugging and profiling desktop app projects, see [Remote debugging](../debugger/remote-debugging.md). 
-- For remote debugging and profiling UWP app projects, see [Run UWP apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md). 
-- To profile installed or running apps, see [Run diagnostic sessions on installed or running apps](#run-diagnostic-sessions-on-installed-or-running-apps).  
-  
+- For remote debugging and profiling UWP apps, see [Debug UWP apps on remote machines](../debugger/run-windows-store-apps-on-a-remote-machine.md). 
+
 ### The Events tab
 
 During a debugging session, the **Events** tab of the **Diagnostic Tools** window lists the diagnostic events that occur. The category prefixes: **Breakpoint**, **File**, and others, let you quickly scan the list for a category, or skip the categories you don't care about.  
@@ -68,27 +63,27 @@ For more information, see [Searching and filtering the Events tab of the Diagnos
 
 ## Collect profiling data without debugging  
 
-To profile apps without debugging, you run the **Performance Profiler** tools. Some profiling tools require administrator privileges to run. You can start Visual Studio as an administrator, or you can run the tools as an administrator when you start the diagnostic session.  
-  
+To collect performance data without debugging, you can run the **Performance Profiler** tools. Some of the profiling tools require administrator privileges to run. You can start Visual Studio as an administrator, or you can run the tools as an administrator when you start the diagnostic session.  
+   
 1. With a project open in Visual Studio, select **Debug** > **Performance Profiler**, or press **Alt**+**F2**.  
-  
+   
 1. On the diagnostic launch page, select one or more tools to run. Only the tools that are applicable to the project type, operating system, and programming language are displayed. Select **Show all tools** to also see tools that are disabled for this diagnostic session. Here's how your choices might look for a C# UWP app:  
-  
-    ![Select the diagnostic tools](../profiling/media/diag_selecttool.png "DIAG_SelectTool")  
-  
+   
+   ![Select the diagnostic tools](../profiling/media/diag_selecttool.png "DIAG_SelectTool")  
+   
 1. To start the diagnostic session, select **Start**.  
-  
-While you are running the session, some tools display graphs of real-time data on the diagnostic tools launch page.  
-  
-    ![Collect data on the Performance and Diagnostic Hub](../profiling/media/pdhub_collectdata.png "Hub collect data")  
-  
+   
+   While the session is running, some tools display graphs of real-time data on the diagnostic tools page.  
+   
+   ![Collect data on the Performance and Diagnostic Hub](../profiling/media/pdhub_collectdata.png "Hub collect data")  
+   
 1. To end the diagnostic session, select **Stop collection**.  
+   
+   The analyzed data displays on the **Report** page.  
   
-   The analyzed data displays on the the **Diagnostic** page.  
-  
-You can also open saved *.diagsession* files from the recently opened list on the diagnostic tools launch page.  
-  
-   ![Open a saved diagnosis session file](../profiling/media/pdhub_openexistingdiagsession.png "PDHUB_OpenExistingDiagSession")  
+You can save the *.diagsession* files, and open them from the **Recently Opened Sessions** list on the diagnostic tools launch page.  
+
+![Open a saved diagnosis session file](../profiling/media/pdhub_openexistingdiagsession.png "PDHUB_OpenExistingDiagSession")  
   
 ### The profiling report  
  ![Diagnostic tools report](../profiling/media/diag_report.png "DIAG_Report")  
@@ -97,10 +92,10 @@ You can also open saved *.diagsession* files from the recently opened list on th
 |-|-|  
 |![Step 1](../profiling/media/procguid_1.png "ProcGuid_1")|The timeline shows the length of the profiling session, app lifecycle activation events, and user marks.|  
 |![Step 2](../profiling/media/procguid_2.png "ProcGuid_2")|You can restrict the report to a part of the timeline by dragging the blue bars to select a region of the timeline.|  
-|![Step 3](../profiling/media/procguid_3.png "ProcGuid_3")|A tool displays one or more master graphs. If your diagnostic session is created with multiple tools, all of the master graphs are displayed.|  
-|![Step 4](../profiling/media/procguid_4.png "ProcGuid_4")|You can collapse and expand the individual graphs.|  
-|![Step 5](../profiling/media/procguid_6.png "ProcGuid_6")|When your data includes information from multiple tools, the details for the tool is collected under tabs.|  
-|![Step 6](../profiling/media/procguid_6a.png "ProcGuid_6a")|A tool can have one or more detail views. The view is filtered by the selected region of the timeline.|  
+|![Step 3](../profiling/media/procguid_3.png "ProcGuid_3")|Each diagnostic tool displays one or more master graphs. If your diagnostic session had more than one tool, all of their master graphs are displayed.|  
+|![Step 4](../profiling/media/procguid_4.png "ProcGuid_4")|You can collapse and expand each tool's individual graphs.|  
+|![Step 5](../profiling/media/procguid_6.png "ProcGuid_6")|When the data includes more than one tool, details for the tool is collected under tabs.|  
+|![Step 6](../profiling/media/procguid_6a.png "ProcGuid_6a")|The bottom half of the report shows one or more detail views for each tool. You can filter the view by selecting regions of the timeline.|  
   
 ## Run diagnostic sessions on installed or running apps 
 
