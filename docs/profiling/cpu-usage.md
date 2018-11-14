@@ -55,7 +55,7 @@ The diagnostic report is sorted by **Total CPU**, from highest to lowest. Change
 |-|-|  
 |**Total CPU [unit, %]**|![Total % data equation](../profiling/media/cpu_use_wt_totalpercentequation.png "CPU_USE_WT_TotalPercentEquation")<br /><br /> The milliseconds and CPU percentage used by calls to the function, and functions called by the function, in the selected time range. This is different from the **CPU Utilization** timeline graph, which compares the total CPU activity in a time range to the total available CPU.|  
 |**Self CPU [unit, %]|![Self % equation](../profiling/media/cpu_use_wt_selflpercentequation.png "CPU_USE_WT_SelflPercentEquation")<br /><br /> The milliseconds and CPU percentage used by calls to the function in the selected time range, excluding functions called by the function.|  
-|**Module**|The name of the module containing the function. For **[External Code]** nodes, **Multiple modules** appears.|  
+|**Module**|The name of the module containing the function.   
   
 ###  <a name="BKMK_The_CPU_Usage_call_tree"></a> The CPU Usage call tree 
 
