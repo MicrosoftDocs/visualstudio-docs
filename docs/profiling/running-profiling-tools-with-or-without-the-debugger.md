@@ -13,7 +13,7 @@ ms.workload:
 ---
 # Run profiling tools with or without the debugger
 
-Visual Studio offers a choice of performance measurement and profiling tools. Some, like **CPU Usage** and **Memory Usage**, can run within or outside of the debugger, and on Release or Debug build configurations. **Performance Profiler** tools like **Application Timeline** can run on Debug or Release builds. Debugger-integrated tools like the **Diagnostic Tools** window and **Events** tab run only during debugging sessions.  
+Visual Studio offers a choice of performance measurement and profiling tools. Some tools, like **CPU Usage** and **Memory Usage**, can run with or without the debugger, and on Release or Debug build configurations. **Performance Profiler** tools like **Application Timeline** can run on Debug or Release builds. Debugger-integrated tools like the **Diagnostic Tools** window and **Events** tab run only during debugging sessions.  
 
 >[!NOTE]
 >You can use the non-debugger performance tools with Windows 7 and later. Windows 8 or later is required to run the debugger-integrated profiling tools.
@@ -23,15 +23,15 @@ The non-debugger **Performance Profiler** and the debugger-integrated **Diagnost
 To help decide which tools and results to use, consider the following points:
 
 - External performance problems, like file I/O or network responsiveness issues, won't look much different in the debugger or non-debugger tools. 
-- There may be considerable performance differences between Release and Debug builds for issues due to CPU-intensive calls. Check to see whether the issue exists in Release builds. 
-- If the issue occurs only during Debug builds, you probably don't need to run the non-debugger tools. For issues in Release builds, decide whether the debugger will help for further investigation. 
+- For issues caused by CPU-intensive calls, there may be considerable performance differences between Release and Debug builds . Check to see whether the issue exists in Release builds. 
+- If the issue occurs only during Debug builds, you probably don't need to run the non-debugger tools. For Release build issues, decide whether the debugger will help for further investigation. 
 - Release builds provide optimizations like inlining function calls and constants, pruning unused code paths, and storing variables in ways that can't be used by the debugger. Performance numbers in the debugger-integrated tools are less accurate, because Debug builds lack these optimizations. 
-- The debugger itself changes performance times as it performs necessary debugger operations like intercepting exception and module load events. 
-- Performance numbers for Release builds using the non-debugger **Performance Profiler** tools are the most precise and accurate. Debugger-integrated tool results are most useful to compare with other debugging-related measurements.
+- The debugger itself changes performance times as it does necessary debugger operations like intercepting exception and module load events. 
+- Release build performance numbers in the **Performance Profiler** tools are the most precise and accurate. Debugger-integrated tool results are most useful to compare with other debugging-related measurements.
 
 ##  <a name="BKMK_Quick_start__Collect_diagnostic_data"></a> Collect profiling data while debugging  
 
-When you start debugging in Visual Studio by selecting **Debug** > **Start Debugging** or pressing **F5**, the **Diagnostic Tools** window appears by default. To open it manually, select **Debug** > **Windows** > **Show Diagnostic Tools**. The **Diagnostic Tools** window shows information about events, process memory, and CPU utilization.  
+When you start debugging in Visual Studio by selecting **Debug** > **Start Debugging** or pressing **F5**, the **Diagnostic Tools** window appears by default. To open it manually, select **Debug** > **Windows** > **Show Diagnostic Tools**. The **Diagnostic Tools** window shows information about events, process memory, and CPU usage.  
 
 ![Diagnostic Tools](../profiling/media/diagnostictools-update1.png "Diagnostic Tools")  
 
@@ -39,7 +39,7 @@ When you start debugging in Visual Studio by selecting **Debug** > **Start Debug
   
 - Select **Settings** in the dropdown to open the **Diagnostic Tools Property Pages** with more options. 
   
-- If you are running Visual Studio Enterprise, you can enable or disable IntelliTrace under Visual Studio **Tools** > **Options** > **IntelliTrace**.  
+- If you're running Visual Studio Enterprise, you can enable or disable IntelliTrace under Visual Studio **Tools** > **Options** > **IntelliTrace**.  
   
 The diagnostic session ends when you stop debugging.  
   
@@ -75,13 +75,13 @@ To collect performance data without debugging, you can run the **Performance Pro
    
    While the session is running, some tools display graphs of real-time data on the diagnostic tools page.  
    
-   ![Collect data on the Performance and Diagnostic Hub](../profiling/media/pdhub_collectdata.png "Hub collect data")  
+    ![Collect data on the Performance and Diagnostic Hub](../profiling/media/pdhub_collectdata.png "Hub collect data")  
    
 1. To end the diagnostic session, select **Stop collection**.  
    
    The analyzed data displays on the **Report** page.  
   
-You can save the *.diagsession* files, and open them from the **Recently Opened Sessions** list on the diagnostic tools launch page.  
+You can save the reports, and open them from the **Recently Opened Sessions** list on the diagnostic tools launch page.  
 
 ![Open a saved diagnosis session file](../profiling/media/pdhub_openexistingdiagsession.png "PDHUB_OpenExistingDiagSession")  
   
@@ -99,11 +99,11 @@ You can save the *.diagsession* files, and open them from the **Recently Opened 
   
 ## Run diagnostic sessions on installed or running apps 
 
- Besides starting your app from the Visual Studio project, you can also run diagnostic sessions on alternative targets. For example, you might want to diagnose performance issues on a version of your app that was installed from the Windows App Store.  
+ Besides starting your app from the Visual Studio project, you can also run diagnostic sessions on alternative targets. For example, you might want to diagnose performance issues on an app that was installed from the Windows App Store.  
   
  ![Choose diagnostic tools analysis target](../profiling/media/pdhub_chooseanalysistarget.png "PDHUB_ChooseAnalysisTarget")  
   
- You can start apps that are already installed, or you can attach the diagnostic tools to some apps and processes that are already running. When you select **Running App** or **Installed App**, you select the app from a list that discovers the apps on the specified deployment target. This target can be a local or remote machine. 
+ You can start apps that are already installed, or attach the diagnostic tools to apps and processes that are already running. When you select **Running App** or **Installed App**, you select the app from a list that finds the apps on the specified deployment target. This target can be a local or remote machine. 
   
  ![Choose a running or installed app for diagnosis](../profiling/media/pdhub_selectrunningapp.png "PDHUB_SelectRunningApp")  
   
