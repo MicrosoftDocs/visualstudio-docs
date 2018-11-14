@@ -32,7 +32,7 @@ manager: "ghogen"
 Wraps LC.exe, which generates a .license file from a .licx file. For more information on LC.exe, see [Lc.exe (License Compiler)](http://msdn.microsoft.com/library/2de803b8-495e-4982-b209-19a72aba0460).  
   
 ## Parameters  
- The following table describes the paramters for the `LC` task.  
+ The following table describes the parameters for the `LC` task.  
   
 |Parameter|Description|  
 |---------------|-----------------|  
