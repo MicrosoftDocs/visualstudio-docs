@@ -42,7 +42,7 @@ Syntax: vsct <infile> [<outfile>] [-S[symbols file]] [-D<preprocessor-define>]*
         L = Name of a language providing a CodeDOM provider  
         N = namespace (required if -EL is provided)  
         H = C++ header  
-  -c    Clean build skipping dependancy checks  
+  -c    Clean build skipping dependency checks  
   -v    Verbose output  
 ```  
   
