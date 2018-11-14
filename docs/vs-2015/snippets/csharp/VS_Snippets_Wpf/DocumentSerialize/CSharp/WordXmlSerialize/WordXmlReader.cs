@@ -669,7 +669,7 @@ namespace SdkSample
             /// <summary>
             /// Initializes a new SimplePropertyMap instance mapping for the given
             /// value in an XML name/value pair, such that the value applied is
-            /// the vaule of the XML attribute.
+            /// the value of the XML attribute.
             /// </summary>
             private static SimplePropertyMap FromAttributeValue(DependencyProperty property,
                 string xmlName, string xmlAttribute)
