@@ -1,21 +1,20 @@
 ---
-title: Introduction to projects and solutions
-ms.date: 12/04/2018
+title: Projects and solutions for Visual Basic
+ms.date: 11/12/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: quickstart
 author: gewarren
 ms.author: gewarren
 manager: douge
+dev_langs:
+ - VB
 ms.workload:
   - "multiple"
 ---
-# Learn about projects and solutions
+# Learn about projects and solutions using Visual Basic
 
 In this introductory article, we'll explore what it means to create a *solution* and a *project* in Visual Studio. A solution is a container that's used to organize one or more related code projects, for example a class library and a corresponding test project. We'll look at the properties of a project and some of the files it can contain. We'll also create a reference from one project to another.
-
-> [!TIP]
-> This article uses both C# and Visual Basic code. If you prefer to read a language-specific version, see the [C#](../csharp/quickstart-projects-solutions.md) or [Visual Basic](../visual-basic/quickstart-projects-solutions.md) article instead.
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
 
@@ -40,7 +39,7 @@ We'll start our exploration by creating an empty solution. After you get to know
 
 1. In the left pane, expand **Other Project Types**, then choose **Visual Studio Solutions**. In the center pane, choose the **Blank Solution** template. Name your solution **QuickSolution**, then choose the **OK** button.
 
-   ![Blank solution template in Visual Studio](media/quickstart-projects-new-solution.png)
+   ![Blank solution template in Visual Studio](../ide/media/quickstart-projects-new-solution.png)
 
    The **Start Page** closes, and a solution appears in **Solution Explorer** on the right-hand side of the Visual Studio window. You'll probably use **Solution Explorer** often, to browse the contents of your projects.
 
@@ -52,14 +51,14 @@ Now let's add our first project to the solution. We'll start with an empty proje
 
    The **Add New Project** dialog box opens.
 
-1. In the left pane, expand **Visual C#** and choose **Windows Desktop**. Then, in the middle pane, choose the **Empty Project (.NET Framework)** template. Name the project **QuickDate**, then choose the **OK** button.
+1. In the left pane, expand **Visual Basic** and choose **Windows Desktop**. Then, in the middle pane, choose the **Empty Project (.NET Framework)** template. Name the project **QuickDate**, then choose the **OK** button.
 
    A project named QuickDate appears beneath the solution in **Solution Explorer**. Currently it contains a single file called *App.config*.
 
    > [!NOTE]
-   > If you don't see **Visual C#** in the left pane of the dialog box, you need to install the **.NET desktop development** Visual Studio *workload*. Visual Studio uses workload-based installation to only install the components you need for the type of development you do. An easy way to install a new workload is to choose the **Open Visual Studio Installer** link in the bottom left corner of the **Add New Project** dialog box. After Visual Studio Installer launches, choose the **.NET desktop development** workload and then the **Modify** button.
+   > If you don't see **Visual Basic** in the left pane of the dialog box, you need to install the **.NET desktop development** Visual Studio *workload*. Visual Studio uses workload-based installation to only install the components you need for the type of development you do. An easy way to install a new workload is to choose the **Open Visual Studio Installer** link in the bottom left corner of the **Add New Project** dialog box. After Visual Studio Installer launches, choose the **.NET desktop development** workload and then the **Modify** button.
 
-   ![Open Visual Studio Installer link](media/quickstart-projects-open-installer.png)
+   ![Open Visual Studio Installer link](media/quickstart-projects-open-installer-vb.png)
 
 ## Add an item to the project
 
@@ -69,39 +68,29 @@ We have an empty project. Let's add a code file.
 
    The **Add New Item** dialog box opens.
 
-1. Expand **Visual C# Items**, then choose **Code**. In the middle pane choose the **Class** item template. Name the class **Calendar**, and then choose the **Add** button.
+1. Expand **Common Items**, then choose **Code**. In the middle pane choose the **Class** item template. Name the class **Calendar**, and then choose the **Add** button.
 
-   A file named *Calendar.cs* is added to the project. The *.cs* on the end is the file extension that is given to C# code files. The file appears in the visual project hierarchy in **Solution Explorer**, and its contents are opened in the editor.
+   A file named *Calendar.vb* is added to the project. The *.vb* on the end is the file extension that's given to Visual Basic code files. The file appears in the visual project hierarchy in **Solution Explorer**, and its contents open in the editor.
 
-1. Replace the contents of the *Calendar.cs* file with the following code:
+1. Replace the contents of the *Calendar.vb* file with the following code:
 
-   ```csharp
-   using System;
-
-   namespace QuickDate
-   {
-       internal class Calendar
-       {
-           static void Main(string[] args)
-           {
-               DateTime now = GetCurrentDate();
-               Console.WriteLine($"Today's date is {now}");
-               Console.ReadLine();
-           }
-
-           internal static DateTime GetCurrentDate()
-           {
-               return DateTime.Now.Date;
-           }
-       }
-   }
+   ```vb
+   Class Calendar
+       Public Shared Function GetCurrentDate() As Date
+           Return DateTime.Now.Date
+       End Function
+   End Class
    ```
 
-   You don't need to understand what the code does, but if you want, you can run the program and see that it prints today's date to the console (or standard output) window.
+   The `Calendar` class contains a single function, `GetCurrentDate`, that returns the current date.
+
+1. Open the project properties by double-clicking **My Project** in **Solution Explorer**. On the **Application** tab, change **Application type** to **Class Library**. This step is necessary to build the project successfully.
+
+1. Build the project by right-clicking on **QuickDate** in **Solution Explorer** and choosing **Build**. You should see a successful build message in the **Output** window.
 
 ## Add a second project
 
-It is common for solutions to contain more than one project, and often these projects reference each other. Some projects in a solution might be class libraries, some executable applications, and some might be unit test projects or websites.
+It's common for solutions to contain more than one project, and often these projects reference each other. Some projects in a solution might be class libraries, some executable applications, and some might be unit test projects or websites.
 
 Let's add a unit test project to our solution. This time we'll start from a project template so we don't have to add an additional code file to the project.
 
@@ -111,9 +100,9 @@ Let's add a unit test project to our solution. This time we'll start from a proj
 
 1. In the left pane, expand **Visual Basic** and choose the **Test** category. In the middle pane, choose the **Unit Test Project (.NET Framework)** project template. Name the project **QuickTest**, and then choose the **OK** button.
 
-   A second project is added to **Solution Explorer**, and a file named *UnitTest1.vb* opens in the editor. *.vb* is the file extension that is given to Visual Basic code files.
+   A second project is added to **Solution Explorer**, and a file named *UnitTest1.vb* opens in the editor.
 
-   ![Visual Studio Solution Explorer with two projects](media/quickstart-projects-solution-explorer.png)
+   ![Visual Studio Solution Explorer with two projects](media/quickstart-projects-solution-explorer-vb.png)
 
 ## Add a project reference
 
@@ -121,7 +110,7 @@ We're going to use the new unit test project to test our method in the **QuickDa
 
 1. Choose the **References** node in the **QuickTest** project, and from the right-click or context menu, choose **Add Reference**.
 
-   ![Add Reference menu](media/quickstart-projects-add-reference.png)
+   ![Add Reference menu](media/quickstart-projects-add-reference-vb.png)
 
    The **Reference Manager** dialog box opens.
 
@@ -137,41 +126,50 @@ We're going to use the new unit test project to test our method in the **QuickDa
    <TestClass()> Public Class UnitTest1
 
        <TestMethod()> Public Sub TestGetCurrentDate()
-           Assert.AreEqual(DateTime.Now.Date, QuickDate.Calendar.GetCurrentDate())
+           Assert.AreEqual(Date.Now.Date, QuickDate.Calendar.GetCurrentDate())
        End Sub
 
    End Class
    ```
 
-   You'll see a red "squiggly" under some of the code. We'll fix this error by making the test project a [friend assembly](/dotnet/csharp/programming-guide/concepts/assemblies-gac/friend-assemblies) to the **QuickDate** project.
+   You'll see a red "squiggly" under some of the code. We'll fix this error by making the test project a [friend assembly](/dotnet/visual-basic/programming-guide/concepts/assemblies-gac/friend-assemblies) to the **QuickDate** project.
 
-1. Back in the **QuickDate** project, open the *Calendar.cs* file if it's not already open, and add the following [using statement](/dotnet/csharp/language-reference/keywords/using-statement) and <xref:System.Runtime.CompilerServices.InternalsVisibleToAttribute> attribute, to resolve the error in the test project.
+1. Back in the **QuickDate** project, open the *Calendar.vb* file if it's not already open, and add the following [Imports statement](/dotnet/visual-basic/language-reference/statements/imports-statement-net-namespace-and-type) and <xref:System.Runtime.CompilerServices.InternalsVisibleToAttribute> attribute, to resolve the error in the test project.
 
-   ```csharp
-   using System.Runtime.CompilerServices;
+   ```vb
+   Imports System.Runtime.CompilerServices
 
-   [assembly: InternalsVisibleTo("QuickTest")]
+   <Assembly: InternalsVisibleTo("QuickTest")>
    ```
 
    The code file should look like this:
 
-   ![CSharp code](media/quickstart-projects-cs-code.png)
+   ![Visual Basic code](media/quickstart-projects-code-vb.png)
 
 ## Project properties
 
-The line in the C# code file that contains the <xref:System.Runtime.CompilerServices.InternalsVisibleToAttribute> attribute references the assembly name (file name) of the **QuickTest** project. The assembly name might not always be the same as the project name. To find the assembly name of a project, open the project properties.
+The line in the *Calendar.vb* file that contains the <xref:System.Runtime.CompilerServices.InternalsVisibleToAttribute> attribute references the assembly name (file name) of the **QuickTest** project. The assembly name might not always be the same as the project name. To find the assembly name of a project, open the project properties.
 
-1. In **Solution Explorer**, select the **QuickTest** project. From the right-click or context menu, select **Properties**, or just press **Alt**+**Enter**.
+1. In **Solution Explorer**, select the **QuickTest** project. From the right-click or context menu, select **Properties**, or just press **Alt**+**Enter**. (You can also double-click **My Project** in **Solution Explorer**.)
 
-   The *property pages* for the project open on the **Application** tab. The property pages contain various settings for the project. Notice that the assembly name of the **QuickTest** project is indeed "QuickTest". If you wanted to change it, this is where you'd change it. Then, when you build the test project, the name of the resulting executable file would change from *QuickTest.exe* to whatever you chose.
+   The *property pages* for the project open on the **Application** tab. The property pages contain various settings for the project. Notice that the assembly name of the **QuickTest** project is indeed "QuickTest". If you wanted to change it, this is where you'd do that. Then, when you build the test project, the name of the resulting binary file would change from *QuickTest.dll* to whatever you chose.
 
-   ![Project properties](media/quickstart-projects-properties.png)
+   ![Project properties](../ide/media/quickstart-projects-properties.png)
 
 1. Explore some of the other tabs of the project's property pages, such as **Compile** and **Settings**. These tabs are different for different types of projects.
 
-## Next steps
+## (Optional) Run the test
 
 If you want to check that your unit test is working, choose **Test** > **Run** > **All Tests** from the menu bar. A window called **Test Explorer** opens, and you should see that the **TestGetCurrentDate** test passes.
+
+![Text Explorer in Visual Studio showing passed test](../ide/media/quickstart-projects-test-explorer.png)
+
+> [!TIP]
+> If **Test Explorer** doesn't open automatically, open it by choosing **Test** > **Windows** > **Test Explorer** from the menu bar.
+
+## Next steps
+
+If you want to further explore Visual Studio, consider creating an app by following one of the [Visual Basic tutorials](index.yml).
 
 ## See also
 

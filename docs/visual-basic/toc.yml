@@ -1,6 +1,16 @@
 - name: Get started with Visual Basic in Visual Studio
   href: index.yml
   items:
+  - name: Overview
+    items:
+    - name: About Visual Studio 2017
+      href: ../ide/visual-studio-ide.md?toc=/visualstudio/visual-basic/toc.json&bc=/visualstudio/visual-basic/breadcrumb/toc.json
+    - name: About the code editor
+      href: ../ide/quickstart-editor.md?toc=/visualstudio/visual-basic/toc.json&bc=/visualstudio/visual-basic/breadcrumb/toc.json
+    - name: About projects and solutions
+      href: ../ide/quickstart-projects-solutions.md
+    - name: More Visual Studio features
+      href: ../ide/advanced-feature-overview.md?toc=/visualstudio/visual-basic/toc.json&bc=/visualstudio/visual-basic/breadcrumb/toc.json
   - name: Create a console app
     href: ../ide/tutorial-visual-basic-console.md
   - name: Create a UWP app
@@ -13,7 +23,7 @@
     href: ../ide/create-a-visual-basic-winform-in-visual-studio.md?toc=/visualstudio/visual-basic/toc.json&bc=/visualstudio/visual-basic/breadcrumb/toc.json
   - name: 'Learn Visual Studio'
     items:
-    - name: Writing and editing code
+    - name: Write and edit code
       href: ../ide/index-writing-code.md
     - name: Compile and build
       href: ../ide/compiling-and-building-in-visual-studio.md
