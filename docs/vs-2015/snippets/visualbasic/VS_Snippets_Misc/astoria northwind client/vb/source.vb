@@ -1689,7 +1689,7 @@ Public Class SourceVb
         Dim context = TryCast(result.AsyncState, NorthwindEntities)
 
         Try
-            ' Complete the exection and write out the results.
+            ' Complete the execution and write out the results.
             For Each o As Order In context.EndExecute(Of Order)(result)
                 Console.WriteLine(String.Format("Order ID: {0}", o.OrderID))
 
@@ -1733,7 +1733,7 @@ Public Class SourceVb
         Dim query = TryCast(result.AsyncState, DataServiceQuery(Of Order))
 
         Try
-            ' Complete the exection and write out the results.
+            ' Complete the execution and write out the results.
             For Each o As Order In query.EndExecute(result)
 
                 Console.WriteLine(String.Format("Order ID: {0}", o.OrderID))

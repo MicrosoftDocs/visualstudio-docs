@@ -2073,7 +2073,7 @@ namespace NorthwindClient
             
             try
             {
-                // Complete the exection and write out the results.
+                // Complete the execution and write out the results.
                 foreach (Order o in query.EndExecute(result))
                 {
                     Console.WriteLine(string.Format("Order ID: {0}", o.OrderID));
@@ -2125,7 +2125,7 @@ namespace NorthwindClient
             
             try
             {
-                // Complete the exection and write out the results.
+                // Complete the execution and write out the results.
                 foreach (Order o in context.EndExecute<Order>(result))
                 {
                     Console.WriteLine(string.Format("Order ID: {0}", o.OrderID));
