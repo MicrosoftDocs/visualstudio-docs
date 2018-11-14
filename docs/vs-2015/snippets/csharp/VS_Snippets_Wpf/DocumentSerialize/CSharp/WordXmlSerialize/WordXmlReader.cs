@@ -110,7 +110,7 @@ namespace SdkSample
 
         /// <summary>
         /// Creates an exception to be thrown when an unexpected XML node
-        /// was found in the specfied reader.
+        /// was found in the specified reader.
         /// </summary>
         private static Exception CreateUnexpectedNodeException(XmlReader reader)
         {
