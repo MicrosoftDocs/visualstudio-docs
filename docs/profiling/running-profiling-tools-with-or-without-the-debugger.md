@@ -77,7 +77,7 @@ To collect performance data without debugging, you can run the **Performance Pro
    
     ![Collect data on the Performance and Diagnostic Hub](../profiling/media/pdhub_collectdata.png "Hub collect data")  
    
-1. To end the diagnostic session, select **Stop collection**.  
+1. To end the diagnostic session, select **Stop Collection**.  
    
    The analyzed data displays on the **Report** page.  
   
@@ -94,7 +94,7 @@ You can save the reports, and open them from the **Recently Opened Sessions** li
 |![Step 2](../profiling/media/procguid_2.png "ProcGuid_2")|You can restrict the report to a part of the timeline by dragging the blue bars to select a region of the timeline.|  
 |![Step 3](../profiling/media/procguid_3.png "ProcGuid_3")|Each diagnostic tool displays one or more master graphs. If your diagnostic session had more than one tool, all of their master graphs are displayed.|  
 |![Step 4](../profiling/media/procguid_4.png "ProcGuid_4")|You can collapse and expand each tool's individual graphs.|  
-|![Step 5](../profiling/media/procguid_6.png "ProcGuid_6")|When the data includes more than one tool, details for the tool is collected under tabs.|  
+|![Step 5](../profiling/media/procguid_6.png "ProcGuid_6")|When the data includes more than one tool, tool details are collected under tabs.|  
 |![Step 6](../profiling/media/procguid_6a.png "ProcGuid_6a")|The bottom half of the report shows one or more detail views for each tool. You can filter the view by selecting regions of the timeline.|  
   
 ## Run diagnostic sessions on installed or running apps 
@@ -109,7 +109,7 @@ You can save the reports, and open them from the **Recently Opened Sessions** li
   
 ## See also
 
-The following blog posts and MSDN articles are from the Diagnostics development team:  
+The following are blog posts and MSDN articles from the Diagnostics development team:  
  [MSDN Magazine: Analyze Performance While Debugging in Visual Studio 2015](https://msdn.microsoft.com/magazine/dn973013.aspx)
   
  [MSDN Magazine: Use IntelliTrace to Diagnose Issues Faster](https://msdn.microsoft.com/magazine/dn973014.aspx)

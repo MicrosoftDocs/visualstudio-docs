@@ -13,13 +13,15 @@ ms.workload:
 ---
 # Analyze CPU usage 
 
-A good way to start investigating performance issues in your app is to understand its CPU usage. The **CPU Usage** performance tool shows where the CPU is spending time executing Visual C++, Visual C#/Visual Basic, and JavaScript code. While debugging, you can turn CPU profiling on and off, and see a per-function breakdown of CPU usage. You can view CPU usage results when execution is paused, for example at a breakpoint.  
-  
+A good way to start investigating performance issues in your app is to understand its CPU usage. The **CPU Usage** performance tool shows the CPU time and percentage spent executing code in C++, C#/Visual Basic, and JavaScript apps. 
+
 The **CPU Usage** tool can run on an open Visual Studio project, on an installed Microsoft Store app, or attached to a running app or process. You can run the tool on local or remote machines, or on a simulator or emulator. For more information, see [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md). 
 
-The following instructions show how to run the **CPU Usage** tool and analyze data from the Visual Studio **Performance Profiler**. The example uses a Release build on a local machine. Release builds provide the best view of actual app performance. To analyze CPU usage with Debug builds, see [Beginner's guide to performance profiling](../profiling/beginners-guide-to-performance-profiling.md).
+You can run the **CPU Usage** tool with or without debugging. In the debugger, you can turn CPU profiling on and off, and see a per-function breakdown of CPU usage. You can view CPU usage results when execution is paused, for example at a breakpoint.  
 
-Usually, the local machine best replicates installed app execution. For Windows Phone apps, collecting data directly from the device provides the most accurate data. To collect data from a remote device, run the app directly on the device, not by using a Remote Desktop Connection. 
+The following instructions show how to use the **CPU Usage** tool outside of the debugger with the Visual Studio **Performance Profiler**. The examples use a Release build on a local machine. Release builds provide the best view of actual app performance. To analyze CPU usage with Debug builds, see [Beginner's guide to performance profiling](../profiling/beginners-guide-to-performance-profiling.md).
+
+Usually, the local machine best replicates installed app execution. For Windows Phone apps, collecting data directly from the device provides the most accurate data. To collect data from a remote device, run the app directly on the device, not over a Remote Desktop Connection. 
 
 >[!NOTE]
 >Windows 7 or later is required to use the [Performance Profiler](../profiling/profiling-feature-tour.md).
@@ -47,7 +49,7 @@ Usually, the local machine best replicates installed app execution. For Windows 
 
 ## Analyze the CPU Usage report  
   
-The diagnostic report is sorted by **Total CPU**, from highest to lowest. Change the sort order or sort column by selecting the column headers. Use the **Filter** dropdown to select or deselect threads to display, and use the search box to search for a specific thread or node. 
+The diagnostic report is sorted by **Total CPU**, from highest to lowest. Change the sort order or sort column by selecting the column headers. Use the **Filter** dropdown to select or deselect threads to display, and use the **Search** box to search for a specific thread or node. 
 
 ###  <a name="BKMK_Call_tree_data_columns"></a> CPU Usage data columns  
 
