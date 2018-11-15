@@ -20,8 +20,6 @@ ms.workload:
 # Navigate Code with the Visual Studio Debugger
 Get familiar with commands and shortcuts to navigate code in the debugger and that will make it faster and easier to find and resolve issues in your app. While you navigate code in the debugger, you can inspect the state of your app or learn more about its execution flow.  
 
-![Survey](../debugger/media/take-survey.png) Help us improve the debugger documentation by taking a short five-minute [**survey**](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR7pwAHb32OZLo9GnCP7e2_pUNDhSRzBDMFFGVURFTFJRWlpSRFNRVkQ0RC4u)!
-
 ## Start debugging  
  Often, you start a debugging session using **F5** (**Debug** > **Start Debugging**). This command starts your app with the debugger attached.  
   
@@ -183,4 +181,9 @@ Get familiar with commands and shortcuts to navigate code in the debugger and th
 3.  Choose **Load Symbols** on the context menu.  
   
 ##  <a name="BKMK_Step_into_properties_and_operators_in_managed_code"></a> Step into properties and operators in managed code  
- The debugger steps over properties and operators in managed code by default. In most cases, this provides a better debugging experience. To enable stepping into properties or operators, choose **Debug** > **Options**. On the **Debugging** > **General** page, clear the **Step over properties and operators (Managed only)** check box
+ The debugger steps over properties and operators in managed code by default. In most cases, this provides a better debugging experience. To enable stepping into properties or operators, choose **Debug** > **Options**. On the **Debugging** > **General** page, clear the **Step over properties and operators (Managed only)** check box.
+
+## See also
+ [What is debugging?](../debugger/what-is-debugging.md)  
+ [Write better C# code using Visual Studio](../debugger/write-better-code-with-visual-studio.md)  
+ [First look at debugging](../debugger/debugger-feature-tour.md) 

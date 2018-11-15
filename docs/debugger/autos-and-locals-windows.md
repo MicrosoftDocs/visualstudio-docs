@@ -20,8 +20,6 @@ ms.workload:
 # Inspect variables in the Autos and Locals windows
 
 The **Autos** and **Locals** windows show variable values while you are debugging. The windows are only available during a debugging session. The **Autos** window shows variables used around the current breakpoint. The **Locals** window shows variables defined in the local scope, which is usually the current function or method. 
-
-![Survey](../debugger/media/take-survey.png) Help us improve the debugger documentation by taking a short five-minute [**survey**](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR7pwAHb32OZLo9GnCP7e2_pUNDhSRzBDMFFGVURFTFJRWlpSRFNRVkQ0RC4u)!
   
 To open the **Autos** window, while debugging, select **Debug** > **Windows** > **Autos**, or press **Ctrl**+**Alt**+**V** > **A**.  
 
@@ -145,4 +143,7 @@ To see the return values of the `sumVars()` and `subtractVars()` method calls in
   ![Autos return value C#](../debugger/media/autosreturnvaluecsharp2.png "Autos return value C#")  
   
 ## See also  
+ [What is debugging?](../debugger/what-is-debugging.md)  
+ [Write better C# code using Visual Studio](../debugger/write-better-code-with-visual-studio.md)  
+ [First look at debugging](../debugger/debugger-feature-tour.md)
  [Debugger windows](../debugger/debugger-windows.md)
