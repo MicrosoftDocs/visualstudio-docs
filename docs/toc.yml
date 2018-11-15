@@ -93,6 +93,27 @@
       items:
       - name: Visual Studio workload and component IDs
         href: install/workload-and-component-ids.md
+        items:
+        - name: Visual Studio Enterprise 2017
+          href: install/workload-and-component-vs-enterprise.md
+        - name: Visual Studio Professional 2017
+          href: install/workload-and-component-vs-professional.md
+        - name: Visual Studio Community 2017
+          href: install/workload-and-component-vs-community.md
+        - name: Visual Studio Team Explorer 2017
+          href: install/workload-and-component-vs-team-explorer.md
+        - name: Visual Studio Desktop Express 2017
+          href: install/workload-and-component-vs-express.md
+        - name: Visual Studio Build Tools 2017
+          href: install/workload-and-component-vs-build-tools.md
+        - name: Visual Studio Test Agent 2017
+          href: install/workload-and-component-vs-test-agent.md
+        - name: Visual Studio Test Controller 2017
+          href: install/workload-and-component-vs-test-controller.md
+        - name: Visual Studio Test Professional 2017
+          href: install/workload-and-component-vs-test-professional.md          
+        - name: Visual Studio Feedback Client 2017
+          href: install/workload-and-component-vs-feedback-client.md                       
       - name: Visual Studio build numbers and release dates
         href: install/visual-studio-build-numbers-and-release-dates.md
   - name: Use Visual Studio from an Azure virtual machine
