@@ -15,8 +15,8 @@ f1_keywords:
   - "vs.performance.rules.DA0023"
 ms.assetid: aba875fe-9cbc-418d-a2c4-6eb47519a5bb
 caps.latest.revision: 15
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # DA0023: High GC CPU time

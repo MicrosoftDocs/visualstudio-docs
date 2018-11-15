@@ -27,8 +27,8 @@ helpviewer_keywords:
   - "Choose Breakpoints dialog box"
 ms.assetid: 35cbd591-4c4f-4035-8731-8162ba1c8318
 caps.latest.revision: 14
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Choose Breakpoints Dialog Box

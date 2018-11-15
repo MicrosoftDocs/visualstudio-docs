@@ -16,8 +16,8 @@ dev_langs:
   - "C++"
 ms.assetid: 24238fc0-40b8-4079-8579-698211db9a26
 caps.latest.revision: 18
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Memory Usage without Debugging

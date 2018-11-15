@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugDefaultPort2::GetPortNotify"
 ms.assetid: 3ae715ee-9886-4694-a52b-59bb3b27467a
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugDefaultPort2::GetPortNotify

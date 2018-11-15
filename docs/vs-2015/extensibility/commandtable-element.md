@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "VSCT XML schema elements, CommandTable"
 ms.assetid: 15c38159-660a-4ef4-9643-aa6fcfca82a9
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # CommandTable Element

@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSymbol::get_isLTCG method"
 ms.assetid: 5f7f05b8-6b71-4958-9e1e-e4924ef9c59b
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_isLTCG

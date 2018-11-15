@@ -22,8 +22,8 @@ helpviewer_keywords:
   - "Windows Service applications, debugging"
 ms.assetid: b06b5d65-424b-490f-bf58-97583cd7006a
 caps.latest.revision: 19
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Debug the OnStart Method

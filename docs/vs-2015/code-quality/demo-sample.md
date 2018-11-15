@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "code analysis, samples"
 ms.assetid: 09e1b9f7-5916-4ed6-a001-5c2d7e710682
 caps.latest.revision: 23
-author: "corob-msft"
-ms.author: gewarren
+author: mikeblome
+ms.author: mblome
 manager: "ghogen"
 ---
 # Demo Sample

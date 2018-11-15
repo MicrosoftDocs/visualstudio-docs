@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "command line, switches"
 ms.assetid: 0a22516f-f60e-4476-ac5b-f41e5ffaaf8b
 caps.latest.revision: 17
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Command-Line Switches (Visual Studio SDK)

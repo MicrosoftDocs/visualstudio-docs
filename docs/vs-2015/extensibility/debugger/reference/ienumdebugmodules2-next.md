@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IEnumDebugModules2::Next"
 ms.assetid: 46b7ccad-b07b-4ec0-b3ce-13981ffab7e8
 caps.latest.revision: 13
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IEnumDebugModules2::Next

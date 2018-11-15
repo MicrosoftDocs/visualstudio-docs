@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IEnumDebugReferenceInfo2::Clone"
 ms.assetid: 49c5a301-a33a-428f-b83b-e734c71af4ef
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IEnumDebugReferenceInfo2::Clone

@@ -13,8 +13,8 @@ f1_keywords:
   - "vs.cv.performance.cvcollectioncmd"
 ms.assetid: 476601be-1608-4014-af15-5aba6ccbed1c
 caps.latest.revision: 26
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Concurrency Visualizer Command-Line Utility (CVCollectionCmd)

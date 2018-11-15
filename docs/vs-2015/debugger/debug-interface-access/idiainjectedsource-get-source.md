@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaInjectedSource::get_source method"
 ms.assetid: 3c0b5386-321f-4f8f-85cc-e2ee7b4cc3d2
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaInjectedSource::get_source

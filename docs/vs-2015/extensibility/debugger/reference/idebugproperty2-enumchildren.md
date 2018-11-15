@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugProperty2::EnumChildren"
 ms.assetid: cf79f666-65d1-417c-af7c-9271bac9a267
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugProperty2::EnumChildren

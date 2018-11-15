@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugClassField::EnumConstructors method"
 ms.assetid: 66a250b2-75a0-45aa-8d58-40f91cc4bf7b
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugClassField::EnumConstructors

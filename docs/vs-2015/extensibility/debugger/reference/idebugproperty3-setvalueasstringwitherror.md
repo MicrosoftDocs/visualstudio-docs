@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugProperty3::SetValueAsStringWithError"
 ms.assetid: b378368f-4a45-4b2f-8e3d-3bff7a18ab17
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugProperty3::SetValueAsStringWithError

@@ -18,8 +18,8 @@ dev_langs:
   - "C++"
 ms.assetid: b60e9660-02da-4dea-9e6d-8cb64e996bdf
 caps.latest.revision: 9
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Error: Mixed mode debugging for IA64 processes is unsupported

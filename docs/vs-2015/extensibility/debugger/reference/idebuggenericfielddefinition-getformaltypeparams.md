@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "IDebugGenericFieldDefinition::GetFormalTypeParams"
 ms.assetid: cadbd6a1-bc7c-4aff-8777-5396b7a23c3e
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugGenericFieldDefinition::GetFormalTypeParams

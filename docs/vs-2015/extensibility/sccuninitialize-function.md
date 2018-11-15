@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "SccUninitialize function"
 ms.assetid: 17cf5337-d251-4422-bc96-93fe7d48f2ae
 caps.latest.revision: 13
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # SccUninitialize Function

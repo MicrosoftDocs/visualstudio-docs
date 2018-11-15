@@ -32,7 +32,7 @@ The <xref:Microsoft.Build.Tasks.Windows.UpdateManifestForBrowserApplication> tas
 |`HostInBrowser`|Required **Boolean** parameter.<br /><br /> Specifies whether to modify the application manifest to include the **\<hostInBrowser />** element. If **true**, a new **\<hostInBrowser />** element is included in the **\<entryPoint />** element. Element inclusion is cumulative: if a **\<hostInBrowser />** element already exists, it isn't removed or overwritten. Instead, an additional **\<hostInBrowser />** element is created. If **false**, the application manifest isn't modified.|  
   
 ## Remarks  
- [!INCLUDE[TLA2#tla_xbap#plural](../msbuild/includes/tla2sharptla_xbapsharpplural_md.md)] are run by using [!INCLUDE[TLA#tla_clickonce](../msbuild/includes/tlasharptla_clickonce_md.md)] deployment, so they must be published with supporting deployment and application manifests. [!INCLUDE[TLA#tla_msbuild](../msbuild/includes/tlasharptla_msbuild_md.md)] uses the [GenerateApplicationManifest](http://msdn2.microsoft.com/library/6wc2ccdc.aspx) task to generate an application manifest.  
+ [!INCLUDE[TLA2#tla_xbap#plural](../msbuild/includes/tla2sharptla_xbapsharpplural_md.md)] are run by using [!INCLUDE[TLA#tla_clickonce](../msbuild/includes/tlasharptla_clickonce_md.md)] deployment, so they must be published with supporting deployment and application manifests. [!INCLUDE[TLA#tla_msbuild](../msbuild/includes/tlasharptla_msbuild_md.md)] uses the [GenerateApplicationManifest](generateapplicationmanifest-task.md) task to generate an application manifest.  
   
  Then, to configure an application to be hosted from a browser, an additional **\<hostInBrowser />** element must be added to the application manifest, as shown in the following example:  
   

@@ -1,24 +1,24 @@
 ---
-title: "How to: Roundtrip Extensions for Visual Studio| Microsoft Docs"
-ms.custom: ""
+title: How to Roundtrip Extensions
 ms.date: "06/25/2017"
 ms.technology: 
   - "vs-ide-sdk"
 ms.topic: "conceptual"
 ms.assetid: 2d6cf53c-011e-4c9e-9935-417edca8c486
 author: "willbrown"
-ms.author: "willbrown"
+ms.author: gregvanl
 manager: "justinclareburt"
 ms.workload: 
   - "willbrown"
 ---
 # How to: Make extensions compatible with Visual Studio 2017 and Visual Studio 2015
 
-This document explains how to make extensibility projects round-trip between Visual Studio 2015 and Visual Studio 2017. After completing this upgrade, a project will be able to open, build, install, and run in both Visual Studio 2015 and Visual Studio 2017.  As a reference, some extensions that can round-trip between Visual Studio 2015 and Visual Studio 2017 can be found [here](https://github.com/Microsoft/VSSDK-Extensibility-Samples) in Microsoft's extensibility examples.
+This document explains how to make extensibility projects round-trip between Visual Studio 2015 and Visual Studio 2017. After completing this upgrade, a project will be able to open, build, install, and run in both Visual Studio 2015 and Visual Studio 2017. As a reference, some extensions that can round-trip between Visual Studio 2015 and Visual Studio 2017 can be found in the [VS SDK extensibility samples](https://github.com/Microsoft/VSSDK-Extensibility-Samples).
 
 If you only intend to build in Visual Studio 2017, but want the output VSIX to run in both Visual Studio 2015 and Visual Studio 2017, then refer to the [Extension migration document](how-to-migrate-extensibility-projects-to-visual-studio-2017.md).
 
->**Note:** Due to changes in Visual Studio between versions, some things that worked in one version will not work another. Ensure that the features you are trying to access are available in both versions, or the extension will have unexpected results.
+> [!NOTE]
+> Due to changes in Visual Studio between versions, some things that worked in one version don't work in another. Ensure that the features you are trying to access are available in both versions or the extension will have unexpected results.
 
 Here is an outline of the steps you'll complete in this document to round-trip a VSIX:
 
@@ -51,13 +51,13 @@ Later in this document, we will insert conditional import statements in to your 
 If your project contains a *project.json* file:
 
 * Take a note of the references in *project.json*.
-* From the **Solution Explorer**, delete the *project.json* file from the project.
-    * This will delete the *project.json* file and remove it from the project.
-* Add the NuGet references back in to the project.
+* From the **Solution Explorer**, delete the *project.json* file from the project. This deletes the *project.json* file and removes it from the project.
+* Add the NuGet references back in to the project:
     * Right-click on the **Solution** and choose **Manage NuGet Packages for Solution**.
-    * Visual Studio automatically creates the *packages.config* file for you
+    * Visual Studio automatically creates the *packages.config* file for you.
 
->**Note:** If your project contained EnvDTE packages, they may need to be added by right clicking on **References** selecting **Add reference** and adding the appropriate reference.  Using NuGet packages may create errors while trying to build your project.
+> [!NOTE]
+> If your project contained EnvDTE packages, they may need to be added by right clicking on **References** selecting **Add reference** and adding the appropriate reference.  Using NuGet packages may create errors while trying to build your project.
 
 ## Add appropriate build tools
 
@@ -107,7 +107,8 @@ To do this manually:
 
 * Save and close the file.
 
->**Note:** If you choose to accomplish this with the VSIX designer in Visual Studio 2017, you will need to manually edit the Prerequisite version to ensure it is compatible with all versions of Visual Studio 2017.  This is because the designer will insert the minimum version as your current version of Visual Studio (for example, 15.0.26208.0).  However, since other users may have an earlier version, you will want to manually edit this to 15.0.
+> [!NOTE]
+> If you choose to accomplish this with the VSIX designer in Visual Studio 2017, you will need to manually edit the Prerequisite version to ensure it is compatible with all versions of Visual Studio 2017.  This is because the designer will insert the minimum version as your current version of Visual Studio (for example, 15.0.26208.0).  However, since other users may have an earlier version, you will want to manually edit this to 15.0.
 
 At this point, your manifest file should look something like this:
 
@@ -133,7 +134,8 @@ It is highly recommended to have a reference to a modified .csproj open while do
 
 * Add the following tag `<VsixType>v3</VsixType>` to a property group.
 
->**Note:** It is recommended to add this below the `<OutputType></OutputType>` tag.
+> [!NOTE]
+> It is recommended to add this below the `<OutputType></OutputType>` tag.
 
 ### 3. Add the debugging properties
 
@@ -205,4 +207,5 @@ At this point, your project should be ready to build a VSIXv3 that can install o
 
 ![Find a VSIX](media/finding-a-VSIX-example.png)
 
->**Note:** If your project hangs with the message **opening the file**, force shut down Visual Studio, navigate to your project directory, show hidden folders, and delete the *.vs* folder.
+> [!NOTE]
+> If your project hangs with the message **opening the file**, force shut down Visual Studio, navigate to your project directory, show hidden folders, and delete the *.vs* folder.

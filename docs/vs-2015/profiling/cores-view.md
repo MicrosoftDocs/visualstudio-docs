@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "Concurrency Visualizer, Cores View"
 ms.assetid: e47af672-9785-4899-bd45-4d9dda3c396f
 caps.latest.revision: 21
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Cores View

@@ -26,8 +26,8 @@ helpviewer_keywords:
   - "msvsmon.exe"
 ms.assetid: e5b18734-2daf-4c58-b5de-24ae1295703e
 caps.latest.revision: 13
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Error: The Microsoft Visual Studio Remote Debugging Monitor on the remote computer is running as a different user

@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "Visual Studio command table configuration files (VSCT), overview"
 ms.assetid: 1313adb4-add4-4e74-90e2-f4be522f5259
 caps.latest.revision: 23
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Visual Studio Command Table (.Vsct) Files

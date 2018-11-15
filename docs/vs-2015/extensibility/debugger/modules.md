@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], modules"
 ms.assetid: c4cf2809-dbdb-4e75-9273-b3d3d77b67d0
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Modules

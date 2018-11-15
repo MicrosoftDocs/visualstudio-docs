@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "BP_ERROR_RESOLUTION_INFO structure"
 ms.assetid: a6b83242-5728-4716-80f3-840c96d59c6c
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # BP_ERROR_RESOLUTION_INFO

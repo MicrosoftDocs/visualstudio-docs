@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "performance tools, enabling event trace providers"
 ms.assetid: aa2261fe-d5f5-49fc-a171-d18842e1dc7d
 caps.latest.revision: 31
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Collect Event Tracing for Windows (ETW) Data

@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "PointerType symbol"
 ms.assetid: 67228681-7345-4537-8af3-93806803ee96
 caps.latest.revision: 19
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # PointerType

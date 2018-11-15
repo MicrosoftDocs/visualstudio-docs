@@ -8,8 +8,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a2098fd9-8334-4e95-9b8d-bc3da689d9e3
 caps.latest.revision: 11
-author: "corob-msft"
-ms.author: gewarren
+author: mikeblome
+ms.author: mblome
 manager: "ghogen"
 ---
 # Using the C++ Core Guidelines checkers

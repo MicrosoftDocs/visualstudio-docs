@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IEnumDebugReferenceInfo2"
 ms.assetid: 7ed01441-686f-4032-8268-a4c750f19f85
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IEnumDebugReferenceInfo2

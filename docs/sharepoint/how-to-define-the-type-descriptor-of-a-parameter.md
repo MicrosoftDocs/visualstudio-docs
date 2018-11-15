@@ -22,7 +22,7 @@ ms.workload:
   - "office"
 ---
 # How to: Define the type descriptor of a parameter
-  A type descriptor contains properties that describe the data type of a parameter. A type descriptor can define a field, an entity, or a collection of entities. For more information, see [TypeDescriptor](http://msdn.microsoft.com/library/ms543392%28v=office.12%29.aspx).  
+  A type descriptor contains properties that describe the data type of a parameter. A type descriptor can define a field, an entity, or a collection of entities. For more information, see [TypeDescriptor](/previous-versions/office/developer/sharepoint-2007/ms543392\(v\=office.12\)).  
   
 ### To define the type descriptor of a parameter  
   
@@ -40,7 +40,7 @@ ms.workload:
   
 2.  In the list next to the **TypeName** property, choose the appropriate data type (for example, **Int32**).  
   
-     For information about other optional parameters, see [TypeDescriptor](http://msdn.microsoft.com/library/ms543392%28v=office.12%29.aspx).  
+     For information about other optional parameters, see [TypeDescriptor](/previous-versions/office/developer/sharepoint-2007/ms543392\(v\=office.12\)).  
   
 ### To define an entity  
   

@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "Concurrency Visualizer, Export Button (Concurrency Visualizer)"
 ms.assetid: 68550095-8a69-48ee-bb7e-eb5504810578
 caps.latest.revision: 8
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Export Button (Concurrency Visualizer)

@@ -370,7 +370,7 @@
       - name: Start a debugging session for a UWP app
         href: start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md
         items:
-        - name: Run UWP apps on a remote machine
+        - name: Debug UWP apps on a remote machine
           href: run-windows-store-apps-on-a-remote-machine.md
         - name: Run UWP apps in the simulator
           href: run-windows-store-apps-in-the-simulator.md
@@ -412,7 +412,7 @@
           href: debugging-preparation-windows-forms-applications.md
         - name: "Debugging preparation: Windows services"
           href: debugging-preparation-windows-services.md
-      - name: Diagnostic Messages in the Output window
+      - name: Send messages to the Output window
         href: diagnostic-messages-in-the-output-window.md
       - name: Assertions in managed code
         href: assertions-in-managed-code.md

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IEnumDebugFields::Clone method"
 ms.assetid: 7ec265a8-696f-45ce-a2a2-0a83e96fee1b
 caps.latest.revision: 6
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IEnumDebugFields::Clone

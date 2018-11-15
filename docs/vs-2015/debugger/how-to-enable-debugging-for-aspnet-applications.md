@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "debugging [Visual Studio], ASP.NET"
 ms.assetid: 3beed819-cece-4864-8184-bd410000973a
 caps.latest.revision: 40
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Enable Debugging for ASP.NET Applications

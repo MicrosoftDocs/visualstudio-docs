@@ -43,3 +43,7 @@ See the [MSBuild](/visualstudio/msbuild/msbuild) content for more information on
 
 * [Build your Xamarin App](/vsts/pipelines/apps/mobile/xamarin?view=vsts&tabs=vsts)
 * [Continuous Integration with Xamarin](https://developer.xamarin.com/guides/cross-platform/ci/)
+
+## See also
+
+- [Compile and build (Visual Studio on Windows)](/visualstudio/ide/compiling-and-building-in-visual-studio)

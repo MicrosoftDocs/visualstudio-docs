@@ -13,8 +13,8 @@ dev_langs:
   - "C++"
 ms.assetid: 46cde656-059b-4c20-9476-3ca68ccc9912
 caps.latest.revision: 6
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_isSingleInheritance

@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], symbol handler"
 ms.assetid: 5fce651b-fead-4418-81b0-a011df7644ab
 caps.latest.revision: 18
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Symbol Provider

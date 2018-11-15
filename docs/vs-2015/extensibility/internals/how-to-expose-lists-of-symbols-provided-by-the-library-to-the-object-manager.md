@@ -17,7 +17,7 @@ helpviewer_keywords:
   - "symbols, exposing lists to the object manager"
 ms.assetid: 19757068-bdaa-4e7e-85d6-f8ce5026a859
 caps.latest.revision: 26
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # How to: Expose Lists of Symbols Provided by the Library to the Object Manager

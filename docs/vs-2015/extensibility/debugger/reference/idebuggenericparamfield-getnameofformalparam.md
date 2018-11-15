@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "GetNameOfFormalParam"
 ms.assetid: 05032a83-49ce-4007-b5d6-7b56945b956c
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugGenericParamField::GetNameOfFormalParam

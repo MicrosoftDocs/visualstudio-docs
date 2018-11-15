@@ -8,7 +8,7 @@ dev_langs:
 helpviewer_keywords:
   - "coding conventions [EditorConfig]"
   - "EditorConfig coding conventions"
-  - "language conventions [EditorConfig]"
+  - "language code style rules [EditorConfig]"
   - "formatting conventions [EditorConfig]"
 author: kuhlenh
 ms.author: gewarren
@@ -29,7 +29,7 @@ See the end of this article for an [example .editorconfig file](#example-editorc
 
 There are three supported .NET coding convention categories:
 
-- [Language conventions](#language-conventions)
+- [Language code styles](#language-code-styles)
 
    Rules pertaining to the C# or Visual Basic language. For example, you can specify rules around using `var` or explicit types when defining variables, or preferring expression-bodied members.
 
@@ -41,13 +41,13 @@ There are three supported .NET coding convention categories:
 
    Rules regarding the naming of code elements. For example, you can specify that `async` methods must end in "Async".
 
-## Language conventions
+## Language code styles
 
-Rules for language conventions have the following format:
+Rules for language code styles have the following format:
 
 `options_name = false|true : none|silent|suggestion|warning|error`
 
-For each language convention rule, you must specify either **true** (prefer this style) or **false** (do not prefer this style), and a **severity**. The severity specifies the level of enforcement for that style.
+For each language code style rule, you must specify either **true** (prefer this style) or **false** (do not prefer this style), and a **severity**. The severity specifies the level of enforcement for that style.
 
 The following table lists the possible severity values and their effects:
 
@@ -59,7 +59,7 @@ Severity | Effect
 `warning` | When this style rule is violated, show a compiler warning.
 `error` | When this style rule is violated, show a compiler error.
 
-The following list shows the allowable language convention rules:
+The following list shows the allowable language code style settings:
 
 - .NET code style settings
     - ["This." and "Me." qualifiers](#this_and_me)
@@ -1813,7 +1813,7 @@ The following table shows the rule names, applicable languages, default values, 
 | ----------- | -------------------- | ----------------------| ---------------- |
 | csharp_space_after_cast | C# | false | 15.3 |
 | csharp_space_after_keywords_in_control_flow_statements | C# | true | 15.3 |
-| csharp_space_between_method_declaration_parameter_ list_parentheses | C# | false | 15.3 |
+| csharp_space_between_method_declaration_parameter_list_parentheses | C# | false | 15.3 |
 | csharp_space_between_method_call_parameter_list_parentheses | C# | false | 15.3 |
 | csharp_space_between_parentheses | C# | false | 15.3 |
 | csharp_space_before_colon_in_inheritance_clause | C# | true | 15.7 |
@@ -2238,7 +2238,7 @@ dotnet_naming_symbols.constant_fields.applicable_accessibilities  = *
 dotnet_naming_symbols.constant_fields.required_modifiers          = const
 
 ###############################
-# C# Coding Conventions       #
+# C# Code Style Rules         #
 ###############################
 
 [*.cs]
@@ -2255,7 +2255,7 @@ csharp_style_expression_bodied_properties = true:none
 csharp_style_expression_bodied_indexers = true:none
 csharp_style_expression_bodied_accessors = true:none
 
-# Pattern matching preferences
+# Pattern-matching preferences
 csharp_style_pattern_matching_over_is_with_cast_check = true:suggestion
 csharp_style_pattern_matching_over_as_with_null_check = true:suggestion
 
@@ -2308,9 +2308,9 @@ csharp_space_between_method_call_empty_parameter_list_parentheses = false
 csharp_preserve_single_line_statements = true
 csharp_preserve_single_line_blocks = true
 
-###############################
-# VB Coding Conventions       #
-###############################
+##################################
+# Visual Basic Code Style Rules  #
+##################################
 
 [*.vb]
 # Modifier preferences

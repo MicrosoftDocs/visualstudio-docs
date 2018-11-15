@@ -23,7 +23,7 @@ This displays the **Report a Problem** web page. You can use this page to view a
 
 ![report a problem webpage](media/report-problem-image2.png)
 
-Select the **Report a Problem** button on the web page. 
+Select the **Report a Problem** button on the web page.
 
 If you haven't already logged in to the Developer Community application, you'll be prompted to do so on the following page. Select the **Accept** button to authorize the Developer Community application for your Microsoft account:
 
@@ -35,4 +35,9 @@ Give a descriptive title for the issue along with any additional information abo
 
 ## Provide a suggestion
 
-Use the **Provide a Suggestion** link on the welcome page to direct you to [Visual Studio for Mac's UserVoice page](https://visualstudio.uservoice.com/forums/563332-visual-studio-for-mac). From here you can add new requests or vote on existing requests.
+Use the **Provide a Suggestion** link on the welcome page to direct you to [Visual Studio for Mac's Suggest a Feature page](https://developercommunity.visualstudio.com/content/idea/post.html?space=41). From here you can add new requests or vote on existing requests.
+
+## See also
+
+- [Report a problem with Visual Studio (on Windows)](/visualstudio/ide/how-to-report-a-problem-with-visual-studio-2017)
+- [Suggest a feature for Visual Studio](/visualstudio/ide/suggest-a-feature)

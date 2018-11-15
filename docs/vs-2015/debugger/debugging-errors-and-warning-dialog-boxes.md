@@ -24,8 +24,8 @@ helpviewer_keywords:
   - "errors [Visual Studio], debugger"
 ms.assetid: 73baaf39-3026-48c9-be48-8b9ba0063cde
 caps.latest.revision: 13
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Debugging Errors and Warning Dialog Boxes

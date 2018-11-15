@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugEngine2::SetRegistryRoot"
 ms.assetid: d0d81202-8a4a-4bc3-b297-30a047c5ec60
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugEngine2::SetRegistryRoot

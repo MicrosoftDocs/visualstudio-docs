@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugEvent2::GetAttributes"
 ms.assetid: 2ac5b5fb-da17-43f7-811a-313f677e60d7
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugEvent2::GetAttributes

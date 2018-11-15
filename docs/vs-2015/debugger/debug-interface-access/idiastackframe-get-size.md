@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaStackFrame::get_size method"
 ms.assetid: 71e2f5ab-4aa8-4922-aa8a-b7db97ee143c
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaStackFrame::get_size

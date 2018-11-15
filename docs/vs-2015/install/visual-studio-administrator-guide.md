@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "installing Visual Studio, administrator guide"
 ms.assetid: 4af353f5-6cfd-4ebe-bcfb-f42306e451a0
 caps.latest.revision: 76
-author: "TerryGLee"
-ms.author: "tglee"
+author: TerryGLee
+ms.author: tglee
 manager: "ghogen"
 ---
 # Visual Studio Administrator Guide

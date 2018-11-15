@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], terminating a program"
 ms.assetid: eedda0a3-5e05-44fe-841d-a2f4866ac72d
 caps.latest.revision: 8
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Terminating a Program

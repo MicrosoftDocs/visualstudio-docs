@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "UNMANAGED_ADDRESS_PHYSICAL structure"
 ms.assetid: fed09686-caa6-4efc-851e-a0432019e9d0
 caps.latest.revision: 7
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # UNMANAGED_ADDRESS_PHYSICAL

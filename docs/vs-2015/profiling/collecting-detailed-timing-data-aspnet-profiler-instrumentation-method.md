@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "instrumentation profiling method"
 ms.assetid: 29f2fc55-aaf7-4e18-a672-8815455fba73
 caps.latest.revision: 18
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Collecting Detailed Timing Data for an ASP.NET Web Application Using the Profiler Instrumentation Method from the Command Line

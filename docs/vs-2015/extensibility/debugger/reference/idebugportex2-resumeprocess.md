@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugPortEx2::ResumeProcess"
 ms.assetid: e80a6960-9456-4764-9320-e7b1bd57fe5d
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugPortEx2::ResumeProcess

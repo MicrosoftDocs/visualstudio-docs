@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "source control [Visual Studio SDK]"
 ms.assetid: 13d5728c-4e28-42e4-944a-a565b1765ef8
 caps.latest.revision: 14
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Source Control

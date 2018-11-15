@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "projects [Visual Studio SDK], nesting"
 ms.assetid: 12cce037-9840-4761-845e-5abd5fb317b0
 caps.latest.revision: 16
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Nesting Projects

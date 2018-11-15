@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "services, essentials"
 ms.assetid: fbe84ad9-efe1-48b1-aba3-b50b90424d47
 caps.latest.revision: 14
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Service Essentials

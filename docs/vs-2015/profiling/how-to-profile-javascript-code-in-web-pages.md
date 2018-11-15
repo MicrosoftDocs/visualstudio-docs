@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "web site performance profiling"
 ms.assetid: 37d02aad-ca4d-4eb0-bf66-ca3ecef31fbe
 caps.latest.revision: 32
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Profile JavaScript Code in Web Pages

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugThread2::CanSetNextStatement"
 ms.assetid: 7014af80-ff4f-4790-a34b-0528918d1fa3
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugThread2::CanSetNextStatement

@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "IDebugFunctionObject2::CreateStringObjectWithLength"
 ms.assetid: 1f43ec66-1615-4a4c-8b9d-e933f549f96d
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugFunctionObject2::CreateStringObjectWithLength

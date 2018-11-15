@@ -16,8 +16,8 @@ dev_langs:
   - "C++"
 ms.assetid: dd1723b7-4a43-47aa-9acf-d44afce78154
 caps.latest.revision: 8
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Debugging Windows Store and Windows Universal apps

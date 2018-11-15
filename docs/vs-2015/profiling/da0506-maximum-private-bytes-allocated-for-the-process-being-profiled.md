@@ -15,8 +15,8 @@ f1_keywords:
   - "vs.performance.506"
 ms.assetid: e9c43554-9a85-4d98-9fa4-3b19986e7b62
 caps.latest.revision: 12
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # DA0506: Maximum Private Bytes allocated for the Process being profiled

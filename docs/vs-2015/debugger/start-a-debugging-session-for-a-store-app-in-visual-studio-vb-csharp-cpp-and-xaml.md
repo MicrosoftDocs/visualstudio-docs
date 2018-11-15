@@ -36,8 +36,8 @@ dev_langs:
   - "C++"
 ms.assetid: 66ec0e79-8261-4c19-a618-3fd1b3f71bbd
 caps.latest.revision: 23
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Start a debugging session for a Store app in Visual Studio (VB, C#, C++ and XAML)

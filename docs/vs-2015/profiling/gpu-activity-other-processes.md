@@ -14,8 +14,8 @@ f1_keywords:
   - "vs.cv.threads.timeline.gpuactivity"
 ms.assetid: 8a68df65-eb63-452f-9285-fb4ffc92f2b2
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # GPU Activity (Other Processes)

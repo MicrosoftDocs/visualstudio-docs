@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "profiler"
 ms.assetid: 56a99c39-e7f6-4f48-ae56-04ab8e022bf7
 caps.latest.revision: 35
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Attach and Detach Performance Tools to Running Processes

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugObject2::IsUserData method"
 ms.assetid: 6ffa0d0e-f742-496d-acc7-db74c248bc45
 caps.latest.revision: 8
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugObject2::IsUserData

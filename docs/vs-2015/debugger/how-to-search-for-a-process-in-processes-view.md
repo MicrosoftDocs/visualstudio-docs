@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "processes, searching for"
 ms.assetid: 7cb97b37-4a95-4f1b-9eee-4910aa9c115b
 caps.latest.revision: 7
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Search for a Process in Processes View

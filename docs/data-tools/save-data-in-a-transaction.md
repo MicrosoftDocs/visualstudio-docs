@@ -21,9 +21,11 @@ ms.workload:
   - "data-storage"
 ---
 # Walkthrough: Save data in a transaction
+
 This walkthrough demonstrates how to save data in a transaction by using the <xref:System.Transactions> namespace. In this walkthrough, you'll create a Windows Forms application. You'll use the Data Source Configuration Wizard to create a dataset for two tables in the Northwind sample database. You'll add data bound controls to a Windows form, and you'll modify the code for the BindingNavigator's save button to update the database inside a TransactionScope.
 
 ## Prerequisites
+
 This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.
 
 1.  If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express), or through the **Visual Studio Installer**. In the Visual Studio Installer, SQL Server Express LocalDB can be installed as part of the **.NET desktop development** workload, or as an individual component.
@@ -41,9 +43,8 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
        After a short time, the query finishes running and the Northwind database is created.
 
 ## Create a Windows Forms application
- The first step is to create a **Windows Forms Application**.
 
-#### To create the new Windows project
+The first step is to create a **Windows Forms Application**.
 
 1. In Visual Studio, on the **File** menu, select **New** > **Project**.
 
@@ -56,9 +57,8 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
      The **SavingDataInATransactionWalkthrough** project is created and added to **Solution Explorer**.
 
 ## Create a database data source
- This step uses the **Data Source Configuration Wizard** to create a data source based on the `Customers` and `Orders` tables in the Northwind sample database.
 
-#### To create the data source
+This step uses the **Data Source Configuration Wizard** to create a data source based on the `Customers` and `Orders` tables in the Northwind sample database.
 
 1.  On the **Data** menu, select **Show Data Sources**.
 
@@ -85,24 +85,24 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
      The **NorthwindDataSet** is added to your project and the `Customers` and `Orders` tables appear in the **Data Sources** window.
 
 ## Add controls to the form
- You can create the data-bound controls by dragging items from the **Data Sources** window onto your form.
 
-#### To create data bound controls on the Windows form
+You can create the data-bound controls by dragging items from the **Data Sources** window onto your form.
 
--   In the **Data Sources** window, expand the **Customers** node.
+1. In the **Data Sources** window, expand the **Customers** node.
 
--   Drag the main **Customers** node from the **Data Sources** window onto **Form1**.
+2. Drag the main **Customers** node from the **Data Sources** window onto **Form1**.
 
-     A <xref:System.Windows.Forms.DataGridView> control and a tool strip (<xref:System.Windows.Forms.BindingNavigator>) for navigating records appear on the form. A [NorthwindDataSet](../data-tools/dataset-tools-in-visual-studio.md), `CustomersTableAdapter`, <xref:System.Windows.Forms.BindingSource>, and <xref:System.Windows.Forms.BindingNavigator> appear in the component tray.
+   A <xref:System.Windows.Forms.DataGridView> control and a tool strip (<xref:System.Windows.Forms.BindingNavigator>) for navigating records appear on the form. A [NorthwindDataSet](../data-tools/dataset-tools-in-visual-studio.md), `CustomersTableAdapter`, <xref:System.Windows.Forms.BindingSource>, and <xref:System.Windows.Forms.BindingNavigator> appear in the component tray.
 
--   Drag the related **Orders** node (not the main **Orders** node, but the related child-table node below the **Fax** column) onto the form below the **CustomersDataGridView**.
+3. Drag the related **Orders** node (not the main **Orders** node, but the related child-table node below the **Fax** column) onto the form below the **CustomersDataGridView**.
 
-     A <xref:System.Windows.Forms.DataGridView> appears on the form. An `OrdersTableAdapter` and <xref:System.Windows.Forms.BindingSource> appear in the component tray.
+   A <xref:System.Windows.Forms.DataGridView> appears on the form. An `OrdersTableAdapter` and <xref:System.Windows.Forms.BindingSource> appear in the component tray.
 
 ## Add a reference to the System.Transactions assembly
- Transactions use the <xref:System.Transactions> namespace. A project reference to the system.transactions assembly is not added by default, so you need to manually add it.
 
-#### To add a reference to the System.Transactions DLL file
+Transactions use the <xref:System.Transactions> namespace. A project reference to the system.transactions assembly is not added by default, so you need to manually add it.
+
+### To add a reference to the System.Transactions DLL file
 
 1.  On the **Project** menu, select **Add Reference**.
 
@@ -111,9 +111,10 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
      A reference to **System.Transactions** is added to the project.
 
 ## Modify the code in the BindingNavigator's SaveItem button
- For the first table dropped onto your form, code is added by default to the `click` event of the save button on the <xref:System.Windows.Forms.BindingNavigator>. You need to manually add code to update any additional tables. For this walkthrough, we refactor the existing save code out of the save button's click event handler. We also create a few more methods to provide specific update functionality based on whether the row needs to be added or deleted.
 
-#### To modify the auto-generated save code
+For the first table dropped onto your form, code is added by default to the `click` event of the save button on the <xref:System.Windows.Forms.BindingNavigator>. You need to manually add code to update any additional tables. For this walkthrough, we refactor the existing save code out of the save button's click event handler. We also create a few more methods to provide specific update functionality based on whether the row needs to be added or deleted.
+
+### To modify the auto-generated save code
 
 1.  Select the **Save** button on the **CustomersBindingNavigator** (the button with the floppy disk icon).
 
@@ -132,28 +133,28 @@ The order for reconciling changes to related data is as follows:
 
 -   Insert child records. (In this case, insert records in the `Orders` table.)
 
-#### To delete existing orders
+### To delete existing orders
 
 -   Add the following `DeleteOrders` method to **Form1**:
 
      [!code-vb[VbRaddataSaving#5](../data-tools/codesnippet/VisualBasic/save-data-in-a-transaction_2.vb)]
      [!code-csharp[VbRaddataSaving#5](../data-tools/codesnippet/CSharp/save-data-in-a-transaction_2.cs)]
 
-#### To delete existing customers
+### To delete existing customers
 
 -   Add the following `DeleteCustomers` method to **Form1**:
 
      [!code-vb[VbRaddataSaving#6](../data-tools/codesnippet/VisualBasic/save-data-in-a-transaction_3.vb)]
      [!code-csharp[VbRaddataSaving#6](../data-tools/codesnippet/CSharp/save-data-in-a-transaction_3.cs)]
 
-#### To add new customers
+### To add new customers
 
 -   Add the following `AddNewCustomers` method to **Form1**:
 
      [!code-vb[VbRaddataSaving#7](../data-tools/codesnippet/VisualBasic/save-data-in-a-transaction_4.vb)]
      [!code-csharp[VbRaddataSaving#7](../data-tools/codesnippet/CSharp/save-data-in-a-transaction_4.cs)]
 
-#### To add new orders
+### To add new orders
 
 -   Add the following `AddNewOrders` method to **Form1**:
 
@@ -162,9 +163,7 @@ The order for reconciling changes to related data is as follows:
 
 ## Run the application
 
-#### To run the application
-
--   Select **F5** to run the application.
+Press **F5** to run the application.
 
 ## See also
 

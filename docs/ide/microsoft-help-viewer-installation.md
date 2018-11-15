@@ -33,7 +33,7 @@ Another way to easily install Microsoft Help Viewer is via the **Quick Launch** 
 
    ![Quick Launch box](media/help_viewer_quick_launch.png)
 
-1. Choose the result called **Help Viewer (Indiviual Component)**.
+1. Choose the result called **Help Viewer (Individual Component)**.
 
 1. In the dialog box that opens, choose the **Install** button.
 

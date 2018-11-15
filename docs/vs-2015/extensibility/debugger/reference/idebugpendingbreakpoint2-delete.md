@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "Delete method"
 ms.assetid: 4cb5ed81-6f0c-41ce-a770-5adb6b4bf5d9
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugPendingBreakpoint2::Delete

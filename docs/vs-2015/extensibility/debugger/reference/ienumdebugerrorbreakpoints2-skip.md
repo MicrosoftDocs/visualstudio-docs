@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IEnumDebugErrorBreakpoints2::Skip"
 ms.assetid: a5a02b38-4e3a-4f0e-b529-f770c3485c8b
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IEnumDebugErrorBreakpoints2::Skip

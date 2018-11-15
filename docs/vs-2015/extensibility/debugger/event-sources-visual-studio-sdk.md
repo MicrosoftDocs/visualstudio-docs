@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], event sources"
 ms.assetid: b9ba0908-ae4c-4a64-aab1-bee453dd7a22
 caps.latest.revision: 9
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Event Sources (Visual Studio SDK)

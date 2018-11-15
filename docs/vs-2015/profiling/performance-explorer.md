@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "performance tools [Visual Studio ALM]"
 ms.assetid: df52b717-a55d-4b1d-8c2e-d5a6a38042f4
 caps.latest.revision: 50
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Performance Explorer

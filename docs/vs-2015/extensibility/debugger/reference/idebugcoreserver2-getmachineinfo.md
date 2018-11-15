@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugCoreServer2::GetInfo"
 ms.assetid: 8fa1a1d3-9fcb-4fb3-bf4e-e7172ac08d77
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugCoreServer2::GetMachineInfo

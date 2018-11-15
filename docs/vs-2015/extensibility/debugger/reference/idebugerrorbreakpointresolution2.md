@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugErrorBreakpointResolution2"
 ms.assetid: b1234216-0ac8-461d-b2a7-54f60f8f3262
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugErrorBreakpointResolution2

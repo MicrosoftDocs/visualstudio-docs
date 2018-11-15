@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "View menu commands"
 ms.assetid: 86a66cce-3436-4532-bc3e-3b0662c8b198
 caps.latest.revision: 6
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # View Menu Commands

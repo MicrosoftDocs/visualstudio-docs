@@ -16,8 +16,8 @@ f1_keywords:
   - "vs.performance.rules.DAManyKernelSamples"
 ms.assetid: c1f46f77-eb95-42e5-b340-d86bc9de41b4
 caps.latest.revision: 16
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # DA0003: Many kernel samples

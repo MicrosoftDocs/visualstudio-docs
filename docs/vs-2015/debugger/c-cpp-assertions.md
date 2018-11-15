@@ -31,8 +31,8 @@ helpviewer_keywords:
   - "failures, finding locations"
 ms.assetid: 2d7b0121-71aa-414b-bbb6-ede1093d0bfc
 caps.latest.revision: 25
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # C/C++ Assertions

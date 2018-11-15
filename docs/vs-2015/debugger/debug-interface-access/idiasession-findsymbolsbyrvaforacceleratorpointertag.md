@@ -13,8 +13,8 @@ dev_langs:
   - "C++"
 ms.assetid: a073cc45-0c7b-417e-b5fc-a3b08beccdbc
 caps.latest.revision: 6
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSession::findSymbolsByRVAForAcceleratorPointerTag

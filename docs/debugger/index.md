@@ -284,6 +284,19 @@ The Visual Studio debugger helps you observe the run-time behavior of your progr
         </div>
         </a>
     </li>
+    <li>
+        <a href="https://docs.microsoft.com/visualstudio/mac/debugging">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Debugging (Visual Studio for Mac)</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
 </ul>
 
 ---

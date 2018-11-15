@@ -13,7 +13,7 @@ f1_keywords:
   - "vs.diagnostics.managedmemoryanalysis"
 ms.assetid: 43341928-9930-48cf-a57f-ddcc3984b787
 caps.latest.revision: 9
-ms.author: "susanno"
+ms.author: mikejo
 manager: "douge"
 ---
 # Analyze .NET Framework memory issues

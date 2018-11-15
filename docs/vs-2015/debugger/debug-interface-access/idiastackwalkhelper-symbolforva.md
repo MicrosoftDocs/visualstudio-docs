@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaStackWalkHelper::symbolForVA method"
 ms.assetid: 8dd9455d-d44c-4dd6-a0aa-31131cbea2aa
 caps.latest.revision: 13
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaStackWalkHelper::symbolForVA

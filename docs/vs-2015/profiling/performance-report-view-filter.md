@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "Profiler Report View filter, profiling tools"
 ms.assetid: 35f89d86-4683-4db1-aa0c-ae0ce65fa524
 caps.latest.revision: 21
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Performance Report View Filter

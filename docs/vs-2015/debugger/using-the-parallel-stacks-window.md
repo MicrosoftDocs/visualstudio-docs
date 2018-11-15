@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "debugger, parallel tasks window"
 ms.assetid: f50efb78-5206-4803-bb42-426ef8133f2f
 caps.latest.revision: 22
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Using the Parallel Stacks Window

@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "solutions, managing project loading"
 ms.assetid: 097c89d0-f76a-4aaf-ada9-9a778bd179a0
 caps.latest.revision: 9
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Managing Project Loading in a Solution

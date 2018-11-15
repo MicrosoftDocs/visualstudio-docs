@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "getting started, source control plug-ins"
 ms.assetid: 46ac1f9f-4ecc-4a72-88d3-4c7e1647e1cb
 caps.latest.revision: 22
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Getting Started with Source Control Plug-ins

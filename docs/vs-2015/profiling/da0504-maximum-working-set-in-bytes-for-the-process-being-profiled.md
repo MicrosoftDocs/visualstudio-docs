@@ -15,8 +15,8 @@ f1_keywords:
   - "vs.performance.rules.DA0504"
 ms.assetid: 36e71603-ece7-4000-85fc-9da4eed61bf2
 caps.latest.revision: 12
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # DA0504: Maximum Working Set in Bytes for the Process being profiled

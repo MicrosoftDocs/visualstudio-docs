@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "CONTEXT_COMPARE enumeration"
 ms.assetid: 701ed61c-a320-4c20-a335-0b840024abc0
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # CONTEXT_COMPARE

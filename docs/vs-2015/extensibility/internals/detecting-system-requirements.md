@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "launch conditions"
 ms.assetid: 0ba94acf-bf0b-4bb3-8cca-aaac1b5d6737
 caps.latest.revision: 51
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Detecting System Requirements

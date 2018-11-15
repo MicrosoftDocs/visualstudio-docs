@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "IDebugComPlusSymbolProvider::ReplaceSymbols"
 ms.assetid: 82fbc8db-c4b1-432f-bec9-1a9dc09570be
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugComPlusSymbolProvider::ReplaceSymbols

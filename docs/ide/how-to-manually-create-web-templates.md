@@ -58,7 +58,7 @@ The following example shows a basic *vstemplate* file for a web project template
 
 ```xml
 <VSTemplate Version="2.0.0" Type="Project"
-    xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">>
+    xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
     <TemplateData>
         <Name>MyWebProjecStarterKit</Name>
         <Description>A simple web template</Description>

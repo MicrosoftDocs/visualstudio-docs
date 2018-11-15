@@ -18,8 +18,8 @@ dev_langs:
   - "C++"
 ms.assetid: 2d364caf-73af-4186-bf9b-af186331cbe8
 caps.latest.revision: 9
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Error: Ensure that DNS is Correctly Configured on the Target Computer

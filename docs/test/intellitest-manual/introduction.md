@@ -228,5 +228,5 @@ by design of the "rethrow" instruction.
 
 ## Further reading
 
-* [Introductory blog post](https://blogs.msdn.microsoft.com/visualstudioalm/2014/11/19/introducing-smart-unit-tests/) on MSDN.
+* [Introductory blog post](https://blogs.msdn.microsoft.com/devops/2014/11/19/introducing-smart-unit-tests/).
 * [Generate unit tests for your code with IntelliTest](../../test/generate-unit-tests-for-your-code-with-intellitest.md)

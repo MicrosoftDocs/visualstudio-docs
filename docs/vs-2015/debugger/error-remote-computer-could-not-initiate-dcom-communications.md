@@ -18,8 +18,8 @@ dev_langs:
   - "C++"
 ms.assetid: bbba0766-2502-4ef1-a75d-bf1f0db39e37
 caps.latest.revision: 15
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Error: Remote computer could not initiate DCOM communications

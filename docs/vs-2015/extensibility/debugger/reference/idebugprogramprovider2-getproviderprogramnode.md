@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugProgramProvider2::GetProviderProgramNode"
 ms.assetid: e62e8e83-acbb-4c52-aedf-ffbd4670db29
 caps.latest.revision: 14
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugProgramProvider2::GetProviderProgramNode

@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "Font dialog box"
 ms.assetid: 414c42a5-7168-46a9-bbea-6ab10f2d82a8
 caps.latest.revision: 7
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Font Dialog Box (Microsoft Spy++ Help)

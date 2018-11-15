@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugThreadDestroyEvent2"
 ms.assetid: fca3f603-9432-457b-9ddd-8b0ec17da046
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugThreadDestroyEvent2

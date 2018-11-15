@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], entering break mode"
 ms.assetid: e9a8a241-cd21-4d4e-999a-283554c288b1
 caps.latest.revision: 8
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Entering Break Mode

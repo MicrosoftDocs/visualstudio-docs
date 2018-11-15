@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "TemplateContent element [Visual Studio project templates]"
 ms.assetid: 90ae401c-b294-49ac-98da-e0d274f5bebb
 caps.latest.revision: 15
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # TemplateContent Element (Visual Studio Templates)

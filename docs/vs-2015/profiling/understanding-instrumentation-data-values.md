@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "instrumentation profiling method"
 ms.assetid: 2cf94cf9-c317-4a52-bf00-670f1262165e
 caps.latest.revision: 34
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Understanding Instrumentation Data Values

@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSession::findLinesByLinenum method"
 ms.assetid: 76d5622d-9a91-4c2a-a98f-263af5d1daef
 caps.latest.revision: 13
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSession::findLinesByLinenum

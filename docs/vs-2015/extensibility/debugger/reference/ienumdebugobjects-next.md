@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IEnumDebugObjects::Next method"
 ms.assetid: e54c3055-6030-4dc9-9f7a-5e3ce75f252f
 caps.latest.revision: 7
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IEnumDebugObjects::Next

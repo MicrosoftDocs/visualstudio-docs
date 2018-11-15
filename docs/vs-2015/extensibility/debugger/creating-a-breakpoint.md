@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], creating breakpoints"
 ms.assetid: 6f9f87bb-192e-45e0-9a7a-ffe729e87f7d
 caps.latest.revision: 9
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Creating a Breakpoint

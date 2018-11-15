@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSymbol::get_hasDebugInfo method"
 ms.assetid: 84cd2b67-0d83-4589-9ecb-a4bcbeed55f5
 caps.latest.revision: 10
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_hasDebugInfo

@@ -9,16 +9,15 @@ ms.assetid: 6958B102-8527-4B40-BC65-3505DB63F9D3
 
 # Customizing the build system
 
-MSbuild is a build engine, developed by Microsoft, that allows for the building of primarily .NET applications. The Mono framework also has its own implementation of Microsoft's Build Engine, called **xbuild**. However, xbuild has been phased out, in favor of using MSBuild on all operating systems.
+MSbuild is a build engine, developed by Microsoft, that allows for the building of primarily .NET applications. The Mono framework also has its own implementation of Microsoft's Build Engine, called **xbuild**. However, xbuild has been phased out in favor of using MSBuild on all operating systems.
 
-**MSbuild** is primarily used for as the build system for projects in Visual Studio for Mac. 
+**MSbuild** is primarily used for as the build system for projects in Visual Studio for Mac.
 
-MSBuild works by taking a set of inputs, such as source files, and transforms them to outputs, such as executables. It achieves this output by invoking tools such as the compiler. 
-
+MSBuild works by taking a set of inputs, such as source files, and transforms them to outputs, such as executables. It achieves this output by invoking tools such as the compiler.
 
 ## MSBuild file
 
-MSBuild uses an XML file, called a project file, that defines the *Items* that are part of your project (such as image resources), and the *Properties* required to build your project. This project file will always have a file extension ending in `proj`, such as `.csproj` for C# projects. 
+MSBuild uses an XML file, called a project file, that defines the *Items* that are part of your project (such as image resources), and the *Properties* required to build your project. This project file will always have a file extension ending in `proj`, such as `.csproj` for C# projects.
 
 ### Viewing the MSBuild file
 
@@ -56,7 +55,7 @@ There are two fundamental data types in MSBuild: *items* and *properties*, which
 
 Properties are key/value pairs, which are used to store settings that affect compilation, such as compiler options.
 
-They are set using a PropertyGroup and can contain any number of PropertiesGroups, which can contain any number of properties. 
+They are set using a PropertyGroup and can contain any number of PropertiesGroups, which can contain any number of properties.
 
 For example, the PropertyGroup for a simple console application might look like the following XML:
 
@@ -78,7 +77,7 @@ Properties can be referred to from expressions using the `$()` syntax. For examp
 
 Items provide a way of dealing with inputs into the build system as lists or sets, and typically represent files. Each item has an item *type*, an item *spec*, and optional arbitrary *metadata*. Note that MSBuild doesn't operate on individual items, it takes on all the items of a given type-called an item *set*
 
-Items are created by declaring an `ItemGroup`. There can be any number of ItemGroups, which can contain any number of items. 
+Items are created by declaring an `ItemGroup`. There can be any number of ItemGroups, which can contain any number of items.
 
 For example, the following code snippet creates the iOS Launch Screens. The Launch Screens have the build type `BundleResource`, with the spec as the path to the image:
 
@@ -99,5 +98,5 @@ For example, the following code snippet creates the iOS Launch Screens. The Laun
 
 The following resources can be used to learn about MSBuild in more detail:
 
-* [MSDN - Overview](https://msdn.microsoft.com/library/dd393574.aspx)
-* [MSDN - Concepts](https://msdn.microsoft.com/library/dd637714.aspx)
+* [MSBuild Overview](/visualstudio/msbuild/msbuild)
+* [MSBuild Concepts](/visualstudio/msbuild/msbuild-concepts)

@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSymbol::get_arrayIndexTypeId method"
 ms.assetid: 124f86e2-6f66-4541-87c3-799f435b731e
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_arrayIndexTypeId

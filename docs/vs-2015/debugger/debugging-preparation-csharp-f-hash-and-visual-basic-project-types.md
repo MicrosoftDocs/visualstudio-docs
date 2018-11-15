@@ -25,8 +25,8 @@ helpviewer_keywords:
   - "debugger, settings by project type"
 ms.assetid: 7a0535f6-1cd4-4b51-ad34-f4a45b9f1ce3
 caps.latest.revision: 28
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Debugging Preparation: C#, F#, and Visual Basic Project Types

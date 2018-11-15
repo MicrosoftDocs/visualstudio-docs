@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "Resource Contentions view"
 ms.assetid: 14a7f774-211f-4ef8-af05-94d1c8f65d2f
 caps.latest.revision: 14
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Resource Contentions View - Contention Data

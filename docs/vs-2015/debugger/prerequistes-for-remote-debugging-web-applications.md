@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "remote servers, debugging Web applications"
 ms.assetid: 1cd777b5-6d20-4ca6-a0df-51653b118469
 caps.latest.revision: 30
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Prerequistes for Remote Debugging Web Applications

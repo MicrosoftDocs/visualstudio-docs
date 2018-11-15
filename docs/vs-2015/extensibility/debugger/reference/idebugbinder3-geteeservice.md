@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugBinder3::GetEEService method"
 ms.assetid: eb07aa40-8cd9-4a52-a4c7-4affd2307a01
 caps.latest.revision: 13
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugBinder3::GetEEService

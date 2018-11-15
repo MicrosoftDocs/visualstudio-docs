@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSourceFile::get_compilands method"
 ms.assetid: 57deb50a-9c22-43ea-a80c-eab205997bc4
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSourceFile::get_compilands

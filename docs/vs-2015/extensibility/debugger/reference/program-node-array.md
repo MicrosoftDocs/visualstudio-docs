@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "PROGRAM_NODE_ARRAY structure"
 ms.assetid: 8eeea600-eda5-4b7c-868a-0b86d177b0a5
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # PROGRAM_NODE_ARRAY

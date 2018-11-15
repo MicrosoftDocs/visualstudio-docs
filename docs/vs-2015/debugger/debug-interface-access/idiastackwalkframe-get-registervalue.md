@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaStackWalkFrame::get_registerValue method"
 ms.assetid: ca3c20a9-934a-4b2c-a7f6-7d06e8611ff2
 caps.latest.revision: 12
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaStackWalkFrame::get_registerValue

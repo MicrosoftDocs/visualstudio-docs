@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "CONSTRUCTOR_ENUM enumeration"
 ms.assetid: 6d335b2c-66bc-460c-a4a6-4f3f1b697c2c
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # CONSTRUCTOR_ENUM

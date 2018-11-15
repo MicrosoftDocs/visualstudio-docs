@@ -13,8 +13,8 @@ dev_langs:
   - "C++"
 ms.assetid: 884014b1-5208-45ec-b0da-ad0070d2c24d
 caps.latest.revision: 6
-author: "BrianPeek"
-ms.author: "brpeek"
+author: corob-msft
+ms.author: corob
 manager: "ghogen"
 ---
 # Create an Android Native Activity App

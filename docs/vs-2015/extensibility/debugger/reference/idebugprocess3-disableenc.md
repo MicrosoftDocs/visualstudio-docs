@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugProcess3::DisableENC"
 ms.assetid: cffdbdac-4d76-4aeb-aa55-5d0410db99f1
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugProcess3::DisableENC

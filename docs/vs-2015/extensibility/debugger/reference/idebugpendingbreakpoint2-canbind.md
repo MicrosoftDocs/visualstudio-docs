@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "CanBind method"
 ms.assetid: 84a2b189-ccf1-467e-8fab-0c0da68f0b91
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugPendingBreakpoint2::CanBind

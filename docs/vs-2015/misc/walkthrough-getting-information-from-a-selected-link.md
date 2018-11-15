@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 4750d703-6ce4-458a-935a-f35922ad67d6
 caps.latest.revision: 8
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "kamrani"
 ---
 # Walkthrough: Getting Information from a Selected Link

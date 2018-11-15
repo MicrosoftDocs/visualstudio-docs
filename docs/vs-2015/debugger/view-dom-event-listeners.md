@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "event listeners, viewing [Windows Store apps]"
 ms.assetid: d5b679e7-87dd-4cec-9176-883db6ff0781
 caps.latest.revision: 26
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # View DOM event listeners

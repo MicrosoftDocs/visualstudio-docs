@@ -740,3 +740,5 @@
     href: getting-started-with-roslyn-analyzers.md
   - name: Roslyn Analyzers and Code-aware Library for ImmutableArrays
     href: roslyn-analyzers-and-code-aware-library-for-immutablearrays.md
+  - name: Roslyn package version reference
+    href: roslyn-version-support.md

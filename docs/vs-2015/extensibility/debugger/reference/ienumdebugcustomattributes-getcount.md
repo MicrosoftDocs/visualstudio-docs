@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IEnumDebugCustomAttributes::GetCount"
 ms.assetid: fafe826f-4ebf-4572-b2a3-d5dd2916c12f
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IEnumDebugCustomAttributes::GetCount

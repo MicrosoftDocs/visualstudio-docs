@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "port suppliers, implementing"
 ms.assetid: 6b8579df-58df-4c7f-8112-6015993e8765
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Implementing a Port Supplier

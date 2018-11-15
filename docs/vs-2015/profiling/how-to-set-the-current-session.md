@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "sessions, setting multiple"
 ms.assetid: a593e551-18ec-46fd-bfd5-8a045165a334
 caps.latest.revision: 21
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Set the Current Session

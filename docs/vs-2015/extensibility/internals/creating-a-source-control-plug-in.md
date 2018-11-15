@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "source control [Visual Studio SDK], plug-ins"
 ms.assetid: c7e69fa4-150e-469a-a6fc-fa1260bdbb07
 caps.latest.revision: 19
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Creating a Source Control Plug-in

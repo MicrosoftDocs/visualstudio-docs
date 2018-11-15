@@ -64,7 +64,7 @@ helpviewer_keywords:
   - "errors [debugger], Edit and Continue"
 ms.assetid: c0e12b0a-8009-4a4a-979f-c804a91a5d9b
 caps.latest.revision: 11
-ms.author: "susanno"
+ms.author: mikejo
 manager: "douge"
 ---
 # Edit and Continue Errors and Warnings (C#)

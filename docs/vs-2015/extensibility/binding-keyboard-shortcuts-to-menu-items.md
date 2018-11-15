@@ -17,7 +17,7 @@ helpviewer_keywords:
   - "menu items"
 ms.assetid: 19f483b6-4d3e-424e-9d68-dc129c788e47
 caps.latest.revision: 16
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Binding Keyboard Shortcuts to Menu Items

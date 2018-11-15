@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "EVALFLAGS enumeration"
 ms.assetid: 7b2cb14a-511a-4fef-9e4f-308139719fba
 caps.latest.revision: 13
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # EVALFLAGS

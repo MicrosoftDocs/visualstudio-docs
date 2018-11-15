@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "performance tools, VSInstr tool"
 ms.assetid: 7b1334f7-f9b0-4a82-a145-d0607bfa8467
 caps.latest.revision: 49
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # VSInstr

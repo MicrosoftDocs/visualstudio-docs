@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugProperty2 interface"
 ms.assetid: a7d5c70f-a1a5-4120-9f70-184e01c25bff
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugProperty2

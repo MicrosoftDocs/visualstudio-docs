@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "managed VSPackages, COM constants and macros"
 ms.assetid: b6663608-b049-44b0-a75b-080fdc5faafc
 caps.latest.revision: 17
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # COM Constants in Managed Code

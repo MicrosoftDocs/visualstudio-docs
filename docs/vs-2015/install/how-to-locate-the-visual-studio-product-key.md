@@ -14,8 +14,8 @@ f1_keywords:
   - "product keys"
 ms.assetid: 65536281-7843-4121-b4b7-61b498bbd5f5
 caps.latest.revision: 24
-author: "TerryGLee"
-ms.author: "tglee"
+author: TerryGLee
+ms.author: tglee
 manager: "ghogen"
 ---
 # How to: Locate the Visual Studio Product Key
