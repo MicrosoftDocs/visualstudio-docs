@@ -19,7 +19,7 @@ The **CPU Usage** tool can run on an open Visual Studio project, on an installed
 
 You can run the **CPU Usage** tool with or without debugging. In the debugger, you can turn CPU profiling on and off, and see a per-function breakdown of CPU usage. You can view CPU usage results when execution is paused, for example at a breakpoint.  
 
-The following instructions show how to use the **CPU Usage** tool outside of the debugger with the Visual Studio **Performance Profiler**. The examples use a Release build on a local machine. Release builds provide the best view of actual app performance. To analyze CPU usage with Debug builds, see [Beginner's guide to performance profiling](../profiling/beginners-guide-to-performance-profiling.md).
+The following instructions show how to use the **CPU Usage** tool without the debugger, using the Visual Studio **Performance Profiler**. The examples use a Release build on a local machine. Release builds provide the best view of actual app performance. To analyze CPU usage with Debug builds, see [Beginner's guide to performance profiling](../profiling/beginners-guide-to-performance-profiling.md).
 
 Usually, the local machine best replicates installed app execution. For Windows Phone apps, collecting data directly from the device provides the most accurate data. To collect data from a remote device, run the app directly on the device, not over a Remote Desktop Connection. 
 
@@ -38,7 +38,7 @@ Usually, the local machine best replicates installed app execution. For Windows 
   
     ![Select CPU Usage](../profiling/media/cpuuse_lib_choosecpuusage.png "Select CPU Usage")  
   
-4. After the app starts, the diagnostic session begins and displays CPU usage data. When you are finished collecting data, select **Stop Collection**.  
+4. After the app starts, the diagnostic session begins and displays CPU usage data. When you're finished collecting data, select **Stop Collection**.  
   
    ![Stop CPU Usage data collection](../profiling/media/cpu_use_wt_stopcollection.png "Stop CPU Usage data collection")  
   
@@ -72,7 +72,7 @@ To view the call tree, select the parent node in the report. The **CPU Usage** p
 |![Step 1](../profiling/media/procguid_1.png "ProcGuid_1")|The top-level node in CPU Usage call trees is a pseudo-node.|  
 |![Step 2](../profiling/media/procguid_2.png "ProcGuid_2")|In most apps, when the **Show External Code** option is disabled, the second-level node is an **[External Code]** node. The node contains the system and framework code that starts and stops the app, draws the UI, controls thread scheduling, and provides other low-level services to the app.|  
 |![Step 3](../profiling/media/procguid_3.png "ProcGuid_3")|The children of the second-level node are the user-code methods and asynchronous routines that are called or created by the second-level system and framework code.|  
-|![Step 4](../profiling/media/procguid_4.png "ProcGuid_4")|Child nodes of a method contain data only for the calls of the parent method. When **Show External Code** is disabled, app methods can also contain an **[External Code]** node.|  
+|![Step 4](../profiling/media/procguid_4.png "ProcGuid_4")|Child nodes of a method have data only for the calls of the parent method. When **Show External Code** is disabled, app methods can also contain an **[External Code]** node.|  
   
 ####  <a name="BKMK_External_Code"></a> External code  
 
@@ -86,7 +86,7 @@ To view the call tree, select the parent node in the report. The **CPU Usage** p
   
  ![Nested external code in the call tree](../profiling/media/cpu_use_wt_showexternalcodetoowide.png "Nested external code in the call tree")  
   
- To find a function name you are looking for, use the search box. Hover over the selected line or use the horizontal scroll bar to view the data.  
+ To find a function name you're looking for, use the search box. Hover over the selected line or use the horizontal scroll bar to view the data.  
   
  ![Search for nested external code](../profiling/media/cpu_use_wt_showexternalcodetoowide_found.png "Search for nested external code")  
   
