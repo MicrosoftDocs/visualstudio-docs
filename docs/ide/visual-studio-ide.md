@@ -18,11 +18,25 @@ ms.workload:
 
 The Visual Studio *integrated development environment* is a creative launching pad that you can use to edit, debug, and build code, and then publish an app. An integrated development environment (IDE) is a feature-rich program that can be used for many aspects of software development. Over and above the standard editor and debugger that most IDEs provide, Visual Studio includes compilers, code completion tools, graphical designers, and many more features to ease the software development process.
 
+![The Visual Studio IDE](../ide/media/visualstudioide.png)
+
+This image shows Visual Studio with an open project and several key tool windows you'll likely use:
+
+- [**Solution Explorer**](../ide/solutions-and-projects-in-visual-studio.md) (top right) lets you view, navigate, and manage your code files. **Solution Explorer** can help organize your code by grouping the files into [solutions and projects](quickstart-projects-solutions.md).
+
+- The [editor window](../ide/writing-code-in-the-code-and-text-editor.md) (center), where you'll likely spend a majority of your time, displays file contents. This is where you can edit code or design a user interface such as a window with buttons and text boxes.
+
+- The [Output window](../ide/reference/output-window.md) (bottom center) is where Visual Studio sends notifications such as debugging and error messages, compiler warnings, publishing status messages, and more. Each message source has its own tab.
+
+- [Team Explorer](/azure/devops/user-guide/work-team-explorer?view=vsts) (bottom right) lets you track work items and share code with others using version control technologies such as [Git](https://git-scm.com/) and [Team Foundation Version Control (TFVC)](/azure/devops/repos/tfvc/overview?view=vsts).
+
+This overview article introduces you to the basic features of the IDE. It walks you through trying some of the things you can do with Visual Studio, like creating a simple project, using [IntelliSense](using-intellisense.md) as a coding aid, and debugging an app to see the value of a variable during the program's execution.
+
+## Editions
+
 Visual Studio is available for Windows and Mac. [Visual Studio for Mac](/visualstudio/mac/) has many of the same features as Visual Studio 2017, and is optimized for developing cross-platform and mobile apps. This article focuses on the Windows version of Visual Studio 2017.
 
 There are three editions of Visual Studio 2017: Community, Professional, and Enterprise. See [Compare Visual Studio 2017 IDEs](https://visualstudio.microsoft.com/vs/compare/) to learn about which features are supported in each edition.
-
-This overview article introduces you to the basic features of the IDE. We'll walk through some things you can do with Visual Studio, including creating a simple project, using [IntelliSense](using-intellisense.md) as a coding aid, and debugging an app to see the value of a variable during the program's execution. We'll also take a tour of the various tool windows.
 
 ## Install the Visual Studio IDE
 
@@ -33,20 +47,6 @@ The modular installer enables you to choose and install *workloads*, which are g
 ![.NET Core cross-platform development workload in Visual Studio Installer](../ide/media/dotnet-core-cross-platform-workload.png)
 
 When you start Visual Studio for the first time, you can optionally [sign in](signing-in-to-visual-studio.md) using your Microsoft account, or your work or school account.
-
-## Tour of the IDE
-
-To give you a high-level visual overview of Visual Studio, the following image shows Visual Studio with an open project and several key tool windows you'll likely use:
-
-![The Visual Studio IDE](../ide/media/visualstudioide.png)
-
-- [**Solution Explorer**](../ide/solutions-and-projects-in-visual-studio.md) (top right) lets you view, navigate, and manage your code files. **Solution Explorer** can help organize your code by grouping the files into [solutions and projects](quickstart-projects-solutions.md).
-
-- The [editor window](../ide/writing-code-in-the-code-and-text-editor.md) (center), where you'll likely spend a majority of your time, displays file contents. This is where you can edit code or design a user interface such as a window with buttons and text boxes.
-
-- The [Output window](../ide/reference/output-window.md) (bottom center) is where Visual Studio sends notifications such as debugging and error messages, compiler warnings, publishing status messages, and more. Each message source has its own tab.
-
-- [Team Explorer](/azure/devops/user-guide/work-team-explorer?view=vsts) (bottom right) lets you track work items and share code with others using version control technologies such as [Git](https://git-scm.com/) and [Team Foundation Version Control (TFVC)](/azure/devops/repos/tfvc/overview?view=vsts).
 
 ### Popular productivity features
 
