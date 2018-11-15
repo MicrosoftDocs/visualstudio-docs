@@ -30,23 +30,11 @@ This image shows Visual Studio with an open project and several key tool windows
 
 - [Team Explorer](/azure/devops/user-guide/work-team-explorer?view=vsts) (bottom right) lets you track work items and share code with others using version control technologies such as [Git](https://git-scm.com/) and [Team Foundation Version Control (TFVC)](/azure/devops/repos/tfvc/overview?view=vsts).
 
-This overview article introduces you to the basic features of the IDE. It walks you through trying some of the things you can do with Visual Studio, like creating a simple project, using [IntelliSense](using-intellisense.md) as a coding aid, and debugging an app to see the value of a variable during the program's execution.
-
 ## Editions
 
 Visual Studio is available for Windows and Mac. [Visual Studio for Mac](/visualstudio/mac/) has many of the same features as Visual Studio 2017, and is optimized for developing cross-platform and mobile apps. This article focuses on the Windows version of Visual Studio 2017.
 
 There are three editions of Visual Studio 2017: Community, Professional, and Enterprise. See [Compare Visual Studio 2017 IDEs](https://visualstudio.microsoft.com/vs/compare/) to learn about which features are supported in each edition.
-
-## Install the Visual Studio IDE
-
-To get started, [download Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) and install it on your system.
-
-The modular installer enables you to choose and install *workloads*, which are groups of features needed for the programming language or platform you prefer. To follow the steps for [creating a program](#create-a-program), be sure to select the **.NET Core cross-platform development** workload during installation.
-
-![.NET Core cross-platform development workload in Visual Studio Installer](../ide/media/dotnet-core-cross-platform-workload.png)
-
-When you start Visual Studio for the first time, you can optionally [sign in](signing-in-to-visual-studio.md) using your Microsoft account, or your work or school account.
 
 ### Popular productivity features
 
@@ -100,9 +88,33 @@ Some of the popular features in Visual Studio that help you to be more productiv
 
    ![Peek to Definition](../ide/media/peek-definition.png)
 
+## Install the Visual Studio IDE
+
+This overview article walks you through creating a simple project and trying some of the things you can do with Visual Studio, like changing the color theme, using [IntelliSense](using-intellisense.md) as a coding aid and debugging an app to see the value of a variable during the program's execution. To get started, [download Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) and install it on your system.
+
+The modular installer enables you to choose and install *workloads*, which are groups of features needed for the programming language or platform you prefer. To follow the steps for [creating a program](#create-a-program), be sure to select the **.NET Core cross-platform development** workload during installation.
+
+![.NET Core cross-platform development workload in Visual Studio Installer](../ide/media/dotnet-core-cross-platform-workload.png)
+
+When you start Visual Studio for the first time, you can optionally [sign in](signing-in-to-visual-studio.md) using your Microsoft account, or your work or school account.
+
+## Customize Visual Studio
+
+You can personalize the Visual Studio user interface, including change the default color theme. To change to the **Dark** theme:
+
+1. On the menu bar, choose **Tools** > **Options** to open the **Options** dialog.
+
+2. On the **Environment** > **General** options page, change the **Color theme** selection to **Dark**, and then choose **OK**.
+
+   The color theme for the entire IDE changes to **Dark**.
+
+   ![Visual Studio in dark theme](media/quickstart-personalize-dark-theme.png)
+
+To learn about other ways you can personalize the IDE, see [Personalize Visual Studio](../ide/personalizing-the-visual-studio-ide.md).
+
 ## Create a program
 
-Let's dive in and create a new, simple program.
+Let's dive in and create a simple program.
 
 1. Open Visual Studio. On the menu, choose **File** > **New** > **Project**.
 
@@ -241,20 +253,6 @@ Let's set a breakpoint to see the value of the `username` variable while the pro
 1. To let the program run to completion, press **F5** again.
 
 To get more details about debugging in Visual Studio, see [Debugger feature tour](../debugger/debugger-feature-tour.md).
-
-## Customize Visual Studio
-
-You can personalize the Visual Studio user interface, including change the default color theme. To change to the **Dark** theme:
-
-1. On the menu bar, choose **Tools** > **Options** to open the **Options** dialog.
-
-2. On the **Environment** > **General** options page, change the **Color theme** selection to **Dark**, and then choose **OK**.
-
-   The color theme for the entire IDE changes to **Dark**.
-
-   ![Visual Studio in dark theme](media/quickstart-personalize-dark-theme.png)
-
-To learn about other ways you can personalize the IDE, see [Personalize Visual Studio](../ide/personalizing-the-visual-studio-ide.md).
 
 ## Next steps
 
