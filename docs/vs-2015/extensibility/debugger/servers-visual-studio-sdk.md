@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], servers"
 ms.assetid: 62236d64-7956-448c-9ac3-5528f3edac1d
 caps.latest.revision: 18
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Servers (Visual Studio SDK)

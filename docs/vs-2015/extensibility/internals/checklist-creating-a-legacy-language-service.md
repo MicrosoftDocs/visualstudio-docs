@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "language services, native code"
 ms.assetid: 8b73b341-a33a-4ab5-9390-178c9e563d2d
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Checklist: Creating a Legacy Language Service

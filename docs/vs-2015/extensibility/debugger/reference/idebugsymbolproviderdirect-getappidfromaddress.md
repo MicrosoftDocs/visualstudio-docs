@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "GetAppIDFromAddress"
 ms.assetid: d76a0f36-79c4-4c58-9db3-880b00d11610
 caps.latest.revision: 9
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugSymbolProviderDirect::GetAppIDFromAddress

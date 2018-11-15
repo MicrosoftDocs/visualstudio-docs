@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "MACHINE_INFO_FLAGS enumeration"
 ms.assetid: 1482095d-9a2e-4ef1-9e14-362c0b85194e
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # MACHINE_INFO_FLAGS

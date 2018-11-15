@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaFrameData::get_functionStart method"
 ms.assetid: 49fd24fb-65c2-4812-8303-56a968353e1b
 caps.latest.revision: 12
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaFrameData::get_functionStart

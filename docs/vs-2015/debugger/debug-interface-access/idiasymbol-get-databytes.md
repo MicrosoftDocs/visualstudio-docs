@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSymbol::get_dataBytes method"
 ms.assetid: 5eb37179-20d8-44ae-a72a-405c1b0435c4
 caps.latest.revision: 12
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_dataBytes

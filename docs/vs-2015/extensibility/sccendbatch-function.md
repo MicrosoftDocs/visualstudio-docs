@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "SccEndBatch function"
 ms.assetid: 100e7833-fe0a-45c0-9fca-3e61fd1165b7
 caps.latest.revision: 14
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # SccEndBatch Function

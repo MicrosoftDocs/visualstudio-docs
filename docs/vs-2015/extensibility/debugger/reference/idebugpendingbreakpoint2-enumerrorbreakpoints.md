@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "EnumErrorBreakpoints method"
 ms.assetid: 2f9a9720-c1ac-4430-8f28-200d85360452
 caps.latest.revision: 13
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugPendingBreakpoint2::EnumErrorBreakpoints

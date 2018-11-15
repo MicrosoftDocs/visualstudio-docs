@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugBinder3::GetTypeArgumentCount method"
 ms.assetid: caf68de6-6f7c-4efd-b803-121347a5032e
 caps.latest.revision: 8
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugBinder3::GetTypeArgumentCount

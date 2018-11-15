@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "file name extensions"
 ms.assetid: 99f4f9ff-fb84-4258-9787-6890f308a57f
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # About File Name Extensions

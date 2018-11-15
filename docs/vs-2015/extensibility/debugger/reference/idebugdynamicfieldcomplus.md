@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "IDebugDynamicFieldCOMPlus interface"
 ms.assetid: c3a25f27-327a-4bdb-b026-27d436ddcd0c
 caps.latest.revision: 7
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugDynamicFieldCOMPlus

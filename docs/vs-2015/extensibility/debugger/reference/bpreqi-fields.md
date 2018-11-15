@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "BPREQI_FIELDS enumeration"
 ms.assetid: 679e771e-4a79-484e-af37-f962ef4aa245
 caps.latest.revision: 15
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # BPREQI_FIELDS

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugProgram2::GetProgramId"
 ms.assetid: 2c31c0aa-2b71-46c7-849c-356e237d26f8
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugProgram2::GetProgramId

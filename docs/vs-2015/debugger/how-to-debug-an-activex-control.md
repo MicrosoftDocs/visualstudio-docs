@@ -27,8 +27,8 @@ helpviewer_keywords:
   - "testing [Visual Studio], ActiveX controls"
 ms.assetid: bbc02cf7-a7e6-44fe-99af-87a43e1d7251
 caps.latest.revision: 19
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Debug an ActiveX Control

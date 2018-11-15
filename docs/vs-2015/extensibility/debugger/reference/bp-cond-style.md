@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "BP_COND_STYLE enumeration"
 ms.assetid: a93b1412-f447-48a1-af9d-38f3dbb3092f
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # BP_COND_STYLE

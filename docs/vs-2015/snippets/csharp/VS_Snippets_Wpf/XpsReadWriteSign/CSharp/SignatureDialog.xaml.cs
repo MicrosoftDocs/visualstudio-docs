@@ -30,22 +30,22 @@ namespace SDKSample
             SignatureDef.Click += new RoutedEventHandler(SignatureDefinitionCommandHandler);
             Sign.Click += new RoutedEventHandler(SignCommandHandler);
             Done.Click += new RoutedEventHandler(DoneCommandHandler);
-            _signatureUtilities = new SignatureUtilites();
+            _signatureUtilities = new SignatureUtilities();
             InitializeSignatureDisplay();
 
         }
         #endregion
         #region Public Methods
-        public SignatureDisplayItem AddSignatureItem(XpsSignatureDefinition signatureDefintion)
+        public SignatureDisplayItem AddSignatureItem(XpsSignatureDefinition signatureDefinition)
         {
             SignatureDisplayItem item = new SignatureDisplayItem();
-            if (signatureDefintion != null)
+            if (signatureDefinition != null)
             {
-                item.Request = signatureDefintion.RequestedSigner;
-                item.Intent = signatureDefintion.Intent;
-                item.SignBy = signatureDefintion.SignBy.ToString();
-                item.Location = signatureDefintion.SigningLocale;
-                item.SigId = signatureDefintion.SpotId;
+                item.Request = signatureDefinition.RequestedSigner;
+                item.Intent = signatureDefinition.Intent;
+                item.SignBy = signatureDefinition.SignBy.ToString();
+                item.Location = signatureDefinition.SigningLocale;
+                item.SigId = signatureDefinition.SpotId;
             }
             this.SignatureList.Items.Add(item);
             return item;
@@ -161,7 +161,7 @@ namespace SDKSample
         }
         #endregion Private Methods
         #region Private Members
-        private SignatureUtilites _signatureUtilities;
+        private SignatureUtilities _signatureUtilities;
         private XpsDocument _xpsDocument;
         #endregion
 

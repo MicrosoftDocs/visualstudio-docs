@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IEnumDebugPrograms2::Reset"
 ms.assetid: b289242b-24ea-4df3-a811-20b0c8a903d6
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IEnumDebugPrograms2::Reset

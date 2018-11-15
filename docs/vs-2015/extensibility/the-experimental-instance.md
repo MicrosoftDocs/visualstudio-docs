@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "VSIP, experimental builds"
 ms.assetid: ead0df4e-6f88-4b42-9297-581b7902f050
 caps.latest.revision: 37
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # The Experimental Instance

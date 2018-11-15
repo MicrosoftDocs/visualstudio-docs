@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "debug engines, attaching to programs"
 ms.assetid: 362f00ac-1909-4a3a-bacb-c0ceb5549816
 caps.latest.revision: 9
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Launch-based Attachment

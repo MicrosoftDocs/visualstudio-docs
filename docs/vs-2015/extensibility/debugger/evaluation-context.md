@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "expression evaluation, context"
 ms.assetid: 008a20c7-1b27-4013-bf96-d6a3f510da02
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Evaluation Context

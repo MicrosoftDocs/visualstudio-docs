@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "registration, managed VSPackages"
 ms.assetid: 79b9424e-7e9b-4fc8-9b9f-00212674573c
 caps.latest.revision: 21
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Registering VSPackages

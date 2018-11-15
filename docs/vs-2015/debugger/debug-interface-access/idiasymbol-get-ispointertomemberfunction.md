@@ -13,8 +13,8 @@ dev_langs:
   - "C++"
 ms.assetid: aa9b5599-9602-41be-ab50-d84b90bee72f
 caps.latest.revision: 6
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_isPointerToMemberFunction

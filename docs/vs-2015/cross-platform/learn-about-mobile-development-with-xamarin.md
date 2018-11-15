@@ -8,7 +8,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e970d936-1df4-4c0c-96e3-ef6191295882
 caps.latest.revision: 14
-ms.author: "crdun"
+ms.author: crdun
 manager: "crdun"
 ---
 # Learn about mobile development with Xamarin

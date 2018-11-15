@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "BPERESI_FIELDS enumeration"
 ms.assetid: dd7dd89c-1043-46a1-a929-099cc039c344
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # BPERESI_FIELDS

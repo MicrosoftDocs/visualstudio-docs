@@ -23,8 +23,8 @@ helpviewer_keywords:
   - "debugging [Visual Basic], Stop statements vs. breakpoints"
 ms.assetid: 4ad3fe5c-3dfb-4913-b2eb-a0b635751c18
 caps.latest.revision: 16
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Stop Statements in Visual Basic

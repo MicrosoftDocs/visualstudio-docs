@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], port suppliers"
 ms.assetid: 0c2cdd40-9f6f-425e-b305-858f7734161e
 caps.latest.revision: 14
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Required Port Supplier Interfaces

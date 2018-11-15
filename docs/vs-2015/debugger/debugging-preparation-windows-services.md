@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "Windows Service applications, debugging"
 ms.assetid: ac0a99f7-ec3d-4a20-b17f-698a817fdcc2
 caps.latest.revision: 23
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Debugging Preparation: Windows Services

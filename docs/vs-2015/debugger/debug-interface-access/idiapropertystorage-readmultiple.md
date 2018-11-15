@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaPropertyStorage::ReadMultiple"
 ms.assetid: 6ccc9397-ce41-4f72-b261-72ac252cd4a5
 caps.latest.revision: 13
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaPropertyStorage::ReadMultiple

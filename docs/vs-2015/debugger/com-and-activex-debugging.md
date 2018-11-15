@@ -24,8 +24,8 @@ helpviewer_keywords:
   - "ActiveX controls, debugging"
 ms.assetid: 3260b2a7-3239-493d-9271-aedf705c13c7
 caps.latest.revision: 23
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # COM and ActiveX Debugging

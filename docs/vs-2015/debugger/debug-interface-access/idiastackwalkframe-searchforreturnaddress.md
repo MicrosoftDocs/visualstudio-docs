@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaStackWalkFrame::searchForReturnAddress method"
 ms.assetid: 1a54c50d-94af-4a43-ac4e-d80c5df156c3
 caps.latest.revision: 12
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaStackWalkFrame::searchForReturnAddress

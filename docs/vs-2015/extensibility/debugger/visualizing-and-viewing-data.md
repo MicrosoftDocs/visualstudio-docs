@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], visualizing data"
 ms.assetid: 699dd0f5-7569-40b3-ade6-d0fe53e832bc
 caps.latest.revision: 21
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Visualizing and Viewing Data

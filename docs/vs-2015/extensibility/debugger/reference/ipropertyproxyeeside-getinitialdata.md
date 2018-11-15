@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IPropertyProxyEESide::GetInitialData"
 ms.assetid: 36cceb19-2604-4ef9-b42b-5dd30cbe24b1
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IPropertyProxyEESide::GetInitialData

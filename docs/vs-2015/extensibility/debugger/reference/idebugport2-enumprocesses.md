@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugPort2::EnumProcesses"
 ms.assetid: aafb32c5-5790-4807-a448-878a80256438
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugPort2::EnumProcesses

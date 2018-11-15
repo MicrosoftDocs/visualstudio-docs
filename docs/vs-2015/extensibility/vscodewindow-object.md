@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "VsCodeWindow object"
 ms.assetid: cf5fe926-e784-4098-bc01-cac49c7c55c6
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # VSCodeWindow Object

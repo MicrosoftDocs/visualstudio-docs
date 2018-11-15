@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugBreakpointUnboundEvent2::GetReason"
 ms.assetid: 0f8a4fec-d3eb-417d-8516-4f7b51904033
 caps.latest.revision: 13
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugBreakpointUnboundEvent2::GetReason

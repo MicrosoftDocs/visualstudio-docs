@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "SupportsMasterPage element [Visual Studio Templates]"
 ms.assetid: ce877a6a-9bba-4fd9-92fb-0a8dfec9e75b
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # SupportsMasterPage Element (Visual Studio Templates)

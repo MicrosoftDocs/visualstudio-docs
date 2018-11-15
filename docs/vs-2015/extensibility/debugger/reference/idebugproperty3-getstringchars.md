@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugProperty3::GetStringChars"
 ms.assetid: 832c37f3-85cb-4227-8ab2-f27a80eafe90
 caps.latest.revision: 7
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugProperty3::GetStringChars

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "BP_REQUEST_INFO2 structure"
 ms.assetid: 008c87f7-a76e-43d3-8904-11b225d6a9a5
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # BP_REQUEST_INFO2

@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaEnumSymbols::Clone method"
 ms.assetid: 5c542025-98cf-4307-901f-b9430f780cf0
 caps.latest.revision: 10
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaEnumSymbols::Clone

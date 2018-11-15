@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugEngineProgram2::WatchForThreadStep"
 ms.assetid: b70922a3-1313-409a-b3b7-50c7cd13e394
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugEngineProgram2::WatchForThreadStep

@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK]"
 ms.assetid: 5653bac9-724f-4948-a820-68ce6aa96365
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Editor and Language Service Extensions

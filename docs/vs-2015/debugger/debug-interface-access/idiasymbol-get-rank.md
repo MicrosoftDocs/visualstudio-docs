@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSymbol::get_rank method"
 ms.assetid: 14cc9c4b-a5ec-414a-b01f-4a142c17b7cc
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_rank

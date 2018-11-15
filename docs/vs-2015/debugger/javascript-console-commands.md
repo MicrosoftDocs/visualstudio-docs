@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "debugging JavaScript, console [Windows Store apps]"
 ms.assetid: 359e2b24-6bb7-48e7-8b55-b570df0cb774
 caps.latest.revision: 50
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # JavaScript Console commands

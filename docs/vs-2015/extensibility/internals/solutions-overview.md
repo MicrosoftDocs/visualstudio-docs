@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "solutions, about solutions"
 ms.assetid: 3b21e3a1-170a-4485-941e-6b04b7b27886
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Solutions Overview

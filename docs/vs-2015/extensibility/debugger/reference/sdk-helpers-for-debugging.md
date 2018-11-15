@@ -17,7 +17,7 @@ helpviewer_keywords:
   - "metrics [Debugging SDK]"
 ms.assetid: 80a52e93-4a04-4ab2-8adc-a7847c2dc20b
 caps.latest.revision: 29
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # SDK Helpers for Debugging

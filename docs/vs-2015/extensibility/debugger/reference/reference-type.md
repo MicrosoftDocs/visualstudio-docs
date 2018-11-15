@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "REFERENCE_TYPE enumeration"
 ms.assetid: b1ffba10-eb9d-48ba-bf48-6d8b71d6f270
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # REFERENCE_TYPE

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "outlining, supporting in language services [managed package framework]"
 ms.assetid: 7b5578b4-a20a-4b94-ad4c-98687ac133b9
 caps.latest.revision: 16
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Outlining in a Legacy Language Service

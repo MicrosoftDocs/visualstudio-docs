@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ff978cc2-5a25-46d6-921b-e51adaa65992
 caps.latest.revision: 16
-ms.author: "crdun"
+ms.author: crdun
 manager: "crdun"
 ---
 # Application Lifecycle Management (ALM) with Xamarin apps

@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaInjectedSource::get_sourceCompression method"
 ms.assetid: 854b142f-23a9-466c-bf7f-98e581d5abcd
 caps.latest.revision: 12
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaInjectedSource::get_sourceCompression

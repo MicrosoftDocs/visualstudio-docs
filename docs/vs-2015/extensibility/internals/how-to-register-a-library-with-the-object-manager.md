@@ -17,7 +17,7 @@ helpviewer_keywords:
   - "libraries, symbol-browsing tools"
 ms.assetid: f124dd05-cb0f-44ad-bb2a-7c0b34ef4038
 caps.latest.revision: 27
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # How to: Register a Library with the Object Manager

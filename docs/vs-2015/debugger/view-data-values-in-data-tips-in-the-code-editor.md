@@ -23,8 +23,8 @@ helpviewer_keywords:
   - "DataTips tool"
 ms.assetid: ffa7bd18-439b-4685-a9b3-c7884b5de41f
 caps.latest.revision: 41
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # View data values in Data Tips  in the code editor

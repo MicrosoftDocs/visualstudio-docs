@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "Groups element (VSCT XML schema)"
 ms.assetid: 69faee18-cbf4-470a-b952-c1919c583df8
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Group Element

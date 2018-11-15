@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugSymbolProvider::GetMethodFieldsByName method"
 ms.assetid: 1f781320-81ef-4037-b068-f1864b271258
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugSymbolProvider::GetMethodFieldsByName

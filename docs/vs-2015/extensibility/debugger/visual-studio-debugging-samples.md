@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "Debugging SDK, samples"
 ms.assetid: fbcc42a7-7851-487f-b981-8c4ae7ec7347
 caps.latest.revision: 16
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Visual Studio Debugging Samples

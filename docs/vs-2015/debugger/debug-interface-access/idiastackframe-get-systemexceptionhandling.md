@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaStackFrame::get_systemExceptionHandling"
 ms.assetid: c76cf265-dea0-4159-883f-32b50bbef044
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaStackFrame::get_systemExceptionHandling

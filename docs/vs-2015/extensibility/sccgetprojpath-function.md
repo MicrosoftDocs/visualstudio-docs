@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "SccGetProjPath function"
 ms.assetid: 1079847e-d45f-4cb8-9d92-1e01ce5d08f6
 caps.latest.revision: 16
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # SccGetProjPath Function

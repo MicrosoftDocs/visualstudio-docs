@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugEngine2::ContinueFromSynchronousEvent"
 ms.assetid: 9a57dfcd-df8e-4be5-b1fe-bd853e3c6bb2
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugEngine2::ContinueFromSynchronousEvent

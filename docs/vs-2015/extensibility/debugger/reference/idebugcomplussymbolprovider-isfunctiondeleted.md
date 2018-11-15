@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "IDebugComPlusSymbolProvider::IsFunctionDeleted"
 ms.assetid: b276bd25-6658-4898-bc36-04ecdf92aa2f
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugComPlusSymbolProvider::IsFunctionDeleted

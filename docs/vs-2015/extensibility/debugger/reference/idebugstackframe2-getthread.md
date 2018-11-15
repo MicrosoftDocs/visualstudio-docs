@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugStackFrame2::GetThread"
 ms.assetid: cbeef85b-3dd7-4f97-adc2-c4d197d979fc
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugStackFrame2::GetThread

@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "we site projects, templates"
 ms.assetid: 37173c97-486b-4b3c-8ed3-cf5890c4de23
 caps.latest.revision: 13
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Web Site Support Templates

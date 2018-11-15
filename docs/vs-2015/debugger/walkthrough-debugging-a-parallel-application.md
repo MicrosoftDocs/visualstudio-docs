@@ -24,8 +24,8 @@ helpviewer_keywords:
   - "parallel applications, debugging [C#]"
 ms.assetid: 2820ac4c-c893-4d87-8c62-83981d561493
 caps.latest.revision: 31
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Walkthrough: Debugging a Parallel Application

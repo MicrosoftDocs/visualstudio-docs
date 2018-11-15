@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "tool windows, automation"
 ms.assetid: 512ab2a4-7987-4912-8f40-8804bf66f829
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # How to: Provide Automation for Windows

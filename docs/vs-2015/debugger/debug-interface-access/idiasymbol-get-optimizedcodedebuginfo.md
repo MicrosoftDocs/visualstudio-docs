@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSymbol::get_optimizedCodeDebugInfo method"
 ms.assetid: 57ef4170-37a9-46b0-8217-c1a674725113
 caps.latest.revision: 12
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_optimizedCodeDebugInfo

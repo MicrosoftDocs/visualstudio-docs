@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaEnumSegments::Skip method"
 ms.assetid: ec67039f-da8c-4e70-8db7-957d7d5281e8
 caps.latest.revision: 10
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaEnumSegments::Skip

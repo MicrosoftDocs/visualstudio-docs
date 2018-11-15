@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "Define element (VSCT XML schema)"
 ms.assetid: 5aee74e3-de41-4dc6-9618-93e158af56dd
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Define Element

@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "Add New Item dialog box, adding items"
 ms.assetid: 2f70863b-425b-4e65-86b4-d6a898e29dc7
 caps.latest.revision: 19
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Adding Items to the Add New Item Dialog Boxes

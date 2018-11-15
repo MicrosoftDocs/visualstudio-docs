@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "IDebugGenericParamField::ConstraintCount"
 ms.assetid: 76bef0cb-8a3c-4ce5-87cc-1809de229f33
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugGenericParamField::ConstraintCount

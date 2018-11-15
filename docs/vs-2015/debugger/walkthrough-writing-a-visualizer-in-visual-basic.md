@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "walkthroughs [Visual Studio], visualizers"
 ms.assetid: c93bf5a1-3e5e-422f-894e-bd72c9bc1b57
 caps.latest.revision: 25
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Walkthrough: Writing a Visualizer in Visual Basic

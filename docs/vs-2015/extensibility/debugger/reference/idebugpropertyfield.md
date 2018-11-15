@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugPropertyField interface"
 ms.assetid: b50edb2c-fb8d-4def-993d-17d23d2027c1
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugPropertyField

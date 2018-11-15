@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSymbol::get_hasSEH method"
 ms.assetid: 1a709ded-22c8-464c-97be-eba5e464210c
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_hasSEH

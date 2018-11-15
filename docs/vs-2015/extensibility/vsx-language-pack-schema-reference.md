@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "localize extension"
 ms.assetid: be48e639-340a-468a-9f5f-68911bfef93c
 caps.latest.revision: 9
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # VSX Language Pack Schema Reference

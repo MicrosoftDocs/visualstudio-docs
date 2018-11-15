@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "Messages view, controlling"
 ms.assetid: 32685ab2-6c5b-41fc-b429-29260caef585
 caps.latest.revision: 7
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Control Messages View

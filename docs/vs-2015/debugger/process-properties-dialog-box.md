@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "process properties, Spy++"
 ms.assetid: fe6c9d32-4b81-4dc4-a307-848d23af66ce
 caps.latest.revision: 8
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Process Properties Dialog Box

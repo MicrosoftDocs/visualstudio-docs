@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugObject2::GetICorDebugValue method"
 ms.assetid: bcd4355d-3fbe-483f-bb23-a44348323c6a
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugObject2::GetICorDebugValue

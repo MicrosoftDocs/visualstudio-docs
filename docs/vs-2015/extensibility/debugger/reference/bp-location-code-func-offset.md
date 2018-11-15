@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "BP_LOCATION_CODE_FUNC_OFFSET structure"
 ms.assetid: ab38f7ca-fa01-4cf3-a06c-56cbb7207617
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # BP_LOCATION_CODE_FUNC_OFFSET

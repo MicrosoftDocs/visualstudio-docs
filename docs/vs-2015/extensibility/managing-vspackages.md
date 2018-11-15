@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "VSPackages, loading"
 ms.assetid: 386e0ce5-4107-4164-b0cd-1cf43eb5e7cf
 caps.latest.revision: 36
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Managing VSPackages

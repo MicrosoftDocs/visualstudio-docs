@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "UML diagrams, generating code"
 ms.assetid: 2790e64d-7728-4c2e-a4dd-4131e795f730
 caps.latest.revision: 53
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
 manager: "douge"
 ---

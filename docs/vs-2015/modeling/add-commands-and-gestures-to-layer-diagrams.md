@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "layer diagrams, adding custom gestures"
 ms.assetid: ac9c417b-0b40-4a90-86f5-ee3cbdce030b
 caps.latest.revision: 40
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
 manager: "douge"
 ---

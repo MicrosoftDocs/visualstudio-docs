@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "interfaces, source control packages"
 ms.assetid: 3e96e838-5675-46bb-99cf-40d420086038
 caps.latest.revision: 27
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Related Services and Interfaces (Source Control VSPackage)

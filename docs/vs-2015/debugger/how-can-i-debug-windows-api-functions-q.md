@@ -25,8 +25,8 @@ helpviewer_keywords:
   - "APIs, debugging"
 ms.assetid: 7c126f57-62ab-4d94-9805-632d696ba1f0
 caps.latest.revision: 23
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How Can I Debug Windows API Functions?

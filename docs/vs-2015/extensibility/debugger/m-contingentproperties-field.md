@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "m_contingentProperties field, Task class [.NET Framework debug engines]"
 ms.assetid: 49e8cb36-db39-440b-acda-a325651f1165
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # m_contingentProperties Field

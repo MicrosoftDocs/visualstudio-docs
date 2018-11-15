@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSymbol::get_indirectVirtualBaseClass method"
 ms.assetid: 853b5c6f-e1cb-4675-ad36-9ee16e3341c3
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_indirectVirtualBaseClass

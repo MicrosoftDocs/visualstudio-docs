@@ -29,8 +29,8 @@ helpviewer_keywords:
   - "CvWriteMessageExA method"
 ms.assetid: e20ae7be-bfa7-437a-b8c1-fa0f1baa7f83
 caps.latest.revision: 8
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # CvWriteMessage Function

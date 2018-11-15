@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IEnumDebugProcesses2::Clone"
 ms.assetid: 3d4196d3-5a80-4f76-b8b2-f72e80c8d406
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IEnumDebugProcesses2::Clone

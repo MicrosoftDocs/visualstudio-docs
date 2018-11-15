@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CvCreateMarkerSeriesW method"
 ms.assetid: e280530b-137a-43a7-8643-aa514ab86ed7
 caps.latest.revision: 8
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # CvCreateMarkerSeries Function

@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaEnumFrameData::get_Count method"
 ms.assetid: 94374d27-e335-4e90-a442-233181ab8e58
 caps.latest.revision: 10
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaEnumFrameData::get_Count

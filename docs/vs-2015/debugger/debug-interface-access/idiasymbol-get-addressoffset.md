@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSymbol::get_addressOffset method"
 ms.assetid: c15639b0-7f37-46c7-891b-40273b7f6319
 caps.latest.revision: 12
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_addressOffset

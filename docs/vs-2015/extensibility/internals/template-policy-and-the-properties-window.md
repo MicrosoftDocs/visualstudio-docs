@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "Properties window, template policy"
 ms.assetid: 1d8019d3-5e57-47ba-b358-526b0796a63b
 caps.latest.revision: 16
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Template Policy and the Properties Window

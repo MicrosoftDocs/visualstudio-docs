@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "FIELD_KIND_EX enumeration"
 ms.assetid: 922c3208-1e94-485f-b70a-3bc96affeff8
 caps.latest.revision: 8
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # FIELD_KIND_EX

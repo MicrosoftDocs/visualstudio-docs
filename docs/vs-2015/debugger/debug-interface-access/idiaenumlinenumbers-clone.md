@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaEnumLineNumbers::Clone method"
 ms.assetid: fcd2479a-8ff7-4aba-a737-06123c280d54
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaEnumLineNumbers::Clone

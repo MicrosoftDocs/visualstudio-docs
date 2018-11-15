@@ -22,8 +22,8 @@ helpviewer_keywords:
   - "debugging [Visual Studio], access violations"
 ms.assetid: 780a298a-132e-4245-8370-8c82ca27c6c1
 caps.latest.revision: 22
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How Can I Debug Access Violations When Running My Program Outside the Debugger?

@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaReadExeAtOffsetCallback::ReadExecutableAt method"
 ms.assetid: 30b1cef0-b366-4712-8e89-d21f640964f8
 caps.latest.revision: 10
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaReadExeAtOffsetCallback::ReadExecutableAt

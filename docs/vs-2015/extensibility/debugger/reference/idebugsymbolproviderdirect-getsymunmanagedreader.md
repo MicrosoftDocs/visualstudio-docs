@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "IDebugSymbolProviderDirect::GetSymUnmanagedReader"
 ms.assetid: 147bacfa-f66c-43e0-8a72-e601058dc57f
 caps.latest.revision: 9
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugSymbolProviderDirect::GetSymUnmanagedReader

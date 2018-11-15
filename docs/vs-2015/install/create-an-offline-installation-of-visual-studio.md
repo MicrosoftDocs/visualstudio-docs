@@ -15,8 +15,8 @@ f1_keywords:
   - "ISO"
 ms.assetid: 85d65709-42be-449f-9663-914bf1045089
 caps.latest.revision: 22
-author: "TerryGLee"
-ms.author: "tglee"
+author: TerryGLee
+ms.author: tglee
 manager: "ghogen"
 ---
 # Create an Offline Installation of Visual Studio

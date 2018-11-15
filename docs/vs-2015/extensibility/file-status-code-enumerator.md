@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "file status code enumerator"
 ms.assetid: 5c37876b-c83c-4ca1-837b-57cd465a879a
 caps.latest.revision: 16
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # File Status Code Enumerator

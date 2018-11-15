@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "profiling tools, exclude short functions"
 ms.assetid: eaeead79-aafe-4490-86ff-6ed4cad9c15f
 caps.latest.revision: 18
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Exclude or Include Short Functions from Instrumentation

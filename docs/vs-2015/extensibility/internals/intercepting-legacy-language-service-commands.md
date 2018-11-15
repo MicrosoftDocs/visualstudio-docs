@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "language services, intercepting commands"
 ms.assetid: eea69f03-349c-44bb-bd4f-4925c0dc3e55
 caps.latest.revision: 14
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Intercepting Legacy Language Service Commands

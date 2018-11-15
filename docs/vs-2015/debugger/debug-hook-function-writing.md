@@ -25,8 +25,8 @@ helpviewer_keywords:
   - "debugging [CRT], debug hook functions"
 ms.assetid: 5510635f-cf69-4907-b72d-ae27af1f19af
 caps.latest.revision: 17
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Debug Hook Function Writing

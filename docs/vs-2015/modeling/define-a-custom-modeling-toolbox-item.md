@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "UML - extending, customizing the toolbox"
 ms.assetid: a2463606-1100-40ac-97f3-5ba22ca47b7c
 caps.latest.revision: 33
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
 manager: "douge"
 ---
