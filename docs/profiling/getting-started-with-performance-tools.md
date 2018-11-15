@@ -20,9 +20,9 @@ Visual Studio offers several ways to collect, view, and analyze code performance
 
 In many cases, the best way to get started with performance tools is to use the default settings of the **Performance Wizard**. The wizard collects app statistics that can point to performance issues in your code.  
   
-Performance warnings notify you of common coding issues. The warnings appear in the Visual Studio **Errors** window. You can navigate from the warning to your source code, and to detailed help topics that help you write more efficient code.
+Performance warnings that notify you of common coding issues appear in the Visual Studio **Errors** window. You can navigate from the warning to your source code, and to detailed help topics that help you write more efficient code.
 
-Performance reports provide views on the different levels of your application structure, from source code lines to processes. Performance reports show app execution data, from the calling and called functions of a specific function, to the call tree of the entire app.  
+Performance reports provide views on the different levels of your application structure, from source code lines to processes. Performance reports show app execution data, from the calling and called functions of a specific function to the call tree of the entire app.  
   
 To quickly profile a project, app, or ASP.NET website with the **Performance Wizard**, select **Debug** > **Performance Profiler**, and then select **Performance Wizard** from the list of available tools. For detailed instructions, see [Beginners guide to performance profiling](../profiling/beginners-guide-to-cpu-sampling.md) and [How to: Collect performance data for a website](../profiling/how-to-collect-performance-data-for-a-web-site.md).  
 
