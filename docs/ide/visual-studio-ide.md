@@ -98,20 +98,6 @@ The modular installer enables you to choose and install *workloads*, which are g
 
 When you start Visual Studio for the first time, you can optionally [sign in](signing-in-to-visual-studio.md) using your Microsoft account, or your work or school account.
 
-## Customize Visual Studio
-
-You can personalize the Visual Studio user interface, including change the default color theme. To change to the **Dark** theme:
-
-1. On the menu bar, choose **Tools** > **Options** to open the **Options** dialog.
-
-2. On the **Environment** > **General** options page, change the **Color theme** selection to **Dark**, and then choose **OK**.
-
-   The color theme for the entire IDE changes to **Dark**.
-
-   ![Visual Studio in dark theme](media/quickstart-personalize-dark-theme.png)
-
-To learn about other ways you can personalize the IDE, see [Personalize Visual Studio](../ide/personalizing-the-visual-studio-ide.md).
-
 ## Create a program
 
 Let's dive in and create a simple program.
@@ -253,6 +239,20 @@ Let's set a breakpoint to see the value of the `username` variable while the pro
 1. To let the program run to completion, press **F5** again.
 
 To get more details about debugging in Visual Studio, see [Debugger feature tour](../debugger/debugger-feature-tour.md).
+
+## Customize Visual Studio
+
+You can personalize the Visual Studio user interface, including change the default color theme. To change to the **Dark** theme:
+
+1. On the menu bar, choose **Tools** > **Options** to open the **Options** dialog.
+
+2. On the **Environment** > **General** options page, change the **Color theme** selection to **Dark**, and then choose **OK**.
+
+   The color theme for the entire IDE changes to **Dark**.
+
+   ![Visual Studio in dark theme](media/quickstart-personalize-dark-theme.png)
+
+To learn about other ways you can personalize the IDE, see [Personalize Visual Studio](../ide/personalizing-the-visual-studio-ide.md).
 
 ## Next steps
 
