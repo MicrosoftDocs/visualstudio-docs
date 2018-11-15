@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "performance tools, command-line tools"
 ms.assetid: 1d53972f-6f35-4842-8c74-1b627f18c70a
 caps.latest.revision: 26
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Walkthrough: Command-Line Profiling Using Sampling

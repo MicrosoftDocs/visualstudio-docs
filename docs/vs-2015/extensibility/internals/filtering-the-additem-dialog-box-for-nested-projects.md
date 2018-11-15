@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "nested projects, AddItem dialog box filtering"
 ms.assetid: 5b3e352e-7f18-4f66-be16-b0ad55637ce5
 caps.latest.revision: 13
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Filtering the AddItem Dialog Box for Nested Projects

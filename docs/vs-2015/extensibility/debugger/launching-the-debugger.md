@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "debugger [Debugging SDK], launching"
 ms.assetid: f24da1a1-f923-48b4-989f-18a22b581d1b
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Launching the Debugger

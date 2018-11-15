@@ -19,8 +19,8 @@ dev_langs:
   - "SQL"
 ms.assetid: a922754e-6deb-43c6-935d-cc6dcc2a74d4
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Error: Unable to connect to SQL Server on remote machine

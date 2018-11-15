@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "IDebugBoundBreakpoint2::GetState method"
 ms.assetid: a40a8382-295e-4916-aae6-ffe3a9cd3f2d
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugBoundBreakpoint2::GetState

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "DUMPTYPE enumeration"
 ms.assetid: ea8160db-8732-4056-a1d7-892ef72da71e
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # DUMPTYPE

@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "IDebugModule3::GetSymbolInfo method"
 ms.assetid: dda5e8e1-6878-4aa9-9ee4-e7d0dcc11210
 caps.latest.revision: 18
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugModule3::GetSymbolInfo

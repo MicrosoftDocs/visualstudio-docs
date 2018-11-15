@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugPropertyCreateEvent2::GetDebugProperty"
 ms.assetid: d7e43183-444c-4417-af19-82e28229f83a
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugPropertyCreateEvent2::GetDebugProperty

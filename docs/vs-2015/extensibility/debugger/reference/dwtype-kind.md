@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "dwTYPE_KIND enumeration"
 ms.assetid: 6ff56b0f-c502-4e6c-9829-bfa05361b783
 caps.latest.revision: 9
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # dwTYPE_KIND

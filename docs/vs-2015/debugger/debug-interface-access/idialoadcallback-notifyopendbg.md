@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaLoadCallback::NotifyOpenDBG method"
 ms.assetid: dbc4dcf0-4ace-4dce-9790-0fdaf3a23d3b
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaLoadCallback::NotifyOpenDBG

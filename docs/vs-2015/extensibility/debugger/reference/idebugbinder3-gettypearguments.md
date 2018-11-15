@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugBinder3::GetTypeArguments method"
 ms.assetid: fa0c37a7-327f-463e-9a9d-bb3f534584cb
 caps.latest.revision: 8
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugBinder3::GetTypeArguments

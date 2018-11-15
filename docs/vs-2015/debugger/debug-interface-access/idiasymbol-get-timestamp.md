@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSymbol::get_timeStamp method"
 ms.assetid: 5d707b76-dbaa-4d88-86c3-6f3672cc6d4c
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_timeStamp

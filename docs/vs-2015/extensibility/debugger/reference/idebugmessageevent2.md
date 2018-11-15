@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugMessageEvent2 interface"
 ms.assetid: a9ff3d00-e9ac-4cd6-bda9-584a4815aff8
 caps.latest.revision: 13
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugMessageEvent2

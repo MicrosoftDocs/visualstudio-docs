@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IEEVisualizerService::GetCustomViewerList method"
 ms.assetid: 249d26ca-914f-43af-a400-8162477223f4
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IEEVisualizerService::GetCustomViewerList

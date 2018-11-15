@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaEnumSymbols::get_Count method"
 ms.assetid: fdaae6d7-e67b-4262-84c9-fbae381e8297
 caps.latest.revision: 10
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaEnumSymbols::get_Count

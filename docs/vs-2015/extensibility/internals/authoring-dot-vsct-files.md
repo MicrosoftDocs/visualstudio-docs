@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "VSCT files, manual authoring"
 ms.assetid: e9f715dc-12b7-439b-bdf3-f3dc75e62f1c
 caps.latest.revision: 13
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Authoring .Vsct Files

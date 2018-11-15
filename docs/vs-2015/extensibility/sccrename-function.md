@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "SccRename function"
 ms.assetid: b467ade6-a1db-4c0b-b60f-7850ec4f79eb
 caps.latest.revision: 13
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # SccRename Function

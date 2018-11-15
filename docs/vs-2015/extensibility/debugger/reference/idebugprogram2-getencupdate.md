@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugProgram2::GetENCUpdate"
 ms.assetid: 9832aac8-6320-4fd8-91dd-2a0852febb00
 caps.latest.revision: 15
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugProgram2::GetENCUpdate

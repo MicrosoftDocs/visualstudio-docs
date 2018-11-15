@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "IDebugDocumentPositionOffset2 interface"
 ms.assetid: f1b05db3-50d8-453f-a72f-e68b239236a4
 caps.latest.revision: 8
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugDocumentPositionOffset2

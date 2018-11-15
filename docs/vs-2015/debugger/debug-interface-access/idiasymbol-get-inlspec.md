@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSymbol::get_InlSpec method"
 ms.assetid: 30af6a2f-be84-429e-a96a-d0f9ed9343fb
 caps.latest.revision: 10
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_InlSpec

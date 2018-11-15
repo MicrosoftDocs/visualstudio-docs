@@ -16,8 +16,8 @@ dev_langs:
   - "C++"
 ms.assetid: f7f08402-610e-47f0-ba10-575dd395a0f0
 caps.latest.revision: 5
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Debugging Applications

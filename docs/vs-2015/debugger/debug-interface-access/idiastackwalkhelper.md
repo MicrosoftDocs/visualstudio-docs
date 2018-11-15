@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaStackWalkHelper2 interface"
 ms.assetid: d66e5c84-565d-494e-8486-f91db9a34548
 caps.latest.revision: 18
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaStackWalkHelper

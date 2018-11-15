@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugFunctionObject::CreateObject method"
 ms.assetid: c4c99dd5-609a-4e7c-8f29-eb728f57e995
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugFunctionObject::CreateObject

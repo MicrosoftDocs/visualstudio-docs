@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "IDebugIDECallback interface"
 ms.assetid: 8d31adc0-1c44-4658-8d4f-f4b73e35f4a6
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugIDECallback

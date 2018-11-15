@@ -15,7 +15,7 @@ helpviewer_keywords:
   - ".sln files, VSPackages"
 ms.assetid: 7d7ef539-2e4b-4637-b853-8ec7626609df
 caps.latest.revision: 14
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Solution (.Sln) File

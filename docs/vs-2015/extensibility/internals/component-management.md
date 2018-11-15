@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "installation [Visual Studio SDK], file management"
 ms.assetid: 029bffa2-6841-4caa-a41a-442467e1aedc
 caps.latest.revision: 14
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Component Management

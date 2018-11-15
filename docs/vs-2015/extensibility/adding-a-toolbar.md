@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "IDE, adding toolbars"
 ms.assetid: 17302c25-6f59-4e97-8c85-54f95336a07f
 caps.latest.revision: 39
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Adding a Toolbar

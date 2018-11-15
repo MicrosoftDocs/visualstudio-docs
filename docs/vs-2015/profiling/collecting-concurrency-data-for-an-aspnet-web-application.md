@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "sampling profling method"
 ms.assetid: f8383ab1-eb49-4d3f-8608-d8b4d51a81be
 caps.latest.revision: 22
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Collecting Application Statistics for ASP.NET Web Applications Using the Profiler Sampling Method from the Command Line

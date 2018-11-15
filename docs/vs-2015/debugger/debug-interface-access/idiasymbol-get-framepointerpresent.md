@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSymbol::get_framePointerPresent method"
 ms.assetid: d036090a-1651-454d-9130-b798f58ba053
 caps.latest.revision: 8
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_framePointerPresent

@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "profiling tools, packsymbols"
 ms.assetid: 8b802505-e94d-4ee0-83e4-fdd790a332c1
 caps.latest.revision: 18
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Saving Symbol Information with Performance Data Files

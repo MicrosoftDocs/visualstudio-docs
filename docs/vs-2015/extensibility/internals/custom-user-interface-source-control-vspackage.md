@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "source control packages, user interface"
 ms.assetid: f35ddb24-53bf-461e-b34f-7414f657c082
 caps.latest.revision: 29
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Custom User Interface (Source Control VSPackage)

@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaEnumSourceFiles interface"
 ms.assetid: 5c0779a6-a2ea-408a-90da-ebdecf2b83c0
 caps.latest.revision: 15
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaEnumSourceFiles

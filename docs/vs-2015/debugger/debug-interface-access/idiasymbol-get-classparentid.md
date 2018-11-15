@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSymbol::get_classParentId method"
 ms.assetid: f11e3ccb-215d-418c-b8c3-e63159234915
 caps.latest.revision: 12
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_classParentId

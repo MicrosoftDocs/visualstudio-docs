@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "status bars, overview"
 ms.assetid: f955115c-4c5f-45ec-b41b-365868c5ec0c
 caps.latest.revision: 24
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Extending the Status Bar

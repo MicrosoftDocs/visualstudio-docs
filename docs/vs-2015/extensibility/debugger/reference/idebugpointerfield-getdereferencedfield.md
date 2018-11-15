@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugPointerField::GetDereferencedField method"
 ms.assetid: 8de988ab-cd79-4287-be72-3c900f2fe407
 caps.latest.revision: 8
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugPointerField::GetDereferencedField

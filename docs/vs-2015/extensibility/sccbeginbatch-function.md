@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "SccBeginBatch function"
 ms.assetid: 33968183-2e15-4e0d-955b-ca12212d1c25
 caps.latest.revision: 15
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # SccBeginBatch Function

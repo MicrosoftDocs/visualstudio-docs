@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSymbol::get_registerId method"
 ms.assetid: f881e793-eb9e-48dc-a847-dd61d77174fc
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_registerId

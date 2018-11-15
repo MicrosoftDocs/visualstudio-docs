@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "thunk symbol"
 ms.assetid: 01abb95f-d89a-465c-a4eb-8e8509598c95
 caps.latest.revision: 20
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Thunk

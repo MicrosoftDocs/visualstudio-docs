@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "extension schema"
 ms.assetid: 0da81b98-f5e3-40d3-ba9a-94551378d0b4
 caps.latest.revision: 26
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # VSIX Extension Schema 2.0 Reference

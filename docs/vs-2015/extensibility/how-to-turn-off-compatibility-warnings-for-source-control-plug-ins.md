@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "compatibility warnings, turning off"
 ms.assetid: ba318e12-921b-4b7a-a8c2-12c712be1dbf
 caps.latest.revision: 22
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # How to: Turn Off Compatibility Warnings for Source Control Plug-ins

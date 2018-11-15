@@ -13,8 +13,8 @@ dev_langs:
   - "C++"
 ms.assetid: 17a20542-5b45-478f-bb80-0d56031aadb5
 caps.latest.revision: 6
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_isAcceleratorGroupSharedLocal

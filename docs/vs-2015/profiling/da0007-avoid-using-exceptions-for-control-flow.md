@@ -16,8 +16,8 @@ f1_keywords:
   - "vs.performance.DA0007"
 ms.assetid: ee8ba8b5-2313-46c9-b129-3f3a2a232898
 caps.latest.revision: 18
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # DA0007: Avoid using exceptions for control flow

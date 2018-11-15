@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "project systems, environment-defined commands"
 ms.assetid: 0e33b8e9-16fa-4400-a941-e92d56120e7e
 caps.latest.revision: 20
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDE-Defined Commands for Extending Project Systems

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "persistence, supporting Open File command"
 ms.assetid: 4fff0576-b2f3-4f17-9769-930f926f273c
 caps.latest.revision: 14
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Displaying Files By Using the Open File Command

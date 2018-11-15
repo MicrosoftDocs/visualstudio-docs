@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a94d6907-55f2-4874-9571-51d52d6edcfd
 caps.latest.revision: 20
-author: "corob-msft"
-ms.author: gewarren
+author: mikeblome
+ms.author: mblome
 manager: "ghogen"
 ---
 # Understanding SAL

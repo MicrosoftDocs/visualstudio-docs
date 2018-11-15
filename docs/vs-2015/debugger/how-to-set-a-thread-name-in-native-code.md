@@ -22,8 +22,8 @@ helpviewer_keywords:
   - "debugging [Visual Studio], threads"
 ms.assetid: c85d0968-9f22-4d69-87f4-acca2ae777b8
 caps.latest.revision: 40
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Set a Thread Name in Native Code

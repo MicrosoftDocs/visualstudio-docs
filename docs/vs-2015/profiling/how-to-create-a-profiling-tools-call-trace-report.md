@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "ETW [Visual Studio ALM], viewing data"
 ms.assetid: 7640520a-7d3c-456c-b184-872a5d2f82f3
 caps.latest.revision: 24
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Create a Profiling Tools Call Trace Report

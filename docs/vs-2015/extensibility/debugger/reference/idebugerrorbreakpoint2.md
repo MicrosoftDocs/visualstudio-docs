@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugErrorBreakpoint2 interface"
 ms.assetid: 1f2a4b94-3713-46e9-8272-3917187792bd
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugErrorBreakpoint2

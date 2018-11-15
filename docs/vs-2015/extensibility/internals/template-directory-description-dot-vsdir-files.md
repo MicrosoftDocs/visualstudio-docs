@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "template directory description files"
 ms.assetid: 9df51800-190e-4662-b685-fdaafcff1400
 caps.latest.revision: 9
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Template Directory Description (.Vsdir) Files

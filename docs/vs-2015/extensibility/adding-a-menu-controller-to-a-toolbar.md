@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "menu controllers, adding to toolbars"
 ms.assetid: 6af9b0b4-037f-404c-bb40-aaa1970768ea
 caps.latest.revision: 39
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Adding a Menu Controller to a Toolbar

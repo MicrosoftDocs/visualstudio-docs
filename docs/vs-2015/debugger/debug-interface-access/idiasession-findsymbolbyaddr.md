@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSession::findSymbolByAddr method"
 ms.assetid: c130abc5-4d0a-4d2d-8286-94fde36ddd4a
 caps.latest.revision: 12
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSession::findSymbolByAddr

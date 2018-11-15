@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "BP_LOCATION_RESOLUTION structure"
 ms.assetid: 86ea2c8a-54a3-48e8-83c7-18a515273129
 caps.latest.revision: 9
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # BP_LOCATION_RESOLUTION

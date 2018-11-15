@@ -15,8 +15,8 @@ f1_keywords:
   - "vs.performance.DA0017"
 ms.assetid: 01011eec-5930-43b3-980d-2cb01e2ca7f6
 caps.latest.revision: 12
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # DA0017: High rates of paging active memory to disk

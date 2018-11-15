@@ -13,8 +13,8 @@ dev_langs:
   - "C++"
 ms.assetid: cc4ea375-76f6-4ba8-baed-c5fa82108137
 caps.latest.revision: 6
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_isAcceleratorStubFunction

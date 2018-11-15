@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "IDebugIDECallback::DisplayMessage"
 ms.assetid: c19b48ee-b370-4fce-91fe-f82bf1e63179
 caps.latest.revision: 9
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugIDECallback::DisplayMessage

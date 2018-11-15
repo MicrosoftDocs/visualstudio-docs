@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IEnumDebugErrorBreakpoints2::Reset"
 ms.assetid: d5b04bba-a8b9-4141-94fb-250c77f0534c
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IEnumDebugErrorBreakpoints2::Reset

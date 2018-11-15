@@ -32,7 +32,7 @@ helpviewer_keywords:
   - "debugging [Visual Studio], visualizing the call stack"
 ms.assetid: d6a72e5e-f88d-46fc-94a3-1789d34805ef
 caps.latest.revision: 43
-author: "mikejo5000"
+author: MikeJo5000
 ms.author: gewarren
 manager: "douge"
 ---

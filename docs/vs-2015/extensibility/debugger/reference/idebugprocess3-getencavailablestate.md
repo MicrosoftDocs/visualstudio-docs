@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugProcess3::GetENCAvailableState"
 ms.assetid: 98a5d527-8a72-476c-8e92-0bff3d97c195
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugProcess3::GetENCAvailableState

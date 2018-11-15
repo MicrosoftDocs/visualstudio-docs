@@ -16,8 +16,8 @@ dev_langs:
   - "C++"
 ms.assetid: 5fd98a5b-2cf3-4438-8b0f-6f1a742a62ce
 caps.latest.revision: 5
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Error: Remote machine does not appear in a Remote Connections dialog

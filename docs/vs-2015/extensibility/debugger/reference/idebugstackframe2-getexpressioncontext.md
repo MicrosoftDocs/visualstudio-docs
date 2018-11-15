@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugStackFrame2::GetExpressionContext"
 ms.assetid: a2604e6a-502d-473b-868f-b11ac64c7a35
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugStackFrame2::GetExpressionContext

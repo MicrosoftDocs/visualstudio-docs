@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "TEXT_DOC_ATTR_2 enumeration"
 ms.assetid: 2333b33b-042b-4ac6-9ebe-e66f95f52f51
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # TEXT_DOC_ATTR_2

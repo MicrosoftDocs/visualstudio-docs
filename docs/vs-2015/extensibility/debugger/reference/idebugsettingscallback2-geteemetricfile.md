@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "IDebugSettingsCallback2::GetEEMetricFile"
 ms.assetid: 3a0bf9e5-bbd2-4d15-840d-8244732787fc
 caps.latest.revision: 9
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugSettingsCallback2::GetEEMetricFile

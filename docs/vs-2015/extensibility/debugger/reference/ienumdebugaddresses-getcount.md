@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IEnumDebugAddresses::GetCount method"
 ms.assetid: f2ca8ff8-539f-457c-83f8-9bbf97618065
 caps.latest.revision: 6
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IEnumDebugAddresses::GetCount

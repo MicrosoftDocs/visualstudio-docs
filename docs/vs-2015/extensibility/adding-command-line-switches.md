@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "command line, switches"
 ms.assetid: 8bbbd87e-76fe-4fb5-8ef9-65f5e31967cf
 caps.latest.revision: 22
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Adding Command-Line Switches

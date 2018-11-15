@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugCoreServer3::GetServerName"
 ms.assetid: 0fc3fcf5-d6a3-4a00-bf14-458b8645714e
 caps.latest.revision: 9
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugCoreServer3::GetServerName

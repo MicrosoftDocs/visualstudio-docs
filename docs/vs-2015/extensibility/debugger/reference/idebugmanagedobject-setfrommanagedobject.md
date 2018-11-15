@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugManagedObject::SetFromManagedObject method"
 ms.assetid: 8700ee8d-2704-4580-bccc-046837a24edd
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugManagedObject::SetFromManagedObject

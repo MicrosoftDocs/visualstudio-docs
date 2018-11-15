@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "persistence, registering settings"
 ms.assetid: ad9beac3-4f8d-4093-ad0e-6fb00444a709
 caps.latest.revision: 27
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Support for User Settings

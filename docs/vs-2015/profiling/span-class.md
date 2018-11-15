@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "Concurrency::diagnostic::span class"
 ms.assetid: 527826a8-2590-43ad-b907-7bc0b7288e92
 caps.latest.revision: 9
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # span Class

@@ -23,8 +23,8 @@ helpviewer_keywords:
   - "DCOM, access errors"
 ms.assetid: 9d7dfc1b-9fe0-4f54-9c50-9c0e0f8358c5
 caps.latest.revision: 30
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # A DCOM error occurred trying to contact the remote computer. Access is denied.

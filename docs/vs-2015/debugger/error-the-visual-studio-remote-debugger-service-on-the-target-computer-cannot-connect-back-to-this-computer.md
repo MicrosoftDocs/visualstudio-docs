@@ -18,8 +18,8 @@ dev_langs:
   - "C++"
 ms.assetid: 89ecf99d-66bf-4da0-a840-aa95b0be1702
 caps.latest.revision: 15
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Error: The Visual Studio Remote Debugger service on the target computer cannot connect back to this computer

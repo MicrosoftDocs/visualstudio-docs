@@ -28,8 +28,8 @@ helpviewer_keywords:
   - "debugger, source files"
 ms.assetid: 0af11464-eeb1-4d0b-87a6-0cc96779afb1
 caps.latest.revision: 13
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Debug Source Files, Common Properties, Solution Property Pages Dialog Box

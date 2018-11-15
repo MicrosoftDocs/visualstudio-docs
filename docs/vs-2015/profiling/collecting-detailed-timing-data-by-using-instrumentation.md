@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "instrumentation profiling method"
 ms.assetid: e9deb370-c459-45ac-84d3-14d646590d05
 caps.latest.revision: 23
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Collecting Detailed Timing Data by Using Instrumentation

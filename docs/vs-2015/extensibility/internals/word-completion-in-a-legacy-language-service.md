@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "Complete Word"
 ms.assetid: 0ace5ac3-f9e1-4e6d-add4-42967b1f96a6
 caps.latest.revision: 16
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Word Completion in a Legacy Language Service

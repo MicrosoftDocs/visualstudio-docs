@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "MessageSecurityException exception"
 ms.assetid: 61ad69a1-ac50-49de-9a7c-8454a84ec5bd
 caps.latest.revision: 8
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Troubleshooting Exceptions: System.ServiceModel.Security.MessageSecurityException

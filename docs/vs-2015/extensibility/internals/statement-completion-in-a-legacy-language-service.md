@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "language services, statement completion"
 ms.assetid: 617439dc-3f0e-4e5f-b346-3e4e7fcf3c1b
 caps.latest.revision: 13
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Statement Completion in a Legacy Language Service

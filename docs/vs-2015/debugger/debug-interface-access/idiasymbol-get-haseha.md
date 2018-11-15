@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSymbol::get_hasEHa method"
 ms.assetid: cb61dfd9-fe69-461c-8185-288440454864
 caps.latest.revision: 10
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_hasEHa

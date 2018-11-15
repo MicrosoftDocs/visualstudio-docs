@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSectionContrib::get_share method"
 ms.assetid: 05c4c896-4419-4166-8bb2-8d0934dc14b5
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSectionContrib::get_share

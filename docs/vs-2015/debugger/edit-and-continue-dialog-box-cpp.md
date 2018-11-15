@@ -22,8 +22,8 @@ helpviewer_keywords:
   - "Failed to Apply Code Changes dialog box"
 ms.assetid: 624d9649-5946-4298-a138-70773b72e810
 caps.latest.revision: 14
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Edit and Continue Dialog Box (C++)

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugAddress2 interface"
 ms.assetid: b150e0ed-4ac0-4f8c-9732-4b3e54b9d243
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugAddress2

@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b7dcc27b-45c6-4302-9552-6fa5b1e94b56
 caps.latest.revision: 33
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Instrument a Stand-Alone .NET Framework Component and Collect Timing Data with the Profiler from the Command Line

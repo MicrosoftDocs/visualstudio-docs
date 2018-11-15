@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "colors, accessing stored settings"
 ms.assetid: beba7174-e787-45c2-b6ff-a60f67ad4998
 caps.latest.revision: 27
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Accessing Stored Font and Color Settings

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "menus, adding dynamic items"
 ms.assetid: d281e9c9-b289-4d64-8d0a-094bac6c333c
 caps.latest.revision: 38
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Dynamically Adding Menu Items

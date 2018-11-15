@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "Edit and Continue [C#], supported code changes"
 ms.assetid: c7a48ea9-5a7f-4328-a9d7-f0e76fac399d
 caps.latest.revision: 30
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Supported Code Changes (C#)

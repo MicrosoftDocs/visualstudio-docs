@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugExpressionEvaluator::Parse method"
 ms.assetid: e6e31b3a-63a7-4293-bcda-267eb78dffb6
 caps.latest.revision: 13
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugExpressionEvaluator::Parse

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugField::GetContainer method"
 ms.assetid: 6d6c8213-6181-4adf-9584-3e4cac163dd8
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugField::GetContainer

@@ -27,8 +27,8 @@ helpviewer_keywords:
   - "functions [debugger]"
 ms.assetid: d254a5a9-afbd-4923-9d7a-7422d824cabf
 caps.latest.revision: 21
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Get Back to the Function that Called MFC If Halted

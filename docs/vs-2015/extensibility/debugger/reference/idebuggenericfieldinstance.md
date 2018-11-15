@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "IDebugGenericFieldInstance interface"
 ms.assetid: f68b4761-be8b-4801-9d4b-cde90e01d95e
 caps.latest.revision: 8
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugGenericFieldInstance

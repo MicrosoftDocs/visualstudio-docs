@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "Domain-Specific Language, connection builder"
 ms.assetid: 2ddee315-23a3-4785-9f26-0a68bd62c61a
 caps.latest.revision: 17
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "kamrani"
 ---
 # Customizing Link Creation - redirection

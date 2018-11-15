@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "projects [Visual Studio], new project generation"
 ms.assetid: 66778698-0258-467d-8b8b-c351744510eb
 caps.latest.revision: 30
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # New Project Generation: Under the Hood, Part One

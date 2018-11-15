@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "Description element [Visual Studio project templates]"
 ms.assetid: 6e12be73-081f-4c7d-898f-027c307a9fe1
 caps.latest.revision: 17
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Description Element (Visual Studio Templates)

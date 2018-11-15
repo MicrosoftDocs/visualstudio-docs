@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugDocument2::GetName"
 ms.assetid: 6f09ff09-b0cf-4472-8fc8-143991f0ceb1
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugDocument2::GetName

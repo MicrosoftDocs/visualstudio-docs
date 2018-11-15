@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSymbol::get_paramBasePointerRegisterId method"
 ms.assetid: 9f5caeb4-5c88-4054-bf8b-50d34bbbf8c5
 caps.latest.revision: 9
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_paramBasePointerRegisterId

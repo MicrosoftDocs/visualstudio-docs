@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugProgram2::EnumCodeContexts"
 ms.assetid: 478e06a2-07bb-4841-8887-deab0f42ebd0
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugProgram2::EnumCodeContexts

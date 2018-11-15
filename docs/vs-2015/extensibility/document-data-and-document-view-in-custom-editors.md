@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], custom - document data and document view"
 ms.assetid: 71eea623-f566-4feb-84cd-ca1ba71bc493
 caps.latest.revision: 24
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Document Data and Document View in Custom Editors

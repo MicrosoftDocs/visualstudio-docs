@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugSymbolProvider::GetNextAddress method"
 ms.assetid: 704eeb94-cb13-49d1-82b6-7d83ed0f19c0
 caps.latest.revision: 9
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugSymbolProvider::GetNextAddress
