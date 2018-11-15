@@ -92,5 +92,18 @@ To view the call tree, select the parent node in the report. The **CPU Usage** p
   
 ###  <a name="BKMK_Asynchronous_functions_in_the_CPU_Usage_call_tree"></a> Asynchronous functions in the CPU usage call tree  
 
- When the compiler encounters an asynchronous method, it creates a hidden class to control the method's execution. Conceptually, the class is a state machine. The class has compiler-generated functions that call the original methods asynchronously, and the callbacks, scheduler, and iterators that are needed to run them. When the original method is called by a parent method, the runtime removes the method from the execution context of the parent. The compiler runs the hidden class methods in the context of the system and framework code that control app execution. The asynchronous methods are often, but not always, executed on one or more different threads. This code appears in the **CPU Usage** call tree as children of the **[External Code]** node immediately below the top node of the tree.  
+ When the compiler encounters an asynchronous method, it creates a hidden class to control the method's execution. Conceptually, the class is a state machine. The class has compiler-generated functions that asynchronously call the original methods, and the callbacks, scheduler, and iterators needed to run them. When a parent method calls the original method, the compiler removes the method from the execution context of the parent, and runs the hidden class methods in the context of the system and framework code that controls app execution. The asynchronous methods are often, but not always, executed on one or more different threads. This code appears in the **CPU Usage** call tree as children of the **[External Code]** node immediately below the top node of the tree.  
+
+In the following example, the first two nodes under **[External Code]** are the compiler-generated methods of the state machine class. The third node is the call to the original method. 
   
+![Asynchronous node](media/cpu_use_wt_getmaxnumberasync_selected.png "Asynchronous node")  
+
+Expand the generated methods to show what's going on:
+
+![Expanded asynchronous node](media/cpu_use_wt_getmaxnumberasync_expandedcalltree.png "Expanded asynchronous node")  
+
+- `MainPage::GetMaxNumberAsyncButton_Click` just manages a list of the task values, computes the maximum of the results, and displays the output.
+  
+- `MainPage+<GetMaxNumberAsyncButton_Click>d__3::MoveNext` shows you the activity required to schedule and launch the 48 tasks that wrap the call to `GetNumberAsync`.
+  
+- `MainPage::<GetNumberAsync>b__b` shows the activity of the tasks that call `GetNumber`.
