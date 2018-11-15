@@ -29,7 +29,7 @@ The [Migration](../workflow-designer/migration-activity-designers.md) category t
 
 For C# projects, you can re-target the project to use the full .NET Framework 4 by right-clicking the project in **Solution Explorer** and selecting **Properties**. On the **Application** tab, select the **NET Framework 4** option in the **Target framework**. Select **Yes** to confirm this change.
 
-For VB projects, you can re-target the project to use the full .NET Framework 4 by right-clicking on the project in **Solution Explorer** and selecting **Properties**. On the **Compile** tab, click the **Advanced Compile Options** button. Select **.Net Framework 4** from the **Target framework list**, and then click **OK**. Select **Yes** to confirm this change.
+For Visual Basic projects, you can re-target the project to use the full .NET Framework 4 by right-clicking on the project in **Solution Explorer** and selecting **Properties**. On the **Compile** tab, click the **Advanced Compile Options** button. Select **.Net Framework 4** from the **Target framework list**, and then click **OK**. Select **Yes** to confirm this change.
 
 The **Interop** activity designer can be dragged from **Toolbox** and dropped onto the Workflow Designer surface wherever activities are usually placed, such as inside a <xref:System.Activities.Statements.Sequence>. Dropping the **Interop** activity designer creates an <xref:System.Activities.Statements.Interop> activity with a default **DisplayName** of Interop. You can edit the <xref:System.Activities.Activity.DisplayName%2A> in the header of the **Interop** activity designer, or in the **DisplayName** box of the property grid.
 
