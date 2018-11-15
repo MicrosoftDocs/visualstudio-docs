@@ -17,7 +17,7 @@ ms.workload:
 ---
 # Analyze memory usage without the debugger
 
-The **Memory Usage** tool monitors your app's memory use while you are developing a scenario in Visual Studio. You can use the tool to generate detailed snapshots of the app's memory state, and compare snapshots to find the root cause of memory issues.  
+The **Memory Usage** tool monitors your app's memory use while you're developing a scenario in Visual Studio. You can use the tool to generate detailed snapshots of the app's memory state, and compare snapshots to find the root cause of memory issues.  
   
 You can run the **Memory Usage** tool with or without debugging. The following instructions show how to use the **Memory Usage** tool without the debugger, in the Visual Studio **Performance Profiler**. 
 
@@ -46,13 +46,13 @@ You can run the **Memory Usage** tool with or without debugging. The following i
   
 ###  <a name="BKMK_Close_a_monitoring_session"></a> Close a monitoring session  
   
- To stop a monitoring session without creating a report, just close the diagnostic window. To generate a report when you are done collecting or have taken memory snapshots, select **Stop Collection**.  
+ To stop a monitoring session without creating a report, just close the diagnostic window. To generate a report when you're done collecting or have taken snapshots, select **Stop Collection**.  
   
  ![Stop Collection](../profiling/media/memuse__stopcollection.png "Stop Collection")  
 
 ## Take snapshots of the memory state of your app  
 
- Because an app uses a large number of many types of objects, you might want to concentrate your analysis on one scenario. If you discover a memory issue to investigate, you can take snapshots during the diagnostic session to capture objects in memory at particular moments. It's a good idea to get a baseline snapshot of the app before a memory issue appears, another snapshot after the first occurrence of the problem, and additional snapshots if you can repeat the scenario.  
+ Because an app uses a large number of many types of objects, you might want to concentrate your analysis on one scenario. If you find a memory issue to investigate, you can take snapshots during the diagnostic session to capture objects in memory at particular moments. It's a good idea to get a baseline snapshot of the app before a memory issue appears, another snapshot after the first occurrence of the problem, and additional snapshots if you can repeat the scenario.  
   
  To collect snapshots, start a new diagnostic session. Select **Take Snapshot** when you want to capture the memory data. To generate a report, choose **Stop Collection**.  
   
@@ -75,7 +75,7 @@ The snapshot numbers and reports show the following information:
 |-|-|  
 |![Step 1](../profiling/media/procguid_1.png "ProcGuid_1")|The total number of bytes in memory when the snapshot was taken.<br /><br /> Select this link to display a snapshot details report that's sorted by the total size of the type instances.|  
 |![Step 2](../profiling/media/procguid_2.png "ProcGuid_2")|The total number of objects in memory when the snapshot was taken.<br /><br /> Select this link to display a snapshot details report that's sorted by the count of instances of the types.|  
-|![Step 3](../profiling/media/procguid_3.png "ProcGuid_3")|The difference between the total size of memory objects in this snapshot and the previous snapshot. <br /><br /> A positive number means the memory size of this snapshot is larger than the previous one, and a negative number means the size is smaller. **Baseline** indicates that a snapshot is the first in a diagnostic session. **No Difference** means that the difference is zero.<br /><br /> Select this link to display a snapshot diff report that's sorted by the difference in the total size of instances of the types.|  
+|![Step 3](../profiling/media/procguid_3.png "ProcGuid_3")|The difference between the total size of memory objects in this snapshot and the previous snapshot. <br /><br /> A positive number means the memory size of this snapshot is larger than the previous one, and a negative number means the size is smaller. **Baseline** means a snapshot is the first in a diagnostic session. **No Difference** means the difference is zero.<br /><br /> Select this link to display a snapshot diff report that's sorted by the difference in the total size of instances of the types.|  
 |![Step 4](../profiling/media/procguid_4.png "ProcGuid_4")|The difference between the total number of memory objects in this snapshot and the previous snapshot.<br /><br /> Select this link to display a snapshot diff report that's sorted by the difference in the total count of instances of the types.|  
   
 ## Memory Usage snapshot reports 
@@ -100,11 +100,11 @@ If you notice a type that you can't easily identify or don't know how it's invol
   
 ###  <a name="BKMK_Report_tree_filters_"></a> Report tree filters  
 
-Many types in apps are not very interesting to the app developer. The snapshot report filters can hide most of these types in the **Managed Heap** and **Paths to Root** trees.   
+Many types in apps aren't very interesting to the app developer. The snapshot report filters can hide most of these types in the **Managed Heap** and **Paths to Root** trees.   
 
 ![Sort and filter options](../profiling/media/memuse_sortandfilter.png "MEMUSE_SortAndFilter")  
 
-- <a name="BKMK_Filter"></a> To filter a tree by type name, enter the name in the **Filter** box. The filter is not case-sensitive, and it recognizes the specified string in any part of the type name.  
+- <a name="BKMK_Filter"></a> To filter a tree by type name, enter the name in the **Filter** box. The filter isn't case-sensitive, and it recognizes the specified string in any part of the type name.  
   
 - <a name="BKMK_Collapse_Small_Objects"></a> Select **Collapse Small Objects** in the **Filter** dropdown to hide types whose **Size (Bytes)** is less than 0.5 percent of the total memory.  
   
@@ -112,7 +112,7 @@ Many types in apps are not very interesting to the app developer. The snapshot r
   
 ## Snapshot details reports  
 
- A snapshot details report describes one snapshot from a diagnostic session. To open a details report, select the size or objects link in a snapshot pane. Both links open the same report; the only difference is the starting sort order of the **Managed Heap** tree. The size link sorts the report by the **Inclusive Size (Bytes)** column. The objects link sorts the report by the **Count** column. You can change the sort order after the report opens.  
+ A snapshot details report describes one snapshot from a diagnostic session. To open a details report, select the size or objects link in a snapshot pane. Both links open the same report. The only difference is the starting sort order of the **Managed Heap** tree. The size link sorts the report by the **Inclusive Size (Bytes)** column. The objects link sorts the report by the **Count** column. You can change the sort order after the report opens.  
   
  ![Links to snapshot report in a snapshot pane](../profiling/media/memuse_snapshotview_snapshotdetailslinks.png "Links to snapshot report in a snapshot pane")  
   
@@ -127,7 +127,7 @@ The **Managed Heap** tree in a snapshot details report has the following columns
 |-|-|  
 |**Object Type**|The name of the type or object instance.|  
 |**Count**|The number of object instances of the type. **Count**  is always 1 for an instance.|  
-|**Size (Bytes)**|For a type, the size of all instances of the type in the snapshot, excluding the size of objects contained in the instances.<br /><br /> For an instance, the size of the object, excluding the size of objects contained in the instance. |  
+|**Size (Bytes)**|For a type, the size of all instances of the type in the snapshot, less the size of objects contained in the instances.<br /><br /> For an instance, the size of the object, less the size of objects contained in the instance. |  
 |**Inclusive Size (Bytes)**|The size of the instances of the type, or the size of a single instance, including the size of contained objects.|  
 |**Module**|The module that contains the object.|  
   
@@ -148,13 +148,13 @@ The **Referenced Objects** tree in a snapshot details report has the following c
 |||  
 |-|-|  
 |**Object Type** or **Instance**|The name of the type or instance.|  
-|**Size (Bytes)**|For a type, the size of all instances of the type, excluding the size of objects contained in the type.<br /><br /> For an instance, the size of the object, excluding the size of objects contained in the object.|  
+|**Size (Bytes)**|For a type, the size of all instances of the type, less the size of objects contained in the type.<br /><br /> For an instance, the size of the object, less the size of objects contained in the object.|  
 |**Inclusive Size (Bytes)**|The total size of the instances of the type, or the size of the instance, including the size of contained objects.|  
 |**Module**|The module that contains the object.|  
   
 ## Snapshot difference (diff) reports  
 
- A snapshot difference (diff) report shows the changes between a primary snapshot and the preceding snapshot. To open a diff report, select one of the difference links in a snapshot pane. Both links open the same report; the only difference is the starting sort order of the **Managed Heap** tree in the report. The size link sorts the report by the **Inclusive Size (Bytes)** column. The objects link sorts the report by the **Count** column. You can change the sort order after the report opens.  
+ A snapshot difference (diff) report shows the changes between a primary snapshot and the preceding snapshot. To open a diff report, select one of the difference links in a snapshot pane. Both links open the same report. The only difference is the starting sort order of the **Managed Heap** tree in the report. The size link sorts the report by the **Inclusive Size (Bytes)** column. The objects link sorts the report by the **Count** column. You can change the sort order after the report opens.  
   
  ![Links to difference report in a snapshot pane](../profiling/media/memuse_snapshotview_snapshotdifflinks.png "Links to difference report in a snapshot pane")  
   
@@ -171,8 +171,8 @@ The **Managed Heap** tree in a snapshot diff report has the following columns:
 |**Object Type**|The name of the type or object instance.|  
 |**Count**|The number of instances of a type in the primary snapshot. **Count** is always 1 for an instance.|  
 |**Count Diff**|For a type, the difference in the number of instances of the type between the primary snapshot and the previous snapshot. The field is blank for an instance.|  
-|**Size (Bytes)**|The size of the objects in the primary snapshot, excluding the size of objects contained in the objects. For a type, **Size (Bytes)** and **Inclusive Size (Bytes)** are the totals of the sizes of the type instances.|  
-|**Total Size Diff (Bytes)**|For a type, the difference in the total size of instances of the type between the primary snapshot and the previous snapshot, excluding the size of objects contained in the instances. The field is blank for an instance.|  
+|**Size (Bytes)**|The size of the objects in the primary snapshot, less the size of objects contained in the objects. For a type, **Size (Bytes)** and **Inclusive Size (Bytes)** are the totals of the sizes of the type instances.|  
+|**Total Size Diff (Bytes)**|For a type, the difference in the total size of instances of the type between the primary snapshot and the previous snapshot, less the size of objects contained in the instances. The field is blank for an instance.|  
 |**Inclusive Size (Bytes)**|The size of the objects in the primary snapshot, including the size of objects contained in the objects.|  
 |**Inclusive Size Diff (Bytes)**|For a type, the difference in the size of all instances of the type between the primary snapshot and the previous snapshot, including the size of objects contained in the objects. The field is blank for an instance.|  
 |**Module**|The module that contains the object.|  
@@ -193,7 +193,7 @@ The **Referenced Objects** tree in a snapshot diff report has the following colu
 |||  
 |-|-|  
 |**Object Type** or **Instance**|The name of the type or object instance.|  
-|**Size (Bytes)**|For an instance, the size of the object in the primary snapshot, excluding the size of objects contained in the instance.<br /><br /> For a type, the total size of the instances of the type in the primary snapshot, excluding the size of objects contained in the instance.|  
+|**Size (Bytes)**|For an instance, the size of the object in the primary snapshot, less the size of objects contained in the instance.<br /><br /> For a type, the total size of the instances of the type in the primary snapshot, less the size of objects contained in the instance.|  
 |**Inclusive Size (Bytes)**|The size of the objects in the primary snapshot, including the size of objects contained in the objects.|  
 |**Module**|The module that contains the object.|  
   
