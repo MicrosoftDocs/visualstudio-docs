@@ -36,16 +36,16 @@ namespace SDKSample
         }
         #endregion
         #region Public Methods
-        public SignatureDisplayItem AddSignatureItem(XpsSignatureDefinition signatureDefintion)
+        public SignatureDisplayItem AddSignatureItem(XpsSignatureDefinition signatureDefinition)
         {
             SignatureDisplayItem item = new SignatureDisplayItem();
-            if (signatureDefintion != null)
+            if (signatureDefinition != null)
             {
-                item.Request = signatureDefintion.RequestedSigner;
-                item.Intent = signatureDefintion.Intent;
-                item.SignBy = signatureDefintion.SignBy.ToString();
-                item.Location = signatureDefintion.SigningLocale;
-                item.SigId = signatureDefintion.SpotId;
+                item.Request = signatureDefinition.RequestedSigner;
+                item.Intent = signatureDefinition.Intent;
+                item.SignBy = signatureDefinition.SignBy.ToString();
+                item.Location = signatureDefinition.SigningLocale;
+                item.SigId = signatureDefinition.SpotId;
             }
             this.SignatureList.Items.Add(item);
             return item;
