@@ -98,7 +98,7 @@ public:
 
 	virtual void OnPrint(CDC* pDC, CPrintInfo* pInfo);  // overriden to record time/date
 	virtual void OnDraw(CDC* pDC);  // overridden to draw this view
-	virtual void OnActivateView(BOOL bActivate, CView* pActiveView, CView* pDeactiveView);
+	virtual void OnActivateView(BOOL bActivate, CView* pActiveView, CView* pDeactivateView);
 	virtual void OnUpdate(CView* pSender, LPARAM lHint, CObject* pHint);
 	virtual void OnPrepareDC(CDC* pDC, CPrintInfo* pInfo);
 	virtual BOOL OnScrollBy(CSize sizeScroll, BOOL bDoScroll);

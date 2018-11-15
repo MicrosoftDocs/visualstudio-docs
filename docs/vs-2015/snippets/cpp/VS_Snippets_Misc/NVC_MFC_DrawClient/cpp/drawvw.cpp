@@ -135,9 +135,9 @@ BOOL CDrawView::PreCreateWindow(CREATESTRUCT& cs)
 	return TRUE;
 }
 
-void CDrawView::OnActivateView(BOOL bActivate, CView* pActiveView, CView* pDeactiveView)
+void CDrawView::OnActivateView(BOOL bActivate, CView* pActiveView, CView* pDeactivateView)
 {
-	CView::OnActivateView(bActivate, pActiveView, pDeactiveView);
+	CView::OnActivateView(bActivate, pActiveView, pDeactivateView);
 
 	if (!bActivate && GetDocument()->CanDeactivateInplace())
 	{

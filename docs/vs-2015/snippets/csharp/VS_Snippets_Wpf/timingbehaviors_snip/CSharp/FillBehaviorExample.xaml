@@ -11,7 +11,7 @@
     </Border>
       
     <TextBlock>FillBehavior="Deactivate"</TextBlock>
-    <Rectangle Name="deactiveAnimationRectangle" Width="20" Height="20" Fill="#AA3333FF" HorizontalAlignment="Left" >
+    <Rectangle Name="deactivateAnimationRectangle" Width="20" Height="20" Fill="#AA3333FF" HorizontalAlignment="Left" >
       <Rectangle.Triggers>
         <EventTrigger RoutedEvent="Rectangle.Loaded">
           <BeginStoryboard>
@@ -20,7 +20,7 @@
               <!-- The animated rectangle's width reverts back to its non-animated value
                    after the animation ends. -->
               <DoubleAnimation 
-                Storyboard.TargetName="deactiveAnimationRectangle" 
+                Storyboard.TargetName="deactivateAnimationRectangle" 
                 Storyboard.TargetProperty="Width" 
                 From="100" To="400" Duration="0:0:2" FillBehavior="Stop" />
             </Storyboard>

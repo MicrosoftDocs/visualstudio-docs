@@ -32,7 +32,7 @@ public:
 	virtual BOOL PreCreateWindow(CREATESTRUCT& cs);
 	protected:
 	virtual void OnInitialUpdate(); // called first time after construct
-	virtual void OnActivateView(BOOL bActivate, CView* pActivateView, CView* pDeactiveView);
+	virtual void OnActivateView(BOOL bActivate, CView* pActivateView, CView* pDeactivateView);
 
 // Implementation
 public:

@@ -123,14 +123,14 @@ void CExplorerView::OnSize(UINT nType, int cx, int cy)
 	m_wndList.SetWindowPos (NULL, -1, -1, cx, cy, SWP_NOMOVE | SWP_NOZORDER | SWP_NOACTIVATE);
 }
 
-void CExplorerView::OnActivateView(BOOL bActivate, CView* pActivateView, CView* pDeactiveView) 
+void CExplorerView::OnActivateView(BOOL bActivate, CView* pActivateView, CView* pDeactivateView) 
 {
 	if (bActivate && AfxGetMainWnd () != NULL)
 	{
 		((CMainFrame*) AfxGetMainWnd ())->GetFolders ().SetRelatedList (&m_wndList);
 	}
 	
-	CView::OnActivateView(bActivate, pActivateView, pDeactiveView);
+	CView::OnActivateView(bActivate, pActivateView, pDeactivateView);
 }
 
 void CExplorerView::OnViewLargeicon() 
