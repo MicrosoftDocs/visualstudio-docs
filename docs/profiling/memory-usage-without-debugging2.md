@@ -22,7 +22,7 @@ The **Memory Usage** tool monitors your app's memory use while you're developing
 You can run the **Memory Usage** tool with or without debugging. The following instructions show how to use the **Memory Usage** tool without the debugger, in the Visual Studio **Performance Profiler**. 
 
 >[!NOTE]
->To measure memory usage for a .NET Core app, you must use the debugger-integrated **Memory Usage** tool. For instructions, see [Profile memory usage in Visual Studio](memory-usage.md). To analyze memory use in JavaScript or HTML UWP apps in **Performance Profiler**, use the [JavaScript Memory](../profiling/javascript-memory.md) tool.
+>To measure memory usage for a .NET Core app, you must use the debugger-integrated **Memory Usage** tool. For instructions, see [Profile memory usage in Visual Studio](memory-usage.md). To analyze memory use in JavaScript or HTML UWP apps, use the [JavaScript Memory](../profiling/javascript-memory.md) tool in **Performance Profiler**.
   
 ## Start a Memory Usage diagnostic session  
   
@@ -59,7 +59,7 @@ You can run the **Memory Usage** tool with or without debugging. The following i
 ##  Memory Usage overview page  
  After you stop data collection, the **Memory Usage** tool stops the app and displays the overview report.  
   
- ![Memory Usage overview page](../profiling/media/memuse__reportoverview.png "Memory Usage overview page")  
+ ![Memory Usage overview page](../profiling/media/memuse__reportoverview1.png "Memory Usage overview page")  
   
 ### <a name="BKMK_Memory_Usage_snapshot_views"></a> Memory Usage snapshots 
 
@@ -84,7 +84,7 @@ The snapshot numbers and reports show the following information:
   
 <a name="BKMK_Snapshot_report_trees"></a> Snapshot report trees display the following information: 
   
-<a name="BKMK_Managed_Heap">The **Managed Heap** tree shows the types and instances in the report. Selecting a type or instance displays the **Paths to Root** and **Referenced Objects** trees for the selected item.  
+<a name="BKMK_Managed_Heap"></a>The **Managed Heap** tree shows the types and instances in the report. Selecting a type or instance displays the **Paths to Root** and **Referenced Objects** trees for the selected item.  
   
 <a name="BKMK_Paths_to_Root"></a> The **Paths to Root** tree shows the chain of objects that reference a type. The .NET Framework garbage collector cleans up the memory for an object only when all references to it have been released.  
   
