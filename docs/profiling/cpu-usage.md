@@ -54,7 +54,7 @@ The diagnostic report is sorted by **Total CPU**, from highest to lowest. Change
 |||  
 |-|-|  
 |**Total CPU [unit, %]**|![Total % data equation](../profiling/media/cpu_use_wt_totalpercentequation.png "CPU_USE_WT_TotalPercentEquation")<br /><br /> The milliseconds and CPU percentage used by calls to the function, and functions called by the function, in the selected time range. This is different from the **CPU Utilization** timeline graph, which compares the total CPU activity in a time range to the total available CPU.|  
-|**Self CPU [unit, %]|![Self % equation](../profiling/media/cpu_use_wt_selflpercentequation.png "CPU_USE_WT_SelflPercentEquation")<br /><br /> The milliseconds and CPU percentage used by calls to the function in the selected time range, excluding functions called by the function.|  
+|**Self CPU [unit, %]**|![Self % equation](../profiling/media/cpu_use_wt_selflpercentequation.png "CPU_USE_WT_SelflPercentEquation")<br /><br /> The milliseconds and CPU percentage used by calls to the function in the selected time range, excluding functions called by the function.|  
 |**Module**|The name of the module containing the function.   
   
 ###  <a name="BKMK_The_CPU_Usage_call_tree"></a> The CPU Usage call tree 
@@ -90,5 +90,5 @@ To view the call tree, select the parent node in the report. The **CPU Usage** p
   
 ###  <a name="BKMK_Asynchronous_functions_in_the_CPU_Usage_call_tree"></a> Asynchronous functions in the CPU usage call tree  
 
- When the compiler encounters an asynchronous method, it creates a hidden class to control the method's execution. Conceptually, the class is a state machine. The class has compiler-generated functions that call the original methods asynchronously, and the callbacks, scheduler, and iterators needed to run them. When the original method is called by a parent method, the runtime removes the method from the execution context of the parent. The compiler runs the hidden class methods in the context of the system and framework code that control app execution. The asynchronous methods are often, but not always, executed on one or more different threads. This code appears in the **CPU Usage** call tree as children of the **[External Code]** node immediately below the top node of the tree.  
+ When the compiler encounters an asynchronous method, it creates a hidden class to control the method's execution. Conceptually, the class is a state machine. The class has compiler-generated functions that call the original methods asynchronously, and the callbacks, scheduler, and iterators that are needed to run them. When the original method is called by a parent method, the runtime removes the method from the execution context of the parent. The compiler runs the hidden class methods in the context of the system and framework code that control app execution. The asynchronous methods are often, but not always, executed on one or more different threads. This code appears in the **CPU Usage** call tree as children of the **[External Code]** node immediately below the top node of the tree.  
   
