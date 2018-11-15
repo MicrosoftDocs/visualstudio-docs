@@ -95,25 +95,25 @@
         href: install/workload-and-component-ids.md
         items:
         - name: Visual Studio Enterprise 2017
-          href: install/workload-and-component-id-vs-enterprise.md
+          href: install/workload-component-id-vs-enterprise.md
         - name: Visual Studio Professional 2017
-          href: install/workload-and-component-id-vs-professional.md
+          href: install/workload-component-id-vs-professional.md
         - name: Visual Studio Community 2017
-          href: install/workload-and-component-id-vs-community.md
+          href: install/workload-component-id-vs-community.md
         - name: Visual Studio Team Explorer 2017
-          href: install/workload-and-component-vs-id-team-explorer.md
+          href: install/workload-component-vs-id-team-explorer.md
         - name: Visual Studio Desktop Express 2017
-          href: install/workload-and-component-id-vs-express.md
+          href: install/workload-component-id-vs-express.md
         - name: Visual Studio Build Tools 2017
-          href: install/workload-and-component-id-vs-build-tools.md
+          href: install/workload-component-id-vs-build-tools.md
         - name: Visual Studio Test Agent 2017
-          href: install/workload-and-component-id-vs-test-agent.md
+          href: install/workload-component-id-vs-test-agent.md
         - name: Visual Studio Test Controller 2017
-          href: install/workload-and-component-id-vs-test-controller.md
+          href: install/workload-component-id-vs-test-controller.md
         - name: Visual Studio Test Professional 2017
-          href: install/workload-and-component-id-vs-test-professional.md          
+          href: install/workload-component-id-vs-test-professional.md          
         - name: Visual Studio Feedback Client 2017
-          href: install/workload-and-component-id-vs-feedback-client.md                       
+          href: install/workload-component-id-vs-feedback-client.md                       
       - name: Visual Studio build numbers and release dates
         href: install/visual-studio-build-numbers-and-release-dates.md
   - name: Use Visual Studio from an Azure virtual machine
