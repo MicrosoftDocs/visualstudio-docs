@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaEnumLineNumbers::Next method"
 ms.assetid: 363d5b40-1316-4ab8-836f-63637f619e0a
 caps.latest.revision: 10
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaEnumLineNumbers::Next

@@ -23,8 +23,8 @@ helpviewer_keywords:
   - "64-bit Edit and Continue"
 ms.assetid: 7e90f34f-e699-45ab-a4c9-a4b527c498c8
 caps.latest.revision: 43
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Edit and Continue (Visual Basic)

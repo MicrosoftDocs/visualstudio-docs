@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaStackFrame::get_rawLVarInstanceValue method"
 ms.assetid: ce526259-85a6-475b-9274-0b3a21d95db2
 caps.latest.revision: 13
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaStackFrame::get_rawLVarInstanceValue

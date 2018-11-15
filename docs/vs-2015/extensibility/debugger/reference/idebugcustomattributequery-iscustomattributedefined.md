@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "IsCustomAttributeDefined"
 ms.assetid: c7425db6-4347-4f69-8f88-337ddaa34fa6
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugCustomAttributeQuery::IsCustomAttributeDefined

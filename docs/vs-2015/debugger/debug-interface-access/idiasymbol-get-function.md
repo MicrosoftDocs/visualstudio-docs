@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSymbol::get_function method"
 ms.assetid: 48b3a318-3211-410f-8570-c02ee210f0a5
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_function

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "METADATA_ADDRESS_PARAM structure"
 ms.assetid: 90904f19-0e71-4cb3-a56e-6a2e92f66dfc
 caps.latest.revision: 7
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # METADATA_ADDRESS_PARAM

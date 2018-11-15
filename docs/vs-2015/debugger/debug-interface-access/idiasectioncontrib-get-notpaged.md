@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSectionContrib::get_notPaged method"
 ms.assetid: bb6baa40-fece-4a4c-aba9-f4b41f418f8b
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSectionContrib::get_notPaged

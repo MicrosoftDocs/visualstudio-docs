@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "PROCESS_INFO_FLAGS enumeration"
 ms.assetid: 696951ce-701a-40c2-ac8c-b897f3aae6e2
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # PROCESS_INFO_FLAGS

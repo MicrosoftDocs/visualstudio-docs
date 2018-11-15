@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "debug engines, TaskScheduler class [.NET Framework]"
 ms.assetid: 87f1c969-0217-4464-8907-7609c1bf61d3
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # TaskScheduler Class - Internal Members

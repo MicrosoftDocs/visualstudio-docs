@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaFrameData::get_type method"
 ms.assetid: efca38b5-c479-4d0a-a164-f903f25c5509
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaFrameData::get_type

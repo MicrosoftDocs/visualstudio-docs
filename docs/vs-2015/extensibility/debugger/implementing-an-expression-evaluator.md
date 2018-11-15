@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], expression evaluators"
 ms.assetid: e9ada7be-845e-4baa-bf8f-e4890e7ba490
 caps.latest.revision: 13
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Implementing an Expression Evaluator

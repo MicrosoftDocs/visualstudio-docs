@@ -25,8 +25,8 @@ helpviewer_keywords:
   - "debugging [Visual Studio], Web Forms"
 ms.assetid: e2b4fa14-8f5b-444d-a903-54070b784bd4
 caps.latest.revision: 34
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Walkthrough: Debugging a Web Form

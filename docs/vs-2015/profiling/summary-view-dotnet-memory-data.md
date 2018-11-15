@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "Summary view"
 ms.assetid: 0cb317c3-0ae6-4531-aaa8-447576eec037
 caps.latest.revision: 16
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Summary View - .NET Memory Data

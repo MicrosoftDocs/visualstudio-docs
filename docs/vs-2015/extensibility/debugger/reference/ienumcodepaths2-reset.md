@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IEnumCodePaths2::Reset"
 ms.assetid: 490c0e19-ff4b-4673-bd06-cdee996ac226
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IEnumCodePaths2::Reset

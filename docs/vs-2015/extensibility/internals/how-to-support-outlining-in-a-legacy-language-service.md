@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "hidden text, Collapse to Definitions command"
 ms.assetid: bb6e74c3-93e4-4ef7-afc7-1c9b342f083b
 caps.latest.revision: 18
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # How to: Support Outlining in a Legacy Language Service

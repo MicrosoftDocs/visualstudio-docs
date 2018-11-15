@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "NAME_MATCH enumeration"
 ms.assetid: 3842c417-a3c9-4259-a05f-52b64b829ef6
 caps.latest.revision: 9
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # NAME_MATCH

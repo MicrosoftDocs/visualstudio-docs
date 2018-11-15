@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugProgram2::Execute"
 ms.assetid: f7205ce8-0ac6-4fcd-b6ec-b720b4fcaccf
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugProgram2::Execute

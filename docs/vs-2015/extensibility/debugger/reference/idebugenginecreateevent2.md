@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugEngineCreateEvent2 interface"
 ms.assetid: 37c0a841-1c8d-4802-a990-36b54bca3ef7
 caps.latest.revision: 13
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugEngineCreateEvent2

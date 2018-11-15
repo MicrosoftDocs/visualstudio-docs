@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "SccDirQueryInfo function"
 ms.assetid: 459e2d99-573d-47c4-b834-6d82c5e14162
 caps.latest.revision: 15
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # SccDirQueryInfo Function

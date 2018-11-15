@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugEngineLaunch2 interface"
 ms.assetid: 5eaf2ad8-3fbf-446e-b48b-5327ad3f5255
 caps.latest.revision: 13
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugEngineLaunch2

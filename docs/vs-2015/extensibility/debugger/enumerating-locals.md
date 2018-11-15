@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "expression evaluation, enumerating locals"
 ms.assetid: 254a88e7-d3a7-447a-bd0c-8985e73d85cf
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Enumerating Locals

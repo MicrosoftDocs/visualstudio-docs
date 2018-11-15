@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "EXCEPTION_INFO structure"
 ms.assetid: d046957a-b97d-420b-b46b-c67cbaef709e
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # EXCEPTION_INFO

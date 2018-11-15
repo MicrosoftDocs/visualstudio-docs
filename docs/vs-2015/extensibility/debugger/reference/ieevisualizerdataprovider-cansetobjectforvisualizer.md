@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IEEVisualizerDataProvider::CanSetObjectForVisualizer method"
 ms.assetid: 70fd3c6f-2f82-43a3-993b-c1dc8aa080bf
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IEEVisualizerDataProvider::CanSetObjectForVisualizer

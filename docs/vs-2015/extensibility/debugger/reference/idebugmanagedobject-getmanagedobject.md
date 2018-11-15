@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugManagedObject::GetManagedObject method"
 ms.assetid: 6abe1402-6aad-41e6-8ec1-ae12d5945992
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugManagedObject::GetManagedObject

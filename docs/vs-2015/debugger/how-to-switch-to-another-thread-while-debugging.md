@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "threads, switching [debugging]"
 ms.assetid: 5cd76c52-76fa-4fcc-b37e-e9f0ecac0e9e
 caps.latest.revision: 29
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Switch to Another Thread While Debugging

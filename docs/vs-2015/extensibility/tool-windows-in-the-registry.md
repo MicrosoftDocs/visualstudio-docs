@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "tool windows, registering"
 ms.assetid: c4bb8add-7148-49e4-a377-01d059fd5524
 caps.latest.revision: 13
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Tool Windows in the Registry

@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "IDebugProgram3::ExecuteOnThread"
 ms.assetid: 2f5211e3-7a3f-47bf-9595-dfc8b4895d0d
 caps.latest.revision: 7
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugProgram3::ExecuteOnThread

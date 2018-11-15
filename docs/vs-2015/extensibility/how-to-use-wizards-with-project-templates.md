@@ -17,7 +17,7 @@ helpviewer_keywords:
   - "IWizard interface"
 ms.assetid: 47ee26cf-67b7-4ff1-8a9d-ab11a725405c
 caps.latest.revision: 23
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # How to: Use Wizards with Project Templates

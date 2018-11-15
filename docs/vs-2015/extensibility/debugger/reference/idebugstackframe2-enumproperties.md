@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugStackFrame2::EnumProperties"
 ms.assetid: 334bb95e-c7e0-4008-9f06-8c3999e47ee8
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugStackFrame2::EnumProperties

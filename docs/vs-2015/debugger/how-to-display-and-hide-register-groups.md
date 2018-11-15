@@ -25,8 +25,8 @@ helpviewer_keywords:
   - "register groups, displaying and hiding"
 ms.assetid: 6be5dfb4-4cfe-4daf-b538-60405640857d
 caps.latest.revision: 31
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Display and Hide Register Groups

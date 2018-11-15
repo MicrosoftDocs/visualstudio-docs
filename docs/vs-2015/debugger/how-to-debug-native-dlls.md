@@ -25,8 +25,8 @@ helpviewer_keywords:
   - "executable files, specifying for debug sessions"
 ms.assetid: 76b34d15-a66d-4963-842e-c8b955c81696
 caps.latest.revision: 20
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Debug Native DLLs

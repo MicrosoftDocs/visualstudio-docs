@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "IDebugSettingsCallback2::EnumEEs"
 ms.assetid: 9f884c49-426f-461b-b547-9d909486e73f
 caps.latest.revision: 8
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugSettingsCallback2::EnumEEs

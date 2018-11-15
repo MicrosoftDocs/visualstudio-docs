@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSymbol::get_addressTaken method"
 ms.assetid: 0d366188-f5e1-4226-b392-58c09539d097
 caps.latest.revision: 12
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_addressTaken

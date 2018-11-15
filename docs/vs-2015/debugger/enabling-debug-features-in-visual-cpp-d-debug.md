@@ -27,8 +27,8 @@ helpviewer_keywords:
   - "_DEBUG macro"
 ms.assetid: 276e2254-7274-435e-ba4d-67fcef4f33bc
 caps.latest.revision: 10
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Enabling Debug Features in Visual C++ (/D_DEBUG)

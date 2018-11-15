@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "Visual Studio shell, isolated mode"
 ms.assetid: e0b7c3ae-210f-4f48-ac49-6a59e6034f5f
 caps.latest.revision: 16
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Customizing the Isolated Shell

@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "GetAssemblyName"
 ms.assetid: a08cd609-b9b9-47bd-bf73-cbf851285907
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugComPlusSymbolProvider::GetAssemblyName

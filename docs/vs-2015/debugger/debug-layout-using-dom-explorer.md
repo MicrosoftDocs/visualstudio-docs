@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "layout, debugging [Windows Store apps]"
 ms.assetid: ded6566d-fc29-49a7-8029-dee8e50fe733
 caps.latest.revision: 36
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Debug layout using DOM Explorer

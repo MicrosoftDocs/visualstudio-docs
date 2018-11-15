@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "profiling tools, IP view"
 ms.assetid: 5e26e0fd-383b-4fb6-a29d-a458d8232828
 caps.latest.revision: 22
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Instruction Pointers (IPs) View

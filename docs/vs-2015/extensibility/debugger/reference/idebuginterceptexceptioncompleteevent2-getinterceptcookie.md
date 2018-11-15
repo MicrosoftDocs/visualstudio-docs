@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugInterceptExceptionCompleteEvent2::GetInterceptCookie"
 ms.assetid: 07b20866-e598-4783-9ecc-6aa8625c8804
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugInterceptExceptionCompleteEvent2::GetInterceptCookie

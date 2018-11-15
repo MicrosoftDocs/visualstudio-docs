@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "Process properties for Windows NT"
 ms.assetid: 86f4d61d-a594-4aac-8960-c5279b4a10fd
 caps.latest.revision: 7
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # General Tab, Process Properties Dialog Box

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugStackFrame2::GetPhysicalStackRange"
 ms.assetid: 2f6992e2-ac1c-433f-83b7-a7f83a4ce63d
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugStackFrame2::GetPhysicalStackRange

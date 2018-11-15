@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugObject::IsNullReference method"
 ms.assetid: 6dbfcdb0-954f-4486-8fac-7ea8d003e3a9
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugObject::IsNullReference

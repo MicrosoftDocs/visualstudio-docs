@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "IDebugWindowsComputerPort2 interface"
 ms.assetid: 25f327b8-0303-4268-88d1-74df630436aa
 caps.latest.revision: 9
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugWindowsComputerPort2

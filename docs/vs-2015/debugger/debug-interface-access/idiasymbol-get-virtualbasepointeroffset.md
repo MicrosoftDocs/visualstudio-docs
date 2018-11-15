@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSymbol::get_virtualBasePointerOffset method"
 ms.assetid: a4f2649c-6702-491c-90a1-d6d669258c51
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_virtualBasePointerOffset

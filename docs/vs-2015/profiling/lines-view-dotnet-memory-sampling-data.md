@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "Lines view"
 ms.assetid: 6631ab87-0e62-4c76-a063-4ea7222b07da
 caps.latest.revision: 14
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Lines View - .NET Memory Sampling Data

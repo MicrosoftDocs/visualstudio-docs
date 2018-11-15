@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "language services [managed package framework], about language services"
 ms.assetid: bb44e27b-d228-463c-b2cf-cd5c24c7c1b5
 caps.latest.revision: 18
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Legacy Language Service Overview

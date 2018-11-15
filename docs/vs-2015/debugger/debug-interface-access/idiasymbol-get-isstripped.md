@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSymbol::get_isStripped method"
 ms.assetid: cc2c4a0b-ab9f-4b79-a8ff-a3badb0405d6
 caps.latest.revision: 10
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_isStripped

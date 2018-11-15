@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "LoadSymbolsFromStream"
 ms.assetid: 1de272f0-24f4-4548-8b70-a205cddd4727
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugComPlusSymbolProvider::LoadSymbolsFromStream

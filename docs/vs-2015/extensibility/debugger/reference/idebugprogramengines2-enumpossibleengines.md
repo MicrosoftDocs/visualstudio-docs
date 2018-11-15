@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugProgramEngines2::EnumPossibleEngines"
 ms.assetid: 993d70a4-f6a5-4e47-a603-0b162b9fde00
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugProgramEngines2::EnumPossibleEngines

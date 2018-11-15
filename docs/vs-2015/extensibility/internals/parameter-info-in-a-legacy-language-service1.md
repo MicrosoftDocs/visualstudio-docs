@@ -17,7 +17,7 @@ helpviewer_keywords:
   - "Parameter Info (IntelliSense)"
 ms.assetid: f367295e-45b6-45d2-9ec8-77481743beef
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Parameter Info in a Legacy Language Service

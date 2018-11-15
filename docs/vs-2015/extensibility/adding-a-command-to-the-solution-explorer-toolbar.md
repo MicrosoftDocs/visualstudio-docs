@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "Solution Explorer, adding buttons"
 ms.assetid: f6411557-2f4b-4e9f-b02e-fce12a6ac7e9
 caps.latest.revision: 40
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Adding a Command to the Solution Explorer Toolbar

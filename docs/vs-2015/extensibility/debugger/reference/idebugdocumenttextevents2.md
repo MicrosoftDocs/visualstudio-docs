@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugDocumentTextEvents2 interface"
 ms.assetid: a10cbb6b-11a8-4056-b42a-2ecebf0e690d
 caps.latest.revision: 15
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugDocumentTextEvents2

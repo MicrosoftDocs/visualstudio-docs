@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "automation [Visual Studio SDK], automation model"
 ms.assetid: 0c7f7889-fbfb-4b19-804f-b742138baecd
 caps.latest.revision: 16
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Using the Automation Model

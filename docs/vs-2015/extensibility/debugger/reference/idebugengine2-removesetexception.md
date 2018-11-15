@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugEngine2::RemoveSetException"
 ms.assetid: bdd25097-0e9d-4218-b417-0497ea48d2e8
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugEngine2::RemoveSetException

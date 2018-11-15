@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "Data symbol"
 ms.assetid: 0f17e96a-2e06-42c9-a877-3e5e670ee0ef
 caps.latest.revision: 20
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Data (Debug Interface Access SDK)

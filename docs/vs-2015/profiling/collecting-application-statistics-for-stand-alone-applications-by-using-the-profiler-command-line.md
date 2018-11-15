@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "profilng tools,sampling method"
 ms.assetid: be2dbdd0-fc88-45f9-a1d5-bcb4f64e17ad
 caps.latest.revision: 24
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Collecting Application Statistics for Stand-Alone Applications by Using the Profiler Command Line

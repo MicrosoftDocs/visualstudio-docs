@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "DIA SDK, reference"
 ms.assetid: 7cdbbce1-8b59-43ce-b6aa-a948bb4d7148
 caps.latest.revision: 12
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Debug Interface Access SDK Reference

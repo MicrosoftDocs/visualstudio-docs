@@ -28,8 +28,8 @@ helpviewer_keywords:
   - "debugging Windows Forms, walkthroughs"
 ms.assetid: 529db1e2-d9ea-482a-b6a0-7c543d17f114
 caps.latest.revision: 31
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Walkthrough: Debugging a Windows Form

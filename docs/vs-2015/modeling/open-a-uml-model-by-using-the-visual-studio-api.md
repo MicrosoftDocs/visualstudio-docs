@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "UML API, opening models in Visual Studio"
 ms.assetid: 38423682-f2a7-4d2a-a2cd-fd680e9b4b4d
 caps.latest.revision: 17
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
 manager: "douge"
 ---

@@ -27,8 +27,8 @@ helpviewer_keywords:
   - "mixed-mode debugging, call stack"
 ms.assetid: 60e34477-ae4e-48c7-9093-3e37f72e1bc3
 caps.latest.revision: 22
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Debugging Mixed-Mode Applications

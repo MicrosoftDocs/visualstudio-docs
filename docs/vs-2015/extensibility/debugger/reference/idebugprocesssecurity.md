@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "IDebugProcessSecurity interface"
 ms.assetid: 8a52ddca-bd99-49c0-9778-469dce7abd44
 caps.latest.revision: 5
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugProcessSecurity

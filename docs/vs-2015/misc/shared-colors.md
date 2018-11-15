@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 9d3186f3-07d2-441f-b33e-435e95d8a0b8
 caps.latest.revision: 11
-ms.author: "v-brickg"
+ms.author: v-brickg
 ---
 # Shared colors
 Insert introduction here.  

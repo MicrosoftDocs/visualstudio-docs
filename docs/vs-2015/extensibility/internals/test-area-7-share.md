@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "source control plug-ins, sharing items"
 ms.assetid: 6ec4780a-bda4-4327-bb3e-c6c9e7eabf35
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Test Area 7: Share

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugBreakpointRequest2 interface"
 ms.assetid: 01ac4013-96f9-4235-b289-f55f9e99558f
 caps.latest.revision: 15
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugBreakpointRequest2

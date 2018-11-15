@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "Functions view"
 ms.assetid: 5d9c6302-2ffd-430e-9535-13ce795f9f7c
 caps.latest.revision: 14
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Functions View - .NET Memory Sampling Data

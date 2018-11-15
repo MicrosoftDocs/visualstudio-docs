@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "PROCESS_INFO structure"
 ms.assetid: 260c33cc-a05e-4645-84b6-536d0b3b0537
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # PROCESS_INFO

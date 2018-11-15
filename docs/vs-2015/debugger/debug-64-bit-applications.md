@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "64-bit debugging"
 ms.assetid: db648e5f-6375-4e2d-aa98-eb7261958927
 caps.latest.revision: 38
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Debug 64-Bit Applications

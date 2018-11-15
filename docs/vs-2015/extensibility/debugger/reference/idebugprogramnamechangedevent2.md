@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "IDebugProgramNameChangedEvent2 interface"
 ms.assetid: be1f1cd5-0b2f-435c-a052-dca28a7c978d
 caps.latest.revision: 7
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugProgramNameChangedEvent2

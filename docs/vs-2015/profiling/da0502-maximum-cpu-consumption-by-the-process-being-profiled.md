@@ -15,8 +15,8 @@ f1_keywords:
   - "vs.performance.502"
 ms.assetid: 1ee53df5-b0dc-4265-9d4f-527830d08725
 caps.latest.revision: 13
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # DA0502: Maximum CPU consumption by the Process being profiled

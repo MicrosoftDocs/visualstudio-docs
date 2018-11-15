@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSegment interface"
 ms.assetid: 384ae0e1-077e-4d4f-98de-ac43c32c882f
 caps.latest.revision: 16
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSegment

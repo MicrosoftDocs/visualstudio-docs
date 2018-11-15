@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], security"
 ms.assetid: d6ffff0a-afb4-4f38-86d8-476c881c4e4b
 caps.latest.revision: 13
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Security Issues

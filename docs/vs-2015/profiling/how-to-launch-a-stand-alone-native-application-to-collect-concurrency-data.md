@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e5aed651-afed-4b70-9a7e-1a6032cc614f
 caps.latest.revision: 28
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Launch a Stand-Alone Native Application with the Profiler to Collect Concurrency Data by Using the Command Line

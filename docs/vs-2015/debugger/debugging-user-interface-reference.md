@@ -24,8 +24,8 @@ helpviewer_keywords:
   - "debugger, user interface reference"
 ms.assetid: 57f1cad8-c908-42bf-8ec5-6eb567df08e9
 caps.latest.revision: 13
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Debugging User Interface Reference

@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "Tree menu commands"
 ms.assetid: ffc1b893-17b1-477f-92a1-e4a59261ca1a
 caps.latest.revision: 6
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Tree Menu Commands

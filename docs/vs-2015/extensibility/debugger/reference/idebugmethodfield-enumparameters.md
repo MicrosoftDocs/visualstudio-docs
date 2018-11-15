@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugMethodField::EnumParameters method"
 ms.assetid: d77b1197-deb6-4144-8d1b-8b09949ccfac
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugMethodField::EnumParameters

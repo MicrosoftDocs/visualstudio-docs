@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "sampling profiling method,Modules view"
 ms.assetid: 816f5633-65d7-41e5-aee1-033628d4e2df
 caps.latest.revision: 18
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Modules View - Sampling Data

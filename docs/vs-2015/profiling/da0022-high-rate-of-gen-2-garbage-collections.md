@@ -15,8 +15,8 @@ f1_keywords:
   - "vs.performance.22"
 ms.assetid: f871a547-0e6f-4b11-b2d7-174d30fc2ed8
 caps.latest.revision: 13
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # DA0022: High rate of Gen 2 garbage collections

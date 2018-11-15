@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "Tier Interactions view"
 ms.assetid: bb4fb21c-f3f7-473a-8b5e-442da4c2c445
 caps.latest.revision: 20
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Tier Interactions View

@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSymbol::get_age method"
 ms.assetid: 60d05654-e832-4a2e-a4a7-fe9922c459fe
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_age

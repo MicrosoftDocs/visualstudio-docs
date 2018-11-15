@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugSymbolProvider interface"
 ms.assetid: df5f095f-1dee-46f9-84cf-92417c71d5fb
 caps.latest.revision: 15
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugSymbolProvider

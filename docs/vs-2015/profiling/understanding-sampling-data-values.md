@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "Profiling Tools, sampling"
 ms.assetid: fad540a8-24b6-4ff9-91ce-e67e9a58399d
 caps.latest.revision: 27
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Understanding Sampling Data Values

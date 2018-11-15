@@ -13,8 +13,8 @@ f1_keywords:
   - "vs.tasklisterror.copy_version_warning"
 ms.assetid: 116819f3-a4d4-48b5-9e71-7c54660d38ef
 caps.latest.revision: 11
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Warning: the dependency &#39;file&#39; in project &#39;project&#39; cannot be copied to the run directory because it would overwrite the reference &#39;file.&#39;

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IEnumDebugReferenceInfo2::Reset"
 ms.assetid: cf8ce649-5ce1-44a6-9d5a-89760021bde4
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IEnumDebugReferenceInfo2::Reset

@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "source control packages, glyphs"
 ms.assetid: b9413b08-b3c3-4fc3-a6e0-3dc0db3652d7
 caps.latest.revision: 21
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Glyph Control (Source Control VSPackage)

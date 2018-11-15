@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], custom - single and multi-tab views"
 ms.assetid: e3611704-349f-4323-b03c-f2b0a445d781
 caps.latest.revision: 23
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Single and Multi-tab Views

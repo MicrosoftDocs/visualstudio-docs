@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "debugging ASP.NET Web applications, setup"
 ms.assetid: d65d7299-51dd-4337-b334-aa1cbb37b77e
 caps.latest.revision: 32
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Preparing to Debug ASP.NET

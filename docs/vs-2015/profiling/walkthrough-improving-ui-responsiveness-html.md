@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "performance tools, HTML [Store apps]"
 ms.assetid: 7e5a2524-dbf5-4a40-b5d6-2d1ed7fff3de
 caps.latest.revision: 21
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Walkthrough: Improving UI responsiveness (HTML)

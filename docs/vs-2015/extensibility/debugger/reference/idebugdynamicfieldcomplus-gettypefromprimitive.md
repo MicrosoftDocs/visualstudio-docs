@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "GetTypeFromPrimitive"
 ms.assetid: d7f51e2a-1b72-489c-b7b6-4af7b7e4d663
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugDynamicFieldCOMPlus::GetTypeFromPrimitive

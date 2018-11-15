@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "profiling tools reports, Allocation view"
 ms.assetid: 01eb876e-c413-4516-977b-4f896929e8a6
 caps.latest.revision: 32
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # .NET Memory Allocations View

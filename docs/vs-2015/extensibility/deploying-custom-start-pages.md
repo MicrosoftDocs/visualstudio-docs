@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "deploy start page"
 ms.assetid: 4a7eb360-de83-41d5-be53-3cfb160d19f9
 caps.latest.revision: 22
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Deploying Custom Start Pages

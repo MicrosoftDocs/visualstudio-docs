@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugField::GetType method"
 ms.assetid: b3cdec9f-ef7b-44d0-a775-d17ef7eae968
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugField::GetType

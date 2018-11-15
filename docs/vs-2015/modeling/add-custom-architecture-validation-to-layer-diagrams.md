@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "layer diagrams, adding custom validation"
 ms.assetid: fed7bc08-295a-46d6-9fd8-fb537f1f75f1
 caps.latest.revision: 44
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
 manager: "douge"
 ---

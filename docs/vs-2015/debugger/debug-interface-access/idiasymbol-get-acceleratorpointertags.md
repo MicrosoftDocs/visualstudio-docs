@@ -13,8 +13,8 @@ dev_langs:
   - "C++"
 ms.assetid: 30e13cee-e511-49ec-affd-99b0097071b2
 caps.latest.revision: 6
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_acceleratorPointerTags

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugBinder3::GetExceptionObjectAndType method"
 ms.assetid: 2a313fe1-4ee1-4f01-af86-382d6c661a8f
 caps.latest.revision: 8
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugBinder3::GetExceptionObjectAndType

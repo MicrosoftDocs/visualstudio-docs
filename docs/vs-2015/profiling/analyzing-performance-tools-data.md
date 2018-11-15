@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "Profiling Tools,reports"
 ms.assetid: ae3e198a-b994-4ecb-a633-dec98bd4fd45
 caps.latest.revision: 46
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Analyzing Performance Tools Data

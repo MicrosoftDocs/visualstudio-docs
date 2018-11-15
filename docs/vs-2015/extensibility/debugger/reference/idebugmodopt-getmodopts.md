@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "GetModOpts"
 ms.assetid: cb513fa9-d521-4a65-b968-f55f53a368df
 caps.latest.revision: 9
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugModOpt::GetModOpts

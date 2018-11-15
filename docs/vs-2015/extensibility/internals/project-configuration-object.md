@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "objects, project configuration"
 ms.assetid: 877756c9-4261-43d9-9f32-51bf06b4219f
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Project Configuration Object

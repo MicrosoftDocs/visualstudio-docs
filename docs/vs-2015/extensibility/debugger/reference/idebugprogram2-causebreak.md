@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugProgram2::CauseBreak"
 ms.assetid: 07d353fc-68ab-4297-a18f-3d3c7a80e121
 caps.latest.revision: 9
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugProgram2::CauseBreak

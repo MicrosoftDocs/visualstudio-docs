@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "vsix reference"
 ms.assetid: 8f20177b-dab9-43a3-b959-81a591b451d6
 caps.latest.revision: 13
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # How to: Add a Dependency to a VSIX Package

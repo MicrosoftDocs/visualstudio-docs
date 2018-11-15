@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSectionContrib::get_compiland method"
 ms.assetid: c0496f6f-f8f2-435f-8674-6c32db6c5934
 caps.latest.revision: 12
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSectionContrib::get_compiland

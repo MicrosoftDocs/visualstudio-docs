@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugDocumentTextEvents2::onUpdateTextAttributes"
 ms.assetid: eb68d69a-1ad9-4ce4-84e1-40979ef16634
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugDocumentTextEvents2::onUpdateTextAttributes

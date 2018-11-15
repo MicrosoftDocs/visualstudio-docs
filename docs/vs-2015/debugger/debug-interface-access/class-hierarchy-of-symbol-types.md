@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "symbols [DIA SDK], class hierarchies"
 ms.assetid: 0ccd6990-4654-44cd-a6f3-bdd82fe90f6c
 caps.latest.revision: 13
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Class Hierarchy of Symbol Types

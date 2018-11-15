@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugClassField::GetDefaultIndexer method"
 ms.assetid: 47ce4f45-3816-4b40-909c-5032d0692d75
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugClassField::GetDefaultIndexer

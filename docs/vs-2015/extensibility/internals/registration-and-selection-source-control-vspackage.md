@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "source control packages, registration"
 ms.assetid: 7d21fe48-489a-4f55-acb5-73da64c4e155
 caps.latest.revision: 35
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Registration and Selection (Source Control VSPackage)

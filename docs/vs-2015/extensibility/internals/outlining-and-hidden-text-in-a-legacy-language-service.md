@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "outlining, supporting in native code"
 ms.assetid: 252c5221-2e64-461c-8dcf-b622e400e0be
 caps.latest.revision: 6
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Outlining and Hidden Text in a Legacy Language Service

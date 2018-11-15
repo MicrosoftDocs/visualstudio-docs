@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugSymbolProvider::GetAddressesFromPosition method"
 ms.assetid: 1b0f02cb-8ace-4614-88f3-0e10239012b3
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugSymbolProvider::GetAddressesFromPosition

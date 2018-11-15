@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSymbol::get_symIndexId method"
 ms.assetid: dd1fb3ba-31bf-497d-a6bf-79f1206e6642
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_symIndexId

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugStackFrame2::GetInfo"
 ms.assetid: 19c6870b-b94e-453c-bf19-82ce95b79d26
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugStackFrame2::GetInfo

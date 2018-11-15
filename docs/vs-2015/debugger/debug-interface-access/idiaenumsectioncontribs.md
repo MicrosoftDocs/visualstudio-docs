@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaEnumSectionContribs interface"
 ms.assetid: 0d6c0632-310f-4a99-8921-58149a1817e3
 caps.latest.revision: 15
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaEnumSectionContribs
