@@ -17,13 +17,13 @@ ms.workload:
 ---
 # Deploy UWP apps from Visual Studio
 
- The Visual Studio deployment functionality builds and registers UWP apps that are created with Visual Studio on a target device. Exactly how the app is registered depends on whether the target device is local or remote:
+The Visual Studio deployment functionality builds and registers UWP apps that are created with Visual Studio on a target device. Exactly how the app is registered depends on whether the target device is local or remote:
 
 - When the target is the local Visual Studio machine, Visual Studio registers the app from its build folder.
 
 - When the target is a remote device, Visual Studio copies the required files to the remote machine and registers the app on that device.
 
-  Deployment is automatic when you debug your app from Visual Studio by using the **Start Debugging** option (Keyboard: F5) or the **Start Without Debugging** option (Keyboard: CTRL + F5). You can also deploy your app manually. Manual deployment is useful in the following scenarios:
+Deployment is automatic when you debug your app from Visual Studio by using the **Start Debugging** option (Keyboard: F5) or the **Start Without Debugging** option (Keyboard: CTRL + F5). You can also deploy your app manually. Manual deployment is useful in the following scenarios:
 
 - Ad-hoc testing on a local or remote machine.
 
@@ -88,25 +88,29 @@ Deployment uses the remote debugger network channel to send the app files to the
 10. Enter the network name of the remote device in the **Remote Machine** box or click **Find** to choose the device from the **Select Remote Debugger Connection** dialog box.
 
 ##  <a name="BKMK_Deployment_options"></a> Deployment options
- You can set the following deployment options on the Debug property page of the startup project.
 
- **Allow Network Loopback**
- For security reasons, a UWP or [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] app that is installed in the standard manner is not allowed to make network calls to the device it is installed on. By default, Visual Studio deployment creates an exemption from this rule for the deployed app. This exemption allows you to test communication procedures on a single machine. Before you submit your app to the [!INCLUDE[win8_appstore_long](../debugger/includes/win8_appstore_long_md.md)], you should test your app without the exemption.
+You can set the following deployment options on the Debug property page of the startup project.
 
- To remove the network loopback exemption from the app:
+**Allow Network Loopback**
+
+For security reasons, a UWP or [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] app that is installed in the standard manner is not allowed to make network calls to the device it is installed on. By default, Visual Studio deployment creates an exemption from this rule for the deployed app. This exemption allows you to test communication procedures on a single machine. Before you submit your app to the [!INCLUDE[win8_appstore_long](../debugger/includes/win8_appstore_long_md.md)], you should test your app without the exemption.
+
+To remove the network loopback exemption from the app:
 
 - On the C# and Visual Basic Debug property page, clear the **Allow Network Loopback** check box.
 
 - On the JavaScript and Debug property page, set the **Allow Network Loopback** value to **No**.
 
-  **Do not launch, but debug my code when it starts (C# and VB) / Launch Application (JavaScript and C++)**
-  To configure the deployment to automatically start a debugging session when the app is launched:
+**Do not launch, but debug my code when it starts (C# and Visual Basic) / Launch Application (JavaScript and C++)**
+
+To configure the deployment to automatically start a debugging session when the app is launched:
 
 - On the C# and Visual Basic Debug property page, check the **Do not launch, but debug my code when it starts** check box.
 
 - On the JavaScript and Debug property page, set the **Launch Application** value to **Yes**.
 
 ## See Also
- [Advanced remote deployment options](/windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps#advanced-remote-deployment-options)
- [Debug an installed app package](../debugger/debug-installed-app-package.md)
- [Run apps from Visual Studio](../debugger/run-store-apps-from-visual-studio.md)
+
+- [Advanced remote deployment options](/windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps#advanced-remote-deployment-options)
+- [Debug an installed app package](../debugger/debug-installed-app-package.md)
+- [Run apps from Visual Studio](../debugger/run-store-apps-from-visual-studio.md)
