@@ -36,7 +36,7 @@ Visual Studio is available for Windows and Mac. [Visual Studio for Mac](/visuals
 
 There are three editions of Visual Studio 2017: Community, Professional, and Enterprise. See [Compare Visual Studio 2017 IDEs](https://visualstudio.microsoft.com/vs/compare/) to learn about which features are supported in each edition.
 
-### Popular productivity features
+## Popular productivity features
 
 Some of the popular features in Visual Studio that help you to be more productive as you develop software include:
 
