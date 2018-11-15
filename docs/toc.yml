@@ -101,7 +101,7 @@
         - name: Visual Studio Community 2017
           href: install/workload-component-id-vs-community.md
         - name: Visual Studio Team Explorer 2017
-          href: install/workload-component-vs-id-team-explorer.md
+          href: install/workload-component-id-vs-team-explorer.md
         - name: Visual Studio Desktop Express 2017
           href: install/workload-component-id-vs-express.md
         - name: Visual Studio Build Tools 2017
