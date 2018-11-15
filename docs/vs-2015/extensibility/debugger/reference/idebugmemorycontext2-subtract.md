@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "IDebugMemoryContext2::Subtract method"
 ms.assetid: 63df14c7-8d7e-47c1-afa7-5a1ab5d8eaba
 caps.latest.revision: 13
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugMemoryContext2::Subtract

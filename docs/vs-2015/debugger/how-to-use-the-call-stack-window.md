@@ -31,8 +31,8 @@ helpviewer_keywords:
   - "Call Stack window, viewing disassembly code for functions on the call stack"
 ms.assetid: 5154a2a1-4729-4dbb-b675-db611a72a731
 caps.latest.revision: 45
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Use the Call Stack Window

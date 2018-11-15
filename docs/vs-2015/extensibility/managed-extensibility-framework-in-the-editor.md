@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], new - using MEF for extensions"
 ms.assetid: 3f59a285-6c33-4ae3-a4fb-ec1f5aa21bd1
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Managed Extensibility Framework in the Editor

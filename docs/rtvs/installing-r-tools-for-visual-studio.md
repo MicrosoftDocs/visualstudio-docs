@@ -71,10 +71,11 @@ RTVS for Visual Studio 2015 is installed in: `%ProgramFiles(x86)%\Microsoft Visu
 
 Offline installation is suitable for computers that are not connected to the Internet:
 
-1. Follow the instructions to create an offline installer for your version of Visual Studio:
+1. Go to [Create an offline installation of Visual Studio 2017](../install/create-an-offline-installation-of-visual-studio.md).
 
-    - [Visual Studio 2017](../install/create-an-offline-installation-of-visual-studio.md)
-    - [Visual Studio 2015](https://msdn.microsoft.com/library/mt706497.aspx)
+1. If you use Visual Studio 2015, select **2015** in the selector above the table of contents.
+
+1. Follow the instructions for creating an offline installation in the web page.
 
 1. For Visual Studio 2015, download the offline RTVS installers from [https://aka.ms/rtvs-current-zip](https://aka.ms/rtvs-current-zip) and [https://aka.ms/rtvs-remote-zip](https://aka.ms/rtvs-remote-zip).
 

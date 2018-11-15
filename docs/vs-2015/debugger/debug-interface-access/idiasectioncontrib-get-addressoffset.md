@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSectionContrib::get_addressOffset method"
 ms.assetid: 4d569323-0e11-456d-9f92-a218bf292ecf
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSectionContrib::get_addressOffset

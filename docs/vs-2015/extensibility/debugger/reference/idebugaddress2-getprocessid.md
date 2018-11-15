@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugAddress2::GetProcessID method"
 ms.assetid: 2c18889d-074a-4b95-87b4-bf1a067f44ed
 caps.latest.revision: 7
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugAddress2::GetProcessID

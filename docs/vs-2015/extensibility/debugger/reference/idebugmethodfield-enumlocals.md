@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugMethodField::EnumLocals method"
 ms.assetid: b0456a6d-2b96-49e2-a871-516571b4f6a5
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugMethodField::EnumLocals

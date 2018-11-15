@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "custom categories"
 ms.assetid: 99311a93-d642-4344-bbf9-ff6e7fa5bf7f
 caps.latest.revision: 26
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Implementing Custom Categories and Display Items

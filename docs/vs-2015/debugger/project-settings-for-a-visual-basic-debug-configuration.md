@@ -25,8 +25,8 @@ helpviewer_keywords:
   - "debug configurations, Visual Basic"
 ms.assetid: 72a8483a-af0b-4403-8b0d-ee9ad71ee435
 caps.latest.revision: 20
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Project Settings for a Visual Basic Debug Configuration

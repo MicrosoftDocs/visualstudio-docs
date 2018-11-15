@@ -20,7 +20,7 @@ helpviewer_keywords:
   - "Visual Studio SDK, command-line switches"
 ms.assetid: d65d2c04-dd84-42b0-b956-555b11f5a645
 caps.latest.revision: 17
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Devenv Command-Line Switches for VSPackage Development

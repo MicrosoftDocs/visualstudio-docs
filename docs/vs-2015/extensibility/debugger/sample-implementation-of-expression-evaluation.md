@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "expression evaluation, examples"
 ms.assetid: 2a5f04b8-6c65-4232-bddd-9093653a22c4
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Sample Implementation of Expression Evaluation

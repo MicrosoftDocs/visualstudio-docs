@@ -13,8 +13,8 @@ dev_langs:
   - "C++"
 ms.assetid: dffe6594-e0d1-4ed5-aeea-8773f88d82a6
 caps.latest.revision: 6
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSession::findInlineeLinesByVA

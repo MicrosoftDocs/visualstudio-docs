@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ffbdfe37-8325-44be-bd36-2c8aab2dec7b
 caps.latest.revision: 29
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Attach the Profiler to a .NET Service to Collect Concurrency Data by Using the Command Line

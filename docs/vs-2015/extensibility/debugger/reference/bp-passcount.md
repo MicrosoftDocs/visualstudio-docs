@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "BP_PASSCOUNT structure"
 ms.assetid: 791ac175-b897-4c70-873e-240da7e0ac89
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # BP_PASSCOUNT

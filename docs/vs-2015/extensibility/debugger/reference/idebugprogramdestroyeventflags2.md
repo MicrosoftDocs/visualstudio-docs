@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "IDebugProgramDestroyEventFlags2 interface"
 ms.assetid: d384ff71-dc71-40b9-a871-801f8b6a3418
 caps.latest.revision: 8
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugProgramDestroyEventFlags2

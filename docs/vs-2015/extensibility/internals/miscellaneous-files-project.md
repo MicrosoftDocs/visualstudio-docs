@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "files, opening with Miscellaneous Files project"
 ms.assetid: 93a278a8-d4f4-400b-8945-4f1b0a2b5bac
 caps.latest.revision: 14
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Miscellaneous Files Project

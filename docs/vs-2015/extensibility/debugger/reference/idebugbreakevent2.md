@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugBreakEvent2 interface"
 ms.assetid: 57dfdbc2-4e68-4dbf-9579-006cd6fb1c62
 caps.latest.revision: 14
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugBreakEvent2

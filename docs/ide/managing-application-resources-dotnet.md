@@ -24,6 +24,9 @@ ms.workload:
 
 Resource files are files that are part of an application but are not compiled, for example icon files or audio files. Since these files are not part of the compilation process, you can change them without having to recompile your binaries. If you are planning to localize your application, you should use resource files for all the strings and other resources that need to be changed when you localize your application.
 
+> [!NOTE]
+> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Managing app resources (Visual Studio for Mac)](/visualstudio/mac/managing-app-resources).
+
 For more information about resources in .NET desktop apps, see [Resources in desktop apps](/dotnet/framework/resources/index).
 
 ## Work with resources
@@ -46,3 +49,4 @@ Resources are managed differently in .NET projects than in other project types. 
 ## See also
 
 - [Resources in desktop apps (.NET Framework)](/dotnet/framework/resources/index)
+- [Managing app resources (Visual Studio for Mac)](/visualstudio/mac/managing-app-resources)

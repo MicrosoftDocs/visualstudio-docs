@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "IDebugPendingBreakpoint2::SetPassCount method"
 ms.assetid: 08ddd328-57eb-42e0-baa9-8424dcd1bf04
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugPendingBreakpoint2::SetPassCount

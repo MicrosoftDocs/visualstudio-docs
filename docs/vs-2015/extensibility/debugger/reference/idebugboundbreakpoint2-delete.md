@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "IDebugBoundBreakpoint2::Delete method"
 ms.assetid: 7088dc66-f24a-446f-a52a-397d02457a41
 caps.latest.revision: 9
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugBoundBreakpoint2::Delete

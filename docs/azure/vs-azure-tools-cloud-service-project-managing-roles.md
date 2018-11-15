@@ -1,7 +1,6 @@
 ---
 title: Managing roles in Azure cloud services with Visual Studio | Microsoft Docs
 description: Learn how to add and remove roles in Azure cloud services with Visual Studio.
-
 author: ghogen
 manager: douge
 assetId: 5ec9ae2e-8579-4e5d-999e-8ae05b629bd1
@@ -12,7 +11,6 @@ ms.workload: azure-vs
 ms.topic: conceptual
 ms.date: 03/21/2017
 ms.author: ghogen
-
 ---
 # Managing roles in Azure cloud services with Visual Studio
 After you have created your Azure cloud service, you can add new roles to it or remove existing roles from it. You can also import an existing project and convert it to a role. For example, you can import an ASP.NET web application and designate it as a web role.

@@ -22,8 +22,8 @@ helpviewer_keywords:
   - "Win32, error codes"
 ms.assetid: 8fb4ff42-b8eb-4152-b49e-b802d194b05e
 caps.latest.revision: 19
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Where Can I Look Up Win32 Error Codes?

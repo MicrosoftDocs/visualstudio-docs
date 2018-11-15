@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugDocumentPosition2::GetDocument"
 ms.assetid: eaa172c9-5748-4ce1-a0e2-33c2063f6752
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugDocumentPosition2::GetDocument

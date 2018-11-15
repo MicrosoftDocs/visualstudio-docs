@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IEnumCodePaths2::Clone"
 ms.assetid: 9d5c6bc6-7e72-4f1b-801c-7192458f3ba8
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IEnumCodePaths2::Clone

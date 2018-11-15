@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "IDebugSymbolProviderDirect::GetCurrentModulesState"
 ms.assetid: a0c85318-5686-4eed-b213-21f2b9e681e6
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugSymbolProviderDirect::GetCurrentModulesState

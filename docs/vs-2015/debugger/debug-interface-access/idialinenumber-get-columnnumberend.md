@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaLineNumber::get_columnNumberEnd method"
 ms.assetid: 02fa56c1-87b6-405a-adee-3bb6bc62de2d
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaLineNumber::get_columnNumberEnd

@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "getting started, source control packages"
 ms.assetid: 049c68f4-a041-4f24-8575-4837e7f5cf3f
 caps.latest.revision: 23
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Getting Started with Source Control VSPackages

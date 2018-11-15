@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IEEDataStorage interface"
 ms.assetid: 704e932d-2325-410e-89c4-ce88c6ec19da
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IEEDataStorage

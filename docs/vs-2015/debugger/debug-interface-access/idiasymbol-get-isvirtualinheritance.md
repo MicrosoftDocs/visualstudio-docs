@@ -13,8 +13,8 @@ dev_langs:
   - "C++"
 ms.assetid: 72906b92-dd4a-42e3-9b24-b77628fa48c1
 caps.latest.revision: 6
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_isVirtualInheritance

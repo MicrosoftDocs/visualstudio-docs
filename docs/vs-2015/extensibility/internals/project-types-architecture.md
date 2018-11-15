@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "projects [Visual Studio SDK], architecture"
 ms.assetid: 9c1d940f-8a54-41f7-a8aa-c870e324371c
 caps.latest.revision: 7
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Project Types Architecture

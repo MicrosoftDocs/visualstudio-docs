@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "IDebugCustomAttributeQuery2 interface"
 ms.assetid: 7cfa23e4-a05a-47a3-af6c-bd40c655014b
 caps.latest.revision: 14
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugCustomAttributeQuery2

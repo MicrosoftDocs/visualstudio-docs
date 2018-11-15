@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "No Source Code Available for the Current Location dialog box"
 ms.assetid: ed0732bc-4b8c-490f-adb1-af06869a2a6b
 caps.latest.revision: 19
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # No Source Available

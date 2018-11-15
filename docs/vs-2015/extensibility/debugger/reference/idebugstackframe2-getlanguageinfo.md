@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugStackFrame2::GetLanguageInfo"
 ms.assetid: 0e12fd92-f155-46a7-8272-cda279388cfb
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugStackFrame2::GetLanguageInfo

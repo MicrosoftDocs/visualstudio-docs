@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "VSPackages, managed package file location"
 ms.assetid: beb8607a-4183-4ed2-9ac8-7527f11513b1
 caps.latest.revision: 21
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Specifying VSPackage File Location to the VS Shell

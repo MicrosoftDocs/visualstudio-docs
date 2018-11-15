@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "IDE, currency"
 ms.assetid: 2f6f18d1-acd8-454d-a856-9a4d81155052
 caps.latest.revision: 15
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Selection and Currency in the IDE

@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "XML Web services, timeout while debugging"
 ms.assetid: 4b7df112-788a-4429-9a0c-4c6dac4fb609
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Error: Timeout While Debugging Web Services

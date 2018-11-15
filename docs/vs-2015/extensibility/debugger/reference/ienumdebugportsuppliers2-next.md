@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IEnumDebugPortSuppliers2::Next"
 ms.assetid: e2a2d226-e70b-42c2-bf00-a936517940c8
 caps.latest.revision: 13
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IEnumDebugPortSuppliers2::Next

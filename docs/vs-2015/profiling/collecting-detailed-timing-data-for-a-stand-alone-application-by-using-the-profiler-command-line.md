@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "instrumentation profiling method"
 ms.assetid: 4017d9d1-d609-4f41-8e4e-976abae746b3
 caps.latest.revision: 20
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Collecting Detailed Timing Data for a Stand-Alone Application by Using the Profiler Command Line

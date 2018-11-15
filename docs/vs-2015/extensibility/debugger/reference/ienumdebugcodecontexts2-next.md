@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IEnumDebugCodeContexts2::Next"
 ms.assetid: 0d8aa2db-0994-4166-b364-2e25d936fffc
 caps.latest.revision: 14
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IEnumDebugCodeContexts2::Next

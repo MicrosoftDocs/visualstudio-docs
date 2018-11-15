@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSymbol::get_hasNestedTypes method"
 ms.assetid: 1a8306bd-10dd-40a9-81fc-01f71c348484
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_hasNestedTypes

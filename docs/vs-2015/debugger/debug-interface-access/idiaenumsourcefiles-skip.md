@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaEnumSourceFiles::Skip method"
 ms.assetid: 4821e6dd-d33f-403d-857d-e3ae81e4a9e3
 caps.latest.revision: 10
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaEnumSourceFiles::Skip

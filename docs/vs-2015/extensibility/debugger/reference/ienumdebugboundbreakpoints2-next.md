@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IEnumDebugBoundBreakpoints2::Next"
 ms.assetid: cb3a249f-2282-4bdc-b6d8-a4ee4bfb8365
 caps.latest.revision: 14
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IEnumDebugBoundBreakpoints2::Next

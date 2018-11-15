@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugArrayObject::GetDimensions method"
 ms.assetid: 113e0aff-9028-49d6-b104-9fe7be4772d7
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugArrayObject::GetDimensions

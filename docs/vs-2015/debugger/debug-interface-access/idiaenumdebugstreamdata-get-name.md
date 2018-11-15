@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaEnumDebugStreamData::get_Name method"
 ms.assetid: e6cf2bed-ee2b-4122-886d-c20d93df7ff2
 caps.latest.revision: 10
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaEnumDebugStreamData::get_name

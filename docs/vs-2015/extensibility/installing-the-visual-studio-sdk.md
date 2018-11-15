@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c730edb6-5099-4c16-85a8-08def09f1455
 caps.latest.revision: 4
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Installing the Visual Studio SDK

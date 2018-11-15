@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IEnumDebugBoundBreakpoints2::GetCount"
 ms.assetid: 5a572eeb-beb7-4fc7-8259-792d277069be
 caps.latest.revision: 13
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IEnumDebugBoundBreakpoints2::GetCount

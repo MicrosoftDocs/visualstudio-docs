@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "expression evaluation, displaying locals"
 ms.assetid: 62264cec-845b-4233-aed7-0b038fa79250
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Displaying Locals

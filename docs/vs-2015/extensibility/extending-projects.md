@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "projects [Visual Studio]"
 ms.assetid: 096d273d-4fe9-4f24-9b00-470bfbdf4bdf
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Extending Projects

@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSession::findFileById method"
 ms.assetid: 710efe04-78b5-4f3e-a1d8-f9b069063503
 caps.latest.revision: 12
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSession::findFileById

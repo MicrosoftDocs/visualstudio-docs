@@ -16,8 +16,8 @@ dev_langs:
   - "C++"
 ms.assetid: 8f4266bc-4597-43ab-b620-8b08ea988a8e
 caps.latest.revision: 6
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Debugger navigation sample code (Xaml and C#)

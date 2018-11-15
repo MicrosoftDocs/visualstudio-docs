@@ -24,8 +24,8 @@ helpviewer_keywords:
   - "IntelliTrace, debugging after a crash"
 ms.assetid: 486bfec2-39bd-4d78-892a-42352128ee52
 caps.latest.revision: 142
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IntelliTrace

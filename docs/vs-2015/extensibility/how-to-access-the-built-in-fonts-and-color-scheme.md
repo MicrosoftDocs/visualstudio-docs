@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "colors, accessing built-in schemes"
 ms.assetid: 6905845e-e88e-4805-adcf-21da39108ec7
 caps.latest.revision: 24
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # How to: Access the Built-in Fonts and Color Scheme

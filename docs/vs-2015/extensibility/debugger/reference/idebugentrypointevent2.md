@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugEntryPointEvent2 interface"
 ms.assetid: a15d1cc3-97b7-438c-8d24-c23149708f42
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugEntryPointEvent2

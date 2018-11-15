@@ -82,6 +82,7 @@ hostspecific="true"
 <#@ assembly name="EnvDTE" #>
 <#@ import namespace="EnvDTE" #>
 <#@ import namespace="System.IO" #>
+<#@ import namespace="Microsoft.VisualStudio.TextTemplating" #>
 <# // Get the Visual Studio API as a service:
  DTE dte = ((IServiceProvider)this.Host).GetCOMService(typeof(DTE)) as DTE;
 #>

@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaEnumSegments::Clone method"
 ms.assetid: 93deaac6-72ab-4408-ba14-66174a618757
 caps.latest.revision: 10
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaEnumSegments::Clone

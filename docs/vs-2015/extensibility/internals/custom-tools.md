@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "custom tools"
 ms.assetid: d669f154-9b23-48b6-b9f6-7419c8dd61a6
 caps.latest.revision: 22
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Custom Tools

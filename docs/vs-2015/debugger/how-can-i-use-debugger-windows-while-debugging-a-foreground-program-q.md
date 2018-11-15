@@ -25,8 +25,8 @@ helpviewer_keywords:
   - "debugging [Visual Studio], foreground programs"
 ms.assetid: 9e67a308-1c81-42ab-966b-7fc3c1d2bf7a
 caps.latest.revision: 19
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How Can I Use Debugger Windows While Debugging a Foreground Program?

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugEnumField::GetUnderlyingSymbol method"
 ms.assetid: c3b8a117-6708-4cfd-8ffc-5f007d706bc5
 caps.latest.revision: 8
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugEnumField::GetUnderlyingSymbol

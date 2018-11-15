@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "SccGetEvents function"
 ms.assetid: 32f8147d-6dcc-465e-b07b-42da5824f9b0
 caps.latest.revision: 14
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # SccGetEvents Function

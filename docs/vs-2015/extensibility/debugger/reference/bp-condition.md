@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "BP_CONDITION structure"
 ms.assetid: 407f87a3-2878-429b-8c65-b68feb36622a
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # BP_CONDITION

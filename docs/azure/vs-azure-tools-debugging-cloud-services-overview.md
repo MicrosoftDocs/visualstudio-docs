@@ -1,21 +1,15 @@
 ---
 title: Options for debugging Azure cloud services | Microsoft Docs
 description: Debugging Azure cloud services
-
-documentationcenter: n/a
-author: mikejo
+author: mikejo5000
 manager: douge
-editor: ''
-
 ms.assetid: 80755da7-8350-4f5c-97ce-2962beabb36d
-ms.service: visual-studio-online
-ms.devlang: multiple
-ms.topic: article
-ms.tgt_pltfrm: multiple
-ms.workload: na
+ms.topic: conceptual
+ms.workload: azure-vs
 ms.date: 03/18/2017
 ms.author: mikejo
-
+ms.prod: visual-studio-dev15
+ms.technology: vs-ide-debug
 ---
 # Learn the various ways to debug an Azure cloud service
 This article provides links to the various ways to debug an Azure cloud service. 

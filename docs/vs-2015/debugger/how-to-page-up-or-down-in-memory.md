@@ -25,8 +25,8 @@ helpviewer_keywords:
   - "Memory window, paging up or down in memory"
 ms.assetid: 50b30a68-66f6-43f8-a48b-59ce12c95471
 caps.latest.revision: 23
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Page Up or Down in Memory

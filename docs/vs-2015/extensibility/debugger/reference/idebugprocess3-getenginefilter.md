@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "IDebugProcess3::GetEngineFilter"
 ms.assetid: ccb7ecb0-f189-4e80-b5b2-221a095e01f5
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugProcess3::GetEngineFilter

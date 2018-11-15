@@ -12,7 +12,7 @@ manager: shve
 ms.workload:
   - "multiple"
 ---
-# Suggest a feature
+# Understanding Suggest a Feature
 
 We've introduced a brand new experience for suggesting features alongside the current ability to report problems on [Visual Studio Developer Community](https://developercommunity.visualstudio.com). This is a new way you can be empowered to engage directly with Visual Studio’s engineering workflow.
 

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugPortSupplier2 interface"
 ms.assetid: 37067324-2ea6-4a01-8829-a6e9c7a70068
 caps.latest.revision: 14
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugPortSupplier2

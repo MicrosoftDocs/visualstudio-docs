@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugExpressionEvaluator::GetMethodProperty method"
 ms.assetid: c394fe4d-eeb6-4feb-828c-098d84a6f1ba
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugExpressionEvaluator::GetMethodProperty

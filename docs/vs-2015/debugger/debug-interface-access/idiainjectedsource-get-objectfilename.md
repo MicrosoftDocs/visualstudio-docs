@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaInjectedSource::get_objectFilename method"
 ms.assetid: 7c42847a-f0df-443a-a9fe-c495c1271ea8
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaInjectedSource::get_objectFilename

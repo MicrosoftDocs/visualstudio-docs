@@ -1,7 +1,6 @@
 ---
 title: Browse and manage storage resources by using Server Explorer | Microsoft Docs
 description: Browsing and managing storage resources by using Server Explorer
-
 author: ghogen
 manager: douge
 assetId: 658dc064-4a4e-414b-ae5a-a977a34c930d
@@ -12,7 +11,6 @@ ms.workload: azure-vs
 ms.topic: conceptual
 ms.date: 8/24/2017
 ms.author: ghogen
-
 ---
 # Browse and manage storage resources by using Server Explorer
 
@@ -215,7 +213,7 @@ You can customize the set of entities that appear in a table if you use the quer
 1. When you’re done building the query, close the dialog box. The resulting text form of the query appears in a text box as a WCF Data Services filter.
 1. To run the query, select the green triangle icon.
 
-You can also filter entity data that appears in Table Designer if you enter a WCF Data Services filter string directly in the filter text box. This kind of string is similar to a SQL WHERE clause but is sent to the server as an HTTP request. For information about how to construct filter strings, see [Constructing filter strings for the table designer](https://docs.microsoft.com/azure/vs-azure-tools-table-designer-construct-filter-strings).
+You can also filter entity data that appears in Table Designer if you enter a WCF Data Services filter string directly in the filter text box. This kind of string is similar to a SQL WHERE clause but is sent to the server as an HTTP request. For information about how to construct filter strings, see [Constructing filter strings for the table designer](vs-azure-tools-table-designer-construct-filter-strings.md).
 
 The following illustration shows an example of a valid filter string:
 

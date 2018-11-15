@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaAddressMap::get_addressMapEnabled method"
 ms.assetid: 6183dc5e-befa-4e5a-ae5a-f4aa24f3ed9e
 caps.latest.revision: 10
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaAddressMap::get_addressMapEnabled

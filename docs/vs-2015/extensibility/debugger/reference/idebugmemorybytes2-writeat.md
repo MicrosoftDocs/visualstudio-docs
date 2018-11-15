@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "WriteAt method"
 ms.assetid: 61cc3704-47fa-4d9b-aa62-bb4585ac8fb1
 caps.latest.revision: 14
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugMemoryBytes2::WriteAt

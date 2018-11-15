@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaEnumInjectedSources::get_Count method"
 ms.assetid: 659c415b-9f7b-470d-90e2-b4c0087f8dd3
 caps.latest.revision: 10
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaEnumInjectedSources::get_Count

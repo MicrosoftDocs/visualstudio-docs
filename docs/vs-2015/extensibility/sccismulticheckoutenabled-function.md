@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "SccIsMultiCheckoutEnabled function"
 ms.assetid: 6721639d-e475-4766-81b5-ee40a280fc70
 caps.latest.revision: 14
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # SccIsMultiCheckoutEnabled Function

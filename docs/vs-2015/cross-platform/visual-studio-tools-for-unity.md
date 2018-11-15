@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 6cabc626-5310-4622-a743-210a9abb5535
 caps.latest.revision: 6
-author: "TerryGLee"
-ms.author: "tglee"
+author: conceptdev
+ms.author: crdun
 manager: "ghogen"
 ---
 # Visual Studio Tools for Unity

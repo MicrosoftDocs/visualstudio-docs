@@ -29,8 +29,8 @@ helpviewer_keywords:
   - "debugging [Visual Studio], run-time routines"
 ms.assetid: 30ed90f3-9323-4784-80a4-937449eb54f6
 caps.latest.revision: 20
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Using Run-Time Checks Without the C Run-Time Library

@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaStackFrame::get_lengthParams method"
 ms.assetid: 78005efa-2883-4823-b4e4-711a66672c78
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaStackFrame::get_lengthParams

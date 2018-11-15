@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio for Mac Troubleshooting"
+title: Troubleshoot
 description: "Common issues and resolutions for Visual Studio for Mac users."
 ms.topic: troubleshooting
 author: conceptdev
@@ -17,11 +17,11 @@ Logs can be found by browsing to the **Help > Open Log Directory** menu item, as
 
 ## Viewing exceptions
 
-When an exception has been caught, an exception bubble will appear. To view more details, select the **View Details** button:
+When an exception is caught, an exception bubble appears. To view more details, select the **View Details** button:
 
 ![View more details about an exception](media/troubleshooting-image2.png)
 
-This will display the **Show Details** dialog, providing more information regarding the exception:
+This displays the **Show Details** dialog, providing more information regarding the exception:
 
 ![Show details dialog](media/troubleshooting-image3.png)
 
@@ -39,4 +39,8 @@ Important sections of the dialog, which are numbered above are described in deta
 10. By default, this is set to what the **Debug project code only** option in debugger settings is set to. Selecting this box will enable all non-user code to collapse into one line in the stacktrace.
 11. A copy button to copy the `exception.ToString()` output to clipboard.
 
-Note that some of these sections will only be visible when exception has an inner exception.
+Note that some of these sections are only visible when the exception has an inner exception.
+
+## See also
+
+- [Resources for troubleshooting IDE errors (Visual Studio on Windows)](/visualstudio/ide/reference/resources-for-troubleshooting-integrated-development-environment-errors)

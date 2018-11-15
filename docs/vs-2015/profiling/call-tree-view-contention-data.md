@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "Call Tree view"
 ms.assetid: 9bd4bde2-2ca3-446c-9ccc-7421522e03ae
 caps.latest.revision: 18
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Call Tree View - Contention Data

@@ -26,7 +26,7 @@ helpviewer_keywords:
   - "visualizers, about visualizers"
 ms.assetid: d2611385-0134-4387-8c5a-979fe625a462
 caps.latest.revision: 37
-ms.author: "susanno"
+ms.author: mikejo
 manager: "douge"
 ---
 # How to: Use a Visualizer

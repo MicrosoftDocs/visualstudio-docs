@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugEngineLaunch2::ResumeProcess"
 ms.assetid: 61ccc14e-75c6-44e7-aae4-57a9aac52089
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugEngineLaunch2::ResumeProcess

@@ -23,8 +23,8 @@ helpviewer_keywords:
   - "visualizers, installing"
 ms.assetid: 3310ef43-515c-4d97-b0f9-51047247d3da
 caps.latest.revision: 29
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Install a Visualizer

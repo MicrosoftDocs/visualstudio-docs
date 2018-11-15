@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "private galleries, VSIX"
 ms.assetid: b6b3dee7-91c5-4556-9f69-0d56b675e83b
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Private Galleries

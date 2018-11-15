@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugProcess2::GetPhysicalProcessId"
 ms.assetid: 77da6e10-75af-4308-97dd-c44416ca52d7
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugProcess2::GetPhysicalProcessId

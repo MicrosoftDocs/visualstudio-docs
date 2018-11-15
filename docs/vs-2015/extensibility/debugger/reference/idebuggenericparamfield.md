@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "IDebugGenericParamField interface"
 ms.assetid: ba24f499-5ba7-4c67-83e6-923229b52327
 caps.latest.revision: 7
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugGenericParamField

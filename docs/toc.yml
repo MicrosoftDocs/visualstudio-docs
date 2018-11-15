@@ -28,7 +28,7 @@
       href: install/create-an-offline-installation-of-visual-studio.md
     - name: Install required certificates for offline installation
       href: install/install-certificates-for-visual-studio-offline.md
-  - name: Change installation locations
+  - name: Select installation locations
     href: install/change-installation-locations.md
   - name: Troubleshoot installation issues
     href: install/troubleshooting-installation-issues.md
@@ -93,6 +93,27 @@
       items:
       - name: Visual Studio workload and component IDs
         href: install/workload-and-component-ids.md
+        items:
+        - name: Visual Studio Enterprise 2017
+          href: install/workload-component-id-vs-enterprise.md
+        - name: Visual Studio Professional 2017
+          href: install/workload-component-id-vs-professional.md
+        - name: Visual Studio Community 2017
+          href: install/workload-component-id-vs-community.md
+        - name: Visual Studio Team Explorer 2017
+          href: install/workload-component-id-vs-team-explorer.md
+        - name: Visual Studio Desktop Express 2017
+          href: install/workload-component-id-vs-express.md
+        - name: Visual Studio Build Tools 2017
+          href: install/workload-component-id-vs-build-tools.md
+        - name: Visual Studio Test Agent 2017
+          href: install/workload-component-id-vs-test-agent.md
+        - name: Visual Studio Test Controller 2017
+          href: install/workload-component-id-vs-test-controller.md
+        - name: Visual Studio Test Professional 2017
+          href: install/workload-component-id-vs-test-professional.md          
+        - name: Visual Studio Feedback Client 2017
+          href: install/workload-component-id-vs-feedback-client.md                       
       - name: Visual Studio build numbers and release dates
         href: install/visual-studio-build-numbers-and-release-dates.md
   - name: Use Visual Studio from an Azure virtual machine
@@ -788,18 +809,28 @@
           href: ide/reference/options-text-editor-c-cpp-advanced.md
         - name: Text Editor - C/C++, Experimental
           href: ide/reference/options-text-editor-c-cpp-experimental.md
+        - name: Text Editor - C/C++, View
+          href: ide/reference/options-text-editor-c-cpp-view.md
         - name: Text Editor - C#, Code Style, Formatting
           href: ide/reference/options-text-editor-csharp-formatting.md
         - name: Text Editor - C#, Advanced
           href: ide/reference/options-text-editor-csharp-advanced.md
         - name: Text Editor - C#, IntelliSense
           href: ide/reference/options-text-editor-csharp-intellisense.md
+        - name: Text Editor - JavaScript, Code Validation
+          href: ide/reference/options-text-editor-javascript-code-validation.md
         - name: Text Editor - JavaScript, Formatting
           href: ide/reference/options-text-editor-javascript-formatting.md
         - name: Text Editor - JavaScript, IntelliSense
           href: ide/reference/options-text-editor-javascript-intellisense.md
         - name: Text Editor - XAML, Formatting
           href: ide/reference/options-text-editor-xaml-formatting.md
+        - name: Text Editor - XAML, Miscellaneous
+          href: ide/reference/options-text-editor-xaml-miscellaneous.md
+        - name: Text Editor - XML, Formatting
+          href: ide/reference/options-text-editor-xml-formatting.md
+        - name: Text Editor - XML, Miscellaneous
+          href: ide/reference/options-text-editor-xml-miscellaneous.md
       - name: Projects and Solutions Options Dialog Box
         href: ide/reference/projects-and-solutions-options-dialog-box.md
         items:
@@ -1070,13 +1101,14 @@
       href: /visualstudio/productinfo/2017-redistribution-vs?context=visualstudio/default&contextView=vs-2017
     - name: Support lifecycle and servicing
       href: /visualstudio/productinfo/vs-servicing-vs?context=visualstudio/default&contextView=vs-2017
-  - name: Report a problem with Visual Studio
-    href: ide/how-to-report-a-problem-with-visual-studio-2017.md
-    items:
     - name: Developer Community data privacy
       href: ide/developer-community-privacy.md
-  - name: Suggest a feature for Visual Studio
-    href: ide/suggest-a-feature.md
+    - name: How to report a problem in Visual Studio
+      href: ide/how-to-report-a-problem-with-visual-studio-2017.md
+    - name: Understanding Report a problem
+      href: ide/report-a-problem.md
+    - name: Understanding Suggest a feature
+      href: ide/suggest-a-feature.md
   - name: Customer Experience Improvement Program
     href: ide/visual-studio-experience-improvement-program.md
     items:

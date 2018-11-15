@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "SetIDebugIDECallback"
 ms.assetid: f01c40ad-ef4b-477b-8304-602c6972bc88
 caps.latest.revision: 9
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugExpressionEvaluator2::SetIDebugIDECallback

@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "VSPackages, side-by-side compatibility"
 ms.assetid: 0047aa90-1ed4-40d3-8772-622b2719a4b1
 caps.latest.revision: 21
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Supporting Multiple Versions of Visual Studio

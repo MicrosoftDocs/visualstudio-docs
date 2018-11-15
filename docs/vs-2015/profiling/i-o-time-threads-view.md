@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "Concurrency Visualizer, I/O time (Threads View)"
 ms.assetid: 0c4ec14d-d8dd-49c1-999c-dcbf4e8e1dc8
 caps.latest.revision: 10
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # I/O Time (Threads View)

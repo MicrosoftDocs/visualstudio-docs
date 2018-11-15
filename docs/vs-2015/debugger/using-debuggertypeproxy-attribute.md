@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "DebuggerTypeProxy attribute"
 ms.assetid: 943f3bb1-993e-4800-a47e-0af78b063014
 caps.latest.revision: 27
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Using DebuggerTypeProxy Attribute

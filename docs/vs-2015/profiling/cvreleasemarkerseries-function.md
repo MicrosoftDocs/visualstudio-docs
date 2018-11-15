@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "CvReleaseMarkerSeries method"
 ms.assetid: 3b4711ee-e534-411d-9128-f69cd7932a48
 caps.latest.revision: 8
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # CvReleaseMarkerSeries Function

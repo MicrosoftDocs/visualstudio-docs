@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSymbol::get_liveRangeStartAddressSection"
 ms.assetid: 892b80ff-5957-4233-b4d7-6144167be289
 caps.latest.revision: 12
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_liveRangeStartAddressSection

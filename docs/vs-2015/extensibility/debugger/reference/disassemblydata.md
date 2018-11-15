@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "DisassemblyData structure"
 ms.assetid: 10e70aa7-9381-40d3-bdd1-d2cad78ef16c
 caps.latest.revision: 14
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # DisassemblyData

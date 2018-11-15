@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "UML diagrams, saving"
 ms.assetid: 0df68943-4c60-4f00-b1e8-b1cdee13762e
 caps.latest.revision: 17
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
 manager: "douge"
 ---

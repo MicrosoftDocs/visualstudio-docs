@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugMethodField::GetThis method"
 ms.assetid: cc235bea-e909-4d8c-ab54-936736c803fc
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugMethodField::GetThis

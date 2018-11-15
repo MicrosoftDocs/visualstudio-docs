@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], components"
 ms.assetid: 8b8ab77f-a134-495c-be42-3bc51aa62dfb
 caps.latest.revision: 31
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Debugger Components

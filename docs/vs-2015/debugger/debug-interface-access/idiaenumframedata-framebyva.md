@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaEnumFrameData::frameByVA method"
 ms.assetid: 0b1e441b-710a-46d8-8060-bed39071c834
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaEnumFrameData::frameByVA

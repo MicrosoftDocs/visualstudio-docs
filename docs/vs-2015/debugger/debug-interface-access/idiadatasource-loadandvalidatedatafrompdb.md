@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaDataSource::loadAndValidateDataFromPdb method"
 ms.assetid: d66712dd-6c24-4192-919a-cce262066f0e
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaDataSource::loadAndValidateDataFromPdb

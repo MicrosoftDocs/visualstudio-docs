@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "BPRESI_FIELDS enumeration"
 ms.assetid: 99f17b1e-3e67-4f85-89d6-5c6cf45c8008
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # BPRESI_FIELDS

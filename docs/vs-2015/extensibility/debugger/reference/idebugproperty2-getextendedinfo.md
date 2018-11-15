@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugProperty2::GetExtendedInfo"
 ms.assetid: 0c9c0b2b-7540-4424-adb5-fce7aa37a026
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugProperty2::GetExtendedInfo

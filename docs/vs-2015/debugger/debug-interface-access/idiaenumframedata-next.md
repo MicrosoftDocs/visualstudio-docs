@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaEnumFrameData::Next method"
 ms.assetid: 546e2e23-efb2-425a-96a1-808c67c519fb
 caps.latest.revision: 10
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaEnumFrameData::Next

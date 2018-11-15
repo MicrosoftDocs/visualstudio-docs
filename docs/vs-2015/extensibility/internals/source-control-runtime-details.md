@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "source control [Visual Studio SDK], runtime details"
 ms.assetid: 1acd30e0-f98c-4bde-b9cd-4076845887df
 caps.latest.revision: 13
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Source Control Runtime Details

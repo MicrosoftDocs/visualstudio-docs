@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "tool windows, adding context menus"
 ms.assetid: 50234537-9e95-4b7e-9cb7-e5cf26d6e9d2
 caps.latest.revision: 38
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Adding a Shortcut Menu in a Tool Window

@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "pre-instrument events, performance tools"
 ms.assetid: 6a8d5340-1d1b-4d81-88dd-8e1f435eb828
 caps.latest.revision: 33
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Specify Pre- and Post-Instrument Commands

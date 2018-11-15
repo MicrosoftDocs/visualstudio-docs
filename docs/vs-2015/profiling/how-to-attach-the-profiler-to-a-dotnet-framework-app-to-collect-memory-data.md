@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 9a869fa4-3c98-4e08-b5d9-f43523059f0e
 caps.latest.revision: 38
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Attach the Profiler to a .NET Framework Stand-Alone Application to Collect Memory Data by Using the Command Line

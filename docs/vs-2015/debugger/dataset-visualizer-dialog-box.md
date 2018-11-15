@@ -27,8 +27,8 @@ helpviewer_keywords:
   - "Dataset Visualizer dialog box"
 ms.assetid: dfbede03-805b-4f88-a645-b479450e6cb0
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Dataset Visualizer Dialog Box

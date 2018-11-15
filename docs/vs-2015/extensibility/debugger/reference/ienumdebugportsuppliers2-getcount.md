@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IEnumDebugPortSuppliers2::GetCount"
 ms.assetid: 004f78dd-87d0-41a8-bcaa-f7fadbfeb8fc
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IEnumDebugPortSuppliers2::GetCount

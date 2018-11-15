@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IEEVisualizerService::GetCustomViewerCount method"
 ms.assetid: f7b095c2-e538-4352-8cad-d4c6d4f6bdbc
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IEEVisualizerService::GetCustomViewerCount

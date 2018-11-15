@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "performance sessions, options"
 ms.assetid: 639afe26-8335-4bd4-8aa5-f2c607b81f07
 caps.latest.revision: 21
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Specify Additional Instrumentation Options

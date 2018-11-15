@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "UML, modeling architecture"
 ms.assetid: aedce746-9df5-49e1-9662-67eb1b83d313
 caps.latest.revision: 21
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
 manager: "douge"
 ---

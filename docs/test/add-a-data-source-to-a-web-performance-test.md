@@ -18,7 +18,7 @@ Bind data to provide different values to the same test, for example, to provide 
 
  ![Binding data to a web performance test](../test/media/web_test_databinding_conceptual.png)
 
- We’re going to use a sample ASP.NET app. It has three *.aspx* pages – the default page, a Red page, and a Blue page. The default page has a radio control to choose either red or blue and a submit button. The other two *.aspx* pages are very simple. One has a label named Red and the other has a label named Blue. When you choose submit on the default page, we display one of the other pages. You can download the [ColorWebApp](http://code.msdn.microsoft.com/Sample-ColorWebApp-76ff7506) sample, or just follow along with your own web app.
+ We’re going to use a sample ASP.NET app. It has three *.aspx* pages – the default page, a Red page, and a Blue page. The default page has a radio control to choose either red or blue and a submit button. The other two *.aspx* pages are very simple. One has a label named Red and the other has a label named Blue. When you choose submit on the default page, we display one of the other pages. You can download the [ColorWebApp](https://code.msdn.microsoft.com/Sample-ColorWebApp-76ff7506) sample, or just follow along with your own web app.
 
  ![Running the web app to be tested](../test/media/web_test_databinding_runwebapp.png)
 

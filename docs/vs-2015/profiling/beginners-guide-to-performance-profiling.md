@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "Performance Wizard"
 ms.assetid: da2fbf8a-2d41-4654-a509-dd238532d25a
 caps.latest.revision: 50
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Beginners Guide to Performance Profiling

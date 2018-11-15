@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], legacy - host a nested editor"
 ms.assetid: 2b0eb705-fe94-4ca8-93e0-9dbd8ce61a44
 caps.latest.revision: 15
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # How to: Host An Editor in Another Editor

@@ -31,6 +31,6 @@ ms.workload:
   
 ## See also  
  [Upgrade and migrate Office solutions](../vsto/upgrading-and-migrating-office-solutions.md)   
- [How to: Upgrade Office solutions](http://msdn.microsoft.com/a269e539-b717-4680-a568-2152b070347e)  
+ [How to: Upgrade Office solutions](https://msdn.microsoft.com/a269e539-b717-4680-a568-2152b070347e)  
   
   

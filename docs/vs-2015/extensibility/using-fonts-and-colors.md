@@ -17,7 +17,7 @@ helpviewer_keywords:
   - "text, IDE"
 ms.assetid: d1a9b99f-fbdc-45ed-920a-e08c3d931ac9
 caps.latest.revision: 28
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Using Fonts and Colors

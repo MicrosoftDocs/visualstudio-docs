@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "PreviewImage Element (Visual Studio Templates)"
 ms.assetid: d1796f20-523b-4e0d-8ac3-ca87f3b5a9b6
 caps.latest.revision: 7
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # PreviewImage Element (Visual Studio Templates)

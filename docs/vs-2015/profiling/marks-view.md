@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "profiling tools reports, Marks view"
 ms.assetid: b2773344-8081-4116-85a1-58f770448f6a
 caps.latest.revision: 23
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Marks View

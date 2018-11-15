@@ -94,7 +94,7 @@ Namespace FlowDocumentSnippets
 			flowDoc.Blocks.Add(New Paragraph(New Run("Text to append...")))
 			' </Snippet_FlowDocumentBlocksAdd>
 
-			' Insert a content block at the begining of the FlowDocument.
+			' Insert a content block at the beginning of the FlowDocument.
 			' <Snippet_FlowDocumentBlocksInsert>
 			Dim p As New Paragraph(New Run("Text to insert..."))
 			flowDoc.Blocks.InsertBefore(flowDoc.Blocks.FirstBlock, p)
@@ -123,7 +123,7 @@ Namespace FlowDocumentSnippets
 			secx.Blocks.Add(New Paragraph(New Run("A bit of text content...")))
 			' </Snippet_SectionBlocksAdd>
 
-			' Insert a content block at the begining of the Section.
+			' Insert a content block at the beginning of the Section.
 			' <Snippet_SectionBlocksInsert>
 			Dim parx As New Paragraph(New Run("Text to insert..."))
 			secx.Blocks.InsertBefore(secx.Blocks.FirstBlock, parx)
@@ -148,7 +148,7 @@ Namespace FlowDocumentSnippets
 		Private Sub ColumnStuff()
 				' <Snippet_FlowDocumentColumnGap>
             Dim flowDocColGap As New FlowDocument(New Paragraph(New Run("A bit of text content...")))
-				' Set the desired column gap to 10 device independend pixels.
+				' Set the desired column gap to 10 device independent pixels.
             flowDocColGap.ColumnGap = 10.0
 				' </Snippet_FlowDocumentColumnGap>
 
@@ -191,7 +191,7 @@ Namespace FlowDocumentSnippets
 
 				' Insert an initial paragraph at the beginning of the empty FlowDocument.
             flowDocStart.Blocks.Add(New Paragraph(New Run("Since the new FlowDocument is empty at this point, this will be the initial content " & "in the FlowDocument.")))
-				' Insert a line-break at the beginnign of the document, before the previously inserted paragraph.
+				' Insert a line-break at the beginning of the document, before the previously inserted paragraph.
             flowDocStart.Blocks.InsertBefore(flowDocStart.Blocks.FirstBlock, New Paragraph(New LineBreak()))
 				' Insert another paragraph at the beginning of the document.
             flowDocStart.Blocks.InsertBefore(flowDocStart.Blocks.FirstBlock, New Paragraph(New Run("This paragraph will be inserted before the previously added paragraph, replacing the previously" & "added paragraph as the first paragraph in the document.")))
@@ -209,7 +209,7 @@ Namespace FlowDocumentSnippets
 		Private Sub FontStuff()
 			' <Snippet_FlowDocumentFontStuff>
 			Dim flowDoc As New FlowDocument(New Paragraph(New Run("A bit of text content...")))
-			' Set the desired column gap to 10 device independend pixels.
+			' Set the desired column gap to 10 device independent pixels.
 			flowDoc.FontFamily = New FontFamily("Century Gothic")
 			flowDoc.FontSize = 12.0
 			flowDoc.FontStretch = FontStretches.UltraExpanded
@@ -306,7 +306,7 @@ Namespace FlowDocumentSnippets
 			tfe.PositionStart = 0
 			tfe.PositionCount = Integer.MaxValue
 
-			' Add this text effect to the FlowDocument's effects colleciton.
+			' Add this text effect to the FlowDocument's effects collection.
 			fd.TextEffects = New TextEffectCollection()
 			fd.TextEffects.Add(tfe)
 

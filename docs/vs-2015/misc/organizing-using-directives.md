@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "using statements, organizing"
 ms.assetid: 8548dd54-ebf7-42b5-85c4-8f6088149d74
 caps.latest.revision: 13
-author: "BillWagner"
-ms.author: "billchi"
+author: BillWagner
+ms.author: wiwagn
 manager: "douge"
 ---
 # Organizing Using Directives

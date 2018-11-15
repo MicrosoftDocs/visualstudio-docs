@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugAlias::GetName method"
 ms.assetid: ac2d8891-56b5-40ef-9866-ed74f18bb043
 caps.latest.revision: 9
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugAlias::GetName

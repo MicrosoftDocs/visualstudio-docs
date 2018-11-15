@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "what's new"
 ms.assetid: d4736cc8-8961-4089-be9e-d5190ce8353c
 caps.latest.revision: 47
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # What&#39;s New in Profiling Tools

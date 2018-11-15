@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "METADATA_ADDRESS_ARRAYELEM structure"
 ms.assetid: 24321be5-7c17-4038-82a1-c20a2b68ff3c
 caps.latest.revision: 7
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # METADATA_ADDRESS_ARRAYELEM

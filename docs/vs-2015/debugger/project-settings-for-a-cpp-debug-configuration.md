@@ -114,8 +114,8 @@ helpviewer_keywords:
   - "/MAP linker option"
 ms.assetid: 860c7f13-a108-4fe5-8fca-d235cd3ca1cb
 caps.latest.revision: 52
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Project Settings for a C++ Debug Configuration

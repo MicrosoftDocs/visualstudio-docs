@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "Concurrency Visualizer, Channels (Threads View)"
 ms.assetid: 2f798c17-2363-42a4-be94-a5751d208eac
 caps.latest.revision: 21
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Channels (Threads View)

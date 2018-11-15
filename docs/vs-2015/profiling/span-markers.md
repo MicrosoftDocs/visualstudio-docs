@@ -13,8 +13,8 @@ f1_keywords:
   - "vs.cv.markers.span"
 ms.assetid: 736b7765-9c71-44d7-85e5-79787d13d91c
 caps.latest.revision: 14
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Span Markers

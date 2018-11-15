@@ -44,13 +44,13 @@ ms.workload:
   
  For more information about the structure of Open XML and custom XML parts, see the following articles:  
   
--   [Introducing the Office (2007) Open XML file formats](http://msdn.microsoft.com/96018532-f62c-4da7-bbff-16b96a483fbf)  
+-   [Introducing the Office (2007) Open XML file formats](/previous-versions/office/developer/office-2007/aa338205(v=office.12))  
   
--   [How to: Manipulate Open XML formats documents](http://msdn.microsoft.com/c989d4e2-053d-4e1f-83be-257c608b343f)  
+-   [How to: Manipulate Open XML formats documents](/previous-versions/office/developer/office-2007/aa982683(v=office.12))  
   
--   [Walkthrough: Word 2007 XML format](http://msdn.microsoft.com/fc1afcb2-27fb-4608-9f29-11b7bd23ea4a)  
+-   [Walkthrough: Word 2007 XML format](/previous-versions/office/developer/office-2007/bb266220(v=office.12))  
   
--   [Build Word 2007 documents using Open XML formats](http://msdn.microsoft.com/59a46f4e-5a5a-4dac-86e5-7dfd43330766)  
+-   [Build Word 2007 documents using Open XML formats](/previous-versions/office/developer/office-2007/bb264572(v=office.12))  
   
 > [!NOTE]  
 >  Excel, Word, and PowerPoint also enable you to use custom XML parts in documents that are saved in the binary file formats. However, if a document is saved in a binary format, you cannot add or modify custom XML parts without starting the Microsoft Office application.  
@@ -70,7 +70,7 @@ ms.workload:
 ### Modify XML parts without starting the Office application  
  You can add or modify a custom XML part without starting Excel, PowerPoint, or Word. This is useful if you want to work with XML data in a document on a computer that does not have Microsoft Office applications installed, such as a server.  
   
- To add a custom XML part without starting Microsoft Office, use classes in the Open XML SDK. These classes are designed to provide access to Open XML content that is specific to Office documents. For example, to add a custom XML part to an Excel workbook, you use the [AddNewPart\<T>](https://msdn.microsoft.com/library/office/cc562657.aspx) method of a [WorkbookPart](https://msdn.microsoft.com/library/office/documentformat.openxml.packaging.workbookpart.aspx) object. For more information, see [Open XML SDK](/office/open-xml/open-xml-sdk).  
+ To add a custom XML part without starting Microsoft Office, use classes in the Open XML SDK. These classes are designed to provide access to Open XML content that is specific to Office documents. For example, to add a custom XML part to an Excel workbook, you use the <xref:DocumentFormat.OpenXml.Packaging.OpenXmlPartContainer.AddNewPart%2A> method of a <xref:DocumentFormat.OpenXml.Packaging.WorkbookPart> object. For more information, see [Open XML SDK](/office/open-xml/open-xml-sdk).  
   
 ## Bind custom XML parts to Word content controls  
  You can bind content controls in a Word solution to elements in a custom XML part. When a content control is bound to a custom XML part, the data in the custom XML part is displayed in the user interface (UI) of the content control. If a user edits text in the control, the corresponding XML element is automatically updated. Similarly, if element values in the custom XML parts are changed, the content controls that are bound to the XML elements display the new data. For more information, see [Content controls](../vsto/content-controls.md).  
@@ -81,5 +81,3 @@ ms.workload:
  [How to: Add custom XML parts to documents by using VSTO Add-ins](../vsto/how-to-add-custom-xml-parts-to-documents-by-using-vsto-add-ins.md)   
  [Content controls](../vsto/content-controls.md)   
  [Walkthrough: Bind content controls to custom XML parts](../vsto/walkthrough-binding-content-controls-to-custom-xml-parts.md)  
-  
-  

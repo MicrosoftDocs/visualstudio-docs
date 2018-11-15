@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "text, colorizing in editors"
 ms.assetid: 96e762ca-efd0-41e7-8958-fda4897c8c7a
 caps.latest.revision: 21
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Implementing Syntax Coloring

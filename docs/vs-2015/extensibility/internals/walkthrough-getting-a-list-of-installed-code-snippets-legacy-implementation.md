@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "GetSnippets method"
 ms.assetid: 7d142f8b-35b1-44c4-a13e-f89f6460c906
 caps.latest.revision: 16
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Walkthrough: Getting a List of Installed Code Snippets (Legacy Implementation)

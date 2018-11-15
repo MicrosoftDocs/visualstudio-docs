@@ -106,7 +106,7 @@ namespace FlowDocumentSnippets
             flowDoc.Blocks.Add(new Paragraph(new Run("Text to append...")));
             // </Snippet_FlowDocumentBlocksAdd>
 
-            // Insert a content block at the begining of the FlowDocument.
+            // Insert a content block at the beginning of the FlowDocument.
             // <Snippet_FlowDocumentBlocksInsert>
             Paragraph p = new Paragraph(new Run("Text to insert..."));
             flowDoc.Blocks.InsertBefore(flowDoc.Blocks.FirstBlock, p);
@@ -136,7 +136,7 @@ namespace FlowDocumentSnippets
             secx.Blocks.Add(new Paragraph(new Run("A bit of text content...")));
             // </Snippet_SectionBlocksAdd>
 
-            // Insert a content block at the begining of the Section.
+            // Insert a content block at the beginning of the Section.
             // <Snippet_SectionBlocksInsert>
             Paragraph parx = new Paragraph(new Run("Text to insert..."));
             secx.Blocks.InsertBefore(secx.Blocks.FirstBlock, parx);
@@ -163,7 +163,7 @@ namespace FlowDocumentSnippets
             {
                 // <Snippet_FlowDocumentColumnGap>
                 FlowDocument flowDoc = new FlowDocument(new Paragraph(new Run("A bit of text content...")));
-                // Set the desired column gap to 10 device independend pixels.
+                // Set the desired column gap to 10 device independent pixels.
                 flowDoc.ColumnGap = 10.0;
                 // </Snippet_FlowDocumentColumnGap>
             }
@@ -224,7 +224,7 @@ namespace FlowDocumentSnippets
                     "Since the new FlowDocument is empty at this point, this will be the initial content " +
                     "in the FlowDocument."
                 )));
-                // Insert a line-break at the beginnign of the document, before the previously inserted paragraph.
+                // Insert a line-break at the beginning of the document, before the previously inserted paragraph.
                 flowDoc.Blocks.InsertBefore(flowDoc.Blocks.FirstBlock, new Paragraph(new LineBreak()));
                 // Insert another paragraph at the beginning of the document.
                 flowDoc.Blocks.InsertBefore(flowDoc.Blocks.FirstBlock, new Paragraph(new Run(
@@ -248,7 +248,7 @@ namespace FlowDocumentSnippets
         {
             // <Snippet_FlowDocumentFontStuff>
             FlowDocument flowDoc = new FlowDocument(new Paragraph(new Run("A bit of text content...")));
-            // Set the desired column gap to 10 device independend pixels.
+            // Set the desired column gap to 10 device independent pixels.
             flowDoc.FontFamily = new FontFamily("Century Gothic");
             flowDoc.FontSize = 12.0;
             flowDoc.FontStretch = FontStretches.UltraExpanded;
@@ -351,7 +351,7 @@ namespace FlowDocumentSnippets
             tfe.PositionStart = 0;
             tfe.PositionCount = int.MaxValue;
 
-            // Add this text effect to the FlowDocument's effects colleciton.
+            // Add this text effect to the FlowDocument's effects collection.
             fd.TextEffects = new TextEffectCollection();
             fd.TextEffects.Add(tfe);
 

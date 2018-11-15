@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "vsix msi"
 ms.assetid: 5ee2d1ba-478a-4cb7-898f-c3b4b2ee834e
 caps.latest.revision: 16
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Preparing Extensions for Windows Installer Deployment

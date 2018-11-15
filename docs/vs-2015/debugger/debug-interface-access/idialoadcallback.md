@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaLoadCallback interface"
 ms.assetid: 2f18c64c-2cf0-43fc-a447-21e82702ca2a
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaLoadCallback

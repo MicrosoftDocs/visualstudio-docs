@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "source control [Visual Studio SDK], model"
 ms.assetid: 6164b2d3-a622-4de8-bef3-a6de985e9ebd
 caps.latest.revision: 14
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Model for Source Control Packages

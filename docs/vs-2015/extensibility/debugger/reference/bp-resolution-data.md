@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "BP_RESOLUTION_DATA structure"
 ms.assetid: 9e0b9000-6a84-47b9-b07a-367a75764389
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # BP_RESOLUTION_DATA

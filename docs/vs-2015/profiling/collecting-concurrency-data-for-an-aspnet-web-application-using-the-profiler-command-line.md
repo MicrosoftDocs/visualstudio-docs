@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "profiling tools,concurrency method"
 ms.assetid: 0ba431c1-9eaf-4af9-8ce0-669c0835cdc2
 caps.latest.revision: 17
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Collecting Concurrency Data for an ASP.NET Web Application Using the Profiler Command Line

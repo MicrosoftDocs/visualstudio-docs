@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "m_taskIdCounter field, Task class [.NET Framework debug engines]"
 ms.assetid: 7e5a1907-c652-4046-b207-d2f1ef7b8029
 caps.latest.revision: 9
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # s_taskIdCounter Field

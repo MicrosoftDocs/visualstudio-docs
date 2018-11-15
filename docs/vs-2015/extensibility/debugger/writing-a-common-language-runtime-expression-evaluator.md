@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], expression evaluators tutorial"
 ms.assetid: bd79d57f-8e0a-4e14-a417-0b1de28fa1b2
 caps.latest.revision: 24
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Writing a Common Language Runtime Expression Evaluator

@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSectionContrib::get_read method"
 ms.assetid: 68bfb35c-eabd-412a-bc8f-3094703b98c4
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSectionContrib::get_read

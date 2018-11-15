@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugExceptionEvent2::GetExceptionDescription"
 ms.assetid: d07d458f-5729-47e4-9b77-1bd59c61a75a
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugExceptionEvent2::GetExceptionDescription

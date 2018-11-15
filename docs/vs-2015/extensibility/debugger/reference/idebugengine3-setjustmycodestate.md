@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugEngine3::SetJustMyCodeState"
 ms.assetid: 8ec17fbf-df93-424a-b2ed-fd1e5ee51256
 caps.latest.revision: 13
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugEngine3::SetJustMyCodeState

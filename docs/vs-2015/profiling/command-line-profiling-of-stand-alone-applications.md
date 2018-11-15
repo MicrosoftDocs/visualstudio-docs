@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "profling stand-alone applications"
 ms.assetid: a47f2bf2-186d-4120-bb79-34e2f3a1ee42
 caps.latest.revision: 21
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Command-Line Profiling of Stand-Alone Applications

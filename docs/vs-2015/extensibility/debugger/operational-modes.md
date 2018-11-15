@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "debug engines, modes"
 ms.assetid: f69972d0-809d-40df-9da3-04738791391c
 caps.latest.revision: 14
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Operational Modes

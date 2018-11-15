@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "outlining, supporting"
 ms.assetid: df759e89-8193-418c-8038-6626304d387b
 caps.latest.revision: 17
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # How to: Provide Expanded Outlining Support in a Legacy Language Service

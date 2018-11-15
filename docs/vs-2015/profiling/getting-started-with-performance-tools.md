@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "getting started, profiling tools"
 ms.assetid: 02085214-a8e4-40fd-9b26-32391a7a7082
 caps.latest.revision: 33
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Getting Started with Performance Tools

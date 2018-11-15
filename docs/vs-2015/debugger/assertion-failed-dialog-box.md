@@ -23,8 +23,8 @@ helpviewer_keywords:
   - "Assertion Failed dialog box"
 ms.assetid: 64af5bed-e38b-420f-b9ce-d64f35100aae
 caps.latest.revision: 10
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Assertion Failed Dialog Box

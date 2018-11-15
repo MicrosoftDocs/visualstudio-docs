@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "debugger, GPU threads window"
 ms.assetid: c647c502-a9f0-48e0-a430-976744a5fa51
 caps.latest.revision: 16
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Use the GPU Threads Window

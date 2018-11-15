@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "EVENTATTRIBUTES enumeration"
 ms.assetid: 04db10f7-df31-4464-98e8-b3777428179e
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # EVENTATTRIBUTES

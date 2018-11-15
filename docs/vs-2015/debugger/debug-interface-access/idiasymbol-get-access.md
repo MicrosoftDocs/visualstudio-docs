@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSymbol::get_access method"
 ms.assetid: 908976ae-95c4-4020-89c9-de137f727f98
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_access

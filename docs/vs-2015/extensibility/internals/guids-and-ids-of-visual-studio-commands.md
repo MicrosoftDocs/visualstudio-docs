@@ -17,7 +17,7 @@ helpviewer_keywords:
   - "guid"
 ms.assetid: 2ea4bee2-0259-4675-8e65-2023b312b516
 caps.latest.revision: 7
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # GUIDs and IDs of Visual Studio Commands

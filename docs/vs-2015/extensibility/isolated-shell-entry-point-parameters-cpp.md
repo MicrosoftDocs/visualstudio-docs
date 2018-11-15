@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "Visual Studio shell, isolated mode%2C Start entry point"
 ms.assetid: 18f4b18b-2173-4afa-ba0a-42fe33e61118
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Isolated Shell Entry Point Parameters (C++)

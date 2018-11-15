@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "project types, design decisions"
 ms.assetid: f68671fe-fd7a-4e56-a0b5-330b0f1fedb1
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Project Type Design Decisions

@@ -18,7 +18,7 @@ ms.workload:
   - "office"
 ---
 # Form support in workflows
-  Four types of forms can be used in a workflow: association, initiation, task, and modification. These form types can be based on either an ASPX form or an InfoPath form. The level of support that [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] provides for a particular form depends on several factors, which are described in the following tables. For more information about workflow form types, see [Workflow Forms Overview](http://go.microsoft.com/fwlink/?LinkId=185228) on the MSDN Web site.  
+  Four types of forms can be used in a workflow: association, initiation, task, and modification. These form types can be based on either an ASPX form or an InfoPath form. The level of support that [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] provides for a particular form depends on several factors, which are described in the following tables. For more information about workflow form types, see [Workflow Forms Overview](http://go.microsoft.com/fwlink/?LinkId=185228).  
   
 ## XML refactoring
  When you add an ASPX association or initiation form to a [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] workflow project item, [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] automatically refactors the XML in the workflow's *Elements.xml* file to keep the attribute that refers to the association or initiation form in sync whenever the form name or deployment path is updated or the form is deleted. However, when you use other form types in a workflow, such as a task or modification form, the *Elements.xml* file is not refactored.  

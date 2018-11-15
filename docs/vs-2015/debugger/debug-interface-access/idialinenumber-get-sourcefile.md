@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaLineNumber::get_sourceFile method"
 ms.assetid: 86fc4411-375e-4b99-8f96-4da2c3f68190
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaLineNumber::get_sourceFile

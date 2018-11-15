@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "WCF, debugging"
 ms.assetid: 9893ad01-54af-499f-85a6-9d1cfe6eb640
 caps.latest.revision: 27
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Step into WCF Services

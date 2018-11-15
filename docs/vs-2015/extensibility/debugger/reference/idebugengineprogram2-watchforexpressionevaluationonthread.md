@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugEngineProgram2::WatchForExpressionEvaluationOnThread"
 ms.assetid: 01d05e77-8cac-4d1b-b19f-25756767ed27
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugEngineProgram2::WatchForExpressionEvaluationOnThread
