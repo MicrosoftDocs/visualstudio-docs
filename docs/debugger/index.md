@@ -60,7 +60,7 @@ The Visual Studio debugger helps you observe the run-time behavior of your progr
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Watch a Video on using the Debugger</h3>
+                        <h3>Watch a video on using the debugger</h3>
                     </div>
                 </div>
             </div>
@@ -196,7 +196,7 @@ The Visual Studio debugger helps you observe the run-time behavior of your progr
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Debugger Tips and Tricks</h3>
+                        <h3>Debugger tips and tricks</h3>
                     </div>
                 </div>
             </div>
@@ -251,7 +251,7 @@ The Visual Studio debugger helps you observe the run-time behavior of your progr
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>IntelliTrace Reference</h3>
+                        <h3>IntelliTrace reference</h3>
                     </div>
                 </div>
             </div>
