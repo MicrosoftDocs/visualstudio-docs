@@ -13,8 +13,8 @@ f1_keywords:
   - "vs.graphics.pipeline"
 ms.assetid: 2bf5c12e-2a00-401c-8163-4e373d08ad3f
 caps.latest.revision: 16
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Graphics Pipeline Stages

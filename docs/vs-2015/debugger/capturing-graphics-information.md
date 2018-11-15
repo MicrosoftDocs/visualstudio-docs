@@ -15,8 +15,8 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Graphics_Diagnostics.Capture"
 ms.assetid: 187ce86e-e340-4f6c-8937-8e8f1027a17f
 caps.latest.revision: 44
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Capturing Graphics Information

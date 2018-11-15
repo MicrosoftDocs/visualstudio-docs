@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "NameSearchOptions enumeration"
 ms.assetid: 67dfbede-2678-47df-b664-5c49841d0b9b
 caps.latest.revision: 18
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # NameSearchOptions

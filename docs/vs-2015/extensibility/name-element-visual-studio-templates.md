@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "Name element [Visual Studio project templates]"
 ms.assetid: 48788dbf-7da0-4443-8061-aab966fc22c8
 caps.latest.revision: 18
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Name Element (Visual Studio Templates)

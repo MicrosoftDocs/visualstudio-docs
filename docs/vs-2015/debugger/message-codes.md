@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "message codes"
 ms.assetid: 9f91f4e2-c1f1-4349-9f11-2fbbf59654be
 caps.latest.revision: 7
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Message Codes

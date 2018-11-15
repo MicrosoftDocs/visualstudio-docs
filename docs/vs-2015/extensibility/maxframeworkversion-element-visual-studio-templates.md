@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "MaxFrameworkVersion Element (Visual Studio Templates)"
 ms.assetid: f732a9d3-fc29-405b-9298-01ea83fc58b8
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # MaxFrameworkVersion Element (Visual Studio Templates)

@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], packages"
 ms.assetid: 99947fd4-fb87-4c69-b26c-65634e17d285
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Debug Package

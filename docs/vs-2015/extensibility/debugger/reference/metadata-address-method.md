@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "METADATA_ADDRESS_METHOD structure"
 ms.assetid: fc0e5370-1b4f-4867-837f-0d63c4b9dd09
 caps.latest.revision: 7
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # METADATA_ADDRESS_METHOD

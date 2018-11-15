@@ -29,8 +29,8 @@ helpviewer_keywords:
   - "modules, displaying"
 ms.assetid: d840fdca-b035-4452-b652-72580c831896
 caps.latest.revision: 41
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Use the Modules Window

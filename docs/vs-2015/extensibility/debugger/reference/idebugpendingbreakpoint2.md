@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugPendingBreakpoint2 interface"
 ms.assetid: d416b095-917e-475e-b796-ec0a03ffb8da
 caps.latest.revision: 14
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugPendingBreakpoint2

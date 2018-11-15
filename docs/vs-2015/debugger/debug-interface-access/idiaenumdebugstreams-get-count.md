@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaEnumDebugStreams::get_Count method"
 ms.assetid: 5c13fa9a-b35e-47b0-806f-1f53bfe1ba89
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaEnumDebugStreams::get_Count

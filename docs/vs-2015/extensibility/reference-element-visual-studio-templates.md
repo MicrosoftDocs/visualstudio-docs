@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "<Reference> element [Visual Studio templates]"
 ms.assetid: 852772ea-c324-42e9-8c8a-6d565414a109
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Reference Element (Visual Studio Templates)

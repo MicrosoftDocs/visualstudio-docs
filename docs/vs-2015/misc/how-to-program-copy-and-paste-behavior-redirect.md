@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 04445417-65c1-4938-9db3-79a40aa5d56d
 caps.latest.revision: 6
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "kamrani"
 ---
 # How to: Program Copy and Paste Behavior - redirect

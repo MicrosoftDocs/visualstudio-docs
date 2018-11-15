@@ -25,8 +25,8 @@ helpviewer_keywords:
   - "memory analyzer, JavaScript"
 ms.assetid: 78f8532b-7b4e-4b50-b8b7-68ca0926dd4e
 caps.latest.revision: 54
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # JavaScript Memory

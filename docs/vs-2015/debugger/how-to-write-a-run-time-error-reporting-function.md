@@ -23,8 +23,8 @@ helpviewer_keywords:
   - "reporting function"
 ms.assetid: 989bf312-5038-44f3-805f-39a34d18760e
 caps.latest.revision: 20
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Write a Run-Time Error Reporting Function

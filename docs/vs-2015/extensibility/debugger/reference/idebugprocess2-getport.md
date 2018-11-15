@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugProcess2::GetPort"
 ms.assetid: e39b6e5a-64eb-48cf-a53d-da4fdb968e2d
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugProcess2::GetPort

@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "thread properties"
 ms.assetid: 46b6c668-6786-456e-97dc-337bcac0d812
 caps.latest.revision: 7
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # General Tab, Thread Properties Dialog Box

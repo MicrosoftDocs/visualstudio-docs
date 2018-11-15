@@ -25,7 +25,7 @@ The VSIX Language Pack schema provides localized installation information for VS
 
 The root element of the language pack file is `<PackageLanguagePackManifest>`, with an attribute of `Version`, which is the version of the language pack format. This article describes version 2.0 of the language pack format, which is specified in the manifest by setting the `Version` attribute to the value `Version="2.0.0"`. The root element contains exactly one child `<Metadata>` element.
 
-### PackageLangaugePackManifest element
+### PackageLanguagePackManifest element
 
 Within the `<PackageLanguagePackManifest>` element the following element must exist:
 

@@ -13,8 +13,8 @@ f1_keywords:
   - "vs.graphics.frameanalysis"
 ms.assetid: 336c48ba-a1c4-4db9-b2a4-3de4a129cdd6
 caps.latest.revision: 12
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Graphics Frame Analysis

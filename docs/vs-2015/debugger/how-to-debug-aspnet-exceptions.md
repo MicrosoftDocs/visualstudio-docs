@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "exceptions, ASP.NET"
 ms.assetid: 1810096e-de8c-435e-be3d-f365d0cd0a6a
 caps.latest.revision: 26
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Debug ASP.NET Exceptions

@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "debugger, parallel tasks window"
 ms.assetid: bd5e0612-a0dc-41cf-a7af-1e87d0d5c35f
 caps.latest.revision: 23
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Using the Tasks Window

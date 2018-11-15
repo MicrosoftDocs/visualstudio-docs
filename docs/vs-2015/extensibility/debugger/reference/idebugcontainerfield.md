@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugContainerField interface"
 ms.assetid: a8bbe061-c382-4fe9-a193-3f7d12216041
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugContainerField

@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "reports, customizing profiling report views"
 ms.assetid: 5224ac52-0fc2-4269-8eb2-ead7fda3afd4
 caps.latest.revision: 21
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Customizing Performance Tools Report Views

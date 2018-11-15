@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "Profiling Tools,reports"
 ms.assetid: ee5e964c-1222-496d-b825-166443a89d2b
 caps.latest.revision: 14
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Common Data Views

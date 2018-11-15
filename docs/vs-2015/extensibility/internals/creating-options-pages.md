@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "Tools Options pages [Visual Studio SDK], creating using managed package framework"
 ms.assetid: 1bf11fec-dece-4943-8053-6de1483c43eb
 caps.latest.revision: 30
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Creating Options Pages

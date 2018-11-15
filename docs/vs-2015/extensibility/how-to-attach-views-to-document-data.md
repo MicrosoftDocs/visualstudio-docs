@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], custom - attach views to document data"
 ms.assetid: f92c0838-45be-42b8-9c55-713e9bb8df07
 caps.latest.revision: 23
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # How to: Attach Views to Document Data

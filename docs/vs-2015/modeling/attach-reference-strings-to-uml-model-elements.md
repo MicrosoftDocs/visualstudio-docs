@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "UML - extending, reference strings"
 ms.assetid: 15dbed99-efce-42fe-a768-714a5804e7d1
 caps.latest.revision: 11
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
 manager: "douge"
 ---

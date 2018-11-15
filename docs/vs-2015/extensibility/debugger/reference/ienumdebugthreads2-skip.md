@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IEnumDebugThreads2::Skip"
 ms.assetid: eab068d4-1f8d-44cd-bc54-92a10fe23de6
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IEnumDebugThreads2::Skip

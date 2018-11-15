@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugModule2::ReloadSymbols method"
 ms.assetid: 0f9f0133-7d58-4cd9-a6ca-1141e095749d
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugModule2::ReloadSymbols_Deprecated

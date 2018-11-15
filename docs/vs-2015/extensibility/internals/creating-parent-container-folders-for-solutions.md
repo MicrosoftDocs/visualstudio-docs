@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "source control plug-ins, creating parent containers"
 ms.assetid: 961e68ed-2603-4479-a306-330eda2b2efa
 caps.latest.revision: 16
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Creating Parent Container Folders for Solutions

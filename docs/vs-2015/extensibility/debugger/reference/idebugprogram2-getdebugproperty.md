@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugProgram2::GetDebugProperty"
 ms.assetid: d194224e-f0e6-46ab-85d4-9e2639e28946
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugProgram2::GetDebugProperty

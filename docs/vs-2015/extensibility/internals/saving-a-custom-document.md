@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], saving custom documents"
 ms.assetid: 040b36d6-1f0a-4579-971c-40fbb46ade1d
 caps.latest.revision: 13
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Saving a Custom Document

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugPortEvents2 interface"
 ms.assetid: 2c017094-3ba2-4067-83f9-147df1d96bce
 caps.latest.revision: 19
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugPortEvents2

@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaFrameData::get_lengthLocals method"
 ms.assetid: 51fe15c3-4cd6-4a06-8a41-a56502209762
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaFrameData::get_lengthLocals

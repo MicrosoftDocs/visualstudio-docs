@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IEnumDebugCustomAttributes::Skip"
 ms.assetid: 54c72e23-cd4c-4746-935c-abea8057dd1b
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IEnumDebugCustomAttributes::Skip

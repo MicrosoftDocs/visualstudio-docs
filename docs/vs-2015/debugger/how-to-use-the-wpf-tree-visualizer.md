@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "debugging, WPF"
 ms.assetid: 2a1bf1cd-90f9-4d06-9fb4-1bfc925afef3
 caps.latest.revision: 21
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Use the WPF Tree Visualizer

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "BP_STATE enumeration"
 ms.assetid: 08aa6a3f-3e5f-4c83-8eca-7b7b5f8e208d
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # BP_STATE

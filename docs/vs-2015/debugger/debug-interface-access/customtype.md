@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "CustomType symbol"
 ms.assetid: 1b66bc0a-7979-416f-bf7f-e5df91584c91
 caps.latest.revision: 18
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # CustomType

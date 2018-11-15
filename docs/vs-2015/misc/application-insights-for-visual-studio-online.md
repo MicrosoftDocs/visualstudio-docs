@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 44803938-5ac6-4f9f-859c-d288e1462d55
 caps.latest.revision: 22
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "kamrani"
 ---
 # Application Insights for Visual Studio Online

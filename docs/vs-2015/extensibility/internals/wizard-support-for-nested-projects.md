@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "New Project wizard"
 ms.assetid: 1b496acc-b326-4cdb-bb48-e3b5c6f12e05
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Wizard Support for Nested Projects

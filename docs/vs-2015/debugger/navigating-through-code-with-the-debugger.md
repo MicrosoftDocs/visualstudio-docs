@@ -23,8 +23,8 @@ helpviewer_keywords:
   - "execution, controlling in debugger"
 ms.assetid: 759072ba-4aaa-447e-8e51-0dd1456fe896
 caps.latest.revision: 47
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Navigating through Code with the Debugger

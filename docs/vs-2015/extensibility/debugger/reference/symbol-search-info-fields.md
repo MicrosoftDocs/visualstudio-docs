@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "SYMBOL_SEARCH_INFO_FIELDS enumeration"
 ms.assetid: bce35af0-722d-46d4-afa6-eaae598c51ff
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # SYMBOL_SEARCH_INFO_FIELDS

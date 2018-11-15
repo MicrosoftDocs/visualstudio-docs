@@ -18,8 +18,8 @@ dev_langs:
   - "C++"
 ms.assetid: ab60dda9-7934-4891-aa2f-001380d2ed83
 caps.latest.revision: 10
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Error: Firewall on Local Machine

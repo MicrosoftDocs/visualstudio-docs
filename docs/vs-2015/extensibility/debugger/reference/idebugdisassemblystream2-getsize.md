@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugDisassemblyStream2::GetSize"
 ms.assetid: 8f512704-12d0-46d2-959a-4f8dffe117b5
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugDisassemblyStream2::GetSize

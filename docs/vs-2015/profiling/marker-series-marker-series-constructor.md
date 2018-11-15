@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "Concurrency::diagnostic::marker_series constructor"
 ms.assetid: 042c7d23-f1d8-4e09-9e76-a21c30243790
 caps.latest.revision: 8
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # marker_series::marker_series Constructor

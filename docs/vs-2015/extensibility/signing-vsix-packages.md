@@ -17,7 +17,7 @@ helpviewer_keywords:
   - "packages"
 ms.assetid: e34cfc2c-361c-44f8-9cfe-9f2be229d248
 caps.latest.revision: 13
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Signing VSIX Packages

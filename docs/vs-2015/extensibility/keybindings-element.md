@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "KeyBindings element (VSCT XML schema)"
 ms.assetid: 26a15d5c-ddea-4977-af7f-d795ff09c7ad
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # KeyBindings Element

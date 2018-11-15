@@ -19,7 +19,7 @@ helpviewer_keywords:
   - "guid"
 ms.assetid: c9cacd57-9225-450f-a9ac-cbf3168ea844
 caps.latest.revision: 8
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # GUIDs and IDs of Visual Studio Toolbars

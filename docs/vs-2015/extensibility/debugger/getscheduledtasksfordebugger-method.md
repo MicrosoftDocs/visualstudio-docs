@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "GetScheduledTasksForDebugger method, TaskScheduler class [.NET Framework debug engines]"
 ms.assetid: 7c9b4cde-6e4a-4cef-929f-7d02b1da5762
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # GetScheduledTasksForDebugger Method

@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "debug engines, implementation strategies"
 ms.assetid: 1bccaeb3-8109-4128-ae79-16fd8fbbaaa2
 caps.latest.revision: 13
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Expression Evaluator Implementation Strategy

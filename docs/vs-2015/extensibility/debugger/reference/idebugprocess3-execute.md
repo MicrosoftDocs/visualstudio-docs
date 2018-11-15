@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugProcess3::Execute"
 ms.assetid: d831cd81-d7bf-4172-8517-aa699867791f
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugProcess3::Execute

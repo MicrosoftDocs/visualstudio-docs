@@ -15,8 +15,8 @@ f1_keywords:
   - "vs.performance.rules.DA0024"
 ms.assetid: 228872da-77d0-4da5-b455-ac57fb1867c9
 caps.latest.revision: 15
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # DA0024: Excessive GC CPU Time

@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "Concurrency Visualizer SDK, C Library Reference"
 ms.assetid: 46907a60-25e2-470d-a650-ae7349f868fd
 caps.latest.revision: 8
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # C Library Reference

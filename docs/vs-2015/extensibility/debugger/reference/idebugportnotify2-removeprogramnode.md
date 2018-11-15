@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugPortNotify2::RemoveProgramNode"
 ms.assetid: 3668157b-66d2-416e-a359-fc04dcd18a48
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugPortNotify2::RemoveProgramNode

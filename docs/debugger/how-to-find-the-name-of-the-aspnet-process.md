@@ -1,7 +1,7 @@
 ---
-title: "How to: Find the Name of the ASP.NET Process | Microsoft Docs"
+title: "Find the running ASP.NET process | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "11/04/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
@@ -19,34 +19,28 @@ manager: douge
 ms.workload: 
   - "aspnet"
 ---
-# How to: Find the Name of the ASP.NET Process
-To attach to a running [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] application, you have to know the name of the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] process:  
+# Find the name of the ASP.NET process
 
--   If you are running ASP.NET Core on IIS or IISExpress, the process name is dotnet.exe.
+To debug a running [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] app, the Visual Studio debugger must attach to the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] process by name.
 
--   If you are running ASP.NET on IIS 6.0 later, the name is w3wp.exe.  
-  
--   If you are running ASP.NET on an earlier version of IIS, the name is aspnet_wp.exe.
+**To find out which process is running an ASP.NET app:**
 
--   If you are running ASP.NET on IISExpress, the name is iisexpress.exe.
-  
-For applications built by using versions of Visual Studio prior to Visual Studio 2012, the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] code can reside on the file system and run under the test server WebDev.WebServer.exe or WebDev.WebServer40.exe. In that case, you must attach to WebDev.WebServer.exe or WebDev.WebServer40.exe instead of the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] process. This scenario applies only to local debugging.
-  
-Older ASP applications run inside the IIS process inetinfo.exe when they are running in-process.  
+1. With the app running, in Visual Studio, select **Debug** > **Attach to Process**. 
+   
+1. In the **Attach to Process** dialog, type the first letters of process names from the following list, or enter them into the search box. The one that is running is the one running the ASP.NET app. Attach to that process to debug the app. 
+   
+    - *w3wp.exe* is IIS 6.0 and later. 
+    - *aspnet_wp.exe* is earlier versions of IIS.
+    - *iisexpress.exe* is IISExpress.
+    - *dotnet.exe* is ASP.NET Core.
+    - *inetinfo.exe* is older ASP applications running in-process. 
 
-### To determine the IIS version under which the application is running  
+>[!NOTE]
+>Visual Studio 2012 and earlier [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] code can be on the file system and run on the test server *WebDev.WebServer.exe* or *WebDev.WebServer40.exe*. In this case, for local debugging, attach to *WebDev.WebServer.exe* or *WebDev.WebServer40.exe* instead of the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] process. 
 
-1.  Make sure the application is running and then, from Visual Studio, use the [Attach to Process](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md) command.
+**See also:**
 
-2.  Type the first letter of a process name like w3wp.exe to quickly find processes in the **Available Processes** list.
-
-    The available processes from the list in this topic will indicate which versions of IIS are available, and which process is running your application.
-
-    > [!NOTE]
-    > Starting in Visual Studio 2017, you can use the search box to search for the process name.
-  
-## See Also  
  [Attach to a running process](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)  
- [Prerequistes for Remote Debugging Web Applications](../debugger/prerequistes-for-remote-debugging-web-applications.md)   
- [System Requirements](../debugger/aspnet-debugging-system-requirements.md)   
- [Debug ASP.NET Applications](../debugger/how-to-enable-debugging-for-aspnet-applications.md)
+ [Prerequisites for remote debugging web applications](../debugger/prerequistes-for-remote-debugging-web-applications.md)   
+ [System requirements](../debugger/aspnet-debugging-system-requirements.md)   
+ [Debug ASP.NET applications](../debugger/how-to-enable-debugging-for-aspnet-applications.md)

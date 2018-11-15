@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaEnumTables::Skip method"
 ms.assetid: 5c9db956-0654-4f1a-8775-530aa980d8ec
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaEnumTables::Skip

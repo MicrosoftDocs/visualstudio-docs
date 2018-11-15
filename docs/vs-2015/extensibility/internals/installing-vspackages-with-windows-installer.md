@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "VSPackages, deploying"
 ms.assetid: 41d2c72c-0a97-4fcd-b3aa-33a8d3aa962a
 caps.latest.revision: 31
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Installing VSPackages With Windows Installer

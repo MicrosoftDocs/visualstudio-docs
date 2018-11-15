@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugExpression2::EvaluateAsync"
 ms.assetid: 848fe6cb-0759-42f2-890b-d2b551c527d6
 caps.latest.revision: 16
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugExpression2::EvaluateAsync

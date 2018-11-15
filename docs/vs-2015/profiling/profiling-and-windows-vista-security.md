@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "performance tools, security"
 ms.assetid: 842112fc-b886-4801-8cd7-a25b314b0393
 caps.latest.revision: 24
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Profiling and Windows Vista Security

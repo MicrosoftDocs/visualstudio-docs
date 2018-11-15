@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "language services [managed package framework], registering"
 ms.assetid: d33b08af-09e0-4c79-87b2-5536b27fbacf
 caps.latest.revision: 23
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Registering a Legacy Language Service

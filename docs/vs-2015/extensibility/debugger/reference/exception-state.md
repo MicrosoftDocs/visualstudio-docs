@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "EXCEPTION_STATE enumeration"
 ms.assetid: 597f4f4c-9b70-485c-b5dc-3c2e3aecc664
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # EXCEPTION_STATE

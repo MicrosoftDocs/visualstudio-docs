@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugProgramEx2::Attach"
 ms.assetid: 33b22b2f-431e-4205-9441-d28a9c928c97
 caps.latest.revision: 14
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugProgramEx2::Attach

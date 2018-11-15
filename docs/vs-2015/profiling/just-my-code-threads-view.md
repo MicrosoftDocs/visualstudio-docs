@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "Concurrency Visualizer, Just My Code (Threads View)"
 ms.assetid: a9ac8a2c-9d99-4207-8ed4-e87f033f440d
 caps.latest.revision: 13
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Just My Code (Threads View)

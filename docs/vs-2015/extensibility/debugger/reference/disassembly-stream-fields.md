@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "DISASSEMBLY_STREAM_FIELDS enumeration"
 ms.assetid: cfc9b4de-c756-4844-bea7-d9f186a51d1b
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # DISASSEMBLY_STREAM_FIELDS

@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "callback functions, source control plug-ins"
 ms.assetid: 4a8833f0-6ac0-4ea7-9400-8275aa991468
 caps.latest.revision: 25
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Callback Functions Implemented by the IDE

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "VSPackages, registration manifests"
 ms.assetid: b1b41012-a777-4ccf-81a6-3b41f0e96583
 caps.latest.revision: 20
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # How to: Generate Registry Information for an Installer

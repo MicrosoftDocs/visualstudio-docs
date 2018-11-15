@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "program nodes, superceding"
 ms.assetid: 1c5a5c13-c14d-42c3-af11-4c63f1032c8d
 caps.latest.revision: 13
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Program Nodes

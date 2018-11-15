@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "Visual Studio installer"
 ms.assetid: 8d4297e4-9f43-4f12-95ec-22e61154480e
 caps.latest.revision: 22
-author: "TerryGLee"
-ms.author: "tglee"
+author: TerryGLee
+ms.author: tglee
 manager: "ghogen"
 ---
 # Install Visual Studio 2017

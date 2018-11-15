@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IEnumDebugAddresses::Clone method"
 ms.assetid: 71189a00-34eb-4c71-b96e-8bd6e70c6966
 caps.latest.revision: 6
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IEnumDebugAddresses::Clone

@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "performance tools, runtime profiling control window"
 ms.assetid: 17c5996f-e3d0-4e44-b175-52b401b0f2d5
 caps.latest.revision: 24
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Limit Instrumentation to Specific DLLs

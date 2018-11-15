@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "projects [Visual Studio SDK], configuration for managing deployment"
 ms.assetid: bd5940d9-d94d-4944-beda-4ec1ab2bbde5
 caps.latest.revision: 9
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Project Configuration for Managing Deployment

@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "StackFrameTypeEnum enumeration"
 ms.assetid: 61e40163-eee0-4c1f-af47-cef3771bdc41
 caps.latest.revision: 10
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # StackFrameTypeEnum

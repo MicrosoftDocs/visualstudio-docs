@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "IDE, user feedback"
 ms.assetid: 2d472a24-3813-4f5f-9783-b491ad8a71ad
 caps.latest.revision: 9
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Feedback to the User

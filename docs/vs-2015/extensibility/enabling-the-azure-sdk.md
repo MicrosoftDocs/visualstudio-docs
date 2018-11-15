@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "cloud"
 ms.assetid: 1c323afd-fb4e-449a-adaa-bb7a5d3b1468
 caps.latest.revision: 15
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Enabling the Azure SDK

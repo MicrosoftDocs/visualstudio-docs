@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "property pages, removing"
 ms.assetid: 34853412-ab8a-4caa-9601-7d0727b2985d
 caps.latest.revision: 30
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Adding and Removing Property Pages

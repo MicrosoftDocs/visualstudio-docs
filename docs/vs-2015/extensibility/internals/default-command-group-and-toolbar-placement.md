@@ -18,7 +18,7 @@ helpviewer_keywords:
   - "commands [Visual Studio], default product"
 ms.assetid: 35342110-d639-4577-8367-00b21dcc6f07
 caps.latest.revision: 31
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Default Command, Group, and Toolbar Placement

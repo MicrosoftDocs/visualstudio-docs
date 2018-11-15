@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "Call Tree view"
 ms.assetid: dd359707-245a-4a36-8305-2e980b9edd53
 caps.latest.revision: 16
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Call Tree View - .NET Memory Instrumentation Data

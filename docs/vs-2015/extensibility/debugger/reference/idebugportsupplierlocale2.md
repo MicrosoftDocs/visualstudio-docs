@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "IDebugPortSupplierLocale2 interface"
 ms.assetid: 910e7220-da2a-4339-9fff-9fb1bad3c28c
 caps.latest.revision: 5
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugPortSupplierLocale2

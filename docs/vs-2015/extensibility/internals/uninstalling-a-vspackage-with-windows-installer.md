@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "uninstalling VSPackages"
 ms.assetid: c4575ac7-82da-4af8-a375-ea756a101fbf
 caps.latest.revision: 15
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Uninstalling a VSPackage With Windows Installer

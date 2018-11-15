@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "LocationField element [Visual Studio project templates]"
 ms.assetid: 6aaaa155-6ce0-4f7f-aa50-8d63d7a7c992
 caps.latest.revision: 14
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # LocationField Element (Visual Studio Project Templates)

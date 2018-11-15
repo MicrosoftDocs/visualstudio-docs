@@ -34,8 +34,8 @@ helpviewer_keywords:
   - "windows, hiding"
 ms.assetid: 6a68f761-4589-4634-b39d-311fc46309aa
 caps.latest.revision: 35
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # How to: Arrange and Dock Windows

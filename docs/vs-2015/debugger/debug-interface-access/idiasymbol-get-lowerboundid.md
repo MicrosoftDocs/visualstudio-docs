@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSymbol::get_lowerBoundId method"
 ms.assetid: 12ce98e9-a225-4947-88c9-5fda39dd67e4
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_lowerBoundId

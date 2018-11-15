@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "IDebugFirewallConfigurationCallback2 interface"
 ms.assetid: 0827361c-b97c-4851-9898-ab6d88c81811
 caps.latest.revision: 9
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugFirewallConfigurationCallback2

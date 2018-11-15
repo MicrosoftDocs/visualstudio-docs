@@ -18,7 +18,7 @@ helpviewer_keywords:
   - "menus"
 ms.assetid: 84639d86-dd21-4b35-9988-6bb654162488
 caps.latest.revision: 13
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # GUIDs and IDs of Visual Studio Menus

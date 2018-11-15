@@ -43,8 +43,8 @@ helpviewer_keywords:
   - "breakpoints, about breakpoints"
 ms.assetid: 020b2e97-3b3e-4b2c-872d-b5c6025e120e
 caps.latest.revision: 63
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Using Breakpoints

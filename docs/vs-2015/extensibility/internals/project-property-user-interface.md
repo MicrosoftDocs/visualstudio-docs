@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "project properties UI"
 ms.assetid: b6aec634-8533-476c-9ebd-36536a2288e2
 caps.latest.revision: 17
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Project Property User Interface

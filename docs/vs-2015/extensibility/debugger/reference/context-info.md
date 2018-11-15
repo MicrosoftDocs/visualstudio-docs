@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "CONTEXT_INFO structure"
 ms.assetid: 6b513f4e-e7b0-4969-adf0-2205ccc1e09b
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # CONTEXT_INFO

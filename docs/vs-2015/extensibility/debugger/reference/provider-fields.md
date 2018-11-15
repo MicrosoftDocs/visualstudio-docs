@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "PROVIDER_FIELDS enumeration"
 ms.assetid: 39631545-2b0e-45b4-978b-d63656484b02
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # PROVIDER_FIELDS

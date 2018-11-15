@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "Visual C++"
 ms.assetid: 2982a138-d979-4a05-af16-8a99bdab1499
 caps.latest.revision: 49
-author: "ghogen"
-ms.author: "ghogen"
+author: ghogen
+ms.author: ghogen
 manager: "douge"
 ---
 # Getting Started with Visual C++ in Visual Studio 2015

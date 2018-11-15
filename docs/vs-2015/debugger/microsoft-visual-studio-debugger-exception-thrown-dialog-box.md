@@ -23,8 +23,8 @@ helpviewer_keywords:
   - "throwing exceptions, during debugging"
 ms.assetid: 1fe98d10-c8f9-4b39-a920-99169bfd542e
 caps.latest.revision: 13
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Microsoft Visual Studio Debugger (Exception Thrown) Dialog Box

@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "VSCT XML schema elements, CommandPlacements"
 ms.assetid: 78a5724a-3b9f-4c78-9c0d-8faa3924f81c
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # CommandPlacements Element

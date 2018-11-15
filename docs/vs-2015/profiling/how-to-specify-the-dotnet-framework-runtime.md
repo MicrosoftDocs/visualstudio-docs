@@ -14,8 +14,8 @@ helpviewer_keywords:
   - ".NET Framework versions,profililng"
 ms.assetid: d39f3579-719a-4f47-a97d-5b4232fe4c64
 caps.latest.revision: 15
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Specify the .NET Framework Runtime

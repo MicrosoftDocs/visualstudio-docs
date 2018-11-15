@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "global functions [C++], as public symbols"
 ms.assetid: f8d33007-302d-4549-9dad-47fb33ea60b7
 caps.latest.revision: 20
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # PublicSymbol

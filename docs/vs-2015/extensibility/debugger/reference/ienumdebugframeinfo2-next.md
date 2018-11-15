@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IEnumDebugFrameInfo2::Next"
 ms.assetid: 64a64eeb-5dea-4119-8a22-03771015d1e5
 caps.latest.revision: 13
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IEnumDebugFrameInfo2::Next

@@ -23,8 +23,8 @@ helpviewer_keywords:
   - "Executable for Debugging Session dialog box"
 ms.assetid: c0ddbe32-b99f-4425-acf1-f48842804f56
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Executable for Debugging Session Dialog Box
