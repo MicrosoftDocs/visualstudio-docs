@@ -28,7 +28,7 @@ Namespace SDKSample
 			AddHandler SignatureDef.Click, AddressOf SignatureDefinitionCommandHandler
 			AddHandler Sign.Click, AddressOf SignCommandHandler
 			AddHandler Done.Click, AddressOf DoneCommandHandler
-			_signatureUtilities = New SignatureUtilites()
+			_signatureUtilities = New SignatureUtilities()
 			InitializeSignatureDisplay()
 
 		End Sub
@@ -138,7 +138,7 @@ Namespace SDKSample
 		End Function
 		#End Region ' Private Methods
 		#Region "Private Members"
-		Private _signatureUtilities As SignatureUtilites
+		Private _signatureUtilities As SignatureUtilities
 		Private _xpsDocument As XpsDocument
 		#End Region
 

@@ -11,7 +11,7 @@ namespace SDKSample
     /// Interaction logic for Window1.xaml
     /// </summary>
 
-    public class SignatureUtilites
+    public class SignatureUtilities
     {
 
 		//<SnippetIterateSignatureDefinitions>
@@ -155,6 +155,6 @@ namespace SDKSample
 
         //</SnippetSignXpsDocument>
 
-    }// end:class SignatureUtilites
+    }// end:class SignatureUtilities
 
 }// end:namespace

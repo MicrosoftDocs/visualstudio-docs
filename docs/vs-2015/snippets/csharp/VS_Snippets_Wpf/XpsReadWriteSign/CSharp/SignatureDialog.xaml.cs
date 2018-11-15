@@ -30,7 +30,7 @@ namespace SDKSample
             SignatureDef.Click += new RoutedEventHandler(SignatureDefinitionCommandHandler);
             Sign.Click += new RoutedEventHandler(SignCommandHandler);
             Done.Click += new RoutedEventHandler(DoneCommandHandler);
-            _signatureUtilities = new SignatureUtilites();
+            _signatureUtilities = new SignatureUtilities();
             InitializeSignatureDisplay();
 
         }
@@ -161,7 +161,7 @@ namespace SDKSample
         }
         #endregion Private Methods
         #region Private Members
-        private SignatureUtilites _signatureUtilities;
+        private SignatureUtilities _signatureUtilities;
         private XpsDocument _xpsDocument;
         #endregion
 

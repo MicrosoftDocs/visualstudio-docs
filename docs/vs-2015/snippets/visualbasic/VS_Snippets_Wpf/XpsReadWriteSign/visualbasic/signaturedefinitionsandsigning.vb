@@ -10,7 +10,7 @@ Namespace SDKSample
 	''' Interaction logic for Window1.xaml
 	''' </summary>
 
-	Public Class SignatureUtilites
+	Public Class SignatureUtilities
 
 		'<SnippetIterateSignatureDefinitions>
 
@@ -123,6 +123,6 @@ Namespace SDKSample
 
 		'</SnippetSignXpsDocument>
 
-	End Class ' end:class SignatureUtilites
+	End Class ' end:class SignatureUtilities
 
 End Namespace ' end:namespace
