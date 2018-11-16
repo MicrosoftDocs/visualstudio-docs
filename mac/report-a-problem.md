@@ -19,7 +19,7 @@ To report a problem with Visual Studio for Mac, select **Help > Report a Problem
 
 ![report a problem link](media/report-problem-image1.png)
 
-1. If you are not signed in, select Sign In; it's on the right-hand side of the tool, as shown in the following screenshot. Follow the instructions on-screen to sign in.
+1. If you are not signed in, select **Sign In**; it's on the right-hand side of the tool, as shown in the following screenshot. Follow the instructions on-screen to sign in.
 
     ![dialog with "sign in" button](media/report-problem-image2.png)
 
