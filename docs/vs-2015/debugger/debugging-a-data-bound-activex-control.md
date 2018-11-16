@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "controls [Visual Studio], ActiveX"
 ms.assetid: 9f6e1f00-e25b-48a9-8484-7e67a1232461
 caps.latest.revision: 18
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Debugging a Data-Bound ActiveX Control

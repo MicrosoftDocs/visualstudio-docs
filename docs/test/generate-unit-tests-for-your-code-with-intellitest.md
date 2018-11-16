@@ -152,4 +152,4 @@ Then run IntelliTest to generate individual unit tests in their corresponding *.
 
 ### Q: Can I learn more about how the tests are generated?
 
-**A:** Yes, to get a high-level overview, read this [blog post](http://blogs.msdn.com/b/visualstudioalm/archive/2015/07/05/intellitest-one-test-to-rule-them-all.aspx).
+**A:** Yes, to get a high-level overview, read this [blog post](https://blogs.msdn.microsoft.com/devops/2015/07/05/intellitest-one-test-to-rule-them-all/).

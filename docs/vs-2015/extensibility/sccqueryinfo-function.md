@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "SccQueryInfo function"
 ms.assetid: 3973d336-a9b7-41a2-a4e6-bb8184a96aaf
 caps.latest.revision: 19
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # SccQueryInfo Function

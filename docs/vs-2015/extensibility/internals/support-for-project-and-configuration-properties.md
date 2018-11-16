@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "configuration properties, suppporting with Visual Studio SDK"
 ms.assetid: 9fcfaa0f-7b41-4b68-82ec-7a151dca5d7e
 caps.latest.revision: 26
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Support for Project and Configuration Properties

@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSymbol::get_virtualBaseTableType method"
 ms.assetid: e0581c4f-0343-49b5-9754-a48477460e9f
 caps.latest.revision: 10
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_virtualBaseTableType

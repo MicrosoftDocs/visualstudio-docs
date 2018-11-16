@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "UML - extending, drag and drop"
 ms.assetid: e5e1d70a-3539-4321-a3b1-89e86e4d6430
 caps.latest.revision: 36
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
 manager: "douge"
 ---

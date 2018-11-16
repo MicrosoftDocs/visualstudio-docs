@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "IDebugProgramNode2::Attach"
 ms.assetid: b5ffc736-efc7-4ca8-964d-5536ff891b0e
 caps.latest.revision: 13
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugProgramNode2::Attach_V7

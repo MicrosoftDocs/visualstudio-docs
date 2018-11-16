@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "UML API, copy and paste"
 ms.assetid: e0b9cec8-3b93-4a24-8bd3-3e086501d387
 caps.latest.revision: 20
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
 manager: "douge"
 ---

@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8202717a-e990-45cf-b092-438651ccb38a
 caps.latest.revision: 66
-ms.author: "crdun"
+ms.author: crdun
 manager: "crdun"
 ---
 # Cross-Platform Mobile Development in Visual Studio

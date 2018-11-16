@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "MODULE_INFO_FIELDS enumeration"
 ms.assetid: 8bed85f4-235f-4192-b58f-5fad7a4d7a78
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # MODULE_INFO_FIELDS

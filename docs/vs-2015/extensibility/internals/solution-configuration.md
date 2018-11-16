@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "solution configurations"
 ms.assetid: f22cfc75-3e31-4e0d-88a9-3ca99539203b
 caps.latest.revision: 14
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Solution Configuration

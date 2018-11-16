@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "BuildOnLoad element [Visual Studio Templates]"
 ms.assetid: 950f5fc1-d041-4090-9a5c-60844768a4cc
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # BuildProjectOnLoad (Visual Studio Templates)

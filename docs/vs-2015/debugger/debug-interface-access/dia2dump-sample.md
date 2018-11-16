@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "Dia2dump sample [DIA SDK]"
 ms.assetid: 492c0893-7043-452f-a020-890a47230d20
 caps.latest.revision: 15
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Dia2dump Sample

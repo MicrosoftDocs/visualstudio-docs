@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugObject::IsReadOnly method"
 ms.assetid: c460f772-d08a-4b36-81f3-dff6a51a93fd
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugObject::IsReadOnly

@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "language services [managed package framework], breakpoint validation"
 ms.assetid: a7e873cd-dfe1-474f-bda5-fd7532774b15
 caps.latest.revision: 15
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Validating Breakpoints in a Legacy Language Service

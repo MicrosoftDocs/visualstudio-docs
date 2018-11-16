@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugSymbolProvider::GetClassTypeByName method"
 ms.assetid: 2c748909-51dc-49b7-b193-19f96fca1138
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugSymbolProvider::GetClassTypeByName

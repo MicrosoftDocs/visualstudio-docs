@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "THREADPROPERTY_FIELDS enumeration"
 ms.assetid: 5b88acb9-03ea-4c29-a788-f0087dccbe23
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # THREADPROPERTY_FIELDS

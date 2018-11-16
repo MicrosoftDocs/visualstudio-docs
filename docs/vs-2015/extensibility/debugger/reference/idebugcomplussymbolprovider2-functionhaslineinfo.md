@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "IDebugComPlusSymbolProvider2::FunctionHasLineInfo"
 ms.assetid: e1b508f1-6521-492f-b110-ab957744a037
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugComPlusSymbolProvider2::FunctionHasLineInfo

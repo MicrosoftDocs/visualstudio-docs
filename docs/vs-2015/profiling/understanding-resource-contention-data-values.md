@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "Profiling Tools, concurrency method"
 ms.assetid: 071c0f0f-1eba-4dc8-ae87-0810e4086dd0
 caps.latest.revision: 14
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Understanding Resource Contention Data Values

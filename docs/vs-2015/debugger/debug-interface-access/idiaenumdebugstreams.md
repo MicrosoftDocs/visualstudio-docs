@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaEnumDebugStreams interface"
 ms.assetid: 611caf4f-7a5f-4aa4-b909-52feeb3cc752
 caps.latest.revision: 13
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaEnumDebugStreams

@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "source control packages, VSPackage overview"
 ms.assetid: 92722be7-b397-48c3-a7a7-0b931a341961
 caps.latest.revision: 27
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # VSPackage Structure (Source Control VSPackage)

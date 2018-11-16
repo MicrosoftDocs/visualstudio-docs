@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "UML model, customizing"
 ms.assetid: fd607157-0d3a-4583-a84e-427a4b2a5acb
 caps.latest.revision: 20
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
 manager: "douge"
 ---

@@ -16,8 +16,8 @@ dev_langs:
   - "C++"
 ms.assetid: 48a85bcf-290b-4390-9993-f6f9dd73ad03
 caps.latest.revision: 20
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Debug Store apps in Visual Studio

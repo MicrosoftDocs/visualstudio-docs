@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "Functions view"
 ms.assetid: cd45b379-394b-4b71-828c-92cd89e46ae0
 caps.latest.revision: 15
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Functions View - .NET Memory Instrumentation Data

@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "IDebugProgramNode2::DetachDebugger_V7"
 ms.assetid: d2d4b78e-a2dd-4217-97a6-ab648fd2ee2f
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugProgramNode2::DetachDebugger_V7

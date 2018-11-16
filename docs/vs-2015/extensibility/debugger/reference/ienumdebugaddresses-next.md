@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IEnumDebugAddresses::Next method"
 ms.assetid: 941e4be7-858d-433a-9259-18d0d017be9e
 caps.latest.revision: 8
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IEnumDebugAddresses::Next

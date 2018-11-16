@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSymbol::get_baseType method"
 ms.assetid: 5c69a241-a8d3-48ed-8b36-27463a196572
 caps.latest.revision: 14
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_baseType

@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSession::findLinesByRVA method"
 ms.assetid: 06f53b0b-b5b4-42cf-9252-dcee0dbe2d71
 caps.latest.revision: 12
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSession::findLinesByRVA

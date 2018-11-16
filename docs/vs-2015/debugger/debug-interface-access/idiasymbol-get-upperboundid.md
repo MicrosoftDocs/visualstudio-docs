@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSymbol::get_upperBoundId method"
 ms.assetid: ddfa1617-bd0f-4187-ba77-a225bab93a95
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_upperBoundId

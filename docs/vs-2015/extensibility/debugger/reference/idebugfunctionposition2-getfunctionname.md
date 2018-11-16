@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugFunctionPosition2::GetFunctionName"
 ms.assetid: eb7a348e-a7f5-4f25-be68-80482d5482a8
 caps.latest.revision: 14
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugFunctionPosition2::GetFunctionName

@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "Profiling Tools, concurrency method"
 ms.assetid: fa03d381-a9ee-408c-876d-05111e29225b
 caps.latest.revision: 19
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Collecting Thread and Process Concurrency Data

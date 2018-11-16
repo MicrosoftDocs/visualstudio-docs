@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "interop assemblies, command contracts"
 ms.assetid: 57245708-f539-42dc-8963-2754a48f0189
 caps.latest.revision: 14
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Command Contracts in Interop Assemblies

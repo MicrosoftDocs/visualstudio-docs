@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "UML diagrams, stereotypes"
 ms.assetid: 8a8c2321-1cae-4ba8-bb9e-23495c3404d8
 caps.latest.revision: 22
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
 manager: "douge"
 ---

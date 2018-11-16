@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugReturnValueEvent2"
 ms.assetid: 2daded43-e427-4fbb-a19e-f3834e3723af
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugReturnValueEvent2

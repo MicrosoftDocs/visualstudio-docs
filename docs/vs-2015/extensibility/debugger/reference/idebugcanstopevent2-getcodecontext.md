@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugCanStopEvent2::GetCodeContext"
 ms.assetid: eecf08b6-f9b7-4358-941b-3a448a92ac62
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugCanStopEvent2::GetCodeContext

@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "project types, checklist for creating"
 ms.assetid: 29eb9c3b-1933-4741-aa85-65a33f0825ba
 caps.latest.revision: 24
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Checklist: Creating New Project Types

@@ -12,7 +12,7 @@ ms.assetid: 52D3D26A-4D01-4FD1-AAA1-AE7D7BD39746
 # Connecting to Team Foundation Version Control
 
 > [!NOTE]
-> **Note**: Team Foundation Version Control support is currently in preview and some functionality is not yet fully working. We'd love feedback from you on any issues at [Developer Community](https://developercommunity.visualstudio.com/spaces/41/index.html). More changes are still to come!
+> Team Foundation Version Control support is currently in preview and some functionality is not yet fully working. We'd love feedback from you on any issues at [Developer Community](https://developercommunity.visualstudio.com/spaces/41/index.html). More changes are still to come!
 
 Azure Repos provides two models of version control: Git, which is distributed version control, and Team Foundation Version Control (TFVC), which is centralized version control. This article provides an overview and a starting point for using TFVC with Visual Studio for Mac.
 
@@ -24,9 +24,9 @@ Azure Repos provides two models of version control: Git, which is distributed ve
 
 ## Installation
 
-In Visual Studio for Mac, choose **Visual Studio > Extensions...** from the menu. In the **Gallery** tab, select **Version Control > Team Foundation Version Control for TFS and VSTS** and click **Install…**:
+In Visual Studio for Mac, choose **Visual Studio > Extensions** from the menu. In the **Gallery** tab, select **Version Control > Team Foundation Version Control for TFS and VSTS** and click **Install**:
 
-  ![Extension manager](media/tfvc-install.png)
+![Extension manager](media/tfvc-install.png)
 
 Follow the prompts to install the extension. Once it's installed, restart the IDE.
 
@@ -34,27 +34,27 @@ Follow the prompts to install the extension. Once it's installed, restart the ID
 
 Updates to the TFVC extension are made periodically. To access updates, choose **Visual Studio > Extensions...** from the menu and select the **Updates** tab. Select the extension in the list and press the **Update** button:
 
-  ![Extension manager showing update](media/tfvc-update.png)
+![Extension manager showing update](media/tfvc-update.png)
 
 Press **Install** on the next dialog to uninstall the old package and install the new one.
 
-For information on what's new in each release, see the [Release Notes](https://docs.microsoft.com/visualstudio/releasenotes/vs2017-mac-preview-relnotes#team-foundation-version-control-extension--release-notes).
+For information on what's new in each release, see the [Release Notes](/visualstudio/releasenotes/vs2017-mac-preview-relnotes#team-foundation-version-control-extension--release-notes).
 
 ## Using the add-in
 
 Once the extension is installed, select the **Version Control > TFS/Azure DevOps > Open from Remote Repository** menu item.
 
-  ![Menu item to open the extension](media/tfvc-source-control-explorer-devops.png)
+![Menu item to open the extension](media/tfvc-source-control-explorer-devops.png)
 
 Choose either VSTS or Team Foundation Server to get started and press **Continue**:
 
-  ![Connect with a Server](media/tfvc-choose-server-type-devops.png)
+![Connect with a Server](media/tfvc-choose-server-type-devops.png)
 
 ### Azure Repos Authentication
 
 When you select a project that is hosted on Azure Repos, you're prompted to enter your Microsoft account details:
 
-  ![Connect with Azure Repos](media/tfvc-vsts-login.png)
+![Connect with Azure Repos](media/tfvc-vsts-login.png)
 
 ### TFS Authentication
 
@@ -66,7 +66,7 @@ To connect to TFS, enter the server details and your account credentials. Enter 
 
 Once you've successfully authenticated, you can see a list of repositories that are associated with the account in the **Open from Source Control** dialog:
 
-  ![Open from Source Control dialog with projects displayed](media/tfvc-vsts-projects.png)
+![Open from Source Control dialog with projects displayed](media/tfvc-vsts-projects.png)
 
 This dialog is organized with the following nodes:
 
@@ -183,3 +183,7 @@ When trying to [create a new workspace](#creating-a-new-workspace), you should m
 - No use of invalid characters in the workspace name.
 - The name must be less than 64 characters.
 - The local path cannot be used by any other workspaces.
+
+## See also
+
+- [Develop and share your code in TFVC using Visual Studio (on Windows)](/azure/devops/repos/tfvc/share-your-code-in-tfvc-vs)

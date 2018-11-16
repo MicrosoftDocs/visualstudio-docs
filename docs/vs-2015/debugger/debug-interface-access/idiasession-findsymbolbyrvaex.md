@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSession::findSymbolByRVAEx method"
 ms.assetid: 61344966-fed4-4c02-9e27-20356ec2ef7c
 caps.latest.revision: 13
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSession::findSymbolByRVAEx

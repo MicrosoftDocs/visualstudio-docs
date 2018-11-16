@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "performance tools, limiting instrumentation to functions"
 ms.assetid: bd98d6bf-2560-4eba-b063-2facb09f87c4
 caps.latest.revision: 24
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Limit Instrumentation to Specific Functions

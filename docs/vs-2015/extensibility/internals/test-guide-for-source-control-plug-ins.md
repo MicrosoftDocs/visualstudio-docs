@@ -17,7 +17,7 @@ helpviewer_keywords:
   - "source control plug-ins, test guide"
 ms.assetid: 13b74765-0b7c-418e-8cd9-5f2e8db51ae5
 caps.latest.revision: 27
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Test Guide for Source Control Plug-ins

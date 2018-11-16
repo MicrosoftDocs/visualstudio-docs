@@ -24,6 +24,9 @@ Quick Actions can be used to:
 - Apply a refactoring (for example, [inline a temporary variable](../ide/reference/inline-temporary-variable.md))
 - Generate code (for example, [introduce a local variable](../ide/reference/introduce-local-variable.md))
 
+> [!NOTE]
+> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Refactoring (Visual Studio for Mac)](/visualstudio/mac/refactoring).
+
 Quick Actions can be applied by using the light bulb ![light bulb icon](media/light-bulb-icon.png) or screwdriver ![screwdriver icon](media/screwdriver-icon.png) icons, or by pressing **Ctrl**+**.** when your cursor is on a line of code for which an action is available. You'll see an error light bulb ![error light bulb icon](media/error-light-bulb-icon.png) if there is a red squiggle indicating an error, and Visual Studio has a fix available for that error.
 
 For any language, third parties can provide custom diagnostics and suggestions, for example as part of an SDK, and Visual Studio light bulbs light up based on those rules.
@@ -54,3 +57,4 @@ Select either the down arrow next to the light bulb or the **Show potential fixe
 - [Common Quick Actions](../ide/common-quick-actions.md)
 - [Code styles and Quick Actions](../ide/code-styles-and-quick-actions.md)
 - [Write and refactor code (C++)](/cpp/ide/writing-and-refactoring-code-cpp)
+- [Refactoring (Visual Studio for Mac)](/visualstudio/mac/refactoring)

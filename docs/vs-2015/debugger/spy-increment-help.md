@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "Spy++ Help contents"
 ms.assetid: 82155004-8d9e-4875-b7db-237a3cffb530
 caps.latest.revision: 9
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Spy++ Help

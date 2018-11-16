@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "Modules view"
 ms.assetid: 26516139-0981-41de-917d-ad5769391b8d
 caps.latest.revision: 15
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Modules View - .NET Memory Instrumentation Data

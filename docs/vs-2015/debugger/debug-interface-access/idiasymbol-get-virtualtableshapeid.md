@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSymbol::get_virtualTableShapeId method"
 ms.assetid: cbee9944-817a-4805-9c08-fac8e0da58b7
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_virtualTableShapeId

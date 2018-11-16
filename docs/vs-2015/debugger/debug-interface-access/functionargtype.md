@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "FunctionArgType symbol"
 ms.assetid: 9f072fd3-0b99-405c-af99-fd44cd56fd73
 caps.latest.revision: 18
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # FunctionArgType

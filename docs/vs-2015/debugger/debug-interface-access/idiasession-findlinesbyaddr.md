@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSession::findLinesByAddr method"
 ms.assetid: 640403c0-14cf-403c-ad19-38b3bdc28ca8
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSession::findLinesByAddr

@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "context parameters"
 ms.assetid: 1a062dcb-8a8f-40dd-bea9-3d10f9448966
 caps.latest.revision: 14
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Context Parameters

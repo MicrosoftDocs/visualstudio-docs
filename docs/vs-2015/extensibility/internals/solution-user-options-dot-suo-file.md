@@ -17,7 +17,7 @@ helpviewer_keywords:
   - "solution user options (.suo) file"
 ms.assetid: 75258e0d-600d-4a3d-94f4-3d7ac12cb47c
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Solution User Options (.Suo) File

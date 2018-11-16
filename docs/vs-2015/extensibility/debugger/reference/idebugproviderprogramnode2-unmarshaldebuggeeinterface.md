@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugProviderProgramNode2::UnmarshalDebuggeeInterface"
 ms.assetid: 2e4653c5-10f1-493c-9973-f31d266c5d48
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugProviderProgramNode2::UnmarshalDebuggeeInterface

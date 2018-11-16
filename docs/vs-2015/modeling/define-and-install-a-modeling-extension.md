@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "UML model, extending"
 ms.assetid: 82a58dc5-c7cf-4521-a6da-7ff09cd0de9d
 caps.latest.revision: 39
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
 manager: "douge"
 ---

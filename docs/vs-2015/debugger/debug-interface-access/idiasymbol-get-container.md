@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSymbol::get_container method"
 ms.assetid: 24e832eb-80b3-484c-a41b-11477ec9de99
 caps.latest.revision: 9
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_container

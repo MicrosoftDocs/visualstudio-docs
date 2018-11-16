@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugErrorEvent2 interface"
 ms.assetid: 275b6f38-b3d4-4cae-8491-491177f524fb
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugErrorEvent2

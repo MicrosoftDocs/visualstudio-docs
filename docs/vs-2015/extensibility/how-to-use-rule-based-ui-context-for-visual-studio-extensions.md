@@ -8,7 +8,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8dd2cd1d-d8ba-49b9-870a-45acf3a3259d
 caps.latest.revision: 8
-ms.author: "gregvanl"
+ms.author: gregvanl
 ---
 # How to: Use Rule-based UI Context for Visual Studio Extensions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

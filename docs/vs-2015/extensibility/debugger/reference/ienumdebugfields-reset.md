@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IEnumDebugFields::Reset method"
 ms.assetid: 38ff61e4-0120-42e8-971a-16be6050b425
 caps.latest.revision: 7
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IEnumDebugFields::Reset

@@ -50,7 +50,7 @@ For more information, see the <xref:System.Xml?displayProperty=fullName> documen
 [Microsoft.VisualStudio.XmlEditor](http://go.microsoft.com/fwlink/?LinkID=165699)
 Exposes the [XML Editor](http://go.microsoft.com/fwlink/?LinkId=228249) parse tree through [System.Xml.Linq](http://go.microsoft.com/fwlink/?LinkId=228250) for any XML documents.
 
-[XML Standards Reference](http://msdn.microsoft.com/79c78508-c9d0-423a-a00f-672e855de401)
+[XML Standards Reference](https://msdn.microsoft.com/79c78508-c9d0-423a-a00f-672e855de401)
 Provides information about XML technologies, including XML, Document Type Definition (DTD), XML Schema definition language (XSD), and XSLT.
 
 <xref:System.Xml?displayProperty=fullName>
@@ -64,7 +64,7 @@ Describes the classes and other elements that make up the <xref:System.Xml.Seria
 [XML Document Object Model (DOM)](/dotnet/standard/data/xml/xml-document-object-model-dom)
 Describes how the <xref:System.Xml.XmlDocument> and its associated classes comply with the W3C Document Object Model (Core) Level 1 and Level 2 namespace support specifications.
 
-[Processing XML data with XmlReader and XmlWriter](https://msdn.microsoft.com/library/cc189001(v=vs.95).aspx)
+[Processing XML data with XmlReader and XmlWriter](/previous-versions/windows/silverlight/dotnet-windows-silverlight/cc189001\(v\=vs.95\))
 
 [XSLT transformations](/dotnet/standard/data/xml/xslt-transformations)
 Describes how the <xref:System.Xml.Xsl.XslCompiledTransform> class implements the XSLT 1.0 recommendation.

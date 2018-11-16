@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "DebuggerDisplayAttribute class"
 ms.assetid: f4eb7c76-af4e-493b-9ab6-9cb05949d9b3
 caps.latest.revision: 50
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Using the DebuggerDisplay Attribute

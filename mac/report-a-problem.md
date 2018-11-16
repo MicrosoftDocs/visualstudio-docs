@@ -59,3 +59,7 @@ To report a problem with Visual Studio for Mac, select **Help > Report a Problem
 If you don't want to or can't use Visual Studio to report a problem, there's a chance that the problem has already been reported and a solution posted on the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/) page.
 
 If you don't have a problem to report but want to suggest a feature, there's a place for that, too. For more information, see the [Suggest a feature](https://developercommunity.visualstudio.com/content/idea/post.html?space=41) page.
+
+## See also
+
+- [Report a problem with Visual Studio (on Windows)](/visualstudio/ide/how-to-report-a-problem-with-visual-studio-2017)

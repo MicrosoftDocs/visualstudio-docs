@@ -22,8 +22,8 @@ helpviewer_keywords:
   - "delegates, generating stubs"
 ms.assetid: 585a3fd5-516f-4166-9fd1-d406cbab369e
 caps.latest.revision: 67
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Generate From Usage

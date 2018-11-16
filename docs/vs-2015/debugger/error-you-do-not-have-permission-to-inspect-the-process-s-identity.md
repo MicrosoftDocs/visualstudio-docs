@@ -16,8 +16,8 @@ dev_langs:
   - "C++"
 ms.assetid: 6233d060-85b8-42be-ae5f-bde7e1d0f241
 caps.latest.revision: 8
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Error: You do not have permission to inspect the process&#39;s identity

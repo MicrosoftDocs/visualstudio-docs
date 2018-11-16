@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "finding windows with Spy++"
 ms.assetid: ee733077-d17a-4439-8a49-bc2f5dbc60d0
 caps.latest.revision: 7
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Find Window Dialog Box

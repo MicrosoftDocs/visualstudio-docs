@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSectionContrib::get_initializedData method"
 ms.assetid: f5c108be-a0cc-408b-9590-b8d44361810c
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSectionContrib::get_initializedData

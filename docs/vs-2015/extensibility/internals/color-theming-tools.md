@@ -8,7 +8,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 89ab5741-c664-4b45-8662-3dd01a5761be
 caps.latest.revision: 4
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Color Theming Tools

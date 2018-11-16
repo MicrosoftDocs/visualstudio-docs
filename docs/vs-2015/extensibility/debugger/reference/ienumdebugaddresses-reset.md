@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IEnumDebugAddresses::Reset method"
 ms.assetid: 3a9d7f20-5bc6-4e13-8e91-5af4092e092f
 caps.latest.revision: 6
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IEnumDebugAddresses::Reset

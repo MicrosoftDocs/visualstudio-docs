@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaLineNumber::get_virtualAddress method"
 ms.assetid: 9048ef91-a59d-4ad8-90cb-4c13d0989241
 caps.latest.revision: 12
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaLineNumber::get_virtualAddress

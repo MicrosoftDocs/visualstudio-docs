@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "BUILT_TYPE structure"
 ms.assetid: cc02c32c-0f65-4210-ad25-a9b1899066e8
 caps.latest.revision: 8
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # BUILT_TYPE

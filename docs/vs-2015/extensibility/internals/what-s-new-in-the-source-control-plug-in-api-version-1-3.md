@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "what's new [Visual Studio SDK], source control plug-ins"
 ms.assetid: 7dfb2227-6e1d-4028-bce9-f8967456a993
 caps.latest.revision: 14
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # What&#39;s New in the Source Control Plug-in API Version 1.3

@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "Spy menu commands"
 ms.assetid: 802549be-dbd8-4df0-a18b-971900eaa769
 caps.latest.revision: 7
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Spy Menu Commands

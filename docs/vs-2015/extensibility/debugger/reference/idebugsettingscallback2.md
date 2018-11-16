@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "IDebugSettingsCallback2 interface"
 ms.assetid: 7e525d0b-7d7a-4d1c-8b78-e1398fa922f2
 caps.latest.revision: 9
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugSettingsCallback2

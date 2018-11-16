@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugField::GetAddress method"
 ms.assetid: 6981bf03-66ef-4bf9-87ea-f6c9624486cb
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugField::GetAddress

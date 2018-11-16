@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "Edit and Continue Error Message dialog box"
 ms.assetid: f98c91c0-447a-4533-85b6-87170a0dc4c3
 caps.latest.revision: 15
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Edit and Continue Error Message Dialog Box

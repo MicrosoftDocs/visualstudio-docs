@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IEnumDebugPorts2::Reset"
 ms.assetid: 67da406c-eadb-421e-ae12-e26e9866f262
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IEnumDebugPorts2::Reset

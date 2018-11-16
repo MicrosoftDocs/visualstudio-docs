@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "Caller/Callee view"
 ms.assetid: da624c06-8741-4afb-aad1-f8c0002f3de2
 caps.latest.revision: 17
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Caller/Callee View - NET Memory Instrumentation Data

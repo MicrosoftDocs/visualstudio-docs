@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugDisassemblyStream2::GetCurrentLocation"
 ms.assetid: 512302f1-12b1-4107-8a6e-c5bc878ce1c3
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugDisassemblyStream2::GetCurrentLocation

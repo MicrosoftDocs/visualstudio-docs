@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugModule3::LoadSymbols"
 ms.assetid: 7548c8c1-cbc6-48aa-a845-19058d4a85bb
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugModule3::LoadSymbols

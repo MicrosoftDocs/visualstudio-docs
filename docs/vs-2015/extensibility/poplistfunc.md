@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "POPLISTFUNC callback function"
 ms.assetid: b2199fd5-d707-4628-92dd-e2a01e2f507a
 caps.latest.revision: 17
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # POPLISTFUNC

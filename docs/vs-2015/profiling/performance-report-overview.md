@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "performance reports, about performance reports"
 ms.assetid: 7324c24c-fd09-479b-b2ad-e0c3b613e040
 caps.latest.revision: 50
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Performance Report Overview

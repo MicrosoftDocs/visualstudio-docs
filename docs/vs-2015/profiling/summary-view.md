@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "Summary view"
 ms.assetid: 98a1eb71-bbf5-4ce7-8559-cdc29f082c4b
 caps.latest.revision: 42
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Summary View

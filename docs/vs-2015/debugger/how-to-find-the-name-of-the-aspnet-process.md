@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "ASP.NET process"
 ms.assetid: 931a7597-b0f0-4a28-931d-46e63344435f
 caps.latest.revision: 32
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Find the Name of the ASP.NET Process

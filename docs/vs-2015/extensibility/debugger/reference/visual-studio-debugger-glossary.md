@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], glossary"
 ms.assetid: 4a2cfaab-1fbd-4a23-bd00-9ac4cc50d7fd
 caps.latest.revision: 14
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Visual Studio Debugger Glossary

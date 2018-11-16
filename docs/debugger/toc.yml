@@ -1,7 +1,11 @@
 - name: Debugger documentation
   href: index.md
 - name: Overview
-  href: debugger-overview.md
+  items:
+  - name: "What is debugging?"
+    href: what-is-debugging.md
+  - name: "Write better C# code with Visual Studio"
+    href: write-better-code-with-visual-studio.md
 - name: Quickstarts
   items:
   - name: First look at the debugger
@@ -408,7 +412,7 @@
           href: debugging-preparation-windows-forms-applications.md
         - name: "Debugging preparation: Windows services"
           href: debugging-preparation-windows-services.md
-      - name: Diagnostic Messages in the Output window
+      - name: Send messages to the Output window
         href: diagnostic-messages-in-the-output-window.md
       - name: Assertions in managed code
         href: assertions-in-managed-code.md

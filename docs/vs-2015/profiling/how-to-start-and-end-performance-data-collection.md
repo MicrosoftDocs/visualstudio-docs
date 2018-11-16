@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "profiling tools, ending sessions"
 ms.assetid: 9f6eb0d5-d9e9-4bec-b627-445065610bce
 caps.latest.revision: 17
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Start and End Performance Data Collection

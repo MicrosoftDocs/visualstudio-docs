@@ -21,6 +21,9 @@ ms.workload:
 
 Use **Task List** to track code comments that use tokens such as `TODO` and `HACK`, or custom tokens, and to manage shortcuts that take you directly to a predefined location in code. Click on the item in the list to go to its location in the source code.
 
+> [!NOTE]
+> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Task comments (Visual Studio for Mac)](/visualstudio/mac/task-comments).
+
 ## The Task List window
 
 When **Task List** is open, it appears at the bottom of the application window.
@@ -98,3 +101,4 @@ To navigate through the shortcuts in the code, choose a shortcut in the list, an
 ## See also
 
 - [Task List, Environment, Options dialog box](../ide/reference/task-list-environment-options-dialog-box.md)
+- [Task comments (Visual Studio for Mac)](/visualstudio/mac/task-comments)

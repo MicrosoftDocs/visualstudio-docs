@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "IDebugComPlusSymbolProvider::UnloadSymbols"
 ms.assetid: 53e3ddc1-ab47-4097-8fef-b26e5504b37a
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugComPlusSymbolProvider::UnloadSymbols

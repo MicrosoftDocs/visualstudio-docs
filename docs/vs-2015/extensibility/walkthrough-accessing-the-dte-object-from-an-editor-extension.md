@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], new - getting the DTE object"
 ms.assetid: c1f40bab-c6ec-45b0-8333-ea5ceb02a39d
 caps.latest.revision: 23
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Walkthrough: Accessing the DTE Object from an Editor Extension

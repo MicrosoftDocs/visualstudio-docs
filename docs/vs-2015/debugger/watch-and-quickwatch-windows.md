@@ -26,8 +26,8 @@ helpviewer_keywords:
   - "debugging [Visual Studio], expression evaluation"
 ms.assetid: d5c18377-2a0e-4819-a645-407e24ccc58c
 caps.latest.revision: 50
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Watch and QuickWatch Windows

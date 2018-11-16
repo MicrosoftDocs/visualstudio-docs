@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaEnumSymbols::get__NewEnum method"
 ms.assetid: 879609ea-8e5a-4fa3-afa6-d24870fb4392
 caps.latest.revision: 10
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaEnumSymbols::get__NewEnum

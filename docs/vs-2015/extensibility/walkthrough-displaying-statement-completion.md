@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], new - statement completion"
 ms.assetid: f3152c4e-7673-4047-a079-2326941d1c83
 caps.latest.revision: 37
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Walkthrough: Displaying Statement Completion

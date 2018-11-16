@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "breakpoint mapping, limitations"
 ms.assetid: 280eead5-693c-47af-967f-dfe9d23f84db
 caps.latest.revision: 25
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Limitations on Script Debugging

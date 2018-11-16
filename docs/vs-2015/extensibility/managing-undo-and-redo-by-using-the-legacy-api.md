@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], legacy - undo management"
 ms.assetid: 838c0ddf-fdf3-4df1-8d21-79610b8ba0b1
 caps.latest.revision: 15
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Managing Undo and Redo by Using the Legacy API

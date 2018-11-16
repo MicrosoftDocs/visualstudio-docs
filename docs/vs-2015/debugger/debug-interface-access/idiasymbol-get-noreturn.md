@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSymbol::get_noReturn method"
 ms.assetid: 704c1cc0-5b84-4334-a02a-70f43aff39d5
 caps.latest.revision: 10
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_noReturn

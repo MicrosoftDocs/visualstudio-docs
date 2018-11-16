@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], contexts"
 ms.assetid: 8e8b5702-5c16-4988-953d-69dd807d8b84
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Document Context

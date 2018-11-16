@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "performance tools, line-level sampling"
 ms.assetid: 44803aad-dd39-4c2e-9209-d35185d44983
 caps.latest.revision: 27
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Collect Line-Level Sampling Data

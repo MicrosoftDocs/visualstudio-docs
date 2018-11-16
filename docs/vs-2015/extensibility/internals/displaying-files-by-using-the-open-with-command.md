@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "persistence, supporting Open With command"
 ms.assetid: 53794bc3-1b73-4d40-954e-cfade1abddcf
 caps.latest.revision: 13
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Displaying Files By Using the Open With Command

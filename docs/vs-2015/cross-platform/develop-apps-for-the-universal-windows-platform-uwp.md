@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: eac59cb6-f12e-4a77-9953-6d62b164a643
 caps.latest.revision: 50
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # Develop apps for the Universal Windows Platform (UWP)

@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaLoadCallback::NotifyDebugDir method"
 ms.assetid: bd04e2f6-0dbf-4742-a556-96f2cd99aa19
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaLoadCallback::NotifyDebugDir

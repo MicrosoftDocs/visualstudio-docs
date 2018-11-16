@@ -1,5 +1,5 @@
 ---
-title: "Hello World | Microsoft Docs"
+title: "Hello World extension tutorial | Microsoft Docs"
 ms.custom: ""
 ms.date: "07/10/2017"
 ms.topic: "conceptual"
@@ -7,7 +7,7 @@ ms.assetid: f74e1ad1-1ee5-4360-9bd5-d82467b884ca
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: douge
-ms.workload: 
+ms.workload:
   - "vssdk"
 ---
 # Create your first extension: Hello World
@@ -24,6 +24,9 @@ In the process, you will learn how to:
 For this example, you'll use Visual C# to add a custom menu button named "Say Hello World!" that looks like this:
 
 ![Hello World command](media/hello-world-say-hello-world.png)
+
+> [!NOTE]
+> This article applies to Visual Studio on Windows. For Visual Studio for Mac, see [Extensibility walkthrough in Visual Studio for Mac](/visualstudio/mac/extending-visual-studio-mac-walkthrough).
 
 ## Prerequisites
 
@@ -127,6 +130,6 @@ You should see the output from your new custom command, in this case the dialog 
 
 Now that you know the basics of working with Visual Studio Extensibility, here's where you can learn more:
 
-* [Start to develop Visual Studio extensions](starting-to-develop-visual-studio-extensions.md) - Samples, tutorials. and publishing your extension.
+* [Start to develop Visual Studio extensions](starting-to-develop-visual-studio-extensions.md) - Samples, tutorials. and publishing your extension
 * [What's new in the Visual Studio 2017 SDK](what-s-new-in-the-visual-studio-2017-sdk.md) -New extensibility features in Visual Studio 2017
 * [Inside the Visual Studio SDK](internals/inside-the-visual-studio-sdk.md) - Learn the details of Visual Studio Extensibility

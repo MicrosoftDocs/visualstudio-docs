@@ -16,8 +16,8 @@ dev_langs:
   - "C++"
 ms.assetid: 6aad395f-7170-4d9e-b2b8-a5faf453380e
 caps.latest.revision: 20
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Visualizer Architecture

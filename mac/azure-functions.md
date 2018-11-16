@@ -11,7 +11,7 @@ ms.assetid: 25CD47A4-5B32-4734-8EF3-E24A02AABF29
 
 # Introduction to Azure Functions
 
-Azure functions is a way to create and run event-driven snippets of code –– functions –– in the cloud, without having to explicitly provision or manage infrastructure. For more information about Azure Functions, see the [Azure Functions documentation](https://docs.microsoft.com/azure/azure-functions/).
+Azure functions is a way to create and run event-driven snippets of code –– functions –– in the cloud, without having to explicitly provision or manage infrastructure. For more information about Azure Functions, see the [Azure Functions documentation](/azure/azure-functions/).
 
 ## Requirements
 
@@ -21,12 +21,12 @@ To create and deploy functions you also need an Azure subscription, which is ava
 
 ## Creating your first Azure Functions project
 
-1. In Visual Studio for Mac, select **File > New Solution…**. 
+1. In Visual Studio for Mac, select **File > New Solution**.
 2. From the New Project dialog, select the Azure Functions template under **Cloud > General** and click **Next**:
 
     ![New Project dialog showing Azure functions option](media/azure-functions-image1.png)
 
-3. Select the initial Azure Functions template that you wish to use, enter your function name and click **Next**. 
+3. Select the initial Azure Functions template that you wish to use, enter your function name and click **Next**.
 
     ![New Project dialog showing Azure functions templates](media/azure-functions-image2.png)
 
@@ -44,9 +44,9 @@ Visual Studio for Mac creates a .NET Standard project with a default function in
 
 The new project contains the following files:
 
-* **your-function-name.cs** – This class contains boilerplate code for the function that you selected. It contains a **FunctionName** attribute with the function name, and a trigger attribute that specifies what triggers the function (eg. a HTTP request). For more information on the function method, refer to the [Azure Functions C# developer reference](https://docs.microsoft.com/azure/azure-functions/functions-dotnet-class-library) article.
-* **host.json** – This file describes the global configuration options for Functions host. For an example file and information on the available settings for this file, see the [host.json reference for Azure Functions](https://docs.microsoft.com/azure/azure-functions/functions-host-json).
-* **local.settings.json** – This file contains all the settings for running functions locally. These settings are used by the Azure Functions Core Tools. For more information, see [Local settings file](https://docs.microsoft.com/azure/azure-functions/functions-run-local#local-settings-file) in the Azure Functions Core Tools article.
+* **your-function-name.cs** – This class contains boilerplate code for the function that you selected. It contains a **FunctionName** attribute with the function name, and a trigger attribute that specifies what triggers the function (eg. a HTTP request). For more information on the function method, refer to the [Azure Functions C# developer reference](/azure/azure-functions/functions-dotnet-class-library) article.
+* **host.json** – This file describes the global configuration options for Functions host. For an example file and information on the available settings for this file, see the [host.json reference for Azure Functions](/azure/azure-functions/functions-host-json).
+* **local.settings.json** – This file contains all the settings for running functions locally. These settings are used by the Azure Functions Core Tools. For more information, see [Local settings file](/azure/azure-functions/functions-run-local#local-settings-file) in the Azure Functions Core Tools article.
 
 Now that you've created a new Azure Functions project in Visual Studio for Mac, you can test out the default HTTP-triggered function from your local machine.
 
@@ -58,9 +58,9 @@ With Azure Functions support in Visual Studio for Mac you can test and debug you
 
     ![Start debugging button in visual studio for mac](media/azure-functions-run.png)
 
-1. Running the project starts local debugging on the Azure Function and opens a new Terminal window, as illustrated in the following image: 
+1. Running the project starts local debugging on the Azure Function and opens a new Terminal window, as illustrated in the following image:
 
-    ![terminal window showing function output](media/azure-functions-terminal.png) 
+    ![terminal window showing function output](media/azure-functions-terminal.png)
 
     Copy the URL from the  output.
 
@@ -82,11 +82,11 @@ Function Templates enable you to quickly create new functions using the most com
 
     A list of the Azure Function templates are provided in the [Available function templates](#available-function-templates) section.
 
-You can use the above procedure to add more functions to your function app project. Each function in the project can have a different trigger, but a function must have exactly one trigger. For more information, see [Azure Functions triggers and bindings concepts](https://docs.microsoft.com/azure/azure-functions/functions-triggers-bindings).
+You can use the above procedure to add more functions to your function app project. Each function in the project can have a different trigger, but a function must have exactly one trigger. For more information, see [Azure Functions triggers and bindings concepts](/azure/azure-functions/functions-triggers-bindings).
 
 ## Publish to Azure
 
-1. Right-click on the project name and select **Publish > Publish to Azure…**:
+1. Right-click on the project name and select **Publish > Publish to Azure**:
     ![Publish to azure menu option](media/azure-functions-image5.png)
 2. If you've already connected your Azure account to Visual  Studio for Mac a list of available app services are displayed. If you haven't logged in, you'll be prompted to do so.
 3. From the **Publish to Azure App Service** dialog, you can either select an existing app service or create a new one by clicking **New**.
@@ -97,8 +97,8 @@ You can use the above procedure to add more functions to your function app proje
     |---------|---------|
     |**App Service Name**|A globally unique name that  identifies your new function app.|
     |**Subscription**|The Azure subscription to use.|
-    |**[Resource Group](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview)**|Name of the resource group in which to create your function app. Choose **+** to create a new resource group.|
-    |**[Service Plan](https://docs.microsoft.com/azure/azure-functions/functions-scale)**|Choose an existing plan or create a custom plan. Choose a Location in a region near you or near other services your functions access.|
+    |**[Resource Group](/azure/azure-resource-manager/resource-group-overview)**|Name of the resource group in which to create your function app. Choose **+** to create a new resource group.|
+    |**[Service Plan](/azure/azure-functions/functions-scale)**|Choose an existing plan or create a custom plan. Choose a Location in a region near you or near other services your functions access.|
 
     > [!CAUTION]
     > There is a bug in the 7.6 version of Visual Studio for Mac that will cause publishing to fail with a provisioning error if you attempt to create a custom service plan with the **Pricing** set to **Consumption**. This will be fixed in the next service release.
@@ -110,7 +110,7 @@ You can use the above procedure to add more functions to your function app proje
 6. Click **Create** to create a function app and related resources in Azure with these settings and deploy your function project code.
 
 7. You may be prompted with a dialog during publishing informing you to "Update Functions Version on Azure". Click **Yes**:
- 
+
     ![Publish to azure menu option](media/azure-functions-image12.png)
 
 > [!CAUTION]
@@ -136,7 +136,7 @@ One important setting you may need to set is `FUNCTIONS_EXTENSION_VERSION`. When
 
 ## Available function templates
 
-- **GitHub Trigger** – Respond to events that occur in your GitHub repositories. For more information, see the [Azure Functions article on GitHub](https://docs.microsoft.com/azure/azure-functions/functions-create-github-webhook-triggered-function)
+- **GitHub Trigger** – Respond to events that occur in your GitHub repositories. For more information, see the [Azure Functions article on GitHub](/azure/azure-functions/functions-create-github-webhook-triggered-function)
     - GitHub commenter – This function will be run when it receives a GitHub webhook for an issue or pull request and adds a comment.
     - GitHub WebHook – This function will be run when it receives a GitHub webhook.
 
@@ -147,16 +147,16 @@ One important setting you may need to set is `FUNCTIONS_EXTENSION_VERSION`. When
     - Http Trigger with parameters
 
 
-- **Timer** – Execute cleanup or other batch tasks on a predefined schedule. This template takes two fields: a Name and a schedule, which is a six field CRON expression. For more information, see the [Azure functions article on Time](https://docs.microsoft.com/azure/azure-functions/functions-create-scheduled-function)
+- **Timer** – Execute cleanup or other batch tasks on a predefined schedule. This template takes two fields: a Name and a schedule, which is a six field CRON expression. For more information, see the [Azure functions article on Time](/azure/azure-functions/functions-create-scheduled-function)
 
 
-- **Queue Trigger** – This is a function that will respond to messages as they arrive in the Azure Storage queue. In addition to the function name, this template takes a **Path** (the name of the queue from which the message will be read) and storage account **Connection** (the name of the app setting containing your storage account connection string). For more information, see the [Azure functions article on Queue Storage](https://docs.microsoft.com/azure/azure-functions/functions-create-storage-queue-triggered-function).
+- **Queue Trigger** – This is a function that will respond to messages as they arrive in the Azure Storage queue. In addition to the function name, this template takes a **Path** (the name of the queue from which the message will be read) and storage account **Connection** (the name of the app setting containing your storage account connection string). For more information, see the [Azure functions article on Queue Storage](/azure/azure-functions/functions-create-storage-queue-triggered-function).
 
-- **Blob Trigger** – Process Azure Storage blobs when they are added to a container. In addition to the function name, this template also takes a path and connection property. The path property is the path within your storage account that the trigger will monitor. The connection account is the name of the app setting containing your storage account connection string. For more information, see the [Azure functions Blob Storage article](https://docs.microsoft.com/azure/azure-functions/functions-create-storage-blob-triggered-function).
+- **Blob Trigger** – Process Azure Storage blobs when they are added to a container. In addition to the function name, this template also takes a path and connection property. The path property is the path within your storage account that the trigger will monitor. The connection account is the name of the app setting containing your storage account connection string. For more information, see the [Azure functions Blob Storage article](/azure/azure-functions/functions-create-storage-blob-triggered-function).
 
-- **Generic WebHook** – This is a simple function that will run whenever it receives a request from any service that supports webhooks. For more information, see the [Azure functions article on generic webhooks](https://docs.microsoft.com/azure/azure-functions/functions-create-generic-webhook-triggered-function).
+- **Generic WebHook** – This is a simple function that will run whenever it receives a request from any service that supports webhooks. For more information, see the [Azure functions article on generic webhooks](/azure/azure-functions/functions-create-generic-webhook-triggered-function).
 
-- **Durable functions orchestration** – Durable Functions let you write stateful functions in a serverless environment. The extension manages state, checkpoints, and restarts for you. For more information, see the Azure functions guides on [Durable functions](https://docs.microsoft.com/azure/azure-functions/durable-functions-overview).
+- **Durable functions orchestration** – Durable Functions let you write stateful functions in a serverless environment. The extension manages state, checkpoints, and restarts for you. For more information, see the Azure functions guides on [Durable functions](/azure/azure-functions/durable-functions-overview).
 
 - **Image Resizer** – This function creates resized images whenever a blob is added to a container. The template takes path and connection string for the trigger, a small image output, and a medium image output.
 

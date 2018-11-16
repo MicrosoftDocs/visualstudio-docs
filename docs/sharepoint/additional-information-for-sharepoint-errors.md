@@ -23,7 +23,7 @@ ms.workload:
   - "office"
 ---
 # Additional information for SharePoint errors
-  You can find assistance in troubleshooting [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint tools errors and warnings in troubleshooting topics and the Microsoft Developer Network (MSDN) public forums.  
+  You can find assistance in troubleshooting [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint tools errors and warnings in troubleshooting topics and the public forums.  
   
 ## Troubleshoot errors and issues
  For assistance with some common errors and other issues in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint tools, see the following topics:  
@@ -35,7 +35,7 @@ ms.workload:
 -   [Troubleshoot SharePoint packaging and deployment](../sharepoint/troubleshooting-sharepoint-packaging-and-deployment.md)  
   
 ## Other resources
- The following table lists the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint tools forums and other resources available on MSDN.  
+ The following table lists the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint tools forums and other resources available.  
   
 |Term|Definition|  
 |----------|----------------|  

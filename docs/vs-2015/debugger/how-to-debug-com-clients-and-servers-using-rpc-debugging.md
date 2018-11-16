@@ -28,8 +28,8 @@ helpviewer_keywords:
   - "in-process remote procedure call debugging"
 ms.assetid: 3e8526c8-43b5-4b87-8e0d-b22c24f0a3ea
 caps.latest.revision: 26
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Debug COM Clients and Servers Using RPC Debugging

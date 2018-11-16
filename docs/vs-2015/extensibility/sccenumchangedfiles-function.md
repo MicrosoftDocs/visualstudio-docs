@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "SccEnumChangedFiles function"
 ms.assetid: 76cac510-107b-4c1a-ba60-9c39b6db2e71
 caps.latest.revision: 13
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # SccEnumChangedFiles Function

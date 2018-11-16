@@ -24,8 +24,8 @@ helpviewer_keywords:
   - "tool windows"
 ms.assetid: 31b6ff46-8820-40ff-92ab-561d90e89ec6
 caps.latest.revision: 20
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Kinds of Windows

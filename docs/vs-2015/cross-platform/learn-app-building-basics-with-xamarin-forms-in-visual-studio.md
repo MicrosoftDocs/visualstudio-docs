@@ -8,7 +8,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d22b5186-9e03-4e85-afc9-7cbe28522a6d
 caps.latest.revision: 14
-ms.author: "crdun"
+ms.author: crdun
 manager: "crdun"
 ---
 # Learn app-building basics with Xamarin.Forms in Visual Studio

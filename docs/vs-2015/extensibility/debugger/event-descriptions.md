@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], events"
 ms.assetid: 09f61652-7e16-4bb0-8055-f61a84bf384e
 caps.latest.revision: 8
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Event Descriptions

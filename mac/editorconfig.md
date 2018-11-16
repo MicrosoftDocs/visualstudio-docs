@@ -13,7 +13,7 @@ ms.assetid: 26A0DE31-2FBF-4E1B-99FB-083111AA1680
 
 In Visual Studio for Mac, you can add an [EditorConfig](http://editorconfig.org/) file to your project or solution to enforce consistent coding styles for everyone that works in the codebase. The settings declared in the EditorConfig file take precedence over global Visual Studio for Mac text editor settings. Using an EditorConfig file within your project or codebase allows you to set your coding style, preferences, and warnings for your project. Because the file is part of your codebase, it makes it easier for all users to adhere to the coding practices of a project, regardless of the IDE or code editor that they use.
 
-[EditorConfig](http://editorconfig.org/) files are supported on many IDEs and code editors, including Visual Studio 2017. 
+[EditorConfig](http://editorconfig.org/) files are supported on many IDEs and code editors, including Visual Studio 2017.
 
 ## Supported settings
 
@@ -28,15 +28,15 @@ The editor in Visual Studio for Mac supports the core set of [EditorConfig prope
 - `insert_final_newline`
 - `root`
 
-EditorConfig also supports [Coding conventions](https://docs.microsoft.com/visualstudio/ide/editorconfig-code-style-settings-reference) in C#.
+EditorConfig also supports [Coding conventions](/visualstudio/ide/editorconfig-code-style-settings-reference) in C#.
 
 ## Add an EditorConfig file to a project
 
 ### Adding a new EditorConfig file
 
-1. Open your project in Visual Studio for Mac. Select either the solution or project node that you wish to add the EditorConfig file to. Adding the file to the solution directory applies the .editorconfig settings to all projects in the solution. 
+1. Open your project in Visual Studio for Mac. Select either the solution or project node that you wish to add the EditorConfig file to. Adding the file to the solution directory applies the .editorconfig settings to all projects in the solution.
 
-2. Right-click on the node and select **Add > New File…** to open the **New File** dialog:
+2. Right-click on the node and select **Add > New File** to open the **New File** dialog:
 
     ![Content menu items](media/editorconfig-image0.png)
 
@@ -71,13 +71,13 @@ EditorConfig also supports [Coding conventions](https://docs.microsoft.com/visua
 
 ### Adding an existing EditorConfig file
 
-If you're working with a project or solution that already contains an `.editorconfig` file, there is nothing that you need to do to apply the settings. Any new lines of code are formatted according to the EditorConfig settings. 
+If you're working with a project or solution that already contains an `.editorconfig` file, there is nothing that you need to do to apply the settings. Any new lines of code are formatted according to the EditorConfig settings.
 
 You may want to reuse an existing `.editorconfig` file in your project. To add an existing file, do the following:
 
-1. Right-click on the folder you wish to add it to and select **Add > Add Files…**.
+1. Right-click on the folder you wish to add it to and select **Add > Add Files**.
 
-2. Browse to the directory of the required file. 
+2. Browse to the directory of the required file.
 
 3. Files beginning with `.` (such as `.editorconfig`) are hidden files in macOS,  so press **Command + Shift + .** to make the `.editorconfig` file visible.
 
@@ -99,9 +99,7 @@ To reflect the settings from the `.editorconfig` file, select the solution node 
 
 ## Editing an EditorConfig file
 
-
 EditorConfig files use a straightforward file layout to specify settings, which is explained below using a previous example:
-
 
 ```EditorConfig
 # This file is the top-most EditorConfig file
@@ -118,7 +116,7 @@ trim_trailing_whitespace = false
 csharp_new_line_before_open_brace = none
 ```
 
-Setting `root` to `true` will flag this file as the top-most file of the codebase and any higher `.editorconfig` files in the project will be ignored, as explained in the [Override EditorConfig Settings](#override-editorconfig-settings) section.
+Setting `root` to `true` flags this file as the top-most file of the codebase and any higher `.editorconfig` files in the project are ignored, as explained in the [Override EditorConfig Settings](#override-editorconfig-settings) section.
 
 Each section is denoted by square (**[ ]**) braces and specifies information on the types of files the following properties should pertain to.
 
@@ -132,11 +130,11 @@ In the example above, some settings are applied to all files in the project and 
 
 ![after editorconfig settings have been applied](media/editorconfig-image5.png)
 
-For more information on available EditorConfig settings, see the [.NET coding convention settings for EditorConfig](https://docs.microsoft.com/visualstudio/ide/editorconfig-code-style-settings-reference) article and the [Supported Properties](http://editorconfig.org/#supported-properties) section on the official documentation.
+For more information on available EditorConfig settings, see the [.NET coding convention settings for EditorConfig](/visualstudio/ide/editorconfig-code-style-settings-reference) article and the [Supported Properties](http://editorconfig.org/#supported-properties) section on the official documentation.
 
 ## Override EditorConfig Settings
 
-It's possible to have more than one `.editorconfig` file in each solution. Visual Studio for Mac reads `.editorconfig` files from top to bottom in the solution, adding and overriding settings as it goes.This means that the settings in the `.editorconfig` _closest_ to the file you're editing will take precedence. Settings are taken from the `.editorconfig` file the same folder (if it exists), then the `.editorconfig` in parent folder (if that exists), etc. until it finds `root=true`.  
+It's possible to have more than one `.editorconfig` file in each solution. Visual Studio for Mac reads `.editorconfig` files from top to bottom in the solution, adding and overriding settings as it goes.This means that the settings in the `.editorconfig` _closest_ to the file you're editing will take precedence. Settings are taken from the `.editorconfig` file the same folder (if it exists), then the `.editorconfig` in parent folder (if that exists), etc. until it finds `root=true`.
 
 If you want to ensure that _no_ settings from any higher-level `.editorconfig` files are applied to this part of the codebase, add the `root=true` property to the top of the lower-level `.editorconfig` file:
 
@@ -144,3 +142,7 @@ If you want to ensure that _no_ settings from any higher-level `.editorconfig` f
 # top-most EditorConfig file
 root = true
 ```
+
+## See also
+
+- [Create custom editor settings with EditorConfig (Visual Studio on Windows)](/visualstudio/ide/create-portable-custom-editor-options)

@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaStackFrame::get_cplusplusExceptionHandling method"
 ms.assetid: f2631820-c986-40ca-b61e-230d7a9c426c
 caps.latest.revision: 12
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaStackFrame::get_cplusplusExceptionHandling

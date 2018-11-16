@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "SccGetCommandOptions function"
 ms.assetid: bbe4aa4e-b4b0-403e-b7a0-5dd6eb24e5a9
 caps.latest.revision: 15
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # SccGetCommandOptions Function

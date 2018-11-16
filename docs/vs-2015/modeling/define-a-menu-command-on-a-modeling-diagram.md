@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "UML - extending, menu commands"
 ms.assetid: 79c277de-5871-4fc7-9701-55eec5c3cd46
 caps.latest.revision: 63
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
 manager: "douge"
 ---

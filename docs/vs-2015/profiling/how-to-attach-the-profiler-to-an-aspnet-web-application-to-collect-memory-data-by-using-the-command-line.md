@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d608f85a-41ae-4ca7-85e6-b96624dbc83c
 caps.latest.revision: 36
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Attach the Profiler to an ASP.NET Web Application to Collect Memory Data by Using the Command Line

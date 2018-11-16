@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "UML, element properties"
 ms.assetid: f82bcd34-7903-4c00-8da1-613efa07d223
 caps.latest.revision: 26
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
 manager: "douge"
 ---

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IEnumDebugFields::Skip method"
 ms.assetid: b3bc51c4-21ae-4913-800c-c2ca9dc18443
 caps.latest.revision: 8
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IEnumDebugFields::Skip

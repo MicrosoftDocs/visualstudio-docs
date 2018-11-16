@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "VSCT files, designing"
 ms.assetid: bb87a322-bac4-4258-92bc-9a876f05d653
 caps.latest.revision: 28
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Designing XML Command Table (.Vsct) Files

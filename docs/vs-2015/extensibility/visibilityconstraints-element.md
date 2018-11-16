@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "VisibilityConstraints element (VSCT XML schema)"
 ms.assetid: d6dcd314-6fe4-4693-a189-91fa026c7b34
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # VisibilityConstraints Element

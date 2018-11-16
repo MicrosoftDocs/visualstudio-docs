@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugThread2::GetProgram"
 ms.assetid: 8c9c5ea1-2031-472e-bc8f-30e22e754566
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugThread2::GetProgram

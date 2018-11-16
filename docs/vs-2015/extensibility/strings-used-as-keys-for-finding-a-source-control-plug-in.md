@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "source control plug-ins, strings used for finding"
 ms.assetid: c1e31f76-42a1-4c3d-afb2-664044ef12fd
 caps.latest.revision: 16
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Strings Used as Keys for Finding a Source Control Plug-in

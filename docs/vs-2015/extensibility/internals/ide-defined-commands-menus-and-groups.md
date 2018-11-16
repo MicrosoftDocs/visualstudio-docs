@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "command groups, environment-defined"
 ms.assetid: 86b3af13-7163-48c6-986b-7beeedbc26cc
 caps.latest.revision: 28
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDE-Defined Commands, Menus, and Groups

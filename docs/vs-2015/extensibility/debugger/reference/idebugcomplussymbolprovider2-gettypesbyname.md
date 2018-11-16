@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "IDebugComPlusSymbolProvider2::GetTypesByName"
 ms.assetid: ef76b1a8-6910-48fe-b4af-d9045eefd23f
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugComPlusSymbolProvider2::GetTypesByName
@@ -54,7 +54,7 @@ int GetTypesByName(
  If successful, returns `S_OK`; otherwise, returns an error code.  
   
 ## Remarks  
- For generic types, the name to look up for 'List\<int>' or 'List\<int,int>' would be 'List'. If types of the same name appear in multiple modules, the `ppEnum` paramter will contain all copies. You have to use [GetTypeInfo](../../../extensibility/debugger/reference/idebugfield-gettypeinfo.md) and distinguish based on the `guidModule` parameter.  
+ For generic types, the name to look up for 'List\<int>' or 'List\<int,int>' would be 'List'. If types of the same name appear in multiple modules, the `ppEnum` parameter will contain all copies. You have to use [GetTypeInfo](../../../extensibility/debugger/reference/idebugfield-gettypeinfo.md) and distinguish based on the `guidModule` parameter.  
   
 ## Example  
  The following example shows how to implement this method for a **CDebugSymbolProvider** object that exposes the [IDebugComPlusSymbolProvider2](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2.md) interface.  

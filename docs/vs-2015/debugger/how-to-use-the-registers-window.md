@@ -29,8 +29,8 @@ helpviewer_keywords:
   - "Registers window"
 ms.assetid: 2918ffa2-562f-40d6-9053-ef321bbeb767
 caps.latest.revision: 42
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Use the Registers Window

@@ -31,8 +31,8 @@ helpviewer_keywords:
   - "debugger, processes"
 ms.assetid: 27900e58-090c-4211-a309-b3e1496d5824
 caps.latest.revision: 62
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Attach to Running Processes with the Visual Studio Debugger

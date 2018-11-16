@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "GetValueDisplayStringCount"
 ms.assetid: d683a833-fbfb-4042-84df-6905124a268a
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IEEVisualizerService::GetValueDisplayStringCount

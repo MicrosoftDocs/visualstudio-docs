@@ -8,7 +8,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: dedf0173-197e-4258-ae5a-807eb3abc952
 caps.latest.revision: 9
-ms.author: "gregvanl"
+ms.author: gregvanl
 ---
 # How to: Use AsyncPackage to Load VSPackages in the Background
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

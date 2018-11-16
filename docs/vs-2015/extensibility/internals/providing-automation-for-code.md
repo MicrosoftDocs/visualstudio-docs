@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "CodeModel object"
 ms.assetid: 21cb3e63-f25c-404b-bc1d-a32ad0fdd4d5
 caps.latest.revision: 14
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Providing Automation for Code

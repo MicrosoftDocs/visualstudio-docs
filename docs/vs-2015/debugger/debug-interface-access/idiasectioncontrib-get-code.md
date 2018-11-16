@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSectionContrib::get_code method"
 ms.assetid: f9ccf7a6-46e7-4a1d-9d5c-97272e17bbbb
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSectionContrib::get_code

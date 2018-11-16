@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "SccDiff function"
 ms.assetid: d49bc8c5-f631-4153-9d3c-feb3564da305
 caps.latest.revision: 17
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # SccDiff Function

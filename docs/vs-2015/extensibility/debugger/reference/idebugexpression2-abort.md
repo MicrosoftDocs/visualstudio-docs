@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugExpression2::Abort"
 ms.assetid: 4fcb712e-1bdb-4b75-a440-35cc79ee147e
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugExpression2::Abort

@@ -31,8 +31,8 @@ helpviewer_keywords:
   - "Skip Count"
 ms.assetid: 66cfac86-f5be-4d3a-9329-d44cd74bc586
 caps.latest.revision: 20
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # When Calling a Function Hundreds of Times, How Do I know Which Call Failed?

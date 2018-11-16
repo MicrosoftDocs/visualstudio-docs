@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "project models, automation"
 ms.assetid: c8db8fdb-88c1-4b12-86fe-f3c30a18f9ee
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Project Modeling

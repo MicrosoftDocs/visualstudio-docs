@@ -16,8 +16,8 @@ dev_langs:
   - "C++"
 ms.assetid: c7590788-beb3-403c-a7dd-18472a9e585e
 caps.latest.revision: 12
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Run Windows Phone apps in the emulator

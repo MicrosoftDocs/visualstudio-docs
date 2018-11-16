@@ -13,8 +13,8 @@ f1_keywords:
   - "vs.tasklisterror.copy_version_conflict"
 ms.assetid: cd7de1eb-7d58-4e2c-9811-a7201f7817be
 caps.latest.revision: 7
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Error: the dependency &#39;file&#39; in project &#39;project&#39; cannot be copied to the run directory because it would conflict with dependency &#39;file&#39;

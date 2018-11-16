@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 30f137e6-595d-4ce7-b8f5-415b07c1caa2
 caps.latest.revision: 33
-ms.author: "crdun"
+ms.author: crdun
 manager: "crdun"
 ---
 # Build apps with native UI using Xamarin in Visual Studio

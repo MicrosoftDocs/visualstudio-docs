@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "IDebugComPlusSymbolProvider::UpdateSymbols"
 ms.assetid: d530f6f1-4af2-454b-bab0-02478a8fe81e
 caps.latest.revision: 13
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugComPlusSymbolProvider::UpdateSymbols

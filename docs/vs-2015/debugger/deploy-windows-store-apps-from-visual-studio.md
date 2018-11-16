@@ -16,8 +16,8 @@ dev_langs:
   - "C++"
 ms.assetid: ef3a0f36-bfc9-4ca0-aa61-18261f619bff
 caps.latest.revision: 17
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Deploy Windows Store apps from Visual Studio

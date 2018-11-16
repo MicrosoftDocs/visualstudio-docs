@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], startup events"
 ms.assetid: 306ea0b4-6d9e-4871-8d8d-a4032d422940
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Sending Startup Events After a Launch

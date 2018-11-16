@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugFunctionPosition2 interface"
 ms.assetid: a835f65b-91b0-48ad-8485-04534c814b1b
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugFunctionPosition2

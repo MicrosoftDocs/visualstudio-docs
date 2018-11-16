@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaPropertyStorage interface"
 ms.assetid: d3197a38-5973-4e56-873e-4f1b84c3f674
 caps.latest.revision: 13
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaPropertyStorage

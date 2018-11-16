@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "profling tools,ASP.NET applications"
 ms.assetid: 897c00d5-5767-433b-a960-4a29c6023ede
 caps.latest.revision: 26
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Command-Line Profiling of ASP.NET Web Applications

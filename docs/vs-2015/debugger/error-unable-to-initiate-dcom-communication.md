@@ -18,8 +18,8 @@ dev_langs:
   - "C++"
 ms.assetid: 2a7b27e6-2526-4f32-bc4d-eaee447f24ec
 caps.latest.revision: 12
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Error: Unable to initiate DCOM communication

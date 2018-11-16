@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IEnumDebugFrameInfo2::Skip"
 ms.assetid: 68cd3948-022a-41ad-bd9f-9ab776cf6248
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IEnumDebugFrameInfo2::Skip

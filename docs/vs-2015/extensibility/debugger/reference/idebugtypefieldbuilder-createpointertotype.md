@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "IDebugTypeFieldBuilder::CreatePointerToType"
 ms.assetid: 73966e8a-b643-43e0-9b4e-0aa4b402ebbe
 caps.latest.revision: 9
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugTypeFieldBuilder::CreatePointerToType

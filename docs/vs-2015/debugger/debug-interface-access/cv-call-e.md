@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "CV_call_e enumeration"
 ms.assetid: f230560b-4243-432d-8f19-46df112043b9
 caps.latest.revision: 13
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # CV_call_e

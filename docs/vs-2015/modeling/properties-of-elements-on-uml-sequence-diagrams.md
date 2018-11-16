@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "sequence diagrams, properties"
 ms.assetid: 475c10f3-a2d2-4a1e-b366-dc28997d437e
 caps.latest.revision: 22
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
 manager: "douge"
 ---

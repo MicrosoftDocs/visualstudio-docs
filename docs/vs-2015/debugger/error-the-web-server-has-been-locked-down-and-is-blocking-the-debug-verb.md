@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "debugger, Web application errors"
 ms.assetid: 9c8c4812-17db-484d-9c1b-ffd9e3bfef5a
 caps.latest.revision: 13
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Error: The Web Server Has Been Locked Down and Is Blocking the DEBUG Verb

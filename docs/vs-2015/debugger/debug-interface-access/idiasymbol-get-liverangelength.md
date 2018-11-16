@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSymbol::get_liveRangeLength"
 ms.assetid: ffcce3cc-085c-44eb-8145-46e3819c54f9
 caps.latest.revision: 10
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_liveRangeLength

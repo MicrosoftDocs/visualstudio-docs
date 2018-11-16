@@ -18,6 +18,9 @@ ms.workload:
 
 If you experience a problem with Visual Studio, we want to know about it. Here's how to report the problem to [Developer Community](https://developercommunity.visualstudio.com/) so that we can diagnose and fix it.
 
+> [!NOTE]
+> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [How to report a problem in Visual Studio for Mac](/visualstudio/mac/report-a-problem).
+
 ## Report a problem by using Visual Studio
 
 To report a problem for Visual Studio, you must initiate the report from Visual Studio or the Visual Studio Installer. You can't do it directly through the [Developer Community](https://developercommunity.visualstudio.com/) website. Reporting through Visual Studio allows for diagnostic information to be automatically included in the report.

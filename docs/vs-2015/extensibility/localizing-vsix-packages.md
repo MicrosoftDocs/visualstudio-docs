@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "localized deployment"
 ms.assetid: 10e80b13-b39e-466c-a7c8-774a862355af
 caps.latest.revision: 14
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Localizing VSIX Packages

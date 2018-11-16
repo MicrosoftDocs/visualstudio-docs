@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugCustomAttributeQuery2::GetCustomAttributeByName"
 ms.assetid: 7428dfeb-8929-41b2-9b99-cb343a86c02d
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugCustomAttributeQuery2::GetCustomAttributeByName

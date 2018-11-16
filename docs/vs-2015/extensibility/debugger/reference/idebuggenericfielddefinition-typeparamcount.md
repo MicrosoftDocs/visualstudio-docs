@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "IDebugGenericFieldDefinition::TypeParamCount"
 ms.assetid: d41dd5ea-aa25-4bf3-bcfd-e0bf451ead49
 caps.latest.revision: 9
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugGenericFieldDefinition::TypeParamCount

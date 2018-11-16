@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "TemplateData element [Visual Studio project templates]"
 ms.assetid: db17ec9b-bfdf-46b1-bbe7-5ccc140056e2
 caps.latest.revision: 25
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # TemplateData Element (Visual Studio Templates)

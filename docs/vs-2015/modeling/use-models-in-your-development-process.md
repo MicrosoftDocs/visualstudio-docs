@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "UML, using models"
 ms.assetid: a33ac8fc-4ba0-4850-b71b-014dc8674e54
 caps.latest.revision: 31
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
 manager: "douge"
 ---

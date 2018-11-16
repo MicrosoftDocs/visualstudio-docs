@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaEnumLineNumbers::Item method"
 ms.assetid: 08efbeaf-22f7-49e9-96a8-bb906dfe4fd8
 caps.latest.revision: 10
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaEnumLineNumbers::Item

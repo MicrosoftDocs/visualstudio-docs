@@ -19,8 +19,8 @@ dev_langs:
   - "SQL"
 ms.assetid: 596425c8-14c7-4c05-8823-e1c52f420f5e
 caps.latest.revision: 9
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Error: SQL Can&#39;t Find SSDEBUGPS
