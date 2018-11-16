@@ -57,7 +57,7 @@ To ensure that the user's installation of Visual Studio has all the assemblies r
 * Ensure `InstallationTarget` includes 15.0.
 * Add required installation prerequisites (as shown in the example below).
   * We recommend you specify only Component IDs for installation prerequisites.
-  * See the section at the end of this document for [instructions on identifying Component IDs](#finding-component-ids).
+  * See the section at the end of this document for [instructions on identifying Component IDs](#find-component-ids).
 
 Example:
 

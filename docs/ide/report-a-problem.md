@@ -1,22 +1,21 @@
 ---
-title: "Understanding Report a Problem in Visual Studio"
-description: "Provides and overview of Report a Problem, problem states and defintions"
-ms.date: 11/12/2018
+title: "Overview: Report a Problem in Visual Studio"
+description: "Provides an overview of the Report a Problem tool, and includes problem states and definitions"
+ms.date: 11/15/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-acquisition
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
-author: Seiyer
+author: seaniyer
 ms.author: seiyer
-manager: DougE
+manager: douge
 ms.workload:
   - "multiple"
 ---
-# Understanding Report a Problem
+# Overview: Report a Problem
 
-Report a problem enables the Visual Studio developer community to submit issues.  Each one of your problem reports becomes a work item in our core engineering system, empowering you to engage directly with our product teams to help us identify and resolve impactful issues. Your feedback submitted with rich diagnostic information is critical to improving the Visual Studio product family.  We really appreciate you taking the time to report problems.
+The Report a Problem tool enables the Visual Studio developer community to submit issues. Each one of your problem reports becomes a work item in our core engineering system, empowering you to engage directly with our product teams to help us identify and resolve impactful issues. Your feedback submitted with rich diagnostic information is critical to improving the Visual Studio product family. We really appreciate you taking the time to report problems.
 
-In addition, vote on feedback from other community members to bring  more attention and help fix it faster.
+In addition, you can vote on feedback from other community members to bring more attention to a problem and help fix it faster.
 
 ## Problem status
 
@@ -36,7 +35,7 @@ After you report a problem, states indicate where your submissions are in their 
 
 ![Under Consideration state for problem reporting on Developer Community](../ide/media/ProblemStates/UnderConsideration.jpg)
 
-**Under Consideration** indicates that Microsoft is reviewing your problem for community impact and will prioritize it accordingly. If the community impact is not clear or significant yet, we will continue to monitor the problem in this state.
+**Under Consideration** indicates that Microsoft is reviewing your problem for community impact and will prioritize it accordingly. If the community impact isn't clear or significant yet, we'll continue to monitor the problem in this state.
 
 - - -
 
@@ -50,8 +49,6 @@ After you report a problem, states indicate where your submissions are in their 
 
 **Need More Info** indicates that we need more diagnostic information from you so that we can go forward with the investigation.  [Learn how to respond to Need More Info requests.](./how-to-report-a-problem-with-visual-studio-2017.md#when-further-information-is-needed-need-more-info)
 
-
-
 - - -
 
 ![Fixed - Pending Release state for problem reporting on Developer Community](../ide/media/ProblemStates/FixedPendingRelease.jpg)
@@ -62,43 +59,43 @@ After you report a problem, states indicate where your submissions are in their 
 
 ![Closed - Fixed state for problem reporting on Developer Community](../ide/media/ProblemStates/ClosedFixed.jpg) 
 
-**Closed - Fixed** indicates that we have released a fix for the problem. The problem is also now tagged with a "fixed in:" tag specifying the release version.
+**Closed - Fixed** indicates that we've released a fix for the problem. The problem is also now tagged with a "fixed in:" tag specifying the release version.
 
 - - -
 
 ![Closed - Duplicate state for problem reporting on Developer Community](../ide/media/ProblemStates/ClosedDuplicate.jpg)
 
-**Closed - Duplicate** indicates that your issue has already been reported via another feedback. We will provide you with the link where you can track the original problem report.
+**Closed - Duplicate** indicates that your issue has already been reported via another feedback. We'll provide you with the link where you can track the original problem report.
 
 - - -
 
 ![Closed - Lower Priority state for problem reporting on Developer Community](../ide/media/ProblemStates/ClosedLowerPriority.jpg)
 
-**Closed - Lower Priority** To focus on bringing each of you in our developer community the best value, we prioritize issues with the highest customer impact. Although we are unable to address this particular issue at this time, be assured that all your feedback is valuable and helps improve Visual Studio.
+**Closed - Lower Priority** To focus on bringing each of you in our developer community the best value, we prioritize issues with the highest customer impact. Although we're unable to address this particular issue at this time, be assured that all your feedback is valuable and helps improve Visual Studio.
 
 - - -
 
 ![Closed - Not a Bug state for problem reporting on Developer Community](../ide/media/ProblemStates/ClosedNotaBug.jpg)
 
-**Closed - Not a Bug**  indicates that we have determined that the reported functionality is rather by current design.
+**Closed - Not a Bug**  indicates that we've determined that the reported functionality is by current design.
 
 - - -
 
 ![Closed - Not Enough Info state for problem reporting on Developer Community](../ide/media/ProblemStates/ClosedNotEnoughInfo.jpg)
 
-**Closed - Not Enough Info** indicates that we don't have enough information to investigate this for you. We will be happy to reconsider the feedback once the necessary information is available.
+**Closed - Not Enough Info** indicates that we don't have enough information to investigate this for you. We'll be happy to reconsider the feedback after the necessary information is available.
 
 - - -
 
 ![Closed - Other Product state for problem reporting on Developer Community](../ide/media/ProblemStates/ClosedOtherProduct.jpg)
 
-**Closed - Other Product** indicates  we have determined that your issue applies to  another product. See the comment from Microsoft for which external product and any related links.
+**Closed - Other Product** indicates we've determined that your issue applies to another product. See the comment from Microsoft for which external product and any related links.
 
 - - -
 
 ![Closed - Won't Fix state for problem reporting on Developer Community](../ide/media/ProblemStates/ClosedWontFix.jpg)
 
-**Closed - Won't Fix** indicates that we are not pursuing this issue due to factors such as lack of product direction alignment or community impact. See the comment from Microsoft for any addtional clarity.  Although we are unable to address this particular issue, be assured that all your feedback is valuable and helps improve Visual Studio.
+**Closed - Won't Fix** indicates that we aren't pursuing this issue due to factors such as lack of product direction alignment or community impact. See the comment from Microsoft for any additional clarity.  Although we're unable to address this particular issue, be assured that all your feedback is valuable and helps improve Visual Studio.
 
 - - -
 
@@ -114,13 +111,13 @@ We recommend using search to ensure that the problem you're about to report hasn
 
 We receive a large number of valuable problems from our customers. To ensure that we're bringing the best value to each of you in our developer community, we prioritize action on feedback that has the highest community impact.
 
-If we're not able to respond personally to your feedback, know that we fully appreciate your input. Be assured that all your feedback gets to the right team.
+If we aren't able to respond personally to your feedback, know that we fully appreciate your input. Be assured that all your feedback gets to the right team.
 
 We truly value the time you invest in making Visual Studio better.
 
 ### What actions can I take if I'm not satisfied with the resolution?
 
-Our teams do their best to diagnose and fix any issues you experience, however there may be times when you're not fully satisfied with our recommendation. Comment back on the feedback and let us know exactly what you're not satisfied with, and we will try our best to ensure we meet your needs.
+Our teams do their best to diagnose and fix any issues you experience, however there may be times when you're not fully satisfied with our recommendation. Comment back on the feedback and let us know exactly what you're not satisfied with, and we'll try our best to ensure that we meet your needs.
 
 ### How will I get notified of progress on my feedback?
 
@@ -128,6 +125,6 @@ Microsoft engineering teams will communicate with you by commenting on the feedb
 
 ### Why can't I add a problem for Visual Studio IDE on the Developer Community website?
 
-Reporting a problem through Visual Studio allows for diagnostic information to automatically be included in the report. It is essential to give our engineers the context they need to fully understand your issue and work to resolve it. 
+Reporting a problem through Visual Studio allows for diagnostic information to automatically be included in the report. It's essential information that gives our engineers the context they need to fully understand your issue and work to resolve it.
 
-When you report through Visual Studio, you're able to easily share  rich diagnostic information including large log files, crash information, screenshots, repro recording, and other artifacts that help us deliver higher-quality resolutions faster to you.
+When you report through Visual Studio, you can easily share rich diagnostic information with us, such as large log files, crash information, screenshots, repro recording, and other artifacts that help us deliver higher-quality resolutions faster to you.
