@@ -272,5 +272,7 @@ To observe the `a` variable,
 1. Continue debugging. You can observe the variable in the **Watch** window.
 
 ## See also
-
-[Debugger windows](../debugger/debugger-windows.md)
+ [What is debugging?](../debugger/what-is-debugging.md)  
+ [Write better C# code using Visual Studio](../debugger/write-better-code-with-visual-studio.md)  
+ [First look at debugging](../debugger/debugger-feature-tour.md) 
+ [Debugger windows](../debugger/debugger-windows.md)
