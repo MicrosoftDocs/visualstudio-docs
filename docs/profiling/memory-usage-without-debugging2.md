@@ -19,7 +19,7 @@ ms.workload:
 
 The **Memory Usage** tool monitors your app's memory use. You can use the tool to study the real-time memory effects of scenarios you're actively developing in Visual Studio. You can take detailed snapshots of the app's memory states, and compare snapshots to find the root causes of memory issues.  
   
-You can run the **Memory Usage** tool with or without the debugger. The following instructions show how to use the **Memory Usage** tool without the debugger in the Visual Studio **Performance Profiler**. 
+The **Memory Usage** tool can run with or without the debugger. The following instructions show how to use the **Memory Usage** tool without the debugger in the Visual Studio **Performance Profiler**. 
 
 >[!NOTE]
 >- To measure memory usage for a .NET Core app, you must use the **Memory Usage** tool with the debugger. For instructions, see [Profile memory usage in Visual Studio](memory-usage.md). 
@@ -94,7 +94,7 @@ In the snapshot report:
 
 - The **Managed Heap** tree shows the types and instances in the report. Selecting a type or instance displays the **Paths to Root** and **Referenced Objects** trees for the selected item.  
   
-- The **Paths to Root** tree shows the chain of objects that reference a type. The .NET Framework garbage collector cleans up the memory for an object only when all references to it have been released.  
+- The **Paths to Root** tree shows the chain of objects that reference a type or instance. The .NET Framework garbage collector cleans up the memory for an object only when all references to it have been released.  
   
 - The **Referenced Types** or **Referenced Objects** tree shows the objects that the selected type or instance references.  
   
@@ -145,7 +145,7 @@ The **Referenced Types** or **Referenced Objects** tree shows the objects that t
   
 ![Referenced Objects tree for instances](../profiling/media/memuse_snapshotdetails_referencedobjects_instance.png "Referenced Objects tree for instances")  
   
-The **Referenced Types** or **Referenced Objects** tree in a snapshot details report has the following columns:
+The **Referenced Types** or **Referenced Objects** tree in a snapshot details report has the following columns. A **Referenced Objects** tree does not have the **Reference Count** column.
 
 |||  
 |-|-|  
@@ -201,8 +201,8 @@ The **Referenced Types** tree in a snapshot diff report has the following column
 |||  
 |-|-|  
 |**Object Type** or **Instance**|The name of the type or object instance.|  
-|**Count**|The number of instances of a type in the primary snapshot.|  
-|**Count Diff**|For a type, the difference in the number of instances of the type between the primary snapshot and the previous snapshot.|  
+|**Reference Count**|The number of instances of a type in the primary snapshot.|  
+|**Reference Count Diff**|For a type, the difference in the number of instances of the type between the primary snapshot and the previous snapshot.|  
 |**Size (Bytes)**|The size of the objects in the primary snapshot, less the size of objects in the objects. For a type, **Size (Bytes)** and **Inclusive Size (Bytes)** are the totals of the sizes of the type instances.|  
 |**Total Size Diff (Bytes)**|For a type, the difference in the total size of instances of the type between the primary snapshot and the previous snapshot, less the size of objects in the instances. |  
 |**Inclusive Size (Bytes)**|The size of the objects in the primary snapshot, including the size of objects in the objects.|  
