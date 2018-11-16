@@ -176,10 +176,10 @@ The **Managed Heap** tree in a snapshot diff report has the following columns:
 |**Object Type**|The name of the type or object instance.|  
 |**Count**|The number of instances of a type in the primary snapshot. **Count** is always 1 for an instance.|  
 |**Count Diff**|For a type, the difference in the number of instances of the type between the primary snapshot and the previous snapshot. The field is blank for an instance.|  
-|**Size (Bytes)**|The size of the objects in the primary snapshot, less the size of objects contained in the objects. For a type, **Size (Bytes)** and **Inclusive Size (Bytes)** are the totals of the sizes of the type instances.|  
-|**Total Size Diff (Bytes)**|For a type, the difference in the total size of instances of the type between the primary snapshot and the previous snapshot, less the size of objects contained in the instances. The field is blank for an instance.|  
-|**Inclusive Size (Bytes)**|The size of the objects in the primary snapshot, including the size of objects contained in the objects.|  
-|**Inclusive Size Diff (Bytes)**|For a type, the difference in the size of all instances of the type between the primary snapshot and the previous snapshot, including the size of objects contained in the objects. The field is blank for an instance.|  
+|**Size (Bytes)**|The size of the objects in the primary snapshot, less the size of objects in the objects. For a type, **Size (Bytes)** and **Inclusive Size (Bytes)** are the totals of the sizes of the type instances.|  
+|**Total Size Diff (Bytes)**|For a type, the difference in the total size of instances of the type between the primary snapshot and the previous snapshot, less the size of objects in the instances. The field is blank for an instance.|  
+|**Inclusive Size (Bytes)**|The size of the objects in the primary snapshot, including the size of objects in the objects.|  
+|**Inclusive Size Diff (Bytes)**|For a type, the difference in the size of all instances of the type between the primary snapshot and the previous snapshot, including the size of objects in the objects. The field is blank for an instance.|  
 |**Module**|The module that contains the object.|  
   
 ###  <a name="BKMK_Paths_to_Root_tree__Snapshot_diff_"></a> Paths to Root tree (Snapshot diff reports)  
@@ -203,10 +203,10 @@ The **Referenced Types** tree in a snapshot diff report has the following column
 |**Object Type** or **Instance**|The name of the type or object instance.|  
 |**Count**|The number of instances of a type in the primary snapshot.|  
 |**Count Diff**|For a type, the difference in the number of instances of the type between the primary snapshot and the previous snapshot.|  
-|**Size (Bytes)**|The size of the objects in the primary snapshot, less the size of objects contained in the objects. For a type, **Size (Bytes)** and **Inclusive Size (Bytes)** are the totals of the sizes of the type instances.|  
-|**Total Size Diff (Bytes)**|For a type, the difference in the total size of instances of the type between the primary snapshot and the previous snapshot, less the size of objects contained in the instances. |  
-|**Inclusive Size (Bytes)**|The size of the objects in the primary snapshot, including the size of objects contained in the objects.|  
-|**Inclusive Size Diff (Bytes)**|For a type, the difference in the size of all instances of the type between the primary snapshot and the previous snapshot, including the size of objects contained in the objects.|  
+|**Size (Bytes)**|The size of the objects in the primary snapshot, less the size of objects in the objects. For a type, **Size (Bytes)** and **Inclusive Size (Bytes)** are the totals of the sizes of the type instances.|  
+|**Total Size Diff (Bytes)**|For a type, the difference in the total size of instances of the type between the primary snapshot and the previous snapshot, less the size of objects in the instances. |  
+|**Inclusive Size (Bytes)**|The size of the objects in the primary snapshot, including the size of objects in the objects.|  
+|**Inclusive Size Diff (Bytes)**|For a type, the difference in the size of all instances of the type between the primary snapshot and the previous snapshot, including the size of objects in the objects.|  
 |**Module**|The module that contains the object.|  
 
 ## See also  
