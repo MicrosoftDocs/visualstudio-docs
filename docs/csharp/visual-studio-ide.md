@@ -1,44 +1,24 @@
 ---
-title: Overview of Visual Studio 2017
-ms.date: 10/26/2018
+title: Overview for C# developers
+ms.date: 11/15/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
 author: gewarren
-f1_keywords:
-  - vs.startpage
-  - VS.StartPage.HowDoI
-  - MSDNSTART
 ms.author: gewarren
 manager: douge
+dev_langs:
+ - CSharp
 ms.workload:
-  - "multiple"
+  - "dotnet"
 ---
 # Welcome to the Visual Studio IDE
 
 The Visual Studio *integrated development environment* is a creative launching pad that you can use to edit, debug, and build code, and then publish an app. An integrated development environment (IDE) is a feature-rich program that can be used for many aspects of software development. Over and above the standard editor and debugger that most IDEs provide, Visual Studio includes compilers, code completion tools, graphical designers, and many more features to ease the software development process.
 
-Visual Studio is available for Windows and Mac. [Visual Studio for Mac](/visualstudio/mac/) has many of the same features as Visual Studio 2017, and is optimized for developing cross-platform and mobile apps. This article focuses on the Windows version of Visual Studio 2017.
-
-There are three editions of Visual Studio 2017: Community, Professional, and Enterprise. See [Compare Visual Studio 2017 IDEs](https://visualstudio.microsoft.com/vs/compare/) to learn about which features are supported in each edition.
-
-This overview article introduces you to the basic features of the IDE. We'll walk through some things you can do with Visual Studio, including creating a simple project, using [IntelliSense](using-intellisense.md) as a coding aid, and debugging an app to see the value of a variable during the program's execution. We'll also take a tour of the various tool windows.
-
-## Install the Visual Studio IDE
-
-To get started, [download Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) and install it on your system.
-
-The modular installer enables you to choose and install *workloads*, which are groups of features needed for the programming language or platform you prefer. To follow the steps for [creating a program](#create-a-program), be sure to select the **.NET Core cross-platform development** workload during installation.
-
-![.NET Core cross-platform development workload in Visual Studio Installer](../ide/media/dotnet-core-cross-platform-workload.png)
-
-When you start Visual Studio for the first time, you can optionally [sign in](signing-in-to-visual-studio.md) using your Microsoft account, or your work or school account.
-
-## Tour of the IDE
-
-To give you a high-level visual overview of Visual Studio, the following image shows Visual Studio with an open project and several key tool windows you'll likely use:
-
 ![The Visual Studio IDE](../ide/media/visualstudioide.png)
+
+This image shows Visual Studio with an open project and several key tool windows you'll likely use:
 
 - [**Solution Explorer**](../ide/solutions-and-projects-in-visual-studio.md) (top right) lets you view, navigate, and manage your code files. **Solution Explorer** can help organize your code by grouping the files into [solutions and projects](quickstart-projects-solutions.md).
 
@@ -48,7 +28,13 @@ To give you a high-level visual overview of Visual Studio, the following image s
 
 - [Team Explorer](/azure/devops/user-guide/work-team-explorer?view=vsts) (bottom right) lets you track work items and share code with others using version control technologies such as [Git](https://git-scm.com/) and [Team Foundation Version Control (TFVC)](/azure/devops/repos/tfvc/overview?view=vsts).
 
-### Popular productivity features
+## Editions
+
+Visual Studio is available for Windows and Mac. [Visual Studio for Mac](/visualstudio/mac/) has many of the same features as Visual Studio 2017, and is optimized for developing cross-platform and mobile apps. This article focuses on the Windows version of Visual Studio 2017.
+
+There are three editions of Visual Studio 2017: Community, Professional, and Enterprise. See [Compare Visual Studio 2017 IDEs](https://visualstudio.microsoft.com/vs/compare/) to learn about which features are supported in each edition.
+
+## Popular productivity features
 
 Some of the popular features in Visual Studio that help you to be more productive as you develop software include:
 
@@ -102,6 +88,16 @@ Some of the popular features in Visual Studio that help you to be more productiv
    The **Peek Definition** window shows the definition of a method or type without actually opening a separate file.
 
    ![Peek to Definition](../ide/media/peek-definition.png)
+
+## Install the Visual Studio IDE
+
+This overview article walks you through creating a simple project and trying some of the things you can do with Visual Studio, like using [IntelliSense](../ide/using-intellisense.md) as a coding aid, debugging an app to see the value of a variable during the program's execution, and changing the color theme. To get started, [download Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) and install it on your system.
+
+The modular installer enables you to choose and install *workloads*, which are groups of features needed for the programming language or platform you prefer. To follow the steps for [creating a program](#create-a-program), be sure to select the **.NET Core cross-platform development** workload during installation.
+
+![.NET Core cross-platform development workload in Visual Studio Installer](../ide/media/dotnet-core-cross-platform-workload.png)
+
+When you start Visual Studio for the first time, you can optionally [sign in](../ide/signing-in-to-visual-studio.md) using your Microsoft account, or your work or school account.
 
 ## Create a program
 
@@ -179,7 +175,7 @@ Let's dive in and create a simple program.
 
 ## Use refactoring and IntelliSense
 
-Let's look at a couple of the ways that [refactoring](refactoring-in-visual-studio.md) and [IntelliSense](using-intellisense.md) can help you code more efficiently.
+Let's look at a couple of the ways that [refactoring](../ide/refactoring-in-visual-studio.md) and [IntelliSense](../ide/using-intellisense.md) can help you code more efficiently.
 
 First, let's rename the `name` variable:
 
@@ -189,7 +185,7 @@ First, let's rename the `name` variable:
 
    Notice that a gray box appears around the variable, and a light bulb appears in the margin.
 
-3. Select the light bulb icon to show the available [Quick Actions](quick-actions.md). Select **Rename 'name' to 'username'**.
+3. Select the light bulb icon to show the available [Quick Actions](../ide/quick-actions.md). Select **Rename 'name' to 'username'**.
 
    ![Rename action in Visual Studio](../ide/media/rename-quick-action.png)
 
@@ -221,7 +217,7 @@ First, let's rename the `name` variable:
 
    Notice that a little screwdriver icon appears in the margin on that line.
 
-8. Click the screwdriver icon to see what suggestions Visual Studio has available. In this case, it's showing the [Inline temporary variable](reference/inline-temporary-variable.md) refactoring to remove a line of code without changing the overall behavior:
+8. Click the screwdriver icon to see what suggestions Visual Studio has available. In this case, it's showing the [Inline temporary variable](../ide/reference/inline-temporary-variable.md) refactoring to remove a line of code without changing the overall behavior:
 
    ![Inline temporary variable refactoring in Visual Studio](../ide/media/inline-temporary-variable-refactoring.png)
 

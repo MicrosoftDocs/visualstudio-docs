@@ -1,5 +1,5 @@
 ---
-title: Overview of Visual Studio 2017 for Visual Basic
+title: Overview for Visual Basic developers
 ms.date: 11/15/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
