@@ -93,6 +93,27 @@
       items:
       - name: Visual Studio workload and component IDs
         href: install/workload-and-component-ids.md
+        items:
+        - name: Visual Studio Enterprise 2017
+          href: install/workload-component-id-vs-enterprise.md
+        - name: Visual Studio Professional 2017
+          href: install/workload-component-id-vs-professional.md
+        - name: Visual Studio Community 2017
+          href: install/workload-component-id-vs-community.md
+        - name: Visual Studio Team Explorer 2017
+          href: install/workload-component-id-vs-team-explorer.md
+        - name: Visual Studio Desktop Express 2017
+          href: install/workload-component-id-vs-express.md
+        - name: Visual Studio Build Tools 2017
+          href: install/workload-component-id-vs-build-tools.md
+        - name: Visual Studio Test Agent 2017
+          href: install/workload-component-id-vs-test-agent.md
+        - name: Visual Studio Test Controller 2017
+          href: install/workload-component-id-vs-test-controller.md
+        - name: Visual Studio Test Professional 2017
+          href: install/workload-component-id-vs-test-professional.md          
+        - name: Visual Studio Feedback Client 2017
+          href: install/workload-component-id-vs-feedback-client.md                       
       - name: Visual Studio build numbers and release dates
         href: install/visual-studio-build-numbers-and-release-dates.md
   - name: Use Visual Studio from an Azure virtual machine
@@ -1082,12 +1103,12 @@
       href: /visualstudio/productinfo/vs-servicing-vs?context=visualstudio/default&contextView=vs-2017
     - name: Developer Community data privacy
       href: ide/developer-community-privacy.md
-    - name: How to report a problem in Visual Studio
-      href: ide/how-to-report-a-problem-with-visual-studio-2017.md
-    - name: Understanding Report a problem
-      href: ide/report-a-problem.md
-    - name: Understanding Suggest a feature
-      href: ide/suggest-a-feature.md
+  - name: How to report a problem in Visual Studio
+    href: ide/how-to-report-a-problem-with-visual-studio-2017.md
+  - name: "Overview: Report a problem"
+    href: ide/report-a-problem.md
+  - name: "Overview: Suggest a feature"
+    href: ide/suggest-a-feature.md
   - name: Customer Experience Improvement Program
     href: ide/visual-studio-experience-improvement-program.md
     items:
