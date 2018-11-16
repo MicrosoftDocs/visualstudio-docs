@@ -53,7 +53,7 @@ After you report a problem, states indicate where your submissions are in their 
 
 ![Fixed - Pending Release state for problem reporting on Developer Community](../ide/media/ProblemStates/FixedPendingRelease.jpg)
 
-**Fixed - Pending Release** indicates that we've released a fix for the problem and it will be available in an upcoming preview or release.  When the fix becomes available in a preview, the problem is tagged with a 'fixed in' tag specifying the preview version.
+**Fixed - Pending Release** indicates that we have a fix for the problem and it will be available in an upcoming preview or release.  When the fix becomes available in a preview, the problem is tagged with a 'fixed in' tag specifying the preview version.
 
 - - -
 
@@ -83,7 +83,7 @@ After you report a problem, states indicate where your submissions are in their 
 
 ![Closed - Not Enough Info state for problem reporting on Developer Community](../ide/media/ProblemStates/ClosedNotEnoughInfo.jpg)
 
-**Closed - Not Enough Info** indicates that we don't have enough information to investigate this for you. We'll be happy to reconsider the feedback once the necessary information is available.
+**Closed - Not Enough Info** indicates that we don't have enough information to investigate this for you. We'll be happy to reconsider the feedback after the necessary information is available.
 
 - - -
 
