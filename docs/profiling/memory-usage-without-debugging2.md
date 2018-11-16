@@ -145,7 +145,7 @@ The **Referenced Types** or **Referenced Objects** tree shows the objects that t
   
 ![Referenced Objects tree for instances](../profiling/media/memuse_snapshotdetails_referencedobjects_instance.png "Referenced Objects tree for instances")  
   
-The **Referenced Types** or **Referenced Objects** tree in a snapshot details report has the following columns. A **Referenced Objects** tree does not have the **Reference Count** column.
+A **Referenced Types** tree in a snapshot details report has the following columns. A **Referenced Objects** tree does not have the **Reference Count** column.
 
 |||  
 |-|-|  
@@ -196,7 +196,7 @@ The **Referenced Types** or **Referenced Objects** tree shows the objects that t
 
 ![Referenced Types in a diff report](../profiling/media/memuse_snapshotdiff_referencedtypes.png "Referenced Types in a diff report")  
 
-The **Referenced Types** tree in a snapshot diff report has the following columns. A **Referenced Objects** tree has the **Instance**, **Size (Bytes)**, **Inclusive Size (Bytes)**, and **Module** columns.
+A **Referenced Types** tree in a snapshot diff report has the following columns. A **Referenced Objects** tree has the **Instance**, **Size (Bytes)**, **Inclusive Size (Bytes)**, and **Module** columns.
 
 |||  
 |-|-|  
