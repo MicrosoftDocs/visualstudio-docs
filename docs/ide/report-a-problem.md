@@ -13,9 +13,9 @@ ms.workload:
 ---
 # Overview: Report a Problem
 
-The Report a Problem tool enables the Visual Studio developer community to submit issues.  Each one of your problem reports becomes a work item in our core engineering system, empowering you to engage directly with our product teams to help us identify and resolve impactful issues. Your feedback submitted with rich diagnostic information is critical to improving the Visual Studio product family.  We really appreciate you taking the time to report problems.
+The Report a Problem tool enables the Visual Studio developer community to submit issues. Each one of your problem reports becomes a work item in our core engineering system, empowering you to engage directly with our product teams to help us identify and resolve impactful issues. Your feedback submitted with rich diagnostic information is critical to improving the Visual Studio product family. We really appreciate you taking the time to report problems.
 
-In addition, vote on feedback from other community members to bring  more attention and help fix it faster.
+In addition, you can vote on feedback from other community members to bring more attention to a problem and help fix it faster.
 
 ## Problem status
 
@@ -127,4 +127,4 @@ Microsoft engineering teams will communicate with you by commenting on the feedb
 
 Reporting a problem through Visual Studio allows for diagnostic information to automatically be included in the report. It's essential information that gives our engineers the context they need to fully understand your issue and work to resolve it.
 
-When you report through Visual Studio, you can easily share more diagnostic information with us, such as large log files, crash information, screenshots, repro recording, and other artifacts that help us deliver higher-quality resolutions faster to you.
+When you report through Visual Studio, you can easily share rich diagnostic information with us, such as large log files, crash information, screenshots, repro recording, and other artifacts that help us deliver higher-quality resolutions faster to you.

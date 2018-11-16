@@ -88,7 +88,7 @@ Found the information we were looking for? You may request to reactivate the tic
 
 ![Completed - Release state for suggestions on Developer Community](../ide/media/SuggestStates/CompletedRelease.jpg)
 
-**Completed - Release** indicates that your new feature suggestion has been released in the latest product update. The Visual Studio update can be downloaded using the link provided in the comments. 
+**Completed - Release** indicates that your new feature suggestion has been released in the latest product update. The Visual Studio update can be downloaded using the link provided in the comments.
 
 - - -
 
