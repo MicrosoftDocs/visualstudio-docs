@@ -52,6 +52,6 @@ Devenv.exe /ResetSettings "C:\My Files\MySettings.vssettings"
 
 ## See also
 
-- [Reset settings](../ide/synchronized-settings-in-visual-studio.md#reset-settings)
+- [Reset settings](../synchronized-settings-in-visual-studio.md#reset-settings)
 - [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md)
 - [Devenv command-line switches](../../ide/reference/devenv-command-line-switches.md)
