@@ -115,13 +115,13 @@ You can personalize the Visual Studio user interface, including change the defau
 
 Next we'll configure Visual Studio to use environment settings tailored to Visual Basic developers.
 
-1. On the menu bar, choose **Tools* > **Import and Export Settings**.
+1. On the menu bar, choose **Tools** > **Import and Export Settings**.
 
 2. In the **Import and Export Settings Wizard**, select **Reset all settings** on the first page, and then choose **Next**.
 
 3. On the **Save Current Settings** page, select an option to save your current settings or not, and then choose **Next**. (If you haven't customized any settings, select **No, just reset settings, overwriting my current settings**.)
 
-4. On the **Choose a Default Collection of Settings** page, choose **Visual Basic** and then choose **Finish**.
+4. On the **Choose a Default Collection of Settings** page, choose **Visual Basic**, and then choose **Finish**.
 
 5. On the **Reset Complete** page, choose **Close**.
 
@@ -171,7 +171,7 @@ Let's dive in and create a simple program.
 
    This code displays **What is your name?** in the console window, and then waits until the user enters some text followed by the **Enter** key.
 
-6. Change the line that says `Console.WriteLine("Hello World!");` to the following code:
+6. Change the line that says `Console.WriteLine("Hello World!")` to the following code:
 
    ```vb
    Console.WriteLine("Hello " + name + "!")
@@ -219,7 +219,7 @@ First, let's rename the `name` variable:
 
 5. Select the member named **Now**, which is a property of the class, by double-clicking on it or selecting it using the up or down arrow keys and then pressing **Tab**.
 
-6. Below that, type in or copy the following lines of code:
+6. Below that, type in or paste the following lines of code:
 
    ```vb
    Dim dayOfYear = now.DayOfYear
@@ -234,7 +234,7 @@ First, let's rename the `name` variable:
 
    Notice that a little screwdriver icon appears in the margin on that line.
 
-8. Click the screwdriver icon to see what suggestions Visual Studio has available. In this case, it's showing the [Inline temporary variable](../ide/reference/inline-temporary-variable.md) refactoring to remove a line of code without changing the overall behavior:
+8. Click the screwdriver icon to see what suggestions Visual Studio has available. In this case, it's showing the [Inline temporary variable](../ide/reference/inline-temporary-variable.md) refactoring to remove a line of code without changing the overall behavior of the code:
 
    ![Inline temporary variable refactoring in Visual Studio](media/inline-temporary-variable-refactoring.png)
 
@@ -242,7 +242,7 @@ First, let's rename the `name` variable:
 
 10. Run the program again by pressing **Ctrl**+**F5**. The output looks something like this:
 
-   ![Console window with program output](media/overview-console-final.png)
+    ![Console window with program output](media/overview-console-final.png)
 
 ## Debug code
 
@@ -260,7 +260,7 @@ Let's set a breakpoint to see the value of the `username` variable while the pro
 
 1. When the console window appears and asks for your name, type it in and press **Enter**.
 
-   Notice that the focus returns to the Visual Studio code editor and the line of code with the breakpoint is highlighted in yellow. This signifies that it's the next line of code that the program will execute.
+   The focus returns to the Visual Studio code editor and the line of code with the breakpoint is highlighted in yellow. This signifies that it's the next line of code that the program will execute.
 
 1. Hover your mouse over the `username` variable to see its value. Alternatively, you can right-click on `username` and select **Add Watch** to add the variable to the **Watch** window, where you can also see its value.
 
@@ -275,7 +275,7 @@ To get more details about debugging in Visual Studio, see [Debugger feature tour
 Explore Visual Studio further by following along with one of these introductory articles:
 
 > [!div class="nextstepaction"]
-> [Learn to use the code editor](../ide/quickstart-editor.md)
+> [Learn to use the code editor](../ide/quickstart-editor.md?toc=/visualstudio/visual-basic/toc.json&bc=/visualstudio/visual-basic/breadcrumb/toc.json)
 
 > [!div class="nextstepaction"]
 > [Learn about projects and solutions](quickstart-projects-solutions.md)

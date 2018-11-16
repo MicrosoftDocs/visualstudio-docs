@@ -103,7 +103,7 @@ When you start Visual Studio for the first time, you can optionally [sign in](..
 
 First, we'll configure Visual Studio to use environment settings tailored to C# developers.
 
-1. On the menu bar, choose **Tools* > **Import and Export Settings**.
+1. On the menu bar, choose **Tools** > **Import and Export Settings**.
 
 2. In the **Import and Export Settings Wizard**, select **Reset all settings** on the first page, and then choose **Next**.
 
@@ -193,15 +193,15 @@ First, let's rename the `name` variable:
 
    ![Animated gif showing rename refactoring in Visual Studio](../ide/media/rename-refactoring.gif)
 
-4. Now let's take a look at IntelliSense. Below the line that says `Console.WriteLine($"\nHello {username}!");`, type **DateTime now = DateTime.**.
+4. Now let's take a look at IntelliSense. Below the line that says `Console.WriteLine($"\nHello {username}!");`, type `DateTime now = DateTime.`.
 
    A box displays the members of the <xref:System.DateTime> class. In addition, the description of the currently selected member displays in a separate box.
 
    ![IntelliSense list members in Visual Studio](../ide/media/intellisense-list-members.png)
 
-5. Select the member named **Now**, which is a property of the class, by double-clicking on it or pressing **Tab**. Complete the line of code by adding a semi-colon **;**.
+5. Select the member named **Now**, which is a property of the class, by double-clicking on it or pressing **Tab**. Complete the line of code by adding a semi-colon to the end.
 
-6. Below that, type in or copy the following lines of code:
+6. Below that, type in or paste the following lines of code:
 
    ```csharp
    int dayOfYear = now.DayOfYear;
@@ -217,7 +217,7 @@ First, let's rename the `name` variable:
 
    Notice that a little screwdriver icon appears in the margin on that line.
 
-8. Click the screwdriver icon to see what suggestions Visual Studio has available. In this case, it's showing the [Inline temporary variable](../ide/reference/inline-temporary-variable.md) refactoring to remove a line of code without changing the overall behavior:
+8. Click the screwdriver icon to see what suggestions Visual Studio has available. In this case, it's showing the [Inline temporary variable](../ide/reference/inline-temporary-variable.md) refactoring to remove a line of code without changing the overall behavior of the code:
 
    ![Inline temporary variable refactoring in Visual Studio](../ide/media/inline-temporary-variable-refactoring.png)
 
@@ -243,7 +243,7 @@ Let's set a breakpoint to see the value of the `username` variable while the pro
 
 1. When the console window appears and asks for your name, type it in and press **Enter**.
 
-   Notice that the focus returns to the Visual Studio code editor and the line of code with the breakpoint is highlighted in yellow. This signifies that it's the next line of code that the program will execute.
+   The focus returns to the Visual Studio code editor and the line of code with the breakpoint is highlighted in yellow. This signifies that it's the next line of code that the program will execute.
 
 1. Hover your mouse over the `username` variable to see its value. Alternatively, you can right-click on `username` and select **Add Watch** to add the variable to the **Watch** window, where you can also see its value.
 
@@ -263,7 +263,7 @@ You can personalize the Visual Studio user interface, including change the defau
 
    The color theme for the entire IDE changes to **Dark**.
 
-   ![Visual Studio in dark theme])../ide/media/quickstart-personalize-dark-theme.png)
+   ![Visual Studio in dark theme](../ide/media/quickstart-personalize-dark-theme.png)
 
 To learn about other ways you can personalize the IDE, see [Personalize Visual Studio](../ide/personalizing-the-visual-studio-ide.md).
 
@@ -272,7 +272,7 @@ To learn about other ways you can personalize the IDE, see [Personalize Visual S
 Explore Visual Studio further by following along with one of these introductory articles:
 
 > [!div class="nextstepaction"]
-> [Learn to use the code editor](../ide/quickstart-editor.md)
+> [Learn to use the code editor](../ide/quickstart-editor.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json)
 
 > [!div class="nextstepaction"]
 > [Learn about projects and solutions](quickstart-projects-solutions.md)
