@@ -160,7 +160,7 @@ The Visual Studio debugger helps you observe the run-time behavior of your progr
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Beginner's guide</h3>
+                        <h3>Absolute beginner's guide</h3>
                     </div>
                 </div>
             </div>
