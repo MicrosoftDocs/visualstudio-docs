@@ -4,7 +4,6 @@ description: "Provides an overview of the Report a Problem tool, and includes pr
 ms.date: 11/15/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-acquisition
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: seaniyer
 ms.author: seiyer
