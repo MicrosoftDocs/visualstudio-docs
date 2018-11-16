@@ -13,7 +13,7 @@ If you experience a problem with Visual Studio for Mac, we want to know about it
 
 ## How to report a problem
 
-To report a problem for Visual Studio for Mac, the best option is to initiate the report from Visual Studio for Mac. Reporting through Visual Studio allows for diagnostic information to be automatically included in the report. If you can't use Visual Studio for Mac (due to a crash, for example), you can report the issue directly on the [Developer Community](https://developercommunity.visualstudio.com/content/problem/post.html?space=41) site.
+To report a problem for Visual Studio for Mac, the best option is to initiate the report from Visual Studio for Mac. Reporting through Visual Studio for Mac allows for diagnostic information to be automatically included in the report. If you can't use Visual Studio for Mac (due to a crash, for example), you can report the issue directly on the [Developer Community](https://developercommunity.visualstudio.com/content/problem/post.html?space=41) site.
 
 To report a problem with Visual Studio for Mac, select **Help > Report a Problem** from the menu bar:
 
