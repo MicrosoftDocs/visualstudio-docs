@@ -10,7 +10,7 @@ manager: douge
 dev_langs:
  - VB
 ms.workload:
-  - "multiple"
+  - "dotnet"
 ---
 # Learn about projects and solutions using Visual Basic
 
