@@ -1,26 +1,26 @@
 ---
-title: "Understanding Report a Problem in Visual Studio"
-description: "Provides and overview of Report a Problem, problem states and defintions"
-ms.date: 11/12/2018
+title: "Overview: Report a Problem in Visual Studio"
+description: "Provides an overview of the Report a Problem tool, and includes problem states and definitions"
+ms.date: 11/15/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
-author: Seiyer
+author: seaniyer
 ms.author: seiyer
-manager: DougE
+manager: douge
 ms.workload:
   - "multiple"
 ---
-# Understanding Report a Problem
+# Overview: Report a Problem
 
-Report a problem enables the Visual Studio developer community to submit issues.  Each one of your problem reports becomes a work item in our core engineering system, empowering you to engage directly with our product teams to help us identify and resolve impactful issues. Your feedback submitted with rich diagnostic information is critical to improving the Visual Studio product family.  We really appreciate you taking the time to report problems.
+The Report a Problem tool enables the Visual Studio developer community to submit issues.  Each one of your problem reports becomes a work item in our core engineering system, empowering you to engage directly with our product teams to help us identify and resolve impactful issues. Your feedback submitted with rich diagnostic information is critical to improving the Visual Studio product family.  We really appreciate you taking the time to report problems.
 
 In addition, vote on feedback from other community members to bring  more attention and help fix it faster.
 
 ## Problem status
 
-After you report a problem, states indicate where your submissions are in their lifecycle. As Microsoft teams review your feedback, they set it with an appropriate state.  Track the progress of your problem reports by referencing the states listed below, along with their meaning and color indicators.
+After you report a problem, states indicate where your submissions are in their lifecycle. As Microsoft teams review your feedback, they set it with an appropriate state.  Track the progress of your problem reports by referencing the following states listed below, along with their meaning and color indicators.
 
 ![New state for problem reporting on Developer Community](../ide/media/ProblemStates/New.jpg)
 
@@ -49,8 +49,6 @@ After you report a problem, states indicate where your submissions are in their 
 ![Need More Info state for problem reporting on Developer Community](../ide/media/ProblemStates/NeedMoreInfo.jpg)
 
 **Need More Info** indicates that we need more diagnostic information from you so that we can go forward with the investigation.  [Learn how to respond to Need More Info requests.](./how-to-report-a-problem-with-visual-studio-2017.md#when-further-information-is-needed-need-more-info)
-
-
 
 - - -
 
@@ -128,6 +126,6 @@ Microsoft engineering teams will communicate with you by commenting on the feedb
 
 ### Why can't I add a problem for Visual Studio IDE on the Developer Community website?
 
-Reporting a problem through Visual Studio allows for diagnostic information to automatically be included in the report. It is essential to give our engineers the context they need to fully understand your issue and work to resolve it. 
+Reporting a problem through Visual Studio allows for diagnostic information to automatically be included in the report. It is essential to give our engineers the context they need to fully understand your issue and work to resolve it.
 
 When you report through Visual Studio, you're able to easily share  rich diagnostic information including large log files, crash information, screenshots, repro recording, and other artifacts that help us deliver higher-quality resolutions faster to you.
