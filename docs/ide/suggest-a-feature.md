@@ -44,13 +44,13 @@ The various states associated with feature suggestions are listed below, along w
 
 **Under Review** indicates that the feature suggestion has been queued up for prioritization. We prioritize features to bring our broader developer community the best value, also taking the product roadmap into consideration.
 
-Even if we are unable to pursue your new feature suggestion immediately, we'll continue to monitor your idea for about 90 days, let the community weigh in, and then make a decision on the next steps.
+Even if we're unable to pursue your new feature suggestion immediately, we'll continue to monitor your idea for about 90 days, let the community weigh in, and then make a decision on the next steps.
 
 - - -
 
 ![On Roadmap state for suggestions on Developer Community](../ide/media/SuggestStates/OnRoadmap.jpg)
 
-**On Roadmap** means that your feature suggestion has a broad community impact and will help improve the product experience. We have allocated time for it on our roadmap. We'll update you on the progress.
+**On Roadmap** means that your feature suggestion has a broad community impact and will help improve the product experience. We've allocated time for it on our roadmap. We'll update you on the progress.
 
 - - -
 
@@ -62,7 +62,7 @@ A feature suggestion marked **Need More Info** means that we need more details s
 
 ![Closed - Other Product state for suggestions on Developer Community](../ide/media/SuggestStates/ClosedOtherProduct.jpg)
 
-**Closed - Other Product** means we are unable to address your feature suggestion at this time because it's not applicable to the product it was reported for. However, we'll provide details on where you can share your new feature suggestion for the appropriate product.
+**Closed - Other Product** means we're unable to address your feature suggestion at this time because it's not applicable to the product it was reported for. However, we'll provide details on where you can share your new feature suggestion for the appropriate product.
 
 - - -
 
@@ -74,7 +74,7 @@ A feature suggestion marked **Need More Info** means that we need more details s
 
 ![Closed - Not Enough Info state for suggestions on Developer Community](../ide/media/SuggestStates/ClosedNotEnoughInfo.jpg) 
 
-**Closed - Not Enough Info** indicates that after several attempts, we haven’t received enough information to understand your feature suggestion fully. We have to close the new feature suggestion as we are unable to take any further action at this stage.
+**Closed - Not Enough Info** indicates that after several attempts, we haven’t received enough information to understand your feature suggestion fully. We must close the new feature suggestion as we're unable to take any further action at this stage.
 
 Found the information we were looking for? You may request to reactivate the ticket when you have the additional information.
 
@@ -96,7 +96,7 @@ Found the information we were looking for? You may request to reactivate the tic
 
 ### Why can’t I see my User Voice idea in Developer Community?
 
-New feature suggestions from the old User Voice forum have been migrated to Developer Community based on the impact to the broader community and our product road map priorities. If you think we have missed migrating your suggestion, add it as a new suggestion to Developer Community.
+New feature suggestions from the old User Voice forum have been migrated to Developer Community based on the impact to the broader community and our product road map priorities. If you think we've missed migrating your suggestion, add it as a new suggestion to Developer Community.
 
 ### Why have the votes not been carried over from User Voice?
 
@@ -104,7 +104,7 @@ The voting system in User Voice operates differently from the voting system in D
 
 ### Where can I see comments associated with the suggestions imported from User Voice?
 
-Follow the link we have included to go back to the User Voice comments on a suggestion that has been migrated to Developer Community. This link will be available during the transition period for easy reference if you need more context.
+Follow the link we've included to go back to the User Voice comments on a suggestion that has been migrated to Developer Community. This link will be available during the transition period for easy reference if you need more context.
 
 ### Why can I see three vote counts for a suggestion?
 
@@ -114,6 +114,6 @@ The voting system in User Voice operates differently from the votes in Developer
 
 ### How long can I expect actions to take?
 
-We are fully committed to listening to your feature suggestions and taking actions to provide valuable experiences to our customers. Actions on suggestions are prioritized based on impact to the broader community. Even if we are not able to respond personally to every suggestion, please be assured that your feedback gets to the right team and is evaluated carefully.
+We're fully committed to listening to your feature suggestions and taking actions to provide valuable experiences to our customers. Actions on suggestions are prioritized based on impact to the broader community. Even if we can't respond personally to every suggestion, we make sure that your feedback gets to the right team and is evaluated carefully.
 
 The response time depends on the status your feedback is in. Please review the explanation of statuses in this document to understand the response times.
