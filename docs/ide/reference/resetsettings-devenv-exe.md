@@ -22,7 +22,7 @@ Restores Visual Studio default settings and automatically launches the Visual St
 The default settings are determined by the profile that was selected when Visual Studio was first launched.
 
 > [!TIP]
-> To learn how to reset settings using the integrated development environment (IDE), see [Reset settings](../ide/synchronized-settings-in-visual-studio.md#reset-settings).
+> To learn how to reset settings using the integrated development environment (IDE), see [Reset settings](../synchronized-settings-in-visual-studio.md#reset-settings).
 
 ## Syntax
 
