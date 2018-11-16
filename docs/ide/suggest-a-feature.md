@@ -114,6 +114,6 @@ The voting system in User Voice operates differently from the votes in Developer
 
 ### How long can I expect actions to take?
 
-We're fully committed to listening to your feature suggestions and taking actions to provide valuable experiences to our customers. Actions on suggestions are prioritized based on impact to the broader community. Even if we can't respond personally to every suggestion, we'll sure that your feedback gets to the right team and is evaluated carefully.
+We're fully committed to listening to your feature suggestions and taking actions to provide valuable experiences to our customers. Actions on suggestions are prioritized based on impact to the broader community. Even if we can't respond personally to every suggestion, we'll make sure that your feedback gets to the right team and is evaluated carefully.
 
 The response time depends on the status your feedback is in. Please review the explanation of statuses in this document to understand the response times.
