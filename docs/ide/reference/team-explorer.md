@@ -37,8 +37,8 @@ The Git and TFVC repos support different pages and functions. For a comparison o
 
 ## Home
 
-- [Web portal](/azure/devops/project/navigation/index)
-- [Task board](/azure/devops/boards/sprints/task-board)
+- [Web Portal](/azure/devops/project/navigation/index)
+- [Task Board](/azure/devops/boards/sprints/task-board)
 
 ## Git
 
@@ -88,41 +88,6 @@ The Git and TFVC repos support different pages and functions. For a comparison o
 
 From the **Settings** page, you can configure administrative features for either a project or project collection. To learn more about each page, see the following articles. Most of the links open to a web portal administration page.
 
-<table width="100%">
-<tbody valign="top">
-<tr>
-<th width="33%">Project</th>
-<th width="34%">Project Collection</th>
-<th width="33%">Other</th>
-</tr>
-
-<tr>
-<td>
-<ul>
-<li>[Security, Group Membership](/azure/devops/organizations/security/set-project-collection-level-permissions)</li>
-<li>[Security, Source Control (TFVC)](/azure/devops/organizations/security/set-git-tfvc-repository-permissions)</li>
-<li>[Work Item Areas](/azure/devops/organizations/settings/set-area-paths)</li>
-<li>[Work Item Iterations](/azure/devops/organizations/settings/set-iteration-paths-sprints.)</li>
-<li>[Portal Settings](/azure/devops/report/sharepoint-dashboards/configure-or-add-a-project-portal)</li>
-<li>[Project Alerts](/azure/devops/notifications/howto-manage-team-notifications)</li>
-</ul>
-</td>
-
-<td>
-<ul>
-<li>[Security, Group Membership](/azure/devops/organizations/security/set-project-collection-level-permissions)</li>
-<li>[Source Control (TFVC)](/azure/devops/repos/tfvc/decide-between-using-local-server-workspace)</li>
-<li>[Process Template Manager](/azure/devops/boards/work-items/guidance/manage-process-templates)</li>
-</ul>
-</td>
-
-<td>
-<ul>
-<li>[Git Global Settings](/azure/devops/repos/git/git-config)</li>
-<li>[Git Repository Settings](/azure/devops/repos/git/git-config)</li>
-</ul>
-</td>
-
-</tr>
-</tbody>
-</table>
+| Project | Project Collection | Other |
+| - | - | - |
+| [Security, Group Membership](/azure/devops/organizations/security/set-project-collection-level-permissions)<br/>[Security, Source Control (TFVC)](/azure/devops/organizations/security/set-git-tfvc-repository-permissions)<br/>[Work Item Areas](/azure/devops/organizations/settings/set-area-paths)<br/>[Work Item Iterations](/azure/devops/organizations/settings/set-iteration-paths-sprints.)<br/>[Portal Settings](/azure/devops/report/sharepoint-dashboards/configure-or-add-a-project-portal)<br/>[Project Alerts](/azure/devops/notifications/howto-manage-team-notifications) | [Security, Group Membership](/azure/devops/organizations/security/set-project-collection-level-permissions)<br/>[Source Control (TFVC)](/azure/devops/repos/tfvc/decide-between-using-local-server-workspace)<br/>[Process Template Manager](/azure/devops/boards/work-items/guidance/manage-process-templates) | [Git Global Settings](/azure/devops/repos/git/git-config)<br/>[Git Repository Settings](/azure/devops/repos/git/git-config) |
