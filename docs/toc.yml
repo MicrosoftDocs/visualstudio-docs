@@ -111,9 +111,9 @@
         - name: Visual Studio Test Controller 2017
           href: install/workload-component-id-vs-test-controller.md
         - name: Visual Studio Test Professional 2017
-          href: install/workload-component-id-vs-test-professional.md          
+          href: install/workload-component-id-vs-test-professional.md
         - name: Visual Studio Feedback Client 2017
-          href: install/workload-component-id-vs-feedback-client.md                       
+          href: install/workload-component-id-vs-feedback-client.md
       - name: Visual Studio build numbers and release dates
         href: install/visual-studio-build-numbers-and-release-dates.md
   - name: Use Visual Studio from an Azure virtual machine
@@ -906,6 +906,8 @@
       href: ide/reference/property-pages-javascript.md
     - name: Properties Window
       href: ide/reference/properties-window.md
+    - name: Team Explorer
+      href: ide/reference/team-explorer.md
     - name: Toolbox
       href: ide/reference/toolbox.md
       items:
