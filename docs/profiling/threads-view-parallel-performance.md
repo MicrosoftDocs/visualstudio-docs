@@ -17,7 +17,7 @@ ms.workload:
 ---
 # Threads view in the Concurrency Visualizer
 
-**Threads** view is the most detailed and feature-rich view in the Concurrency Visualizer. Using this view, you can identify whether threads are executing or blocking because of synchronization, I/O, or some other reason.  
+**Threads** view is the most detailed and feature-rich view in the Concurrency Visualizer. Use this view to identify whether threads are executing or blocking because of synchronization, I/O, or other reasons.  
   
 While threads are executing, the Concurrency Visualizer collects samples. 
 
@@ -27,13 +27,13 @@ When an app has stopped executing, the Concurrency Visualizer examines all opera
 - The quantum of a thread expires.  
 - A thread makes a blocking I/O request.  
   
-During profile analysis, Concurrency Visualizer categorizes context-switch events by searching the call stack of the thread for well-known blocking APIs. It displays the categories in the lower-left part of the **Threads** view. 
+Concurrency Visualizer categorizes context-switch events and searches the call stacks of threads for well-known blocking APIs. Categories appear in the active legend at the lower-left in the **Threads** view. 
 
 If there's no call stack match, Concurrency Visualizer uses the wait reason provided by [!INCLUDE[TLA#tla_mswin](../code-quality/includes/tlasharptla_mswin_md.md)]. However, the [!INCLUDE[TLA#tla_mswin](../code-quality/includes/tlasharptla_mswin_md.md)] category may be based on an implementation detail, and may not reflect user intent. For example, [!INCLUDE[TLA#tla_mswin](../code-quality/includes/tlasharptla_mswin_md.md)] reports the wait reason for blocking on a native slim reader-writer lock as I/O instead of Synchronization. In most cases, you can identify the root cause of a blocking event by examining the call stacks that correspond to context-switch events.  
   
 In the **Threads** view, you can analyze which code is executed by one or more threads during an execution segment. You can also examine blocking reports, and reports that profile call-stack tree execution.  
   
-**Threads** view also shows dependencies between threads. For example, if you identify a thread that's blocked on a synchronization object, you can look for the thread that unblocked it, and you can examine the activity on the call stack for that thread at the point when it unblocked the other one.  
+**Threads** view also shows dependencies between threads. For example, if you identify a thread that's blocked on a synchronization object, you can find the thread that unblocked it. You can examine the call stack for the unblocking thread at the point when it unblocked the other one.  
 
 You can use **Threads** view to:  
 
@@ -74,7 +74,7 @@ The timeline colors indicate the state of a thread at a given time. Green segmen
   
 If only one thread is executing at a point in time, the app may not be taking full advantage of the concurrency on the system. You can use the timeline graph to examine dependencies between threads, and the temporal relationships between blocking and blocked threads. To rearrange threads, select a thread, and then select the up or down icon on the toolbar. 
 
-You can hide threads that that are not doing work or are completely blocked, because their statistics are irrelevant and can clog the reports. Hide threads by selecting their names and then selecting the **Hide selected threads** or **Hide all except selected threads** icons on the toolbar. To identify threads to hide, select **Per Thread Summary** at lower left of the report, and hide the threads that have no activity. 
+You can hide threads that that are not doing work or are completely blocked, because their statistics are irrelevant and can clog the reports. Hide threads by selecting their names and then selecting the **Hide selected threads** or **Hide all except selected threads** icons on the toolbar. To identify threads to hide, use the **Per Thread Summary** link. Hide the threads that have no activity in the graph. 
 
 ### Thread execution details  
 To get more detailed information about an execution segment, select a point on a green segment of the timeline. The Concurrency Visualizer displays a black caret above the selected point, and shows its call stack on the **Current** tab of the bottom pane. You can select multiple points on the execution segment.  
@@ -106,7 +106,7 @@ The **Profile Report** tab shows reports that correspond to the entries in the l
 - **Execution**  
   The **Execution** report shows the breakdown of the time the application spent in execution.  
   
-  To find the line of code in which execution time is spent, expand the call tree and then, on the shortcut menu for the call tree entry, choose **View Source** or **View Call Sites**. **View Source** locates the executed line of code. **View Call Sites** locates the line of code that called the executed line of code. If only one call site exists, its line of code is highlighted. If several call sites exist, you can select the one you want in the dialog box that appears, and then choose the **Go to source** button to highlight the call site code. It's often most useful to locate the call site that has the most instances, the most time, or both. For more information, see [Execution profile report](../profiling/execution-profile-report.md).  
+  To find the line of code in which execution time is spent, expand the call tree and on the shortcut menu for the call tree entry, select **View Source** or **View Call Sites**. **View Source** locates the executed line of code. **View Call Sites** locates the line of code that called the executed line. If only one call site line exists, its code is highlighted. If several call sites exist, select the one you want in the dialog box, and then select **Go to source**. It's often most useful to locate the call site that has the most instances, the most time, or both. For more information, see [Execution profile report](../profiling/execution-profile-report.md).  
   
 - **Synchronization**  
   The **Synchronization** report shows the calls that are responsible for synchronization blocks, along with the total blocking times of each call stack. For more information, see [Synchronization time](../profiling/synchronization-time.md).  
@@ -121,7 +121,7 @@ The **Profile Report** tab shows reports that correspond to the entries in the l
   The **Memory Management** report shows the calls where memory management blocks occurred, along with the total blocking times of each call stack. Use this information to identify areas that have excessive paging or garbage collection issues.  For more information, see [Memory management time](../profiling/memory-management-time.md).  
   
 - **Preemption**  
-  The **Preemption** report shows the instances where processes on the system preempted the current process, and individual threads that replaced threads in the current process. You can use this information to identify the processes and threads that are most responsible for preemption. For more information, see [Preemption time](../profiling/preemption-time.md).  
+  The **Preemption** report shows where processes on the system preempted the current process, and individual threads that replaced threads in the current process. You can use this information to identify the processes and threads that are most responsible for preemption. For more information, see [Preemption time](../profiling/preemption-time.md).  
   
 - **UI Pprocessing**  
   The **UI Processing** report shows the calls that are responsible for UI processing blocks, along with the total blocking times of each call stack. For more information, see [UI processing time](../profiling/ui-processing-time.md).  
@@ -132,7 +132,7 @@ The **Profile Report** tab shows reports that correspond to the entries in the l
   At some zoom levels, some threads might not show in the graph. When this happens, ellipses (**...**) appear at the right. If the thread you want does not appear, you can hide other threads. For more information, see [Per thread summary report](../profiling/per-thread-summary-report.md).  
   
 - **Disk Operations**  
-  Select *Disk Operations** to show which processes and threads were involved in disk I/O for the current process, which files they touched (for example, DLLs that were loaded), how many bytes were read, and other information. You can use this report to evaluate time that is spent in accessing files during execution, especially when your process seems to be I/O-bound. For more information, see [Disk operations report](../profiling/disk-operations-report-threads-view.md).  
+  Select **Disk Operations** to show processes and threads involved in disk I/O for the current process, files they touched (for example, DLLs they loaded), how many bytes were read, and other information. You can use this report to evaluate time spent accessing files during execution, especially when your process seems to be I/O-bound. For more information, see [Disk operations report](../profiling/disk-operations-report-threads-view.md).  
   
 ### Current tab  
 This tab shows the call stack for a selected point on a thread segment in the timeline graph. The call stacks are trimmed to show only activity that is related to your app.  
