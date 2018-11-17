@@ -2,7 +2,7 @@
 title: "Learn to debug multithreaded applications"
 description: Debug using the Parallel Stacks and Parallel Watch windows in Visual Studio
 ms.custom: "H1HackMay2017"
-ms.date: "11/15/2018"
+ms.date: "11/16/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
@@ -20,7 +20,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Get started debugging multithreaded applications in Visual Studio
+# Get started debugging multithreaded applications
 Visual Studio provides several tools and user interface elements to help you debug multithreaded applications. This tutorial shows how to use thread markers, the **Parallel Stacks** window, the **Parallel Watch** window, conditional breakpoints, and filter breakpoints. Completing this tutorial will familiarize you with Visual Studio features for debugging multithreaded applications.
 
 | | |
@@ -49,7 +49,7 @@ You'll first need a multithreaded application project. An example follows.
   
 5.  Select **OK**.  
   
-     A new console project appears. After the project has been created, a source file appears. Depending on the language you have chosen, the source file might be called Program.cs, MyThreadWalkthroughApp.cpp, or Module1.vb.  
+     A new console project appears. After the project has been created, a source file appears. Depending on the language you have chosen, the source file might be called *Program.cs*, *MyThreadWalkthroughApp.cpp*, or *Module1.vb*.  
   
 6.  Delete the code that appears in the source file and replace it with the appropriate example code listing below.
 
@@ -190,7 +190,7 @@ You'll first need a multithreaded application project. An example follows.
   
 7.  On the **File** menu, select **Save All**.  
   
-## Start debugging  
+## Debug the multithreaded app  
   
 1. In the source code editor, look for one of the following code snippets: 
   
@@ -217,36 +217,21 @@ You'll first need a multithreaded application project. An example follows.
   
     Visual Studio builds the solution, the app starts to run with the debugger attached, and then the app stops at the breakpoint.  
   
-   > [!NOTE]
-   > If you switch focus to the console window, click in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] window to return focus to [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
-  
-3. In the source code editor, locate the line that contains the breakpoint:  
-  
-   ```csharp  
-   Thread.Sleep(3000);  
-   ```  
-  
-   ```C++  
-   this_thread::sleep_for(chrono::seconds(3)); 
-   ```
-
-   ```VB
-   Thread.Sleep(3000)
-   ```    
+3. In the source code editor, locate the line that contains the breakpoint.
   
 ### <a name="ShowThreadsInSource"></a>Discover the thread marker  
 
-1.  In the Debug Toolbar, click the **Show Threads in Source** button ![Show Threads in Source](../debugger/media/dbg-multithreaded-show-threads.png "ThreadMarker").
+1.  In the Debug Toolbar, select the **Show Threads in Source** button ![Show Threads in Source](../debugger/media/dbg-multithreaded-show-threads.png "ThreadMarker").
 
 2. Press **F11** once to advance the debugger one line of code.
   
-3.  Look at the gutter on the left side of the window. On this line, you will see a *thread marker* icon  ![Thread Marker](../debugger/media/dbg-thread-marker.png "ThreadMarker") that resembles two cloth threads. The thread marker indicates that a thread is stopped at this location.
+3.  Look at the gutter on the left side of the window. On this line, you will see a *thread marker* icon  ![Thread Marker](../debugger/media/dbg-thread-marker.png "ThreadMarker") that resembles two twisted threads. The thread marker indicates that a thread is stopped at this location.
 
     A thread marker may be partially concealed by a breakpoint. 
   
 4.  Hover the pointer over the thread marker. A DataTip appears telling you the name and thread ID number for each stopped thread. In this case, the name is probably `<noname>`. 
   
-5.  Right-click the thread marker to see the available options on the shortcut menu.
+5.  Select the thread marker to see the available options on the shortcut menu.
     
 ### <a name="ParallelStacks"></a>View the thread locations
 
@@ -273,11 +258,11 @@ In the **Parallel Stacks** window, you can switch between a Threads view and (fo
 
 1. Open the **Parallel Watch** window by selecting **Debug** > **Windows** > **Parallel Watch** > **Parallel Watch 1**.
 
-2. Left-click in the cell where you see the `<Add Watch>` text (or the empty header cell in the 4th column) and enter `data`.
+2. Select the cell where you see the `<Add Watch>` text (or the empty header cell in the 4th column) and enter `data`.
 
     The values for the data variable for each thread appear in the window.
 
-3. Left-click again in the cell where you see the `<Add Watch>` text (or the empty header cell in the 5th column) and enter `count`.
+3. Select the cell where you see the `<Add Watch>` text (or the empty header cell in the 5th column) and enter `count`.
 
     The values for the `count` variable for each thread appear in the window. If you don't see this much information yet, try pressing **F11** a few times to advance the execution of the threads in the debugger.
 
@@ -314,7 +299,7 @@ You can flag threads to keep track of important threads and ignore the other thr
 
     In the second column, a pause icon appears for each row. The pause icon indicates that the thread is frozen.
 
-2.  Deselect all other rows by clicking on one row only.
+2.  Deselect all other rows by selecting one row only.
 
 3.  Right-click a row and select **Thaw**.
 
