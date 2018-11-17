@@ -18,7 +18,7 @@ Visual Studio offers a choice of performance measurement and profiling tools. So
 >[!NOTE]
 >You can use the non-debugger performance tools with Windows 7 and later. Windows 8 or later is required to run the debugger-integrated profiling tools.
 
-The non-debugger **Performance Profiler** and the debugger-integrated **Diagnostic Tools** provide different information and experiences. Debugger-integrated tools show you breakpoints and variable values. Non-debugger tools run on something closer to the end-user experience. 
+The non-debugger **Performance Profiler** and the debugger-integrated **Diagnostic Tools** provide different information and experiences. Debugger-integrated tools show you breakpoints and variable values. Non-debugger tools give you results closer to the end-user experience. 
 
 To help decide which tools and results to use, consider the following points:
 
