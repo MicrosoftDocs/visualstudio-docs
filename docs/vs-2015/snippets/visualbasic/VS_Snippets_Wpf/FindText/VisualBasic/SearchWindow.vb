@@ -893,7 +893,7 @@ Namespace SDKSample
                 Else
                     ' End of document (either the start or end of the document 
                     ' range depending on search direction) was reached before 
-                    ' finding another occurence of the search string.
+                    ' finding another occurrence of the search string.
                     targetResult.Content = "End of document reached."
                     targetResult.Background = Brushes.Wheat
                     If Not searchBackward Then
