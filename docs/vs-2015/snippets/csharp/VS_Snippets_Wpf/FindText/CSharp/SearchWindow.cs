@@ -936,7 +936,7 @@ namespace SDKSample
                 }
                 // End of document (either the start or end of the document 
                 // range depending on search direction) was reached before 
-                // finding another occurence of the search string.
+                // finding another occurrence of the search string.
                 else
                 {
                     targetResult.Content = "End of document reached.";
