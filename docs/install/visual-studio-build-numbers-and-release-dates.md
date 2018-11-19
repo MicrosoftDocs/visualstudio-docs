@@ -24,8 +24,7 @@ The following table lists the build numbers and release dates for Visual Studio 
 | 15.9.0 | Release | November 13, 2018 | 15.9.28307.53 |
 | 15.9.0 Preview 6 | Preview | November 13, 2018 | 15.9.28307.53 |
 | 15.9.0 Preview 5 | Preview | November 6, 2018 | 15.9.28302.56 |
-| 15.8.9 | Release | Novemb
-er 2, 2018 | 15.8.28010.2050 |
+| 15.8.9 | Release | November 2, 2018 | 15.8.28010.2050 |
 | 15.8.8 | Release | October 24, 2018 | 15.8.28010.2048 |
 | 15.9.0 Preview 4 | Preview | October 23, 2018 | 15.9.28219.56 |
 | 15.8.7 | Release | October 10, 2018 | 15.8.28010.2046 |
