@@ -69,11 +69,11 @@ sections:
     className: cardsM
     columns: 3
     items:
-    - href: ../ide/index-writing-code.md
-      html: <p>Make the most of the Visual Studio code editor</p>
+    - href: quickstart-editor.md
+      html: <p>Learn to use the Visual Studio code editor</p>
       image:
         src: https://docs.microsoft.com/media/common/i_code-edit.svg
-      title: Writing and editing code
+      title: Write and edite code
     - href: ../ide/compiling-and-building-in-visual-studio.md
       html: <p>Configure your compiler and build your app.</p>
       image:

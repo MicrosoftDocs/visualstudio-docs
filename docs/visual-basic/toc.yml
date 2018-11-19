@@ -6,7 +6,7 @@
     - name: About Visual Studio 2017
       href: visual-studio-ide.md
     - name: About the code editor
-      href: ../ide/quickstart-editor.md?toc=/visualstudio/visual-basic/toc.json&bc=/visualstudio/visual-basic/breadcrumb/toc.json
+      href: quickstart-editor.md
     - name: About projects and solutions
       href: quickstart-projects-solutions.md
     - name: More Visual Studio features
@@ -24,7 +24,7 @@
   - name: 'Learn Visual Studio'
     items:
     - name: Write and edit code
-      href: ../ide/index-writing-code.md
+      href: quickstart-editor.md
     - name: Compile and build
       href: ../ide/compiling-and-building-in-visual-studio.md
     - name: Debug your code
