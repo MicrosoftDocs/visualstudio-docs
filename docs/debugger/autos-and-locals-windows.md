@@ -20,6 +20,8 @@ ms.workload:
 # Inspect variables in the Autos and Locals windows
 
 The **Autos** and **Locals** windows show variable values while you are debugging. The windows are only available during a debugging session. The **Autos** window shows variables used around the current breakpoint. The **Locals** window shows variables defined in the local scope, which is usually the current function or method. If this is the first time that you've tried to debug code, you may want to read [Write better C# code using Visual Studio](../debugger/write-better-code-with-visual-studio.md) and [Debugging for absolute beginners](../debugger/debugging-absolute-beginners.md) before going through this article.
+
+ The **Autos** window is available for C#, Visual Basic, C++, and Python code, but not for JavaScript or F#.
   
 To open the **Autos** window, while debugging, select **Debug** > **Windows** > **Autos**, or press **Ctrl**+**Alt**+**V** > **A**.  
 
@@ -65,9 +67,7 @@ Set a breakpoint and start debugging. When the breakpoint is hit, execution paus
 
 ![Debug Location toolbar](../debugger/media/debuglocationtoolbar.png "Debug Location toolbar")
 
-## <a name="bkmk_whatvariables"></a> Variables in the Autos window
-
- The **Autos** window is available for C#, Visual Basic, and C++ code, but not for JavaScript or F#.
+## <a name="bkmk_whatvariables"></a> Variables in the Autos window (C#, C++, Visual Basic, Python)
 
  Different code languages display different variables in the **Autos** window.
 
