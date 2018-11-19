@@ -101,13 +101,13 @@ The code block collapses to just the first line, followed by an ellipsis (`...`)
 
 ## View symbol definitions
 
-The Visual Studio editor makes it easy to inspect the definition of a type, method, etc. One way is to navigate to the file that contains the definition, for example by choosing **Go to Definition** anywhere the symbol is referenced. An even quicker way that doesn't move your focus away from the file you're working in is to use [Peek Definition](../ide/go-to-and-peek-definition.md#peek-definition). Let's peek at the definition of the `string` type.
+The Visual Studio editor makes it easy to inspect the definition of a type, method, etc. One way is to navigate to the file that contains the definition, for example by choosing **Go to Definition** anywhere the symbol is referenced. An even quicker way that doesn't move your focus away from the file you're working in is to use [Peek Definition](../ide/go-to-and-peek-definition.md#peek-definition). Let's peek at the definition of the `String` type.
 
-1. Right-click on any occurrence of `string` and choose **Peek Definition** from the content menu. Or, press **Alt**+**F12**.
+1. Right-click on the word `String` and choose **Peek Definition** from the content menu. Or, press **Alt**+**F12**.
 
    A pop-up window appears with the definition of the `String` class. You can scroll within the pop-up window, or even peek at the definition of another type from the peeked code.
 
-   ![Peek definition window](../ide/media/quickstart-peek-definition.png)
+   ![Peek definition window](media/quickstart-peek-definition.png)
 
 1. Close the peeked definition window by choosing the small box with an "x" at the top right of the pop-up window.
 
@@ -117,40 +117,39 @@ The Visual Studio editor makes it easy to inspect the definition of a type, meth
 
 1. Below the `query` variable, start typing the following code:
 
-   ```csharp
-   foreach (string str in qu
+   ```vb
+   or Each str In qu
    ```
 
    You see IntelliSense show you **Quick Info** about the `query` symbol.
 
-   ![IntelliSense word completion in Visual Studio](../ide/media/quickstart-intellisense-completion-list.png)
+   ![IntelliSense word completion in Visual Studio](media/quickstart-intellisense-completion-list.png)
 
 1. To insert the rest of the word `query` by using IntelliSense's word completion functionality, press **Tab**.
 
-1. Finish off the code block to look like the following code. You can even practice using code snippets again by entering `cw` and then pressing **Tab** twice to generate the `Console.WriteLine` code.
+1. Finish off the code block to look like the following code.
 
-   ```csharp
-   foreach (string str in query)
-   {
-      Console.WriteLine(str);
-   }
+   ```vb
+   For Each str In query
+       Console.WriteLine(str)
+   Next
    ```
 
 ## Refactor a name
 
 Nobody gets code right the first time, and one of the things you might have to change is the name of a variable or method. Let's try out Visual Studio's [refactor](../ide/refactoring-in-visual-studio.md) functionality to rename the `_words` variable to `words`.
 
-1. Place your cursor over the definition of the `_words` variable, and choose **Rename** from the right-click or context menu, or press **Ctrl**+**R**, **Ctrl**+**R**.
+1. Place your cursor over the definition of the `_words` variable, and choose **Rename** from the right-click or context menu.
 
    A pop-up **Rename** dialog box appears at the top right of the editor.
 
-1. Enter the desired name **words**. Notice that the reference to `words` in the query is also automatically renamed. Before you press **Enter**, select the **Include comments** checkbox in the **Rename** pop-up box.
+1. Type in the desired name of **words**. Notice that the reference to `words` in the query is also automatically renamed. Before you press **Enter** or click **Apply**, select the **Include comments** checkbox in the **Rename** pop-up box.
 
-   ![Rename dialog box](../ide/media/quickstart-rename.png)
+   ![Rename dialog box](media/quickstart-rename.png)
 
-1. Press **Enter**.
+1. Press **Enter** or click **Apply**.
 
-   Both occurrences of `words` have been renamed, as well as the reference to `words` in the code comment.
+   Both occurrences of `words` are renamed, as well as the reference to `words` in the code comment.
 
 ## Next steps
 
