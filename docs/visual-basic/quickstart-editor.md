@@ -37,23 +37,23 @@ Start by creating a new file and adding some code to it.
 
 ## Use code snippets
 
-Visual Studio provides useful *code snippets* that you can use to quickly and easily generate commonly used code blocks. [Code snippets](../ide/code-snippets.md) are available for different programming languages including Visual Basic, C#, and C++. Let's add the Visual Basic `Function` snippet to our file.
+Visual Studio provides useful *code snippets* that you can use to quickly and easily generate commonly used code blocks. [Code snippets](../ide/code-snippets.md) are available for different programming languages including Visual Basic, C#, and C++. Let's add the Visual Basic **Sub** snippet to our file.
 
 1. Place your cursor above the line that says `End Class`, and type **sub**.
 
-   A pop-up dialog box appears with information about the `Sub` keyword and how to insert the `Sub` code snippet.
+   A pop-up dialog box appears with information about the `Sub` keyword and how to insert the **Sub** code snippet.
 
    ![IntelliSense for code snippet in Visual Studio](media/quickstart-intellisense-snippet.png)
 
 1. Press **Tab** twice to insert the code snippet.
 
-   You see the outline for the Sub procedure `MySub()` get added to the file.
+   The outline for the Sub procedure `MySub()` is added to the file.
 
-The available code snippets vary for different programming languages. You can look at the available code snippets for Visual Basic by choosing **Edit** > **IntelliSense** > **Insert Snippet** (or press **Ctrl**+**K**, **Ctrl**+**X**). For Visual Basic, the list looks like this:
+The available code snippets vary for different programming languages. You can look at the available code snippets for Visual Basic by choosing **Edit** > **IntelliSense** > **Insert Snippet** (or press **Ctrl**+**K**, **Ctrl**+**X**). For Visual Basic, code snippets are available for the following categories:
 
 ![Visual Basic code snippet list](media/quickstart-code-snippet-list.png)
 
-The list includes snippets for determining if a file exists on the computer, writing to a text file, reading a registry value, executing a SQL query, creating a [For Each...Next statement](/dotnet/visual-basic/language-reference/statements/for-each-next-statement), and many more.
+There are snippets for determining if a file exists on the computer, writing to a text file, reading a registry value, executing a SQL query, creating a [For Each...Next statement](/dotnet/visual-basic/language-reference/statements/for-each-next-statement), and many more.
 
 ## Comment out code
 
@@ -118,7 +118,7 @@ The Visual Studio editor makes it easy to inspect the definition of a type, meth
 1. Below the `query` variable, start typing the following code:
 
    ```vb
-   or Each str In qu
+   For Each str In qu
    ```
 
    You see IntelliSense show you **Quick Info** about the `query` symbol.
@@ -139,11 +139,11 @@ The Visual Studio editor makes it easy to inspect the definition of a type, meth
 
 Nobody gets code right the first time, and one of the things you might have to change is the name of a variable or method. Let's try out Visual Studio's [refactor](../ide/refactoring-in-visual-studio.md) functionality to rename the `_words` variable to `words`.
 
-1. Place your cursor over the definition of the `_words` variable, and choose **Rename** from the right-click or context menu.
+1. Place your cursor over the definition of the `_words` variable and choose **Rename** from the right-click or context menu.
 
    A pop-up **Rename** dialog box appears at the top right of the editor.
 
-1. Type in the desired name of **words**. Notice that the reference to `words` in the query is also automatically renamed. Before you press **Enter** or click **Apply**, select the **Include comments** checkbox in the **Rename** pop-up box.
+1. With the variable `_words` still selected, type in the desired name of **words**. Notice that the reference to `words` in the query is also automatically renamed. Before you press **Enter** or click **Apply**, select the **Include comments** checkbox in the **Rename** pop-up box.
 
    ![Rename dialog box](media/quickstart-rename.png)
 
