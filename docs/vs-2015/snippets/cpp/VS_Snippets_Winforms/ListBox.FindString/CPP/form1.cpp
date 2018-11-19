@@ -119,7 +119,7 @@ private:
       // Set the SelectionMode property of the ListBox to select multiple items.
       listBox1->SelectionMode = SelectionMode::MultiExtended;
 
-      // Set our intial index variable to -1.
+      // Set our initial index variable to -1.
       int x = -1;
 
       // If the search string is empty exit.
