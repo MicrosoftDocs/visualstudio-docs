@@ -4,7 +4,7 @@ description: "Add Azure data storage, authentication, and push notifications to 
 ms.assetid: 41CB62FF-0F39-4CE8-8917-6A77F058719F
 author: conceptdev
 ms.author: crdun
-ms.date: 04/04/2018
+ms.date: 11/06/2018
 ---
 
 # Connected Services walkthrough

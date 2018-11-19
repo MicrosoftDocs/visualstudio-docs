@@ -41,5 +41,5 @@ devenv /command "Macros.MyMacros.Module1.OpenFavoriteFiles"
 
 ## See Also
 
-- [Devenv Command Line Switches](../../ide/reference/devenv-command-line-switches.md)
+- [Devenv command-line switches](../../ide/reference/devenv-command-line-switches.md)
 - [Visual Studio Command Aliases](../../ide/reference/visual-studio-command-aliases.md)
