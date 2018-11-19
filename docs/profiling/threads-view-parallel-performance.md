@@ -19,7 +19,7 @@ ms.workload:
 
 **Threads** view is the most detailed and feature-rich view in the Concurrency Visualizer. In the **Threads** view, you can identify which threads are executing code during an execution segment, and analyze whether threads are executing or blocking because of synchronization, I/O, or other reasons. **Threads** view reports also profile call-stack tree execution and unblocking threads.
 
-While threads are executing, the Concurrency Visualizer collects samples. When a thread has stopped executing, the visualizer examines all operating system context-switch events for the thread. You can usually identify the root cause of blocking events by examining the call stacks for context-switch events. Context switches can occur because:  
+While threads are executing, the Concurrency Visualizer collects samples. When a thread has stopped executing, the visualizer examines all operating system context-switch events for the thread. Context switches can occur because:  
   
 - A thread is blocked on a synchronization primitive.  
 - The quantum of a thread expires.  
