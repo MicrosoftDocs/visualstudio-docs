@@ -1013,7 +1013,7 @@ namespace SDKSample
             TextPatternRange[] selectionRanges =
                            targetTextPattern.GetSelection();
             
-            // Iterate throught the ranges for a text control that supports
+            // Iterate through the ranges for a text control that supports
             // multiple selections and move the selections the specified text
             // unit and direction.
             foreach (TextPatternRange textRange in selectionRanges)
