@@ -1,10 +1,10 @@
-- name: Get started with Visual Basic in Visual Studio
+- name: Visual Basic in Visual Studio
   href: index.yml
   items:
   - name: Overview
     items:
     - name: About Visual Studio 2017
-      href: ../ide/visual-studio-ide.md?toc=/visualstudio/visual-basic/toc.json&bc=/visualstudio/visual-basic/breadcrumb/toc.json
+      href: visual-studio-ide.md
     - name: About the code editor
       href: ../ide/quickstart-editor.md?toc=/visualstudio/visual-basic/toc.json&bc=/visualstudio/visual-basic/breadcrumb/toc.json
     - name: About projects and solutions
