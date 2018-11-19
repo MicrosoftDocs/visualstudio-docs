@@ -43,7 +43,7 @@ Public Class TriValueVirtualCheckBox
     End Function
     '</snippet10>
 
-#Region "data store maintance"
+#Region "data store maintenance"
     Private Sub dataGridView1_CellValueNeeded(ByVal sender As Object, _
         ByVal e As DataGridViewCellValueEventArgs) _
         Handles dataGridView1.CellValueNeeded

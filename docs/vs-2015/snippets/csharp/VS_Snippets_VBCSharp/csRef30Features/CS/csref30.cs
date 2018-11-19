@@ -368,7 +368,7 @@ namespace csrefLINQExamples
         }
     }
 
-    //Object and collection intializers
+    //Object and collection initializers
     class ObjCollInitializers
     {
         //<snippet39>
@@ -532,7 +532,7 @@ namespace csrefLINQExamples
      */
     //</snippet65>
 
-    //<s n i p p e t66>
+    //<snippet66>
     class Test2
     {
         Func<int, bool> f;
@@ -559,7 +559,7 @@ namespace csrefLINQExamples
         }
  
     }
-    //</s n i p p e t66>
+    //</snippet66>
 
     //reserving numbers 67-79 for anonymous methods
 

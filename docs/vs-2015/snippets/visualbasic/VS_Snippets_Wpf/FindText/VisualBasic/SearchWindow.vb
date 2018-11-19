@@ -965,7 +965,7 @@ Namespace SDKSample
             ' Obtain the ranges to move.
             Dim selectionRanges As TextPatternRange() = targetTextPattern.GetSelection()
 
-            ' Iterate throught the ranges for a text control that supports
+            ' Iterate through the ranges for a text control that supports
             ' multiple selections and move the selections the specified text
             ' unit and direction.
             Dim textRange As TextPatternRange
