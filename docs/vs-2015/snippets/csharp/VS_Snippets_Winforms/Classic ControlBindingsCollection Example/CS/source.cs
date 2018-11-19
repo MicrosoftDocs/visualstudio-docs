@@ -50,7 +50,7 @@ protected void BindControls()
    textBox3.DataBindings.Add(b);
 
    /*Bind the fourth TextBox to the Value of the 
-   DateTimePicker control. This demonstates how one control
+   DateTimePicker control. This demonstrates how one control
    can be data-bound to another.*/
    textBox4.DataBindings.Add("Text", DateTimePicker1,"Value");
 
