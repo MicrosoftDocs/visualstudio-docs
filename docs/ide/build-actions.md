@@ -31,7 +31,7 @@ Some of the build actions for C# and Visual Basic project files are:
 * **Compile** - The file is passed to the compiler as a source file.
 * **Content** - A file marked as **Content** can be retrieved as a stream by calling <xref:System.Windows.Application.GetContentStream%2A?displayProperty=nameWithType>. For ASP.NET projects, these files are included as part of the site when it's deployed.
 * **Embedded Resource** - The file is passed to the compiler as a resource to be embedded in the assembly. You can call <xref:System.Reflection.Assembly.GetManifestResourceStream%2A?displayProperty=fullName> to read the file from the assembly.
-* **AdditionalFiles** - A non-source text file that's passed to the C# or Visual Basic compiler as input. This build action is mainly used in [analyzer](../code-quality/roslyn-analyzers-overview.md) projects. For more information, see [Use additional files](https://github.com/dotnet/roslyn/blob/master/docs/analyzers/Using%20Additional%20Files.md).
+* **AdditionalFiles** - A non-source text file that's passed to the C# or Visual Basic compiler as input. This build action is mainly used to provide inputs to [analyzers](../code-quality/roslyn-analyzers-overview.md) that are referenced by a project to verify code quality. For more information, see [Use additional files](https://github.com/dotnet/roslyn/blob/master/docs/analyzers/Using%20Additional%20Files.md).
 
 ## See also
 
