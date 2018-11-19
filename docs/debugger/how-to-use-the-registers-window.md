@@ -26,7 +26,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# View register values in the debugger Registers window
+# View register values in the Registers window
 
 The **Registers** window displays register contents during Visual Studio debugging. For a high-level introduction to concepts behind registers and the **Registers** window, see [Debugging basics: Registers window](../debugger/debugging-basics-registers-window.md).  
 
@@ -41,9 +41,9 @@ You can edit register values. For more information, see [How to: Edit a register
   
 **To open the Registers window**  
 
-1. Enable address-level debugging, by selecting **Enable address-level debugging** in **Tools** (or **Debug**) > **Options** > **Debugging** . 
+1. Enable address-level debugging, by selecting **Enable address-level debugging** in **Tools** (or **Debug**) > **Options** > **Debugging**. 
    
-1. While debugging is running or at a breakpoint, select **Debug** > **Windows** > **Registers**, or press ****Alt**+**5**.  
+1. While debugging is running or at a breakpoint, select **Debug** > **Windows** > **Registers**, or press **Alt**+**5**.  
   
 >[!NOTE]
 >Dialog boxes and menu commands might differ depending on your Visual Studio edition or settings. To change your settings, select **Import and Export Settings** on the Visual Studio **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).  

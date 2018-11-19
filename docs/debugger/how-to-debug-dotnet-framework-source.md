@@ -21,7 +21,7 @@ To debug .NET Framework source, you must:
   
 - Have access to debugging symbols for the code. 
   
-  When you enable symbol downloading, you can choose to download symbols immediately, or just enable the option for later downloading. If you do not download the symbols immediately, they will download the next time you start debugging your app. While debugging, you can also download symbols from the **Modules** or **Call Stack** windows.  
+  You can choose to download debugging symbols immediately, or set options for later downloading. If you don't download symbols immediately, they'll download the next time you start debugging your app. While debugging, you can also use the **Modules** or **Call Stack** windows to download and load symbols.  
   
 ### To enable stepping into .NET Framework source 
   
@@ -37,37 +37,23 @@ To debug .NET Framework source, you must:
 
 1. Select the **Symbols** category under **Tools** (or **Debug**) > **Options** > **Debugging**.  
   
-1. On the *Symbols** page, under **Symbol file (.pdb) locations**, select **Microsoft Symbol Servers** to access symbols from the public Microsoft Symbol Servers. Select the toolbar buttons to add other symbol locations and change the loading order. 
+1. On the **Symbols** page, under **Symbol file (.pdb) locations**, select **Microsoft Symbol Servers** to access symbols from the public Microsoft Symbol Servers. Select the toolbar buttons to add other symbol locations and change the loading order. 
    
 1. To change your local symbols cache location, edit or browse to a different location under **Cache symbols in this directory**.  
    
 1. To download symbols immediately, select **Load all symbols**. This button is available only while debugging.  
    
-   If you do not download symbols now, they will be downloaded the next time you start debugging.  
+   If you don't download symbols now, they'll be downloaded the next time you start debugging.  
    
 1. Select **OK** to close the **Options** dialog.  
   
-### To load .NET Framework symbols from the Modules window  
+### To load symbols from the Modules or Call Stack windows  
   
-1. During debugging, you can open the **Modules** window from **Debug** > **Windows** > **Modules**. 
+1. During debugging, open the window by selecting **Debug** > **Windows** > **Modules** or **Call Stack**. 
    
-1. In the **Modules** window, right-click a module for which symbols were not loaded, according to the **Symbols Status** column.  
+1. Right-click a module for which symbols weren't loaded. In the **Modules** window, symbol loading status is in the **Symbols Status** column. In the **Call Stack** window, status is in the **Frame Status** column, and the frame is grayed-out. 
    
-   - Select **Load Symbols** from the menu to try to locate and load symbol files from a folder on your machine. 
-   
-   - Select **Symbol Load Information** to show the locations the debugger searched for symbols.  
-   
-   - Select **Symbol Settings** to open the **Symbols** page. On the *Symbols** page, under **Symbol file (.pdb) locations**, select **Microsoft Symbol Servers** to access symbols from the public Microsoft Symbol Servers. Select the toolbar buttons to add other symbol locations and change the loading order.  
-  
-### To load .NET Framework symbols from the Call Stack window  
-  
-1. During debugging, you can open the **Call Stack** window from **Debug** > **Windows** > **Call Stack**. 
-   
-1.  In the **Call Stack** window, right-click a frame for which symbols are not loaded. The frame will be grayed-out.  
-  
-1. In the **Modules** window, right-click a module for which symbols were not loaded, according to the **Symbols Status** column.  
-   
-   - Select **Load Symbols** from the menu to try to locate and load symbol files from a folder on your machine. 
+   - Select **Load Symbols** from the menu to locate and load symbol files from a folder on your machine. 
    
    - Select **Symbol Load Information** to show the locations the debugger searched for symbols.  
    
