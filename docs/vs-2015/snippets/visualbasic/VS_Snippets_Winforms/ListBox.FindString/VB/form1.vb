@@ -77,7 +77,7 @@ Public Class Form1
       ' Set the SelectionMode property of the ListBox to select multiple items.
       listBox1.SelectionMode = SelectionMode.MultiExtended
 
-      ' Set our intial index variable to -1.
+      ' Set our initial index variable to -1.
       Dim x As Integer = -1
       ' If the search string is empty exit.
       If searchString.Length <> 0 Then
