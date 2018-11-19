@@ -3,7 +3,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <RootNamespace></RootNamespace>
-    <AssemblyName>CommandLibarySnippets</AssemblyName>
+    <AssemblyName>CommandLibrarySnippets</AssemblyName>
     <OutputType>winexe</OutputType>
     <ApplicationVersion>1.0.0.*</ApplicationVersion>
     <!-- Most people will use Publish dialog in Visual Studio to increment this -->
