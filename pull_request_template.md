@@ -7,3 +7,5 @@ Before creating your pull request, please check your content against these quali
 - Did you update the "ms.date" metadata for new or significantly updated articles?
 - Are technical terms and concepts introduced and explained, and are acronyms spelled out on first mention?
 - Should this page be linked to from other pages or Microsoft web sites?
+
+For more information about creating content for docs.microsoft.com, see the [docs.microsoft.com contributor guide](https://docs.microsoft.com/contribute/).
