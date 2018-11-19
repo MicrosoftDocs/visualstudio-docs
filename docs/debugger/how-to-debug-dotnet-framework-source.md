@@ -29,7 +29,7 @@ To debug .NET Framework source, you must:
    
    - If you had Just My Code enabled, a warning dialog box tells you that Just My Code is now disabled. Select **OK**.  
    
-   - If you did not have a symbol cache location set, a warning dialog box tells you that a default symbol cache location has been set. Select **OK**.  
+   - If you did not have a local symbol cache set, a warning dialog box tells you that a default symbol cache has been set. Select **OK**.  
    
 1. Select **OK** to close the **Options** dialog.
   
@@ -39,7 +39,7 @@ To debug .NET Framework source, you must:
   
 1. On the **Symbols** page, under **Symbol file (.pdb) locations**, select **Microsoft Symbol Servers** to access symbols from the public Microsoft Symbol Servers. Select the toolbar buttons to add other symbol locations and change the loading order. 
    
-1. To change your local symbols cache location, edit or browse to a different location under **Cache symbols in this directory**.  
+1. To change your local symbols cache, edit or browse to a different location under **Cache symbols in this directory**.  
    
 1. To download symbols immediately, select **Load all symbols**. This button is available only while debugging.  
    
