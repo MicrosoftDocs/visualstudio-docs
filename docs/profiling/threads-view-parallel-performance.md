@@ -17,17 +17,17 @@ ms.workload:
 ---
 # Threads view in the Concurrency Visualizer
 
-**Threads** view is the most detailed and feature-rich view in the Concurrency Visualizer. In the **Threads** view, you can analyze which code is executed by one or more threads during an execution segment. Use this view to identify whether threads are executing or blocking because of synchronization, I/O, or other reasons. **Threads** view also provides reports that profile call-stack tree execution and unblocking threads.
+**Threads** view is the most detailed and feature-rich view in the Concurrency Visualizer. In the **Threads** view, you can identify which threads are executing code during an execution segment, and analyze whether threads are executing or blocking because of synchronization, I/O, or other reasons. **Threads** view reports also profile call-stack tree execution and unblocking threads.
 
-While threads are executing, the Concurrency Visualizer collects samples. When a thread has stopped executing, the Concurrency Visualizer examines all operating system context-switch events for the thread. You can usually identify the root cause of blocking events by examining the call stacks for context-switch events. Context switches can occur because:  
+While threads are executing, the Concurrency Visualizer collects samples. When a thread has stopped executing, the visualizer examines all operating system context-switch events for the thread. You can usually identify the root cause of blocking events by examining the call stacks for context-switch events. Context switches can occur because:  
   
 - A thread is blocked on a synchronization primitive.  
 - The quantum of a thread expires.  
 - A thread makes a blocking I/O request.  
 
-Concurrency Visualizer categorizes thread and context-switch events, and searches the call stacks of threads for well-known blocking APIs. Thread categories appear in the active legend at the lower-left in the **Threads** view. 
+Concurrency Visualizer categorizes thread and context-switch events, and searches the call stacks of threads for well-known blocking APIs. It displays the thread categories in the active legend at lower-left in the **Threads** view. In most cases, you can identify the root cause of a blocking event by examining the call stacks that correspond to context-switch events.
+
 If there's no call stack match, Concurrency Visualizer uses the wait reason provided by [!INCLUDE[TLA#tla_mswin](../code-quality/includes/tlasharptla_mswin_md.md)]. However, the [!INCLUDE[TLA#tla_mswin](../code-quality/includes/tlasharptla_mswin_md.md)] category may be based on an implementation detail, and may not reflect user intent. For example, [!INCLUDE[TLA#tla_mswin](../code-quality/includes/tlasharptla_mswin_md.md)] reports the wait reason for blocking on a native slim reader-writer lock as I/O instead of Synchronization.  
-  
   
 **Threads** view also shows dependencies between threads. For example, if you identify a thread that's blocked on a synchronization object, you can find the thread that unblocked it. You can examine the call stack for the unblocking thread at the point when it unblocked the other one.  
 
@@ -45,9 +45,9 @@ You can use **Threads** view to:
 
 To start Concurrency Visualizer, select **Analyze** > **Concurrency Visualizer**, and then select an option, such as **Launch New Process**. 
 
-Concurrency Visualizer starts the app and collects a trace until you select **Stop Collection**. Concurrency Visualizer then analyzes the trace and shows the results on the trace report page. 
+Concurrency Visualizer starts the app and collects a trace until you select **Stop Collection**. The visualizer then analyzes the trace and displays the results on the trace report page. 
 
-Select **Threads** at upper-left of the report to open the **Threads** view. 
+Select the **Threads** tab at upper-left in the report to open the **Threads** view. 
 
 ![Threads view](../profiling/media/threadsviewnarrowing.png "Threads view")  
   
@@ -55,7 +55,7 @@ Select time intervals and threads to start a performance analysis.
   
 ## Timeline analysis  
 
-The upper part of the **Threads** view is a timeline. The timeline shows the activity of all threads in the process, and all physical disk devices on the host computer. It also displays GPU activity and marker events.  You can zoom in to view more detail, or zoom out to view a longer time interval. You can select segments and points on the graph to get details about categories, start times, delays, and call stack states.  
+The upper part of the **Threads** view is a timeline. The timeline shows the activity of all threads in the process, and all physical disk devices on the host computer. It also displays GPU activity and marker events.  
 
 On the timeline, the x-axis is time, and on the y-axis are several channels:  
   
@@ -68,11 +68,13 @@ Initially, threads are sorted in the order in which they're created, so the main
 
 The timeline colors indicate the state of a thread at a given time. Green segments are executing, red segments are blocked for synchronization, yellow segments are preempted, and purple segments are engaged in device I/O. 
 
-You can use the timeline to examine the work balance among threads that are involved in a parallel loop, or in concurrent tasks. If one thread is taking longer to complete than the others, the work might be unbalanced. You can improve the performance of your app by distributing work more evenly among the threads.  
+You can zoom in to view more detail, or zoom out to view a longer time interval. Select segments and points on the graph to get details about categories, start times, delays, and call stack states.  
+
+Use the timeline to examine the work balance among threads that are involved in a parallel loop, or in concurrent tasks. If one thread is taking longer to complete than the others, the work might be unbalanced. You might improve the performance of your app by distributing work more evenly among the threads.  
   
 If only one thread is executing at a point in time, the app may not be taking full advantage of concurrency on the system. You can use the timeline graph to examine dependencies between threads, and the temporal relationships between blocking and blocked threads. To rearrange threads, select a thread, and then select the up or down icon on the toolbar. 
 
-You can hide threads that that are not doing work or are completely blocked, because their statistics are irrelevant and can clog the reports. Hide threads by selecting their names and then selecting the **Hide selected threads** or **Hide all except selected threads** icons on the toolbar. To identify threads to hide, select the **Per Thread Summary** link, and hide the threads that have no activity in the graph. 
+You can hide threads that that are not doing work or are completely blocked, because their statistics are irrelevant and can clog the reports. Hide threads by selecting their names and then selecting the **Hide selected threads** or **Hide all except selected threads** icons on the toolbar. To identify threads to hide, select the **Per Thread Summary** link at lower left. You can hide the threads that have no activity in the **Per Thread Summary** graph. 
 
 ### Thread execution details  
 To get more detailed information about an execution segment, select a point on a green segment of the timeline. The Concurrency Visualizer displays a black caret above the selected point, and shows its call stack on the **Current** tab of the bottom pane. You can select multiple points on the execution segment.  
