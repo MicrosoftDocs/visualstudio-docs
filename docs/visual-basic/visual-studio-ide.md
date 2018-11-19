@@ -101,7 +101,11 @@ When you start Visual Studio for the first time, you can optionally [sign in](..
 
 ## Customize Visual Studio
 
-You can personalize the Visual Studio user interface, including change the default color theme. To change to the **Dark** theme:
+You can personalize the Visual Studio user interface, including change the default color theme.
+
+### Change the color theme
+
+To change to the **Dark** theme:
 
 1. On the menu bar, choose **Tools** > **Options** to open the **Options** dialog.
 
@@ -112,6 +116,8 @@ You can personalize the Visual Studio user interface, including change the defau
    The color theme for the entire IDE changes to **Dark**.
 
    ![Visual Studio in dark theme](../ide/media/quickstart-personalize-dark-theme.png)
+
+### Select environment settings
 
 Next we'll configure Visual Studio to use environment settings tailored to Visual Basic developers.
 

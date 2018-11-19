@@ -20,6 +20,9 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 
 This article assumes you're already familiar with C#. If you aren't, we suggest you look at a tutorial such as [Get started with C# and ASP.NET Core in Visual Studio](../ide/tutorial-csharp-aspnet-core.md) first.
 
+> [!TIP]
+> To follow along with this article, make sure you have the C# settings selected for Visual Studio. For information about selecting settings for the integrated development environment (IDE), see [Select environment settings](visual-studio-ide.md#select-environment-settings).
+
 ## Create a new code file
 
 Start by creating a new file and adding some code to it.

@@ -21,7 +21,7 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 This article assumes you're already familiar with Visual Basic. If you aren't, we suggest you look at a tutorial such as [Get started with Visual Basic in Visual Studio](../ide/tutorial-visual-basic-console.md) first.
 
 > [!TIP]
-> To follow along with this article, make sure you have the Visual Basic settings selected for Visual Studio. For information about selecting settings for the integrated development environment (IDE), see [Customize Visual Studio](visual-studio-ide.md#customize-visual-studio).
+> To follow along with this article, make sure you have the Visual Basic settings selected for Visual Studio. For information about selecting settings for the integrated development environment (IDE), see [Select environment settings](visual-studio-ide.md#select-environment-settings).
 
 ## Create a new code file
 
