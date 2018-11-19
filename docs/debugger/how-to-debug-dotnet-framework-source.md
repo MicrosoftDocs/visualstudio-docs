@@ -57,7 +57,7 @@ To debug .NET Framework source, you must:
    
    - Select **Symbol Load Information** to show the locations the debugger searched for symbols.  
    
-   - Select **Symbol Settings** to open the **Symbols** page. On the *Symbols** page, under **Symbol file (.pdb) locations**, select **Microsoft Symbol Servers** to access symbols from the public Microsoft Symbol Servers. Select the toolbar buttons to add other symbol locations and change the loading order.  
+   - Select **Symbol Settings** to open the **Symbols** page. On the **Symbols** page, under **Symbol file (.pdb) locations**, select **Microsoft Symbol Servers** to access symbols from the public Microsoft Symbol Servers. Select the toolbar buttons to add other symbol locations and change the loading order. Select **OK** to close the dialog. 
   
 ### See also  
  [Debugging managed code](../debugger/debugging-managed-code.md)   
