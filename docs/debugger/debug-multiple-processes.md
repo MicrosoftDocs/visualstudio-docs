@@ -24,8 +24,7 @@ ms.workload:
 ---
 # Debug multiple processes
 
-Visual Studio can debug a solution that has several processes. While debugging, you can start and switch between processes, break, continue, and step through source, stop debugging, and end or detach from individual processes.  
-  
+Visual Studio can debug a solution that has several processes. You can start and switch between processes, break, continue, and step through source, stop debugging, and end or detach from individual processes.  
 
 ##  Start debugging with multiple processes 
 
@@ -93,7 +92,7 @@ Sometimes, you might need to debug the startup code for an app that is launched 
 ##  <a name="BKMK_Switch_processes__break_and_continue_execution__step_through_source"></a> Debug with multiple processes 
 <a name="BKMK_Configure_the_execution_behavior_of_multiple_processes"></a> 
 
-When debugging an app with several processes, the breaking, stepping, and continuing debugger commands affect all processes by default. For example, when a process is suspended at a breakpoint, the execution of all other processes is also suspended. You can change this default behavior to gain more control over the targets of execution commands.  
+When debugging an app with several processes, the breaking, stepping, and continuing debugger commands affect all processes by default. For example, when a process is suspended at a breakpoint, the execution of all other processes is also suspended. You can change this default behavior, to gain more control over the targets of execution commands.  
 
 **To change whether all processes are suspended when one process breaks:**
 
