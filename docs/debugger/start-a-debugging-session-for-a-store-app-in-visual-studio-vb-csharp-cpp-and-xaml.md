@@ -128,7 +128,7 @@ In C++ apps, Visual Studio debugs native code by default. In JavaScript apps, Vi
   
 By default, you must supply Windows credentials to run the remote debugger when you select **Remote Machine** as the deployment target. You can change the authentication requirement. 
 
-**Universal (Unencrypted Protocol)** is for IoT, Xbox, and HoloLens devices, and Creator's Update or later Windows 10 PCs.  
+The **Universal (Unencrypted Protocol)** authentication mode is for IoT, Xbox, and HoloLens devices, and Creator's Update or later Windows 10 PCs.  
 
 **To change authentication method:**  
 
@@ -145,15 +145,15 @@ When you select **Debug** > **Start Debugging** or press **F5**, Visual Studio l
   
 ###  <a name="BKMK_Start_debugging__F5__but_delay_the_app_start"></a> Start debugging but delay app start  
 
-By default, Visual Studio starts an app immediately when you start debugging. You can also set the app to run in debug mode, but start it outside the debugger. For example, you might want to debug the launch of your app from the Windows **Start** menu, or debug a background process in the app without starting the app. If you choose this option, the app starts in the debugger when it's launched. 
+By default, Visual Studio starts the app immediately when you start debugging. You can also set the app to run in debug mode, but start the app outside the debugger. For example, you might want to debug app launch from the Windows **Start** menu, or debug a background process in the app. If you choose this option, the app starts in the debugger on launch. 
 
-**To delay the app start:**  
+**To disable automatic app startup:**  
   
 - For C# and Visual Basic apps, select **Do not launch, but debug my code when it starts** under **Start options** on the **Debug** property page.  
    
 - For C++ and JavaScript apps, select **No** from the **Launch Application** dropdown on the **Debugging** property page.  
   
-For more information about debugging background tasks, see [Trigger suspend, resume, and background events for UWP apps)](../debugger/how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio.md).  
+For more information about debugging background tasks, see [Trigger suspend, resume, and background events for UWP apps](../debugger/how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio.md).  
   
 ###  <a name="BKMK_Start_an_installed_app_in_the_debugger"></a> Debug an installed or running UWP app 
 
@@ -161,7 +161,7 @@ You can use **Debug Installed App Package** to debug a UWP app that is already i
   
 You can start the installed app immediately, or you can set it to run in the debugger when started with another method. For more information, see [Trigger suspend, resume, and background events for UWP apps)](../debugger/how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio.md).  
   
-To start an installed or running UWP app in the debugger, select **Debug** > **Other debug targets** > **Debug Installed App Package**. For more instructions, see [Debug an installed app package](../debugger/debug-installed-app-package.md).
+To start an installed or running UWP app in the debugger, select **Debug** > **Other Debug Targets** > **Debug Installed App Package**. For more instructions, see [Debug an installed app package](../debugger/debug-installed-app-package.md).
 
 ###  <a name="BKMK_Attach_the_debugger_to_a_running_app_"></a> Attach the debugger to a running Windows 8.x app
 
