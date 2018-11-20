@@ -1,6 +1,6 @@
 ---
 title: Suppress code analysis warnings
-ms.date: 08/03/2018
+ms.date: 12/01/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: "conceptual"
@@ -61,17 +61,23 @@ The properties of the attribute include:
 
 - **MessageId** - Unique identifier of a problem for each message.
 
-- **Scope** - The target on which the warning is being suppressed. If the target is not specified, it is set to the target of the attribute. Supported scopes include the following:
+- **Scope** - The target on which the warning is being suppressed. If the target is not specified, it is set to the target of the attribute. Supported [scopes](xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute.Scope) include the following:
 
-    - Module
+   - `module`
 
-    - Namespace
+   - `namespace`
 
-    - Resource
+      The `namespace` scope suppresses warnings against the namespace itself. It does not suppress warnings against types within the namespace.
 
-    - Type
+   - `namespaceandchildren`
 
-    - Member
+      (New for Visual Studio 2019) The `namespaceandchildren` scope suppresses warnings in a namespace and all its descendant symbols. This scope value is only valid for Roslyn analyzers, and is ignored by binary, FxCop-based static analysis.
+
+   - `resource`
+
+   - `type`
+
+   - `member`
 
 - **Target** - An identifier that is used to specify the target on which the warning is being suppressed. It must contain a fully qualified item name.
 
@@ -146,7 +152,7 @@ The managed code analysis tool examines `SuppressMessage` attributes that are ap
 `[module: SuppressMessage("Microsoft.Design", "CA1020:AvoidNamespacesWithFewTypes", Scope = "namespace", Target = "MyNamespace")]`
 
 > [!NOTE]
-> When you suppress a warning with namespace scope, it suppresses the warning against the namespace itself. It does not suppress the warning against types within the namespace.
+> When you suppress a warning with `namespace` scope, it suppresses the warning against the namespace itself. It does not suppress the warning against types within the namespace.
 
 Any suppression can be expressed by specifying an explicit scope. These suppressions must live at the global level. You cannot specify member-level suppression by decorating a type.
 
@@ -163,5 +169,6 @@ The global suppression file maintains suppressions that are either global-level 
 
 ## See also
 
+- <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute.Scope>
 - <xref:System.Diagnostics.CodeAnalysis>
 - [Use Roslyn analyzers](../code-quality/use-roslyn-analyzers.md)
