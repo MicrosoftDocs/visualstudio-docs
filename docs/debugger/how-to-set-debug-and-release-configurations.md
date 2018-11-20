@@ -58,7 +58,7 @@ or
 
   ![toolbars build configuration](../debugger/media/toolbarbuildconfiguration.png "ToolbarBuildConfiguration")
 
-## <a name="BKMK_symbols_release"></a>Generate symbol (.pdb) files for a build
+## <a name="BKMK_symbols_release"></a>Generate symbol (.pdb) files for a build (C#, C++, Visual Basic, F#)
 
 You can choose to generate symbol (.pdb) files and what debug information to include. For most project types, the compiler generates symbol files by default for debug and release builds, while other default settings differ by project type and Visual Studio version.
 
