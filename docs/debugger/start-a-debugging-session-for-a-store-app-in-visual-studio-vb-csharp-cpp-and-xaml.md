@@ -61,19 +61,19 @@ Debugging continues until a breakpoint is reached, you manually suspend executio
   
 ###  <a name="BKMK_Choose_the_deployment_target"></a> Deployment target options 
   
-You can set the debugging target in the Visual Studio toolbar or on the project **Debug** properties page. Select one of the following options:
+You can set the debugging target in the Visual Studio toolbar or the project's debugging property page. Select one of the following options:
 
 |||  
 |-|-|  
 |**Local Machine**|Debug the app in the current session on your local machine.|  
 |**Simulator**|Debug the app in the Visual Studio simulator for UWP apps. The simulator is a desktop window that simulates device functions, like touch gestures and device rotation, that may not exist on the local machine. The simulator option is available only if your app's **Target Platform Min. Version** is less than or equal to the operating system on the local machine. For more information, see [Run UWP apps in the simulator](../debugger/run-windows-store-apps-in-the-simulator.md).|  
-|**Remote Machine**|Debug the app on a device connected to the local machine through a network or Ethernet cable. The Remote Tools for Visual Studio must be installed and running on the remote device. For more information, see [Run UWP apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md).|  
+|**Remote Machine**|Debug the app on a device connected to the local machine over a network or Ethernet cable. The Remote Tools for Visual Studio must be installed and running on the remote device. For more information, see [Run UWP apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md).|  
 |**Device**|Debug the app on a USB-connected device. The device must be developer-unlocked and have the screen unlocked.|  
 |**Mobile Emulator**|Boot the emulator specified in the emulator name, deploy the app, and start debugging. Emulators are available only on Hyper-V enabled machines.|  
 
 ##  <a name="BKMK_Open_the_debugging_property_page_for_the_project"></a> Configure debugging in the project property page 
 
-To configure additional debugging options, use the project's debug properties page. 
+To configure additional debugging options, use the project's debugging properties page. 
 
 **To open the debugging properties:**
 
@@ -105,7 +105,7 @@ In C++ apps, Visual Studio debugs native code by default. In JavaScript apps, Vi
 |-|-|  
 |**Managed Only**|Debug managed code in your app. JavaScript code and native C/C++ code are ignored.|  
 |**Native Only**|Debug native C/C++ code in your app. Managed code and JavaScript code are ignored.|  
-|**Mixed (Managed and Native)**|Debug native C/C++ code and managed code in your app. JavaScript code is ignored. In C++ projects, this option is called **(Managed and Native)**.|  
+|**Mixed (Managed and Native)**|Debug native C/C++ code and managed code in your app. JavaScript code is ignored. In C++ projects, this option is called **Managed and Native**.|  
 |**Script**|Debug JavaScript code in your app. Managed code and native code are ignored.|  
 |**Native with Script**|Debug native C/C++ code and JavaScript code in your app. Managed code is ignored. Available in C++ projects or background tasks only.|  
 |**GPU only (C++ AMP)**|Debug native C++ code that runs on a graphics processing unit (GPU). Available in C++ projects only.|  
@@ -113,7 +113,7 @@ In C++ apps, Visual Studio debugs native code by default. In JavaScript apps, Vi
   
 ###  <a name="BKMK__Optional__Disable_network_loopbacks"></a> Disable network loopbacks (optional) 
   
- For security, a UWP app that is installed in the standard manner can't make network calls to the device it's installed on. By default, Visual Studio exempts deployed apps from this rule, so you can test communication procedures on a single machine. Before you release your app, you should test your app without the exemption.  
+ For security, a UWP app that is installed in the standard manner can't make network calls to the device it's installed on. Visual Studio exempts deployed apps from this rule by default, so you can test communication procedures on a single machine. Before you release your app, you should test your app without the exemption.  
   
 **To remove the network loopback exemption:**  
   
@@ -127,25 +127,25 @@ In C++ apps, Visual Studio debugs native code by default. In JavaScript apps, Vi
 ###  <a name="BKMK__Optional__Disable_authentication_requirement_to_start_the_remote_debugger"></a> Set authentication options for remote debugging  
   
 By default, you must supply Windows credentials to run the remote debugger when you select **Remote Machine** as the deployment target. You can change the authentication requirement. 
-  
-**To change authentication modes:**  
 
-- For C# and Visual Basic apps, on the **Debug** property page, select **Remote Machine** as the **Target device**. Select **None** or **Universal (Unencrypted Protocol)** for **Authentication Mode**. 
-  
-- For C++ and JavaScript apps, select **Remote Machine** under as the **Debugger to launch** on the **Debugging** property page. Select **None** or **Universal (Unencrypted Protocol)** for **Require Authentication**. 
-  
-  **Universal (Unencrypted Protocol)** is for IoT, Xbox, and HoloLens devices, and Creator's Update or later Windows 10 PCs.  
+**Universal (Unencrypted Protocol)** is for IoT, Xbox, and HoloLens devices, and Creator's Update or later Windows 10 PCs.  
 
+**To change authentication method:**  
+
+- For C# and Visual Basic apps, on the **Debug** property page, select **Remote Machine** as the **Target device**. Then, select **None** or **Universal (Unencrypted Protocol)** for **Authentication Mode**. 
+  
+- For C++ and JavaScript apps, select **Remote Machine** under **Debugger to launch** on the **Debugging** property page. Then, select **No Authentication** or **Universal (Unencrypted Protocol)** for **Authentication Type**. 
+  
 > [!CAUTION]
 > There is no network security when you run the remote debugger in **None** or **Universal (Unencrypted Protocol)** modes. Choose these modes only on trusted networks that you are sure are not at risk from malicious code or hostile traffic.  
   
-##  <a name="BKMK_Start_the_debugging_session"></a> Start the debugging session  
+##  <a name="BKMK_Start_the_debugging_session"></a> Debugging start options  
   
 When you select **Debug** > **Start Debugging** or press **F5**, Visual Studio launches the app with the debugger attached. Execution continues until a breakpoint is reached, you manually suspend execution, an unhandled exception occurs, or the app ends.  
   
 ###  <a name="BKMK_Start_debugging__F5__but_delay_the_app_start"></a> Start debugging but delay app start  
 
-By default, Visual Studio starts the app immediately when you start debugging. You can also set the app to run in debug mode, but start it outside the debugger. For example, you might want to debug the launch of your app from the Windows **Start** menu, or debug a background process in the app without starting the app. If you choose this option, the app starts in the debugger when it's launched. 
+By default, Visual Studio starts an app immediately when you start debugging. You can also set the app to run in debug mode, but start it outside the debugger. For example, you might want to debug the launch of your app from the Windows **Start** menu, or debug a background process in the app without starting the app. If you choose this option, the app starts in the debugger when it's launched. 
 
 **To delay the app start:**  
   
@@ -157,7 +157,7 @@ For more information about debugging background tasks, see [Trigger suspend, res
   
 ###  <a name="BKMK_Start_an_installed_app_in_the_debugger"></a> Debug an installed or running UWP app 
 
-To debug a UWP app that is already installed or running, use **Debug Installed App Package**. The app can be installed locally or on a remote device. The app may have been installed from the Microsoft Store, or the app may not be a Visual Studio project. For example, the app might have a custom build system that doesn't use Visual Studio.  
+You can use **Debug Installed App Package** to debug a UWP app that is already installed or running on a local or remote device. The app may have been installed from the Microsoft Store, or it may not be a Visual Studio project. For example, the app might have a custom build system that doesn't use Visual Studio.  
   
 You can start the installed app immediately, or you can set it to run in the debugger when started with another method. For more information, see [Trigger suspend, resume, and background events for UWP apps)](../debugger/how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio.md).  
   
@@ -177,19 +177,19 @@ To attach the debugger to a [!INCLUDE[win8_appname_long](../debugger/includes/wi
    
    1. To view a list that includes the PackageFullName of all apps, type `Get-AppxPackage` at the PowerShell prompt.  
    
-   1. At the PowerShell prompt, enter `Enable-AppxDebug` <PackageFullName>` where \<PackageFullName> is the PackageFullName identifier of the app.  
+   1. At the PowerShell prompt, enter `Enable-AppxDebug <PackageFullName>`, where \<PackageFullName> is the PackageFullName identifier of the app.  
    
 1. Select **Debug** > **Attach to Process**.  
    
 1. In the **Attach to Process** dialog box, specify the remote device in the **Connection target** box. 
    
-   You can enter the device name or select it from the dropdown in the **Connection target** box, or select **Find** to find the device in the **Remote Connections** dialog box.  
+   You can enter the device name, select it from the dropdown in the **Connection target** box, or select **Find** to find the device in the **Remote Connections** dialog box.  
    
 1. To specify the type of code you want to debug, next to the **Attach to** box, select **Select**.  
    
-1. In the **Select Code Type** dialog box, either:
-   - Select **Automatically determine the type of code to debug**, or 
-   - Select **Debug these code types**, and then select one or more code types from the list.  
+1. In the **Select Code Type** dialog box, select either:
+   - **Automatically determine the type of code to debug**, or 
+   - **Debug these code types**, and then select one or more code types from the list.  
    
 1. In the **Available processes**  list, select the app process to debug.  
    
@@ -200,7 +200,7 @@ To attach the debugger to a [!INCLUDE[win8_appname_long](../debugger/includes/wi
 > [!NOTE]
 > JavaScript apps run in an instance of the *wwahost.exe* process. If more than one JavaScript app is running, you will need to know the numeric process id (PID) of your app's *wwahost.exe* process to attach to it.  
 > 
-> The easiest way to attach to your JavaScript app is to close all the other JavaScript apps. You can also note the PIDs of running *wwahost.exe* processes in Windows Task Manager before you start your app. When you start your app, its *wwahost.exe* PID will be different from the ones you previously noted.  
+> The easiest way to attach to your JavaScript app is to close all the other JavaScript apps. Or, you can note the PIDs of running *wwahost.exe* processes in Windows Task Manager before you start your app. When you start your app, its *wwahost.exe* PID will be the one that is different from those you previously noted.  
 
 ## See also  
  [Debug apps in Visual Studio](../debugger/debug-store-apps-in-visual-studio.md)   
