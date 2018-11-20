@@ -131,7 +131,7 @@ There is no specific built-in integration with a source control system. However,
 
 To specify that read-only files should be overwritten, insert this property:
 
-`<OverwriteReadOnlyOuputFiles>true</OverwriteReadOnlyOuputFiles>`
+`<OverwriteReadOnlyOutputFiles>true</OverwriteReadOnlyOutputFiles>`
 
 Unless you customize the postprocessing step, a warning will be logged in the error list when a file is overwritten.
 
