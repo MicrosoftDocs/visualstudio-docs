@@ -24,17 +24,17 @@ ms.workload:
 ---
 # Debug multiple processes
 
-Visual Studio can debug a solution that has multiple processes. While debugging, you can start and switch between processes, break, continue, and step through source, stop debugging, and terminate or detach from individual processes.  
+Visual Studio can debug a solution that has several processes. While debugging, you can start and switch between processes, break, continue, and step through source, stop debugging, and end or detach from individual processes.  
   
-<a name="BKMK_Start_multiple_processes_in_a_VS_solution__attach_to_a_process__automatically_start_a_process_in_the_debugger"></a>
+
 ##  Start debugging with multiple processes 
 
 When more than one project in a Visual Studio solution can run independently, you can select which project the debugger starts. The current startup project appears in bold in **Solution Explorer**. 
-<a name="BKMK_Change_the_startup_project"></a>
+
 To change the startup project from **Solution Explorer**, right-click a different project and select **Set as StartUp Project**.
-<a name="BKMK_Start_a_specific_project_in_a_solution"></a>
+
 To start debugging a project from **Solution Explorer** without making it the startup project, right-click the project and select **Debug** > **Start new instance** or **Step into new instance**. 
-<a name="BKMK_Start_multiple_projects_in_a_solution"></a>
+
 **To set the startup project or multiple projects from the solution Properties page:**
 
 1. Select the solution in **Solution Explorer** and then select the **Properties** icon in the toolbar, or right-click the solution and select **Properties**.  
@@ -93,7 +93,7 @@ Sometimes, you might need to debug the startup code for an app that is launched 
 ##  <a name="BKMK_Switch_processes__break_and_continue_execution__step_through_source"></a> Debug with multiple processes 
 <a name="BKMK_Configure_the_execution_behavior_of_multiple_processes"></a> 
 
-When debugging an app with multiple processes, the breaking, stepping, and stopping debugger commands affect all the processes by default. For example, when a process is suspended at a breakpoint, the execution of all other processes is also suspended. You can change this default behavior to gain more control over the targets of execution commands.  
+When debugging an app with several processes, the breaking, stepping, and stopping debugger commands affect all the processes by default. For example, when a process is suspended at a breakpoint, the execution of all other processes is also suspended. You can change this default behavior to gain more control over the targets of execution commands.  
 
 Under **Tools** (or **Debug**) > **Options** > **Debugging** > **General**, select or clear the **Break all processes when one process breaks** check box.  
   
@@ -139,33 +139,33 @@ You can attach to multiple processes when you're debugging, but only one process
 
 Switching to a process sets it as the current process for debugging purposes. Debugger windows show the state for the current process, and stepping commands affect only the current process.  
   
-##  <a name="BKMK_Stop_debugging__terminate_or_detach_from_processes"></a> Stop debugging with multiple processes  
+## Stop debugging with multiple processes  
   
-By default, when you select **Debug** > **Stop Debugging**, the debugger terminates or detaches from all processes. 
+By default, when you select **Debug** > **Stop Debugging**, the debugger ends or detaches from all processes. 
   
-- If the current process was launched in the debugger, the process is terminated.  
+- If the current process was launched in the debugger, the process is ended.  
   
 - If you attached the debugger to the current process, the debugger detaches from the process and leaves the process running.  
   
-If you start debugging a process from a Visual Studio solution, attach to another process that is already running, and then choose **Stop Debugging**, the debugging session ends. The process that was started in Visual Studio terminates, while the process you attached to keeps running. 
+If you start debugging a process from a Visual Studio solution, attach to another process that is already running, and then choose **Stop Debugging**, the debugging session ends. The process that was started in Visual Studio ends, while the process you attached to keeps running. 
 
 >[!NOTE]
 >The **Break all processes when one process breaks** debugger option does not affect stopping debugging, or terminating and detaching from processes.  
   
 To control the way that **Stop Debugging** affects an individual process, in the **Processes** window, right-click a process, and then select or clear the **Detach when debugging stopped** check box.  
   
-###  <a name="BKMK_Stop__terminate__and_detach_commands"></a> Stop, terminate, and detach commands  
+###  Stop, terminate, and detach commands  
   
 The following table describes the behaviors of the debugger stop, terminate, and detach commands with multiple processes: 
 
 |**Command**|**Description**|  
 |-|-| 
-|**Debug** > **Stop Debugging**|Unless the behavior is changed in the **Processes** window, processes started by the debugger are terminated, and attached processes are detached.|  
-|**Debug** > **Terminate All**|All processes are terminated.|  
+|**Debug** > **Stop Debugging**|Unless the behavior is changed in the **Processes** window, processes started by the debugger are ended, and attached processes are detached.|  
+|**Debug** > **Terminate All**|All processes are ended.|  
 |**Debug** > **Detach All**|The debugger detaches from all processes.|  
 |**Processes** window > **Detach Process**|The debugger detaches from the selected process.<br />Other processes maintain their existing state (suspended or running).|  
-|**Processes** window > **Terminate Process**|The selected process is terminated.<br />Other processes maintain their existing state (suspended or running).|  
-|**Processes** window > **Detach when debugging stops**|If selected, **Debug** > **Stop Debugging** detaches from the selected process. <br />If not selected, **Debug** > **Stop Debugging** terminates the selected process. |  
+|**Processes** window > **Terminate Process**|The selected process is ended.<br />Other processes maintain their existing state (suspended or running).|  
+|**Processes** window > **Detach when debugging stops**|If selected, **Debug** > **Stop Debugging** detaches from the selected process. <br />If not selected, **Debug** > **Stop Debugging** ends the selected process. |  
 ## See also  
  [Specify symbol (.pdb) and source files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)   
  [Attach to running processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)   
