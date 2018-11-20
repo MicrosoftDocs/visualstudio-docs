@@ -124,7 +124,11 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
         -   Single version # - only the specified version.  
   
         > [!IMPORTANT]
-        >  Version 2.0 of the VSIX Schema was introduced in Visual Studio 2012. To use this schema you must have Visual Studio 2012 or later installed on the machine and use the VSIXInstaller.exe that is part of that product. You can target earlier versions of Visual Studio with a Visual Studio 2012 or later VSIXInstaller, but only by using the later versions of the installer.  
+        >  Version 2.0 of the VSIX Schema was introduced in Visual Studio 2012. To use this schema you must have Visual Studio 2012 or later installed on the machine and use the VSIXInstaller.exe that is part of that product. You can target earlier versions of Visual Studio with a Visual Studio 2012 or later VSIXInstaller, but only by using the later versions of the installer. 
+        
+        VS2017 version numbers can be found here: https://docs.microsoft.com/en-us/visualstudio/install/visual-studio-build-numbers-and-release-dates?view=vs-2017#feedback
+        
+        When expressing the for VS2017 releases, the minor version should always be zero. For example, if specifying VS2017 15.3.26730.0 as a minor version, it should be expressed as [15.0.26730.0,16.0). Note this is only true for VS2017 version numbers.
   
     -   `AnyAttribute*` - The `<InstallationTarget>` element allows an open-ended set of attributes that is exposed at runtime as a name-value pair dictionary.  
   
