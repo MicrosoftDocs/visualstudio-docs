@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "IDebugProcessSecurity::GetUserName"
 ms.assetid: c73c60ac-da6e-45ae-8f04-95353a24ca3e
 caps.latest.revision: 5
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugProcessSecurity::GetUserName

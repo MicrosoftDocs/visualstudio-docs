@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugProgramProvider2::SetLocale"
 ms.assetid: b41d20a7-ba40-4c42-a450-16f413d6a04f
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugProgramProvider2::SetLocale

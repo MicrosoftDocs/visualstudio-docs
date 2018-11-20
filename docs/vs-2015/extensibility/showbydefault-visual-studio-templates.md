@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "ShowByDefault element [Visual Studio Templates]"
 ms.assetid: 7be783f6-0ef6-42bc-924a-df9a2eba7781
 caps.latest.revision: 8
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # ShowByDefault (Visual Studio Templates)

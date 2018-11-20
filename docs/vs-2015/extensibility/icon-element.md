@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "Icon element (VSCT XML schema)"
 ms.assetid: 73c58fe3-d53c-4f4e-b025-29567c6cbb7c
 caps.latest.revision: 6
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Icon Element

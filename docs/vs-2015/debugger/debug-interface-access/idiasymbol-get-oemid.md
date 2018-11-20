@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSymbol::get_oemId method"
 ms.assetid: c472830f-c3eb-46ab-9498-cd637763d241
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_oemId

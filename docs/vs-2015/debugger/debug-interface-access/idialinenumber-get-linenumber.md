@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaLineNumber::get_lineNumber method"
 ms.assetid: 2dff3fd9-097d-4645-bc1b-cb65ecbc42a6
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaLineNumber::get_lineNumber

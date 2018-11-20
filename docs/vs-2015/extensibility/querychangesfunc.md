@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "QUERYCHANGESDATA structure"
 ms.assetid: 9d383e2c-eee1-4996-973a-0652d4c5951c
 caps.latest.revision: 17
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # QUERYCHANGESFUNC

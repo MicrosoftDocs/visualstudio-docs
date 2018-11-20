@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "source control plug-ins, deleting items"
 ms.assetid: 6f2e872c-5ba2-4303-9f50-a90cef9a6225
 caps.latest.revision: 13
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Test Area 6: Delete

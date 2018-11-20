@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "views [Visual Studio SDK], VSCodeWindowManager object"
 ms.assetid: e313add5-afdb-4d8d-abd1-764e1fc10c44
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # VSCodeWindowManager Object

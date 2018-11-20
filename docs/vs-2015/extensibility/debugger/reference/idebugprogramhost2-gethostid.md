@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugProgramHost2::GetHostId"
 ms.assetid: 7702e221-feb1-446b-a224-cb46c420987e
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugProgramHost2::GetHostId

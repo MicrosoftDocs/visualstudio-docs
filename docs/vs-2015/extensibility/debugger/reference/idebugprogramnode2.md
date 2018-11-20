@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugProgramNode2 interface"
 ms.assetid: 80e511d8-9b40-4a85-aa5d-952fa5ee6ae7
 caps.latest.revision: 21
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugProgramNode2

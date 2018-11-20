@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugProgramDestroyEvent2::GetExitCode"
 ms.assetid: 7f540cf6-e2d1-42b0-913e-a26d654b7659
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugProgramDestroyEvent2::GetExitCode

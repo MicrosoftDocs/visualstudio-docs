@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "debugging, VSPackages"
 ms.assetid: 274673e7-72e7-476f-a263-3411b5b874be
 caps.latest.revision: 23
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Troubleshooting VSPackages

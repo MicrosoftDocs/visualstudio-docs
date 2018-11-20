@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "VSPackages, installation directory"
 ms.assetid: 01fbbb5b-f747-446c-afe0-2a081626a945
 caps.latest.revision: 18
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Choosing the Installation Directory for a VSPackage

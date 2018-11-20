@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f0300371-9cac-4def-a3f5-7d7b62dcd6f3
 caps.latest.revision: 3
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "kamrani"
 ---
 # How to: Respond to Changes in a UML Model

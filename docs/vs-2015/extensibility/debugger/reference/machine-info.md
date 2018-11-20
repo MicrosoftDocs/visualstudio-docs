@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "MACHINE_INFO structure"
 ms.assetid: e7564ff2-00b5-4750-8fd5-dc1029a16912
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # MACHINE_INFO

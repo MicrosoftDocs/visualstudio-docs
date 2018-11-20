@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "font and color control [Visual Studio SDK], coloring"
 ms.assetid: d1f985bd-743e-40b7-9458-d9af53647c91
 caps.latest.revision: 23
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Getting Font and Color Information for Text Colorization

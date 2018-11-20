@@ -27,8 +27,8 @@ helpviewer_keywords:
   - "CvEnterSpanExW method"
 ms.assetid: 91689e9c-6733-44b9-b36a-8b9b2eef7d1d
 caps.latest.revision: 8
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # CvEnterSpan Function

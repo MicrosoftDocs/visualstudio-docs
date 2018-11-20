@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], interfaces"
 ms.assetid: 79875cbb-f946-49d4-94eb-941d0e1a40b2
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Interfaces (Visual Studio Debugging)

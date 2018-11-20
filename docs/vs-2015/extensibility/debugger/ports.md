@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], ports"
 ms.assetid: 1d7f3aa7-7eff-4cab-bc53-0a566b1a9363
 caps.latest.revision: 14
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Ports

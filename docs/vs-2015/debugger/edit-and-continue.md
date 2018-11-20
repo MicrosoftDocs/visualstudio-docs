@@ -25,8 +25,8 @@ helpviewer_keywords:
   - "debugger, tools for debugging"
 ms.assetid: 2cdd4531-7117-4221-a809-8447812de2a1
 caps.latest.revision: 27
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Edit and Continue

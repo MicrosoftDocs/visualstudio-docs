@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 5d71f906-6e50-4399-b59b-d38c6dfef7ee
 caps.latest.revision: 5
-author: "TerryGLee"
-ms.author: "tglee"
+author: conceptdev
+ms.author: crdun
 manager: "ghogen"
 ---
 # Share the Unity Log Callback with VSTU

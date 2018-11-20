@@ -30,7 +30,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Specify symbol (.pdb) and source files in the Visual Studio debugger
+# Specify symbol (.pdb) and source files in the Visual Studio debugger (C#, C++, Visual Basic, F#)
 
 Program database (*.pdb*) files, also called symbol files, map identifiers and statements in your project's source code to corresponding identifiers and instructions in compiled apps. 
 

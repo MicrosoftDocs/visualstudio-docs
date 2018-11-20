@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "WCF, debugging"
 ms.assetid: 6c8974d0-2c15-4d9f-a7f3-cabd4b204cda
 caps.latest.revision: 18
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Debugging WCF Services

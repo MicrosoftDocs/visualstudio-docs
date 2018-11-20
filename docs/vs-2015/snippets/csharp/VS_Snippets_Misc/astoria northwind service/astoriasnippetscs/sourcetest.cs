@@ -93,12 +93,12 @@ namespace AstoriaSnippetsCS
         }
 
         /// <summary>
-        ///A test for ProjectWithConvertion
+        ///A test for ProjectWithConversion
         ///</summary>
         [TestMethod()]
-        public void ProjectWithConvertionTest()
+        public void ProjectWithConversionTest()
         {
-            Source.ProjectWithConvertion();
+            Source.ProjectWithConversion();
         }
 
         /// <summary>

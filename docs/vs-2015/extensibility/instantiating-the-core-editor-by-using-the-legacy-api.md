@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], legacy - instantiating editor"
 ms.assetid: dda23b18-96ef-43c6-b0dc-06d15cbe5cbb
 caps.latest.revision: 30
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Instantiating the Core Editor By Using the Legacy API

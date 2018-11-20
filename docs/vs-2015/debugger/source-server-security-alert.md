@@ -18,8 +18,8 @@ dev_langs:
   - "C++"
 ms.assetid: 8451c281-6914-469c-b80c-6271cc3f3d17
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Source Server Security Alert

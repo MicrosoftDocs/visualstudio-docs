@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "GetPendingBreakpoint method"
 ms.assetid: 22f94f81-f8d9-46de-96e9-fae6f3c24903
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugBoundBreakpoint2::GetPendingBreakpoint

@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "debugger"
 ms.assetid: 590f152d-31e2-4e13-b808-a1b13e421483
 caps.latest.revision: 55
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Debugging in Visual Studio

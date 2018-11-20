@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "SccWillCreateSccFile function"
 ms.assetid: 0d7542f0-4351-41b3-b24c-960ab99c05a1
 caps.latest.revision: 13
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # SccWillCreateSccFile Function

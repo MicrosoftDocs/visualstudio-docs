@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "FRAMEINFO structure"
 ms.assetid: 95001b89-dddb-45bb-889d-8327994e38a5
 caps.latest.revision: 9
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # FRAMEINFO

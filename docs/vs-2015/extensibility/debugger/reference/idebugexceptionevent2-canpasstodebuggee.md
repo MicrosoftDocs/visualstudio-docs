@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugExceptionEvent2::CanPassToDebuggee"
 ms.assetid: ae4bbe0a-fbe1-49be-a310-ea64279a434b
 caps.latest.revision: 13
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugExceptionEvent2::CanPassToDebuggee

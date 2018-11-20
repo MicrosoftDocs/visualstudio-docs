@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "PENDING_BP_STATE_INFO structure"
 ms.assetid: 4d73ceff-43f9-4e95-8dba-88e1fab2def3
 caps.latest.revision: 9
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # PENDING_BP_STATE_INFO

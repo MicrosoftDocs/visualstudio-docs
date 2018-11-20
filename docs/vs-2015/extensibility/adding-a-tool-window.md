@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "tool windows"
 ms.assetid: 8e16c381-03c8-404e-92ef-3614cdf3150a
 caps.latest.revision: 53
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Adding a Tool Window

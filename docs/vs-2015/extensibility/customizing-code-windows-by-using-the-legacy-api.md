@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], legacy - code windows"
 ms.assetid: 5328ab2f-55cb-4680-9744-ec79f55acd1b
 caps.latest.revision: 20
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Customizing Code Windows by Using the Legacy API

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugProcessCreateEvent2"
 ms.assetid: c660439d-8b23-4dbb-923e-ebb5e1d7edf5
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugProcessCreateEvent2

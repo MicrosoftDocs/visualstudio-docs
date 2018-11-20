@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "Functions view"
 ms.assetid: 029d5ebb-e551-46b0-b64e-2c553d9dbb8e
 caps.latest.revision: 17
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Functions View - Sampling Data

@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], legacy - walkthrough"
 ms.assetid: 24d2bffd-a35c-46db-8515-fd60b884b7fb
 caps.latest.revision: 30
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Walkthrough: Creating a Core Editor and Registering an Editor File Type

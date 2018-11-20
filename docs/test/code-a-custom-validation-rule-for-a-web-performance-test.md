@@ -132,11 +132,11 @@ namespace SampleWebTestRules
             {
                 if (numTagsFound > 0)
                 {
-                    e.Message = String.Format("Only found {0} occurences of the tag", numTagsFound);
+                    e.Message = String.Format("Only found {0} occurrences of the tag", numTagsFound);
                 }
                 else
                 {
-                    e.Message = String.Format("Did not find any occurences of tag '{0}'", RequiredTagName);
+                    e.Message = String.Format("Did not find any occurrences of tag '{0}'", RequiredTagName);
                 }
             }
         }
@@ -227,9 +227,9 @@ Namespace SampleWebTestRules
             ' If the validation fails, set the error text that the user sees
             If Not (validated) Then
                 If numTagsFound > 0 Then
-                    e.Message = String.Format("Only found {0} occurences of the tag", numTagsFound)
+                    e.Message = String.Format("Only found {0} occurrences of the tag", numTagsFound)
                 Else
-                    e.Message = String.Format("Did not find any occurences of tag '{0}'", RequiredTagName)
+                    e.Message = String.Format("Did not find any occurrences of tag '{0}'", RequiredTagName)
                 End If
             End If
         End Sub

@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "profiling tools,.NET memory method"
 ms.assetid: 57acf2b0-327a-4c0e-8078-ac2f6d99457d
 caps.latest.revision: 18
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Collecting Memory Data from an ASP.NET Web Application by Using the Profiler Command Line

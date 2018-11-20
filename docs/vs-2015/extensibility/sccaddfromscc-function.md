@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "SccAddFromScc function"
 ms.assetid: 902e764d-200e-46e1-8c42-4da7b037f9a0
 caps.latest.revision: 18
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # SccAddFromScc Function

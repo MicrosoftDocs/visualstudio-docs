@@ -16,8 +16,8 @@ dev_langs:
   - "C++"
 ms.assetid: 51893967-98c8-4141-ba40-03646f221760
 caps.latest.revision: 16
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Debug HTML, CSS, and JavaScript sample code

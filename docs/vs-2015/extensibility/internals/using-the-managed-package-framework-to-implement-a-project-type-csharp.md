@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "managed package framework, creating projects"
 ms.assetid: 926de536-eead-415b-9451-f1ddc8c44630
 caps.latest.revision: 21
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Using the Managed Package Framework to Implement a Project Type (C#)

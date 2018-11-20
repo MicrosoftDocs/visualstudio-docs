@@ -16,8 +16,8 @@ f1_keywords:
   - "vs.performance.rules.DA0005"
 ms.assetid: 8d3f267c-8a74-4cf4-91a5-0b06a76dc2bd
 caps.latest.revision: 16
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # DA0005: Frequent GC2 collections

@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "<SupportsCodeSeparation> element [Visual Studio Templates]"
 ms.assetid: 8112aac8-a269-40e5-b92b-9b9a6ff5a542
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # SupportsCodeSeparation Element (Visual Studio Templates)

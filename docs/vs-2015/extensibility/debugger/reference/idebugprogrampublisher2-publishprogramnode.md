@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugProgramPublisher2::PublishProgramNode"
 ms.assetid: d4b72e04-f726-46cf-8e56-5203ff205b12
 caps.latest.revision: 9
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugProgramPublisher2::PublishProgramNode

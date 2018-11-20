@@ -139,7 +139,7 @@ Select an operation in the summary view to view more details.
 
 For more information, see [Network Usage](../profiling/network-usage.md).
 
-## <a name="modules_window"></a> Get more familiar with how the debugger attaches to your app
+## <a name="modules_window"></a> Get more familiar with how the debugger attaches to your app (C#, C++, Visual Basic, F#)
 
 To attach to your running app, the debugger loads symbol (.pdb) files generated for the exact same build of the app you are trying to debug. In some scenarios, a little knowledge of symbol files can be helpful. You can examine how Visual Studio loads symbol files using the **Modules** window.
 

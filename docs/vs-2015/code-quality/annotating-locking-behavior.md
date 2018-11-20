@@ -35,8 +35,8 @@ f1_keywords:
   - "_Lock_kind_event_"
 ms.assetid: 07769c25-9b97-4ab7-b175-d1c450308d7a
 caps.latest.revision: 11
-author: "corob-msft"
-ms.author: gewarren
+author: mikeblome
+ms.author: mblome
 manager: "ghogen"
 ---
 # Annotating Locking Behavior

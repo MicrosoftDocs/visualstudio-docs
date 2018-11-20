@@ -24,7 +24,7 @@ helpviewer_keywords:
   - "dependency graphs, browsing"
 ms.assetid: 08f65f77-6ca7-4b25-b060-3f6c9f5847a4
 caps.latest.revision: 91
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
 manager: "douge"
 ---

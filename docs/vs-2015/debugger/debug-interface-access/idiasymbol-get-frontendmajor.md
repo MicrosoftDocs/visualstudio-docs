@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSymbol::get_frontEndMajor method"
 ms.assetid: f8a067c5-3306-4fc5-bc20-8910a47ed504
 caps.latest.revision: 12
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_frontEndMajor

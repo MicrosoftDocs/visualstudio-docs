@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "automation [Visual Studio SDK], creating Tools Options pages"
 ms.assetid: 0b25b82c-7432-4e0a-9e84-350269ba8260
 caps.latest.revision: 30
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Automation Support for Options Pages

@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "Concurrency Visualizer, Cores View Legend"
 ms.assetid: e160384c-fcfe-49b3-86b7-229adb736c51
 caps.latest.revision: 17
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Cores View Legend

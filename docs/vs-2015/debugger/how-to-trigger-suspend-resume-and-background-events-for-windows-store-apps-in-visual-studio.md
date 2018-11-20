@@ -18,8 +18,8 @@ dev_langs:
   - "C++"
 ms.assetid: 824ff3ca-fedf-4cf5-b3e2-ac8dc82d40ac
 caps.latest.revision: 20
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to trigger suspend, resume, and background events for Windows Store apps in Visual Studio

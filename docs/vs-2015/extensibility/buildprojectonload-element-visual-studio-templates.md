@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b07d3074-0fc9-45e1-baf5-da6bd4f3f1c0
 caps.latest.revision: 9
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # BuildProjectOnload Element (Visual Studio Templates)

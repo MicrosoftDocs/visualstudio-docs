@@ -319,11 +319,11 @@ When you find the region of code with the problem, use the debugger to investiga
 * Check whether your application is executing the code that you expect. (For example, in the sample application, we expected the code for the switch statement to set the galaxy type to Irregular, but the app skipped the code due to the typo.)
 
 > [!TIP]
-> You use a debugger to help you find bugs. A debugging tool can find bugs *for you* only if it knows the intent of your code. A tool can only know the intent of your code if you, the developer, express that intent. Writing [unit tests](../test/improve-code-quality.md) is how you do that.
+> You use a debugger to help you find bugs. A debugging tool can find bugs *for you* only if it knows the intent of your code. A tool can only know the intent of your code if you, the developer, express that intent. Writing [unit tests](../test/improve-code-quality.md) is how you do that. 
 
 ## Next steps
 
-In this article, you've learned a few general debugging concepts. Next, you can start learning how to debug with Visual Studio.
+In this article, you've learned a few general debugging concepts. Next, you can start learning more about the debugger.
 
 > [!div class="nextstepaction"]
 > [Learn to debug using Visual Studio](../debugger/getting-started-with-the-debugger.md)

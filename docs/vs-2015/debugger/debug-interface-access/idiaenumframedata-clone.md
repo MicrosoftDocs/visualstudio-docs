@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaEnumFrameData::Clone Method"
 ms.assetid: 28a17300-1626-422f-a17a-3a4d3872c37c
 caps.latest.revision: 10
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaEnumFrameData::Clone

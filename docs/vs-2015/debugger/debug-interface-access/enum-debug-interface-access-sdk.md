@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "Enum symbol"
 ms.assetid: c777e2e6-88be-435b-b632-8d43f42b0b49
 caps.latest.revision: 18
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Enum (Debug Interface Access SDK)

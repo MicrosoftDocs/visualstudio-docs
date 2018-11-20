@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "IDebugPortSupplierDescription2::GetDescription"
 ms.assetid: bff5f536-1cd1-4313-8856-db7b05818305
 caps.latest.revision: 9
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugPortSupplierDescription2::GetDescription

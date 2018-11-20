@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "memory leaks, JavaScript example"
 ms.assetid: f595412f-776b-49a2-8433-ea0062c6904d
 caps.latest.revision: 36
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Walkthrough: Find a memory leak (JavaScript)

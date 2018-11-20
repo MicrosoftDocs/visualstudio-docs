@@ -19,8 +19,8 @@ dev_langs:
   - "SQL"
 ms.assetid: 7a4d4999-3973-4339-ba6a-f0d19bcb1d4a
 caps.latest.revision: 12
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Error: Transact-SQL execution ended without debugging

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "ADDRESS_KIND enumeration"
 ms.assetid: 3a12fbec-7088-4cf9-8f6f-ad8ddec6009a
 caps.latest.revision: 9
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # ADDRESS_KIND

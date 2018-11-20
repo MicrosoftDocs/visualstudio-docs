@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "DIA SDK, structures"
 ms.assetid: d17eed2d-d8fd-4a47-82d3-8125c0624010
 caps.latest.revision: 14
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Enumerations and Structures

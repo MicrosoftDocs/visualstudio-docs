@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "VSCT XML schema elements, Combos"
 ms.assetid: 392e3063-f0a0-4130-9583-23bd2aa3fa36
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Combo Element

@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "projects [Visual Studio SDK], new project types"
 ms.assetid: bdb2d22e-d622-450c-bb2d-98152a745fcf
 caps.latest.revision: 26
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Creating Project Types

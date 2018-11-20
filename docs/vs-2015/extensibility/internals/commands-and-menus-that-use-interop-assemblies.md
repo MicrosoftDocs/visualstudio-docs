@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "command handling with interop assemblies"
 ms.assetid: 8f4af525-39e5-4e69-92c8-d3efabe80bb2
 caps.latest.revision: 14
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Commands and Menus That Use Interop Assemblies

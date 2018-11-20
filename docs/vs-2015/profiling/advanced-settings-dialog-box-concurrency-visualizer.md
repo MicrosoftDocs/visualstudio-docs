@@ -13,8 +13,8 @@ f1_keywords:
   - "vs.cv.settings"
 ms.assetid: bb3d90aa-5f08-4953-9be0-be6cea11633d
 caps.latest.revision: 14
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Advanced Settings Dialog Box (Concurrency Visualizer)

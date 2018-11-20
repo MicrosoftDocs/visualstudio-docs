@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "tool windows, dynamic"
 ms.assetid: 21547ba7-6e81-44df-9277-265bf34f877a
 caps.latest.revision: 22
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Opening a Dynamic Tool Window

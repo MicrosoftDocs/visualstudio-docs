@@ -19,8 +19,8 @@ dev_langs:
   - "C++"
 ms.assetid: fb91203f-2cf4-44d3-8ed9-93bc5aaa50b8
 caps.latest.revision: 27
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Start a debugging session for Store Apps in Visual Studio (JavaScript)

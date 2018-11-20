@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "ATTACH_REASON enumeration"
 ms.assetid: 159fb70b-a344-4ba6-9115-b7eaa16e228f
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # ATTACH_REASON

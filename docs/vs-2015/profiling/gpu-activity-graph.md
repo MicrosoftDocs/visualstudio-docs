@@ -13,8 +13,8 @@ f1_keywords:
   - "vs.cv.cpu.graph.gpu"
 ms.assetid: d7c769af-95fb-49a3-b5ab-deafecee46fa
 caps.latest.revision: 14
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # GPU Activity Graph

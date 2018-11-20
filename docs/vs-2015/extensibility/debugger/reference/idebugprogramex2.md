@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugProgramEx2 interface"
 ms.assetid: 663359ed-635a-4539-addb-0cc52f19d1bd
 caps.latest.revision: 19
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugProgramEx2

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugObject::GetValue method"
 ms.assetid: eec6051e-8ecb-49fa-bdd4-dd786f211692
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugObject::GetValue

@@ -19,11 +19,11 @@ ms.workload:
 ---
 # Inspect variables in the Autos and Locals windows
 
-The **Autos** and **Locals** windows show variable values while you are debugging. The windows are only available during a debugging session.
+The **Autos** and **Locals** windows show variable values while you are debugging. The windows are only available during a debugging session. The **Autos** window shows variables used around the current breakpoint. The **Locals** window shows variables defined in the local scope, which is usually the current function or method. If this is the first time that you've tried to debug code, you may want to read [Write better C# code using Visual Studio](../debugger/write-better-code-with-visual-studio.md) and [Debugging for absolute beginners](../debugger/debugging-absolute-beginners.md) before going through this article.
 
-The **Autos** window shows variables used around the current breakpoint. The **Locals** window shows variables defined in the local scope, which is usually the current function or method.
-
-To open the **Autos** window, while debugging, select **Debug** > **Windows** > **Autos**, or press **Ctrl**+**Alt**+**V** > **A**.
+ The **Autos** window is available for C#, Visual Basic, C++, and Python code, but not for JavaScript or F#.
+  
+To open the **Autos** window, while debugging, select **Debug** > **Windows** > **Autos**, or press **Ctrl**+**Alt**+**V** > **A**.  
 
 To open the **Locals** window, while debugging, select **Debug** > **Windows** > **Locals**, or press **Alt**+**4**.
 
@@ -67,9 +67,7 @@ Set a breakpoint and start debugging. When the breakpoint is hit, execution paus
 
 ![Debug Location toolbar](../debugger/media/debuglocationtoolbar.png "Debug Location toolbar")
 
-## <a name="bkmk_whatvariables"></a> Variables in the Autos window
-
- The **Autos** window is available for C#, Visual Basic, and C++ code, but not for JavaScript or F#.
+## <a name="bkmk_whatvariables"></a> Variables in the Autos window (C#, C++, Visual Basic, Python)
 
  Different code languages display different variables in the **Autos** window.
 
@@ -141,13 +139,14 @@ private static int subtractVars(int i, int j)
 
 To see the return values of the `sumVars()` and `subtractVars()` method calls in the Autos window:
 
-1. Set a breakpoint on the `int x = sumVars(a, b) + subtractVars(c, d);` line.
-
-1. Start debugging, and when execution pauses at the breakpoint, select **Step Over** or press **F10**. You should see the following return values in the **Autos** window:
-
-  ![Autos return value C#](../debugger/media/autosreturnvaluecsharp2.png "Autos return value C#")
-
-## See also
-
-- [Debugger windows](../debugger/debugger-windows.md)
-- [Data visualizations in Visual Studio for Mac](/visualstudio/mac/data-visualizations)
+1. Set a breakpoint on the `int x = sumVars(a, b) + subtractVars(c, d);` line.  
+   
+1. Start debugging, and when execution pauses at the breakpoint, select **Step Over** or press **F10**. You should see the following return values in the **Autos** window:  
+   
+  ![Autos return value C#](../debugger/media/autosreturnvaluecsharp2.png "Autos return value C#")  
+  
+## See also  
+ [What is debugging?](../debugger/what-is-debugging.md)  
+ [Write better C# code using Visual Studio](../debugger/write-better-code-with-visual-studio.md)  
+ [First look at debugging](../debugger/debugger-feature-tour.md)
+ [Debugger windows](../debugger/debugger-windows.md)

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugObject2 interface"
 ms.assetid: ef640967-8adb-4793-994d-ae1736510891
 caps.latest.revision: 16
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugObject2

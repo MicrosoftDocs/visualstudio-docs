@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugArrayField interface"
 ms.assetid: 9667b0a5-4295-46cc-9388-b75c1350be15
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugArrayField

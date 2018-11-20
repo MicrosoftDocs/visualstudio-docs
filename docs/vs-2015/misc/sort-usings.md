@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "using statements, sorting"
 ms.assetid: 015c0761-5e0f-4e7f-a51f-045beb3f0af6
 caps.latest.revision: 12
-author: "BillWagner"
-ms.author: "billchi"
+author: BillWagner
+ms.author: wiwagn
 manager: "douge"
 ---
 # Sort Usings

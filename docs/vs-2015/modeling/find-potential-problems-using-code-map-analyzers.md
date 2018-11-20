@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "graph documents, analyzing"
 ms.assetid: 9dd799a7-f7eb-42ff-8612-b19dde7ff4eb
 caps.latest.revision: 13
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
 manager: "douge"
 ---

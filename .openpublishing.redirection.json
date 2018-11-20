@@ -6871,6 +6871,11 @@
             "source_path": "docs/javascript/index.md",
             "redirect_url": "/visualstudio/javascript/quickstart-vuejs-with-nodejs",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/docker/vs-azure-tools-docker-machine-azure-config.md",
+            "redirect_url": "/visualstudio/docker/",
+            "redirect_document_id": false
         }
     ]
 }

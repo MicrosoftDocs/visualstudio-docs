@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "programs, debugging"
 ms.assetid: e1f955d8-95da-493b-837e-e97741a26d7e
 caps.latest.revision: 13
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Programs

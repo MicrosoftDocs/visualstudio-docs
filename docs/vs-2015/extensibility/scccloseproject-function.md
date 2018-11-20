@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "SccCloseProject function"
 ms.assetid: 259c2069-d349-4814-810f-1c3151b7fb84
 caps.latest.revision: 16
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # SccCloseProject Function

@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaLoadCallback::RestrictRegistryAccess method"
 ms.assetid: de4760c3-a746-4bab-8065-1388fed31b67
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaLoadCallback::RestrictRegistryAccess

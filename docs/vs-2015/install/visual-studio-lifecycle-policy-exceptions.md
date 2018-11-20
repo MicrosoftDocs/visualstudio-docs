@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c238489d-6181-42c6-aa60-f75d0889dc68
 caps.latest.revision: 3
-author: "TerryGLee"
-ms.author: "tglee"
+author: TerryGLee
+ms.author: tglee
 manager: "ghogen"
 ---
 # Visual Studio Lifecycle Policy Exceptions

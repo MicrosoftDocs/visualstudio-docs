@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "IDebugComPlusSymbolProvider::LoadSymbols"
 ms.assetid: 3499680d-0b9a-4f20-8432-c89a41b29b87
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugComPlusSymbolProvider::LoadSymbols

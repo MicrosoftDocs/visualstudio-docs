@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugClassField::DoesInterfaceExist method"
 ms.assetid: cc0c8642-1a76-4fda-a309-7018a34883c9
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugClassField::DoesInterfaceExist

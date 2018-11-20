@@ -24,8 +24,8 @@ helpviewer_keywords:
   - "executable files, debugging outside of projects"
 ms.assetid: 3ea176e8-1ce5-42c4-b7a2-abe3a2765033
 caps.latest.revision: 26
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Debug an Executable Not Part of a Visual Studio Solution

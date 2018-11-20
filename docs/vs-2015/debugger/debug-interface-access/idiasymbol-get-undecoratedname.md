@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSymbol::get_undecoratedName method"
 ms.assetid: e49edf25-a51d-4787-bd5b-2bf5af827c8c
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_undecoratedName

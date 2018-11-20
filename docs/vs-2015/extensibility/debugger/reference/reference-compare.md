@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "REFERENCE_COMPARE enumeration"
 ms.assetid: e31cdc78-f621-498b-9ca4-aefa790b9f6f
 caps.latest.revision: 9
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # REFERENCE_COMPARE

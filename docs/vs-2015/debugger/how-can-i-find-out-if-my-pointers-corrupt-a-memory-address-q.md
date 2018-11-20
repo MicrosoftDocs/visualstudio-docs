@@ -24,8 +24,8 @@ helpviewer_keywords:
   - "corrupted memory address"
 ms.assetid: a147c939-4fb1-415c-8410-cf303781e9e8
 caps.latest.revision: 22
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How Can I Find Out If My Pointers Corrupt a Memory Address?

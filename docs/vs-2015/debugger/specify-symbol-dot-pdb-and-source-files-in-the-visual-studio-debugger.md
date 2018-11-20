@@ -29,8 +29,8 @@ helpviewer_keywords:
   - "debugger"
 ms.assetid: 1105e169-5272-4e7c-b3e7-cda1b7798a6b
 caps.latest.revision: 36
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Specify Symbol (.pdb) and Source Files in the Visual Studio Debugger

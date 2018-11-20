@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "CATIDs for VSPackages"
 ms.assetid: 0c7fdb66-ed96-4b36-89f6-021bca573572
 caps.latest.revision: 17
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # CATIDs for Objects That Are Typically Used to Extend Projects

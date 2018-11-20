@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaEnumSymbolsByAddr::Prev method"
 ms.assetid: da3b3dca-68cb-4cb0-b25c-e28a1ffe49d3
 caps.latest.revision: 10
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaEnumSymbolsByAddr::Prev

@@ -13,8 +13,8 @@ dev_langs:
   - "C++"
 ms.assetid: 386c87aa-f7b2-4d38-9dd6-fffba9ff01f0
 caps.latest.revision: 6
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSession::findAcceleratorInlineesByLinenum

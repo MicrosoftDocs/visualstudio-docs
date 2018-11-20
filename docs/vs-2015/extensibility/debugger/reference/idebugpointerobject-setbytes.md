@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugPointerObject::SetBytes method"
 ms.assetid: 8c578b38-38d7-46f3-bb2e-8a730fccd334
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugPointerObject::SetBytes

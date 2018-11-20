@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "nested projects, implementing command handling"
 ms.assetid: 48a9d66e-d51c-4376-a95a-15796643a9f2
 caps.latest.revision: 14
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Implementing Command Handling for Nested Projects

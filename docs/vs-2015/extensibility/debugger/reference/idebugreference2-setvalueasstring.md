@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugReference2::SetValueAsString"
 ms.assetid: 9a508ced-fd54-44f5-bb42-ec15c80384d7
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugReference2::SetValueAsString

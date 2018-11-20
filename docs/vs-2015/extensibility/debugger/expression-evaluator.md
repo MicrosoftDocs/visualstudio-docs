@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "expression evaluation"
 ms.assetid: f9381b2f-99aa-426c-aea0-d9c15f3c859b
 caps.latest.revision: 20
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Expression Evaluator

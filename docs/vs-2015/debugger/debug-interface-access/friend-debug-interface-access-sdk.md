@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "Friend symbol"
 ms.assetid: 5147a170-41ce-4727-8ace-c318e8d11647
 caps.latest.revision: 19
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Friend (Debug Interface Access SDK)

@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "Spy++ dialog boxes"
 ms.assetid: 81710456-2600-4468-a448-3fb21c7bda82
 caps.latest.revision: 8
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Other Dialog Boxes

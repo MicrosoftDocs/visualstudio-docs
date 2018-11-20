@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugSymbolProvider::GetLanguage method"
 ms.assetid: e4142183-3d8b-418f-907f-4ee4c753d8ce
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugSymbolProvider::GetLanguage

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "language services [managed package framework], IntelliSense Quick Info"
 ms.assetid: 159ccb0b-f5d6-4912-b88b-e9612924ed5e
 caps.latest.revision: 17
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Quick Info in a Legacy Language Service

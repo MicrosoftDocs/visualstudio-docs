@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "Concurrency::diagnostic::marker_series::write_message method"
 ms.assetid: 546121bc-67e0-4a5a-a456-12bd78fd6de2
 caps.latest.revision: 8
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # marker_series::write_message Method

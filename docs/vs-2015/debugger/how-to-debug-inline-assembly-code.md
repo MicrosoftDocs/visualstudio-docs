@@ -23,8 +23,8 @@ helpviewer_keywords:
   - "inline assembly, debugging"
 ms.assetid: cc5664e0-0b38-40c1-bb65-04ae720c2adb
 caps.latest.revision: 24
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Debug Inline Assembly Code

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "packages"
 ms.assetid: 8b86d62f-c274-4e91-82e0-38cdb9a423d5
 caps.latest.revision: 16
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Anatomy of a VSIX Package

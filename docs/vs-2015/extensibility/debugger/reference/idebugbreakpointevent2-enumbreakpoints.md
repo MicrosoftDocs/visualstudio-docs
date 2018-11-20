@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugBreakpointEvent2:::EnumBreakpoints"
 ms.assetid: 606a9625-ee43-4e84-9a47-af9a50d2d005
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugBreakpointEvent2::EnumBreakpoints

@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "command routing"
 ms.assetid: 998b616b-bd08-45cb-845f-808efb8c33bc
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Command Routing Algorithm

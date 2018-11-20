@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSymbol::get_backEndMajor method"
 ms.assetid: 900a05dd-c29b-44ad-b46b-f43bda819a66
 caps.latest.revision: 12
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_backEndMajor

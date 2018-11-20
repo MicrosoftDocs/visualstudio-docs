@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugReference2::GetParent"
 ms.assetid: e3061665-ad3e-4c1b-b33f-82755fa21be3
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugReference2::GetParent

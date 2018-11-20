@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "UML, modeling requirements"
 ms.assetid: 359900f8-6d69-493d-bfdf-2c9069c74a26
 caps.latest.revision: 30
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
 manager: "douge"
 ---

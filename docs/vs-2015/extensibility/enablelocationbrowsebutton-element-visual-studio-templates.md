@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "EnableLocationBrowseButton [Visual Studio project templates]"
 ms.assetid: a12d10d8-af49-482a-af77-e084fd07a47d
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # EnableLocationBrowseButton Element (Visual Studio Templates)

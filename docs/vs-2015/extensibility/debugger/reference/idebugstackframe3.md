@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugStackFrame3 interface"
 ms.assetid: 39af2f57-0a01-42b8-b093-b7fbc61e2909
 caps.latest.revision: 16
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugStackFrame3

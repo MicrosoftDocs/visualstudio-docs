@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "Call Tree view"
 ms.assetid: 5c4e8ec3-d0d3-485a-93bd-9060df4eb739
 caps.latest.revision: 21
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Call Tree View - Sampling Data

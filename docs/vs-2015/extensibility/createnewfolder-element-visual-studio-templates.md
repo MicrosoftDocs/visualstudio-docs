@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "CreateNewFolder element [Visual Studio project templates]"
 ms.assetid: acef2016-4140-45d6-ace8-b8160eabd676
 caps.latest.revision: 15
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # CreateNewFolder Element (Visual Studio Templates)

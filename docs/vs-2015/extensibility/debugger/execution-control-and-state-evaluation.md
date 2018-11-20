@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "expression evaluation, control of execution"
 ms.assetid: 55adde38-1622-4b51-83cb-ce1b04c1ca7a
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Execution Control and State Evaluation

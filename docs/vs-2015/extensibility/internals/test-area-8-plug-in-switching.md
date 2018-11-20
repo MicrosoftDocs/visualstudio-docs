@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "source control plug-ins, switching"
 ms.assetid: 01370792-b5da-4e46-9ce2-7dd326587141
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Test Area 8: Plug-in Switching

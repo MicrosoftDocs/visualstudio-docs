@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "check subtypes"
 ms.assetid: b87780ec-36a3-4e9a-9ee2-7abdc26db739
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Verifying Subtypes of a Project at Run Time

@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "pseudovariables"
 ms.assetid: fae84f68-2138-4144-9bd4-c9e271b6182a
 caps.latest.revision: 40
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Pseudovariables
