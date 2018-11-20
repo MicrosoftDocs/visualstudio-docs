@@ -25,7 +25,7 @@ ms.workload:
 # Expressions in the Visual Studio debugger
 The Visual Studio debugger includes expression evaluators that work when you enter an expression in the **QuickWatch** dialog box, **Watch** window, or **Immediate** window. The expression evaluators are also at work in the **Breakpoints** window and many other places in the debugger.
   
- The following sections give details about  expressions in different languages.  
+ The following sections describes limitations of expression evaluation for languages supported by Visual Studio.
   
 ## F# expressions are not supported  
  F# expressions are not recognized. If you are debugging F# code, you need to translate your expressions into C# syntax before entering the expressions into a debugger window or dialog box. When you translate expressions from F# to C#, be sure to remember that C# uses the `==` operator to test for equality, while F# uses the single `=`.  
