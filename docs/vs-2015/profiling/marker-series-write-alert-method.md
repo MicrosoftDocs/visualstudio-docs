@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "Concurrency::diagnostic:marker_series::write_alert method"
 ms.assetid: 9d5465c7-f862-47a7-b249-4116605075a6
 caps.latest.revision: 8
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # marker_series::write_alert Method

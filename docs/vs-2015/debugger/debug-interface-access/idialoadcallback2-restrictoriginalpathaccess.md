@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaLoadCallback2::RestrictOriginalPathAccess method"
 ms.assetid: 31fde3af-2824-4b0f-8d0d-cee6046596f6
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaLoadCallback2::RestrictOriginalPathAccess

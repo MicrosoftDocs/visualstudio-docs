@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "language services, automatic formatting"
 ms.assetid: c210fc94-77bd-4694-b312-045087d8a549
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Automatic Formatting in a Legacy Language Service

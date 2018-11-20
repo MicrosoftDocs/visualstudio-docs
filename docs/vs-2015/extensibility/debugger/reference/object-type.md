@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "OBJECT_TYPE enumeration"
 ms.assetid: c4d246f9-8a98-44ec-b2bb-ff5c684f668e
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # OBJECT_TYPE

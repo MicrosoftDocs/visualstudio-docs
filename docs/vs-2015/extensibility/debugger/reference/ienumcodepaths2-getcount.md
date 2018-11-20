@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IEnumCodePaths2::GetCount"
 ms.assetid: 988c5092-fcc5-43a1-a94c-c261edd56ebf
 caps.latest.revision: 13
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IEnumCodePaths2::GetCount

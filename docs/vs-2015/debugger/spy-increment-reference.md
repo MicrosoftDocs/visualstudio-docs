@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "Spy++ reference"
 ms.assetid: 2cf41bc9-55f3-4bb6-b28d-08c75215debd
 caps.latest.revision: 7
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Spy++ Reference

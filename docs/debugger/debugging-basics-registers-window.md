@@ -20,7 +20,8 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# About the Registers Window in Visual Studio
+# About the Registers Window in Visual Studio (C#, C++, Visual Basic, F#)
+
 The **Registers** window is available only if address-level debugging is enabled in the **Options** dialog box, **Debugging** node.  
   
  Registers are special locations within a processor (CPU) that are used to store small pieces of data that the processor is actively working on. Compiling or interpreting source code generates instructions that move data from memory into the registers and back again, as needed. Accessing data in registers is very fast compared to accessing data in memory, so code that allows the processor to keep data in a register and access it repeatedly tends to execute faster than code that requires the processor to constantly load and unload registers. To make it easier for the compiler to keep data in registers, and perform other optimizations, you should avoid using global variables and rely on local variables as much as possible. Code written in this fashion is said to have good locality of reference. In some languages, such as C/C++, the programmer can declare a register variable, which tells the compiler to try its best to keep the variable in a register at all times. For more information, see [Register Keyword](https://msdn.microsoft.com/library/5b66905a-2f7f-4918-bb55-5e66d4bc50f9).  

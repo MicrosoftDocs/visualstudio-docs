@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "SccCheckin function"
 ms.assetid: e3f26ac2-6163-42e1-a764-22cfea5a3bc6
 caps.latest.revision: 17
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # SccCheckin Function

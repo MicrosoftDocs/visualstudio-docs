@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "CONTEXT_INFO_FIELDS enumeration"
 ms.assetid: ef436bd3-738e-47e8-828c-8febce752439
 caps.latest.revision: 14
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # CONTEXT_INFO_FIELDS

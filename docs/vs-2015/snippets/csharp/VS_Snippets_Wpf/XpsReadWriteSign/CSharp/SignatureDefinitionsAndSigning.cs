@@ -11,7 +11,7 @@ namespace SDKSample
     /// Interaction logic for Window1.xaml
     /// </summary>
 
-    public class SignatureUtilites
+    public class SignatureUtilities
     {
 
 		//<SnippetIterateSignatureDefinitions>
@@ -43,7 +43,7 @@ namespace SDKSample
                         signatureDialog.AddSignatureItem(signature);
 
                     // Signatures are bound to signature definitions by GUID.
-                    // If the SignatureDefintion SpotId is the same as the
+                    // If the SignatureDefinition SpotId is the same as the
                     // SignatureId, the signature is signing that definition.
 
                     // For every signature in the XPS document.
@@ -126,7 +126,7 @@ namespace SDKSample
         // ------------------------------ SignXps -----------------------------
         /// <summary>
         ///   Signs an XPS document with a given X509 certificate, and if one
-        ///   exists, associates the signature with a given SignatureDefintion
+        ///   exists, associates the signature with a given SignatureDefinition
         ///   spotId GUID.</summary>
         /// <param name="xpsDocument">
         ///   The XPS document to sign.</param>
@@ -155,6 +155,6 @@ namespace SDKSample
 
         //</SnippetSignXpsDocument>
 
-    }// end:class SignatureUtilites
+    }// end:class SignatureUtilities
 
 }// end:namespace

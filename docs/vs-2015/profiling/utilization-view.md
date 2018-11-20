@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "Concurrency Visualizer, CPU Utilization View"
 ms.assetid: b4f7ceab-3653-4069-bb74-c309aec62866
 caps.latest.revision: 26
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Utilization View

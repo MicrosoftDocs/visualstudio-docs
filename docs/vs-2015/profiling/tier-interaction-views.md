@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "profiling tools, tier interaction method views"
 ms.assetid: c187791c-cd3f-4904-bffc-9656cefe38b0
 caps.latest.revision: 13
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Tier Interaction Views

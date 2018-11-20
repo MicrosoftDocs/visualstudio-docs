@@ -14,8 +14,8 @@ f1_keywords:
   - "vs.cv.threads.timeline.gpupaging"
 ms.assetid: 95284ac5-3492-4f7b-a79f-7d2840a07679
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # GPU Activity (Paging)

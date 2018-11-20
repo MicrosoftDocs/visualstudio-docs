@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugSymbolProvider::GetNamespacesUsedAtAddress method"
 ms.assetid: 392de54b-9af0-4567-953b-1b41acd1e05c
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugSymbolProvider::GetNamespacesUsedAtAddress

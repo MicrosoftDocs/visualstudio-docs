@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "thread properties"
 ms.assetid: f0e64c0e-cdb3-4ad4-9723-09934166f3a2
 caps.latest.revision: 7
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Display Thread Properties

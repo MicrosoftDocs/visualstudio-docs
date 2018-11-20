@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IEnumDebugErrorBreakpoints2::Clone"
 ms.assetid: f6fb4985-8dd6-4a9b-98e0-15dbc64cc9ec
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IEnumDebugErrorBreakpoints2::Clone

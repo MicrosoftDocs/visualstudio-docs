@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaEnumDebugStreams::Reset method"
 ms.assetid: ee40989b-f754-4c10-80d3-7faa16f52ce3
 caps.latest.revision: 10
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaEnumDebugStreams::Reset

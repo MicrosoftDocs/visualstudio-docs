@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugPort2::GetPortSupplier"
 ms.assetid: 7a7b0615-df6b-4726-ab35-39dfa1ebed8f
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugPort2::GetPortSupplier

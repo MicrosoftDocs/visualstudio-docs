@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "integration roadmap, Visual Studio SDK"
 ms.assetid: 9118eaa4-0453-4dc5-9e16-c7062d254869
 caps.latest.revision: 31
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Inside the Visual Studio SDK

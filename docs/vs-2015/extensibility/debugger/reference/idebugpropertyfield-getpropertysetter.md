@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugPropertyField::GetPropertySetter method"
 ms.assetid: 744d76fd-2bcc-4917-a040-ce4cc714ef61
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugPropertyField::GetPropertySetter

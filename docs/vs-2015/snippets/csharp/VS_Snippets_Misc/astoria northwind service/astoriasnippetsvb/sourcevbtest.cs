@@ -292,12 +292,12 @@ namespace AstoriaSnippetsVB
         }
 
         /// <summary>
-        ///A test for ProjectWithConvertion
+        ///A test for ProjectWithConversion
         ///</summary>
         [TestMethod()]
-        public void ProjectWithConvertionTest()
+        public void ProjectWithConversionTest()
         {
-            SourceVb.ProjectWithConvertion();
+            SourceVb.ProjectWithConversion();
         }
 
         /// <summary>

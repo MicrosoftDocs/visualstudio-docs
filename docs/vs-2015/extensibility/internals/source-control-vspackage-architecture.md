@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "source control packages, architecture"
 ms.assetid: 453125fc-23dc-49b1-8476-94581f05e6c7
 caps.latest.revision: 26
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Source Control VSPackage Architecture

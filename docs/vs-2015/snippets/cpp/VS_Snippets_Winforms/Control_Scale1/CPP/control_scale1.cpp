@@ -72,7 +72,7 @@ private:
       this->myButton1->Name = "myButton1";
       this->myButton1->Size = System::Drawing::Size( 184, 80 );
       this->myButton1->TabIndex = 0;
-      this->myButton1->Text = "Scaleable Control";
+      this->myButton1->Text = "Scalable Control";
       RegisterEventHandler();
 
       // Set the properties for 'myButton2'.

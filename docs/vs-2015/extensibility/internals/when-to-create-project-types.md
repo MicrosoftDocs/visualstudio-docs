@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "project types, conditions for creating"
 ms.assetid: 26adc860-ee4a-4f5c-95e1-e41b207dd7e6
 caps.latest.revision: 15
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # When to Create Project Types

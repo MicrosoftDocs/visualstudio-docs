@@ -23,8 +23,8 @@ helpviewer_keywords:
   - "HPC profiling"
 ms.assetid: 1525bbdb-27da-4088-8487-a486cee5e7b3
 caps.latest.revision: 27
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Profiling on HPC (High Performance Computing) Clusters

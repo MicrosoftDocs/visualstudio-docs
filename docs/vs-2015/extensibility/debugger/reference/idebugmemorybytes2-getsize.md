@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "GetSize method"
 ms.assetid: dae64c5f-5b54-40c3-b32f-ec3b16c093f7
 caps.latest.revision: 14
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugMemoryBytes2::GetSize

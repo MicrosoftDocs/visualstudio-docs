@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "Task class [.NET Framework debug engines]"
 ms.assetid: 28e47c3b-9323-424a-80ac-6cc3bf19e09b
 caps.latest.revision: 15
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Task Class - Internal Members

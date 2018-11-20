@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaDataSource::loadDataFromIStream method"
 ms.assetid: 8fe33eea-1457-4b8c-ae19-f1ede5578483
 caps.latest.revision: 10
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaDataSource::loadDataFromIStream

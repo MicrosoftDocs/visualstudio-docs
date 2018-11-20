@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IEnumDebugCodeContexts2::Reset"
 ms.assetid: df6cf1e3-2ef8-4d38-81a0-8e9adf151884
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IEnumDebugCodeContexts2::Reset

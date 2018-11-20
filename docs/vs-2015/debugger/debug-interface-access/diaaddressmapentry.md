@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "DiaAddressMapEntry enumeration"
 ms.assetid: 5d0ae226-981d-4541-a801-fc4993fe663b
 caps.latest.revision: 12
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # DiaAddressMapEntry

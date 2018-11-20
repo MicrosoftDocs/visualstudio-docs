@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "projects, conversion"
 ms.assetid: 3457b3ad-f9d6-4cb2-a346-f37326a28ffb
 caps.latest.revision: 6
-author: "TerryGLee"
-ms.author: "tglee"
+author: TerryGLee
+ms.author: tglee
 manager: "ghogen"
 ---
 # Port, Migrate, and Upgrade Visual Studio Projects in Visual Studio &quot;15&quot; RC

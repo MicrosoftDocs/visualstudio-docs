@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], opening for open documents"
 ms.assetid: 1a0fa49c-efa4-4dcc-bdc0-299b7052acdc
 caps.latest.revision: 14
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # How to: Open Editors for Open Documents

@@ -18,8 +18,8 @@ dev_langs:
   - "C++"
 ms.assetid: 11957495-c238-4cc5-8937-e4026f5e10e1
 caps.latest.revision: 9
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Error: User Could Not Execute Stored Procedure sp_enable_sql_debug

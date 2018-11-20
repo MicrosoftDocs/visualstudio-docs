@@ -30,8 +30,8 @@ helpviewer_keywords:
   - "debugger, format specifiers recognized by"
 ms.assetid: 0f6f3b7c-ce2c-4b4d-b14f-7589dbed5444
 caps.latest.revision: 45
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Format Specifiers in C++

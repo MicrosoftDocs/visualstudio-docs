@@ -13,8 +13,8 @@ dev_langs:
   - "C++"
 ms.assetid: 76a67886-df57-4a81-accb-2e3c2eaf607b
 caps.latest.revision: 7
-author: "BrianPeek"
-ms.author: "brpeek"
+author: corob-msft
+ms.author: corob
 manager: "ghogen"
 ---
 # Build an OpenGL ES Application on Android and iOS

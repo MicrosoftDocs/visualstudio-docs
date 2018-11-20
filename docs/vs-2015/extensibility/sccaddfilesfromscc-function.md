@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "SccAddFilesFromSCC function"
 ms.assetid: f21a3500-ade8-4dd8-8647-10e2179be9c1
 caps.latest.revision: 18
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # SccAddFilesFromSCC Function

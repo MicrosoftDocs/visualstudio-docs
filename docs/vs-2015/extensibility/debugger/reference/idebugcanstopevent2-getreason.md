@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugCanStopEvent2::GetReason"
 ms.assetid: f5de31ca-7b8d-4029-9cf9-ba860ac66af6
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugCanStopEvent2::GetReason

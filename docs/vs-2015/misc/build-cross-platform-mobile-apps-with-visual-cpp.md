@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 44c16342-6951-4852-95b0-b97ae858ee50
 caps.latest.revision: 13
-author: "corob-msft"
-ms.author: "corob"
+author: corob-msft
+ms.author: corob
 manager: "douge"
 ---
 # Build cross-platform mobile apps with Visual C++

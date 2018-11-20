@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "completion lists [C#]"
 ms.assetid: 72effcf5-7251-4638-869a-e1bf9bc02e8b
 caps.latest.revision: 8
-author: "BillWagner"
-ms.author: "billchi"
+author: BillWagner
+ms.author: wiwagn
 manager: "douge"
 ---
 # Pre-selected Completion List Items in C# #

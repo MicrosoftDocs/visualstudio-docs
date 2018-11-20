@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugQueryEngine2::GetEngineInterface"
 ms.assetid: ed84aa98-7ec7-48f3-97ae-821090bc3664
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugQueryEngine2::GetEngineInterface

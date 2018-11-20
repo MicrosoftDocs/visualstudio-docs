@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "IDebugFunctionObject2::Evaluate"
 ms.assetid: bc54c652-904b-4297-a6db-faa329684881
 caps.latest.revision: 9
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugFunctionObject2::Evaluate

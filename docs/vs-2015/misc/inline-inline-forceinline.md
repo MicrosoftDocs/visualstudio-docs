@@ -28,8 +28,8 @@ helpviewer_keywords:
   - "instantiation, defined"
 ms.assetid: a159d11e-5dc6-4bac-b2cf-b5f23688e552
 caps.latest.revision: 10
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # inline, __inline, __forceinline

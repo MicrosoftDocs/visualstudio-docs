@@ -25,8 +25,8 @@ helpviewer_keywords:
   - "Exception Assistant dialog box"
 ms.assetid: 57999577-0129-47ca-8b87-77b80fdc317a
 caps.latest.revision: 15
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Exception Assistant Dialog Box

@@ -18,7 +18,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Debug at Design Time in Visual Studio
+# Debug at Design Time in Visual Studio (C#, C++, Visual Basic, F#)
 
 In some scenarios, you may want to debug code at design time instead of while the application is running. You can do this using the **Immediate** window. If you want to debug XAML code that interacts with other code, such as data binding code, you can use **Debug** > **Attach to Process** to do that.
   
@@ -26,7 +26,7 @@ In some scenarios, you may want to debug code at design time instead of while th
 
 You can use the Visual Studio **Immediate** window to execute a function or subroutine while your application is not running. If the function or subroutine contains a breakpoint, Visual Studio will break execution at the appropriate point. You can then use the debugger windows to examine your program state. This feature is called debugging at design time.  
 
-The following example is in Visual Basic, but the **Immediate** window is also supported in C# and C++ applications.
+The following example is in Visual Basic. Use of the **Immediate** window at design time is also supported in C#, C++, and F# applications.
   
 1.  Paste the following code into a Visual Basic console application:  
   

@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "Visual Studio shell, isolated mode%2C .pkgdef and .pkgundef files"
 ms.assetid: b1755d63-d794-4fd7-864b-70a9684881c2
 caps.latest.revision: 5
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Substitution Strings Used in .Pkgdef and .Pkgundef Files

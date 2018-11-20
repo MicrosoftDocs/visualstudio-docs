@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "SymTagVTableShape tag"
 ms.assetid: dd97f4c3-115d-46a9-b506-2531e30a0d8f
 caps.latest.revision: 20
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # VTableShape

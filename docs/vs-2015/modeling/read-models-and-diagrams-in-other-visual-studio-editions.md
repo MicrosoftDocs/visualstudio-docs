@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "models, versions of Visual Studio"
 ms.assetid: 46eee279-a9e4-4742-a024-5bd2cf032b86
 caps.latest.revision: 22
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
 manager: "douge"
 ---

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IPropertyProxyEESide interface"
 ms.assetid: cf227cf8-39d9-4758-8f7e-a697aebb1926
 caps.latest.revision: 14
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IPropertyProxyEESide

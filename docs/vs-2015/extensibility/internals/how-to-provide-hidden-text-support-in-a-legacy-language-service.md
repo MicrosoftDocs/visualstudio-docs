@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "language services, implementing hidden text regions"
 ms.assetid: 1c1dce9f-bbe2-4fc3-a736-5f78a237f4cc
 caps.latest.revision: 22
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # How to: Provide Hidden Text Support in a Legacy Language Service

@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSymbol::get_targetRelativeVirtualAddress method"
 ms.assetid: 49a159f3-6943-44d3-90a3-0dba51e8a7ec
 caps.latest.revision: 13
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_targetRelativeVirtualAddress

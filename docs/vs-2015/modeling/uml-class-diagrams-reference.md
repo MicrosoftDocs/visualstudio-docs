@@ -24,7 +24,7 @@ helpviewer_keywords:
   - "diagrams - modeling, UML class"
 ms.assetid: b7c88be0-0d86-4d65-af74-f37e8812d20f
 caps.latest.revision: 43
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
 manager: "douge"
 ---

@@ -22,8 +22,8 @@ helpviewer_keywords:
   - "aspnet_wp.exe"
 ms.assetid: b58e97b1-e62a-4318-aea4-52276ea20735
 caps.latest.revision: 35
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Run the Worker Process Under a User Account

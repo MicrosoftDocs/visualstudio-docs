@@ -19,7 +19,7 @@ helpviewer_keywords:
   - "UML diagrams, use case"
 ms.assetid: aa15772b-eb67-4366-b145-b559112817df
 caps.latest.revision: 35
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
 manager: "douge"
 ---

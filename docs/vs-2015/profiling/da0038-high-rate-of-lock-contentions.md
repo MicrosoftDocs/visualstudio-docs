@@ -15,8 +15,8 @@ f1_keywords:
   - "vs.performance.DA0038"
 ms.assetid: ae0c8b2f-17b2-4f3d-a834-aa2f6371753b
 caps.latest.revision: 13
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # DA0038: High Rate of Lock contentions

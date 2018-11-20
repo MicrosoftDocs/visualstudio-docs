@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "createpkgdef"
 ms.assetid: c745cb76-47a6-49ff-9eed-16af0f748e35
 caps.latest.revision: 14
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # CreatePkgDef Utility

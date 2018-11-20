@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSymbol::get_compilerGenerated method"
 ms.assetid: 864d9249-f0c8-4a34-b391-eb785f7e8865
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_compilerGenerated

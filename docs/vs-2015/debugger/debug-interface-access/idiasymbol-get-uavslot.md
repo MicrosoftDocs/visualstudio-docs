@@ -13,8 +13,8 @@ dev_langs:
   - "C++"
 ms.assetid: a70648f2-3b25-439f-8099-239ac602515a
 caps.latest.revision: 6
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_uavSlot

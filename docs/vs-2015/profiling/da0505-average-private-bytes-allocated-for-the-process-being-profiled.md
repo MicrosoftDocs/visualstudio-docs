@@ -15,8 +15,8 @@ f1_keywords:
   - "vs.performance.505"
 ms.assetid: 32c612ea-d077-44ba-8e6f-3a96333bad00
 caps.latest.revision: 13
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # DA0505: Average Private Bytes allocated for the Process being profiled

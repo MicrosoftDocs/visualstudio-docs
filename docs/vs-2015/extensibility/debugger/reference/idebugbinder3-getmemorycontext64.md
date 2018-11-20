@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "IDebugBinder3::GetMemoryContext64"
 ms.assetid: f021fd16-9fc7-4c41-86af-e54e6224cfbb
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugBinder3::GetMemoryContext64

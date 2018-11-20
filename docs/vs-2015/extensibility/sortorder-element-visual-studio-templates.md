@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "<SortOrder> element [Visual Studio Templates]"
 ms.assetid: 151932c1-f08a-4f78-a8d0-bd2f32211a9c
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # SortOrder Element (Visual Studio Templates)

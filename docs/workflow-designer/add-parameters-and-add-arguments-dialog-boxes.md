@@ -21,7 +21,7 @@ The following table describes the user interface (UI) elements of the **Add Para
 |-|-|
 |**Direction**|Specifies whether the parameter represents the flow of data into the method, out of the method, or both.|
 |**Type**|The type name of the new parameter.|
-|**Value**|A VB expression that is used to assign a default value to the new parameter|
+|**Value**|A Visual Basic expression that is used to assign a default value to the new parameter|
 
 The following table describes the user interface (UI) elements of the **Add Arguments** dialog box used by the <xref:System.Activities.Statements.InvokeDelegate> designer:
 

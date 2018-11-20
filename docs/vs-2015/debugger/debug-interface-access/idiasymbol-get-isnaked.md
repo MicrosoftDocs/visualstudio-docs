@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSymbol::get_isNaked method"
 ms.assetid: b16629dc-8e17-476b-9c7b-58e7277c61ed
 caps.latest.revision: 10
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_isNaked

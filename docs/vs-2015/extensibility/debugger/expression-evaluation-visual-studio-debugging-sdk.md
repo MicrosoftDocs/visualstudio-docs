@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "expression evaluation"
 ms.assetid: 5044ced5-c18c-4534-b0bf-cc3e50cd57ac
 caps.latest.revision: 8
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Expression Evaluation (Visual Studio Debugging SDK)

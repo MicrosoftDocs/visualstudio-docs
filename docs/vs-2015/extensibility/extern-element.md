@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "Extern element (VSCT XML schema)"
 ms.assetid: db6c3ddd-a1ba-450a-897a-bb568a5377fc
 caps.latest.revision: 16
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Extern Element

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugProperty2::GetSize"
 ms.assetid: 0deb8ec5-d6fb-4622-bb14-0c46b9459cc6
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugProperty2::GetSize

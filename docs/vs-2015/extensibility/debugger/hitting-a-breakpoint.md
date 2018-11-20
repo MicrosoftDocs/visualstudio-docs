@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "breakpoints, hitting"
 ms.assetid: a77816e3-b15b-46a0-90cd-be7242e4d6c9
 caps.latest.revision: 8
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Hitting a Breakpoint

@@ -29,8 +29,8 @@ helpviewer_keywords:
   - "stepping, out of managed code"
 ms.assetid: dd628427-e8d6-4fc2-b524-9d6393ea5376
 caps.latest.revision: 23
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Mixed Code and Missing Information in the Call Stack Window

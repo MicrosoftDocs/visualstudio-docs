@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "optimized code, debugging"
 ms.assetid: 19bfabf3-1a2e-49dc-8819-a813982e86fd
 caps.latest.revision: 16
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # JIT Optimization and Debugging

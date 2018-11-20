@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "Window Properties dialog box, Class Tab"
 ms.assetid: eaec9f07-d580-436d-934d-76c4e59439aa
 caps.latest.revision: 7
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Class Tab, Window Properties Dialog Box

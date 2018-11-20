@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSymbol::get_isStatic method"
 ms.assetid: 3be5fe1b-46e8-4b07-90d8-4929dbbe7ff7
 caps.latest.revision: 10
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_isStatic

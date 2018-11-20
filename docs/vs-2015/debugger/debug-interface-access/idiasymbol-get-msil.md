@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSymbol::get_msil method"
 ms.assetid: 43a8e003-6856-4726-aa16-c0d4dae7299b
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_msil

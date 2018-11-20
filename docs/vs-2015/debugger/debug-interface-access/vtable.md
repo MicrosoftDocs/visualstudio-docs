@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "virtual tables"
 ms.assetid: c8be6692-7d2a-4721-99d3-8e2e565bb8a1
 caps.latest.revision: 19
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # VTable

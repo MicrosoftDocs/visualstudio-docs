@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "SccUncheckout function"
 ms.assetid: 6d498b70-29c7-44b7-ae1c-7e99e488bb09
 caps.latest.revision: 13
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # SccUncheckout Function

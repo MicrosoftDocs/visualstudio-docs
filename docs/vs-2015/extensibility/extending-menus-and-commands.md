@@ -15,7 +15,7 @@ helpviewer_keywords:
   - ".vsct files, common menu tasks"
 ms.assetid: 7b2be4b9-e3fe-4412-874f-ae72ebc84c4b
 caps.latest.revision: 50
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Extending Menus and Commands

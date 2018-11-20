@@ -13,8 +13,8 @@ dev_langs:
   - "C++"
 ms.assetid: cf3eb110-d07f-4995-b68b-08290aa67d6f
 caps.latest.revision: 6
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_numberOfRows

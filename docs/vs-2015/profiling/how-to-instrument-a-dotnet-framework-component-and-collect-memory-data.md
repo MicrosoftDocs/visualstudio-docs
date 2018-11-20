@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d09cc46a-70f5-48f9-aa24-89913e67b359
 caps.latest.revision: 32
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Instrument a Stand-Alone .NET Framework Component and Collect Memory Data with the Profiler by Using the Command Line

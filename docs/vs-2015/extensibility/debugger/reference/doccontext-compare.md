@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "DOCCONTEXT_COMPARE enumeration"
 ms.assetid: ed947c34-b07e-4b69-8381-b6e7cb842862
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # DOCCONTEXT_COMPARE

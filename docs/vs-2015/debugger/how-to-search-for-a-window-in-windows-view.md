@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "windows, searching in Windows view"
 ms.assetid: 30306970-b861-4315-acf8-f86a43d4e73b
 caps.latest.revision: 7
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Search for a Window in Windows View

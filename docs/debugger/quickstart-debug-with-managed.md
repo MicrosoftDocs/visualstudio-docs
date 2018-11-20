@@ -14,7 +14,7 @@ manager: douge
 ms.workload: 
   - "dotnet"
 ---
-# Quickstart: Debug with managed code using the Visual Studio debugger
+# Quickstart: Debug with C# or Visual Basic using the Visual Studio debugger
 
 The Visual Studio debugger provides many powerful features to help you debug your apps. This topic provides a quick way to learn some of the basic features.
 

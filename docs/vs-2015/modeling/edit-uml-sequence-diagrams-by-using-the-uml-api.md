@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "UML activity diagrams, programming"
 ms.assetid: 8cdd0203-85ef-4c62-9abc-da4cb26fa504
 caps.latest.revision: 27
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
 manager: "douge"
 ---

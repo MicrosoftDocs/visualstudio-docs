@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugProgram2::Terminate"
 ms.assetid: 4d3127d3-b1e9-4b28-ac22-2f2eea255f86
 caps.latest.revision: 9
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugProgram2::Terminate

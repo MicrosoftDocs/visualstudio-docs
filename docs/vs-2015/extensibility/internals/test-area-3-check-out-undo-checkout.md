@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "source control [Visual Studio SDK], undo checkout"
 ms.assetid: ce00c5a5-d472-4f45-8776-d77a1fbe9d37
 caps.latest.revision: 17
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Test Area 3: Check Out/Undo Checkout

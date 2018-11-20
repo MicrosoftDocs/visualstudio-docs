@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaStackWalker2::getEnumFrames2 method"
 ms.assetid: 73196d3f-112c-4b3a-997b-7c6b815d4afc
 caps.latest.revision: 15
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaStackWalker::getEnumFrames2

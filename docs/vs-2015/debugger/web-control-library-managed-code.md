@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "debugging [Visual Studio], Web control libraries"
 ms.assetid: 2413883f-9e88-406d-b874-0ed743b75d40
 caps.latest.revision: 29
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Web Control Library (Managed Code)

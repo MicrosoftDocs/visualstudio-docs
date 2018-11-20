@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "client-side scripts, debugging"
 ms.assetid: bb668527-2288-47bd-a6c8-cecbad76dde2
 caps.latest.revision: 33
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Client-Side Script Debugging

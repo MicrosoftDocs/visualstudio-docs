@@ -19,7 +19,7 @@ ms.workload:
 ---
 # Navigate through code with the Visual Studio debugger
 
-The Visual Studio debugger can help you navigate through code to inspect the state of an app and show its execution flow. You can use keyboard shortcuts, debug commands, breakpoints, and other features to quickly get to the code you want to examine. Familiarity with debugger navigation commands and shortcuts makes it faster and easier to find and resolve app issues.  
+The Visual Studio debugger can help you navigate through code to inspect the state of an app and show its execution flow. You can use keyboard shortcuts, debug commands, breakpoints, and other features to quickly get to the code you want to examine. Familiarity with debugger navigation commands and shortcuts makes it faster and easier to find and resolve app issues.  If this is the first time that you've tried to debug code, you may want to read [Write better C# code using Visual Studio](../debugger/write-better-code-with-visual-studio.md) and [Debugging for absolute beginners](../debugger/debugging-absolute-beginners.md) before going through this article.
   
 ## Basic debugging  
 
@@ -177,4 +177,9 @@ To load Microsoft symbols, see [Configure symbol locations and loading options](
 1. In the **Modules** window, you can tell which modules have symbols loaded in the **Symbol Status** column. Right-click the module that you want to load symbols for, and select **Load Symbols**.  
   
 ##  <a name="BKMK_Step_into_properties_and_operators_in_managed_code"></a> Step into properties and operators in managed code  
- By default, the debugger steps over properties and operators in managed code. Stepping over properties and operators usually provides a better debugging experience. To enable stepping into properties and operators, in **Tools** (or **Debug**) > **Options** > **Debugging** > **General**, clear the **Step over properties and operators (Managed only)** check box.
+ The debugger steps over properties and operators in managed code by default. In most cases, this provides a better debugging experience. To enable stepping into properties or operators, choose **Debug** > **Options**. On the **Debugging** > **General** page, clear the **Step over properties and operators (Managed only)** check box.
+
+## See also
+ [What is debugging?](../debugger/what-is-debugging.md)  
+ [Write better C# code using Visual Studio](../debugger/write-better-code-with-visual-studio.md)  
+ [First look at debugging](../debugger/debugger-feature-tour.md) 

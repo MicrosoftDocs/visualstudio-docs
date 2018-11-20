@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "ReadAt method"
 ms.assetid: b413684d-4155-4bd4-ae30-ffa512243b5f
 caps.latest.revision: 14
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugMemoryBytes2::ReadAt

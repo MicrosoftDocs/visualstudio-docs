@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "Edit and Continue [C#], about Edit and Continue"
 ms.assetid: 40e136d8-a08c-43bd-b313-fb821c55eb3c
 caps.latest.revision: 22
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Use Edit and Continue (C#)

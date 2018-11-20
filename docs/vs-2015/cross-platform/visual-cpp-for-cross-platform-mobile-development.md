@@ -13,8 +13,8 @@ dev_langs:
   - "C++"
 ms.assetid: 0bb872d6-981b-4c96-9143-fcec5336bf0d
 caps.latest.revision: 12
-author: "BrianPeek"
-ms.author: "brpeek"
+author: corob-msft
+ms.author: corob
 manager: "ghogen"
 ---
 # Visual C++ for Cross-Platform Mobile Development

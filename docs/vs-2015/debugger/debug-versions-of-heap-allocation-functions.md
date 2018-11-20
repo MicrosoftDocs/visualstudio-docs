@@ -27,8 +27,8 @@ helpviewer_keywords:
   - "_malloc_dbg function"
 ms.assetid: 91748bdc-f4cd-4d8b-ab98-0493dab7ed0d
 caps.latest.revision: 20
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Debug Versions of Heap Allocation Functions

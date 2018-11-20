@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "METADATA_TYPE structure"
 ms.assetid: 2d8b78f6-0aef-4d79-809a-cff9b2c24659
 caps.latest.revision: 8
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # METADATA_TYPE

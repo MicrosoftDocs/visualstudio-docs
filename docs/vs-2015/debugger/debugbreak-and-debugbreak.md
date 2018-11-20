@@ -23,8 +23,8 @@ helpviewer_keywords:
   - "breakpoints, DebugBreak function"
 ms.assetid: 9787c795-df94-4f48-bc8d-3bf899b67421
 caps.latest.revision: 26
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # DebugBreak and __debugbreak

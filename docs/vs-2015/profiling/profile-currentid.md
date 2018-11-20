@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "PROFILE_CURRENTID"
 ms.assetid: 55ccf665-a05e-48c3-adf7-7714c0a9aaef
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # PROFILE_CURRENTID

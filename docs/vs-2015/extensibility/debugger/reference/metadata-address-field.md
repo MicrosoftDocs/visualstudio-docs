@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "METADATA_ADDRESS_FIELD structure"
 ms.assetid: 15ab45fe-6b3b-4e09-880b-31b34f523607
 caps.latest.revision: 7
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # METADATA_ADDRESS_FIELD

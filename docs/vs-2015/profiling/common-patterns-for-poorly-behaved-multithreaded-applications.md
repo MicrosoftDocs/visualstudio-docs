@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "Concurrency Visualizer, common patterns for poorly-behaved multithreaded applications"
 ms.assetid: 00d10629-e20f-4d6d-8643-c59a3879812e
 caps.latest.revision: 17
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Common Patterns for Poorly-Behaved Multithreaded Applications

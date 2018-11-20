@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IPropertyProxyEESide::InPlaceUpdateObject"
 ms.assetid: abf89411-1853-4f23-b244-d5e0afa197b1
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IPropertyProxyEESide::InPlaceUpdateObject

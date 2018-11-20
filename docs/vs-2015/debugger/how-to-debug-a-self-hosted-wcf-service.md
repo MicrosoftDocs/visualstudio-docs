@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "WCF, debugging"
 ms.assetid: 288922be-ba3f-411e-af50-bba39c9529cc
 caps.latest.revision: 28
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Debug a Self-Hosted WCF Service

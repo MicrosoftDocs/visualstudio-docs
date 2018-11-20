@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugBreakpointUnboundEvent2"
 ms.assetid: 6b1e1863-0c64-4d85-8ab9-aface522fdea
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugBreakpointUnboundEvent2

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "stack frames"
 ms.assetid: b5e439d4-1e9d-4e13-9cad-bb8b136d4ca8
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Stack Frames

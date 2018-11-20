@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "projects [Visual Studio SDK], aggregator"
 ms.assetid: 7f132f67-8589-464c-90dc-0d57ae02aa8f
 caps.latest.revision: 13
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Deploying Project Types

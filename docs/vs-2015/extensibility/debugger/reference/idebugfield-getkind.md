@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugField::GetKind method"
 ms.assetid: e7c9c60a-8e55-4ecc-aa63-0c814a1e92cc
 caps.latest.revision: 13
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugField::GetKind

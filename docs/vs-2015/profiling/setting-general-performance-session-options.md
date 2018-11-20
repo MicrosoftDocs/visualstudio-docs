@@ -13,8 +13,8 @@ f1_keywords:
   - "vs.performance.property.general"
 ms.assetid: 6b60bd1b-2198-4261-b84e-9b2d8494a992
 caps.latest.revision: 15
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Setting General Performance Session Options

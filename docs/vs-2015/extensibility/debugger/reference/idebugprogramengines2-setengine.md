@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugProgramEngines2::SetEngine"
 ms.assetid: c05857ee-89cf-455e-8f1e-300cce4a2eab
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugProgramEngines2::SetEngine
