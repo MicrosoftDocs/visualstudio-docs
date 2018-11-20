@@ -1,5 +1,5 @@
 ---
-title: "Debug Multiple Processes | Microsoft Docs"
+title: "Debug multiple processes | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/20/2018"
 ms.technology: "vs-ide-debug"
@@ -31,11 +31,11 @@ Visual Studio can debug a solution that has several processes. While debugging, 
 
 When more than one project in a Visual Studio solution can run independently, you can select which project the debugger starts. The current startup project appears in bold in **Solution Explorer**. 
 
-To change the startup project from **Solution Explorer**, right-click a different project and select **Set as StartUp Project**.
+To change the startup project, in **Solution Explorer**, right-click a different project and select **Set as StartUp Project**.
 
 To start debugging a project from **Solution Explorer** without making it the startup project, right-click the project and select **Debug** > **Start new instance** or **Step into new instance**. 
 
-**To set the startup project or multiple projects from the solution Properties page:**
+**To set the startup project or multiple projects from solution Properties:**
 
 1. Select the solution in **Solution Explorer** and then select the **Properties** icon in the toolbar, or right-click the solution and select **Properties**.  
    
@@ -55,7 +55,7 @@ The debugger can also *attach* to apps running in processes outside of Visual St
   
 For more information, see [Attach to running processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md).  
   
-**To attach to a process running on your local machine:**  
+**To attach to a  running process:**  
   
 1. With the app running, select **Debug** > **Attach to Process**. 
 
@@ -93,15 +93,17 @@ Sometimes, you might need to debug the startup code for an app that is launched 
 ##  <a name="BKMK_Switch_processes__break_and_continue_execution__step_through_source"></a> Debug with multiple processes 
 <a name="BKMK_Configure_the_execution_behavior_of_multiple_processes"></a> 
 
-When debugging an app with several processes, the breaking, stepping, and stopping debugger commands affect all the processes by default. For example, when a process is suspended at a breakpoint, the execution of all other processes is also suspended. You can change this default behavior to gain more control over the targets of execution commands.  
+When debugging an app with several processes, the breaking, stepping, and continuing debugger commands affect all processes by default. For example, when a process is suspended at a breakpoint, the execution of all other processes is also suspended. You can change this default behavior to gain more control over the targets of execution commands.  
 
-Under **Tools** (or **Debug**) > **Options** > **Debugging** > **General**, select or clear the **Break all processes when one process breaks** check box.  
+**To change whether all processes are suspended when one process breaks:**
+
+- Under **Tools** (or **Debug**) > **Options** > **Debugging** > **General**, select or clear the **Break all processes when one process breaks** check box.  
   
 ###  <a name="BKMK_Break__step__and_continue_commands"></a> Break, step, and continue commands  
   
 The following table describes the behaviors of debugging commands when the **Break all processes when one process breaks** check box is selected or deselected:
 
-|**Command**|Break all processes when one process breaks selected|Break all processes when one process breaks deselected|  
+|**Command**|Selected|Deselected|  
 |-|-|-|  
 |**Debug**  > **Break All**|All processes break.|All processes break.|  
 |**Debug** > **Continue**|All processes resume.|All suspended processes resume.|  
@@ -125,7 +127,7 @@ You can attach to multiple processes when you're debugging, but only one process
   
 1. To open the **Debug Location** toolbar, select **View** > **Toolbars** > **Debug Location**.  
    
-1. On the **Debug Location** toolbar, select the process you want to set as the current process from the **Process** dropdown.  
+1. During debugging, on the **Debug Location** toolbar, select the process you want to set as the current process from the **Process** dropdown.  
   
    ![Switch between processes](../debugger/media/dbg_execution_switchbetweenmodules.png "DBG_Execution_SwitchBetweenModules")  
   
@@ -147,12 +149,12 @@ By default, when you select **Debug** > **Stop Debugging**, the debugger ends or
   
 - If you attached the debugger to the current process, the debugger detaches from the process and leaves the process running.  
   
-If you start debugging a process from a Visual Studio solution, attach to another process that is already running, and then choose **Stop Debugging**, the debugging session ends. The process that was started in Visual Studio ends, while the process you attached to keeps running. 
+If you start debugging a process from a Visual Studio solution, then attach to another process that is already running, and then choose **Stop Debugging**, the debugging session ends. The process that was started in Visual Studio ends, while the process you attached to keeps running. 
 
->[!NOTE]
->The **Break all processes when one process breaks** debugger option does not affect stopping debugging, or terminating and detaching from processes.  
-  
 To control the way that **Stop Debugging** affects an individual process, in the **Processes** window, right-click a process, and then select or clear the **Detach when debugging stopped** check box.  
+  
+>[!NOTE]
+>The **Break all processes when one process breaks** debugger option does not affect stopping, terminating, or detaching from processes.  
   
 ###  Stop, terminate, and detach commands  
   
