@@ -4,11 +4,11 @@
   - name: Overview
     items:
     - name: About Visual Studio 2017
-      href: ../ide/visual-studio-ide.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
+      href: visual-studio-ide.md
     - name: About the code editor
-      href: ../ide/quickstart-editor.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
+      href: quickstart-editor.md
     - name: About projects and solutions
-      href: ../ide/quickstart-projects-solutions.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
+      href: quickstart-projects-solutions.md
     - name: More Visual Studio features
       href: ../ide/advanced-feature-overview.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
   - name: Create an app
@@ -24,8 +24,8 @@
       href: ../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
   - name: Learn Visual Studio
     items:
-    - name: Writing and editing code
-      href: ../ide/index-writing-code.md
+    - name: Write and edit code
+      href: quickstart-editor.md
     - name: Compile and build
       href: ../ide/compiling-and-building-in-visual-studio.md
     - name: Debug your code
