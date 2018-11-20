@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "Messages menu commands"
 ms.assetid: 8ffcee99-7950-41af-906e-661e19e3257a
 caps.latest.revision: 6
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Messages Menu Commands

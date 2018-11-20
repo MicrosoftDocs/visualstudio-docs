@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 24b22ad9-5ad0-4161-809a-9b518eb924bf
 caps.latest.revision: 8
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # 16bpp Render Target Format Variant

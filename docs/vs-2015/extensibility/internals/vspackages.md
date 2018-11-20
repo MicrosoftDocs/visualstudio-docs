@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "VSPackages"
 ms.assetid: cad0893a-9c5f-45b7-952a-e2294f83e324
 caps.latest.revision: 46
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # VSPackages

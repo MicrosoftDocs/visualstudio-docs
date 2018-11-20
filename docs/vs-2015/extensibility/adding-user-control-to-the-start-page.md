@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "start page assembly"
 ms.assetid: 5b7997db-af6f-4fa9-a128-bceb42bddaf1
 caps.latest.revision: 17
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Adding User Control to the Start Page

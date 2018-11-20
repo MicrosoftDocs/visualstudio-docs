@@ -17,7 +17,7 @@ helpviewer_keywords:
   - "Shell [Visual Studio], shell-based applications"
 ms.assetid: c64a9bf0-9bf8-45c3-8fa2-306fa6cab66a
 caps.latest.revision: 26
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Shell (Isolated or Integrated)

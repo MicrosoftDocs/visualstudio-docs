@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "performance tools, saving and exporting reports"
 ms.assetid: 2e9b28fe-3ed2-4e1d-b9cb-0a5e384380b0
 caps.latest.revision: 14
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Saving and Exporting Performance Tools Data

@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "IDebugArrayObject2 interface"
 ms.assetid: be6e504d-4ab3-4141-a61b-0953ee0e038e
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugArrayObject2

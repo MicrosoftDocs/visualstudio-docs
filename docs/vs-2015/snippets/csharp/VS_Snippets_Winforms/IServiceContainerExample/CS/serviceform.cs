@@ -43,7 +43,7 @@ namespace ServiceArchitectureExample
     //       therefore, any new child's services should be copied to the root.                
 
 
-    // ServiceContainerControl provides an example user control implmentation 
+    // ServiceContainerControl provides an example user control implementation 
     // of the IServiceContainer interface. This implementation of 
     // IServiceContainer supports a root-node linked service distribution, 
     // access. and removal architecture.

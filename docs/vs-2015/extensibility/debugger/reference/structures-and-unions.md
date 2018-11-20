@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "structures [Visual Studio SDK]"
 ms.assetid: 9ff0a8f8-1ee6-4fdd-8b80-206436ff589b
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Structures and Unions

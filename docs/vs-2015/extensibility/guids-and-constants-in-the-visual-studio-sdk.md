@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "GUIDs, Visual Studio SDK"
 ms.assetid: 438c1079-0747-4995-ae7a-32aa399c96f5
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # GUIDs and Constants in the Visual Studio SDK

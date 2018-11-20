@@ -22,6 +22,9 @@ ms.workload:
 
 Visual Studio has built-in accessibility features that are compatible with screen readers and other assistive technologies. This topic lists common shortcut key combinations that you can use to perform tasks with the keyboard only, and includes information about using high-contrast themes to improve visibility. As well, it shows you how to use annotations to reveal useful information about your code, and how to set sound cues for build and breakpoint events.
 
+> [!NOTE]
+> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Accessibility for Visual Studio for Mac](/visualstudio/mac/accessibility).
+
 ## Save your IDE settings
 
  You can customize your IDE experience by saving your window layout, keyboard mapping scheme, and other preferences. For more information, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).
@@ -99,3 +102,4 @@ Here's how.
 * [How to: Customize menus and toolbars in Visual Studio](../../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md)
 * [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md)
 * [Microsoft Accessibility](https://www.microsoft.com/Accessibility)
+* [Accessibility (Visual Studio for Mac)](/visualstudio/mac/accessibility)

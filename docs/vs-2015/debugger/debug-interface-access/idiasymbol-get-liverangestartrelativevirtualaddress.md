@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSymbol::get_liveRangeStartRelativeVirtualAddress"
 ms.assetid: 1da52539-9872-4c20-8eaa-74b6cb5f3b02
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_liveRangeStartRelativeVirtualAddress

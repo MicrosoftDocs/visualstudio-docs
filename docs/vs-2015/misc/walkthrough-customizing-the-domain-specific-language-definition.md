@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "walkthroughs [Domain-Specific Language Tools]"
 ms.assetid: be98c38b-3ce3-4dce-8bcb-b79b85b4c825
 caps.latest.revision: 48
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "kamrani"
 ---
 # Walkthrough: Customizing the Domain-Specific Language Definition

@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 5279ab9b-71d9-4be5-81f6-a1f24b06f5fb
 caps.latest.revision: 19
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # Migrate apps to the Universal Windows Platform (UWP)

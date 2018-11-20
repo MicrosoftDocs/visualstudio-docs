@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugReference2::Compare"
 ms.assetid: 3361c495-2673-4b7c-82e3-dee74e1fa58d
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugReference2::Compare

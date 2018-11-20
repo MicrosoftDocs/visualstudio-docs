@@ -17,7 +17,7 @@ helpviewer_keywords:
   - "manifest designer"
 ms.assetid: 5a691e77-cf91-430d-90ea-361d9031ef83
 caps.latest.revision: 21
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # VSIX Manifest Designer

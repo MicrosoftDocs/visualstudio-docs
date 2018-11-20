@@ -164,7 +164,7 @@ public partial class MyTests {
 <a name="pexexplorationattributebase"></a>
 ## PexExplorationAttributeBase
 
-[More information](https://msdn.microsoft.com/library/microsoft.pex.framework.pexexplorationattributebase.aspx)
+[More information](xref:Microsoft.Pex.Framework.PexExplorationAttributeBase)
 
 <a name="pexassemblysettings"></a>
 ## PexAssemblySettings
@@ -267,17 +267,17 @@ class CtorTest(int capacity) {
 <a name="pexallowedexceptionfromassembly"></a>
 ## PexAllowedExceptionFromAssembly
 
-[More information](https://msdn.microsoft.com/library/microsoft.pex.framework.validation.pexallowedexceptionfromassemblyattribute.aspx)
+[More information](xref:Microsoft.Pex.Framework.Validation.PexAllowedExceptionFromAssemblyAttribute)
 
 <a name="pexallowedexceptionfromtype"></a>
 ## PexAllowedExceptionFromType
 
-[More information](https://msdn.microsoft.com/library/microsoft.pex.framework.validation.pexallowedexceptionfromtypeattribute.aspx)
+[More information](xref:Microsoft.Pex.Framework.Validation.PexAllowedExceptionFromTypeAttribute)
 
 <a name="pexallowedexceptionfromtypeundertest"></a>
 ## PexAllowedExceptionFromTypeUnderTest
 
-[More information](https://msdn.microsoft.com/library/microsoft.pex.framework.validation.pexallowedexceptionfromtypeundertestattribute.aspx)
+[More information](xref:Microsoft.Pex.Framework.Validation.PexAllowedExceptionFromTypeUnderTestAttribute)
 
 ## Got feedback?
 

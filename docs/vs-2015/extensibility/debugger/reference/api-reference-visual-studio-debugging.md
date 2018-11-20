@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], API reference"
 ms.assetid: e4e429da-3667-41f7-9158-a8207d13e91a
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # API Reference (Visual Studio Debugging)

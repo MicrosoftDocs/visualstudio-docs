@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 35e766ad-269f-41e4-ba23-74a556c315f3
 caps.latest.revision: 7
-ms.author: "crdun"
+ms.author: crdun
 manager: "crdun"
 ---
 # System Requirements for the Visual Studio Emulator for Android

@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 7028d440-d16d-4b08-9b94-eb8cc93b25fc
 caps.latest.revision: 5
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Getting Service Information from the Settings Store

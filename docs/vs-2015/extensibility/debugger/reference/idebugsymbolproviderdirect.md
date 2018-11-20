@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "IDebugSymbolProviderDirect interface"
 ms.assetid: 872b04a8-70de-4ab5-aceb-684c81828545
 caps.latest.revision: 7
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugSymbolProviderDirect

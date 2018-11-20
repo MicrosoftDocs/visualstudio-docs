@@ -1,14 +1,18 @@
 - name: Debugger documentation
   href: index.md
 - name: Overview
-  href: debugger-overview.md
+  items:
+  - name: "What is debugging?"
+    href: what-is-debugging.md
+  - name: "Write better C# code with Visual Studio"
+    href: write-better-code-with-visual-studio.md
 - name: Quickstarts
   items:
   - name: First look at the debugger
     href: debugger-feature-tour.md
-  - name: Debug a managed app
+  - name: Debug a C# or Visual Basic app
     href: quickstart-debug-with-managed.md
-  - name: Debug a native app
+  - name: Debug a C++ app
     href: quickstart-debug-with-cplusplus.md
   - name: Debug an ASP.NET app
     href: quickstart-debug-aspnet.md
@@ -20,7 +24,7 @@
     href: ../python/tutorial-working-with-python-in-visual-studio-step-04-debugging.md
   - name: Debug a live Azure app
     href: debug-live-azure-applications.md
-  - name: Debug managed and native code
+  - name: Debug C# and C++ code
     href: how-to-debug-managed-and-native-code.md
   - name: Inspect previous app states
     href: view-historical-application-state.md
@@ -100,7 +104,7 @@
       items:
       - name: Use Edit and Continue (C#)
         href: how-to-use-edit-and-continue-csharp.md
-      - name: Supported Code Changes (C#)
+      - name: Supported Code Changes
         href: supported-code-changes-csharp.md
     - name: Edit and Continue (Visual Basic)
       href: edit-and-continue-visual-basic.md
@@ -408,7 +412,7 @@
           href: debugging-preparation-windows-forms-applications.md
         - name: "Debugging preparation: Windows services"
           href: debugging-preparation-windows-services.md
-      - name: Diagnostic Messages in the Output window
+      - name: Send messages to the Output window
         href: diagnostic-messages-in-the-output-window.md
       - name: Assertions in managed code
         href: assertions-in-managed-code.md

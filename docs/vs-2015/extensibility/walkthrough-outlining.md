@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], new - outlining"
 ms.assetid: d75a44aa-265a-44d4-9c28-457f59c4ff9f
 caps.latest.revision: 31
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Walkthrough: Outlining

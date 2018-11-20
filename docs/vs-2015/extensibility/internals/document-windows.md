@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "Visual Studio SDK, document windows"
 ms.assetid: 50081d48-987f-43db-8bf9-51b7cf76e9c0
 caps.latest.revision: 18
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Document Windows

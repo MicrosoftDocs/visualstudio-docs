@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugBreakpointResolution2::GetBreakpointType"
 ms.assetid: 2b707fb9-f703-4c78-91bf-7434f57790a0
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugBreakpointResolution2::GetBreakpointType

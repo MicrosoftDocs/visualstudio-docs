@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "file extensions, registering for side-by-side"
 ms.assetid: 9ab046a2-147d-4167-aa14-7d661b1eaaa5
 caps.latest.revision: 14
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Registering File Name Extensions for Side-By-Side Deployments

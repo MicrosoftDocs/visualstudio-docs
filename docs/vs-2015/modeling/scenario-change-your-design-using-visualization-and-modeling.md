@@ -19,7 +19,7 @@ helpviewer_keywords:
   - "walkthroughs [Visual Studio ALM], modeling software"
 ms.assetid: ccc80825-a4a0-44fa-a0bb-f95254785a3b
 caps.latest.revision: 63
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
 manager: "douge"
 ---

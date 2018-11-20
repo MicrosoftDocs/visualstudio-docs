@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IEnumDebugAddresses::Skip method"
 ms.assetid: ed9a8e71-30ef-414b-9da5-c9a2a251b84e
 caps.latest.revision: 7
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IEnumDebugAddresses::Skip

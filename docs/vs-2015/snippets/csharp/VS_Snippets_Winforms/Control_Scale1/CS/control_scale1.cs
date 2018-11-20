@@ -66,7 +66,7 @@ public class MyForm : Form
       this.myButton1.Name = "myButton1";
       this.myButton1.Size = new System.Drawing.Size(184, 80);
       this.myButton1.TabIndex = 0;
-      this.myButton1.Text = "Scaleable Control";
+      this.myButton1.Text = "Scalable Control";
       RegisterEventHandler();
       // Set the properties for 'myButton2'.
       this.myButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((System.Byte)(0)));

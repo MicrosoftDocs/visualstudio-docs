@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "IDebugDocumentPositionOffset2::GetRange"
 ms.assetid: 27da7130-0932-4f97-abde-05e6fb018606
 caps.latest.revision: 7
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugDocumentPositionOffset2::GetRange

@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "profiling tools, Lifetime view"
 ms.assetid: d0501fdd-4b3a-4e74-b6ac-51d950a2e15b
 caps.latest.revision: 29
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Object Lifetime View

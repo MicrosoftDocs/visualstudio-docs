@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugCustomViewer interface"
 ms.assetid: 7aca27d3-c7b8-470f-b42c-d1e9d9115edd
 caps.latest.revision: 15
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugCustomViewer

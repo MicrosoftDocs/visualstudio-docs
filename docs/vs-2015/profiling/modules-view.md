@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "profiling tools, Modules view"
 ms.assetid: 4314a404-2120-425b-be42-180cd4bac840
 caps.latest.revision: 22
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Modules View

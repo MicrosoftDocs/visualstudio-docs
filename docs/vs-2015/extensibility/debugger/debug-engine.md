@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "debug engines"
 ms.assetid: 148b1efc-ca07-4d8e-bdfc-c723a760c620
 caps.latest.revision: 19
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Debug Engine

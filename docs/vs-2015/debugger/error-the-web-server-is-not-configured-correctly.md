@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "debugger, Web application errors"
 ms.assetid: 875ba87f-c372-4126-8fe3-e33931cf26c0
 caps.latest.revision: 25
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Error: The web server is not configured correctly

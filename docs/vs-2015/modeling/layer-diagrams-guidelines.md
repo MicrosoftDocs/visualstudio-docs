@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "constraints, architectural"
 ms.assetid: 2903bec7-a93b-46a6-aac6-994ac4f3f1a7
 caps.latest.revision: 57
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
 manager: "douge"
 ---

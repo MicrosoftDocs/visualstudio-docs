@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "Settings Store, using"
 ms.assetid: 447ec08a-eca5-40b8-89b0-f98fdf3d39a4
 caps.latest.revision: 29
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Using the Settings Store

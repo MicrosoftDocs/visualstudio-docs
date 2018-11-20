@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "Threads view"
 ms.assetid: abfb4e9e-1622-47c9-afda-b6b71a9d88e4
 caps.latest.revision: 9
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Threads View

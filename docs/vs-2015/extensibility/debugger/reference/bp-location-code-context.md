@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "BP_LOCATION_CODE_CONTEXT structure"
 ms.assetid: 37412896-021a-4f73-9bb7-4125502c2e18
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # BP_LOCATION_CODE_CONTEXT

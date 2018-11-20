@@ -13,8 +13,8 @@ dev_langs:
   - "C++"
 ms.assetid: 9a63b298-8577-4c15-8595-530558d41bf1
 caps.latest.revision: 6
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_memorySpaceKind

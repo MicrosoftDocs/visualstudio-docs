@@ -24,8 +24,8 @@ helpviewer_keywords:
   - "debugging [C++], FAQs"
 ms.assetid: 9a497032-cf73-441e-923b-4bbd5d37a6da
 caps.latest.revision: 21
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Debugging Native Code FAQs

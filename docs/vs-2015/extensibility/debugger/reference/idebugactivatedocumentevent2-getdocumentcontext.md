@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "IDebugActivateDocumentEvent2::GetDocumentContext method"
 ms.assetid: e7472069-7337-4ef4-8f8a-8c027a2e22f4
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugActivateDocumentEvent2::GetDocumentContext

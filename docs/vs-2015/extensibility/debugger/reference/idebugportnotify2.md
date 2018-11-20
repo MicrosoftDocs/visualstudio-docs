@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugPortNotify2 interface"
 ms.assetid: 43278b79-bf16-4c08-bcf1-6f7f7a17feab
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugPortNotify2

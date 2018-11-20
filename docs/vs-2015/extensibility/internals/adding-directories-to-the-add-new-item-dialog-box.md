@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "Add New Item dialog box, extending"
 ms.assetid: 67ae8af6-3752-49e8-8ce3-007aca5f7982
 caps.latest.revision: 15
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Adding Directories to the Add New Item Dialog Box

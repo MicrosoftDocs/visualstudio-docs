@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "GETNAME_TYPE enumeration"
 ms.assetid: 2f9f1679-e9e8-4c9c-ac90-aa07bfe69914
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # GETNAME_TYPE

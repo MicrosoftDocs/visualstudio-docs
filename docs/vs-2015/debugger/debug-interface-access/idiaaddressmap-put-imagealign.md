@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaAddressMap::put_imageAlign method"
 ms.assetid: f9ce875d-c263-43e5-a534-f34c37f9866f
 caps.latest.revision: 10
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaAddressMap::put_imageAlign

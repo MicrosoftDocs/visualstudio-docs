@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSymbol::get_noInline method"
 ms.assetid: 5c610b78-f1a3-494a-acf8-c42b97935be1
 caps.latest.revision: 10
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_noInline

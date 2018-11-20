@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSymbol::get_isDataAligned method"
 ms.assetid: ddd11a41-6c00-4829-acf4-aa1ace8c21a7
 caps.latest.revision: 13
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_isDataAligned

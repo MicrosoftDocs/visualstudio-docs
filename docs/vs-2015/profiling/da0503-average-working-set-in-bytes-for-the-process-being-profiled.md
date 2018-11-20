@@ -15,8 +15,8 @@ f1_keywords:
   - "vs.performance.rules.DA0503"
 ms.assetid: 9047a494-eaaf-4679-b422-c64e8bde77a4
 caps.latest.revision: 13
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # DA0503: Average Working Set in Bytes for the Process being profiled

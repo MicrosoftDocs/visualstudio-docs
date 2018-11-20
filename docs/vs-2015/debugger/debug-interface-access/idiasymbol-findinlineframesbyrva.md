@@ -13,8 +13,8 @@ dev_langs:
   - "C++"
 ms.assetid: e7a6d9cb-2726-4ac7-9f38-415ad215bf9c
 caps.latest.revision: 6
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::findInlineFramesByRVA

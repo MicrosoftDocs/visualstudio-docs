@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "IntelliTrace, API reference"
 ms.assetid: 46e6c648-293b-45c2-a29e-cca9c36cd865
 caps.latest.revision: 13
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # API Reference for IntelliTrace Extensibility

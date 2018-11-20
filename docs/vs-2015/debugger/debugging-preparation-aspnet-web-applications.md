@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "debugging [Visual Studio], Web applications"
 ms.assetid: bcfb1080-98d1-42f9-96af-186fb14f232a
 caps.latest.revision: 38
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Debugging Preparation: ASP.NET Web Applications

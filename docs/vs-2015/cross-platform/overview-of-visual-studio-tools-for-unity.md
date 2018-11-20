@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b4231bb9-45c4-4c77-ac3c-d05033b26393
 caps.latest.revision: 6
-ms.author: "crdun"
+ms.author: crdun
 manager: "crdun"
 ---
 # Overview of Visual Studio Tools for Unity

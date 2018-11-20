@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugProgramPublisher2::SetDebuggerPresent"
 ms.assetid: c88c3ff4-3632-4199-b5de-83c6d21bcf75
 caps.latest.revision: 8
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugProgramPublisher2::SetDebuggerPresent

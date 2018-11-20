@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "install multiple versions of Visual Studio"
 ms.assetid: 4d00f240-4910-4699-aaf3-cda6461f0c29
 caps.latest.revision: 48
-author: "TerryGLee"
-ms.author: "tglee"
+author: TerryGLee
+ms.author: tglee
 manager: "ghogen"
 ---
 # Install Visual Studio Versions Side-by-Side

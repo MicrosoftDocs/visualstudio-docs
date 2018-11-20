@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "BP_RES_DATA_FLAGS enumeration"
 ms.assetid: d97611e2-def6-45a9-ad7d-eedf2ad4c82b
 caps.latest.revision: 9
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # BP_RES_DATA_FLAGS

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugProcess3::GetDebugReason"
 ms.assetid: f23fbabc-8b18-4278-bebf-4cdc7091513c
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugProcess3::GetDebugReason

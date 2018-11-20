@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "performance tools, performance session properties"
 ms.assetid: c3a86913-172b-488f-a31a-cea01a71b2ea
 caps.latest.revision: 21
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Performance Session Properties

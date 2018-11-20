@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "IDebugExpressionEvaluator3 interface"
 ms.assetid: c27c2a14-300b-4535-be22-767c83602f69
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugExpressionEvaluator3

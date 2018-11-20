@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "profiling applications, walkthroughs"
 ms.assetid: 36f6f123-0c14-4763-99c3-bd60ecb95b87
 caps.latest.revision: 58
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Walkthrough: Identifying Performance Problems

@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSegment::get_execute method"
 ms.assetid: 746cdf8e-9097-415d-ba10-069854153185
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSegment::get_execute

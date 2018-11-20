@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "packages, compiling with MSBuild"
 ms.assetid: 9d38c388-1f64-430e-8f6c-e88bc99a4260
 caps.latest.revision: 21
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Using MSBuild

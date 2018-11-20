@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3a10022a-5c37-48b1-a833-dd35902176b6
 caps.latest.revision: 15
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Visualizing EventSource Events as Markers

@@ -16,8 +16,8 @@ dev_langs:
   - "C++"
 ms.assetid: c763d706-3213-494f-b4d2-990b6e1ec456
 caps.latest.revision: 10
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Getting Started with the Debugger

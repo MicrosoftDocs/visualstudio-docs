@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "debugging [Visual Studio], threads"
 ms.assetid: 0374c8c6-57a3-4cfe-8047-2effef5ff5dc
 caps.latest.revision: 25
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Tips for Debugging Threads in Native Code

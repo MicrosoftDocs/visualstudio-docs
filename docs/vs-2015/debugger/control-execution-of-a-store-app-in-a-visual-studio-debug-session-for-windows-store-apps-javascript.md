@@ -16,8 +16,8 @@ dev_langs:
   - "C++"
 ms.assetid: 60159535-61ec-466a-a4a6-115ec72a8af5
 caps.latest.revision: 19
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Control execution of a Store app in a Visual Studio debug session for Windows Store apps (JavaScript)

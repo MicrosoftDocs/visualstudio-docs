@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaLineNumber::get_compilandId method"
 ms.assetid: 2cd6f551-8091-47c7-803f-3f79a766a211
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaLineNumber::get_compilandId

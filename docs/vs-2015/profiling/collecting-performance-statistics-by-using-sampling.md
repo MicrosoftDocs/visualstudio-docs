@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "sampling profiling method"
 ms.assetid: 8e36361b-bb3d-40c6-b286-0e68c0ecb915
 caps.latest.revision: 26
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Collecting Performance Statistics by Using Sampling

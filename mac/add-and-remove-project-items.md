@@ -20,7 +20,6 @@ This displays the New File Dialog, which provides file templates based on the ty
 
 You can add existing files to your project by right-clicking on the Project node and selecting **Add > Add Files...**. Alternatively, to add an entire folder, select **Add > Add Existing Folder...**. This displays the file browser, which lets you search your system for the required item to add.
 
-
 ## Removing items
 
 To remove an item from your current project, right-click the item and select **Remove**
@@ -32,4 +31,8 @@ This displays the delete item dialog. Select one of the options to remove it fro
 ![Delete item dialog](media/add-and-remove-project-items-image4.png)
 
 * **Delete** - Removes item from project and from disk.
-* **Remove from Project** - Removes item from project, but will not remove it from disk 
+* **Remove from Project** - Removes item from project, but will not remove it from disk
+
+## See also
+
+* [Solutions and projects in Visual Studio (on Windows)](/visualstudio/ide/solutions-and-projects-in-visual-studio)

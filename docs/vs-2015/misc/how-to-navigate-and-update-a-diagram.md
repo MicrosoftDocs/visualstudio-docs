@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "presentation elements [Domain-Specific Language Tools]"
 ms.assetid: 02bde06f-6b2b-4272-8208-8fdc8ca811cd
 caps.latest.revision: 16
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "kamrani"
 ---
 # How to: Navigate and Update a Diagram

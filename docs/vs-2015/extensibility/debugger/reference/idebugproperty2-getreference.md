@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugProperty2::GetReference method"
 ms.assetid: 2fa97d9b-c3d7-478e-ba5a-a933f40a0103
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugProperty2::GetReference

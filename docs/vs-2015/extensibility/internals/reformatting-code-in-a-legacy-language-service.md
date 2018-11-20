@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "language services [managed package framework], reformatting code"
 ms.assetid: 08bb3375-8fef-4f4e-9efa-0d7333bab0eb
 caps.latest.revision: 13
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Reformatting Code in a Legacy Language Service

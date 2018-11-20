@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "CompilandDetails symbol"
 ms.assetid: ddc7d794-c622-4c63-b2a6-72f8b2d0022a
 caps.latest.revision: 22
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # CompilandDetails

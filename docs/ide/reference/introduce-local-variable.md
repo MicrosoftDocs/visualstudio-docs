@@ -42,7 +42,7 @@ This code generation applies to:
       - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
    - **Mouse**
       - Right-click and select the **Quick Actions and Refactorings** menu.
-      - Click the ![Lightbulb](media/bulb-cs.png) icon which appears in the left margin if the text cursor is already on the line with the red squiggle.
+      - Click the ![Lightbulb](media/bulb-cs.png) icon that appears in the left margin if the text cursor is already on the line with the red squiggle.
 
    ![Introduce local preview](media/local-preview-cs.png)
 
@@ -62,7 +62,7 @@ This code generation applies to:
        ![Implement interface result VB](media/local-result-vb.png)
 
    > [!NOTE]
-   > You can use the **...all occurences of...** menu option to replace every instance of the selected expression, not just the one you have specifically highlighted.
+   > You can use the **...all occurrences of...** menu option to replace every instance of the selected expression, not just the one you have specifically highlighted.
 
 ## See also
 

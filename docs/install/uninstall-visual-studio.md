@@ -20,6 +20,9 @@ ms.workload:
 
 This page walks you through uninstalling Visual Studio, our integrated suite of productivity tools for developers.
 
+> [!NOTE]
+> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Uninstall Visual Studio for Mac](/visualstudio/mac/uninstall).
+
 1. Find the Visual Studio Installer on your computer.
 
      For example, on a computer running Windows 10 Anniversary Update or later, select **Start** and scroll to the letter **V**, where it is listed as **Visual Studio Installer**.
@@ -27,7 +30,7 @@ This page walks you through uninstalling Visual Studio, our integrated suite of 
      ![Visual Studio Installer](media/vs2017-locate-the-visual-studio-installer.PNG "Locate the Microsoft Visual Studio Installer")
 
    > [!NOTE]
-   >   On some computers, the Visual Studio Installer might be listed under the letter **"M"** as the **Microsoft Visual Studio Installer**.<br/><br/> Alternatively, you can find the Visual Studio Installer in the following location: `C:\Program Files (x86)\Microsoft Visual Studio\Installer\vs_installer.exe`
+   > On some computers, the Visual Studio Installer might be listed under the letter **"M"** as the **Microsoft Visual Studio Installer**.<br/><br/> Alternatively, you can find the Visual Studio Installer in the following location: `C:\Program Files (x86)\Microsoft Visual Studio\Installer\vs_installer.exe`
 
 2. Click to start the installer, click the ![Details icon](media/vs2017uninstall-UninstallIcon.png "Select the Options icon") icon, and then click **Uninstall**.
 

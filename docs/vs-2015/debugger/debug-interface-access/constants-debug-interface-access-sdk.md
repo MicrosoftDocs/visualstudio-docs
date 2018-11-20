@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "DIA SDK, constants"
 ms.assetid: aca4ec77-bc08-4cdd-a6ce-8d4a28ea5ea3
 caps.latest.revision: 10
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Constants (Debug Interface Access SDK)

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "SccGetVersion function"
 ms.assetid: a6e786bf-744e-4272-9e21-0be44d23b1a1
 caps.latest.revision: 13
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # SccGetVersion Function

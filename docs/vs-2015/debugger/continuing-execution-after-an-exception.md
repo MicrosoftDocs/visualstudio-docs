@@ -31,8 +31,8 @@ helpviewer_keywords:
   - "programs, executing"
 ms.assetid: 6fe97aac-2131-4615-bd92-d3afee741558
 caps.latest.revision: 30
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Continuing Execution After an Exception

@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "IDebugBeforeSymbolSearchEvent2::GetModuleName"
 ms.assetid: 0b4abeac-2eaf-4b2e-a2d5-c9ec303bc869
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugBeforeSymbolSearchEvent2::GetModuleName

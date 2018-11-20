@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugThreadCreateEvent2"
 ms.assetid: aee34a14-4f9c-4ad3-845f-c96ee938cefd
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugThreadCreateEvent2

@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "IDebugMemoryContext2::GetInfo method"
 ms.assetid: 08c7f091-1816-4d64-8834-f9ecaac5c58d
 caps.latest.revision: 14
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugMemoryContext2::GetInfo

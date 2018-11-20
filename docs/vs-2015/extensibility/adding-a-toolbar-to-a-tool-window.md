@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "toolbars [Visual Studio], adding to tool windows"
 ms.assetid: 172f64b3-87f8-4292-9c1c-65bffa2b0970
 caps.latest.revision: 49
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Adding a Toolbar to a Tool Window

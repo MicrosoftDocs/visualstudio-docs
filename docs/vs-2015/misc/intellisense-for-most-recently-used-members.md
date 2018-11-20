@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "members, viewing in IntelliSense"
 ms.assetid: fb97c5b8-0b60-4253-b7e4-b8759b54ec40
 caps.latest.revision: 14
-author: "BillWagner"
-ms.author: "billchi"
+author: BillWagner
+ms.author: wiwagn
 manager: "douge"
 ---
 # IntelliSense for Most Recently Used Members

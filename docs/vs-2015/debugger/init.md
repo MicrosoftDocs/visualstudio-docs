@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c55ddec8-9101-4673-979b-4109caca9146
 caps.latest.revision: 8
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Init

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "return values"
 ms.assetid: b2d9079d-39a6-438a-8010-290056694b5c
 caps.latest.revision: 15
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Error Handling and Return Values

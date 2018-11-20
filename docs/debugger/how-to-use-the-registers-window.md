@@ -26,7 +26,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# View Register Values and use the Registers Window in the Visual Studio Debugger
+# View Register Values and use the Registers Window in the Visual Studio Debugger (C#, C++, Visual Basic, F#)
 The Registers window is available only if address-level debugging is enabled in the **Options** dialog box, **Debugging** node, **General** category.  
   
  The **Registers** window displays register contents. If you keep the **Registers** window open as you step through your program, you can see register values change as your code executes. Values that have changed recently are displayed in red. You can edit register values. For more information, see [How to: Edit a Register Value](../debugger/how-to-edit-a-register-value.md).  

@@ -147,7 +147,7 @@ For some app types, like Universal Windows App (UWP) apps, you don't attach dire
 
 For the debugger to attach to code written in C++, the code needs to emit `DebuggableAttribute`. You can add this to your code automatically by linking with the [/ASSEMBLYDEBUG](/cpp/build/reference/assemblydebug-add-debuggableattribute) linker option.
 
-For client-side script debugging, script debugging must be enabled in the browser. For debugging client-side script on Chrome, choose **Webkit** as the code type, and depending on your app type, you may need to start the  browser in debugging mode (type `chrome.exe --remote-debugging-port=9222` from a command line).
+For client-side script debugging, script debugging must be enabled in the browser. For debugging client-side script on Chrome, choose **Webkit** as the code type, and depending on your app type, you may need to close all Chrome instances and start the  browser in debugging mode (type `chrome.exe --remote-debugging-port=9222` from a command line).
 
 To quickly select a running process to attach to, in Visual Studio, type **Ctrl**+**Alt**+**P**, and then type the first letter of the process name.
 

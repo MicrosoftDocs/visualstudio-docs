@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c6ce4e9c-4677-40cc-b1af-d68e9f3249f2
 caps.latest.revision: 22
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: View Performance Warnings

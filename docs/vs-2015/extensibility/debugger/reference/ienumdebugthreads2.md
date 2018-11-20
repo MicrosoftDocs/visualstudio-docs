@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IEnumDebugThreads2"
 ms.assetid: 1854f078-3b49-42c2-b65b-33e3b506fd63
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IEnumDebugThreads2

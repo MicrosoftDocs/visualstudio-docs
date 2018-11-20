@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "source control packages, design elements"
 ms.assetid: edd3f2ff-ca32-4465-8ace-4330493b67bb
 caps.latest.revision: 16
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Source Control VSPackage Design Elements

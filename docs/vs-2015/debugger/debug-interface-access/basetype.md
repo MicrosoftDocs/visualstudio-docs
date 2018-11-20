@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "BaseType symbol [DIA SDK]"
 ms.assetid: 2f9e22e6-8360-496a-ac6b-17a5a56b0c46
 caps.latest.revision: 19
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # BaseType

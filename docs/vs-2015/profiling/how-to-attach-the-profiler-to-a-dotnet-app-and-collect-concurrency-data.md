@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: fdd41576-797e-4312-8520-fee7bb767e4a
 caps.latest.revision: 34
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Attach the Profiler to a .NET Framework Stand-Alone Application to Collect Concurrency Data by Using the Command Line

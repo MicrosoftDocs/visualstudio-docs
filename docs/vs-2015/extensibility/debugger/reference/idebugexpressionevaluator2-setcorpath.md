@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "IDebugExpressionEvaluator2::SetCorPath"
 ms.assetid: 27b614ff-7325-4f9b-8da4-61ee020c9410
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugExpressionEvaluator2::SetCorPath

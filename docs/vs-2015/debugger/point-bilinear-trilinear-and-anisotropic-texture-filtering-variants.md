@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 57d14fc9-b5f7-45ee-9717-48086886742d
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Point, Bilinear, Trilinear, and Anisotropic Texture Filtering Variants

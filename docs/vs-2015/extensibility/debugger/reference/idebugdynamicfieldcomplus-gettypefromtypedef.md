@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "IDebugDynamicFieldCOMPlus::GetTypeFromTypeDef"
 ms.assetid: 7f6cd3d3-f4da-4893-be91-8dd104be8010
 caps.latest.revision: 9
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugDynamicFieldCOMPlus::GetTypeFromTypeDef

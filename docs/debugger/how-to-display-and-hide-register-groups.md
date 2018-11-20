@@ -22,7 +22,8 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Display and Hide Register Groups
+# How to: Display and Hide Register Groups (C#, C++, Visual Basic, F#)
+
 The **Registers** window is available only if address-level debugging is enabled in the **Options** dialog box, **Debugging** node, **General** category.  
   
  To reduce clutter, the **Registers** window organizes registers into groups. If you right-click the **Registers** window, you will see a shortcut menu containing these groups, which you can display or hide as you see fit following the procedure below.  

@@ -330,4 +330,4 @@ Now you can view the IntelliTrace log file in Visual Studio to find and fix the 
 
 [Verify and debug SharePoint code](../sharepoint/verifying-and-debugging-sharepoint-code.md)  
 [IntelliTrace](/visualstudio/debugger/intellitrace)  
-[Walkthrough: Verify SharePoint Code by Using Unit Tests](https://msdn.microsoft.com/library/gg599006(v=vs.100).aspx)
+[Walkthrough: Verify SharePoint Code by Using Unit Tests](/previous-versions/visualstudio/visual-studio-2010/gg599006\(v\=vs.100\))

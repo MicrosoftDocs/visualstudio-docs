@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "Lines view"
 ms.assetid: 71ec0781-6031-4e17-af09-f50226018437
 caps.latest.revision: 18
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Lines View

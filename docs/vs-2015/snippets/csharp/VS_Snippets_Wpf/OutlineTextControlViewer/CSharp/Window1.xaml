@@ -1,5 +1,5 @@
 ﻿<!--
-      Demonstates how to use the OutlineTextControl that is defined
+      Demonstrates how to use the OutlineTextControl that is defined
       in the external assembly OutlineTextControl.dll.
 -->
 <Window x:Class="SDKSample.Window1"

@@ -18,8 +18,8 @@ dev_langs:
   - "C++"
 ms.assetid: a1d959fc-3817-491c-831b-e6b768a3877a
 caps.latest.revision: 17
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Unable to Connect to the Microsoft Visual Studio Remote Debugging Monitor

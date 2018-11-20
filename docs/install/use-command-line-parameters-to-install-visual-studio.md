@@ -2,7 +2,7 @@
 title: "Use command-line parameters to install Visual Studio"
 description: "Learn how to use command-line parameters to control or customize your Visual Studio installation."
 ms.custom: ""
-ms.date: 05/07/2018
+ms.date: 11/14/2018
 ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
@@ -49,6 +49,7 @@ The command-line options are used in conjunction with the setup bootstrapper, wh
 | `update` | Updates an installed product. |
 | `repair` | Repairs an installed product. |
 | `uninstall` | Uninstalls an installed product. |
+| `export` | **New in 15.9**: Exports installation selection to an installation configuration file. |
 
 | **Install option** | **Description** |
 | ----------------------- | --------------- |
@@ -68,6 +69,7 @@ The command-line options are used in conjunction with the setup bootstrapper, wh
 | `--nickname <name>` | **Optional**: This defines the nickname to assign to an installed product. The nickname cannot be longer than 10 characters.  |
 | `--productKey` | **Optional**: This defines the product key to use for an installed product. It is composed of 25 alphanumeric characters either in the format `xxxxx-xxxxx-xxxxx-xxxxx-xxxxx` or `xxxxxxxxxxxxxxxxxxxxxxxxx`. |
 | `--help, --?, -h, -?` | Display an offline version of this page. |
+| `--config <path>` | **Optional** and **New in 15.9**: During an install or modify operation, this determines the workloads and components to add based on a previously saved installation configuration file. This operation is additive and it will not remove any workload or component if they are not present in the file. Also, items that do not apply to the product will not be added. During an export operation, this determines the location to save the installation configuration file. |
 
 > Note: When specifying multiple workloads and components, you must repeat the `--add` or `--remove` command-line switch for each item.
 

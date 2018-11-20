@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "performance tools, command-line tools"
 ms.assetid: 1c6f1586-3d6a-431f-bedf-c54088e280ba
 caps.latest.revision: 20
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Walkthrough: Command-Line Profiling Using Instrumentation

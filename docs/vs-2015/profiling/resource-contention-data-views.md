@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "concurrency profiling method views"
 ms.assetid: be79ec41-f1dd-4984-993f-5c2962355a32
 caps.latest.revision: 14
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Resource Contention Data Views

@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "Domain-Specific Language, domain relationships"
 ms.assetid: 71d018f8-19a7-44d0-bad3-665c883a9804
 caps.latest.revision: 18
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "kamrani"
 ---
 # Domain Relationships in the Generated API

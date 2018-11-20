@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d20a30c0-0dcc-4e2c-a809-31c8ea28c7df
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Visual Language Dictionary for Visual Studio

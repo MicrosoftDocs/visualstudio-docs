@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "Spy++, viewing code"
 ms.assetid: 38c88663-1f73-48e9-8b47-52a3e8451c98
 caps.latest.revision: 8
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Display Spy++ Views

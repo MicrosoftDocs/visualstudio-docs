@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaAddressMap::set_addressMap method"
 ms.assetid: 81e82073-089b-43d5-af39-49d7a4907c7a
 caps.latest.revision: 12
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaAddressMap::set_addressMap

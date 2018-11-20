@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "PROCESS_INFO_FIELDS enumeration"
 ms.assetid: 0d9cc345-3d3a-44d8-ae15-a67acb97a828
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # PROCESS_INFO_FIELDS

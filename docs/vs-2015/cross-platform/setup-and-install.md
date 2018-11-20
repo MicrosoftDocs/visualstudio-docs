@@ -8,7 +8,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2cfcad00-352c-4161-814c-f5ae32d8ada8
 caps.latest.revision: 19
-ms.author: "crdun"
+ms.author: crdun
 manager: "crdun"
 ---
 # Setup and install

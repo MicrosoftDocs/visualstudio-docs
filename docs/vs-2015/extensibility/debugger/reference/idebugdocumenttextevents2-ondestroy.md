@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugDocumentTextEvents2::onDestroy"
 ms.assetid: 60e4689c-c899-4c14-9d18-96393b741e1f
 caps.latest.revision: 9
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugDocumentTextEvents2::onDestroy

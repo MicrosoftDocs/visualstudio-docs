@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "IDebugPendingBreakpoint2::Bind method"
 ms.assetid: 46e3f307-219d-40cd-a929-d41399c60ecf
 caps.latest.revision: 9
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugPendingBreakpoint2::Bind

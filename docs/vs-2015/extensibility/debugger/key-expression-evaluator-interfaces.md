@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "expression evaluation, interfaces"
 ms.assetid: 1cac9aa3-0867-4e12-a16e-1e90abbc0fb6
 caps.latest.revision: 16
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Key Expression Evaluator Interfaces

@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "layer models, deploying extensions"
 ms.assetid: 00a4675b-d20e-487e-8fd5-be2b1e0ba238
 caps.latest.revision: 29
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
 manager: "douge"
 ---

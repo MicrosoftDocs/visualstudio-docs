@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaEnumSymbols::Item method"
 ms.assetid: 2bd1ec04-e677-4e32-8e32-33334f1eed77
 caps.latest.revision: 10
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaEnumSymbols::Item

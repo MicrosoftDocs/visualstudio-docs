@@ -18,8 +18,8 @@ helpviewer_keywords:
   - ".iTrace files"
 ms.assetid: 9f2cce86-345a-4e22-84ba-91542d81e67a
 caps.latest.revision: 112
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Using saved IntelliTrace data

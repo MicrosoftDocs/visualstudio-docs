@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "debug builds, setting up"
 ms.assetid: f15a1400-b204-418d-8878-ab7755470fd7
 caps.latest.revision: 40
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Debugger Settings and Preparation

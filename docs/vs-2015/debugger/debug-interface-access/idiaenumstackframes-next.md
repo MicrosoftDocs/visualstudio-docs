@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaEnumStackFrames::Next method"
 ms.assetid: 09378a21-d5e3-4213-b7e2-10f04d85295f
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaEnumStackFrames::Next

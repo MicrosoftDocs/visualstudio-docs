@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "IDebugSettingsCallback2::GetMetricGuid"
 ms.assetid: 91092763-3362-4857-adf0-231bc1254206
 caps.latest.revision: 9
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugSettingsCallback2::GetMetricGuid

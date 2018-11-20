@@ -19,7 +19,7 @@ helpviewer_keywords:
   - "UML model, linking work items"
 ms.assetid: e687a490-0f93-412c-a1ff-eea83cf7ba07
 caps.latest.revision: 49
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
 manager: "douge"
 ---

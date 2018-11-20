@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "IDebugSettingsCallback2::GetEEMetricString"
 ms.assetid: 85e3c093-6a91-4101-ab32-d8ac6eed4918
 caps.latest.revision: 9
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugSettingsCallback2::GetEEMetricString

@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], code development aides"
 ms.assetid: 97c38622-ae0b-4ae0-90ed-604072c298d3
 caps.latest.revision: 17
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Legacy Language Service Features

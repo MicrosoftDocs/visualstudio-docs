@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "IDebugSourceServerModule::GetSourceServerData"
 ms.assetid: f15d86aa-1bd9-4b16-a64a-21b01c27db2e
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugSourceServerModule::GetSourceServerData

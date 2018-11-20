@@ -16,8 +16,8 @@ f1_keywords:
   - "vs.performance.4"
 ms.assetid: 2c4fb569-929e-4f1d-8c50-b590ee371351
 caps.latest.revision: 17
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # DA0004: High processor usage

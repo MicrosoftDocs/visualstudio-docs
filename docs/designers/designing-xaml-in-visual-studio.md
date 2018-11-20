@@ -46,7 +46,7 @@ For most basic tasks, the IDE for Visual Studio and Blend for Visual Studio shar
 
 - **A common Solution Explorer:** **Solution Explorer** provides you with an organized view of your projects and their files, as well as ready access to the commands associated with them. With Solution Explorer, it is easier to work with big enterprise projects. See [Solutions and projects](../ide/solutions-and-projects-in-visual-studio.md).
 
-- **Team Explorer:** With Team Explorer you can manage your projects with GIT or TFS repositories to facilitate team collaboration. See [Work in Team Explorer](http://msdn.microsoft.com/Library/fd7a5cf7-7916-4fa0-b5e6-5a83cf377a02).
+- **Team Explorer:** With Team Explorer you can manage your projects with GIT or TFS repositories to facilitate team collaboration. See [Work in Team Explorer](/azure/devops/user-guide/work-team-explorer).
 
 - **NuGet:** You can manage NuGet packages in both Visual Studio and Blend for Visual Studio. NuGet is a package manager for the .NET Framework that simplifies the installation and removal of packages from a solution.
 

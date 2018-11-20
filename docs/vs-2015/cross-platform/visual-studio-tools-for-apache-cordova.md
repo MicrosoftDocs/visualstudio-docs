@@ -8,8 +8,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 21dcf46e-5d6d-439c-90e3-3d678e50c5a6
 caps.latest.revision: 7
-author: "ghogen"
-ms.author: "ghogen"
+author: conceptdev
+ms.author: crdun
 manager: "ghogen"
 ---
 # Visual Studio Tools for Apache Cordova

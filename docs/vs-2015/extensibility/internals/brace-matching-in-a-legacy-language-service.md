@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "language services [managed package framework], brace matching"
 ms.assetid: 4e3d0a70-f22f-49dd-92d8-edf48ab62b52
 caps.latest.revision: 28
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Brace Matching in a Legacy Language Service

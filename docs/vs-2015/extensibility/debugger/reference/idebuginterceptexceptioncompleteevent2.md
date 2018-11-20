@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugInterceptExceptionCompleteEvent2"
 ms.assetid: 8ebc256b-5428-4ed6-a505-6aedc8242b8e
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugInterceptExceptionCompleteEvent2

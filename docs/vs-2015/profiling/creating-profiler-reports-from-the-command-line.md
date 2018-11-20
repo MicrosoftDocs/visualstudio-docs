@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c886f8af-2014-4fec-9b24-d98b68ecafb7
 caps.latest.revision: 12
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Creating Profiler Reports from the Command Line

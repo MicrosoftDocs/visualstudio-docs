@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "m_action field, Task class [.NET Framework debug engines]"
 ms.assetid: 201838c2-260d-4071-b6c3-f526874e19c9
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # m_action Field

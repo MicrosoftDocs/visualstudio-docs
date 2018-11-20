@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "METADATA_ADDRESS_LOCAL structure"
 ms.assetid: 635f6bc5-c486-4e0e-83db-36f15e543843
 caps.latest.revision: 7
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # METADATA_ADDRESS_LOCAL

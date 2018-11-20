@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "IDebugProcessQueryProperties::QueryProperty"
 ms.assetid: 9a91707d-a590-44ef-b122-69d9816a7a79
 caps.latest.revision: 7
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugProcessQueryProperties::QueryProperty

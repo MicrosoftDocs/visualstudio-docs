@@ -1,5 +1,5 @@
 ' The following code example demonstrates the result of setting 
-' the desktop bounds and desktop location. It also demonstates
+' the desktop bounds and desktop location. It also demonstrates
 ' the Form.MaximumSize property.
 
 Imports System.Windows.Forms

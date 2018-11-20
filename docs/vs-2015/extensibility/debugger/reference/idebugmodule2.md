@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugModule2 interface"
 ms.assetid: 24c2a126-f4ab-4891-8509-8ef99b994c08
 caps.latest.revision: 13
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugModule2

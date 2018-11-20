@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugExpressionContext2 interface"
 ms.assetid: 577fdaae-4b2d-4112-9839-ab899535fa6f
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugExpressionContext2

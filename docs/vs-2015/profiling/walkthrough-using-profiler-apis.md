@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "performance tools, walkthroughs"
 ms.assetid: c2ae0b3e-a0ca-4967-b4df-e319008f520e
 caps.latest.revision: 21
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Walkthrough: Using Profiler APIs

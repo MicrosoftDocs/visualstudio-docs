@@ -25,8 +25,8 @@ helpviewer_keywords:
   - "Stop Debugging in Progress dialog box"
 ms.assetid: ed7ef49d-e25f-4a4d-9396-9bc7b4143117
 caps.latest.revision: 10
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Stop Debugging In Progress Dialog Box

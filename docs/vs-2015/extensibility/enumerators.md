@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "source control plug-ins, enumerators"
 ms.assetid: a60030c5-e1d1-47e1-84bb-cbfe838ab479
 caps.latest.revision: 20
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Enumerators
