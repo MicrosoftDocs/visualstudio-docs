@@ -78,17 +78,17 @@ Sometimes, you might need to debug the startup code for an app that is launched 
   
 1. Select the folder of the app that you want to start in the debugger.  
    
-   If the app is not listed as a child folder, select **Image File Execution Options**, and then select **New** > **Key**. Select the new key, select **Rename** on the shortcut menu, and then enter the name of the app.  
+   If the app is not listed as a child folder, right-click **Image File Execution Options**, select **New** > **Key**, and type the app name. Or, right-click the new key in the tree, select **Rename**, and then enter the app name. 
    
-1. On the context menu of the app folder, choose **New** > **String Value**.  
+1. Right-click the new key in the tree and select **New** > **String Value**.  
    
-1. Change the name of the new value from **New Value** to `debugger`.  
+1. Change the name of the new value from **New Value #1** to `debugger`.  
    
-1. On the context menu of the **debugger** entry, select **Modify**.  
+1. Right-click **debugger** and select **Modify**.  
    
-1. In the **Edit String** dialog box, type `vsjitdebugger.exe` in the **Value data** box.  
-  
    ![Edit String dialog box](../debugger/media/dbg_execution_automaticstart_editstringdlg.png "Edit String dialog box")  
+   
+1. In the **Edit String** dialog box, type `vsjitdebugger.exe` in the **Value data** box, and then select **OK**.  
    
    ![Automatic debugger start entry in regedit.exe](../debugger/media/dbg_execution_automaticstart_result.png "Automatic debugger start entry in regedit.exe")  
    
