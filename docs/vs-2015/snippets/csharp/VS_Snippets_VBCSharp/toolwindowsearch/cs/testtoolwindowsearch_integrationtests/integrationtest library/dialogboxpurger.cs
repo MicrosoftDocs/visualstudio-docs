@@ -178,7 +178,7 @@ namespace Microsoft.VsSDK.IntegrationTestLibrary
             {
                 lock (Mutex)
                 {
-                    // Set the exit thread to true. Next time the thread will kill itselfes if it sees 
+                    // Set the exit thread to true. Next time the thread will kill itself if it sees (?)
                     this.exitThread = true;
                 }
 

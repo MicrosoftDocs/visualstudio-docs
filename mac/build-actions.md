@@ -22,3 +22,7 @@ Some of the common build actions for C# projects are:
 It's possible to select more than one file in the solution explorer, allowing you to set the build action to many files at once.
 
 Also, there are build actions for specific projects. Xamarin.iOS projects have the **BundleResource** build action, which will add the file as part of the app bundle. Information on Xamarin.Android specific build actions can be found in the [build process](/xamarin/android/deploy-test/building-apps/build-process#Build_Actions) guide.
+
+## See also
+
+- [Build actions (Visual Studio on Windows)](/visualstudio/ide/build-actions)
