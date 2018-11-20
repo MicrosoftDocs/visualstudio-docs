@@ -128,7 +128,7 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
         
         VS2017 version numbers can be found here: https://docs.microsoft.com/en-us/visualstudio/install/visual-studio-build-numbers-and-release-dates?view=vs-2017#feedback
         
-        When expressing the for VS2017 releases, the minor version should always be zero. For example, if specifying VS2017 15.3.26730.0 as a minor version, it should be expressed as [15.0.26730.0,16.0). Note this is only true for VS2017 version numbers.
+        When expressing the version for Visual Studio 2017 releases, the minor version should always be **0**. For example, Visual Studio 2017 version 15.3.26730.0 should be expressed as [15.0.26730.0,16.0). This is only required for Visual Studio 2017 version numbers.
   
     -   `AnyAttribute*` - The `<InstallationTarget>` element allows an open-ended set of attributes that is exposed at runtime as a name-value pair dictionary.  
   
