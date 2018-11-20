@@ -73,7 +73,7 @@ sections:
       html: <p>Learn to use the Visual Studio code editor</p>
       image:
         src: https://docs.microsoft.com/media/common/i_code-edit.svg
-      title: Write and edite code
+      title: Write and edit code
     - href: ../ide/compiling-and-building-in-visual-studio.md
       html: <p>Configure your compiler and build your app.</p>
       image:
