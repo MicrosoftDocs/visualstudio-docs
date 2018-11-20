@@ -69,7 +69,7 @@ You can set the debugging target in the Visual Studio toolbar or on the project 
 |**Simulator**|Debug the app in the Visual Studio simulator for UWP apps. The simulator is a desktop window that simulates device functions, like touch gestures and device rotation, that may not exist on the local machine. The simulator option is available only if your app's **Target Platform Min. Version** is less than or equal to the operating system on the local machine. For more information, see [Run UWP apps in the simulator](../debugger/run-windows-store-apps-in-the-simulator.md).|  
 |**Remote Machine**|Debug the app on a device connected to the local machine through a network or Ethernet cable. The Remote Tools for Visual Studio must be installed and running on the remote device. For more information, see [Run UWP apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md).|  
 |**Device**|Debug the app on a USB-connected device. The device must be developer-unlocked and have the screen unlocked.|  
-|**Mobile Emulator**|Boot the emulator specified in the emulator name, deploy the app, and start debugging. Emulators are available only on Hyper-V enabled machines that have **Hardware .|  
+|**Mobile Emulator**|Boot the emulator specified in the emulator name, deploy the app, and start debugging. Emulators are available only on Hyper-V enabled machines.|  
 
 ##  <a name="BKMK_Open_the_debugging_property_page_for_the_project"></a> Configure debugging in the project property page 
 
@@ -113,7 +113,7 @@ In C++ apps, Visual Studio debugs native code by default. In JavaScript apps, Vi
   
 ###  <a name="BKMK__Optional__Disable_network_loopbacks"></a> Disable network loopbacks (optional) 
   
- For security, a UWP app that is installed in the standard manner can't make network calls to the device it is installed on. By default, Visual Studio exempts deployed apps from this rule, so you can test communication procedures on a single machine. Before you release your app, you should test your app without the exemption.  
+ For security, a UWP app that is installed in the standard manner can't make network calls to the device it's installed on. By default, Visual Studio exempts deployed apps from this rule, so you can test communication procedures on a single machine. Before you release your app, you should test your app without the exemption.  
   
 **To remove the network loopback exemption:**  
   
@@ -122,7 +122,7 @@ In C++ apps, Visual Studio debugs native code by default. In JavaScript apps, Vi
 -   For Visual C++ and JavaScript apps, select **No** from the **Allow Local Network Loopback** dropdown on the **Debugging** property page.  
   
 ###  <a name="BKMK__Optional__Reinstall_the_app_when_you_start_debugging"></a> Reinstall the app when you start debugging (optional) 
- To diagnose installation problems with a C# or Visual Basic app, select **Uninstall and then re-install my package** on the **Debug**  property page. This option recreates the original install when you start debugging. This option is not available for C++ and JavaScript projects.  
+ To diagnose installation problems with a C# or Visual Basic app, select **Uninstall and then re-install my package** on the **Debug**  property page. This option recreates the original install when you start debugging. This option isn't available for C++ and JavaScript projects.  
   
 ###  <a name="BKMK__Optional__Disable_authentication_requirement_to_start_the_remote_debugger"></a> Set authentication options for remote debugging  
   
@@ -145,7 +145,7 @@ When you select **Debug** > **Start Debugging** or press **F5**, Visual Studio l
   
 ###  <a name="BKMK_Start_debugging__F5__but_delay_the_app_start"></a> Start debugging but delay app start  
 
-By default, Visual Studio starts the app immediately when you start debugging. You can also set the app to run in debug mode, but start it outside the debugger. For example, you might want to debug the launch of your app from the Windows **Start** menu, or debug a background process in the app without starting the app. If you choose this option, the app starts in the debugger when it is launched. 
+By default, Visual Studio starts the app immediately when you start debugging. You can also set the app to run in debug mode, but start it outside the debugger. For example, you might want to debug the launch of your app from the Windows **Start** menu, or debug a background process in the app without starting the app. If you choose this option, the app starts in the debugger when it's launched. 
 
 **To delay the app start:**  
   
@@ -157,7 +157,7 @@ For more information about debugging background tasks, see [Trigger suspend, res
   
 ###  <a name="BKMK_Start_an_installed_app_in_the_debugger"></a> Debug an installed or running UWP app 
 
-To debug a UWP app that is already installed or running, use **Debug Installed App Package**. The app can be installed locally or on a remote device. The app may have been installed from the Microsoft Store, or the app may not be a Visual Studio project. For example, the app might have a custom build system that does not use Visual Studio.  
+To debug a UWP app that is already installed or running, use **Debug Installed App Package**. The app can be installed locally or on a remote device. The app may have been installed from the Microsoft Store, or the app may not be a Visual Studio project. For example, the app might have a custom build system that doesn't use Visual Studio.  
   
 You can start the installed app immediately, or you can set it to run in the debugger when started with another method. For more information, see [Trigger suspend, resume, and background events for UWP apps)](../debugger/how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio.md).  
   
