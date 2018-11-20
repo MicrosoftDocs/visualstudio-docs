@@ -99,6 +99,22 @@ The modular installer enables you to choose and install *workloads*, which are g
 
 When you start Visual Studio for the first time, you can optionally [sign in](../ide/signing-in-to-visual-studio.md) using your Microsoft account, or your work or school account.
 
+## Select environment settings
+
+Let's configure Visual Studio to use environment settings tailored to C# developers.
+
+1. On the menu bar, choose **Tools** > **Import and Export Settings**.
+
+2. In the **Import and Export Settings Wizard**, select **Reset all settings** on the first page, and then choose **Next**.
+
+3. On the **Save Current Settings** page, select an option to save your current settings or not, and then choose **Next**. (If you haven't customized any settings, select **No, just reset settings, overwriting my current settings**.)
+
+4. On the **Choose a Default Collection of Settings** page, choose **Visual C#**, and then choose **Finish**.
+
+5. On the **Reset Complete** page, choose **Close**.
+
+To learn about other ways you can personalize the IDE, see [Personalize Visual Studio](../ide/personalizing-the-visual-studio-ide.md).
+
 ## Create a program
 
 First, we'll configure Visual Studio to use environment settings tailored to C# developers.
