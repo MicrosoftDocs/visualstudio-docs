@@ -111,4 +111,4 @@ Refer to your particular source control documentation for details on how to excl
 
 ## See also
 
-* [nstall and use a package in Visual Studio (on Windows)](/nuget/quickstart/install-and-use-a-package-in-visual-studio)
+* [Install and use a package in Visual Studio (on Windows)](/nuget/quickstart/install-and-use-a-package-in-visual-studio)

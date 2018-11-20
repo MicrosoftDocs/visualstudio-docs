@@ -24,7 +24,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# View disassembly code in the Visual Studio debugger
+# View disassembly code in the Visual Studio debugger (C#, C++, Visual Basic, F#)
 
 The **Disassembly** window shows assembly code corresponding to the instructions created by the compiler. If you're debugging managed code, these assembly instructions correspond to the native code created by the Just-in-Time (JIT) compiler, not the Microsoft intermediate language (MSIL) created by the Visual Studio compiler.  
   
@@ -35,7 +35,7 @@ This feature is only available if address-level debugging is enabled. It isn't a
 
 In addition to assembly instructions, the **Disassembly** window can show the following optional information:  
   
-- Memory address where each instruction is located. For native applications, it is the actual memory address. For Visual Basic, C#, or managed code, it's an offset from the beginning of the function.  
+- Memory address where each instruction is located. For native applications, it is the actual memory address. For Visual Basic or C#, it's an offset from the beginning of the function.  
   
 - Source code from which the assembly code derives.  
   

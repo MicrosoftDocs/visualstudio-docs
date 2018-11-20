@@ -284,7 +284,7 @@ namespace Microsoft.Samples.RectExamples
         // <SnippetCreateRectExample3_csharp>
         private Rect createRectExample3()
         {
-            // This constructor intializes a new instance of the Rect structure that is 
+            // This constructor initializes a new instance of the Rect structure that is 
             // exactly large enough to contain the two specified points.  
             Rect myRectangle = new Rect(new Point(15, 30), new Point(50,70));
 
@@ -310,7 +310,7 @@ namespace Microsoft.Samples.RectExamples
         // <SnippetCreateRectExample5_csharp>
         private Rect createRectExample5()
         {
-            // This constructor Intializes a new instance of the Rect structure that is exactly 
+            // This constructor Initializes a new instance of the Rect structure that is exactly 
             // large enough to contain the specified point and the sum of the specified point 
             // and the specified vector.   
             Rect myRectangle = new Rect(new Point(15, 30), new Vector(35, 40));
@@ -324,7 +324,7 @@ namespace Microsoft.Samples.RectExamples
         // <SnippetCreateRectExample6_csharp>
         private Rect createRectExample6()
         {
-            // This constructor intializes a new instance of the Rect structure with the specified 
+            // This constructor initializes a new instance of the Rect structure with the specified 
             // x- and y-coordinates and the specified width and height. 
             Rect myRectangle = new Rect(15, 30, 35, 40);
 
