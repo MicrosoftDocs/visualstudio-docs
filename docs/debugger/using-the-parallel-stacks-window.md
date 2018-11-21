@@ -22,26 +22,43 @@ ms.workload:
 ---
 # View threads and tasks in the Parallel Stacks window
 
-The **Parallel Stacks** window is useful for debugging multithreaded applications. Its **Threads** view shows call stack information for all the threads in your app. You can navigate between threads and stack frames on those threads. In managed code, the **Tasks** view shows call stacks of <xref:System.Threading.Tasks.Task?displayProperty=fullName> objects. In native code, the **Tasks** view shows call stacks of [task groups](/cpp/parallel/concrt/task-parallelism-concurrency-runtime), [parallel algorithms](/cpp/parallel/concrt/parallel-algorithms), [asynchronous agents](/cpp/parallel/concrt/asynchronous-agents), and [lightweight tasks](/cpp/parallel/concrt/task-scheduler-concurrency-runtime).  
-  
-## Toolbar and context menu controls  
+The **Parallel Stacks** window is useful for debugging multithreaded applications. It has several views:
 
-The **Threads View** and **Task View** of the **Parallel Stacks** window have the same toolbar controls and context menu items. 
+- [Threads view](#threads-view) shows call stack information for all threads in the app. You can navigate between threads and stack frames on those threads. 
+
+- [Tasks view](#tasks-view) shows task-centered call stack information. 
+  - In managed code, **Tasks** view shows call stacks of <xref:System.Threading.Tasks.Task?displayProperty=fullName> objects. 
+  - In native code, **Tasks** view shows call stacks of [task groups](/cpp/parallel/concrt/task-parallelism-concurrency-runtime), [parallel algorithms](/cpp/parallel/concrt/parallel-algorithms), [asynchronous agents](/cpp/parallel/concrt/asynchronous-agents), and [lightweight tasks](/cpp/parallel/concrt/task-scheduler-concurrency-runtime).  
   
+- [Method View](#method-view) pivots the call stack on a selected method. 
+
+## Use the Parallel Stacks window 
+
+To open the **Parallel Stacks** window, you must be in a debugging session. Select **Debug** > **Windows** > **Parallel Stacks**. 
+
 ### Toolbar controls
+
+The **Parallel Stacks** window has the following toolbar controls: 
 
 ![Toolbar in Parallel Stacks window](../debugger/media/parallel_stackstoolbar.png "Parallel Stacks toolbar")  
   
 |Icon|Control|Description|  
 |-|-|-|  
-|![Threads/Tasks combo box](media/parallel_toolbar1.png "Threads/Tasks combo box")|Threads/Tasks combo box|Switches the view between call stacks of threads and call stacks of tasks. For more information, see [Tasks view](#tasks-view) and [Threads view](#threads-view).|  
-|![Show Only Flagged icon](media/parallel_toolbar2.png "Show Only Flagged icon")|Show Only Flagged|Shows call stacks only for the threads that are flagged in other debug windows, such as the **GPU Threads** window and the **Parallel Watch** window.|  
-|![Toggle Method View icon](media/parallel_toolbar3.png "Toggle Method View icon")|Toggle Method View|Switches between Stack View and Method View. For more information, see Method View.|  
-|![Auto Scroll to Current icon](media/parallel_toolbar4.png "Auto Scroll to Current icon")|Auto Scroll To Current Stack Frame|Autoscrolls the diagram so that the current stack frame is in view. This feature is useful when you are changing the current stack frame from other windows, or when you are hitting a new breakpoint in large diagrams.|  
+|![Threads/Tasks combo box](media/parallel_toolbar1.png "Threads/Tasks combo box")|**Threads**/**Tasks** combo box|Switches the view between call stacks of threads and call stacks of tasks. For more information, see [Tasks view](#tasks-view) and [Threads view](#threads-view).|  
+|![Show Only Flagged icon](media/parallel_toolbar2.png "Show Only Flagged icon")|Show Only Flagged|Shows call stacks only for the threads that are flagged in other debugger windows, such as the **GPU Threads** window and the **Parallel Watch** window.|  
+|![Toggle Method View icon](media/parallel_toolbar3.png "Toggle Method View icon")|Toggle **Method View**|Switches between call stack views and **Method View**. For more information, see [Method View](#method-view).|  
+|![Auto Scroll to Current icon](media/parallel_toolbar4.png "Auto Scroll to Current icon")|Auto Scroll To Current Stack Frame|Autoscrolls the graph so that the current stack frame is in view. This feature is useful when you change the current stack frame from other windows, or when you hit a new breakpoint in large graphs.|  
 |![Toggle Zoom icon](media/parallel_toolbar5.png "Toggle Zoom icon")|Toggle Zoom Control|Shows or hides the zoom control at the left of the window. <br /><br />Regardless of the visibility of the zoom control, you can also zoom by pressing **Ctrl** and turning the mouse wheel, or by pressing **Ctrl**+**Shift**+**+** to zoom in and **Ctrl**+**Shift**+**-** to zoom out. |  
   
+### Stack Frame icons
+The following icons provide information about the active and current stack frames in all views:
+
+|![Yellow arrow](media/icon_parallelyellowarrow.gif)|Indicates the current location (active stack frame) of the current thread.|
+|![Threads icon](media/icon_parallelyellowarrow.gif)|Indicates the current location (active stack frame) of a non-current thread.|
+|![Green arrow](media/icon_parallelyellowarrow.gif)|Indicates the current stack frame (the current debugger context). The method name is bold wherever it appears.|  
+
 ### Context menu items  
-The following illustration and table describe the shortcut menu items when you right-click a method in either **Threads** view or **Tasks** view. The last six items are the same as in the **Call Stack** window.  
+The following shortcut menu items are available when you right-click a method in **Threads** view or **Tasks** view. The last six items are the same as in the **Call Stack** window.  
 
 ![Shortcut menu in Parallel Stacks window](../debugger/media/parallel_contmenu.png "Shortcut menu in Parallel Stacks window")  
 
@@ -52,14 +69,14 @@ The following illustration and table describe the shortcut menu items when you r
 |**Freeze**|Freezes the selected item.|  
 |**Thaw**|Thaws the selected item.|  
 |**Switch To Frame**|Same as the corresponding menu command in the **Call Stack** window. However, in the **Parallel Stacks** window, one method may be in several frames. You can select the frame you want in the submenu for this item. If one of the stack frames is on the current thread, that frame is selected by default in the submenu.|  
-|**Go to Task** (**Thread**)|Switches to the **Task** or **Threads** view, and keeps the same stack frame highlighted.|  
+|**Go to Task** or **Go to Thread**)|Switches to the **Task** or **Threads** view, and keeps the same stack frame highlighted.|  
 |**Go To Source Code**|Goes to the corresponding location in the source code window. |  
 |**Go To Disassembly**|Goes to the corresponding location in the **Disassembly** window.|  
 |**Show External Code**|Shows or hides external code.|  
 |**Hexadecimal Display**|Toggles between decimal and hexadecimal display.|  
 |**Show Threads in Source**|Flags the location of the thread in the source code window. |  
 |**Symbol Load Information**|Opens the **Symbol Load Information** dialog box.|  
-|**Symbol Settings**|**Opens the **Symbol Settings** dialog box. |  
+|**Symbol Settings**|Opens the **Symbol Settings** dialog box. |  
   
 ## Threads view  
 
@@ -77,22 +94,19 @@ The following table describes the main features of the **Threads** view:
   
 |Callout|Element name|Description|  
 |-|-|-|  
-|1|Call stack segment or frame|Contains a series of methods for one or more threads. If the frame has no arrow lines connected to it, it represents the entire call path for the thread(s).|  
+|1|Call stack segment or frame|Contains a series of methods for one or more threads. If the frame has no arrow lines connected to it, it shows the entire call path for the thread(s).|  
 |2|Blue highlight|Indicates the call path of the current thread.|  
 |3|Arrow lines|Connect nodes to make up the entire call path for the thread(s).|  
 |4|Tooltip on node header|Shows the number of processes and threads for the node.|  
 |5|Method|Represents one or more stack frames in the same method.|  
 |6|Tooltip on method|In **Threads** view, the tooltip shows all the threads in a table similar to the **Threads** window. In **Tasks** view, the tooltip shows all the tasks in a table similar to the **Tasks** window.|  
-|7|Yellow arrow|Indicates that the method contains the current location (active stack frame) of the current thread.|
-|8|Threads icon|Indicates that the method contains the current location (active stack frame) of a non-current thread.|
-|9|Green arrow|Indicates that the method contains the current stack frame (the current debugger context). The method name is bold in all nodes in which it appears.|  
 
 ## Tasks view  
  If your app uses <xref:System.Threading.Tasks.Task?displayProperty=fullName> objects (managed code) or `task_handle` objects (native code) to express parallelism, you can use **Tasks** view. **Tasks** view shows call stacks of tasks instead of threads. 
 
 **Tasks** view has the following differences from **Threads** view:  
   
-- Call stacks of threads that are not running tasks are not shown.  
+- Call stacks of threads that aren't running tasks aren't shown.  
 - Call stacks of threads that are running tasks are visually trimmed at the top and bottom, to show the most relevant frames for tasks.  
 - When several tasks are on one thread, the call stacks of those tasks are split into separate nodes.  
 
