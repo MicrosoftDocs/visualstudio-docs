@@ -39,9 +39,9 @@ During this walkthrough, you will learn how to:
 
 This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.
 
-1.  If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express), or through the **Visual Studio Installer**. In the **Visual Studio Installer**, you can install SQL Server Express LocalDB as part of the **Data storage and processing** workload, or as an individual component.
+1. If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express), or through the **Visual Studio Installer**. In the **Visual Studio Installer**, you can install SQL Server Express LocalDB as part of the **Data storage and processing** workload, or as an individual component.
 
-2.  Install the Northwind sample database by following these steps:
+2. Install the Northwind sample database by following these steps:
 
     1. In Visual Studio, open the **SQL Server Object Explorer** window. (SQL Server Object Explorer is installed as part of the **Data storage and processing** workload in the Visual Studio Installer.) Expand the **SQL Server** node. Right-click on your LocalDB instance and select **New Query**.
 
@@ -73,15 +73,15 @@ This step uses the **Data Source Configuration Wizard** to create a data source 
 
 ### To create the data source
 
-1.  On the **Data** menu, select **Show Data Sources**.
+1. On the **Data** menu, select **Show Data Sources**.
 
    The **Data Sources** window opens.
 
-2.  In the **Data Sources** window, select **Add New Data Source** to start the **Data Source Configuration Wizard**.
+2. In the **Data Sources** window, select **Add New Data Source** to start the **Data Source Configuration Wizard**.
 
-3.  On the **Choose a Data Source Type** screen, select **Database**, and then select **Next**.
+3. On the **Choose a Data Source Type** screen, select **Database**, and then select **Next**.
 
-4.  On the **Choose your Data Connection** screen, do one of the following:
+4. On the **Choose your Data Connection** screen, do one of the following:
 
     -   If a data connection to the Northwind sample database is available in the drop-down list, select it.
 
@@ -89,13 +89,13 @@ This step uses the **Data Source Configuration Wizard** to create a data source 
 
     -   Select **New Connection** to launch the **Add/Modify Connection** dialog box.
 
-5.  If your database requires a password, select the option to include sensitive data, and then select **Next**.
+5. If your database requires a password, select the option to include sensitive data, and then select **Next**.
 
-6.  On the **Save connection string to the Application Configuration file** screen, select **Next**.
+6. On the **Save connection string to the Application Configuration file** screen, select **Next**.
 
-7.  On the **Choose your Database Objects** screen, expand the **Tables** node.
+7. On the **Choose your Database Objects** screen, expand the **Tables** node.
 
-8.  Select the `Region` table, and then select **Finish**.
+8. Select the `Region` table, and then select **Finish**.
 
      The **NorthwindDataSet** is added to your project and the `Region` table appears in the **Data Sources** window.
 
@@ -109,9 +109,9 @@ A <xref:System.Windows.Forms.DataGridView> control and a tool strip (<xref:Syste
 
 ### To add buttons that will call the individual TableAdapter DbDirect methods
 
-1.  Drag three <xref:System.Windows.Forms.Button> controls from the **Toolbox** onto **Form1** (below the **RegionDataGridView**).
+1. Drag three <xref:System.Windows.Forms.Button> controls from the **Toolbox** onto **Form1** (below the **RegionDataGridView**).
 
-2.  Set the following **Name** and **Text** properties on each button.
+2. Set the following **Name** and **Text** properties on each button.
 
     |Name|Text|
     |----------|----------|
@@ -121,27 +121,27 @@ A <xref:System.Windows.Forms.DataGridView> control and a tool strip (<xref:Syste
 
 ### To add code to insert new records into the database
 
-1.  Select **InsertButton** to create an event handler for the click event and open your form in the code editor.
+1. Select **InsertButton** to create an event handler for the click event and open your form in the code editor.
 
-2.  Replace the `InsertButton_Click` event handler with the following code:
+2. Replace the `InsertButton_Click` event handler with the following code:
 
      [!code-vb[VbRaddataSaving#1](../data-tools/codesnippet/VisualBasic/save-data-with-the-tableadapter-dbdirect-methods_1.vb)]
      [!code-csharp[VbRaddataSaving#1](../data-tools/codesnippet/CSharp/save-data-with-the-tableadapter-dbdirect-methods_1.cs)]
 
 ### To add code to update records in the database
 
-1.  Double-click the **UpdateButton** to create an event handler for the click event and open your form in the code editor.
+1. Double-click the **UpdateButton** to create an event handler for the click event and open your form in the code editor.
 
-2.  Replace the `UpdateButton_Click` event handler with the following code:
+2. Replace the `UpdateButton_Click` event handler with the following code:
 
      [!code-vb[VbRaddataSaving#2](../data-tools/codesnippet/VisualBasic/save-data-with-the-tableadapter-dbdirect-methods_2.vb)]
      [!code-csharp[VbRaddataSaving#2](../data-tools/codesnippet/CSharp/save-data-with-the-tableadapter-dbdirect-methods_2.cs)]
 
 ### To add code to delete records from the database
 
-1.  Select **DeleteButton** to create an event handler for the click event and open your form in the code editor.
+1. Select **DeleteButton** to create an event handler for the click event and open your form in the code editor.
 
-2.  Replace the `DeleteButton_Click` event handler with the following code:
+2. Replace the `DeleteButton_Click` event handler with the following code:
 
      [!code-vb[VbRaddataSaving#3](../data-tools/codesnippet/VisualBasic/save-data-with-the-tableadapter-dbdirect-methods_3.vb)]
      [!code-csharp[VbRaddataSaving#3](../data-tools/codesnippet/CSharp/save-data-with-the-tableadapter-dbdirect-methods_3.cs)]
