@@ -72,7 +72,7 @@ ms.workload:
 
  For general information about how VSTO Add-ins work, see [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md).  
 
- ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Automate PowerPoint from an Excel Add-in?](http://go.microsoft.com/fwlink/?LinkID=130300).  
+ ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Automate PowerPoint from an Excel Add-in?](http://go.microsoft.com/fwlink/?LinkID=130300)<!-- broken link -->.  
 
 ### Excel Add-in programming model  
  When you create an Excel VSTO Add-in project, Visual Studio generates a class, called `ThisAddIn`, which is the foundation of your solution. This class provides a starting point for writing your code, and it also exposes the object model of Excel to your VSTO Add-in.  
