@@ -45,7 +45,7 @@ During this walkthrough, you will learn how to:
 
 - Create a dataset with the [Data Source Configuration Wizard](../data-tools/media/data-source-configuration-wizard.png).
 
-- Set the **Customers** table in the [Data Sources window](add-new-data-sources.md) to use the new complex control.
+- Set the **Customers** table in the [Data Sources window](add-new-data-sources.md#data-sources-window) to use the new complex control.
 
 - Add the new control by dragging it from the **Data Sources** window onto **Form1**.
 

@@ -36,7 +36,7 @@ By default, the [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] 
 
 ## Create an object data source and display the data on a form
 
-After you create entity classes by using the **O/R Designer**, you can create an object data source and populate the [Data Sources window](add-new-data-sources.md) with the entity classes.
+After you create entity classes by using the **O/R Designer**, you can create an object data source and populate the [Data Sources window](add-new-data-sources.md#data-sources-window) with the entity classes.
 
 ### To create an object data source based on LINQ to SQL entity classes
 
