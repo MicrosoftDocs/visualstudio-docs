@@ -155,11 +155,11 @@ To display the data from the WCF Data Service, create a new WPF application with
 
 10. In the **Services** box, click **AdventureWorksService.svc**, and then click **OK**.
 
-   Visual Studio downloads the service information and then returns to the **Data Source Configuration** wizard.
+    Visual Studio downloads the service information and then returns to the **Data Source Configuration** wizard.
 
 11. In the **Add Service Reference** page, click **Finish**.
 
-   Visual Studio adds nodes that represent the data returned by the service to the **Data Sources** window.
+    Visual Studio adds nodes that represent the data returned by the service to the **Data Sources** window.
 
 ## Define the user interface
 

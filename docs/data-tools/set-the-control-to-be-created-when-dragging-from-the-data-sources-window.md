@@ -28,18 +28,18 @@ In this context, the term *object* refers to a custom business object, an entity
 
 ### To set the controls to be created for data tables or objects
 
-1.  Be sure the **WPF** designer or the **Windows Forms** designer is open.
+1. Be sure the **WPF** designer or the **Windows Forms** designer is open.
 
-2.  In the **Data Sources** window, select the item that represents the data table or object you want to set.
+2. In the **Data Sources** window, select the item that represents the data table or object you want to set.
 
    > [!TIP]
    > If the **Data Sources** window is not open, you can open it by selecting **View** > **Other Windows** > **Data Sources**.
 
-3.  Click the drop-down menu for the item, and then click one of the following items in the menu:
+3. Click the drop-down menu for the item, and then click one of the following items in the menu:
 
-    -   To display each data field in a separate control, click **Details**. When you drag the data item to the designer, this action will create a different data-bound control for each column or property of the parent data table or object, along with labels for each control.
+    - To display each data field in a separate control, click **Details**. When you drag the data item to the designer, this action will create a different data-bound control for each column or property of the parent data table or object, along with labels for each control.
 
-    -   To display all of the data in a single control, select a different control in the list, such as **DataGrid** or **List** in a WPF application, or **DataGridView** in a Windows Forms application.
+    - To display all of the data in a single control, select a different control in the list, such as **DataGrid** or **List** in a WPF application, or **DataGridView** in a Windows Forms application.
 
     The list of available controls depends on which designer you have open, which version of the .NET Framework your project targets, and whether you have added custom controls that support data binding to the **Toolbox**. If the control you want to create is not in the list of available controls, you can add the control to the list. For more information, see [Add custom controls to the Data Sources window](../data-tools/add-custom-controls-to-the-data-sources-window.md).
 
@@ -51,13 +51,13 @@ Before you drag an item that represents a column or a property of an object from
 
 ### To set the controls to be created for columns or properties
 
-1.  Be sure the **WPF** designer or the **Windows Forms** designer is open.
+1. Be sure the **WPF** designer or the **Windows Forms** designer is open.
 
-2.  In the **Data Sources** window, expand the desired table or object to display its columns or properties.
+2. In the **Data Sources** window, expand the desired table or object to display its columns or properties.
 
-3.  Select each column or property for which you want to set the control to be created.
+3. Select each column or property for which you want to set the control to be created.
 
-4.  Click the drop-down menu for the column or property, and then select the control you want to create when the item is dragged to the designer.
+4. Click the drop-down menu for the column or property, and then select the control you want to create when the item is dragged to the designer.
 
      The list of available controls depends on which designer you have open, which version of the .NET Framework your project targets, and which custom controls that support data binding you have added to the **Toolbox**. If the control you want to create is in the list of available controls, you can add the control to the list. For more information, see [Add custom controls to the Data Sources window](../data-tools/add-custom-controls-to-the-data-sources-window.md).
 
