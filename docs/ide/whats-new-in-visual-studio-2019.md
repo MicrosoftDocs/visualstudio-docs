@@ -37,7 +37,7 @@ Here's a high-level recap of what Visual Studio has to offer:
 
 It's a given that performance improvements are top of mind with every release of Visual Studio, but right up there with it is improving your productivity. Here's how we can help with that.
 
-### Start window
+### New start window
 
 The first thing you'll notice when you open Visual Studio 2019 is its new start window.
 
@@ -59,9 +59,9 @@ Before, CodeLens was a feature that you could find only in the Visual Studio Ent
 
 Use CodeLens to find references to a piece of code, changes to your code, linked bugs, work items, code reviews, and unit tests&mdash;without leaving the editor. To find out more, see the [Find code changes and other history with CodeLens](../ide/find-code-changes-and-other-history-with-codelens.md) page.
 
-### One-click code cleanup
+### One-click Code Cleanup
 
-Paired with a new Document Health Indicator feature is a new one-click code cleanup feature that you can use to fix all your code in one fell swoop.
+Paired with a new Document Health Indicator feature is a new one-click Code Cleanup feature that you can use to fix all your code in one fell swoop.
 
    ![The new Code Cleanup feature in Visual Studio 2019](../ide/media/code-cleanup.png)
 
@@ -69,7 +69,9 @@ The cleanup will format the code and apply any code fixes suggested by the curre
 
 ### Debugger improvements
 
-Add text here.
+#### Search within a Watch window
+
+You've probably been there before, looking in the watch window for a string amongst a sea of values. We've enhanced search in the various watch windows (locals, auto, and watch). Now, Visual Studio can do that looking for you!
 
 ### Live Share
 
@@ -89,7 +91,7 @@ Add text here.
 
 ### Improved DPI scaling
 
-Add text here.
+Add text here. (Although, I'm not seeing reference to this anywhere...)
 
 ## Give us feedback
 
