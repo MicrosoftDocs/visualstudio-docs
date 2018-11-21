@@ -160,7 +160,7 @@ namespace SdkSample
         /// <param name="sourceContext"></param>
         /// <returns>
         /// Last processed html node. Normally it should be the same htmlElement
-        /// as was passed as a paramater, but in some irregular cases
+        /// as was passed as a parameter, but in some irregular cases
         /// it could one of its following siblings.
         /// The caller must use this node to get to next sibling from it.
         /// </returns>
