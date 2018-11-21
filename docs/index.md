@@ -71,7 +71,9 @@ ms.topic: hub-page
         <ul class="pivots">
             <li>
                 <a href="#get-started">Get Started</a>
-                <ul id="get-started" class="cardsL">
+                <ul id="get-started">
+                <li>
+                <ul class="cardsL">
                     <li>
                         <div class="container intro">
                             <h2 class="likeAnH1">Get started with Visual Studio</h2>
@@ -192,6 +194,8 @@ ms.topic: hub-page
                             </div>
                         </div>
                     </li>
+                </ul>
+                </li>
                 </ul>
             </li>
             <li>
