@@ -73,6 +73,12 @@ ms.topic: hub-page
                 <a href="#get-started">Get Started</a>
                 <ul id="get-started" class="cardsL">
                     <li>
+                        <div class="container intro">
+                            <h2 class="likeAnH1">Get started with Visual Studio</h2>
+                            <p>Learn how to use the Visual Studio development environment or follow a tutorial to create an app.</p>
+                        </div>   
+                    </li>
+                    <li>
                         <div class="cardSize">
                             <div class="cardPadding">
                                 <div class="card">
