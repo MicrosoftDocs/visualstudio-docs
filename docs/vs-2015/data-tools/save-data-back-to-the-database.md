@@ -62,7 +62,7 @@ The dataset is an in-memory copy of data. If you modify that data, it's a good p
 ## Two-stage updates  
  Updating a data source is a two-step process. The first step is to update the dataset with new records, changed records, or deleted records. If your application never sends those changes back to the data source, then you are finished with the update.  
   
- If you do send the changes back to the database, then a second step is required. If you aren't using data-bound controls, then you have to manually call the Update method of the same TableAdapter (or data adapter) that you used to populate the dataset. However, you can also use different adapters, for example, to move data from one data source to another or to update multiple data sources. If you aren't using data binding, and are saving changes for related tables, you have to manually instantiate a variable of the auto-generated TableAdapterManager class, and then call its UdpateAll method.  
+ If you do send the changes back to the database, then a second step is required. If you aren't using data-bound controls, then you have to manually call the Update method of the same TableAdapter (or data adapter) that you used to populate the dataset. However, you can also use different adapters, for example, to move data from one data source to another or to update multiple data sources. If you aren't using data binding, and are saving changes for related tables, you have to manually instantiate a variable of the auto-generated TableAdapterManager class, and then call its UpdateAll method.  
   
  ![Visual Basic Dataset Updates](../data-tools/media/vbdatasetupdates.gif "vbDatasetUpdates")  
 Two-stage update process and the role of the DataRowVersion in a successful update  
