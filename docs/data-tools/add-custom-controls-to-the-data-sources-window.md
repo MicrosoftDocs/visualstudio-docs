@@ -83,7 +83,7 @@ If you want to associate a control with a data type, but the control does not ap
     |<xref:System.ComponentModel.ComplexBindingPropertiesAttribute>|Implement this attribute on controls that display lists (or tables) of data, such as a <xref:System.Windows.Forms.DataGridView>.|
     |<xref:System.ComponentModel.LookupBindingPropertiesAttribute>|Implement this attribute on controls that display lists (or tables) of data, but also need to present a single column or property, such as a <xref:System.Windows.Forms.ComboBox>.|
 
-2. For Windows Forms, on the **Options** dialog box, open the **Data UI Customization** page. Or, for WPF, open the **Customize Control Binding** dialog box. For more information, see [Customizie the list of bindable controls for a data type](#customize-the-bindable-controls-list).
+2. For Windows Forms, on the **Options** dialog box, open the **Data UI Customization** page. Or, for WPF, open the **Customize Control Binding** dialog box. For more information, see [Customize the list of bindable controls for a data type](#customize-the-bindable-controls-list).
 
 3. In the **Associated controls** box, the control that you just added to the **Toolbox** should now appear.
 

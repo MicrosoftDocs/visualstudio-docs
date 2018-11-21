@@ -37,7 +37,7 @@ You create and edit data sources by using the **Data Source Configuration Wizard
 
 ![Data Source Configuration Wizard](../data-tools/media/data-source-configuration-wizard.png)
 
-After you create a data source, it appears in the **Data Sources** tool window. (To open the **Data Sources** window, make sure your project is open, and then press **Shift**+**Alt**+**D** or choose **View** > **Other Windows** > **Data Sources**). You can drag a data source from the **Data Sources** window onto a form design surface or control. This causes boilerplate code to be generated that displays the data from the data store.
+After you create a data source, it appears in the **Data Sources** tool window. (To open the **Data Sources** window, make sure your project is open, and then press **Shift**+**Alt**+**D** or choose **View** > **Other Windows** > **Data Sources**.) You can drag a data source from the **Data Sources** window onto a form design surface or control. This causes boilerplate code to be generated that displays the data from the data store.
 
 The following illustration shows a dataset that has been dropped onto a Windows form. If you select **F5** on the application, the data from the underlying database appears in the form's controls.
 
