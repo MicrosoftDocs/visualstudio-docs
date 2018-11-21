@@ -17,9 +17,11 @@ ms.workload:
   - "data-storage"
 ---
 # Set the control to be created when dragging from the Data Sources window
+
 You can create data-bound controls by dragging items from the **Data Sources** window onto the WPF designer or Windows Forms designer. Each item in the **Data Sources** window has a default control that is created when you drag it to the designer. However, you can choose to create a different control.
 
 ## Set the controls to be created for data tables or objects
+
 Before you drag items that represent data tables or objects from the **Data Sources** window, you can choose to display all the data in one control, or to display each column or property in a separate control.
 
 In this context, the term *object* refers to a custom business object, an entity (in an Entity Data Model), or an object returned by a service.
@@ -29,6 +31,9 @@ In this context, the term *object* refers to a custom business object, an entity
 1.  Be sure the **WPF** designer or the **Windows Forms** designer is open.
 
 2.  In the **Data Sources** window, select the item that represents the data table or object you want to set.
+
+   > [!TIP]
+   > If the **Data Sources** window is not open, you can open it by selecting **View** > **Other Windows** > **Data Sources**.
 
 3.  Click the drop-down menu for the item, and then click one of the following items in the menu:
 
@@ -41,9 +46,10 @@ In this context, the term *object* refers to a custom business object, an entity
     To learn how to create a custom Windows Forms control that can be added to the list of controls for data tables or objects in the **Data Sources** window, see [Create a Windows Forms user control that supports complex data binding](../data-tools/create-a-windows-forms-user-control-that-supports-complex-data-binding.md).
 
 ## Set the controls to be created for data columns or properties
+
 Before you drag an item that represents a column or a property of an object from the **Data Sources** window to the designer, you can set the control to be created.
 
-#### To set the controls to be created for columns or properties
+### To set the controls to be created for columns or properties
 
 1.  Be sure the **WPF** designer or the **Windows Forms** designer is open.
 

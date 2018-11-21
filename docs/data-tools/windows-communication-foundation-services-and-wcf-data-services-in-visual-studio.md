@@ -1,5 +1,5 @@
 ---
-title: Windows Communication Foundation Services and WCF Data Services in Visual Studio
+title: Windows Communication Foundation and WCF Data Services
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
@@ -133,14 +133,14 @@ In such a case, you can specify the `endpointConfigurationName` as a parameter t
     ```
 
     > [!NOTE]
-    >  Replace *ServiceReference* with the namespace for the service reference and replace *Service1Client* with the name of the service.
+    > Replace *ServiceReference* with the namespace for the service reference and replace *Service1Client* with the name of the service.
 
 3.  An IntelliSense list displays that includes the overloads for the constructor. Select the `endpointConfigurationName As String` overload.
 
 4.  Following the overload, type `=` *ConfigurationName*, where *ConfigurationName* is the name of the endpoint that you want to use.
 
     > [!NOTE]
-    >  If you do not know the names of the available endpoints, you can find them in the *app.config* file.
+    > If you do not know the names of the available endpoints, you can find them in the *app.config* file.
 
 ### To find the available endpoints for a WCF service
 
@@ -160,7 +160,7 @@ Most methods in Windows Communication Foundation (WCF) services may be called ei
 By default, when a service reference is added to a project, it is configured to call methods synchronously. You can change the behavior to call methods asynchronously by changing a setting in the **Configure Service Reference** dialog box.
 
 > [!NOTE]
->  This option is set on a per-service basis. If one method for a service is called asynchronously, all methods must be called asynchronously.
+> This option is set on a per-service basis. If one method for a service is called asynchronously, all methods must be called asynchronously.
 
 [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]
 
@@ -173,11 +173,14 @@ By default, when a service reference is added to a project, it is configured to 
 3.  In the **Configure Service Reference** dialog box, select the **Generate asynchronous operations** check box.
 
 ## How to: Bind data returned by a service
+
 You can bind data returned by a Windows Communication Foundation (WCF) service to a control just as you can bind any other data source to a control. When you add a reference to a WCF service, if the service contains composite types that return data, they are automatically added to the **Data Sources** window.
 
 ### To bind a control to single data field returned by a WCF service
 
-1.  On the **Data** menu, click **Show Data Sources**. The **Data Sources** window appears.
+1.  On the **Data** menu, click **Show Data Sources**.
+
+   The **Data Sources** window appears.
 
 2.  In the **Data Sources** window, expand the node for your service reference. Any composite types returned by the service display.
 

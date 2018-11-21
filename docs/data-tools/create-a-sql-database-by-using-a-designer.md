@@ -1,5 +1,5 @@
 ---
-title: Create a database file and use table designer in Visual Studio
+title: Create a database file and use table designer
 ms.date: 11/03/2017
 ms.topic: conceptual
 helpviewer_keywords:
@@ -37,21 +37,21 @@ To complete this walkthrough, you must have the optional **Data storage and proc
 
 ### To add a data source
 
-5.  If the **Data Sources** window isn't open, open it by selecting the **Shift**+**Alt**+**D** keys or, on the menu bar, select **View** > **Other Windows** > **Data Sources**.
+1.  If the **Data Sources** window isn't open, open it by pressing **Shift**+**Alt**+**D** or, on the menu bar, selecting **View** > **Other Windows** > **Data Sources**.
 
-6.  In the **Data Sources** window, select the **Add New Data Source** link.
+1.  In the **Data Sources** window, select the **Add New Data Source** link.
 
     The **Data Source Configuration Wizard** opens.
 
-7. On the **Choose a Data Source Type** page, choose **Database** and then choose **Next**.
+1. On the **Choose a Data Source Type** page, choose **Database** and then choose **Next**.
 
-8. On the **Choose a Database Model** page, choose **Next** to accept the default (Dataset).
+1. On the **Choose a Database Model** page, choose **Next** to accept the default (Dataset).
 
-9. On the **Choose Your Data Connection** page, select the **SampleDatabase.mdf** file in the drop-down list, and then choose **Next**.
+1. On the **Choose Your Data Connection** page, select the **SampleDatabase.mdf** file in the drop-down list, and then choose **Next**.
 
-10. On the **Save the Connection String to the Application Configuration File** page, choose **Next**.
+1. On the **Save the Connection String to the Application Configuration File** page, choose **Next**.
 
-11. One the **Choose your Database Objects** page, you'll see a message that says the database doesn't contain any objects. Choose **Finish**.
+1. One the **Choose your Database Objects** page, you'll see a message that says the database doesn't contain any objects. Choose **Finish**.
 
 ### To view properties of the data connection
 

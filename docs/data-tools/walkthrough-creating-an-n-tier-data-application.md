@@ -108,6 +108,8 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
 2.  On the **Data** menu, select **Show Data Sources**.
 
+   The **Data Sources** window opens.
+
 3.  In the **Data Sources** window, select **Add New Data Source** to start the **Data Source Configuration Wizard**.
 
 4.  On the **Choose a Data Source Type** page, select **Database** and then select **Next**.

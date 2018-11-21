@@ -80,6 +80,8 @@ This step creates a data source from the Northwind database using the **Data Sou
 
 1.  On the **Data** menu, select **Show Data Sources**.
 
+   The **Data Sources** window opens.
+
 2.  In the **Data Sources** window, select **Add New Data Source** to start the **Data Source Configuration Wizard**.
 
 3.  On the **Choose a Data Source Type** screen, select **Database**, and then select **Next**.

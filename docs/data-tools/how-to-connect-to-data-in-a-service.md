@@ -26,7 +26,7 @@ You connect your application to the data returned from a service by running the 
 Upon completion of the wizard, a service reference is added to your project and is immediately available in the [Data Sources Window](add-new-data-sources.md).
 
 > [!NOTE]
-> The items that appear in the **Data Sources** window are dependent on the information that the service returns. Some services might not provide enough information for the **Data Source Configuration Wizard** to create bindable objects. For example, if the service returns an untyped dataset, no items appear in the **Data Sources Window** upon completing the wizard. This is because untyped datasets do not provide schema, so the wizard does not have enough information to create the data source.
+> The items that appear in the **Data Sources** window are dependent on the information that the service returns. Some services might not provide enough information for the **Data Source Configuration Wizard** to create bindable objects. For example, if the service returns an untyped dataset, no items appear in the **Data Sources** window upon completing the wizard. This is because untyped datasets do not provide schema, so the wizard does not have enough information to create the data source.
 
 [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]
 

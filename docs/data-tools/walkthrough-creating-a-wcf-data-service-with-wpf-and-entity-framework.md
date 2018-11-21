@@ -176,6 +176,8 @@ In the next step, you configure a data source to enable data binding to the serv
 
 1.  On the menu bar, choose **View** > **Other Windows** > **Data Sources**.
 
+   The **Data Sources** window opens.
+
 2.  In the **Data Sources** window, choose the **Add New Data Source** button.
 
 3.  On the **Choose a Data Source Type** page of the **Data Source Configuration Wizard**, choose **Object**, and then choose the **Next** button.
