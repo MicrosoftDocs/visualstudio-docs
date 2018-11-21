@@ -88,7 +88,7 @@ In some declarative data binding scenarios, it can help to debug code behind in 
    
 1. Make sure the **Attach to** field is set to the correct code type for your .NET version, such as **Managed Code (CoreCLR)**. 
    
-1. Select **Attach**
+1. Select **Attach**.
    
 1. While attached to the process, switch to the other Visual Studio instance, and set breakpoints where you want to debug the code behind your app.
    

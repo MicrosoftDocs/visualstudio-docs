@@ -53,12 +53,14 @@ The **Parallel Stacks** window has the following toolbar controls:
 ### Stack Frame icons
 The following icons provide information about the active and current stack frames in all views:
 
+|Icon|Description|  
+|-|-|  
 |![Yellow arrow](media/icon_parallelyellowarrow.gif)|Indicates the current location (active stack frame) of the current thread.|
-|![Threads icon](media/icon_parallelyellowarrow.gif)|Indicates the current location (active stack frame) of a non-current thread.|
-|![Green arrow](media/icon_parallelyellowarrow.gif)|Indicates the current stack frame (the current debugger context). The method name is bold wherever it appears.|  
+|![Threads icon](media/icon_parallelthreads.gif)|Indicates the current location (active stack frame) of a non-current thread.|
+|![Green arrow](media/icon_parallelgreenarrow.gif)|Indicates the current stack frame (the current debugger context). The method name is bold wherever it appears.|  
 
 ### Context menu items  
-The following shortcut menu items are available when you right-click a method in **Threads** view or **Tasks** view. The last six items are the same as in the **Call Stack** window.  
+The following shortcut menu items are available when you right-click a method in **Threads** view or **Tasks** view. The last six items are the same as in the [Call Stack window](how-to-use-the-call-stack-window.md).  
 
 ![Shortcut menu in Parallel Stacks window](../debugger/media/parallel_contmenu.png "Shortcut menu in Parallel Stacks window")  
 
@@ -69,7 +71,7 @@ The following shortcut menu items are available when you right-click a method in
 |**Freeze**|Freezes the selected item.|  
 |**Thaw**|Thaws the selected item.|  
 |**Switch To Frame**|Same as the corresponding menu command in the **Call Stack** window. However, in the **Parallel Stacks** window, one method may be in several frames. You can select the frame you want in the submenu for this item. If one of the stack frames is on the current thread, that frame is selected by default in the submenu.|  
-|**Go to Task** or **Go to Thread**)|Switches to the **Task** or **Threads** view, and keeps the same stack frame highlighted.|  
+|**Go to Task** or **Go to Thread**|Switches to the **Task** or **Threads** view, and keeps the same stack frame highlighted.|  
 |**Go To Source Code**|Goes to the corresponding location in the source code window. |  
 |**Go To Disassembly**|Goes to the corresponding location in the **Disassembly** window.|  
 |**Show External Code**|Shows or hides external code.|  
@@ -84,9 +86,9 @@ In **Threads** view, the stack frame and call path of the current thread are hig
 
 To change the current stack frame, double-click a different method. This might also switch the current thread, depending on whether the method you select is part of the current thread or another thread. 
 
-When the **Threads** view graph is too large to fit into the window, a **Bird's Eye View** icon appears in the window. You can move the frame in the icon to navigate to different parts of the graph.  
+When the **Threads** view graph is too large to fit into the window, a **Bird's Eye View** control appears in the window. You can move the frame in the control to navigate to different parts of the graph.  
   
-The following illustration shows one thread that goes from Main to a Managed to Native code transition. Six other threads are in the current method. One continues to the Thread.Sleep process, and the other continues to Console.WriteLine and then to SyncTextWriter.WriteLine.  
+The following illustration shows one thread that goes from Main to a Managed to Native code transition. Six other threads are in the current method. One continues to Thread.Sleep, and another continues to Console.WriteLine and then to SyncTextWriter.WriteLine.  
 
  ![Threads view in Parallel Stacks window](../debugger/media/parallel_stack1.png "Threads view in Parallel Stacks window")  
 
@@ -97,9 +99,9 @@ The following table describes the main features of the **Threads** view:
 |1|Call stack segment or frame|Contains a series of methods for one or more threads. If the frame has no arrow lines connected to it, it shows the entire call path for the thread(s).|  
 |2|Blue highlight|Indicates the call path of the current thread.|  
 |3|Arrow lines|Connect nodes to make up the entire call path for the thread(s).|  
-|4|Tooltip on node header|Shows the number of processes and threads for the node.|  
+|4|Node header|Shows the number of processes and threads for the node.|  
 |5|Method|Represents one or more stack frames in the same method.|  
-|6|Tooltip on method|In **Threads** view, the tooltip shows all the threads in a table similar to the **Threads** window. In **Tasks** view, the tooltip shows all the tasks in a table similar to the **Tasks** window.|  
+|6|Tooltip on method|In **Threads** view, the tooltip shows all the threads in a table similar to the **Threads** window. |  
 
 ## Tasks view  
  If your app uses <xref:System.Threading.Tasks.Task?displayProperty=fullName> objects (managed code) or `task_handle` objects (native code) to express parallelism, you can use **Tasks** view. **Tasks** view shows call stacks of tasks instead of threads. 
@@ -118,7 +120,7 @@ The following illustration shows the **Threads** view at the top and the corresp
 
 Hover over a method to show a tooltip with additional information. In **Tasks** view, the tooltip shows all the tasks in a table similar to the **Tasks** window. 
 
-The following image shows the tooltip for a method in the **Threads** view at the top and the corresponding **Tasks** view at the bottom.  
+The following image shows the tooltip for a method in the **Threads** view at the top and for the corresponding **Tasks** view at the bottom.  
 
 ![Threads and Tasks tooltips](../debugger/media/parallel_threads-tasks-tooltips.png "Threads and Tasks tooltips")  
 
