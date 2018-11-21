@@ -97,7 +97,7 @@ In Visual Studio Enterprise (only), you can view code maps for the call stack wh
 
 ![Show Call Stack on Code Map](../debugger/media/dbg_basics_show_call_stack_on_code_map.gif "ShowCallStackOnCodeMap")
   
-## View the disassembly code for a function on the call stack  
+## View the disassembly code for a function on the call stack (C#, C++, Visual Basic, F#) 
   
 -   In the **Call Stack** window, right-click the function whose disassembly code you want to see and select **Go To Disassembly**.    
 
@@ -105,7 +105,8 @@ In Visual Studio Enterprise (only), you can view code maps for the call stack wh
   
 -   Right-click in the **Call Stack** window and set or clear **Show \<**_the information that you want_**>**.  
   
-## <a name="bkmk_symbols"></a> Load symbols for a module
+## <a name="bkmk_symbols"></a> Load symbols for a module (C#, C++, Visual Basic, F#)
+
 In the **Call Stack** window, you can load debugging symbols for code that does not currently have symbols loaded. These symbols can be .NET Framework or system symbols downloaded from the Microsoft public symbol servers, or symbols in a symbol path on the computer that you are debugging.  
   
 See [Specify symbol (.pdb) and source files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).

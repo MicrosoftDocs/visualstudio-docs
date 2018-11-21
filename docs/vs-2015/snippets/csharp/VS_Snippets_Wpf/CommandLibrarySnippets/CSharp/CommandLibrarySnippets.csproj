@@ -3,7 +3,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <RootNamespace>SDKSamples</RootNamespace>
-    <AssemblyName>CommandLibarySnippets</AssemblyName>
+    <AssemblyName>CommandLibrarySnippets</AssemblyName>
     <WarningLevel>4</WarningLevel>
     <OutputType>winexe</OutputType>
     <ApplicationVersion>1.0.0.*</ApplicationVersion>

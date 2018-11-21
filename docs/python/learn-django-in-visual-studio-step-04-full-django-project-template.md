@@ -1,7 +1,7 @@
 ---
 title: Tutorial - Learn Django in Visual Studio, step 4
 description: A walkthrough of Django basics in the context of Visual Studio projects, specifically the features provided by the Django Web Project template.
-ms.date: 08/13/2018
+ms.date: 11/19/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: tutorial

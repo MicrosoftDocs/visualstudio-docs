@@ -49,7 +49,7 @@ public class TriValueVirtualCheckBox:Form
     }
     //</snippet10>
 
-#region "data store maintance"
+#region "data store maintenance"
     private void dataGridView1_CellValueNeeded(object sender, 
         DataGridViewCellValueEventArgs e)
     {
