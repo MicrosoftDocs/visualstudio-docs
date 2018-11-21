@@ -80,7 +80,7 @@ The table below details what Pluralsight subscription benefits are available to 
 
 <sup>1</sup>  *Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), BizSpark, MCT Software & Services Developer, MCT Software & Service, Microsoft Valued Professional (MVP), Region Director (RD), Microsoft Partner Network (MPN), FTE, Imagine.*
 
-<sup>2</sup>  *The Pluralsight benefit is single use only, tied to the individual.  Once the subscriber consumes the benefit, it does not reset. *
+<sup>2</sup>  *The Pluralsight benefit is single use only, tied to the individual.  Once the subscriber consumes the benefit, it does not reset.*
 
 Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.
 
