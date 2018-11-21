@@ -71,7 +71,7 @@ ms.topic: hub-page
         <ul class="pivots">
             <li>
                 <a href="#get-started">Get Started</a>
-                <ul id="get-started">
+                <ul id="get-started" class="cardsL">
                     <li>
                         <div class="cardSize">
                             <div class="cardPadding">
