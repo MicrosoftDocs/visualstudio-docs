@@ -147,48 +147,48 @@ ms.topic: hub-page
                             </div>
                         </div>
                     </li>
-                </ul>
-            </li>
-            <li>
-                <div class="cardSize">
-                    <div class="cardPadding">
-                        <div class="card">
-                            <div class="cardText">
-                                <h3>Or choose what you want to develop</h3>
-                                <table cellpadding="0" cellspacing="0" border="0"><tr><td style="border-top-color:transparent!important;padding-left:0;">
-                                <ul class="noBullet">
-                                    <li>
-                                        <a class="barLink" href="/visualstudio/ide/quickstart-uwp-csharp">
-                                            <img src="https://docs.microsoft.com/media/logos/logo_windows.svg" alt="Windows logo">
-                                            Universal Windows app</a>
-                                    </li>
-                                    <li>
-                                        <a class="barLink" href="/visualstudio/ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic">
-                                            <img src="https://docs.microsoft.com/media/logos/logo_windows.svg" alt="Windows logo">
-                                            Windows desktop app</a>
-                                    </li></ul></td><td style="border-top-color:transparent!important;padding-left:0;"><ul class="noBullet">
-                                    <li>
-                                        <a class="barLink" href="/visualstudio/cross-platform/cross-platform-mobile-development-in-visual-studio">
-                                            <img src="https://docs.microsoft.com/media/common/i_mobile-app-developement.svg" alt="Mobile phone icon">
-                                            Mobile app</a>
-                                    </li>
-                                    <li>
-                                        <a class="barLink" href="/visualstudio/cross-platform/getting-started-with-visual-studio-tools-for-unity
-">
-                                            <img src="https://docs.microsoft.com/media/logos/logo_unity.svg" alt="Unity logo">
-                                            Unity game</a>
-                                    </li></ul></td><td style="border-top-color:transparent!important;padding-left:0;"><ul class="noBullet">
-                                    <li>
-                                        <a class="barLink" href="/aspnet/core/tutorials/razor-pages/razor-pages-start?view=aspnetcore-2.1">
-                                            <img src="https://docs.microsoft.com/media/logos/logo_NET.svg" alt=".NET logo">
-                                            Web app with ASP.NET Core</a>
-                                    </li>
-                                </ul></td></tr>
-                                </table>
+                    <li>
+                        <div class="cardSize">
+                            <div class="cardPadding">
+                                <div class="card">
+                                    <div class="cardText">
+                                        <h3>Or choose what you want to develop</h3>
+                                        <table cellpadding="0" cellspacing="0" border="0"><tr><td style="border-top-color:transparent!important;padding-left:0;">
+                                        <ul class="noBullet">
+                                            <li>
+                                                <a class="barLink" href="/visualstudio/ide/quickstart-uwp-csharp">
+                                                    <img src="https://docs.microsoft.com/media/logos/logo_windows.svg" alt="Windows logo">
+                                                    Universal Windows app</a>
+                                            </li>
+                                            <li>
+                                                <a class="barLink" href="/visualstudio/ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic">
+                                                    <img src="https://docs.microsoft.com/media/logos/logo_windows.svg" alt="Windows logo">
+                                                    Windows desktop app</a>
+                                            </li></ul></td><td style="border-top-color:transparent!important;padding-left:0;"><ul class="noBullet">
+                                            <li>
+                                                <a class="barLink" href="/visualstudio/cross-platform/cross-platform-mobile-development-in-visual-studio">
+                                                    <img src="https://docs.microsoft.com/media/common/i_mobile-app-developement.svg" alt="Mobile phone icon">
+                                                    Mobile app</a>
+                                            </li>
+                                            <li>
+                                                <a class="barLink" href="/visualstudio/cross-platform/getting-started-with-visual-studio-tools-for-unity
+        ">
+                                                    <img src="https://docs.microsoft.com/media/logos/logo_unity.svg" alt="Unity logo">
+                                                    Unity game</a>
+                                            </li></ul></td><td style="border-top-color:transparent!important;padding-left:0;"><ul class="noBullet">
+                                            <li>
+                                                <a class="barLink" href="/aspnet/core/tutorials/razor-pages/razor-pages-start?view=aspnetcore-2.1">
+                                                    <img src="https://docs.microsoft.com/media/logos/logo_NET.svg" alt=".NET logo">
+                                                    Web app with ASP.NET Core</a>
+                                            </li>
+                                        </ul></td></tr>
+                                        </table>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
+                    </li>
+                </ul>
             </li>
             <li>
                 <a href="#features">Tasks</a>
