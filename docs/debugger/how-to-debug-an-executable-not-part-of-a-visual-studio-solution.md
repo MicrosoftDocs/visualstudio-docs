@@ -21,15 +21,15 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Debug an app that isn't in a Visual Studio solution
+# Debug an app that isn't part of a Visual Studio solution (C++, C#, Visual Basic, F#)
 
-You may want to debug an app (*.exe* file) that isn't part of a Visual Studio project. You or someone else may have created the app outside of Visual Studio, or you got the app from somewhere else. 
-  
+You may want to debug an app (*.exe* file) that isn't part of a Visual Studio solution. You or someone else may have created the app outside of Visual Studio, or you got the app from somewhere else. 
+
 The usual way to debug an app that doesn't exist in Visual Studio is to start the app outside of Visual Studio, and then attach to it using **Attach to Process** in the Visual Studio debugger. For more information, see [Attach to running processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md).  
   
 Attaching to an app requires manual steps that take a few seconds. Because of this delay, attaching won't help debug a startup issue, or an app that doesn't wait for user input and finishes quickly. 
 
-In these situations, you can create a Visual Studio EXE project for the app, or import it into an existing C# or C++ solution. Not all programming languages support EXE projects. 
+In these situations, you can create a Visual Studio EXE project for the app, or import it into an existing C#, Visual Basic, or C++ solution. Not all programming languages support EXE projects. 
 
 >[!IMPORTANT]
 >Debugging features for an app that wasn't built in Visual Studio are limited, whether you attach to the app or add it to a Visual Studio solution. 
@@ -52,7 +52,7 @@ In these situations, you can create a Visual Studio EXE project for the app, or 
   
 ### To import an app into an existing Visual Studio solution  
   
-1.  With a C# or C++ solution open in Visual Studio, select **File** > **Add** > **Existing Project**.  
+1.  With a C++, C#, or Visual Basic solution open in Visual Studio, select **File** > **Add** > **Existing Project**.  
   
 1. In the **Open Project** dialog box, select **All Project Files**, if not already selected, in the dropdown next to **File name**.  
    

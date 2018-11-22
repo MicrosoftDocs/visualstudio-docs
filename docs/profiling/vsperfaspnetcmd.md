@@ -30,7 +30,7 @@ The **VSPerfASPNetCmd.exe** command-line tool allows you to profile ASP.Net web 
 |**/Tip** or   **/i**|Adds detailed ASP.NET request and ADO.NET call information to the profiling data. **/Tip** can be used with the sampling or the instrumentation method, and it can be used with the **/Memory** option.|  
 |**/Output:** `File` or   **/o:**`File`|Specifies the path and file name of the profiling data (.*vsp*) file.|  
 |**/NoWait** or   **/n**|Returns the command prompt immediately so that additional commands can be used in the command prompt window. You must type **VSPerfASPNETCmd /Shutdown** on a separate command line to turn profiling off.|  
-|**/PackSymbols**[:{**on**&#124;**off**}or   **/p**[:{**on**&#124;**off**}|Embeds symbols (function and paramater names, etc.) in profiling data (.*vsp*) file.|  
+|**/PackSymbols**[:{**on**&#124;**off**}or   **/p**[:{**on**&#124;**off**}|Embeds symbols (function and parameter names, etc.) in profiling data (.*vsp*) file.|  
 |**/Shutdown:** `Website`or   **/d:**`Website`|Turns profiling off. Use as the only option on a command line after using the **/NoWait** option to start profiling, or if the profiler ends unexpectedly. Specify the same url that you used in the original **VSPerfASPNETCmd** command.|  
 |`Website`|The url of the website to be profiled.|  
   

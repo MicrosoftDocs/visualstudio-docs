@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "Windows Forms, searching data"
   - "Windows Forms, displaying data"
   - "parameters, displaying filtered data"
-  - "data [Visual Studio], paramaterizing queries"
+  - "data [Visual Studio], parameterizing queries"
   - "data [Visual Studio], searching"
 ms.assetid: 65ca79a9-7458-466c-af55-978cd24c549e
 caps.latest.revision: 31
