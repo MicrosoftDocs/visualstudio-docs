@@ -103,7 +103,7 @@ Next, create a dataset named **NorthwindDataSet**:
 
 In this section, you create a <xref:System.Windows.Forms.DataGridView?displayProperty=nameWithType> by dragging the **Customers** item from the **Data Sources** window onto your Windows Form.
 
-1. On the **Data** menu, choose **Show Data Sources** to open the **Data Sources Window**.
+1. To open the **Data Sources** window, on the **Data** menu, choose **Show Data Sources**.
 
 2. In the **Data Sources** window, expand the **NorthwindDataSet** node, and then select the **Customers** table.
 

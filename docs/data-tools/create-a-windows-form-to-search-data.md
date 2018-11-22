@@ -77,7 +77,7 @@ The first step is to create a Windows Forms app. Assigning a name to the project
 
 This step creates a data source from a database using the **Data Source Configuration** wizard:
 
-1.  On the **Data** menu, click **Show Data Sources**.
+1.  To open the **Data Sources** window, on the **Data** menu, click **Show Data Sources**.
 
 2.  In the **Data Sources** window, select **Add New Data Source** to start the **Data Source Configuration** wizard.
 
