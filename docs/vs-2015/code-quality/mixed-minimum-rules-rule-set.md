@@ -38,7 +38,7 @@ The Microsoft Mixed Minimum Rules focus on the most critical problems in your C+
 |                              [C6270](../code-quality/c6270.md)                              |                                   Missing Float Argument To Format Function                                   |
 |                              [C6271](../code-quality/c6271.md)                              |                                       Extra Argument To Format Function                                       |
 |                              [C6272](../code-quality/c6272.md)                              |                                     Non-Float Argument To Format Function                                     |
-|                              [C6273](../code-quality/c6273.md)                              |                                    Non-Integer Argumen To Format Function                                     |
+|                              [C6273](../code-quality/c6273.md)                              |                                    Non-Integer Argument To Format Function                                     |
 |                              [C6274](../code-quality/c6274.md)                              |                                   Non-Character Argument To Format Function                                   |
 |                              [C6276](../code-quality/c6276.md)                              |                                              Invalid String Cast                                              |
 |                              [C6277](../code-quality/c6277.md)                              |                                          Invalid CreateProcess Call                                           |
