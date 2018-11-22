@@ -88,7 +88,7 @@ To change the current stack frame, double-click a different method. This might a
 
 When the **Threads** view graph is too large to fit into the window, a **Bird's Eye View** control appears in the window. You can move the frame in the control to navigate to different parts of the graph.  
   
-The following illustration shows one thread that goes from Main to a Managed to Native code transition. Six other threads are in the current method. One continues to Thread.Sleep, and another continues to Console.WriteLine and then to SyncTextWriter.WriteLine.  
+The following illustration shows one thread that goes from Main to a Managed to Native code transition. Six threads are in the current method. One continues to Thread.Sleep, and another continues to Console.WriteLine and then to SyncTextWriter.WriteLine.  
 
  ![Threads view in Parallel Stacks window](../debugger/media/parallel_stack1.png "Threads view in Parallel Stacks window")  
 
@@ -96,21 +96,21 @@ The following table describes the main features of the **Threads** view:
   
 |Callout|Element name|Description|  
 |-|-|-|  
-|1|Call stack segment or frame|Contains a series of methods for one or more threads. If the frame has no arrow lines connected to it, it shows the entire call path for the thread(s).|  
+|1|Call stack segment or node|Contains a series of methods for one or more threads. If the frame has no arrow lines connected to it, the frame shows the entire call path for the thread(s).|  
 |2|Blue highlight|Indicates the call path of the current thread.|  
 |3|Arrow lines|Connect nodes to make up the entire call path for the thread(s).|  
 |4|Node header|Shows the number of processes and threads for the node.|  
 |5|Method|Represents one or more stack frames in the same method.|  
-|6|Tooltip on method|In **Threads** view, the tooltip shows all the threads in a table similar to the **Threads** window. |  
+|6|Tooltip on method|Appears when you hover over a method. In **Threads** view, the tooltip shows all threads, in a table similar to the **Threads** window. |  
 
 ## Tasks view  
- If your app uses <xref:System.Threading.Tasks.Task?displayProperty=fullName> objects (managed code) or `task_handle` objects (native code) to express parallelism, you can use **Tasks** view. **Tasks** view shows call stacks of tasks instead of threads. 
+If your app uses <xref:System.Threading.Tasks.Task?displayProperty=fullName> objects (managed code) or `task_handle` objects (native code) to express parallelism, you can use **Tasks** view. **Tasks** view shows call stacks of tasks instead of threads. 
 
-**Tasks** view has the following differences from **Threads** view:  
+In **Tasks** view:  
   
 - Call stacks of threads that aren't running tasks aren't shown.  
 - Call stacks of threads that are running tasks are visually trimmed at the top and bottom, to show the most relevant frames for tasks.  
-- When several tasks are on one thread, the call stacks of those tasks are split into separate nodes.  
+- When several tasks are on one thread, the call stacks of those tasks are shown in separate nodes.  
 
 To see an entire call stack, switch back to **Threads** view by right-clicking in a stack frame and selecting **Go to Thread**.  
 
