@@ -104,20 +104,20 @@ You can export DataTips to an XML file, which you can share or edit using a text
   
 **To export DataTips:** 
   
-1. Select **Debug > **Export DataTips**.  
+1. Select **Debug** > **Export DataTips**.  
    
 1. In the **Export DataTips** dialog box, navigate to the location to save the XML file, type a name for the file, and then select **Save**.  
   
 **To import DataTips:** 
   
-1. Select **Debug > **Import DataTips**.  
+1. Select **Debug** > **Import DataTips**.  
    
 1. In the **Import DataTips** dialog box, select the DataTips XML file you want to open, and then select **Open**.  
 
 ## See also  
  [What is debugging?](../debugger/what-is-debugging.md)  
  [Write better C# code using Visual Studio](../debugger/write-better-code-with-visual-studio.md)  
- [First look at debugging](../debugger/debugger-feature-tour.md) 
+ [First look at debugging](../debugger/debugger-feature-tour.md)   
  [View data in the debugger](../debugger/viewing-data-in-the-debugger.md)   
  [Watch and QuickWatch windows](../debugger/watch-and-quickwatch-windows.md)   
  [Create custom visualizers](../debugger/create-custom-visualizers-of-data.md)   
