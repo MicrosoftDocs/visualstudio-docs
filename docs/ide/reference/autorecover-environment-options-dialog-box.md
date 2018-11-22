@@ -26,9 +26,6 @@ Use this page in the **Options** dialog box to specify whether to automatically 
 
 Access this dialog box by selecting the **Tools** menu, selecting **Options**, and then selecting **Environment** > **AutoRecover**. If this page doesn't appear in the list, select **Show all setting** in the **Options** dialog box.
 
-> [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).
-
 **Save AutoRecover information every [n] minutes**
 
 Use this option to customize how often a file is automatically saved in the editor. For previously saved files, a copy of the file is saved in *%USERPROFILE%\Documents\Visual Studio \<version>\Backup Files\\<projectname>*. If the file is new and you haven't saved it yet, the file is autosaved using a randomly generated file name.
