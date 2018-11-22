@@ -35,7 +35,7 @@ If this is your first time debugging, you may want to read [Write better C# code
 
 ### Pin a DataTip
 
-To pin a DataTip so that it remains open, select the pushpin **Pin to source** icon. 
+To pin a DataTip so that it stays open, select the pushpin **Pin to source** icon. 
 
 ![Pin a DataTip](../debugger/media/dbg-tips-data-tips-pinned.png "Pin a DataTip")
 
@@ -82,9 +82,9 @@ You can use the arrow keys on the keyboard, or the mouse, to move up and down in
 To edit the value of a variable in a DataTip, select the value, type a new value, and select **Enter**. Selection is disabled for read-only values.  
 
 ### Make a DataTip transparent  
-You can make the DataTip temporarily transparent to see the code that is behind it. This does not apply to DataTips that are pinned or floating.  
+You can make the DataTip temporarily transparent to see the code that is behind it. This doesn't apply to DataTips that are pinned or floating.  
 
-To make a DataTip transparent, while in the DataTip, hold down the **Ctrl** key. The DataTip remains transparent as long as you hold down the **Ctrl** key.  
+To make a DataTip transparent, while in the DataTip, hold down the **Ctrl** key. The DataTip stays transparent as long as you hold down the **Ctrl** key.  
   
 ## Visualize complex data types  
 If a magnifying glass icon appears next to a variable name in a DataTip, one or more [visualizers](../debugger/create-custom-visualizers-of-data.md), such as the [string visualizer](../debugger/string-visualizer-dialog-box.md), are available for the variable. The visualizer displays the information in a more meaningful, usually graphical, manner.
@@ -96,7 +96,7 @@ If you want to continue to watch a variable, you can add the variable to a **Wat
 
 To add a variable to a **Watch** window, right-click a DataTip, and select **Add Watch**. 
 
-The variable appears in the **Watch** window. If your Visual Studio edition supports multiple **Watch** windows, the variable is added to **Watch 1**. 
+The variable appears in the **Watch** window. If your Visual Studio edition supports more than one **Watch** window, the variable is added to **Watch 1**. 
   
 ## Import and export DataTips  
 
