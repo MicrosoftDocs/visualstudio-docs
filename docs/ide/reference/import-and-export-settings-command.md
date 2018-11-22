@@ -42,7 +42,7 @@ Optional. Resets the current settings.
 
 ## Remarks
 
-Running this command with no switches opens the **Import and Export Settings** wizard. For more information, see [Synchronize your settings](../../ide/synchronized-settings-in-visual-studio.md) and [Environment settings](environment-settings.md).
+Running this command with no switches opens the **Import and Export Settings** wizard. For more information, see [Synchronize your settings](../synchronized-settings-in-visual-studio.md) and [Environment settings](../environment-settings.md).
 
 ## Example
 
@@ -54,7 +54,7 @@ Tools.ImportandExportSettings /export:"c:\Files\MyFile.vssettings"
 
 ## See also
 
-- [Environment settings](environment-settings.md)
+- [Environment settings](../../ide/environment-settings.md)
 - [Synchronize your settings](../../ide/synchronized-settings-in-visual-studio.md)
 - [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md)
 - [Visual Studio commands](../../ide/reference/visual-studio-commands.md)
