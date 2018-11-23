@@ -71,11 +71,11 @@ You can use DataTips to expand an array, a structure, or an object to view its m
   
 ### Expand a variable
 
-To expand a variable in a DataTip to see its elements, hover over the expand arrow before the variable name. The variable expands to show its elements in tree form.
+To expand an object in a DataTip to see its elements, hover over the expand arrow before the object name. The object expands to show its elements in tree form.
 
 ![Expand a DataTip](../debugger/media/dbg-tour-data-tips.png "Expand a DataTip")
 
-You can use the arrow keys on the keyboard, or the mouse, to move up and down in the expanded variable. 
+You can use the mouse or the arrow keys on the keyboard to move up and down in the expanded view. 
 
 ### Edit the value of a variable
 
