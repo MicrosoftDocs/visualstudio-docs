@@ -39,7 +39,7 @@ To pin a DataTip so that it stays open, select the pushpin **Pin to source** ico
 
 ![Pin a DataTip](../debugger/media/dbg-tips-data-tips-pinned.png "Pin a DataTip")
 
-You can move a pinned DataTip by dragging it in the code window. 
+You can move a pinned DataTip by dragging it around the code window. 
 
 >[!NOTE]
 >DataTips are always evaluated in the context where execution is suspended, not the cursor or DataTip location. If you hover over a variable in another function that has the same name as a variable in the current context, the value of the variable in the current context is displayed.
@@ -48,17 +48,17 @@ You can move a pinned DataTip by dragging it in the code window.
 
 To float a pinned DataTip, hover over the DataTip and select the pushpin icon from the context menu. 
 
-The pin icon changes to the unpinned position, and the DataTip now floats or can be dragged above all open windows. Floating DataTips close when the debugging session ends.  
+The pushpin icon changes to the unpinned position, and the DataTip now floats or can be dragged above all open windows. Floating DataTips close when the debugging session ends.  
   
 ### Repin a DataTip  
   
-To repin a floating DataTip, hover over it in the code editor and select the pushpin icon. The DataTip pin icon changes to the pinned position, and the DataTip is pinned only to the code window. 
+To repin a floating DataTip, hover over it in the code editor and select the pushpin icon. The pushpin icon changes to the pinned position, and the DataTip is pinned only to the code window. 
 
 If a DataTip is floating over a non-source code window, the pushpin icon is unavailable, and the DataTip cannot be repinned. To access the pushpin icon, return the DataTip to the code editor window by dragging it or giving the code window focus. 
   
 ### Close a DataTip  
   
-To close a DataTip, hover over the DataTip and select the close (**x**) icon.  
+To close a DataTip, hover over the DataTip and select the close (**x**) icon from the context menu.  
   
 ### Close all DataTips  
   
@@ -77,7 +77,9 @@ To expand a variable in a DataTip to see its elements, select the **+** before t
 
 ![Expand a DataTip](../debugger/media/dbg-tour-data-tips.png "Expand a DataTip")
 
-You can use the mouse or the arrow keys on the keyboard to move up and down in the expanded view. You can also pin any element to the DataTip by hovering over it and selecting its pushpin icon. The element then appears in the DataTip after the tree is collapsed. 
+You can use the mouse or the arrow keys on the keyboard to move up and down in the expanded view. 
+
+You can also pin any element to the DataTip by hovering over it and selecting its pushpin icon. The element then appears in the DataTip after the tree is collapsed. 
 
 ### Edit the value of a variable
 
@@ -90,13 +92,11 @@ To make a DataTip transparent to see code that is underneath it, while in the Da
 
 A magnifying glass icon next to a variable or element in a DataTip means that one or more [visualizers](../debugger/create-custom-visualizers-of-data.md), such as the [Text Visualizer](../debugger/string-visualizer-dialog-box.md), are available for the variable. Visualizers display information in a more meaningful, sometimes graphical, manner.
   
-To view the element using a visualizer, select the magnifying glass icon ![Visualizer icon](../debugger/media/dbg-tips-visualizer-icon.png "Visualizer icon") to use the default visualizer for the data type. Select the arrow next to the magnifying glass icon to select from a list of visualizers for the data type.  
+To view the element using the default visualizer for the data type, select the magnifying glass icon ![Visualizer icon](../debugger/media/dbg-tips-visualizer-icon.png "Visualizer icon"). Select the arrow next to the magnifying glass icon to select from a list of visualizers for the data type.  
 
 ## Add a variable to a Watch window  
 
-If you want to continue to watch a variable, you can add it to a **Watch** window from a DataTip.  
-
-To add a variable to a **Watch** window, right-click the variable in the DataTip, and select **Add Watch**. 
+If you want to continue to watch a variable, you can add it to a **Watch** window from a DataTip. Right-click the variable in the DataTip, and select **Add Watch**. 
 
 The variable appears in the **Watch** window. If your Visual Studio edition supports more than one **Watch** window, the variable appears in **Watch 1**. 
   
