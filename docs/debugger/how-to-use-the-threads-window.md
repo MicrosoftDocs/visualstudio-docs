@@ -2,7 +2,7 @@
 title: "Debug a multithreaded app"
 description: Debug using the Threads window and the Debug Location toolbar in Visual Studio
 ms.custom: ""
-ms.date: "11/218/2018"
+ms.date: "11/21/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
@@ -24,7 +24,7 @@ ms.workload:
 
 Several Visual Studio user interface elements help you debug multithreaded apps. This tutorial introduces the **Debug** and **Debug Location** toolbars and the **Threads** window. For information about other tools, see  [Get started debugging multithreaded apps](../debugger/get-started-debugging-multithreaded-apps.md). 
   
-This tutorial takes only a few minutes, but completing it familiarizes you with the features for debugging multithreaded apps.
+Completing this tutorial takes only a few minutes, and familiarizes you with the features for debugging multithreaded apps.
 
 ## Create a multithreaded app project  
 
@@ -100,7 +100,7 @@ You can flag and unflag threads from the source code editor or from the **Thread
    
 1. On the **Debugging Location** toolbar, select the **Show Only Flagged Threads** icon ![Show Flagged Threads](../debugger/media/dbg-threads-show-flagged.png "Show Flagged Threads"), to the right of the **Thread** field. The icon is grayed out unless one or more threads are flagged.  
    
-   Note that only the flagged thread now appears in the **Threads** dropdown in the toolbar. To toggle between showing flagged threads and all threads, select the single flag **Toggle Current Thread Flagged State** toolbar button. 
+   Only the flagged thread now appears in the **Threads** dropdown in the toolbar. To toggle between showing flagged threads and all threads, select the single flag **Toggle Current Thread Flagged State** toolbar button. 
    
    >[!TIP]
    >After you have flagged some threads, you can place your cursor in the code editor, right-click, and select **Run Flagged Threads to Cursor**. Make sure to choose code that all flagged threads will reach. This will pause threads on the selected line of code, making it easier to control the order of execution by [freezing and thawing threads](#bkmk_freeze).
@@ -139,7 +139,7 @@ In addition to **Flag**, **Unflag**, and **Unflag All Threads**, the right-click
 
 ## <a name="bkmk_freeze"></a> Freeze and thaw thread execution 
 
-You can freeze and thaw, or suspend and resume, threads to control the order in which the threads perform work. This can help you resolve concurrency issues, such as deadlocks and race conditions.
+You can freeze and thaw, or suspend and resume, threads to control the order in which the threads perform work. Freezing and thawing threads can help you resolve concurrency issues, such as deadlocks and race conditions.
 
 > [!TIP]
 > To follow a single thread without freezing other threads (also a common debugging scenario), see [Get started debugging multithreaded applications](../debugger/get-started-debugging-multithreaded-apps.md#bkmk_follow_a_thread).
@@ -166,11 +166,11 @@ You may see a **The application is in break mode** window when you try to switch
    
 1. Right-click another thread and select **Switch To Thread**.  
    
-1. Note that the yellow arrow location has changed in the **Threads** window. Look at the tooltip on the thread marker in the code source editor, and the list in the **Threads** dropdown on the **Debug Location** toolbar. Note that the current thread has also changed there. 
+1. Observe that the yellow arrow location has changed in the **Threads** window. Look at the tooltip on the thread marker in the code source editor, and the list in the **Threads** dropdown on the **Debug Location** toolbar. Observe that the current thread has also changed there. 
 
 1. On the **Debug Location** toolbar, select a different thread from the **Thread** list. Note that the current thread changes in the other two locations also. 
    
-1. In the source code editor, right-click a thread marker, point to **Switch To Thread**, and select another thread from the list. Note that the current thread changes in all three locations.  
+1. In the source code editor, right-click a thread marker, point to **Switch To Thread**, and select another thread from the list. Observe that the current thread changes in all three locations.  
 
 With the thread marker, you can switch only to threads that are stopped at that particular location. By using the **Threads** window and **Debug Location** toolbar, you can switch to any thread.   
   
