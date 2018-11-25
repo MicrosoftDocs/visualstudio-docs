@@ -73,7 +73,7 @@ Create the following multithreaded app project to use in this tutorial:
    
    The gutter next to the source code line now displays a *thread marker* icon ![Thread Marker](../debugger/media/dbg-thread-marker.png "Thread Marker"). The thread marker indicates that a thread is stopped at this location. If there is more than one stopped thread at the location, the ![multiple threads](../debugger/media/dbg-multithreaded-show-threads.png "multiple threads") icon appears.
    
-1. Hover the pointer over the thread marker. A DataTip appears, showing the name and thread ID number for the stopped thread or threads. The thread name may be `<No Name>`.  
+1. Hover the pointer over the thread marker. A DataTip appears, showing the name and thread ID number for the stopped thread or threads. The thread names may be `<No Name>`.  
 
    >[!TIP]
    >To help identify nameless threads, you can rename them in the **Threads** window. Right-click the thread and select **Rename**.
@@ -90,7 +90,7 @@ Flag and unflag threads from the source code editor or from the **Threads** wind
 
 1. Open the **Debug Location** toolbar by selecting **View** > **Toolbars** > **Debug Location**. You can also right-click in the toolbar area and select **Debug Location**. 
    
-1. The **Debug Location** toolbar has three fields: **Process**, **Thread**, and **Stack Frame**. Drop down the **Threads** list, and note how many threads there are. In the **Threads** list, the currently executing thread is marked by a **>** symbol. 
+1. The **Debug Location** toolbar has three fields: **Process**, **Thread**, and **Stack Frame**. Drop down the **Thread** list, and note how many threads there are. In the **Thread** list, the currently executing thread is marked by a **>** symbol. 
    
 1. In the source code window, hover over a thread marker icon in the gutter and select the flag icon (or one of the empty flag icons) in the DataTip. The flag icon turns red. 
    
@@ -98,7 +98,7 @@ Flag and unflag threads from the source code editor or from the **Threads** wind
    
 1. On the **Debug Location** toolbar, select the **Show Only Flagged Threads** icon ![Show Flagged Threads](../debugger/media/dbg-threads-show-flagged.png "Show Flagged Threads"), to the right of the **Thread** field. The icon is grayed out unless one or more threads are flagged.  
    
-   Only the flagged thread now appears in the **Threads** dropdown in the toolbar. To show all threads again, select the **Show Only Flagged Threads** icon again.
+   Only the flagged thread now appears in the **Thread** dropdown in the toolbar. To show all threads again, select the **Show Only Flagged Threads** icon again.
    
    >[!TIP]
    >After you have flagged some threads, you can place your cursor in the code editor, right-click, and select **Run Flagged Threads to Cursor**. Make sure to choose code that all flagged threads will reach. **Run Flagged Threads to Cursor** will pause threads on the selected line of code, making it easier to control the order of execution by [freezing and thawing threads](#bkmk_freeze).
@@ -129,9 +129,10 @@ The **Location** column shows where each thread appears in the source code. Sele
 
 >[!TIP]
 >For a graphical view of the call stacks for threads, use the [Parallel Stacks](../debugger/using-the-parallel-stacks-window.md) window. To open the window, while debugging, select **Debug**> **Windows** > **Parallel Stacks**.  
+
 In addition to **Flag**, **Unflag**, and **Unflag All Threads**, the right-click context menu for **Thread** window items has:
 
-- The **Show Threads in Source** button, which works like the one on the **Debug** toolbar.
+- The **Show Threads in Source** button.
 - **Hexadecimal display**, which changes the **Thread ID**s in the **Threads** window from decimal to hexadecimal format. 
 - [Switch To Thread](#switch-to-another-thread), which immediately switches execution to that thread. 
 - **Rename**, which lets you change the thread name. 
@@ -148,29 +149,33 @@ You can freeze and thaw, or suspend and resume, threads to control the order in 
   
 1. In the **Threads** window, right-click any thread and then select **Freeze**. A **Pause** icon in the **Current Thread** column indicates that the thread is frozen.  
    
-1. Under **Columns** in the **Threads** window toolbar, select **Suspended Count** to display the **Suspended Count** column. The suspended count value for the frozen thread is **1**.  
+1. Select **Columns** in the **Threads** window toolbar, and then select **Suspended Count** to display the **Suspended Count** column. The suspended count value for the frozen thread is **1**.  
    
-1.  Right-click the frozen thread and select **Thaw**.  
+1. Right-click the frozen thread and select **Thaw**.  
   
-    The **Pause** icon disappears, and the **Suspended Count** value changes to **0**. 
+   The **Pause** icon disappears, and the **Suspended Count** value changes to **0**. 
   
 ## Switch to another thread 
 
-You may see a **The application is in break mode** window when you try to switch to another thread. This window tells you that the thread does not have any code that the current debugger can display. 
+You may see a **The application is in break mode** window when you try to switch to another thread. This window tells you that the thread does not have any code that the current debugger can display. For example, you may be debugging managed code, but the thread is native code. The window offers suggestions for resolving the issue. 
   
 **To switch to another thread:**
 
-1. In the **Threads** window, make a note of the current thread ID, which is the thread with a yellow arrow in the **Current Thread** column. You can switch back to this thread to continue your app. 
+1. In the **Threads** window, make a note of the current thread ID, which is the thread with a yellow arrow in the **Current Thread** column. You'll want to switch back to this thread to continue your app. 
    
 1. Right-click a different thread and select **Switch To Thread** from the context menu.  
    
-1. Observe that the yellow arrow location has changed in the **Threads** window. Look at the tooltip on the thread marker in the code source editor, and the list in the **Threads** dropdown on the **Debug Location** toolbar. Observe that the current thread has also changed there. 
-
+1. Observe that the yellow arrow location has changed in the **Threads** window. The original current thread marker also remains, as an outline. 
+   
+   Look at the tooltip on the thread marker in the code source editor, and the list in the **Thread** dropdown on the **Debug Location** toolbar. Observe that the current thread has also changed there. 
+   
 1. On the **Debug Location** toolbar, select a different thread from the **Thread** list. Note that the current thread changes in the other two locations also. 
    
 1. In the source code editor, right-click a thread marker, point to **Switch To Thread**, and select another thread from the list. Observe that the current thread changes in all three locations.  
-
+   
 With the thread marker in source code, you can switch only to threads that are stopped at that location. By using the **Threads** window and **Debug Location** toolbar, you can switch to any thread.   
+
+You've now learned the basics of debugging multithreaded apps. You can observe, flag and unflag, and freeze and thaw threads by using the **Threads** window, the **Thread** list in the **Debug Location** toolbar, or thread markers in the source code editor.
   
 ## See also  
  [Debug multithreaded applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)   

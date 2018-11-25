@@ -22,17 +22,23 @@ ms.workload:
 ---
 # View data values in DataTips in the code editor
 
-DataTips are a convenient way to view information about variables in your app during debugging. DataTips appear only in break mode, and only on variables that are in the current scope of execution. 
+DataTips are a convenient way to view information about variables in your app during debugging. 
 
 If this is your first time debugging, you may want to read [Write better C# code using Visual Studio](../debugger/write-better-code-with-visual-studio.md) and [Debugging for absolute beginners](../debugger/debugging-absolute-beginners.md) before you read this article.
   
+## Work with DataTips
+
+DataTips appear only in break mode, and only on variables that are in the current scope of execution.
+
 ### Display a DataTip  
   
 1. Set a breakpoint in your code, and start debugging by pressing **F5** or selecting **Debug** > **Start Debugging**.
   
 1. When paused at the breakpoint, hover over any variable in the current scope. A DataTip appears, showing the name and current value of the variable.
-   
 
+### Make a DataTip transparent  
+
+To make a DataTip transparent to see code that is underneath it, while in the DataTip, press **Ctrl**. The DataTip stays transparent as long as you hold down the **Ctrl** key. This doesn't work for pinned or floating DataTips.  
 ### Pin a DataTip
 
 To pin a DataTip so that it stays open, select the pushpin **Pin to source** icon. 
@@ -52,7 +58,7 @@ The pushpin icon changes to the unpinned position, and the DataTip now floats or
   
 ### Repin a DataTip  
   
-To repin a floating DataTip to source, hover over it in the code editor and select the pushpin icon. The pushpin icon changes to the pinned position, and the DataTip is pinned only to the code window. 
+To repin a floating DataTip to source, hover over it in the code editor and select the pushpin icon. The pushpin icon changes to the pinned position, and the DataTip is again pinned only to the code window. 
 
 If a DataTip is floating over a non-source code window, the pushpin icon is unavailable, and the DataTip cannot be repinned. To access the pushpin icon, return the DataTip to the code editor window by dragging it or giving the code window focus. 
   
@@ -85,9 +91,6 @@ You can also pin expanded items to the pinned DataTip by hovering over them and 
 
 To edit the value of a variable or element in a DataTip, select the value, type a new value, and press **Enter**. Selection is disabled for read-only values.  
 
-### Make a DataTip transparent  
-
-To make a DataTip transparent to see code that is underneath it, while in the DataTip, press **Ctrl**. The DataTip stays transparent as long as you hold down the **Ctrl** key. This doesn't apply to pinned or floating DataTips.  
 ## Visualize complex data types  
 
 A magnifying glass icon next to a variable or element in a DataTip means that one or more [visualizers](../debugger/create-custom-visualizers-of-data.md), such as the [Text Visualizer](../debugger/string-visualizer-dialog-box.md), are available for the variable. Visualizers display information in a more meaningful, sometimes graphical, manner.
