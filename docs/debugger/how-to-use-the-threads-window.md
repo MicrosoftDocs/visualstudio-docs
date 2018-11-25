@@ -22,16 +22,14 @@ ms.workload:
 ---
 # Walkthrough: Debug a multithreaded app 
 
-Several Visual Studio user interface elements help you debug multithreaded apps. This article introduces multithreaded debugging features in the code editor window, **Debug** and **Debug Location** toolbars, and **Threads** window. For information about other tools for debugging multithreaded apps, see  [Get started debugging multithreaded apps](../debugger/get-started-debugging-multithreaded-apps.md). 
+Several Visual Studio user interface elements help you debug multithreaded apps. This article introduces multithreaded debugging features in the code editor window, **Debug Location** toolbar, and **Threads** window. For information about other tools for debugging multithreaded apps, see [Get started debugging multithreaded apps](../debugger/get-started-debugging-multithreaded-apps.md). 
   
 Completing this tutorial takes only a few minutes, and familiarizes you with the basics of debugging multithreaded apps.
 
 ## Create a multithreaded app project  
 
-To use this tutorial, you need a multithreaded app project. 
+Create the following multithreaded app project to use in this tutorial: 
   
-**To create a C# multithreaded app project:**
-
 1. In Visual Studio, select **File** > **New** > **Project**.  
    
 1. In the **New Project** dialog box, select **Visual C#**  > **Console App (.NET Framework)**.  
@@ -71,9 +69,9 @@ To use this tutorial, you need a multithreaded app project.
    Thread.Sleep(3000);  
    ```  
    
-1. Right-click in the **Threads** window, and select **Show Threads in Source** ![Show Threads in Source](../debugger/media/dbg-multithreaded-show-threads.png "ThreadMarker").
+1. Right-click in the **Threads** window, and select **Show Threads in Source** ![Show Threads in Source](../debugger/media/dbg-multithreaded-show-threads.png "ThreadMarker") from the menu.
    
-   The source code line now displays a *thread marker* icon ![Thread Marker](../debugger/media/dbg-thread-marker.png "Thread Marker") in the gutter. The thread marker indicates that a thread is stopped at this location. If there is more than one stopped thread at the location, the ![multiple threads](../debugger/media/dbg-multithreaded-show-threads.png "multiple threads") icon appears instead.
+   The gutter next to the source code line now displays a *thread marker* icon ![Thread Marker](../debugger/media/dbg-thread-marker.png "Thread Marker"). The thread marker indicates that a thread is stopped at this location. If there is more than one stopped thread at the location, the ![multiple threads](../debugger/media/dbg-multithreaded-show-threads.png "multiple threads") icon appears.
    
 1. Hover the pointer over the thread marker. A DataTip appears, showing the name and thread ID number for the stopped thread or threads. The thread name may be `<No Name>`.  
 
@@ -88,15 +86,15 @@ You can flag threads to keep track of threads you want to pay special attention 
 
 Flag and unflag threads from the source code editor or from the **Threads** window. Choose whether to display only flagged threads, or all threads, from the **Debug Location** or **Threads** window toolbars. Selections made from any location affect all locations. 
 
-### To flag and unflag threads in source code 
+### Flag and unflag threads in source code 
 
 1. Open the **Debug Location** toolbar by selecting **View** > **Toolbars** > **Debug Location**. You can also right-click in the toolbar area and select **Debug Location**. 
    
 1. The **Debug Location** toolbar has three fields: **Process**, **Thread**, and **Stack Frame**. Drop down the **Threads** list, and note how many threads there are. In the **Threads** list, the currently executing thread is marked by a **>** symbol. 
    
-1. In the source code, hover over a thread marker icon in the gutter and select the flag icon (or one of the empty flag icons) in the DataTip. The flag icon turns red. 
+1. In the source code window, hover over a thread marker icon in the gutter and select the flag icon (or one of the empty flag icons) in the DataTip. The flag icon turns red. 
    
-   You can also right-click a thread marker icon, point to **Flag**, and then select a thread from the shortcut menu.  
+   You can also right-click a thread marker icon, point to **Flag**, and then select a thread to flag from the shortcut menu.  
    
 1. On the **Debug Location** toolbar, select the **Show Only Flagged Threads** icon ![Show Flagged Threads](../debugger/media/dbg-threads-show-flagged.png "Show Flagged Threads"), to the right of the **Thread** field. The icon is grayed out unless one or more threads are flagged.  
    
@@ -107,9 +105,9 @@ Flag and unflag threads from the source code editor or from the **Threads** wind
    
 1. To toggle the flagged or unflagged status of the currently executing thread, select the single flag **Toggle Current Thread Flagged State** toolbar button, to the left of the **Show Only Flagged Threads** button. Flagging the current thread is useful for locating the current thread when only flagged threads are showing. 
    
-1. To unflag a thread, hover over the thread marker in the source code and select the red flag icon, or right-click the thread marker and select **Unflag**.  
+1. To unflag a thread, hover over the thread marker in the source code and select the red flag icon to clear it, or right-click the thread marker and select **Unflag**.  
 
-### To flag and unflag threads in the Threads window 
+### Flag and unflag threads in the Threads window 
 
 In the **Threads** window, flagged threads have red flag icons next to them, while unflagged threads, if shown, have empty icons.
 
@@ -119,7 +117,7 @@ Select a flag icon to change the thread state to flagged or unflagged, depending
 
 You can also right-click a line and select **Flag**, **Unflag**, or **Unflag All Threads** from the shortcut menu. 
 
-The **Threads** window toolbar also has a **Show Flagged Threads Only** button, which is the flag icon on the right. It works the same as the button on the **Debug Location** toolbar, and either button controls the display in both locations. 
+The **Threads** window toolbar also has a **Show Flagged Threads Only** button, which is the righthand one of the two flag icons. It works the same as the button on the **Debug Location** toolbar, and either button controls the display in both locations. 
 
 ### Other Threads window features
 
@@ -133,7 +131,7 @@ The **Location** column shows where each thread appears in the source code. Sele
 >For a graphical view of the call stacks for threads, use the [Parallel Stacks](../debugger/using-the-parallel-stacks-window.md) window. To open the window, while debugging, select **Debug**> **Windows** > **Parallel Stacks**.  
 In addition to **Flag**, **Unflag**, and **Unflag All Threads**, the right-click context menu for **Thread** window items has:
 
-- A **Show Threads in Source** button, which works like the one on the **Debug** toolbar.
+- The **Show Threads in Source** button, which works like the one on the **Debug** toolbar.
 - **Hexadecimal display**, which changes the **Thread ID**s in the **Threads** window from decimal to hexadecimal format. 
 - [Switch To Thread](#switch-to-another-thread), which immediately switches execution to that thread. 
 - **Rename**, which lets you change the thread name. 
@@ -144,7 +142,7 @@ In addition to **Flag**, **Unflag**, and **Unflag All Threads**, the right-click
 You can freeze and thaw, or suspend and resume, threads to control the order in which the threads perform work. Freezing and thawing threads can help you resolve concurrency issues, such as deadlocks and race conditions.
 
 > [!TIP]
-> To follow a single thread without freezing other threads, also a common debugging scenario, see [Get started debugging multithreaded applications](../debugger/get-started-debugging-multithreaded-apps.md#bkmk_follow_a_thread).
+> To follow a single thread without freezing other threads, which is also a common debugging scenario, see [Get started debugging multithreaded applications](../debugger/get-started-debugging-multithreaded-apps.md#bkmk_follow_a_thread).
   
 **To freeze and unfreeze threads:**  
   

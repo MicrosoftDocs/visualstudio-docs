@@ -79,7 +79,7 @@ To expand an object in a DataTip to see its elements, hover over the expand arro
 
 You can use the mouse or the arrow keys on the keyboard to move up and down in the expanded view. 
 
-You can also pin expanded items to the pinned DataTip by hovering over them and selecting their pushpin icons. The elements then appears in the pinned DataTip after the tree is collapsed. 
+You can also pin expanded items to the pinned DataTip by hovering over them and selecting their pushpin icons. The elements then appear in the pinned DataTip after the tree is collapsed. 
 
 ### Edit the value of a variable
 
