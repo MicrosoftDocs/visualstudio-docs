@@ -1,6 +1,6 @@
 ---
-title: "How to: Change Fonts and Colors in the Editor"
-ms.date: 11/04/2016
+title: Change editor fonts and colors
+ms.date: 11/26/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
@@ -17,11 +17,11 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# How to: Change Fonts and Colors in the Editor
+# How to: Change fonts and colors for the editor
 
-You can change the default font face, adjust the font size, and change the foreground and background colors for various text **Display items** in the Code Editor. When changing font settings keep in mind the following information:
+You can change the default font face, adjust the font size, and change the foreground and background colors for various text **Display items** in the code editor. When you change font settings, keep the following information in mind:
 
-- The settings for **Font** and **Size** are global for all text elements in all [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] editors.
+- The settings for **Font** and **Size** are global for all text elements in all Visual Studio editors.
 
 - The names of fixed width fonts are listed in bold.
 
@@ -46,7 +46,7 @@ You can change the default font face, adjust the font size, and change the foreg
 
 ## See also
 
-- [Customizing the Editor](../../ide/customizing-the-editor.md)
-- [Text Editor Options Dialog Box](../../ide/reference/text-editor-options-dialog-box.md)
+- [Customize the editor](../../ide/customizing-the-editor.md)
+- [Text Editor Options dialog box](../../ide/reference/text-editor-options-dialog-box.md)
 - [Features of the code editor](../../ide/writing-code-in-the-code-and-text-editor.md)
-- [How to: Change Fonts and Colors](../../ide/how-to-change-fonts-and-colors-in-visual-studio.md)
+- [How to: Change fonts and colors in Visual Studio](../../ide/how-to-change-fonts-and-colors-in-visual-studio.md)

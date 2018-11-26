@@ -22,13 +22,14 @@ ms.workload:
   - "office"
 ---
 # Walkthrough: Update the controls on a ribbon at runtime
-  This walkthrough demonstrates how to use the Ribbon object model to update the controls on a ribbon after the ribbon is loaded into the Office application.
 
- [!INCLUDE[appliesto_ribbon](../vsto/includes/appliesto-ribbon-md.md)]
+This walkthrough demonstrates how to use the Ribbon object model to update the controls on a ribbon after the ribbon is loaded into the Office application.
 
- The example pulls data from the Northwind sample database to populate a combo box and menu in Microsoft Office Outlook. Items that you select in these controls automatically populate fields such as **To** and **Subject** in an email message.
+[!INCLUDE[appliesto_ribbon](../vsto/includes/appliesto-ribbon-md.md)]
 
- This walkthrough illustrates the following tasks:
+The example pulls data from the Northwind sample database to populate a combo box and menu in Microsoft Office Outlook. Items that you select in these controls automatically populate fields such as **To** and **Subject** in an email message.
+
+This walkthrough illustrates the following tasks:
 
 -   Create a new Outlook VSTO Add-in project.
 
@@ -39,17 +40,19 @@ ms.workload:
 -   Update controls on the ribbon at runtime.
 
 > [!NOTE]
->  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
+> Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
 
 ## Prerequisites
- You need the following components to complete this walkthrough:
+
+You need the following components to complete this walkthrough:
 
 -   [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
 -   Microsoft Outlook
 
 ## Create a new Outlook VSTO Add-in project
- First, create an Outlook VSTO Add-in project.
+
+First, create an Outlook VSTO Add-in project.
 
 ### To create a new Outlook VSTO Add-in project
 
@@ -62,7 +65,8 @@ ms.workload:
      For more information, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
 
 ## Design a custom Ribbon group
- The ribbon for this example will appear when a user composes a new mail message. To create a custom group for the ribbon, first add a Ribbon item to your project, and then design the group in the Ribbon Designer. This custom group will help you generate follow-up email messages to customers by pulling names and order histories from a database.
+
+The ribbon for this example will appear when a user composes a new mail message. To create a custom group for the ribbon, first add a Ribbon item to your project, and then design the group in the Ribbon Designer. This custom group will help you generate follow-up email messages to customers by pulling names and order histories from a database.
 
 ### To design a custom group
 
@@ -99,7 +103,8 @@ ms.workload:
      This enables you to add and remove controls on the menu at runtime after the ribbon is loaded into the Office application.
 
 ## Add the custom group to a built-in tab
- A built-in tab is a tab that is already on the ribbon of an Outlook Explorer or Inspector. In this procedure, you will add the custom group to a built-in tab, and then specify the position of the custom group on the tab.
+
+A built-in tab is a tab that is already on the ribbon of an Outlook Explorer or Inspector. In this procedure, you will add the custom group to a built-in tab, and then specify the position of the custom group on the tab.
 
 ### To add the custom group to a built-in tab
 
@@ -118,7 +123,8 @@ ms.workload:
      This positions the **Customer Purchases** group before the **Clipboard** group of the **Messages** tab.
 
 ## Create the data source
- Use the **Data Sources** window to add a typed dataset to your project.
+
+Use the **Data Sources** window to add a typed dataset to your project.
 
 ### To create the data source
 
@@ -151,7 +157,8 @@ ms.workload:
 9. Click **Finish**.
 
 ## Update controls in the custom group at runtime
- Use the Ribbon object model to perform the following tasks:
+
+Use the Ribbon object model to perform the following tasks:
 
 -   Add customer names to the **Customers** combo box.
 
@@ -240,9 +247,10 @@ ms.workload:
       [!code-vb[Trin_Ribbon_Update_At_Runtime#7](../vsto/codesnippet/VisualBasic/Ribbon_Update_At_Runtime/CustomerRibbon.vb#7)]
 
 ## Test the controls in the custom group
- When you open a new mail form in Outlook, a custom group named **Customer Purchases** appears on the **Messages** tab of the Ribbon.
 
- To create a customer follow-up email message, select a customer, and then select products purchased by the customer. The controls in the **Customer Purchases** group are updated at runtime with data from the Northwind database.
+When you open a new mail form in Outlook, a custom group named **Customer Purchases** appears on the **Messages** tab of the Ribbon.
+
+To create a customer follow-up email message, select a customer, and then select products purchased by the customer. The controls in the **Customer Purchases** group are updated at runtime with data from the Northwind database.
 
 ### To test the controls in the custom group
 
@@ -275,7 +283,8 @@ ms.workload:
      The product name is added to the body of the mail message.
 
 ## Next steps
- You can learn more about how to customize the Office UI from these topics:
+
+You can learn more about how to customize the Office UI from these topics:
 
 -   Add context-based UI to any document-level customization. For more information, see [Actions pane overview](../vsto/actions-pane-overview.md).
 
@@ -284,16 +293,17 @@ ms.workload:
 -   Add a custom task pane to Outlook. For more information, see [Custom task panes](../vsto/custom-task-panes.md).
 
 ## See also
- [Access the ribbon at runtime](../vsto/accessing-the-ribbon-at-run-time.md)
- [Ribbon overview](../vsto/ribbon-overview.md)
- [Language-Integrated Query (LINQ)](/dotnet/csharp/linq/index)
- [How to: Get started customizing the ribbon](../vsto/how-to-get-started-customizing-the-ribbon.md)
- [Ribbon Designer](../vsto/ribbon-designer.md)
- [Walkthrough: Create a custom tab by using the Ribbon Designer](../vsto/walkthrough-creating-a-custom-tab-by-using-the-ribbon-designer.md)
- [Ribbon object model overview](../vsto/ribbon-object-model-overview.md)
- [Customize a ribbon for Outlook](../vsto/customizing-a-ribbon-for-outlook.md)
- [How to: Change the position of a tab on the ribbon](../vsto/how-to-change-the-position-of-a-tab-on-the-ribbon.md)
- [How to: Customize a built-in tab](../vsto/how-to-customize-a-built-in-tab.md)
- [How to: Add controls to the Backstage view](../vsto/how-to-add-controls-to-the-backstage-view.md)
- [How to: Export a ribbon from the Ribbon Designer to Ribbon XML](../vsto/how-to-export-a-ribbon-from-the-ribbon-designer-to-ribbon-xml.md)
- [How to: Show Add-in user interface errors](../vsto/how-to-show-add-in-user-interface-errors.md)
+
+- [Access the ribbon at runtime](../vsto/accessing-the-ribbon-at-run-time.md)
+- [Ribbon overview](../vsto/ribbon-overview.md)
+- [Language-Integrated Query (LINQ)](/dotnet/csharp/linq/index)
+- [How to: Get started customizing the ribbon](../vsto/how-to-get-started-customizing-the-ribbon.md)
+- [Ribbon Designer](../vsto/ribbon-designer.md)
+- [Walkthrough: Create a custom tab by using the Ribbon Designer](../vsto/walkthrough-creating-a-custom-tab-by-using-the-ribbon-designer.md)
+- [Ribbon object model overview](../vsto/ribbon-object-model-overview.md)
+- [Customize a ribbon for Outlook](../vsto/customizing-a-ribbon-for-outlook.md)
+- [How to: Change the position of a tab on the ribbon](../vsto/how-to-change-the-position-of-a-tab-on-the-ribbon.md)
+- [How to: Customize a built-in tab](../vsto/how-to-customize-a-built-in-tab.md)
+- [How to: Add controls to the Backstage view](../vsto/how-to-add-controls-to-the-backstage-view.md)
+- [How to: Export a ribbon from the Ribbon Designer to Ribbon XML](../vsto/how-to-export-a-ribbon-from-the-ribbon-designer-to-ribbon-xml.md)
+- [How to: Show Add-in user interface errors](../vsto/how-to-show-add-in-user-interface-errors.md)

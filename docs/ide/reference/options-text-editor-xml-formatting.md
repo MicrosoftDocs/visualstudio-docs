@@ -25,12 +25,13 @@ Do not reformat attributes. This setting is the default.
 > If the attributes are on multiple lines, the editor indents each line of attributes to match the indentation of the parent element.
 
 **Align attributes each on a separate line**
+
 Align the second and subsequent attributes vertically to match the indentation of the first attribute. The following XML text is an example of how the attributes would be aligned.
 
 ```xml
 <item id = "123-A"
       name = "hammer"
-      price = "9.95"
+      price = "9.95">
 </item>
 ```
 
@@ -56,7 +57,7 @@ If an element contains a mix of text and markup, the contents are considered to 
 <dir>c:\data\AlphaProject\
   <file readOnly="false">test1.txt</file>
   <file readOnly="false">test2.txt</file>
-\</dir>
+</dir>
 ```
 
 ## See also

@@ -28,7 +28,7 @@ Access this dialog box by selecting the **Tools** menu, selecting **Options**, a
 
 **Save AutoRecover information every [n] minutes**
 
-Use this option to customize how often a file is automatically saved in the editor. For previously saved files, a copy of the file is saved in *%USERPROFILE%\Documents\Visual Studio\\<version>\Backup Files\\<projectname>*. If the file is new and you haven't saved it yet, the file is autosaved using a randomly generated file name.
+Use this option to customize how often a file is automatically saved in the editor. For previously saved files, a copy of the file is saved in *%USERPROFILE%\Documents\Visual Studio\\[version]\Backup Files\\[projectname]*. If the file is new and you haven't saved it yet, the file is autosaved using a randomly generated file name.
 
 **Keep AutoRecover information for [n] days**
 
@@ -36,4 +36,4 @@ Use this option to specify how long Visual Studio keeps files created for autore
 
 ### See also
 
-- [Options Dialog Box](../../ide/reference/options-dialog-box-visual-studio.md)
+- [Options dialog box](../../ide/reference/options-dialog-box-visual-studio.md)
