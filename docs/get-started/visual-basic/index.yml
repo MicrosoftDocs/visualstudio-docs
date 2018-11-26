@@ -26,16 +26,11 @@ sections:
       image:
         src: https://docs.microsoft.com/media/logos/logo_visual-studio.svg
       title: Tour of the Visual Studio IDE
-    - href: ../install/install-visual-studio.md
+    - href: ../../install/install-visual-studio.md
       html: <p></p>
       image:
         src: https://docs.microsoft.com/media/common/i_setup.svg
       title: Install Visual Studio
-    - href: /dotnet/visual-basic/developing-apps/programming/
-      html: <p>Learn the language by following tutorials and sample code.</p>
-      image:
-        src: https://docs.microsoft.com/media/logos/logo_vb.svg
-      title: Learn Visual Basic
 - title: Visual Basic Tutorials
   items:
   - type: paragraph
@@ -60,6 +55,11 @@ sections:
       image:
         src: https://docs.microsoft.com/media/logos/logo_Windows.svg
       title: WPF app
+    - href: /dotnet/visual-basic/developing-apps/programming/
+      html: <p>Learn the language by following tutorials and sample code.</p>
+      image:
+        src: https://docs.microsoft.com/media/logos/logo_vb.svg
+      title: Learn Visual Basic
 - title: Develop Applications
   items:
   - type: paragraph
@@ -79,18 +79,18 @@ sections:
       image:
         src: https://docs.microsoft.com/media/common/i_build.svg
       title: Compile and build
-    - href: ../debugger/getting-started-with-the-debugger.md
+    - href: ../../debugger/getting-started-with-the-debugger.md
       html: <p>Run your app under the debugger to investigate problems.</p>
       image:
         src: https://docs.microsoft.com/media/common/i_debug.svg
       title: Debug
-    - href: ../test/getting-started-with-unit-testing.md
+    - href: ../../test/getting-started-with-unit-testing.md
       html: <p>Use Visual Studio to manage unit testing and coded UI testing.</p>
       image:
         src: https://docs.microsoft.com/media/common/i_test.svg
       title: Test
-    - href: ../data-tools/create-a-sql-database-by-using-a-designer.md
-      html: <p></p>
+    - href: ../../data-tools/create-a-sql-database-by-using-a-designer.md
+      html: <p>Create a SQL database using the Visual Studio database design tools.</p>
       image:
         src: https://docs.microsoft.com/media/common/i_generic-database.svg
       title: Access data
