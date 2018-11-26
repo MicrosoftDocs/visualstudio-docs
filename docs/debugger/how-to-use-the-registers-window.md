@@ -1,7 +1,7 @@
 ---
-title: "View Register Values in the Visual Studio Debugger | Microsoft Docs"
+title: "View register values in the Visual Studio debugger | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "11/19/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
@@ -26,28 +26,30 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# View Register Values and use the Registers Window in the Visual Studio Debugger (C#, C++, Visual Basic, F#)
-The Registers window is available only if address-level debugging is enabled in the **Options** dialog box, **Debugging** node, **General** category.  
-  
- The **Registers** window displays register contents. If you keep the **Registers** window open as you step through your program, you can see register values change as your code executes. Values that have changed recently are displayed in red. You can edit register values. For more information, see [How to: Edit a Register Value](../debugger/how-to-edit-a-register-value.md).  
-  
- To reduce clutter, the **Registers** window organizes registers into groups, which vary according to platform and processor type. You can display or hide groups as you want. For more information, see [How to: Display and Hide Register Groups](../debugger/how-to-display-and-hide-register-groups.md).  
-  
- For a high-level introduction to concepts behind registers and the Registers window, see [Debugging Basics: Registers Window](../debugger/debugging-basics-registers-window.md).  
-  
+
+# View register values in the Registers window (C#, C++, Visual Basic, F#)
+
+The **Registers** window displays register contents during Visual Studio debugging. For a high-level introduction to concepts behind registers and the **Registers** window, see [Debugging basics: Registers window](../debugger/debugging-basics-registers-window.md).  
+
 > [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).  
+> Register information is not available for script or SQL apps.  
+
+During debugging, register values change as code executes in your app. Values that have changed recently appear in red in the **Registers** window. 
+
+To reduce clutter, the **Registers** window organizes registers into groups, which vary according to platform and processor type. You can display or hide register groups. For more information, see [How to: Display and hide register groups](../debugger/how-to-display-and-hide-register-groups.md).  
+
+You can edit register values. For more information, see [How to: Edit a register value](../debugger/how-to-edit-a-register-value.md).  
   
-### To display the Registers window  
+**To open the Registers window**  
+
+1. Enable address-level debugging, by selecting **Enable address-level debugging** in **Tools** (or **Debug**) > **Options** > **Debugging**. 
+   
+1. While debugging is running or at a breakpoint, select **Debug** > **Windows** > **Registers**, or press **Alt**+**5**.  
   
--   On the **Debug** menu, choose **Windows**, and then choose **Registers** (or choose **Ctrl** + **Alt** + **G**).  
+>[!NOTE]
+>Dialog boxes and menu commands might differ depending on your Visual Studio edition or settings. To change your settings, select **Import and Export Settings** on the Visual Studio **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).  
   
-     The debugger must be running or in break mode.  
-  
-    > [!NOTE]
-    >  Register information is not available for script or SQL applications.  
-  
-## See Also  
- [Debugging Basics: Registers Window](../debugger/debugging-basics-registers-window.md)   
- [Viewing Data in the Debugger](../debugger/viewing-data-in-the-debugger.md)   
- [Debugging Basics: Registers Window](../debugger/debugging-basics-registers-window.md)
+**See also:**
+
+ [Debugging basics: Registers window](../debugger/debugging-basics-registers-window.md)   
+ [Viewing data in the debugger](../debugger/viewing-data-in-the-debugger.md)   

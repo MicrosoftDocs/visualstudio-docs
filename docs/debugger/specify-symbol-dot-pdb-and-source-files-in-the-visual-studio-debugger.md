@@ -1,7 +1,7 @@
 ---
 title: "Specify symbol (.pdb) and source files in the debugger | Microsoft Docs"
 ms.custom: "H1Hack27Feb2017"
-ms.date: "04/05/2018"
+ms.date: "10/08/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
