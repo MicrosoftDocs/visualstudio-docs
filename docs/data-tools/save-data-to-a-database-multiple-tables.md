@@ -25,6 +25,9 @@ One of the most common scenarios in application development is to display data o
 
 You can save data in your application back to the database by calling the `Update` method of a TableAdapter. When you drag tables from the **Data Sources** window onto a form, the code that's required to save data is automatically added. Any additional tables that are added to a form require the manual addition of this code. This walkthrough shows how to add code to save updates from more than one table.
 
+> [!NOTE]
+> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or the edition that you're using. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
+
 Tasks illustrated in this walkthrough include:
 
 -   Creating a new **Windows Forms Application** project.

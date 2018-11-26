@@ -26,6 +26,9 @@ When you drag an item from the **Data Sources** window to a design surface to cr
 
 For more information about selecting data-bound controls to create for items in the **Data Sources** window, see [Set the control to be created when dragging from the Data Sources window](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md).
 
+> [!NOTE]
+> The dialog boxes and menu commands you see might differ from those described in Help, depending on your active settings or edition. To change your settings, on the **Tools** menu, select **Import and Export Settings**. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
+
 ## Customize the bindable controls list
 
 To add or remove controls from the list of available controls for items in the **Data Sources** window that have a specific data type, perform the following steps.

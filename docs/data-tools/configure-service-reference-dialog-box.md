@@ -17,9 +17,12 @@ ms.technology: vs-data-tools
 ms.workload:
   - "data-storage"
 ---
-# Configure Service Reference dialog box
+# Configure Service Reference Dialog Box
 
 The **Configure Service Reference** dialog box enables you to configure the behavior of Windows Communication Foundation (WCF) services.
+
+> [!NOTE]
+> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
 
 To access the **Configure Service Reference** dialog box, right-click a service reference in **Solution Explorer** and choose **Configure Service Reference**. You can also access the dialog box by clicking the **Advanced** button in the **Add Service Reference Dialog Box**.
 
@@ -95,7 +98,7 @@ To access the **Configure Service Reference** dialog box, right-click a service 
 
 > [!NOTE]
 > This option should only be used for projects that target version 2.0 of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)].
->
+> 
 > [!NOTE]
 > The **Add Web Reference** button is only available when the **Configure Service Reference** dialog box is displayed from the **Add Service Reference Dialog Box**.
 
