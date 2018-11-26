@@ -2,7 +2,7 @@
 title: Let Visual Studio help you write C# code with less bugs
 description: "Understand how to write better code with less bugs"
 ms.custom: "debug-experiments"
-ms.date: "10/30/2018"
+ms.date: "11/20/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -13,7 +13,7 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Write better C# code using Visual Studio
+# Fix bugs by writing better C# code using Visual Studio
 
 Debugging code can be a time-consuming--and sometimes frustrating--task. It takes time to learn how to debug effectively. A powerful IDE like Visual Studio can make your job a lot easier. An IDE can help you debug your code more quickly, and not just that, but it can also help you write better code with fewer bugs. Our aim in this article is to give you a holistic view of the debugging process, so you will know when to use the code analyzer, when to use the debugger, and when to use other tools.
 

@@ -1,7 +1,7 @@
 ---
 title: "Use breakpoints in the Visual Studio debugger | Microsoft Docs"
 ms.custom: "H1Hack27Feb2017"
-ms.date: "02/07/2018"
+ms.date: "10/15/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
@@ -44,6 +44,8 @@ Breakpoints are one of the most important debugging techniques in your developer
  You can set a breakpoint on any line of executable code. For example, in the following C# code, you could set a breakpoint on the variable declaration, the `for` loop, or any code inside the `for` loop. You can't set a breakpoint on the namespace or class declarations, or on the method signature.  
 
  To set a breakpoint in source code, click in the far left margin next to a line of code. You can also select the line and press **F9**, select **Debug** > **Toggle Breakpoint**, or right-click and select **Breakpoint** > **Insert breakpoint**. The breakpoint appears as a red dot in the left margin.  
+
+In C# code, breakpoint and current execution lines are automatically highlighted. For C++ code, you can turn on highlighting of breakpoint and current lines by selecting **Tools** (or **Debug**) > **Options** > **Debugging** >  **Highlight entire source line for breakpoints and current statement (C++ only)**. 
   
  ![Set a breakpoint](../debugger/media/basicbreakpoint.png "Basic breakpoint")  
   

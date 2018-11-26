@@ -10,8 +10,8 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords:
   - "Office development in Visual Studio, additional resources"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload:
   - "office"

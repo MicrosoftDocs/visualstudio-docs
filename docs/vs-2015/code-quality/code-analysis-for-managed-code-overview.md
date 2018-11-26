@@ -42,15 +42,13 @@ Code analysis for managed code analyzes managed assemblies and reports informati
   
  In Source Suppression of warnings is implemented through custom attributes. To suppress a warning, add the attribute `SuppressMessage` to the source code as shown in the following example:  
   
- `[System.Diagnosis.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1039:ListsAreStrongTyped")]`  
-  
- `Public class MyClass`  
-  
- `{`  
-  
- `// code`  
-  
- `}`  
+ ```csharp
+ [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1039:ListsAreStrongTyped")]
+ Public class MyClass
+ {
+     // code
+ }
+ ```
   
  For more information, see [Suppress Warnings By Using the SuppressMessage Attribute](../code-quality/suppress-warnings-by-using-the-suppressmessage-attribute.md).  
   
