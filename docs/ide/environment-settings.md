@@ -12,23 +12,17 @@ ms.workload:
 ---
 # Environment settings for Visual Studio
 
-When you start Visual Studio for the first time, you can optimize the development environment for the type of development that you do the most. The following settings collections are available:
+When you start Visual Studio for the first time, you can optimize the development environment for the type of development that you do the most by choosing a collection of settings. Each collection optimizes elements such as keyboard shortcuts, window layouts, project and item templates, and command visibility.
+
+The following settings collections are available:
 
 - General
-
 - JavaScript
-
 - Visual Basic
-
 - Visual C#
-
 - Visual C++
-
 - Web Development
-
 - Web Development (Code Only)
-
-Each collection optimizes elements such as keyboard shortcuts, window layouts, project and item templates, and command visibility.
 
 ## Reset settings
 

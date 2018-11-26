@@ -19,7 +19,7 @@ You can personalize Visual Studio in various ways to best support your own devel
 
 ## Default settings
 
-You can choose a default collection of settings that optimizes Visual Studio for a certain type of development. For more information, see [Environment settings](environment-settings.md).
+You can choose a default collection of settings that optimizes Visual Studio for your type of development. For more information, see [Environment settings](environment-settings.md).
 
 ## General environment options
 
