@@ -32,7 +32,7 @@ To open the property pages, select the project in **Solution Explorer** and then
 For more information, see [Debug and release configurations](how-to-set-debug-and-release-configurations.md). 
 
 >[!IMPORTANT]
->These settings don't apply to UWP apps. To configure debug settings for UWP apps, see [Start a debugging session for a UWP app](start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md).  
+>These settings don't apply to .NET Core, ASP.NET, or UWP apps. To configure debug settings for UWP apps, see [Start a debugging session for a UWP app](start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md).  
   
 ## Debug tab  
   

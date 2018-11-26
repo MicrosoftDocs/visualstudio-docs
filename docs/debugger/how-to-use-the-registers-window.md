@@ -27,7 +27,7 @@ ms.workload:
   - "multiple"
 ---
 
-# View register values in the Registers window
+# View register values in the Registers window (C#, C++, Visual Basic, F#)
 
 The **Registers** window displays register contents during Visual Studio debugging. For a high-level introduction to concepts behind registers and the **Registers** window, see [Debugging basics: Registers window](../debugger/debugging-basics-registers-window.md).  
 
