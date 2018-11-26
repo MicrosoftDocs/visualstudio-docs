@@ -46,7 +46,7 @@ sections:
     - image: 
         src: https://docs.microsoft.com/media/logos/logo_csharp.svg
       text: C#
-      href: /visualstudio/csharp/
+      href: /visualstudio/get-started/csharp/
     - image: 
         src: https://docs.microsoft.com/media/logos/logo_fsharp.svg
       text: F#
@@ -54,7 +54,7 @@ sections:
     - image: 
         src: https://docs.microsoft.com/media/logos/logo_vb.svg
       text: Visual Basic
-      href: /visualstudio/visual-basic/
+      href: /visualstudio/get-started/visual-basic/
     - image: 
         src: https://docs.microsoft.com/media/logos/logo_cplusplus.svg
       text: C++
