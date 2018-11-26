@@ -20,7 +20,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Walkthrough: Debug a multithreaded app 
+# Walkthrough: Debug a multithreaded app using the Threads window
 
 Several Visual Studio user interface elements help you debug multithreaded apps. This article introduces multithreaded debugging features in the code editor window, **Debug Location** toolbar, and **Threads** window. For information about other tools for debugging multithreaded apps, see [Get started debugging multithreaded apps](../debugger/get-started-debugging-multithreaded-apps.md). 
   
@@ -32,13 +32,15 @@ Create the following multithreaded app project to use in this tutorial:
   
 1. In Visual Studio, select **File** > **New** > **Project**.  
    
-1. In the **New Project** dialog box, select **Visual C#**  > **Console App (.NET Framework)**.  
+1. In the **New Project** dialog box:
+   - For a C# app, select **Visual C#**  > **Console App (.NET Framework)**.  
+   - For a C++ app, select **Visual C++** > **Windows Console Application**.
    
 1. Name the app MyThreadWalkthroughApp, and then select **OK**.  
    
-   The new project appears in **Solution Explorer**, and a source file called *Program.cs* opens in the source code window.  
+   The new project appears in **Solution Explorer**, and a source file called *Program.cs* or *MyThreadWalkthroughApp.cpp* opens in the source code window.  
    
-1. Replace the code in the source file with the example code from [Create a thread](/dotnet/standard/threading/creating-threads-and-passing-data-at-start-time.md#create-a-thread).  
+1. Replace the code in the source file with the C# or C++ example code from [Get started debugging multithreaded apps](../debugger/get-started-debugging-multithreaded-apps.md).  
    
 1. Select **File** > **Save All**.  
   
@@ -47,11 +49,16 @@ Create the following multithreaded app project to use in this tutorial:
 1. Find the following lines in the source code:  
    
    ```csharp  
-   Thread.Sleep(3000);  
-   Console.WriteLine();  
+   Thread.Sleep(3000); 
+   Console.WriteLine();
    ```  
    
-   Set a breakpoint on the `Console.WriteLine();` line by clicking in the left gutter, or selecting the line and pressing **F9**.  
+   ```C++ 
+   Thread::Sleep(3000); 
+   Console.WriteLine(); 
+   ```
+   
+1. Set a breakpoint on the `Console.WriteLine();` line by clicking in the left gutter, or selecting the line and pressing **F9**.  
    
    The breakpoint appears as a red circle in the left gutter next to the code line.  
    
@@ -63,13 +70,9 @@ Create the following multithreaded app project to use in this tutorial:
    
 ## Examine thread markers
 
-1. In the source code, locate the following line:  
+1. In the source code, locate the `Console.WriteLine();` line. 
    
-   ```csharp  
-   Thread.Sleep(3000);  
-   ```  
-   
-1. Right-click in the **Threads** window, and select **Show Threads in Source** ![Show Threads in Source](../debugger/media/dbg-multithreaded-show-threads.png "ThreadMarker") from the menu.
+   1. Right-click in the **Threads** window, and select **Show Threads in Source** ![Show Threads in Source](../debugger/media/dbg-multithreaded-show-threads.png "ThreadMarker") from the menu.
    
    The gutter next to the source code line now displays a *thread marker* icon ![Thread Marker](../debugger/media/dbg-thread-marker.png "Thread Marker"). The thread marker indicates that a thread is stopped at this location. If there is more than one stopped thread at the location, the ![multiple threads](../debugger/media/dbg-multithreaded-show-threads.png "multiple threads") icon appears.
    
