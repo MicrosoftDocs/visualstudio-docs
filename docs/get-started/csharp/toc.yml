@@ -10,24 +10,24 @@
     - name: About projects and solutions
       href: quickstart-projects-solutions.md
     - name: More Visual Studio features
-      href: ../ide/advanced-feature-overview.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
+      href: ../../ide/advanced-feature-overview.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
   - name: Create an app
     expanded: true
     items:
     - name: Create your first C# app
-      href: ../ide/tutorial-csharp-console.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
+      href: ../../ide/tutorial-csharp-console.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
     - name: Create a web app
-      href: ../ide/quickstart-aspnet-core-experimental.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
+      href: ../../ide/quickstart-aspnet-core-experimental.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
     - name: Create a UWP app
-      href: ../ide/quickstart-uwp-csharp.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
+      href: ../../ide/quickstart-uwp-csharp.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
     - name: Create a WPF application
-      href: ../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
+      href: ../../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
   - name: Learn Visual Studio
     items:
     - name: Write and edit code
       href: quickstart-editor.md
     - name: Compile and build
-      href: ../ide/compiling-and-building-in-visual-studio.md
+      href: ../../ide/compiling-and-building-in-visual-studio.md
     - name: Debug your code
       href: ../debugger/getting-started-with-the-debugger.md
     - name: Unit testing

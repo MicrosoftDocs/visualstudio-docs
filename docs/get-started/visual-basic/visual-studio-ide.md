@@ -16,15 +16,15 @@ ms.workload:
 
 The Visual Studio *integrated development environment* is a creative launching pad that you can use to edit, debug, and build code, and then publish an app. An integrated development environment (IDE) is a feature-rich program that can be used for many aspects of software development. Over and above the standard editor and debugger that most IDEs provide, Visual Studio includes compilers, code completion tools, graphical designers, and many more features to ease the software development process.
 
-![The Visual Studio IDE](../ide/media/visualstudioide.png)
+![The Visual Studio IDE](../../ide/media/visualstudioide.png)
 
 This image shows Visual Studio with an open project and several key tool windows you'll likely use:
 
-- [**Solution Explorer**](../ide/solutions-and-projects-in-visual-studio.md) (top right) lets you view, navigate, and manage your code files. **Solution Explorer** can help organize your code by grouping the files into [solutions and projects](quickstart-projects-solutions.md).
+- [**Solution Explorer**](../../ide/solutions-and-projects-in-visual-studio.md) (top right) lets you view, navigate, and manage your code files. **Solution Explorer** can help organize your code by grouping the files into [solutions and projects](quickstart-projects-solutions.md).
 
-- The [editor window](../ide/writing-code-in-the-code-and-text-editor.md) (center), where you'll likely spend a majority of your time, displays file contents. This is where you can edit code or design a user interface such as a window with buttons and text boxes.
+- The [editor window](../../ide/writing-code-in-the-code-and-text-editor.md) (center), where you'll likely spend a majority of your time, displays file contents. This is where you can edit code or design a user interface such as a window with buttons and text boxes.
 
-- The [Output window](../ide/reference/output-window.md) (bottom center) is where Visual Studio sends notifications such as debugging and error messages, compiler warnings, publishing status messages, and more. Each message source has its own tab.
+- The [Output window](../../ide/reference/output-window.md) (bottom center) is where Visual Studio sends notifications such as debugging and error messages, compiler warnings, publishing status messages, and more. Each message source has its own tab.
 
 - [Team Explorer](/azure/devops/user-guide/work-team-explorer?view=vsts) (bottom right) lets you track work items and share code with others using version control technologies such as [Git](https://git-scm.com/) and [Team Foundation Version Control (TFVC)](/azure/devops/repos/tfvc/overview?view=vsts).
 
@@ -38,37 +38,37 @@ There are three editions of Visual Studio 2017: Community, Professional, and Ent
 
 Some of the popular features in Visual Studio that help you to be more productive as you develop software include:
 
-- [Refactoring](../ide/refactoring-in-visual-studio.md)
+- [Refactoring](../../ide/refactoring-in-visual-studio.md)
 
    Refactoring includes operations such as intelligent renaming of variables, extracting one or more lines of code into a new method, changing the order of method parameters, and more.
 
    ![Refactoring in Visual Studio](media/refactoring-menu.png)
 
-- [IntelliSense](../ide/using-intellisense.md)
+- [IntelliSense](../../ide/using-intellisense.md)
 
-   IntelliSense is a term for a set of features that displays information about your code directly in the editor and, in some cases, write small bits of code for you. It's like having basic documentation inline in the editor, which saves you from having to look up type information elsewhere. IntelliSense features vary by language. For more information, see [C# IntelliSense](../ide/visual-csharp-intellisense.md), [Visual C++ IntelliSense](../ide/visual-cpp-intellisense.md), [JavaScript IntelliSense](../ide/javascript-intellisense.md), and [Visual Basic IntelliSense](../ide/visual-basic-specific-intellisense.md). The following illustration shows how IntelliSense displays a member list for a type:
+   IntelliSense is a term for a set of features that displays information about your code directly in the editor and, in some cases, write small bits of code for you. It's like having basic documentation inline in the editor, which saves you from having to look up type information elsewhere. IntelliSense features vary by language. For more information, see [C# IntelliSense](../../ide/visual-csharp-intellisense.md), [Visual C++ IntelliSense](../../ide/visual-cpp-intellisense.md), [JavaScript IntelliSense](../../ide/javascript-intellisense.md), and [Visual Basic IntelliSense](../../ide/visual-basic-specific-intellisense.md). The following illustration shows how IntelliSense displays a member list for a type:
 
    ![Visual Studio Member List](media/intellisense-list-members.png)
 
-- [Quick Launch](../ide/reference/quick-launch-environment-options-dialog-box.md)
+- [Quick Launch](../../ide/reference/quick-launch-environment-options-dialog-box.md)
 
    Visual Studio can seem overwhelming at times with so many menus, options, and properties. The **Quick Launch** search box is a great way to rapidly find what you need in Visual Studio. When you start typing the name of something you're looking for, Visual Studio lists results that take you exactly where you need to go. If you need to add functionality to Visual Studio, for example to add support for an additional programming language, **Quick Launch** provides results that open Visual Studio Installer to install a workload or individual component.
 
    ![Quick Launch search box in Visual Studio](media/quick-launch-nuget.png)
 
-- Squiggles and [Quick Actions](../ide/quick-actions.md)
+- Squiggles and [Quick Actions](../../ide/quick-actions.md)
 
    Squiggles are wavy underlines that alert you to errors or potential problems in your code as you type. These visual clues enable you to fix problems immediately without waiting for the error to be discovered during build or when you run the program. If you hover over a squiggle, you see additional information about the error. A light bulb may also appear in the left margin with actions, known as Quick Actions, to fix the error.
 
    ![Squiggles in Visual Studio](media/squiggles-error.png)
 
-- [Call Hierarchy](../ide/reference/call-hierarchy.md)
+- [Call Hierarchy](../../ide/reference/call-hierarchy.md)
 
    The **Call Hierarchy** window shows the methods that call a selected method. This can be useful information when you're thinking about changing or removing the method, or when you're trying to track down a bug.
 
    ![Call Hierarchy window in Visual Studio](media/call-hierarchy.png)
 
-- [CodeLens](../ide/find-code-changes-and-other-history-with-codelens.md)
+- [CodeLens](../../ide/find-code-changes-and-other-history-with-codelens.md)
 
    CodeLens helps you find references to your code, changes to your code, linked bugs, work items, code reviews, and unit tests, all without leaving the editor.
 
@@ -77,13 +77,13 @@ Some of the popular features in Visual Studio that help you to be more productiv
    > [!NOTE]
    > CodeLens is not available in Visual Studio 2017 Community edition.
 
-- [Go To Definition](../ide/go-to-and-peek-definition.md)
+- [Go To Definition](../../ide/go-to-and-peek-definition.md)
 
    The Go To Definition feature takes you directly to the location where a function or type is defined.
 
    ![Go to Definition in Visual Studio](media/go-to-definition-menu.png)
 
-- [Peek Definition](../ide/how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md)
+- [Peek Definition](../../ide/how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md)
 
    The **Peek Definition** window shows the definition of a method or type without actually opening a separate file.
 
@@ -91,13 +91,13 @@ Some of the popular features in Visual Studio that help you to be more productiv
 
 ## Install the Visual Studio IDE
 
-This overview article walks you through creating a simple project and trying some of the things you can do with Visual Studio, like changing the color theme, using [IntelliSense](../ide/using-intellisense.md) as a coding aid, and debugging an app to see the value of a variable during the program's execution. To get started, [download Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) and install it on your system.
+This overview article walks you through creating a simple project and trying some of the things you can do with Visual Studio, like changing the color theme, using [IntelliSense](../../ide/using-intellisense.md) as a coding aid, and debugging an app to see the value of a variable during the program's execution. To get started, [download Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) and install it on your system.
 
 The modular installer enables you to choose and install *workloads*, which are groups of features needed for the programming language or platform you prefer. To follow the steps for [creating a program](#create-a-program), be sure to select the **.NET Core cross-platform development** workload during installation.
 
-![.NET Core cross-platform development workload in Visual Studio Installer](../ide/media/dotnet-core-cross-platform-workload.png)
+![.NET Core cross-platform development workload in Visual Studio Installer](../../ide/media/dotnet-core-cross-platform-workload.png)
 
-When you start Visual Studio for the first time, you can optionally [sign in](../ide/signing-in-to-visual-studio.md) using your Microsoft account, or your work or school account.
+When you start Visual Studio for the first time, you can optionally [sign in](../../ide/signing-in-to-visual-studio.md) using your Microsoft account, or your work or school account.
 
 ## Customize Visual Studio
 
@@ -115,7 +115,7 @@ To change to the **Dark** theme:
 
    The color theme for the entire IDE changes to **Dark**.
 
-   ![Visual Studio in dark theme](../ide/media/quickstart-personalize-dark-theme.png)
+   ![Visual Studio in dark theme](../../ide/media/quickstart-personalize-dark-theme.png)
 
 ### Select environment settings
 
@@ -131,7 +131,7 @@ Next we'll configure Visual Studio to use environment settings tailored to Visua
 
 5. On the **Reset Complete** page, choose **Close**.
 
-To learn about other ways you can personalize the IDE, see [Personalize Visual Studio](../ide/personalizing-the-visual-studio-ide.md).
+To learn about other ways you can personalize the IDE, see [Personalize Visual Studio](../../ide/personalizing-the-visual-studio-ide.md).
 
 ## Create a program
 
@@ -164,7 +164,7 @@ Let's dive in and create a simple program.
 
    Visual Studio builds the app, and a console window opens with the message **Hello World!**. You now have a running app!
 
-   ![Console window](../ide/media/overview-console-window.png)
+   ![Console window](../../ide/media/overview-console-window.png)
 
 4. To close the console window, press any key on your keyboard.
 
@@ -197,7 +197,7 @@ Let's dive in and create a simple program.
 
 ## Use refactoring and IntelliSense
 
-Let's look at a couple of the ways that [refactoring](../ide/refactoring-in-visual-studio.md) and [IntelliSense](../ide/using-intellisense.md) can help you code more efficiently.
+Let's look at a couple of the ways that [refactoring](../../ide/refactoring-in-visual-studio.md) and [IntelliSense](../../ide/using-intellisense.md) can help you code more efficiently.
 
 First, let's rename the `name` variable:
 
@@ -207,7 +207,7 @@ First, let's rename the `name` variable:
 
    Notice that a gray box appears around the variable, and a light bulb appears in the margin.
 
-3. Select the light bulb icon to show the available [Quick Actions](../ide/quick-actions.md). Select **Rename 'name' to 'username'**.
+3. Select the light bulb icon to show the available [Quick Actions](../../ide/quick-actions.md). Select **Rename 'name' to 'username'**.
 
    ![Rename action in Visual Studio](media/rename-quick-action.png)
 
@@ -240,7 +240,7 @@ First, let's rename the `name` variable:
 
    Notice that a little screwdriver icon appears in the margin on that line.
 
-8. Click the screwdriver icon to see what suggestions Visual Studio has available. In this case, it's showing the [Inline temporary variable](../ide/reference/inline-temporary-variable.md) refactoring to remove a line of code without changing the overall behavior of the code:
+8. Click the screwdriver icon to see what suggestions Visual Studio has available. In this case, it's showing the [Inline temporary variable](../../ide/reference/inline-temporary-variable.md) refactoring to remove a line of code without changing the overall behavior of the code:
 
    ![Inline temporary variable refactoring in Visual Studio](media/inline-temporary-variable-refactoring.png)
 
@@ -281,14 +281,14 @@ To get more details about debugging in Visual Studio, see [Debugger feature tour
 Explore Visual Studio further by following along with one of these introductory articles:
 
 > [!div class="nextstepaction"]
-> [Learn to use the code editor](../ide/quickstart-editor.md?toc=/visualstudio/visual-basic/toc.json&bc=/visualstudio/visual-basic/breadcrumb/toc.json)
+> [Learn to use the code editor](../../ide/quickstart-editor.md?toc=/visualstudio/visual-basic/toc.json&bc=/visualstudio/visual-basic/breadcrumb/toc.json)
 
 > [!div class="nextstepaction"]
 > [Learn about projects and solutions](quickstart-projects-solutions.md)
 
 ## See also
 
-- Discover [more Visual Studio features](../ide/advanced-feature-overview.md)
+- Discover [more Visual Studio features](../../ide/advanced-feature-overview.md)
 - Visit [visualstudio.microsoft.com](https://visualstudio.microsoft.com/vs/)
 - Read [The Visual Studio blog](https://blogs.msdn.microsoft.com/visualstudio/)
 - Check out the free Visual Studio courses at [Microsoft Virtual Academy](https://mva.microsoft.com/product-training/visual-studio-courses#!index=2&lang=1033)

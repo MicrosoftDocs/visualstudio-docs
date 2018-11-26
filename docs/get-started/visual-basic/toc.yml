@@ -10,23 +10,23 @@
     - name: About projects and solutions
       href: quickstart-projects-solutions.md
     - name: More Visual Studio features
-      href: ../ide/advanced-feature-overview.md?toc=/visualstudio/visual-basic/toc.json&bc=/visualstudio/visual-basic/breadcrumb/toc.json
+      href: ../../ide/advanced-feature-overview.md?toc=/visualstudio/visual-basic/toc.json&bc=/visualstudio/visual-basic/breadcrumb/toc.json
   - name: Create a console app
-    href: ../ide/tutorial-visual-basic-console.md
+    href: ../../ide/tutorial-visual-basic-console.md
   - name: Create a UWP app
     href: /windows/uwp/get-started/create-a-hello-world-app-xaml-universal?toc=/visualstudio/visual-basic/toc.json&bc=/visualstudio/visual-basic/breadcrumb/toc.json
   - name: Create a WPF app
-    href: ../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md?toc=/visualstudio/visual-basic/toc.json&bc=/visualstudio/visual-basic/breadcrumb/toc.json
+    href: ../../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md?toc=/visualstudio/visual-basic/toc.json&bc=/visualstudio/visual-basic/breadcrumb/toc.json
   - name: Create a web app
     href: /aspnet/web-pages/overview/getting-started/introducing-razor-syntax-vb
   - name: Create a Windows Forms app
-    href: ../ide/create-a-visual-basic-winform-in-visual-studio.md?toc=/visualstudio/visual-basic/toc.json&bc=/visualstudio/visual-basic/breadcrumb/toc.json
+    href: ../../ide/create-a-visual-basic-winform-in-visual-studio.md?toc=/visualstudio/visual-basic/toc.json&bc=/visualstudio/visual-basic/breadcrumb/toc.json
   - name: 'Learn Visual Studio'
     items:
     - name: Write and edit code
       href: quickstart-editor.md
     - name: Compile and build
-      href: ../ide/compiling-and-building-in-visual-studio.md
+      href: ../../ide/compiling-and-building-in-visual-studio.md
     - name: Debug your code
       href: ../debugger/getting-started-with-the-debugger.md?toc=/visualstudio/visual-basic/toc.json&bc=/visualstudio/visual-basic/breadcrumb/toc.json
     - name: Unit testing

@@ -21,7 +21,7 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 We'll construct a solution and project from scratch as an educational exercise to understand the concept of a project. In your general use of Visual Studio, you'll likely use some of the various project *templates* that Visual Studio offers when you create a new project.
 
 > [!NOTE]
-> Solutions and projects aren't required to develop apps in Visual Studio. You can also just open a folder that contains code and start coding, building, and debugging. For example, if you clone a [GitHub](https://github.com/) repo, it might not contain Visual Studio projects and solutions. For more information, see [Develop code in Visual Studio without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md).
+> Solutions and projects aren't required to develop apps in Visual Studio. You can also just open a folder that contains code and start coding, building, and debugging. For example, if you clone a [GitHub](https://github.com/) repo, it might not contain Visual Studio projects and solutions. For more information, see [Develop code in Visual Studio without projects or solutions](../../ide/develop-code-in-visual-studio-without-projects-or-solutions.md).
 
 ## Solutions and projects
 
@@ -39,7 +39,7 @@ We'll start our exploration by creating an empty solution. After you get to know
 
 1. In the left pane, expand **Other Project Types**, then choose **Visual Studio Solutions**. In the center pane, choose the **Blank Solution** template. Name your solution **QuickSolution**, then choose the **OK** button.
 
-   ![Blank solution template in Visual Studio](../ide/media/quickstart-projects-new-solution.png)
+   ![Blank solution template in Visual Studio](../../ide/media/quickstart-projects-new-solution.png)
 
    The **Start Page** closes, and a solution appears in **Solution Explorer** on the right-hand side of the Visual Studio window. You'll probably use **Solution Explorer** often, to browse the contents of your projects.
 
@@ -58,7 +58,7 @@ Now let's add our first project to the solution. We'll start with an empty proje
    > [!NOTE]
    > If you don't see **Visual C#** in the left pane of the dialog box, you need to install the **.NET desktop development** Visual Studio *workload*. Visual Studio uses workload-based installation to only install the components you need for the type of development you do. An easy way to install a new workload is to choose the **Open Visual Studio Installer** link in the bottom left corner of the **Add New Project** dialog box. After Visual Studio Installer launches, choose the **.NET desktop development** workload and then the **Modify** button.
 
-   ![Open Visual Studio Installer link](../ide/media/quickstart-projects-open-installer.png)
+   ![Open Visual Studio Installer link](../../ide/media/quickstart-projects-open-installer.png)
 
 ## Add an item to the project
 
@@ -182,7 +182,7 @@ The line in the *Calendar.cs* file that contains the <xref:System.Runtime.Compil
 
 If you want to check that your unit test is working, choose **Test** > **Run** > **All Tests** from the menu bar. A window called **Test Explorer** opens, and you should see that the **TestGetCurrentDate** test passes.
 
-![Text Explorer in Visual Studio showing passed test](../ide/media/quickstart-projects-test-explorer.png)
+![Text Explorer in Visual Studio showing passed test](../../ide/media/quickstart-projects-test-explorer.png)
 
 > [!TIP]
 > If **Test Explorer** doesn't open automatically, open it by choosing **Test** > **Windows** > **Test Explorer** from the menu bar.
@@ -193,8 +193,8 @@ If you want to further explore Visual Studio, consider creating an app by follow
 
 ## See also
 
-- [Create projects and solutions](../ide/creating-solutions-and-projects.md)
-- [Manage project and solution properties](../ide/managing-project-and-solution-properties.md)
-- [Manage references in a project](../ide/managing-references-in-a-project.md)
-- [Develop code in Visual Studio without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md)
-- [Visual Studio IDE overview](../ide/visual-studio-ide.md)
+- [Create projects and solutions](../../ide/creating-solutions-and-projects.md)
+- [Manage project and solution properties](../../ide/managing-project-and-solution-properties.md)
+- [Manage references in a project](../../ide/managing-references-in-a-project.md)
+- [Develop code in Visual Studio without projects or solutions](../../ide/develop-code-in-visual-studio-without-projects-or-solutions.md)
+- [Visual Studio IDE overview](../../ide/visual-studio-ide.md)
