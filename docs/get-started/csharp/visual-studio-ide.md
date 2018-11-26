@@ -267,7 +267,7 @@ Let's set a breakpoint to see the value of the `username` variable while the pro
 
 1. To let the program run to completion, press **F5** again.
 
-To get more details about debugging in Visual Studio, see [Debugger feature tour](../debugger/debugger-feature-tour.md).
+To get more details about debugging in Visual Studio, see [Debugger feature tour](../../debugger/debugger-feature-tour.md).
 
 ## Customize Visual Studio
 
