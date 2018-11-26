@@ -18,7 +18,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Debug at design time in Visual Studio
+# Debug at design time in Visual Studio (C#, C++, Visual Basic, F#)
 
 To debug code at design time instead of while an app is running, you can use the **Immediate** window. 
 
