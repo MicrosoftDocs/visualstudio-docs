@@ -37,7 +37,7 @@ namespace AutoImplMutable
     {
         static void Main()
         {
-            // Intialize a new object.
+            // Initialize a new object.
             Customer cust1 = new Customer ( 4987.63, "Northwind",90108 );
 
             //Modify a property
@@ -395,7 +395,7 @@ namespace csrefLINQExamples
                 }
             }
 
-            //Object and collection intializers
+            //Object and collection initializers
 
             //<snippet46>
             // The following code consolidates examples from the topic.
@@ -714,7 +714,7 @@ namespace csrefLINQExamples
              */
             //</snippet65>
 
-            //<s n i p p e t66>
+            //<snippet66>
             class Test2
             {
                 // Func<int, bool> f;
@@ -741,7 +741,7 @@ namespace csrefLINQExamples
                 }
 
             }
-            //</s n i p p e t66>
+            //</snippet66>
 
             //reserving numbers 67-79 for anonymous methods
 
@@ -1010,7 +1010,7 @@ namespace csrefLINQExamples
                 //</snippet83>
             }
 
-            //<s n i p p e t 8 4 >
+            //<snippet84>
             class DynamicPreds2
             {
                 #region Data
@@ -1077,7 +1077,7 @@ namespace csrefLINQExamples
                     Console.ReadKey();
                 }
             }
-            //</s n i p p e t 84>
+            //</snippet84>
 
 }
 

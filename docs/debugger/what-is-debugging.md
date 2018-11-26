@@ -43,7 +43,7 @@ The debugger is an essential tool to find and fix bugs in your apps. However, co
 
 ## Next steps
 
-In this article, you've learned a few general debugging concepts. Next, you can start learning how to debug with Visual Studio and how to write code with less bugs.
+In this article, you've learned a few general debugging concepts. Next, you can start learning how to debug with Visual Studio and how to write code with less bugs. The following article shows C# code examples, but the concepts apply to all languages supported by Visual Studio.
 
 > [!div class="nextstepaction"]
 > [Write better C# code using Visual Studio](../debugger/write-better-code-with-visual-studio.md)

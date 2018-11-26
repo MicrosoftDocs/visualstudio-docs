@@ -93,6 +93,27 @@
       items:
       - name: Visual Studio workload and component IDs
         href: install/workload-and-component-ids.md
+        items:
+        - name: Visual Studio Enterprise 2017
+          href: install/workload-component-id-vs-enterprise.md
+        - name: Visual Studio Professional 2017
+          href: install/workload-component-id-vs-professional.md
+        - name: Visual Studio Community 2017
+          href: install/workload-component-id-vs-community.md
+        - name: Visual Studio Team Explorer 2017
+          href: install/workload-component-id-vs-team-explorer.md
+        - name: Visual Studio Desktop Express 2017
+          href: install/workload-component-id-vs-express.md
+        - name: Visual Studio Build Tools 2017
+          href: install/workload-component-id-vs-build-tools.md
+        - name: Visual Studio Test Agent 2017
+          href: install/workload-component-id-vs-test-agent.md
+        - name: Visual Studio Test Controller 2017
+          href: install/workload-component-id-vs-test-controller.md
+        - name: Visual Studio Test Professional 2017
+          href: install/workload-component-id-vs-test-professional.md
+        - name: Visual Studio Feedback Client 2017
+          href: install/workload-component-id-vs-feedback-client.md
       - name: Visual Studio build numbers and release dates
         href: install/visual-studio-build-numbers-and-release-dates.md
   - name: Use Visual Studio from an Azure virtual machine
@@ -571,49 +592,51 @@
     - name: Build and clean projects and solutions
       href: ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md
       items:
-      - name: Change the Build Output Directory
+      - name: Change the build output directory
         href: ide/how-to-change-the-build-output-directory.md
-      - name: Build to a Common Output Directory
+      - name: Build to a common output directory
         href: ide/how-to-build-to-a-common-output-directory.md
-      - name: Specify Custom Build Events
+      - name: Specify custom build events
         href: ide/specifying-custom-build-events-in-visual-studio.md
-      - name: Set Multiple Startup Projects
+      - name: Set multiple startup projects
         href: ide/how-to-set-multiple-startup-projects.md
-      - name: Create and Remove Project Dependencies
+      - name: Create and remove project dependencies
         href: ide/how-to-create-and-remove-project-dependencies.md
-      - name: View, Save, and Configure Build Log Files
+      - name: View, save, and configure build log files
         href: ide/how-to-view-save-and-configure-build-log-files.md
-      - name: Exclude Projects from a Build
+      - name: Exclude projects from a build
         href: ide/how-to-exclude-projects-from-a-build.md
-      - name: Suppress Compiler Warnings
+      - name: Suppress compiler warnings
         href: ide/how-to-suppress-compiler-warnings.md
-    - name: Build Configurations
+    - name: Build actions
+      href: ide/build-actions.md
+    - name: Build configurations
       href: ide/understanding-build-configurations.md
       items:
-      - name: Create and Edit Configurations
+      - name: Create and edit configurations
         href: ide/how-to-create-and-edit-configurations.md
-      - name: Manage Build Configurations with Visual Basic Developer Settings Applied
+      - name: Manage build configurations with Visual Basic developer settings
         href: ide/how-to-manage-build-configurations-with-visual-basic-developer-settings-applied.md
-      - name: Build Multiple Configurations Simultaneously
+      - name: Build multiple configurations simultaneously
         href: ide/how-to-build-multiple-configurations-simultaneously.md
-    - name: Build Platforms
+    - name: Build platforms
       href: ide/understanding-build-platforms.md
       items:
-      - name: Configure Projects to Target Platforms
+      - name: Configure projects to target a platform
         href: ide/how-to-configure-projects-to-target-platforms.md
-      - name: Configure Projects to Target Multiple Platforms
+      - name: Configure projects to target multiple platforms
         href: ide/how-to-configure-projects-to-target-multiple-platforms.md
     - name: MSBuild...
       href: msbuild/msbuild.md
     - name: Azure Pipelines and TFS...
       href: /azure/devops/pipelines/index?view=vsts
-    - name: Specify Build Events (Visual Basic)
+    - name: Specify build events (Visual Basic)
       href: ide/how-to-specify-build-events-visual-basic.md
-    - name: Specify Build Events (C#)
+    - name: Specify build events (C#)
       href: ide/how-to-specify-build-events-csharp.md
-    - name: Configuring Warnings in Visual Basic
+    - name: Configure warnings in Visual Basic
       href: ide/configuring-warnings-in-visual-basic.md
-    - name: "Walkthrough: Create a Multiple-Computer Build Environment"
+    - name: "Walkthrough: Create a multiple-computer build environment"
       href: ide/walkthrough-creating-a-multiple-computer-build-environment.md
   - name: Debug...
     href: debugger/index.md
@@ -1082,12 +1105,12 @@
       href: /visualstudio/productinfo/vs-servicing-vs?context=visualstudio/default&contextView=vs-2017
     - name: Developer Community data privacy
       href: ide/developer-community-privacy.md
-    - name: How to report a problem in Visual Studio
-      href: ide/how-to-report-a-problem-with-visual-studio-2017.md
-    - name: Understanding Report a problem
-      href: ide/report-a-problem.md
-    - name: Understanding Suggest a feature
-      href: ide/suggest-a-feature.md
+  - name: How to report a problem in Visual Studio
+    href: ide/how-to-report-a-problem-with-visual-studio-2017.md
+  - name: "Overview: Report a problem"
+    href: ide/report-a-problem.md
+  - name: "Overview: Suggest a feature"
+    href: ide/suggest-a-feature.md
   - name: Customer Experience Improvement Program
     href: ide/visual-studio-experience-improvement-program.md
     items:

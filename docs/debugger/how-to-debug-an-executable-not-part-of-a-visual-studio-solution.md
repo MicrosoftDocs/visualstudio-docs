@@ -21,7 +21,8 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Debug an executable that is not part of a Visual Studio solution
+# How to: Debug an executable that is not part of a Visual Studio solution (C#, C++, Visual Basic, F#)
+
 Sometimes, you may want to debug an executable (.exe file) that is not part of a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project. It may be an executable you created outside of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] or an executable you received from someone else.  
   
 The usual answer to this problem is to start the executable outside of Visual Studio and attach to it using the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugger. For more information, see [Attach to Running Processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md).  

@@ -1,8 +1,8 @@
 ---
 title: Let Visual Studio help you write C# code with less bugs
-description: "Understand when to use the debugger to debug your app"
+description: "Understand how to write better code with less bugs"
 ms.custom: "debug-experiments"
-ms.date: "10/30/2018"
+ms.date: "11/20/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -13,7 +13,7 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Write better C# code using Visual Studio
+# Fix bugs by writing better C# code using Visual Studio
 
 Debugging code can be a time-consuming--and sometimes frustrating--task. It takes time to learn how to debug effectively. A powerful IDE like Visual Studio can make your job a lot easier. An IDE can help you debug your code more quickly, and not just that, but it can also help you write better code with fewer bugs. Our aim in this article is to give you a holistic view of the debugging process, so you will know when to use the code analyzer, when to use the debugger, and when to use other tools.
 
@@ -160,7 +160,7 @@ Here are a couple of important tips for exception handling:
     }
     ```
 
-* For unfamiliar methods that you include in your app, check the documentation to see what exceptions the method is likely to throw. This can be critical information for proper error handling and for debugging your app.
+* For unfamiliar functions that you include in your app, expecially those interacting with external data (such as a web request), check the documentation to see what exceptions the function is likely to throw. This can be critical information for proper error handling and for debugging your app.
 
 For the sample app, fix the `SerializationException` in the `GetJsonData` method by changing `4o` to `40`.
 
@@ -211,7 +211,10 @@ When you restart, the debugger pauses on the `assert` statement, because the exp
 
 ![Assert resolves to false](../debugger/media/write-better-code-using-assert.png)
 
-The `assert` error tells you that there's a problem that you need to investigate. `assert` can cover many scenarios where you don't necessarily see an exception. In this example, the user won't see an exception (in other scenarios a `NullReferenceException` may occur), and a `null` value gets added as `firstname` in your database. This may cause problems later on (such as you see in the console output) and might be harder to debug.
+The `assert` error tells you that there's a problem that you need to investigate. `assert` can cover many scenarios where you don't necessarily see an exception. In this example, the user won't see an exception, and a `null` value gets added as `firstname` in your list of records. This may cause problems later on (such as you see in the console output) and might be harder to debug.
+
+> [!NOTE]
+> In scenarios where you call a method on the `null` value, a `NullReferenceException` results. You normally want to avoid using a `try/catch` block for a general exception, that is, an exception that is not tied to the specific library function. Any object can throw a `NullReferenceException`. Check the documentation for the library function if you are not sure.
 
 During the debugging process, it's good to keep a particular `assert` statement until you know you need to replace it with an actual code fix. Let's say you decide that the user might encounter the exception in a release build of the app. In that case, you must refactor code to make sure that your app doesn't throw a fatal exception or result in some other error. So, to fix this code, replace the following code:
 
@@ -270,7 +273,7 @@ Bugs of another kind include inefficient code that causes your app to run slowly
 
 ## <a name="sample-code"></a> Sample code
 
-The following code has some bugs that you can fix using the Visual Studio IDE. The app here is a simple app that simulates getting JSON data from some operation, deserializing the data to an object, and updating a simple in-memory database with the new data.
+The following code has some bugs that you can fix using the Visual Studio IDE. The app here is a simple app that simulates getting JSON data from some operation, deserializing the data to an object, and updating a simple list with the new data.
 
 ```csharp
 using System;
