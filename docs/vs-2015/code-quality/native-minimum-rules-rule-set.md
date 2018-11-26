@@ -102,7 +102,7 @@ The Microsoft Native Minimum Rules focus on the most critical problems in your n
 |                      [C28215](../code-quality/c28215.md)                       |                    The typefix cannot be applied to a parameter that already has a typefix                    |
 |                      [C28216](../code-quality/c28216.md)                       |        The checkReturn annotation only applies to postconditions for the specific function parameter.         |
 |                      [C28217](../code-quality/c28217.md)                       |            For function, the number of parameters to annotation does not match that found at file             |
-|                      [C28218](../code-quality/c28218.md)                       |             For function paramteer, the annotation's parameter does not match that found at file              |
+|                      [C28218](../code-quality/c28218.md)                       |             For function parameter, the annotation's parameter does not match that found at file              |
 |                      [C28219](../code-quality/c28219.md)                       |                 Member of enumeration expected for annotation the parameter in the annotation                 |
 |                      [C28220](../code-quality/c28220.md)                       |                  Integer expression expected for annotation the parameter in the annotation                   |
 |                      [C28221](../code-quality/c28221.md)                       |                        String expression expected for the parameter in the annotation                         |
