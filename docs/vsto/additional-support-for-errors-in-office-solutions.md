@@ -54,8 +54,8 @@ helpviewer_keywords:
   - "Office development in Visual Studio, troubleshooting"
   - "troubleshooting [Office development in Visual Studio]"
   - "Office development in Visual Studio, errors"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
