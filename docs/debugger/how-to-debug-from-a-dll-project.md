@@ -1,7 +1,7 @@
 ---
 title: "How to: Debug from a DLL Project | Microsoft Docs"
 ms.custom: ""
-ms.date: "05/24/2018"
+ms.date: "10/10/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 

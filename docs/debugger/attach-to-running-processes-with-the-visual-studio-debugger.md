@@ -1,7 +1,7 @@
 ---
 title: "Attach to running processes with the debugger in Visual Studio | Microsoft Docs"
 ms.custom: "H1Hack27Feb2017"
-ms.date: "06/20/2018"
+ms.date: "09/27/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
