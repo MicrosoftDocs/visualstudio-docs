@@ -50,6 +50,6 @@ Visual Studio offers a variety of text editor options that apply to specific pro
 
 ## See also
 
-- [Customizing the Editor](../../ide/customizing-the-editor.md)
+- [Customize the editor](../../ide/customizing-the-editor.md)
 - [Create portable, custom editor settings with EditorConfig](../../ide/create-portable-custom-editor-options.md)
-- [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md)&mdash;Provides links to topics that explain how to customize your settings, key bindings, and other features of the integrated development environment (IDE).
+- [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md)
