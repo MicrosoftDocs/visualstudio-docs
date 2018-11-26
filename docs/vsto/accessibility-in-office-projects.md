@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "shortcut keys [Office development in Visual Studio]"
   - "Ribbon [Office development in Visual Studio], shortcut keys"
   - "accessibility [Office development in Visual Studio]"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload:
   - "office"
