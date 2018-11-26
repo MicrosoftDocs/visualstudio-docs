@@ -42,7 +42,7 @@ For most basic tasks, the IDE for Visual Studio and Blend for Visual Studio shar
 
      ![File reload experience](../designers/media/blendfilereload.png)
 
-- **Synchronized Layouts and Settings:** Custom layouts enable you to save and apply tool window layout customizations. Visual Studio synchronizes these customizations and preferences for both Visual Studio and Blend for Visual Studio across machines when you sign in with the same Microsoft account. See [Synchronize settings across multiple computers](../ide/synchronized-settings-in-visual-studio.md).
+- **Synchronized Layouts and Settings:** Custom layouts enable you to save and apply tool window layout customizations. Visual Studio synchronizes these customizations and preferences for both Visual Studio and Blend for Visual Studio across machines when you sign in with the same Microsoft account. See [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
 
 - **A common Solution Explorer:** **Solution Explorer** provides you with an organized view of your projects and their files, as well as ready access to the commands associated with them. With Solution Explorer, it is easier to work with big enterprise projects. See [Solutions and projects](../ide/solutions-and-projects-in-visual-studio.md).
 

@@ -19,41 +19,43 @@ ms.workload:
   - "multiple"
 ---
 # Options, Text Editor, File Extension
-
 This Options dialog allows you to specify how all files with certain file extensions will be handled by the Visual Studio integrated development environment (IDE). For each **Extension** that you enter, you can select an Editing Experience. This allows you to choose the IDE editor or designer in which documents of a certain type will open. To display these options, choose **Options** from the **Tools** menu, expand the **Text Editor** node, and select **File Extension**.
 
-When you select an option "with Encoding," a dialog will be displayed whenever you open a document of that type that allows you to select an encoding scheme for that document. This can be helpful if you are preparing versions of your project documents for use on different platforms or in different target languages.
+ When you select an option "with Encoding," a dialog will be displayed whenever you open a document of that type that allows you to select an encoding scheme for that document. This can be helpful if you are preparing versions of your project documents for use on different platforms or in different target languages.
 
-## UIElement list
+> [!NOTE]
+> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).
 
-**Extension**
 
-Type the file extension whose Editing Experience in the IDE you wish to define.
+## UIElement List
+ **Extension**
 
-**Editor**
+ Type the file extension whose Editing Experience in the IDE you wish to define.
 
- Select the IDE editor or designer in which documents with this file extension will open. When you select an option "with ncoding," a dialog will be displayed whenever you open such a document that allows you to select an encoding scheme.
+ **Editor**
 
-**Add**
+ Select the IDE editor or designer in which documents with this file extension will open. When you select an option "with Encoding," a dialog will be displayed whenever you open such a document that allows you to select an encoding scheme.
 
-Adds an entry that includes the specified **Extension** and **Editing Experience** to the Extension List.
+ **Add**
 
-**Remove**
+ Adds an entry that includes the specified **Extension** and **Editing Experience** to the Extension List.
 
-Deletes the selected entry from the Extension List.
+ **Remove**
 
-**Extension List**
+ Deletes the selected entry from the Extension List.
 
-Lists all extensions for which an Editing Experience has been specified.
+ **Extension List**
 
-**Map extensionless files to**
+ Lists all extensions for which an Editing Experience has been specified.
 
-Select this option if you wish to specify how files without an extension will be handled by the IDE.
+ **Map extensionless files to**
 
-**Extensionless file options**
+ Select this option if you wish to specify how files without an extension will be handled by the IDE.
 
-Provides the same list as **Editor**. Select the IDE editor or designer in which documents without file extensions will open.
+ **Extensionless file options**
 
-## See also
+ Provides the same list as **Editor**. Select the IDE editor or designer in which documents without file extensions will open.
+
+## See Also
 
 - [How to: Manage Editor Modes](../../ide/how-to-manage-editor-modes.md)

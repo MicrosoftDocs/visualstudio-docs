@@ -15,8 +15,11 @@ ms.workload:
   - "multiple"
 ---
 # Environment Options Dialog Box
-
 You can use the pages in the **Environment** folder in the **Options** dialog box to set how certain elements of the integrated development environment (IDE) display and behave. You can access the Environment pages by, on the menu bar, choosing **Tools**, **Options**, and then selecting **Environment**.
+
+> [!NOTE]
+> The dialog boxes and menu commands that appear on your computer might differ from those that are described in Help, depending on your active settings and the edition of Visual Studio that you are using. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).
+
 
 |For information about how to|See|
 | - |---------|
@@ -36,6 +39,6 @@ You can use the pages in the **Environment** folder in the **Options** dialog bo
 |Learn how to set options for tasks and task lists|[Task List, Environment, Options Dialog Box](../../ide/reference/task-list-environment-options-dialog-box.md)|
 |Change your default Home and Search pages, changing the system source editor, and configuring Internet Explorer options.|[Web Browser, Environment, Options Dialog Box](../../ide/reference/web-browser-environment-options-dialog-box.md)|
 
-## See also
+## See Also
 
 - [Options Dialog Box](../../ide/reference/options-dialog-box-visual-studio.md)
