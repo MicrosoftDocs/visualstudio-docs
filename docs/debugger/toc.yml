@@ -4,7 +4,7 @@
   items:
   - name: "What is debugging?"
     href: what-is-debugging.md
-  - name: "Write better C# code with Visual Studio"
+  - name: "Fix bugs by writing better C# code"
     href: write-better-code-with-visual-studio.md
 - name: Quickstarts
   items:
