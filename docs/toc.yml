@@ -678,20 +678,22 @@
     items:
     - name: Startup time
       href: ide/optimize-visual-studio-startup-time.md
+    - name: Load a filtered solution
+      href: ide/filtered-solutions.md
     - name: Tips and tricks
       href: ide/visual-studio-performance-tips-and-tricks.md
   - name: Manage accessibility features
     href: ide/reference/accessibility-features-of-visual-studio.md
     items:
-    - name: Set IDE Accessibility Options
+    - name: Set IDE accessibility options
       href: ide/reference/how-to-set-ide-accessibility-options.md
-    - name: Use the Keyboard Exclusively
+    - name: Use the keyboard exclusively
       href: ide/reference/how-to-use-the-keyboard-exclusively.md
-    - name: Accessibility Tips and Tricks
+    - name: Accessibility tips and tricks
       href: ide/reference/accessibility-tips-and-tricks.md
-    - name: Accessibility Products and Services from Microsoft
+    - name: Accessibility products and services from Microsoft
       href: ide/reference/accessibility-products-and-services-from-microsoft.md
-    - name: Resources for Designing Accessible Applications
+    - name: Resources for designing accessible apps
       href: ide/reference/resources-for-designing-accessible-applications.md
   - name: Globalize and localize apps
     href: ide/globalizing-and-localizing-applications.md
