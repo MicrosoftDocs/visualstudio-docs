@@ -91,11 +91,11 @@ Namespace StrokeSnippets_VB
 
         '<Snippet23>
         Protected Overrides Sub DrawCore(ByVal context As DrawingContext, _
-                ByVal overridedAttributes As DrawingAttributes)
+                ByVal overriddenAttributes As DrawingAttributes)
 
             ' Draw the stroke. Calling base.DrawCore accomplishes the same thing.
-            Dim geometry As Geometry = GetGeometry(overridedAttributes)
-            context.DrawGeometry(New SolidColorBrush(overridedAttributes.Color), Nothing, geometry)
+            Dim geometry As Geometry = GetGeometry(overriddenAttributes)
+            context.DrawGeometry(New SolidColorBrush(overriddenAttributes.Color), Nothing, geometry)
 
             Dim points As StylusPointCollection
 
@@ -116,7 +116,7 @@ Namespace StrokeSnippets_VB
         End Sub 'DrawCore
 
         '</Snippet23>
-        Private Sub DrawSelectedStrokeAndPoints(ByVal context As DrawingContext, ByVal overridedAttributes As DrawingAttributes)
+        Private Sub DrawSelectedStrokeAndPoints(ByVal context As DrawingContext, ByVal overriddenAttributes As DrawingAttributes)
 
         End Sub 'DrawSelectedStrokeAndPoints
 

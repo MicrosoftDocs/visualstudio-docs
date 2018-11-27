@@ -23,9 +23,6 @@ Sets Visual Studio behavior related to projects and solutions. To access these o
 
 The default paths for project and template folders are set through the **Locations** tab in the same dialog box.
 
-> [!NOTE]
-> The options available in the UI might differ from what is described here, depending on your active settings or edition. This article was written with the **General Development settings** in mind. To view or change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).
-
 ## General page
 
 The following options are available on the **General** page.

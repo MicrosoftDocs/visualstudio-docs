@@ -74,7 +74,7 @@ Use the timeline to examine the work balance among threads that are involved in 
   
 If only one thread is executing at a point in time, the app may not be taking full advantage of concurrency on the system. You can use the timeline graph to examine dependencies between threads, and the temporal relationships between blocking and blocked threads. To rearrange threads, select a thread, and then select the up or down icon on the toolbar. 
 
-You can hide threads that that are not doing work or are completely blocked, because their statistics are irrelevant and can clog the reports. Hide threads by selecting their names and then selecting the **Hide selected threads** or **Hide all except selected threads** icons on the toolbar. To identify threads to hide, select the **Per Thread Summary** link at lower left. You can hide the threads that have no activity in the **Per Thread Summary** graph. 
+You can hide threads that are not doing work or are completely blocked, because their statistics are irrelevant and can clog the reports. Hide threads by selecting their names and then selecting the **Hide selected threads** or **Hide all except selected threads** icons on the toolbar. To identify threads to hide, select the **Per Thread Summary** link at lower left. You can hide the threads that have no activity in the **Per Thread Summary** graph. 
 
 ### Thread execution details  
 To get more detailed information about an execution segment, select a point on a green segment of the timeline. The Concurrency Visualizer displays a black caret above the selected point, and shows its call stack on the **Current** tab of the bottom pane. You can select multiple points on the execution segment.  
