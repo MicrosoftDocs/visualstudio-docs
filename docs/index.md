@@ -105,7 +105,7 @@ ms.topic: hub-page
                                                         <td style="border-top-color:transparent!important;padding-left:0;">
                                                             <ul class="noBullet">
                                                                 <li>
-                                                                    <a class="barLink" href="/visualstudio/ide/tutorial-csharp-aspnet-core">
+                                                                    <a class="barLink" href="/visualstudio/get-started/csharp/">
                                                                         <img src="https://docs.microsoft.com/media/logos/logo_CSharp.svg" alt="C# icon">
                                                                         C#
                                                                     </a>
@@ -116,7 +116,7 @@ ms.topic: hub-page
                                                                     </a>
                                                                 </li>
                                                                 <li>
-                                                                    <a class="barLink" href="/visualstudio/ide/tutorial-visual-basic-console">
+                                                                    <a class="barLink" href="/visualstudio/get-started/visual-basic/">
                                                                         <img src="https://docs.microsoft.com/media/logos/logo_vb.svg" alt="VB icon">
                                                                         Visual Basic
                                                                     </a>
@@ -125,7 +125,7 @@ ms.topic: hub-page
                                                         </td>
                                                         <td style="border-top-color:transparent!important;padding-left:0;">
                                                             <ul class="noBullet">                                     <li>
-                                                                    <a class="barLink" href="/cpp/build/vscpp-step-0-installation">
+                                                                    <a class="barLink" href="/cpp/get-started/">
                                                                         <img src="https://docs.microsoft.com/media/logos/logo_Cplusplus.svg" alt="C++ icon">
                                                                         C++
                                                                     </a>
