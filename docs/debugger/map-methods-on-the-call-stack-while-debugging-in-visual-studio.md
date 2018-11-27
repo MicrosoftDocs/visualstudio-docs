@@ -64,7 +64,7 @@ To get more information about an item, hover over it and look at the item's tool
 
 ![Code Map Legend](../debugger/media/debuggermap_showlegend.png "Code Map Legend")
 
->[!NOTE:]
+>[!NOTE]
 >The message **The diagram may be based on an older version of the code** at the top of the code map means that the code might have changed after you last updated the map. For example, a call on the map might not exist in code anymore. Close the message, then try rebuilding the solution before updating the map again.
 
 ## Map external code
@@ -82,7 +82,9 @@ By default, only your own code appears on the map. To see external code on the m
 
 Changing the map's layout doesn't affect the code in any way. 
 
-To control the map's layout, select the **Layout** menu on the map toolbar. In the **Layout** menu, you can:
+To control the map's layout, select the **Layout** menu on the map toolbar. 
+
+In the **Layout** menu, you can:
 
 -   Change the default layout.
 -   Stop rearranging the map automatically, by deselecting **Automatically Layout when Debugging**.
@@ -92,7 +94,9 @@ To control the map's layout, select the **Layout** menu on the map toolbar. In t
 
 You can add comments to track what's happening in the code. 
 
-To add a comment, right-click in the code map and select **Edit** > **New Comment**, then type the comment. To add a new line in a comment, press **Shift**+**Enter**.
+To add a comment, right-click in the code map and select **Edit** > **New Comment**, then type the comment. 
+
+To add a new line in a comment, press **Shift**+**Enter**.
 
  ![Add comment to call stack on code map](../debugger/media/debuggermap_addcomment.png "DebuggerMap_AddComment")
 
@@ -114,12 +118,12 @@ To go to the definition of a method in the code, double-click the method in the 
 
 To add items that you want to track to the map, right-click a method and select the items you want to track. The most recently added items appear in green.
 
-![Show fields in a method on call stack code map](../debugger/media/debuggermap_showfields.png "DebuggerMap_ShowFields")
+![Fields related to a method on call stack code map](../debugger/media/debuggermap_showedfields.png "DebuggerMap_ShowedFields")
 
 >[!NOTE]
 >By default, adding items to the map also adds the parent group nodes such as the class, namespace, and assembly. You can turn this feature off and on by selecting the **Include Parents** button on the code map toolbar, or by pressing **Ctrl** while you add items.
 
-![Fields related to a method on call stack code map](../debugger/media/debuggermap_showedfields.png "DebuggerMap_ShowedFields")
+![Show fields in a method on call stack code map](../debugger/media/debuggermap_showfields.png "DebuggerMap_ShowFields")
 
 Continue building the map to see more code.
 
@@ -142,14 +146,14 @@ Continue building the map to see more code.
 
 ## Share the map with others
 
-You can export the map, send it to others with Microsoft Outlook, save it to your solution, and check it into version control.
+You can export a map, send it to others with Microsoft Outlook, save it to your solution, and check it into version control.
 
 To share or save the map, use **Share** in the code map toolbar. 
 
 ![Share call stack code map with others](../debugger/media/debuggermap_sharewithothers.png "Share call stack code map with others")
 
 ## See also
- [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)
- [Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)
- [Find potential problems using code map analyzers](../modeling/find-potential-problems-using-code-map-analyzers.md)
- [Browse and rearrange code maps](../modeling/browse-and-rearrange-code-maps.md)
+[Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)
+[Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)
+[Find potential problems using code map analyzers](../modeling/find-potential-problems-using-code-map-analyzers.md)
+[Browse and rearrange code maps](../modeling/browse-and-rearrange-code-maps.md)
