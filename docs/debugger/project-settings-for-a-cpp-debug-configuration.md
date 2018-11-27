@@ -120,10 +120,10 @@ You can change the project settings for a C or Visual C++ debug configuration in
 > [!NOTE]
 >  The debug project settings in the **Configuration Properties/Debugging** category are different for UWP apps and for components that are written in C++. See [Start a debug session (VB, C#, C++ and XAML)](../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md).  
   
- Specify which debugger to use in the **Debugger to launch** list box. Your choice will affect which properties are visible.  
-  
- Each debug property setting is automatically written and saved to the "per-user" file (.vcxproj.user) for your solution whenever you save your solution.  
-  
+ Each debug property setting is automatically written and saved to the "per-user" file (.vcxproj.user) for your solution when you save your solution.  
+
+ Specify which debugger to use in the **Debugger to launch** list box, as described in the following table. Your choice will affect which properties are visible.  
+    
 ## Configuration Properties folder (Debugging category)  
   
 | **Setting** | **Description** |
