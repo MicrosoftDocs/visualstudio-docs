@@ -7,7 +7,7 @@ ms.technology: vs-ide-general
 helpviewer_keywords:
  - "filtered solution"
  - "solution filtering"
-author: gewarre
+author: gewarren
 ms.author: stsu
 manager: douge
 ---
@@ -15,13 +15,15 @@ manager: douge
 
 **New in Visual Studio 2019 preview 1**
 
-Use solution filtering to more quickly open large solutions that contain many projects. Solution filtering improves solution-load performance in the following ways:
+Large solutions with many projects can take a long time to open in Visual Studio. To improve performance when opening large solutions, Visual Studio 2019 preview 1 introduces *solution filtering*. Solution filtering lets you open a solution with only selective projects loaded. Loading a subset of projects in a solution decreases solution load, build, and test run time, and enables more focused review.
 
-- You can get to code faster by opening a solution without loading any of its projects, and then selectively choosing which projects to load.
+The following features are available:
 
-- When you reopen a solution locally, Visual Studio remembers which projects were loaded in the previous session.
+- You can get to code faster by opening a solution without loading any of its projects. After the solution opens, you can selectively choose which projects to load.
 
-- You can save one or more project-load configurations or share a configuration with teammates by creating a solution filter file.
+- When you reopen a solution, Visual Studio remembers which projects were loaded in your previous session and only loads those projects.
+
+- You can create a solution filter file to save one or more project-load configurations or share the configuration with teammates.
 
 ## Open a filtered solution
 
@@ -43,19 +45,19 @@ To open a solution with only some of its projects loaded, follow these steps:
 
    Visual Studio will remember which projects are loaded the next time you open the solution locally.
 
-## Toggle which projects are visible
+## Toggle unloaded project visibility
 
-You can toggle to see either all the projects in the solution or just the loaded ones. Do one of the following actions in **Solution Explorer**:
+You can choose to see either all the projects in the solution or just the loaded ones using one of the following choices in **Solution Explorer**:
 
 - Right-click on your solution and select **Show Unloaded Projects** or **Hide Unloaded Projects**.
 
-- Select the **Show All Files** button.
+- Select the **Show All Files** button to toggle the visibility of unloaded projects.
 
    ![Show All Files button in Visual Studio Solution Explorer](media/filtered-solutions/show-all-files.PNG)
 
 ## Solution filter files
 
-If you want to share your project-load configuration or commit it to source control, you can create a solution filter file (it has the extension *.slnf*). When you open this file, the solution opens in Visual Studio with the specified projects loaded and all unloaded projects hidden. You can toggle to view the unloaded projects.
+If you want to share your project-load configuration or commit it to source control, you can create a solution filter file (it has the extension *.slnf*). When you open a solution filter file, the solution opens in Visual Studio with the specified projects loaded and all the unloaded projects hidden. You can [toggle](#toggle-unloaded-project-visibility) to view the unloaded projects.
 
 Solution filter files are visually differentiated from regular solution files by the additional funnel glyph in the icon next to the solution in **Solution Explorer**. The name of the filter and the number of loaded projects are also shown next to the solution name.
 
@@ -64,7 +66,7 @@ Solution filter files are visually differentiated from regular solution files by
 > [!NOTE]
 > If new projects are added to the original solution after you create the solution filter file, they appear as unloaded projects in **Solution Explorer**.
 
-To create a solution filter file:
+### Create a solution filter file
 
 1. In **Solution Explorer**, right-click on the solution and select **Save As Solution Filter**.
 
@@ -72,9 +74,9 @@ To create a solution filter file:
 
 2. Choose a name and location for the solution filter file.
 
-   The solution filter file is added to your **Recent Projects and Solutions** list.
+After you create a solution filter file, it's added to your **Recent Projects and Solutions** list for easy access:
 
-   ![Open recent in Visual Studio](media/filtered-solutions/open-recent.png)
+![Open recent in Visual Studio](media/filtered-solutions/open-recent.png)
 
 ## See also
 
