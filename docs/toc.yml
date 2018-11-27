@@ -1,5 +1,5 @@
 - name: Visual Studio documentation
-  href: ide/index.md
+  href: ide/index.yml
 - name: Overview
   expanded: true
   items:
@@ -128,13 +128,13 @@
 - name: Tutorials by programming language
   items:
   - name: C#
-    href: csharp/
+    href: get-started/csharp/
   - name: F#
     href: /dotnet/fsharp/
   - name: Visual Basic
-    href: visual-basic/
+    href: get-started/visual-basic/
   - name: C++
-    href: /cpp/tutorials/
+    href: /cpp/get-started/tutorials/
   - name: Python
     href: python/
   - name: Node.js

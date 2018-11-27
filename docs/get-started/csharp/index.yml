@@ -1,0 +1,103 @@
+### YamlMime:YamlDocument
+documentType: LandingData
+title: Visual Studio | C#
+metadata:
+  title: C# Development with Visual Studio | Microsoft Docs
+  meta.description: Tutorials and conceptual articles about developing C# apps with Visual Studio.
+  author: ghogen
+  manager: douge
+  ms.prod: visual-studio-dev15
+  ms.technology: vs-acquisition
+  ms.topic: landing-page
+  ms.date: 10/30/2018
+  ms.author: ghogen
+  dev_langs:
+    - CSharp
+sections:
+- title: Get Started with Visual Studio
+  items:
+  - type: paragraph
+    text: 'Learn the basic essentials of the Visual Studio Integrated Development Environment (IDE)'
+  - type: list
+    style: cards
+    className: cardsM
+    columns: 3
+    items:
+    - href: visual-studio-ide.md
+      html: <p></p>
+      image:
+        src: https://docs.microsoft.com/media/logos/logo_visual-studio.svg
+      title: Tour the Visual Studio IDE
+    - href: ../../install/install-visual-studio.md
+      html: <p></p>
+      image:
+        src: https://docs.microsoft.com/media/common/i_setup.svg
+      title: Install Visual Studio
+- title: C# Tutorials
+  items:
+  - type: paragraph
+    text: 'Getting started with C# in Visual Studio'
+  - type: list
+    style: cards
+    className: cardsM
+    columns: 3
+    items:
+    - href: ../../ide/tutorial-csharp-console.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
+      html: <p>Create a simple console app that runs at the command line.</p>
+      image:
+        src: https://docs.microsoft.com/media/logos/logo_csharp.svg
+      title: Create your first C# app
+    - href: ../../ide/tutorial-csharp-aspnet-core.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
+      html: <p>Use ASP.NET Core to create a modern web app.</p>
+      image:
+        src: https://docs.microsoft.com/media/common/i_web-color.svg
+      title: Web app
+    - href: ../../ide/quickstart-uwp-csharp.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
+      html: <p>Create a Universal Windows Platform app using the latest rich UI Framework designed to make the most of Windows 10.</p>
+      image:
+        src: https://docs.microsoft.com/media/logos/logo_Windows.svg
+      title: UWP app
+    - href: ../../ide/walkthrough-create-a-simple-application-with-csharp-or-visual-basic.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
+      html: <p>Create a Windows classic desktop application using Windows Presentation Foundation, a rich UI framework.</p>
+      image:
+        src: https://docs.microsoft.com/media/logos/logo_Windows.svg
+      title: WPF app
+    - href: /dotnet/csharp/tutorials/intro-to-csharp/
+      html: <p>Learn C# using the interactive code window in the browser, without an IDE.</p>
+      image:
+        src: https://docs.microsoft.com/media/logos/logo_csharp.svg
+      title: Learn the C# language
+- title: Develop Applications
+  items:
+  - type: paragraph
+    text: 'Tutorials for using Visual Studio to develop applications in C#'
+  - type: list
+    style: cards
+    className: cardsM
+    columns: 3
+    items:
+    - href: quickstart-editor.md
+      html: <p>Learn to use the Visual Studio code editor</p>
+      image:
+        src: https://docs.microsoft.com/media/common/i_code-edit.svg
+      title: Write and edit code
+    - href: ../../ide/compiling-and-building-in-visual-studio.md
+      html: <p>Configure your compiler and build your app.</p>
+      image:
+        src: https://docs.microsoft.com/media/common/i_build.svg
+      title: Compile and build
+    - href: ../../debugger/getting-started-with-the-debugger.md
+      html: <p>Run your app under the debugger to investigate problems.</p>
+      image:
+        src: https://docs.microsoft.com/media/common/i_debug.svg
+      title: Debug
+    - href: ../../test/getting-started-with-unit-testing.md
+      html: <p>Use Visual Studio to manage unit testing and coded UI testing.</p>
+      image:
+        src: https://docs.microsoft.com/media/common/i_test.svg
+      title: Test
+    - href: ../../data-tools/create-a-sql-database-by-using-a-designer.md
+      html: <p>Create a SQL database using the Visual Studio database design tools.</p>
+      image:
+        src: https://docs.microsoft.com/media/common/i_generic-database.svg
+      title: Access data
