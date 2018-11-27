@@ -73,7 +73,7 @@ ms.topic: hub-page
                 <a href="#get-started">Get Started</a>
                 <ul id="get-started">
                     <li>
-                        <a href="#get-started1">
+                        <a href="#get-started1"></a>
                         <ul id="get-started1" class="cardsL">
                             <li>
                                 <div class="cardSize">
