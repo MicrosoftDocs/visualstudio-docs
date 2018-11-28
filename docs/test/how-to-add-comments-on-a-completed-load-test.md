@@ -19,6 +19,8 @@ The description that you enter also displays in the **Description** column that 
 
 ![Analysis dialog for adding load test notes](../test/media/ltest_ananotes.png)
 
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
+
 ## To add a comment to a load test
 
 1.  After a load test completes, or after you load a test result, in the Load Test Analyzer's toolbar, choose **Add Analysis Notes**.

@@ -16,9 +16,11 @@ ms.technology: vs-ide-test
 
 To use the **Virtual User Activity Chart** for your load test, you must configure your load test to collect full details. To configure the load test to do this, select the **All Individual Details** setting for the **Timing Details Storage** property associated with your load test. In this mode your load test will collect detailed information about every test, page, and transaction.
 
- If you are upgrading a project from a previous version of Visual Studio load test, use the steps in the following procedure to enable full detail collection.
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
- The **All Individual Details** setting for the **Timing Details Storage** property can be set to any of the following options:
+If you are upgrading a project from a previous version of Visual Studio load test, use the steps in the following procedure to enable full detail collection.
+
+The **All Individual Details** setting for the **Timing Details Storage** property can be set to any of the following options:
 
 -   **All Individual Details:** Collects and stores individual timing data for each test, transaction, and page issued during the test.
 

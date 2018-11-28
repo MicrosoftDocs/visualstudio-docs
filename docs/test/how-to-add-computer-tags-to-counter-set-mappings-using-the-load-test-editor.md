@@ -15,6 +15,8 @@ ms.technology: vs-ide-test
 
 Computer tags let you identify a computer with an easy-to-recognize name. The tags are displayed in the **Counter Set Mappings** node in the tree in the Load Test Editor. More important, the tags are displayed in Excel reports, which help stakeholders identify what role the computer has in the load test. For example, "Web Server1 in lab2" or "SQL Server2 in Phoenix office". For more information, see [Reporting load tests results for test comparisons or trend analysis](../test/compare-load-test-results.md).
 
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
+
 ## To add a tag to a computer
 
 1.  Open a load test.

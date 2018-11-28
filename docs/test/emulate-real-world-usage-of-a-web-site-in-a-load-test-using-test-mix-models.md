@@ -16,6 +16,8 @@ ms.technology: vs-ide-test
 
 You use load modeling options to more accurately predict the expected real-world usage of a website or application that you are load-testing. It is important to do this because a load test that is not based on an accurate load model can generate misleading results.
 
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
+
 ## Test mix model enhancements
 
 Using the Load Test Editor or the test mix model wizard, you can specify the following types of test mix for a load test scenario. For more information, see [Change the test mix model in a scenario](../test/edit-test-mix-models-to-specify-the-probability-of-a-virtual-user-running-a-test.md).

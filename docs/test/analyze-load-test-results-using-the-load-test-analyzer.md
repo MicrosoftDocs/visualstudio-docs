@@ -15,7 +15,11 @@ ms.technology: vs-ide-test
 ---
 # Analyze load test results using the Load Test Analyzer
 
-Find bottlenecks, identify errors, and measure improvements in your app when you use the **Load Test Analyzer**. Analyze load test results in these ways:
+Find bottlenecks, identify errors, and measure improvements in your app when you use the **Load Test Analyzer**.
+
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
+
+Analyze load test results in these ways:
 
 -   Monitor a load test when it is running.
 

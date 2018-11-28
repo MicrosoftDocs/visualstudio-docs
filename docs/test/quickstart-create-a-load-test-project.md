@@ -14,6 +14,8 @@ ms.technology: vs-ide-test
 
 In this 10-minute quickstart, you'll learn how to create and run a web performance and load test project in Visual Studio. Load tests execute web performance or unit tests to simulate many users accessing a server at the same time.
 
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
+
 > [!IMPORTANT]
 > Web performance and load test projects are only available in the Enterprise edition of Visual Studio 2017.
 

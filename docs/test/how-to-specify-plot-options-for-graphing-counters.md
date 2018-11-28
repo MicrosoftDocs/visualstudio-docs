@@ -17,6 +17,8 @@ The **Plot Options** dialog box enables you to change the color and line style o
 
 ![Plot Options dialog](../test/media/ltest_plotoptions.png)
 
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
+
 ## To specify plotting options for graphs
 
 1.  In the **Load Test Analyzer**, choose **Graphs** on the toolbar.

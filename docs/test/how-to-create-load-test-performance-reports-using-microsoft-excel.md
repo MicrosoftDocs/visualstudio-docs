@@ -14,7 +14,11 @@ ms.technology: vs-ide-test
 ---
 # How to: Create load test performance reports using Microsoft Excel
 
-You can generate Microsoft Excel load test reports that are based on two or more test results. Two types of load test reports are available:
+You can generate Microsoft Excel load test reports that are based on two or more test results.
+
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
+
+Two types of load test reports are available:
 
 -   **Run comparison** This creates a set of reports that compares the data from two load test results using tables and bar charts.
 

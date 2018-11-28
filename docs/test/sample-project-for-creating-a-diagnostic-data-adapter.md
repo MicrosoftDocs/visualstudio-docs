@@ -17,7 +17,9 @@ ms.technology: vs-ide-test
 
 "MyDiagnosticDataAdapter" is a simple diagnostic data adapter that can attach a log file to the test results when you run your tests.
 
- You will need administrative permissions on any machine where the diagnostic data collector or configuration editor is installed.
+You need administrative permissions on any machine where the diagnostic data collector or configuration editor is installed.
+
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
 ## Example data adapter
 

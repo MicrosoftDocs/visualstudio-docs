@@ -22,6 +22,8 @@ ms.technology: vs-ide-test
 
 The results of a load test are displayed as data in several different panes.
 
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
+
 To display test results as graphs, choose **Graphs** on the **load test** toolbar. Each individual graph is displayed in a panel with the graph name displayed at the top in a drop-down list. To display a different graph in the panel, choose a different graph name from the list.
 
 Up to four graph panels can be displayed at a time. You can switch between different panel layouts by using the **panel layout** toolbar button.

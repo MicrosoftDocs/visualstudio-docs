@@ -21,6 +21,8 @@ If you are using diagnostic data adapters in your test settings, a time-out can 
 
 -   The test controller cannot resolve the name of the computer that runs Microsoft Test Manager. This might occur if DNS provides the wrong address for this computer. You might have to contact the network administrator to resolve this issue.
 
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
+
 When you run a long test that must collect a lot of data, you might find that the collection of this data times out. You can use the following procedure to resolve this issue.
 
 You can increase the time-out by updating the configuration file for Microsoft Test Manager or the configuration file for the test agent that is timing out.

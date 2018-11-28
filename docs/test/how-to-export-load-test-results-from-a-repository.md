@@ -20,6 +20,8 @@ When you run a load test, information gathered during the run is stored in the L
 
 You can manage load test results from the Load Test Editor by using the **Open and Manage Load Test Results** dialog box. You can open, import, export, and remove load test results.
 
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
+
 ## To export results from a repository
 
 1.  From a web performance and load test project, open a load test.

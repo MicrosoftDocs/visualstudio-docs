@@ -20,6 +20,8 @@ You can provide default input to your custom diagnostic data adapter using a con
 
 If you are running your tests from Visual Studio, you must set these test settings to be active. For more information about test settings, see [Collect diagnostic information using test settings](../test/collect-diagnostic-information-using-test-settings.md).
 
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
+
 ## Tasks
 
  Use the following topics to help you create Diagnostic Data Adapters:

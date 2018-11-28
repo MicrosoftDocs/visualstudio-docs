@@ -15,6 +15,8 @@ ms.technology: vs-ide-test
 
 The **Counters** panel is visible in the Graphs view and Tables view in the Load Test Analyzer while a load test is running, or when you are analyzing a load test result. For more information, see [Analyze load test results in the Graphs view](../test/analyze-load-test-results-in-the-graphs-view.md), [Analyze load test results and errors in the Tables view](../test/analyze-load-test-results-and-errors-in-the-tables-view.md) and [How to: Access load test results for analysis](../test/how-to-access-load-test-results-for-analysis.md).
 
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
+
 The **Counters** panel displays a structured view of all the performance counters that have been collected during the load test. You can show or hide the **Counters** panel by choosing **Show Counters Panel** on the **Load Test Analyzer** toolbar.
 
 The counters are organized in a tree structure, where the leaf nodes are performance counter instances that can be graphed.

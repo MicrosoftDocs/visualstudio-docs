@@ -15,6 +15,8 @@ ms.technology: vs-ide-test
 
 When you create a diagnostic data adapter, you might want to enable the end user to configure specific data when your custom diagnostic data adapter is selected for their test settings. For example, you can select the configuration data that specifies which registry keys to extract, what level of network load to simulate, or in which directory to find temporary files or work files to attach.
 
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
+
 You must use a configuration file to set up initial values for your diagnostic data adapter. You can provide a custom editor to enable the user to modify the configuration data.
 
 To create your own editor, you will create a user control that implements <xref:Microsoft.VisualStudio.TestTools.Execution.IDataCollectorConfigurationEditor>.
