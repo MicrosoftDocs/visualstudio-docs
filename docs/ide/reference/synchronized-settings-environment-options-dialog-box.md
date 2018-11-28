@@ -1,6 +1,6 @@
 ---
-title: Synchronized Settings, Environment, Options Dialog Box
-ms.date: 11/04/2016
+title: Accounts options reference
+ms.date: 11/21/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
@@ -13,10 +13,12 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Synchronized Settings, Environment, Options Dialog Box
+# Accounts, Environment, Options dialog box
 
-Use this page to specify whether to synchronize (roam) your settings across multiple machines. For more information, see [Synchronized Settings](../../ide/synchronized-settings-in-visual-studio.md).
+Use this page to specify whether to synchronize your settings across multiple machines. For more information, see [Synchronized settings](../../ide/synchronized-settings-in-visual-studio.md).
 
 ### See also
 
-- [Environment Options Dialog Box](../../ide/reference/environment-options-dialog-box.md)
+- [Synchronize settings across multiple computers](../synchronized-settings-in-visual-studio.md)
+- [Environment settings](../environment-settings.md)
+- [Environment Options dialog box](../../ide/reference/environment-options-dialog-box.md)
