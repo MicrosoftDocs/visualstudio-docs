@@ -21,7 +21,7 @@ ms.workload:
   - "multiple"
 ---
 # View data values in DataTips in the code editor
-DataTips provide a convenient way to view information about variables in your program during debugging. DataTips work only in break mode and only with variables that are in the current scope of execution. If this is the first time that you've tried to debug code, you may want to read [Write better C# code using Visual Studio](../debugger/write-better-code-with-visual-studio.md) and [Debugging for absolute beginners](../debugger/debugging-absolute-beginners.md) before going through this article.
+DataTips provide a convenient way to view information about variables in your program during debugging. DataTips work only in break mode and only with variables that are in the current scope of execution. If this is the first time that you've tried to debug code, you may want to read [Fix bugs by writing better C# code](../debugger/write-better-code-with-visual-studio.md) and [Debugging for absolute beginners](../debugger/debugging-absolute-beginners.md) before going through this article.
   
 ### To display a DataTip  
   
@@ -133,7 +133,7 @@ DataTips provide a convenient way to view information about variables in your pr
   
 ## See Also  
  [What is debugging?](../debugger/what-is-debugging.md)  
- [Write better C# code using Visual Studio](../debugger/write-better-code-with-visual-studio.md)  
+ [Fix bugs by writing better C# code](../debugger/write-better-code-with-visual-studio.md)  
  [First look at debugging](../debugger/debugger-feature-tour.md) 
  [Viewing Data in the Debugger](../debugger/viewing-data-in-the-debugger.md)   
  [Watch and QuickWatch Windows](../debugger/watch-and-quickwatch-windows.md)   
