@@ -1,7 +1,7 @@
 ---
 title: "How to: Debug from a DLL Project | Microsoft Docs"
 ms.custom: ""
-ms.date: "05/24/2018"
+ms.date: "10/10/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
@@ -21,7 +21,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Debug from a DLL project in Visual Studio
+# How to: Debug from a DLL project in Visual Studio (C#, C++, Visual Basic, F#)
 
 One way to debug a DLL project is to specify the calling app in the DLL project properties. Then you can start debugging from the DLL project itself. For this method to work, the app must call the same DLL in the same location as the one you configure. If the app finds and loads a different version of the DLL, that version won't contain your breakpoints. For other methods of debugging DLLs, see [Debugging DLL projects](../debugger/debugging-dll-projects.md).
   

@@ -1,2 +1,2 @@
 > [!NOTE]
-> Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use, determine these elements. For more information, see [Personalize the IDE](../../ide/personalizing-the-visual-studio-ide.md).
+> Your computer might show different names or locations for some of the Visual Studio user interface elements in this article. You may be using a different edition of Visual Studio or different environment settings. For more information, see [Personalize the IDE](../../ide/personalizing-the-visual-studio-ide.md).
