@@ -154,5 +154,6 @@ searchScope: []
                 </ul>
             </li>
         </ul>
+        <p>Visual Studio Team Services was renamed Azure DevOps server, and Team Foundation Server (TFS) was renamed Azure DevOps Server. See <a href="/azure/devops/user-guide/what-happened-vsts?view=vsts">What happened to Visual Studio Team Services?</a> and <a href="/tfs/server/tfs-is-now-azure-devops-server">Team Foundation Server is now Azure DevOps Server</a>.</p>
     </div>
 </div>
