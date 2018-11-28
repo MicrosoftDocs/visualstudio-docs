@@ -36,25 +36,6 @@ searchScope: []
                                 </a>
                             </li>
                             <li>
-                                <a href="https://code.visualstudio.com/docs" title="Visual Studio Code">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img data-scaleimage="./images/vs-code.svg" src="./images/vs-code.svg" alt="" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Visual Studio Code</h3>
-                                                    <p>Rich editing and debugging in hundreds of languages on MacOS, Linux, and Windows</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
                                 <a href="/visualstudio/mac" title="Visual Studio for Mac">
                                     <div class="cardSize">
                                         <div class="cardPadding">
@@ -67,6 +48,25 @@ searchScope: []
                                                 <div class="cardText">
                                                     <h3>Visual Studio for Mac</h3>
                                                     <p>Build apps and games, using the Mac, for the cloud, iOS, Android, macOS, and wearables.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://code.visualstudio.com/docs" title="Visual Studio Code">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage">
+                                                        <img data-scaleimage="./images/vs-code.svg" src="./images/vs-code.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Visual Studio Code</h3>
+                                                    <p>Rich editing and debugging in hundreds of languages on MacOS, Linux, and Windows</p>
                                                 </div>
                                             </div>
                                         </div>
