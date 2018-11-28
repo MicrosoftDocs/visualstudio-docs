@@ -31,7 +31,7 @@ Report definitions are stored in the load test database. When a report is saved,
 Also, the spreadsheet file can be shared with stakeholders so that stakeholders do not have to connect to the database to see the report.
 
 > [!NOTE]
-> If you add comments to a load test, they will appear in the Excel report. For more information, see [How to: Add comments while analyzing a completed load test](../test/how-to-add-comments-on-a-completed-load-test.md).
+> If you add comments to a load test, they appear in the Excel report.
 
 ## Tasks
 

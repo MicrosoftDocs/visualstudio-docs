@@ -123,7 +123,7 @@ The controller and agent resources section contains a list of the computers that
 
 ## Errors
 
-The errors section contains a list of all the errors that occurred during the load test. The type and subtype of the error, the count, and the last message are displayed. You can choose an error to open the **Errors** table and inspect more details for that error. For more information, see [Analyze load test results and errors in the Tables view](../test/analyze-load-test-results-and-errors-in-the-tables-view.md) and [How to: Analyze errors using the Counters panel](../test/how-to-analyze-errors-using-the-counters-panel.md).
+The errors section contains a list of all the errors that occurred during the load test. The type and subtype of the error, the count, and the last message are displayed. You can choose an error to open the **Errors** table and inspect more details for that error. For more information, see [Analyze load test results and errors in the Tables view](../test/analyze-load-test-results-and-errors-in-the-tables-view.md).
 
 > [!NOTE]
 > You can collapse and expand this section by choosing the arrow to the left of the section title.
