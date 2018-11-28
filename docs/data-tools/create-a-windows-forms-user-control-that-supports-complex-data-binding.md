@@ -45,9 +45,9 @@ During this walkthrough, you will learn how to:
 
 - Create a dataset with the [Data Source Configuration Wizard](../data-tools/media/data-source-configuration-wizard.png).
 
-- Set the **Customers** table in the [Data Sources Window](add-new-data-sources.md) to use the new complex control.
+- Set the **Customers** table in the [Data Sources window](add-new-data-sources.md#data-sources-window) to use the new complex control.
 
-- Add the new control by dragging it from the **Data Sources Window** onto **Form1**.
+- Add the new control by dragging it from the **Data Sources** window onto **Form1**.
 
 ## Prerequisites
 
@@ -112,7 +112,7 @@ For complex controls that support data binding, you can implement the <xref:Syst
 
 Use the **Data Source Configuration** wizard to create a data source based on the `Customers` table in the Northwind sample database:
 
-1.  On the **Data** menu, click **Show Data Sources**.
+1.  To open the **Data Sources** window, on the **Data** menu, click **Show Data Sources**.
 
 2.  In the **Data Sources** window, select **Add New Data Source** to start the **Data Source Configuration** wizard.
 

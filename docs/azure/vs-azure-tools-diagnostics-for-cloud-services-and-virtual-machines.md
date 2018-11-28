@@ -297,5 +297,5 @@ The methods of **RoleEntryPoint** are called in the context of WAIISHost.exe, no
 In the **Properties** window, set the **Copy to Output Directory** property to **Copy always**.
 
 ## Next steps
-To learn more about diagnostics logging in Azure, see [Enable diagnostics in Azure Cloud Services and virtual machines](/azure/cloud-services/cloud-services-dotnet-diagnostics.md) and [Enable diagnostics logging for Web Apps in Azure App Service](/azure/app-service/web-sites-enable-diagnostic-log).
+To learn more about diagnostics logging in Azure, see [Enable diagnostics in Azure Cloud Services and virtual machines](/azure/cloud-services/cloud-services-dotnet-diagnostics) and [Enable diagnostics logging for Web Apps in Azure App Service](/azure/app-service/web-sites-enable-diagnostic-log).
 
