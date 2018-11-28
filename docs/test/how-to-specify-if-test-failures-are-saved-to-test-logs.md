@@ -43,3 +43,5 @@ After you create your load test with the **New Load Test Wizard**, you can use t
 
 - [Edit load test scenarios](../test/edit-load-test-scenarios.md)
 - [Walkthrough: Create and run a load test](../test/walkthrough-create-and-run-a-load-test.md)
+- [How to: Configure collecting full details to enable the Virtual User Activity Chart](../test/how-to-configure-load-tests-to-collect-full-details.md)
+- [How to: Specify how frequently test logs are saved](../test/how-to-specify-how-frequently-test-logs-are-saved.md)

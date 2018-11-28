@@ -25,7 +25,7 @@ ms.technology: vs-ide-test
 The **Details** view displays the **Virtual User Activity Chart**, which is used to visually analyze what the individual virtual users did during the load test. **Virtual User Activity Chart** lets you see patterns of user activity, load patterns, correlate failed or slow tests, and see requests with other virtual user activity. The **Virtual User Activity Chart** can also help you determine spikes in CPU usage, drops in requests per second, and what tests or pages were running during the spikes and drops.
 
 > [!NOTE]
-> Before you run the load test for which you want to use the **Virtual User Activity Details Chart**, you must verify that the **Timing Details Storage** property is set to the **AllIndividualDetails** option by using the Load Performance Test Editor.
+> Before you run the load test for which you want to use the **Virtual User Activity Details Chart**, you must verify that the **Timing Details Storage** property is set to the **AllIndividualDetails** option by using the Load Performance Test Editor. For more information, see [How to: Configure collecting full details to enable the virtual user activity chart](../test/how-to-configure-load-tests-to-collect-full-details.md).
 
  **Details Legend Panel**
 
@@ -51,6 +51,7 @@ The **Details** view displays the **Virtual User Activity Chart**, which is used
 
 |Tasks|Associated topics|
 |-|-|
+|**Configure your load test to use the Virtual User Activity Chart:** Before you run a load test that you want to view virtual user activity data on, you must first configure your load tests property settings.|-   [How to: Configure collecting full details to enable the virtual user activity chart](../test/how-to-configure-load-tests-to-collect-full-details.md)|
 |**Run your load test:** After you have created a load test and configured it to enable virtual user activity data collecting, you must run the test until it is complete in order to view the **Virtual User Activity Chart**.||
 |**View the load test results that contain the virtual user activity data:** After your load test has been created, configured, and has completed running, you can view the virtual user activity data by using the **Virtual User Activity Chart**.|-   [Analyze load test results](../test/analyze-load-test-results-using-the-load-test-analyzer.md)<br />-   [How to: Analyze what virtual users are doing during a load test](../test/how-to-analyze-virtual-user-activity-during-a-load-test.md)|
 |**Isolate performance issues in load tests:** You can use the **Virtual User Activity Chart** to help isolate performance issues in your load test.|-   [Walkthrough: Using the virtual user activity chart to isolate issues](../test/walkthrough-use-the-virtual-user-activity-chart-to-isolate-issues.md)|

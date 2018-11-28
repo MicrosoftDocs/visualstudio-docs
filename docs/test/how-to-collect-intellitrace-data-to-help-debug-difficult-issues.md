@@ -97,7 +97,7 @@ Before you perform the steps in this procedure, you must open your test settings
 11. (Optional) Choose the **Advanced** tab. Next, choose the arrow next to **Maximum amount of disk space for recording** and select the maximum size that you want to enable for the IntelliTrace file to use.
 
     > [!NOTE]
-    > If you increase the size of the recording, a time-out issue might occur when you save this recording together with your test results.
+    > If you increase the size of the recording, a time-out issue might occur when you save this recording together with your test results. For more information about how to increase the time-out values for diagnostic data adapters, see [How to: Prevent time-outs for diagnostic data adapters](../test/how-to-prevent-time-outs-for-diagnostic-data-adapters.md).
 
 12. If you are using Microsoft Test Manager, choose **Save**. If you are using Visual Studio, choose **OK**. The IntelliTrace settings are now configured and saved for your test settings.
 
