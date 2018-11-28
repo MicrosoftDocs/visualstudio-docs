@@ -102,7 +102,7 @@ Create LINQ to SQL classes that are mapped to database tables by dragging tables
 
 3.  On the **Build** menu, click **Build UpdatingwithSProcsWalkthrough** to build the project.
 
-4.  On the **Data** menu, click **Show Data Sources**.
+4.  To open the **Data Sources** window, on the **Data** menu, click **Show Data Sources**.
 
 5.  In the **Data Sources** window, click **Add New Data Source**.
 

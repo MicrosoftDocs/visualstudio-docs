@@ -49,7 +49,7 @@ The following test shows how to use the shim type, `ShimDateTime`, to provide a 
 ```csharp
 //unit test code
 // create a ShimsContext cleans up shims
-using (ShimsContext.Create()
+using (ShimsContext.Create()) {
     // hook delegate to the shim method to redirect DateTime.Now
     // to return January 1st of 2000
     ShimDateTime.NowGet = () => new DateTime(2000, 1, 1);

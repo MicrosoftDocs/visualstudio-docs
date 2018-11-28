@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "actions panes [Office development in Visual Studio]"
   - "smart documents [Office development in Visual Studio]"
   - "user controls [Office development in Visual Studio], actions panes"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload:
   - "office"
