@@ -45,19 +45,13 @@ The first thing you'll notice when you open Visual Studio 2019 is its new start 
 
 This new start window presents you with options to clone or checkout code, open a project or solution, open a local folder, or create a new project. Having these options presented in a simple dialog helps both beginners and advanced Visual Studio users get to code quickly.
 
-### Improved search
+### Better search
 
-Formerly known as Quick Launch, we've rewritten the new Search feature to make it faster and more effective. Now, search results are displayed dynamically as you type, and keyboard shortcuts are displayed next to search results for commands so you can more easily memorize them for future use.
+Formerly known as Quick Launch, we've rewritten the new search feature to make it faster and more effective. Now, search results are displayed dynamically as you type, and keyboard shortcuts are displayed next to search results for commands so you can more easily memorize them for future use.
 
    ![The new search feature in Visual Studio 2019](../ide/media/search-feature.png)
 
 Whether you are looking for commands, settings, documentation, or other useful things, the new Search feature makes it easier to find what you're looking for.
-
-### CodeLens for everyone
-
-Before, CodeLens was a feature that you could find only in the Visual Studio Enterprise edition. Starting with Visual Studio 2019, it's now available in the free Community edition as well.
-
-Use CodeLens to find references to a piece of code, changes to your code, linked bugs, work items, code reviews, and unit tests&mdash;without leaving the editor. To find out more, see the [Find code changes and other history with CodeLens](../ide/find-code-changes-and-other-history-with-codelens.md) page.
 
 ### One-click Code Cleanup
 
@@ -71,7 +65,11 @@ The cleanup will format the code and apply any code fixes suggested by the curre
 
 #### Search within a Watch window
 
-You've probably been there before, looking in the watch window for a string amongst a sea of values. We've enhanced search in the various watch windows (locals, auto, and watch). Now, Visual Studio can do that looking for you!
+You've probably been there before, looking in the Watch window for a string amongst a sea of values. We've enhanced search in the various watch windows (locals, auto, and watch). Now, Visual Studio can do that looking for you!
+
+Now, if you want to format how a value is displayed, you can discover all possible formatting options by using a drop-down within the Watch, Locals, and Autos windows.  Double-click one of the items in any of the the windows and add a comma (“,”) to access the dropdown of possible format specifiers, each of which includes a description of its intended effect.
+
+   ![The new Watch window feature in Visual Studio 2019](../ide/media/search-watch-window.png)
 
 ### Live Share
 
@@ -81,17 +79,29 @@ For more information, see the [Live Share FAQ](/visualstudio/liveshare/faq).
 
 ## Modern development support
 
+### Manage PRs from the IDE
+
+We're introducing a brand-new pull request (PR) experience in Visual Studio 2019, which enables you to review, run, and even debug pull requests from your team without leaving the IDE. We support code in Azure repos today but are going to expand to support GitHub and improve the overall experience. To get started, you can download the [Pull Requests for Visual Studio](https://aka.ms/pr4vs) extension from the Visual Studio Marketplace.
+
+   ![The new PR experience in Visual Studio 2019](../ide/media/process-pull-requests-in-ide.png)
+
+### Develop with .NET Core 3 Preview 1
+
+Visual Studio 2019 supports building [.NET Core 3](http://aka.ms/netcore3preview1) applications for any platform. We'll also continue to support and improve cross-platform C++ development, as well as .NET mobile development for iOS and Android with Xamarin.
+
+   ![Develop apps with .NET Core 3 Preview 1 in Visual Studio 2019](../ide/media/dot-net-core-three-dev.png)
+
 ## Continuous innovation
 
-### Time-travel debugging
+### Per-Monitor Aware (PMA) rendering
 
-Add text here.
+If you use monitors that are configured with different display scale factors, or remote in to a machine with display scale factors that are different from your main device, you might notice that Visual Studio might look blurry or render at the wrong scale.
 
+With Visual Studio 2019 Preview 1, we are taking the first steps towards making Visual Studio a Per-Monitor Aware (PMA) application. We're laying the foundational work that will allow Visual Studio to render correctly regardless of what display scale factors you use.  
 
+   ![The new Per-Monitor Aware (PMA) display scaling in Visual Studio 2019](../ide/media/per-monitor-aware-dpi-scaling.png)
 
-### Improved DPI scaling
-
-Add text here. (Although, I'm not seeing reference to this anywhere...)
+To learn more, see the [Making Visual Studio a PMA application](http://add-url-here) blog post.
 
 ## Give us feedback
 
@@ -99,12 +109,8 @@ Why send feedback to the Visual Studio team? Because we take customer feedback s
 
 * If you want to make a suggestion about how we can improve Visual Studio, see the [Suggest a feature](../ide/talk-to-us.md) page.
 
-* If you experience a hang, crash, or other performance issue, you can easily share repro steps and supporting files with us by using the [**Report a Problem**](how-to-report-a-problem-with-visual-studio-2017.md) tool.
+* If you experience a hang, crash, or other performance issue, you can easily share repro steps and supporting files with us by using the [Report a Problem](how-to-report-a-problem-with-visual-studio-2017.md) tool.
 
 ## See also
 
 * [Visual Studio 2019 release notes](/visualstudio/releasenotes/vs2017-relnotes?context=visualstudio/default&contextView=vs-2017)
-* [What's new in Visual C++](/cpp/top/what-s-new-for-visual-cpp-in-visual-studio)
-* [What's new in C#](/dotnet/csharp/whats-new)
-* [What's new for Team Foundation Server](/tfs/server/whats-new?view=vsts)
-* [What's new in Visual Studio for Mac](https://visualstudio.microsoft.com/vs/visual-studio-mac/)
