@@ -16,6 +16,8 @@ The testing framework for coded UI tests and action recordings does not support 
 
 ![UI Test Architecture](../test/media/ui_testarch.png)
 
+[!INCLUDE [coded-ui-test-deprecation](includes/coded-ui-test-deprecation.md)]
+
 ## Sample extension to test Microsoft Excel
 
 This [blog post](https://blogs.msdn.microsoft.com/gautamg/2010/01/05/3-introducing-sample-excel-extension/) contains a link to a [sample extension](https://msdnshared.blob.core.windows.net/media/MSDNBlogsFS/prod.evol.blogs.msdn.com/CommunityServer.Components.PostAttachments/00/09/94/38/24/ExcelPluginSample.zip) for the coded UI test framework. You can also view the entire [blog post series for coded UI test extensibility](https://blogs.msdn.microsoft.com/gautamg/2010/01/05/series-on-coded-ui-test-extensibility/).
