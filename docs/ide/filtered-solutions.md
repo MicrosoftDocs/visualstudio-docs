@@ -15,7 +15,7 @@ manager: douge
 
 **New in Visual Studio 2019 preview 1**
 
-Large solutions with many projects can take a long time to open in Visual Studio. To improve performance when opening large solutions, Visual Studio 2019 preview 1 introduces *solution filtering*. Solution filtering lets you open a solution with only selective projects loaded. Loading a subset of projects in a solution decreases solution load, build, and test run time, and enables more focused review.
+Large development teams often collaborate by using a single large solution with many projects. However, individual developers typically work on a small subset of these projects. To improve performance when opening large solutions, Visual Studio 2019 preview 1 introduces *solution filtering*. Solution filtering lets you open a solution with only selective projects loaded. Loading a subset of projects in a solution decreases solution load, build, and test run time, and enables more focused review.
 
 The following features are available:
 
@@ -77,6 +77,10 @@ Solution filter files are visually differentiated from regular solution files by
 After you create a solution filter file, it's added to your **Recent Projects and Solutions** list for easy access:
 
 ![Open recent in Visual Studio](media/filtered-solutions/open-recent.png)
+
+## User study
+
+We're actively recruiting users to help evolve the solution filtering feature. Please contact the feature team directly at vssolutionload@microsoft.com if you'd like to participate in the user study.
 
 ## See also
 
