@@ -19,9 +19,6 @@ Sets the web server that web projects will use for development within [!INCLUDE[
 
 By default, running a web project in Visual Studio uses the Visual Studio Development Server. For more information, see [Web Servers in Visual Studio for ASP.NET Web Projects](/previous-versions/aspnet/58wxa9w5\(v\=vs.120\)).
 
-> [!NOTE]
-> The options available in dialog boxes, and the names and locations of menu commands you see, might differ from what is described in Help depending on your active settings or edition. This Help page was written with the **Web settings** in mind. To view or change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).
-
 ## Settings
 
 **Use the 64-bit version of IIS Express for web sites and projects**

@@ -39,7 +39,7 @@ The following illustration is an example of a report that shows a correlation be
 Excel reports can either be generated in the **Load Test Analyzer**, by using the **Create Excel Report** button in the toolbar, or from Excel by using the **Load Test Report** option in the **Load Test** tab of the **Office** ribbon.
 
 > [!NOTE]
-> If you add comments to a load test, they will appear in the Excel report. For more information, see [How to: Add comments while analyzing a completed load test](../test/how-to-add-comments-on-a-completed-load-test.md).
+> If you add comments to a load test, they appear in the Excel report.
 
 ## To generate load test comparison reports using Excel
 
