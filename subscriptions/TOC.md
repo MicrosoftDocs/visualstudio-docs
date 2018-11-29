@@ -58,7 +58,7 @@
 ###### [Find Your Primary Contact](find-primary-contact.md)
 #### [For MPSA](mpsa.md)
 #### [For Cloud Subscriptions](cloud-admin.md)
-#### [Onboarding video](https://channel9.msdn.com/Series/Visual-Studio-Subscriptions-Administration/Onboarding-your-organization-to-the-new-Visual-Studio-Subscription-Administration-Portal-and-setting)
+#### [Onboarding video](https://youtu.be/plSu6fpi7UI)
 ### [Using the Admin Portal](using-admin-portal.md)
 #### [Assign Subscriptions](assign-license.md)
 #### [Resend Assignment Emails](resend-assignment-email.md)
