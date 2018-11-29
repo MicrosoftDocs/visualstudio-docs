@@ -1896,11 +1896,6 @@
             "redirect_document_id": false
         },
         {
-            "source_path": "docs/python/index.md",
-            "redirect_url": "/visualstudio/python/overview-of-python-tools-for-visual-studio",
-            "redirect_document_id": false
-        },
-        {
             "source_path": "docs/python/installation.md",
             "redirect_url": "/visualstudio/python/installing-python-support-in-visual-studio",
             "redirect_document_id": false
