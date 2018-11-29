@@ -62,8 +62,6 @@ If any violations occurred, a **threshold violations** hyperlink appears on the 
 
  In the counter tree, the icon for a threshold violation is propagated from the specific counter node, up to the root node. This alerts you to a violation on a counter that may not be visible in the tree because the tree has not been expanded.
 
- For more information, see [Using the Counters panel in Graphs view and Tables view](../test/counters-panel-in-load-test-analyzer.md).
-
 ## View threshold violations on the graph
 
  You can view threshold violations on the graph. Similar to the **Counters** panel, icons communicate threshold violations on the graph. The icons appear on the graph next to the data point where the threshold violation occurred. If a threshold violation occurs on a counter that does not appear on the graph, you can add it to the graph by dragging it from the **Counters** panel to the graph.
