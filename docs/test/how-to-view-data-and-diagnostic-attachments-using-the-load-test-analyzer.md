@@ -17,6 +17,8 @@ Before you run a load test, you can select a test setting that specifies the dia
 
 ![Choosing Diagnostic Data Adapter Attachment dialog](../test/media/load_adapterdialog.png)
 
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
+
 Another example is a load test that includes the IntelliTrace adapter in the test setting. The IntelliTrace adapter enables you to open the **IntelliTrace Summary** page.
 
 ![IntelliTrace Summary](../test/media/load_intellitrace.png)

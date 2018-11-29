@@ -27,6 +27,8 @@ Managing counter sets involves choosing the set of computers you want to collect
 
 ![Managing Counter Sets](../test/media/loadtestmanagecountersets.png)
 
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
+
 ## To manage counter sets
 
 1.  Open a load test.

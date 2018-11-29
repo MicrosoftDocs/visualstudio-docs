@@ -1,5 +1,5 @@
 ---
-title: "Load Test Run Settings in Visual Studio"
+title: "Load Test Run Settings"
 ms.date: 10/19/2016
 ms.topic: reference
 helpviewer_keywords:
@@ -15,9 +15,11 @@ ms.technology: vs-ide-test
 
 The run settings of a load test determine a variety of other settings, including the duration of the test, results collection detail level, and the counter sets that are collected when the test runs. You can create and store multiple run settings for each load test, and then select one particular setting to use when you run the test. An initial run setting is added to your load test when you create your load test using the **New Load Test Wizard**.
 
- The following tables describe the various properties for load test run settings. You can modify these properties to meet your specific load testing requirements.
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
- For more information, see [Configure load test run settings](../test/configure-load-test-run-settings.md).
+The following tables describe the various properties for load test run settings. You can modify these properties to meet your specific load testing requirements.
+
+For more information, see [Configure load test run settings](../test/configure-load-test-run-settings.md).
 
 ## General properties
 

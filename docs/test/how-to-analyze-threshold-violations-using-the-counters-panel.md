@@ -15,13 +15,15 @@ ms.technology: vs-ide-test
 
 The **Counters** panel is visible in the Graphs view and the Tables view in the **Load Test Analyzer** while a load test is running, or when you are analyzing a load test result. See [Analyze load test results in the Graphs view](../test/analyze-load-test-results-in-the-graphs-view.md), [Analyze load test results and errors in the Tables view](../test/analyze-load-test-results-and-errors-in-the-tables-view.md) and [How to: Access load test results for analysis](../test/how-to-access-load-test-results-for-analysis.md).
 
- Threshold violations are associated with specific performance counters, and indicate that the performance counter either exceeded or fell below a set threshold value. Icons in the **Counters** panel communicate threshold violations.
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
- ![Counter panel's computer node](../test/media/ltest_compnode.png)
+Threshold violations are associated with specific performance counters, and indicate that the performance counter either exceeded or fell below a set threshold value. Icons in the **Counters** panel communicate threshold violations.
 
- The icon for a threshold violation is propagated from the tree node where the failed counter resides to the root. The icon alerts the user to a violation on a counter that might not be visible in the tree because the tree has not been expanded. An example of the icon can be seen in the **Computers Node** in the **Counters** panel in the previous illustration.
+![Counter panel's computer node](../test/media/ltest_compnode.png)
 
- The icon will be one of the following:
+The icon for a threshold violation is propagated from the tree node where the failed counter resides to the root. The icon alerts the user to a violation on a counter that might not be visible in the tree because the tree has not been expanded. An example of the icon can be seen in the **Computers Node** in the **Counters** panel in the previous illustration.
+
+The icon will be one of the following:
 
  ![No threshold violation](../test/media/icon_ltest_1.gif) No threshold violation.
 

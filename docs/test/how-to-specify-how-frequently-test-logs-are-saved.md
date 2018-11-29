@@ -16,6 +16,8 @@ ms.technology: vs-ide-test
 
 After you create your load test with the **New Load Test Wizard**, you can use the **Load Test Editor** to change the load tests properties to meet your testing needs and goals. For more information, see  [Walkthrough: Create and run a load test](../test/walkthrough-create-and-run-a-load-test.md).
 
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
+
 > [!NOTE]
 > For a complete list of the run settings properties and their descriptions, see [Load test run settings properties](../test/load-test-run-settings-properties.md).
 

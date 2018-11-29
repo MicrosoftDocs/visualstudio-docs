@@ -24,6 +24,8 @@ Threshold rules are associated with specific performance counters, and violation
 
 If any violations occurred, a **threshold violations** hyperlink appears on the **Load Test Analyzer** status bar and specifies the number of violations that occurred. You choose the hyperlink to display the threshold violations table. You can also view threshold violations in the **Counters** window, and on the graph.
 
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
+
 ## View threshold violations in the table
 
  The threshold violations table displays the first 1,000 violations. The following table contains these columns:

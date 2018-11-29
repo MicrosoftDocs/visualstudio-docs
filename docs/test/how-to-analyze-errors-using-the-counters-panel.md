@@ -19,6 +19,8 @@ The **Counters** panel is visible in the Graphs view and the Tables view in the 
 
  ![Counter panel's error node](../test/media/ltest_errornode.png)
 
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
+
 ## To analyze errors in the Counters panel
 
 1.  After a load test completes, or after you load a test result, in the Load Test Analyzer's toolbar, choose either **Graphs** or **Tables**.

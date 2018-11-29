@@ -19,6 +19,7 @@ After you create your load test with the **New Load Test Wizard**, you can use t
 > [!NOTE]
 > For a complete list of the run settings properties and their descriptions, see [Load test run settings properties](../test/load-test-run-settings-properties.md).
 
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
 ## To specify if the test log is saved when a test fails in a scenario
 

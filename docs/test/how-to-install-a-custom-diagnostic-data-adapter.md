@@ -15,9 +15,11 @@ ms.technology: vs-ide-test
 
 If you have created a custom diagnostic data adapter, or you have been provided with a custom diagnostic data adapter to use, you can install your diagnostic data adapter assembly by copying the assembly file for it into the correct directory on your local machine.
 
- If you want to use your custom diagnostic data adapter for a role in an environment, you must install your diagnostic data adapter on all the machines that run test agents that can be used for this role.
+If you want to use your custom diagnostic data adapter for a role in an environment, you must install your diagnostic data adapter on all the machines that run test agents that can be used for this role.
 
- Use the following procedure to install your custom diagnostic adapter in the appropriate locations. You will need administrative permissions on any machine where you install the diagnostic data adapter.
+Use the following procedure to install your custom diagnostic adapter in the appropriate locations. You will need administrative permissions on any machine where you install the diagnostic data adapter.
+
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
 ## Install a custom diagnostic data adapter
 
