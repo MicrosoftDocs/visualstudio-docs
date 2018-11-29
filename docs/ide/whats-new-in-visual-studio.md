@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2017"
 description: "Learn about the new features in Visual Studio 2017."
 ms.custom: ""
-ms.date: 12/06/2018
+ms.date: 12/04/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
@@ -381,3 +381,4 @@ If you want to make a suggestion about how we can improve Visual Studio, or lear
 * [What's new in C#](/dotnet/csharp/whats-new)
 * [What's new for Team Foundation Server](/tfs/server/whats-new?view=vsts)
 * [What's new in Visual Studio for Mac](https://visualstudio.microsoft.com/vs/visual-studio-mac/)
+* [What's new in Visual Studio 2019](whats-new-in-visual-studio-2019.md)

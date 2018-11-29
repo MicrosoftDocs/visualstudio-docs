@@ -43,15 +43,15 @@ The first thing you'll notice when you open Visual Studio 2019 is its new start 
 
    ![The new start window in Visual Studio 2019](../ide/media/start-window.png)
 
-This new start window presents you with options to clone or checkout code, open a project or solution, open a local folder, or create a new project. Having these options presented in a simple dialog helps both beginners and advanced Visual Studio users get to code quickly.
+This new start window presents you with options to clone or check out code, open a project or solution, open a local folder, or create a new project. Having these options presented in a simple dialog helps both beginners and advanced Visual Studio users get to code quickly.
 
 ### Better search
 
-Formerly known as Quick Launch, we've rewritten the new search feature to make it faster and more effective. Now, search results are displayed dynamically as you type, and keyboard shortcuts are displayed next to search results for commands so you can more easily memorize them for future use.
+Formerly known as Quick Launch, we've rewritten the new search feature to make it faster and more effective. Now, Visual Studio displays search results are displayed dynamically as you type, and keyboard shortcuts are displayed next to search results for commands so you can more easily memorize them for future use.
 
    ![The new search feature in Visual Studio 2019](../ide/media/search-feature.png)
 
-Whether you are looking for commands, settings, documentation, or other useful things, the new Search feature makes it easier to find what you're looking for.
+Whether you are looking for commands, settings, documentation, or other useful things, the new search feature makes it easier to find what you're looking for.
 
 ### One-click Code Cleanup
 
@@ -67,7 +67,7 @@ The cleanup will format the code and apply any code fixes suggested by the curre
 
 You've probably been there before, looking in the Watch window for a string amongst a sea of values. We've enhanced search in the various watch windows (locals, auto, and watch). Now, Visual Studio can do that looking for you!
 
-Now, if you want to format how a value is displayed, you can discover all possible formatting options by using a drop-down within the Watch, Locals, and Autos windows.  Double-click one of the items in any of the the windows and add a comma (“,”) to access the dropdown of possible format specifiers, each of which includes a description of its intended effect.
+Now, if you want to format how a value is displayed, you can discover all possible formatting options by using a drop-down within the Watch, Locals, and Autos windows.  Double-click one of the items in any of the windows and add a comma (“,”) to access the dropdown of possible format specifiers, each of which includes a description of its intended effect.
 
    ![The new Watch window feature in Visual Studio 2019](../ide/media/search-watch-window.png)
 
@@ -81,13 +81,13 @@ For more information, see the [Live Share FAQ](/visualstudio/liveshare/faq).
 
 ### Manage PRs from the IDE
 
-We're introducing a brand-new pull request (PR) experience in Visual Studio 2019, which enables you to review, run, and even debug pull requests from your team without leaving the IDE. We support code in Azure repos today but are going to expand to support GitHub and improve the overall experience. To get started, you can download the [Pull Requests for Visual Studio](https://aka.ms/pr4vs) extension from the Visual Studio Marketplace.
+We're introducing a new pull request (PR) experience in Visual Studio 2019, which enables you to review, run, and even debug pull requests from your team without leaving the IDE. We support code in Azure repos today but are going to expand to support GitHub and improve the overall experience. To get started, you can download the [Pull Requests for Visual Studio](https://aka.ms/pr4vs) extension from the Visual Studio Marketplace.
 
    ![The new PR experience in Visual Studio 2019](../ide/media/process-pull-requests-in-ide.png)
 
 ### Develop with .NET Core 3 Preview 1
 
-Visual Studio 2019 supports building [.NET Core 3](http://aka.ms/netcore3preview1) applications for any platform. We'll also continue to support and improve cross-platform C++ development, as well as .NET mobile development for iOS and Android with Xamarin.
+Visual Studio 2019 supports building [.NET Core 3](http://aka.ms/netcore3preview1) applications for any platform. We'll also continue to support and improve cross-platform C++ development, as well as .NET mobile development for iOS, and Android with Xamarin.
 
    ![Develop apps with .NET Core 3 Preview 1 in Visual Studio 2019](../ide/media/dot-net-core-three-dev.png)
 
@@ -113,4 +113,5 @@ Why send feedback to the Visual Studio team? Because we take customer feedback s
 
 ## See also
 
-* [Visual Studio 2019 release notes](/visualstudio/releasenotes/vs2017-relnotes?context=visualstudio/default&contextView=vs-2017)
+* [Visual Studio 2019 release notes](/visualstudio/releasenotes/vs2019-relnotes?context=visualstudio/default&contextView=vs-2017)
+* [What's new in Visual Studio 2017](whats-new-in-visual-studio.md)
