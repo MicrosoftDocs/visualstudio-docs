@@ -296,11 +296,11 @@ Features that allow you to inspect variables are one of the most useful features
 
 1. While paused in the `foreach` loop, click the **Call Stack** window, which is by default open in the lower right pane.
 
-2. Click **F11** a few times until you see the debugger pause in the `Circle.Draw` method in the code editor. Look at the **Call Stack** window.
+2. Click **F11** a few times until you see the debugger pause in the `Base.Draw` method for the `Rectangle` class in the code editor. Look at the **Call Stack** window.
 
     ![Examine the call stack](../debugger/media/get-started-call-stack.png "ExamineCallStack")
 
-    The **Call Stack** window shows the order in which methods and functions are getting called. The top line shows the current function (the `Circle.Draw` method in this app). The second line shows that `Circle.Draw` was called from the `Main` method, and so on.
+    The **Call Stack** window shows the order in which methods and functions are getting called. The top line shows the current function (the `Rectangle.Draw` method in this app). The second line shows that `Rectangle.Draw` was called from the `Main` method, and so on.
 
    > [!NOTE]
    > The **Call Stack** window is similar to the Debug perspective in some IDEs like Eclipse.
