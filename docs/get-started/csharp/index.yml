@@ -14,7 +14,7 @@ metadata:
   dev_langs:
     - CSharp
 sections:
-- title: Get Started with Visual Studio
+- title: Get Started
   items:
   - type: list
     style: cards
@@ -31,10 +31,8 @@ sections:
       image:
         src: https://docs.microsoft.com/media/logos/logo_visual-studio.svg
       title: Start a Guided Tour
-- title: C# Tutorials
+- title: C# tutorials
   items:
-  - type: paragraph
-    text: 'Getting started with C# in Visual Studio'
   - type: list
     style: cards
     className: cardsM
@@ -65,10 +63,10 @@ sections:
       image:
         src: https://docs.microsoft.com/media/logos/logo_csharp.svg
       title: Learn the C# language
-- title: Develop Applications
+- title: Learn Visual Studio
   items:
   - type: paragraph
-    text: 'Tutorials for using Visual Studio to develop applications in C#'
+    text: 'Learn how to use Visual Studio for your development tasks'
   - type: list
     style: cards
     className: cardsM
