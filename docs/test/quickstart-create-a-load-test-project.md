@@ -16,8 +16,9 @@ In this 10-minute quickstart, you'll learn how to create and run a web performan
 
 [!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
-> [!IMPORTANT]
-> Web performance and load test projects are only available in the Enterprise edition of Visual Studio 2017.
+## Software requirements
+
+Web performance and load test projects are only available in the Enterprise edition of Visual Studio.
 
 ## Install the load testing component
 
