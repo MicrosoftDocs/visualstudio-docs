@@ -18,12 +18,13 @@ Load tests run web performance tests or unit tests to simulate many users access
 
 [!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
-> [!NOTE]
-> Load testing is available only in the Enterprise edition of Visual Studio 2017.
-
 A load test is defined by *scenarios*, *counter sets*, and *run settings*. The following illustration explains the differences between [scenarios](../test/edit-load-test-scenarios.md), [counter sets](../test/specify-counter-sets-and-threshold-rules-for-load-testing.md), and [run settings](../test/load-test-run-settings-properties.md):
 
 ![Load Test Architecture](../test/media/load_test_editor.png)
+
+## Software requirements
+
+Web performance and load test projects are only available in the Enterprise edition of Visual Studio.
 
 ## Edit load test scenario settings
 
