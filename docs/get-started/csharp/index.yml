@@ -66,7 +66,7 @@ sections:
 - title: Learn Visual Studio
   items:
   - type: paragraph
-    text: 'Learn how to use Visual Studio for your development tasks'
+    text: 'Learn how to use Visual Studio for your development tasks.'
   - type: list
     style: cards
     className: cardsM
