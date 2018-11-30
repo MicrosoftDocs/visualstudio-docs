@@ -198,11 +198,13 @@ In this tutorial, you will:
 
     A red circle appears where you set the breakpoint.
 
+    ![Set a breakpoint](../debugger/media/get-started-set-breakpoint-vb.png)
+
     Breakpoints are the most basic and essential feature of reliable debugging. A breakpoint indicates where Visual Studio should suspend your running code so you can take a look at the values of variables, or the behavior of memory, or whether or not a branch of code is getting run. 
 
 2. Press **F5** or the **Start Debugging** button ![Start Debugging](../debugger/media/dbg-tour-start-debugging.png "Start Debugging", the app starts, and the debugger runs to the line of code where you set the breakpoint.
 
-    ![Hit a breakpoint](../debugger/media/get-started-set-breakpoint-vb.png)
+    ![Hit a breakpoint](../debugger/media/get-started-hit-breakpoint-vb.png)
 
     The yellow arrow represents the statement on which the debugger paused, which also suspends app execution at the same point (this statement has not yet executed).
 
@@ -216,13 +218,13 @@ Mostly, we use the keyboard shortcuts here, because it's a good way to get fast 
 
 1. While paused in the `shape.Draw` method call in the `Main` function, press **F11** (or choose **Debug > Step Into**) to advance into code for the `Rectangle` class.
 
-     ![Use F11 to Step Into code](../debugger/media/get-started-f11.png "F11 Step Into")
+     ![Use F11 to Step Into code](../debugger/media/get-started-f11-vb.png "F11 Step Into")
 
      F11 is the **Step Into** command and advances the app execution one statement at a time. F11 is a good way to examine the execution flow in the most detail. (To move faster through code, we show you some other options also.) By default, the debugger skips over non-user code (if you want more details, see [Just My Code](../debugger/just-my-code.md)).
 
 2. Press **F10** (or choose **Debug > Step Over**) a few times until the debugger stops on the `MyBase.Draw` method call, and then press **F10** one more time.
 
-     ![Use F10 to Step Over code](../debugger/media/get-started-step-over.png "F10 Step Over")
+     ![Use F10 to Step Over code](../debugger/media/get-started-step-over-vb.png "F10 Step Over")
 
      Notice this time that the debugger does not step into the `Draw` method of the base class (`Shape`). **F10** advances the debugger without stepping into functions or methods in your app code (the code still executes). By pressing F10 on the `MyBase.Draw` method call (instead of **F11**), we skipped over the implementation code for `MyBase.Draw` (which maybe we're not interested in right now).
 
@@ -230,7 +232,7 @@ Mostly, we use the keyboard shortcuts here, because it's a good way to get fast 
 
 1. In the code editor, scroll down and hover over the `Console.WriteLine` method in the `Triangle` class until the green **Run to Click** button ![Run to Click](../debugger/media/dbg-tour-run-to-click.png "RunToClick") appears on the left.
 
-     ![Use the Run to Click feature](../debugger/media/get-started-run-to-click.png "Run to Click")
+     ![Use the Run to Click feature](../debugger/media/get-started-run-to-click-vb.png "Run to Click")
 
    > [!NOTE]
    > The **Run to Click** button is new in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]. If you don't see the green arrow button, use **F11** in this example instead to advance the debugger to the right place.
@@ -278,7 +280,7 @@ Features that allow you to inspect variables are one of the most useful features
 
 1. Expand the `shapes` object to see all its properties, such as the first index of the array `[0]`, which has a value of `Rectangle`.
 
-     ![View a data tip](../debugger/media/get-started-data-tip.gif "View a Data Tip")
+     ![View a data tip](../debugger/media/get-started-data-tip-vb.png "View a Data Tip")
 
     You can further expand objects to view their properties, such as the `Height` property of the rectangle.
 
@@ -288,7 +290,7 @@ Features that allow you to inspect variables are one of the most useful features
 
 1. Look at the **Autos** window at the bottom of the code editor.
 
-     ![Inspect variables in the Autos Window](../debugger/media/get-started-autos-window.png "Autos Window")
+     ![Inspect variables in the Autos Window](../debugger/media/get-started-autos-window-vb.png "Autos Window")
 
     In the **Autos** window, you see variables and their current value. The **Autos** window shows all variables used on the current line or the preceding line (Check documentation for language-specific behavior).
 
@@ -308,11 +310,11 @@ Features that allow you to inspect variables are one of the most useful features
 
 1. While paused in the `For Each` loop, click the **Call Stack** window, which is by default open in the lower right pane.
 
-2. Click **F11** a few times until you see the debugger pause in the `Circle.Draw` method in the code editor. Look at the **Call Stack** window.
+2. Click **F11** a few times until you see the debugger pause in the `MyBase.Draw` method of the `Rectangle` class in the code editor. Look at the **Call Stack** window.
 
-    ![Examine the call stack](../debugger/media/get-started-call-stack.png "ExamineCallStack")
+    ![Examine the call stack](../debugger/media/get-started-call-stack-vb.png "ExamineCallStack")
 
-    The **Call Stack** window shows the order in which methods and functions are getting called. The top line shows the current function (the `Circle.Draw` method in this app). The second line shows that `Circle.Draw` was called from the `Main` function, and so on.
+    The **Call Stack** window shows the order in which methods and functions are getting called. The top line shows the current function (the `Rectangle.Draw` method in this app). The second line shows that `Rectangle.Draw` was called from the `Main` function, and so on.
 
    > [!NOTE]
    > The **Call Stack** window is similar to the Debug perspective in some IDEs like Eclipse.
@@ -325,11 +327,11 @@ Features that allow you to inspect variables are one of the most useful features
 
 ## Change the execution flow
 
-1. With the debugger paused in the `Circle.Draw` method call, use the mouse to grab the yellow arrow (the execution pointer) on the left and move the yellow arrow up one line to the `Console.WriteLine` method call.
+1. With the debugger paused in the `MyBase.Draw` method call of the `Rectangle` class, use the mouse to grab the yellow arrow (the execution pointer) on the left and move the yellow arrow up one line to the `Console.WriteLine` method call.
 
 1. Press **F11**.
 
-    The debugger reruns the `Console.WriteLine` method (you see this in the console window output).
+    The debugger reruns the `Console.WriteLine` method (you see duplicate output in the console window output).
 
     By changing the execution flow, you can do things like test different code execution paths or rerun code without restarting the debugger.
 
