@@ -125,7 +125,7 @@
       href: install/advanced-build-tools-container.md
     - name: Known Issues for Containers
       href: install/build-tools-container-issues.md
-- name: Tutorials by programming language
+- name: Tutorials
   items:
   - name: C#
     href: get-started/csharp/

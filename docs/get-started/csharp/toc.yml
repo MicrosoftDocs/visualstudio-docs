@@ -11,7 +11,7 @@
       href: quickstart-projects-solutions.md
     - name: More Visual Studio features
       href: ../../ide/advanced-feature-overview.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
-  - name: Create an app
+  - name: Tutorials
     expanded: true
     items:
     - name: Create your first C# app
