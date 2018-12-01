@@ -262,19 +262,23 @@ The debugger stops again at the breakpoint you set, on the `shape.Draw()` method
 
 Features that allow you to inspect variables are one of the most useful features of the debugger, and there are different ways to do it. Often, when you try to debug an issue, you are attempting to find out whether variables are storing the values that you expect them to have at a particular time.
 
-1. While paused on the `shape.Draw()` method, hover over the `shapes` object and you see its default property value, the `Count` property.
+1. While paused on the `shape.Draw()` method, hover over the `shape` object and you see its default property value, which is the object type `Rectangle`.
 
-1. Expand the `shapes` object to see all its properties, such as the first index of the array `[0]`, which has a value of `Rectangle`.
+1. Expand the `shape` object to see its properties, such as the `Height` property, which has a value of 0.
+
+1. Press **F10** (or **Debug** > **Step Over**) a few times to iterate once through the `foreach` loop, pausing again on `shape.Draw()`.
+
+1. Hover over the shape object again, and this time you see that you have a new object with a type `Triangle`.
 
      ![View a data tip](../debugger/media/get-started-data-tip.gif "View a Data Tip")
 
-    You can further expand objects to view their properties, such as the `Height` property of the rectangle.
-
-    Often, when debugging, you want a quick way to check property values on objects, and the data tips are a good way to do it.
+    Often, when debugging, you want a quick way to check property values on objects, to see whether they are storing the values that you expect them to store, and the data tips are a good way to do it.
 
 ## Inspect variables with the Autos and Locals windows
 
 1. Look at the **Autos** window at the bottom of the code editor.
+
+1. Expand the `shapes` object.
 
      ![Inspect variables in the Autos Window](../debugger/media/get-started-autos-window.png "Autos Window")
 
@@ -296,11 +300,11 @@ Features that allow you to inspect variables are one of the most useful features
 
 1. While paused in the `foreach` loop, click the **Call Stack** window, which is by default open in the lower right pane.
 
-2. Click **F11** a few times until you see the debugger pause in the `Base.Draw` method for the `Rectangle` class in the code editor. Look at the **Call Stack** window.
+2. Click **F11** a few times until you see the debugger pause in the `Base.Draw` method for the `Triangle` class in the code editor. Look at the **Call Stack** window.
 
     ![Examine the call stack](../debugger/media/get-started-call-stack.png "ExamineCallStack")
 
-    The **Call Stack** window shows the order in which methods and functions are getting called. The top line shows the current function (the `Rectangle.Draw` method in this app). The second line shows that `Rectangle.Draw` was called from the `Main` method, and so on.
+    The **Call Stack** window shows the order in which methods and functions are getting called. The top line shows the current function (the `Triangle.Draw` method in this app). The second line shows that `Triangle.Draw` was called from the `Main` method, and so on.
 
    > [!NOTE]
    > The **Call Stack** window is similar to the Debug perspective in some IDEs like Eclipse.
