@@ -272,11 +272,13 @@ Features that allow you to inspect variables are one of the most useful features
 
      ![View a data tip](../debugger/media/get-started-data-tip.gif "View a Data Tip")
 
-    Often, when debugging, you want a quick way to check property values on objects, to see whether they are storing the values that you expect them to store, and the data tips are a good way to do it.
+    Often, when debugging, you want a quick way to check property values on variables, to see whether they are storing the values that you expect them to store, and the data tips are a good way to do it.
 
 ## Inspect variables with the Autos and Locals windows
 
 1. Look at the **Autos** window at the bottom of the code editor.
+
+    If it is closed, open it while paused in the debugger by choosing **Debug** > **Windows** > **Autos**.
 
 1. Expand the `shapes` object.
 
@@ -284,7 +286,7 @@ Features that allow you to inspect variables are one of the most useful features
 
     In the **Autos** window, you see variables and their current value. The **Autos** window shows all variables used on the current line or the preceding line (Check documentation for language-specific behavior).
 
-2. Next, look at the **Locals** window, in a tab next to the **Autos** window.
+1. Next, look at the **Locals** window, in a tab next to the **Autos** window.
 
     The **Locals** window shows you the variables that are in the current [scope](https://www.wikipedia.org/wiki/Scope_(computer_science)), that is, the current execution context.
 
@@ -299,6 +301,8 @@ Features that allow you to inspect variables are one of the most useful features
 ## Examine the call stack
 
 1. While paused in the `foreach` loop, click the **Call Stack** window, which is by default open in the lower right pane.
+
+    If it is closed, open it while paused in the debugger by choosing **Debug** > **Windows** > **Call Stack**.
 
 2. Click **F11** a few times until you see the debugger pause in the `Base.Draw` method for the `Triangle` class in the code editor. Look at the **Call Stack** window.
 
