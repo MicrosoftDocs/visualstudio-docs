@@ -52,7 +52,7 @@ namespace SDKSamples
         }
 
         // The CanExecuteRoutedEvent Handler
-        // If the Command Source is a TextBox, then set CanExecute to ture;
+        // If the Command Source is a TextBox, then set CanExecute to true;
         // Otherwise, set it to false
         private void SliderUpdateCanExecute(object sender, CanExecuteRoutedEventArgs e)
         {
