@@ -18,11 +18,11 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# What&#39;s new in Visual Studio 2019 Preview 
+# What&#39;s new in Visual Studio 2019 Preview
 
-**Updated for the [16.0 Preview 1 release](/visualstudio/releasenotes/vs2019-relnotes?context=visualstudio/default&contextView=vs-2017)**
+**Updated for the [16.0 Preview 1 release](/visualstudio/releases/2019/release-notes-preview?context=visualstudio/default&contextView=vs-2017)**
 
-The preview release of Visual Studio 2019 includes many general improvements along with new features that optimize developer productivity and team collaboration. Whether you are using Visual Studio for the first time or have been using it for years, you'll be able to take advantage of its features for all aspects of the development lifecycle&mdash;from simplified project creation and code health management, to team- and open-source collaborative workflows.
+Visual Studio 2019 Preview includes many general improvements along with new features that optimize developer productivity and team collaboration. Whether you are using Visual Studio for the first time or have been using it for years, you'll be able to take advantage of its features for all aspects of the development lifecycle&mdash;from simplified project creation and code health management, to team- and open-source collaborative workflows.
 
 Here's a high-level recap of what Visual Studio has to offer:
 
@@ -31,7 +31,7 @@ Here's a high-level recap of what Visual Studio has to offer:
 * **[Continuous innovation](#discoverability)**. Code smart with intelligent, cloud-powered support.
 
 > [!NOTE]
-> For a complete list of new features and functionality in Visual Studio 2019, see the [Preview release notes](/visualstudio/releasenotes/vs2019-preview-relnotes?context=visualstudio/default&contextView=vs-2017).
+> For a complete list of new features and functionality in Visual Studio 2019 Preview, see the [release notes](/visualstudio/releases/2019/release-notes-preview?context=visualstudio/default&contextView=vs-2017).
 
 ## Personal and team productivity
 
@@ -63,19 +63,19 @@ The cleanup will format the code and apply any code fixes as suggested by the [c
 
 ### Debugger improvements
 
-#### Search within a Watch window
+#### Search within a Watch window, and format Watch values
 
-You've probably been there before, looking in the Watch window for a string amongst a sea of values. We've enhanced search in the various watch windows (locals, auto, and watch). The preview release of Visual Studio 2019 can do that looking for you!
+You've probably been there before, looking in the Watch window for a string amongst a set of values. In Visual Studio 2019 Preview, we've added search in the Watch, Locals, and Autos windows to help you find the objects and values you're looking for.
 
-Now, if you want to format how a value is displayed, you can discover all possible formatting options by using a drop-down within the Watch, Locals, and Autos windows.  Double-click one of the items in any of the windows and add a comma (“,”) to access the dropdown of possible format specifiers, each of which includes a description of its intended effect.
+You can also format how a value is displayed within the Watch, Locals, and Autos windows.  Double-click one of the items in any of the windows and add a comma (",") to access the drop-down list of possible format specifiers, each of which includes a description of its intended effect.
 
-   ![The new Watch window feature in Visual Studio 2019](../ide/media/search-watch-window.png)
+   ![The new Watch window and format values feature in Visual Studio 2019](../ide/media/search-watch-window.png)
 
 ### Visual Studio Live Share
 
 [Visual Studio Live Share](https://visualstudio.microsoft.com/services/live-share/) is a developer service that allows you to share a codebase and its context with a teammate and get instant bi-directional collaboration directly from within Visual Studio. With Live Share, a teammate can read, navigate, edit, and debug a project that you've shared with them, and do so seamlessly and securely.
 
-For more information, see the [Live Share FAQ](/visualstudio/liveshare/faq).
+And with Visual Studio 2019 Preview, this service is installed by default.
 
 ## Modern development support
 
@@ -95,13 +95,26 @@ The preview release of Visual Studio 2019 supports building [.NET Core 3](http:/
 
 ## Continuous innovation
 
-### Per-Monitor Aware (PMA) rendering
+### Per-monitor aware (PMA) rendering
 
 If you use monitors that are configured with different display scale factors, or connect remotely to a machine with display scale factors that are different from your main device, you might notice that Visual Studio looks blurry or renders at the wrong scale.
 
-With Visual Studio 2019 Preview 1, we are taking the first steps towards making Visual Studio a Per-Monitor Aware (PMA) application. We're laying the foundational work that will allow Visual Studio to render correctly regardless of what display scale factors you use.  
+With the release of Visual Studio 2019 Preview 1, we are taking the first steps towards making Visual Studio a per-monitor aware (PMA) application. We're laying the foundational work that will allow Visual Studio to render correctly regardless of what display scale factors you use.  
 
-   ![The new Per-Monitor Aware (PMA) display scaling in Visual Studio 2019](../ide/media/per-monitor-aware-dpi-scaling.png)
+   ![The new per-monitor aware (PMA) display scaling in Visual Studio 2019](../ide/media/per-monitor-aware-dpi-scaling.png)
+
+### Visual Studio Intellicode
+
+Visual Studio IntelliCode is an extension that enhances your software development efforts by using artifical intelligence (AI). IntelliCode trains across 2,000 open source projects on GitHub&mdash;each with over 100 stars&mdash;to generate its recommendations.
+
+Here are a few ways that Visual Studio IntelliCode can help enhance your productivity:
+
+* Deliver context-aware code completions
+* Guide developers to adhere to the patterns and styles of their team
+* Find difficult-to-catch code issues
+* Focus code reviews by drawing attention to areas that really matter
+
+When we first previewed IntelliCode, we did so for C#. And now, new in Visual Studio 2019 Preview, we've added support for C++ and XAML.
 
 ## Give us feedback
 
@@ -113,5 +126,5 @@ Why send feedback to the Visual Studio team? Because we take customer feedback s
 
 ## See also
 
-* [Visual Studio 2019 release notes](/visualstudio/releasenotes/vs2019-relnotes?context=visualstudio/default&contextView=vs-2017)
+* [Visual Studio 2019 release notes](/visualstudio/releases/2019/release-notes-preview?context=visualstudio/default&contextView=vs-2017)
 * [What's new in Visual Studio 2017](whats-new-in-visual-studio.md)
