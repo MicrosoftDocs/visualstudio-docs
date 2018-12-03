@@ -41,14 +41,14 @@ To build Xamarin apps for iOS or macOS, you'll also need:
 
     [![Follow the links to the privacy and terms, then continue if you agree](media/install-preview-privacy-sml.png)](media/install-preview-privacy.png#lightbox)
 
-7. The list of available workloads is displayed. Select the ones you wish to use.
+6. The list of available workloads is displayed. Select the ones you wish to use.
 
     [![Choose which optional workload features you would like to install](media/install-preview-selection-sml.png)](media/install-preview-selection.png#lightbox)
 
-8. After you have made your selections, press the **Install** button.
-9. The installer will display progress as it downloads and installs Visual Studio for Mac and the selected workloads. You might be prompted to enter your password to grant the privileges necessary for installation.
-10. Once the installation has completed successfully, press the **Start** button to begin.
-11. Use the **Visual Studio (Preview)** anytime you want to test the preview version, or switch back to the latest stable Visual Studio for your production work. The two icons are shown here:
+7. After you have made your selections, press the **Install** button.
+8. The installer will display progress as it downloads and installs Visual Studio for Mac and the selected workloads. You might be prompted to enter your password to grant the privileges necessary for installation.
+9. Once the installation has completed successfully, press the **Start** button to begin.
+10. Use the **Visual Studio (Preview)** anytime you want to test the preview version, or switch back to the latest stable Visual Studio for your production work. The two icons are shown here:
 
     ![Stable and preview icon differences](media/install-preview-selection-sml.png)
 
