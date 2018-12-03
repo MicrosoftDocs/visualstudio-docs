@@ -1,6 +1,6 @@
 ---
 title: "What's new in Visual Studio 2019 Preview"
-description: "Learn about the new features in the preview of Visual Studio 2019."
+description: "Learn about the new features in the preview release of Visual Studio 2019."
 ms.custom: ""
 ms.date: 12/04/2018
 ms.prod: visual-studio-dev16
@@ -22,7 +22,7 @@ ms.workload:
 
 **Updated for the [16.0 Preview 1 release](/visualstudio/releases/2019/release-notes-preview?context=visualstudio/default&contextView=vs-2017)**
 
-Visual Studio 2019 Preview includes many general improvements along with new features that optimize developer productivity and team collaboration. Whether you are using Visual Studio for the first time or have been using it for years, you'll be able to take advantage of its features for all aspects of the development lifecycle&mdash;from simplified project creation and code health management, to team- and open-source collaborative workflows.
+Visual Studio 2019 Preview includes many general improvements along with new features that optimize developer productivity and team collaboration. Whether you are using Visual Studio for the first time or you've been using it for years, you'll be able to take advantage of its features for all aspects of the development lifecycle&mdash;from simplified project creation and code health management, to team- and open-source collaborative workflows.
 
 Here's a high-level recap of what Visual Studio has to offer:
 
@@ -79,7 +79,7 @@ And with Visual Studio 2019 Preview, this service is installed by default.
 
 ## Modern development support
 
-### Manage pull requests from the IDE
+### Manage pull requests (PRs) from the IDE
 
 We're introducing a new extension that you can download to use with Visual Studio 2019 Preview. With this new extension, you can review, run, and even debug pull requests from your team without leaving the Visual Studio IDE [(integrated development environment)](../ide/visual-studio-ide.md). We support code in Azure Repos today, but are expanding to support GitHub and improve the overall experience.
 
@@ -101,11 +101,11 @@ If you use monitors that are configured with different display scale factors, or
 
 With the release of Visual Studio 2019 Preview 1, we are taking the first steps towards making Visual Studio a per-monitor aware (PMA) application. We're laying the foundational work that will allow Visual Studio to render correctly regardless of what display scale factors you use.  
 
-   ![The new per-monitor aware (PMA) display scaling in Visual Studio 2019](../ide/media/per-monitor-aware-dpi-scaling.png)
+   ![Per-monitor aware (PMA) rendering in Visual Studio 2019](../ide/media/per-monitor-aware-dpi-scaling.png)
 
 ### Visual Studio Intellicode
 
-Visual Studio IntelliCode is an extension that enhances your software development efforts by using artifical intelligence (AI). IntelliCode trains across 2,000 open source projects on GitHub&mdash;each with over 100 stars&mdash;to generate its recommendations.
+[Visual Studio IntelliCode](/visualstudio/intellicode/) is an extension that enhances your software development efforts by using artifical intelligence (AI). IntelliCode trains across 2,000 open-source projects on GitHub&mdash;each with over 100 stars&mdash;to generate its recommendations.
 
 Here are a few ways that Visual Studio IntelliCode can help enhance your productivity:
 
@@ -114,7 +114,7 @@ Here are a few ways that Visual Studio IntelliCode can help enhance your product
 * Find difficult-to-catch code issues
 * Focus code reviews by drawing attention to areas that really matter
 
-When we first previewed IntelliCode, we did so for C#. And now, new in Visual Studio 2019 Preview, we've added support for C++ and XAML.
+When we first previewed IntelliCode, we did so for C#. And now, new in Visual Studio 2019 Preview 1, we've added support for C++ and XAML.
 
 ## Give us feedback
 
