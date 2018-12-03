@@ -21,6 +21,8 @@
     href: npm-package-management.md
   - name: Develop without projects or solutions ("Open Folder")
     href: develop-javascript-code-without-solutions-projects.md
+  - name: Debug a Node.js application
+    href: debug-nodejs.md
   - name: Unit testing JavaScript code
     href: unit-testing-javascript-with-visual-studio.md
   - name: JavaScript IntelliSense
