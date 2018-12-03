@@ -1,5 +1,5 @@
 ---
-title: Change editor fonts and colors in Visual Studio 2017
+title: Change editor fonts and colors
 ms.date: 11/26/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
