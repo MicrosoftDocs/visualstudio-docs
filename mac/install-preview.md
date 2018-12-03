@@ -45,6 +45,11 @@ To build Xamarin apps for iOS or macOS, you'll also need:
 
     [![Choose which optional workload features you would like to install](media/install-preview-selection-sml.png)](media/install-preview-selection.png#lightbox)
 
+    > [!NOTE]
+    > If your current Visual Studio for Mac 2017 is older than version 7.7, you will be asked to approve an upgrade to the latest stable version (which is required to support side-by-side installation):
+    >
+    > ![Upgrading the stable version to 7.7 is required](media/install-preview-older-upgrade.png)
+
 7. After you have made your selections, press the **Install** button.
 8. The installer will display progress as it downloads and installs Visual Studio for Mac and the selected workloads. You might be prompted to enter your password to grant the privileges necessary for installation.
 9. Use the **Visual Studio (Preview)** anytime you want to test the preview version, or switch back to the latest stable Visual Studio for your production work. The two icons are shown here:
@@ -53,7 +58,7 @@ To build Xamarin apps for iOS or macOS, you'll also need:
 
 If you have network trouble while installing in a corporate environment, review the [installing behind a firewall or proxy](https://docs.microsoft.com/visualstudio/mac/installation#install-visual-studio-for-mac-behind-a-firewall-or-proxy-server) instructions.
 
-Learn more about the changes in the [release notes](https://docs.microsoft.com/visualstudio/releasenotes/vs2019-mac-preview-relnotes)
+Learn more about the changes in the [release notes](https://docs.microsoft.com/visualstudio/releasenotes/vs2019-mac-preview-relnotes).
 
 ::: zone-end
 ::: zone pivot="vsmac2017"
