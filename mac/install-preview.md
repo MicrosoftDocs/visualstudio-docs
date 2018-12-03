@@ -45,10 +45,9 @@ To build Xamarin apps for iOS or macOS, you'll also need:
 
     [![Choose which optional workload features you would like to install](media/install-preview-selection-sml.png)](media/install-preview-selection.png#lightbox)
 
-    > [!NOTE]
-    > If your current Visual Studio for Mac 2017 is older than version 7.7, you will be asked to approve an upgrade to the latest stable version (which is required to support side-by-side installation):
-    >
-    > ![Upgrading the stable version to 7.7 is required](media/install-preview-older-upgrade.png)
+    If your current Visual Studio for Mac 2017 is older than version 7.7, you will be asked to approve an upgrade to the latest stable version (which is required to support side-by-side installation). Press **Continue** to approve the upgrade:
+
+    ![Upgrading the stable version to 7.7 is required](media/install-preview-older-upgrade.png)
 
 7. After you have made your selections, press the **Install** button.
 8. The installer will display progress as it downloads and installs Visual Studio for Mac and the selected workloads. You might be prompted to enter your password to grant the privileges necessary for installation.
