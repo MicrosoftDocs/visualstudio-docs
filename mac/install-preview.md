@@ -28,29 +28,28 @@ To build Xamarin apps for iOS or macOS, you'll also need:
 ## Installing the preview
 
 1. Download the preview installer from the [Visual Studio for Mac preview page](https://aka.ms/vs4mac-preview).
-2. Once the download is complete, click the **VisualStudioforMacPreviewInstaller.dmg** to mount the installer, then run it by double-clicking the arrow logo.
+2. Once the download is complete, click the **VisualStudioforMacPreviewInstaller.dmg** to mount the installer, then run it by double-clicking the arrow logo:
 
     [![Click the large arrow to begin installation](media/install-preview-installer-sml.png)](media/install-preview-installer.png#lightbox)
 
 3. You may be presented with a warning about the application being downloaded from the Internet. Click **Open**.
-4. Wait while the installer checks your system.
+4. Wait while the installer checks your system:
 
     [![The installer checks your system for installed components](media/install-preview-checking-sml.png)](media/install-preview-checking.png#lightbox)
 
-5. An alert will appear asking you to acknowledge the privacy and license terms. Follow the links to read them, then press **Continue** if you agree.
+5. An alert will appear asking you to acknowledge the privacy and license terms. Follow the links to read them, then press **Continue** if you agree:
 
     [![Follow the links to the privacy and terms, then continue if you agree](media/install-preview-privacy-sml.png)](media/install-preview-privacy.png#lightbox)
 
-6. The list of available workloads is displayed. Select the ones you wish to use.
+6. The list of available workloads is displayed. Select the ones you wish to use:
 
     [![Choose which optional workload features you would like to install](media/install-preview-selection-sml.png)](media/install-preview-selection.png#lightbox)
 
 7. After you have made your selections, press the **Install** button.
 8. The installer will display progress as it downloads and installs Visual Studio for Mac and the selected workloads. You might be prompted to enter your password to grant the privileges necessary for installation.
-9. Once the installation has completed successfully, press the **Start** button to begin.
-10. Use the **Visual Studio (Preview)** anytime you want to test the preview version, or switch back to the latest stable Visual Studio for your production work. The two icons are shown here:
+9. Use the **Visual Studio (Preview)** anytime you want to test the preview version, or switch back to the latest stable Visual Studio for your production work. The two icons are shown here:
 
-    ![Stable and preview icon differences](media/install-preview-selection-sml.png)
+    ![Stable and preview icon differences](media/install-preview-icons-sml.png)
 
 If you have network trouble while installing in a corporate environment, review the [installing behind a firewall or proxy](https://docs.microsoft.com/visualstudio/mac/installation#install-visual-studio-for-mac-behind-a-firewall-or-proxy-server) instructions.
 
