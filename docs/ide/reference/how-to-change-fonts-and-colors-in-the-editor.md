@@ -1,5 +1,5 @@
 ---
-title: Change editor fonts and colors
+title: Change editor fonts and colors in Visual Studio 2017
 ms.date: 11/26/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
@@ -17,7 +17,7 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# How to: Change fonts and colors for the editor
+# How to: Change fonts and colors for the editor in Visual Studio 2017
 
 You can change the default font face, adjust the font size, and change the foreground and background colors for various text **Display items** in the code editor. When you change font settings, keep the following information in mind:
 
