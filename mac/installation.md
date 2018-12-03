@@ -10,7 +10,7 @@ ms.assetid: 22B1F2CD-32AE-464D-80AC-C8AB4786B015
 
 # Set up and Install Visual Studio for Mac
 
-## Setup
+## Requirements
 
 To start developing native, cross-platform apps when you download Visual Studio for Mac there are a couple of things that you must install and set up in preparation.
 
@@ -19,6 +19,9 @@ For working with iOS in Visual Studio you need the following pieces:
 * a Mac with macOS Sierra 10.12 or above
 * Xcode 8.3 or above. The latest stable version is usually recommended.
 * An Apple ID. If you don't have an Apple ID already you can create a new one at https://appleid.apple.com. It's necessary to have an Apple ID for installing and signing into Xcode.
+
+> [!TIP]
+> Visual Studio 2019 for Mac preview is [now available](install-preview.md) for testing.
 
 ## Install
 
