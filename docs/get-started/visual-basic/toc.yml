@@ -31,7 +31,7 @@
     - name: Compile and build
       href: ../../ide/compiling-and-building-in-visual-studio.md
     - name: Debug your code
-      href: ../../debugger/getting-started-with-the-debugger.md?toc=/visualstudio/visual-basic/toc.json&bc=/visualstudio/visual-basic/breadcrumb/toc.json
+      href: ../visual-basic/getting-started-with-the-debugger-vb.md
     - name: Unit testing
       href: ../../test/getting-started-with-unit-testing.md?toc=/visualstudio/visual-basic/toc.json&bc=/visualstudio/visual-basic/breadcrumb/toc.json
     - name: Deploy your project
