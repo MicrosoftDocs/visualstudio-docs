@@ -53,7 +53,7 @@ sections:
     - href: publish-nodejs-app-azure.md
       html: <p>Publish to Linux App Service</p>
       image:
-        src: https://docs.microsoft.com/media/common/logo_linux.svg  
+        src: https://docs.microsoft.com/media/logos/logo_linux.svg  
 - title: Develop Applications
   items:
   - type: paragraph
