@@ -82,7 +82,7 @@ sections:
       image:
         src: https://docs.microsoft.com/media/common/i_build.svg
       title: Compile and build
-    - href: ../../debugger/getting-started-with-the-debugger.md
+    - href: ../csharp/getting-started-with-the-debugger-cs.md
       html: <p></p>
       image:
         src: https://docs.microsoft.com/media/common/i_debug.svg

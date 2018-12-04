@@ -29,7 +29,7 @@
     - name: Compile and build
       href: ../../ide/compiling-and-building-in-visual-studio.md
     - name: Debug your code
-      href: ../../debugger/getting-started-with-the-debugger.md
+      href: ../csharp/getting-started-with-the-debugger-cs.md
     - name: Unit testing
       href: ../../test/getting-started-with-unit-testing.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
     - name: Deploy your project
