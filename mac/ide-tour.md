@@ -20,7 +20,7 @@ This article explores various sections of Visual Studio for Mac, providing a loo
 
 Visual Studio for Mac is organized into several sections for managing application files and settings, creating application code, and debugging.
 
-::: zone pivot="vsmac2019"
+::: moniker range="vsmac-2019"
 
 ## Visual Studio for Mac 2019 Start Window
 
@@ -35,8 +35,8 @@ Signed-in users will see the new _start window_, which shows a list of recent pr
 
 ![Choose from recent projects, or create something new](media/ide-tour-2019-start-projects.png)
 
-::: zone-end
-::: zone pivot="vsmac2017"
+::: moniker-end
+::: moniker range="vsmac-2017"
 
 ## Welcome Screen in Visual Studio for Mac 2017
 
@@ -51,7 +51,7 @@ The Welcome Screen contains the following sections:
 - **Recent Solutions** - Provides quick access to recently opened solutions, as well as convenient buttons to open or create projects.
 - **Developer News** - A news feed that keeps you up-to-date on the latest Microsoft Developer information.
 
-::: zone-end
+::: moniker-end
 
 ## Solutions and Projects
 

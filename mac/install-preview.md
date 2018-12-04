@@ -11,7 +11,7 @@ ms.assetid: 0E1EF257-9DE4-4653-9DF4-805CE007A1A1
 ---
 # Install a preview release
 
-::: zone pivot="vsmac2019"
+::: moniker range="vsmac-2019"
 
 > [!TIP]
 > Visual Studio 2019 for Mac preview is now available. For the first time, it is available to install side-by-side with the latest stable release of Visual Studio for Mac.
@@ -59,8 +59,8 @@ If you have network trouble while installing in a corporate environment, review 
 
 Learn more about the changes in the [release notes](https://docs.microsoft.com/visualstudio/releasenotes/vs2019-mac-preview-relnotes).
 
-::: zone-end
-::: zone pivot="vsmac2017"
+::: moniker-end
+::: moniker range="vsmac-2017"
 
 ## Install an update for Visual Studio 2017 for Mac
 
@@ -79,4 +79,4 @@ To install the preview of Visual Studio for Mac, use the following steps:
 
 For more information on updating in Visual Studio for Mac, see the [update](update.md) article.
 
-::: zone-end
+::: moniker-end
