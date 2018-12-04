@@ -14,7 +14,11 @@ ms.technology: vs-ide-test
 ---
 # Report load tests results for test comparisons or trend analysis
 
-You can generate Microsoft Excel load test reports that are based on two or more test results. Two types of load test reports are available:
+You can generate Microsoft Excel load test reports that are based on two or more test results.
+
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
+
+Two types of load test reports are available:
 
 - Run comparison&mdash;This report is actually two reports that display side-by-side comparison data using tables and bar charts.
 

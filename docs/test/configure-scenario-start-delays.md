@@ -19,6 +19,8 @@ For example, you might want to use the **Delay Start Time** property if you need
 
 Another example is that you might have one scenario that is only run at a certain time of the day. So, you want to delay the start of the scenario to simulate this.
 
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
+
 ## Specify the delay start time of a scenario
 
 You can specify a delay before the start of a scenario in a load test by using the Load Test Editor to change the **Delay Start Time** property in the **Properties** window.

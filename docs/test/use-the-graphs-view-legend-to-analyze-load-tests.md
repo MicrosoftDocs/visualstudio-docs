@@ -18,6 +18,8 @@ The Load Test Analyzer's Graphs view includes a legend panel that displays infor
 
 ![Graphs view legend](../test/media/load_viewlegend.png)
 
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
+
 The following information is contained within the legend:
 
 -   **Show on graph:** Use the check boxes to specify whether the line for a particular counter, such as **User load** or **Errors/Sec**, is plotted on the graph. Select a check box if you want the line to be plotted on the graph. Clear a check box to remove the plot line from the graph. When a plot line is removed, the statistics for the counter continue to display in the legend.
