@@ -103,7 +103,7 @@ With the release of Visual Studio 2019 Preview 1, we are taking the first steps 
 
    ![Per-monitor aware (PMA) rendering in Visual Studio 2019](../ide/media/per-monitor-aware-dpi-scaling.png)
 
-### Visual Studio Intellicode
+### Visual Studio IntelliCode
 
 [Visual Studio IntelliCode](/visualstudio/intellicode/) is an extension that enhances your software development efforts by using artifical intelligence (AI). IntelliCode trains across 2,000 open-source projects on GitHub&mdash;each with over 100 stars&mdash;to generate its recommendations.
 
@@ -114,7 +114,11 @@ Here are a few ways that Visual Studio IntelliCode can help enhance your product
 * Find difficult-to-catch code issues
 * Focus code reviews by drawing attention to areas that really matter
 
-When we first previewed IntelliCode, we did so for C#. And now, new in Visual Studio 2019 Preview 1, we've added support for C++ and XAML.
+We initially supported only C# when we first previewed the IntelliCode extension for Visual Studio. Now, we've added support for C++ and XAML in Visual Studio, too.
+
+And if you're using C#, we've also added the ability to train a custom model on your own code.
+
+For more information about the extension and to download it, see the [Visual Studio IntelliCode - Preview](https://go.microsoft.com/fwlink/?linkid=872707) page on Microsoft DevLabs.
 
 ## Give us feedback
 
