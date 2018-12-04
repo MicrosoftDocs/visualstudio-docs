@@ -17,6 +17,8 @@ ms.technology: vs-ide-test
 
 Visual Studio supports load test plug-ins which can control or enhance a load test. Load test plug-ins are user defined classes which implement the <xref:Microsoft.VisualStudio.TestTools.LoadTesting.ILoadTestPlugin> interface found in the <xref:Microsoft.VisualStudio.TestTools.LoadTesting> namespace. Load test plug-ins allow for custom load test control, such as, aborting a load test when a counter or error threshold is met. Use the properties on the <xref:Microsoft.VisualStudio.TestTools.LoadTesting.LoadTest> class to get or set load test parameters from user defined code. Use the events on the <xref:Microsoft.VisualStudio.TestTools.LoadTesting.LoadTest> class to attach delegates for notifications when the load test is running.
 
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
+
 > [!TIP]
 > Use the object browser to examine the <xref:Microsoft.VisualStudio.TestTools.LoadTesting> namespace. Both the Visual C# and Visual Basic editors offer IntelliSense support for coding with the classes in the namespace.
 

@@ -3,7 +3,7 @@ title: "Introducing Visual Studio for Mac"
 description: "This article introduces the features of Visual Studio for Mac"
 author: conceptdev
 ms.author: crdun
-ms.date: 05/06/2018
+ms.date: 11/03/2018
 ms.assetid: 3A130EC1-DD8C-4125-9034-B08D7AF7EA65
 ---
 
@@ -21,9 +21,12 @@ It includes features such as a rich editor, debugging, native platform integrati
 
 This article surveys various sections of Visual Studio for Mac and introduces features that make it a powerful tool to create cross-platform applications.
 
+> [!TIP]
+> Visual Studio 2019 for Mac preview is now available for testing. Follow these [installation instructions](install-preview.md) and check out the [IDE tour](ide-tour.md).
+
 ## Installation
 
-Follow the steps in the [Installation](installation.md) guide to download and install Visual Studio for Mac.
+Follow the steps in the [Installation](install-preview.md) guide to download and install Visual Studio for Mac.
 
 ## Language support
 
