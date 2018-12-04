@@ -27,13 +27,9 @@ The **Home** page has different functions depending on whether you're connected 
 > [!TIP]
 > For a comparison of the two version control systems, see [Choose the right version control for your project (Azure DevOps)](/azure/devops/repos/tfvc/comparison-git-tfvc).
 
-**Home** page with Git:
-
-![Team Explorer Home page with Git in Visual Studio 2019](media/team-explorer-reference/team-explorer-git.png)
-
-**Home** page with TFVC:
-
-![Team Explorer Home page with TFVC in Visual Studio 2017](media/team-explorer-reference/team-explorer-tfvc.png)
+| **Home** page with Git | **Home** page with TFVC |
+| - | - |
+| ![Team Explorer Home page with Git in Visual Studio 2019](media/team-explorer-reference/team-explorer-git.png) | ![Team Explorer Home page with TFVC in Visual Studio 2017](media/team-explorer-reference/team-explorer-tfvc.png) |
 
 ## Changes page (Git)
 

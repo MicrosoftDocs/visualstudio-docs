@@ -14,14 +14,14 @@ Use the **Team Explorer** tool window to coordinate your code efforts with other
 
 ![Team Explorer Home page in Visual Studio](media/team-explorer/team-explorer.png)
 
+> [!TIP]
+> If you open Visual Studio and **Team Explorer** doesn't appear, open it by choosing **View** > **Team Explorer** from the menu bar.
+
 ## Connect to a project or repository
 
 Connect to a project or repository on the **Connect** page.
 
 ![Connect page in Team Explorer](media/team-explorer/connect.png)
-
-> [!TIP]
-> If you open Visual Studio and **Team Explorer** doesn't appear, open it by choosing **View** > **Team Explorer** from the menu bar.
 
 To connect to a project:
 
@@ -33,13 +33,10 @@ To connect to a project:
 
    ![Connect to a project in Team Explorer](media/team-explorer/connect-project.png)
 
-For more information, see [Connect to a project (Azure DevOps)](/azure/devops/organizations/projects/connect-to-projects).
-
 > [!TIP]
 > If you need to create a new project or add users to a project, see [Create a project (Azure DevOps)](/azure/devops/organizations/projects/create-project) and [Add users to a project or team (Azure DevOps)](/azure/devops/organizations/security/add-users-team-project).
-
-The Git and TFVC repos support different pages and functions.
 
 ## See also
 
 - [Team Explorer reference](reference/team-explorer-reference.md)
+- [Connect to a project (Azure DevOps)](/azure/devops/organizations/projects/connect-to-projects)
