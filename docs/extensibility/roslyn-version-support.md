@@ -1,14 +1,15 @@
 ---
 title: Supported Roslyn package version mappings
 ms.date: 11/02/2018
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-sdk
 ms.topic: reference
-helpviewer_keywords: 
-  - roslyn package versions
+helpviewer_keywords:
+  - "roslyn package versions"
 author: gewarren
 ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "vssdk"
 ---
 # .NET compiler platform package version reference

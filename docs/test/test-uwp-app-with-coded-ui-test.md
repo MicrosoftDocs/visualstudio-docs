@@ -17,6 +17,8 @@ ms.workload:
 
 This article explains how to create a coded UI test for a Universal Windows Platform (UWP) app.
 
+[!INCLUDE [coded-ui-test-deprecation](includes/coded-ui-test-deprecation.md)]
+
 ## Create a UWP app to test
 
 The first step is to create a simple UWP app to run the test against.

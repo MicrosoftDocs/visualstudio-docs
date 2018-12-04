@@ -19,7 +19,7 @@ The Visual Studio debugger is a powerful tool. Before we show how to use it, we 
 
 ## Debugger vs. debugging
 
-The term *debugging* can mean a lot of different things, but most literally, it means removing bus from your code. Now, there are a lot of ways to do this. For example, you might debug by scanning your code looking for typos, or by using a code analyzer. You might debug code by using a performance profiler. Or, you might debug by using a *debugger*.
+The term *debugging* can mean a lot of different things, but most literally, it means removing bugs from your code. Now, there are a lot of ways to do this. For example, you might debug by scanning your code looking for typos, or by using a code analyzer. You might debug code by using a performance profiler. Or, you might debug by using a *debugger*.
 
 A debugger is a very specialized developer tool that attaches to your running app and allows you to inspect your code. In the debugging documentation for Visual Studio, this is typically what we mean when we say "debugging".
 
