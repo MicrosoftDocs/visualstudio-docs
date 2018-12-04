@@ -2,6 +2,23 @@
   "build": {
     "content": [
       {
+        "group": "vs-2017",
+        "src": "./",
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ]
+      },{
+        "group": "vs-2019",
+        "src": "./",
         "files": [
           "**/*.md",
           "**/*.yml"
@@ -18,6 +35,19 @@
     ],
     "resource": [
       {
+        "group": "vs-2017",
+        "src": "./",
+        "files": [
+          "**/*.png",
+          "**/*.jpg"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**"
+        ]
+      },{
+        "group": "vs-2019",
+        "src": "./",
         "files": [
           "**/*.png",
           "**/*.jpg"
@@ -55,10 +85,12 @@
     "dest": "mac",
     "groups": {
       "vsmac-2017": {
-        "moniker_range": "vsmac-2017"
+        "moniker_range": "vsmac-2017",
+        "dest": "2017"
       },
       "vsmac-2019": {
-        "moniker_range": ">= vs-2019"
+        "moniker_range": "vsmac-2019",
+        "dest": "2019"
       }
     },
     "markdownEngineName": "markdig"
