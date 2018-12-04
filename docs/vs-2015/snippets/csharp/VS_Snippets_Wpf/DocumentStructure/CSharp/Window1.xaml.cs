@@ -208,7 +208,7 @@ namespace SdkSample
             saveDialog.FileName = GetContentFolder() + @"\Structured.xps";
 
             // Show the "File Save" dialog.  If the user picks a file and
-            // clicks "OK", set it as the target ouput XPS structured file.
+            // clicks "OK", set it as the target output XPS structured file.
             if (saveDialog.ShowDialog() != true)  return;
             string xpsTargetFile = saveDialog.FileName;
 

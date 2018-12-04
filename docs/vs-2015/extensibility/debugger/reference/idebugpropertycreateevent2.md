@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugPropertyCreateEvent2 interface"
 ms.assetid: 33b3082b-a42e-488a-a1e4-dadf506f922c
 caps.latest.revision: 14
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugPropertyCreateEvent2

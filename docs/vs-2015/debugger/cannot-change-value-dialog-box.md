@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "variables [debugger], editing"
 ms.assetid: 19e930c2-5fbf-4c83-aae8-a1dc3f8fcae8
 caps.latest.revision: 12
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Cannot Change Value Dialog Box

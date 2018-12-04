@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "projects [Visual Studio SDK], opening items"
 ms.assetid: d1803f4a-24eb-44b0-b5d2-cb40c15534be
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Project Context

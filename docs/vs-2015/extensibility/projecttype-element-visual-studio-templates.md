@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "ProjectType element [Visual Studio project templates]"
 ms.assetid: ccf9d83f-c7f3-49c7-a31f-e1f22bec004c
 caps.latest.revision: 20
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # ProjectType Element (Visual Studio Templates)

@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], custom - multiple document views"
 ms.assetid: c7ec2366-91c4-477f-908d-e89068bdb3e3
 caps.latest.revision: 26
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Supporting Multiple Document Views

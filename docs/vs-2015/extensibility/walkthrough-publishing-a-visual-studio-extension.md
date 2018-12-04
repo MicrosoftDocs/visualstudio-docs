@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "web controls, publishing"
 ms.assetid: a7816161-0490-4043-86f5-0f7331ed83b3
 caps.latest.revision: 21
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Walkthrough: Publishing a Visual Studio Extension

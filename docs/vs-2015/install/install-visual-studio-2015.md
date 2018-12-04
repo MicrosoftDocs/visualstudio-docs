@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "visual studio installer"
 ms.assetid: da049020-cfda-40d7-8ff4-7492772b620f
 caps.latest.revision: 183
-author: "TerryGLee"
-ms.author: "tglee"
+author: TerryGLee
+ms.author: tglee
 manager: "ghogen"
 ---
 # Install Visual Studio 2015

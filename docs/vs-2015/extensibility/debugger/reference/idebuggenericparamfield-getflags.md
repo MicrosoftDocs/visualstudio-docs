@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "IDebugGenericParamField::GetFlags"
 ms.assetid: adcbbca1-8960-4c88-86b0-8b9467056c97
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugGenericParamField::GetFlags

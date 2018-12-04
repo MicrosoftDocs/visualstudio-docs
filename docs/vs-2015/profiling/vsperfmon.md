@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "profilng tools,VSPerfCmd"
 ms.assetid: 37052afb-7a58-441f-bb17-f1587cc57068
 caps.latest.revision: 35
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # VSPerfMon

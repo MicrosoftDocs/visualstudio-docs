@@ -22,8 +22,8 @@ helpviewer_keywords:
   - "properties [debugger], setting with IIS administration tool"
 ms.assetid: 9efc50bf-02fb-4750-9b3e-f03c38f10d8b
 caps.latest.revision: 15
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Verify IIS Property Settings

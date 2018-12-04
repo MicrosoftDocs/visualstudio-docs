@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "projects [Visual Studio SDK], nesting"
 ms.assetid: d20b8d6a-f0e0-4115-b3a3-edda893ae678
 caps.latest.revision: 18
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # How to: Implement Nested Projects

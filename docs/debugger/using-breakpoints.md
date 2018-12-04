@@ -1,7 +1,7 @@
 ---
 title: "Use breakpoints in the Visual Studio debugger | Microsoft Docs"
 ms.custom: "H1Hack27Feb2017"
-ms.date: "02/07/2018"
+ms.date: "10/15/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
@@ -38,12 +38,14 @@ ms.workload:
   - "multiple"
 ---
 # Use breakpoints in the Visual Studio debugger
-Breakpoints are one of the most important debugging techniques in your developer's toolbox. You set breakpoints wherever you want to pause debugger execution. For example, you may want to see the state of code variables or look at the call stack at a certain breakpoint.  
+Breakpoints are one of the most important debugging techniques in your developer's toolbox. You set breakpoints wherever you want to pause debugger execution. For example, you may want to see the state of code variables or look at the call stack at a certain breakpoint. If this is the first time that you've tried to debug code, you may want to read [Debugging for absolute beginners](../debugger/debugging-absolute-beginners.md) before going through this article.
   
 ##  <a name="BKMK_Overview"></a> Set breakpoints in source code  
  You can set a breakpoint on any line of executable code. For example, in the following C# code, you could set a breakpoint on the variable declaration, the `for` loop, or any code inside the `for` loop. You can't set a breakpoint on the namespace or class declarations, or on the method signature.  
 
  To set a breakpoint in source code, click in the far left margin next to a line of code. You can also select the line and press **F9**, select **Debug** > **Toggle Breakpoint**, or right-click and select **Breakpoint** > **Insert breakpoint**. The breakpoint appears as a red dot in the left margin.  
+
+In C# code, breakpoint and current execution lines are automatically highlighted. For C++ code, you can turn on highlighting of breakpoint and current lines by selecting **Tools** (or **Debug**) > **Options** > **Debugging** >  **Highlight entire source line for breakpoints and current statement (C++ only)**. 
   
  ![Set a breakpoint](../debugger/media/basicbreakpoint.png "Basic breakpoint")  
   
@@ -299,5 +301,7 @@ Enclose string values in double quotes. You can combine clauses using `&` (AND),
 Tracepoints appear as red diamonds in the left margin of the source code and **Breakpoints** windows. 
   
 ## See also  
-[Troubleshoot breakpoints in the Visual Studio debugger](../debugger/troubleshooting-breakpoints.md)  
-[Navigating through code with the debugger](../debugger/navigating-through-code-with-the-debugger.md)
+ [What is debugging?](../debugger/what-is-debugging.md)  
+ [Write better C# code using Visual Studio](../debugger/write-better-code-with-visual-studio.md)  
+ [First look at debugging](../debugger/debugger-feature-tour.md)  
+ [Troubleshoot breakpoints in the Visual Studio debugger](../debugger/troubleshooting-breakpoints.md)  

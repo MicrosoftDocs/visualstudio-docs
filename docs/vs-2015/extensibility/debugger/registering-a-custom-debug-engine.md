@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "debug engines, registering"
 ms.assetid: 9984cd3d-d34f-4662-9ace-31766499abf5
 caps.latest.revision: 7
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Registering a Custom Debug Engine

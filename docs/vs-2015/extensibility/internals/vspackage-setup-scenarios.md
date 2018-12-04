@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "VSPackages, deployment considerations"
 ms.assetid: d2928498-f27c-46b4-a9cd-cba41fd85a10
 caps.latest.revision: 22
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # VSPackage Setup Scenarios

@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "profiling tools, configuring"
 ms.assetid: 820cf192-7fd6-4bee-9a51-aa69154aca85
 caps.latest.revision: 14
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Filtering Report Views

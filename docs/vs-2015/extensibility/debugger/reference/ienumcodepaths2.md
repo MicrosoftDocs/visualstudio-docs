@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IEnumCodePaths2 interface"
 ms.assetid: 17ec9f9e-dc06-4532-b5db-da52efcc8630
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IEnumCodePaths2

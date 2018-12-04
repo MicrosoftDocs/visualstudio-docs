@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugBinder::Bind method"
 ms.assetid: 15a11ad7-0fcc-4e80-ae34-8a7dd7bae3c3
 caps.latest.revision: 13
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugBinder::Bind

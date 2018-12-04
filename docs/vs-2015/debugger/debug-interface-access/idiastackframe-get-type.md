@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaStackFrame::get_type method"
 ms.assetid: 99daa97b-5c05-455d-bd1e-800762ccf7c9
 caps.latest.revision: 14
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaStackFrame::get_type

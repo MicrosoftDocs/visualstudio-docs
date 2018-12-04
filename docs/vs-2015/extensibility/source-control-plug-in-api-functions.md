@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "source control plug-ins, functions"
 ms.assetid: 4b0536dd-4f92-4ef2-9031-4548281f37aa
 caps.latest.revision: 20
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Source Control Plug-in API Functions

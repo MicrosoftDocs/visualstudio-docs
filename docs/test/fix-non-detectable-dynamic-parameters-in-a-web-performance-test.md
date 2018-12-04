@@ -25,6 +25,8 @@ Some websites use dynamic parameters to process some of their web requests. A dy
 
 Some types of dynamic parameters are not detected. An undetected dynamic parameter will cause your web performance test to fail when you run it because the dynamic value will be different every time that the test is run. To handle these parameters correctly, you can add extraction rules to dynamic parameters in your web performance tests manually.
 
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
+
 ## Create and run a web app with dynamic parameters
 
 To demonstrate both a detectable and a non-detectable dynamic parameter, we’ll create a simple ASP.NET web application that has three web forms with a few controls and some custom code. We’ll then learn how to isolate the dynamic parameters and how to handle them.
@@ -182,7 +184,7 @@ To demonstrate both a detectable and a non-detectable dynamic parameter, we’ll
 
 3.  Return to the Web Performance Test Results Viewer and select the *JScriptQuery.aspx* page that failed. Then, choose the request tab, verify that the show raw data check box is cleared, scroll down and choose quick find on the CustomQueryString.
 
-     ![Use quick find to isolate the dynamic paramter](../test/media/web_test_dynamicparameter_runresultsquckfind.png)
+     ![Use quick find to isolate the dynamic parameter](../test/media/web_test_dynamicparameter_runresultsquckfind.png)
 
 4.  We know from looking at the test editor, that the *JScriptQuery.aspx* request's CustomQueryString was assigned a value of: `jScriptQueryString___1v0yhyiyr0raa2w4j4pwf5zl`, and that the suspected dynamic portion is "1v0yhyiyr0raa2w4j4pwf5zl". In the find what drop-down list, remove the suspect portion of the search string. The string should be "CustomQueryString=jScriptQueryString___".
 

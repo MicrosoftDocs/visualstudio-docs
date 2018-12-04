@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugProperty3::GetCustomViewerCount"
 ms.assetid: dc5bb3e4-dc85-46e4-98fa-c6be8583b985
 caps.latest.revision: 13
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugProperty3::GetCustomViewerCount

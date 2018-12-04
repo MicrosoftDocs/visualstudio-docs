@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "BP_ERROR_TYPE enumeration"
 ms.assetid: c483eaab-db29-46de-bfdb-5c2a9a9cfb68
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # BP_ERROR_TYPE

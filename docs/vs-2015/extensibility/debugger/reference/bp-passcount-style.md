@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "BP_PASSCOUNT_STYLE structure"
 ms.assetid: 0a647047-e2d5-4724-a0b8-68108425ecad
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # BP_PASSCOUNT_STYLE

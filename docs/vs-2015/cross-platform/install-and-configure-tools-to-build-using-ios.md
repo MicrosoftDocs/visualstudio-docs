@@ -13,8 +13,8 @@ dev_langs:
   - "C++"
 ms.assetid: d0c311c9-9eb9-42c5-ba07-25604362cd28
 caps.latest.revision: 13
-author: "BrianPeek"
-ms.author: "brpeek"
+author: corob-msft
+ms.author: corob
 manager: "ghogen"
 ---
 # Install And Configure Tools to Build using iOS

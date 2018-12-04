@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "IDebugBeforeSymbolSearchEvent2 interface"
 ms.assetid: 679fd7b1-765a-41a8-a046-63240c09a499
 caps.latest.revision: 9
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugBeforeSymbolSearchEvent2

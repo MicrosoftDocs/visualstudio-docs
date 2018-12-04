@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "CvCreateDefaultMarkerSeriesOfDefaultProvider method"
 ms.assetid: 24eb80f8-8fca-4c47-93b5-bb1eb8ffdffd
 caps.latest.revision: 7
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # CvCreateDefaultMarkerSeriesOfDefaultProvider Function

@@ -22,6 +22,8 @@ You can create a load test plug-in to run code at different times while the load
 > [!NOTE]
 > You can also create plug-ins for web performance tests. For more information, see [How to: Create a web performance test plug-in](../test/how-to-create-a-web-performance-test-plug-in.md)
 
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
+
 ## To create a load test plug-in by using Visual C#
 
 1.  Open a web performance and load test project that contains a web performance test.

@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "msi files, VSPackages"
 ms.assetid: 0ce7c21d-0d3f-47fe-a0bb-eed506e32609
 caps.latest.revision: 21
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Authoring a Windows Installer Package

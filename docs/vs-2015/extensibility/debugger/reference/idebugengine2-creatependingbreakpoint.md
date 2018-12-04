@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugEngine2::CreatePendingBreakpoint"
 ms.assetid: 92e85b90-a931-48d9-89a7-a6edcb83ae5a
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugEngine2::CreatePendingBreakpoint

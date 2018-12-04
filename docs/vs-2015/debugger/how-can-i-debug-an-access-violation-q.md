@@ -22,8 +22,8 @@ helpviewer_keywords:
   - "debugging [Visual Studio], access violations"
 ms.assetid: 9311d754-0ce9-4145-b147-88b6ca77ba63
 caps.latest.revision: 21
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How Can I Debug an Access Violation?

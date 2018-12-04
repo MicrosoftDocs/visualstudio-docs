@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "Concurrency Visualizer, Zoom Control (CPU Utilization View)"
 ms.assetid: 8aeff804-0183-4588-8218-52e107a5382e
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Zoom Control (Utilization View)

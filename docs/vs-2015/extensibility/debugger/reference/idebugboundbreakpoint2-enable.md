@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "IDebugBoundBreakpoint2::Enable method"
 ms.assetid: 1b4e3f73-c94d-4aa3-9aa8-0d8cb8a6c5ca
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugBoundBreakpoint2::Enable

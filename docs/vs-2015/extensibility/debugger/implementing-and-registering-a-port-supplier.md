@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "port suppliers, registering"
 ms.assetid: fb057052-ee16-4272-8e16-a4da5dda0ad4
 caps.latest.revision: 18
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Implementing and Registering a Port Supplier

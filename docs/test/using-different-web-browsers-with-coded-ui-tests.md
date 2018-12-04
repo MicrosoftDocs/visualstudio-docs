@@ -1,5 +1,5 @@
 ---
-title: "Using Different Web Browsers with Coded UI Tests in Visual Studio"
+title: "Using Different Web Browsers with Coded UI Tests"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
@@ -13,6 +13,8 @@ author: gewarren
 # Use different web browsers with coded UI tests
 
 Coded UI tests can automate testing for web applications by recording your tests using Internet Explorer. You can then customize your test and play it back using either Internet Explorer or other browser types for these web applications.
+
+[!INCLUDE [coded-ui-test-deprecation](includes/coded-ui-test-deprecation.md)]
 
 First, install the [Selenium components for coded UI cross browser testing](https://marketplace.visualstudio.com/items?itemName=AtinBansal.SeleniumcomponentsforCodedUICrossBrowserTesting).
 

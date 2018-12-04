@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "DIA SDK, interfaces"
 ms.assetid: 62aee7c3-d314-4272-a32b-b2818f32fab8
 caps.latest.revision: 19
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Interfaces (Debug Interface Access SDK)

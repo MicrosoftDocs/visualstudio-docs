@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "UML, validation"
 ms.assetid: deed5092-c11d-4431-a801-1e866a103075
 caps.latest.revision: 12
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
 manager: "douge"
 ---

@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "debugging [Visual Studio], Code Center Premium"
 ms.assetid: 18b4769d-b007-4428-9dae-9e72c283ff0d
 caps.latest.revision: 26
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Debug with Code Center Premium Source

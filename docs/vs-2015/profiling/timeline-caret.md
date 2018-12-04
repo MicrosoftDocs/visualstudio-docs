@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "Concurrency Visualizer, Timeline Caret"
 ms.assetid: cc7d567f-b655-4539-810c-6506e7852121
 caps.latest.revision: 17
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Timeline Caret

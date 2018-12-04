@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "tool windows, adding search"
 ms.assetid: f78c4892-8060-49c4-8ecd-4360f1b4d133
 caps.latest.revision: 39
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Adding Search to a Tool Window

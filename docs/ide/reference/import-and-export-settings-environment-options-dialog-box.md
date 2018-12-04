@@ -17,6 +17,6 @@ ms.workload:
 
 Use this page to specify where your user settings file is saved and whether to use a team settings file. For more information about settings, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).
 
-### See Also
+### See also
 
 - [Environment Options Dialog Box](../../ide/reference/environment-options-dialog-box.md)

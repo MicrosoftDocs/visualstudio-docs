@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaStackWalker2 interface"
 ms.assetid: 00c73cf9-2933-472e-bc1d-d041f4d7e412
 caps.latest.revision: 13
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_isCTypes

@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "VSCT XML schema elements"
 ms.assetid: 49e7efae-e713-4762-a824-96fdaf92cdc9
 caps.latest.revision: 15
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # VSCT XML Schema Reference

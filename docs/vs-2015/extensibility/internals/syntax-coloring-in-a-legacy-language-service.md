@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "language services, syntax coloring"
 ms.assetid: f65ff67e-8c20-497a-bebf-5e2a5b5b012f
 caps.latest.revision: 23
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Syntax Coloring in a Legacy Language Service

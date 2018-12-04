@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugThread2::Suspend"
 ms.assetid: 1e20be85-aa12-48de-bb83-0bf0976e99ae
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugThread2::Suspend

@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "changing visual studio"
 ms.assetid: 3399ea7b-a291-4a9e-80a1-b861a21afa1d
 caps.latest.revision: 12
-author: "TerryGLee"
-ms.author: "tglee"
+author: TerryGLee
+ms.author: tglee
 manager: "ghogen"
 ---
 # Modify Visual Studio 2017

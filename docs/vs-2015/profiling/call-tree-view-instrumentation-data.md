@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "Call Tree view"
 ms.assetid: 306bd176-0ce9-4a10-89ca-20b043d37d4e
 caps.latest.revision: 16
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Call Tree View - Instrumentation Data

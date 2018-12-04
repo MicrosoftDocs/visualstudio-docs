@@ -18,7 +18,7 @@ helpviewer_keywords:
   - "localize vsct"
 ms.assetid: b04ee0f6-82ea-47e6-853a-72382267d6da
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Localizing Menu Commands

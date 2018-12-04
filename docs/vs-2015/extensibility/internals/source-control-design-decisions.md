@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "source control [Visual Studio SDK], design decisions"
 ms.assetid: 5f60ec1a-5a74-4362-8293-817a4dd73872
 caps.latest.revision: 13
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Source Control Design Decisions

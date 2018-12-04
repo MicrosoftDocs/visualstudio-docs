@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "source control [Visual Studio SDK], what's new"
 ms.assetid: bcf85418-18fb-4824-9dae-d14bf3d56a77
 caps.latest.revision: 28
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # What&#39;s New in Source Control

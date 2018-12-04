@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d79260be-6234-4fd3-89b5-a9756b4a93c1
 caps.latest.revision: 11
-author: "TerryGLee"
-ms.author: "tglee"
+author: TerryGLee
+ms.author: tglee
 manager: "ghogen"
 ---
 # How to: Automatically apply product keys when deploying Visual Studio

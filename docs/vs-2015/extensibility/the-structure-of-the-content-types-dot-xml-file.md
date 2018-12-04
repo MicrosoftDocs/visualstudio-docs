@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "vsix"
 ms.assetid: 9c399598-b9fa-4da7-84b5-defbf82e9335
 caps.latest.revision: 9
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # The Structure of the Content_types].xml File

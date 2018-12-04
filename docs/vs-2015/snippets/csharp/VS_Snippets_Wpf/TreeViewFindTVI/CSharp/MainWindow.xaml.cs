@@ -254,7 +254,7 @@ namespace TreeViewFindTVI
     public class MyVirtualizingStackPanel : VirtualizingStackPanel
     {
         /// <summary>
-        /// Publically expose BringIndexIntoView.
+        /// Publicly expose BringIndexIntoView.
         /// </summary>
         public void BringIntoView(int index)
         {

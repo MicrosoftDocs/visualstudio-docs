@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "services, providing"
 ms.assetid: 12bc1f12-47b1-44f6-b8db-862aa88d50d1
 caps.latest.revision: 23
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # How to: Provide a Service

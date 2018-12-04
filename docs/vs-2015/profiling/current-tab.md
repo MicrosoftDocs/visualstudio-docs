@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "Concurrency Visualizer, Callstack at Selection Point"
 ms.assetid: 2c7b1ae5-3756-4795-bc59-f6bb113f2ba5
 caps.latest.revision: 15
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Current Tab

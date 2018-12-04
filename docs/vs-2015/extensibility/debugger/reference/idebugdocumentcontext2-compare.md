@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugDocumentContext2::Compare"
 ms.assetid: 2327b1ba-52d0-42fb-a01e-63cb4b332d2f
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugDocumentContext2::Compare

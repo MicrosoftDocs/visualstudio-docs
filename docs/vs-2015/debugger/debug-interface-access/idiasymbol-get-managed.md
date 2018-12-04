@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSymbol::get_managed method"
 ms.assetid: a69d00be-2a89-415c-b116-385c422e2fd5
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_managed

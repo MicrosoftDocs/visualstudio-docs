@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugBreakpointRequest3"
 ms.assetid: 8a042beb-b319-48e3-b3c8-9c8336ab371b
 caps.latest.revision: 9
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugBreakpointRequest3

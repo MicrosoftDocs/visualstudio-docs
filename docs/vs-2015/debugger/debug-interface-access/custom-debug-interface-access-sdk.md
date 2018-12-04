@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "Custom symbol"
 ms.assetid: a219fc83-d2a8-4bc5-b7e1-bfafeb247f16
 caps.latest.revision: 19
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Custom (Debug Interface Access SDK)

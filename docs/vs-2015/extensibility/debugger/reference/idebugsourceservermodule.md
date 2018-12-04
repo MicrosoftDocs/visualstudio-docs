@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "IDebugSourceServerModule interface"
 ms.assetid: 38213060-451d-46e6-8b4a-efc123e01a2c
 caps.latest.revision: 9
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugSourceServerModule

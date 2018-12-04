@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugEngineLaunch2::CanTerminateProcess"
 ms.assetid: 7973454d-c957-4123-a0ee-80ebcdbbd2d1
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugEngineLaunch2::CanTerminateProcess

@@ -1,7 +1,7 @@
 ---
 title: "Specify symbol (.pdb) and source files in the debugger | Microsoft Docs"
 ms.custom: "H1Hack27Feb2017"
-ms.date: "04/05/2018"
+ms.date: "10/08/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
@@ -30,7 +30,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Specify symbol (.pdb) and source files in the Visual Studio debugger
+# Specify symbol (.pdb) and source files in the Visual Studio debugger (C#, C++, Visual Basic, F#)
 
 Program database (*.pdb*) files, also called symbol files, map identifiers and statements in your project's source code to corresponding identifiers and instructions in compiled apps. 
 

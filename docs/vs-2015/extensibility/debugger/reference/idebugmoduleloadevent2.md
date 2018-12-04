@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugModuleLoadEvent2 interface"
 ms.assetid: 7d26fb23-5d49-4ba7-b7c5-3aed4d7be81e
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugModuleLoadEvent2

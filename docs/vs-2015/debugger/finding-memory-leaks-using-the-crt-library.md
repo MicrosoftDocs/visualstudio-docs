@@ -32,8 +32,8 @@ helpviewer_keywords:
   - "_CrtSetDbgFlag"
 ms.assetid: cf6dc7a6-cd12-4283-b1b6-ea53915f7ed1
 caps.latest.revision: 33
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Finding Memory Leaks Using the CRT Library

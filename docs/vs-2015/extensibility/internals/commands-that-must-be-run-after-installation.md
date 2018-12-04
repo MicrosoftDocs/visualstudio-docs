@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "post-install commands"
 ms.assetid: c9601f2e-2c6e-4da9-9a6e-e707319b39e2
 caps.latest.revision: 23
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Commands That Must Be Run After Installation

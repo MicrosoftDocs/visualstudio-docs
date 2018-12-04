@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "Concurrency::diagnostic::marker_importance enumeration"
 ms.assetid: d5524ea0-0227-4d8e-9122-332291042df5
 caps.latest.revision: 8
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # marker_importance Enumeration

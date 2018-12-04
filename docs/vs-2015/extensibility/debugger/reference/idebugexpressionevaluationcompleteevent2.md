@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugExpressionEvaluationCompleteEvent2"
 ms.assetid: d538fc19-55bf-4231-9595-eb01e84fd1d8
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugExpressionEvaluationCompleteEvent2

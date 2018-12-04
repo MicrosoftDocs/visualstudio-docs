@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "property pages, changing configuration options"
 ms.assetid: b9b3e6e8-1e30-4c89-9862-330265dcf38c
 caps.latest.revision: 13
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Property Pages

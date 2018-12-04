@@ -17,7 +17,7 @@ helpviewer_keywords:
   - "sequence diagrams, control flow"
 ms.assetid: efcc0949-be7e-4cf4-99ef-47c36b3803ae
 caps.latest.revision: 17
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
 manager: "douge"
 ---

@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "IDebugProgramNode2::GetHostMachineNameIDebugProgramNode2::GetHostMachineName"
 ms.assetid: a992f2c9-f68b-4146-8cc2-027753bf7ce6
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugProgramNode2::GetHostMachineName_V7

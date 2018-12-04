@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "command routing, Visual Studio SDK"
 ms.assetid: a9c7f9ae-3594-4557-a314-8cf76f5f8772
 caps.latest.revision: 25
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Command Routing in VSPackages

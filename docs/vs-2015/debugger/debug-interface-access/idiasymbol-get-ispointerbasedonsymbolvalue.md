@@ -13,8 +13,8 @@ dev_langs:
   - "C++"
 ms.assetid: 577c8011-9269-4373-8577-b4822a983724
 caps.latest.revision: 6
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_isPointerBasedOnSymbolValue

@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "Shell integrated mode [Visual Studio], serviceability"
 ms.assetid: 747d1a47-b8b3-4e8b-93c0-768724be48f2
 caps.latest.revision: 16
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Servicing Guidelines for Isolated Shell Applications

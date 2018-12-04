@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "debug engines, AsyncTaskMethodBuilder<TResult> structure [.NET Framework]"
 ms.assetid: 17ebc340-8170-4aff-bf54-dc4548c83632
 caps.latest.revision: 5
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # AsyncTaskMethodBuilder&lt;TResult&gt; Structure - Internal Members

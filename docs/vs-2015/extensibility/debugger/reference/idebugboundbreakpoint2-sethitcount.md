@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "IDebugBoundBreakpoint2::SetHitCount method"
 ms.assetid: 8145d875-26b1-4049-a2a2-e7d3d7f4735f
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugBoundBreakpoint2::SetHitCount

@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "IDebugFirewallConfigurationCallback2::EnsureDCOMUnblocked"
 ms.assetid: acf54d27-32a6-47e7-aba6-3cc0004edc7f
 caps.latest.revision: 7
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugFirewallConfigurationCallback2::EnsureDCOMUnblocked

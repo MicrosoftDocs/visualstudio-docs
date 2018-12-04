@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugPortEx2::GetPortProcessId"
 ms.assetid: be85be66-47e6-415f-b0ca-24599aa5f13c
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugPortEx2::GetPortProcessId

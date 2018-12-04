@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "Window Properties dialog box, Styles Tab"
 ms.assetid: 4ac1eae8-d6ce-4f05-98f0-a29065f471d4
 caps.latest.revision: 7
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Styles Tab, Window Properties Dialog Box

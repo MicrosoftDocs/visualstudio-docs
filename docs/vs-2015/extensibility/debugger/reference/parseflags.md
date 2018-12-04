@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "PARSEFLAGS enumeration"
 ms.assetid: 47943f0a-54cb-4493-a62e-5dba97bd4c35
 caps.latest.revision: 10
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # PARSEFLAGS

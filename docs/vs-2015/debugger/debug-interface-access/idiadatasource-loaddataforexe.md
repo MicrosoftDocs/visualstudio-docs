@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaDataSource::loadDataForExe method"
 ms.assetid: d94a1068-f53f-44b5-b6fb-00dec361a7f2
 caps.latest.revision: 15
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaDataSource::loadDataForExe

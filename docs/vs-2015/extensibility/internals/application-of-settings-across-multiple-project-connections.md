@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "source control plug-ins, application of settings"
 ms.assetid: 2116d3d0-c46c-4d0a-b482-08a178584f46
 caps.latest.revision: 16
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Application of Settings Across Multiple Project Connections

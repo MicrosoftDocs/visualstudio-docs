@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "debug engines, detaching from programs"
 ms.assetid: 268c1e51-6363-45d1-964c-1ab99bdfa4f9
 caps.latest.revision: 8
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Termination and Detaching

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugPortSupplier2::AddPort"
 ms.assetid: df491161-6bf3-4fcc-b478-b9ec88ec995f
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugPortSupplier2::AddPort

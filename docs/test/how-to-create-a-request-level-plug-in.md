@@ -16,6 +16,8 @@ ms.technology: vs-ide-test
 
 *Requests* are the declarative statements that constitute web performance tests. Web performance test plug-ins enable you to isolate and reuse code outside the main declarative statements in your web performance test. You can create plug-ins and add them to an individual request as well as to the web performance test that contains it. A customized  *request plug-in* offers you a way to call code as a particular request is run in a web performance test.
 
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
+
 Every web performance test request plug-in has a PreRequest method and a PostRequest method. After you attach a request plug-in to a particular http request, the PreRequest event will be fired before the request is issued and the PostRequest fired after the response is received.
 
 You can create a customized web performance test request plug-in by deriving your own class from the <xref:Microsoft.VisualStudio.TestTools.WebTesting.WebTestRequestPlugin> base class.

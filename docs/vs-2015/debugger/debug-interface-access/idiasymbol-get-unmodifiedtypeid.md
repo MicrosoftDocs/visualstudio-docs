@@ -13,8 +13,8 @@ dev_langs:
   - "C++"
 ms.assetid: 4f7fc73c-f524-4d7a-b378-a9ab99a96104
 caps.latest.revision: 6
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_unmodifiedTypeId

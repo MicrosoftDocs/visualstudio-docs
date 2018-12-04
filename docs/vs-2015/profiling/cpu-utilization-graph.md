@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "CPU Utilization GraphConcurrency Visualizer, CPU Utilization Graph"
 ms.assetid: 5332fd38-622d-47a3-874f-8c2fd7a30f95
 caps.latest.revision: 19
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # CPU Utilization Graph

@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSectionContrib::get_nopad method"
 ms.assetid: f5c08603-0b3e-4e81-acf1-1b95a6a83bed
 caps.latest.revision: 9
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSectionContrib::get_nopad

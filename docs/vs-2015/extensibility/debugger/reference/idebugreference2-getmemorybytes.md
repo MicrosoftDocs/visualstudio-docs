@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugReference2::GetMemoryBytes"
 ms.assetid: 2006cb2b-1dfa-4a2d-8e3e-db2ce0302e0d
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugReference2::GetMemoryBytes

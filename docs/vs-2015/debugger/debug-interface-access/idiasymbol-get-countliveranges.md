@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSymbol::get_countLiveRanges"
 ms.assetid: 55f79e1a-d4c2-42cd-ab37-d8253b20e34c
 caps.latest.revision: 10
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_countLiveRanges

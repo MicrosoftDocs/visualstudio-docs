@@ -1,7 +1,7 @@
 ---
 title: "Edit and Continue error message dialog box| Microsoft Docs"
 ms.custom: ""
-ms.date: "06/22/2018"
+ms.date: "10/15/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "reference"
 f1_keywords: 

@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "Domain-Specific Language, connectors"
 ms.assetid: 4f6dd6a3-850c-46a2-81a1-344b0e171b28
 caps.latest.revision: 13
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "kamrani"
 ---
 # Types of Shapes and Connectors - redirect

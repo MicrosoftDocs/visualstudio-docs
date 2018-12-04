@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "xaml start page"
 ms.assetid: 9af4d5f9-1cfc-4221-aea7-c8cd3f7571a6
 caps.latest.revision: 13
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Walkthrough: Adding Custom XAML to the Start Page

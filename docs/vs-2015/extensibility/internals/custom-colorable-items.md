@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "language services, custom colorable items"
 ms.assetid: b4d0ddee-c04b-48dc-ba82-f6068570cef0
 caps.latest.revision: 25
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Custom Colorable Items

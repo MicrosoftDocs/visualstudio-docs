@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "performance reports, customizing"
 ms.assetid: cb6f6d30-52a5-4d92-ab07-1d5ddb67884c
 caps.latest.revision: 23
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Customize Report View Columns

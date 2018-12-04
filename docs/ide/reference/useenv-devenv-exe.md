@@ -45,4 +45,4 @@ Devenv.exe /useenv
 
 ## See also
 
-* [Devenv Command Line Switches](../../ide/reference/devenv-command-line-switches.md)
+* [Devenv command-line switches](../../ide/reference/devenv-command-line-switches.md)

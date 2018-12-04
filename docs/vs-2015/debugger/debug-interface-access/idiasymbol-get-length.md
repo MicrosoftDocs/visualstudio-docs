@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaSymbol::get_length method"
 ms.assetid: cc62f028-d195-4fbf-93bc-10b08bef52d2
 caps.latest.revision: 13
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaSymbol::get_length

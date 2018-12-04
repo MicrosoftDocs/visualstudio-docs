@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: df44fe42-281b-4398-b3fc-277b62ae41f1
 caps.latest.revision: 36
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Attach the Profiler to a Native Stand-Alone Application and Collect Application Statistics by Using the Command Line

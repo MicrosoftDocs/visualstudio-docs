@@ -1,5 +1,5 @@
 ---
-title: Code analysis for managed code in Visual Studio
+title: Static code analysis for managed code
 ms.date: 03/26/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
@@ -15,9 +15,9 @@ manager: douge
 ms.workload:
   - "dotnet"
 ---
-# Overview of code analysis for managed code
+# Overview of static code analysis for managed code in Visual Studio
 
-Visual Studio 2017 analyzes managed code in two ways: with legacy *FxCop* static analysis of managed assemblies, and with .NET Compiler Platform *analyzers*. This topic covers FxCop static code analysis. To learn more about analyzing code by using .NET Compiler Platform analyzers, see [Overview of Roslyn analyzers](../code-quality/roslyn-analyzers-overview.md).
+Visual Studio 2017 can perform code analysis of managed code in two ways: with *FxCop* static analysis of managed assemblies, and with the more modern *Roslyn analyzers*. This topic covers FxCop static code analysis. To learn more about analyzing code by using code analyzers, see [Overview of Roslyn analyzers](../code-quality/roslyn-analyzers-overview.md).
 
 Code analysis for managed code analyzes managed assemblies and reports information about the assemblies, such as violations of the programming and design rules set forth in the Microsoft .NET Framework Design Guidelines.
 
@@ -45,7 +45,7 @@ Frequently, it is useful to indicate that a warning is non-applicable. This info
 In-source suppression of warnings is implemented through custom attributes. To suppress a warning, add the attribute `SuppressMessage` to the source code as shown in the following example:
 
 ```csharp
-[System.Diagnosis.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1039:ListsAreStrongTyped")]
+[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1039:ListsAreStrongTyped")]
 Public class MyClass
 {
    // code

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "source control [Visual Studio SDK], plug-ins"
 ms.assetid: 85e73b73-29dc-464f-8734-ed308742c435
 caps.latest.revision: 18
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Best Practices for Implementing a Source Control Plug-in

@@ -18,6 +18,8 @@ ms.technology: vs-ide-test
 
 Threshold rules in load tests compare a performance counter value with either a constant value or another performance counter value.
 
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
+
 ## To add a threshold rule
 
 1.  Open a load test.

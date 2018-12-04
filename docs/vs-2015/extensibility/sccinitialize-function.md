@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "SccInitialize function"
 ms.assetid: 5bc0d28b-2c68-4d43-9e51-541506a8f76e
 caps.latest.revision: 15
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # SccInitialize Function

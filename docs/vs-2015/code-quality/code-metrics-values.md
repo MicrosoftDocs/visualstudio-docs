@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "measure code quality"
 ms.assetid: bc38831e-2083-4ea4-8527-ee41499a342f
 caps.latest.revision: 22
-author: "erickson-doug"
+author: gewarren
 ms.author: gewarren
 manager: "douge"
 ---

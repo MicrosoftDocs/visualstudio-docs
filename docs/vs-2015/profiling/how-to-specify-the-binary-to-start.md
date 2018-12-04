@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "performance sessions, launching"
 ms.assetid: ba77fcf4-8d78-49f1-b8f3-7dd0acf84306
 caps.latest.revision: 15
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Specify the Binary to Start

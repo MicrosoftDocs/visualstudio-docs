@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "DISASSEMBLY_FLAGS enumeration"
 ms.assetid: c1ec5a4d-5d42-4660-932c-7348550140cb
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # DISASSEMBLY_FLAGS

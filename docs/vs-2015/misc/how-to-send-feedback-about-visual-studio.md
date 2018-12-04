@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "sending feedback [Visual Studio]"
 ms.assetid: c9f1dd8f-bcb6-40ac-b896-1e9eca0bb209
 caps.latest.revision: 41
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # How to: Send Feedback About Visual Studio

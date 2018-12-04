@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaStackWalkHelper2::readMemory method"
 ms.assetid: e1eb90aa-49b7-476c-9e70-7e8f08994cbe
 caps.latest.revision: 14
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaStackWalkHelper::readMemory

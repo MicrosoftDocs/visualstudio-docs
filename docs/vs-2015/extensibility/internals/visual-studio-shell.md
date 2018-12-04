@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "Visual Studio, shell"
 ms.assetid: cb124ef4-1a6b-4bfe-bfbf-295ef9c07f36
 caps.latest.revision: 15
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Visual Studio Shell

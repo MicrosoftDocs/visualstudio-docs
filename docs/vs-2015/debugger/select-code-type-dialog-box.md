@@ -27,8 +27,8 @@ helpviewer_keywords:
   - "debugging engine selection dialog box"
 ms.assetid: 932269fe-94e3-43cb-8931-078f31afd177
 caps.latest.revision: 13
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Select Code Type Dialog Box

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugSymbolProvider::GetTypeByName method"
 ms.assetid: b9d88d3b-8b75-484a-b9cc-dc8c0fbb4bc8
 caps.latest.revision: 12
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugSymbolProvider::GetTypeByName

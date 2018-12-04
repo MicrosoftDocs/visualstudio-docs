@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IDiaStackWalkFrame interface"
 ms.assetid: 42d82845-d6f6-4846-9ecd-9dd169216077
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
+author: MikeJo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # IDiaStackWalkFrame

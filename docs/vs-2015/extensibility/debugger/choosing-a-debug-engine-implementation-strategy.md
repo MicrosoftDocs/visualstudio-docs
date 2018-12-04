@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "debug engines, implementation strategies"
 ms.assetid: 90458fdd-2d34-4f10-82dc-6d8f31b66d8b
 caps.latest.revision: 7
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # Choosing a Debug Engine Implementation Strategy

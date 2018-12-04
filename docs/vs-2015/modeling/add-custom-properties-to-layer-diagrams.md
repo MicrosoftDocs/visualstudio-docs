@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "layer diagrams, adding custom properties"
 ms.assetid: 52b3ac25-d10b-4507-a1fe-209ccb4d2777
 caps.latest.revision: 23
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
 manager: "douge"
 ---

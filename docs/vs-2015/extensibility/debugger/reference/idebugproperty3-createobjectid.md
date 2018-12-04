@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IDebugProperty3::CreateObjectID"
 ms.assetid: f2fa81e7-822f-456e-8729-a96a18eea771
 caps.latest.revision: 11
-ms.author: "gregvanl"
+ms.author: gregvanl
 manager: "ghogen"
 ---
 # IDebugProperty3::CreateObjectID

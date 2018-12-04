@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "activity diagrams, properties"
 ms.assetid: 9849d45e-65d5-46bd-a319-757e90b7c748
 caps.latest.revision: 19
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
 manager: "douge"
 ---
