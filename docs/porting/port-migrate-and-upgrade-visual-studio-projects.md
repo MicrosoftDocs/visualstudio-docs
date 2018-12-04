@@ -93,3 +93,7 @@ Refer to the following articles for further discussion:
 
 - [ToolsVersion guidance](../msbuild/msbuild-toolset-toolsversion.md)
 - [Framework targeting guidance](../ide/visual-studio-multi-targeting-overview.md)
+
+## See also
+
+[Project migration and upgrade reference for Visual Studio 2019 Preview](../ide/porting/port-migrate-upgrade-visual-studio-projects-2019.md)
