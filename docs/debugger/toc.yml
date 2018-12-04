@@ -4,27 +4,31 @@
   items:
   - name: "What is debugging?"
     href: what-is-debugging.md
-  - name: "Write better C# code with Visual Studio"
+  - name: Fix bugs by writing better C# code
     href: write-better-code-with-visual-studio.md
 - name: Quickstarts
   items:
   - name: First look at the debugger
     href: debugger-feature-tour.md
-  - name: Debug a managed app
+  - name: Debug a C# or Visual Basic app
     href: quickstart-debug-with-managed.md
-  - name: Debug a native app
+  - name: Debug a C++ app
     href: quickstart-debug-with-cplusplus.md
   - name: Debug an ASP.NET app
     href: quickstart-debug-aspnet.md
 - name: Tutorials
   items:
-  - name: Learn to debug using Visual Studio
+  - name: Learn to debug C#
     href: getting-started-with-the-debugger.md
+  - name: Learn to debug C++
+    href: getting-started-with-the-debugger-cpp.md
+  - name: Learn to debug Visual Basic
+    href: getting-started-with-the-debugger-vb.md
   - name: Running Python code in the debugger...
     href: ../python/tutorial-working-with-python-in-visual-studio-step-04-debugging.md
   - name: Debug a live Azure app
     href: debug-live-azure-applications.md
-  - name: Debug managed and native code
+  - name: Debug both C# and C++ code
     href: how-to-debug-managed-and-native-code.md
   - name: Inspect previous app states
     href: view-historical-application-state.md
@@ -104,7 +108,7 @@
       items:
       - name: Use Edit and Continue (C#)
         href: how-to-use-edit-and-continue-csharp.md
-      - name: Supported Code Changes (C#)
+      - name: Supported Code Changes
         href: supported-code-changes-csharp.md
     - name: Edit and Continue (Visual Basic)
       href: edit-and-continue-visual-basic.md

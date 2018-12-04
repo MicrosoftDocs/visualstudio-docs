@@ -238,7 +238,7 @@ End Class
 Public Class MyVirtualizingStackPanel
     Inherits VirtualizingStackPanel
     ''' <summary> 
-    ''' Publically expose BringIndexIntoView. 
+    ''' Publicly expose BringIndexIntoView. 
     ''' </summary> 
     Public Overloads Sub BringIntoView(ByVal index As Integer)
 

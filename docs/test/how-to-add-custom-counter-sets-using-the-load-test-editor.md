@@ -24,6 +24,8 @@ You manage your counters in the **Load Test Editor**. The counter sets that are 
 
 ![Custom Counter Set](../test/media/loadtestcustomcounter.png)
 
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
+
 ## To add a custom counter set to a Load Test
 
 1.  Open a load test.

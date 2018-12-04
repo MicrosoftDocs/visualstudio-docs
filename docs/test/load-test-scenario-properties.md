@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio Load Test Scenario Properties"
+title: Load Test Scenario Properties
 ms.date: 10/19/2016
 ms.topic: reference
 helpviewer_keywords:
@@ -15,6 +15,8 @@ ms.technology: vs-ide-test
 # Load test scenario properties
 
 Change your load test scenario property settings in Visual Studio to meet your load testing requirements. This article lists the various load test scenario properties by category.
+
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
 ## General
 

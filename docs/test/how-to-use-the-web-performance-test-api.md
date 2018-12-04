@@ -16,13 +16,14 @@ ms.technology: vs-ide-test
 
 You can write code for your web performance tests. The web performance test API is used to create coded web performance tests, web performance test plug-ins, request plug-ins, requests, extraction rules, and validation rules. The classes that make up these types are the core classes in this API. The other types in this API are used to support creating <xref:Microsoft.VisualStudio.TestTools.WebTesting.WebTest>, <xref:Microsoft.VisualStudio.TestTools.WebTesting.WebTestPlugin>, <xref:Microsoft.VisualStudio.TestTools.WebTesting.WebTestRequestPlugin>, <xref:Microsoft.VisualStudio.TestTools.WebTesting.WebTestRequest>, <xref:Microsoft.VisualStudio.TestTools.WebTesting.ExtractionRule>, and <xref:Microsoft.VisualStudio.TestTools.WebTesting.ValidationRule> objects. You use the <xref:Microsoft.VisualStudio.TestTools.WebTesting> namespace to create customized web performance tests.
 
- You can also use the web performance test API to programmatically create and save declarative web performance tests. To do this, use the <xref:Microsoft.VisualStudio.TestTools.WebTesting.DeclarativeWebTest> and <xref:Microsoft.VisualStudio.TestTools.WebTesting.DeclarativeWebTestSerializer> classes.
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
+
+You can also use the web performance test API to programmatically create and save declarative web performance tests. To do this, use the <xref:Microsoft.VisualStudio.TestTools.WebTesting.DeclarativeWebTest> and <xref:Microsoft.VisualStudio.TestTools.WebTesting.DeclarativeWebTestSerializer> classes.
 
 > [!TIP]
 > Use the object browser to examine the <xref:Microsoft.VisualStudio.TestTools.WebTesting> namespace. Both the Visual C# and Visual Basic editors offer IntelliSense support for coding with the classes in the namespace.
 
-
- You can also create plug-ins for load tests. For more information, see [How to: Use the load test API](../test/how-to-use-the-load-test-api.md) and [How to: Create a load test plug-in](../test/how-to-create-a-load-test-plug-in.md).
+You can also create plug-ins for load tests. For more information, see [How to: Use the load test API](../test/how-to-use-the-load-test-api.md) and [How to: Create a load test plug-in](../test/how-to-create-a-load-test-plug-in.md).
 
 ## To use the WebTesting namespace
 

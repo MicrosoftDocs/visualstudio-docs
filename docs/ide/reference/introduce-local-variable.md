@@ -62,7 +62,7 @@ This code generation applies to:
        ![Implement interface result VB](media/local-result-vb.png)
 
    > [!NOTE]
-   > You can use the **...all occurences of...** menu option to replace every instance of the selected expression, not just the one you have specifically highlighted.
+   > You can use the **...all occurrences of...** menu option to replace every instance of the selected expression, not just the one you have specifically highlighted.
 
 ## See also
 

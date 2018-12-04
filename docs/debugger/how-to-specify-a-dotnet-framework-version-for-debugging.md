@@ -19,12 +19,15 @@ manager: douge
 ms.workload: 
   - "dotnet"
 ---
-# How to: Specify a .NET Framework Version For Debugging
-The [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)] debugger supports debugging older versions of the Microsoft [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] as well as the current version. If you start an application from Visual Studio, the debugger can always identify the correct version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] for the application you are debugging. If the application is already running and you use **Attach to**, the debugger may not always be able to identify an older version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]. If this happens, you will get an error message that says,  
-  
- The debugger has made an incorrect assumption about the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] version your application is going to use.  
-  
- In these rare cases, you can set a registry key to indicate to the debugger which version to use.  
+# How to: Specify a .NET Framework Version For Debugging (C#, Visual Basic, F#)
+
+The Visual Studio debugger supports debugging older versions of the Microsoft [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] as well as the current version. If you start an application from Visual Studio, the debugger can always identify the correct version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] for the application you are debugging. However, if the application is already running and you start debugging by using **Attach to**, the debugger may not always be able to identify an older version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]. If this happens, you will get an error message that says,  
+
+``` cmd 
+The debugger has made an incorrect assumption about the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] version your application is going to use.  
+```
+
+In the rare cases where this error appears, you can set a registry key to indicate to the debugger which version to use.  
   
 ### To specify a .NET Framework version for debugging  
   
