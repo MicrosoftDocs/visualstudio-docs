@@ -15,6 +15,8 @@ ms.technology: vs-ide-test
 
 View the virtual user activity that's associated with your load test by using the **Virtual User Activity Chart**. Each row in the chart represents an individual virtual user. The **Virtual User Activity Chart** shows you exactly what each virtual user was executing during the test. You can see patterns of user activity, load patterns, correlate failed or slow tests, and see requests with other virtual user activity. The **Virtual User Activity Chart** is available only after the load test has finished running.
 
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
+
 The procedures below demonstrate how to view the **Virtual User Activity Chart**, how to investigate a specific user's activity, and how to use filtering.
 
 ## To view the Virtual User Activity Chart in your load test results

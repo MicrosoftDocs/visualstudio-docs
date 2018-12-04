@@ -17,6 +17,8 @@ Visual Studio can generate simulated load for your app by using physical or virt
 > [!NOTE]
 > You can also use cloud-based load testing to provide virtual machines that generate the load of many users accessing your website at the same time. Learn more about cloud-based load testing at [Run load tests using Azure Test Plans](/azure/devops/test/load-test/get-started-simple-cloud-load-test?view=vsts).
 
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
+
 ## Load simulation architecture
 
 The load simulation architecture consists of a Visual Studio client, test controller, and test agents.

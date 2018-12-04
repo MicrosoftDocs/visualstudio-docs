@@ -15,7 +15,9 @@ ms.technology: vs-ide-test
 
 You can create a custom content editor that enables you to edit the string body content or the binary body content of a web service request, for example, SOAP, REST, asmx, wcf, RIA, and other web service request types.
 
- You can implement these kinds of editors:
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
+
+You can implement these kinds of editors:
 
 -   **String content editor** This is implemented using the <xref:Microsoft.VisualStudio.TestTools.WebTesting.IStringHttpBodyEditorPlugin> interface.
 
