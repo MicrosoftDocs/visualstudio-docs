@@ -11,7 +11,7 @@ manager: douge
 f1_keywords:
   - "vs.csharp.refactoring.convertmethodtoproperty"
 dev_langs:
-  - csharp
+  - CSharp
 ms.workload:
   - "dotnet"
 ---
