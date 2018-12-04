@@ -68,7 +68,7 @@ First, you'll create a Vue.js web application project.
 
 ## Add a .vue file to the project
 
-1. In Solution Explorer, right-click any folder such as the *src* folder, and then choose **Add** > **New Item**.
+1. In Solution Explorer, right-click any folder such as the *src/components* folder, and then choose **Add** > **New Item**.
 
 1. Select either **JavaScript Vue Single File Component** or **TypeScript Vue Single File Component**, and then click **Add**.
 
@@ -78,7 +78,7 @@ First, you'll create a Vue.js web application project.
 
 1. (TypeScript project only) From Visual Studio, choose **Build** > **Clean Solution**.
 
-1. Next, choose **Build** > **Build Solution** to build the project. Check the **Output** window to see build results.
+1. Next, choose **Build** > **Build Solution** to build the project. Check the **Output** window to see build results, and choose **Build** from the **Show output from** list.
 
     The Vue.js project template uses the `build` npm script by configuring a post build event. If you want to modify this setting, open the project file (*\<projectname\>.njsproj*) from Windows Explorer and locate this line of code:
 
