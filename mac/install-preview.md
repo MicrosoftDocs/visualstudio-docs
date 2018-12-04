@@ -1,7 +1,6 @@
 ---
 title: "Install a preview release"
 description: "Instructions for updating Visual Studio for Mac and accessing preview releases, including the Visual Studio 2019 for Mac previews."
-zone_pivot_groups: "mac-ide-version"
 author: conceptdev
 ms.author: crdun
 ms.date: 11/03/2018

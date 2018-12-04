@@ -1,7 +1,6 @@
 ---
 title: Visual Studio for Mac Tour
 description: "Visual Studio for Mac provides an integrated development environment to build .NET applications on macOS, including ASP.NET Core websites and Xamarin projects for iOS, Android, Mac, and Xamarin.Forms."
-zone_pivot_groups: "mac-ide-version"
 author: conceptdev
 ms.author: crdun
 ms.date: 11/03/2018
