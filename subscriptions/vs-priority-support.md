@@ -1,21 +1,19 @@
 ---
-title: Priority Support Benefit in Visual Studio Subscription | Microsoft Docs
+title: Developer Community Benefit in Visual Studio Subscription | Microsoft Docs
 author: evanwindom
 ms.author: jaunger
 manager: evelynp
-ms.date: 05/07/2018
+ms.date: 12/04/2018
 ms.topic: Get-Started-Article
-description:  Learn about the Priority Support benefit included in Visual Studio subscriptions.
+description:  Learn about the Developer Community benefit included in Visual Studio subscriptions.
 ms.prod: vs-subscription
 ms.technology: vs-subscriptions
 searchscope: VS Subscription
 ---
 
-# Priority Support in Visual Studio subscriptions
+# Developer Community support in Visual Studio subscriptions
 
-The Priority Support benefit provides you with access to a variety of support community forums where you can search existing posts or asks new questions.  If the community does not respond to your question within two days, Microsoft's support team will provide a response.
-
-Subscribers with selected Visual Studio subscriptions are eligible to receive priority support via a large number of forums covering a variety of topics.  Click on any of the links below to go directly to that forum.  
+The Developer Community benefit provides you with access to a variety of support community forums where you can search existing posts or asks new questions. Click on any of the links below to go directly to that forum.  
 
 ## Included forums
 
