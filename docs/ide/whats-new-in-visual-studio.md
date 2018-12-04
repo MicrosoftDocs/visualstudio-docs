@@ -381,4 +381,4 @@ If you want to make a suggestion about how we can improve Visual Studio, or lear
 * [What's new in C#](/dotnet/csharp/whats-new)
 * [What's new for Team Foundation Server](/tfs/server/whats-new?view=vsts)
 * [What's new in Visual Studio for Mac](https://visualstudio.microsoft.com/vs/visual-studio-mac/)
-* [What's new in Visual Studio 2019](whats-new-in-visual-studio-2019.md)
+* [What's new in Visual Studio 2019](whats-new-visual-studio-2019.md)
