@@ -12,7 +12,7 @@ author: gewarren
 ---
 # Install third-party unit test frameworks
 
-Visual Studio Test Explorer can run any unit test framework that has developed an adapter interface for the Explorer. The install program of the framework installs the binaries and adds Visual Studio project templates for the languages it supports. When you create a project with the template, the framework is registered with Test Explorer. A Visual Studio solution can contain unit test projects that use different frameworks and that are targeted at different languages. The Test Explorer runs them all. The [MSTest framework](https://docs.microsoft.com/en-us/visualstudio/test/getting-started-with-unit-testing) is the test framework provided by Visual Studio and is already installed by default.
+Visual Studio Test Explorer can run any unit test framework that has developed an adapter interface for the Explorer. The install program of the framework installs the binaries and adds Visual Studio project templates for the languages it supports. When you create a project with the template, the framework is registered with Test Explorer. A Visual Studio solution can contain unit test projects that use different frameworks and that are targeted at different languages. The Test Explorer runs them all. The [MSTest framework](getting-started-with-unit-testing.md) is the test framework provided by Visual Studio and is already installed by default.
 
 ## Acquire third-party frameworks
 
