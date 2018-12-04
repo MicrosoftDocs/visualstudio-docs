@@ -242,6 +242,8 @@
       items:
       - name: Customize build and debug tasks
         href: ide/customize-build-and-debug-tasks-in-visual-studio.md
+    - name: Connect to a project or repo
+      href: ide/team-explorer.md
     - name: Use the editor
       href: ide/writing-code-in-the-code-and-text-editor.md
       items:
@@ -910,10 +912,10 @@
         href: ide/reference/signing-page-project-designer.md
     - name: Property Pages, JavaScript
       href: ide/reference/property-pages-javascript.md
-    - name: Properties Window
+    - name: Properties window
       href: ide/reference/properties-window.md
-    - name: Team Explorer
-      href: ide/reference/team-explorer.md
+    - name: Team Explorer reference
+      href: ide/reference/.md
     - name: Toolbox
       href: ide/reference/toolbox.md
       items:
