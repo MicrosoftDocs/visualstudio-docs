@@ -3,7 +3,7 @@
     "content": [
       {
         "group": "vsmac-2017",
-        "src": "./",
+        "src": "2017",
         "files": [
           "**/*.md",
           "**/*.yml"
@@ -18,7 +18,20 @@
         ]
       },{
         "group": "vsmac-2019",
-        "src": "./",
+        "src": "2019",
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ]
+      },{
         "files": [
           "**/*.md",
           "**/*.yml"
@@ -36,7 +49,7 @@
     "resource": [
       {
         "group": "vsmac-2017",
-        "src": "./",
+        "src": "2017",
         "files": [
           "**/*.png",
           "**/*.jpg"
@@ -47,7 +60,16 @@
         ]
       },{
         "group": "vsmac-2019",
-        "src": "./",
+        "src": "2019",
+        "files": [
+          "**/*.png",
+          "**/*.jpg"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**"
+        ]
+      },{
         "files": [
           "**/*.png",
           "**/*.jpg"
