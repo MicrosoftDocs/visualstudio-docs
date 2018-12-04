@@ -915,7 +915,7 @@
     - name: Properties window
       href: ide/reference/properties-window.md
     - name: Team Explorer reference
-      href: ide/reference/.md
+      href: ide/reference/team-explorer-reference.md
     - name: Toolbox
       href: ide/reference/toolbox.md
       items:
