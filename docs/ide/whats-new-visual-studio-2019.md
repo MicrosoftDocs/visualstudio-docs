@@ -5,7 +5,6 @@ ms.custom: ""
 ms.date: 12/04/2018
 ms.prod: visual-studio-dev16
 ms.technology: vs-acquisition
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
   - "VS.StartPage.WhatsNew"
@@ -83,8 +82,6 @@ And with Visual Studio 2019 Preview, this service is installed by default.
 
 We're introducing a new extension that you can download to use with Visual Studio 2019 Preview. With this new extension, you can review, run, and even debug pull requests from your team without leaving the Visual Studio IDE [(integrated development environment)](../ide/visual-studio-ide.md). We support code in Azure Repos today, but are expanding to support GitHub and improve the overall experience.
 
-   ![The new PR experience in Visual Studio 2019](../ide/media/process-pull-requests-in-ide.png)
-
 To get started now, download the [Pull Requests for Visual Studio](https://aka.ms/pr4vs) extension from the Visual Studio Marketplace.
 
 ### Develop with .NET Core 3 Preview 1
@@ -99,7 +96,7 @@ The preview release of Visual Studio 2019 supports building [.NET Core 3](http:/
 
 If you use monitors that are configured with different display scale factors, or connect remotely to a machine with display scale factors that are different from your main device, you might notice that Visual Studio looks blurry or renders at the wrong scale.
 
-With the release of Visual Studio 2019 Preview 1, we are taking the first steps towards making Visual Studio a per-monitor aware (PMA) application. We're laying the foundational work that will allow Visual Studio to render correctly regardless of what display scale factors you use.  
+With the release of Visual Studio 2019 Preview 1, we are taking the first steps towards making Visual Studio a per-monitor aware (PMA) application. We're laying the foundational work that will allow Visual Studio to render correctly regardless of what display scale factors you use.
 
    ![Per-monitor aware (PMA) rendering in Visual Studio 2019](../ide/media/per-monitor-aware-dpi-scaling.png)
 
