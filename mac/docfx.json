@@ -2,7 +2,7 @@
   "build": {
     "content": [
       {
-        "group": "vs-2017",
+        "group": "vsmac-2017",
         "src": "./",
         "files": [
           "**/*.md",
@@ -17,7 +17,7 @@
           "ThirdPartyNotices"
         ]
       },{
-        "group": "vs-2019",
+        "group": "vsmac-2019",
         "src": "./",
         "files": [
           "**/*.md",
@@ -35,7 +35,7 @@
     ],
     "resource": [
       {
-        "group": "vs-2017",
+        "group": "vsmac-2017",
         "src": "./",
         "files": [
           "**/*.png",
@@ -46,7 +46,7 @@
           "**/includes/**"
         ]
       },{
-        "group": "vs-2019",
+        "group": "vsmac-2019",
         "src": "./",
         "files": [
           "**/*.png",
