@@ -44,7 +44,7 @@
       "build_output_subfolder": "mac",
       "locale": "en-us",
       "monikers": [],
-      "moniker_ranges": ["vsmac-2017", ">= vs-2019"],
+      "moniker_ranges": ["vsmac-2017", ">= vsmac-2019"],
       "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",

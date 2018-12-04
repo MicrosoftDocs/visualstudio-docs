@@ -59,7 +59,7 @@
       },
       "vsmac-2019": {
         "moniker_range": ">= vs-2019"
-      },
+      }
     },
     "markdownEngineName": "markdig"
   }
