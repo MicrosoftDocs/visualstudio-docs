@@ -27,7 +27,7 @@ Here's a high-level recap of what Visual Studio has to offer:
 
 * **[Personal and team productivity](#personal-and-team-productivity)**. Productivity for everyone where it matters most.
 * **[Modern development support](#modern-development-support)**. Support for your current projects and future solutions.
-* **[Continuous innovation](#discoverability)**. Code smart with intelligent, cloud-powered support.
+* **[Continuous innovation](#continuous-innovation)**. Code smart with intelligent, cloud-powered support.
 
 > [!NOTE]
 > For a complete list of new features and functionality in Visual Studio 2019 Preview, see the [release notes](/visualstudio/releases/2019/release-notes-preview?context=visualstudio/default&contextView=vs-2017).
