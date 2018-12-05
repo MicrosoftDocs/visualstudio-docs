@@ -1,5 +1,5 @@
 ---
-title: "Install Visual Studio for Mac"
+title: "Install Visual Studio 2017 for Mac"
 description: "Instructions on how to install Visual Studio for Mac and additional components required for cross-platform development."
 author: conceptdev
 ms.author: crdun
@@ -8,7 +8,7 @@ ms.technology: vs-ide-install
 ms.assetid: 22B1F2CD-32AE-464D-80AC-C8AB4786B015
 ---
 
-# Set up and Install Visual Studio for Mac
+# Set up and install Visual Studio 2017 for Mac
 
 ## Requirements
 
@@ -16,12 +16,12 @@ To start developing native, cross-platform apps when you download Visual Studio 
 
 For working with iOS in Visual Studio you need the following pieces:
 
-* a Mac with macOS Sierra 10.12 or above
-* Xcode 8.3 or above. The latest stable version is usually recommended.
-* An Apple ID. If you don't have an Apple ID already you can create a new one at https://appleid.apple.com. It's necessary to have an Apple ID for installing and signing into Xcode.
+- a Mac with macOS Sierra 10.12 or above
+- Xcode 8.3 or above. The latest stable version is usually recommended.
+- An Apple ID. If you don't have an Apple ID already you can create a new one at https://appleid.apple.com. It's necessary to have an Apple ID for installing and signing into Xcode.
 
 > [!TIP]
-> Visual Studio 2019 for Mac preview is [now available](install-preview.md) for testing.
+> Visual Studio 2019 for Mac preview is [now available](installation.md?view=vsmac-2019) for testing.
 
 ## Install
 
@@ -90,9 +90,9 @@ To install Visual Studio for Mac behind a firewall, certain endpoints must be ma
 
 Configure your network to allow access to the following locations:
 
-* [Visual Studio endpoints](/visualstudio/install/install-visual-studio-behind-a-firewall-or-proxy-server)
+- [Visual Studio endpoints](/visualstudio/install/install-visual-studio-behind-a-firewall-or-proxy-server)
 
-## Next Steps
+## Next steps
 
 Installing Visual Studio for Mac allows you to start writing code for your apps. The following guides are provided to guide you through the next steps of writing and deploying your projects.
 

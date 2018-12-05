@@ -1,9 +1,9 @@
 # [Introducing Visual Studio for Mac](index.md)
 # [IDE Tour](/visualstudio/mac/ide-tour/)
 
-# [Installation](installation.md)
+# [Installation](/visualstudio/mac/installation/)
 ## [Install and use behind a firewall or proxy](install-behind-a-firewall-or-proxy-server.md)
-## [Install a Preview release](install-preview.md)
+## [Install a preview release](install-preview.md)
 ## [Update](update.md)
 ## [Uninstall](uninstall.md)
 

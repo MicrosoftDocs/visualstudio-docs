@@ -7,7 +7,7 @@ ms.date: 11/03/2018
 ms.assetid: 7DC64A52-AA41-4F3A-A8A1-8A20BCD81CC7
 ---
 
-# Visual Studio for Mac 2019 Tour
+# Visual Studio for Mac 2019 Preview Tour
 
 Visual Studio for Mac evolves Xamarin's mobile-centric IDE, Xamarin Studio, into a mobile-first, cloud-first development environment on the Mac. This developer-focused tool allows you to use the power of .NET to create applications for all platforms required by your users.
 
@@ -20,9 +20,6 @@ This article explores various sections of Visual Studio for Mac, providing a loo
 Visual Studio for Mac is organized into several sections for managing application files and settings, creating application code, and debugging.
 
 ## New Start Window
-
-> [!TIP]
-> The Visual Studio 2019 for Mac preview is [available for download](/visualstudio/mac/install-preview) and testing.
 
 When you start the Visual Studio for Mac 2019 preview, new users will see a sign-in window. Sign-in with your Microsoft account to activate a paid license (if you have one) or link to Azure subscriptions. You can press **Skip** and sign in later via the **Visual Studio > Sign in** menu item:
 
