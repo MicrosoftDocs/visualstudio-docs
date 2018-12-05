@@ -21,7 +21,7 @@ Visual Studio Tools for Unity change log.
 
 -   **Integration:**
 
-    -   Fixed project reloading and intellisense issues when the listener was initialized off the dispatcher thread.
+    -   Fixed project reloading and intellisense issues when adding or removing scripts located in the the very first project.
 
 ## 3.9.0.2
  Released November 19, 2018
