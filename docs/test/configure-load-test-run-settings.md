@@ -15,6 +15,8 @@ ms.technology: vs-ide-test
 
 *Run settings* are a set of properties that influence the way a load test runs. Run settings are organized by categories in the **Properties** window.
 
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
+
 You can have more than one run setting in a load test, however only one of the run settings may be active per run. The other run settings provide a quick way to select an alternative setting to use for subsequent test runs.
 
 The initial run setting is created when you create a load test by using the **New Load Test Wizard**.

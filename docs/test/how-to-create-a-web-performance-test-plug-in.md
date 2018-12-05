@@ -18,6 +18,8 @@ ms.technology: vs-ide-test
 
 Web performance tests plug-ins enable you to isolate and reuse code outside the main declarative statements in your web performance test. A customized web performance test plug-in offers you a way to call some code as the web performance test is run. The web performance test plug-in is run one time for every test iteration. In addition, if you override the PreRequest or PostRequest methods in the test plug-in, those request plug-ins will run before or after each request, respectively.
 
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
+
 You can create a customized web performance test plug-in by deriving your own class from the <xref:Microsoft.VisualStudio.TestTools.WebTesting.WebTestPlugin> base class.
 
 You can use customized web performance test plug-ins with the web performance tests you have recorded, which enables you to write a minimal amount of code to obtain a greater level of control over your web performance tests. However, you can also use them with coded web performance tests. For more information, see [Generate and run a coded web performance test](../test/generate-and-run-a-coded-web-performance-test.md).
