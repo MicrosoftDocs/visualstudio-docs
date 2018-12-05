@@ -9,6 +9,9 @@ ms.assetid: 7DC64A52-AA41-4F3A-A8A1-8A20BCD81CC7
 
 # Visual Studio for Mac 2019 Preview Tour
 
+> [!NOTE]
+> Visual Studio 2019 for Mac is [now available](installation.md) as a preview for testing.
+
 Visual Studio for Mac evolves Xamarin's mobile-centric IDE, Xamarin Studio, into a mobile-first, cloud-first development environment on the Mac. This developer-focused tool allows you to use the power of .NET to create applications for all platforms required by your users.
 
 The user experience (UX) of Visual Studio for Mac is similar to that of its Windows counterpart, but with a native macOS feel. Creating, opening, and developing an app will be a familiar experience for anyone who has previously used Visual Studio on Windows. In addition, Visual Studio for Mac employs many of the powerful tools that make its Windows counterpart such a powerful IDE. The Roslyn Compiler Platform is used for refactoring and IntelliSense. Its project system and build engine use MSBuild, and its source editor supports TextMate bundles. It uses the same debugger engines for Xamarin and .NET Core apps, and the same designers for Xamarin.iOS and Xamarin.Android.

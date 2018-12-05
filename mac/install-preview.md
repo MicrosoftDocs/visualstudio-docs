@@ -10,6 +10,9 @@ ms.assetid: 0E1EF257-9DE4-4653-9DF4-805CE007A1A1
 ---
 # Install a preview release
 
+> [!NOTE]
+> Visual Studio 2019 for Mac preview is [now available for installation](installation.md?view=vsmac-2019) and testing.
+
 ## Install an update for Visual Studio for Mac
 
 Before a new version of Visual Studio for Mac is officially released, it's available as a preview. The preview release gives you a chance to try out new features and get the latest bug fixes before they are fully incorporated into the product.

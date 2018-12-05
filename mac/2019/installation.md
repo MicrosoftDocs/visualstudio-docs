@@ -8,9 +8,9 @@ ms.technology: vs-ide-install
 ms.assetid: 22B1F2CD-32AE-464D-80AC-C8AB4786B015
 ---
 
-# Set up and install Visual Studio 2019 for Mac Preview
+# Install Visual Studio 2019 for Mac Preview
 
-> [!TIP]
+> [!NOTE]
 > Visual Studio 2019 for Mac preview is available to install side-by-side with the latest stable release of Visual Studio for Mac. During installation you will be prompted to update your existing Visual Studio if it is not the latest stable version.
 
 ## Requirements for the Visual Studio 2019 for Mac preview
