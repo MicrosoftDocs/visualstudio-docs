@@ -10,13 +10,13 @@ ms.manager: douge
 ---
 # Team Explorer reference
 
-This article provides links to Azure DevOps articles about the various functions in [Team Explorer](../../ide/team-explorer.md).
+This article provides links to Azure DevOps articles about the various functions in **Team Explorer**.
 
 Use the **Team Explorer** tool window to coordinate your code efforts with other team members to develop a project, and to manage work that's assigned to you, your team, or your projects. **Team Explorer** connects Visual Studio to Git and GitHub repositories, Team Foundation version control (TFVC) repositories, and projects hosted on [Azure DevOps Services](/azure/devops/user-guide/what-is-azure-devops-services) or an on-premises [Azure DevOps Server](/tfs/index) (formerly known as TFS). You can manage source code, work items, and builds.
 
 ## Home page
 
-After you [connect to a project](../team-explorer.md#connect-to-a-project-or-repository) in **Team Explorer**, the following links become available in the **Project** section:
+After you [connect to a project](../connect-team-project.md) in **Team Explorer**, the following links become available in the **Project** section:
 
 - [Clone repository](/azure/devops/repos/git/clone)
 - [Web Portal](/azure/devops/project/navigation/index)
@@ -104,4 +104,4 @@ The **Settings** page lets you configure administrative features for either a pr
 
 ## See also
 
-- [Team Explorer](../../ide/team-explorer.md)
+- [Connect to projects in Team Explorer](../../ide/connect-team-project.md)

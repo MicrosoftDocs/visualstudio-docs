@@ -243,7 +243,7 @@
       - name: Customize build and debug tasks
         href: ide/customize-build-and-debug-tasks-in-visual-studio.md
     - name: Connect to a project or repo
-      href: ide/team-explorer.md
+      href: ide/connect-team-project.md
     - name: Use the editor
       href: ide/writing-code-in-the-code-and-text-editor.md
       items:
