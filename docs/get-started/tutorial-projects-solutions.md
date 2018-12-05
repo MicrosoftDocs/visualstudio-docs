@@ -2,8 +2,8 @@
 title: Introduction to projects and solutions
 ms.date: 12/11/2017
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
-ms.topic: quickstart
+ms.technology: vs-acquisition
+ms.topic: tutorial
 author: gewarren
 ms.author: gewarren
 manager: douge
