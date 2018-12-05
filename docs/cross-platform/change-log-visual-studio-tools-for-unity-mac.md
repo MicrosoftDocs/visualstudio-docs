@@ -14,6 +14,27 @@ ms.workload:
 # Change Log (Visual Studio Tools for Unity, Mac)
 Visual Studio Tools for Unity change log.
 
+## 1.7.0.0
+ Released November 13, 2018
+
+### New Features
+
+-   **Debugger:**
+
+    -   Added more client information (IP, machine name) on the attach dialog.
+
+### Bug fixes
+
+-   **Debugger:**
+
+     -   Fixed a deadlock in the library used to communicate with Unity’s debugger engine, making Visual Studio or Unity freeze, especially when hitting ‘Attach to Unity’ or restarting game.
+     
+-   **Integration:**
+
+     -   Fixed Unity plugin activation when another default editor was selected.
+     
+     -   Fixed Unity file template creation.
+
 ## 1.6.0.2
  Released July 24, 2018
 
