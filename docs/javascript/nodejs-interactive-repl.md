@@ -23,7 +23,7 @@ Node.js Tools for Visual Studio include an interactive window for the installed 
 
 You can open the interactive window by right-clicking the Node.js project node in Solution Explorer and selecting **Open Node.js Interactive Window**.
 
-![Node.js interactive window in project context menu](../javascript/media/interactivewindow.png)
+![Node.js interactive window in project context menu](../javascript/media/interactivewindow-open-from-project.png)
 
 The default short-cut keys to open the Node.js interactive window are **[CTRL] + K, N**. Or, you can open the window from the toolbar by choosing **View** > **Windows** > **Node.js Interactive Window**.
 

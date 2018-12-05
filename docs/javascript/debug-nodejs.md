@@ -59,7 +59,7 @@ To attach the debugger from Visual Studio and hit breakpoints in client-side cod
 
     ![Set a breakpoint](../javascript/media/tutorial-nodejs-react-set-breakpoint-client-code.png)
 
-    If you need to find particular code in a large file, use **Ctrl**+**F** (**Edit** > **Find and Replace** > **Quick Find**).
+    If you need to find particular code in a large, generated file, use **Ctrl**+**F** (**Edit** > **Find and Replace** > **Quick Find**).
 
 4. With Chrome selected as the debug target in Visual Studio, press **Ctrl**+**F5** (**Debug** > **Start Without Debugging**) to run the app in the browser.
 
@@ -103,7 +103,7 @@ Visual Studio has the capability to use and generate source maps on JavaScript s
 
 * A TypeScript project in Visual Studio generates source maps for you by default.
 
-* In a JavaScript project, you need to generate source maps using a bundler like Web pack and a compiler like the TypeScript compiler (or Babel). For the TypeScript compiler, you must also add a *tsconfig.json* file. For an example that shows how to do this using a basic Web pack configuration, see [Create a Node.js app with React](../javascript/tutorial-nodejs-with-react-and-jsx.md).
+* In a JavaScript project, you need to generate source maps using a bundler like webpack and a compiler like the TypeScript compiler (or Babel), which you can add to your project. For the TypeScript compiler, you must also add a *tsconfig.json* file. For an example that shows how to do this using a basic webpack configuration, see [Create a Node.js app with React](../javascript/tutorial-nodejs-with-react-and-jsx.md).
 
 > [!NOTE]
 > If you are new to source maps, please read [Introduction to JavaScript Source Maps](https://www.html5rocks.com/en/tutorials/developertools/sourcemaps/) before before continuing.
