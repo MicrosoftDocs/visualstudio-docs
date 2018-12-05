@@ -21,7 +21,7 @@ For working with iOS in Visual Studio you need the following pieces:
 - An Apple ID. If you don't have an Apple ID already you can create a new one at https://appleid.apple.com. It's necessary to have an Apple ID for installing and signing into Xcode.
 
 > [!TIP]
-> Visual Studio 2019 for Mac preview is [now available](installation.md?view=vsmac-2019) for testing.
+> Visual Studio 2019 for Mac preview is [now available for installation](installation.md?view=vsmac-2019) and testing.
 
 ## Install
 
