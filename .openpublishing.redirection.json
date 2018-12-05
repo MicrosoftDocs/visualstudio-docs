@@ -6946,6 +6946,16 @@
             "source_path": "docs/test/how-to-specify-plot-options-for-graphing-counters.md",
             "redirect_url": "/visualstudio/test/quickstart-create-a-load-test-project",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/quickstart-editor.md",
+            "redirect_url": "/visualstudio/get-started/tutorial-editor",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/quickstart-projects-solutions.md",
+            "redirect_url": "/visualstudio/get-started/tutorial-projects-solutions",
+            "redirect_document_id": false
         }
     ]
 }

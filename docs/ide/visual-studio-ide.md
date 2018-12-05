@@ -22,7 +22,7 @@ The Visual Studio *integrated development environment* is a creative launching p
 
 This image shows Visual Studio with an open project and several key tool windows you'll likely use:
 
-- [**Solution Explorer**](../ide/solutions-and-projects-in-visual-studio.md) (top right) lets you view, navigate, and manage your code files. **Solution Explorer** can help organize your code by grouping the files into [solutions and projects](quickstart-projects-solutions.md).
+- [**Solution Explorer**](../ide/solutions-and-projects-in-visual-studio.md) (top right) lets you view, navigate, and manage your code files. **Solution Explorer** can help organize your code by grouping the files into [solutions and projects](../get-started/tutorial-projects-solutions.md).
 
 - The [editor window](../ide/writing-code-in-the-code-and-text-editor.md) (center), where you'll likely spend a majority of your time, displays file contents. This is where you can edit code or design a user interface such as a window with buttons and text boxes.
 
@@ -258,9 +258,9 @@ To learn about other ways you can personalize the IDE, see [Personalize Visual S
 
 Explore Visual Studio further by following along with one of these introductory articles:
 
-- Get acquainted with the code editor in [Learn to use the code editor](quickstart-editor.md)
+- Get acquainted with the code editor in [Learn to use the code editor](../get-started/tutorial-editor.md)
 
-- Learn how Visual Studio organizes code in [Learn about projects and solutions](quickstart-projects-solutions.md)
+- Learn how Visual Studio organizes code in [Learn about projects and solutions](../get-started/tutorial-projects-solutions.md)
 
 If you're ready to dive into more coding, one of the following language-specific quickstarts is a good next step:
 

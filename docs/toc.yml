@@ -6,9 +6,9 @@
     - name: About Visual Studio 2017
       href: ide/visual-studio-ide.md
     - name: About the code editor
-      href: ide/quickstart-editor.md
+      href: get-started/tutorial-editor.md
     - name: About projects and solutions
-      href: ide/quickstart-projects-solutions.md
+      href: get-started/tutorial-projects-solutions.md
     - name: More Visual Studio features
       href: ide/advanced-feature-overview.md
 - name: Installation
