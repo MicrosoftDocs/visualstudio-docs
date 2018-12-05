@@ -96,4 +96,4 @@ Refer to the following articles for further discussion:
 
 ## See also
 
-[Project migration and upgrade reference for Visual Studio 2019 Preview](../porting/port-migrate-upgrade-visual-studio-projects-2019.md)
+[Project migration and upgrade reference for Visual Studio 2019 Preview](port-migrate-upgrade-visual-studio-projects-2019.md)
