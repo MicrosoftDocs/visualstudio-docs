@@ -27,7 +27,7 @@ The default short-cut keys for the Node.js interactive window are [CTRL] + K, N.
 
 You can also open the interactive window by right-clicking the Node.js project node in Solution Explorer and selecting **Open Node.js Interactive Window**.
 
-![Node.js interactive window in project context menu](../../images/node/project-interactivewindow.png)
+![Node.js interactive window in project context menu](../javascript/media/project-interactivewindow.png)
 
 Or, you can open the window from the toolbar by choosing **View** > **Windows** > **Node.js Interactive Window**.
 
@@ -35,7 +35,7 @@ Or, you can open the window from the toolbar by choosing **View** > **Windows** 
 
 Once opened, you can enter commands.
 
-![Node.js interactive window](../../images/node/interactivewindow.png)
+![Node.js interactive window](../javascript/media/interactivewindow.png)
 
 The interactive window has several built-in commands, which start with a dot prefix to distinguish them from any JavaScript function you declare. The following commands are supported:
 
