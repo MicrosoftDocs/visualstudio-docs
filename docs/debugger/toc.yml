@@ -23,7 +23,7 @@
   - name: Learn to debug C++
     href: getting-started-with-the-debugger-cpp.md
   - name: Learn to debug Visual Basic
-    href: getting-started-with-the-debugger-vb.md
+    href: ../get-started/visual-basic/getting-started-with-the-debugger-vb.md?toc=/visualstudio/toc.json&bc=/visualstudio/_breadcrumb/toc.json
   - name: Running Python code in the debugger...
     href: ../python/tutorial-working-with-python-in-visual-studio-step-04-debugging.md
   - name: Debug a live Azure app
