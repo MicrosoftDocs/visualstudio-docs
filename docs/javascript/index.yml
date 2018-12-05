@@ -67,7 +67,7 @@ sections:
       html: <p>First look at Node.js in Visual Studio</p>
       image:
         src: https://docs.microsoft.com/media/common/i_code-edit.svg      
-    - href: python-interactive-repl-in-visual-studio.md
+    - href: nodejs-interactive-repl.md
       html: <p>Use the interactive REPL</p>
       image:
         src: https://docs.microsoft.com/media/common/i_cligeneric.svg      
@@ -80,7 +80,7 @@ sections:
       image:
         src: https://docs.microsoft.com/media/common/i_debug.svg      
     - href: develop-javascript-code-without-solutions-projects.md
-      html: <p>Develop JavaScript without projects or solutions</p>
+      html: <p>Develop code without projects or solutions</p>
       image:
         src: https://docs.microsoft.com/media/common/i_code-edit.svg      
     - href: unit-testing-javascript-with-visual-studio.md

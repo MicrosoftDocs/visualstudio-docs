@@ -21,6 +21,8 @@
     href: npm-package-management.md
   - name: Develop without projects or solutions ("Open Folder")
     href: develop-javascript-code-without-solutions-projects.md
+  - name: Use the interactive REPL
+    href: nodejs-interactive-repl.md
   - name: Debug a Node.js application
     href: debug-nodejs.md
   - name: Unit testing JavaScript code
