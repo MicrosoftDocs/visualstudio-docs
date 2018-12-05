@@ -95,7 +95,7 @@ Tutorials, videos, and other documentation show you ways to create code and apps
         </a>
     </li>
     <li>
-        <a href="/visualstudio/ide/quickstart-projects-solutions">
+        <a href="/visualstudio/get-started/tutorial-projects-solutions">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -113,7 +113,7 @@ Tutorials, videos, and other documentation show you ways to create code and apps
         </a>
     </li>
     <li>
-        <a href="/visualstudio/ide/quickstart-editor">
+        <a href="/visualstudio/get-started/tutorial-editor">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
