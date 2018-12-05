@@ -86,7 +86,7 @@ These project settings are available.
 
 Visual Studio provides debugging support for Chrome and Internet Explorer only. It will automatically attach breakpoints to JavaScript/TypeScript and embedded scripts on HTML files.
 
-If your source is minified or created by a transpiler like TypeScript or Babel, the use of sourcemaps may be required. Without sourcemaps, you can attach the debugger to the running script, but you may only be able to hit breakpoints in the minified or transpiled file, not in the pre-minified or pre-transpiled source. For some JavaScript frameworks such as Vue.js, where minified script gets passed as a string to an `eval` statement, you need sourcemaps for effective debugging in Visual Studio.
+If your source is minified or created by a transpiler like TypeScript or Babel, the use of sourcemaps might be required. Without sourcemaps, you can attach the debugger to the running script, but you may only be able to hit breakpoints in the minified or transpiled file, not in the pre-minified or pre-transpiled source. For some JavaScript frameworks such as Vue.js, where minified script gets passed as a string to an `eval` statement, you need sourcemaps for effective debugging in Visual Studio.
 
 To attach the debugger from Visual Studio and hit breakpoints in client-side code, the debugger needs help to identify the correct process. Here is one way to enable this.
 
@@ -100,7 +100,7 @@ To attach the debugger from Visual Studio and hit breakpoints in client-side cod
 
     This starts Chrome with debugging enabled.
 
-3. Switch to Visual Studio and set a breakpoint in *app-bundle.js* code in the `render()` function as shown in the following illustration:
+3. Switch to Visual Studio and set a breakpoint in your source code. (Set the breakpoint in a line of code that allows breakpoints, such as a `return` statement or a `var` declaration).
 
     ![Set a breakpoint](../javascript/media/tutorial-nodejs-react-set-breakpoint-client-code.png)
 
