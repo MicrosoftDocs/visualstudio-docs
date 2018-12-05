@@ -19,9 +19,7 @@ This article explores various sections of Visual Studio for Mac, providing a loo
 
 Visual Studio for Mac is organized into several sections for managing application files and settings, creating application code, and debugging.
 
-::: moniker range="vsmac-2017"
-
-## Welcome Screen in Visual Studio for Mac 2017
+## Welcome Screen
 
 When launched, Visual Studio for Mac displays a *Welcome Screen*:
 
@@ -33,8 +31,6 @@ The Welcome Screen contains the following sections:
 - **Getting Started** - Provides quick access to useful topics for developers getting started with Visual Studio for Mac.
 - **Recent Solutions** - Provides quick access to recently opened solutions, as well as convenient buttons to open or create projects.
 - **Developer News** - A news feed that keeps you up-to-date on the latest Microsoft Developer information.
-
-::: moniker-end
 
 ## Solutions and Projects
 
@@ -64,7 +60,7 @@ Additional references are added using the **Edit References** dialog, which is d
 
 ![Edit References Dialog](media/ide-tour-image20.png)
 
-For more information on using References in Visual Studio for Mac, see the [Managing References in a Project](~/mac/managing-references-in-a-project) article.
+For more information on using References in Visual Studio for Mac, see the [Managing References in a Project](/visualstudio/mac/managing-references-in-a-project) article.
 
 ## Dependencies / Packages
 

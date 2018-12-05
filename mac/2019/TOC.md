@@ -1,4 +1,4 @@
-# [Introducing Visual Studio for Mac](/visualstudio/mac/)
+# [Visual Studio for Mac](/visualstudio/mac/)
 # [IDE Tour](ide-tour.md)
 
 # [Installation](/visualstudio/mac/installation)

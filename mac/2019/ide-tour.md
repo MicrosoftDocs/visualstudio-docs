@@ -19,9 +19,7 @@ This article explores various sections of Visual Studio for Mac, providing a loo
 
 Visual Studio for Mac is organized into several sections for managing application files and settings, creating application code, and debugging.
 
-::: moniker range="vsmac-2019"
-
-## Visual Studio for Mac 2019 Start Window
+## New Start Window
 
 > [!TIP]
 > The Visual Studio 2019 for Mac preview is [available for download](/visualstudio/mac/install-preview) and testing.
@@ -33,8 +31,6 @@ When you start the Visual Studio for Mac 2019 preview, new users will see a sign
 Signed-in users will see the new _start window_, which shows a list of recent projects, and buttons to open an existing project or create a new one:
 
 ![Choose from recent projects, or create something new](media/ide-tour-2019-start-projects.png)
-
-::: moniker-end
 
 ## Solutions and Projects
 
