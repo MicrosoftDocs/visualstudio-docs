@@ -1,5 +1,5 @@
-- name: Node.js documentation
-  href: index.md
+- name: Node.js in Visual Studio
+  href: index.yml
 - name: Quickstarts
   items:
   - name: Create a Node.js project
