@@ -16,6 +16,8 @@ ms.technology: vs-ide-test
 
 The *test mix model* specifies the probability of a virtual user running a given test in a load test scenario. This lets you simulate load more realistically. Instead of having just one workflow through your applications, you can have several workflows, which is a closer approximation of how end-users interact with your applications.
 
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
+
 ## Test mix model options
 
 You can specify one of the following test mix model options for your load test scenario:

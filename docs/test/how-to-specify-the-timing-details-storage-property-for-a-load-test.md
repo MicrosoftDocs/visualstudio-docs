@@ -16,6 +16,8 @@ ms.technology: vs-ide-test
 
 After you create your load test with the **New Load Test Wizard**, you can use the **Load Test Editor** to change the settings to meet your testing needs and goals.
 
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
+
 You can edit a run setting's **Timing Details Storage** property's value in the **Properties** window. The **Timing Details Storage** property can be set to any of the following options:
 
 - **All Individual Details:** Collects and stores individual timing data for each test, transaction, and page issued during the test.

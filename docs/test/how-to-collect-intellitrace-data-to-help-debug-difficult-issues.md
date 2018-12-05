@@ -18,6 +18,8 @@ ms.technology: vs-ide-test
 
 You can configure the diagnostic data adapter for IntelliTrace to collect specific diagnostic trace information in Visual Stdio. Tests can use this adapter, the test can collect significant diagnostic events for the application that a developer can use later to trace through the code to find the cause of a bug. The diagnostic data adapter for IntelliTrace can be used for either manual or automated tests.
 
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
+
 > [!NOTE]
 > IntelliTrace works only on an application that is written by using managed code. If you are testing a web application that uses a browser as a client, you should not enable IntelliTrace for the client in your test settings because no managed code is available to trace. In this case, you may want to set up an environment and collect IntelliTrace data remotely on your web server.
 
@@ -26,7 +28,7 @@ The IntelliTrace data is stored in a file that has an extension of *.iTrace*. Wh
 > [!NOTE]
 > The diagnostic data adapter for IntelliTrace does not create an IntelliTrace file when a test pass is successful. It saves a file only on a failed test case or when you submit a bug.
 
- The data that is collected in the IntelliTrace file increases debugging productivity by reducing the time that is required to reproduce and diagnose an error in your code. Additionally, because you can share the IntelliTrace file with another individual who can replicate your local session on their computer, it reduces the probability that a bug will be non-reproducible.
+The data that is collected in the IntelliTrace file increases debugging productivity by reducing the time that is required to reproduce and diagnose an error in your code. Additionally, because you can share the IntelliTrace file with another individual who can replicate your local session on their computer, it reduces the probability that a bug will be non-reproducible.
 
 > [!NOTE]
 > If you enable IntelliTrace in your test settings, collecting code coverage data will not work.
@@ -34,7 +36,7 @@ The IntelliTrace data is stored in a file that has an extension of *.iTrace*. Wh
 > [!WARNING]
 > The diagnostic data adapter for IntelliTrace works by instrumenting a managed process, which must be performed after the tests for the test run are loaded. If the process that you want to monitor has already started, no IntelliTrace files will be collected because the process is already running. To circumvent this, make sure that the process is stopped before the tests are loaded. Then start the process after the tests are loaded or the first test is started.
 
- The following procedure describes how to configure the IntelliTrace data that you want to collect. These steps apply to both the configuration editor in Microsoft Test Manager and Test Settings dialog box in Visual Studio.
+The following procedure describes how to configure the IntelliTrace data that you want to collect. These steps apply to both the configuration editor in Microsoft Test Manager and Test Settings dialog box in Visual Studio.
 
 > [!NOTE]
 > The user account for the test agent that is used to collect IntelliTrace data must be a member of the administrators group. For more information, see [Install and configure test agents](../test/lab-management/install-configure-test-agents.md).
@@ -95,7 +97,7 @@ Before you perform the steps in this procedure, you must open your test settings
 11. (Optional) Choose the **Advanced** tab. Next, choose the arrow next to **Maximum amount of disk space for recording** and select the maximum size that you want to enable for the IntelliTrace file to use.
 
     > [!NOTE]
-    > If you increase the size of the recording, a time-out issue might occur when you save this recording together with your test results. For more information about how to increase the time-out values for diagnostic data adapters, see [How to: Prevent time-outs for diagnostic data adapters](../test/how-to-prevent-time-outs-for-diagnostic-data-adapters.md).
+    > If you increase the size of the recording, a time-out issue might occur when you save this recording together with your test results.
 
 12. If you are using Microsoft Test Manager, choose **Save**. If you are using Visual Studio, choose **OK**. The IntelliTrace settings are now configured and saved for your test settings.
 

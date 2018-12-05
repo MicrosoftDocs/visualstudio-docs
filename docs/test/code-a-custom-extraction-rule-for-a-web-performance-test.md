@@ -23,6 +23,8 @@ You can create your own extraction rules. To do this, you derive your own rules 
 > [!NOTE]
 > You can also create custom validation rules. For more information, see [Create custom code and plug-ins for load tests](../test/create-custom-code-and-plug-ins-for-load-tests.md).
 
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
+
 ## To create a custom extraction rule
 
 1.  Open a Test project that contains a web performance test.
