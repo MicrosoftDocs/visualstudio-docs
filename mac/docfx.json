@@ -37,8 +37,8 @@
           "**/*.yml"
         ],
         "exclude": [
-          "2017",
-          "2019",
+          "2017/**",
+          "2019/**",
           "**/obj/**",
           "**/includes/**",
           "README.md",
@@ -77,8 +77,8 @@
           "**/*.jpg"
         ],
         "exclude": [
-          "2017",
-          "2019",
+          "2017/**",
+          "2019/**",
           "**/obj/**",
           "**/includes/**"
         ]
@@ -106,7 +106,12 @@
         "Mac"
       ]
     },
-    "fileMetadata": {},
+    "fileMetadata": {
+      "breadcrumb_path": {
+        "2017/**/*.md": "/visualstudio/mac/_breadcrumb/toc.json",
+        "2019/**/*.md": "/visualstudio/mac/_breadcrumb/toc.json"
+      }
+    },
     "template": [],
     "dest": "mac",
     "groups": {
