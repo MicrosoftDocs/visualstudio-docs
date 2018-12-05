@@ -24,7 +24,7 @@ Visual Studio for Mac is organized into several sections for managing applicatio
 ## Visual Studio for Mac 2019 Start Window
 
 > [!TIP]
-> The Visual Studio 2019 for Mac preview is [available for download](install-preview.md) and testing.
+> The Visual Studio 2019 for Mac preview is [available for download](~/mac/install-preview.md) and testing.
 
 When you start the Visual Studio for Mac 2019 preview, new users will see a sign-in window. Sign-in with your Microsoft account to activate a paid license (if you have one) or link to Azure subscriptions. You can press **Skip** and sign in later via the **Visual Studio > Sign in** menu item:
 
@@ -52,7 +52,7 @@ The Solution Pad organizes the project(s) in a solution:
 
 This is where files for the source code, resources, user interface, and dependencies are organized into platform-specific Projects.
 
-For more information on using Projects and Solutions in Visual Studio for Mac, see the [Projects and Solutions](~/projects-and-solutions.md) article.
+For more information on using Projects and Solutions in Visual Studio for Mac, see the [Projects and Solutions](~/mac/projects-and-solutions.md) article.
 
 ## Assembly References
 
@@ -64,7 +64,7 @@ Additional references are added using the **Edit References** dialog, which is d
 
 ![Edit References Dialog](media/ide-tour-image20.png)
 
-For more information on using References in Visual Studio for Mac, see the [Managing References in a Project](~/managing-references-in-a-project.md) article.
+For more information on using References in Visual Studio for Mac, see the [Managing References in a Project](~/mac/managing-references-in-a-project.md) article.
 
 ## Dependencies / Packages
 
