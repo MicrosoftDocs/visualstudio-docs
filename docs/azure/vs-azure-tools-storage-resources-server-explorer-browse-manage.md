@@ -289,4 +289,4 @@ If you delete a storage account from Server Explorer, it doesn’t affect your s
 
 ## Next steps
 
-To learn more about how to use Azure storage services, see [Accessing the Azure Storage Services](https://msdn.microsoft.com/library/azure/ee405490.aspx).
+To learn more about how to use Azure storage services, see [Accessing the Azure Storage Services](https://docs.microsoft.com/azure/storage/common/storage-introduction).
