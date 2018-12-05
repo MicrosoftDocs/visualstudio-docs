@@ -1,4 +1,5 @@
 - name: Node.js documentation
+  href: index.md
 - name: Quickstarts
   items:
   - name: Create a Node.js project
