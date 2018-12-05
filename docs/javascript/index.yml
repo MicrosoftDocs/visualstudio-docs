@@ -49,7 +49,7 @@ sections:
     - href: quickstart-vuejs-with-nodejs.md
       html: <p>Create a web app with Node.js and Vue.js</p>
       image:
-        src: ../javascript/media/logo_vuejs.png  
+        src: ../javascript/media/logo-vuejs.png  
     - href: publish-nodejs-app-azure.md
       html: <p>Publish to Linux App Service</p>
       image:
