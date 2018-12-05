@@ -28,13 +28,13 @@ First, you'll create a Vue.js web application project.
 
 1. If you don't have the Node.js runtime already installed, install the LTS version from the [Node.js](https://nodejs.org/en/download/) website.
 
-    In general, Visual Studio automatically detects the installed Node.js runtime. If it does not detect an installed runtime, you can configure your project to reference the installed runtime in the properties page (after you create a project, right-click the project node and choose **Properties**).
+    In general, Visual Studio automatically detects the installed Node.js runtime. If it doesn't detect an installed runtime, you can configure your project to reference the installed runtime in the properties page (after you create a project, right-click the project node and choose **Properties**).
 
 1. Open Visual Studio 2017.
 
 1. From the top menu bar, choose **File** > **New** > **Project**.
 
-1. In the **New Project** dialog box, under either **JavaScript** > **Node.js** or **TypeScript** > **Node.js**, choose **Basic Vue.js Web Application**, and then enter a project name, and then click **OK**.
+1. In the **New Project** dialog box, under either **JavaScript** > **Node.js** or **TypeScript** > **Node.js**, choose **Basic Vue.js Web Application**. Enter a project name, and then click **OK**.
 
      ![Vue.js template](../javascript/media/vuejs-template.png)
 
@@ -98,7 +98,7 @@ First, you'll create a Vue.js web application project.
 
 1. Close the web browser.
 
-Congratulations on completing this Quickstart! We hope you learned a little bit about using the Visual Studio IDE with Vue.js. If you'd like to delve deeper into its capabilities, please continue with a tutorial in the **Tutorials** section of the table of contents.
+Congratulations on completing this Quickstart! We hope you learned a little bit about using the Visual Studio IDE with Vue.js. If you'd like to delve deeper into its capabilities, continue with a tutorial in the **Tutorials** section of the table of contents.
 
 ## Next steps
 
