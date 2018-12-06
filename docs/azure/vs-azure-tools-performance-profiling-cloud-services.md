@@ -48,7 +48,7 @@ When you use the profiler, you can collect data when a cloud service runs locall
 You typically simulate a load to test cloud services under normal or stress conditions.
 
 ## Profiling a cloud service in Azure
-When you publish your cloud service from Visual Studio, you can profile the service and specify the profiling settings that give you the information that you want. A profiling session is started for each instance of a role. For more information about how to publish your service from Visual Studio, see [Publishing to an Azure Cloud Service from Visual Studio](https://docs.microsoft.com/visualstudio/azure/vs-azure-tools-publishing-a-cloud-service).
+When you publish your cloud service from Visual Studio, you can profile the service and specify the profiling settings that give you the information that you want. A profiling session is started for each instance of a role. For more information about how to publish your service from Visual Studio, see [Publishing to an Azure Cloud Service from Visual Studio](vs-azure-tools-publishing-a-cloud-service.md).
 
 To understand more about performance profiling in Visual Studio, see [Beginners Guide to Performance Profiling](https://msdn.microsoft.com/library/azure/ms182372.aspx) and [Analyzing Application Performance by Using Profiling Tools](https://msdn.microsoft.com/library/azure/z9z62c29.aspx).
 
@@ -101,7 +101,7 @@ A profiling session is created for each instance of a role in your cloud service
 4. To display different views of the report, in the Current View list, choose the type of view that you want. For more information, see [Profiling Tools Report Views](https://msdn.microsoft.com/library/azure/bb385755.aspx).
 
 ## Next steps
-[Debugging Cloud Services](https://docs.microsoft.com/azure/vs-azure-tools-debug-cloud-services-virtual-machines)
+[Debugging Cloud Services](vs-azure-tools-debug-cloud-services-virtual-machines.md)
 
-[Publishing to an Azure Cloud Service from Visual Studio](https://docs.microsoft.com/visualstudio/azure/vs-azure-tools-publishing-a-cloud-service)
+[Publishing to an Azure Cloud Service from Visual Studio](vs-azure-tools-publishing-a-cloud-service.md)
 
