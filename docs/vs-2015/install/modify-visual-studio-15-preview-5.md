@@ -1,15 +1,15 @@
 ---
 title: "Modify Visual Studio 2017 | Microsoft Docs"
-ms.custom: ""
+titleSuffix: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
+ms.technology:
   - "vs-ide-install"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "modify Visual Studio"
   - "change visual studio"
   - "Visual Studio Preview"
@@ -25,5 +25,3 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 To learn more about how to install, modify, or uninstall our most recent version of Visual Studio, please see our new page, [Install Visual Studio 2017 RC](https://go.microsoft.com/fwlink/?linkid=833223), on our new site, [docs.microsoft.com](http://docs.microsoft.com)!
- 
-

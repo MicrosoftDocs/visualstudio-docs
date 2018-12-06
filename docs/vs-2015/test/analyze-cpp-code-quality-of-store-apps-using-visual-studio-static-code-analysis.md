@@ -1,15 +1,15 @@
 ---
-title: "Analyze C++ code quality of Store apps using Visual Studio static code analysis | Microsoft Docs"
+title: "Analyze C++ code quality of Store apps using static code analysis | Microsoft Docs"
 ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
+ms.technology:
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords: 
+f1_keywords:
   - "vs.codeanalysis.propertypages.native.express"
 ms.assetid: c5355e43-a37c-4686-a969-18e3dfc59a9c
 caps.latest.revision: 15
@@ -20,75 +20,75 @@ manager: "douge"
 # Analyze C++ code quality of Store apps using Visual Studio static code analysis
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "windows_and_phone_content")  
+Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "windows_and_phone_content")
 
- The code analysis tool in Visual Studio express editions examines your code for a set of common problems and violations of good programming practice. Code analysis warnings differ from compiler errors and warnings because code analysis searches for specific code patterns that are valid but could still create issues for you or other people who use your code. Code analysis can also find defects in your code that are difficult to discover through testing. Running the code analysis tool at regular intervals during your development process can enhance the quality of your completed app.  
+ The code analysis tool in Visual Studio express editions examines your code for a set of common problems and violations of good programming practice. Code analysis warnings differ from compiler errors and warnings because code analysis searches for specific code patterns that are valid but could still create issues for you or other people who use your code. Code analysis can also find defects in your code that are difficult to discover through testing. Running the code analysis tool at regular intervals during your development process can enhance the quality of your completed app.
 
 > [!NOTE]
->  In Visual Studio Ultimate, Visual Studio Premium, and Visual Studio Professional, you can use the full functionality of code analysis tools. See [Analyzing Application Quality by Using Code Analysis Tools](http://msdn.microsoft.com/library/dd264897.aspx) in the MSDN Library.  
+>  In Visual Studio Ultimate, Visual Studio Premium, and Visual Studio Professional, you can use the full functionality of code analysis tools. See [Analyzing Application Quality by Using Code Analysis Tools](http://msdn.microsoft.com/library/dd264897.aspx) in the MSDN Library.
 
-## In this topic  
- You can learn about:  
+## In this topic
+ You can learn about:
 
- [Running code analysis](../test/analyze-cpp-code-quality-of-store-apps-using-visual-studio-static-code-analysis.md#BKMK_Run)  
+ [Running code analysis](../test/analyze-cpp-code-quality-of-store-apps-using-visual-studio-static-code-analysis.md#BKMK_Run)
 
- [Analyzing and resolving code analysis warnings](../test/analyze-cpp-code-quality-of-store-apps-using-visual-studio-static-code-analysis.md#BKMK_Analyze)  
+ [Analyzing and resolving code analysis warnings](../test/analyze-cpp-code-quality-of-store-apps-using-visual-studio-static-code-analysis.md#BKMK_Analyze)
 
- [Suppressing code analysis warnings](../test/analyze-cpp-code-quality-of-store-apps-using-visual-studio-static-code-analysis.md#BKMK_Suppress)  
+ [Suppressing code analysis warnings](../test/analyze-cpp-code-quality-of-store-apps-using-visual-studio-static-code-analysis.md#BKMK_Suppress)
 
- [Searching and filtering code analysis results](../test/analyze-cpp-code-quality-of-store-apps-using-visual-studio-static-code-analysis.md#BKMK_Search)  
+ [Searching and filtering code analysis results](../test/analyze-cpp-code-quality-of-store-apps-using-visual-studio-static-code-analysis.md#BKMK_Search)
 
- [C++ code analysis warnings](../test/analyze-cpp-code-quality-of-store-apps-using-visual-studio-static-code-analysis.md#Warnings)  
+ [C++ code analysis warnings](../test/analyze-cpp-code-quality-of-store-apps-using-visual-studio-static-code-analysis.md#Warnings)
 
-##  <a name="BKMK_Run"></a> Running code analysis  
- To run code analysis on your Visual Studio solution:  
+##  <a name="BKMK_Run"></a> Running code analysis
+ To run code analysis on your Visual Studio solution:
 
-- On the **Build** menu, choose **Run Code Analysis on Solution**.  
+- On the **Build** menu, choose **Run Code Analysis on Solution**.
 
-  To automatically run code analysis each time you build a project:  
+  To automatically run code analysis each time you build a project:
 
-1. Choose the project name in Solution Explorer and then choose **Properties**.  
+1. Choose the project name in Solution Explorer and then choose **Properties**.
 
-2. In the project property page, choose **Code Analysis** and then choose **Enable Code Analysis for C/C++ on Build**.  
+2. In the project property page, choose **Code Analysis** and then choose **Enable Code Analysis for C/C++ on Build**.
 
-   The solution is compiled and code analysis runs. Results appear in the Code Analysis window.  
+   The solution is compiled and code analysis runs. Results appear in the Code Analysis window.
 
-   ![Code Analysis window](../test/media/ca-cpp-collapsed.png "CA_CPP_Collapsed")  
+   ![Code Analysis window](../test/media/ca-cpp-collapsed.png "CA_CPP_Collapsed")
 
-##  <a name="BKMK_Analyze"></a> Analyzing and resolving code analysis warnings  
- To analyze a specific warning, choose the title of the warning in the Code Analysis window. The warning expands to display detailed information about the issue. When possible, code analysis displays the line number and analysis logic that led to the warning.  
+##  <a name="BKMK_Analyze"></a> Analyzing and resolving code analysis warnings
+ To analyze a specific warning, choose the title of the warning in the Code Analysis window. The warning expands to display detailed information about the issue. When possible, code analysis displays the line number and analysis logic that led to the warning.
 
- ![Expanded code analysis warning](../test/media/ca-cpp-expanded-callout.png "CA_CPP_Expanded_Callout")  
+ ![Expanded code analysis warning](../test/media/ca-cpp-expanded-callout.png "CA_CPP_Expanded_Callout")
 
- When you expand a warning, the lines of code that caused the warning are highlighted in the Visual Studio code editor.  
+ When you expand a warning, the lines of code that caused the warning are highlighted in the Visual Studio code editor.
 
- ![Highlighted source code](../test/media/ca-cpp-sourceline.png "CA_CPP_SourceLine")  
+ ![Highlighted source code](../test/media/ca-cpp-sourceline.png "CA_CPP_SourceLine")
 
- After you understand the problem, you can resolve it in your code. Then rerun code analysis to make sure that the warning no longer appears in the Code Analysis window, and that your fix has not raised new warnings.  
+ After you understand the problem, you can resolve it in your code. Then rerun code analysis to make sure that the warning no longer appears in the Code Analysis window, and that your fix has not raised new warnings.
 
 > [!TIP]
->  You can rerun code analysis from the Code Analysis window. Choose the **Analyze** button and then choose the scope of the analysis. You can rerun analysis on the entire solution or on a selected project.  
+>  You can rerun code analysis from the Code Analysis window. Choose the **Analyze** button and then choose the scope of the analysis. You can rerun analysis on the entire solution or on a selected project.
 
-##  <a name="BKMK_Suppress"></a> Suppressing code analysis warnings  
- There are times when you might decide not to fix a code analysis warning. You might decide that resolving the warning requires too much recoding in relation to the probability that the issue will arise in any real-world implementation of your code. Or you might believe that the analysis that is used in the warning is inappropriate for the particular context. You can suppress individual warnings so that they no longer appear in the Code Analysis window.  
+##  <a name="BKMK_Suppress"></a> Suppressing code analysis warnings
+ There are times when you might decide not to fix a code analysis warning. You might decide that resolving the warning requires too much recoding in relation to the probability that the issue will arise in any real-world implementation of your code. Or you might believe that the analysis that is used in the warning is inappropriate for the particular context. You can suppress individual warnings so that they no longer appear in the Code Analysis window.
 
- To suppress a warning:  
+ To suppress a warning:
 
-1. If the detailed information is not displayed, expand the title of the warning.  
+1. If the detailed information is not displayed, expand the title of the warning.
 
-2. Choose the **Actions** link at the bottom of the warning.  
+2. Choose the **Actions** link at the bottom of the warning.
 
-3. Choose to **Suppress Message** and then choose **In Source**.  
+3. Choose to **Suppress Message** and then choose **In Source**.
 
-   Suppressing a message inserts `#pragma(warning:`*WarningId*`)` that suppresses the warning for the line of code.  
+   Suppressing a message inserts `#pragma(warning:`*WarningId*`)` that suppresses the warning for the line of code.
 
-##  <a name="BKMK_Search"></a> Searching and filtering code analysis results  
- You can search long lists of warning messages and you can filter warnings in multi-project solutions.  
+##  <a name="BKMK_Search"></a> Searching and filtering code analysis results
+ You can search long lists of warning messages and you can filter warnings in multi-project solutions.
 
- ![Search and filter the code analysis window](../test/media/ca-searchfilter.png "CA_SearchFilter")  
+ ![Search and filter the code analysis window](../test/media/ca-searchfilter.png "CA_SearchFilter")
 
-##  <a name="Warnings"></a> C++ code analysis warnings  
- Code analysis raises the following warnings for C++ code:  
+##  <a name="Warnings"></a> C++ code analysis warnings
+ Code analysis raises the following warnings for C++ code:
 
 
 |                                      Rule                                      |                                                  Description                                                  |
@@ -229,4 +229,3 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 |                      [C28305](../code-quality/c28305.md)                       |                                An error while parsing a token was discovered.                                 |
 |                      [C28350](../code-quality/c28350.md)                       |                  The annotation describes a situation that is not conditionally applicable.                   |
 |                      [C28351](../code-quality/c28351.md)                       |         The annotation describes where a dynamic value (a variable) cannot be used in the condition.          |
-

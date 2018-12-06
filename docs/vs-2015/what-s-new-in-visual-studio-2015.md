@@ -1,6 +1,6 @@
 ---
-title: "What&#39;s New in Visual Studio 2015 | Microsoft Docs"
-ms.custom: ""
+title: "What's New in Visual Studio 2015 | Microsoft Docs"
+titleSuffix: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
