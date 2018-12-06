@@ -65,14 +65,7 @@ See [Add/view files and folders](/azure/devops/repos/tfvc/add-files-server).
 
 ## Work Items page
 
-The **Work Items** page lets you see [work item](/azure/devops/boards/work-items/about-work-items) queries.
-
-For information about the default experience, see:
-
-- [View and add work items](/azure/devops/boards/work-items/view-add-work-items)
-- [Set the Work Items experience in Visual Studio](/azure/devops/boards/work-items/set-work-item-experience-vs)
-
-For information about the legacy experience, see:
+The **Work Items** page lets you see [work item](/azure/devops/boards/work-items/about-work-items) queries. See:
 
 - [Add work items](/azure/devops/boards/backlogs/add-work-items)
 - [Use the query editor to list and manage queries](/azure/devops/boards/queries/using-queries)
@@ -81,6 +74,9 @@ For information about the legacy experience, see:
 - [Open query in Project](/azure/devops/boards/backlogs/office/create-your-backlog-tasks-using-project)
 - [Email query results list using Outlook](/azure/devops/boards/queries/share-plans)
 - [Create reports from query in Excel](/azure/devops/report/excel/create-status-and-trend-excel-reports) (TFS only)
+
+> [!NOTE]
+> There's a new [Work Items experience](/azure/devops/boards/work-items/set-work-item-experience-vs) in Visual Studio 2019 Preview 1. For information about viewing work items in Visual Studio 2019 Preview 1, see [View and add work items](/azure/devops/boards/work-items/view-add-work-items).
 
 ## Builds page
 
