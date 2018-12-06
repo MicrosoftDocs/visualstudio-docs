@@ -1,5 +1,5 @@
 ---
-title: "What&#39;s New in the Visual Studio 2015 SDK | Microsoft Docs"
+title: "What's New in the Visual Studio 2015 SDK | Microsoft Docs"
 ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
@@ -17,10 +17,10 @@ manager: "ghogen"
 # What&#39;s New in the Visual Studio 2015 SDK
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The Visual Studio SDK has the following new and updated features for Visual Studio 2015, Visual Studio 2015 updated, and Visual Studio "15".  
+The Visual Studio SDK has the following new and updated features for Visual Studio 2015, Visual Studio 2015 updated, and Visual Studio 2017.  
   
-## Visual Studio "15" Preview 2  
- Starting in Visual Studio "15" Preview 4, scanning for custom project and item templates will no longer be performed. Instead, the extension must provide template manifest files that describe the install location of these templates. You can use the Preview 2 installation to update your VSIX extensions. If you deploy your extension using an MSI, you must generate the template manifest files by hand. For more information, see [Upgrading Custom Project and Item Templates for Visual Studio “15”](../extensibility/upgrading-custom-project-and-item-templates-for-visual-studio-2017.md). The template manifest schema is documented in [Visual Studio Template Manifest Schema Reference](../extensibility/visual-studio-template-manifest-schema-reference.md).  
+## Visual Studio 2017 Preview 2  
+ Starting in Visual Studio 2017 Preview 4, scanning for custom project and item templates will no longer be performed. Instead, the extension must provide template manifest files that describe the install location of these templates. You can use the Preview 2 installation to update your VSIX extensions. If you deploy your extension using an MSI, you must generate the template manifest files by hand. For more information, see [Upgrading Custom Project and Item Templates for Visual Studio 2017](../../extensibility/upgrading-custom-project-and-item-templates-for-visual-studio-2017.md). The template manifest schema is documented in [Visual Studio Template Manifest Schema Reference](../extensibility/visual-studio-template-manifest-schema-reference.md).  
   
 ## VS 2015 SDK Update 1  
  Update 1 includes tools to help your extension work well with color themes and the Visual Studio image service.  
@@ -72,4 +72,3 @@ The Visual Studio SDK has the following new and updated features for Visual Stud
   
 ## Updated User Experience Guidelines  
  Designing new extensions or features for Visual Studio? Check out the updated and expanded [Visual Studio User Experience Guidelines](../extensibility/ux-guidelines/visual-studio-user-experience-guidelines.md).  You’ll find the [color tokens](../extensibility/ux-guidelines/shared-colors-for-visual-studio.md), [font sizes](../extensibility/ux-guidelines/fonts-and-formatting-for-visual-studio.md), [dialog layout specifications](../extensibility/ux-guidelines/layout-for-visual-studio.md), and other guidance you need to seamlessly integrate your new UI with Visual Studio.
-

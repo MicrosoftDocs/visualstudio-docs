@@ -6819,7 +6819,7 @@
         },
         {
             "source_path": "docs/vs-2015/extensibility/upgrading-custom-project-and-item-templates-for-visual-studio-%2215%22.md",
-            "redirect_url": "/visualstudio/extensibility/upgrading-custom-project-and-item-templates-for-visual-studio-2017?view=vs-2015",
+            "redirect_url": "/visualstudio/extensibility/upgrading-custom-project-and-item-templates-for-visual-studio-2017.md",
             "redirect_document_id": false
         },
         {
@@ -6950,6 +6950,31 @@
         {
             "source_path": "docs/ide/quickstart-projects-solutions.md",
             "redirect_url": "/visualstudio/get-started/tutorial-projects-solutions",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/install/install-visual-studio-15-preview-5.md",
+            "redirect_url": "/visualstudio/install/install-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/install/modify-visual-studio-15-preview-5.md",
+            "redirect_url": "/visualstudio/install/modify-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/misc/port-migrate-and-upgrade-visual-studio-projects-in-visual-studio-15-rc.md",
+            "redirect_url": "/visualstudio/porting/port-migrate-and-upgrade-visual-studio-projects",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/extensibility/upgrading-custom-project-and-item-templates-for-visual-studio-2017.md",
+            "redirect_url": "/visualstudio/extensibility/upgrading-custom-project-and-item-templates-for-visual-studio-2017",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/misc/application-insights-for-visual-studio-online.md",
+            "redirect_url": "/azure/application-insights/app-insights-overview",
             "redirect_document_id": false
         }
     ]
