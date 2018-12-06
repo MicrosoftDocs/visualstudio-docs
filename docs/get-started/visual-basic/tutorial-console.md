@@ -1,5 +1,5 @@
 ---
-title: "Get started with Visual Basic in Visual Studio"
+title: "Get started with Visual Basic"
 description: "Learn how to create Visual Basic console apps in Visual Studio, step-by-step."
 ms.custom: ""
 ms.date: 08/10/2018

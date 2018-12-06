@@ -1,5 +1,5 @@
 ---
-title: "Get started with C# console apps in Visual Studio"
+title: "Get started with C# console apps"
 description: "Learn how to create a C# console app in Visual Studio, step-by-step."
 ms.custom: ""
 ms.date: 10/26/2018
