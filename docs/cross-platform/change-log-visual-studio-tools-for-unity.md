@@ -1,7 +1,7 @@
 ---
 title: "Change Log (Visual Studio Tools for Unity, Windows) | Microsoft Docs"
 ms.custom: ""
-ms.date: "08/06/2018"
+ms.date: "11/28/2018"
 ms.technology: vs-unity-tools
 ms.topic: "conceptual"
 ms.assetid: ea490b7e-fc0d-44b1-858a-a725ce20e396
@@ -14,6 +14,42 @@ ms.workload:
 # Change log (Visual Studio Tools for Unity, Windows)
 Visual Studio Tools for Unity change log.
 
+## 3.9.0.3
+ Released November 28, 2018
+
+### Bug fixes
+
+-   **Integration:**
+
+    -   Fixed project reloading and intellisense issues when adding or removing scripts located in the the very first project.
+
+## 3.9.0.2
+ Released November 19, 2018
+
+### Bug fixes
+
+-   **Debugger:**
+
+    -   Fixed a deadlock in the library used to communicate with Unity’s debugger engine, making Visual Studio or Unity freeze, especially when hitting ‘Attach to Unity’ or restarting game.
+
+## 3.9.0.1
+ Released November 15, 2018
+
+### Bug fixes
+
+-   **Integration:**
+
+    -   Fixed Unity plugin activation when another default editor was selected.
+
+## 3.9.0.0
+ Released November 13, 2018
+
+### Bug fixes
+
+-   **Project Generation:**
+
+    -   Rolled back the workaround for a Unity performance bug that has been fixed by Unity.
+
 ## 3.8.0.7
  Released September 20, 2018
 
@@ -21,7 +57,7 @@ Visual Studio Tools for Unity change log.
 
 -   **Debugger:**
 
-    -   Fixed a deadlock in the library used to communicate with Unity’s debugger engine, making Visual Studio or Unity freeze, especially when hitting ‘Attach to Unity’ or restarting game.
+    -   (Backported from 3.9.0.2) Fixed a deadlock in the library used to communicate with Unity’s debugger engine, making Visual Studio or Unity freeze, especially when hitting ‘Attach to Unity’ or restarting game.
 
 ## 3.8.0.6
  Released August 27, 2018
@@ -65,7 +101,7 @@ Visual Studio Tools for Unity change log.
 
 -   **Project Generation:**
 
-    -   Rolled back the workaround for a Unity performance bug that has been fixed by Unity.
+    -   (Backported from 3.9.0.0) Rolled back the workaround for a Unity performance bug that has been fixed by Unity.
 
 ## 3.8.0.2
  Released July 7, 2018
