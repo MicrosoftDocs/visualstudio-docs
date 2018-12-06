@@ -1,31 +1,27 @@
 ---
-title: "Creating Custom Project and Item Templates | Microsoft Docs"
-ms.custom: ""
+title: Creating Custom Project and Item Templates
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 ms.assetid: 586da5dc-f678-402b-afd0-0332959fd7a6
 caps.latest.revision: 11
+author: gregvanl
 ms.author: gregvanl
-manager: "ghogen"
+manager: douge
 ---
 # Creating Custom Project and Item Templates
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The Visual Studio SDK includes project templates that create a custom project template and a custom  item template. These templates include some common parameter substitutions, and build as zip files. They are not automatically deployed, and they are not available in the experimental instance. You must copy the zip file to the location you
+The Visual Studio SDK includes project templates that create a custom project template and a custom  item template. These templates include some common parameter substitutions, and build as zip files. They are not automatically deployed, and they are not available in the experimental instance. Copy the zip file to the location you
 
- The template creation templates let you include templates in larger extensions. This lets you implement version control on the source files and build a group of template projects into one VSIX package.
+The template creation templates let you include templates in larger extensions. Including templates in extensions lets you implement version control on the source files and build a group of template projects into one VSIX package.
 
- For basic template creation scenarios, you should use the **Export Template** wizard, which outputs to a compressed file. For more information about basic template creation, see [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md).
+For basic template creation scenarios, you should use the **Export Template** wizard, which outputs to a compressed file. For more information about basic template creation, see [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md).
 
- Starting in Visual Studio 2017 Preview 4, scanning for custom project and item templates will no longer be performed. Instead, the extension must provide template manifest files that describe the install location of these templates. You can use the Preview 2 installation to update your VSIX extensions. If you deploy your extension using an MSI, you must generate the template manifest files by hand. For more information, see [Upgrade Custom Project and Item Templates for Visual Studio 2017](../../extensibility/upgrading-custom-project-and-item-templates-for-visual-studio-2017.md). The template manifest schema is documented in [Visual Studio Template Manifest Schema Reference](../extensibility/visual-studio-template-manifest-schema-reference.md).
+Starting in Visual Studio 2017 Preview 4, scanning for custom project and item templates will no longer be performed. Instead, the extension must provide template manifest files that describe the install location of these templates. You can use the Preview 2 installation to update your VSIX extensions. If you deploy your extension using an MSI, you must generate the template manifest files by hand. For more information, see [Upgrade Custom Project and Item Templates for Visual Studio 2017](../../extensibility/upgrading-custom-project-and-item-templates-for-visual-studio-2017.md). The template manifest schema is documented in [Visual Studio Template Manifest Schema Reference](../extensibility/visual-studio-template-manifest-schema-reference.md).
 
-## Creating a Project Template
+## Create a Project Template
 
 1.  Create a Project Template project. You can find the project template in the **New Project** dialog, in the Visual Basic or Visual C# **Extensibility** folder.
 
@@ -43,7 +39,7 @@ The Visual Studio SDK includes project templates that create a custom project te
 
      Visual Studio creates a .zip file that contains your template. It is not deployed, and it is not available in the experimental instance.
 
-## Creating an Item Template
+## Create an Item Template
 
 1.  Create an Item Template project.
 
@@ -61,9 +57,7 @@ The Visual Studio SDK includes project templates that create a custom project te
 
      Visual Studio creates a compressed file that contains your template. It is not deployed, and it is not available in the experimental instance.
 
-## Deployment
-
-#### To deploy the project or item template
+## Deploy the project or item template
 
 1.  Create a VSIX project. For more information, see [VSIX Project Template](../extensibility/vsix-project-template.md).
 
@@ -79,5 +73,6 @@ The Visual Studio SDK includes project templates that create a custom project te
 
 5.  For a project template project, you should see your project template listed in the **New Project** dialog (**File / New / Project**), in the Visual C# or Visual Basic node. For an item template project, you should see your item template listed in the Add New Item dialog (in the **Solution Explorer**, select the project node and click **Add / New Item**).
 
-## See Also
- [Visual Studio Template Reference](../ide/visual-studio-template-reference.md)
+## See also
+
+- [Visual Studio Template Reference](../ide/visual-studio-template-reference.md)
