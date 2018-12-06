@@ -1,5 +1,5 @@
 ---
-title: Generate a class or type in Visual Studio
+title: Generate class or type
 ms.date: 01/26/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general

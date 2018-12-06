@@ -1,5 +1,5 @@
 ---
-title: "Use Visual Studio Help Viewer index"
+title: "Use Help Viewer index"
 ms.date: 11/02/2017
 ms.prod: visual-studio-dev15
 ms.technology: vs-help-viewer

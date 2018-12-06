@@ -1,5 +1,5 @@
 ---
-title: Extract an interface refactoring in Visual Studio
+title: Extract an interface refactoring
 ms.date: 01/26/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general

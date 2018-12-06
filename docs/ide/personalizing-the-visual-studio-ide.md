@@ -1,5 +1,5 @@
 ---
-title: Customize the Visual Studio IDE
+title: Customize the IDE
 ms.date: 11/20/2017
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general

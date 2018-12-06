@@ -1,5 +1,5 @@
 ---
-title: Install local Visual Studio help documentation
+title: Install local help documentation
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
 ms.technology: vs-help-viewer
