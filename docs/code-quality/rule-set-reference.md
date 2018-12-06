@@ -1,5 +1,5 @@
 ---
-title: Visual Studio code analysis rule set reference
+title: Code analysis rule set reference
 ms.date: 04/04/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
