@@ -15,6 +15,8 @@ ms.technology: vs-ide-test
 
 After you create your load test with the **New Load Test Wizard**, you can change the scenarios properties to meet your testing needs and goals by using the **Load Test Editor**. For a full list of the load test scenario properties and their descriptions, see [Load test scenario properties](../test/load-test-scenario-properties.md).
 
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
+
 The **Percentage of new Users** property is set in the **Properties** window. You edit load test scenario properties in the **Load Test Editor**.
 
 The **Percentage of new Users** property affects the way in which the load test simulates the caching that would be performed by a web browser. By default, the **Percentage of new Users** property is set to 0%. If the value for the **Percentage of new Users** property is set to 100%, each web performance test run in a load test is treated like a first time user to the website who does not have any content from the website in their browser cache from previous visits. Thus, all requests in the web test, including all dependent requests such as images, are downloaded.

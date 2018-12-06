@@ -1,5 +1,5 @@
 ---
-title: "Load patterns for load testing in Visual Studio"
+title: "Load patterns for load testing"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -21,6 +21,8 @@ The load pattern is a component of a scenario. The scenarios, together with thei
 
 > [!NOTE]
 > In all Load Patterns, the load that Visual Studio generates is a simulated load of virtual users.
+
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
 ## Load patterns
 

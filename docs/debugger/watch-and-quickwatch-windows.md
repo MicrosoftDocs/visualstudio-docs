@@ -25,6 +25,8 @@ While you're debugging, you can use **Watch** windows and **QuickWatch** to watc
 
 **Watch** windows can display several variables at a time while debugging. The **QuickWatch** dialog displays a single variable at a time, and must be closed before debugging can continue.
 
+If this is the first time that you've tried to debug code, you may want to read [Fix bugs by writing better C# code](../debugger/write-better-code-with-visual-studio.md) and [Debugging for absolute beginners](../debugger/debugging-absolute-beginners.md) before going through this article.
+
 ## Observe variables with a Watch window
 
 You can open more than one **Watch** window, and observe more than one variable in a **Watch** window. 
@@ -273,6 +275,6 @@ To observe the `a` variable,
 
 ## See also
  [What is debugging?](../debugger/what-is-debugging.md)  
- [Write better C# code using Visual Studio](../debugger/write-better-code-with-visual-studio.md)  
+ [Fix bugs by writing better C# code](../debugger/write-better-code-with-visual-studio.md)  
  [First look at debugging](../debugger/debugger-feature-tour.md) 
  [Debugger windows](../debugger/debugger-windows.md)

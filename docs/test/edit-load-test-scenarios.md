@@ -1,5 +1,5 @@
 ---
-title: "Editing Load Test Scenarios in Visual Studio"
+title: Load Test Scenarios
 ms.date: 10/03/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -18,6 +18,8 @@ ms.technology: vs-ide-test
 A load test *scenario* specifies the load pattern, test mix, browser mix, and network mix. Scenarios are important because they enable you to configure tests to simulate complex, realistic workloads.
 
 For example, you might be testing an e-commerce site that has an Internet front-end used by hundreds of concurrent customers coming in over many connection speeds and using different browsers. The same site might also have an administration function that is used by internal employees to update products and to view statistics. These internal users would typically access the site by using the same browser and a high-speed LAN connection. You would want to encapsulate the properties of these two different groups of users in different scenarios. Each scenario can contain a virtual user type. In this case, a load test scenario can be made to represent virtual customers and another scenario can be made to represent virtual internal users of a website.
+
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
 ## Scenario components
 

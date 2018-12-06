@@ -1,13 +1,12 @@
 ---
-title: "Learn to debug using the Visual Studio debugger"
+title: "Learn to debug C# code using the Visual Studio debugger"
 ms.description: "Learn how to start the Visual Studio debugger, step through code, and inspect data."
 ms.custom: "debug-experiment"
-ms.date: "08/01/2018"
+ms.date: "11/27/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "tutorial"
 dev_langs: 
   - "CSharp"
-  - "C++"
 helpviewer_keywords:
   - "debugger"
 ms.assetid: 62734c0d-a75a-4576-8f73-0e97c19280e1
@@ -17,15 +16,15 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Tutorial: Learn to debug using Visual Studio
+# Tutorial: Learn to debug C# code using Visual Studio
 
-This article introduces the features of the Visual Studio debugger in a step-by-step walkthrough. If you want a higher-level view of the debugger features, see [Debugger Feature Tour](../debugger/debugger-feature-tour.md). When you *debug your app*, it usually means that you are running your application with the debugger attached. When you do this, the debugger provides many ways to see what your code is doing while it runs. You can step through your code and look at the values stored in variables, you can set watches on variables to see when values change, you can examine the execution path of your code, see whether a branch of code is running, and so on. If this is the first time that you've tried to debug code, you may want to read [Debugging for absolute beginners](../debugger/debugging-absolute-beginners.md) before going through this article.
+This article introduces the features of the Visual Studio debugger in a step-by-step walkthrough. When you *debug your app*, it usually means that you are running your application with the debugger attached. When you do this, the debugger provides many ways to see what your code is doing while it runs. You can step through your code and look at the values stored in variables, you can set watches on variables to see when values change, you can examine the execution path of your code, see whether a branch of code is running, and so on. If this is the first time that you've tried to debug code, you may want to read [Debugging for absolute beginners](../debugger/debugging-absolute-beginners.md) and [Fix bugs by writing better C# code](../debugger/write-better-code-with-visual-studio.md) before going through this article.
 
 | | |
 |---------|---------|
 | ![movie camera icon for video](../install/media/video-icon.png "Watch a video") | [Watch a video](https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Debugger-Feature-tour-of-Visual-studio-2017-sqwiwLD6D_1111787171) on debugging that shows similar steps. |
 
-Although the demo app is C# and C++, the features are applicable to Visual Basic, JavaScript, and other languages supported by Visual Studio (except where noted). The screenshots are in C#.
+Although the demo app is C#, most of the features are applicable to C++, Visual Basic, F#, Python, JavaScript, and other languages supported by Visual Studio (F# does not support Edit-and-continue. F# and JavaScript do not support the **Autos** window). The screenshots are in C#.
 
 In this tutorial, you will:
 
@@ -37,28 +36,25 @@ In this tutorial, you will:
 
 ## Prerequisites
 
-* You must have Visual Studio 2017 installed and the **.NET desktop development** or **Desktop development with C++** workload.
+* You must have Visual Studio 2017 installed and the **.NET desktop development** workload.
 
     If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
 
-    If you need to install the workload but already have Visual Studio, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box (select **File** > **New** > **Project**). The Visual Studio Installer launches. Choose the .**NET desktop development** or **Desktop development with C++** workload, then choose **Modify**.
+    If you need to install the workload but already have Visual Studio, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box (select **File** > **New** > **Project**). The Visual Studio Installer launches. Choose the .**NET desktop development** workload, then choose **Modify**.
 
 ## Create a project
 
 1. In Visual Studio, choose **File > New Project**.
 
-2. Under **Visual C#** or **Visual C++**, choose **Windows Desktop**, and then in the middle pane choose **Console App** (**Windows Console Application** in C++).
+2. Under **Visual C#**, choose **Windows Desktop**, and then in the middle pane choose **Console App**.
 
-    If you don't see the **Console Application** project template, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the *.NET desktop development** or **Desktop development with C++** workload, then choose **Modify**.
+    If you don't see the **Console Application** project template, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the *.NET desktop development** workload, then choose **Modify**.
 
 3. Type a name like **get-started-debugging** and click **OK**.
 
     Visual Studio creates the project.
 
-    > [!NOTE]
-    > To switch between the C# and C++ sample code in this article, use the language filter in the upper right of this page.
-
-4. In *Program.cs* (C#) or *get-started-debugging.cpp* (C++), replace the following code
+4. In *Program.cs*, replace the following code
 
     ```csharp
     using System;
@@ -75,13 +71,6 @@ In this tutorial, you will:
             {
             }
         }
-    }
-    ```
-
-    ```c++
-    int main()
-    {
-        return 0;
     }
     ```
 
@@ -170,105 +159,13 @@ In this tutorial, you will:
     */
     ```
 
-    ```c++
-    #include "pch.h"
-
-    #include <string>
-    #include <vector>
-    #include <iostream>
-
-    class Shape
-    {
-        int privateX = 0;
-        int privateY = 0;
-        int privateHeight = 0;
-        int privateWidth = 0;
-
-        int getX() const { return privateX; }
-        void setX(int value) { privateX = value; }
-
-        int getY() const { return privateY; }
-        void setY(int value) { privateY = value; }
-
-        int getHeight() const { return privateHeight; }
-        void setHeight(int value) { privateHeight = value; }
-
-        int getWidth() const { return privateWidth; }
-        void setWidth(int value) { privateWidth = value; }
-
-        public:
-        // Virtual method
-        virtual void Draw()
-        {
-            std::wcout << L"Performing base class drawing tasks" << std::endl;
-        }
-    };
-
-    class Circle : public Shape
-    {
-        public:
-        void Draw() override
-        {
-        // Code to draw a circle...
-        std::wcout << L"Drawing a circle" << std::endl;
-        Shape::Draw();
-        }
-    };
-
-    class Rectangle : public Shape
-    {
-        public:
-        void Draw() override
-        {
-        // Code to draw a rectangle...
-        std::wcout << L"Drawing a rectangle" << std::endl;
-        Shape::Draw();
-        }
-    };
-
-    class Triangle : public Shape
-    {
-        public:
-        void Draw() override
-        {
-        // Code to draw a triangle...
-        std::wcout << L"Drawing a trangle" << std::endl;
-        Shape::Draw();
-        }
-    };
-
-    int main(std::vector<std::wstring> &args)
-    {
-        auto shapes = std::vector<Shape*>
-        {
-            new Rectangle(),
-            new Triangle(),
-            new Circle()
-        };
-
-        for (auto shape : shapes)
-        {
-            shape->Draw();
-        }
-    }
-
-    /* Output:
-    Drawing a rectangle
-    Performing base class drawing tasks
-    Drawing a triangle
-    Performing base class drawing tasks
-    Drawing a circle
-    Performing base class drawing tasks
-    */
-    ```
-
 ## Start the debugger!
 
 1. Press **F5** (**Debug > Start Debugging**) or the **Start Debugging** button ![Start Debugging](../debugger/media/dbg-tour-start-debugging.png "Start Debugging") in the Debug Toolbar.
 
      **F5** starts the app with the debugger attached to the app process, but right now we haven't done anything special to examine the code. So the app just loads and you see the console output.
 
-    ```
+    ```cmd
     Drawing a rectangle
     Performing base class drawing tasks
     Drawing a triangle
@@ -283,15 +180,15 @@ In this tutorial, you will:
 
 ## Set a breakpoint and start the debugger
 
-1. In the `foreach` loop of the `Main` function (`for` loop in C++ `main` function), set a breakpoint by clicking the left margin of the following line of code:
+1. In the `foreach` loop of the `Main` function, set a breakpoint by clicking the left margin of the following line of code:
 
-    `shape.Draw()` (or, `shape->Draw()` in C++)
+    `shape.Draw()`
 
     A red circle appears where you set the breakpoint.
 
     Breakpoints are the most basic and essential feature of reliable debugging. A breakpoint indicates where Visual Studio should suspend your running code so you can take a look at the values of variables, or the behavior of memory, or whether or not a branch of code is getting run. 
 
-2. Press **F5** or the **Start Debugging** button, the app starts, and the debugger runs to the line of code where you set the breakpoint.
+2. Press **F5** or the **Start Debugging** button ![Start Debugging](../debugger/media/dbg-tour-start-debugging.png "Start Debugging", the app starts, and the debugger runs to the line of code where you set the breakpoint.
 
     ![Set and hit a breakpoint](../debugger/media/get-started-set-breakpoint.gif)
 
@@ -305,21 +202,21 @@ In this tutorial, you will:
 
 Mostly, we use the keyboard shortcuts here, because it's a good way to get fast at executing your app in the debugger (equivalent commands such as menu commands are shown in parentheses).
 
-1. While paused in the `shape.Draw` method call in the `Main` method (`shape->Draw` in C++), press **F11** (or choose **Debug > Step Into**) to advance into code for the `Rectangle` class.
+1. While paused in the `shape.Draw` method call in the `Main` method, press **F11** (or choose **Debug > Step Into**) to advance into code for the `Rectangle` class.
 
      ![Use F11 to Step Into code](../debugger/media/get-started-f11.png "F11 Step Into")
 
      F11 is the **Step Into** command and advances the app execution one statement at a time. F11 is a good way to examine the execution flow in the most detail. (To move faster through code, we show you some other options also.) By default, the debugger skips over non-user code (if you want more details, see [Just My Code](../debugger/just-my-code.md)).
 
-2. Press **F10** (or choose **Debug > Step Over**) a few times until the debugger stops on the `base.Draw` method call (`Shape::Draw` in C++), and then press **F10** one more time.
+2. Press **F10** (or choose **Debug > Step Over**) a few times until the debugger stops on the `base.Draw` method call, and then press **F10** one more time.
 
      ![Use F10 to Step Over code](../debugger/media/get-started-step-over.png "F10 Step Over")
 
-     Notice this time that the debugger does not step into the `Draw` method of the base class (`Shape`). **F10** advances the debugger without stepping into functions or methods in your app code (the code still executes). By pressing F10 on the `base.Draw` (or `Shape::Draw`) method call (instead of **F11**), we skipped over the implementation code for `base.Draw` (which maybe we're not interested in right now).
+     Notice this time that the debugger does not step into the `Draw` method of the base class (`Shape`). **F10** advances the debugger without stepping into functions or methods in your app code (the code still executes). By pressing F10 on the `base.Draw` method call (instead of **F11**), we skipped over the implementation code for `base.Draw` (which maybe we're not interested in right now).
 
 ## Navigate code using Run to Click
 
-1. In the code editor, scroll down and hover over the `Console.WriteLine` method (`std::cout` in C++) in the `Triangle` class until the green **Run to Click** button ![Run to Click](../debugger/media/dbg-tour-run-to-click.png "RunToClick") appears on the left.
+1. In the code editor, scroll down and hover over the `Console.WriteLine` method in the `Triangle` class until the green **Run to Click** button ![Run to Click](../debugger/media/dbg-tour-run-to-click.png "RunToClick") appears on the left.
 
      ![Use the Run to Click feature](../debugger/media/get-started-run-to-click.png "Run to Click")
 
@@ -330,7 +227,7 @@ Mostly, we use the keyboard shortcuts here, because it's a good way to get fast 
 
     Using this button is similar to setting a temporary breakpoint. **Run to Click** is handy for getting around quickly within a visible region of app code (you can click in any open file).
 
-    The debugger advances to the `Console.WriteLine` method implementation for the `Triangle` class (`std::cout` in C++).
+    The debugger advances to the `Console.WriteLine` method implementation for the `Triangle` class.
 
     While paused, you notice a typo! The output "Drawing a trangle" is misspelled. We can fix it right here while running the app in the debugger.
 
@@ -351,7 +248,7 @@ Let's say that you are done examining the `Draw` method in the `Triangle` class,
 
      This command resumes app execution (and advances the debugger) until the current function returns.
 
-     You should be back in the `foreach` loop in the `Main` method (`for` loop in C++).
+     You should be back in the `foreach` loop in the `Main` method.
 
 ## Restart your app quickly
 
@@ -359,36 +256,39 @@ Click the **Restart** ![Restart App](../debugger/media/dbg-tour-restart.png "Res
 
 When you press **Restart**, it saves time versus stopping the app and restarting the debugger. The debugger pauses at the first breakpoint that is hit by executing code.
 
-The debugger stops again at the breakpoint you set, on the `shape.Draw()` method (`shape->Draw()` in C++).
+The debugger stops again at the breakpoint you set, on the `shape.Draw()` method.
 
 ## Inspect variables with data tips
 
 Features that allow you to inspect variables are one of the most useful features of the debugger, and there are different ways to do it. Often, when you try to debug an issue, you are attempting to find out whether variables are storing the values that you expect them to have at a particular time.
 
-1. While paused on the `shape.Draw()` method (`shape->Draw()` in C++), hover over the `shapes` object and you see its default property value, the `Count` property.
+1. While paused on the `shape.Draw()` method, hover over the `shape` object and you see its default property value, which is the object type `Rectangle`.
 
-1. Expand the `shapes` object to see all its properties, such as the first index of the array `[0]`, which has a value of `Rectangle` (C#) or a memory address (C++).
+1. Expand the `shape` object to see its properties, such as the `Height` property, which has a value of 0.
+
+1. Press **F10** (or **Debug** > **Step Over**) a few times to iterate once through the `foreach` loop, pausing again on `shape.Draw()`.
+
+1. Hover over the shape object again, and this time you see that you have a new object with a type `Triangle`.
 
      ![View a data tip](../debugger/media/get-started-data-tip.gif "View a Data Tip")
 
-    You can further expand objects to view their properties, such as the `Height` property of the rectangle.
-
-    Often, when debugging, you want a quick way to check property values on objects, and the data tips are a good way to do it.
+    Often, when debugging, you want a quick way to check property values on variables, to see whether they are storing the values that you expect them to store, and the data tips are a good way to do it.
 
 ## Inspect variables with the Autos and Locals windows
 
 1. Look at the **Autos** window at the bottom of the code editor.
 
+    If it is closed, open it while paused in the debugger by choosing **Debug** > **Windows** > **Autos**.
+
+1. Expand the `shapes` object.
+
      ![Inspect variables in the Autos Window](../debugger/media/get-started-autos-window.png "Autos Window")
 
-    In the **Autos** window, you see variables and their current value. The **Autos** window shows all variables used on the current line or the preceding line (In C++, the window shows variables in the preceding three lines of code. Check documentation for language-specific behavior).
+    In the **Autos** window, you see variables and their current value. The **Autos** window shows all variables used on the current line or the preceding line (Check documentation for language-specific behavior).
 
-    > [!NOTE]
-    > In JavaScript, the **Locals** window is supported but not the **Autos** window.
+1. Next, look at the **Locals** window, in a tab next to the **Autos** window.
 
-2. Next, look at the **Locals** window, in a tab next to the **Autos** window.
-
-    The **Locals** window shows you the variables that are in the current [scope](https://www.wikipedia.org/wiki/Scope_(computer_science)).
+    The **Locals** window shows you the variables that are in the current [scope](https://www.wikipedia.org/wiki/Scope_(computer_science)), that is, the current execution context.
 
 ## Set a watch
 
@@ -400,13 +300,15 @@ Features that allow you to inspect variables are one of the most useful features
 
 ## Examine the call stack
 
-1. While paused in the `foreach` loop (`for` loop in C++), click the **Call Stack** window, which is by default open in the lower right pane.
+1. While paused in the `foreach` loop, click the **Call Stack** window, which is by default open in the lower right pane.
 
-2. Click **F11** a few times until you see the debugger pause in the `Circle.Draw` method in the code editor. Look at the **Call Stack** window.
+    If it is closed, open it while paused in the debugger by choosing **Debug** > **Windows** > **Call Stack**.
+
+2. Click **F11** a few times until you see the debugger pause in the `Base.Draw` method for the `Triangle` class in the code editor. Look at the **Call Stack** window.
 
     ![Examine the call stack](../debugger/media/get-started-call-stack.png "ExamineCallStack")
 
-    The **Call Stack** window shows the order in which methods and functions are getting called. The top line shows the current function (the `Circle.Draw` or `Circle::Draw` method in this app). The second line shows that `Circle.Draw` was called from the `Main` method (`main` in C++), and so on.
+    The **Call Stack** window shows the order in which methods and functions are getting called. The top line shows the current function (the `Triangle.Draw` method in this app). The second line shows that `Triangle.Draw` was called from the `Main` method, and so on.
 
    > [!NOTE]
    > The **Call Stack** window is similar to the Debug perspective in some IDEs like Eclipse.
@@ -419,13 +321,11 @@ Features that allow you to inspect variables are one of the most useful features
 
 ## Change the execution flow
 
-1. With the debugger paused in the `Circle.Draw` method call, press **F11** a few times until the debugger pauses on the `base.Draw` method call (`Shape::Draw` in C++).
+1. With the debugger paused in the `Circle.Draw` method call, use the mouse to grab the yellow arrow (the execution pointer) on the left and move the yellow arrow up one line to the `Console.WriteLine` method call.
 
-1. Use the mouse to grab the yellow arrow (the execution pointer) on the left and move the yellow arrow up one line to the `Console.WriteLine` (`std::cout` in C++) method call.
+1. Press **F11**.
 
-1. Press **F11** one more time.
-
-    The debugger reruns the `Console.WriteLine` method (`std::cout` in C++).
+    The debugger reruns the `Console.WriteLine` method (you see this in the console window output).
 
     By changing the execution flow, you can do things like test different code execution paths or rerun code without restarting the debugger.
 

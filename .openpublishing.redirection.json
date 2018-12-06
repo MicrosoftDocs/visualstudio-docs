@@ -6881,6 +6881,81 @@
             "source_path": "docs/docker/vs-azure-tools-docker-machine-azure-config.md",
             "redirect_url": "/visualstudio/docker/",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/test/how-to-analyze-errors-using-the-counters-panel.md",
+            "redirect_url": "/visualstudio/test/quickstart-create-a-load-test-project",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/test/sample-project-for-creating-a-diagnostic-data-adapter.md",
+            "redirect_url": "/visualstudio/test/quickstart-create-a-load-test-project",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/test/how-to-create-a-custom-editor-for-data-for-your-diagnostic-data-adapter.md",
+            "redirect_url": "/visualstudio/test/quickstart-create-a-load-test-project",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/test/how-to-analyze-threshold-violations-using-the-counters-panel.md",
+            "redirect_url": "/visualstudio/test/quickstart-create-a-load-test-project",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/test/how-to-install-a-custom-diagnostic-data-adapter.md",
+            "redirect_url": "/visualstudio/test/quickstart-create-a-load-test-project",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/test/how-to-specify-how-frequently-test-logs-are-saved.md",
+            "redirect_url": "/visualstudio/test/quickstart-create-a-load-test-project",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/test/how-to-configure-load-tests-to-collect-full-details.md",
+            "redirect_url": "/visualstudio/test/quickstart-create-a-load-test-project",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/test/how-to-prevent-time-outs-for-diagnostic-data-adapters.md",
+            "redirect_url": "/visualstudio/test/quickstart-create-a-load-test-project",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/test/counters-panel-in-load-test-analyzer.md",
+            "redirect_url": "/visualstudio/test/quickstart-create-a-load-test-project",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/test/how-to-view-data-and-diagnostic-attachments-using-the-load-test-analyzer.md",
+            "redirect_url": "/visualstudio/test/quickstart-create-a-load-test-project",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/test/how-to-add-computer-tags-to-counter-set-mappings-using-the-load-test-editor.md",
+            "redirect_url": "/visualstudio/test/quickstart-create-a-load-test-project",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/test/how-to-add-comments-on-a-completed-load-test.md",
+            "redirect_url": "/visualstudio/test/quickstart-create-a-load-test-project",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/test/how-to-specify-plot-options-for-graphing-counters.md",
+            "redirect_url": "/visualstudio/test/quickstart-create-a-load-test-project",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/quickstart-editor.md",
+            "redirect_url": "/visualstudio/get-started/tutorial-editor",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/quickstart-projects-solutions.md",
+            "redirect_url": "/visualstudio/get-started/tutorial-projects-solutions",
+            "redirect_document_id": false
         }
     ]
 }
