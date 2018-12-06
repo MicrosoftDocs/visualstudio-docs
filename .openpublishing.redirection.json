@@ -6976,6 +6976,11 @@
             "source_path": "docs/vs-2015/misc/application-insights-for-visual-studio-online.md",
             "redirect_url": "/azure/application-insights/app-insights-overview",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/extensibility/visual-studio-template-manifest-schema-reference.md",
+            "redirect_url": "/visualstudio/extensibility/visual-studio-template-manifest-schema-reference",
+            "redirect_document_id": false
         }
     ]
 }

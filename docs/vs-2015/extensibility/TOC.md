@@ -148,7 +148,6 @@
 ### [RequiredPlatformVersion Element (Visual Studio Templates)](requiredplatformversion-element-visual-studio-templates.md)
 ### [SDKReference Element (Visual Studio Templates)](sdkreference-element-visual-studio-templates.md)
 ### [TargetPlatformName Element (Visual Studio Templates)](targetplatformname-element-visual-studio-templates.md)
-## [Visual Studio Template Manifest Schema Reference](visual-studio-template-manifest-schema-reference.md)
 # [Extending User Settings and Options](extending-user-settings-and-options.md)
 ## [Creating an Options Page](creating-an-options-page.md)
 ## [Creating a Settings Category](creating-a-settings-category.md)
