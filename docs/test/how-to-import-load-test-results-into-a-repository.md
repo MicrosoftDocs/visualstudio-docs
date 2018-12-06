@@ -1,5 +1,5 @@
 ---
-title: "How to: Import Load Test Results into a Repository in Visual Studio"
+title: "How to: Import Load Test Results into a Repository"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:

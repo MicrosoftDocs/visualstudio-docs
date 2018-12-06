@@ -1,5 +1,5 @@
 ---
-title: "How to test a Visual C++ DLL for UWP apps in Visual Studio"
+title: "How to test a Visual C++ DLL for UWP apps"
 ms.date: 02/15/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
