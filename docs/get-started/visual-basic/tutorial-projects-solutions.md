@@ -1,5 +1,5 @@
 ---
-title: Projects and solutions for Visual Basic
+title: "Tutorial: Projects and solutions for Visual Basic"
 ms.date: 11/12/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general

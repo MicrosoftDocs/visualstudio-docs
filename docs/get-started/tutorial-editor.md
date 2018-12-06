@@ -1,5 +1,5 @@
 ---
-title: Introduction to editing
+title: Introduction to editing in the code editor
 ms.date: 11/30/2017
 ms.prod: visual-studio-dev15
 ms.technology: vs-acquisition

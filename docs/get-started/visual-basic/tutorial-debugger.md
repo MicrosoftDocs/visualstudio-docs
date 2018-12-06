@@ -1,5 +1,5 @@
 ---
-title: "Learn to debug Visual Basic code using the debugger"
+title: "Tutorial: Debug Visual Basic code"
 description: "Learn how to start the Visual Studio debugger, step through code, and inspect data."
 ms.custom: "debug-experiment,seodec18"
 ms.date: "11/27/2018"
