@@ -1,12 +1,12 @@
 ---
-title: "Optimize Visual Studio Startup Time | Microsoft Docs"
+title: "Optimize Startup Time | Microsoft Docs"
 ms.custom: ""
 ms.date: 11/15/2016
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "startup time [Visual Studio]"
   - "optimizing startup time [Visual Studio]"
   - "speed up start time [Visual Studio]"
@@ -47,5 +47,3 @@ If a tool window is slowing down Visual Studio startup, you can choose to leave 
 ![Manage Visual Studio Performance - tool windows](../ide/media/vside-perfdialog-toolwindows.PNG "Manage Visual Studio Performance - tool windows")
 
 If you later change your mind, you can revert any of these options in the **Manage Visual Studio Performance** dialog box. To open the **Manage Visual Studio Performance** dialog box, on the menu bar, choose **Help**, **Manage Visual Studio Performance**.
-
-

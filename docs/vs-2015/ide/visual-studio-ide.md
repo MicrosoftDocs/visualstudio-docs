@@ -1,6 +1,6 @@
 ---
-title: "Visual Studio IDE | Microsoft Docs"
-ms.custom: ""
+title: "Visual Studio 2015 | Microsoft Docs"
+titleSuffix: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
