@@ -101,10 +101,10 @@ Should you encounter any problems while you're using Visual Studio, or if you ha
 We've looked at just a few of the features of Visual Studio to get acquainted with the user interface. To explore further:
 
 > [!div class="nextstepaction"]
-> [Learn about the code editor](../ide/quickstart-editor.md)
+> [Learn about the code editor](../get-started/tutorial-editor.md)
 
 > [!div class="nextstepaction"]
-> [Learn about projects and solutions](../ide/quickstart-projects-solutions.md)
+> [Learn about projects and solutions](../get-started/tutorial-projects-solutions.md)
 
 ## See also
 

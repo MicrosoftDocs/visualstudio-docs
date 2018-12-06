@@ -33,7 +33,7 @@ Start by creating a new file and adding some code to it.
 
    A new file opens in the editor with the skeleton of a C# class. (Notice that we don't have to create a full Visual Studio project to gain some of the benefits that the code editor offers; all you need is a code file!)
 
-   ![C# code file in Visual Studio](../../ide/media/quickstart-editor.png)
+   ![C# code file in Visual Studio](../media/tutorial-editor.png)
 
 ## Use code snippets
 
@@ -43,7 +43,7 @@ Visual Studio provides useful *code snippets* that you can use to quickly and ea
 
    A pop-up dialog box appears with information about the `svm` code snippet.
 
-   ![IntelliSense for code snippet in Visual Studio](../../ide/media/quickstart-intellisense-snippet.png)
+   ![IntelliSense for code snippet in Visual Studio](../media/tutorial-intellisense-snippet.png)
 
 1. Press **Tab** twice to insert the code snippet.
 
@@ -51,7 +51,7 @@ Visual Studio provides useful *code snippets* that you can use to quickly and ea
 
 The available code snippets vary for different programming languages. You can look at the available code snippets for your language by choosing **Edit** > **IntelliSense** > **Insert Snippet**, and then choosing your language's folder. For C#, the list looks like this:
 
-![C# code snippet list](../../ide/media/quickstart-code-snippet-list.png)
+![C# code snippet list](../media/tutorial-code-snippet-list.png)
 
 The list includes snippets for creating a [class](/dotnet/csharp/programming-guide/classes-and-structs/classes), a [constructor](/dotnet/csharp/programming-guide/classes-and-structs/constructors), a [for](/dotnet/csharp/language-reference/keywords/for) loop, an [if](/dotnet/csharp/language-reference/keywords/if-else) or [switch](/dotnet/csharp/language-reference/keywords/switch) statement, and more.
 
@@ -59,7 +59,7 @@ The list includes snippets for creating a [class](/dotnet/csharp/programming-gui
 
 The toolbar, which is the row of buttons under the menu bar in Visual Studio, can help make you more productive as you code. For example, you can toggle IntelliSense completion mode ([IntelliSense](../../ide/using-intellisense.md) is a coding aid that displays a list of matching methods, amongst other things), increase or decrease a line indent, or comment out code that you don't want to compile. In this section, we'll comment out some code.
 
-![Editor toolbar](../../ide/media/quickstart-editor-toolbar.png)
+![Editor toolbar](../media/tutorial-editor-toolbar.png)
 
 1. Paste the following code into the `Main()` method body.
 
@@ -87,7 +87,7 @@ The toolbar, which is the row of buttons under the menu bar in Visual Studio, ca
 
 1. We're not using the `morewords` variable, but we may use it later so we don't want to completely delete it. Instead, let's comment out those lines. Select the entire definition of `morewords` to the closing semi-colon, and then choose the **Comment out the selected lines** button on the toolbar. If you prefer to use the keyboard, press **Ctrl**+**K**, **Ctrl**+**C**.
 
-   ![Comment out button](../../ide/media/quickstart-comment-out.png)
+   ![Comment out button](../media/tutorial-comment-out.png)
 
    The C# comment characters `//` are added to the beginning of each selected line to comment out the code.
 
@@ -95,7 +95,7 @@ The toolbar, which is the row of buttons under the menu bar in Visual Studio, ca
 
 We don't want to see the empty [constructor](/dotnet/csharp/programming-guide/classes-and-structs/constructors) for `Class1` that was generated, so to unclutter our view of the code, let's collapse it. Choose the small gray box with the minus sign inside it in the margin of the first line of the constructor. Or, if you're a keyboard user, place the cursor anywhere in the constructor code and press **Ctrl**+**M**, **Ctrl**+**M**.
 
-![Outlining collapse button](../../ide/media/quickstart-collapse.png)
+![Outlining collapse button](../media/tutorial-collapse.png)
 
 The code block collapses to just the first line, followed by an ellipsis (`...`). To expand the code block again, click the same gray box that now has a plus sign in it, or press **Ctrl**+**M**, **Ctrl**+**M** again. This feature is called [Outlining](../../ide/outlining.md) and is especially useful when you're collapsing long methods or entire classes.
 
@@ -107,7 +107,7 @@ The Visual Studio editor makes it easy to inspect the definition of a type, meth
 
    A pop-up window appears with the definition of the `String` class. You can scroll within the pop-up window, or even peek at the definition of another type from the peeked code.
 
-   ![Peek definition window](../../ide/media/quickstart-peek-definition.png)
+   ![Peek definition window](../media/tutorial-peek-definition.png)
 
 1. Close the peeked definition window by choosing the small box with an "x" at the top right of the pop-up window.
 
@@ -123,7 +123,7 @@ The Visual Studio editor makes it easy to inspect the definition of a type, meth
 
    You see IntelliSense show you **Quick Info** about the `query` symbol.
 
-   ![IntelliSense word completion in Visual Studio](../../ide/media/quickstart-intellisense-completion-list.png)
+   ![IntelliSense word completion in Visual Studio](../media/tutorial-intellisense-completion-list.png)
 
 1. To insert the rest of the word `query` by using IntelliSense's word completion functionality, press **Tab**.
 
@@ -146,7 +146,7 @@ Nobody gets code right the first time, and one of the things you might have to c
 
 1. Enter the desired name **words**. Notice that the reference to `words` in the query is also automatically renamed. Before you press **Enter**, select the **Include comments** checkbox in the **Rename** pop-up box.
 
-   ![Rename dialog box](../../ide/media/quickstart-rename.png)
+   ![Rename dialog box](../media/tutorial-rename.png)
 
 1. Press **Enter**.
 

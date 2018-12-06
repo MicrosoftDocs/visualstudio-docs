@@ -14,6 +14,8 @@ author: gewarren
 
 If you want to run coded UI tests for your XAML-based UWP application, each control must be identified by a unique automation property. You can assign a unique automation property based on the type of XAML control in your application.
 
+[!INCLUDE [coded-ui-test-deprecation](includes/coded-ui-test-deprecation.md)]
+
 ## Static XAML definition
 
 To specify a unique automation property for a control that is defined in your XAML file, you can set the **AutomationProperties.AutomationId** or **AutomationProperties.Name** implicitly or explicitly, as shown in the examples that follow. Setting either of these values gives the control a unique automation property that can be used to identify the control when you create a coded UI test or action recording.

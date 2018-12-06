@@ -39,7 +39,7 @@ We'll start our exploration by creating an empty solution. After you get to know
 
 1. In the left pane, expand **Other Project Types**, then choose **Visual Studio Solutions**. In the center pane, choose the **Blank Solution** template. Name your solution **QuickSolution**, then choose the **OK** button.
 
-   ![Blank solution template in Visual Studio](../../ide/media/quickstart-projects-new-solution.png)
+   ![Blank solution template in Visual Studio](../media/tutorial-projects-new-solution.png)
 
    The **Start Page** closes, and a solution appears in **Solution Explorer** on the right-hand side of the Visual Studio window. You'll probably use **Solution Explorer** often, to browse the contents of your projects.
 
@@ -154,7 +154,7 @@ The line in the *Calendar.vb* file that contains the <xref:System.Runtime.Compil
 
    The *property pages* for the project open on the **Application** tab. The property pages contain various settings for the project. Notice that the assembly name of the **QuickTest** project is indeed "QuickTest". If you wanted to change it, this is where you'd do that. Then, when you build the test project, the name of the resulting binary file would change from *QuickTest.dll* to whatever you chose.
 
-   ![Project properties](../../ide/media/quickstart-projects-properties.png)
+   ![Project properties](../media/tutorial-projects-properties.png)
 
 1. Explore some of the other tabs of the project's property pages, such as **Compile** and **Settings**. These tabs are different for different types of projects.
 
@@ -162,7 +162,7 @@ The line in the *Calendar.vb* file that contains the <xref:System.Runtime.Compil
 
 If you want to check that your unit test is working, choose **Test** > **Run** > **All Tests** from the menu bar. A window called **Test Explorer** opens, and you should see that the **TestGetCurrentDate** test passes.
 
-![Text Explorer in Visual Studio showing passed test](../../ide/media/quickstart-projects-test-explorer.png)
+![Text Explorer in Visual Studio showing passed test](../media/tutorial-projects-test-explorer.png)
 
 > [!TIP]
 > If **Test Explorer** doesn't open automatically, open it by choosing **Test** > **Windows** > **Test Explorer** from the menu bar.

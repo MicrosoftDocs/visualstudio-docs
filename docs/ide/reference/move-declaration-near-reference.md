@@ -8,7 +8,7 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 dev_langs:
-  - csharp
+  - CSharp
 ms.workload:
   - "dotnet"
 ---

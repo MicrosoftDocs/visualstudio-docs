@@ -25,6 +25,8 @@ Some websites use dynamic parameters to process some of their web requests. A dy
 
 Some types of dynamic parameters are not detected. An undetected dynamic parameter will cause your web performance test to fail when you run it because the dynamic value will be different every time that the test is run. To handle these parameters correctly, you can add extraction rules to dynamic parameters in your web performance tests manually.
 
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
+
 ## Create and run a web app with dynamic parameters
 
 To demonstrate both a detectable and a non-detectable dynamic parameter, we’ll create a simple ASP.NET web application that has three web forms with a few controls and some custom code. We’ll then learn how to isolate the dynamic parameters and how to handle them.
