@@ -1,5 +1,7 @@
 ---
-title: "Create a Windows Desktop app with WPF and Visual Basic"
+title: "Create a simple application with Windows Presentation Foundation (WPF) in Visual Basic"
+description: Create a simple Windows Desktop .NET app in Visual Basic with Visual Studio using the Windows Presentation Foundation (WPF) UI framework.
+ms.custom: seodec18
 ms.date: 10/03/2017
 ms.prod: visual-studio-dev15
 ms.technology: vs-acquisition
