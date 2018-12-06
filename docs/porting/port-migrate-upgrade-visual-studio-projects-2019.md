@@ -1,5 +1,6 @@
 ---
-title: Port, Migrate, and Upgrade Projects
+title: Port, migrate, and upgrade projects in Visual Studio 2019 Preview
+titleSuffix: ""
 description: A reference for the support in Visual Studio 2019 Preview for projects created in earlier versions of Visual Studio, and how Visual Studio decides when to migrate a project.
 ms.date: 12/06/2018
 ms.prod: visual-studio-dev16
