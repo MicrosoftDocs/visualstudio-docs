@@ -1,13 +1,14 @@
 ---
-title: Debugging Python code on remote Linux computers
-description: How to use Visual Studio to debug Python code running on remote Linux computers, including necessary configuration steps, security, and troubleshooting.
-ms.date: 10/15/2018
+title: Debug Python code on remote Linux computers
+description: Use Visual Studio to debug Python code running on remote Linux computers, including necessary configuration steps, security, and troubleshooting.
+ms.date: 12/06/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
 manager: douge
+ms.custom: seodec18
 ms.workload: 
   - python
   - data-science
@@ -101,7 +102,7 @@ In these steps, we set a simple breakpoint to stop the remote process.
 
 1. Visual Studio then switches into debugging mode while the script continues to run on the remote computer, providing all the usual [debugging](debugging-python-in-visual-studio.md) capabilities. For example, set a breakpoint on the `if guess < number:` line, then switch over to the remote computer and enter another guess. After you do so, Visual Studio on your local computer stops at that breakpoint, shows local variables, and so on:
 
-    ![Breakpoint is hit](media/remote-debugging-breakpoint-hit.png)
+    ![Visual Studio pauses debugging when breakpoint is hit](media/remote-debugging-breakpoint-hit.png)
 
 1. When you stop debugging, Visual Studio detaches from the program, which continues to run on the remote computer. ptvsd also continues listening for attaching debuggers, so you can reattach to the process again at any time.
 
