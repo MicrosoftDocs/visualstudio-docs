@@ -1,5 +1,6 @@
 ---
-title: Working with Python Tutorial, Step 4, debugging
+title: Python in Visual Studio tutorial step 4, debugging
+titleSuffix: ""
 description: Step 4 of a core walkthrough of Python capabilities in Visual Studio, covering how to run Python code in the debugger.
 ms.date: 10/29/2018
 ms.prod: visual-studio-dev15
@@ -8,6 +9,7 @@ ms.topic: tutorial
 author: kraigb
 ms.author: kraigb
 manager: douge
+ms.custom: seodec18
 ms.workload: 
   - python
   - data-science
