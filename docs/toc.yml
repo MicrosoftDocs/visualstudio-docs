@@ -6,9 +6,9 @@
     - name: About Visual Studio 2017
       href: ide/visual-studio-ide.md
     - name: About the code editor
-      href: ide/quickstart-editor.md
+      href: get-started/tutorial-editor.md
     - name: About projects and solutions
-      href: ide/quickstart-projects-solutions.md
+      href: get-started/tutorial-projects-solutions.md
     - name: More Visual Studio features
       href: ide/advanced-feature-overview.md
 - name: Installation
@@ -179,6 +179,8 @@
         href: ide/creating-solutions-and-projects.md
       - name: Port, migrate, and upgrade projects
         href: porting/port-migrate-and-upgrade-visual-studio-projects.md
+      - name: Port, migrate, and upgrade projects in Visual Studio 2019 Preview
+        href: porting/port-migrate-upgrade-visual-studio-projects-2019.md
       - name: Manage project and solution properties
         href: ide/managing-project-and-solution-properties.md
       - name: Manage references in a project
@@ -242,6 +244,8 @@
       items:
       - name: Customize build and debug tasks
         href: ide/customize-build-and-debug-tasks-in-visual-studio.md
+    - name: Connect to a project or repo
+      href: ide/connect-team-project.md
     - name: Use the editor
       href: ide/writing-code-in-the-code-and-text-editor.md
       items:
@@ -910,8 +914,10 @@
         href: ide/reference/signing-page-project-designer.md
     - name: Property Pages, JavaScript
       href: ide/reference/property-pages-javascript.md
-    - name: Properties Window
+    - name: Properties window
       href: ide/reference/properties-window.md
+    - name: Team Explorer reference
+      href: ide/reference/team-explorer-reference.md
     - name: Toolbox
       href: ide/reference/toolbox.md
       items:

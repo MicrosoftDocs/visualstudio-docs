@@ -1,8 +1,8 @@
 ---
 title: "Setup Visual Studio for Mac Tools for Unity"
 description: "Setting up and installing Unity tools for use in Visual Studio for Mac"
-author: johmil
-ms.author: therealjohn
+author: therealjohn
+ms.author: johmil
 ms.date: 05/25/2018
 ms.assetid: 83FDD7A3-5D16-4B4B-9080-078E3FB5C623
 ---
