@@ -1,5 +1,5 @@
 ---
-title: "Tutorial: Universal Windows Platform (UWP) app in Visual Studio with XAML and C#"
+title: "Tutorial: Universal Windows Platform (UWP) app with XAML and C#"
 description: Create a Hello World Universal Windows Platform (UWP) app in Visual Studio with XAML and C#
 ms.custom: "seodec18"
 ms.date: "04/04/2018"

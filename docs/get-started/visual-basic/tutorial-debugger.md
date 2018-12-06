@@ -1,9 +1,7 @@
 ---
-title: "Learn to debug Visual Basic code using the Visual Studio debugger"
+title: "Learn to debug Visual Basic code using the debugger"
 description: "Learn how to start the Visual Studio debugger, step through code, and inspect data."
-ms.custom: 
-   - "debug-experiment"
-   - "seodec18"
+ms.custom: "debug-experiment,seodec18"
 ms.date: "11/27/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "tutorial"
