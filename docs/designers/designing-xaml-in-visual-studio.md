@@ -1,5 +1,5 @@
 ---
-title: Designing XAML in Visual Studio
+title: Use XAML
 ms.date: 07/17/2017
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-designers

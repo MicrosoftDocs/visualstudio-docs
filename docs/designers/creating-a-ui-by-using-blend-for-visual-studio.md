@@ -1,5 +1,6 @@
 ---
-title: Creating a UI by using Blend for Visual Studio
+title: Create a UI - Blend for Visual Studio
+titleSuffix: ""
 ms.date: 07/17/2017
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-designers
