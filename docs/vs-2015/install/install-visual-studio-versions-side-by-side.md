@@ -30,11 +30,11 @@ You can install this version of Visual Studio on a computer that already has an 
 
 -   If you use Visual Studio 2015 to open a solution that was created in [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)], you can later open and modify the solution again in the older version as long as you haven't implemented any features that are specific to Visual Studio 2015.
 
--   If you try to use Visual Studio 2015 to open a solution that was created in [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)] or an earlier version, you might need to modify your projects and files to be compatible with Visual Studio 2015. For more information, see the [Port, Migrate, and Upgrade Visual Studio Projects](../../porting/port-migrate-and-upgrade-visual-studio-projects.md) page.
+-   If you try to use Visual Studio 2015 to open a solution that was created in [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)] or an earlier version, you might need to modify your projects and files to be compatible with Visual Studio 2015. For more information, see the [Port, Migrate, and Upgrade Visual Studio Projects](/visualstudio/porting/port-migrate-and-upgrade-visual-studio-projects?view=vs-2015) page.
 
 -   If you uninstall a version of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] on a computer that has more than one version installed, the file associations for [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] are removed for all versions. You can remap these file associations by using the **Restore File Associations** button on the **Environment**, **General** page of the [Options](../ide/reference/general-environment-options-dialog-box.md) dialog box.
 
--   Visual Studio doesn't automatically upgrade extensions because not all extensions are compatible. You must reinstall the extensions from the [Visual Studio Gallery](http://go.microsoft.com/fwlink/?LinkId=178891) or the software publisher.
+-   Visual Studio doesn't automatically upgrade extensions because not all extensions are compatible. You must reinstall the extensions from the [Visual Studio Marketplace](http://go.microsoft.com/fwlink/?LinkId=178891) or the software publisher.
 
 ## .NET Framework Versions and Side-by-Side Installations
 
@@ -55,6 +55,6 @@ You can install this version of Visual Studio on a computer that already has an 
 ## See Also
 
 - [Install Visual Studio](../install/install-visual-studio-2015.md)
-- [Port, Migrate, and Upgrade Visual Studio Projects](../../porting/port-migrate-and-upgrade-visual-studio-projects.md)
+- [Port, Migrate, and Upgrade Visual Studio Projects](/visualstudio/porting/port-migrate-and-upgrade-visual-studio-projects?view=vs-2015)
 - [Building C/C++ Isolated Applications and Side-by-side Assemblies](http://msdn.microsoft.com/library/9465904e-76f7-48bd-bb3f-c55d8f1699b6)
 - [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)
