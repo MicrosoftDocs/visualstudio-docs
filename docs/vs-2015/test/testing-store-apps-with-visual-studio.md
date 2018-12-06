@@ -1,20 +1,16 @@
 ---
 title: "Testing Store apps"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-general
+ms.topic: reference
 ms.assetid: cf4000b4-91b5-4b3f-a00d-cc8d192467c2
 caps.latest.revision: 22
 ms.author: gewarren
 manager: "douge"
 ---
 # Testing Store apps with Visual Studio
+
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 Visual Studio includes testing tools that can help you ensure that your Store app is of the highest quality.
