@@ -32,7 +32,7 @@ First, we'll create a C# application project. The project type comes with all th
 
 3. In the **New Project** dialog box in the left pane, expand **C#**, and then choose **.NET Core**. In the middle pane, choose **Console App (.NET Core)**. Then name the file *Calculator*.
 
-   ![Console App (.NET Core) project template in the New Project dialog box in the Visual Studio IDE](../ide/media/new-project-csharp-calculator-console-app.png)
+   ![Console App (.NET Core) project template in the New Project dialog box in the Visual Studio IDE](media/new-project-csharp-calculator-console-app.png)
 
 ### Add a workgroup (optional)
 
@@ -42,11 +42,11 @@ If you don't see the **Console App (.NET Core)** project template, you can get i
 
 1. Choose the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box.
 
-   ![Choose the Open Visual Studio Installer link from the New Project dialog box](../ide/media/csharp-open-visual-studio-installer-generic-dark.png)
+   ![Choose the Open Visual Studio Installer link from the New Project dialog box](media/csharp-open-visual-studio-installer-generic-dark.png)
 
 1. The Visual Studio Installer launches. Choose the **.NET Core cross-platform development** workload, and then choose **Modify**.
 
-   ![.NET Core cross-platform development workload in the Visual Studio Installer](../ide/media/dot-net-core-xplat-dev-workload.png)
+   ![.NET Core cross-platform development workload in the Visual Studio Installer](../media/dot-net-core-xplat-dev-workload.png)
 
 #### Option 2: Use the Tools menu bar
 
@@ -126,15 +126,15 @@ If you don't see the **Console App (.NET Core)** project template, you can get i
 
    The code that appears after `static void Main(string[] args)` should look like the following screenshot:
 
-   ![Code editor showing the C# Console Calculator](../ide/media/csharp-console-calculator-code.png)
+   ![Code editor showing the C# Console Calculator](media/csharp-console-calculator-code.png)
 
 1. Choose **Calculator** to run your program, or press **F5**.
 
-   ![Choose the Calculator button to run the app from the toolbar](../ide/media/csharp-console-calculator-button.png)
+   ![Choose the Calculator button to run the app from the toolbar](media/csharp-console-calculator-button.png)
 
 1. View your app in the console window. When you follow the prompts, your app should look similar to the following screenshot:
 
-    ![Console window showing the Calculator app, which includes prompts on which actions to take.](../ide/media/csharp-console-calculator.png)
+    ![Console window showing the Calculator app, which includes prompts on which actions to take.](media/csharp-console-calculator.png)
 
 ### Close the app
 
@@ -142,7 +142,7 @@ If you don't see the **Console App (.NET Core)** project template, you can get i
 
 1. Close the **Output** pane in Visual Studio.
 
-   ![Close the Output pane in Visual Studio](../ide/media/csharp-calculator-close-output-pane.png)
+   ![Close the Output pane in Visual Studio](media/csharp-calculator-close-output-pane.png)
 
 1. Close Visual Studio.
 

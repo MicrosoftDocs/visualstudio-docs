@@ -3,7 +3,7 @@ title: Introduction to editing for Visual Basic developers
 ms.date: 11/20/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
-ms.topic: quickstart
+ms.topic: tutorial
 author: gewarren
 ms.author: gewarren
 manager: douge
@@ -33,7 +33,7 @@ Start by creating a new file and adding some code to it.
 
    A new file opens in the editor with the skeleton of a Visual Basic class. (You can already notice that you don't have to create a full Visual Studio project to gain some of the benefits that the code editor offers, such as syntax highlighting. All you need is a code file!)
 
-   ![Visual Basic code file in Visual Studio](media/quickstart-editor.png)
+   ![Visual Basic code file in Visual Studio](media/tutorial-editor.png)
 
 ## Use code snippets
 
@@ -43,7 +43,7 @@ Visual Studio provides useful *code snippets* that you can use to quickly and ea
 
    A pop-up dialog box appears with information about the `Sub` keyword and how to insert the **Sub** code snippet.
 
-   ![IntelliSense for code snippet in Visual Studio](media/quickstart-intellisense-snippet.png)
+   ![IntelliSense for code snippet in Visual Studio](media/tutorial-intellisense-snippet.png)
 
 1. Press **Tab** twice to insert the code snippet.
 
@@ -51,7 +51,7 @@ Visual Studio provides useful *code snippets* that you can use to quickly and ea
 
 The available code snippets vary for different programming languages. You can look at the available code snippets for Visual Basic by choosing **Edit** > **IntelliSense** > **Insert Snippet** (or press **Ctrl**+**K**, **Ctrl**+**X**). For Visual Basic, code snippets are available for the following categories:
 
-![Visual Basic code snippet list](media/quickstart-code-snippet-list.png)
+![Visual Basic code snippet list](media/tutorial-code-snippet-list.png)
 
 There are snippets for determining if a file exists on the computer, writing to a text file, reading a registry value, executing a SQL query, creating a [For Each...Next statement](/dotnet/visual-basic/language-reference/statements/for-each-next-statement), and many more.
 
@@ -59,7 +59,7 @@ There are snippets for determining if a file exists on the computer, writing to 
 
 The toolbar, which is the row of buttons under the menu bar in Visual Studio, can help make you more productive as you code. For example, you can toggle IntelliSense completion mode, increase or decrease a line indent, or comment out code that you don't want to compile. ([IntelliSense](../../ide/using-intellisense.md) is a coding aid that displays a list of matching methods, amongst other things.) In this section, we'll comment out some code.
 
-![Editor toolbar buttons](media/quickstart-editor-toolbar.png)
+![Editor toolbar buttons](media/tutorial-editor-toolbar.png)
 
 1. Paste the following code into the `MySub()` procedure body.
 
@@ -87,7 +87,7 @@ The toolbar, which is the row of buttons under the menu bar in Visual Studio, ca
 
 1. We're not using the `morewords` array, but we may use it later so we don't want to completely delete it. Instead, let's comment out those lines. Select the entire definition of `morewords` to the closing curly brace, and then choose the **Comment out the selected lines** button on the toolbar. If you prefer to use the keyboard, press **Ctrl**+**K**, **Ctrl**+**C**.
 
-   ![Comment out button](media/quickstart-comment-out.png)
+   ![Comment out button](media/tutorial-comment-out.png)
 
    The Visual Basic comment character `'` is added to the beginning of each selected line to comment out the code.
 
@@ -95,7 +95,7 @@ The toolbar, which is the row of buttons under the menu bar in Visual Studio, ca
 
 You can collapse sections of code to focus just on the parts that are of interest to you. To practice, let's collapse the `_words` array to one line of code. Choose the small gray box with the minus sign inside it in the margin of the line that says `Dim _words = New String() {`. Or, if you're a keyboard user, place the cursor anywhere in the array definition and press **Ctrl**+**M**, **Ctrl**+**M**.
 
-![Outlining collapse button](media/quickstart-collapse.png)
+![Outlining collapse button](media/tutorial-collapse.png)
 
 The code block collapses to just the first line, followed by an ellipsis (`...`). To expand the code block again, click the same gray box that now has a plus sign in it, or press **Ctrl**+**M**, **Ctrl**+**M** again. This feature is called [Outlining](../../ide/outlining.md) and is especially useful when you're collapsing long methods or entire classes.
 
@@ -107,7 +107,7 @@ The Visual Studio editor makes it easy to inspect the definition of a type, meth
 
    A pop-up window appears with the definition of the `String` class. You can scroll within the pop-up window, or even peek at the definition of another type from the peeked code.
 
-   ![Peek definition window](media/quickstart-peek-definition.png)
+   ![Peek definition window](media/tutorial-peek-definition.png)
 
 1. Close the peeked definition window by choosing the small box with an "x" at the top right of the pop-up window.
 
@@ -123,7 +123,7 @@ The Visual Studio editor makes it easy to inspect the definition of a type, meth
 
    You see IntelliSense show you **Quick Info** about the `query` symbol.
 
-   ![IntelliSense word completion in Visual Studio](media/quickstart-intellisense-completion-list.png)
+   ![IntelliSense word completion in Visual Studio](media/tutorial-intellisense-completion-list.png)
 
 1. To insert the rest of the word `query` by using IntelliSense's word completion functionality, press **Tab**.
 
@@ -145,7 +145,7 @@ Nobody gets code right the first time, and one of the things you might have to c
 
 1. With the variable `_words` still selected, type in the desired name of **words**. Notice that the reference to `words` in the query is also automatically renamed. Before you press **Enter** or click **Apply**, select the **Include comments** checkbox in the **Rename** pop-up box.
 
-   ![Rename dialog box](media/quickstart-rename.png)
+   ![Rename dialog box](media/tutorial-rename.png)
 
 1. Press **Enter** or click **Apply**.
 
@@ -154,7 +154,7 @@ Nobody gets code right the first time, and one of the things you might have to c
 ## Next steps
 
 > [!div class="nextstepaction"]
-> [Learn about projects and solutions](quickstart-projects-solutions.md)
+> [Learn about projects and solutions](tutorial-projects-solutions.md)
 
 ## See also
 

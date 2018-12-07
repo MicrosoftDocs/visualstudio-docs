@@ -93,4 +93,4 @@ Let's add some code to pause the application so that the console window doesn't 
 Congratulations on completing this Quickstart! We hope you learned a little bit about C# and the Visual Studio IDE. To learn more, continue with the following tutorials.
 
 > [!div class="nextstepaction"]
-> [Get started with a C# console app in Visual Studio](tutorial-csharp-console.md)
+> [Get started with a C# console app in Visual Studio](../get-started/csharp/tutorial-console.md)

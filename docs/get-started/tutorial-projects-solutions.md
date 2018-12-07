@@ -15,7 +15,7 @@ ms.workload:
 In this introductory article, we'll explore what it means to create a *solution* and a *project* in Visual Studio. A solution is a container that's used to organize one or more related code projects, for example a class library and a corresponding test project. We'll look at the properties of a project and some of the files it can contain. We'll also create a reference from one project to another.
 
 > [!TIP]
-> This article uses both C# and Visual Basic code. If you prefer to read a language-specific version, see the [C#](csharp/quickstart-projects-solutions.md) or [Visual Basic](visual-basic/quickstart-projects-solutions.md) article instead.
+> This article uses both C# and Visual Basic code. If you prefer to read a language-specific version, see the [C#](csharp/tutorial-projects-solutions.md) or [Visual Basic](visual-basic/tutorial-projects-solutions.md) article instead.
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
 

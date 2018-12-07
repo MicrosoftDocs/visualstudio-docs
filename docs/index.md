@@ -131,7 +131,7 @@ ms.topic: hub-page
                                                                     </a>
                                                                 </li>
                                                                 <li>
-                                                                    <a class="barLink" href="/visualstudio/python/tutorial-working-with-python-in-visual-studio-step-01-create-project">
+                                                                    <a class="barLink" href="/visualstudio/python/">
                                                                         <img src="https://docs.microsoft.com/media/logos/logo_python.svg" alt="Python icon">
                                                                         Python</a>
                                                                 </li>

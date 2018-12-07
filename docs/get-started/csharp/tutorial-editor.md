@@ -3,7 +3,7 @@ title: Introduction to editing for C# developers
 ms.date: 11/20/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
-ms.topic: quickstart
+ms.topic: tutorial
 author: gewarren
 ms.author: gewarren
 manager: douge
@@ -18,7 +18,7 @@ In this 10-minute introduction to the code editor in Visual Studio, we'll add co
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
 
-This article assumes you're already familiar with C#. If you aren't, we suggest you look at a tutorial such as [Get started with C# and ASP.NET Core in Visual Studio](../../ide/tutorial-csharp-aspnet-core.md) first.
+This article assumes you're already familiar with C#. If you aren't, we suggest you look at a tutorial such as [Get started with C# and ASP.NET Core in Visual Studio](tutorial-aspnet-core.md) first.
 
 > [!TIP]
 > To follow along with this article, make sure you have the C# settings selected for Visual Studio. For information about selecting settings for the integrated development environment (IDE), see [Select environment settings](visual-studio-ide.md#select-environment-settings).
@@ -155,7 +155,7 @@ Nobody gets code right the first time, and one of the things you might have to c
 ## Next steps
 
 > [!div class="nextstepaction"]
-> [Learn about projects and solutions](quickstart-projects-solutions.md)
+> [Learn about projects and solutions](tutorial-projects-solutions.md)
 
 ## See also
 
