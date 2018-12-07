@@ -1,6 +1,5 @@
 ---
 title: "Remote Debugger Port Assignments | Microsoft Docs"
-ms.custom: "H1Hack27Feb2017"
 ms.date: "05/18/2017"
 ms.technology: "vs-ide-debug"
 ms.topic: "reference"
@@ -8,11 +7,11 @@ ms.assetid: 238bb4ec-bb00-4c2b-986e-18ac278f3959
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Remote Debugger Port Assignments
-The Visual Studio Remote Debugger can run as an application or as a background service. When it runs as an application, it uses a port that is assigned by default as follows:  
+The Visual Studio Remote Debugger can run as an application or as a background service. When it runs as an application, it uses a port that is assigned by default as follows:
 
 - Visual Studio 2019: 4024
 
@@ -49,10 +48,10 @@ The Visual Studio Remote Debugger can run as an application or as a background s
  The following ports are used by the remote debugger on Azure. The ports on the cloud service are mapped to the ports on the individual VM. All ports are TCP.  
   
 |Connection|Port on Cloud Service|Port on VM|
-|-|-|-|  
-|Microsoft.WindowsAzure.Plugins.RemoteDebugger.Connector|30400|30398|  
-|Microsoft.WindowsAzure.Plugins.RemoteDebugger.Forwarder|31400|31398|  
-|Microsoft.WindowsAzure.Plugins.RemoteDebugger.FileUpload|32400|32398|  
-  
-## See Also  
+|-|-|-|
+|Microsoft.WindowsAzure.Plugins.RemoteDebugger.Connector|30400|30398|
+|Microsoft.WindowsAzure.Plugins.RemoteDebugger.Forwarder|31400|31398|
+|Microsoft.WindowsAzure.Plugins.RemoteDebugger.FileUpload|32400|32398|
+
+## See Also
  [Remote Debugging](../debugger/remote-debugging.md)

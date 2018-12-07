@@ -1,7 +1,7 @@
 ---
 title: Fix bugs by writing better C# code
 description: "Understand how to write better code with less bugs"
-ms.custom: ['debug-experiments', 'seodec18']
+ms.custom: ['debug-experiment', 'seodec18']
 ms.date: "11/20/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
@@ -15,7 +15,7 @@ ms.workload:
 ---
 # Fix bugs by writing better C# code using Visual Studio
 
-Debugging code can be a time-consuming--and sometimes frustrating--task. It takes time to learn how to debug effectively, but a powerful IDE like Visual Studio can make your job a lot easier. An IDE can help you debug your code more quickly, and not just that, but it can also help you write better code with fewer bugs. Our aim in this article is to give you a holistic view of the debugging process, so you will know when to use the code analyzer, when to use the debugger, and when to use other tools.  
+Debugging code can be a time-consuming--and sometimes frustrating--task. It takes time to learn how to debug effectively, but a powerful IDE like Visual Studio can make your job a lot easier. An IDE can help you debug your code more quickly, and not just that, but it can also help you write better code with fewer bugs. Our aim in this article is to give you a holistic view of the debugging process, so you will know when to use the code analyzer, when to use the debugger, and when to use other tools.
 
 In this article, we talk about leveraging the IDE to make your debugging sessions more productive. We touch on several tasks, such as:
 
@@ -297,7 +297,7 @@ namespace Console_Parse_JSON_DotNetCore
 
             for (int i = 0; i < users.Length; i++)
             {
-                List<User> result = localDB.FindAll(delegate (User u) { 
+                List<User> result = localDB.FindAll(delegate (User u) {
                     return u.lastname == users[i].lastname;
                     });
                 foreach (var item in result)
@@ -309,7 +309,7 @@ namespace Console_Parse_JSON_DotNetCore
             Console.ReadKey();
         }
 
-        // Deserialize a JSON stream to a User object.  
+        // Deserialize a JSON stream to a User object.
         public static User[] ReadToObject(string json)
         {
             User deserializedUser = new User();

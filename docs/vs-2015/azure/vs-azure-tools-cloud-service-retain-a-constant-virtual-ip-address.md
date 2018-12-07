@@ -6,7 +6,6 @@ manager: douge
 assetId: 4a58e2c6-7a79-4051-8a2c-99182ff8b881
 ms.prod: visual-studio-dev14
 ms.technology: vs-azure
-ms.custom: vs-azure
 ms.workload: azure-vs
 ms.topic: conceptual
 ms.date: 03/21/2017
@@ -16,12 +15,12 @@ ms.author: ghogen
 When you update a cloud service that's hosted in Azure, you might need to ensure that the virtual IP address (VIP) of the service doesn't change. Many domain management services use the Domain Name System (DNS) for registering domain names. DNS works only if the VIP remains the same. You can use the **Publish Wizard** in Azure Tools to ensure that the VIP of your cloud service doesn’t change when you update it. For more information about how to use DNS domain management for cloud services, see [Configuring a custom domain name for an Azure cloud service](/azure/cloud-services/cloud-services-custom-domain-name-portal).
 
 ## Publish a cloud service without changing its VIP
-The VIP of a cloud service is allocated when you first deploy it to Azure in a particular environment, such as the production environment. The VIP changes only if you delete the deployment explicitly or the deployment is implicitly deleted by the deployment update process. To retain the VIP, you must not delete your deployment, and you must make sure that Visual Studio doesn’t delete your deployment automatically. 
+The VIP of a cloud service is allocated when you first deploy it to Azure in a particular environment, such as the production environment. The VIP changes only if you delete the deployment explicitly or the deployment is implicitly deleted by the deployment update process. To retain the VIP, you must not delete your deployment, and you must make sure that Visual Studio doesn’t delete your deployment automatically.
 
 You can specify deployment settings in the **Publish Wizard**, which supports several deployment options. You can specify a fresh deployment or an update deployment, which can be incremental or simultaneous. Both kinds of update deployment retain the VIP. For definitions of these different types of deployment, see [Publish Azure Application Wizard](vs-azure-tools-publish-azure-application-wizard.md). In addition, you can control whether the previous deployment of a cloud service is deleted if an error occurs. If you don't set that option correctly, the VIP might change unexpectedly.
 
 ## Update a cloud service without changing its VIP
-1. Create or open an Azure cloud service project in Visual Studio. 
+1. Create or open an Azure cloud service project in Visual Studio.
 
 2. In **Solution Explorer**, right-click the project. On the shortcut menu, select **Publish**.
 
@@ -35,7 +34,7 @@ You can specify deployment settings in the **Publish Wizard**, which supports se
 
 	![Publish Azure Application Common Settings tab](./media/vs-azure-tools-cloud-service-retain-a-constant-virtual-ip-address/azure-publish-common-settings.png)
 
-5. On the **Advanced Settings** tab, verify that the **Deployment label** and the **Storage account** are correct. Verify that the **Delete deployment on failure** check box is cleared, and verify that the **Deployment update** check box is selected. By clearing the **Delete deployment on failure** check box, you ensure that your VIP isn't lost if an error occurs during deployment. By selecting the **Deployment update** check box, you ensure that your deployment isn't deleted and your VIP isn't lost when you republish your application. 
+5. On the **Advanced Settings** tab, verify that the **Deployment label** and the **Storage account** are correct. Verify that the **Delete deployment on failure** check box is cleared, and verify that the **Deployment update** check box is selected. By clearing the **Delete deployment on failure** check box, you ensure that your VIP isn't lost if an error occurs during deployment. By selecting the **Deployment update** check box, you ensure that your deployment isn't deleted and your VIP isn't lost when you republish your application.
 
 	![Publish Azure Application Advanced Settings tab](./media/vs-azure-tools-cloud-service-retain-a-constant-virtual-ip-address/azure-publish-advanced-settings.png)
 
@@ -44,9 +43,8 @@ You can specify deployment settings in the **Publish Wizard**, which supports se
 	![Publish Azure Application Deployment Settings page](./media/vs-azure-tools-cloud-service-retain-a-constant-virtual-ip-address/azure-publish-deployment-update-settings.png)
 
 7. In the **Publish Azure Application** dialog box, select **Next** until the **Summary** page is displayed. Verify your settings, and then select **Publish**.
-   
+
 	![Publish Azure Application Summary page](./media/vs-azure-tools-cloud-service-retain-a-constant-virtual-ip-address/azure-publish-summary.png)
 
 ## Next steps
 - [Using the Visual Studio Publish Azure Application Wizard](vs-azure-tools-publish-azure-application-wizard.md)
-
