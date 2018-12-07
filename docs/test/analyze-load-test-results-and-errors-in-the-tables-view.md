@@ -1,5 +1,5 @@
 ---
-title: "Analyzing Load Test Results and Errors in Visual Studio"
+title: "Analyzing Load Test Results and Errors"
 ms.date: 10/19/2016
 ms.topic: conceptual
 f1_keywords:

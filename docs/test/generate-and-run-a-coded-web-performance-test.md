@@ -1,5 +1,5 @@
 ---
-title: "Coded web performance tests in Visual Studio"
+title: "Coded web performance tests"
 ms.date: 10/03/2016
 ms.topic: conceptual
 helpviewer_keywords:

@@ -1,5 +1,5 @@
 ---
-title: "Create custom code and plug-ins for load tests in Visual Studio"
+title: "Create custom code and plug-ins for load tests"
 ms.date: 10/19/2016
 ms.topic: conceptual
 f1_keywords:

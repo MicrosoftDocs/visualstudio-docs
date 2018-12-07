@@ -1,5 +1,5 @@
 ---
-title: "How to: Select a Load Test Results Repository in Visual Studio"
+title: "How to: Select a Load Test Results Repository"
 ms.date: 10/19/2016
 ms.topic: conceptual
 f1_keywords:

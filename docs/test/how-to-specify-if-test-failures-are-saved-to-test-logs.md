@@ -1,5 +1,5 @@
 ---
-title: "Save load test log for test failures in Visual Studio"
+title: "Save load test log for test failures"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:

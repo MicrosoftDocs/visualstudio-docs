@@ -1,5 +1,5 @@
 ---
-title: "Browser test mix for load testing in Visual Studio"
+title: "Browser test mix for load testing"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:

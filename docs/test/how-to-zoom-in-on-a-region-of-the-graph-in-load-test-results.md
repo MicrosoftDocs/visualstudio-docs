@@ -1,5 +1,5 @@
 ---
-title: "Zoom in on load test result graphs in Visual Studio"
+title: "Zoom in on load test result graphs"
 ms.date: 10/19/2016
 ms.topic: conceptual
 f1_keywords:
