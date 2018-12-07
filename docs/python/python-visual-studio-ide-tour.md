@@ -18,7 +18,7 @@ ms.workload:
 
 The Visual Studio *integrated development environment* is a creative launching pad that you can use to edit, debug, and test code, and then publish an app. An integrated development environment (IDE) is a feature-rich program that can be used for many aspects of software development. Over and above the standard editor and debugger that most IDEs provide, Visual Studio includes code completion tools, interactive REPL environments, and other features to ease the software development process.
 
-![The Visual Studio IDE](media/tour-ide-overview.png)
+[![The Visual Studio with a Python project](media/media/tour-ide-overview.png)](media/media/tour-ide-overview.png#lightbox)
 
 This image shows Visual Studio with an open project and several key tool windows you'll likely use:
 
@@ -44,7 +44,7 @@ Some of the popular features in Visual Studio that help you to be more productiv
 
 - [IntelliSense](editing-python-code-in-visual-studio.md#intellisense)
 
-   IntelliSense is a term for a set of features that displays information about your code directly in the editor and, in some cases, write small bits of code for you. It's like having basic documentation inline in the editor, which saves you from having to look up type information elsewhere. IntelliSense features vary by language, and the [Editing Python code](editing-python-in-visual-studio.md#intellisense) article has details for Python. The following illustration shows how IntelliSense displays a member list for a type:
+   IntelliSense is a term for a set of features that displays information about your code directly in the editor and, in some cases, write small bits of code for you. It's like having basic documentation inline in the editor, which saves you from having to look up type information elsewhere. IntelliSense features vary by language, and the [Editing Python code](editing-python-code-in-visual-studio.md#intellisense) article has details for Python. The following illustration shows how IntelliSense displays a member list for a type:
 
    ![Member completion with Visual Studio IntelliSense](media/code-editing-completions-simple.png)
 
@@ -86,7 +86,7 @@ Some of the popular features in Visual Studio that help you to be more productiv
 
     ![Python interactive window](media/interactive-window.png)
 
-- [Debugging](debugging-python-in-visual-studio.png)
+- [Debugging](debugging-python-in-visual-studio.md)
 
     Visual Studio provides a comprehensive debugging experience for Python, including attaching to running processes, evaluating expressions in the **Watch** and **Immediate** windows, inspecting local variables, breakpoints, step in/out/over statements, **Set Next Statement**, and more. You can also debug remote Python code running on Linux computers.
 
@@ -112,7 +112,10 @@ Some of the popular features in Visual Studio that help you to be more productiv
 
 ## Next steps
 
-Explore Python in Visual Studio further by following one of these tutorials:
+Explore Python in Visual Studio further by following one of the following quickstarts or tutorials:
+
+> [!div class="nextstepaction"]
+> [Quickstart: Create a web app with Flask](../ide/quickstart-python.md?toc=/visualstudio/python/toc.json&bc=/visualstudio/_breadcrumb/toc.json)
 
 > [!div class="nextstepaction"]
 > [Work with Python in Visual Studio](tutorial-working-with-python-in-visual-studio-step-01-create-project.md)
@@ -121,7 +124,7 @@ Explore Python in Visual Studio further by following one of these tutorials:
 > [Get started with the Django web framework in Visual Studio](learn-django-in-visual-studio-step-01-project-and-solution.md)
 
 > [!div class="nextstepaction"]
-> [Get started with the Flask web framework in Visual Studio](learn-flask-in-visual-studio-step-01-project-and-solution.md)
+> [Get started with the Flask web framework in Visual Studio](learn-flask-visual-studio-step-01-project-solution.md)
 
 ## See also
 
