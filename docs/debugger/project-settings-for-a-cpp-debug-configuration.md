@@ -1,6 +1,6 @@
 ---
-title: "Project settings for a C++ debug configuration | Microsoft Docs"
-ms.custom: ""
+title: "Project settings for a C++ debug config"
+ms.custom: "seodec18"
 ms.date: "11/26/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "reference"

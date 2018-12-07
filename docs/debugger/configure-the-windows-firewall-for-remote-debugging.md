@@ -1,6 +1,5 @@
 ---
 title: "Configure Windows Firewall for remote debugging | Microsoft Docs"
-ms.custom: ""
 ms.date: "10/31/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"

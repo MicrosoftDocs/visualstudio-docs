@@ -1,7 +1,7 @@
 ---
-title: Let Visual Studio help you write C# code with less bugs
+title: Fix bugs by writing better C# code
 description: "Understand how to write better code with less bugs"
-ms.custom: "debug-experiments"
+ms.custom: ['debug-experiments', 'seodec18']
 ms.date: "11/20/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"

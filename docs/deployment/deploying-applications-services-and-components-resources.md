@@ -1,6 +1,6 @@
 ---
-title: "Deployment overview - Visual Studio | Microsoft Docs"
-ms.custom: ""
+title: "Deployment overview | Microsoft Docs"
+ms.custom: "seodec18"
 ms.date: 06/22/2018
 ms.technology: vs-ide-deployment
 ms.topic: "overview"

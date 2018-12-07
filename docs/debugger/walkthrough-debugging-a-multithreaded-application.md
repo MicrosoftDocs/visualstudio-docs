@@ -1,5 +1,5 @@
 ---
-title: "View Threads in the Debugger | Microsoft Docs"
+title: "View threads in the debugger | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/29/2018"
 ms.technology: "vs-ide-debug"

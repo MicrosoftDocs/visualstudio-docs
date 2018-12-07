@@ -1,6 +1,6 @@
 ---
-title: "How to: Attach and Detach Performance Tools to Running Processes | Microsoft Docs"
-ms.custom: ""
+title: "Attach performance tools to running processes"
+ms.custom: "seodec18"
 ms.date: "11/04/2016"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"

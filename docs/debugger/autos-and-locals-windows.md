@@ -1,6 +1,6 @@
 ---
-title: "Inspect variables in the Autos and Locals windows | Microsoft Docs"
-ms.custom: "H1Hack27Feb2017"
+title: "Inspect variables - Autos and Locals windows | Microsoft Docs"
+ms.custom: "seodec18"
 ms.date: "10/18/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
