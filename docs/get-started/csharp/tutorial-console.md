@@ -1,7 +1,7 @@
 ---
 title: "Tutorial: Get started with C# console apps"
 description: "Learn how to create a C# console app in Visual Studio, step-by-step."
-ms.custom: ""
+ms.custom: "seodec18"
 ms.date: 10/26/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-acquisition

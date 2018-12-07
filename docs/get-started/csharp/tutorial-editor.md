@@ -1,5 +1,7 @@
 ---
 title: Introduction to editing for C# developers
+description: This 10-minute introduction to the code editor in Visual Studio shows some of the ways that Visual Studio makes writing, navigating, and understanding C# code easier.
+ms.custom: seodec18
 ms.date: 11/20/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
