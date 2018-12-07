@@ -1,6 +1,6 @@
 ---
-title: "How to: Write a Run-Time Error Reporting Function | Microsoft Docs"
-ms.custom: ""
+title: "Write a run-time error reporting function | Microsoft Docs"
+ms.custom: "seodec18"
 ms.date: "11/04/2016"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"

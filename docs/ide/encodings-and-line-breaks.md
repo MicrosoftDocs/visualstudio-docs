@@ -1,5 +1,5 @@
 ---
-title: Visual Studio encoding and line break characters
+title: Encoding and line break characters
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general

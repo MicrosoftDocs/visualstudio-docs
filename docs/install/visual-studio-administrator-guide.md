@@ -1,5 +1,6 @@
 ---
 title: "Visual Studio administrator guide"
+titleSuffix: ""
 description: "Learn more about how to deploy Visual Studio in an enterprise environment."
 ms.custom: ""
 ms.date: 05/29/2018

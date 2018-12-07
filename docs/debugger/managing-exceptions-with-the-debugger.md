@@ -1,6 +1,6 @@
 ---
-title: "Manage exceptions with the Visual Studio debugger | Microsoft Docs"
-ms.custom: ""
+title: "Manage exceptions with the debugger | Microsoft Docs"
+ms.custom: "seodec18"
 ms.date: "10/09/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"

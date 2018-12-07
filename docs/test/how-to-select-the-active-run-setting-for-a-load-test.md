@@ -1,5 +1,5 @@
 ---
-title: "Select a Run Setting for a Load Test in Visual Studio"
+title: "Select a Run Setting for a Load Test"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:

@@ -1,5 +1,5 @@
 ---
-title: "Add Run Settings to a Load Test in Visual Studio"
+title: "Add Run Settings to a Load Test"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:

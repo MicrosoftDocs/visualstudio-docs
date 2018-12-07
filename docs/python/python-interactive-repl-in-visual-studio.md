@@ -1,6 +1,6 @@
 ---
 title: Python interactive window (REPL)
-description: How to use the interactive window (REPL) for Python code in Visual Studio for rapid code development.
+description: Use the interactive window (REPL) for rapid Python code development in Visual Studio.
 ms.date: 10/29/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
@@ -8,6 +8,7 @@ ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
 manager: douge
+ms.custom: seodec18
 ms.workload: 
   - python
   - data-science

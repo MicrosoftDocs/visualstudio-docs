@@ -1,6 +1,6 @@
 ---
-title: "Remote Debug ASP.NET on a Remote IIS Computer | Microsoft Docs"
-ms.custom: "remotedebugging"
+title: "Remote debug ASP.NET on an IIS computer"
+ms.custom: ['remotedebugging', 'seodec18']
 ms.date: "05/21/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"

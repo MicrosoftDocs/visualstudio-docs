@@ -1,6 +1,6 @@
 ---
-title: "How to: Attach the Profiler to a .NET Service to Collect Concurrency Data by Using the Command Line | Microsoft Docs"
-ms.custom: ""
+title: "Attach the profiler to a .NET service to collect concurrency data"
+ms.custom: "seodec18"
 ms.date: "11/04/2016"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"

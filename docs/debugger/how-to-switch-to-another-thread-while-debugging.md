@@ -1,6 +1,6 @@
 ---
-title: "How to: Switch to Another Thread While Debugging | Microsoft Docs"
-ms.custom: ""
+title: "Switch to another thread while debugging"
+ms.custom: "seodec18"
 ms.date: "04/27/2017"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"

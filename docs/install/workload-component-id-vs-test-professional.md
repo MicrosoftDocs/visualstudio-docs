@@ -1,5 +1,6 @@
 ---
 title: Visual Studio Test Professional 2017 workload and component IDs
+titleSuffix: ""
 description: "Use Visual Studio workload and component IDs to provide integrated testing tools for generalist testers"
 keywords:
 author: TerryGLee

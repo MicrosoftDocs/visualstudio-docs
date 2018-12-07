@@ -1,5 +1,5 @@
 ---
-title: Using EditorConfig settings in Visual Studio
+title: EditorConfig settings
 ms.date: 08/01/2018
 ms.topic: conceptual
 helpviewer_keywords:

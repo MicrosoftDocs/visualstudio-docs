@@ -1,5 +1,5 @@
 ---
-title: "Create a network-based installation of Visual Studio"
+title: "Create a network-based installation"
 description: "Learn how to create a network install point for deploying Visual Studio within an enterprise."
 ms.date: 10/17/2017
 ms.technology: vs-acquisition

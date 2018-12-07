@@ -1,6 +1,6 @@
 ---
-title: "How Can I Debug a C++ Access Violation? | Microsoft Docs"
-ms.custom: ""
+title: "Debug a C++ access violation | Microsoft Docs"
+ms.custom: "seodec18"
 ms.date: "05/23/2017"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"

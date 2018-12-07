@@ -1,5 +1,5 @@
 ---
-title: "Fix non-detectable dynamic parameters in a web performance test in Visual Studio"
+title: "Fix non-detectable dynamic parameters in web performance test"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:

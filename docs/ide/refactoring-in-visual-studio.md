@@ -1,5 +1,5 @@
 ---
-title: Refactor code in Visual Studio | Microsoft Docs
+title: Refactoring
 ms.date: 01/10/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general

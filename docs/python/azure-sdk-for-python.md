@@ -1,7 +1,7 @@
 ---
 title: Azure SDK for Python
 description: The Azure SDK for Python makes it easy to consume Microsoft Azure services from Python applications running on any platform.
-ms.date: 10/10/2018
+ms.date: 12/06/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: conceptual
@@ -14,7 +14,7 @@ ms.workload:
   - azure
 ---
 
-# Azure SDK for Python
+# Consume Azure services using the Azure SDK for Python
 
 The Azure SDK for Python makes it easy to consume and manage Microsoft Azure services from applications running on Windows, MacOS, and Linux.
 

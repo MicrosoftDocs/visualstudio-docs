@@ -1,5 +1,5 @@
 ---
-title: "Get started with C++ in Visual Studio"
+title: Get started with C++
 description: ""
 ms.custom: mvc
 ms.date: 12/04/2017

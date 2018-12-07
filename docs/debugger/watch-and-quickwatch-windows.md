@@ -1,6 +1,6 @@
 ---
-title: "Set a watch on variables in Visual Studio | Microsoft Docs"
-ms.custom: "H1Hack27Feb2017"
+title: "Set a watch on variables | Microsoft Docs"
+ms.custom: "seodec18"
 ms.date: "10/11/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"

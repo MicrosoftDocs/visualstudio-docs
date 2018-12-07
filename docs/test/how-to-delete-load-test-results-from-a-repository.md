@@ -1,5 +1,5 @@
 ---
-title: "How to: Delete Load Test Results from a Repository in Visual Studio"
+title: "How to: Delete Load Test Results from a Repository"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:

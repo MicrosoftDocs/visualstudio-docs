@@ -1,5 +1,5 @@
 ---
-title: Find and use Visual Studio extensions
+title: Find and use extensions
 ms.date: 06/07/2017
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
