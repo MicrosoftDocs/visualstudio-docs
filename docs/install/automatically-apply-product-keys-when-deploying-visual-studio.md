@@ -1,5 +1,6 @@
 ---
 title: "Automatically apply product keys when deploying Visual Studio"
+titleSuffix: ""
 description: "Learn how to apply product keys programmatically when you deploy Visual Studio."
 ms.date: 08/14/2017
 ms.technology: vs-acquisition

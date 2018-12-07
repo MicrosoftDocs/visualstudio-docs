@@ -1,5 +1,6 @@
 ---
-title: "Modify Visual Studio 2017 | Microsoft Docs"
+title: "Modify Visual Studio"
+titleSuffix: ""
 description: "Learn how to modify Visual Studio, step-by-step."
 ms.custom: H1Hack27Feb2017
 ms.date: 06/12/2018

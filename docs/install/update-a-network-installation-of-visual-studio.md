@@ -1,5 +1,6 @@
 ---
 title: "Update a network-based installation of Visual Studio"
+titleSuffix: ""
 description: "Learn how to update a network-based Visual Studio installation by using the --layout command"
 ms.date: 08/14/2017
 ms.technology: vs-acquisition
@@ -15,7 +16,7 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Update a network-based installation of Visual Studio
+# Update a network-based installation of Visual Studio 2017
 
 It's possible to update a network installation layout of Visual Studio with the latest product updates so that it can be used both as an installation point for the latest update of Visual Studio and also to maintain installations that are already deployed to client workstations.
 

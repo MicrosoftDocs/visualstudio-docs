@@ -1,5 +1,6 @@
 ---
-title: "Troubleshooting network-related errors when you install or use Visual Studio"
+title: "Troubleshoot network-related errors when you install or use Visual Studio"
+titleSuffix: ""
 description: "Find solutions for network- or proxy-related errors that you might encounter when you install or use Visual Studio behind a firewall or a proxy server."
 ms.custom: ""
 ms.date: 02/12/2018

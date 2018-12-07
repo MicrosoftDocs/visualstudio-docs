@@ -1,5 +1,6 @@
 ---
 title: "Automate Visual Studio installation with a response file"
+titleSuffix: ""
 description: "Learn how to create a JSON response file that helps you automate your Visual Studio installation"
 ms.date: 08/14/2017
 ms.technology: vs-acquisition

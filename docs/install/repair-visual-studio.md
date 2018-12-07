@@ -1,6 +1,7 @@
 ---
-title: "Repair Visual Studio 2017 | Microsoft Docs"
-description: "Learn how to repair an installation of Visual Studio 2017."
+title: "Repair Visual Studio"
+titleSuffix: ""
+description: "Learn how to repair an installation of Visual Studio 2017"
 keywords: ""
 author: PoulChapman
 ms.author: tglee
