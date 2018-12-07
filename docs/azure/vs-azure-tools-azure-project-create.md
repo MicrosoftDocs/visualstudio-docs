@@ -6,7 +6,6 @@ manager: douge
 assetId: ec580df7-3dcc-45a9-a1d9-8c110678dfb5
 ms.prod: visual-studio-dev15
 ms.technology: vs-azure
-ms.custom: vs-azure
 ms.workload: azure-vs
 ms.topic: conceptual
 ms.date: 03/21/2017
@@ -17,7 +16,7 @@ ms.custom: seodec18
 The Azure Tools for Visual Studio provides a project template that lets you create an [Azure cloud service](/azure/cloud-services/cloud-services-choose-me), which is a simple general-purpose Azure service. Once the project has been created, Visual Studio enables you to configure, debug, and deploy the cloud service to Azure.
 
 ## Steps to create an Azure cloud service project in Visual Studio
-This section walks you through creating an Azure cloud service project in Visual Studio with one or more web roles.  
+This section walks you through creating an Azure cloud service project in Visual Studio with one or more web roles.
 
 1. Start Visual Studio as an administrator.
 
@@ -29,7 +28,7 @@ This section walks you through creating an Azure cloud service project in Visual
 
 1. Specify which version of the .NET Framework you want to use to develop your project.
 
-1. Enter a name and location for your project and a name for the solution. 
+1. Enter a name and location for your project and a name for the solution.
 
 1. Select **OK**.
 
@@ -43,8 +42,8 @@ This section walks you through creating an Azure cloud service project in Visual
 
 The Visual Studio Azure project has associations to the role projects in the solution. The project also includes the *service definition file* and *service configuration file*:
 
-- **Service definition file** - Defines the runtime settings for your application, including what roles are required, endpoints, and virtual machine size. 
-- **Service configuration file** - Configures how many instances of a role are run and the values of the settings defined for a role. 
+- **Service definition file** - Defines the runtime settings for your application, including what roles are required, endpoints, and virtual machine size.
+- **Service configuration file** - Configures how many instances of a role are run and the values of the settings defined for a role.
 
 For more information about these files, see [Configure the Roles for an Azure cloud service with Visual Studio](vs-azure-tools-configure-roles-for-cloud-service.md).
 
