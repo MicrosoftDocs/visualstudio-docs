@@ -13,12 +13,12 @@ manager: "douge"
 # Analyze the code quality of Store apps using Visual Studio static code analysis
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "windows_and_phone_content")
+[Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png)
 
- The code analysis tool in Visual Studio examines your code for a set of common defects and violations of good programming practice. Code analysis warnings differ from compiler errors and warnings because the code analysis tool searches for specific code patterns that are valid but could still create issues for you or other people who use your code. Code analysis can also find defects in your code that are difficult to discover through testing. Running the code analysis tool at regular intervals during your development process can enhance the quality of your completed app.
+The code analysis tool in Visual Studio examines your code for a set of common defects and violations of good programming practice. Code analysis warnings differ from compiler errors and warnings because the code analysis tool searches for specific code patterns that are valid but could still create issues for you or other people who use your code. Code analysis can also find defects in your code that are difficult to discover through testing. Running the code analysis tool at regular intervals during your development process can enhance the quality of your completed app.
 
 > [!NOTE]
->  Code analysis is not available for JavaScript code.
+> Code analysis is not available for JavaScript code.
 
 ## In this section
 
