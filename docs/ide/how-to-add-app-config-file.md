@@ -1,5 +1,5 @@
 ---
-title: How to add an app.config file to a project in Visual Studio
+title: How to add an app.config file to a project
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general

@@ -1,5 +1,5 @@
 ---
-title: "Create web templates for Visual Studio"
+title: Create web templates
 ms.date: 01/02/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general

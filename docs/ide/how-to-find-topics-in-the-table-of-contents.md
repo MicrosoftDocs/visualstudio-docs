@@ -1,5 +1,5 @@
 ---
-title: Use Visual Studio Help Viewer table of contents
+title: Use Help Viewer table of contents
 ms.date: 11/02/2017
 ms.prod: visual-studio-dev15
 ms.technology: vs-help-viewer

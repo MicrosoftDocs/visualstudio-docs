@@ -1,5 +1,5 @@
 ---
-title: Create solutions and projects in Visual Studio
+title: Create solutions and projects
 ms.date: 02/06/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general

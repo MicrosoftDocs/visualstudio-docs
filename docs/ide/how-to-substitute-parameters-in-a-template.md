@@ -1,5 +1,5 @@
 ---
-title: Add name parameters to project and item templates in Visual Studio
+title: Add name parameters to project and item templates
 ms.date: 01/02/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general

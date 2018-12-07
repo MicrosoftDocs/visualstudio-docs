@@ -1,5 +1,5 @@
 ---
-title: "Overview: Suggest a feature for Visual Studio"
+title: Feature suggestions
 description: "Describes what suggestions are on Developer Community, how to make a suggestion, and how suggestions are used by Microsoft in the Visual Studio roadmap"
 ms.date: 11/15/2018
 ms.prod: visual-studio-dev15
@@ -16,13 +16,13 @@ ms.workload:
 
 We've introduced a brand new experience for suggesting features alongside the current ability to report problems on [Visual Studio Developer Community](https://developercommunity.visualstudio.com). This is a new way you can be empowered to engage directly with Visual Studio’s engineering workflow.
 
-Until now, Visual Studio users have used the User Voice forum to propose new feature ideas. The *Suggest a feature* experience in Developer Community allows you to transition from the User Voice forum into a single platform for all your feedback that engages directly with the Visual Studio product teams.  
+Until now, Visual Studio users have used the User Voice forum to propose new feature ideas. The *Suggest a feature* experience in Developer Community allows you to transition from the User Voice forum into a single platform for all your feedback that engages directly with the Visual Studio product teams.
 
 We've migrated an initial set of ideas from the User Voice forum to Developer Community. Migration was done based on the community impact of the feedback and our product roadmap priorities. If you were expecting to see a suggestion here that we may have missed, feel free to add it to Developer Community.
 
 ## Votes
 
-The voting system in User Voice operates differently from the votes in the Developer Community. To maintain the integrity of Developer Community vote counts and to avoid skewing of votes, we show the User Voice vote counts prominently as a tag next to each feature suggestion. As you continue to vote on suggestions in the enhanced Developer Community, your new vote counts will show separately from the User Voice vote counts.  
+The voting system in User Voice operates differently from the votes in the Developer Community. To maintain the integrity of Developer Community vote counts and to avoid skewing of votes, we show the User Voice vote counts prominently as a tag next to each feature suggestion. As you continue to vote on suggestions in the enhanced Developer Community, your new vote counts will show separately from the User Voice vote counts.
 
 ## User Voice
 
@@ -72,7 +72,7 @@ A feature suggestion marked **Need More Info** means that we need more details s
 
 - - -
 
-![Closed - Not Enough Info state for suggestions on Developer Community](../ide/media/SuggestStates/ClosedNotEnoughInfo.jpg) 
+![Closed - Not Enough Info state for suggestions on Developer Community](../ide/media/SuggestStates/ClosedNotEnoughInfo.jpg)
 
 **Closed - Not Enough Info** indicates that after several attempts, we haven’t received enough information to understand your feature suggestion fully. We have to close the new feature suggestion as we're unable to take any further action at this stage.
 

@@ -1,5 +1,5 @@
 ---
-title: Insert XML documentation comments in Visual Studio
+title: Insert XML documentation comments
 ms.date: 01/26/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general

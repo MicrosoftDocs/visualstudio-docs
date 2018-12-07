@@ -1,5 +1,5 @@
 ---
-title: Visual Studio offline help documentation
+title: Offline help documentation
 ms.date: 11/02/2017
 ms.prod: visual-studio-dev15
 ms.technology: vs-help-viewer

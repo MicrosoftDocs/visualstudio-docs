@@ -1,5 +1,6 @@
 ---
 title: Visual Studio documentation
+titleSuffix: ""
 description: Learn how Visual Studio helps you develop apps using a variety of programming languages.
 ms.date: 01/01/2018
 layout: LandingPage
