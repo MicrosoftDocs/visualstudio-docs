@@ -1,14 +1,9 @@
 ---
-title: "Analyze Visual Basic and C# code quality in Store apps using static code analysis | Microsoft Docs"
-ms.custom: ""
+title: "Analyze Visual Basic and C# code quality in Store apps using static code analysis"
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-general
+ms.topic: conceptual
 f1_keywords:
   - "vs.codeanalysis.propertypages.csvb.express"
 ms.assetid: cab553fc-19a9-4cbf-858e-8200258ffe50
@@ -18,6 +13,7 @@ ms.author: gewarren
 manager: "douge"
 ---
 # Analyze Visual Basic and C# code quality in Store apps using Visual Studio static code analysis
+
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "windows_and_phone_content")

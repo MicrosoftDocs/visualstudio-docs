@@ -1,14 +1,9 @@
 ---
 title: "Create and run unit tests for a Store app"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-general
+ms.topic: conceptual
 helpviewer_keywords:
   - "unit tests"
 ms.assetid: d3de7b31-0262-4373-ba84-e74eda7651e4
