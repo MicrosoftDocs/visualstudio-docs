@@ -1,6 +1,5 @@
 ---
-title: "Create an offline installation of Visual Studio"
-titleSuffix: ""
+title: "Create an offline installation"
 description: "Learn how to install Visual Studio offline when you have an unreliable internet connection or low bandwidth."
 ms.custom: ""
 ms.date: 08/28/2018

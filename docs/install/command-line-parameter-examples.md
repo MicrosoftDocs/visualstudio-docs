@@ -1,6 +1,5 @@
 ---
-title: "Command-line parameter examples for Visual Studio installation"
-titleSuffix: ""
+title: "Command-line parameter examples for installation"
 description: "Customize these examples to create your own command-line installation of Visual Studio."
 ms.date: 11/14/2018
 ms.technology: vs-acquisition
