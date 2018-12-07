@@ -1,5 +1,6 @@
 ---
-title: "Install Visual Studio 2017 | Microsoft Docs"
+title: "Install Visual Studio"
+titleSuffix: ""
 description: "Learn how to install Visual Studio, step-by-step."
 ms.custom: ""
 ms.date: 05/07/2018

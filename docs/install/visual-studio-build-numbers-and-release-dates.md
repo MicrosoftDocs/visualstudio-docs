@@ -1,6 +1,7 @@
 ---
-title: Visual Studio 2017 build numbers and release dates
-description: "A list of released versions and build numbers for Visual Studio 2017, sorted by date."
+title: Visual Studio build numbers and release dates
+titleSuffix: ""
+description: "A list of released versions and build numbers for Visual Studio 2017 and later, sorted by date."
 keywords:
 author: TerryGLee
 ms.author: tglee

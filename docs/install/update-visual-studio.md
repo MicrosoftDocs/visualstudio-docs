@@ -1,5 +1,6 @@
 ---
-title: "Update Visual Studio 2017"
+title: "Update Visual Studio"
+titleSuffix: ""
 description: "Learn how to update Visual Studio to the most recent release, step-by-step."
 ms.date: 04/23/2018
 ms.technology: vs-acquisition

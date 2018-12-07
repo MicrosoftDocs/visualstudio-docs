@@ -1,5 +1,6 @@
 ---
-title: Visual Studio 2017 workload and component IDs
+title: Visual Studio workload and component IDs
+titleSuffix: ""
 description: "Use workload and component IDs to install Visual Studio by using a command line, or to specify as a dependency in a VSIX manifest"
 keywords:
 author: TerryGLee
