@@ -115,7 +115,7 @@ Some of the popular features in Visual Studio that help you to be more productiv
 Explore Python in Visual Studio further by following one of the following quickstarts or tutorials:
 
 > [!div class="nextstepaction"]
-> [Quickstart: Create a web app with Flask](../ide/quickstart-python.md?toc=/visualstudio/python/toc.json&bc=/visualstudio/_breadcrumb/toc.json)
+> [Quickstart: Create a web app with Flask](../ide/quickstart-python.md?toc=/visualstudio/python/toc.json&bc=/visualstudio/python/_breadcrumb/toc.json)
 
 > [!div class="nextstepaction"]
 > [Work with Python in Visual Studio](tutorial-working-with-python-in-visual-studio-step-01-create-project.md)
