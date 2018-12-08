@@ -1,9 +1,8 @@
 ---
 layout: HubPage
-title: Docker container development tools documentation
+title: Container Development Tools Documentation
 description: Learn how to build and manage container-based apps and services. Get documentation, example code, tutorials, and more.
 ms.topic: hub-page
-ms.custom: seodec18
 featureFlags:
 - clicktale
 ---
@@ -133,7 +132,7 @@ featureFlags:
                                                 <div class="cardText">
                                                     <h3>Other sites</h3>
                                                     <ul class="noBullet">
-                                                        <li><a class="barLink" href="http://www.docker.com/docker-windows"><img src="https://docs.microsoft.com/media/logos/logo_docker.svg" alt="">Docker for Windows</a></li>
+                                                        <li><a class="barLink" href="http://wwww.docker.com/docker-windows"><img src="https://docs.microsoft.com/media/logos/logo_docker.svg" alt="">Docker for Windows</a></li>
                                                         <li><a class="barLink" href="https://kubernetes.io"><img src="https://docs.microsoft.com/media/logos/logo_kubernetes.svg" alt="">Kubernetes</a></li>
                                                         <li><a class="barLink" href="https://helm.sh"><img src="media/helm-logo.png" alt="">Helm</a></li>
                                                     </ul>
