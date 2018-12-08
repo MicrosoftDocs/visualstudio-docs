@@ -36,7 +36,7 @@ sections:
     className: cardsM
     columns: 3
     items:
-    - href: ide/tutorial-visual-basic-console.md?toc=/visualstudio/visual-basic/toc.json&bc=/visualstudio/visual-basic/breadcrumb/toc.json
+    - href: tutorial-console.md
       html: <p></p>
       image:
         src: https://docs.microsoft.com/media/logos/logo_vb.svg
@@ -46,7 +46,7 @@ sections:
       image:
         src: https://docs.microsoft.com/media/logos/logo_Windows.svg
       title: Create a Universal Windows app
-    - href: ../../ide/walkthrough-create-a-simple-application-with-csharp-or-visual-basic.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
+    - href: tutorial-wpf.md
       html: <p></p>
       image:
         src: https://docs.microsoft.com/media/logos/logo_Windows.svg
@@ -75,7 +75,7 @@ sections:
       image:
         src: https://docs.microsoft.com/media/common/i_build.svg
       title: Compile and build
-    - href: ../visual-basic/getting-started-with-the-debugger-vb.md
+    - href: ../visual-basic/tutorial-debugger.md
       html: <p></p>
       image:
         src: https://docs.microsoft.com/media/common/i_debug.svg

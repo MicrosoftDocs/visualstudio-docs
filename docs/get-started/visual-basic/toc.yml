@@ -6,20 +6,20 @@
     - name: About Visual Studio 2017
       href: visual-studio-ide.md
     - name: About the code editor
-      href: quickstart-editor.md
+      href: tutorial-editor.md
     - name: About projects and solutions
-      href: quickstart-projects-solutions.md
+      href: tutorial-projects-solutions.md
     - name: More Visual Studio features
       href: ../../ide/advanced-feature-overview.md?toc=/visualstudio/visual-basic/toc.json&bc=/visualstudio/visual-basic/breadcrumb/toc.json
   - name: Tutorials
     expanded: true
     items:
     - name: Create a console app
-      href: ../../ide/tutorial-visual-basic-console.md
+      href: tutorial-console.md
     - name: Create a UWP app
       href: /windows/uwp/get-started/create-a-hello-world-app-xaml-universal?toc=/visualstudio/visual-basic/toc.json&bc=/visualstudio/visual-basic/breadcrumb/toc.json
     - name: Create a WPF app
-      href: ../../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md?toc=/visualstudio/visual-basic/toc.json&bc=/visualstudio/visual-basic/breadcrumb/toc.json
+      href: tutorial-wpf.md
     - name: Create a web app
       href: /aspnet/web-pages/overview/getting-started/introducing-razor-syntax-vb
     - name: Create a Windows Forms app
@@ -27,11 +27,11 @@
   - name: 'Learn Visual Studio'
     items:
     - name: Write and edit code
-      href: quickstart-editor.md
+      href: tutorial-editor.md
     - name: Compile and build
       href: ../../ide/compiling-and-building-in-visual-studio.md
     - name: Debug your code
-      href: ../visual-basic/getting-started-with-the-debugger-vb.md
+      href: ../visual-basic/tutorial-debugger.md
     - name: Unit testing
       href: ../../test/getting-started-with-unit-testing.md?toc=/visualstudio/visual-basic/toc.json&bc=/visualstudio/visual-basic/breadcrumb/toc.json
     - name: Deploy your project
