@@ -6873,14 +6873,34 @@
             "redirect_document_id": true
         },
         {
-            "source_path": "docs/javascript/index.md",
-            "redirect_url": "/visualstudio/javascript/quickstart-vuejs-with-nodejs",
-            "redirect_document_id": false
-        },
-        {
             "source_path": "docs/docker/vs-azure-tools-docker-machine-azure-config.md",
             "redirect_url": "/visualstudio/docker/",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md",
+            "redirect_url": "/visualstudio/get-started/csharp/tutorial-wpf",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/tutorial-csharp-aspnet-core.md",
+            "redirect_url": "/visualstudio/get-started/csharp/tutorial-aspnet-core",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/ide/tutorial-visual-basic-console.md",
+            "redirect_url": "/visualstudio/get-started/visual-basic/tutorial-console",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/ide/quickstart-editor.md",
+            "redirect_url": "/visualstudio/get-started/tutorial-editor",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/ide/quickstart-projects-solutions.md",
+            "redirect_url": "/visualstudio/get-started/tutorial-projects-solutions",
+            "redirect_document_id": true
         },
         {
             "source_path": "docs/test/how-to-analyze-errors-using-the-counters-panel.md",
@@ -6945,16 +6965,6 @@
         {
             "source_path": "docs/test/how-to-specify-plot-options-for-graphing-counters.md",
             "redirect_url": "/visualstudio/test/quickstart-create-a-load-test-project",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "docs/ide/quickstart-editor.md",
-            "redirect_url": "/visualstudio/get-started/tutorial-editor",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "docs/ide/quickstart-projects-solutions.md",
-            "redirect_url": "/visualstudio/get-started/tutorial-projects-solutions",
             "redirect_document_id": false
         }
     ]

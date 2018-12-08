@@ -20,7 +20,7 @@ The Visual Studio *integrated development environment* is a creative launching p
 
 This image shows Visual Studio with an open project and several key tool windows you'll likely use:
 
-- [**Solution Explorer**](../../ide/solutions-and-projects-in-visual-studio.md) (top right) lets you view, navigate, and manage your code files. **Solution Explorer** can help organize your code by grouping the files into [solutions and projects](quickstart-projects-solutions.md).
+- [**Solution Explorer**](../../ide/solutions-and-projects-in-visual-studio.md) (top right) lets you view, navigate, and manage your code files. **Solution Explorer** can help organize your code by grouping the files into [solutions and projects](tutorial-projects-solutions.md).
 
 - The [editor window](../../ide/writing-code-in-the-code-and-text-editor.md) (center), where you'll likely spend a majority of your time, displays file contents. This is where you can edit code or design a user interface such as a window with buttons and text boxes.
 
@@ -54,7 +54,7 @@ Some of the popular features in Visual Studio that help you to be more productiv
 
    Visual Studio can seem overwhelming at times with so many menus, options, and properties. The **Quick Launch** search box is a great way to rapidly find what you need in Visual Studio. When you start typing the name of something you're looking for, Visual Studio lists results that take you exactly where you need to go. If you need to add functionality to Visual Studio, for example to add support for an additional programming language, **Quick Launch** provides results that open Visual Studio Installer to install a workload or individual component.
 
-   ![Quick Launch search box in Visual Studio](media/quick-launch-nuget.png)
+   ![Quick Launch search box in Visual Studio](../media/quick-launch-nuget.png)
 
 - Squiggles and [Quick Actions](../../ide/quick-actions.md)
 
@@ -281,10 +281,10 @@ To get more details about debugging in Visual Studio, see [Debugger feature tour
 Explore Visual Studio further by following along with one of these introductory articles:
 
 > [!div class="nextstepaction"]
-> [Learn to use the code editor](../../ide/quickstart-editor.md?toc=/visualstudio/visual-basic/toc.json&bc=/visualstudio/visual-basic/breadcrumb/toc.json)
+> [Learn to use the code editor](tutorial-editor.md)
 
 > [!div class="nextstepaction"]
-> [Learn about projects and solutions](quickstart-projects-solutions.md)
+> [Learn about projects and solutions](tutorial-projects-solutions.md)
 
 ## See also
 

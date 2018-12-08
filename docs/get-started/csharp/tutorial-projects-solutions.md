@@ -1,28 +1,27 @@
 ---
-title: Introduction to projects and solutions
-ms.date: 12/11/2017
+title: Projects and solutions for C#
+ms.date: 11/12/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-acquisition
+ms.technology: vs-ide-general
 ms.topic: tutorial
 author: gewarren
 ms.author: gewarren
 manager: douge
+dev_langs:
+ - CSharp
 ms.workload:
-  - "multiple"
+  - "dotnet"
 ---
-# Learn about projects and solutions
+# Learn about projects and solutions using C#
 
 In this introductory article, we'll explore what it means to create a *solution* and a *project* in Visual Studio. A solution is a container that's used to organize one or more related code projects, for example a class library and a corresponding test project. We'll look at the properties of a project and some of the files it can contain. We'll also create a reference from one project to another.
-
-> [!TIP]
-> This article uses both C# and Visual Basic code. If you prefer to read a language-specific version, see the [C#](csharp/tutorial-projects-solutions.md) or [Visual Basic](visual-basic/tutorial-projects-solutions.md) article instead.
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
 
 We'll construct a solution and project from scratch as an educational exercise to understand the concept of a project. In your general use of Visual Studio, you'll likely use some of the various project *templates* that Visual Studio offers when you create a new project.
 
 > [!NOTE]
-> Solutions and projects aren't required to develop apps in Visual Studio. You can also just open a folder that contains code and start coding, building, and debugging. For example, if you clone a [GitHub](https://github.com/) repo, it might not contain Visual Studio projects and solutions. For more information, see [Develop code in Visual Studio without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md).
+> Solutions and projects aren't required to develop apps in Visual Studio. You can also just open a folder that contains code and start coding, building, and debugging. For example, if you clone a [GitHub](https://github.com/) repo, it might not contain Visual Studio projects and solutions. For more information, see [Develop code in Visual Studio without projects or solutions](../../ide/develop-code-in-visual-studio-without-projects-or-solutions.md).
 
 ## Solutions and projects
 
@@ -40,7 +39,7 @@ We'll start our exploration by creating an empty solution. After you get to know
 
 1. In the left pane, expand **Other Project Types**, then choose **Visual Studio Solutions**. In the center pane, choose the **Blank Solution** template. Name your solution **QuickSolution**, then choose the **OK** button.
 
-   ![Blank solution template in Visual Studio](media/tutorial-projects-new-solution.png)
+   ![Blank solution template in Visual Studio](../media/tutorial-projects-new-solution.png)
 
    The **Start Page** closes, and a solution appears in **Solution Explorer** on the right-hand side of the Visual Studio window. You'll probably use **Solution Explorer** often, to browse the contents of your projects.
 
@@ -59,7 +58,7 @@ Now let's add our first project to the solution. We'll start with an empty proje
    > [!NOTE]
    > If you don't see **Visual C#** in the left pane of the dialog box, you need to install the **.NET desktop development** Visual Studio *workload*. Visual Studio uses workload-based installation to only install the components you need for the type of development you do. An easy way to install a new workload is to choose the **Open Visual Studio Installer** link in the bottom left corner of the **Add New Project** dialog box. After Visual Studio Installer launches, choose the **.NET desktop development** workload and then the **Modify** button.
 
-   ![Open Visual Studio Installer link](media/tutorial-projects-open-installer.png)
+   ![Open Visual Studio Installer link](../media/tutorial-projects-open-installer.png)
 
 ## Add an item to the project
 
@@ -109,11 +108,13 @@ Let's add a unit test project to our solution. This time we'll start from a proj
 
    The **Add New Project** dialog box opens.
 
-1. In the left pane, expand **Visual Basic** and choose the **Test** category. In the middle pane, choose the **Unit Test Project (.NET Framework)** project template. Name the project **QuickTest**, and then choose the **OK** button.
+1. In the left pane, expand **Visual C#** and choose the **Test** category. In the middle pane, choose the **Unit Test Project (.NET Framework)** project template. Name the project **QuickTest**, and then choose the **OK** button.
 
-   A second project is added to **Solution Explorer**, and a file named *UnitTest1.vb* opens in the editor. *.vb* is the file extension that is given to Visual Basic code files.
+   ![New Project dialog in Visual Studio for test project](media/tutorial-projects-new-test-project-cs.png)
 
-   ![Visual Studio Solution Explorer with two projects](media/tutorial-projects-solution-explorer.png)
+   A second project is added to **Solution Explorer**, and a file named *UnitTest1.cs* opens in the editor.
+
+   ![Visual Studio Solution Explorer with two projects](media/tutorial-projects-solution-explorer-cs.png)
 
 ## Add a project reference
 
@@ -121,7 +122,7 @@ We're going to use the new unit test project to test our method in the **QuickDa
 
 1. Choose the **References** node in the **QuickTest** project, and from the right-click or context menu, choose **Add Reference**.
 
-   ![Add Reference menu](media/tutorial-projects-add-reference.png)
+   ![Add Reference menu](media/tutorial-projects-add-reference-cs.png)
 
    The **Reference Manager** dialog box opens.
 
@@ -131,16 +132,24 @@ We're going to use the new unit test project to test our method in the **QuickDa
 
 ## Add test code
 
-1. Now we'll add test code to the Visual Basic code file. Replace the contents of *UnitTest1.vb* with the following code.
+1. Now we'll add test code to the C# test code file. Replace the contents of *UnitTest1.cs* with the following code:
 
-   ```vb
-   <TestClass()> Public Class UnitTest1
+   ```csharp
+   using System;
+   using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-       <TestMethod()> Public Sub TestGetCurrentDate()
-           Assert.AreEqual(DateTime.Now.Date, QuickDate.Calendar.GetCurrentDate())
-       End Sub
-
-   End Class
+   namespace QuickTest
+   {
+       [TestClass]
+       public class UnitTest1
+       {
+           [TestMethod]
+           public void TestGetCurrentDate()
+           {
+               Assert.AreEqual(DateTime.Now.Date, QuickDate.Calendar.GetCurrentDate());
+           }
+       }
+   }
    ```
 
    You'll see a red "squiggly" under some of the code. We'll fix this error by making the test project a [friend assembly](/dotnet/csharp/programming-guide/concepts/assemblies-gac/friend-assemblies) to the **QuickDate** project.
@@ -155,7 +164,7 @@ We're going to use the new unit test project to test our method in the **QuickDa
 
    The code file should look like this:
 
-   ![CSharp code](media/tutorial-projects-cs-code.png)
+   ![CSharp code](media/tutorial-projects-code-cs.png)
 
 ## Project properties
 
@@ -165,23 +174,27 @@ The line in the *Calendar.cs* file that contains the <xref:System.Runtime.Compil
 
    The *property pages* for the project open on the **Application** tab. The property pages contain various settings for the project. Notice that the assembly name of the **QuickTest** project is indeed "QuickTest". If you wanted to change it, this is where you'd do that. Then, when you build the test project, the name of the resulting binary file would change from *QuickTest.dll* to whatever you chose.
 
-   ![Project properties](media/tutorial-projects-properties.png)
+   ![Project properties](media/tutorial-projects-properties-cs.png)
 
-1. Explore some of the other tabs of the project's property pages, such as **Compile** and **Settings**. These tabs are different for different types of projects.
+1. Explore some of the other tabs of the project's property pages, such as **Build** and **Settings**. These tabs are different for different types of projects.
 
-## Next steps
+## (Optional) Run the test
 
 If you want to check that your unit test is working, choose **Test** > **Run** > **All Tests** from the menu bar. A window called **Test Explorer** opens, and you should see that the **TestGetCurrentDate** test passes.
 
-![Test Explorer in Visual Studio showing passed test](media/tutorial-projects-test-explorer.png)
+![Text Explorer in Visual Studio showing passed test](../media/tutorial-projects-test-explorer.png)
 
 > [!TIP]
 > If **Test Explorer** doesn't open automatically, open it by choosing **Test** > **Windows** > **Test Explorer** from the menu bar.
 
+## Next steps
+
+If you want to further explore Visual Studio, consider creating an app by following one of the [C# tutorials](index.yml).
+
 ## See also
 
-- [Create projects and solutions](../ide/creating-solutions-and-projects.md)
-- [Manage project and solution properties](../ide/managing-project-and-solution-properties.md)
-- [Manage references in a project](../ide/managing-references-in-a-project.md)
-- [Develop code in Visual Studio without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md)
-- [Visual Studio IDE overview](../ide/visual-studio-ide.md)
+- [Create projects and solutions](../../ide/creating-solutions-and-projects.md)
+- [Manage project and solution properties](../../ide/managing-project-and-solution-properties.md)
+- [Manage references in a project](../../ide/managing-references-in-a-project.md)
+- [Develop code in Visual Studio without projects or solutions](../../ide/develop-code-in-visual-studio-without-projects-or-solutions.md)
+- [Visual Studio IDE overview](../../ide/visual-studio-ide.md)
