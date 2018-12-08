@@ -1,5 +1,5 @@
 ---
-title: "Tutorial: Debug C# code
+title: "Tutorial: Debug C# code"
 description: "Learn how to start the Visual Studio debugger, step through code, and inspect data."
 ms.custom: "debug-experiment,seodec18"
 ms.date: "11/27/2018"
