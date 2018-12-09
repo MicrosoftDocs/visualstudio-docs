@@ -94,4 +94,4 @@ We explored just a couple ways of customizing the colors in Visual Studio. We ho
 ## See also
 
 - [Customize the editor](../ide/customizing-the-editor.md)
-- [Visual Studio IDE Overview](../ide/visual-studio-ide.md)
+- [Visual Studio IDE Overview](../get-started/visual-studio-ide.md)

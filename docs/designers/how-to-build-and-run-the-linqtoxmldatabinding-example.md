@@ -14,7 +14,7 @@ ms.workload:
 
 This topic shows how to create and build the LinqToXmlDataBinding Visual Studio project, and how to run the resulting LinqToXmlDataBinding Windows Presentation Foundation (WPF) example program.
 
-For more information about Visual Studio, see [Visual Studio IDE overview](../ide/visual-studio-ide.md).
+For more information about Visual Studio, see [Visual Studio IDE overview](../get-started/visual-studio-ide.md).
 
 ## Create and populate the project
 
@@ -76,4 +76,4 @@ The LinqToXmlDataBinding program enables the user to view and manipulate a list 
 
 - [WPF data binding using LINQ to XML example](../designers/wpf-data-binding-using-linq-to-xml-example.md)
 - [Walkthrough: LinqToXmlDataBinding example](../designers/walkthrough-linqtoxmldatabinding-example.md)
-- [Visual Studio IDE overview](../ide/visual-studio-ide.md)
+- [Visual Studio IDE overview](../get-started/visual-studio-ide.md)

@@ -153,4 +153,4 @@ To explore more that Visual Studio has to offer, select the links below.
 
 - Learn about [Python web app templates in Visual Studio](../python/python-web-application-project-templates.md).
 - Learn about [Python debugging](../python/debugging-python-in-visual-studio.md)
-- Learn more about the [Visual Studio IDE](../ide/visual-studio-ide.md) in general.
+- Learn more about the [Visual Studio IDE](../get-started/visual-studio-ide.md) in general.
