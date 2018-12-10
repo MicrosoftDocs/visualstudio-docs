@@ -2,7 +2,6 @@
 title: "What's new in Visual Studio 2017"
 titleSuffix: ""
 description: "Learn about the new features in Visual Studio 2017."
-ms.custom: ""
 ms.date: 12/04/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-acquisition
