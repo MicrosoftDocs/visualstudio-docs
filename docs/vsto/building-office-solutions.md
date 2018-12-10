@@ -24,8 +24,8 @@ helpviewer_keywords:
   - "Office projects [Office development in Visual Studio], building"
   - "application development [Office development in Visual Studio], debugging"
   - "Office solutions [Office development in Visual Studio], debugging"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

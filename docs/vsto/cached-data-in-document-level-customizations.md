@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "data [Office development in Visual Studio], cache"
   - "data [Office development in Visual Studio], document-level solutions"
   - "document-level customizations [Office development in Visual Studio], data model"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
