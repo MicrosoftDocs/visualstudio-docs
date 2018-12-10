@@ -1,11 +1,11 @@
 ---
-title: "Sign in to Visual Studio"
-ms.custom: ""
-ms.date: 11/16/2017
+title: Sign in to Visual Studio
+titleSuffix: ""
+ms.custom: seodec18
+ms.date: 12/10/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-acquisition
+ms.technology: vs-ide-general
 ms.topic: conceptual
-ms.prod: visual-studio-dev15
 ms.assetid: b9531c25-e4cf-43ae-b331-a9f31a8cd171
 author: TerryGLee
 ms.author: tglee
@@ -64,7 +64,7 @@ If you encounter any problems while signing in, please see the [Accounts support
 
 ## See also
 
-* [How to Unlock Visual Studio](../ide/how-to-unlock-visual-studio.md)
-* [Visual Studio IDE Overview](../get-started/visual-studio-ide.md)
+* [How to unlock Visual Studio](../ide/how-to-unlock-visual-studio.md)
+* [Visual Studio IDE overview](../get-started/visual-studio-ide.md)
 * [Sign in (Visual Studio for Mac)](/visualstudio/mac/signing-in)
 * [Activation (Visual Studio for Mac)](/visualstudio/mac/activation)
