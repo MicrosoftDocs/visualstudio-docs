@@ -4,6 +4,7 @@ titleSuffix: ""
 description: "Learn how to update Visual Studio to the most recent release, step-by-step."
 ms.date: 04/23/2018
 ms.technology: vs-acquisition
+ms.custom: "seodec18"
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:

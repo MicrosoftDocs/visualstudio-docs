@@ -65,6 +65,6 @@ If you encounter any problems while signing in, please see the [Accounts support
 ## See also
 
 * [How to Unlock Visual Studio](../ide/how-to-unlock-visual-studio.md)
-* [Visual Studio IDE Overview](../ide/visual-studio-ide.md)
+* [Visual Studio IDE Overview](../get-started/visual-studio-ide.md)
 * [Sign in (Visual Studio for Mac)](/visualstudio/mac/signing-in)
 * [Activation (Visual Studio for Mac)](/visualstudio/mac/activation)
