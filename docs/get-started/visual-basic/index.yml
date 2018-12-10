@@ -3,7 +3,8 @@ documentType: LandingData
 title: Visual Studio | Visual Basic
 metadata:
   title: Visual Basic development with Visual Studio | Microsoft Docs
-  meta.description: Tutorials and conceptual articles about developing Visual Basic apps with Visual Studio.
+  description: Tutorials and conceptual articles about developing Visual Basic apps with Visual Studio.
+  ms.custom: seodec18
   author: ghogen
   manager: douge
   ms.prod: visual-studio-dev15

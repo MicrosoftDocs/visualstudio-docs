@@ -3,7 +3,8 @@ documentType: LandingData
 title: Visual Studio | C#
 metadata:
   title: C# Development with Visual Studio | Microsoft Docs
-  meta.description: Tutorials and conceptual articles about developing C# apps with Visual Studio.
+  description: Tutorials and conceptual articles about developing C# apps with Visual Studio.
+  ms.custom: seodec18
   author: ghogen
   manager: douge
   ms.prod: visual-studio-dev15
