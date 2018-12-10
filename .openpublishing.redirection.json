@@ -6986,6 +6986,11 @@
             "source_path": "docs/ide/visual-studio-ide.md",
             "redirect_url": "/visualstudio/get-started/visual-studio-ide",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/reference/synchronized-settings-environment-options-dialog-box.md",
+            "redirect_url": "/visualstudio/ide/reference/accounts-environment-options-dialog-box",
+            "redirect_document_id": false
         }
     ]
 }
