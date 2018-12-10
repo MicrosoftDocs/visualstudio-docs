@@ -1,5 +1,6 @@
 ---
 title: "Architecture of Office solutions in Visual Studio"
+titleSuffix: ""
 ms.custom: ""
 ms.date: 02/02/2017
 ms.technology: office-development
@@ -12,8 +13,8 @@ helpviewer_keywords:
   - "Office development in Visual Studio, architecture"
   - "architecture [Office development in Visual Studio], solutions"
   - "Office applications [Office development in Visual Studio], architecture"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
