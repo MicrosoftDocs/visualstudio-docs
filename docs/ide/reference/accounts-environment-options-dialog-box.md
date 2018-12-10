@@ -29,7 +29,13 @@ When this option is selected, the behavior of Visual Studio changes when you sel
 
 ## Registered Azure clouds
 
+This section shows the Azure cloud instances that you have access to through one or more of the accounts you use to sign in to Visual Studio. For example, you might have access to a private instance of Azure in your company's data center. Or, you might have access to a sovereign or government instance of Azure such as Azure in China or Azure U.S. Government. The public Azure cloud instance appears by default in the list, and you cannot remove it.
 
+You can register an additional Azure cloud by choosing the **Add** button. The **Add New Azure Cloud** dialog lists several well-known Azure cloud instances you can connect to, or you can enter the URL to a private Azure endpoint.
+
+![Add new Azure cloud instance](media/add-new-azure-cloud.png)
+
+After you register an additional Azure cloud, you're asked to choose which Azure cloud want to sign into when you sign into Visual Studio.
 
 ## See also
 
