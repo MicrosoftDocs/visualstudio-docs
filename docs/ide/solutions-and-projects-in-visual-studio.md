@@ -73,6 +73,6 @@ After you create a new project, you can use **Solution Explorer** to view and ma
 
 ## See also
 
-- [Visual Studio IDE](../ide/visual-studio-ide.md)
+- [Visual Studio IDE](../get-started/visual-studio-ide.md)
 - [Projects and solutions (Visual Studio for Mac)](/visualstudio/mac/projects-and-solutions)
 - [Add and remove project items (Visual Studio for Mac)](/visualstudio/mac/add-and-remove-project-items)

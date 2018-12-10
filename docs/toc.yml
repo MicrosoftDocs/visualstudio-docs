@@ -4,7 +4,7 @@
   expanded: true
   items:
     - name: About Visual Studio 2017
-      href: ide/visual-studio-ide.md
+      href: get-started/visual-studio-ide.md
     - name: About the code editor
       href: get-started/tutorial-editor.md
     - name: About projects and solutions
