@@ -5,7 +5,6 @@ ms.custom: mvc
 ms.date: 10/29/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-acquisition
-ms.prod: visual-studio-dev15
 ms.topic: quickstart
 author: TerryGLee
 ms.author: tglee
