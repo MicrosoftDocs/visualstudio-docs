@@ -1,8 +1,9 @@
 ---
-title: "Walkthrough: Create a simple application with C# or Visual Basic"
+title: Create a simple application with C# or Visual Basic"
 ms.date: 10/03/2017
 ms.prod: visual-studio-dev15
 ms.technology: vs-acquisition
+ms.custom: "seodec18"
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
 dev_langs:

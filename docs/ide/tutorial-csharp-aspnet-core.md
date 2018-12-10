@@ -1,11 +1,11 @@
 ---
 title: "Get started with C# and ASP.NET Core in Visual Studio"
+titleSuffix: ""
 description: "Learn how to create an ASP.NET Core web app in Visual Studio with C#, step-by-step."
-ms.custom: ""
 ms.date: 10/29/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-acquisition
-ms.prod: visual-studio-dev15
+ms.custom: "seodec18"
 ms.topic: tutorial
 ms.devlang: CSharp
 author: TerryGLee
