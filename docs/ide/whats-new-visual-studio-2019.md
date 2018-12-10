@@ -1,10 +1,12 @@
 ---
 title: "What's new in Visual Studio 2019 Preview"
+titleSuffix: ""
 description: "Learn about the new features in the preview release of Visual Studio 2019."
 ms.custom: ""
 ms.date: 12/04/2018
 ms.prod: visual-studio-dev16
 ms.technology: vs-acquisition
+ms.custom: "seodec18"
 ms.topic: conceptual
 f1_keywords:
   - "VS.StartPage.WhatsNew"

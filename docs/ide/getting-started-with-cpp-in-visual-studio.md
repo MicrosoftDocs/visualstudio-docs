@@ -8,7 +8,7 @@ ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
 ms.topic: tutorial
 author: corob-msft
-ms.author: tglee
+ms.author: corob
 manager: douge
 dev_langs:
   - "CPP"
