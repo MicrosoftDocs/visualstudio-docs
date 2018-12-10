@@ -72,11 +72,11 @@ To help illustrate these concepts, we take you through some example code that al
 
 Next, we will create an application that has a few bugs.
 
-1. You must have Visual Studio installed and either the .**NET desktop development** workload or the .**NET Core cross platform development** workload installed, depending on which app type you want to create.
+1. You must have Visual Studio installed and either the **.NET desktop development** workload or the **.NET Core cross platform development** workload installed, depending on which app type you want to create.
 
     If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
 
-    If you need to install the workload but already have Visual Studio, click **Tools** > **Get Tools and Features**. The Visual Studio Installer launches. Choose the .**NET desktop development** (or .**NET Core cross platform development**) workload, then choose **Modify**.
+    If you need to install the workload but already have Visual Studio, click **Tools** > **Get Tools and Features**. The Visual Studio Installer launches. Choose the **.NET desktop development** (or **.NET Core cross platform development**) workload, then choose **Modify**.
 
 1. Open Visual Studio, and then choose **File** > **New** > **Project**.
 
