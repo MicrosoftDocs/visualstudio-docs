@@ -12,11 +12,14 @@ ms.workload:
 ---
 # Work with multiple user accounts
 
-If you have multiple Microsoft accounts and/or work or school accounts, you can add them all to Visual Studio so that you can access the resources from any account without having to sign in to it separately. Currently, Azure, Application Insights, Team Foundation Server, and Office 365 services support the streamlined sign-in experience. Additional services may become available as time goes by.
+If you have multiple Microsoft accounts and/or work or school accounts, you can add them all to Visual Studio so that you can access the resources from any account without having to sign in to it separately. Azure, Application Insights, Azure DevOps, and Office 365 services all support the streamlined sign-in experience.
 
-After you add multiple accounts on one machine, that set of accounts roams with you if you sign in to Visual Studio on another machine. It is important to note that, although the account names roam, the credentials do not. You'll be prompted to enter credentials for those other accounts the first time you attempt to use their resources on the new machine.
+After you add multiple accounts on one machine, that set of accounts roams with you if you sign in to Visual Studio on another machine.
 
-This article shows you how to add multiple accounts to Visual Studio. It also shows you how to see that the resources accessible from those accounts are reflected in places such as the **Add Connected Service** dialog, **Server Explorer**, and **Team Explorer**.
+> [!NOTE]
+> Although the account names roam, the credentials do not. You'll be prompted to enter credentials for those other accounts the first time you attempt to use their resources on a new machine.
+
+This article shows you how to add multiple accounts to Visual Studio. It also shows you how to see the resources accessible from those accounts in places such as the **Add Connected Service** dialog, **Server Explorer**, and **Team Explorer**.
 
 ## Sign in to Visual Studio
 
@@ -26,15 +29,15 @@ Sign into Visual Studio with a Microsoft account or an organizational account. Y
 
 ### Access your Azure account in Server Explorer
 
-Press **Ctrl**+**Alt**+**S** to open **Server Explorer**. Expand the **Azure** and notice that it contains the resources available in the Azure account that's associated with the account that you used to log in to Visual Studio. It looks similar to the following image:
+Press **Ctrl**+**Alt**+**S** to open **Server Explorer**. Expand the **Azure** node and notice that it contains the resources available in the Azure account that's associated with the account that you used to sign in to Visual Studio. It looks similar to the following image:
 
 ![Server Explorer with Azure node expanded](../ide/media/work-with-multiple-user-accounts/server-explorer.png)
 
-The first time you use Visual Studio on any specific device, the dialog only shows the subscriptions registered under the account that you signed in to the IDE with. You can access resources for any of your other accounts directly from **Server Explorer** by right-clicking on the **Azure** node and choosing **Manage and Filter Subscriptions** and adding your accounts from the account picker control. You can then choose another account, if desired, by clicking the down arrow and choosing from the list of accounts. After choosing the account, you can choose which subscriptions under that account you want to display in **Server Explorer**.
+The first time you use Visual Studio on any specific device, the dialog only shows the subscriptions registered under the account that you signed in with. You can access resources for any of your other accounts directly from **Server Explorer** by right-clicking on the **Azure** node, choosing **Manage and Filter Subscriptions**, and then adding your accounts from the account picker control. You can then choose another account, if desired, by clicking the down arrow and choosing from the list of accounts. After choosing the account, you can customize which subscriptions under that account to display in **Server Explorer**.
 
 ![Manage Azure Subscriptions dialog](../ide/media/vs2015_manage_subs.png)
 
-The next time you open **Server Explorer**, the resources for that subscription(s) are displayed.
+The next time you open **Server Explorer**, the resources for that subscription are displayed.
 
 ### Access your Azure account via Add Connected Service dialog
 
@@ -42,11 +45,11 @@ The next time you open **Server Explorer**, the resources for that subscription(
 
 1. Choose the project node in **Solution Explorer**, and then right-click and choose **Add** > **Connected Service**.
 
-   The **Add Connected Service** wizard appears and shows you the list of services in the Azure account that's associated with your Visual Studio login account. You don't have to sign in separately to Azure. However, you do need to sign in to the other accounts the first time you attempt to access their resources from a different computer.
+   The **Add Connected Service** wizard appears and shows you the list of services in the Azure account that's associated with your Visual Studio personalization account. You don't have to sign in separately to Azure. However, you do need to sign in to the other accounts the first time you attempt to access their resources from a different computer.
 
 ### Access Azure Active Directory in a Web project
 
-Azure Active Directory (AD) enables support for end-user single sign-in in ASP.NET MVC web applications or AD Authentication in web API services. Domain authentication is different from individual user account authentication. Users that have access to your Active Directory domain can use their existing Azure AD accounts to connect to your web applications. Office 365 apps can also use domain authentication.
+Azure Active Directory (AAD) enables support for end-user single sign-in in ASP.NET MVC web apps or AD authentication in web API services. Domain authentication is different from individual user account authentication. Users that have access to your Active Directory domain can use their existing AAD accounts to connect to your web applications. Office 365 apps can also use domain authentication.
 
 To see this in action, create a web application (**File** > **New Project** > **C#** > **Cloud** > **ASP.NET Web Application**). In the **New ASP.NET Project** dialog, choose **Change Authentication**. The authentication wizard appears and enables you to choose what kind of authentication to use in your application.
 
@@ -70,15 +73,15 @@ To add an additional account to Visual Studio:
 
 1. On the **Sign in to your account** page, select the account or choose **Use another account**. Follow the prompts to enter the new account credentials.
 
-(Optional) Now you can go to **Server Explorer** and see the Azure services associated with the account you just added. In **Server Explorer**, right-click on the **Azure** node and choose **Manage and Filter Subscriptions**. Choose the new account by clicking the drop down arrow next to the current account, and then choose which subscriptions you want to display in **Server Explorer**. You should see all the services associated with the specified subscription. Even though you're not currently signed in to the Visual Studio IDE with the second account, you are signed in to that account's services and resources. The same is true for **Project** > **Add Connected Service** and **Team** > **Connect to Team Foundation Server**.
+(Optional) Now you can go to **Server Explorer** and see the Azure services associated with the account you just added. In **Server Explorer**, right-click on the **Azure** node and choose **Manage and Filter Subscriptions**. Choose the new account by clicking the drop-down arrow next to the current account, and then choose which subscriptions you want to display in **Server Explorer**. You should see all the services associated with the specified subscription. Even though you're not currently signed into Visual Studio with the second account, you are signed in to that account's services and resources. The same is true for **Project** > **Add Connected Service** and **Team** > **Connect to Team Foundation Server**.
 
 ### Add an account using device code flow
 
-In some cases, you can't sign in or add an account in the regular manner. This can happen if Internet Explorer is blocked for some reason, or if your network is behind a firewall. To work around this, you can enable *device code flow* to add an account or reauthenticate your account. Device code flow lets you sign in using a different browser, or on a different machine&mdash;either physical or virtual (VM).
+In some cases, you can't sign in or add an account in the regular manner. This can happen if Internet Explorer is blocked for some reason, or if your network is behind a firewall. To work around this, you can enable *device code flow* to add an account or reauthenticate your account. Device code flow lets you sign in using a different browser or on a different machine&mdash;either physical or virtual (VM).
 
 To sign in using device code flow:
 
-1. Open the **Accounts** page under **Tools** > **Options** > **Environment**, and then select **Enable device code flow when adding or re-authenticating an account**. Choose **OK** to close the options pages.
+1. Open the [**Accounts**](reference/accounts-environment-options-dialog-box.md) page under **Tools** > **Options** > **Environment**, and then select **Enable device code flow when adding or re-authenticating an account**. Choose **OK** to close the options pages.
 
 1. Choose **File** > **Account Settings** to open the account management page.
 
@@ -92,7 +95,7 @@ To sign in using device code flow:
 
 1. Navigate to the device login URL on the machine or web browser you want to use to sign in to Visual Studio, and then paste or enter the code you copied into the box that says **Code**.
 
-   The **Visual Studio** app name should appear further down the page.
+   The **Visual Studio** app name should appear further down on the page.
 
 1. Under **Visual Studio**, choose **Continue**.
 

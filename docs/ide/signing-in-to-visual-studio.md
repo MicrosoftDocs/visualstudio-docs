@@ -15,14 +15,14 @@ ms.workload:
 ---
 # Sign in to Visual Studio
 
-You can personalize and optimize your development experience in Visual Studio if you set your Personalization account by signing in to the IDE.
+You can personalize and optimize your development experience in Visual Studio if you set your personalization account by signing in to the IDE.
 
 > [!NOTE]
 > This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Sign in to Visual Studio for Mac](/visualstudio/mac/signing-in).
 
 ## Why should I sign in to Visual Studio?
 
-When you sign in, you enrich your Visual Studio experience. For example, after you sign in, you can synchronize your settings across devices, extend a trial, and automatically connect to an Azure service, to name a few.
+When you sign in, you enrich your Visual Studio experience. For example, after you sign in, you can [synchronize your settings](synchronized-settings-in-visual-studio.md) across devices, extend a trial, and automatically connect to an Azure service, to name a few.
 
 Here's a full list of what you can expect and what you can do after you sign in:
 

@@ -784,8 +784,8 @@
           href: ide/reference/quick-launch-environment-options-dialog-box.md
         - name: Environment - Startup
           href: ide/reference/startup-environment-options-dialog-box.md
-        - name: Environment - Synchronized Settings
-          href: ide/reference/synchronized-settings-environment-options-dialog-box.md
+        - name: Environment - Accounts
+          href: ide/reference/accounts-environment-options-dialog-box.md
         - name: Environment - Tabs and Windows
           href: ide/reference/tabs-and-windows-environment-options-dialog-box.md
         - name: Environment - Task List
