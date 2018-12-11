@@ -113,7 +113,7 @@ Visual Studio Build Tools - and to a greater extent, Visual Studio - require lot
 Save the following example Dockerfile to a new file on your disk. If the file is named simply "Dockerfile", it is recognized by default.
 
 > [!WARNING]
-> This example Dockerfile only excludes older Windows SDKs that cannot be installed into containers. Older releases cause the build command to fail.
+> This example Dockerfile only excludes earlier Windows SDKs that cannot be installed into containers. Earlier releases cause the build command to fail.
 
 1. Open a command prompt.
 2. Create a new directory (recommended):
@@ -160,9 +160,9 @@ Save the following example Dockerfile to a new file on your disk. If the file is
    ```
 
    > [!WARNING]
-   > If you base your image directly on microsoft/windowsservercore, the .NET Framework may not install properly and no install error is indicated. Managed code may not run after the install is complete. Instead, base your image on [microsoft/dotnet-framework:4.7.1](https://hub.docker.com/r/microsoft/dotnet-framework) or newer. Also note that newer images may use PowerShell as the default `SHELL` which will cause the `RUN` and `ENTRYPOINT` instructions to fail.
+   > If you base your image directly on microsoft/windowsservercore, the .NET Framework may not install properly and no install error is indicated. Managed code may not run after the install is complete. Instead, base your image on [microsoft/dotnet-framework:4.7.1](https://hub.docker.com/r/microsoft/dotnet-framework) or later. Also note that images tagged version 4.7.1 or later may use PowerShell as the default `SHELL` which will cause the `RUN` and `ENTRYPOINT` instructions to fail.
    >
-   > Visual Studio 2017 version 15.8 or older (any product) will not properly install on mcr<span></span>.microsoft\.com\/windows\/servercore:1809 or newer. No error is displayed.
+   > Visual Studio 2017 version 15.8 or earlier (any product) will not properly install on mcr<span></span>.microsoft\.com\/windows\/servercore:1809 or later. No error is displayed.
    >
    > See [Known issues for containers](build-tools-container-issues.md) for more information.
 

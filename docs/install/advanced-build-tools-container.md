@@ -22,7 +22,7 @@ The following example Dockerfile uses a specific version tag of the microsoft/do
 > [!NOTE]
 > You cannot install Visual Studio into microsoft/windowsservercore:10.0.14393.1593 or any image based on it, which has known issues launching the installer in a container. For more information, see [known issues](build-tools-container-issues.md).
 
-The example below downloads the latest release of Build Tools 2017. If you want to use an older version of Build Tools you can install into a container later, you must first [create](create-an-offline-installation-of-visual-studio.md) and [maintain](update-a-network-installation-of-visual-studio.md) a layout.
+The example below downloads the latest release of Build Tools 2017. If you want to use an earlier version of Build Tools you can install into a container later, you must first [create](create-an-offline-installation-of-visual-studio.md) and [maintain](update-a-network-installation-of-visual-studio.md) a layout.
 
 ## Install script
 
@@ -86,7 +86,7 @@ ENTRYPOINT C:\BuildTools\Common7\Tools\VsDevCmd.bat &&
 CMD ["powershell.exe", "-NoLogo", "-ExecutionPolicy", "Bypass"]
 ```
    > [!WARNING]
-   > Visual Studio 2017 version 15.8 or older (any product) will not properly install on mcr<span></span>.microsoft\.com\/windows\/servercore:1809 or newer. No error is displayed.
+   > Visual Studio 2017 version 15.8 or earlier (any product) will not properly install on mcr<span></span>.microsoft\.com\/windows\/servercore:1809 or later. No error is displayed.
    >
    > See [Known issues for containers](build-tools-container-issues.md) for more information.
 
