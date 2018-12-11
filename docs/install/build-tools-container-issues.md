@@ -30,6 +30,8 @@ The following known issues occur when you install Visual Studio Build Tools 2017
 
   > C:\BuildTools\MSBuild\15.0\bin\Roslyn\Microsoft.CSharp.Core.targets(84,5): error MSB6003: The specified task executable "csc.exe" could not be run. Could not load file or assembly 'System.IO.FileSystem, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' or one of its dependencies. The system cannot find the file specified.
 
+* You cannot install Visual Studio 2017 version 15.8 or older (any product) on mcr<span></span>.microsoft.com/windows/servercore:1809 or newer. See https://aka.ms/setup/containers/servercore1809 for more information.
+
 ## Build Tools container
 
 The following known issues might occur when you use a Build Tools container. To see whether issues have been fixed or if there are other known issues, visit https://developercommunity.visualstudio.com.

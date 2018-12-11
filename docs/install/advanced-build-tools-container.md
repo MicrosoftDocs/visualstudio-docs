@@ -85,6 +85,10 @@ ENTRYPOINT C:\BuildTools\Common7\Tools\VsDevCmd.bat &&
 # Default to PowerShell if no other command specified.
 CMD ["powershell.exe", "-NoLogo", "-ExecutionPolicy", "Bypass"]
 ```
+   > [!WARNING]
+   > Visual Studio 2017 version 15.8 or older (any product) will not properly install on mcr<span></span>.microsoft\.com\/windows\/servercore:1809 or newer. No error is displayed.
+   >
+   > See [Known issues for containers](build-tools-container-issues.md) for more information.
 
 Run the following command to build the image in the current working directory:
 
