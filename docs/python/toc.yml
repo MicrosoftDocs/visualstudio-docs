@@ -2,7 +2,7 @@
   href: index.yml
 - name: Overview
   items:
-    - name: Python in Visual Studio
+    - name: Overview of Python support
       href: overview-of-python-tools-for-visual-studio.md
     - name: Tour the Visual Studio IDE
       href: python-visual-studio-ide-tour.md
