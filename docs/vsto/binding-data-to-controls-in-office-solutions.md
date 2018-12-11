@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "data binding, controls"
   - "Office applications [Office development in Visual Studio], data binding"
   - "controls, data binding"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
