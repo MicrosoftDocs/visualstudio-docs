@@ -7051,6 +7051,11 @@
             "source_path": "docs/ide/shortcut-keys-help-viewer.md",
             "redirect_url": "/visualstudio/help-viewer/shortcut-keys",
             "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/reference/synchronized-settings-environment-options-dialog-box.md",
+            "redirect_url": "/visualstudio/ide/reference/accounts-environment-options-dialog-box",
+            "redirect_document_id": false
         }
     ]
 }
