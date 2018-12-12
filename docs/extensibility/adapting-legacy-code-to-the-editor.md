@@ -91,7 +91,7 @@ VsLocalCreateInstance(CLSID_VsTextBuffer, NULL, CLSCTX_INPROC_SERVER, IID_IVsTex
   
 ### To get an IVxTextBuffer  
   
-1.  The definitions for the IVx* interfaces are in the *VSEditor.h* file in the *\..\VisualStudioIntegration\Common\Inc\\* folder of the Visual Studio SDK installation.  
+1.  The definitions for the IVx\* interfaces are in the *VSEditor.h* file in the *\..\VisualStudioIntegration\Common\Inc\\* folder of the Visual Studio SDK installation.  
   
 2.  The following code instantiates a text buffer by using the `IVsUserData->GetData()` method. In the following code, `pData` is a pointer to an `IVsUserData` object.  
   
