@@ -136,7 +136,7 @@ ms.topic: hub-page
                                                                         Python</a>
                                                                 </li>
                                                                 <li>
-                                                                    <a class="barLink" href="/visualstudio/javascript/tutorial-nodejs/">
+                                                                    <a class="barLink" href="/visualstudio/javascript/">
                                                                         <img src="https://docs.microsoft.com/media/logos/logo_nodejs.svg" alt="Node.js icon">
                                                                         Node.js</a>
                                                                 </li>
