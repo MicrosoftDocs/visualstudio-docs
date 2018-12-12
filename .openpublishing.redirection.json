@@ -6986,6 +6986,11 @@
             "source_path": "docs/ide/visual-studio-ide.md",
             "redirect_url": "/visualstudio/get-started/visual-studio-ide",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/visualstudio/subscriptions/vs-priority-support.md",
+            "redirect_url": "https://social.msdn.microsoft.com/Forums/vstudio/en-US/home",
+            "redirect_document_id": false
         }
     ]
 }
