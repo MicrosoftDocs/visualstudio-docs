@@ -41,7 +41,7 @@ To install Help Viewer, see [Microsoft Help Viewer installation](../help-viewer/
 > [!TIP]
 > Another way to download content locally so you can view it when you don't have an internet connection is to download a PDF version of it. Many documentation sets on docs.microsoft.com include a link at the bottom of the table of contents (TOC) to download a PDF file that contains all the articles for that TOC.
 >
-> ![Download PDF for Visual Studio documentation](media/download-pdf.png)
+> ![Download PDF for Visual Studio documentation](media/overview/download-pdf.png)
 
 ## Help Viewer tour
 

@@ -38,7 +38,7 @@ You can change the default behavior of Help Viewer and help-related features in 
 
 ### Example .pkgdef file contents
 
-```
+```pkgdef
 [$RootKey$\Help]
 "NewContentAndUpdateService"="https://some.service.endpoint"
 "UseOnlineHelp"=dword:00000001

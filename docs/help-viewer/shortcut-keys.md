@@ -1,5 +1,5 @@
 ---
-title: Shortcut keys (Help Viewer)
+title: Shortcut keys Help Viewer
 ms.date: 11/02/2017
 ms.prod: visual-studio-dev15
 ms.technology: vs-help-viewer
