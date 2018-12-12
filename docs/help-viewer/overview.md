@@ -2,7 +2,6 @@
 title: Offline help documentation
 ms.date: 11/02/2017
 ms.prod: visual-studio-dev15
-ms.technology: vs-help-viewer
 ms.topic: conceptual
 f1_keywords:
   - "hv_general"

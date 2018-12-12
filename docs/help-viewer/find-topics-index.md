@@ -1,8 +1,7 @@
 ---
-title: "Use Help Viewer index"
+title: Use Help Viewer index
 ms.date: 11/02/2017
 ms.prod: visual-studio-dev15
-ms.technology: vs-help-viewer
 ms.topic: conceptual
 helpviewer_keywords:
   - "Index tab [Help Viewer]"

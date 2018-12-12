@@ -2,7 +2,6 @@
 title: Command-line arguments for the Help Content Manager
 ms.date: 11/01/2017
 ms.prod: visual-studio-dev15
-ms.technology: vs-help-viewer
 ms.topic: reference
 ms.assetid: 3aa9890a-1147-42ba-adea-17935d184038
 author: gewarren

@@ -2,7 +2,6 @@
 title: Install local help documentation
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-help-viewer
 ms.topic: conceptual
 f1_keywords:
   - "hv_manage"
