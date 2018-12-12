@@ -45,5 +45,5 @@ Another way to easily install Microsoft Help Viewer is via the **Quick Launch** 
 
 ## See also
 
-- [Microsoft Help Viewer](../ide/microsoft-help-viewer.md)
+- [Microsoft Help Viewer](../help-viewer/overview.md)
 - [Help viewer and offline content for SQL Server](/sql/sql-server/sql-server-help-installation)

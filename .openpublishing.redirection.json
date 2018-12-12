@@ -912,7 +912,7 @@
         },
         {
             "source_path": "docs/ide/advanced-search-operators-in-search-expressions.md",
-            "redirect_url": "/visualstudio/ide/logical-operators-in-search-expressions",
+            "redirect_url": "/visualstudio/help-viewer/logical-operators-search-expressions",
             "redirect_document_id": false
         },
         {
@@ -972,7 +972,7 @@
         },
         {
             "source_path": "docs/ide/full-text-search-tips.md",
-            "redirect_url": "/visualstudio/ide/how-to-search-for-topics",
+            "redirect_url": "/visualstudio/help-viewer/find-topics",
             "redirect_document_id": false
         },
         {
@@ -1047,7 +1047,7 @@
         },
         {
             "source_path": "docs/ide/how-to-customize-search-results.md",
-            "redirect_url": "/visualstudio/ide/how-to-search-for-topics",
+            "redirect_url": "/visualstudio/help-viewer/find-topics",
             "redirect_document_id": false
         },
         {
@@ -1092,7 +1092,7 @@
         },
         {
             "source_path": "docs/ide/index-search-tips.md",
-            "redirect_url": "/visualstudio/ide/how-to-find-topics-in-the-index",
+            "redirect_url": "/visualstudio/help-viewer/find-topics-index",
             "redirect_document_id": false
         },
         {
@@ -1102,12 +1102,12 @@
         },
         {
             "source_path": "docs/ide/locate-information.md",
-            "redirect_url": "/visualstudio/ide/microsoft-help-viewer",
+            "redirect_url": "/visualstudio/help-viewer/overview",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/ide/manage-the-help-viewer-window.md",
-            "redirect_url": "/visualstudio/ide/customize-the-help-viewer",
+            "redirect_url": "/visualstudio/help-viewer/customize",
             "redirect_document_id": false
         },
         {
@@ -1187,7 +1187,7 @@
         },
         {
             "source_path": "docs/ide/retain-topics-for-later-use.md",
-            "redirect_url": "/visualstudio/ide/microsoft-help-viewer",
+            "redirect_url": "/visualstudio/help-viewer/overview",
             "redirect_document_id": false
         },
         {
@@ -1217,7 +1217,7 @@
         },
         {
             "source_path": "docs/ide/troubleshooting-the-help-viewer.md",
-            "redirect_url": "/visualstudio/ide/microsoft-help-viewer",
+            "redirect_url": "/visualstudio/help-viewer/overview",
             "redirect_document_id": false
         },
         {

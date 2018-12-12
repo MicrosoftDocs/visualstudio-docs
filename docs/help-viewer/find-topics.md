@@ -52,7 +52,7 @@ If you specify a search string that includes multiple words, such as "word1 word
 
 > [!IMPORTANT]
 > - Phrase searches are not supported. If you specify more than one word in a search string, returned topics will contain all of the words that you specified but not necessarily the exact phrase that you specified.
-> - Use logical operators to specify the relationship between words in your search phrase. You can include logical operators, such as AND, OR, NOT, and NEAR, to further refine your search. For example, if you search for "declaring NEAR union", search results will include topics that contain the words "declaring" and "union" no more than a few words apart from each other. For more information, see [Logical operators in search expressions](../ide/logical-operators-in-search-expressions.md).
+> - Use logical operators to specify the relationship between words in your search phrase. You can include logical operators, such as AND, OR, NOT, and NEAR, to further refine your search. For example, if you search for "declaring NEAR union", search results will include topics that contain the words "declaring" and "union" no more than a few words apart from each other. For more information, see [Logical operators in search expressions](../help-viewer/logical-operators-search-expressions.md).
 
 ### Filters
 
@@ -74,7 +74,7 @@ Commonly occurring words or numbers, which are sometimes called stop words, are 
 
 ## See also
 
-- [Logical and advanced operators](../ide/logical-operators-in-search-expressions.md)
-- [How to: Find topics in the index](../ide/how-to-find-topics-in-the-index.md)
-- [How to: Find topics in the TOC](../ide/how-to-find-topics-in-the-table-of-contents.md)
-- [Microsoft Help Viewer](../ide/microsoft-help-viewer.md)
+- [Logical and advanced operators](../help-viewer/logical-operators-search-expressions.md)
+- [How to: Find topics in the index](../help-viewer/find-topics-index.md)
+- [How to: Find topics in the TOC](../help-viewer/find-topics-toc.md)
+- [Microsoft Help Viewer](../help-viewer/overview.md)

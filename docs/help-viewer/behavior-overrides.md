@@ -59,6 +59,6 @@ The following two behaviors can be controlled by setting registry key values in 
 
 ## See also
 
-- [Help Viewer administrator guide](../ide/help-viewer-administrator-guide.md)
-- [Command-line arguments for the Help Content Manager](../ide/command-line-arguments-for-the-help-content-manager.md)
-- [Microsoft Help Viewer](../ide/microsoft-help-viewer.md)
+- [Help Viewer administrator guide](../help-viewer/administrator-guide.md)
+- [Command-line arguments for the Help Content Manager](../help-viewer/command-line-arguments.md)
+- [Microsoft Help Viewer](../help-viewer/overview.md)

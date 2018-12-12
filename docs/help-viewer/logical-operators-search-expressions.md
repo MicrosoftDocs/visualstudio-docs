@@ -64,5 +64,5 @@ You can use the `code:` operator to find content about any of several programmin
 
 ## See also
 
-- [How to: Search for topics](how-to-search-for-topics.md)
-- [Microsoft Help Viewer](microsoft-help-viewer.md)
+- [How to: Search for topics](../help-viewer/find-topics.md)
+- [Microsoft Help Viewer](../help-viewer/overview.md)

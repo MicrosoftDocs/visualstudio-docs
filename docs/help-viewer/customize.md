@@ -43,4 +43,4 @@ You open the **Viewer Options** dialog box by choosing the **Viewer Options** bu
 
 ## See also
 
-- [Microsoft Help Viewer](../ide/microsoft-help-viewer.md)
+- [Microsoft Help Viewer](../help-viewer/overview.md)

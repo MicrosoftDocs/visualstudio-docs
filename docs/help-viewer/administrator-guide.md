@@ -15,11 +15,11 @@ ms.workload:
 
 The Help Viewer allows you to manage local Help installations for network environments with or without internet access. Local help content is configured on a per machine basis. By default, users must have administrator rights to update their local Help installation.
 
-If your network environment allows clients to access the internet, you can use the **Help Content Manager** executable to deploy local Help content from the internet. For more information about *HlpCtntMgr.exe* command line syntax, see [Command-line arguments for the Help Content Manager](../ide/command-line-arguments-for-the-help-content-manager.md).
+If your network environment allows clients to access the internet, you can use the **Help Content Manager** executable to deploy local Help content from the internet. For more information about *HlpCtntMgr.exe* command line syntax, see [Command-line arguments for the Help Content Manager](../help-viewer/command-line-arguments.md).
 
 For information about creating content, creating an intranet service endpoint, and similar types of activities, see the [Help Viewer SDK](../extensibility/internals/microsoft-help-viewer-sdk.md).
 
-If you do not have internet access in your network environment, Help Viewer can deploy local Help content from the intranet or a network share. You can also disable Visual Studio IDE Help options by using [registry key overrides](../ide/help-content-manager-overrides.md) for functionality such as:
+If you do not have internet access in your network environment, Help Viewer can deploy local Help content from the intranet or a network share. You can also disable Visual Studio IDE Help options by using [registry key overrides](../help-viewer/behavior-overrides.md) for functionality such as:
 
 - online versus offline help
 
@@ -37,7 +37,7 @@ You can use **Help Content Manager** (*HlpCtntMgr.exe*) to deploy local Help con
 \\%ProgramFiles(x86)%\Microsoft Help Viewer\v2.3\HlpCtntmgr.exe /operation \<*name*> /catalogname \<*catalog name*> /locale \<*locale*>
 ```
 
-For more information about *HlpCtntMgr.exe* command line syntax, see [Command-line arguments for the Help Content Manager](../ide/command-line-arguments-for-the-help-content-manager.md).
+For more information about *HlpCtntMgr.exe* command line syntax, see [Command-line arguments for the Help Content Manager](../help-viewer/command-line-arguments.md).
 
 Requirements:
 
@@ -74,7 +74,7 @@ Requirements:
 -   Users must have administrator rights to update, add, or remove the local Help content after it has been installed.
 
     > [!TIP]
-    > If users do not have administrator rights, it is recommended that you disable the **Manage Content** tab in the Help Viewer. For more information, see [Help Content Manager overrides](../ide/help-content-manager-overrides.md).
+    > If users do not have administrator rights, it is recommended that you disable the **Manage Content** tab in the Help Viewer. For more information, see [Help Content Manager overrides](../help-viewer/behavior-overrides.md).
 
 Caveats:
 
@@ -140,7 +140,7 @@ Next, you need to package the content so it can be deployed to client computers.
 
 ## See also
 
-- [Command-line arguments for the Help Content Manager](../ide/command-line-arguments-for-the-help-content-manager.md)
-- [Help Content Manager overrides](../ide/help-content-manager-overrides.md)
-- [Microsoft Help Viewer](../ide/microsoft-help-viewer.md)
+- [Command-line arguments for the Help Content Manager](../help-viewer/command-line-arguments.md)
+- [Help Content Manager overrides](../help-viewer/behavior-overrides.md)
+- [Microsoft Help Viewer](../help-viewer/overview.md)
 - [Help Viewer SDK](../extensibility/internals/microsoft-help-viewer-sdk.md)
