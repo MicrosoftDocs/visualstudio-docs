@@ -45,7 +45,7 @@ The next time you open **Server Explorer**, the resources for that subscription 
 
 1. Choose the project node in **Solution Explorer**, and then right-click and choose **Add** > **Connected Service**.
 
-   The **Add Connected Service** wizard appears and shows you the list of services in the Azure account that's associated with your Visual Studio personalization account. You don't have to sign in separately to Azure. However, you do need to sign in to the other accounts the first time you attempt to access their resources from a different computer.
+   The **Add Connected Service** wizard appears and shows you the list of services in the Azure account that's associated with your Visual Studio personalization account. You don't have to sign in separately to Azure. However, you do need to sign in to the other accounts the first time you attempt to access their resources from a different machine.
 
 ### Access Azure Active Directory in a Web project
 
