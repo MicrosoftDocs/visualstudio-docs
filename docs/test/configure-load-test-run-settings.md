@@ -1,5 +1,5 @@
 ---
-title: "Configuring Load Test Run Settings in Visual Studio"
+title: "Configuring Load Test Run Settings"
 ms.date: 10/03/2016
 ms.topic: conceptual
 helpviewer_keywords:

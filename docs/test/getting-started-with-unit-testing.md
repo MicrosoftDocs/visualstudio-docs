@@ -142,7 +142,7 @@ Following are the steps to enable third-party test frameworks:
 
 1. Code your unit test.
 
-   ![Add code to your unit test](media/create3rdpartyunittest7.png)
+   ![Add code to your unit test code file](media/create3rdpartyunittest7.png)
 
 ## See also
 

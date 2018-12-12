@@ -1,15 +1,15 @@
 ---
-title: "Run a unit test as a 64-bit process in Visual Studio"
+title: "Run a unit test as a 64-bit process"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ms.topic: conceptual
-helpviewer_keywords: 
+helpviewer_keywords:
   - "unit tests, creating"
   - "unit tests, running"
 ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 author: gewarren
 ---

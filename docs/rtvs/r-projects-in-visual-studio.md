@@ -58,7 +58,7 @@ If you have an existing folder of *.R* files that you want to manage in a projec
 
 ## Project properties
 
-To open the project property pages, right-click the project in **Solution Explorer** and select **Properties**, or select the **Project > (project name) properties* menu item. The window that opens displays project properties:
+To open the project property pages, right-click the project in **Solution Explorer** and select **Properties**, or select the **Project > (project name) properties** menu item. The window that opens displays project properties:
 
 
 | Tab | Property | Description | 

@@ -1,5 +1,5 @@
 ---
-title: Develop code in Visual Studio without projects or solutions
+title: Develop code without projects or solutions
 ms.date: 02/21/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general

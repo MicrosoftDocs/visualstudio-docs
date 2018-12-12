@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "Bookmark control, data binding"
   - "Bookmark control, events"
   - "Bookmark control"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload:
   - "office"

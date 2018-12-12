@@ -1,5 +1,5 @@
 ---
-title: "Create a Test Setting for a Distributed Load Test in Visual Studio"
+title: "Create a Test Setting for a Distributed Load Test"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:

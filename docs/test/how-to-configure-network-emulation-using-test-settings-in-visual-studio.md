@@ -1,5 +1,5 @@
 ---
-title: "Configure Network Emulation Using Test Settings in Visual Studio"
+title: "Configure Network Emulation Using Test Settings"
 ms.date: 10/03/2016
 ms.topic: conceptual
 helpviewer_keywords:

@@ -1,6 +1,7 @@
 ---
-title: "Error: The Visual Studio Remote Debugger service on the target computer cannot connect back to this computer | Microsoft Docs"
-ms.custom: ""
+title: "Error: The Visual Studio Remote Debugger service on the target computer cannot connect back to this computer"
+titleSuffix: ""
+ms.custom: "seodec18"
 ms.date: "11/04/2016"
 ms.technology: "vs-ide-debug"
 ms.topic: "troubleshooting"

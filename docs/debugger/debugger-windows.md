@@ -1,6 +1,6 @@
 ---
-title: "Debugger Windows in Visual Studio | Microsoft Docs"
-ms.custom: "H1Hack27Feb2017"
+title: "Debugger windows | Microsoft Docs"
+ms.custom: "seodec18"
 ms.date: "04/25/2017"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"

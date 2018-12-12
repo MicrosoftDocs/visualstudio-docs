@@ -1,6 +1,6 @@
 ---
-title: "Debugging Preparation: Windows Forms Applications | Microsoft Docs"
-ms.custom: ""
+title: "Prepare to debug Windows Forms apps | Microsoft Docs"
+ms.custom: "seodec18"
 ms.date: "11/04/2016"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"

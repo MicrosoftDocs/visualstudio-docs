@@ -1,8 +1,8 @@
 ---
-title: "Learn to debug C# code using the Visual Studio debugger"
-ms.description: "Learn how to start the Visual Studio debugger, step through code, and inspect data."
-ms.custom: "debug-experiment"
-ms.date: "11/27/2018"
+title: "Learn to debug"
+description: "Learn how to start the Visual Studio debugger, step through code, and inspect data."
+ms.custom: ['debug-experiment', 'seodec18']
+ms.date: "08/01/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "tutorial"
 dev_langs: 

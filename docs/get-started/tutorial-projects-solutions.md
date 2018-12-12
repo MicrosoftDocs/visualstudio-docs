@@ -2,8 +2,8 @@
 title: Introduction to projects and solutions
 ms.date: 12/11/2017
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
-ms.topic: quickstart
+ms.technology: vs-acquisition
+ms.topic: tutorial
 author: gewarren
 ms.author: gewarren
 manager: douge
@@ -37,7 +37,7 @@ We'll start our exploration by creating an empty solution. After you get to know
 
 1. In the left pane, expand **Other Project Types**, then choose **Visual Studio Solutions**. In the center pane, choose the **Blank Solution** template. Name your solution **QuickSolution**, then choose the **OK** button.
 
-   ![Blank solution template in Visual Studio](media/quickstart-projects-new-solution.png)
+   ![Blank solution template in Visual Studio](media/tutorial-projects-new-solution.png)
 
    The **Start Page** closes, and a solution appears in **Solution Explorer** on the right-hand side of the Visual Studio window. You'll probably use **Solution Explorer** often, to browse the contents of your projects.
 
@@ -56,7 +56,7 @@ Now let's add our first project to the solution. We'll start with an empty proje
    > [!NOTE]
    > If you don't see **Visual C#** in the left pane of the dialog box, you need to install the **.NET desktop development** Visual Studio *workload*. Visual Studio uses workload-based installation to only install the components you need for the type of development you do. An easy way to install a new workload is to choose the **Open Visual Studio Installer** link in the bottom left corner of the **Add New Project** dialog box. After Visual Studio Installer launches, choose the **.NET desktop development** workload and then the **Modify** button.
 
-   ![Open Visual Studio Installer link](media/quickstart-projects-open-installer.png)
+   ![Open Visual Studio Installer link](media/tutorial-projects-open-installer.png)
 
 ## Add an item to the project
 
@@ -110,7 +110,7 @@ Let's add a unit test project to our solution. This time we'll start from a proj
 
    A second project is added to **Solution Explorer**, and a file named *UnitTest1.vb* opens in the editor. *.vb* is the file extension that is given to Visual Basic code files.
 
-   ![Visual Studio Solution Explorer with two projects](media/quickstart-projects-solution-explorer.png)
+   ![Visual Studio Solution Explorer with two projects](media/tutorial-projects-solution-explorer.png)
 
 ## Add a project reference
 
@@ -118,7 +118,7 @@ We're going to use the new unit test project to test our method in the **QuickDa
 
 1. Choose the **References** node in the **QuickTest** project, and from the right-click or context menu, choose **Add Reference**.
 
-   ![Add Reference menu](media/quickstart-projects-add-reference.png)
+   ![Add Reference menu](media/tutorial-projects-add-reference.png)
 
    The **Reference Manager** dialog box opens.
 
@@ -152,7 +152,7 @@ We're going to use the new unit test project to test our method in the **QuickDa
 
    The code file should look like this:
 
-   ![CSharp code](media/quickstart-projects-cs-code.png)
+   ![CSharp code](media/tutorial-projects-cs-code.png)
 
 ## Project properties
 
@@ -162,7 +162,7 @@ The line in the *Calendar.cs* file that contains the <xref:System.Runtime.Compil
 
    The *property pages* for the project open on the **Application** tab. The property pages contain various settings for the project. Notice that the assembly name of the **QuickTest** project is indeed "QuickTest". If you wanted to change it, this is where you'd do that. Then, when you build the test project, the name of the resulting binary file would change from *QuickTest.dll* to whatever you chose.
 
-   ![Project properties](media/quickstart-projects-properties.png)
+   ![Project properties](media/tutorial-projects-properties.png)
 
 1. Explore some of the other tabs of the project's property pages, such as **Compile** and **Settings**. These tabs are different for different types of projects.
 
@@ -170,7 +170,7 @@ The line in the *Calendar.cs* file that contains the <xref:System.Runtime.Compil
 
 If you want to check that your unit test is working, choose **Test** > **Run** > **All Tests** from the menu bar. A window called **Test Explorer** opens, and you should see that the **TestGetCurrentDate** test passes.
 
-![Test Explorer in Visual Studio showing passed test](media/quickstart-projects-test-explorer.png)
+![Test Explorer in Visual Studio showing passed test](media/tutorial-projects-test-explorer.png)
 
 > [!TIP]
 > If **Test Explorer** doesn't open automatically, open it by choosing **Test** > **Windows** > **Test Explorer** from the menu bar.
@@ -181,4 +181,4 @@ If you want to check that your unit test is working, choose **Test** > **Run** >
 - [Manage project and solution properties](../ide/managing-project-and-solution-properties.md)
 - [Manage references in a project](../ide/managing-references-in-a-project.md)
 - [Develop code in Visual Studio without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md)
-- [Visual Studio IDE overview](../ide/visual-studio-ide.md)
+- [Visual Studio IDE overview](../get-started/visual-studio-ide.md)

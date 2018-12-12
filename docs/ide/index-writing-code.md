@@ -97,7 +97,7 @@ Learn how to use the code editor and other tools in Visual Studio to write, navi
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/common/i_code-samples.svg" alt="" />
+                            <img src="/media/common/i_code-samples.svg" alt="Code samples graphic" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -140,7 +140,7 @@ Create your first app in Visual Studio.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/logos/logo_Csharp.svg" alt="" />
+                            <img src="https://docs.microsoft.com/media/logos/logo_Csharp.svg" alt="C# logo" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -158,7 +158,7 @@ Create your first app in Visual Studio.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/logos/logo_Cplusplus.svg" alt="Get started with C++" />
+                            <img src="https://docs.microsoft.com/media/logos/logo_Cplusplus.svg" alt="C++ logo" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -176,7 +176,7 @@ Create your first app in Visual Studio.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/logos/logo_python.svg" alt="" />
+                            <img src="https://docs.microsoft.com/media/logos/logo_python.svg" alt="Python logo" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -194,7 +194,7 @@ Create your first app in Visual Studio.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/logos/logo_vb.svg" alt="Create Visual Basic console app" />
+                            <img src="https://docs.microsoft.com/media/logos/logo_vb.svg" alt="Visual Basic logo" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -212,7 +212,7 @@ Create your first app in Visual Studio.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/logos/logo_nodejs.svg" alt="Create Node.js web app" />
+                            <img src="https://docs.microsoft.com/media/logos/logo_nodejs.svg" alt="Node.js logo" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -230,7 +230,7 @@ Create your first app in Visual Studio.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/logos/logo_r.svg" alt="Get started with R Tools" />
+                            <img src="https://docs.microsoft.com/media/logos/logo_r.svg" alt="R Tools logo" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -248,7 +248,7 @@ Create your first app in Visual Studio.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/logos/logo_Windows.svg" alt="Create a UWP app with C#" />
+                            <img src="https://docs.microsoft.com/media/logos/logo_Windows.svg" alt="Windows logo" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -266,7 +266,7 @@ Create your first app in Visual Studio.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/logos/logo_NETcore.svg" alt="Create a .NET Core app in C#" />
+                            <img src="https://docs.microsoft.com/media/logos/logo_NETcore.svg" alt=".NET Core logo" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -284,7 +284,7 @@ Create your first app in Visual Studio.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/logos/logo_azure.svg" alt="Create an Azure web app" />
+                            <img src="https://docs.microsoft.com/media/logos/logo_azure.svg" alt="Azure logo" />
                         </div>
                     </div>
                     <div class="cardText">

@@ -1,5 +1,5 @@
 ---
-title: Creating an Azure cloud service project with Visual Studio | Microsoft Docs
+title: Creating an Azure cloud service project
 description: Learn now to create an Azure cloud service project with Visual Studio
 author: ghogen
 manager: douge
@@ -11,6 +11,7 @@ ms.workload: azure-vs
 ms.topic: conceptual
 ms.date: 03/21/2017
 ms.author: ghogen
+ms.custom: seodec18
 ---
 # Creating an Azure cloud service project with Visual Studio
 The Azure Tools for Visual Studio provides a project template that lets you create an [Azure cloud service](/azure/cloud-services/cloud-services-choose-me), which is a simple general-purpose Azure service. Once the project has been created, Visual Studio enables you to configure, debug, and deploy the cloud service to Azure.

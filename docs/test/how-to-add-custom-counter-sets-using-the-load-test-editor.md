@@ -1,5 +1,5 @@
 ---
-title: "Add Custom Counter Sets for load testing in Visual Studio"
+title: "Add Custom Counter Sets for load testing"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:

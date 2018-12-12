@@ -1,7 +1,7 @@
 ---
-title: "View previous application state using IntelliTrace"
-ms.description: "Learn how to take snapshots, and view snapshots with IntelliTrace step-back"
-ms.custom: "mvc"
+title: "View previous app state using IntelliTrace"
+description: "Learn how to take snapshots, and view snapshots with IntelliTrace step-back"
+ms.custom: "seodec18"
 ms.date: "09/19/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "tutorial"

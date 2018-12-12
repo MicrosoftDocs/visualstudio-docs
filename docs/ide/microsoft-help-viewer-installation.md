@@ -1,5 +1,5 @@
 ---
-title: Install Visual Studio offline help
+title: Install offline help
 ms.date: 11/01/2017
 ms.prod: visual-studio-dev15
 ms.technology: vs-help-viewer

@@ -1,6 +1,6 @@
 ---
-title: "Troubleshoot Breakpoints in the Visual Studio Debugger | Microsoft Docs"
-ms.custom: ""
+title: "Troubleshoot breakpoints in the debugger | Microsoft Docs"
+ms.custom: "seodec18"
 ms.date: "01/23/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "troubleshooting"

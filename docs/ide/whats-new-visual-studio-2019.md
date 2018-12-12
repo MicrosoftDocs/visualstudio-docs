@@ -1,10 +1,11 @@
 ---
 title: "What's new in Visual Studio 2019 Preview"
+titleSuffix: ""
 description: "Learn about the new features in the preview release of Visual Studio 2019."
-ms.custom: ""
 ms.date: 12/04/2018
 ms.prod: visual-studio-dev16
 ms.technology: vs-acquisition
+ms.custom: "seodec18"
 ms.topic: conceptual
 f1_keywords:
   - "VS.StartPage.WhatsNew"
@@ -27,7 +28,7 @@ Here's a high-level recap of what Visual Studio has to offer:
 
 * **[Personal and team productivity](#personal-and-team-productivity)**. Productivity for everyone where it matters most.
 * **[Modern development support](#modern-development-support)**. Support for your current projects and future solutions.
-* **[Continuous innovation](#discoverability)**. Code smart with intelligent, cloud-powered support.
+* **[Continuous innovation](#continuous-innovation)**. Code smart with intelligent, cloud-powered support.
 
 > [!NOTE]
 > For a complete list of new features and functionality in Visual Studio 2019 Preview, see the [release notes](/visualstudio/releases/2019/release-notes-preview?context=visualstudio/default&contextView=vs-2017).
@@ -80,7 +81,7 @@ And with Visual Studio 2019 Preview, this service is installed by default.
 
 ### Manage pull requests (PRs) from the IDE
 
-We're introducing a new extension that you can download to use with Visual Studio 2019 Preview. With this new extension, you can review, run, and even debug pull requests from your team without leaving the Visual Studio IDE [(integrated development environment)](../ide/visual-studio-ide.md). We support code in Azure Repos today, but are expanding to support GitHub and improve the overall experience.
+We're introducing a new extension that you can download to use with Visual Studio 2019 Preview. With this new extension, you can review, run, and even debug pull requests from your team without leaving the Visual Studio IDE [(integrated development environment)](../get-started/visual-studio-ide.md). We support code in Azure Repos today, but are expanding to support GitHub and improve the overall experience.
 
 To get started now, download the [Pull Requests for Visual Studio](https://aka.ms/pr4vs) extension from the Visual Studio Marketplace.
 

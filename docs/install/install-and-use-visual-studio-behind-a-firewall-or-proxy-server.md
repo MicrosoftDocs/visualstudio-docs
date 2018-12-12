@@ -1,9 +1,10 @@
 ---
-title: "Install and use Visual Studio and Azure Services behind a firewall or proxy server | Microsoft Docs"
+title: "Install and use behind a firewall or proxy server"
 description: "Review the domain URLs, ports, and protocols that you might want to whitelist or open if your organization uses a firewall or a proxy server"
 ms.custom: ""
 ms.date: 07/10/2018
 ms.technology: vs-acquisition
+ms.custom: "seodec18"
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
@@ -49,7 +50,7 @@ Because the Visual Studio Installer downloads files from various domains and the
 | visualstudio.microsoft.com | Documentation location |
 | docs.microsoft.com | Documentation location |
 | msdn.microsoft.com | Documentation location |
-| www.microsoft.com | Documentation location |
+| www\.microsoft.com | Documentation location |
 | \*.windows.net | Sign-in location |
 | \*.microsoftonline.com | Sign-in location |
 | \*.live.com | Sign-in location |
@@ -66,9 +67,9 @@ Because the Visual Studio Installer downloads files from various domains and the
 | download.unity3d.com | Game development with Unity (Unity) |
 | netstorage.unity3d.com | Game development with Unity (Unity) |
 | dl.google.com | Mobile development with JavaScript (Android SDK and NDK, Emulator) <br /><br />Mobile Development with .NET (Android SDK and NDK, Emulator) |
-| www.incredibuild.com | Game development with C++ (IncrediBuild) |
+| www\.incredibuild.com | Game development with C++ (IncrediBuild) |
 | incredibuildvs2017i.azureedge.net | Game development with C++ (IncrediBuild) |
-| www.python.org | Python development (Python) <br /><br />Data science and analytical applications (Python) |
+| www\.python.org | Python development (Python) <br /><br />Data science and analytical applications (Python) |
 | | |
 
 ## Use Visual Studio and Azure Services

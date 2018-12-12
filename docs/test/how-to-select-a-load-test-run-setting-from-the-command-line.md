@@ -1,5 +1,5 @@
 ---
-title: "Set Visual Studio load test run settings from the command line"
+title: "Set load test run settings from the command line"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:

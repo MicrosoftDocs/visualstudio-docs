@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "add-ins [Office development in Visual Studio], calling code from other solutions"
   - "interoperability [Office development in Visual Studio]"
   - "calling code from VBA"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

@@ -1,9 +1,10 @@
 ---
 title: "Install Visual Studio Build Tools into a container"
+titleSuffix: ""
 description: "Learn how to install Visual Studio Build Tools into a Windows container to support continuous integration and continuous delivery (CI/CD) workflows."
-ms.custom: ""
 ms.date: 04/18/2018
 ms.technology: vs-acquisition
+ms.custom: "seodec18"
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.assetid: d5c038e2-e70d-411e-950c-8a54917b578a
@@ -111,8 +112,8 @@ Visual Studio Build Tools - and to a greater extent, Visual Studio - require lot
 
 Save the following example Dockerfile to a new file on your disk. If the file is named simply "Dockerfile", it is recognized by default.
 
-> [!NOTE]
-> This example Dockerfile only excludes older Windows SDKs that cannot be installed into containers. Older releases cause the build command to fail.
+> [!WARNING]
+> This example Dockerfile only excludes earlier Windows SDKs that cannot be installed into containers. Earlier releases cause the build command to fail.
 
 1. Open a command prompt.
 2. Create a new directory (recommended):
@@ -158,8 +159,12 @@ Save the following example Dockerfile to a new file on your disk. If the file is
    CMD ["powershell.exe", "-NoLogo", "-ExecutionPolicy", "Bypass"]
    ```
 
-   > [!NOTE]
-   > If you base your image directly on microsoft/windowsservercore, the .NET Framework may not install properly and no install error is indicated. Managed code may not run after the install is complete. Instead, base your image on [microsoft/dotnet-framework:4.7.1](https://hub.docker.com/r/microsoft/dotnet-framework) or newer. Also note that newer images may use PowerShell as the default `SHELL` which will cause the `RUN` and `ENTRYPOINT` instructions to fail.
+   > [!WARNING]
+   > If you base your image directly on microsoft/windowsservercore, the .NET Framework may not install properly and no install error is indicated. Managed code may not run after the install is complete. Instead, base your image on [microsoft/dotnet-framework:4.7.1](https://hub.docker.com/r/microsoft/dotnet-framework) or later. Also note that images tagged version 4.7.1 or later may use PowerShell as the default `SHELL` which will cause the `RUN` and `ENTRYPOINT` instructions to fail.
+   >
+   > Visual Studio 2017 version 15.8 or earlier (any product) will not properly install on mcr<span></span>.microsoft\.com\/windows\/servercore:1809 or later. No error is displayed.
+   >
+   > See [Known issues for containers](build-tools-container-issues.md) for more information.
 
 4. Run the following command within that directory.
 

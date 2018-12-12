@@ -1,5 +1,6 @@
 ---
 title: Advanced features of Visual Studio 2017
+titleSuffix: ""
 ms.date: 06/01/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
@@ -12,7 +13,7 @@ ms.workload:
 ---
 # Features of Visual Studio 2017
 
-The [Visual Studio IDE overview](../ide/visual-studio-ide.md) article gives a basic introduction to Visual Studio. This article describes features that might be more appropriate for experienced developers, or those who are already familiar with Visual Studio.
+The [Visual Studio IDE overview](../get-started/visual-studio-ide.md) article gives a basic introduction to Visual Studio. This article describes features that might be more appropriate for experienced developers, or those who are already familiar with Visual Studio.
 
 ## Modular installation
 
@@ -120,5 +121,5 @@ To learn more about extending Visual Studio, see [Extend Visual Studio IDE](http
 
 ## See also
 
-- [Visual Studio IDE overview](../ide/visual-studio-ide.md)
+- [Visual Studio IDE overview](../get-started/visual-studio-ide.md)
 - [What's new in Visual Studio 2017](../ide/whats-new-in-visual-studio.md)

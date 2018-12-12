@@ -1,6 +1,6 @@
 ---
-title: "Overview of Visual Studio Graphics Diagnostics | Microsoft Docs"
-ms.custom: ""
+title: "Overview of graphics diagnostics | Microsoft Docs"
+ms.custom: "seodec18"
 ms.date: "02/09/2017"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"

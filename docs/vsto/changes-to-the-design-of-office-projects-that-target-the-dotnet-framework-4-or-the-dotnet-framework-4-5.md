@@ -11,8 +11,8 @@ dev_langs:
 helpviewer_keywords: 
   - "Office development in Visual Studio, what's new"
   - "what's new [Office development in Visual Studio]"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

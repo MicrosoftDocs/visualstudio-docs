@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "document-level customizations [Office development in Visual Studio]"
   - "AddInLoader.dll"
   - "architecture [Office development in Visual Studio], document-level customizations"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

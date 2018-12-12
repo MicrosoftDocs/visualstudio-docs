@@ -1,6 +1,6 @@
 ---
-title: "Remote debugging in Visual Studio | Microsoft Docs"
-ms.custom: "remotedebugging"
+title: "Remote debugging | Microsoft Docs"
+ms.custom: ['remotedebugging', 'seodec18']
 ms.date: "07/02/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"

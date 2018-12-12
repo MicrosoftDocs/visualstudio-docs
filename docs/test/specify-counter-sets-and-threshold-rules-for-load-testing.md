@@ -1,5 +1,5 @@
 ---
-title: "Counter Sets and Threshold Rules for load testing in Visual Studio"
+title: "Counter Sets and Threshold Rules for load testing"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
