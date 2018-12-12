@@ -2,7 +2,6 @@
 title: Customize the Help Viewer
 ms.date: 11/02/2017
 ms.prod: visual-studio-dev15
-ms.technology: vs-help-viewer
 ms.topic: conceptual
 f1_keywords:
   - "hv_options"
@@ -43,4 +42,4 @@ You open the **Viewer Options** dialog box by choosing the **Viewer Options** bu
 
 ## See also
 
-- [Microsoft Help Viewer](../ide/microsoft-help-viewer.md)
+- [Microsoft Help Viewer](../help-viewer/overview.md)

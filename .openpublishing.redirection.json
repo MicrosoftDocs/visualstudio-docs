@@ -912,7 +912,7 @@
         },
         {
             "source_path": "docs/ide/advanced-search-operators-in-search-expressions.md",
-            "redirect_url": "/visualstudio/ide/logical-operators-in-search-expressions",
+            "redirect_url": "/visualstudio/help-viewer/logical-operators-search-expressions",
             "redirect_document_id": false
         },
         {
@@ -972,7 +972,7 @@
         },
         {
             "source_path": "docs/ide/full-text-search-tips.md",
-            "redirect_url": "/visualstudio/ide/how-to-search-for-topics",
+            "redirect_url": "/visualstudio/help-viewer/find-topics",
             "redirect_document_id": false
         },
         {
@@ -1047,7 +1047,7 @@
         },
         {
             "source_path": "docs/ide/how-to-customize-search-results.md",
-            "redirect_url": "/visualstudio/ide/how-to-search-for-topics",
+            "redirect_url": "/visualstudio/help-viewer/find-topics",
             "redirect_document_id": false
         },
         {
@@ -1092,7 +1092,7 @@
         },
         {
             "source_path": "docs/ide/index-search-tips.md",
-            "redirect_url": "/visualstudio/ide/how-to-find-topics-in-the-index",
+            "redirect_url": "/visualstudio/help-viewer/find-topics-index",
             "redirect_document_id": false
         },
         {
@@ -1102,12 +1102,12 @@
         },
         {
             "source_path": "docs/ide/locate-information.md",
-            "redirect_url": "/visualstudio/ide/microsoft-help-viewer",
+            "redirect_url": "/visualstudio/help-viewer/overview",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/ide/manage-the-help-viewer-window.md",
-            "redirect_url": "/visualstudio/ide/customize-the-help-viewer",
+            "redirect_url": "/visualstudio/help-viewer/customize",
             "redirect_document_id": false
         },
         {
@@ -1187,7 +1187,7 @@
         },
         {
             "source_path": "docs/ide/retain-topics-for-later-use.md",
-            "redirect_url": "/visualstudio/ide/microsoft-help-viewer",
+            "redirect_url": "/visualstudio/help-viewer/overview",
             "redirect_document_id": false
         },
         {
@@ -1217,7 +1217,7 @@
         },
         {
             "source_path": "docs/ide/troubleshooting-the-help-viewer.md",
-            "redirect_url": "/visualstudio/ide/microsoft-help-viewer",
+            "redirect_url": "/visualstudio/help-viewer/overview",
             "redirect_document_id": false
         },
         {
@@ -6986,6 +6986,71 @@
             "source_path": "docs/ide/visual-studio-ide.md",
             "redirect_url": "/visualstudio/get-started/visual-studio-ide",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/accessibility-features-of-the-help-viewer.md",
+            "redirect_url": "/visualstudio/help-viewer/accessibility-features",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/ide/help-viewer-administrator-guide.md",
+            "redirect_url": "/visualstudio/help-viewer/administrator-guide",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/ide/help-content-manager-overrides.md",
+            "redirect_url": "/visualstudio/help-viewer/behavior-overrides",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/ide/command-line-arguments-for-the-help-content-manager.md",
+            "redirect_url": "/visualstudio/help-viewer/command-line-arguments",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/ide/customize-the-help-viewer.md",
+            "redirect_url": "/visualstudio/help-viewer/customize",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/ide/how-to-find-topics-in-the-index.md",
+            "redirect_url": "/visualstudio/help-viewer/find-topics-index",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/ide/how-to-find-topics-in-the-table-of-contents.md",
+            "redirect_url": "/visualstudio/help-viewer/find-topics-toc",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/ide/how-to-search-for-topics.md",
+            "redirect_url": "/visualstudio/help-viewer/find-topics",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/ide/install-and-manage-local-content.md",
+            "redirect_url": "/visualstudio/help-viewer/install-manage-local-content",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/ide/microsoft-help-viewer-installation.md",
+            "redirect_url": "/visualstudio/help-viewer/installation",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/ide/logical-operators-in-search-expressions.md",
+            "redirect_url": "/visualstudio/help-viewer/logical-operators-search-expressions",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/ide/microsoft-help-viewer.md",
+            "redirect_url": "/visualstudio/help-viewer/overview",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/ide/shortcut-keys-help-viewer.md",
+            "redirect_url": "/visualstudio/help-viewer/shortcut-keys",
+            "redirect_document_id": true
         },
         {
             "source_path": "docs/reference/synchronized-settings-environment-options-dialog-box.md",
