@@ -3,6 +3,7 @@ title: "Tutorial: Projects and solutions for Visual Basic"
 ms.date: 11/12/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
+ms.custom: get-started
 ms.topic: tutorial
 author: gewarren
 ms.author: gewarren
