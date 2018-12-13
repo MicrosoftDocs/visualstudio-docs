@@ -93,6 +93,9 @@
       ]
     },
     "fileMetadata": {
+      "ms.technology": {
+        "help-viewer/**/**.md": "vs-help-viewer"
+      },
       "titleSuffix": {
         "vs-2015/**/**.md": "Visual Studio 2015"
       },
