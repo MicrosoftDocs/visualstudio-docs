@@ -9,6 +9,7 @@ f1_keywords:
   - "vs.environment.projects"
   - "vs.addnewitem"
   - "vs.addexistingitem"
+  - "vs.openproject"
   - "VS.SolutionExplorer"
   - "vs.addexistingsolutionitem"
   - "vs.environment.solutions"
