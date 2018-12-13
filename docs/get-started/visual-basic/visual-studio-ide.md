@@ -17,7 +17,7 @@ ms.workload:
 
 The Visual Studio *integrated development environment* is a creative launching pad that you can use to edit, debug, and build code, and then publish an app. An integrated development environment (IDE) is a feature-rich program that can be used for many aspects of software development. Over and above the standard editor and debugger that most IDEs provide, Visual Studio includes compilers, code completion tools, graphical designers, and many more features to ease the software development process.
 
-![The Visual Studio IDE](../media/visualstudioide.png)
+![The Visual Studio IDE](../media/visual-studio-ide.png)
 
 This image shows Visual Studio with an open project and several key tool windows you'll likely use:
 
