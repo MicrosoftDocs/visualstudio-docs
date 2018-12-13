@@ -14,13 +14,13 @@ ms.workload:
   - python
   - data-science
 ---
-# Welcome to the Visual Studio IDE
+# Welcome to the Visual Studio IDE | Python
 
-The Visual Studio *integrated development environment* is a creative launching pad that you can use to edit, debug, and test code, and then publish an app. An integrated development environment (IDE) is a feature-rich program that can be used for many aspects of software development. Over and above the standard editor and debugger that most IDEs provide, Visual Studio includes code completion tools, interactive REPL environments, and other features to ease the software development process.
+The Visual Studio *integrated development environment* is a creative launching pad for Python (and other languages) that you can use to edit, debug, and test code, and then publish an app. An integrated development environment (IDE) is a feature-rich program that can be used for many aspects of software development. Over and above the standard editor and debugger that most IDEs provide, Visual Studio includes code completion tools, interactive REPL environments, and other features to ease the software development process.
 
-[![The Visual Studio with a Python project](media/tour-ide-overview.png)](media/tour-ide-overview.png#lightbox)
+[![Visual Studio with a Python project](media/tour-ide-overview.png)](media/tour-ide-overview.png#lightbox)
 
-This image shows Visual Studio with an open project and several key tool windows you'll likely use:
+This image shows Visual Studio with an open Python project and several key tool windows you'll likely use:
 
 - [**Solution Explorer**](../ide/solutions-and-projects-in-visual-studio.md) (top right) lets you view, navigate, and manage your code files. **Solution Explorer** can help organize your code by grouping the files into [solutions and projects](../ide/quickstart-projects-solutions.md).
     - Alongside **Solution Explorer** is [**Python Environments**](managing-python-environments-in-visual-studio.md), where you manage the different Python interpreters that are installed on your computer.
