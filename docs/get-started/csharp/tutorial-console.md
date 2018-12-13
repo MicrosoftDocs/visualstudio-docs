@@ -49,7 +49,7 @@ Let's start by adding the basic calculator code to your project.
 
    Specifically, delete all the code you see in the code editor.
 
-1. Enter or paste the following code into the code editor:
+1. Enter or paste the following new code into the code editor:
 
     ```csharp
     using System;
@@ -138,7 +138,7 @@ Let's fix the code so that it handles decimals.
 
     ![Console window showing the Calculator app that now returns a decimal numeral as a result](./media/csharp-console-calculator-decimal.png)
 
-However, the app only produces a decimal result. Let's make a few more tweaks to the code so that the app can calculate decimals too.
+However, the app produces only a decimal result. Let's make a few more tweaks to the code so that the app can calculate decimals too.
 
 1. Change each instance of the `float` variable to `double`.
 
@@ -150,7 +150,7 @@ However, the app only produces a decimal result. Let's make a few more tweaks to
 
     ![Console window showing the Calculator app that now accepts decimal numbers and returns a longer decimal numeral as a result](./media/csharp-console-calculator-usedecimals.png)
 
-    (We'll fix the number of decimal places in the [Revise the code]() section.)
+    (We'll fix the number of decimal places in the [Revise the code](#revise-the-code) section.)
 
 ## Debug the app
 
@@ -196,7 +196,7 @@ Now, when you divide any number by zero, the app will ask for another number. Ev
 
 If you enter an alpha character when the app expects a numeric character (or vice versa), the console app freezes. Visual Studio then shows you what's wrong in the code editor.
 
-   ![The Visual Studio code editor shows a format error](./media/csharp-console-format-error.png)
+   ![The Visual Studio code editor shows a format error](./media/csharp-console-calculator-format-error.png)
 
 To fix this error, we must refactor the code that we've previously entered.
 
@@ -257,7 +257,7 @@ Let's get started.
 
     ```
 
-1. Then, add a "new"  `program` class, as follows:
+1. Then, add a new  `program` class, as follows:
 
     ```csharp
     class Program
@@ -506,11 +506,11 @@ A workload in Visual Studio represents a set of programming options and template
 
 1. Choose the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box.
 
-   ![Choose the Open Visual Studio Installer link from the New Project dialog box](./ide/media/csharp-open-visual-studio-installer-generic-dark.png)
+   ![Choose the Open Visual Studio Installer link from the New Project dialog box](./media/csharp-open-visual-studio-installer-generic-dark.png)
 
 1. The Visual Studio Installer launches. Choose the **.NET Core cross-platform development** workload, and then choose **Modify**.
 
-   ![.NET Core cross-platform development workload in the Visual Studio Installer](./ide/media/dot-net-core-xplat-dev-workload.png)
+   ![.NET Core cross-platform development workload in the Visual Studio Installer](./media/dot-net-core-xplat-dev-workload.png)
 
 #### Option 2: Use the Tools menu bar
 
