@@ -1,6 +1,4 @@
 ---
-<<<<<<< HEAD:docs/get-started/csharp/tutorial-uwp.md
-title: "Tutorial: Universal Windows Platform (UWP) app with XAML and C#"
 description: Create a Hello World Universal Windows Platform (UWP) app in Visual Studio with XAML and C#
 ms.custom: "seodec18, get-started"
 ms.date: "04/04/2018"
@@ -8,23 +6,7 @@ ms.prod: visual-studio-dev15
 ms.technology:
   - "vs-ide-general"
 ms.topic: tutorial
-=======
-title: "Create your first UWP app with XAML and C#"
-ms.date: "04/04/2018"
-ms.prod: visual-studio-dev15
-ms.technology: "vs-acquisition"
-ms.custom: "seodec18"
-ms.topic: "quickstart"
->>>>>>> 78b5abb1ba0aabc399af54d0d66c4908d557365d:docs/ide/quickstart-uwp-csharp.md
 ms.devlang: "CSharp"
-author: "TerryGLee"
-ms.author: "tglee"
-manager: douge
-dev_langs:
-  - CSharp
-ms.workload:
-  - "multiple"
----
 # Tutorial: Create your first Universal Windows Platform application in Visual Studio with XAML and C&#35;
 
 In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), you'll create a "Hello World" app that runs on any Windows 10 device. To do so, you'll use a Universal Windows Platform (UWP) project template, Extensible Application Markup Language (XAML), and the C# programming language.

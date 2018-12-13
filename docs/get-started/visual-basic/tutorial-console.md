@@ -1,5 +1,4 @@
 ---
-<<<<<<< HEAD:docs/get-started/visual-basic/tutorial-console.md
 title: "Tutorial: Get started with Visual Basic"
 description: "Learn how to create Visual Basic console apps in Visual Studio, step-by-step."
 ms.custom: "seodec18, get-started"
@@ -7,15 +6,6 @@ ms.date: 08/10/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.prod: visual-studio-dev15
-=======
-title: "Get started with Visual Basic in Visual Studio"
-titleSuffix: ""
-description: "Learn how to create Visual Basic console apps in Visual Studio, step-by-step."
-ms.date: 08/10/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-acquisition
-ms.custom: "seodec18"
->>>>>>> 78b5abb1ba0aabc399af54d0d66c4908d557365d:docs/ide/tutorial-visual-basic-console.md
 ms.topic: tutorial
 ms.devlang: vb
 author: TerryGLee
