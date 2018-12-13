@@ -1089,10 +1089,8 @@
       href: ide/dotfuscator/upgrades.md
 - name: Resources
   items:
-  - name: What's new in Visual Studio 2017
-    href: ide/whats-new-in-visual-studio.md
-  - name: What's new in Visual Studio 2019
-    href: ide/whats-new-visual-studio-2019.md
+  - name: What's new in Visual Studio
+    href: ide/whats-new-visual-studio.md
   - name: Release notes & system requirements
     items:
     - name: Current release notes
