@@ -7,11 +7,9 @@ ms.topic: conceptual
 f1_keywords:
   - "vs.addnewsolutionitem"
   - "vs.environment.projects"
-  - "vs.openproject"
   - "vs.addnewitem"
   - "vs.addexistingitem"
   - "VS.SolutionExplorer"
-  - "vs.newproject"
   - "vs.addexistingsolutionitem"
   - "vs.environment.solutions"
   - "VS.SolutionExplorer.Solutions"
@@ -50,7 +48,7 @@ In Visual Studio, the project file is used by **Solution Explorer** to display t
 
 ## Solutions
 
-A project is contained within a *solution*. A solution contains one or more related projects, along with build information, Visual Studio window settings, and any miscellaneous files that aren't associated with a particular project. A solution is described by a text file (extension *.sln*) with its own unique format; it is not intended to be edited by hand.
+A *solution* in Visual Studio is simply a collection of one or more related projects. A solution can also contain build information, Visual Studio window settings, and any miscellaneous files that aren't associated with a particular project. A solution is described by a text file (extension *.sln*) with its own unique format; it is not intended to be edited by hand.
 
 Visual Studio uses two file types (*.sln* and *.suo*) to store settings for solutions:
 
