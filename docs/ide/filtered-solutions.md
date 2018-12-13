@@ -10,6 +10,7 @@ helpviewer_keywords:
 author: gewarren
 ms.author: stsu
 manager: douge
+monikerRange: vs-2019
 ---
 # Filtered solutions in Visual Studio
 
