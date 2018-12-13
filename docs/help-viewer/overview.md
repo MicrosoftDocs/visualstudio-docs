@@ -2,7 +2,6 @@
 title: Offline help documentation
 ms.date: 11/02/2017
 ms.prod: visual-studio-dev15
-ms.technology: vs-help-viewer
 ms.topic: conceptual
 f1_keywords:
   - "hv_general"
@@ -36,12 +35,12 @@ You can install and view content for various products and technologies on your l
 
 - View, bookmark, and print topics.
 
-To install Help Viewer, see [Microsoft Help Viewer installation](../ide/microsoft-help-viewer-installation.md). To start reading help topics in the Help Viewer rather than online, go to the **Help** menu in Visual Studio, and then choose **Set Help Preference** > **Launch in Help Viewer**.
+To install Help Viewer, see [Microsoft Help Viewer installation](../help-viewer/installation.md). To start reading help topics in the Help Viewer rather than online, go to the **Help** menu in Visual Studio, and then choose **Set Help Preference** > **Launch in Help Viewer**.
 
 > [!TIP]
 > Another way to download content locally so you can view it when you don't have an internet connection is to download a PDF version of it. Many documentation sets on docs.microsoft.com include a link at the bottom of the table of contents (TOC) to download a PDF file that contains all the articles for that TOC.
 >
-> ![Download PDF for Visual Studio documentation](media/download-pdf.png)
+> ![Download PDF for Visual Studio documentation](media/overview/download-pdf.png)
 
 ## Help Viewer tour
 
@@ -89,6 +88,6 @@ The toolbar in the **Help Viewer** window contains the following buttons:
 
 ## See also
 
-- [Microsoft Help Viewer installation](../ide/microsoft-help-viewer-installation.md)
-- [Help Viewer administrator guide](../ide/help-viewer-administrator-guide.md)
-- [Install and manage local content](../ide/install-and-manage-local-content.md)
+- [Microsoft Help Viewer installation](../help-viewer/installation.md)
+- [Help Viewer administrator guide](../help-viewer/administrator-guide.md)
+- [Install and manage local content](../help-viewer/install-manage-local-content.md)

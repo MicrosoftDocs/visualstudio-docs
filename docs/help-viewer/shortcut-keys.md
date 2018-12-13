@@ -2,7 +2,6 @@
 title: Shortcut keys (Help Viewer)
 ms.date: 11/02/2017
 ms.prod: visual-studio-dev15
-ms.technology: vs-help-viewer
 ms.topic: reference
 helpviewer_keywords:
   - "shortcut keys [Help Viewer]"
@@ -14,7 +13,7 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Shortcut keys (Help Viewer)
+# Shortcut keys in Help Viewer
 
 You can navigate in the **Microsoft Help Viewer** by using the shortcut keys in the following table:
 
@@ -113,4 +112,4 @@ You can navigate in the **Microsoft Help Viewer** by using the shortcut keys in 
 
 ## See also
 
-- [Accessibility features of the Help Viewer](../ide/accessibility-features-of-the-help-viewer.md)
+- [Accessibility features of the Help Viewer](accessibility-features.md)
