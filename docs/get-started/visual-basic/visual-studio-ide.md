@@ -17,7 +17,7 @@ ms.workload:
 
 The Visual Studio *integrated development environment* is a creative launching pad that you can use to edit, debug, and build code, and then publish an app. An integrated development environment (IDE) is a feature-rich program that can be used for many aspects of software development. Over and above the standard editor and debugger that most IDEs provide, Visual Studio includes compilers, code completion tools, graphical designers, and many more features to ease the software development process.
 
-![The Visual Studio IDE](../../ide/media/visualstudioide.png)
+![The Visual Studio IDE](../media/visualstudioide.png)
 
 This image shows Visual Studio with an open project and several key tool windows you'll likely use:
 
@@ -96,7 +96,7 @@ This overview article walks you through creating a simple project and trying som
 
 The modular installer enables you to choose and install *workloads*, which are groups of features needed for the programming language or platform you prefer. To follow the steps for [creating a program](#create-a-program), be sure to select the **.NET Core cross-platform development** workload during installation.
 
-![.NET Core cross-platform development workload in Visual Studio Installer](../../ide/media/dotnet-core-cross-platform-workload.png)
+![.NET Core cross-platform development workload in Visual Studio Installer](../media/dotnet-core-cross-platform-workload.png)
 
 When you start Visual Studio for the first time, you can optionally [sign in](../../ide/signing-in-to-visual-studio.md) using your Microsoft account, or your work or school account.
 
@@ -165,7 +165,7 @@ Let's dive in and create a simple program.
 
    Visual Studio builds the app, and a console window opens with the message **Hello World!**. You now have a running app!
 
-   ![Console window](../../ide/media/overview-console-window.png)
+   ![Console window](../media/overview-console-window.png)
 
 4. To close the console window, press any key on your keyboard.
 
