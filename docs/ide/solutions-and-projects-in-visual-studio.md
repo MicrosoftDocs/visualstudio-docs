@@ -11,7 +11,6 @@ f1_keywords:
   - "vs.addnewitem"
   - "vs.addexistingitem"
   - "VS.SolutionExplorer"
-  - "vs.newproject"
   - "vs.addexistingsolutionitem"
   - "vs.environment.solutions"
   - "VS.SolutionExplorer.Solutions"
