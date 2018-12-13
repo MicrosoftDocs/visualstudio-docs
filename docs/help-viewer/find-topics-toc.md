@@ -2,7 +2,6 @@
 title: Use Help Viewer table of contents
 ms.date: 11/02/2017
 ms.prod: visual-studio-dev15
-ms.technology: vs-help-viewer
 ms.topic: conceptual
 f1_keywords:
   - "hv_contents"
@@ -20,7 +19,7 @@ ms.workload:
 ---
 # How to: Find topics in the table of contents
 
-In the **Contents** tab, you can use the table of contents (TOC) to find information. The table of contents is an expandable list that contains all of the topics in the installed books. For accessibility information about how to navigate through the TOC, see [Shortcut keys (Help Viewer)](../ide/shortcut-keys-help-viewer.md).
+In the **Contents** tab, you can use the table of contents (TOC) to find information. The table of contents is an expandable list that contains all of the topics in the installed books. For accessibility information about how to navigate through the TOC, see [Shortcut keys (Help Viewer)](../help-viewer/shortcut-keys.md).
 
 > [!IMPORTANT]
 > The scope of topics available in the TOC depends on the filter you have selected.
@@ -48,6 +47,6 @@ If you have opened a topic using the index or full-text search features, you can
 
 ## See also
 
-- [How to: Find topics in the index](../ide/how-to-find-topics-in-the-index.md)
-- [How to: Search for topics](../ide/how-to-search-for-topics.md)
-- [Microsoft Help Viewer](../ide/microsoft-help-viewer.md)
+- [How to: Find topics in the index](../help-viewer/find-topics-index.md)
+- [How to: Search for topics](../help-viewer/find-topics.md)
+- [Microsoft Help Viewer](../help-viewer/overview.md)
