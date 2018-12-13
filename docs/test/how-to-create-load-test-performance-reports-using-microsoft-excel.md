@@ -1,5 +1,5 @@
 ---
-title: "Create Visual Studio Load Test Performance Reports Using Microsoft Excel"
+title: "Create Load Test Performance Reports Using Microsoft Excel"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:

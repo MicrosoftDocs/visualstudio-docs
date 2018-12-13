@@ -1,5 +1,5 @@
 ---
-title: "Test Driven Development with Test Explorer in Visual Studio"
+title: "Test Driven Development with Test Explorer"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test

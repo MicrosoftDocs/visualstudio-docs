@@ -1,6 +1,6 @@
 ---
-title: "Start a debugging session for a UWP app in Visual Studio | Microsoft Docs"
-ms.custom: ""
+title: "Start a debugging session for a UWP app | Microsoft Docs"
+ms.custom: "seodec18"
 ms.date: "11/20/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"

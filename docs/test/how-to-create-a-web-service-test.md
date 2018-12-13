@@ -1,5 +1,5 @@
 ---
-title: "Create a Web Service Test in Visual Studio"
+title: "Create a Web Service Test"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:

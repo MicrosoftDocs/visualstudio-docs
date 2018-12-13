@@ -1,5 +1,5 @@
 ---
-title: "How to use Google Test for C++ in Visual Studio"
+title: "How to use Google Test for C++"
 ms.date: 11/04/2017
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
@@ -44,13 +44,3 @@ You are now ready to write and run Google Tests. See the [Google Test primer](ht
 
 ## See also
 [Write unit tests for C/C++](writing-unit-tests-for-c-cpp.md)
-
-
-
-
-
-
-
-
-
-

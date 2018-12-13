@@ -1,5 +1,5 @@
 ---
-title: "Create a Web Performance Test Plug-In for Visual Studio"
+title: "Create a Web Performance Test Plug-In"
 ms.date: 10/03/2016
 ms.topic: conceptual
 f1_keywords:

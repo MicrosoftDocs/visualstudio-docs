@@ -5,8 +5,8 @@ ms.date: "07/03/2018"
 ms.technology: vs-unity-tools
 ms.topic: "conceptual"
 ms.assetid: e67ec9a2-a449-413e-8930-9a471bd43a06
-author: "conceptdev"
-ms.author: "crdun"
+author: therealjohn
+ms.author: johmil
 manager: crdun
 ms.workload:
   - "unity"

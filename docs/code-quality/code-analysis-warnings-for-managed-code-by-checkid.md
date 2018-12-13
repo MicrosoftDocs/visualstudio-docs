@@ -1,5 +1,5 @@
 ---
-title: Visual Studio Code Analysis Warnings for Managed Code by CheckId
+title: Code Analysis Warnings for Managed Code by CheckId
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis

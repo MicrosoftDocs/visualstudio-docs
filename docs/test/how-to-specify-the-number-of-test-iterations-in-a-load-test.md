@@ -1,5 +1,5 @@
 ---
-title: "Specify the Number of Test Iterations in a Load Test Run Setting in Visual Studio"
+title: "Specify the Number of Test Iterations in a Load Test Run Setting"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:

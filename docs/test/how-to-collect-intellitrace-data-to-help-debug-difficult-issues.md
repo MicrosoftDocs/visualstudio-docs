@@ -1,5 +1,5 @@
 ---
-title: "Intellitrace data in Visual Studio"
+title: "Intellitrace data"
 ms.date: 10/13/2016
 ms.topic: conceptual
 helpviewer_keywords:

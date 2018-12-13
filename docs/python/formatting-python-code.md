@@ -1,6 +1,6 @@
 ---
-title: Formatting Python code
-description: How to automatically reformat Python code in Visual Studio including spacing, statements, wrapping, and comments.
+title: Format Python code
+description: Visual Studio can automatically reformat Python code including spacing, statements, wrapping, and comments.
 ms.date: 10/28/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
@@ -8,6 +8,7 @@ ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
 manager: douge
+ms.custom: seodec18
 ms.workload: 
   - python
   - data-science
@@ -24,7 +25,7 @@ Options are set through **Tools** > **Options** > **Text Editor** > **Python** >
 
 ![Python formatting options in Visual Studio](media/options-editor-formatting.png)
 
-Formatting options by default are set to match a superset of the [PEP 8 style guide](http://www.python.org/dev/peps/pep-0008/). The **General** tab determines when formatting is applied; settings for the other three tabs are described in this article.
+Formatting options by default are set to match a superset of the [PEP 8 style guide](https://www.python.org/dev/peps/pep-0008/). The **General** tab determines when formatting is applied; settings for the other three tabs are described in this article.
 
 [Python support in Visual Studio](installing-python-support-in-visual-studio.md) also adds the useful [**Fill Comment Paragraph**](#fill-comment-paragraph-command) command to the **Edit** > **Advanced** menu as described in a later section.
 

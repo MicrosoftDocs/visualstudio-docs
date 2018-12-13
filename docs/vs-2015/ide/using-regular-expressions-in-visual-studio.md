@@ -1,5 +1,5 @@
 ---
-title: "Using Regular Expressions in Visual Studio | Microsoft Docs"
+title: "Using Regular Expressions"
 ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
@@ -72,4 +72,3 @@ Here are some examples:
 |                                                                                                            Match a string inside quotes                                                                                                             |                                             ((\\".+?\\")&#124;('.+?'))                                             |                                                    Matches any string inside single or double quotes.                                                     |
 |                                                                                                             Match a hexadecimal number                                                                                                              |                                              \b0[xX]([0-9a-fA-F]\)\b                                               |                                                          Matches "0xc67f" but not "0xc67fc67f".                                                           |
 |                                                                                                             Match integers and decimals                                                                                                             |                                               \b[0-9]\*\\.\*[0-9]+\b                                               |                                                                     Matches "1.333".                                                                      |
-

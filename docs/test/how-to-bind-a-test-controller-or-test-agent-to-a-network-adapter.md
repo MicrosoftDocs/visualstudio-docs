@@ -1,5 +1,5 @@
 ---
-title: "Bind a Test Controller or Test Agent to a Network Adapter in Visual Studio"
+title: "Bind a Test Controller or Test Agent to a Network Adapter"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:

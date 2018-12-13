@@ -1,14 +1,15 @@
 ---
-title: "Repair Visual Studio 2017 | Microsoft Docs"
-description: "Learn how to repair an installation of Visual Studio 2017."
-keywords: ""
+title: "Repair Visual Studio"
+titleSuffix: ""
+description: "Learn how to repair an installation of Visual Studio 2017"
+ms.date: 09/28/2017
+ms.technology: vs-acquisition
+ms.custom: "seodec18"
+ms.prod: visual-studio-dev15
+ms.topic: conceptual
 author: PoulChapman
 ms.author: tglee
 manager: douge
-ms.date: 09/28/2017
-ms.topic: conceptual
-ms.prod: visual-studio-dev15
-ms.technology: vs-acquisition
 ms.workload:
   - "multiple"
 ---

@@ -1,5 +1,5 @@
 ---
-title: Visual Studio database compatibility
+title: Database compatibility
 ms.date: 09/06/2017
 ms.topic: conceptual
 helpviewer_keywords:

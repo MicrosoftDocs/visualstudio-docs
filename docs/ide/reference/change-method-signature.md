@@ -1,5 +1,5 @@
 ---
-title: Refactor a method signature in Visual Studio
+title: Refactor method signature
 ms.date: 01/26/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general

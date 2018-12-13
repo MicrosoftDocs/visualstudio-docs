@@ -1,5 +1,5 @@
 ---
-title: Adding Visual Studio editor support for other languages
+title: Add editor support for other languages
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

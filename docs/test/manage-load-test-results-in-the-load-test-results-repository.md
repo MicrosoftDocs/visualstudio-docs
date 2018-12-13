@@ -1,5 +1,5 @@
 ---
-title: "Manage Load Test Results in Visual Studio"
+title: "Manage Load Test Results"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:

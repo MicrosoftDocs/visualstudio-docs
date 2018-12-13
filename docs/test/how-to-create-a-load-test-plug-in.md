@@ -1,5 +1,5 @@
 ---
-title: "Create a Load Test Plug-In in Visual Studio"
+title: "Create a Load Test Plug-In"
 ms.date: 10/19/2016
 ms.topic: conceptual
 f1_keywords:

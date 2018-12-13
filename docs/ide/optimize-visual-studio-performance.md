@@ -1,5 +1,6 @@
 ---
 title: Improve performance if Visual Studio is slow
+titleSuffix: ""
 ms.date: 04/11/2018
 ms.topic: conceptual
 helpviewer_keywords:

@@ -1,5 +1,5 @@
 ---
-title: "General User Interface Elements (Visual Studio) | Microsoft Docs"
+title: "General User Interface Elements | Microsoft Docs"
 ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"

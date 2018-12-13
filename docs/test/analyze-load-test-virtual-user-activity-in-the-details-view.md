@@ -1,5 +1,5 @@
 ---
-title: "Analyzing Load Test Virtual User Activity in Visual Studio"
+title: "Analyzing Load Test Virtual User Activity"
 ms.date: 10/03/2016
 ms.topic: conceptual
 f1_keywords:

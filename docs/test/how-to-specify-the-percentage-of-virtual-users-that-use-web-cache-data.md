@@ -1,5 +1,5 @@
 ---
-title: "Specify the Percentage of Virtual Users that Use Web Cache Data for load tests in Visual Studio"
+title: "Specify the Percentage of Virtual Users that Use Web Cache Data for load tests"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
