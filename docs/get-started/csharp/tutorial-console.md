@@ -17,7 +17,7 @@ ms.workload:
 ---
 # Tutorial: Get started with a C# console app in Visual Studio
 
-In this tutorial for C#, you'll use Visual Studio to create and run a console app and explore some features of the [Visual Studio integrated development environment (IDE)](../ide/visual-studio-ide.md) while you do so.
+In this tutorial for C#, you'll use Visual Studio to create and run a console app and explore some features of the [Visual Studio integrated development environment (IDE)](../visual-studio-ide.md) while you do so.
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
 
@@ -130,7 +130,7 @@ Let's fix the code so that it handles decimals.
 
 1. Change each instance of the `int` variable to `float`.
 
-   (You can use the [Find and Replace](../ide/finding-and-replacing-text.md#find-and-replace-control) control to help you with this task. To access the control within the code editor, press **Crtl**+**F**.)
+   (You can use the [Find and Replace](../../ide/finding-and-replacing-text.md#find-and-replace-control) control to help you with this task. To access the control within the code editor, press **Crtl**+**F**.)
 
 1. Run your calculator app again and divide the number **42** by the number **119**.
 
@@ -158,7 +158,7 @@ We've improved on our basic calculator app, but it doesn't yet have failsafes in
 
 For example, if you try to divide a number by zero, or enter an alpha character when the app expects a numeric character (or vice versa), the app stops working and returns an error.
 
-Let's walk through a few common user input errors, locate them in the [debugger](../debugger/getting-started-with-the-debugger.md), and fix them in the code.
+Let's walk through a few common user input errors, locate them in the [debugger](../../debugger/getting-started-with-the-debugger.md), and fix them in the code.
 
 ### Fix the "divide by zero" error
 
