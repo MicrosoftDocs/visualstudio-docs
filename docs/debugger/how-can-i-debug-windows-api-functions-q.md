@@ -1,6 +1,6 @@
 ---
-title: "How Can I Debug Windows API Functions? | Microsoft Docs"
-ms.custom: ""
+title: "Debug Windows API functions | Microsoft Docs"
+ms.custom: "seodec18"
 ms.date: "11/04/2016"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"

@@ -1,6 +1,6 @@
 ---
-title: "Debug UWP apps - Visual Studio | Microsoft Docs"
-ms.custom: ""
+title: "Debug UWP apps | Microsoft Docs"
+ms.custom: "seodec18"
 ms.date: "01/17/2017"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"

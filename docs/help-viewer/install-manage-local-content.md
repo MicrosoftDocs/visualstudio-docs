@@ -1,8 +1,7 @@
 ---
-title: Install local Visual Studio help documentation
+title: Install local help documentation
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-help-viewer
 ms.topic: conceptual
 f1_keywords:
   - "hv_manage"
@@ -30,7 +29,7 @@ ms.workload:
 
 By using the Microsoft Help Viewer, you can add, remove, update, and move the Help content that is installed on your computer to fit your software development needs.
 
-To manage content on your local computer, you must log on with an account that has administrator permissions. In addition, you might not be able to manage local content if you work in an enterprise environment, because system administrators might make those decisions for your organization. For more information, see the [Help Viewer administrator guide](../ide/help-viewer-administrator-guide.md).
+To manage content on your local computer, you must log on with an account that has administrator permissions. In addition, you might not be able to manage local content if you work in an enterprise environment, because system administrators might make those decisions for your organization. For more information, see the [Help Viewer administrator guide](../help-viewer/administrator-guide.md).
 
 ## Change the content installation source
 
@@ -41,7 +40,7 @@ By default, Help Viewer installs content by using a Microsoft online service as 
 1.  On the **Manage Content** tab, choose the **Disk** option button.
 
     > [!NOTE]
-    > The **Disk** option isn't available if your administrator has prevented you from modifying the content installation source. For more information, see the [Help Viewer administrator guide](../ide/help-viewer-administrator-guide.md).
+    > The **Disk** option isn't available if your administrator has prevented you from modifying the content installation source. For more information, see the [Help Viewer administrator guide](../help-viewer/administrator-guide.md).
 
 2.  Perform one of the following steps:
 
@@ -127,4 +126,4 @@ You can save disk space by moving installed content from your local computer to 
 
 ## See also
 
-- [Microsoft Help Viewer](../ide/microsoft-help-viewer.md)
+- [Microsoft Help Viewer](../help-viewer/overview.md)

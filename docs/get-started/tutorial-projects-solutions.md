@@ -13,7 +13,7 @@ ms.workload:
 ---
 # Learn about projects and solutions
 
-In this introductory article, we'll explore what it means to create a *solution* and a *project* in Visual Studio. A solution is a container that's used to organize one or more related code projects, for example a class library and a corresponding test project. We'll look at the properties of a project and some of the files it can contain. We'll also create a reference from one project to another.
+In this introductory article, we'll explore what it means to create a *solution* and a *project* in Visual Studio. A solution is a container that's used to organize one or more related code projects, for example a class library project and a corresponding test project. We'll look at the properties of a project and some of the files it can contain. We'll also create a reference from one project to another.
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
 
@@ -24,7 +24,7 @@ We'll construct a solution and project from scratch as an educational exercise t
 
 ## Solutions and projects
 
-Solutions are containers used by Visual Studio to organize one or more related projects. When you open a solution in Visual Studio, it automatically loads all the projects it contains.
+Despite its name, a solution is not an "answer". A solution is simply a container used by Visual Studio to organize one or more related projects. When you open a solution in Visual Studio, it automatically loads all the projects that the solution contains.
 
 ### Create a solution
 
@@ -182,4 +182,4 @@ If you want to check that your unit test is working, choose **Test** > **Run** >
 - [Manage project and solution properties](../ide/managing-project-and-solution-properties.md)
 - [Manage references in a project](../ide/managing-references-in-a-project.md)
 - [Develop code in Visual Studio without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md)
-- [Visual Studio IDE overview](../ide/visual-studio-ide.md)
+- [Visual Studio IDE overview](../get-started/visual-studio-ide.md)

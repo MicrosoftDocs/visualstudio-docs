@@ -1,5 +1,5 @@
 ---
-title: Visual Studio Architecture Tooling Guidance
+title: Architecture Tooling Guidance
 ms.date: 11/04/2016
 ms.topic: conceptual
 author: gewarren

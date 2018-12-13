@@ -1,5 +1,5 @@
 ---
-title: Specify custom build events in Visual Studio
+title: Specify custom build events
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-compile

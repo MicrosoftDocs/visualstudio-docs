@@ -1,5 +1,5 @@
 ---
-title: "How to: Create a Diagnostic Data Adapter in Visual Studio"
+title: "How to: Create a Diagnostic Data Adapter"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:

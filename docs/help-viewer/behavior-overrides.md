@@ -2,7 +2,6 @@
 title: Help Content Manager overrides
 ms.date: 11/01/2017
 ms.prod: visual-studio-dev15
-ms.technology: vs-help-viewer
 ms.topic: conceptual
 ms.assetid: 95fe6396-276b-4ee5-b03d-faacec42765f
 author: gewarren
@@ -38,7 +37,7 @@ You can change the default behavior of Help Viewer and help-related features in 
 
 ### Example .pkgdef file contents
 
-```
+```pkgdef
 [$RootKey$\Help]
 "NewContentAndUpdateService"="https://some.service.endpoint"
 "UseOnlineHelp"=dword:00000001
@@ -59,6 +58,6 @@ The following two behaviors can be controlled by setting registry key values in 
 
 ## See also
 
-- [Help Viewer administrator guide](../ide/help-viewer-administrator-guide.md)
-- [Command-line arguments for the Help Content Manager](../ide/command-line-arguments-for-the-help-content-manager.md)
-- [Microsoft Help Viewer](../ide/microsoft-help-viewer.md)
+- [Help Viewer administrator guide](../help-viewer/administrator-guide.md)
+- [Command-line arguments for the Help Content Manager](../help-viewer/command-line-arguments.md)
+- [Microsoft Help Viewer](../help-viewer/overview.md)

@@ -1,6 +1,6 @@
 ---
-title: "View data values in DataTips in the code editor | Microsoft Docs"
-ms.custom: ""
+title: "View variable values in DataTips | Microsoft Docs"
+ms.custom: "seodec18"
 ms.date: "11/21/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"

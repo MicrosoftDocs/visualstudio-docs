@@ -1,5 +1,5 @@
 ---
-title: "XML Tools in Visual Studio"
+title: XML Tools
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
 ms.technology: vs-xml-tools

@@ -159,4 +159,4 @@ If you press **Tab**, IntelliSense stubs out a method with the correct signature
 ## See also
 
 - [Use IntelliSense](../ide/using-intellisense.md)
-- [Visual Studio IDE](../ide/visual-studio-ide.md)
+- [Visual Studio IDE](../get-started/visual-studio-ide.md)

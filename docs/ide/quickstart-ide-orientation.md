@@ -1,5 +1,6 @@
 ---
 title: Tour of the Visual Studio IDE
+titleSuffix: ""
 ms.date: 07/12/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
@@ -108,6 +109,6 @@ We've looked at just a few of the features of Visual Studio to get acquainted wi
 
 ## See also
 
-- [Overview of the Visual Studio IDE](../ide/visual-studio-ide.md)
+- [Overview of the Visual Studio IDE](../get-started/visual-studio-ide.md)
 - [More features of Visual Studio 2017](../ide/advanced-feature-overview.md)
 - [Change theme and font colors](../ide/quickstart-personalize-the-ide.md)

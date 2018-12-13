@@ -1,5 +1,5 @@
 ---
-title: Map methods on the call stack while debugging in Visual Studio
+title: Map methods on the call stack while debugging
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-modeling

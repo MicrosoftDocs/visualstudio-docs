@@ -1,5 +1,5 @@
 ---
-title: "Analyzing Load Test Results in Visual Studio"
+title: "Analyzing Load Test Results"
 ms.date: 10/20/2016
 ms.topic: conceptual
 helpviewer_keywords:

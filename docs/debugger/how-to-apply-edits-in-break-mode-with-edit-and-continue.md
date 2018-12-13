@@ -1,6 +1,6 @@
 ---
-title: "How to: Apply Edits in Break Mode with Edit and Continue | Microsoft Docs"
-ms.custom: ""
+title: "Apply Edits in break mode with Edit and Continue | Microsoft Docs"
+ms.custom: "seodec18"
 ms.date: "11/04/2016"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"

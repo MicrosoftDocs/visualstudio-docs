@@ -1,6 +1,6 @@
 ---
-title: "Debugger Cannot Display Source Code or Disassembly | Microsoft Docs"
-ms.custom: ""
+title: "Debugger can't display source code or disassembly"
+ms.custom: "seodec18"
 ms.date: "11/04/2016"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"

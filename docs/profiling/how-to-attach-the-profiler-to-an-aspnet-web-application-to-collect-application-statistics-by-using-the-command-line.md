@@ -1,6 +1,6 @@
 ---
-title: "How to: Attach the Profiler to an ASP.NET Web Application to Collect Application Statistics by Using the Command Line | Microsoft Docs"
-ms.custom: ""
+title: "Attach the profiler to an ASP.NET we app to collect app statistics"
+ms.custom: "seodec18"
 ms.date: "11/04/2016"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"

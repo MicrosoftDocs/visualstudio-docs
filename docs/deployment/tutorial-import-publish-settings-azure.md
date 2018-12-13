@@ -1,6 +1,6 @@
 ---
 title: "Publish to Azure by importing publish settings"
-ms.description: "Create and import a publishing profile to deploy an application from Visual Studio to Azure App Service"
+description: "Create and import a publishing profile to deploy an application from Visual Studio to Azure App Service"
 ms.date: "05/07/2018"
 ms.technology: vs-ide-deployment
 ms.topic: "tutorial"

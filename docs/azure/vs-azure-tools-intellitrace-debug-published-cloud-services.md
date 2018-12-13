@@ -1,5 +1,5 @@
 ---
-title: Debugging a published an Azure cloud service with Visual Studio and IntelliTrace | Microsoft Docs
+title: Debugging a published an Azure cloud service with IntelliTrace
 description: Learn how to debug a cloud service with Visual Studio and IntelliTrace
 author: mikejo5000
 manager: douge
@@ -11,6 +11,7 @@ ms.date: 03/21/2017
 ms.author: mikejo
 ms.prod: visual-studio-dev15
 ms.technology: vs-azure
+ms.custom: seodec18
 ---
 # Debugging a published Azure cloud service with Visual Studio and IntelliTrace
 With IntelliTrace, you can log extensive debugging information for a role instance when it runs in Azure. If you need to find the cause of a problem, you can use the IntelliTrace logs to step through your code from Visual Studio as if it were running in Azure. In effect, IntelliTrace records key code execution and environment data when your Azure application is running as a cloud service in Azure, and lets you replay the recorded data from Visual Studio. 

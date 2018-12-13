@@ -1,5 +1,5 @@
 ---
-title: "Load Test Results Summary Overview in Visual Studio"
+title: "Load Test Results Summary Overview"
 ms.date: 10/19/2016
 ms.topic: conceptual
 f1_keywords:

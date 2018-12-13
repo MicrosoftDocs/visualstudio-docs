@@ -1,14 +1,16 @@
 ---
-title: Visual Studio 2017 build numbers and release dates
-description: "A list of released versions and build numbers for Visual Studio 2017, sorted by date."
+title: Visual Studio build numbers and release dates
+titleSuffix: ""
+description: "A list of released versions and build numbers for Visual Studio 2017 and later, sorted by date."
 keywords:
 author: TerryGLee
 ms.author: tglee
 manager: douge
-ms.date: 12/04/2018
+ms.date: 12/11/2018
 ms.topic: reference
 helpviewer_keywords:
 ms.prod: visual-studio-dev15
+ms.custom: "seodec18"
 ms.technology: vs-acquisition
 ms.workload:
   - "multiple"
@@ -21,6 +23,8 @@ The following table lists the build numbers and release dates for Visual Studio 
 
 | **Version**| **Channel** | **Release date** | **Build version** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 15.9.4 | Release | December 11, 2018 | 15.9.28307.222 |
+| 15.0.20 | Release | December 11, 2018 | 15.0.26228.64 |
 | 15.9.3 | Preview 1 | November 28, 2018 | 15.9.28307.145 |
 | 15.9.3 | Release | November 28, 2018 | 15.9.28307.145 |
 | 15.9.2 | Release | November 19, 2018 | 15.9.28307.108 |
@@ -166,6 +170,7 @@ The following table lists the build numbers and release dates for Visual Studio 
 
 | **Version**| **Channel** | **Release date** | **Build version** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 16.0.0 | Preview 1.1 | December 10, 2018 | 16.0.28408.50 |
 | 16.0.0 | Preview 1 | December 4, 2018 | 16.0.28329.73 |
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]

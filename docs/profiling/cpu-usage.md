@@ -1,6 +1,6 @@
 ---
-title: "Analyze CPU usage in Visual Studio | Microsoft Docs"
-ms.custom: "H1Hack27Feb2017"
+title: "Analyze CPU usage | Microsoft Docs"
+ms.custom: "seodec18"
 ms.date: "11/04/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"

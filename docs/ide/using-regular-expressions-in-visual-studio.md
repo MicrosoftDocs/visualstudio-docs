@@ -1,5 +1,5 @@
 ---
-title: Use regular expressions in Visual Studio
+title: Use regular expressions
 ms.date: 03/26/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general

@@ -1,6 +1,6 @@
 ---
-title: "How to: Attach the Profiler to a .NET Framework Stand-Alone Application and Collect Application Statistics by Using the Command Line | Microsoft Docs"
-ms.custom: ""
+title: "Attach the profiler to a .NET Framework stand-alone app and collect app statistics"
+ms.custom: "seodec18"
 ms.date: "11/04/2016"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"

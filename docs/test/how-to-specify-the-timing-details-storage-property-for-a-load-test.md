@@ -1,5 +1,5 @@
 ---
-title: "Timing Details Storage Property for a Load Test Run Setting in Visual Studio"
+title: "Timing Details Storage Property for a Load Test Run Setting"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:

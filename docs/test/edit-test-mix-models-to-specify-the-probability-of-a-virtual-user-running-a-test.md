@@ -1,5 +1,5 @@
 ---
-title: "Editing Text Mix Models in Visual Studio"
+title: "Editing Text Mix Models"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:

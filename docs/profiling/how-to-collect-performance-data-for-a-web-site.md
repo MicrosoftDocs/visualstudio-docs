@@ -73,11 +73,11 @@ You can use the **Performance Wizard** to collect performance data for an [!INCL
 
 5. In the **What URL or Path will run your web application** box on the third page of the wizard, enter the URL to the application home page, and then click **Next**.
 
-   - For a server (IIS) based Web site, type a URL such as **<http://localhost/MySite/default.aspx>**. This causes the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] application on the local computer at the application root of MySite to be profiled, and the page default.aspx on that site to be started in Internet Explorer to start the session.
+   - For a server (IIS) based Web site, type a URL such as **<`http://localhost/MySite/default.aspx`>**. This causes the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] application on the local computer at the application root of MySite to be profiled, and the page default.aspx on that site to be started in Internet Explorer to start the session.
 
-   - For a file based Web site, type a path such as file///**c:\WebSites\MySite\default.aspx**. This causes the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] application located at c:\webSites\MySite to be profiled and the page http://localhost:nnnn/MySite/default.aspx to be started in Internet Explorer to start the session.
+   - For a file based Web site, type a path such as file///**c:\WebSites\MySite\default.aspx**. This causes the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] application located at c:\webSites\MySite to be profiled and the page `http://localhost:nnnn/MySite/default.aspx` to be started in Internet Explorer to start the session.
 
-   - For external sites that you wish to collect JavaScript data on, type the URL, for example http://www.contoso.com.
+   - For external sites that you wish to collect JavaScript data on, type the URL, for example `http://www.contoso.com`.
 
      For more information, view the property pages for an [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] target binary.
 

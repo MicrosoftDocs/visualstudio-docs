@@ -1,5 +1,5 @@
 ---
-title: Visual Studio IDE 64-Bit support
+title: 64 bit support
 ms.date: 02/21/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general

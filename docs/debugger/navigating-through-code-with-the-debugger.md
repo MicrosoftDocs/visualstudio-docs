@@ -1,6 +1,6 @@
 ---
-title: "Navigate code with the Visual Studio debugger | Microsoft Docs"
-ms.custom: "H1Hack27Feb2017"
+title: "Navigate code with the debugger | Microsoft Docs"
+ms.custom: "seodec18"
 ms.date: "11/12/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"

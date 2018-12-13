@@ -1,5 +1,5 @@
 ---
-title: "Load test counter sets in Visual Studio"
+title: "Load test counter sets"
 ms.date: 10/19/2016
 ms.topic: conceptual
 f1_keywords:
