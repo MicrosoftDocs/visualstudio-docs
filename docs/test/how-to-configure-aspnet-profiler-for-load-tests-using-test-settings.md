@@ -1,5 +1,5 @@
 ---
-title: "Configure the ASP.NET Profiler for Load Tests in Visual Studio"
+title: "Configure ASP.NET Profiler for Load Tests"
 ms.date: 10/13/2016
 ms.topic: conceptual
 helpviewer_keywords:

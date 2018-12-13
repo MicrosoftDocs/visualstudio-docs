@@ -1,6 +1,6 @@
 ---
-title: "Analyze Network Usage in UWP Apps in Visual Studio | Microsoft Docs"
-ms.custom: "H1Hack27Feb2017"
+title: "Analyze network usage in UWP apps"
+ms.custom: "seodec18"
 ms.date: "11/04/2016"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"

@@ -1,5 +1,5 @@
 ---
-title: "Load Test API in Visual Studio"
+title: "Load Test API"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:

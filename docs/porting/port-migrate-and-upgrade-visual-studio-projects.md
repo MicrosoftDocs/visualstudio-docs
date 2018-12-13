@@ -1,5 +1,5 @@
 ---
-title: Port, Migrate, and Upgrade Projects
+title: Port, migrate, and upgrade projects
 description: A reference for the support in Visual Studio 2017 for projects created in earlier versions of Visual Studio, and how Visual Studio decides when it needs to migrate a project.
 ms.date: 10/09/2018
 ms.prod: visual-studio-dev15
@@ -88,6 +88,8 @@ Such one-way changes may involve changing the `ToolsVersion` property in the pro
 To maintain maximum compatibility with projects created in older versions, Visual Studio 2017 includes the necessary MSBuild toolchains to support `ToolsVersion` 15, 14, 12, and 4. Projects that use any of these `ToolsVersion` values should result in a successful build. (Subject, again, to whether Visual Studio 2017 supports the project type at all, as described on [Platform Targeting and Compatibility](/visualstudio/productinfo/vs2017-compatibility-vs).)
 
 In this context, the question naturally arises whether you should try to manually update or migrate a project to a newer `ToolsVersion` value. Making such a change is unnecessary, and would likely generate many errors and warnings that you'd need to fix to get the project to build again. Furthermore, if Visual Studio drops support for a specific `ToolsVersion` in the future, then opening the project will trigger the project migration process specifically because the `ToolsVersion` value must be changed. In such a case, the subsystem for that specific project type knows exactly what needs to be changed, and can make those changes automatically as described earlier in this article.
+
+# Next steps
 
 Refer to the following articles for further discussion:
 

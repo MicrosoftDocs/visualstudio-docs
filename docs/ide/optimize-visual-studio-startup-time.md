@@ -1,5 +1,5 @@
 ---
-title: Improve Visual Studio start up time
+title: Improve start up time
 ms.date: 11/15/2017
 ms.topic: conceptual
 helpviewer_keywords:

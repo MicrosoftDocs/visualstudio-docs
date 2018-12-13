@@ -1,5 +1,5 @@
 ---
-title: "Create and run a load test in Visual Studio"
+title: "Create and run a load test"
 ms.date: 10/01/2016
 ms.topic: conceptual
 helpviewer_keywords:

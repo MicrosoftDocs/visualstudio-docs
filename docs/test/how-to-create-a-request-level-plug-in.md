@@ -1,5 +1,5 @@
 ---
-title: "Create a Request-Level Plug-In for web performance tests in Visual Studio"
+title: "Create a Request-Level Plug-In for web performance tests"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:

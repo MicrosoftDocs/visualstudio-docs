@@ -1,6 +1,7 @@
 ---
-title: "How to: Debug an app that isn't part of a Visual Studio solution | Microsoft Docs"
-ms.custom: ""
+title: "Debug an app that isn't part of a Visual Studio solution"
+titleSuffix: ""
+ms.custom: "seodec18"
 ms.date: "11/19/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"

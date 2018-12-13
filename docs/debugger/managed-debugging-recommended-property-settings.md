@@ -1,6 +1,6 @@
 ---
-title: "Managed Debugging: Recommended Property Settings | Microsoft Docs"
-ms.custom: ""
+title: "Recommended debugger property settings for C#, VB | Microsoft Docs"
+ms.custom: "seodec18"
 ms.date: "11/04/2016"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"

@@ -1,5 +1,5 @@
 ---
-title: Refactor a field to a property in Visual Studio
+title: Refactor a field to a property
 ms.date: 01/26/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general

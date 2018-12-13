@@ -2,8 +2,9 @@
 documentType: LandingData
 title: Cognitive Services in Visual Studio
 metadata:
-  title: Cognitive Services in Visual Studio | Microsoft Docs
+  title: Cognitive Services | Microsoft Docs
   meta.description: Tutorials and conceptual articles about connecting apps and services to cognitive services in Azure.
+  ms.custom: seohack18
   author: ghogen
   manager: douge
   ms.prod: visual-studio-dev15

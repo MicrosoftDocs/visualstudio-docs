@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "data caching [Office development in Visual Studio], about caching data"
   - "data [Office development in Visual Studio], caching"
   - "data caching [Office development in Visual Studio]"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

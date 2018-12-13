@@ -1,5 +1,5 @@
 ---
-title: "Coding a custom extraction rule for a web performance test in Visual Studio"
+title: "Coding a custom extraction rule for a web performance test"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:

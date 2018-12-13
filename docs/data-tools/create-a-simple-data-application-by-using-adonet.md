@@ -1,5 +1,5 @@
 ---
-title: Create a simple data application by using ADO.NET in Visual Studio
+title: Create a simple data application by using ADO.NET
 ms.date: 08/23/2017
 ms.topic: conceptual
 dev_langs:

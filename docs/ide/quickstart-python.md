@@ -62,11 +62,11 @@ Here, you use the following steps to install the Flask library into the default 
 
 1. Enter "flask" in the search field and select **pip install flask from PyPI**. Accept any prompts for administrator privileges and observe the **Output** window in Visual Studio for progress. (A prompt for elevation happens when the packages folder for the global environment is located within a protected area like *C:\Program Files*.)
 
-    ![Installing the Flask library](media/quickstart-python-03-install-package.png)
+    ![Installing the Flask library using pip install](media/quickstart-python-03-install-package.png)
 
 1. Once installed, the library appears in the environment in **Solution Explorer**, which means that you can make use of it in Python code.
 
-    ![Flask library installed](media/quickstart-python-04-package-installed.png)
+    ![Flask library installed and showing in Solution Explorer](media/quickstart-python-04-package-installed.png)
 
 > [!Note]
 > Instead of installing libraries in the global environment, developers typically create a "virtual environment" in which to install libraries for a specific project. Visual Studio templates typically offer this option, as discussed in [Quickstart - Create a Python project using a template](../python/quickstart-02-python-in-visual-studio-project-from-template.md).
@@ -153,4 +153,4 @@ To explore more that Visual Studio has to offer, select the links below.
 
 - Learn about [Python web app templates in Visual Studio](../python/python-web-application-project-templates.md).
 - Learn about [Python debugging](../python/debugging-python-in-visual-studio.md)
-- Learn more about the [Visual Studio IDE](../ide/visual-studio-ide.md) in general.
+- Learn more about the [Visual Studio IDE](../get-started/visual-studio-ide.md) in general.

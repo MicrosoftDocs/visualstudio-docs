@@ -1,5 +1,5 @@
 ---
-title: "Load Test Logging Settings in Visual Studio"
+title: "Load Test Logging Settings"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:

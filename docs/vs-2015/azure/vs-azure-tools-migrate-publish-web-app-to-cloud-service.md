@@ -1,5 +1,5 @@
 ---
-title: How to Migrate and Publish a Web Application to an Azure Cloud Service from Visual Studio | Microsoft Docs
+title: How to Migrate and Publish a Web Application to an Azure Cloud Service
 description: Learn how to migrate and publish your web application to an Azure cloud service by using Visual Studio
 author: ghogen
 manager: douge
@@ -53,7 +53,7 @@ If you have a connection string for your web application that uses an on-premise
 1. Create the necessary cloud service and storage accounts in your Azure subscription as described on [Prepare to publish or deploy an Azure application from Visual Studio](vs-azure-tools-cloud-service-publish-set-up-required-services-in-visual-studio.md).
 1. In Visual Studio, right-click the application project and select **Publish to Microsoft Azure...** (which is different from the "Publish..." command.).
 1. In the **Publish Azure Application** that appears, sign in using the account with your Azure subscription and select **Next >**.
-1. In the **Settings > Common Settings** tab, select the target cloud service from the **Cloud Service** drop-down list, along with your chosen environment and configurations. 
+1. In the **Settings > Common Settings** tab, select the target cloud service from the **Cloud Service** drop-down list, along with your chosen environment and configurations.
 1. In **Settings > Advanced Settings**, select the storage account to use, then select **Next >**.
 1. In **Diagnostics**, choose whether to send information to Application Insights.
 1. Select **Next >** to view a summary, then select **Publish** to start deployment.

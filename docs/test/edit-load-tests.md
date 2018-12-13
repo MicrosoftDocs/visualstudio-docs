@@ -1,5 +1,5 @@
 ---
-title: "Editing Load Tests in Visual Studio"
+title: "Editing Load Tests"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:

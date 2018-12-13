@@ -1,6 +1,6 @@
 ---
-title: "Debugging Preparation: Console Projects | Microsoft Docs"
-ms.custom: ""
+title: "Prepare to debug console projects | Microsoft Docs"
+ms.custom: "seodec18"
 ms.date: "11/04/2016"
 ms.technology: "vs-ide-debug"
 ms.topic: "reference"

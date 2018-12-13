@@ -1,5 +1,5 @@
 ---
-title: "Log File size for load tests in Visual Studio"
+title: "Log File size for load tests"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:

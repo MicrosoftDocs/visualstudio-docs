@@ -1,8 +1,7 @@
 ---
-title: "Use Visual Studio Help Viewer index"
+title: Use Help Viewer index
 ms.date: 11/02/2017
 ms.prod: visual-studio-dev15
-ms.technology: vs-help-viewer
 ms.topic: conceptual
 helpviewer_keywords:
   - "Index tab [Help Viewer]"
@@ -75,6 +74,6 @@ If you do not find an entry for the word or phrase you entered, try the followin
 
 ## See also
 
-- [How to: Find topics in the TOC](../ide/how-to-find-topics-in-the-table-of-contents.md)
-- [How to: Search for topics](../ide/how-to-search-for-topics.md)
-- [Microsoft Help Viewer](../ide/microsoft-help-viewer.md)
+- [How to: Find topics in the TOC](../help-viewer/find-topics-toc.md)
+- [How to: Search for topics](../help-viewer/find-topics.md)
+- [Microsoft Help Viewer](../help-viewer/overview.md)

@@ -1,10 +1,18 @@
 ---
+<<<<<<< HEAD:docs/get-started/visual-basic/tutorial-wpf.md
 title: "Tutorial: Hello World app with Windows Presentation Foundation (WPF) in Visual Basic"
 description: Create a simple Windows Desktop .NET app in Visual Basic with Visual Studio using the Windows Presentation Foundation (WPF) UI framework.
 ms.custom: "seodec18, get-started"
 ms.date: 10/03/2017
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
+=======
+title: Create a simple application with C# or Visual Basic"
+ms.date: 10/03/2017
+ms.prod: visual-studio-dev15
+ms.technology: vs-acquisition
+ms.custom: "seodec18"
+>>>>>>> 78b5abb1ba0aabc399af54d0d66c4908d557365d:docs/ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
 dev_langs:
@@ -18,7 +26,7 @@ ms.workload:
 ---
 # Tutorial: Create a simple application with C# or Visual Basic
 
-By completing this walkthrough, you'll become familiar with many of the tools, dialog boxes, and designers that you can use when you develop applications with Visual Studio. You'll create a "Hello, World" application, design the UI, add code, and debug errors, while you learn about working in the integrated development environment ([IDE](visual-studio-ide.md)).
+By completing this walkthrough, you'll become familiar with many of the tools, dialog boxes, and designers that you can use when you develop applications with Visual Studio. You'll create a "Hello, World" application, design the UI, add code, and debug errors, while you learn about working in the integrated development environment ([IDE](../get-started/visual-studio-ide.md)).
 
 ## Configure the IDE
 

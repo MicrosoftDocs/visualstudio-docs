@@ -1,8 +1,7 @@
 ---
-title: Accessibility of Visual Studio Help Viewer
+title: Accessibility of Help Viewer
 ms.date: 11/02/2017
 ms.prod: visual-studio-dev15
-ms.technology: vs-help-viewer
 ms.topic: conceptual
 helpviewer_keywords:
   - "accessibility features [Help Viewer]"
@@ -18,10 +17,10 @@ ms.workload:
 Microsoft is committed to making its products and services easier for everyone to use. This topic includes information about the features, products, and services that help make Microsoft Help Viewer accessible for people with a wide range of abilities.
 
 ## Keyboard access
-You can access all features of the Help Viewer by using the keyboard. For more information, see [Shortcut Keys (Help Viewer)](../ide/shortcut-keys-help-viewer.md).
+You can access all features of the Help Viewer by using the keyboard. For more information, see [Shortcut Keys (Help Viewer)](../help-viewer/shortcut-keys.md).
 
 ## Font size
-You can modify the font size in which topic text appears in the document window. For more information, see [Customize the Help Viewer](../ide/customize-the-help-viewer.md).
+You can modify the font size in which topic text appears in the document window. For more information, see [Customize the Help Viewer](../help-viewer/customize.md).
 
 ## Window size
 You can change the width of the navigation or document windows by pointing to the divider between the two windows. When the cursor changes to a double-headed arrow, use the primary mouse button to drag the divider to the right or left.
@@ -31,5 +30,5 @@ You can reposition the Help Viewer by dragging its title bar to a different posi
 
 ## See also
 
-- [Microsoft Help Viewer](../ide/microsoft-help-viewer.md)
-- [Shortcut Keys (Help Viewer)](../ide/shortcut-keys-help-viewer.md)
+- [Microsoft Help Viewer](../help-viewer/overview.md)
+- [Shortcut Keys (Help Viewer)](../help-viewer/shortcut-keys.md)

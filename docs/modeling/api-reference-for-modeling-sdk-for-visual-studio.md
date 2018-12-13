@@ -1,5 +1,5 @@
 ---
-title: API Reference for Modeling SDK for Visual Studio
+title: API Reference for Modeling SDK
 ms.date: 11/04/2016
 ms.topic: reference
 author: gewarren

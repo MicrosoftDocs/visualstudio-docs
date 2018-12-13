@@ -1,6 +1,6 @@
 ---
-title: "Debugging Preparation: C#, F#, and Visual Basic Project Types | Microsoft Docs"
-ms.custom: ""
+title: "Prepare to debug C#, F#, and VB projects | Microsoft Docs"
+ms.custom: "seodec18"
 ms.date: "11/04/2016"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"

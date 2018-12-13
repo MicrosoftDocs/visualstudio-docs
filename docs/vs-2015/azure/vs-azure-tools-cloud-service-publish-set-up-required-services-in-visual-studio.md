@@ -1,5 +1,5 @@
 ---
-title: Prepare to publish or deploy a Cloud Service from Visual Studio | Microsoft Docs
+title: Prepare to publish or deploy a Cloud Service
 description: Learn the procedures to set up cloud and storage account services and configure your Azure application.
 author: ghogen
 manager: douge
@@ -16,7 +16,7 @@ ms.author: ghogen
 
 To publish a cloud service project, you must set up the following services as described in this article:
 
-* A **cloud service** to run your roles in the Azure environment, and 
+* A **cloud service** to run your roles in the Azure environment, and
 * A **storage account** that provides access to the Blob, Queue, and Table services.
 
 ## Create a cloud service

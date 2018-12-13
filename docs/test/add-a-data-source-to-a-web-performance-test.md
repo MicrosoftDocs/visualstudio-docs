@@ -1,5 +1,5 @@
 ---
-title: "Add a data source to a web performance test in Visual Studio"
+title: "Add a data source to a web performance test"
 ms.date: 10/03/2016
 ms.topic: conceptual
 helpviewer_keywords:

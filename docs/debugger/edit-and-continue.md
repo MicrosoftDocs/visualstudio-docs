@@ -1,6 +1,6 @@
 ---
-title: "Edit code and continue debugging in Visual Studio | Microsoft Docs"
-ms.custom: ""
+title: "Edit code and continue debugging | Microsoft Docs"
+ms.custom: "seodec18"
 ms.date: "05/31/2017"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"

@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "host controls, Word"
   - "host controls [Office development in Visual Studio], Word"
   - "Word [Office development in Visual Studio], host controls"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

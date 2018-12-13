@@ -1,5 +1,5 @@
 ---
-title: "Create a Visual Studio Add-In for the Web Performance Test Results Viewer"
+title: "Create Add-In for Web Performance Test Results Viewer"
 ms.date: 10/20/2016
 ms.topic: conceptual
 helpviewer_keywords:

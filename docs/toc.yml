@@ -4,7 +4,7 @@
   expanded: true
   items:
     - name: About Visual Studio 2017
-      href: ide/visual-studio-ide.md
+      href: get-started/visual-studio-ide.md
     - name: About the code editor
       href: get-started/tutorial-editor.md
     - name: About projects and solutions
@@ -37,7 +37,7 @@
   - name: Modify Visual Studio
     href: install/modify-visual-studio.md
   - name: Install Help Viewer
-    href: ide/microsoft-help-viewer-installation.md
+    href: help-viewer/installation.md
   - name: Repair Visual Studio
     href: install/repair-visual-studio.md
   - name: Uninstall Visual Studio
@@ -83,12 +83,12 @@
       - name: "Visual Studio subscriptions: Administrator overview"
         href: /visualstudio/subscriptions/admin-responsibilities
     - name: Help Viewer Administrator Guide
-      href: ide/help-viewer-administrator-guide.md
+      href: help-viewer/administrator-guide.md
       items:
       - name: Command-Line Arguments for the Help Content Manager
-        href: ide/command-line-arguments-for-the-help-content-manager.md
+        href: help-viewer/command-line-arguments.md
       - name: Help Content Manager Overrides
-        href: ide/help-content-manager-overrides.md
+        href: help-viewer/behavior-overrides.md
     - name: Reference
       items:
       - name: Visual Studio workload and component IDs
@@ -236,6 +236,8 @@
       items:
       - name: Customize build and debug tasks
         href: ide/customize-build-and-debug-tasks-in-visual-studio.md
+    - name: Connect to a project or repo
+      href: ide/connect-team-project.md
     - name: Use the editor
       href: ide/writing-code-in-the-code-and-text-editor.md
       items:
@@ -774,8 +776,8 @@
           href: ide/reference/quick-launch-environment-options-dialog-box.md
         - name: Environment - Startup
           href: ide/reference/startup-environment-options-dialog-box.md
-        - name: Environment - Synchronized Settings
-          href: ide/reference/synchronized-settings-environment-options-dialog-box.md
+        - name: Environment - Accounts
+          href: ide/reference/accounts-environment-options-dialog-box.md
         - name: Environment - Tabs and Windows
           href: ide/reference/tabs-and-windows-environment-options-dialog-box.md
         - name: Environment - Task List
@@ -904,8 +906,10 @@
         href: ide/reference/signing-page-project-designer.md
     - name: Property Pages, JavaScript
       href: ide/reference/property-pages-javascript.md
-    - name: Properties Window
+    - name: Properties window
       href: ide/reference/properties-window.md
+    - name: Team Explorer reference
+      href: ide/reference/team-explorer-reference.md
     - name: Toolbox
       href: ide/reference/toolbox.md
       items:
@@ -1044,28 +1048,28 @@
     - name: Windows Information Protection (WIP)
       href: ide/exempt-visual-studio-from-wip.md
   - name: Microsoft Help Viewer
-    href: ide/microsoft-help-viewer.md
+    href: help-viewer/overview.md
     items:
     - name: Install and Manage Local Content
-      href: ide/install-and-manage-local-content.md
+      href: help-viewer/install-manage-local-content.md
     - name: Find topics in Help Viewer
       items:
       - name: Find Topics in the Index
-        href: ide/how-to-find-topics-in-the-index.md
+        href: help-viewer/find-topics-index.md
       - name: Find Topics in the Table of Contents
-        href: ide/how-to-find-topics-in-the-table-of-contents.md
+        href: help-viewer/find-topics-toc.md
       - name: Search for Topics
-        href: ide/how-to-search-for-topics.md
+        href: help-viewer/find-topics.md
         items:
         - name: Logical and Advanced Operators in Search Expressions
-          href: ide/logical-operators-in-search-expressions.md
+          href: help-viewer/logical-operators-search-expressions.md
     - name: Customize Help Viewer
-      href: ide/customize-the-help-viewer.md
-    - name: Accessibility Features of the Help Viewer
-      href: ide/accessibility-features-of-the-help-viewer.md
+      href: help-viewer/customize.md
+    - name: Accessibility Features
+      href: help-viewer/accessibility-features.md
       items:
-      - name: Shortcut Keys (Help Viewer)
-        href: ide/shortcut-keys-help-viewer.md
+      - name: Shortcut Keys
+        href: help-viewer/shortcut-keys.md
   - name: Dotfuscator Community Edition (CE)
     href: ide/dotfuscator/index.md
     items:
