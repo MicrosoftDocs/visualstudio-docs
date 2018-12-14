@@ -63,8 +63,8 @@ sections:
     className: cardsM
     columns: 3
     items:
-    - href: /visualstudio/ide/quickstart-nodejs?toc=/visualstudio/javascript/toc.json
-      html: <p>First look at Node.js in Visual Studio</p>
+    - href: write-and-edit-code.md
+      html: <p>Write and edit code</p>
       image:
         src: https://docs.microsoft.com/media/common/i_code-edit.svg      
     - href: nodejs-interactive-repl.md
