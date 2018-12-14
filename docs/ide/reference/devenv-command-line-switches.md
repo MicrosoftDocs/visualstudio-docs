@@ -58,6 +58,7 @@ The following command-line switches display the IDE and perform the described ta
 | - |-----------------|
 |[/Command](command-devenv-exe.md)|Starts the IDE and executes the specified command.|
 |[/DebugExe](debugexe-devenv-exe.md)|Loads a C++ executable under the control of the debugger. This switch is not available for Visual Basic or C# executables. For more information, see [Automatically start a process in the debugger](../../debugger/debug-multiple-processes.md#BKMK_Automatically_start_an_process_in_the_debugger).|
+|[/Diff](diff.md)|Compares two files. Takes four parameters: SourceFile, TargetFile, SourceDisplayName (optional), TargetDisplayName (optional).|
 |[/Edit](edit-devenv-exe.md)|Opens the specified files in a running instance of this application. If there are no running instances, it starts a new instance with a simplified window layout.|
 |[/LCID or /l](lcid-devenv-exe.md)|Sets the default language for the IDE. If the specified language is not included in your installation of Visual Studio, this setting is ignored.|
 |[/Log](log-devenv-exe.md)|Starts Visual Studio and logs all activity to the log file.|
@@ -76,7 +77,6 @@ The following command-line switches do not display the IDE.
 |[/Build](build-devenv-exe.md)|Builds the specified solution or project according to the configuration of the specified solution.<br /><br /> `devenv myproj.csproj /build`|
 |[/Clean](clean-devenv-exe.md)|Deletes any files created by the build command, without affecting source files.<br /><br /> `devenv myproj.csproj /clean`|
 |[/Deploy](deploy-devenv-exe.md)|Builds the solution, along with files necessary for deployment, according to the solutions configuration.<br /><br /> `devenv myproj.csproj /deploy`|
-|[/Diff](diff.md)|Compares two files. Takes four parameters: SourceFile, TargetFile, SourceDisplayName (optional), TargetDisplayName (optional).|
 |[/Out](out-devenv-exe.md)|Lets you specify a file to receive errors when you build.<br /><br /> `devenv myproj.csproj /build /out log.txt`|
 |[/Project](project-devenv-exe.md)|The project to build, clean, or deploy. You can use this switch only if you have also supplied the /build, /rebuild, /clean, or /deploy switch.|
 |[/ProjectConfig](projectconfig-devenv-exe.md)|Specifies the project configuration to build or deploy. You can use this switch only if you have also supplied the /project switch.|
