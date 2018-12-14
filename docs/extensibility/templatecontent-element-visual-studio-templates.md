@@ -2,9 +2,8 @@
 title: "TemplateContent Element (Visual Studio Templates) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-general"
-ms.topic: "conceptual"
+ms.technology: vs-ide-general
+ms.topic: reference
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/vstemplate/2005#TemplateContent"
 helpviewer_keywords: 
@@ -37,7 +36,7 @@ Specifies the contents of the template.
   
 |Attribute|Description|  
 |---------------|-----------------|  
-|[BuildOnLoad](../extensibility/buildprojectonload-visual-studio-templates.md)|Specifies whether to build the solution when a project is created from the template.|  
+|[BuildProjectOnLoad](../extensibility/buildprojectonload-visual-studio-templates.md)|Specifies whether to build the solution when a project is created from the template.|  
   
 ### Child Elements  
   

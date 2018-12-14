@@ -2,9 +2,8 @@
 title: "BuildProjectOnload Element (Visual Studio Templates) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-general"
-ms.topic: "conceptual"
+ms.technology: vs-ide-general
+ms.topic: reference
 ms.assetid: b07d3074-0fc9-45e1-baf5-da6bd4f3f1c0
 author: "gregvanl"
 ms.author: "gregvanl"
@@ -22,7 +21,7 @@ Builds only new projects as you create and add them to a solution. The entire so
 ## Syntax  
   
 ```vb  
-<BuildProjectOnLoad> true/false </BuildOnLoad>  
+<BuildProjectOnLoad> true/false </BuildProjectOnLoad>  
 ```  
   
 ## Attributes and elements  
@@ -51,7 +50,7 @@ Builds only new projects as you create and add them to a solution. The entire so
 ## Example  
  The following example illustrates the metadata for a Visual C# template.  
   
-```  
+```xml
 <VSTemplate Type="Project" Version="3.0.0"  
     xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">  
     <TemplateData>  
@@ -77,5 +76,6 @@ Builds only new projects as you create and add them to a solution. The entire so
 ```  
   
 ## See also  
- [Creating project and item templates](../ide/creating-project-and-item-templates.md)   
- [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)
+
+- [Creating project and item templates](../ide/creating-project-and-item-templates.md)   
+- [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)

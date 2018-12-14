@@ -1,10 +1,8 @@
 ---
-title: "NumberOfParentCategoriesToRollUp (Visual Studio Templates) | Microsoft Docs"
-ms.custom: ""
+title: NumberOfParentCategoriesToRollUp element (Visual Studio Templates)
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-general"
-ms.topic: "conceptual"
+ms.technology: vs-ide-general
+ms.topic: reference
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/vstemplate/2005#NumberOfParentCategoriesToRollUp"
 helpviewer_keywords: 
@@ -17,7 +15,7 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# NumberOfParentCategoriesToRollUp (Visual Studio templates)
+# NumberOfParentCategoriesToRollUp element (Visual Studio templates)
 Specifies the number of parent categories that will display the template in the **New Project** dialog box.  
   
  \<VSTemplate>  
@@ -26,11 +24,11 @@ Specifies the number of parent categories that will display the template in the 
   
 ## Syntax  
   
-```  
+```xml
 <NumberOfParentCategoriesToRollUp>  
-    1  
+1  
 </NumberOfParentCategoriesToRollUp>  
-```  
+```
   
 ## Attributes and elements  
  The following sections describe attributes, child elements, and parent elements.  
@@ -56,9 +54,9 @@ Specifies the number of parent categories that will display the template in the 
  `NumberOfParentCategoriesToRollUp` is an optional element.  
   
 ## Example  
- This example illustrates the metadata for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] Windows application. If a template with this metadata is placed two folder levels below the top level [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] node, the template will appear in the top level node in the **New Project** dialog box. If the `NumberOfParentCategoriesToRollUp` is not set, the template only appears in the node in which it is physically located.  
+ This example illustrates the metadata for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] Windows application. If a template with this metadata is placed two folder levels below the top level [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] node, the template will appear in the top level node in the **New Project** dialog box. If the `NumberOfParentCategoriesToRollUp` is not set, the template only appears in the node in which it is physically located.
   
-```  
+```xml
 <VSTemplate Type="Project" Version="3.0.0"  
     xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">  
     <TemplateData>  
