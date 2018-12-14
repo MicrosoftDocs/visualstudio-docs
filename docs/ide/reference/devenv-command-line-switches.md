@@ -1,6 +1,6 @@
 ---
 title: Devenv command line switches
-ms.date: 02/28/2018
+ms.date: 12/10/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
@@ -58,15 +58,15 @@ The following command-line switches display the IDE and perform the described ta
 | - |-----------------|
 |[/Command](../../ide/reference/command-devenv-exe.md)|Starts the IDE and executes the specified command.|
 |[/DebugExe](../../ide/reference/debugexe-devenv-exe.md)|Loads a C++ executable under the control of the debugger. This switch is not available for Visual Basic or C# executables. For more information, see [Automatically start a process in the debugger](../../debugger/debug-multiple-processes.md#BKMK_Automatically_start_an_process_in_the_debugger).|
+|[/Edit](../../ide/reference/edit-devenv-exe.md)|Opens the specified files in a running instance of this application. If there are no running instances, it starts a new instance with a simplified window layout.|
 |[/LCID or /l](../../ide/reference/lcid-devenv-exe.md)|Sets the default language for the IDE. If the specified language is not included in your installation of Visual Studio, this setting is ignored.|
 |[/Log](../../ide/reference/log-devenv-exe.md)|Starts Visual Studio and logs all activity to the log file.|
+|[/ResetSkipPkgs](../../ide/reference/resetskippkgs-devenv-exe.md)|Clears all SkipLoading tags that have been added to VSPackages by users who want to avoid loading problem VSPackages.|
 |[/Run or /r](../../ide/reference/run-devenv-exe.md)|Compiles and runs the specified solution.|
 |[/Runexit](../../ide/reference/runexit-devenv-exe.md)|Compiles and runs the specified solution, minimizes the IDE when the solution is run, and closes the IDE after the solution has finished running.|
-|[/UseEnv](../../ide/reference/useenv-devenv-exe.md)|Causes the IDE to use PATH, INCLUDE, and LIB environment variables for C++ compilation, instead of the settings specified in the VC++ Directories section of **Projects** options in the **Options** dialog box. This switch is installed with the **Desktop development with C++** workload. For more information, see [Setting the Path and Environment Variables for Command-Line Builds](/cpp/build/setting-the-path-and-environment-variables-for-command-line-builds).|
-|[/Edit](../../ide/reference/edit-devenv-exe.md)|Opens the specified files in a running instance of this application. If there are no running instances, it starts a new instance with a simplified window layout.|
 |[/SafeMode](../../ide/reference/safemode-devenv-exe.md)|Starts Visual Studio in safe mode, and loads only the default environment and services, and shipped versions of third-party packages.|
-|[/ResetSkipPkgs](../../ide/reference/resetskippkgs-devenv-exe.md)|Clears all SkipLoading tags that have been added to VSPackages by users who want to avoid loading problem VSPackages.|
 |[/Setup](../../ide/reference/setup-devenv-exe.md)|Forces Visual Studio to merge resource metadata that describes menus, toolbars, and command groups, from all VSPackages available. You must run this command as an administrator.|
+|[/UseEnv](../../ide/reference/useenv-devenv-exe.md)|Causes the IDE to use PATH, INCLUDE, and LIB environment variables for C++ compilation, instead of the settings specified in the VC++ Directories section of **Projects** options in the **Options** dialog box. This switch is installed with the **Desktop development with C++** workload. For more information, see [Setting the Path and Environment Variables for Command-Line Builds](/cpp/build/setting-the-path-and-environment-variables-for-command-line-builds).|
 
 The following command-line switches do not display the IDE.
 
