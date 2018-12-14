@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "Office development in Visual Studio, collaboration"
   - "source control [Office development in Visual Studio]"
   - "collaborative development [Office development in Visual Studio]"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
