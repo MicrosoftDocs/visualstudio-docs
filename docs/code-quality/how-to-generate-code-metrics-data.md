@@ -62,7 +62,7 @@ To generate the executable *Metrics.exe*, follow these steps:
    msbuild /m /v:m /p:Configuration=Release Metrics.csproj
    ```
 
-   An executable named *Metrics.exe* is generated in the *Binaries* directory under the repo root.
+   An executable named *Metrics.exe* is generated in the *artifacts\bin* directory under the repo root.
 
    > [!TIP]
    > To build *Metrics.exe* in [legacy mode](#legacy-mode), execute the following command:
