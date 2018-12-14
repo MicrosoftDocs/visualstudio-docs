@@ -13,7 +13,7 @@ dev_langs:
 ms.workload:
   - "dotnet"
 ---
-# Welcome to the Visual Studio IDE
+# Welcome to the Visual Studio IDE | Visual Basic
 
 The Visual Studio *integrated development environment* is a creative launching pad that you can use to edit, debug, and build code, and then publish an app. An integrated development environment (IDE) is a feature-rich program that can be used for many aspects of software development. Over and above the standard editor and debugger that most IDEs provide, Visual Studio includes compilers, code completion tools, graphical designers, and many more features to ease the software development process.
 

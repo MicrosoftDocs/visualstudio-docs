@@ -5,7 +5,7 @@
     - name: Overview of Python support
       href: overview-of-python-tools-for-visual-studio.md
     - name: Tour the Visual Studio IDE
-      href: python-visual-studio-ide-tour.md
+      href: visual-studio-ide.md
 - name: Installation
   href: installing-python-support-in-visual-studio.md
   items:
