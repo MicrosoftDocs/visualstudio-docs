@@ -11,8 +11,8 @@ dev_langs:
 helpviewer_keywords: 
   - "form regions [Office development in Visual Studio], custom actions"
   - "custom actions [Office development in Visual Studio]"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
