@@ -21,16 +21,16 @@ In this short introduction to the code editor in Visual Studio, we'll look at so
 > [!TIP]
 > If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free. Depending on the type of app development you're doing, you may need to install the **Node.js develoment workload** with Visual Studio.
 
-This article assumes you're already familiar with JavaScript develoment. If you aren't, we suggest you look at a tutorial such as [Create a Node.js and Express app](tutorial-node.js.md) first.
+This article assumes you're already familiar with JavaScript develoment. If you aren't, we suggest you look at a tutorial such as [Create a Node.js and Express app](../javascript/tutorial-nodejs.md) first.
 
 > [!TIP]
-> To follow along with this article, make sure you have the JavaScript settings selected for Visual Studio. For information about selecting settings for the integrated development environment (IDE), see [Select environment settings](../ide/visual-studio-ide.md#select-environment-settings). When you import settings, import **JavaScript** settings.
+> To follow along with this article, make sure you have the JavaScript settings selected for Visual Studio. For information about selecting settings for the integrated development environment (IDE), see [Environment settings](../ide/environment-settings.md). When you import settings, import **JavaScript** settings.
 
-## Add a new code file
+## Add a new project file
 
-Start by creating a new file and adding some code to it.
+You can use the IDE to add new files to your project.
 
-1. With your project open in Visual Studio, right-click on a folder or on your project node, and choose **Add** > **New Item**.
+1. With your project open in Visual Studio, right-click on a folder or your project node in Solution Explorer (right pane), and choose **Add** > **New Item**.
 
 1. In the **New File** dialog box, under the **General** category, choose the file type that you want to add, such as **JavaScript File**, and then choose **Open**.
 
@@ -48,17 +48,17 @@ You can also use IntelliSense to complete a word after you type enough character
 
 IntelliSense can also show you information about types when you hover over programming elements.
 
-For more details about how IntelliSense works, see [JavaScript IntelliSense](../ide/javascript-intellisense?toc=/visualstudio/javascript/toc.json)
+To provide IntelliSense information, the language service can use TypeScript *d.ts* files and JSDoc comments. For most common JavaScript libraries, *d.ts* files are automitcally acquired. For more details about how IntelliSense information is acquired, see [JavaScript IntelliSense](../ide/javascript-intellisense.md?toc=/visualstudio/javascript/toc.json)
 
 ## Check syntax
 
 The language service uses ESLint to provide syntax checking and linting. If you need to set options for syntax checking in the editor, select **Tools** > **Options** > **JavaScript/TypeScript** > **Linting**. The linting options point you to the global ESLint configuration file.
 
-In the following code, you see green syntax highlighting on the expression. Hover over the syntax highlighting.
+In the following code, you see green syntax highlighting (green squiggles) on the expression. Hover over the syntax highlighting.
 
 ![View syntax error](../javascript/media/write-code-syntax-checking.png)
 
-The last line of this message tells you that the language service expected a comma (`,`).
+The last line of this message tells you that the language service expected a comma (`,`). The green squiggle indicates a warning. Red squiggles indicate an error.
 
 In the lower pane, you can click the **Error List** tab to see the warning and description along with the filename and line number.
 
@@ -72,7 +72,7 @@ The toolbar, which is the row of buttons under the menu bar in Visual Studio, ca
 
 Select one or more lines of code in the editor and then choose the **Comment out the selected lines** button ![Comment out button](../javascript/media/write-code-comment-out.png) on the toolbar. If you prefer to use the keyboard, press **Ctrl**+**K**, **Ctrl**+**C**.
 
-   The JavaScript comment characters `//` are added to the beginning of each selected line to comment out the code.
+The JavaScript comment characters `//` are added to the beginning of each selected line to comment out the code.
 
 ## Collapse code blocks
 
