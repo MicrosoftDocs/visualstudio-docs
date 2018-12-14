@@ -56,34 +56,34 @@ The following command-line switches display the IDE and perform the described ta
 
 |Command line switch|Description|
 | - |-----------------|
-|[/Command](../../ide/reference/command-devenv-exe.md)|Starts the IDE and executes the specified command.|
-|[/DebugExe](../../ide/reference/debugexe-devenv-exe.md)|Loads a C++ executable under the control of the debugger. This switch is not available for Visual Basic or C# executables. For more information, see [Automatically start a process in the debugger](../../debugger/debug-multiple-processes.md#BKMK_Automatically_start_an_process_in_the_debugger).|
-|[/Edit](../../ide/reference/edit-devenv-exe.md)|Opens the specified files in a running instance of this application. If there are no running instances, it starts a new instance with a simplified window layout.|
-|[/LCID or /l](../../ide/reference/lcid-devenv-exe.md)|Sets the default language for the IDE. If the specified language is not included in your installation of Visual Studio, this setting is ignored.|
-|[/Log](../../ide/reference/log-devenv-exe.md)|Starts Visual Studio and logs all activity to the log file.|
-|[/ResetSkipPkgs](../../ide/reference/resetskippkgs-devenv-exe.md)|Clears all SkipLoading tags that have been added to VSPackages by users who want to avoid loading problem VSPackages.|
-|[/Run or /r](../../ide/reference/run-devenv-exe.md)|Compiles and runs the specified solution.|
-|[/Runexit](../../ide/reference/runexit-devenv-exe.md)|Compiles and runs the specified solution, minimizes the IDE when the solution is run, and closes the IDE after the solution has finished running.|
-|[/SafeMode](../../ide/reference/safemode-devenv-exe.md)|Starts Visual Studio in safe mode, and loads only the default environment and services, and shipped versions of third-party packages.|
-|[/Setup](../../ide/reference/setup-devenv-exe.md)|Forces Visual Studio to merge resource metadata that describes menus, toolbars, and command groups, from all VSPackages available. You must run this command as an administrator.|
-|[/UseEnv](../../ide/reference/useenv-devenv-exe.md)|Causes the IDE to use PATH, INCLUDE, and LIB environment variables for C++ compilation, instead of the settings specified in the VC++ Directories section of **Projects** options in the **Options** dialog box. This switch is installed with the **Desktop development with C++** workload. For more information, see [Setting the Path and Environment Variables for Command-Line Builds](/cpp/build/setting-the-path-and-environment-variables-for-command-line-builds).|
+|[/Command](command-devenv-exe.md)|Starts the IDE and executes the specified command.|
+|[/DebugExe](debugexe-devenv-exe.md)|Loads a C++ executable under the control of the debugger. This switch is not available for Visual Basic or C# executables. For more information, see [Automatically start a process in the debugger](../../debugger/debug-multiple-processes.md#BKMK_Automatically_start_an_process_in_the_debugger).|
+|[/Edit](edit-devenv-exe.md)|Opens the specified files in a running instance of this application. If there are no running instances, it starts a new instance with a simplified window layout.|
+|[/LCID or /l](lcid-devenv-exe.md)|Sets the default language for the IDE. If the specified language is not included in your installation of Visual Studio, this setting is ignored.|
+|[/Log](log-devenv-exe.md)|Starts Visual Studio and logs all activity to the log file.|
+|[/ResetSkipPkgs](resetskippkgs-devenv-exe.md)|Clears all SkipLoading tags that have been added to VSPackages by users who want to avoid loading problem VSPackages.|
+|[/Run or /r](run-devenv-exe.md)|Compiles and runs the specified solution.|
+|[/Runexit](runexit-devenv-exe.md)|Compiles and runs the specified solution, minimizes the IDE when the solution is run, and closes the IDE after the solution has finished running.|
+|[/SafeMode](safemode-devenv-exe.md)|Starts Visual Studio in safe mode, and loads only the default environment and services, and shipped versions of third-party packages.|
+|[/Setup](setup-devenv-exe.md)|Forces Visual Studio to merge resource metadata that describes menus, toolbars, and command groups, from all VSPackages available. You must run this command as an administrator.|
+|[/UseEnv](useenv-devenv-exe.md)|Causes the IDE to use PATH, INCLUDE, and LIB environment variables for C++ compilation, instead of the settings specified in the VC++ Directories section of **Projects** options in the **Options** dialog box. This switch is installed with the **Desktop development with C++** workload. For more information, see [Setting the Path and Environment Variables for Command-Line Builds](/cpp/build/setting-the-path-and-environment-variables-for-command-line-builds).|
 
 The following command-line switches do not display the IDE.
 
 |Command line switch|Description|
 | - |-----------------|
-|[/?](../../ide/reference/q-devenv-exe.md)|Displays help for devenv switches in the **Command Prompt window**.<br /><br /> `devenv /?`|
-|[/Build](../../ide/reference/build-devenv-exe.md)|Builds the specified solution or project according to the configuration of the specified solution.<br /><br /> `devenv myproj.csproj /build`|
-|[/Clean](../../ide/reference/clean-devenv-exe.md)|Deletes any files created by the build command, without affecting source files.<br /><br /> `devenv myproj.csproj /clean`|
-|[/Deploy](../../ide/reference/deploy-devenv-exe.md)|Builds the solution, along with files necessary for deployment, according to the solutions configuration.<br /><br /> `devenv myproj.csproj /deploy`|
-|[/Diff](../../ide/reference/diff.md)|Compares two files. Takes four parameters: SourceFile, TargetFile, SourceDisplayName (optional), TargetDisplayName (optional).|
-|[/Out](../../ide/reference/out-devenv-exe.md)|Lets you specify a file to receive errors when you build.<br /><br /> `devenv myproj.csproj /build /out log.txt`|
-|[/Project](../../ide/reference/project-devenv-exe.md)|The project to build, clean, or deploy. You can use this switch only if you have also supplied the /build, /rebuild, /clean, or /deploy switch.|
-|[/ProjectConfig](../../ide/reference/projectconfig-devenv-exe.md)|Specifies the project configuration to build or deploy. You can use this switch only if you have also supplied the /project switch.|
-|[/Rebuild](../../ide/reference/rebuild-devenv-exe.md)|Cleans and then builds the specified solution or project according to the configuration of the specified solution.|
-|[/ResetSettings](../../ide/reference/resetsettings-devenv-exe.md)|Restores Visual Studio default settings. Optionally resets the settings to the specified .vssettings file.|
-|[/Upgrade](../../ide/reference/upgrade-devenv-exe.md)|Upgrades the specified solution file and all its project files, or the specified project file, to the current Visual Studio formats for these files.|
+|[/?](q-devenv-exe.md)|Displays help for devenv switches in the **Command Prompt window**.<br /><br /> `devenv /?`|
+|[/Build](build-devenv-exe.md)|Builds the specified solution or project according to the configuration of the specified solution.<br /><br /> `devenv myproj.csproj /build`|
+|[/Clean](clean-devenv-exe.md)|Deletes any files created by the build command, without affecting source files.<br /><br /> `devenv myproj.csproj /clean`|
+|[/Deploy](deploy-devenv-exe.md)|Builds the solution, along with files necessary for deployment, according to the solutions configuration.<br /><br /> `devenv myproj.csproj /deploy`|
+|[/Diff](diff.md)|Compares two files. Takes four parameters: SourceFile, TargetFile, SourceDisplayName (optional), TargetDisplayName (optional).|
+|[/Out](out-devenv-exe.md)|Lets you specify a file to receive errors when you build.<br /><br /> `devenv myproj.csproj /build /out log.txt`|
+|[/Project](project-devenv-exe.md)|The project to build, clean, or deploy. You can use this switch only if you have also supplied the /build, /rebuild, /clean, or /deploy switch.|
+|[/ProjectConfig](projectconfig-devenv-exe.md)|Specifies the project configuration to build or deploy. You can use this switch only if you have also supplied the /project switch.|
+|[/Rebuild](rebuild-devenv-exe.md)|Cleans and then builds the specified solution or project according to the configuration of the specified solution.|
+|[/ResetSettings](resetsettings-devenv-exe.md)|Restores Visual Studio default settings. Optionally resets the settings to the specified .vssettings file.|
+|[/Upgrade](upgrade-devenv-exe.md)|Upgrades the specified solution file and all its project files, or the specified project file, to the current Visual Studio formats for these files.|
 
 ## See also
 
-* [General, Environment, Options Dialog Box](../../ide/reference/general-environment-options-dialog-box.md)
+* [General, Environment, Options Dialog Box](general-environment-options-dialog-box.md)
