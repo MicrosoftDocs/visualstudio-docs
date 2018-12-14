@@ -24,6 +24,7 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
 >  You can also collect the same IntelliTrace data for web and SharePoint apps running on remote machines by using the **Microsoft Monitoring Agent** in **Trace** mode.
 >
 >  You can collect performance-related events in the IntelliTrace data by running the agent in **Monitor** mode. **Monitor** mode has less of a performance impact than **Trace** mode or the **IntelliTrace stand-alone collector**. Microsoft Monitoring Agent does alter the target system's environment when it is installed. See [Using the Microsoft Monitoring Agent](../debugger/using-the-microsoft-monitoring-agent.md).
+>  The IntelliTrace stand-alone collector does not support Process Snapshots.
 
  **Requirements**
 
@@ -228,7 +229,7 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
 
 2.  Reproduce the problem.
 
-3.  To take a snapshot of the .iTrace file, use this syntax:
+3.  To create a checkpoint of the .iTrace file, use this syntax:
 
      `Checkpoint-IntelliTraceCollection` `"` *\<ApplicationPool>* `"`
 
