@@ -230,8 +230,10 @@
       href: assembly-element-visual-studio-templates.md
     - name: Assembly Element (Visual Studio Template Wizard Extension)
       href: assembly-element-visual-studio-template-wizard-extension.md
-    - name: BuildProjectOnLoad (Visual Studio Templates)
+    - name: BuildProjectOnLoad Attribute (Visual Studio Templates)
       href: buildprojectonload-visual-studio-templates.md
+    - name: BuildProjectOnload Element (Visual Studio Templates)
+      href: buildprojectonload-element-visual-studio-templates.md
     - name: CreateInPlace (Visual Studio Templates)
       href: createinplace-visual-studio-templates.md
     - name: CreateNewFolder Element (Visual Studio Templates)
@@ -294,6 +296,10 @@
       href: references-element-visual-studio-templates.md
     - name: RequiredFrameworkVersion Element (Visual Studio Templates)
       href: requiredframeworkversion-element-visual-studio-templates.md
+    - name: RequiredPlatformVersion Element (Visual Studio Templates)
+      href: requiredplatformversion-element-visual-studio-templates.md
+    - name: SDKReference Element (Visual Studio Templates)
+      href: sdkreference-element-visual-studio-templates.md
     - name: ShowByDefault (Visual Studio Templates)
       href: showbydefault-visual-studio-templates.md
     - name: SolutionFolder Element (Visual Studio Templates)
@@ -306,6 +312,8 @@
       href: supportslanguagedropdown-element-visual-studio-templates.md
     - name: SupportsMasterPage Element (Visual Studio Templates)
       href: supportsmasterpage-element-visual-studio-templates.md
+    - name: TargetPlatformName Element (Visual Studio Templates)
+      href: targetplatformname-element-visual-studio-templates.md
     - name: TemplateContent Element (Visual Studio Templates)
       href: templatecontent-element-visual-studio-templates.md
     - name: TemplateData Element (Visual Studio Templates)
@@ -320,14 +328,6 @@
       href: wizarddata-element-visual-studio-templates.md
     - name: WizardExtension Element (Visual Studio Templates)
       href: wizardextension-element-visual-studio-templates.md
-    - name: BuildProjectOnload Element (Visual Studio Templates)
-      href: buildprojectonload-element-visual-studio-templates.md
-    - name: RequiredPlatformVersion Element (Visual Studio Templates)
-      href: requiredplatformversion-element-visual-studio-templates.md
-    - name: SDKReference Element (Visual Studio Templates)
-      href: sdkreference-element-visual-studio-templates.md
-    - name: TargetPlatformName Element (Visual Studio Templates)
-      href: targetplatformname-element-visual-studio-templates.md
   - name: Visual Studio Template Manifest Schema Reference
     href: visual-studio-template-manifest-schema-reference.md
 - name: Extending User Settings and Options
