@@ -150,7 +150,7 @@ Replaces the default debugging engine with a legacy version to enable these scen
 - You want to enable Edit and Continue for C++ projects during mixed mode debugging.
 
 > [!NOTE]
-> Choosing Managed Compatibility mode disables some features that are implemented only in the default debugging engine.
+> Choosing Managed Compatibility mode disables some features that are implemented only in the default debugging engine. The legacy debugging engine was replaced in Visual Studio 2012.
 
 **Use the legacy C# and VB expression evaluators**:  
 The debugger will use the Visual Studio 2013 C# or Visual Basic expression evaluators rather than the Visual Studio 2015 Roslyn-based expression evaluators.
