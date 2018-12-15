@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "Office development in Visual Studio, getting started"
   - "FAQs (frequently asked questions) [Office development in Visual Studio]"
   - "Office development in Visual Studio, frequently asked questions"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

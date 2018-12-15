@@ -1,11 +1,11 @@
 ---
-title: "Get started with Visual Basic in Visual Studio"
-titleSuffix: ""
+title: "Tutorial: Get started with Visual Basic"
 description: "Learn how to create Visual Basic console apps in Visual Studio, step-by-step."
+ms.custom: "seodec18, get-started"
 ms.date: 08/10/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-acquisition
-ms.custom: "seodec18"
+ms.technology: vs-ide-general
+ms.prod: visual-studio-dev15
 ms.topic: tutorial
 ms.devlang: vb
 author: TerryGLee
@@ -18,7 +18,7 @@ ms.workload:
 ---
 # Tutorial: Get started with Visual Basic in Visual Studio
 
-In this tutorial for Visual Basic (VB), you'll use Visual Studio to create and run a few different console apps and explore some features of the [Visual Studio integrated development environment (IDE)](../get-started/visual-studio-ide.md) while you do so.
+In this tutorial for Visual Basic (VB), you'll use Visual Studio to create and run a few different console apps and explore some features of the [Visual Studio integrated development environment (IDE)](visual-studio-ide.md) while you do so.
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
 
@@ -32,7 +32,7 @@ First, we'll create a Visual Basic application project. The project type comes w
 
 3. In the **New Project** dialog box in the left pane, expand **Visual Basic**, and then choose **.NET Core**. In the middle pane, choose **Console App (.NET Core)**. Then name the file *HelloWorld*.
 
-   ![Console App (.NET Core) project template in the New Project dialog box in the Visual Studio IDE](../ide/media/new-project-vb-dotnetcore-whatisyourname-console-app.png)
+   ![Console App (.NET Core) project template in the New Project dialog box in the Visual Studio IDE](media/new-project-vb-dotnetcore-whatisyourname-console-app.png)
 
 ### Add a workgroup (optional)
 
@@ -42,11 +42,11 @@ If you don't see the **Console App (.NET Core)** project template, you can get i
 
 1. Click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box.
 
-   ![Click the Open Visual Studio Installer link from the New Project dialog box](../ide/media/vs-open-visual-studio-installer-generic.png)
+   ![Click the Open Visual Studio Installer link from the New Project dialog box](../media/vs-open-visual-studio-installer-generic.png)
 
 1. The Visual Studio Installer launches. Choose the **.NET Core cross-platform development** workload, and then choose **Modify**.
 
-   ![.NET Core cross-platform development workload in the Visual Studio Installer](../ide/media/quickstart-aspnet-workload.png)
+   ![.NET Core cross-platform development workload in the Visual Studio Installer](../media/tutorial-aspnet-workload.png)
 
 #### Option 2: Use the Tools menu bar
 
@@ -73,11 +73,11 @@ Let's create an app that prompts you for your name and then displays it along wi
 
     This code replaces the existing <xref:System.Console.WriteLine%2A>, <xref:System.Console.Write%2A>, and <xref:System.Console.ReadKey%2A> statements.
 
-   ![Code window showing the What Is Your Name code](../ide/media/vb-codewindow-what-name.png)
+   ![Code window showing the What Is Your Name code](media/vb-codewindow-what-name.png)
 
 1. When the console window opens, enter your name. Your console window should look similar to the following screenshot:
 
-   ![Console window showing What Is Your Name, the time and date, and Press any key to continue message](../ide/media/vb-console-what-name.png)
+   ![Console window showing What Is Your Name, the time and date, and Press any key to continue message](media/vb-console-what-name.png)
 
 1. Press any key to close the console window.
 
@@ -106,11 +106,11 @@ Let's create an app that prompts you for your name and then displays it along wi
 
    Your code window should look like the following screenshot:
 
-   ![Code window showing the Calculate This code](../ide/media/vb-codewindow-calculate-this.png)
+   ![Code window showing the Calculate This code](media/vb-codewindow-calculate-this.png)
 
 1. Click **CalculateThis** to run your program. Your console window should look similar to the following screenshot:
 
-    ![Console window showing the CaluculateThis app, which includes prompts on which actions to take.](../ide/media/vb-console-calculate-this.png)
+    ![Console window showing the CaluculateThis app, which includes prompts on which actions to take.](media/vb-console-calculate-this.png)
 
 ## Quick answers FAQ
 
@@ -142,5 +142,5 @@ Congratulations on completing this tutorial! To learn even more, see the followi
 ## See also
 
 * [What's new in Visual Basic](/dotnet/visual-basic/getting-started/whats-new)
-* [IntelliSense for Visual Basic code files](visual-basic-specific-intellisense.md)
+* [IntelliSense for Visual Basic code files](../../ide/visual-basic-specific-intellisense.md)
 * [Visual Basic language reference](/dotnet/visual-basic/language-reference/index)

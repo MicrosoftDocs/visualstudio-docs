@@ -36,8 +36,8 @@ helpviewer_keywords:
   - "custom XML parts, content controls"
   - "templates [Office development in Visual Studio], content controls"
   - "BuildingBlockGalleryContentControl class"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
