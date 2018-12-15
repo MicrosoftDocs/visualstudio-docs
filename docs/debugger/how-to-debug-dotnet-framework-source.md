@@ -49,7 +49,7 @@ To debug .NET Framework source, you must:
   
 ### To load symbols from the Modules or Call Stack windows  
   
-1. During debugging, open the window by selecting **Debug** > **Windows** > **Modules** or **Call Stack**. 
+1. During debugging, open the window by selecting **Debug** > **Windows** > **Modules** (or press **Ctrl + Alt + U**) or **Debug** > **Windows** > **Call Stack** (**Ctrl + Alt + C**). 
    
 1. Right-click a module for which symbols weren't loaded. In the **Modules** window, symbol loading status is in the **Symbols Status** column. In the **Call Stack** window, status is in the **Frame Status** column, and the frame is grayed-out. 
    

@@ -14,6 +14,8 @@ ms.workload:
 # Remote Debugger Port Assignments
 The Visual Studio Remote Debugger can run as an application or as a background service. When it runs as an application, it uses a port that is assigned by default as follows:  
 
+- Visual Studio 2019: 4024
+
 - Visual Studio 2017: 4022
 
 - Visual Studio 2015: 4020  
@@ -34,7 +36,7 @@ The Visual Studio Remote Debugger can run as an application or as a background s
  You can find all the remote debugger command line switches in the remote debugging help (press **F1** or click **Help > Usage** in the remote debugger window).  
   
 ## The Remote Debugger Port on 64-bit Operating Systems  
- When the 64-bit version of the remote debugger is started, it uses the 4022 port by default.  If you debug a 32-bit process, the 64-bit version of the remote debugger starts a 32-bit version of the remote debugger on port 4023. If you run the 32-bit remote debugger, it uses 4022, and 4023 is not used.  
+ When the 64-bit version of the remote debugger is started, it uses the main port (4022) by default.  If you debug a 32-bit process, the 64-bit version of the remote debugger starts a 32-bit version of the remote debugger on port 4023 (the main port number incremented by 1). If you run the 32-bit remote debugger, it uses 4022, and 4023 is not used.  
   
  This port is configurable from the command line: **Msvsmon /wow64port \<port number>**.  
   
