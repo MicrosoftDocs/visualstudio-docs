@@ -59,7 +59,7 @@ sections:
     - image: 
         src: https://docs.microsoft.com/media/logos/logo_cplusplus.svg
       text: C++
-      href: /cpp/tutorials/get-started
+      href: /cpp/get-started/
     - image: 
         src: https://docs.microsoft.com/media/logos/logo_python.svg
       text: Python
