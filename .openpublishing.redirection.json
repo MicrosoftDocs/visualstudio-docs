@@ -691,6 +691,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/debugger/getting-started-with-the-debugger-vb.md",
+            "redirect_url": "/visualstudio/get-started/visual-basic/getting-started-with-the-debugger-vb",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user-can-be-dangerous-if-the-following-information-looks-suspicious-or-you-are-unsure-do-not-attach-to-this-process.md",
             "redirect_url": "/visualstudio/debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user",
             "redirect_document_id": false
@@ -1893,11 +1898,6 @@
         {
             "source_path": "docs/python/getting-started.md",
             "redirect_url": "/visualstudio/python/tutorial-working-with-python-in-visual-studio-step-01-create-project",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "docs/python/index.md",
-            "redirect_url": "/visualstudio/python/overview-of-python-tools-for-visual-studio",
             "redirect_document_id": false
         },
         {
@@ -6868,14 +6868,34 @@
             "redirect_document_id": true
         },
         {
-            "source_path": "docs/javascript/index.md",
-            "redirect_url": "/visualstudio/javascript/quickstart-vuejs-with-nodejs",
-            "redirect_document_id": false
-        },
-        {
             "source_path": "docs/docker/vs-azure-tools-docker-machine-azure-config.md",
             "redirect_url": "/visualstudio/docker/",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md",
+            "redirect_url": "/visualstudio/get-started/csharp/tutorial-wpf",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/tutorial-csharp-aspnet-core.md",
+            "redirect_url": "/visualstudio/get-started/csharp/tutorial-aspnet-core",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/ide/tutorial-visual-basic-console.md",
+            "redirect_url": "/visualstudio/get-started/visual-basic/tutorial-console",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/ide/quickstart-editor.md",
+            "redirect_url": "/visualstudio/get-started/tutorial-editor",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/ide/quickstart-projects-solutions.md",
+            "redirect_url": "/visualstudio/get-started/tutorial-projects-solutions",
+            "redirect_document_id": true
         },
         {
             "source_path": "docs/test/how-to-analyze-errors-using-the-counters-panel.md",
@@ -6940,16 +6960,6 @@
         {
             "source_path": "docs/test/how-to-specify-plot-options-for-graphing-counters.md",
             "redirect_url": "/visualstudio/test/quickstart-create-a-load-test-project",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "docs/ide/quickstart-editor.md",
-            "redirect_url": "/visualstudio/get-started/tutorial-editor",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "docs/ide/quickstart-projects-solutions.md",
-            "redirect_url": "/visualstudio/get-started/tutorial-projects-solutions",
             "redirect_document_id": false
         },
         {
