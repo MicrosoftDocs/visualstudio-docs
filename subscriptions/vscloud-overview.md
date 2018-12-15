@@ -25,23 +25,23 @@ Anyone with [owner and contributor access](https://na01.safelinks.protection.out
 
 ## How to buy cloud subscriptions
 
-0.	Sign in to the [Visual Studio Marketplace > Subscriptions](https://marketplace.visualstudio.com/subscriptions).
+1.	Sign in to the [Visual Studio Marketplace > Subscriptions](https://marketplace.visualstudio.com/subscriptions).
 
-0.	Choose the subscription that you want to buy, for example:
+2.	Choose the subscription that you want to buy, for example:
     > [!div class="mx-imgBorder"]
 	> ![Buy a Visual Studio subscription](_img/buy-vs-subscriptions/buy-vs-sub-start.png)
 
-0.	Select the Azure subscription to use for billing. You can create a new Azure subscription if you don't have one.
+3.	Select the Azure subscription to use for billing. You can create a new Azure subscription if you don't have one.
     > [!div class="mx-imgBorder"]
 	> ![Select Azure subscription for billing](_img/buy-vs-subscriptions/buy-vs-sub-Azure-sub.png)
 
-0.	Select the number of subscriptions to buy.
+4.	Select the number of subscriptions to buy.
     > [!div class="mx-imgBorder"]
 	> ![Select number of subscriptions](_img/buy-vs-subscriptions/buy-vs-sub-users.png)
 
 	If you don't want subscriptions assigned to yourself, clear **Assign this subscription to me**.
 
-0.	Confirm and finish your purchase. If you assigned a subscription to yourself, you can visit the [Visual Studio subscriber portal](https://my.visualstudio.com)
+5.	Confirm and finish your purchase. If you assigned a subscription to yourself, you can visit the [Visual Studio subscriber portal](https://my.visualstudio.com)
 to start downloading software and using other subscriber benefits.
 
 > [!div class="mx-imgBorder"]
