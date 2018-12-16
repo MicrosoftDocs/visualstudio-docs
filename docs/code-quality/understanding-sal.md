@@ -399,7 +399,7 @@ Or you can annotate all parameters to make your intent clear throughout and to m
 
 [Code Analysis Team Blog](http://go.microsoft.com/fwlink/p/?LinkId=251197)
 
-## See Also
+## See also
 
 - [Using SAL Annotations to Reduce C/C++ Code Defects](../code-quality/using-sal-annotations-to-reduce-c-cpp-code-defects.md)
 - [Annotating Function Parameters and Return Values](../code-quality/annotating-function-parameters-and-return-values.md)
