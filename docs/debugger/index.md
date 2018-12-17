@@ -39,7 +39,7 @@ The Visual Studio debugger helps you observe the run-time behavior of your progr
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/common/i_code-edit.svg" alt="Write better code">
+                            <img src="/media/common/i_code-quality.svg" alt="Write better code">
                         </div>
                     </div>
                     <div class="cardText">
@@ -193,7 +193,7 @@ The Visual Studio debugger helps you observe the run-time behavior of your progr
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/common/i_debug.svg" alt="View historical app state">
+                            <img src="/media/common/i_investigate.svg" alt="View historical app state">
                         </div>
                     </div>
                     <div class="cardText">
@@ -211,7 +211,7 @@ The Visual Studio debugger helps you observe the run-time behavior of your progr
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/common/i_debug.svg" alt="Debug Azure">
+                            <img src="https://docs.microsoft.com/media/logos/logo_azure.svg" alt="Azure">
                         </div>
                     </div>
                     <div class="cardText">
