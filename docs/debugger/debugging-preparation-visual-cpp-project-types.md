@@ -67,7 +67,7 @@ This section describes how to debug the basic project types created by the [!INC
   
 2.  On the **Debug** menu, choose **Start**.  
   
-3.  Debug using the techniques discussed in [Debugger Basics](../debugger/getting-started-with-the-debugger.md).  
+3.  Debug using the techniques discussed in [First look at the debugger](../debugger/debugger-feature-tour.md).  
   
 ###  <a name="BKMK_To_manually_set_a_Debug_configuration"></a> To manually set a Debug configuration  
   

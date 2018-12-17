@@ -100,5 +100,5 @@ In some declarative data binding scenarios, it can help to debug code behind in 
    When the page loads, the breakpoint is hit.
   
 ## See also  
+ [First look at the debugger](../debugger/debugger-feature-tour.md)
  [Debugger security](../debugger/debugger-security.md)   
- [Debugger basics](../debugger/getting-started-with-the-debugger.md)
