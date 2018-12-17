@@ -692,7 +692,12 @@
         },
         {
             "source_path": "docs/debugger/getting-started-with-the-debugger-vb.md",
-            "redirect_url": "/visualstudio/get-started/visual-basic/getting-started-with-the-debugger-vb",
+            "redirect_url": "/visualstudio/get-started/visual-basic/tutorial-debugger",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/getting-started-with-the-debugger-cs.md",
+            "redirect_url": "/visualstudio/get-started/csharp/tutorial-debugger",
             "redirect_document_id": false
         },
         {

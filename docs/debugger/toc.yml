@@ -19,11 +19,11 @@
 - name: Tutorials
   items:
   - name: Learn to debug C#
-    href: getting-started-with-the-debugger.md
+    href: ../get-started/csharp/tutorial-debugger?toc=/visualstudio/debugger/toc.json
   - name: Learn to debug C++
     href: getting-started-with-the-debugger-cpp.md
   - name: Learn to debug Visual Basic
-    href: getting-started-with-the-debugger-vb.md
+    href: ../get-started/visual-basic/tutorial-debugger?toc=/visualstudio/debugger/toc.json
   - name: Running Python code in the debugger...
     href: ../python/tutorial-working-with-python-in-visual-studio-step-04-debugging.md
   - name: Debug a live Azure app

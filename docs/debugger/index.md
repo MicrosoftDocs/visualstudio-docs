@@ -70,7 +70,7 @@ The Visual Studio debugger helps you observe the run-time behavior of your progr
     </li>
 </ul>
 
-<h2>Experience Visual Studio debugging with 5-minute Quickstarts</h2>
+<h2>Get started with the debugger</h2>
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -91,65 +91,6 @@ The Visual Studio debugger helps you observe the run-time behavior of your progr
         </div>
         </a>
     </li>
-        <li>
-        <a href="https://docs.microsoft.com/visualstudio/debugger/quickstart-debug-with-managed">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/logos/logo_net.svg" alt=".NET">
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Debug a C# or Visual Basic app</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://docs.microsoft.com/visualstudio/debugger/quickstart-debug-with-cplusplus">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/logos/logo_Cplusplus.svg" alt="C++">
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Debug a C++ app</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://docs.microsoft.com/visualstudio/debugger/quickstart-debug-aspnet">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/logos/logo_net.svg" alt="ASP.NET">
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Debug an ASP.NET app</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-</ul>
-
-<h2>Go deeper with tutorials</h2>
-
-<ul class="panelContent cardsFTitle">
     <li>
         <a href="https://docs.microsoft.com/visualstudio/debugger/debugging-absolute-beginners">
         <div class="cardSize">
@@ -169,23 +110,64 @@ The Visual Studio debugger helps you observe the run-time behavior of your progr
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/visualstudio/debugger/getting-started-with-the-debugger">
+        <a href="https://docs.microsoft.com/visualstudio/get-started/csharp/tutorial-debugger?toc=/visualstudio/debugger/toc.json">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/common/i_get-started.svg" alt="Learn to use the debugger">
+                            <img src="https://docs.microsoft.com/media/logos/logo_csharp.svg" alt="C#">
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Learn to use the debugger</h3>
+                        <h3>Debug a C# app</h3>
                     </div>
                 </div>
             </div>
         </div>
         </a>
     </li>
+    <li>
+        <a href="https://docs.microsoft.com/visualstudio/debugger/getting-started-with-the-debugger-cpp">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/media/logos/logo_Cplusplus.svg" alt="C++">
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Debug a C++ app</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://docs.microsoft.com/visualstudio/get-started/visual-basic/tutorial-debugger?toc=/visualstudio/debugger/toc.json">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/media/logos/logo_vb.svg" alt="VB">
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Debug a Visual Basic app</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+</ul>
+
+<h2>Go deeper with the debugger</h2>
+
+<ul class="panelContent cardsFTitle">
     <li>
         <a href="https://docs.microsoft.com/visualstudio/debugger/debugger-tips-and-tricks">
         <div class="cardSize">
