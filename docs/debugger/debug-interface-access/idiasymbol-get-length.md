@@ -53,6 +53,6 @@ pSymbol->get_length( &length );
 |Header:|dia2.h|
 |Version:|DIA SDK v7.0|
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
 - [LocationType Enumeration](../../debugger/debug-interface-access/locationtype.md)

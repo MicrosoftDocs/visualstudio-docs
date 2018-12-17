@@ -67,7 +67,7 @@ Each function is identified by a `SymTagFunction` symbol.
 |[IDiaSymbol::get_virtualBaseOffset](../../debugger/debug-interface-access/idiasymbol-get-virtualbaseoffset.md)|`DWORD`|If a virtual function, then the offset in the virtual function table.|
 |[IDiaSymbol::get_volatileType](../../debugger/debug-interface-access/idiasymbol-get-volatiletype.md)|`BOOL`|`TRUE` if the function is marked as volatile.|
 
-## See Also
+## See also
 - [CV_access_e Enumeration](../../debugger/debug-interface-access/cv-access-e.md)
 - [Lexical Hierarchy of Symbol Types](../../debugger/debug-interface-access/lexical-hierarchy-of-symbol-types.md)
 - [LocationType Enumeration](../../debugger/debug-interface-access/locationtype.md)

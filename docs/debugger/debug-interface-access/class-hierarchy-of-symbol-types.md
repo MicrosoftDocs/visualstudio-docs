@@ -39,7 +39,7 @@ The following table describes the symbol types in the class hierarchy.
 > [!NOTE]
 > Each symbol can have properties that hold information about the symbol, as well as references to other symbols. These properties are listed in the individual symbol topics.
 
-## See Also
+## See also
 - [CV_access_e Enumeration](../../debugger/debug-interface-access/cv-access-e.md)
 - [Lexical Hierarchy of Symbol Types](../../debugger/debug-interface-access/lexical-hierarchy-of-symbol-types.md)
 - [Symbols and Symbol Tags](../../debugger/debug-interface-access/symbols-and-symbol-tags.md)

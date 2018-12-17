@@ -25,5 +25,5 @@ HRESULT Reset();
 ## Return Value
  Returns `S_OK`.
 
-## See Also
+## See also
 - [IDiaEnumInjectedSources](../../debugger/debug-interface-access/idiaenuminjectedsources.md)

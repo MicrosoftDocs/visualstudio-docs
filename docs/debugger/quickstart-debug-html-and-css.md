@@ -248,7 +248,7 @@ You can select DOM elements in three ways when debugging an app:
 > [!NOTE]
 > Highlighting elements by hovering over them is only partially supported in the Windows Phone Emulator.
 
-## See Also
+## See also
 - [Debug apps in Visual Studio](/visualstudio/debugger/debugging-windows-store-and-windows-universal-apps)
 - [Refresh an app (JavaScript)](../debugger/refresh-an-app-javascript.md)
 - [Debug a WebView control](../debugger/debug-a-webview-control.md)

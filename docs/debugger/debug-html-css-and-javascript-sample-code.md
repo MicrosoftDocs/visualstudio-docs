@@ -95,5 +95,5 @@ The following code example shows the complete JavaScript code in default.js. The
 })();
 ```
 
-## See Also
+## See also
 - [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md)

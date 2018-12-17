@@ -173,7 +173,7 @@ class MyHashtable
 }
 ```
 
-## See Also
+## See also
 
 - [Using DebuggerTypeProxy Attribute](../debugger/using-debuggertypeproxy-attribute.md)
 - [Create custom views of managed objects](../debugger/create-custom-views-of-managed-objects.md)

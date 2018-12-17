@@ -47,7 +47,7 @@ This section describes the debugger-related property settings, and the preparati
  [How to: Specify an older .NET Framework Version For Debugging](../debugger/how-to-specify-a-dotnet-framework-version-for-debugging.md)
  Describes how to set a registry key to indicate to the debugger which version to use.
 
-## See Also
+## See also
 - [Debugger Security](../debugger/debugger-security.md)
 - [Debugging in Visual Studio](../debugger/index.yml)
 - [First look at the debugger](../debugger/debugger-feature-tour.md)

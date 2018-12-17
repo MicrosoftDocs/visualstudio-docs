@@ -40,5 +40,5 @@ HRESULT ReadBSTR ( 
 ## Remarks
  A `BSTR` is defined by Windows as a zero-terminated wide character string.
 
-## See Also
+## See also
 - [IDiaPropertyStorage](../../debugger/debug-interface-access/idiapropertystorage.md)

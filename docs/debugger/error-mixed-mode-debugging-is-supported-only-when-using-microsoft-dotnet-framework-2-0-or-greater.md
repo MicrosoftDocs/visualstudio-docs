@@ -22,5 +22,5 @@ To debug mixed native and managed code, you must have .NET Framework version 2.0
 
 - Upgrade the .NET Framework to version 2.0, 3.0, 3.5, or 4.0.
 
-## See Also
+## See also
 - [Remote Debugging](../debugger/remote-debugging.md)

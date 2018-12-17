@@ -42,6 +42,6 @@ HRESULT Next ( 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if there are no more segments. Otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDiaEnumSegments](../../debugger/debug-interface-access/idiaenumsegments.md)
 - [IDiaSegment](../../debugger/debug-interface-access/idiasegment.md)
