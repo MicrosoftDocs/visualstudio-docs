@@ -122,8 +122,7 @@ You cannot use design time expression evaluation in project types that require s
 
 - [Navigating through Code with the Debugger](../../debugger/navigating-through-code-with-the-debugger.md)
 - [Command Window](../../ide/reference/command-window.md)
-- [Debugging in Visual Studio](../../debugger/debugging-in-visual-studio.md)
-- [Debugger Basics](../../debugger/getting-started-with-the-debugger.md)
+- [First look at the debugger](../debugger/debugger-feature-tour.md)   
 - [Walkthrough: Debugging at Design Time](../../debugger/walkthrough-debugging-at-design-time.md)
 - [Visual Studio Command Aliases](../../ide/reference/visual-studio-command-aliases.md)
 - [Using Regular Expressions in Visual Studio](../../ide/using-regular-expressions-in-visual-studio.md)

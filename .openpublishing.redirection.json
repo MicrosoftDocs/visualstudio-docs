@@ -682,12 +682,12 @@
         },
         {
             "source_path": "docs/debugger/first-look-at-the-debugger.md",
-            "redirect_url": "/visualstudio/debugger/getting-started-with-the-debugger",
+            "redirect_url": "/visualstudio/debugger/debugger-feature-tour.md",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/debugger/debugger-basics.md",
-            "redirect_url": "/visualstudio/debugger/getting-started-with-the-debugger",
+            "redirect_url": "/visualstudio/debugger/debugger-feature-tour.md",
             "redirect_document_id": false
         },
         {
@@ -696,8 +696,8 @@
             "redirect_document_id": false
         },
         {
-            "source_path": "docs/debugger/getting-started-with-the-debugger-cs.md",
-            "redirect_url": "/visualstudio/get-started/csharp/tutorial-debugger",
+            "source_path": "docs/debugger/getting-started-with-the-debugger.md",
+            "redirect_url": "/visualstudio/debugger/debugger-feature-tour.md",
             "redirect_document_id": false
         },
         {
