@@ -117,5 +117,5 @@ Following are common problems that you might have with your VSPackage and tips t
 
    Make sure that the InprocServer32 entry has the correct path of the VSPackage dll.
 
-## See Also
+## See also
 - [VSPackages](../extensibility/internals/vspackages.md)

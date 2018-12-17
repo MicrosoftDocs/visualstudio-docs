@@ -84,7 +84,7 @@ Contains the registration elements for customizing the template wizard.
 </VSTemplate>
 ```
 
-## See Also
+## See also
 - [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)
 - [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)
 - [How to: Use Wizards with Project Templates](../extensibility/how-to-use-wizards-with-project-templates.md)

@@ -51,7 +51,7 @@ Project dependencies
 
  In addition, you can provide a grid in the project dependencies window. For more information, see [Properties Display Grid](../../extensibility/internals/properties-display-grid.md).
 
-## See Also
+## See also
 - [Managing Configuration Options](../../extensibility/internals/managing-configuration-options.md)
 - [Project Configuration for Managing Deployment](../../extensibility/internals/project-configuration-for-managing-deployment.md)
 - [Project Configuration for Output](../../extensibility/internals/project-configuration-for-output.md)

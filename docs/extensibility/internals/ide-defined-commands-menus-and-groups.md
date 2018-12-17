@@ -42,7 +42,7 @@ Many menus, commands and command groups are already defined for use by the [!INC
 
  Gives the GUID and ID values of commands defined by the Visual Studio IDE.
 
-## See Also
+## See also
 - [Visual Studio Command Table (.Vsct) Files](../../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
 - [IDE-Defined Commands for Extending Project Systems](../../extensibility/internals/ide-defined-commands-for-extending-project-systems.md)
 - [How VSPackages Add User Interface Elements](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)

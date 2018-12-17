@@ -59,6 +59,6 @@ Questions about Premier Support offerings in conjunction with the VSIP program c
 
 Information about individual support requests can be found at [Individual Support Requests](http://go.microsoft.com/fwlink/?LinkID=82385).
 
-## See Also
+## See also
 
 - [Talk to Us](../ide/feedback-options.md)
