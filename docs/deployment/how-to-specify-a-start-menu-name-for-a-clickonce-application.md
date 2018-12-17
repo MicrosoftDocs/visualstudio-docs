@@ -26,7 +26,7 @@ When a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applica
   
  **Publisher name** will appear on the *publish.htm* page above **Product name**, and for an installed offline application, it will also be the name of the folder that contains the application's icon in the **Start** menu.  
 
- The Start menu shortcut or app reference is created in *%appdata%\Microsoft\Windows\Start Menu\Programs\<publisher name>* with the same name as the prouct name.
+ The Start menu shortcut or app reference gets created in *%appdata%\Microsoft\Windows\Start Menu\Programs\\<publisher name\>*. The shortcut or app reference has the same name as the product name.
   
  You can set the **Product name** and **Publisher name** properties in the **Publish Options** dialog box, available on the **Publish** page of the **Project Designer**.  
   
