@@ -7056,6 +7056,11 @@
             "source_path": "docs/reference/synchronized-settings-environment-options-dialog-box.md",
             "redirect_url": "/visualstudio/ide/reference/accounts-environment-options-dialog-box",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/extensibility/buildprojectonload-visual-studio-templates.md",
+            "redirect_url": "/visualstudio/extensibility/buildonload-visual-studio-templates",
+            "redirect_document_id": false
         }
     ]
 }

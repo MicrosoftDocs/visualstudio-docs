@@ -230,8 +230,8 @@
       href: assembly-element-visual-studio-templates.md
     - name: Assembly Element (Visual Studio Template Wizard Extension)
       href: assembly-element-visual-studio-template-wizard-extension.md
-    - name: BuildProjectOnLoad Attribute (Visual Studio Templates)
-      href: buildprojectonload-visual-studio-templates.md
+    - name: BuildOnLoad Attribute and Element (Visual Studio Templates)
+      href: buildonload-visual-studio-templates.md
     - name: BuildProjectOnload Element (Visual Studio Templates)
       href: buildprojectonload-element-visual-studio-templates.md
     - name: CreateInPlace (Visual Studio Templates)
