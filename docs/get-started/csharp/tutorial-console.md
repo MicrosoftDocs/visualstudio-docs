@@ -158,7 +158,7 @@ We've improved on our basic calculator app, but it doesn't yet have failsafes in
 
 For example, if you try to divide a number by zero, or enter an alpha character when the app expects a numeric character (or vice versa), the app stops working and returns an error.
 
-Let's walk through a few common user input errors, locate them in the [debugger](../../debugger/getting-started-with-the-debugger.md), and fix them in the code.
+Let's walk through a few common user input errors, locate them in the [debugger](../../debugger/debugger-feature-tour.md), and fix them in the code.
 
 ### Fix the "divide by zero" error
 
