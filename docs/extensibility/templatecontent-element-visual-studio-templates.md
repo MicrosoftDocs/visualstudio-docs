@@ -16,14 +16,19 @@ ms.workload:
   - "vssdk"
 ---
 # TemplateContent Element (Visual Studio Templates)
+
 Specifies the contents of the template.
 
- \<VSTemplate>
- \<TemplateContent>
+Element hierarchy:
+
+```xml
+<VSTemplate>
+  <TemplateContent>
+```
 
 ## Syntax
 
-```
+```xml
 <TemplateContent>
     ...
 </TemplateContent>
@@ -60,7 +65,7 @@ Specifies the contents of the template.
 ## Example
  The following example shows the metadata for a project template for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] application.
 
-```
+```xml
 <VSTemplate Type="Project" Version="3.0.0"
     xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
     <TemplateData>
@@ -84,6 +89,7 @@ Specifies the contents of the template.
 </VSTemplate>
 ```
 
-## See Also
- [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)
- [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)
+## See also
+
+- [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)
+- [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)

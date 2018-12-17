@@ -19,9 +19,13 @@ ms.workload:
 
 Specifies whether to build the project immediately after it's created. **BuildOnLoad** is both an attribute and an element.
 
-\<VSTemplate>
-\<TemplateData>
-\<BuildOnLoad>
+Element hierarchy:
+
+```xml
+<VSTemplate>
+  <TemplateData>
+    <BuildOnLoad>
+```
 
 ## Element syntax
 

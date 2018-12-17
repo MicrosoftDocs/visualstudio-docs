@@ -14,9 +14,13 @@ ms.workload:
 # BuildProjectOnload element (Visual Studio templates)
 Builds only new projects as you create and add them to a solution. The entire solution isn't built.
 
- \<VSTemplate>
- \<TemplateData>
- \<BuildProjectOnLoad>
+Element hierarchy:
+
+```xml
+<VSTemplate>
+  <TemplateData>
+    <BuildProjectOnLoad>
+```
 
 ## Syntax
 
