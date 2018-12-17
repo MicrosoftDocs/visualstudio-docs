@@ -6998,6 +6998,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "subscriptions/vs-priority-support.md",
+            "redirect_url": "https://social.msdn.microsoft.com/Forums/vstudio/en-US/home",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/ide/accessibility-features-of-the-help-viewer.md",
             "redirect_url": "/visualstudio/help-viewer/accessibility-features",
             "redirect_document_id": true
