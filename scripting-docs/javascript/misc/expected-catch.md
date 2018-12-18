@@ -24,6 +24,6 @@ You used the exception handling **try** block, but did not write the associated 
   
 - Try using a **finally** block instead of a **catch** block.  
   
-## See Also  
+## See also  
  [try...catch...finally Statement](../../javascript/reference/try-dot-dot-dot-catch-dot-dot-dot-finally-statement-javascript.md)   
  [Error Object](../../javascript/reference/error-object-javascript.md)

@@ -28,7 +28,7 @@ break labelname;
   
 - Make sure the **break** keyword appears inside an enclosing loop or switch statement.  
   
-## See Also  
+## See also  
  [break Statement](../../javascript/reference/break-statement-javascript.md)   
  [Controlling Program Flow](../../javascript/controlling-program-flow-javascript.md)   
  [Troubleshooting Your Scripts](../../javascript/advanced/troubleshooting-your-scripts-javascript.md)

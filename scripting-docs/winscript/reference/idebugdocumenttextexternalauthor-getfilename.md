@@ -43,5 +43,5 @@ HRESULT GetFileName(
 ## Remarks  
  This method returns the name of the document without path information. The short name is typically used in dialog boxes.  
   
-## See Also  
+## See also  
  [IDebugDocumentTextExternalAuthor Interface](../../winscript/reference/idebugdocumenttextexternalauthor-interface.md)

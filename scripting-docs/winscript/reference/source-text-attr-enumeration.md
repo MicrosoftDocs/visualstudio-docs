@@ -44,5 +44,5 @@ enum enum_SOURCE_TEXT_ATTR{    SOURCETEXT_ATTR_KEYWORD    = 0x0001,    SOURCETEX
   
 - The GETATTRFLAG_HUMANTEXT flag is set, in which case the method may return the SOURCETEXT_ATTR_HUMANTEXT flag.  
   
-## See Also  
+## See also  
  [Active Script Debugger Constants, Enumerations, and Structures](../../winscript/reference/active-script-debugger-constants-enumerations-and-structures.md)

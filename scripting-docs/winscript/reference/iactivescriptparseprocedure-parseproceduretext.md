@@ -91,5 +91,5 @@ HRESULT ParseProcedureText(
 ## Remarks  
  No script code is evaluated during this call; rather, the procedure is compiled into the script state where it can be called by the script later.  
   
-## See Also  
+## See also  
  [IActiveScriptParseProcedure](../../winscript/reference/iactivescriptparseprocedure.md)

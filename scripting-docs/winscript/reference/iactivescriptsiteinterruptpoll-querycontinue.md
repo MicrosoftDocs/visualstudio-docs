@@ -43,6 +43,6 @@ HRESULT QueryContinue();
   
  A multithreaded host may use the `IActiveScript::InterruptScriptThread` method to terminate a script.  
   
-## See Also  
+## See also  
  [IActiveScriptSiteInterruptPoll Interface](../../winscript/reference/iactivescriptsiteinterruptpoll-interface.md)   
  [IActiveScript::InterruptScriptThread](../../winscript/reference/iactivescript-interruptscriptthread.md)

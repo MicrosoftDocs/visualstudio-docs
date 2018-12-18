@@ -39,5 +39,5 @@ typedef enum tagERRORRESUMEACTION {
 |ERRORRESUMEACTION_AbortCallAndReturnErrorToCaller|Lets the language engine handle the error.|  
 |ERRORRESUMEACTION_SkipErrorStatement|Resumes execution in the code following the statement that produced the error.|  
   
-## See Also  
+## See also  
  [Active Script Debugger Constants, Enumerations, and Structures](../../winscript/reference/active-script-debugger-constants-enumerations-and-structures.md)

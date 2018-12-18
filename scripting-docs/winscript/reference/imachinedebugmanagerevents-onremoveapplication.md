@@ -47,6 +47,6 @@ HRESULT onRemoveApplication(
 ## Remarks  
  This method indicates that an application was removed from the running application list.  
   
-## See Also  
+## See also  
  [IMachineDebugManagerEvents Interface](../../winscript/reference/imachinedebugmanagerevents-interface.md)   
  [IMachineDebugManagerEvents::onAddApplication](../../winscript/reference/imachinedebugmanagerevents-onaddapplication.md)

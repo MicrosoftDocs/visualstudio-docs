@@ -77,7 +77,7 @@ typedef struct ExtendedDebugPropertyInfo{
  `pDebugExtProp`  
  `IDebugExtendedProperty` object corresponding to this `ExtendedDebugPropertyInfo`.  
   
-## See Also  
+## See also  
  [DebugPropertyInfo Structure](../../winscript/reference/debugpropertyinfo-structure.md)   
  [IDebugProperty Interface](../../winscript/reference/idebugproperty-interface.md)   
  [IDebugExtendedProperty Interface](../../winscript/reference/idebugextendedproperty-interface.md)   

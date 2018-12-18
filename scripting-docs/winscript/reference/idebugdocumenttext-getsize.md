@@ -47,5 +47,5 @@ HRESULT GetSize(
 ## Remarks  
  This method returns the number of lines and number of characters in the document.  
   
-## See Also  
+## See also  
  [IDebugDocumentText Interface](../../winscript/reference/idebugdocumenttext-interface.md)

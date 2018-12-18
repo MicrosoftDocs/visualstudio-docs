@@ -43,5 +43,5 @@ HRESULT GetName(
 ## Remarks  
  This method returns the name of this application node.  
   
-## See Also  
+## See also  
  [IRemoteDebugApplication Interface](../../winscript/reference/iremotedebugapplication-interface.md)

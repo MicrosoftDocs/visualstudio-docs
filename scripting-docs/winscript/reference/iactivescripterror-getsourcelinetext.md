@@ -36,5 +36,5 @@ HRESULT GetSourceLineText(
 ## Return Value  
  Returns `S_OK` if successful, or `E_FAIL` if the line in the source file was not retrieved.  
   
-## See Also  
+## See also  
  [IActiveScriptError](../../winscript/reference/iactivescripterror.md)

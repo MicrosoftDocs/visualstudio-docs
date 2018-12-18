@@ -47,7 +47,7 @@ HRESULT SetScriptState(
 ## Remarks  
  For more information about scripting engine states, see the Script Engine States section of [Windows Script Engines](../../winscript/windows-script-engines.md) .  
   
-## See Also  
+## See also  
  [IActiveScript::Clone](../../winscript/reference/iactivescript-clone.md)   
  [IActiveScript::GetScriptDispatch](../../winscript/reference/iactivescript-getscriptdispatch.md)   
  [IActiveScript::InterruptScriptThread](../../winscript/reference/iactivescript-interruptscriptthread.md)   

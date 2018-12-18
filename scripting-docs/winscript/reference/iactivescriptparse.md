@@ -25,5 +25,5 @@ If the Windows Script engine allows raw text code scriptlets to be added to the 
 |[IActiveScriptParse::AddScriptlet](../../winscript/reference/iactivescriptparse-addscriptlet.md)|Adds a code scriptlet to the script.|  
 |[IActiveScriptParse::ParseScriptText](../../winscript/reference/iactivescriptparse-parsescripttext.md)|Parses the given code scriptlet, adding declarations into the name space and evaluating code as appropriate.|  
   
-## See Also  
+## See also  
  [Active Script Interfaces](../../winscript/reference/active-script-interfaces.md)

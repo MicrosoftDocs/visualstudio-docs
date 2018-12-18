@@ -42,5 +42,5 @@ HRESULT GetLanguage(
   
 ## Remarks  
   
-## See Also  
+## See also  
  [IScriptNode Interface](../../winscript/reference/iscriptnode-interface.md)

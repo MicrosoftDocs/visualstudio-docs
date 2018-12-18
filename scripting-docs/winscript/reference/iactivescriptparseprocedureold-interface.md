@@ -31,5 +31,5 @@ Allows the source code text for procedures to be added to the script. For interp
 |------------|-----------------|  
 |[IActiveScriptParseProcedureOld::ParseProcedureText](../../winscript/reference/iactivescriptparseprocedureold-parseproceduretext.md)|Parses the given code procedure and adds the procedure to the name space.|  
   
-## See Also  
+## See also  
  [IActiveScriptParseProcedure](../../winscript/reference/iactivescriptparseprocedure.md)
