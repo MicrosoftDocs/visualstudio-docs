@@ -84,27 +84,6 @@ The preceding *Dockerfile* is based on the [microsoft/aspnetcore](https://hub.do
 
 When the new project dialog's **Configure for HTTPS** check box is checked, the *Dockerfile* exposes two ports. One port is used for HTTP traffic; the other port is used for HTTPS. If the check box isn't checked, a single port (80) is exposed for HTTP traffic.
 
-### Docker Compose
-
-The Visual Studio Tools for Docker add a *docker-compose* project to the solution with the following files:
-
-* *docker-compose.dcproj* &ndash; The file representing the project. Includes a `<DockerTargetOS>` element specifying the OS to be used.
-* *.dockerignore* &ndash; Lists the file and directory patterns to exclude when generating a build context.
-* *docker-compose.yml* &ndash; The base [Docker Compose](https://docs.docker.com/compose/overview/) file used to define the collection of images built and run with `docker-compose build` and `docker-compose run`, respectively.
-* *docker-compose.override.yml* &ndash; An optional file, read by Docker Compose, with configuration overrides for services. Visual Studio executes `docker-compose -f "docker-compose.yml" -f "docker-compose.override.yml"` to merge these files.
-
-The *docker-compose.yml* file references the name of the image that's created when the project runs:
-
-[!code-yaml[](visual-studio-tools-for-docker/samples/2.0/docker-compose.yml?highlight=5)]
-
-In the preceding example, `image: hellodockertools` generates the image `hellodockertools:dev` when the app runs in **Debug** mode. The `hellodockertools:latest` image is generated when the app runs in **Release** mode.
-
-Prefix the image name with the [Docker Hub](https://hub.docker.com/) username (for example, `dockerhubusername/hellodockertools`) if the image is pushed to the registry. Alternatively, change the image name to include the private registry URL (for example, `privateregistry.domain.com/hellodockertools`) depending on the configuration.
-
-If you want different behavior based on the build configuration (for example, Debug or Release), add configuration-specific *docker-compose* files. The files should be named according to the build configuration (for example, *docker-compose.vs.debug.yml* and *docker-compose.vs.release.yml*) and placed in the same location as the *docker-compose-override.yml* file. 
-
-Using the configuration-specific override files, you can specify different configuration settings (such as environment variables or entry points) for Debug and Release build configurations.
-
 ## Debug
 
 Select **Docker** from the debug drop-down in the toolbar, and start debugging the app. The **Docker** view of the **Output** window shows the following actions taking place:
@@ -160,22 +139,27 @@ baf9a678c88d        hellodockertools:dev   "C:\\remote_debugge..."   10 minutes 
 
 ## Publish Docker images
 
-Once the develop and debug cycle of the app is completed, the Visual Studio Tools for Docker assist in creating the production image of the app. Change the configuration drop-down to **Release** and build the app. The tooling acquires the compile/publish image from Docker Hub (if not already in the cache). An image is produced with the *latest* tag, which can be pushed to the private registry or Docker Hub.
+Once the develop and debug cycle of the app is completed, the Visual Studio Tools for Docker assist in creating the production image of the app.
 
-Run the `docker images` command in PMC to see the list of images. Output similar to the following is displayed:
+1. Change the configuration drop-down to **Release** and build the app. 
+1. Right-click your project in **Solution Explorer** and choose **Publish**.
+1. On the publish target dialog, select the **Container Registry** tab.
+1. Choose **New Azure Container Registry** and click **Publish**.
+1. Fill in your desired values in the **Create a new Azure Container Registry**.
 
-```console
-REPOSITORY        TAG                     IMAGE ID      CREATED             SIZE
-hellodockertools  latest                  e3984a64230c  About a minute ago  258MB
-hellodockertools  dev                     d72ce0f1dfe7  4 minutes ago       255MB
-microsoft/dotnet  2.1-sdk                 9e243db15f91  6 days ago          1.7GB
-microsoft/dotnet  2.1-aspnetcore-runtime  fcc3887985bb  6 days ago          255MB
-```
+    | Setting      | Suggested value  | Description                                |
+    | ------------ |  ------- | -------------------------------------------------- |
+    | **DNS Prefix** | Globally unique name | Name that uniquely identifies your container registry. |
+    | **Subscription** | Choose your subscription | The Azure subscription to use. |
+    | **[Resource Group](/azure/azure-resource-manager/resource-group-overview)** | myResourceGroup |  Name of the resource group in which to create your container registry. Choose **New** to create a new resource group.|
+    | **[SKU](https://docs.microsoft.com/azure/container-registry/container-registry-skus)** | Standard | Service tier of the container registry  |
+    | **Registry Location** | A location close to you | Choose a Location in a [region](https://azure.microsoft.com/regions/) near you or near other services that will use your container registry. |
 
-> [!NOTE]
-> The `docker images` command returns intermediary images with repository names and tags identified as *\<none>* (not listed above). These unnamed images are produced by the [multi-stage build](https://docs.docker.com/engine/userguide/eng-image/multistage-build/) *Dockerfile*. They improve the efficiency of building the final image&mdash;only the necessary layers are rebuilt when changes occur. When the intermediary images are no longer needed, delete them using the [docker rmi](https://docs.docker.com/engine/reference/commandline/rmi/) command.
+    ![Visual Studio's create Azure Container Registry dialog][0]
 
-There may be an expectation for the production or release image to be smaller in size by comparison to the *dev* image. Because of the volume mapping, the debugger and app were running from the local machine and not within the container. The *latest* image has packaged the necessary app code to run the app on a host machine. Therefore, the delta is the size of the app code.
+1. Click **Create**
+
+You can now pull the container from the registry to any host capable of running Docker images, for example [Azure Container Instances](/azure/container-instances/container-instances-tutorial-deploy-app).
 
 ## Additional resources
 
@@ -184,3 +168,6 @@ There may be an expectation for the production or release image to be smaller in
 * [Deploy a .NET app in a Windows container to Azure Service Fabric](/azure/service-fabric/service-fabric-host-app-in-a-container)
 * [Troubleshoot Visual Studio 2017 development with Docker](/azure/vs-azure-tools-docker-troubleshooting-docker-errors)
 * [Visual Studio Tools for Docker GitHub repository](https://github.com/Microsoft/DockerTools)
+
+
+[0]:media/vs-azure-tools-docker-hosting-web-apps-in-docker/vs-acr-provisioning-dialog.png
