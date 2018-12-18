@@ -1,58 +1,55 @@
 ---
-title: "BuildProjectOnload Element (Visual Studio Templates) | Microsoft Docs"
-ms.custom: ""
+title: BuildOnLoad attribute and element (Visual Studio Templates)
 ms.date: "11/04/2016"
 ms.technology: vs-ide-general
 ms.topic: reference
-ms.assetid: b07d3074-0fc9-45e1-baf5-da6bd4f3f1c0
+f1_keywords:
+  - "http://schemas.microsoft.com/developer/vstemplate/2005#BuildOnLoad"
+helpviewer_keywords:
+  - "BuildOnLoad attribute [Visual Studio Templates]"
+  - "BuildOnLoad element [Visual Studio Templates]"
+ms.assetid: 950f5fc1-d041-4090-9a5c-60844768a4cc
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: douge
 ms.workload:
   - "vssdk"
 ---
-# BuildProjectOnload element (Visual Studio templates)
-Builds only new projects as you create and add them to a solution. The entire solution isn't built.
+# BuildOnLoad attribute and element
+
+Specifies whether to build the project immediately after it's created. **BuildOnLoad** is both an attribute and an element.
 
 Element hierarchy:
 
 ```xml
 <VSTemplate>
   <TemplateData>
-    <BuildProjectOnLoad>
+    <BuildOnLoad>
 ```
 
-## Syntax
+## Element syntax
 
-```vb
-<BuildProjectOnLoad> true/false </BuildProjectOnLoad>
+```xml
+<BuildOnLoad> true/false </BuildOnLoad>
 ```
 
-## Attributes and elements
- The following sections describe attributes, child elements, and parent elements.
-
-### Attributes
- None.
-
-### Child elements
- None.
-
-### Parent elements
+## Parent elements
 
 |Element|Description|
 |-------------|-----------------|
-|`TemplateData`|Categorizes the template and defines how it appears in both the **New Project** and the **Add New Item** dialog boxes.|
+|[TemplateData](../extensibility/templatedata-element-visual-studio-templates.md)|Categorizes the template and defines how it displays in either the **New Project** or the **Add New Item** dialog box.|
 
 ## Text value
- A text value is required.
 
- The text must be either `true` or `false` to indicate whether to build only the new project when it's created from the template.
+A text value is required for the **BuildOnLoad** element. The text must be either `true` or `false`, indicating whether to build the project immediately after it's created.
 
 ## Remarks
- `BuildProjectOnLoad` is an optional element. The default value is `false`.
+
+**BuildOnLoad** is an optional attribute. The default value is `false`.
 
 ## Example
- The following example illustrates the metadata for a Visual C# template.
+
+The following example illustrates the metadata for a C# template when **BuildOnLoad** is used as an element:
 
 ```xml
 <VSTemplate Type="Project" Version="3.0.0"
@@ -62,7 +59,7 @@ Element hierarchy:
         <Description>A basic template</Description>
         <Icon>TemplateIcon.ico</Icon>
         <ProjectType>CSharp</ProjectType>
-        <BuildProjectOnload>true</BuildProjectOnLoad>
+        <BuildOnLoad>true</BuildOnLoad>
     </TemplateData>
     <TemplateContent>
         <Project File="MyTemplate.csproj">
@@ -81,6 +78,7 @@ Element hierarchy:
 
 ## See also
 
-- [BuildOnLoad attribute and element](buildonload-visual-studio-templates.md)
+- [BuildProjectOnload element](buildprojectonload-element-visual-studio-templates.md)
+- [TemplateContent element](../extensibility/templatecontent-element-visual-studio-templates.md)
 - [Creating project and item templates](../ide/creating-project-and-item-templates.md)
 - [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)

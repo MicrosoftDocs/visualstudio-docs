@@ -138,7 +138,7 @@ While the debugger is paused, you can inspect your variables and call stacks to 
 
 ![Visual Studio run-time value inspection](../ide/media/vs_ide_gs_debug_inspect_value.png)
 
-Hover over a variable to see its current value and references. If you see a value you didn't expect, you probably have a bug in the preceding or calling code. For more in-depth debugging information, [learn more](../debugger/getting-started-with-the-debugger.md) about using the debugger.
+Hover over a variable to see its current value and references. If you see a value you didn't expect, you probably have a bug in the preceding or calling code. For more in-depth debugging information, [learn more](../debugger/debugger-feature-tour.md) about using the debugger.
 
 Additionally, Visual Studio displays the **Diagnostic Tools** window, where you can observe your app's CPU and memory usage over time. Later in your app development, you can use these tools to look for unanticipated heavy CPU usage or memory allocation. Use it in conjunction with the **Watch** window and breakpoints to determine what's causing unexpected heavy usage or unreleased resources. For more information, see [Profiling feature tour](../profiling/profiling-feature-tour.md).
 

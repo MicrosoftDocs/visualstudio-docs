@@ -23,23 +23,9 @@ You can specify commands that run before or after the binaries in a performance 
 
 You can specify commands for all instrumented binaries in the profiling run or for individual binaries. However, you can specify only one pre-instrument command to run before and only one post-instrument command to run after the instrumentation process. You cannot specify commands for both all binaries and for individual binaries. When you specify commands for all binaries, the commands are run before or after the instrumentation of each binary in the session.
 
-The working directory in which the commands are executed depends on the operating systen  where you are running [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] and on the target platform of the profiled application.
+The working directory in which the commands are executed depends on the operating system where you are running [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] and on the target platform of the profiled application.
 
- **32-bit computers**
-
-On 32-bit computers, the default profiler tools directory is *drive\Program Files\Microsoft Visual Studio 10.0\Team Tools\Performance Tools*.
-
-**64-bit computers**
-
-On 64-bit computers, specify the path according to the target platform of the profiled application:
-
-- For 32-bit applications, the default profiler tools directory is:
-
-     *drive\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Performance Tools*
-
-- For 64-bit applications, the default profiler tools directory is:
-
-     *drive\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Performance Tools\x64*
+To get the path to the profiling tools, see [Specify the path to command line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md).
 
 ## To specify pre-instrument commands
 
