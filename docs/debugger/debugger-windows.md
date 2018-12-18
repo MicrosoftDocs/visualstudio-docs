@@ -45,4 +45,4 @@ You can open most debugger windows while you are debugging your program. To see 
 
 ## See Also
 
-[Debugger Basics](../debugger/getting-started-with-the-debugger.md)
+[First look at the debugger](../debugger/debugger-feature-tour.md)
