@@ -40,7 +40,7 @@ In this tutorial, you will:
 
     If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
 
-    If you need to install the workload but already have Visual Studio, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box (select **File** > **New** > **Project**). The Visual Studio Installer launches. Choose the .**NET desktop development** workload, then choose **Modify**.
+    If you need to install the workload but already have Visual Studio, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box (select **File** > **New** > **Project**). The Visual Studio Installer launches. Choose the **.NET desktop development** workload, then choose **Modify**.
 
 ## Create a project
 
@@ -48,7 +48,7 @@ In this tutorial, you will:
 
 2. Under **Visual C#**, choose **Windows Desktop**, and then in the middle pane choose **Console App**.
 
-    If you don't see the **Console Application** project template, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the *.NET desktop development** workload, then choose **Modify**.
+    If you don't see the **Console Application** project template, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the *.NET desktop development* workload, then choose **Modify**.
 
 3. Type a name like **get-started-debugging** and click **OK**.
 
