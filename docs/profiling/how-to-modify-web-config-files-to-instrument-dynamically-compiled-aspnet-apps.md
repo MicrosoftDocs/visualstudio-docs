@@ -167,11 +167,11 @@ You can use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profil
         <appSettings>  
             <add  
                 key="Microsoft.VisualStudio.Enterprise.AspNetHelper.VsInstrLocation"  
-                value="C:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Performance Tools\vsinstr.exe"  
+                value="C:\Program Files\Microsoft Visual Studio 14.0\Team Tools\Performance Tools\vsinstr.exe"  
         />  
             <add  
                 key="Microsoft.VisualStudio.Enterprise.AspNetHelper.VsInstrTools"  
-                value="C:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Performance Tools\"  
+                value="C:\Program Files\Microsoft Visual Studio 14.0\Team Tools\Performance Tools\"  
             />  
         </appSettings>  
     </configuration>  
@@ -212,11 +212,11 @@ You can use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profil
         <appSettings>  
             <add  
                 key="Microsoft.VisualStudio.Enterprise.AspNetHelper.VsInstrLocation"  
-                value="C:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Performance Tools\vsinstr.exe"  
+                value="C:\Program Files\Microsoft Visual Studio 14.0\Team Tools\Performance Tools\vsinstr.exe"  
             />  
             <add  
                 key="Microsoft.VisualStudio.Enterprise.AspNetHelper.VsInstrTools"  
-                value="C:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Performance Tools\"  
+                value="C:\Program Files\Microsoft Visual Studio 14.0\Team Tools\Performance Tools\"  
             />  
         </appSettings>  
     </configuration>  
