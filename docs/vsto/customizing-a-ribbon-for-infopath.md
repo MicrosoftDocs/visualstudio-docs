@@ -11,8 +11,8 @@ dev_langs:
 helpviewer_keywords: 
   - "InfoPath [Office development in Visual Studio], Ribbon"
   - "Ribbon [Office development in Visual Studio], InfoPath"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
