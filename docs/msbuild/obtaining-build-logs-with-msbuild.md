@@ -37,6 +37,19 @@ The build process may be slower when you set the **-verbosity** to `detailed` an
 msbuild MyProject.proj -t:go -v:diag  
 ```  
 
+### Verbosity settings
+
+This table shows how the log verbosity (columns) affects which types of message (rows) are logged.
+
+|                                       | Quiet | Minimal | Normal | Detailed | Diagnostic |
+|---------------------------------------|:-----:|:-------:|:------:|:--------:|:----------:|
+| Errors                                |   ✅   |    ✅    |    ✅   |     ✅    |      ✅     |
+| Warnings                              |   ✅   |    ✅    |    ✅   |     ✅    |      ✅     |
+| High-importance Messages              |       |    ✅    |    ✅   |     ✅    |      ✅     |
+| Normal-importance  Messages           |       |         |    ✅   |     ✅    |      ✅     |
+| Low-importance  Messages              |       |         |        |     ✅    |      ✅     |
+| Additional MSBuild-engine information |       |         |        |          |      ✅     |
+
 ## Save the build log to a file  
  You can use the **-fileLogger** (**fl**) switch to save build data to a file. The following example saves build data to a file that's named *msbuild.log*.  
   
