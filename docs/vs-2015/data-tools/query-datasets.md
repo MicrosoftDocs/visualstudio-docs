@@ -57,15 +57,15 @@ To search for specific records in a dataset,  use the FindBy method on the DataT
      [!code-csharp[VbRaddataEditing#20](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataEditing/CS/Form1.cs#20)]
      [!code-vb[VbRaddataEditing#20](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataEditing/VB/Form1.vb#20)]  
   
-## Accessrelated records  
- When tables in a dataset are related, a <xref:System.Data.DataRelation> object can make  the related records available in another table. For example, a dataset containing `Customers` and `Orders` tables can be made available.  
+## Access related records  
+ When tables in a dataset are related, a <xref:System.Data.DataRelation> object can make the related records available in another table. For example, a dataset containing `Customers` and `Orders` tables can be made available.  
   
  You can use a <xref:System.Data.DataRelation> object to locate related records by calling the <xref:System.Data.DataRow.GetChildRows%2A> method of a <xref:System.Data.DataRow> in the parent table.This method returns an array of related child records. Or you can call the <xref:System.Data.DataRow.GetParentRow%2A> method of a <xref:System.Data.DataRow> in the child table.This method returns a single <xref:System.Data.DataRow> from the parent table.  
   
  This page provides examples using typed datasets. For information about navigating relationships in untyped datasets, see [Navigating DataRelations](http://msdn.microsoft.com/library/e5e673f4-9b44-45ae-aaea-c504d1cc5d3e).  
   
 > [!NOTE]
->  If you are working in a Windows Forms application and using the data-binding features to display data, the designer-generated form might provide enough functionality for your application. For more information, see [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md). Specifically, see[How to: Display Related Data in a Windows Forms Application](../data-tools/how-to-display-related-data-in-a-windows-forms-application.md) and [Walkthrough: Displaying Related Data on a Windows Form](../data-tools/walkthrough-displaying-related-data-on-a-windows-form.md).  
+> If you are working in a Windows Forms application and using the data-binding features to display data, the designer-generated form might provide enough functionality for your application. For more information, see [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md).  
   
  The following code examples demonstrate how to navigate up and down relationships in typed datasets. The code examples use typed <xref:System.Data.DataRow>s (`NorthwindDataSet.OrdersRow`) and the generated `FindBy`*PrimaryKey* (`FindByCustomerID`) methods to locate a desired row and return the related records. The examples compile and run correctly only if you have:  
   
@@ -75,7 +75,7 @@ To search for specific records in a dataset,  use the FindBy method on the DataT
   
 - A relationship named `FK_Orders_Customers`relating the two tables available to the scope of your code  
   
-  Additionally, both tables need to be filled with data for any records to be returned.  
+Additionally, both tables need to be filled with data for any records to be returned.  
   
 #### To return the child records of a selected parent record  
   
@@ -90,4 +90,3 @@ To search for specific records in a dataset,  use the FindBy method on the DataT
   
      [!code-csharp[VbRaddataDatasets#7](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataDatasets/CS/Form1.cs#7)]
      [!code-vb[VbRaddataDatasets#7](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataDatasets/VB/Form1.vb#7)]
-
