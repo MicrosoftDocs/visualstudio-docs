@@ -9,7 +9,7 @@ ms.technology: vs-azure
 ---
 # Quickstart: Visual Studio Tools for Docker
 
-Visual Studio 2017 supports building, debugging, and running containerized ASP.NET Core apps targeting .NET Core. Both Windows and Linux containers are supported.
+With Visual Studio 2017, you can easily build, debug, and run containerized ASP.NET Core apps and publish them to Azure Container Registry.
 
 [View or download sample code](https://github.com/aspnet/Docs/tree/master/aspnetcore/host-and-deploy/docker/visual-studio-tools-for-docker/samples) ([how to download](xref:index#how-to-download-a-sample))
 
@@ -32,30 +32,22 @@ For Docker installation, first review the information at [Docker for Windows: Wh
 
 ## Add a project to a Docker container
 
-To containerize an ASP.NET Core project, the project must target .NET Core. Both Linux and Windows containers are supported.
+1. From the Visual Studio menu, select **File > New > Project**.
+1. Under the **Templates** section of the **New Project** dialog box, select **Visual C# > Web**.
+1. Select **ASP.NET Core Web Application**.
+1. Give your new application a name (or take the default) and select **OK**.
+1. Select **Web Application**.
+1. Check the **Enable Docker Support** checkbox.
 
-When adding Docker support to a project, choose either a Windows or a Linux container. The Docker host must be running the same container type. To change the container type in the running Docker instance, right-click the System Tray's Docker icon and choose **Switch to Windows containers...** or **Switch to Linux containers...**.
+   ![Enable Docker Support check box](media/enable-docker-support-check-box.png)
 
-### New app
+1. Select the type of container you want (Windows or Linux) and click **OK**.
 
-When creating a new app with the **ASP.NET Core Web Application** project templates, select the **Enable Docker Support** check box:
-
-![Enable Docker Support check box](media/enable-docker-support-check-box.png)
-
-If the target framework is .NET Core, the **OS** drop-down allows for the selection of a container type.
-
-### Existing app
-
-For ASP.NET Core projects targeting .NET Core, there are two options for adding Docker support via the tooling. Open the project in Visual Studio, and choose one of the following options:
-
-* Select **Docker Support** from the **Project** menu.
-* Right-click the project in **Solution Explorer** and select **Add** > **Docker Support**.
-
-The Visual Studio Tools for Docker don't support adding Docker to an existing ASP.NET Core project targeting .NET Framework.
+   When adding Docker support to a project, choose either a Windows or a Linux container. The Docker host must be running the same container type. To change the container type in the running Docker instance, right-click the System Tray's Docker icon and choose **Switch to Windows containers...** or **Switch to Linux containers...**.
 
 ## Dockerfile overview
 
-A *Dockerfile*, the recipe for creating a final Docker image, is added to the project root. Refer to [Dockerfile reference](https://docs.docker.com/engine/reference/builder/) for an understanding of the commands within it. This particular *Dockerfile* uses a [multi-stage build](https://docs.docker.com/engine/userguide/eng-image/multistage-build/) with four distinct, named build stages:
+A *Dockerfile*, the recipe for creating a final Docker image, is created in the project. Refer to [Dockerfile reference](https://docs.docker.com/engine/reference/builder/) for an understanding of the commands within it.:
 
 ```
 FROM microsoft/dotnet:2.1-aspnetcore-runtime AS base
@@ -80,7 +72,7 @@ COPY --from=publish /app .
 ENTRYPOINT ["dotnet", "HelloDockerTools.dll"]
 ```
 
-The preceding *Dockerfile* is based on the [microsoft/aspnetcore](https://hub.docker.com/r/microsoft/aspnetcore/) image. This base image includes the ASP.NET Core NuGet packages, which are just-in-time (JIT) compiled to improve startup performance.
+The preceding *Dockerfile* is based on the [microsoft/aspnetcore](https://hub.docker.com/r/microsoft/aspnetcore/) image, and includes instructions for modifying the base image by building your project and adding it to the container. This base image includes the ASP.NET Core NuGet packages, which are just-in-time (JIT) compiled to improve startup performance.
 
 When the new project dialog's **Configure for HTTPS** check box is checked, the *Dockerfile* exposes two ports. One port is used for HTTP traffic; the other port is used for HTTPS. If the check box isn't checked, a single port (80) is exposed for HTTP traffic.
 
@@ -100,20 +92,6 @@ The resulting Docker image of the app is tagged as *dev*. The image is based on 
 REPOSITORY        TAG                     IMAGE ID      CREATED         SIZE
 hellodockertools  dev                     d72ce0f1dfe7  30 seconds ago  255MB
 microsoft/dotnet  2.1-aspnetcore-runtime  fcc3887985bb  6 days ago      255MB
-```
-
-* The *microsoft/aspnetcore* runtime image is acquired (if not already in the cache).
-* The `ASPNETCORE_ENVIRONMENT` environment variable is set to `Development` within the container.
-* Port 80 is exposed and mapped to a dynamically assigned port for localhost. The port is determined by the Docker host and can be queried with the `docker ps` command.
-* The app is copied to the container.
-* The default browser is launched with the debugger attached to the container using the dynamically assigned port.
-
-The resulting Docker image of the app is tagged as *dev*. The image is based on the *microsoft/aspnetcore* base image. Run the `docker images` command in the **Package Manager Console** (PMC) window. The images on the machine are displayed:
-
-```console
-REPOSITORY            TAG  IMAGE ID      CREATED        SIZE
-hellodockertools      dev  5fafe5d1ad5b  4 minutes ago  347MB
-microsoft/aspnetcore  2.0  c69d39472da9  13 days ago    347MB
 ```
 
 > [!NOTE]
