@@ -215,7 +215,7 @@ Two-stage update process and the role of the DataRowVersion in a successful upda
   
  You can validate data in several ways:  
   
-- In the business layer, by adding code to your application to validate data. The dataset is one place you can do this. The dataset provides some of the advantages of back-end validation — such as the ability to validate changes as column and row values are changing. For more information, see [Validate data in datasets](../data-tools/validate-data-in-datasets.md).  
+- In the business layer, by adding code to your application to validate data. The dataset is one place you can do this. The DataSet Designer provides some of the advantages of back-end validation — such as the ability to validate changes as column and row values are changing. For more information, see [Validate data in datasets](../data-tools/validate-data-in-datasets.md).  
   
 - In the presentation layer, by adding validation to forms. For more information, see [User Input Validation in Windows Forms](http://msdn.microsoft.com/library/4ec07681-1dee-4bf9-be5e-718f635a33a1).  
   
@@ -269,14 +269,7 @@ Two-stage update process and the role of the DataRowVersion in a successful upda
 >  You can also set values in the `Parameters` collection yourself in code, which you would typically do in an event handler for the data adapter's <xref:System.Data.DataTable.RowChanging> event.  
   
 ## See Also  
- [TableAdapter Overview](../data-tools/tableadapter-overview.md)   
  [Update data by using a TableAdapter](../data-tools/update-data-by-using-a-tableadapter.md)   
- [Overview of Data Applications in Visual Studio](../data-tools/overview-of-data-applications-in-visual-studio.md)   
- [Connecting to Data in Visual Studio](../data-tools/connecting-to-data-in-visual-studio.md)   
  [Preparing Your Application to Receive Data](http://msdn.microsoft.com/library/c17bdb7e-c234-4f2f-9582-5e55c27356ad)   
- [Fetching Data into Your Application](../data-tools/fetching-data-into-your-application.md)   
  [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md)   
- [Editing Data in Your Application](../data-tools/editing-data-in-your-application.md)   
  [Validating Data](http://msdn.microsoft.com/library/b3a9ee4e-5d4d-4411-9c56-c811f2b4ee7e)   
- [Saving Data](../data-tools/saving-data.md)
-

@@ -31,7 +31,7 @@ manager: "ghogen"
 This walkthrough demonstrates how to save data in a transaction by using the <xref:System.Transactions> namespace. This example uses the `Customers` and `Orders` tables from the Northwind sample database.  
   
 ## Prerequisites  
- This walkthrough requires access to the Northwind sample database. For information about setting up the Northwind sample database, see [How to: Install Sample Databases](../data-tools/how-to-install-sample-databases.md).  
+ This walkthrough requires access to the Northwind sample database.
   
 ## Create a Windows application  
  The first step is to create a **Windows Application**.  
@@ -84,14 +84,14 @@ This walkthrough demonstrates how to save data in a transaction by using the <xr
   
 -   Drag the main **Customers** node from the **Data Sources** window onto **Form1**.  
   
-     A <xref:System.Windows.Forms.DataGridView> control and a tool strip (<xref:System.Windows.Forms.BindingNavigator>) for navigating records appear on the form. A [NorthwindDataSet](../data-tools/dataset-tools-in-visual-studio.md), [CustomersTableAdapter](../data-tools/tableadapter-overview.md),<xref:System.Windows.Forms.BindingSource>, and <xref:System.Windows.Forms.BindingNavigator> appear in the component tray.  
+     A <xref:System.Windows.Forms.DataGridView> control and a tool strip (<xref:System.Windows.Forms.BindingNavigator>) for navigating records appear on the form. A [NorthwindDataSet](../data-tools/dataset-tools-in-visual-studio.md), CustomersTableAdapter, <xref:System.Windows.Forms.BindingSource>, and <xref:System.Windows.Forms.BindingNavigator> appear in the component tray.  
   
 -   Drag the related **Orders** node (not the main **Orders** node, but the related child-table node below the **Fax** column) onto the form below the **CustomersDataGridView**.  
   
-     A <xref:System.Windows.Forms.DataGridView> appears on the form. An [OrdersTableAdapter](../data-tools/tableadapter-overview.md) and <xref:System.Windows.Forms.BindingSource> appear in the component tray.  
+     A <xref:System.Windows.Forms.DataGridView> appears on the form. An OrdersTableAdapter and <xref:System.Windows.Forms.BindingSource> appear in the component tray.  
   
 ## Add a reference to the System.Transactions assembly  
- Transactions use the <xref:System.Transactions> namespace. A project reference to the system.transactions assembly is not added by default, so you need to manually add it.  
+ Transactions use the <xref:System.Transactions> namespace. A project reference to the System.Transactions assembly is not added by default, so you need to manually add it.  
   
 #### To add a reference to the System.Transactions DLL file  
   
@@ -159,4 +159,3 @@ This walkthrough demonstrates how to save data in a transaction by using the <xr
   
 ## See Also  
  [Save data back to the database](../data-tools/save-data-back-to-the-database.md)
-
