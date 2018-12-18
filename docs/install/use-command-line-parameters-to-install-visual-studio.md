@@ -51,7 +51,7 @@ The command-line options are used in conjunction with the setup bootstrapper, wh
 | `update` | Updates an installed product. |
 | `repair` | Repairs an installed product. |
 | `uninstall` | Uninstalls an installed product. |
-| `export` | **New in 15.9**: Exports installation selection to an installation configuration file. |
+| `export` | **New in 15.9**: Exports installation selection to an installation configuration file. **Note**: Can only be used with vs_installer.exe. |
 
 | **Install option** | **Description** |
 | ----------------------- | --------------- |
