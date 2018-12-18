@@ -239,7 +239,7 @@
       - name: Custom views (managed)
         items:
         - name: Create custom views of managed objects
-          href: create-custom-views-of-dot-managed-objects.md
+          href: create-custom-views-of-managed-objects.md
         - name: Tell the debugger what to show
           href: using-the-debuggerdisplay-attribute.md
         - name: Tell the debugger what type to show
