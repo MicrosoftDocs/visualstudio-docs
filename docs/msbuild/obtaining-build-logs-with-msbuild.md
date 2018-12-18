@@ -39,7 +39,7 @@ msbuild MyProject.proj -t:go -v:diag
 
 ### Verbosity settings
 
-This table shows how the log verbosity (columns) affects which types of message (rows) are logged.
+The following table shows how the log verbosity (column values) affects which types of message (row values) are logged.
 
 |                                       | Quiet | Minimal | Normal | Detailed | Diagnostic |
 |---------------------------------------|:-----:|:-------:|:------:|:--------:|:----------:|
