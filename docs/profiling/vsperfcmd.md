@@ -83,7 +83,7 @@ VSPerfCmd [/U] [/options]
 |**Admin:** \<*Service*&#124;*Driver*>**AutoStart**\<**ON**&#124;**OFF**>|Enables or disables automatically starting the profiling service (service) or kernel mode device driver (driver) after a restart.|  
   
 ## VSPerfCmd /Driver  
- The **VSPerfCmd /Driver** option is now obsolete. Use the **VsPerfCmdAdmin** options for this functionality.  
+ The **VSPerfCmd /Driver** option is now obsolete. Use the **VsPerfCmd Admin** options for this functionality.  
   
 ## See also  
  [VSInstr](../profiling/vsinstr.md)   
