@@ -44,7 +44,7 @@ int main()
 
 ## Set a thread name using SetThreadName
 
-To set a thread name in your program, you can also use the the `SetThreadName` function, as shown in the following code example. Note that the thread name is copied to the thread so that the memory for the `threadName` parameter can be released.  This method uses an exception-based approach that only works if the debugger is attached at the time the exception-based method is used. These names will not be available in dumps or performance analysis tools.
+To set a thread name in your program, you can also use the the `SetThreadName` function, as shown in the following code example. Note that the thread name is copied to the thread so that the memory for the `threadName` parameter can be released.  This method uses an exception-based approach that only works if the debugger is attached at the time the exception-based method is used. A thread name that you set using this method will not be available in dumps or performance analysis tools.
 
 The following code example shows how to use `SetThreadName`:
 
