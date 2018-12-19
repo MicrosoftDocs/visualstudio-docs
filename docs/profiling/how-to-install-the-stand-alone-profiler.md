@@ -21,8 +21,10 @@ ms.workload:
 >  When you are using the stand-alone profiler to collect performance data for an ASP.NET web site, the [VSPerfASPNetCmd](../profiling/vsperfaspnetcmd.md) line tool is recommended over [VSPerfCmd](../profiling/vsperfcmd.md) tool.  
   
 ### To install the stand-alone profiler  
-  
-1. Locate the stand-alone profile installer (*vs_profiler.exe*) on the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] installation media in the directory that includes the *\Standalone Profiler* path and run it.  
+
+1. Download the [Performance Tools for Visual Studio](https://visualstudio.microsoft.com/downloads/?q=performance+tools#performance-tools-for-visual-studio-2017).
+
+1. Locate the stand-alone profile installer (*vs_standaloneprofiler.exe*) where you downloaded the performance tools and run it.
   
 2. Add the paths for *vsintr.exe* and *msdis150.dll* to the system path.  
   
