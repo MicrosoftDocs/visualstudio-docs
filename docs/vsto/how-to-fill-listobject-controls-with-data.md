@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "data [Office development in Visual Studio], adding to worksheets"
   - "data binding, ListObject controls"
   - "worksheets, populating with data"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

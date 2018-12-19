@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "controls [Office development in Visual Studio], hiding while printing"
   - "printing [Office development in Visual Studio], hiding controls"
   - "worksheets, hiding controls when printing"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
