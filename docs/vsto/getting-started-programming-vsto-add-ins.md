@@ -13,8 +13,8 @@ dev_langs:
 helpviewer_keywords: 
   - "application-level add-ins [Office development in Visual Studio], getting started"
   - "add-ins [Office development in Visual Studio], getting started"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
