@@ -73,7 +73,7 @@ The properties of the attribute include:
 
    - `namespace` - This scope suppresses warnings against the namespace itself. It does not suppress warnings against types within the namespace.
 
-   - `namespaceandchildren` - (New for Visual Studio 2019) This scope suppresses warnings in a namespace and all its descendant symbols. The `namespaceandchildren` value is only valid for Roslyn analyzers, and is ignored by binary, FxCop-based static analysis.
+   - `namespaceanddescendants` - (New for Visual Studio 2019) This scope suppresses warnings in a namespace and all its descendant symbols. The `namespaceanddescendants` value is only valid for Roslyn analyzers, and is ignored by binary, FxCop-based static analysis.
 
 - **Target** - An identifier that is used to specify the target on which the warning is being suppressed. It must contain a fully qualified item name.
 
