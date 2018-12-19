@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "Word [Office development in Visual Studio]"
   - "Word documents"
   - "host items [Office development in Visual Studio], Document"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

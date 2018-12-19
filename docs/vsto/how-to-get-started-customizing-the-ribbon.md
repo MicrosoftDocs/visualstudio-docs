@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "Ribbon [Office development in Visual Studio], adding"
   - "Ribbon [Office development in Visual Studio], customizing"
   - "customizing the Ribbon, adding Ribbon to project"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

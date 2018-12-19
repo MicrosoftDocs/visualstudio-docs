@@ -11,8 +11,8 @@ dev_langs:
 helpviewer_keywords: 
   - "dialog box launcher [Office development in Visual Studio]"
   - "Ribbon [Office development in Visual Studio], dialog box launcher"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

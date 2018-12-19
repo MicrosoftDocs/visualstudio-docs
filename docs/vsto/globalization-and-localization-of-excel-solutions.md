@@ -10,8 +10,8 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "globalization [Office development in Visual Studio], configuring"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

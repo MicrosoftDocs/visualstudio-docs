@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "Bookmark control, adding to documents"
   - "Create Bookmark Control dialog box"
   - "controls [Office development in Visual Studio], adding to documents"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

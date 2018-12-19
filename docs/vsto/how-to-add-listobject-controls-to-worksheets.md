@@ -11,8 +11,8 @@ dev_langs:
 helpviewer_keywords: 
   - "ListObject control, adding to worksheets"
   - "controls [Office development in Visual Studio], adding to worksheets"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
