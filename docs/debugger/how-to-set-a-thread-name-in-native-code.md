@@ -5,9 +5,6 @@ ms.date: "12/17/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
-  - "CSharp"
-  - "VB"
-  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "debugging [C++], threads"
@@ -24,10 +21,30 @@ ms.workload:
 ---
 # How to: Set a Thread Name in Native Code
 Thread naming is possible in any edition of Visual Studio. Thread naming is useful for keeping track of threads in the **Threads** window.
-  
-## Set a thread name for use with the debugger
 
-To set a thread name in your program, use the `SetThreadName` function, as shown in the following code example. Note that the thread name is copied to the thread so that the memory for the `threadName` parameter can be released.  
+## Set a thread name
+
+The `SetThreadName` function is useful for setting and viewing threads if the debugger is attached to your running code. Starting in Visual Studio 2017 version 15.6, you can use the [SetThreadDescription](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreaddescription) function to set and view thread names.
+
+```C++
+#include <windows.h>
+#include <processthreadsapi.h>
+
+int main()
+{
+    HRESULT r;
+    r = SetThreadDescription(
+        GetCurrentThread(),
+        L"ThisIsMyThreadName!"
+    );
+
+    return 0;
+}
+```
+
+## Set a thread name using SetThreadName
+
+To set a thread name in your program, you can also use the the `SetThreadName` function, as shown in the following code example. Note that the thread name is copied to the thread so that the memory for the `threadName` parameter can be released.  This method uses an exception-based approach that only works if the debugger is attached at the time the exception-based method is used. A thread name that you set using this method will not be available in dumps or performance analysis tools.
 
 The following code example shows how to use `SetThreadName`:
 
@@ -62,10 +79,6 @@ void SetThreadName(DWORD dwThreadID, const char* threadName) {
 #pragma warning(pop)  
 }  
 ```  
-
-## Set a thread name for minidumps
-
-The `SetThreadName` function is useful for setting and viewing threads if the debugger is attached to your running code. If you are debugging using minidumps, you can use the [SetThreadDescription](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreaddescription) function to set and view thread names.
 
 ## See Also  
  [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)   
