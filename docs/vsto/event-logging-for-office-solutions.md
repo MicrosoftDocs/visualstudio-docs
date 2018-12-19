@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "ClickOnce deployment [Office development in Visual Studio], event viewer"
   - "deploying applications [Office development in Visual Studio], event viewer"
   - "Office development in Visual Studio, event viewer"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
