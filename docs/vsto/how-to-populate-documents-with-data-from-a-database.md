@@ -11,8 +11,8 @@ dev_langs:
 helpviewer_keywords:
   - "documents, populating with data"
   - "data, adding to documents"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload:
   - "office"
