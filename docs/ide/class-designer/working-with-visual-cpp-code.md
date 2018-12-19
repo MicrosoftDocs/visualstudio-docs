@@ -42,7 +42,7 @@ ms.workload:
 - Typedef
 
 > [!NOTE]
-> This is not the same as the UML class diagram, which you can create in a Modeling Project. For more information, see [UML Class Diagrams: Reference](../../modeling/uml-class-diagrams-reference.md).
+> This is not the same as the UML class diagram, which you can create in a Modeling Project. For more information, see [UML Class Diagrams: Reference](/visualstudio/modeling/create-uml-modeling-projects-and-diagrams).
 
 ## Troubleshoot type resolution and display issues
 
@@ -107,7 +107,7 @@ You can find assistance with troubleshooting errors and warnings in the Microsof
 ## See also
 
 - [Designing and Viewing Classes and Types](designing-and-viewing-classes-and-types.md)
-- [Working with Class Diagrams](working-with-class-diagrams.md)
+- [Working with Class Diagrams](/visualstudio/ide/class-designer/designing-and-viewing-classes-and-types)
 - [Designing and Viewing Classes and Types](designing-and-viewing-classes-and-types.md)
 - [Additional Information About Class Designer Errors](additional-information-about-errors.md)
 - [Visual C++ Classes in Class Designer](visual-cpp-classes.md)

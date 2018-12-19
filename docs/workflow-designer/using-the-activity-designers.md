@@ -24,7 +24,7 @@ The Workflow Designer includes a number of system-provided activities that you c
 
 ## Related Sections
 
- [Using the Workflow Designer](../workflow-designer/using-the-workflow-designer.md)
+ [Using the Workflow Designer](/visualstudio/workflow-designer/developing-applications-with-the-workflow-designer)
 
  [Debugging Workflows with the Workflow Designer](../workflow-designer/debugging-workflows-with-the-workflow-designer.md)
 

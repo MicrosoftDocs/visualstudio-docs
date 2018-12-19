@@ -153,5 +153,5 @@ To learn more about unit tests in Visual Studio and how they can help you create
 ## See also
 
 - [Debugger feature tour](../debugger/debugger-feature-tour.md)
-- [Learn more about using the debugger](../debugger/getting-started-with-the-debugger.md)
+- [Learn more about using the debugger](/visualstudio/debugger/debugger-feature-tour.md)
 - [Generate and fix code](../ide/code-generation-in-visual-studio.md)

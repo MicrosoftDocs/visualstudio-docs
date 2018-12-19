@@ -45,5 +45,5 @@ You can use **Quick Launch** to quickly search and execute actions for IDE asset
 
 ## See Also
 
-- [General User Interface Elements (Visual Studio)](../../ide/reference/general-user-interface-elements-visual-studio.md)
+- [General User Interface Elements (Visual Studio)](/visualstudio/ide/reference/call-hierarchy)
 - [Environment Options Dialog Box](../../ide/reference/environment-options-dialog-box.md)

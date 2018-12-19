@@ -217,7 +217,7 @@ You can navigate and view snapshots by using the **Step Backward** and **Step Fo
 
 ![The New Exception Helper dialog in Visual Studio](../debugger/media/intellitrace-step-back-icons-description.png  "Step Backward and Forward buttons")
 
-For more information, see the [View snapshots using IntelliTrace step-back](../debugger/how-to-use-intellitrace-step-back.md) page.
+For more information, see the [View snapshots using IntelliTrace step-back](/visualstudio/debugger/view-historical-application-state) page.
 
 ### Containerization
 
@@ -272,7 +272,7 @@ For more information about UWP, see the [Develop apps for the Universal Windows 
 
 As part of the "Mobile development with .NET" workload, developers familiar with C#, .NET, and Visual Studio can deliver native Android, iOS, and Windows apps by using Xamarin. Developers can enjoy the same the power and productivity when working with Xamarin for mobile apps, including remote debugging on Android, iOS, and Windows devices&mdash;without having to learn native coding languages like Objective-C or Java.
 
-For more information, see the [Visual Studio and Xamarin](../cross-platform/visual-studio-and-xamarin.md) page.
+For more information, see the [Visual Studio and Xamarin](/xamarin/) page.
 
 ### Entitlements editor
 

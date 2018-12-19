@@ -61,4 +61,4 @@ In **Solution Explorer** or **Class View**, right-click the project and choose *
 
 - [How to: View Inheritance Between Types](how-to-view-inheritance-between-types.md)
 - [How to: Customize Class Diagrams](how-to-customize-class-diagrams.md)
-- [Viewing Types and Relationships](viewing-types-and-relationships.md)
+- [Viewing Types and Relationships](/visualstudio/ide/class-designer/designing-and-viewing-classes-and-types)

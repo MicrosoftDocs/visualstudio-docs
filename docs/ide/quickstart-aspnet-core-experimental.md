@@ -102,7 +102,7 @@ Congratulations on completing this Quickstart! We hope you learned a little bit 
 To learn more, continue with the following tutorial:
 
 > [!div class="nextstepaction"]
-> [Get started with C# and ASP.NET in Visual Studio](tutorial-csharp-aspnet-core.md)
+> [Get started with C# and ASP.NET in Visual Studio](/visualstudio/get-started/csharp/tutorial-aspnet-core)
 
 ## See also
 

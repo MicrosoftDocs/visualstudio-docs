@@ -129,7 +129,7 @@ We've added a ton of new debugging capabilities in Visual Studio 2017:
 
 - *Run to click* allows you to hover next to a line of code, hit the green 'play' icon that appears, and run your program until it reaches that line.
 - The new **Exception Helper** puts the most important information, like which variable is 'null' in a NullReferenceException, at the top-level in the dialog.
-- [Step Back](../debugger/how-to-use-intellitrace-step-back.md) debugging enables you to go back to previous breakpoints or steps and view the state of the application as it was in the past.
+- [Step Back](/visualstudio/debugger/view-historical-application-state) debugging enables you to go back to previous breakpoints or steps and view the state of the application as it was in the past.
 - [Snapshot debugging](/azure/application-insights/app-insights-snapshot-debugger) lets you investigate the state of a live web application at the moment an exception was thrown (must be on Azure).
 
 ![New Exception Helper in Visual Studio 2017](../ide/media/VSGuide_Debugging.png)

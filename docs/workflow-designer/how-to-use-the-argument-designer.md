@@ -31,5 +31,5 @@ Compared to previous versions of the .NET Framework, the argument designer makes
 
 ## See also
 
-- [Using the Workflow Designer](../workflow-designer/using-the-workflow-designer.md)
+- [Using the Workflow Designer](/visualstudio/workflow-designer/developing-applications-with-the-workflow-designer)
 - [Variables and Arguments](/dotnet/framework/windows-workflow-foundation/variables-and-arguments)

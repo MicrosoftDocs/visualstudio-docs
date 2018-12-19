@@ -14,7 +14,7 @@ ms.workload:
   - "multiple"
 ---
 # Notifications, Environment, Options Dialog Box
-Use this option to stop ignoring any notifications that you previously chose to ignore through the Notifications dialog. For more information, see [Notifications](../../ide/visual-studio-notifications.md).
+Use this option to stop ignoring any notifications that you previously chose to ignore through the Notifications dialog. For more information, see [Notifications](/visualstudio/install/update-visual-studio).
 
 ### See Also
 

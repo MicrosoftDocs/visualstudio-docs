@@ -48,7 +48,7 @@ The parameter in bold indicates the next parameter that is required as you type 
 
 ![Parameter Info](../ide/media/vs2015_param_info.png)
 
-When you annotate functions and parameters with XML Documentation comments, the comments will display as Parameter Info. For more information, see [Supply XML code comments](../ide/supplying-xml-code-comments.md).
+When you annotate functions and parameters with XML Documentation comments, the comments will display as Parameter Info. For more information, see [Supply XML code comments](/visualstudio/ide/reference/generate-xml-documentation-comments).
 
 You can manually invoke Parameter Info by choosing **Edit** > **IntelliSense** > **Parameter Info**, by pressing **Ctrl**+**Shift**+**Space**, or by choosing the **Parameter Info** button on the editor toolbar.
 
@@ -98,4 +98,4 @@ MessageBox( hWnd, "String literal|")
 - [C# IntelliSense](../ide/visual-csharp-intellisense.md)
 - [JavaScript IntelliSense](../ide/javascript-intellisense.md)
 - [Write and refactor code (C++)](/cpp/ide/writing-and-refactoring-code-cpp)
-- [Supply XML code comments](../ide/supplying-xml-code-comments.md)
+- [Supply XML code comments](/visualstudio/ide/reference/generate-xml-documentation-comments)

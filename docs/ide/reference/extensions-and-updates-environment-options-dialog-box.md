@@ -17,7 +17,7 @@ ms.workload:
 Use this page to set options for how Visual Studio performs updates and how extensions are updated and discovered.
 
 ### Automatically check for updates
- When checked, Visual Studio will check periodically for updates to itself, installed SDKs and tools, and extensions, and display notifications in the menu bar when updates are available. For more information, see [Notifications](../../ide/visual-studio-notifications.md).
+ When checked, Visual Studio will check periodically for updates to itself, installed SDKs and tools, and extensions, and display notifications in the menu bar when updates are available. For more information, see [Notifications](/visualstudio/install/update-visual-studio).
 
 ### Automatically update extensions
  When checked, updates to extensions are made without prompting. For more information, see [Finding and Using Visual Studio Extensions](../../ide/finding-and-using-visual-studio-extensions.md).

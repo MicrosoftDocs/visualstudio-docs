@@ -32,7 +32,7 @@ You can do nearly everything in the Visual Studio IDE as a normal user. You need
 |Building|Use post-build events that register a component.|[Understand custom build steps and build events](/cpp/ide/understanding-custom-build-steps-and-build-events)|
 ||Include a registration step when you build C++ projects.||
 |Debugging|Debug applications that run with elevated permissions.|[Debugger settings and preparation](../debugger/debugger-settings-and-preparation.md)|
-||Debug applications that a run under a different user account, such as ASP.NET websites.|[Debug ASP.NET and AJAX applications](../debugger/debugging-aspnet-and-ajax-applications.md)|
+||Debug applications that a run under a different user account, such as ASP.NET websites.|[Debug ASP.NET and AJAX applications](/visualstudio/debugger/how-to-enable-debugging-for-aspnet-applications)|
 ||Debug in Zone for XAML Browser Applications (XBAP).|[WPF host (PresentationHost.exe)](/dotnet/framework/wpf/app-development/wpf-host-presentationhost-exe)|
 ||Use the emulator to debug cloud service projects for Microsoft Azure.|[Debug a cloud service in Visual Studio](/azure/vs-azure-tools-debug-cloud-services-virtual-machines)|
 ||Configure a firewall for remote debugging.|[Remote debugging](../debugger/remote-debugging.md)|

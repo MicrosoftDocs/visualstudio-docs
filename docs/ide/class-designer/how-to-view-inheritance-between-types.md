@@ -44,4 +44,4 @@ You can also right-click the type for which you want to see its derived types, a
 ## See also
 
 - [How to: Create Associations Between Types](how-to-create-associations-between-types.md)
-- [Viewing Types and Relationships](viewing-types-and-relationships.md)
+- [Viewing Types and Relationships](/visualstudio/ide/class-designer/designing-and-viewing-classes-and-types)

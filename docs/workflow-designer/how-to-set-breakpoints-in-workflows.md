@@ -36,6 +36,6 @@ A breakpoint has three states: *Pending*, *Bound*, and *Error*. When you set a b
 
 ## See also
 
-- [How to: Invoke the Workflow Debugger](../workflow-designer/how-to-invoke-the-workflow-debugger.md)
+- [How to: Invoke the Workflow Debugger](/visualstudio/workflow-designer/debugging-workflows-with-the-workflow-designer)
 - [Debugging Workflows with the Workflow Designer](../workflow-designer/debugging-workflows-with-the-workflow-designer.md)
 - [How to: Debug XAML with the Workflow Designer](../workflow-designer/how-to-debug-xaml-with-the-workflow-designer.md)
