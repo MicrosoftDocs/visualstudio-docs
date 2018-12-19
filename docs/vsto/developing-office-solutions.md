@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "Office development in Visual Studio, about developing solutions"
   - "solutions [Office development in Visual Studio], developing"
   - "Office solutions [Office development in Visual Studio], developing"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
