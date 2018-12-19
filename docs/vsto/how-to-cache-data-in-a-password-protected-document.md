@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "data caching [Office development in Visual Studio], protected documents"
   - "datasets [Office development in Visual Studio], caching"
   - "data [Office development in Visual Studio], caching"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

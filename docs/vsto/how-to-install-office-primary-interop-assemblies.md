@@ -11,8 +11,8 @@ dev_langs:
 helpviewer_keywords: 
   - "primary interop assemblies [Office development in Visual Studio], installing"
   - "Office primary interop assemblies, installing"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

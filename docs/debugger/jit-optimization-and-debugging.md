@@ -28,7 +28,7 @@ In the .NET ecosystem, code is turned from source to CPU instructions in a two-s
 
 **The 'Suppress JIT optimization on module load (Managed only)' option:** The debugger exposes an option that controls what happens when a DLL that is compiled with optimizations enabled loads inside of the target process. If this option is unchecked (the default state), then when the .NET Runtime compiles the MSIL code into CPU code, it leaves the optimizations enabled. If the option is checked, then the debugger requests that optimizations be disabled.
 
-The **Suppress JIT optimization on module load (Managed only)** option can be found on the **General** page under the **Debugging** node in the **Options** dialog box.
+To find the **Suppress JIT optimization on module load (Managed only)** option, select **Tools** > **Options**, and then select the **General** page under the **Debugging** node.
 
 **When should you check this option:** Check this option when you downloaded the DLLs from another source, such as a nuget package, and you want to debug the code in this DLL. In order for this to work, you must also find the symbol (.pdb) file for this DLL.
 

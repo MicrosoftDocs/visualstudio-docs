@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "Office development in Visual Studio, creating solutions"
   - "solutions [Office development in Visual Studio], creating"
   - "Office project types in Visual Studio"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

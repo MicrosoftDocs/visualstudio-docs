@@ -222,9 +222,8 @@ ADO.NET provides simple methods for working with XML data. In this walkthrough, 
      [!code-vb[VbRaddataFillingAndExecuting#3](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataFillingAndExecuting/VB/Form1.vb#3)]  
   
 ## Test the form  
- You can now test the form to make sure it behaves as expected.  
-  
-#### To test the form  
+
+You can now test the form to make sure it behaves as expected.
   
 1.  Select **F5** to run the application.  
   
@@ -237,15 +236,15 @@ ADO.NET provides simple methods for working with XML data. In this walkthrough, 
      The text box displays the XML schema for the XML file.  
   
 ## Next Steps  
- This walkthrough teaches you the basics of reading an XML file into a dataset, as well as creating a schema based on the contents of the XML file. Here are some tasks that you might do next:  
+
+This walkthrough teaches you the basics of reading an XML file into a dataset, as well as creating a schema based on the contents of the XML file. Here are some tasks that you might do next:  
   
 -   Edit the data in the dataset and write it back out as XML. For more information, see <xref:System.Data.DataSet.WriteXml%2A>.  
   
--   Edit the data in the dataset and write it out to a database. For more information, see [Saving Data](../data-tools/saving-data.md).  
+-   Edit the data in the dataset and write it out to a database.
   
 ## See Also  
  [Data Walkthroughs](http://msdn.microsoft.com/library/15a88fb8-3bee-4962-914d-7a1f8bd40ec4)   
  [Accessing data in Visual Studio](../data-tools/accessing-data-in-visual-studio.md)   
  [Preparing Your Application to Receive Data](http://msdn.microsoft.com/library/c17bdb7e-c234-4f2f-9582-5e55c27356ad)   
  [XML Tools in Visual Studio](../xml-tools/xml-tools-in-visual-studio.md)
-

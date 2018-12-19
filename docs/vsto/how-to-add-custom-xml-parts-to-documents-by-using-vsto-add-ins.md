@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "custom XML parts [Office development in Visual Studio], adding"
   - "documents [Office development in Visual Studio], custom XML parts"
   - "application-level add-ins [Office development in Visual Studio], custom XML parts"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

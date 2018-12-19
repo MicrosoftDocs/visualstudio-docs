@@ -6888,6 +6888,11 @@
             "redirect_document_id": true
         },
         {
+            "source_path": "docs/ide/tutorial-csharp-console.md",
+            "redirect_url": "/visualstudio/get-started/csharp/tutorial-console",
+            "redirect_document_id": true
+        },        
+        {
             "source_path": "docs/ide/tutorial-visual-basic-console.md",
             "redirect_url": "/visualstudio/get-started/visual-basic/tutorial-console",
             "redirect_document_id": true

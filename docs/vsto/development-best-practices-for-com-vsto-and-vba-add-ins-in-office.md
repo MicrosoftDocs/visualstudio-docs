@@ -9,8 +9,8 @@ dev_langs:
   - ""
 helpviewer_keywords: 
   - ""
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

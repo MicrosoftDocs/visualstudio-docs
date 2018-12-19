@@ -11,8 +11,8 @@ dev_langs:
 helpviewer_keywords: 
   - "managed code extensions [Office development in Visual Studio], attaching"
   - "documents [Office development in Visual Studio], managed code extensions"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
