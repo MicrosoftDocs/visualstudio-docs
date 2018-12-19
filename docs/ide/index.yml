@@ -27,7 +27,7 @@ sections:
       image:
         src: https://docs.microsoft.com/media/common/i_setup.svg
       title: Install Visual Studio
-    - href: /visualstudio/get-started/visual-studio-ide?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
+    - href: ../get-started/visual-studio-ide.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
       html: <p></p>
       image:
         src: https://docs.microsoft.com/media/logos/logo_visual-studio.svg
@@ -87,7 +87,7 @@ sections:
       image:
         src: https://docs.microsoft.com/media/common/i_build.svg
       title: Compile and build 
-    - href: /visualstudio/debugger/debugger-feature-tour.md
+    - href: ../debugger/debugger-feature-tour.md
       html: <p>Run your app under the debugger to investigate problems.</p>
       image: 
         src: https://docs.microsoft.com/media/common/i_debug.svg

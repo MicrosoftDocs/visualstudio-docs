@@ -118,5 +118,5 @@ At any one time, you may be working in multiple code files and moving among seve
 
 - [Default keyboard shortcuts for frequently used commands](../ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md)
 - [How to: Customize menus and toolbars](../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md)
-- [Walkthrough: Create a simple application](/visualstudio/get-started/csharp/tutorial-wpf)
+- [Walkthrough: Create a simple application](../get-started/csharp/tutorial-wpf.md)
 - [Accessibility tips and tricks](../ide/reference/accessibility-tips-and-tricks.md)
