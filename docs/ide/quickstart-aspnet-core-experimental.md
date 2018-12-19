@@ -102,8 +102,8 @@ Congratulations on completing this Quickstart! We hope you learned a little bit 
 To learn more, continue with the following tutorial:
 
 > [!div class="nextstepaction"]
-> [Get started with C# and ASP.NET in Visual Studio](/visualstudio/get-started/csharp/tutorial-aspnet-core)
+> [Get started with C# and ASP.NET in Visual Studio](../get-started/csharp/tutorial-aspnet-core.md)
 
 ## See also
 
-[Publish your web app to Azure App Service by using Visual Studio](..//deployment/quickstart-deploy-to-azure.md)
+[Publish your web app to Azure App Service by using Visual Studio](../deployment/quickstart-deploy-to-azure.md)

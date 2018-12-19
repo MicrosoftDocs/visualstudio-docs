@@ -36,4 +36,4 @@ To automatically update exported images that are linked from other documents, ex
 ## See also
 
 - [How to: Print Class Diagrams](how-to-print-class-diagrams.md)
-- [Working with Class Diagrams](/visualstudio/ide/class-designer/designing-and-viewing-classes-and-types)
+- [Working with Class Diagrams](designing-and-viewing-classes-and-types.md)

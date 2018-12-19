@@ -91,7 +91,7 @@ See:
 
 - [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)
 
-- [How to: Add Class Diagrams to Projects (Class Designer)](/visualstudio/ide/class-designer/how-to-add-class-diagrams-to-projects)
+- [How to: Add Class Diagrams to Projects (Class Designer)](../ide/class-designer/how-to-add-class-diagrams-to-projects.md)
 
 - [Modeling SDK for Visual Studio - Domain-Specific Languages](../modeling/modeling-sdk-for-visual-studio-domain-specific-languages.md)
 
@@ -141,7 +141,7 @@ Dinner Now must estimate the cost of meeting the new requirement. This depends p
 |**Map or diagram**|**Shows**|
 |-|-|
 |*Code map*<br /><br /> See:<br /><br /> - [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)<br />- [Browse and rearrange code maps](../modeling/browse-and-rearrange-code-maps.md)<br />- [Customize code maps by editing the DGML files](../modeling/customize-code-maps-by-editing-the-dgml-files.md)|Dependencies and other relationships in code.<br /><br /> For example, Dinner Now might start by reviewing assembly code maps for an overview of the assemblies and their dependencies. They can drill into the maps to explore the namespaces and classes in those assemblies.<br /><br /> Dinner Now can also create maps to explore particular areas and other kinds of relationships in the code. They use Solution Explorer to find and select the areas and relationships that interest them.|
-|*Code-based class diagram*<br /><br /> See [How to: Add Class Diagrams to Projects (Class Designer)](/visualstudio/ide/class-designer/how-to-add-class-diagrams-to-projects).|Existing classes in code|
+|*Code-based class diagram*<br /><br /> See [How to: Add Class Diagrams to Projects (Class Designer)](../ide/class-designer/how-to-add-class-diagrams-to-projects.md).|Existing classes in code|
 
  For example, the developer creates a code map. She adjusts its scope to focus on the areas that will be affected by the new scenario. These areas are selected and highlighted on the map:
 
@@ -161,7 +161,7 @@ Dinner Now must estimate the cost of meeting the new requirement. This depends p
 
 |**Diagrams**|**Describes**|
 |-|-|
-|*Code-based class diagram*<br /><br /> See [How to: Add Class Diagrams to Projects (Class Designer)](/visualstudio/ide/class-designer/how-to-add-class-diagrams-to-projects).|Existing classes in code.|
+|*Code-based class diagram*<br /><br /> See [How to: Add Class Diagrams to Projects (Class Designer)](../ide/class-designer/how-to-add-class-diagrams-to-projects.md).|Existing classes in code.|
 
 ### <a name="ValidatingCode"></a> Keep Code Consistent with the Design
  Dinner Now must make sure that the updated code stays consistent with the design. They create dependency diagrams that describe the layers of functionality in the system, specify the permitted dependencies between them, and associate solution artifacts to those layers.
@@ -326,7 +326,7 @@ This map shows that the PaymentApprover class is now in the DinnerNow.Business n
 |**Diagram**|**Describes**|
 |-|-|
 |Dependency diagram|The logical architecture of the system. Use dependency validation to make sure that the code stays consistent with the design.<br /><br /> To help you identify existing dependencys or intended dependencys, create a code map and group related items. To create a dependency diagram, see:<br /><br /> - [Create dependency diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)<br />- [Dependency Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)|
-|Class diagram (code-based)|Existing classes in code for a specific project.<br /><br /> To visualize and modify an existing class in code, use Class Designer.<br /><br /> See [How to: Add Class Diagrams to Projects (Class Designer)](/visualstudio/ide/class-designer/how-to-add-class-diagrams-to-projects).|
+|Class diagram (code-based)|Existing classes in code for a specific project.<br /><br /> To visualize and modify an existing class in code, use Class Designer.<br /><br /> See [How to: Add Class Diagrams to Projects (Class Designer)](../ide/class-designer/how-to-add-class-diagrams-to-projects.md).|
 
 ### <a name="DefineClasses"></a> Define a Glossary of Types: Class Diagrams
  Class diagrams define the entities, terms, or concepts that participate in the system and their relationships with one another. For example, you can use these diagrams during development to describe the attributes and operations for each class, regardless of their implementation language or style.
@@ -379,7 +379,7 @@ A class diagram has the following major features:
 
 As a starting point to explore and discuss existing classes, you can use Class Designer to create class diagrams from code.
 
-- [How to: Add Class Diagrams to Projects (Class Designer)](/visualstudio/ide/class-designer/how-to-add-class-diagrams-to-projects)
+- [How to: Add Class Diagrams to Projects (Class Designer)](../ide/class-designer/how-to-add-class-diagrams-to-projects.md)
 
 #### Summary: Strengths of Class Diagrams
  Class diagrams help you define:

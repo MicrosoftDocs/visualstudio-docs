@@ -314,5 +314,5 @@ You cannot edit native C++ code by using the Class Designer or the **Class Detai
 
 ## See also
 
-- [Viewing types and relationships](/visualstudio/ide/class-designer/designing-and-viewing-classes-and-types)
+- [Viewing types and relationships](designing-and-viewing-classes-and-types.md)
 - [Refactoring classes and types](refactoring-classes-and-types.md)

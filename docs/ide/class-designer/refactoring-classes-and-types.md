@@ -84,5 +84,4 @@ Using **Class Designer**, you can move a type member from one type to another ty
 
 ## See also
 
-- [Viewing Types and Relationships](/visualstudio/ide/class-designer/designing-and-viewing-classes-and-types)
-- [Designing Classes and Types](/visualstudio/ide/class-designer/designing-and-viewing-classes-and-types)
+- [Designing Classes and Types](designing-and-viewing-classes-and-types.md)

@@ -33,5 +33,5 @@ You can resize a comment shape but you cannot change other aspects of its appear
 
 ## See also
 
-- [Work with Class Diagrams](/visualstudio/ide/class-designer/designing-and-viewing-classes-and-types)
+- [Work with Class Diagrams](esigning-and-viewing-classes-and-types.md)
 - [How to: Customize Class Diagrams](how-to-customize-class-diagrams.md)

@@ -34,6 +34,6 @@ The variable designer is used to create variables for use in data-binding scenar
 
 ## See also
 
-- [Using the Workflow Designer](/visualstudio/workflow-designer/developing-applications-with-the-workflow-designer)
+- [Using the Workflow Designer](developing-applications-with-the.md-workflow-designer)
 - [Variables and Arguments](/dotnet/framework/windows-workflow-foundation/variables-and-arguments)
 - [How to: Use the Argument Designer](../workflow-designer/how-to-use-the-argument-designer.md)

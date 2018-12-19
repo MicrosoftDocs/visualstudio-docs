@@ -88,5 +88,4 @@ To design new types for C# and Visual Basic projects, create them on a class dia
 - [How to: Create Inheritance Between Types](how-to-create-inheritance-between-types.md)
 - [How to: Create Associations Between Types](how-to-create-associations-between-types.md)
 - [Creating and Configuring Type Members](creating-and-configuring-type-members.md)
-- [Working with Class Diagrams](/visualstudio/ide/class-designer/designing-and-viewing-classes-and-types)
 - [Designing Classes and Types](designing-and-viewing-classes-and-types.md)

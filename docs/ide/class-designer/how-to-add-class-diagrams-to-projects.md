@@ -73,5 +73,3 @@ An auto-populated class diagram is created.
 - [How to: Create types using the Class Designer](how-to-create-types.md)
 - [How to: View existing types](how-to-view-existing-types.md)
 - [Design and view classes and types](designing-and-viewing-classes-and-types.md)
-- [View types and relationships](/visualstudio/ide/class-designer/designing-and-viewing-classes-and-types)
-- [Work with class diagrams](/visualstudio/ide/class-designer/designing-and-viewing-classes-and-types)

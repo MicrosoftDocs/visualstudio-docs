@@ -73,5 +73,5 @@ For an example of how to implement a custom activity designer, see [How to: Crea
 
 ## See also
 
-- [Use the Workflow Designer](/visualstudio/workflow-designer/developing-applications-with-the-workflow-designer)
+- [Use the Workflow Designer](developing-applications-with-the-workflow-designer.md)
 - [Design workflows (.NET Framework)](/dotnet/framework/windows-workflow-foundation/designing-workflows)
