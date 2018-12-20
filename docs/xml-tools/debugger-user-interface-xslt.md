@@ -96,5 +96,5 @@ For more information, see [How to: Evaluate an XPath expression](../xml-tools/ho
 ## See also
 
 - [Debugging XSLT](../xml-tools/debugging-xslt.md)
-- [Debugger basics](../debugger/getting-started-with-the-debugger.md)
+- [First look at the debugger](../debugger/debugger-feature-tour.md)   
 - [Inspect variables in the autos and locals windows in Visual Studio](../debugger/autos-and-locals-windows.md)

@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "assemblies [Office development in Visual Studio], bypassing"
   - "Office documents [Office development in Visual Studio, opening without running code"
   - "documents [Office development in Visual Studio], opening without running code"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

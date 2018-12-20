@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "XML [Office development in Visual Studio], Ribbon"
   - "Ribbon Designer [Office development in Visual Studio]"
   - "exporting Ribbon"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "Visual Basic [Office development in Visual Studio], exposing code to VBA"
   - "exposing code to VBA"
   - "host items [Office development in Visual Studio], exposing code to VBA"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

@@ -56,4 +56,4 @@ Activities can be added to the **Toolbox** in your solution in several different
 
 ## See also
 
-- [Using the Workflow Designer](../workflow-designer/using-the-workflow-designer.md)
+- [Using the Workflow Designer](developing-applications-with-the-workflow-designer.md)

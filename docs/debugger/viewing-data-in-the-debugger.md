@@ -32,6 +32,6 @@ The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugger provides 
  Visualizers enable you to view the contents of an object or variable in a meaningful way. In the Visual Studio debugger, a visualizer refers to the different windows that you can open using the magnifying glass ![VisualizerIcon](../debugger/media/dbg-tips-visualizer-icon.png "Visualizer icon") icon. For example, the HTML visualizer shows how an HTML string would be interpreted and displayed in a browser. You can access visualizers from DataTips, the **Watch** window, the **Autos** window, and the **Locals** window. The **QuickWatch** dialog box also provides a visualizer. For more information, see [Create custom visualizers](../debugger/create-custom-visualizers-of-data.md).
   
 ## See also  
- [Debugger basics](../debugger/getting-started-with-the-debugger.md)   
+ [First look at the debugger](../debugger/debugger-feature-tour.md) 
  [Command window](../ide/reference/command-window.md)   
  [Debugger security](../debugger/debugger-security.md)

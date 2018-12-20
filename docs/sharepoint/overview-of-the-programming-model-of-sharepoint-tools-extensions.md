@@ -91,7 +91,7 @@ ms.workload:
 
  This object model is defined in a set of assemblies that are included with the Visual Studio SDK. Some of the main assemblies in this object model include *Microsoft.VisualStudio.Shell.11.0.dll*, *Microsoft.VisualStudio.Shell.Interop.dll*, and *Microsoft.VisualStudio.OLE.Interop.dll*.  
 
- For more information about the integration object model, see [Automation Model Overview](/visualstudio/extensibility/internals/automation-model-overview) and [Visual Studio SDK Reference](/visualstudio/extensibility/visual-studio-sdk-reference).  
+ For more information about the integration object model, see [Automation Model Overview](../extensibility/internals/automation-model-overview.md) and [Visual Studio SDK Reference](../extensibility/visual-studio-sdk-reference.md).  
 
 ### SharePoint object models
  SharePoint tools extensions can use SharePoint APIs to modify a SharePoint site or to retrieve data from a SharePoint site. [!INCLUDE[wss_14_long](../sharepoint/includes/wss-14-long-md.md)] and [!INCLUDE[moss_14_long](../sharepoint/includes/moss-14-long-md.md)] provide two different object models: a server object model and a client object model.  
@@ -107,4 +107,3 @@ ms.workload:
  [Extend the SharePoint tools in Visual Studio](../sharepoint/extending-the-sharepoint-tools-in-visual-studio.md)   
  [Call into the SharePoint object models](../sharepoint/calling-into-the-sharepoint-object-models.md)   
  [Use the SharePoint project service](../sharepoint/using-the-sharepoint-project-service.md)  
-

@@ -33,7 +33,7 @@ N-tier* data applications are data applications that are separated into multiple
   
  Visual Studio contains several features to help developers create n-tier applications:  
   
--   The [Creating and Editing Typed Datasets](../data-tools/creating-and-editing-typed-datasets.md) provides a **DataSet Project** property that enables you to separate the dataset (data entity layer) and `TableAdapter`s (data access layer) into discrete projects.  
+-   The DataSet Designer provides a **DataSet Project** property that enables you to separate the dataset (data entity layer) and `TableAdapter`s (data access layer) into discrete projects.  
   
 -   The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md) provides settings to generate the DataContext and data classes into separate namespaces. This enables logical separation of the data access and data entity tiers.  
   
@@ -95,4 +95,3 @@ Data tier
  [Hierarchical update](../data-tools/hierarchical-update.md)   
  [Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md)   
  [Accessing data in Visual Studio](../data-tools/accessing-data-in-visual-studio.md)
-

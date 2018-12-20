@@ -1,6 +1,7 @@
 ---
 title: "How to: Create Office projects in Visual Studio"
-ms.custom: ""
+titleSuffix: ""
+ms.custom: "seodec18"
 ms.date: "02/02/2017"
 ms.technology: 
   - "office-development"
@@ -19,8 +20,8 @@ helpviewer_keywords:
   - "projects [Office development in Visual Studio], creating"
   - "document-level customizations [Office development in Visual Studio], creating"
   - "application-level add-ins [Office development in Visual Studio], creating projects"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

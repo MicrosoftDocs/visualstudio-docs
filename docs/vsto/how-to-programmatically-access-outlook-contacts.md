@@ -11,8 +11,8 @@ dev_langs:
 helpviewer_keywords: 
   - "contacts [Office development in Visual Studio], searching"
 author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
 ms.workload: 
   - "office"
 ---
