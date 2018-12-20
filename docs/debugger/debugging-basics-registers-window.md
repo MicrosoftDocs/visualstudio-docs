@@ -47,4 +47,4 @@ The **Registers** window is available only if address-level debugging is enabled
   
 ## See Also  
  [How to: Use the Registers Window](../debugger/how-to-use-the-registers-window.md)   
- [Debugger Basics](../debugger/getting-started-with-the-debugger.md)
+ [First look at the debugger](../debugger/debugger-feature-tour.md)

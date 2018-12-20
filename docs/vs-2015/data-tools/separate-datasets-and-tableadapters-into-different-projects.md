@@ -27,7 +27,7 @@ manager: "ghogen"
   
 Typed datasets have been enhanced so that the [TableAdapters](http://msdn.microsoft.com/library/09416de9-134c-4dc7-8262-6c8d81e3f364) and dataset classes can be generated into separate projects. This enables you to quickly separate application layers and generate n-tier data applications.  
   
- The following procedure describes the process of using the[Creating and Editing Typed Datasets](../data-tools/creating-and-editing-typed-datasets.md) to generate dataset code into a project that is separate from the project that contains the generated `TableAdapter` code.  
+ The following procedure describes the process of using the Dataset Designer to generate dataset code into a project that is separate from the project that contains the generated `TableAdapter` code.  
   
 ## Separatedatasets and TableAdapters  
  When you separate dataset code from `TableAdapter` code, the project that  contains the dataset code must be located in the current solution. If this project is not located in the current solution, it won't be available in the **DataSet Project** list in the **Properties** window.  
@@ -69,4 +69,3 @@ Typed datasets have been enhanced so that the [TableAdapters](http://msdn.micros
  [Hierarchical update](../data-tools/hierarchical-update.md)   
  [Accessing data in Visual Studio](../data-tools/accessing-data-in-visual-studio.md)   
  [ADO.NET](http://msdn.microsoft.com/library/5b96ed06-9759-4966-a797-a1d5f6ee50ca)
-

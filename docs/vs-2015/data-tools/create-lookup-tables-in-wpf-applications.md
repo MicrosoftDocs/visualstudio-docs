@@ -38,8 +38,8 @@ The term *lookup table* (sometimes called a *lookup binding*) describes a contro
   
 1.  Add one of the following types of data sources with related data to your project:  
   
-    -   Dataset or Entity Data Model. For more information, see [How to: Connect to Data in a Database](../data-tools/how-to-connect-to-data-in-a-database.md).  
-  
+    -   Dataset or Entity Data Model.
+
     -   WCF Data Service, WCF service or Web service. For more information, see [How to: Connect to Data in a Service](../data-tools/how-to-connect-to-data-in-a-service.md).  
   
     -   Objects. For more information, see [How to: Connect to Data in Objects](http://msdn.microsoft.com/library/862fd351-0f4d-4220-9743-6103b87dc24b).  
@@ -98,4 +98,3 @@ The term *lookup table* (sometimes called a *lookup binding*) describes a contro
  [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio2.md)   
  [Display related data in WPF applications](../data-tools/display-related-data-in-wpf-applications.md)   
  [Walkthrough: Displaying Related Data in a WPF Application](../data-tools/walkthrough-displaying-related-data-in-a-wpf-application.md)
-

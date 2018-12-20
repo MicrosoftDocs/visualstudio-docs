@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "event handlers [Office development in Visual Studio]"
   - "Visual C# [Office development in Visual Studio], event handlers"
   - "events [Office development in Visual Studio]"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

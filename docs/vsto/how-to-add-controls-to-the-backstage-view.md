@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "Office button"
   - "Ribbon, menus"
   - "Microsoft Office Menu"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

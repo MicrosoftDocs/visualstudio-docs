@@ -30,8 +30,8 @@ helpviewer_keywords:
   - "Sheet1_Shutdown"
   - "events [Office development in Visual Studio]"
   - "ThisAddIn_Shutdown"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Using MSBuild | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "12/18/2018"
 ms.technology: msbuild
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -110,24 +110,28 @@ The Message task is one of the many tasks that ships with MSBuild. For a complet
 The Message task takes the string value of the Text attribute as input and displays it on the output device. The HelloWorld target executes the Message task twice: first to display "Hello", and then to display "World".
 
 ## Build the target
- Run MSBuild from the **Visual Studio Command Prompt** to build the HelloWorld target defined above. Use the -target or -t command line switch to select the target.
+ Run MSBuild from the **Developer Command Prompt** for Visual Studio to build the HelloWorld target defined above. Use the -target or -t command line switch to select the target.
 
 > [!NOTE]
->  We will refer to the **Visual Studio Command Prompt** as the **Command Window** in the sections below.
+>  We will refer to the **Developer Command Prompt** as the **Command Window** in the sections below.
 
 #### To build the target
 
-1.  Click **Start**, then click **All Programs**. Locate and click the **Visual Studio Command Prompt** in the **Visual Studio Tools** folder.
+1. Open the **Command Window**.
 
-2.  From the command window, navigate to the folder containing the project file, in this case, *D:\BuildApp\BuildApp*.
+   (Windows 10) In the search box on the taskbar, start typing the name of the tool, such as `dev` or `developer command prompt`. This brings up a list of installed apps that match your search pattern.
 
-3.  Run msbuild with the command switch -t:HelloWorld. This selects and builds the HelloWorld target:
+   If you need to find it manually, the file is *LaunchDevCmd.bat* in the *<visualstudio installation folder>\<version>\Common7\Tools* folder.
+
+2. From the command window, navigate to the folder containing the project file, in this case, *D:\BuildApp\BuildApp*.
+
+3. Run msbuild with the command switch -t:HelloWorld. This selects and builds the HelloWorld target:
 
     ```cmd
     msbuild buildapp.csproj -t:HelloWorld
     ```
 
-4.  Examine the output in the **Command window**. You should see the two lines "Hello" and "World":
+4. Examine the output in the **Command window**. You should see the two lines "Hello" and "World":
 
     ```
     Hello

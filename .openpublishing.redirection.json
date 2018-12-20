@@ -682,17 +682,22 @@
         },
         {
             "source_path": "docs/debugger/first-look-at-the-debugger.md",
-            "redirect_url": "/visualstudio/debugger/getting-started-with-the-debugger",
+            "redirect_url": "/visualstudio/debugger/debugger-feature-tour.md",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/debugger/debugger-basics.md",
-            "redirect_url": "/visualstudio/debugger/getting-started-with-the-debugger",
+            "redirect_url": "/visualstudio/debugger/debugger-feature-tour.md",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/debugger/getting-started-with-the-debugger-vb.md",
-            "redirect_url": "/visualstudio/get-started/visual-basic/getting-started-with-the-debugger-vb",
+            "redirect_url": "/visualstudio/get-started/visual-basic/tutorial-debugger",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/getting-started-with-the-debugger.md",
+            "redirect_url": "/visualstudio/debugger/debugger-feature-tour.md",
             "redirect_document_id": false
         },
         {
@@ -6883,6 +6888,11 @@
             "redirect_document_id": true
         },
         {
+            "source_path": "docs/ide/tutorial-csharp-console.md",
+            "redirect_url": "/visualstudio/get-started/csharp/tutorial-console",
+            "redirect_document_id": true
+        },        
+        {
             "source_path": "docs/ide/tutorial-visual-basic-console.md",
             "redirect_url": "/visualstudio/get-started/visual-basic/tutorial-console",
             "redirect_document_id": true
@@ -7070,6 +7080,11 @@
         {
             "source_path": "docs/reference/synchronized-settings-environment-options-dialog-box.md",
             "redirect_url": "/visualstudio/ide/reference/accounts-environment-options-dialog-box",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/extensibility/buildprojectonload-visual-studio-templates.md",
+            "redirect_url": "/visualstudio/extensibility/buildonload-visual-studio-templates",
             "redirect_document_id": false
         }
     ]

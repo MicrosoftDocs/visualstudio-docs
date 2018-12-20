@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "deployment manifests [Office development in Visual Studio]"
   - "manifests [Office development in Visual Studio], deployment"
   - "Office development in Visual Studio, deployment manifests"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
