@@ -1,5 +1,5 @@
 ---
-title: "Expected &#39;@end&#39; | Microsoft Docs"
+title: "Expected '@end' | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
 ms.prod: "windows-client-threshold"
@@ -21,7 +21,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 ---
-# Expected &#39;@end&#39;
+# Expected '@end'
 You attempted to create a conditionally compiled block of code, but did not include the <strong>@end</strong> statement at the end. [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] statements can be conditionally compiled by enclosing them within an <strong>@if/@end</strong> block.  
   
 ### To correct this error  
