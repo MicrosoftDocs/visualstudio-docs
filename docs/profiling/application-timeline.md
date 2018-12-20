@@ -1,6 +1,6 @@
 ---
-title: "Analyze Resource Consumption in XAML Apps in Visual Studio | Microsoft Docs"
-ms.custom: "H1Hack27Feb2017"
+title: "Analyze resource consumption in XAML apps"
+ms.custom: "seodec18"
 ms.date: "11/01/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"

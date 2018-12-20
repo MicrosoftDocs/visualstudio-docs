@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "Office documents [Office development in Visual Studio], custom properties"
   - "_AssemblyLocation property"
   - "_AssemblyName property"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

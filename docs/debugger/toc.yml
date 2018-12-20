@@ -4,7 +4,7 @@
   items:
   - name: "What is debugging?"
     href: what-is-debugging.md
-  - name: "Write better C# code with Visual Studio"
+  - name: Fix bugs by writing better C# code
     href: write-better-code-with-visual-studio.md
 - name: Quickstarts
   items:
@@ -18,13 +18,17 @@
     href: quickstart-debug-aspnet.md
 - name: Tutorials
   items:
-  - name: Learn to debug using Visual Studio
-    href: getting-started-with-the-debugger.md
+  - name: Learn to debug C#
+    href: /visualstudio/get-started/csharp/tutorial-debugger?toc=/visualstudio/debugger/toc.json
+  - name: Learn to debug C++
+    href: getting-started-with-the-debugger-cpp.md
+  - name: Learn to debug Visual Basic
+    href: /visualstudio/get-started/visual-basic/tutorial-debugger?toc=/visualstudio/debugger/toc.json
   - name: Running Python code in the debugger...
     href: ../python/tutorial-working-with-python-in-visual-studio-step-04-debugging.md
   - name: Debug a live Azure app
     href: debug-live-azure-applications.md
-  - name: Debug C# and C++ code
+  - name: Debug both C# and C++ code
     href: how-to-debug-managed-and-native-code.md
   - name: Inspect previous app states
     href: view-historical-application-state.md

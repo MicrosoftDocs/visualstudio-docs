@@ -103,8 +103,8 @@ A:  Yes.  The message indicates that you're logged on to a domain that already h
 4.  The rest of the steps in the process are identical to those listed in the body of the article, beginning with step 6.
 
 
-### Q:  I'm on a government domain.  Can I use the benefit? 
-A:  No.  The Power BI Pro benefit cannot be added to tenants on a government domain. 
+### Q:  I'm on a government tenant.  Can I use the benefit? 
+A:  No.  The Power BI Pro benefit cannot be added to government tenants. 
 
 ## Support resources
 -  Need help with Power BI Pro?

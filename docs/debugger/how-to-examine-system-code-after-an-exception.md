@@ -1,6 +1,6 @@
 ---
-title: "How to: Examine System Code After an Exception | Microsoft Docs"
-ms.custom: ""
+title: "Examine system code after an exception | Microsoft Docs"
+ms.custom: "seodec18"
 ms.date: "11/04/2016"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"

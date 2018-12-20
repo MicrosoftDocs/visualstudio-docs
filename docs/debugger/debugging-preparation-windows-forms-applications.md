@@ -1,6 +1,6 @@
 ---
-title: "Debugging Preparation: Windows Forms Applications | Microsoft Docs"
-ms.custom: ""
+title: "Prepare to debug Windows Forms apps | Microsoft Docs"
+ms.custom: "seodec18"
 ms.date: "11/04/2016"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
@@ -57,7 +57,7 @@ The Windows Forms project template creates a Windows Forms application. Debuggin
   
 3. On the **Debug** menu, click **Start**.  
   
-4. Debug using the techniques discussed in [Debugger Basics](../debugger/getting-started-with-the-debugger.md).  
+4. Debug using the techniques discussed in [First look at the debugger](../debugger/debugger-feature-tour.md).  
   
 ## See Also  
  [Debugging Managed Code](../debugger/debugging-managed-code.md)   

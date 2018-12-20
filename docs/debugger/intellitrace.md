@@ -143,6 +143,9 @@ By default, IntelliTrace records only IntelliTrace events: debugger events, exce
 
 You can configure IntelliTrace to capture snapshots at every breakpoint and debugger step event. IntelliTrace records the full application state at each snapshot, which allows you to view complex variables and to evaluate expressions.
 
+> [!NOTE]
+> The [IntelliTrace stand-alone collector](../debugger/using-the-intellitrace-stand-alone-collector.md) does not support capturing snaphots.
+
 See [Inspect previous app states using IntelliTrace](../debugger/view-historical-application-state.md).
 
 **Collect function call information**

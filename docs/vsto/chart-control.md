@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "Chart control [Office development in Visual Studio], events"
   - "Chart control [Office development in Visual Studio]"
   - "Chart control [Office development in Visual Studio], data binding"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

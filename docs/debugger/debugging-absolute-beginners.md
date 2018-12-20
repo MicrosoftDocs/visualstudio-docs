@@ -60,7 +60,7 @@ When you normally run an app, you see errors and incorrect results only after th
 
 Running an app within a debugger, also called *debugging mode*, means that the debugger actively monitors everything that’s happening as the program runs. It also allows you to pause the app at any point to examine its state, and to then step through your code line by line to watch every detail as it happens.
 
-In Visual Studio, you enter debugging mode by using **F5** (or the **Debug** > **Start Debugging** menu command or the **Start Debugging** button ![Start Debugging](../debugger/media/dbg-tour-start-debugging.png "Start Debugging")) in the Debug Toolbar. If any exceptions occur, Visual Studio’s Exception Helper takes you to the exact point where the exception occurred and provides other helpful information.
+In Visual Studio, you enter debugging mode by using **F5** (or the **Debug** > **Start Debugging** menu command or the **Start Debugging** button ![Start Debugging](../debugger/media/dbg-tour-start-debugging.png "Start Debugging") in the Debug Toolbar). If any exceptions occur, Visual Studio’s Exception Helper takes you to the exact point where the exception occurred and provides other helpful information.
 
 If you didn't get an exception, you probably have a good idea where to look for the problem in your code. This where you use *breakpoints* with the debugger to give yourself a chance to examine your code more carefully. Breakpoints are the most basic and essential feature of reliable debugging. A breakpoint indicates where Visual Studio should pause your running code so you can take a look at the values of variables, or the behavior of memory, or the sequence in which code runs.
 
@@ -72,11 +72,11 @@ To help illustrate these concepts, we take you through some example code that al
 
 Next, we will create an application that has a few bugs.
 
-1. You must have Visual Studio installed and either the .**NET desktop development** workload or the .**NET Core cross platform development** workload installed, depending on which app type you want to create.
+1. You must have Visual Studio installed and either the **.NET desktop development** workload or the **.NET Core cross platform development** workload installed, depending on which app type you want to create.
 
     If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
 
-    If you need to install the workload but already have Visual Studio, click **Tools** > **Get Tools and Features**. The Visual Studio Installer launches. Choose the .**NET desktop development** (or .**NET Core cross platform development**) workload, then choose **Modify**.
+    If you need to install the workload but already have Visual Studio, click **Tools** > **Get Tools and Features**. The Visual Studio Installer launches. Choose the **.NET desktop development** (or **.NET Core cross platform development**) workload, then choose **Modify**.
 
 1. Open Visual Studio, and then choose **File** > **New** > **Project**.
 
@@ -238,7 +238,7 @@ Next, we will create an application that has a few bugs.
 
     ![Syntax error](../debugger/media/beginners-no-definition.png)
 
-    Even though we set each galaxy with an object of type `GType` (which has the `MGType` property), the debugger does not recognize the `theGalaxy` object as an object of type `GType`. What's going on? You want to look through any code that sets the galaxy type. When you do this, you see that the `GType` class definitely has a property of `MyGType`, but something isn't right. The error message about `object` turns out to be the clue; to the language interpreter, the type appears to be an object of type `object` instead of an object of type `GType`.
+    Even though we set each galaxy with an object of type `GType` (which has the `MyGType` property), the debugger does not recognize the `theGalaxy` object as an object of type `GType`. What's going on? You want to look through any code that sets the galaxy type. When you do this, you see that the `GType` class definitely has a property of `MyGType`, but something isn't right. The error message about `object` turns out to be the clue; to the language interpreter, the type appears to be an object of type `object` instead of an object of type `GType`.
 
 1. Looking through your code related to setting the galaxy type, you find the `GalaxyType` property of the `Galaxy` class is specified as `object` instead of `GType`.
 
@@ -326,4 +326,4 @@ When you find the region of code with the problem, use the debugger to investiga
 In this article, you've learned a few general debugging concepts. Next, you can start learning more about the debugger.
 
 > [!div class="nextstepaction"]
-> [Learn to debug using Visual Studio](../debugger/getting-started-with-the-debugger.md)
+> [First look at the debugger](../debugger/debugger-feature-tour.md)

@@ -1,7 +1,7 @@
 ---
-title: "Inspect variables in the Autos and Locals windows | Microsoft Docs"
-ms.custom: "H1Hack27Feb2017"
-ms.date: "04/17/2018"
+title: "Inspect variables - Autos and Locals windows | Microsoft Docs"
+ms.custom: "seodec18"
+ms.date: "10/18/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords:
@@ -19,15 +19,13 @@ ms.workload:
 ---
 # Inspect variables in the Autos and Locals windows
 
-The **Autos** and **Locals** windows show variable values while you are debugging. The windows are only available during a debugging session. The **Autos** window shows variables used around the current breakpoint. The **Locals** window shows variables defined in the local scope, which is usually the current function or method. If this is the first time that you've tried to debug code, you may want to read [Write better C# code using Visual Studio](../debugger/write-better-code-with-visual-studio.md) and [Debugging for absolute beginners](../debugger/debugging-absolute-beginners.md) before going through this article.
+The **Autos** and **Locals** windows show variable values while you are debugging. The windows are only available during a debugging session. The **Autos** window shows variables used around the current breakpoint. The **Locals** window shows variables defined in the local scope, which is usually the current function or method. If this is the first time that you've tried to debug code, you may want to read [Fix bugs by writing better C# code](../debugger/write-better-code-with-visual-studio.md) and [Debugging for absolute beginners](../debugger/debugging-absolute-beginners.md) before going through this article.
 
  The **Autos** window is available for C#, Visual Basic, C++, and Python code, but not for JavaScript or F#.
   
 To open the **Autos** window, while debugging, select **Debug** > **Windows** > **Autos**, or press **Ctrl**+**Alt**+**V** > **A**.  
 
 To open the **Locals** window, while debugging, select **Debug** > **Windows** > **Locals**, or press **Alt**+**4**.
-
-If you need more information about basic debugging, see [Getting started with the Debugger](../debugger/getting-started-with-the-debugger.md).
 
 > [!NOTE]
 > This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Data visualizations in Visual Studio for Mac](/visualstudio/mac/data-visualizations).
@@ -147,6 +145,6 @@ To see the return values of the `sumVars()` and `subtractVars()` method calls in
   
 ## See also  
  [What is debugging?](../debugger/what-is-debugging.md)  
- [Write better C# code using Visual Studio](../debugger/write-better-code-with-visual-studio.md)  
+ [Fix bugs by writing better C# code](../debugger/write-better-code-with-visual-studio.md)  
  [First look at debugging](../debugger/debugger-feature-tour.md)
  [Debugger windows](../debugger/debugger-windows.md)

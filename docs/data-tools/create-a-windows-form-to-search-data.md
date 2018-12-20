@@ -45,7 +45,7 @@ Tasks illustrated in this walkthrough include:
 
 This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.
 
-1.  If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express), or through the **Visual Studio Installer**. In the **Visual Studio Installer**, you can intall SQL Server Express LocalDB as part of the **Data storage and processing** workload, or as an individual component.
+1.  If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express), or through the **Visual Studio Installer**. In the **Visual Studio Installer**, you can install SQL Server Express LocalDB as part of the **Data storage and processing** workload, or as an individual component.
 
 2.  Install the Northwind sample database by following these steps:
 
@@ -77,7 +77,7 @@ The first step is to create a Windows Forms app. Assigning a name to the project
 
 This step creates a data source from a database using the **Data Source Configuration** wizard:
 
-1.  On the **Data** menu, click **Show Data Sources**.
+1.  To open the **Data Sources** window, on the **Data** menu, click **Show Data Sources**.
 
 2.  In the **Data Sources** window, select **Add New Data Source** to start the **Data Source Configuration** wizard.
 

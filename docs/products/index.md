@@ -35,38 +35,19 @@ searchScope: []
                                     </div>
                                 </a>
                             </li>
-							<li>
-                                <a href="/azure/devops/" title="Azure DevOps Services">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img data-scaleimage="./images/vs-team-services.svg" src="./images/vs-team-services.svg" alt="" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Azure DevOps Services</h3>
-                                                    <p>Increase team productivity with Agile project tools and reports. Build, test, and deploy projects from source control with modern CI/CD tools.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
                             <li>
-                                <a href="/tfs/" title="Team Foundation Server">
+                                <a href="/visualstudio/mac" title="Visual Studio for Mac">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img data-scaleimage="./images/vs-team-services.svg" src="./images/vs-team-services.svg" alt="" />
+                                                        <img data-scaleimage="./images/vs-mac.svg" src="./images/vs-mac.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Team Foundation Server</h3>
-                                                    <p>Install, upgrade, and manage your on-premises deployments.</p>
+                                                    <h3>Visual Studio for Mac</h3>
+                                                    <p>Build apps and games, using the Mac, for the cloud, iOS, Android, macOS, and wearables.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -86,25 +67,6 @@ searchScope: []
                                                 <div class="cardText">
                                                     <h3>Visual Studio Code</h3>
                                                     <p>Rich editing and debugging in hundreds of languages on MacOS, Linux, and Windows</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/visualstudio/mac" title="Visual Studio for Mac">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img data-scaleimage="./images/vs-mac.svg" src="./images/vs-mac.svg" alt="" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Visual Studio for Mac</h3>
-                                                    <p>Build apps and games, using the Mac, for the cloud, iOS, Android, macOS, and wearables.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -149,10 +111,49 @@ searchScope: []
                                     </div>
                                 </a>
                             </li>
+							<li>
+                                <a href="/azure/devops/" title="Azure DevOps Services">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage">
+                                                        <img data-scaleimage="./images/vs-team-services.svg" src="./images/vs-team-services.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Azure DevOps Services</h3>
+                                                    <p>Increase team productivity with Agile project tools and reports. Build, test, and deploy projects from source control with modern CI/CD tools.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/tfs/" title="Azure DevOps Server">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage">
+                                                        <img data-scaleimage="./images/vs-team-services.svg" src="./images/vs-team-services.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Azure DevOps Server</h3>
+                                                    <p>Install, upgrade, and manage your on-premises deployments.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
                         </ul>
                     </li>
                 </ul>
             </li>
         </ul>
+        <p>Visual Studio Team Services has been replaced by Azure DevOps Services, and Team Foundation Server (TFS) was renamed Azure DevOps Server. See <a href="/azure/devops/user-guide/what-happened-vsts?view=vsts">What happened to Visual Studio Team Services?</a> and <a href="/tfs/server/tfs-is-now-azure-devops-server">Team Foundation Server is now Azure DevOps Server</a>.</p>
     </div>
 </div>

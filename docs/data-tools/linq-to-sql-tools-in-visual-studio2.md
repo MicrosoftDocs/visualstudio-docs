@@ -1,5 +1,5 @@
 ---
-title: Visual Studio O/R Designer overview
+title: O/R Designer overview
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: 45e477c0-5c6b-41f9-b2d0-2808fb4f6537

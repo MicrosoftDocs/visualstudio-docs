@@ -1,5 +1,6 @@
 ---
 title: "&lt;addin&gt; element (Office development in Visual Studio)"
+titleSuffix: ""
 ms.custom: ""
 ms.date: 02/02/2017
 ms.technology: office-development
@@ -12,8 +13,8 @@ helpviewer_keywords:
   - "application manifests [Office development in Visual Studio], <addIn> element"
   - "addin element"
   - "<addin> element"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload:
   - "office"

@@ -1,5 +1,5 @@
 ---
-title: "Coding a custom extraction rule for a web performance test in Visual Studio"
+title: "Coding a custom extraction rule for a web performance test"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -22,6 +22,8 @@ You can create your own extraction rules. To do this, you derive your own rules 
 
 > [!NOTE]
 > You can also create custom validation rules. For more information, see [Create custom code and plug-ins for load tests](../test/create-custom-code-and-plug-ins-for-load-tests.md).
+
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
 ## To create a custom extraction rule
 

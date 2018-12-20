@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "Windows Forms controls [Office development in Visual Studio], adding"
   - "controls [Office development in Visual Studio], Windows Forms controls"
   - "documents [Office development in Visual Studio], Windows Forms controls"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

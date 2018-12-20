@@ -42,5 +42,5 @@ On the class diagram, right-click the association line, and choose **Show as Pro
 
 - [How to: Create Inheritance Between Types](how-to-create-inheritance-between-types.md)
 - [How to: View Inheritance Between Types](how-to-view-inheritance-between-types.md)
-- [Viewing Types and Relationships](viewing-types-and-relationships.md)
+- [Viewing Types and Relationships](designing-and-viewing-classes-and-types.md)
 - [How to: Visualize a Collection Association](how-to-visualize-a-collection-association.md)

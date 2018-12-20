@@ -1,11 +1,11 @@
 ---
 title: "What's new in Visual Studio 2017"
+titleSuffix: ""
 description: "Learn about the new features in Visual Studio 2017."
-ms.custom: ""
-ms.date: 11/13/2018
+ms.date: 12/04/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-acquisition
-ms.prod: visual-studio-dev15
+ms.custom: "seodec18"
 ms.topic: conceptual
 f1_keywords:
   - "VS.StartPage.WhatsNew"
@@ -217,7 +217,7 @@ You can navigate and view snapshots by using the **Step Backward** and **Step Fo
 
 ![The New Exception Helper dialog in Visual Studio](../debugger/media/intellitrace-step-back-icons-description.png  "Step Backward and Forward buttons")
 
-For more information, see the [View snapshots using IntelliTrace step-back](../debugger/how-to-use-intellitrace-step-back.md) page.
+For more information, see the [View snapshots using IntelliTrace step-back](../debugger/view-historical-application-state.md) page.
 
 ### Containerization
 
@@ -272,7 +272,7 @@ For more information about UWP, see the [Develop apps for the Universal Windows 
 
 As part of the "Mobile development with .NET" workload, developers familiar with C#, .NET, and Visual Studio can deliver native Android, iOS, and Windows apps by using Xamarin. Developers can enjoy the same the power and productivity when working with Xamarin for mobile apps, including remote debugging on Android, iOS, and Windows devices&mdash;without having to learn native coding languages like Objective-C or Java.
 
-For more information, see the [Visual Studio and Xamarin](../cross-platform/visual-studio-and-xamarin.md) page.
+For more information, see the [Visual Studio and Xamarin](/xamarin/) page.
 
 ### Entitlements editor
 
@@ -381,3 +381,4 @@ If you want to make a suggestion about how we can improve Visual Studio, or lear
 * [What's new in C#](/dotnet/csharp/whats-new)
 * [What's new for Team Foundation Server](/tfs/server/whats-new?view=vsts)
 * [What's new in Visual Studio for Mac](https://visualstudio.microsoft.com/vs/visual-studio-mac/)
+* [What's new in Visual Studio 2019](whats-new-visual-studio-2019.md)

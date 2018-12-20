@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "ClickOnce deployment [Office development in Visual Studio], MSI"
   - "publishing Office solutions [Office development in Visual Studio], setup project"
   - "Office applications [Office development in Visual Studio], MSI"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

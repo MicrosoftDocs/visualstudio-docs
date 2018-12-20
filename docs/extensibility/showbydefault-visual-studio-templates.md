@@ -1,10 +1,8 @@
 ---
-title: "ShowByDefault (Visual Studio Templates) | Microsoft Docs"
-ms.custom: ""
+title: ShowByDefault element (Visual Studio Templates)
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-general"
-ms.topic: "conceptual"
+ms.technology: vs-ide-general
+ms.topic: reference
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/vstemplate/2005#ShowByDefault"
 helpviewer_keywords: 
@@ -17,7 +15,7 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# ShowByDefault (Visual Studio Templates)
+# ShowByDefault element (Visual Studio Templates)
 If `false`, specifies that the template will only be displayed under the specified [TemplateGroupID](../extensibility/templategroupid-element-visual-studio-templates.md).  
   
  \<VSTemplate>  
@@ -56,7 +54,7 @@ If `false`, specifies that the template will only be displayed under the specifi
 ## Example  
  The following example illustrates the metadata for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] template.  
   
-```  
+```xml
 <VSTemplate Type="Project" Version="3.0.0"  
     xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">  
     <TemplateData>  

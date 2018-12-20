@@ -24,8 +24,8 @@ helpviewer_keywords:
   - "Office development in Visual Studio, Excel solutions"
   - "document-level customizations [Office development in Visual Studio], Excel"
   - "Office projects [Office development in Visual Studio], Excel"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -70,9 +70,7 @@ ms.workload:
 
  To create a VSTO Add-in project for Excel, use the Excel workbook or Excel template project templates in the **New Project** dialog box of Visual Studio. For more information, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).  
 
- For general information about how VSTO Add-ins work, see [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md).  
-
- ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Automate PowerPoint from an Excel Add-in?](http://go.microsoft.com/fwlink/?LinkID=130300).  
+ For general information about how VSTO Add-ins work, see [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md).
 
 ### Excel Add-in programming model  
  When you create an Excel VSTO Add-in project, Visual Studio generates a class, called `ThisAddIn`, which is the foundation of your solution. This class provides a starting point for writing your code, and it also exposes the object model of Excel to your VSTO Add-in.  

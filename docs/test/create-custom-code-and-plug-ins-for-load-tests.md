@@ -1,5 +1,5 @@
 ---
-title: "Create custom code and plug-ins for load tests in Visual Studio"
+title: "Create custom code and plug-ins for load tests"
 ms.date: 10/19/2016
 ms.topic: conceptual
 f1_keywords:
@@ -17,6 +17,8 @@ ms.technology: vs-ide-test
 # Create custom code and plug-ins for load tests
 
 A custom plug-in uses code that you write and attach to a load test or a web performance test. You can use the load test API and the web performance test API to create custom plug-ins for tests to expand to the built-in functionality. You can add multiple plug-ins to your load test.
+
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
 ## Tasks
 

@@ -1,5 +1,5 @@
 ---
-title: "Add Context Parameters to a Load Test Run Setting in Visual Studio"
+title: "Add Context Parameters to a Load Test Run Setting"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -15,6 +15,8 @@ ms.technology: vs-ide-test
 # How to: Add context parameters to a load test run setting
 
 After you create your load test by using the **New Load Test Wizard**, you can use the **Load Test Editor** to change the scenarios properties to meet your testing needs and goals.
+
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
 > [!NOTE]
 > For a full list of the run settings properties and their descriptions, see [Load test run settings properties](../test/load-test-run-settings-properties.md).

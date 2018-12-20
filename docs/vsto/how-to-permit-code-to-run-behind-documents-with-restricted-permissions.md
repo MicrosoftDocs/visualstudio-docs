@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "code [Office development in Visual Studio], running behind restricted documents"
   - "documents [Office development in Visual Studio], restricted permissions"
   - "Office documents [Office development in Visual Studio, restricted permissions"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

@@ -1,5 +1,5 @@
 ---
-title: "Log File size for load tests in Visual Studio"
+title: "Log File size for load tests"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -14,6 +14,8 @@ ms.technology: vs-ide-test
 # How to: Specify the maximum size for the log file for load tests
 
 By default, the maximum size of the log file that is used for load tests is set to 20 megabytes. You can change this value by editing the configuration file associated with the controller service.
+
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
 ## Specify the maximum log file size for load test
 

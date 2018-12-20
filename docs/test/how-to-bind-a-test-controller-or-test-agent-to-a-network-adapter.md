@@ -1,5 +1,5 @@
 ---
-title: "Bind a Test Controller or Test Agent to a Network Adapter in Visual Studio"
+title: "Bind a Test Controller or Test Agent to a Network Adapter"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -24,6 +24,8 @@ If a computer that has the test controller or the test agent software installed 
 > **Error 8110. Can not connect to the specified controller computer or access the controller object**
 >
 > This error can be caused by installing the test controller on a computer that has more than one network adapter. It is also possible to install agents successfully, and not see this problem until you try to run a test.
+
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
 ## Bind a test controller to a specific network adapter
 

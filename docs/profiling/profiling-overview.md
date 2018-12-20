@@ -1,6 +1,6 @@
 ---
-title: "Profiling overview - Visual Studio | Microsoft Docs"
-ms.custom: "mvc"
+title: "Overview of tools for measuring performance | Microsoft Docs"
+ms.custom: "seodec18"
 ms.date: "03/27/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "overview"
@@ -11,7 +11,7 @@ ms.workload:
   - "multiple"
 ---
 
-# Overview of profiling in Visual Studio
+# Overview of tools for measuring performance in Visual Studio
 
 Profiling and diagnostics tools help you diagnose memory and CPU usage and other application-level issues. With these tools, you accumulate data (such as variable values, function calls, and events) over a period of time such as the time that you run your application. You can view the state of your application at different points during the execution of your code, or perform a post-mortem analysis of your application performance.
 

@@ -1,6 +1,7 @@
 ---
 title: "&lt;entryPoint&gt; element (Office development in Visual Studio)"
-ms.custom: ""
+titleSuffix: ""
+ms.custom: "seodec18"
 ms.date: "02/02/2017"
 ms.technology: 
   - "office-development"
@@ -12,8 +13,8 @@ helpviewer_keywords:
   - "application manifests [Office development in Visual Studio], <entryPoint> element"
   - "<entryPoint> element"
   - "entryPoint element"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

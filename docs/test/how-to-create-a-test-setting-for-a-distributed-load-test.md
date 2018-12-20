@@ -1,5 +1,5 @@
 ---
-title: "Create a Test Setting for a Distributed Load Test in Visual Studio"
+title: "Create a Test Setting for a Distributed Load Test"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -14,6 +14,8 @@ ms.technology: vs-ide-test
 # How to: Create a test setting for a distributed load test
 
 Configure *test settings* for your load tests so you can distribute those tests across multiple machines using test agents and test controllers. You can also configure test settings to use *diagnostic data adapters*, which specify the kinds of data that you want to collect or how to affect the test machines when you run your load tests from Visual Studio.
+
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
 For example, you can use the ASP.NET Profiler diagnostic data adapter to collect the performance breakdown of the code. Additionally, diagnostic data adapters can be used to simulate potential bottlenecks on the test machine or reduce the available system memory.
 

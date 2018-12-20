@@ -1,6 +1,7 @@
 ---
 title: "&lt;document&gt; element (Office development in Visual Studio)"
-ms.custom: ""
+titleSuffix: ""
+ms.custom: "seodec18"
 ms.date: "02/02/2017"
 ms.technology: 
   - "office-development"
@@ -12,8 +13,8 @@ helpviewer_keywords:
   - "document element"
   - "application manifests [Office development in Visual Studio], <document> element"
   - "<document> element"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

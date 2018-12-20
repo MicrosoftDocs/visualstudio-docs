@@ -1,17 +1,17 @@
 ---
-title: "How to: Send Feedback About Visual Studio | Microsoft Docs"
+title: "How to: Send Feedback | Microsoft Docs"
 ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
+ms.technology:
   - "devlang-csharp"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords: 
+f1_keywords:
   - "VS.OptinFeedbackDialog"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "bugs [Visual Studio]"
   - "Visual Studio, feedback"
   - "sending feedback [Visual Studio]"

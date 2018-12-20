@@ -1,5 +1,5 @@
 ---
-title: "Analyzing Load Test Results and Errors in Visual Studio"
+title: "Analyzing Load Test Results and Errors"
 ms.date: 10/19/2016
 ms.topic: conceptual
 f1_keywords:
@@ -28,6 +28,8 @@ ms.technology: vs-ide-test
 
 When you view the results of a load test run, you can display different panes that provide you with different ways to analyze the data. You can view the data as a graph, to see how it changes over time, or you can view the data as detailed tables.
 
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
+
 To switch to table view, choose **Tables** on the **load test** toolbar. To switch between the different tables, use the **Table** drop-down list on the toolbar above the table grid. In table view, you can view up to four tables at a time. For more information, see [Tile load test tables](../test/analyze-load-test-results-and-errors-in-the-tables-view.md#tile-load-test-tables) in this topic.
 
 Most numeric values displayed in a table for performance counters are cumulative over the whole load test run. Columns named **Last** are an exception, and represent the value from the most recent sampling interval.
@@ -35,14 +37,14 @@ Most numeric values displayed in a table for performance counters are cumulative
 > [!NOTE]
 > Columns named **Last** are available only while a load test is executing. After a load test is completed, these columns are not available.
 
- You can sort most tables by choosing the title of the column that you want to sort on. By default, some tables do not display all available columns. You can add columns to tables, if columns are available. To add columns, right-click the table and then choose **Add/Remove Columns**.
+You can sort most tables by choosing the title of the column that you want to sort on. By default, some tables do not display all available columns. You can add columns to tables, if columns are available. To add columns, right-click the table and then choose **Add/Remove Columns**.
 
 > [!NOTE]
 > You can copy the data from a table into other applications such as Excel for additional analysis.
 
 ## The load test tables
 
- The following table lists the tables that are available to analyze load test runs.
+The following table lists the tables that are available to analyze load test runs.
 
 |Table Name|Description|
 |-|-|

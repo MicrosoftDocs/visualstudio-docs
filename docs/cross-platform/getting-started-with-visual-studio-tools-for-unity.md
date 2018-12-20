@@ -41,7 +41,7 @@ The version of Visual Studio included with your Unity installation may not be th
 
 If you already have Visual Studio 2017 installed, or prefer to manually install, run the Visual Studio installer.
 
-1. [Download the Visual Studio installer](/visualstudio/install/install-visual-studio), or open it if already installed.
+1. [Download the Visual Studio installer](../install/install-visual-studio.md), or open it if already installed.
 
 1. Click **Modify** (if already installed) or **Install** (for new installations) for your desired version of Visual Studio.
 

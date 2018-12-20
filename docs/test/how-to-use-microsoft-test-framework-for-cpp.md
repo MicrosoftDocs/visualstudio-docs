@@ -1,5 +1,5 @@
 ---
-title: "Use the Microsoft Unit Testing Framework for C++ in Visual Studio"
+title: "Use the Microsoft Unit Testing Framework for C++"
 ms.date: 11/15/2017
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
@@ -94,4 +94,3 @@ The following pre-defined traits are found in `CppUnitTest.h`. For more informat
 ## See also
 
 - [Quickstart: Test driven development with Test Explorer](../test/quick-start-test-driven-development-with-test-explorer.md)
-

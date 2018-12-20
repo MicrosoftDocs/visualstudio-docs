@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "custom document properties"
   - "documents [Office development in Visual Studio], properties"
   - "document properties [Office development in Visual Studio]"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

@@ -1,5 +1,5 @@
 ---
-title: "How to: Create a Diagnostic Data Adapter in Visual Studio"
+title: "How to: Create a Diagnostic Data Adapter"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -15,16 +15,18 @@ ms.technology: vs-ide-test
 
 To create a *diagnostic data adapter*, you create a class library using Visual Studio, and then add the Diagnostic Data Adapter APIs provided by Visual Studio Enterprise to your class library. Send any information that you want as a stream or a file to the <xref:Microsoft.VisualStudio.TestTools.Execution.DataCollectionSink> provided by the framework, when handling the events that are raised during the test run. The streams or files sent to the <xref:Microsoft.VisualStudio.TestTools.Execution.DataCollectionSink> are stored as attachments to the test results when your test finishes. If you create a bug from these test results or when you use [!INCLUDE[mtrlong](../test/includes/mtrlong_md.md)], the files are also linked to the bug.
 
- You can create a diagnostic data adapter that affects the machine where your tests are run, or a machine that is part of the environment you are using to run your application under test. For example, collecting files on your test machine where the tests are run, or collecting files on the machine serving in the web server role for your application.
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
- You can give your diagnostic data adapter a friendly name that displays when you create your test settings using Microsoft Test Manager or using Visual Studio. Test settings enable you to define which machine role will run specific diagnostic data adapters in your environment when you run your tests. You can also configure your diagnostic data adapters when you create your test settings. For example, you may create a diagnostic data adapter that collects custom logs from your web server. When you create your test settings, you can select to run this diagnostic data adapter on the machine or machines that are performing this web server role and you can modify the configuration for your test settings to collect only the last three logs that were created. For more information about test settings, see [Collect diagnostic information using test settings](../test/collect-diagnostic-information-using-test-settings.md).
+You can create a diagnostic data adapter that affects the machine where your tests are run, or a machine that is part of the environment you are using to run your application under test. For example, collecting files on your test machine where the tests are run, or collecting files on the machine serving in the web server role for your application.
 
- Events are raised when you run your tests so that your diagnostic data adapter can perform tasks at that point in the test.
+You can give your diagnostic data adapter a friendly name that displays when you create your test settings using Microsoft Test Manager or using Visual Studio. Test settings enable you to define which machine role will run specific diagnostic data adapters in your environment when you run your tests. You can also configure your diagnostic data adapters when you create your test settings. For example, you may create a diagnostic data adapter that collects custom logs from your web server. When you create your test settings, you can select to run this diagnostic data adapter on the machine or machines that are performing this web server role and you can modify the configuration for your test settings to collect only the last three logs that were created. For more information about test settings, see [Collect diagnostic information using test settings](../test/collect-diagnostic-information-using-test-settings.md).
+
+Events are raised when you run your tests so that your diagnostic data adapter can perform tasks at that point in the test.
 
 > [!IMPORTANT]
 > These events may be raised on different threads, especially when you have tests running on multiple machines. Therefore, you must be aware of possible threading issues and not inadvertently corrupt the internal data of the custom adapter. Make sure your diagnostic data adapter is thread safe.
 
- The following is a partial list of key events that you can use when you create your diagnostic data adapter. For a complete list of diagnostic data adapter events, see the abstract <xref:Microsoft.VisualStudio.TestTools.Execution.DataCollectionEvents> class.
+The following is a partial list of key events that you can use when you create your diagnostic data adapter. For a complete list of diagnostic data adapter events, see the abstract <xref:Microsoft.VisualStudio.TestTools.Execution.DataCollectionEvents> class.
 
 |Event|Description|
 |-|-----------------|
@@ -38,9 +40,9 @@ To create a *diagnostic data adapter*, you create a class library using Visual S
 > [!NOTE]
 > When a manual test is completed, no more data collection events are sent to the diagnostic data adapter. When a test is rerun, it will have a new test case identifier. If a user resets a test during a test (which raises the <xref:Microsoft.VisualStudio.TestTools.Execution.DataCollectionEvents.TestCaseReset> event), or changes a test step outcome, no data collection event is sent to the diagnostic data adapter, but the test case identifier remains the same. To determine whether a test case has been reset, you must track the test case identifier in your diagnostic data adapter.
 
- Use the following procedure to create diagnostic data adapter that collects a data file that is based on information that you configure when you create your test settings.
+Use the following procedure to create diagnostic data adapter that collects a data file that is based on information that you configure when you create your test settings.
 
- For a complete example diagnostic data adapter project, including a custom configuration editor, see [Sample project for creating a diagnostic data adapter](../test/sample-project-for-creating-a-diagnostic-data-adapter.md).
+For a complete example diagnostic data adapter project, including a custom configuration editor, see [Sample project for creating a diagnostic data adapter](../test/sample-project-for-creating-a-diagnostic-data-adapter.md).
 
 ##  Create and install a diagnostic data adapter
 

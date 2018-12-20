@@ -117,8 +117,3 @@ This topic describes your options for upgrading your database file (.mdf) after 
 4. Select the **OK** button.  
   
    SQL Server Express will be the default database engine for your applications.  
-  
-## See Also  
- [Local Data Overview](../data-tools/local-data-overview.md)   
- [Walkthrough: Connecting to Data in a Local Database File (Windows Forms)](../data-tools/walkthrough-connecting-to-data-in-a-local-database-file-windows-forms.md)
-

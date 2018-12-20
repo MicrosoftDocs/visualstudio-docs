@@ -1,5 +1,5 @@
 ---
-title: "Coded web performance tests in Visual Studio"
+title: "Coded web performance tests"
 ms.date: 10/03/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -20,6 +20,8 @@ ms.technology: vs-ide-test
 # Generate and run a coded web performance test
 
 Web performance tests are recorded by browsing through your web app. The tests are included in load tests to measure the performance of your web application under the stress of multiple users. A web performance test can be converted to a code-based script that you can edit and customize like any other source code. For example, you can add looping and branching constructs.
+
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
 ## Generate a coded web performance test
 

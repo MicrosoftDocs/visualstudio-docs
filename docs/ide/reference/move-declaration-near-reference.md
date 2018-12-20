@@ -1,5 +1,5 @@
 ---
-title: Move variable declaration near reference in Visual Studio
+title: Move variable declaration near reference
 ms.date: 01/26/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
@@ -8,7 +8,7 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 dev_langs:
-  - csharp
+  - CSharp
 ms.workload:
   - "dotnet"
 ---

@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "vstoee.dll"
   - "application-level add-ins [Office development in Visual Studio], architecture"
   - "add-ins [Office development in Visual Studio], architecture"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

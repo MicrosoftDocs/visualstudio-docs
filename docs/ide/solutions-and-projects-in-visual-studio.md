@@ -11,7 +11,6 @@ f1_keywords:
   - "vs.addnewitem"
   - "vs.addexistingitem"
   - "VS.SolutionExplorer"
-  - "vs.newproject"
   - "vs.addexistingsolutionitem"
   - "vs.environment.solutions"
   - "VS.SolutionExplorer.Solutions"
@@ -50,7 +49,7 @@ In Visual Studio, the project file is used by **Solution Explorer** to display t
 
 ## Solutions
 
-A project is contained within a *solution*. A solution contains one or more related projects, along with build information, Visual Studio window settings, and any miscellaneous files that aren't associated with a particular project. A solution is described by a text file (extension *.sln*) with its own unique format; it is not intended to be edited by hand.
+A project is contained within a *solution*. Despite its name, a solution is not an "answer". It's simply a container for one or more related projects, along with build information, Visual Studio window settings, and any miscellaneous files that aren't associated with a particular project. A solution is described by a text file (extension *.sln*) with its own unique format; it's not intended to be edited by hand.
 
 Visual Studio uses two file types (*.sln* and *.suo*) to store settings for solutions:
 
@@ -73,6 +72,6 @@ After you create a new project, you can use **Solution Explorer** to view and ma
 
 ## See also
 
-- [Visual Studio IDE](../ide/visual-studio-ide.md)
+- [Visual Studio IDE](../get-started/visual-studio-ide.md)
 - [Projects and solutions (Visual Studio for Mac)](/visualstudio/mac/projects-and-solutions)
 - [Add and remove project items (Visual Studio for Mac)](/visualstudio/mac/add-and-remove-project-items)

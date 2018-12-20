@@ -1,6 +1,6 @@
 ---
-title: "Debugging Preparation: Console Projects | Microsoft Docs"
-ms.custom: ""
+title: "Prepare to debug console projects | Microsoft Docs"
+ms.custom: "seodec18"
 ms.date: "11/04/2016"
 ms.technology: "vs-ide-debug"
 ms.topic: "reference"
@@ -20,12 +20,11 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Debugging Preparation: Console Projects
+# Debugging Preparation: Console Projects (C#, C++, Visual Basic, F#)
+
 Preparing to debug a Console project is similar to preparing to debug a Windows project, with some additional considerations. For more information, see [Windows Forms Applications](../debugger/debugging-preparation-windows-forms-applications.md), and [Debugging Preparation: Windows Forms Applications (.NET)](https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2010/sez9z95a(v=vs.100)). Because of the similarity of all console applications, this topic covers the following project types:  
   
-- C# Console Application  
-  
-- Visual Basic Console Application  
+- C#, Visual Basic, and F# Console Application  
   
 - C++ Console Application (.NET)  
   
@@ -40,13 +39,11 @@ Preparing to debug a Console project is similar to preparing to debug a Windows 
 ## Starting the application  
  When some console applications start, they run to completion and then exit. This behavior might not give you enough time to break execution and debug. To be able to debug an application, use one of the following procedures to start the application:  
   
-- Your application starts executing and runs until it reaches the breakpoint.  
+- Set a breakpoint in your code and start your application.
   
-- Your application starts and immediately breaks at the first line of source code.  
+- Start your application using **F10** (**Debug** > **Step Over**) or **F11** (**Debug** > **Step Into**), and then navigate through code using other options such as **Run to click**.
   
-- In a source code window, right-click a line and select **Run to cursor**.  
-  
-   Your application starts and runs to the selected line, or to a breakpoint, if the breakpoint is hit before the line.  
+- In the code editor, right-click a line and select **Run to cursor**.  
   
   When you debug a console application, you might want to start the application from the command prompt rather than from Visual Studio. In that case, you can start the application from the command prompt and attach the Visual Studio debugger to it. For more information, see [Attach to Running Processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md).  
   

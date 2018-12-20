@@ -1,17 +1,17 @@
 ---
-title: "Getting Started with Visual C++ in Visual Studio 2015 | Microsoft Docs"
+title: "Getting Started with Visual C++ | Microsoft Docs"
 ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
+ms.technology:
   - "devlang-csharp"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
+dev_langs:
   - "C++"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "Visual C++, about Visual C++"
   - "Visual C++"
 ms.assetid: 2982a138-d979-4a05-af16-8a99bdab1499

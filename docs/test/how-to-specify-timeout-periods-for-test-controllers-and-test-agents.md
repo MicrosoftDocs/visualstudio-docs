@@ -1,5 +1,5 @@
 ---
-title: "Timeout Periods for Test Controllers and Test Agents in Visual Studio"
+title: "Timeout Periods for Test Controllers and Test Agents"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -18,7 +18,9 @@ ms.technology: vs-ide-test
 
 Both the test controller and the test agent have several timeout settings that specify how long they should wait for responses from one another, or from a data source before failing with an error. Under certain circumstances, it might be necessary to edit the timeout values to meet the needs of your topology or other environment issues. To edit the timeout values, edit the XML configuration file that is associated with either the test controller or test agent, as covered in the following procedures.
 
- To edit a test controller or a test agent’s various timeout settings, modify the following configuration files using the key names and values in the tables:
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
+
+To edit a test controller or a test agent’s various timeout settings, modify the following configuration files using the key names and values in the tables:
 
 -   Test controller: *QTController.exe.config*
 

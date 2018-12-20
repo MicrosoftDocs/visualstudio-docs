@@ -1,5 +1,5 @@
 ---
-title: "Create a Visual Studio Add-In for the Web Performance Test Results Viewer"
+title: "Create Add-In for Web Performance Test Results Viewer"
 ms.date: 10/20/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -22,7 +22,9 @@ You can extend the UI for the **Web Performance Test Results Viewer** by using t
 
 Additionally, you need to add a reference to LoadTestPackage DLL, which is located in the *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\PrivateAssemblies* folder.
 
--   To extend the **Web Performance Test Results Viewer**'s UI, you must create a Visual Studio add-in and a user control. The following procedures explain how to create the add-in, the user control, and how to implement the classes necessary to extend the **Web Performance Test Results Viewer**'s UI.
+To extend the **Web Performance Test Results Viewer**'s UI, you must create a Visual Studio add-in and a user control. The following procedures explain how to create the add-in, the user control, and how to implement the classes necessary to extend the **Web Performance Test Results Viewer**'s UI.
+
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
 ## Create or open a solution that contains an ASP.NET web application and a web performance and load test project
 

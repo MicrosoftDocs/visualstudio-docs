@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "workbooks [Office development in Visual Studio], restricted permissions"
   - "Office documents [Office development in Visual Studio], restricted permissions"
   - "documents [Office development in Visual Studio], restricted permissions"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

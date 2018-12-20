@@ -21,7 +21,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Debug DLLs in Visual Studio
+# Debug DLLs in Visual Studio (C#, C++, Visual Basic, F#)
 
 A DLL (dynamic-link library) is a library that contains code and data that can be used by more than one app. You can use Visual Studio to create, build, configure, and debug DLLs. 
 
@@ -29,7 +29,7 @@ A DLL (dynamic-link library) is a library that contains code and data that can b
 
 The following Visual Studio project templates can create DLLs:
 
-- C# or Visual Basic Class Library 
+- C#, Visual Basic, or F# Class Library 
 - C# or Visual Basic Windows Forms Control (WCF) Library 
 - C++ Dynamic-Link Library (DLL)
 
@@ -96,7 +96,7 @@ You can't run a DLL directly. It must be called by an app, usually an *.exe* fil
 
 To debug a DLL, you can [start debugging from the calling app](#vxtskdebuggingdllprojectsthecallingapplication), or [debug from the DLL project](how-to-debug-from-a-dll-project.md) by specifying its calling app. You can also use the debugger [Immediate window](#vxtskdebuggingdllprojectstheimmediatewindow) to evaluate DLL functions or methods at design time, without using a calling app.
 
-For more information, see [Get started with the debugger](getting-started-with-the-debugger.md).
+For more information, see [First look at the debugger](../debugger/debugger-feature-tour.md).
 
 ### <a name="vxtskdebuggingdllprojectsthecallingapplication"></a> Start debugging from the calling app
 
@@ -107,7 +107,6 @@ The app that calls a DLL can be:
 - Located on the web and accessed through a URL.  
 - A web app with a web page that embeds the DLL.  
   
-
 To debug a DLL from a calling app, you can:  
   
 - Open the project for the calling app, and start debugging by selecting **Debug** > **Start Debugging** or pressing **F5**.  
@@ -125,7 +124,7 @@ During debugging, you can use the **Modules** window to verify the DLLs and *.ex
 You can use the **Immediate** window to evaluate DLL functions or methods at design time. The **Immediate** window plays the role of a calling app. 
 
 >[!NOTE]
->You can use the **Immediate** window at design time with most project types. It's not currently supported for .NET Core, SQL, or web projects.
+>You can use the **Immediate** window at design time with most project types. It's not supported for SQL, web projects, or script.
 
 For example, to test a method named `Test` in class `Class1`:
 

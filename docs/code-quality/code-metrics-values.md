@@ -1,5 +1,5 @@
 ---
-title: Calculate code metrics in Visual Studio
+title: Calculate code metrics
 ms.date: 11/02/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis

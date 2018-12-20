@@ -75,7 +75,7 @@ You edit data in data tables much like you edit the data in a table in any datab
   
 - Each data row contains information related to it's <xref:System.Data.DataRow.RowState%2A> (for example, <xref:System.Data.DataRowState>, <xref:System.Data.DataRowState>, <xref:System.Data.DataRowState>, or <xref:System.Data.DataRowState>).  
   
-- Each changed data row contains multiple versions of that row (<xref:System.Data.DataRowVersion>), the original version (before changes), and the current version (after changes). During the period when a change is pending (the time when you can respond to the <xref:System.Data.DataTable.RowChanging> event), a third version — the proposed version— is available as well. For more information, see [How to: Get Specific Versions of a DataRow](../data-tools/how-to-get-specific-versions-of-a-datarow.md).  
+- Each changed data row contains multiple versions of that row (<xref:System.Data.DataRowVersion>), the original version (before changes), and the current version (after changes). During the period when a change is pending (the time when you can respond to the <xref:System.Data.DataTable.RowChanging> event), a third version — the proposed version— is available as well.
   
   The <xref:System.Data.DataSet.HasChanges%2A> method of a dataset returns `true` if changes have been made in the dataset. After determining that changed rows exist, you can call the `GetChanges` method of a <xref:System.Data.DataSet> or <xref:System.Data.DataTable> to return a set of changed rows. For more information, see [How to: Retrieve Changed Rows](http://msdn.microsoft.com/library/6ff0cbd0-5253-48e7-888a-144d56c2e0a9).  
   
@@ -109,4 +109,3 @@ You edit data in data tables much like you edit the data in a table in any datab
   
      [!code-csharp[VbRaddataEditing#23](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataEditing/CS/Form1.cs#23)]
      [!code-vb[VbRaddataEditing#23](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataEditing/VB/Form1.vb#23)]
-

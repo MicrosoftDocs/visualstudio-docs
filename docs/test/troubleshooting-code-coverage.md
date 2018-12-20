@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting Code Coverage in Visual Studio"
+title: "Troubleshooting Code Coverage"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test

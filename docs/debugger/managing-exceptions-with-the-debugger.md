@@ -1,6 +1,6 @@
 ---
-title: "Manage exceptions with the Visual Studio debugger | Microsoft Docs"
-ms.custom: ""
+title: "Manage exceptions with the debugger | Microsoft Docs"
+ms.custom: "seodec18"
 ms.date: "10/09/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
@@ -221,4 +221,4 @@ To add conditional exceptions:
 [How to: Examine system code after an exception](../debugger/how-to-examine-system-code-after-an-exception.md)<br/>
 [How to: Use native run-time checks](../debugger/how-to-use-native-run-time-checks.md)<br/>
 [Use run-time checks without the C run-time library](../debugger/using-run-time-checks-without-the-c-run-time-library.md)<br/>
-[Tutorial: Learn to debug using Visual Studio](../debugger/getting-started-with-the-debugger.md)
+[First look at the debugger](../debugger/debugger-feature-tour.md)

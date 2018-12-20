@@ -1,5 +1,5 @@
 ---
-title: "Fix non-detectable dynamic parameters in a web performance test in Visual Studio"
+title: "Fix non-detectable dynamic parameters in web performance test"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -24,6 +24,8 @@ Some websites use dynamic parameters to process some of their web requests. A dy
 -   Dynamic parameter values that are set as query string or form post parameters. These are handled through dynamic parameter detection after you record a web performance test.
 
 Some types of dynamic parameters are not detected. An undetected dynamic parameter will cause your web performance test to fail when you run it because the dynamic value will be different every time that the test is run. To handle these parameters correctly, you can add extraction rules to dynamic parameters in your web performance tests manually.
+
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
 ## Create and run a web app with dynamic parameters
 

@@ -59,16 +59,10 @@ XML and its related technologies play a large role in the way data is handled in
  Discusses how to debug style sheets using the Visual Studio debugger.  
   
  [XML Standards Reference](http://msdn.microsoft.com/en-us/79c78508-c9d0-423a-a00f-672e855de401)  
- Provides information about XML technologies, including XML, Document Type Definition (DTD), XML Schema definition language (XSD), and XSLT.  
-  
- [Creating and Editing Typed Datasets](../data-tools/creating-and-editing-typed-datasets.md)  
- Provides an explanation of the design-time tools for creating datasets.  
+ Provides information about XML technologies, including XML, Document Type Definition (DTD), XML Schema definition language (XSD), and XSLT.
   
  [XML Web Services in Managed Code](http://msdn.microsoft.com/en-us/c9a7dc25-3e68-4723-bfb7-de4320830196)  
  Discusses how to create and deploy XML Web services and how to access XML Web services.  
   
 ## See Also  
  [XML Tools in Visual Studio](../xml-tools/xml-tools-in-visual-studio.md)
-
-
-

@@ -24,8 +24,8 @@ helpviewer_keywords:
   - "ComboBoxContentControl, adding to documents"
   - "DatePickerContentControl, adding to documents"
   - "Word [Office development in Visual Studio], restricted permissions"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

@@ -12,7 +12,6 @@ f1_keywords:
   - "findresultswindow"
   - "vs.findreplace.quickreplace"
   - "vs.findsymbol"
-  - "vs.findinfiles"
   - "vs.findresults1"
   - "vs,findsymbolwindow"
   - "vs.findreplace.quickfind"
