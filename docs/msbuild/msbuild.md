@@ -23,7 +23,7 @@ The [!INCLUDE[vstecmsbuildengine](../msbuild/includes/vstecmsbuildengine_md.md)]
 
  The following examples illustrate when you might run builds by using an MSBuild command line instead of the Visual Studio IDE.
 
--   Visual Studio isn't installed.
+-   Visual Studio isn't installed. ([download MSBuild without Visual Studio](https://visualstudio.microsoft.com/downloads/?q=build+tools))
 
 -   You want to use the 64-bit version of MSBuild. This version of MSBuild is usually unnecessary, but it allows MSBuild to access more memory.
 
