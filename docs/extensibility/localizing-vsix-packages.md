@@ -100,6 +100,6 @@ The following example shows relevant portions of an *Extension.vsixmanifest* fil
 
 |Title|Description|
 |-----------|-----------------|
-|[VSIX Language Pack schema 2.0 reference](../extensibility/vsixlanguagepack-element-vsix-language-pack-schema.md)|A VSIX language pack describes the localization information of a .vsix deployment file.|
+|[VSIX Language Pack schema 2.0 reference](/visualstudio/extensibility/vsix-language-pack-schema-2-0-reference)|A VSIX language pack describes the localization information of a .vsix deployment file.|
 |[Anatomy of a VSIX package](../extensibility/anatomy-of-a-vsix-package.md)|Describes the structure and contents of a vsix package.|
 |[Localize menu commands](../extensibility/localizing-menu-commands.md)|Shows how to localize other text resources in an extension.|

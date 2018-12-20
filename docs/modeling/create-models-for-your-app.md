@@ -36,7 +36,7 @@ To visualize the architecture of a system or existing code, create the following
 |-|-|
 |[Dependency Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)<br /><br /> [Dependency Diagrams: Reference](../modeling/layer-diagrams-reference.md)|High-level architecture of the system|
 |Code maps<br /><br /> [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)<br /><br /> [Find potential problems using code map analyzers](../modeling/find-potential-problems-using-code-map-analyzers.md)|Dependencies and other relationships in existing code|
-|Code-generated class diagrams<br /><br /> [Working with Class Diagrams (Class Designer)](../ide/class-designer/working-with-class-diagrams.md)|Types and their relationships in .NET code|
+|Code-generated class diagrams<br /><br /> [Working with Class Diagrams (Class Designer)](/visualstudio/ide/class-designer/designing-and-viewing-classes-and-types)|Types and their relationships in .NET code|
 
 ## Related Tasks
 

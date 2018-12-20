@@ -30,7 +30,7 @@ MSBuild uses a Toolset of tasks, targets, and tools to build an application. Typ
 > Some project types use the `sdk` attribute instead of `ToolsVersion`. For more information, see [Packages, metadata, and frameworks](/dotnet/core/packages) and [Additions to the csproj format for .NET Core](/dotnet/core/tools/csproj).
   
 ## How the ToolsVersion attribute works  
- When you create a project in Visual Studio, or upgrade an existing project, an attribute named `ToolsVersion` is automatically included in the project file and its value corresponds to the version of MSBuild that is included in the Visual Studio edition. For more information, see [Targeting a specific .NET Framework version](../ide/targeting-a-specific-dotnet-framework-version.md).  
+ When you create a project in Visual Studio, or upgrade an existing project, an attribute named `ToolsVersion` is automatically included in the project file and its value corresponds to the version of MSBuild that is included in the Visual Studio edition. For more information, see [Targeting a specific .NET Framework version](/visualstudio/ide/visual-studio-multi-targeting-overview/).  
   
  When a `ToolsVersion` value is defined in a project file, MSBuild uses that value to determine the values of the Toolset properties that are available to the project. One Toolset property is `$(MSBuildToolsPath)`, which specifies the path of the .NET Framework tools. Only that Toolset property (or `$(MSBuildBinPath)`), is required.  
   
