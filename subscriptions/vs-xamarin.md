@@ -2,8 +2,8 @@
 title: The Xamarin University Benefit in Visual Studio Subscriptions | Microsoft Docs
 author: evanwindom
 ms.author: jaunger
-manager: evelynp
-ms.date: 12/12/2018
+manager: lank
+ms.date: 12/19/2018
 ms.topic: Get-Started-Article
 description:  Learn about the Xamarin University Training subscription included with selected Visual Studio subscription.
 ms.prod: vs-subscription
@@ -71,14 +71,17 @@ Until December 28, 2018, Visual Studio Enterprise subscribers receive six months
 
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
-| Visual Studio Enterprise (Standard, annual cloud)   | VL, Azure, Retail,  selected NFR<sup>1</sup> | 6 months       |  Yes |
-| Visual Studio Professional (Standard, annual cloud) | VL, Azure, Retail                                       | 3 months       |  Yes |
+| Visual Studio Enterprise (Standard)   | VL, Azure, Retail,  selected NFR<sup>1</sup> | 6 months       |  Yes |
+| Visual Studio Professional (Standard) | VL, Azure, Retail                                       | 3 months       |  Yes |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Not available                                             |  NA        |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | Not available                                             |  NA        |
 | Visual Studio Dev Essentials | NA  | Free plan                                             |  Yes        |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure                                       | Not available                                                           |NA|
 
 <sup>1</sup>  *Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP).  Microsoft Partner Network (MPN), FTE, MCT Software & Services Developer, BizSpark, Imagine, Microsoft Valued Professional (MVP), Region Director (RD).   Excludes: MCT Software & Services.*
+
+> [!NOTE]
+> Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
 
 
 Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.
