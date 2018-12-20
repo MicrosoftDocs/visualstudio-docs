@@ -35,7 +35,7 @@ You can customize the way Visual Studio displays data types in debugger variable
  In [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)] code, Visual Basic does not support the DebuggerBrowsable attribute. This limitation is removed in more recent versions of the .NET Framework.  
   
 ## Visualizers  
- You can write a visualizer to display any managed data type. For more information, see [How to: Write a Visualizer](../debugger/how-to-write-a-visualizer.md).  
+ You can write a visualizer to display any managed data type. For more information, see [How to: Write a Visualizer](/visualstudio/debugger/create-custom-visualizers-of-data).  
   
 ## Native Code  
  For native code, you can add custom data type expansions to the file autoexp.dat, which is located in the Program Files\Microsoft Visual Studio 11.0\Common7\Packages\Debugger directory. Instructions on how to write `autoexp` rules are located in the file itself.  

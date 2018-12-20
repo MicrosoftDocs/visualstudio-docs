@@ -55,7 +55,7 @@ ms.workload:
   
      The DOM Explorer associated with the `WebView` appears as a new tab in Visual Studio.  
   
-5.  View and modify live DOM elements and CSS styles as described in [Debug CSS styles using DOM Explorer](../debugger/debug-css-styles-using-dom-explorer.md).  
+5.  View and modify live DOM elements and CSS styles as described in [Debug CSS styles using DOM Explorer](/visualstudio/debugger/quickstart-debug-html-and-css).  
   
 ### Use the JavaScript Console window to inspect and debug a WebView control  
   

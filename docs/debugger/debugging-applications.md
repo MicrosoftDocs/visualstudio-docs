@@ -27,7 +27,7 @@ The following sections deal with debugging for specific types of applications. D
 |[Debug managed code](../debugger/debugging-managed-code.md)|Describes how to debug managed code (Visual C#, Visual Basic, and F3).|  
 |[Debug native code](../debugger/debugging-native-code.md)|Describes how to debug different kind of native C++ applications.|  
 |[Debug GPU code](../debugger/debugging-gpu-code.md)|Describes how to debug C++ code that runs on the graphical processing unit (GPU).|  
-|[Graphics diagnostics (Debugging DirectX graphics)](../debugger/visual-studio-graphics-diagnostics.md)|Describes how to debug DirectX graphics.|  
+|[Graphics diagnostics (Debugging DirectX graphics)](/visualstudio/debugger/graphics/visual-studio-graphics-diagnostics)|Describes how to debug DirectX graphics.|  
 |[Debug ASP.NET applications](../debugger/how-to-enable-debugging-for-aspnet-applications.md)|Describes how to debug ASP.NET applications.| 
 |[Debug Web applications](../debugger/debugging-web-applications.md)|Describes how to debug Web applications and script.|  
 |[Debug WCF services](../debugger/debugging-wcf-services.md)|Describes how to debug Windows Communication Foundation services.|

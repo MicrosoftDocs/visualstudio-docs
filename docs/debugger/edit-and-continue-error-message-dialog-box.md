@@ -31,7 +31,7 @@ Possible reasons for this error message include:
 -   Trying to edit optimized code. You may need to switch from a release build to a debug build.
 -   Trying to edit code while it's running, instead of while paused in the debugger. Try [setting a breakpoint](../debugger/using-breakpoints.md), and editing the code while paused.
 -   Trying to edit managed code when only unmanaged debugging is enabled. Edit and Continue doesn't work with [mixed-mode debugging](../debugger/how-to-debug-in-mixed-mode.md).
--   Making a code change that isn't supported by Edit and Continue in your programming language. For more information, see articles about [supported code changes in C#](supported-code-changes-csharp.md), [unsupported edits in Visual Basic Edit and Continue](unsupported-edits-in-visual-basic-edit-and-continue.md), and [supported C++ code changes](supported-code-changes-cpp.md).
+-   Making a code change that isn't supported by Edit and Continue in your programming language. For more information, see articles about [supported code changes in C#](supported-code-changes-csharp.md), [unsupported edits in Visual Basic Edit and Continue](/visualstudio/debugger/supported-code-changes-csharp), and [supported C++ code changes](supported-code-changes-cpp.md).
 -   Trying to edit code in an app you're attached to, instead of starting debugging from the **Debug** menu.  
 -   Trying to edit code while debugging a Dr. Watson dump.  
 -   Trying to edit code after an unhandled exception occurs, and the option **Unwind the call stack on unhandled exceptions** is not selected.  

@@ -39,5 +39,5 @@ The Visualizer APIs are provided for users who want to write a visualizer for th
 ## See Also
 
  [Walkthrough: Writing a Visualizer in C#](../debugger/walkthrough-writing-a-visualizer-in-csharp.md)   
- [How to: Write a Visualizer](../debugger/how-to-write-a-visualizer.md)   
+ [How to: Write a Visualizer](/visualstudio/debugger/create-custom-visualizers-of-data)   
  [Create Custom Visualizers](../debugger/create-custom-visualizers-of-data.md)

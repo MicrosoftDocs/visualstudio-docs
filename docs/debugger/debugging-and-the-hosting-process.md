@@ -26,7 +26,7 @@ The Visual Studio hosting process improves debugger performance and enables new 
 > In Visual Studio 2017, the option to debug using the hosting process is no longer needed and has been removed. For more information, see [Debugging: Visual Studio 2017 Aims To Speed Up Your Least Favorite Job](https://vslive.com/Blogs/News-and-Tips/2017/02/Debugging-Visual-Studio-2017-aims-to-speed-up-your-least-favorite-job.aspx).
 
 ## Partial-Trust Debugging and Click-Once Security
- Partial-trust debugging requires the hosting process. If you disable the hosting process, partial-trust debugging will not work even if partial-trust security is enabled on the **Security** page of **Project Properties**. For more information, see [How to: Debug a Partial Trust Application](../debugger/how-to-debug-a-partial-trust-application.md).
+ Partial-trust debugging requires the hosting process. If you disable the hosting process, partial-trust debugging will not work even if partial-trust security is enabled on the **Security** page of **Project Properties**. For more information, see [How to: Debug a Partial Trust Application](/visualstudio/debugger/debugger-security).
 
 ## Design-Time Expression Evaluation
  Design-time expression always uses the hosting process. Disabling the hosting process in the **Project Properties** disables design-time expression evaluation for Class Library projects. For other project types, design-time expression evaluation is not disabled. Instead, Visual Studio starts the actual executable and uses it for design-time evaluation without the hosting process. This difference could produce different results.
@@ -39,4 +39,4 @@ The Visual Studio hosting process improves debugger performance and enables new 
 
 ## See also
 
-- [How to: Debug a Partial Trust Application](../debugger/how-to-debug-a-partial-trust-application.md)
+- [How to: Debug a Partial Trust Application](/visualstudio/debugger/debugger-security)

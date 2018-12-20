@@ -162,4 +162,4 @@ Here is a table that lists the different tools Visual Studio offers and the diff
 |[JavaScript Memory](../profiling/javascript-memory.md)|no|yes for HTML, no for XAML|no|
 
 ## See also  
- [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)
+ [Debugging in Visual Studio](/visualstudio/debugger/debugger-feature-tour)
