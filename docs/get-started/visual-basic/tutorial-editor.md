@@ -21,7 +21,7 @@ In this 10-minute introduction to the code editor in Visual Studio, we'll add co
 > [!TIP]
 > If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
 
-This article assumes you're already familiar with Visual Basic. If you aren't, we suggest you look at a tutorial such as [Get started with Visual Basic in Visual Studio](../../ide/tutorial-visual-basic-console.md) first.
+This article assumes you're already familiar with Visual Basic. If you aren't, we suggest you look at a tutorial such as [Get started with Visual Basic in Visual Studio](/visualstudio/get-started/visual-basic/tutorial-console) first.
 
 > [!TIP]
 > To follow along with this article, make sure you have the Visual Basic settings selected for Visual Studio. For information about selecting settings for the integrated development environment (IDE), see [Select environment settings](visual-studio-ide.md#select-environment-settings).

@@ -251,7 +251,7 @@ For more information, see [Run unit tests with Test Explorer](../test/run-unit-t
 
 2.  In **Test Explorer**, select the test methods and then choose **Debug Selected Tests** from the shortcut menu.
 
-Learn more details about [debugging unit tests](../debugger/debugging-in-visual-studio.md).
+Learn more details about [debugging unit tests](/visualstudio/debugger/debugger-feature-tour).
 
 **Q: If I'm using TDD, how do I generate code from my tests?**
 
