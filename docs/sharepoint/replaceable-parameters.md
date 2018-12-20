@@ -20,7 +20,7 @@ manager: douge
 ms.workload: "office"
 ---
 # Replaceable parameters
-  Replaceable parameters, or *tokens*, can be used inside project files to provide values for SharePoint solution items whose actual values aren't known at design time. They're similar in function to the standard [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] template tokens. For more information, see [Template Parameters](/visualstudio/ide/template-parameters).  
+  Replaceable parameters, or *tokens*, can be used inside project files to provide values for SharePoint solution items whose actual values aren't known at design time. They're similar in function to the standard [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] template tokens. For more information, see [Template Parameters](../ide/template-parameters.md).  
   
 ## Token format
  Tokens begin and end with a dollar sign ($) character. On deployment, any tokens used are replaced with actual values when a project is packaged into a SharePoint solution package (*.wsp* file). For example, the token **$SharePoint.Package.Name$** might resolve to the string "Test SharePoint Package".  
@@ -105,4 +105,3 @@ ms.workload: "office"
   
 ## See also
  [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)  
-  

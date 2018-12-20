@@ -682,12 +682,12 @@
         },
         {
             "source_path": "docs/debugger/first-look-at-the-debugger.md",
-            "redirect_url": "/visualstudio/debugger/debugger-feature-tour.md",
+            "redirect_url": "/visualstudio/debugger/debugger-feature-tour",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/debugger/debugger-basics.md",
-            "redirect_url": "/visualstudio/debugger/debugger-feature-tour.md",
+            "redirect_url": "/visualstudio/debugger/debugger-feature-tour",
             "redirect_document_id": false
         },
         {
@@ -697,7 +697,7 @@
         },
         {
             "source_path": "docs/debugger/getting-started-with-the-debugger.md",
-            "redirect_url": "/visualstudio/debugger/debugger-feature-tour.md",
+            "redirect_url": "/visualstudio/debugger/debugger-feature-tour",
             "redirect_document_id": false
         },
         {
@@ -4043,7 +4043,7 @@
        },
        {
            "source_path":  "scripting-docs/javascript/reference/setuint32-method-dataview.md",
-           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/setuint32.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/setuint32",
            "redirect_document_id":  false
        },
        {
@@ -6283,7 +6283,7 @@
        },
        {
            "source_path":  "scripting-docs/javascript/reference/number-property-error-javascript.md",
-           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Microsoft_JavaScript_extensions/Error.number.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Microsoft_JavaScript_extensions/Error.number",
            "redirect_document_id":  false
        },
        {
