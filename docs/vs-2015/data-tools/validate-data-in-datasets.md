@@ -211,9 +211,7 @@ Validating data is the process of confirming that the values being entered into 
      [!code-csharp[VbRaddataEditing#22](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataEditing/CS/Form1.cs#22)]
      [!code-vb[VbRaddataEditing#22](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataEditing/VB/Form1.vb#22)]  
   
-## See Also  
- [Creating and Editing Typed Datasets](../data-tools/creating-and-editing-typed-datasets.md)   
- [How to: Connect to Data in a Database](../data-tools/how-to-connect-to-data-in-a-database.md)   
- [How to: Validate Data in the Windows Forms DataGridView Control](http://msdn.microsoft.com/library/d10aef35-701e-4a3c-a684-2a2ed1aeaca6)   
- [How to: Display Error Icons for Form Validation with the Windows Forms ErrorProvider Component](http://msdn.microsoft.com/library/3b681a32-9db4-497b-a34b-34980eabee46)
+## See also
 
+- [How to: Validate Data in the Windows Forms DataGridView Control](http://msdn.microsoft.com/library/d10aef35-701e-4a3c-a684-2a2ed1aeaca6)   
+- [How to: Display Error Icons for Form Validation with the Windows Forms ErrorProvider Component](http://msdn.microsoft.com/library/3b681a32-9db4-497b-a34b-34980eabee46)

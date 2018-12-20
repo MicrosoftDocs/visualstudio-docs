@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "application-level add-ins [Office development in Visual Studio], extending Excel workbooks"
   - "controls [Office development in Visual Studio], adding at run time"
   - "HasVstoObject method"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

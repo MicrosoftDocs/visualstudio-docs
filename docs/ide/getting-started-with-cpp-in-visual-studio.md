@@ -151,5 +151,5 @@ Congratulations on completing this quickstart!
 ## See also
 
 - [Using the Visual Studio IDE for C++ desktop development](/cpp/ide/using-the-visual-studio-ide-for-cpp-desktop-development)
-- [Walkthrough: Create a simple application with C# or Visual Basic](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md)
+- [Walkthrough: Create a simple application with C# or Visual Basic](../get-started/csharp/tutorial-wpf.md)
 - [Productivity tips for Visual Studio](../ide/productivity-tips-for-visual-studio.md)

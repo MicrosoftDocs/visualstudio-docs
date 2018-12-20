@@ -13,9 +13,10 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Notifications, Environment, Options Dialog Box
-Use this option to stop ignoring any notifications that you previously chose to ignore through the Notifications dialog. For more information, see [Notifications](../../ide/visual-studio-notifications.md).
+# Notifications, Environment, Options dialog box
 
-### See Also
+Use this option to stop ignoring any notifications that you previously chose to ignore through the **Notifications** dialog. For more information, see [Update Visual Studio](../../install/update-visual-studio.md).
+
+### See also
 
 - [Environment Options Dialog Box](../../ide/reference/environment-options-dialog-box.md)

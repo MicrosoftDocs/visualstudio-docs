@@ -22,7 +22,7 @@ One common reason for this problem is that when the debugger evaluates a propert
  
 ## To correct this error
  
-There are three possible solutions to this issue.
+There are several possible solutions to this issue.
  
 ### Solution #1: Prevent the debugger from calling the getter property or ToString method
  

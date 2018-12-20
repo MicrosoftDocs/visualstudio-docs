@@ -14,19 +14,24 @@ ms.workload:
   - "multiple"
 ---
 # Extensions and Updates, Environment, Options Dialog Box
+
 Use this page to set options for how Visual Studio performs updates and how extensions are updated and discovered.
 
-### Automatically check for updates
- When checked, Visual Studio will check periodically for updates to itself, installed SDKs and tools, and extensions, and display notifications in the menu bar when updates are available. For more information, see [Notifications](../../ide/visual-studio-notifications.md).
+## Automatically check for updates
 
-### Automatically update extensions
- When checked, updates to extensions are made without prompting. For more information, see [Finding and Using Visual Studio Extensions](../../ide/finding-and-using-visual-studio-extensions.md).
+When checked, Visual Studio will check periodically for updates to itself, installed SDKs and tools, and extensions, and display notifications in the menu bar when updates are available. For more information, see [Update Visual Studio](../../install/update-visual-studio.md).
 
-### Load user extensions when running as administrator
- For more information, see [Finding and Using Visual Studio Extensions](../../ide/finding-and-using-visual-studio-extensions.md).
+## Automatically update extensions
 
-### Additional Extension Galleries
- An Enterprise feature that enables support for galleries of proprietary extensions. For more information, see [Private Galleries](../../extensibility/private-galleries.md).
+When checked, updates to extensions are made without prompting. For more information, see [Finding and Using Visual Studio Extensions](../../ide/finding-and-using-visual-studio-extensions.md).
+
+## Load user extensions when running as administrator
+
+For more information, see [Finding and Using Visual Studio Extensions](../../ide/finding-and-using-visual-studio-extensions.md).
+
+## Additional Extension Galleries
+
+An Enterprise feature that enables support for galleries of proprietary extensions. For more information, see [Private Galleries](../../extensibility/private-galleries.md).
 
 ## See Also
 

@@ -1,2 +1,0 @@
-> [!NOTE]
->  In [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)], you can connect to a SQL Server database from either **SQL Server Object Explorer** or the **Data Connections** node in **Server Explorer**. **SQL Server Object Explorer** provides a view that is like SQL Server Management Studio. To open this explorer from the menu bar, choose **View**, **SQL Server Object Explorer**. For more information, see [Connected Database Development](http://go.microsoft.com/fwlink/?LinkId=233646).

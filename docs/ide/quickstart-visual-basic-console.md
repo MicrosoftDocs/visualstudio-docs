@@ -85,4 +85,4 @@ Let's add some code to pause the application and then ask for user input.
 Congratulations on completing this Quickstart! We hope you learned a little bit about Visual Basic and the Visual Studio IDE. To learn more, continue with the following tutorial.
 
 > [!div class="nextstepaction"]
-> [Get started with Visual Basic in Visual Studio](tutorial-visual-basic-console.md)
+> [Get started with Visual Basic in Visual Studio](../get-started/visual-basic/tutorial-console.md)

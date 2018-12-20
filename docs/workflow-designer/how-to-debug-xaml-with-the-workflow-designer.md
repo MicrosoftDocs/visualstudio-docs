@@ -26,11 +26,11 @@ Workflows are defined in terms of XAML. The UI representation of workflow is bui
 
 3.  Right-click the .xaml file that contains your workflow definition and select **View Code**. You will see a breakpoint displayed on the same line as the XAML element declaration of the activity that you set the breakpoint on in the design view.
 
-4.  Invoke the debugger as described in [How to: Invoke the Workflow Debugger](../workflow-designer/how-to-invoke-the-workflow-debugger.md).
+4.  Invoke the debugger as described in [Debug workflows](debugging-workflows-with-the-workflow-designer.md).
 
 5.  When the code execution reaches one of your breakpoints, the XAML element associated with that breakpoint will be highlighted. To move to the next breakpoint, use the **F10** or **F11** key.
 
 ## See also
 
 - [How to: Set Breakpoints in Workflows](../workflow-designer/how-to-set-breakpoints-in-workflows.md)
-- [How to: Invoke the Workflow Debugger](../workflow-designer/how-to-invoke-the-workflow-debugger.md)
+- [Debug workflows](debugging-workflows-with-the-workflow-designer.md)

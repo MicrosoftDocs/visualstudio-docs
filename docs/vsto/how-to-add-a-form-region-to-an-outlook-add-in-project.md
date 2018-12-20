@@ -15,8 +15,8 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "form regions [Office development in Visual Studio], adding"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

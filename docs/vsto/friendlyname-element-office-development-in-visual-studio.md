@@ -1,6 +1,7 @@
 ---
 title: "&lt;friendlyName&gt; element (Office development in Visual Studio)"
-ms.custom: ""
+titleSuffix: ""
+ms.custom: "seodec18"
 ms.date: "02/02/2017"
 ms.technology: 
   - "office-development"
@@ -10,8 +11,8 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "application manifests [Office development in Visual Studio], <friendlyName> element"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
