@@ -206,7 +206,7 @@
 ##### [Collecting Memory Data](collecting-memory-data-from-an-aspnet-web-application-by-using-the-profiler-command-line.md)
 ###### [How to: Attach the Profiler to an ASP.NET Web Application to Collect Memory Data](how-to-attach-the-profiler-to-an-aspnet-web-application-to-collect-memory-data-by-using-the-command-line.md)
 ###### [How to: Instrument a Statically Compiled ASP.NET Application and Collect Memory Data](how-to-instrument-a-statically-compiled-aspnet-web-application-and-collect-memory-data-by-using-the-profiler-command-line.md)
-###### [How to: Instrument a Dynamically Compiled ASP.NET Application and Collect Memory Data](how-to-instrument-a-dynamically-compiled-aspnet-web-application-and-collect-memory-data-by-using-the-profiler-command-line.md)
+###### [How to: Instrument a Dynamically Compiled ASP.NET Application and Collect Memory Data](/visualstudio/profiling/how-to-instrument-a-dynamically-compiled-aspnet-web-application-and-collect-memory-data?view=vs-2015)
 ##### [How to: Modify Web.Config Files to Instrument and Profile Dynamically Compiled ASP.NET Web Applications](how-to-modify-web-config-files-to-instrument-and-profile-dynamically-compiled-aspnet-web-applications.md)
 #### [Profiling Services](command-line-profiling-of-services.md)
 ##### [Collecting Application Statistics Using Sampling](collecting-application-statistics-for-services-by-using-the-profiler-sampling-method.md)
