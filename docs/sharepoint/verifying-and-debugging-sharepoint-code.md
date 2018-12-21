@@ -30,10 +30,10 @@ When an error occurs in SharePoint, the error dialog box displays a "correlation
 You can get Visual Studio events in IntelliTrace by choosing the **F5** key. To get events that are specific to SharePoint, however, you must collect IntelliTrace data in SharePoint solutions by using Microsoft Monitoring Agent. This tool collects IntelliTrace data and creates *.iTrace* files for applications that are deployed outside of Visual Studio. For more information, see [IntelliTrace Features](/visualstudio/debugger/intellitrace-features) and [Using the IntelliTrace stand-alone collector](/visualstudio/debugger/using-the-intellitrace-stand-alone-collector).
 
 ## Unit Test
-You can more easily find errors in your code by performing unit testing, in which you write and run test code inside test methods. These methods contain empty variables and an Assert statement that you can use to verify the logic and functionality of your project based on the SharePoint object model. For more information, see [Unit Test Your Code](/visualstudio/test/unit-test-your-code).
+You can more easily find errors in your code by performing unit testing, in which you write and run test code inside test methods. These methods contain empty variables and an Assert statement that you can use to verify the logic and functionality of your project based on the SharePoint object model. For more information, see [Unit Test Your Code](../test/unit-test-your-code.md).
 
 ### Support for Microsoft Fakes framework
-SharePoint projects support Microsoft Fakes, which is an isolation framework in which you can create delegate-based test stubs and shims in applications that are based on the .NET Framework. By using the Fakes framework, you can create, maintain, and inject dummy implementations in your unit tests. These stubs and shims isolate your unit tests from the environment. You can create stubs to test code that consumes interfaces or non-sealed classes with overridable methods. You can create shims to redirect hard-coded calls to sealed classes with static or non-overridable methods to an alternative shim implementation. You can also use delegates with stub types and shim types to dynamically customize the behavior of individual stub members. For more information, see [Isolating Code Under Test with Microsoft Fakes](/visualstudio/test/isolating-code-under-test-with-microsoft-fakes).
+SharePoint projects support Microsoft Fakes, which is an isolation framework in which you can create delegate-based test stubs and shims in applications that are based on the .NET Framework. By using the Fakes framework, you can create, maintain, and inject dummy implementations in your unit tests. These stubs and shims isolate your unit tests from the environment. You can create stubs to test code that consumes interfaces or non-sealed classes with overridable methods. You can create shims to redirect hard-coded calls to sealed classes with static or non-overridable methods to an alternative shim implementation. You can also use delegates with stub types and shim types to dynamically customize the behavior of individual stub members. For more information, see [Isolating Code Under Test with Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md).
 
 ## Related articles
 
@@ -41,7 +41,7 @@ SharePoint projects support Microsoft Fakes, which is an isolation framework in 
 |-----------|-----------------|
 |[IntelliTrace](/visualstudio/debugger/intellitrace)|Describes how to debug Visual Studio solutions more easily by using IntelliTrace.|
 |[Walkthrough: Debug a SharePoint application by using IntelliTrace](../sharepoint/walkthrough-debugging-a-sharepoint-application-by-using-intellitrace.md)|Demonstrates how to find coding errors in a SharePoint project by using IntelliTrace.|
-|[Unit Test Your Code](/visualstudio/test/unit-test-your-code)|Describes how to find logic errors in your code by using unit tests.|
+|[Unit Test Your Code](../test/unit-test-your-code.md)|Describes how to find logic errors in your code by using unit tests.|
 
 ## See also
-[Improve Code Quality](/visualstudio/test/improve-code-quality)
+[Improve Code Quality](../test/improve-code-quality.md)
