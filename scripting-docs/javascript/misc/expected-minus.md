@@ -1,5 +1,5 @@
 ---
-title: "Expected &#39;-&#39; | Microsoft Docs"
+title: "Expected '-' | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
 ms.prod: "windows-client-threshold"
@@ -21,7 +21,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 ---
-# Expected &#39;-&#39;
+# Expected '-'
 You attempted to create a regular expression literal, but did not include one of the slashes (/). Just as string literals are written as characters within a pair of quotation marks, regular expression literals are expressed as characters within a pair of slash (/) characters.  
   
 ### To correct this error  
