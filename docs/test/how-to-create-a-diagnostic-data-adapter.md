@@ -255,11 +255,11 @@ For a complete example diagnostic data adapter project, including a custom confi
 
      For more information about how to configure your test settings to use an environment when you run your tests, see [Collect diagnostic data in manual tests (Azure Test Plans)](/azure/devops/test/mtm/collect-more-diagnostic-data-in-manual-tests?view=vsts).
 
-     For more information about installing the configuration file, see [How to: Install a custom diagnostic data adapter](../test/how-to-install-a-custom-diagnostic-data-adapter.md)
+     For more information about installing the configuration file, see [How to: Install a custom diagnostic data adapter](/visualstudio/test/quickstart-create-a-load-test-project)
 
 12. Build your solution to create your diagnostic data adapter assembly.
 
-13. For information about installing your custom editor, see [How to: Install a custom diagnostic data adapter](../test/how-to-install-a-custom-diagnostic-data-adapter.md).
+13. For information about installing your custom editor, see [How to: Install a custom diagnostic data adapter](/visualstudio/test/quickstart-create-a-load-test-project).
 
 14. For more information about how to configure your test settings to use an environment when you run your tests, see [Collect diagnostic data in manual tests (Azure Test Plans)](/azure/devops/test/mtm/collect-more-diagnostic-data-in-manual-tests?view=vsts).
 

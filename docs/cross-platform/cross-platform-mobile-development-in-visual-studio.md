@@ -30,7 +30,7 @@ With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows i
 |[Install Visual Studio](http://visualstudio.microsoft.com/products/visual-studio-community-vs) (VisualStudio.com)|
 |[Learn about Xamarin in Visual Studio](https://visualstudio.microsoft.com/xamarin/) (VisualStudio.com)|
 |[Xamarin mobile app development documentation](/xamarin/) |
-|[DevOps with Xamarin apps](../cross-platform/application-lifecycle-management-alm-with-xamarin-apps.md) |
+|[DevOps with Xamarin apps](/xamarin/tools/ci/devops/) |
 |[Learn about Universal Windows apps in Visual Studio](https://visualstudio.microsoft.com/vs/universal-windows-platform/) (VisualStudio.com)|
 |[Learn about the similarities between Swift and C#](http://aka.ms/scposter) (download.microsoft.com)|
 
