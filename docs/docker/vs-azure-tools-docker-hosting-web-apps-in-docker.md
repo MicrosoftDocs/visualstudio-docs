@@ -49,10 +49,8 @@ The following steps guide you through creating a basic ASP.NET Core app that wil
     | **[SKU](https://docs.microsoft.com/azure/container-registry/container-registry-skus)** | Standard | Service tier of the container registry  |
     | **Registry Location** | A location close to you | Choose a Location in a [region](https://azure.microsoft.com/regions/) near you or near other services that will use your container registry. |
 
-    ![Visual Studio's create Azure Container Registry dialog][0]
+    ![Visual Studio's create Azure Container Registry dialog][media/vs-azure-tools-docker-hosting-web-apps-in-docker/vs-acr-provisioning-dialog.png]
 
 5. Click **Create**
 
 You can now pull the container from the registry to any host capable of running Docker images, for example [Azure Container Instances](/azure/container-instances/container-instances-tutorial-deploy-app).
-
-[0]:media/vs-azure-tools-docker-hosting-web-apps-in-docker/vs-acr-provisioning-dialog.png
