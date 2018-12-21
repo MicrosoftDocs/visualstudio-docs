@@ -108,6 +108,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 -   Use the JavaScript memory analyzer to [JavaScript Memory](../profiling/javascript-memory.md) in your app. Event listeners that must be explicitly removed might appear as a memory leak.
 
 ## See Also
- [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md)
- [Debug CSS styles using DOM Explorer](../debugger/debug-css-styles-using-dom-explorer.md)
- [Debug layout using DOM Explorer](../debugger/debug-layout-using-dom-explorer.md)
+
+- [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md)
+- [Debug CSS styles using DOM Explorer](../debugger/debug-css-styles-using-dom-explorer.md)
+- [Debug layout using DOM Explorer](../debugger/debug-layout-using-dom-explorer.md)

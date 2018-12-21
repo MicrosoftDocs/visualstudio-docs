@@ -469,27 +469,28 @@ Mouse.Hover(uIItem1Text, new Point(87, 9));
 ## External Resources
 
 ### Guidance
- [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 2: Unit Testing: Testing the Inside](http://go.microsoft.com/fwlink/?LinkID=255188)
+- [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 2: Unit Testing: Testing the Inside](http://go.microsoft.com/fwlink/?LinkID=255188)
 
- [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 5: Automating System Tests](http://go.microsoft.com/fwlink/?LinkID=255196)
+- [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 5: Automating System Tests](http://go.microsoft.com/fwlink/?LinkID=255196)
 
 ### FAQ
- [Coded UI Tests FAQ - 1](http://go.microsoft.com/fwlink/?LinkID=230576)
+- [Coded UI Tests FAQ - 1](http://go.microsoft.com/fwlink/?LinkID=230576)
 
- [Coded UI Tests FAQ -2](http://go.microsoft.com/fwlink/?LinkID=230578)
+- [Coded UI Tests FAQ -2](http://go.microsoft.com/fwlink/?LinkID=230578)
 
 ### Forum
- [Visual Studio UI Automation Testing (includes CodedUI)](http://go.microsoft.com/fwlink/?LinkID=224497)
+- [Visual Studio UI Automation Testing (includes CodedUI)](http://go.microsoft.com/fwlink/?LinkID=224497)
 
 ## See Also
- <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap>
- <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert>
- [Improve Code Quality](http://msdn.microsoft.com/library/73baa961-c21f-43fe-bb92-3f59ae9b5945)
- [Walkthrough: Creating, Editing and Maintaining a Coded UI Test](../test/walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md)
- [Anatomy of a Coded UI Test](../test/anatomy-of-a-coded-ui-test.md)
- [Best Practices for Coded UI Tests](../test/best-practices-for-coded-ui-tests.md)
- [Testing a Large Application with Multiple UI Maps](../test/testing-a-large-application-with-multiple-ui-maps.md)
- [Editing Coded UI Tests Using the Coded UI Test Editor](../test/editing-coded-ui-tests-using-the-coded-ui-test-editor.md)
- [Supported Configurations and Platforms for Coded UI Tests and Action Recordings](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)
- [Upgrading Coded UI Tests from Visual Studio 2010](../test/upgrading-coded-ui-tests-from-visual-studio-2010.md)
- [Generating a Coded UI Test from an Existing Action Recording](http://msdn.microsoft.com/library/56736963-9027-493b-b5c4-2d4e86d1d497)
+
+- <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap>
+- <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert>
+- [Improve Code Quality](http://msdn.microsoft.com/library/73baa961-c21f-43fe-bb92-3f59ae9b5945)
+- [Walkthrough: Creating, Editing and Maintaining a Coded UI Test](../test/walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md)
+- [Anatomy of a Coded UI Test](../test/anatomy-of-a-coded-ui-test.md)
+- [Best Practices for Coded UI Tests](../test/best-practices-for-coded-ui-tests.md)
+- [Testing a Large Application with Multiple UI Maps](../test/testing-a-large-application-with-multiple-ui-maps.md)
+- [Editing Coded UI Tests Using the Coded UI Test Editor](../test/editing-coded-ui-tests-using-the-coded-ui-test-editor.md)
+- [Supported Configurations and Platforms for Coded UI Tests and Action Recordings](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)
+- [Upgrading Coded UI Tests from Visual Studio 2010](../test/upgrading-coded-ui-tests-from-visual-studio-2010.md)
+- [Generating a Coded UI Test from an Existing Action Recording](http://msdn.microsoft.com/library/56736963-9027-493b-b5c4-2d4e86d1d497)
