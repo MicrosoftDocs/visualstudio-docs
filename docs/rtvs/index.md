@@ -38,7 +38,7 @@ Then follow the links below to learn more about R-related features as well as th
 | [Interactive Window](interactive-repl-for-r-in-visual-studio.md) | Provides a full REPL experience for R with the ability to easily run code in a source file in the interactive window. | n/a |
 | [Visualizing data](visualizing-data-with-r-in-visual-studio.md) | Plotting is an integral part of the R experience, and RTVS supports multiple, independent plot windows, each with their own history and the ability to move plots between windows. Plots can be saved to bitmap and PDF files, or copied to the clipboard as a bitmap or metafile.  | n/a |
 | [Variable Explorer](variable-explorer.md) | Examine variables in the global or package-specific scopes, with the ability to view sortable tables and export to CSV. | n/a |
-| [Full-featured debugging](debugging-r-in-visual-studio.md) | Includes integration with the interactive window. | [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md) |
+| [Full-featured debugging](debugging-r-in-visual-studio.md) | Includes integration with the interactive window. | [Debugging in Visual Studio](/visualstudio/debugger/debugger-feature-tour) |
 
 Also see [Frequently asked questions](faq.md).
 
