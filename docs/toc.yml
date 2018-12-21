@@ -508,7 +508,7 @@
     - name: Additional tutorials
       items:
       - name: Create a WPF app with C# or Visual Basic
-        href: ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md
+        href: /visualstudio/get-started/csharp/tutorial-wpf
       - name: Windows Forms app tutorials
         items:
         - name: "Tutorial 1: Create a picture viewer (C#)"
