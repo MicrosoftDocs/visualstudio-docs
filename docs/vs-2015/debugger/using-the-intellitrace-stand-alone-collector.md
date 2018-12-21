@@ -382,7 +382,7 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
 
 -   From an IntelliTrace debugging session in Visual Studio Enterprise, see [IntelliTrace Features](../debugger/intellitrace-features.md).
 
--   From a test session in Microsoft Test Manager, see [How to: Collect IntelliTrace Data to Help Debug Difficult Issues](../test/how-to-collect-intellitrace-data-to-help-debug-difficult-issues.md).
+-   From a test session in Microsoft Test Manager, see [How to: Collect IntelliTrace Data to Help Debug Difficult Issues](/visualstudio/test/how-to-collect-intellitrace-data-to-help-debug-difficult-issues?view=vs-2015).
 
 ## Where can I get more information?
  [Using saved IntelliTrace data](../debugger/using-saved-intellitrace-data.md)

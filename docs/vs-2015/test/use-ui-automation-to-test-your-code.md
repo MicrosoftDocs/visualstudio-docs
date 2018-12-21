@@ -454,7 +454,7 @@ Mouse.Hover(uIItem1Text, new Point(87, 9));
 
 - [Running automated tests from the command line](http://msdn.microsoft.com/library/f18179c6-b688-4e41-9898-8aca130c4fc3)
 
-- [How to: Set Up Your Test Agent to Run Tests that Interact with the Desktop](../test/how-to-set-up-your-test-agent-to-run-tests-that-interact-with-the-desktop.md)
+- [How to: Set Up Your Test Agent to Run Tests that Interact with the Desktop](/visualstudio/test/how-to-set-up-your-test-agent-to-run-tests-that-interact-with-the-desktop?view=vs-2015)
 
 - [&#91;retired&#93; Using Coded UI Tests in Load Tests](http://msdn.microsoft.com/library/704339ff-7da7-4d5f-acb3-c3b23f4acb43)
 

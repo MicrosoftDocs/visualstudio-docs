@@ -22,7 +22,7 @@ You can collect profiling data from automated [!INCLUDE[TCMext](../includes/tcme
 
  [How to: Run a Performance Session on a Web Application from the Web Performance Test Editor](/previous-versions/ff356203(v=vs.100))
 
- [How to: Configure ASP.NET Profiler for Load Tests Using Test Settings in Visual Studio](../test/how-to-configure-aspnet-profiler-for-load-tests-using-test-settings.md)
+ [How to: Configure ASP.NET Profiler for Load Tests Using Test Settings in Visual Studio](/visualstudio/test/how-to-configure-aspnet-profiler-for-load-tests-using-test-settings?view=vs-2015)
 
  [Running System Tests Using Microsoft Visual Studio](http://msdn.microsoft.com/library/19fae5c4-5798-4c4c-b531-3e8f901b1130).
 
