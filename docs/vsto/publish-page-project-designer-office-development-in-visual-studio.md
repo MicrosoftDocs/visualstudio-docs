@@ -106,6 +106,7 @@ ms.workload:
   Publishes the application using the current settings. Equivalent to the **Finish** button in the **Publish Wizard**.
 
 ## See also
- [Deploy an Office solution](../vsto/deploying-an-office-solution.md)
- [Deploy an Office solution by using ClickOnce](../vsto/deploying-an-office-solution-by-using-clickonce.md)
- [Office solution prerequisites for deployment](https://msdn.microsoft.com/9f672809-43a3-40a1-9057-397ce3b5126e)
+
+- [Deploy an Office solution](../vsto/deploying-an-office-solution.md)
+- [Deploy an Office solution by using ClickOnce](../vsto/deploying-an-office-solution-by-using-clickonce.md)
+- [Office solution prerequisites for deployment](https://msdn.microsoft.com/9f672809-43a3-40a1-9057-397ce3b5126e)

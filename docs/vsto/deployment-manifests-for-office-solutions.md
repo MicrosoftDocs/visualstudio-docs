@@ -181,4 +181,5 @@ ms.workload:
 ```
 
 ## See also
- [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md)
+
+- [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md)

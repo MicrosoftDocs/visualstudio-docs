@@ -71,16 +71,18 @@ ms.workload:
  For more information about actions panes and custom task panes, see [Actions pane overview](../vsto/actions-pane-overview.md) and [Custom task panes](../vsto/custom-task-panes.md).
 
 ### Display modes
- Visual Studio has the following limitations related to display modes:
+
+Visual Studio has the following limitations related to display modes:
 
 - Controls on a Word document or Excel worksheet are disabled when you change the zoom setting of the document to anything other than 100%.
 
 - The **New Project** dialog box does not display controls correctly if a user changes the computer's accessibility options to **Use High Contrast**.
 
-  You can use Magnifier to overcome these limitations. Magnifier is a display utility in Windows that creates a separate window that displays a magnified portion of the screen.
+You can use Magnifier to overcome these limitations. Magnifier is a display utility in Windows that creates a separate window that displays a magnified portion of the screen.
 
 ## See also
- [Develop Office solutions](../vsto/developing-office-solutions.md)
- [Controls on Office documents](../vsto/controls-on-office-documents.md)
- [Accessibility for people with disabilities](../ide/reference/accessibility-for-people-with-disabilities.md)
- [Accessibility features of Visual Studio](../ide/reference/accessibility-features-of-visual-studio.md)
+
+- [Develop Office solutions](../vsto/developing-office-solutions.md)
+- [Controls on Office documents](../vsto/controls-on-office-documents.md)
+- [Accessibility for people with disabilities](../ide/reference/accessibility-for-people-with-disabilities.md)
+- [Accessibility features of Visual Studio](../ide/reference/accessibility-features-of-visual-studio.md)

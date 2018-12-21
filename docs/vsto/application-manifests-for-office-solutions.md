@@ -98,5 +98,6 @@ ms.workload:
  `OutlookAddIn1.dll.manifest`
 
 ## See also
- [Deployment manifests for Office solutions](../vsto/deployment-manifests-for-office-solutions.md)
- [ClickOnce application manifest](../deployment/clickonce-application-manifest.md)
+
+- [Deployment manifests for Office solutions](../vsto/deployment-manifests-for-office-solutions.md)
+- [ClickOnce application manifest](../deployment/clickonce-application-manifest.md)

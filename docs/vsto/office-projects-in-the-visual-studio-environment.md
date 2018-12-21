@@ -116,7 +116,8 @@ ms.workload:
  You can use the **Data Sources** window in document-level Office projects to drag a data source onto your document and create a control that is bound to the data source. For more information, see [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md).
 
 ## See also
- [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)
- [Office project templates overview](../vsto/office-project-templates-overview.md)
- [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md)
- [Properties in Office projects](../vsto/properties-in-office-projects.md)
+
+- [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)
+- [Office project templates overview](../vsto/office-project-templates-overview.md)
+- [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md)
+- [Properties in Office projects](../vsto/properties-in-office-projects.md)

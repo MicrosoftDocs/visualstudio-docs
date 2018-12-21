@@ -455,9 +455,10 @@ ms.workload:
 >  Local data is saved for only one previous version of a solution. If you roll back two versions, local data isn't retained. For more information about local data, see [Access local and remote data in ClickOnce applications](../deployment/accessing-local-and-remote-data-in-clickonce-applications.md).
 
 ## See also
- [Deploy an Office solution](../vsto/deploying-an-office-solution.md)
- [Publish Office solutions](../vsto/deploying-an-office-solution-by-using-clickonce.md)
- [How to: Publish an Office solution by using ClickOnce](https://msdn.microsoft.com/2b6c247e-bc04-4ce4-bb64-c4e79bb3d5b8)
- [How to: Install a ClickOnce Office solution](https://msdn.microsoft.com/14702f48-9161-4190-994c-78211fe18065)
- [How to: Publish a document-level Office solution to a SharePoint server by using ClickOnce](https://msdn.microsoft.com/2408e809-fb78-42a1-9152-00afa1522e58)
- [Create a custom installer for a ClickOnce office solution](https://msdn.microsoft.com/3e5887ed-155f-485d-b8f6-3c02c074085e)
+
+- [Deploy an Office solution](../vsto/deploying-an-office-solution.md)
+- [Publish Office solutions](../vsto/deploying-an-office-solution-by-using-clickonce.md)
+- [How to: Publish an Office solution by using ClickOnce](https://msdn.microsoft.com/2b6c247e-bc04-4ce4-bb64-c4e79bb3d5b8)
+- [How to: Install a ClickOnce Office solution](https://msdn.microsoft.com/14702f48-9161-4190-994c-78211fe18065)
+- [How to: Publish a document-level Office solution to a SharePoint server by using ClickOnce](https://msdn.microsoft.com/2408e809-fb78-42a1-9152-00afa1522e58)
+- [Create a custom installer for a ClickOnce office solution](https://msdn.microsoft.com/3e5887ed-155f-485d-b8f6-3c02c074085e)

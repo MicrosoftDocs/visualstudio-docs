@@ -37,10 +37,11 @@ ms.workload:
  For more information about how manifests work with Office solutions, see [Deploy an Office solution](../vsto/deploying-an-office-solution.md).
 
 ## See also
- [Architecture of document-level customizations](../vsto/architecture-of-document-level-customizations.md)
- [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md)
- [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)
- [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md)
- [Deployment manifests for Office solutions](../vsto/deployment-manifests-for-office-solutions.md)
- [ClickOnce application manifest](../deployment/clickonce-application-manifest.md)
- [ClickOnce deployment manifest](../deployment/clickonce-deployment-manifest.md)
+
+- [Architecture of document-level customizations](../vsto/architecture-of-document-level-customizations.md)
+- [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md)
+- [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)
+- [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md)
+- [Deployment manifests for Office solutions](../vsto/deployment-manifests-for-office-solutions.md)
+- [ClickOnce application manifest](../deployment/clickonce-application-manifest.md)
+- [ClickOnce deployment manifest](../deployment/clickonce-deployment-manifest.md)

@@ -52,8 +52,9 @@ ms.workload:
     >  Do not call `StopCaching` from the event handler for the `Shutdown` event of a document or worksheet. By the time the `Shutdown` event is raised, it is too late to modify the data cache. For more information about the `Shutdown` event, see [Events in Office Projects](../vsto/events-in-office-projects.md).
 
 ## See also
- [Cache data](../vsto/caching-data.md)
- [How to: Cache data for use offline or on a server](../vsto/how-to-cache-data-for-use-offline-or-on-a-server.md)
- [How to: Cache data in a password-protected document](../vsto/how-to-cache-data-in-a-password-protected-document.md)
- [Access data in documents on the server](../vsto/accessing-data-in-documents-on-the-server.md)
- [Save data](../data-tools/saving-data.md)
+
+- [Cache data](../vsto/caching-data.md)
+- [How to: Cache data for use offline or on a server](../vsto/how-to-cache-data-for-use-offline-or-on-a-server.md)
+- [How to: Cache data in a password-protected document](../vsto/how-to-cache-data-in-a-password-protected-document.md)
+- [Access data in documents on the server](../vsto/accessing-data-in-documents-on-the-server.md)
+- [Save data](../data-tools/saving-data.md)

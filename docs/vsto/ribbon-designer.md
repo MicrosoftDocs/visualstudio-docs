@@ -199,9 +199,10 @@ ms.workload:
 |Close a drop-down panel.|**Esc**|
 
 ## See also
- [Ribbon overview](../vsto/ribbon-overview.md)
- [Ribbon XML](../vsto/ribbon-xml.md)
- [Walkthrough: Create a custom tab by using the Ribbon Designer](../vsto/walkthrough-creating-a-custom-tab-by-using-the-ribbon-designer.md)
- [How to: Export a ribbon from the Ribbon Designer to Ribbon XML](../vsto/how-to-export-a-ribbon-from-the-ribbon-designer-to-ribbon-xml.md)
- [How to: Get started customizing the ribbon](../vsto/how-to-get-started-customizing-the-ribbon.md)
- [Access the ribbon at runtime](../vsto/accessing-the-ribbon-at-run-time.md)
+
+- [Ribbon overview](../vsto/ribbon-overview.md)
+- [Ribbon XML](../vsto/ribbon-xml.md)
+- [Walkthrough: Create a custom tab by using the Ribbon Designer](../vsto/walkthrough-creating-a-custom-tab-by-using-the-ribbon-designer.md)
+- [How to: Export a ribbon from the Ribbon Designer to Ribbon XML](../vsto/how-to-export-a-ribbon-from-the-ribbon-designer-to-ribbon-xml.md)
+- [How to: Get started customizing the ribbon](../vsto/how-to-get-started-customizing-the-ribbon.md)
+- [Access the ribbon at runtime](../vsto/accessing-the-ribbon-at-run-time.md)

@@ -65,7 +65,8 @@ ms.workload:
 ```
 
 ## See also
- [Create Outlook form regions](../vsto/creating-outlook-form-regions.md)
- [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md)
- [Deployment manifests for Office solutions](../vsto/deployment-manifests-for-office-solutions.md)
- [ClickOnce application manifest](../deployment/clickonce-application-manifest.md)
+
+- [Create Outlook form regions](../vsto/creating-outlook-form-regions.md)
+- [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md)
+- [Deployment manifests for Office solutions](../vsto/deployment-manifests-for-office-solutions.md)
+- [ClickOnce application manifest](../deployment/clickonce-application-manifest.md)

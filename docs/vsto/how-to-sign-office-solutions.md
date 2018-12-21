@@ -43,6 +43,7 @@ ms.workload:
 5.  To verify that the correct certificate is being used, click **More Details** to view the certificate information.
 
 ## See also
- [Secure Office solutions](../vsto/securing-office-solutions.md)
- [Grant trust to Office solutions](../vsto/granting-trust-to-office-solutions.md)
- [Signing Page, Project Designer](../ide/reference/signing-page-project-designer.md)
+
+- [Secure Office solutions](../vsto/securing-office-solutions.md)
+- [Grant trust to Office solutions](../vsto/granting-trust-to-office-solutions.md)
+- [Signing Page, Project Designer](../ide/reference/signing-page-project-designer.md)

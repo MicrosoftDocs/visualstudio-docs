@@ -291,5 +291,6 @@ ms.workload:
 -   Changing the data in a cached dataset without starting Excel. For more information, see [Walkthrough: Change cached data in a workbook on a server](../vsto/walkthrough-changing-cached-data-in-a-workbook-on-a-server.md).
 
 ## See also
- [Walkthrough: Insert data into a workbook on a server](../vsto/walkthrough-inserting-data-into-a-workbook-on-a-server.md)
- [Walkthrough: Change cached data in a workbook on a server](../vsto/walkthrough-changing-cached-data-in-a-workbook-on-a-server.md)
+
+- [Walkthrough: Insert data into a workbook on a server](../vsto/walkthrough-inserting-data-into-a-workbook-on-a-server.md)
+- [Walkthrough: Change cached data in a workbook on a server](../vsto/walkthrough-changing-cached-data-in-a-workbook-on-a-server.md)
