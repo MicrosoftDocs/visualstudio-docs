@@ -146,4 +146,4 @@ class Class
  You can work around this issue in one of two ways. You could declare **anonymousMethod** in a common constructor that all constructors chain. Or you could declare it in an initialization method that is called by all constructors.
 
 ## See Also
- [Analyzing Managed Code Quality](/visualstudio/code-quality/code-analysis-for-managed-code-overview)
+ [Analyzing Managed Code Quality](../code-quality/code-analysis-for-managed-code-overview.md)

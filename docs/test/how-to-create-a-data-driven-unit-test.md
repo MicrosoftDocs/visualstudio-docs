@@ -163,4 +163,4 @@ int x = Convert.ToInt32(TestContext.DataRow["FirstNumber"]);
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert?displayProperty=fullName>
 - [Unit test your code](../test/unit-test-your-code.md)
 - [Run unit tests with Test Explorer](../test/run-unit-tests-with-test-explorer.md)
-- [Write unit tests for the .NET Framework with the Microsoft unit test framework for managed code](/visualstudio/test/unit-test-your-code)
+- [Write unit tests for the .NET Framework with the Microsoft unit test framework for managed code](../test/unit-test-your-code.md)

@@ -43,4 +43,4 @@ ms.workload:
 ## See also
 
 - [Maintainability Warnings](../code-quality/maintainability-warnings.md)
-- [Measuring Complexity and Maintainability of Managed Code](/visualstudio/code-quality/code-metrics-values/)
+- [Measuring Complexity and Maintainability of Managed Code](../code-quality/code-metrics-values.md)

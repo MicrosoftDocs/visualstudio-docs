@@ -218,7 +218,7 @@ For a complete example diagnostic data adapter project, including a custom confi
 
      These files are attached to the test results. If you create a bug from these test results or when you use [!INCLUDE[mtrlong](../test/includes/mtrlong_md.md)], the files are also attached to the bug.
 
-     If you want to use your own editor to collect data to use in your test settings, see [How to: Create a custom editor for data for your diagnostic data adapter](/visualstudio/test/quickstart-create-a-load-test-project).
+     If you want to use your own editor to collect data to use in your test settings, see [How to: Create a custom editor for data for your diagnostic data adapter](../test/quickstart-create-a-load-test-project.md).
 
 11. To collect a log file when a test finishes based on what the user configured in test settings, you must create an *App.config* file and add it to your solution. This file has the following format and must contain the URI for your diagnostic data adapter to identify it. Substitute real values for the "Company/ProductName/Version".
 
@@ -283,4 +283,4 @@ For a complete example diagnostic data adapter project, including a custom confi
 - [Collect diagnostic information using test settings](../test/collect-diagnostic-information-using-test-settings.md)
 - [Collect diagnostic data in manual tests (Azure Test Plans)](/azure/devops/test/mtm/collect-more-diagnostic-data-in-manual-tests?view=vsts)
 - [Collect diagnostic data while testing (Azure Test Plans)](/azure/devops/test/collect-diagnostic-data?view=vsts)
-- [How to: Create a custom editor for data for your diagnostic data adapter](/visualstudio/test/quickstart-create-a-load-test-project)
+- [How to: Create a custom editor for data for your diagnostic data adapter](../test/quickstart-create-a-load-test-project.md)

@@ -46,5 +46,5 @@ You can configure which rules the code analysis tool uses to analyze the code in
  If your project contains managed code, you can select the rules to apply in a code analysis by selecting a rule set from the **Run this rule set** list.
 
 ## See Also
- [Analyzing Managed Code Quality](/visualstudio/code-quality/code-analysis-for-managed-code-overview)
+ [Analyzing Managed Code Quality](../code-quality/code-analysis-for-managed-code-overview.md)
  [Code Analysis for C/C++ Warnings](../code-quality/code-analysis-for-c-cpp-warnings.md)
