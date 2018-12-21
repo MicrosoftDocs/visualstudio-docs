@@ -71,7 +71,7 @@ Often, changes will need further inspection, leveraging the debugging features o
 5. Navigate to the About page to hit your breakpoint.
 6. Switch to Visual Studio to view the breakpoint, and inspect the value of message.
 
-   ![Breakpoint][media/vs-azure-tools-docker-edit-and-refresh/breakpoint.png]
+   ![Breakpoint](media/vs-azure-tools-docker-edit-and-refresh/breakpoint.png)
 
 ## Summary
 With Docker support in Visual Studio 2017, you can get the productivity of working locally,

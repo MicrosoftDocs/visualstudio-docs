@@ -41,7 +41,7 @@ To configure a Docker client, simply open Windows PowerShell, and perform the fo
     docker-machine ls
     ```
 
-    ![docker-machine ls output][media/vs-azure-tools-docker-setup/docker-machine-ls.png]
+    ![docker-machine ls output](media/vs-azure-tools-docker-setup/docker-machine-ls.png)
 3. Set default as the current host, and configure your shell.
 
     ```PowerShell
@@ -53,7 +53,7 @@ To configure a Docker client, simply open Windows PowerShell, and perform the fo
     docker ps
     ```
 
-    ![docker ps output][media/vs-azure-tools-docker-setup/docker-ps.png]
+    ![docker ps output](media/vs-azure-tools-docker-setup/docker-ps.png)
 
 > [!NOTE]
 > Each time you reboot your development machine, you’ll need to restart your local docker host.
