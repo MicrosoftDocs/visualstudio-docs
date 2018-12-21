@@ -114,10 +114,11 @@ ms.workload:
 |Array indexes|The lower array bound of collections in Microsoft Office applications begins with 1. Visual Basic and Visual C# use 0-based arrays. For more information, see [Arrays &#40;C&#35; programming guide&#41;](/dotnet/csharp/programming-guide/arrays/index) and [Arrays in Visual Basic](/dotnet/visual-basic/programming-guide/language-features/arrays/index).|To access the first item of a collection in the object model of a Microsoft Office application, use the index 1 instead of 0.|
 
 ## See also
- [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)
- [Global access to objects in Office projects](../vsto/global-access-to-objects-in-office-projects.md)
- [Events in Office projects](../vsto/events-in-office-projects.md)
- [How to: Target Office applications through primary interop assemblies](../vsto/how-to-target-office-applications-through-primary-interop-assemblies.md)
- [How to: Create event handlers in Office projects](../vsto/how-to-create-event-handlers-in-office-projects.md)
- [Late binding in Office solutions](../vsto/late-binding-in-office-solutions.md)
- [Collaborative development of Office solutions](../vsto/collaborative-development-of-office-solutions.md)
+
+- [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)
+- [Global access to objects in Office projects](../vsto/global-access-to-objects-in-office-projects.md)
+- [Events in Office projects](../vsto/events-in-office-projects.md)
+- [How to: Target Office applications through primary interop assemblies](../vsto/how-to-target-office-applications-through-primary-interop-assemblies.md)
+- [How to: Create event handlers in Office projects](../vsto/how-to-create-event-handlers-in-office-projects.md)
+- [Late binding in Office solutions](../vsto/late-binding-in-office-solutions.md)
+- [Collaborative development of Office solutions](../vsto/collaborative-development-of-office-solutions.md)

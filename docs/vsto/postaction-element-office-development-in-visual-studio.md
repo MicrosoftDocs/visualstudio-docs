@@ -68,6 +68,7 @@ ms.workload:
 ```
 
 ## See also
- [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md)
- [Deployment manifests for Office solutions](../vsto/deployment-manifests-for-office-solutions.md)
- [ClickOnce application manifest](../deployment/clickonce-application-manifest.md)
+
+- [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md)
+- [Deployment manifests for Office solutions](../vsto/deployment-manifests-for-office-solutions.md)
+- [ClickOnce application manifest](../deployment/clickonce-application-manifest.md)

@@ -447,10 +447,11 @@ ms.workload:
  After you complete this walkthrough, you can add a wizard to the item template. When a user adds a Custom Action project item to a SharePoint project, the wizard collects information about the action (such as its location and the URL to navigate to when the action is chosen) and adds this information to the *Elements.xml* file in the new project item. For more information, see [Walkthrough: Create a custom action project item with an item template, Part 2](../sharepoint/walkthrough-creating-a-custom-action-project-item-with-an-item-template-part-2.md).
 
 ## See also
- [Walkthrough: Create a custom action project item with an item template, Part 2](../sharepoint/walkthrough-creating-a-custom-action-project-item-with-an-item-template-part-2.md)
- [Define custom SharePoint project item types](../sharepoint/defining-custom-sharepoint-project-item-types.md)
- [Create item templates and project templates for SharePoint project items](../sharepoint/creating-item-templates-and-project-templates-for-sharepoint-project-items.md)
- [Use the SharePoint project service](../sharepoint/using-the-sharepoint-project-service.md)
- [Visual Studio Template Schema Reference](/visualstudio/extensibility/visual-studio-template-schema-reference)
- [Image Editor for Icons](/cpp/windows/image-editor-for-icons)
- [Creating an Icon or Other Image &#40;Image Editor for Icons&#41;](/cpp/windows/creating-an-icon-or-other-image-image-editor-for-icons)
+
+- [Walkthrough: Create a custom action project item with an item template, Part 2](../sharepoint/walkthrough-creating-a-custom-action-project-item-with-an-item-template-part-2.md)
+- [Define custom SharePoint project item types](../sharepoint/defining-custom-sharepoint-project-item-types.md)
+- [Create item templates and project templates for SharePoint project items](../sharepoint/creating-item-templates-and-project-templates-for-sharepoint-project-items.md)
+- [Use the SharePoint project service](../sharepoint/using-the-sharepoint-project-service.md)
+- [Visual Studio Template Schema Reference](/visualstudio/extensibility/visual-studio-template-schema-reference)
+- [Image Editor for Icons](/cpp/windows/image-editor-for-icons)
+- [Creating an Icon or Other Image &#40;Image Editor for Icons&#41;](/cpp/windows/creating-an-icon-or-other-image-image-editor-for-icons)

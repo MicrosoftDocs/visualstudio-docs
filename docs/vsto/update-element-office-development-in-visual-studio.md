@@ -79,7 +79,8 @@ ms.workload:
 ```
 
 ## See also
- [Deploy an Office solution by using ClickOnce](../vsto/deploying-an-office-solution-by-using-clickonce.md)
- [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md)
- [Deployment manifests for Office solutions](../vsto/deployment-manifests-for-office-solutions.md)
- [ClickOnce application manifest](../deployment/clickonce-application-manifest.md)
+
+- [Deploy an Office solution by using ClickOnce](../vsto/deploying-an-office-solution-by-using-clickonce.md)
+- [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md)
+- [Deployment manifests for Office solutions](../vsto/deployment-manifests-for-office-solutions.md)
+- [ClickOnce application manifest](../deployment/clickonce-application-manifest.md)

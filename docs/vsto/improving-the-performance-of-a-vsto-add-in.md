@@ -111,6 +111,7 @@ ms.workload:
 >  All code that calls into the Office object model must execute in the main thread.
 
 ## See also
- [Demand-loading VSTO Add-ins](https://blogs.msdn.microsoft.com/andreww/2008/07/14/demand-loading-vsto-add-ins/)
- [Delay-loading the CLR in Office Add-ins](https://blogs.msdn.microsoft.com/andreww/2008/04/19/delay-loading-the-clr-in-office-add-ins/)
- [Create VSTO Add-ins for Office by using Visual Studio](create-vsto-add-ins-for-office-by-using-visual-studio.md)
+
+- [Demand-loading VSTO Add-ins](https://blogs.msdn.microsoft.com/andreww/2008/07/14/demand-loading-vsto-add-ins/)
+- [Delay-loading the CLR in Office Add-ins](https://blogs.msdn.microsoft.com/andreww/2008/04/19/delay-loading-the-clr-in-office-add-ins/)
+- [Create VSTO Add-ins for Office by using Visual Studio](create-vsto-add-ins-for-office-by-using-visual-studio.md)

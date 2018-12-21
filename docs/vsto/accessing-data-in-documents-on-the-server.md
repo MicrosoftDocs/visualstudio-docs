@@ -75,5 +75,6 @@ ms.workload:
  If you want to access the data in a typed dataset both from an Office solution and from an application outside of Office, such as a Windows Forms application or an [!INCLUDE[vstecasp](../sharepoint/includes/vstecasp-md.md)] project, you must define the typed dataset in a separate assembly that is referenced in both projects. If you add the typed dataset to each project by using the **Data Source Configuration** wizard or the **Dataset Designer**, the .NET Framework will treat the typed datasets in the two projects as different types. For more information about creating typed datasets, see [Create and configure datasets in Visual Studio](../data-tools/create-and-configure-datasets-in-visual-studio.md).
 
 ## See also
- [Access data in documents on the server](../vsto/accessing-data-in-documents-on-the-server.md)
- [Cached data in document-level customizations](../vsto/cached-data-in-document-level-customizations.md)
+
+- [Access data in documents on the server](../vsto/accessing-data-in-documents-on-the-server.md)
+- [Cached data in document-level customizations](../vsto/cached-data-in-document-level-customizations.md)

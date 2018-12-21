@@ -96,6 +96,7 @@ ms.workload:
  To write the errors to a log file, create an environment variable named `VSTO_LOGALERTS` and set it to 1 (one). The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] creates the log file in the folder that contains the deployment manifest for the VSTO Add-in, or in the folder that contains the document or workbook that is associated with the customization. If that fails, the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] creates the log file in  the local *%TEMP%* folder. For application-level VSTO Add-ins, the default name is *add-in name*.vsto.log. For document-level projects, the name of the log file is *document name*.*extension*.log, such as ExcelWorkbook1.xlsx.log. To stop logging errors, delete the environment variable or set it to 0 (zero).
 
 ## See also
- [Build Office solutions](../vsto/building-office-solutions.md)
- [How to: Re-enable a VSTO Add-in that has been disabled](../vsto/how-to-re-enable-a-vsto-add-in-that-has-been-disabled.md)
- [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)
+
+- [Build Office solutions](../vsto/building-office-solutions.md)
+- [How to: Re-enable a VSTO Add-in that has been disabled](../vsto/how-to-re-enable-a-vsto-add-in-that-has-been-disabled.md)
+- [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)

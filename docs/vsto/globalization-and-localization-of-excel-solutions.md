@@ -93,6 +93,7 @@ Application.ActiveCell.Value2 = "05/12/04"
  Any code that opens or otherwise uses external data, such as files that include comma-separated values (CSV files) exported from a legacy system, might also be affected if such files are exported using any format besides en-US. Database access might not be affected because all values should be in binary format, unless the database stores dates as strings or performs operations that do not use binary format. Also, if you construct SQL queries using data from Excel, you might need to ensure they are in en-US format, depending on the function you use.
 
 ## See also
- [How to: Target the Office multilingual user interface](../vsto/how-to-target-the-office-multilingual-user-interface.md)
- [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)
- [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)
+
+- [How to: Target the Office multilingual user interface](../vsto/how-to-target-the-office-multilingual-user-interface.md)
+- [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)
+- [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)

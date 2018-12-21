@@ -108,4 +108,5 @@ ms.workload:
  To remove this warning, either build the project and then close and then reopen the designer, or disable the auto-retract option for the project. To do this, clear the **Auto-retract after debugging** check box on the **SharePoint** tab of the project properties dialog box.
 
 ## See also
- [Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)
+
+- [Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)

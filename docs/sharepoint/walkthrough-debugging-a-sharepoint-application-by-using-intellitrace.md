@@ -328,6 +328,6 @@ Now you can view the IntelliTrace log file in Visual Studio to find and fix the 
 
 ## See also
 
-[Verify and debug SharePoint code](../sharepoint/verifying-and-debugging-sharepoint-code.md)
-[IntelliTrace](../debugger/intellitrace.md)
-[Walkthrough: Verify SharePoint Code by Using Unit Tests](/previous-versions/visualstudio/visual-studio-2010/gg599006\(v\=vs.100\))
+- [Verify and debug SharePoint code](../sharepoint/verifying-and-debugging-sharepoint-code.md)
+- [IntelliTrace](../debugger/intellitrace.md)
+- [Walkthrough: Verify SharePoint Code by Using Unit Tests](/previous-versions/visualstudio/visual-studio-2010/gg599006\(v\=vs.100\))
