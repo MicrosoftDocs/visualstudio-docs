@@ -44,4 +44,5 @@ SharePoint projects support Microsoft Fakes, which is an isolation framework in 
 |[Unit Test Your Code](../test/unit-test-your-code.md)|Describes how to find logic errors in your code by using unit tests.|
 
 ## See also
-[Improve Code Quality](../test/improve-code-quality.md)
+
+- [Improve Code Quality](../test/improve-code-quality.md)
