@@ -71,7 +71,7 @@ Often, changes will need further inspection, leveraging the debugging features o
 5. Navigate to the About page to hit your breakpoint.
 6. Switch to Visual Studio to view the breakpoint, and inspect the value of message.
 
-   ![][2]
+   ![Breakpoint][media/vs-azure-tools-docker-edit-and-refresh/breakpoint.png]
 
 ## Summary
 With Docker support in Visual Studio 2017, you can get the productivity of working locally,
@@ -97,5 +97,3 @@ with the production realism of developing within a Docker container.
 * [Steve Lasker: VS Live Las Vegas 2016 - Docker e2e](https://github.com/SteveLasker/Presentations/blob/master/VSLive2016/Vegas/)
 * [Introduction to ASP.NET Core @ build 2016 - Where You At Demo](https://channel9.msdn.com/Events/Build/2016/B810)
 * [Developing .NET apps in containers, Channel 9](https://blogs.msdn.microsoft.com/stevelasker/2016/02/19/developing-asp-net-apps-in-docker-containers/)
-
-[2]: media/vs-azure-tools-docker-edit-and-refresh/breakpoint.png
