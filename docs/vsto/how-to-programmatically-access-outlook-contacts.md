@@ -10,9 +10,9 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "contacts [Office development in Visual Studio], searching"
-author: TerryGLee
 author: John-Hart
 ms.author: johnhart
+manager: douge
 ms.workload: 
   - "office"
 ---

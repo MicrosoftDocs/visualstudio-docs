@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "text [Office development in Visual Studio], adding to Word tables"
   - "formatting [Office development in Visual Studio]"
   - "tables [Office development in Visual Studio], adding text and formatting"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
