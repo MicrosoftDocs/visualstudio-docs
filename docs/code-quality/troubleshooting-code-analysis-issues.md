@@ -27,6 +27,6 @@ This topic contains troubleshooting information for the following Visual Studio 
 
 ## See Also
 
-- [Analyzing Application Quality](../code-quality/analyzing-application-quality-by-using-code-analysis-tools.md)
+- [Analyzing Application Quality](../code-quality/code-analysis-for-managed-code-overview.md)
 - [Analyzing Managed Code Quality](../code-quality/code-analysis-for-managed-code-overview.md)
 - [Using Rule Sets to Group Code Analysis Rules](../code-quality/using-rule-sets-to-group-code-analysis-rules.md)
