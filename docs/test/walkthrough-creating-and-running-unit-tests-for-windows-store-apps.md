@@ -102,5 +102,5 @@ In the **Code Editor**, edit the unit test and add the asserts and logic require
 
 ## See also
 
-- [Test UWP apps with Visual Studio](../test/testing-store-apps-with-visual-studio.md)
+- [Test UWP apps with Visual Studio](../test/create-and-run-unit-tests-for-a-store-app-in-visual-studio.md)
 - [Build and test a UWP app](/azure/devops/pipelines/apps/windows/universal?tabs=vsts)
