@@ -42,7 +42,7 @@ The following is a partial list of key events that you can use when you create y
 
 Use the following procedure to create diagnostic data adapter that collects a data file that is based on information that you configure when you create your test settings.
 
-For a complete example diagnostic data adapter project, including a custom configuration editor, see [Sample project for creating a diagnostic data adapter](../test/sample-project-for-creating-a-diagnostic-data-adapter.md).
+For a complete example diagnostic data adapter project, including a custom configuration editor, see [Sample project for creating a diagnostic data adapter](../test/quickstart-create-a-load-test-project.md).
 
 ##  Create and install a diagnostic data adapter
 
