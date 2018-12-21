@@ -39,7 +39,7 @@ For Docker installation, first review the information at [Docker for Windows: Wh
 1. Select **Web Application**.
 1. Check the **Enable Docker Support** checkbox.
 
-   ![Enable Docker Support check box](media/enable-docker-support-check-box.png)
+   ![Enable Docker Support check box](media/docker-tools/enable-docker-support.PNG)
 
 1. Select the type of container you want (Windows or Linux) and click **OK**.
 
@@ -78,13 +78,17 @@ When the new project dialog's **Configure for HTTPS** check box is checked, the 
 
 ## Debug
 
-Select **Docker** from the debug drop-down in the toolbar, and start debugging the app. The **Docker** view of the **Output** window shows the following actions taking place:
+Select **Docker** from the debug drop-down in the toolbar, and start debugging the app. You might see a message with a prompt about trusting a certificate; choose to trust the certificate to continue.
+
+The **Output** window shows the following actions taking place:
 
 * The *2.1-aspnetcore-runtime* tag of the *microsoft/dotnet* runtime image is acquired (if not already in the cache). The image installs the ASP.NET Core and .NET Core runtimes and associated libraries. It's optimized for running ASP.NET Core apps in production.
 * The `ASPNETCORE_ENVIRONMENT` environment variable is set to `Development` within the container.
 * Two dynamically assigned ports are exposed: one for HTTP and one for HTTPS. The port assigned to localhost can be queried with the `docker ps` command.
 * The app is copied to the container.
 * The default browser is launched with the debugger attached to the container using the dynamically assigned port.
+
+Open the **Package Manager Console** (PMC) from the menu **Tools**> NuGet Package Manager, **Package Manager Console**.
 
 The resulting Docker image of the app is tagged as *dev*. The image is based on the *2.1-aspnetcore-runtime* tag of the *microsoft/dotnet* base image. Run the `docker images` command in the **Package Manager Console** (PMC) window. The images on the machine are displayed:
 
@@ -104,25 +108,29 @@ CONTAINER ID        IMAGE                  COMMAND                   CREATED    
 baf9a678c88d        hellodockertools:dev   "C:\\remote_debugge..."   21 seconds ago      Up 19 seconds       0.0.0.0:37630->80/tcp   dockercompose4642749010770307127_hellodockertools_1
 ```
 
-## Edit and continue
+## Making changes to your app
 
-Changes to static files and Razor views are automatically updated without the need for a compilation step. Make the change, save, and refresh the browser to view the update.
+Make a change to one of the static files in the app. Open About.cshtml, and replace the text **Use this area to provide additional information** with something else, like `Trying Docker containers`.
 
-Code file modifications require compilation and a restart of Kestrel within the container. After making the change, use `CTRL+F5` to perform the process and start the app within the container. The Docker container isn't rebuilt or stopped. Run the `docker ps` command in PMC. Notice the original container is still running as of 10 minutes ago:
+Changes to static files and Razor views are automatically updated without the need for a compilation step. Make the change, save, restart the debugger if you're still debugging, and refresh the browser to view the update.
+
+Code file modifications require compilation and a restart of Kestrel within the container.  Make a code change, such as changing the text in About.cshtml.cs that says "Your application description page" to something else, like "Hello from my Docker container."
+
+After making the change, use `CTRL+F5` to rebuild and start the app within the container. The Docker container isn't rebuilt or stopped. Run the `docker ps` command in PMC. Notice the original container is still running as of 10 minutes ago:
 
 ```console
-CONTAINER ID        IMAGE                  COMMAND                   CREATED             STATUS              PORTS                   NAMES
-baf9a678c88d        hellodockertools:dev   "C:\\remote_debugge..."   10 minutes ago      Up 10 minutes       0.0.0.0:37630->80/tcp   dockercompose4642749010770307127_hellodockertools_1
+CONTAINER ID        IMAGE                  COMMAND               CREATED             STATUS              PORTS                                           NAMES
+7492e48bfebb        hellodockertools:dev   "tail -f /dev/null"   2 hours ago         Up 2 hours          0.0.0.0:39293->80/tcp, 0.0.0.0:44356->443/tcp   nifty_lamport
 ```
 
 ## Publish Docker images
 
-Once the develop and debug cycle of the app is completed, the Visual Studio Tools for Docker assist in creating the production image of the app.
+Once the develop and debug cycle of the app is completed, you can create a production image of the app.
 
 1. Change the configuration drop-down to **Release** and build the app. 
 1. Right-click your project in **Solution Explorer** and choose **Publish**.
 1. On the publish target dialog, select the **Container Registry** tab.
-1. Choose **New Azure Container Registry** and click **Publish**.
+1. Choose **Create New Azure Container Registry** and click **Publish**.
 1. Fill in your desired values in the **Create a new Azure Container Registry**.
 
     | Setting      | Suggested value  | Description                                |
