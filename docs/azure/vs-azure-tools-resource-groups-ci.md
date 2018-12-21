@@ -41,13 +41,13 @@ The following procedures walk you through the steps necessary to configure conti
 
 1. Edit your Azure DevOps Services build pipeline and add an Azure PowerShell build step. Choose the build pipeline under the **Build pipelines** category and then choose the **Edit** link.
 
-   ![Edit build pipeline][media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough1.png]
+   ![Edit build pipeline](media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough1.png)
 2. Add a new **Azure PowerShell** build step to the build pipeline and then choose the **Add build step…** button.
 
-   ![Add build step][media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough2.png]
+   ![Add build step](media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough2.png)
 3. Choose the **Deploy task** category, select the **Azure PowerShell** task, and then choose its **Add** button.
 
-   ![Add tasks][media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough3.png]
+   ![Add tasks](media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough3.png)
 4. Choose the **Azure PowerShell** build step and then fill in its values.
 
    1. If you already have an Azure service endpoint added to Azure DevOps Services, choose the subscription in the **Azure Subscription** drop-down list box and then skip to the next section.
@@ -56,13 +56,13 @@ The following procedures walk you through the steps necessary to configure conti
 
    2. Choose the **Manage** link next to the **Azure Subscription** drop-down list box.
 
-      ![Manage Azure subscriptions][media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough4.png]
+      ![Manage Azure subscriptions](media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough4.png)
    3. Choose **Azure** in the **New Service Endpoint** drop-down list box.
 
-      ![New service endpoint][media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough5.png]
+      ![New service endpoint](media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough5.png)
    4. In the **Add Azure Subscription** dialog box, select the **Service Principal** option.
 
-      ![Service principal option][media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough6.png]
+      ![Service principal option](media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough6.png)
    5. Add your Azure subscription information to the **Add Azure Subscription** dialog box. You need to provide the following items:
 
       * Subscription Id
@@ -87,13 +87,13 @@ The following procedures walk you through the steps necessary to configure conti
       You now have a valid Service Principal to use to run the Azure PowerShell script.
 5. Edit the build pipeline and choose the **Azure PowerShell** build step. Select the subscription in the **Azure Subscription** drop-down list box. (If the subscription doesn't appear, choose the **Refresh** button next the **Manage** link.)
 
-   ![Configure Azure PowerShell build task][media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough9.png]
+   ![Configure Azure PowerShell build task](media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough9.png)
 6. Provide a path to the Deploy-AzureResourceGroup.ps1 PowerShell script. To do this, choose the ellipsis (…) button next to the **Script Path** box, navigate to the Deploy-AzureResourceGroup.ps1 PowerShell script in the **Scripts** folder of your project, select it, and then choose the **OK** button.
 
-   ![Select path to script][media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough10.png]
+   ![Select path to script](media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough10.png)
 7. After you select the script, update the path to the script so that it’s run from the Build.StagingDirectory (the same directory that *ArtifactsLocation* is set to). You can do this by adding “$(Build.StagingDirectory)/” to the beginning of the script path.
 
-    ![Edit path to script][media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough11b.png]
+    ![Edit path to script](media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough11b.png)
 8. In the **Script Arguments** box, enter the following parameters (in a single line). When you run the script in Visual Studio, you can see how VS uses the parameters in the **Output** window. You can use this as a starting point for setting the parameter values in your build step.
 
    | Parameter | Description |
@@ -117,7 +117,7 @@ The following procedures walk you through the steps necessary to configure conti
 
    When you’re finished, the **Script Arguments** box should resemble the following list:
 
-   ![Script arguments][media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough12.png]
+   ![Script arguments](media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough12.png)
 9. After you’ve added all the required items to the Azure PowerShell build step, choose the **Queue** build button to build the project. The **Build** screen shows the output from the PowerShell script.
 
 ### Detailed walkthrough for Option 2
@@ -125,16 +125,16 @@ The following procedures walk you through the steps necessary to configure conti
 
 1. Edit your Azure DevOps Services build pipeline to add two new build steps. Choose the build pipeline under the **Build definitions** category and then choose the **Edit** link.
 
-   ![Edit build definition][media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough13.png]
+   ![Edit build definition](media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough13.png)
 2. Add the new build steps to the build pipeline using the **Add build step…** button.
 
-   ![Add build step][media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough14.png]
+   ![Add build step](media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough14.png)
 3. Choose the **Deploy** task category, select the **Azure File Copy** task, and then choose its **Add** button.
 
-   ![Add Azure File Copy task][media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough15.png]
+   ![Add Azure File Copy task](media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough15.png)
 4. Choose the **Azure Resource Group Deployment** task, then choose its **Add** button and then **Close** the **Task Catalog**.
 
-   ![Add Azure Resource Group Deployment task][media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough16.png]
+   ![Add Azure Resource Group Deployment task](media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough16.png)
 5. Choose the **Azure File Copy** task and fill in its values.
 
    If you already have an Azure service endpoint added to Azure DevOps Services, choose the subscription in the **Azure Subscription** drop-down list box. If you do not have a subscription, see [Option 1](#detailed-walkthrough-for-option-1) for instructions on setting one up in Azure DevOps Services.
@@ -151,7 +151,7 @@ The following procedures walk you through the steps necessary to configure conti
    * Storage Container URI - enter **artifactsLocation**
    * Storage Container SAS Token - enter **artifactsLocationSasToken**
 
-   ![Configure Azure File Copy task][media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough17.png]
+   ![Configure Azure File Copy task](media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough17.png)
 6. Choose the **Azure Resource Group Deployment** build step and then fill in its values.
 
    * Azure Connection Type - select **Azure Resource Manager**
@@ -166,7 +166,7 @@ The following procedures walk you through the steps necessary to configure conti
      ```
      -_artifactsLocation $(artifactsLocation) -_artifactsLocationSasToken (ConvertTo-SecureString -String "$(artifactsLocationSasToken)" -AsPlainText -Force)
      ```
-     ![Configure Azure Resource Group Deployment Task][media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough18.png]
+     ![Configure Azure Resource Group Deployment Task](media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough18.png)
 7. After you’ve added all the required items, save the build pipeline and choose **Queue new build** at the top.
 
 ## Next steps
