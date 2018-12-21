@@ -150,10 +150,7 @@ You can now pull the container from the registry to any host capable of running 
 ## Additional resources
 
 * [Container development with Visual Studio](/visualstudio/containers)
-* [Azure Service Fabric: Prepare your development environment](/azure/service-fabric/service-fabric-get-started)
-* [Deploy a .NET app in a Windows container to Azure Service Fabric](/azure/service-fabric/service-fabric-host-app-in-a-container)
-* [Troubleshoot Visual Studio 2017 development with Docker](/azure/vs-azure-tools-docker-troubleshooting-docker-errors)
+* [Troubleshoot Visual Studio 2017 development with Docker](vs-azure-tools-docker-troubleshooting-docker-errors.md)
 * [Visual Studio Tools for Docker GitHub repository](https://github.com/Microsoft/DockerTools)
-
 
 [0]:media/vs-azure-tools-docker-hosting-web-apps-in-docker/vs-acr-provisioning-dialog.png
