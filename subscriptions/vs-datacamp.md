@@ -3,7 +3,7 @@ title: Enhance your data science skills today with the DataCamp benefit in selec
 author: evanwindom
 ms.author: jaunger
 manager: evelynp
-ms.date: 05/30/2018
+ms.date: 12/19/2018
 ms.topic: Get-Started-Article
 description:  Learn about the DataCamp training subscription included with selected Visual Studio subscriptions.
 ms.prod: vs-subscription
@@ -67,18 +67,21 @@ You can stop at any point, and resume your training in your next session.  Just 
 
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
-| Visual Studio Enterprise (Standard, annual cloud)   | VL, Azure, Retail, | 3 months       |  No.  Available to new subscribers only          |
-| Visual Studio Professional (Standard, annual cloud) | VL, Azure, Retail                                       | 3 months                                                            |  No.  Available to new subscribers only           |
+| Visual Studio Enterprise (Standard)   | VL, Azure, Retail, | 3 months       |  No.  Available to new subscribers only          |
+| Visual Studio Professional (Standard) | VL, Azure, Retail                                       | 3 months                                                            |  No.  Available to new subscribers only           |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Available                                             |  No.  Available to new subscribers only           |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | Available                                              |  No.  Available to new subscribers only           |
 | Visual Studio Dev Essentials | N/A  | 2 months | No. Available to new subscribers only |
-| Visual Studio Enterprise (Standard, annual cloud)  | NFR<sup>1</sup> |Not available  | N/A |
+| Visual Studio Enterprise (Standard)  | NFR<sup>1</sup> |Not available  | N/A |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure | Not available | N/A |
 
 
 
 <sup>1</sup>  *Includes:  Not for Resale (NFR), FTE, Microsoft Valued Professional (MVP), Region Director (RD), Microsoft Partner Network (MPN), Visual Studio Industry Partner (VSIP), Microsoft Certified Trainer, BizSpark, Imagine*
 
+
+> [!NOTE]
+> Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
 
 
 Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.
