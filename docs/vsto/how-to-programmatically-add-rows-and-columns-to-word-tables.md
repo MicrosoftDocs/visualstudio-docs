@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "rows [Office development in Visual Studio], adding to Word tables"
   - "tables [Office development in Visual Studio], adding rows and columns"
   - "columns [Office development in Visual Studio], adding to Word tables"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

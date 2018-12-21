@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], adding headers"
   - "documents [Office development in Visual Studio], adding footers"
   - "footers, adding to documents"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
