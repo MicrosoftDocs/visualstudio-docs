@@ -47,5 +47,6 @@ The text buffer object emits several different events that allow you to respond 
 |<xref:Microsoft.VisualStudio.TextManager.Interop.IVsFinalTextChangeCommitEvents>|Notifies clients of the last commit gesture to trigger the event and provides the range of text changed. The `IVsFinalTextChangeCommitEvents` interface is not fired in response to Undo or Redo commands. Events only fire for buffers that have an undo manager. `IVsFinalTextChangeCommitEvents` is intended for use only by language services or other objects that have complete control over editing. Your VSPackage must monitor either the `IVsPreliminaryTextChangeCommitEvents` interface or the `IVsFinalTextChangeCommitEvents` interface, but not both.|  
   
 ## See also
- [Access the text buffer by using the legacy API](../extensibility/accessing-the-text-buffer-by-using-the-legacy-api.md)
- [How to: Register for text buffer events with the legacy API](../extensibility/how-to-register-for-text-buffer-events-with-the-legacy-api.md)
+
+- [Access the text buffer by using the legacy API](../extensibility/accessing-the-text-buffer-by-using-the-legacy-api.md)
+- [How to: Register for text buffer events with the legacy API](../extensibility/how-to-register-for-text-buffer-events-with-the-legacy-api.md)
