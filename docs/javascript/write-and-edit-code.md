@@ -102,9 +102,9 @@ Place your cursor where you want to insert the snippet, right-click and choose *
 
 ![Code snippet in Visual Studio](../javascript/media/write-code-insert-snippet.png)
 
-An **Insert Snippet** box appears appears in the editor. Choose **General** and then double-click the **for** item in the list.
+An **Insert Snippet** box appears in the editor. Choose **General** and then double-click the **for** item in the list.
 
-![Code snippet for for loop in Visual Studio](../javascript/media/write-code-insert-snippet-for-loop.png)
+![Code snippet for a for loop in Visual Studio](../javascript/media/write-code-insert-snippet-for-loop.png)
 
 This adds the `for` loop snippet to your code:
 
