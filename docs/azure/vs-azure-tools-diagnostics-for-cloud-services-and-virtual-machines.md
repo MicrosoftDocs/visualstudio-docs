@@ -1,6 +1,6 @@
 ---
 title: Set up diagnostics for Azure Cloud Services and virtual machines | Microsoft Docs
-description: Learn how to set up diagnostics for debugging Azure cloude services and virtual machines (VMs) in Visual Studio.
+description: Learn how to set up diagnostics for debugging Azure cloud services and virtual machines (VMs) in Visual Studio.
 author: ghogen
 manager: douge
 ms.assetid: e70cd7b4-6298-43aa-adea-6fd618414c26
@@ -144,7 +144,7 @@ If you're using Azure SDK 2.6 or later and you want to specify a custom data sou
 
 If you're using Azure SDK 2.5 and want to specify a custom data source, you can add it to the `WindowsEventLog` section of the diagnostics.wadcfgx file, like in the following example:
 
-```
+```xml
 <WindowsEventLog scheduledTransferPeriod="PT1M">
    <DataSource name="Application!*" />
    <DataSource name="CustomDataSource!*" />
@@ -282,7 +282,7 @@ By default, IIS doesn’t collect failed-request logs. You can set up IIS to col
 
 The methods of **RoleEntryPoint** are called in the context of WAIISHost.exe, not in IIS. The configuration information in web.config that normally enables tracing doesn’t apply. To resolve this issue, add a .config file to your web role project, and name the file to match the output assembly that contains the **RoleEntryPoint** code. In the default web role project, the name of the .config file should be WAIISHost.exe.config. Add the following lines to this file:
 
-```
+```xml
 <system.diagnostics>
   <trace>
       <listeners>

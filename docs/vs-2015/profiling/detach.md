@@ -18,7 +18,7 @@ manager: "ghogen"
 # Detach
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The VSPerfCmd.exe **Detach** option disconnects the profiler fromthe specified processes or all processes if none are specifed. Profiling must have been initialized by using the sampling method.  
+The VSPerfCmd.exe **Detach** option disconnects the profiler fromthe specified processes or all processes if none are specified. Profiling must have been initialized by using the sampling method.  
   
  Profiling that was started with either the **Launch** or the **Attach** options can be disconnected with **Detach**. The profiler can be reattched by using subsequent **Attach** commands.  
   
