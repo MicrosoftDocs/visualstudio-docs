@@ -272,7 +272,7 @@ Namespace TextPointer_Snippets
             '</SnippetFCEParent>
 
             ' This will be either null if no Run is found, or a position just inside of the first Run element in the
-            ' specifed text container.  Because position is formed from ContentStart, it will have a logical direction
+            ' specified text container.  Because position is formed from ContentStart, it will have a logical direction
             ' of Backward.
             Return position
         End Function
