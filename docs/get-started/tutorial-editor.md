@@ -38,7 +38,7 @@ Start by creating a new file and adding some code to it.
 
 Visual Studio provides useful *code snippets* that you can use to quickly and easily generate commonly used code blocks. [Code snippets](../ide/code-snippets.md) are available for different programming languages including C#, Visual Basic, and C++. Let's add the C# `void Main` snippet to our file.
 
-1. Place your cursor just above the final closing brace **}** in the file, and type the characters `svm` (which stands for `static void Main`; the [Main()](/dotnet/csharp/programming-guide/main-and-command-args/) method is the entry point for C# applications.).
+1. Place your cursor just above the final closing brace **}** in the file, and type the characters `svm`. (`svm` stands for `static void Main`; the [Main()](/dotnet/csharp/programming-guide/main-and-command-args/) method is the entry point for C# applications.)
 
    A pop-up dialog box appears with information about the `svm` code snippet.
 
