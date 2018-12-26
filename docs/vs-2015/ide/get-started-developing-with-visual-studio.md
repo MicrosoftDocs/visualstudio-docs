@@ -54,7 +54,7 @@ Welcome to Visual Studio! After you have [downloaded](http://www.visualstudio.co
 
      [Load a sample](https://github.com/microsoft/windows-classic-samples) &#124;                     [Do a tutorial](https://msdn.microsoft.com/library/dd492171.aspx) &#124;                               [Browse the docs](https://dev.windows.com/desktop)
 
--   **[Make Office applications](https://msdn.microsoft.com/library/fp161347.aspx)** : Get started creating Office applications that extend and customize Word, Excel, Outlook and Powerpoint with Office 365 services.
+-   **[Make Office applications](https://msdn.microsoft.com/library/fp161347.aspx)** : Get started creating Office applications that extend and customize Word, Excel, Outlook and PowerPoint with Office 365 services.
 
      [Load a sample](https://code.msdn.microsoft.com/office365/) &#124;                       [Do a tutorial](http://dev.office.com/getting-started/office365apis) &#124;                              [Browse the docs](https://msdn.microsoft.com/office/aa905340.aspx) &#124;                                   [Watch a video](http://dev.office.com/videos)
 
