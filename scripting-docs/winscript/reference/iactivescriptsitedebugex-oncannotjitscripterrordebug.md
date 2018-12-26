@@ -26,7 +26,7 @@ Informs the host about a script run-time error when the Process Debug Manager do
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT OnCanNotJITScriptErrorDebug(  
    IActiveScriptErrorDebug*  pErrorDebug  
    BOOL *pfCallOnScriptErrorWhenContinuing  

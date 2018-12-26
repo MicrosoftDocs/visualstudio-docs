@@ -24,7 +24,7 @@ Returns a custom script statistic.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetStatEx(  
    REFGUID  guid,  
    ULONG*   pluHi,  

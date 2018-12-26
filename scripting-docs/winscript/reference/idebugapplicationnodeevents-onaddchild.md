@@ -24,7 +24,7 @@ Handles the event when a child node is added to a debug application node object.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT onAddChild(  
    IDebugApplicationNode*  prddpChild  
 );  

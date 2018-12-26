@@ -24,7 +24,7 @@ Returns a textual description of the error.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetDescription(  
    BSTR*  pbstrDescription  
 );  

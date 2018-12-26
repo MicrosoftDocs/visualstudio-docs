@@ -24,7 +24,7 @@ Returns an event interface that wraps a given `IDispatch` object.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT CreateSimpleConnectionPoint(  
    IDispatch*                pdisp  
    ISimpleConnectionPoint**  ppscp  

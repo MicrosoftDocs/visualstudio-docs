@@ -24,7 +24,7 @@ Resets an enumeration sequence to the beginning.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Reset();  
 ```  
   

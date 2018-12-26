@@ -24,7 +24,7 @@ Handles a debugger output event.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT OnDebugOutput(  
    LPCOLESTR  pstr  
 );  

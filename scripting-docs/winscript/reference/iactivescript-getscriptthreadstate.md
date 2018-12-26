@@ -24,7 +24,7 @@ Retrieves the current state of a script thread.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetScriptThreadState(  
     SCRIPTTHREADID stidThread,    // identifier of script thread  
     SCRIPTTHREADSTATE *pstsState  // receives state flag  

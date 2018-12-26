@@ -24,7 +24,7 @@ Removes a type library from the script authoring engine namespace.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT RemoveTypeLib(  
    REFGUID   rguidTypeLib,  
    DWORD     dwMajor,  

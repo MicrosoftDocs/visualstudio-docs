@@ -24,7 +24,7 @@ manager: "ghogen"
 # Can&#39;t have &#39;break&#39; outside of loop
 You attempted to use the **break** keyword outside of a loop. The **break** keyword is used to terminate a loop or `switch` statement. It must be embedded in the body of a loop or `switch` statement. However, a **label** can follow the break keyword.  
   
-```  
+```js
 break labelname;  
 ```  
   

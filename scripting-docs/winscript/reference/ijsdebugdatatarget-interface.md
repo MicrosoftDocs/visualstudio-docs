@@ -18,7 +18,7 @@ Implemented by the debugger to provide functionality to access and change the st
   
 ## Syntax  
   
-```  
+```cpp
 IJsDebugDataTarget : public IUnknown;  
 ```  
   

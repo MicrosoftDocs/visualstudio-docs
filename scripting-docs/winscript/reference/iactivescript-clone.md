@@ -24,7 +24,7 @@ Clones the current scripting engine (minus any current execution state), returni
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Clone(  
     IActiveScript **ppscript  // receives pointer to IActiveScript  
 );  

@@ -24,7 +24,7 @@ Retrieves a particular type of error information.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT QueryErrorInfo(  
    GUID  guidErrorType,  
    IDispError**  ppde  

@@ -24,7 +24,7 @@ Returns a value that indicates whether a given character should trigger a statem
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT IsCommitChar(  
    OLECHAR    ch,  
    BOOL       *pfcommit  

@@ -18,7 +18,7 @@ Represents a breakpoint.
   
 ## Syntax  
   
-```  
+```cpp
 IJsDebugBreakPoint : public IUnknown;  
 ```  
   

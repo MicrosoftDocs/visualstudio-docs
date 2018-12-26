@@ -24,7 +24,7 @@ Returns a property browser that wraps a VARIANT and allows for custom conversion
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT CreatePropertyBrowserEx(  
    VARIANT*                  pvar,  
    LPCOLESTR                 bstrName,  

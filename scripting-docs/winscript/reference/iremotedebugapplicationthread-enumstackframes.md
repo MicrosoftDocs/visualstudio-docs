@@ -24,7 +24,7 @@ Returns an enumerator for the stack frames associated with this thread.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT EnumStackFrames(  
    IEnumDebugStackFrames**  ppedsf  
 );  

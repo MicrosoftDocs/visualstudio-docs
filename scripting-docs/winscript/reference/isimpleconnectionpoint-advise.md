@@ -24,7 +24,7 @@ Establishes a connection between the simple connection point object and the clie
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Advise(  
    IDispatch*  pdisp,  
    DWORD*      pdwCookie  

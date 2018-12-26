@@ -26,7 +26,7 @@ Describes various attributes for an `IDebugProperty`. Member of the `DebugProper
   
 ## Syntax  
   
-```  
+```cpp
 enum {  
 DBGPROP_ATTRIB_NO_ATTRIB  =0x00000000,  
    DBGPROP_ATTRIB_VALUE_IS_INVALID  =0x00000008,  

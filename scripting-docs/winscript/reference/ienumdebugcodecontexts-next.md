@@ -24,7 +24,7 @@ Retrieves a specified number of segments in the enumeration sequence.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Next(  
    ULONG                celt,  
    IDebugCodeContext**  pscc,  

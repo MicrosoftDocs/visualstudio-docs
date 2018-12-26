@@ -22,7 +22,7 @@ Specifies the type of script.
   
 ## Syntax  
   
-```  
+```cpp
 typedef enum {  
     PROFILER_SCRIPT_TYPE_USER,  
     PROFILER_SCRIPT_TYPE_DYNAMIC,  

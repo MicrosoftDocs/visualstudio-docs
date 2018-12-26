@@ -16,7 +16,7 @@ Used by the language engine to delegate `IDebugCodeContext::GetSourceContext`.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetDocumentContextFromPosition(  
    DWORD_PTR                dwSourceContext,  
    ULONG                    uCharacterOffset,  

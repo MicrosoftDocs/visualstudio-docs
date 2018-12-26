@@ -24,7 +24,7 @@ Returns the current code context associated with the stack frame.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetCodeContext(  
    IDebugCodeContext**  ppcc  
 );  

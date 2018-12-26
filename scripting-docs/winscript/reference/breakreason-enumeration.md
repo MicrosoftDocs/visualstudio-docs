@@ -24,7 +24,7 @@ Indicates what caused the break.
   
 ## Syntax  
   
-```  
+```cpp
 typedef enum tagBREAKREASON {  
    BREAKREASON_STEP,  
    BREAKREASON_BREAKPOINT,  

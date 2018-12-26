@@ -24,7 +24,7 @@ Creates an enumerator that contains the same state as the current enumerator.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Clone(  
    IEnumDebugStackFrames**  ppedsf  
 );  

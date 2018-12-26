@@ -24,7 +24,7 @@ manager: "ghogen"
 # Cannot assign to a function result
 You attempted to assign a value to a function result. The result of a function can be assigned to a variable, but it cannot be used as a variable. If you want to assign a new value to the function itself, omit the parentheses (the function call operator). The following example demonstrates a situation in which this error is generated.  
   
-```  
+```js
 myFunction() = 42;  // Attempting to assign the value 42 to the result of the function call.  
 ```  
   

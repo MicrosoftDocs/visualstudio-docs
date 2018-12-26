@@ -24,7 +24,7 @@ Takes a variant value and creates a new variant with a specified type.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT ChangeType(  
    VARIANT*  pvarDst,  
    VARIANT*  pvarSrc,  

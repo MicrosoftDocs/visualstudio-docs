@@ -24,7 +24,7 @@ Returns the process ID for the host application.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetHostPid(  
    DWORD*  dwHostPid  
 );  

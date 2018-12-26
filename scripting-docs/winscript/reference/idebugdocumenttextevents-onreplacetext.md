@@ -24,7 +24,7 @@ Indicates that text has been replaced.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT onReplaceText(  
    ULONG  cCharacterPosition,  
    ULONG  cNumToReplace  
