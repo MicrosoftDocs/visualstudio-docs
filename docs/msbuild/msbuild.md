@@ -23,7 +23,7 @@ The [!INCLUDE[vstecmsbuildengine](../msbuild/includes/vstecmsbuildengine_md.md)]
 
  The following examples illustrate when you might run builds by using an MSBuild command line instead of the Visual Studio IDE.
 
--   Visual Studio isn't installed.
+-   Visual Studio isn't installed. ([download MSBuild without Visual Studio](https://visualstudio.microsoft.com/downloads/?q=build+tools))
 
 -   You want to use the 64-bit version of MSBuild. This version of MSBuild is usually unnecessary, but it allows MSBuild to access more memory.
 
@@ -176,7 +176,7 @@ For more information, see [Multitargeting](../msbuild/msbuild-multitargeting-ove
 | [Conditions](../msbuild/msbuild-conditions.md) | Discusses how to use the `Condition` attribute in an MSBuild element. |
 | [Advanced concepts](../msbuild/msbuild-advanced-concepts.md) | Presents batching, performing transforms, multitargeting, and other advanced techniques. |
 | [Logging in MSBuild](../msbuild/logging-in-msbuild.md) | Describes how to log build events, messages, and errors. |
-| [Additional resources](../msbuild/additional-msbuild-resources.md) | Lists community and support resources for more information about MSBuild. |
+| [Additional resources](https://social.msdn.microsoft.com/forums/vstudio/home?forum=msbuild) | Lists community and support resources for more information about MSBuild. |
 
 ## Reference
  [MSBuild reference](../msbuild/msbuild-reference.md)

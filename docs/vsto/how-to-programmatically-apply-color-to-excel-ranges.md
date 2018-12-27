@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "formatting [Office development in Visual Studio]"
   - "color, Excel ranges"
   - "ranges, applying color"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

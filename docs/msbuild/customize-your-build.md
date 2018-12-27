@@ -14,7 +14,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Customize your build
+# Customize your build (C#, Visual Basic)
 
 MSBuild projects that use the standard build process (importing *Microsoft.Common.props* and *Microsoft.Common.targets*) have several extensibility hooks that you can use to customize your build process.
 

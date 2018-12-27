@@ -44,7 +44,7 @@ where a node represents a logic branch point and an edge represents a line betwe
 
 The rule reports a violation when the cyclomatic complexity is more than 25.
 
-You can learn more about code metrics at [Measuring Complexity and Maintainability of Managed Code](../code-quality/measuring-complexity-and-maintainability-of-managed-code.md),
+You can learn more about code metrics at [Measuring Complexity and Maintainability of Managed Code](../code-quality/code-metrics-values.md),
 
 ## How to fix violations
 
@@ -102,4 +102,4 @@ The following examples show methods that have varying cyclomatic complexities.
 
 ## See also
 
-- [Measuring Complexity and Maintainability of Managed Code](../code-quality/measuring-complexity-and-maintainability-of-managed-code.md)
+- [Measuring Complexity and Maintainability of Managed Code](../code-quality/code-metrics-values.md)

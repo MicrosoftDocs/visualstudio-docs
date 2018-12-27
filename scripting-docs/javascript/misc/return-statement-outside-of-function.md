@@ -1,5 +1,5 @@
 ---
-title: "&#39;return&#39; statement outside of function | Microsoft Docs"
+title: "'return' statement outside of function | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
 ms.prod: "windows-client-threshold"
@@ -21,7 +21,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 ---
-# &#39;return&#39; statement outside of function
+# 'return' statement outside of function
 You used a `return` statement in the global scope of your code. The `return` statement should only appear within the body of a function.  
   
  Invoking a function with the `()` operator is an expression. All expressions have values; the `return` statement is used to specify the value retuned by a function. The general form is:  

@@ -137,7 +137,7 @@
         },
         {
             "source_path": "docs/code-quality/measuring-complexity-and-maintainability-of-managed-code.md",
-            "redirect_url": "/visualstudio/code-quality/code-metrics-values/",
+            "redirect_url": "/visualstudio/code-quality/code-metrics-values",
             "redirect_document_id": false
         },
         {
@@ -682,12 +682,12 @@
         },
         {
             "source_path": "docs/debugger/first-look-at-the-debugger.md",
-            "redirect_url": "/visualstudio/debugger/debugger-feature-tour.md",
+            "redirect_url": "/visualstudio/debugger/debugger-feature-tour",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/debugger/debugger-basics.md",
-            "redirect_url": "/visualstudio/debugger/debugger-feature-tour.md",
+            "redirect_url": "/visualstudio/debugger/debugger-feature-tour",
             "redirect_document_id": false
         },
         {
@@ -697,7 +697,7 @@
         },
         {
             "source_path": "docs/debugger/getting-started-with-the-debugger.md",
-            "redirect_url": "/visualstudio/debugger/debugger-feature-tour.md",
+            "redirect_url": "/visualstudio/debugger/debugger-feature-tour",
             "redirect_document_id": false
         },
         {
@@ -822,7 +822,7 @@
         },
         {
             "source_path": "docs/extensibility/lightweight-solution-load-extension-impact.md",
-            "redirect_url": "/visualstudio/extensibility/what-s-new-in-the-visual-studio-2017-sdk/",
+            "redirect_url": "/visualstudio/extensibility/what-s-new-in-the-visual-studio-2017-sdk",
             "redirect_document_id": false
         },
         {
@@ -1132,7 +1132,7 @@
         },
         {
             "source_path": "docs/ide/optimize-solution-loading-in-visual-studio.md",
-            "redirect_url": "/visualstudio/ide/optimize-visual-studio-startup-time/",
+            "redirect_url": "/visualstudio/ide/optimize-visual-studio-startup-time",
             "redirect_document_id": false
         },
         {
@@ -1222,7 +1222,7 @@
         },
         {
             "source_path": "docs/ide/targeting-a-specific-dotnet-framework-version.md",
-            "redirect_url": "/visualstudio/ide/visual-studio-multi-targeting-overview/",
+            "redirect_url": "/visualstudio/ide/visual-studio-multi-targeting-overview",
             "redirect_document_id": false
         },
         {
@@ -2202,7 +2202,7 @@
         },
         {
             "source_path": "docs/test/testing-store-apps-with-visual-studio.md",
-            "redirect_url": "/visualstudio/test/create-and-run-unit-tests-for-a-store-app-in-visual-studio/",
+            "redirect_url": "/visualstudio/test/create-and-run-unit-tests-for-a-store-app-in-visual-studio",
             "redirect_document_id": false
         },
         {
@@ -4043,7 +4043,7 @@
        },
        {
            "source_path":  "scripting-docs/javascript/reference/setuint32-method-dataview.md",
-           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/setuint32.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/setuint32",
            "redirect_document_id":  false
        },
        {
@@ -6283,7 +6283,7 @@
        },
        {
            "source_path":  "scripting-docs/javascript/reference/number-property-error-javascript.md",
-           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Microsoft_JavaScript_extensions/Error.number.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Microsoft_JavaScript_extensions/Error.number",
            "redirect_document_id":  false
        },
        {
@@ -6844,7 +6844,7 @@
         },
         {
             "source_path": "docs/cross-platform/learn-about-mobile-development-with-xamarin.md",
-            "redirect_url": "/xamarin/cross-platform/get-started/introduction-to-mobile-development/",
+            "redirect_url": "/xamarin/cross-platform/get-started/introduction-to-mobile-development",
             "redirect_document_id": false
         },
         {
@@ -6885,6 +6885,11 @@
         {
             "source_path": "docs/ide/tutorial-csharp-aspnet-core.md",
             "redirect_url": "/visualstudio/get-started/csharp/tutorial-aspnet-core",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/ide/tutorial-csharp-console.md",
+            "redirect_url": "/visualstudio/get-started/csharp/tutorial-console",
             "redirect_document_id": true
         },
         {

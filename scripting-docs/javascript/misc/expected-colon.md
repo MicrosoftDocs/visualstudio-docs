@@ -1,5 +1,5 @@
 ---
-title: "Expected &#39;:&#39; | Microsoft Docs"
+title: "Expected ':' | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
 ms.prod: "windows-client-threshold"
@@ -21,7 +21,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 ---
-# Expected &#39;:&#39;
+# Expected ':'
 You attempted to create an expression using the ternary conditional operator, but did not include the colon between the second and third operands. The ternary (three operands) conditional operator requires a colon between the second (true) and third (false) operands.  
   
 ### To correct this error  

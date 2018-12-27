@@ -34,8 +34,8 @@ helpviewer_keywords:
   - "document-level customizations [Office development in Visual Studio], host items"
   - "Word [Office development in Visual Studio], host controls"
   - "host controls [Office development in Visual Studio], deleting"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

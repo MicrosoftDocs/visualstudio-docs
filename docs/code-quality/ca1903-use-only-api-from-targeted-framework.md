@@ -42,7 +42,7 @@ ms.workload:
 |.NET Framework 3.5|.NET Framework 3.5 SP1|
 |.NET Framework 4|N/A|
 
- To change a project's target framework, see [Targeting a Specific .NET Framework Version](../ide/targeting-a-specific-dotnet-framework-version.md).
+ To change a project's target framework, see [Targeting a Specific .NET Framework Version](../ide/visual-studio-multi-targeting-overview.md).
 
 ## How to fix violations
  To remove the dependency on the service pack, remove all usages of the new member or type. If this is a deliberate dependency, either suppress the warning or turn off this rule.
@@ -63,4 +63,4 @@ ms.workload:
 ## See also
 
 - [Portability Warnings](../code-quality/portability-warnings.md)
-- [Targeting a Specific .NET Framework Version](../ide/targeting-a-specific-dotnet-framework-version.md)
+- [Targeting a Specific .NET Framework Version](../ide/visual-studio-multi-targeting-overview.md)
