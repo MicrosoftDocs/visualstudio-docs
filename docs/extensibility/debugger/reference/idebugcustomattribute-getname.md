@@ -23,13 +23,13 @@ Gets the name of the custom attribute.
   
 ```cpp  
 HRESULT GetName(   
-   BSTR* bstrName  
+   BSTR* bstrName  
 );  
 ```  
   
 ```csharp  
 int GetName(  
-   out string bstrName  
+   out string bstrName  
 );  
 ```  
   

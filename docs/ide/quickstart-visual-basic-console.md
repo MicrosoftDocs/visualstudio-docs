@@ -1,11 +1,10 @@
 ---
-title: "Quickstart: Create your first console app in Visual Studio with Visual Basic"
-description: "Learn how to create a simple console app in Visual Studio with Visual Basic, step-by-step."
-ms.custom: ""
+title: "Create your first console app with Visual Basic"
+description: "Learn how to create a simple Hello World console app in Visual Studio with Visual Basic, step-by-step."
 ms.date: 12/10/2017
 ms.prod: visual-studio-dev15
+ms.custom: "seodec18"
 ms.technology: vs-acquisition
-ms.prod: visual-studio-dev15
 ms.topic: quickstart
 ms.devlang: vb
 author: TerryGLee
@@ -86,4 +85,4 @@ Let's add some code to pause the application and then ask for user input.
 Congratulations on completing this Quickstart! We hope you learned a little bit about Visual Basic and the Visual Studio IDE. To learn more, continue with the following tutorial.
 
 > [!div class="nextstepaction"]
-> [Get started with Visual Basic in Visual Studio](tutorial-visual-basic-console.md)
+> [Get started with Visual Basic in Visual Studio](../get-started/visual-basic/tutorial-console.md)

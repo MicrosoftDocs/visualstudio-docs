@@ -1,6 +1,7 @@
 ---
 title: "Create VSTO Add-ins for Office by using Visual Studio"
-ms.custom: ""
+titleSuffix: ""
+ms.custom: "seodec18"
 ms.date: "02/02/2017"
 ms.technology: 
   - "office-development"
@@ -8,8 +9,8 @@ ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -102,10 +103,10 @@ ms.workload:
  [Microsoft Office development section of the MSDN library](http://go.microsoft.com/fwlink/?LinkId=149870)  
  The area of the MSDN library where you can find articles and reference documentation about developing solutions for several versions of Office (not specific to Office development using Visual Studio).  
   
- [Application development in Visual Studio](http://msdn.microsoft.com/97490c1b-a247-41fb-8f2c-bc4c201eff68)  
+ [Application development in Visual Studio](https://msdn.microsoft.com/97490c1b-a247-41fb-8f2c-bc4c201eff68)  
  Contains links to topics that explain how you can use Visual Studio to design, develop, debug, and deploy web applications, XML web services, and traditional client applications.  
   
- [.NET Framework programming in Visual Studio](http://msdn.microsoft.com/f3f63195-82c6-48e8-a4a0-612810e7d093)  
+ [.NET Framework programming in Visual Studio](/previous-versions/visualstudio/visual-studio-2010/k1s94fta(v=vs.100))  
  Discusses application development with the .NET Framework in Visual Basic and Visual C#.  
   
   

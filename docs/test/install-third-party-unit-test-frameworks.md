@@ -10,13 +10,15 @@ ms.workload:
   - "multiple"
 author: gewarren
 ---
-# Install third-party unit test frameworks
+# Install unit test frameworks
 
-Visual Studio Test Explorer can run any unit test framework that has developed an adapter interface for the Explorer. The install program of the framework installs the binaries and adds Visual Studio project templates for the languages it supports. When you create a project with the template, the framework is registered with Test Explorer. A Visual Studio solution can contain unit test projects that use different frameworks and that are targeted at different languages. Test Explorer runs them all.
+Visual Studio Test Explorer can run any unit test framework that has developed an adapter interface for the Explorer. The install program of the framework installs the binaries and adds Visual Studio project templates for the languages it supports. When you create a project with the template, the framework is registered with Test Explorer. A Visual Studio solution can contain unit test projects that use different frameworks and that are targeted at different languages. The Test Explorer runs them all.
 
-## Acquire third-party frameworks
+[MSTest](getting-started-with-unit-testing.md) is the test framework provided by Visual Studio and is installed with Visual Studio by default.
 
-You can download and install many third-party unit test frameworks by using the Visual Studio Extension Manager, or from the Visual Studio Marketplace. Frameworks can also be downloaded from other sites such as the website of the framework.
+## Acquire frameworks
+
+You can download and install third-party unit test frameworks by using the Visual Studio Extension Manager or from [Visual Studio Marketplace](https://marketplace.visualstudio.com/vs). Frameworks can also be downloaded from other sites such as the website of the framework.
 
 ### Install from Visual Studio
 
@@ -38,7 +40,7 @@ If you know the framework you are interested in:
 
 2. Type the name of the framework in the **Find** box.
 
-3. Choose the framework in the results list to navigate to the Visual Studio Marketplace page for the tool.
+3. Choose the framework in the results list to navigate to the **Visual Studio Marketplace** page for the tool.
 
 To browse a list of frameworks along with other testing tools:
 
@@ -48,7 +50,7 @@ To browse a list of frameworks along with other testing tools:
 
 3. In the **Category** list (labeled as **Showing**), expand the **Tools** node and then choose **Testing**.
 
-4. Choose a framework in the results list to navigate to a Visual Studio Marketplace page for the tool.
+4. Choose a framework in the results list to navigate to a **Visual Studio Marketplace** page for the tool.
 
 ## Update to the latest test adapters
 
@@ -58,9 +60,9 @@ Update to the latest stable test adapter to experience better test discovery and
 
 1. Open the Nuget Package Manager for your solution by navigating to **Tools** > **NuGet Package Manager** > **Manage NuGet Packages for Solution**.
 
-2. Click on the **Updates** tab and search for NUnit or xUnit test adapters that are installed.
+2. Click on the **Updates** tab and search for MSTest, NUnit, or xUnit test adapters that are installed.
 
-3. Select each test adapter, and then select the latest stable version in the drop down menu.
+3. Select each test adapter, and then select the latest stable version in the drop-down menu.
 
 4. Choose the **Install** button.
 

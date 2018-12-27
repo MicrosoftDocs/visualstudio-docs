@@ -1,5 +1,5 @@
 ---
-title: "Object doesn&#39;t support this property or method | Microsoft Docs"
+title: "Object doesn't support this property or method | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
 ms.prod: "windows-client-threshold"
@@ -21,7 +21,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 ---
-# Object doesn&#39;t support this property or method
+# Object doesn't support this property or method
 You specified a property or method that does not exist for this object. Not all objects support all properties and methods.  
   
 ### To correct this error  

@@ -1,6 +1,6 @@
 ---
-title: Installing AI Tools for Visual Studio
-description: Installation of AI Tools for Visual Studio
+title: Install AI Tools
+description: Describes how to install AI Tools for Visual Studio
 keywords: ai, visual studio
 author: lisawong19
 ms.author: liwong
@@ -21,19 +21,20 @@ Visual Studio Tools for AI can be installed on Windows 64-bit operating systems.
 
 This extension works with Visual Studio 2015 and Visual Studio 2017, Community edition or higher.
 
-To install, download from the [Visual Studio Marketplace](http://aka.ms/vstoolsforai) or from within Visual Studio
+You can download the tools from the [Visual Studio Marketplace](http://aka.ms/vstoolsforai), or from within Visual Studio:
 
-1. **Tools** > **Extensions and Updates**
+1. Select **Tools** > **Extensions and Updates**.
 
-![install CUDA on Windows](media\installation\extensions.png)
+   ![Extensions and Updates menu in Visual Studio](media/installation/extensions.png)
 
-1. **Search** in upper right-hand corner for "Tools for AI"
-2. Select **Visual Studio Tools for AI**
-3. Click **Download**
+2. In the **Extensions and Updates** dialog box, select **Online** on the left-hand side.
+3. In the search box in the upper right-hand corner, type or enter "tools for ai".
+4. Select **Visual Studio Tools for AI** from the results.
+5. Click **Download**.
 
 ## Prepare your local machine
 
-Before training deep learning models on your local computer you should make sure you have the latest applicable prerequisites installed. This includes making sure the latest drivers and libraries for your NVIDIA GPU (if you have one). You should also ensure you have installed Python and Python libraries such as NumPy, SciPy, and appropriate deep learning frameworks such as Microsoft Cognitive Toolkit (CNTK), TensorFlow, Caffe2, MXNet, Keras, Theano, PyTorch and/or Chainer that you plan to use in your project.
+Before training deep learning models on your local computer, make sure you have the applicable prerequisites installed. This includes making sure you have the latest drivers and libraries for your NVIDIA GPU (if you have one). You should also ensure you've installed Python and Python libraries such as NumPy, SciPy, and appropriate deep learning frameworks such as Microsoft Cognitive Toolkit (CNTK), TensorFlow, Caffe2, MXNet, Keras, Theano, PyTorch, and Chainer, that you plan to use in your project.
 
 > [!NOTE]
 > Software introduction in the following subsections is excerpted from their homepages.
@@ -44,9 +45,7 @@ Deep learning frameworks take advantage of NVIDIA GPU to let machines learn at a
 
 ### CUDA
 
-[CUDA](https://developer.nvidia.com/cuda-zone) is a parallel computing platform and programming model invented by NVIDIA.
-It enables dramatic increases in computing performance by harnessing the power of the GPU.
-Currently, CUDA Toolkit 8.0 is required by deep learning frameworks.
+[CUDA](https://developer.nvidia.com/cuda-zone) is a parallel computing platform and programming model invented by NVIDIA. It enables dramatic increases in computing performance by harnessing the power of the GPU. Currently, CUDA Toolkit 8.0 is required by deep learning frameworks.
 
 To install CUDA
 
@@ -54,7 +53,7 @@ To install CUDA
 - Make sure to install the CUDA runtime libraries, and then add CUDA binary path to the %PATH% or $Path environment variable.
 - On Windows, this path is "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin" by default.
 
-![install CUDA on Windows](media\installation\install_cuda_win.png)
+![Install CUDA on Windows](media/installation/install_cuda_win.png)
 
 ### cuDNN
 
@@ -80,7 +79,7 @@ Python has been the primary programming language for deep learning applications.
 
 Deep learning frameworks rely on pip for their own installation.
 
-![install Python on Windows](media\installation\install_python_win.png)
+![Install Python on Windows](media/installation/install_python_win.png)
 
 Then, we need to verify whether Python 3.5 is installed correctly, and upgrade pip to the latest version by executing the following commands in a terminal:
 

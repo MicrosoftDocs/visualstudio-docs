@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "Office development in Visual Studio, about developing solutions"
   - "solutions [Office development in Visual Studio], developing"
   - "Office solutions [Office development in Visual Studio], developing"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -34,13 +34,13 @@ ms.workload:
   
  For more information about features that are specific to different types of solutions, see the following topics:  
   
--   [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md).  
+- [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md).  
   
--   [Program document-level customizations](../vsto/programming-document-level-customizations.md).  
+- [Program document-level customizations](../vsto/programming-document-level-customizations.md).  
   
--   [Office UI customization](../vsto/office-ui-customization.md).  
+- [Office UI customization](../vsto/office-ui-customization.md).  
   
- For background information to help you plan your Office solutions and procedures to help you create projects, see [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md).  
+  For background information to help you plan your Office solutions and procedures to help you create projects, see [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md).  
   
 ## Related topics  
   

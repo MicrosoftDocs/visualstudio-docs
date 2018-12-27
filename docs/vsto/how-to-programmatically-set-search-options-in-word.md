@@ -22,11 +22,11 @@ ms.workload:
 # How to: Programmatically set search options in Word
   There are two ways to set search options for selections in Microsoft Office Word documents:  
   
--   Set individual properties of a <xref:Microsoft.Office.Interop.Word.Find> object.  
+- Set individual properties of a <xref:Microsoft.Office.Interop.Word.Find> object.  
   
--   Use arguments of the <xref:Microsoft.Office.Interop.Word.Find.Execute%2A> method of a <xref:Microsoft.Office.Interop.Word.Find> object.  
+- Use arguments of the <xref:Microsoft.Office.Interop.Word.Find.Execute%2A> method of a <xref:Microsoft.Office.Interop.Word.Find> object.  
   
- [!INCLUDE[appliesto_wdalldocapp](../vsto/includes/appliesto-wdalldocapp-md.md)]  
+  [!INCLUDE[appliesto_wdalldocapp](../vsto/includes/appliesto-wdalldocapp-md.md)]  
   
 ## Use properties of a Find object  
  The following code sets properties of a <xref:Microsoft.Office.Interop.Word.Find> object to search for text within the current selection. Notice that the search criteria, such as searching forward, wrapping, and text to search for, are properties of the <xref:Microsoft.Office.Interop.Word.Find> object.  

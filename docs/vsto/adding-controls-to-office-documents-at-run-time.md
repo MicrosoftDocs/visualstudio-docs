@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "document-level customizations [Office development in Visual Studio], Windows Forms controls"
   - "controls [Office development in Visual Studio], adding at runtime"
   - "helper methods [Office development in Visual Studio]"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload:
   - "office"
@@ -33,13 +33,13 @@ ms.workload:
 
  This topic describes the following:  
 
--   [Manage controls at runtime by using control collections](#ControlsCollection).  
+- [Manage controls at runtime by using control collections](#ControlsCollection).  
 
--   [Add host controls to documents](#HostControls).  
+- [Add host controls to documents](#HostControls).  
 
--   [Add Windows Forms controls to documents](#WindowsForms).  
+- [Add Windows Forms controls to documents](#WindowsForms).  
 
- ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Add controls to a document surface at runtime?](http://go.microsoft.com/fwlink/?LinkId=132782).  
+  ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Add controls to a document surface at runtime?](http://go.microsoft.com/fwlink/?LinkId=132782).  
 
 ##  <a name="ControlsCollection"></a> Manage controls at runtime by using control collections  
  To add, get, or remove controls at runtime, use helper methods of <xref:Microsoft.Office.Tools.Excel.ControlCollection> and <xref:Microsoft.Office.Tools.Word.ControlCollection> objects.  
@@ -76,19 +76,19 @@ ms.workload:
 ##  <a name="HostControls"></a> Add host controls to documents  
  When you programmatically add host controls to documents, you must provide a name that uniquely identifies the control, and you must specify where to add the control on the document. For specific instructions, see the following topics:  
 
--   [How to: Add ListObject controls to worksheets](../vsto/how-to-add-listobject-controls-to-worksheets.md)  
+- [How to: Add ListObject controls to worksheets](../vsto/how-to-add-listobject-controls-to-worksheets.md)  
 
--   [How to: Add NamedRange controls to worksheets](../vsto/how-to-add-namedrange-controls-to-worksheets.md)  
+- [How to: Add NamedRange controls to worksheets](../vsto/how-to-add-namedrange-controls-to-worksheets.md)  
 
--   [How to: Add Chart controls to worksheets](../vsto/how-to-add-chart-controls-to-worksheets.md)  
+- [How to: Add Chart controls to worksheets](../vsto/how-to-add-chart-controls-to-worksheets.md)  
 
--   [How to: Add Content controls to Word documents](../vsto/how-to-add-content-controls-to-word-documents.md)  
+- [How to: Add Content controls to Word documents](../vsto/how-to-add-content-controls-to-word-documents.md)  
 
--   [How to: Add Bookmark controls to Word documents](../vsto/how-to-add-bookmark-controls-to-word-documents.md)  
+- [How to: Add Bookmark controls to Word documents](../vsto/how-to-add-bookmark-controls-to-word-documents.md)  
 
- For more information about host controls, see [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md).  
+  For more information about host controls, see [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md).  
 
- When a document is saved and then closed, all dynamically created host controls are disconnected from their events and they lose their data binding functionality. You can add code to your solution to re-create the host controls when the document is reopened. For more information, see [Persist dynamic controls in Office documents](../vsto/persisting-dynamic-controls-in-office-documents.md).  
+  When a document is saved and then closed, all dynamically created host controls are disconnected from their events and they lose their data binding functionality. You can add code to your solution to re-create the host controls when the document is reopened. For more information, see [Persist dynamic controls in Office documents](../vsto/persisting-dynamic-controls-in-office-documents.md).  
 
 > [!NOTE]  
 >  Helper methods are not provided for the following host controls, because these controls cannot be added programmatically to documents: <xref:Microsoft.Office.Tools.Excel.XmlMappedRange>, <xref:Microsoft.Office.Tools.Word.XMLNode>, and <xref:Microsoft.Office.Tools.Word.XMLNodes>.  
@@ -104,36 +104,36 @@ ms.workload:
 ### Add custom controls  
  If you want to add a <xref:System.Windows.Forms.Control> that is not supported by the available helper methods, such as a custom user control, use the following methods:  
 
--   For Excel, use one of the <xref:Microsoft.Office.Tools.Excel.ControlCollection.AddControl%2A> methods of a <xref:Microsoft.Office.Tools.Excel.ControlCollection> object.  
+- For Excel, use one of the <xref:Microsoft.Office.Tools.Excel.ControlCollection.AddControl%2A> methods of a <xref:Microsoft.Office.Tools.Excel.ControlCollection> object.  
 
--   For Word, use one of the <xref:Microsoft.Office.Tools.Word.ControlCollection.AddControl%2A> methods of a <xref:Microsoft.Office.Tools.Word.ControlCollection> object.  
+- For Word, use one of the <xref:Microsoft.Office.Tools.Word.ControlCollection.AddControl%2A> methods of a <xref:Microsoft.Office.Tools.Word.ControlCollection> object.  
 
- To add the control, pass the <xref:System.Windows.Forms.Control>, a location for the control, and a name that uniquely identifies the control to the `AddControl` method. The `AddControl` method returns an object that defines how the control interacts with the worksheet or document. The `AddControl` method returns a <xref:Microsoft.Office.Tools.Excel.ControlSite> (for Excel) or a <xref:Microsoft.Office.Tools.Word.ControlSite> object (for Word).  
+  To add the control, pass the <xref:System.Windows.Forms.Control>, a location for the control, and a name that uniquely identifies the control to the `AddControl` method. The `AddControl` method returns an object that defines how the control interacts with the worksheet or document. The `AddControl` method returns a <xref:Microsoft.Office.Tools.Excel.ControlSite> (for Excel) or a <xref:Microsoft.Office.Tools.Word.ControlSite> object (for Word).  
 
- The following code example demonstrates how to use the <xref:Microsoft.Office.Tools.Excel.ControlCollection.AddControl%2A> method to dynamically add a custom user control to a worksheet in a document-level Excel project. In this example, the user control is named `UserControl1`, and the <xref:Microsoft.Office.Interop.Excel.Range> is named `range1`. To use this example, run it from a `Sheet`*n* class in the project.  
+  The following code example demonstrates how to use the <xref:Microsoft.Office.Tools.Excel.ControlCollection.AddControl%2A> method to dynamically add a custom user control to a worksheet in a document-level Excel project. In this example, the user control is named `UserControl1`, and the <xref:Microsoft.Office.Interop.Excel.Range> is named `range1`. To use this example, run it from a `Sheet`*n* class in the project.  
 
- [!code-vb[Trin_VstcoreProgrammingControlsExcel#2](../vsto/codesnippet/VisualBasic/my excel chart/Sheet1.vb#2)]
- [!code-csharp[Trin_VstcoreProgrammingControlsExcel#2](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/Sheet1.cs#2)]  
+  [!code-vb[Trin_VstcoreProgrammingControlsExcel#2](../vsto/codesnippet/VisualBasic/my excel chart/Sheet1.vb#2)]
+  [!code-csharp[Trin_VstcoreProgrammingControlsExcel#2](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/Sheet1.cs#2)]  
 
 ### Use members of custom controls  
  After using one of the `AddControl` methods to add a control to a worksheet or document, you now have two different control objects:  
 
--   The <xref:System.Windows.Forms.Control> that represents the custom control.  
+- The <xref:System.Windows.Forms.Control> that represents the custom control.  
 
--   The `ControlSite`, `OLEObject`, or `OLEControl` object that represents the control after it was added to the worksheet or document.  
+- The `ControlSite`, `OLEObject`, or `OLEControl` object that represents the control after it was added to the worksheet or document.  
 
- Many properties and methods are shared between these controls. It is important that you access these members through the appropriate control:  
+  Many properties and methods are shared between these controls. It is important that you access these members through the appropriate control:  
 
--   To access members that belong only to the custom control, use the <xref:System.Windows.Forms.Control>.  
+- To access members that belong only to the custom control, use the <xref:System.Windows.Forms.Control>.  
 
--   To access members that are shared by the controls, use the `ControlSite`, `OLEObject`, or `OLEControl` object.  
+- To access members that are shared by the controls, use the `ControlSite`, `OLEObject`, or `OLEControl` object.  
 
- If you access a shared member from the <xref:System.Windows.Forms.Control>, it might fail without warning or notification, or it can produce invalid results. Always use methods or properties of the `ControlSite`, `OLEObject`, or `OLEControl` object unless the method or property needed is not available; only then should you reference the <xref:System.Windows.Forms.Control>.  
+  If you access a shared member from the <xref:System.Windows.Forms.Control>, it might fail without warning or notification, or it can produce invalid results. Always use methods or properties of the `ControlSite`, `OLEObject`, or `OLEControl` object unless the method or property needed is not available; only then should you reference the <xref:System.Windows.Forms.Control>.  
 
- For example, both the <xref:Microsoft.Office.Tools.Excel.ControlSite> class and the <xref:System.Windows.Forms.Control> class have a `Top` property. To get or set the distance between the top of the control and the top of the document, use the <xref:Microsoft.Office.Tools.Excel.ControlSite.Top%2A> property of the <xref:Microsoft.Office.Tools.Excel.ControlSite>, not the <xref:System.Windows.Forms.Control.Top%2A> property of the <xref:System.Windows.Forms.Control>.  
+  For example, both the <xref:Microsoft.Office.Tools.Excel.ControlSite> class and the <xref:System.Windows.Forms.Control> class have a `Top` property. To get or set the distance between the top of the control and the top of the document, use the <xref:Microsoft.Office.Tools.Excel.ControlSite.Top%2A> property of the <xref:Microsoft.Office.Tools.Excel.ControlSite>, not the <xref:System.Windows.Forms.Control.Top%2A> property of the <xref:System.Windows.Forms.Control>.  
 
- [!code-vb[Trin_VstcoreProgrammingControlsExcel#3](../vsto/codesnippet/VisualBasic/my excel chart/Sheet1.vb#3)]
- [!code-csharp[Trin_VstcoreProgrammingControlsExcel#3](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/Sheet1.cs#3)]  
+  [!code-vb[Trin_VstcoreProgrammingControlsExcel#3](../vsto/codesnippet/VisualBasic/my excel chart/Sheet1.vb#3)]
+  [!code-csharp[Trin_VstcoreProgrammingControlsExcel#3](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/Sheet1.cs#3)]  
 
 ## See also  
  [Controls on Office documents](../vsto/controls-on-office-documents.md)   

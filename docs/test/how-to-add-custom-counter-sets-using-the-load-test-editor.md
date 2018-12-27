@@ -1,5 +1,5 @@
 ---
-title: "Add Custom Counter Sets for load testing in Visual Studio"
+title: "Add Custom Counter Sets for load testing"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -13,7 +13,7 @@ manager: douge
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
-# How to: Add Custom Counter Sets Using the Load Test Editor
+# How to: Add custom counter sets using the Load Test Editor
 
 When you create a load test with the **New Load Test Wizard**, you add an initial set of counters. These offer you a set of predefined counter sets for your load test.
 
@@ -24,6 +24,8 @@ You manage your counters in the **Load Test Editor**. The counter sets that are 
 
 ![Custom Counter Set](../test/media/loadtestcustomcounter.png)
 
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
+
 ## To add a custom counter set to a Load Test
 
 1.  Open a load test.
@@ -33,14 +35,14 @@ You manage your counters in the **Load Test Editor**. The counter sets that are 
 3.  Right-click the **Counter Sets** node and select **Add Custom Counter Set**.
 
     > [!NOTE]
-    > The counter set is given a default name, such as **Custom1**. You can change the name by using the **Properties** window. Press F4 to display the **Properties** window.
+    > The counter set is given a default name, such as **Custom1**. You can change the name by using the **Properties** window. Press **F4** to display the **Properties** window.
 
-4.  To add counters to your custom counter set, right-click the new counter set and then choose **Add Counters**. For more information about how to add counters, see [How to: Add Counters to Counter Sets](../test/how-to-add-counters-to-counter-sets-using-the-load-test-editor.md).
+4.  To add counters to your custom counter set, right-click the new counter set and then choose **Add Counters**. For more information about how to add counters, see [How to: Add counters to counter sets](../test/how-to-add-counters-to-counter-sets-using-the-load-test-editor.md).
 
     > [!NOTE]
     > It is also possible to add a custom counter set by right-clicking an existing counter set, choosing copy, and then pasting it to the counter sets node. Additional counters that are copied, but not needed, can be deleted. You can change the name of the new counter set by using the **Properties** window.
 
 ## See also
 
-- [Specifying the Counter Sets and Threshold Rules for Computers in a Load Test](../test/specify-counter-sets-and-threshold-rules-for-load-testing.md)
-- [Configuring Load Test Run Settings](../test/configure-load-test-run-settings.md)
+- [Specify the counter sets and threshold rules for computers in a load test](../test/specify-counter-sets-and-threshold-rules-for-load-testing.md)
+- [Configure load test run settings](../test/configure-load-test-run-settings.md)

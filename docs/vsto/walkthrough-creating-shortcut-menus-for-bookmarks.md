@@ -26,15 +26,15 @@ ms.workload:
   
  This walkthrough illustrates the following tasks:  
   
--   [Create the project](#BKMK_CreateProject).  
+- [Create the project](#BKMK_CreateProject).  
   
--   [Add text and bookmarks to the document](#BKMK_addtextandbookmarks).  
+- [Add text and bookmarks to the document](#BKMK_addtextandbookmarks).  
   
--   [Add commands to a shortcut menu](#BKMK_AddCmndsShortMenu).  
+- [Add commands to a shortcut menu](#BKMK_AddCmndsShortMenu).  
   
--   [Format the text in the bookmark](#BKMK_formattextbkmk).  
+- [Format the text in the bookmark](#BKMK_formattextbkmk).  
   
- [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
+  [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
   
 ## Prerequisites  
  You need the following components to complete this walkthrough:  
@@ -63,22 +63,22 @@ ms.workload:
   
 ### To add a Bookmark control to your document  
   
-1.  In the **Toolbox**, from the **Word Controls** tab, drag a <xref:Microsoft.Office.Tools.Word.Bookmark> control to your document.  
+1. In the **Toolbox**, from the **Word Controls** tab, drag a <xref:Microsoft.Office.Tools.Word.Bookmark> control to your document.  
   
-     The **Add Bookmark Control** dialog box appears.  
+    The **Add Bookmark Control** dialog box appears.  
   
-2.  Select the words "creating a shortcut menu when you right-click the text", and then click **OK**.  
+2. Select the words "creating a shortcut menu when you right-click the text", and then click **OK**.  
   
-     `bookmark1` is added to the document.  
+    `bookmark1` is added to the document.  
   
-3.  Add another <xref:Microsoft.Office.Tools.Word.Bookmark> control to the words "right-click the text in a bookmark".  
+3. Add another <xref:Microsoft.Office.Tools.Word.Bookmark> control to the words "right-click the text in a bookmark".  
   
-     `bookmark2` is added to the document.  
+    `bookmark2` is added to the document.  
   
-    > [!NOTE]  
-    >  The words "right-click the text" are in both `bookmark1` and `bookmark2`.  
+   > [!NOTE]  
+   >  The words "right-click the text" are in both `bookmark1` and `bookmark2`.  
   
- When you add a bookmark to a document at design time, a <xref:Microsoft.Office.Tools.Word.Bookmark> control is created. You can program against several events of the bookmark. You can write code in the <xref:Microsoft.Office.Tools.Word.Bookmark.BeforeRightClick> event of the bookmark so that when the user right-clicks the text in the bookmark, a shortcut menu appears.  
+   When you add a bookmark to a document at design time, a <xref:Microsoft.Office.Tools.Word.Bookmark> control is created. You can program against several events of the bookmark. You can write code in the <xref:Microsoft.Office.Tools.Word.Bookmark.BeforeRightClick> event of the bookmark so that when the user right-clicks the text in the bookmark, a shortcut menu appears.  
   
 ##  <a name="BKMK_AddCmndsShortMenu"></a> Add commands to a shortcut menu  
  Add buttons to the shortcut menu that appears when you right-click the document.  

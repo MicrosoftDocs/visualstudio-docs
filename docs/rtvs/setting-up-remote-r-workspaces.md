@@ -16,15 +16,6 @@ ms.workload:
 
 This article explains how to configure a remote server with SSL and an appropriate R service. This allows R Tools for Visual Studio (RTVS) to connect to a remote workspace on that server.
 
-- [Remote computer requirements](#remote-computer-requirements)
-- [Install an SSL certificate](#install-an-ssl-certificate)
-- [Install an SSL certificate on Windows](#install-an-ssl-certificate-on-windows)
-- [Install an SSL certificate on Ubuntu](#install-an-ssl-certificate-on-ubuntu)
-- [Install R services on Windows](#install-r-services-on-windows)
-- [Install R services on Linux](#install-r-services-on-Linux)
-- [Configure R services](#configure-r-services)
-- [Troubleshooting](#troubleshooting)
-
 ## Remote computer requirements
 
 - Windows 10, Windows Server 2016, or Windows Server 2012 R2. RTVS also requires
@@ -44,7 +35,7 @@ For more background, see [public key certificates](https://en.wikipedia.org/wiki
 
 ## Install an SSL certificate on Windows
 
-The SSL certificate has to be installed manually on windows. Follow the instructions below to install an SSL certificate.
+The SSL certificate has to be installed manually on Windows. Follow the instructions below to install an SSL certificate.
 
 ### Obtain a self-signed certificate (Windows)
 
@@ -63,7 +54,7 @@ To issue a self-signed certificate:
     New-SelfSignedCertificate -CertStoreLocation Cert:\LocalMachine\My -DnsName "remote-machine-name"
     ```
 
-1. If you have never run Powershell before on the R server computer, run the following command to enable running of commands explicitly:
+1. If you have never run PowerShell before on the R server computer, run the following command to enable running of commands explicitly:
 
     ```ps
     Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
@@ -73,7 +64,7 @@ For background, see [self-signed certificates](https://en.wikipedia.org/wiki/Sel
 
 ### Install the certificate
 
-To install the certificate on the remote computer, run *certlm.msc* (the certificate manager) from a command prompt. **Right-click** on the **Personal** folder and select the **All Tasks** > **Import** command:
+To install the certificate on the remote computer, run *certlm.msc* (the certificate manager) from a command prompt. Right-click on the **Personal** folder and select the **All Tasks** > **Import** command:
 
 ![Import certificate command](media/workspaces-remote-certificate-import.png)
 
@@ -83,7 +74,7 @@ Once the certificate is imported, grant the `NETWORK SERVICE` account permission
 
 1. Run *certlm.msc* (the Certificate Manager) from an administrator command prompt.
 1. Expand **Personal** > **Certificates**, right-click your certificate, and select **All Tasks** > **Manage Private Keys**.
-1. **Right-click** on the certificate and select the **Manage Private Keys** command under **All Tasks**.
+1. Right-click on the certificate and select the **Manage Private Keys** command under **All Tasks**.
 1. In the dialog that appears, select **Add** and enter `NETWORK SERVICE` as the account name:
 
     ![Manage Private Keys dialog, adding NETWORK_SERVICE](media/workspaces-remote-manage-private-key-dialog.png)
@@ -96,27 +87,27 @@ The `rtvs-daemon` package will install a self-signed certificate by default as a
 
 ### Obtain a self-signed certificate (Ubuntu)
 
-For benefits and risks of using self-signed certificate see the windows description. The `rtvs-daemon` package generates and configures the self-signed certificate during installation. You will need to do this only if you wish to replace the auto-generated self-signed certificate.
+For benefits and risks of using self-signed certificate see the Windows description. The `rtvs-daemon` package generates and configures the self-signed certificate during installation. You will need to do this only if you wish to replace the auto-generated self-signed certificate.
 
 To issue a self-signed certificate yourself:
 
-1. SSH or login to your linux machine.
-1. Install `ssl-cert` package:
+1. SSH or login to your Linux machine.
+2. Install `ssl-cert` package:
     ```sh
     sudo apt-get install ssl-cert
     ```
-1. Run `make-ssl-cert` to generate the default self-signed SSL certificate:
+3. Run `make-ssl-cert` to generate the default self-signed SSL certificate:
     ```sh
     sudo make-ssl-cert generate-default-snakeoil --force-overwrite
     ```
-1. Convert the generated key and PEM files to PFX. The generated PFX should be in your home folder:
+4. Convert the generated key and PEM files to PFX. The generated PFX should be in your home folder:
     ```sh
     openssl pkcs12 -export -out ~/ssl-cert-snakeoil.pfx -inkey /etc/ssl/private/ssl-cert-snakeoil.key -in /etc/ssl/certs/ssl-cert-snakeoil.pem -password pass:SnakeOil
     ```
 
 ### Configure RTVS daemon
 
-The SSL certificate file path (path to the PFX) must be set in `/etc/rtvs/rtvsd.config.json`. Update `X509CertificateFile` and `X509CertificatePassword` with the file path and password respectively.
+The SSL certificate file path (path to the PFX) must be set in */etc/rtvs/rtvsd.config.json*. Update `X509CertificateFile` and `X509CertificatePassword` with the file path and password respectively.
 
 ```json
 {
@@ -139,14 +130,14 @@ To run R code, the remote computer must have an R interpreter installed as follo
 
 1. Download and install one of the following:
 
-    - [Microsoft R Open](https://mran.microsoft.com/open/)
-    - [CRAN R for Windows](https://cran.r-project.org/bin/windows/base/)
+   - [Microsoft R Open](https://mran.microsoft.com/open/)
+   - [CRAN R for Windows](https://cran.r-project.org/bin/windows/base/)
 
-    Both have identical functionality, but Microsoft R Open benefits from additional hardware accelerated linear algebra libraries courtesy of the [Intel Math Kernel Library](https://software.intel.com/intel-mkl).
+     Both have identical functionality, but Microsoft R Open benefits from additional hardware accelerated linear algebra libraries courtesy of the [Intel Math Kernel Library](https://software.intel.com/intel-mkl).
 
-1. Run the [R Services installer](https://aka.ms/rtvs-services) and reboot when prompted. The installer does the following:
+2. Run the [R Services installer](https://aka.ms/rtvs-services) and reboot when prompted. The installer does the following:
 
-    - Create a folder in *%PROGRAMFILES%\R Tools for Visual Studio\1.0\* and copy all the required binaries.
+    - Create a folder in *%PROGRAMFILES%\R Tools for Visual Studio\1.0\\* and copy all the required binaries.
     - Install `RHostBrokerService` and `RUserProfileService` and configure to start automatically.
     - Configure the `seclogon` service to start automatically.
     - Add *Microsoft.R.Host.exe* and *Microsoft.R.Host.Broker.exe* to the firewall inbound rules on the default port 5444.
@@ -164,12 +155,12 @@ To run R code, the remote computer must have an R interpreter installed as follo
 
 1. Download and install one of the following:
 
-    - [Microsoft R Open](https://mran.microsoft.com/open/)
-    - [CRAN R for Windows](https://cran.r-project.org/bin/linux/ubuntu/)
+   - [Microsoft R Open](https://mran.microsoft.com/open/)
+   - [CRAN R for Windows](https://cran.r-project.org/bin/linux/ubuntu/)
 
-    Both have identical functionality, but Microsoft R Open benefits from additional hardware accelerated linear algebra libraries courtesy of the [Intel Math Kernel Library](https://software.intel.com/intel-mkl).
+     Both have identical functionality, but Microsoft R Open benefits from additional hardware accelerated linear algebra libraries courtesy of the [Intel Math Kernel Library](https://software.intel.com/intel-mkl).
 
-1. Follow the instructions on [Remote R Service for Linux](setting-up-remote-r-service-on-linux.md), which covers physical Ubuntu computers, Azure Ubuntu VMs, Windows Subsystem for Linux (WSL), and Docker containers, including those running on Azure Container Repository.
+2. Follow the instructions on [Remote R Service for Linux](setting-up-remote-r-service-on-linux.md), which covers physical Ubuntu computers, Azure Ubuntu VMs, Windows Subsystem for Linux (WSL), and Docker containers, including those running on Azure Container Repository.
 
 ## Configure R services
 
@@ -200,7 +191,7 @@ With R services running on the remote computer, you also need to create user acc
 
 ## Troubleshooting
 
-**The R server computer is not responding, what do I do?**
+**Q. The R server computer is not responding, what do I do?**
 
 Try to ping the remote computer from the command line: `ping remote-machine-name`. If the ping fails, make sure the computer is running.
 

@@ -17,7 +17,8 @@ ms.workload:
   - "multiple"
 ---
 # ShowWebBrowser Command
-Displays the URL you specify in a Web browser window either within the integrated development environment (IDE) or external to the IDE.
+
+Displays the URL you specify in a web browser window either within the integrated development environment (IDE) or external to the IDE.
 
 ## Syntax
 
@@ -28,25 +29,25 @@ View.ShowWebBrowser URL [/new][/ext]
 ## Arguments
  `URL`
 
- Required. URL (Uniform Resource Locator) for the Web site.
+ Required. URL (Uniform Resource Locator) for the website.
 
 ## Switches
  /new
 
- Optional. Specifies that the page appears in a new instance of the Web browser.
+ Optional. Specifies that the page appears in a new instance of the web browser.
 
  /ext
 
- Optional. Specifies that the page appears in the default Web browser outside of the IDE.
+ Optional. Specifies that the page appears in the default web browser outside of the IDE.
 
 ## Remarks
  The alias for the **ShowWebBrowser** command is **navigate** or **nav**.
 
 ## Example
- The following example displays the MSDN Online home page in a Web browser outside of the IDE. If an instance of the Web browser is already open, it is used; otherwise a new instance is launched.
+ The following example displays the Microsoft Docs home page in a web browser outside of the IDE. If an instance of the web browser is already open, it is used; otherwise a new instance is launched.
 
 ```cmd
->View.ShowWebBrowser http://msdn.microsoft.com /ext
+>View.ShowWebBrowser https://docs.microsoft.com /ext
 ```
 
 ## See Also

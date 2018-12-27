@@ -27,7 +27,7 @@ ms.workload:
   
 #### To create a SharePoint deployment configuration  
   
-1.  In **Solution Explorer**, choose a SharePoint project, and then, on the menu bar, choose **Project**, *ProjectName***Properties**.  
+1.  In **Solution Explorer**, choose a SharePoint project, and then, on the menu bar, choose **Project**, _ProjectName_**Properties**.  
   
 2.  On the **SharePoint** tab, choose the **New** button.  
   

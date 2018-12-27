@@ -20,7 +20,7 @@ The **Initialize Correlation** dialog box is used in Workflow Designer to edit t
 The following table describes the user interface (UI) elements of the **Initialize Correlation** dialog box:
 
 |UI Element|Description|
-|----------------|-----------------|
+|-|-----------------|
 |**Correlation**|The <xref:System.ServiceModel.Activities.CorrelationHandle> of the correlation to initialize.|
 |**Initialize On**|A key/value pair that contains the data to initialize. This value corresponds to the <xref:System.ServiceModel.Activities.InitializeCorrelation.CorrelationData%2A> property. An example of a valid key/value pair is a key named "OrderID" paired with a variable named OrderID.|
 

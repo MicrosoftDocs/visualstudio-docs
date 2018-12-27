@@ -24,20 +24,20 @@ ms.workload:
   
  This walkthrough demonstrates the following tasks:  
   
--   [Adding a Feature and Feature Event Receiver](#BKMK_AddFtrandFtrEvntReceiver).  
+- [Adding a Feature and Feature Event Receiver](#BKMK_AddFtrandFtrEvntReceiver).  
   
--   [Configuring and Deploying the SharePoint Application](#BKMK_ConfigSharePointApp).  
+- [Configuring and Deploying the SharePoint Application](#BKMK_ConfigSharePointApp).  
   
--   [Running the SharePoint Application](#BKMK_RunSPApp).  
+- [Running the SharePoint Application](#BKMK_RunSPApp).  
   
--   [Viewing and Interpreting the Profiling Results](#BKMK_ViewResults).  
+- [Viewing and Interpreting the Profiling Results](#BKMK_ViewResults).  
   
- [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
+  [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
   
 ## Prerequisites  
  You need the following components to complete this walkthrough:  
   
--   Supported editions of Microsoft Windows and SharePoint. [!INCLUDE[crdefault](../sharepoint/includes/crdefault-md.md)] [Requirements for developing SharePoint solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md).  
+-   Supported editions of Microsoft Windows and SharePoint.
   
 -   [!INCLUDE[vs_dev11_long](../sharepoint/includes/vs-dev11-long-md.md)].  
   
@@ -46,23 +46,23 @@ ms.workload:
   
 #### To create a SharePoint project  
   
-1.  On the menu bar, choose **File** > **New** > **Project** to display the **New Project** dialog box.  
+1. On the menu bar, choose **File** > **New** > **Project** to display the **New Project** dialog box.  
   
-2.  Expand the **SharePoint** node under either **Visual C#** or **Visual Basic**, and then choose the **2010** node.  
+2. Expand the **SharePoint** node under either **Visual C#** or **Visual Basic**, and then choose the **2010** node.  
   
-3.  In the templates pane, choose the **SharePoint 2010 Project** template.  
+3. In the templates pane, choose the **SharePoint 2010 Project** template.  
   
-4.  In the **Name** box, enter **ProfileTest**, and then choose the **OK** button.  
+4. In the **Name** box, enter **ProfileTest**, and then choose the **OK** button.  
   
-     The **SharePoint Customization Wizard** appears.  
+    The **SharePoint Customization Wizard** appears.  
   
-5.  On the **Specify the site and security level for debugging** page, enter the URL for the SharePoint server site where you want to debug the site definition, or use the default location (http://*system name*/).  
+5. On the **Specify the site and security level for debugging** page, enter the URL for the SharePoint server site where you want to debug the site definition, or use the default location (http://<em>system name</em>/).  
   
-6.  In the **What is the trust level for this SharePoint solution?** section, choose the **Deploy as a farm solution** option button.  
+6. In the **What is the trust level for this SharePoint solution?** section, choose the **Deploy as a farm solution** option button.  
   
-     Currently, you can only profile farm solutions. For more information about sandboxed solutions versus farm solutions, see [Sandboxed solution considerations](../sharepoint/sandboxed-solution-considerations.md).  
+    Currently, you can only profile farm solutions. For more information about sandboxed solutions versus farm solutions, see [Sandboxed solution considerations](../sharepoint/sandboxed-solution-considerations.md).  
   
-7.  Choose the **Finish** button. The project appears in **Solution Explorer**.  
+7. Choose the **Finish** button. The project appears in **Solution Explorer**.  
   
 ## Add a feature and feature event receiver
  Next, add a feature to the project along with an event receiver for the feature. This event receiver will contain the code to be profiled.  

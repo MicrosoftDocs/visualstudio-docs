@@ -21,7 +21,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Import Element (MSBuild)
+# Import element (MSBuild)
 Imports the contents of one project file into another project file.  
 
  \<Project>  
@@ -34,7 +34,7 @@ Imports the contents of one project file into another project file.
     Condition="'String A'=='String B'" />  
 ```  
 
-## Attributes and Elements  
+## Attributes and elements  
  The following sections describe attributes, child elements, and parent elements.  
 
 ### Attributes  
@@ -44,20 +44,20 @@ Imports the contents of one project file into another project file.
 |`Project`|Required attribute.<br /><br /> The path of the project file to import. The path can include wildcards. The matching files are imported in sorted order. By using this feature, you can add code to a project just by adding the code file to a directory.|  
 |`Condition`|Optional attribute.<br /><br /> A condition to be evaluated. For more information, see [Conditions](../msbuild/msbuild-conditions.md).|  
 
-### Child Elements  
+### Child elements  
  None  
 
-### Parent Elements  
+### Parent elements  
 
-|Element|Description|  
-|-------------|-----------------|  
-|[Project](../msbuild/project-element-msbuild.md)|Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file.|  
-|[ImportGroup](../msbuild/importgroup-element.md)|Contains a collection of `Import` elements grouped under an optional condition.|  
+| Element | Description |
+| - | - |
+| [Project](../msbuild/project-element-msbuild.md) | Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file. |
+| [ImportGroup](../msbuild/importgroup-element.md) | Contains a collection of `Import` elements grouped under an optional condition. |
 
 ## Remarks  
  By using the `Import` element, you can reuse code that is common to many project files. This makes it easier to maintain the code because any updates you make to the shared code get propagated to all the projects that import it.  
 
- By convention, shared imported project files are saved as .targets files, but they are standard [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project files. [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] does not prevent you from importing a project that has a different file name extension, but we recommend that you use the .targets extension for consistency.  
+ By convention, shared imported project files are saved as *.targets* files, but they are standard [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project files. [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] does not prevent you from importing a project that has a different file name extension, but we recommend that you use the *.targets* extension for consistency.  
 
  Relative paths in imported projects are interpreted relative to the directory of the importing project. Therefore, if a project file is imported into several project files in different locations, the relative paths in the imported project file will be interpreted differently for each imported project.  
 
@@ -69,13 +69,13 @@ Imports the contents of one project file into another project file.
 
 > [!NOTE]
 >  While conditional import statements work in command-line MSBuilds, they do not work with MSBuild in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE). Conditional imports are evaluated by using the configuration and platform values that are set when the project is loaded. If changes are subsequently made that require a reevaluation of the conditionals in the project file, for example, changing the platform, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] reevaluates the conditions on properties and items, but not on imports. Because the import conditional is not reevaluated, the import is skipped.  
->   
->  To work around this, put conditional imports in the .targets files or put code in a conditional block such as a [Choose Element (MSBuild)](../msbuild/choose-element-msbuild.md) block.  
+> 
+>  To work around this, put conditional imports in the *.targets* files or put code in a conditional block such as a [Choose element (MSBuild)](../msbuild/choose-element-msbuild.md) block.  
 
 ## Wildcards  
  In the .NET Framework 4, MSBuild allows wildcards in the Project attribute. When there are wildcards, all matches found are sorted (for reproducibility), and then they are imported in that order as if the order had been explicitly set.  
 
- This is useful if you want to offer an extensibility point so that someone else can import a file without requiring you to explicitly add the file name to the importing file. For this purpose, Microsoft.Common.Targets contains the following line at the top of the file.  
+ This is useful if you want to offer an extensibility point so that someone else can import a file without requiring you to explicitly add the file name to the importing file. For this purpose, *Microsoft.Common.Targets* contains the following line at the top of the file.  
 
 ```xml  
 <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\$(MSBuildThisFile)\ImportBefore\*" Condition="'$(ImportByWildcardBeforeMicrosoftCommonTargets)' == 'true' and exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\$(MSBuildThisFile)\ImportBefore')"/>  
@@ -107,6 +107,6 @@ Imports the contents of one project file into another project file.
 </Project>  
 ```  
 
-## See Also  
- [Project File Schema Reference](../msbuild/msbuild-project-file-schema-reference.md)   
- [How to: Use the Same Target in Multiple Project Files](../msbuild/how-to-use-the-same-target-in-multiple-project-files.md)
+## See also  
+ [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)   
+ [How to: Use the same target in multiple project files](../msbuild/how-to-use-the-same-target-in-multiple-project-files.md)

@@ -22,7 +22,7 @@ Retrieves the return address of the frame.
   
 ```C++  
 HRESULT get_returnAddress (   
-   ULONGLONG* pRetVal  
+   ULONGLONG* pRetVal  
 );  
 ```  
   

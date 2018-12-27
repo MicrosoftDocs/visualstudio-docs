@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA1716: Identifiers should not match keywords
+
 |||
 |-|-|
 |TypeName|IdentifiersShouldNotMatchKeywords|
@@ -26,23 +27,27 @@ ms.workload:
 |Breaking Change|Breaking|
 
 ## Cause
- A name of a namespace, a type, or a viritual or interface member matches a reserved keyword in a programming language.
 
-## Rule Description
- Identifiers for namespaces, types, and virtual and interface members should not match keywords that are defined by languages that target the common language runtime. Depending on the language that is used and the keyword, compiler errors and ambiguities can make the library difficult to use.
+A name of a namespace, a type, or a viritual or interface member matches a reserved keyword in a programming language.
 
- This rule checks against keywords in the following languages:
+## Rule description
 
--   Visual Basic
+Identifiers for namespaces, types, and virtual and interface members should not match keywords that are defined by languages that target the common language runtime. Depending on the language that is used and the keyword, compiler errors and ambiguities can make the library difficult to use.
 
--   C#
+This rule checks against keywords in the following languages:
 
--   C++/CLI
+- Visual Basic
 
- Case-insensitive comparison is used for [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] keywords, and case-sensitive comparison is used for the other languages.
+- C#
 
-## How to Fix Violations
- Select a name that does not appear in the list of keywords.
+- C++/CLI
 
-## When to Suppress Warnings
- You can suppress a warning from this rule if you are convinced that the identifier will not confuse users of the API, and that  the library is usable in all available languages in the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)].
+Case-insensitive comparison is used for [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] keywords, and case-sensitive comparison is used for the other languages.
+
+## How to fix violations
+
+Select a name that does not appear in the list of keywords.
+
+## When to suppress warnings
+
+You can suppress a warning from this rule if you are convinced that the identifier will not confuse users of the API, and that  the library is usable in all available languages in the .NET Framework.

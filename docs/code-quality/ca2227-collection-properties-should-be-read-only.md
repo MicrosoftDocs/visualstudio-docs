@@ -1,6 +1,6 @@
 ---
 title: "CA2227: Collection properties should be read only"
-ms.date: 11/04/2016
+ms.date: 09/28/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: reference
@@ -46,11 +46,13 @@ To fix a violation of this rule, make the property read-only. If the design requ
 
 ## When to suppress warnings
 
-Do not suppress warnings from this rule.
+You can suppress the warning if the property is part of a [Data Transfer Object (DTO)](/previous-versions/msp-n-p/ff649585(v=pandp.10)) class.
+
+Otherwise, do not suppress warnings from this rule.
 
 ## Example
 
-The following example shows a type with a writable collection property and shows how the collection can be replaced directly. Additionally, the preferred manner of replacing a read-only collection property using `Clear` and `AddRange` methods is shown.
+The following example shows a type with a writable collection property and shows how the collection can be replaced directly. Additionally, it shows the preferred manner of replacing a read-only collection property using `Clear` and `AddRange` methods.
 
 [!code-csharp[FxCop.Usage.PropertiesReturningCollections#1](../code-quality/codesnippet/CSharp/ca2227-collection-properties-should-be-read-only_1.cs)]
 [!code-vb[FxCop.Usage.PropertiesReturningCollections#1](../code-quality/codesnippet/VisualBasic/ca2227-collection-properties-should-be-read-only_1.vb)]
@@ -58,4 +60,4 @@ The following example shows a type with a writable collection property and shows
 
 ## Related rules
 
-[CA1819: Properties should not return arrays](../code-quality/ca1819-properties-should-not-return-arrays.md)
+- [CA1819: Properties should not return arrays](../code-quality/ca1819-properties-should-not-return-arrays.md)

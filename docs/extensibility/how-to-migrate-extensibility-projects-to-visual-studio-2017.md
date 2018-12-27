@@ -12,7 +12,7 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# How to: Migrate Extensibility Projects to Visual Studio 2017
+# How to: Migrate extensibility projects to Visual Studio 2017
 
 This document explains how to upgrade extensibility projects to Visual Studio 2017. In addition to describing how to update the project files, it also describes how to upgrade from extension manifest version 2 (VSIX v2) to the new version 3 VSIX manifest format (VSIX v3).
 
@@ -27,7 +27,7 @@ Make sure your installation includes the following workloads:
 
 All VSIX projects will require a major version one-way upgrade to Visual Studio 2017.
 
-The project file (for example *.csproj) will be updated:
+The project file (for example **.csproj*) will be updated:
 
 * MinimumVisualStudioVersion - now set to 15.0
 * OldToolsVersion (if previously exists) - now set to 14.0
@@ -40,9 +40,9 @@ In order to build your extension in the new VSIX v3 (version 3) format, your sol
 
 To update the NuGet references to Microsoft.VSSDK.BuildTools:
 
-* Right-click on the Solution and choose **Manage NuGet Packages for Solution...**
+* Right-click on the solution and choose **Manage NuGet Packages for Solution**.
 * Navigate to the **Updates** tab.
-* Select Microsoft.VSSDK.BuildTools (latest version).
+* Select **Microsoft.VSSDK.BuildTools (latest version)**.
 * Press **Update**.
 
 ![VSSDK build tools](media/vssdk-build-tools.png)
@@ -53,11 +53,11 @@ To ensure that the user's installation of Visual Studio has all the assemblies r
 
 >**Note:** At a minimum, all extensions should specify the Visual Studio core editor component as a prerequisite.
 
-* Edit the extension manifest file (usually called source.extension.vsixmanifest).
+* Edit the extension manifest file (usually called *source.extension.vsixmanifest*).
 * Ensure `InstallationTarget` includes 15.0.
 * Add required installation prerequisites (as shown in the example below).
   * We recommend you specify only Component IDs for installation prerequisites.
-  * See the section at the end of this document for [instructions on identifying Component IDs](#finding-component-ids).
+  * See the section at the end of this document for [instructions on identifying Component IDs](#find-component-ids).
 
 Example:
 
@@ -79,7 +79,7 @@ Instead of directly editing the manifest XML, you can use the new **Prerequisite
 
 >**Note:** The Manifest Designer will only allow you to select Components (not Workloads or Packages) that are installed on the current Visual Studio instance. If you need to add a prerequisite for a workload, package, or component that is not currently installed, edit the manifest XML directly.
 
-* Open source.extension.vsixmanifest [Design] file.
+* Open *source.extension.vsixmanifest [Design]* file.
 * Select **Prerequisites** tab and press **New** button.
 
   ![VSIX manifest designer](media/vsix-manifest-designer.png)
@@ -97,30 +97,26 @@ Instead of directly editing the manifest XML, you can use the new **Prerequisite
 
 * Press **OK**.
 
-## Update Debug settings for project
+## Update Debug settings for the project
 
-If you wish to debug your extension in an experimental instance of Visual Studio, make sure that the project settings for **Debug** > **Start action** has the **Start external program:** value set to the devenv.exe file of your Visual Studio 2017 installation.
+If you wish to debug your extension in an experimental instance of Visual Studio, make sure that the project settings for **Debug** > **Start action** has the **Start external program:** value set to the *devenv.exe* file of your Visual Studio 2017 installation.
 
-It might look like:
-
-```
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\devenv.exe
-```
+It might look like: *C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\devenv.exe*
 
 ![start external program](media/start-external-program.png)
 
->**Note:** The Debug Start Action is typically stored in the .csproj.user file. This file is usually included in the .gitignore file and, hence, is not normally saved with other project files when committed to source control. As such, if you have pulled your solution fresh from source control it is likely the project will have no values set for Start Action. New VSIX projects created with Visual Studio 2017 will have a .csproj.user file created with defaults pointing to the current Visual Studio install directory. However if you are migrating a VSIX v2 extension, it is likely that the .csproj.user file will contain references to the previous Visual Studio version's install directory. Setting the value for **Debug** > **Start action** will allow the correct Visual Studio experimental instance to launch when you try to debug your extension.
+>**Note:** The Debug Start Action is typically stored in the *.csproj.user* file. This file is usually included in the *.gitignore* file and, hence, is not normally saved with other project files when committed to source control. As such, if you have pulled your solution fresh from source control it is likely the project will have no values set for Start Action. New VSIX projects created with Visual Studio 2017 will have a *.csproj.user* file created with defaults pointing to the current Visual Studio install directory. However if you are migrating a VSIX v2 extension, it is likely that the *.csproj.user* file will contain references to the previous Visual Studio version's install directory. Setting the value for **Debug** > **Start action** will allow the correct Visual Studio experimental instance to launch when you try to debug your extension.
 
 ## Check that the extension builds correctly (as a VSIX v3)
 
 * Build the VSIX project.
 * Unzip the generated VSIX.
-  * By default, the VSIX file lives inside bin/Debug or bin/Release as [YourCustomExtension].vsix.
-  * Rename .vsix to .zip to easily view the contents.
+  * By default, the VSIX file lives inside *bin/Debug* or *bin/Release* as *[YourCustomExtension].vsix*.
+  * Rename *.vsix* to *.zip* to easily view the contents.
 * Check for the existence of three files:
-  * extension.vsixmanifest
-  * manifest.json
-  * catalog.json
+  * *extension.vsixmanifest*
+  * *manifest.json*
+  * *catalog.json*
 
 ## Check when all required prerequisites are installed
 
@@ -157,7 +153,7 @@ Wait for the processes to shut down, or manually end the tasks. You can find the
 
 ![vsixinstaller missing prerequisite](media/vsixinstaller-missing-prerequisite.png)
 
-## Deciding on Components
+## Decide on components
 
 When looking up your dependencies, you will find that one dependency could map to multiple components. To determine which dependencies you should specify as your prerequisite, we suggest that you choose a component that has a functionality similar to your extension and to also consider your users and what type of components would they most likely have installed or wouldn't mind installing. We also suggest building your extensions in a way where the required prerequisites satisfy only the minimum that will allow your extension to run and for additional features have them be dormant if certain components are not detected.
 
@@ -170,11 +166,11 @@ Roslyn | C# and Visual Basic | Microsoft.VisualStudio.Component.Roslyn.LanguageS
 WPF | Managed Desktop Workload Core | Microsoft.VisualStudio.Component.ManagedDesktop.Core
 Debugger | Just-In-Time debugger | Microsoft.VisualStudio.Component.Debugger.JustInTime
 
-## Finding Component IDs
+## Find component IDs
 
-The list of Components sorted by Visual Studio product is at [Visual Studio 2017 Workload and Component IDs](https://aka.ms/vs2017componentIDs). Use these Component IDs for your Prerequisite IDs in your manifest.
+The list of components sorted by Visual Studio product is at [Visual Studio 2017 workload and component IDs](https://aka.ms/vs2017componentIDs). Use these component IDs for your prerequisite IDs in your manifest.
 
-If you are unsure which Component contains a specific binary, download the [Component -> Binary mapping spreadsheet](https://aka.ms/vs2017componentid-binaries).
+If you are unsure which component contains a specific binary, download the [Component -> Binary mapping spreadsheet](https://aka.ms/vs2017componentid-binaries).
 
 ### vs2017-ComponentBinaryMapping.xlsx
 
@@ -184,10 +180,10 @@ For all your references, first determine which ones are in the core editor (Micr
 
 Examples:
 
-* If you have a debugger extension and know that your project has a reference to VSDebugEng.dll and VSDebug.dll, click on the filter button in the **Binaries / Files Names** header.  Search for "VSDebugEng.dll" and select OK.  Next click on the filter button in the **Binaries / Files Names** header again and search for "VSDebug.dll".  Select the checkbox "Add current selection to filter" and select OK.  Now look through the **Component Name** to find a component that is most related to your extension type. In this example, you would chose the Just-In-Time debugger and add it to your vsixmanifest.
+* If you have a debugger extension and know that your project has a reference to *VSDebugEng.dll* and *VSDebug.dll*, click on the filter button in the **Binaries / Files Names** header.  Search for "VSDebugEng.dll" and select *OK*.  Next click on the filter button in the **Binaries / Files Names** header again and search for "VSDebug.dll".  Select the checkbox **Add current selection to filter** and select **OK**.  Now look through the **Component Name** to find a component that is most related to your extension type. In this example, you would chose the Just-In-Time debugger and add it to your vsixmanifest.
 * If you know that your project deals with debugger elements, you can search on "debugger" in the filter search box to see what components contain debugger in its name.
 
-## Specifying a Visual Studio 2017 release
+## Specify a Visual Studio 2017 release
 
 If your extension requires a specific version of Visual Studio 2017, for example, it depends on a feature released in 15.3, you must specify the build number in your VSIX **InstallationTarget**. For example, release 15.3 has a build number of '15.0.26730.3'. You can see the mapping of releases to build numbers [here](../install/visual-studio-build-numbers-and-release-dates.md). Using the release number '15.3' will not work correctly.
 

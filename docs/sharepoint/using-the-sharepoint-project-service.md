@@ -44,5 +44,5 @@ ms.workload:
  [How to: Retrieve the SharePoint project service](../sharepoint/how-to-retrieve-the-sharepoint-project-service.md)   
  [Extend the SharePoint tools in Visual Studio](../sharepoint/extending-the-sharepoint-tools-in-visual-studio.md)   
  [Overview of the programming model of SharePoint tools extensions](../sharepoint/overview-of-the-programming-model-of-sharepoint-tools-extensions.md)   
- [How to: Get a Service from the DTE Object](http://msdn.microsoft.com/library/bb166401.aspx)  
+ [How to: Get a Service from the DTE Object](https://msdn.microsoft.com/library/bb166401.aspx)  
   

@@ -11,8 +11,8 @@ dev_langs:
 helpviewer_keywords: 
   - "task panes [Office development in Visual Studio], adding to application"
   - "custom task panes [Office development in Visual Studio], adding to application"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

@@ -15,16 +15,16 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# VSIX Extension Schema 2.0 Reference
+# VSIX extension schema 2.0 reference
 A VSIX deployment manifest file describes the contents of a VSIX package. The file format is governed by a schema. Version 2.0 of this schema supports the adding of custom types and attributes.  The schema of the manifest is extensible. The manifest loader ignores XML elements and attributes that it doesn't understand.  
   
 > [!IMPORTANT]
 >  Visual Studio 2015 can load VSIX files in the Visual Studio 2010, Visual Studio 2012, or Visual Studio 2013 formats.  
   
-## Package Manifest Schema  
- The root element of the manifest XML file is `<PackageManifest>`, with a single attribute `Version`, which is the version of the manifest format. If major changes are made to the format, the version format will be changed. This topic describes manifest format version 2.0, which is specified in the manifest by setting the `Version` attribute to the value Version="2.0".  
+## Package manifest schema  
+ The root element of the manifest XML file is `<PackageManifest>`. It has a single attribute `Version`, which is the version of the manifest format. If major changes are made to the format, the version format is changed. This article describes manifest format version 2.0, which is specified in the manifest by setting the `Version` attribute to the value of Version="2.0".  
   
-### PackageManifest Element  
+### PackageManifest element  
  Within the `<PackageManifest>` root element, you can use the following elements:  
   
 -   `<Metadata>` - Metadata and advertising information about the package itself. Only one `Metadata` element is allowed in the manifest.  
@@ -37,14 +37,14 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
   
 -   `<AnyElement>*` - The manifest schema is flexible enough to allow any other elements. Any child elements not recognized by the manifest loader are exposed in the Extension Manager API as extra XmlElement objects. Using these child elements, VSIX extensions can define additional data in the manifest file that code running in Visual Studio can access at runtime. See <xref:Microsoft.VisualStudio.ExtensionManager.IExtension.AdditionalElements%2A> and <xref:Microsoft.VisualStudio.ExtensionManager.IExtension.LocalizedAdditionalElements%2A>.  
   
-### Metadata Element  
+### Metadata element  
  This section is the metadata about the package, its identity, and advertising information. `<Metadata>` contains the following elements:  
   
--   `<Identity>` - This defines identification information for this package and includes the following attributes:  
+-   `<Identity>` -  Defines identification information for this package and includes the following attributes:  
   
     -   `Id` - This attribute must be a unique ID for the package chosen by its author. The name should be qualified the same way CLR types are namespaced: Company.Product.Feature.Name. The `Id` attribute is limited to 100 characters.  
   
-    -   `Version` - This defines the version of this package and its contents. This attribute follows the CLR assembly versioning format: Major.Minor.Build.Revision (1.2.40308.00). A package with a higher version number is considered updates to the package, and can be installed over the existing installed version.  
+    -   `Version` - Defines the version of this package and its contents. This attribute follows the CLR assembly versioning format: Major.Minor.Build.Revision (1.2.40308.00). A package with a higher version number is considered updates to the package, and can be installed over the existing installed version.  
   
     -   `Language` - This attribute is the default language for the package and corresponds to the textual data in this manifest. This attribute follows the CLR locale code convention for resource assemblies, for example: en-us, en, fr-fr. You can specify `neutral` to declare a language-neutral extension that will run on any version of Visual Studio. The default value is `neutral`.  
   
@@ -70,7 +70,7 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
   
 -   `<AnyElement>*` - The manifest schema is flexible enough to allow any other elements. Any child elements that aren't recognized by the manifest loader are exposed as a list of XmlElement objects. Using these child elements, VSIX extensions can define additional data in the manifest file and enumerate them at runtime.  
   
-### Installation Element  
+### Installation element  
  This section defines the way this package can be installed and the application SKUs that it can install into. This section contains the following attributes:  
   
 -   `Experimental` - Set this attribute to true if you have an extension that is currently installed for all users, but you are developing an updated version on the same computer. For example, if you have installed MyExtension 1.0 for all users, but you want to debug MyExtension 2.0 on the same computer, set Experimental="true". This attribute is available in Visual Studio 2015 Update 1 and later.  
@@ -89,7 +89,7 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
   
 -   `AnyAttribute*` - The `Installation` element accepts an open-ended set of attributes that will be exposed at runtime as a name-value pair dictionary.  
   
--   `<InstallationTarget>` -This element controls the location where the VSIX installer installs the package. If the value of the `Scope` attribute is "ProductExtension" the package must target a SKU which has installed a manifest file as part of its contents to advertise its availability to extensions. The `<InstallationTarget>` element has the following attributes when the `Scope` attribute has the explicit or default value "ProductExtension":  
+-   `<InstallationTarget>` -This element controls the location where the VSIX installer installs the package. If the value of the `Scope` attribute is "ProductExtension" the package must target a SKU, which has installed a manifest file as part of its contents to advertise its availability to extensions. The `<InstallationTarget>` element has the following attributes when the `Scope` attribute has the explicit or default value "ProductExtension":  
   
     -   `Id` - This attribute identifies the package.  The attribute follows the namespace convention: Company.Product.Feature.Name. The `Id` attribute can contain only alphanumeric characters and is limited to 100 characters. Expected values:  
   
@@ -124,12 +124,16 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
         -   Single version # - only the specified version.  
   
         > [!IMPORTANT]
-        >  Version 2.0 of the VSIX Schema was introduced in Visual Studio 2012. To use this schema you must have Visual Studio 2012 or later installed on the machine and use the VSIXInstaller.exe that is part of that product. You can target earlier versions of Visual Studio with a Visual Studio 2012 or later VSIXInstaller, but only by using the later versions of the installer.  
+        >  Version 2.0 of the VSIX Schema was introduced in Visual Studio 2012. To use this schema you must have Visual Studio 2012 or later installed on the machine and use the VSIXInstaller.exe that is part of that product. You can target earlier versions of Visual Studio with a Visual Studio 2012 or later VSIXInstaller, but only by using the later versions of the installer. 
+        
+        Visual Studio 2017 version numbers can be found at [Visual Studio build numbers and release dates](../install/visual-studio-build-numbers-and-release-dates.md).
+        
+        When expressing the version for Visual Studio 2017 releases, the minor version should always be **0**. For example, Visual Studio 2017 version 15.3.26730.0 should be expressed as [15.0.26730.0,16.0). This is only required for Visual Studio 2017 version numbers.
   
-    -   `AnyAttribute*` - The `<InstallationTarget>` element allows an open-ended set of attributes that'll be exposed at runtime as a name-value pair dictionary.  
+    -   `AnyAttribute*` - The `<InstallationTarget>` element allows an open-ended set of attributes that is exposed at runtime as a name-value pair dictionary.  
   
-### Dependencies Element  
- This element contains a list of dependencies that this package declares. If any dependencies are specified, those packages (identified by their `Id`) must be have been installed before.  
+### Dependencies element  
+ This element contains a list of dependencies that this package declares. If any dependencies are specified, those packages (identified by their `Id`) must have been installed before.  
   
 -   `<Dependency>` element - This child element has the following attributes:  
   
@@ -147,44 +151,44 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
   
         -   Single version # - only the specified version.  
   
-    -   `DisplayName` - This attribute is the display name of the dependent package which is used in UI elements such as dialog boxes and error messages. The attribute is optional unless the dependent package is installed by MSI.  
+    -   `DisplayName` - This attribute is the display name of the dependent package, which is used in UI elements such as dialog boxes and error messages. The attribute is optional unless the dependent package is installed by MSI.  
   
     -   `Location` - This optional attribute specifies either the relative path within this VSIX to a nested VSIX package or a URL to the download location for the dependency. This attribute is used to help the user locate the prerequisite package.  
   
     -   `AnyAttribute*` - The `Dependency` element accepts an open-ended set of attributes that will be exposed at runtime as a name-value pair dictionary.  
   
-### Assets Element  
+### Assets element  
  This element contains a list of `<Asset>` tags for each extension or content element surfaced by this package.  
   
--   `<Asset>` -  This element contains the following attributes and elements:  
+- `<Asset>` -  This element contains the following attributes and elements:  
   
-    -   `Type` - This is the type of extension or content represented by this element. Each `<Asset>` element must have a single `Type`, but multiple `<Asset>` elements may have the same `Type`. This attribute should be represented as a fully qualified name, according to namespace conventions. The known types are:  
+  - `Type` - Type of extension or content represented by this element. Each `<Asset>` element must have a single `Type`, but multiple `<Asset>` elements may have the same `Type`. This attribute should be represented as a fully qualified name, according to namespace conventions. The known types are:  
   
-        1.  Microsoft.VisualStudio.VsPackage  
+    1. Microsoft.VisualStudio.VsPackage  
   
-        2.  Microsoft.VisualStudio.MefComponent  
+    2. Microsoft.VisualStudio.MefComponent  
   
-        3.  Microsoft.VisualStudio.ToolboxControl  
+    3. Microsoft.VisualStudio.ToolboxControl  
   
-        4.  Microsoft.VisualStudio.Samples  
+    4. Microsoft.VisualStudio.Samples  
   
-        5.  Microsoft.VisualStudio.ProjectTemplate  
+    5. Microsoft.VisualStudio.ProjectTemplate  
   
-        6.  Microsoft.VisualStudio.ItemTemplate  
+    6. Microsoft.VisualStudio.ItemTemplate  
   
-        7.  Microsoft.VisualStudio.Assembly  
+    7. Microsoft.VisualStudio.Assembly  
   
-         You can create your own types, and give them unique names. At run time inside Visual Studio, your code can enumerate and access these custom types through the Extension Manager API.  
+       You can create your own types and give them unique names. At run time inside Visual Studio, your code can enumerate and access these custom types through the Extension Manager API.  
   
-    -   `Path` - the relative path to the file or folder within the package that contains the asset.  
+  - `Path` - the relative path to the file or folder within the package that contains the asset.  
     
-    -   `TargetVersion` - the version range in which the given asset applies to. Used for shipping multiple versions of assets to different versions of Visual Studio. Requires Visual Studio 2017.3 or newer to have effect.
+  - `TargetVersion` - the version range to which the given asset applies. Used for shipping multiple versions of assets to different versions of Visual Studio. Requires Visual Studio 2017.3 or newer to have effect.
   
-    -   `AnyAttribute*` - An open-ended set of attributes that'll be exposed at runtime as a name-value pair dictionary.  
+  - `AnyAttribute*` - An open-ended set of attributes that is exposed at runtime as a name-value pair dictionary.  
   
-         `<AnyElement>*` - Any structured content is allowed between an `<Asset>` begin and end tag. All elements are exposed as a list of XmlElement objects. VSIX extensions can define structured type-specific metadata in the manifest file and enumerate them at runtime.  
+     `<AnyElement>*` - Any structured content is allowed between an `<Asset>` begin and end tag. All elements are exposed as a list of XmlElement objects. VSIX extensions can define structured type-specific metadata in the manifest file and enumerate them at runtime.  
   
-### Sample Manifest  
+### Sample manifest  
   
 ```  
 <?xml version="1.0" encoding="utf-8"?>  
@@ -212,5 +216,5 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
 </PackageManifest>  
 ```  
   
-## See Also  
- [Shipping Visual Studio Extensions](../extensibility/shipping-visual-studio-extensions.md)
+## See also  
+ [Shipping Visual Studio extensions](../extensibility/shipping-visual-studio-extensions.md)

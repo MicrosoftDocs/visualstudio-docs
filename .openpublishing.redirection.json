@@ -1,6 +1,11 @@
 {
     "redirections": [
         {
+            "source_path": "docs/debugger/debug-interface-access/dia2dump-cpp-source-file.md",
+            "redirect_url": "/visualstudio/debugger/debug-interface-access/dia2dump-sample",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/extensibility/shell/shell-isolated-or-integrated.md",
             "redirect_url": "https://vspartner.com/pages/vsshells",
             "redirect_document_id": false
@@ -131,13 +136,8 @@
             "redirect_document_id": false
         },
         {
-            "source_path": "docs/code-quality/index.md",
-            "redirect_url": "/visualstudio/code-quality/analyzing-application-quality-by-using-code-analysis-tools",
-            "redirect_document_id": false
-        },
-        {
             "source_path": "docs/code-quality/measuring-complexity-and-maintainability-of-managed-code.md",
-            "redirect_url": "/visualstudio/code-quality/code-metrics-values/",
+            "redirect_url": "/visualstudio/code-quality/code-metrics-values",
             "redirect_document_id": false
         },
         {
@@ -333,6 +333,11 @@
         {
             "source_path": "docs/data-tools/saving-data.md",
             "redirect_url": "/visualstudio/data-tools/save-data-back-to-the-database",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/debugger-overview.md",
+            "redirect_url": "/visualstudio/debugger/what-is-debugging",
             "redirect_document_id": false
         },
         {
@@ -677,12 +682,22 @@
         },
         {
             "source_path": "docs/debugger/first-look-at-the-debugger.md",
-            "redirect_url": "/visualstudio/debugger/getting-started-with-the-debugger",
+            "redirect_url": "/visualstudio/debugger/debugger-feature-tour",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/debugger/debugger-basics.md",
-            "redirect_url": "/visualstudio/debugger/getting-started-with-the-debugger",
+            "redirect_url": "/visualstudio/debugger/debugger-feature-tour",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/getting-started-with-the-debugger-vb.md",
+            "redirect_url": "/visualstudio/get-started/visual-basic/tutorial-debugger",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/getting-started-with-the-debugger.md",
+            "redirect_url": "/visualstudio/debugger/debugger-feature-tour",
             "redirect_document_id": false
         },
         {
@@ -701,6 +716,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/debugger/how-to-use-intellitrace-step-back.md",
+            "redirect_url": "/visualstudio/debugger/view-historical-application-state",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/deployment/installshield-limited-edition.md",
             "redirect_url": "/visualstudio/deployment/deploying-applications-services-and-components",
             "redirect_document_id": false
@@ -713,6 +733,11 @@
         {
             "source_path": "docs/deployment/deploying-clickonce-applications-for-testing-and-production-servers-without-resigning.md",
             "redirect_url": "/visualstudio/deployment/deploying-clickonce-applications-for-testing-and-production-without-resigning",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/deployment/deploy-iis-with-web-deploy.md",
+            "redirect_url": "/iis/install/installing-publishing-technologies/installing-and-configuring-web-deploy-on-iis-80-or-later",
             "redirect_document_id": false
         },
         {
@@ -797,7 +822,7 @@
         },
         {
             "source_path": "docs/extensibility/lightweight-solution-load-extension-impact.md",
-            "redirect_url": "/visualstudio/extensibility/what-s-new-in-the-visual-studio-2017-sdk/",
+            "redirect_url": "/visualstudio/extensibility/what-s-new-in-the-visual-studio-2017-sdk",
             "redirect_document_id": false
         },
         {
@@ -887,7 +912,7 @@
         },
         {
             "source_path": "docs/ide/adding-and-removing-project-items.md",
-            "redirect_url": "/visualstudio/ide/creating-solutions-and-projects/",
+            "redirect_url": "/visualstudio/ide/creating-solutions-and-projects",
             "redirect_document_id": false
         },
         {
@@ -897,7 +922,7 @@
         },
         {
             "source_path": "docs/ide/advanced-search-operators-in-search-expressions.md",
-            "redirect_url": "/visualstudio/ide/logical-operators-in-search-expressions",
+            "redirect_url": "/visualstudio/help-viewer/logical-operators-search-expressions",
             "redirect_document_id": false
         },
         {
@@ -957,7 +982,7 @@
         },
         {
             "source_path": "docs/ide/full-text-search-tips.md",
-            "redirect_url": "/visualstudio/ide/how-to-search-for-topics",
+            "redirect_url": "/visualstudio/help-viewer/find-topics",
             "redirect_document_id": false
         },
         {
@@ -1032,7 +1057,7 @@
         },
         {
             "source_path": "docs/ide/how-to-customize-search-results.md",
-            "redirect_url": "/visualstudio/ide/how-to-search-for-topics",
+            "redirect_url": "/visualstudio/help-viewer/find-topics",
             "redirect_document_id": false
         },
         {
@@ -1077,7 +1102,7 @@
         },
         {
             "source_path": "docs/ide/index-search-tips.md",
-            "redirect_url": "/visualstudio/ide/how-to-find-topics-in-the-index",
+            "redirect_url": "/visualstudio/help-viewer/find-topics-index",
             "redirect_document_id": false
         },
         {
@@ -1087,21 +1112,27 @@
         },
         {
             "source_path": "docs/ide/locate-information.md",
-            "redirect_url": "/visualstudio/ide/microsoft-help-viewer",
+            "redirect_url": "/visualstudio/help-viewer/overview",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/ide/manage-the-help-viewer-window.md",
-            "redirect_url": "/visualstudio/ide/customize-the-help-viewer",
+            "redirect_url": "/visualstudio/help-viewer/customize",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/ide/not-in-toc/web-publish-options.md",
-            "redirect_url": "/visualstudio/deployment/deploying-applications-services-and-components-resources",   "redirect_document_id": false
+            "redirect_url": "/visualstudio/deployment/deploying-applications-services-and-components-resources",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/not-in-toc/intellicode-faq.md",
+            "redirect_url": "/visualstudio/intellicode/faq",
+            "redirect_document_id": false
         },
         {
             "source_path": "docs/ide/optimize-solution-loading-in-visual-studio.md",
-            "redirect_url": "/visualstudio/ide/optimize-visual-studio-startup-time/",
+            "redirect_url": "/visualstudio/ide/optimize-visual-studio-startup-time",
             "redirect_document_id": false
         },
         {
@@ -1140,6 +1171,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/ide/reference/open-solution-command.md",
+            "redirect_url": "/visualstudio/ide/reference/open-project-command",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/ide/reference/resetaddin-devenv-exe.md",
             "redirect_url": "/visualstudio/ide/reference/devenv-command-line-switches",
             "redirect_document_id": false
@@ -1161,7 +1197,7 @@
         },
         {
             "source_path": "docs/ide/retain-topics-for-later-use.md",
-            "redirect_url": "/visualstudio/ide/microsoft-help-viewer",
+            "redirect_url": "/visualstudio/help-viewer/overview",
             "redirect_document_id": false
         },
         {
@@ -1186,12 +1222,12 @@
         },
         {
             "source_path": "docs/ide/targeting-a-specific-dotnet-framework-version.md",
-            "redirect_url": "/visualstudio/ide/visual-studio-multi-targeting-overview/",
+            "redirect_url": "/visualstudio/ide/visual-studio-multi-targeting-overview",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/ide/troubleshooting-the-help-viewer.md",
-            "redirect_url": "/visualstudio/ide/microsoft-help-viewer",
+            "redirect_url": "/visualstudio/help-viewer/overview",
             "redirect_document_id": false
         },
         {
@@ -1286,6 +1322,11 @@
         },
         {
             "source_path": "docs/install/install-visual-studio-in-offline-environment.md",
+            "redirect_url": "/visualstudio/install/create-an-offline-installation-of-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/install/install-vs-inconsistent-quality-network.md",
             "redirect_url": "/visualstudio/install/create-an-offline-installation-of-visual-studio",
             "redirect_document_id": false
         },
@@ -1595,6 +1636,16 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/nodejs/tutorial-nodejs.md",
+            "redirect_url": "/visualstudio/javascript/tutorial-nodejs",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/nodejs/tutorial-nodejs-with-react-and-jsx.md",
+            "redirect_url": "/visualstudio/javascript/tutorial-nodejs-with-react-and-jsx",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/profiling/profiling-tools.md",
             "redirect_url": "/visualstudio/profiling/profiling-feature-tour",
             "redirect_document_id": false
@@ -1647,6 +1698,51 @@
         {
             "source_path": "docs/profiling/how-to-instrument-a-stand-alone-dotnet-framework-component-and-collect-memory-data-with-the-profiler-by-using-the-command-line.md",
             "redirect_url": "/visualstudio/profiling/how-to-instrument-a-dotnet-framework-component-and-collect-memory-data",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/how-to-launch-a-stand-alone-native-application-with-the-profiler-to-collect-concurrency-data-by-using-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-launch-a-stand-alone-native-application-to-collect-concurrency-data",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/how-to-attach-the-profiler-to-a-native-stand-alone-application-and-collect-concurrency-data-by-using-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-attach-the-profiler-to-a-native-app-and-collect-concurrency-data",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/how-to-attach-the-profiler-to-a-dotnet-framework-stand-alone-application-to-collect-memory-data-by-using-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-attach-the-profiler-to-a-dotnet-framework-app-to-collect-memory-data",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/how-to-instrument-a-statically-compiled-aspnet-web-application-and-collect-memory-data-by-using-the-profiler-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-instrument-a-statically-compiled-aspnet-app-and-collect-memory-data",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/how-to-launch-a-stand-alone-dotnet-framework-application-with-the-profiler-to-collect-memory-data-by-using-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-launch-a-stand-alone-dotnet-framework-app-to-collect-memory-data",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/how-to-launch-a-stand-alone-application-with-the-profiler-and-collect-application-statistics-by-using-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-launch-a-stand-alone-app-and-collect-application-statistics",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/how-to-attach-the-profiler-to-a-native-stand-alone-application-and-collect-application-statistics-by-using-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-attach-the-profiler-to-a-native-app-and-collect-application-statistics",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/how-to-instrument-a-stand-alone-dotnet-framework-component-and-collect-timing-data-with-the-profiler-from-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-instrument-a-dotnet-framework-component-and-collect-timing-data",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/how-to-instrument-a-native-stand-alone-component-and-collect-timing-data-with-the-profiler-from-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-instrument-a-native-component-and-collect-timing-data",
             "redirect_document_id": false
         },
         {
@@ -1736,12 +1832,22 @@
         },
         {
             "source_path": "docs/python/debugging-azure-remote.md",
-            "redirect_url": "/visualstudio/python/debugging-remote-python-code-on-azure",
+            "redirect_url": "/visualstudio/python/publishing-python-web-applications-to-azure-from-visual-studio",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/python/debugging-azure-remote-troubleshooting.md",
-            "redirect_url": "/visualstudio/python/debugging-remote-python-code-on-azure-troubleshooting",
+            "redirect_url": "/visualstudio/python/publishing-python-web-applications-to-azure-from-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/debugging-remote-python-code-on-azure.md",
+            "redirect_url": "/visualstudio/python/publishing-python-web-applications-to-azure-from-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/debugging-remote-python-code-on-azure-troubleshooting.md",
+            "redirect_url": "/visualstudio/python/publishing-python-web-applications-to-azure-from-visual-studio",
             "redirect_document_id": false
         },
         {
@@ -1797,11 +1903,6 @@
         {
             "source_path": "docs/python/getting-started.md",
             "redirect_url": "/visualstudio/python/tutorial-working-with-python-in-visual-studio-step-01-create-project",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "docs/python/index.md",
-            "redirect_url": "/visualstudio/python/overview-of-python-tools-for-visual-studio",
             "redirect_document_id": false
         },
         {
@@ -2021,7 +2122,7 @@
         },
         {
             "source_path": "docs/test/analyze-the-code-quality-of-store-apps-using-visual-studio-static-code-analysis.md",
-            "redirect_url": "/visualstudio/code-quality/analyzing-application-quality-by-using-code-analysis-tools",
+            "redirect_url": "/visualstudio/code-quality/code-analysis-for-managed-code-overview",
             "redirect_document_id": false
         },
         {
@@ -2101,7 +2202,7 @@
         },
         {
             "source_path": "docs/test/testing-store-apps-with-visual-studio.md",
-            "redirect_url": "/visualstudio/test/create-and-run-unit-tests-for-a-store-app-in-visual-studio/",
+            "redirect_url": "/visualstudio/test/create-and-run-unit-tests-for-a-store-app-in-visual-studio",
             "redirect_document_id": false
         },
         {
@@ -2116,7 +2217,7 @@
         },
         {
             "source_path": "docs/test/troubleshooting-code-analysis-issues.md",
-            "redirect_url": "/visualstudio/code-quality/analyzing-application-quality-by-using-code-analysis-tools",
+            "redirect_url": "/visualstudio/code-quality/code-analysis-for-managed-code-overview",
             "redirect_document_id": false
         },
         {
@@ -2126,7 +2227,7 @@
         },
         {
             "source_path": "docs/test/troubleshooting-quality-tools.md",
-            "redirect_url": "/visualstudio/code-quality/analyzing-application-quality-by-using-code-analysis-tools",
+            "redirect_url": "/visualstudio/code-quality/code-analysis-for-managed-code-overview",
             "redirect_document_id": false
         },
         {
@@ -2270,8 +2371,18 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/vs-2015/misc/warning-the-dependency-file-in-project-project-cannot-be-copied-to-the-run-directory-because-it-would-overwrite-the-reference-file.md",
+            "redirect_url": "/visualstudio/vs-2015/misc/warning-the-dependency-file-in-project-project-cannot-be-copied",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/vsto/index.md",
             "redirect_url": "/visualstudio/vsto/office-and-sharepoint-development-in-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vsto/updating-ribbon-customizations-in-office-projects-that-you-migrate-to-the-dotnet-framework-4-or-the-dotnet-framework-4-5.md",
+            "redirect_url": "/visualstudio/vsto/update-ribbon-customizations-in-office-projects-to-migrate-to-dotnet-framework-4-or-4-5",
             "redirect_document_id": false
         },
         {
@@ -2556,10 +2667,845 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "scripting-docs/javascript/javascript-language-reference.md",
+            "redirect_url": "/microsoft-edge/dev-guide/whats-new/javascript-version-information",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "scripting-docs/javascript/what-s-new-in-javascript.md",
+            "redirect_url": "/microsoft-edge/dev-guide#javascript",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "scripting-docs/javascript/advanced/conditional-compilation-javascript.md",
+            "redirect_url": "/previous-versions/windows/internet-explorer/ie-developer/scripting-articles/121hztk3(v%3dvs.84)",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "scripting-docs/javascript/advanced/conditional-compilation-variables-javascript.md",
+            "redirect_url": "/previous-versions/windows/internet-explorer/ie-developer/scripting-articles/s59bkzce(v%3dvs.84)",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "scripting-docs/javascript/reference/javascript-errors.md",
+            "redirect_url": "/microsoft-edge/devtools-guide/console/error-and-status-codes",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "scripting-docs/javascript/reference/javascript-run-time-errors.md",
+            "redirect_url": "/microsoft-edge/devtools-guide/console/error-and-status-codes#javascript-run-time-errors",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "scripting-docs/javascript/reference/javascript-syntax-errors.md",
+            "redirect_url": "/microsoft-edge/devtools-guide/console/error-and-status-codes#javascript-syntax-errors",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "scripting-docs/javascript/reference/javascript-reference.md",
+            "redirect_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "scripting-docs/javascript/reference/javascript-version-information.md",
+            "redirect_url": "/microsoft-edge/dev-guide/whats-new/javascript-version-information",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "scripting-docs/jswinrt/using-the-windows-runtime-in-javascript.md",
+            "redirect_url": "/microsoft-edge/windows-runtime/using-the-windows-runtime-in-javascript",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "scripting-docs/jswinrt/considerations-when-using-the-windows-runtime-api.md",
+            "redirect_url": "/microsoft-edge/windows-runtime/considerations-when-using-the-windows-runtime-api",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "scripting-docs/jswinrt/using-windows-runtime-asynchronous-methods.md",
+            "redirect_url": "/microsoft-edge/windows-runtime/using-windows-runtime-asynchronous-methods",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "scripting-docs/jswinrt/special-error-properties-from-asynchronous-windows-runtime-methods.md",
+            "redirect_url": "/microsoft-edge/windows-runtime/special-error-properties-from-asynchronous-windows-runtime-methods",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "scripting-docs/jswinrt/handling-windows-runtime-events-in-javascript.md",
+            "redirect_url": "/microsoft-edge/windows-runtime/handling-windows-runtime-events-in-javascript",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "scripting-docs/jswinrt/javascript-representation-of-windows-runtime-types.md",
+            "redirect_url": "/microsoft-edge/windows-runtime/javascript-representation-of-windows-runtime-types",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "scripting-docs/jswinrt/windows-runtime-datetime-and-timespan-representations.md",
+            "redirect_url": "/microsoft-edge/windows-runtime/windows-runtime-datetime-and-timespan-representations",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "scripting-docs/jswinrt/error-codes-for-windows-runtime-apps-using-javascript.md",
+            "redirect_url": "/microsoft-edge/windows-runtime/error-codes-for-windows-runtime-apps-using-javascript",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "scripting-docs/chakra-hosting/index.md",
             "redirect_url": "/script/chakra-hosting/javascript-runtime-hosting",
             "redirect_document_id": false
         },
+        {
+            "source_path": "scripting-docs/chakra-hosting/javascript-runtime-hosting.md",
+            "redirect_url": "/microsoft-edge/hosting/javascript-runtime-hosting",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "scripting-docs/chakra-hosting/reference-javascript-runtime.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/reference-javascript-runtime",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/hosting-the-javascript-runtime.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/hosting-the-javascript-runtime",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/targeting-edge-vs-legacy-engines-in-jsrt-apis.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/targeting-edge-vs-legacy-engines-in-jsrt-apis",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/javascript-runtime-typedefs-constants-and-enumerations.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/javascript-runtime-typedefs-constants-and-enumerations",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsbackgroundworkitemcallback-typedef.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsbackgroundworkitemcallback-typedef",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsbeforecollectcallback-typedef.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsbeforecollectcallback-typedef",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jscontextref-typedef.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jscontextref-typedef",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsfinalizecallback-typedef.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsfinalizecallback-typedef",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsmemoryallocationcallback-typedef.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsmemoryallocationcallback-typedef",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsnativefunction-typedef.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsnativefunction-typedef",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsobjectbeforecollectcallback-typedef.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsobjectbeforecollectcallback-typedef",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsprojectioncallback-typedef.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsprojectioncallback-typedef",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsprojectioncallbackcontext-typedef.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsprojectioncallbackcontext-typedef",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsprojectionenqueuecallback-typedef.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsprojectionenqueuecallback-typedef",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jspromisecontinuationcallback-typedef.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jspromisecontinuationcallback-typedef",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jspropertyidref-typedef.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jspropertyidref-typedef",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsref-typedef.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsref-typedef",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsruntimehandle-typedef.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsruntimehandle-typedef",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsserializedscriptloadsourcecallback-typedef.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsserializedscriptloadsourcecallback-typedef",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsserializedscriptunloadcallback-typedef.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsserializedscriptunloadcallback-typedef",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jssourcecontext-typedef.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jssourcecontext-typedef",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsthreadservicecallback-typedef.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsthreadservicecallback-typedef",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsvalueref-typedef.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsvalueref-typedef",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/js-invalid-propertyid-constant.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/js-invalid-propertyid-constant",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/js-invalid-reference-constant.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/js-invalid-reference-constant",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/js-invalid-runtime-handle-constant.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/js-invalid-runtime-handle-constant",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/js-source-context-none-constant.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/js-source-context-none-constant",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jserrorcode-enumeration.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jserrorcode-enumeration",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsmemoryeventtype-enumeration.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsmemoryeventtype-enumeration",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jspropertyidtype-enumeration.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jspropertyidtype-enumeration",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsruntimeattributes-enumeration.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsruntimeattributes-enumeration",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsruntimeversion-enumeration.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsruntimeversion-enumeration",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jstypedarraytype-enumeration.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jstypedarraytype-enumeration",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsvaluetype-enumeration.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsvaluetype-enumeration",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsaddref-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsaddref-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsbooleantobool-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsbooleantobool-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsbooltoboolean-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsbooltoboolean-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jscallfunction-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jscallfunction-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jscollectgarbage-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jscollectgarbage-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsconstructobject-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsconstructobject-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsconvertvaluetoboolean-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsconvertvaluetoboolean-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsconvertvaluetonumber-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsconvertvaluetonumber-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsconvertvaluetoobject-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsconvertvaluetoobject-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsconvertvaluetostring-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsconvertvaluetostring-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jscreatearray-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jscreatearray-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jscreatearraybuffer-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jscreatearraybuffer-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jscreatecontext-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jscreatecontext-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jscreatedataview-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jscreatedataview-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jscreateerror-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jscreateerror-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jscreateexternalarraybuffer-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jscreateexternalarraybuffer-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jscreateexternalobject-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jscreateexternalobject-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jscreatefunction-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jscreatefunction-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jscreatenamedfunction-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jscreatenamedfunction-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jscreateobject-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jscreateobject-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jscreaterangeerror-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jscreaterangeerror-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jscreatereferenceerror-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jscreatereferenceerror-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jscreateruntime-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jscreateruntime-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jscreatesymbol-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jscreatesymbol-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jscreatesyntaxerror-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jscreatesyntaxerror-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jscreatetypeerror-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jscreatetypeerror-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jscreatetypedarray-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jscreatetypedarray-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jscreateurierror-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jscreateurierror-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsdefineproperty-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsdefineproperty-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsdeleteindexedproperty-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsdeleteindexedproperty-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsdeleteproperty-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsdeleteproperty-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsdisableruntimeexecution-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsdisableruntimeexecution-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsdisposeruntime-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsdisposeruntime-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsdoubletonumber-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsdoubletonumber-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsenableruntimeexecution-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsenableruntimeexecution-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsenumerateheap-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsenumerateheap-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsequals-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsequals-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsgetandclearexception-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsgetandclearexception-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsgetarraybufferstorage-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsgetarraybufferstorage-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsgetcontextdata-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsgetcontextdata-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsgetcontextofobject-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsgetcontextofobject-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsgetcurrentcontext-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsgetcurrentcontext-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsgetdataviewstorage-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsgetdataviewstorage-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsgetextensionallowed-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsgetextensionallowed-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsgetexternaldata-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsgetexternaldata-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsgetfalsevalue-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsgetfalsevalue-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsgetglobalobject-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsgetglobalobject-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsgetindexedpropertiesexternaldata-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsgetindexedpropertiesexternaldata-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsgetindexedproperty-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsgetindexedproperty-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsgetnullvalue-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsgetnullvalue-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsgetownpropertydescriptor-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsgetownpropertydescriptor-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsgetownpropertynames-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsgetownpropertynames-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsgetownpropertysymbols-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsgetownpropertysymbols-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsgetproperty-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsgetproperty-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsgetpropertyidfromname-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsgetpropertyidfromname-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsgetpropertyidfromsymbol-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsgetpropertyidfromsymbol-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsgetpropertyidtype-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsgetpropertyidtype-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsgetpropertynamefromid-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsgetpropertynamefromid-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsgetprototype-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsgetprototype-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsgetruntime-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsgetruntime-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsgetruntimememorylimit-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsgetruntimememorylimit-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsgetruntimememoryusage-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsgetruntimememoryusage-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsgetstringlength-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsgetstringlength-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsgetsymbolfrompropertyid-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsgetsymbolfrompropertyid-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsgettruevalue-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsgettruevalue-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsgettypedarrayinfo-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsgettypedarrayinfo-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsgettypedarraystorage-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsgettypedarraystorage-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsgetundefinedvalue-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsgetundefinedvalue-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsgetvaluetype-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsgetvaluetype-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jshasexception-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jshasexception-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jshasexternaldata-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jshasexternaldata-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jshasindexedpropertiesexternaldata-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jshasindexedpropertiesexternaldata-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jshasindexedproperty-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jshasindexedproperty-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jshasproperty-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jshasproperty-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsidle-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsidle-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsinspectabletoobject-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsinspectabletoobject-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsinstanceof-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsinstanceof-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsinttonumber-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsinttonumber-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsisenumeratingheap-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsisenumeratingheap-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsisruntimeexecutiondisabled-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsisruntimeexecutiondisabled-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsnumbertodouble-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsnumbertodouble-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsnumbertoint-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsnumbertoint-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsobjecttoinspectable-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsobjecttoinspectable-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsparsescript-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsparsescript-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsparseserializedscript-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsparseserializedscript-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsparseserializedscriptwithcallback-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsparseserializedscriptwithcallback-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jspointertostring-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jspointertostring-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jspreventextension-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jspreventextension-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsprojectwinrtnamespace-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsprojectwinrtnamespace-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsrelease-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsrelease-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsrunscript-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsrunscript-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsrunserializedscript-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsrunserializedscript-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsrunserializedscriptwithcallback-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsrunserializedscriptwithcallback-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsserializescript-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsserializescript-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jssetcontextdata-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jssetcontextdata-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jssetcurrentcontext-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jssetcurrentcontext-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jssetexception-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jssetexception-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jssetexternaldata-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jssetexternaldata-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jssetindexedpropertiestoexternaldata-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jssetindexedpropertiestoexternaldata-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jssetindexedproperty-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jssetindexedproperty-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jssetobjectbeforecollectcallback-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jssetobjectbeforecollectcallback-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jssetprojectionenqueuecallback-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jssetprojectionenqueuecallback-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jssetpromisecontinuationcallback-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jssetpromisecontinuationcallback-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jssetproperty-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jssetproperty-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jssetprototype-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jssetprototype-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jssetruntimebeforecollectcallback-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jssetruntimebeforecollectcallback-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jssetruntimememoryallocationcallback-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jssetruntimememoryallocationcallback-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jssetruntimememorylimit-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jssetruntimememorylimit-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsstartdebugging-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsstartdebugging-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsstartprofiling-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsstartprofiling-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsstopprofiling-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsstopprofiling-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsstrictequals-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsstrictequals-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsstringtopointer-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsstringtopointer-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsvaluetovariant-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsvaluetovariant-function",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "scripting-docs/chakra-hosting/jsvarianttovalue-function.md",
+            "redirect_url": "/microsoft-edge/hosting/chakra-hosting/jsvarianttovalue-function",
+            "redirect_document_id": false
+          },
         {
             "source_path": "scripting-docs/javascript/advanced/index.md",
             "redirect_url": "/script/javascript/advanced/advanced-javascript",
@@ -3097,7 +4043,7 @@
        },
        {
            "source_path":  "scripting-docs/javascript/reference/setuint32-method-dataview.md",
-           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/setuint32.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/setuint32",
            "redirect_document_id":  false
        },
        {
@@ -5337,7 +6283,7 @@
        },
        {
            "source_path":  "scripting-docs/javascript/reference/number-property-error-javascript.md",
-           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Microsoft_JavaScript_extensions/Error.number.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Microsoft_JavaScript_extensions/Error.number",
            "redirect_document_id":  false
        },
        {
@@ -5715,7 +6661,431 @@
             "source_path": "connected-environment/troubleshooting.md",
             "redirect_url": "/azure/dev-spaces/troubleshooting",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/welcome-to-visual-studio-2015.md",
+            "redirect_url": "/visualstudio/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/what-s-new-in-visual-studio-2015.md",
+            "redirect_url": "/visualstudio/ide/whats-new-in-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/install/install-visual-studio-2015.md",
+            "redirect_url": "/visualstudio/install/install-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/porting-migrating-and-upgrading-visual-studio-projects.md",
+            "redirect_url": "/visualstudio/port-migrate-and-upgrade-visual-studio-projects",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "mac/benefits-vsmac-over-xs.md",
+            "redirect_url": "/visualstudio/mac/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/cross-platform/overview-of-visual-studio-tools-for-unity.md",
+            "redirect_url": "/visualstudio/cross-platform/visual-studio-tools-for-unity",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "subscriptions/vs-vsts.md",
+            "redirect_url": "/visualstudio/subscriptions/vs-azure-devops",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/sharepoint/requirements-for-developing-sharepoint-solutions.md",
+            "redirect_url": "/visualstudio/sharepoint/getting-started-sharepoint-development-in-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/profiling/how-to-instrument-a-stand-alone-dotnet-framework-component-and-collect-memory-data-with-the-profiler-by-using-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-instrument-a-dotnet-framework-component-and-collect-memory-data?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/profiling/how-to-launch-a-stand-alone-native-application-with-the-profiler-to-collect-concurrency-data-by-using-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-launch-a-stand-alone-native-application-to-collect-concurrency-data?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/debugger/error-the-microsoft-visual-studio-remote-debugging-monitor-msvsmon-exe-does-not-appear-to-be-running-on-the-remote-computer.md",
+            "redirect_url": "/visualstudio/debugger/error-remote-debugging-monitor-msvsmon-exe-does-not-appear-to-be-running?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/error-the-microsoft-visual-studio-remote-debugging-monitor-msvsmon-exe-does-not-appear-to-be-running-on-the-remote-computer.md",
+            "redirect_url": "/visualstudio/debugger/error-remote-debugging-monitor-msvsmon-exe-does-not-appear-to-be-running",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/profiling/how-to-launch-a-stand-alone-dotnet-framework-application-with-the-profiler-to-collect-memory-data-by-using-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-launch-a-stand-alone-dotnet-framework-app-to-collect-memory-data?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/profiling/how-to-instrument-a-dynamically-compiled-aspnet-web-application-and-collect-memory-data-by-using-the-profiler-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-instrument-a-dynamically-compiled-aspnet-web-application-and-collect-memory-data?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/profiling/collecting-application-statistics-for-aspnet-web-applications-using-the-profiler-sampling-method-from-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/collecting-concurrency-data-for-an-aspnet-web-application?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/profiling/how-to-attach-the-profiler-to-a-dotnet-framework-stand-alone-application-and-collect-application-statistics-by-using-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-attach-the-profiler-to-a-dotnet-app-and-collect-application-statistics?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/misc/error-the-dependency-file-in-project-project-cannot-be-copied-to-the-run-directory-because-it-would-conflict-with-dependency-file.md",
+            "redirect_url": "/visualstudio/misc/error-dependency-file?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/profiling/how-to-launch-a-stand-alone-application-with-the-profiler-and-collect-application-statistics-by-using-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-launch-a-stand-alone-app-and-collect-application-statistics?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/deployment/walkthrough-manually-deploying-a-clickonce-application-that-does-not-require-re-signing-and-that-preserves-branding-information.md",
+            "redirect_url": "/visualstudio/deployment/walkthrough-manually-deploying-a-clickonce-app-no-re-signing-required?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/profiling/how-to-instrument-a-statically-compiled-aspnet-web-application-and-collect-memory-data-by-using-the-profiler-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-instrument-a-statically-compiled-aspnet-app-and-collect-memory-data?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/profiling/how-to-attach-the-profiler-to-a-dotnet-framework-stand-alone-application-to-collect-memory-data-by-using-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-attach-the-profiler-to-a-dotnet-framework-app-to-collect-memory-data?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/profiling/how-to-attach-the-profiler-to-a-native-stand-alone-application-and-collect-concurrency-data-by-using-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-attach-the-profiler-to-a-native-app-and-collect-concurrency-data?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user-can-be-dangerous-if-the-following-information-looks-suspicious-or-you-are-unsure-do-not-attach-to-this-process.md",
+            "redirect_url": "/visualstudio/debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/debugger/error-the-microsoft-visual-studio-remote-debugging-monitor-on-the-remote-computer-does-not-have-permission-to-connect-to-this-computer.md",
+            "redirect_url": "/visualstudio/debugger/error-the-microsoft-visual-studio-remote-debugging-monitor-no-permission?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/profiling/how-to-instrument-a-stand-alone-dotnet-framework-component-and-collect-timing-data-with-the-profiler-from-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-instrument-a-dotnet-framework-component-and-collect-timing-data?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/profiling/how-to-attach-the-profiler-to-a-native-stand-alone-application-and-collect-application-statistics-by-using-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-attach-the-profiler-to-a-native-app-and-collect-application-statistics?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/profiling/how-to-instrument-a-statically-compiled-aspnet-web-application-and-collect-detailed-timing-data-with-the-profiler-by-using-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-instrument-statically-compiled-aspnet-and-collect-detailed-timing-data?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/profiling/collecting-detailed-timing-data-for-an-aspnet-web-application-using-the-profiler-instrumentation-method-from-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/collecting-detailed-timing-data-aspnet-profiler-instrumentation-method?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/profiling/how-to-launch-a-stand-alone-dotnet-framework-application-with-the-profiler-to-collect-concurrency-data-by-using-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-launch-a-stand-alone-dotnet-framework-app-to-collect-concurrency-data?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/profiling/how-to-instrument-a-dynamically-compiled-aspnet-web-application-and-collect-detailed-timing-data-with-the-profiler-by-using-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-instrument-a-dynamically-compiled-aspnet-app-and-collect-timing-data?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/profiling/how-to-attach-the-profiler-to-a-dotnet-framework-stand-alone-application-to-collect-concurrency-data-by-using-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-attach-the-profiler-to-a-dotnet-app-and-collect-concurrency-data?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/debugger/what’s-new-for-the-debugger-in-visual-studio-2015.md",
+            "redirect_url": "/visualstudio/debugger/what-s-new-for-the-debugger-in-visual-studio-2015?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/extensibility/upgrading-custom-project-and-item-templates-for-visual-studio-%2215%22.md",
+            "redirect_url": "/visualstudio/extensibility/upgrading-custom-project-and-item-templates-for-visual-studio-2017",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/docker/index.md",
+            "redirect_url": "/dotnet/standard/containerized-lifecycle-architecture/design-develop-containerized-apps/visual-studio-tools-for-docker?toc=/visualstudio/docker/toc.json&bc=/visualstudio/docker/breadcrumb/toc.json",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/cross-platform/visual-studio-and-xamarin.md",
+            "redirect_url": "/xamarin/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/cross-platform/setup-and-install.md",
+            "redirect_url": "/xamarin/cross-platform/get-started/installation/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/cross-platform/learn-about-mobile-development-with-xamarin.md",
+            "redirect_url": "/xamarin/cross-platform/get-started/introduction-to-mobile-development",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/cross-platform/verify-your-xamarin-environment.md",
+            "redirect_url": "/xamarin/cross-platform/get-started/installation/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/cross-platform/setup-install-and-verifications-for-mac-users.md",
+            "redirect_url": "/xamarin/cross-platform/get-started/installation/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/cross-platform/learn-app-building-basics-with-xamarin-forms-in-visual-studio.md",
+            "redirect_url": "/xamarin/xamarin-forms/get-started/first-app/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/cross-platform/build-apps-with-native-ui-using-xamarin-in-visual-studio.md",
+            "redirect_url": "/xamarin/cross-platform/get-started/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/cross-platform/application-lifecycle-management-alm-with-xamarin-apps.md",
+            "redirect_url": "/xamarin/tools/ci/devops/",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/docker/vs-azure-tools-docker-machine-azure-config.md",
+            "redirect_url": "/visualstudio/docker/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md",
+            "redirect_url": "/visualstudio/get-started/csharp/tutorial-wpf",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/tutorial-csharp-aspnet-core.md",
+            "redirect_url": "/visualstudio/get-started/csharp/tutorial-aspnet-core",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/ide/tutorial-csharp-console.md",
+            "redirect_url": "/visualstudio/get-started/csharp/tutorial-console",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/ide/tutorial-visual-basic-console.md",
+            "redirect_url": "/visualstudio/get-started/visual-basic/tutorial-console",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/ide/quickstart-editor.md",
+            "redirect_url": "/visualstudio/get-started/tutorial-editor",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/ide/quickstart-projects-solutions.md",
+            "redirect_url": "/visualstudio/get-started/tutorial-projects-solutions",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/test/how-to-analyze-errors-using-the-counters-panel.md",
+            "redirect_url": "/visualstudio/test/quickstart-create-a-load-test-project",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/test/sample-project-for-creating-a-diagnostic-data-adapter.md",
+            "redirect_url": "/visualstudio/test/quickstart-create-a-load-test-project",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/test/how-to-create-a-custom-editor-for-data-for-your-diagnostic-data-adapter.md",
+            "redirect_url": "/visualstudio/test/quickstart-create-a-load-test-project",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/test/how-to-analyze-threshold-violations-using-the-counters-panel.md",
+            "redirect_url": "/visualstudio/test/quickstart-create-a-load-test-project",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/test/how-to-install-a-custom-diagnostic-data-adapter.md",
+            "redirect_url": "/visualstudio/test/quickstart-create-a-load-test-project",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/test/how-to-specify-how-frequently-test-logs-are-saved.md",
+            "redirect_url": "/visualstudio/test/quickstart-create-a-load-test-project",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/test/how-to-configure-load-tests-to-collect-full-details.md",
+            "redirect_url": "/visualstudio/test/quickstart-create-a-load-test-project",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/test/how-to-prevent-time-outs-for-diagnostic-data-adapters.md",
+            "redirect_url": "/visualstudio/test/quickstart-create-a-load-test-project",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/test/counters-panel-in-load-test-analyzer.md",
+            "redirect_url": "/visualstudio/test/quickstart-create-a-load-test-project",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/test/how-to-view-data-and-diagnostic-attachments-using-the-load-test-analyzer.md",
+            "redirect_url": "/visualstudio/test/quickstart-create-a-load-test-project",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/test/how-to-add-computer-tags-to-counter-set-mappings-using-the-load-test-editor.md",
+            "redirect_url": "/visualstudio/test/quickstart-create-a-load-test-project",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/test/how-to-add-comments-on-a-completed-load-test.md",
+            "redirect_url": "/visualstudio/test/quickstart-create-a-load-test-project",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/test/how-to-specify-plot-options-for-graphing-counters.md",
+            "redirect_url": "/visualstudio/test/quickstart-create-a-load-test-project",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/install/install-visual-studio-15-preview-5.md",
+            "redirect_url": "/visualstudio/install/install-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/install/modify-visual-studio-15-preview-5.md",
+            "redirect_url": "/visualstudio/install/modify-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/misc/port-migrate-and-upgrade-visual-studio-projects-in-visual-studio-15-rc.md",
+            "redirect_url": "/visualstudio/porting/port-migrate-and-upgrade-visual-studio-projects",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/extensibility/upgrading-custom-project-and-item-templates-for-visual-studio-2017.md",
+            "redirect_url": "/visualstudio/extensibility/upgrading-custom-project-and-item-templates-for-visual-studio-2017?view=vs-2017",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/misc/application-insights-for-visual-studio-online.md",
+            "redirect_url": "/azure/application-insights/app-insights-overview",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/extensibility/visual-studio-template-manifest-schema-reference.md",
+            "redirect_url": "/visualstudio/extensibility/visual-studio-template-manifest-schema-reference?view=vs-2017",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/visual-studio-ide.md",
+            "redirect_url": "/visualstudio/get-started/visual-studio-ide",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "subscriptions/vs-priority-support.md",
+            "redirect_url": "https://social.msdn.microsoft.com/Forums/vstudio/en-US/home",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/accessibility-features-of-the-help-viewer.md",
+            "redirect_url": "/visualstudio/help-viewer/accessibility-features",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/ide/help-viewer-administrator-guide.md",
+            "redirect_url": "/visualstudio/help-viewer/administrator-guide",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/ide/help-content-manager-overrides.md",
+            "redirect_url": "/visualstudio/help-viewer/behavior-overrides",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/ide/command-line-arguments-for-the-help-content-manager.md",
+            "redirect_url": "/visualstudio/help-viewer/command-line-arguments",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/ide/customize-the-help-viewer.md",
+            "redirect_url": "/visualstudio/help-viewer/customize",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/ide/how-to-find-topics-in-the-index.md",
+            "redirect_url": "/visualstudio/help-viewer/find-topics-index",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/ide/how-to-find-topics-in-the-table-of-contents.md",
+            "redirect_url": "/visualstudio/help-viewer/find-topics-toc",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/ide/how-to-search-for-topics.md",
+            "redirect_url": "/visualstudio/help-viewer/find-topics",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/ide/install-and-manage-local-content.md",
+            "redirect_url": "/visualstudio/help-viewer/install-manage-local-content",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/ide/microsoft-help-viewer-installation.md",
+            "redirect_url": "/visualstudio/help-viewer/installation",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/ide/logical-operators-in-search-expressions.md",
+            "redirect_url": "/visualstudio/help-viewer/logical-operators-search-expressions",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/ide/microsoft-help-viewer.md",
+            "redirect_url": "/visualstudio/help-viewer/overview",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/ide/shortcut-keys-help-viewer.md",
+            "redirect_url": "/visualstudio/help-viewer/shortcut-keys",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/reference/synchronized-settings-environment-options-dialog-box.md",
+            "redirect_url": "/visualstudio/ide/reference/accounts-environment-options-dialog-box",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/extensibility/buildprojectonload-visual-studio-templates.md",
+            "redirect_url": "/visualstudio/extensibility/buildonload-visual-studio-templates",
+            "redirect_document_id": false
         }
-
     ]
 }

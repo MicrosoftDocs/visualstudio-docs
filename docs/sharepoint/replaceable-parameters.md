@@ -20,7 +20,7 @@ manager: douge
 ms.workload: "office"
 ---
 # Replaceable parameters
-  Replaceable parameters, or *tokens*, can be used inside project files to provide values for SharePoint solution items whose actual values aren't known at design time. They're similar in function to the standard [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] template tokens. For more information, see [Template Parameters](/visualstudio/ide/template-parameters).  
+  Replaceable parameters, or *tokens*, can be used inside project files to provide values for SharePoint solution items whose actual values aren't known at design time. They're similar in function to the standard [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] template tokens. For more information, see [Template Parameters](../ide/template-parameters.md).  
   
 ## Token format
  Tokens begin and end with a dollar sign ($) character. On deployment, any tokens used are replaced with actual values when a project is packaged into a SharePoint solution package (*.wsp* file). For example, the token **$SharePoint.Package.Name$** might resolve to the string "Test SharePoint Package".  
@@ -28,17 +28,17 @@ ms.workload: "office"
 ## Token rules
  The following rules apply to tokens:  
   
--   Tokens can be specified anywhere in a line.  
+- Tokens can be specified anywhere in a line.  
   
--   Tokens cannot span multiple lines.  
+- Tokens cannot span multiple lines.  
   
--   The same token may be specified more than once on the same line and in the same file.  
+- The same token may be specified more than once on the same line and in the same file.  
   
--   Different tokens may be specified on the same line.  
+- Different tokens may be specified on the same line.  
   
- Tokens that do not follow these rules are ignored and do not result in a warning or error.  
+  Tokens that do not follow these rules are ignored and do not result in a warning or error.  
   
- The replacement of tokens by string values is done immediately after manifest transformation. This replacement allows the user to edit the manifest templates with tokens.  
+  The replacement of tokens by string values is done immediately after manifest transformation. This replacement allows the user to edit the manifest templates with tokens.  
   
 ### Token name resolution
  In most cases, a token resolves to a specific value regardless of where it is contained. However, if the token is related to a package or feature, the token's value depends on where it is contained. For example, if a feature is in Package A, then the token `$SharePoint.Package.Name$` resolves to the value "Package A." If the same feature is in Package B, then `$SharePoint.Package.Name$` resolves to "Package B."  
@@ -69,19 +69,19 @@ ms.workload: "office"
 ## Add extensions to the token replacement file extensions list
  Although tokens can theoretically be used by any file that belongs to a SharePoint project item included in the package, by default, [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] searches for tokens only in package files, manifest files, and files that have the following extensions:  
   
--   [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)]  
+- [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)]  
   
--   ASCX  
+- ASCX  
   
--   ASPX  
+- ASPX  
   
--   Webpart  
+- Webpart  
   
--   DWP  
+- DWP  
   
- These extensions are defined by the `<TokenReplacementFileExtensions>` element in the Microsoft.VisualStudio.SharePoint.targets file, located in the ...\\<program files\>\MSBuild\Microsoft\VisualStudio\v11.0\SharePointTools folder.  
+  These extensions are defined by the `<TokenReplacementFileExtensions>` element in the Microsoft.VisualStudio.SharePoint.targets file, located in the ...\\<program files\>\MSBuild\Microsoft\VisualStudio\v11.0\SharePointTools folder.  
   
- You can, however, add additional file extensions to the list. Add a `<TokenReplacementFileExtensions>` element to any PropertyGroup in the SharePoint project file that is defined before the \<Import> of the SharePoint targets file.  
+  You can, however, add additional file extensions to the list. Add a `<TokenReplacementFileExtensions>` element to any PropertyGroup in the SharePoint project file that is defined before the \<Import> of the SharePoint targets file.  
   
 > [!NOTE]  
 >  Because token replacement occurs after a project is compiled, you should not add file extensions for file types that are compiled, such as *.cs*, *.vb* or *.resx*. Tokens are replaced only in files that are not compiled.  
@@ -105,4 +105,3 @@ ms.workload: "office"
   
 ## See also
  [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)  
-  

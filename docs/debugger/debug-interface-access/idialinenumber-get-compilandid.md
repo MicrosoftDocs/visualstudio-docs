@@ -22,7 +22,7 @@ Retrieves a unique identifier for the compiland that contributed this line.
   
 ```C++  
 HRESULT get_compilandId (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

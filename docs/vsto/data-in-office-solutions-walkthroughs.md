@@ -11,8 +11,8 @@ dev_langs:
 helpviewer_keywords: 
   - "data [Office development in Visual Studio], walkthroughs"
   - "walkthroughs [Office development in Visual Studio], data"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

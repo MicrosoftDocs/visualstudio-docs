@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "worksheets [Office development in Visual Studio], populating"
   - "databases [Office development in Visual Studio], populating worksheets"
   - "data [Office development in Visual Studio], adding to worksheets"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload:
   - "office"
@@ -50,7 +50,7 @@ You can add a different control by selecting the table or field in the **Data So
 
 In addition to the control, the following data-related objects are automatically added to your project:
 
--   A typed dataset that encapsulates the data tables that you connected to in the database. For more information, see [Dataset tools in Visual Studio](/visualstudio/data-tools/dataset-tools-in-visual-studio).
+-   A typed dataset that encapsulates the data tables that you connected to in the database. For more information, see [Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md).
 
 -   A <xref:System.Windows.Forms.BindingSource> that connects the control to the typed dataset. For more information, see [BindingSource component overview](/dotnet/framework/winforms/controls/bindingsource-component-overview).
 

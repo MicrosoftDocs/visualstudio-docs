@@ -13,9 +13,9 @@ manager: douge
 ms.workload:
   - "azure"
 ---
-# Publish a web app to Azure App Service using Visual Studio
+# Publish a Web app to Azure App Service using Visual Studio
 
-You can use the **Publish** tool to publish ASP.NET, ASP.NET Core, Node.js, and .NET Core apps to Azure App Service or Azure App Service Linux (using containers). For Python apps, follow the steps on [Python - Publishing to Azure App Service](../python/publishing-python-web-applications-to-azure-from-visual-studio.md).
+You can use the **Publish** tool to publish ASP.NET, ASP.NET Core, Node.js, and .NET Core apps to Azure App Service or Azure App Service Linux (using containers). For Python apps, follow the steps on [Python - Publish to Azure App Service](../python/publishing-python-web-applications-to-azure-from-visual-studio.md).
 
 [!INCLUDE [quickstart-prereqs-azure](includes/quickstart-prereqs-azure.md)]
 
@@ -38,6 +38,13 @@ You can use the **Publish** tool to publish ASP.NET, ASP.NET Core, Node.js, and 
 1. Select **Create**. Visual Studio deploys the app to your Azure App Service, and the web app loads in your browser. The project properties **Publish** pane shows the site URL and other details.
 
     ![Publish property pane showing a profile summary](../deployment/media/quickstart-publish-app-service-summary.png)
+
+## Clean up resources
+
+In the preceding steps, you created Azure resources in a resource group. If you don't expect to need these resources in the future, you can delete them by deleting the resource group.
+From the left menu in the Azure portal, select **Resource groups** and then select **myResourceGroup**.
+On the resource group page, make sure that the listed resources are the ones you want to delete.
+Select **Delete**, type **myResourceGroup** in the text box, and then select **Delete**.
 
 ## Next steps
 

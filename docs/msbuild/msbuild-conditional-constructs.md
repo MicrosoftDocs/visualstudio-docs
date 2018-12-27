@@ -25,10 +25,10 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# MSBuild Conditional Constructs
+# MSBuild conditional constructs
 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] provides a mechanism for either/or processing with the [Choose](../msbuild/choose-element-msbuild.md), [When](../msbuild/when-element-msbuild.md), and [Otherwise](../msbuild/otherwise-element-msbuild.md) elements.  
   
-## Using the Choose Element  
+## Use the Choose element  
  The `Choose` element contains a series of `When` elements with `Condition` attributes that are tested in order from top to bottom until one evaluates to `true`. If more than one `When` element evaluates to `true`, only the first one is used. An `Otherwise` element, if present, will be evaluated if no condition on a `When` element evaluates to `true`.  
   
  `Choose` elements can be used as child elements of `Project`, `When` and `Otherwise` elements. `When` and `Otherwise` elements can have `ItemGroup`, `PropertyGroup`, or `Choose` child elements.  
@@ -72,8 +72,8 @@ ms.workload:
 </Project>  
 ```  
   
-## See Also  
- [Choose Element (MSBuild)](../msbuild/choose-element-msbuild.md)   
- [When Element (MSBuild)](../msbuild/when-element-msbuild.md)   
- [Otherwise Element (MSBuild)](../msbuild/otherwise-element-msbuild.md)   
- [MSBuild Reference](../msbuild/msbuild-reference.md)
+## See also  
+ [Choose element (MSBuild)](../msbuild/choose-element-msbuild.md)   
+ [When element (MSBuild)](../msbuild/when-element-msbuild.md)   
+ [Otherwise element (MSBuild)](../msbuild/otherwise-element-msbuild.md)   
+ [MSBuild reference](../msbuild/msbuild-reference.md)

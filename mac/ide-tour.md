@@ -1,9 +1,10 @@
 ---
 title: Visual Studio for Mac Tour
 description: "Visual Studio for Mac provides an integrated development environment to build .NET applications on macOS, including ASP.NET Core websites and Xamarin projects for iOS, Android, Mac, and Xamarin.Forms."
-author: asb3993
-ms.author: amburns
-ms.date: 05/06/2018
+zone_pivot_groups: "mac-ide-version"
+author: conceptdev
+ms.author: crdun
+ms.date: 11/03/2018
 ms.assetid: 7DC64A52-AA41-4F3A-A8A1-8A20BCD81CC7
 ---
 
@@ -19,7 +20,25 @@ This article explores various sections of Visual Studio for Mac, providing a loo
 
 Visual Studio for Mac is organized into several sections for managing application files and settings, creating application code, and debugging.
 
-## Welcome Screen
+::: zone pivot="vsmac2019"
+
+## Visual Studio for Mac 2019 Start Window
+
+> [!TIP]
+> The Visual Studio 2019 for Mac preview is [available for download](install-preview.md) and testing.
+
+When you start the Visual Studio for Mac 2019 preview, new users will see a sign-in window. Sign-in with your Microsoft account to activate a paid license (if you have one) or link to Azure subscriptions. You can press **Skip** and sign in later via the **Visual Studio > Sign in** menu item:
+
+![Sign in to your Microsoft account](media/ide-tour-2019-start-signin.png)
+
+Signed-in users will see the new _start window_, which shows a list of recent projects, and buttons to open an existing project or create a new one:
+
+![Choose from recent projects, or create something new](media/ide-tour-2019-start-projects.png)
+
+::: zone-end
+::: zone pivot="vsmac2017"
+
+## Welcome Screen in Visual Studio for Mac 2017
 
 When launched, Visual Studio for Mac displays a *Welcome Screen*:
 
@@ -31,6 +50,8 @@ The Welcome Screen contains the following sections:
 - **Getting Started** - Provides quick access to useful topics for developers getting started with Visual Studio for Mac.
 - **Recent Solutions** - Provides quick access to recently opened solutions, as well as convenient buttons to open or create projects.
 - **Developer News** - A news feed that keeps you up-to-date on the latest Microsoft Developer information.
+
+::: zone-end
 
 ## Solutions and Projects
 
@@ -51,13 +72,13 @@ This is where files for the source code, resources, user interface, and dependen
 For more information on using Projects and Solutions in Visual Studio for Mac, see the [Projects and Solutions](projects-and-solutions.md) article.
 
 ## Assembly References
- 
+
 Assembly references for each project are available under the References folder:
 
 ![References folder in solution pad](media/ide-tour-image19.png)
 
 Additional references are added using the **Edit References** dialog, which is displayed by double-clicking on the References folder, or by selecting **Edit References** on its context menu actions:
- 
+
 ![Edit References Dialog](media/ide-tour-image20.png)
 
 For more information on using References in Visual Studio for Mac, see the [Managing References in a Project](managing-references-in-a-project.md) article.
@@ -88,12 +109,16 @@ For more information on the debugger's data visualizations, visit the [Data Visu
 
 ## Version Control
 
-Visual Studio for Mac integrates with Git and Subversion source control systems. Projects under source control are denoted with the branch listed next to the Solution name: 
+Visual Studio for Mac integrates with Git and Subversion source control systems. Projects under source control are denoted with the branch listed next to the Solution name:
 
 ![Branch name to indicate project under source control](media/ide-tour-image22.png)
 
-Files with uncommitted changed have an annotation on their icons in the Solution Pane, as illustrated in the following image:
+Files with uncommitted changes have an annotation on their icons in the Solution Pane, as illustrated in the following image:
 
 ![Uncommitted files in solution pad](media/ide-tour-image23.png)
 
 For more information on using version control in Visual Studio, see the [Version Control](version-control.md) article.
+
+## See also
+
+- [Visual Studio IDE (on Windows)](/visualstudio/ide/visual-studio-ide)

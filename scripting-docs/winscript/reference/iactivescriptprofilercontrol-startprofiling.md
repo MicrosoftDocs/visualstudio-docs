@@ -18,7 +18,7 @@ ms.author: "mikejo"
 manager: "ghogen"
 ---
 # IActiveScriptProfilerControl::StartProfiling
-Starts profiling on the scripting engine. The scripting engine creates an instance of the profiler object by making a call to [CoCreateInstance](http://msdn.microsoft.com/en-us/7295a55b-12c7-4ed0-a7a4-9ecee16afdec).  
+Starts profiling on the scripting engine. The scripting engine creates an instance of the profiler object by making a call to [CoCreateInstance](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance).  
   
 ## Syntax  
   

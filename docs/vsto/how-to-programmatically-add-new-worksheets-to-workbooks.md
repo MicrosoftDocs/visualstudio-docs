@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "workbooks, creating worksheets"
   - "worksheets, creating"
   - "worksheets, adding to workbooks"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

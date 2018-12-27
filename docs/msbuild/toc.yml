@@ -30,27 +30,6 @@
         href: item-definitions.md
       - name: Item Functions
         href: item-functions.md
-      - name: File Tracking
-        href: file-tracking.md
-        items:
-        - name: EndTrackingContext
-          href: endtrackingcontext.md
-        - name: ResumeTracking
-          href: resumetracking.md
-        - name: SetThreadCount
-          href: setthreadcount.md
-        - name: StartTrackingContext
-          href: starttrackingcontext.md
-        - name: StartTrackingContextWithRoot
-          href: starttrackingcontextwithroot.md
-        - name: StopTrackingAndCleanup
-          href: stoptrackingandcleanup.md
-        - name: SuspendTracking
-          href: suspendtracking.md
-        - name: WriteAllTLogs
-          href: writealltlogs.md
-        - name: WriteContextTLogs
-          href: writecontexttlogs.md
     - name: MSBuild Targets
       href: msbuild-targets.md
       items:
@@ -144,6 +123,27 @@
           href: how-to-configure-targets-and-tasks.md
       - name: Troubleshooting .NET Framework Targeting Errors
         href: troubleshooting-dotnet-framework-targeting-errors.md
+    - name: File Tracking
+      href: file-tracking.md
+      items:
+      - name: EndTrackingContext
+        href: endtrackingcontext.md
+      - name: ResumeTracking
+        href: resumetracking.md
+      - name: SetThreadCount
+        href: setthreadcount.md
+      - name: StartTrackingContext
+        href: starttrackingcontext.md
+      - name: StartTrackingContextWithRoot
+        href: starttrackingcontextwithroot.md
+      - name: StopTrackingAndCleanup
+        href: stoptrackingandcleanup.md
+      - name: SuspendTracking
+        href: suspendtracking.md
+      - name: WriteAllTLogs
+        href: writealltlogs.md
+      - name: WriteContextTLogs
+        href: writecontexttlogs.md
     - name: Customize your build
       href: customize-your-build.md
     - name: MSBuild Best Practices

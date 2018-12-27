@@ -18,21 +18,21 @@ The Lines view of contention data lists performance data for the statements that
   
  A statement is identified by the following data:  
   
--   The source file that contains the function statement.  
+- The source file that contains the function statement.  
   
--   The function that contains the statement.  
+- The function that contains the statement.  
   
--   The source line at which the statement starts.  
+- The source line at which the statement starts.  
   
--   The character in the source line at which the statement starts.  
+- The character in the source line at which the statement starts.  
   
--   The source line at which the statement ends.  
+- The source line at which the statement ends.  
   
--   The character in the source line at which the statement ends.  
+- The character in the source line at which the statement ends.  
   
- The Line Name column provides a sortable concatenation of the identifier data.  
+  The Line Name column provides a sortable concatenation of the identifier data.  
   
- The following table describes the columns of the Lines View report.  
+  The following table describes the columns of the Lines View report.  
   
 |Column|Description|  
 |------------|-----------------|  

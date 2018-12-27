@@ -23,10 +23,10 @@ This function obtains status information for a set of selected files under sourc
   
 ```cpp  
 SCCRTN SccQueryInfo(  
-   LPVOID  pvContext,  
-   LONG    nFiles,  
-   LPCSTR* lpFileNames,  
-   LPLONG  lpStatus  
+   LPVOID  pvContext,  
+   LONG    nFiles,  
+   LPCSTR* lpFileNames,  
+   LPLONG  lpStatus  
 );  
 ```  
   

@@ -20,7 +20,7 @@ ms.workload:
   - "office"
 ---
 # How to: Create a user control for a SharePoint application page or web part
-  You can create custom user controls that provide custom functionality for your SharePoint solution, and you can reuse that functionality within your project. You can include the user controls in a web part or application page, add other ASP.NET controls and SharePoint controls, and define properties and methods for the control. For more information about user controls, see [Create reusable controls for web parts or application pages](../sharepoint/creating-reusable-controls-for-web-parts-or-application-pages.md) and [User Controls and Server Controls in SharePoint](http://blogs.msdn.com/b/kaevans/archive/2011/04/28/user-controls-and-server-controls-in-sharepoint.aspx).  
+  You can create custom user controls that provide custom functionality for your SharePoint solution, and you can reuse that functionality within your project. You can include the user controls in a web part or application page, add other ASP.NET controls and SharePoint controls, and define properties and methods for the control. For more information about user controls, see [Create reusable controls for web parts or application pages](../sharepoint/creating-reusable-controls-for-web-parts-or-application-pages.md) and [User Controls and Server Controls in SharePoint](https://blogs.msdn.microsoft.com/kaevans/2011/04/28/user-controls-and-server-controls-in-sharepoint/).  
   
 ### To create a user control for SharePoint  
   
@@ -45,7 +45,7 @@ ms.workload:
   
      Visual Studio adds several folders and files to your project. For more information about these files, see [Create reusable controls for web parts or application pages](../sharepoint/creating-reusable-controls-for-web-parts-or-application-pages.md).  
   
-     By default, the user control file appears in the **Source** view of the Visual Web Developer designer. In this view, you can edit the XML markup of the control. You can switch to **Design** view if you want to design the control visually by dragging controls from the **Toolbox**. See [Design View, Web Page Designer](http://msdn.microsoft.com/en-us/d8f2270a-357d-40a4-9b39-1a3f2366216d).  
+     By default, the user control file appears in the **Source** view of the Visual Web Developer designer. In this view, you can edit the XML markup of the control. You can switch to **Design** view if you want to design the control visually by dragging controls from the **Toolbox**. See [Design View, Web Page Designer](/previous-versions/aspnet/ms178149\(v\=vs.100\)).  
   
 7.  If you want to handle events that occur in the control, add code to the code file of the user control.  
   

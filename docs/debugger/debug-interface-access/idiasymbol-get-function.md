@@ -22,7 +22,7 @@ Retrieves a flag that specifies whether the public symbol refers to a function.
   
 ```C++  
 HRESULT get_function (   
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 );  
 ```  
   

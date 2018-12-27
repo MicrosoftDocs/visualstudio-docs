@@ -24,13 +24,13 @@ Sets or changes the pass count associated with the pending breakpoint.
   
 ```cpp  
 HRESULT SetPassCount(   
-   BP_PASSCOUNT bpPassCount  
+   BP_PASSCOUNT bpPassCount  
 );  
 ```  
   
 ```csharp  
 int SetPassCount(   
-   BP_PASSCOUNT bpPassCount  
+   BP_PASSCOUNT bpPassCount  
 );  
 ```  
   

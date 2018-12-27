@@ -22,7 +22,7 @@ Retrieves an enumerator that finds symbols in the order of their addresses.
   
 ```C++  
 HRESULT getSymbolsByAddr(   
-   IDiaEnumSymbolsByAddr** ppEnumbyAddr  
+   IDiaEnumSymbolsByAddr** ppEnumbyAddr  
 );  
 ```  
   

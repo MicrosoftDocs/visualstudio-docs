@@ -1,6 +1,6 @@
 ---
-title: "How to: Specify a .NET Framework Version For Debugging | Microsoft Docs"
-ms.custom: ""
+title: "Specify a .NET Framework version for debugging | Microsoft Docs"
+ms.custom: "seodec18"
 ms.date: "11/04/2016"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
@@ -19,38 +19,41 @@ manager: douge
 ms.workload: 
   - "dotnet"
 ---
-# How to: Specify a .NET Framework Version For Debugging
-The [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)] debugger supports debugging older versions of the Microsoft [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] as well as the current version. If you start an application from Visual Studio, the debugger can always identify the correct version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] for the application you are debugging. If the application is already running and you use **Attach to**, the debugger may not always be able to identify an older version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]. If this happens, you will get an error message that says,  
-  
- The debugger has made an incorrect assumption about the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] version your application is going to use.  
-  
- In these rare cases, you can set a registry key to indicate to the debugger which version to use.  
+# How to: Specify a .NET Framework Version For Debugging (C#, Visual Basic, F#)
+
+The Visual Studio debugger supports debugging older versions of the Microsoft [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] as well as the current version. If you start an application from Visual Studio, the debugger can always identify the correct version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] for the application you are debugging. However, if the application is already running and you start debugging by using **Attach to**, the debugger may not always be able to identify an older version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]. If this happens, you will get an error message that says,  
+
+``` cmd 
+The debugger has made an incorrect assumption about the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] version your application is going to use.  
+```
+
+In the rare cases where this error appears, you can set a registry key to indicate to the debugger which version to use.  
   
 ### To specify a .NET Framework version for debugging  
   
-1.  Look in the directory Windows\Microsoft.NET\Framework to find the versions of the .NET Framework installed on your machine. The version numbers look something like this:  
+1. Look in the directory Windows\Microsoft.NET\Framework to find the versions of the .NET Framework installed on your machine. The version numbers look something like this:  
   
-     `V1.1.4322`  
+    `V1.1.4322`  
   
-     Identify the correct version number and make a note of it.  
+    Identify the correct version number and make a note of it.  
   
-2.  Start the **Registry Editor** (regedit).  
+2. Start the **Registry Editor** (regedit).  
   
-3.  In the **Registry Editor**, open the HKEY_LOCAL_MACHINE folder.  
+3. In the **Registry Editor**, open the HKEY_LOCAL_MACHINE folder.  
   
-4.  Navigate to: HKEY_LOCAL_MACHINE\Software\Microsoft\VisualStudio\10.0\AD7Metrics\Engine\\{449EC4CC-30D2-4032-9256-EE18EB41B62B}  
+4. Navigate to: HKEY_LOCAL_MACHINE\Software\Microsoft\VisualStudio\10.0\AD7Metrics\Engine\\{449EC4CC-30D2-4032-9256-EE18EB41B62B}  
   
-     If the key does not exist, right-click HKEY_LOCAL_MACHINE\Software\Microsoft\VisualStudio\10.0\AD7Metrics\Engine, and click **New Key**. Name the new key `{449EC4CC-30D2-4032-9256-EE18EB41B62B}`.  
+    If the key does not exist, right-click HKEY_LOCAL_MACHINE\Software\Microsoft\VisualStudio\10.0\AD7Metrics\Engine, and click **New Key**. Name the new key `{449EC4CC-30D2-4032-9256-EE18EB41B62B}`.  
   
-5.  After navigating to {449EC4CC-30D2-4032-9256-EE18EB41B62B}, look in the **Name** column, and find the CLRVersionForDebugging key.  
+5. After navigating to {449EC4CC-30D2-4032-9256-EE18EB41B62B}, look in the **Name** column, and find the CLRVersionForDebugging key.  
   
-    1.  If the key does not exist, right-click {449EC4CC-30D2-4032-9256-EE18EB41B62B}, and click **New String Value**. Then right-click the new string value, click **Rename**, and type `CLRVersionForDebugging`.  
+   1.  If the key does not exist, right-click {449EC4CC-30D2-4032-9256-EE18EB41B62B}, and click **New String Value**. Then right-click the new string value, click **Rename**, and type `CLRVersionForDebugging`.  
   
-6.  Double-click **CLRVersionForDebugging**.  
+6. Double-click **CLRVersionForDebugging**.  
   
-7.  In the **Edit String** box, type the .NET Framework version number in the **Value** box. For example: V1.1.4322  
+7. In the **Edit String** box, type the .NET Framework version number in the **Value** box. For example: V1.1.4322  
   
-8.  Click **OK**.  
+8. Click **OK**.  
   
 9. Close the **Registry Editor**.  
   

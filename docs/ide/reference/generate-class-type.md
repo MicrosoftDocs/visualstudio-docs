@@ -1,5 +1,5 @@
 ---
-title: Generate a class or type in Visual Studio
+title: Generate class or type
 ms.date: 01/26/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
@@ -35,24 +35,24 @@ This code generation applies to:
 
    - C#:
 
-    ![Highlighted code C#](media/class-highlight-cs.png)
+       ![Highlighted code C#](media/class-highlight-cs.png)
 
    - Visual Basic:
 
-    ![Highlighted code VB](media/class-highlight-vb.png)
+       ![Highlighted code VB](media/class-highlight-vb.png)
 
-1. Next, do one of the following:
+2. Next, do one of the following:
 
    - **Keyboard**
-     - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
+      - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
    - **Mouse**
-     - Right-click and select the **Quick Actions and Refactorings** menu.
-     - Hover over the red squiggle and click the ![Lightbulb](media/bulb-cs.png) icon which appears.
-     - Click the ![Lightbulb](media/bulb-cs.png) icon which appears in the left margin if the text cursor is already on the line with the red squiggle.
+      - Right-click and select the **Quick Actions and Refactorings** menu.
+      - Hover over the red squiggle and click the ![Lightbulb](media/bulb-cs.png) icon that appears.
+      - Click the ![Lightbulb](media/bulb-cs.png) icon that appears in the left margin if the text cursor is already on the line with the red squiggle.
 
-    ![Generate class preview](media/class-preview-cs.png)
+      ![Generate class preview](media/class-preview-cs.png)
 
-1. Select one of the options from the drop-down menu:
+3. Select one of the options from the drop-down menu:
 
    - Generate class '*TypeName*' in new file&mdash;Creates a class named *TypeName* in a file named *TypeName*.cs/.vb
    - Generate class '*TypeName*'&mdash;Creates a class named *TypeName* in the current file.
@@ -62,7 +62,7 @@ This code generation applies to:
    > [!TIP]
    > Use the **Preview changes** link at the bottom of the preview window [to see all of the changes](../../ide/preview-changes.md) that will be made before making your selection.
 
-1. If you selected the **Generate new type** item, the **Generate Type** dialog box opens. Configure the accessibility, kind, and location of the new type.
+4. If you selected the **Generate new type** item, the **Generate Type** dialog box opens. Configure the accessibility, kind, and location of the new type.
 
    ![Generate type](media/class-newtype-cs.png)
 

@@ -30,7 +30,7 @@ Access the **InvokeMethod** activity designer in the **Primitives** category of 
 The following table shows the <xref:System.Activities.Statements.InvokeMethod> properties and describes how they're used in the designer. These properties can be edited in property grid, and some can be edited on Workflow Designer surface.
 
 |Property Name|Required|Usage|
-|-------------------|--------------|-----------|
+|-|--------------|-|
 |<xref:System.Activities.Activity.DisplayName%2A>|False|The friendly name of the <xref:System.Activities.Statements.InvokeMethod> activity. The default value is InvokeMethod.<br /><br /> Although the <xref:System.Activities.Activity.DisplayName%2A> is not strictly required, it's best to use one.|
 |<xref:System.Activities.Statements.InvokeMethod.MethodName%2A>|True|The name of the method to be called when the activity executes. The called method must be declared as **public**. This property can be edited on designer surface, and is mandatory.|
 |<xref:System.Activities.Statements.InvokeMethod.Parameters%2A>|False|The parameter collection of the called method. The parameters must be added to the collection in the same order that they appear in the method signature. To display the **Parameters** dialog where you can set this property, click the ellipsis button in the **Parameters** field of the property grid. Click the **Create Argument** button to add the parameters.|

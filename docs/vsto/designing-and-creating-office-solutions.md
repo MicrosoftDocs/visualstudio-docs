@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "Office development in Visual Studio, creating solutions"
   - "solutions [Office development in Visual Studio], creating"
   - "Office project types in Visual Studio"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -35,19 +35,19 @@ ms.workload:
 ## Choose a .NET Framework version  
  After selecting the project type that best fits your requirements, you can choose which version of the .NET Framework to use in your development process. You can target the following .NET Framework versions in Office projects:  
   
--   [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)]  
+- [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)]  
   
--   [!INCLUDE[net_client_v40_long](../vsto/includes/net-client-v40-long-md.md)]  
+- [!INCLUDE[net_client_v40_long](../vsto/includes/net-client-v40-long-md.md)]  
   
--   [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)]  
+- [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)]  
   
- The .NET Framework version that you choose for your project is required on end-user computers for your solution to run. For example, if your project targets the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)], the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] is required on end-user computers. In this example, your solution will not run if only the .NET Framework 3.5 is installed on end-user computers.  
+  The .NET Framework version that you choose for your project is required on end-user computers for your solution to run. For example, if your project targets the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)], the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] is required on end-user computers. In this example, your solution will not run if only the .NET Framework 3.5 is installed on end-user computers.  
   
- If you migrate a VSTO Add-in project that targets the .NET Framework 3.5, Visual Studio changes the target framework of your project to [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later depending on the version of Office that you have installed.  
+  If you migrate a VSTO Add-in project that targets the .NET Framework 3.5, Visual Studio changes the target framework of your project to [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later depending on the version of Office that you have installed.  
   
- However, after Visual Studio changes the target framework, you might need to modify some of the code in your project if it uses certain features. For more information about how to change the target framework, see [How to: Target a version of the .NET Framework](../ide/how-to-target-a-version-of-the-dotnet-framework.md). For more information about changes you might need to make in your project, see [Migrate Office solutions to the .NET Framework 4 or later](../vsto/migrating-office-solutions-to-the-dotnet-framework-4-or-later.md).  
+  However, after Visual Studio changes the target framework, you might need to modify some of the code in your project if it uses certain features. For more information about how to change the target framework, see [How to: Target a version of the .NET Framework](../ide/how-to-target-a-version-of-the-dotnet-framework.md). For more information about changes you might need to make in your project, see [Migrate Office solutions to the .NET Framework 4 or later](../vsto/migrating-office-solutions-to-the-dotnet-framework-4-or-later.md).  
   
- If Visual Studio changes the target .NET Framework for your project and you are using ClickOnce to deploy your solution, make sure that you also select the corresponding version of the .NET Framework in the **Prerequisites** dialog box. This selection does not change automatically when you change the target framework for your project. For more information, see [How to: Install prerequisites on end-user computers to run Office solutions](http://msdn.microsoft.com/74dd2c52-838f-4abf-b2b4-4d7b0c2a0a98).  
+  If Visual Studio changes the target .NET Framework for your project and you are using ClickOnce to deploy your solution, make sure that you also select the corresponding version of the .NET Framework in the **Prerequisites** dialog box. This selection does not change automatically when you change the target framework for your project. For more information, see [How to: Install prerequisites on end-user computers to run Office solutions](https://msdn.microsoft.com/74dd2c52-838f-4abf-b2b4-4d7b0c2a0a98).  
   
 > [!NOTE]  
 >  You cannot target the .NET Framework 3.5 or earlier in Office projects that you create by using [!INCLUDE[vs_dev12](../vsto/includes/vs-dev12-md.md)]. Office projects that you create by using [!INCLUDE[vs_dev12](../vsto/includes/vs-dev12-md.md)] require features that were first introduced in the [!INCLUDE[net_client_v40_long](../vsto/includes/net-client-v40-long-md.md)]  
@@ -55,7 +55,7 @@ ms.workload:
 ### Understand when the Office PIAs are required on end-user computers  
  By default, Office primary interop assemblies (PIAs) do not need to be installed on end-user computers if the **Embed Interop Types** property of each Office PIA reference in the project is set to **True**, which is the default value. In this scenario, the type information for the PIA types that are used by your solution is embedded into the solution assembly when you build the project. At run time, the embedded type information is used instead of the PIAs to call into the Office application's COM-based object model. For more information about how types from PIAs are embedded into your solution, see [Type equivalence and embedded interop types](/dotnet/framework/interop/type-equivalence-and-embedded-interop-types).  
   
- If the **Embed Interop Types** property of each Office PIA reference in the project is set to **False**, Office PIAs must be installed and registered in the global assembly cache on each end-user computer that runs the solution. In most cases, the PIAs are installed by default with Office, but you can also include the PIA redistributable as a prerequisite for your solution. For more information, see [Office solution prerequisites for deployment](http://msdn.microsoft.com/9f672809-43a3-40a1-9057-397ce3b5126e).  
+ If the **Embed Interop Types** property of each Office PIA reference in the project is set to **False**, Office PIAs must be installed and registered in the global assembly cache on each end-user computer that runs the solution. In most cases, the PIAs are installed by default with Office, but you can also include the PIA redistributable as a prerequisite for your solution. For more information, see [Office solution prerequisites for deployment](https://msdn.microsoft.com/9f672809-43a3-40a1-9057-397ce3b5126e).  
   
 ### Understand the client profile  
  The .NET Framework Client Profile is a subset of the full .NET Framework. You can target the .NET Framework Client Profile if you need to use only the client features in the .NET Framework and you want to provide the fastest possible deployment experience for your Office solution. For more information, see [.NET Framework client profile](/dotnet/framework/deployment/client-profile).  

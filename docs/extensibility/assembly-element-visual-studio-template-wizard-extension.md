@@ -2,9 +2,8 @@
 title: "Assembly Element (Visual Studio Template Wizard Extension) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-general"
-ms.topic: "conceptual"
+ms.technology: vs-ide-general
+ms.topic: reference
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/vstemplate/2005#Assembly"
 helpviewer_keywords: 
@@ -17,7 +16,7 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Assembly Element (Visual Studio Template Wizard Extension)
+# Assembly element (Visual Studio template wizard extension)
 Specifies the name or strong name of the assembly that implements the `IWizard` interface.  
   
  \<VSTemplate>  
@@ -30,22 +29,22 @@ Specifies the name or strong name of the assembly that implements the `IWizard` 
 <Assembly>AssemblyName</Assembly>  
 ```  
   
-## Attributes and Elements  
+## Attributes and elements  
  The following sections describe attribute, child elements, and parent elements.  
   
 ### Attributes  
  None.  
   
-### Child Elements  
+### Child elements  
  None.  
   
-### Parent Elements  
+### Parent elements  
   
 |Element|Description|  
 |-------------|-----------------|  
 |[WizardExtension](../extensibility/wizardextension-element-visual-studio-templates.md)|Contains the registration elements for customizing the template wizard.|  
   
-## Text Value  
+## Text value  
  A text value is required.  
   
  This text specifies the assembly that implements the `IWizard` interface. This assembly name must be specified as a full assembly name. For example, `MyAssembly, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11dd0a3a, Custom = null`.  
@@ -84,7 +83,7 @@ Specifies the name or strong name of the assembly that implements the `IWizard` 
 </VSTemplate>  
 ```  
   
-## See Also  
- [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)   
- [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)   
- [How to: Use Wizards with Project Templates](../extensibility/how-to-use-wizards-with-project-templates.md)
+## See also  
+ [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)   
+ [Creating project and item templates](../ide/creating-project-and-item-templates.md)   
+ [How to: Use wizards with project templates](../extensibility/how-to-use-wizards-with-project-templates.md)

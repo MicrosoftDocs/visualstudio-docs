@@ -1,6 +1,6 @@
 ---
-title: "How to trigger suspend, resume, and background events while debugging UWP apps | Microsoft Docs"
-ms.custom: ""
+title: "Trigger suspend, resume, and background events while debugging UWP | Microsoft Docs"
+ms.custom: "seodec18"
 ms.date: "01/16/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
@@ -42,7 +42,7 @@ When you are not debugging, Windows **Process Lifetime Management** (PLM) contro
      Note that **Suspend and terminate** closes the app and ends the debug session.  
   
 ##  <a name="BKMK_Trigger_background_tasks"></a> Trigger background tasks  
- Any app can register a background task to respond to certain system events, even when the app is not running. Background tasks can't run code that directly updates the UI; instead, they show information to the user with tile updates, badge updates, and toast notifications. For more information, see [Supporting your app with background tasks](http://msdn.microsoft.com/en-us/4c7bb148-eb1f-4640-865e-41f627a46e8e)  
+ Any app can register a background task to respond to certain system events, even when the app is not running. Background tasks can't run code that directly updates the UI; instead, they show information to the user with tile updates, badge updates, and toast notifications. For more information, see [Supporting your app with background tasks](https://msdn.microsoft.com/library/4c7bb148-eb1f-4640-865e-41f627a46e8e)  
   
  You can trigger the events that start background tasks for your app from the debugger.  
   

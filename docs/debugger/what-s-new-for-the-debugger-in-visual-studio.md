@@ -1,7 +1,7 @@
 ---
 title: "What's New for the Debugger in Visual Studio 2017 | Microsoft Docs"
 ms.custom: ""
-ms.date: "03/07/2016"
+ms.date: "01/22/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs:
@@ -29,8 +29,8 @@ The debugger includes these new features:
 
     Snapshot collection is available for the following web apps running in Azure App Service:
 
-    * ASP.NET applications running on .NET Framework 4.6.1 or later.
-    * ASP.NET Core applications running on .NET Core 2.0 or later on Windows.
+  * ASP.NET applications running on .NET Framework 4.6.1 or later.
+  * ASP.NET Core applications running on .NET Core 2.0 or later on Windows.
 
     For more information, see [Debug live ASP.NET apps using the Snapshot Debugger](../debugger/debug-live-azure-applications.md).
 
@@ -40,7 +40,7 @@ The debugger includes these new features:
 
     ![Step Backward and Forward Buttons](../debugger/media/intellitrace-step-back-icons-description.png  "Step Backward and Forward buttons")
 
-    For more information, see the [View snapshots using IntelliTrace step-back](../debugger/how-to-use-intellitrace-step-back.md) page.
+    For more information, see the [Inspect previous app states using IntelliTrace](../debugger/view-historical-application-state.md) page.
 
 - The **Exception Helper** replaces the Exception Assistant and appears in a non-modal dialog box where the error occurred. The **Exception Helper** provides quicker access to any inner exceptions, additional analysis by the debugger (if available), and immediate access to the **Exception Settings** for the exception. The Exception Helper can also be dragged to a floating view if it is blocking something that you need to see.
 

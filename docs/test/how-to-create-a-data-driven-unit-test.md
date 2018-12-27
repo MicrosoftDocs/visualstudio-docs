@@ -1,5 +1,5 @@
 ---
-title: "How To: Create a Data-Driven Unit Test in Visual Studio"
+title: "How To: Create a Data-Driven Unit Test"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
@@ -59,16 +59,16 @@ public int AddIntegers(int first, int second)
 }
 ```
 
-##  <a name="BKMK_Creating_a_data_source"></a> Creating a data source
+##  Create a data source
  To test the `AddIntegers` method, create a data source that specifies a range of values for the parameters and the sum that you expect to be returned. In this example, we'll create a Sql Compact database named `MathsData` and a table named `AddIntegersData` that contains the following column names and values
 
 |FirstNumber|SecondNumber|Sum|
-|-----------------|------------------|---------|
+|-|------------------|-|
 |0|1|1|
 |1|1|2|
 |2|-3|-1|
 
-##  <a name="BKMK_Adding_a_TestContext_to_the_test_class"></a> Adding a TestContext to the test class
+##  Add a TestContext to the test class
  The unit test framework creates a `TestContext` object to store the data source information for a data-driven test. The framework then sets this object as the value of the `TestContext` property that you create.
 
 ```csharp
@@ -82,7 +82,7 @@ public TestContext TestContext
 
  In your test method, you access the data through the `DataRow` indexer property of the `TestContext`.
 
-##  <a name="BKMK_Writing_the_test_method"></a> Writing the test method
+##  Write the test method
  The test method for `AddIntegers` is fairly simple. For each row in the data source, call `AddIntegers` with the **FirstNumber** and **SecondNumber** column values as parameters, and verify the return value against **Sum** column value:
 
 ```csharp
@@ -105,7 +105,7 @@ public void AddIntegers_FromDataSourceTest()
 
 The `Assert` method includes a message that displays the `x` and `y` values of a failed iteration. By default, the asserted values, `expected` and `actual`, are already included in the details of a failed test.
 
-###  <a name="BKMK_Specifying_the_DataSourceAttribute"></a> Specifying the DataSourceAttribute
+###  <a name="BKMK_Specifying_the_DataSourceAttribute"></a> Specify the DataSourceAttribute
  The `DataSource` attribute specifies the connection string for the data source and the name of the table that you use in the test method. The exact information in the connection string differs, depending on what kind of data source you are using. In this example, we used a SqlServerCe database.
 
 ```csharp
@@ -118,9 +118,9 @@ The DataSource attribute has three constructors.
 [DataSource(dataSourceSettingName)]
 ```
 
- A constructor with one parameter uses connection information that is stored in the app.config file for the solution. The *dataSourceSettingsName* is the name of the Xml element in the config file that specifies the connection information.
+ A constructor with one parameter uses connection information that is stored in the *app.config* file for the solution. The *dataSourceSettingsName* is the name of the Xml element in the config file that specifies the connection information.
 
- Using an app.config file allows you to change the location of the data source without making changes to the unit test itself. For information about how to create and use an app.config file, see [Walkthrough: Using a Configuration File to Define a Data Source](../test/walkthrough-using-a-configuration-file-to-define-a-data-source.md)
+ Using an *app.config* file allows you to change the location of the data source without making changes to the unit test itself. For information about how to create and use an *app.config* file, see [Walkthrough: Using a Configuration File to Define a Data Source](../test/walkthrough-using-a-configuration-file-to-define-a-data-source.md)
 
 ```csharp
 [DataSource(connectionString, tableName)]
@@ -139,19 +139,19 @@ The DataSource attribute has three constructors.
     )]
 ```
 
-###  <a name="BKMK_Using_TestContext_DataRow_to_access_the_data"></a> Using TestContext.DataRow to access the data
+###  <a name="BKMK_Using_TestContext_DataRow_to_access_the_data"></a> Use TestContext.DataRow to access the data
  To access the data in the `AddIntegersData` table, use the `TestContext.DataRow` indexer. `DataRow` is a <xref:System.Data.DataRow> object, so retrieve column values by index or column names. Because the values are returned as objects, convert them to the appropriate type:
 
 ```csharp
 int x = Convert.ToInt32(TestContext.DataRow["FirstNumber"]);
 ```
 
-##  <a name="BKMK_Running_the_test_and_viewing_results"></a> Running the test and viewing results
- When you have finished writing a test method, build the test project. The test method appears in the Test Explorer window in the **Not Run Tests** group. As you run, write, and rerun your tests, Test Explorer displays the results in groups of **Failed Tests**, **Passed Tests**, and **Not Run Tests**. You can choose **Run All** to run all your tests, or choose **Run** to choose a subset of tests to run.
+##  Run the test and view results
+ When you have finished writing a test method, build the test project. The test method appears in the **Test Explorer** window in the **Not Run Tests** group. As you run, write, and rerun your tests, **Test Explorer** displays the results in groups of **Failed Tests**, **Passed Tests**, and **Not Run Tests**. You can choose **Run All** to run all your tests, or choose **Run** to choose a subset of tests to run.
 
- The test results bar at the top of the Explorer is animated as your test runs. At the end of the test run, the bar will be green if all of the tests have passed or red if any of the tests have failed. A summary of the test run appears in the details pane at the bottom of the Test Explorer window. Select a test to view the details of that test in the bottom pane.
+ The test results bar at the top of the Explorer is animated as your test runs. At the end of the test run, the bar will be green if all of the tests have passed or red if any of the tests have failed. A summary of the test run appears in the details pane at the bottom of the **Test Explorer** window. Select a test to view the details of that test in the bottom pane.
 
- If you ran the `AddIntegers_FromDataSourceTest` method in our example, the results bar turns red and the test method is moved to the **Failed Tests** A data-driven test fails if any of the iterated methods from the data source fails. When you choose a failed data-driven test in the Test Explorer window, the details pane displays the results of each iteration that is identified by the data row index. In our example, it appears that the `AddIntegers` algorithm does not handle negative values correctly.
+ If you ran the `AddIntegers_FromDataSourceTest` method in our example, the results bar turns red and the test method is moved to the **Failed Tests**. A data-driven test fails if any of the iterated methods from the data source fails. When you choose a failed data-driven test in the **Test Explorer** window, the details pane displays the results of each iteration that is identified by the data row index. In our example, it appears that the `AddIntegers` algorithm does not handle negative values correctly.
 
  When the method under test is corrected and the test rerun, the results bar turns green and the test method is moved to the **Passed Test** group.
 
@@ -161,6 +161,6 @@ int x = Convert.ToInt32(TestContext.DataRow["FirstNumber"]);
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext?displayProperty=fullName>
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.DataRow%2A?displayProperty=fullName>
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert?displayProperty=fullName>
-- [Unit Test Your Code](../test/unit-test-your-code.md)
+- [Unit test your code](../test/unit-test-your-code.md)
 - [Run unit tests with Test Explorer](../test/run-unit-tests-with-test-explorer.md)
-- [Writing Unit Tests for the .NET Framework with the Microsoft Unit Test Framework for Managed Code](../test/writing-unit-tests-for-the-dotnet-framework-with-the-microsoft-unit-test-framework-for-managed-code.md)
+- [Write unit tests for the .NET Framework with the Microsoft unit test framework for managed code](../test/unit-test-your-code.md)

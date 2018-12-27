@@ -27,11 +27,11 @@ End the current tracking context.
 HRESULT WINAPI EndTrackingContext();  
 ```  
   
-## Return Value  
+## Return value  
  An **HRESULT** with the **SUCCEEDED** bit set if the tracking context was ended.  
   
 ## Requirements  
- **Header:** FileTracker.h  
+ **Header:** *FileTracker.h*  
   
-## See Also  
+## See also  
  [StartTrackingContext](../msbuild/starttrackingcontext.md)

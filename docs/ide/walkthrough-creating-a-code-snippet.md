@@ -28,8 +28,7 @@ You can create a code snippet with only a few steps. All you need to do is creat
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
-<CodeSnippets
-    xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
     <CodeSnippet Format="1.0.0">
         <Header>
             <Title></Title>
@@ -49,7 +48,7 @@ You can create a code snippet with only a few steps. All you need to do is creat
 
 2.  Fill in the title of the snippet, e.g. "Hello World VB", in the **Title** element.
 
-3.  Fill in the language of the snippet in the **Languages** attribute of the **Code** element. For this example, use "VB".
+3.  Fill in the language of the snippet in the **Language** attribute of the **Code** element. For this example, use "VB".
 
 4.  Add some code in the **CDATA** section inside the **Code** element, for example:
 
@@ -185,7 +184,7 @@ You can create a code snippet with only a few steps. All you need to do is creat
     </Imports>
     ```
 
-4.  To declare a literal replacement for the SQL connection string, add a **Declarations** element under the **Snippet** element, and in it add a **Literal** element with subelements for the ID, the tooltip, and the default value for the replacement:
+4.  To declare a literal replacement for the SQL connection string, add a **Declarations** element under the **Snippet** element, and in it add a **Literal** element with sub-elements for the ID, the tooltip, and the default value for the replacement:
 
     ```xml
     <Declarations>

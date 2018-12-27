@@ -18,11 +18,11 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# &lt;Package&gt; Element (Bootstrapper)
+# &lt;Package&gt; element (bootstrapper)
 The `Package` element is the top-level XML element inside of a package file.  
-  
+
 ## Syntax  
-  
+
 ```xml  
 <Package  
     Culture  
@@ -69,7 +69,7 @@ The `Package` element is the top-level XML element inside of a package file.
             SearchDepth  
         />  
     </InstallChecks>  
-  
+
     <Commands  
         Reboot  
     >  
@@ -105,7 +105,7 @@ The `Package` element is the top-level XML element inside of a package file.
             </ExitCodes>  
         </Command>  
     </Commands>  
-  
+
     <PackageFiles  
         CopyAllComponents  
     >  
@@ -116,14 +116,14 @@ The `Package` element is the top-level XML element inside of a package file.
             PublicKey  
         />  
     </PackageFiles>  
-  
+
     <Strings>  
         <String  
             Name  
         >  
         </String>  
     </Strings>  
-  
+
     <Schedules>  
         <Schedule  
             Name  
@@ -135,33 +135,34 @@ The `Package` element is the top-level XML element inside of a package file.
     </Schedules>  
 </Package>  
 ```  
-  
-## Elements and Attributes  
+
+## Elements and attributes  
  The `Package` element is required. It has the following attributes.  
-  
-|Attribute|Description|  
-|---------------|-----------------|  
-|`Culture`|Required. Defines the culture for this package, which determines the language to be used. This attribute is a key into the `Strings` element, which lists culture-specific strings for product names and error messages during the installation.|  
-|`Name`|Required. The name of the package displayed to the developer within a tool such as [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. This attribute is a key into the `Strings` element, which should contain a `String` element with the `Name` and `Culture` properties set to match the `Name` and `Culture` properties of `Package`.|  
-|`LicenseAgreement`|Optional. Specifies the name of the file in the distribution package which contains the End-User License Agreement (EULA).  This file can be either plain text (.txt) or Rich Text Format. (.rtf)|  
-  
+
+
+| Attribute | Description |
+|--------------------| - |
+| `Culture` | Required. Defines the culture for this package, which determines the language to be used. This attribute is a key into the `Strings` element, which lists culture-specific strings for product names and error messages during the installation. |
+| `Name` | Required. The name of the package displayed to the developer within a tool such as [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. This attribute is a key into the `Strings` element, which should contain a `String` element with the `Name` and `Culture` properties set to match the `Name` and `Culture` properties of `Package`. |
+| `LicenseAgreement` | Optional. Specifies the name of the file in the distribution package which contains the End-User License Agreement (EULA).  This file can be either plain text (*.txt*) or Rich Text Format. (*.rtf*) |
+
 ## Example  
  The following code example shows a complete package file for redistributing the [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)].  
-  
+
 ```xml  
 <?xml version="1.0" encoding="utf-8" ?>  
-  
+
 <Package  
   xmlns="http://schemas.microsoft.com/developer/2004/01/bootstrapper"  
   Name="DisplayName"  
   Culture="Culture"  
   LicenseAgreement="eula.rtf"  
 >  
-  
+
     <PackageFiles>  
         <PackageFile Name="eula.rtf"/>  
     </PackageFiles>  
-  
+
     <!-- Defines a localizable string table for error messages-->  
     <Strings>  
         <String Name="DisplayName">.NET Framework 2.0</String>  
@@ -179,9 +180,9 @@ The `Package` element is the top-level XML element inside of a package file.
         <String Name="InstMsiAExe">http://go.microsoft.com/fwlink/?LinkId=37285</String>  
         <String Name="Msi30Exe">http://go.microsoft.com/fwlink/?LinkId=37287</String>  
     </Strings>  
-  
+
 </Package>  
 ```  
-  
-## See Also  
- [Product and Package Schema Reference](../deployment/product-and-package-schema-reference.md)
+
+## See also  
+ [Product and package schema reference](../deployment/product-and-package-schema-reference.md)

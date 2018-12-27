@@ -1,5 +1,5 @@
 ---
-title: Roslyn analyzers in Visual Studio
+title: Code analysis using Roslyn analyzers
 ms.date: 03/26/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
@@ -16,7 +16,7 @@ ms.workload:
 ---
 # Overview of .NET Compiler Platform analyzers
 
-Visual Studio 2017 includes a built-in set of .NET Compiler Platform analyzers that analyze your C# or Visual Basic code as you type. You can install additional analyzers as a Visual Studio extension, or on a per-project basis as a NuGet package. Analyzers look at code style, code quality and maintainability, code design, and other issues.
+Visual Studio 2017 includes a built-in set of .NET Compiler Platform analyzers that analyze your C# or Visual Basic code as you type. Analyzers look at code style, code quality and maintainability, code design, and other issues. You can install additional analyzers as a Visual Studio extension, or on a per-project basis as a NuGet package.
 
 If rule violations are found by an analyzer, they are reported both in the code editor as a *squiggly* under the offending code, and in the **Error List**.
 
@@ -46,7 +46,7 @@ To differentiate between violations from Roslyn analyzers and static code analys
 
 ![Tool column in Error List](media/code-analysis-tool-in-error-list.png)
 
-## NuGet package vs. extension
+## NuGet package versus VSIX extension
 
 .NET Compiler Platform analyzers can be installed per-project via a NuGet package, or Visual Studio-wide as a Visual Studio extension. There are some key behavior differences between these two methods of [installing analyzers](../code-quality/install-roslyn-analyzers.md).
 
@@ -68,8 +68,11 @@ You cannot set the severity of rules from analyzers that were installed as a Vis
 
 ## Next steps
 
-- [Install Roslyn analyzers in Visual Studio](../code-quality/install-roslyn-analyzers.md)
-- [Use Roslyn analyzers in Visual Studio](../code-quality/use-roslyn-analyzers.md)
+> [!div class="nextstepaction"]
+> [Install Roslyn analyzers in Visual Studio](../code-quality/install-roslyn-analyzers.md)
+
+> [!div class="nextstepaction"]
+> [Use Roslyn analyzers in Visual Studio](../code-quality/use-roslyn-analyzers.md)
 
 ## See also
 

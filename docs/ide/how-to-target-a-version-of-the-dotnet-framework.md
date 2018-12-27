@@ -1,5 +1,5 @@
 ---
-title: Target a .NET Framework version in Visual Studio
+title: Target a .NET Framework version
 ms.date: 02/06/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general

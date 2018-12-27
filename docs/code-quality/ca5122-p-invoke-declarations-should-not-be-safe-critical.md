@@ -12,6 +12,7 @@ ms.workload:
   - "multiple"
 ---
 # CA5122 P/Invoke declarations should not be safe critical
+
 |||
 |-|-|
 |TypeName|PInvokesShouldNotBeSafeCriticalFxCopRule|
@@ -32,15 +33,14 @@ public class C
     [DllImport("kernel32.dll")]
     public static extern bool Beep(int frequency, int duration); // CA5122 - safe critical p/invoke
    }
-
 ```
 
  In this example, `C.Beep(...)` has been marked as a security safe critical method.
 
-## Rule Description
+## Rule description
  Methods are marked as SecuritySafeCritical when they perform a security sensitive operation, but are also safe to be used by transparent code. One of the fundamental rules of the security transparency model is that transparent code may never directly call native code through a P/Invoke. Therefore, marking a P/Invoke as security safe critical will not enable transparent code to call it, and is misleading for security analysis.
 
-## How to Fix Violations
+## How to fix violations
  To make a P/Invoke available to transparent code, expose a security safe critical wrapper method for it:
 
 ```csharp
@@ -58,8 +58,7 @@ class C
       return BeepPInvoke(frequency, duration);
    }
 }
-
 ```
 
-## When to Suppress Warnings
+## When to suppress warnings
  Do not suppress a warning from this rule.

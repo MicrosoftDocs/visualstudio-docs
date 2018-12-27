@@ -1,5 +1,5 @@
 ---
-title: "Specify Test Agents to Use in Load Test Scenarios in Visual Studio"
+title: "Specify Test Agents to Use in Load Test Scenarios"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -15,25 +15,27 @@ manager: douge
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
-# How to: Specify Test Agents to Use in Load Test Scenarios
+# How to: Specify test agents to use in load test scenarios
 
 After you create your load test by using the **New Load Test Wizard**, you can use the **Load Test Editor** to change the scenarios properties to meet your testing needs and goals.
 
-> [!NOTE]
-> For a full list of the load test scenario properties and their descriptions, see [Load Test Scenario Properties](../test/load-test-scenario-properties.md).
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
-The agents are specified by using the Load Test Editor to change the **Agents to Use** property in the Properties window.
+> [!NOTE]
+> For a full list of the load test scenario properties and their descriptions, see [Load test scenario properties](../test/load-test-scenario-properties.md).
+
+The agents are specified by using the **Load Test Editor** to change the **Agents to Use** property in the **Properties** window.
 
 You can specify the agents that you want your scenario to use if you are using controllers and agents to run the load test remotely. For example, you might want to specify a specific set of agents so that you maintain consistency when you analyze performance trends. Also, agents may be geographically distributed, so that an affinity exists between which scripts they run and where the agent is located.
 
 > [!TIP]
-> Rather than physically putting an agent at the remote site, another option is to use network emulation to emulate the slow network. For more information, see [Specifying Virtual Network Types](../test/specify-virtual-network-types-in-a-load-test-scenario.md) and [Specifying Virtual Network Types](../test/specify-virtual-network-types-in-a-load-test-scenario.md).
+> Rather than physically putting an agent at the remote site, another option is to use network emulation to emulate the slow network. For more information, see [Specify virtual network types](../test/specify-virtual-network-types-in-a-load-test-scenario.md).
 
 For more information, see  [Test controllers and test agents](configure-test-agents-and-controllers-for-load-tests.md).
 
 Another reason is that some, but not all, agents might have software installed on them that is required for a particular scenario.
 
-You can control agent selection for a given test run by using roles in test settings. For more information, see  [Collect Diagnostic Information Using Test Settings](../test/collect-diagnostic-information-using-test-settings.md).
+You can control agent selection for a given test run by using roles in test settings. For more information, see  [Collect diagnostic information using test settings](../test/collect-diagnostic-information-using-test-settings.md).
 
 If a test agent machine has more than 75 percent CPU utilization or has less than 10 percent of physical memory available, add more agents to your load test to make sure that the agent machine does not become the bottleneck in your load test.
 
@@ -41,13 +43,13 @@ If a test agent machine has more than 75 percent CPU utilization or has less tha
 
 1.  Open a load test.
 
-     The Load Test Editor appears. The load test tree is displayed.
+     The **Load Test Editor** appears. The load test tree is displayed.
 
 2.  In the load test trees **Scenarios** folder, choose the scenario node for which you want to specify the agents to use.
 
 3.  On the **View** menu, select **Properties Window**.
 
-     The categories and properties of the scenario are displayed in the Properties window.
+     The categories and properties of the scenario are displayed in the **Properties** window.
 
 4.  In the text box for the **Agents to Use** property, type the list of agents on which the scenario may run.
 
@@ -60,7 +62,7 @@ If a test agent machine has more than 75 percent CPU utilization or has less tha
 
 ## See also
 
-- [Editing Load Test Scenarios](../test/edit-load-test-scenarios.md)
+- [Edit load test scenarios](../test/edit-load-test-scenarios.md)
 - [Walkthrough: Create and run a load test](../test/walkthrough-create-and-run-a-load-test.md)
 - [Test controllers and test agents](configure-test-agents-and-controllers-for-load-tests.md)
-- [Load Test Scenario Properties](../test/load-test-scenario-properties.md)
+- [Load test scenario properties](../test/load-test-scenario-properties.md)

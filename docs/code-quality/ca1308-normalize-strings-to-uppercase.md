@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA1308: Normalize strings to uppercase
+
 |||
 |-|-|
 |TypeName|NormalizeStringsToUppercase|
@@ -28,14 +29,14 @@ ms.workload:
 ## Cause
  An operation normalizes a string to lowercase.
 
-## Rule Description
+## Rule description
  Strings should be normalized to uppercase. A small group of characters, when they are converted to lowercase, cannot make a round trip. To make a round trip means to convert the characters from one locale to another locale that represents character data differently, and then to accurately retrieve the original characters from the converted characters.
 
-## How to Fix Violations
+## How to fix violations
  Change operations that convert strings to lowercase so that the strings are converted to uppercase instead. For example, change `String.ToLower(CultureInfo.InvariantCulture)` to `String.ToUpper(CultureInfo.InvariantCulture)`.
 
-## When to Suppress Warnings
+## When to suppress warnings
  It is safe to suppress a warning message when you are not making security decision based on the result (for example, when you are displaying it in the UI).
 
-## See Also
+## See also
  [Globalization Warnings](../code-quality/globalization-warnings.md)

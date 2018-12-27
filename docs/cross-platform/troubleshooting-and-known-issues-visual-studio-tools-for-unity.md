@@ -1,26 +1,38 @@
 ---
 title: "Troubleshooting and Known Issues (Visual Studio Tools for Unity) | Microsoft Docs"
 ms.custom: ""
-ms.date: "04/10/2018"
+ms.date: "07/03/2018"
 ms.technology: vs-unity-tools
 ms.topic: "conceptual"
 ms.assetid: 8f5db192-8d78-4627-bd07-dbbc803ac554
-author: "conceptdev"
-ms.author: "crdun"
+author: therealjohn
+ms.author: johmil
 manager: crdun
 ms.workload:
   - "unity"
 ---
-# Troubleshooting and Known Issues (Visual Studio Tools for Unity)
+# Troubleshooting and known issues (Visual Studio Tools for Unity)
+
 In this section, you'll find solutions to common issues with Visual Studio Tools for Unity, descriptions of known issues, and learn how you can help improve Visual Studio Tools for Unity by reporting errors.
 
-## Troubleshooting
-To resolve some common issues with Visual Studio Tools for Unity, see the following sections.
+## Troubleshooting the connection between Unity and Visual Studio
 
-### Visual Studio crashes
-This can be due to the Visual Studio MEF cache being corrupted.
+### Confirm Editor Attaching is enabled
 
-You should remove the following folder to reset the MEF cache (please close Visual Studio before doing this):
+In the Unity Menu, select **Edit > Preferences** and then select the **External Tools** tab. Confirm that the **Editor Attaching** checkbox is enabled. For more information, see the [Unity Preferences documentation](https://docs.unity3d.com/Manual/Preferences.html).
+
+### Unable to attach
+
+- Try to temporarily disable your antivirus or create exclusion rules for both VS and Unity.
+- Try to temporarily disable your firewall or create rules for allowing TCP/UDP networking between VS and Unity.
+- Some programs, like Team Viewer, can interfere with process detection. You can try to temporarily stop any extra software to see if it changes something.
+- Do not rename the main Unity executable, as VSTU is only monitoring "Unity.exe" processes.
+
+## Visual Studio crashes
+
+This issue can be due to the Visual Studio MEF cache being corrupted.
+
+Try removing the following folder to reset the MEF cache (close Visual Studio before doing this):
 
 ```batch
 %localappdata%\Microsoft\VisualStudio\<version>\ComponentModelCache
@@ -32,98 +44,91 @@ This should fix your issue. In case you are still experiencing the problem, run 
  devenv /setup
 ```
 
-### Issues with Visual Studio 2015 and IntelliSense or code coloration.
-You should try to upgrade your Visual Studio 2015 to update 3.
+## Visual Studio hangs
 
-### Shader files without code coloration when using Visual Studio 2017
-Please make sure that the "Desktop Development with C++" workload is installed in your instance of Visual Studio 2017. The C/C++ parser used for code coloration is bundled with this workload.
+Several Unity plugins like Parse, FMOD, UMP (Universal Media Player), ZFBrowser, or Embedded Browser are using native threads. It’s an issue when a plugin ends up attaching a native thread to the runtime, which then does blocking calls to the OS. This means Unity can't interrupt that thread for the debugger (or domain reload) and hang.
 
-### Visual Studio hangs
-Several Unity plugins like Parse, FMOD, UMP (Universal Media Player), ZFBrowser or Embedded Browser are using native threads. It’s an issue when a plugin ends up attaching a native thread to the runtime, which then does blocking calls to the OS. This means Unity can't interrupt that thread for the debugger (or domain reload) and hang.
+For FMOD, there is a workaround, you can pass `FMOD_STUDIO_INIT_SYNCHRONOUS_UPDATE` initialization [flag](https://www.fmod.org/docs/content/generated/FMOD_STUDIO_INITFLAGS.html) to disable asynchronous processing and perform all processing on the main thread.
 
-For FMOD, there is a workaround, you can pass FMOD_STUDIO_INIT_SYNCHRONOUS_UPDATE initialization [flag](https://www.fmod.org/docs/content/generated/FMOD_STUDIO_INITFLAGS.html) to disable asynchronous processing and perform all processing on the main thread.
+## Incompatible project in Visual Studio
 
-### Incompatible project in Visual Studio
 First, check that Visual Studio is set as your external script editor in Unity (Edit/Preferences/External Tools). Then check that the Visual Studio   plugin is installed in Unity (Help/About must display a message like Microsoft Visual Studio Tools for Unity is enabled at the bottom). Then check that the extension is properly installed in Visual Studio (Help/About).
 
-### Extra reloads, or Visual Studio losing all open windows
+## Extra reloads, or Visual Studio losing all open windows
+
 Be sure to never touch project files directly from an asset processor or any other tool. If you really need to manipulate the project file, we expose an API for that. Please check the [Assembly references issues section](#Assembly-reference-issues).
 
-If you experience extra reloads or if Visual Studio is losing all open Windows on reload, please make sure that you have proper .NET targeting packs installed. Please check the following section about frameworks for more information.
+If you experience extra reloads or if Visual Studio is losing all open Windows on reload, make sure that you have proper .NET targeting packs installed. Check the following section about frameworks for more information.
 
-###  The debugger does not break on exceptions
+## The debugger does not break on exceptions
+
 When using the legacy Unity runtime (.NET 3.5 equivalent), the debugger will always break when an exception is unhandled (=outside a try/catch block). If the exception is handled, the debugger will use the Exception Settings Window to determine if a break is required or not.
 
 With the new runtime (.NET 4.6 equivalent), Unity introduced a new way for managing user exceptions and as a result, all exceptions are seen as "user-handled" even if they are outside a try/catch block. That's why you now need to explicitly check them in the Exception Settings Window if you want the debugger to break.
 
 In the Exception Settings window (Debug > Windows > Exception Settings), expand the node for a category of exceptions (for example, Common Language Runtime Exceptions, meaning .NET exceptions), and select the check box for the specific exception you want to catch within that category (for example System.NullReferenceException). You can also select an entire category of exceptions.
 
-### On Windows, Visual Studio asks to download the Unity target framework
+## On Windows, Visual Studio asks to download the Unity target framework
+
 Visual Studio Tools for Unity requires the .NET framework 3.5, which isn't installed by default on Windows 8 or 10. To fix this issue, follow the instructions to download and install the .NET framework 3.5.
 
 When using the new Unity runtime, .NET targeting packs version 4.6 and 4.7.1 are also required. It is possible to use the VS2017 installer to quickly install them (modify your VS2017 installation, individual components, .NET category, select all 4.x targeting packs).
 
-### Assembly reference issues
+## Assembly reference issues
+
 If your project is complex reference-wise or if you want to better control this generation step, you can use our [API](../cross-platform/customize-project-files-created-by-vstu.md) for manipulating the generated project or solution content. You can also use [response files](https://docs.unity3d.com/Manual/PlatformDependentCompilation.html) in your Unity project and we'll process them.
 
-### Breakpoints with a warning
-If Visual Studio is unable to find a source location for a specific breakpoint you will see a warning around your breakpoint. Check that the behaviour you are using is properly loaded/used in the current Unity scene.
+## Breakpoints with a warning
 
-### Breakpoints not hit
-Check that the behaviour you are using is properly loaded/used in the current Unity scene. Quit both Visual Studio and Unity then delete all generated files (*.csproj, *.sln) and the whole Library folder.
+If Visual Studio is unable to find a source location for a specific breakpoint you will see a warning around your breakpoint. Check that the script you are using is properly loaded/used in the current Unity scene.
 
-### Unable to attach
--	Try to temporarily disable your antivirus or create exclusion rules for both VS and Unity.
--	Try to temporarily disable your firewall or create rules for allowing TCP/UDP networking between VS and Unity.
--	We identified that programs like Team Viewer are interfering with process detection; perhaps you can try to stop temporarily any extra software to see if it changes something.
--	Do not rename the main Unity executable, as VSTU is only monitoring "Unity.exe" processes.
+## Breakpoints not hit
 
-### Unable to debug Android players
+Check that the script you are using is properly loaded/used in the current Unity scene. Quit both Visual Studio and Unity then delete all generated files (\*.csproj, \*.sln) and the whole Library folder.
+
+## Unable to debug Android players
+
 We use multicast for player detection (which is the default mechanism used by Unity), but after that we use a regular TCP connection to attach the debugger. The detection phase is the main issue for Android devices.
 
 Wifi is versatile but super slow compared to USB because of latency. We saw a lack of proper multicast support for some routers or devices (Nexus series are well known for this).
 
 USB is super-fast for debugging, and Visual Studio Tools for Unity is now able to detect USB devices, and talk to the adb server to properly forward ports for debugging.
 
-### Migrating from UnityVS to Visual Studio Tools for Unity
- If you're migrating from UnityVS to Visual Studio Tools for Unity, you'll need to generate new Visual Studio solutions for your Unity projects.
+## Issues with Visual Studio 2015 and IntelliSense or code coloration
 
-##### To migrate your Unity project from UnityVS 1.8 to Visual Studio Tools for Unity 1.9
+Try upgrading your Visual Studio 2015 to update 3.
 
-1.  Delete the old solution and project files from your Unity project. In the root directory of your Unity project, locate the Visual Studio .sln and .*proj files and delete them all.
+## Known issues
 
-2.  Import the Visual Studio Tools for Unity package into your Unity project. For information on how to import the VSTU package, see Configure Visual Studio Tools for Unity on the [Getting Started](../cross-platform/getting-started-with-visual-studio-tools-for-unity.md) page.
-
-3.  Generate the new solution and project files. If you want to generate them now, in the Unity Editor, on the main menu, choose **Visual Studio Tools**, **Generate Project Files**. Otherwise, you can skip this step if you want; Visual Studio Tools for Unity will generate the new files automatically when you choose **Visual Studio Tools**, **Open in Visual Studio**.
-
-## Known Issues
  There are known issues in Visual Studio Tools for Unity that result from how the debugger interacts with Unity's older version of the C# compiler. We're working to help fix these problems, but you might experience the following issues in the meantime:
 
--   When debugging, Unity sometimes crashes.
+- When debugging, Unity sometimes crashes.
 
--   When debugging, Unity sometimes freezes.
+- When debugging, Unity sometimes freezes.
 
--   Stepping into and out of methods sometimes behaves incorrectly, especially in iterators or within switch statements.
+- Stepping into and out of methods sometimes behaves incorrectly, especially in iterators or within switch statements.
 
-## Reporting Errors
+## Report errors
+
  Please help us improve the quality of Visual Studio Tools for Unity by sending error reports when you experience crashing, freezes, or other errors. This helps us investigate and fix problems in Visual Studio Tools for Unity. Thank you!
 
 ### How to report an error when Visual Studio freezes
+
  There are reports that Visual Studio sometimes freezes when debugging with Visual Studio Tools for Unity, but we need more data to understand this problem. You can help us investigate by following the steps below.
 
 ##### To report that Visual Studio freezes while debugging with Visual Studio Tools for Unity
 
 *On Windows:*
 
-1.  Open a new instance of Visual Studio.
+1. Open a new instance of Visual Studio.
 
-2.  Open the Attach to Process dialog. In the new instance of Visual Studio, on the main menu, choose **Debug**, **Attach to Process**.
+1. Open the Attach to Process dialog. In the new instance of Visual Studio, on the main menu, choose **Debug**, **Attach to Process**.
 
-3.  Attach the debugger to the frozen instance of Visual Studio. In the **Attach to Process** dialog, select the frozen instance of Visual Studio from the **Available Processes** table, then choose the **Attach** button.
+1. Attach the debugger to the frozen instance of Visual Studio. In the **Attach to Process** dialog, select the frozen instance of Visual Studio from the **Available Processes** table, then choose the **Attach** button.
 
-4.  Pause the Debugger. In the new instance of Visual Studio, on the main menu, choose **Debug**, **Break All**, or just press **Ctrl+Alt+Break**.
+1. Pause the Debugger. In the new instance of Visual Studio, on the main menu, choose **Debug**, **Break All**, or just press **Ctrl+Alt+Break**.
 
-5.  Create a thread-dump. In the Command window, enter the following command and press **Enter**:
+1. Create a thread-dump. In the Command window, enter the following command and press **Enter**:
 
     ```powershell
     Debug.ListCallStack /AllThreads /ShowExternalCode

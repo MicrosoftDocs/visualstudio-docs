@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "smart documents [Office development in Visual Studio], adding controls"
   - "actions panes [Office development in Visual Studio], creating in Word"
   - "actions panes [Office development in Visual Studio], adding controls"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -51,7 +51,7 @@ ms.workload:
      [!code-csharp[Trin_VstcoreActionsPaneWord#12](../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/HelloControl.cs#12)]
      [!code-vb[Trin_VstcoreActionsPaneWord#12](../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/HelloControl.vb#12)]  
   
-6.  In C#, you must add an event handler for the button click. You can place this code in the `HelloControl` constructor after the call to `IntializeComponent`.  
+6.  In C#, you must add an event handler for the button click. You can place this code in the `HelloControl` constructor after the call to `InitializeComponent`.  
   
      For information about how to create event handlers, see [How to: Create Event Handlers in Office Projects](../vsto/how-to-create-event-handlers-in-office-projects.md).  
   

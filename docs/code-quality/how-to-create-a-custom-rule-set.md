@@ -1,22 +1,22 @@
 ---
-title: Create a custom code analysis rule set in Visual Studio
-ms.date: 04/04/2018
+title: Create a custom code analysis rule set
+ms.date: 11/02/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: conceptual
 f1_keywords:
   - "vs.codeanalysis.addremoverulesets"
 helpviewer_keywords:
-  - "Development Edition, rule sets"
+  - "rule sets"
 author: gewarren
 ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"
 ---
-# Custom rule sets
+# Customize a rule set
 
-You can create a custom *rule set* to meet specific project needs for code analysis.
+You can create a custom rule set to meet specific project needs for code analysis.
 
 ## Create a custom rule set
 
@@ -28,11 +28,11 @@ To create a custom rule set, you can open a built-in rule set in the **rule set 
 
 3. In the **Run this rule set** drop-down list, do one of the following:
 
-    - Select the rule set that you want to customize.
+   - Select the rule set that you want to customize.
 
      \- or -
 
-    - Select **\<Browse...>** to specify an existing rule set that is not in the list.
+   - Select **\<Browse...>** to specify an existing rule set that is not in the list.
 
 4. Select **Open** to display the rules in the rule set editor.
 
@@ -63,6 +63,44 @@ You can also create a new rule set file from the **New File** dialog:
    The new rule set is selected in the **Run this rule set** list.
 
 6. Select **Open** to open the new rule set in the rule set editor.
+
+### Rule precedence
+
+- If the same rule is listed two or more times in a rule set with different severities, the compiler generates an error. For example:
+
+   ```xml
+   <RuleSet Name="Rules for ClassLibrary21" Description="Code analysis rules for ClassLibrary21.csproj." ToolsVersion="15.0">
+     <Rules AnalyzerId="Microsoft.Analyzers.ManagedCodeAnalysis" RuleNamespace="Microsoft.Rules.Managed">
+       <Rule Id="CA1021" Action="Warning" />
+       <Rule Id="CA1021" Action="Error" />
+     </Rules>
+   </RuleSet>
+   ```
+
+- If the same rule is listed two or more times in a rule set with the *same* severity, you may see the following warning in the **Error List**:
+
+   **CA0063 : Failed to load rule set file '\[your].ruleset' or one of its dependent rule set files. The file does not conform to the rule set schema.**
+
+- If the rule set includes a child rule set by using an **Include** tag, and the child and parent rule sets both list the same rule but with different severities, then the severity in the parent rule set takes precedence. For example:
+
+   ```xml
+   <!-- Parent rule set -->
+   <?xml version="1.0" encoding="utf-8"?>
+   <RuleSet Name="Rules for ClassLibrary21" Description="Code analysis rules for ClassLibrary21.csproj." ToolsVersion="15.0">
+     <Include Path="classlibrary_child.ruleset" Action="Default" />
+     <Rules AnalyzerId="Microsoft.Analyzers.ManagedCodeAnalysis" RuleNamespace="Microsoft.Rules.Managed">
+       <Rule Id="CA1021" Action="Warning" /> <!-- Overrides CA1021 severity from child rule set -->
+     </Rules>
+   </RuleSet>
+
+   <!-- Child rule set -->
+   <?xml version="1.0" encoding="utf-8"?>
+   <RuleSet Name="Rules from child" Description="Code analysis rules from child." ToolsVersion="15.0">
+     <Rules AnalyzerId="Microsoft.Analyzers.ManagedCodeAnalysis" RuleNamespace="Microsoft.Rules.Managed">
+       <Rule Id="CA1021" Action="Error" />
+     </Rules>
+   </RuleSet>
+   ```
 
 ## Name and description
 

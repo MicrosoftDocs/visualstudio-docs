@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "application-level add-ins [Office development in Visual Studio], extending Excel workbooks"
   - "controls [Office development in Visual Studio], adding at run time"
   - "HasVstoObject method"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -25,15 +25,15 @@ ms.workload:
 # Extend Word documents and Excel workbooks in VSTO add-ins at runtime
   You can use a VSTO Add-in to customize Word documents and Excel workbooks in the following ways:  
   
--   Add managed controls to any open document or worksheet.  
+- Add managed controls to any open document or worksheet.  
   
--   Convert an existing list object on an Excel worksheet to an extended <xref:Microsoft.Office.Tools.Excel.ListObject> that exposes events and can be bound to data by using the Windows Forms data binding model.  
+- Convert an existing list object on an Excel worksheet to an extended <xref:Microsoft.Office.Tools.Excel.ListObject> that exposes events and can be bound to data by using the Windows Forms data binding model.  
   
--   Access application-level events that are exposed by Word and Excel for specific documents, workbooks, and worksheets.  
+- Access application-level events that are exposed by Word and Excel for specific documents, workbooks, and worksheets.  
   
- To use this functionality, you generate an object at runtime that extends the document or workbook.  
+  To use this functionality, you generate an object at runtime that extends the document or workbook.  
   
- **Applies to:** The information in this article applies to VSTO Add-in projects for the following applications: Excel and Word. For more information, see [Features available by Office application and project type](../vsto/features-available-by-office-application-and-project-type.md).  
+  **Applies to:** The information in this article applies to VSTO Add-in projects for the following applications: Excel and Word. For more information, see [Features available by Office application and project type](../vsto/features-available-by-office-application-and-project-type.md).  
   
 ## Generate extended objects in VSTO Add-ins  
  *Extended objects* are instances of types provided by the Visual Studio Tools for Office runtime that add functionality to objects that exist natively in the Word or Excel object models (called *native Office objects*). To generate an extended object for a Word or Excel object, use the `GetVstoObject` method. The first time you call the `GetVstoObject` method for a specified Word or Excel object, it returns a new object that extends the specified object. Each time you call the method and specify the same Word or Excel object, it returns the same extended object.  

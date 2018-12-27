@@ -30,22 +30,22 @@ ms.workload:
   
  This walkthrough includes the following tasks:  
   
--   [Creating Custom Site Columns](#BKMK_CreatingCustSiteCols).  
+- [Creating Custom Site Columns](#BKMK_CreatingCustSiteCols).  
   
--   [Creating a Custom Content Type](#BKMK_CreateCustContType).  
+- [Creating a Custom Content Type](#BKMK_CreateCustContType).  
   
--   [Creating a List](#BKMK_CreateList).  
+- [Creating a List](#BKMK_CreateList).  
   
--   [Creating a List](#BKMK_CreateList).  
+- [Creating a List](#BKMK_CreateList).  
   
--   [Testing the Application](#BKMK_TestApp).  
+- [Testing the Application](#BKMK_TestApp).  
   
- [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
+  [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
   
 ## Prerequisites  
  You need the following components to complete this walkthrough:  
   
--   Supported editions of Windows and SharePoint. For more information, see [Requirements for developing SharePoint solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md).  
+-   Supported editions of Windows and SharePoint.
   
 -   Visual Studio.  
   

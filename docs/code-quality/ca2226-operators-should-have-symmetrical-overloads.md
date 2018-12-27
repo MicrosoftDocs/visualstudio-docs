@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA2226: Operators should have symmetrical overloads
+
 |||
 |-|-|
 |TypeName|OperatorsShouldHaveSymmetricalOverloads|
@@ -28,18 +29,18 @@ ms.workload:
 ## Cause
  A type implements the equality or inequality operator and does not implement the opposite operator.
 
-## Rule Description
+## Rule description
  There are no circumstances where either equality or inequality is applicable to instances of a type, and the opposite operator is undefined. Types typically implement the inequality operator by returning the negated value of the equality operator.
 
  The C# compiler issues an error for violations of this rule.
 
-## How to Fix Violations
+## How to fix violations
  To fix a violation of this rule, implement both the equality and inequality operators, or remove the one that is present.
 
-## When to Suppress Warnings
- Do not suppress a warning from this rule. Your type will not work in a manner that is consistent with the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)].
+## When to suppress warnings
+ Do not suppress a warning from this rule. Your type will not work in a manner that is consistent with the .NET Framework.
 
-## Related Rules
+## Related rules
  [CA1046: Do not overload operator equals on reference types](../code-quality/ca1046-do-not-overload-operator-equals-on-reference-types.md)
 
  [CA2225: Operator overloads have named alternates](../code-quality/ca2225-operator-overloads-have-named-alternates.md)

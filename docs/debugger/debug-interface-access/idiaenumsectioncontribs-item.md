@@ -22,8 +22,8 @@ Retrieves section contributions by means of an index.
   
 ```C++  
 HRESULT Item (   
-   DWORD                index,  
-   IDiaSectionContrib** section  
+   DWORD                index,  
+   IDiaSectionContrib** section  
 );  
 ```  
   

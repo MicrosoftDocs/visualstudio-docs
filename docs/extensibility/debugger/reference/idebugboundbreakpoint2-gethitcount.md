@@ -24,13 +24,13 @@ Gets the current hit count for this bound breakpoint.
   
 ```cpp  
 HRESULT GetHitCount(   
-   DWORD* pdwHitCount  
+   DWORD* pdwHitCount  
 );  
 ```  
   
 ```csharp  
 int GetHitCount(   
-   out uint pdwHitCount  
+   out uint pdwHitCount  
 );  
 ```  
   

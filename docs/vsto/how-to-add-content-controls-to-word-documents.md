@@ -24,8 +24,8 @@ helpviewer_keywords:
   - "ComboBoxContentControl, adding to documents"
   - "DatePickerContentControl, adding to documents"
   - "Word [Office development in Visual Studio], restricted permissions"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -37,24 +37,24 @@ ms.workload:
   
  This topic describes the following tasks:  
   
--   [Add content controls at design time](#designtime)  
+- [Add content controls at design time](#designtime)  
   
--   [Add content controls at runtime in a document-level project](#runtimedoclevel)  
+- [Add content controls at runtime in a document-level project](#runtimedoclevel)  
   
--   [Add content controls at runtime in a VSTO Add-in project](#runtimeaddin)  
+- [Add content controls at runtime in a VSTO Add-in project](#runtimeaddin)  
   
- For information about content controls, see [Content controls](../vsto/content-controls.md).  
+  For information about content controls, see [Content controls](../vsto/content-controls.md).  
   
 ##  <a name="designtime"></a> Add Content controls at design time  
  There are several ways to add content controls to the document in a document-level project at design time:  
   
--   Add a content control from the **Word Controls** tab of the **Toolbox**.  
+- Add a content control from the **Word Controls** tab of the **Toolbox**.  
   
--   Add a content control to your document in the same manner you would add a native content control in Word.  
+- Add a content control to your document in the same manner you would add a native content control in Word.  
   
--   Drag a content control to your document from the **Data Sources** window. This is useful when you want to bind the control to data when the control is created. For more information, see [How to: Populate documents with data from objects](../vsto/how-to-populate-documents-with-data-from-objects.md) and [How to: Populate documents with data from a database](../vsto/how-to-populate-documents-with-data-from-a-database.md).  
+- Drag a content control to your document from the **Data Sources** window. This is useful when you want to bind the control to data when the control is created. For more information, see [How to: Populate documents with data from objects](../vsto/how-to-populate-documents-with-data-from-objects.md) and [How to: Populate documents with data from a database](../vsto/how-to-populate-documents-with-data-from-a-database.md).  
   
- [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
+  [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
   
 ### To add a content control to a document by using the Toolbox  
   
@@ -94,13 +94,13 @@ ms.workload:
 ##  <a name="runtimedoclevel"></a> Add content controls at runtime in a document-level project  
  You can add content controls programmatically to your document at runtime by using methods of the <xref:Microsoft.Office.Tools.Word.Document.Controls%2A> property of the `ThisDocument` class in your project. Each method has three overloads that you can use to add a content control in the following ways:  
   
--   Add a control at the current selection.  
+- Add a control at the current selection.  
   
--   Add a control at a specified range.  
+- Add a control at a specified range.  
   
--   Add a control that is based on a native content control in the document.  
+- Add a control that is based on a native content control in the document.  
   
- Dynamically created content controls are not persisted in the document when the document is closed. However, a native content control remains in the document. You can recreate a content control that is based on a native content control the next time the document is opened. For more information, see [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md).  
+  Dynamically created content controls are not persisted in the document when the document is closed. However, a native content control remains in the document. You can recreate a content control that is based on a native content control the next time the document is opened. For more information, see [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md).  
   
 > [!NOTE]  
 >  To add a check box content control to a document in a Word 2010 project, you must create a <xref:Microsoft.Office.Tools.Word.ContentControl> object. For more information, see [Content controls](../vsto/content-controls.md).  
@@ -135,15 +135,15 @@ ms.workload:
 ##  <a name="runtimeaddin"></a> Add content controls at runtime in a VSTO Add-in project  
  You can add content controls programmatically to any open document at runtime by using a VSTO Add-in. To do this, generate a <xref:Microsoft.Office.Tools.Word.Document> host item that is based on an open document, and then use methods of the <xref:Microsoft.Office.Tools.Word.Document.Controls%2A> property of this host item. Each method has three overloads that you can use to add a content control in the following ways:  
   
--   Add a control at the current selection.  
+- Add a control at the current selection.  
   
--   Add a control at a specified range.  
+- Add a control at a specified range.  
   
--   Add a control that is based on a native content control in the document.  
+- Add a control that is based on a native content control in the document.  
   
- Dynamically created content controls are not persisted in the document when the document is closed. However, a native content control remains in the document. You can recreate a content control that is based on a native content control the next time the document is opened. For more information, see [Persist dynamic controls in Office documents](../vsto/persisting-dynamic-controls-in-office-documents.md).  
+  Dynamically created content controls are not persisted in the document when the document is closed. However, a native content control remains in the document. You can recreate a content control that is based on a native content control the next time the document is opened. For more information, see [Persist dynamic controls in Office documents](../vsto/persisting-dynamic-controls-in-office-documents.md).  
   
- For more information about generating host items in VSTO Add-in projects, see [Extend Word documents and Excel workbooks in VSTO Add-ins at runtime](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md).  
+  For more information about generating host items in VSTO Add-in projects, see [Extend Word documents and Excel workbooks in VSTO Add-ins at runtime](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md).  
   
 > [!NOTE]  
 >  To add a check box content control to a document, you must create a <xref:Microsoft.Office.Tools.Word.ContentControl> object. For more information, see [Content controls](../vsto/content-controls.md).  

@@ -1,5 +1,5 @@
 ---
-title: Code analysis rule sets in Visual Studio
+title: Code analysis rule sets
 ms.date: 04/02/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
@@ -20,11 +20,13 @@ When you configure code analysis in Visual Studio, you can choose from a list of
 
 You can customize a rule set by adding or deleting rules, or by changing rule severities to appear as either warnings or errors in the **Error List**. Customized rule sets can fulfill a need for your particular development environment. When you customize a rule set, the rule set editor provides search and filtering tools to help you in the process.
 
+Rule sets are available for [static analysis of managed code](how-to-configure-code-analysis-for-a-managed-code-project.md), [analysis of C++ code](using-rule-sets-to-specify-the-cpp-rules-to-run.md), and [Roslyn analyzers](analyzer-rule-sets.md).
+
 ## Rule set format
 
 A rule set is specified in XML format in a *.ruleset* file. Rules, which consist of an ID and an *action*, are grouped by analyzer ID and namespace in the file.
 
-The XML contents of a *.ruleset* file looks similar to this:
+The contents of a *.ruleset* file looks similar to this XML:
 
 ```xml
 <RuleSet Name="Rules for Hello World project" Description="These rules focus on critical issues for the Hello World app." ToolsVersion="10.0">
@@ -48,12 +50,17 @@ The XML contents of a *.ruleset* file looks similar to this:
 ```
 
 > [!TIP]
-> It is easier to [edit a rule set](../code-quality/working-in-the-code-analysis-rule-set-editor.md) in the graphical **Rule Set Editor** than by hand.
+> It's easier to [edit a rule set](../code-quality/working-in-the-code-analysis-rule-set-editor.md) in the graphical **Rule Set Editor** than by hand.
 
-The rule set for a project is specified by the `CodeAnalysisRuleSet` property in the Visual Studio project file. For example:
+## Specify a rule set for a project
+
+The rule set for a project is specified by the **CodeAnalysisRuleSet** property in the Visual Studio project file. For example:
 
 ```xml
-<CodeAnalysisRuleSet>HelloWorld.ruleset</CodeAnalysisRuleSet>
+<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+  ...
+  <CodeAnalysisRuleSet>HelloWorld.ruleset</CodeAnalysisRuleSet>
+</PropertyGroup>
 ```
 
 ## See also

@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "Ribbon [Office development in Visual Studio], adding"
   - "Ribbon [Office development in Visual Studio], customizing"
   - "customizing the Ribbon, adding Ribbon to project"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -26,45 +26,45 @@ ms.workload:
   
 ### To add a ribbon to a project  
   
-1.  On the **Project** Menu, click **Add New Item**.  
+1. On the **Project** Menu, click **Add New Item**.  
   
-2.  In the **Add New Item** dialog box, select **Ribbon (Visual Designer)** or **Ribbon (XML)**. For more information about these templates, see [Ribbon overview](../vsto/ribbon-overview.md).  
+2. In the **Add New Item** dialog box, select **Ribbon (Visual Designer)** or **Ribbon (XML)**. For more information about these templates, see [Ribbon overview](../vsto/ribbon-overview.md).  
   
-3.  In the **Name** box, type a name for the Ribbon item.  
+3. In the **Name** box, type a name for the Ribbon item.  
   
-     Names cannot contain the following characters:  
+    Names cannot contain the following characters:  
   
-    -   Pound (#)  
+   -   Pound (#)  
   
-    -   Percent (%)  
+   -   Percent (%)  
   
-    -   Ampersand (&)  
+   -   Ampersand (&)  
   
-    -   Asterisk (*)  
+   -   Asterisk (*)  
   
-    -   Vertical bar (|)  
+   -   Vertical bar (|)  
   
-    -   Backslash (\\)  
+   -   Backslash (\\)  
   
-    -   Colon (:)  
+   -   Colon (:)  
   
-    -   Double quotation mark (")  
+   -   Double quotation mark (")  
   
-    -   Less than (\<)  
+   -   Less than (\<)  
   
-    -   Greater than (>)  
+   -   Greater than (>)  
   
-    -   Question mark (?)  
+   -   Question mark (?)  
   
-    -   Forward slash (/)  
+   -   Forward slash (/)  
   
-    -   Leading or trailing spaces (' ')  
+   -   Leading or trailing spaces (' ')  
   
-    -   Names reserved for Windows or DOS such as ("nul", "aux", "con", "com1", "lpt1", and so on)  
+   -   Names reserved for Windows or DOS such as ("nul", "aux", "con", "com1", "lpt1", and so on)  
   
-4.  Click **OK**.  
+4. Click **OK**.  
   
- The Ribbon item appears in **Solution Explorer**. For information about the next steps, see [Ribbon overview](../vsto/ribbon-overview.md).  
+   The Ribbon item appears in **Solution Explorer**. For information about the next steps, see [Ribbon overview](../vsto/ribbon-overview.md).  
   
 ## See also  
  [Access the Ribbon at runtime](../vsto/accessing-the-ribbon-at-run-time.md)   

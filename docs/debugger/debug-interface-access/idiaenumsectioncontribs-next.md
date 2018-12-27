@@ -22,9 +22,9 @@ Retrieves a specified number of section contributions in the enumeration sequenc
   
 ```C++  
 HRESULT Next(   
-   ULONG                celt,   
-   IDiaSectionContrib** rgelt,  
-   ULONG*               pceltFetched  
+   ULONG                celt,   
+   IDiaSectionContrib** rgelt,  
+   ULONG*               pceltFetched  
 );  
 ```  
   

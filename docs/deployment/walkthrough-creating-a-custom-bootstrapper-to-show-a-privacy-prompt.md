@@ -25,35 +25,35 @@ ms.workload:
 # Walkthrough: Create a custom bootstrapper with a privacy prompt
 You can configure ClickOnce applications to automatically update when assemblies with newer file versions and assembly versions become available. To make sure that your customers consent to this behavior, you can display a privacy prompt to them. Then, they can choose whether to grant permission to the application to update automatically. If the application is not allowed to update automatically, it does not install.  
   
- [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  
+[!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  
   
 ## Prerequisites  
  You need the following components to complete this walkthrough:  
   
 -   Visual Studio 2010.  
   
-## Create an Update Consent Dialog Box  
+## Create an Update Consent dialog box  
  To display a privacy prompt, create an application that asks the reader to consent to automatic updates for the application.  
   
 #### To create a consent dialog box  
   
-1.  On the **File** menu, point to **New**, and then click **Project**.  
+1. On the **File** menu, point to **New**, and then click **Project**.  
   
-2.  In the **New Project** dialog box, click **Windows**, and then click **WindowsFormsApplication**.  
+2. In the **New Project** dialog box, click **Windows**, and then click **WindowsFormsApplication**.  
   
-3.  For the **Name**, type **ConsentDialog**, and then click **OK**.  
+3. For the **Name**, type **ConsentDialog**, and then click **OK**.  
   
-4.  In the designer, click the form.  
+4. In the designer, click the form.  
   
-5.  In the **Properties** window, change the **Text** property to **Update Consent Dialog**.  
+5. In the **Properties** window, change the **Text** property to **Update Consent Dialog**.  
   
-6.  In the **Toolbox**, expand **All Windows Forms**, and drag a **Label** control to the form.  
+6. In the **Toolbox**, expand **All Windows Forms**, and drag a **Label** control to the form.  
   
-7.  In the designer, click the label control.  
+7. In the designer, click the label control.  
   
-8.  In the **Properties** window, change the **Text** property under **Appearance** to the following:  
+8. In the **Properties** window, change the **Text** property under **Appearance** to the following:  
   
-     The application that you are about to install checks for the latest updates on the Web. By clicking on "I Agree", you authorize the application to check for and install updates automatically from the Internet.  
+    The application that you are about to install checks for the latest updates on the Web. By clicking on "I Agree", you authorize the application to check for and install updates automatically from the Internet.  
   
 9. In the **Toolbox**, drag a **Checkbox** control to the middle of the form.  
   
@@ -106,28 +106,28 @@ You can configure ClickOnce applications to automatically update when assemblies
   
      For Visual Basic developers only:  
   
-    1.  In **Solution Explorer**, click **ConsentDialog**.  
+    1. In **Solution Explorer**, click **ConsentDialog**.  
   
-    2.  On the **Project** menu, click **Add Module**, and then click **Add**.  
+    2. On the **Project** menu, click **Add Module**, and then click **Add**.  
   
-    3.  In the Module1.vb code file, add the following code.  
+    3. In the *Module1.vb* code file, add the following code.  
   
-         [!code-vb[ConsentDialog#7](../deployment/codesnippet/VisualBasic/walkthrough-creating-a-custom-bootstrapper-to-show-a-privacy-prompt_6.vb)]  
+        [!code-vb[ConsentDialog#7](../deployment/codesnippet/VisualBasic/walkthrough-creating-a-custom-bootstrapper-to-show-a-privacy-prompt_6.vb)]  
   
-    4.  On the **Project** menu, click **ConsentDialog Properties**, and then click the **Application** tab.  
+    4. On the **Project** menu, click **ConsentDialog Properties**, and then click the **Application** tab.  
   
-    5.  Uncheck **Enable application framework**.  
+    5. Uncheck **Enable application framework**.  
   
-    6.  In the **Startup object** drop-down menu, select **Module1**.  
+    6. In the **Startup object** drop-down menu, select **Module1**.  
   
-        > [!NOTE]
-        >  Disabling the application framework disables features such as Windows XP visual styles, application events, splash screen, single instance application, and more. For more information, see [Application Page, Project Designer (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md).  
+       > [!NOTE]
+       >  Disabling the application framework disables features such as Windows XP visual styles, application events, splash screen, single instance application, and more. For more information, see [Application Page, Project Designer (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md).  
   
-     For Visual C# developers only:  
+       For Visual C# developers only:  
   
-     Open the Program.cs code file, and add the following code.  
+       Open the *Program.cs* code file, and add the following code.  
   
-     [!code-csharp[ConsentDialog#5](../deployment/codesnippet/CSharp/walkthrough-creating-a-custom-bootstrapper-to-show-a-privacy-prompt_7.cs)]  
+       [!code-csharp[ConsentDialog#5](../deployment/codesnippet/CSharp/walkthrough-creating-a-custom-bootstrapper-to-show-a-privacy-prompt_7.cs)]  
   
 26. On the **Build** menu, click **BuildSolution**.  
   
@@ -136,29 +136,29 @@ You can configure ClickOnce applications to automatically update when assemblies
   
  This procedure demonstrates how to create a custom bootstrapper package by creating the following documents:  
   
--   A product.xml manifest file to describe the contents of the bootstrapper.  
+-   A *product.xml* manifest file to describe the contents of the bootstrapper.  
   
--   A package.xml manifest file to list the localization-specific aspects of your package, such as strings and the software license terms.  
+-   A *package.xml* manifest file to list the localization-specific aspects of your package, such as strings and the software license terms.  
   
 -   A document for the software license terms.  
   
 #### Step 1: To create the bootstrapper directory  
   
-1.  Create a directory named **UpdateConsentDialog** in the %PROGRAMFILES%\Microsoft SDKs\Windows\v7.0A\Bootstrapper\Packages.  
+1.  Create a directory named **UpdateConsentDialog** in the *%PROGRAMFILES%\Microsoft SDKs\Windows\v7.0A\Bootstrapper\Packages*.  
   
     > [!NOTE]
     >  You may need administrative privileges to create this folder.  
   
-2.  In the UpdateConsentDialog directory, create a subdirectory named en.  
+2.  In the *UpdateConsentDialog* directory, create a subdirectory named *en*.  
   
     > [!NOTE]
     >  Create a new directory for each locale. For example, you can add subdirectories for the fr and de locales. These directories would contain the French and German strings and language packs, if necessary.  
   
 #### Step 2: To create the product.xml manifest file  
   
-1.  Create a text file called `product.xml`.  
+1.  Create a text file called *product.xml*.  
   
-2.  In the product.xml file, add the following XML code. Make sure that you do not overwrite the existing XML code.  
+2.  In the *product.xml* file, add the following XML code. Make sure that you do not overwrite the existing XML code.  
   
     ```xml  
     <Product  
@@ -188,9 +188,9 @@ You can configure ClickOnce applications to automatically update when assemblies
   
 #### Step 3: To create the package.xml manifest file and the software license terms  
   
-1.  Create a text file called `package.xml`.  
+1.  Create a text file called *package.xml*.  
   
-2.  In the package.xml file, add the following XML code to define the locale and include the software license terms. Make sure that you do not overwrite the existing XML code.  
+2.  In the *package.xml* file, add the following XML code to define the locale and include the software license terms. Make sure that you do not overwrite the existing XML code.  
   
     ```xml  
     <Package   
@@ -214,14 +214,14 @@ You can configure ClickOnce applications to automatically update when assemblies
   
 3.  Save the file to the en subdirectory in the UpdateConsentDialog bootstrapper directory.  
   
-4.  Create a document called eula.rtf for the software license terms.  
+4.  Create a document called *eula.rtf* for the software license terms.  
   
     > [!NOTE]
     >  The software license terms should include information about licensing, warranties, liabilities, and local laws. These files should be locale-specific, so make sure that the file is saved in a format that supports MBCS or UNICODE characters. Consult your legal department about the content of the software license terms.  
   
-5.  Save the document to the en subdirectory in the UpdateConsentDialog bootstrapper directory.  
+5.  Save the document to the en subdirectory in the *UpdateConsentDialog* bootstrapper directory.  
   
-6.  If necessary, create a new package.xml manifest file and a new eula.rtf document for the software license terms for each locale. For example, if you created subdirectories for the fr and de locales, create separate package.xml manifest files and software license terms and save them to the fr and de subdirectories.  
+6.  If necessary, create a new *package.xml* manifest file and a new *eula.rtf* document for the software license terms for each locale. For example, if you created subdirectories for the fr and de locales, create separate package.xml manifest files and software license terms and save them to the fr and de subdirectories.  
   
 ## Set the Update Consent Application as a prerequisite  
  In Visual Studio, you can set the Update Consent application as a prerequisite.  
@@ -254,7 +254,7 @@ You can configure ClickOnce applications to automatically update when assemblies
   
 4.  If the publish output does not open automatically, navigate to the publish output.  
   
-5.  Run the Setup.exe program.  
+5.  Run the *Setup.exe* program.  
   
      The Setup program shows the Update Consent Dialog software license agreement.  
   
@@ -280,7 +280,7 @@ You can configure ClickOnce applications to automatically update when assemblies
   
 4.  If the publish output does not open automatically, navigate to the publish output.  
   
-5.  Run the Setup.exe program.  
+5.  Run the *Setup.exe* program.  
   
      The Setup program shows the Update Consent Dialog software license agreement.  
   
@@ -294,9 +294,9 @@ You can configure ClickOnce applications to automatically update when assemblies
   
 8.  If the Application Install dialog box appears, click **Install**.  
   
-## See Also  
- [Application Deployment Prerequisites](../deployment/application-deployment-prerequisites.md)   
- [Creating Bootstrapper Packages](../deployment/creating-bootstrapper-packages.md)   
- [How to: Create a Product Manifest](../deployment/how-to-create-a-product-manifest.md)   
- [How to: Create a Package Manifest](../deployment/how-to-create-a-package-manifest.md)   
- [Product and Package Schema Reference](../deployment/product-and-package-schema-reference.md)
+## See also  
+ [Application deployment prerequisites](../deployment/application-deployment-prerequisites.md)   
+ [Create bootstrapper packages](../deployment/creating-bootstrapper-packages.md)   
+ [How to: Create a product manifest](../deployment/how-to-create-a-product-manifest.md)   
+ [How to: Create a package manifest](../deployment/how-to-create-a-package-manifest.md)   
+ [Product and package schema reference](../deployment/product-and-package-schema-reference.md)

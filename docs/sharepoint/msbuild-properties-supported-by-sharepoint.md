@@ -51,5 +51,5 @@ ms.workload:
 >  You can use either the [!INCLUDE[vstecmsbuild](../sharepoint/includes/vstecmsbuild-md.md)] variable syntax `$(`*propertyName*`)` or the environment variable syntax `%`*propertyName*`%` to specify a property.  
   
 ## See also
- [MSBuild Reference](/visualstudio/msbuild/msbuild-reference)  
-  
+
+- [MSBuild Reference](../msbuild/msbuild-reference.md)  

@@ -23,13 +23,13 @@ Makes a program node available for use by debug engines (DEs) and the session de
   
 ```cpp  
 HRESULT PublishProgramNode(  
-   IDebugProgramNode2 *pProgramNode  
+   IDebugProgramNode2 *pProgramNode  
 );  
 ```  
   
 ```csharp  
 int PublishProgramNode(  
-   IDebugProgramNode2 pProgramNode  
+   IDebugProgramNode2 pProgramNode  
 );  
 ```  
   

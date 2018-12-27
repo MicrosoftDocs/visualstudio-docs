@@ -12,6 +12,7 @@ ms.workload:
   - "multiple"
 ---
 # CA3077: Insecure Processing in API Design, XML Document and XML Text Reader
+
 |||
 |-|-|
 |TypeName|InsecureDTDProcessingInAPIDesign|
@@ -22,20 +23,20 @@ ms.workload:
 ## Cause
  When designing an API derived from XMLDocument and XMLTextReader, be mindful of <xref:System.Xml.XmlReaderSettings.DtdProcessing%2A>.  Using insecure DTDProcessing instances when referencing or resolving external entity sources or setting insecure values in the XML may lead to information disclosure.
 
-## Rule Description
+## Rule description
  A *Document Type Definition (DTD)* is one of two ways an XML parser can determine the validity of a document, as defined by the  [World Wide Web Consortium (W3C) Extensible Markup Language (XML) 1.0](http://www.w3.org/TR/2008/REC-xml-20081126/). This rule seeks properties and instances where untrusted data is accepted to warn developers about potential [Information Disclosure](/dotnet/framework/wcf/feature-details/information-disclosure) threats, which may lead to [Denial of Service (DoS)](/dotnet/framework/wcf/feature-details/denial-of-service) attacks. This rule triggers when:
 
--   <xref:System.Xml.XmlDocument> or <xref:System.Xml.XmlTextReader> classes use default resolver values for DTD processing    .
+- <xref:System.Xml.XmlDocument> or <xref:System.Xml.XmlTextReader> classes use default resolver values for DTD processing    .
 
--   No constructor is defined for the XmlDocument or XmlTextReader derived classes or no secure value is used for <xref:System.Xml.XmlResolver>.
+- No constructor is defined for the XmlDocument or XmlTextReader derived classes or no secure value is used for <xref:System.Xml.XmlResolver>.
 
-## How to Fix Violations
+## How to fix violations
 
--   Catch and process all XmlTextReader exceptions properly to avoid path information disclosure    .
+- Catch and process all XmlTextReader exceptions properly to avoid path information disclosure    .
 
--   Use <xref:System.Xml.XmlSecureResolver>instead of XmlResolver to restrict the resources the XmlTextReader can  access.
+- Use <xref:System.Xml.XmlSecureResolver>instead of XmlResolver to restrict the resources the XmlTextReader can  access.
 
-## When to Suppress Warnings
+## When to suppress warnings
  Unless you're sure that the input is known to be from a trusted source, do not suppress a rule from this warning.
 
 ## Pseudo-code Examples

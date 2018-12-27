@@ -11,8 +11,8 @@ dev_langs:
 helpviewer_keywords: 
   - "InfoPath [Office development in Visual Studio], Ribbon"
   - "Ribbon [Office development in Visual Studio], InfoPath"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -20,17 +20,17 @@ ms.workload:
 # Customize a Ribbon for InfoPath
   When you customize the Ribbon in Microsoft Office InfoPath, you must consider where your custom Ribbon will appear in the application. [!INCLUDE[InfoPath_14_short](../vsto/includes/infopath-14-short-md.md)] can display the Ribbon in the following three types of InfoPath application windows:  
   
--   Windows that display a form template that is opened in design mode.  
+- Windows that display a form template that is opened in design mode.  
   
--   Windows that display a form that is based on a form template.  
+- Windows that display a form that is based on a form template.  
   
--   The Print Preview window.  
+- The Print Preview window.  
   
- **Applies to:** The information in this topic applies to VSTO Add-in projects for InfoPath 2010. For more information, see [Features available by Office application and project type](../vsto/features-available-by-office-application-and-project-type.md).  
+  **Applies to:** The information in this topic applies to VSTO Add-in projects for InfoPath 2010. For more information, see [Features available by Office application and project type](../vsto/features-available-by-office-application-and-project-type.md).  
   
- Users and designers open a form template in design mode to modify the appearance and layout of the template. Users open forms that are based in a form template to add content.  
+  Users and designers open a form template in design mode to modify the appearance and layout of the template. Users open forms that are based in a form template to add content.  
   
- The Print Preview window enables designers and users to preview the pages of a form or form template before they print them.  
+  The Print Preview window enables designers and users to preview the pages of a form or form template before they print them.  
   
 > [!NOTE]  
 >  The **AddIns** tab does not appear in the Print Preview window. If you want a custom tab to appear in the Print Preview window, make sure that the **OfficeId** property of the tab is not set to **TabAddIns**.  

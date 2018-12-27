@@ -1,10 +1,11 @@
 ---
-title: "How to report a problem with Visual Studio 2017"
+title: "How to report a problem with Visual Studio"
+titleSuffix: ""
 description: "Find out how to report a problem with Visual Studio 2017 to Microsoft so that we can diagnose and fix it."
 ms.custom: ""
 ms.date: 03/11/2018
-ms.prod: visual-studio-dev15
 ms.technology: vs-acquisition
+ms.custom: "seodec18"
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.assetid: bee01179-cde5-4419-9095-190ee0ba5902
@@ -17,6 +18,9 @@ ms.workload:
 # How to report a problem with Visual Studio 2017
 
 If you experience a problem with Visual Studio, we want to know about it. Here's how to report the problem to [Developer Community](https://developercommunity.visualstudio.com/) so that we can diagnose and fix it.
+
+> [!NOTE]
+> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [How to report a problem in Visual Studio for Mac](/visualstudio/mac/report-a-problem).
 
 ## Report a problem by using Visual Studio
 
@@ -120,7 +124,7 @@ Starting in Visual Studio 2017 Version 15.5, there's a new workflow to help user
 
 If you don't want to or can't use Visual Studio to report a problem, there's a chance that the problem has already been reported and a solution posted on the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/) page.
 
-If you don't have a problem to report but want to provide product feedback or a suggestion, there's a place for that, too. For more information, see the [UserVoice](https://visualstudio.uservoice.com/forums/121579-visual-studio-ide) page.
+If you don't have a problem to report but want to suggest a feature, there's a place for that, too. For more information, see the [Suggest a feature](https://developercommunity.visualstudio.com/content/idea/post.html?space=8) page.
 
 ## See also
 

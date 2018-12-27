@@ -1,12 +1,12 @@
 ---
-title: "Set a Watch on Variables in Visual Studio | Microsoft Docs"
-ms.custom: "H1Hack27Feb2017"
-ms.date: "04/04/2017"
+title: "Set a watch on variables | Microsoft Docs"
+ms.custom: "seodec18"
+ms.date: "10/11/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
-f1_keywords: 
+f1_keywords:
   - "vs.debug.watch"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "debugging [Visual Studio], Watch window"
   - "expressions [debugger], evaluating"
   - "variables [debugger], evaluating"
@@ -16,230 +16,265 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
-# Set a Watch on Variables using the Watch and QuickWatch Windows in Visual Studio
-While you are debugging, you can use the **Watch** and **QuickWatch** windows to watch variables and expressions.  The difference is that the **Watch** window can display several variables, while the **QuickWatch** window displays a single variable at a time. 
+# Watch variables with Watch windows and QuickWatch 
 
-The windows are only available during a debugging session. To open the **Watch** window, choose **Debug > Windows > Watch > Watch (1, 2, 3, 4)**). To open the **QuickWatch** window, either right-click on variable and choose **QuickWatch** or choose **Debug > QuickWatch**.
-  
-## Observing a single variable with QuickWatch  
- You can use the **QuickWatch** window to observe a single variable. For example, if you have the following code:  
-  
-```csharp
-static void Main(string[] args)  
-{  
-    int a, b;  
-    a = 1;  
-    b = 2;  
-    for (int i = 0; i < 10; i++)  
-    {  
-        a = a + b;  
-    }   
-}  
-```  
-  
- You can observe a variable in the QuickWatch window as follows:  
-  
-1.  Set a breakpoint on the `a = a + b;` line.  
-  
-2.  Start debugging. Execution stops at the breakpoint.  
-  
-3.  Open the **QuickWatch** window (right-click on `a`, then choose **QuickWatch**, or select `a` and press **SHIFT+F9**).
+While you're debugging, you can use **Watch** windows and **QuickWatch** to watch variables and expressions. The windows are only available during a debugging session.
 
-    You should see a variable in the **Values** window, with a value of 1.
+**Watch** windows can display several variables at a time while debugging. The **QuickWatch** dialog displays a single variable at a time, and must be closed before debugging can continue.
 
-    ![QuickWatch Expression](../debugger/media/watchexpression.png "QuickWatchExpression")  
+If this is the first time that you've tried to debug code, you may want to read [Fix bugs by writing better C# code](../debugger/write-better-code-with-visual-studio.md) and [Debugging for absolute beginners](../debugger/debugging-absolute-beginners.md) before going through this article.
 
-    If you want to evaluate an expression using the variable, add an expression such as `a + b` to the **Expression** window and click **Reevaluate**. 
-  
-4.  Add the variable to the **Watch** window from **QuickWatch** by clicking **Add Watch**. 
+## Observe variables with a Watch window
 
-    > [!NOTE]
-    > The **QuickWatch** window is a modal dialog window, so you can't continue debugging as long as it is open.  
-  
-5.  Close the **QuickWatch** window. Now you can continue debugging while you observe the value in the **Watch** window.  
-  
-## Observing variables with the Watch window  
- You can observe multiple variables with the **Watch** window. For example, if you have the following code:  
-  
-```C++  
+You can open more than one **Watch** window, and observe more than one variable in a **Watch** window. 
+
+For example, to set a watch on the values of `a`, `b`, and `c` in the following code:
+
+```C++
 int main()
 {
-	int a, b, c;
-	a = 1;
-	b = 2;
-	c = 0;
+    int a, b, c;
+    a = 1;
+    b = 2;
+    c = 0;
 
-	for (int i = 0; i < 10; i++)
-	{
-		a++;
-		b *= 2;
-		c = a + b;
-	}
+    for (int i = 0; i < 10; i++)
+    {
+        a++;
+        b *= 2;
+        c = a + b;
+    }
 
     return 0;
 }
-  
-```  
-  
- Add the values of the three variables to the Watch window as follows:  
-  
-1.  Set a breakpoint on the `c = a + b;` line.  
-  
-2.  Start debugging (**F5**). Execution stops at the breakpoint.  
-  
-3.  Open the Watch window (**Debug > Windows > Watch > Watch 1**, or **CTRL+ALT+W, 1**).  
-  
-4.  Add the `a` variable to the first row, the `b` variable to the second row, and the `c` variable to the third row.
 
-    You can add variables by clicking an empty row and typing the variable name.
+```
+
+1. Set a breakpoint on the `c = a + b;` line by clicking in the left margin, selecting **Debug** > **Toggle Breakpoint**, or pressing **F9**.
+   
+1. Start debugging by selecting the green **Start** arrow or **Debug** > **Start Debugging**, or press **F5**. Execution pauses at the breakpoint.
+   
+1. Open a **Watch** window by selecting **Debug** > **Windows** > **Watch** > **Watch 1**, or pressing **Ctrl**+**Alt**+**W** > **1**.
+   
+   You can open additional **Watch** windows by selecting windows **2**, **3**, or **4**.
+   
+1. In the **Watch** window, select an empty row, and type variable `a`. Do the same for `b` and `c`.
+   
+   ![Watch variables](../debugger/media/watchvariables.png "WatchVariables")
+   
+1. Continue debugging by selecting **Debug** > **Step Into** or pressing **F11** as needed to advance. The variable values in the **Watch** window change as you iterate through the `for` loop.
+   
+>[!NOTE]
+>For C++ only, 
+>- You may need to qualify the context of a variable name, or an expression that uses a variable name. The context is the function, source file, or module where a variable is located. If you have to qualify the context, use the [context operator (C++)](../debugger/context-operator-cpp.md) syntax in the **Name** in the **Watch** window. 
+>  
+>- You can add register names and variable names using **$\<register&nbsp;name>** or **@\<register&nbsp;name>** to the **Name** in the **Watch** window. For more information, see [Pseudovariables](../debugger/pseudovariables.md).
+
+## Use expressions in a Watch window
+
+You can observe any valid expression recognized by the debugger in a **Watch** window.
+
+For example, for the code in the preceding section, you can get the average of the three values by entering `(a + b + c) / 3` in the **Watch** window:
+
+![Watch expression](../debugger/media/watchexpression.png "Watch expression")
+
+The rules for evaluating expressions in the **Watch** window are generally the same as the rules for evaluating expressions in the code language. If an expression has a syntax error, expect the same compiler error as in the code editor. For example, a typo in the preceding expression produces this error in the **Watch** window:
+
+![Watch expression error](../debugger/media/watchexpressionerror.png "Watch expression error")
+
+A circle with two wavy lines icon may appear in the **Watch** window. This icon means the debugger doesn't evaluate the expression because of a potential cross-thread dependency. Evaluating the code requires other threads in your app to run temporarily, but since you are in break mode, all threads in your app are usually stopped. Allowing other threads to run temporarily can have unexpected effects on the state of your app, and the debugger may ignore events such as breakpoints and exceptions on those threads.
+
+### <a name="bkmk_refreshWatch"></a> Refresh watch values
+
+A refresh icon (circular arrow) might appear in the **Watch** window when an expression is evaluated. The refresh icon indicates an error or a value that is out of date. 
+
+To refresh the value, select the refresh icon, or press the spacebar. The debugger tries to reevaluate the expression. However, you may not want or be able to reevaluate the expression, depending on why the value wasn't evaluated. 
+
+Hover over the refresh icon or see the **Value** column for the reason the expression wasn't evaluated. Reasons include:
+
+- An error occurred as the expression was being evaluated, as in the previous example. A timeout might occur, or a variable might be out of scope.
   
-5.  Continue debugging (press **F11** to advance the debugger).  
+- The expression has a function call that could trigger a side effect in the app. See [Expression side effects](#bkmk_sideEffects).
   
- You should see the variable values changing as you iterate through the `for` loop.  
+- Automatic evaluation of properties and implicit function calls is disabled. 
   
- If you are programming in native code, you may sometimes need to qualify the context of a variable name or an expression containing a variable name. The context is the function, source file, and module where a variable is located. If you have to qualify the context, you can use the context operator syntax. For more information, see [Context Operator (C++)](../debugger/context-operator-cpp.md).  
-  
-## Observing expressions with the Watch window  
- Now let's try using an expression instead. You can add any valid expression recognized by the debugger.  
-  
- For example, if you have the code listed in the preceding section, you can get the average of the three values like this:  
-  
- ![Watch Expression](../debugger/media/watchexpression.png "WatchExpression")  
-  
- In general, the rules for evaluating expressions in the **Watch** window are the same as the rules for evaluating expressions in your coding language. If your expression has a syntax error, you can expect the same compiler error that you would see in the code editor. Here's an example:  
-  
- ![Watch Expression Error](../debugger/media/watchexpressionerror.png "WatchExpressionError")  
-  
-##  <a name="bkmk_refreshWatch"></a> Refreshing Watch values that are out of date  
- In certain circumstances, you might see a refresh icon (a circular arrow) when an expression is evaluated in the **Watch** window.  For example, if you have property evaluation turned off (**Tools > Options > Debugging > Enable property evaluation and other implicit function calls**), and you have the following code:  
-  
-```csharp  
-static void Main(string[] args)  
-{  
-    List<string> list = new List<string>();  
-    list.Add("hello");  
-    list.Add("goodbye");  
-}  
-  
-```  
-  
- If you set a watch on the `Count` property of the list, you should see something like the following:  
-  
- ![RefreshWatch](../debugger/media/refreshwatch.png "RefreshWatch")  
-  
- The preceding illustration shows an error or a value that is out of date. You can generally refresh the value by clicking on the icon, but in some cases you might prefer not to refresh it. First you need to know why the value was not evaluated.  
-  
- If you point to the icon, a tooltip provides information about why the expression was not evaluated.  If the circling arrows appear, the expression was not evaluated for one of the following reasons:  
-  
--   An error occurred as the expression was being evaluated. For example, a time-out might have occurred, or a variable might have been out of scope.  
-  
--   The expression contains a function call, which could trigger a side effect in the application (see [Side Effects and Expressions](#bkmk_sideEffects)).  
-  
--   Automatic evaluation of properties and implicit functions calls by the debugger is turned off (**Tools > Options > Debugging > Enable property evaluation and other implicit function calls**), and then the expression cannot be automatically evaluated.  
-  
- To refresh the value, click the refresh icon or press the spacebar. The debugger tries to reevaluate the expression. If the refresh icon appeared because automatic evaluation of properties and other implicit function calls was turned off, the expression can be evaluated.  
-  
- If you see an icon that is a circle with two wavy lines that resemble threads, the expression was not evaluated because of a potential cross-thread dependency. In other words, evaluating the code requires other threads in your application to run temporarily. When you are in break mode, all threads in your application are typically stopped. Allowing other threads to run temporarily can have unexpected effects on the state of your program and causes the debugger to ignore events such as breakpoints and exceptions thrown on those threads.  
-  
-##  <a name="bkmk_sideEffects"></a> Side Effects and Expressions  
- Evaluating some expressions can change the value of a variable or otherwise affect the state of your program. For example, evaluating the following expression changes the value of `var1`:  
-  
+If the refresh icon appears because automatic evaluation of properties and implicit function calls is disabled, you can enable it by selecting **Enable property evaluation and other implicit function calls** in **Tools** > **Options** > **Debugging** > **General**.
+
+To demonstrate using the refresh icon:
+
+1. In **Tools** > **Options** > **Debugging** > **General**, clear the **Enable property evaluation and other implicit function calls** check box. 
+   
+1. Enter the following code, and in the **Watch** window, set a watch on the `list.Count` property. 
+   
+   ```csharp
+   static void Main(string[] args)
+   {
+       List<string> list = new List<string>();
+       list.Add("hello");
+       list.Add("goodbye");
+   }
+   ```
+   
+1. Start debugging. The **Watch** window shows something like the following message:
+   
+   ![Refresh Watch](../debugger/media/refreshwatch.png "Refresh Watch")
+   
+1. To refresh the value, select the refresh icon, or press the spacebar. The debugger reevaluates the expression. 
+
+### <a name="bkmk_sideEffects"></a> Expression side effects 
+
+Evaluating some expressions can change the value of a variable, or otherwise affect the state of your app. For example, evaluating the following expression changes the value of `var1`:
+
 ```csharp
-var1 = var2  
-```  
-  
- This code can cause a [side effect](https://en.wikipedia.org/wiki/Side_effect_\(computer_science\)). Side effects can make debugging more difficult by changing the way your program operates.  
-  
- An expression that is known to have side effects is evaluated only once, when you first enter it. Subsequent evaluations are disabled. You can manually override this behavior by clicking the update icon that appears next to the value.  
-  
- One way to avoid all side effects is to turn off automatic function evaluation (**Tools > Options > Debugging > Enable property evaluation and other implicit function calls**).  
-  
- When evaluation of properties or implicit function calls is turned off, you can force evaluation by using the **ac** format modifier (for C# only). See [Format Specifiers in C#](../debugger/format-specifiers-in-csharp.md).  
-  
-## <a name="bkmk_objectIds"></a> Using Object IDs in the Watch window (C# and Visual Basic)  
+var1 = var2
+```
 
- There are times when you want to observe the behavior of a specific object. For example, you might want to track an object referred to by a local variable after that variable has gone out of scope. In C# and Visual Basic, you can create object IDs for specific instances of reference types and use them in the Watch window and in breakpoint conditions. The object ID is generated by the common language runtime (CLR) debugging services and associated with the object.  
-  
+This code can cause a [side effect](https://en.wikipedia.org/wiki/Side_effect_\(computer_science\)). Side effects can make debugging more difficult by changing the way your app operates.
+
+An expression with side effects is evaluated only once, when you first enter it. After that, the expression appears grayed out in the **Watch** window, and further evaluations are disabled. The tooltip or **Value** column explains that the expression causes a side effect. You can force reevaluation by selecting the refresh icon that appears next to the value.
+
+One way to prevent the side effects designation is to turn off automatic function evaluation. In **Tools** > **Options** > **Debugging** > **General**, deselect **Enable property evaluation and other implicit function calls**.
+
+For C# only, when evaluation of properties or implicit function calls is turned off, you can force evaluation by adding the **ac** format modifier to a variable **Name** in the **Watch** window. See [Format specifiers in C#](../debugger/format-specifiers-in-csharp.md).
+
+## <a name="bkmk_objectIds"></a> Use Object IDs in the Watch window (C# and Visual Basic)
+
+Sometimes you want to observe the behavior of a specific object. For example, you might want to track an object referred to by a local variable after that variable has gone out of scope. In C# and Visual Basic, you can create Object IDs for specific instances of reference types, and use them in the **Watch** window and in breakpoint conditions. The Object ID is generated by the common language runtime (CLR) debugging services and associated with the object.
+
 > [!NOTE]
->  Object IDs create weak references, and do not prevent the object from being garbage collected. They are valid only for the current debugging session.  
+> Object IDs create weak references that don't prevent the object from being garbage collected. They are valid only for the current debugging session.
+
+In the following code, the `MakePerson()` method creates a `Person` using a local variable: 
+
+```csharp
+class Person
+{
+    public Person(string name)
+    {
+        Name = name;
+    }
+    public string Name { get; set; }
+}
+
+public class Program
+{
+    static List<Person> _people = new List<Person>();
+    public static void Main(string[] args)
+    {
+        MakePerson();
+        DoSomething();
+    }
+
+    private static void MakePerson()
+    {
+        var p = new Person("Bob");
+        _people.Add(p);
+    }
+
+    private static void DoSomething()
+    {
+        // more processing
+         Console.WriteLine("done");
+    }
+}
+```
+
+To find out the name of the `Person` in the `DoSomething()` method, you can add a reference to the `Person` Object ID in the **Watch** window.
+
+1. Set a breakpoint in the code after the `Person` object has been created.
+   
+1. Start debugging.
+   
+1. When execution pauses at the breakpoint, open the **Locals** window by choosing **Debug** > **Windows** > **Locals**.
+   
+1. In the **Locals** window, right-click the `Person` variable and select **Make Object ID**.
+   
+   You should see a dollar sign (**$**) plus a number in the **Locals** window, which is the Object ID.
+   
+1. Add the object ID to the **Watch** window by right-clicking the Object ID and selecting **Add Watch**.
+   
+1. Set another breakpoint in the `DoSomething()` method.
+   
+1. Continue debugging. When execution pauses in the `DoSomething()` method, the **Watch** window displays the `Person` object.
+   
+   > [!NOTE]
+   > If you want to see the object's properties, such as `Person.Name`, you must enable property evaluation by selecting **Tools** > **Options** > **Debugging** > **General** > **Enable property evaluation and other implicit function calls**.
+
+## Dynamic View and the Watch window
+
+Some scripting languages (for example, JavaScript or Python) use dynamic or [duck](https://en.wikipedia.org/wiki/Duck_typing) typing, and .NET version 4.0 and later supports objects that are difficult to observe in the normal debugging windows.
+
+The **Watch** window displays these objects as dynamic objects, which are created from types that implement the <xref:System.Dynamic.IDynamicMetaObjectProvider> interface. Dynamic object nodes show the dynamic members of the dynamic objects, but don't allow editing of the member values. 
+
+To refresh **Dynamic View** values, select the [refresh icon](#bkmk_refreshWatch) next to the dynamic object node. 
+
+To display only the **Dynamic View** for an object, add a **dynamic** format specifier after the dynamic object name in the **Watch** window:
+
+- For C#: `ObjectName, dynamic`
+- For Visual Basic: `$dynamic, ObjectName`
+
+>[!NOTE]
+>- The C# debugger doesn't automatically reevaluate the values in the **Dynamic View** when you step to the next line of code. 
+>- The Visual Basic debugger automatically refreshes expressions added through the **Dynamic View**.
+>- Evaluating the members of a **Dynamic View** can have [side effects](https://en.wikipedia.org/wiki/Side_effect_\(computer_science\)). 
+
+**To insert a new watch variable that casts an object to a dynamic object:**
   
- In the following code, one method creates a `Person` using a local variable, but you want to find out what the `Person`'s name is in a different method:  
-  
-```csharp  
-class Person  
-{  
-    public Person(string name)  
-    {  
-        Name = name;  
-    }  
-    public string Name { get; set; }  
-}  
-  
-public class Program  
-{  
-    List<Person> _people = new List<Person>();  
-    public static void Main(string[] args)  
-    {  
-        MakePerson();  
-        DoSomething();  
-    }  
-  
-    private static void MakePerson()  
-    {  
-        var p = new Person("Bob");  
-        _people.Add(p);  
-    }  
-  
-    private static void DoSomething()  
-    {  
-        // more processing  
-         Console.WriteLine("done");  
-    }  
-}  
-  
-```  
-  
- You can add a reference to that `Person` object in the **Watch** window as follows:  
-  
-1.  Set a breakpoint in the code some time after the object has been created.  
-  
-2.  Start debugging, and when execution stops in the breakpoint, find the variable in the **Locals** window, right-click it, and select **Make Object ID**.  
-  
-3.  You should see a **$** plus a number in the **Locals** window, which represents the object ID.  
-  
-4.  Add the object ID to the Watch window.  
-  
-5.  Set a breakpoint where you want to observe the object's behavior.  In the preceding code, that would be in the `DoSomething()` method.  
-  
-6.  Continue debugging, and when execution stops in the `DoSomething()` method, the **Watch** window displays the `Person` object.  
-  
-> [!NOTE]
->  If you want to see the object's properties, such as `Person.Name` in the example above, you must have enabled property evaluation.  
-  
-## Using registers in the Watch window (C++ only)  
- If you are debugging native code, you can add register names as well as variable names using **$\<register name>** or **@\<register name>**.  For more information, see [Pseudovariables](../debugger/pseudovariables.md).  
-  
-## Dynamic View and the Watch window  
- Some scripting languages (for example, JavaScript or Python) use dynamic or [duck typing](https://en.wikipedia.org/wiki/Duck_typing), and .NET languages (in version 4.0 and later) support objects that are difficult to observe using the normal debugging windows, because they may have runtime properties and methods that cannot be displayed.  
-  
- When the Watch window displays an object created from a type that implements the [IDynamicMetaObjectProvider Interface](/dotnet/api/system.dynamic.idynamicmetaobjectprovider?view=netframework-4.7), the debugger adds a special **Dynamic View**  node to the **Autos** display. This node shows the dynamic members of the dynamic object but does not allow editing of the member values.  
-  
- If you right-click any child of a **Dynamic View** and choose **Add Watch**, the debugger inserts a new watch variable that casts an object to a dynamic object. In other words, **object Name** becomes (**(dynamic)object).Name**.  
-  
- Evaluating the members of a **Dynamic View** can have side effects. For an explanation of what side effects are, see [Side Effects and Expressions](#bkmk_sideEffects). For C#, the debugger does not automatically reevaluate the values shown in the **Dynamic View** when you step to a new line of code. For Visual Basic, expressions added through the **Dynamic View** are automatically refreshed.  
-  
- For instructions about how to refresh the Dynamic View values, see [Refreshing Watch values that are out of date](#bkmk_refreshWatch).  
-  
- If you want to display only the **Dynamic View** for an object, you can use the **dynamic** format specifier:  
-  
--   C#: **ObjectName, dynamic**  
-  
--   Visual Basic:: **$dynamic, ObjectName**  
-  
- The **Dynamic View** also enhances the debugging experience for COM objects. When the debugger encounters a COM object wrapped in **System.__ComObject**, it adds a **Dynamic View** node for the object.  
-  
-## See Also  
- [Debugger Windows](../debugger/debugger-windows.md)
+1. Right-click any child of a **Dynamic View**.
+1. Choose **Add Watch**. The `object.name` becomes `((dynamic) object).name` and appears in a new **Watch** window.
+
+The debugger also adds a **Dynamic View** child node of the object to the **Autos** window. To open the **Autos** window, during debugging, select **Debug** > **Windows** > **Autos**. 
+
+**Dynamic View** also enhances debugging for COM objects. When the debugger gets to a COM object wrapped in **System.__ComObject**, it adds a **Dynamic View** node for the object.
+
+## Observe a single variable or expression with QuickWatch
+
+You can use **QuickWatch** to observe a single variable. 
+
+For example, for the following code:
+
+```csharp
+static void Main(string[] args)
+{
+    int a, b;
+    a = 1;
+    b = 2;
+    for (int i = 0; i < 10; i++)
+    {
+        a = a + b;
+    }
+}
+```
+
+To observe the `a` variable, 
+   
+1. Set a breakpoint on the `a = a + b;` line.
+   
+1. Start debugging. Execution pauses at the breakpoint.
+   
+1. Select the variable `a` in the code.
+   
+1. Select **Debug** > **QuickWatch**, press **Shift**+**F9**, or right-click and select **QuickWatch**. 
+   
+   The **QuickWatch** dialog appears. The `a` variable is in the **Expression** box with a **Value** of **1**.
+   
+   ![QuickWatch variable](../debugger/media/quickwatchvariable.png "QuickWatch variable")
+   
+1. To evaluate an expression using the variable, type an expression such as `a + b` in the **Expression** box, and select **Reevaluate**.
+   
+   ![QuickWatch expression](../debugger/media/quickwatchexpression.png "QuickWatch expression")
+   
+1. To add the variable or expression from **QuickWatch** to the **Watch** window, select **Add Watch**.
+   
+1. Select **Close** to close the **QuickWatch** window. (**QuickWatch** is a modal dialog, so you can't continue debugging as long as it is open.)
+   
+1. Continue debugging. You can observe the variable in the **Watch** window.
+
+## See also
+ [What is debugging?](../debugger/what-is-debugging.md)  
+ [Fix bugs by writing better C# code](../debugger/write-better-code-with-visual-studio.md)  
+ [First look at debugging](../debugger/debugger-feature-tour.md) 
+ [Debugger windows](../debugger/debugger-windows.md)

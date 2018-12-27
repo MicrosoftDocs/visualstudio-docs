@@ -22,7 +22,7 @@ Retrieves a cyclic redundancy check (CRC) calculated from the bytes of the sourc
   
 ```C++  
 HRESULT get_crc (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

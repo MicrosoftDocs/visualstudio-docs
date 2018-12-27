@@ -1,6 +1,6 @@
 ---
-title: "Edit code and continue debugging in Visual Studio | Microsoft Docs"
-ms.custom: ""
+title: "Edit code and continue debugging | Microsoft Docs"
+ms.custom: "seodec18"
 ms.date: "05/31/2017"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
@@ -42,5 +42,5 @@ Edit and Continue is a time-saving feature that enables you to make changes to y
   
 ## See Also  
  [Debugger Security](../debugger/debugger-security.md)   
- [Edit and Continue, Debugging, Options Dialog Box](http://msdn.microsoft.com/Library/009d225f-ef65-463f-a146-e4c518f86103)   
- [Debugger Basics](../debugger/debugger-basics.md)
+ [Edit and Continue, Debugging, Options Dialog Box](https://msdn.microsoft.com/library/bcew296c.aspx)   
+ [First look at the debugger](../debugger/debugger-feature-tour.md)

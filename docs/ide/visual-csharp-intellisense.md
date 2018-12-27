@@ -31,26 +31,26 @@ The IntelliSense completion lists in C# contain tokens from List Members, Comple
 
 - Extension methods
 
-The Completion List in C# is also smart enough to filter out irrelevant tokens and pre-select a token based on context. For more information, see [Filtered completion lists](#filtered-completion-lists).
+The completion list in C# is also smart enough to filter out irrelevant tokens and pre-select a token based on context. For more information, see [Filtered completion lists](#filtered-completion-lists).
 
-## Code snippets in completion lists
+### Code snippets in completion lists
 
-In C#, the completion list includes code snippets to help you easily insert predefined bodies of code into your program. Code snippets appear in the completion list as the snippet's [shortcut text](../ide/code-snippets-schema-reference.md#shortcut). For more information about code snippets that are available in C# by default, see [C# code snippets](../ide/visual-csharp-code-snippets.md).
+In C#, the completion list includes code snippets to help you easily insert predefined bodies of code into your program. Code snippets appear in the completion list as the snippet's [shortcut text](../ide/code-snippets-schema-reference.md#shortcut-element). For more information about code snippets that are available in C# by default, see [C# code snippets](../ide/visual-csharp-code-snippets.md).
 
-## Language keywords in completion lists
+### Language keywords in completion lists
 
 In C#, the completion list also includes language keywords. For more information about C# language keywords, see [C# keywords](/dotnet/csharp/language-reference/keywords/index).
 
-## Extension methods in completion lists
+### Extension methods in completion lists
 
 In C#, the completion list includes extension methods that are in scope.
 
 > [!NOTE]
 > The completion list does not display all extension methods for <xref:System.String> objects.
 
-Extension methods use a different icon than instance methods. For a listing of list icons, see [Class View and Object Browser icons](../ide/class-view-and-object-browser-icons.md). When an instance method and extension method with the same name are both in scope, the completion list displays the extension method icon.
+Extension methods use a different icon than instance methods. For a list icon reference guide, see [Class View and Object Browser icons](../ide/class-view-and-object-browser-icons.md). When an instance method and extension method with the same name are both in scope, the completion list displays the extension method icon.
 
-## Filtered completion lists
+### Filtered completion lists
 
 IntelliSense removes unnecessary members from the completion list by using filters. C# filters the completion lists that appear for these items:
 
@@ -72,13 +72,17 @@ IntelliSense removes unnecessary members from the completion list by using filte
 
 - **Parameter help** automatically sorts to the first method overload that matches the parameters as you enter them. If multiple method overloads are available, you can use the up and down arrows to navigate to the next possible overload in the list.
 
-## Most recently used members
+### Most recently used members
 
-IntelliSense remembers the members that you have recently selected in the pop-up [List Members](../ide/using-intellisense.md) box for automatic object name completion. The next time you use Member List, the most recently used members are shown at the top. The history of most recently used members is cleared between each session in the IDE.
+IntelliSense remembers the members that you have recently selected in the pop-up [List Members](../ide/using-intellisense.md) box for automatic object name completion. The next time you use **Member List**, the most recently used members are shown at the top. The history of most recently used members is cleared between each Visual Studio session.
 
-## override
+### override
 
-When you type [override](/dotnet/csharp/language-reference/keywords/override) and then press **Space**, IntelliSense displays all of the valid base class members that you can override in a pop-up list box. Typing the return type of the method after `override` will prompt IntelliSense to only show methods that return the same type. When IntelliSense cannot find any matches, it will display all of the base class members.
+When you type [override](/dotnet/csharp/language-reference/keywords/override) and then press **Space**, IntelliSense displays all of the valid base class members that you can override in a pop-up list box. Typing the return type of the method after `override` prompts IntelliSense to only show methods that return the same type. When IntelliSense cannot find any matches, it displays all of the base class members.
+
+### AI-enhanced IntelliSense
+
+You can install an experimental [IntelliCode extension](/visualstudio/intellicode/intellicode-visual-studio) for Visual Studio that provides artificial intelligence-enhanced IntelliSense completion lists. This extension predicts the most likely correct API to use, rather than just presenting an alphabetical list of members. It uses your current code context and patterns to provide the dynamic list.
 
 ## Automatic code generation
 
@@ -98,9 +102,9 @@ The **Remove and Sort Usings** option sorts and removes `using` and `extern` dec
 
 ### Implement interface
 
-IntelliSense provides an option to help you implement an [interface](/dotnet/csharp/language-reference/keywords/interface) while working in the code editor. Normally, to implement an interface properly, you must create a method declaration for every member of the interface in your class. Using IntelliSense, after you type the name of an interface in a class declaration, a **Quick Actions** light bulb is displayed. The light bulb gives you the option to implement the interface automatically, using explicit or implicit naming. Under explicit naming, the method declarations carry the name of the interface; under implicit naming, the method declarations do not indicate the interface to which they belong. An explicitly named interface method can only be accessed through an interface instance, and not through a class instance. For more information, see [Explicit interface implementation](/dotnet/csharp/programming-guide/interfaces/explicit-interface-implementation).
+IntelliSense provides an option to help you implement an [interface](/dotnet/csharp/language-reference/keywords/interface) while working in the code editor. Normally, to implement an interface properly, you must create a method declaration for every member of the interface in your class. Using IntelliSense, after you type the name of an interface in a class declaration, a **Quick Actions** light bulb is displayed. The light bulb gives you the option to implement the interface automatically, using explicit or implicit naming. Under explicit naming, the method declarations carry the name of the interface. Under implicit naming, the method declarations do not indicate the interface to which they belong. An explicitly named interface method can only be accessed through an interface instance, and not through a class instance. For more information, see [Explicit interface implementation](/dotnet/csharp/programming-guide/interfaces/explicit-interface-implementation).
 
-Implement Interface will generate the minimum number of method stubs that is required to satisfy the interface. If a base class implements parts of the interface, then those stubs are not regenerated.
+Implement Interface generates the minimum number of method stubs that's required to satisfy the interface. If a base class implements parts of the interface, then those stubs aren't regenerated.
 
 ### Implement abstract base class
 
@@ -155,4 +159,4 @@ If you press **Tab**, IntelliSense stubs out a method with the correct signature
 ## See also
 
 - [Use IntelliSense](../ide/using-intellisense.md)
-- [Visual Studio IDE](../ide/visual-studio-ide.md)
+- [Visual Studio IDE](../get-started/visual-studio-ide.md)

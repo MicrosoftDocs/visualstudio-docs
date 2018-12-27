@@ -1,5 +1,5 @@
 ---
-title: Extract an interface refactoring in Visual Studio
+title: Extract an interface refactoring
 ms.date: 01/26/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
@@ -35,44 +35,46 @@ This refactoring applies to:
 
    - C#:
 
-    ![Highlighted code - C#](media/extractinterface-highlight-cs.png)
+       ![Highlighted code - C#](media/extractinterface-highlight-cs.png)
 
    - Visual Basic:
 
-    ![Highlighted code - Visual Basic](media/extractinterface-highlight-vb.png)
+       ![Highlighted code - Visual Basic](media/extractinterface-highlight-vb.png)
 
-1. Next, do one of the following:
+2. Next, do one of the following:
 
    - **Keyboard**
-     - Press **Ctrl+R**, then **Ctrl+I**. (Note that your keyboard shortcut may be different based on which profile you've selected.)
-     - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu and select **Extract Interface** from the Preview window popup.
+      - Press **Ctrl+R**, then **Ctrl+I**. (Note that your keyboard shortcut may be different based on which profile you've selected.)
+      - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu and select **Extract Interface** from the Preview window popup.
    - **Mouse**
-     - Select **Edit > Refactor > Extract Interface**.
-     - Right-click the name of the class, select the **Quick Actions and Refactorings** menu and select **Extract Interface** from the Preview window popup.
+      - Select **Edit > Refactor > Extract Interface**.
+      - Right-click the name of the class, select the **Quick Actions and Refactorings** menu and select **Extract Interface** from the Preview window popup.
 
-1. In the **Extract Interface** dialog box that pops up, enter the information asked:
+3. In the **Extract Interface** dialog box that pops up, enter the information asked:
 
    ![Extract Interface](media/extractinterface-dialog-cs.png)
 
+
    | Field | Description |
-   | --- | --- |
+   | - | - |
    | **New interface name** | The name of the interface to be created. This will default to I*ClassName*, where *ClassName* is the name of the class you selected above. |
    | **New file name** | The name of the file which will be generated that will contain the interface. As with the interface name, this will default to I*ClassName*, where *ClassName* is the name of the class you selected above. |
    | **Select public members to form interface** | The items to extract into the interface. You may select as many as you wish. |
 
-1. Choose **OK**.
+
+4. Choose **OK**.
 
    The interface is created in the file of the name specified. Additionally, the class you selected implements that interface.
 
    - C#:
 
-    ![Resulting Class - C#](media/extractinterface-class-cs.png)
-    ![Resulting Interface - C#](media/extractinterface-interface-cs.png)
+      ![Resulting Class - C#](media/extractinterface-class-cs.png)
+      ![Resulting Interface - C#](media/extractinterface-interface-cs.png)
 
    - Visual Basic:
 
-    ![Resulting Class - Visual Basic](media/extractinterface-class-vb.png)
-    ![Resulting Interface - Visual Basic](media/extractinterface-interface-vb.png)
+      ![Resulting Class - Visual Basic](media/extractinterface-class-vb.png)
+      ![Resulting Interface - Visual Basic](media/extractinterface-interface-vb.png)
 
 ## See also
 

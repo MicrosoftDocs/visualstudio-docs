@@ -23,18 +23,18 @@ ms.workload:
 # Set a Watch on Variables in Parallel Threads in Visual Studio
 In the Parallel Watch window, you can simultaneously display the values that one expression holds on multiple threads. Each row represents a thread that is running in an application, but a thread might be represented in multiple rows. More specifically, each row represents a function call whose function signature matches the function on the current stack frame. You can sort, reorder, remove, and group the items that are in the columns. You can flag, unflag, freeze (suspend), and thaw (resume) threads. The following columns are displayed in the **Parallel Watch** window:  
   
--   The flag column, in which you can mark a thread that you want to pay special attention to.  
+- The flag column, in which you can mark a thread that you want to pay special attention to.  
   
--   The current thread column, in which a yellow arrow indicates the current thread (a green arrow with a curly tail indicates that a non-current thread has the current debugger context).  
+- The current thread column, in which a yellow arrow indicates the current thread (a green arrow with a curly tail indicates that a non-current thread has the current debugger context).  
   
--   A configurable column that can display the machine, process, tile, task, and thread.  
+- A configurable column that can display the machine, process, tile, task, and thread.  
   
-    > [!TIP]
-    >  To dislay task information in the **Parallel Watch** window, you must first open the **Task** window.  
+  > [!TIP]
+  >  To dislay task information in the **Parallel Watch** window, you must first open the **Task** window.  
   
--   The blank *add watch* columns, in which you can enter expressions to watch.  
+- The blank *add watch* columns, in which you can enter expressions to watch.  
   
- [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  
+  [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  
   
 ### To display the Parallel Watch window  
   

@@ -5,7 +5,7 @@ ms.author: jaunger
 manager: evelynp
 ms.date: 01/02/2018
 ms.topic: Get-Started-Article
-description:  Sign-in may fail if aliases or friendly names are used
+description: Sign-in may fail if aliases or friendly names are used
 ms.prod: vs-subscription
 ms.technology: vs-subscriptions
 searchscope: VS Subscription
@@ -19,7 +19,7 @@ Depending on the account type used to sign in, available subscriptions may not b
 
 The term “aliasing” refers to users having different identities to sign in to Windows (or your Active Directory) and to access email.
 
-Aliasing can be encountered when a company has a Microsoft Online Service for their directory sign-in, like JohnD@contoso.com, but users access their email accounts using aliases or friendly names, such as John.Doe@contoso.com.  For many customers who manage their subscriptions through the Volume Licensing Service Center (VLSC), this can result in an unsuccessful sign-in experience as the email address provided (John.Doe@contoso.com) does not match the directory address (JohnD@contoso.com) required for successful authentication through the “Work or School Account” option.
+Aliasing can be encountered when a company has a Microsoft Online Service for their directory sign-in, like JohnD@contoso.com, but users access their email accounts using aliases or friendly names, such as John.Doe@contoso.com. For many customers who manage their subscriptions through the Volume Licensing Service Center (VLSC), this can result in an unsuccessful sign-in experience as the email address provided (John.Doe@contoso.com) does not match the directory address (JohnD@contoso.com) required for successful authentication through the “Work or School Account” option.
 
 ## As an administrator, what options do I have?
 
@@ -28,15 +28,15 @@ As an administrator, there are two options to ensure your subscribers have a suc
 - The second option (less secure), is to allow your subscribers to associate their “Work or School” email address to a “Personal” account (a.k.a. Microsoft Account or MSA). Refer to [Defining a Work or School Account as a Personal Account ](#defining-a-work-or-school-account-as-a-personal-account ) section in this article for more details.
 
 > [!NOTE]
-> Once your company is migrated to the new Visual Studio subscriptions [management portal](https://manage.visualstudio.com), you will be able to take advantage of the new administration experience which allows both Directory and email addresses to be provided as part of the subscriber’s profile.  Learn more about [the migration](https://support.microsoft.com/help/4013930/visual-studio-subscriptions-administrator-migration-details).
+> Once your company is migrated to the new Visual Studio subscriptions [management portal](https://manage.visualstudio.com), you will be able to take advantage of the new administration experience which allows both Directory and email addresses to be provided as part of the subscriber’s profile. Learn more about [the migration](https://support.microsoft.com/help/4013930/visual-studio-subscriptions-administrator-migration-details).
 
 ## As a subscriber, what options do I have?
 
-From a subscriber perspective, it is important to first work with your administrator to understand your company’s identity configuration.  If necessary, your administrator may have to update your account settings from their administration portal, or you may need to create a Microsoft Account (MSA) using your corporate email address.  Before taking the steps to create an MSA, speak with your administrator regarding any policies or issues with taking this action.  Refer to [Defining a Work or School Account as a Personal Account ](#defining-a-work-or-school-account-as-a-personal-account ) section in this article for more details.
+From a subscriber perspective, it is important to first work with your administrator to understand your company’s identity configuration. If necessary, your administrator may have to update your account settings from their administration portal, or you may need to create a Microsoft Account (MSA) using your corporate email address. Before taking the steps to create an MSA, speak with your administrator regarding any policies or issues with taking this action. Refer to [Defining a Work or School Account as a Personal Account](#defining-a-work-or-school-account-as-a-personal-account) section in this article for more details.
 
 ## Assigning subscribers to a directory account
 
-In all cases, the Subscription Manager within the Volume Licensing Service Center (VLSC) will need to use the directory address for new subscribers, or update the email address for “existing” subscribers.  It is important to note that using the directory address will mean any new subscribers will not receive a Welcome Email, and the Administrator will need to notify the subscriber that a subscription has been assigned to them.  After following the below steps, please also feel free to use the email [template](#notifying-your-subscribers-with-directory-addresses) to notify your subscribers, and help them through the sign-in process.
+In all cases, the Subscription Manager within the Volume Licensing Service Center (VLSC) will need to use the directory address for new subscribers, or update the email address for “existing” subscribers. It is important to note that using the directory address will mean any new subscribers will not receive a Welcome Email, and the Administrator will need to notify the subscriber that a subscription has been assigned to them. After following the below steps, please also feel free to use the email [template](#notifying-your-subscribers-with-directory-addresses) to notify your subscribers, and help them through the sign-in process.
 
 ### Adding new subscribers
 
@@ -45,11 +45,14 @@ Please follow these steps to add a new subscriber with a directory account.
 1. Visit the [Volume Licensing Service Center](https://www.microsoft.com/Licensing/servicecenter/default.aspx) (VLSC) and sign in.
 2. From the VLSC Admin page, click **Subscriptions** and then **Visual Studio Subscriptions**.
 
-    ![Subscriptions menu](_img//vlsc/vlsc-subscriptions.png)
+    > [!div class="mx-imgBorder"]
+    > ![Subscriptions menu](_img//vlsc/vlsc-subscriptions.png)
+
 
 3. Click the **Agreement Number** associated with the Visual Studio Subscription.
 
-    ![Select agreement](_img/vlsc/vlsc-agreement.png)
+    > [!div class="mx-imgBorder"]
+    > ![Select agreement](_img/vlsc/vlsc-agreement.png)
 
 4. Click **Assign Subscription**.
 5. Select the desired **Subscription Level**.
@@ -80,7 +83,7 @@ Since the Welcome Email will not successfully reach your subscriber, please copy
 
 Hello %SUBSCRIBER NAME%
 
-You have been assigned a Visual Studio subscription.  Please visit https://my.visualstudio.com, and log in with your %DIRECTORY ADDRESS% address to activate and access your subscription.
+You have been assigned a Visual Studio subscription. Please visit https://my.visualstudio.com, and log in with your %DIRECTORY ADDRESS% address to activate and access your subscription.
 
 If you’re having trouble, please contact the support team (https://visualstudio.microsoft.com/subscriptions/support/).
 
@@ -91,8 +94,6 @@ At the bottom of the page, select the following:
    - Select the desired Assisted Support option
 
 ----------- End Copy -----------
-
-
 
 ## Defining a work or school account as a personal account
 
@@ -108,10 +109,10 @@ After a subscription is  assigned to the Subscriber, they will receive an email 
 1. Navigate to https://my.visualstudio.com, and click **Create new Microsoft account**.
 
 2. Complete the Fields:
-    - Enter the email address which received the Welcome Email in the Someone@example.com box
-    - Create your password
-    - Choose your promotional settings
-    - Click **Next**
+   - Enter the email address which received the Welcome Email in the Someone@example.com box
+   - Create your password
+   - Choose your promotional settings
+   - Click **Next**
 
 3. Complete the validation steps and click **Next**.
 
@@ -133,10 +134,10 @@ You have been assigned a Visual Studio subscription, and may have been directed 
 2. Click Create new Microsoft Account on the right hand side
 
 3. Complete the Form:
-    - Use your corporate email address in the someone@example.com box
-    - Enter a password
-    - Select your promotional preference
-    - Click Next
+   - Use your corporate email address in the someone@example.com box
+   - Enter a password
+   - Select your promotional preference
+   - Click Next
 
 4. Complete the account validation steps
 

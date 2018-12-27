@@ -1,9 +1,9 @@
 ---
-title: "How to: Respond to the Just-In-Time Debugger | Microsoft Docs"
+title: "Disable the Just-In-Time Debugger | Microsoft Docs"
 ms.custom: ""
-ms.date: "05/23/17"
+ms.date: "05/23/18"
 ms.technology: "vs-ide-debug"
-ms.topic: "conceptual"
+ms.topic: "troubleshooting"
 helpviewer_keywords:
   - "debugging [Visual Studio], Just-In-Time"
   - "Just-In-Time debugging"
@@ -14,34 +14,30 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# How to: Respond to the Just-In-Time Debugger
+# Disable the Just-In-Time Debugger 
 
-The actions you should take when you see the Just-in-Time debugger dialog box depend on what you are trying to do:
+The Just-In-Time Debugger dialog box may open when an error occurs in a running app, and prevent the app from continuing. 
 
-#### If you want to fix or debug the error (Visual Studio users)
+The Just-In-Time Debugger gives you the option to launch Visual Studio to debug the error. You must have [Visual Studio](http://visualstudio.microsoft.com) or another selected debugger installed to view detailed information about the error or try to debug it. 
 
-- You must have [Visual Studio installed](http://visualstudio.microsoft.com) to view the detailed information about the error and to try to debug it. For more information, see [Debug using the Just-In-Time Debugger](../debugger/debug-using-the-just-in-time-debugger.md). If you cannot resolve the error and fix the app, contact the owner of the app to resolve the error.
+If you're a Visual Studio user and want to try to debug the error, see [Debug using the Just-In-Time Debugger](../debugger/debug-using-the-just-in-time-debugger.md). If you can't fix the error, or want to keep the Just-In-Time Debugger from opening, you can [disable Just-In-Time debugging from Visual Studio](debug-using-the-just-in-time-debugger.md#BKMK_Enabling). 
 
-#### If you want to prevent the Just-In-Time Debugger dialog box from appearing
+If you had Visual Studio installed but no longer do, you may need to [disable Just-In-Time debugging from the Windows registry](debug-using-the-just-in-time-debugger.md#disable-just-in-time-debugging-from-the-windows-registry). 
 
-You can take steps to prevent the Just-in-Time Debugger dialog box from appearing. If the app handles the error, you can run the app normally.
+If you don't have Visual Studio installed, you can prevent Just-In-Time debugging by disabling script debugging or server-side debugging. 
 
-1. (Web apps) If you are trying to run a web app, you can disable script debugging.
+- If you're trying to run a web app, disable script debugging:
+  
+  In Windows **Control Panel** > **Network and Internet** > **Internet Options**, select **Disable script debugging (Internet Explorer)** and **Disable script debugging (other)**. The exact steps and settings depend on your version of Windows and your browser.
+  
+  ![JIT Internet Options](../debugger/media/jitinternetoptions.png "JIT internet options")
+  
+- If you're hosting an ASP.NET web app in IIS, disable server-side debugging:
 
-    For Internet Explorer or Edge, disable script debugging in the Internet Options dialog box. You can access these settings from the **Control Panel** > **Network and Internet** > **Internet Options** (the exact steps depend on your version of Windows and your browser).
+  1. In IIS Manager **Features View**, under the **ASP.NET** section, double-click **.NET Compilation**, or select it and then select **Open Feature** in the **Actions** pane. 
+  1. Under **Behavior** > **Debug**, select **False**. The steps are different in older versions of IIS.
 
-    ![JITInternetOptions](../debugger/media/jitinternetoptions.png "JITInternetOptions")
+After you disable Just-In-Time debugging, the app may be able to handle the error and run normally. 
 
-    Then reopen the web page where you found the error. If changing this setting does not resolve the issue, contact the owner of the web app to fix the issue.
+If the app still has an unhandled error, you may see an error message, or the app may crash or hang. The app won't run normally until the error is fixed. You can try to contact the owner of the app and ask them to fix it.
 
-3. (Visual Studio users) If you have Visual Studio installed (or if you had it installed previously and removed it), [disable Just-in-Time debugging](../debugger/debug-using-the-just-in-time-debugger.md) and try to run the app again.
-
-    > [!IMPORTANT]
-    > If you disable Just-in-Time debugging and the app encounters an unhandled exception (an error), you will either see a standard error dialog box instead, or the app will crash or hang. The app will not run normally until the error is fixed (by you or the owner of the app).
-
-2. (ASP.NET and IIS) If you are hosting an ASP.NET Web app in IIS, disable server-side debugging.
-
-    In IIS Manager, right-click the server node and choose **Switch to Features View**. Under the ASP.NET section, choose **.NET Compilation** and then make sure you choose **False** as the Debug behavior (the steps are different in older versions of IIS).
-
-## See Also
- [Debugger Basics](../debugger/debugger-basics.md)

@@ -42,7 +42,7 @@ The Graph View provides a graphic representation of global schema nodes and the 
  The following table describes the options that are available for all the nodes on the Graph View design surface.
 
 |Option|Description|
-|------------|-----------------|
+|-|-----------------|
 |**Show in XML Schema Explorer**|Puts focus on the Schema Explorer and highlights the schema set node.|
 |**Show in Graph View**|Switches to the Graph View (grayed out).|
 |**Generate Sample XML**|Available only for global elements. Generates a sample XML file for the global element.|
@@ -57,7 +57,7 @@ The Graph View provides a graphic representation of global schema nodes and the 
  In addition to the common options described above, the context menu for global elements also has the following options:
 
 |Option|Description|
-|------------|-----------------|
+|-|-----------------|
 |**Add Type Definition**|Adds the base type to the diagram.|
 |**Add All References**|Adds all the nodes that refer to the element and draws arrows to indicate relationships between them.|
 |**Add Substitution Group Members**|Adds all substitution group members. This option appears in the view if the element is the head or member of a substitution group.|
@@ -66,7 +66,7 @@ The Graph View provides a graphic representation of global schema nodes and the 
  In addition to the common options described above, the context menu for global simple and global complex types also has the following options:
 
 |Option|Description|
-|------------|-----------------|
+|-|-----------------|
 |**Add Base Type**|If the selected type is derived from a global type, adds the base type of the selected type.|
 |**Add All References**|Adds all references of the selected type. This includes elements and attributes of the selected type, and types derived from the selected type.|
 |**Add All Derived Types**|Adds all types that are directly and indirectly derived from the selected type.|
@@ -75,14 +75,14 @@ The Graph View provides a graphic representation of global schema nodes and the 
  In addition to the common options described above, the context menu for global groups and attribute groups also has the following options:
 
 |Option|Description|
-|------------|-----------------|
+|-|-----------------|
 |**Add All References**|Adds all nodes that refer to the group and draws arrows to indicate relationships between them.|
 |**Add All Members**|Adds all members of the group and draws arrows to indicate relationships between them.|
 
  In addtion to the common options described above, the context menu for global attributes also has the following options:
 
 |Option|Description|
-|------------|-----------------|
+|-|-----------------|
 |**Add All References**|Adds all nodes that refer to the group and draws arrows to indicate relationships between them.|
 
 ## Properties window
@@ -96,7 +96,7 @@ The Graph View provides a graphic representation of global schema nodes and the 
  ![XML Schema Designer Toolbar](../xml-tools/media/xsdgraphviewtoolbar.gif)
 
 |Option|Description|
-|------------|-----------------|
+|-|-----------------|
 |**Show Start View**|Switches to the [Start View](../xml-tools/start-view.md). This view can be accessed by using the keyboard shortcut: **Ctrl**+**1**.|
 |**Show Content Model View**|Switches to the [Content Model View](../xml-tools/content-model-view.md). This view can be accessed by using the keyboard shortcut: **Ctrl**+**2**.|
 |**Show Graph View**|Switches to the [Graph View](../xml-tools/graph-view.md). This view can be accessed by using the keyboard shortcut: **Ctrl**+**3**.|

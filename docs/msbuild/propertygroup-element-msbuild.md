@@ -21,7 +21,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# PropertyGroup Element (MSBuild)
+# PropertyGroup element (MSBuild)
 Contains a set of user-defined [Property](../msbuild/property-element-msbuild.md) elements. Every `Property` element used in an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project must be a child of a `PropertyGroup` element.  
 
  \<Project>  
@@ -36,7 +36,7 @@ Contains a set of user-defined [Property](../msbuild/property-element-msbuild.md
 </PropertyGroup>  
 ```  
 
-## Attributes and Elements  
+## Attributes and elements  
  The following sections describe attributes, child elements, and parent elements.  
 
 ### Attributes  
@@ -45,17 +45,17 @@ Contains a set of user-defined [Property](../msbuild/property-element-msbuild.md
 |---------------|-----------------|  
 |Condition|Optional attribute.<br /><br /> Condition to be evaluated. For more information, see [Conditions](../msbuild/msbuild-conditions.md).|  
 
-### Child Elements  
+### Child elements  
 
 |Element|Description|  
 |-------------|-----------------|  
 |[Property](../msbuild/property-element-msbuild.md)|Optional element.<br /><br /> A user defined property name, which contains the property value. There may be zero or more *Property* elements in a `PropertyGroup` element.|  
 
-### Parent Elements  
+### Parent elements  
 
-|Element|Description|  
-|-------------|-----------------|  
-|[Project](../msbuild/project-element-msbuild.md)|Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file.|  
+| Element | Description |
+| - | - |
+| [Project](../msbuild/project-element-msbuild.md) | Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file. |
 
 ## Example  
  The following code example shows how to set properties based on a condition. In this example, if the value of the `CompileConfig` property is `DEBUG`, the `Optimization`, `Obfuscate`, and `OutputPath` properties inside of the `PropertyGroup` element are set.  
@@ -68,6 +68,6 @@ Contains a set of user-defined [Property](../msbuild/property-element-msbuild.md
 </PropertyGroup>  
 ```  
 
-## See Also  
- [Project File Schema Reference](../msbuild/msbuild-project-file-schema-reference.md)  
- [MSBuild Properties](../msbuild/msbuild-properties.md)
+## See also  
+ [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)  
+ [MSBuild properties](../msbuild/msbuild-properties.md)

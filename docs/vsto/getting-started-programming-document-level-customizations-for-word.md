@@ -11,8 +11,8 @@ dev_langs:
 helpviewer_keywords: 
   - "Word solutions in Visual Studio"
   - "Word projects [Office development in Visual Studio], getting started"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

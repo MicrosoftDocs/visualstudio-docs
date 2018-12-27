@@ -37,9 +37,9 @@ For more information about profiling UWP apps, see the following articles:
 - [Run UWP apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md)
 - [First look at profiling tools](profiling-feature-tour.md)
 - [JavaScript memory](../profiling/javascript-memory.md)
-- [Profile Visual C++, Visual C#, and Visual Basic code in UWP apps on a local machine](http://msdn.microsoft.com/en-us/2d0c939e-0bac-48c5-b727-46f6c6113060)
-- [Profile Visual C++, Visual C#, and Visual Basic code in UWP apps on a remote device](http://msdn.microsoft.com/en-us/b932a2be-11b0-40fd-b996-75c6b6a79d22)
-- [Analyze performance data for Visual C++, Visual C#, and Visual Basic code in UWP apps](http://msdn.microsoft.com/en-us/5de4a413-d924-425f-afc4-e1ecfb0fca18)
+- [Profile Visual C++, Visual C#, and Visual Basic code in UWP apps on a local machine](https://msdn.microsoft.com/2d0c939e-0bac-48c5-b727-46f6c6113060)
+- [Profile Visual C++, Visual C#, and Visual Basic code in UWP apps on a remote device](https://msdn.microsoft.com/b932a2be-11b0-40fd-b996-75c6b6a79d22)
+- [Analyze performance data for Visual C++, Visual C#, and Visual Basic code in UWP apps](https://msdn.microsoft.com/5de4a413-d924-425f-afc4-e1ecfb0fca18)
 
 ## Collect data on apps running on the Windows 8 desktop or on Windows Server 2012 from the Visual Studio IDE
 
@@ -70,7 +70,7 @@ To profile applications on devices that do not have Visual Studio installed, do 
 
 - Download the tools as part of the Remote Tools for Visual Studio from the [MSDN web site](http://go.microsoft.com/fwlink/?LinkID=219549).
 
-- Copy and run the stand-alone profiler tools installation program from your Visual Studio computer. The installation programs are in *%VSInstallDir%\Team Tools\Performance Tools\Setups* folder. Choose the setup program for the operating system (x86/x64) of the remote computer.
+- Copy and run the stand-alone profiler tools installation program from your Visual Studio computer. To get the path to the profiling tools, see [Specify the path to command line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md). Choose the setup program for the operating system (x86/x64) of the remote computer.
 
 > [!NOTE]
 > To collect TIP profiling data, you must install the stand-alone profiler from your Visual Studio machine on the remote computer.
@@ -105,7 +105,7 @@ You must add the tier interaction data collection option to a profiling run from
 
 **Collecting TIP data on a remote machine**
 
-To collect tier interaction data on a remote machine, you must copy the **vs_profiler_***\<Platform>***_***\<Language>***.exe** file from the *%VSInstallDir%\Team Tools\Performance Tools\Setups* folder of a Visual Studio machine to the remote computer and install it. You cannot use the profiling tools in the [Remote Debugging](../debugger/remote-debugging.md) download package.
+To collect tier interaction data on a remote machine, you must copy the **vs\_profiler\_**_\<Platform>_**\_**_\<Language>_**.exe** file from the *%VSInstallDir%\Team Tools\Performance Tools\Setups* folder of a Visual Studio machine to the remote computer and install it. You cannot use the profiling tools in the [Remote Debugging](../debugger/remote-debugging.md) download package.
 
 You can use [VSPerfCmd](../profiling/vsperfcmd.md) or [VSPerfASPNetCmd](../profiling/vsperfaspnetcmd.md) to collect the profiling data.
 

@@ -1,11 +1,11 @@
 ---
-title: "Coding a custom validation rule for a web performance test in Visual Studio"
+title: "Coding a custom validation rule for a web performance test"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
   - "custom validation rules"
   - "validation rules, creating"
-  - "Web performance tests, creating custom validation rules"
+  - "web performance tests, creating custom validation rules"
   - "rules, validation"
   - "validation rules"
 ms.assetid: 989124bc-1a86-41f7-b37d-8f9e54dd4f0b
@@ -25,9 +25,11 @@ You can create your own validation rules. To do this, you derive your own rule c
 > [!NOTE]
 > You can also create custom extraction rules. For more information, see [Create custom code and plug-ins for load tests](../test/create-custom-code-and-plug-ins-for-load-tests.md).
 
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
+
 ## To create custom validation rules
 
-1.  Open a Test Project that contains a Web performance test.
+1.  Open a Test Project that contains a web performance test.
 
 2.  (Optional) Create a separate Class library project in which to store your validation rule.
 
@@ -42,13 +44,13 @@ You can create your own validation rules. To do this, you derive your own rule c
 
 6.  (Optional) In the Test Project, add a reference to the Class library project that contains the custom validation rule.
 
-7.  In the Test Project, open a Web performance test in the **Web Performance Test Editor**.
+7.  In the Test Project, open a web performance test in the **Web Performance Test Editor**.
 
-8.  To add the custom validation rule to a Web performance test request, right-click a request and select **Add Validation Rule**.
+8.  To add the custom validation rule to a web performance test request, right-click a request and select **Add Validation Rule**.
 
      The **Add Validation Rule** dialog box appears. You will see your custom validation rule in the **Select a rule** list, together with the predefined validation rules. Select your custom validation rule and then choose **OK**.
 
-9. Run your Web performance test.
+9. Run your web performance test.
 
 ## Example
 
@@ -132,11 +134,11 @@ namespace SampleWebTestRules
             {
                 if (numTagsFound > 0)
                 {
-                    e.Message = String.Format("Only found {0} occurences of the tag", numTagsFound);
+                    e.Message = String.Format("Only found {0} occurrences of the tag", numTagsFound);
                 }
                 else
                 {
-                    e.Message = String.Format("Did not find any occurences of tag '{0}'", RequiredTagName);
+                    e.Message = String.Format("Did not find any occurrences of tag '{0}'", RequiredTagName);
                 }
             }
         }
@@ -227,9 +229,9 @@ Namespace SampleWebTestRules
             ' If the validation fails, set the error text that the user sees
             If Not (validated) Then
                 If numTagsFound > 0 Then
-                    e.Message = String.Format("Only found {0} occurences of the tag", numTagsFound)
+                    e.Message = String.Format("Only found {0} occurrences of the tag", numTagsFound)
                 Else
-                    e.Message = String.Format("Did not find any occurences of tag '{0}'", RequiredTagName)
+                    e.Message = String.Format("Did not find any occurrences of tag '{0}'", RequiredTagName)
                 End If
             End If
         End Sub

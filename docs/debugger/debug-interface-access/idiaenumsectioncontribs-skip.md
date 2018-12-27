@@ -22,7 +22,7 @@ Skips a specified number of section contributions in an enumeration sequence.
   
 ```C++  
 HRESULT Skip(   
-   ULONG celt  
+   ULONG celt  
 );  
 ```  
   

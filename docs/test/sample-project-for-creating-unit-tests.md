@@ -21,7 +21,7 @@ This sample code contains a class, *BankAccount*, with various methods that can 
 The code is used in the following walkthroughs:
 
 - [Create and run unit tests for managed code](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md). This walkthrough leads you through the steps to create and customize unit tests, run them, and examine the test results.
-- [Use the command-line test utility](http://msdn.microsoft.com/Library/52c11992-9e94-4067-a4b7-59f19d69d867). In this walkthrough, you use the MSTest.exe command-line utility to run tests and view results.
+- [Use the command-line test utility](https://msdn.microsoft.com/Library/52c11992-9e94-4067-a4b7-59f19d69d867). In this walkthrough, you use the *MSTest.exe* command-line utility to run tests and view results.
 
 ## Sample code
 
@@ -129,4 +129,4 @@ To work with this code, first create a project for it in Visual Studio. Follow t
 ## See also
 
 - [Walkthrough: Create and run unit tests for managed code](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md)
-- [Walkthrough: Use the command-line test utility](http://msdn.microsoft.com/Library/52c11992-9e94-4067-a4b7-59f19d69d867)
+- [Walkthrough: Use the command-line test utility](https://msdn.microsoft.com/Library/52c11992-9e94-4067-a4b7-59f19d69d867)

@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "ranges, adding to worksheets"
   - "NamedRange control, adding to worksheets"
   - "controls [Office development in Visual Studio], adding to worksheets"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -27,13 +27,13 @@ ms.workload:
   
  This topic describes the following tasks:  
   
--   [Add NamedRange controls at design time](#designtime)  
+- [Add NamedRange controls at design time](#designtime)  
   
--   [Add NamedRange controls at runtime in a document-level project](#runtimedoclevel)  
+- [Add NamedRange controls at runtime in a document-level project](#runtimedoclevel)  
   
--   [Add NamedRange controls at runtime in a VSTO Add-in project](#runtimeaddin)  
+- [Add NamedRange controls at runtime in a VSTO Add-in project](#runtimeaddin)  
   
- For more information about <xref:Microsoft.Office.Tools.Excel.NamedRange> controls, see [NamedRange control](../vsto/namedrange-control.md).  
+  For more information about <xref:Microsoft.Office.Tools.Excel.NamedRange> controls, see [NamedRange control](../vsto/namedrange-control.md).  
   
 ##  <a name="designtime"></a> Add NamedRange controls at design time  
  There are several ways to add <xref:Microsoft.Office.Tools.Excel.NamedRange> controls to a worksheet in a document-level project at design time: from within Excel, from the Visual Studio **Toolbox**, and from the **Data Sources** window.  

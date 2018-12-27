@@ -15,17 +15,17 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Directory Status Code Enumerator
+# Directory status code enumerator
 The `SccDirStatus` enumerator contains named constant values that specify the state of a directory in the source control system. This enumeration is used by the [SccDirQueryInfo](../extensibility/sccdirqueryinfo-function.md). This was introduced in version 1.2 of the Source Control Plug-in API.  
   
 ## Syntax  
   
 ```  
 enum SccDirStatus {  
-   SCC_DIRSTATUS_INVALID       = -1L,  
-   SCC_DIRSTATUS_NOTCONTROLLED = 0x0000L,  
-   SCC_DIRSTATUS_CONTROLLED    = 0x0001L,  
-   SCC_DIRSTATUS_EMPTYPROJ     = 0x0002L  
+   SCC_DIRSTATUS_INVALID       = -1L,  
+   SCC_DIRSTATUS_NOTCONTROLLED = 0x0000L,  
+   SCC_DIRSTATUS_CONTROLLED    = 0x0001L,  
+   SCC_DIRSTATUS_EMPTYPROJ     = 0x0002L  
 };  
 ```  
   
@@ -42,6 +42,6 @@ enum SccDirStatus {
  SCC_DIRSTATUS_EMPTYPROJ  
  Project corresponding to this directory is empty.  
   
-## See Also  
- [Source Control Plug-ins](../extensibility/source-control-plug-ins.md)   
+## See also  
+ [Source control plug-ins](../extensibility/source-control-plug-ins.md)   
  [SccDirQueryInfo](../extensibility/sccdirqueryinfo-function.md)

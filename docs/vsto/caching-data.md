@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "data caching [Office development in Visual Studio], about caching data"
   - "data [Office development in Visual Studio], caching"
   - "data caching [Office development in Visual Studio]"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -25,47 +25,47 @@ ms.workload:
   
  There are two ways to add an object to the data cache:  
   
--   To add an object to the data cache when the solution is built, apply the <xref:Microsoft.VisualStudio.Tools.Applications.Runtime.CachedAttribute> attribute to the object declaration. For more information, see [How to: Cache data for use offline or on a server](../vsto/how-to-cache-data-for-use-offline-or-on-a-server.md).  
+- To add an object to the data cache when the solution is built, apply the <xref:Microsoft.VisualStudio.Tools.Applications.Runtime.CachedAttribute> attribute to the object declaration. For more information, see [How to: Cache data for use offline or on a server](../vsto/how-to-cache-data-for-use-offline-or-on-a-server.md).  
   
--   To programmatically add an object to the data cache at run time, use the `StartCaching` method of a host item, such as the `ThisDocument` or `ThisWorkbook` classes. For more information, see [How to: Programmatically cache a data source in an Office document](../vsto/how-to-programmatically-cache-a-data-source-in-an-office-document.md).  
+- To programmatically add an object to the data cache at run time, use the `StartCaching` method of a host item, such as the `ThisDocument` or `ThisWorkbook` classes. For more information, see [How to: Programmatically cache a data source in an Office document](../vsto/how-to-programmatically-cache-a-data-source-in-an-office-document.md).  
   
- After you add an object to the data cache, you can access and modify the cached data without starting Word or Excel. For more information, see [Access data in documents on the server](../vsto/accessing-data-in-documents-on-the-server.md).  
+  After you add an object to the data cache, you can access and modify the cached data without starting Word or Excel. For more information, see [Access data in documents on the server](../vsto/accessing-data-in-documents-on-the-server.md).  
   
 ## Requirements for data objects to be cached  
  To cache a data object in your solution, the object must meet these requirements:  
   
--   Be a read/write public field or property of a host item, such as the `ThisDocument` or `ThisWorkbook` classes.  
+- Be a read/write public field or property of a host item, such as the `ThisDocument` or `ThisWorkbook` classes.  
   
--   Not be an indexer or other parameterized property.  
+- Not be an indexer or other parameterized property.  
   
- In addition, the data object must be serializable by the <xref:System.Xml.Serialization.XmlSerializer> class, which means the type of the object must have these characteristics:  
+  In addition, the data object must be serializable by the <xref:System.Xml.Serialization.XmlSerializer> class, which means the type of the object must have these characteristics:  
   
--   Be a public type.  
+- Be a public type.  
   
--   Have a public constructor with no parameters.  
+- Have a public constructor with no parameters.  
   
--   Not execute code that requires additional security privileges.  
+- Not execute code that requires additional security privileges.  
   
--   Expose only read/write public properties (other properties will be ignored).  
+- Expose only read/write public properties (other properties will be ignored).  
   
--   Not expose multi-dimensional arrays (nested arrays are accepted).  
+- Not expose multi-dimensional arrays (nested arrays are accepted).  
   
--   Not return interfaces from properties and fields.  
+- Not return interfaces from properties and fields.  
   
--   Not implement <xref:System.Collections.IDictionary> if a collection.  
+- Not implement <xref:System.Collections.IDictionary> if a collection.  
   
- When you cache a data object, the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] serializes the object into an XML string that is stored in a *custom XML part* in the document. For more information, see [Custom XML parts overview](../vsto/custom-xml-parts-overview.md).  
+  When you cache a data object, the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] serializes the object into an XML string that is stored in a *custom XML part* in the document. For more information, see [Custom XML parts overview](../vsto/custom-xml-parts-overview.md).  
   
 ## Cached data size limits  
  There are some limits to the total amount of data you can add to the data cache in a document, and to the size of any individual object in the data cache. If you exceed these limits, the application might close unexpectedly when the data is saved to the data cache.  
   
  To avoid these limits, follow these guidelines:  
   
--   Do not add any object larger than 10 MB to the data cache.  
+- Do not add any object larger than 10 MB to the data cache.  
   
--   Do not add more than 100 MB of total data to the data cache in a single document.  
+- Do not add more than 100 MB of total data to the data cache in a single document.  
   
- These are approximate values. The exact limits depend on several factors, including the available RAM and the number of running processes.  
+  These are approximate values. The exact limits depend on several factors, including the available RAM and the number of running processes.  
   
 ## Control the behavior of cached objects  
  To gain more control over the behavior of a cached object, you can implement the <xref:Microsoft.VisualStudio.Tools.Applications.Runtime.ICachedType> interface on the type of the cached object. For example, you can implement this interface if you want to control how the user is notified when the object has been changed. For code examples that demonstrate how to implement <xref:Microsoft.VisualStudio.Tools.Applications.Runtime.ICachedType>, see the `ControlCollection` class in the Excel Dynamic Controls Sample and Word Dynamic Controls Sample in [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md).  

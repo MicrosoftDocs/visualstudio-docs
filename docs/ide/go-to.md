@@ -1,10 +1,9 @@
 ---
-title: Find code using Go To commands
-ms.date: 09/26/2017
+title: Go to file, go to symbol, go to line
+ms.date: 08/14/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
-ms.assetid: 509b2107-23d1-4fb3-987f-ab99ef45b72e
 helpviewer_keywords:
   - "code editor, go to"
   - "code editor, go to line"
@@ -22,10 +21,10 @@ Visual Studio's **Go To** commands perform a focused search of your code to help
 
 ## How to use it
 
-Input        | Function
+Input | Function
 ------------ | ---
 **Keyboard** | Press **Ctrl**+**T** or **Ctrl**+**,**
-**Mouse**    | Select **Edit** > **Go To** > **Go To All**
+**Mouse** | Select **Edit** > **Go To** > **Go To All**
 
 A small window is displayed at the top right of your code editor.
 
@@ -50,12 +49,13 @@ By default, the specified item is searched for in all solution items. However, y
 To narrow your search to a specific type of code element, you can either specify a prefix in the search box, or select one of the five filter icons:
 
 Prefix | Icon | Shortcut | Description
-:----: | ---- | -------- | ---
-\#     | ![Symbol Icon](media/gotoall_symbolicon.png) | **Ctrl**+**1**, **Ctrl**+**S** | Go to the specified symbol
-f      | ![File Icon](media/gotoall_fileicon.png)     | **Ctrl**+**1**, **Ctrl**+**F** | Go to the specified file
-m      | ![Member Icon](media/gotoall_membericon.png) | **Ctrl**+**1**, **Ctrl**+**M** | Go to the specified member
-t      | ![Type Icon](media/gotoall_typeicon.png)     | **Ctrl**+**1**, **Ctrl**+**T** | Go to the specified type
-:      | ![Line Icon](media/gotoall_lineicon.png)     | **Ctrl**+**G**         | Go to the specified line number
+:-: | - | - | -
+:| ![Line icon](media/gotoall-line-icon.png) | **Ctrl**+**G** | Go to the specified line number
+f| ![Files icon](media/gotoall-files-icon.png) | **Ctrl**+**1**, **Ctrl**+**F** | Go to the specified file
+r| ![Recent files icon](media/gotoall-recent-files-icon.png) | **Ctrl**+**1**, **Ctrl**+**R** | Go to the specified, recently visited file
+t| ![Types icon](media/gotoall-types-icon.png) | **Ctrl**+**1**, **Ctrl**+**T** | Go to the specified type
+m| ![Members icon](media/gotoall-members-icon.png) | **Ctrl**+**1**, **Ctrl**+**M** | Go to the specified member
+\#| ![Symbols icon](media/gotoall-symbols-icon.png) | **Ctrl**+**1**, **Ctrl**+**S** | Go to the specified symbol
 
 ### Filter to a specific location
 
@@ -74,13 +74,13 @@ If you use [camel casing](https://en.wikipedia.org/wiki/Camel_case) in your code
 
 ## Settings
 
-Selecting the gear icon ![Gear Icon](media/gotoall_gear.png) lets you change how this feature works:
+Selecting the gear icon ![Gear icon](media/gotoall_gear.png) lets you change how this feature works:
 
 Setting | Description
 ------- | ---
 Use preview tab | Display the selected item immediately in the IDE's preview tab
-Show details    | Display project, file, line, and summary information from documentation comments in the window
-Center window   | Move this window to the top-center of the code editor, instead of the top-right
+Show details | Display project, file, line, and summary information from documentation comments in the window
+Center window | Move this window to the top-center of the code editor, instead of the top-right
 
 ## See also
 

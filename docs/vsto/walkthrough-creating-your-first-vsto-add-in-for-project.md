@@ -26,15 +26,15 @@ ms.workload:
   
  This walkthrough illustrates the following tasks:  
   
--   Creating a Project VSTO Add-in project.  
+- Creating a Project VSTO Add-in project.  
   
--   Writing code that uses the object model of Project to add a task to a new project.  
+- Writing code that uses the object model of Project to add a task to a new project.  
   
--   Building and running the project to test it.  
+- Building and running the project to test it.  
   
--   Cleaning up the completed project so that the VSTO Add-in no longer runs automatically on your development computer.  
+- Cleaning up the completed project so that the VSTO Add-in no longer runs automatically on your development computer.  
   
- [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
+  [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
   
 ## Prerequisites  
  You need the following components to complete this walkthrough:  
@@ -72,14 +72,14 @@ ms.workload:
   
 ### To add a task to a new project  
   
-1.  In the ThisAddIn code file, add the following code to the `ThisAddIn` class. This code defines an event handler for the `NewProject` event of the `Microsoft.Office.Interop.MSProject.Application` class.  
+1. In the ThisAddIn code file, add the following code to the `ThisAddIn` class. This code defines an event handler for the `NewProject` event of the `Microsoft.Office.Interop.MSProject.Application` class.  
   
-     When the user creates a new project, this event handler adds a task to the project.  
+    When the user creates a new project, this event handler adds a task to the project.  
   
-     [!code-vb[Trin_ProjectAddInTutorial#1](../vsto/codesnippet/VisualBasic/Trin_ProjectAddInTutorial/ThisAddIn.vb#1)]
-     [!code-csharp[Trin_ProjectAddInTutorial#1](../vsto/codesnippet/CSharp/Trin_ProjectAddInTutorial/ThisAddIn.cs#1)]  
+    [!code-vb[Trin_ProjectAddInTutorial#1](../vsto/codesnippet/VisualBasic/Trin_ProjectAddInTutorial/ThisAddIn.vb#1)]
+    [!code-csharp[Trin_ProjectAddInTutorial#1](../vsto/codesnippet/CSharp/Trin_ProjectAddInTutorial/ThisAddIn.cs#1)]  
   
- To modify the project, this code example uses the following objects:  
+   To modify the project, this code example uses the following objects:  
   
 -   The `Application` field of the `ThisAddIn` class. The `Application` field returns an `Microsoft.Office.Interop.MSProject.Application` object, which represents the current instance of Project.  
   
@@ -97,7 +97,7 @@ ms.workload:
   
 1.  Press **F5** to build and run your project. Microsoft Project starts and automatically opens a new blank project.  
   
-     When you build the project, the code is compiled into an assembly that is included in the build output folder for the project. Visual Studio also creates a set of registry entries that enable Project to discover and load the VSTO Add-in, and it configures the security settings on the development computer to enable the VSTO Add-in to run. For more information, see [Office solution build process overview](http://msdn.microsoft.com/a9d12e4f-c9ea-4a62-a841-c42b91f831ee).  
+     When you build the project, the code is compiled into an assembly that is included in the build output folder for the project. Visual Studio also creates a set of registry entries that enable Project to discover and load the VSTO Add-in, and it configures the security settings on the development computer to enable the VSTO Add-in to run. For more information, see [Office solution build process overview](/previous-versions/visualstudio/visual-studio-2010/h2c9cdc0(v=vs.100)).  
   
 2.  Verify that a new task is added to the blank project.  
   

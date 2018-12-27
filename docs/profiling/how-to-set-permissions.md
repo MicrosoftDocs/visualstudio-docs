@@ -78,7 +78,7 @@ Members of the Users group can run the profiling tools if an administrator grant
 2. Change the directory to:
 
     ```cmd
-    <drive>:\Program Files\Microsoft Visual Studio 10\Team Tools\Performance Tools
+    <drive>:\Program Files\Microsoft Visual Studio 14\Team Tools\Performance Tools
     ```
 
 3. Run the following command:
@@ -113,7 +113,7 @@ Members of the Users group can run the profiling tools if an administrator grant
     vsperfcmd /admin:driver,autostart,on
     ```
 
- The specified users, after logging on, will now be able to use the profiling tools without Administrator permissions.
+   The specified users, after logging on, will now be able to use the profiling tools without Administrator permissions.
 
 ## See also
 

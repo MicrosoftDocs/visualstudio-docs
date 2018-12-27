@@ -23,7 +23,7 @@ Destroys the unique ID associated with this property, indicating that the caller
   
 ```cpp  
 HRESULT DestroyObjectID(  
-   void  
+   void  
 );  
 ```  
   

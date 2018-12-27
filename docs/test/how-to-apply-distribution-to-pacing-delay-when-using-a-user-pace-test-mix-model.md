@@ -15,18 +15,20 @@ ms.technology: vs-ide-test
 
 After you create your load test by using the **New Load Test Wizard**, you can use the Load Test Editor to change the scenario's properties to meet your testing needs and goals.
 
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
+
 The **Apply Distribution to Pacing Delay** property is set by using the **Properties** window. Load test scenario properties are modified by using the Load Test Editor.
 
 > [!NOTE]
-> The **Apply Distribution to Pacing Delay** property applies only if the *load test mix* is configured based on the user pace. For more information, see [Edit Text Mix Models to Specify the Probability of a Virtual User Running a Test](../test/edit-test-mix-models-to-specify-the-probability-of-a-virtual-user-running-a-test.md).
+> The **Apply Distribution to Pacing Delay** property applies only if the *load test mix* is configured based on the user pace. For more information, see [Edit text mix models to specify the probability of a virtual user running a test](../test/edit-test-mix-models-to-specify-the-probability-of-a-virtual-user-running-a-test.md).
 
 The value for the **Apply Distribution to Pacing Delay** can be set to either true or false:
 
-- **True**: The scenario applies normal statistical distribution delays that are specified by the value in the **Tests Per User Per Hour** column in the Edit Test Mix dialog box. For more information, see [Editing Text Mix Models to Specify the Probability of a Virtual User Running a Test](../test/edit-test-mix-models-to-specify-the-probability-of-a-virtual-user-running-a-test.md).
+- **True**: The scenario applies normal statistical distribution delays that are specified by the value in the **Tests Per User Per Hour** column in the **Edit Test Mix** dialog box. For more information, see [Edit text mix models to specify the probability of a virtual user running a test](../test/edit-test-mix-models-to-specify-the-probability-of-a-virtual-user-running-a-test.md).
 
-     For example, assume that you have **Tests Per User Per Hour** value in the Edit Test Mix dialog box for the test set to two users per hour. If **Apply Distribution to Pacing Delay** property is set to **True**, a normal statistical distribution is applied to the wait time between the tests. The tests will still run two tests per hour, but it will not necessarily be 30 minute delay between them. The first test could run after four minutes and the second test after 45 minutes.
+     For example, assume that you have **Tests Per User Per Hour** value in the **Edit Test Mix** dialog box for the test set to two users per hour. If **Apply Distribution to Pacing Delay** property is set to **True**, a normal statistical distribution is applied to the wait time between the tests. The tests will still run two tests per hour, but it will not necessarily be 30 minute delay between them. The first test could run after four minutes and the second test after 45 minutes.
 
-- **False**: The tests run at the pace that you specified for the value in the **Tests Per User Per Hour** column in the **Edit Test Mix** dialog box. For more information, see [Edit Text Mix Models to Specify the Probability of a Virtual User Running a Test](../test/edit-test-mix-models-to-specify-the-probability-of-a-virtual-user-running-a-test.md).
+- **False**: The tests run at the pace that you specified for the value in the **Tests Per User Per Hour** column in the **Edit Test Mix** dialog box. For more information, see [Edit text mix models to specify the probability of a virtual user running a test](../test/edit-test-mix-models-to-specify-the-probability-of-a-virtual-user-running-a-test.md).
 
      For example, assume that you have **Tests Per User Per Hour** value in the **Edit Test Mix** dialog box for the test set to two users per hour. If the **Apply Distribution to Pacing Delay** property is set to **False**, you are giving no leeway when your tests run. The test will run every 30 minutes. This makes sure that you execute two tests per hour.
 
@@ -48,7 +50,7 @@ The value for the **Apply Distribution to Pacing Delay** can be set to either tr
 
 ## See also
 
-- [Edit Load Test Scenarios](../test/edit-load-test-scenarios.md)
+- [Edit load test scenarios](../test/edit-load-test-scenarios.md)
 - [Walkthrough: Create and run a load test](../test/walkthrough-create-and-run-a-load-test.md)
 - [Test controllers and test agents](configure-test-agents-and-controllers-for-load-tests.md)
-- [Load Test Scenario Properties](../test/load-test-scenario-properties.md)
+- [Load test scenario properties](../test/load-test-scenario-properties.md)

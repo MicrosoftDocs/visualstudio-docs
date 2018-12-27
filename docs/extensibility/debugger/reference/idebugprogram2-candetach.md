@@ -23,7 +23,7 @@ Determines if a debug engine (DE) can detach from the program.
   
 ```cpp  
 HRESULT CanDetach(  
-   void  
+   void  
 );  
 ```  
   

@@ -22,7 +22,7 @@ Retrieves a flag that specifies whether the compiland or function has been compi
   
 ```C++  
 HRESULT get_hasSecurityChecks(  
-   BOOL *pFlag  
+   BOOL *pFlag  
 );  
 ```  
   

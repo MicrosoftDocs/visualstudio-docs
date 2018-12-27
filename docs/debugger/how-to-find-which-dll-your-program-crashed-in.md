@@ -25,7 +25,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Find Which DLL Your Program Crashed In
+# How to: Find Which DLL Your Program Crashed In (C#, C++, Visual Basic, F#)
   
  If your application crashes during a call to a system DLL or someone else's code, you need to find out which DLL was active when the crash occurred. If you experience a crash in a DLL outside your own program, you can identify the location using the **Modules** window.  
   

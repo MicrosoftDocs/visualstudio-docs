@@ -19,13 +19,13 @@ ms.workload:
 # Visualizer Architecture
 The architecture of a debugger visualizer has two parts:  
   
--   The *debugger side* runs within the Visual Studio debugger. The debugger-side code creates and displays the user interface for your visualizer.  
+- The *debugger side* runs within the Visual Studio debugger. The debugger-side code creates and displays the user interface for your visualizer.  
   
--   The *debuggee side* runs within the process Visual Studio is debugging (the *debuggee*).  
+- The *debuggee side* runs within the process Visual Studio is debugging (the *debuggee*).  
   
- A visualizer is a debugger component that enables the debugger to display (*visualize*) the contents of a data object in a meaningful, understandable form. Some visualizers support editing of the data object also. By writing custom visualizers, you can extend the debugger to handle your own custom data types.  
+  A visualizer is a debugger component that enables the debugger to display (*visualize*) the contents of a data object in a meaningful, understandable form. Some visualizers support editing of the data object also. By writing custom visualizers, you can extend the debugger to handle your own custom data types.  
   
- The data object to be visualized resides within the process you are debugging (the *debuggee* process). The user interface that will display the data is created within the Visual Studio debugger process:  
+  The data object to be visualized resides within the process you are debugging (the *debuggee* process). The user interface that will display the data is created within the Visual Studio debugger process:  
   
 |Debugger Process|Debuggee Process|  
 |----------------------|----------------------|  

@@ -1,16 +1,16 @@
 ---
-title: "Create unit test method stubs in Visual Studio"
+title: Create unit test method stubs
 ms.date: 05/02/2017
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ms.topic: conceptual
-helpviewer_keywords: 
+helpviewer_keywords:
   - "unit testing, create unit tests"
+author: gewarren
 ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
-author: gewarren
 ---
 # Create unit test method stubs with the Create Unit Tests command
 
@@ -25,6 +25,8 @@ The **Create Unit Tests** menu command:
 * Supports only C# code that targets the .NET Framework.
 
 * Is extensible, and supports emitting tests in MSTest, MSTest V2, NUnit, xUnit format.
+
+* Is not yet available in .NET Core projects.
 
 ## Get started
 
@@ -54,11 +56,11 @@ Test framework extensions are available in Visual Studio Marketplace:
 
 ## When should I use this feature?
 
-Use this feature whenever you need to create unit tests, but specifically when you are testing existing code that has little or no test coverage, and no documentation. In other words, where there is limited or non-existent code specification. It effectively implements an approach similar to [Smart unit tests](http://blogs.msdn.com/b/visualstudioalm/archive/2014/11/19/introducing-smart-unit-tests.aspx) that characterize the observed behavior of the code.
+Use this feature whenever you need to create unit tests, but specifically when you are testing existing code that has little or no test coverage, and no documentation. In other words, where there is limited or non-existent code specification. It effectively implements an approach similar to [Smart unit tests](https://blogs.msdn.microsoft.com/devops/2014/11/19/introducing-smart-unit-tests/) that characterize the observed behavior of the code.
 
 However, this feature is equally applicable to the situation where the developer starts by writing some code, and uses that to bootstrap the unit testing discipline. Within the flow of coding, the developer might want to quickly create a unit test method stub (with a suitable test class, and a suitable test project) for a particular piece of code.
 
 ## See also
 
-- [Creating unit test method stubs with "Create Unit Tests"](https://blogs.msdn.microsoft.com/visualstudioalm/2015/03/06/creating-unit-test-method-stubs-with-create-unit-tests/)
+- [Creating unit test method stubs with "Create Unit Tests"](https://blogs.msdn.microsoft.com/devops/2015/03/06/creating-unit-test-method-stubs-with-create-unit-tests/)
 - [Unit testing blog posts](https://blogs.msdn.microsoft.com/devops/?s=unit+testing)

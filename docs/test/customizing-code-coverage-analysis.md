@@ -1,5 +1,5 @@
 ---
-title: "Customizing Code Coverage Analysis in Visual Studio"
+title: "Customizing Code Coverage Analysis"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
@@ -85,7 +85,7 @@ If **Include** is empty, then code coverage processing includes all assemblies t
 
 Include and exclude nodes use regular expressions. For more information, see [Use regular expressions in Visual Studio](../ide/using-regular-expressions-in-visual-studio.md). Regular expressions aren't the same as wildcards. In particular:
 
-- **.\*** matches a string of any characters
+- **.\\*** matches a string of any characters
 
 - **\\.** matches a dot ".")
 
@@ -176,15 +176,15 @@ Note that searching for symbols increases code coverage runtime. So keep this sm
 -->
 <!--
             <SymbolSearchPaths>
-                   <Path>C:\Users\User\Documents\Visual Studio 2012\Projects\ProjectX\bin\Debug</Path>
-                   <Path>\\mybuildshare\builds\ProjectX</Path>
+                   <Path>C:\Users\User\Documents\Visual Studio 2012\Projects\ProjectX\bin\Debug</Path>
+                   <Path>\\mybuildshare\builds\ProjectX</Path>
             </SymbolSearchPaths>
 -->
 
 <!--
 About include/exclude lists:
 Empty "Include" clauses imply all; empty "Exclude" clauses imply none.
-Each element in the list is a regular expression (ECMAScript syntax). See http://msdn.microsoft.com/library/2k3te2cs.aspx.
+Each element in the list is a regular expression (ECMAScript syntax). See https://docs.microsoft.com/visualstudio/ide/using-regular-expressions-in-visual-studio.
 An item must first match at least one entry in the include list to be included.
 Included items must then not match any entries in the exclude list to remain included.
 -->

@@ -1,10 +1,8 @@
 ---
-title: "CreateInPlace (Visual Studio Templates) | Microsoft Docs"
-ms.custom: ""
+title: CreateInPlace element (Visual Studio Templates)
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-general"
-ms.topic: "conceptual"
+ms.technology: vs-ide-general
+ms.topic: reference
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/vstemplate/2005#CreateInPlace"
 helpviewer_keywords: 
@@ -17,7 +15,7 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# CreateInPlace (Visual Studio Templates)
+# CreateInPlace element (Visual Studio templates)
 Specifies whether to create the project and perform parameter replacement in the specified location, or perform parameter replacement in a temporary location and then save the project to the specified location.  
   
  \<VSTemplate>  
@@ -30,22 +28,22 @@ Specifies whether to create the project and perform parameter replacement in the
 <CreateInPlace> true/false </CreateInPlace>  
 ```  
   
-## Attributes and Elements  
+## Attributes and elements  
  The following sections describe attributes, child elements, and parent elements.  
   
 ### Attributes  
  None.  
   
-### Child Elements  
+### Child elements  
  None.  
   
-### Parent Elements  
+### Parent elements  
   
 |Element|Description|  
 |-------------|-----------------|  
 |[TemplateData](../extensibility/templatedata-element-visual-studio-templates.md)|Categorizes the template and defines how it displays in either the **New Project** or the **Add New Item** dialog box.|  
   
-## Text Value  
+## Text value  
  A text value is required.  
   
  The text must be either `true` or `false`. If `true`, the project is created and parameter replacement is performed in the location specified in the **New Project** dialog box. If `false`, parameter replacement is performed in a temporary location and the project is then copied to the specified location.  
@@ -81,6 +79,6 @@ Specifies whether to create the project and perform parameter replacement in the
 </VSTemplate>  
 ```  
   
-## See Also  
- [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)   
- [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)
+## See also  
+ [Create project and item templates](../ide/creating-project-and-item-templates.md)   
+ [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)

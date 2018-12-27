@@ -28,8 +28,8 @@ helpviewer_keywords:
   - "ThisAddin_Startup"
   - "events [Office development in Visual Studio]"
   - "ThisAddIn_Shutdown"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -42,30 +42,30 @@ ms.workload:
 ## How to use the Globals class  
  `Globals` is a static class that keeps references to certain items in your project. By using the `Globals` class, you can access the following items from any code in the project at run time:  
   
--   The `ThisWorkbook` and `Sheet`*n* classes in an Excel workbook or template project. You can access these objects by using the `Globals.ThisWorkbook` and `Sheet`*n* properties.  
+- The `ThisWorkbook` and `Sheet`*n* classes in an Excel workbook or template project. You can access these objects by using the `Globals.ThisWorkbook` and `Sheet`*n* properties.  
   
--   The `ThisDocument` class in a Word document or template project. You can access this object by using the `Globals.ThisDocument` property.  
+- The `ThisDocument` class in a Word document or template project. You can access this object by using the `Globals.ThisDocument` property.  
   
--   The `ThisAddIn` class in a VSTO Add-in project. You can access this object by using the `Globals.ThisAddIn` property.  
+- The `ThisAddIn` class in a VSTO Add-in project. You can access this object by using the `Globals.ThisAddIn` property.  
   
--   All Ribbons in your project that you customized by using the Ribbon Designer. You can access the Ribbons by using the `Globals.Ribbons` property. For more information, see [Access the Ribbon at runtime](../vsto/accessing-the-ribbon-at-run-time.md).  
+- All Ribbons in your project that you customized by using the Ribbon Designer. You can access the Ribbons by using the `Globals.Ribbons` property. For more information, see [Access the Ribbon at runtime](../vsto/accessing-the-ribbon-at-run-time.md).  
   
--   All Outlook form regions in an Outlook VSTO Add-in project. You can access the form regions by using the `Globals.FormRegions` property. For more information, see [Access a form region at runtime](../vsto/accessing-a-form-region-at-run-time.md).  
+- All Outlook form regions in an Outlook VSTO Add-in project. You can access the form regions by using the `Globals.FormRegions` property. For more information, see [Access a form region at runtime](../vsto/accessing-a-form-region-at-run-time.md).  
   
--   A factory object that enables you to create Ribbon controls, and host items at run time in projects that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or the [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)]. You can access this object by using the `Globals.Factory` property. This object is an instance of a class that implements one the following interfaces:  
+- A factory object that enables you to create Ribbon controls, and host items at run time in projects that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or the [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)]. You can access this object by using the `Globals.Factory` property. This object is an instance of a class that implements one the following interfaces:  
   
-    -   <xref:Microsoft.Office.Tools.Factory>  
+  -   <xref:Microsoft.Office.Tools.Factory>  
   
-    -   <xref:Microsoft.Office.Tools.Excel.Factory>  
+  -   <xref:Microsoft.Office.Tools.Excel.Factory>  
   
-    -   <xref:Microsoft.Office.Tools.Outlook.Factory>  
+  -   <xref:Microsoft.Office.Tools.Outlook.Factory>  
   
-    -   <xref:Microsoft.Office.Tools.Word.Factory>  
+  -   <xref:Microsoft.Office.Tools.Word.Factory>  
   
- For example, you can use the `Globals.Sheet1` property to insert text into a <xref:Microsoft.Office.Tools.Excel.NamedRange> control on `Sheet1` when a user clicks a button on the actions pane in a document-level project for Excel.  
+  For example, you can use the `Globals.Sheet1` property to insert text into a <xref:Microsoft.Office.Tools.Excel.NamedRange> control on `Sheet1` when a user clicks a button on the actions pane in a document-level project for Excel.  
   
- [!code-vb[Trin_VstcoreProgramming#1](../vsto/codesnippet/VisualBasic/Trin_VstcoreProgrammingExcelVB/Sheet1.vb#1)]
- [!code-csharp[Trin_VstcoreProgramming#1](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingExcelCS/Sheet1.cs#1)]  
+  [!code-vb[Trin_VstcoreProgramming#1](../vsto/codesnippet/VisualBasic/Trin_VstcoreProgrammingExcelVB/Sheet1.vb#1)]
+  [!code-csharp[Trin_VstcoreProgramming#1](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingExcelCS/Sheet1.cs#1)]  
   
 ## Initialize the Globals class  
  Code that attempts to use the `Globals` class before the document or VSTO Add-in is initialized might throw a run time exception. For example, using `Globals` when declaring a class-level variable might fail because the `Globals` class might not be initialized with references to all of the host items before the declared object is instantiated.  

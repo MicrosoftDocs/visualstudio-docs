@@ -1,6 +1,6 @@
 ---
-title: "How Can I Find Out Who Is Passing a Wrong Parameter Value? | Microsoft Docs"
-ms.custom: ""
+title: "Find out who is passing a wrong parameter value | Microsoft Docs"
+ms.custom: "seodec18"
 ms.date: "11/04/2016"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
@@ -48,5 +48,5 @@ ms.workload:
   
 ## See Also  
  [Debugging Native Code FAQs](../debugger/debugging-native-code-faqs.md)   
- [Breakpoints](http://msdn.microsoft.com/en-us/fe4eedc1-71aa-4928-962f-0912c334d583)   
+ [Breakpoints](https://msdn.microsoft.com/library/fe4eedc1-71aa-4928-962f-0912c334d583)   
  [Debugging Native Code](../debugger/debugging-native-code.md)

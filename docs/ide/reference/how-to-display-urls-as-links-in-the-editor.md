@@ -16,21 +16,16 @@ ms.workload:
   - "multiple"
 ---
 # How to: Display URLs as Links in the Editor
+
 You can choose to have the Code Editor treat Uniform Resource Locators (URLs) in your code as active links. When you use this feature, URLs:
 
 -   Appear underlined.
 
 -   Display a **ToolTip** when you hover over them.
 
--   Attempt to open the Web site indicated when you **CTRL** + left-click on the link. By default, the Web site is displayed in the internal Web browser.
+-   Attempt to open the website indicated when you **Ctrl**+**click** on the link. By default, the website is displayed in the internal web browser.
 
-> [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).
-
-
-## Procedure
-
-#### To display URLs as links
+## Display URLs as links
 
 1.  On the **Tools** menu, click **Options**.
 
@@ -44,7 +39,7 @@ You can choose to have the Code Editor treat Uniform Resource Locators (URLs) in
 
 4.  Under **Display**, select **Enable single-click URL navigation**.
 
-## See Also
+## See also
 
 - [Customizing the Editor](../../ide/customizing-the-editor.md)
 - [Text Editor Options Dialog Box](../../ide/reference/text-editor-options-dialog-box.md)

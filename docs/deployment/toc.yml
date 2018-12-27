@@ -10,6 +10,8 @@
     href: deploying-applications-services-and-components.md
   - name: Deploy to Azure App Service
     href: quickstart-deploy-to-azure.md
+  - name: Deploy to App Service for Linux
+    href: quickstart-deploy-to-linux.md
   - name: Deploy to a web site
     href: quickstart-deploy-to-a-web-site.md
   - name: Deploy to a local folder
@@ -19,9 +21,9 @@
   - name: .NET
     items:
     - name: Deploy a .NET Core Application with the Publish tool
-      href: /dotnet/core/deploying/deploy-with-vs?toc=/visualstudio/deployment/toc.json&bc=/visualstudio/deployment/_breadcrumb/toc.json
+      href: /dotnet/core/deploying/deploy-with-vs
     - name: Package a desktop app for Microsoft Store (Desktop Bridge)
-      href: /windows/uwp/porting/desktop-to-uwp-packaging-dot-net?toc=/visualstudio/deployment/toc.json&bc=/visualstudio/deployment/_breadcrumb/toc.json
+      href: /windows/uwp/porting/desktop-to-uwp-packaging-dot-net
     - name: Deploy a desktop app using ClickOnce
       href: how-to-publish-a-clickonce-application-using-the-publish-wizard.md
     - name: Build ClickOnce Applications from the Command Line
@@ -29,15 +31,13 @@
   - name: ASP.NET
     items:
     - name: Publish an ASP.NET Core app to Azure
-      href: /aspnet/core/tutorials/publish-to-azure-webapp-using-vs?toc=/visualstudio/deployment/toc.json&bc=/visualstudio/deployment/_breadcrumb/toc.json
-    - name: Import publish settings and deploy to Azure
-      href: tutorial-import-publish-settings-azure.md
+      href: /aspnet/core/tutorials/publish-to-azure-webapp-using-vs
     - name: Import publish settings and deploy to IIS
       href: tutorial-import-publish-settings-iis.md
-    - name: Deploy to IIS using Web Deploy
-      href: deploy-iis-with-web-deploy.md
+    - name: Import publish settings and deploy to Azure
+      href: tutorial-import-publish-settings-azure.md
     - name: Continuous deployment of ASP.NET Core to Azure with Git
-      href: /aspnet/core/publishing/azure-continuous-deployment?toc=/visualstudio/deployment/toc.json&bc=/visualstudio/deployment/_breadcrumb/toc.json
+      href: /aspnet/core/publishing/azure-continuous-deployment
     - name: Publish to Kubernetes with Visual Studio Kubernetes tools
       href: tutorial-kubernetes-tools.md
   - name: Native
@@ -45,21 +45,21 @@
     - name: Deployment in Visual C++...
       href: /cpp/ide/deployment-in-visual-cpp
     - name: Package a desktop app for Microsoft Store (Desktop Bridge)
-      href: /windows/uwp/porting/desktop-to-uwp-packaging-dot-net?toc=/visualstudio/deployment/toc.json&bc=/visualstudio/deployment/_breadcrumb/toc.json
+      href: /windows/uwp/porting/desktop-to-uwp-packaging-dot-net
     - name: Deploy a native app using ClickOnce...
       href: /cpp/ide/clickonce-deployment-for-visual-cpp-applications
   - name: UWP
     items:
     - name: Package a UWP app by using Visual Studio
-      href: /windows/uwp/packaging/packaging-uwp-apps?toc=/visualstudio/deployment/toc.json&bc=/visualstudio/deployment/_breadcrumb/toc.json
+      href: /windows/uwp/packaging/packaging-uwp-apps
   - name: Node.js
     items:
-    - name: Publish to Azure Website using Web Deploy
-      href: https://github.com/Microsoft/nodejstools/wiki/Publish-to-Azure-Website-using-Web-Deploy?toc=/visualstudio/deployment/toc.json&bc=/visualstudio/deployment/_breadcrumb/toc.json
+    - name: Publish to Linux App Service
+      href: /visualstudio/javascript/publish-nodejs-app-azure
   - name: Python
     items:
     - name: Publish to Azure App Service
-      href: /visualstudio/python/publishing-python-web-applications-to-azure-from-visual-studio?toc=/visualstudio/deployment/toc.json&bc=/visualstudio/deployment/_breadcrumb/toc.json
+      href: /visualstudio/python/publishing-python-web-applications-to-azure-from-visual-studio
 - name: How-to guides
   items:
   - name: ClickOnce Security and Deployment

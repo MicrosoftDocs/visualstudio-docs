@@ -1,5 +1,5 @@
 ---
-title: Move type to matching file refactoring in Visual Studio
+title: Move type to matching file refactoring
 ms.date: 01/26/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
@@ -29,32 +29,32 @@ This refactoring applies to:
 
 ## How-to
 
-1. Highlight or place the text cursor inside the name of the type to move:
+1. Place the cursor inside the name of the type where it is defined. For example:
+
+   ```csharp
+   class Person
+   ```
+
+   ```vb
+   Class Person
+   ```
+
+2. Next, do one of the following:
+
+   - Press **Ctrl**+**.**
+   - Right-click on the type name and select **Quick Actions and Refactorings**
+
+1. Select **Move type to *TypeName*.cs** from the menu, where *TypeName* is the name of the type you've selected.
+
+   The type is moved to a new file in the project that has the same name as the type.
 
    - C#:
 
-    ![Highlighted code - C#](media/movetype-highlight-cs.png)
+      ![Inline result - C#](media/movetype-result-cs.png)
 
    - Visual Basic:
 
-    ![Highlighted code - Visual Basic](media/movetype-highlight-vb.png)
-
-1. Next, do one of the following:
-
-   - **Keyboard**
-     - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu and select **Move type to *TypeName*.cs** from the Preview window popup, where *TypeName* is the name of the type you have selected.
-   - **Mouse**
-     - Right-click the code, select the **Quick Actions and Refactorings** menu and select **Move type to *TypeName*.cs** from the Preview window popup, where *TypeName* is the name of the type you have selected.
-
-   The type is moved to a new file with that name, as part of your solution.
-
-   - C#:
-
-    ![Inline result - C#](media/movetype-result-cs.png)
-
-   - Visual Basic:
-
-    ![Inline result - Visual Basic](media/movetype-result-vb.png)
+      ![Inline result - Visual Basic](media/movetype-result-vb.png)
 
 ## See also
 

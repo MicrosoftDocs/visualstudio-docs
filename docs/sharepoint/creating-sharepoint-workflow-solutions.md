@@ -25,9 +25,10 @@ ms.workload:
   - "office"
 ---
 # Create SharePoint workflow solutions
-  [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] provides tools to help you create custom workflows that manage the life cycle of documents and list items in a SharePoint Web site. Items provided include a designer, a set of activity controls, and the necessary assembly references. [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] also includes the **SharePoint Customization Wizard**, to help create and configure the workflows.
 
- For the list of prerequisites for creating SharePoint projects in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], see [Requirements for developing SharePoint solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md). For more information about SharePoint, see [Microsoft SharePoint Products and Technologies](http://go.microsoft.com/fwlink/?LinkId=178470).
+[!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] provides tools to help you create custom workflows that manage the life cycle of documents and list items in a SharePoint Web site. Items provided include a designer, a set of activity controls, and the necessary assembly references. [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] also includes the **SharePoint Customization Wizard**, to help create and configure the workflows.
+
+For more information about SharePoint, see [Microsoft SharePoint Products and Technologies](http://go.microsoft.com/fwlink/?LinkId=178470).
 
 ## Workflows in SharePoint
  When you add a workflow to a SharePoint library or list, you enforce a business process on all items in the library or list. A workflow describes the actions that the system or users must perform on each item, such as sending the item to be edited and then reviewed. These actions, known as *activities*, are the building blocks of the workflow.
@@ -63,25 +64,25 @@ ms.workload:
 
  There are two types of activities:
 
--   *Simple activities* perform a single unit of work, such as "delay for 1 day" or "start Web service."
+- *Simple activities* perform a single unit of work, such as "delay for 1 day" or "start Web service."
 
--   *Composite activities* contain other activities; for example, a conditional activity might contain two branches.
+- *Composite activities* contain other activities; for example, a conditional activity might contain two branches.
 
- Both types of activities are available in the **Toolbox**.
+  Both types of activities are available in the **Toolbox**.
 
- Activities can have properties, methods, and events. Use the **Properties** window to set the properties of an activity.
+  Activities can have properties, methods, and events. Use the **Properties** window to set the properties of an activity.
 
- You can also create a custom activity. For more information, see [Walkthrough: Create a custom site workflow activity](../sharepoint/walkthrough-create-a-custom-site-workflow-activity.md).
+  You can also create a custom activity. For more information, see [Walkthrough: Create a custom site workflow activity](../sharepoint/walkthrough-create-a-custom-site-workflow-activity.md).
 
- Activities are organized in the following tabs in the **Toolbox**:
+  Activities are organized in the following tabs in the **Toolbox**:
 
--   **SharePoint Workflow**
+- **SharePoint Workflow**
 
--   **Windows Workflow v3.0**
+- **Windows Workflow v3.0**
 
--   **Windows Workflow v3.5**
+- **Windows Workflow v3.5**
 
- Not all core workflow activities are supported by SharePoint. For more information, see [Workflow Activities for Windows SharePoint Services Overview](http://go.microsoft.com/fwlink/?LinkID=156094).
+  Not all core workflow activities are supported by SharePoint. For more information, see [Workflow Activities for Windows SharePoint Services Overview](http://go.microsoft.com/fwlink/?LinkID=156094).
 
 #### SharePoint workflow activities
  The **SharePoint Workflow** tabs contain specialized activities for use in [!INCLUDE[wss_14_long](../sharepoint/includes/wss-14-long-md.md)]. These activities simplify and streamline the development of document life cycle workflows. For more information about the activities listed in the **SharePoint Workflow** tab, see [Workflow Activities for Windows SharePoint Services Overview](http://go.microsoft.com/fwlink/?LinkID=156094).
@@ -104,15 +105,15 @@ ms.workload:
 
  There are four types of forms that can be used in a workflow:
 
--   Association
+- Association
 
--   Initiation
+- Initiation
 
--   Modification
+- Modification
 
--   Task
+- Task
 
- Of these, [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] includes item templates for association and initiation forms. An example of an *association form* is one that lets the administrator installing the workflow enter parameters that relate to the workflow, such as a spending limit for an expense workflow. An example of an *initiation form* is one that lets the user of an expense workflow enter the amount that they spent into the workflow. For more information about these types of forms, see [SharePoint project and project item templates](../sharepoint/sharepoint-project-and-project-item-templates.md).
+  Of these, [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] includes item templates for association and initiation forms. An example of an *association form* is one that lets the administrator installing the workflow enter parameters that relate to the workflow, such as a spending limit for an expense workflow. An example of an *initiation form* is one that lets the user of an expense workflow enter the amount that they spent into the workflow. For more information about these types of forms, see [SharePoint project and project item templates](../sharepoint/sharepoint-project-and-project-item-templates.md).
 
 ### Item properties
  You can also collect information from users by using the properties of an item in the SharePoint library or list. The main code file (Workflow1.cs or Workflow1.vb) declares an instance of the Microsoft.SharePoint.Workflow.SPWorkflowActivationProperties.WorkflowProperties class named `workflowProperties`. Use the `workflowProperties` object to access the properties of the library or list in code. For an example, see [Walkthrough: Create and debug a SharePoint workflow solution](../sharepoint/walkthrough-creating-and-debugging-a-sharepoint-workflow-solution.md).
@@ -120,7 +121,7 @@ ms.workload:
 ## Debug a SharePoint workflow template
  You can debug a SharePoint workflow project the same as you debug other [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] Web-based projects. When you start the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] debugger, [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] uses the settings that you specify in the **SharePoint Customization Wizard** to open the appropriate SharePoint Web site and automatically associate the workflow template with the appropriate library or list. [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] also attaches the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] debugger to the [!INCLUDE[wss_14_long](../sharepoint/includes/wss-14-long-md.md)] process named *w3wp.exe*.
 
- To test the workflow, you must start it manually. For more information, see the section "Debugging Workflows" in [Debugging SharePoint Solutions](../sharepoint/debugging-sharepoint-solutions.md). For more information about [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] Web application debugging, see [Debug web applications and script](../debugger/debugging-web-applications-and-script.md).
+ To test the workflow, you must start it manually. For more information, see the section "Debugging Workflows" in [Debugging SharePoint Solutions](../sharepoint/debugging-sharepoint-solutions.md). For more information about [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] Web application debugging, see [Debug web applications and script](../debugger/how-to-enable-debugging-for-aspnet-applications.md).
 
 ## Deploy a SharePoint workflow template
  [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint workflow projects deploy just like other [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint projects. For more information, see [Package and Deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md).

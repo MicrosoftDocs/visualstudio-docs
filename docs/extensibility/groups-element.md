@@ -15,50 +15,50 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Groups Element
+# Groups element
 Contains entries that define the command groups of a VSPackage.  
   
 ## Syntax  
   
-```  
+```xml  
 <Groups>  
   <Group>... </Group>  
   <Group>... </Group>  
 </Groups>  
 ```  
   
-## Attributes and Elements  
+## Attributes and elements  
  The following sections describe attributes, child elements, and parent elements.  
   
 ### Attributes  
   
 |Attribute|Description|  
 |---------------|-----------------|  
-|Condition|Optional. See [Conditional Attributes](../extensibility/vsct-xml-schema-conditional-attributes.md).|  
+|Condition|Optional. See [Conditional attributes](../extensibility/vsct-xml-schema-conditional-attributes.md).|  
   
-### Child Elements  
-  
-|Element|Description|  
-|-------------|-----------------|  
-|[Group Element](../extensibility/group-element.md)|Represents a single command group.|  
-|[Groups Element](../extensibility/groups-element.md)|Contains entries that define the command groups of a VSPackage.|  
-  
-### Parent Elements  
+### Child elements  
   
 |Element|Description|  
 |-------------|-----------------|  
-|[Commands Element](../extensibility/commands-element.md)|Represents the collection of commands on the VSPackage toolbar.|  
+|[Group element](../extensibility/group-element.md)|Represents a single command group.|  
+|[Groups element](../extensibility/groups-element.md)|Contains entries that define the command groups of a VSPackage.|  
+  
+### Parent elements  
+  
+|Element|Description|  
+|-------------|-----------------|  
+|[Commands element](../extensibility/commands-element.md)|Represents the collection of commands on the VSPackage toolbar.|  
   
 ## Example  
   
-```  
+```xml  
 <Groups>  
-  <Group guid="cmdSetGuidWidgetCommands" id="groupIDFileEdit">  
-    <Parent guid="guidSHLMainMenu" id="IDM_VS_TOOL_MAINMENU"/>  
-  </Group>  
+  <Group guid="cmdSetGuidWidgetCommands" id="groupIDFileEdit">  
+    <Parent guid="guidSHLMainMenu" id="IDM_VS_TOOL_MAINMENU"/>  
+  </Group>  
 </Groups>  
 ```  
   
-## See Also  
- [How VSPackages Add User Interface Elements](../extensibility/internals/how-vspackages-add-user-interface-elements.md)   
- [Commands, Menus, and Toolbars](../extensibility/internals/commands-menus-and-toolbars.md)
+## See also  
+ [How VSPackages add user interface elements](../extensibility/internals/how-vspackages-add-user-interface-elements.md)   
+ [Commands, menus, and toolbars](../extensibility/internals/commands-menus-and-toolbars.md)

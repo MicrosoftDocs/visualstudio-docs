@@ -12,12 +12,12 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Extending Solutions
+# Extend solutions
 A solution is a grouping of one or more projects that work together to create an application.  
   
-## In This Section  
+## In this section  
  The following walkthroughs show some ways in which you can extend solutions.  
   
-1.  [Extending the Solution Explorer Filter](../extensibility/extending-the-solution-explorer-filter.md) explains how to filter what the Solution Explorer displays.  
+1.  [Extend the Solution Explorer filter](../extensibility/extending-the-solution-explorer-filter.md) explains how to filter what the Solution Explorer displays.  
   
-2.  [Managing Project Loading in a Solution](../extensibility/managing-project-loading-in-a-solution.md) explains how to manage project loading to improve the performance when a user loads a solution.
+2.  [Manage project loading in a solution](../extensibility/managing-project-loading-in-a-solution.md) explains how to manage project loading to improve the performance when a user loads a solution.

@@ -1,5 +1,11 @@
+- name: Python in Visual Studio
+  href: index.yml
 - name: Overview
-  href: overview-of-python-tools-for-visual-studio.md
+  items:
+    - name: Overview of Python support
+      href: overview-of-python-tools-for-visual-studio.md
+    - name: Tour the Visual Studio IDE
+      href: visual-studio-ide.md
 - name: Installation
   href: installing-python-support-in-visual-studio.md
   items:
@@ -8,11 +14,12 @@
 - name: Quickstarts
   items:
   - name: Create a web app with Flask
-    href: ../ide/quickstart-python.md?context=visualstudio/python/default
+    href: ../ide/quickstart-python.md
+    maintainContext: true
   - name: Create a project from a template
     href: quickstart-02-python-in-visual-studio-project-from-template.md
   - name: Create a project from existing code
-    href: quickstart-01-project-from-existing.md
+    href: quickstart-01-python-in-visual-studio-project-from-existing-code.md
   - name: Create a project from a repository
     href: quickstart-03-python-in-visual-studio-project-from-repository.md
   - name: Create a project from a Cookiecutter template
@@ -20,7 +27,7 @@
 - name: Tutorials
   items:
   - name: Python in Visual Studio
-    items:    
+    items:
     - name: 0 - Install Python support
       href: tutorial-working-with-python-in-visual-studio-step-00-installation.md
     - name: 1 - Create a new Python project
@@ -36,7 +43,7 @@
     - name: 6 - Working with Git
       href: tutorial-working-with-python-in-visual-studio-step-06-working-with-git.md
   - name: Learn Django in Visual Studio
-    items:    
+    items:
     - name: 1 - Create a project and solution
       href: learn-django-in-visual-studio-step-01-project-and-solution.md
     - name: 2 - Create a Django app
@@ -50,7 +57,7 @@
     - name: 6 - Use the Polls Django Web Project template
       href: learn-django-in-visual-studio-step-06-polls-django-web-project-template.md
   - name: Learn Flask in Visual Studio
-    items:    
+    items:
     - name: 1 - Create a project and solution
       href: learn-flask-visual-studio-step-01-project-solution.md
     - name: 2 - Create a Flask app
@@ -77,7 +84,7 @@
     href: azure-sdk-for-python.md
 - name: How-to guides
   items:
-  - name: Managing environments
+  - name: Manage Python environments
     href: managing-python-environments-in-visual-studio.md
     items:
     - name: Select an interpreter for a project
@@ -88,6 +95,8 @@
       href: search-paths.md
     - name: Environment window reference
       href: python-environments-window-tab-reference.md
+    - name: Configure web apps for IIS
+      href: configure-web-apps-for-iis-windows.md
   - name: Edit Python code
     href: editing-python-code-in-visual-studio.md
     items:
@@ -109,16 +118,8 @@
     items:
     - name: Debugging code on remote Linux computers
       href: debugging-python-code-on-remote-linux-machines.md
-  - name: Working with Azure App Service
-    items:
-    - name: Managing Python on Azure App Service
-      href: managing-python-on-azure-app-service.md
-    - name: Publishing to Azure App Service
-      href: publishing-python-web-applications-to-azure-from-visual-studio.md
-    - name: Azure remote debugging
-      href: debugging-remote-python-code-on-azure.md
-    - name: Troubleshooting Azure remote debugging
-      href: debugging-remote-python-code-on-azure-troubleshooting.md
+  - name: Publishing to Azure App Service on Linux
+    href: publishing-python-web-applications-to-azure-from-visual-studio.md
   - name: Interacting with C++
     items:
     - name: Creating a C++ extension for Python

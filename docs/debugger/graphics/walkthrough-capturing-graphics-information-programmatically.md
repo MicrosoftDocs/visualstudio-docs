@@ -42,7 +42,7 @@ You can use [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] Graphic
   
 -   Include these headers in the source file where you will define the IDXGraphicsAnalysis interface:  
   
-    ```  
+    ```cpp
     #include <DXGItype.h>  
     #include <dxgi1_2.h>  
     #include <dxgi1_3.h>  
@@ -63,24 +63,24 @@ You can use [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] Graphic
   
 ##### To get the IDXGraphicsAnalysis interface  
   
--   Use the following code to hook up the IDXGraphicsAnalysis interface to the DXGI debug interface.  
+- Use the following code to hook up the IDXGraphicsAnalysis interface to the DXGI debug interface.  
   
-    ```  
-    IDXGraphicsAnalysis* pGraphicsAnalysis;  
-    HRESULT getAnalysis = DXGIGetDebugInterface1(0, __uuidof(pGraphicsAnalysis), reinterpret_cast<void**>(&pGraphicsAnalysis));  
-    ```  
+  ```cpp
+  IDXGraphicsAnalysis* pGraphicsAnalysis;  
+  HRESULT getAnalysis = DXGIGetDebugInterface1(0, __uuidof(pGraphicsAnalysis), reinterpret_cast<void**>(&pGraphicsAnalysis));  
+  ```  
   
-     Be sure to check the `HRESULT` returned by [DXGIGetDebugInterface1](https://msdn.microsoft.com/library/windows/desktop/dn457937(v=vs.85).aspx) to ensure you get a valid interface before you use it:  
+   Be sure to check the `HRESULT` returned by [DXGIGetDebugInterface1](/windows/desktop/api/dxgi1_3/nf-dxgi1_3-dxgigetdebuginterface1) to ensure you get a valid interface before you use it:  
   
-    ```  
-    if (FAILED(getAnalysis))  
-    {  
-        // Abort program or disable programmatic capture in your app.  
-    }  
-    ```  
+  ```cpp
+  if (FAILED(getAnalysis))  
+  {  
+      // Abort program or disable programmatic capture in your app.  
+  }  
+  ```  
   
-    > [!NOTE]
-    >  If `DXGIGetDebugInterface1` returns `E_NOINTERFACE` (`error: E_NOINTERFACE No such interface supported`), make sure the app is running under graphics diagnostics (Alt+F5 in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]).  
+  > [!NOTE]
+  >  If `DXGIGetDebugInterface1` returns `E_NOINTERFACE` (`error: E_NOINTERFACE No such interface supported`), make sure the app is running under graphics diagnostics (Alt+F5 in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]).  
   
 ### Capturing graphics information  
  Now that you have a valid `IDXGraphicsAnalysis` interface, you can use `BeginCapture` and `EndCapture` to capture graphics information.  
@@ -89,7 +89,7 @@ You can use [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] Graphic
   
 - To start capturing graphics information, use `BeginCapture`:  
   
-    ```  
+    ```cpp
     ...  
     pGraphicsAnalysis->BeginCapture();  
     ...  
@@ -97,7 +97,7 @@ You can use [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] Graphic
   
      Capture begins immediately when `BeginCapture` is called; it doesn't wait for the next frame to begin. Capture stops when the current frame is presented, or when you call `EndCapture`:  
   
-    ```  
+    ```cpp
     ...  
     pGraphicsAnalysis->EndCapture();  
     ...  

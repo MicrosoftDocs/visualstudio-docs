@@ -27,22 +27,22 @@ ms.workload:
   
  This walkthrough demonstrates the following tasks:  
   
--   Creating a site-level workflow.  
+- Creating a site-level workflow.  
   
--   Creating a custom workflow activity.  
+- Creating a custom workflow activity.  
   
--   Creating and deleting a SharePoint list.  
+- Creating and deleting a SharePoint list.  
   
--   Copying items from one list to another.  
+- Copying items from one list to another.  
   
--   Displaying a list on the QuickLaunch bar.  
+- Displaying a list on the QuickLaunch bar.  
   
- [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
+  [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
   
 ## Prerequisites  
  You need the following components to complete this walkthrough:  
   
--   Supported editions of [!INCLUDE[TLA#tla_win](../sharepoint/includes/tlasharptla-win-md.md)] and SharePoint. For more information, see [Requirements for developing SharePoint solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md).  
+-   Supported editions of [!INCLUDE[TLA#tla_win](../sharepoint/includes/tlasharptla-win-md.md)] and SharePoint.
   
 -   Visual Studio.  
   

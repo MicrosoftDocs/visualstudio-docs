@@ -54,35 +54,35 @@ This example uses SQL Server Express LocalDB and the Northwind sample database. 
 
 ## Create the model
 
-1.  Right-click on the project node in Solution Explorer and choose **Add** > **New Item**. In the left pane, under the C# node, choose **Data** and in the middle pane, choose **ADO.NET Entity Data Model**.
+1. Right-click on the project node in **Solution Explorer** and choose **Add** > **New Item**. In the left pane, under the C# node, choose **Data** and in the middle pane, choose **ADO.NET Entity Data Model**.
 
-     ![Entity Framework Model New Project Item](../data-tools/media/raddata-ef-new-project-item.png)
+   ![Entity Framework Model New Project Item](../data-tools/media/raddata-ef-new-project-item.png)
 
-  2.  Call the model `Northwind_model` and choose **OK**. The **Entity Data Model Wizard** opens. Choose **EF Designer from database** and then click **Next**.
+2. Call the model `Northwind_model` and choose **OK**. The **Entity Data Model Wizard** opens. Choose **EF Designer from database** and then click **Next**.
 
-     ![EF Model from Database](../data-tools/media/raddata-ef-model-from-database.png)
+   ![EF Model from Database](../data-tools/media/raddata-ef-model-from-database.png)
 
-3.  In the next screen, choose your LocalDB Northwind connection and click **Next**.
+3. In the next screen, choose your LocalDB Northwind connection and click **Next**.
 
-4.  In the next page of the wizard, choose which tables, stored procedures, and other database objects to include in the Entity Framework model. Expand the dbo node in the tree view and choose **Customers**, **Orders**, and **Order Details**. Leave the defaults checked and click **Finish**.
+4. In the next page of the wizard, choose which tables, stored procedures, and other database objects to include in the Entity Framework model. Expand the dbo node in the tree view and choose **Customers**, **Orders**, and **Order Details**. Leave the defaults checked and click **Finish**.
 
-     ![Choose database Objects for the model](../data-tools/media/raddata-choose-ef-objects.png)
+    ![Choose database Objects for the model](../data-tools/media/raddata-choose-ef-objects.png)
 
-5.  The wizard generates the C# classes that represent the Entity Framework model. The classes are plain old C# classes and they are what we databind to the WPF user interface. The *.edmx* file describes the relationships and other metadata that associates the classes with objects in the database. The *.tt* files are T4 templates that generate the code that operates on the model and save changes to the database. You can see all these files in **Solution Explorer** under the Northwind_model node:
+5. The wizard generates the C# classes that represent the Entity Framework model. The classes are plain old C# classes and they are what we databind to the WPF user interface. The *.edmx* file describes the relationships and other metadata that associates the classes with objects in the database. The *.tt* files are T4 templates that generate the code that operates on the model and save changes to the database. You can see all these files in **Solution Explorer** under the Northwind_model node:
 
-       ![Solution Explorer EF model files](../data-tools/media/raddata-solution-explorer-ef-model-files.png)
+      ![Solution Explorer EF model files](../data-tools/media/raddata-solution-explorer-ef-model-files.png)
 
-     The designer surface for the *.edmx* file enables you to modify some properties and relationships in the model. We are not going to use the designer in this walkthrough.
+    The designer surface for the *.edmx* file enables you to modify some properties and relationships in the model. We are not going to use the designer in this walkthrough.
 
-6.  The *.tt* files are general purpose and you need to tweak one of them to work with WPF databinding, which requires ObservableCollections. In **Solution Explorer**, expand the Northwind_model node until you find *Northwind_model.tt*. (Make sure you are not in the *.Context.tt* file, which is directly below the *.edmx* file.)
+6. The *.tt* files are general purpose and you need to tweak one of them to work with WPF databinding, which requires ObservableCollections. In **Solution Explorer**, expand the Northwind_model node until you find *Northwind_model.tt*. (Make sure you are not in the *.Context.tt* file, which is directly below the *.edmx* file.)
 
-    -   Replace the two occurrences of <xref:System.Collections.ICollection> with <xref:System.Collections.ObjectModel.ObservableCollection%601>.
+   -   Replace the two occurrences of <xref:System.Collections.ICollection> with <xref:System.Collections.ObjectModel.ObservableCollection%601>.
 
-    -   Replace the first occurrence of <xref:System.Collections.Generic.HashSet%601> with <xref:System.Collections.ObjectModel.ObservableCollection%601> around line 51. Do not replace the second occurrence of HashSet.
+   -   Replace the first occurrence of <xref:System.Collections.Generic.HashSet%601> with <xref:System.Collections.ObjectModel.ObservableCollection%601> around line 51. Do not replace the second occurrence of HashSet.
 
-    -   Replace the only occurrence of <xref:System.Collections.Generic> (around line 431) with <xref:System.Collections.ObjectModel>.
+   -   Replace the only occurrence of <xref:System.Collections.Generic> (around line 431) with <xref:System.Collections.ObjectModel>.
 
-7.  Press **Ctrl**+**Shift**+**B** to build the project. When the build finishes, the model classes are visible to the data sources wizard.
+7. Press **Ctrl**+**Shift**+**B** to build the project. When the build finishes, the model classes are visible to the data sources wizard.
 
 Now you are ready to hook up this model to the XAML page so that you can view, navigate, and modify the data.
 
@@ -110,7 +110,7 @@ It is possible to write your own databinding code, but it is much easier to let 
         </Grid.RowDefinitions>
     ```
 
-5.  Now open *MainWindow.xaml* so that you are viewing it in the designer. This causes the **Data Sources** window to appear as an option in the Visual Studio window margin next to the **Toolbox**. Click on the tab to open the window, or else press **Shift**+**Alt**+**D** or choose **View** > **Other Windows** > **Data Sources**. We are going to display each property in the Customers class in its own individual text box. First, click on the arrow in the **Customers** combo box and choose **Details**. Then, drag the node onto the middle part of the design surface so that the designer knows you want it to go in the middle row. If you misplace it, you can specify the row manually later in the XAML. By default, the controls are placed vertically in a grid element, but at this point, you can arrange them however you like on the form. For example, it might make sense to put the **Name** text box on top, above the address. The sample application for this article reorders the fields and rearranges them into two columns.
+5.  Now open *MainWindow.xaml* so that you're viewing it in the designer. This causes the **Data Sources** window to appear as an option in the Visual Studio window margin next to the **Toolbox**. Click on the tab to open the window, or else press **Shift**+**Alt**+**D** or choose **View** > **Other Windows** > **Data Sources**. We are going to display each property in the Customers class in its own individual text box. First, click on the arrow in the **Customers** combo box and choose **Details**. Then, drag the node onto the middle part of the design surface so that the designer knows you want it to go in the middle row. If you misplace it, you can specify the row manually later in the XAML. By default, the controls are placed vertically in a grid element, but at this point, you can arrange them however you like on the form. For example, it might make sense to put the **Name** text box on top, above the address. The sample application for this article reorders the fields and rearranges them into two columns.
 
      ![Customers data source binding to individual controls](../data-tools/media/raddata-customers-data-source-binding-to-individual-controls.png)
 

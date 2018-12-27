@@ -1,5 +1,5 @@
 ---
-title: Customize the Visual Studio IDE
+title: Customize the IDE
 ms.date: 11/20/2017
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
@@ -12,11 +12,18 @@ ms.workload:
 ---
 # Personalize the Visual Studio IDE
 
-You can personalize Visual Studio in various ways to best support your own development style and requirements. Many of your settings roam with you across Visual Studio instances&mdash;see [Synchronized settings](../ide/synchronized-settings-in-visual-studio.md). This topic briefly describes different personalizations and where you can find more information.
+You can personalize Visual Studio in various ways to best support your own development style and requirements. Many of your settings roam with you across Visual Studio instances&mdash;see [Synchronized settings](../ide/synchronized-settings-in-visual-studio.md). This article briefly describes different personalizations and where you can find more information.
+
+> [!NOTE]
+> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Customize the Visual Studio for Mac IDE](/visualstudio/mac/customizing-the-ide).
+
+## Default settings
+
+You can choose a default collection of settings that optimizes Visual Studio for your type of development. For more information, see [Environment settings](environment-settings.md).
 
 ## General environment options
 
-Many personalization options are exposed through the [Environment options](../ide/reference/environment-options-dialog-box.md) dialog box. There are two ways to access this dialog box:
+Many personalization options are exposed through the [Environment Options](../ide/reference/environment-options-dialog-box.md) dialog box. There are two ways to access this dialog box:
 
 - On the menu bar, choose **Tools** > **Options**, and if it's not already expanded, expand the **Environment** node.
 
@@ -53,5 +60,7 @@ You can customize the **Tools** menu to launch external tools. For more informat
 
 ## See also
 
-- [Visual Studio IDE overview](../ide/visual-studio-ide.md)
+- [Environment settings](environment-settings.md)
+- [Visual Studio IDE overview](../get-started/visual-studio-ide.md)
 - [Quickstart: First look at the Visual Studio IDE](../ide/quickstart-ide-orientation.md)
+- [Customize the Visual Studio for Mac IDE](/visualstudio/mac/customizing-the-ide)

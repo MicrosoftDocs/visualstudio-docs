@@ -1,65 +1,66 @@
 ---
-title: "Change installation locations in Visual Studio 2017"
-description: "Learn how to reduce the installation footprint on your system drive by changing the location of the download cache, shared components, SDKs and tools to different drives."
-ms.date: 05/07/2018
+title: "Select installation locations"
+description: "Learn how to reduce the installation footprint of Visual Studio on your system drive by changing the location of the download cache, shared components, SDKs, and tools to different drives."
+ms.date: 11/07/2018
 ms.technology: vs-acquisition
+ms.custom: "seodec18"
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "change installation locations for Visual Studio"
+  - "select an installation location for Visual Studio files"
   - "move installation files to different drives"
+  - "use the D drive"
 author: TerryGLee
 ms.author: tglee
 manager: douge
 ms.workload:
   - "multiple"
 ---
-# Change the installation locations in Visual Studio 2017
+# Select the installation locations in Visual Studio 2017
 
-**New in 15.7**: You can reduce the installation footprint on your system drive by moving the download cache, shared components, SDKs, and tools to different drives.
+**New in 15.7**: You can reduce the installation footprint of Visual Studio on your system drive by changing the location for some of its files. Specifically, you can use a different location for the download cache, shared components, SDKs, and tools files.
 
-Here's how.
+   > [!NOTE]
+   > There are some tools and SDKs that have different rules on where they can be installed. Such tools and SDKs are installed on your system drive even if you choose another location.
 
-1. When you install Visual Studio, choose the **Installation options** tab.
+Ready to get started? Here's how.
 
-  ![Visual Studio 2017 - Change the installation location](media/installation-options-by-location.png "Change the installation location")
+1. When you install Visual Studio, choose the **Installation locations** tab.
 
-  > [!IMPORTANT]
-  > If you pause the installation and later resume it, Visual Studio picks up where it left off. In other words, its installation progress applies to what's left to be downloaded and installed, and does not start from the previous count.
+   ![Visual Studio 2017 - Select the installation location](media/vs-installation-locations.png "Select the installation location.")
 
-2. In the **Visual Studio IDE** section, accept the default. This installs the core product and includes files that are specific to this version of Visual Studio.
+1. In the **Visual Studio IDE** section, accept the default. Visual Studio installs the core product and includes files that are specific to this version of Visual Studio.
 
- > [!IMPORTANT]
- > If your system drive is a solid-state drive (SSD), here's why we recommend that you accept the default location on your system drive: When you develop with Visual Studio, you read from and write to a lot of files, which increases the disk I/O activity.  It's best to choose your fastest drive to handle the load.
+   ![Visual Studio IDE section of the Installation Locations tab](media/vs-installation-locations-ide.png "Accept the default for the Visual Studio IDE section of the Installations Location tab.")
 
-2. In the **Download cache** section, decide if you want to keep the download cache, and then check or uncheck the **Keep download cache** accordingly. <br><br>If you decide not to keep the download cache, the location is used only temporarily. As well, this action will not affect or delete files from previous installations. (To clean all installation packages, you must modify your previous installations separately.)
+   > [!TIP]
+   > If your system drive is a solid-state drive (SSD), we recommend that you accept the default location on your system drive. The reason? When you develop with Visual Studio, you read from and write to a lot of files, which increases the disk I/O activity. It's best to choose your fastest drive to handle the load.
 
-3. In the **Download cache** section, specify the drive where you want to store installation files and manifests. <br><br>For example, if you select the "Desktop development with C++" workload, the temporarily required size is 1.58 GB on your system drive, which is then freed as soon as the installation completes.
+1. In the **Download cache** section, decide if you want to keep the download cache, and then decide where you want to store its files.
 
- > [!NOTE]
- > The files are first downloaded to a temp folder on your system drive and later deleted after Visual Studio verifies and then moves them to the download cache folder. If you select to keep your download cache to a different drive, Visual Studio still needs disk space that is equivalent to the size of the download cache on your system drive.
- > [!IMPORTANT]
- > The location is set with your first installation and cannot be changed later from the installer UI. Instead, you must [use command-line parameters](use-command-line-parameters-to-install-visual-studio.md) to move the download cache
+     ![Download Cache section of the Installation Locations tab](media/vs-installation-locations-cache.png "Choose whether to keep the download cache after installation, and then specify the drive where you want to store files.")
 
-4. In the **Shared components, tools, and SDKs** section, specify the drive where you want to store files that are shared by side-by-side Visual Studio installations. SDKs and tools that let the Visual Studio installer change its install location also stored in this directory.
+    1. Check or uncheck **Keep download cache after the installation**.
 
- > [!NOTE]
- > There are some tools and SDKs that have different rules on where they can be are installed. These tools and SDKs will still be installed on your system drive even if you choose another location.)
+       If you decide not to keep the download cache, the location is used only temporarily. This action won't affect or delete files from previous installations.
 
-## Get support
+    1. Specify the drive where you want to store installation files and manifests from the download cache.
 
-Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page for help. You can also contact us for installation help by [live chat](https://visualstudio.microsoft.com/vs/support/#talktous) (English only); for more information, see the [Visual Studio "Contact Us"  page](https://visualstudio.microsoft.com/vs/support/#talktous).
+        For example, if you select the "Desktop development with C++" workload, the temporarily required size is 1.58 GB on your system drive, which is then freed as soon as the installation completes.
 
-Here are a few more support options:
+       > [!IMPORTANT]
+       > This location is set with your first installation and cannot be changed later from the installer UI. Instead, you must [use command-line parameters](use-command-line-parameters-to-install-visual-studio.md) to move the download cache.
 
-* You can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
-* You can share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
-* You can track product issues and find answers in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/).
-* You can also engage with us and other Visual Studio developers through the [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio). (This option requires a [GitHub](https://github.com/) account.)
+1. In the **Shared components, tools, and SDKs** section, specify the drive where you want to store the files that are shared by side-by-side Visual Studio installations. SDKs and tools are also stored in this directory.
+
+   ![Shared Components, Tools, And SDKs section of the Installation Locations tab](media/vs-installation-locations-shared.png "Specify the location where you want to store shared components, tools, and SDKs.")
+
+[!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
 ## See also
 
 * [Install Visual Studio 2017](install-visual-studio.md)
 * [Update Visual Studio 2017](update-visual-studio.md)
-* [Modify Visual Studio 2027](update-visual-studio.md)
+* [Modify Visual Studio 2017](update-visual-studio.md)
 * [Uninstall Visual Studio 2017](uninstall-visual-studio.md)

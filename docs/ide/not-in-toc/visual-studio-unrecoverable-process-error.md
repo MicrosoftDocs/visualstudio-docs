@@ -3,8 +3,8 @@ title: A process has encountered an unrecoverable error
 ms.date: 06/22/2018
 ms.topic: troubleshooting
 helpviewer_keywords:
-  - unrecoverable error
-  - error, process
+  - "unrecoverable error"
+  - "error, process"
 author: gewarren
 ms.author: gewarren
 manager: douge

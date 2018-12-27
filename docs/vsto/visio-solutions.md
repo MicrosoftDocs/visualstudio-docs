@@ -34,21 +34,21 @@ ms.workload:
 ## Automate Visio by using the Visio object model  
  The Visio object model exposes many classes that you can use to automate Visio to create diagrams for organizational charts, flowcharts, project timelines, network diagrams, office spaces, and more. The API enables you to write code to accomplish common tasks:  
   
--   Construct and position shapes and text in diagrams.  
+- Construct and position shapes and text in diagrams.  
   
--   Manage shape behavior based on business logic and user input.  
+- Manage shape behavior based on business logic and user input.  
   
--   Control diagram visualization such as panning and zooming.  
+- Control diagram visualization such as panning and zooming.  
   
--   Customize the application UI.  
+- Customize the application UI.  
   
--   Import external data into Visio, link it to shapes, and display it graphically on a page.  
+- Import external data into Visio, link it to shapes, and display it graphically on a page.  
   
- You can view step-by-step procedures and code examples for using the object model of Visio to work with documents and shapes in [Work with Visio documents](../vsto/working-with-visio-documents.md) and [Work with Visio shapes](../vsto/working-with-visio-shapes.md).  
+  You can view step-by-step procedures and code examples for using the object model of Visio to work with documents and shapes in [Work with Visio documents](../vsto/working-with-visio-documents.md) and [Work with Visio shapes](../vsto/working-with-visio-shapes.md).  
   
- To access the Visio object model from a VSTO Add-in, use the `Application` field of the `ThisAddIn` class in your project. The `Application` field returns a `Microsoft.Office.Interop.Visio.Application` object that represents the current instance of Visio. For more information, see [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md).  
+  To access the Visio object model from a VSTO Add-in, use the `Application` field of the `ThisAddIn` class in your project. The `Application` field returns a `Microsoft.Office.Interop.Visio.Application` object that represents the current instance of Visio. For more information, see [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md).  
   
- When you call into the Visio object model, you use types that are provided in the primary interop assembly (PIA) for Visio. The PIA acts as a bridge between the managed code in the VSTO Add-in and the COM object model in Visio. All types in the Visio PIA are defined in the `Microsoft.Office.Interop.Visio` namespace. For more information about primary interop assemblies, see [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md) and [Office primary interop assemblies](../vsto/office-primary-interop-assemblies.md).  
+  When you call into the Visio object model, you use types that are provided in the primary interop assembly (PIA) for Visio. The PIA acts as a bridge between the managed code in the VSTO Add-in and the COM object model in Visio. All types in the Visio PIA are defined in the `Microsoft.Office.Interop.Visio` namespace. For more information about primary interop assemblies, see [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md) and [Office primary interop assemblies](../vsto/office-primary-interop-assemblies.md).  
   
 ## Visio object model overview  
  You can find an overview of the Visio object model at [Visio object model overview](../vsto/visio-object-model-overview.md), which includes links to the Visio object model reference and the SDKs.  
@@ -60,7 +60,7 @@ ms.workload:
 |----------|--------------------------|  
 |Customize the ribbon.|[Ribbon Overview](../vsto/ribbon-overview.md)|  
   
- For information about customizing the UI of Visio, see the VBA reference documentation for the [Visio.UIObject](https://msdn.microsoft.com/library/office/ff765763.aspx) class.  
+ For information about customizing the UI of Visio, see the VBA reference documentation for the [Visio.UIObject](/office/vba/api/Visio.UIObject) class.  
   
 ## See also  
  [Get started programming VSTO Add-ins](../vsto/getting-started-programming-vsto-add-ins.md)   

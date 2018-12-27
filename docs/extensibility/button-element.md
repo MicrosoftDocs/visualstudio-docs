@@ -15,7 +15,7 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Button Element
+# Button element
 Defines an element that the user can interact with. Buttons can be of different kinds: Button, MenuButton, and SplitDropDown.  
   
 ## Syntax  
@@ -29,7 +29,7 @@ Defines an element that the user can interact with. Buttons can be of different 
 </Button>  
 ```  
   
-## Attributes and Elements  
+## Attributes and elements  
  The following sections describe attributes, child elements, and parent elements.  
   
 ### Attributes  
@@ -40,26 +40,26 @@ Defines an element that the user can interact with. Buttons can be of different 
 |id|Required. ID of the GUID/ID command identifier.|  
 |priority|Optional. A numeric value that specifies the priority.|  
 |type|Optional. An enumerated value that specifies the kind of button.<br /><br /> If not given, uses Button.<br /><br /> Button<br /> A standard command that appears on toolbars (typically as an iconic button), menus, and context menus.<br /><br /> MenuButton<br /> A menu item that does not execute a command, but produces another menu.<br /><br /> SplitDropDown<br /> Controls, such as the Undo and Redo buttons on the standard toolbar in Microsoft Word.|  
-|Condition|Optional. See [Conditional Attributes](../extensibility/vsct-xml-schema-conditional-attributes.md).|  
+|Condition|Optional. See [Conditional attributes](../extensibility/vsct-xml-schema-conditional-attributes.md).|  
   
 ### Child Elements  
   
 |Element|Description|  
 |-------------|-----------------|  
-|[Parent Element](../extensibility/parent-element.md)|Optional. The parent element of the button.|  
-|[Icon Element](../extensibility/icon-element.md)|Optional. The icon associated with the button.|  
-|[Command Flag Element](../extensibility/command-flag-element.md)|Required. The valid CommandFlag values for a Button are as follows.<br /><br /> - AllowParams<br /><br /> - CommandWellOnly<br /><br /> - DefaultDisabled<br /><br /> - DefaultInvisible<br /><br /> - DontCache<br /><br /> - DynamicItemStart<br /><br /> - DynamicVisibility<br /><br /> - FixMenuController<br /><br /> - IconAndText<br /><br /> - NoButtonCustomize<br /><br /> - NoCustomize<br /><br /> - NoKeyCustomize<br /><br /> - NoShowOnMenuController<br /><br /> - Pict<br /><br /> - PostExec<br /><br /> - ProfferedCmd<br /><br /> - RouteToDocs<br /><br /> - TextCascadeUseBtn<br /><br /> - TextMenuUseButton<br /><br /> - TextChanges<br /><br /> - TextChangesButton<br /><br /> - TextContextUseButton<br /><br /> - TextMenuCtrlUseMenu<br /><br /> - TextMenuUseButton<br /><br /> - TextOnly|  
-|[Strings Element](../extensibility/strings-element.md)|Required. The child [ButtonText Element](../extensibility/buttontext-element.md) must be defined.|  
+|[Parent element](../extensibility/parent-element.md)|Optional. The parent element of the button.|  
+|[Icon element](../extensibility/icon-element.md)|Optional. The icon associated with the button.|  
+|[Command flag element](../extensibility/command-flag-element.md)|Required. The valid CommandFlag values for a Button are as follows.<br /><br /> - AllowParams<br /><br /> - CommandWellOnly<br /><br /> - DefaultDisabled<br /><br /> - DefaultInvisible<br /><br /> - DontCache<br /><br /> - DynamicItemStart<br /><br /> - DynamicVisibility<br /><br /> - FixMenuController<br /><br /> - IconAndText<br /><br /> - NoButtonCustomize<br /><br /> - NoCustomize<br /><br /> - NoKeyCustomize<br /><br /> - NoShowOnMenuController<br /><br /> - Pict<br /><br /> - PostExec<br /><br /> - ProfferedCmd<br /><br /> - RouteToDocs<br /><br /> - TextCascadeUseBtn<br /><br /> - TextMenuUseButton<br /><br /> - TextChanges<br /><br /> - TextChangesButton<br /><br /> - TextContextUseButton<br /><br /> - TextMenuCtrlUseMenu<br /><br /> - TextMenuUseButton<br /><br /> - TextOnly|  
+|[Strings element](../extensibility/strings-element.md)|Required. The child [ButtonText element](../extensibility/buttontext-element.md) must be defined.|  
 |Annotation|Optional comment.|  
   
-### Parent Elements  
+### Parent elements  
   
 |Element|Description|  
 |-------------|-----------------|  
-|[Buttons Element](../extensibility/buttons-element.md)|Groups Button elements.|  
+|[Buttons element](../extensibility/buttons-element.md)|Groups Button elements.|  
   
 ## Example  
- The following example defines a button in a .vsct file.  
+ The following example defines a button in a *.vsct* file.  
 
  ```xml
 <Button guid="guidMenuTextCmdSet" id="cmdidMyCommand" priority="0x0100" type="Button">
@@ -73,5 +73,5 @@ Defines an element that the user can interact with. Buttons can be of different 
 </Button>
  ```
  
-## See Also  
- [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
+## See also  
+ [Visual Studio command table (.vsct) files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

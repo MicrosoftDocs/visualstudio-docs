@@ -1,5 +1,5 @@
 ---
-title: Introduce a local variable in Visual Studio
+title: Introduce a local variable
 ms.date: 01/26/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
@@ -22,7 +22,7 @@ This code generation applies to:
 
 **When:** You have code which could be easily reused later if it were in a local variable.
 
-**Why:** You could copy and paste the code multiple times to use it in various locations, however it would be better to perform the operation once, store the result in a local variable, and use the local variable throughought.
+**Why:** You could copy and paste the code multiple times to use it in various locations, however it would be better to perform the operation once, store the result in a local variable, and use the local variable throughout.
 
 ## How-to
 
@@ -30,23 +30,23 @@ This code generation applies to:
 
    - C#:
 
-    ![Highlighted code C#](media/local-highlight-cs.png)
+       ![Highlighted code C#](media/local-highlight-cs.png)
 
    - Visual Basic:
 
-    ![Highlighted code VB](media/local-highlight-vb.png)
+       ![Highlighted code VB](media/local-highlight-vb.png)
 
-1. Next, do one of the following:
+2. Next, do one of the following:
 
    - **Keyboard**
-     - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
+      - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
    - **Mouse**
-     - Right-click and select the **Quick Actions and Refactorings** menu.
-     - Click the ![Lightbulb](media/bulb-cs.png) icon which appears in the left margin if the text cursor is already on the line with the red squiggle.
+      - Right-click and select the **Quick Actions and Refactorings** menu.
+      - Click the ![Lightbulb](media/bulb-cs.png) icon that appears in the left margin if the text cursor is already on the line with the red squiggle.
 
    ![Introduce local preview](media/local-preview-cs.png)
 
-1. Select **Introduce local for (all occurrences of) '*expression*'** from the drop-down menu.
+3. Select **Introduce local for (all occurrences of) '*expression*'** from the drop-down menu.
 
    > [!TIP]
    > Use the **Preview changes** link at the bottom of the preview window [to see all of the changes](../../ide/preview-changes.md) that will be made before making your selection.
@@ -55,14 +55,14 @@ This code generation applies to:
 
    - C#:
 
-      ![Implement interface result C#](media/local-result-cs.png)
+       ![Implement interface result C#](media/local-result-cs.png)
 
    - Visual Basic:
 
-      ![Implement interface result VB](media/local-result-vb.png)
+       ![Implement interface result VB](media/local-result-vb.png)
 
    > [!NOTE]
-   > You can use the **...all occurences of...** menu option to replace every instance of the selected expression, not just the one you have specifically highlighted.
+   > You can use the **...all occurrences of...** menu option to replace every instance of the selected expression, not just the one you have specifically highlighted.
 
 ## See also
 

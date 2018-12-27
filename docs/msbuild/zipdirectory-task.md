@@ -25,43 +25,39 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# ZipDirectory Task
-Creates a `.zip` archive from the contents of a directory.
+# ZipDirectory task
+Creates a *.zip* archive from the contents of a directory.
 
-**Note:** The `ZipDirectory` task is available in MSBuild 15.8 and above only.
+>[!NOTE]
+>The `ZipDirectory` task is available in MSBuild 15.8 and above only.
   
 ## Parameters  
  The following table describes the parameters of the `ZipDirectory` task.  
   
 |Parameter|Description|  
 |---------------|-----------------|  
-|`DestinationFile`|Required <xref:Microsoft.Build.Framework.ITaskItem> parameter<br /><br /> The full path to the `.zip` file to create.|
+|`DestinationFile`|Required <xref:Microsoft.Build.Framework.ITaskItem> parameter<br /><br /> The full path to the *.zip* file to create.|
 |`Overwrite`|Optional `Boolean` parameter.<br /><br /> If `true`, skips the destination file will be overwritten if it exists. Defaults to `false`.|
-|`SourceDirectory`|Required <xref:Microsoft.Build.Framework.ITaskItem> parameter.<br /><br /> Specifies the directory to create a `.zip` archive from.|
+|`SourceDirectory`|Required <xref:Microsoft.Build.Framework.ITaskItem> parameter.<br /><br /> Specifies the directory to create a *.zip* archive from.|
   
 ## Remarks  
- In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension Base Class](../msbuild/taskextension-base-class.md).  
+ In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).  
   
 ## Example  
- The following example creates a `.zip` archive from the output directory after building a project.
+ The following example creates a *.zip* archive from the output directory after building a project.
   
 ```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 
-    <PropertyGroup>
-      <ZipOutputPath>$(MSBuildProjectDirectory)</ZipOutputPath>
-    </PropertyGroup>
-
     <Target Name="ZipOutputPath" AfterTargets="Build">
         <ZipDirectory
             SourceDirectory="$(OutputPath)"
-            DestinationFile="$(MSBuildProjectDirectory)\output.zip">
-        />
+            DestinationFile="$(MSBuildProjectDirectory)\output.zip" />
     </Target>
 
 </Project>
 ```
   
-## See Also  
+## See also  
  [Tasks](../msbuild/msbuild-tasks.md)   
- [Task Reference](../msbuild/msbuild-task-reference.md)
+ [Task reference](../msbuild/msbuild-task-reference.md)

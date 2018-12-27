@@ -1,13 +1,12 @@
 ---
 title: Setting Up a Subversion Repository
 description: Using Subversion in Visual Studio for Mac.
-author: asb3993
-ms.author: amburns
+author: conceptdev
+ms.author: crdun
 ms.date: 05/06/2018
 ms.assetid: 0D58FB37-530E-495B-BED6-FD499477A9B6
 ---
-
-# Setting up a Subversion repository
+# Set up a Subversion repository
 
 Subversion is a centralized _version control system_, meaning that there's a single server that contains all files and revisions, from which users can check out any version of any file. When files are checked out from a remote Subversion repository, the user gets a snapshot of the repository at that point in time.
 
@@ -27,19 +26,19 @@ xcode-select --install
 
 Once Subversion is installed on your machine, use the following steps to publish your project in SVN.
 
-1. Create a free SVN repository online. For this example, [Assembla](https://app.assembla.com/) was used. Once created, a URL will be provided, which will be used to connect to the repository: 
+1. Create a free SVN repository online. For this example, [Assembla](https://app.assembla.com/) was used. Once created, a URL will be provided, which will be used to connect to the repository:
 
     ![copy the SVN URL](media/version-control-subversion1-sml.png)
 
 2. Open or create a Visual Studio for Mac Project.
 
-3. Right click on the Project and select **Version Control > Publish in Version Control...**: 
+3. Right click on the Project and select **Version Control > Publish in Version Control...**:
 
     ![Start Publishing Project](media/version-control-subversion2.png)
 
 4. In the **Connect to Repository** tab, select **Subversion** from the top drop-down.
 
-5. Enter the URL from step 1. Once the URL is entered, the other fields are populated by default: 
+5. Enter the URL from step 1. Once the URL is entered, the other fields are populated by default:
 
     ![Select Repository and Enter details Dialog](media/version-control-subversion3.png)
 
@@ -51,3 +50,6 @@ Once Subversion is installed on your machine, use the following steps to publish
 
 8.	All the version control commands available should now be visible in the version control menu.
 
+## See also
+
+- [Working with Subversion](working-with-subversion.md)

@@ -2,9 +2,8 @@
 title: "Icon Element (Visual Studio Templates) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-general"
-ms.topic: "conceptual"
+ms.technology: vs-ide-general
+ms.topic: reference
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/vstemplate/2005#Icon"
 helpviewer_keywords: 
@@ -16,7 +15,7 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Icon Element (Visual Studio Templates)
+# Icon element (Visual Studio templates)
 Specifies the path and the filename of the image file that serves as the icon, which appears in either the **New Project** or the **Add New Item** dialog box, for the template.  
   
  \<VSTemplate>  
@@ -35,7 +34,7 @@ Specifies the path and the filename of the image file that serves as the icon, w
 <Icon Package="{PackageID}" ID="ResourceID" />  
 ```  
   
-## Attributes and Elements  
+## Attributes and elements  
  The following sections describe attributes, child elements, and parent elements.  
   
 ### Attributes  
@@ -45,16 +44,16 @@ Specifies the path and the filename of the image file that serves as the icon, w
 |`Package`|Optional attribute, for advanced user scenarios.<br /><br /> A GUID that specifies the Visual Studio package ID.|  
 |`ID`|Optional attribute, for advanced user scenarios.<br /><br /> Specifies the Visual Studio resource ID.|  
   
-### Child Elements  
+### Child elements  
  None.  
   
-### Parent Elements  
+### Parent elements  
   
 |Element|Description|  
 |-------------|-----------------|  
 |[TemplateData](../extensibility/templatedata-element-visual-studio-templates.md)|Required element.<br /><br /> Categorizes the template and defines how it displays in either the **New Project** or the **Add New Item** dialog box.|  
   
-## Text Value  
+## Text value  
  A text value is required unless the `Package` and `ID` attributes are used.  
   
  The text provides the path and file name of the template icon that will appear in the **New Project** dialog box.  
@@ -89,6 +88,6 @@ Specifies the path and the filename of the image file that serves as the icon, w
 </VSTemplate>  
 ```  
   
-## See Also  
- [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)   
- [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)
+## See also  
+ [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)   
+ [Create project and item templates](../ide/creating-project-and-item-templates.md)

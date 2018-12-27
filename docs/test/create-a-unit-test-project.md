@@ -1,12 +1,12 @@
 ---
-title: "Create a unit test project in Visual Studio"
+title: "Create a unit test project"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ms.topic: conceptual
 ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 author: gewarren
 ---
@@ -36,16 +36,17 @@ Unit tests often mirror the structure of the code under test. For example, a uni
 5.  If the code that you want to test is in another location, see [Managing references in a project](../ide/managing-references-in-a-project.md) for information about adding references.
 
 ## Next steps
- **Writing unit tests**
 
  See one of the following sections:
 
--   [Unit test your code](../test/unit-test-your-code.md)
+**Writing unit tests**
 
--   [Writing unit tests for C/C++](writing-unit-tests-for-c-cpp.md)
+- [Unit test your code](../test/unit-test-your-code.md)
 
--   [Use the MSTest framework in unit tests](using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md)
+- [Writing unit tests for C/C++](writing-unit-tests-for-c-cpp.md)
 
- **Running unit tests**
+- [Use the MSTest framework in unit tests](using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md)
+
+**Running unit tests**
 
 - [Run unit tests with Test Explorer](../test/run-unit-tests-with-test-explorer.md)

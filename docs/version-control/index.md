@@ -1,7 +1,7 @@
 ---
 layout: LandingPage
-title: Version control in Visual Studio | VSTS & TFS
-description: Guide to getting started with version control in Viual Studio
+title: Version control
+description: Guide to getting started with version control in Visual Studio
 keywords: VSTS, TFS, Version Control
 author: steved0x
 ms.manager: douge
@@ -13,17 +13,17 @@ ms.assetid: 2c119a5f-0272-48c0-8d6c-806196944aea
 ms.workload:
   - "multiple"
 ---
-
 # Version Control in Visual Studio
 
-Version control systems help you track changes to code over time. As you make changes, the version control system takes a snapshot of your files. The version control system saves that snapshot permanently so you can recall it later if you need it. Visual Studio provides [Git](/vsts/git/index) and [Team Foundation Version Control (TFVC)](/vsts/tfvc/index). To decide between the two systems, see [Choosing the right version control for your project](/vsts/tfvc/comparison-git-tfvc?toc=/visualstudio/version-control/toc.json&bc=/vsts/git/breadcrumb/vc/toc.json).
+Version control systems help you track changes to code over time. As you make changes, the version control system takes a snapshot of your files. The version control system saves that snapshot permanently so you can recall it later if you need it. Visual Studio provides [Git](/azure/devops/repos/git/index?view=vsts) and [Team Foundation Version Control (TFVC)](/azure/devops/repos/tfvc/index?view=vsts). To decide between the two systems, see [Choosing the right version control for your project](/azure/devops/repos/tfvc/comparison-git-tfvc?toc=/visualstudio/version-control/toc.json&bc=/azure/devops/repos/git/breadcrumb/vc/toc.json).
 
 ## Git
-Git is the most commonly used version control system today and is quickly becoming the standard for version control. Git is a distributed version control system, meaning your local copy of code is a complete version control repository. These fully-functional local repositories make it is easy to work offline or remotely. You commit your work locally, and then sync your copy of the repository with the copy on the server. This paradigm differs from centralized version control where clients must synchronize code with a server before creating new versions of code.
+
+Git is the most commonly used version control system today and is quickly becoming the standard for version control. Git is a distributed version control system, meaning your local copy of code is a complete version control repository. These fully functional local repositories make it is easy to work offline or remotely. You commit your work locally, and then sync your copy of the repository with the copy on the server. This paradigm differs from centralized version control where clients must synchronize code with a server before creating new versions of code.
 
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="https://docs.microsoft.com/azure/devops/git/what-is-git">
+        <a href="/azure/devops/git/what-is-git">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -41,7 +41,7 @@ Git is the most commonly used version control system today and is quickly becomi
         </a>
     </li>
     <li>
-        <a href="/vsts/git/share-your-code-in-git-vs-2017?toc=/visualstudio/version-control/toc.json&bc=/vsts/git/breadcrumb/vc/toc.json">
+        <a href="/azure/devops/repos/git/share-your-code-in-git-vs-2017">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -51,7 +51,7 @@ Git is the most commonly used version control system today and is quickly becomi
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Get started with Git with Visual Studio</h3>
+                        <h3>Get started with Git in Visual Studio</h3>
                     </div>
                 </div>
             </div>
@@ -59,7 +59,7 @@ Git is the most commonly used version control system today and is quickly becomi
         </a>
     </li>
     <li>
-        <a href="/vsts/git/tutorial/clone?toc=/visualstudio/version-control/toc.json&bc=/vsts/git/breadcrumb/vc/toc.json">
+        <a href="/azure/devops/repos/git/clone">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -84,7 +84,7 @@ Team Foundation Version Control (TFVC) is a centralized version control system. 
 
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="/vsts/tfvc/overview">
+        <a href="/azure/devops/repos/tfvc/overview">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -102,7 +102,7 @@ Team Foundation Version Control (TFVC) is a centralized version control system. 
         </a>
     </li>
     <li>
-        <a href="/vsts/tfvc/share-your-code-in-tfvc-vs?toc=/visualstudio/version-control/toc.json&bc=/vsts/git/breadcrumb/vc/toc.json">
+        <a href="/azure/devops/repos/tfvc/share-your-code-in-tfvc-vs">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -120,7 +120,7 @@ Team Foundation Version Control (TFVC) is a centralized version control system. 
         </a>
     </li>
    <li>
-        <a href="/vsts/tfvc/get-code-reviewed-vs?toc=/visualstudio/version-control/toc.json&bc=/vsts/git/breadcrumb/vc/toc.json">
+        <a href="/azure/devops/repos/tfvc/get-code-reviewed-vs">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -139,9 +139,9 @@ Team Foundation Version Control (TFVC) is a centralized version control system. 
     </li>
 </ul>
 
-
 ## Resources
 
 - [Pro Git book](https://git-scm.com/book/en/v2)
 - [Plan your migration to Git](https://docs.microsoft.com/azure/devops/git/centralized-to-git)
 - [Migrate from TFVC to Git](https://docs.microsoft.com/azure/devops/git/migrate-from-tfvc-to-git)
+- [Version control (Visual Studio for Mac)](/visualstudio/mac/version-control)

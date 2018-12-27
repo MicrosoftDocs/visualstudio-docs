@@ -22,7 +22,7 @@ Retrieves a flag that indicates whether the section contains uninitialized data.
   
 ```C++  
 HRESULT get_uninitializedData (   
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 );  
 ```  
   

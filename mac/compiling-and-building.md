@@ -1,8 +1,8 @@
 ---
 title: "Compiling and Building"
 description: "This article describes how to compile and build projects and solutions in Visual Studio for Mac"
-author: asb3993
-ms.author: amburns
+author: conceptdev
+ms.author: crdun
 ms.date: 05/06/2018
 ms.assetid: FB253757-DB00-4889-A6BF-E44722E25BD1
 ---
@@ -39,7 +39,11 @@ You can use MSBuild Build Engine to build applications via the command line.
 
 See the [MSBuild](/visualstudio/msbuild/msbuild) content for more information on using MSBuild.
 
-## Building from Visual Studio Team Services
+## Building from Azure Pipelines
 
 * [Build your Xamarin App](/vsts/pipelines/apps/mobile/xamarin?view=vsts&tabs=vsts)
 * [Continuous Integration with Xamarin](https://developer.xamarin.com/guides/cross-platform/ci/)
+
+## See also
+
+- [Compile and build (Visual Studio on Windows)](/visualstudio/ide/compiling-and-building-in-visual-studio)

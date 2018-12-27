@@ -1,6 +1,6 @@
 ---
-title: Use the Code Analysis Rule Set Editor in Visual Studio
-ms.date: 04/-4/2018
+title: Use the Code Analysis Rule Set Editor
+ms.date: 04/04/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: conceptual
@@ -15,7 +15,9 @@ ms.workload:
 ---
 # Use the code analysis rule set editor
 
-The code analysis rule set editor lets you specify the rules that are included in a custom rule set, and the severity of rule violations.
+The code analysis rule set editor lets you specify the rules that are included in a custom rule set and set the severity of rule violations.
+
+The following table shows the severity options:
 
 |Action (Severity)|Description|
 |-|-|

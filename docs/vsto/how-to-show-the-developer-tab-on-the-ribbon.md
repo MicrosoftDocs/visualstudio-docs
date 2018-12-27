@@ -21,7 +21,8 @@ ms.workload:
   To access the **Developer** tab on the ribbon of an Office application, you must configure it to show that tab because it doesn't appear by default. For example, you must show that tab if you want to add a <xref:Microsoft.Office.Tools.Word.GroupContentControl> to a document-level customization for Word.  
   
 > [!NOTE]  
->  This guidance applies to Office 2010 or later applications only. If you want to show this tab in the 2007 Microsoft Office System, see the following version of this topic [How to: Show the Developer tab on the ribbon](http://msdn.microsoft.com/library/bb608625(v=vs.90).aspx).  
+>  This guidance applies to Office 2010 or later applications only. If you want to show this tab in the 2007 Microsoft Office System, see the following version of this topic [How to: Show the Developer tab on the ribbon](https://web.archive.org/web/20140303033431/msdn.microsoft.com/library/bb608625(v=vs.90).aspx
+).  
   
  [!INCLUDE[appliesto_ribbon](../vsto/includes/appliesto-ribbon-md.md)]  
   
@@ -46,7 +47,7 @@ ms.workload:
   
      ![The Options button in Outlook 2013 Preview](../vsto/media/vsto-office2013-optionsbutton.png "The Options button in Outlook 2013 Preview")  
   
-3.  In the *ApplicationName***Options** dialog box, choose the **Customize Ribbon** button.  
+3.  In the _ApplicationName_**Options** dialog box, choose the **Customize Ribbon** button.  
   
      The following figure shows the **Options** dialog box and the **Customize Ribbon** button in Excel 2010. The location of this button is similar in all other applications listed in the "Applies to" section near the top of this topic.  
   

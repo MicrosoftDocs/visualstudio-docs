@@ -12,7 +12,7 @@ ms.technology: vs-ide-modeling
 ---
 # Update Shapes and Connectors to Reflect the Model
 
-In a domain-specific language in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], you can make the appearance of a shape reflect the state of the underlying model.
+In a domain-specific language in Visual Studio, you can make the appearance of a shape reflect the state of the underlying model.
 
 The code examples in this topic should be added to a `.cs` file in your `Dsl` project. You need these statements in each file:
 
@@ -77,7 +77,6 @@ If you want to make the property variable only under program control, and not by
       return types.ToArray();
     }
   }
-
 ```
 
 ## Use OnChildConfigured to initialize a shape's properties
@@ -102,12 +101,11 @@ partial class MyLanguageDiagram
     // else deal with other types of shapes and connectors.
   }
 }
-
 ```
 
 This method can be used both for domain properties and non-store features, such as the size of the shape.
 
-##  <a name="OnAssociatedProperty"></a> Use AssociateValueWith() to update other features of a shape
+## <a name="OnAssociatedProperty"></a> Use AssociateValueWith() to update other features of a shape
 
 For some features of a shape, such as whether it has a shadow, or the arrow style of a connector, there is no built-in method of exposing the feature as a domain property.  Changes to such features are not under the control of the transaction system. Therefore, it is not appropriate to update them using rules, because rules are not invoked when the user performs the Undo command.
 

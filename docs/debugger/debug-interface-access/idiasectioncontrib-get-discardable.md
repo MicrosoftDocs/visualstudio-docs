@@ -22,7 +22,7 @@ Retrieves a flag that indicates whether the section can be discarded.
   
 ```C++  
 HRESULT get_discardable (   
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 );  
 ```  
   

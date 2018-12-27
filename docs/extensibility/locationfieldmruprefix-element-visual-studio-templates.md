@@ -2,9 +2,8 @@
 title: "LocationFieldMRUPrefix Element (Visual Studio Templates) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-general"
-ms.topic: "conceptual"
+ms.technology: vs-ide-general
+ms.topic: reference
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/vstemplate/2005#LocationFieldMRUPrefix"
 helpviewer_keywords: 
@@ -17,25 +16,25 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# LocationFieldMRUPrefix Element (Visual Studio Templates)
+# LocationFieldMRUPrefix element (Visual Studio Templates)
 Specifies the most recently used (MRU) paths in the **New Project** and **Add New Item** dialog box.  
   
 ## Syntax  
   
-```  
+```xml  
 <LocationFieldMRUPrefix> ... </LocationFieldMRUPrefix>  
 ```  
   
-## Attributes and Elements  
+## Attributes and elements  
  The following sections describe attributes, child elements, and parent elements.  
   
 ### Attributes  
  None.  
   
-### Child Elements  
+### Child elements  
  None.  
   
-### Parent Elements  
+### Parent elements  
   
 |Element|Description|  
 |-------------|-----------------|  
@@ -44,6 +43,6 @@ Specifies the most recently used (MRU) paths in the **New Project** and **Add Ne
 ## Remarks  
  This element should only be used for templates produced through the [!INCLUDE[vsipprvsip](../extensibility/includes/vsipprvsip_md.md)].  
   
-## See Also  
- [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)   
- [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)
+## See also  
+ [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)   
+ [Creating project and item templates](../ide/creating-project-and-item-templates.md)

@@ -1,8 +1,9 @@
 ---
-title: "Set defaults for enterprise deployments of Visual Studio"
+title: "Set defaults for enterprise deployments"
 description: "Learn about domain policies and other configuration operations for enterprise deployments of Visual Studio."
 ms.date: 05/05/2017
 ms.technology: vs-acquisition
+ms.custom: "seodec18"
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
@@ -18,7 +19,7 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Set defaults for enterprise deployments of Visual Studio
+# Set defaults for enterprise deployments of Visual Studio 2017
 
 You can set registry policies that affect the deployment of Visual Studio. These policies are global for the new installer and affect:
 
@@ -53,16 +54,7 @@ You can set the following registry values:
 > If you change the `CachePath` registry policy after any installs you must move the existing package cache to the new location and make sure it's secured so that `SYSTEM` and `Administrators` have Full Control and `Everyone` has Read access.
 > Failure to move the existing cache or securing it may cause problems with future installs.
 
-## Get support
-
-Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page. If none of the troubleshooting steps help, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://visualstudio.microsoft.com/vs/support/#talktous).
-
-Here are a few more support options:
-
-* You can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
-* You can share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
-* You can track product issues and find answers in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/).
-* You can also engage with us and other Visual Studio developers through the [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio). (This option requires a [GitHub](https://github.com/) account.)
+[!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
 ## See also
 

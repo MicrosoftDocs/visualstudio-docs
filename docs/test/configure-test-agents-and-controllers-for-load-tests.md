@@ -1,5 +1,5 @@
 ---
-title: "Configure test agents and test controllers for load tests in Visual Studio"
+title: "Configure test agents and test controllers for load tests"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -15,7 +15,9 @@ ms.technology: vs-ide-test
 Visual Studio can generate simulated load for your app by using physical or virtual machines. These machines must be set up as a single test controller and one or more test agents. You can use the test controller and test agents to generate more load than a single computer can generate alone.
 
 > [!NOTE]
-> You can also use cloud-based load testing to provide virtual machines that generate the load of many users accessing your web site at the same time. Learn more about cloud-based load testing at [Run load tests using VSTS](/vsts/load-test/get-started-simple-cloud-load-test).
+> You can also use cloud-based load testing to provide virtual machines that generate the load of many users accessing your website at the same time. Learn more about cloud-based load testing at [Run load tests using Azure Test Plans](/azure/devops/test/load-test/get-started-simple-cloud-load-test?view=vsts).
+
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
 ## Load simulation architecture
 
@@ -29,25 +31,25 @@ The load simulation architecture consists of a Visual Studio client, test contro
 
 This architecture provides the following benefits:
 
--   The ability to scale out load generation by adding additional test agents to a test controller.
+- The ability to scale out load generation by adding additional test agents to a test controller.
 
--   Flexibility for installing the client, test controller, and test agent software on the same or different computers. For example:
+- Flexibility for installing the client, test controller, and test agent software on the same or different computers. For example:
 
-     **Local configuration:**
+   **Local configuration:**
 
-    -   Machine1: Visual Studio, controller, agent.
+  - Machine1: Visual Studio, controller, agent.
 
-     ![Local machine using controller and agent](./media/load-test-configa.png)
+    ![Local machine using controller and agent](./media/load-test-configa.png)
 
-     **Typical remote configuration:**
+    **Typical remote configuration:**
 
-    -   Machine1 and 2: Visual Studio (multiple testers can use the same controller).
+  - Machine1 and 2: Visual Studio (multiple testers can use the same controller).
 
-    -   Machine3: Controller (can have agents installed, too).
+  - Machine3: Controller (can have agents installed, too).
 
-    -   Machine4-n: Agent or agents all associated with the controller on Machine3.
+  - Machine4-n: Agent or agents all associated with the controller on Machine3.
 
-     ![Remote machines using controller and agents](./media/load-test-configb.png)
+    ![Remote machines using controller and agents](./media/load-test-configb.png)
 
 Even though a test controller typically manages several test agents, an agent can only be associated with a single controller. Each test agent can be shared by a team of developers. This architecture makes it easy to increase the number of test agents, thereby generating larger loads.
 

@@ -19,7 +19,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# ItemMetadata Element (MSBuild)
+# ItemMetadata element (MSBuild)
 Contains a user-defined item metadata key, which contains the item metadata value. An item may have any number of metadata key-value pairs.  
 
  \<Project>  
@@ -32,7 +32,7 @@ Contains a user-defined item metadata key, which contains the item metadata valu
 <ItemMetadataName> Item Metadata value</ItemMetadataName>  
 ```  
 
-## Attributes and Elements  
+## Attributes and elements  
  The following sections describe attributes, child elements, and parent elements.  
 
 ### Attributes  
@@ -41,21 +41,19 @@ Contains a user-defined item metadata key, which contains the item metadata valu
 |---------------|-----------------|  
 |`Condition`|Optional attribute.<br /><br /> Condition to be evaluated. For more information, see [Conditions](../msbuild/msbuild-conditions.md).|  
 
-### Child Elements  
+### Child elements  
  None.  
 
-### Parent Elements  
+### Parent elements  
 
 |Element|Description|  
 |-------------|-----------------|  
 |[Item](../msbuild/item-element-msbuild.md)|A user-defined element that defines the inputs for the build process.|  
 
-## Text Value  
+## Text value  
  A text value is optional.  
 
  This text specifies the item metadata value, which can be either text or XML.  
-
-## Remarks  
 
 ## Example  
  The following code example shows how to add `Culture` metadata with the value `fr` to the item `CSFile`.  
@@ -68,6 +66,6 @@ Contains a user-defined item metadata key, which contains the item metadata valu
 </ItemGroup>  
 ```  
 
-## See Also  
- [Project File Schema Reference](../msbuild/msbuild-project-file-schema-reference.md)   
+## See also  
+ [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)   
  [Items](../msbuild/msbuild-items.md)

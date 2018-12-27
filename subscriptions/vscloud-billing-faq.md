@@ -21,13 +21,11 @@ with comparisons between cloud and standard Visual Studio subscriptions, details
 A: No. All Visual Studio cloud subscriptions must be purchased using an Azure subscription. (Think of it as your Azure billing account.)
 
 ### Q: What types of Azure subscriptions can be used to buy Visual Studio cloud subscriptions?
-A: Almost all Azure subscriptions can be used--we support Azure subscriptions connected to your
+A: Most Azure subscriptions can be used--we support Azure subscriptions connected to your
 [Enterprise Agreement (EA)](https://azure.microsoft.com/pricing/enterprise-agreement/), Azure subscriptions set up by
-Cloud Solution Providers (CSPs), Azure subscriptions set up through Microsoft Open License resellers, Pay-As-You-Go Azure subscriptions, and
-you can even buy using Azure subscriptions that Visual Studio subscribers set up as a subscriber benefit (but no, you can't use your monthly credit to
-pay for more Visual Studio subscriptions).
+Cloud Solution Providers (CSPs), Azure subscriptions set up through Microsoft Open License resellers, and Pay-As-You-Go Azure subscriptions.
 
-The only notable exclusion is that you cannot use the [Azure Free Trial](https://azure.microsoft.com/pricing/free-trial/).
+Some types of Azure subscriptions, including [Azure Free Trial](https://azure.microsoft.com/pricing/free-trial/) and subscriptions included as subscriber benefits in Visual Studio subscriptions cannot be used.
 
 ### Q: Am I required to buy other Azure services?
 A: Not at all. If you only want to buy Visual Studio cloud subscriptions via Azure, you can do that.
@@ -83,7 +81,7 @@ With monthly cloud subscriptions, cancelations take effect the first day of the 
 be sure to remove users on the first of the next month to ensure that the correct people continue to have active subscriptions assigned.
 
 For annual cloud subscriptions, cancelations take effect the first day of the month following 12 months from the original purchase, or 12 months from the last annual
-renewal charge. For instance, if you bought a Visual Studio Enterprise annual cloud subscription on January 3, 2018 then it remains active until February 1, 2019 when
+renewal charge. For instance, if you bought a Visual Studio Professional annual cloud subscription on January 3, 2018 then it remains active until February 1, 2019 when
 it automatically renews for another year. If you cancel at any time between then and February 1, 2020 then the subscription will expire on February 1, 2020. There is no
 rebate for canceling part way through the subscription year with annual cloud subscriptions.
 
@@ -100,6 +98,9 @@ So for example, if you buy 6 Visual Studio Professional monthly subscriptions an
 
 Also, the discount only applies to charges in a given monthly billing period. So if you buy 5 Visual Studio Professional annual subscriptions in one month, and then you buy 5 more the next month, you'll pay the regular price on all 10 subscriptions.
 
+> [!NOTE]
+> Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
+
 ## Other questions
 
 ### Q: Can I use the monthly Azure credits as a Visual Studio subscriber to buy more Visual Studio cloud subscriptions?
@@ -109,7 +110,7 @@ Before you make purchases, you will need to [remove your spending limit](https:/
 
 ### Q: What's the difference between annual and monthly cloud subscriptions?
 
-A:  Monthly cloud subscriptions include Visual Studio plus use of VSTS and TFS. Annual cloud subscriptions have this too, but also include subscriber
+A:  Monthly cloud subscriptions include Visual Studio plus use of Azure DevOps Services and TFS. Annual cloud subscriptions have this too, but also include subscriber
 benefits, including use of Windows and other Microsoft software to install and run for development and testing, a monthly Azure credit to use for
 experimenting with Azure services and doing development and testing in the cloud, training, support, and much more.
 [Compare cloud subscription benefits and pricing](https://visualstudio.microsoft.com/vs/pricing/)
@@ -120,14 +121,13 @@ A:  Yes. As new versions are released, you can download and run them. Plus you c
 
 ### Q: Can I buy Visual Studio cloud subscriptions from my software reseller?
 
-A:  Yes you can, if your reseller participates in the Cloud Solution Provider (CSP) program. Just ask them.
+A:  Yes, you can, if your reseller participates in the Cloud Solution Provider (CSP) program. Just ask them.
 
 ## Buy cloud subscriptions now
 
 * [Visual Studio Professional monthly](https://marketplace.visualstudio.com/items?itemName=ms.vs-professional-monthly)
-* [Visual Studio Professional annual](https://marketplace.visualstudio.com/items?itemName=ms.vs-professional-annual)
 * [Visual Studio Enterprise monthly](https://marketplace.visualstudio.com/items?itemName=ms.vs-enterprise-monthly)
-* [Visual Studio Enterprise annual](https://marketplace.visualstudio.com/items?itemName=ms.vs-enterprise-annual)
+
 
 ## Related resources
 

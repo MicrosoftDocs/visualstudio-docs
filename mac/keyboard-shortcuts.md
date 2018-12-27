@@ -1,9 +1,9 @@
 ---
 title: "Source Editor Common Keyboard Shortcuts"
 description: "This article describes some common keyboard shortcuts in Visual Studio for Mac's source editor"
-author: asb3993
-ms.author: amburns
-ms.date: 05/06/2018
+author: conceptdev
+ms.author: crdun
+ms.date: 11/06/2018
 ms.assetid: 48E06A61-7294-4EC8-A09D-1763C32AD910
 ---
 
@@ -13,17 +13,17 @@ ms.assetid: 48E06A61-7294-4EC8-A09D-1763C32AD910
 
 This command contextually generates code:
 
- `⌘ + 1`
+`⌘ + 1`
 
 ![A panel appears with options for generating code related to the selected symbol](media/keyboard-shortcuts-image8.png)
 
 ## Search Files, Symbols, and Commands
 
-`control + .` 
+`control + .`
 
-## Autocomplete 
+## Autocomplete
 
-`control + /` 
+`control + /`
 
 ## Quick fixes and actions
 
@@ -45,7 +45,7 @@ Allows quick switching between files:
 
 ## Move lines around in Editor
 
-`alt + up/down` 
+`alt + up/down`
 
 Use the **alt + up** command to move up the current line or current selected lines, and use the **alt + down** command to move the lines down. If the language add-in supports it, the lines will be re-indented to match the context when they move in and out of scope.
 
@@ -67,3 +67,7 @@ Expands word, sub-expressions, statement, and line member selection in a logical
 
 `alt + shift + up` to select
 `alt + shift + down` to de-select
+
+## See also
+
+- [Keyboard shortcuts in Visual Studio (on Windows)](/visualstudio/ide/tips-and-tricks-for-visual-studio)

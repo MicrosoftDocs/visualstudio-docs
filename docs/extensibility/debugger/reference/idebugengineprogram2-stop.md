@@ -23,7 +23,7 @@ Stops all threads running in this program.
   
 ```cpp  
 HRESULT Stop(   
-   void   
+   void   
 );  
 ```  
   

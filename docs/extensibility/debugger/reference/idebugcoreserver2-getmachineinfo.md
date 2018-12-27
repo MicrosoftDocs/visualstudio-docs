@@ -22,16 +22,16 @@ Retrieves a description of the machine the core server is running on.
 ## Syntax  
   
 ```cpp  
-HRESULT GetInfo(   
-   MACHINE_INFO_FIELDS Fields,  
-   MACHINE_INFO*       pMachineInfo  
+HRESULT GetMachineInfo(   
+   MACHINE_INFO_FIELDS Fields,  
+   MACHINE_INFO*       pMachineInfo  
 );  
 ```  
   
 ```csharp  
-int GetInfo(   
-   enum_ MACHINE_INFO_FIELDS  Fields,  
-   MACHINE_INFO[]             pMachineInfo  
+int GetMachineInfo(   
+   enum_ MACHINE_INFO_FIELDS  Fields,  
+   MACHINE_INFO[]             pMachineInfo  
 );  
 ```  
   

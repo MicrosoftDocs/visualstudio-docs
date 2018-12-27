@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA2223: Members should differ by more than return type
+
 |||
 |-|-|
 |TypeName|MembersShouldDifferByMoreThanReturnType|
@@ -28,20 +29,19 @@ ms.workload:
 ## Cause
  Two public or protected members have signatures that are identical except for return type.
 
-## Rule Description
+## Rule description
  Although the common language runtime permits the use of return types to differentiate between otherwise identical members, this feature is not in the Common Language Specification, nor is it a common feature of .NET programming languages. When members differ only by return type, developers and development tools might not correctly distinguish between them.
 
-## How to Fix Violations
+## How to fix violations
  To fix a violation of this rule, change the design of the members so that they are unique based only on their names and parameter types, or do not expose the members.
 
-## When to Suppress Warnings
+## When to suppress warnings
  Do not suppress a warning from this rule.
 
 ## Example
  The following example, in Microsoft intermediate language (MSIL), shows a type that violates this rule. Notice that this rule cannot be violated by using C# or Visual Basic.
 
 ```
-
 .namespace UsageLibrary
 {
   .class public auto ansi beforefieldinit ReturnTypeTest
@@ -88,5 +88,4 @@ ms.workload:
   } // end of class ReturnTypeTest
 
 } // end of namespace UsageLibrary
-
 ```

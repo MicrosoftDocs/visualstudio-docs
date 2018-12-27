@@ -15,7 +15,7 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Buttons Element
+# Buttons element
 Groups [Button](../extensibility/button-element.md) elements, which represent individual commands.  
   
 ## Syntax  
@@ -27,42 +27,42 @@ Groups [Button](../extensibility/button-element.md) elements, which represent in
 </Buttons>  
 ```  
   
-## Attributes and Elements  
+## Attributes and elements  
  The following sections describe attributes, child elements, and parent elements.  
   
 ### Attributes  
   
 |Attribute|Description|  
 |---------------|-----------------|  
-|Condition|Optional. See [Conditional Attributes](../extensibility/vsct-xml-schema-conditional-attributes.md).|  
+|Condition|Optional. See [Conditional attributes](../extensibility/vsct-xml-schema-conditional-attributes.md).|  
   
-### Child Elements  
-  
-|Element|Description|  
-|-------------|-----------------|  
-|[Buttons Element](../extensibility/buttons-element.md)|Groups Button elements.|  
-|[Button Element](../extensibility/button-element.md)|Defines a command that the user can interact with.|  
-  
-### Parent Elements  
+### Child elements  
   
 |Element|Description|  
 |-------------|-----------------|  
-|[Commands Element](../extensibility/commands-element.md)|Represents the collection of commands on the VSPackage toolbar.|  
+|[Buttons element](../extensibility/buttons-element.md)|Groups Button elements.|  
+|[Button element](../extensibility/button-element.md)|Defines a command that the user can interact with.|  
+  
+### Parent elements  
+  
+|Element|Description|  
+|-------------|-----------------|  
+|[Commands element](../extensibility/commands-element.md)|Represents the collection of commands on the VSPackage toolbar.|  
   
 ## Example  
   
 ```  
 <Buttons>  
-  <Button guid="guidMenuAndCommandsCmdSet" id="cmdidMyCommand"     priority="0x100" type="Button">  
-    <Parent guid="guidMenuAndCommandsCmdSet" id="MyMenuGroup"/>  
-    <Icon guid="guidGenericCmdBmp" id="bmpArrow"/>  
-    <Strings>  
-      <ButtonText>C# Command Sample</ButtonText>  
-    </Strings>  
-  </Button>  
+  <Button guid="guidMenuAndCommandsCmdSet" id="cmdidMyCommand"     priority="0x100" type="Button">  
+    <Parent guid="guidMenuAndCommandsCmdSet" id="MyMenuGroup"/>  
+    <Icon guid="guidGenericCmdBmp" id="bmpArrow"/>  
+    <Strings>  
+      <ButtonText>C# Command Sample</ButtonText>  
+    </Strings>  
+  </Button>  
 </Buttons>  
 ```  
   
-## See Also  
- [How VSPackages Add User Interface Elements](../extensibility/internals/how-vspackages-add-user-interface-elements.md)   
- [Commands, Menus, and Toolbars](../extensibility/internals/commands-menus-and-toolbars.md)
+## See also  
+ [How VSPackages add user interface elements](../extensibility/internals/how-vspackages-add-user-interface-elements.md)   
+ [Commands, menus, and toolbars](../extensibility/internals/commands-menus-and-toolbars.md)

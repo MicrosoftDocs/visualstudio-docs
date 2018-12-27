@@ -22,8 +22,8 @@ Retrieves the symbol that contains the specified virtual address.
   
 ```C++  
 HRESULT symbolForVA(   
-   ULONGLONG     va,  
-   IDiaSymbol**  ppSymbol  
+   ULONGLONG     va,  
+   IDiaSymbol**  ppSymbol  
 );  
 ```  
   

@@ -88,4 +88,4 @@ namespace ConsoleApplication
 ## See also
 
 - [Walkthrough: Debug an XSLT style sheet](../xml-tools/walkthrough-debug-an-xslt-style-sheet.md)
-- [Debugger basics](../debugger/debugger-basics.md)
+- [First look at the debugger](../debugger/debugger-feature-tour.md)   

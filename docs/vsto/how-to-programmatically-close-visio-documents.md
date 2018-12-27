@@ -20,7 +20,7 @@ ms.workload:
 # How to: Programmatically close Visio documents
   You can close the active Microsoft Office Visio document by using the `Microsoft.Office.Interop.Visio.Document.Close` method.  
   
- For details about this method, see the VBA reference documentation for the [Microsoft.Office.Interop.Visio.Document.Close](http://msdn.microsoft.com/library/office/ff767415.aspx) method.  
+ For details about this method, see the VBA reference documentation for the [Microsoft.Office.Interop.Visio.Document.Close](/office/vba/api/Visio.Document.Close) method.  
   
 ## Close the active document  
   

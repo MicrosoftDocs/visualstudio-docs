@@ -28,4 +28,4 @@ ms.workload:
   
 ## See Also  
  [Debugger Security](../debugger/debugger-security.md)   
- [Edit and Continue, Debugging, Options Dialog Box](http://msdn.microsoft.com/Library/009d225f-ef65-463f-a146-e4c518f86103)
+ [Edit and Continue, Debugging, Options Dialog Box](https://msdn.microsoft.com/library/bcew296c.aspx)

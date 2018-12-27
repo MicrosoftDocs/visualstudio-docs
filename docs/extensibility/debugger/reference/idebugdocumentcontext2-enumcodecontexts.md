@@ -23,13 +23,13 @@ Retrieves a list of all code contexts associated with this document context.
   
 ```cpp  
 HRESULT EnumCodeContexts(   
-   IEnumDebugCodeContexts2** ppEnumCodeCxts  
+   IEnumDebugCodeContexts2** ppEnumCodeCxts  
 );  
 ```  
   
 ```csharp  
 int EnumCodeContexts(   
-   out IEnumDebugCodeContexts2 ppEnumCodeCxts  
+   out IEnumDebugCodeContexts2 ppEnumCodeCxts  
 );  
 ```  
   

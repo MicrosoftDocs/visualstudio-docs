@@ -230,8 +230,10 @@
       href: assembly-element-visual-studio-templates.md
     - name: Assembly Element (Visual Studio Template Wizard Extension)
       href: assembly-element-visual-studio-template-wizard-extension.md
-    - name: BuildProjectOnLoad (Visual Studio Templates)
-      href: buildprojectonload-visual-studio-templates.md
+    - name: BuildOnLoad Attribute and Element (Visual Studio Templates)
+      href: buildonload-visual-studio-templates.md
+    - name: BuildProjectOnload Element (Visual Studio Templates)
+      href: buildprojectonload-element-visual-studio-templates.md
     - name: CreateInPlace (Visual Studio Templates)
       href: createinplace-visual-studio-templates.md
     - name: CreateNewFolder Element (Visual Studio Templates)
@@ -294,6 +296,10 @@
       href: references-element-visual-studio-templates.md
     - name: RequiredFrameworkVersion Element (Visual Studio Templates)
       href: requiredframeworkversion-element-visual-studio-templates.md
+    - name: RequiredPlatformVersion Element (Visual Studio Templates)
+      href: requiredplatformversion-element-visual-studio-templates.md
+    - name: SDKReference Element (Visual Studio Templates)
+      href: sdkreference-element-visual-studio-templates.md
     - name: ShowByDefault (Visual Studio Templates)
       href: showbydefault-visual-studio-templates.md
     - name: SolutionFolder Element (Visual Studio Templates)
@@ -306,6 +312,8 @@
       href: supportslanguagedropdown-element-visual-studio-templates.md
     - name: SupportsMasterPage Element (Visual Studio Templates)
       href: supportsmasterpage-element-visual-studio-templates.md
+    - name: TargetPlatformName Element (Visual Studio Templates)
+      href: targetplatformname-element-visual-studio-templates.md
     - name: TemplateContent Element (Visual Studio Templates)
       href: templatecontent-element-visual-studio-templates.md
     - name: TemplateData Element (Visual Studio Templates)
@@ -320,14 +328,6 @@
       href: wizarddata-element-visual-studio-templates.md
     - name: WizardExtension Element (Visual Studio Templates)
       href: wizardextension-element-visual-studio-templates.md
-    - name: BuildProjectOnload Element (Visual Studio Templates)
-      href: buildprojectonload-element-visual-studio-templates.md
-    - name: RequiredPlatformVersion Element (Visual Studio Templates)
-      href: requiredplatformversion-element-visual-studio-templates.md
-    - name: SDKReference Element (Visual Studio Templates)
-      href: sdkreference-element-visual-studio-templates.md
-    - name: TargetPlatformName Element (Visual Studio Templates)
-      href: targetplatformname-element-visual-studio-templates.md
   - name: Visual Studio Template Manifest Schema Reference
     href: visual-studio-template-manifest-schema-reference.md
 - name: Extending User Settings and Options
@@ -376,6 +376,8 @@
       href: deploying-custom-start-pages.md
   - name: Use the Activity Log
     href: how-to-use-the-activity-log.md
+- name: Visual Studio C++ project extensibility
+  href: visual-cpp-project-extensibility.md
 - name: Visual Studio User Experience Guidelines
   href: ux-guidelines/toc.yml
 - name: Addressing DPI Issues
@@ -425,6 +427,10 @@
     href: getting-started-with-the-vsix-project-template.md
   - name: "Walkthrough: Publishing a Visual Studio Extension"
     href: walkthrough-publishing-a-visual-studio-extension.md
+  - name: "Walkthrough: Publishing a Visual Studio Extension via command line"
+    href: walkthrough-publishing-a-visual-studio-extension-via-command-line.md
+  - name: "Walkthrough: Create an Extension Pack"
+    href: walkthough-create-extension-pack.md
   - name: Add a Dependency to a VSIX Package
     href: how-to-add-a-dependency-to-a-vsix-package.md
   - name: Anatomy of a VSIX Package
@@ -734,3 +740,5 @@
     href: getting-started-with-roslyn-analyzers.md
   - name: Roslyn Analyzers and Code-aware Library for ImmutableArrays
     href: roslyn-analyzers-and-code-aware-library-for-immutablearrays.md
+  - name: Roslyn package version reference
+    href: roslyn-version-support.md

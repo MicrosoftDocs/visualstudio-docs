@@ -15,13 +15,13 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# How to: Use the Activity Log
+# How to: Use the activity log
 VSPackages can write messages to the activity log. This feature is especially useful for debugging VSPackages in retail environments.  
   
 > [!TIP]
 >  The activity log is always turned on. Visual Studio keeps a rolling buffer of the last 100 entries as well as the first 10 entries, which have general configuration information.  
   
-### To write an entry to the activity log  
+## To write an entry to the activity log  
   
 1.  Insert this code in the <xref:Microsoft.VisualStudio.Shell.Package.Initialize%2A> method or in any other method except the VSPackage constructor:  
   
@@ -39,24 +39,24 @@ VSPackages can write messages to the activity log. This feature is especially us
   
 2.  When the VSPackage is loaded (usually when a command is invoked or a window is opened), the text is written to the activity log.  
   
-### To examine the activity log  
+## To examine the activity log  
   
-1.  Run Visual Studio with the [/Log](../ide/reference/log-devenv-exe.md) command line switch to write ActivityLog.xml to disk during your session.
+1. Run Visual Studio with the [/Log](../ide/reference/log-devenv-exe.md) command line switch to write ActivityLog.xml to disk during your session.
 
-2.  After closing Visual Studio, find the activity log in the subfolder for  Visual Studio data: *%AppData%*\Microsoft\VisualStudio\15.0\ActivityLog.xml.  
+2. After closing Visual Studio, find the activity log in the subfolder for  Visual Studio data: <em>*%AppData%</em>\Microsoft\VisualStudio\15.0\ActivityLog.xml*.  
   
-3.  Open the activity log with any text editor. Here is a typical entry:  
+3. Open the activity log with any text editor. Here is a typical entry:  
   
-    ```  
-    Called for: Company.MyApp.MyAppPackage ...  
-    ```  
+   ```  
+   Called for: Company.MyApp.MyAppPackage ...  
+   ```  
   
-## Robust Programming  
+## Robust programming  
  Because the activity log is a service, the activity log is unavailable in the VSPackage constructor.  
   
  You should obtain the activity log just before writing to it. Do not cache or save the activity log for future use.  
   
-## See Also
+## See also
  [/Log (devenv.exe)](../ide/reference/log-devenv-exe.md)   
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsActivityLog>   
  <xref:Microsoft.VisualStudio.Shell.Interop.__ACTIVITYLOG_ENTRYTYPE>   

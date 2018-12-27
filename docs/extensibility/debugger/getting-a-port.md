@@ -15,7 +15,7 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Getting a Port
+# Get a port
 A port represents a connection to a machine on which processes are running. That machine could be the local machine or a remote machine (which could possibly be running a non-Windows-based operating system; see [Ports](../../extensibility/debugger/ports.md) for more information).  
   
  A port is represented by the [IDebugPort2](../../extensibility/debugger/reference/idebugport2.md) interface. It is used to obtain information about processes running on the machine the port is connected to.  
@@ -33,68 +33,68 @@ A port represents a connection to a machine on which processes are running. That
 ```cpp  
 // This is an IDebugEngineLaunch2 method.  
 HRESULT CDebugEngine::LaunchSuspended(/* omitted parameters */,  
-                                      IDebugPort2 *pPort,  
-                                      /* omitted parameters */,  
-                                      IDebugProcess2**ppDebugProcess)  
+                                      IDebugPort2 *pPort,  
+                                      /* omitted parameters */,  
+                                      IDebugProcess2**ppDebugProcess)  
 {  
-    // do stuff here to set up for a launch (such as handling the other parameters)  
-    ...  
+    // do stuff here to set up for a launch (such as handling the other parameters)  
+    ...  
   
-    // Now get the IPortNotify2 interface so we can register a program node  
-    // in CDebugEngine::ResumeProcess.  
-    CComPtr<IDebugDefaultPort2> spDefaultPort;  
-    HRESULT hr = pPort->QueryInterface(&spDefaultPort);  
-    if (SUCCEEDED(hr))  
-    {  
-        CComPtr<IDebugPortNotify2> spPortNotify;  
-        hr = spDefaultPort->GetPortNotify(&spPortNotify);  
-        if (SUCCEEDED(hr))  
-        {  
-            // Remember the port notify so we can use it in ResumeProcess.  
-            m_spPortNotify = spPortNotify;  
+    // Now get the IPortNotify2 interface so we can register a program node  
+    // in CDebugEngine::ResumeProcess.  
+    CComPtr<IDebugDefaultPort2> spDefaultPort;  
+    HRESULT hr = pPort->QueryInterface(&spDefaultPort);  
+    if (SUCCEEDED(hr))  
+    {  
+        CComPtr<IDebugPortNotify2> spPortNotify;  
+        hr = spDefaultPort->GetPortNotify(&spPortNotify);  
+        if (SUCCEEDED(hr))  
+        {  
+            // Remember the port notify so we can use it in ResumeProcess.  
+            m_spPortNotify = spPortNotify;  
   
-            // Now launch the process in a suspended state and return the  
-            // IDebugProcess2 interface  
-            CComPtr<IDebugPortEx2> spPortEx;  
-            hr = pPort->QueryInterface(&spPortEx);  
-            if (SUCCEEDED(hr))  
-            {  
-                // pass on the parameters we were given (omitted here)  
-                hr = spPortEx->LaunchSuspended(/* omitted paramters */,ppDebugProcess)  
-            }  
-        }  
-    }  
-    return(hr);  
+            // Now launch the process in a suspended state and return the  
+            // IDebugProcess2 interface  
+            CComPtr<IDebugPortEx2> spPortEx;  
+            hr = pPort->QueryInterface(&spPortEx);  
+            if (SUCCEEDED(hr))  
+            {  
+                // pass on the parameters we were given (omitted here)  
+                hr = spPortEx->LaunchSuspended(/* omitted parameters */,ppDebugProcess)  
+            }  
+        }  
+    }  
+    return(hr);  
 }  
   
 HRESULT CDebugEngine::ResumeProcess(IDebugProcess2 *pDebugProcess)  
 {  
-    // Make a program node for this process  
-    HRESULT hr;  
-    CComPtr<IDebugProgramNode2> spProgramNode;  
-    hr = this->GetProgramNodeForProcess(pProcess, &spProgramNode);  
-    if (SUCCEEDED(hr))  
-    {  
-        hr = m_spPortNotify->AddProgramNode(spProgramNode);  
-        if (SUCCEEDED(hr))  
-        {  
-            // resume execution of the process using the port given to us earlier.  
-           // (Querying for the IDebugPortEx2 interface is valid here since  
-           // that's how we got the IDebugPortNotify2 interface in the first place.)  
-            CComPtr<IDebugPortEx2> spPortEx;  
-            hr = m_spPortNotify->QueryInterface(&spPortEx);  
-            if (SUCCEEDED(hr))  
-            {  
-                hr  = spPortEx->ResumeProcess(pDebugProcess);  
-            }  
-        }  
-    }  
-    return(hr);  
+    // Make a program node for this process  
+    HRESULT hr;  
+    CComPtr<IDebugProgramNode2> spProgramNode;  
+    hr = this->GetProgramNodeForProcess(pProcess, &spProgramNode);  
+    if (SUCCEEDED(hr))  
+    {  
+        hr = m_spPortNotify->AddProgramNode(spProgramNode);  
+        if (SUCCEEDED(hr))  
+        {  
+            // resume execution of the process using the port given to us earlier.  
+           // (Querying for the IDebugPortEx2 interface is valid here since  
+           // that's how we got the IDebugPortNotify2 interface in the first place.)  
+            CComPtr<IDebugPortEx2> spPortEx;  
+            hr = m_spPortNotify->QueryInterface(&spPortEx);  
+            if (SUCCEEDED(hr))  
+            {  
+                hr  = spPortEx->ResumeProcess(pDebugProcess);  
+            }  
+        }  
+    }  
+    return(hr);  
 }  
 ```  
   
-## See Also  
- [Registering the Program](../../extensibility/debugger/registering-the-program.md)   
- [Enabling a Program to Be Debugged](../../extensibility/debugger/enabling-a-program-to-be-debugged.md)   
- [Port Suppliers](../../extensibility/debugger/port-suppliers.md)   
+## See also  
+ [Registering the program](../../extensibility/debugger/registering-the-program.md)   
+ [Enabling a program to be debugged](../../extensibility/debugger/enabling-a-program-to-be-debugged.md)   
+ [Port suppliers](../../extensibility/debugger/port-suppliers.md)   
  [Ports](../../extensibility/debugger/ports.md)

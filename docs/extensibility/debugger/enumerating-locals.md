@@ -15,13 +15,13 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Enumerating Locals
+# Enumerate locals
 > [!IMPORTANT]
->  In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR Expression Evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed Expression Evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).  
+>  In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, see [CLR expression evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed expression evaluator sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).  
   
  When Visual Studio is ready to populate the **Locals** window, it calls [EnumChildren](../../extensibility/debugger/reference/idebugproperty2-enumchildren.md) on the [IDebugProperty2](../../extensibility/debugger/reference/idebugproperty2.md) object returned from [GetMethodProperty](../../extensibility/debugger/reference/idebugexpressionevaluator-getmethodproperty.md) (see [Implementing GetMethodProperty](../../extensibility/debugger/implementing-getmethodproperty.md)). `IDebugProperty2::EnumChildren` returns an [IEnumDebugPropertyInfo2](../../extensibility/debugger/reference/ienumdebugpropertyinfo2.md) object.  
   
- This implementation of `IDebugProperty2::EnumChildren` performs the following tasks:  
+ Implementing `IDebugProperty2::EnumChildren` performs the following tasks:  
   
 1.  Ensures this is representing a method.  
   
@@ -37,212 +37,212 @@ ms.workload:
   
 4.  Returns the `IEnumDebugProperty2Info2` interface from the `CEnumPropertyInfo` object.  
   
-## Managed Code  
+## Managed code  
  This example shows an implementation of `IDebugProperty2::EnumChildren` in managed code.  
   
 ```csharp  
 namespace EEMC  
 {  
-    public class CFieldProperty : IDebugProperty2  
-    {  
-        public HRESULT EnumChildren (  
-                uint                    dwFields,  
-                uint                    radix,  
-            ref Guid                    guidFilter,   
-                ulong                   attribFilter,   
-                string                  nameFilter,   
-                uint                    timeout,  
-            out IEnumDebugPropertyInfo2 properties)   
-        {  
-            properties = null;  
-            IEnumDebugFields fields = null;  
+    public class CFieldProperty : IDebugProperty2  
+    {  
+        public HRESULT EnumChildren (  
+                uint                    dwFields,  
+                uint                    radix,  
+            ref Guid                    guidFilter,   
+                ulong                   attribFilter,   
+                string                  nameFilter,   
+                uint                    timeout,  
+            out IEnumDebugPropertyInfo2 properties)   
+        {  
+            properties = null;  
+            IEnumDebugFields fields = null;  
   
-            // If this field is a method...  
-            if (0 != ((uint) fieldKind & (uint) FIELD_KIND.FIELD_TYPE_METHOD))  
-            {  
-                IDebugMethodField methodField = (IDebugMethodField) field;  
+            // If this field is a method...  
+            if (0 != ((uint) fieldKind & (uint) FIELD_KIND.FIELD_TYPE_METHOD))  
+            {  
+                IDebugMethodField methodField = (IDebugMethodField) field;  
   
-                // Enumerate parameters.  
-                if (guidFilter == FilterGuids.guidFilterArgs)  
-                {  
-                    methodField.EnumParameters(out fields);    
-                }  
-                // Enumerate local variables.  
-                else if (guidFilter == FilterGuids.guidFilterLocals)  
-                {  
-                    methodField.EnumLocals(address, out fields);    
-                }  
-                // Enumerate all local variables, including invisible compiler temps.  
-                else if (guidFilter == FilterGuids.guidFilterAllLocals)  
-                {  
-                    methodField.EnumAllLocals(address, out fields);    
-                }  
-                // Enumerate "this", if any, and all parameters and local variables.  
-                else if (guidFilter == FilterGuids.guidFilterLocalsPlusArgs)  
-                {  
-                    IDebugClassField fieldThis   = null;  
-                    IEnumDebugFields parameters = null;  
-                    IEnumDebugFields locals     = null;  
+                // Enumerate parameters.  
+                if (guidFilter == FilterGuids.guidFilterArgs)  
+                {  
+                    methodField.EnumParameters(out fields);    
+                }  
+                // Enumerate local variables.  
+                else if (guidFilter == FilterGuids.guidFilterLocals)  
+                {  
+                    methodField.EnumLocals(address, out fields);    
+                }  
+                // Enumerate all local variables, including invisible compiler temps.  
+                else if (guidFilter == FilterGuids.guidFilterAllLocals)  
+                {  
+                    methodField.EnumAllLocals(address, out fields);    
+                }  
+                // Enumerate "this", if any, and all parameters and local variables.  
+                else if (guidFilter == FilterGuids.guidFilterLocalsPlusArgs)  
+                {  
+                    IDebugClassField fieldThis   = null;  
+                    IEnumDebugFields parameters = null;  
+                    IEnumDebugFields locals     = null;  
   
-                    methodField.GetThis(out fieldThis);  
-                    methodField.EnumParameters(out parameters);  
-                    methodField.EnumLocals(address, out locals);  
+                    methodField.GetThis(out fieldThis);  
+                    methodField.EnumParameters(out parameters);  
+                    methodField.EnumLocals(address, out locals);  
   
-                    CEnumMethodField enumMethodField =   
-                        new CEnumMethodField(fieldThis, parameters, locals);  
-                    fields = (IEnumDebugFields) enumMethodField;  
-                }  
-                // Enumerate only "this".  
-                else if (guidFilter == FilterGuids.guidFilterThis)  
-                {  
-                    IDebugClassField fieldThis   = null;  
-                    methodField.GetThis(out fieldThis);  
+                    CEnumMethodField enumMethodField =   
+                        new CEnumMethodField(fieldThis, parameters, locals);  
+                    fields = (IEnumDebugFields) enumMethodField;  
+                }  
+                // Enumerate only "this".  
+                else if (guidFilter == FilterGuids.guidFilterThis)  
+                {  
+                    IDebugClassField fieldThis   = null;  
+                    methodField.GetThis(out fieldThis);  
   
-                    CEnumMethodField enumMethodField =   
-                        new CEnumMethodField(fieldThis, null, null);  
-                    fields = (IEnumDebugFields) enumMethodField;  
-                }  
-                else throw new COMException();// E_FAIL  
-            }  
-            // Wrap a property enumerator around the field enumerator.  
-            CEnumPropertyInfo propertiesInfo =   
-                new CEnumPropertyInfo(provider, address, binder, radix, fields,   
-                 (DEBUGPROP_INFO_FLAGS) dwFields);  
+                    CEnumMethodField enumMethodField =   
+                        new CEnumMethodField(fieldThis, null, null);  
+                    fields = (IEnumDebugFields) enumMethodField;  
+                }  
+                else throw new COMException();// E_FAIL  
+            }  
+            // Wrap a property enumerator around the field enumerator.  
+            CEnumPropertyInfo propertiesInfo =   
+                new CEnumPropertyInfo(provider, address, binder, radix, fields,   
+                 (DEBUGPROP_INFO_FLAGS) dwFields);  
   
-            properties = (IEnumDebugPropertyInfo2) propertiesInfo;  
-            return COM.S_OK;  
-        }  
-    }  
+            properties = (IEnumDebugPropertyInfo2) propertiesInfo;  
+            return COM.S_OK;  
+        }  
+    }  
 }  
 ```  
   
-## Unmanaged Code  
+## Unmanaged code  
  This example shows an implementation of `IDebugProperty2::EnumChildren` in unmanaged code.  
   
 ```cpp  
 STDMETHODIMP CFieldProperty::EnumChildren(   
-        in DEBUGPROP_INFO_FLAGS        infoFlags,  
-        in DWORD                       radix,  
-        in REFGUID                     guidFilter,  
-        in DBG_ATTRIB_FLAGS            attribFilter,  
-        in LPCOLESTR                   pszNameFilter,  
-        in DWORD                       timeout,  
-        out IEnumDebugPropertyInfo2 ** ppchildren )  
+        in DEBUGPROP_INFO_FLAGS        infoFlags,  
+        in DWORD                       radix,  
+        in REFGUID                     guidFilter,  
+        in DBG_ATTRIB_FLAGS            attribFilter,  
+        in LPCOLESTR                   pszNameFilter,  
+        in DWORD                       timeout,  
+        out IEnumDebugPropertyInfo2 ** ppchildren )  
 {  
-    if (ppchildren == NULL)  
-        return E_INVALIDARG;  
-    else  
-        *ppchildren = 0;  
+    if (ppchildren == NULL)  
+        return E_INVALIDARG;  
+    else  
+        *ppchildren = 0;  
   
-    //get enumeration  
-    HRESULT hr;  
-    IEnumDebugFields*     pfields    = NULL;  
+    //get enumeration  
+    HRESULT hr;  
+    IEnumDebugFields*     pfields    = NULL;  
   
-    if (m_fieldKind & FIELD_TYPE_METHOD)  
-    {  
-        //-----------------------------------------------------  
-        // A Method  
+    if (m_fieldKind & FIELD_TYPE_METHOD)  
+    {  
+        //-----------------------------------------------------  
+        // A Method  
   
-        IDebugMethodField*  pmethod    = NULL;  
+        IDebugMethodField*  pmethod    = NULL;  
   
-        //enumerate the requested properties  
-        hr = m_field->QueryInterface( IID_IDebugMethodField,  
-            reinterpret_cast<void**>(&pmethod) );  
-        if (FAILED(hr))  
-            return hr;  
+        //enumerate the requested properties  
+        hr = m_field->QueryInterface( IID_IDebugMethodField,  
+            reinterpret_cast<void**>(&pmethod) );  
+        if (FAILED(hr))  
+            return hr;  
   
-        if (guidFilter == guidFilterArgs)  
-        {  
-            hr = pmethod->EnumParameters( &pfields );    
-        }  
-        else if (guidFilter == guidFilterLocals)  
-        {  
-            hr = pmethod->EnumLocals( m_address, &pfields );  
-        }  
-        else if (guidFilter == guidFilterAllLocals)  
-        {  
-            hr = pmethod->EnumAllLocals( m_address, &pfields );  
-        }  
-        else if (guidFilter == guidFilterLocalsPlusArgs)  
-        {  
-            //we create a special enumerator for this  
-            IDebugClassField* pfieldThis  = NULL;  
-            IEnumDebugFields* pparameters = NULL;  
-            IEnumDebugFields* plocals     = NULL;  
+        if (guidFilter == guidFilterArgs)  
+        {  
+            hr = pmethod->EnumParameters( &pfields );    
+        }  
+        else if (guidFilter == guidFilterLocals)  
+        {  
+            hr = pmethod->EnumLocals( m_address, &pfields );  
+        }  
+        else if (guidFilter == guidFilterAllLocals)  
+        {  
+            hr = pmethod->EnumAllLocals( m_address, &pfields );  
+        }  
+        else if (guidFilter == guidFilterLocalsPlusArgs)  
+        {  
+            //we create a special enumerator for this  
+            IDebugClassField* pfieldThis  = NULL;  
+            IEnumDebugFields* pparameters = NULL;  
+            IEnumDebugFields* plocals     = NULL;  
   
-            pmethod->GetThis( &pfieldThis );  
-            pmethod->EnumParameters( &pparameters );  
-            pmethod->EnumLocals( m_address, &plocals );  
+            pmethod->GetThis( &pfieldThis );  
+            pmethod->EnumParameters( &pparameters );  
+            pmethod->EnumLocals( m_address, &plocals );  
   
-            CEnumMethodField* penumMethodField =  
-                new CEnumMethodField( pfieldThis, pparameters, plocals );  
-            if (pfieldThis != NULL)  
-                pfieldThis->Release();  
-            if (pparameters != NULL)  
-                pparameters->Release();  
-            if (plocals != NULL)  
-                plocals->Release();  
-            if (!penumMethodField)   
-            {   
-                hr = E_OUTOFMEMORY;  
-            }  
-            else  
-            {  
-                hr = penumMethodField->QueryInterface( IID_IEnumDebugFields,  
-                        reinterpret_cast<void**>(&pfields) );  
-                penumMethodField->Release();  
-            }  
-        }  
-        else if (guidFilter == guidFilterThis )  
-        {  
-            IDebugClassField* pfieldThis  = NULL;  
+            CEnumMethodField* penumMethodField =  
+                new CEnumMethodField( pfieldThis, pparameters, plocals );  
+            if (pfieldThis != NULL)  
+                pfieldThis->Release();  
+            if (pparameters != NULL)  
+                pparameters->Release();  
+            if (plocals != NULL)  
+                plocals->Release();  
+            if (!penumMethodField)   
+            {   
+                hr = E_OUTOFMEMORY;  
+            }  
+            else  
+            {  
+                hr = penumMethodField->QueryInterface( IID_IEnumDebugFields,  
+                        reinterpret_cast<void**>(&pfields) );  
+                penumMethodField->Release();  
+            }  
+        }  
+        else if (guidFilter == guidFilterThis )  
+        {  
+            IDebugClassField* pfieldThis  = NULL;  
   
-            hr = pmethod->GetThis( &pfieldThis );  
-            if (SUCCEEDED(hr))  
-            {  
-                CEnumMethodField* penumMethodField =  
-                    new CEnumMethodField( pfieldThis, NULL, NULL );  
-                pfieldThis->Release();  
-                if (!penumMethodField)   
-                {  
-                    hr = E_OUTOFMEMORY;  
-                }  
-                else  
-                {  
-                    hr = penumMethodField->QueryInterface( IID_IEnumDebugFields,  
-                        reinterpret_cast<void**>(&pfields) );  
-                    penumMethodField->Release();  
-                }  
-            }  
-        }  
-        else  
-        {  
-            hr = E_FAIL;  
-        }  
+            hr = pmethod->GetThis( &pfieldThis );  
+            if (SUCCEEDED(hr))  
+            {  
+                CEnumMethodField* penumMethodField =  
+                    new CEnumMethodField( pfieldThis, NULL, NULL );  
+                pfieldThis->Release();  
+                if (!penumMethodField)   
+                {  
+                    hr = E_OUTOFMEMORY;  
+                }  
+                else  
+                {  
+                    hr = penumMethodField->QueryInterface( IID_IEnumDebugFields,  
+                        reinterpret_cast<void**>(&pfields) );  
+                    penumMethodField->Release();  
+                }  
+            }  
+        }  
+        else  
+        {  
+            hr = E_FAIL;  
+        }  
   
-        pmethod->Release();  
-        if (hr != S_OK)  
-            return hr;  
-    }  
+        pmethod->Release();  
+        if (hr != S_OK)  
+            return hr;  
+    }  
   
-    //create a property info enumeration around the field enumerator  
-    CEnumPropertyInfo* pproperties =  
-        new CEnumPropertyInfo( m_provider, m_address, m_binder,   
-                               radix, pfields, infoFlags );  
-    if (pfields != NULL)  
-        pfields->Release();  
-    if (pproperties == NULL)  
-        return E_OUTOFMEMORY;  
+    //create a property info enumeration around the field enumerator  
+    CEnumPropertyInfo* pproperties =  
+        new CEnumPropertyInfo( m_provider, m_address, m_binder,   
+                               radix, pfields, infoFlags );  
+    if (pfields != NULL)  
+        pfields->Release();  
+    if (pproperties == NULL)  
+        return E_OUTOFMEMORY;  
   
-    hr = pproperties->QueryInterface( IID_IEnumDebugPropertyInfo2,  
-        reinterpret_cast<void**>(ppchildren) );  
-    pproperties->Release();  
+    hr = pproperties->QueryInterface( IID_IEnumDebugPropertyInfo2,  
+        reinterpret_cast<void**>(ppchildren) );  
+    pproperties->Release();  
   
-    return hr;  
+    return hr;  
 }  
 ```  
   
-## See Also  
- [Sample Implementation of Locals](../../extensibility/debugger/sample-implementation-of-locals.md)   
- [Implementing GetMethodProperty](../../extensibility/debugger/implementing-getmethodproperty.md)   
- [Evaluation Context](../../extensibility/debugger/evaluation-context.md)
+## See also  
+ [Sample implementation of locals](../../extensibility/debugger/sample-implementation-of-locals.md)   
+ [Implement GetMethodProperty](../../extensibility/debugger/implementing-getmethodproperty.md)   
+ [Evaluation context](../../extensibility/debugger/evaluation-context.md)

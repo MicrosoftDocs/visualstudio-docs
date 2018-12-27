@@ -1,6 +1,6 @@
 ---
-title: Application Page, Project Designer (Visual Basic)
-ms.date: 11/04/2016
+title: Application page of VB project properties
+ms.date: 10/30/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
@@ -20,17 +20,21 @@ ms.workload:
 
 Use the **Application** page of the Project Designer to specify a project's application settings and properties.
 
-To access the **Application** page, choose a project node (not the **Solution** node) in **Solution Explorer**. Then choose **Project** > **Properties** on the menu bar. When the Project Designer appears, select the **Application** tab.
+To access the **Application** page, choose a project node (not the **Solution** node) in **Solution Explorer**. Then choose **Project** > **Properties** on the menu bar. When the **Project Designer** appears, select the **Application** tab.
 
 [!INCLUDE[note_settings_general](../../data-tools/includes/note_settings_general_md.md)]
 
-## General Application Settings
+## General application settings
 
 The following options enable you to configure general settings for an application.
 
 ### Assembly name
 
-Specifies the name of the output file that will contain the assembly manifest. If you change this property, the **Output Name** property also changes. You can also specify the name of the output file from a command prompt by using the [/out (Visual Basic)](/dotnet/visual-basic/reference/command-line-compiler/out) compiler switch. For information about how to access this property programmatically, see <xref:VSLangProj.ProjectProperties.AssemblyName%2A>.
+Specifies the name of the output file that will contain the assembly manifest. If you change this property, the **Output Name** property also changes.
+
+You can also specify the name of the output file from a command prompt by using the [/out (Visual Basic)](/dotnet/visual-basic/reference/command-line-compiler/out) compiler switch.
+
+For information about how to access this property programmatically, see <xref:VSLangProj.ProjectProperties.AssemblyName%2A>.
 
 ### Root namespace
 
@@ -39,7 +43,7 @@ Specifies the base namespace for all files in the project. For example, if you s
 If you clear the **Root Namespace**, you can specify the namespace structure of your project in code.
 
 > [!NOTE]
-> If you use the Global keyword in a [Namespace Statement](/dotnet/visual-basic/language-reference/statements/namespace-statement), you can define a namespace out of the root namespace of your project. If you clear the **Root Namespace**, `Global` becomes the top-level namespace, which removes the need for the `Global` keyword in a `Namespace` statement. For more information, see "Global Keyword in Namespace Statements" in [Namespaces in Visual Basic](/dotnet/visual-basic/programming-guide/program-structure/namespaces).
+> If you use the `Global` keyword in a [Namespace Statement](/dotnet/visual-basic/language-reference/statements/namespace-statement), you can define a namespace out of the root namespace of your project. If you clear the **Root Namespace**, `Global` becomes the top-level namespace, which removes the need for the `Global` keyword in a `Namespace` statement. For more information, see "Global Keyword in Namespace Statements" in [Namespaces in Visual Basic](/dotnet/visual-basic/programming-guide/program-structure/namespaces).
 
 For information about how to create namespaces in your code, see [Namespace Statement](/dotnet/visual-basic/language-reference/statements/namespace-statement).
 
@@ -60,20 +64,17 @@ For more information, see [How to: Target a Version of the .NET Framework](../..
 
 ### Application type
 
-Specifies the type of application to build. For Windows 8.x apps, you can specify **Windows Store App**, **Class Library**, or **WinMD File**. For most other application types, you can specify **Windows Application**, **Console Application**, **Class Library**, **Windows Service**, or **Web Control Library**.
+Specifies the type of application to build. The values are different depending on the project type. For example, for a **Windows Forms App** project, you can specify **Windows Forms Application**, **Class Library**, **Console Application**, **Windows Service**, or **Web Control Library**.
 
 For a web application project, you must specify **Class Library**.
 
-If you specify the **WinMD File** option, types can be projected into any Windows Runtime programming language. By packaging the project's output as a WinMD file, you can code an application in multiple languages and have code interoperate as if you wrote it all in the same language. You can use the **WinMD File** option for solutions that target the Windows Runtime libraries, including [!INCLUDE[win8_appname_long](../../debugger/includes/win8_appname_long_md.md)] apps. For more information, see [Creating Windows Runtime Components in C# and Visual Basic](/windows/uwp/winrt-components/creating-windows-runtime-components-in-csharp-and-visual-basic).
-
-> [!NOTE]
-> The Windows Runtime can project types so that they appear as native objects in whichever language uses them. For example, JavaScript applications that interact with Windows Runtime use it as a set of JavaScript objects, and C# applications use the library as a collection of .NET objects. By packaging the project's output as a WinMD file, you can take advantage of the same technology that Windows Runtime uses.
-
 For more information about the **Application type** property, see [/target (Visual Basic)](/dotnet/visual-basic/reference/command-line-compiler/target). For information about how to access that property programmatically, see <xref:VSLangProj.ProjectProperties.OutputType%2A>.
 
-### Icon
+### Auto-generate binding redirects
 
-Sets the .ico file that you want to use as your program icon. Select **\<Browse...>** to browse for an existing graphic. See [/win32icon](/dotnet/visual-basic/reference/command-line-compiler/win32icon) (or [/win32icon (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/win32icon-compiler-option)) for more information. To access this property programmatically, see <xref:VSLangProj.ProjectProperties.ApplicationIcon%2A>.
+Binding redirects are added to your project if your app or its components reference more than one version of the same assembly. If you want to manually define binding redirects in the project file, deselect **Auto-generate binding redirects**. This checkbox was introduced in Visual Studio 2017 version 15.7.
+
+For more information about redirection, see [Redirecting assembly versions](/dotnet/framework/configure-apps/redirect-assembly-versions).
 
 ### Startup form / Startup object / Startup URI
 
@@ -86,6 +87,10 @@ If the project is a WPF Browser Application, this list is titled **Startup URI**
 If **Enable application framework** is cleared, this list becomes **Startup object** and shows both forms and classes or modules with a `Sub Main`.
 
 **Startup object** defines the entry point to be called when the application loads. Generally this is set to either the main form in your application or to the `Sub Main` procedure that should run when the application starts. Because class libraries do not have an entry point, their only option for this property is **(None)**. For more information, see [/main](/dotnet/visual-basic/reference/command-line-compiler/main). To access this property programmatically, see <xref:VSLangProj.ProjectProperties.StartupObject%2A>.
+
+### Icon
+
+Sets the .ico file that you want to use as your program icon. Select **\<Browse...>** to browse for an existing graphic. See [/win32icon](/dotnet/visual-basic/reference/command-line-compiler/win32icon) (or [/win32icon (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/win32icon-compiler-option)) for more information. To access this property programmatically, see <xref:VSLangProj.ProjectProperties.ApplicationIcon%2A>.
 
 ### Assembly Information
 
@@ -101,7 +106,7 @@ If this check box is cleared, your application uses the custom `Sub Main` that y
 
 ### View Windows Settings
 
-Click this button to generate and open the app.manifest file. Visual Studio uses this file to generate manifest data for the application. Then set the UAC requested execution level by modifying the `<requestedExecutionLevel>` tag in app.manifest as follows:
+Click this button to generate and open the *app.manifest* file. Visual Studio uses this file to generate manifest data for the application. Then set the UAC requested execution level by modifying the `<requestedExecutionLevel>` tag in *app.manifest* as follows:
 
 `<requestedExecutionLevel level="asInvoker" />`
 
@@ -109,9 +114,12 @@ ClickOnce works with a level of `asInvoker` or in virtualized mode (no manifest 
 
 For more information about manifest generation, see [ClickOnce Deployment on Windows Vista](../../deployment/clickonce-deployment-on-windows-vista.md).
 
-## Windows Application Framework Properties
+## Windows application framework properties
 
-The following settings are available in the **Windows application framework properties** section. These options are available only if the **Enable application framework** check box is selected. The section following this one describes **Windows application framework properties** settings for Windows Presentation Foundation (WPF) Applications.
+The following settings are available in the **Windows application framework properties** section. These options are available only if the **Enable application framework** check box is selected.
+
+> [!TIP]
+> The section following this one describes **Windows application framework properties** settings specific to Windows Presentation Foundation (WPF) apps.
 
 ### Enable XP visual styles
 
@@ -147,13 +155,13 @@ Select the form that you want to use as a splash screen. You must have previousl
 
 Click this button to display an events code file in which you can write events for the application framework events `Startup`, `Shutdown`, `UnhandledException`, `StartupNextInstance` and `NetworkAvailabilityChanged`. You can also override certain application framework methods. For example, you can change the display behavior of the splash screen by overriding `OnInitialize`.
 
-## Windows Application Framework Properties for Windows Presentation Foundation (WPF) Applications
+## Windows application framework properties for Windows Presentation Foundation (WPF) apps
 
-The following settings are available in the **Windows application framework properties** section when the project is a Windows Presentation Foundation application. These options are available only if the **Enable application framework** check box is selected. The options listed in this table are available only for WPF applications or WPF browser applications. They are not available for WPF User Control or Custom Control libraries.
+The following settings are available in the **Windows application framework properties** section when the project is a Windows Presentation Foundation (WPF) app. These options are available only if the **Enable application framework** check box is selected. The options listed in this table are available only for WPF or WPF browser applications. They are not available for WPF User Control or Custom Control libraries.
 
 ### Shutdown mode
 
-This property is applicable only to Windows Presentation Foundation applications.
+This property is applicable only to Windows Presentation Foundation (WPF) applications.
 
 Select **On explicit shutdown** to specify that the application exit when you explicitly call <xref:System.Windows.Application.Shutdown%2A>.
 
@@ -165,10 +173,10 @@ For more information about using this setting, see <xref:System.Windows.Applicat
 
 ### Edit XAML
 
-Click this button to open and modify the application definition file (Application.xaml) in the XAML editor. When you click this button, Application.xaml opens at the application definition node. You might have to edit this file to perform certain tasks, such as defining resources. If the application definition file does not exist, the Project Designer creates one.
+This button opens the application definition file (Application.xaml) in the XAML editor. When you click this button, *Application.xaml* opens at the application definition node. You might have to edit this file to perform certain tasks, such as defining resources. If the application definition file does not exist, the Project Designer creates one.
 
 ### View Application Events
 
-Click this button to display the `Application` partial class file (Application.xaml.vb) in a code editor. If the file does not exist, the Project Designer creates one with the appropriate class name and namespace.
+This button opens the `Application` class file (*Application.xaml.vb*) in a code editor. If the file does not exist, the Project Designer creates one with the appropriate class name and namespace.
 
 The <xref:System.Windows.Application> object raises events when certain application state changes occur (for example, on application startup or shutdown). For a full list of the events that this class exposes, see <xref:System.Windows.Application>. These events are handled in the user code section of the `Application` partial class.

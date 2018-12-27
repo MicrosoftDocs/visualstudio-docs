@@ -11,7 +11,7 @@ ms.prod: visual-studio-dev15
 ms.technology: vs-ide-modeling
 ---
 # Creating a Windows Forms-Based Domain-Specific Language
-You can use Windows Forms to display the state of a domain-specific language (DSL) model, instead of using a DSL diagram. This topic walks you through binding a Windows Form to a DSL, using the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Visualization and Modeling SDK.
+You can use Windows Forms to display the state of a domain-specific language (DSL) model, instead of using a DSL diagram. This topic walks you through binding a Windows Form to a DSL, using the Visual Studio Visualization and Modeling SDK.
 
  ![DSL&#45;Wpf&#45;2](../modeling/media/dsl-wpf-2.png)
 A DSL instance, showing a Windows Form UI and the model explorer.
@@ -21,30 +21,32 @@ A DSL instance, showing a Windows Form UI and the model explorer.
 
 #### To create a minimal WinForms DSL
 
-1.  Create a DSL from the **Minimal WinForm Designer** template.
+1. Create a DSL from the **Minimal WinForm Designer** template.
 
-     In this walkthrough, the following names are assumed:
+    In this walkthrough, the following names are assumed:
 
-    |||
-    |-|-|
-    |Solution and DSL name|FarmApp|
-    |Namespace|Company.FarmApp|
 
-2.  Experiment with the initial example that the template provides:
+   | | |
+   |-|-|
+   | Solution and DSL name | FarmApp |
+   | Namespace | Company.FarmApp |
 
-    1.  Transform All Templates.
 
-    2.  Build and run the sample (**CTRL+F5**).
+2. Experiment with the initial example that the template provides:
 
-    3.  In the experimental instance of Visual Studio, open the `Sample` file in the debugging project.
+   1.  Transform All Templates.
 
-         Notice that it is displayed in a Windows Forms control.
+   2.  Build and run the sample (**CTRL+F5**).
 
-         You can also see the elements of the model displayed in the Explorer.
+   3.  In the experimental instance of Visual Studio, open the `Sample` file in the debugging project.
 
-         Add some elements either in the form or the Explorer, and notice that they appear in the other display.
+        Notice that it is displayed in a Windows Forms control.
 
- In the main instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], notice the following points about the DSL solution:
+        You can also see the elements of the model displayed in the Explorer.
+
+        Add some elements either in the form or the Explorer, and notice that they appear in the other display.
+
+   In the main instance of Visual Studio, notice the following points about the DSL solution:
 
 -   `DslDefinition.dsl` contains no diagram elements. This is because you will not use DSL diagrams to view instance models of this DSL. Instead, you will bind a Windows Form to the model, and the elements on the form will display the model.
 
@@ -127,30 +129,30 @@ A DSL instance, showing a Windows Form UI and the model explorer.
 
 #### To connect your model to a form
 
-1.  In the **UI** project, delete all the existing .cs files.
+1. In the **UI** project, delete all the existing .cs files.
 
-2.  Add a new **User Control** file named `FarmControl` to the **UI** project.
+2. Add a new **User Control** file named `FarmControl` to the **UI** project.
 
-3.  In the **Data Sources** window, on the drop-down menu on **Farm**, choose **Details**.
+3. In the **Data Sources** window, on the drop-down menu on **Farm**, choose **Details**.
 
-     Leave the default settings for the other properties.
+    Leave the default settings for the other properties.
 
-4.  Open FarmControl.cs in the design view.
+4. Open FarmControl.cs in the design view.
 
-     Drag **Farm** from the Data Sources window onto FarmControl.
+    Drag **Farm** from the Data Sources window onto FarmControl.
 
-     A set of controls appears, one for each property. The relationship properties do not generate controls.
+    A set of controls appears, one for each property. The relationship properties do not generate controls.
 
-5.  Delete **farmBindingNavigator**. This is also automatically generated in the `FarmControl` designer, but it is not useful for this application.
+5. Delete **farmBindingNavigator**. This is also automatically generated in the `FarmControl` designer, but it is not useful for this application.
 
-6.  Using the toolbox, create two instances of **DataGridView**, and name them `AnimalGridView` and `FieldGridView`.
+6. Using the toolbox, create two instances of **DataGridView**, and name them `AnimalGridView` and `FieldGridView`.
 
-    > [!NOTE]
-    >  An alternative step is to drag the Animals and Fields items from the Data Sources window onto the control. This action automatically creates data grids and bindings between the grid view and the data source. However, this binding does not work correctly for DSLs. Therefore it is better to create the data grids and bindings manually.
+   > [!NOTE]
+   >  An alternative step is to drag the Animals and Fields items from the Data Sources window onto the control. This action automatically creates data grids and bindings between the grid view and the data source. However, this binding does not work correctly for DSLs. Therefore it is better to create the data grids and bindings manually.
 
-7.  If the Toolbox does not contain the **ModelingBindingSource** tool, add it. On the shortcut menu of the **Data** tab, choose **Choose Items**. In the **Choose Toolbox Items** dialog, select **ModelingBindingSource** from the **.NET Framework Tab**.
+7. If the Toolbox does not contain the **ModelingBindingSource** tool, add it. On the shortcut menu of the **Data** tab, choose **Choose Items**. In the **Choose Toolbox Items** dialog, select **ModelingBindingSource** from the **.NET Framework Tab**.
 
-8.  Using the Toolbox, create two instances of **ModelingBindingSource**, and name them `AnimalBinding` and `FieldBinding`.
+8. Using the Toolbox, create two instances of **ModelingBindingSource**, and name them `AnimalBinding` and `FieldBinding`.
 
 9. Set the **DataSource** property of each **ModelingBindingSource** to **farmBindingSource**.
 
@@ -160,16 +162,16 @@ A DSL instance, showing a Windows Form UI and the model explorer.
 
 11. Adjust the layout of the Farm control to your taste.
 
- The **ModelingBindingSource** is an adapter that performs several functions that are specific to DSLs:
+    The **ModelingBindingSource** is an adapter that performs several functions that are specific to DSLs:
 
--   It wraps updates in a VMSDK Store Transaction.
+- It wraps updates in a VMSDK Store Transaction.
 
-     For example, when the user deletes a row from the data view grid, a regular binding would result in a transaction exception.
+   For example, when the user deletes a row from the data view grid, a regular binding would result in a transaction exception.
 
--   It ensures that, when the user selects a row, the Properties window displays the properties of the corresponding model element, instead of the data grid row.
+- It ensures that, when the user selects a row, the Properties window displays the properties of the corresponding model element, instead of the data grid row.
 
- ![DslWpf4](../modeling/media/dslwpf4.png)
-Schema of links between data sources and views.
+  ![DslWpf4](../modeling/media/dslwpf4.png)
+  Schema of links between data sources and views.
 
 #### To complete the bindings to the DSL
 
@@ -243,62 +245,60 @@ Schema of links between data sources and views.
 
 #### To provide Add buttons
 
-1.  In the design view of FarmControl.cs, use the toolbox to create a button on the form.
+1. In the design view of FarmControl.cs, use the toolbox to create a button on the form.
 
-     Edit the name and text of the button, for example to `New Sheep`.
+    Edit the name and text of the button, for example to `New Sheep`.
 
-2.  Open the code behind the button (for example by double-clicking it).
+2. Open the code behind the button (for example by double-clicking it).
 
-     Edit it as follows:
+    Edit it as follows:
 
-    ```csharp
-    private void NewSheepButton_Click(object sender, EventArgs e)
-    {
-      using (Transaction t = farm.Store.TransactionManager.BeginTransaction("Add sheep"))
-      {
-        elementOperations.MergeElementGroup(farm,
-          new ElementGroup(new Sheep(farm.Partition)));
-        t.Commit();
-      }
-    }
+   ```csharp
+   private void NewSheepButton_Click(object sender, EventArgs e)
+   {
+     using (Transaction t = farm.Store.TransactionManager.BeginTransaction("Add sheep"))
+     {
+       elementOperations.MergeElementGroup(farm,
+         new ElementGroup(new Sheep(farm.Partition)));
+       t.Commit();
+     }
+   }
 
-    // The following code is shared with other add buttons:
-    private ElementOperations operationsCache = null;
-    private ElementOperations elementOperations
-    {
-      get
-      {
-        if (operationsCache == null)
-        {
-          operationsCache = new ElementOperations(farm.Store, farm.Partition);
-        }
-        return operationsCache;
-      }
-    }
-    private Farm farm
-    {
-      get { return this.farmBindingSource.DataSource as Farm; }
-    }
+   // The following code is shared with other add buttons:
+   private ElementOperations operationsCache = null;
+   private ElementOperations elementOperations
+   {
+     get
+     {
+       if (operationsCache == null)
+       {
+         operationsCache = new ElementOperations(farm.Store, farm.Partition);
+       }
+       return operationsCache;
+     }
+   }
+   private Farm farm
+   {
+     get { return this.farmBindingSource.DataSource as Farm; }
+   }
+   ```
 
-    ```
+    You will also need to insert the following directive:
 
-     You will also need to insert the following directive:
+   ```csharp
 
-    ```csharp
+   using Microsoft.VisualStudio.Modeling;
+   ```
 
-    using Microsoft.VisualStudio.Modeling;
+3. Add similar buttons for Goats and Fields.
 
-    ```
+4. Build and run the solution.
 
-3.  Add similar buttons for Goats and Fields.
+5. Verify that the new button adds an item. The new item should appear in both the FarmApp Explorer and in the appropriate data grid view.
 
-4.  Build and run the solution.
+    You should be able to edit the name of the element in the data grid view. You can also delete it from there.
 
-5.  Verify that the new button adds an item. The new item should appear in both the FarmApp Explorer and in the appropriate data grid view.
-
-     You should be able to edit the name of the element in the data grid view. You can also delete it from there.
-
- ![DSL&#45;Wpf&#45;2](../modeling/media/dsl-wpf-2.png)
+   ![DSL&#45;Wpf&#45;2](../modeling/media/dsl-wpf-2.png)
 
 ### About the code to add an element
  For the new element buttons, the following alternative code is slightly simpler.
@@ -312,7 +312,6 @@ private void NewSheepButton_Click(object sender, EventArgs e)
     t.Commit();
   }
 }
-
 ```
 
  However, this code does not set a default name for the new item. It does not run any customized merge that you might have defined in the **Element Merge Directives** of the DSL, and it does not run any custom merge code that might have been defined.

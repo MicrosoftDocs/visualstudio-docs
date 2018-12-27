@@ -17,24 +17,26 @@ manager: douge
 ms.workload: 
   - "dagriffe"
 ---
-# VSIX Language Pack Schema 2.0 Reference
+# VSIX language pack schema 2.0 reference
 
 The VSIX Language Pack schema provides localized installation information for VSIX packages. Version 2.0 of this schema supports additional localization elements.
 
-## Language Pack Schema
+## Language pack schema
 
-The root element of the language pack file is `<PackageLanguagePackManifest>`, with an attribute of `Version`, which is the version of the language pack format. This topic describes version 2.0 of the language pack format, which is specified in the manifest by setting the `Version` attribute to the value `Version="2.0.0"`. The root element contains exactly one child `<Metadata>` element.
+The root element of the language pack file is `<PackageLanguagePackManifest>`, with an attribute of `Version`, which is the version of the language pack format. This article describes version 2.0 of the language pack format, which is specified in the manifest by setting the `Version` attribute to the value `Version="2.0.0"`. The root element contains exactly one child `<Metadata>` element.
 
-### PackageLangaugePackManifest Element
+### PackageLanguagePackManifest element
 
 Within the `<PackageLanguagePackManifest>` element the following element must exist:
+
 |Title|Description|
 |-----------|-----------------|
 |`<Metadata>`| The containing element for all localized package metadata
 
-### Metadata Element
+### Metadata element
 
 Within the `<Metadata>` element you can have the following elements:
+
 |Title|Description|
 |-----------|-----------------|
 |`<DisplayName>`|The localized name of the extension to be installed|
@@ -44,7 +46,7 @@ Within the `<Metadata>` element you can have the following elements:
 |`<ReleaseNotes>`| A path or link to a localized version of the release notes|
 |`<Icon>`| A path to a localized version of the extensions icon|
 
-### Sample Manifest
+### Sample manifest
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -60,10 +62,10 @@ Within the `<Metadata>` element you can have the following elements:
 </PackageLanguagePackManifest>
 ```
 
-## See Also
+## See also
 
 |Title|Description|
 |-----------|-----------------|
-|[Localizing VSIX Packages](../extensibility/localizing-vsix-packages.md)|Shows how to provide localized installation support for a VSIX package.|
-|[VSIX Extension Schema 2.0 Reference](../extensibility/vsix-extension-schema-2-0-reference.md)|A VSIX manifest describes the contents of a .vsix deployment file, which enables a Visual Studio extension to be installed by using the **Extensions and Updates** dialog box.|
-|[Finding and Using Visual Studio Extensions](../ide/finding-and-using-visual-studio-extensions.md)|Shows how to use the **Extensions and Updates** dialog box to install, remove, activate, and deactivate extensions.|
+|[Localizing VSIX packages](../extensibility/localizing-vsix-packages.md)|Shows how to provide localized installation support for a VSIX package.|
+|[VSIX extension schema 2.0 reference](../extensibility/vsix-extension-schema-2-0-reference.md)|A VSIX manifest describes the contents of a *.vsix* deployment file. The deployment file enables you to install a Visual Studio extension by using the **Extensions and Updates** dialog box.|
+|[Find and use Visual Studio extensions](../ide/finding-and-using-visual-studio-extensions.md)|Shows how to use the **Extensions and Updates** dialog box to install, remove, activate, and deactivate extensions.|

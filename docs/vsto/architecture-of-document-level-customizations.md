@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "document-level customizations [Office development in Visual Studio]"
   - "AddInLoader.dll"
   - "architecture [Office development in Visual Studio], document-level customizations"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -26,15 +26,15 @@ ms.workload:
 # Architecture of document-level customizations
   [!INCLUDE[vs_dev12](../vsto/includes/vs-dev12-md.md)] includes projects for creating document-level customizations for Microsoft Office Word and Microsoft Office Excel. This topic describes the following aspects of document-level customizations:  
   
--   [Understand customizations](#UnderstandingCustomizations)  
+- [Understand customizations](#UnderstandingCustomizations)  
   
--   [Components of customizations](#Components)  
+- [Components of customizations](#Components)  
   
--   [How customizations work with Microsoft Office applications](#HowCustomizationsWork)  
+- [How customizations work with Microsoft Office applications](#HowCustomizationsWork)  
   
- [!INCLUDE[appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]  
+  [!INCLUDE[appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]  
   
- For general information about creating document-level customizations, see [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md), [Get started programming document-level customizations for Word](../vsto/getting-started-programming-document-level-customizations-for-word.md), and [Get started programming document-level customizations for Excel](../vsto/getting-started-programming-document-level-customizations-for-excel.md).  
+  For general information about creating document-level customizations, see [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md), [Get started programming document-level customizations for Word](../vsto/getting-started-programming-document-level-customizations-for-word.md), and [Get started programming document-level customizations for Excel](../vsto/getting-started-programming-document-level-customizations-for-excel.md).  
   
 ##  <a name="UnderstandingCustomizations"></a> Understand customizations  
  When you use the Office developer tools in Visual Studio to build a document-level customization, you create a managed code assembly that is associated with a specific document. A document or workbook with a linked assembly is said to have managed code extensions. For more information, see [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md).  
@@ -88,11 +88,11 @@ ms.workload:
 ### Support for Word documents that have .xml file name extensions  
  The document-level project templates do not allow you to create projects based on the following file formats:  
   
--   Word XML Document (*\*xml*).  
+- Word XML Document (*\*xml*).  
   
--   Word 2003 XML Document (*\*xml*).  
+- Word 2003 XML Document (*\*xml*).  
   
- If you want your end users to use customizations in these file formats, build and deploy a customization that uses one of the supported file formats specified in the table above. After installing the customization, end users can save the document in the Word XML Document (*\*xml*) format or the Word 2003 XML Document (*\*xml*) format, and the customization will continue to work as expected.  
+  If you want your end users to use customizations in these file formats, build and deploy a customization that uses one of the supported file formats specified in the table above. After installing the customization, end users can save the document in the Word XML Document (*\*xml*) format or the Word 2003 XML Document (*\*xml*) format, and the customization will continue to work as expected.  
   
 ##  <a name="Components"></a> Components of customizations  
  The main components of a customization are the document and the assembly. In addition to these components, there are several other parts that play an important role in how Microsoft Office applications discover and load customizations.  

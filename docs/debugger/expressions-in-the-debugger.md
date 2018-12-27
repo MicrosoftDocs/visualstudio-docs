@@ -25,7 +25,7 @@ ms.workload:
 # Expressions in the Visual Studio debugger
 The Visual Studio debugger includes expression evaluators that work when you enter an expression in the **QuickWatch** dialog box, **Watch** window, or **Immediate** window. The expression evaluators are also at work in the **Breakpoints** window and many other places in the debugger.
   
- The following sections give details about  expressions in different languages.  
+ The following sections describes limitations of expression evaluation for languages supported by Visual Studio.
   
 ## F# expressions are not supported  
  F# expressions are not recognized. If you are debugging F# code, you need to translate your expressions into C# syntax before entering the expressions into a debugger window or dialog box. When you translate expressions from F# to C#, be sure to remember that C# uses the `==` operator to test for equality, while F# uses the single `=`.  
@@ -85,13 +85,13 @@ int main()
   
  Debugger intrinsic functions:  
   
--   Are guaranteed to be safe: executing a debugger intrinsic function will not corrupt the process that is being debugged.  
+- Are guaranteed to be safe: executing a debugger intrinsic function will not corrupt the process that is being debugged.  
   
--   Are allowed in all expressions , even in scenarios where side effects and function evaluation are not allowed.  
+- Are allowed in all expressions , even in scenarios where side effects and function evaluation are not allowed.  
   
--   Work in scenarios where the regular function calls are not possible, such as debugging a minidump.  
+- Work in scenarios where the regular function calls are not possible, such as debugging a minidump.  
   
- Debugger intrinsic functions can also make evaluating expressions more convenient. For example, `strncmp(str, "asd")` is much easier to write in a breakpoint condition than `str[0] == 'a' && str[1] == 's' && str[2] == 'd'`. )  
+  Debugger intrinsic functions can also make evaluating expressions more convenient. For example, `strncmp(str, "asd")` is much easier to write in a breakpoint condition than `str[0] == 'a' && str[1] == 's' && str[2] == 'd'`. )  
   
 |Area|Intrinsic functions|  
 |----------|-------------------------|  
@@ -141,7 +141,7 @@ int main()
 ## Visual Basic - Unsupported Expressions  
   
 ### Dynamic Objects  
- You can use variables in debugger expressions that are statically typed as dynamic. When objects that implement the [IDynamicMetaObjectProvider Interface](/dotnet/api/system.dynamic.idynamicmetaobjectprovider) are evaluated in the Watch window, a Dynamic View node is added. The Dynamic View node shows object members but does not allow editing the values of the members.  
+ You can use variables in debugger expressions that are statically typed as dynamic. When objects that implement the <xref:System.Dynamic.IDynamicMetaObjectProvider> are evaluated in the Watch window, a Dynamic View node is added. The Dynamic View node shows object members but does not allow editing the values of the members.  
   
  The following features of dynamic objects are not supported:  
   

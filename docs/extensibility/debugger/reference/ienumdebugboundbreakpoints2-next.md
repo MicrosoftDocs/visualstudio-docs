@@ -23,17 +23,17 @@ Returns the next set of elements from the enumeration.
   
 ```cpp  
 HRESULT Next(  
-   ULONG                    celt,  
-   IDebugBoundBreakpoint2** rgelt,  
-   ULONG*                   pceltFetched  
+   ULONG                    celt,  
+   IDebugBoundBreakpoint2** rgelt,  
+   ULONG*                   pceltFetched  
 );  
 ```  
   
 ```csharp  
 int Next(  
-   uint                     celt,  
-   IDebugBoundBreakpoint2[] rgelt,  
-   ref uint                 pceltFetched  
+   uint                     celt,  
+   IDebugBoundBreakpoint2[] rgelt,  
+   ref uint                 pceltFetched  
 );  
 ```  
   

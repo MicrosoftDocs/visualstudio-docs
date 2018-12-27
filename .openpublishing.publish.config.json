@@ -2,27 +2,12 @@
   "build_entry_point": "docs",
   "docsets_to_publish": [
     {
-      "docset_name": "connected-environment",
-      "build_source_folder": "connected-environment",
-      "build_output_subfolder": "connected-environment",
-      "locale": "en-us",
-      "monikers": [],
-      "moniker_ranges": [],
-      "open_to_public_contributors": false,
-      "type_mapping": {
-        "Conceptual": "Content",
-        "ManagedReference": "Content",
-        "RestApi": "Content"
-      },
-      "build_entry_point": "docs",
-      "template_folder": "_themes"
-    },
-    {
       "docset_name": "docs",
       "build_source_folder": "docs",
       "build_output_subfolder": "vsdocsdocs",
       "locale": "en-us",
       "monikers": [],
+      "moniker_ranges": ["vs-2015", ">= vs-2017"],
       "xref_query_tags": [
         "/dotnet"
       ],
@@ -48,7 +33,8 @@
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
-        "RestApi": "Content"
+        "RestApi": "Content",
+        "ContextObject": "Toc"
       },
       "build_entry_point": "docs",
       "template_folder": "_themes"
@@ -86,11 +72,15 @@
     }
   ],
   "notification_subscribers": [],
+  "sync_notification_subscribers": [
+    "gewarren@microsoft.com"
+  ],
   "branches_to_filter": [],
   "git_repository_url_open_to_public_contributors": "https://github.com/MicrosoftDocs/visualstudio-docs",
   "git_repository_branch_open_to_public_contributors": "master",
   "skip_source_output_uploading": false,
   "need_preview_pull_request": true,
+  "need_pr_comments": true,
   "contribution_branch_mappings": {},
   "dependent_repositories": [
     {
@@ -113,11 +103,11 @@
     ]
   },
   "need_generate_pdf_url_template": true,
-  "targets": {
-    "Pdf": {
-      "template_folder": "_themes.pdf"
-    }
-  },
+ "Targets": {	 
+    "Pdf": {	
+      "template_folder": "_themes.pdf"	
+     }
+    },
   "need_generate_pdf": false,
   "need_generate_intellisense": false
 }

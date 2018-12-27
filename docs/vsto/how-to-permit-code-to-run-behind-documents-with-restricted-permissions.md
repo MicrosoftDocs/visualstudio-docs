@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "code [Office development in Visual Studio], running behind restricted documents"
   - "documents [Office development in Visual Studio], restricted permissions"
   - "Office documents [Office development in Visual Studio, restricted permissions"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -30,18 +30,18 @@ ms.workload:
   
 ## To permit code to run behind documents with restricted permissions  
   
-1.  Open the document or workbook in Word or Excel.  
+1. Open the document or workbook in Word or Excel.  
   
-2.  Click the **File** tab, point to **Prepare**, point to **Restrict Permission**, and then click **Restricted Access**.  
+2. Click the **File** tab, point to **Prepare**, point to **Restrict Permission**, and then click **Restricted Access**.  
   
-    > [!NOTE]  
-    >  On first use, you are prompted to install the Windows Rights Management client. After you install the client, you might need to repeat the steps.  
+   > [!NOTE]  
+   >  On first use, you are prompted to install the Windows Rights Management client. After you install the client, you might need to repeat the steps.  
   
-3.  In the **Permission** dialog box, select **Restrict permission to this document**, and then click **More Options**.  
+3. In the **Permission** dialog box, select **Restrict permission to this document**, and then click **More Options**.  
   
-4.  Under **Additional permissions for users**, select **Access content programmatically**.  
+4. Under **Additional permissions for users**, select **Access content programmatically**.  
   
- Word or Excel will permit programmatic access to the object model.  
+   Word or Excel will permit programmatic access to the object model.  
   
 ## See also  
  [Information rights management and managed code extensions overview](../vsto/information-rights-management-and-managed-code-extensions-overview.md)   

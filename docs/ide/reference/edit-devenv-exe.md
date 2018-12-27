@@ -6,7 +6,7 @@ ms.technology: vs-ide-general
 ms.topic: reference
 helpviewer_keywords:
   - "Devenv, /edit switch"
-  - "/Edit Devenv swtich"
+  - "/Edit Devenv switch"
 ms.assetid: 02b3d6e7-a2b1-4d83-a747-aa8c2fb758b7
 author: gewarren
 ms.author: gewarren
@@ -46,4 +46,4 @@ devenv /edit MyFile.cs
 
 ## See Also
 
-- [Devenv Command Line Switches](../../ide/reference/devenv-command-line-switches.md)
+- [Devenv command-line switches](../../ide/reference/devenv-command-line-switches.md)

@@ -15,10 +15,15 @@ ms.assetid: 904d284e-76d0-4b8f-a4df-0094de8d7aac
 author: gewarren
 ms.author: gewarren
 manager: douge
+dev_langs:
+ - CPP
+ - CSharp
+ - VB
 ms.workload:
   - "multiple"
 ---
 # CA1303: Do not pass literals as localized parameters
+
 |||
 |-|-|
 |TypeName|DoNotPassLiteralsAsLocalizedParameters|
@@ -27,26 +32,26 @@ ms.workload:
 |Breaking Change|Non Breaking|
 
 ## Cause
- A method passes a string literal as a parameter to a constructor or method in the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] class library and that string should be localizable.
+ A method passes a string literal as a parameter to a constructor or method in the .NET Framework class library and that string should be localizable.
 
  This warning is raised when a literal string is passed as a value to a parameter or property and one or more of the following cases is true:
 
--   The <xref:System.ComponentModel.LocalizableAttribute> attribute of the parameter or property is set to true.
+- The <xref:System.ComponentModel.LocalizableAttribute> attribute of the parameter or property is set to true.
 
--   The parameter or property name contains "Text", "Message", or "Caption".
+- The parameter or property name contains "Text", "Message", or "Caption".
 
--   The name of the string parameter that is passed to a Console.Write or Console.WriteLine method is either "value" or "format".
+- The name of the string parameter that is passed to a Console.Write or Console.WriteLine method is either "value" or "format".
 
-## Rule Description
+## Rule description
  String literals that are embedded in source code are difficult to localize.
 
-## How to Fix Violations
+## How to fix violations
  To fix a violation of this rule, replace the string literal with a string retrieved through an instance of the <xref:System.Resources.ResourceManager> class.
 
-## When to Suppress Warnings
+## When to suppress warnings
  It is safe to suppress a warning from this rule if the code library will not be localized, or if the string is not exposed to the end user or a developer using the code library.
 
- Users can eliminate noise against methods which should not be passed localized strings by either renaming the parameter or property named, or by marking these items as conditional.
+ Users can eliminate noise against methods that should not be passed localized strings by either renaming the parameter or property named, or by marking these items as conditional.
 
 ## Example
  The following example shows a method that throws an exception when either of its two arguments are out of range. For the first argument, the exception constructor is passed a literal string, which violates this rule. For the second argument, the constructor is correctly passed a string retrieved through a <xref:System.Resources.ResourceManager>.
@@ -55,5 +60,5 @@ ms.workload:
  [!code-vb[FxCop.Globalization.DoNotPassLiterals#1](../code-quality/codesnippet/VisualBasic/ca1303-do-not-pass-literals-as-localized-parameters_1.vb)]
  [!code-csharp[FxCop.Globalization.DoNotPassLiterals#1](../code-quality/codesnippet/CSharp/ca1303-do-not-pass-literals-as-localized-parameters_1.cs)]
 
-## See Also
+## See also
  [Resources in Desktop Apps](/dotnet/framework/resources/index)

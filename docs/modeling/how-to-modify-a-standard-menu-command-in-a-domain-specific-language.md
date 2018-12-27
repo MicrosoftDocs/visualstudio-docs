@@ -53,7 +53,7 @@ Create a new file that contains a partial declaration of the command set class.
 
 3.  In the new file, write a partial declaration that has the same namespace and name as the generated partial class. For example:
 
-    ```
+    ```csharp
     using System;
     using System.Collections.Generic;
     using System.ComponentModel.Design;
@@ -146,5 +146,4 @@ For more information about how to navigate from element to element and about how
 - [How VSPackages Add User Interface Elements](../extensibility/internals/how-vspackages-add-user-interface-elements.md)
 - [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
 - [VSCT XML Schema Reference](../extensibility/vsct-xml-schema-reference.md)
-- [VMSDK - Circuit Diagrams sample. Extensive DSL Customization](http://code.msdn.microsoft.com/Visualization-Modeling-SDK-763778e8)
-- [Sample code: Circuit Diagrams](http://code.msdn.microsoft.com/Visualization-Modeling-SDK-763778e8)
+- [VMSDK - Circuit Diagrams sample. Extensive DSL Customization](https://code.msdn.microsoft.com/Visualization-Modeling-SDK-763778e8)

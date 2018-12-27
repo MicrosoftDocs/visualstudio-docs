@@ -31,7 +31,7 @@ The Microsoft Native Minimum Rules focus on the most critical problems in your n
 |[C6270](../code-quality/c6270.md)|Missing Float Argument To Format Function|
 |[C6271](../code-quality/c6271.md)|Extra Argument To Format Function|
 |[C6272](../code-quality/c6272.md)|Non-Float Argument To Format Function|
-|[C6273](../code-quality/c6273.md)|Non-Integer Argumen To Format Function|
+|[C6273](../code-quality/c6273.md)|Non-Integer Argument To Format Function|
 |[C6274](../code-quality/c6274.md)|Non-Character Argument To Format Function|
 |[C6276](../code-quality/c6276.md)|Invalid String Cast|
 |[C6277](../code-quality/c6277.md)|Invalid CreateProcess Call|
@@ -75,22 +75,28 @@ The Microsoft Native Minimum Rules focus on the most critical problems in your n
 |[C6704](../code-quality/c6704.md)|Unexpected Annotation Expression Error|
 |[C6705](../code-quality/c6705.md)|Expected number of arguments for annotation does not match actual number of arguments for annotation|
 |[C6706](../code-quality/c6706.md)|Unexpected Annotation Error for annotation|
+|[C26450](../code-quality/c26450.md)|RESULT_OF_ARITHMETIC_OPERATION_PROVABLY_LOSSY|
+|[C26451](../code-quality/c26451.md)|RESULT_OF_ARITHMETIC_OPERATION_CAST_TO_LARGER_SIZE|
+|[C26452](../code-quality/c26452.md)|SHIFT_COUNT_NEGATIVE_OR_TOO_BIG|
+|[C26453](../code-quality/c26453.md)|LEFTSHIFT_NEGATIVE_SIGNED_NUMBER|
+|[C26454](../code-quality/c26454.md)|RESULT_OF_ARITHMETIC_OPERATION_NEGATIVE_UNSIGNED|
+|[C26495](../code-quality/c26495.md)|MEMBER_UNINIT|
 |[C28021](../code-quality/c28021.md)|The parameter being annotated must be a pointer|
 |[C28182](../code-quality/c28182.md)|Dereferencing NULL pointer. The pointer contains the same NULL value as another pointer did.|
 |[C28202](../code-quality/c28202.md)|Illegal reference to non-static member|
 |[C28203](../code-quality/c28203.md)|Ambiguous reference to class member.|
-|[C28205](../code-quality/c28205.md)|_Success\_ or _On_failure\_ used in an illegal context|
+|[C28205](../code-quality/c28205.md)|\_Success\_ or \_On\_failure\_ used in an illegal context|
 |[C28206](../code-quality/c28206.md)|Left operand points to a struct, use '->'|
 |[C28207](../code-quality/c28207.md)|Left operand is a struct, use '.'|
 |[C28210](../code-quality/c28210.md)|Annotations for the __on_failure context must not be in explicit pre context|
 |[C28211](../code-quality/c28211.md)|Static context name expected for SAL_context|
 |[C28212](../code-quality/c28212.md)|Pointer expression expected for annotation|
-|[C28213](../code-quality/c28213.md)|The _Use_decl_annotations\_ annotation must be used to reference, without modification, a prior declaration.|
+|[C28213](../code-quality/c28213.md)|The \_Use\_decl\_annotations\_ annotation must be used to reference, without modification, a prior declaration.|
 |[C28214](../code-quality/c28214.md)|Attribute parameter names must be p1...p9|
 |[C28215](../code-quality/c28215.md)|The typefix cannot be applied to a parameter that already has a typefix|
 |[C28216](../code-quality/c28216.md)|The checkReturn annotation only applies to postconditions for the specific function parameter.|
 |[C28217](../code-quality/c28217.md)|For function, the number of parameters to annotation does not match that found at file|
-|[C28218](../code-quality/c28218.md)|For function paramteer, the annotation's parameter does not match that found at file|
+|[C28218](../code-quality/c28218.md)|For function parameter, the annotation's parameter does not match that found at file|
 |[C28219](../code-quality/c28219.md)|Member of enumeration expected for annotation the parameter in the annotation|
 |[C28220](../code-quality/c28220.md)|Integer expression expected for annotation the parameter in the annotation|
 |[C28221](../code-quality/c28221.md)|String expression expected for the parameter in the annotation|
@@ -127,22 +133,22 @@ The Microsoft Native Minimum Rules focus on the most critical problems in your n
 |[C28267](../code-quality/c28267.md)|A syntax error in the annotations was found annotation in the function.|
 |[C28272](../code-quality/c28272.md)|The annotation for function, parameter when examining is inconsistent with the function declaration|
 |[C28273](../code-quality/c28273.md)|For function, the clues are inconsistent with the function declaration|
-|[C28275](../code-quality/c28275.md)|The parameter to _Macro_value\_ is null|
+|[C28275](../code-quality/c28275.md)|The parameter to \_Macro\_value\_ is null|
 |[C28279](../code-quality/c28279.md)|For symbol, a 'begin' was found without a matching 'end'|
 |[C28280](../code-quality/c28280.md)|For symbol, an 'end' was found without a matching 'begin'|
 |[C28282](../code-quality/c28282.md)|Format Strings must be in preconditions|
 |[C28285](../code-quality/c28285.md)|For function, syntax error in parameter|
 |[C28286](../code-quality/c28286.md)|For function, syntax error near the end|
-|[C28287](../code-quality/c28287.md)|For function, syntax Error in _At\_() annotation (unrecognized parameter name)|
-|[C28288](../code-quality/c28288.md)|For function, syntax Error in _At\_() annotation (invalid parameter name)|
+|[C28287](../code-quality/c28287.md)|For function, syntax Error in \_At\_() annotation (unrecognized parameter name)|
+|[C28288](../code-quality/c28288.md)|For function, syntax Error in \_At\_() annotation (invalid parameter name)|
 |[C28289](../code-quality/c28289.md)|For function: ReadableTo or WritableTo did not have a limit-spec as a parameter|
 |[C28290](../code-quality/c28290.md)|the annotation for function contains more Externals than the actual number of parameters|
 |[C28291](../code-quality/c28291.md)|post null/notnull at deref level 0 is meaningless for function.|
 |[C28300](../code-quality/c28300.md)|Expression operands of incompatible types for operator|
 |[C28301](../code-quality/c28301.md)|No annotations for first declaration of function.|
-|[C28302](../code-quality/c28302.md)|An extra _Deref\_ operator was found on annotation.|
-|[C28303](../code-quality/c28303.md)|An ambiguous _Deref\_ operator was found on annotation.|
-|[C28304](../code-quality/c28304.md)|An improperly placed _Notref\_ operator was found applied to token.|
+|[C28302](../code-quality/c28302.md)|An extra \_Deref\_ operator was found on annotation.|
+|[C28303](../code-quality/c28303.md)|An ambiguous \_Deref\_ operator was found on annotation.|
+|[C28304](../code-quality/c28304.md)|An improperly placed \_Notref\_ operator was found applied to token.|
 |[C28305](../code-quality/c28305.md)|An error while parsing a token was discovered.|
 |[C28350](../code-quality/c28350.md)|The annotation describes a situation that is not conditionally applicable.|
 |[C28351](../code-quality/c28351.md)|The annotation describes where a dynamic value (a variable) cannot be used in the condition.|

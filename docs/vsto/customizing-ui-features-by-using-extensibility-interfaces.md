@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "FormRegionStartup interface"
   - "add-ins [Office development in Visual Studio], extensibility interfaces"
   - "extensibility interfaces [Office development in Visual Studio]"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -55,17 +55,17 @@ ms.workload:
 ### Example of implementing an extensibility interface  
  The following code example demonstrates a simple implementation of the <xref:Microsoft.Office.Core.ICustomTaskPaneConsumer> interface to create a custom task pane. This example defines two classes:  
   
--   The `TaskPaneHelper` class implements <xref:Microsoft.Office.Core.ICustomTaskPaneConsumer> to create and display a custom task pane.  
+- The `TaskPaneHelper` class implements <xref:Microsoft.Office.Core.ICustomTaskPaneConsumer> to create and display a custom task pane.  
   
--   The `TaskPaneUI` class provides the UI of the task pane. The attributes for the `TaskPaneUI` class make the class visible to COM, which enables Microsoft Office applications to discover the class. In this example, the UI is an empty <xref:System.Windows.Forms.UserControl>, but you can add controls by modifying the code.  
+- The `TaskPaneUI` class provides the UI of the task pane. The attributes for the `TaskPaneUI` class make the class visible to COM, which enables Microsoft Office applications to discover the class. In this example, the UI is an empty <xref:System.Windows.Forms.UserControl>, but you can add controls by modifying the code.  
   
-    > [!NOTE]  
-    >  To expose the `TaskPaneUI` class to COM, you must also set the **Register for COM Interop** property for the project.  
+  > [!NOTE]  
+  >  To expose the `TaskPaneUI` class to COM, you must also set the **Register for COM Interop** property for the project.  
   
- [!code-vb[Trin_SimpleExtensibilityInterface#1](../vsto/codesnippet/VisualBasic/Trin_SimpleExtensibilityInterface/ThisAddIn.vb#1)]
- [!code-csharp[Trin_SimpleExtensibilityInterface#1](../vsto/codesnippet/CSharp/Trin_SimpleExtensibilityInterface/ThisAddIn.cs#1)]  
+  [!code-vb[Trin_SimpleExtensibilityInterface#1](../vsto/codesnippet/VisualBasic/Trin_SimpleExtensibilityInterface/ThisAddIn.vb#1)]
+  [!code-csharp[Trin_SimpleExtensibilityInterface#1](../vsto/codesnippet/CSharp/Trin_SimpleExtensibilityInterface/ThisAddIn.cs#1)]  
   
- For more information about implementing <xref:Microsoft.Office.Core.ICustomTaskPaneConsumer>, see [Create custom task panes in the 2007 Office system](http://msdn.microsoft.com/256313db-18cc-496c-a961-381ed9ca94be) in the Microsoft Office documentation.  
+  For more information about implementing <xref:Microsoft.Office.Core.ICustomTaskPaneConsumer>, see [Create custom task panes in the 2007 Office system](/previous-versions/office/developer/office-2007/aa338197(v=office.12)) in the Microsoft Office documentation.  
   
 ### Example of overriding the RequestService method  
  The following code example demonstrates how to override the <xref:Microsoft.Office.Tools.AddInBase.RequestService%2A> method to return an instance of the `TaskPaneHelper` class from the previous code example. It checks the value of the *serviceGuid* parameter to determine which interface is being requested, and then returns an object that implements that interface.  

@@ -23,15 +23,15 @@ This method retrieves the exception associated with an object, if any.
   
 ```cpp  
 HRESULT GetExceptionObjectAndType(  
-   IDebugObject** ppException,  
-   IDebugField**  ppField  
+   IDebugObject** ppException,  
+   IDebugField**  ppField  
 );  
 ```  
   
 ```csharp  
 int GetExceptionObjectAndType(  
-   out IDebugObject ppException,  
-   out IDebugField  ppField  
+   out IDebugObject ppException,  
+   out IDebugField  ppField  
 );  
 ```  
   

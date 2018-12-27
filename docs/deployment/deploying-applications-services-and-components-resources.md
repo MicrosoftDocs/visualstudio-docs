@@ -1,6 +1,6 @@
 ---
-title: "Deployment overview - Visual Studio | Microsoft Docs"
-ms.custom: ""
+title: "Deployment overview | Microsoft Docs"
+ms.custom: "seodec18"
 ms.date: 06/22/2018
 ms.technology: vs-ide-deployment
 ms.topic: "overview"
@@ -37,9 +37,9 @@ On the **Publish** tab, you can select an existing publish profile, import an ex
 
 ## Azure App Service
 
-[Azure App Service](/azure/app-service/app-service-web-overview) helps developers quickly create a variety of scalable web applications and services without maintaining infrastructure.
+[Azure App Service](/azure/app-service/app-service-web-overview) and [App Service on Linux](/azure/app-service/containers/app-service-linux-intro) help developers quickly create a variety of scalable web applications and services without maintaining infrastructure.
 
-You determine how much computing power an APp Service has by choosing a [pricing tier or plan](/azure/app-service/azure-web-sites-web-hosting-plans-in-depth-overview) for the containing App Service. You can have multiple Web apps (and other app types) share the same App Service without changing the pricing tier. For example, you can host development, staging, and production Web apps together on the same App Service.
+You determine how much computing power an App Service has by choosing a [pricing tier or plan](/azure/app-service/azure-web-sites-web-hosting-plans-in-depth-overview) for the containing App Service. You can have multiple Web apps (and other app types) share the same App Service without changing the pricing tier. For example, you can host development, staging, and production Web apps together on the same App Service.
 
 An App Service runs on cloud-hosted virtual machines in Azure, but those virtual machines are managed for you. Each app in an App Service will be assigned a unique \*.azurewebsites.net URL; all pricing tiers other than Free allow assigning custom domain names to the site.
 
@@ -52,7 +52,7 @@ An App Service runs on cloud-hosted virtual machines in Azure, but those virtual
 
 > If you want to use Azure App Service in your own datacenter or other on-premises computers, you can do so using the [Azure Stack](https://azure.microsoft.com/overview/azure-stack/).
 
-For more information on publishing to App Service, see [Quickstart - Publish to Azure App Service](quickstart-deploy-to-azure.md).
+For more information on publishing to App Service, see [Quickstart - Publish to Azure App Service](quickstart-deploy-to-azure.md) and [Quickstart - Publish ASP.NET Core to Linux](quickstart-deploy-to-linux.md).
 
 ## Azure Virtual Machines
 
@@ -117,4 +117,4 @@ Tutorials:
 - [Deployment in Visual C++](/cpp/ide/deployment-in-visual-cpp)
 - [Deploy UWP apps](/windows/uwp/packaging/packaging-uwp-apps?toc=/visualstudio/deployment/toc.json&bc=/visualstudio/deployment/_breadcrumb/toc.json)
 - [Publish a Node.js app to Azure using Web Deploy](https://github.com/Microsoft/nodejstools/wiki/Publish-to-Azure-Website-using-Web-Deploy?toc=/visualstudio/deployment/toc.json&bc=/visualstudio/deployment/_breadcrumb/toc.json)
-- [Publish a Python app to Azure App Service](/visualstudio/python/publishing-python-web-applications-to-azure-from-visual-studio?toc=/visualstudio/deployment/toc.json&bc=/visualstudio/deployment/_breadcrumb/toc.json)
+- [Publish a Python app to Azure App Service](../python/publishing-python-web-applications-to-azure-from-visual-studio.md?toc=/visualstudio/deployment/toc.json&bc=/visualstudio/deployment/_breadcrumb/toc.json)

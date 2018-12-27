@@ -23,15 +23,15 @@ ms.workload:
   
  In addition, the project might no longer compile. Some features of Office projects have different programming models for different versions of the .NET Framework. When the target framework of an Office project is changed to the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later from an earlier version of the .NET Framework, you must make the following code changes to the project:  
   
--   [Update Excel and Word projects that you migrate to the .NET Framework 4 or the .NET Framework 4.5](../vsto/updating-excel-and-word-projects-that-you-migrate-to-the-dotnet-framework-4-or-the-dotnet-framework-4-5.md)  
+- [Update Excel and Word projects that you migrate to the .NET Framework 4 or the .NET Framework 4.5](../vsto/updating-excel-and-word-projects-that-you-migrate-to-the-dotnet-framework-4-or-the-dotnet-framework-4-5.md)  
   
--   [Update Ribbon customizations in Office projects that you migrate to the .NET Framework 4 or the .NET Framework 4.5](../vsto/updating-ribbon-customizations-in-office-projects-that-you-migrate-to-the-dotnet-framework-4-or-the-dotnet-framework-4-5.md)  
+- [Update Ribbon customizations in Office projects that you migrate to the .NET Framework 4 or the .NET Framework 4.5](/visualstudio/vsto/update-ribbon-customizations-in-office-projects-to-migrate-to-dotnet-framework-4-or-4-5)  
   
--   [Update form regions in Outlook projects that you migrate to the .NET Framework 4 or the .NET Framework 4.5](../vsto/updating-form-regions-in-outlook-projects-that-you-migrate-to-the-dotnet-framework-4-or-the-dotnet-framework-4-5.md)  
+- [Update form regions in Outlook projects that you migrate to the .NET Framework 4 or the .NET Framework 4.5](../vsto/updating-form-regions-in-outlook-projects-that-you-migrate-to-the-dotnet-framework-4-or-the-dotnet-framework-4-5.md)  
   
- The target framework of an Office project changes when you upgrade that project from an earlier version of Visual Studio. For more information, see [Upgrade and migrate Office solutions](../vsto/upgrading-and-migrating-office-solutions.md).  
+  The target framework of an Office project changes when you upgrade that project from an earlier version of Visual Studio. For more information, see [Upgrade and migrate Office solutions](../vsto/upgrading-and-migrating-office-solutions.md).  
   
- For more information about why some features in Office projects have a different programming model when you target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later, see [Changes to the design of Office projects that target the .NET Framework 4 or the .NET Framework 4.5](../vsto/changes-to-the-design-of-office-projects-that-target-the-dotnet-framework-4-or-the-dotnet-framework-4-5.md) and [Visual Studio Tools for Office runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md).  
+  For more information about why some features in Office projects have a different programming model when you target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later, see [Changes to the design of Office projects that target the .NET Framework 4 or the .NET Framework 4.5](../vsto/changes-to-the-design-of-office-projects-that-target-the-dotnet-framework-4-or-the-dotnet-framework-4-5.md) and [Visual Studio Tools for Office runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md).  
   
 ## See also  
  [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)   

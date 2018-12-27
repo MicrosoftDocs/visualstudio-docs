@@ -1,6 +1,6 @@
 ---
-title: Navigate code in Visual Studio
-ms.date: 09/26/2017
+title: Code navigation commands
+ms.date: 08/14/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
@@ -59,10 +59,10 @@ To hide the navigation bar, change the **Navigation bar** option in the **Text E
 
 Finds all the references to the selected element in the solution. You can use this to check possible side-effects of a large refactoring, or to verify "dead" code. Press **F8** to jump between results. For more information, see [Find references in your code](finding-references.md).
 
-Input        | Function
+Input | Function
 ------------ | ---
 **Keyboard** | Place your text cursor somewhere inside the type name, and press **Shift**+**F12**
-**Mouse**    | Select **Find All References** from the context menu
+**Mouse** | Select **Find All References** from the context menu
 
 ## Reference highlighting
 
@@ -74,15 +74,23 @@ Go To has the following commands, which are available in the **Edit** menu under
 
 - **Go To Line** (**Ctrl**+**G**): Move to the specified line number in the active document.
 
-- **Go to All** (**Ctrl**+**T** or **Ctrl**+**,**): Move to the specified line, type, file, member, or symbol.
+- **Go To All** (**Ctrl**+**T** or **Ctrl**+**,**): Move to the specified line, type, file, member, or symbol.
 
-- **Go to File** (**Ctrl**+**1**, **Ctrl**+**F**): Move to the specified file in the solution.
+- **Go To File** (**Ctrl**+**1**, **Ctrl**+**F**): Move to the specified file in the solution.
 
-- **Go to Type** (**Ctrl**+**1**, **Ctrl**+**T**): Move to the specified type in the solution.
+- **Go To Recent File** (**Ctrl**+**1**, **Ctrl**+**R**): Move to the specified, recently visited file in the solution (new in Visual Studio 2017 version 15.8).
 
-- **Go to Member** (**Ctrl**+**1**, **Ctrl**+**M**): Move to the specified member in the solution.
+- **Go To Type** (**Ctrl**+**1**, **Ctrl**+**T**): Move to the specified type in the solution.
 
-- **Go to Symbol** (**Ctrl**+**1**, **Ctrl**+**S**): Move to the specified symbol in the solution.
+- **Go To Member** (**Ctrl**+**1**, **Ctrl**+**M**): Move to the specified member in the solution.
+
+- **Go To Symbol** (**Ctrl**+**1**, **Ctrl**+**S**): Move to the specified symbol in the solution.
+
+In Visual Studio 2017 version 15.8 and later, the following **Go To** navigation commands are also available:
+
+- **Go To Next Issue in File** (**Alt**+**PgDn**) and **Go To Previous Issue in File** (**Alt**+**PgUp**)
+
+- **Go To Last Edit Location** (**Ctrl**+**Shift**+**Backspace**)
 
 See more about these commands in the [Find code using Go To commands](../ide/go-to.md) topic.
 
@@ -90,37 +98,37 @@ See more about these commands in the [Find code using Go To commands](../ide/go-
 
 Go To Definition takes you to the definition of the selected element. For more information, see [Go To Definition and Peek Definition](../ide/go-to-and-peek-definition.md).
 
-Input        | Function
+Input | Function
 ------------ | ---
 **Keyboard** | Place your text cursor somewhere inside the type name, and press **F12**
-**Mouse**    | Right-click on the type name and select **Go To Definition**  OR  press **Ctrl** and click on the type name (new for Visual Studio 2017 version 15.4)
+**Mouse** | Right-click on the type name and select **Go To Definition**  OR  press **Ctrl** and click on the type name (new for Visual Studio 2017 version 15.4)
 
 ## Peek Definition
 
 Peek Definition displays the definition of the selected element in a window without navigating away from your current location in the code editor. For more information, see [How to: View and edit code by using Peek Definition](../ide/how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md) and [Go To Definition and Peek Definition](../ide/go-to-and-peek-definition.md).
 
-Input        | Function
+Input | Function
 ------------ | ---
 **Keyboard** | Place your text cursor somewhere inside the type name, and press **Alt**+**F12**
-**Mouse**    | Right-click on the type name and select **Peek Definition** OR press **Ctrl** and click on the type name (if you have the **Open definition in peek view** option checked)
+**Mouse** | Right-click on the type name and select **Peek Definition** OR press **Ctrl** and click on the type name (if you have the **Open definition in peek view** option checked)
 
 ## Go To Implementation
 
 Using Go To Implementation, you can navigate from a base class or type to its implementations. If there are multiple implementations, you will see them listed in the **Find Symbol Results** window:
 
-Input        | Function
+Input | Function
 ------------ | ---
 **Keyboard** | Place your text cursor somewhere inside the type name, and press **Ctrl**+**F12**
-**Mouse**    | Right-click on the type name and select **Go To Implementation**
+**Mouse** | Right-click on the type name and select **Go To Implementation**
 
 ## Call Hierarchy
 
 You can view calls to and from a method in the [Call Hierarchy window](../ide/reference/call-hierarchy.md):
 
-Input        | Function
+Input | Function
 ------------ | ---
 **Keyboard** | Place your text cursor somewhere inside the type name, and press **Ctrl**+**K**, **Ctrl**+**T**
-**Mouse**    | Right-click on the member name and select **View Call Hierarchy**
+**Mouse** | Right-click on the member name and select **View Call Hierarchy**
 
 ## Next Method and Previous Method commands (Visual Basic)
 

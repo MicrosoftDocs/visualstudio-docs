@@ -1,5 +1,5 @@
 ---
-title: "Expected &#39;]&#39; in regular expression (JavaScript) | Microsoft Docs"
+title: "Expected ']' in regular expression (JavaScript) | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
 ms.prod: "windows-client-threshold"
@@ -21,7 +21,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 ---
-# Expected &#39;]&#39; in regular expression (JavaScript)
+# Expected ']' in regular expression (JavaScript)
 You attempted to create a character class for a regular expression match, but did not include the right bracket. Individual literal character combinations can be assembled into character classes by placing them within brackets. A character class matches any one character it contains. For example, /[abc]/ matches any one of the letters "a", "b", or "c".  
   
 ### To correct this error  
@@ -33,4 +33,4 @@ You attempted to create a character class for a regular expression match, but di
   
 ## See Also  
  [Regular Expression Object](../../javascript/reference/regular-expression-object-javascript.md)   
- [Regular Expression Syntax (JavaScript)](http://msdn.microsoft.com/en-us/ab0766e1-7037-45ed-aa23-706f58358c0e)
+ [Regular Expression Syntax (JavaScript)](https://msdn.microsoft.com/library/1400241x)

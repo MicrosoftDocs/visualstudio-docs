@@ -38,7 +38,7 @@ We'll test two methods of the web part in this example:
 
 -   The `GetAppointmentsForToday` method returns the details of today's appointments.
 
-##  <a name="BKMK_Converting_an_existing_test"></a> Converting an existing test
+##  Convert an existing test
 
 In a typical test of a method in a SharePoint component, the test method creates a temporary site in SharePoint Foundation and adds the SharePoint components to the site that the code under test requires. The test method then creates and exercises an instance of the component. At the end of the test, the site is torn down.
 
@@ -105,11 +105,11 @@ Although this test method does verify that the `ScheduleAppointment` method corr
 
 Microsoft SharePoint emulators give you a set of object and method "doubles" that mimic the behavior of the most common SharePoint APIs. The emulated methods are lightweight implementations of the SharePoint API that do not require SharePoint to run. By using Microsoft Fakes to detour calls to the SharePoint API to the method doubles of SharePoint Emulators, you isolate your tests and make sure that you are testing the code you want. When you call SharePoint methods that are not emulated, you can use Fakes directly to create the desired behavior.
 
-###  <a name="BKMK_Adding_the_Emulators_package_to_a_test_project"></a> Adding the Emulators package to a test project
+###  <a name="BKMK_Adding_the_Emulators_package_to_a_test_project"></a> Add the emulators package to a test project
 
 To add the SharePoint emulators to a test project:
 
-1.  Select the test project in Solution Explorer.
+1.  Select the test project in **Solution Explorer**.
 
 2.  Choose **Manage NuGet Packages** on the shortcut menu.
 
@@ -117,7 +117,7 @@ To add the SharePoint emulators to a test project:
 
 ![Sharepoint Emulators NuGet package](../test/media/ut_emulators_nuget.png)
 
-###  <a name="BKMK__Running_a_test_method_in_the_emulation_context"></a> Running a test method with emulation
+###  <a name="BKMK__Running_a_test_method_in_the_emulation_context"></a> Run a test method with emulation
 
 Installing the package adds references to the required libraries to your projects. To make it easy to use emulators in an existing test class, add the namespaces `Microsoft.SharePoint.Emulators` and `Microsoft.QualityTools.Testing.Emulators`.
 
@@ -149,11 +149,11 @@ public void ScheduleAppointmentReturnsTrueWhenNewAppointmentIsCreated()
 }
 ```
 
-When the test method is executed, the Emulator runtime calls Microsoft Fakes to dynamically inject code into SharePoint methods to divert the calls to these methods to delegates that are declared in Microsoft.SharePoint.Fakes.dll. Microsoft.SharePoint.Emulators.dll implements the delegates for emulated methods, closely mimicking the actual SharePoint behavior. When the test method or the component under test calls a SharePoint method, the behavior that results is that of the emulation.
+When the test method is executed, the Emulator runtime calls Microsoft Fakes to dynamically inject code into SharePoint methods to divert the calls to these methods to delegates that are declared in *Microsoft.SharePoint.Fakes.dll*. *Microsoft.SharePoint.Emulators.dll* implements the delegates for emulated methods, closely mimicking the actual SharePoint behavior. When the test method or the component under test calls a SharePoint method, the behavior that results is that of the emulation.
 
 ![Emulator execution flow](../test/media/ut_emulators_flowchart.png)
 
-##  <a name="BKMK_Creating_dual_use_classes_and_methods"></a> Creating dual-use classes and methods
+##  Create dual-use classes and methods
 
 To create methods that can be used for both integration tests against the real SharePoint API and isolated unit tests that use emulators, use the overloaded constructor `SharePointEmulationScope(EmulationMode)` to wrap your test method code. The two values of the `EmulationMode` enum specify whether the scope uses emulators (`EmulationMode.Enabled`) or whether the scope uses the SharePoint API (`EmulationMode.Passthrough`).
 
@@ -188,7 +188,7 @@ public void ScheduleAppointmentReturnsTrueWhenNewAppointmentIsCreated()
 }
 ```
 
-## Using TestInitialize and TestCleanup attributes to create a dual-use test class
+## Use TestInitialize and TestCleanup attributes to create a dual-use test class
 
 If you run all or most of the tests in a class using `SharePointEmulationScope`, you can take advantage of class-level techniques to set the emulation mode.
 
@@ -253,7 +253,7 @@ namspace MySPAppTests
 }
 ```
 
-##  <a name="BKMK_Handling_non_emulated_SharePoint_methods"></a> Handling non-emulated SharePoint methods
+##  Handle non-emulated SharePoint methods
 
 Not all SharePoint types are emulated, and not all methods in some emulated types are emulated. If the code under test calls a SharePoint method that is not emulated, the method throws a `NotSupportedException` exception. When an exception occurs, you add a Fakes shim for the SharePoint method.
 
@@ -261,11 +261,11 @@ Not all SharePoint types are emulated, and not all methods in some emulated type
 
 To explicitly call Microsoft Fakes shims:
 
-1.  If you want to shim a SharePoint class that is not emulated, edit the Microsoft.SharePoint.fakes file and add the class to the list of shimmed classes. See the [Configuring code generation of stubs and shims](http://msdn.microsoft.com/library/hh708916.aspx#bkmk_configuring_code_generation_of_stubs) section of [Code generation, compilation, and naming conventions in Microsoft Fakes](../test/code-generation-compilation-and-naming-conventions-in-microsoft-fakes.md).
+1.  If you want to shim a SharePoint class that is not emulated, edit the *Microsoft.SharePoint.fakes* file and add the class to the list of shimmed classes. See the [Configure code generation of stubs](code-generation-compilation-and-naming-conventions-in-microsoft-fakes.md#configure-code-generation-of-stubs) section of [Code generation, compilation, and naming conventions in Microsoft Fakes](../test/code-generation-compilation-and-naming-conventions-in-microsoft-fakes.md).
 
      ![Fakes folder in Solution Explorer](../test/media/ut_emulators_fakesfilefolder.png)
 
-2.  Rebuild the test project at least once after you have installed the Microsoft SharePoint Emulators package and if you have edited the Microsoft.SharePoint.Fakes file. Building the project creates and populates a **FakesAssembly** folder in your on-disk project root folder.
+2.  Rebuild the test project at least once after you have installed the Microsoft SharePoint Emulators package and if you have edited the *Microsoft.SharePoint.Fakes* file. Building the project creates and populates a **FakesAssembly** folder in your on-disk project root folder.
 
      ![FakesAssembly folder](../test/media/ut_emulators_fakesassemblyfolder.png)
 
@@ -275,7 +275,7 @@ To explicitly call Microsoft Fakes shims:
 
 **Implementing the shim delegate for a SharePoint method**
 
-In our example project, the `GetAppointmentsForToday` method calls the [SPList.GetItems(SPQuery)](http://msdn.microsoft.com/library/ms457534.aspx) SharePoint API method.
+In our example project, the `GetAppointmentsForToday` method calls the [SPList.GetItems(SPQuery)](xref:Microsoft.SharePoint.SPList.GetItems%2A) SharePoint API method.
 
 ```csharp
 // method under test
@@ -341,7 +341,7 @@ public void GetAppointmentsForTodayReturnsOnlyTodaysAppointments()
 
 In this method, we first test that emulation is enabled. If it is, we create a Fakes shim object for our `SPList` list and then create and assign a method to its `GetItemsSPQuery` delegate. The delegate uses the Fakes `Bind` method to add the correct list item to the `ShimSPListItemCollection` that is returned to the caller.
 
-##  <a name="BKMK_Writing_emulation_tests_from_scratch__and_a_summary"></a> Writing emulation tests from scratch, and a summary
+##  Write emulation tests from scratch, and a summary
 
 Although the techniques to create emulation and dual-use tests that are described in the previous sections assume that you are converting existing tests, you can also use the techniques to write tests from scratch. The following list summarizes these techniques:
 
@@ -479,70 +479,70 @@ namspace MySPAppTests
 
 ##  <a name="BKMK_Emulated_SharePoint_types"></a> Emulated SharePoint types
 
-[Microsoft.SharePoint.SPField](http://msdn.microsoft.com/library/Microsoft.SharePoint.SPField)
+ <xref:Microsoft.SharePoint.SPField?displayProperty=nameWithType>
 
- [Microsoft.SharePoint.SPFieldIndex](http://msdn.microsoft.com/library/Microsoft.SharePoint.SPFieldIndex)
+ <xref:Microsoft.SharePoint.SPFieldIndex?displayProperty=nameWithType>
 
- [Microsoft.SharePoint.SPFieldIndexCollection](http://msdn.microsoft.com/library/Microsoft.SharePoint.SPFieldIndexCollection)
+ <xref:Microsoft.SharePoint.SPFieldIndexCollection?displayProperty=nameWithType>
 
- [Microsoft.SharePoint.SPFieldLink](http://msdn.microsoft.com/library/Microsoft.SharePoint.SPFieldLink)
+ <xref:Microsoft.SharePoint.SPFieldLink?displayProperty=nameWithType>
 
- [Microsoft.SharePoint.SPFieldLinkCollection](http://msdn.microsoft.com/library/Microsoft.SharePoint.SPFieldLinkCollection)
+ <xref:Microsoft.SharePoint.SPFieldLinkCollection?displayProperty=nameWithType>
 
- [Microsoft.SharePoint.SPFieldUrlValue](http://msdn.microsoft.com/library/Microsoft.SharePoint.SPFieldUrlValue)
+ <xref:Microsoft.SharePoint.SPFieldUrlValue?displayProperty=nameWithType>
 
- [Microsoft.SharePoint.SPFile](http://msdn.microsoft.com/library/Microsoft.SharePoint.SPFile)
+ <xref:Microsoft.SharePoint.SPFile?displayProperty=nameWithType>
 
- [Microsoft.SharePoint.SPFileCollection](http://msdn.microsoft.com/library/Microsoft.SharePoint.SPFileCollection)
+ <xref:Microsoft.SharePoint.SPFileCollection?displayProperty=nameWithType>
 
- [Microsoft.SharePoint.SPFolder](http://msdn.microsoft.com/library/Microsoft.SharePoint.SPFolder)
+ <xref:Microsoft.SharePoint.SPFolder?displayProperty=nameWithType>
 
- [Microsoft.SharePoint.SPFolderCollection](http://msdn.microsoft.com/library/Microsoft.SharePoint.SPFolderCollection)
+ <xref:Microsoft.SharePoint.SPFolderCollection?displayProperty=nameWithType>
 
- [Microsoft.SharePoint.SPItem](http://msdn.microsoft.com/library/Microsoft.SharePoint.SPItem)
+ <xref:Microsoft.SharePoint.SPItem?displayProperty=nameWithType>
 
- [Microsoft.SharePoint.SPItemEventDataCollection](http://msdn.microsoft.com/library/Microsoft.SharePoint.SPItemEventDataCollection)
+ <xref:Microsoft.SharePoint.SPItemEventDataCollection?displayProperty=nameWithType>
 
- [Microsoft.SharePoint.SPItemEventProperties](http://msdn.microsoft.com/library/Microsoft.SharePoint.SPItemEventProperties)
+ <xref:Microsoft.SharePoint.SPItemEventProperties?displayProperty=nameWithType>
 
- [Microsoft.SharePoint.SPList](http://msdn.microsoft.com/library/Microsoft.SharePoint.SPList)
+ <xref:Microsoft.SharePoint.SPList?displayProperty=nameWithType>
 
- [Microsoft.SharePoint.SPListCollection](http://msdn.microsoft.com/library/Microsoft.SharePoint.SPListCollection)
+ <xref:Microsoft.SharePoint.SPListCollection?displayProperty=nameWithType>
 
- [Microsoft.SharePoint.SPListEventProperties](http://msdn.microsoft.com/library/Microsoft.SharePoint.SPListEventProperties)
+ <xref:Microsoft.SharePoint.SPListEventProperties?displayProperty=nameWithType>
 
- [Microsoft.SharePoint.SPListItem](http://msdn.microsoft.com/library/Microsoft.SharePoint.SPListItem)
+ <xref:Microsoft.SharePoint.SPListItem?displayProperty=nameWithType>
 
- [Microsoft.SharePoint.SPListItemCollection](http://msdn.microsoft.com/library/Microsoft.SharePoint.SPListItemCollection)
+ <xref:Microsoft.SharePoint.SPListItemCollection?displayProperty=nameWithType>
 
- [Microsoft.SharePoint.SPQuery](http://msdn.microsoft.com/library/Microsoft.SharePoint.SPQuery)
+ <xref:Microsoft.SharePoint.SPQuery?displayProperty=nameWithType>
 
- [Microsoft.SharePoint.SPRoleAssignment](http://msdn.microsoft.com/library/Microsoft.SharePoint.SPRoleAssignment)
+ <xref:Microsoft.SharePoint.SPRoleAssignment?displayProperty=nameWithType>
 
- [Microsoft.SharePoint.SPRoleAssignmentCollection](http://msdn.microsoft.com/library/Microsoft.SharePoint.SPRoleAssignmentCollection)
+ <xref:Microsoft.SharePoint.SPRoleAssignmentCollection?displayProperty=nameWithType>
 
- [Microsoft.SharePoint.SPSecurableObject](http://msdn.microsoft.com/library/Microsoft.SharePoint.SPSecurableObject)
+ <xref:Microsoft.SharePoint.SPSecurableObject?displayProperty=nameWithType>
 
- [Microsoft.SharePoint.SPSecurity](http://msdn.microsoft.com/library/Microsoft.SharePoint.SPSecurity)
+ <xref:Microsoft.SharePoint.SPSecurity?displayProperty=nameWithType>
 
- [Microsoft.SharePoint.SPSite](http://msdn.microsoft.com/library/Microsoft.SharePoint.SPSite)
+ <xref:Microsoft.SharePoint.SPSite?displayProperty=nameWithType>
 
- [Microsoft.SharePoint.SPUser](http://msdn.microsoft.com/library/Microsoft.SharePoint.SPUser)
+ <xref:Microsoft.SharePoint.SPUser?displayProperty=nameWithType>
 
- [Microsoft.SharePoint.SPUserCollection](http://msdn.microsoft.com/library/Microsoft.SharePoint.SPUserCollection)
+ <xref:Microsoft.SharePoint.SPUserCollection?displayProperty=nameWithType>
 
- [Microsoft.SharePoint.SPView](http://msdn.microsoft.com/library/Microsoft.SharePoint.SPView)
+ <xref:Microsoft.SharePoint.SPView?displayProperty=nameWithType>
 
- [Microsoft.SharePoint.SPViewCollection](http://msdn.microsoft.com/library/Microsoft.SharePoint.SPViewCollection)
+ <xref:Microsoft.SharePoint.SPViewCollection?displayProperty=nameWithType>
 
- [Microsoft.SharePoint.SPViewContext](http://msdn.microsoft.com/library/Microsoft.SharePoint.SPViewContext)
+ <xref:Microsoft.SharePoint.SPViewContext?displayProperty=nameWithType>
 
- [Microsoft.SharePoint.SPWeb](http://msdn.microsoft.com/library/Microsoft.SharePoint.SPWeb)
+ <xref:Microsoft.SharePoint.SPWeb?displayProperty=nameWithType>
 
- [Microsoft.SharePoint.SPWebCollection](http://msdn.microsoft.com/library/Microsoft.SharePoint.SPWebCollection)
+ <xref:Microsoft.SharePoint.SPWebCollection?displayProperty=nameWithType>
 
 ## See also
 
-- [Unit Test Your Code](../test/unit-test-your-code.md)
-- [Testing SharePoint 2010 Applications with Coded UI Tests](../test/testing-sharepoint-2010-applications-with-coded-ui-tests.md)
-- [Developing SharePoint Solutions](../sharepoint/developing-sharepoint-solutions.md)
+- [Unit test your code](../test/unit-test-your-code.md)
+- [Test SharePoint 2010 applications with coded UI tests](../test/testing-sharepoint-2010-applications-with-coded-ui-tests.md)
+- [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)

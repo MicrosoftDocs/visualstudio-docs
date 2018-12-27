@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "automating Excel"
   - "host items [Office development in Visual Studio], Excel"
   - "controls [Office development in Visual Studio], Excel host controls"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

@@ -22,7 +22,7 @@ Performs stack unwinding and returns results in a stack walk frame interface.
   
 ```C++  
 HRESULT execute (   
-   IDiaStackWalkFrame* frame  
+   IDiaStackWalkFrame* frame  
 );  
 ```  
   

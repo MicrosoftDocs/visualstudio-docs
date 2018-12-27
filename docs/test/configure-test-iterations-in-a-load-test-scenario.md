@@ -1,5 +1,5 @@
 ---
-title: "Configuring Test Iterations for load testing in Visual Studio"
+title: "Configuring Test Iterations for load testing"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -17,6 +17,8 @@ ms.technology: vs-ide-test
 
 To configure test iteration settings, edit a load test scenario using the Load Test Editor and the **Properties** window. By default, a load test scenario is set up without specifying maximum test iterations. You have the option to configure the maximum number of iterations in the scenario and how long to pause between them.
 
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
+
 ## Specify the maximum test iterations for a scenario
 
 You can specify the maximum number of times that you want your tests to run for a scenario by using the Load Test Editor to change the **Maximum Test Iterations** property in the **Properties** window.
@@ -33,7 +35,7 @@ The **Maximum Test Iterations** property controls the maximum number of test ite
  When the scenario iteration count is met, the scenario will stop running, but any other active scenarios will continue to run.
 
 > [!NOTE]
-> A related property is the **Unique** property on a Web test data source, which moves sequentially through the data, row-by-row, but only one time for each record. For more information, see [Add a data source to a web performance test](../test/add-a-data-source-to-a-web-performance-test.md).
+> A related property is the **Unique** property on a web test data source, which moves sequentially through the data, row-by-row, but only one time for each record. For more information, see [Add a data source to a web performance test](../test/add-a-data-source-to-a-web-performance-test.md).
 
  The **Maximum Test Iterations** property is useful for a variety of situations. Some load testers prefer to conduct iteration-based testing, whereas other load testers prefer to conduct duration-based testing.
 

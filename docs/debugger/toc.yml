@@ -1,29 +1,39 @@
 - name: Debugger documentation
   href: index.md
 - name: Overview
-  href: debugger-overview.md
+  items:
+  - name: "What is debugging?"
+    href: what-is-debugging.md
+  - name: Fix bugs by writing better C# code
+    href: write-better-code-with-visual-studio.md
 - name: Quickstarts
   items:
   - name: First look at the debugger
     href: debugger-feature-tour.md
-  - name: Debug a managed app
+  - name: Debug a C# or Visual Basic app
     href: quickstart-debug-with-managed.md
-  - name: Debug a native app
+  - name: Debug a C++ app
     href: quickstart-debug-with-cplusplus.md
   - name: Debug an ASP.NET app
     href: quickstart-debug-aspnet.md
 - name: Tutorials
   items:
-  - name: Learn to debug using Visual Studio
-    href: getting-started-with-the-debugger.md
+  - name: Learn to debug C#
+    href: /visualstudio/get-started/csharp/tutorial-debugger?toc=/visualstudio/debugger/toc.json
+  - name: Learn to debug C++
+    href: getting-started-with-the-debugger-cpp.md
+  - name: Learn to debug Visual Basic
+    href: /visualstudio/get-started/visual-basic/tutorial-debugger?toc=/visualstudio/debugger/toc.json
   - name: Running Python code in the debugger...
     href: ../python/tutorial-working-with-python-in-visual-studio-step-04-debugging.md
   - name: Debug a live Azure app
     href: debug-live-azure-applications.md
-  - name: Debug managed and native code
+  - name: Debug both C# and C++ code
     href: how-to-debug-managed-and-native-code.md
-  - name: View snapshots using IntelliTrace step-back
-    href: how-to-use-intellitrace-step-back.md
+  - name: Inspect previous app states
+    href: view-historical-application-state.md
+  - name: Debugging for absolute beginners
+    href: debugging-absolute-beginners.md
 - name: How-to guides
   items:
   - name: Navigate through code with the debugger
@@ -98,15 +108,13 @@
       items:
       - name: Use Edit and Continue (C#)
         href: how-to-use-edit-and-continue-csharp.md
-      - name: Supported Code Changes (C#)
+      - name: Supported Code Changes
         href: supported-code-changes-csharp.md
     - name: Edit and Continue (Visual Basic)
       href: edit-and-continue-visual-basic.md
       items:
-      - name: apply edits in break mode with Edit and Continue
+      - name: Apply edits in break mode with Edit and Continue
         href: how-to-apply-edits-in-break-mode-with-edit-and-continue.md
-      - name: Unsupported edits in Visual Basic Edit and Continue
-        href: unsupported-edits-in-visual-basic-edit-and-continue.md
     - name: Edit and Continue not supported for F#
       href: edit-and-continue-not-supported-for-f-hash.md
   - name: View debugger data
@@ -121,14 +129,14 @@
   - name: Debugger tips and tricks
     href: debugger-tips-and-tricks.md
     items:
-    - name: Attach to running processes with the Visual Studio debugger
+    - name: Attach to running processes with the debugger
       href: attach-to-running-processes-with-the-visual-studio-debugger.md
     - name: Debug at design time
       href: walkthrough-debugging-at-design-time.md
     - name: Debug using the Just-In-Time Debugger
       href: debug-using-the-just-in-time-debugger.md
       items:
-      - name: Respond to the Just-In-Time Debugger
+      - name: Disable the Just-In-Time Debugger
         href: just-in-time-debugging-in-visual-studio.md
   - name: Configure debugging
     items:
@@ -148,7 +156,7 @@
           href: how-to-write-a-run-time-error-reporting-function.md
         - name: Use run-time checks without the C Run-Time Library
           href: using-run-time-checks-without-the-c-run-time-library.md
-    - name: Specify symbol (.pdb) and source files in the Visual Studio debugger
+    - name: Specify symbol (.pdb) and source files in the debugger
       href: specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md
     - name: Debug user code
       href: just-my-code.md
@@ -236,6 +244,8 @@
       href: remote-debugger-port-assignments.md
     - name: Configure the Windows Firewall for remote debugging
       href: configure-the-windows-firewall-for-remote-debugging.md
+    - name: Unblock the download on Windows Server
+      href: remote-debugging-unblock-file-download.md
     - name: Remote debugging errors and troubleshooting
       href: remote-debugging-errors-and-troubleshooting.md
       items:
@@ -322,7 +332,9 @@
   - name: IntelliTrace
     href: intellitrace.md
     items:
-    - name: "Walkthrough: Using IntelliTrace"
+    - name: View snapshots with IntelliTrace
+      href: view-snapshots-with-intellitrace.md
+    - name: View events with IntelliTrace
       href: walkthrough-using-intellitrace.md
     - name: IntelliTrace features
       href: intellitrace-features.md
@@ -332,10 +344,11 @@
       href: historical-debugging-inspect-app.md
     - name: Diagnose problems after deployment
       href: diagnose-problems-after-deployment.md
-    - name: Using the IntelliTrace stand-alone collector
-      href: using-the-intellitrace-stand-alone-collector.md
-    - name: Using the Microsoft Monitoring Agent
-      href: using-the-microsoft-monitoring-agent.md
+      items:
+      - name: Using the IntelliTrace stand-alone collector
+        href: using-the-intellitrace-stand-alone-collector.md
+      - name: Using the Microsoft Monitoring Agent
+        href: using-the-microsoft-monitoring-agent.md
     - name: Using saved IntelliTrace data
       href: using-saved-intellitrace-data.md
     - name: API Reference for IntelliTrace Extensibility
@@ -361,7 +374,7 @@
       - name: Start a debugging session for a UWP app
         href: start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md
         items:
-        - name: Run UWP apps on a remote machine
+        - name: Debug UWP apps on a remote machine
           href: run-windows-store-apps-on-a-remote-machine.md
         - name: Run UWP apps in the simulator
           href: run-windows-store-apps-in-the-simulator.md
@@ -403,7 +416,7 @@
           href: debugging-preparation-windows-forms-applications.md
         - name: "Debugging preparation: Windows services"
           href: debugging-preparation-windows-services.md
-      - name: Diagnostic Messages in the Output window
+      - name: Send messages to the Output window
         href: diagnostic-messages-in-the-output-window.md
       - name: Assertions in managed code
         href: assertions-in-managed-code.md
@@ -470,7 +483,7 @@
               href: allocation-hooks-and-c-run-time-memory-allocations.md
           - name: Report hook functions
             href: report-hook-functions.md
-        - name: Finding memory leaks using the CRT Library
+        - name: Find memory leaks with the CRT library
           href: finding-memory-leaks-using-the-crt-library.md
       - name: Debugging native code FAQs
         href: debugging-native-code-faqs.md
@@ -826,5 +839,3 @@
   items:
   - name: What's new for the debugger in Visual Studio
     href: what-s-new-for-the-debugger-in-visual-studio.md
-  - name: Debugging for absolute beginners
-    href: debugging-absolute-beginners.md

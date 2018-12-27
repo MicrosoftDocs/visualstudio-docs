@@ -20,18 +20,18 @@ Gets or sets the value of the XML attribute.
 
 ## Syntax
 
-```
+```xaml
 attrib.Value
 ```
 
-## Property Value/Return Value
+## Property value/return value
 
 A <xref:System.String> containing the value of this attribute.
 
 ## Exceptions
 
 |Exception type|Condition|
-|--------------------|---------------|
+| - |---------------|
 |<xref:System.ArgumentNullException>|When setting, the `value` is `null`.|
 
 ## Remarks
@@ -41,5 +41,5 @@ This property is equivalent to the <xref:System.Xml.Linq.XAttribute.Value%2A> pr
 ## See also
 
 - <xref:System.Xml.Linq.XAttribute.Value%2A?displayProperty=fullName>
-- [XAttribute Class Dynamic Properties](../designers/xattribute-class-dynamic-properties.md)
+- [XAttribute class dynamic properties](../designers/xattribute-class-dynamic-properties.md)
 - [Attribute](../designers/attribute-xelement-dynamic-property.md)

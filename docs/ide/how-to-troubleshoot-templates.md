@@ -1,5 +1,5 @@
 ---
-title: Troubleshoot Visual Studio project template and item template loading
+title: Troubleshoot project template and item template loading
 ms.date: 01/02/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general

@@ -22,7 +22,7 @@ Retrieves the access modifier of a class member.
   
 ```C++  
 HRESULT get_access (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

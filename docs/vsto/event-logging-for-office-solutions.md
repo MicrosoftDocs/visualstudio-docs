@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "ClickOnce deployment [Office development in Visual Studio], event viewer"
   - "deploying applications [Office development in Visual Studio], event viewer"
   - "Office development in Visual Studio, event viewer"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -45,33 +45,33 @@ ms.workload:
   
 ### To read the Event Log in Windows 7, Windows Vista, and Windows Server 2008  
   
-1.  In Control Panel, open **Administrative Tools**.  
+1. In Control Panel, open **Administrative Tools**.  
   
-2.  Start **Event Viewer**.  
+2. Start **Event Viewer**.  
   
-3.  Expand **Windows Logs**.  
+3. Expand **Windows Logs**.  
   
-4.  In the list of event logs, select **Application**.  
+4. In the list of event logs, select **Application**.  
   
-5.  On the **Action** menu, click **Filter Current Log**.  
+5. On the **Action** menu, click **Filter Current Log**.  
   
-6.  In the **Event source** list, select **VSTO 4.0**.  
+6. In the **Event source** list, select **VSTO 4.0**.  
   
-7.  For installation events, in the **Event ID** box, type **4096**.  
+7. For installation events, in the **Event ID** box, type **4096**.  
   
-8.  Click **OK** to see the filtered view.  
+8. Click **OK** to see the filtered view.  
   
- The event viewer includes the following information:  
+   The event viewer includes the following information:  
   
--   The location of the deployment manifest for the solution.  
+- The location of the deployment manifest for the solution.  
   
--   A message that describes the cause of the error or exception.  
+- A message that describes the cause of the error or exception.  
   
- These exception messages can help you determine the reason for an installation problem, such as an untrusted certificate, an untrusted document location, or an invalid deployment manifest.  
+  These exception messages can help you determine the reason for an installation problem, such as an untrusted certificate, an untrusted document location, or an invalid deployment manifest.  
   
- After an Office solution is uninstalled, the exception messages remain in the event log.  
+  After an Office solution is uninstalled, the exception messages remain in the event log.  
   
- To show or log exception messages when an Office solution is running, see [Debug Office projects](../vsto/debugging-office-projects.md) and [Debug Office projects](../vsto/debugging-office-projects.md).  
+  To show or log exception messages when an Office solution is running, see [Debug Office projects](../vsto/debugging-office-projects.md) and [Debug Office projects](../vsto/debugging-office-projects.md).  
   
 ### Localization  
  The language of the exception message is determined by the Visual Studio Tools for Office runtime language. For instance, if the end-user computer has the Japanese language pack installed, the exception message is written to the event log in Japanese.  

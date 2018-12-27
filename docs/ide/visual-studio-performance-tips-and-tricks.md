@@ -1,10 +1,9 @@
 ---
-title: Visual Studio performance tips and tricks
-ms.date: 08/31/2017
+title: Tips to improve performance
+ms.date: 08/14/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
-ms.assetid: 2fbcb59e-e981-4b40-8b7a-c1140d31ec4b
 author: gewarren
 ms.author: gewarren
 manager: douge
@@ -22,7 +21,7 @@ Visual Studio performance recommendations are intended for low memory situations
 
 If you upgrade your system from a 32-bit version of Windows to a 64-bit version, you expand the amount of virtual memory available to Visual Studio from 2 GB to 4 GB. This enables Visual Studio to handle significantly larger workloads, even though it is 32-bit process.
 
-For more information, see [Memory limits](https://msdn.microsoft.com/library/windows/desktop/aa366778(v=vs.85).aspx#memory_limits) and [Use /LARGEADDRESSAWARE on 64-bit Windows](https://blogs.msdn.microsoft.com/oldnewthing/20050601-24/?p=35483/).
+For more information, see [Memory limits](/windows/desktop/Memory/memory-limits-for-windows-releases#memory_limits) and [Use /LARGEADDRESSAWARE on 64-bit Windows](https://blogs.msdn.microsoft.com/oldnewthing/20050601-24/?p=35483/).
 
 ## Disable automatic file restore
 
@@ -34,7 +33,13 @@ Visual Studio notifies you in a yellow bar when automatic document restore is ca
 
 1. On the **Projects and Solution** > **General** page, deselect **Reopen documents on solution load**.
 
-If you disable automatic file restore, a quick way to navigate to files you want to open is by using [Go To](../ide/go-to.md). Select **Edit** > **Go To** > **Go To All**, or press **Ctrl**+**T**.
+If you disable automatic file restore, a quick way to navigate to files you want to open is by using one of the [Go To](../ide/go-to.md) commands:
+
+- For the general **Go To** functionality, select **Edit** > **Go To** > **Go To All**, or press **Ctrl**+**T**.
+
+- In Visual Studio 2017 version 15.8 and later, you can jump to the last edit location in a solution using **Edit** > **Go To** > **Go To Last Edit Location**, or by pressing **Ctrl**+**Shift**+**Backspace**.
+
+- In Visual Studio 2017 version 15.8 and later, use **Go To Recent File** to see a list of recently visited files in a solution. Select **Edit** > **Go To** > **Go To Recent File**, or press **Ctrl**+**1**, **Ctrl**+**R**.
 
 ## Configure debugging options
 
@@ -62,7 +67,7 @@ If you are typically running low on memory during debugging sessions, you can op
 
     To disable the **Diagnostic Tools**, start a debugging session, choose **Tools** > **Options** > **Enable Diagnostic Tools**, and deselect the option.
 
-    For more information, see [Profiling Tools](../profiling/profiling-tools.md).
+    For more information, see [Profiling Tools](../profiling/profiling-feature-tour.md).
 
 ## Disable tools and extensions
 

@@ -26,35 +26,35 @@ This topic explains how to manually attach the Visual Studio debugger to a scrip
   
 ### To attach to a running process  
   
-1.  On the **Debug** menu, choose **Attach to Process**. (If no project is open, choose **Attach to Process** on the **Tools** menu.)  
+1. On the **Debug** menu, choose **Attach to Process**. (If no project is open, choose **Attach to Process** on the **Tools** menu.)  
   
-2.  In the **Attach to Process** dialog box, look at the **Available Processes** list and find the script process you want to attach to. You can identify script processes by looking at the **Type** column.  
+2. In the **Attach to Process** dialog box, look at the **Available Processes** list and find the script process you want to attach to. You can identify script processes by looking at the **Type** column.  
   
-    1.  If the process you want to debug is running on another computer, you must first select the remote computer.
+   1.  If the process you want to debug is running on another computer, you must first select the remote computer.
   
-    2.  If the process is running under a different user account, select the **Show processes from all users** check box.  
+   2.  If the process is running under a different user account, select the **Show processes from all users** check box.  
   
-    3.  If you are connected through **Remote Desktop Connection**, select the **Show processes in all sessions** check box.  
+   3.  If you are connected through **Remote Desktop Connection**, select the **Show processes in all sessions** check box.  
   
-3.  Click the process you want to attach to.  
+3. Click the process you want to attach to.  
   
-4.  In the **Attach to** box, you should see **Script code** or **Automatic: Script code**. If you see anything else, follow these steps:  
+4. In the **Attach to** box, you should see **Script code** or **Automatic: Script code**. If you see anything else, follow these steps:  
   
-    1.  Click **Select**.  
+   1.  Click **Select**.  
   
-    2.  In the **Select Code Type** dialog box, click **Debug these code types** and select **Script**.  
+   2.  In the **Select Code Type** dialog box, click **Debug these code types** and select **Script**.  
   
-    3.  Click **OK**.  
+   3.  Click **OK**.  
   
-5.  Click **Attach**.  
+5. Click **Attach**.  
   
-     At this point, you might see a warning telling you that script debugging is disabled in Internet Explorer. If that occurs, see [Warning: Script Debugging Disabled](../debugger/warning-script-debugging-disabled.md).  
+    At this point, you might see a warning telling you that script debugging is disabled in Internet Explorer. If that occurs, see [Warning: Script Debugging Disabled](../debugger/warning-script-debugging-disabled.md).  
   
- The **Available Processes** list is displayed automatically when you open the **Processes** dialog box. Processes can start and stop in the background while the dialog box is open. Therefore, the contents might not always be current. You can refresh the list at any time to see the current list of processes by pressing the **Refresh** button.  
+   The **Available Processes** list is displayed automatically when you open the **Processes** dialog box. Processes can start and stop in the background while the dialog box is open. Therefore, the contents might not always be current. You can refresh the list at any time to see the current list of processes by pressing the **Refresh** button.  
   
- You can be attached to multiple programs when you are debugging, but only one program is active in the debugger at any time. You can set the active program in the Debug Location toolbar. For more information, see [How to: Set the Current Process](http://msdn.microsoft.com/en-us/7e1d7fa5-0e40-44cf-8c41-d3dba31c969e).  
+   You can be attached to multiple programs when you are debugging, but only one program is active in the debugger at any time. You can set the active program in the Debug Location toolbar. For more information, see [How to: Set the Current Process](/previous-versions/visualstudio/visual-studio-2010/d5d4sxdw(v=vs.100)).  
   
- All **Debug** menu execution commands affect the active program. You can break any debugged program from the Processes dialog box.See [Using Breakpoints](../debugger/using-breakpoints.md).  
+   All **Debug** menu execution commands affect the active program. You can break any debugged program from the Processes dialog box.See [Using Breakpoints](../debugger/using-breakpoints.md).  
   
 > [!NOTE]
 >  If you try to attach to a process that is owned by an untrusted user account, a security warning dialog confirmation will appear. For more information, see [Security Warning: Attaching to a process owned by an untrusted user can be dangerous. If the following information looks suspicious or you are unsure, do not attach to this process](../debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user.md).  

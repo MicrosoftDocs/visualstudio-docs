@@ -11,8 +11,8 @@ dev_langs:
 helpviewer_keywords: 
   - "form regions [Office development in Visual Studio], custom actions"
   - "custom actions [Office development in Visual Studio]"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -46,7 +46,7 @@ ms.workload:
 |**Title**|Specifies the label of the custom action button.|  
   
 ## Customize a custom action at runtime  
- You can also add behavior to the custom action using code. For example, you can add code that takes the names of e-mail recipients and adds those names as attendees in a new appointment item. To do this, handle the [CustomAction](http://msdn.microsoft.com/library/office/ff862186.aspx) event of the [MailItem object](http://msdn.microsoft.com/library/office/ff861332.aspx).  
+ You can also add behavior to the custom action using code. For example, you can add code that takes the names of e-mail recipients and adds those names as attendees in a new appointment item. To do this, handle the [CustomAction](/office/vba/api/Outlook.MailItem.CustomAction) event of the [MailItem object](/office/vba/api/Outlook.MailItem).  
   
 ## See also  
  [Create Outlook form regions](../vsto/creating-outlook-form-regions.md)   

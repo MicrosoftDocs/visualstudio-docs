@@ -22,7 +22,7 @@ Retrieves a reference to the global scope.
   
 ```C++  
 HRESULT get_globalScope (   
-   IDiaSymbol** pRetVal  
+   IDiaSymbol** pRetVal  
 );  
 ```  
   

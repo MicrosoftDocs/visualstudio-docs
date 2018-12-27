@@ -11,16 +11,17 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# How to: Export a Texture that has Premultiplied Alpha
+# How to: Export a texture that has premultiplied alpha
+
 The Image Content Pipeline can generate premultiplied alpha textures from a source image. These can be simpler to use and more robust than textures that do not contain premultiplied alpha.
 
- This document demonstrates these activities:
+This document demonstrates these activities:
 
 -   Configuring the source image to be processed by the Image Content Pipeline.
 
 -   Configuring the Image Content Pipeline to generate premultiplied alpha.
 
-## Premultiplied Alpha
+## Premultiplied alpha
  Premultiplied alpha offers several advantages over conventional, non-premultiplied alpha, because it better represents the real-world interaction of light with physical materials by separating the texel's color contribution (the color that it adds to the scene) from its translucency (the amount of underlying color that it allows through). Some of the advantages of using premultiplied alpha are:
 
 -   Blending with premultiplied alpha is an associative operation; the result of blending multiple translucent textures is the same, regardless of the order in which the textures are blended.
@@ -33,12 +34,12 @@ The Image Content Pipeline can generate premultiplied alpha textures from a sour
 
 #### To create a texture that uses premultiplied alpha
 
-1.  Begin with a basic texture. Load an existing image file, or create one as described in [How to: Create a Basic Texture](../designers/how-to-create-a-basic-texture.md).
+1. Begin with a basic texture. Load an existing image file, or create one as described in [How to: Create a basic texture](../designers/how-to-create-a-basic-texture.md).
 
-2.  Configure the texture file so that it's processed by the Image Content Pipeline. In **Solution Explorer**, open the shortcut menu for the texture file and then choose **Properties**. On the **Configuration Properties**, **General** page, set the **Item Type** property to **Image Content Pipeline**. Make sure that the **Content** property is set to **Yes** and **Exclude From Build** is set to **No**, and then choose the **Apply** button. The **Image Content Pipeline** configuration property page appears.
+2. Configure the texture file so that it's processed by the Image Content Pipeline. In **Solution Explorer**, open the shortcut menu for the texture file and then choose **Properties**. On the **Configuration Properties** > **General** page, set the **Item Type** property to **Image Content Pipeline**. Make sure that the **Content** property is set to **Yes** and **Exclude From Build** is set to **No**, and then choose the **Apply** button. The **Image Content Pipeline** configuration property page appears.
 
-3.  Configure the Image Content Pipeline to generate premultiplied alpha. On the **Configuration Properties**, **Image Content Pipeline**, **General** page, set the **Convert to pre-multiplied alpha format** property to **Yes (/generatepremultipliedalpha)**.
+3. Configure the Image Content Pipeline to generate premultiplied alpha. On the **Configuration Properties** > **Image Content Pipeline** > **General** page, set the **Convert to pre-multiplied alpha format** property to **Yes (/generatepremultipliedalpha)**.
 
-4.  Choose the **OK** button.
+4. Choose the **OK** button.
 
- When you build the project, the Image Content Pipeline converts the source image from the working format to the output format that you specified—this includes conversion of the image to premultiplied alpha format—and the result is copied to the project's output directory.
+   When you build the project, the Image Content Pipeline converts the source image from the working format to the output format that you specified—this includes conversion of the image to premultiplied alpha format—and the result is copied to the project's output directory.
