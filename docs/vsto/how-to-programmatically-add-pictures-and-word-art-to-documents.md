@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "Word documents, adding Word Art"
   - "graphics, adding to Word documents"
   - "WordArt, adding to documents"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

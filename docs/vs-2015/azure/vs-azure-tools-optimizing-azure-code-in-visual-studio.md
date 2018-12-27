@@ -52,7 +52,7 @@ Place all async operations outside of the [Run()](https://msdn.microsoft.com/lib
 
 The following code snippet demonstrates the code fix for this issue:
 
-```
+```csharp
 public override void Run()
 {
     RunAsync().Wait();
@@ -95,7 +95,7 @@ For enhanced security, Azure Active Directory is replacing ACS authentication wi
 ### Solution
 Use SAS authentication in your apps. The following example shows how to use an existing SAS token to access a service bus namespace or entity.
 
-```
+```csharp
 MessagingFactory listenMF = MessagingFactory.Create(endpoints, new StaticSASTokenProvider(subscriptionToken));
 SubscriptionClient sc = listenMF.CreateSubscriptionClient(topicPath, subscriptionName);
 BrokeredMessage receivedMessage = sc.Receive();
@@ -130,7 +130,7 @@ To improve the performance of the Azure messaging infrastructure, see the design
 
 The following is an example of using **OnMessage** to receive messages.
 
-```
+```csharp
 void ReceiveMessages()
 {
     // Initialize message pump options.
@@ -141,7 +141,7 @@ void ReceiveMessages()
 
     // Start receiving messages.
     QueueClient client = QueueClient.Create("myQueue");
-    client.OnMessage((receivedMessage) => // Initiates the message pump and callback is invoked for each message that is recieved, calling close on the client will stop the pump.
+    client.OnMessage((receivedMessage) => // Initiates the message pump and callback is invoked for each message that is received, calling close on the client will stop the pump.
     {
         // Process the message.
     }, options);
@@ -151,7 +151,7 @@ void ReceiveMessages()
 
 The following is an example of using **Receive** with the default server wait time.
 
-```
+```csharp
 string connectionString =
 CloudConfigurationManager.GetSetting("Microsoft.ServiceBus.ConnectionString");
 
@@ -184,7 +184,7 @@ while (true)
 
 The following is an example of using **Receive** with a non-default server wait time.
 
-```
+```csharp
 while (true)
 {
    BrokeredMessage message = Client.Receive(new TimeSpan(0,1,0));
@@ -242,7 +242,7 @@ Partitioning Service Bus queues and topics increases performance throughput and 
 ### Solution
 The following code snippet shows how to partition messaging entities.
 
-```
+```csharp
 // Create partitioned topic.
 NamespaceManager ns = NamespaceManager.CreateFromConnectionString(myConnectionString);
 TopicDescription td = new TopicDescription(TopicName);
@@ -271,7 +271,7 @@ Remove the statement that sets the start time of the shared access policy. The A
 
 The following code snippet demonstrates the code fix for this issue.
 
-```
+```csharp
 // The shared access policy provides
 // read/write access to the container for 10 hours.
 blobPermissions.SharedAccessPolicies.Add("mypolicy", new SharedAccessBlobPolicy()
@@ -303,7 +303,7 @@ For more information on security management, see the design pattern [Valet Key P
 
 The following is an example of not specifying a Shared Access policy start time.
 
-```
+```csharp
 // The shared access policy provides
 // read/write access to the container for 10 hours.
 blobPermissions.SharedAccessPolicies.Add("mypolicy", new SharedAccessBlobPolicy()
@@ -318,7 +318,7 @@ blobPermissions.SharedAccessPolicies.Add("mypolicy", new SharedAccessBlobPolicy(
 
 The following is an example of specifying a Shared Access policy start time with a policy expiration duration greater than five minutes.
 
-```
+```csharp
 // The shared access policy provides
 // read/write access to the container for 10 hours.
 blobPermissions.SharedAccessPolicies.Add("mypolicy", new SharedAccessBlobPolicy()
@@ -361,7 +361,7 @@ with
 
 Here's an example of how to store the configuration setting in a App.config or Web.config file. Add the settings to the appSettings section of the configuration file. The following is the Web.config file for the previous code example.
 
-```
+```xml
 <appSettings>
     <add key="webpages:Version" value="3.0.0.0" />
     <add key="webpages:Enabled" value="false" />
@@ -402,12 +402,12 @@ Instead of configuring diagnostics settings in your code such as by using the Mi
 Please share your ideas and feedback at [Azure Code Analysis feedback](http://go.microsoft.com/fwlink/?LinkId=403771).
 
 ### Reason
-Before Azure SDK 2.5 (which uses Azure diagnostics 1.3), Azure Diagnostics (WAD) could be configured by using several different methods: adding it to the configuration blob in storage, by using imperative code, declarative configuration, or the default configuration. However, the preferred way to configure diagnostics is to use an XML configuration file (diagnostics.wadcfg or diagnositcs.wadcfgx for SDK 2.5 and later) in the application project. In this approach, the diagnostics.wadcfg file completely defines the configuration and can be updated and redeployed at will. Mixing the use of the diagnostics.wadcfg configuration file with the programmatic methods of setting configurations by using the [DiagnosticMonitor](https://msdn.microsoft.com/library/microsoft.windowsazure.diagnostics.diagnosticmonitor.aspx)or [RoleInstanceDiagnosticManager](https://msdn.microsoft.com/library/microsoft.windowsazure.diagnostics.management.roleinstancediagnosticmanager.aspx)classes can lead to confusion. See [Initialize or Change Azure Diagnostics Configuration](https://msdn.microsoft.com/library/azure/hh411537.aspx) for more information.
+Before Azure SDK 2.5 (which uses Azure diagnostics 1.3), Azure Diagnostics (WAD) could be configured by using several different methods: adding it to the configuration blob in storage, by using imperative code, declarative configuration, or the default configuration. However, the preferred way to configure diagnostics is to use an XML configuration file (diagnostics.wadcfg or diagnostics.wadcfgx for SDK 2.5 and later) in the application project. In this approach, the diagnostics.wadcfg file completely defines the configuration and can be updated and redeployed at will. Mixing the use of the diagnostics.wadcfg configuration file with the programmatic methods of setting configurations by using the [DiagnosticMonitor](https://msdn.microsoft.com/library/microsoft.windowsazure.diagnostics.diagnosticmonitor.aspx)or [RoleInstanceDiagnosticManager](https://msdn.microsoft.com/library/microsoft.windowsazure.diagnostics.management.roleinstancediagnosticmanager.aspx) classes can lead to confusion. See [Initialize or Change Azure Diagnostics Configuration](https://msdn.microsoft.com/library/azure/hh411537.aspx) for more information.
 
 Beginning with WAD 1.3 (included with Azure SDK 2.5), it’s no longer possible to use code to configure diagnostics. As a result, you can only provide the configuration when applying or updating the diagnostics extension.
 
 ### Solution
-Use the diagnostics configuration designer to move diagnostic settings to the diagnostics configuration file (diagnositcs.wadcfg or diagnositcs.wadcfgx for SDK 2.5 and later). It’s also recommended that you install [Azure SDK 2.5](http://go.microsoft.com/fwlink/?LinkId=513188) and use the latest diagnostics feature.
+Use the diagnostics configuration designer to move diagnostic settings to the diagnostics configuration file (diagnostics.wadcfg or diagnostics.wadcfgx for SDK 2.5 and later). It’s also recommended that you install [Azure SDK 2.5](http://go.microsoft.com/fwlink/?LinkId=513188) and use the latest diagnostics feature.
 
 1. On the shortcut menu for the role that you want to configure, choose Properties, and then choose the Configuration tab.
 2. In the **Diagnostics** section, make sure that the **Enable Diagnostics** check box is selected.
@@ -434,7 +434,7 @@ Declare DBContext as a local variable or non-static instance field, use it for a
 
 The following example MVC controller class shows how to use the DBContext object.
 
-```
+```csharp
 public class BlogsController : Controller
     {
         //BloggingContext is a subclass to DbContext

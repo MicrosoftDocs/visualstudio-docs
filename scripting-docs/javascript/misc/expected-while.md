@@ -1,5 +1,5 @@
 ---
-title: "Expected &#39;while&#39; | Microsoft Docs"
+title: "Expected 'while' | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
 ms.prod: "windows-client-threshold"
@@ -21,7 +21,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 ---
-# Expected &#39;while&#39;
+# Expected 'while'
 You did not include the `while` condition in a `do...while` loop. A **do** statement must have a corresponding `while` test at the end of the code block.  
   
 ### To correct this error  
