@@ -1,22 +1,23 @@
 ---
 title: "Learn to debug multithreaded applications"
 description: Debug using the Parallel Stacks and Parallel Watch windows in Visual Studio
+ms.custom: "H1HackMay2017"
 ms.date: "11/16/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
-dev_langs:
+dev_langs: 
   - "CSharp"
   - "VB"
   - "FSharp"
   - "C++"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "multithreaded debugging, tutorial"
   - "tutorials, multithreaded debugging"
 ms.assetid: 62df746b-b0f6-4df4-83cf-b1d9d2e72833
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: douge
-ms.workload:
+ms.workload: 
   - "multiple"
 ---
 # Get started debugging multithreaded applications
@@ -31,25 +32,25 @@ These two topics provide additional information on using other multithreaded deb
 - To use the **Debug Location** toolbar and the **Threads** window, see [Walkthrough: Debug a multithreaded application](../debugger/how-to-use-the-threads-window.md).
 
 - For a sample that uses <xref:System.Threading.Tasks.Task> (managed code) and the concurrency runtime (C++), see [Walkthrough: Debug a parallel application](../debugger/walkthrough-debugging-a-parallel-application.md). For general debugging tips that apply to most multithreaded application types, read both that topic and this one.
-
-You'll first need a multithreaded application project. An example follows.
-
-## Create a multithreaded app project
-
-1.  On the **File** menu, select **New** > **Project**.
-
-     The **New Project** dialog box appears.
-
-2.  Select a language: **Visual C#**, **Visual C++**, or **Visual Basic**.
-
-3.  Under **Windows Desktop**, choose **Console App**.
-
-4.  In the **Name** field, enter MyThreadWalkthroughApp.
-
-5.  Select **OK**.
-
-     A new console project appears. After the project has been created, a source file appears. Depending on the language you have chosen, the source file might be called *Program.cs*, *MyThreadWalkthroughApp.cpp*, or *Module1.vb*.
-
+  
+You'll first need a multithreaded application project. An example follows.  
+  
+## Create a multithreaded app project  
+  
+1.  On the **File** menu, select **New** > **Project**.  
+  
+     The **New Project** dialog box appears.  
+  
+2.  Select a language: **Visual C#**, **Visual C++**, or **Visual Basic**.  
+  
+3.  Under **Windows Desktop**, choose **Console App**.  
+  
+4.  In the **Name** field, enter MyThreadWalkthroughApp.  
+  
+5.  Select **OK**.  
+  
+     A new console project appears. After the project has been created, a source file appears. Depending on the language you have chosen, the source file might be called *Program.cs*, *MyThreadWalkthroughApp.cpp*, or *Module1.vb*.  
+  
 6.  Delete the code that appears in the source file and replace it with the appropriate example code listing below.
 
     ```csharp
@@ -186,52 +187,52 @@ You'll first need a multithreaded application project. An example follows.
         End Sub
     End Class
     ```
-
-7.  On the **File** menu, select **Save All**.
-
-## Debug the multithreaded app
-
-1. In the source code editor, look for one of the following code snippets:
-
-    ```csharp
-    Thread.Sleep(3000);
-    Console.WriteLine();
-    ```
-
-    ```C++
+  
+7.  On the **File** menu, select **Save All**.  
+  
+## Debug the multithreaded app  
+  
+1. In the source code editor, look for one of the following code snippets: 
+  
+    ```csharp  
+    Thread.Sleep(3000);  
+    Console.WriteLine();  
+    ```  
+  
+    ```C++  
     this_thread::sleep_for(chrono::seconds(3));
-    cout << "The function called by the worker thread has ended." << endl;
-    ```
+    cout << "The function called by the worker thread has ended." << endl; 
+    ```  
 
     ```VB
     Thread.Sleep(3000)
     Console.WriteLine()
     ```
 
-1. Left-click in the left gutter of the `Thread.Sleep` or `this_thread::sleep_for` statement to insert a new breakpoint.
-
-    In the gutter, a red circle indicates that a breakpoint is set at this location.
-
-2. On the **Debug** menu, select **Start Debugging** (**F5**).
-
-    Visual Studio builds the solution, the app starts to run with the debugger attached, and then the app stops at the breakpoint.
-
+1. Left-click in the left gutter of the `Thread.Sleep` or `this_thread::sleep_for` statement to insert a new breakpoint.  
+  
+    In the gutter, a red circle indicates that a breakpoint is set at this location. 
+  
+2. On the **Debug** menu, select **Start Debugging** (**F5**).  
+  
+    Visual Studio builds the solution, the app starts to run with the debugger attached, and then the app stops at the breakpoint.  
+  
 3. In the source code editor, locate the line that contains the breakpoint.
-
+  
 ### <a name="ShowThreadsInSource"></a>Discover the thread marker  
 
 1.  In the Debug Toolbar, select the **Show Threads in Source** button ![Show Threads in Source](../debugger/media/dbg-multithreaded-show-threads.png "ThreadMarker").
 
 2. Press **F11** once to advance the debugger one line of code.
-
+  
 3.  Look at the gutter on the left side of the window. On this line, you will see a *thread marker* icon  ![Thread Marker](../debugger/media/dbg-thread-marker.png "ThreadMarker") that resembles two twisted threads. The thread marker indicates that a thread is stopped at this location.
 
-    A thread marker may be partially concealed by a breakpoint.
-
-4.  Hover the pointer over the thread marker. A DataTip appears telling you the name and thread ID number for each stopped thread. In this case, the name is probably `<noname>`.
-
+    A thread marker may be partially concealed by a breakpoint. 
+  
+4.  Hover the pointer over the thread marker. A DataTip appears telling you the name and thread ID number for each stopped thread. In this case, the name is probably `<noname>`. 
+  
 5.  Select the thread marker to see the available options on the shortcut menu.
-
+    
 ### <a name="ParallelStacks"></a>View the thread locations
 
 In the **Parallel Stacks** window, you can switch between a Threads view and (for task-based programming) Tasks view, and you can view call stack information for each thread. In this app, we can use the Threads view.
@@ -241,7 +242,7 @@ In the **Parallel Stacks** window, you can switch between a Threads view and (fo
     ![Parallel Stacks Window](../debugger/media/dbg-multithreaded-parallel-stacks.png "ParallelStacksWindow")
 
     In this example, from left to right we see this information for managed code:
-
+    
     - The Main thread (left side) has stopped on `Thread.Start`, where the stop point is indicated by the thread marker icon ![Thread Marker](../debugger/media/dbg-thread-marker.png "ThreadMarker").
     - Two threads have entered the `ServerClass.InstanceMethod`, one of which is the current thread (yellow arrow), while the other thread has stopped in `Thread.Sleep`.
     - A new thread (on the right) is also starting but is stopped on `ThreadHelper.ThreadStart`.
@@ -269,31 +270,31 @@ In the **Parallel Stacks** window, you can switch between a Threads view and (fo
 
 4. Right-click on one of the rows in the window to see the available options.
 
-### Flag and unflag threads
-You can flag threads to keep track of important threads and ignore the other threads.
-
+### Flag and unflag threads  
+You can flag threads to keep track of important threads and ignore the other threads.  
+  
 1. In the **Parallel Watch** window, hold down the **Shift** key and select multiple rows.
 
 2. Right-click and select **Flag**.
 
     All the selected threads are flagged. Now, you can filter to show only flagged threads.
-
-3.  In the **Parallel Watch** window, select the **Show Only Flagged Threads** button ![Show Flagged Threads](../debugger/media/dbg-threads-show-flagged.png "ThreadMarker").
-
+  
+3.  In the **Parallel Watch** window, select the **Show Only Flagged Threads** button ![Show Flagged Threads](../debugger/media/dbg-threads-show-flagged.png "ThreadMarker").  
+  
     Only the flagged threads appear in the list.
 
     > [!TIP]
     > After you have flagged some threads, you can right-click a line of code in the code editor and choose **Run Flagged Threads to Cursor**. Make sure to choose code that all flagged threads will reach. Visual Studio will pause threads on the selected line of code, making it easier to control the order of execution by [freezing and thawing threads](#bkmk_freeze).
 
 4.  Select the **Show Only Flagged Threads** button again to toggle back to **Show All Threads** mode.
-
+    
 5. To unflag threads, right-click one or more flagged threads in the **Parallel Watch** window and select **Unflag**.
 
-### <a name="bkmk_freeze"></a> Freeze and thaw thread execution
+### <a name="bkmk_freeze"></a> Freeze and thaw thread execution 
 
 > [!TIP]
 > You can freeze and thaw (suspend and resume) threads to control the order in which threads perform work. This can help you resolve concurrency issues such as deadlocks and race conditions.
-
+   
 1.  In the **Parallel Watch** window, with all the rows selected, right-click and select **Freeze**.
 
     In the second column, a pause icon appears for each row. The pause icon indicates that the thread is frozen.
@@ -334,10 +335,10 @@ You can set breakpoints on different conditions, such as the thread name or the 
     So long as the breakpoint condition is unique to the thread, and the debugger doesn't hit any other breakpoints on other threads (you may need to disable them), you can step over code and step into code without switching to other threads.
 
     > [!NOTE]
-    > When you advance the debugger, all threads will run. However, the debugger won't break into code on other threads unless one of the other threads hits a breakpoint.
-
-## See also
-[Debug multithreaded applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)
-[How to: Switch to another thread while debugging](../debugger/how-to-switch-to-another-thread-while-debugging.md)
-[How to: Use the Parallel Stack window](../debugger/using-the-parallel-stacks-window.md)
-[How to: Use the Parallel Watch window](../debugger/how-to-use-the-parallel-watch-window.md)
+    > When you advance the debugger, all threads will run. However, the debugger won't break into code on other threads unless one of the other threads hits a breakpoint. 
+  
+## See also  
+[Debug multithreaded applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)  
+[How to: Switch to another thread while debugging](../debugger/how-to-switch-to-another-thread-while-debugging.md)  
+[How to: Use the Parallel Stack window](../debugger/using-the-parallel-stacks-window.md)  
+[How to: Use the Parallel Watch window](../debugger/how-to-use-the-parallel-watch-window.md)  
