@@ -1,6 +1,5 @@
 ---
 title: "Walkthrough: Capturing Graphics Information | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 48f12f6e-57b4-48ec-a145-89fa71a42424

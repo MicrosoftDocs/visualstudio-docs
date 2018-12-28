@@ -1,6 +1,5 @@
 ---
 title: "How to: Start Spy++ | Microsoft Docs"
-ms.custom: ""
 ms.date: "12/16/2018"
 ms.topic: "conceptual"
 helpviewer_keywords: 

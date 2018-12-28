@@ -1,6 +1,5 @@
 ---
 title: "Step 7: Add multiplication and division problems"
-ms.custom: ""
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
 ms.prod: visual-studio-dev15

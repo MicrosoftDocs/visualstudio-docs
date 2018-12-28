@@ -1,6 +1,5 @@
 ---
 title: "Step 11: Run your program and try other features"
-ms.custom: ""
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
 ms.prod: visual-studio-dev15

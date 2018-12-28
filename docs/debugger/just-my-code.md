@@ -1,6 +1,5 @@
 ---
 title: "Debug user code with Just My Code | Microsoft Docs"
-ms.custom: ""
 ms.date: "10/22/2018"
 ms.topic: "conceptual"
 ms.assetid: 0f0df097-bbaf-46ad-9ad1-ef5f40435079

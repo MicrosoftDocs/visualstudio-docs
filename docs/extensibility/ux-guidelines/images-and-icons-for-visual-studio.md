@@ -1,6 +1,5 @@
 ---
 title: "Images and Icons for Visual Studio | Microsoft Docs"
-ms.custom: ""
 ms.date: "04/26/2017"
 ms.topic: "conceptual"
 ms.assetid: f410325e-9cf2-4f39-b6d7-b672121c2691

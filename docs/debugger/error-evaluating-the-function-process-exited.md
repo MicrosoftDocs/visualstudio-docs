@@ -1,6 +1,5 @@
 ---
 title: "Error: The target process exited with code &#39;code&#39; while evaluating the function &#39;function&#39; | Microsoft Docs"
-ms.custom: ""
 ms.date: "4/06/2018"
 ms.topic: "troubleshooting"
 f1_keywords: 

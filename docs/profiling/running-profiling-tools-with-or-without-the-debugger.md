@@ -1,6 +1,5 @@
 ---
 title: "Run profiling tools with or without the debugger | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"

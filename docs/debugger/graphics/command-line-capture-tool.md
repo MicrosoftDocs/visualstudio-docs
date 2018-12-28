@@ -1,6 +1,5 @@
 ---
 title: "Command-Line Capture Tool | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: db75b3a7-80b2-4a74-91d2-fd6e0f73b45d

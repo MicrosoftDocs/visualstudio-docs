@@ -1,6 +1,5 @@
 ---
 title: "Colors and Styling for Visual Studio | Microsoft Docs"
-ms.custom: ""
 ms.date: "07/31/2017"
 ms.topic: "conceptual"
 ms.assetid: 0e384ea1-4d9e-4307-8884-6e183900732c

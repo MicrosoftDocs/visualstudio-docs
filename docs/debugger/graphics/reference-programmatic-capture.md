@@ -1,6 +1,5 @@
 ---
 title: "Reference (Programmatic Capture) | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: ef60eb8d-1ac2-4e3a-9b4b-f6da0bdd9da8

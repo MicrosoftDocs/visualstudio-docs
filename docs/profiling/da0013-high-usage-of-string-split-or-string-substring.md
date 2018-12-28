@@ -1,6 +1,5 @@
 ---
 title: "DA0013: High usage of String.Split or String.Substring | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"

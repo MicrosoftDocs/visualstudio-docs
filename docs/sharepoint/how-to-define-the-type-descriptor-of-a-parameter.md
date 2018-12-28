@@ -1,6 +1,5 @@
 ---
 title: "How to: Define the Type Descriptor of a Parameter | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: "office-development"
 ms.topic: "conceptual"

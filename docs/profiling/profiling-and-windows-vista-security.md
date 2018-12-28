@@ -1,6 +1,5 @@
 ---
 title: "Profiling and Windows Vista security | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/02/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"

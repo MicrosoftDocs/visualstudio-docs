@@ -1,6 +1,5 @@
 ---
 title: "Walkthrough: Using a Shortcut Key with an Editor Extension | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords: 

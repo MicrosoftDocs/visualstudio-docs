@@ -1,6 +1,5 @@
 ---
 title: "ProjectItem Element (Visual Studio Project Templates) | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: "vs-ide-general"
 ms.topic: "conceptual"

@@ -1,6 +1,5 @@
 ---
 title: "How to: Create Custom Feature and Package Validation Rules for SharePoint Solutions | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: "office-development"
 ms.topic: "conceptual"

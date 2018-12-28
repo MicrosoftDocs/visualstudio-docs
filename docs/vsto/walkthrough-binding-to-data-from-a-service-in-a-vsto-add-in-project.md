@@ -1,6 +1,5 @@
 ---
 title: "Walkthrough: Bind to data from a service in a VSTO add-in project"
-ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: "office-development"
 ms.topic: "conceptual"

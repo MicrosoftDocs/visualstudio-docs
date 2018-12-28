@@ -1,6 +1,5 @@
 ---
 title: "How to: Create a User Control for a SharePoint Application Page or Web Part | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: "office-development"
 ms.topic: "conceptual"

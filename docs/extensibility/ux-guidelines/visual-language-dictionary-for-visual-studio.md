@@ -1,6 +1,5 @@
 ---
 title: "Visual Language Dictionary for Visual Studio | Microsoft Docs"
-ms.custom: ""
 ms.date: "08/04/2017"
 ms.reviewer: "Jamie.Young"
 ms.topic: "conceptual"

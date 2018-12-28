@@ -1,6 +1,5 @@
 ---
 title: "ToggleHUD | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 7261e01d-3c72-46ce-9fb3-5f33b2ddb901

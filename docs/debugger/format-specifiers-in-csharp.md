@@ -1,6 +1,5 @@
 ---
 title: "Format specifiers in the debugger (C#) | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/21/2018"
 ms.topic: "conceptual"
 dev_langs: 

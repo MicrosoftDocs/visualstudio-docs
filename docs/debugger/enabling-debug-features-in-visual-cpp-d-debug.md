@@ -1,6 +1,5 @@
 ---
 title: "Enabling Debug Features in Visual C++ (-D_DEBUG) | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords: 

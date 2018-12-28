@@ -1,6 +1,5 @@
 ---
 title: "Graphics Pipeline Stages | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/09/2017"
 ms.topic: "conceptual"
 f1_keywords: 

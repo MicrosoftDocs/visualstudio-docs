@@ -1,6 +1,5 @@
 ---
 title: "Walkthrough: Simple data binding in VSTO Add-in project"
-ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: "office-development"
 ms.topic: "conceptual"

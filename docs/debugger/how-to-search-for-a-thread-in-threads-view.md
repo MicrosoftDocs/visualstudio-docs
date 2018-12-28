@@ -1,6 +1,5 @@
 ---
 title: "How to: Search for a Thread in Threads View | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords: 

@@ -1,6 +1,5 @@
 ---
 title: "How to: Change the Graphics Diagnostics Playback Machine | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 1b9aa3ea-29a0-4e21-bc57-936f33537b5c

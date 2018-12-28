@@ -1,6 +1,5 @@
 ---
 title: "IDE-Defined Commands for Extending Project Systems | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords: 

@@ -1,6 +1,5 @@
 ---
 title: "Debugging User Interface Reference | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords: 

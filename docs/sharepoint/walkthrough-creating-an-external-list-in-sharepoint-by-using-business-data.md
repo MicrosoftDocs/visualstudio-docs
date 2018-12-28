@@ -1,6 +1,5 @@
 ---
 title: "Walkthrough: Creating an External List in SharePoint by Using Business Data | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: "office-development"
 ms.topic: "conceptual"

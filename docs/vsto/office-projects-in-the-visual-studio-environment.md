@@ -1,6 +1,5 @@
 ---
 title: "Office projects in the Visual Studio environment"
-ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: "office-development"
 ms.topic: "conceptual"

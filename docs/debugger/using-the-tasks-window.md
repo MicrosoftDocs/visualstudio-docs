@@ -1,6 +1,5 @@
 ---
 title: "Using the Tasks Window | Microsoft Docs"
-ms.custom: ""
 ms.date: "03/18/2018"
 ms.topic: "conceptual"
 f1_keywords:

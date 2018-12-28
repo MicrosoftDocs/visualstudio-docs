@@ -1,6 +1,5 @@
 ---
 title: "Error: SQL Can&#39;t Find SSDEBUGPS | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.topic: "troubleshooting"
 f1_keywords: 

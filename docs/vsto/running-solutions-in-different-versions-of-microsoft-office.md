@@ -1,6 +1,5 @@
 ---
 title: "Run solutions in different versions of Microsoft Office"
-ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: "office-development"
 ms.topic: "conceptual"

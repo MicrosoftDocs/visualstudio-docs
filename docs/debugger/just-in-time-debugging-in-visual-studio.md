@@ -1,6 +1,5 @@
 ---
 title: "Disable the Just-In-Time Debugger | Microsoft Docs"
-ms.custom: ""
 ms.date: "05/23/18"
 ms.topic: "troubleshooting"
 helpviewer_keywords:

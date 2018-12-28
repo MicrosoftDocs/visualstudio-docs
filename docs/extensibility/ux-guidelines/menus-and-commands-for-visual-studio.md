@@ -1,6 +1,5 @@
 ---
 title: "Menus and Commands for Visual Studio | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 0a1ed675-2bd1-4603-ba3a-f40dfb5cfb69

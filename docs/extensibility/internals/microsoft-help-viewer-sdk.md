@@ -1,6 +1,5 @@
 ---
 title: "Microsoft Help Viewer SDK | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 620d7dcd-d462-475e-a449-fbfa06ff12c5

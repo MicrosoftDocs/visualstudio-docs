@@ -1,6 +1,5 @@
 ---
 title: "Debug DLL projects | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/06/2018"
 ms.topic: "conceptual"
 dev_langs: 

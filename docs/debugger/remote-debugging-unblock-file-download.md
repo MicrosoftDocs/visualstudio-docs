@@ -1,6 +1,5 @@
 ---
 title: "Unblock the remote tools download"
-ms.custom: ""
 ms.date: "07/19/2018"
 ms.topic: "troubleshooting"
 helpviewer_keywords:

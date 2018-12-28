@@ -1,6 +1,5 @@
 ---
 title: "Starting to Develop Visual Studio Extensions | Microsoft Docs"
-ms.custom: ""
 ms.date: "09/18/2017"
 ms.topic: "conceptual"
 helpviewer_keywords:

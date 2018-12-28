@@ -1,6 +1,5 @@
 ---
 title: "Step 8: Write code for the show a picture button event handler"
-ms.custom: ""
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
 ms.prod: visual-studio-dev15

@@ -1,6 +1,5 @@
 ---
 title: "Locating Visual Studio | Microsoft Docs"
-ms.custom: ""
 ms.date: "08/21/2017"
 ms.topic: "conceptual"
 helpviewer_keywords: 

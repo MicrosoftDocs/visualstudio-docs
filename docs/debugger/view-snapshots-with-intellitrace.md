@@ -1,7 +1,6 @@
 ---
 title: "View snapshots with IntelliTrace"
 description: "Use IntelliTrace step-back to examine the historical application state"
-ms.custom: ""
 ms.date: "09/20/2018"
 ms.topic: "quickstart"
 helpviewer_keywords:

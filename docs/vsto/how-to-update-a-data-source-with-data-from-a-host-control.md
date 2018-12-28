@@ -1,6 +1,5 @@
 ---
 title: "How to: Update a data source with data from a host control"
-ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: "office-development"
 ms.topic: "conceptual"

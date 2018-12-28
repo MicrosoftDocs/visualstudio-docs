@@ -1,6 +1,5 @@
 ---
 title: "Edit and Continue (Visual C++) | Microsoft Docs"
-ms.custom: ""
 ms.date: "05/31/2017"
 ms.topic: "conceptual"
 dev_langs: 

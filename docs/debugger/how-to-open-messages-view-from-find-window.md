@@ -1,6 +1,5 @@
 ---
 title: "How to: Open Messages View from Find Window | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords: 

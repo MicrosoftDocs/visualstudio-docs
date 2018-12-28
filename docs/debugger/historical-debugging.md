@@ -1,6 +1,5 @@
 ---
 title: "Historical Debugging | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 7cc5ddf2-2f7c-4f83-b7ca-58e92e9bfdd2

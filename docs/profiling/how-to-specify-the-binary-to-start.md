@@ -1,6 +1,5 @@
 ---
 title: "How to: Specify the Binary to Start | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"

@@ -1,6 +1,5 @@
 ---
 title: "Architecture of document-Level customizations"
-ms.custom: ""
 ms.date: 02/02/2017
 ms.technology: office-development
 ms.prod: visual-studio-dev15
@@ -146,5 +145,3 @@ ms.workload:
  [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)   
  [Custom document properties overview](../vsto/custom-document-properties-overview.md)   
  [Cached data in document-level customizations](../vsto/cached-data-in-document-level-customizations.md)  
-  
-  

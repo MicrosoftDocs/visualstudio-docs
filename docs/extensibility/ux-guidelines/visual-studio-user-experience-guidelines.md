@@ -1,6 +1,5 @@
 ---
 title: "Visual Studio User Experience Guidelines | Microsoft Docs"
-ms.custom: ""
 ms.date: "10/05/2018"
 ms.topic: "conceptual"
 ms.assetid: 3abbe495-cbbc-4982-a809-38bda34553a7

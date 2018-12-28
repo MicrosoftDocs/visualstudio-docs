@@ -1,6 +1,5 @@
 ---
 title: "Securing ClickOnce Applications | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/17/2017"
 ms.topic: "conceptual"
 dev_langs: 

@@ -1,6 +1,5 @@
 ---
 title: "How to: Add a Dialog box launcher to a Ribbon group"
-ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: "office-development"
 ms.topic: "conceptual"

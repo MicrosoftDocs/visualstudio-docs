@@ -1,6 +1,5 @@
 ---
 title: "Find memory leaks with the CRT Library | Microsoft Docs"
-ms.custom: ""
 ms.date: "10/04/2018"
 ms.topic: "conceptual"
 dev_langs: 

@@ -1,6 +1,5 @@
 ---
 title: "Step 5: Add Enter event handlers for the NumericUpDown controls"
-ms.custom: ""
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
 ms.prod: visual-studio-dev15

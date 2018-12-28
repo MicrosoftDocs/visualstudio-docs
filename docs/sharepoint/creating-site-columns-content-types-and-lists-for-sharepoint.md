@@ -1,6 +1,5 @@
 ---
 title: "Creating Site Columns, Content Types, and Lists for SharePoint | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: "office-development"
 ms.topic: "conceptual"

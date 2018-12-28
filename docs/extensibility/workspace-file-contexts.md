@@ -1,6 +1,5 @@
 ---
 title: "Workspace file contexts in Visual Studio | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/21/2018"
 ms.topic: "conceptual"
 ms.assetid: 7aaa0e65-f492-49ea-a845-35bd14910ca7

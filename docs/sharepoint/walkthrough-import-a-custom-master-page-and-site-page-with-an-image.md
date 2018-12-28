@@ -1,6 +1,5 @@
 ---
 title: "Walkthrough: Import a Custom Master Page and Site Page with an Image | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: "office-development"
 ms.topic: "conceptual"

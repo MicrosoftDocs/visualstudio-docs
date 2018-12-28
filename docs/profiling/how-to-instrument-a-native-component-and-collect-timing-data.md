@@ -1,6 +1,5 @@
 ---
 title: "How to: Instrument a Native Stand-Alone Component and Collect Timing Data with the Profiler from the Command Line | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"

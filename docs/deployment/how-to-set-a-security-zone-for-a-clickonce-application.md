@@ -1,6 +1,5 @@
 ---
 title: "How to: Set a Security Zone for a ClickOnce Application | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs: 

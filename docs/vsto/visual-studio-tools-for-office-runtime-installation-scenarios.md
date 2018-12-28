@@ -1,6 +1,5 @@
 ---
 title: "Visual Studio Tools for Office runtime installation scenarios"
-ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: "office-development"
 ms.topic: "conceptual"

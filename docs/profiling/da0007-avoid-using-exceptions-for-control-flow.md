@@ -1,6 +1,5 @@
 ---
 title: "DA0007: Avoid using exceptions for control flow | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"

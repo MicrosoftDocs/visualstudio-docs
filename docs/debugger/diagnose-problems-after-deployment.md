@@ -1,6 +1,5 @@
 ---
 title: "Diagnose problems after deployment | Microsoft Docs"
-ms.custom: ""
 ms.date: "04/10/2018"
 ms.topic: "conceptual"
 ms.assetid: a3463eab-a352-4d17-8551-adbaad526db0

@@ -1,6 +1,5 @@
 ---
 title: "Enabling a Program to Be Debugged | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords: 

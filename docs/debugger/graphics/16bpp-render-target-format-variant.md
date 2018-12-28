@@ -1,6 +1,5 @@
 ---
 title: "16bpp Render Target Format Variant | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 24b22ad9-5ad0-4161-809a-9b518eb924bf

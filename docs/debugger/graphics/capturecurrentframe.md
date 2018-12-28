@@ -1,6 +1,5 @@
 ---
 title: "CaptureCurrentFrame | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 4509311d-6fe2-4b65-9b4a-ff0522585d6a

@@ -1,6 +1,5 @@
 ---
 title: "AddMessage | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 102a0404-a00c-4566-93f3-01bc8df63280

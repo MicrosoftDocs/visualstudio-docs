@@ -1,6 +1,5 @@
 ---
 title: Deploy to a local folder
-ms.custom: ""
 ms.date: 06/22/2018
 ms.topic: "quickstart"
 helpviewer_keywords:

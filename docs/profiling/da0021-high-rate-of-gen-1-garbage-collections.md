@@ -1,6 +1,5 @@
 ---
 title: "DA0021: High rate of Gen 1 garbage collections | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"

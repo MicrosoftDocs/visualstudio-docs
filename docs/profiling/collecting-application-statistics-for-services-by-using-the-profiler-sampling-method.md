@@ -1,6 +1,5 @@
 ---
 title: "Collecting Application Statistics for Services by Using the Profiler Sampling Method | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
@@ -45,5 +44,3 @@ This section describes the procedures and options for collecting performance sta
   
 ### Analyze sampling data views and reports  
  [Sampling method data views](../profiling/profiler-sampling-method-data-views.md)
-
-  

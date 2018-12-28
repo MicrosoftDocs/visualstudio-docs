@@ -1,6 +1,5 @@
 ---
 title: "Edit and Continue (Visual Basic) | Microsoft Docs"
-ms.custom: ""
 ms.date: "10/11/2017"
 ms.topic: "conceptual"
 dev_langs: 

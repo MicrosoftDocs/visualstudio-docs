@@ -1,6 +1,5 @@
 ---
 title: "How to: Add a Shortcut Menu Item to a SharePoint Project Item Extension | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: "office-development"
 ms.topic: "conceptual"

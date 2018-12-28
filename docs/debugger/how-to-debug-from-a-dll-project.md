@@ -1,6 +1,5 @@
 ---
 title: "How to: Debug from a DLL Project | Microsoft Docs"
-ms.custom: ""
 ms.date: "10/10/2018"
 ms.topic: "conceptual"
 dev_langs: 

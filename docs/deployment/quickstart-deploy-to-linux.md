@@ -1,6 +1,5 @@
 ---
 title: Publish to App Service on Linux
-ms.custom: ""
 ms.date: 07/23/2018
 ms.topic: "quickstart"
 helpviewer_keywords:

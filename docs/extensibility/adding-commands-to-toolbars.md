@@ -1,6 +1,5 @@
 ---
 title: "Adding Commands to Toolbars | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 4f8cfba8-0653-4ccc-a2da-acf064c83aa7

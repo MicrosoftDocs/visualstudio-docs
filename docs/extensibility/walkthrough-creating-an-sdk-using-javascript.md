@@ -1,6 +1,5 @@
 ---
 title: "Walkthrough: Creating an SDK using JavaScript | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: a8c89d5d-5b78-4435-817f-c5f25ca6d715

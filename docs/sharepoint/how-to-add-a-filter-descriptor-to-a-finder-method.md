@@ -1,6 +1,5 @@
 ---
 title: "How to: Add a Filter Descriptor to a Finder Method | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: "office-development"
 ms.topic: "conceptual"

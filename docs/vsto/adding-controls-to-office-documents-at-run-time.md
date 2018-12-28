@@ -1,6 +1,5 @@
 ---
 title: "Add controls to Office documents at runtime"
-ms.custom: ""
 ms.date: 02/02/2017
 ms.technology: office-development
 ms.prod: visual-studio-dev15

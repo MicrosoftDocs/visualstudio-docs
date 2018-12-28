@@ -1,7 +1,6 @@
 ---
 title: "Debug a multithreaded app"
 description: Debug using the Threads window and the Debug Location toolbar in Visual Studio
-ms.custom: ""
 ms.date: "11/21/2018"
 ms.topic: "conceptual"
 dev_langs: 

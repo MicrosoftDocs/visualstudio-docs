@@ -1,6 +1,5 @@
 ---
 title: "Mixed Code and Missing Information in the Call Stack Window | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.topic: "troubleshooting"
 dev_langs: 

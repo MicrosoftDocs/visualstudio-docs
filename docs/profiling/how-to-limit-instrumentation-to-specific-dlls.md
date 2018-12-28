@@ -1,6 +1,5 @@
 ---
 title: "How to: Limit Instrumentation to Specific DLLs | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"

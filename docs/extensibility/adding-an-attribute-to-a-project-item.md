@@ -1,6 +1,5 @@
 ---
 title: "Adding an Attribute to a Project Item | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords: 

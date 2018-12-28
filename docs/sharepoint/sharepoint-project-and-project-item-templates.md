@@ -1,6 +1,5 @@
 ---
 title: "SharePoint Project and Project Item Templates | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/22/2017"
 ms.technology: "office-development"
 ms.topic: "conceptual"

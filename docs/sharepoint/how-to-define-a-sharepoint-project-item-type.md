@@ -1,6 +1,5 @@
 ---
 title: "How to: Define a SharePoint Project Item Type | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: "office-development"
 ms.topic: "conceptual"

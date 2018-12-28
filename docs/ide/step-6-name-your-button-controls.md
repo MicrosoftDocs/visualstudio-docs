@@ -1,6 +1,5 @@
 ---
 title: "Step 6: Name your button controls"
-ms.custom: ""
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
 ms.prod: visual-studio-dev15

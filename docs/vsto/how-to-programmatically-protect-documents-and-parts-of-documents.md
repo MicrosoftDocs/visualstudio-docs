@@ -1,6 +1,5 @@
 ---
 title: "How to: Programmatically protect documents and parts of documents"
-ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: "office-development"
 ms.topic: "conceptual"

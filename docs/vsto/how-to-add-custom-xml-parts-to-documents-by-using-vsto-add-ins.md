@@ -1,6 +1,5 @@
 ---
 title: "How to: Add custom XML parts to documents by using VSTO Add-ins"
-ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: "office-development"
 ms.topic: "conceptual"

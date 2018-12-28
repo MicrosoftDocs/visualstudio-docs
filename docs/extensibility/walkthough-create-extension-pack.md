@@ -1,6 +1,5 @@
 ---
 title: "Create an Extension Pack with the Extension Pack Item Template | Microsoft Docs"
-ms.custom: ""
 ms.date: "07/27/2018"
 ms.topic: "conceptual"
 helpviewer_keywords: 

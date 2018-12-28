@@ -1,6 +1,5 @@
 ---
 title: "View threads in the debugger | Microsoft Docs"
-ms.custom: ""
 ms.date: "10/29/2018"
 ms.topic: "conceptual"
 f1_keywords: 

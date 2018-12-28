@@ -1,6 +1,5 @@
 ---
 title: "Create a visual map of the call stack | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/26/2018"
 ms.topic: "conceptual"
 f1_keywords:

@@ -1,6 +1,5 @@
 ---
 title: "How to: Programmatically insert text into Word documents"
-ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: "office-development"
 ms.topic: "conceptual"

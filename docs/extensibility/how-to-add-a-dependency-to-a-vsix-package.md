@@ -1,6 +1,5 @@
 ---
 title: "How to: Add a Dependency to a VSIX Package | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords: 

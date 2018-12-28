@@ -1,6 +1,5 @@
 ---
 title: "Set a Watch on Variables in Parallel Threads | Microsoft Docs"
-ms.custom: ""
 ms.date: "04/25/2017"
 ms.topic: "conceptual"
 f1_keywords: 

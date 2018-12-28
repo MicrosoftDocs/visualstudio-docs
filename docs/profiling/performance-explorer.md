@@ -1,6 +1,5 @@
 ---
 title: "Performance Explorer | Microsoft Docs"
-ms.custom: ""
 ms.date: "06/19/2017"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"

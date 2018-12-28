@@ -1,6 +1,5 @@
 ---
 title: "View strings in a string visualizer | Microsoft Docs"
-ms.custom: ""
 ms.date: "10/10/2018"
 ms.topic: "reference"
 f1_keywords:

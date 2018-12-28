@@ -1,6 +1,5 @@
 ---
 title: "Getting a List of Installed Code Snippets (Legacy) | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords: 

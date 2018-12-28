@@ -1,6 +1,5 @@
 ---
 title: "Breaking Changes in Visual Studio 2017 extensibility| Microsoft Docs"
-ms.custom: ""
 ms.date: "11/09/2016"
 ms.topic: "conceptual"
 ms.assetid: 54d5af60-0b44-4ae1-aa57-45aa03f89f3d

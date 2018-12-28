@@ -1,6 +1,5 @@
 ---
 title: "Edit and Continue error message dialog box| Microsoft Docs"
-ms.custom: ""
 ms.date: "10/15/2018"
 ms.topic: "reference"
 f1_keywords: 

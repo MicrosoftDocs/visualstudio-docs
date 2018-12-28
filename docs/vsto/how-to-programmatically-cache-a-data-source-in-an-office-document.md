@@ -1,6 +1,5 @@
 ---
 title: "How to: Programmatically cache a data source in an Office document"
-ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: "office-development"
 ms.topic: "conceptual"

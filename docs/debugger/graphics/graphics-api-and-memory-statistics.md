@@ -1,6 +1,5 @@
 ---
 title: "Graphics API and Memory Statistics | Microsoft Docs"
-ms.custom: ""
 ms.date: "03/02/2017"
 ms.topic: "conceptual"
 f1_keywords: 

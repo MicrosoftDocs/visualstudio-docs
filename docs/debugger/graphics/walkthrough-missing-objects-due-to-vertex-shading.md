@@ -1,6 +1,5 @@
 ---
 title: "Walkthrough: Missing Objects Due to Vertex Shading | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: e42b54a0-8092-455c-945b-9ecafb129d93

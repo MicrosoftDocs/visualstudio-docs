@@ -1,6 +1,5 @@
 ---
 title: "How to: Compare Performance Data Files | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"

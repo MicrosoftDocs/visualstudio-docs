@@ -1,6 +1,5 @@
 ---
 title: "Create custom views of data in the debugger | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/20/2018"
 ms.topic: "conceptual"
 f1_keywords: 

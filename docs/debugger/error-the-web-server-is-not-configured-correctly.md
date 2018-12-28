@@ -1,6 +1,5 @@
 ---
 title: "Error: The web server is not configured correctly | Microsoft Docs"
-ms.custom: ""
 ms.date: "09/20/2017"
 ms.topic: "troubleshooting"
 f1_keywords: 

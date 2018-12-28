@@ -1,6 +1,5 @@
 ---
 title: "Walkthrough: Publishing a Visual Studio Extension via command line | Microsoft Docs"
-ms.custom: ""
 ms.date: "07/12/2018"
 ms.topic: "conceptual"
 helpviewer_keywords: 

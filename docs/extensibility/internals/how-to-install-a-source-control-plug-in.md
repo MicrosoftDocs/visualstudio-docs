@@ -1,6 +1,5 @@
 ---
 title: "How to: Install a Source Control Plug-in | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords: 

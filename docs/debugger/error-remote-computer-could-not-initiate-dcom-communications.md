@@ -1,6 +1,5 @@
 ---
 title: "Error: Remote computer could not initiate DCOM communications | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.topic: "troubleshooting"
 f1_keywords: 

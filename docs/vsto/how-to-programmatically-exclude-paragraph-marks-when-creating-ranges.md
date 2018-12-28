@@ -1,6 +1,5 @@
 ---
 title: "How to: Programmatically exclude paragraph marks when creating ranges"
-ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: "office-development"
 ms.topic: "conceptual"

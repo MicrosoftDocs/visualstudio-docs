@@ -1,6 +1,5 @@
 ---
 title: "Office primary interop assemblies"
-ms.custom: ""
 ms.date: "09/20/2018"
 ms.technology: "office-development"
 ms.topic: "conceptual"

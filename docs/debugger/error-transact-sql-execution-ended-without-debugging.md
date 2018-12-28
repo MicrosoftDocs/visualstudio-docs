@@ -1,6 +1,5 @@
 ---
 title: "Error: Transact-SQL execution ended without debugging | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/08/2018"
 ms.topic: "troubleshooting"
 f1_keywords: 

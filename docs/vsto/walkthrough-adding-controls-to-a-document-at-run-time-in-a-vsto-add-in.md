@@ -1,6 +1,5 @@
 ---
 title: "Walkthrough: Add controls to a document at runtime in a VSTO Add-in"
-ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: "office-development"
 ms.topic: "conceptual"

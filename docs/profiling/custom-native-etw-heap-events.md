@@ -1,6 +1,5 @@
 ---
 title: "Custom Native ETW Heap Events | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/24/2017"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"

@@ -1,6 +1,5 @@
 ---
 title: "Debugging and the Hosting Process | Microsoft Docs"
-ms.custom: ""
 ms.date: "08/01/2018"
 ms.topic: "conceptual"
 dev_langs:

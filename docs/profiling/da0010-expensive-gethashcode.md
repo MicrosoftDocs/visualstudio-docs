@@ -1,6 +1,5 @@
 ---
 title: "DA0010: Expensive GetHashCode | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"

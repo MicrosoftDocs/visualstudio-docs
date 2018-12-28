@@ -1,6 +1,5 @@
 ---
 title: "Dia2dump Sample | Microsoft Docs"
-ms.custom: ""
 ms.date: "07/24/2018"
 ms.topic: "conceptual"
 dev_langs:

@@ -1,6 +1,5 @@
 ---
 title: "Debugging Native Code | Microsoft Docs"
-ms.custom: ""
 ms.date: "04/11/2017"
 ms.topic: "conceptual"
 f1_keywords: 

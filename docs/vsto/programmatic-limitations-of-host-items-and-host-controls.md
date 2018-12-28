@@ -1,6 +1,5 @@
 ---
 title: "Programmatic limitations of host items and host controls"
-ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: "office-development"
 ms.topic: "conceptual"

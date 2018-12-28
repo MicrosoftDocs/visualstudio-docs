@@ -1,6 +1,5 @@
 ---
 title: "Windows Forms controls on Office documents overview"
-ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: "office-development"
 ms.topic: "conceptual"

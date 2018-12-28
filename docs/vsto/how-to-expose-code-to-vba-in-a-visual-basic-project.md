@@ -1,6 +1,5 @@
 ---
 title: "How to: Expose code to VBA in a Visual Basic project"
-ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: "office-development"
 ms.topic: "conceptual"

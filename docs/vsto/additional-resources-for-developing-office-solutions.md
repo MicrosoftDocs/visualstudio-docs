@@ -1,6 +1,5 @@
 ---
 title: "Additional resources to develop Office solutions"
-ms.custom: ""
 ms.date: 02/02/2017
 ms.technology: office-development
 ms.prod: visual-studio-dev15

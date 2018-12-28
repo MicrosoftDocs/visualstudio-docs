@@ -1,6 +1,5 @@
 ---
 title: "Managing Universal Windows Projects | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 47926aa1-3b41-410d-bca8-f77fc950cbe7

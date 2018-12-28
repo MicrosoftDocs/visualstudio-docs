@@ -1,6 +1,5 @@
 ---
 title: "How to: Provide Context for Editors | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords: 

@@ -1,6 +1,5 @@
 ---
 title: "How to: Target Office applications through primary interop assemblies"
-ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: "office-development"
 ms.topic: "conceptual"

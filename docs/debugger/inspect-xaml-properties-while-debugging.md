@@ -1,6 +1,5 @@
 ---
 title: "Inspect XAML properties while debugging | Microsoft Docs"
-ms.custom: ""
 ms.date: "03/06/2017"
 ms.topic: "conceptual"
 ms.assetid: 390edde4-7b8d-4c89-8d69-55106b7e6b11

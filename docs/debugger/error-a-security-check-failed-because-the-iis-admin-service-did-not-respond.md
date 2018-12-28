@@ -1,6 +1,5 @@
 ---
 title: "Error: A Security Check Failed Because the IIS Admin Service Did Not Respond | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.topic: "troubleshooting"
 f1_keywords: 

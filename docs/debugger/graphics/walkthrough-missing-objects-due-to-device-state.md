@@ -1,6 +1,5 @@
 ---
 title: "Walkthrough: Missing Objects Due to Device State | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 1b0d2bbd-0729-4aa5-8308-70c5bf1468c5

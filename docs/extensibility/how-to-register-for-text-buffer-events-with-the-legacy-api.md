@@ -1,6 +1,5 @@
 ---
 title: "How to: Register for Text Buffer Events with the Legacy API | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords: 

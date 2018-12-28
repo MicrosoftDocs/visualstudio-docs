@@ -1,6 +1,5 @@
 ---
 title: "Using the Microsoft Monitoring Agent | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: fd0a86b9-015d-408e-aa58-59a0a97826ac

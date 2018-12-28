@@ -1,6 +1,5 @@
 ---
 title: "Concurrency Namespace (Concurrency Visualizer) | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"

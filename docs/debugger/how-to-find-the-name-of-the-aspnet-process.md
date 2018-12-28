@@ -1,6 +1,5 @@
 ---
 title: "Find the running ASP.NET process | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2018"
 ms.topic: "conceptual"
 dev_langs: 

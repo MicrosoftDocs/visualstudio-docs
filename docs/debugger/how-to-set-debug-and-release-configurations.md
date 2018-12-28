@@ -1,6 +1,5 @@
 ---
 title: "Set debug and release configurations | Microsoft Docs"
-ms.custom: ""
 ms.date: "10/05/2018"
 ms.topic: "reference"
 f1_keywords:

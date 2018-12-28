@@ -1,6 +1,5 @@
 ---
 title: "How to: Use Edit and Continue (C#) | Microsoft Docs"
-ms.custom: ""
 ms.date: "10/04/2018"
 ms.topic: "conceptual"
 dev_langs: 

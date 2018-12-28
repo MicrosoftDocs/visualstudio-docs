@@ -1,6 +1,5 @@
 ---
 title: "Walkthrough: Create a custom bootstrapper with a privacy prompt | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs: 

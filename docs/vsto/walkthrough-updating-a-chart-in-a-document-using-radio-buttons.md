@@ -1,6 +1,5 @@
 ---
 title: "Walkthrough: Update a chart in a document using radio buttons"
-ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: "office-development"
 ms.topic: "conceptual"

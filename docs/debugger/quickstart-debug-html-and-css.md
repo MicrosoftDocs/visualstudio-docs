@@ -1,6 +1,5 @@
 ---
 title: "Debug HTML and CSS in UWP apps | Microsoft Docs"
-ms.custom: ""
 ms.date: "07/17/2017"
 ms.topic: "conceptual"
 f1_keywords: 

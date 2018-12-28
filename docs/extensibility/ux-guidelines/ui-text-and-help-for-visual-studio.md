@@ -1,6 +1,5 @@
 ---
 title: "UI Text and Help for Visual Studio | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: e8747d07-6c90-46cc-b425-55b589f7e9e4

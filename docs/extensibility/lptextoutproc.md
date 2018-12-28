@@ -1,6 +1,5 @@
 ---
 title: "LPTEXTOUTPROC | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords: 

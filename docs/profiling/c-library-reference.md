@@ -1,6 +1,5 @@
 ---
 title: "C Library Reference | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
@@ -18,4 +17,3 @@ This section contains reference information for the Concurrency Visualizer SDK.
   
 > [!NOTE]
 >  The C language standard reserves the use of identifiers that begin with an underscore (`_`) character for implementations such as libraries. Do not use names beginning with an underscore in your code. The behavior of code elements whose names follow this convention are not guaranteed and are subject to change in future releases. For these reasons, such code elements are omitted from this documentation.  
-  

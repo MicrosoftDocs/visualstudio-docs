@@ -1,6 +1,5 @@
 ---
 title: "Update form regions in Outlook projects that you migrate to the .NET Framework 4 or the .NET Framework 4.5"
-ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: "office-development"
 ms.topic: "conceptual"

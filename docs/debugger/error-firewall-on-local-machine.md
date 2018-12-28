@@ -1,6 +1,5 @@
 ---
 title: "Error: Firewall on Local Machine | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.topic: "troubleshooting"
 f1_keywords: 

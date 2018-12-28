@@ -1,6 +1,5 @@
 ---
 title: "UnInit | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 4cd4fc0b-974a-4e61-9ea8-0aaa1a0c52ea

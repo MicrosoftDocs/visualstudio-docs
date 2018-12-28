@@ -1,6 +1,5 @@
 ---
 title: "How to: Change the position of a tab on the ribbon"
-ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: "office-development"
 ms.topic: "conceptual"
