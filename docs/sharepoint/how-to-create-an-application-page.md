@@ -6,8 +6,6 @@ ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
-  - "VB"
-  - "CSharp"
 helpviewer_keywords: 
   - "application pages [SharePoint development in Visual Studio], adding"
   - "application pages [SharePoint development in Visual Studio], creating"

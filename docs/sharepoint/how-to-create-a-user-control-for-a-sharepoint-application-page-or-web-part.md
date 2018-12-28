@@ -6,8 +6,6 @@ ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
-  - "VB"
-  - "CSharp"
 helpviewer_keywords: 
   - "user controls [SharePoint development in Visual Studio], creating"
   - "user controls [SharePoint development in Visual Studio], adding"

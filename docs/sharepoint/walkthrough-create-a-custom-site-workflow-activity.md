@@ -6,8 +6,6 @@ ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
-  - "VB"
-  - "CSharp"
 helpviewer_keywords: 
   - "custom workflow activities [SharePoint development in Visual Studio]"
   - "SharePoint development in Visual Studio, custom workflow activities"

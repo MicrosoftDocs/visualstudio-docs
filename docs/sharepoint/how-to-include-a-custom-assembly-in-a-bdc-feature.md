@@ -8,8 +8,6 @@ f1_keywords:
 dev_langs: 
   - "VB"
   - "CSharp"
-  - "VB"
-  - "CSharp"
 helpviewer_keywords: 
   - "Business Data Connectivity service [SharePoint development in Visual Studio], add reference"
   - "Business Data Connectivity service [SharePoint development in Visual Studio], custom assembly"

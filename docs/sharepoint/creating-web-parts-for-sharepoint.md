@@ -16,8 +16,6 @@ f1_keywords:
 dev_langs: 
   - "VB"
   - "CSharp"
-  - "VB"
-  - "CSharp"
 helpviewer_keywords: 
   - "SharePoint development in Visual Studio, Web Parts"
   - "Web Parts [SharePoint development in Visual Studio], designing"

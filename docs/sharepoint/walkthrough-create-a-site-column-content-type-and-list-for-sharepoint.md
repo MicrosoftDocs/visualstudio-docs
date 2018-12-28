@@ -10,8 +10,6 @@ f1_keywords:
 dev_langs: 
   - "VB"
   - "CSharp"
-  - "VB"
-  - "CSharp"
 helpviewer_keywords: 
   - "SharePoint development in Visual Studio, list definitions"
   - "SharePoint development in Visual Studio, list instances"

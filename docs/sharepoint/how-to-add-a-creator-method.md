@@ -6,8 +6,6 @@ ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
-  - "VB"
-  - "CSharp"
 helpviewer_keywords: 
   - "BDC [SharePoint development in Visual Studio], Creator"
   - "BDC [SharePoint development in Visual Studio], adding entity instances"

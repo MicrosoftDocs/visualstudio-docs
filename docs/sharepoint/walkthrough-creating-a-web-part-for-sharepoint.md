@@ -6,8 +6,6 @@ ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
-  - "VB"
-  - "CSharp"
 helpviewer_keywords: 
   - "Web Parts [SharePoint development in Visual Studio], developing"
   - "Web Parts [SharePoint development in Visual Studio], creating"

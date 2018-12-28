@@ -9,8 +9,6 @@ f1_keywords:
 dev_langs: 
   - "VB"
   - "CSharp"
-  - "VB"
-  - "CSharp"
 helpviewer_keywords: 
   - "SharePoint development in Visual Studio, workflows"
   - "workflows [SharePoint development in Visual Studio]"

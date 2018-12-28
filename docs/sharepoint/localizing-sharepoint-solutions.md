@@ -9,8 +9,6 @@ f1_keywords:
 dev_langs: 
   - "VB"
   - "CSharp"
-  - "VB"
-  - "CSharp"
 helpviewer_keywords: 
   - "globalizing [SharePoint development in Visual Studio]"
   - "localizing [SharePoint development in Visual Studio]"

@@ -6,8 +6,6 @@ ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
-  - "VB"
-  - "CSharp"
 helpviewer_keywords: 
   - "Business Data Connectivity service [SharePoint development in Visual Studio], business data"
   - "BDC [SharePoint development in Visual Studio], aggregating data"

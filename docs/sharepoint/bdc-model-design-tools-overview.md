@@ -10,8 +10,6 @@ f1_keywords:
 dev_langs: 
   - "VB"
   - "CSharp"
-  - "VB"
-  - "CSharp"
 helpviewer_keywords: 
   - "BDC [SharePoint development in Visual Studio], visual tools"
   - "Business Data Connectivity service [SharePoint development in Visual Studio], visual tools"

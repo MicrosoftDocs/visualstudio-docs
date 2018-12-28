@@ -13,8 +13,6 @@ f1_keywords:
 dev_langs: 
   - "VB"
   - "CSharp"
-  - "VB"
-  - "CSharp"
 helpviewer_keywords: 
   - "SharePoint development in Visual Studio, project and project item templates"
   - "SharePoint development in Visual Studio, templates"

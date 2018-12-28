@@ -8,8 +8,6 @@ f1_keywords:
 dev_langs: 
   - "VB"
   - "CSharp"
-  - "VB"
-  - "CSharp"
 helpviewer_keywords: 
   - "SharePoint development in Visual Studio, mapped folders"
   - "mapped folders [SharePoint development in Visual Studio]"
