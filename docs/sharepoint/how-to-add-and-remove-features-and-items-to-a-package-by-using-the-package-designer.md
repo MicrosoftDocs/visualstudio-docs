@@ -2,8 +2,7 @@
 title: "How to: Add and Remove Features and Items to a Package by Using the Package Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VS.SharePointTools.RAD.PackageDesignerDesign"
@@ -59,4 +58,3 @@ ms.workload:
  [Create SharePoint solution packages](../sharepoint/creating-sharepoint-solution-packages.md)   
  [How to: Customize a SharePoint solution package](../sharepoint/how-to-customize-a-sharepoint-solution-package.md)  
  [How to: Create a Package](https://msdn.microsoft.com/b24be45c-e91d-49bb-afb0-7b265404214b)  
-  

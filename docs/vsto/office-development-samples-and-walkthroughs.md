@@ -2,8 +2,7 @@
 title: "Office development samples and walkthroughs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -54,5 +53,3 @@ ms.workload:
 |[Common tasks in Office programming](../vsto/common-tasks-in-office-programming.md)|Lists frequently asked questions about programming with Office development in Visual Studio, and provides links to topics that can help solve common problems.|  
 |[Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)|Provides links to information about how to create Microsoft Office solutions and about the role of assemblies in your solution.|  
 |[Actions pane overview](../vsto/actions-pane-overview.md)|Provides an overview of the document-level task pane called the actions pane.|  
-  
-  

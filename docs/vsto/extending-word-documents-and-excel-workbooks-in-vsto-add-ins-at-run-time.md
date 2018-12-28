@@ -2,8 +2,7 @@
 title: "Extend Word documents and Excel workbooks in VSTO Add-ins at runtime"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -122,5 +121,3 @@ ms.workload:
  [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md)   
  [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)   
  [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md)  
-  
-  

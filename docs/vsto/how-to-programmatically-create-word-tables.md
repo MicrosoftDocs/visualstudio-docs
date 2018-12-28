@@ -2,8 +2,7 @@
 title: "How to: Programmatically create Word tables"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -93,5 +92,3 @@ ms.workload:
  [How to: Programmatically add rows and columns to Word tables](../vsto/how-to-programmatically-add-rows-and-columns-to-word-tables.md)   
  [How to: Programmatically populate Word tables with document properties](../vsto/how-to-programmatically-populate-word-tables-with-document-properties.md)   
  [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)  
-  
-  

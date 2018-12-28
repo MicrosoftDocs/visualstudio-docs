@@ -2,8 +2,7 @@
 title: "Compare Project Folder to Source Control Store | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
+ms.technology: "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "source control plug-ins, comparing versions"

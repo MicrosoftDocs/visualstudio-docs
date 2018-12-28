@@ -2,8 +2,7 @@
 title: "Ribbon object model overview"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -193,4 +192,3 @@ ms.workload:
  [How to: Add controls to the Backstage view](../vsto/how-to-add-controls-to-the-backstage-view.md)   
  [How to: Export a ribbon from the Ribbon Designer to Ribbon XML](../vsto/how-to-export-a-ribbon-from-the-ribbon-designer-to-ribbon-xml.md)   
  [How to: Show Add-in user interface errors](../vsto/how-to-show-add-in-user-interface-errors.md)  
- 

@@ -2,8 +2,7 @@
 title: "Ribbon overview"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -129,5 +128,3 @@ ms.workload:
 |[How to: Export a ribbon from the Ribbon Designer to Ribbon XML](../vsto/how-to-export-a-ribbon-from-the-ribbon-designer-to-ribbon-xml.md)|Shows how to customize the ribbon in advanced ways by exporting the ribbon from the designer to Ribbon XML.|  
 |[Ribbon XML](../vsto/ribbon-xml.md)|Explains how you can customize a ribbon by using Ribbon XML.|  
 |[Walkthrough: Create a custom tab by using the Ribbon Designer](../vsto/walkthrough-creating-a-custom-tab-by-using-the-ribbon-designer.md)|Demonstrates how to create a custom Ribbon tab by using the **Ribbon (XML)** item.|  
-  
-  

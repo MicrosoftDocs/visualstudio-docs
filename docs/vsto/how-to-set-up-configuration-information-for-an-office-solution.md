@@ -2,8 +2,7 @@
 title: "How to: Set up configuration information for an Office solution"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -44,5 +43,3 @@ ms.workload:
  [Configuration file schema for the .NET Framework](/dotnet/framework/configure-apps/file-schema/index)   
  [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)   
  [Deploy an Office solution](../vsto/deploying-an-office-solution.md)  
-  
-  

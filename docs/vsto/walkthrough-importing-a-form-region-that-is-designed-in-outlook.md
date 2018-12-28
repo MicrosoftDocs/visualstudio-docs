@@ -2,8 +2,7 @@
 title: "Walkthrough: Import a form region that is designed in Outlook"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -257,5 +256,3 @@ ms.workload:
  [Associate a form region with an Outlook message class](../vsto/associating-a-form-region-with-an-outlook-message-class.md)   
  [Custom actions in Outlook form regions](../vsto/custom-actions-in-outlook-form-regions.md)   
  [How to: Prevent Outlook from displaying a form region](../vsto/how-to-prevent-outlook-from-displaying-a-form-region.md)  
-  
-  

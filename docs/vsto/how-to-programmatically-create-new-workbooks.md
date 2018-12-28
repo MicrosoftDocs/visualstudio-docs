@@ -2,8 +2,7 @@
 title: "How to: Programmatically create new workbooks"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -44,5 +43,3 @@ ms.workload:
  [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)   
  [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)   
  [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)  
-  
-  

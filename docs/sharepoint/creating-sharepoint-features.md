@@ -2,8 +2,7 @@
 title: "Creating SharePoint Features | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -53,5 +52,3 @@ ms.workload:
  [How to: Customize a SharePoint feature](../sharepoint/how-to-customize-a-sharepoint-feature.md)   
  [How to: Add and remove items to SharePoint features](../sharepoint/how-to-add-and-remove-items-to-sharepoint-features.md)   
  [How to: Add and remove feature dependencies](../sharepoint/how-to-add-and-remove-feature-dependencies.md)  
-  
-  

@@ -2,8 +2,7 @@
 title: "Walkthrough: Create a custom tab by using the Ribbon Designer"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -165,5 +164,3 @@ ms.workload:
  [How to: Customize a built-in tab](../vsto/how-to-customize-a-built-in-tab.md)   
  [How to: Add controls to the backstage view](../vsto/how-to-add-controls-to-the-backstage-view.md)   
  [Ribbon object model overview](../vsto/ribbon-object-model-overview.md)  
-  
-  

@@ -3,8 +3,7 @@ title: "Get started (Office development in Visual Studio)"
 titleSuffix: ""
 ms.custom: "seodec18"
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -72,5 +71,3 @@ ms.workload:
   
  [Visual Studio Tools for Office technical articles and Visual How Tos](http://go.microsoft.com/fwlink/?LinkID=106640)  
  Contains links into videos and technical articles about Office solutions created by using Visual Studio.  
-  
-  

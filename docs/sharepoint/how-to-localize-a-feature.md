@@ -2,8 +2,7 @@
 title: "How to: Localize a Feature | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -61,4 +60,3 @@ ms.workload:
  [How to: Add a resource file](../sharepoint/how-to-add-a-resource-file.md)   
  [How to: Localize ASPX markup](../sharepoint/how-to-localize-aspx-markup.md)   
  [How to: Localize code](../sharepoint/how-to-localize-code.md)  
-  

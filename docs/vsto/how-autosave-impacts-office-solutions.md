@@ -2,8 +2,7 @@
 title: "How AutoSave impacts Office solutions"
 ms.custom: ""
 ms.date: "10/26/2018"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"

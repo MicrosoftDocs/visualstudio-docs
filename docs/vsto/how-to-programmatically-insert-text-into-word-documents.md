@@ -2,8 +2,7 @@
 title: "How to: Programmatically insert text into Word documents"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -126,5 +125,3 @@ ms.workload:
  [How to: Programmatically format text in documents](../vsto/how-to-programmatically-format-text-in-documents.md)   
  [How to: Programmatically define and select ranges in documents](../vsto/how-to-programmatically-define-and-select-ranges-in-documents.md)   
  [How to: Programmatically extend ranges in documents](../vsto/how-to-programmatically-extend-ranges-in-documents.md)  
-  
-  

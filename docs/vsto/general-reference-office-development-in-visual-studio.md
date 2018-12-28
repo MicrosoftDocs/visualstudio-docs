@@ -3,8 +3,7 @@ title: "General reference (Office development in Visual Studio)"
 titleSuffix: ""
 ms.custom: "seodec18"
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -48,5 +47,3 @@ ms.workload:
   
  [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)  
  Provides links to information about how to get started creating Office projects using Visual Studio.  
-  
-  

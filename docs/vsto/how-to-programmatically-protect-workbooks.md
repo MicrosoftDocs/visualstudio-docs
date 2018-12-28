@@ -2,8 +2,7 @@
 title: "How to: Programmatically protect workbooks"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -67,5 +66,3 @@ ms.workload:
  [How to: Programmatically protect worksheets](../vsto/how-to-programmatically-protect-worksheets.md)   
  [How to: Programmatically hide worksheets](../vsto/how-to-programmatically-hide-worksheets.md)   
  [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)  
-  
-  

@@ -2,8 +2,7 @@
 title: "Walkthrough: Add controls to a document at runtime in a VSTO Add-in"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -190,4 +189,3 @@ ms.workload:
  [How to: Add Windows Forms controls to Office documents](../vsto/how-to-add-windows-forms-controls-to-office-documents.md)   
  [How to: Add content controls to Word documents](../vsto/how-to-add-content-controls-to-word-documents.md)   
  [Extend Word documents and Excel workbooks in VSTO Add-ins at runtime](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md)  
-

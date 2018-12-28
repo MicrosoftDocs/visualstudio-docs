@@ -2,8 +2,7 @@
 title: "Walkthrough: Publishing a Visual Studio Extension via command line | Microsoft Docs"
 ms.custom: ""
 ms.date: "07/12/2018"
-ms.technology: 
-  - "vs-ide-sdk"
+ms.technology: "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "publishing extensions"

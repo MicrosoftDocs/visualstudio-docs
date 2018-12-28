@@ -2,8 +2,7 @@
 title: "Best Practices for Security in VSPackages | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
+ms.technology: "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "security [Visual Studio SDK]"

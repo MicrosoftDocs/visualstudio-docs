@@ -2,8 +2,7 @@
 title: "Visio object model overview"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -77,5 +76,3 @@ ms.workload:
  [Visio solutions](../vsto/visio-solutions.md)   
  [Work with Visio documents](../vsto/working-with-visio-documents.md)   
  [Work with Visio shapes](../vsto/working-with-visio-shapes.md)  
-  
-  

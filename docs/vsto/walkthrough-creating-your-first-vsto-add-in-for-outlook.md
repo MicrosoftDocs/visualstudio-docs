@@ -2,8 +2,7 @@
 title: "Walkthrough: Create your first VSTO Add-in for Outlook"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -139,5 +138,3 @@ ms.workload:
  [Build Office solutions](../vsto/building-office-solutions.md)   
  [Deploy an Office solution](../vsto/deploying-an-office-solution.md)   
  [Office project templates overview](../vsto/office-project-templates-overview.md)  
-  
-  

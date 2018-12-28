@@ -2,8 +2,7 @@
 title: "How to: Attach managed code extensions to documents"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -51,4 +50,3 @@ ms.workload:
  [Manage documents on a server by using the ServerDocument class](../vsto/managing-documents-on-a-server-by-using-the-serverdocument-class.md)   
  [How to: Remove managed code extensions from documents](../vsto/how-to-remove-managed-code-extensions-from-documents.md)   
  [Application and deployment manifests in Office solutions](../vsto/application-and-deployment-manifests-in-office-solutions.md)  
-  

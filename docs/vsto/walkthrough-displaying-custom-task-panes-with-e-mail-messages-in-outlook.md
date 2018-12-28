@@ -2,8 +2,7 @@
 title: "Walkthrough: Display custom task panes with email messages in Outlook"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -273,5 +272,3 @@ ms.workload:
  [Ribbon overview](../vsto/ribbon-overview.md)   
  [Outlook object model overview](../vsto/outlook-object-model-overview.md)   
  [Access the ribbon at runtime](../vsto/accessing-the-ribbon-at-run-time.md)  
-  
-  

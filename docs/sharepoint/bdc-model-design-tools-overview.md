@@ -2,8 +2,7 @@
 title: "BDC Model Design Tools Overview | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VS.SharePointTools.BDC.Method_Details"
@@ -85,5 +84,3 @@ ms.workload:
  [Integrate business data into SharePoint](../sharepoint/integrating-business-data-into-sharepoint.md)   
  [Creating a business data connectivity model](../sharepoint/creating-a-business-data-connectivity-model.md)   
  [Designing a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md)  
-  
- 

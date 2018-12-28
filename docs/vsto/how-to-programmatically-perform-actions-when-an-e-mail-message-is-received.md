@@ -2,8 +2,7 @@
 title: "How to: Programmatically perform actions when an email message is received"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -32,5 +31,3 @@ ms.workload:
  [How to: Create event handlers in Office projects](../vsto/how-to-create-event-handlers-in-office-projects.md)   
  [Work with mail items](../vsto/working-with-mail-items.md)   
  [Get started programming VSTO Add-ins](../vsto/getting-started-programming-vsto-add-ins.md)  
-  
-  

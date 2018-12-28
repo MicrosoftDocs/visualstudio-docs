@@ -2,8 +2,7 @@
 title: "Optional parameters in Office solutions"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -68,5 +67,3 @@ ms.workload:
 ## See also  
  [Develop Office solutions](../vsto/developing-office-solutions.md)   
  [Write code in Office solutions](../vsto/writing-code-in-office-solutions.md)  
-  
-  

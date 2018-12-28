@@ -2,8 +2,7 @@
 title: "Office primary interop assemblies"
 ms.custom: ""
 ms.date: "09/20/2018"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -134,5 +133,3 @@ For more information, see [How to: Enable and disable automatic binding redirect
 - [Visio object model overview](../vsto/visio-object-model-overview.md)   
 - [Word object model overview](../vsto/word-object-model-overview.md)   
 - [General reference &#40;Office development in Visual Studio&#41;](../vsto/general-reference-office-development-in-visual-studio.md)  
-  
-  

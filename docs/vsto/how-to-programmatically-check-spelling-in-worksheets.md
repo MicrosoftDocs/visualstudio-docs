@@ -2,8 +2,7 @@
 title: "How to: Programmatically check spelling in worksheets"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -43,5 +42,3 @@ ms.workload:
  [How to: Programmatically run Excel calculations](../vsto/how-to-programmatically-run-excel-calculations-programmatically.md)   
  [NamedRange control](../vsto/namedrange-control.md)   
  [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)  
-  
-  

@@ -2,8 +2,7 @@
 title: "How to: Get Data for a Built-In SharePoint Node in Server Explorer | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -49,4 +48,3 @@ ms.workload:
  [How to: Extend a SharePoint node in Server Explorer](../sharepoint/how-to-extend-a-sharepoint-node-in-server-explorer.md)   
  [Use the SharePoint project service](../sharepoint/using-the-sharepoint-project-service.md)   
  [Deploy extensions for the SharePoint tools in Visual Studio](../sharepoint/deploying-extensions-for-the-sharepoint-tools-in-visual-studio.md)  
-  

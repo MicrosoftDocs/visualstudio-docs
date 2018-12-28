@@ -2,8 +2,7 @@
 title: "SetWefProcessId method"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -38,5 +37,3 @@ HRESULT SetWefProcessId(
  This method must be called after the WEF content process is created but before any WEF content runs.  
   
  If you want the development environment to attach a debugger to the WEF content process, the environment must perform this operation in your implementation of this method.  
-  
-  

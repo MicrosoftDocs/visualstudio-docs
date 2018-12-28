@@ -2,8 +2,7 @@
 title: "How to: Resize NamedRange controls"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -95,5 +94,3 @@ ms.workload:
  [How to: Add NamedRange controls to worksheets](../vsto/how-to-add-namedrange-controls-to-worksheets.md)   
  [How to: Resize Bookmark controls](../vsto/how-to-resize-bookmark-controls.md)   
  [How to: Resize ListObject controls](../vsto/how-to-resize-listobject-controls.md)  
-  
-  

@@ -2,8 +2,7 @@
 title: "One or more properties in the .ofs file are not valid for the message class selected"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VSTO.NewFormRegionWizard.OFSPropertyError"
@@ -31,5 +30,3 @@ For example, you might select **Task (IPM.Task)** on the final page of the **New
   
 ## See also  
  [Walkthrough: Import a form region that is designed in Outlook](../vsto/walkthrough-importing-a-form-region-that-is-designed-in-outlook.md)  
-  
-  

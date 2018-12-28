@@ -2,8 +2,7 @@
 title: "How to: Programmatically hide text in documents"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -57,5 +56,3 @@ ms.workload:
  [How to: Programmatically reset ranges in Word documents](../vsto/how-to-programmatically-reset-ranges-in-word-documents.md)   
  [How to: Programmatically update Bookmark text](../vsto/how-to-programmatically-update-bookmark-text.md)   
  [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)  
-  
-  

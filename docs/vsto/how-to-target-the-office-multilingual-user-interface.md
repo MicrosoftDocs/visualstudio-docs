@@ -2,8 +2,7 @@
 title: "How to: Target the Office multilingual user interface"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -38,5 +37,3 @@ ms.workload:
 ## See also  
  [How to: Target Office applications through primary interop assemblies](../vsto/how-to-target-office-applications-through-primary-interop-assemblies.md)   
  [Late binding in Office solutions](../vsto/late-binding-in-office-solutions.md)  
-  
-  

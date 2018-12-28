@@ -2,8 +2,7 @@
 title: "How to: Define a Method Instance | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -44,4 +43,3 @@ ms.workload:
  [How to: Add a parameter to a method](../sharepoint/how-to-add-a-parameter-to-a-method.md)   
  [How to: Define the type descriptor of a parameter](../sharepoint/how-to-define-the-type-descriptor-of-a-parameter.md)   
  [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md)  
-  

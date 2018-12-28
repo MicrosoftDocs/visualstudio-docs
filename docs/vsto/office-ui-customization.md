@@ -2,8 +2,7 @@
 title: "Office UI customization"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -102,5 +101,3 @@ ms.workload:
  [How to: Show the Developer tab on the Ribbon](../vsto/how-to-show-the-developer-tab-on-the-ribbon.md)   
  [How to: Show Add-in user interface errors](../vsto/how-to-show-add-in-user-interface-errors.md)   
  [Walkthrough: Collect data using a Windows form](../vsto/walkthrough-collecting-data-using-a-windows-form.md)  
-  
-  

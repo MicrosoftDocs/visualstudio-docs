@@ -2,8 +2,7 @@
 title: "How to: Programmatically protect documents and parts of documents"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -71,5 +70,3 @@ ms.workload:
  [How to: Permit code to run behind documents with restricted permissions](../vsto/how-to-permit-code-to-run-behind-documents-with-restricted-permissions.md)   
  [How to: Add Bookmark controls to Word documents](../vsto/how-to-add-bookmark-controls-to-word-documents.md)   
  [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)  
-  
-  

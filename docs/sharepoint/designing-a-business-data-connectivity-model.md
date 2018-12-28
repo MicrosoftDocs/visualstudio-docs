@@ -2,8 +2,7 @@
 title: "Designing a Business Data Connectivity Model | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -127,4 +126,3 @@ ms.workload:
 |[How to: Create an association between entities](../sharepoint/how-to-create-an-association-between-entities.md)|Shows you how to define relationships between entities in the model.|  
 |[Walkthrough: Createan external list in SharePoint by using business data](../sharepoint/walkthrough-creating-an-external-list-in-sharepoint-by-using-business-data.md)|Provides step-by-step instructions that show you how to create and test a model that displays contacts in a SharePoint external list.|  
 |[Integrate business data into SharePoint](../sharepoint/integrating-business-data-into-sharepoint.md)|Provides an overview of creating and designing models for the BDC service.|  
-  

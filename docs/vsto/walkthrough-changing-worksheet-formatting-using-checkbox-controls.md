@@ -2,8 +2,7 @@
 title: "Walkthrough: Change worksheet formatting using CheckBox controls"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -161,4 +160,3 @@ ms.workload:
  [Walkthroughs using Excel](../vsto/walkthroughs-using-excel.md)   
  [NamedRange control](../vsto/namedrange-control.md)   
  [Limitations of Windows Forms controls on Office documents](../vsto/limitations-of-windows-forms-controls-on-office-documents.md)  
-  

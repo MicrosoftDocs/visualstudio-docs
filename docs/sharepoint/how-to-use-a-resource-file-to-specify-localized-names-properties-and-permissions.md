@@ -2,8 +2,7 @@
 title: "How to: Use a Resource File to Specify Localized Names, Properties, and Permissions | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -52,4 +51,3 @@ ms.workload:
  [How to: Create a BDC model](../sharepoint/how-to-create-a-bdc-model.md)   
  [How to: Include a custom assembly in a BDC feature](../sharepoint/how-to-include-a-custom-assembly-in-a-bdc-feature.md)   
  [Integrating business data into SharePoint](../sharepoint/integrating-business-data-into-sharepoint.md)  
-  

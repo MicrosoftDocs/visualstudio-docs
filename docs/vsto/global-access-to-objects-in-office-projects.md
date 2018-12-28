@@ -2,8 +2,7 @@
 title: "Global access to objects in Office projects"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -81,5 +80,3 @@ ms.workload:
  [Workbook host item](../vsto/workbook-host-item.md)   
  [Worksheet host item](../vsto/worksheet-host-item.md)   
  [Write code in Office solutions](../vsto/writing-code-in-office-solutions.md)  
-  
-  

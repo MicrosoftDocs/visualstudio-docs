@@ -2,8 +2,7 @@
 title: "Cache data"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -85,5 +84,3 @@ ms.workload:
  [How to: Programmatically cache a data source in an Office document](../vsto/how-to-programmatically-cache-a-data-source-in-an-office-document.md)   
  [How to: Cache data in a password-protected document](../vsto/how-to-cache-data-in-a-password-protected-document.md)   
  [Walkthrough: Create a master detail relation using a cached dataset](../vsto/walkthrough-creating-a-master-detail-relation-using-a-cached-dataset.md)  
-  
-  

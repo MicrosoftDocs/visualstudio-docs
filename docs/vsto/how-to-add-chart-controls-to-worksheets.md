@@ -2,8 +2,7 @@
 title: "How to: Add Chart controls to worksheets"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -87,5 +86,3 @@ ms.workload:
  [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)   
  [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)   
  [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)  
-  
-  

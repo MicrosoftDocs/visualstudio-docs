@@ -2,8 +2,7 @@
 title: "Program document-level customizations"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "Sheet3"
@@ -169,5 +168,3 @@ Globals.ThisDocument.Save();
  [Combine VBA and document-level customizations](../vsto/combining-vba-and-document-level-customizations.md)   
  [Manage documents on a server by using the ServerDocument class](../vsto/managing-documents-on-a-server-by-using-the-serverdocument-class.md)   
  [Write code in Office solutions](../vsto/writing-code-in-office-solutions.md)  
-  
-  

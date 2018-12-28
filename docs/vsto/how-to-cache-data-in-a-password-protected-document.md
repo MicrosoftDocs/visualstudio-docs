@@ -2,8 +2,7 @@
 title: "How to: Cache data in a password-protected document"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -74,5 +73,3 @@ ms.workload:
  [Cache data](../vsto/caching-data.md)   
  [How to: Cache data for use offline or on a server](../vsto/how-to-cache-data-for-use-offline-or-on-a-server.md)   
  [How to: Programmatically cache a data source in an Office document](../vsto/how-to-programmatically-cache-a-data-source-in-an-office-document.md)  
-  
-  

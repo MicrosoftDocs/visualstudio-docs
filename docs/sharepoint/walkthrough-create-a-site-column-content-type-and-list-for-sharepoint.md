@@ -2,8 +2,7 @@
 title: "Walkthrough: Create a Site Column, Content Type, and List for SharePoint | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VS.SharePointTools.ListDesigner.GeneralMessageHelp"
@@ -226,4 +225,3 @@ ms.workload:
  [How to: Create a Custom Field Type](http://go.microsoft.com/fwlink/?LinkId=192079)   
  [Content Types](http://go.microsoft.com/fwlink/?LinkId=192080)   
  [Columns](http://go.microsoft.com/fwlink/?LinkId=192081)  
-  

@@ -2,8 +2,7 @@
 title: "How to: Programmatically use Word dialog boxes in hidden mode"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -41,5 +40,3 @@ ms.workload:
  [Late binding in Office solutions](../vsto/late-binding-in-office-solutions.md)   
  [Reflection (C#)](/dotnet/csharp/programming-guide/concepts/reflection)  
  [Reflection (Visual Basic)](/dotnet/visual-basic/programming-guide/concepts/reflection)  
-  
-  

@@ -2,8 +2,7 @@
 title: "How to: Programmatically retrieve start and end characters in ranges"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -45,5 +44,3 @@ ms.workload:
  [How to: Programmatically collapse ranges or selections in documents](../vsto/how-to-programmatically-collapse-ranges-or-selections-in-documents.md)   
  [How to: Programmatically exclude paragraph marks when creating ranges](../vsto/how-to-programmatically-exclude-paragraph-marks-when-creating-ranges.md)   
  [How to: Programmatically count characters in documents](../vsto/how-to-programmatically-count-characters-in-documents.md)  
-  
-  

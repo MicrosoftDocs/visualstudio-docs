@@ -2,8 +2,7 @@
 title: "Get started programming document-level customizations for Excel"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -68,5 +67,3 @@ ms.workload:
  [Walkthroughs using Excel](../vsto/walkthroughs-using-excel.md)   
  [Excel object model overview](../vsto/excel-object-model-overview.md)   
  [Write code in Office solutions](../vsto/writing-code-in-office-solutions.md)  
-  
-  

@@ -2,8 +2,7 @@
 title: "How to: Programmatically attach files to Outlook email items"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -33,5 +32,3 @@ ms.workload:
  [How to: Programmatically send email](../vsto/how-to-programmatically-send-e-mail-programmatically.md)   
  [How to: Programmatically save attachments from Outlook email items](../vsto/how-to-programmatically-save-attachments-from-outlook-e-mail-items.md)   
  [How to: Programmatically create an email item](../vsto/how-to-programmatically-create-an-e-mail-item.md)  
-  
-  

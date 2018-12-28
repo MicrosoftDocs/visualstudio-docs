@@ -2,8 +2,7 @@
 title: "How to: Manage a Private Gallery By Using Registry Settings | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
+ms.technology: "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "VSIX private galleries, managing"

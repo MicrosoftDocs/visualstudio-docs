@@ -2,8 +2,7 @@
 title: "Guidelines for Importing Reusable Workflows | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -51,5 +50,3 @@ ms.workload:
 ## See also
  [Import items from an existing SharePoint site](../sharepoint/importing-items-from-an-existing-sharepoint-site.md)   
  [Walkthrough: Import a SharePoint Designer reusable workflow into Visual Studio](../sharepoint/walkthrough-import-a-sharepoint-designer-reusable-workflow-into-visual-studio.md)  
-  
-  

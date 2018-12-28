@@ -2,8 +2,7 @@
 title: "Walkthrough: Profiling a SharePoint Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -274,4 +273,3 @@ ms.workload:
  [Performance Session Overview](/visualstudio/profiling/performance-session-overview)   
  [Beginners Guide to Performance Profiling](/visualstudio/profiling/beginners-guide-to-performance-profiling)   
  [Find Application Bottlenecks with Visual Studio Profiler](http://go.microsoft.com/fwlink/?LinkID=137266)  
-  

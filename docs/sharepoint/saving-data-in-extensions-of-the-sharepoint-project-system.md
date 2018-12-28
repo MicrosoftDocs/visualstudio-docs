@@ -2,8 +2,7 @@
 title: "Saving Data in Extensions of the SharePoint Project System | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "SharePoint project items, saving string data"
@@ -54,4 +53,3 @@ ms.workload:
  [Extend the SharePoint project system](../sharepoint/extending-the-sharepoint-project-system.md)   
  [Associate custom data with SharePoint tools extensions](../sharepoint/associating-custom-data-with-sharepoint-tools-extensions.md)   
  [Convert between SharePoint project system types and other Visual Studio project types](../sharepoint/converting-between-sharepoint-project-system-types-and-other-visual-studio-project-types.md)  
-  

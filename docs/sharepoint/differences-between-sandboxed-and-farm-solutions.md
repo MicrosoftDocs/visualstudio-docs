@@ -2,8 +2,7 @@
 title: "Differences Between Sandboxed and Farm Solutions | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -41,4 +40,3 @@ ms.workload:
  [Debug SharePoint solutions](../sharepoint/debugging-sharepoint-solutions.md)   
  [Build and debug SharePoint solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)   
  [Sandboxed solution considerations](../sharepoint/sandboxed-solution-considerations.md)  
-  

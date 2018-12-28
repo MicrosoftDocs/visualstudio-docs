@@ -2,8 +2,7 @@
 title: "Walkthrough: Creating a Workflow with Association and Initiation Forms | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -447,4 +446,3 @@ ms.workload:
 ## See also
  [Create SharePoint workflow solutions](../sharepoint/creating-sharepoint-workflow-solutions.md)   
  [Walkthrough: Add an application page to a workflow](../sharepoint/walkthrough-add-an-application-page-to-a-workflow.md)  
-  

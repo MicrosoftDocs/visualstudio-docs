@@ -2,8 +2,7 @@
 title: "Walkthrough: Create shortcut menus for bookmarks"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -195,5 +194,3 @@ ms.workload:
  [Automate Word by using extended objects](../vsto/automating-word-by-using-extended-objects.md)   
  [Bookmark control](../vsto/bookmark-control.md)   
  [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)  
-  
-  

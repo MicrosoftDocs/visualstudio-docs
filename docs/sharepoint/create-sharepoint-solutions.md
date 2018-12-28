@@ -2,8 +2,7 @@
 title: "Create SharePoint Solutions | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -39,5 +38,3 @@ ms.workload:
 |![Channel 9 Videos](../sharepoint/media/vs-icon-channel9videos.gif "Channel 9 Videos")|**Channel 9 Videos**<br /><br /> -   [Overview of SharePoint Development in Visual Studio 2010](https://channel9.msdn.com/blogs/funkyonex/overview-of-sharepoint-development-in-visual-studio-2010)<br />-   [Best Practices on Building SharePoint 2010 Web Parts with Visual Studio 2010](https://channel9.msdn.com/blogs/funkyonex/best-practices-on-building-sharepoint-2010-web-parts-with-visual-studio-2010)<br />-   [SharePoint Feature and Package Designers in Visual Studio 2010](https://channel9.msdn.com/blogs/funkyonex/sharepoint-feature-and-package-designers-in-visual-studio-2010)|  
 |![Developer Center](../sharepoint/media/vs-icon-msdndevcenter.gif "Developer Center")|**Developer Centers**<br /><br /> -   [Visual Studio Development Center](https://visualstudio.microsoft.com/)<br />-   [SharePoint Developer Center](/sharepoint/dev/)<br />-   [SharePoint Server Developer Center](/previous-versions/office/fp161348\(v\=office.15\))<br />-   [SharePoint Designer Developer Center](/previous-versions/office/fp161348\(v\=office.15\))<br />-   [ASP.NET Developer Center](https://msdn.microsoft.com/aa336522.aspx)|  
 |![Providing Feedback](../sharepoint/media/vs-icon-feedback.gif "Providing Feedback")|**Providing Feedback**<br /><br /> Provide feedback about Visual Studio:<br /><br /> -   [Microsoft Connect](http://go.microsoft.com/fwlink/?LinkID=150463)<br /><br /> Provide feedback about the documentation for Visual Studio:<br /><br /> -   **Lightweight View.** If you are at the top of any topic, you can choose the **Rate this topic** link to jump to the bottom of that topic, where you can specify **Yes** or **No** in response to **Did you find this helpful?** You can then select one or more of the check boxes that appear if you chose **No**, provide more information in the text box, or both. When you finish, choose the **Submit** button.<br />-   **Scriptfree View.** At the top of the topic, choose the **Feedback** link to provide feedback in the TechNet and Expression Library Feedback forum.<br />-   **Classic View.** At the top of the topic, choose the **Click to Rate and Give Feedback** icons to provide feedback about the topic to the documentation team.|  
-  
- 

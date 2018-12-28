@@ -2,8 +2,7 @@
 title: "How to: Re-enable a VSTO Add-in that has been disabled"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VST.Warning.DisabledAddIn"
@@ -74,5 +73,3 @@ ms.workload:
  [Build Office solutions](../vsto/building-office-solutions.md)   
  [Debug Office projects](../vsto/debugging-office-projects.md)   
  [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)  
-  
-  

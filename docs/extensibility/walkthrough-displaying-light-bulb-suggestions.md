@@ -2,8 +2,7 @@
 title: "Walkthrough: Displaying Light Bulb Suggestions | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
+ms.technology: "vs-ide-sdk"
 ms.topic: "conceptual"
 ms.assetid: 99e5566d-450e-4660-9bca-454e1c056a02
 author: "gregvanl"
@@ -360,4 +359,3 @@ Light bulbs are icons in the Visual Studio editor that expand to display a set o
      ![test light bulb, expanded](../extensibility/media/testlightbulbexpanded.gif "TestLIghtBulbExpanded")  
   
 6.  If you click the first action, all the text in the current word should be converted to upper-case. If you click the second action, all the text should be converted to lower-case.  
-  

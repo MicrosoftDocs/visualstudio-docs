@@ -2,8 +2,7 @@
 title: "Work with worksheets"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -49,5 +48,3 @@ ms.workload:
  [Work with workbooks](../vsto/working-with-workbooks.md)   
  [Work with ranges](../vsto/working-with-ranges.md)   
  [Use Windows Forms controls on Excel worksheets](../vsto/using-windows-forms-controls-on-excel-worksheets.md)  
-  
-  

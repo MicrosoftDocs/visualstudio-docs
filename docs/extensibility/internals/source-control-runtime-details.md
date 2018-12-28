@@ -2,8 +2,7 @@
 title: "Source Control Runtime Details | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
+ms.technology: "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "source control [Visual Studio SDK], runtime details"

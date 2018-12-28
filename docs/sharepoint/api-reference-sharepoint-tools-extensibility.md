@@ -2,8 +2,7 @@
 title: "API Reference (SharePoint Tools Extensibility) | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -60,4 +59,3 @@ ms.workload:
  [Extend the SharePoint connections node in Server Explorer](../sharepoint/extending-the-sharepoint-connections-node-in-server-explorer.md)   
  [Extend SharePoint packaging and deployment](../sharepoint/extending-sharepoint-packaging-and-deployment.md)   
  [Call into the SharePoint object models](../sharepoint/calling-into-the-sharepoint-object-models.md)  
-  

@@ -2,8 +2,7 @@
 title: "How to: Install a Source Control Plug-in | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
+ms.technology: "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "installation [Visual Studio SDK], source control plug-ins"

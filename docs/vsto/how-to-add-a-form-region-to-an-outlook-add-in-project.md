@@ -2,8 +2,7 @@
 title: "How to: Add a form region to an Outlook Add-in project"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VSTO.NewFormRegionWizard.Page1"
@@ -69,4 +68,3 @@ ms.workload:
  [Walkthrough: Design an Outlook form region](../vsto/walkthrough-designing-an-outlook-form-region.md)   
  [Walkthrough: Import a form region that is designed in Outlook](../vsto/walkthrough-importing-a-form-region-that-is-designed-in-outlook.md)   
  [Custom actions in Outlook form regions](../vsto/custom-actions-in-outlook-form-regions.md)  
-  

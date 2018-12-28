@@ -2,8 +2,7 @@
 title: "How to: Programmatically retrieve unread messages from the Inbox"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -34,5 +33,3 @@ ms.workload:
  [How to: Programmatically create an email item](../vsto/how-to-programmatically-create-an-e-mail-item.md)   
  [How to: Programmatically send email](../vsto/how-to-programmatically-send-e-mail-programmatically.md)   
  [How to: Programmatically perform actions when an email message is received](../vsto/how-to-programmatically-perform-actions-when-an-e-mail-message-is-received.md)  
-  
-  

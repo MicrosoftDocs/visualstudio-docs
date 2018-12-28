@@ -2,8 +2,7 @@
 title: "Features available by Office application and project type"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -71,5 +70,3 @@ ms.workload:
  [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)   
  [Cached data in document-level customizations](../vsto/cached-data-in-document-level-customizations.md)   
  [Deploy an Office solution](../vsto/deploying-an-office-solution.md)  
-  
-  

@@ -2,8 +2,7 @@
 title: "How to: Programmatically hide worksheets"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -53,4 +52,3 @@ ms.workload:
  [How to: Programmatically protect worksheets](../vsto/how-to-programmatically-protect-worksheets.md)   
  [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)   
  [Global access to objects in Office projects](../vsto/global-access-to-objects-in-office-projects.md)  
-  

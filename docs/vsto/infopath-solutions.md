@@ -2,8 +2,7 @@
 title: "InfoPath solutions"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -64,5 +63,3 @@ ms.workload:
  [Office primary interop assemblies](../vsto/office-primary-interop-assemblies.md)   
  [Office UI customization](../vsto/office-ui-customization.md)   
  [InfoPath 2010 in Office development](http://go.microsoft.com/fwlink/?LinkId=199012)  
-  
-  

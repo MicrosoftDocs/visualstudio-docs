@@ -2,8 +2,7 @@
 title: "Ribbon XML"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VSTO.Ribbon.RibbonXMLItem"
@@ -144,5 +143,3 @@ ms.workload:
  [Ribbon overview](../vsto/ribbon-overview.md)   
  [Walkthrough: Create a custom tab by using Ribbon XML](../vsto/walkthrough-creating-a-custom-tab-by-using-ribbon-xml.md)   
  [Office UI customization](../vsto/office-ui-customization.md)  
-  
-  

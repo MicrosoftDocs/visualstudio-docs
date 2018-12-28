@@ -2,8 +2,7 @@
 title: "Creating a Business Data Connectivity Model | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -67,5 +66,3 @@ ms.workload:
 |[How to: Add an existing BDC model file to a SharePoint project](../sharepoint/how-to-add-an-existing-bdc-model-file-to-a-sharepoint-project.md)|Shows you how to import an existing model into a SharePoint project.|  
 |[How to: Use a resource file to specify localized names, properties, and permissions](../sharepoint/how-to-use-a-resource-file-to-specify-localized-names-properties-and-permissions.md)|Describes how to provide strings that are merged with model metadata when the model is consumed by a Web Part or Web Page.|  
 |[How to: Include a custom assembly in a BDC feature](../sharepoint/how-to-include-a-custom-assembly-in-a-bdc-feature.md)|Shows you how to include a custom assembly in the feature.|  
-  
- 

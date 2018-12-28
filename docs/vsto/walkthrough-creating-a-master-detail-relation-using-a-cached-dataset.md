@@ -2,8 +2,7 @@
 title: "Walkthrough: Create a master detail relation using a cached dataset"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -190,5 +189,3 @@ ms.workload:
  [Data in Office solutions](../vsto/data-in-office-solutions.md)   
  [Cache data](../vsto/caching-data.md)   
  [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)  
-  
-  

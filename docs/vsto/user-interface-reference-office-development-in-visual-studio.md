@@ -2,8 +2,7 @@
 title: "User interface reference (Office development in Visual Studio)"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -41,5 +40,3 @@ ms.workload:
   
  [Office projects in the Visual Studio environment](../vsto/office-projects-in-the-visual-studio-environment.md)  
  Describes how Office projects look in the Visual Studio integrated development environment.  
-  
-  

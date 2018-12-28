@@ -2,8 +2,7 @@
 title: "Browsing SharePoint Connections Using Server Explorer | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VS.SharePointTools.SharePointExplorer.SharePointConnection"
@@ -50,5 +49,3 @@ ms.workload:
   
 ## See also
  [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)  
-  
- 

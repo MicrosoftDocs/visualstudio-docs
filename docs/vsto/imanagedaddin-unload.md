@@ -2,8 +2,7 @@
 title: "IManagedAddin::Unload"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -34,5 +33,3 @@ HRESULT Unload();
 ## See also  
  [IManagedAddin interface](../vsto/imanagedaddin-interface.md)   
  [IManagedAddin::Load](../vsto/imanagedaddin-load.md)  
-  
-  

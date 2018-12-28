@@ -2,8 +2,7 @@
 title: "How to: Add a Custom Property | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VS.SharePointTools.BDC.Property_Editor"
@@ -47,5 +46,3 @@ ms.workload:
  [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md)   
  [Create a business data connectivity model](../sharepoint/creating-a-business-data-connectivity-model.md)   
  [Integrate business data into SharePoint](../sharepoint/integrating-business-data-into-sharepoint.md)  
-  
-  

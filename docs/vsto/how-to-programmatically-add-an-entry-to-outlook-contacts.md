@@ -2,8 +2,7 @@
 title: "How to: Programmatically add an entry to Outlook contacts"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -30,5 +29,3 @@ ms.workload:
  [How to: Programmatically create appointments](../vsto/how-to-programmatically-create-appointments.md)   
  [How to: Programmatically access Outlook contacts](../vsto/how-to-programmatically-access-outlook-contacts.md)   
  [How to: Programmatically search for an email address in contacts](../vsto/how-to-programmatically-search-for-an-e-mail-address-in-contacts.md)  
-  
-  

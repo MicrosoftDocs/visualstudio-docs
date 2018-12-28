@@ -2,8 +2,7 @@
 title: "Common tasks in Office programming"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -231,5 +230,3 @@ ms.workload:
  [Get started &#40;Office development in Visual Studio&#41;](../vsto/getting-started-office-development-in-visual-studio.md)   
  [Features available by Office application and project type](../vsto/features-available-by-office-application-and-project-type.md)   
  [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md)  
-  
-  

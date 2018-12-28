@@ -2,8 +2,7 @@
 title: "How to: Add an Existing BDC Model File to a SharePoint Project | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VS.SharePointTools.BDC.ImportDialog"
@@ -50,5 +49,3 @@ ms.workload:
  [How to: Use a resource file to specify localized names, properties, and permissions](../sharepoint/how-to-use-a-resource-file-to-specify-localized-names-properties-and-permissions.md)   
  [How to: Include a custom assembly in a BDC feature](../sharepoint/how-to-include-a-custom-assembly-in-a-bdc-feature.md)   
  [Integrating business data into SharePoint](../sharepoint/integrating-business-data-into-sharepoint.md)  
-  
- 

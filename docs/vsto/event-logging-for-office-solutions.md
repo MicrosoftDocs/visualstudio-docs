@@ -2,8 +2,7 @@
 title: "Event logging for Office solutions"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -96,5 +95,3 @@ ms.workload:
 ## See also  
  [Deploy an Office solution](../vsto/deploying-an-office-solution.md)   
  [Troubleshoot Office solution deployment](../vsto/troubleshooting-office-solution-deployment.md)  
-  
-  

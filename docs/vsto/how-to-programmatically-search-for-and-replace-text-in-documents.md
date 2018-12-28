@@ -2,8 +2,7 @@
 title: "How to: Programmatically search for and replace text in Documents"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -119,4 +118,3 @@ ms.workload:
  [How to: Programmatically define and select ranges in documents](../vsto/how-to-programmatically-define-and-select-ranges-in-documents.md)   
  [How to: Programmatically restore selections after searches](../vsto/how-to-programmatically-restore-selections-after-searches.md)   
  [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)  
-  

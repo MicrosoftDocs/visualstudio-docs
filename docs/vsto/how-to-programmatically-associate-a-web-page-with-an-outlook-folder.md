@@ -2,8 +2,7 @@
 title: "How to: Programmatically associate a web page with an Outlook folder"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -30,5 +29,3 @@ ms.workload:
  [Work with folders](../vsto/working-with-folders.md)   
  [How to: Programmatically retrieve a folder by name](../vsto/how-to-programmatically-retrieve-a-folder-by-name.md)   
  [How to: Programmatically create custom folder items](../vsto/how-to-programmatically-create-custom-folder-items.md)  
-  
-  

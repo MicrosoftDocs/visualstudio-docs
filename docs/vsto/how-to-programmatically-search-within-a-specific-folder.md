@@ -2,8 +2,7 @@
 title: "How to: Programmatically search within a specific folder"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -28,5 +27,3 @@ ms.workload:
  [Work with folders](../vsto/working-with-folders.md)   
  [Outlook object model overview](../vsto/outlook-object-model-overview.md)   
  [How to: Programmatically retrieve a folder by name](../vsto/how-to-programmatically-retrieve-a-folder-by-name.md)  
-  
-  

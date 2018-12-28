@@ -2,8 +2,7 @@
 title: "Controls on Office documents"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -48,5 +47,3 @@ ms.workload:
   
  [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)  
  Describes how you can display data in Word and Excel documents by binding the data to host controls within the document.  
-  
-  

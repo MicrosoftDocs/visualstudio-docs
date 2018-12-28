@@ -2,8 +2,7 @@
 title: "How to: Resize ListObject controls"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -92,5 +91,3 @@ ms.workload:
  [How to: Add ListObject controls to worksheets](../vsto/how-to-add-listobject-controls-to-worksheets.md)   
  [How to: Resize Bookmark controls](../vsto/how-to-resize-bookmark-controls.md)   
  [How to: Resize NamedRange controls](../vsto/how-to-resize-namedrange-controls.md)  
-  
-  

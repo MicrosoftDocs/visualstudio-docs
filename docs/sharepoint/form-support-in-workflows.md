@@ -2,8 +2,7 @@
 title: "Form Support in Workflows | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -47,5 +46,3 @@ ms.workload:
  [Walkthrough: Create a workflow with association and initiation forms](../sharepoint/walkthrough-creating-a-workflow-with-association-and-initiation-forms.md)   
  [Create SharePoint workflow solutions](../sharepoint/creating-sharepoint-workflow-solutions.md)   
  [Import items from an existing SharePoint site](../sharepoint/importing-items-from-an-existing-sharepoint-site.md)  
-  
-  

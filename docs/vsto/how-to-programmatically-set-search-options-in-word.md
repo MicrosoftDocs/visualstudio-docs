@@ -2,8 +2,7 @@
 title: "How to: Programmatically set search options in Word"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -53,5 +52,3 @@ ms.workload:
  [How to: Programmatically search for and replace text in documents](../vsto/how-to-programmatically-search-for-and-replace-text-in-documents.md)   
  [How to: Programmatically loop through found items in documents](../vsto/how-to-programmatically-loop-through-found-items-in-documents.md)   
  [How to: Programmatically restore selections after searches](../vsto/how-to-programmatically-restore-selections-after-searches.md)  
-  
-  

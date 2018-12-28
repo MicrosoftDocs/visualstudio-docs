@@ -2,8 +2,7 @@
 title: "How to: Programmatically access Outlook contacts"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -37,5 +36,3 @@ ms.workload:
  [How to: Programmatically search for a specific contact](../vsto/how-to-programmatically-search-for-a-specific-contact.md)   
  [How to: Programmatically search for an email address in contacts](../vsto/how-to-programmatically-search-for-an-e-mail-address-in-contacts.md)   
  [How to: Programmatically delete Outlook contacts](../vsto/how-to-programmatically-delete-outlook-contacts.md)  
-  
-  

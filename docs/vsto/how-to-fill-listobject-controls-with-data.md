@@ -2,8 +2,7 @@
 title: "How to: Fill ListObject controls with data"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -65,5 +64,3 @@ ms.workload:
  [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)   
  [How to: Populate worksheets with data from a database](../vsto/how-to-populate-worksheets-with-data-from-a-database.md)   
  [How to: Populate documents with data from services](../vsto/how-to-populate-documents-with-data-from-services.md)  
-  
-  

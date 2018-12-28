@@ -2,8 +2,7 @@
 title: "Walkthrough: Program against events of a NamedRange control"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -161,5 +160,3 @@ ms.workload:
  [How to: Add NamedRange controls to worksheets](../vsto/how-to-add-namedrange-controls-to-worksheets.md)   
  [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)   
  [How to: Create event handlers in Office projects](../vsto/how-to-create-event-handlers-in-office-projects.md)  
-  
-  

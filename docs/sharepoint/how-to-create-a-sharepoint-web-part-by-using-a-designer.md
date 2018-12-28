@@ -2,8 +2,7 @@
 title: "How to: Create a SharePoint Web Part by Using a Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -54,5 +53,3 @@ ms.workload:
  [How to: Create a SharePoint web part](../sharepoint/how-to-create-a-sharepoint-web-part.md)   
  [Walkthrough: Create a web part for SharePoint](../sharepoint/walkthrough-creating-a-web-part-for-sharepoint.md)   
  [Walkthrough: Create a web part for SharePoint by using a designer](../sharepoint/walkthrough-creating-a-web-part-for-sharepoint-by-using-a-designer.md)  
-  
-  

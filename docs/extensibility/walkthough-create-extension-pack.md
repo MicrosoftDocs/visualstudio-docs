@@ -2,8 +2,7 @@
 title: "Create an Extension Pack with the Extension Pack Item Template | Microsoft Docs"
 ms.custom: ""
 ms.date: "07/27/2018"
-ms.technology: 
-  - "vs-ide-sdk"
+ms.technology: "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], new - extensions"

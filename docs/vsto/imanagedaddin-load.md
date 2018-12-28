@@ -2,8 +2,7 @@
 title: "IManagedAddin::Load"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -45,5 +44,3 @@ HRESULT Load([in] BSTR bstrManifestURL,
 ## See also  
  [IManagedAddin Interface](../vsto/imanagedaddin-interface.md)   
  [IManagedAddin::Unload](../vsto/imanagedaddin-unload.md)  
-  
-  

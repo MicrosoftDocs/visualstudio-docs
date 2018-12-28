@@ -2,8 +2,7 @@
 title: "Information rights management and managed code extensions overview"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -42,5 +41,3 @@ ms.workload:
  [Secure Office solutions](../vsto/securing-office-solutions.md)   
  [Deploy an Office solution](../vsto/deploying-an-office-solution.md)   
  [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)  
-  
-  

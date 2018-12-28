@@ -2,8 +2,7 @@
 title: "Run solutions in different versions of Microsoft Office"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -58,5 +57,3 @@ ms.workload:
  [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md)   
  [Visual Studio Tools for Office runtime installation scenarios](../vsto/visual-studio-tools-for-office-runtime-installation-scenarios.md)   
  [Configure a computer to develop Office solutions](../vsto/running-solutions-in-different-versions-of-microsoft-office.md)  
-  
-  

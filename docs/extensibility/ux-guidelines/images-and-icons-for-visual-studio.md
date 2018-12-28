@@ -2,8 +2,7 @@
 title: "Images and Icons for Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "04/26/2017"
-ms.technology: 
-  - "vs-ide-sdk"
+ms.technology: "vs-ide-sdk"
 ms.topic: "conceptual"
 ms.assetid: f410325e-9cf2-4f39-b6d7-b672121c2691
 author: "gregvanl"

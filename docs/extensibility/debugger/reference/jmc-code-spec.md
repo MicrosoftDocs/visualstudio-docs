@@ -2,8 +2,7 @@
 title: "JMC_CODE_SPEC | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
+ms.technology: "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "JMC_CODE_SPEC"

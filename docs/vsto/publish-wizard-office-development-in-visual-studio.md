@@ -2,8 +2,7 @@
 title: "Publish wizard (Office development in Visual Studio)"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VST.ProjectProperties.PublishWizard"
@@ -66,5 +65,3 @@ ms.workload:
  [Deploy an Office solution by using ClickOnce](../vsto/deploying-an-office-solution-by-using-clickonce.md)   
  [Publish Page, Project Designer &#40;Office development in Visual Studio&#41;](../vsto/publish-page-project-designer-office-development-in-visual-studio.md)   
  [Deploy an Office solution](../vsto/deploying-an-office-solution.md)  
-  
-  

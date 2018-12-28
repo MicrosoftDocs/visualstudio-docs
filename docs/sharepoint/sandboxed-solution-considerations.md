@@ -2,8 +2,7 @@
 title: "Sandboxed Solution Considerations | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VS.SharePointTools.Project.SandboxedSolutions"
@@ -139,4 +138,3 @@ ms.workload:
 ## See also
  [Differences between sandboxed and farm solutions](../sharepoint/differences-between-sandboxed-and-farm-solutions.md)   
  [Developing SharePoint Solutions](../sharepoint/developing-sharepoint-solutions.md)  
-  

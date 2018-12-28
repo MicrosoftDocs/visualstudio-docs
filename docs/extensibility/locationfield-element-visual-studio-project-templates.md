@@ -2,8 +2,7 @@
 title: "LocationField Element (Visual Studio Project Templates) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-general"
+ms.technology: "vs-ide-general"
 ms.topic: "conceptual"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/vstemplate/2005#LocationField"

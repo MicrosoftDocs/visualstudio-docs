@@ -2,8 +2,7 @@
 title: "How to: Migrate Extensibility Projects to Visual Studio 2017| Microsoft Docs"
 ms.custom: ""
 ms.date: "11/09/2016"
-ms.technology: 
-  - "vs-ide-sdk"
+ms.technology: "vs-ide-sdk"
 ms.topic: "conceptual"
 ms.assetid: 8ca07b00-a3ff-40ab-b647-c0a93b55e86a
 author: "gregvanl"

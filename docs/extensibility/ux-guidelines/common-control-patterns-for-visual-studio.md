@@ -2,8 +2,7 @@
 title: "Common Control Patterns for Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "04/26/2017"
-ms.technology: 
-  - "vs-ide-sdk"
+ms.technology: "vs-ide-sdk"
 ms.topic: "conceptual"
 ms.assetid: 3e893949-6398-42f1-9eab-a8d8c2b7f02d
 author: "gregvanl"

@@ -2,8 +2,7 @@
 title: "How to: Programmatically display worksheet comments"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -40,5 +39,3 @@ ms.workload:
  [Work with worksheets](../vsto/working-with-worksheets.md)   
  [How to: Programmatically add and delete worksheet comments](../vsto/how-to-programmatically-add-and-delete-worksheet-comments.md)   
  [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)  
-  
-  

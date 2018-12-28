@@ -2,8 +2,7 @@
 title: "What&#39;s New in the Visual Studio 2017 SDK | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/31/2017"
-ms.technology: 
-  - "vs-ide-sdk"
+ms.technology: "vs-ide-sdk"
 ms.topic: "conceptual"
 ms.assetid: 9efcf0a3-dbde-4cab-8ed3-425826a48b2e
 author: "gregvanl"

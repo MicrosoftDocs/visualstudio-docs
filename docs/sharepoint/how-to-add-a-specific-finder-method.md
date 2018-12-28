@@ -2,8 +2,7 @@
 title: "How to: Add a Specific Finder Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -93,4 +92,3 @@ ms.workload:
  [BDC model design tools overview](../sharepoint/bdc-model-design-tools-overview.md)   
  [How to: Add a parameter to a method](../sharepoint/how-to-add-a-parameter-to-a-method.md)   
  [How to: Define a method instance](../sharepoint/how-to-define-a-method-instance.md)  
-  

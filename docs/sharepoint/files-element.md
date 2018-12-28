@@ -2,8 +2,7 @@
 title: "Files Element | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -61,5 +60,3 @@ ms.workload:
   
 ## See also
  [SharePoint project item schema reference](../sharepoint/sharepoint-project-item-schema-reference.md)  
-  
-  

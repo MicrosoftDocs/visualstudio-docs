@@ -2,8 +2,7 @@
 title: "How to: Map ListObject columns to data"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -63,5 +62,3 @@ ms.workload:
  [How to: Fill ListObject controls with data](../vsto/how-to-fill-listobject-controls-with-data.md)   
  [Automate Excel by using extended objects](../vsto/automating-excel-by-using-extended-objects.md)   
  [ListObject control](../vsto/listobject-control.md)  
-  
-  

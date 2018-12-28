@@ -2,8 +2,7 @@
 title: "Walkthrough: Add controls to a worksheet at runtime in VSTO add-in project"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -189,5 +188,3 @@ ms.workload:
  [Controls on Office documents](../vsto/controls-on-office-documents.md)   
  [NamedRange control](../vsto/namedrange-control.md)   
  [ListObject control](../vsto/listobject-control.md)  
-  
-  

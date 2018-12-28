@@ -2,8 +2,7 @@
 title: "How to: Configure a computer to develop Office solutions"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -35,5 +34,3 @@ ms.workload:
  [Get started &#40;Office development in Visual Studio&#41;](../vsto/getting-started-office-development-in-visual-studio.md)   
  [How to: Install the Visual Studio Tools for Office runtime redistributable](../vsto/how-to-install-the-visual-studio-tools-for-office-runtime-redistributable.md)   
  [How to: Install Office primary interop assemblies](../vsto/how-to-install-office-primary-interop-assemblies.md)  
-  
-  

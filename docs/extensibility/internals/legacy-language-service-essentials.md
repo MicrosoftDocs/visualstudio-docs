@@ -2,8 +2,7 @@
 title: "Legacy Language Service Essentials | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
+ms.technology: "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "languages, integrating into Visual Studio"
@@ -44,4 +43,3 @@ You must provide a language service to integrate a programming language into Vis
 |-----------------------| - |
 | Expression evaluators | Supports the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] debugger by validating breakpoints and supplying a list of expressions to be displayed in the **Autos** debug window.<br /><br /> For more information, see [Language Service Support for Debugging](../../extensibility/internals/language-service-support-for-debugging.md). |
 | Symbol-browsing tools | Supports **Object Browser**, **Class View**, **Call Browser**, and **Find Symbol Results**. |
-

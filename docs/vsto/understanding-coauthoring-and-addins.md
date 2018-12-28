@@ -2,8 +2,7 @@
 title: "Understand coauthoring and Add-ins"
 ms.custom: ""
 ms.date: "07/20/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"

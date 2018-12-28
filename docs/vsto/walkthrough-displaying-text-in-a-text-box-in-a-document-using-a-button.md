@@ -2,8 +2,7 @@
 title: "Walkthrough: Display text in a text box in a document using a Button"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -112,5 +111,3 @@ ms.workload:
  [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md)   
  [How to: Add Windows Forms controls to Office documents](../vsto/how-to-add-windows-forms-controls-to-office-documents.md)   
  [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)  
-  
-  

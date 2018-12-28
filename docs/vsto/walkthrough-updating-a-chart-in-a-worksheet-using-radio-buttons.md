@@ -2,8 +2,7 @@
 title: "Walkthrough: Updating a Chart in a Worksheet Using Radio Buttons"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -254,4 +253,3 @@ ms.workload:
 
 ## See also  
  [Walkthroughs using Excel](../vsto/walkthroughs-using-excel.md)  
-

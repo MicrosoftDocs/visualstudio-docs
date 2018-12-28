@@ -2,8 +2,7 @@
 title: "Walkthrough: Creating and Debugging a SharePoint Workflow Solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VS.SharePointTools.Workflow.WorkflowConditions"
@@ -290,4 +289,3 @@ ms.workload:
  [Create SharePoint workflow solutions](../sharepoint/creating-sharepoint-workflow-solutions.md)   
  [SharePoint project and project item templates](../sharepoint/sharepoint-project-and-project-item-templates.md)   
  [Build and debug SharePoint solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)  
-  

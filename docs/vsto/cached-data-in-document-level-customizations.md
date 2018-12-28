@@ -2,8 +2,7 @@
 title: "Cached data in document-level customizations"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -60,5 +59,3 @@ ms.workload:
 ## See also  
  [Data in Office solutions](../vsto/data-in-office-solutions.md)   
  [Architecture of Office solutions in Visual Studio](../vsto/architecture-of-office-solutions-in-visual-studio.md)  
-  
-  

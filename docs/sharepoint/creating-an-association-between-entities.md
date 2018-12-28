@@ -2,8 +2,7 @@
 title: "Creating an Association Between Entities | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VS.SharePointTools.BDC.Association_Dialog"
@@ -76,5 +75,3 @@ ms.workload:
 ## See also
  [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md)   
  [How to: Create an association between entities](../sharepoint/how-to-create-an-association-between-entities.md)  
-  
- 

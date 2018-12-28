@@ -2,8 +2,7 @@
 title: "How to: Programmatically search for a specific contact"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -29,5 +28,3 @@ ms.workload:
 ## See also  
  [Work with contact items](../vsto/working-with-contact-items.md)   
  [Get started programming VSTO Add-ins](../vsto/getting-started-programming-vsto-add-ins.md)  
-  
-  

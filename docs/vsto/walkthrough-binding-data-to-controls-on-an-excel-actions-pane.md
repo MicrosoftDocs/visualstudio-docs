@@ -2,8 +2,7 @@
 title: "Walkthrough: Bind data to controls on an Excel actions pane"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -184,5 +183,3 @@ ms.workload:
  [Actions pane overview](../vsto/actions-pane-overview.md)   
  [How to: Manage control layout on actions panes](../vsto/how-to-manage-control-layout-on-actions-panes.md)   
  [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)  
-  
-  

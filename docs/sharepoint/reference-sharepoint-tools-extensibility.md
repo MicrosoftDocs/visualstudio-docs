@@ -2,8 +2,7 @@
 title: "Reference (SharePoint Tools Extensibility) | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -28,4 +27,3 @@ ms.workload:
   
 ## See also
  [Extend the SharePoint tools in Visual Studio](../sharepoint/extending-the-sharepoint-tools-in-visual-studio.md)  
-  

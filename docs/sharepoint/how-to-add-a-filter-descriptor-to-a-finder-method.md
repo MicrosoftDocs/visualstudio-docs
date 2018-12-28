@@ -2,8 +2,7 @@
 title: "How to: Add a Filter Descriptor to a Finder Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -73,5 +72,3 @@ ms.workload:
  [How to: Define the type descriptor of a parameter](../sharepoint/how-to-define-the-type-descriptor-of-a-parameter.md)   
  [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md)   
  [Integrating business data into SharePoint](../sharepoint/integrating-business-data-into-sharepoint.md)  
-  
-  

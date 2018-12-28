@@ -3,8 +3,7 @@ title: "How to: Map schemas to Word documents inside Visual Studio"
 titleSuffix: ""
 ms.custom: "seodec18"
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -62,5 +61,3 @@ ms.workload:
 ## See also  
  [How to: Map schemas to worksheets inside Visual Studio](../vsto/how-to-map-schemas-to-worksheets-inside-visual-studio.md)   
  [XML schemas and data in document-level customizations](../vsto/xml-schemas-and-data-in-document-level-customizations.md)  
-  
-  

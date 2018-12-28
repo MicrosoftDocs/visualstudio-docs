@@ -2,8 +2,7 @@
 title: "Trust Office solutions by using inclusion lists"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -42,5 +41,3 @@ ms.workload:
 ## See also  
  [Grant trust to Office solutions](../vsto/granting-trust-to-office-solutions.md)   
  [Secure Office solutions](../vsto/securing-office-solutions.md)  
-  
-  

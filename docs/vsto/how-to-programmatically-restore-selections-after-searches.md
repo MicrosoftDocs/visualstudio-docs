@@ -2,8 +2,7 @@
 title: "How to: Programmatically restore selections after searches"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -53,5 +52,3 @@ ms.workload:
  [How to: Programmatically set search options in Word](../vsto/how-to-programmatically-set-search-options-in-word.md)   
  [How to: Programmatically loop through found items in documents](../vsto/how-to-programmatically-loop-through-found-items-in-documents.md)   
  [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)  
-  
-  

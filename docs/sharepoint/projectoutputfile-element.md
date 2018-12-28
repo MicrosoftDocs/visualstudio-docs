@@ -2,8 +2,7 @@
 title: "ProjectOutputFile Element | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -68,4 +67,3 @@ ms.workload:
  [SharePoint project item schema reference](../sharepoint/sharepoint-project-item-schema-reference.md)   
  [Provide packaging and deployment information in project items](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md)   
  [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)  
-  

@@ -2,8 +2,7 @@
 title: "AsyncTaskMethodBuilder&lt;TResult&gt;.m_task Field | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
+ms.technology: "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "m_task field, AsyncTaskMethodBuilder<TResult> structure [.NET Framework debug engines]"

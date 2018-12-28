@@ -2,8 +2,7 @@
 title: "How to: Create event handlers in Office projects"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -51,5 +50,3 @@ ms.workload:
  [Write code in Office solutions](../vsto/writing-code-in-office-solutions.md)   
  [Walkthrough: Program against events of a NamedRange control](../vsto/walkthrough-programming-against-events-of-a-namedrange-control.md)   
  [Build Office solutions](../vsto/building-office-solutions.md)  
-  
-  
