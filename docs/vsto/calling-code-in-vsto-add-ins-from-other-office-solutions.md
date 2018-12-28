@@ -1,7 +1,6 @@
 ---
 title: "Call code in VSTO Add-ins from other Office solutions"
 ms.date: "02/02/2017"
-ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"

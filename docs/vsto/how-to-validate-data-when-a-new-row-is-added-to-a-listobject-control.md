@@ -1,7 +1,6 @@
 ---
 title: "How to: Validate data when a new row is added to a ListObject control"
 ms.date: "02/02/2017"
-ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"

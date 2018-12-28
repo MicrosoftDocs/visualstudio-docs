@@ -1,7 +1,6 @@
 ---
 title: "Write code in Office solutions"
 ms.date: "02/02/2017"
-ms.technology: "office-development"
 ms.topic: "conceptual"
 f1_keywords:
   - "VST.Project.RefactoringCancelled"

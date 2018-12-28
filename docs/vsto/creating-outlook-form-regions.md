@@ -1,7 +1,6 @@
 ---
 title: "Create Outlook form regions"
 ms.date: "02/02/2017"
-ms.technology: "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "MICROSOFT.OFFICE.TOOLS.OUTLOOK.FORMREGION"

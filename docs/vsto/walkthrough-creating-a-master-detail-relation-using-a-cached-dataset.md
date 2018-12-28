@@ -1,7 +1,6 @@
 ---
 title: "Walkthrough: Create a master detail relation using a cached dataset"
 ms.date: "02/02/2017"
-ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"

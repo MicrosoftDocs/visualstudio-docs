@@ -1,7 +1,6 @@
 ---
 title: "Walkthrough: Create your first VSTO Add-in for Excel"
 ms.date: "02/02/2017"
-ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"

@@ -1,7 +1,6 @@
 ---
 title: "How to: Programmatically use Word dialog boxes in hidden mode"
 ms.date: "02/02/2017"
-ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"

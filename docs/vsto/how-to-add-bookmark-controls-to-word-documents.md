@@ -1,7 +1,6 @@
 ---
 title: "How to: Add Bookmark controls to Word documents"
 ms.date: "02/02/2017"
-ms.technology: "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VST.Bookmark.Dialog"

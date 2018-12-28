@@ -3,7 +3,6 @@ title: "Create VSTO Add-ins for Office by using Visual Studio"
 titleSuffix: ""
 ms.custom: "seodec18"
 ms.date: "02/02/2017"
-ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"

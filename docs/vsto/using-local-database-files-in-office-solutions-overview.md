@@ -1,7 +1,6 @@
 ---
 title: "Use local database files in Office solutions overview"
 ms.date: "02/02/2017"
-ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"

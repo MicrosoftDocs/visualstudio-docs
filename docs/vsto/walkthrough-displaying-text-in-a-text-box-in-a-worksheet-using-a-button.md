@@ -1,7 +1,6 @@
 ---
 title: "Walkthrough: Display text in a text box in a worksheet using a button"
 ms.date: "02/02/2017"
-ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"

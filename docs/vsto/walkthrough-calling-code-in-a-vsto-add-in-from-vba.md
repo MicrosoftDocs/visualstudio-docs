@@ -1,7 +1,6 @@
 ---
 title: "Walkthrough: Call code in a VSTO Add-in from VBA"
 ms.date: "02/02/2017"
-ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"

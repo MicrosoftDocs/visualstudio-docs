@@ -1,7 +1,6 @@
 ---
 title: "One or more properties in the .ofs file are not valid for the message class selected"
 ms.date: "02/02/2017"
-ms.technology: "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VSTO.NewFormRegionWizard.OFSPropertyError"

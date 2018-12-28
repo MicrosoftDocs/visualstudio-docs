@@ -1,7 +1,6 @@
 ---
 title: "Combine VBA and document-level customizations"
 ms.date: "02/02/2017"
-ms.technology: "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VST.VBAInterop.InvalidAssemblyVersion"
