@@ -4,7 +4,7 @@ description: "Learn how to create a simple Hello World console app in Visual Stu
 ms.date: 12/10/2017
 ms.prod: visual-studio-dev15
 ms.custom: "seodec18"
-ms.technology: vs-acquisition
+ms.technology: vs-ide-general
 ms.topic: quickstart
 ms.devlang: vb
 author: TerryGLee

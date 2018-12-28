@@ -94,7 +94,27 @@
     },
     "fileMetadata": {
       "ms.technology": {
-        "help-viewer/**/**.md": "vs-help-viewer"
+        "ai/**/**.md": "vs-ai-tools",
+        "azure/**/**.md": "vs-azure",
+        "code-quality/**/**.md": "vs-ide-code-analysis",
+        "data-tools/**/**.md": "vs-data-tools",
+        "debugger/**/**.md": "vs-ide-debug",
+        "deployment/**/**.md": "vs-ide-deployment",
+        "designers/**/**.md": "vs-ide-designers",
+        "extensibility/**/**.md": "vs-ide-sdk",
+        "help-viewer/**/**.md": "vs-help-viewer",
+        "install/**/**.md": "vs-installation",
+        "javascript/**/**.md": "vs-nodejs",
+        "modeling/**/**.md": "vs-ide-modeling",
+        "msbuild/**/**.md": "msbuild",
+        "profiling/**/**.md": "vs-ide-debug",
+        "python/**/**.md": "vs-python",
+        "rtvs/**/**.md": "vs-rtvs",
+        "sharepoint/**/**.md": "office-development",
+        "test/**/**.md": "vs-ide-test",
+        "vsto/**/**.md": "office-development",
+        "workflow-designer/**/**.md": "vs-workflow-designer",
+        "xml-tools/**/**.md": "vs-xml-tools"
       },
       "titleSuffix": {
         "vs-2015/**/**.md": "Visual Studio 2015"

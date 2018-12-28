@@ -3,7 +3,7 @@ title: "Step 11: Run your program and try other features"
 ms.custom: ""
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-acquisition
+ms.technology: vs-ide-general
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.assetid: 656614d0-4fe7-4a67-8edc-c10919377d09
