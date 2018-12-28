@@ -9,7 +9,7 @@ ms.custom: vs-azure
 ms.workload: azure-vs
 ms.date: 11/11/2016
 ms.author: mikejo
-ms.prod: visual-studo-dev15
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-debug
 ms.custom: seodec18
 ---
