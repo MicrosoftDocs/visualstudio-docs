@@ -9,7 +9,6 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ---
 # How to: Specify the sample rate for a load test run setting
 

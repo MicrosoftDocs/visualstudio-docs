@@ -10,7 +10,6 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ---
 # How to: Specify if test failures are saved to test logs using the Load Test Editor
 

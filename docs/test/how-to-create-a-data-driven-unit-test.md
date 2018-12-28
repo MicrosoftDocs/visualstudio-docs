@@ -2,7 +2,6 @@
 title: "How To: Create a Data-Driven Unit Test"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 f1_keywords:
   - "vs.test.testresults.unittest.datadriven"

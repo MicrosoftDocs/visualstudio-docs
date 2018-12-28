@@ -12,7 +12,6 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ---
 # How to: Zoom in on a region of the graph in load test results
 
