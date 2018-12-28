@@ -1,7 +1,6 @@
 ---
 title: "How to: Customize Report View Columns | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.test.columnchooser.dialogbox"

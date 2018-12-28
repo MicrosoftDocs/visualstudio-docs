@@ -1,7 +1,6 @@
 ---
 title: "DA0503: Average Working Set in Bytes for the Process being profiled | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.performance.503"

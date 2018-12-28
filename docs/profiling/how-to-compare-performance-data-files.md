@@ -1,7 +1,6 @@
 ---
 title: "How to: Compare Performance Data Files | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vsperf.choosediffbinaries"

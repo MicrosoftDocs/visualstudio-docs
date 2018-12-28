@@ -2,7 +2,6 @@
 title: "Analyze JavaScript Memory Usage in UWP Apps | Microsoft Docs"
 ms.custom: "H1Hack27Feb2017"
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "JavaScript"

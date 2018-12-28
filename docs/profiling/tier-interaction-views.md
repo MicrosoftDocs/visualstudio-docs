@@ -1,7 +1,6 @@
 ---
 title: "Tier Interaction Views | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "profiling tools, tier interaction method views"

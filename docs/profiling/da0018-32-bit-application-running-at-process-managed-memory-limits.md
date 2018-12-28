@@ -1,7 +1,6 @@
 ---
 title: "DA0018: 32-bit Application running at process managed memory limits | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.performance.18"

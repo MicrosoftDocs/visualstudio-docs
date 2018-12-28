@@ -1,7 +1,6 @@
 ---
 title: "Collecting .NET Memory Allocation and Lifetime Data | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - ".NET memory profiling method"

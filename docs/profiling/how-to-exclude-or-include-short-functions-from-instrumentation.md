@@ -1,7 +1,6 @@
 ---
 title: "How to: Exclude or Include Short Functions from Instrumentation | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "profiling tools, instrument events"

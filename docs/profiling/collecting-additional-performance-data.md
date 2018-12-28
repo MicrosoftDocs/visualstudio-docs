@@ -1,7 +1,6 @@
 ---
 title: "Collecting Additional Performance Data | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 author: "mikejo5000"
 ms.author: "mikejo"

@@ -1,7 +1,6 @@
 ---
 title: "Modules View - .NET Memory Sampling Data | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Modules view"

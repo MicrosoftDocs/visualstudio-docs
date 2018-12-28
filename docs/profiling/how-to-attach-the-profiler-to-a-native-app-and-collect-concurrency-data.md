@@ -2,7 +2,6 @@
 title: "Attach the profiler to a native app and collect concurrency data"
 ms.custom: "seodec18"
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: 12d3e0f3-4b74-4e66-8fbf-8ac99bd4f91c
 author: "mikejo5000"

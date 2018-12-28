@@ -2,7 +2,6 @@
 title: "Analyze CPU usage | Microsoft Docs"
 ms.custom: "seodec18"
 ms.date: "11/04/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: 7501a20d-04a1-480f-a69c-201524aa709d
 author: "mikejo5000"

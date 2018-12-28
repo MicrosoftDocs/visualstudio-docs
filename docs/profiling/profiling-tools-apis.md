@@ -1,7 +1,6 @@
 ---
 title: "Profiling Tools APIs | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: bd9ca972-e5bf-45a6-9a5d-ac30a4d9ee02
 author: "mikejo5000"

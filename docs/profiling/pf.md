@@ -1,7 +1,6 @@
 ---
 title: "PF | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: cdc0a094-a986-4629-bd1c-dd5fdca323dc
 author: "mikejo5000"

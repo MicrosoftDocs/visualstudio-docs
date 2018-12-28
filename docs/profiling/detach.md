@@ -1,7 +1,6 @@
 ---
 title: "Detach | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: d9d1b52c-7f28-467d-b1e0-512afc4e46c9
 author: "mikejo5000"

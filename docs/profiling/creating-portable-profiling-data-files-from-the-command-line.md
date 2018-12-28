@@ -1,7 +1,6 @@
 ---
 title: "Creating Portable Profiling Data Files from the Command Line | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: 2ceb63a7-b835-4988-b756-2afc3fcc4808
 author: "mikejo5000"

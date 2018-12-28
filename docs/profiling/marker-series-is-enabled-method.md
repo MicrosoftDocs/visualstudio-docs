@@ -1,7 +1,6 @@
 ---
 title: "marker_series::is_enabled Method | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "cvmarkersobj/Concurrency::diagnostic::marker_series::is_enabled"

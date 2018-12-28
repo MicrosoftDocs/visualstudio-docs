@@ -1,7 +1,6 @@
 ---
 title: "How to: Filter Report Views from the Summary Timeline | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: 056b10a0-952b-4790-89e0-02aebe902e87
 author: "mikejo5000"

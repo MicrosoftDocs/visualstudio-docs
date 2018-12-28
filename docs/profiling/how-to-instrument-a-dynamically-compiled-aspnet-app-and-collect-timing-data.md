@@ -1,7 +1,6 @@
 ---
 title: "How to: Instrument a Dynamically Compiled ASP.NET Web Application and Collect Detailed Timing Data with the Profiler by Using the Command Line | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 author: "mikejo5000"
 ms.author: "mikejo"

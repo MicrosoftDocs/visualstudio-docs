@@ -1,7 +1,6 @@
 ---
 title: "Concurrency Visualizer Markers | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.cv.markersui"

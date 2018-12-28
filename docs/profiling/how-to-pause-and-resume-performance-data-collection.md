@@ -1,7 +1,6 @@
 ---
 title: "How to: Pause and Resume Performance Data Collection | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "profiling tools, remote profiling"

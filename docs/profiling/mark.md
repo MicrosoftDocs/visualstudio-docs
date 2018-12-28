@@ -1,7 +1,6 @@
 ---
 title: "Mark | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: 1d72cef3-bb09-4bbb-8864-6ea0ab623ff9
 author: "mikejo5000"

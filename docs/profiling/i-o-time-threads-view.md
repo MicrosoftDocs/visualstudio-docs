@@ -1,7 +1,6 @@
 ---
 title: "I-O Time (Threads View) | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.cv.threads.timeline.io"

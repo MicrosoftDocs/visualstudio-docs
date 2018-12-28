@@ -1,7 +1,6 @@
 ---
 title: "LineOff | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: 76082063-20ef-47ae-ad64-81b43b654865
 author: "mikejo5000"
