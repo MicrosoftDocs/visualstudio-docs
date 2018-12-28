@@ -4,7 +4,7 @@ titleSuffix: ""
 description: "Learn how to create a simple Hello World console app in Visual Studio with C#, step-by-step."
 ms.date: 09/21/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-acquisition
+ms.technology: vs-ide-general
 ms.custom: "seodec18"
 ms.topic: quickstart
 ms.devlang: vb

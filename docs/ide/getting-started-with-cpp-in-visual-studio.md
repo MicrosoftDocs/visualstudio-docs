@@ -4,7 +4,7 @@ description: ""
 ms.custom: mvc
 ms.date: 12/04/2017
 ms.prod: visual-studio-dev15
-ms.technology: vs-acquisition
+ms.technology: vs-ide-general
 ms.prod: visual-studio-dev15
 ms.topic: tutorial
 author: corob-msft
