@@ -55,7 +55,7 @@ Specifies the name or strong name of the assembly that implements the `IWizard` 
 ## Example  
  The following example illustrates the metadata for the standard project template for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] Windows application.  
   
-```  
+```xml
 <VSTemplate Version="3.0.0" Type="Item"  
     xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">  
     <TemplateData>  
@@ -81,9 +81,10 @@ Specifies the name or strong name of the assembly that implements the `IWizard` 
         <FullClassName>MyWizard.CustomWizard</FullClassName>  
     </WizardExtension>  
 </VSTemplate>  
-```  
+```
   
-## See also  
- [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)   
- [Creating project and item templates](../ide/creating-project-and-item-templates.md)   
- [How to: Use wizards with project templates](../extensibility/how-to-use-wizards-with-project-templates.md)
+## See also
+
+- [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)
+- [Creating project and item templates](../ide/creating-project-and-item-templates.md)
+- [How to: Use wizards with project templates](../extensibility/how-to-use-wizards-with-project-templates.md)

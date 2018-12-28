@@ -2,7 +2,6 @@
 title: "Troubleshoot template discovery in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/02/2018"
-ms.technology: vs-ide-sdk
 ms.topic: "conceptual"
 author: "gregvanl"
 ms.author: "gregvanl"
