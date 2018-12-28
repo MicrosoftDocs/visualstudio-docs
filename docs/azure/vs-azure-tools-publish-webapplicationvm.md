@@ -6,6 +6,7 @@ manager: douge
 assetId: de4cec95-f73f-44d9-babd-9f47f2633cdb
 ms.prod: visual-studio-dev15
 ms.technology: vs-azure
+ms.custom: vs-azure
 ms.workload: azure-vs
 ms.topic: conceptual
 ms.date: 11/11/2016
@@ -175,3 +176,4 @@ The JSON configuration file specifies the details of what is to be deployed. It 
 ```
 
 You can edit the JSON configuration file to change what is provisioned. A virtual machine and a cloud service are required, but the database section is optional.
+
