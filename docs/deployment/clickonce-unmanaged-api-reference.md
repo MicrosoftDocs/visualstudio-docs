@@ -12,7 +12,6 @@ api_type:
   - "COM"
 topic_type: 
   - "apiref"
-ms.technology: vs-ide-deployment
 ms.topic: "reference"
 dev_langs: 
   - "VB"

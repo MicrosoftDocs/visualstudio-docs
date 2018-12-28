@@ -2,7 +2,6 @@
 title: "Securing ClickOnce Applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/17/2017"
-ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"

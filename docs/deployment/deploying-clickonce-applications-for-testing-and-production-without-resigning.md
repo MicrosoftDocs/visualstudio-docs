@@ -2,7 +2,6 @@
 title: "Deploying ClickOnce Applications For Testing and Production Servers without Resigning | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
