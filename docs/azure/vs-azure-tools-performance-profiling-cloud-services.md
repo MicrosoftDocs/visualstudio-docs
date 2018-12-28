@@ -9,7 +9,6 @@ ms.workload: azure-vs
 ms.date: 11/11/2016
 ms.author: mikejo
 ms.prod: visual-studio-dev15
-ms.technology: vs-azure
 ---
 # Testing the performance of a cloud service
 ## Overview
@@ -104,4 +103,3 @@ A profiling session is created for each instance of a role in your cloud service
 [Debugging Cloud Services](vs-azure-tools-debug-cloud-services-virtual-machines.md)
 
 [Publishing to an Azure Cloud Service from Visual Studio](vs-azure-tools-publishing-a-cloud-service.md)
-
