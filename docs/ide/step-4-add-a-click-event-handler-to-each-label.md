@@ -3,7 +3,6 @@ title: "Step 4: Add a click event handler to each label"
 ms.custom: ""
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.assetid: 16bdbc7c-4129-411d-bace-f4a3e5375975

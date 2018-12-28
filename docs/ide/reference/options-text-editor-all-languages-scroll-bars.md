@@ -2,7 +2,6 @@
 title: Options, Text Editor, All Languages, Scroll Bars
 ms.date: 10/25/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.All_Languages.Scroll_Bars"

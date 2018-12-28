@@ -2,7 +2,6 @@
 title: Advanced Build Settings Dialog Box (C#)
 ms.date: 06/20/2017
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "cs.AdvancedBuildSettings"

@@ -4,7 +4,6 @@ description: Learn how to use the code editor and other tools in Visual Studio t
 ms.date: 01/01/2018
 layout: LandingPage
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: landing-page
 author: gewarren
 ms.author: gewarren

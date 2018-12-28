@@ -2,7 +2,6 @@
 title: -Diff
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 ms.assetid: 5377fedb-632a-4e86-a947-7c11c86451e7
 author: gewarren

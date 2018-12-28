@@ -2,7 +2,6 @@
 title: Manage references in a project
 ms.date: 04/11/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 f1_keywords:
   - "vs.ProjectPropertiesReferencePaths"
