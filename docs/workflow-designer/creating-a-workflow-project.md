@@ -3,7 +3,6 @@ title: Create a Workflow Foundation project
 ms.date: 06/25/2018
 ms.topic: conceptual
 ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 helpviewer_keywords:
   - "Workflow Designer, creating a workflow project"
   - "creating a workflow project"
