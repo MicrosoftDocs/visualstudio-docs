@@ -2,7 +2,6 @@
 title: "How to: Run Code Analysis Manually for Managed Code"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "code analysis, running"

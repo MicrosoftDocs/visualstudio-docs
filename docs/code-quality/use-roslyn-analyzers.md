@@ -2,7 +2,6 @@
 title: Use and configure Roslyn analyzers
 ms.date: 03/26/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: conceptual
 helpviewer_keywords:
   - "code analysis, managed code"

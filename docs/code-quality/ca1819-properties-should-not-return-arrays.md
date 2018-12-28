@@ -2,7 +2,6 @@
 title: "CA1819: Properties should not return arrays"
 ms.date: 09/28/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "PropertiesShouldNotReturnArrays"

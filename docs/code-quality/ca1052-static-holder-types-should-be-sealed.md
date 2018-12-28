@@ -2,7 +2,6 @@
 title: "CA1052: Static holder types should be sealed"
 ms.date: 11/09/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "StaticHolderTypesShouldBeSealed"

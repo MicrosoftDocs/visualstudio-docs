@@ -2,7 +2,6 @@
 title: "CA1065: Do not raise exceptions in unexpected locations"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA1065"
