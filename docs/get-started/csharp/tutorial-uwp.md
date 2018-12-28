@@ -4,8 +4,7 @@ titleSuffix: ""
 ms.custom: "seodec18, get-started"
 ms.date: "04/04/2018"
 ms.prod: visual-studio-dev15
-ms.technology:
-  - "vs-ide-general"
+ms.technology: vs-ide-general
 ms.topic: tutorial
 ms.devlang: CSharp
 author: TerryGLee
