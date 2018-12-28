@@ -2,7 +2,6 @@
 title: "Implementing Syntax Coloring | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "syntax coloring, implementing"

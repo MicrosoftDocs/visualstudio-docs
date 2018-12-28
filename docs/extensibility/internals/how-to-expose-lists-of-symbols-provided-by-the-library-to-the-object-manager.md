@@ -2,7 +2,6 @@
 title: "Expose Lists of Symbols Provided to the Object Manager | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IVsSimpleLibrary2 interface, lists of symbols"

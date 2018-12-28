@@ -1,7 +1,6 @@
 ---
 title: "Command Availability | Microsoft Docs"
 ms.date: 03/22/2018
-ms.technology: "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "commands, context"

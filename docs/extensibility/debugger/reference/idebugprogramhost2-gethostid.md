@@ -2,7 +2,6 @@
 title: "IDebugProgramHost2::GetHostId | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProgramHost2::GetHostId"

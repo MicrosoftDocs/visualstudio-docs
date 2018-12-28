@@ -2,7 +2,6 @@
 title: "Checklist: Creating New Project Types | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "projects [Visual Studio SDK], creating new types"

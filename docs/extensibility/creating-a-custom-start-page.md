@@ -2,7 +2,6 @@
 title: "Creating a Custom Start Page | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-sdk"
 ms.topic: "conceptual"
 ms.assetid: d67e0c53-9f5a-45fb-a929-b9d2125c3c82
 author: "gregvanl"

@@ -2,7 +2,6 @@
 title: "Animations for Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "04/26/2017"
-ms.technology: "vs-ide-sdk"
 ms.topic: "conceptual"
 ms.assetid: 446773a9-e6f7-4c0c-8dbc-9e303bf32eb1
 author: "gregvanl"

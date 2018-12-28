@@ -2,7 +2,6 @@
 title: "IDebugProgramNodeAttach2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProgramNodeAttach2"

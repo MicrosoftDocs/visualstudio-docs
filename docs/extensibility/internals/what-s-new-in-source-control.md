@@ -2,7 +2,6 @@
 title: "What&#39;s New in Source Control | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "what's new [Visual Studio SDK], source control"

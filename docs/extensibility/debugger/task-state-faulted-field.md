@@ -2,7 +2,6 @@
 title: "TASK_STATE_FAULTED Field | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "TASK_STATE_FAULTED field, Task class [.NET Framework debug engines]"

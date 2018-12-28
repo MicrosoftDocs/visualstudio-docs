@@ -2,7 +2,6 @@
 title: "IDebugFunctionObject2::Evaluate | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugFunctionObject2::Evaluate"

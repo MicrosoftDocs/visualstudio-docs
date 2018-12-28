@@ -1,7 +1,6 @@
 ---
 title: "Project Property User Interface | Microsoft Docs"
 ms.date: 03/22/2018
-ms.technology: "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "project properties [Visual Studio], user interface"

@@ -8,7 +8,6 @@ ms.date: 08/04/2017
 ms.topic: conceptual
 ms.assetid: 694ffb31-132c-4d63-b930-8254e7c50c25
 ms.reviewer: "Jamie.Young"
-ms.technology: "vs-ide-sdk"
 manager: douge
 ---
 # Color value reference for Visual Studio

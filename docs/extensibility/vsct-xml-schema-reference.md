@@ -2,7 +2,6 @@
 title: "VSCT XML Schema Reference | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Visual Studio command table configuration files (VSCT), XML schema"

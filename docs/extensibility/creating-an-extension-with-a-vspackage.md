@@ -2,7 +2,6 @@
 title: "Creating an Extension with a VSPackage | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-sdk"
 ms.topic: "conceptual"
 ms.assetid: c0cc5e08-4897-44f2-8309-e3478f1f999e
 author: "gregvanl"

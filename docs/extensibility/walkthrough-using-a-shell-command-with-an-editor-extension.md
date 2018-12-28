@@ -2,7 +2,6 @@
 title: "Walkthrough: Using a Shell Command with an Editor Extension | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], new - add a menu command"

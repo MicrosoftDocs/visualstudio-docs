@@ -2,7 +2,6 @@
 title: "Extending the Output Window | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Output window, about Output window"
