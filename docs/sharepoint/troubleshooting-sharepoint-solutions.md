@@ -1,7 +1,6 @@
 ---
 title: "Troubleshooting SharePoint Solutions | Microsoft Docs"
 ms.date: "02/22/2017"
-ms.technology: "office-development"
 ms.topic: "conceptual"
 f1_keywords:
   - "Microsoft.VisualStudio.Tools.SharePoint.Errors.Debugging"

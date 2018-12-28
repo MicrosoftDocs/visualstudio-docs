@@ -1,7 +1,6 @@
 ---
 title: "SharePoint Project and Project Item Templates | Microsoft Docs"
 ms.date: "02/22/2017"
-ms.technology: "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VS.SharePointTools.SPE.FirstWizardPage"

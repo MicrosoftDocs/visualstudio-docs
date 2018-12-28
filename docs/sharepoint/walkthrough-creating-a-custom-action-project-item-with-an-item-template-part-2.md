@@ -1,7 +1,6 @@
 ---
 title: "Walkthrough: Creating a Custom Action Project Item with an Item Template, Part 2 | Microsoft Docs"
 ms.date: "02/02/2017"
-ms.technology: "office-development"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "project items [SharePoint development in Visual Studio], creating template wizards"

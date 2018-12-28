@@ -1,7 +1,6 @@
 ---
 title: "How to: Handle Deployment Conflicts | Microsoft Docs"
 ms.date: "02/02/2017"
-ms.technology: "office-development"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "SharePoint development in Visual Studio, extending deployment"

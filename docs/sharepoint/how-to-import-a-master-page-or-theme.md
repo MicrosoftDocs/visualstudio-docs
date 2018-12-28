@@ -1,7 +1,6 @@
 ---
 title: "How to: Import a Master Page or Theme | Microsoft Docs"
 ms.date: "02/02/2017"
-ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"

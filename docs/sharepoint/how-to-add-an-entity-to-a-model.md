@@ -1,7 +1,6 @@
 ---
 title: "How to: Add an Entity to a Model | Microsoft Docs"
 ms.date: "02/02/2017"
-ms.technology: "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "EntityTool"
