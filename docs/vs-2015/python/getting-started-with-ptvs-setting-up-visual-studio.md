@@ -5,8 +5,7 @@ ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
-  - "devlang-python"
+ms.technology: "devlang-python"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ec491c1d-bdb2-4c2b-a390-bd808cec635a

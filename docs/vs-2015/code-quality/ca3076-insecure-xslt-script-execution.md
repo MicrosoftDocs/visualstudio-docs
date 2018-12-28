@@ -4,8 +4,7 @@ ms.custom: ""
 ms.date: 11/15/2016
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
+ms.technology: "vs-devops-test"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 53cb7a46-c564-488f-bc51-0e210a7853c9
@@ -136,6 +135,3 @@ namespace TestNamespace
     }
 }
 ```
-
-
-

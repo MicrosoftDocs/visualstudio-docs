@@ -2,8 +2,7 @@
 title: "XML schemas and data in document-level customizations"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology:
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs:
   - "VB"

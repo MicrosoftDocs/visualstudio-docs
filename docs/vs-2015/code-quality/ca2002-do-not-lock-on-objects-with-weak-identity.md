@@ -5,8 +5,7 @@ ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
+ms.technology: "vs-devops-test"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords:
@@ -73,6 +72,3 @@ manager: "wpickett"
  <xref:System.AppDomain>
  [lock Statement](http://msdn.microsoft.com/library/656da1a4-707e-4ef6-9c6e-6d13b646af42)
  [SyncLock Statement](http://msdn.microsoft.com/library/14501703-298f-4d43-b139-c4b6366af176)
-
-
-

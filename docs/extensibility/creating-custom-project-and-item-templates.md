@@ -2,8 +2,7 @@
 title: "Creating Custom Project and Item Templates | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology:
-  - "vs-ide-sdk"
+ms.technology: "vs-ide-sdk"
 ms.topic: "conceptual"
 ms.assetid: 586da5dc-f678-402b-afd0-0332959fd7a6
 author: "gregvanl"

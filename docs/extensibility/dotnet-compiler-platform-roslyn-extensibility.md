@@ -2,8 +2,7 @@
 title: ".NET Compiler Platform (&quot;Roslyn&quot;) Extensibility | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology:
-  - "vs-ide-sdk"
+ms.technology: "vs-ide-sdk"
 ms.topic: "conceptual"
 ms.assetid: 564201b3-1e18-4b88-b615-42c2f57f3fe8
 author: "gregvanl"

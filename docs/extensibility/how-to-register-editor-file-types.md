@@ -1,8 +1,7 @@
 ---
 title: "How to: Register Editor File Types | Microsoft Docs"
 ms.date: 03/22/2018
-ms.technology:
-  - "vs-ide-sdk"
+ms.technology: "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "editors [Visual Studio SDK], legacy - register file types"
