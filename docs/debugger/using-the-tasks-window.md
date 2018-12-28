@@ -2,7 +2,6 @@
 title: "Using the Tasks Window | Microsoft Docs"
 ms.custom: ""
 ms.date: "03/18/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.debug.paralleltasks"

@@ -5,7 +5,6 @@ ms.date: "4/06/2018"
 ms.topic: "troubleshooting"
 f1_keywords: 
   - "vs.debug.error.process_exit_during_func_eval"
-ms.technology: "vs-ide-debug"
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: douge
@@ -41,7 +40,3 @@ If you cannot modify this method, you may be able to break the target process at
 ### Solution #2: Disable all implicit evaluation
  
 If the previous solutions don't fix the issue, go to **Tools** > **Options**, and uncheck the setting **Debugging** > **General** > **Enable property evaluation and other implicit function calls**. This will disable most implicit function evaluations and should resolve the issue.
-
-
-
-  

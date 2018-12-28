@@ -2,7 +2,6 @@
 title: "Debug UWP apps on remote machines | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/05/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"

@@ -2,7 +2,6 @@
 title: "Start a debugging session for a UWP app | Microsoft Docs"
 ms.custom: "seodec18"
 ms.date: "11/20/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VC.Project.IVCAppHostRemoteDebugPageObject.MachineName"

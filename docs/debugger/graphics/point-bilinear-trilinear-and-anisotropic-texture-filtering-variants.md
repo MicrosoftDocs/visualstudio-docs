@@ -2,7 +2,6 @@
 title: "Point, Bilinear, Trilinear, and Anisotropic Texture Filtering Variants | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: 57d14fc9-b5f7-45ee-9717-48086886742d
 author: "mikejo5000"

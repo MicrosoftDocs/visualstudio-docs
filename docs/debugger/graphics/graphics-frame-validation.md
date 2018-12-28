@@ -2,7 +2,6 @@
 title: "Graphics Frame Validation | Microsoft Docs"
 ms.custom: ""
 ms.date: "03/02/2017"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.graphics.FrameValidation"

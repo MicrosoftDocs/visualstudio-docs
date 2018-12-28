@@ -2,7 +2,6 @@
 title: "EndCapture | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: 06084c3b-e065-49b6-968e-d578762fb871
 author: "mikejo5000"

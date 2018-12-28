@@ -2,7 +2,6 @@
 title: "Debugging Deployed ASP.NET Applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/30/2017"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"

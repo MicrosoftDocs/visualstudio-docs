@@ -2,7 +2,6 @@
 title: "Use breakpoints in the debugger | Microsoft Docs"
 ms.custom: "seodec18"
 ms.date: "10/15/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.breakpointswin"

@@ -5,7 +5,6 @@ ms.date: "11/04/2016"
 ms.topic: "troubleshooting"
 f1_keywords: 
   - "vs.debug.error.unsafe_func_eval_abort"
-ms.technology: "vs-ide-debug"
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: douge
@@ -45,7 +44,3 @@ If the previous solutions don't fix the issue, go to **Tools** > **Options**, an
 ### Solution #4: Enable managed compatibility mode
 
 If you switch to the legacy debugging engine, you may be able to eliminate this error. Go to **Tools** > **Options**, and select the setting **Debugging** > **General** > **Use managed compatibility mode**. For more information, see [General debugging options](../debugger/general-debugging-options-dialog-box.md).
-
-
-
-  

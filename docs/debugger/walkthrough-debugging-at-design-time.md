@@ -2,7 +2,6 @@
 title: "Debug at design time | Microsoft Docs"
 ms.custom: "seodec18"
 ms.date: "11/21/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"

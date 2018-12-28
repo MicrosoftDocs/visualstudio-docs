@@ -2,7 +2,6 @@
 title: "Using the DebuggerDisplay Attribute | Microsoft Docs"
 ms.custom: ""
 ms.date: "08/09/2017"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "attributes [C#], debugger"

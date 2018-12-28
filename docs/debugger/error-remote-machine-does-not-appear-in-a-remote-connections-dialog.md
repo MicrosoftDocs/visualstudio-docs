@@ -2,7 +2,6 @@
 title: "Error: Remote machine does not appear in a Remote Connections dialog | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "troubleshooting"
 dev_langs: 
   - "CSharp"

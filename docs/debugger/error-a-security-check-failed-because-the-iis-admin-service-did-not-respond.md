@@ -2,7 +2,6 @@
 title: "Error: A Security Check Failed Because the IIS Admin Service Did Not Respond | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "troubleshooting"
 f1_keywords: 
   - "vs.debug.error.iis_not_responding"

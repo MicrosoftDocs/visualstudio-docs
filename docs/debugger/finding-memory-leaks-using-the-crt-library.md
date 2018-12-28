@@ -2,7 +2,6 @@
 title: "Find memory leaks with the CRT Library | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/04/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"

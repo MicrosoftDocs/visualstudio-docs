@@ -2,7 +2,6 @@
 title: "Capturing Graphics Information | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/09/2017"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.graphics.frame"

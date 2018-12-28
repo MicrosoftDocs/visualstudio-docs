@@ -3,7 +3,6 @@ title: "Create custom views of native objects"
 description: Use the Natvis framework to customize the way that Visual Studio displays native types in the debugger
 ms.custom: ""
 ms.date: "10/31/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "natvis"

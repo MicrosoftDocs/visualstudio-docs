@@ -2,7 +2,6 @@
 title: "Error: Site Uses IP Address | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "troubleshooting"
 f1_keywords: 
   - "vs.debug.error.webdbg_siteusesipaddress"

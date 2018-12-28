@@ -2,7 +2,6 @@
 title: "Mip-map Generation Variant | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: 3b4b3583-0b01-4f5d-aacb-3f96d19111d9
 author: "mikejo5000"

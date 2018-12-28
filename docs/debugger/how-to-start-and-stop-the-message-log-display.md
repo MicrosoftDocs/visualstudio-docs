@@ -2,7 +2,6 @@
 title: "How to: Start and Stop the Message Log Display | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "message log display, starting"

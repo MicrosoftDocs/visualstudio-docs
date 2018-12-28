@@ -2,7 +2,6 @@
 title: "Debugger Settings and Preparation | Microsoft Docs"
 ms.custom: ""
 ms.date: "08/01/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "reference"
 f1_keywords: 
   - "vs.debug"

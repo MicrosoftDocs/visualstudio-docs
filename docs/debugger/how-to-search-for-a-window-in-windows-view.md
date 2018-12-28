@@ -2,7 +2,6 @@
 title: "How to: Search for a Window in Windows View | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "windows, searching in Windows view"

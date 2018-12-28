@@ -2,7 +2,6 @@
 title: "What's New for the Debugger in Visual Studio 2017 | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/22/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs:
   - "CSharp"

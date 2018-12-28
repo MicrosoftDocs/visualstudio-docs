@@ -2,7 +2,6 @@
 title: "Init | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: c55ddec8-9101-4673-979b-4109caca9146
 author: "mikejo5000"

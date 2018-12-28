@@ -2,7 +2,6 @@
 title: "Deploy UWP apps | Microsoft Docs"
 ms.custom: "seodec18"
 ms.date: "01/16/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs:
   - "CSharp"

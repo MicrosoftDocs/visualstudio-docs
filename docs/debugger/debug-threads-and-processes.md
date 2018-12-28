@@ -2,7 +2,6 @@
 title: "Tools to debug threads and processes | Microsoft Docs"
 ms.custom: ""
 ms.date: "04/21/2017"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"

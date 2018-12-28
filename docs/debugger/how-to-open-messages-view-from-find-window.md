@@ -2,7 +2,6 @@
 title: "How to: Open Messages View from Find Window | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Messages View in Spy++, opening"

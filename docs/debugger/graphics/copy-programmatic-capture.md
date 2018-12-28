@@ -2,7 +2,6 @@
 title: "Copy (Programmatic Capture) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: 30ec235a-0abb-44b9-8852-61bc9e67ce22
 author: "mikejo5000"

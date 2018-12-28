@@ -2,7 +2,6 @@
 title: "Send messages to the Output window | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/08/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"

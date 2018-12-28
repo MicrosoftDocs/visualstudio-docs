@@ -2,7 +2,6 @@
 title: "Set debug and release configurations | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/05/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "reference"
 f1_keywords:
   - "vs.debug.builds"

@@ -2,7 +2,6 @@
 title: "VsgDbg::VsgDbg (Constructor) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: 670651e6-5e79-4845-b0c2-671beb7055a8
 author: "mikejo5000"
