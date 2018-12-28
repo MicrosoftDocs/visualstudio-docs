@@ -117,7 +117,7 @@ With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows i
 
  When you're ready to run your app and see how it looks, use the Android Emulator. It's fast, reliable, and easy to install and configure.
 
- You can also build an app that targets the full breadth of Windows 10 devices by using C++ and a Uiversal Windows Platform (UWP) app project template. Read more about this in the [Target Windows 10 devices](#WindowsHTML) section that appears earlier in this topic.
+ You can also build an app that targets the full breadth of Windows 10 devices by using C++ and a Universal Windows Platform (UWP) app project template. Read more about this in the [Target Windows 10 devices](#WindowsHTML) section that appears earlier in this topic.
 
  You can share C++ code between Android and Windows by creating a static or dynamic shared library.
 
