@@ -2,7 +2,6 @@
 title: "Architecture of Office solutions in Visual Studio"
 titleSuffix: ""
 ms.date: 02/02/2017
-ms.technology: office-development
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
 dev_langs: 
