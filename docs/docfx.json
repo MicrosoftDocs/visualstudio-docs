@@ -103,6 +103,7 @@
         "designers/**/**.md": "vs-ide-designers",
         "extensibility/**/**.md": "vs-ide-sdk",
         "help-viewer/**/**.md": "vs-help-viewer",
+        "ide/**/**.md": "vs-ide-general",
         "install/**/**.md": "vs-installation",
         "javascript/**/**.md": "vs-nodejs",
         "modeling/**/**.md": "vs-ide-modeling",
