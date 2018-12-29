@@ -1,7 +1,6 @@
 ---
 title: "How to: Ignore Errors in Tasks | Microsoft Docs"
 ms.date: "11/04/2016"
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "MSBuild, ignoring errors"
