@@ -65,7 +65,7 @@ As an organization, you might want to require that all check-ins satisfy certain
 
 - Code analysis is run as part of the most recent build.
 
-You can accomplish this by specifying check-in policies. For more information, see [Enhancing Code Quality with Project Check-in Policies](../code-quality/enhancing-code-quality-with-team-project-check-in-policies.md).
+You can accomplish this by specifying check-in policies. For more information, see [Enhancing Code Quality with Project Check-in Policies](../code-quality/how-to-create-or-update-standard-code-analysis-check-in-policies.md).
 
 ## Team build integration
 

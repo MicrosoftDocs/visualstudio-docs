@@ -28,7 +28,7 @@ There are two ways to set a thread name. The first is via the [SetThreadDescript
 
 It is worth noting that _both_ approaches can be used together, if desired, since the mechanisms by which they work are independent of each other.
 
-### Setting a thread name by using `SetThreadDescription`
+### Set a thread name by using `SetThreadDescription`
 
 Benefits:
  * Thread names are visible when debugging in Visual Studio, regardless of whether or not the debugger was attached to the process at the time that SetThreadDescription is invoked.
@@ -57,7 +57,7 @@ int main()
 }
 ```
 
-### Setting a thread name by throwing an exception
+### Set a thread name by throwing an exception
 
 Another way to set a thread name in your program is to communicate the desired thread name to the Visual Studio debugger by throwing a specially-configured exception. 
 

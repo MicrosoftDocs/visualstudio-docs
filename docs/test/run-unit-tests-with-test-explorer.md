@@ -182,7 +182,7 @@ You can use Test Explorer to start a debugging session for your tests. Stepping 
 
 2. In Test Explorer, select the test methods and then choose **Debug Selected Tests** on the context menu.
 
-   For more information, about the debugger, see [Debug in Visual Studio](../debugger/debugging-in-visual-studio.md).
+   For more information, about the debugger, see [Debug in Visual Studio](../debugger/debugger-feature-tour.md).
 
 ### Diagnose test method performance issues
 

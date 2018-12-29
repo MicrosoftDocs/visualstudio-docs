@@ -48,7 +48,7 @@ With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows i
 
 #### Design one set of pages that render across all devices by using Xamarin.Forms
 
- Depending on the complexity of your apps design, you might consider building it by using *Xamarin.Forms* templates in the **Mobile Apps** group of project templates. Xamarin.Forms is a UI toolkit that lets you create a single interface that you can share across Android, iOS, and Windows.  When you compile a Xamarin.Forms solution, you'll get an Android app, an iOS app, and a Windows app. For more details, see [Learn about mobile development with Xamarin](../cross-platform/learn-about-mobile-development-with-xamarin.md) and the [Xamarin.Forms documentation](/xamarin/xamarin-forms/).
+ Depending on the complexity of your apps design, you might consider building it by using *Xamarin.Forms* templates in the **Mobile Apps** group of project templates. Xamarin.Forms is a UI toolkit that lets you create a single interface that you can share across Android, iOS, and Windows.  When you compile a Xamarin.Forms solution, you'll get an Android app, an iOS app, and a Windows app. For more details, see [Learn about mobile development with Xamarin](/xamarin/cross-platform/get-started/introduction-to-mobile-development/) and the [Xamarin.Forms documentation](/xamarin/xamarin-forms/).
 
 ####  <a name="ShareHTML"></a> Share code between Android, iOS, and Windows apps
 
@@ -117,7 +117,7 @@ With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows i
 
  When you're ready to run your app and see how it looks, use the Android Emulator. It's fast, reliable, and easy to install and configure.
 
- You can also build an app that targets the full breadth of Windows 10 devices by using C++ and a Uiversal Windows Platform (UWP) app project template. Read more about this in the [Target Windows 10 devices](#WindowsHTML) section that appears earlier in this topic.
+ You can also build an app that targets the full breadth of Windows 10 devices by using C++ and a Universal Windows Platform (UWP) app project template. Read more about this in the [Target Windows 10 devices](#WindowsHTML) section that appears earlier in this topic.
 
  You can share C++ code between Android and Windows by creating a static or dynamic shared library.
 

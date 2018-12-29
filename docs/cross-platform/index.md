@@ -42,7 +42,7 @@ Create native C++ apps for iOS, Android, and Windows devices with Visual Studio.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/common/i_learn-about.svg" alt="Learn about Visual C++ for cross-platform mobile develpment">
+                            <img src="/media/common/i_learn-about.svg" alt="Learn about Visual C++ for cross-platform mobile development">
                         </div>
                     </div>
                     <div class="cardText">

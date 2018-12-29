@@ -21,7 +21,7 @@ IntelliTrace step-back is available starting in Visual Studio Enterprise 2017 ve
 In this tutorial, you will:
 
 > [!div class="checklist"]
-> * Enable Intellitrace events and snapshots
+> * Enable IntelliTrace events and snapshots
 > * Navigate events using step-back and step-forward commands
 > * View event snapshots
   
