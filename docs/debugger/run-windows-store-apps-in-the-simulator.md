@@ -45,7 +45,7 @@ The Visual Studio simulator for UWP apps is a desktop application that simulates
 ## Pinch and Zoom
  Sets the interaction mode to pinch and zoom gestures of two fingers.
 
--   ![Siimulator two finger target](../debugger/media/simulator_twofinger.png "SIMULATOR_TwoFinger")
+-   ![Simulator two finger target](../debugger/media/simulator_twofinger.png "SIMULATOR_TwoFinger")
 
      The double target icon indicates the location of two fingers on the device screen.
 
