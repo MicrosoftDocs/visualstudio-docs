@@ -3,7 +3,6 @@ title: "Visual Studio Profiler API Reference (Native)"
 titleSuffix: ""
 ms.custom: "seodec18"
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "performance tools, API"

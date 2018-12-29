@@ -1,9 +1,6 @@
 ---
 title: "Office solutions development overview (VSTO)"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -89,5 +86,3 @@ ms.workload:
  [Get started programming document-level customizations for Excel](../vsto/getting-started-programming-document-level-customizations-for-excel.md)   
  [Get started programming document-level customizations for Word](../vsto/getting-started-programming-document-level-customizations-for-word.md)   
  [Get started programming VSTO Add-ins](../vsto/getting-started-programming-vsto-add-ins.md)  
-  
-  

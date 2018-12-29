@@ -5,8 +5,7 @@ ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
-  - "devlang-javascript"
+ms.technology: "devlang-javascript"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f3eee13e-30e4-4bc1-81f5-058d7e379b75

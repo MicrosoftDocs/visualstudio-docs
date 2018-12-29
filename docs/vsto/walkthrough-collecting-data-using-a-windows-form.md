@@ -1,9 +1,6 @@
 ---
 title: "Walkthrough: Collect data using a Windows Form"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -140,5 +137,3 @@ ms.workload:
  [Program document-level customizations](../vsto/programming-document-level-customizations.md)   
  [Walkthroughs using Word](../vsto/walkthroughs-using-word.md)   
  [Walkthroughs using Excel](../vsto/walkthroughs-using-excel.md)  
-  
-  

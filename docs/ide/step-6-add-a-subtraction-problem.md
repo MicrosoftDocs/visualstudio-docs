@@ -1,9 +1,7 @@
 ---
 title: "Step 6: Add a subtraction problem"
-ms.custom: ""
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.assetid: 59204ef9-24bd-4f81-b85f-e3168e518a3e

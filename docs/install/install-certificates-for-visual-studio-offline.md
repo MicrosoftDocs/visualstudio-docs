@@ -2,7 +2,6 @@
 title: "Install certificates required for an offline installation"
 description: "Learn how to install certificates for a Visual Studio offline installation."
 ms.date: 08/30/2017
-ms.technology: vs-acquisition
 ms.custom: "seodec18"
 ms.prod: visual-studio-dev15
 ms.topic: conceptual

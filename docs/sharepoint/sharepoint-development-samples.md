@@ -1,13 +1,8 @@
 ---
 title: "SharePoint Development Samples | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
-  - "VB"
-  - "CSharp"
   - "VB"
   - "CSharp"
 helpviewer_keywords: 
@@ -27,4 +22,3 @@ ms.workload:
  [Create SharePoint solutions](../sharepoint/create-sharepoint-solutions.md)   
  [Visual Studio Samples](http://go.microsoft.com/fwlink/?LinkId=150928)   
  [Common Tasks in Office Programming](../vsto/common-tasks-in-office-programming.md)  
-  

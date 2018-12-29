@@ -1,9 +1,6 @@
 ---
 title: "Evaluation Tools for Visual Studio | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 ms.assetid: 94e0e9a3-440c-4943-ad7b-772ed742e034
 author: "gregvanl"

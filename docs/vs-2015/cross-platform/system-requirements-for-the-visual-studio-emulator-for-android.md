@@ -5,8 +5,7 @@ ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
-  - "tgt-pltfrm-cross-plat"
+ms.technology: "tgt-pltfrm-cross-plat"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 35e766ad-269f-41e4-ba23-74a556c315f3

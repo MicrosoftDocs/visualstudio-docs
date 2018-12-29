@@ -1,9 +1,6 @@
 ---
 title: "Creating Site Columns, Content Types, and Lists for SharePoint | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VS.SharePointTools.ListDesigner.ContentTypeSetting"
@@ -47,5 +44,3 @@ ms.workload:
   
 ## See also
  [Get Started Developing on SharePoint 2010](http://go.microsoft.com/fwlink/?LinkId=225000)  
-  
- 

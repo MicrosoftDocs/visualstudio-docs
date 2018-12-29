@@ -1,8 +1,6 @@
 ---
 title: "DA0005: Frequent GC2 collections | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.performance.DA0005"

@@ -2,7 +2,6 @@
 title: Calculate code metrics
 ms.date: 11/02/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "code metrics [Visual Studio]"

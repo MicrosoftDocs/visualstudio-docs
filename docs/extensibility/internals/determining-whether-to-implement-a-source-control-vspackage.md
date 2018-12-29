@@ -1,9 +1,6 @@
 ---
 title: "Determining Whether to Implement a Source Control VSPackage | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "source control packages, about source control packages"

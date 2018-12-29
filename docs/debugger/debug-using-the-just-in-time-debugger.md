@@ -1,8 +1,6 @@
 ---
 title: "Debug using the Just-In-Time Debugger | Microsoft Docs"
-ms.custom: ""
 ms.date: "09/24/18"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "debugging [Visual Studio], Just-In-Time"

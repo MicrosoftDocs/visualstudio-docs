@@ -3,7 +3,6 @@ title: "Debug managed code | Microsoft Docs"
 description: "Debug C# or Visual Basic using the Visual Studio debugger"
 ms.custom: "mvc"
 ms.date: "03/18/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "quickstart"
 helpviewer_keywords: 
   - "debugger"

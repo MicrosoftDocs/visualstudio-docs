@@ -2,7 +2,6 @@
 title: "View variable values in DataTips | Microsoft Docs"
 ms.custom: "seodec18"
 ms.date: "11/21/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
@@ -126,4 +125,3 @@ You can export DataTips to an XML file, which you can share or edit using a text
  [Viewing Data in the Debugger](../debugger/viewing-data-in-the-debugger.md)   
  [Watch and QuickWatch Windows](../debugger/watch-and-quickwatch-windows.md)   
  [Create Custom Visualizers](../debugger/create-custom-visualizers-of-data.md)   
-

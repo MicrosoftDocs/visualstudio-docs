@@ -3,7 +3,6 @@ title: "Tutorial: Debug C# and C++ code (mixed mode)"
 description: Learn how to debug a native DLL from a .NET Core or .NET Framework app using mixed-mode debugging
 ms.custom: "seodec18"
 ms.date: "11/02/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "tutorial"
 dev_langs:
   - "CSharp"

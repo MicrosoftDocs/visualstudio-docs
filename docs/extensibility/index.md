@@ -5,7 +5,6 @@ description: Learn about Visual Studio extensibility.
 author: gregvanl
 ms.author: gregvanl
 ms.date: 10/31/2018
-ms.technology: vs-ide-sdk
 ms.topic: landing-page
 ms.workload: 
   - apexprodleads

@@ -1,8 +1,6 @@
 ---
 title: "Expressions in the debugger | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/07/2017"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.expressions"

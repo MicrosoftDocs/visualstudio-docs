@@ -2,7 +2,6 @@
 title: Resources for troubleshooting errors
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: troubleshooting
 f1_keywords:
   - "VS.Message.0x00005A89"

@@ -2,7 +2,6 @@
 title: "Attach the profiler to an ASP.NET app to collect memory data"
 ms.custom: "seodec18"
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: d608f85a-41ae-4ca7-85e6-b96624dbc83c
 author: "mikejo5000"

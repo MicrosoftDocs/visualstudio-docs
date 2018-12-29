@@ -3,7 +3,6 @@ title: "Workflow Designer - Using the Activity Designers"
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 helpviewer_keywords:
   - "Workflow Designer [WFD], activity designer"
   - "Visual Studio Workflow Designer [WFD], activity designer"

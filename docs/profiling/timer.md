@@ -1,8 +1,6 @@
 ---
 title: "Timer | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: 1971868e-89fa-4452-8ee7-76e4daf31b66
 author: "mikejo5000"

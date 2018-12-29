@@ -1,9 +1,6 @@
 ---
 title: "Extending SharePoint Packaging and Deployment | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -54,5 +51,3 @@ ms.workload:
  [Walkthrough: Create a custom deployment step for SharePoint projects](../sharepoint/walkthrough-creating-a-custom-deployment-step-for-sharepoint-projects.md)   
  [How to: Create custom feature and package validation rules for SharePoint solutions](../sharepoint/how-to-create-custom-feature-and-package-validation-rules-for-sharepoint-solutions.md)   
  [Extend the SharePoint project system](../sharepoint/extending-the-sharepoint-project-system.md)  
-  
-  

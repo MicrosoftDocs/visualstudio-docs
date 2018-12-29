@@ -1,8 +1,6 @@
 ---
 title: "Walkthrough: Missing Objects Due to Misconfigured Pipeline | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: ed8ac02d-b38f-4055-82fb-67757c2ccbb9
 author: "mikejo5000"

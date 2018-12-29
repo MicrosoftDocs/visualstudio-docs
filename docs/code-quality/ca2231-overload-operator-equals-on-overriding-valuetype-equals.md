@@ -2,7 +2,6 @@
 title: "CA2231: Overload operator equals on overriding ValueType.Equals"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "OverloadOperatorEqualsOnOverridingValueTypeEquals"

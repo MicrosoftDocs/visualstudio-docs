@@ -1,8 +1,6 @@
 ---
 title: "How to: Limit Instrumentation to Specific Functions | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "performance tools, limiting instrumentation to functions"

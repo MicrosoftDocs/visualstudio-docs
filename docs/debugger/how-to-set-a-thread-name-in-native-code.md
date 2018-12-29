@@ -1,8 +1,6 @@
 ---
 title: "How to: Set a Thread Name in Native Code | Microsoft Docs"
-ms.custom: ""
 ms.date: "12/17/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"

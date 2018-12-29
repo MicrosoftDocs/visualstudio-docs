@@ -2,8 +2,6 @@
 title: "How to: Expose code to VBA in a C# project"
 ms.custom: "seodec18"
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -103,5 +101,3 @@ ms.workload:
  [Combine VBA and document-level customizations](../vsto/combining-vba-and-document-level-customizations.md)   
  [Walkthrough: Call code from VBA in a Visual C&#35; project](../vsto/walkthrough-calling-code-from-vba-in-a-visual-csharp-project.md)   
  [How to: Expose code to VBA in a Visual Basic project](../vsto/how-to-expose-code-to-vba-in-a-visual-basic-project.md)  
-  
-  

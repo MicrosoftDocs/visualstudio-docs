@@ -1,8 +1,6 @@
 ---
 title: "How to: Specify Which Target to Build First | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: msbuild
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "DefaultTargets attribute [MSBuild]"

@@ -3,7 +3,6 @@ title: Fix bugs by writing better C# code
 description: "Understand how to write better code with less bugs"
 ms.custom: ['debug-experiment', 'seodec18']
 ms.date: "11/20/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "debugger"

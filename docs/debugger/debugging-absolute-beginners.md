@@ -1,9 +1,7 @@
 ---
 title: "Debugging code for absolute beginners"
 description: "If you are debugging for the first time, learn a few principles to help you run your app in debugging mode with Visual Studio"
-ms.custom: ""
 ms.date: "07/06/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "tutorial"
 helpviewer_keywords:
   - "debugger"

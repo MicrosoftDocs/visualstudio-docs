@@ -1,8 +1,6 @@
 ---
 title: "MSBuild Toolset (ToolsVersion) | Microsoft Docs"
-ms.custom: ""
 ms.date: "01/31/2018"
-ms.technology: msbuild
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "MSBuild, multitargeting"

@@ -1,7 +1,6 @@
 ---
 title: "How to: Use Wizards with Project Templates"
 ms.date: "11/04/2016"
-ms.technology: vs-ide-sdk
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "project templates [Visual Studio], wizards"

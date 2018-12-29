@@ -1,9 +1,6 @@
 ---
 title: "How to: Programmatically create a custom calendar"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -30,5 +27,3 @@ ms.workload:
  [Work with calendar items](../vsto/working-with-calendar-items.md)   
  [How to: Programmatically create appointments](../vsto/how-to-programmatically-create-appointments.md)   
  [How to: Programmatically create a meeting request](../vsto/how-to-programmatically-create-a-meeting-request.md)  
-  
-  

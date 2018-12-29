@@ -1,9 +1,6 @@
 ---
 title: "How to: Programmatically apply color to Excel ranges"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -54,5 +51,3 @@ ms.workload:
  [How to: Programmatically refer to worksheet ranges in code](../vsto/how-to-programmatically-refer-to-worksheet-ranges-in-code.md)   
  [Automate Excel by using extended objects](../vsto/automating-excel-by-using-extended-objects.md)   
  [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)  
-  
-  

@@ -1,8 +1,6 @@
 ---
 title: "Set a Watch on Variables in Parallel Threads | Microsoft Docs"
-ms.custom: ""
 ms.date: "04/25/2017"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.parallelwatch"

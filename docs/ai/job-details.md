@@ -1,5 +1,4 @@
 ---
-ms.technology: vs-ai-tools
 ---
 # View recent job performance and details
 

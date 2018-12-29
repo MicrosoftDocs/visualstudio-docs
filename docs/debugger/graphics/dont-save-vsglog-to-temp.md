@@ -1,8 +1,6 @@
 ---
 title: "DONT_SAVE_VSGLOG_TO_TEMP | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: f27ab0e6-9575-4ca0-9901-37d3e5c3a2f5
 author: "mikejo5000"
