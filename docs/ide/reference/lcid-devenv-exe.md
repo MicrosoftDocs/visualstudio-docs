@@ -1,6 +1,6 @@
 ---
 title: -LCID (devenv.exe)
-ms.date: 11/04/2016
+ms.date: 12/10/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
@@ -9,9 +9,9 @@ helpviewer_keywords:
   - "locale IDs, setting for IDE"
   - "Devenv, /LCID switch"
   - "locale IDs"
-  - "/l Devenv switch"
+  - "/L Devenv switch"
   - "LCID devenv switch"
-  - "/lcid Devenv switch"
+  - "/LCID Devenv switch"
 ms.assetid: 3a3f4e70-ea66-4351-9d62-acb1dec30e8e
 author: gewarren
 ms.author: gewarren
@@ -20,24 +20,27 @@ ms.workload:
   - "multiple"
 ---
 # /LCID (devenv.exe)
+
 Sets the default language used for text, currency, and other values within the integrated development environment (IDE).
 
 ## Syntax
 
-```cmd
-devenv {/LCID|/l} LocaleID
+```shell
+devenv {/LCID|/L} LocaleID
 ```
 
 ## Arguments
- `LocaleID`
- Required. The LCID (locale ID) of the language you specify.
+
+*LocaleID*<br/>
+Required. The LCID (locale ID) of the language you specify.
 
 ## Remarks
- Loads the IDE and sets the default natural language for the environment. This change is persisted between sessions and reflected on the **International Settings** pane of the **Environment** options in the **Options** dialog box in the IDE.
 
- If the specified language is not available on the user's system, the /LCID switch is ignored.
+Loads the IDE and sets the default natural language for the environment. This change is persisted between sessions and reflected on the **International Settings** pane of the **Environment** options in the **Options** dialog box in the IDE.
 
- The following table lists the LCIDs of the languages supported by [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].
+If the specified language is not available on the user's system, the `/LCID` switch is ignored.
+
+The following table lists the LCIDs of the languages supported by [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].
 
 |Language|LCID|
 |--------------|----------|
@@ -52,13 +55,14 @@ devenv {/LCID|/l} LocaleID
 |Spanish|3082|
 
 ## Example
- This example loads the IDE with English resources strings.
 
-```cmd
+This example loads the IDE with English resources strings.
+
+```shell
 devenv /LCID 1033
 ```
 
-## See Also
+## See also
 
 - [Devenv command-line switches](../../ide/reference/devenv-command-line-switches.md)
 - [International Settings, Environment, Options Dialog Box](../../ide/reference/international-settings-environment-options-dialog-box.md)

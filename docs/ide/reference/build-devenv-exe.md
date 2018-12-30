@@ -1,6 +1,6 @@
 ---
-title: DevEnv Build switch
-ms.date: 11/04/2016
+title: -Build (devenv.exe)
+ms.date: 12/10/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
@@ -23,36 +23,41 @@ Builds a solution using a specified solution configuration file.
 
 ## Syntax
 
-```cmd
-Devenv SolutionName /build SolnConfigName [/project ProjName [/projectconfig ProjConfigName]]
+```shell
+devenv SolutionName /build [SolnConfigName [/Project ProjName [/ProjectConfig ProjConfigName]]]
 ```
 
 ## Arguments
 
-|||
-|-|-|
-|*SolutionName*|Required. The full path and name of the solution file.|
-|*SolnConfigName*|Required. The name of the solution configuration that will be used to build the solution named in *SolutionName*. If multiple solution platforms are available, you must also specify the platform, for example **"Debug\|Win32"**.|
-|/project *ProjName*|Optional. The path and name of a project file within the solution. You can enter a relative path from the *SolutionName* folder to the project file, or the project's display name, or the full path and name of the project file.|
-|/projectconfig *ProjConfigName*|Optional. The name of a project build configuration to be used when building the named project. If multiple project platforms are available, you must also specify the platform, for example **"Debug\|Win32"**.|
+*SolutionName*<br/>
+Required. The full path and name of the solution file.
+
+*SolnConfigName*<br/>
+Required. The name of the solution configuration that will be used to build the solution named in *SolutionName*. If multiple solution platforms are available, you must also specify the platform (for example, `Debug\|Win32`).
+
+`/Project` *ProjName*<br/>
+Optional. The path and name of a project file within the solution. You can enter a relative path from the *SolutionName* folder to the project file, or the project's display name, or the full path and name of the project file.
+
+`/ProjectConfig` *ProjConfigName*<br/>
+Optional. The name of a project build configuration to be used when building the named project. If multiple project platforms are available, you must also specify the platform, for example `Debug\|Win32`. If this switch is specified, it overrides the *SolnConfigName* argument.
 
 ## Remarks
 
-- The **/build** switch performs the same function as the **Build Solution** menu command within the integrated development environment (IDE).
+- The `/Build` switch performs the same function as the **Build Solution** menu command within the integrated development environment (IDE).
 
 - Enclose strings that include spaces in double quotes.
 
-- Summary information for builds, including errors, can be displayed in the command window, or in any log file specified with the **/out** switch.
+- Summary information for builds, including errors, can be displayed in the command window, or in any log file specified with the `/Out` switch.
 
-- The **/build** switch only builds projects that have changed since the last build. To build all projects in a solution, use [/rebuild](../../ide/reference/rebuild-devenv-exe.md) instead.
+- The `/Build` switch only builds projects that have changed since the last build. To build all projects in a solution, use [/rebuild](../../ide/reference/rebuild-devenv-exe.md) instead.
 
-- If you get an error message that says **Invalid project configuration**, make sure that you've specified a solution platform or project platform, for example **"Debug\|Win32"**.
+- If you get an error message that says **Invalid project configuration**, make sure that you've specified a solution platform or project platform (for example, `Debug\|Win32`).
 
 ## Example
 
 The following command builds the project "CSharpConsoleApp", using the "Debug" project build configuration within the "Debug" solution configuration of "MySolution".
 
-```cmd
+```shell
 devenv "C:\Visual Studio Projects\MySolution\MySolution.sln" /build Debug /project "CSharpWinApp\CSharpWinApp.csproj" /projectconfig Debug
 ```
 

@@ -1,6 +1,6 @@
 ---
-title: -Diff
-ms.date: 11/04/2016
+title: -Diff (devenv.exe)
+ms.date: 12/10/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
@@ -11,28 +11,34 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# /Diff
+# /Diff (devenv.exe)
+
 Compares two files. The differences are displayed in a special Visual Studio window.
 
 ## Syntax
 
-```cmd
-devenv /Diff SourceFile, TargetFile, [SourceDisplayName],[TargetDisplayName]
+```shell
+devenv /Diff SourceFile TargetFile [SourceDisplayName [TargetDisplayName]]
 ```
 
 ## Arguments
- `SourceFile`
 
- Required. The full path and name of the first file to be compared.
+*SourceFile*<br/>
+Required. The full path and name of the first file to be compared.
 
- `TargetFile`
+*TargetFile*<br/>
+Required. The full path and name of the second file to be compared
 
- Required. The full path and name of the second file to be compared
+*SourceDisplayName*<br/>
+Optional. The display name of the first file.
 
- `SourceDisplayName`
+*TargetDisplayName*<br/>
+Optional. The display name of the second file.
 
- Optional. The display name of the first file.
+## Remarks
 
- `TargetDisplayName`
+If an instance of the IDE is already open, the file comparison appears in a tab in the current IDE.
 
- Optional. The display name of the second file.
+## See also
+
+- [Devenv command-line switches](../../ide/reference/devenv-command-line-switches.md)

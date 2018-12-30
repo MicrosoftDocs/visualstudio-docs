@@ -1,6 +1,6 @@
 ---
 title: -UseEnv (devenv.exe)
-ms.date: 11/04/2016
+ms.date: 12/10/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
@@ -32,7 +32,7 @@ Starts Visual Studio and loads environmental variables into the **VC++ Directori
 ## Syntax
 
 ```shell
-Devenv /useenv
+devenv /UseEnv
 ```
 
 ## Example
@@ -40,7 +40,7 @@ Devenv /useenv
 The following example starts Visual Studio and loads environment variables into the **VC++ Directories** dialog box.
 
 ```shell
-Devenv.exe /useenv
+devenv /useenv
 ```
 
 ## See also

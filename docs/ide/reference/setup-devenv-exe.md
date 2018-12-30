@@ -1,30 +1,30 @@
 ---
 title: devenv.exe setup switch
-ms.date: 11/04/2016
+ms.date: 12/10/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 helpviewer_keywords:
-  - "setup Devenv switch"
-  - "/setup Devenv switch"
-  - "Devenv, /setup switch"
+  - "Setup Devenv switch"
+  - "/Setup Devenv switch"
+  - "Devenv, /Setup switch"
 author: gewarren
 ms.author: gewarren
 manager: douge
 ---
 # /Setup (devenv.exe)
 
-The /Setup switch causes Visual Studio to merge the resource metadata that describes menus, toolbars, and command groups, from all available VSPackages.
+The `/Setup` switch causes Visual Studio to merge the resource metadata that describes menus, toolbars, and command groups, from all available VSPackages.
 
 ## Syntax
 
 ```shell
-devenv /setup
+devenv /Setup
 ```
 
 ## Remarks
 
-This switch takes no arguments. The `devenv /setup` command is typically given as the last step of the installation process. Use of the `/setup` switch does not start Visual Studio.
+This switch takes no arguments. The `devenv /Setup` command is typically given as the last step of the installation process. Use of the `/Setup` switch does not start Visual Studio.
 
 > [!NOTE]
 > You must run `devenv` as an administrator in order to use the `/setup` switch.

@@ -1,19 +1,19 @@
 ---
-title: DevEnv ProjectConfig switch
-ms.date: 11/04/2016
+title: -ProjectConfig (devenv.exe)
+ms.date: 12/10/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 helpviewer_keywords:
-  - "/projectconfig Devenv switch"
+  - "/ProjectConfig Devenv switch"
   - "configurations, rebuilding"
   - "deployment projects, creating"
   - "configurations, cleaning"
   - "deployment projects, specifying"
   - "deployment projects, adding"
   - "build configurations, specifying"
-  - "Devenv, /projectconfig switch"
-  - "projectconfig Devenv switch (/projectconfig)"
+  - "Devenv, /ProjectConfig switch"
+  - "ProjectConfig Devenv switch (/ProjectConfig)"
   - "projects [Visual Studio], build configuration"
   - "projects [Visual Studio], cleaning"
 ms.assetid: 6b54ef59-ffed-4f62-a645-1279ede97ebf
@@ -25,40 +25,44 @@ ms.workload:
 ---
 # /ProjectConfig (devenv.exe)
 
-Specifies a project build configuration to be applied when you build, clean, rebuild, or deploy the project named in the **/project** argument.
+Specifies a project build configuration to be applied when you build, clean, rebuild, or deploy the project named in the `/Project` argument.
 
 ## Syntax
 
-```cmd
-devenv SolutionName {/build|/clean|/rebuild|/deploy} SolnConfigName [/project ProjName] [/projectconfig ProjConfigName]
+```shell
+devenv SolutionName {/Build|/Clean|/Deploy|/Rebuild} [SolnConfigName [/Project ProjName [/ProjectConfig ProjConfigName]]]
 ```
 
 ## Arguments
 
-|||
-|-|-|
-|/build|Builds the project specified by the **/project** argument.|
-|/clean|Cleans all intermediary files and output directories created during a build.|
-|/rebuild|Cleans then builds the project specified by the **/project** argument.|
-|/deploy|Specifies that the project be deployed after a build or rebuild.|
-|*SolnConfigName*|Required. The name of the solution configuration that will be applied to the solution named in *SolutionName*. If multiple solution platforms are available, you must also specify the platform, for example **"Debug\|Win32"**.|
-|*SolutionName*|Required. The full path and name of the solution file.|
-|/project *ProjName*|Optional. The path and name of a project file within the solution. You can enter a relative path from the *SolutionName* folder to the project file, or the project's display name, or the full path and name of the project file.|
-|/projectconfig *ProjConfigName*|Optional. The name of a project build configuration to be applied to the project specified by the **/project** argument. If multiple solution platforms are available, you must also specify the platform, for example **"Debug\|Win32"**.|
+*SolutionName*<br/>
+Required. The full path and name of the solution file.
+
+{`/Build`|`/Clean`|`/Deploy`|`/Rebuild`}<br/>
+Required. [Builds](build-devenv-exe.md), [cleans](clean-devenv-exe.md), [deploys](deploy-devenv-exe.md), or [rebuilds](rebuild-devenv-exe.md) the project.
+
+*SolnConfigName*<br/>
+Optional. The name of the solution configuration that will be applied to the solution named in *SolutionName*. If multiple solution platforms are available, you must also specify the platform (for example, `Debug\|Win32`).
+
+`/Project` *ProjName*<br/>
+Optional. The path and name of a project file within the solution. You can enter a relative path from the *SolutionName* folder to the project file, or the project's display name, or the full path and name of the project file.
+
+`/ProjectConfig` *ProjConfigName*<br/>
+Optional. The name of a project build configuration to be applied to the `/Project` named. If multiple solution platforms are available, you must also specify the platform (for example, `Debug\|Win32`).
 
 ## Remarks
 
-The **/projectconfig** switch must be used with the **/project** switch as part of a **/build**, **/clean**, **/rebuild**, or **/deploy** command.
+The `/ProjectConfig` switch must be used with the `/Project` switch as part of a `/Build`, /`Clean`, `/Deploy`, or `/Rebuild` command.
 
 Enclose strings that include spaces in double quotes.
 
-Summary information for builds, including errors, can be displayed in the command window, or in any log file specified with the **/out** switch.
+Summary information for builds, including errors, can be displayed in the command window, or in any log file specified with the `/Out` switch.
 
 ## Example
 
 The following command builds the project "CSharpConsoleApp", using the "Debug" project build configuration within the "Debug" solution configuration of "MySolution":
 
-```cmd
+```shell
 devenv "C:\Visual Studio Projects\MySolution\MySolution.sln" /build Debug /project "CSharpWinApp\CSharpWinApp.csproj" /projectconfig Debug
 ```
 
