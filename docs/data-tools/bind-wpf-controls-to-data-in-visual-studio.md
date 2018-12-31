@@ -94,7 +94,7 @@ Visual Studio generates XAML that does the following:
 When you drag an object or property from the **Data Sources** window to the designer, Visual Studio generates [!INCLUDE[TLA#tla_titlexaml](../data-tools/includes/tlasharptla_titlexaml_md.md)] that creates a data-bound control (or binds an existing control to the object or property). However, Visual Studio does not generate code to fill the object with data. You must write this code yourself.
 
 > [!NOTE]
-> Custom classes must be public and, by default,  have a constructor without parameters. They can'tbe nested classes that have a "dot" in their syntax. For more information, see [XAML and custom classes for WPF](/dotnet/framework/wpf/advanced/xaml-and-custom-classes-for-wpf).
+> Custom classes must be public and, by default,  have a constructor without parameters. They can't be nested classes that have a "dot" in their syntax. For more information, see [XAML and custom classes for WPF](/dotnet/framework/wpf/advanced/xaml-and-custom-classes-for-wpf).
 
 Visual Studio generates [!INCLUDE[TLA#tla_titlexaml](../data-tools/includes/tlasharptla_titlexaml_md.md)] that does the following:
 
