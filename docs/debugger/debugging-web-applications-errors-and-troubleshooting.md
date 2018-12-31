@@ -51,4 +51,4 @@ You may encounter the following errors when attempting to debug Web applications
   
 ## See Also  
  [Debugger Security](../debugger/debugger-security.md)   
- [Debugging Web Applications and Script](../debugger/debugging-web-applications-and-script.md)
+ [Debugging Web Applications and Script](/visualstudio/debugger/how-to-enable-debugging-for-aspnet-applications)

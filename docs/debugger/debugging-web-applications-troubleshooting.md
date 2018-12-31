@@ -30,5 +30,5 @@ This section contains common procedures that can be used to resolve errors.
  [Debugging Web Applications: Errors and Troubleshooting](../debugger/debugging-web-applications-errors-and-troubleshooting.md)  
  Explains troubleshooting and error resolution.  
   
- [Debugging Web Applications and Script](../debugger/debugging-web-applications-and-script.md)  
+ [Debugging Web Applications and Script](/visualstudio/debugger/how-to-enable-debugging-for-aspnet-applications)  
  Overview of debugging Web applications such as [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)], XML Web services, and ATL server projects.

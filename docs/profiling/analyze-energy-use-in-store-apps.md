@@ -143,7 +143,7 @@ if (performance && performance.mark) {
   
      The Visual Studio simulator for UWP apps enables you to simulate data connection properties of the network information APIs. See [Run UWP apps in the simulator](../debugger/run-windows-store-apps-in-the-simulator.md)  
   
--   The **JavaScript Function Timing** and the **CPU Usage** tools can help you reduce the CPU load when it is caused by inefficient functions. See [Analyze CPU usage](../profiling/analyze-cpu-usage-in-a-windows-universal-app.md).
+-   The **JavaScript Function Timing** and the **CPU Usage** tools can help you reduce the CPU load when it is caused by inefficient functions. See [Analyze CPU usage](/visualstudio/profiling/beginners-guide-to-performance-profiling).
 
 ## See also
 
