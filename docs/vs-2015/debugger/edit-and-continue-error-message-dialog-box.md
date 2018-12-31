@@ -10,7 +10,7 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
-  - "vs.debug.ENC.SupportedButNotAvaiable"
+  - "vs.debug.ENC.SupportedButNotAvailable"
   - "vs.debug.ENC.CannotEditWhileException"
 dev_langs: 
   - "FSharp"
