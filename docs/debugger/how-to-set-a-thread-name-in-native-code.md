@@ -33,11 +33,11 @@ It is worth noting that _both_ approaches can be used together, if desired, sinc
 Benefits:
  * Thread names are visible when debugging in Visual Studio, regardless of whether or not the debugger was attached to the process at the time that SetThreadDescription is invoked.
  * Thread names are visible when performing post-mortem debugging by loading a crash dump in Visual Studio.
- * Thread names are also visible when using other tools, such as the [WinDbg](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/debugger-download-tools) debugger and the [Windows Performance Analyzer](https://docs.microsoft.com/en-us/windows-hardware/test/wpt/windows-performance-analyzer) performance analyzer.
+ * Thread names are also visible when using other tools, such as the [WinDbg](https://docs.microsoft.com/windows-hardware/drivers/debugger/debugger-download-tools) debugger and the [Windows Performance Analyzer](https://docs.microsoft.com/windows-hardware/test/wpt/windows-performance-analyzer) performance analyzer.
 
 Caveats:
- * Thread names are only visible in Visual Studio 2017 version 15.6 and newer
- * When post-mortem debugging a crash dump file, thread names are only visible if the crash was created on Windows 10 version 1607, Windows Server 2016 or newer version of Windows 
+ * Thread names are only visible in Visual Studio 2017 version 15.6 and later.
+ * When post-mortem debugging a crash dump file, thread names are only visible if the crash was created on Windows 10 version 1607, Windows Server 2016 or later versions of Windows.
  
 *Example:*
 
@@ -62,11 +62,11 @@ int main()
 Another way to set a thread name in your program is to communicate the desired thread name to the Visual Studio debugger by throwing a specially-configured exception. 
 
 Benefits:
- * Works in all versions of Visual Studio
+ * Works in all versions of Visual Studio.
 
 Caveats:
  * Only works if the debugger is attached at the time the exception-based method is used. 
- * Thread names set using this method will not be available in dumps or performance analysis tools.
+ * Thread names set by using this method will not be available in dumps or performance analysis tools.
  
 *Example:*
 
