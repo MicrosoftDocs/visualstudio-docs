@@ -2,9 +2,7 @@
 title: "How to report a problem with Visual Studio"
 titleSuffix: ""
 description: "Find out how to report a problem with Visual Studio 2017 to Microsoft so that we can diagnose and fix it."
-ms.custom: ""
 ms.date: 03/11/2018
-ms.technology: vs-acquisition
 ms.custom: "seodec18"
 ms.prod: visual-studio-dev15
 ms.topic: conceptual

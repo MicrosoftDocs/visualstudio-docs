@@ -1,10 +1,8 @@
 ---
 title: "PreviewImage Element (Visual Studio Templates) | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-general"
-ms.topic: "conceptual"
+ms.technology: vs-ide-general
+ms.topic: reference
 helpviewer_keywords: 
   - "<PreviewImage> Element (Visual Studio Templates)"
   - "PreviewImage Element (Visual Studio Templates)"

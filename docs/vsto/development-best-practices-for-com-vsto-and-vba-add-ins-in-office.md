@@ -1,16 +1,13 @@
 ---
 title: "Development best practices for COM, VSTO, and VBA add-ins in Office"
-ms.custom: ""
 ms.date: "07/25/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - ""
 helpviewer_keywords: 
   - ""
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

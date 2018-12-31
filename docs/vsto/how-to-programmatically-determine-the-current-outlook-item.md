@@ -1,9 +1,6 @@
 ---
 title: "How to: Programmatically determine the current Outlook item"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -37,5 +34,3 @@ ms.workload:
  [Outlook object model overview](../vsto/outlook-object-model-overview.md)   
  [How to: Programmatically retrieve a folder by name](../vsto/how-to-programmatically-retrieve-a-folder-by-name.md)   
  [How to: Programmatically search for a specific contact](../vsto/how-to-programmatically-search-for-a-specific-contact.md)  
-  
-  

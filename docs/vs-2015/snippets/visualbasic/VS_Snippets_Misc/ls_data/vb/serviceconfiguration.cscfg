@@ -14,7 +14,7 @@
             <!-- A value of true will indicate that logging sensitive information is okay -->
             <Setting name="Microsoft.LightSwitch.Trace.Sensitive" value="false" />
 
-            <!-- The semi-colon separated list of categories that will be enabled at the specifed trace level -->
+            <!-- The semi-colon separated list of categories that will be enabled at the specified trace level -->
             <Setting name="Microsoft.LightSwitch.Trace.Categories" value="Microsoft.LightSwitch" />
         </ConfigurationSettings>
         <Certificates>

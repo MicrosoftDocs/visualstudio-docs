@@ -1,9 +1,6 @@
 ---
 title: "Get started programming VSTO Add-ins"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VST.ProjectItem.Outlook"
@@ -13,8 +10,8 @@ dev_langs:
 helpviewer_keywords: 
   - "application-level add-ins [Office development in Visual Studio], getting started"
   - "add-ins [Office development in Visual Studio], getting started"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -89,5 +86,3 @@ ms.workload:
  [Write code in Office solutions](../vsto/writing-code-in-office-solutions.md)   
  [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md)   
  [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)  
-  
-  

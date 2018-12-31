@@ -2,7 +2,6 @@
 title: Advanced Security Settings Dialog Box
 ms.date: 06/27/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "vs.err.debug_in_zone_no_hostproc"

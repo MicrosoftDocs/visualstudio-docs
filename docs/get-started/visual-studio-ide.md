@@ -5,6 +5,7 @@ ms.date: 10/26/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
+ms.custom: vs-get-started
 author: gewarren
 f1_keywords:
   - vs.startpage

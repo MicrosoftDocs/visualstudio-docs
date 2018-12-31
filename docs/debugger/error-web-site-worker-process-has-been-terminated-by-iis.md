@@ -1,8 +1,6 @@
 ---
 title: "Error: Web site worker process has been terminated by IIS | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "troubleshooting"
 f1_keywords: 
   - "vs.debug.error.web_server_process_terminated"

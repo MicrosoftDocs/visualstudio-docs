@@ -1,9 +1,6 @@
 ---
 title: "How to: Programmatically sort data in worksheets"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -66,5 +63,3 @@ ms.workload:
  [NamedRange control](../vsto/namedrange-control.md)   
  [ListObject control](../vsto/listobject-control.md)   
  [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)  
-  
-  

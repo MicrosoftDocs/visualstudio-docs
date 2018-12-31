@@ -1,9 +1,7 @@
 ---
 title: "Debugging code for absolute beginners"
 description: "If you are debugging for the first time, learn a few principles to help you run your app in debugging mode with Visual Studio"
-ms.custom: ""
 ms.date: "07/06/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "tutorial"
 helpviewer_keywords:
   - "debugger"
@@ -326,4 +324,4 @@ When you find the region of code with the problem, use the debugger to investiga
 In this article, you've learned a few general debugging concepts. Next, you can start learning more about the debugger.
 
 > [!div class="nextstepaction"]
-> [Learn to debug using Visual Studio](../debugger/getting-started-with-the-debugger.md)
+> [First look at the debugger](../debugger/debugger-feature-tour.md)

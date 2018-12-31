@@ -5,8 +5,7 @@ ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 59131181-1caa-4b7f-be4b-e84709634edf

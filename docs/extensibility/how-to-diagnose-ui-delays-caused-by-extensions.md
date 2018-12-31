@@ -1,9 +1,6 @@
 ---
 title: "Diagnosing extension UI delays in Visual Studio| Microsoft Docs"
-ms.custom: ""
 ms.date: "01/26/2018"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 author: "PooyaZv"
 ms.author: "pozandev"

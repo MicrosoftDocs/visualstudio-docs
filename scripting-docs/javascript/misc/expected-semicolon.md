@@ -1,5 +1,5 @@
 ---
-title: "Expected &#39;;&#39; | Microsoft Docs"
+title: "Expected ';' | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
 ms.prod: "windows-client-threshold"
@@ -21,7 +21,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 ---
-# Expected &#39;;&#39;
+# Expected ';'
 You attempted to place more than one statement on a line, but did not separate them with semicolons. Semicolons are used to terminate statements. Although you can place several statements on a single line, each one must be delimited from the next with a semicolon.  
   
 ### To correct this error  

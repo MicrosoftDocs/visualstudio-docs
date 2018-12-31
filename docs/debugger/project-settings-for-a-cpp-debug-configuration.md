@@ -2,7 +2,6 @@
 title: "Project settings for a C++ debug config"
 ms.custom: "seodec18"
 ms.date: "11/26/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "reference"
 f1_keywords: 
   - "VC.Project.VCDebugSettings.WebBrowser.DebuggerType"

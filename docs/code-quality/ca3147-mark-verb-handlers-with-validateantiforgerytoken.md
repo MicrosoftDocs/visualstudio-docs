@@ -2,7 +2,6 @@
 title: "CA3147: Mark verb handlers with ValidateAntiForgeryToken"
 ms.date: 08/08/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 author: dotpaul
 ms.author: paulming

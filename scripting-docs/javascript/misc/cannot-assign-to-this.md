@@ -1,5 +1,5 @@
 ---
-title: "Cannot assign to &#39;this&#39; | Microsoft Docs"
+title: "Cannot assign to 'this' | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
 ms.prod: "windows-client-threshold"
@@ -21,7 +21,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 ---
-# Cannot assign to &#39;this&#39;
+# Cannot assign to 'this'
 You attempted to assign a value to **this**. **this** is a [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] keyword that refers to either:
 
 - the object currently executing a method,

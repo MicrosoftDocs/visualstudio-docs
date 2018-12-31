@@ -1,7 +1,6 @@
 ---
 title: "Debug Azure services | Microsoft Docs"
 ms.date: "09/14/2017"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "debugger"

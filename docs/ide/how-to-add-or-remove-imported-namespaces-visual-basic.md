@@ -2,7 +2,6 @@
 title: "How to: Add or remove imported namespaces (Visual Basic)"
 ms.date: 06/21/2017
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:
   - "adding imported namespaces"

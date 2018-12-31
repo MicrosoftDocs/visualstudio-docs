@@ -1,9 +1,6 @@
 ---
 title: "How to: Open Office solutions without running code"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -16,8 +13,8 @@ helpviewer_keywords:
   - "assemblies [Office development in Visual Studio], bypassing"
   - "Office documents [Office development in Visual Studio, opening without running code"
   - "documents [Office development in Visual Studio], opening without running code"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -51,5 +48,3 @@ ms.workload:
  [Deploy an Office solution](../vsto/deploying-an-office-solution.md)   
  [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)   
  [Application and deployment manifests in Office solutions](../vsto/application-and-deployment-manifests-in-office-solutions.md)  
-  
-  

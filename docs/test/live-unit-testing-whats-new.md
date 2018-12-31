@@ -2,7 +2,6 @@
 title: "What's New in Live Unit Testing"
 ms.date: 10-11-2017
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 helpviewer_keywords: 
   - "Visual Studio ALM"
@@ -61,4 +60,3 @@ In addition to these major additions, Live Unit Testing includes the following e
 ## See also
 - [Introducing Live Unit Testing](live-unit-testing-intro.md)   
 - [Live Unit Testing with Visual Studio 2017](live-unit-testing.md)
-

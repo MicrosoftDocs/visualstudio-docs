@@ -2,7 +2,6 @@
 title: Options, Text Editor, C/C++, Formatting
 ms.date: 04/30/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.C/C++.Formatting.General"

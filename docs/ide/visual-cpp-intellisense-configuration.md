@@ -1,7 +1,6 @@
 ---
 title: Configure a C++ project for IntelliSense
 ms.date: 10/08/2018
-ms.technology: vs-ide-general
 ms.topic: conceptual
 author: mblome
 ms.author: mblome

@@ -1,9 +1,7 @@
 ---
 title: "MSBuild Items | Microsoft Docs"
 description: "Use the MSBuild Include attribute of the ItemGroup to specify files to be included in a build"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: msbuild
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "MSBuild, Items"

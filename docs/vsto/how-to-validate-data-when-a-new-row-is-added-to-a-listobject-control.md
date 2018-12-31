@@ -1,9 +1,6 @@
 ---
 title: "How to: Validate data when a new row is added to a ListObject control"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -56,5 +53,3 @@ ms.workload:
  [ListObject control](../vsto/listobject-control.md)   
  [Automate Excel by using extended objects](../vsto/automating-excel-by-using-extended-objects.md)   
  [How to: Map ListObject columns to data](../vsto/how-to-map-listobject-columns-to-data.md)  
-  
-  

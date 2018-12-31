@@ -1,9 +1,6 @@
 ---
 title: "How to: Programmatically remove protection from worksheets"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -46,5 +43,3 @@ ms.workload:
  [How to: Programmatically protect workbooks](../vsto/how-to-programmatically-protect-workbooks.md)   
  [How to: Programmatically hide worksheets](../vsto/how-to-programmatically-hide-worksheets.md)   
  [Global access to objects in Office projects](../vsto/global-access-to-objects-in-office-projects.md)  
-  
-  

@@ -2,7 +2,6 @@
 title: "Debugger windows | Microsoft Docs"
 ms.custom: "seodec18"
 ms.date: "04/25/2017"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: 4c6fe8f1-b015-4989-bb31-72ebac390026
 author: "mikejo5000"
@@ -45,4 +44,4 @@ You can open most debugger windows while you are debugging your program. To see 
 
 ## See Also
 
-[Debugger Basics](../debugger/getting-started-with-the-debugger.md)
+[First look at the debugger](../debugger/debugger-feature-tour.md)

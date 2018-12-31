@@ -2,7 +2,6 @@
 title: Solutions and projects
 ms.date: 10/05/2017
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 f1_keywords:
   - "vs.addnewsolutionitem"
@@ -11,7 +10,6 @@ f1_keywords:
   - "vs.addnewitem"
   - "vs.addexistingitem"
   - "VS.SolutionExplorer"
-  - "vs.newproject"
   - "vs.addexistingsolutionitem"
   - "vs.environment.solutions"
   - "VS.SolutionExplorer.Solutions"

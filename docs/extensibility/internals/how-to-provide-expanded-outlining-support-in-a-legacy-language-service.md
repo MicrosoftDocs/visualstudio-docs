@@ -1,9 +1,6 @@
 ---
 title: "Provide Outlining Support in a Language Service | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], outlining support"

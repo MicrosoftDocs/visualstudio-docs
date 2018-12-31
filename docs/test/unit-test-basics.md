@@ -2,7 +2,6 @@
 title: "Unit Test Basics"
 ms.date: 2016-01-07
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 f1_keywords:
   - "vs.UnitTest.CreateUnitTest"
@@ -251,7 +250,7 @@ For more information, see [Run unit tests with Test Explorer](../test/run-unit-t
 
 2.  In **Test Explorer**, select the test methods and then choose **Debug Selected Tests** from the shortcut menu.
 
-Learn more details about [debugging unit tests](../debugger/debugging-in-visual-studio.md).
+Learn more details about [debugging unit tests](../debugger/debugger-feature-tour.md).
 
 **Q: If I'm using TDD, how do I generate code from my tests?**
 

@@ -1,9 +1,6 @@
 ---
 title: "How to: Customize a built-in tab"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -11,8 +8,8 @@ dev_langs:
 helpviewer_keywords: 
   - "Ribbon [Office development in Visual Studio], tabs"
   - "built-in tabs [Office development in Visual Studio]"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -73,5 +70,3 @@ ms.workload:
  [How to: Change the position of a tab on the ribbon](../vsto/how-to-change-the-position-of-a-tab-on-the-ribbon.md)   
  [How to: Add controls to the Backstage view](../vsto/how-to-add-controls-to-the-backstage-view.md)   
  [How to: Show Add-in user interface errors](../vsto/how-to-show-add-in-user-interface-errors.md)  
-  
-  

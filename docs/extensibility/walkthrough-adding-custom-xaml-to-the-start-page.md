@@ -1,9 +1,6 @@
 ---
 title: "Walkthrough: Adding Custom XAML to the Start Page | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "custom start page"

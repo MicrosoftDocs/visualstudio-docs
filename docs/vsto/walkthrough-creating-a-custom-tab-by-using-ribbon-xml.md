@@ -1,9 +1,6 @@
 ---
 title: "Walkthrough: Create a custom tab by using Ribbon XML"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -155,5 +152,3 @@ ms.workload:
  [Ribbon overview](../vsto/ribbon-overview.md)   
  [Ribbon XML](../vsto/ribbon-xml.md)   
  [Walkthrough: Create a custom tab by using the Ribbon Designer](../vsto/walkthrough-creating-a-custom-tab-by-using-the-ribbon-designer.md)  
-  
-  

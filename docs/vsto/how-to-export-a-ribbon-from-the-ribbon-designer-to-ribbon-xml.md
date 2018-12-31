@@ -1,9 +1,6 @@
 ---
 title: "How to: Export a ribbon from the Ribbon Designer to Ribbon XML"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -16,8 +13,8 @@ helpviewer_keywords:
   - "XML [Office development in Visual Studio], Ribbon"
   - "Ribbon Designer [Office development in Visual Studio]"
   - "exporting Ribbon"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -67,5 +64,3 @@ ms.workload:
  [Ribbon XML](../vsto/ribbon-xml.md)   
  [Walkthrough: Create a custom tab by using the Ribbon Designer](../vsto/walkthrough-creating-a-custom-tab-by-using-the-ribbon-designer.md)   
  [Walkthrough: Create a custom tab by using Ribbon XML](../vsto/walkthrough-creating-a-custom-tab-by-using-ribbon-xml.md)  
-  
-  

@@ -1,9 +1,6 @@
 ---
 title: "TASK_STATE_EXECUTED Field | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "TASK_STATE_EXECUTED field, Task class [.NET Framework debug engines]"

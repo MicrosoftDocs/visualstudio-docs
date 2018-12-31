@@ -10,7 +10,6 @@ manager: douge
 author: gewarren
 ms.author: gewarren
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ---
 # F1 help
 

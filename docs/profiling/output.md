@@ -1,8 +1,6 @@
 ---
 title: "Output | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: 5e286e61-4548-42cf-a635-e608c5edbe2b
 author: "mikejo5000"

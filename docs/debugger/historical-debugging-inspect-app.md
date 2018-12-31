@@ -1,8 +1,6 @@
 ---
 title: "Inspect your app with historical debugging | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: 629b5d93-39b2-430a-b8ba-d2a47fdf2584
 author: "mikejo5000"

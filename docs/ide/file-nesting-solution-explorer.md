@@ -3,7 +3,6 @@ title: File nesting rules for Solution Explorer
 ms.date: 05/25/2018
 ms.topic: conceptual
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 helpviewer_keywords:
  - "file nesting"
  - "Solution Explorer, file nesting"

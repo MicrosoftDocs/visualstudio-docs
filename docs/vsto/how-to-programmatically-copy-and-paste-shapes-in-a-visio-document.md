@@ -1,9 +1,6 @@
 ---
 title: "How to: Programmatically copy and paste shapes in a Visio document"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -47,5 +44,3 @@ ms.workload:
  [Visio object model overview](../vsto/visio-object-model-overview.md)   
  [Work with Visio shapes](../vsto/working-with-visio-shapes.md)   
  [How to: Programmatically add shapes to a Visio document](../vsto/how-to-programmatically-add-shapes-to-a-visio-document.md)  
-  
-  

@@ -1,8 +1,6 @@
 ---
 title: "Using the Tasks Window | Microsoft Docs"
-ms.custom: ""
 ms.date: "03/18/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.debug.paralleltasks"
@@ -90,7 +88,7 @@ The **Switch to Task** command makes the current task the active task. The **Swi
 
 ## See also
 
-- [Debugger Basics](../debugger/getting-started-with-the-debugger.md)
+- [First look at the debugger](../debugger/debugger-feature-tour.md)
 - [Debugging Managed Code](../debugger/debugging-managed-code.md)
 - [Parallel Programming](/dotnet/standard/parallel-programming/index)
 - [Concurrency Runtime](/cpp/parallel/concrt/concurrency-runtime)

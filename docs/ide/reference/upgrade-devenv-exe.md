@@ -2,7 +2,6 @@
 title: -Upgrade (devenv.exe)
 ms.date: 12/10/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 helpviewer_keywords:
   - "/upgrade Devenv switch"

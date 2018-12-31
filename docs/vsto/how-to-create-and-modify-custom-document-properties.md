@@ -1,9 +1,6 @@
 ---
 title: "How to: Create and modify custom document properties"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -12,8 +9,8 @@ helpviewer_keywords:
   - "custom document properties"
   - "documents [Office development in Visual Studio], properties"
   - "document properties [Office development in Visual Studio]"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -40,5 +37,3 @@ ms.workload:
  [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)   
  [Program document-level customizations](../vsto/programming-document-level-customizations.md)   
  [How to: Read from and write to document properties](../vsto/how-to-read-from-and-write-to-document-properties.md)  
-  
-  

@@ -2,7 +2,6 @@
 title: "Enable debugging for ASP.NET apps | Microsoft Docs"
 ms.custom: "H1HackMay2017"
 ms.date: "09/21/18"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
@@ -185,4 +184,3 @@ There are different ways to publish apps to IIS. These steps show how to create 
 [Walkthrough: Debugging a web form](walkthrough-debugging-a-web-form.md)   
 [How to: Debug ASP.NET exceptions](how-to-debug-aspnet-exceptions.md)   
 [Debug web applications: Errors and troubleshooting](debugging-web-applications-errors-and-troubleshooting.md)
-  

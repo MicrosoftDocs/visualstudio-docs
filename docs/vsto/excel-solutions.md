@@ -1,9 +1,6 @@
 ---
 title: "Excel solutions"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -24,8 +21,8 @@ helpviewer_keywords:
   - "Office development in Visual Studio, Excel solutions"
   - "document-level customizations [Office development in Visual Studio], Excel"
   - "Office projects [Office development in Visual Studio], Excel"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -116,4 +113,3 @@ ms.workload:
 | [Walkthrough: Add controls to a worksheet at runtime in VSTO Add-in project](../vsto/walkthrough-adding-controls-to-a-worksheet-at-run-time-in-vsto-add-in-project.md) | Demonstrates how to add a Windows Forms button, a <xref:Microsoft.Office.Tools.Excel.NamedRange>, and a <xref:Microsoft.Office.Tools.Excel.ListObject> to a worksheet at runtime by using a VSTO Add-in. |
 | [Understand co-authoring and Add-ins](./understanding-coauthoring-and-addins.md) | Describes adjustments you might need to make to your solutions to accommodate coauthoring. |
 | [Excel 2010 in Office development](http://go.microsoft.com/fwlink/?LinkId=199011) | Provides links to articles and reference documentation about developing Excel solutions. These are not specific to Office development using Visual Studio. |
-

@@ -11,7 +11,6 @@ ms.topic: reference
 helpviewer_keywords:
 ms.prod: visual-studio-dev15
 ms.custom: "seodec18"
-ms.technology: vs-acquisition
 ms.workload:
   - "multiple"
 ---

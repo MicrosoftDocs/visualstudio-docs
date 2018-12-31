@@ -1,13 +1,8 @@
 ---
 title: "How to: Define the Type Descriptor of a Parameter | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
-  - "VB"
-  - "CSharp"
   - "VB"
   - "CSharp"
 helpviewer_keywords: 
@@ -122,4 +117,3 @@ ms.workload:
  [How to: Add a parameter to a method](../sharepoint/how-to-add-a-parameter-to-a-method.md)   
  [How to: Define a method instance](../sharepoint/how-to-define-a-method-instance.md)   
  [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md)  
-  

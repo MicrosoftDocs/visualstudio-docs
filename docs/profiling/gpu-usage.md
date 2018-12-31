@@ -1,8 +1,6 @@
 ---
 title: "GPU usage | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/01/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 author: "mikejo5000"
 ms.author: "mikejo"

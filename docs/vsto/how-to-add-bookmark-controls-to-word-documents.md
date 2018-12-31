@@ -1,9 +1,6 @@
 ---
 title: "How to: Add Bookmark controls to Word documents"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VST.Bookmark.Dialog"
@@ -14,8 +11,8 @@ helpviewer_keywords:
   - "Bookmark control, adding to documents"
   - "Create Bookmark Control dialog box"
   - "controls [Office development in Visual Studio], adding to documents"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -130,5 +127,3 @@ ms.workload:
  [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)   
  [Program document-level customizations](../vsto/programming-document-level-customizations.md)   
  [How to: Resize Bookmark controls](../vsto/how-to-resize-bookmark-controls.md)  
-  
-  

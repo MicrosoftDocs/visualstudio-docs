@@ -1,9 +1,6 @@
 ---
 title: "Work with mail items"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -38,5 +35,3 @@ ms.workload:
  [Work with folders](../vsto/working-with-folders.md)   
  [Work with calendar items](../vsto/working-with-calendar-items.md)   
  [Outlook solutions](../vsto/outlook-solutions.md)  
-  
-  

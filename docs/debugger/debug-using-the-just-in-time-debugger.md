@@ -1,8 +1,6 @@
 ---
 title: "Debug using the Just-In-Time Debugger | Microsoft Docs"
-ms.custom: ""
 ms.date: "09/24/18"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "debugging [Visual Studio], Just-In-Time"
@@ -190,6 +188,6 @@ You might see the following error messages during Just-In-Time debugging:
 
 ## See also
 - [Debugger security](../debugger/debugger-security.md)
-- [Debugger basics](../debugger/getting-started-with-the-debugger.md)
+- [First look at the debugger](../debugger/debugger-feature-tour.md)
 - [Options, Debugging, Just-In-Time dialog box](../debugger/just-in-time-debugging-options-dialog-box.md)
 - [Security Warning: Attaching to a process owned by an untrusted user can be dangerous. If the following information looks suspicious or you are unsure, do not attach to this process](../debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user.md)

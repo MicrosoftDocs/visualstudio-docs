@@ -1,9 +1,6 @@
 ---
 title: "Late binding in Office solutions"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -66,5 +63,3 @@ ms.workload:
  [Reflection (C#)](/dotnet/csharp/programming-guide/concepts/reflection)  
  [Reflection (Visual Basic)](/dotnet/visual-basic/programming-guide/concepts/reflection)  
  [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)  
-  
-  

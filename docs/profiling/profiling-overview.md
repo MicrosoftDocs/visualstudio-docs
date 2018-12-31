@@ -2,7 +2,6 @@
 title: "Overview of tools for measuring performance | Microsoft Docs"
 ms.custom: "seodec18"
 ms.date: "03/27/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "overview"
 author: "mikejo5000"
 ms.author: "mikejo"

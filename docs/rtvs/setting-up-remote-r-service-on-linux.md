@@ -3,7 +3,6 @@ title: Setting up Remote R Service on Linux
 description: How to set up Remote R Service on Ubuntu and the Windows Subsystem for Linux.
 ms.date: 12/04/2017
 ms.prod: visual-studio-dev15
-ms.technology: vs-rtvs
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
@@ -165,4 +164,3 @@ In each case, the remote computer must have one of the following R interpreters 
     ```
 1. Use the `az container list` command to check the status. Look for `provisioningState`: `Succeeded`.
 1. If the provisioning succeeded, you can now connect to the container. Look for the public IP address, in the `ipAddress` field, which you use with the credentials in the docker file to connect to the container from RTVS.
-

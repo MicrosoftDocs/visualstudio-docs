@@ -2,7 +2,6 @@
 title: -Diff (devenv.exe)
 ms.date: 12/10/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 ms.assetid: 5377fedb-632a-4e86-a947-7c11c86451e7
 author: gewarren

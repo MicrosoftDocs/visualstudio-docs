@@ -1,9 +1,6 @@
 ---
 title: "Office development samples"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -40,5 +37,3 @@ ms.workload:
 ## See also  
  [MSDN developer samples: Learn through code samples](http://go.microsoft.com/fwlink/?LinkID=248199)   
  [Common tasks in Office programming](../vsto/common-tasks-in-office-programming.md)  
-  
-  

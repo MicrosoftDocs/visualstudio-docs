@@ -1,5 +1,5 @@
 ---
-title: "Expected &#39;}&#39; | Microsoft Docs"
+title: "Expected '}' | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
 ms.prod: "windows-client-threshold"
@@ -21,7 +21,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 ---
-# Expected &#39;}&#39;
+# Expected '}'
 You did not include the right brace that marks the end of the function body, loop, block of code, or object initializer. An example of this error would be a **for** loop with only the left brace marking the body of the loop.  
   
 ### To correct this error  

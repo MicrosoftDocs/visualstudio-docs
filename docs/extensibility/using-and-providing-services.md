@@ -1,9 +1,6 @@
 ---
 title: "Using and Providing Services | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "examples [Visual Studio SDK], services"

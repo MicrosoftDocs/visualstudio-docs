@@ -1,8 +1,6 @@
 ---
 title: "How to: Limit Instrumentation to Specific Functions | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "performance tools, limiting instrumentation to functions"
@@ -40,7 +38,7 @@ You can limit instrumentation and data collection to one or more functions by se
     `FuncSpec` is the namespace and function name. It has the format `Namespace`**::**`FunctionName`. Use a semicolon to separate multiple functions. Use an asterisk (\*) to specify a wildcard for one or more characters. For example, **/include:MyNS::\\*** specifies all functions in the MyNS namespace.  
   
    > [!NOTE]
-   >  To list the functions in a binary, open a command prompt window in the Profiling Tools installation directory (typically, the \Team Tools\Performance Tools directory under the [!INCLUDE[vsprvsts](../code-quality/includes/vsprvsts_md.md)] installation directory) and then type **vsinstr /DumpFuncs**  
+   >  To list the functions in a binary, open a command prompt window in the Profiling Tools installation directory (see [Specify the path to command line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md)) and then type **vsinstr /DumpFuncs**  
   
 ### To limit instrumentation to specific functions in a binary  
   
@@ -59,7 +57,7 @@ You can limit instrumentation and data collection to one or more functions by se
     `FuncSpec` is the namespace and function name. It has the format `Namespace`**::**`FunctionName`. Use a semicolon to separate multiple functions. Use an asterisk (\*) to specify a wildcard for one or more characters. For example, **/include:MyNS::\\*** specifies all functions in the MyNS namespace.  
   
    > [!NOTE]
-   >  To list the functions in a binary, open a command prompt window in the Profiling Tools installation directory (typically, the \Team Tools\Performance Tools directory under the [!INCLUDE[vsprvsts](../code-quality/includes/vsprvsts_md.md)] installation directory) and then type **vsinstr /DumpFuncs**  
+   >  To list the functions in a binary, open a command prompt window in the Profiling Tools installation directory (see [Specify the path to command line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md)) and then type **vsinstr /DumpFuncs**  
   
 ## See also  
  [Control data collection](../profiling/controlling-data-collection.md)   

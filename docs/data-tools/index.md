@@ -6,7 +6,6 @@ ms.date: 01/01/2018
 author: gewarren
 ms.author: gewarren
 ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
 ms.topic: landing-page
 ms.workload:
   - "data-storage"
