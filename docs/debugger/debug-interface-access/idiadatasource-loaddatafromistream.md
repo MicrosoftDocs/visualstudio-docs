@@ -36,7 +36,7 @@ HRESULT loadDataFromIStream ( 
 |Value|Description|  
 |-----------|-----------------|  
 |E_PDB_FORMAT|Attempted to access a file with an obsolete format.|  
-|E_INVALIDARG|Invalidparameter.|  
+|E_INVALIDARG|Invalid parameter.|  
 |E_UNEXPECTED|Data source has already been prepared.|  
   
 ## Remarks  
