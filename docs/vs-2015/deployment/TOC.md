@@ -52,7 +52,7 @@
 ##### [Walkthrough: Downloading Assemblies on Demand with the ClickOnce Deployment API](walkthrough-downloading-assemblies-on-demand-with-the-clickonce-deployment-api.md)
 #### [Walkthrough: Downloading Satellite Assemblies on Demand with the ClickOnce Deployment API Using the Designer](walkthrough-downloading-satellite-assemblies-on-demand-with-the-clickonce-deployment-api-using-the-designer.md)
 #### [Walkthrough: Manually Deploying a ClickOnce Application](walkthrough-manually-deploying-a-clickonce-application.md)
-##### [Walkthrough: Manually Deploying a ClickOnce Application that Does Not Require Re-Signing and that Preserves Branding Information](walkthrough-manually-deploying-a-clickonce-application-that-does-not-require-re-signing-and-that-preserves-branding-information.md)
+##### [Walkthrough: Manually Deploying a ClickOnce Application that Does Not Require Re-Signing and that Preserves Branding Information](/visualstudio/deployment/walkthrough-manually-deploying-a-clickonce-app-no-re-signing-required?view=vs-2015)
 #### [Walkthrough: Downloading Satellite Assemblies on Demand with the ClickOnce Deployment API](walkthrough-downloading-satellite-assemblies-on-demand-with-the-clickonce-deployment-api.md)
 #### [Walkthrough: Creating a Custom Installer for a ClickOnce Application](walkthrough-creating-a-custom-installer-for-a-clickonce-application.md)
 ### [Choosing a ClickOnce Update Strategy](choosing-a-clickonce-update-strategy.md)

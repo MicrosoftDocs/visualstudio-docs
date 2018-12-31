@@ -82,7 +82,7 @@ This section covers common debugging problems and techniques for managed applica
  [Debugging Script and Web Applications](../debugger/debugging-web-applications-and-script.md)  
  Describes common debugging problems and techniques you may encounter when debugging script and Web applications.  
   
- [What’s New for the Debugger in Visual Studio 2015](../debugger/what’s-new-for-the-debugger-in-visual-studio-2015.md)  
+ [What’s New for the Debugger in Visual Studio 2015](/visualstudio/debugger/what-s-new-for-the-debugger-in-visual-studio-2015?view=vs-2015)  
  Description of new debugging features added in this release of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
   
  [Debugging Home Page](../debugger/debugging-in-visual-studio.md)  
