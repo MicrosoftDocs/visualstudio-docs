@@ -4,7 +4,6 @@ titleSuffix: ""
 description: "Learn about the new features in the preview release of Visual Studio 2019."
 ms.date: 12/19/2018
 ms.prod: visual-studio-dev16
-ms.technology: vs-acquisition
 ms.custom: "seodec18"
 ms.topic: conceptual
 f1_keywords:

@@ -2,7 +2,6 @@
 title: "Graphics diagnostics | Microsoft Docs"
 ms.custom: "seodec18"
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.graphics"
@@ -76,6 +75,5 @@ Visual Studio*Graphics Diagnostics* is a set of tools for recording and then ana
 
 | Title | Description |
 | - | - |
-| [Debugger Feature Tour](../debugging-in-visual-studio.md) | Introduces the debugging functionality in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. |
+| [Debugger Feature Tour](/visualstudio/debugger/debugger-feature-tour) | Introduces the debugging functionality in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. |
 | [DirectX Graphics and Gaming](http://go.microsoft.com/fwlink/?LinkId=256498) | Provides articles that discuss DirectX graphics technologies. |
-

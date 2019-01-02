@@ -1,9 +1,6 @@
 ---
 title: "Calling into the SharePoint Object Models | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -55,4 +52,3 @@ ms.workload:
  [How to: Create a SharePoint command](../sharepoint/how-to-create-a-sharepoint-command.md)   
  [How to: Execute a SharePoint command](../sharepoint/how-to-execute-a-sharepoint-command.md)   
  [Overview of the programming model of SharePoint tools extensions](../sharepoint/overview-of-the-programming-model-of-sharepoint-tools-extensions.md)  
-  

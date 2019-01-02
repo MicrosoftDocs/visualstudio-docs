@@ -1,8 +1,6 @@
 ---
 title: "How to: Debug a ClickOnce Application with Restricted Permissions | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"

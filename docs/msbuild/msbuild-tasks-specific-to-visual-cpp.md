@@ -1,8 +1,6 @@
 ---
 title: "MSBuild Tasks Specific to Visual C++ | Microsoft Docs"
-ms.custom: ""
 ms.date: "06/27/2018"
-ms.technology: msbuild
 ms.topic: "reference"
 dev_langs: 
   - "VB"

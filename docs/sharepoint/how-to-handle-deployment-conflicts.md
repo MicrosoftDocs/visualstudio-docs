@@ -1,9 +1,6 @@
 ---
 title: "How to: Handle Deployment Conflicts | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "SharePoint development in Visual Studio, extending deployment"
@@ -57,4 +54,3 @@ ms.workload:
  [Extend SharePoint project items](../sharepoint/extending-sharepoint-project-items.md)   
  [How to: Run code when deployment steps are executed](../sharepoint/how-to-run-code-when-deployment-steps-are-executed.md)   
  [How to: Create a SharePoint command](../sharepoint/how-to-create-a-sharepoint-command.md)  
-  

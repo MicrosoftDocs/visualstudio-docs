@@ -1,9 +1,6 @@
 ---
 title: "Work with Visio documents"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -33,5 +30,3 @@ ms.workload:
  [Visio solutions](../vsto/visio-solutions.md)   
  [Visio object model overview](../vsto/visio-object-model-overview.md)   
  [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)  
-  
-  

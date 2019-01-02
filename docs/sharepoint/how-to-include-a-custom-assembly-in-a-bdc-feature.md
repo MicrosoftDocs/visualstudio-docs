@@ -1,15 +1,10 @@
 ---
 title: "How to: Include a Custom Assembly in a BDC Feature | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VS.SharePointTools.BDC.Add_Assemblies_Dialog"
 dev_langs: 
-  - "VB"
-  - "CSharp"
   - "VB"
   - "CSharp"
 helpviewer_keywords: 
@@ -52,4 +47,3 @@ ms.workload:
  [Create a business data connectivity model](../sharepoint/creating-a-business-data-connectivity-model.md)   
  [How to: Create a BDC model](../sharepoint/how-to-create-a-bdc-model.md)   
  [Integragte business data into SharePoint](../sharepoint/integrating-business-data-into-sharepoint.md)  
-  

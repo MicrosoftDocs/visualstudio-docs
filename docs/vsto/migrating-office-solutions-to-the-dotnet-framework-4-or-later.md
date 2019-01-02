@@ -1,9 +1,6 @@
 ---
 title: "Migrate Office solutions to the .NET Framework 4 or later"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VST.Project.TargetFrameworkWarning"
@@ -38,5 +35,3 @@ ms.workload:
  [How to: Target a version of the .NET Framework](../ide/how-to-target-a-version-of-the-dotnet-framework.md)   
  [Troubleshoot errors in Office solutions](../vsto/troubleshooting-errors-in-office-solutions.md)   
  [Additional support for errors in Office solutions](../vsto/additional-support-for-errors-in-office-solutions.md)  
-  
-  

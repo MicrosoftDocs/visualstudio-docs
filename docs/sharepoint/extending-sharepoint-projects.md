@@ -1,9 +1,6 @@
 ---
 title: "Extending SharePoint Projects | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -46,5 +43,3 @@ ms.workload:
  [Extend SharePoint project items](../sharepoint/extending-sharepoint-project-items.md)   
  [Extend SharePoint packaging and deployment](../sharepoint/extending-sharepoint-packaging-and-deployment.md)   
  [Extend the SharePoint project system](../sharepoint/extending-the-sharepoint-project-system.md)  
-  
-  

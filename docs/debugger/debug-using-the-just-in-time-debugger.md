@@ -1,8 +1,6 @@
 ---
 title: "Debug using the Just-In-Time Debugger | Microsoft Docs"
-ms.custom: ""
 ms.date: "09/24/18"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "debugging [Visual Studio], Just-In-Time"
@@ -101,7 +99,7 @@ To enable Just-In-Time debugging instead of standard Windows Form error handling
 
 For this example, you'll make a C# console app in Visual Studio that throws a [NullReferenceException](/dotnet/api/system.nullreferenceexception).
 
-1. In Visual Studio, create a C# console app (**File** > **New** > **Project** > **Visual C#** > **Console Application**) named *ThrowsNullException*. For more information about creating projects in Visual Studio, see [Walkthrough: Create a simple application](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md).
+1. In Visual Studio, create a C# console app (**File** > **New** > **Project** > **Visual C#** > **Console Application**) named *ThrowsNullException*. For more information about creating projects in Visual Studio, see [Walkthrough: Create a simple application](/visualstudio/get-started/csharp/tutorial-wpf).
    
 1. When the project opens in Visual Studio, open the *Program.cs* file. Replace the Main() method with the following code, which prints a line to the console and then throws a NullReferenceException:
    

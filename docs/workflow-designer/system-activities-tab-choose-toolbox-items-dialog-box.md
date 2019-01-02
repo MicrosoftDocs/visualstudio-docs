@@ -3,7 +3,6 @@ title: "Workflow Designer - System.Activities Tab, Choose Toolbox Items Dialog B
 ms.date: 11/04/2016
 ms.topic: reference
 ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 f1_keywords:
   - "VS.CHOOSEITEMS.SYSTEM.ACTIVITIES_COMPONENTS"
   - "VS.CHOOSEITEMS.SYSTEM.ACTIVITIES COMPONENTS"

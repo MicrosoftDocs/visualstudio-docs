@@ -1,9 +1,6 @@
 ---
 title: "Walkthrough: Insert text into a document from an actions pane"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -182,5 +179,3 @@ ms.workload:
  [How to: Add an actions pane to Excel workbooks](/previous-versions/visualstudio/visual-studio-2010/e3zbk0hz(v=vs.100))   
  [How to: Manage control layout on actions panes](../vsto/how-to-manage-control-layout-on-actions-panes.md)   
  [Bookmark control](../vsto/bookmark-control.md)  
-  
-  

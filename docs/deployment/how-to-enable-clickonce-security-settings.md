@@ -1,8 +1,6 @@
 ---
 title: "How to: Enable ClickOnce Security Settings | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -55,4 +53,3 @@ Code access security for ClickOnce applications must be enabled in order to publ
 ## See also  
  [Secure ClickOnce applications](../deployment/securing-clickonce-applications.md)   
  [Code access security for ClickOnce applications](../deployment/code-access-security-for-clickonce-applications.md)   
- 

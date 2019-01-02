@@ -2,7 +2,6 @@
 title: Using Rule Sets to Specify the C++ Rules to Run
 ms.date: 04/28/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: "conceptual"
 author: mikeblome
 ms.author: mblome

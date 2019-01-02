@@ -3,7 +3,6 @@ title: "Analyze CPU usage data (ASP.NET)"
 description: "Measure app performance in ASP.NET apps using the CPU Usage diagnostics tool"
 ms.custom: "mvc"
 ms.date: "08/06/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "quickstart"
 helpviewer_keywords: 
   - "Profiling Tools, quick start"

@@ -2,7 +2,6 @@
 title: Annotating Structs and Classes
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: "conceptual"
 f1_keywords:
   - "_Field_size_bytes_part_"

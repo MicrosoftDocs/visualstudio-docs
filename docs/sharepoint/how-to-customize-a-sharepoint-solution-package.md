@@ -1,9 +1,6 @@
 ---
 title: "How to: Customize a SharePoint Solution Package | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VS.SharePointTools.RAD.PackageDesignerAdvanced"
@@ -11,8 +8,6 @@ f1_keywords:
   - "VS.SharePointTools.RAD.PackageDesignerProperties"
   - "VS.SharePointTools.RAD.PackageDesigner.SwitchView"
 dev_langs: 
-  - "VB"
-  - "CSharp"
   - "VB"
   - "CSharp"
 helpviewer_keywords: 
@@ -88,4 +83,3 @@ ms.workload:
   
 ## See also
  [Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)  
-  

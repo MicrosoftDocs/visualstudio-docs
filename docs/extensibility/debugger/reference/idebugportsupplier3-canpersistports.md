@@ -1,9 +1,6 @@
 ---
 title: "IDebugPortSupplier3::CanPersistPorts | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugPortSupplier3::CanPersistPorts"

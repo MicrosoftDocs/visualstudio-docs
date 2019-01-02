@@ -2,7 +2,6 @@
 title: "Attach to running processes with the debugger | Microsoft Docs"
 ms.custom: "seodec18"
 ms.date: "09/27/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.processes.attach"
@@ -204,4 +203,3 @@ In some local debugging scenarios, you can debug in Visual Studio with no access
  [Debug multiple processes](../debugger/debug-multiple-processes.md)   
  [Just-In-Time debugging](../debugger/just-in-time-debugging-in-visual-studio.md)   
  [Remote debugging](../debugger/remote-debugging.md)
- 

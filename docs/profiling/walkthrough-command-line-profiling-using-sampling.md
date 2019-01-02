@@ -1,8 +1,6 @@
 ---
 title: "Walkthrough: Command-Line Profiling Using Sampling | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "profiling tools, walkthroughs"
@@ -29,7 +27,7 @@ In this walkthrough, you will follow these steps:
 
 - Intermediate understanding of [!INCLUDE[csharp_current_short](../misc/includes/csharp_current_short_md.md)]
 - Intermediate understanding of working with command line tools
-- A copy of the [PeopleTrax Sample](../profiling/peopletrax-sample-profiling-tools.md)
+- A copy of the [PeopleTrax Sample](/visualstudio/profiling/performance-explorer)
 - To work with the information provided by profiling, it is best to have debugging symbol information available.
 
 ## Command-line profiling using the sampling method

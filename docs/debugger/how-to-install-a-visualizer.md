@@ -1,8 +1,6 @@
 ---
 title: "How to: Install a Visualizer | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
@@ -42,4 +40,4 @@ After you have created a visualizer, you must install the visualizer so that it 
   
 ## See Also  
  [Create Custom Visualizers](../debugger/create-custom-visualizers-of-data.md)   
- [How to: Write a Visualizer](../debugger/how-to-write-a-visualizer.md)
+ [How to: Write a Visualizer](/visualstudio/debugger/create-custom-visualizers-of-data)

@@ -2,7 +2,6 @@
 title: Projects and Solutions, Options Dialog Box
 ms.date: 07/14/2017
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Projects.General"

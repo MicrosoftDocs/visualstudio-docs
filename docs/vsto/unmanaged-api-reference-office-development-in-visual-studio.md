@@ -1,9 +1,6 @@
 ---
 title: "Unmanaged API reference (Office development in Visual Studio)"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -26,5 +23,3 @@ ms.workload:
 ## In this section  
  [IManagedAddin interface](../vsto/imanagedaddin-interface.md)  
  A COM interface that you can implement to load and unload managed VSTO Add-ins in Office applications.  
-  
-  

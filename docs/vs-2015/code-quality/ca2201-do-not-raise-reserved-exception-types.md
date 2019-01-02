@@ -5,8 +5,7 @@ ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
+ms.technology: "vs-devops-test"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords:
@@ -89,6 +88,3 @@ manager: "wpickett"
 
 ## Related Rules
  [CA1031: Do not catch general exception types](../code-quality/ca1031-do-not-catch-general-exception-types.md)
-
-
-

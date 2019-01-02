@@ -2,7 +2,6 @@
 title: "CA1004: Generic methods should provide type parameter"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA1004"

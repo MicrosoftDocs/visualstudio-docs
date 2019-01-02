@@ -1,5 +1,4 @@
 ---
-ms.technology: vs-ai-tools
 ---
 # Clone a repository of Python code in Visual Studio
 

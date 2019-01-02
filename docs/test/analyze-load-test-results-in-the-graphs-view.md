@@ -16,7 +16,6 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ---
 # Analyze load test results in the Graphs view of the Load Test Analyzer
 

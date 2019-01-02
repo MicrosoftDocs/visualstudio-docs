@@ -3,7 +3,6 @@ title: "Example code for creating unit tests"
 description: This article provides sample code that can be tested with unit tests in Visual Studio.
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: sample
 helpviewer_keywords:
   - "unit test sample [Visual Studio]"

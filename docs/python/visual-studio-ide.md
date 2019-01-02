@@ -3,7 +3,6 @@ title: Overview of Visual Studio for Python developers
 titleSuffix: ""
 ms.date: 12/14/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-python
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb

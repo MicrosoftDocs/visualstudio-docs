@@ -2,7 +2,6 @@
 title: "Creating and Running Unit Tests for UWP apps"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 helpviewer_keywords:
   - "unit tests, creating"

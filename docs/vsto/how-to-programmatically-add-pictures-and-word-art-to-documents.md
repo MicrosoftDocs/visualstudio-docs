@@ -1,9 +1,6 @@
 ---
 title: "How to: Programmatically add pictures and Word Art to documents"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -102,5 +99,3 @@ ms.workload:
  [How to: Programmatically restore selections after searches](../vsto/how-to-programmatically-restore-selections-after-searches.md)   
  [How to: Programmatically save documents](../vsto/how-to-programmatically-save-documents.md)   
  [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)  
-  
-  

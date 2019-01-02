@@ -1,9 +1,6 @@
 ---
 title: "Localizing VSIX Packages | Microsoft Docs"
-ms.custom: ""
 ms.date: "10/26/2017"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "localize package"

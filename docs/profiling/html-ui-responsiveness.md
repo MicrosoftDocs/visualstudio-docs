@@ -2,7 +2,6 @@
 title: "Analyze HTML UI responsiveness in UWP Apps | Microsoft Docs"
 ms.custom: "H1Hack27Feb2017"
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "JavaScript"
@@ -63,7 +62,7 @@ This topic describes how to isolate performance problems in your apps using the 
 6.  To stop profiling the app and view data that the profiler gathered, choose **Stop collection**.  
   
 ## Isolate an issue  
- The following section provides suggestions to help you isolate performance problems. For a step-by-step explanation of how to identify and fix performance issues by using a sample performance testing app, see [Walkthrough: Improving UI responsiveness (HTML)](../profiling/walkthrough-improving-ui-responsiveness-html.md).  
+ The following section provides suggestions to help you isolate performance problems. For a step-by-step explanation of how to identify and fix performance issues by using a sample performance testing app, see [Walkthrough: Improving UI responsiveness (HTML)](/visualstudio/profiling/html-ui-responsiveness).  
   
 ###  <a name="Workflow"></a> Isolate a UI responsiveness problem  
  These steps provide a suggested workflow that might help you use the UI Responsiveness Profiler more effectively:  

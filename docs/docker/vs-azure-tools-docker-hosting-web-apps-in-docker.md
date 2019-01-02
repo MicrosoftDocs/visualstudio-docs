@@ -5,8 +5,6 @@ services: azure-container-service
 documentationcenter: .net
 author: mlearned
 manager: douge
-editor: ''
-
 ms.assetid: e5e81c5e-dd18-4d5a-a24d-a932036e78b9
 ms.service: azure-container-service
 ms.devlang: dotnet
@@ -15,16 +13,18 @@ ms.tgt_pltfrm: NA
 ms.workload: NA
 ms.date: 05/21/2018
 ms.author: mlearned
-
 ---
 # Deploy an ASP.NET container to a container registry using Visual Studio
+
 ## Overview
+
 Docker is a lightweight container engine, similar in some ways to a virtual machine, which you can use to host applications and services.
 This tutorial walks you through using Visual Studio to publish your containerized application to an [Azure Container Registry](https://azure.microsoft.com/services/container-registry).
 
 If you don't have an Azure subscription, create a [free account](https://azure.microsoft.com/free/dotnet/?utm_source=acr-publish-doc&utm_medium=docs&utm_campaign=docs) before you begin.
 
 ## Prerequisites
+
 To complete this tutorial:
 
 * Install the latest version of [Visual Studio 2017](https://azure.microsoft.com/downloads/) with the "ASP.NET and web development" workload

@@ -11,7 +11,6 @@ manager: douge
 ms.workload:
   - "multiple"
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # How to: Modify a Standard Menu Command in a Domain-Specific Language
 

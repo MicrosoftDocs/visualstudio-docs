@@ -1,8 +1,6 @@
 ---
 title: "Run UWP apps in the simulator | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs:
   - "CSharp"
@@ -145,4 +143,4 @@ The Visual Studio simulator for UWP apps is a desktop application that simulates
  You can shut down the simulator by pressing **CTRL + ALT + F4**.
 
 ## See Also
- [Run apps from Visual Studio](../debugger/run-store-apps-from-visual-studio.md)
+ [Run apps from Visual Studio](/visualstudio/debugger/debugging-windows-store-and-windows-universal-apps)

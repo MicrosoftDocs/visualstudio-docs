@@ -1,9 +1,6 @@
 ---
 title: "The workbook used to create this project contains ActiveX controls that the designer cannot load"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VST.SelectDocWizard.ContainsActiveXControls"
@@ -32,5 +29,3 @@ ms.workload:
 ## See also  
  [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md)   
  [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md)  
-  
-  

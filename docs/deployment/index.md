@@ -5,7 +5,6 @@ description: Learn how use Visual Studio 2017 to deploy applications, services, 
 ms.custom: "seodec18"
 ms.topic: landing-page
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-deployment
 ms.author: "mikejo"
 author: "mikejo5000"
 manager: douge

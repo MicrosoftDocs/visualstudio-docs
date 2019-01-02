@@ -1,8 +1,6 @@
 ---
 title: "Error: Workgroup Remote Logon Failure | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "troubleshooting"
 f1_keywords: 
   - "vs.debug.error.workgroup_remote_logon_failure"

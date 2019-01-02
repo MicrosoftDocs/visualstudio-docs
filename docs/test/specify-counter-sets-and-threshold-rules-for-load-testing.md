@@ -14,7 +14,6 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ---
 # Specify counter sets and threshold rules for computers in a load test
 

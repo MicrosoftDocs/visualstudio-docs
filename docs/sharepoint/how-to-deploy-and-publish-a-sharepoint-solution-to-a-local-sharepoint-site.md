@@ -1,13 +1,8 @@
 ---
 title: "How to: Deploy and Publish a SharePoint Solution to a Local SharePoint Site | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
-  - "VB"
-  - "CSharp"
   - "VB"
   - "CSharp"
 helpviewer_keywords: 
@@ -45,4 +40,3 @@ ms.workload:
  [Create SharePoint solution packages](../sharepoint/creating-sharepoint-solution-packages.md)   
  [How to: Customize a SharePoint solution package](../sharepoint/how-to-customize-a-sharepoint-solution-package.md)   
  [How to: Add and remove features and items to a package by using the Package Designer](../sharepoint/how-to-add-and-remove-features-and-items-to-a-package-by-using-the-package-designer.md)  
-  
