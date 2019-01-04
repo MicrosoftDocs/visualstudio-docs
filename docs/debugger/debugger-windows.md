@@ -34,7 +34,7 @@ You can open most debugger windows while you are debugging your program. To see 
 |Tasks|CTR:+SHIFT+D, K|[Using the Tasks Window](../debugger/using-the-tasks-window.md)|
 |Python Debug Interactive|SHIFT+ALT+I|[Python Interactive REPL](../python/python-interactive-repl-in-visual-studio.md)|
 |JavaScript Console|CTRL+ALT+V, C|[QuickStart: Debug JavaScript](../debugger/quickstart-debug-javascript-using-the-console.md)|
-|DOM Explorer|CTRL+ALT+V, D|[Debug layout using DOM Explorer](../debugger/debug-layout-using-dom-explorer.md)|
+|DOM Explorer|CTRL+ALT+V, D|[Debug layout using DOM Explorer](/visualstudio/debugger/quickstart-debug-html-and-css)|
 |Live Visual Tree|-|[Inspect XAML properties while debugging](../debugger/inspect-xaml-properties-while-debugging.md)|
 |Live Property Explorer|-|[Inspect XAML properties while debugging](../debugger/inspect-xaml-properties-while-debugging.md)|
 |Processes|CTRL+ALT+Z|[Debug Threads and Processes](../debugger/debug-threads-and-processes.md)|

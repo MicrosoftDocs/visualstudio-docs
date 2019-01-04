@@ -352,7 +352,7 @@ if (performance && performance.mark) {
   
     -   Some objects might provide a `dispose` method and recommendations for use. For example, you should call `dispose` on a [WinJS.Binding.List](/previous-versions/windows/apps/hh700774\(v\=win.10\)) if you call the list's `createFiltered` method and then navigate away from a page.  
   
-    -   You might need to remove one or more event listeners. For more info, see [View DOM event listeners](../debugger/view-dom-event-listeners.md).  
+    -   You might need to remove one or more event listeners. For more info, see [View DOM event listeners](/visualstudio/debugger/quickstart-debug-html-and-css).  
   
 -   Watch the latter part of [this video](https://channel9.msdn.com/Events/Build/2013/3-316) from the Build 2013 conference about the JavaScript memory analyzer.  
   
