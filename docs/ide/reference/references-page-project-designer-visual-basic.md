@@ -82,7 +82,7 @@ Select a user-specified namespace in the namespaces list, type the name that you
 
 - XML namespaces, such as `<xmlns:xsl="http://www.w3.org/1999/XSL/Transform">`.
 
-## See Also
+## See also
 
 - [Managing references in a project](../../ide/managing-references-in-a-project.md)
 - [How to: Add or Remove Imported Namespaces (Visual Basic)](../../ide/how-to-add-or-remove-imported-namespaces-visual-basic.md)

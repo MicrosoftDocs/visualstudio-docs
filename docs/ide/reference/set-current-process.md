@@ -35,7 +35,7 @@ You can attach to multiple processes when you are debugging, but only one proces
 >Debug.SetCurrentProcess 1
 ```
 
-## See Also
+## See also
 
 - [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)
 - [Command Window](../../ide/reference/command-window.md)

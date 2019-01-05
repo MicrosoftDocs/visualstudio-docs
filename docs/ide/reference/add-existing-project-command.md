@@ -41,7 +41,7 @@ This example adds the [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md
 >File.AddExistingProject "c:\visual studio projects\TestProject1.vbproj"
 ```
 
-## See Also
+## See also
 
 - [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)
 - [Command Window](../../ide/reference/command-window.md)

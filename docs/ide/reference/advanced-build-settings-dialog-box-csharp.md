@@ -88,7 +88,7 @@ Specifies the size of sections in the output file. Valid values are **512**, **1
 
 Specifies the preferred base address at which to load a DLL. The default base address for a DLL is set by the .NET Framework common language runtime. For more information, see [/baseaddress (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/baseaddress-compiler-option).
 
-## See Also
+## See also
 
 - [C# compiler options](/dotnet/csharp/language-reference/compiler-options/index)
 - [Build page, Project Designer (C#)](../../ide/reference/build-page-project-designer-csharp.md)

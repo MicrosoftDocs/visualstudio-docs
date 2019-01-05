@@ -34,7 +34,7 @@ Click this button to add an installed `My` namespace extension to your project. 
 
 Select one or more references in the **My namespace extensions** list, and then click this button to remove the `My` namespace extension from the project.
 
-## See Also
+## See also
 
 - [Extending the My Namespace in Visual Basic](/dotnet/visual-basic/developing-apps/customizing-extending-my/extending-the-my-namespace)
 - [Packaging and Deploying Custom My Extensions](/dotnet/visual-basic/developing-apps/customizing-extending-my/packaging-and-deploying-custom-my-extensions)

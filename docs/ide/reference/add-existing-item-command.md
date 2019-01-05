@@ -47,7 +47,7 @@ This example adds the file, Form1.frm, to the current solution.
 >File.AddExistingItem "C:\public\solution files\Form1.frm"
 ```
 
-## See Also
+## See also
 
 - [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)
 - [Command Window](../../ide/reference/command-window.md)
