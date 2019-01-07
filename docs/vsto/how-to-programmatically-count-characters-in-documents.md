@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "characters, counting in documents"
   - "counting characters in documents"
   - "documents [Office development in Visual Studio], counting characters"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
