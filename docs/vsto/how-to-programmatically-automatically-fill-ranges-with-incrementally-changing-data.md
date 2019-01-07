@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "filling ranges automatically"
   - "ranges, automatically filling"
   - "workbooks, filling ranges"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

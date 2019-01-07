@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "rows [Office development in Visual Studio]"
   - "formatting [Office development in Visual Studio]"
   - "worksheets, changing formatting"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
