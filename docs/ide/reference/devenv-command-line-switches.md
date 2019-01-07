@@ -22,6 +22,8 @@ Devenv lets you set various options for the integrated development environment (
 > [!NOTE]
 > For build-related tasks, it is recommended that you use MSBuild instead of devenv. For more information, see [MSBuild command-line reference](../../msbuild/msbuild-command-line-reference.md).
 
+For information about switches that are related to VSPackage development, also see [Devenv command-line switches for VSPackage development](../../extensibility/devenv-command-line-switches-for-vspackage-development.md).
+
 ## Devenv switch syntax
 
 Commands that begin with `devenv` are handled by the `devenv.com` utility, which delivers output through standard system streams, such as `stdout` and `stderr`. The utility determines the appropriate I/O redirection when it captures output, for example to a .txt file.
@@ -65,10 +67,8 @@ The following command-line switches display the IDE and perform the described ta
 |[/Log](log-devenv-exe.md)|Starts Visual Studio and logs all activity to the log file.|
 |[/NoLogo](nologo-devenv-exe.md)|Prevents copyright information from being shown.|
 |[/NoSplash]()|Opens the IDE without showing the splash screen.|
-|[/NoVSIP]()|Turns off the license key of a Visual Studio Industry Partner (VSIP) developer for VSIP testing purposes.|
 |[/Run or /r](run-devenv-exe.md)|Compiles and runs the specified solution.|
 |[/RunExit](runexit-devenv-exe.md)|Compiles and runs the specified solution, minimizes the IDE when the solution is run, and closes the IDE after the solution has finished running.|
-|[/Setup](setup-devenv-exe.md)|Forces Visual Studio to merge resource metadata that describes menus, toolbars, and command groups, from all VSPackages available. You must run this command as an administrator.|
 |[/UseEnv](useenv-devenv-exe.md)|Causes the IDE to use PATH, INCLUDE, and LIB environment variables for C++ compilation, instead of the settings specified in the VC++ Directories section of **Projects** options in the **Options** dialog box. This switch is installed with the **Desktop development with C++** workload. For more information, see [Setting the Path and Environment Variables for Command-Line Builds](/cpp/build/setting-the-path-and-environment-variables-for-command-line-builds).|
 
 The following command-line switches do not display the IDE.

@@ -18,7 +18,7 @@ ms.workload:
 ---
 # /Build (devenv.exe)
 
-Builds a solution using a specified solution configuration file.
+Builds a solution or project using a specified solution configuration file.
 
 ## Syntax
 
@@ -32,7 +32,7 @@ devenv SolutionName /build [SolnConfigName [/Project ProjName [/ProjectConfig Pr
 Required. The full path and name of the solution file.
 
 *SolnConfigName*<br/>
-Required. The name of the solution configuration that will be used to build the solution named in *SolutionName*. If multiple solution platforms are available, you must also specify the platform (for example, `Debug\|Win32`).
+Optional. The name of the solution configuration that will be used to build the solution named in *SolutionName*. If multiple solution platforms are available, you must also specify the platform (for example, `Debug\|Win32`). If this argument is left out, the tool uses the solution's active configuration.
 
 `/Project` *ProjName*<br/>
 Optional. The path and name of a project file within the solution. You can enter a relative path from the *SolutionName* folder to the project file, or the project's display name, or the full path and name of the project file.

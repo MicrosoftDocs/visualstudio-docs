@@ -27,7 +27,7 @@ devenv /Edit [File1[ FileN]...]
 ## Arguments
 
 *File1*<br/>
-Optional. The file to open in an existing instance of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. If no instance of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] exists, a new instance is created with a simplified window layout, and *file1* is opened in the new instance.
+Optional. The file to open in an existing instance of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. If no instance of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] exists, a new instance is created with a simplified window layout, and *File1* is opened in the new instance.
 
 *FileN*<br/>
  Optional. One or more additional files to open in the existing instance of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].

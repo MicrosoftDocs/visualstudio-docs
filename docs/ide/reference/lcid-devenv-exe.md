@@ -6,8 +6,10 @@ ms.topic: reference
 helpviewer_keywords:
   - "language default"
   - "locale IDs, setting for IDE"
+  - "Devenv, /L switch"
   - "Devenv, /LCID switch"
   - "locale IDs"
+  - "L Devenv switch"
   - "/L Devenv switch"
   - "LCID devenv switch"
   - "/LCID Devenv switch"

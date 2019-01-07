@@ -37,7 +37,7 @@ Required. The full path and name of the solution file.
 Required. [Builds](build-devenv-exe.md), [cleans](clean-devenv-exe.md), [deploys](deploy-devenv-exe.md), or [rebuilds](rebuild-devenv-exe.md) the project.
 
 *SolnConfigName*<br/>
-Optional. The name of the solution configuration that will be applied to the solution named in *SolutionName*.
+Optional. The name of the solution configuration that will be applied to the solution named in *SolutionName*. If this argument is left out, the tool uses the solution's active configuration.
 
 `/Project` *ProjName*<br/>
 Optional. The path and name of a project file within the solution. You can enter a relative path from the *SolutionName* folder to the project file, or the project's display name, or the full path and name of the project file.

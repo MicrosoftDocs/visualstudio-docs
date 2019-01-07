@@ -31,7 +31,7 @@ devenv SolutionName /Deploy [SolnConfigName [/Project ProjName [/ProjectConfig P
 Required. The full path and name of the solution file.
 
 *SolnConfigName*<br/>
-Optional. The name of the solution configuration that will be used to build the solution named in *SolutionName*.
+Optional. The name of the solution configuration that will be used to build the solution named in *SolutionName*. If this argument is left out, the tool uses the solution's active configuration.
 
 `/Project` *ProjName*<br/>
 Optional. The path and name of a project file within the solution. You can enter a relative path from the *SolutionName* folder to the project file, or the project's display name, or the full path and name of the project file.
@@ -45,7 +45,7 @@ The specified project must be a deployment project. If the specified project is 
 
 Enclose strings that include spaces in double quotation marks.
 
-Summary information for builds, including errors, can be displayed in the **Command** window, or in any log file specified with the `/Out` switch.
+Summary information for builds, including errors, can be displayed in the **Command** window, or in any log file specified with the [/Out](out-devenv-exe.md) switch.
 
 ## Example
 

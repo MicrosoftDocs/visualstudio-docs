@@ -3,6 +3,10 @@ title: -Diff (devenv.exe)
 ms.date: 12/10/2018
 ms.prod: visual-studio-dev15
 ms.topic: reference
+helpviewer_keywords:
+  - "Devenv, /Diff switch"
+  - "/Diff Devenv switch"
+  - "Diff Devenv switch"
 ms.assetid: 5377fedb-632a-4e86-a947-7c11c86451e7
 author: gewarren
 ms.author: gewarren
@@ -26,7 +30,7 @@ devenv /Diff SourceFile TargetFile [SourceDisplayName [TargetDisplayName]]
 Required. The full path and name of the first file to be compared.
 
 *TargetFile*<br/>
-Required. The full path and name of the second file to be compared
+Required. The full path and name of the second file to be compared.
 
 *SourceDisplayName*<br/>
 Optional. The display name of the first file.

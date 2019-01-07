@@ -18,7 +18,7 @@ ms.workload:
 
 Logs all activity to the log file for troubleshooting. This file appears after you've called `devenv /log` at least once. By default, the log file is located here:
 
-**%APPDATA%\\Microsoft\\VisualStudio\\**\<Version\>**\\ActivityLog.Setup.xml**
+**%APPDATA%\\Microsoft\\VisualStudio\\**\<Version\>**\\ActivityLog.xml**
 
 where \<Version\> is the Visual Studio version. However, you may specify a different path and file name.
 

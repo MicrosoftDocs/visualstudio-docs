@@ -22,19 +22,19 @@ Cleans all intermediary files and output directories.
 ## Syntax
 
 ```shell
-devenv FileName /Clean [Config [/Project ProjName [/ProjectConfig ProjConfigName]]]
+devenv SolutionName /Clean [Config [/Project ProjName [/ProjectConfig ProjConfigName]]]
 ```
 
 ## Arguments
 
-*FileName*<br/>
-Required. The full path and name of the solution file or project file.
+*SolutionName*<br/>
+Required. The full path and name of the solution file.
 
 *Config*<br/>
-Optional. The configuration to clean the intermediary files for (such as `Debug` or `Release`).
+Optional. The configuration to clean the intermediary files for (such as `Debug` or `Release`). If this argument is left out, the tool uses the solution's active configuration.
 
 `/Project` *ProjName*<br/>
-Optional. The path and name of a project file within the solution. You can enter a relative path from the `SolutionName` folder to the project file, or the project's display name, or the full path and name of the project file.
+Optional. The path and name of a project file within the solution. You can enter a relative path from the *SolutionName* folder to the project file, or the project's display name, or the full path and name of the project file.
 
 `/ProjectConfig` *ProjConfigName*<br/>
 Optional. The name of a project build configuration to be used when cleaning the `/Project` named. If this switch is specified, it overrides the *Config* argument.
@@ -45,7 +45,7 @@ This switch performs the same function as the **Clean Solution** menu command wi
 
 Enclose strings that include spaces in double quotation marks.
 
-Summary information for cleans and builds, including errors, can be displayed in the **Command** window, or in any log file specified with the `/out` switch.
+Summary information for cleans and builds, including errors, can be displayed in the **Command** window, or in any log file specified with the [/Out](out-devenv-exe.md) switch.
 
 If the `/Project` switch is not specified, the cleaning action is performed on all projects in the solution, even if *FileName* was specified as a project file.
 
