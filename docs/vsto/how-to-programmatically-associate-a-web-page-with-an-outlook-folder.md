@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "folders [Office development in Visual Studio], Web pages and"
   - "Outlook [Office development in Visual Studio], Web pages attached to folders"
   - "Web pages [Office development in Visual Studio], Outlook folders"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

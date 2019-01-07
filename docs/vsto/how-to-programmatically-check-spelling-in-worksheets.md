@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "spelling checker, worksheets"
   - "worksheets, checking spelling"
   - "spelling, checking in worksheets"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "e-mail [Office development in Visual Studio], attachments"
   - "mail items [Office development in Visual Studio], attachments"
   - "attachments [Office development in Visual Studio]"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
