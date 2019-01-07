@@ -24,7 +24,7 @@ Handles a thread-destroyed event.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT OnDestroyThread(  
    IRemoteDebugApplicationThread*  prdat  
 );  

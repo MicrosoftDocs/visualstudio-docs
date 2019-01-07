@@ -22,7 +22,7 @@ This method updates the next code context that the script interpreter can execut
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT SetNextStatement(  
    IDebugStackFrame*  pStackFrame,  
    IDebugCodeContext*  pCodeContext  

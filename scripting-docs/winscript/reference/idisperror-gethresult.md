@@ -24,7 +24,7 @@ Retrieves the error code from the `IDispError` object.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetHresult(  
    HRESULT*  phr  
 );  

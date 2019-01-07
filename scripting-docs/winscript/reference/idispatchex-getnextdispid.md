@@ -24,7 +24,7 @@ Enumerates the members of the object.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetNextDispID(  
    DWORD grfdex,  
    DISPID id,  
@@ -59,7 +59,7 @@ HRESULT GetNextDispID(
   
 ## Example  
   
-```  
+```cpp
 HRESULT hr;  
    BSTR bstrName;  
    DISPID dispid;  

@@ -24,7 +24,7 @@ Returns the document context associated with this code context.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetDocumentContext(  
    IDebugDocumentContext**  ppsc  
 );  

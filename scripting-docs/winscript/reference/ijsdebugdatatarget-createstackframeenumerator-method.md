@@ -22,7 +22,7 @@ Creates an enumerator for stack frames.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT CreateStackFrameEnumerator(  
    DWORD threadId,  
    IEnumJsStackFrames **ppEnumerator  

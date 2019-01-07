@@ -24,7 +24,7 @@ Informs the host that the scripting engine has changed states.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT OnStateChange(  
     SCRIPTSTATE ssScriptState  // new state of engine  
 );  

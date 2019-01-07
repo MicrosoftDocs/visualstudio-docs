@@ -24,7 +24,7 @@ Brings a context of this document to the top in the debugger user interface.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT BringDocumentContextToTop(  
    IDebugDocumentContext*  pddc  
 );  

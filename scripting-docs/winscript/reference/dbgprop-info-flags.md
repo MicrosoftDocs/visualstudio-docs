@@ -26,7 +26,7 @@ Used to specify `DebugPropertyInfo` fields
   
 ## Syntax  
   
-```  
+```cpp
 enum {  
    DBGPROP_INFO_NAME  =0x001,  
    DBGPROP_INFO_TYPE  =0x002,  

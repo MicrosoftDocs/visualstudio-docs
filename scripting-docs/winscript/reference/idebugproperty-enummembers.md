@@ -24,7 +24,7 @@ Enumerates the members of a property.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT EnumMembers (  
    DBGPROP_INFO_FLAGSdwFieldSpec,  
    UINTnRadix,  

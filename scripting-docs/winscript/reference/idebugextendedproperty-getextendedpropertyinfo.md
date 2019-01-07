@@ -24,7 +24,7 @@ Fetches extended information for an extended property, which is more information
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetExtendedPropertyInfo(  
    EX_DBGPROP_INFO_FLAGS  dwFieldSpec,  
    UINT  nRadix,  

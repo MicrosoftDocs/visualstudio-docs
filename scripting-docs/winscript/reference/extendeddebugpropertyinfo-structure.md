@@ -24,7 +24,7 @@ Extends the `DebugPropertyInfo` structure with additional members to characteriz
   
 ## Syntax  
   
-```  
+```cpp
 typedef struct ExtendedDebugPropertyInfo{  
    DBGPROP_INFO_FLAGS  dwValidFields;  
    LPOLESTR  bstrName;  

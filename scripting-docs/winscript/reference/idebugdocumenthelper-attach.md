@@ -24,7 +24,7 @@ Adds this document to the document tree.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Attach(  
    IDebugDocumentHelper*  pddhParent  
 );  

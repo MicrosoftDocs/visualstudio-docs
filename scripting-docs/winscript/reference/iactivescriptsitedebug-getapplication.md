@@ -24,7 +24,7 @@ Returns the debug application object associated with this script site.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetApplication(  
    IDebugApplication**  ppda  
 );  

@@ -24,7 +24,7 @@ Returns the thread associated with the currently running thread.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetCurrentThread(  
    IDebugApplicationThread**  pat  
 );  

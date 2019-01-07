@@ -24,7 +24,7 @@ Sets the `IDebugDocumentHost` for this document.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT SetDebugDocumentHost(  
    IDebugDocumentHost*  pddh  
 );  

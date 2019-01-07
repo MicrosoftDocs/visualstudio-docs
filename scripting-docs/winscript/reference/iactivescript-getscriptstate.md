@@ -24,7 +24,7 @@ Retrieves the current state of the scripting engine. This method can be called f
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetScriptState(  
     SCRIPTSTATE *pss  // address of structure for state information  
 );  

@@ -22,7 +22,7 @@ Notifies the profiler object that the scripting engine compiled a script. This m
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT ScriptCompiled(  
     [in] PROFILER_TOKEN scriptId,  
     [in] PROFILER_SCRIPT_TYPE type,  

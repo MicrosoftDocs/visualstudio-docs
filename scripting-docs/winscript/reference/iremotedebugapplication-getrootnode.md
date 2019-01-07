@@ -24,7 +24,7 @@ Returns the application node under which all nodes associated with the applicati
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetRootNode(  
    IDebugApplicationNode**  ppdanRoot  
 );  

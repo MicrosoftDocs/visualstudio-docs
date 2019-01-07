@@ -18,7 +18,7 @@ Represents a stack walker for a specified thread.
   
 ## Syntax  
   
-```  
+```cpp
 IJsDebugStackWalker : public IUnknown;  
 ```  
   

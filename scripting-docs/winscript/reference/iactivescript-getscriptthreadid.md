@@ -24,7 +24,7 @@ Retrieves a scripting-engine-defined identifier for the thread associated with t
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetScriptThreadID(  
     DWORD dwWin32ThreadID,       // Win32 thread identifier.  
     SCRIPTTHREADID *pstidThread  // Receives scripting thread. identifier  

@@ -22,7 +22,7 @@ Reads the memory of the target process.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT ReadMemory(  
    UINT64 address,  
    JsDebugReadMemoryFlags flags,  

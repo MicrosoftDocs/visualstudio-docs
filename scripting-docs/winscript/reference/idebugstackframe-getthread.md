@@ -24,7 +24,7 @@ Returns the thread associated with this stack frame.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetThread(  
    IDebugApplicationThread**  ppat  
 );  

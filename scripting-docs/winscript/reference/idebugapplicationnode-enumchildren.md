@@ -24,7 +24,7 @@ Enumerates the child nodes of this application node.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT EnumChildren(  
    IEnumDebugApplicationNodes**  pperddp  
 );  

@@ -22,7 +22,7 @@ For the thread being debugged, retrieves the value in the thread local storage (
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetTlsValue(  
    DWORD threadId,  
    UINT32 tlsIndex,  

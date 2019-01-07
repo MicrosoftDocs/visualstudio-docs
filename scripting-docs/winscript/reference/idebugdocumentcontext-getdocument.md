@@ -24,7 +24,7 @@ Returns the document that contains this context.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetDocument(  
    IDebugDocument**  ppsd  
 );  

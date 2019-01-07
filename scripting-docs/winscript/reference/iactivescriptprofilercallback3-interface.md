@@ -18,7 +18,7 @@ Provides a method to notify the profiler that the profiled executions are happen
   
 ## Syntax  
   
-```  
+```cpp
 interface IActiveScriptProfilerCallback3 : IActiveScriptProfilerCallback2  
 ```  
   

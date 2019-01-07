@@ -22,7 +22,7 @@ Returns the position of the statement where the breakpoint was bound.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetDocumentPosition(  
    UINT64 *pDocumentId,  
    DWORD *pCharacterOffset,  

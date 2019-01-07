@@ -24,7 +24,7 @@ Retrieves a member's properties.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetMemberProperties(  
    DISPID id,  
    DWORD grfdexFetch,  
@@ -76,7 +76,7 @@ HRESULT GetMemberProperties(
   
 ## Example  
   
-```  
+```cpp
 BSTR bstrName;  
    DISPID dispid;  
    IDispatchEx *pdex;   

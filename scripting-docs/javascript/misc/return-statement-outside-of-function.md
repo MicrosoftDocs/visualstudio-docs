@@ -24,9 +24,9 @@ manager: "ghogen"
 # 'return' statement outside of function
 You used a `return` statement in the global scope of your code. The `return` statement should only appear within the body of a function.  
   
- Invoking a function with the `()` operator is an expression. All expressions have values; the `return` statement is used to specify the value retuned by a function. The general form is:  
+ Invoking a function with the `()` operator is an expression. All expressions have values; the `return` statement is used to specify the value returned by a function. The general form is:  
   
-```  
+```js
   
 return [ expression ];  
 ```  

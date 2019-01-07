@@ -24,7 +24,7 @@ Creates a new application node that is associated with a specific document provi
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT CreateApplicationNode(  
    IDebugApplicationNode**  ppdanNew  
 );  
