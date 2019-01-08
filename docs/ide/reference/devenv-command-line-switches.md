@@ -42,12 +42,12 @@ The syntax rules for `devenv` switches resemble those for other DOS command-line
 
 - If the first argument is a file that is not a solution or project, that file opens in the appropriate editor, in a new instance of the IDE.
 
-- When you supply a project file name instead of a solution file name, a `devenv` command searches the parent folder of the project file for a solution file that has the same name. For example, the command `devenv myproject1.vbproj /build` searches the parent folder for a solution file that is named "myproject1.sln".
+- When you supply a project file name instead of a solution file name, a `devenv` command searches the parent folder of the project file for a solution file that has the same name. For example, the command `devenv myproject1.vbproj /build` searches the parent folder for a solution file that is named `myproject1.sln`.
 
   > [!NOTE]
   > One and only one solution file that references this project should be located in its parent folder. If the parent folder contains no solution file that references this project, or if the parent folder contains two or more solution files that reference it, then a temporary solution file is created.
 
-- When file paths and file names include spaces, you must enclose them in quotation marks (""). For example, "c:\project a\\".
+- When file paths and file names include spaces, you must enclose them in quotation marks (""). For example, `"c:\project a\\"`.
 
 - Insert one space character between switches and arguments on the same line. For example, the command `devenv /log output.txt` opens the IDE and outputs all log information for that session to output.txt.
 
@@ -63,13 +63,12 @@ The following command-line switches display the IDE and perform the described ta
 |[/DebugExe](debugexe-devenv-exe.md)|Loads a C++ executable under the control of the debugger. This switch is not available for Visual Basic or C# executables. For more information, see [Automatically start a process in the debugger](../../debugger/debug-multiple-processes.md#BKMK_Automatically_start_an_process_in_the_debugger).|
 |[/Diff](diff.md)|Compares two files. Takes four parameters: SourceFile, TargetFile, SourceDisplayName (optional), TargetDisplayName (optional).|
 |[/Edit](edit-devenv-exe.md)|Opens the specified files in a running instance of this application. If there are no running instances, it starts a new instance with a simplified window layout.|
-|[/LCID or /l](lcid-devenv-exe.md)|Sets the default language for the IDE. If the specified language is not included in your installation of Visual Studio, this setting is ignored.|
+|[/LCID or /L](lcid-devenv-exe.md)|Sets the default language for the IDE. If the specified language is not included in your installation of Visual Studio, this setting is ignored.|
 |[/Log](log-devenv-exe.md)|Starts Visual Studio and logs all activity to the log file.|
-|[/NoLogo](nologo-devenv-exe.md)|Prevents copyright information from being shown.|
-|[/NoSplash]()|Opens the IDE without showing the splash screen.|
-|[/Run or /r](run-devenv-exe.md)|Compiles and runs the specified solution.|
+|[/NoSplash](nosplash-devenv-exe.md)|Opens the IDE without showing the splash screen.|
+|[/Run or /R](run-devenv-exe.md)|Compiles and runs the specified solution.|
 |[/RunExit](runexit-devenv-exe.md)|Compiles and runs the specified solution, minimizes the IDE when the solution is run, and closes the IDE after the solution has finished running.|
-|[/UseEnv](useenv-devenv-exe.md)|Causes the IDE to use PATH, INCLUDE, and LIB environment variables for C++ compilation, instead of the settings specified in the VC++ Directories section of **Projects** options in the **Options** dialog box. This switch is installed with the **Desktop development with C++** workload. For more information, see [Setting the Path and Environment Variables for Command-Line Builds](/cpp/build/setting-the-path-and-environment-variables-for-command-line-builds).|
+|[/SafeMode](safemode-devenv-exe.md)|Starts Visual Studio in safe mode. This switch loads only the default environment, the default services, and the shipped versions of third-party packages.|
 
 The following command-line switches do not display the IDE.
 
