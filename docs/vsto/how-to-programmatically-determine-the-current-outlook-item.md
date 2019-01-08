@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "e-mail [Office development in Visual Studio], current item"
   - "SelectionChange event"
   - "Outlook [Office development in Visual Studio], current item"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

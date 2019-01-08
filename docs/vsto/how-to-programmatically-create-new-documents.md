@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "templates [Office development in Visual Studio], custom document"
   - "Word [Office development in Visual Studio], creating documents"
   - "documents [Office development in Visual Studio], creating"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
