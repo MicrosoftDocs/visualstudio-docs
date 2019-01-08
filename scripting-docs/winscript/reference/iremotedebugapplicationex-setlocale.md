@@ -24,7 +24,7 @@ Sets the language for the debugger localization.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT SetLocale(  
    DWORD  dwLangID  
 );  

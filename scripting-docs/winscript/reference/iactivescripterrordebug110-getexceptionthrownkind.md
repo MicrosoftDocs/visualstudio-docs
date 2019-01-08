@@ -23,7 +23,7 @@ Returns a value that indicates the kind of exception thrown.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetExceptionThrownKind(  
    SCRIPT_ERROR_DEBUG_EXCEPTION_THROWN_KIND*  pExceptionKind  
 );  

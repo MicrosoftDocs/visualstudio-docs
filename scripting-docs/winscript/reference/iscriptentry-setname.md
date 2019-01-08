@@ -24,7 +24,7 @@ For entries that represent a single object (such as a function), sets the name o
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT SetName(  
    LPCOLESTR          psz  
 );  

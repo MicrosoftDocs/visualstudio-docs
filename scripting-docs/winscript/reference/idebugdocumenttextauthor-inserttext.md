@@ -24,7 +24,7 @@ Inserts new text into the document.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT InsertText(  
    ULONG    cCharacterPosition,  
    ULONG    cNumToInsert,  

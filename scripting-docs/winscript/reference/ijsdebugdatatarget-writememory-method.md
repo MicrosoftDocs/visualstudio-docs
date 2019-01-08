@@ -22,7 +22,7 @@ Reads the memory of the target process.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT WriteMemory(  
    UINT64 address,  
    const BYTE *pMemory,  

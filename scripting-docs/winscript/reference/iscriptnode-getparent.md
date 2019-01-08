@@ -24,7 +24,7 @@ Returns the `IScriptNode` object that is the parent of an object.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetParent(  
    IScriptNode       **ppsnParent  
 );  

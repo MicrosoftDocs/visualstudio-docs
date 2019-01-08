@@ -22,7 +22,7 @@ Called to inform the profiler object whenever profiling is stopped on a scriptin
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Shutdown(  
     [in] HRESULT hrReason);  
 ```  

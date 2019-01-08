@@ -24,7 +24,7 @@ Enumerates stack frames and merges output from several enumerators on the same t
   
 ## Syntax  
   
-```  
+```cpp
 typedef struct tagDebugStackFrameDescriptor {  
    IDebugStackFrame *pdsf;  
    DWORD_PTR        dwMin;  

@@ -24,7 +24,7 @@ Gets the application node under which script documents should be added.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetRootApplicationNode(  
    IDebugApplicationNode**  ppdanRoot  
 );  

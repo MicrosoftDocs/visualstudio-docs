@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "meeting requests [Office development in Visual Studio]"
   - "appointments [Office development in Visual Studio]"
   - "calendars [Office development in Visual Studio], meeting requests"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

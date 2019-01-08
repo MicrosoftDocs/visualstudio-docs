@@ -24,7 +24,7 @@ Sets type information for an `IScriptEntry` function object.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT SetSignature(  
    ITypeInfo          *pti  
    ULONG              iMethod  

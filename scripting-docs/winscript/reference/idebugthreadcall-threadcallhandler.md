@@ -24,7 +24,7 @@ Handles calls to run code in another thread.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT ThreadCallHandler(  
    DWORD_PTR  dwParam1,  
    DWORD_PTR  dwParam2,  

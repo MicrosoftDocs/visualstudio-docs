@@ -24,7 +24,7 @@ Adds an application to the machine debug manager's list of running applications.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT AddApplication(  
    IDebugApplication*  pda,  
    DWORD*              pdwAppCookie  

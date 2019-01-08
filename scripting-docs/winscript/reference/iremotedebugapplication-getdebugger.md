@@ -24,7 +24,7 @@ Returns the current debugger connected to the application.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetDebugger(  
    IApplicationDebugger**  pad  
 );  

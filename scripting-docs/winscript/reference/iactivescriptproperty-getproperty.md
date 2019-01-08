@@ -24,7 +24,7 @@ Gets the property that is specified by the parameter.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetProperty(  
 // The property value:  
     uint dwProperty,    

@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "e-mail [Office development in Visual Studio], creating"
   - "Outlook [Office development in Visual Studio], creating e-mail"
   - "mail items [Office development in Visual Studio], creating"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

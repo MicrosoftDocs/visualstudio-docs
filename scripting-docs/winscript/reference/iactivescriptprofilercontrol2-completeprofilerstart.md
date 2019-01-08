@@ -20,7 +20,7 @@ Notifies the profiler that you have started profiling on all applicable scriptin
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT CompleteProfilerStart();  
 ```  
   

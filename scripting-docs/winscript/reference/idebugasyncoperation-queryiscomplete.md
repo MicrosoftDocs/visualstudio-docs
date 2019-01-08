@@ -24,7 +24,7 @@ Determines if the debug operation has completed.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT QueryIsComplete();  
 ```  
   

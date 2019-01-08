@@ -24,7 +24,7 @@ Handles a debugger connect event.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT OnConnectDebugger(  
    IApplicationDebugger*  pad  
 );  

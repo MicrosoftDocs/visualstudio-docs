@@ -24,7 +24,7 @@ Enumerates the global expression contexts for all languages running in this appl
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT EnumGlobalExpressionContexts(  
    IEnumDebugExpressionContexts**  ppedec  
 );  

@@ -24,7 +24,7 @@ Revokes a break command.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT RevokeBreak( );  
 ```  
   

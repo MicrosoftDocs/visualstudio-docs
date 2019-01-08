@@ -22,7 +22,7 @@ This method determines whether the execution point, which determines the next st
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT CanSetNextStatement(  
    IDebugStackFrame*  pStackFrame,  
    IDebugCodeContext*  pCodeContext  

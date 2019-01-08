@@ -24,7 +24,7 @@ Handles an event signifying that the debug application node object was attached 
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT onAttach(  
    IDebugApplicationNode*  prddpParent  
 );  

@@ -24,7 +24,7 @@ Used to specify the type of thread.
   
 ## Syntax  
   
-```  
+```cpp
 typedef DWORD SCRIPTTHREADID;  
 ```  
   

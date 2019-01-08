@@ -8,8 +8,8 @@ dev_langs:
 helpviewer_keywords: 
   - "documents [Office development in Visual Studio], closing"
   - "Word [Office development in Visual Studio], closing documents"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

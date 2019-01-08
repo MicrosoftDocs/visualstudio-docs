@@ -24,7 +24,7 @@ Retrieves a scripting-engine-defined identifier for the currently executing thre
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetCurrentScriptThreadID(  
     SCRIPTTHREADID *pstidThread  // receives scripting thread identifier  
 );  

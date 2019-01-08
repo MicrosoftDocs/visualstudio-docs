@@ -24,7 +24,7 @@ Sets the attributes on a range of text, overriding other attributes on that text
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT SetTextAttributes(  
    ULONG              ulCharOffset,  
    ULONG              cChars,  

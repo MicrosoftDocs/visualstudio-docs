@@ -20,7 +20,7 @@ Used to specify whether or not the scripting engine should be kept fully functio
   
 ## Syntax  
   
-```  
+```cpp
 #define SCRIPTPROP_HOSTKEEPALIVE 0x70000004  
 ```  
   

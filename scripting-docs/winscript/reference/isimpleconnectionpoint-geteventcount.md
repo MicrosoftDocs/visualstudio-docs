@@ -24,7 +24,7 @@ Returns the number of events exposed on this interface.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetEventCount(  
    ULONG*  pulCount  
 );  

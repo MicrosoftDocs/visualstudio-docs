@@ -24,7 +24,7 @@ Allows a host to specify that a script should terminate.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT QueryContinue();  
 ```  
   

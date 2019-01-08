@@ -24,7 +24,7 @@ Returns the path of the Help file and the context ID of the topic that explains 
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetHelpInfo(  
    BSTR*  pbstrFileName,  
    DWORD*  pdwContext  

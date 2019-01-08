@@ -24,7 +24,7 @@ manager: "ghogen"
 # Conditional compilation is turned off
 You attempted to use a conditional compilation variable without first turning conditional compilation on. Turning on conditional compilation tells the [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] compiler to interpret identifiers beginning with @ as conditional compilation variables. You do this by beginning your conditional code with the statement:  
   
-```  
+```js
 /*@cc_on @*/  
 ```  
   

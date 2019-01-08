@@ -24,7 +24,7 @@ Notifies the host that the document source has changed.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT NotifyChanged();  
 ```  
   

@@ -24,7 +24,7 @@ Handles the event when a child node is removed from a debug application node obj
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT onRemoveChild(  
    IDebugApplicationNode*  prddpChild  
 );  

@@ -24,7 +24,7 @@ Retrieves the range of characters and the script engine corresponding to a scrip
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetScriptBlockInfo(  
    DWORD_PTR        dwSourceContext,  
    IActiveScript**  ppasd,  

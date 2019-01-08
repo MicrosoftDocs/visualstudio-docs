@@ -24,7 +24,7 @@ Returns the text that corresponds to the `IScriptEntry` script block, or the sou
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetText(  
    BSTR               *pbstr  
 );  
