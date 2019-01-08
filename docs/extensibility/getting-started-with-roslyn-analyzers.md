@@ -33,4 +33,4 @@ With live, project-based code analyzers in Visual Studio, API authors can ship d
 - [Tutorial: Write your first analyzer and code fix](/dotnet/csharp/roslyn-sdk/tutorials/how-to-write-csharp-analyzer-code-fix)
 - [.NET compiler platform package version reference](roslyn-version-support.md)
 - [More docs on the GitHub OSS site](https://github.com/dotnet/roslyn/tree/master/docs/analyzers)
-- [FxCop rules implemented with Roslyn analyzers on GitHub](https://github.com/dotnet/roslyn/tree/master/src/Diagnostics/FxCop)
+- [FxCop rules implemented with Roslyn analyzers on GitHub](http://roslynanalyzersstatus.azurewebsites.net/)
