@@ -33,7 +33,7 @@ devenv /ResetSettings [SettingsFile|General]
 ## Arguments
 
 *SettingsFile*<br/>
-The full path and name of the settings file to apply to Visual Studio. To restore the General Development Settings profile, type `General` instead.
+Optional. The full path and name of the settings file to apply to Visual Studio. To restore the General Development Settings profile, type `General` instead.
 
 ## Remarks
 

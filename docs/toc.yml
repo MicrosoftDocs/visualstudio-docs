@@ -934,7 +934,7 @@
       href: ide/reference/debugexe-devenv-exe.md
     - name: -Deploy (devenv.exe)
       href: ide/reference/deploy-devenv-exe.md
-    - name: -Diff
+    - name: -Diff (devenv.exe)
       href: ide/reference/diff.md
     - name: -Edit (devenv.exe)
       href: ide/reference/edit-devenv-exe.md
@@ -954,8 +954,6 @@
       href: ide/reference/rebuild-devenv-exe.md
     - name: -ResetSettings (devenv.exe)
       href: ide/reference/resetsettings-devenv-exe.md
-    - name: -ResetSkipPkgs (devenv.exe)
-      href: ide/reference/resetskippkgs-devenv-exe.md
     - name: -Run (devenv.exe)
       href: ide/reference/run-devenv-exe.md
     - name: -Runexit (devenv.exe)
