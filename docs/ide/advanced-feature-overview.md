@@ -121,4 +121,4 @@ To learn more about extending Visual Studio, see [Extend Visual Studio IDE](http
 ## See also
 
 - [Visual Studio IDE overview](../get-started/visual-studio-ide.md)
-- [What's new in Visual Studio 2017](../ide/whats-new-in-visual-studio.md)
+- [What's new in Visual Studio 2017](../ide/whats-new-visual-studio.md)

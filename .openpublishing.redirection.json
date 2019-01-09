@@ -7086,6 +7086,11 @@
             "source_path": "docs/extensibility/buildprojectonload-visual-studio-templates.md",
             "redirect_url": "/visualstudio/extensibility/buildonload-visual-studio-templates",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/whats-new-in-visual-studio.md",
+            "redirect_url": "/visualstudio/ide/whats-new-visual-studio",
+            "redirect_document_id": true
         }
     ]
 }
