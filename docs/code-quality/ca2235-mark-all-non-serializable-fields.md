@@ -32,7 +32,9 @@ ms.workload:
  An instance field of a type that is not serializable is declared in a type that is serializable.
 
 ## Rule description
- A serializable type is one that is marked with the <xref:System.SerializableAttribute?displayProperty=fullName> attribute. When the type is serialized, a <xref:System.Runtime.Serialization.SerializationException?displayProperty=fullName> exception is thrown if a type contains an instance field of a type that is not serializable.
+ A serializable type is one that is marked with the <xref:System.SerializableAttribute?displayProperty=fullName> attribute. When the type is serialized, a <xref:System.Runtime.Serialization.SerializationException?displayProperty=fullName> exception is thrown if the type contains an instance field of a type that is not serializable.
+ 
+ An exception to this is when the type uses custom serialization via the <xref:System.Runtime.Serialization.ISerializable?displayProperty=fullName> interface. Types implementing this interface provide their own serialization logic, and so CA2235 will not fire for non-serializable instance fields of such types.
 
 ## How to fix violations
  To fix a violation of this rule, apply the <xref:System.NonSerializedAttribute?displayProperty=fullName> attribute to the field that is not serializable.
