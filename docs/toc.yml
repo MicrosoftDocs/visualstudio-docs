@@ -942,6 +942,8 @@
       href: ide/reference/lcid-devenv-exe.md
     - name: -Log (devenv.exe)
       href: ide/reference/log-devenv-exe.md
+    - name: -NoSplash (devenv.exe)
+      href: ide/reference/nosplash-devenv-exe.md
     - name: -Out (devenv.exe)
       href: ide/reference/out-devenv-exe.md
     - name: -Project (devenv.exe)
@@ -960,12 +962,8 @@
       href: ide/reference/runexit-devenv-exe.md
     - name: -SafeMode (devenv.exe)
       href: ide/reference/safemode-devenv-exe.md
-    - name: -Setup (devenv.exe)
-      href: ide/reference/setup-devenv-exe.md
     - name: -Upgrade (devenv.exe)
       href: ide/reference/upgrade-devenv-exe.md
-    - name: -UseEnv (devenv.exe)
-      href: ide/reference/useenv-devenv-exe.md
   - name: Visual Studio Commands
     href: ide/reference/visual-studio-commands.md
     items:
