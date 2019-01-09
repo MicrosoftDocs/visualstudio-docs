@@ -31,9 +31,9 @@ Required. The complete name of a [!INCLUDE[vsprvs](../../code-quality/includes/v
 
 ## Remarks
 
-After startup is complete, the IDE executes the named command. If you use this switch, the IDE does not display the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] Start Page on startup.
+After startup is complete, the IDE executes the named command. If you use this switch, the IDE doesn't display the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] Start Page on startup.
 
-If an add-in exposes a command, you can use this switch to launch the add-in from the command line. For more information, see [How to: Control Add-Ins By Using the Add-In Manager](/previous-versions/xwdatdwh(v=vs.140)).
+If an add-in exposes a command, you can use this switch to launch the add-in from the command line. For more information, see [How to: Control add-ins by using the add-in manager](/previous-versions/xwdatdwh(v=vs.140)).
 
 ## Example
 

@@ -37,7 +37,7 @@ Optional. The name of a file that you want to send the tool's output to. If the 
 
 ## Remarks
 
-Compiles and runs the specified project or solution according to the settings specified for the active solution configuration. This switch minimizes the IDE while the project or solution is run, and it closes the IDE after the project or solution has completed running.
+Compiles and runs the specified project or solution according to the settings specified for the active solution configuration. This switch minimizes the IDE while the project or solution is run. It closes the IDE after the project or solution has completed running.
 
 - Enclose strings that include spaces in double quotation marks.
 

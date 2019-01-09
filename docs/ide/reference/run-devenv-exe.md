@@ -40,7 +40,7 @@ Optional. The name of a file that you want to send the tool's output to. If the 
 
 ## Remarks
 
-Compiles and runs the specified project or solution according to the settings specified for the active solution configuration. This switch launches the integrated development environment (IDE) and leaves it active after the project or solution has completed running.
+Compiles and runs the specified project or solution according to the settings specified for the active solution configuration. This switch launches the IDE and leaves it active after the project or solution has completed running.
 
 - Enclose strings that include spaces in double quotation marks.
 

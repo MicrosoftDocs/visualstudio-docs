@@ -28,7 +28,7 @@ devenv /DebugExe ExecutableFile
 ## Arguments
 
 *ExecutableFile*<br/>
-Required. The path and file name of an .exe file. If the .exe file is not found or does not exist, no warning or error is displayed and [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] starts normally.
+Required. The path and file name of an .exe file. If the .exe file isn't found or doesn't exist, no warning or error is displayed and [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] starts normally.
 
 ## Remarks
 

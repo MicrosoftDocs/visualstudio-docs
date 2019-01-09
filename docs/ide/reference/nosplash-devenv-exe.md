@@ -21,18 +21,26 @@ Prevents the splash screen from being shown.
 ## Syntax
 
 ```shell
-devenv /NoSplash
+devenv /NoSplash [File1[ FileN]...]
 ```
+
+## Arguments
+
+*File1*<br/>
+Optional. The file to open in an existing instance of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. If no instance of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] exists, a new instance is created with a simplified window layout, and *File1* is opened in the new instance.
+
+*FileN*<br/>
+ Optional. One or more additional files to open in the existing instance of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].
 
 ## Remarks
 
-This switch hides the splash screen. If you don't specify this switch, the splash screen will be shown. If you are a VSPackage author and want to examine the splash screen further (for example, to check the VSPackage product icon), use the `/Splash` switch described in [Devenv command-line switches for VSPackage development](../../extensibility/devenv-command-line-switches-for-vspackage-development.md).
+This switch hides the splash screen. Leaving this switch out causes the splash screen to be shown. If you want to examine the splash screen further (for example, to check the VSPackage product icon), use the [/Splash](../../extensibility/devenv-command-line-switches-for-vspackage-development.md) switch.
 
 The `/NoSplash` switch can be combined with other switches, such as [/Run](run-devenv-exe.md) or [/DebugExe](debugexe-devenv-exe.md).
 
 ## Example
 
-The first example opens the IDE without showing the splash screen. The second example opens the IDE, compiles the specified solution, and runs the built executable without showing the IDE splash screen. The third example opens the specified executable for debugging in the IDE without the splash screen display.
+All three of the examples open the IDE without displaying the splash screen. The second example also compiles the specified solution and runs the built executable. The third example opens the specified executable for debugging in the IDE.
 
 ```shell
 devenv /nosplash

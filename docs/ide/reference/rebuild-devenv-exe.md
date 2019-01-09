@@ -32,24 +32,24 @@ devenv SolutionName /Rebuild [SolnConfigName [/Project ProjName [/ProjectConfig 
 Required. The full path and name of the solution file.
 
 *SolnConfigName*<br/>
-Optional. The name of the solution configuration that will be used to rebuild the solution named in *SolutionName*. If this argument is left out, the tool uses the solution's active configuration.
+Optional. The name of the solution configuration to be used to rebuild the solution named in *SolutionName*. If this argument is left out, the tool uses the solution's active configuration.
 
 `/Project` *ProjName*<br/>
-Optional. The path and name of a project file within the solution. You can enter a relative path from the *SolutionName* folder to the project file, or the project's display name, or the full path and name of the project file.
+Optional. The path and name of a project file within the solution. You can enter the project's display name or a relative path from the *SolutionName* folder to the project file. You can also enter the full path and name of the project file.
 
 `/ProjectConfig` *ProjConfigName*<br/>
-Optional. The name of a project build configuration to be used when rebuilding the `/Project` named. If this switch is specified, it overrides the *SolnConfigName* argument.
+Optional. The project's build configuration name to be used when rebuilding the `/Project` named. If this switch is specified, it overrides the *SolnConfigName* argument.
 
 `/Out` *OutputFilename*<br/>
 Optional. The name of a file that you want to send the tool's output to. If the file already exists, the tool appends the output to the end of the file.
 
 ## Remarks
 
-- This switch performs the same function as the **Rebuild Solution** menu command within the integrated development environment (IDE).
+- This switch does the same thing as the **Rebuild Solution** menu command within the IDE.
 
 - Enclose strings that include spaces in double quotation marks.
 
-- Summary information for cleans and builds, including errors, can be displayed in the **Command** window, or in any log file specified with the [/Out](out-devenv-exe.md) switch.
+- Summary information for cleaning and building, including errors, can be displayed in the **Command** window, or in any log file specified with the [/Out](out-devenv-exe.md) switch.
 
 ## Example
 

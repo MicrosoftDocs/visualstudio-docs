@@ -26,7 +26,7 @@ devenv /SafeMode
 
 ## Remarks
 
-This switch prevents all third-party VSPackages from loading when [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] starts, thus ensuring stable execution.
+This switch prevents all third-party VSPackages from loading when [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] starts, allowing stable execution.
 
 ## Description
 

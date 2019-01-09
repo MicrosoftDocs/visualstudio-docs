@@ -17,9 +17,9 @@ ms.workload:
 ---
 # /ResetSettings (devenv.exe)
 
-Restores Visual Studio default settings and automatically launches the Visual Studio IDE. Optionally resets the settings to a specified `vssettings` file.
+Restores Visual Studio default settings and automatically launches the Visual Studio IDE. This switch optionally resets the settings to a specified settings file.
 
-The default settings are determined by the profile that was selected when Visual Studio was first launched.
+The default settings come from the profile that was selected when Visual Studio was first launched.
 
 > [!TIP]
 > To learn how to reset settings using the integrated development environment (IDE), see [Reset settings](../environment-settings.md#reset-settings).
@@ -33,7 +33,7 @@ devenv /ResetSettings [SettingsFile|General]
 ## Arguments
 
 *SettingsFile*<br/>
-The full path and name of the *vssettings* file to apply to Visual Studio. To restore the General Development Settings profile, type `General` instead.
+The full path and name of the settings file to apply to Visual Studio. To restore the General Development Settings profile, type `General` instead.
 
 ## Remarks
 

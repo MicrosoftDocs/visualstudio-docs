@@ -33,13 +33,13 @@ devenv /Out FileName
 ## Arguments
 
 *FileName*<br/>
-Required. The path and name of the file to receive errors when you build an executable.
+Required. The path and name of the file to receive output when you build an executable.
 
 ## Remarks
 
-If a file name that does not exist is specified, the file is created automatically. If the file already exists, the results are appended to the existing contents of the file.
+If a file name that doesn't exist is specified, the file is created automatically. Otherwise, the file already exists, the results are appended to the existing contents of the file.
 
-Command line build errors are displayed in the **Command** window and the Solution Builder view of the **Output** window. This option is useful if you are running unattended builds and need to see the results.
+Command-line build errors are displayed in the **Command** window and the Solution Builder view of the **Output** window. This switch is useful for viewing results of unattended builds.
 
 ## Example
 

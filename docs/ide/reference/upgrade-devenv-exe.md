@@ -27,21 +27,21 @@ devenv {SolutionFile|ProjectFile} /Upgrade [/Out OutputFilename]
 ## Arguments
 
 *SolutionFile*<br/>
-Required if you are upgrading an entire solution and its projects. The path and name of a solution file. You can enter just the name of the solution file, or a full path and the name of the solution file. If the folder or file named does not yet exist, it will be created.
+Required if you're upgrading an entire solution and its projects. The path and name of a solution file. You can enter just the name of the solution file, or a full path and the name of the solution file. If the folder or file named doesn't yet exist, it's created.
 
 *ProjectFile*<br/>
-Required if you are upgrading a single project. The path and name of a project file within the solution. You can enter just the name of the project file, or a full path and the name of the project file. If the folder or file named does not yet exist, it will be created.
+Required if you're upgrading a single project. The path and name of a project file within the solution. You can enter just the name of the project file, or a full path and the name of the project file. If the folder or file named doesn't yet exist, it's created.
 
 `/Out` *OutputFilename*<br/>
 Optional. The name of a file that you want to send the tool's output to. If the file already exists, the tool appends the output to the end of the file.
 
 ## Remarks
 
-Backups are automatically created and copied to a directory named Backup that is created in the current directory.
+Backups are automatically created and copied to a directory named Backup that's created in the current directory.
 
 Source-controlled solutions or projects must be checked out before they can be upgraded.
 
-Using the `/Upgrade` switch does not start [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. Results of the upgrade can be seen in the Upgrade Report for the development language of the solution or project. No error or usage info is returned. For more information on upgrading projects in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], see [Port, Migrate, and Upgrade Visual Studio Projects](../../porting/port-migrate-and-upgrade-visual-studio-projects.md).
+Using the `/Upgrade` switch doesn't start [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. Results of the upgrade can be seen in the Upgrade Report for the development language of the solution or project. No error or usage info is returned. For more information on upgrading projects in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], see [Port, Migrate, and Upgrade Visual Studio Projects](../../porting/port-migrate-and-upgrade-visual-studio-projects.md).
 
 ## Example
 

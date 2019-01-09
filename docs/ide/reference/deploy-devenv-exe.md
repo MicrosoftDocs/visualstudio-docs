@@ -31,20 +31,20 @@ devenv SolutionName /Deploy [SolnConfigName [/Project ProjName [/ProjectConfig P
 Required. The full path and name of the solution file.
 
 *SolnConfigName*<br/>
-Optional. The name of the solution configuration that will be used to build the solution named in *SolutionName*. If this argument is left out, the tool uses the solution's active configuration.
+Optional. The name of the solution configuration to be used to build the solution named in *SolutionName*. If this argument is left out, the tool uses the solution's active configuration.
 
 `/Project` *ProjName*<br/>
-Optional. The path and name of a project file within the solution. You can enter a relative path from the *SolutionName* folder to the project file, or the project's display name, or the full path and name of the project file.
+Optional. The path and name of a project file within the solution. You can enter the project's display name or a relative path from the *SolutionName* folder to the project file. You can also enter the full path and name of the project file.
 
 `/ProjectConfig` *ProjConfigName*<br/>
-Optional. The name of a project build configuration to be used when building the `/Project` named. If this switch is specified, it overrides the *SolnConfigName* argument.
+Optional. The names of a project build configuration to be used when building the `/Project` named. If this switch is specified, it overrides the *SolnConfigName* argument.
 
 `/Out` *OutputFilename*<br/>
 Optional. The name of a file that you want to send the tool's output to. If the file already exists, the tool appends the output to the end of the file.
 
 ## Remarks
 
-The specified project must be a deployment project. If the specified project is not a deployment project, when the project that has been built is passed to be deployed, it fails with an error.
+The specified project must be a deployment project. If the specified project isn't a deployment project, when the project that has been built is passed for deployment, it fails with an error.
 
 Enclose strings that include spaces in double quotation marks.
 

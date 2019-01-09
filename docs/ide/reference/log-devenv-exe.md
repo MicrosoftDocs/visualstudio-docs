@@ -37,7 +37,7 @@ Required. The full path and name of the log file to save to.
 
 This switch must appear at the end of the command line, after all other switches.
 
-The log is written for all instances of Visual Studio that you've invoked with the `/Log` switch. It doesn't log instances of Visual Studio that you've invoked without the switch.
+The log is written only for all instances of Visual Studio that you've opened with the `/Log` switch.
 
 ## See also
 

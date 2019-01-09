@@ -22,7 +22,7 @@ ms.workload:
 ---
 # /LCID (devenv.exe)
 
-Sets the default language used for text, currency, and other values within the integrated development environment (IDE).
+Sets the default language used for text, currency, and other values within the IDE.
 
 ## Syntax
 
@@ -37,9 +37,9 @@ Required. The LCID (locale ID) of the language you specify.
 
 ## Remarks
 
-Loads the IDE and sets the default natural language for the environment. This change is persisted between sessions and reflected on the **International Settings** pane of the **Environment** options in the **Options** dialog box in the IDE.
+Loads the IDE and sets the default natural language for the environment. This change is persisted between sessions, and the IDE shows this change in the **Tools** > **Options** > **Environment** > **International Settings** > **Language** box.
 
-If the specified language is not available on the user's system, the `/LCID` switch is ignored.
+If the specified language isn't available on your system, the `/LCID` switch is ignored.
 
 The following table lists the LCIDs of the languages supported by [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].
 

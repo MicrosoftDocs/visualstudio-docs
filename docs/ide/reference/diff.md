@@ -44,7 +44,7 @@ If an instance of the IDE is already open, the file comparison appears in a tab 
 
 ## Example
 
-The first two examples compares two files, first without changing their display names, then changing both of their display names. The last two examples compare two files but apply an alias to only the first file or the second file.
+The first example compares two files without changing their display names. The second example compares the files while changing both of their display names. The third and fourth examples compare two files but apply an alias to only the first file or the second file.
 
 ```shell
 devenv /diff File1.txt File2.txt

@@ -34,13 +34,13 @@ Optional. The file to open in an existing instance of [!INCLUDE[vsprvs](../../co
 
 ## Remarks
 
-If no file is specified and there is an existing instance of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], the existing instance of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] receives focus. If no file is specified and there is no existing instance of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], a new instance of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] is created with a simplified window layout.
+If no file is specified, and there's an existing instance of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], the existing instance of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] receives focus. If no file is specified, and no existing instance of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] exists, a new instance of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] is created with a simplified window layout.
 
-If the existing instance of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] is in a modal state, for example, if the [Options dialog box](../../ide/reference/options-dialog-box-visual-studio.md) is open, the file will open in the existing instance when [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] exits the modal state.
+If the existing instance of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] is in a modal state (such as when the [Options dialog box](../../ide/reference/options-dialog-box-visual-studio.md) is open), the file opens in the existing instance when [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] exits the modal state.
 
 ## Example
 
-The first example opens the file `MyFile.cs` in an existing instance of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] or opens the file in a new instance of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] if one does not already exist. The second example is similar except that it opens three files instead of just one file.
+The first example opens the file `MyFile.cs` in an existing instance of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] or opens the file in a new instance of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] if one doesn't already exist. The second example is similar except that it opens three files instead of just one file.
 
 ```shell
 devenv /edit MyFile.cs
