@@ -133,7 +133,7 @@ And, for more information about what's new in the [Continuous delivery tools for
 
 **New in 15.8**: Editing multiple locations in a file, simultaneously, is now easy. Start by creating insertion points and selections at multiple locations in a file. Then, use the multi-caret editing feature to make the same edit in two or more places at the same time.
 
-For more information, see the [Multi-caret selection](finding-and-replacing-text.md#multi-caret-selection) section of the of the [Find and replace text](finding-and-replacing-text.md) page.
+For more information, see the [Multi-caret selection](../finding-and-replacing-text.md#finding-and-replacing-text.md#multi-caret-selection) section of the of the [Find and replace text](../finding-and-replacing-text.md) page.
 
 #### Keep keybinding profiles consistent
 
@@ -216,7 +216,7 @@ You can navigate and view snapshots by using the **Step Backward** and **Step Fo
 
 ![The New Exception Helper dialog in Visual Studio](../../debugger/media/intellitrace-step-back-icons-description.png  "Step Backward and Forward buttons")
 
-For more information, see the [View snapshots using IntelliTrace step-back](../debugger/view-historical-application-state.md) page.
+For more information, see the [View snapshots using IntelliTrace step-back](../../debugger/view-historical-application-state.md) page.
 
 ### Containerization
 
@@ -371,7 +371,7 @@ If you want to make a suggestion about how we can improve Visual Studio, or lear
 
 ### Report a problem
 
- Sometimes, a message isn't enough to convey the full impact of a problem that you've encountered. If you experience a hang, crash, or other performance issue, you can easily share repro steps and supporting files (such as screenshots, and trace and heap dump files) with us by using the **Report a Problem** tool. For more information about how to use this tool, see the [How to report a problem](how-to-report-a-problem-with-visual-studio-2017.md) page.
+ Sometimes, a message isn't enough to convey the full impact of a problem that you've encountered. If you experience a hang, crash, or other performance issue, you can easily share repro steps and supporting files (such as screenshots, and trace and heap dump files) with us by using the **Report a Problem** tool. For more information about how to use this tool, see the [How to report a problem](../how-to-report-a-problem-with-visual-studio-2017.md) page.
 
 ## See also
 
@@ -380,4 +380,4 @@ If you want to make a suggestion about how we can improve Visual Studio, or lear
 * [What's new in C#](/dotnet/csharp/whats-new)
 * [What's new for Team Foundation Server](/tfs/server/whats-new?view=vsts)
 * [What's new in Visual Studio for Mac](https://visualstudio.microsoft.com/vs/visual-studio-mac/)
-* [What's new in Visual Studio 2019](whats-new-visual-studio-2019.md)
+* [What's new in Visual Studio 2019](../whats-new-visual-studio.md?view=vs-2019)

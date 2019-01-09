@@ -133,4 +133,4 @@ Why send feedback to the Visual Studio team? Because we take customer feedback s
 
 * [Visual Studio 2019 release notes](/visualstudio/releases/2019/release-notes-preview?context=visualstudio/default&contextView=vs-2017)
 * [Microsoft Connect(); 2018 conference](https://www.microsoft.com/connectevent)
-* [What's new in Visual Studio 2017](whats-new-in-visual-studio.md)
+* [What's new in Visual Studio 2017](whats-new-visual-studio.md?view=vs-2017)
