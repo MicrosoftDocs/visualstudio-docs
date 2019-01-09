@@ -7,6 +7,9 @@ ms.assetid: 45a99a5d-c881-4298-b74d-adb481dec5ee
 author: TerryGLee
 ms.author: tglee
 manager: douge
+dev_langs:
+ - CSharp
+ - VB
 ms.workload:
   - "multiple"
 ---
@@ -35,13 +38,17 @@ In the fifth part of this tutorial, you'll add <xref:System.Windows.Forms.Contro
 
 1. Choose the first **NumericUpDown** control (named "sum") on the form, and then, in the **Properties** dialog box, choose the **Events** icon on the toolbar.
 
-     The **Events** tab in the **Properties** dialog box displays all of the events that you can respond to (handle) for the item that you choose on the form. Because you chose the NumericUpDown control, all of the events listed pertain to it.
+   ![Events button in properties toolbar](media/control-properties-events.png)
 
-2. Choose the **Enter** event, enter `answer_Enter`, and then choose the **Enter** key.
+   The **Events** tab in the **Properties** dialog box displays all of the events that you can respond to (handle) for the item that you choose on the form. Because you chose the NumericUpDown control, all of the events listed pertain to it.
 
-     You've just added an Enter event handler for the sum NumericUpDown control, and you've named the handler **answer_Enter**.
+2. Choose the **Enter** event, type `answer_Enter`, and then press the **Enter** key.
 
-3. In the method for the **answer_Enter** event handler, add the following code.
+   ![Enter event handler method name](media/enter-event.png)
+
+   You've just added an Enter event handler for the sum NumericUpDown control, and you've named the handler **answer_Enter**.
+
+3. In the method for the **answer_Enter** event handler, add the following code:
 
      [!code-vb[VbExpressTutorial3Step5_6#11](../ide/codesnippet/VisualBasic/step-5-add-enter-event-handlers-for-the-numericupdown-controls_1.vb)]
      [!code-csharp[VbExpressTutorial3Step5_6#11](../ide/codesnippet/CSharp/step-5-add-enter-event-handlers-for-the-numericupdown-controls_1.cs)]
