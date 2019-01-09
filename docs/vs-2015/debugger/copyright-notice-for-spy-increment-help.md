@@ -10,7 +10,7 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
-  - "coyright, Spy++"
+  - "copyright, Spy++"
 ms.assetid: 84efcb95-5e57-4e1b-9670-13c9163f6fc6
 caps.latest.revision: 7
 author: MikeJo5000
