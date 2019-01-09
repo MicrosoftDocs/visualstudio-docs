@@ -8,8 +8,8 @@ dev_langs:
 helpviewer_keywords: 
   - "Visio [Office development in Visual Studio], creating Visio documents"
   - "documents [Office development in Visual Studio], creating Visio documents"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

@@ -268,8 +268,6 @@ This quick start demonstrates how to navigate in the Visual Studio debugger and 
 
 8.  In the Locals window, only the parameter `b` is listed as a local variable in `multiplyXby`, but a new **[Scope]** level has been added. Expanding this node, you see that it contains the parameters, functions, and variables of `multiplyClosure`, including the `a` variable called in the first line of `multiplyXby`. A quick check of the second **[Scope]** node reveals the module function variables, which `multiplyXby` accesses in its next line.
 
-     ![Scopes of a closure in the Locals window](../debugger/media/dbg-jsnav-scope-multiplyxby.png "DBG_JSNAV_scope_multiplyXby")
-
 9. **Stop debugging.** On the **Debug** menu, choose **Stop Debugging** (Keyboard: **Shift+F5**). This ends your debug session.
 
 ##  <a name="BKMK_Navigate_to_code_by_using_the_Call_Stack_window"></a> Navigate to code by using the Call Stack window
