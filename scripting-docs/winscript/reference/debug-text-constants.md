@@ -18,7 +18,7 @@ Used during [IDebugExpressionContext::ParseLanguageText](../../winscript/referen
   
 ## Syntax  
   
-```  
+```cpp
 typedef DWORD DEBUG_TEXT;  
 ```  
   

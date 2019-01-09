@@ -24,7 +24,7 @@ Returns an application-defined value that is used to associate a scriptlet with 
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetCookie(  
    DWORD              *pdwCookie  
 );  

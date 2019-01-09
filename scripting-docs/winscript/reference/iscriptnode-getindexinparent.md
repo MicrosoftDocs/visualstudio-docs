@@ -24,7 +24,7 @@ Returns the index of an object in the parent's child list.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetIndexInParent(  
    ULONG              pisn,  
 );  

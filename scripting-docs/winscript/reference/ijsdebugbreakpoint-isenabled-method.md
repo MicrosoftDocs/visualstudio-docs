@@ -22,7 +22,7 @@ Determines if the breakpoint is enabled.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT IsEnabled(  
    BOOL *pIsEnabled  
 );  

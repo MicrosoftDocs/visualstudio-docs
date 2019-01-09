@@ -24,7 +24,7 @@ Causes the asynchronous operation to begin.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Start(  
    IDebugAsyncOperationCallBack*  padocb  
 );  

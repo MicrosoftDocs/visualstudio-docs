@@ -24,7 +24,7 @@ Used by a smart host to delegate the `IDebugDocumentContext::EnumCodeContexts` m
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT EnumCodeContextsOfPosition(  
    DWORD_PTR                 dwSourceContext,  
    ULONG                     uCharacterOffset,  

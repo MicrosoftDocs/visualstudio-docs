@@ -24,7 +24,7 @@ Notifies the helper that the given text is available, but it does not provide th
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT AddDeferredText(  
    ULONG  cChars,  
    DWORD  dwTextStartCookie  

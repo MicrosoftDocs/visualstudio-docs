@@ -22,7 +22,7 @@ Stops profiling on the scripting engine. This method calls [IActiveScriptProfile
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT StopProfiling(  
     [in] HRESULT hrShutdownReason);  
 ```  

@@ -24,7 +24,7 @@ Puts the scripting engine into the given state. This method can be called from n
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT SetScriptState(  
     SCRIPTSTATE ss  // identifier of new state  
 );  

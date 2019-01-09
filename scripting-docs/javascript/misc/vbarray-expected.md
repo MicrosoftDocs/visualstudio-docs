@@ -24,7 +24,7 @@ manager: "ghogen"
 # VBArray expected
 You supplied an object that was not a Visual Basic safeArray, when one was expected.  
   
-```  
+```js
 new VBArray(safeArray);  
 ```  
   

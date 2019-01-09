@@ -24,7 +24,7 @@ Skips a specified number of segments in an enumeration sequence.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Skip(  
    ULONG  celt  
 );  

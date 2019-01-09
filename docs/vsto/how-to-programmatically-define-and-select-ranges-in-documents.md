@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "sentences, selecting in documents"
   - "ranges, selecting in documents"
   - "ranges, defining in documents"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

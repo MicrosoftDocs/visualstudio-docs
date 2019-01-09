@@ -24,7 +24,7 @@ Returns the character-position corresponding to the first character of a line.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetPositionOfLine(  
    ULONG   cLineNumber,  
    ULONG*  pcCharacterPosition  

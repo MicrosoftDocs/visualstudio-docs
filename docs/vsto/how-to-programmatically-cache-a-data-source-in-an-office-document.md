@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "StartCaching method"
   - "data caching [Office development in Visual Studio], programmatically"
   - "data [Office development in Visual Studio], caching"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload:
   - "office"

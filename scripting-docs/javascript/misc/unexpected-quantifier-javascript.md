@@ -24,7 +24,7 @@ manager: "ghogen"
 # Unexpected quantifier (JavaScript)
 When composing your regular expression search pattern, you created a pattern element with an illegal repetition factor. For example, the pattern  
   
-```  
+```js
 /^+/  
 ```  
   

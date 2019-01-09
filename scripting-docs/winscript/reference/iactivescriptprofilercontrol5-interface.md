@@ -18,7 +18,7 @@ Provides a method to enumerate over the GC heap objects associated with a script
   
 ## Syntax  
   
-```  
+```cpp
 interface IActiveScriptProfilerControl5 : IActiveScriptProfilerControl4  
 ```  
   

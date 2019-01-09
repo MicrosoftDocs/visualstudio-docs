@@ -24,7 +24,7 @@ Allows the scripting engine to obtain information about an item added with the [
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetItemInfo(  
     LPCOLESTR pstrName,     // address of item name  
     DWORD dwReturnMask,     // bit mask for information retrieval  

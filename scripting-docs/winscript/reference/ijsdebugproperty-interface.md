@@ -18,7 +18,7 @@ Represents a property browser.
   
 ## Syntax  
   
-```  
+```cpp
 IJsDebugProperty : public IUnknown;  
 ```  
   

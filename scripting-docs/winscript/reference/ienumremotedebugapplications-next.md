@@ -24,7 +24,7 @@ The `Next` method retrieves a specified number of segments in the enumeration se
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Next(  
    ULONG                      celt,  
    IRemoteDebugApplication**  ppda,  

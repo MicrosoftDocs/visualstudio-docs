@@ -18,7 +18,7 @@ Entry point for JavaScript debugging.
   
 ## Syntax  
   
-```  
+```cpp
 IJsDebug : public IUnknown;  
 ```  
   

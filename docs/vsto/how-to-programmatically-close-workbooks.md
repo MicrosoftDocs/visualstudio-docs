@@ -8,8 +8,8 @@ dev_langs:
 helpviewer_keywords: 
   - "workbooks, closing"
   - "Excel [Office development in Visual Studio], closing workbooks"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

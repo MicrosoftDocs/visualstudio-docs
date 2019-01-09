@@ -8,8 +8,8 @@ dev_langs:
 helpviewer_keywords: 
   - "appointments [Office development in Visual Studio]"
   - "Outlook calendars [Office development in Visual Studio], creating appointments"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

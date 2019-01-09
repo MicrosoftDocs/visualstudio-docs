@@ -22,7 +22,7 @@ Deletes the breakpoint.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Delete(void);  
 ```  
   

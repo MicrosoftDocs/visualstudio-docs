@@ -8,8 +8,8 @@ dev_langs:
 helpviewer_keywords: 
   - "shapes [Office development in Visual Studio], copying and pasting Visio shapes"
   - "Visio [Office development in Visual Studio], copying and pasting Visio shapes"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

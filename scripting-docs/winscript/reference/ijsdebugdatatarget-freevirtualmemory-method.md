@@ -22,7 +22,7 @@ Releases and/or decommits a region of memory within the virtual address space of
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT FreeVirtualMemory(  
    UINT64 address,  
    DWORD size,  

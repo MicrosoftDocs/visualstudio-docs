@@ -24,7 +24,7 @@ Gets the value of an `IDebugProperty` that describes a method or an indexed prop
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetPropertyInfo (  
    DBGPROP_INFO_FLAGSdwFields,  
    UINT nRadix,  

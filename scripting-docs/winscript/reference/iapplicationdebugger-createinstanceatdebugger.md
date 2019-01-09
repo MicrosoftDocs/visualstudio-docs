@@ -27,7 +27,7 @@ Allows the creation of objects in the debugger process by code that is out-of-pr
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT CreateInstanceAtDebugger(  
    REFCLSID    rclsid,  
    IUnknown*   pUnkOuter,  

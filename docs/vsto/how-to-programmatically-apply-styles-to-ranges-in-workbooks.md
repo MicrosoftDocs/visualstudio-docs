@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "ranges, styles"
   - "styles, workbook ranges"
   - "workbooks, styles"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

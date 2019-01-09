@@ -20,7 +20,7 @@ Notifies the profiler object that the scripting engine finished running a Docume
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT OnFunctionExitByName(  
     [in] [string] const WCHAR *pwszFunctionName,  
     [in] PROFILER_SCRIPT_TYPE scriptType);  

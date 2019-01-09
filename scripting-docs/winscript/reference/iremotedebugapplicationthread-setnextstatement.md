@@ -24,7 +24,7 @@ Forces execution to continue as close as possible to the given code context, in 
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT SetNextStatement(  
    IDebugStackFrame*   pStackFrame,  
    IDebugCodeContext*  pCodeContext  

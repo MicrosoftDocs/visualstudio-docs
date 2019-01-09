@@ -24,7 +24,7 @@ Sets the last identifier in the fully qualified name of a scriptlet's object hos
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT SetSubItemName(  
    LPCOLESTR          psz  
 );  

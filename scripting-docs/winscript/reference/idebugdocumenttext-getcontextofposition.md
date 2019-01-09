@@ -24,7 +24,7 @@ Creates a document context object corresponding to the provided character positi
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetContextOfPosition(  
    ULONG                    cCharacterPosition,  
    ULONG                    cNumChars,  
