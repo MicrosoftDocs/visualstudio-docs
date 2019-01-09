@@ -260,15 +260,13 @@ This quick start demonstrates how to navigate in the Visual Studio debugger and 
 
 6.  **Step into example4_a and examine its local and scope variables** Continue to step into `example4` and into the call to `example4_a`. Note that the local variables are now from `example4_a`, and that the **[Scope]** node continues to hold the variables of the `module` function. Even though the variables of `example4` are active, they cannot be reached by `example4_a` and are no longer part of the scope chain.
 
-7.  **Step into multipyByA and examine its local and scope variables** Step through the rest of `example4_a` and into the line `var x = multilpyByA(b);`.
+7.  **Step into multiplyByA and examine its local and scope variables** Step through the rest of `example4_a` and into the line `var x = multiplyByA(b);`.
 
-     The function variable `multipyByA` has been set to the `multiplyClosure` function which is a *closure*. `multipyClosure` defines and returns an inner function, `mulitplyXby`, and captures (closes over) its parameter and variable. In a closure, the returned inner function has access to the data of the outer function and so creates its own level of scope.
+     The function variable `multiplyByA` has been set to the `multiplyClosure` function which is a *closure*. `multiplyClosure` defines and returns an inner function, `multiplyXby`, and captures (closes over) its parameter and variable. In a closure, the returned inner function has access to the data of the outer function and so creates its own level of scope.
 
-     When you step into `var x = multilpyByA(b);`, you move to the `return a * b;` line in the `mulitplyXby` inner function.
+     When you step into `var x = multiplyByA(b);`, you move to the `return a * b;` line in the `multiplyXby` inner function.
 
 8.  In the Locals window, only the parameter `b` is listed as a local variable in `multiplyXby`, but a new **[Scope]** level has been added. Expanding this node, you see that it contains the parameters, functions, and variables of `multiplyClosure`, including the `a` variable called in the first line of `multiplyXby`. A quick check of the second **[Scope]** node reveals the module function variables, which `multiplyXby` accesses in its next line.
-
-     ![Scopes of a closure in the Locals window](../debugger/media/dbg-jsnav-scope-mulitplyxby.png "DBG_JSNAV_scope_mulitplyXby")
 
 9. **Stop debugging.** On the **Debug** menu, choose **Stop Debugging** (Keyboard: **Shift+F5**). This ends your debug session.
 

@@ -53,7 +53,7 @@ The Visual Studio simulator for Windows Store apps is a desktop application that
 ## Pinch and Zoom  
  Sets the interaction mode to pinch and zoom gestures of two fingers.  
   
--   ![Siimulator two finger target](../debugger/media/simulator-twofinger.png "SIMULATOR_TwoFinger")  
+-   ![Simulator two finger target](../debugger/media/simulator-twofinger.png "SIMULATOR_TwoFinger")  
   
      The double target icon indicates the location of two fingers on the device screen.  
   
