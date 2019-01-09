@@ -18,7 +18,7 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Immediate window
+# Immediate Window
 
 The **Immediate** window is used to debug and evaluate expressions, execute statements, print variable values, and so forth. It allows you to enter expressions to be evaluated or executed by the development language during debugging.
 
