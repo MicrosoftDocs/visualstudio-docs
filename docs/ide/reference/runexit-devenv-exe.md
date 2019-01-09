@@ -21,7 +21,7 @@ Compiles and runs the specified project or solution, and then closes the integra
 ## Syntax
 
 ```shell
-devenv /RunExit {SolutionName|ProjectName}
+devenv /RunExit {SolutionName|ProjectName} [/Out OutputFilename]
 ```
 
 ## Arguments
@@ -31,6 +31,9 @@ The full path and name of a solution file.
 
 *ProjectName*<br/>
 The full path and name of a project file.
+
+`/Out` *OutputFilename*<br/>
+Optional. The name of a file that you want to send the tool's output to. If the file already exists, the tool appends the output to the end of the file.
 
 ## Remarks
 

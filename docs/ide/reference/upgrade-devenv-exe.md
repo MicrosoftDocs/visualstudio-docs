@@ -21,7 +21,7 @@ Updates the solution file and all of its project files, or the project file spec
 ## Syntax
 
 ```shell
-devenv {SolutionFile|ProjectFile} /Upgrade
+devenv {SolutionFile|ProjectFile} /Upgrade [/Out OutputFilename]
 ```
 
 ## Arguments
@@ -31,6 +31,9 @@ Required if you are upgrading an entire solution and its projects. The path and 
 
 *ProjectFile*<br/>
 Required if you are upgrading a single project. The path and name of a project file within the solution. You can enter just the name of the project file, or a full path and the name of the project file. If the folder or file named does not yet exist, it will be created.
+
+`/Out` *OutputFilename*<br/>
+Optional. The name of a file that you want to send the tool's output to. If the file already exists, the tool appends the output to the end of the file.
 
 ## Remarks
 

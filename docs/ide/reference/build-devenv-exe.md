@@ -23,7 +23,7 @@ Builds a solution or project using a specified solution configuration file.
 ## Syntax
 
 ```shell
-devenv SolutionName /build [SolnConfigName [/Project ProjName [/ProjectConfig ProjConfigName]]]
+devenv SolutionName /Build [SolnConfigName [/Project ProjName [/ProjectConfig ProjConfigName]] [/Out OutputFilename]]
 ```
 
 ## Arguments
@@ -39,6 +39,9 @@ Optional. The path and name of a project file within the solution. You can enter
 
 `/ProjectConfig` *ProjConfigName*<br/>
 Optional. The name of a project build configuration to be used when building the named project. If multiple project platforms are available, you must also specify the platform, for example `Debug\|Win32`. If this switch is specified, it overrides the *SolnConfigName* argument.
+
+`/Out` *OutputFilename*<br/>
+Optional. The name of a file that you want to send the tool's output to. If the file already exists, the tool appends the output to the end of the file.
 
 ## Remarks
 

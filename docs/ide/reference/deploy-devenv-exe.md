@@ -22,7 +22,7 @@ Deploys a solution after a build or rebuild. Applies to managed code projects on
 ## Syntax
 
 ```shell
-devenv SolutionName /Deploy [SolnConfigName [/Project ProjName [/ProjectConfig ProjConfigName]]] [/Out LogFileName]
+devenv SolutionName /Deploy [SolnConfigName [/Project ProjName [/ProjectConfig ProjConfigName]] [/Out OutputFilename]]
 ```
 
 ## Arguments
@@ -38,6 +38,9 @@ Optional. The path and name of a project file within the solution. You can enter
 
 `/ProjectConfig` *ProjConfigName*<br/>
 Optional. The name of a project build configuration to be used when building the `/Project` named. If this switch is specified, it overrides the *SolnConfigName* argument.
+
+`/Out` *OutputFilename*<br/>
+Optional. The name of a file that you want to send the tool's output to. If the file already exists, the tool appends the output to the end of the file.
 
 ## Remarks
 

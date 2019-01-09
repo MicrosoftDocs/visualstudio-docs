@@ -22,7 +22,7 @@ ms.workload:
 ---
 # /Out (devenv.exe)
 
-Specifies a file to store and display errors when you [run](run-devenv-exe.md), [build](build-devenv-exe.md), [rebuild](rebuild-devenv-exe.md), or [deploy](deploy-devenv-exe.md) a solution.
+Specifies a file to store and display errors when you [run](run-devenv-exe.md), [run and exit](runexit-devenv-exe.md), [upgrade](upgrade-devenv-exe.md), [build](build-devenv-exe.md), [rebuild](rebuild-devenv-exe.md), [clean](clean-devenv-exe.md), or [deploy](deploy-devenv-exe.md) a solution.
 
 ## Syntax
 
@@ -53,6 +53,9 @@ devenv /run "C:\Documents and Settings\someuser\My Documents\Visual Studio\Proje
 
 - [Devenv command-line switches](../../ide/reference/devenv-command-line-switches.md)
 - [/Run (devenv.exe)](../../ide/reference/run-devenv-exe.md)
+- [/RunExit (devenv.exe)](runexit-devenv-exe.md)
+- [/Upgrade (devenv.exe)](upgrade-devenv-exe.md)
+- [/Clean (devenv.exe)](clean-devenv-exe.md)
 - [/Build (devenv.exe)](../../ide/reference/build-devenv-exe.md)
 - [/Rebuild (devenv.exe)](../../ide/reference/rebuild-devenv-exe.md)
 - [/Deploy (devenv.exe)](../../ide/reference/deploy-devenv-exe.md)

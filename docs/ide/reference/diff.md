@@ -42,6 +42,20 @@ Optional. The display name of the second file.
 
 If an instance of the IDE is already open, the file comparison appears in a tab in the current IDE.
 
+## Example
+
+The first two examples compares two files, first without changing their display names, then changing both of their display names. The last two examples compare two files but apply an alias to only the first file or the second file.
+
+```shell
+devenv /diff File1.txt File2.txt
+
+devenv /diff File1.txt File2.txt FirstAlias "Second Alias"
+
+devenv /diff File1.txt File2.txt "File One"
+
+devenv /diff File1.txt File2.txt "" FileTwo
+```
+
 ## See also
 
 - [Devenv command-line switches](../../ide/reference/devenv-command-line-switches.md)

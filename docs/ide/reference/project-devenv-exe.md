@@ -25,7 +25,7 @@ Identifies a single project within the specified solution configuration to build
 ## Syntax
 
 ```shell
-devenv SolutionName {/Build|/Clean|/Deploy|/Rebuild} [SolnConfigName [/Project ProjName [/ProjectConfig ProjConfigName]]]
+devenv SolutionName {/Build|/Clean|/Deploy|/Rebuild} [SolnConfigName [/Project ProjName [/ProjectConfig ProjConfigName]] [/Out OutputFilename]]
 ```
 
 ## Arguments
@@ -44,6 +44,9 @@ Optional. The path and name of a project file within the solution. You can enter
 
 `/ProjectConfig` *ProjConfigName*<br/>
 Optional. The name of a project build configuration to be applied to the `/Project` named.
+
+`/Out` *OutputFilename*<br/>
+Optional. The name of a file that you want to send the tool's output to. If the file already exists, the tool appends the output to the end of the file.
 
 ## Remarks
 
