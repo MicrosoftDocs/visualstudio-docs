@@ -43,7 +43,7 @@ SSDEBUGPS.dll is the SQL Server Debugging Host component.
 2.  Register it by opening a **Command Prompt**, and running the following command:  
   
     ```  
-    regsrv32 ssdebugps.dll  
+    regsvr32 ssdebugps.dll  
     ```
 
 

@@ -76,7 +76,7 @@ NOTE]
   
 8. If you chose the `Custom` option for `Optimization`, you can now set options for any of the other properties shown in the properties list.  
   
-9. Select the Configuation Properties, C/C++, Command Line node of the project properties page, and add `(`[/Zo](http://msdn.microsoft.com/library/eea8d89a-7fe0-4fe1-86b2-7689bbebbd7f)`)` to the **Additional Options** text box.  
+9. Select the Configuration Properties, C/C++, Command Line node of the project properties page, and add `(`[/Zo](http://msdn.microsoft.com/library/eea8d89a-7fe0-4fe1-86b2-7689bbebbd7f)`)` to the **Additional Options** text box.  
   
     > [!WARNING]
     >  `/Zo` requires Visual Studio 2013 Update 3 or a later version.  

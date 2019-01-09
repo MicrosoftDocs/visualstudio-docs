@@ -14,7 +14,7 @@ You can use IntelliTrace to collect information about specific events or categor
   
  You can use IntelliTrace in Visual Studio Enterprise edition, but not the Professional or Community editions.  
   
-##  <a name="GettingStarted"></a> Configure Intellitrace  
+##  <a name="GettingStarted"></a> Configure IntelliTrace  
  You can try debugging with just IntelliTrace events. IntelliTrace events are debugger events, exceptions, .NET Framework events, and other system events. You should turn on or turn off specific events to control the events that IntelliTrace records before you start debugging. For more information, see [IntelliTrace Features](../debugger/intellitrace-features.md).  
   
  - Turn on the IntelliTrace event for File Access. Go to the **Tools > Options > IntelliTrace > IntelliTrace Events** page, and expand the **File** category. Check the **File** event category. This causes all the file events (access, close, delete) to be checked.
