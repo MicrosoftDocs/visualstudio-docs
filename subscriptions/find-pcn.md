@@ -21,7 +21,7 @@ The Volume License Service Center no longer provides access to your PCN.  To obt
 1. Visit https://visualstudio.microsoft.com/subscriptions/support/#talktous
 2. Tap the **Account, Subscription and Billing Support** button.
     > [!div class="mx-imgBorder"]
-    > ![Choose subscription support](_img/vlsc/vlsc-subscription-support.png)
+    > ![Choose subscription support](_img/vlsc/vlsc-pcn.png)
 3. Choose your country from the drop-down list.
 4. Choose from the list of support options available in your country to contact a support agent who can research your PCN for you.  
 
