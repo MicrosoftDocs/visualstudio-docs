@@ -133,7 +133,7 @@ And, for more information about what's new in the [Continuous delivery tools for
 
 **New in 15.8**: Editing multiple locations in a file, simultaneously, is now easy. Start by creating insertion points and selections at multiple locations in a file. Then, use the multi-caret editing feature to make the same edit in two or more places at the same time.
 
-For more information, see the [Multi-caret selection](../finding-and-replacing-text.md#finding-and-replacing-text.md#multi-caret-selection) section of the of the [Find and replace text](../finding-and-replacing-text.md) page.
+For more information, see the [Multi-caret selection](../finding-and-replacing-text.md#multi-caret-selection) section of the of the [Find and replace text](../finding-and-replacing-text.md) page.
 
 #### Keep keybinding profiles consistent
 
