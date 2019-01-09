@@ -2,7 +2,6 @@
 title: "Known issues for containers"
 description: "Learn more about the known issues that might occur when you install Visual Studio Build Tools 2017 into a Windows container."
 ms.date: 04/18/2018
-ms.technology: vs-acquisition
 ms.custom: "seodec18"
 ms.prod: visual-studio-dev15
 ms.topic: conceptual

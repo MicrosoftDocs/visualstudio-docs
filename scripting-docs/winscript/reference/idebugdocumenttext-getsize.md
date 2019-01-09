@@ -24,7 +24,7 @@ Returns the number of lines and number of characters in the document.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetSize(  
    ULONG*  pcNumLines,  
    ULONG*  pcNumChars  

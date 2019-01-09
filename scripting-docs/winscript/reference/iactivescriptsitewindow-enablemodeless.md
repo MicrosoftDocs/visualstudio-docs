@@ -24,7 +24,7 @@ Causes the host to enable or disable its main window as well as any modeless dia
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT EnableModeless(  
     BOOL fEnable  // enable flag  
 );  

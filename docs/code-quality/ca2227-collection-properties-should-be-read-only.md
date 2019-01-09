@@ -2,7 +2,6 @@
 title: "CA2227: Collection properties should be read only"
 ms.date: 09/28/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA2227"

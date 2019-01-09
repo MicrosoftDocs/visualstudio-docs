@@ -23,7 +23,7 @@ Indicates a set of options and/or capabilities that apply to the attached debugg
   
 ## Syntax  
   
-```  
+```cpp
 typedef SCRIPT_DEBUGGER_OPTIONS  
 ```  
   

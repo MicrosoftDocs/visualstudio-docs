@@ -10,7 +10,6 @@ manager: douge
 ms.workload:
   - "multiple"
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Customizing and Extending a Domain-Specific Language
 Visual Studio Modeling and Visualization SDK (VMSDK) provides several levels at which you can define modeling tools:

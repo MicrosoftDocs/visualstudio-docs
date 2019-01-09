@@ -24,7 +24,7 @@ Adds the name of a root-level item to the script authoring engine's namespace. A
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT AddNamedItem(  
    LPCOLESTR          pszName,  
    DWORD              dwFlags,  

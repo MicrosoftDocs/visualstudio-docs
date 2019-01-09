@@ -2,7 +2,6 @@
 title: Code Generation and T4 Text Templates
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ms.topic: conceptual
 f1_keywords:
   - "VS.ToolsOptionsPages.TextTemplating.TextTemplating"

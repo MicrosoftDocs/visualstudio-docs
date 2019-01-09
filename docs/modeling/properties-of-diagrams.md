@@ -12,7 +12,6 @@ manager: douge
 ms.workload:
   - "multiple"
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Properties of diagrams
 You can set properties that specify how diagrams will appear in the generated designer. For example, you can specify a default color for text in the diagram.

@@ -2,7 +2,6 @@
 title: "CA2146: Types must be at least as critical as their base types and interfaces"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA2146"

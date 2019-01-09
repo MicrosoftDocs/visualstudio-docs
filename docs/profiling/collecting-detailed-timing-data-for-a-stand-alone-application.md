@@ -1,8 +1,6 @@
 ---
 title: "Collecting Detailed Timing Data for a Stand-Alone Application by Using the Profiler Command Line | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "profiling tools,instrumentation method"

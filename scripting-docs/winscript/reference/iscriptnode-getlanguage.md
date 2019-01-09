@@ -24,7 +24,7 @@ Returns the scripting language that is used by the current script node.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetLanguage(  
    BSTR               *pbstr  
 );  

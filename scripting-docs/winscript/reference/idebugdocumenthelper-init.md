@@ -24,7 +24,7 @@ The `Init` method initializes a debug document helper with a name and initial at
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Init(  
    IDebugApplication*  pda,  
    LPCOLESTR           pszShortName,  

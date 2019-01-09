@@ -24,7 +24,7 @@ Deletes a member by DISPID.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT DeleteMemberByDispID(  
     DISPID id  
 );  
@@ -49,7 +49,7 @@ HRESULT DeleteMemberByDispID(
   
 ## Example  
   
-```  
+```cpp
 BSTR bstrName;  
 DISPID dispid;  
 IDispatchEx *pdex;   

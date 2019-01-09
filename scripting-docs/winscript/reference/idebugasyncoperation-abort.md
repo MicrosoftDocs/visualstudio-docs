@@ -24,7 +24,7 @@ Cancels an operation.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Abort();  
 ```  
   

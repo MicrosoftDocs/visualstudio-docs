@@ -5,8 +5,7 @@ ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
+ms.technology: "vs-devops-test"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords:
@@ -63,6 +62,3 @@ manager: "wpickett"
 ## See Also
  [Assembly Versioning](http://msdn.microsoft.com/library/775ad4fb-914f-453c-98ef-ce1089b6f903)
  [How to: Create a Publisher Policy](http://msdn.microsoft.com/library/8046bc5d-2fa9-4277-8a5e-6dcc96c281d9)
-
-
-

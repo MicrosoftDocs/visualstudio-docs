@@ -3,7 +3,6 @@ title: Overview of Visual Studio for Python developers
 titleSuffix: ""
 ms.date: 12/14/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-python
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
@@ -22,7 +21,7 @@ The Visual Studio *integrated development environment* is a creative launching p
 
 This image shows Visual Studio with an open Python project and several key tool windows you'll likely use:
 
-- [**Solution Explorer**](../ide/solutions-and-projects-in-visual-studio.md) (top right) lets you view, navigate, and manage your code files. **Solution Explorer** can help organize your code by grouping the files into [solutions and projects](../ide/quickstart-projects-solutions.md).
+- [**Solution Explorer**](../ide/solutions-and-projects-in-visual-studio.md) (top right) lets you view, navigate, and manage your code files. **Solution Explorer** can help organize your code by grouping the files into [solutions and projects](/visualstudio/get-started/tutorial-projects-solutions).
     - Alongside **Solution Explorer** is [**Python Environments**](managing-python-environments-in-visual-studio.md), where you manage the different Python interpreters that are installed on your computer.
 
 - The [editor window](../ide/writing-code-in-the-code-and-text-editor.md) (center), where you'll likely spend a majority of your time, displays file contents. This is where you [edit Python code](editing-python-code-in-visual-studio.md), navigate within your code structure, and set breakpoints during debugging sessions. With Python, you can also select code and press Ctrl+Enter to run that code in an [interactive REPL window](python-interactive-repl-in-visual-studio.md).

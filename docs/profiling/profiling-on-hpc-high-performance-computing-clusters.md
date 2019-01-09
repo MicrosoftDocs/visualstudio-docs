@@ -1,8 +1,6 @@
 ---
 title: "Profiling on HPC (High Performance Computing) Clusters | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.performance.hpc.wizard.exeoptions"
@@ -144,4 +142,3 @@ You can change the performance session properties that you set on the HPC Profil
 | **Pre-profile script arguments** | Specifies the arguments to pass to the pre-profile script. |
 | **Post-profile script** | Specifies the path and file name of a script to run on the local development computer after the profiling session ends. |
 | **Post-profile script arguments** | Specifies the arguments to pass to the post-profile script. |
-

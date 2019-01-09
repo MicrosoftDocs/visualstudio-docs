@@ -1,9 +1,7 @@
 ---
 title: "Debug a Node.js app"
 description: Visual Studio provides support for debugging Node.js applications in Visual Studio
-ms.custom: ""
 ms.date: "12/03/2018"
-ms.technology: vs-nodejs
 ms.topic: "conceptual"
 ms.devlang: javascript
 author: "mikejo5000"

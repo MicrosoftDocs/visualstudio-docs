@@ -16,7 +16,7 @@ Represents information about the substring type used in the relationship. Used i
   
 ## Syntax  
   
-```  
+```cpp
 typedef struct _PROFILER_PROPERTY_TYPE_SUBSTRING_INFO {    UINT length;    LPCWSTR value; } PROFILER_PROPERTY_TYPE_SUBSTRING_INFO;  
 ```  
   

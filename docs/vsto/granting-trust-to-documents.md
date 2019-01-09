@@ -1,9 +1,6 @@
 ---
 title: "Grant trust to documents"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -44,5 +41,3 @@ ms.workload:
  [Grant trust to Office solutions](../vsto/granting-trust-to-office-solutions.md)   
  [Troubleshoot Office solution security](../vsto/troubleshooting-office-solution-security.md)   
  [Secure Office solutions](../vsto/securing-office-solutions.md)  
-  
-  

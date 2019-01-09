@@ -1,9 +1,6 @@
 ---
 title: "How to: Programmatically create a meeting request"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -12,8 +9,8 @@ helpviewer_keywords:
   - "meeting requests [Office development in Visual Studio]"
   - "appointments [Office development in Visual Studio]"
   - "calendars [Office development in Visual Studio], meeting requests"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -30,5 +27,3 @@ ms.workload:
 ## See also  
  [Work with calendar items](../vsto/working-with-calendar-items.md)   
  [Get started programming VSTO Add-ins](../vsto/getting-started-programming-vsto-add-ins.md)  
-  
-  

@@ -24,7 +24,7 @@ Indicates whether an object is still active.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Alive();  
 ```  
   

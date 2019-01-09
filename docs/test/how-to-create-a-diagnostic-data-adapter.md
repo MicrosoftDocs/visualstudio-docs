@@ -9,7 +9,6 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ---
 # How to: Create a diagnostic data adapter
 
@@ -42,7 +41,7 @@ The following is a partial list of key events that you can use when you create y
 
 Use the following procedure to create diagnostic data adapter that collects a data file that is based on information that you configure when you create your test settings.
 
-For a complete example diagnostic data adapter project, including a custom configuration editor, see [Sample project for creating a diagnostic data adapter](../test/sample-project-for-creating-a-diagnostic-data-adapter.md).
+For a complete example diagnostic data adapter project, including a custom configuration editor, see [Sample project for creating a diagnostic data adapter](../test/quickstart-create-a-load-test-project.md).
 
 ##  Create and install a diagnostic data adapter
 
@@ -255,11 +254,11 @@ For a complete example diagnostic data adapter project, including a custom confi
 
      For more information about how to configure your test settings to use an environment when you run your tests, see [Collect diagnostic data in manual tests (Azure Test Plans)](/azure/devops/test/mtm/collect-more-diagnostic-data-in-manual-tests?view=vsts).
 
-     For more information about installing the configuration file, see [How to: Install a custom diagnostic data adapter](../test/how-to-install-a-custom-diagnostic-data-adapter.md)
+     For more information about installing the configuration file, see [How to: Install a custom diagnostic data adapter](../test/quickstart-create-a-load-test-project.md)
 
 12. Build your solution to create your diagnostic data adapter assembly.
 
-13. For information about installing your custom editor, see [How to: Install a custom diagnostic data adapter](../test/how-to-install-a-custom-diagnostic-data-adapter.md).
+13. For information about installing your custom editor, see [How to: Install a custom diagnostic data adapter](../test/quickstart-create-a-load-test-project.md).
 
 14. For more information about how to configure your test settings to use an environment when you run your tests, see [Collect diagnostic data in manual tests (Azure Test Plans)](/azure/devops/test/mtm/collect-more-diagnostic-data-in-manual-tests?view=vsts).
 

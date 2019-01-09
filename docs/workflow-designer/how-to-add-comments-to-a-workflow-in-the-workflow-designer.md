@@ -3,7 +3,6 @@ title: "Workflow Designer - How to: Add comments to a workflow"
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 f1_keywords:
   - "System.Activities.Presentation.Annotations.Annotation.UI"
   - "Annotation"

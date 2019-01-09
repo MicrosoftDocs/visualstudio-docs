@@ -1,5 +1,4 @@
 ---
-ms.technology: vs-ai-tools
 ---
 # Create an AI project from existing code
 

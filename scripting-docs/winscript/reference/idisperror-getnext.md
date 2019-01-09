@@ -24,7 +24,7 @@ Retrieves the next `IDispError` object.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetNext(  
    IDispError**  ppde  
 );  

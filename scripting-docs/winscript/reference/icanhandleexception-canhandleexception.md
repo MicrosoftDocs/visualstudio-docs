@@ -24,7 +24,7 @@ Determines if the caller of the script engine can handle a specified exception.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT CanHandleException(  
    EXCEPINFO*  pExcepInfo,  
    VARIANT*    pvar  

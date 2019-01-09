@@ -1,9 +1,6 @@
 ---
 title: "How to: Add controls to the Backstage view "
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -65,5 +62,3 @@ ms.workload:
  [Ribbon XML](../vsto/ribbon-xml.md)   
  [How to: Get started customize the Ribbon](../vsto/how-to-get-started-customizing-the-ribbon.md)   
  [Walkthrough: Create a custom tab by using the Ribbon Designer](../vsto/walkthrough-creating-a-custom-tab-by-using-the-ribbon-designer.md)  
-  
-  

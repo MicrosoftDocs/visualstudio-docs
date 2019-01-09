@@ -1,8 +1,6 @@
 ---
 title: "Property Functions | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/21/2017"
-ms.technology: msbuild
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "MSBuild, property functions"

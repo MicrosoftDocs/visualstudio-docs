@@ -24,7 +24,7 @@ Returns the attributes of the document.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetDocumentAttributes(  
    TEXT_DOC_ATTR*  ptextdocattr  
 );  

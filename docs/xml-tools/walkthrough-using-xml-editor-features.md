@@ -2,7 +2,6 @@
 title: "Walkthrough: Using XML Editor Features"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-xml-tools
 ms.topic: conceptual
 ms.assetid: ea8dc357-2e66-455a-aec2-7ccaccfc9adf
 author: gewarren

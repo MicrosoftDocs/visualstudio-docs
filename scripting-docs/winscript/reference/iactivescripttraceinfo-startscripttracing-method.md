@@ -18,7 +18,7 @@ Starts script tracing.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT StartScriptTracing(     [in] IActiveScriptSiteTraceInfo * pSiteTraceInfo,     [in] GUID guidContextID );   
 ```  
   

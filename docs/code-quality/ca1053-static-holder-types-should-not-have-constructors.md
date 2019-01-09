@@ -2,7 +2,6 @@
 title: "CA1053: Static holder types should not have constructors"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "StaticHolderTypesShouldNotHaveConstructors"

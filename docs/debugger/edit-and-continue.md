@@ -2,7 +2,6 @@
 title: "Edit code and continue debugging | Microsoft Docs"
 ms.custom: "seodec18"
 ms.date: "05/31/2017"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.enc"

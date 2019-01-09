@@ -24,7 +24,7 @@ Handles an application close event.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT OnClose();  
 ```  
   

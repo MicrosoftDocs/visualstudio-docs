@@ -24,7 +24,7 @@ Adds this application node to the specified project tree.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Attach(  
    IDebugApplicationNode*  pdanParent  
 );  

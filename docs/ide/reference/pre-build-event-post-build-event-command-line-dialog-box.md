@@ -2,7 +2,6 @@
 title: Pre-build Event-Post-build Event Command Line Dialog Box
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "cs.ProjectPropertiesBuildEventsBuilder"

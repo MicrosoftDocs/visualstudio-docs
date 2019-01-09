@@ -11,7 +11,6 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ---
 # Analyze load test results using the Load Test Analyzer
 

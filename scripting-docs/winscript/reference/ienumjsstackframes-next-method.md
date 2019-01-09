@@ -22,7 +22,7 @@ Gets the specified number of frames.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Next(  
    ULONG cFrameCount,  
    JS_NATIVE_FRAME *pFrames,  

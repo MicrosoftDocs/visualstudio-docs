@@ -24,7 +24,7 @@ Returns the suspend count for the thread.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetSuspendCount(  
    DWORD*  pdwCount  
 );  

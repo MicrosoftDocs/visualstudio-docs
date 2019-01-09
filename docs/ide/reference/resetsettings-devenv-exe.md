@@ -2,7 +2,6 @@
 title: -ResetSettings (devenv.exe)
 ms.date: 11/16/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 helpviewer_keywords:
   - "Devenv, /ResetSettings switch"

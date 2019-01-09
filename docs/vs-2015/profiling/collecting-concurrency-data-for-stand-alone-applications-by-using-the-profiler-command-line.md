@@ -30,7 +30,7 @@ The concurrency method of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling
 |**Start a .NET Framework application and profile concurrency data**|-   [How to: Launch a .NET Framework Application to Collect Concurrency Data](../profiling/how-to-launch-a-stand-alone-dotnet-framework-application-with-the-profiler-to-collect-concurrency-data-by-using-the-command-line.md)|  
 |**Start a C/C++ application and profile concurrency data**|-   [How to: Launch a Native Application to Collect Concurrency Data](../profiling/how-to-launch-a-stand-alone-native-application-with-the-profiler-to-collect-concurrency-data-by-using-the-command-line.md)|  
 |**Attach the profiler to a running .NET Framework application**|-   [How to: Attach the Profiler to a .NET Framework Application to Collect Concurrency Data](../profiling/how-to-attach-the-profiler-to-a-dotnet-framework-stand-alone-application-to-collect-concurrency-data-by-using-the-command-line.md)|  
-|**Attach the profiler to a running C/C++ application**|-   [How to: Attach the Profiler to a Native Application and Collect Concurrency Data](../profiling/how-to-attach-the-profiler-to-a-native-stand-alone-application-and-collect-concurrency-data-by-using-the-command-line.md)|  
+|**Attach the profiler to a running C/C++ application**|-   [How to: Attach the Profiler to a Native Application and Collect Concurrency Data](/visualstudio/profiling/how-to-attach-the-profiler-to-a-native-app-and-collect-concurrency-data?view=vs-2015)|  
   
 ## Related Tasks  
   

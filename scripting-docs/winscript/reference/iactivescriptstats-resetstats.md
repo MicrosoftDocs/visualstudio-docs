@@ -24,7 +24,7 @@ Resets the statistics for this script.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT ResetStats();  
 ```  
   

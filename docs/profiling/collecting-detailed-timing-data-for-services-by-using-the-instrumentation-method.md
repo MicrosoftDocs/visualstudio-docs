@@ -1,8 +1,6 @@
 ---
 title: "Collecting Detailed Timing Data for Services by Using the Instrumentation Method from the Profiler Command Line | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: 6116e1df-ed3e-4b0d-ac7f-22f7d7ac00ea
 author: "mikejo5000"
@@ -41,4 +39,3 @@ This section describes the procedures and options for collecting detailed perfor
   
 ### Analyze instrumentation data views and reports  
  [Instrumentation method data views](../profiling/instrumentation-method-data-views.md)
-

@@ -1,9 +1,6 @@
 ---
 title: "How to: Programmatically display documents in Print Preview"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -58,5 +55,3 @@ ms.workload:
  [How to: Programmatically print documents](../vsto/how-to-programmatically-print-documents.md)   
  [How to: Programmatically open existing documents](../vsto/how-to-programmatically-open-existing-documents.md)   
  [How to: Programmatically create new documents](../vsto/how-to-programmatically-create-new-documents.md)  
-  
-  

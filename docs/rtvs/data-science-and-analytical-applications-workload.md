@@ -3,7 +3,6 @@ title: Data Science and Analytical Applications workload
 description: Thsi Visual Studio workload brings together Python, R, F#, and their respective runtime distributions including Anaconda.
 ms.date: 01/24/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-rtvs
 ms.topic: overview
 author: kraigb
 ms.author: kraigb

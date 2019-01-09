@@ -1,8 +1,6 @@
 ---
 title: "API Reference for IntelliTrace Extensibility | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/07/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IntelliTrace, API reference"

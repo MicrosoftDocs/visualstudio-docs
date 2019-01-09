@@ -1,8 +1,6 @@
 ---
 title: "MSBuild Inline Tasks | Microsoft Docs"
-ms.custom: ""
 ms.date: "09/21/2017"
-ms.technology: msbuild
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "MSBuild, tasks"

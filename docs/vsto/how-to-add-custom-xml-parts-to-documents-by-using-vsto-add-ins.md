@@ -1,9 +1,6 @@
 ---
 title: "How to: Add custom XML parts to documents by using VSTO Add-ins"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -81,5 +78,3 @@ ms.workload:
 ## See also  
  [Custom XML parts overview](../vsto/custom-xml-parts-overview.md)   
  [How to: Add custom XML parts to document-level customizations](../vsto/how-to-add-custom-xml-parts-to-document-level-customizations.md)  
-  
-  

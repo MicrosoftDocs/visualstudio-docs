@@ -1,9 +1,7 @@
 ---
 title: "Step 9: Try other features"
-ms.custom: ""
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.assetid: 1b0c5c80-e5a6-4f69-a4a4-0e89a82d4de0

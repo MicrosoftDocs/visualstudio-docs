@@ -24,7 +24,7 @@ Sets the text that corresponds to an `IScriptEntry` script block, or the source 
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT SetText(  
    LPCOLESTR          psz  
 );  

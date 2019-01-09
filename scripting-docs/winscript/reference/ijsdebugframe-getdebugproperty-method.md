@@ -22,7 +22,7 @@ Returns a property browser for this stack frame.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetDebugProperty(  
    IJsDebugProperty **ppDebugProperty  
 );  

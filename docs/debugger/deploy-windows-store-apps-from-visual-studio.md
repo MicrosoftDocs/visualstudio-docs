@@ -2,7 +2,6 @@
 title: "Deploy UWP apps | Microsoft Docs"
 ms.custom: "seodec18"
 ms.date: "01/16/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs:
   - "CSharp"
@@ -113,4 +112,4 @@ To configure the deployment to automatically start a debugging session when the 
 
 - [Advanced remote deployment options](/windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps#advanced-remote-deployment-options)
 - [Debug an installed app package](../debugger/debug-installed-app-package.md)
-- [Run apps from Visual Studio](../debugger/run-store-apps-from-visual-studio.md)
+- [Run apps from Visual Studio](/visualstudio/debugger/debugging-windows-store-and-windows-universal-apps)

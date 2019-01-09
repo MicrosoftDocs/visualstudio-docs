@@ -1,9 +1,6 @@
 ---
 title: "Walkthrough: Display text in a text box in a worksheet using a button"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -111,5 +108,3 @@ ms.workload:
  [How to: Add Windows Forms controls to Office documents](../vsto/how-to-add-windows-forms-controls-to-office-documents.md)   
  [Walkthroughs using Excel](../vsto/walkthroughs-using-excel.md)   
  [Limitations of Windows Forms controls on Office documents](../vsto/limitations-of-windows-forms-controls-on-office-documents.md)  
-  
-  

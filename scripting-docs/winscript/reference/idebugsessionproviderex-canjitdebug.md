@@ -22,7 +22,7 @@ Determines whether a specified process can be debugged with Just In Time debuggi
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT CanJITDebug(  
    DWORD  pid  
 );  

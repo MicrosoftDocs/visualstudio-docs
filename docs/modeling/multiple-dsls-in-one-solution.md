@@ -8,7 +8,6 @@ manager: douge
 ms.workload:
   - "multiple"
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Multiple DSLs in One Solution
 You can package several DSLs as part of a single solution so that they are installed together.

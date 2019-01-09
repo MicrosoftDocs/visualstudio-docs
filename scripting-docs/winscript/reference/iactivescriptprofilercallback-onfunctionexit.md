@@ -22,7 +22,7 @@ Notifies the profiler object that the scripting engine finished executing a func
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT OnFunctionExit(  
     [in] PROFILER_TOKEN scriptId,   
     [in] PROFILER_TOKEN functionId);  

@@ -24,7 +24,7 @@ Returns the DISPID and name for each event in a specified range of events.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT DescribeEvents(  
    ULONG    iEvent,  
    ULONG    cEvents,  

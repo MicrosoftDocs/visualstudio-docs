@@ -24,7 +24,7 @@ Replaces text in the document.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT ReplaceText(  
    ULONG    cCharacterPosition,  
    ULONG    cNumToReplace,  

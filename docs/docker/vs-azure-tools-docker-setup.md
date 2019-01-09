@@ -5,8 +5,6 @@ services: azure-container-service
 documentationcenter: na
 author: mlearned
 manager: douge
-editor: ''
-
 ms.assetid: 0b1335a2-7720-42a8-8260-4e06fc00c9f6
 ms.service: multiple
 ms.devlang: dotnet
@@ -15,7 +13,6 @@ ms.tgt_pltfrm: na
 ms.workload: multiple
 ms.date: 06/08/2016
 ms.author: mlearned
-
 ---
 # Configure a Docker Host with VirtualBox
 ## Overview

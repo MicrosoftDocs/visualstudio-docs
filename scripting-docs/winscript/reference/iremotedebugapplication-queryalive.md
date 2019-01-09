@@ -24,7 +24,7 @@ Indicates if the application is responsive.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT QueryAlive();  
 ```  
   

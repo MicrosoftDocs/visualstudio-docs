@@ -22,7 +22,7 @@ Reads a BSTR from the debug target.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT ReadBSTR(  
    UINT64 address,  
    BSTR *pString  

@@ -2,7 +2,6 @@
 title: Code coverage testing
 ms.date: 09/18/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 helpviewer_keywords:
   - "code coverage"

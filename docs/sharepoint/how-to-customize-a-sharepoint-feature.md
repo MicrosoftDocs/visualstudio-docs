@@ -1,17 +1,12 @@
 ---
 title: "How to: Customize a SharePoint Feature | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VS.SharePointTools.RAD.FeatureDesigner.SwitchView"
   - "VS.SharePointTools.RAD.featureDesigner.Manifest"
   - "VS.SharePointTools.RAD.FeatureDesignerProperties"
 dev_langs: 
-  - "VB"
-  - "CSharp"
   - "VB"
   - "CSharp"
 helpviewer_keywords: 
@@ -90,4 +85,3 @@ ms.workload:
   
 ## See also
  [Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)  
-  

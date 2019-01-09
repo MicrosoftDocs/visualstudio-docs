@@ -1,9 +1,6 @@
 ---
 title: "Custom actions in Outlook form regions"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -52,5 +49,3 @@ ms.workload:
  [Create Outlook form regions](../vsto/creating-outlook-form-regions.md)   
  [Walkthrough: Design an Outlook form region](../vsto/walkthrough-designing-an-outlook-form-region.md)   
  [Associate a form region with an Outlook message class](../vsto/associating-a-form-region-with-an-outlook-message-class.md)  
-  
-  

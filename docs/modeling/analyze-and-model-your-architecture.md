@@ -2,7 +2,6 @@
 title: Analyze and model your architecture
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ms.topic: conceptual
 helpviewer_keywords:
   - "Visual Studio Ultimate, exploring code"

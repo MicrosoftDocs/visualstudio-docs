@@ -24,7 +24,7 @@ Removes this document from the document tree.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Detach();  
 ```  
   

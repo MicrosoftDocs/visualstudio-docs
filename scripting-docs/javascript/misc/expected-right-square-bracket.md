@@ -1,5 +1,5 @@
 ---
-title: "Expected &#39;]&#39; | Microsoft Docs"
+title: "Expected ']' | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
 ms.prod: "windows-client-threshold"
@@ -21,7 +21,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 ---
-# Expected &#39;]&#39;
+# Expected ']'
 You made a reference to an array element, but did not include the right bracket. Any expression that refers to an array element must include both opening and closing brackets.  
   
 ### To correct this error  

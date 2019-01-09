@@ -22,7 +22,7 @@ Factory method for stack walker.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT CreateStackWalker(  
    DWORD threadId,  
    IJsDebugStackWalker **ppStackWalker  

@@ -37,9 +37,9 @@ The duration of your DataCamp benefit depends upon your Visual Studio subscripti
     - Start Learning Python for Data Science
     - Develop your Data Science Skillset
 
-Just click on your chosen path to get started.
-> [!div class="mx-imgBorder"]
-> ![DataCamp Choose Path](_img\vs-datacamp\vs-datacamp-choose-path.png)
+   Just click on your chosen path to get started.
+   > [!div class="mx-imgBorder"]
+   > ![DataCamp Choose Path](_img/vs-datacamp/vs-datacamp-choose-path.png)
 
 5. After you have selected your path, you can further refine your learning path by selecting a goal.  For example, if you chose the "Develop your Data Science Skillset" path, you will see the following options. Choose an option, or click **I am not sure.  Show me all career paths** to create a broader path.
    > [!div class="mx-imgBorder"]

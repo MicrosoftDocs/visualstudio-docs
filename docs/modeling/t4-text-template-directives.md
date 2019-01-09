@@ -15,7 +15,6 @@ manager: douge
 ms.workload:
   - "multiple"
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # T4 Text Template Directives
 Directives provide instructions to the text template transformation engine.

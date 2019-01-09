@@ -22,7 +22,7 @@ Returns the current position of this stack frame within the user-level document.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetDocumentPositionWithId(  
    UINT64 *pDocumentId,  
    DWORD *pCharacterOffset,  

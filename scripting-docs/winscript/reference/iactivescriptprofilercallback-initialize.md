@@ -22,7 +22,7 @@ Called to initialize the profiler object whenever profiling is started on a scri
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Initialize(  
     [in] DWORD dwContext);  
 ```  

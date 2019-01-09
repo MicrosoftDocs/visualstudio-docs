@@ -1,9 +1,6 @@
 ---
 title: "How to: Programmatically change formatting in worksheet rows containing selected cells"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -12,8 +9,8 @@ helpviewer_keywords:
   - "rows [Office development in Visual Studio]"
   - "formatting [Office development in Visual Studio]"
   - "worksheets, changing formatting"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -71,5 +68,3 @@ ms.workload:
  [How to: Programmatically apply styles to ranges in workbooks](../vsto/how-to-programmatically-apply-styles-to-ranges-in-workbooks.md)   
  [How to: Programmatically copy data and formatting across worksheets](../vsto/how-to-programmatically-copy-data-and-formatting-across-worksheets.md)   
  [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)  
-  
-  

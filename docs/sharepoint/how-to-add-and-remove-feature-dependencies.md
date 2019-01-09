@@ -1,16 +1,11 @@
 ---
 title: "How to: Add and Remove Feature Dependencies | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "MICROSOFT.VISUALSTUDIO.SHAREPOINT.DESIGNERS.CUSTOMDEPENDENCYWINDOW"
   - "VS.SHAREPOINTTOOLS.RAD.FEATUREDESIGNERDEPENDENCY"
 dev_langs: 
-  - "VB"
-  - "CSharp"
   - "VB"
   - "CSharp"
 helpviewer_keywords: 
@@ -67,4 +62,3 @@ ms.workload:
  [Create SharePoint features](../sharepoint/creating-sharepoint-features.md)   
  [How to: Customize a SharePoint feature](../sharepoint/how-to-customize-a-sharepoint-feature.md)   
  [How to: Add and remove items to SharePoint features](../sharepoint/how-to-add-and-remove-items-to-sharepoint-features.md)  
-  

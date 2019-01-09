@@ -18,6 +18,6 @@ The ID of the name of the heap object. Used in [PROFILER_HEAP_OBJECT Structure](
   
 ## Syntax  
   
-```  
+```cpp
 typedef UINT PROFILER_HEAP_OBJECT_NAME_ID;  
 ```

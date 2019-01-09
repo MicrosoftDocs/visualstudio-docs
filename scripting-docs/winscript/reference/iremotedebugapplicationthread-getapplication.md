@@ -24,7 +24,7 @@ Returns the application object associated with this thread.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetApplication(  
    IRemoteDebugApplication**  pprda  
 );  

@@ -2,7 +2,6 @@
 title: "Attach the profiler to a .NET Framework stand-alone app and collect app statistics"
 ms.custom: "seodec18"
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: b62fcbc1-791f-474e-890a-a6c332e0c9ea
 author: "mikejo5000"

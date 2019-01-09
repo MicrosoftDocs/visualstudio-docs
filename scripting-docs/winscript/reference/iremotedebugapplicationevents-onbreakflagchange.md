@@ -24,7 +24,7 @@ Handles an event when the break flags change.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT OnBreakFlagChange(  
    APPBREAKFLAGS                   abf,  
    IRemoteDebugApplicationThread*  prdatSteppingThread  

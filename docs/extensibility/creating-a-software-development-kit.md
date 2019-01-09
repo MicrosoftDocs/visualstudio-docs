@@ -1,9 +1,6 @@
 ---
 title: "Creating a Software Development Kit | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 ms.assetid: 8496afb4-1573-4585-ac67-c3d58b568a12
 author: "gregvanl"

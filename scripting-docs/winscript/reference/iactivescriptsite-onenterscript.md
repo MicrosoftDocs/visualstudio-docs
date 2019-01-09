@@ -24,7 +24,7 @@ Informs the host that the scripting engine has begun executing the script code.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT OnEnterScript(void);  
 ```  
   

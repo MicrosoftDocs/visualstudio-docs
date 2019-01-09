@@ -2,7 +2,6 @@
 title: "Attach the profiler to an ASP.NET we app to collect app statistics"
 ms.custom: "seodec18"
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: 3725ddbe-ce91-4469-991e-8c5ed048c618
 author: "mikejo5000"

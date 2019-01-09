@@ -1,8 +1,6 @@
 ---
 title: "Overview (Debug Interface Access SDK) | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"

@@ -2,7 +2,6 @@
 title: "View memory for variables in the debugger | Microsoft Docs"
 ms.custom: "H1Hack27Feb2017"
 ms.date: "10/04/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.memory"

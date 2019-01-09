@@ -1,8 +1,6 @@
 ---
 title: "Sys (VSPerfCmd) | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: 294a6f9e-b49f-4c83-b322-5ac5411b66fb
 author: "mikejo5000"

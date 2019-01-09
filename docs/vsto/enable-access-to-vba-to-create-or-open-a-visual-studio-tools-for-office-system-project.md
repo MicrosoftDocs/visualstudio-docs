@@ -4,7 +4,6 @@ decsprition: "You must explicitly enable access to the Office VBA project system
 titleSuffix: ""
 ms.custom: "seodec18"
 ms.date: "02/02/2017"
-ms.technology: office-development
 ms.prod: visual-studio-dev15
 ms.topic: "conceptual"
 f1_keywords: 

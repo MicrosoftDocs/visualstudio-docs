@@ -24,7 +24,7 @@ Disconnects the current debugger from the application.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT DisconnectDebugger();  
 ```  
   

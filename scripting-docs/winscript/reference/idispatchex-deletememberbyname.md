@@ -24,7 +24,7 @@ Deletes a member by name.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT DeleteMemberByName(  
    BSTR bstrName,  
    DWORD grfdex  
@@ -58,7 +58,7 @@ HRESULT DeleteMemberByName(
   
 ## Example  
   
-```  
+```cpp
 BSTR bstrName;  
 IDispatchEx *pdex;  
   

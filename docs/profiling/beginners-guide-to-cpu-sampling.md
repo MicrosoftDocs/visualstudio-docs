@@ -2,7 +2,6 @@
 title: "Beginners guide to CPU sampling"
 ms.custom: "seodec18"
 ms.date: "02/27/2017"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.performance.wizard.intropage"

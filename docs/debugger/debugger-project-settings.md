@@ -1,8 +1,6 @@
 ---
 title: "Debugger Project Settings | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "reference"
 dev_langs: 
   - "CSharp"
@@ -47,7 +45,7 @@ Certain project settings also affect debugging. These settings determine such th
  [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)  
  Describes how the debugger uses symbol files and source files to display information for debugging.  
   
- [Debug apps in Visual Studio](../debugger/debug-store-apps-in-visual-studio.md)  
+ [Debug apps in Visual Studio](/visualstudio/debugger/debugging-windows-store-and-windows-universal-apps)  
  Describes how to debug UWP apps. (Windows Dev Center)  
   
  [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)  
