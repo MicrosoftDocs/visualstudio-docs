@@ -52,10 +52,10 @@ Summary information for builds, including errors, can be displayed in the **Comm
 
 ## Example
 
-This example deploys the project `CSharpConsoleApp`, using the `Release` project build configuration within the `Release` solution configuration of `MySolution`.
+This example deploys the project `CSharpWinApp`, using the `Release` project build configuration within `MySolution`.
 
 ```shell
-devenv "C:\Documents and Settings\someuser\My Documents\Visual Studio\Projects\MySolution\MySolution.sln" /deploy Release /project "CSharpWinApp\CSharpWinApp.csproj" /projectconfig Release
+devenv "%USERPROFILE%\source\repos\MySolution\MySolution.sln" /deploy Release /project "CSharpWinApp\CSharpWinApp.csproj" /projectconfig Release
 ```
 
 ## See also

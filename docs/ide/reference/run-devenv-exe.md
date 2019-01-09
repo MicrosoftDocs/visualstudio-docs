@@ -51,7 +51,7 @@ Compiles and runs the specified project or solution according to the settings sp
 This example runs the solution `MySolution` using the active deployment configuration.
 
 ```shell
-devenv /run "C:\Documents and Settings\someuser\My Documents\Visual Studio\Projects\MySolution\MySolution.sln"
+devenv /run "%USERPROFILE%\source\repos\MySolution\MySolution.sln"
 ```
 
 ## See Also

@@ -27,13 +27,26 @@ The default settings come from the profile that was selected when Visual Studio 
 ## Syntax
 
 ```shell
-devenv /ResetSettings [SettingsFile|General]
+devenv /ResetSettings [SettingsFile|DefaultCollectionSpecifier]
 ```
 
 ## Arguments
 
 *SettingsFile*<br/>
-Optional. The full path and name of the settings file to apply to Visual Studio. To restore the General Development Settings profile, type `General` instead.
+Optional. The full path and name of the settings file to apply to Visual Studio.
+
+*DefaultCollectionSpecifier*<br/>
+Optional. A specifier representing a default collection of settings to restore. Choose one of the default collection specifiers listed in the table.
+
+| Default collection name | Collection specifier |
+| --- | --- |
+| **General** | `General` |
+| **JavaScript** | `JavaScript` |
+| **Visual Basic** | `VB` |
+| **Visual C#** | `CSharp` |
+| **Visual C++** | `VC` |
+| **Web Development** | `Web` |
+| **Web Development (Code Only)** | `WebCode` |
 
 ## Remarks
 
@@ -46,7 +59,7 @@ The first example applies the settings stored in the file `MySettings.vssettings
 The second example restores the General Development Settings profile.
 
 ```shell
-devenv /resetsettings "C:\My Files\MySettings.vssettings"
+devenv /resetsettings "%USERPROFILE%\MySettings.vssettings"
 
 devenv /resetsettings General
 ```

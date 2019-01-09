@@ -56,12 +56,12 @@ If the `/Project` switch isn't specified, the cleaning action is done on all pro
 
 The first example cleans the `MySolution` solution, using the default configuration specified in the solution file.
 
-The second example cleans the project `CSharpConsoleApp`, using the `Debug` project build configuration within the `Debug` solution configuration of `MySolution`.
+The second example cleans the project `CSharpWinApp`, using the `Debug` project build configuration within `MySolution`.
 
 ```shell
-devenv "C:\Documents and Settings\someuser\My Documents\Visual Studio\Projects\MySolution\MySolution.sln" /Clean
+devenv "%USERPROFILE%\source\repos\MySolution\MySolution.sln" /Clean
 
-devenv "C:\Documents and Settings\someuser\My Documents\Visual Studio\Projects\MySolution\MySolution.sln" /Clean "Release" /project "CSharpWinApp\CSharpWinApp.csproj" /projectconfig "Debug"
+devenv "%USERPROFILE%\source\repos\MySolution\MySolution.sln" /Clean "Debug" /project "CSharpWinApp\CSharpWinApp.csproj" /projectconfig "Debug"
 ```
 
 ## See also

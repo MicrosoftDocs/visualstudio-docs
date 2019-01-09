@@ -37,7 +37,7 @@ Required. The path and name of the file to receive output when you build an exec
 
 ## Remarks
 
-If a nonexistent file name is specified, the file is created automatically. Otherwise, the file already exists, the results are appended to the existing contents of the file.
+If a nonexistent file name is specified, the file is created automatically. Otherwise, the file already exists, and the results are appended to the existing contents of the file.
 
 Command-line build errors are displayed in the **Command** window and the Solution Builder view of the **Output** window. This switch is useful for viewing results of unattended builds.
 
@@ -46,7 +46,7 @@ Command-line build errors are displayed in the **Command** window and the Soluti
 This example runs `MySolution` and writes errors to the file `MyErrorLog.txt`.
 
 ```shell
-devenv /run "C:\Documents and Settings\someuser\My Documents\Visual Studio\Projects\MySolution\MySolution.sln" /out "C:\MyErrorLog.txt"
+devenv /run "%USERPROFILE%\source\repos\MySolution\MySolution.sln" /out "C:\MyErrorLog.txt"
 ```
 
 ## See also

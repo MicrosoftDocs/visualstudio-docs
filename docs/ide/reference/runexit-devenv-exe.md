@@ -48,7 +48,7 @@ Compiles and runs the specified project or solution according to the settings sp
 This example runs the solution `MySolution` in a minimized IDE using the active deployment configuration, and then closes the IDE.
 
 ```
-devenv /runexit "C:\Documents and Settings\someuser\My Documents\Visual Studio\Projects\MySolution\MySolution.sln"
+devenv /runexit "%USERPROFILE%\source\repos\MySolution\MySolution.sln"
 ```
 
 ## See also

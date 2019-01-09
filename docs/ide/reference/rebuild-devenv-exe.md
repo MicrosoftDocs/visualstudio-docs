@@ -53,10 +53,10 @@ Optional. The name of a file that you want to send the tool's output to. If the 
 
 ## Example
 
-This example cleans and rebuilds the project `CSharpWinApp`, using the `Debug` project build configuration within the `Debug` solution configuration of `MySolution`.
+This example cleans and rebuilds the project `CSharpWinApp`, using the `Debug` project build configuration within `MySolution`.
 
 ```shell
-devenv "C:\Documents and Settings\someuser\My Documents\Visual Studio\Projects\MySolution\MySolution.sln" /rebuild Debug /project "CSharpWinApp\CSharpWinApp.csproj" /projectconfig Debug
+devenv "%USERPROFILE%\source\repos\MySolution\MySolution.sln" /rebuild Debug /project "CSharpWinApp\CSharpWinApp.csproj" /projectconfig Debug
 ```
 
 ## See also

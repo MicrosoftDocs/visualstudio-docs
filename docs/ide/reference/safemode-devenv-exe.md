@@ -16,25 +16,23 @@ ms.workload:
 ---
 # /SafeMode (devenv.exe)
 
-Starts [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] in safe mode, loading only the default environment and services.
+Starts Visual Studio in safe mode, loading only the default environment and services.
 
 ## Syntax
 
-```cmd
+```shell
 devenv /SafeMode
 ```
 
 ## Remarks
 
-This switch prevents all third-party VSPackages from loading when [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] starts, allowing stable execution.
+This switch prevents all third-party VSPackages from loading when Visual Studio starts, allowing stable execution.
 
-## Description
+## Example
 
-The following example starts [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] in safe mode.
+The following example starts Visual Studio in safe mode.
 
-## Code
-
-```cmd
+```shell
 devenv /safemode
 ```
 

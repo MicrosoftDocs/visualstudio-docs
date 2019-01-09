@@ -16,7 +16,7 @@ ms.workload:
 ---
 # /Command (devenv.exe)
 
-Executes the specified command after launching the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE).
+Executes the specified command after launching the Visual Studio IDE.
 
 ## Syntax
 
@@ -27,17 +27,17 @@ devenv /Command CommandName
 ## Arguments
 
 *CommandName*<br/>
-Required. The complete name of a [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] command or its alias, enclosed in double quotation marks. For more information about command and alias syntax, see [Visual Studio Commands](../../ide/reference/visual-studio-commands.md).
+Required. The complete name of a Visual Studio command or its alias, enclosed in double quotation marks. For more information about command and alias syntax, see [Visual Studio Commands](../../ide/reference/visual-studio-commands.md).
 
 ## Remarks
 
-After startup is complete, the IDE executes the named command. If you use this switch, the IDE doesn't display the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] Start Page on startup.
+After startup is complete, the IDE executes the named command. If you use this switch, the IDE doesn't display the Visual Studio Start Page on startup.
 
 If an add-in exposes a command, you can use this switch to launch the add-in from the command line. For more information, see [How to: Control add-ins by using the add-in manager](/previous-versions/xwdatdwh(v=vs.140)).
 
 ## Example
 
-The first example launches [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] and automatically runs the macro Open Favorite Files.
+The first example launches Visual Studio and automatically runs the macro Open Favorite Files.
 
 The second example opens a web browsing tab within the IDE and navigates to the Microsoft Docs site.
 

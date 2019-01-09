@@ -39,6 +39,14 @@ This switch must appear at the end of the command line, after all other switches
 
 The log is written only for all instances of Visual Studio that you've opened with the `/Log` switch.
 
+## Example
+
+This example directs logging to the `MyVSLog.xml` file in the user's home directory.
+
+```shell
+devenv /log "%USERPROFILE%\MyVSLog.xml"
+```
+
 ## See also
 
 - [Devenv command-line switches](../../ide/reference/devenv-command-line-switches.md)

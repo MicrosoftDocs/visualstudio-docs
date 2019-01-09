@@ -50,7 +50,7 @@ Optional. The name of a file that you want to send the tool's output to. If the 
 
 ## Remarks
 
-- Must be used part of a `devenv /Build`, `/Clean`, `/Rebuild`, or `/Deploy` command.
+- Must be used part of a `devenv` `/Build`, `/Clean`, `/Rebuild`, or `/Deploy` command.
 
 - Enclose strings that include spaces in double quotation marks.
 
@@ -58,10 +58,10 @@ Optional. The name of a file that you want to send the tool's output to. If the 
 
 ## Example
 
-This example builds the project `CSharpConsoleApp`, using the `Debug` project build configuration within the `Debug` solution configuration of `MySolution`.
+This example builds the project `CSharpWinApp`, using the `Debug` project build configuration within `MySolution`.
 
 ```shell
-devenv "C:\Documents and Settings\someuser\My Documents\Visual Studio\Projects\MySolution\MySolution.sln" /build Debug /project "CSharpWinApp\CSharpWinApp.csproj" /projectconfig Debug
+devenv "%USERPROFILE%\source\repos\MySolution\MySolution.sln" /build Debug /project "CSharpWinApp\CSharpWinApp.csproj" /projectconfig Debug
 ```
 
 ## See also

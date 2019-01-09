@@ -41,7 +41,7 @@ Loads the IDE and sets the default natural language for the environment. This ch
 
 If the specified language isn't available on your system, the `/LCID` switch is ignored.
 
-The following table lists the LCIDs of the languages supported by [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].
+The following table lists the LCIDs of the languages supported by Visual Studio.
 
 |Language|LCID|
 |--------------|----------|

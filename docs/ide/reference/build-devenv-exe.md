@@ -57,10 +57,10 @@ Optional. The name of a file that you want to send the tool's output to. If the 
 
 ## Example
 
-The following command builds the project "CSharpConsoleApp", using the "Debug" project build configuration within the "Debug" solution configuration of "MySolution".
+The following command builds the project `CSharpWinApp`, using the `Debug` project build configuration within `MySolution`.
 
 ```shell
-devenv "C:\Visual Studio Projects\MySolution\MySolution.sln" /build Debug /project "CSharpWinApp\CSharpWinApp.csproj" /projectconfig Debug
+devenv "%USERPROFILE%\source\repos\MySolution.sln" /build Debug /project "CSharpWinApp\CSharpWinApp.csproj" /projectconfig Debug
 ```
 
 ## See also
