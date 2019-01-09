@@ -37,7 +37,7 @@ Optional. The configuration to clean the intermediary files for (such as `Debug`
 Optional. The path and name of a project file within the solution. You can enter the project's display name or a relative path from the *SolutionName* folder to the project file. You can also enter the full path and name of the project file.
 
 `/ProjectConfig` *ProjConfigName*<br/>
-Optional. The name of a project build configuration to be used when cleaning the `/Project` named. If this switch is specified, it overrides the *Config* argument.
+Optional. The project's build configuration name to be used when cleaning the `/Project` named. If this switch is specified, it overrides the *Config* argument.
 
 `/Out` *OutputFilename*<br/>
 Optional. The name of a file that you want to send the tool's output to. If the file already exists, the tool appends the output to the end of the file.

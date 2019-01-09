@@ -37,7 +37,7 @@ Required. The path and name of the file to receive output when you build an exec
 
 ## Remarks
 
-If a file name that doesn't exist is specified, the file is created automatically. Otherwise, the file already exists, the results are appended to the existing contents of the file.
+If a nonexistent file name is specified, the file is created automatically. Otherwise, the file already exists, the results are appended to the existing contents of the file.
 
 Command-line build errors are displayed in the **Command** window and the Solution Builder view of the **Output** window. This switch is useful for viewing results of unattended builds.
 
