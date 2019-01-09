@@ -1,9 +1,6 @@
 ---
 title: "IWefDebuggingSupport interface"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -40,5 +37,3 @@ interface IWefDebuggingSupport : IUnknown
 |----------|-----------------|  
 |[GetAutoInsertExtensions method](../vsto/getautoinsertextensions-method.md)|Gets information about the apps for Office that are to be automatically inserted during debugging.|  
 |[SetWefProcessId method](../vsto/setwefprocessid-method.md)|Provides the process identifier that will run Web Extensions Framework (WEF) content.|  
-  
-  

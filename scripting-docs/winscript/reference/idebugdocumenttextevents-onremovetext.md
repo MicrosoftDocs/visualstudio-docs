@@ -24,7 +24,7 @@ Indicates that text has been removed from the document.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT onRemoveText(  
    ULONG  cCharacterPosition,  
    ULONG  cNumToRemove  

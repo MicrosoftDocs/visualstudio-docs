@@ -1,9 +1,9 @@
 ---
 title: Enable access to VBA to create or open a Visual Studio Tools for the Microsoft Office system project
 decsprition: "You must explicitly enable access to the Office VBA project system before you can create or open a Visual Studio Tools for Office system project"
-ms.custom: ""
+titleSuffix: ""
+ms.custom: "seodec18"
 ms.date: "02/02/2017"
-ms.technology: office-development
 ms.prod: visual-studio-dev15
 ms.topic: "conceptual"
 f1_keywords: 
@@ -15,8 +15,8 @@ f1_keywords:
 dev_langs: 
   - "VB"
   - "CSharp"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

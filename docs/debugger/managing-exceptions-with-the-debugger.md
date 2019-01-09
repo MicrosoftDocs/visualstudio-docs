@@ -2,7 +2,6 @@
 title: "Manage exceptions with the debugger | Microsoft Docs"
 ms.custom: "seodec18"
 ms.date: "10/09/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.debug.exceptions"
@@ -211,7 +210,7 @@ To add conditional exceptions:
 
    ![Extra conditions for an exception](../debugger/media/extraconditionsforanexception.png "ExtraConditionsForAnException")
 
-3. For each condition line, type the name of the module, and change the comparison operator list to **Equals** or **Not Equals**. You may specify wildcards (**\\***) in the name to specify more than one module.
+3. For each condition line, type the name of the module, and change the comparison operator list to **Equals** or **Not Equals**. You may specify wildcards (**\\\***) in the name to specify more than one module.
 
 4. If you need to delete a condition, choose the **X** at the end of the condition line.
 
@@ -221,4 +220,4 @@ To add conditional exceptions:
 [How to: Examine system code after an exception](../debugger/how-to-examine-system-code-after-an-exception.md)<br/>
 [How to: Use native run-time checks](../debugger/how-to-use-native-run-time-checks.md)<br/>
 [Use run-time checks without the C run-time library](../debugger/using-run-time-checks-without-the-c-run-time-library.md)<br/>
-[Tutorial: Learn to debug using Visual Studio](../debugger/getting-started-with-the-debugger.md)
+[First look at the debugger](../debugger/debugger-feature-tour.md)

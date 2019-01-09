@@ -1,9 +1,6 @@
 ---
 title: "Visual Studio Tools for Office runtime overview"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -120,5 +117,3 @@ ms.workload:
  [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md)   
  [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md)   
  [Upgrade and migrate Office solutions](../vsto/upgrading-and-migrating-office-solutions.md)  
-  
-  

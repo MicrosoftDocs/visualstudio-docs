@@ -1,9 +1,6 @@
 ---
 title: "Programmatic limitations of host items and host controls"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -91,5 +88,3 @@ ms.workload:
  [Worksheet host item](../vsto/worksheet-host-item.md)   
  [Workbook host item](../vsto/workbook-host-item.md)   
  [Document host item](../vsto/document-host-item.md)  
-  
-  

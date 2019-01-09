@@ -24,7 +24,7 @@ Indicates that the text attributes associated with the underlying character posi
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT onUpdateTextAttributes(  
    ULONG  cCharacterPosition,  
    ULONG  cNumToUpdate  

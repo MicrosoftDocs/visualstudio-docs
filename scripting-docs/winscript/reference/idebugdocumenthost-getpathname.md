@@ -24,7 +24,7 @@ Returns the full path and file name of the document's source file.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetPathName(  
    BSTR*  pbstrLongName,  
    BOOL*  pfIsOriginalFile  

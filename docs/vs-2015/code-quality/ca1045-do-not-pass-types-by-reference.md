@@ -5,8 +5,7 @@ ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
+ms.technology: "vs-devops-test"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords:
@@ -86,6 +85,3 @@ manager: "wpickett"
 **12345 ABCDE**
 ## Related Rules
  [CA1021: Avoid out parameters](../code-quality/ca1021-avoid-out-parameters.md)
-
-
-

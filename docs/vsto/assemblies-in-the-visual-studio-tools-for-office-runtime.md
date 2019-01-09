@@ -1,9 +1,7 @@
 ---
 title: "Assemblies in the Visual Studio Tools for Office runtime"
 titleSuffix: ""
-ms.custom: ""
 ms.date: 02/02/2017
-ms.technology: office-development
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
 dev_langs: 
@@ -61,5 +59,3 @@ ms.workload:
 ## See also  
  [Visual Studio Tools for Office runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md)   
  [Visual Studio Tools for Office runtime installation scenarios](../vsto/visual-studio-tools-for-office-runtime-installation-scenarios.md)  
-  
-  

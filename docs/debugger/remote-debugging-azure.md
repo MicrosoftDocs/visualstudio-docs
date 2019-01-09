@@ -2,7 +2,6 @@
 title: "Remote Debug ASP.NET Core on IIS and Azure | Microsoft Docs"
 ms.custom: "remotedebugging"
 ms.date: "05/21/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: a6c04b53-d1b9-4552-a8fd-3ed6f4902ce6
 author: "mikejo5000"
@@ -235,4 +234,3 @@ Required ports:
 
 In addition, these ports should already be opened by the ASP.NET installation:
 - 8172 - (Optional) Required for Web Deploy to deploy the app from Visual Studio
-

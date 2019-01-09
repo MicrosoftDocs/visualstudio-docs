@@ -1,9 +1,6 @@
 ---
 title: "How to: Programmatically update bookmark text"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -80,5 +77,3 @@ ms.workload:
  [How to: Programmatically insert text into Word documents](../vsto/how-to-programmatically-insert-text-into-word-documents.md)   
  [Word object model overview](../vsto/word-object-model-overview.md)   
  [Bookmark control](../vsto/bookmark-control.md)  
-  
-  

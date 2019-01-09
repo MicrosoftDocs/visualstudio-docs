@@ -1,9 +1,7 @@
 ---
 title: "Unit testing in Node.js"
 description: Visual Studio provides support unit testing JavaScript code using the Node.js Tools for Visual Studio
-ms.custom: ""
 ms.date: "06/06/2018"
-ms.technology: vs-nodejs
 ms.topic: "conceptual"
 ms.devlang: javascript
 author: "mikejo5000"

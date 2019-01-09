@@ -10,7 +10,6 @@ ms.workload: azure-vs
 ms.date: 03/21/2017
 ms.author: mikejo
 ms.prod: visual-studio-dev15
-ms.technology: vs-azure
 ms.custom: seodec18
 ---
 # Debugging a published Azure cloud service with Visual Studio and IntelliTrace

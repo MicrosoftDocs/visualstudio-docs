@@ -24,7 +24,7 @@ Allows the creation of objects in the application process by code that is out-of
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT CreateInstanceAtApplication(  
    REFCLSID    rclsid,  
    IUnknown*   pUnkOuter,  

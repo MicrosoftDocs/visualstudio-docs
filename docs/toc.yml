@@ -1,5 +1,5 @@
 - name: Visual Studio documentation
-  href: ide/index.md
+  href: ide/index.yml
 - name: Overview
   expanded: true
   items:
@@ -37,7 +37,7 @@
   - name: Modify Visual Studio
     href: install/modify-visual-studio.md
   - name: Install Help Viewer
-    href: ide/microsoft-help-viewer-installation.md
+    href: help-viewer/installation.md
   - name: Repair Visual Studio
     href: install/repair-visual-studio.md
   - name: Uninstall Visual Studio
@@ -83,12 +83,12 @@
       - name: "Visual Studio subscriptions: Administrator overview"
         href: /visualstudio/subscriptions/admin-responsibilities
     - name: Help Viewer Administrator Guide
-      href: ide/help-viewer-administrator-guide.md
+      href: help-viewer/administrator-guide.md
       items:
       - name: Command-Line Arguments for the Help Content Manager
-        href: ide/command-line-arguments-for-the-help-content-manager.md
+        href: help-viewer/command-line-arguments.md
       - name: Help Content Manager Overrides
-        href: ide/help-content-manager-overrides.md
+        href: help-viewer/behavior-overrides.md
     - name: Reference
       items:
       - name: Visual Studio workload and component IDs
@@ -139,32 +139,24 @@
     href: ide/quickstart-fsharp.md
   - name: "C#: Create a web app"
     href: ide/quickstart-aspnet-core.md
-  - name: "C#: Create a UWP app"
-    href: ide/quickstart-uwp-csharp.md
   - name: "C#: Create a console app"
     href: ide/quickstart-csharp-console.md
   - name: "Visual Basic: Create a console app"
     href: ide/quickstart-visual-basic-console.md
 - name: Tutorials
   items:
-  - name: C++ in Visual Studio...
-    href: /cpp/build/vscpp-step-0-installation
-  - name: Python in Visual Studio...
-    href: python/tutorial-working-with-python-in-visual-studio-step-01-create-project.md
-  - name: R in Visual Studio...
-    href: rtvs/getting-started-with-r.md
-  - name: Node.js in Visual Studio
-    href: javascript/tutorial-nodejs.md
-  - name: C# in Visual Studio
-    items:
-    - name: "C#: Create a web app"
-      href: ide/tutorial-csharp-aspnet-core.md
-    - name: "C#: Create a console app"
-      href: ide/tutorial-csharp-console.md
-  - name: Visual Basic in Visual Studio
-    href: ide/tutorial-visual-basic-console.md
-  - name: Debug in Visual Studio
-    href: debugger/getting-started-with-the-debugger.md?context=visualstudio/default&contextView=vs-2017
+  - name: C#
+    href: get-started/csharp/
+  - name: F#
+    href: /dotnet/fsharp/
+  - name: Visual Basic
+    href: get-started/visual-basic/
+  - name: C++
+    href: /cpp/get-started/tutorials/
+  - name: Python
+    href: python/
+  - name: Node.js
+    href: javascript/
 - name: How-to guides
   items:
   - name: Develop
@@ -516,7 +508,7 @@
     - name: Additional tutorials
       items:
       - name: Create a WPF app with C# or Visual Basic
-        href: ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md
+        href: /visualstudio/get-started/csharp/tutorial-wpf
       - name: Windows Forms app tutorials
         items:
         - name: "Tutorial 1: Create a picture viewer (C#)"
@@ -784,8 +776,8 @@
           href: ide/reference/quick-launch-environment-options-dialog-box.md
         - name: Environment - Startup
           href: ide/reference/startup-environment-options-dialog-box.md
-        - name: Environment - Synchronized Settings
-          href: ide/reference/synchronized-settings-environment-options-dialog-box.md
+        - name: Environment - Accounts
+          href: ide/reference/accounts-environment-options-dialog-box.md
         - name: Environment - Tabs and Windows
           href: ide/reference/tabs-and-windows-environment-options-dialog-box.md
         - name: Environment - Task List
@@ -1056,28 +1048,28 @@
     - name: Windows Information Protection (WIP)
       href: ide/exempt-visual-studio-from-wip.md
   - name: Microsoft Help Viewer
-    href: ide/microsoft-help-viewer.md
+    href: help-viewer/overview.md
     items:
     - name: Install and Manage Local Content
-      href: ide/install-and-manage-local-content.md
+      href: help-viewer/install-manage-local-content.md
     - name: Find topics in Help Viewer
       items:
       - name: Find Topics in the Index
-        href: ide/how-to-find-topics-in-the-index.md
+        href: help-viewer/find-topics-index.md
       - name: Find Topics in the Table of Contents
-        href: ide/how-to-find-topics-in-the-table-of-contents.md
+        href: help-viewer/find-topics-toc.md
       - name: Search for Topics
-        href: ide/how-to-search-for-topics.md
+        href: help-viewer/find-topics.md
         items:
         - name: Logical and Advanced Operators in Search Expressions
-          href: ide/logical-operators-in-search-expressions.md
+          href: help-viewer/logical-operators-search-expressions.md
     - name: Customize Help Viewer
-      href: ide/customize-the-help-viewer.md
-    - name: Accessibility Features of the Help Viewer
-      href: ide/accessibility-features-of-the-help-viewer.md
+      href: help-viewer/customize.md
+    - name: Accessibility Features
+      href: help-viewer/accessibility-features.md
       items:
-      - name: Shortcut Keys (Help Viewer)
-        href: ide/shortcut-keys-help-viewer.md
+      - name: Shortcut Keys
+        href: help-viewer/shortcut-keys.md
   - name: Dotfuscator Community Edition (CE)
     href: ide/dotfuscator/index.md
     items:
@@ -1117,9 +1109,10 @@
       href: ide/developer-community-privacy.md
   - name: How to report a problem in Visual Studio
     href: ide/how-to-report-a-problem-with-visual-studio-2017.md
-  - name: "Overview: Report a problem"
-    href: ide/report-a-problem.md
-  - name: "Overview: Suggest a feature"
+    items:
+    - name: Report a problem states and FAQ
+      href: ide/report-a-problem.md
+  - name: Suggest a feature for Visual Studio
     href: ide/suggest-a-feature.md
   - name: Customer Experience Improvement Program
     href: ide/visual-studio-experience-improvement-program.md

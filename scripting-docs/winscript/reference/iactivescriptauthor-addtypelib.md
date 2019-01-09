@@ -24,7 +24,7 @@ Adds a type library to the namespace for the script.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT AddTypeLib(  
    REFGUID   rguidTypeLib,  
    DWORD     dwMajor,  

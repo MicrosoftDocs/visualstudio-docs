@@ -1,8 +1,6 @@
 ---
 title: "Concurrency Visualizer | Microsoft Docs"
-ms.custom: ""
 ms.date: "07/11/2017"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.cv.performance.viewnavigation"

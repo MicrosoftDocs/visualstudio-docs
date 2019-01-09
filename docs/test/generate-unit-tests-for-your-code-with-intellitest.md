@@ -2,7 +2,6 @@
 title: "Generate unit tests for your code with IntelliTest"
 ms.date: 10/05/2015
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 f1_keywords:
   - "vs.UnitTest.CreateIntelliTest"

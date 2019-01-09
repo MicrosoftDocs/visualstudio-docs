@@ -1,8 +1,6 @@
 ---
 title: "How to: Set Performance Data File Name Options | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: d7a8d6b9-ab23-46fb-98ed-774781157860
 author: "mikejo5000"

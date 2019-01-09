@@ -24,7 +24,7 @@ Returns the simple event name that is associated with a scriptlet. This is a sin
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetSimpleEventName(  
    BSTR               *pbstr  
 );  

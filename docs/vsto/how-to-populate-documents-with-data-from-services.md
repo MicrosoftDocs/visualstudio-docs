@@ -1,9 +1,6 @@
 ---
 title: "How to: Populate documents with data from services"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology:
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs:
   - "VB"
@@ -12,8 +9,8 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], populating with data"
   - "Web services [Office development in Visual Studio], populating documents"
   - "data [Office development in Visual Studio], adding to documents"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload:
   - "office"

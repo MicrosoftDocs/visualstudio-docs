@@ -24,7 +24,7 @@ Handles the event when an application is removed from the running application li
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT onRemoveApplication(  
    IRemoteDebugApplication*  pda,  
    DWORD                     dwAppCookie  

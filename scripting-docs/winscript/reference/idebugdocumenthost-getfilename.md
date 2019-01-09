@@ -24,7 +24,7 @@ Returns the name of the document without path information.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetFileName(  
    BSTR*  pbstrShortName  
 );  

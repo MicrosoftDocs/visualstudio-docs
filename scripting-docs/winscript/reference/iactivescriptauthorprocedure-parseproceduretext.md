@@ -24,7 +24,7 @@ Parses a code procedure, adds the code procedure's text to the script authoring 
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT ParseProcedureText(  
    LPCOLESTR   pszCode,  
    LPCOLESTR   pszFormalParams,  

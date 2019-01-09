@@ -1,8 +1,6 @@
 ---
 title: "ClickOnce Deployment Manifest | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: vs-ide-deployment
 ms.topic: "reference"
 dev_langs: 
   - "VB"

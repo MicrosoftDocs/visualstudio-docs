@@ -2,7 +2,6 @@
 title: Image Library
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-designers
 ms.topic: sample
 helpviewer_keywords:
   - "animation [Visual Studio]"

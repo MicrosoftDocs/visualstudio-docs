@@ -1,9 +1,6 @@
 ---
 title: "Walkthrough: Complex data binding in a document-level project"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -224,5 +221,3 @@ ms.workload:
  [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)   
  [Data in Office solutions](../vsto/data-in-office-solutions.md)   
  [Walkthrough: Simple data binding in a document-level project](../vsto/walkthrough-simple-data-binding-in-a-document-level-project.md)  
-  
-  

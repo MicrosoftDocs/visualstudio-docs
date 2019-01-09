@@ -1,9 +1,6 @@
 ---
 title: "SharePoint Project and Project Item Templates | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/22/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VS.SharePointTools.SPE.FirstWizardPage"
@@ -13,8 +10,6 @@ f1_keywords:
   - "VS.SharePointTools.SPE.ContentType"
   - "SPE.Wizard"
 dev_langs: 
-  - "VB"
-  - "CSharp"
   - "VB"
   - "CSharp"
 helpviewer_keywords: 
@@ -142,5 +137,3 @@ ms.workload:
 ## See also
  [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)   
  [SharePoint Products and Technologies](http://go.microsoft.com/fwlink/?LinkId=178818)  
-  
-  

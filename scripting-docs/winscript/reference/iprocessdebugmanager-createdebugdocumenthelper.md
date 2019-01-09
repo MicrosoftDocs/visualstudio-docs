@@ -24,7 +24,7 @@ Creates a new debug document helper for this application.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT CreateDebugDocumentHelper(  
    IUnknown*               punkOuter,  
    IDebugDocumentHelper**  pddh  

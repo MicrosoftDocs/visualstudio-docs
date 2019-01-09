@@ -2,7 +2,6 @@
 title: "Remote Debug ASP.NET Core on a Remote IIS Computer | Microsoft Docs"
 ms.custom: "remotedebugging"
 ms.date: "05/21/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: 573a3fc5-6901-41f1-bc87-557aa45d8858
 author: "mikejo5000"

@@ -3,7 +3,6 @@ title: "Get started debugging in VS 2017"
 description: "Get started debugging applications using the Visual Studio debugger"
 ms.custom: "mvc"
 ms.date: "06/15/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "quickstart"
 helpviewer_keywords:
   - "debugger"
@@ -209,7 +208,7 @@ For more information, see the [Inspect previous app states using IntelliTrace](.
 
 ## Next steps
 
-In this tutorial, you've had a quick look at many debugger features. You may want a more in-depth look at these features using a sample application
+In this tutorial, you've had a quick look at many debugger features. You may want a more in-depth look at one of these features, such as breakpoints.
 
 > [!div class="nextstepaction"]
-> [Learn to debug using Visual Studio](../debugger/getting-started-with-the-debugger.md)
+> [Learn to use breakpoints](../debugger/using-breakpoints.md)

@@ -72,7 +72,7 @@ A *dataset* is a set of objects that store data from a database in memory and su
 ## Add a database table or other object to an existing dataset
  This procedure shows how to add a table from the same database that you used to first create the dataset.
 
-1.  Click the dataset node in **Solution Explorer** to bring the dataset designer into focus.
+1.  Click the dataset node in **Solution Explorer** to bring the DataSet Designer into focus.
 
 2.  Click the **Data Sources** tab in the left margin of Visual Studio, or enter `Data Sources` in **QuickLaunch**.
 

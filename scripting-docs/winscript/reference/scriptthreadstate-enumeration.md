@@ -24,7 +24,7 @@ Specifies the state of a thread in a scripting engine. This enumeration is used 
   
 ## Syntax  
   
-```  
+```cpp
 typedef enum tagSCRIPTTHREADSTATE {  
     SCRIPTTHREADSTATE_NOTINSCRIPT  = 0,  
     SCRIPTTHREADSTATE_RUNNING      = 1  

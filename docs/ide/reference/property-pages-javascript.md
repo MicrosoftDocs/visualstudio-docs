@@ -2,7 +2,6 @@
 title: Property Pages, JavaScript
 ms.date: 06/21/2017
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "javascript.project.property.debugging.debuggertype"
@@ -67,7 +66,7 @@ The following pages and options appear in the **Property Pages**.
 
  Specifies the default host for the debugger.
 
--   Select **Local Machine** to start the application on the Visual Studio host computer. For more information, see [Running apps on the local machine](../../debugger/run-windows-store-apps-on-the-local-machine.md).
+-   Select **Local Machine** to start the application on the Visual Studio host computer. For more information, see [Running apps on the local machine](../../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md).
 
 -   Select **Simulator** to start the application in the Simulator. For more information, see [Running apps in the simulator](../../debugger/run-windows-store-apps-in-the-simulator.md).
 

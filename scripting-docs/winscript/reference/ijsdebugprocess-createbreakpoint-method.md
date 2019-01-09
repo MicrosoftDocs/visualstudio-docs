@@ -22,7 +22,7 @@ Sets the breakpoint at the specified document position.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT CreateBreakPoint(  
    UINT64 documentId,  
    DWORD characterOffset,  

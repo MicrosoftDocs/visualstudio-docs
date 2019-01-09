@@ -22,7 +22,7 @@ Gets the next frame.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetNext(  
    IJsDebugFrame **ppFrame  
 );  

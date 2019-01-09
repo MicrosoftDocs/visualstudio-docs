@@ -2,9 +2,7 @@
 title: "Remove Visual Studio"
 titleSuffix: ""
 description: "Learn how to completely remove Visual Studio from your computer, step-by-step."
-ms.custom: ""
 ms.date: 09/12/2017
-ms.technology: vs-acquisition
 ms.custom: "seodec18"
 ms.prod: visual-studio-dev15
 ms.topic: conceptual

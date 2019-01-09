@@ -24,7 +24,7 @@ Returns the set of completion characters for a requested completion context.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetChars(  
    DWORD            fRequestedList,  
    BSTR             *pbstrChars  

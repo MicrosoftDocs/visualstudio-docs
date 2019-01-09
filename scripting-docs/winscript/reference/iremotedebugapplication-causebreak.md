@@ -24,7 +24,7 @@ Causes the application to break into the debugger at the earliest opportunity.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT CauseBreak();  
 ```  
   

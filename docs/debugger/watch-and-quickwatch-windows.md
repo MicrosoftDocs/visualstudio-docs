@@ -2,7 +2,6 @@
 title: "Set a watch on variables | Microsoft Docs"
 ms.custom: "seodec18"
 ms.date: "10/11/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.debug.watch"

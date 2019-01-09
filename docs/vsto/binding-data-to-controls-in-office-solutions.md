@@ -1,8 +1,6 @@
 ---
 title: "Bind data to controls in Office solutions"
-ms.custom: ""
 ms.date: 02/02/2017
-ms.technology: office-development
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
 dev_langs: 
@@ -105,5 +103,3 @@ ms.workload:
  [Update data by using a TableAdapter](../data-tools/update-data-by-using-a-tableadapter.md)    
  [Cache data](../vsto/caching-data.md)   
  [Data in Office solutions](../vsto/data-in-office-solutions.md)  
-  
-  

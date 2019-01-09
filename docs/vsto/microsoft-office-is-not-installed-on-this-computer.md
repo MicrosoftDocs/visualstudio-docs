@@ -1,9 +1,6 @@
 ---
 title: "Microsoft Office is not installed on this computer"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VST.SelectDocWizard.OfficeNotInstalled"
@@ -26,5 +23,3 @@ ms.workload:
 ## See also  
  [Configure a computer to develop Office solutions](../vsto/configuring-a-computer-to-develop-office-solutions.md)   
  [How to: Configure a computer to develop Office solutions](../vsto/how-to-configure-a-computer-to-develop-office-solutions.md)  
-  
-  

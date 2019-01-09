@@ -24,7 +24,7 @@ Begins the evaluation of the expression.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Start(  
    IDebugExpressionCallBack*  pdecb  
 );  

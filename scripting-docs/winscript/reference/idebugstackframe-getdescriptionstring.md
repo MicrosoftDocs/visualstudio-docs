@@ -24,7 +24,7 @@ Returns a short or long textual description of the stack frame.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetDescriptionString(  
    BOOL   fLong,  
    BSTR*  pbstrDescription  

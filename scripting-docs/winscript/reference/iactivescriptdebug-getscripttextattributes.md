@@ -24,7 +24,7 @@ Returns the text attributes for an arbitrary block of script text.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetScriptTextAttributes(  
    LPCOLESTR          pstrCode,  
    ULONG              uNumCodeChars,  

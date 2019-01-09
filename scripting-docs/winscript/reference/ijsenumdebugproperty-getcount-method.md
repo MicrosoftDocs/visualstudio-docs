@@ -22,7 +22,7 @@ Gets the number of properties of the object.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetCount(  
    ULONG *pCount  
 );  

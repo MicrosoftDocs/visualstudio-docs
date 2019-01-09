@@ -2,7 +2,6 @@
 title: Import and Export Settings command
 ms.date: 11/21/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "Tools.ImportandExportSettings"

@@ -7,3 +7,4 @@
 			eventSource.TargetStarted += new TargetStartedEventHandler(eventSource_TargetStarted);
 			eventSource.ProjectFinished += new ProjectFinishedEventHandler(eventSource_ProjectFinished);
 		}
+	 }

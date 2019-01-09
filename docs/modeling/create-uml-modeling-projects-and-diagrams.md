@@ -11,7 +11,6 @@ manager: douge
 ms.workload:
   - "multiple"
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Create UML modeling projects and diagrams
 
@@ -25,4 +24,4 @@ For information about using UML in Visual Studio 2015, see:
 * [Create models for your app](create-models-for-your-app.md)
 * [Use models in your development process](use-models-in-your-development-process.md)
 * [Validate your system during development](validate-your-system-during-development.md)
-* [Extend UML models and diagrams](extend-uml-models-and-diagrams.md)
+* [Extend UML models and diagrams](create-uml-modeling-projects-and-diagrams.md)

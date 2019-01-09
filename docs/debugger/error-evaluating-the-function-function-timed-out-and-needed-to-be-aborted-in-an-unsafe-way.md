@@ -1,11 +1,9 @@
 ---
 title: "Error: Evaluating the function &#39;function&#39; timed out and needed to be aborted in an unsafe way | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.topic: "troubleshooting"
 f1_keywords: 
   - "vs.debug.error.unsafe_func_eval_abort"
-ms.technology: "vs-ide-debug"
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: douge
@@ -22,7 +20,7 @@ One common reason for this problem is that when the debugger evaluates a propert
  
 ## To correct this error
  
-There are three possible solutions to this issue.
+There are several possible solutions to this issue.
  
 ### Solution #1: Prevent the debugger from calling the getter property or ToString method
  
@@ -40,8 +38,8 @@ The error message will tell you the name of the function the debugger tried to c
  
 ### Solution #3: Disable all implicit evaluation
  
-If the previous solutions don't fix the issue, go to *Tools* > *Options*, and uncheck the setting *Debugging* > *General* > *Enable property evaluation and other implicit function calls*. This will disable most implicit function evaluations and should resolve the issue.
+If the previous solutions don't fix the issue, go to **Tools** > **Options**, and uncheck the setting **Debugging** > **General** > **Enable property evaluation and other implicit function calls**. This will disable most implicit function evaluations and should resolve the issue.
 
+### Solution #4: Enable managed compatibility mode
 
-
-  
+If you switch to the legacy debugging engine, you may be able to eliminate this error. Go to **Tools** > **Options**, and select the setting **Debugging** > **General** > **Use managed compatibility mode**. For more information, see [General debugging options](../debugger/general-debugging-options-dialog-box.md).

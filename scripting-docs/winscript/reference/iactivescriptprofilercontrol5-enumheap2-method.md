@@ -20,7 +20,7 @@ Returns an interface ([IActiveScriptProfilerHeapEnum Interface](../../winscript/
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT EnumHeap2(    [in] PROFILER_HEAP_ENUM_FLAGS enumFlags,    [out] IActiveScriptProfilerHeapEnum** ppEnum);  
 ```  
   

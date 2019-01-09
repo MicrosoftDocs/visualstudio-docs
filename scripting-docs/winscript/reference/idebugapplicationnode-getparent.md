@@ -24,7 +24,7 @@ Returns the parent node of this application node.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetParent(  
    IDebugApplicationNode**  pprddp  
 );  

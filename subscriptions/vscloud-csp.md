@@ -17,6 +17,11 @@ Visual Studio Enterprise and Visual Studio Professional cloud subscriptions for 
 
 [Compare cloud subscription options](https://visualstudio.microsoft.com/vs/pricing)
 
+
+> [!NOTE]
+> Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
+
+
 ## Prerequisites
 
 You must first set up your customer tenant in the Partner Center and create an Azure subscription for this tenant.
@@ -30,7 +35,7 @@ Anyone with [owner or contributor access](https://na01.safelinks.protection.outl
 
 <iframe src="//channel9.msdn.com/Shows/Visual-Studio-for-CSP-Partners/CSP-How-to-buy-Visual-Studio-Subscriptions/player" width="600" height="315" allowFullScreen="true" frameBorder="0"></iframe>
 
-0. Log into the [Microsoft Partner Center](https://partnercenter.microsoft.com).
+1. Log into the [Microsoft Partner Center](https://partnercenter.microsoft.com).
 0. Choose **Customers** and select a customer to buy for.
 0. Choose **Service Management**.
 0. Choose **Visual Studio Marketplace**.
@@ -53,7 +58,7 @@ also access the Subscription Administration portal from the Partner Center by ch
 
 <iframe src="//channel9.msdn.com/Shows/Visual-Studio-for-CSP-Partners/CSP-How-to-manage-Visual-Studio-Subscriptions/player" width="600" height="315" allowFullScreen="true" frameBorder="0"></iframe>
 
-0. Log in to the [Microsoft Partner Center](https://partnercenter.microsoft.com).
+1. Log in to the [Microsoft Partner Center](https://partnercenter.microsoft.com).
 0. Choose **Customers** and the customer's name.
 0. Choose **Service Management**.
 0. Choose **Manage Visual Studio Subscriptions**.
@@ -84,9 +89,8 @@ Here's how to interpret what you see on this spreadsheet:
 | Meter category    |   Name                 |  Units                                |           What this is                          |
 |-------------------|------------------------|---------------------------------------|-------------------------------------------------|
 | Visual Studio     | Enterprise             |  Subscription                         | Visual Studio Enterprise monthly subscription   |
-| Visual Studio     | Enterprise (Annual)    |  Annual Subscriptions                 | Visual Studio Enterprise annual subscription    |
 | Visual Studio     | Professional           |  Subscription                         | Visual Studio Professional monthly subscription |
-| Visual Studio     | Professional (Annual)  |  Annual Subscriptions                 | Visual Studio Professional annual subscription  |
+
 
 We offer a 5% discount on the 6th unit you buy (for a given customer) each month of each Visual Studio subscription. That's why you see two rows for each
 subscription option. One row shows a "Minimum Value" of 0, which you should interpret as the base price for units 1 through 5. The other row shows a "Minimum Value" of 5,
@@ -102,12 +106,6 @@ On the first of May, and each month thereafter until you cancel, the full 10 uni
 
 When you increase the paid quantity later, we also prorate the increased units to cover the remaining days in the current month. So if you bought 1 more Visual Studio
 Professional monthly cloud subscription on May 10, we would bill roughly 0.677 units (21 days remaining in the 31-day month of May).
-
-### Q: How are **annual** cloud subscription charges processed?
-
-A: At each purchase, we bill the full quantity purchased immediately. Charges are not spread over the year and there is no prorating. If you buy annual cloud subscriptions
-at different times in the year, you will have subscriptions renewing in different months. We do not make all of a customer's annual cloud subscriptions coterminous as is
-common with Microsoft volume licensing agreement purchasing.
 
 ### Q: How do cancellations work?
 
@@ -127,9 +125,7 @@ rebate for canceling part way through the subscription year with annual cloud su
 A:  You get a 5% discount on the 6th and all subsequent subscriptions *within each type* of subscription:
 
 * Visual Studio Professional monthly
-* Visual Studio Professional annual
 * Visual Studio Enterprise monthly
-* Visual Studio Enterprise annual
 
 So, for example, if you buy 6 Visual Studio Professional monthly subscriptions and 5 Visual Studio Enterprise monthly subscriptions, you'll pay the regular price on
 5 Professional, get a 5% discount on the 6th Professional, and pay regular price on all 5 Enterprise subscriptions.

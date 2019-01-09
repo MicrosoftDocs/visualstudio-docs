@@ -1,15 +1,12 @@
 ---
 title: "EnsureVSTOComponent function"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -33,5 +30,3 @@ HRESULT EnsureVSTOComponent(
   
 ## Return value  
  If the function succeeds, it returns **S_OK**. If the function fails, it returns an error code.  
-  
-  

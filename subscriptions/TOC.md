@@ -44,7 +44,6 @@
 #### [Azure Advisory Chat](vs-azure-advisory-chat.md)
 #### [Azure Community](vs-azure-community.md)
 #### [Technical Support](vs-tech-support.md)
-#### [Developer Community Support](vs-priority-support.md)
 #### [Concierge Support](vs-concierge-chat.md)
 ## Managing Subscriptions
 ### [Administrator Responsibilities](admin-responsibilities.md)

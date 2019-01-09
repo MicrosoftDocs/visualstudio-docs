@@ -1,9 +1,6 @@
 ---
 title: "How to: Programmatically save documents"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -87,5 +84,3 @@ ms.workload:
  [How to: Programmatically open existing documents](../vsto/how-to-programmatically-open-existing-documents.md)   
  [Document host item](../vsto/document-host-item.md)   
  [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)  
-  
-  

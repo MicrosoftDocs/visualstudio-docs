@@ -2,7 +2,6 @@
 title: "CA1824: Mark assemblies with NeutralResourcesLanguageAttribute"
 ms.date: 03/29/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA1824"

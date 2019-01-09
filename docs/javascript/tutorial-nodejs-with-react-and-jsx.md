@@ -3,7 +3,6 @@ title: "Create a Node.js and React app"
 description: In this tutorial, you create an app in using Node.js tools for Visual Studio
 ms.custom: "mvc"
 ms.date: "11/01/2018"
-ms.technology: vs-nodejs
 ms.topic: "tutorial"
 ms.devlang: javascript
 author: "mikejo5000"
@@ -252,7 +251,7 @@ In the previous steps, you added *webpack-config.js* to the project. Next, you a
     }
     ```
 
-    The webpack configuration code instructs Webpack to use the TypeScript loader to transpile the JSX.
+    The webpack configuration code instructs webpack to use the TypeScript loader to transpile the JSX.
 
 1. Open *tsconfig.json* and replace the default code with the following code, which specifies the TypeScript compiler options:
 

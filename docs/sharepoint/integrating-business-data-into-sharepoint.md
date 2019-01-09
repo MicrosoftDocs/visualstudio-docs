@@ -1,13 +1,8 @@
 ---
 title: "Integrating Business Data into SharePoint | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
-  - "VB"
-  - "CSharp"
   - "VB"
   - "CSharp"
 helpviewer_keywords: 
@@ -55,4 +50,3 @@ ms.workload:
 |[Create a business data connectivity model](../sharepoint/creating-a-business-data-connectivity-model.md)|Shows you how create a new model or import a model that you export from SharePoint.|  
 |[Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md)|Explains how to design the elements of a model by using Visual Studio design tools.|  
 |[When to Use SharePoint Designer vs. Visual Studio When Building Solutions Using BCS](http://go.microsoft.com/fwlink/?LinkID=183448)|Helps you decide whether to use Visual Studio or use SharePoint Designer to create a model for the BDC.|  
-  

@@ -3,7 +3,6 @@ title: "View previous app state using IntelliTrace"
 description: "Learn how to take snapshots, and view snapshots with IntelliTrace step-back"
 ms.custom: "seodec18"
 ms.date: "09/19/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "tutorial"
 ms.assetid: 7c60d929-d993-49dc-9db3-43b30be9912b
 author: "mikejo5000"
@@ -21,7 +20,7 @@ IntelliTrace step-back is available starting in Visual Studio Enterprise 2017 ve
 In this tutorial, you will:
 
 > [!div class="checklist"]
-> * Enable Intellitrace events and snapshots
+> * Enable IntelliTrace events and snapshots
 > * Navigate events using step-back and step-forward commands
 > * View event snapshots
   

@@ -1,5 +1,4 @@
 ---
-ms.technology: vs-ai-tools
 ---
 # Browse storage to upload data or download models and logs
 

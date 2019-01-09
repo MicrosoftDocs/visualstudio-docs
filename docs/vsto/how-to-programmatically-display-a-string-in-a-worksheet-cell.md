@@ -1,9 +1,6 @@
 ---
 title: "How to: Programmatically display a string in a worksheet cell"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -48,5 +45,3 @@ ms.workload:
  [NamedRange control](../vsto/namedrange-control.md)   
  [Global access to objects in Office projects](../vsto/global-access-to-objects-in-office-projects.md)   
  [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)  
-  
-  

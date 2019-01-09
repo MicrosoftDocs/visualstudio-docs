@@ -65,7 +65,7 @@ manager: "ghogen"
   
   The full HTML code is:  
   
-```  
+```html
 <html>  
 <body>  
 <script type="text/javascript">  
@@ -96,7 +96,7 @@ test();
   
  A control placed on this same Web page could obtain a dispatch pointer to the script engines from the browser. The control could then implement the function test():  
   
-```  
+```html
 <html>  
 <body>  
 <script type="text/javascript">  
@@ -132,7 +132,7 @@ function cat()
   
   The code for the test control:  
   
-```  
+```cpp
    BOOL test(IDispatchEx *pdexScript)  
    {  
       HRESULT hr;  

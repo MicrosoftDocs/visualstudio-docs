@@ -24,7 +24,7 @@ Synchronously performs the operation and returns.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Execute(  
    IUnknown**  ppunkResult  
 );  

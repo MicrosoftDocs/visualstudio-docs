@@ -21,7 +21,7 @@ Namespace SDKSample
 				' Set the begin point of the shape.
 				ctx.BeginFigure(New Point(10, 100), True, False) ' is closed  -  is filled 
 
-				' Create a Bezier curve using the 3 specifed points where the first two points
+				' Create a Bezier curve using the 3 specified points where the first two points
 				' are control points and the last point is the destination point for the curve.
 				ctx.BezierTo(New Point(100, 0), New Point(200,200), New Point(300,100), True, False) ' is smooth join  -  is stroked 
 

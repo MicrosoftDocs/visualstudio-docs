@@ -24,7 +24,7 @@ Returns the current break flags for the application.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetBreakFlags(  
    APPBREAKFLAGS*                   pabf,  
    IRemoteDebugApplicationThread**  pprdatSteppingThread  

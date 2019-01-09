@@ -24,7 +24,7 @@ Deletes this object tree.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Delete();  
 ```  
   

@@ -2,7 +2,6 @@
 title: "CA2219: Do not raise exceptions in exception clauses"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "DoNotRaiseExceptionsInExceptionClauses"

@@ -24,7 +24,7 @@ Defines the string comparison method for the scripting engine.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT StrComp(  
 // The first string:  
     [in] BSTR bszStr1,    

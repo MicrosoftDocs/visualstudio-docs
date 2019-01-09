@@ -1,15 +1,12 @@
 ---
-title: Write and Manage Code
+title: Write and manage code
 description: Learn how to use the code editor and other tools in Visual Studio to write, navigate, manage, and improve your code.
-layout: LandingPage
 ms.date: 01/01/2018
+layout: LandingPage
+ms.prod: visual-studio-dev15
+ms.topic: landing-page
 author: gewarren
 ms.author: gewarren
-ms.topic: landing-page
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
-f1_keywords:
- - vs.newproject
 ms.workload:
   - "multiple"
 ---

@@ -5,7 +5,6 @@ author: ghogen
 manager: douge
 assetId: 4a58e2c6-7a79-4051-8a2c-99182ff8b881
 ms.prod: visual-studio-dev15
-ms.technology: vs-azure
 ms.custom: vs-azure
 ms.workload: azure-vs
 ms.topic: conceptual
@@ -49,4 +48,3 @@ You can specify deployment settings in the **Publish Wizard**, which supports se
 
 ## Next steps
 - [Using the Visual Studio Publish Azure Application Wizard](vs-azure-tools-publish-azure-application-wizard.md)
-

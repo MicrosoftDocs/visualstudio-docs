@@ -1,13 +1,8 @@
 ---
 title: "How to: Mark Controls as Safe Controls | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
-  - "VB"
-  - "CSharp"
   - "VB"
   - "CSharp"
 helpviewer_keywords: 
@@ -114,4 +109,3 @@ ms.workload:
 ## See also
  [Provide packaging and deployment information in project items](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md)   
  [Package and deploying SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)  
-  

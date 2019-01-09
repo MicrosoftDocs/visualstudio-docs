@@ -24,7 +24,7 @@ Connects a debugger to this application.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT ConnectDebugger(  
    IApplicationDebugger*  pad  
 );  

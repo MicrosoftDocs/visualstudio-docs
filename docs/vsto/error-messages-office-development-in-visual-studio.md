@@ -1,17 +1,16 @@
 ---
 title: "Error messages (Office development in Visual Studio)"
-ms.custom: ""
+titleSuffix: ""
+ms.custom: "seodec18"
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
 helpviewer_keywords: 
   - "error messages, Office development in Visual Studio"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -28,5 +27,3 @@ ms.workload:
   
 ## See also  
  [Office and SharePoint development in Visual Studio](../vsto/office-and-sharepoint-development-in-visual-studio.md)  
-  
-  

@@ -1,8 +1,6 @@
 ---
 title: "ThreadOn and ThreadOff | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: 5cd5a695-0a14-484a-8952-ed47e13d8e92
 author: "mikejo5000"

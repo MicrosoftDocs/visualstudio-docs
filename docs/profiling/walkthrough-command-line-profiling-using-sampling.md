@@ -1,8 +1,6 @@
 ---
 title: "Walkthrough: Command-Line Profiling Using Sampling | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "profiling tools, walkthroughs"
@@ -29,7 +27,7 @@ In this walkthrough, you will follow these steps:
 
 - Intermediate understanding of [!INCLUDE[csharp_current_short](../misc/includes/csharp_current_short_md.md)]
 - Intermediate understanding of working with command line tools
-- A copy of the [PeopleTrax Sample](../profiling/peopletrax-sample-profiling-tools.md)
+- A copy of the [PeopleTrax Sample](/visualstudio/profiling/performance-explorer)
 - To work with the information provided by profiling, it is best to have debugging symbol information available.
 
 ## Command-line profiling using the sampling method
@@ -37,7 +35,7 @@ In this walkthrough, you will follow these steps:
 Sampling is a profiling method by which a specific process is periodically polled to determine the active function. The resulting data provides a count of how frequently the function was on top of the call stack when the process was sampled.
 
 > [!NOTE]
-> Command-line tools of the Profiling Tools are located in the *\Team Tools\Performance Tools* subdirectory of the Visual Studio installation directory. On 64-bit computers, both 64-bit and 32-bit versions of the tools are available. To use the profiler command-line tools, you must add the path to the PATH environment variable of the command prompt window or add it to the command itself. For more information, see [Specify the path to command-line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md). PeopleTrax is a 32-bit application.
+>  To get the path to the profiling tools, see [Specify the path to command line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md). On 64-bit computers, both 64-bit and 32-bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the Command Prompt window or add it to the command itself.  
 
 ### To profile the PeopleTrax application by using the sampling method
 

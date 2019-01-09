@@ -2,7 +2,6 @@
 title: "Install third-party unit test frameworks"
 ms.date: 06/07/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 ms.author: gewarren
 manager: douge

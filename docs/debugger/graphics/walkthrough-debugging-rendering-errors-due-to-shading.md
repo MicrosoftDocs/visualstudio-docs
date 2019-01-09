@@ -1,8 +1,6 @@
 ---
 title: "Walkthrough: Debugging Rendering Errors Due to Shading | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: 01875b05-cc7b-4add-afba-f2b776f86974
 author: "mikejo5000"

@@ -24,7 +24,7 @@ Determines if an object is equal to the current object.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT IsEqualObject(  
   IUnknown*punk  
 );  

@@ -1,9 +1,6 @@
 ---
 title: "Create Outlook form regions"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "MICROSOFT.OFFICE.TOOLS.OUTLOOK.FORMREGION"
@@ -14,8 +11,8 @@ helpviewer_keywords:
   - "form regions [Office development in Visual Studio]"
   - "form regions [Office development in Visual Studio], creating"
   - "Outlook [Office development in Visual Studio], form regions"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -184,4 +181,3 @@ ms.workload:
 |[How to: Prevent Outlook from displaying a form region](../vsto/how-to-prevent-outlook-from-displaying-a-form-region.md)|Shows how to prevent Microsoft Office Outlook from displaying a form region for a particular item.|  
 |Shows how to access the Outlook item in which a form region appears.|  
 |[Custom actions in Outlook form regions](../vsto/custom-actions-in-outlook-form-regions.md)|Describes how to enable users to respond to an Outlook item.|  
-  
