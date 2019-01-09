@@ -24,7 +24,7 @@ Returns the item name that identifies an `IScriptEntry` object.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetItemName(  
    BSTR               *pbstr  
 );  

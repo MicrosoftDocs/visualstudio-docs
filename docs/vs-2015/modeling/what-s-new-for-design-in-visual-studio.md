@@ -5,8 +5,7 @@ ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
-  - "vs-devops-techdebt"
+ms.technology: "vs-devops-techdebt"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords:

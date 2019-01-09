@@ -1,9 +1,6 @@
 ---
 title: "How to: Programmatically create custom folder items"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -12,8 +9,8 @@ helpviewer_keywords:
   - "Outlook folders [Office development in Visual Studio], creating"
   - "Outlook folders [Office development in Visual Studio], custom"
 author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
 ms.workload: 
   - "office"
 ---
@@ -29,5 +26,3 @@ ms.workload:
  [Work with folders](../vsto/working-with-folders.md)   
  [How to: Programmatically add an entry to Outlook contacts](../vsto/how-to-programmatically-add-an-entry-to-outlook-contacts.md)   
  [How to: Programmatically create appointments](../vsto/how-to-programmatically-create-appointments.md)  
-  
-  

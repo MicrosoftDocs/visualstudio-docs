@@ -1,8 +1,6 @@
 ---
 title: "WriteLinesToFile Task | Microsoft Docs"
-ms.custom: ""
 ms.date: "09/20/2018"
-ms.technology: msbuild
 ms.topic: "reference"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#WriteLinesToFile"

@@ -346,7 +346,7 @@
 ### [Error: Transact-SQL execution ended without debugging](error-transact-sql-execution-ended-without-debugging.md)
 ### [Error: User Could Not Execute Stored Procedure sp_enable_sql_debug](error-user-could-not-execute-stored-procedure-sp-enable-sql-debug.md)
 ### [Error: Windows file sharing has been configured...](error-windows-file-sharing-has-been-configured-dot-dot-dot.md)
-### [Security Warning: Attaching to a process owned by an untrusted user can be dangerous. If the following information looks suspicious or you are unsure, do not attach to this process](security-warning-attaching-to-a-process-owned-by-an-untrusted-user-can-be-dangerous-if-the-following-information-looks-suspicious-or-you-are-unsure-do-not-attach-to-this-process.md)
+### [Security Warning: Attaching to a process owned by an untrusted user can be dangerous. If the following information looks suspicious or you are unsure, do not attach to this process](/visualstudio/debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user?view=vs-2015)
 ### [Security Warning: Debugger Must Execute Untrusted Command](security-warning-debugger-must-execute-untrusted-command.md)
 ### [Source Server Security Alert](source-server-security-alert.md)
 ### [Mixed mode debugging for x64 processes is only supported when using Microsoft.NET Framework 4 or greater](mixed-mode-debugging-for-x64-processes-is-only-supported-when-using-microsoft-dotnet-framework-4-or-greater.md)

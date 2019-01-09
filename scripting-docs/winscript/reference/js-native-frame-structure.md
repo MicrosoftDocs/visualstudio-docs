@@ -22,7 +22,7 @@ Represents a stack frame.
   
 ## Syntax  
   
-```  
+```cpp
 typedef struct {  
     UINT64 InstructionOffset;    UINT64 ReturnOffset;    UINT64 FrameOffset;    UINT64 StackOffset;  
 } JS_NATIVE_FRAME;  

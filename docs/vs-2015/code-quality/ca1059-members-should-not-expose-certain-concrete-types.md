@@ -5,8 +5,7 @@ ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
+ms.technology: "vs-devops-test"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords:
@@ -53,6 +52,3 @@ manager: "wpickett"
 
 ## Related Rules
  [CA1011: Consider passing base types as parameters](../code-quality/ca1011-consider-passing-base-types-as-parameters.md)
-
-
-

@@ -24,7 +24,7 @@ Returns the target application thread for this synchronous operation.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetTargetThread(  
    IDebugApplicationThread**  ppatTarget  
 );  

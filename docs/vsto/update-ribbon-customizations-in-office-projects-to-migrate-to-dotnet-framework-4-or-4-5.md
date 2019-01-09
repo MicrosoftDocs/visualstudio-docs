@@ -1,9 +1,6 @@
 ---
 title: "Update Ribbon customizations in Office projects that you migrate to the .NET Framework 4 or the .NET Framework 4.5"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -186,5 +183,3 @@ this.tab1.Position = this.Factory.RibbonPosition.AfterOfficeId("TabHome");
 ## See also  
  [Migrate Office solutions to the .NET Framework 4 or later](../vsto/migrating-office-solutions-to-the-dotnet-framework-4-or-later.md)   
  [Ribbon Designer](../vsto/ribbon-designer.md)  
-  
-  

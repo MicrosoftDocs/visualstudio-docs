@@ -4,7 +4,6 @@ description: In this quickstart, you create a Vue.js app in Visual Studio using 
 ms.custom: "seodec18"
 ms.date: 09/24/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-nodejs
 ms.topic: quickstart
 ms.devlang: javascript
 ms.assetid: b0e4ebed-1a01-41ef-aad1-4d8465ce5322
@@ -104,5 +103,5 @@ Congratulations on completing this Quickstart! We hope you learned a little bit 
 ## Next steps
 
 - Go through the [Tutorial for Node.js and Express](../nodejs/tutorial-nodejs.md)
-- Go through the [Tutorial for Node.js and React](../nodejs/tutorial-nodejs-with-react-and-jsx.md)
+- Go through the [Tutorial for Node.js and React](/visualstudio/javascript/tutorial-nodejs-with-react-and-jsx)
 - [Deploy the app to Linux App Service](../javascript/publish-nodejs-app-azure.md)

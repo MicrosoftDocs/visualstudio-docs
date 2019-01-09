@@ -1,9 +1,6 @@
 ---
 title: "Excel Object model overview"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -117,5 +114,3 @@ ms.workload:
 |[Work with ranges](../vsto/working-with-ranges.md)|Provides examples that show how to perform common tasks with ranges.|  
 |[Work with worksheets](../vsto/working-with-worksheets.md)|Provides examples that show how to perform common tasks with worksheets.|  
 |[Work with workbooks](../vsto/working-with-workbooks.md)|Provides examples that show how to perform common tasks with workbooks.|  
-  
-  

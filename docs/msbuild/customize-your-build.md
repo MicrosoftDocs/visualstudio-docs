@@ -1,8 +1,6 @@
 ---
 title: "Customize your build | Microsoft Docs"
-ms.custom: ""
 ms.date: "06/14/2017"
-ms.technology: msbuild
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "MSBuild, transforms"

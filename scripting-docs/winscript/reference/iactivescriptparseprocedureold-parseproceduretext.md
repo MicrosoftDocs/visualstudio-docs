@@ -24,7 +24,7 @@ Parses the given code procedure and adds an anonymous procedure to the name spac
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT ParseProcedureText(  
    LPCOLESTR    pstrCode,  
    LPCOLESTR    pstrFormalParams,  

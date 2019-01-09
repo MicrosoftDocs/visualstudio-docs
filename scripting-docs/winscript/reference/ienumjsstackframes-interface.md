@@ -18,7 +18,7 @@ Implemented by the debugger to provide stack unwind to jscript9diag.dll for Java
   
 ## Syntax  
   
-```  
+```cpp
 IEnumJsStackFrames : public IUnknown;  
 ```  
   

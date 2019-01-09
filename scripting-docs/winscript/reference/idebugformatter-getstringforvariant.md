@@ -24,7 +24,7 @@ Returns a string that represents the given VARIANT value.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetStringForVariant(  
    VARIANT*  pvar,  
    ULONG     nRadix,  

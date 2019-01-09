@@ -2,7 +2,6 @@
 title: "Examine the Content Model of Nodes Using the Content Model View in XML Schema Designer"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-xml-tools
 ms.topic: conceptual
 ms.assetid: c42ddac8-b0e3-48d6-9832-112a19d6c104
 author: gewarren

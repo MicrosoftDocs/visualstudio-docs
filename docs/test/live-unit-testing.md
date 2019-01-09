@@ -2,7 +2,6 @@
 title: "Live Unit Testing"
 ms.date: 2017-03-07
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 helpviewer_keywords:
   - "Visual Studio ALM"

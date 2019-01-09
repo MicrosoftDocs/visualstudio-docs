@@ -24,7 +24,7 @@ Fires a generic event to the debugger's `IApplicationDebugger` interface.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT FireDebuggerEvent(  
    REFGUID    riid,  
    IUnknown*  punk  

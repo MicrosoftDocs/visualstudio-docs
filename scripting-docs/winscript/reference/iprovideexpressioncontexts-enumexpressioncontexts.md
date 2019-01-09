@@ -24,7 +24,7 @@ Returns an enumerator of expression contexts known by this component.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT EnumExpressionContexts(  
    IEnumDebugExpressionContexts**  ppedec  
 );  

@@ -1,8 +1,6 @@
 ---
 title: "Deploying Prerequisites for 64-bit Applications | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 dev_langs: 
   - "FSharp"

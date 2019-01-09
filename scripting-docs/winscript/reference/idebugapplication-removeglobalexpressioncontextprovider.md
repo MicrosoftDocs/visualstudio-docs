@@ -24,7 +24,7 @@ Removes a global expression context provider from this application.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT RemoveGlobalExpressionContextProvider(  
    DWORD_PTR  dwCookie  
 );  

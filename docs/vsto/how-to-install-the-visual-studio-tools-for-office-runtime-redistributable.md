@@ -3,8 +3,6 @@ title: "How to: Install the Visual Studio Tools for Office runtime redistributab
 titleSuffix: ""
 ms.custom: "seodec18"
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -53,5 +51,3 @@ ms.workload:
  [How to: Install Office primary interop assemblies](../vsto/how-to-install-office-primary-interop-assemblies.md)   
  [Manage documents on a server by using the ServerDocument class](../vsto/managing-documents-on-a-server-by-using-the-serverdocument-class.md)   
  [Deploy an Office solution](../vsto/deploying-an-office-solution.md)  
-  
-  

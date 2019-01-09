@@ -22,7 +22,7 @@ Gets the members of this object.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetMembers(  
    JS_PROPERTY_MEMBERS members,  
    IJsEnumDebugProperty **ppEnum  

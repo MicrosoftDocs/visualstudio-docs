@@ -1,5 +1,5 @@
 ---
-title: "Can&#39;t have &#39;break&#39; outside of loop | Microsoft Docs"
+title: "Can't have 'break' outside of loop | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
 ms.prod: "windows-client-threshold"
@@ -21,10 +21,10 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 ---
-# Can&#39;t have &#39;break&#39; outside of loop
+# Can't have 'break' outside of loop
 You attempted to use the **break** keyword outside of a loop. The **break** keyword is used to terminate a loop or `switch` statement. It must be embedded in the body of a loop or `switch` statement. However, a **label** can follow the break keyword.  
   
-```  
+```js
 break labelname;  
 ```  
   

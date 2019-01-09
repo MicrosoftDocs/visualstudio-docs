@@ -1,8 +1,6 @@
 ---
 title: "QueryCounters | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: 8059d4b2-af61-4a47-a6c2-8da5c0741c74
 author: "mikejo5000"

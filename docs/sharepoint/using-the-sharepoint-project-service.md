@@ -1,9 +1,6 @@
 ---
 title: "Using the SharePoint Project Service | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -45,4 +42,3 @@ ms.workload:
  [Extend the SharePoint tools in Visual Studio](../sharepoint/extending-the-sharepoint-tools-in-visual-studio.md)   
  [Overview of the programming model of SharePoint tools extensions](../sharepoint/overview-of-the-programming-model-of-sharepoint-tools-extensions.md)   
  [How to: Get a Service from the DTE Object](https://msdn.microsoft.com/library/bb166401.aspx)  
-  

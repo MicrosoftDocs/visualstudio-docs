@@ -24,7 +24,7 @@ Gets the description and state of this thread.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetDescription(  
    BSTR*  pbstrDescription,  
    BSTR*  pbstrState  

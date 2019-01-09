@@ -1,9 +1,6 @@
 ---
 title: "How to: Add a Property to SharePoint Projects | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -82,5 +79,3 @@ ms.workload:
  [How to: Create a SharePoint project extension](../sharepoint/how-to-create-a-sharepoint-project-extension.md)   
  [How to: Add a shortcut menu item to SharePoint projects](../sharepoint/how-to-add-a-shortcut-menu-item-to-sharepoint-projects.md)   
  [Extend the SharePoint project system](../sharepoint/extending-the-sharepoint-project-system.md)  
-  
-  

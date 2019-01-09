@@ -24,7 +24,7 @@ Returns the scriptlet that has the specified attributes.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetEventHandler(  
    IDispatch          *pdisp,  
    LPCOLESTR          pszItem,  

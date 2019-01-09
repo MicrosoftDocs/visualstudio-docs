@@ -22,7 +22,7 @@ Puts the script engine in break mode causing it to break on the next script inst
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT PerformAsyncBreak(  
    DWORD threadId  
 );  

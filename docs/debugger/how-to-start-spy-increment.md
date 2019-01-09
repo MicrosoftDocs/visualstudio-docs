@@ -1,8 +1,6 @@
 ---
 title: "How to: Start Spy++ | Microsoft Docs"
-ms.custom: ""
 ms.date: "12/16/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Spy++, starting"

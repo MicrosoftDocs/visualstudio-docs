@@ -1,9 +1,6 @@
 ---
 title: "Creating SharePoint Solution Packages | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -74,5 +71,3 @@ ms.workload:
  [How to: Create a SharePoint Solution Package by using MSBuild tasks](../sharepoint/how-to-create-a-sharepoint-solution-package-by-using-msbuild-tasks.md)   
  [How to: Create a SharePoint Solution Package by using MSBuild tasks](../sharepoint/how-to-create-a-sharepoint-solution-package-by-using-msbuild-tasks.md)   
  [How to: Customize a SharePoint solution package by using MSBuild targets](../sharepoint/how-to-customize-a-sharepoint-solution-package-by-using-msbuild-targets.md)  
-  
- 

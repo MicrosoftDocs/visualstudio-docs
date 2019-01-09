@@ -1,9 +1,7 @@
 ---
 title: "View snapshots with IntelliTrace"
 description: "Use IntelliTrace step-back to examine the historical application state"
-ms.custom: ""
 ms.date: "09/20/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "quickstart"
 helpviewer_keywords:
   - "IntelliTrace step-back"

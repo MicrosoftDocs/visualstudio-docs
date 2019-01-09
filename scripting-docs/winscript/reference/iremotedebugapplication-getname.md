@@ -24,7 +24,7 @@ Returns the name of this application node.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetName(  
    BSTR*  pbstrName  
 );  

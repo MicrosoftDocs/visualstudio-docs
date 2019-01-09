@@ -22,7 +22,6 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ---
 # Analyze load test results and errors in the Tables view of the Load Test Analyzer
 

@@ -2,7 +2,6 @@
 title: "Attach the profiler to a .NET service to collect memory data"
 ms.custom: "seodec18"
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: aeac39af-ad99-479f-aa36-4104356ca512
 author: "mikejo5000"

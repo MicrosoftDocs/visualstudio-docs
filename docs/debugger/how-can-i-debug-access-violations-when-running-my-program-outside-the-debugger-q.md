@@ -2,7 +2,6 @@
 title: "Debug access violations when running an app outside the debugger | Microsoft Docs"
 ms.custom: "seodec18"
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.access"

@@ -20,7 +20,6 @@ Depending on your subscription level, you can receive access to training content
 For more information on specific benefits, check out these pages:
 
 - [DataCamp](vs-datacamp.md)
-- [Xamarin University](vs-xamarin.md)
 - [Opsgility](vs-opsgility.md)
 - [Pluralsight](vs-pluralsight.md)
 - [MSDN Magazine](vs-msdn.md)

@@ -24,7 +24,7 @@ Sets or clears a breakpoint at this code context.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT SetBreakPoint(  
    BREAKPOINT_STATE  bps  
 );  

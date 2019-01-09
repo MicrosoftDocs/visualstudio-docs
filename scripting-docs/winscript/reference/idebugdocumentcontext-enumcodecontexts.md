@@ -24,7 +24,7 @@ Enumerates the code contexts associated with this document context.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT EnumCodeContexts(  
    IEnumDebugCodeContexts**  ppescc  
 );  

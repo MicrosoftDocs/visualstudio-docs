@@ -1,9 +1,6 @@
 ---
 title: "How to: Configure inclusion list security"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -207,5 +204,3 @@ ms.workload:
 ## See also  
  [Trust Office solutions by using inclusion lists](../vsto/trusting-office-solutions-by-using-inclusion-lists.md)   
  [Secure Office solutions](../vsto/securing-office-solutions.md)  
-  
-  

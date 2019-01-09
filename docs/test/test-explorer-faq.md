@@ -2,7 +2,6 @@
 title: "Test Explorer FAQ"
 ms.date: 11/07/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 helpviewer_keywords:
   - "Test Explorer"

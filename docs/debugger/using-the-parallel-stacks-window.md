@@ -1,8 +1,6 @@
 ---
 title: "View threads in the Parallel Stacks window | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/20/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.parallelstacks"

@@ -1,9 +1,6 @@
 ---
 title: "How to: Programmatically attach files to Outlook email items"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -13,8 +10,8 @@ helpviewer_keywords:
   - "e-mail [Office development in Visual Studio], attachments"
   - "mail items [Office development in Visual Studio], attachments"
   - "attachments [Office development in Visual Studio]"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -33,5 +30,3 @@ ms.workload:
  [How to: Programmatically send email](../vsto/how-to-programmatically-send-e-mail-programmatically.md)   
  [How to: Programmatically save attachments from Outlook email items](../vsto/how-to-programmatically-save-attachments-from-outlook-e-mail-items.md)   
  [How to: Programmatically create an email item](../vsto/how-to-programmatically-create-an-e-mail-item.md)  
-  
-  

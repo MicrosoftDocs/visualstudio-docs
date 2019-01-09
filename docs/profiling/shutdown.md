@@ -1,8 +1,6 @@
 ---
 title: "Shutdown | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: a1e37500-4ad1-4670-9737-3d9a20536386
 author: "mikejo5000"

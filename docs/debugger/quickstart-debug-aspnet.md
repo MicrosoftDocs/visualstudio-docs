@@ -3,7 +3,6 @@ title: "Debug ASP.NET"
 description: "Debug ASP.NET using the Visual Studio debugger"
 ms.custom: "mvc"
 ms.date: "08/06/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "quickstart"
 helpviewer_keywords: 
   - "debugger"

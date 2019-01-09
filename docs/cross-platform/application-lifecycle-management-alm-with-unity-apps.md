@@ -96,7 +96,7 @@ Reference link: **[Improve code quality](../test/improve-code-quality.md)**
 
 |Feature|Supported with Unity|Additional Comments|
 |-------------|--------------------------|-------------------------|
-|[Analyze managed code quality](../code-quality/analyzing-managed-code-quality-by-using-code-analysis.md)|Yes|Can analyze the C# script code within Visual Studio.|
+|[Analyze managed code quality](../code-quality/code-analysis-for-managed-code-overview.md)|Yes|Can analyze the C# script code within Visual Studio.|
 |[Find duplicate code by using code clone detection](https://msdn.microsoft.com/library/hh205279.aspx)|Yes|Can analyze the C# script code within Visual Studio.|
 |[Measure complexity and maintainability of managed code](../code-quality/code-metrics-values.md)|Yes|Can analyze the C# script code within Visual Studio.|
 |[Performance Explorer](../profiling/performance-explorer.md)|No|Use the [Unity Profiler](http://docs.unity3d.com/Manual/Profiler.html) (Unity website).|

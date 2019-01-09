@@ -1,8 +1,6 @@
 ---
 title: "Error: RPC Requires Authentication | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "troubleshooting"
 f1_keywords: 
   - "vs.debug.error.rpc_requires_authentication"

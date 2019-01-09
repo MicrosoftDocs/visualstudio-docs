@@ -1,13 +1,8 @@
 ---
 title: "How to: Add Items to a SharePoint Project | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
-  - "VB"
-  - "CSharp"
   - "VB"
   - "CSharp"
 helpviewer_keywords: 
@@ -48,4 +43,3 @@ ms.workload:
 ## See also
  [SharePoint project and project item templates](../sharepoint/sharepoint-project-and-project-item-templates.md)   
  [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)  
-  

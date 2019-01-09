@@ -8,7 +8,6 @@ manager: douge
 ms.workload:
   - "multiple"
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Controlling Color, Line Style, and other Shape Properties
 Some shape properties such as color can be 'exposed' - that is, linked to a domain property of the shape. Others have to be controlled directly.

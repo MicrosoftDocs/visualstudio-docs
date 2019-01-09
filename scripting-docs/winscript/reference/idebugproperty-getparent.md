@@ -24,7 +24,7 @@ Gets the parent property of a property.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetParent (  
    IDebugProperty** ppParent  
 );  

@@ -2,7 +2,6 @@
 title: "Walkthrough: Create a multiple-computer build environment"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:
   - "MSBuild, building on multiple computers"

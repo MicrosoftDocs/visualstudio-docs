@@ -1,7 +1,6 @@
 ---
 title: "How to: Implement the Find and Replace Mechanism | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.technology: vs-ide-sdk
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "editors [Visual Studio SDK], legacy - find and replace"

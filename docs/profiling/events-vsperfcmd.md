@@ -1,8 +1,6 @@
 ---
 title: "Events (VSPerfCmd) | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: eb139327-4783-4f2a-874c-efad377a7be4
 author: "mikejo5000"

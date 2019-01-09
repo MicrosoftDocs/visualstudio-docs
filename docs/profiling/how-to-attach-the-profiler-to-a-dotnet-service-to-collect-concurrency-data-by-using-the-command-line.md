@@ -2,7 +2,6 @@
 title: "Attach the profiler to a .NET service to collect concurrency data"
 ms.custom: "seodec18"
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: ffbdfe37-8325-44be-bd36-2c8aab2dec7b
 author: "mikejo5000"

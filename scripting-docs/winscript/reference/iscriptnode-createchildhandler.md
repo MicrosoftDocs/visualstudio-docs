@@ -24,7 +24,7 @@ Adds a scriptlet as a child instance of an `IScriptNode`.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT CreateChildHandler(  
    LPCOLESTR          pszDefaultName,  
    LPCOLESTR          *prgpszNames,  

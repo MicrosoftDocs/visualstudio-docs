@@ -24,7 +24,7 @@ Sets the attributes for this document.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT SetDocumentAttr(  
    TEXT_DOC_ATTR  pszAttributes  
 );  

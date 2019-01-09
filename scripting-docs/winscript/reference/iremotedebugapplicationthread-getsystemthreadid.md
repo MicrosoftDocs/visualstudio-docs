@@ -24,7 +24,7 @@ Returns an operating-system-dependent identifier associated with the thread.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetSystemThreadId(  
    DWORD*  dwThreadId  
 );  

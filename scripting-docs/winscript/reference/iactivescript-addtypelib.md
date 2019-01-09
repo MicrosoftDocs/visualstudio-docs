@@ -24,7 +24,7 @@ Adds a type library to the name space for the script. This is similar to the `#i
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT AddTypeLib(  
     REFGUID guidTypeLib,  // CLSID of type library  
     DWORD dwMaj,          // major version number  

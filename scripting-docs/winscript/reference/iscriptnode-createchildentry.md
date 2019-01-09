@@ -24,7 +24,7 @@ Adds a child instance of `IScriptEntry`.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT CreateChildEntry(  
    ULONG              isn,  
    DWORD              dwCookie,  

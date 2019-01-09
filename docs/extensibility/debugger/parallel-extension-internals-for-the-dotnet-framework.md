@@ -1,9 +1,6 @@
 ---
 title: "Parallel Extension Internals for the .NET Framework | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "debug engines, internals [.NET Framework]"

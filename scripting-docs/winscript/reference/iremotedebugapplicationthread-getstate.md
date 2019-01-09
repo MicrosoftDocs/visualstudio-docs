@@ -24,7 +24,7 @@ Gets the state of this thread.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetState(  
    DWORD*  pState  
 );  
