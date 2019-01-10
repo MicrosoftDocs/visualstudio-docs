@@ -58,12 +58,12 @@ If no *SettingsFile* is specified, the IDE opens using the existing settings.
 
 The first example applies the settings stored in the file `MySettings.vssettings`.
 
-The second example restores the General Development Settings profile.
+The second example restores the Visual C# default profile.
 
 ```shell
 devenv /resetsettings "%USERPROFILE%\MySettings.vssettings"
 
-devenv /resetsettings General
+devenv /resetsettings CSharp
 ```
 
 ## See also

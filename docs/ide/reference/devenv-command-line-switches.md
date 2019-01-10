@@ -47,7 +47,7 @@ The syntax rules for `devenv` switches resemble the rules for other DOS command-
   > [!NOTE]
   > One and only one solution file that references this project should be located in its parent folder. If the parent folder contains no solution file that references this project, or if the parent folder contains two or more solution files that reference it, then a temporary solution file is created.
 
-- When file paths and file names include spaces, you must enclose them in quotation marks (""). For example, `"c:\project a\\"`.
+- When file paths and file names include spaces, you must enclose them in quotation marks (""). For example, `"c:\project a\"`.
 
 - Insert one space character between switches and arguments on the same line. For example, the command `devenv /log output.txt` opens the IDE and outputs all log information for that session to output.txt.
 
