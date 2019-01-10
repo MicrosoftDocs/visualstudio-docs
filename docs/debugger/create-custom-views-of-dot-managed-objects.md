@@ -10,7 +10,7 @@ dev_langs:
   - "FSharp"
   - "C++"
 helpviewer_keywords: 
-  - "data types [C#], custom"
+  - "data types, custom"
   - "custom data types"
   - "managed code, custom data types"
   - "autoexp.dat file"
@@ -33,7 +33,7 @@ For C++ code, you can add custom data type expansions using the Natvis framework
 
 ## Attributes
 
-In C#, Visual Basic, and C++ (C++/CLI code), you can add expansions for custom data using <xref:System.Diagnostics.DebuggerTypeProxyAttribute>, <xref:System.Diagnostics.DebuggerDisplayAttribute>, and <xref:System.Diagnostics.DebuggerBrowsableAttribute>.  
+In C#, Visual Basic, and C++ (C++/CLI code only), you can add expansions for custom data using <xref:System.Diagnostics.DebuggerTypeProxyAttribute>, <xref:System.Diagnostics.DebuggerDisplayAttribute>, and <xref:System.Diagnostics.DebuggerBrowsableAttribute>.  
   
 In [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)] code, Visual Basic does not support the DebuggerBrowsable attribute. This limitation is removed in more recent versions of the .NET Framework.    
 
