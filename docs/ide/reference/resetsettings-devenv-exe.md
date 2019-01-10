@@ -32,21 +32,23 @@ devenv /ResetSettings [SettingsFile|DefaultCollectionSpecifier]
 
 ## Arguments
 
-*SettingsFile*<br/>
-Optional. The full path and name of the settings file to apply to Visual Studio.
+- *SettingsFile*
 
-*DefaultCollectionSpecifier*<br/>
-Optional. A specifier representing a default collection of settings to restore. Choose one of the default collection specifiers listed in the table.
+  Optional. The full path and name of the settings file to apply to Visual Studio.
 
-| Default collection name | Collection specifier |
-| --- | --- |
-| **General** | `General` |
-| **JavaScript** | `JavaScript` |
-| **Visual Basic** | `VB` |
-| **Visual C#** | `CSharp` |
-| **Visual C++** | `VC` |
-| **Web Development** | `Web` |
-| **Web Development (Code Only)** | `WebCode` |
+- *DefaultCollectionSpecifier*
+
+  Optional. A specifier representing a default collection of settings to restore. Choose one of the default collection specifiers listed in the table.
+
+  | Default collection name | Collection specifier |
+  | --- | --- |
+  | **General** | `General` |
+  | **JavaScript** | `JavaScript` |
+  | **Visual Basic** | `VB` |
+  | **Visual C#** | `CSharp` |
+  | **Visual C++** | `VC` |
+  | **Web Development** | `Web` |
+  | **Web Development (Code Only)** | `WebCode` |
 
 ## Remarks
 

@@ -26,14 +26,17 @@ devenv /RunExit {SolutionName|ProjectName} [/Out OutputFilename]
 
 ## Arguments
 
-*SolutionName*<br/>
-The full path and name of a solution file.
+- *SolutionName*
 
-*ProjectName*<br/>
-The full path and name of a project file.
+  The full path and name of a solution file.
 
-`/Out` *OutputFilename*<br/>
-Optional. The name of a file that you want to send the tool's output to. If the file already exists, the tool appends the output to the end of the file.
+- *ProjectName*
+
+  The full path and name of a project file.
+
+- `/Out` *OutputFilename*
+
+  Optional. The name of a file that you want to send the tool's output to. If the file already exists, the tool appends the output to the end of the file.
 
 ## Remarks
 

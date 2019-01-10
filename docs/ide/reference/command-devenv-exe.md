@@ -26,8 +26,9 @@ devenv /Command CommandName
 
 ## Arguments
 
-*CommandName*<br/>
-Required. The complete name of a Visual Studio command or its alias, enclosed in double quotation marks. For more information about command and alias syntax, see [Visual Studio Commands](../../ide/reference/visual-studio-commands.md).
+- *CommandName*
+
+  Required. The complete name of a Visual Studio command or its alias, enclosed in double quotation marks. For more information about command and alias syntax, see [Visual Studio Commands](../../ide/reference/visual-studio-commands.md).
 
 ## Remarks
 

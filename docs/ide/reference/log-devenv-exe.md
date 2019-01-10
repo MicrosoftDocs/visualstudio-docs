@@ -30,8 +30,9 @@ devenv /Log NameOfLogFile
 
 ## Arguments
 
-*NameOfLogFile*<br/>
-Required. The full path and name of the log file to save to.
+- *NameOfLogFile*
+
+  Required. The full path and name of the log file to save to.
 
 ## Remarks
 

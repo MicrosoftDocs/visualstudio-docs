@@ -27,20 +27,25 @@ devenv SolutionName /Deploy [SolnConfigName [/Project ProjName [/ProjectConfig P
 
 ## Arguments
 
-*SolutionName*<br/>
-Required. The full path and name of the solution file.
+- *SolutionName*
 
-*SolnConfigName*<br/>
-Optional. The name of the solution configuration to be used to build the solution named in *SolutionName*. If this argument is left out, the tool uses the solution's active configuration.
+  Required. The full path and name of the solution file.
 
-`/Project` *ProjName*<br/>
-Optional. The path and name of a project file within the solution. You can enter the project's display name or a relative path from the *SolutionName* folder to the project file. You can also enter the full path and name of the project file.
+- *SolnConfigName*
 
-`/ProjectConfig` *ProjConfigName*<br/>
-Optional. The names of a project build configuration to be used when building the `/Project` named. If this switch is specified, it overrides the *SolnConfigName* argument.
+  Optional. The name of the solution configuration to be used to build the solution named in *SolutionName*. If this argument is left out, the tool uses the solution's active configuration.
 
-`/Out` *OutputFilename*<br/>
-Optional. The name of a file that you want to send the tool's output to. If the file already exists, the tool appends the output to the end of the file.
+- `/Project` *ProjName*
+
+  Optional. The path and name of a project file within the solution. You can enter the project's display name or a relative path from the *SolutionName* folder to the project file. You can also enter the full path and name of the project file.
+
+- `/ProjectConfig` *ProjConfigName*
+
+  Optional. The names of a project build configuration to be used when building the `/Project` named. If this switch is specified, it overrides the *SolnConfigName* argument.
+
+- `/Out` *OutputFilename*
+
+  Optional. The name of a file that you want to send the tool's output to. If the file already exists, the tool appends the output to the end of the file.
 
 ## Remarks
 

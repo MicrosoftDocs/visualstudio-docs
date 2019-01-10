@@ -26,18 +26,22 @@ devenv /Diff SourceFile TargetFile [SourceDisplayName [TargetDisplayName]]
 
 ## Arguments
 
-*SourceFile*<br/>
-Required. The full path and name of the first file to be compared.
+- *SourceFile*
 
-*TargetFile*<br/>
-Required. The full path and name of the second file to be compared.
+  Required. The full path and name of the first file to be compared.
 
-*SourceDisplayName*<br/>
-Optional. The display name of the first file.
+- *TargetFile*
 
-*TargetDisplayName*<br/>
-Optional. The display name of the second file.
+  Required. The full path and name of the second file to be compared.
 
+- *SourceDisplayName*
+
+  Optional. The display name of the first file.
+
+- *TargetDisplayName*
+
+  Optional. The display name of the second file.
+    
 ## Remarks
 
 If an instance of the IDE is already open, the file comparison appears in a tab in the current IDE.

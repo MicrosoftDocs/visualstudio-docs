@@ -33,7 +33,7 @@ Visual Studio allows developers to automate tasks from the command line when exe
 
 ## Guidelines for switches
 
-Visual Studio documentation describes the user-level `devenv` command-line switches. For more information, see [Devenv command-line switches](../ide/reference/devenv-command-line-switches.md). `devenv` also supports additional command-line switches that are useful with VSPackage development, deployment, and debugging.  
+Visual Studio documentation describes the user-level `devenv` command-line switches. For more information, see [Devenv command-line switches](../ide/reference/devenv-command-line-switches.md). The `devenv` tool also supports additional command-line switches that are useful with VSPackage development, deployment, and debugging.  
 
 | Command-line switch | Description |
 |---------------------| - |

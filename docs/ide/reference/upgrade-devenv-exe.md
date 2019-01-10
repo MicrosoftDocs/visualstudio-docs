@@ -26,14 +26,17 @@ devenv {SolutionFile|ProjectFile} /Upgrade [/Out OutputFilename]
 
 ## Arguments
 
-*SolutionFile*<br/>
-Required if you're upgrading an entire solution and its projects. The path and name of a solution file. You can enter just the name of the solution file, or a full path and the name of the solution file. If the folder or file named doesn't yet exist, it's created.
+- *SolutionFile*
 
-*ProjectFile*<br/>
-Required if you're upgrading a single project. The path and name of a project file within the solution. You can enter just the name of the project file, or a full path and the name of the project file. If the folder or file named doesn't yet exist, it's created.
+  Required if you're upgrading an entire solution and its projects. The path and name of a solution file. You can enter just the name of the solution file, or a full path and the name of the solution file. If the folder or file named doesn't yet exist, it's created.
 
-`/Out` *OutputFilename*<br/>
-Optional. The name of a file that you want to send the tool's output to. If the file already exists, the tool appends the output to the end of the file.
+- *ProjectFile*
+
+  Required if you're upgrading a single project. The path and name of a project file within the solution. You can enter just the name of the project file, or a full path and the name of the project file. If the folder or file named doesn't yet exist, it's created.
+
+- `/Out` *OutputFilename*
+
+  Optional. The name of a file that you want to send the tool's output to. If the file already exists, the tool appends the output to the end of the file.
 
 ## Remarks
 

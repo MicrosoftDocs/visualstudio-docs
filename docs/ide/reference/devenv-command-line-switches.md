@@ -74,13 +74,13 @@ The following command-line switches don't display the IDE.
 
 |Command line switch|Description|
 | - |-----------------|
-|[/?](q-devenv-exe.md)|Displays help for devenv switches in the **Command Prompt window**.<br /><br /> This switch takes no arguments.|
+|[/?](q-devenv-exe.md)|Displays help for `devenv` switches in the **Command Prompt window**.<br /><br /> This switch takes no arguments.|
 |[/Build](build-devenv-exe.md)|Builds the specified solution or project according to the configuration of the specified solution.<br /><br /> `devenv mysln.sln /build`|
 |[/Clean](clean-devenv-exe.md)|Deletes any files created by the build command, without affecting source files.<br /><br /> `devenv mysln.sln /clean`|
 |[/Deploy](deploy-devenv-exe.md)|Builds the solution, along with files necessary for deployment, according to the solution's configuration.<br /><br /> `devenv mysln.sln /deploy`|
 |[/Out](out-devenv-exe.md)|Lets you specify a file to receive errors when you build.<br /><br /> `devenv mysln.sln /build Debug /out log.txt`|
 |[/Project](project-devenv-exe.md)|The project to build, clean, or deploy. You can use this switch only if you've also supplied the `/Build`, `/Rebuild`, `/Clean`, or `/Deploy` switch.<br /><br /> `devenv mysln.sln /build Debug /project proj1`|
-|[/ProjectConfig](projectconfig-devenv-exe.md)|Specifies the project configuration to build or deploy. You can use this switch only if you've also supplied the `/Project` switch.<br /><br /> `devenv mysln.sln /build Debug /project proj1 /projectconfig Release`|
+|[/ProjectConfig](projectconfig-devenv-exe.md)|Specifies the project configuration to build or deploy. You can use this switch only if you've also supplied the `/Project` switch.<br /><br /> `devenv mysln.sln /build Release /project proj1 /projectconfig Release`|
 |[/Rebuild](rebuild-devenv-exe.md)|Cleans and then builds the specified solution or project according to the configuration of the specified solution.<br /><br /> `devenv mysln.sln /rebuild`|
 |[/ResetSettings](resetsettings-devenv-exe.md)|Restores Visual Studio default settings. Optionally resets the settings to the specified `.vssettings` file.<br /><br /> `devenv /resetsettings mysettings.vssettings`|
 |[/Upgrade](upgrade-devenv-exe.md)|Upgrades the specified solution file and all its project files, or the specified project file, to the current Visual Studio formats for these files.<br /><br /> `devenv mysln.sln /upgrade`|

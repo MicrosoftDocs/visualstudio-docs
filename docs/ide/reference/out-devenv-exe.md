@@ -32,8 +32,9 @@ devenv /Out FileName
 
 ## Arguments
 
-*FileName*<br/>
-Required. The path and name of the file to receive output when you build an executable.
+- *FileName*
+
+  Required. The path and name of the file to receive output when you build an executable.
 
 ## Remarks
 

@@ -32,8 +32,9 @@ devenv {/LCID|/L} LocaleID
 
 ## Arguments
 
-*LocaleID*<br/>
-Required. The LCID (locale ID) of the language you specify.
+- *LocaleID*
+
+  Required. The locale identifier (LCID) of the language you specify.
 
 ## Remarks
 

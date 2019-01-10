@@ -30,23 +30,29 @@ devenv SolutionName {/Build|/Clean|/Deploy|/Rebuild} [SolnConfigName [/Project P
 
 ## Arguments
 
-*SolutionName*<br/>
-Required. The full path and name of the solution file.
+- *SolutionName*
 
-{`/Build`|`/Clean`|`/Deploy`|`/Rebuild`}<br/>
-Required. [Builds](build-devenv-exe.md), [cleans](clean-devenv-exe.md), [deploys](deploy-devenv-exe.md), or [rebuilds](rebuild-devenv-exe.md) the project.
+  Required. The full path and name of the solution file.
 
-*SolnConfigName*<br/>
-Optional. The name of the solution configuration applied to the solution named in *SolutionName*. If this argument is left out, the tool uses the solution's active configuration.
+- {`/Build`|`/Clean`|`/Deploy`|`/Rebuild`}
 
-`/Project` *ProjName*<br/>
-Optional. The path and name of a project file within the solution. You can enter the project's display name or a relative path from the *SolutionName* folder to the project file. You can also enter the full path and name of the project file.
+  Required. [Builds](build-devenv-exe.md), [cleans](clean-devenv-exe.md), [deploys](deploy-devenv-exe.md), or [rebuilds](rebuild-devenv-exe.md) the project.
 
-`/ProjectConfig` *ProjConfigName*<br/>
-Optional. The project's build configuration name to be applied to the `/Project` named.
+- *SolnConfigName*
 
-`/Out` *OutputFilename*<br/>
-Optional. The name of a file that you want to send the tool's output to. If the file already exists, the tool appends the output to the end of the file.
+  Optional. The name of the solution configuration applied to the solution named in *SolutionName*. If this argument is left out, the tool uses the solution's active configuration.
+
+- `/Project` *ProjName*
+
+  Optional. The path and name of a project file within the solution. You can enter the project's display name or a relative path from the *SolutionName* folder to the project file. You can also enter the full path and name of the project file.
+
+- `/ProjectConfig` *ProjConfigName*
+
+  Optional. The project's build configuration name to be applied to the `/Project` named.
+
+- `/Out` *OutputFilename*
+
+  Optional. The name of a file that you want to send the tool's output to. If the file already exists, the tool appends the output to the end of the file.
 
 ## Remarks
 
