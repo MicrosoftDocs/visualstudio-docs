@@ -28,7 +28,7 @@ devenv /NoSplash [File1[ FileN]...]
 
 - *File1*
 
-  Optional. The file to open in an existing instance of Visual Studio. If no instance of Visual Studio exists, a new instance is created with a simplified window layout, and *File1* is opened in the new instance.
+  Optional. The file to open in an existing instance of Visual Studio. If no instance of Visual Studio exists, a new instance is created with a simplified window layout, and the tool opens *File1* in the new instance.
 
 - *FileN*
 

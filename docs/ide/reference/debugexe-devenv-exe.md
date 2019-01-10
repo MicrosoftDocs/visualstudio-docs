@@ -29,7 +29,7 @@ devenv /DebugExe ExecutableFile
 
 - *ExecutableFile*
 
-  Required. The path and file name of an .exe file. If the .exe file isn't found or doesn't exist, no warning or error is displayed and Visual Studio starts normally.
+  Required. The path and file name of an `.exe` file. If the `.exe` file isn't found or doesn't exist, no warning or error is displayed, and Visual Studio starts normally.
 
 ## Remarks
 
