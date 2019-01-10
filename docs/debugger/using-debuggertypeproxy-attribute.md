@@ -18,7 +18,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Using DebuggerTypeProxy Attribute (C#, Visual Basic)
+# Using DebuggerTypeProxy Attribute (C#, Visual Basic, C++/CLI)
 
 <xref:System.Diagnostics.DebuggerTypeProxyAttribute> specifies a proxy, or stand-in, for a type and changes the way the type is displayed in debugger windows. When you view a variable that has a proxy, the proxy stands in for the original type in the **display**. The debugger variable window displays only the public members of the proxy type. Private members are not displayed.
 
@@ -27,6 +27,9 @@ This attribute can be applied to:
 - Structures
 - Classes
 - Assemblies
+
+> [!NOTE]
+> For native code, the attribute is supported only in C++/CLI code.
 
 A type proxy class must have a constructor that takes an argument of the type that the proxy will replace. The debugger creates a new instance of the type proxy class every time it needs to display a variable of the target type. This can have performance implications. As a result, you should not do any more work in the constructor than absolutely necessary.
 
