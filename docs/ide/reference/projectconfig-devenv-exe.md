@@ -44,7 +44,7 @@ devenv SolutionName {/Build|/Clean|/Deploy|/Rebuild} [SolnConfigName [/Project P
 
 - *SolnConfigName*
 
-  Optional. The name of the solution configuration to be applied to the solution named in *SolutionName*. If more than one solution platform is available, you must also specify the platform (for example, `Debug|Win32`). If this argument is left out, the tool uses the solution's active configuration.
+  Optional. The name of the solution configuration to be applied to the solution named in *SolutionName*. If more than one solution platform is available, you must also specify the platform (for example, `Debug|Win32`). If this argument is unspecified or an empty string (`""`), the tool uses the solution's active configuration.
 
 - `/Project` *ProjName*
 

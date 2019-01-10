@@ -33,7 +33,7 @@ devenv SolutionName /Clean [Config [/Project ProjName [/ProjectConfig ProjConfig
 
 - *Config*
 
-  Optional. The configuration to clean the intermediary files for (such as `Debug` or `Release`). If this argument is left out, the tool uses the solution's active configuration.
+  Optional. The configuration to clean the intermediary files for (such as `Debug` or `Release`). If this argument is unspecified or an empty string (`""`), the tool uses the solution's active configuration.
 
 - `/Project` *ProjName*
 

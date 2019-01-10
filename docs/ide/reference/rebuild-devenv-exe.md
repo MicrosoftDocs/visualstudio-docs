@@ -34,7 +34,7 @@ devenv SolutionName /Rebuild [SolnConfigName [/Project ProjName [/ProjectConfig 
 
 - *SolnConfigName*
 
-  Optional. The name of the solution configuration to be used to rebuild the solution named in *SolutionName*. If this argument is left out, the tool uses the solution's active configuration.
+  Optional. The name of the solution configuration to be used to rebuild the solution named in *SolutionName*. If this argument is unspecified or an empty string (`""`), the tool uses the solution's active configuration.
 
 - `/Project` *ProjName*
 
