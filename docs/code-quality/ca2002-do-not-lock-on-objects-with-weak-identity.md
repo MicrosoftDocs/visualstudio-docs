@@ -2,7 +2,6 @@
 title: "CA2002: Do not lock on objects with weak identity"
 ms.date: 01/31/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "DoNotLockOnObjectsWithWeakIdentity"

@@ -24,7 +24,7 @@ Handles an event for entering a breakpoint.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT OnEnterBreakPoint(  
    IRemoteDebugApplicationThread*  prdat  
 );  

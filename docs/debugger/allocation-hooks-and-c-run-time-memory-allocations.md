@@ -1,8 +1,6 @@
 ---
 title: "Allocation Hooks and C Run-Time Memory Allocations | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.hooks"
@@ -24,7 +22,7 @@ ms.workload:
   - "multiple"
 ---
 # Allocation Hooks and C Run-Time Memory Allocations
-A very important restriction on allocation hook functions is that they must explicitly ignore `_CRT_BLOCK` blocks. These blocks are the memory allocations made internally by C run-time library functions if they make any calls to C run-time library functions that allocate internal memory. You can ignore `_CRT_BLOCK` blocks by including the folloiwng code at the beginning of your allocation hook function:  
+A very important restriction on allocation hook functions is that they must explicitly ignore `_CRT_BLOCK` blocks. These blocks are the memory allocations made internally by C run-time library functions if they make any calls to C run-time library functions that allocate internal memory. You can ignore `_CRT_BLOCK` blocks by including the following code at the beginning of your allocation hook function:  
   
 ```cpp
 if ( nBlockUse == _CRT_BLOCK )  

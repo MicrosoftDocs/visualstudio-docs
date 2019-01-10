@@ -1,9 +1,6 @@
 ---
 title: "Features available by Office application and project type"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -17,8 +14,8 @@ helpviewer_keywords:
   - "Office projects [Office development in Visual Studio], features available"
   - "add-ins [Office development in Visual Studio]"
   - "form regions [Office development in Visual Studio], features available"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -71,5 +68,3 @@ ms.workload:
  [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)   
  [Cached data in document-level customizations](../vsto/cached-data-in-document-level-customizations.md)   
  [Deploy an Office solution](../vsto/deploying-an-office-solution.md)  
-  
-  

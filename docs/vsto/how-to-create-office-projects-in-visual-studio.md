@@ -1,9 +1,8 @@
 ---
 title: "How to: Create Office projects in Visual Studio"
-ms.custom: ""
+titleSuffix: ""
+ms.custom: "seodec18"
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VST.SelectDocWizard.Page1"
@@ -19,8 +18,8 @@ helpviewer_keywords:
   - "projects [Office development in Visual Studio], creating"
   - "document-level customizations [Office development in Visual Studio], creating"
   - "application-level add-ins [Office development in Visual Studio], creating projects"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -158,5 +157,3 @@ ms.workload:
  [Collaborative development of Office solutions](../vsto/collaborative-development-of-office-solutions.md)   
  [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)   
  [Get started programming VSTO Add-ins](../vsto/getting-started-programming-vsto-add-ins.md)  
-  
-  

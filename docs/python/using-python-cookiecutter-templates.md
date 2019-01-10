@@ -1,13 +1,13 @@
 ---
-title: CookieCutter extension for Python
+title: Use CookieCutter templates with Python
 description: Visual Studio supports the graphical Cookiecutter extension to discover templates for Python code and create projects from those templates.
 ms.date: 10/29/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-python
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
 manager: douge
+ms.custom: seodec18
 ms.workload: 
   - python
   - data-science

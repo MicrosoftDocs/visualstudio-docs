@@ -1,9 +1,6 @@
 ---
 title: "Excel solutions"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -24,8 +21,8 @@ helpviewer_keywords:
   - "Office development in Visual Studio, Excel solutions"
   - "document-level customizations [Office development in Visual Studio], Excel"
   - "Office projects [Office development in Visual Studio], Excel"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -70,9 +67,7 @@ ms.workload:
 
  To create a VSTO Add-in project for Excel, use the Excel workbook or Excel template project templates in the **New Project** dialog box of Visual Studio. For more information, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).  
 
- For general information about how VSTO Add-ins work, see [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md).  
-
- ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Automate PowerPoint from an Excel Add-in?](http://go.microsoft.com/fwlink/?LinkID=130300).  
+ For general information about how VSTO Add-ins work, see [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md).
 
 ### Excel Add-in programming model  
  When you create an Excel VSTO Add-in project, Visual Studio generates a class, called `ThisAddIn`, which is the foundation of your solution. This class provides a starting point for writing your code, and it also exposes the object model of Excel to your VSTO Add-in.  
@@ -118,4 +113,3 @@ ms.workload:
 | [Walkthrough: Add controls to a worksheet at runtime in VSTO Add-in project](../vsto/walkthrough-adding-controls-to-a-worksheet-at-run-time-in-vsto-add-in-project.md) | Demonstrates how to add a Windows Forms button, a <xref:Microsoft.Office.Tools.Excel.NamedRange>, and a <xref:Microsoft.Office.Tools.Excel.ListObject> to a worksheet at runtime by using a VSTO Add-in. |
 | [Understand co-authoring and Add-ins](./understanding-coauthoring-and-addins.md) | Describes adjustments you might need to make to your solutions to accommodate coauthoring. |
 | [Excel 2010 in Office development](http://go.microsoft.com/fwlink/?LinkId=199011) | Provides links to articles and reference documentation about developing Excel solutions. These are not specific to Office development using Visual Studio. |
-

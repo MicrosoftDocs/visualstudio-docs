@@ -1,8 +1,7 @@
 ---
-title: "How to: Run the Worker Process Under a User Account | Microsoft Docs"
-ms.custom: ""
+title: "Run a worker process under a user account | Microsoft Docs"
+ms.custom: "seodec18"
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
@@ -83,4 +82,3 @@ To set up your computer so that you can run the [!INCLUDE[vstecasp](../code-qual
 ## See Also  
 [Debug ASP.NET Applications](../debugger/how-to-enable-debugging-for-aspnet-applications.md)   
 [ASP.NET Debugging: System Requirements](../debugger/aspnet-debugging-system-requirements.md)  
-  

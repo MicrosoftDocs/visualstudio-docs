@@ -1,12 +1,11 @@
 ---
-title: "Tips and Tricks for Visual Studio | Microsoft Docs"
+title: "Tips and Tricks | Microsoft Docs"
 ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
-  - "vs-ide-general"
+ms.technology: "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 20489db9-7441-4f8b-97de-c72070d569b1

@@ -1,8 +1,6 @@
 ---
-title: "View Threads in the Debugger | Microsoft Docs"
-ms.custom: ""
+title: "View threads in the debugger | Microsoft Docs"
 ms.date: "10/29/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.threads"

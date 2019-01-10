@@ -1,8 +1,6 @@
 ---
 title: "Set debug and release configurations | Microsoft Docs"
-ms.custom: ""
 ms.date: "10/05/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "reference"
 f1_keywords:
   - "vs.debug.builds"
@@ -40,7 +38,7 @@ Visual Studio projects have separate release and debug configurations for your p
 
 In debug configuration, your program compiles with full symbolic debug information and no optimization. Optimization complicates debugging, because the relationship between source code and generated instructions is more complex.
 
-The release configuration of your program has no symbolic debug information and is fully optimized. Debug information can be generated in .pdb files, [depending on the compiler options](#BKMK_symbols_release) that are used. Creating .pdb files can be useful if you later have to debug your release version.
+The release configuration of your program has no symbolic debug information and is fully optimized. For managed code and C++ code, debug information can be generated in .pdb files, [depending on the compiler options](#BKMK_symbols_release) that are used. Creating .pdb files can be useful if you later have to debug your release version.
 
 For more information about build configurations, see [Understand build configurations](../ide/understanding-build-configurations.md).
 

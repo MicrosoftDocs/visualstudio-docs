@@ -2,7 +2,6 @@
 title: Manage external tools
 ms.date: 11/20/2017
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 f1_keywords:
   - "vs.externaltools"
@@ -60,8 +59,8 @@ The following is a full list of arguments that can be used when defining an exte
 |Target Name|$(TargetName)|The file name of the item to be built.|
 |Target Extension|$(TargetExt)|The file name extension of the item to be built.|
 |Binary Directory|$(BinDir)|The final location of the binary that is being built (defined as drive + path).|
-|Project Directory|$(ProjDir)|The directory of the current project (drive + path).|
-|Project File Name|$(ProjFileName)|The file name of the current project (drive + path + file name).|
+|Project Directory|$(ProjectDir)|The directory of the current project (drive + path).|
+|Project File Name|$(ProjectFileName)|The file name of the current project (drive + path + file name).|
 |Solution Directory|$(SolutionDir)|The directory of the current solution (drive + path).|
 |Solution File Name|$(SolutionFileName)|The file name of the current solution (drive + path + file name).|
 

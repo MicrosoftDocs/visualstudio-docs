@@ -1,12 +1,11 @@
 ---
-title: "Write unit tests for C/C++ in Visual Studio"
+title: "Write unit tests for C/C++"
 ms.date: 10/09/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 ms.author: "mblome"
 manager: wpickett
-ms.workload: 
+ms.workload:
   - "cplusplus"
 author: mikeblome
 ---
@@ -113,7 +112,7 @@ For best practices related to unit testing, see [Unit test basics](unit-test-bas
 
 ## Use CodeLens
 
-**Visual Studio 2017 version 15.7 Professional and Enterprise Editions only**: 
+**Visual Studio 2017 version 15.7 Professional and Enterprise Editions only**:
 [CodeLens](../ide/find-code-changes-and-other-history-with-codelens.md) enables you to quickly see the status of a unit test without leaving the code editor. You can initialize CodeLens for a C++ unit test project in any of these ways:
 
 - Edit and build your test project or solution.

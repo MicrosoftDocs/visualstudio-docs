@@ -1,9 +1,8 @@
 ---
 title: "Measure memory usage in your apps"
 description: "Find memory leaks and inefficient memory while you're debugging with the debugger-integrated diagnostic tool."
-ms.custom: "mvc"
+ms.custom: "seodec18"
 ms.date: "04/25/2017"
-ms.technology: "vs-ide-debug"
 ms.topic: "tutorial"
 author: "mikejo5000"
 ms.author: "mikejo"
@@ -11,7 +10,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Profile memory usage in Visual Studio
+# Measure memory usage in Visual Studio
 Find memory leaks and inefficient memory while you're debugging with the debugger-integrated **Memory Usage** diagnostic tool. The Memory Usage tool lets you take one or more *snapshots* of the managed and native memory heap to help understand the memory usage impact of object types. You can collect snapshots of .NET, native, or mixed mode (.NET and native) apps.  
   
  The following graphic shows the **Diagnostic Tools** window (available in Visual Studio 2015 Update 1 and later versions):  

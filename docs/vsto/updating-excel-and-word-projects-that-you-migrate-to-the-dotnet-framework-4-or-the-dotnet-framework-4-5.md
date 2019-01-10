@@ -1,9 +1,6 @@
 ---
 title: "Update Excel and Word projects that you migrate to the .NET Framework 4 or the .NET Framework 4.5"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -232,5 +229,3 @@ private void DoSomethingToSheet(Microsoft.Office.Tools.Excel.Worksheet worksheet
  [Extend Word documents and Excel workbooks in VSTO Add-ins at runtime](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md)   
  [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md)   
  [Global access to objects in Office projects](../vsto/global-access-to-objects-in-office-projects.md)  
-  
-  

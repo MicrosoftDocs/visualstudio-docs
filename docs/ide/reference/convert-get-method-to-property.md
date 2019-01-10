@@ -1,8 +1,7 @@
 ---
-title: Convert Get method to property and convert a property to a Get method in Visual Studio
+title: Convert Get method to property and convert a property to a Get method
 ms.date: 01/26/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 ms.devlang: csharp
 author: gewarren

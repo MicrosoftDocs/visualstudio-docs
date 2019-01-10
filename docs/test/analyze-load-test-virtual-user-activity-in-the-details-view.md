@@ -1,5 +1,5 @@
 ---
-title: "Analyzing Load Test Virtual User Activity in Visual Studio"
+title: "Analyzing Load Test Virtual User Activity"
 ms.date: 10/03/2016
 ms.topic: conceptual
 f1_keywords:
@@ -12,7 +12,6 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ---
 # Analyzing load test virtual user activity in the Details view of the Load Test Analyzer
 

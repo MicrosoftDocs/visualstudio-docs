@@ -5,7 +5,6 @@ author: ghogen
 manager: douge
 assetId: 63cfaa2d-f04d-40dc-8677-345385c278d5
 ms.prod: visual-studio-dev15
-ms.technology: vs-azure
 ms.custom: vs-azure
 ms.workload: azure-vs
 ms.topic: conceptual
@@ -116,4 +115,3 @@ You can edit the JSON configuration file to change what is deployed. A webSite s
 
 ## Next steps
 For more information, see [Publish-WebApplicationVM (Windows PowerShell script)](vs-azure-tools-publish-webapplicationvm.md)
-

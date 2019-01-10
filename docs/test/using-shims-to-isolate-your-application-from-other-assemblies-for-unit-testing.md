@@ -1,8 +1,7 @@
 ---
-title: "Using shims to isolate your application for unit testing in Visual Studio"
+title: "Using shims to isolate your application for unit testing"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 ms.author: gewarren
 manager: douge

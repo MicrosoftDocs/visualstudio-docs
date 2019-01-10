@@ -1,9 +1,6 @@
 ---
 title: "Walkthrough: Extending a SharePoint Project Item Type | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -293,5 +290,3 @@ ms.workload:
  [Extend the SharePoint project system](../sharepoint/extending-the-sharepoint-project-system.md)   
  [Create a business data connectivity model](../sharepoint/creating-a-business-data-connectivity-model.md)   
  [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md)  
-  
-  

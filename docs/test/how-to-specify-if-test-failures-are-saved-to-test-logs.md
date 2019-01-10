@@ -1,5 +1,5 @@
 ---
-title: "Save load test log for test failures in Visual Studio"
+title: "Save load test log for test failures"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -10,7 +10,6 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ---
 # How to: Specify if test failures are saved to test logs using the Load Test Editor
 

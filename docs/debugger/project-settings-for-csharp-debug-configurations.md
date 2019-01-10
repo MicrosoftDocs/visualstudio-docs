@@ -1,8 +1,7 @@
 ---
-title: "Project Settings for  C# Debug Configurations | Microsoft Docs"
-ms.custom: ""
+title: "Project Settings for a C# debug config | Microsoft Docs"
+ms.custom: "seodec18"
 ms.date: "11/21/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "reference"
 dev_langs: 
   - "CSharp"

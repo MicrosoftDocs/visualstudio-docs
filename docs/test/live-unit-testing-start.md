@@ -1,8 +1,7 @@
 ---
-title: "Learn how to test your code with Live Unit Test in Visual Studio 2017 | Microsoft Docs"
+title: "Learn how to test your code with Live Unit Test 2017 | Microsoft Docs"
 ms.date: 08/31/2017
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 ms.topic: conceptual
 helpviewer_keywords:

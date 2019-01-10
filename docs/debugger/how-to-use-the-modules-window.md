@@ -1,8 +1,8 @@
 ---
-title: "View DLLs and executables in the Modules window | Microsoft Docs"
-ms.custom: "H1Hack27Feb2017"
+title: "View DLLs and executables"
+titleSuffix: Visual Studio Modules window
+ms.custom: "seodec18"
 ms.date: "11/04/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.modules"
@@ -35,7 +35,7 @@ During Visual Studio debugging, the **Modules** window lists and shows informati
   
 ## Use the Modules window
 
-To open the Modules window, while you're debugging, select **Debug** > **Windows** > **Modules**. 
+To open the Modules window, while you're debugging, select **Debug** > **Windows** > **Modules** (or press **Ctrl + Alt + U**). 
   
 By default, the **Modules** window sorts modules by load order. To sort by any window column, select the header at the top of the column.  
   

@@ -1,8 +1,7 @@
 ---
-title: "Analyze CPU usage in Visual Studio | Microsoft Docs"
-ms.custom: "H1Hack27Feb2017"
+title: "Analyze CPU usage | Microsoft Docs"
+ms.custom: "seodec18"
 ms.date: "11/04/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: 7501a20d-04a1-480f-a69c-201524aa709d
 author: "mikejo5000"
@@ -78,7 +77,7 @@ To view the call tree, select the parent node in the report. The **CPU Usage** p
 
  System and framework functions that are executed by your code are called *external code*. External code functions start and stop the app, draw the UI, control threading, and provide other low-level services to the app. In most cases, you aren't interested in external code, so the CPU Usage call tree gathers the external functions of a user method into one **[External Code]** node.  
   
- To view the call paths of external code, on the main diagnostic report page, select **Show External Code** from the **Filter** dropdown, and then select **Apply**. The **Call Tree** view of the **CPU Usage** page then expands the external code calls.  
+ To view the call paths of external code, on the main diagnostic report page (right pane), select **Show External Code** from the **Filter** dropdown, and then select **Apply**. The **Call Tree** view of the **CPU Usage** page then expands the external code calls. (The **Filter** dropdown is available on the main diagnostic page, not the detailed views.)
   
  ![Show External Code](../profiling/media/cpu_use_wt_filterview.png "Show External Code")  
   

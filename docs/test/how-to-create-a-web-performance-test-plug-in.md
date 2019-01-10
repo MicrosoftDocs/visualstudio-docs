@@ -1,5 +1,5 @@
 ---
-title: "Create a Web Performance Test Plug-In for Visual Studio"
+title: "Create a Web Performance Test Plug-In"
 ms.date: 10/03/2016
 ms.topic: conceptual
 f1_keywords:
@@ -12,7 +12,6 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ---
 # How to: Create a web performance test plug-in
 

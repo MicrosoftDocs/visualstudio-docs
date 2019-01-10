@@ -24,7 +24,7 @@ Returns a short or long textual description of the language.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetLanguageString(  
    BOOL   fLong,  
    BSTR*  pbstrLanguage  

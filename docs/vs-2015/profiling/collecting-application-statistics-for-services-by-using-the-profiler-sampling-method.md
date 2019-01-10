@@ -46,7 +46,7 @@ This section describes the procedures and options for collecting performance sta
 |Task|Related Content|  
 |----------|---------------------|  
 |**Profile stand-alone (client) applications**|-   [Collecting Application Statistics Using Sampling](../profiling/collecting-application-statistics-for-stand-alone-applications-by-using-the-profiler-command-line.md)|  
-|**Profile ASP.NET Web applications**|-   [Collecting Application Statistics Using Sampling](../profiling/collecting-application-statistics-for-aspnet-web-applications-using-the-profiler-sampling-method-from-the-command-line.md)|  
+|**Profile ASP.NET Web applications**|-   [Collecting Application Statistics Using Sampling](/visualstudio/profiling/collecting-concurrency-data-for-an-aspnet-web-application?view=vs-2015)|  
   
 ### Analyzing Sampling Data Views and Reports  
  [Sampling Method Data Views](../profiling/profiler-sampling-method-data-views.md)

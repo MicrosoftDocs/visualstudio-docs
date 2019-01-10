@@ -24,7 +24,7 @@ Returns language information.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetLanguageFlags(  
    DWORD              *pgrfasa  
 );  

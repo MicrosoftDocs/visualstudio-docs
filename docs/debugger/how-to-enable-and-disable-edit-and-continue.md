@@ -1,8 +1,7 @@
 ---
-title: "How to: Enable and disable Edit and Continue (C#, VB, C++) | Microsoft Docs"
-ms.custom: ""
+title: "How to: Enable and disable Edit and Continue | Microsoft Docs"
+ms.custom: "seodec18"
 ms.date: "10/04/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"

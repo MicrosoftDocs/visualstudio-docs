@@ -1,8 +1,8 @@
 ---
-title: "Error: The Microsoft Visual Studio Remote Debugging Monitor (MSVSMON.EXE) does not appear to be running on the remote computer. | Microsoft Docs"
-ms.custom: ""
+title: "Error: The Microsoft Visual Studio Remote Debugging Monitor (MSVSMON.EXE) does not appear to be running on the remote computer."
+titleSuffix: ""
+ms.custom: "seodec18"
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "troubleshooting"
 f1_keywords: 
   - "vs.debug.error.server_machine_no_default"

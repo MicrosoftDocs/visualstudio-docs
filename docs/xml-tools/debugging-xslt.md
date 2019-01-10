@@ -2,7 +2,6 @@
 title: "Debugging XSLT"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-xml-tools
 ms.topic: conceptual
 ms.assetid: 344940bd-c41e-4ed9-8458-3e3aa8e6bb37
 author: gewarren
@@ -26,5 +25,5 @@ The [XSLT profiler](../xml-tools/xslt-profiler.md) is a tool that allows develop
 
 - [Editing XSLT style sheets](../xml-tools/editing-xslt-style-sheets.md) discusses using the XML Editor to edit style sheets.
 - [Security considerations when working with XML data](../xml-tools/security-considerations-when-working-with-xml-data.md) discusses security issues that you need to know about when working the XML Editor or the XSLT debugger.
-- [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md) introduces the Visual Studio debugger.
+- [Debugging in Visual Studio](../debugger/debugger-feature-tour.md) introduces the Visual Studio debugger.
 - [XSLT reference](https://msdn.microsoft.com/678bcd68-cbbb-4be5-9dd2-40f94488a1cf) provides reference material for XSLT elements and functions.

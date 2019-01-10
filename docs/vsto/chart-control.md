@@ -1,9 +1,6 @@
 ---
 title: "Chart control"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VST.ProjectItem.ExcelChart"
@@ -14,8 +11,8 @@ helpviewer_keywords:
   - "Chart control [Office development in Visual Studio], events"
   - "Chart control [Office development in Visual Studio]"
   - "Chart control [Office development in Visual Studio], data binding"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -78,5 +75,3 @@ ms.workload:
  [How to: Add Chart controls to worksheets](../vsto/how-to-add-chart-controls-to-worksheets.md)   
  [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)   
  [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)  
-  
-  

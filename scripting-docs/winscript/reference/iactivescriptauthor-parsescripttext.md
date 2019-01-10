@@ -24,7 +24,7 @@ Parses script text, adds the text to the script authoring engine, and creates an
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT ParseScriptText(  
    LPCOLESTR pszCode,  
    LPCOLESTR pszItemName,  

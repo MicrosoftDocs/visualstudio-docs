@@ -1,9 +1,6 @@
 ---
 title: "Deploy an Office solution"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -21,8 +18,8 @@ helpviewer_keywords:
   - "Office solutions [Office development in Visual Studio], deploying"
   - "deploying applications [Office development in Visual Studio], troubleshooting"
   - "solutions [Office development in Visual Studio], deploying Office solutions (2007 system)"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -44,5 +41,3 @@ ms.workload:
  [Deploy an Office solution by using ClickOnce](../vsto/deploying-an-office-solution-by-using-clickonce.md)   
  [Deploy an Office solution by using Windows Installer](../vsto/deploying-an-office-solution-by-using-windows-installer.md)   
  [Troubleshoot Office solution deployment](../vsto/troubleshooting-office-solution-deployment.md)  
-  
-  

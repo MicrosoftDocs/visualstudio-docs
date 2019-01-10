@@ -1,5 +1,5 @@
 ---
-title: "Create a web performance and load test project in Visual Studio"
+title: "Create a web performance and load test project"
 ms.date: 03/14/2018
 ms.topic: quickstart
 helpviewer_keywords:
@@ -8,7 +8,6 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ---
 # Quickstart: Create a load test project
 

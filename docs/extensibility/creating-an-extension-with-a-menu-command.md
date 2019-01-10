@@ -1,9 +1,6 @@
 ---
 title: "Creating an Extension with a Menu Command | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "write a vspackage"
@@ -49,23 +46,15 @@ This walkthrough shows how to create an extension with a menu command that launc
 2.  Find the private FirstCommand constructor. This is where the command is hooked up to the command service and the command handler is specified. Change the name of the command handler to StartNotepad, as follows:  
   
     ```csharp  
-    private FirstCommand(Package package)  
+    private FirstCommand(AsyncPackage package, OleMenuCommandService commandService)  
     {  
-        if (package == null)  
-        {  
-            throw new ArgumentNullException(nameof(package));  
-        }  
-  
-        this.package = package;  
-  
-         OleMenuCommandService commandService = this.ServiceProvider.GetService(typeof(IMenuCommandService)) as OleMenuCommandService;  
-        if (commandService != null)  
-        {  
-            CommandID menuCommandID = new CommandID(CommandSet, CommandId);  
-            // Change to StartNotepad handler.  
-            MenuCommand menuItem = new MenuCommand(this.StartNotepad, menuCommandID);  
-            commandService.AddCommand(menuItem);  
-        }  
+        this.package = package ?? throw new ArgumentNullException(nameof(package));
+        commandService = commandService ?? throw new ArgumentNullException(nameof(commandService));
+
+        CommandID menuCommandID = new CommandID(CommandSet, CommandId);
+        // Change to StartNotepad handler.
+        MenuCommand menuItem = new MenuCommand(this.StartNotepad, menuCommandID);
+        commandService.AddCommand(menuItem);
     }  
     ```  
   
@@ -126,6 +115,6 @@ This walkthrough shows how to create an extension with a menu command that launc
   
 4. Add IntelliSense, code suggestions, and other features to existing code editors: [Extend the editor and language services](../extensibility/extending-the-editor-and-language-services.md)  
   
-5. Add Options and Property pages and user settings to your extension: [Extend properties and the Property window](../extensibility/extending-properties-and-the-property-window.md) and [Extend user settings and Ooptions](../extensibility/extending-user-settings-and-options.md)  
+5. Add Options and Property pages and user settings to your extension: [Extend properties and the Property window](../extensibility/extending-properties-and-the-property-window.md) and [Extend user settings and options](../extensibility/extending-user-settings-and-options.md)  
   
-   Other kinds of extensions require a little more work, such as creating a new type of project ([Extend projects](../extensibility/extending-projects.md)), creating a new type of editor ([Creat custom editors and designers](../extensibility/creating-custom-editors-and-designers.md)), or implementing your extension in an isolated shell: [Visual Studio isolated shell](../extensibility/visual-studio-isolated-shell.md)
+   Other kinds of extensions require a little more work, such as creating a new type of project ([Extend projects](../extensibility/extending-projects.md)), creating a new type of editor ([Creat custom editors and designers](../extensibility/creating-custom-editors-and-designers.md)), or implementing your extension in an isolated shell: [Visual Studio isolated shell](/visualstudio/extensibility/shell/visual-studio-isolated-shell)

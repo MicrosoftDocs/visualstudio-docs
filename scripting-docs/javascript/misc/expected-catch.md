@@ -1,5 +1,5 @@
 ---
-title: "Expected &#39;catch&#39; | Microsoft Docs"
+title: "Expected 'catch' | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
 ms.prod: "windows-client-threshold"
@@ -21,7 +21,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 ---
-# Expected &#39;catch&#39;
+# Expected 'catch'
 You used the exception handling **try** block, but did not write the associated **catch** statement. The exception handling mechanism requires that the code that can fail, along with the code that should not execute if an exception occurs, be wrapped inside a **try** block. Exceptions are thrown from within the **try** block using the **throw** statement, and caught outside the **try** block with one or more **catch** statements.  
   
 ### To correct this error  

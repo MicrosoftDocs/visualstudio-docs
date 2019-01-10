@@ -1,8 +1,7 @@
 ---
-title: Install a custom start page or change the startup item in Visual Studio
+title: Install custom start page or change startup item
 ms.date: 02/01/2017
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 f1_keywords:
   - "vs.ToolsOptionsPages.Startup"

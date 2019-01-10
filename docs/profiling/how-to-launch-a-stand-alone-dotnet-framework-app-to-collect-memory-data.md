@@ -1,8 +1,6 @@
 ---
 title: "How to: Launch a Stand-Alone .NET Framework Application with the Profiler to Collect Memory Data by Using the Command Line | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: 3bc53041-91b7-4ad0-8413-f8bf2c4b3f5e
 author: "mikejo5000"
@@ -23,7 +21,7 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
 -   Ending the profiling session.  
 
 > [!NOTE]
->  Command-line tools of the Profiling Tools are located in the *\Team Tools\Performance Tools* subdirectory of the [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] installation directory. On 64-bit computers, both 64-bit and 32-bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the Command Prompt window or add it to the command itself. For more information, see [Specify the path to command-line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md).  
+>  To get the path to the profiling tools, see [Specify the path to command line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md). On 64-bit computers, both 64-bit and 32-bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the Command Prompt window or add it to the command itself.
 
 ## Start the application with the profiler  
  To start a target application by using the profiler, you use the **VSPerfCmd.exe/start** and **/launch** options to initialize the profiler and start the application. You can specify **/start** and **/launch** and their respective options on one command line.  

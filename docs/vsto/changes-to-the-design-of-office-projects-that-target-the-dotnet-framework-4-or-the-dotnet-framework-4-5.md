@@ -1,9 +1,6 @@
 ---
 title: "Changes to the design of Office projects that target the .NET Framework"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -11,8 +8,8 @@ dev_langs:
 helpviewer_keywords: 
   - "Office development in Visual Studio, what's new"
   - "what's new [Office development in Visual Studio]"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -29,7 +26,7 @@ ms.workload:
   
 -   [Update Excel and Word projects that you migrate to the .NET Framework 4 or the .NET Framework 4.5](../vsto/updating-excel-and-word-projects-that-you-migrate-to-the-dotnet-framework-4-or-the-dotnet-framework-4-5.md)  
   
--   [Update Ribbon customizations in Office projects that you migrate to the .NET Framework 4 or the .NET Framework 4.5](../vsto/updating-ribbon-customizations-in-office-projects-that-you-migrate-to-the-dotnet-framework-4-or-the-dotnet-framework-4-5.md)  
+-   [Update Ribbon customizations in Office projects that you migrate to the .NET Framework 4 or the .NET Framework 4.5](/visualstudio/vsto/update-ribbon-customizations-in-office-projects-to-migrate-to-dotnet-framework-4-or-4-5)  
   
 -   [Update form regions in Outlook projects that you migrate to the .NET Framework 4 or the .NET Framework 4.5](../vsto/updating-form-regions-in-outlook-projects-that-you-migrate-to-the-dotnet-framework-4-or-the-dotnet-framework-4-5.md)  
   
@@ -45,7 +42,7 @@ ms.workload:
 |---------------------|-----------------|  
 |The <xref:System.Security.SecurityTransparentAttribute> is no longer used or supported in Office projects.|You must remove this attribute from the AssemblyInfo code file in Office projects that you upgrade from Visual Studio 2008. For more information, see [Required changes to run Office projects that you migrate to the .NET Framework 4 or the .NET Framework 4.5](../vsto/required-changes-to-run-office-projects-that-you-migrate-to-the-dotnet-framework-4-or-the-dotnet-framework-4-5.md).|  
 |The **ExcelLocale1033Attribute** is no longer used or supported in Excel projects.|You must remove this attribute from the *AssemblyInfo* code file in Excel projects. For more information, see [Update Excel and Word projects that you migrate to the .NET Framework 4 or the .NET Framework 4.5](../vsto/updating-excel-and-word-projects-that-you-migrate-to-the-dotnet-framework-4-or-the-dotnet-framework-4-5.md).|  
-|The programming model of **Ribbon (Visual Designer)** project items has changed.|You must modify the code-behind file for any ribbon items in your project. You must also modify any code that instantiates ribbon controls at runtime, handles ribbon events, or sets the position of a ribbon component programmatically. For more information, see [Update Ribbon customizations in Office projects that you migrate to the .NET Framework 4 or the .NET Framework 4.5](../vsto/updating-ribbon-customizations-in-office-projects-that-you-migrate-to-the-dotnet-framework-4-or-the-dotnet-framework-4-5.md).|  
+|The programming model of **Ribbon (Visual Designer)** project items has changed.|You must modify the code-behind file for any ribbon items in your project. You must also modify any code that instantiates ribbon controls at runtime, handles ribbon events, or sets the position of a ribbon component programmatically. For more information, see [Update Ribbon customizations in Office projects that you migrate to the .NET Framework 4 or the .NET Framework 4.5](/visualstudio/vsto/update-ribbon-customizations-in-office-projects-to-migrate-to-dotnet-framework-4-or-4-5).|  
 |The programming model of Outlook form regions has changed.|You must modify the code-behind file for any form regions in your project and any code that instantiates certain form region classes at runtime. For more information, see [Update form regions in Outlook projects that you migrate to the .NET Framework 4 or the .NET Framework 4.5](../vsto/updating-form-regions-in-outlook-projects-that-you-migrate-to-the-dotnet-framework-4-or-the-dotnet-framework-4-5.md).|  
 |The programming model for smart tags in Excel and Word projects has changed. Smart tags are deprecated in [!INCLUDE[Excel_14_short](../vsto/includes/excel-14-short-md.md)] and [!INCLUDE[Word_14_short](../vsto/includes/word-14-short-md.md)].|If your solution uses smart tags, errors will occur when you build the project. Because smart tags are deprecated in [!INCLUDE[Excel_14_short](../vsto/includes/excel-14-short-md.md)] and [!INCLUDE[Word_14_short](../vsto/includes/word-14-short-md.md)], you must remove the tags before you can test and debug the solution in [!INCLUDE[vs_dev12](../vsto/includes/vs-dev12-md.md)] or later.|  
 |The syntax of the `GetVstoObject` and `HasVstoObject` methods has changed|You must pass the `Globals.Factory` object to these methods when you access them on native objects from the primary interop assemblies (PIAs), or you can access these methods on the object that is returned by the `Globals.Factory` property in your project. For more information, see [Update Excel and Word projects that you migrate to the .NET Framework 4 or the .NET Framework 4.5](../vsto/updating-excel-and-word-projects-that-you-migrate-to-the-dotnet-framework-4-or-the-dotnet-framework-4-5.md).|  
@@ -57,5 +54,3 @@ ms.workload:
  [Migrate Office solutions to the .NET Framework 4 or later](../vsto/migrating-office-solutions-to-the-dotnet-framework-4-or-later.md)   
  [What's new in Office development](https://msdn.microsoft.com/library/bf054af2-c896-4723-aa15-6381145b14bb)   
  [Visual Studio Tools for Office runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md)  
-  
-  

@@ -1,13 +1,14 @@
 ---
-title: Tutorial - Learn Django in Visual Studio, step 6
+title: Learn Django tutorial in Visual Studio step 6, Polls project template
+titleSuffix: ""
 description: A walkthrough of Django basics in the context of Visual Studio projects, specifically the features of the Polls Django Web Project template such as administrative customization.
 ms.date: 11/19/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-python
 ms.topic: tutorial
 author: kraigb
 ms.author: kraigb
 manager: douge
+ms.custom: seodec18
 ms.workload: 
   - python
   - data-science

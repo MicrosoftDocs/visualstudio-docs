@@ -2,7 +2,6 @@
 title: "Static helper classes | Microsoft IntelliTest Developer Test Tool"
 ms.date: 05/02/2017
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: reference
 helpviewer_keywords: 
   - "IntelliTest, Static helper classes"

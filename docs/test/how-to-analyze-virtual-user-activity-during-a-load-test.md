@@ -1,5 +1,5 @@
 ---
-title: "Analyze Virtual User Activity for load tests in Visual Studio"
+title: "Analyze Virtual User Activity for load tests"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -9,7 +9,6 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ---
 # How to: Analyze what virtual users are doing during a load test using the virtual user activity chart
 

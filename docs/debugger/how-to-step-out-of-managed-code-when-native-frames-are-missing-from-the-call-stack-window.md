@@ -1,8 +1,7 @@
 ---
-title: "How to: Step out of Managed Code when Native Frames are Missing from the Call Stack Window | Microsoft Docs"
-ms.custom: ""
+title: "Step out of C# code when native frames are missing from the call stack | Microsoft Docs"
+ms.custom: "seodec18"
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs:
   - "CSharp"

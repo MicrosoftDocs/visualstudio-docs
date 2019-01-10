@@ -1,5 +1,5 @@
 ---
-title: "Load Test Results Summary Overview in Visual Studio"
+title: "Load Test Results Summary Overview"
 ms.date: 10/19/2016
 ms.topic: conceptual
 f1_keywords:
@@ -15,7 +15,6 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ---
 # Load test results summary overview
 

@@ -1,8 +1,7 @@
 ---
-title: "Debug Multithreaded Applications in Visual Studio | Microsoft Docs"
-ms.custom: ""
+title: "Debug multithreaded applications | Microsoft Docs"
+ms.custom: "seodec18"
 ms.date: "11/06/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.gputthreads"

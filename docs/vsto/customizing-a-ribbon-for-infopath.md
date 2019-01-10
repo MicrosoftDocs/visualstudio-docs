@@ -1,9 +1,6 @@
 ---
 title: "Customize a Ribbon for InfoPath"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -11,8 +8,8 @@ dev_langs:
 helpviewer_keywords: 
   - "InfoPath [Office development in Visual Studio], Ribbon"
   - "Ribbon [Office development in Visual Studio], InfoPath"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -63,5 +60,3 @@ ms.workload:
  [Ribbon overview](../vsto/ribbon-overview.md)   
  [Ribbon designer](../vsto/ribbon-designer.md)   
  [Ribbon XML](../vsto/ribbon-xml.md)  
-  
-  

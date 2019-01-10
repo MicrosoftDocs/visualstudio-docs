@@ -24,7 +24,7 @@ Resumes the thread.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Resume(  
    DWORD*  pdwCount  
 );  

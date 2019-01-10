@@ -24,7 +24,7 @@ Provides asynchronous access to a given synchronous debug operation.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT CreateAsyncDebugOperation(  
    IDebugSyncOperation*    psdo,  
    IDebugAsyncOperation**  ppado  

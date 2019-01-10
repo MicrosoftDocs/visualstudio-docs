@@ -1,9 +1,6 @@
 ---
 title: "How to: Programmatically close Visio documents"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -11,8 +8,8 @@ dev_langs:
 helpviewer_keywords: 
   - "documents [Office development in Visual Studio], closing Visio documents"
   - "Visio [Office development in Visual Studio], closing Visio documents"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -40,5 +37,3 @@ ms.workload:
  [How to: Programmatically open Visio documents](../vsto/how-to-programmatically-open-visio-documents.md)   
  [How to: Programmatically save Visio documents](../vsto/how-to-programmatically-save-visio-documents.md)   
  [How to: Programmatically print Visio documents](../vsto/how-to-programmatically-print-visio-documents.md)  
-  
-  

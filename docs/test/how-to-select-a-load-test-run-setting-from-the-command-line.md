@@ -1,5 +1,5 @@
 ---
-title: "Set Visual Studio load test run settings from the command line"
+title: "Set load test run settings from the command line"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -10,7 +10,6 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ---
 # How to: Select a load test run setting to use from the command line
 

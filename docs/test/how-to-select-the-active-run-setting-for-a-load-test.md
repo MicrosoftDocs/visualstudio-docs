@@ -1,5 +1,5 @@
 ---
-title: "Select a Run Setting for a Load Test in Visual Studio"
+title: "Select a Run Setting for a Load Test"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -9,7 +9,6 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ---
 # How to: Select the active run setting for a load test
 

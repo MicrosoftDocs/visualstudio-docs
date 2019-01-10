@@ -3,7 +3,6 @@ title: "Deployment feature tour"
 description: "Learn about your options for deploying apps from Visual Studio."
 ms.custom: "mvc"
 ms.date: 06/22/2018
-ms.technology: vs-ide-deployment
 ms.topic: "quickstart"
 dev_langs:
   - "FSharp"
@@ -50,7 +49,7 @@ Deployment to a local folder is typically used for testing, or to begin a staged
 
     In Visual Studio 2017 version 15.7 and later, you can deploy ASP.NET Core apps to **App Service for Linux**.
 
-    For Python apps, also see [Python - Publishing to Azure App Service](/visualstudio/python/publishing-python-web-applications-to-azure-from-visual-studio?toc=/visualstudio/deployment/toc.json&bc=/visualstudio/deployment/_breadcrumb/toc.json).
+    For Python apps, also see [Python - Publishing to Azure App Service](../python/publishing-python-web-applications-to-azure-from-visual-studio.md?toc=/visualstudio/deployment/toc.json&bc=/visualstudio/deployment/_breadcrumb/toc.json).
 
     For a quick introduction, see [Publish to Azure](quickstart-deploy-to-azure.md) and [Publish to Linux](quickstart-deploy-to-linux.md). Also, see [Publish an ASP.NET Core app to Azure](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs). For deployment using Git, see [Continuous deployment of ASP.NET Core to Azure with Git](/aspnet/core/publishing/azure-continuous-deployment).
 

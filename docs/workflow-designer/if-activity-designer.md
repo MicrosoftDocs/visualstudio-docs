@@ -3,7 +3,6 @@ title: "Workflow Designer - If Activity Designer"
 ms.date: 11/04/2016
 ms.topic: reference
 ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 f1_keywords:
   - "System.Activities.Statements.If.UI"
 ms.assetid: 930a8fa2-db98-43e9-ad6d-a85cc7a6519a

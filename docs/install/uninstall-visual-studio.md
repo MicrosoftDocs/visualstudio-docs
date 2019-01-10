@@ -1,9 +1,9 @@
 ---
-title: "Uninstall Visual Studio 2017"
+title: "Uninstall Visual Studio"
+titleSuffix: ""
 description: "Learn how to uninstall Visual Studio, step-by-step."
-ms.custom: ""
 ms.date: 08/16/2017
-ms.technology: vs-acquisition
+ms.custom: "seodec18"
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
@@ -16,7 +16,7 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Uninstall Visual Studio
+# Uninstall Visual Studio 2017
 
 This page walks you through uninstalling Visual Studio, our integrated suite of productivity tools for developers.
 

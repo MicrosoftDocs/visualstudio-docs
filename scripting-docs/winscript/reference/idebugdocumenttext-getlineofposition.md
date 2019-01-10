@@ -24,7 +24,7 @@ Returns the line number and, optionally, the character offset within the line th
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetLineOfPosition(  
    ULONG   cCharacterPosition,  
    ULONG*  pcLineNumber,  

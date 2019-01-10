@@ -5,8 +5,7 @@ ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
+ms.technology: "vs-devops-test"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords:
@@ -50,6 +49,3 @@ manager: "wpickett"
 
 ## See Also
  [Security-Transparent Code, Level 2](http://msdn.microsoft.com/library/4d05610a-0da6-4f08-acea-d54c9d6143c0)
-
-
-

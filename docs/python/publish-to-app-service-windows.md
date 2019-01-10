@@ -1,13 +1,13 @@
 ---
-title: Publishing a Python app to Azure App Service on Windows
+title: Publish a Python app to Azure App Service on Windows
 description: How to publish a Python web application directly to Azure App Service on Windows from Visual Studio, including the necessary content for the web.config file.
-ms.date: 10/18/2018
+ms.date: 01/07/2019
 ms.prod: visual-studio-dev15
-ms.technology: vs-python
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
 manager: douge
+ms.custom: seodec18
 ms.workload: 
   - python
   - data-science
@@ -75,7 +75,7 @@ If desired, you can also install the `bottle` package using the process in those
 
 Publishing to Azure App Service from Visual Studio 2017 copies only the files in your project to the server. It's necessary, therefore, to create the necessary files to configure the server environment.
 
-1. In Visual Studio **Solution Explorer**, right-click the project and select **Add > New Item...*. In the dialog that appears, selecting the "Azure web.config (Fast CGI)" template and select OK. This creates a `web.config` file in your project root.
+1. In Visual Studio **Solution Explorer**, right-click the project and select **Add > New Item...**. In the dialog that appears, selecting the "Azure web.config (Fast CGI)" template and select OK. This creates a `web.config` file in your project root.
 
 1. Modify the `PythonHandler` entry in `web.config` so that the path matches the Python installation on the server (see [IIS Configuration Reference](https://www.iis.net/configreference) (iis.net) for exact details). For example, for Python 3.6.1 x64 the entry should appear as follows:
 

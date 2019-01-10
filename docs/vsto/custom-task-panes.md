@@ -1,9 +1,6 @@
 ---
 title: "Custom task panes"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -23,8 +20,8 @@ helpviewer_keywords:
   - "custom task panes [Office development in Visual Studio]"
   - "task panes [Office development in Visual Studio], about custom task panes"
   - "custom task panes [Office development in Visual Studio], about custom task panes"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

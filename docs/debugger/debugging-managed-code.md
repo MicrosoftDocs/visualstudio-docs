@@ -1,8 +1,6 @@
 ---
 title: "Debugging Managed Code | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
@@ -21,7 +19,7 @@ ms.workload:
 ---
 # Debugging Managed Code
 
-This section covers common debugging problems and techniques for managed applications, or applications written in languages that target the common language runtime, such as Visual Basic, C#, and C++. The techniques described here are high-level techniques. For more information, see [Using the Debugger](../debugger/getting-started-with-the-debugger.md).
+This section covers common debugging problems and techniques for managed applications, or applications written in languages that target the common language runtime, such as Visual Basic, C#, and C++. The techniques described here are high-level techniques. [First look at the debugger](../debugger/debugger-feature-tour.md).
 
 ## In This Section
 
@@ -71,7 +69,7 @@ Provides considerations for debugging Windows service applications, including se
 [Debugging and Profiling](/dotnet/framework/debug-trace-profile/index)  
 Discusses debugging .NET Framework applications and the configuration requirements.
 
-[Debugging Script and Web Applications](../debugger/debugging-web-applications-and-script.md)  
+[Debugging Script and Web Applications](/visualstudio/debugger/how-to-enable-debugging-for-aspnet-applications)  
 Describes common debugging problems and techniques you may encounter when debugging script and Web applications.
 
 [What's New for the Debugger in Visual Studio 2015](../debugger/what-s-new-for-the-debugger-in-visual-studio.md)  

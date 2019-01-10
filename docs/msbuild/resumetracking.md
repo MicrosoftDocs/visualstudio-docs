@@ -1,8 +1,6 @@
 ---
 title: "ResumeTracking | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: msbuild
 ms.topic: "conceptual"
 apiname: 
   - "ResumeTracking"

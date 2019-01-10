@@ -1,5 +1,5 @@
 ---
-title: Generating Files with the TextTransform Utility in Visual Studio
+title: Generating Files with the TextTransform Utility
 ms.date: 03/22/2018
 ms.topic: conceptual
 helpviewer_keywords:
@@ -11,7 +11,6 @@ manager: douge
 ms.workload:
   - "multiple"
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Generate files with the TextTransform utility
 

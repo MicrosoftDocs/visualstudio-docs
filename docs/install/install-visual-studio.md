@@ -1,9 +1,9 @@
 ---
-title: "Install Visual Studio 2017 | Microsoft Docs"
+title: "Install Visual Studio"
+titleSuffix: ""
 description: "Learn how to install Visual Studio, step-by-step."
-ms.custom: ""
 ms.date: 05/07/2018
-ms.technology: vs-acquisition
+ms.custom: "seodec18"
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
@@ -135,7 +135,7 @@ For more information, see the [Change installation locations in Visual Studio](c
 
    For example, to [build a C++ app](../ide/getting-started-with-cpp-in-visual-studio.md), click **Installed**, expand **Visual C++**, and then select the C++ project type that you want to build.
 
-   To [build a C# app](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md), click **Installed**, expand **Visual C#**, and then select the C# project type that you want to build.
+   To [build a C# app](../get-started/csharp/tutorial-wpf.md), click **Installed**, expand **Visual C#**, and then select the C# project type that you want to build.
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 

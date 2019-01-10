@@ -1,13 +1,13 @@
 ---
-title: Debugging Python code
-description: A walkthrough of the debugging features in Visual Studio specifically for Python code, including setting breakpoints, stepping, inspecting values, looking at exceptions, and debugging in the interactive window.
-ms.date: 10/10/2018
+title: Debug Python code
+description: Visual Studio provide rich debugging for Python code, including setting breakpoints, stepping, inspecting values, looking at exceptions, and debugging in the interactive window.
+ms.date: 01/07/2019
 ms.prod: visual-studio-dev15
-ms.technology: vs-python
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
 manager: douge
+ms.custom: seodec18
 ms.workload:
   - python
   - data-science
@@ -49,7 +49,7 @@ A debugging session starts with the **Debug** > **Start Debugging** command, the
 
 Breakpoints stop execution of code at a marked point so you can inspect the program state. Set breakpoints by clicking in the left margin of the code editor or by right-clicking a line of code and selecting **Breakpoint** > **Insert Breakpoint**. A red dot appears on each line with a breakpoint.
 
-![Breakpoints in Visual Studio](media/debugging-breakpoints.png)
+![Breakpoints appearing in Visual Studio](media/debugging-breakpoints.png)
 
 Clicking the red dot or right-clicking the line of code and selecting **Breakpoint** > **Delete Breakpoint** removes the breakpoint. You can also disable it without removing it using the **Breakpoint** > **Disable Breakpoint** command.
 
@@ -78,31 +78,31 @@ Once stopped at a breakpoint, you have various ways to step through code or run 
 
 ### Inspect and modify values
 
-When stopped in the debugger, you can inspect and modify the values of variables. You can also use the **Watch** window to monitor individual variables as well as custom expressions. (See [Inspect variables](../debugger/getting-started-with-the-debugger.md#inspect-variables-with-the-autos-and-locals-windows) for general details.)
+When stopped in the debugger, you can inspect and modify the values of variables. You can also use the **Watch** window to monitor individual variables as well as custom expressions. (See [Inspect variables](../debugger/debugger-feature-tour.md#inspect-variables-with-the-autos-and-locals-windows) for general details.)
 
 To view a value using **DataTips**, simply hover the mouse over any variable in the editor. You can click on the value to change it:
 
-![DataTips in the debugger](media/debugging-quick-tips.png)
+![DataTips showing in the Visual Studio debugger](media/debugging-quick-tips.png)
 
 The **Autos** window (**Debug** > **Windows** > **Autos**) contains variables and expressions that are close to the current statement. You can double-click in the value column or select and press **F2** to edit the value:
 
-![Autos window in the debugger](media/debugging-autos-window.png)
+![Autos window in the Visual Studio debugger](media/debugging-autos-window.png)
 
 The **Locals** window (**Debug** > **Windows** > **Locals**) displays all variables that are in the current scope, which can again be edited:
 
-![Locals window in the debugger](media/debugging-locals-window.png)
+![Locals window in the Visual Studio debugger](media/debugging-locals-window.png)
 
 For more on using **Autos** and **Locals**, see [Inspect variables in the Autos and Locals windows](../debugger/autos-and-locals-windows.md).
 
 The **Watch** windows (**Debug** > **Windows** > **Watch** > **Watch 1-4**) allow you to enter arbitrary Python expressions and view the results. Expressions are reevaluated for each step:
 
-![Watch window in the debugger](media/debugging-watch-window.png)
+![Watch window in the Visual Studio debugger](media/debugging-watch-window.png)
 
 For more on using **Watch**, see [Set a watch on variables using the Watch and QuickWatch windows](../debugger/watch-and-quickwatch-windows.md).
 
 When inspecting a string value(`str`, `unicode`, `bytes`, and `bytearray` are all considered strings for this purpose), a magnifying glass icon appears on the right side of the value. Clicking the icon displays the unquoted string value in a popup dialog, with wrapping and scrolling, which is useful for long strings. In addition, selecting the drop-down arrow on the icon allows you to select plain text, HTML, XML, and JSON visualizations:
 
-![String visualizers](media/debugging-string-visualizers.png)
+![String visualizers in the Visual Studio debugger](media/debugging-string-visualizers.png)
 
 HTML, XML, and JSON visualizations appear in separate popup windows with syntax highlighting and tree views.
 
@@ -110,13 +110,13 @@ HTML, XML, and JSON visualizations appear in separate popup windows with syntax 
 
 If an error occurs in your program during debugging, but you don't have an exception handler for it, the debugger breaks at the point of the exception:
 
-![Exception popup](media/debugging-exception-popup.png)
+![Exception popup in the Visual Studio debugger](media/debugging-exception-popup.png)
 
 At this point you can inspect the program state, including the call stack. However, if you attempt to step through the code, the exception continues being thrown until it is either handled or your program exits.
 
 The **Debug** > **Windows** > **Exception Settings** menu command brings up a window in which you can expand **Python Exceptions**:
 
-![Exceptions window](media/debugging-exception-settings.png)
+![Exceptions window in the Visual Studio debugger](media/debugging-exception-settings.png)
 
 The checkbox for each exception controls whether the debugger *always* breaks when it is raised. Check this box when you want to break more often for a particular exception.
 
@@ -128,7 +128,7 @@ To configure an exception that does not appear in this list, click the **Add** b
 
 By default, the debugger starts your program with the standard Python launcher, no command-line arguments, and no other special paths or conditions. Startup options are changed through the project's debug properties accessed by right-clicking your project in **Solution Explorer**, selecting **Properties**, and selecting the **Debug** tab.
 
-![Project debug properties](media/debugging-project-properties.png)
+![Project debug properties in the Visual Studio debugger](media/debugging-project-properties.png)
 
 ### Launch mode options
 

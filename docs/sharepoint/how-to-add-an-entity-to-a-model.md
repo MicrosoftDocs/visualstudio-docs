@@ -1,15 +1,10 @@
 ---
 title: "How to: Add an Entity to a Model | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "EntityTool"
 dev_langs: 
-  - "VB"
-  - "CSharp"
   - "VB"
   - "CSharp"
 helpviewer_keywords: 
@@ -52,5 +47,3 @@ ms.workload:
  [How to: Add an Updater method](../sharepoint/how-to-add-an-updater-method.md)   
  [How to: Add a Finder method](../sharepoint/how-to-add-a-finder-method.md)   
  [How to: Add a specific Finder method](../sharepoint/how-to-add-a-specific-finder-method.md)  
-  
- 

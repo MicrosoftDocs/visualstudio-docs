@@ -1,13 +1,8 @@
 ---
 title: "Packaging and Deploying SharePoint Solutions | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
-  - "VB"
-  - "CSharp"
   - "VB"
   - "CSharp"
 helpviewer_keywords: 
@@ -103,4 +98,3 @@ ms.workload:
 ## See also
  [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)   
  [Build and debug SharePoint solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)  
-  

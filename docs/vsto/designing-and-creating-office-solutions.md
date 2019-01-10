@@ -1,9 +1,6 @@
 ---
 title: "Design and create Office solutions"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -13,8 +10,8 @@ helpviewer_keywords:
   - "Office development in Visual Studio, creating solutions"
   - "solutions [Office development in Visual Studio], creating"
   - "Office project types in Visual Studio"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -102,5 +99,3 @@ ms.workload:
  [Common tasks in Office programming](../vsto/common-tasks-in-office-programming.md)   
  [Develop Office solutions](../vsto/developing-office-solutions.md)   
  [Architecture of Office solutions in Visual Studio](../vsto/architecture-of-office-solutions-in-visual-studio.md)  
-  
-  

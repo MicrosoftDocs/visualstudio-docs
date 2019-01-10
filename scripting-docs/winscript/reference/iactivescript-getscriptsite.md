@@ -24,7 +24,7 @@ Retrieves the site object associated with the Windows Script engine.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetScriptSite(  
     REFIID iid,           // interface identifier  
     void **ppvSiteObject  // address of host site interface  

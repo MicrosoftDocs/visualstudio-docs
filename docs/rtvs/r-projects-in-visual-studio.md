@@ -3,7 +3,6 @@ title: R projects
 description: How to create an manager R projects in Visual Studio including properties, project commands, and templates.
 ms.date: 06/29/2017
 ms.prod: visual-studio-dev15
-ms.technology: vs-rtvs
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
@@ -58,7 +57,7 @@ If you have an existing folder of *.R* files that you want to manage in a projec
 
 ## Project properties
 
-To open the project property pages, right-click the project in **Solution Explorer** and select **Properties**, or select the **Project > (project name) properties* menu item. The window that opens displays project properties:
+To open the project property pages, right-click the project in **Solution Explorer** and select **Properties**, or select the **Project > (project name) properties** menu item. The window that opens displays project properties:
 
 
 | Tab | Property | Description | 

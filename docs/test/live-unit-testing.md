@@ -1,8 +1,7 @@
 ---
-title: "Live Unit Testing in Visual Studio"
+title: "Live Unit Testing"
 ms.date: 2017-03-07
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 helpviewer_keywords:
   - "Visual Studio ALM"
@@ -75,7 +74,7 @@ The configurable options include:
 - The directory in which to store persisted data.
 
 - The ability to delete all persisted data. This is useful when Live Unit Testing is behaving in unpredictable or unexpected ways, which suggests that the persisted data has become corrupted.
-   
+
 - The interval after which a test case times out; the default is 30 seconds.
 
 - The maximum number of test processes that Live Unit Testing creates.
@@ -198,4 +197,3 @@ You can also use the following attributes to exclude individual methods from Liv
 - [Live Unit Testing blog](https://go.microsoft.com/fwlink/?linkid=842514)
 - [Live Unit Testing FAQ](live-unit-testing-faq.md)
 - [Channel 9 video: Live Unit Testing in Visual Studio 2017](https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2017-Launch/T105)
-

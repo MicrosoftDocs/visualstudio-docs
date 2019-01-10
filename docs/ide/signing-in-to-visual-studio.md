@@ -1,11 +1,10 @@
 ---
-title: "Sign in to Visual Studio"
-ms.custom: ""
-ms.date: 11/16/2017
+title: Sign in to Visual Studio
+titleSuffix: ""
+ms.custom: seodec18
+ms.date: 12/10/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-acquisition
 ms.topic: conceptual
-ms.prod: visual-studio-dev15
 ms.assetid: b9531c25-e4cf-43ae-b331-a9f31a8cd171
 author: TerryGLee
 ms.author: tglee
@@ -15,14 +14,14 @@ ms.workload:
 ---
 # Sign in to Visual Studio
 
-You can personalize and optimize your development experience in Visual Studio if you set your Personalization account by signing in to the IDE.
+You can personalize and optimize your development experience in Visual Studio if you set your personalization account by signing in to the IDE.
 
 > [!NOTE]
 > This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Sign in to Visual Studio for Mac](/visualstudio/mac/signing-in).
 
 ## Why should I sign in to Visual Studio?
 
-When you sign in, you enrich your Visual Studio experience. For example, after you sign in, you can synchronize your settings across devices, extend a trial, and automatically connect to an Azure service, to name a few.
+When you sign in, you enrich your Visual Studio experience. For example, after you sign in, you can [synchronize your settings](synchronized-settings-in-visual-studio.md) across devices, extend a trial, and automatically connect to an Azure service, to name a few.
 
 Here's a full list of what you can expect and what you can do after you sign in:
 
@@ -64,7 +63,7 @@ If you encounter any problems while signing in, please see the [Accounts support
 
 ## See also
 
-* [How to Unlock Visual Studio](../ide/how-to-unlock-visual-studio.md)
-* [Visual Studio IDE Overview](../ide/visual-studio-ide.md)
+* [How to unlock Visual Studio](../ide/how-to-unlock-visual-studio.md)
+* [Visual Studio IDE overview](../get-started/visual-studio-ide.md)
 * [Sign in (Visual Studio for Mac)](/visualstudio/mac/signing-in)
 * [Activation (Visual Studio for Mac)](/visualstudio/mac/activation)

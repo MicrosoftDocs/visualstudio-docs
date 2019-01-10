@@ -1,6 +1,6 @@
 ---
-title: "What&#39;s New in Visual Studio 2015 | Microsoft Docs"
-ms.custom: ""
+title: "What's New in Visual Studio 2015 | Microsoft Docs"
+titleSuffix: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
@@ -131,7 +131,7 @@ To find out more about the many improvements and new features in Visual Studio A
 -   **C++ / Android**. Use the [Visual C++ for Cross-Platform Mobile Development](http://msdnstage.redmond.corp.microsoft.com/library/dn872463\(v=vs.140\).aspx) templates along with third-party tools like the [Android NDK](https://developer.android.com/tools/sdk/ndk/index.html) to create native apps for Windows and Android.
 
 ## Debugging and Diagnostics
- For information about what’s new in debugging, see [What’s New for the Debugger in Visual Studio 2015](./debugger/what’s-new-for-the-debugger-in-visual-studio-2015.md).
+ For information about what’s new in debugging, see [What’s New for the Debugger in Visual Studio 2015](/visualstudio/debugger/what-s-new-for-the-debugger-in-visual-studio-2015?view=vs-2015).
 
  For information about what’s new in diagnostics, see [What's New in Profiling Tools](./profiling/what-s-new-in-profiling-tools.md).
 
@@ -263,6 +263,7 @@ To find out more about the many improvements and new features in Visual Studio A
  First, send a frown as described above. On the dialog that pops up, you can tag your feedback with either one of the default tags or create your own tag. Tags help us route your feedback to the appropriate feature team. In the **Choose a category** drop down list, select the option that represents the issue you’re reporting then follow the steps to reproduce the issue. Detailed steps on how to use Visual Studio to report feedback are also available. For more information, see [Visual Studio Send a Smile Instructions](http://msdn.microsoft.com/library/5cc9b67a-54d0-41b0-aa8f-80dff4475a6b).
 
 ## See Also
+
 * [Build cross-platform apps with Apache Cordova](http://msdn.microsoft.com/library/34d3c1be-22b3-4812-97fb-10b4e8ad2134)
 * [Build apps with native UI using Xamarin in Visual Studio](./cross-platform/build-apps-with-native-ui-using-xamarin-in-visual-studio.md)
 * [Build cross-platform mobile apps with Visual C++](./misc/build-cross-platform-mobile-apps-with-visual-cpp.md)

@@ -2,7 +2,6 @@
 title: "XML Editor IntelliSense Features"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-xml-tools
 ms.topic: conceptual
 ms.assetid: 2b26f214-cc3a-46bf-b260-14eb8e599182
 author: gewarren

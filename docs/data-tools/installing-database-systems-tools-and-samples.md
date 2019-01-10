@@ -1,5 +1,5 @@
 ---
-title: Visual Studio database compatibility
+title: Database compatibility
 ms.date: 09/06/2017
 ms.topic: conceptual
 helpviewer_keywords:
@@ -11,7 +11,6 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
 ms.workload:
   - "data-storage"
 ---

@@ -2,7 +2,6 @@
 title: "CA2137: Transparent methods must contain only verifiable IL"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA2137"

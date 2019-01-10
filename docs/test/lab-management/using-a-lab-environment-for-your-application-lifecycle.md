@@ -1,8 +1,7 @@
 ---
-title: "Use a lab environment for devops in Visual Studio"
+title: "Use a lab environment for devops"
 ms.date: 05/02/2017
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 helpviewer_keywords:
   - "lab environment, test lab"

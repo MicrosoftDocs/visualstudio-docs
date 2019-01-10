@@ -1,8 +1,7 @@
 ---
-title: "How to: Get Back to the Function that Called MFC If Halted | Microsoft Docs"
-ms.custom: ""
+title: "Get back to the function that called MFC if halted | Microsoft Docs"
+ms.custom: "seodec18"
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.debug.mfc"

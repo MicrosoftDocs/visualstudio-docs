@@ -1,8 +1,7 @@
 ---
-title: "Visual Studio Test Explorer FAQ"
+title: "Test Explorer FAQ"
 ms.date: 11/07/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 helpviewer_keywords:
   - "Test Explorer"
@@ -117,7 +116,7 @@ Instead of using test adapter extensions, projects are required to use test adap
 Recent UWP test projects specify a test platform build property that allows better performance for identifying test apps. If you have a UWP test project that was initialized before Visual Studio version 15.7, you may see this error in **Output** > **Tests**:
 
 **System.AggregateException: One or more errors occurred. ---> System.InvalidOperationException: The following TestContainer was not found {} at Microsoft.VisualStudio.TestWindow.Controller.TestContainerProvider <GetTestContainerAsync>d__61.MoveNext()**
-  
+
 To fix this error:
 
 - Update your test project build property using the following code:

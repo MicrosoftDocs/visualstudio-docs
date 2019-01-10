@@ -1,9 +1,6 @@
 ---
 title: "VBA and Office solutions in Visual Studio compared"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -50,5 +47,3 @@ ms.workload:
  [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md)   
  [Secure Office solutions](../vsto/securing-office-solutions.md)   
  [Get started &#40;Office development in Visual Studio&#41;](../vsto/getting-started-office-development-in-visual-studio.md)  
-  
-  

@@ -1,8 +1,8 @@
 ---
-title: "Visual Studio Integration (MSBuild) | Microsoft Docs"
-ms.custom: ""
+title: "Visual Studio Integration (MSBuild)"
+titleSuffix: ""
+ms.custom: "seodec18"
 ms.date: "11/04/2016"
-ms.technology: msbuild
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "MSBuild, reference resolution"

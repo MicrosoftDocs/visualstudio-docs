@@ -2,7 +2,6 @@
 title: "How to: Start Debugging XSLT"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-xml-tools
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren
@@ -88,4 +87,4 @@ namespace ConsoleApplication
 ## See also
 
 - [Walkthrough: Debug an XSLT style sheet](../xml-tools/walkthrough-debug-an-xslt-style-sheet.md)
-- [Debugger basics](../debugger/getting-started-with-the-debugger.md)
+- [First look at the debugger](../debugger/debugger-feature-tour.md)   

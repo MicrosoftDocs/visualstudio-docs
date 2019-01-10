@@ -1,9 +1,7 @@
 ---
-title: "Debug a Parallel Application | Microsoft Docs"
+title: "Debug a parallel application | Microsoft Docs"
 description: Debug using the Parallel Tasks and Parallel Stacks windows in Visual Studio
-ms.custom: ""
 ms.date: "03/22/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
@@ -292,7 +290,7 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
   
 ## See Also  
  [Debugging Multithreaded Applications](../debugger/walkthrough-debugging-a-parallel-application.md)   
- [Debugger Basics](../debugger/getting-started-with-the-debugger.md)   
+ [First look at the debugger](../debugger/debugger-feature-tour.md)  
  [Debugging Managed Code](../debugger/debugging-managed-code.md)   
  [Parallel Programming](/dotnet/standard/parallel-programming/index)   
  [Concurrency Runtime](/cpp/parallel/concrt/concurrency-runtime)   

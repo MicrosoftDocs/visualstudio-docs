@@ -22,7 +22,7 @@ Notifies the profiler object that the scripting engine encountered a function wh
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT FunctionCompiled(  
     [in] PROFILER_TOKEN functionId,  
     [in] PROFILER_TOKEN scriptId,  

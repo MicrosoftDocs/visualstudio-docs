@@ -24,7 +24,7 @@ Removes a stack frame enumerator provider from this application.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT RemoveStackFrameSniffer(  
    DWORD  dwCookie  
 );  

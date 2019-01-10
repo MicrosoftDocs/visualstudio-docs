@@ -1,8 +1,7 @@
 ---
-title: "How Can I Keep Focus When Stepping Through My Program? | Microsoft Docs"
-ms.custom: ""
+title: "Keep focus when stepping through my app | Microsoft Docs"
+ms.custom: "seodec18"
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.stepping"
@@ -23,7 +22,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How Can I Keep Focus When Stepping Through My Program?
+# How Can I Keep Focus When Stepping Through My App?
 ## Description  
  My program has a window-activation problem. Stepping through the program with the debugger interferes with my ability to reproduce the problem because my program keeps losing focus. Is there any way to avoid this?  
   

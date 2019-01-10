@@ -18,7 +18,7 @@ Gets the next object or objects in the set of heap objects from the [IActiveScri
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Next (    [in] ULONG celt,    [out, size_is(celt), length_is(*pceltFetched)] PROFILER_HEAP_OBJECT** heapObjects,     [out] ULONG *pceltFetched);  
 ```  
   

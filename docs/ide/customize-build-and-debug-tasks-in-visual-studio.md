@@ -1,8 +1,7 @@
 ---
-title: Customize build and debug tasks in Visual Studio using tasks.vs.json and launch.vs.json
+title: Customize build debug tasks using tasks.vs.json launch.vs.json
 ms.date: 02/21/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:
   - NMAKE [Visual Studio]

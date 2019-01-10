@@ -2,7 +2,6 @@
 title: C# IntelliSense
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:
   - "C#, IntelliSense"
@@ -159,4 +158,4 @@ If you press **Tab**, IntelliSense stubs out a method with the correct signature
 ## See also
 
 - [Use IntelliSense](../ide/using-intellisense.md)
-- [Visual Studio IDE](../ide/visual-studio-ide.md)
+- [Visual Studio IDE](../get-started/visual-studio-ide.md)

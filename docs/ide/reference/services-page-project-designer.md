@@ -2,7 +2,6 @@
 title: Services Page, Project Designer
 ms.date: 01/18/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "vb.ProjectPropertiesServices"

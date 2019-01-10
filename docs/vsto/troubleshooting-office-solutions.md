@@ -1,9 +1,6 @@
 ---
 title: "Troubleshoot Office solutions"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -46,5 +43,3 @@ ms.workload:
   
  [Common tasks in Office programming](../vsto/common-tasks-in-office-programming.md)  
  Lists frequently asked questions about programming Office solutions and provides links to topics that can help solve common problems.  
-  
-  

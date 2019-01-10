@@ -1,5 +1,5 @@
 ---
-title: "Coded web performance tests in Visual Studio"
+title: "Coded web performance tests"
 ms.date: 10/03/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -15,7 +15,6 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ---
 # Generate and run a coded web performance test
 

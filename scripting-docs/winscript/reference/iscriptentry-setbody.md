@@ -24,7 +24,7 @@ Sets the text that is in the body of an `IScriptEntry` script block or an `IScri
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT SetBody(  
    LPCOLESTR          psz  
 );  

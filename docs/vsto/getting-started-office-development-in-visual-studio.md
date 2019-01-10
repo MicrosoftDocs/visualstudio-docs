@@ -1,17 +1,16 @@
 ---
 title: "Get started (Office development in Visual Studio)"
-ms.custom: ""
+titleSuffix: ""
+ms.custom: "seodec18"
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
 helpviewer_keywords: 
   - "Office development in Visual Studio, getting started"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -71,5 +70,3 @@ ms.workload:
   
  [Visual Studio Tools for Office technical articles and Visual How Tos](http://go.microsoft.com/fwlink/?LinkID=106640)  
  Contains links into videos and technical articles about Office solutions created by using Visual Studio.  
-  
-  

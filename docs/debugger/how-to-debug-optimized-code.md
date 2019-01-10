@@ -1,8 +1,6 @@
 ---
 title: "How to: Debug Optimized Code | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.debug"
@@ -70,7 +68,7 @@ ms.workload:
 
 8. If you chose the `Custom` option for `Optimization`, you can now set options for any of the other properties shown in the properties list.
 
-9. Select the Configuation Properties, C/C++, Command Line node of the project properties page, and add `(`[/Zo](/cpp/build/reference/zo-enhance-optimized-debugging)`)` to the **Additional Options** text box.
+9. Select the Configuration Properties, C/C++, Command Line node of the project properties page, and add `(`[/Zo](/cpp/build/reference/zo-enhance-optimized-debugging)`)` to the **Additional Options** text box.
 
     > [!WARNING]
     >  `/Zo` requires Visual Studio 2013 Update 3 or a later version.

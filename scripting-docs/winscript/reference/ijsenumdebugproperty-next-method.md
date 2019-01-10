@@ -22,7 +22,7 @@ Reads properties for this object.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Next(  
    ULONG count,  
    IJsDebugProperty **ppDebugProperty,  

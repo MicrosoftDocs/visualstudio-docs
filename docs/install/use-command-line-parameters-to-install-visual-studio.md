@@ -1,9 +1,9 @@
 ---
 title: "Use command-line parameters to install Visual Studio"
+titleSuffix: ""
 description: "Learn how to use command-line parameters to control or customize your Visual Studio installation."
-ms.custom: ""
 ms.date: 11/14/2018
-ms.technology: vs-acquisition
+ms.custom: "seodec18"
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
@@ -49,7 +49,7 @@ The command-line options are used in conjunction with the setup bootstrapper, wh
 | `update` | Updates an installed product. |
 | `repair` | Repairs an installed product. |
 | `uninstall` | Uninstalls an installed product. |
-| `export` | **New in 15.9**: Exports installation selection to an installation configuration file. |
+| `export` | **New in 15.9**: Exports installation selection to an installation configuration file. **Note**: Can only be used with vs_installer.exe. |
 
 | **Install option** | **Description** |
 | ----------------------- | --------------- |

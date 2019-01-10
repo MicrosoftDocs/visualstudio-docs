@@ -1,8 +1,6 @@
 ---
 title: "Set a Watch on Variables in Parallel Threads | Microsoft Docs"
-ms.custom: ""
 ms.date: "04/25/2017"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.parallelwatch"
@@ -30,7 +28,7 @@ In the Parallel Watch window, you can simultaneously display the values that one
 - A configurable column that can display the machine, process, tile, task, and thread.  
   
   > [!TIP]
-  >  To dislay task information in the **Parallel Watch** window, you must first open the **Task** window.  
+  >  To display task information in the **Parallel Watch** window, you must first open the **Task** window.  
   
 - The blank *add watch* columns, in which you can enter expressions to watch.  
   

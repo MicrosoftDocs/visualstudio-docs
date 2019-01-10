@@ -10,7 +10,6 @@ manager: douge
 author: gewarren
 ms.author: gewarren
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ---
 # F1 help
 
@@ -22,7 +21,7 @@ If you are looking for F1 help on a keyword or API name, be sure the cursor is p
 
 ## Useful links
 
-- For general information about Visual Studio, see [Visual Studio overview](../../ide/visual-studio-ide.md).
+- For general information about Visual Studio, see [Visual Studio overview](../../get-started/visual-studio-ide.md).
 - For help on the Visual Studio text editor, see [Use the code editor](../../ide/writing-code-in-the-code-and-text-editor.md).
 - For C# help, see the [C# guide](/dotnet/csharp/index).
 - For Visual Basic help, see the [Visual Basic guide](/dotnet/visual-basic/).

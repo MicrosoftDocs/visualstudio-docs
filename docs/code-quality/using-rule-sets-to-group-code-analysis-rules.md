@@ -2,7 +2,6 @@
 title: Code analysis rule sets
 ms.date: 04/02/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: conceptual
 f1_keywords:
   - "vs.codeanalysis.rulesets.learnmore"

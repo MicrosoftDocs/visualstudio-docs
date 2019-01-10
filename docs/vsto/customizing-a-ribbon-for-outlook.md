@@ -1,9 +1,6 @@
 ---
 title: "Customize a Ribbon for Outlook"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -14,8 +11,8 @@ helpviewer_keywords:
   - "customizing the Ribbon, about customizing the Ribbon"
   - "custom Ribbon, about customizing the Ribbon"
   - "Ribbon [Office development in Visual Studio], Outlook"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -52,5 +49,3 @@ ms.workload:
  [Ribbon overview](../vsto/ribbon-overview.md)   
  [Ribbon designer](../vsto/ribbon-designer.md)   
  [Ribbon XML](../vsto/ribbon-xml.md)  
-  
-  

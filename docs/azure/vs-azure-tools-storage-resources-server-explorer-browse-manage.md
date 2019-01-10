@@ -5,7 +5,6 @@ author: ghogen
 manager: douge
 assetId: 658dc064-4a4e-414b-ae5a-a977a34c930d
 ms.prod: visual-studio-dev15
-ms.technology: vs-azure
 ms.custom: vs-azure
 ms.workload: azure-vs
 ms.topic: conceptual
@@ -289,4 +288,4 @@ If you delete a storage account from Server Explorer, it doesn’t affect your s
 
 ## Next steps
 
-To learn more about how to use Azure storage services, see [Accessing the Azure Storage Services](https://msdn.microsoft.com/library/azure/ee405490.aspx).
+To learn more about how to use Azure storage services, see [Accessing the Azure Storage Services](/azure/storage/common/storage-introduction).

@@ -24,7 +24,7 @@ Returns the `IScriptNode` root of the author's script tree.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetRoot(  
    IScriptNode        **ppsp  
 );  

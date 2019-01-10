@@ -1,8 +1,7 @@
 ---
-title: "Unit Test Basics in Visual Studio"
+title: "Unit Test Basics"
 ms.date: 2016-01-07
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 f1_keywords:
   - "vs.UnitTest.CreateUnitTest"
@@ -20,7 +19,7 @@ Unit testing has the greatest effect on the quality of your code when it's an in
 
 You can quickly generate test projects and test methods from your code, or manually create the tests as you need them. When you use IntelliTest to explore your .NET code, you can generate test data and a suite of unit tests. For every statement in the code, a test input is generated that will execute that statement. Find out how to [generate unit tests for your code](generate-unit-tests-for-your-code-with-intellitest.md).
 
-Test Explorer can also run third-party and open source unit test frameworks that have implemented Test Explorer add-on interfaces. You can add many of these frameworks through the Visual Studio Extension Manager and the Visual Studio gallery. See [Install third-party unit test frameworks](../test/install-third-party-unit-test-frameworks.md)
+Test Explorer can also run third-party and open source unit test frameworks that have implemented Test Explorer add-on interfaces. You can add many of these frameworks through the Visual Studio Extension Manager and the Visual Studio gallery. For more information, see [Install third-party unit test frameworks](../test/install-third-party-unit-test-frameworks.md).
 
 ## Get started
 
@@ -251,7 +250,7 @@ For more information, see [Run unit tests with Test Explorer](../test/run-unit-t
 
 2.  In **Test Explorer**, select the test methods and then choose **Debug Selected Tests** from the shortcut menu.
 
-Learn more details about [debugging unit tests](../debugger/debugging-in-visual-studio.md).
+Learn more details about [debugging unit tests](../debugger/debugger-feature-tour.md).
 
 **Q: If I'm using TDD, how do I generate code from my tests?**
 

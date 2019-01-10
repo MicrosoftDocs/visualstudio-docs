@@ -1,8 +1,7 @@
 ---
-title: "Manage test controllers and test agents in Visual Studio"
+title: "Manage test controllers and test agents"
 ms.date: 09/18/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren

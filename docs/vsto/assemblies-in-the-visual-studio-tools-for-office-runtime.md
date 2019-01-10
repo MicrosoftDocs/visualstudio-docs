@@ -1,8 +1,7 @@
 ---
 title: "Assemblies in the Visual Studio Tools for Office runtime"
-ms.custom: ""
+titleSuffix: ""
 ms.date: 02/02/2017
-ms.technology: office-development
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
 dev_langs: 
@@ -10,8 +9,8 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "Visual Studio Tools for Office runtime, assemblies"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -60,5 +59,3 @@ ms.workload:
 ## See also  
  [Visual Studio Tools for Office runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md)   
  [Visual Studio Tools for Office runtime installation scenarios](../vsto/visual-studio-tools-for-office-runtime-installation-scenarios.md)  
-  
-  

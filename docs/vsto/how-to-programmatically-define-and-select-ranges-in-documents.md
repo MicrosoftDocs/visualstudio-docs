@@ -1,9 +1,6 @@
 ---
 title: "How to: Programmatically define and select ranges in documents"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -14,8 +11,8 @@ helpviewer_keywords:
   - "sentences, selecting in documents"
   - "ranges, selecting in documents"
   - "ranges, defining in documents"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -130,5 +127,3 @@ ms.workload:
  [How to: Programmatically reset ranges in Word documents](../vsto/how-to-programmatically-reset-ranges-in-word-documents.md)   
  [How to: Programmatically collapse ranges or selections in documents](../vsto/how-to-programmatically-collapse-ranges-or-selections-in-documents.md)   
  [How to: Programmatically exclude paragraph marks when creating ranges](../vsto/how-to-programmatically-exclude-paragraph-marks-when-creating-ranges.md)  
-  
-  

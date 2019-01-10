@@ -1,5 +1,5 @@
 ---
-title: "Manage Load Test Results in Visual Studio"
+title: "Manage Load Test Results"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -12,7 +12,6 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ---
 # Manage load test results in the Load Test Results Repository
 

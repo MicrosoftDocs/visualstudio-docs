@@ -24,7 +24,7 @@ Creates a debug expression for the specified text.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT ParseLanguageText(  
    LPCOLESTR           pstrCode,  
    UINT                nRadix,  

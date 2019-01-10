@@ -1,5 +1,5 @@
 ---
-title: "Timing Details Storage Property for a Load Test Run Setting in Visual Studio"
+title: "Timing Details Storage Property for a Load Test Run Setting"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -10,7 +10,6 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ---
 # How to: Specify the timing details storage property for a load test run setting
 

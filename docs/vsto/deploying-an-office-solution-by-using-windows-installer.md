@@ -1,9 +1,6 @@
 ---
 title: "Deploy an Office solution by using Windows Installer"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -16,8 +13,8 @@ helpviewer_keywords:
   - "ClickOnce deployment [Office development in Visual Studio], MSI"
   - "publishing Office solutions [Office development in Visual Studio], setup project"
   - "Office applications [Office development in Visual Studio], MSI"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

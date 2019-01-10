@@ -24,7 +24,7 @@ Indicates if the debugger is responsive.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT QueryAlive();  
 ```  
   

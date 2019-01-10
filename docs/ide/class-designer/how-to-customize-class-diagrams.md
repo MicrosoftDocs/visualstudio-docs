@@ -2,7 +2,6 @@
 title: "How to: Customize Class Diagrams (Class Designer)"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:
   - "class diagrams, customizing"
@@ -123,7 +122,6 @@ You can remove a type shape from the class diagram without affecting the type's 
 
 ## See also
 
-- [Working with Class Diagrams](working-with-class-diagrams.md)
 - [How to: Change Between Member Notation and Association Notation](how-to-change-between-member-notation-and-association-notation.md)
 - [How to: View Existing Types](how-to-view-existing-types.md)
-- [Viewing Types and Relationships](viewing-types-and-relationships.md)
+- [Viewing Types and Relationships](designing-and-viewing-classes-and-types.md)

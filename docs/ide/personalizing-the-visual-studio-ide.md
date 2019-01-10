@@ -1,8 +1,7 @@
 ---
-title: Customize the Visual Studio IDE
+title: Customize the IDE
 ms.date: 11/20/2017
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren
@@ -61,6 +60,6 @@ You can customize the **Tools** menu to launch external tools. For more informat
 ## See also
 
 - [Environment settings](environment-settings.md)
-- [Visual Studio IDE overview](../ide/visual-studio-ide.md)
+- [Visual Studio IDE overview](../get-started/visual-studio-ide.md)
 - [Quickstart: First look at the Visual Studio IDE](../ide/quickstart-ide-orientation.md)
 - [Customize the Visual Studio for Mac IDE](/visualstudio/mac/customizing-the-ide)

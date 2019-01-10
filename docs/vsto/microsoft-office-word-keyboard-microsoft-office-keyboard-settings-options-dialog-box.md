@@ -1,9 +1,6 @@
 ---
 title: "Microsoft Office Word Keyboard, Microsoft Office Keyboard Settings, Options dialog box"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VS.ToolsOptionsPages.Microsoft_Office_Tools.Microsoft_Office_Word.Keyboard"
@@ -36,5 +33,3 @@ ms.workload:
   
 ## See also  
  [Microsoft Office Excel Keyboard, Microsoft Office Keyboard Settings, Options dialog box](../vsto/microsoft-office-excel-keyboard-microsoft-office-keyboard-settings-options-dialog-box.md)  
-  
-  

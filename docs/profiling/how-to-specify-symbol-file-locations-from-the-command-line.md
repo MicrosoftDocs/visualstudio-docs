@@ -1,8 +1,6 @@
 ---
 title: "How to: Specify Symbol File Locations from the Command Line | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: 8aa067bb-e8bf-4081-aff0-cfbcf65934a0
 author: "mikejo5000"

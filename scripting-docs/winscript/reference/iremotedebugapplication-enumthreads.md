@@ -24,7 +24,7 @@ Enumerates all threads known to be associated with the application.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT EnumThreads(  
    IEnumRemoteDebugApplicationThreads**  pperdat  
 );  

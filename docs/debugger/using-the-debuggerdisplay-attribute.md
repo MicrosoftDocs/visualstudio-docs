@@ -1,8 +1,6 @@
 ---
 title: "Using the DebuggerDisplay Attribute | Microsoft Docs"
-ms.custom: ""
 ms.date: "08/09/2017"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "attributes [C#], debugger"
@@ -15,7 +13,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Using the DebuggerDisplay Attribute
+# Using the DebuggerDisplay Attribute (C#, Visual Basic)
 The <xref:System.Diagnostics.DebuggerDisplayAttribute> controls how an object, property, or field is displayed in the debugger variable windows. This attribute can be applied to types, delegates, properties, fields, and assemblies.  
   
  The `DebuggerDisplay` attribute has a single argument, which is a string to be displayed in the value column for instances of the type. This string can contain braces (`{` and `}`). Text within a pair of braces is evaluated as a field, property or method.  

@@ -5,8 +5,7 @@ ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
+ms.technology: "vs-devops-test"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords:
@@ -48,6 +47,3 @@ manager: "wpickett"
  In the following example, a method is marked with the <xref:System.Security.SecuritySafeCriticalAttribute> attribute and it is a member of a class that is marked with the <xref:System.Security.SecurityCriticalAttribute> attribute. The security safe attribute should be removed.
 
  [!code-csharp[FxCop.Security.CA2136.TransparencyAnnotationsShouldNotConflict#1](../snippets/csharp/VS_Snippets_CodeAnalysis/fxcop.security.ca2136.transparencyannotationsshouldnotconflict/cs/ca2136 - transparencyannotationsshouldnotconflict.cs#1)]
-
-
-

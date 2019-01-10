@@ -1,9 +1,6 @@
 ---
 title: "Cache data"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -12,8 +9,8 @@ helpviewer_keywords:
   - "data caching [Office development in Visual Studio], about caching data"
   - "data [Office development in Visual Studio], caching"
   - "data caching [Office development in Visual Studio]"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -85,5 +82,3 @@ ms.workload:
  [How to: Programmatically cache a data source in an Office document](../vsto/how-to-programmatically-cache-a-data-source-in-an-office-document.md)   
  [How to: Cache data in a password-protected document](../vsto/how-to-cache-data-in-a-password-protected-document.md)   
  [Walkthrough: Create a master detail relation using a cached dataset](../vsto/walkthrough-creating-a-master-detail-relation-using-a-cached-dataset.md)  
-  
-  

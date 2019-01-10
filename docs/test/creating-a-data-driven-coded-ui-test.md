@@ -1,8 +1,7 @@
 ---
-title: "Creating a Data-Driven Coded UI Test in Visual Studio"
+title: "Creating a Data-Driven Coded UI Test"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 helpviewer_keywords:
   - "coded UI tests, data-driven"

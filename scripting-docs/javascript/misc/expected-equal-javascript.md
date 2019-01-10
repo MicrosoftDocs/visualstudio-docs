@@ -1,5 +1,5 @@
 ---
-title: "Expected &#39;=&#39; (JavaScript) | Microsoft Docs"
+title: "Expected '=' (JavaScript) | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
 ms.prod: "windows-client-threshold"
@@ -21,7 +21,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 ---
-# Expected &#39;=&#39; (JavaScript)
+# Expected '=' (JavaScript)
 You attempted to create a variable to be used with conditional compilation statements, but did not place an equal sign between the variable and the value you want to assign to it.  
   
 ### To correct this error  

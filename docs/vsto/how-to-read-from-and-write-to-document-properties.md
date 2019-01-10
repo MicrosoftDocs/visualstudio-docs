@@ -1,9 +1,6 @@
 ---
 title: "How to: Read from and write to document properties"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -81,5 +78,3 @@ ms.workload:
  [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)   
  [Program document-level customizations](../vsto/programming-document-level-customizations.md)   
  [How to: Create and modify custom document properties](../vsto/how-to-create-and-modify-custom-document-properties.md)  
-  
-  

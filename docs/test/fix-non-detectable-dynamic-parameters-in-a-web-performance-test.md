@@ -1,5 +1,5 @@
 ---
-title: "Fix non-detectable dynamic parameters in a web performance test in Visual Studio"
+title: "Fix non-detectable dynamic parameters in web performance test"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -11,7 +11,6 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ---
 # Fix non-detectable dynamic parameters in a web performance test
 

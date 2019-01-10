@@ -1,8 +1,7 @@
 ---
-title: "Visual Studio testing tools"
+title: "Testing tools"
 ms.date: 03/16/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 helpviewer_keywords:
   - "testing tools [Visual Studio]"
@@ -39,4 +38,4 @@ Visual Studio testing tools can help you and your team develop and sustain high 
 * [Exploratory & manual testing (Azure Test Plans)](/azure/devops/test/index?view=vsts)
 * [Load testing (Azure Test Plans)](/azure/devops/test/load-test/index?view=vsts)
 * [Continuous testing (Azure Test Plans)](/azure/devops/pipelines/test/getting-started-with-continuous-testing?view=vsts)
-* [Code analysis tools](../code-quality/analyzing-application-quality-by-using-code-analysis-tools.md)
+* [Code analysis tools](../code-quality/code-analysis-for-managed-code-overview.md)

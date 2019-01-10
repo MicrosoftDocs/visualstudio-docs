@@ -1,5 +1,5 @@
 ---
-title: "Create and run a load test in Visual Studio"
+title: "Create and run a load test"
 ms.date: 10/01/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -11,7 +11,6 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ---
 # Walkthrough: Create and run a load test that contains unit tests
 

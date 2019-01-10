@@ -1,9 +1,6 @@
 ---
 title: "Combine VBA and document-level customizations"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VST.VBAInterop.InvalidAssemblyVersion"
@@ -22,8 +19,8 @@ helpviewer_keywords:
   - "VBA [Office development in Visual Studio], about VBA and document-level customizations"
   - "managed code [Office development in Visual Studio], Visual Basic for Applications and"
   - "document-level customizations [Office development in Visual Studio], Visual Basic for Applications and"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -254,5 +251,3 @@ GetManagedClass(pdispInteropObject Object) As Object
  [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)   
  [VBA and Office solutions in Visual Studio compared](../vsto/vba-and-office-solutions-in-visual-studio-compared.md)   
  [Program document-level customizations](../vsto/programming-document-level-customizations.md)  
-  
-  

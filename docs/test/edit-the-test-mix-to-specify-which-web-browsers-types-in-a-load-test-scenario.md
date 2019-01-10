@@ -1,5 +1,5 @@
 ---
-title: "Browser test mix for load testing in Visual Studio"
+title: "Browser test mix for load testing"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -12,7 +12,6 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ---
 # Edit the test mix to specify which web browsers types in a load test scenario
 

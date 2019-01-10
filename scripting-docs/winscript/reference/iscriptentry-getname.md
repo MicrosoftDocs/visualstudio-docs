@@ -24,7 +24,7 @@ For entries that represent a single object (such as a function), returns the nam
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetName(  
    BSTR               *pbstr  
 );  

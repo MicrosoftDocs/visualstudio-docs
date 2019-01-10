@@ -1,8 +1,7 @@
 ---
-title: Refactor code in Visual Studio | Microsoft Docs
+title: Refactoring
 ms.date: 01/10/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:
  - refactoring [Visual Studio]
@@ -23,7 +22,7 @@ Different refactoring operations are available for different programming languag
 ## See also
 
 - [Quick Actions](../ide/quick-actions.md)
-- [Visual Studio IDE](../ide/visual-studio-ide.md)
+- [Visual Studio IDE](../get-started/visual-studio-ide.md)
 - [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md)
 - [Preview changes](../ide/preview-changes.md)
 - [Refactoring (Visual Studio for Mac)](/visualstudio/mac/refactoring)

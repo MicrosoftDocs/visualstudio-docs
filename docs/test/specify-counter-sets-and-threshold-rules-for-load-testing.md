@@ -1,5 +1,5 @@
 ---
-title: "Counter Sets and Threshold Rules for load testing in Visual Studio"
+title: "Counter Sets and Threshold Rules for load testing"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -14,7 +14,6 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ---
 # Specify counter sets and threshold rules for computers in a load test
 

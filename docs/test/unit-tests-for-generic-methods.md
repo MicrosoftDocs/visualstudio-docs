@@ -1,15 +1,14 @@
 ---
-title: "Unit tests for Generic Methods in Visual Studio"
+title: "Unit tests for Generic Methods"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
-helpviewer_keywords: 
+helpviewer_keywords:
   - "generics, and unit tests"
   - "unit tests, and generics"
 ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 author: gewarren
 ---

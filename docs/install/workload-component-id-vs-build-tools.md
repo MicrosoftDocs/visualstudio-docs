@@ -1,5 +1,6 @@
 ---
 title: Visual Studio Build Tools 2017 workload and component IDs
+titleSuffix: ""
 description: "Use Visual Studio workload and component IDs to build classic Windows-based applications"
 keywords:
 author: TerryGLee
@@ -12,7 +13,6 @@ helpviewer_keywords:
   - "component ID, Visual Studio"
   - "install Visual Studio, administrator guide"
 ms.service:
-ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
 ms.assetid: b99298df-0280-47fc-af73-44cd7a8ac553
 ms.workload:

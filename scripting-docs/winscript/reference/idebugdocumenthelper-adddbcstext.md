@@ -24,7 +24,7 @@ Appends a DBCS string to the end of this document.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT AddDBCSText(  
    LPCSTR  pszText  
 );  

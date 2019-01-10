@@ -1,9 +1,6 @@
 ---
 title: "Data in Office solutions walkthroughs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -11,8 +8,8 @@ dev_langs:
 helpviewer_keywords: 
   - "data [Office development in Visual Studio], walkthroughs"
   - "walkthroughs [Office development in Visual Studio], data"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -64,5 +61,3 @@ ms.workload:
  [Get started &#40;Office development in Visual Studio&#41;](../vsto/getting-started-office-development-in-visual-studio.md)   
  [Common tasks in Office programming](../vsto/common-tasks-in-office-programming.md)   
  [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)  
-  
-  

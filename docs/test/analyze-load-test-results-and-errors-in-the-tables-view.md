@@ -1,5 +1,5 @@
 ---
-title: "Analyzing Load Test Results and Errors in Visual Studio"
+title: "Analyzing Load Test Results and Errors"
 ms.date: 10/19/2016
 ms.topic: conceptual
 f1_keywords:
@@ -22,7 +22,6 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ---
 # Analyze load test results and errors in the Tables view of the Load Test Analyzer
 

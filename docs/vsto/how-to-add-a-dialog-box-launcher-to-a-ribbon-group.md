@@ -1,9 +1,6 @@
 ---
 title: "How to: Add a Dialog box launcher to a Ribbon group"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -11,8 +8,8 @@ dev_langs:
 helpviewer_keywords: 
   - "dialog box launcher [Office development in Visual Studio]"
   - "Ribbon [Office development in Visual Studio], dialog box launcher"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -49,5 +46,3 @@ ms.workload:
  [Walkthrough: Create a custom tab by using the Ribbon Designer](../vsto/walkthrough-creating-a-custom-tab-by-using-the-ribbon-designer.md)   
  [Walkthrough: Update the controls on a Ribbon at runtime](../vsto/walkthrough-updating-the-controls-on-a-ribbon-at-run-time.md)   
  [Walkthrough: Create a custom tab by using Ribbon XML](../vsto/walkthrough-creating-a-custom-tab-by-using-ribbon-xml.md)  
-  
-  

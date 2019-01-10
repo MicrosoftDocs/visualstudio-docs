@@ -1,8 +1,7 @@
 ---
-title: "Code generation, compilation, and naming conventions in Microsoft Fakes for Visual Studio"
+title: "Code generation, compilation, and naming conventions in Microsoft Fakes"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 ms.author: gewarren
 manager: douge

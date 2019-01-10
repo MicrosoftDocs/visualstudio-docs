@@ -1,23 +1,18 @@
 ---
-title: Troubleshooting Docker client errors on Windows by using Visual Studio | Microsoft Docs
+title: Troubleshooting Docker client errors on Windows | Microsoft Docs
 description: Troubleshoot problems you encounter when using Visual Studio to create and deploy web apps to Docker on Windows by using Visual Studio 2017.
 services: azure-container-service
-documentationcenter: na
 author: devinb
 manager: douge
-editor: ''
-
+ms.custom: seodec18
 ms.assetid: 346f70b9-7b52-4688-a8e8-8f53869618d3
 ms.service: multiple
 ms.devlang: dotnet
-ms.topic: article
-ms.tgt_pltfrm: na
+ms.topic: conceptual
 ms.workload: multiple
 ms.date: 10/13/2017
 ms.author: devinb
-
 ---
-
 # Troubleshoot Visual Studio 2017 development with Docker
 
 When you're working with Visual Studio Tools for Docker, you may encounter issues while building or debugging your application. Below are some common troubleshooting steps.

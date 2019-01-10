@@ -1,8 +1,7 @@
 ---
-title: Productivity tips for Visual Studio
+title: Productivity tips
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren
@@ -118,5 +117,5 @@ At any one time, you may be working in multiple code files and moving among seve
 
 - [Default keyboard shortcuts for frequently used commands](../ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md)
 - [How to: Customize menus and toolbars](../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md)
-- [Walkthrough: Create a simple application](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md)
+- [Walkthrough: Create a simple application](../get-started/csharp/tutorial-wpf.md)
 - [Accessibility tips and tricks](../ide/reference/accessibility-tips-and-tricks.md)

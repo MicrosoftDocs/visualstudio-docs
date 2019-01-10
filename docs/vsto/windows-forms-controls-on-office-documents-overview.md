@@ -1,9 +1,6 @@
 ---
 title: "Windows Forms controls on Office documents overview"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -159,5 +156,3 @@ ms.workload:
  [Limitations of Windows Forms controls on Office documents](../vsto/limitations-of-windows-forms-controls-on-office-documents.md)   
  [Walkthrough: Update a chart in a document using radio buttons](../vsto/walkthrough-updating-a-chart-in-a-document-using-radio-buttons.md)   
  [Walkthrough: Update a chart in a worksheet using radio buttons](../vsto/walkthrough-updating-a-chart-in-a-worksheet-using-radio-buttons.md)  
-  
-  

@@ -2,7 +2,6 @@
 title: Automated UI tests
 ms.date: 12/04/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 f1_keywords:
   - "vs.codedUITest"

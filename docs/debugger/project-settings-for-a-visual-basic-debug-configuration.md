@@ -1,8 +1,7 @@
 ---
-title: "Project Settings for a Visual Basic Debug Configuration | Microsoft Docs"
-ms.custom: ""
+title: "Project Settings for a VB debug config | Microsoft Docs"
+ms.custom: "seodec18"
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "reference"
 f1_keywords: 
   - "vbProjectPropertiesDebug"

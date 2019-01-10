@@ -1,9 +1,6 @@
 ---
 title: "How to: Programmatically add text and formatting to cells in Word tables"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -13,8 +10,8 @@ helpviewer_keywords:
   - "text [Office development in Visual Studio], adding to Word tables"
   - "formatting [Office development in Visual Studio]"
   - "tables [Office development in Visual Studio], adding text and formatting"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -42,5 +39,3 @@ ms.workload:
  [How to: Programmatically create Word tables](../vsto/how-to-programmatically-create-word-tables.md)   
  [How to: Programmatically add rows and columns to Word tables](../vsto/how-to-programmatically-add-rows-and-columns-to-word-tables.md)   
  [How to: Programmatically populate Word tables with document properties](../vsto/how-to-programmatically-populate-word-tables-with-document-properties.md)  
-  
-  

@@ -1,8 +1,7 @@
 ---
-title: "How to: Specify Where Visual Studio Copies the Files | Microsoft Docs"
-ms.custom: ""
+title: "Specify where to copy files | Microsoft Docs"
+ms.custom: "seodec18"
 ms.date: "11/04/2016"
-ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"

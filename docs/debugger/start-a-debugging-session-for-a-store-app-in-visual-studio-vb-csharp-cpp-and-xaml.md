@@ -1,8 +1,7 @@
 ---
-title: "Start a debugging session for a UWP app in Visual Studio | Microsoft Docs"
-ms.custom: ""
+title: "Start a debugging session for a UWP app | Microsoft Docs"
+ms.custom: "seodec18"
 ms.date: "11/20/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VC.Project.IVCAppHostRemoteDebugPageObject.MachineName"
@@ -203,4 +202,4 @@ To attach the debugger to a [!INCLUDE[win8_appname_long](../debugger/includes/wi
 > The easiest way to attach to your JavaScript app is to close all the other JavaScript apps. Or, you can note the PIDs of running *wwahost.exe* processes in Windows Task Manager before you start your app. When you start your app, its *wwahost.exe* PID will be the one that is different from those you previously noted.  
 
 ## See also  
- [Debug apps in Visual Studio](../debugger/debug-store-apps-in-visual-studio.md)   
+ [Debug apps in Visual Studio](/visualstudio/debugger/debugging-windows-store-and-windows-universal-apps)   

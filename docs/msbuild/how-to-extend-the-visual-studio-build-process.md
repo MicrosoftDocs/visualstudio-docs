@@ -1,8 +1,7 @@
 ---
-title: "How to: Extend the Visual Studio Build Process | Microsoft Docs"
-ms.custom: ""
+title: "Extend the build process"
+ms.custom: "seodec18"
 ms.date: "11/04/2016"
-ms.technology: msbuild
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "MSBuild, overriding predefined targets"

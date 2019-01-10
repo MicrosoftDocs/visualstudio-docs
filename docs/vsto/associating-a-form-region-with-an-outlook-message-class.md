@@ -1,8 +1,6 @@
 ---
 title: "Associate a form region with an Outlook message class"
-ms.custom: ""
 ms.date: 02/02/2017
-ms.technology: office-development
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords: 
@@ -13,8 +11,8 @@ dev_langs:
 helpviewer_keywords: 
   - "FormRegionMessageClassAttribute"
   - "form regions [Office development in Visual Studio], message classes"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -107,5 +105,3 @@ ms.workload:
  [Guidelines to create Outlook form regions](../vsto/guidelines-for-creating-outlook-form-regions.md)   
  [Form name and message class overview](/office/vba/outlook/Concepts/Forms/form-name-and-message-class-overview)   
  [How Outlook forms and items work together](/office/vba/outlook/Concepts/Forms/how-outlook-forms-and-items-work-together)  
-  
-  

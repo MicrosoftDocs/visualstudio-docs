@@ -1,9 +1,8 @@
 ---
-title: "Create a Vue.js app using Node.js Tools for Visual Studio"
+title: "Create a Vue.js app using Node.js"
 description: You can create Node.js applications in Visual Studio using the Vue.js framework
-ms.custom: ""
+ms.custom: "seodec18"
 ms.date: "07/06/2018"
-ms.technology: vs-nodejs
 ms.topic: "conceptual"
 ms.devlang: javascript
 author: "mikejo5000"

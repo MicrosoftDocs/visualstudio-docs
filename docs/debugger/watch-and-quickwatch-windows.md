@@ -1,8 +1,7 @@
 ---
-title: "Set a watch on variables in Visual Studio | Microsoft Docs"
-ms.custom: "H1Hack27Feb2017"
+title: "Set a watch on variables | Microsoft Docs"
+ms.custom: "seodec18"
 ms.date: "10/11/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.debug.watch"
@@ -25,7 +24,7 @@ While you're debugging, you can use **Watch** windows and **QuickWatch** to watc
 
 **Watch** windows can display several variables at a time while debugging. The **QuickWatch** dialog displays a single variable at a time, and must be closed before debugging can continue.
 
-If this is the first time that you've tried to debug code, you may want to read [Fix bugs by writing better C# code](../debugger/write-better-code-with-visual-studio.md) and [Debugging for absolute beginners](../debugger/debugging-absolute-beginners.md) before going through this article.
+If this is the first time that you've tried to debug code, you may want to read [Debugging for absolute beginners](../debugger/debugging-absolute-beginners.md) and [Fix bugs by writing better C# code](../debugger/write-better-code-with-visual-studio.md) before going through this article.
 
 ## Observe variables with a Watch window
 

@@ -3,7 +3,6 @@ title: "Workflow Designer - How to: Set Breakpoints in Workflows"
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 ms.assetid: e41b21c9-c061-4358-8e2f-eb5e412864a8
 author: gewarren
 ms.author: gewarren
@@ -36,6 +35,5 @@ A breakpoint has three states: *Pending*, *Bound*, and *Error*. When you set a b
 
 ## See also
 
-- [How to: Invoke the Workflow Debugger](../workflow-designer/how-to-invoke-the-workflow-debugger.md)
 - [Debugging Workflows with the Workflow Designer](../workflow-designer/debugging-workflows-with-the-workflow-designer.md)
 - [How to: Debug XAML with the Workflow Designer](../workflow-designer/how-to-debug-xaml-with-the-workflow-designer.md)

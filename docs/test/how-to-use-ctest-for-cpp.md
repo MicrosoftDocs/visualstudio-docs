@@ -1,8 +1,7 @@
 ---
-title: "How to use CTest for C++ in Visual Studio"
+title: "How to use CTest for C++"
 ms.date: 11/07/2017
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 ms.author: mblome
 manager: douge
@@ -13,7 +12,7 @@ author: mikeblome
 
 # How to use CTest for C++ in Visual Studio
 
-CMake (which includes CTest) is integrated into the Visual Studio IDE by default as a component of the **Desktop Develoment with C++** workload. If you need to install it on your machine, open the Visual Studio Installer program, click the **Modify** button, then check [CMake tools for Visual C++](/cpp/ide/cmake-tools-for-visual-cpp) under the list of workload components.
+CMake (which includes CTest) is integrated into the Visual Studio IDE by default as a component of the **Desktop Development with C++** workload. If you need to install it on your machine, open the Visual Studio Installer program, click the **Modify** button, then check [CMake tools for Visual C++](/cpp/ide/cmake-tools-for-visual-cpp) under the list of workload components.
 
 ## To write tests
 
@@ -21,7 +20,7 @@ CMake support in Visual Studio doesn't involve the Visual Studio project system.
 
 ## To run tests (Visual Studio 2017 version 15.6)
 
-In Visual Studio 2017 version 15.6, CTest is fully integrated with **Test Explorer** and also supports both the Google and Boost unit testing frameworks. Those frameworks are included by default as components in the **Desktop Develoment with C++** workload. However, if you are upgrading a project from an older version of Visual Studio, you may need to install those frameworks by using the Visual Studio Installer program.
+In Visual Studio 2017 version 15.6, CTest is fully integrated with **Test Explorer** and also supports both the Google and Boost unit testing frameworks. Those frameworks are included by default as components in the **Desktop Development with C++** workload. However, if you are upgrading a project from an older version of Visual Studio, you may need to install those frameworks by using the Visual Studio Installer program.
 
 The following illustration shows results of a CTest run using Google Test framework:
 

@@ -1,5 +1,4 @@
 ---
-ms.technology: vs-ai-tools
 ---
 # Monitor with TensorBoard
 

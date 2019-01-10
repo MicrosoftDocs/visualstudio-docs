@@ -1,5 +1,5 @@
 ---
-title: "Web Performance Test API in Visual Studio"
+title: "Web Performance Test API"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -10,7 +10,6 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ---
 # How to: Use the web performance test API
 

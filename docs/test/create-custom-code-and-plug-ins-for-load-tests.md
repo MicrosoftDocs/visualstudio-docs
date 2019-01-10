@@ -1,5 +1,5 @@
 ---
-title: "Create custom code and plug-ins for load tests in Visual Studio"
+title: "Create custom code and plug-ins for load tests"
 ms.date: 10/19/2016
 ms.topic: conceptual
 f1_keywords:
@@ -12,7 +12,6 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ---
 # Create custom code and plug-ins for load tests
 

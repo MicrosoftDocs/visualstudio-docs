@@ -22,7 +22,7 @@ Gets Information for this object.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetPropertyInfo(  
    UINT nRadix,  
    JsDebugPropertyInfo *pPropertyInfo  

@@ -1,9 +1,6 @@
 ---
 title: "Content controls"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VST.Toolbox.DropDownListContentControl"
@@ -36,8 +33,8 @@ helpviewer_keywords:
   - "custom XML parts, content controls"
   - "templates [Office development in Visual Studio], content controls"
   - "BuildingBlockGalleryContentControl class"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

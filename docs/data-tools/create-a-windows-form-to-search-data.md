@@ -13,7 +13,6 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
 ms.workload:
   - "data-storage"
 ---
@@ -45,7 +44,7 @@ Tasks illustrated in this walkthrough include:
 
 This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.
 
-1.  If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express), or through the **Visual Studio Installer**. In the **Visual Studio Installer**, you can intall SQL Server Express LocalDB as part of the **Data storage and processing** workload, or as an individual component.
+1.  If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express), or through the **Visual Studio Installer**. In the **Visual Studio Installer**, you can install SQL Server Express LocalDB as part of the **Data storage and processing** workload, or as an individual component.
 
 2.  Install the Northwind sample database by following these steps:
 

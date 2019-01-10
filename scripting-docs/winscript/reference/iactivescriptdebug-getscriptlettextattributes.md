@@ -24,7 +24,7 @@ Returns the text attributes for an arbitrary scriptlet.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetScriptletTextAttributes(  
    LPCOLESTR          pstrCode,  
    ULONG              uNumCodeChars,  

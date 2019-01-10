@@ -1,8 +1,7 @@
 ---
-title: "How to: Debug COM Clients and Servers Using RPC Debugging | Microsoft Docs"
-ms.custom: ""
+title: "Debug COM clients and servers using RPC debugging | Microsoft Docs"
+ms.custom: "seodec18"
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.com"

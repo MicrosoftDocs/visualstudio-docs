@@ -2,7 +2,6 @@
 title: "CA2138: Transparent methods must not call methods with the SuppressUnmanagedCodeSecurity attribute"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA2138"

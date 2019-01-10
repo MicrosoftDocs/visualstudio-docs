@@ -1,5 +1,5 @@
 ---
-title: "Page Response Time in a Load Test in Visual Studio"
+title: "Page Response Time in a Load Test"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -11,7 +11,6 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ---
 # How to: View web page response time in a load test using the Load Test Analyzer
 

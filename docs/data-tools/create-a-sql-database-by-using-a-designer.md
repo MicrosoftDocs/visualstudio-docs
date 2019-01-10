@@ -1,5 +1,6 @@
 ---
 title: Create a database file and use table designer
+description: Tutorial that describes how to add tables and foreign keys to a database by using Table Designer in Visual Studio. It also shows how to add data through the graphical interface.
 ms.date: 11/03/2017
 ms.topic: conceptual
 helpviewer_keywords:
@@ -11,7 +12,6 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
 ms.workload:
   - "data-storage"
 ---
@@ -35,7 +35,7 @@ To complete this walkthrough, you must have the optional **Data storage and proc
 
 4. Name the database **SampleDatabase**, and then select the **Add** button.
 
-### To add a data source
+### Add a data source
 
 1. If the **Data Sources** window isn't open, open it by pressing **Shift**+**Alt**+**D** or selecting **View** > **Other Windows** > **Data Sources** on the menu bar.
 
@@ -53,19 +53,19 @@ To complete this walkthrough, you must have the optional **Data storage and proc
 
 1. One the **Choose your Database Objects** page, you'll see a message that says the database doesn't contain any objects. Choose **Finish**.
 
-### To view properties of the data connection
+### View properties of the data connection
 
 You can view the connection string for the *SampleDatabase.mdf* file by opening the properties window of the data connection:
 
--   In Visual Studio, select **View** > **SQL Server Object Explorer** if that window isn't already open. Open the properties window by expanding the **Data Connections** node, opening the shortcut menu for *SampleDatabase.mdf*, and then selecting **Properties**.
+- In Visual Studio, select **View** > **SQL Server Object Explorer** if that window isn't already open. Open the properties window by expanding the **Data Connections** node, opening the shortcut menu for *SampleDatabase.mdf*, and then selecting **Properties**.
 
--   Alternatively, you can select **View** > **Server Explorer**, if that window isn't already open. Open the properties window by expanding the **Data Connections** node. Open the shortcut menu for *SampleDatabase.mdf*, and then select **Properties**.
+- Alternatively, you can select **View** > **Server Explorer**, if that window isn't already open. Open the properties window by expanding the **Data Connections** node. Open the shortcut menu for *SampleDatabase.mdf*, and then select **Properties**.
 
 ## Create tables and keys by using Table Designer
 
 In this section, you'll create two tables, a primary key in each table, and a few rows of sample data. You'll also create a foreign key to specify how records in one table correspond to records in the other table.
 
-### To create the Customers table
+### Create the Customers table
 
 1. In **Server Explorer** or **SQL Server Object Explorer**, expand the **Data Connections** node, and then expand the **SampleDatabase.mdf** node.
 
@@ -102,7 +102,7 @@ In this section, you'll create two tables, a primary key in each table, and a fe
 
     Your changes are saved to the local database file.
 
-### To create the Orders table
+### Create the Orders table
 
 1. Add another table, and then add a row for each entry in the following table:
 
@@ -127,7 +127,7 @@ In this section, you'll create two tables, a primary key in each table, and a fe
 
     Your changes are saved to the local database file.
 
-### To create a foreign key
+### Create a foreign key
 
 1. In the context pane on the right side of the grid, open the shortcut menu for **Foreign Keys**, and then select **Add New Foreign Key**, as the following illustration shows.
 

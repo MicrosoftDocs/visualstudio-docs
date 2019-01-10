@@ -24,7 +24,7 @@ Returns the result of the expression evaluation as a string and the operation's 
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetResultAsString(  
    HRESULT*  phrResult,  
    BSTR*     pbstrResult  

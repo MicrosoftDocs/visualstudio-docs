@@ -1,5 +1,6 @@
 ---
 title: Visual Studio Community 2017 workload and component IDs
+titleSuffix: ""
 description: "Use workload and component IDs to install Visual Studio by using the command line or to specify as a dependency in a VSIX manifest"
 keywords:
 author: TerryGLee
@@ -12,7 +13,6 @@ helpviewer_keywords:
   - "component ID, Visual Studio"
   - "install Visual Studio, administrator guide"
 ms.service:
-ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
 ms.assetid: 58494fc3-12de-4761-bd4a-74b54f72bfb3
 ms.workload:

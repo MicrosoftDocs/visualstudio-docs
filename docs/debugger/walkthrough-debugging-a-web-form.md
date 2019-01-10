@@ -1,8 +1,7 @@
 ---
-title: "Walkthrough: Debugging a Web Form | Microsoft Docs"
-ms.custom: ""
+title: "Debug a Web Form | Microsoft Docs"
+ms.custom: "seodec18"
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs:
   - "CSharp"

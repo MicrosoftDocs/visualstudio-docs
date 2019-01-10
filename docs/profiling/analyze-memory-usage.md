@@ -1,8 +1,7 @@
 ---
-title: "Analyze Memory Usage in Visual Studio | Microsoft Docs"
-ms.custom: ""
+title: "Analyze memory usage"
+ms.custom: "seodec18"
 ms.date: "01/02/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 author: "mikejo5000"
 ms.author: "mikejo"

@@ -1,12 +1,11 @@
 ---
-title: "Create a unit test project in Visual Studio"
+title: "Create a unit test project"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 author: gewarren
 ---

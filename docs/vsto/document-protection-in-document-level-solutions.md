@@ -1,9 +1,6 @@
 ---
 title: "Document protection in document-level solutions"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -14,8 +11,8 @@ helpviewer_keywords:
   - "workbooks [Office development in Visual Studio], restricted permissions"
   - "Office documents [Office development in Visual Studio], restricted permissions"
   - "documents [Office development in Visual Studio], restricted permissions"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -56,5 +53,3 @@ ms.workload:
  [Password protection on Office documents](../vsto/password-protection-on-office-documents.md)   
  [How to: Permit code to run behind documents with restricted permissions](../vsto/how-to-permit-code-to-run-behind-documents-with-restricted-permissions.md)   
  [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)  
-  
-  

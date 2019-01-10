@@ -2,7 +2,6 @@
 title: Get started with unit testing
 ms.date: 05/02/2017
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 helpviewer_keywords:
   - "unit testing, create unit test plans"
@@ -142,7 +141,7 @@ Following are the steps to enable third-party test frameworks:
 
 1. Code your unit test.
 
-   ![Add code to your unit test](media/create3rdpartyunittest7.png)
+   ![Add code to your unit test code file](media/create3rdpartyunittest7.png)
 
 ## See also
 

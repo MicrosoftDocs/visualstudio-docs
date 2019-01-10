@@ -1,8 +1,7 @@
 ---
-title: "Use breakpoints in the Visual Studio debugger | Microsoft Docs"
-ms.custom: "H1Hack27Feb2017"
+title: "Use breakpoints in the debugger | Microsoft Docs"
+ms.custom: "seodec18"
 ms.date: "10/15/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.breakpointswin"
@@ -11,7 +10,6 @@ f1_keywords:
   - "vs.debug.file"
   - "vs.debug.breakpt.new"
   - "vs.debug.whenbreakpointishit"
-  - "vs.debug.breakpt.choose"
   - "vs.debug.breakpt.location.address"
   - "vs.debug.breakpt.constraints"
   - "vs.debug.breakpoints.delete"
@@ -300,8 +298,9 @@ Enclose string values in double quotes. You can combine clauses using `&` (AND),
 
 Tracepoints appear as red diamonds in the left margin of the source code and **Breakpoints** windows. 
   
-## See also  
- [What is debugging?](../debugger/what-is-debugging.md)  
- [Write better C# code using Visual Studio](../debugger/write-better-code-with-visual-studio.md)  
- [First look at debugging](../debugger/debugger-feature-tour.md)  
- [Troubleshoot breakpoints in the Visual Studio debugger](../debugger/troubleshooting-breakpoints.md)  
+## See also
+
+- [What is debugging?](../debugger/what-is-debugging.md)
+- [Write better C# code using Visual Studio](../debugger/write-better-code-with-visual-studio.md)
+- [First look at debugging](../debugger/debugger-feature-tour.md)
+- [Troubleshoot breakpoints in the Visual Studio debugger](../debugger/troubleshooting-breakpoints.md)

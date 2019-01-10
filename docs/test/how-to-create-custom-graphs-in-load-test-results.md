@@ -1,5 +1,5 @@
 ---
-title: "How to: Create Custom Graphs in Load Test Results in Visual Studio"
+title: "How to: Create Custom Graphs in Load Test Results"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -10,7 +10,6 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ---
 # How to: Create custom graphs in load test results
 

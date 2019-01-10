@@ -1,8 +1,6 @@
 ---
 title: "BeginCapture | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: 9edbb52d-ee0b-4cc4-a382-972bcee067d3
 author: "mikejo5000"

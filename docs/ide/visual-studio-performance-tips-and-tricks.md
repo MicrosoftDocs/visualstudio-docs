@@ -2,7 +2,6 @@
 title: Tips to improve performance
 ms.date: 08/14/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren

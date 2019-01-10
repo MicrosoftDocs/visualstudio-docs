@@ -24,7 +24,7 @@ Returns the character-position range corresponding to a document context.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetPositionOfContext(  
    IDebugDocumentContext*  psc,  
    ULONG*                  pcCharacterPosition,  

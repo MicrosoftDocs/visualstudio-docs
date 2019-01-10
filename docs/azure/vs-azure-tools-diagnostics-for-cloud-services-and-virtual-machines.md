@@ -1,6 +1,6 @@
 ---
 title: Set up diagnostics for Azure Cloud Services and virtual machines | Microsoft Docs
-description: Learn how to set up diagnostics for debugging Azure cloude services and virtual machines (VMs) in Visual Studio.
+description: Learn how to set up diagnostics for debugging Azure cloud services and virtual machines (VMs) in Visual Studio.
 author: ghogen
 manager: douge
 ms.assetid: e70cd7b4-6298-43aa-adea-6fd618414c26
@@ -9,7 +9,6 @@ ms.workload: azure-vs
 ms.date: 06/28/2018
 ms.author: mikejo
 ms.prod: visual-studio-dev15
-ms.technology: vs-azure
 ---
 # Set up diagnostics for Azure Cloud Services and virtual machines
 When you need to troubleshoot an Azure cloud service or virtual machine, you can use Visual Studio to more easily set up Azure Diagnostics. Diagnostics captures system data and logging data on the virtual machines and virtual machine instances that run your cloud service. Diagnostics data is transferred to a storage account that you choose. For more information about diagnostics logging in Azure, see [Enable diagnostics logging for Web Apps in Azure App Service](/azure/app-service/web-sites-enable-diagnostic-log).
@@ -144,7 +143,7 @@ If you're using Azure SDK 2.6 or later and you want to specify a custom data sou
 
 If you're using Azure SDK 2.5 and want to specify a custom data source, you can add it to the `WindowsEventLog` section of the diagnostics.wadcfgx file, like in the following example:
 
-```
+```xml
 <WindowsEventLog scheduledTransferPeriod="PT1M">
    <DataSource name="Application!*" />
    <DataSource name="CustomDataSource!*" />
@@ -282,7 +281,7 @@ By default, IIS doesn’t collect failed-request logs. You can set up IIS to col
 
 The methods of **RoleEntryPoint** are called in the context of WAIISHost.exe, not in IIS. The configuration information in web.config that normally enables tracing doesn’t apply. To resolve this issue, add a .config file to your web role project, and name the file to match the output assembly that contains the **RoleEntryPoint** code. In the default web role project, the name of the .config file should be WAIISHost.exe.config. Add the following lines to this file:
 
-```
+```xml
 <system.diagnostics>
   <trace>
       <listeners>
@@ -298,4 +297,3 @@ In the **Properties** window, set the **Copy to Output Directory** property to *
 
 ## Next steps
 To learn more about diagnostics logging in Azure, see [Enable diagnostics in Azure Cloud Services and virtual machines](/azure/cloud-services/cloud-services-dotnet-diagnostics) and [Enable diagnostics logging for Web Apps in Azure App Service](/azure/app-service/web-sites-enable-diagnostic-log).
-

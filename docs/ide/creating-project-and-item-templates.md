@@ -1,8 +1,7 @@
 ---
-title: Visual Studio templates for projects and files
+title: Templates for projects and files
 ms.date: 01/02/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:
   - "templates [Visual Studio], project"
