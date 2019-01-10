@@ -13,7 +13,7 @@ ms.workload:
 ---
 # Inside the editor
 
-The editor is composed of a number of different subsystems, which are designed to keep the editor text model separate from the text view and the user interface.
+The editor is composed of several different subsystems, which are designed to keep the editor text model separate from the text view and the user interface.
 
 These sections describe different aspects of the editor:
 
@@ -83,7 +83,7 @@ The <xref:Microsoft.VisualStudio.Text.ITextBuffer> interface represents a sequen
 
 The <xref:Microsoft.VisualStudio.Text.ITextBufferFactoryService> is used to create an empty text buffer, or a text buffer that is initialized from a string or from <xref:System.IO.TextReader>. The text buffer can be persisted to the file system as an <xref:Microsoft.VisualStudio.Text.ITextDocument>.
 
-The text buffer can be edited by any thread until a thread takes ownership of the text buffer by calling <xref:Microsoft.VisualStudio.Text.ITextBuffer.TakeThreadOwnership%2A>. After that, only that thread can perform edits.
+Any thread can edit the text buffer until a thread takes ownership of the text buffer by calling <xref:Microsoft.VisualStudio.Text.ITextBuffer.TakeThreadOwnership%2A>. After that, only that thread can perform edits.
 
 A text buffer can go through many versions during its lifetime. A new version is generated every time the buffer is edited, and an immutable <xref:Microsoft.VisualStudio.Text.ITextSnapshot> represents the contents of that version of the buffer. Because text snapshots are immutable, you can access a text snapshot on any thread, without restrictions, even if the text buffer it represents continues to change.
 
@@ -110,7 +110,7 @@ Two spans overlap if they have positions in common, except for the End position.
 
 A <xref:Microsoft.VisualStudio.Text.NormalizedSpanCollection> is a list of spans in the order of the Start properties of the spans. In the list, overlapping or abutting spans are merged. For example, given the set of spans [5..9), [0..1), [3..6), and [9..10), the normalized list of spans is [0..1), [3..10).
 
-#### ITextEdit, TextVersion and text change notifications
+#### ITextEdit, TextVersion, and text change notifications
 
 The content of a text buffer can be changed by using an <xref:Microsoft.VisualStudio.Text.ITextEdit> object. Creating such an object (by using one of the `CreateEdit()` methods of <xref:Microsoft.VisualStudio.Text.ITextBuffer>) starts a text transaction that consists of text edits. Every edit is a replacement of some span of text in the buffer by a string. The coordinates and content of every edit are expressed relative to the snapshot of the buffer when the transaction was started. The <xref:Microsoft.VisualStudio.Text.ITextEdit> object adjusts the coordinates of edits that are affected by other edits in the same transaction.
 
@@ -130,7 +130,7 @@ The coordinates for the second edit were computed with respect to the contents o
 
 The changes to the buffer take effect when the <xref:Microsoft.VisualStudio.Text.ITextEdit> object is committed by calling its `Apply()` method. If there was at least one non-empty edit, a new <xref:Microsoft.VisualStudio.Text.ITextVersion> is created, a new <xref:Microsoft.VisualStudio.Text.ITextSnapshot> is created, and one `Changed` event is raised. Every text version has a different text snapshot. A text snapshot represents the complete state of the text buffer after an edit transaction, but a text version describes only the changes from one snapshot to the next. In general, text snapshots are meant to be used once and then discarded, while text versions must remain alive for some time.
 
-A text version contains a <xref:Microsoft.VisualStudio.Text.INormalizedTextChangeCollection>. This collection describes the changes that, when applied to the snapshot, will produce the subsequent snapshot. Every <xref:Microsoft.VisualStudio.Text.ITextChange> in the collection contains the character position of the change, the replaced string, and the replacement string. The replaced string is empty for a basic insertion, and the replacement string is empty for a basic deletion. The normalized collection is always `null` for the most recent version of the text buffer.
+A text version contains a <xref:Microsoft.VisualStudio.Text.INormalizedTextChangeCollection>. This collection describes the changes that, when applied to the snapshot, produce the subsequent snapshot. Every <xref:Microsoft.VisualStudio.Text.ITextChange> in the collection contains the character position of the change, the replaced string, and the replacement string. The replaced string is empty for a basic insertion, and the replacement string is empty for a basic deletion. The normalized collection is always `null` for the most recent version of the text buffer.
 
 Only one <xref:Microsoft.VisualStudio.Text.ITextEdit> object can be instantiated for a text buffer at any time, and all text edits must be performed on the thread that owns the text buffer (if ownership has been claimed). A text edit can be abandoned by calling its `Cancel` method or its `Dispose` method.
 
@@ -138,9 +138,9 @@ Only one <xref:Microsoft.VisualStudio.Text.ITextEdit> object can be instantiated
 
 #### Tracking points and tracking spans
 
-An <xref:Microsoft.VisualStudio.Text.ITrackingPoint> represents a character position in a text buffer. If the buffer is edited in a way that causes the position of the character to shift, the tracking point shifts with it. For example, if a tracking point refers to position 10 in a buffer, and five characters are inserted at the beginning of the buffer, the tracking point then refers to position 15. If an insertion happens at precisely the position denoted by the tracking point, its behavior is determined by its <xref:Microsoft.VisualStudio.Text.PointTrackingMode>, which can be either `Positive` or `Negative`. If the tracking mode is positive, the tracking point refers to the same character, which is now at the end of the insertion; if the tracking mode is negative, the tracking point refers to the first inserted character at the original position. If the character at the position that is represented by a tracking point is deleted, the tracking point shifts to the first character that follows the deleted range. For example, if a tracking point refers to the character at position 5, and the characters at positions 3 through 6 are deleted, the tracking point refers to the character at position 3.
+An <xref:Microsoft.VisualStudio.Text.ITrackingPoint> represents a character position in a text buffer. If the buffer is edited in a way that causes the position of the character to shift, the tracking point shifts with it. For example, if a tracking point refers to position 10 in a buffer, and five characters are inserted at the beginning of the buffer, the tracking point then refers to position 15. If an insertion happens at precisely the position denoted by the tracking point, its behavior is determined by its <xref:Microsoft.VisualStudio.Text.PointTrackingMode>, which can be either `Positive` or `Negative`. If the tracking mode is positive, the tracking point refers to the same character, which is now at the end of the insertion. If the tracking mode is negative, the tracking point refers to the first inserted character at the original position. If the character at the position that is represented by a tracking point is deleted, the tracking point shifts to the first character that follows the deleted range. For example, if a tracking point refers to the character at position 5, and the characters at positions 3 through 6 are deleted, the tracking point refers to the character at position 3.
 
-An <xref:Microsoft.VisualStudio.Text.ITrackingSpan> represents a range of characters instead of just one position. Its behavior is determined by its <xref:Microsoft.VisualStudio.Text.SpanTrackingMode>. If the span tracking mode is [SpanTrackingMode.EdgeInclusive](xref:Microsoft.VisualStudio.Text.SpanTrackingMode.EdgeInclusive), the tracking span grows to incorporate text inserted at its edges. If the span tracking mode is [SpanTrackingMode.EdgeExclusive](xref:Microsoft.VisualStudio.Text.SpanTrackingMode.EdgeExclusive), the tracking span does not incorporate text inserted at its edges. However, if the span tracking mode is [SpanTrackingMode.EdgePositive](xref:Microsoft.VisualStudio.Text.SpanTrackingMode.EdgePositive), an insertion pushes the current position toward the start, and if the span tracking mode [SpanTrackingMode.EdgeNegative](xref:Microsoft.VisualStudio.Text.SpanTrackingMode.EdgeNegative), an insertion pushes the current position toward the end.
+An <xref:Microsoft.VisualStudio.Text.ITrackingSpan> represents a range of characters instead of just one position. Its behavior is determined by its <xref:Microsoft.VisualStudio.Text.SpanTrackingMode>. If the span tracking mode is [SpanTrackingMode.EdgeInclusive](xref:Microsoft.VisualStudio.Text.SpanTrackingMode.EdgeInclusive), the tracking span grows to incorporate text inserted at its edges. If the span tracking mode is [SpanTrackingMode.EdgeExclusive](xref:Microsoft.VisualStudio.Text.SpanTrackingMode.EdgeExclusive), the tracking span does not incorporate text inserted at its edges. However, if the span tracking mode is [SpanTrackingMode.EdgePositive](xref:Microsoft.VisualStudio.Text.SpanTrackingMode.EdgePositive), an insertion pushes the current position toward the start, and if the span tracking mode is [SpanTrackingMode.EdgeNegative](xref:Microsoft.VisualStudio.Text.SpanTrackingMode.EdgeNegative), an insertion pushes the current position toward the end.
 
 You can get the position of a tracking point or the span of a tracking span for any snapshot of the text buffer to which they belong. Tracking points and tracking spans may be safely referenced from any thread.
 
@@ -148,7 +148,7 @@ You can get the position of a tracking point or the span of a tracking span for 
 
 Content types are a mechanism for defining different kinds of content. A content type can be a file type such as "text", "code", or "binary", or a technology type such as "xml", "vb", or "c#". For example, the word "using" is a keyword in both C# and Visual Basic, but not in other programming languages. Therefore, the definition of this keyword would be limited to the "c#" and "vb" content types.
 
-Content types are used as a filter for adornments and other elements of the editor. Many editor features and extension points are defined per content type; for example, text coloring is different for plain text files, XML files, and Visual Basic source code files. Text buffers are generally assigned a content type when they are created, and the content type of a text buffer can be changed.
+Content types are used as a filter for adornments and other elements of the editor. Many editor features and extension points are defined per content type. For example, text coloring is different for plain text files, XML files, and Visual Basic source code files. Text buffers are generally assigned a content type when they are created, and the content type of a text buffer can be changed.
 
 Content types can multiple-inherit from other content types. The <xref:Microsoft.VisualStudio.Utilities.ContentTypeDefinition> lets you specify multiple base types as the parents of a given content type.
 
@@ -242,7 +242,7 @@ A classifier aggregator is also a classifier because it breaks text into a set o
 
 #### Classification formatting and text coloring
 
-Text formatting is an example of a feature that is built on text classification. It is used by the text view layer to determine the display of text in an application. The text formatting area is dependent on WPF, but the logical definition of classifications is not.
+Text formatting is an example of a feature that is built on text classification. It is used by the text view layer to determine the display of text in an application. The text formatting area depends on WPF, but the logical definition of classifications does not.
 
 A classification format is a set of formatting properties for a specific classification type. These formats inherit from the format of the parent of the classification type.
 
