@@ -20,7 +20,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Create custom data visualizers 
+# Create custom data visualizers
  A *visualizer* is part of the [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] debugger user interface that displays a variable or object in a manner appropriate to its data type. For example, an HTML visualizer interprets an HTML string and displays the result as it would appear in a browser window. A bitmap visualizer interprets a bitmap structure and displays the graphic it represents. Some visualizers let you modify as well as view the data.
 
  The [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] debugger includes six standard visualizers. The text, HTML, XML, and JSON visualizers work on string objects. The WPF Tree visualizer displays the properties of a WPF object visual tree. The dataset visualizer works for DataSet, DataView, and DataTable objects. 
