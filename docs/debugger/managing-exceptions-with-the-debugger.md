@@ -36,9 +36,9 @@ ms.workload:
 ---
 # Manage exceptions with the debugger in Visual Studio
 
-An exception is an indication of an error state that occurs while a program is being executed. You can tell the debugger which exceptions or sets of exceptions to break on, and at which point you want the debugger to break. When the debugger breaks, it shows you where the exception was thrown. You can also add or delete exceptions. With a solution open in Visual Studio, use **Debug > Windows > Exception Settings** to open the **Exception Settings** window.
+An exception is an indication of an error state that occurs while a program is being executed. You can tell the debugger which exceptions or sets of exceptions to break on, and at which point you want the debugger to break (that is, pause in the debugger). When the debugger breaks, it shows you where the exception was thrown. You can also add or delete exceptions. With a solution open in Visual Studio, use **Debug > Windows > Exception Settings** to open the **Exception Settings** window.
 
-Provide handlers that respond to the most important exceptions. Also learn how to configure the debugger to always break execution for some exceptions.
+Provide handlers that respond to the most important exceptions. If you need to know how to add handlers for exceptions, see [Fix bugs by writing better C# code](../debugger/write-better-code-with-visual-studio.md). Also, learn how to configure the debugger to always break execution for some exceptions.
 
 When an exception occurs, the debugger writes an exception message to the **Output** window. It may break execution in the following cases when:
 
