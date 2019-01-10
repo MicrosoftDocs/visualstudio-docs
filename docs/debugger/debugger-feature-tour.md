@@ -179,7 +179,7 @@ In this example, the **Exception Helper** shows you a `System.Argument` exceptio
 
 In this example, the `DirectoryInfo` call gave the error on the empty string stored in the `value` variable.
 
-The Exception Helper is a great feature that can help you debug errors. You can also do things like view error details and add a watch from the Exception Helper. Or, if needed, you can change conditions for throwing the particular exception.
+The Exception Helper is a great feature that can help you debug errors. You can also do things like view error details and add a watch from the Exception Helper. Or, if needed, you can change conditions for throwing the particular exception. For more information on how to handle exceptions in your code, see [Fix bugs by writing better C# code](../debugger/write-better-code-with-visual-studio.md).
 
 > [!NOTE]
 > The Exception Helper replaces the Exception Assistant in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)].

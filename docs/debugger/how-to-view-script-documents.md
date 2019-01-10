@@ -1,6 +1,6 @@
 ---
 title: "How to: View Script Documents | Microsoft Docs"
-ms.date: "11/04/2016"
+ms.date: "01/08/2019"
 ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
@@ -16,14 +16,12 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: View Script Documents
-In earlier versions of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], client-side script files generated from server-side script appeared in the Script Explorer window. The Script Explorer window was often hidden, so that the availability of client-side script was not always obvious.  
+# How to: View Script Documents (JavaScript)
+
+Server-side script files are visible in Solution Explorer. Client-side script files are visible only when you are in debug mode or break mode. Client-side script files appear in the **Script Documents** node.  
   
- In [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)], client-side script files generated from server-side script appear in Solution Explorer, which is visible by default. The Script Explorer window has been eliminated.  
-  
- Client-side script files are visible only when you are in debug mode or break mode. They appear in the **Script Documents** node.  
-  
- Server-side script files are always visible. They appear in the **\<Website Pathname>** node. The name of the node resembles this example: `c:\...\Website2\`  
+> [!NOTE]
+> Previous to [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)], client-side script files generated from server-side script appeared in the Script Explorer window.
   
 ### To view a server-side script document  
   

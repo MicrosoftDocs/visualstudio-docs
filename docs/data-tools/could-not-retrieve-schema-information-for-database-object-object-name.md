@@ -14,8 +14,6 @@ ms.workload:
 
 This message typically appears when an object in **Server Explorer** or **Database Explorer** is copied to the clipboard, deleted from the database, and then pasted onto the designer. Because the database object no longer exists, this message appears.
 
-To correct this error, select **OK** to dismiss the dialog box.
-
 ## See also
 
 - [O/R Designer messages](../data-tools/o-r-designer-messages.md)
