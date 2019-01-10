@@ -26,7 +26,7 @@ The <xref:System.Diagnostics.DebuggerDisplayAttribute> controls how an object, p
 >  If the **Show raw structure of objects in variables windows** check box is selected in the **Tools /Options / Debugging** dialog box, then the `DebuggerDisplay` attribute is ignored.  
 
 > [!NOTE]
-> For native code, the attribute is supported only in C++/CLI code.
+> For native code, this attribute is supported only in C++/CLI code.
   
  The following table shows some possible uses of the `DebuggerDisplay` attribute and example outputs.  
   

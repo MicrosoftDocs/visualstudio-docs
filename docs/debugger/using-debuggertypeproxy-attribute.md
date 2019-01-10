@@ -29,7 +29,7 @@ This attribute can be applied to:
 - Assemblies
 
 > [!NOTE]
-> For native code, the attribute is supported only in C++/CLI code.
+> For native code, this attribute is supported only in C++/CLI code.
 
 A type proxy class must have a constructor that takes an argument of the type that the proxy will replace. The debugger creates a new instance of the type proxy class every time it needs to display a variable of the target type. This can have performance implications. As a result, you should not do any more work in the constructor than absolutely necessary.
 
