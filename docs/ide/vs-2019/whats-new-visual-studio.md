@@ -16,6 +16,7 @@ ms.author: tglee
 manager: douge
 ms.workload:
   - "multiple"
+monikerRange: vs-2019
 ---
 # What&#39;s new in Visual Studio 2019 Preview
 

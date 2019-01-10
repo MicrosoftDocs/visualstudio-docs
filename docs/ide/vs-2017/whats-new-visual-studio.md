@@ -17,6 +17,7 @@ ms.author: tglee
 manager: douge
 ms.workload:
   - "multiple"
+monikerRange: vs-2017
 ---
 # What&#39;s new in Visual Studio 2017
 
