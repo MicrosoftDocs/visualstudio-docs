@@ -34,7 +34,7 @@ devenv SolutionName /Build [SolnConfigName [/Project ProjName [/ProjectConfig Pr
 
 - *SolnConfigName*
 
-  Optional. The name of the solution configuration to be used to build the solution named in *SolutionName*. If multiple solution platforms are available, you must also specify the platform (for example, `Debug|Win32`). If this argument is unspecified or an empty string (`""`), the tool uses the solution's active configuration.
+  Optional. The name of the solution configuration (such as `Debug` or `Release`) to be used to build the solution named in *SolutionName*. If multiple solution platforms are available, you must also specify the platform (for example, `Debug|Win32`). If this argument is unspecified or an empty string (`""`), the tool uses the solution's active configuration.
 
 - `/Project` *ProjName*
 
@@ -42,7 +42,7 @@ devenv SolutionName /Build [SolnConfigName [/Project ProjName [/ProjectConfig Pr
 
 - `/ProjectConfig` *ProjConfigName*
 
-  Optional. The name of a project build configuration to be used when building the named project. If multiple project platforms are available, you must also specify the platform, for example `Debug|Win32`. If this switch is specified, it overrides the *SolnConfigName* argument.
+  Optional. The name of a project build configuration (such as `Debug` or `Release`) to be used when building the named project. If more than one solution platform is available, you must also specify the platform (for example, `Debug|Win32`). If this switch is specified, it overrides the *SolnConfigName* argument.
 
 - `/Out` *OutputFilename*
 
