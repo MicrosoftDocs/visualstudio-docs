@@ -18,7 +18,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# View threads and tasks in the Parallel Stacks window
+# View threads and tasks in the Parallel Stacks window (C#, Visual Basic, C++)
 
 The **Parallel Stacks** window is useful for debugging multithreaded applications. It has several views:
 
