@@ -13,7 +13,8 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Using the IntelliTrace stand-alone collector
+# Using the IntelliTrace stand-alone collector (C#, Visual Basic)
+
 The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnostic data for your apps on production servers or other environments without installing Visual Studio on the target machine and without changing the target system's environment. The IntelliTrace stand-alone collector works on web, SharePoint, WPF and Windows Forms apps. When you're done collecting data, just delete the collector to uninstall it.
 
  Watch IntelliTrace in action: [Collecting and analyzing IntelliTrace data in production for debugging (Channel 9 video)](http://go.microsoft.com/fwlink/?LinkID=251851)
