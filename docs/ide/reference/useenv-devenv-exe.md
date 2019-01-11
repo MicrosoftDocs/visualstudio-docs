@@ -48,7 +48,7 @@ devenv /UseEnv {SolutionName|ProjectName}
 
 This switch affects the Visual Studio IDE when you right-click a solution project and select **Properties** > **Property Pages** > **Configuration Properties** > **VC++ Environment Variables**. If you specify the `/UseEnv` switch, the **VC++ Environment Variables** node shows the values for the PATH, INCLUDE, LIBPATH, and LIB environment variables. (It also shows values for **Source Directories** and **Exclude Directories**.) Otherwise, the node replaces the environment variables with five directory values: **Executable Directories**, **Include Directories**, **Reference Directories**, **Library Directories**, and **Library WinRT Directories**.
 
-When a project name is specified with this switch, the tool displays the environmental variables for all projects within the project's parent solution.
+When a project name is specified with this switch, the tool displays the environment variables for all projects within the project's parent solution.
 
 ## Example
 
