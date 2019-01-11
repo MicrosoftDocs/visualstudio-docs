@@ -21,7 +21,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# IntelliTrace Features
+# IntelliTrace Features (C#, Visual Basic, C++)
 
 You can use IntelliTrace to record events and method calls your application, which allows you to examine its state (call stack and local variable values) at different points in the execution. Just start debugging as usual - IntelliTrace is turned on by default, and you can see the information IntelliTrace is recording in the new **Diagnostic Tools** window under the **Events** tab. Select an event and click **Activate Historical Debugging** to see the call stack and locals recorded for this event.
 
@@ -34,19 +34,19 @@ To confirm that IntelliTrace is turned on, open the **Tools > Options > IntelliT
 > [!NOTE]
 > The scope of all settings on the **IntelliTrace** options page is Visual Studio as a whole, not individual projects or solutions. A change in these settings applies to all instances of Visual Studio, all debugging sessions and all projects or solutions.
 
-## <a name="ChooseEvents"></a> Choose the events that IntelliTrace records (managed code only)
+## <a name="ChooseEvents"></a> Choose the events that IntelliTrace records (C#, Visual Basic)
 
 You can turn on or off recording for specific IntelliTrace events.
 
 If you're debugging, stop debugging. Go to **Tools > Options > IntelliTrace > IntelliTrace Events**. Choose the events you want IntelliTrace to record.
 
-## <a name="Snapshots"></a> Collect snapshots
+## <a name="Snapshots"></a> Collect snapshots (C#, Visual Basic, C++)
 
 This isn't enabled by default, but IntelliTrace can capture snapshots of your application at every breakpoint and debugger step event, and you can view these snapshots in a historical debugging session. A snapshot gives you a view of your full application state. To enable the capture of snapshots, go to **Tools > Options > IntelliTrace > General**, and select **IntelliTrace snapshots (managed and native)**. For more information, see [Inspect previous app states using IntelliTrace](../debugger/view-historical-application-state.md)
 
 Snapshots are available in Visual Studio Enterprise 2017 version 15.5 and higher, and it requires Windows 10 Anniversary Update or above.  For .NET Core and ASP.NET Core apps, Visual Studio Enterprise 2017 version 15.7 is required. For native apps targeting Windows, Visual Studio Enterprise 2017 version 15.9 Preview 2 is required.
 
-## <a name="GoingFurther"></a> Collect IntelliTrace events and call information (managed code only)
+## <a name="GoingFurther"></a> Collect IntelliTrace events and call information (C#, Visual Basic)
 
 This isn't enabled by default, but IntelliTrace can record method calls along with events. To enable collection of method calls go to **Tools > Options > IntelliTrace > General**, and select **IntelliTrace events and call information (managed only)**.
 
@@ -86,7 +86,7 @@ To add multiple modules, use the wildcard character * at the start or the end of
 
 Try to keep the number of modules to a minimum. You get better performance because there is less data to be collected. You also get less noise in the UI because there is less data to go through.
 
-## <a name="SaveSession"></a> Save IntelliTrace data to file
+## <a name="SaveSession"></a> Save IntelliTrace data to file (C#, Visual Basic, C++)
 
 You can save the data that IntelliTrace has collected going to **Debug > IntelliTrace > Save IntelliTrace Session** while you are debugging and the application is in a break state. The menu item is disabled and you will not be able to save the data IntelliTrace has collected if the application is still running or if you have stopped debugging.
 

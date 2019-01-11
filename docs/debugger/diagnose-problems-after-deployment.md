@@ -9,7 +9,7 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Diagnose problems after deployment using IntelliTrace
+# Diagnose problems after deployment using IntelliTrace (C#, Visual Basic)
 
 To diagnose issues in your ASP.NET web app after deployment by using IntelliTrace, include build information with your release to let Visual Studio automatically find the correct source files and symbol files that are required to debug the IntelliTrace log.
 
