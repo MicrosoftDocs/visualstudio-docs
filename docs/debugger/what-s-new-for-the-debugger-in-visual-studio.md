@@ -65,4 +65,4 @@ For more information on these new features, see the [Release Notes for [!include
 ## See also
 
 - [Debugging in Visual Studio](../debugger/index.md)
-- [Debugger Feature Tour](../debugger/debugger-feature-tour.md)
+- [First look at the debugger](../debugger/debugger-feature-tour.md)

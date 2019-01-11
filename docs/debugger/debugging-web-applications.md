@@ -35,4 +35,4 @@ This section explains how to debug several types of Web applications.
  [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)   
  [First look at the debugger](../debugger/debugger-feature-tour.md)
  [Debugging in Visual Studio](../debugger/index.md)  
- [Debugger Feature Tour](../debugger/debugger-feature-tour.md)
+ [First look at the debugger](../debugger/debugger-feature-tour.md)
