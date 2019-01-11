@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "Outlook folders [Office development in Visual Studio], creating"
   - "Outlook folders [Office development in Visual Studio], custom"
 author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
 ms.workload: 
   - "office"
 ---

@@ -9,7 +9,7 @@ dev_langs:
   - "C++"
 helpviewer_keywords: 
   - "cluster debugging"
-  - "high-perfomance debugging"
+  - "high-performance debugging"
 ms.assetid: a2f0eb07-840e-4f95-a1b1-9509217e5b8f
 author: "mikejo5000"
 ms.author: "mikejo"

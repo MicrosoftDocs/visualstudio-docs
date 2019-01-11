@@ -35,5 +35,5 @@ To copy SSDEBUGPS.dll onto the SQL Server 2005 machine:
 2. Register it by opening a **Command Prompt**, and running the following command:
 
     ```cmd
-    regsrv32 ssdebugps.dll
+    regsvr32 ssdebugps.dll
     ```

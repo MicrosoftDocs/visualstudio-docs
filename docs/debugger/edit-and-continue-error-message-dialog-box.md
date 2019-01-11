@@ -3,7 +3,7 @@ title: "Edit and Continue error message dialog box| Microsoft Docs"
 ms.date: "10/15/2018"
 ms.topic: "reference"
 f1_keywords: 
-  - "vs.debug.ENC.SupportedButNotAvaiable"
+  - "vs.debug.ENC.SupportedButNotAvailable"
   - "vs.debug.ENC.CannotEditWhileException"
 dev_langs: 
   - "CSharp"

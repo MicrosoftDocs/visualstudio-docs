@@ -95,7 +95,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
   
 3.  Add the following `using` statement.  
   
-    ```vb  
+    ```csharp
     using Microsoft.VisualStudio.Text;  
     ```  
   
@@ -212,7 +212,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
   
         Grid.SetColumn(rect, 0);  
         Grid.SetRow(rect, 0);  
-         Grid.SetRowSpan(rect, 2);  
+        Grid.SetRowSpan(rect, 2);  
         Grid.SetColumnSpan(rect, 3);  
         Grid.SetRow(tb1, 0);  
         Grid.SetColumn(tb1, 1);  
@@ -223,7 +223,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
         this.commentGrid.Children.Add(tb2);  
   
         Canvas.SetLeft(this.commentGrid, Math.Max(viewRightEdge - this.commentGrid.Width - 20.0, textRightEdge + 20.0));  
-         Canvas.SetTop(this.commentGrid, textGeometry.GetRenderBounds(solidPen).Top);  
+        Canvas.SetTop(this.commentGrid, textGeometry.GetRenderBounds(solidPen).Top);  
   
         this.Children.Add(this.commentGrid);  
     }  
@@ -380,27 +380,6 @@ From a VSPackage, you can add features such as menu commands to the editor. This
     ```  
   
 8.  Add the `OnBufferChanged` event handler.  
-  
-    ```csharp  
-    private void OnBufferChanged(object sender, TextContentChangedEventArgs e)  
-    {  
-        //Make a list of all comments that have a span of at least one character after applying the change. There is no need to raise a changed event for the deleted adornments. The adornments are deleted only if a text change would cause the view to reformat the line and discard the adornments.  
-        IList<CommentAdornment> keptComments = new List<CommentAdornment>(this.comments.Count);  
-  
-        foreach (CommentAdornment comment in this.comments)  
-        {  
-            Span span = comment.Span.GetSpan(e.After);  
-            //if a comment does not span at least one character, its text was deleted.   
-            if (span.Length != 0)  
-            {  
-                keptComments.Add(comment);  
-            }  
-        }  
-  
-        this.comments = keptComments;  
-    }  
-  
-    ```  
   
      [!code-csharp[VSSDKMenuCommandTest#21](../extensibility/codesnippet/CSharp/walkthrough-using-a-shell-command-with-an-editor-extension_2.cs)]
      [!code-vb[VSSDKMenuCommandTest#21](../extensibility/codesnippet/VisualBasic/walkthrough-using-a-shell-command-with-an-editor-extension_2.vb)]  
@@ -636,10 +615,10 @@ From a VSPackage, you can add features such as menu commands to the editor. This
     using CommentAdornmentTest;  
     ```  
   
-3.  Delete the `ShowMessageBox()` method and add the following command handler.  
+3.  Delete the `Execute()` method and add the following command handler.  
   
     ```csharp  
-    private void AddAdornmentHandler(object sender, EventArgs e)  
+    private async void AddAdornmentHandler(object sender, EventArgs e)  
     {  
     }  
     ```  
@@ -647,9 +626,9 @@ From a VSPackage, you can add features such as menu commands to the editor. This
 4.  Add code to get the active view. You must get the `SVsTextManager` of the Visual Studio shell to get the active `IVsTextView`.  
   
     ```csharp  
-    private void AddAdornmentHandler(object sender, EventArgs e)  
+    private async void AddAdornmentHandler(object sender, EventArgs e)  
     {  
-        IVsTextManager txtMgr = (IVsTextManager)ServiceProvider.GetService(typeof(SVsTextManager));  
+        IVsTextManager txtMgr = (IVsTextManager) await ServiceProvider.GetServiceAsync(typeof(SVsTextManager));  
         IVsTextView vTextView = null;  
         int mustHaveFocus = 1;  
         txtMgr.GetActiveView(mustHaveFocus, null, out vTextView);  
@@ -659,9 +638,9 @@ From a VSPackage, you can add features such as menu commands to the editor. This
 5.  If this text view is an instance of an editor text view, you can cast it to the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsUserData> interface and then get the <xref:Microsoft.VisualStudio.Text.Editor.IWpfTextViewHost> and its associated <xref:Microsoft.VisualStudio.Text.Editor.IWpfTextView>. Use the <xref:Microsoft.VisualStudio.Text.Editor.IWpfTextViewHost> to call the `Connector.Execute()` method, which gets the comment adornment provider and adds the adornment. The command handler should now look like this code:  
   
     ```csharp  
-    private void AddAdornmentHandler(object sender, EventArgs e)  
+    private async void AddAdornmentHandler(object sender, EventArgs e)  
     {  
-        IVsTextManager txtMgr = (IVsTextManager)ServiceProvider.GetService(typeof(SVsTextManager));  
+        IVsTextManager txtMgr = (IVsTextManager) await ServiceProvider.GetServiceAsync(typeof(SVsTextManager));  
         IVsTextView vTextView = null;  
         int mustHaveFocus = 1;  
         txtMgr.GetActiveView(mustHaveFocus, null, out vTextView);  
@@ -669,7 +648,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
          if (userData == null)  
         {  
             Console.WriteLine("No text view is currently open");  
-                            return;  
+            return;  
         }  
         IWpfTextViewHost viewHost;  
         object holder;  
@@ -683,24 +662,15 @@ From a VSPackage, you can add features such as menu commands to the editor. This
 6.  Set the AddAdornmentHandler method as the handler for the AddAdornment command in the AddAdornment constructor.  
   
     ```csharp  
-    private AddAdornment(Package package)  
-    {  
-        if (package == null)  
-        {  
-            throw new ArgumentNullException(nameof(package));  
-        }  
-  
-        this.package = package;  
-  
-        OleMenuCommandService commandService = this.ServiceProvider.GetService(typeof(IMenuCommandService)) as OleMenuCommandService;  
-        if (commandService != null)  
-        {  
-            CommandID menuCommandID = new CommandID(MenuGroup, CommandId);  
-            EventHandler eventHandler = this.AddAdornmentHandler;  
-            MenuCommand menuItem = new MenuCommand(eventHandler, menuCommandID);  
-            commandService.AddCommand(menuItem);  
-        }  
-    }  
+    private AddAdornment(AsyncPackage package, OleMenuCommandService commandService)
+    {
+        this.package = package ?? throw new ArgumentNullException(nameof(package));
+        commandService = commandService ?? throw new ArgumentNullException(nameof(commandService));
+
+        var menuCommandID = new CommandID(CommandSet, CommandId);
+        var menuItem = new MenuCommand(this.AddAdornmentHandler, menuCommandID);
+        commandService.AddCommand(menuItem);
+    } 
     ```  
   
 ## Build and test the code  

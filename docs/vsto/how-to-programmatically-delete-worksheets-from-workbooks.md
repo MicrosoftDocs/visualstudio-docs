@@ -8,8 +8,8 @@ dev_langs:
 helpviewer_keywords: 
   - "workbooks, deleting worksheets"
   - "worksheets, deleting"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
