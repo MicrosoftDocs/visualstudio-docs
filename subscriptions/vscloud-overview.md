@@ -31,9 +31,7 @@ Anyone with [owner and contributor access](https://na01.safelinks.protection.out
 
 1.	Sign in to the [Visual Studio Marketplace > Subscriptions](https://marketplace.visualstudio.com/subscriptions).
 
-2.	Choose the subscription that you want to buy, for example:
-    > [!div class="mx-imgBorder"]
-	> ![Buy a Visual Studio subscription](_img/buy-vs-subscriptions/buy-vs-sub-start.png)
+2.	Choose the subscription that you want to buy, for example - Visual Studio Professional - monthly subscription.
 
 3.	Select the Azure subscription to use for billing. You can create a new Azure subscription if you don't have one.
     > [!div class="mx-imgBorder"]
