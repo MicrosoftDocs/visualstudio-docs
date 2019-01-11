@@ -177,13 +177,11 @@ This walkthrough steps you through the process of using code analysis to analyze
 
 ## Exclude code analysis warnings
 
-### To exclude code defect warnings
-
 1. For each of the remaining warnings, do the following:
 
     1. Select the warning in the **Error List**.
 
-    1. From the right-click or context menu, choose **Suppress** > **In Suppression File**.
+    1. From the right-click menu (context menu), choose **Suppress** > **In Suppression File**.
 
 1. Rebuild the project.
 

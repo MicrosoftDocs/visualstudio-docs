@@ -87,7 +87,7 @@ public void Debit(double amount)
 
 5. In the **BankTests** project, add a reference to the **Bank** project.
 
-   In **Solution Explorer**, select **References** in the **BankTests** project and then choose **Add Reference** from the context menu.
+   In **Solution Explorer**, select **References** in the **BankTests** project and then choose **Add Reference** from the right-click menu.
 
 6. In the **Reference Manager** dialog box, expand **Solution** and then check the **Bank** item.
 
@@ -97,7 +97,7 @@ Create a test class to verify the `BankAccount` class. You can use the *UnitTest
 
 ### Rename a class file
 
-In **Solution Explorer**, select the *UnitTest1.cs* file in the BankTests project. From the context menu, choose **Rename**, and then rename the file to *BankAccountTests.cs*. Choose **Yes** on the dialog that asks if you want to rename all references to the code element `UnitTest1` in the project.
+In **Solution Explorer**, select the *UnitTest1.cs* file in the BankTests project. From the right-click menu, choose **Rename**, and then rename the file to *BankAccountTests.cs*. Choose **Yes** on the dialog that asks if you want to rename all references to the code element `UnitTest1` in the project.
 
 This step changes the name of the class to `BankAccountTests`. The *BankAccountTests.cs* file now contains the following code:
 

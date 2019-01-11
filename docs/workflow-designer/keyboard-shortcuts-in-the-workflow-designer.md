@@ -48,7 +48,7 @@ The following list shows the gestures used to construct a flowchart by keyboard.
 
 - To resize a flowchart, move an activity past the current border of the flowchart using the arrow keys. The flowchart is resized automatically.
 
-- To set an activity as the start node, use the **Set as StartNode** command in the context menu.
+- To set an activity as the start node, use the **Set as StartNode** command in the right-click menu.
 
 - To connect activities:
 
