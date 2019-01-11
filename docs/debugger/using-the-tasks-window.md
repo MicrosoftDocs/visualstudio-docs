@@ -18,7 +18,7 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Using the Tasks Window
+# Using the Tasks Window (C#, Visual Basic, C++)
 
 The **Tasks** window resembles the **Threads** window, except that it shows information about <xref:System.Threading.Tasks.Task?displayProperty=fullName>, [task_handle](/cpp/parallel/concrt/reference/task-group-class), or [WinJS.Promise](/previous-versions/windows/apps/br211867(v=win.10)) objects instead of each thread. Like threads, tasks represent asynchronous operations that can run concurrently; however, multiple tasks may run on the same thread.
 

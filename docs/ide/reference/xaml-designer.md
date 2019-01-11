@@ -59,7 +59,7 @@ These settings determine Designer behavior when editing a XAML document.
 |||
 |-|-|
 |**Automatically name interactive elements on creation**|Specifies whether a default name is provided for a new interactive element when you add one to the Designer.|
-|**Automatically insert layout properties on element creation**|Specifies whether layout properties are provided for a new element when you add one to the Designer.|
+|**Automatically insert layout properties on element creation**|Specifies whether layout properties are provided for a new element when you add one to the Designer. Layout properties are those that impact the layout of a control, for example, margins and padding.|
 |**Use quadrant based layout**|Specifies whether the currently selected control aligns to the nearest edges of the parent container. If this checkbox is cleared, control alignments do not change during a move or create operation.|
 |**Automatically populate toolbox items**|Specifies whether user controls and custom controls in the current solution are shown in the Toolbox automatically.|
 
