@@ -7,7 +7,7 @@ ms.date: 11/03/2018
 ms.assetid: 7DC64A52-AA41-4F3A-A8A1-8A20BCD81CC7
 ---
 
-# Visual Studio for Mac 2017 Tour
+# Visual Studio 2017 for Mac Tour
 
 Visual Studio for Mac evolves Xamarin's mobile-centric IDE, Xamarin Studio, into a mobile-first, cloud-first development environment on the Mac. This developer-focused tool allows you to use the power of .NET to create applications for all platforms required by your users.
 

@@ -7,7 +7,7 @@ ms.date: 11/03/2018
 ms.assetid: 7DC64A52-AA41-4F3A-A8A1-8A20BCD81CC7
 ---
 
-# Visual Studio for Mac 2019 Preview Tour
+# Visual Studio 2019 for Mac Preview Tour
 
 > [!NOTE]
 > Visual Studio 2019 for Mac is [now available](installation.md) as a preview for testing.
