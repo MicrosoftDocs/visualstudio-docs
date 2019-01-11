@@ -1,5 +1,5 @@
 ---
-title: "Create custom views of managed objects | Microsoft Docs"
+title: "Create custom views of objects | Microsoft Docs"
 ms.date: "01/08/2019"
 ms.topic: "conceptual"
 f1_keywords: 
@@ -10,7 +10,7 @@ dev_langs:
   - "FSharp"
   - "C++"
 helpviewer_keywords: 
-  - "data types [C#], custom"
+  - "data types, custom"
   - "custom data types"
   - "managed code, custom data types"
   - "autoexp.dat file"
@@ -26,16 +26,16 @@ ms.workload:
 ---
 # Create custom views of objects (C#, Visual Basic, C++)
 You can customize the way Visual Studio displays data types in debugger variable windows.  
-  
-## Attributes
-
-In C# and Visual Basic, you can add expansions for custom data using <xref:System.Diagnostics.DebuggerTypeProxyAttribute>, <xref:System.Diagnostics.DebuggerDisplayAttribute>, and <xref:System.Diagnostics.DebuggerBrowsableAttribute>.  
-  
-In [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)] code, Visual Basic does not support the DebuggerBrowsable attribute. This limitation is removed in more recent versions of the .NET Framework.    
 
 ## Native Code
 
-For C++ code, you can add custom data type expansions using the Natvis framework, as described in [Create custom views of native object in the debugger](/visualstudio/debugger/create-custom-views-of-native-objects). Or, you can also add expansions for custom data using <xref:System.Diagnostics.DebuggerTypeProxyAttribute>, <xref:System.Diagnostics.DebuggerDisplayAttribute>, and <xref:System.Diagnostics.DebuggerBrowsableAttribute>.
+For C++ code, you can add custom data type expansions using the Natvis framework, as described in [Create custom views of native object in the debugger](/visualstudio/debugger/create-custom-views-of-native-objects). For C++/CLI code, you also can use attributes, described here in this article.
+
+## Attributes
+
+In C#, Visual Basic, and C++ (C++/CLI code only), you can add expansions for custom data using <xref:System.Diagnostics.DebuggerTypeProxyAttribute>, <xref:System.Diagnostics.DebuggerDisplayAttribute>, and <xref:System.Diagnostics.DebuggerBrowsableAttribute>.  
+  
+In [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)] code, Visual Basic does not support the DebuggerBrowsable attribute. This limitation is removed in more recent versions of the .NET Framework.    
 
 ## Visualizers
 
