@@ -23,7 +23,7 @@ ms.workload:
 ---
 # /UseEnv (devenv.exe)
 
-Starts Visual Studio and loads certain environmental variables for compilation.
+Starts Visual Studio and loads certain environment variables for compilation.
 
 > [!NOTE]
 > This switch is installed with the **Desktop development with C++** workload.
@@ -46,7 +46,10 @@ devenv /UseEnv {SolutionName|ProjectName}
 
 ## Remarks
 
-This switch affects the Visual Studio IDE when you right-click a solution project and select **Properties** > **Property Pages** > **Configuration Properties** > **VC++ Environment Variables**. If you specify the `/UseEnv` switch, the **VC++ Environment Variables** node shows the values for the PATH, INCLUDE, LIBPATH, and LIB environment variables. (It also shows values for **Source Directories** and **Exclude Directories**.) Otherwise, the node replaces the environment variables with five directory values: **Executable Directories**, **Include Directories**, **Reference Directories**, **Library Directories**, and **Library WinRT Directories**.
+This switch affects the Visual Studio IDE in the project properties for **VC++ Directories**. If you specify the `/UseEnv` switch, the **VC++ Directories** node shows the values for the PATH, INCLUDE, LIBPATH, and LIB environment variables. (It also shows values for **Source Directories** and **Exclude Directories**.) Otherwise, the node replaces the environment variables with five directory values: **Executable Directories**, **Include Directories**, **Reference Directories**, **Library Directories**, and **Library WinRT Directories**.
+
+> [!TIP]
+> You access the project properties by right-clicking a C++ project and selecting **Properties**. In the **Property Pages** dialog box, select **Configuration Properties** and then **VC++ Directories**.
 
 When a project name is specified with this switch, the tool displays the environment variables for all projects within the project's parent solution.
 
