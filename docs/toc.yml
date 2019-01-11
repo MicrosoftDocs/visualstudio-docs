@@ -934,7 +934,7 @@
       href: ide/reference/debugexe-devenv-exe.md
     - name: -Deploy (devenv.exe)
       href: ide/reference/deploy-devenv-exe.md
-    - name: -Diff
+    - name: -Diff (devenv.exe)
       href: ide/reference/diff.md
     - name: -Edit (devenv.exe)
       href: ide/reference/edit-devenv-exe.md
@@ -942,6 +942,8 @@
       href: ide/reference/lcid-devenv-exe.md
     - name: -Log (devenv.exe)
       href: ide/reference/log-devenv-exe.md
+    - name: -NoSplash (devenv.exe)
+      href: ide/reference/nosplash-devenv-exe.md
     - name: -Out (devenv.exe)
       href: ide/reference/out-devenv-exe.md
     - name: -Project (devenv.exe)
@@ -952,20 +954,14 @@
       href: ide/reference/rebuild-devenv-exe.md
     - name: -ResetSettings (devenv.exe)
       href: ide/reference/resetsettings-devenv-exe.md
-    - name: -ResetSkipPkgs (devenv.exe)
-      href: ide/reference/resetskippkgs-devenv-exe.md
     - name: -Run (devenv.exe)
       href: ide/reference/run-devenv-exe.md
     - name: -Runexit (devenv.exe)
       href: ide/reference/runexit-devenv-exe.md
     - name: -SafeMode (devenv.exe)
       href: ide/reference/safemode-devenv-exe.md
-    - name: -Setup (devenv.exe)
-      href: ide/reference/setup-devenv-exe.md
     - name: -Upgrade (devenv.exe)
       href: ide/reference/upgrade-devenv-exe.md
-    - name: -UseEnv (devenv.exe)
-      href: ide/reference/useenv-devenv-exe.md
   - name: Visual Studio Commands
     href: ide/reference/visual-studio-commands.md
     items:

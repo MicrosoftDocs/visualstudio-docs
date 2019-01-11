@@ -16,7 +16,8 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Using saved IntelliTrace data
+# Using saved IntelliTrace data (C#, Visual Basic, C++)
+
 Go to specific points in your application's execution when you start debugging from an IntelliTrace log (.iTrace) file. This file can contain performance events, exceptions, threads, test steps, modules, and other system info that IntelliTrace records while your app runs.
 
  Make sure that you have:
