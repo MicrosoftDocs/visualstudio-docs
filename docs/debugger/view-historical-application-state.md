@@ -11,7 +11,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Inspect previous app states using IntelliTrace step-back in Visual Studio
+# Inspect previous app states using IntelliTrace step-back in Visual Studio (Visual Studio Enterprise)
 
 IntelliTrace step-back automatically takes a snapshot of your application at every breakpoint and debugger step event. The recorded snapshots enable you to go back to previous breakpoints or steps and view the state of the application as it was in the past. IntelliTrace step-back can save you time when you want to see the previous application state but don't want to restart debugging or recreate the desired app state.
 
