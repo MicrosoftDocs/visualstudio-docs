@@ -278,7 +278,7 @@ Build and run the application to verify that you can view and update customer re
 
 3. In **Solution Explorer**, right-click the **AdventureWorksSalesEditor** project.
 
-4. On the context menu, under **Debug**, click **Start new instance**.
+4. On the right-click menu (context menu), under **Debug**, click **Start new instance**.
 
      The application runs. Verify the following:
 

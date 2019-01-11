@@ -38,7 +38,7 @@ In **Class Designer**, a C++ typedef has the shape of the type specified in the 
 
 Classes and structures can have nested typedefs declared within them. In **Class Designer**, class and structure shapes can show nested typedef declarations as nested shapes.
 
-Typedef shapes support the **Show as Association** and **Show as Collection Association** commands on the context menu.
+Typedef shapes support the **Show as Association** and **Show as Collection Association** commands on the right-click menu (context menu).
 
 ### Class typedef example
 
