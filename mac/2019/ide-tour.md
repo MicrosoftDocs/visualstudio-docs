@@ -24,7 +24,7 @@ Visual Studio for Mac is organized into several sections for managing applicatio
 
 ## New Start Window
 
-When you start the Visual Studio for Mac 2019 preview, new users will see a sign-in window. Sign-in with your Microsoft account to activate a paid license (if you have one) or link to Azure subscriptions. You can press **Skip** and sign in later via the **Visual Studio > Sign in** menu item:
+When you start Visual Studio 2019 for Mac Preview, new users will see a sign-in window. Sign-in with your Microsoft account to activate a paid license (if you have one) or link to Azure subscriptions. You can press **Skip** and sign in later via the **Visual Studio > Sign in** menu item:
 
 ![Sign in to your Microsoft account](media/ide-tour-2019-start-signin.png)
 

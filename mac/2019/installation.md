@@ -1,6 +1,6 @@
 ---
 title: "Install Visual Studio 2019 for Mac Preview"
-description: "Instructions on how to install Visual Studio for Mac 2019 Preview and additional components required for cross-platform development."
+description: "Instructions on how to install Visual Studio 2019 for Mac Preview and additional components required for cross-platform development."
 author: conceptdev
 ms.author: crdun
 ms.date: 11/03/2018
@@ -42,7 +42,7 @@ To build Xamarin apps for iOS or macOS, you'll also need:
 
     [![Choose which optional workload features you would like to install](media/install-preview-selection-sml.png)](media/install-preview-selection.png#lightbox)
 
-    If your current Visual Studio for Mac 2017 is older than version 7.7, you will be asked to approve an upgrade to the latest stable version (which is required to support side-by-side installation). Press **Continue** to approve the upgrade:
+    If your current Visual Studio 2017 for Mac is older than version 7.7, you will be asked to approve an upgrade to the latest stable version (which is required to support side-by-side installation). Press **Continue** to approve the upgrade:
 
     ![Upgrading the stable version to 7.7 is required](media/install-preview-older-upgrade.png)
 
