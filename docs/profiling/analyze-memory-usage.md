@@ -31,5 +31,6 @@ You can use the profiling tools without the debugger with Windows 7 and later. W
  [Visual C++ blog: Memory profiling in Visual C++ 2015](https://blogs.msdn.microsoft.com/vcblog/2015/10/21/memory-profiling-in-visual-c-2015/)
 
 ## See also
- [Profiling in Visual Studio](../profiling/index.md)
- [First look at profiling tools](../profiling/profiling-feature-tour.md)
+
+- [Profiling in Visual Studio](../profiling/index.md)
+- [First look at profiling tools](../profiling/profiling-feature-tour.md)

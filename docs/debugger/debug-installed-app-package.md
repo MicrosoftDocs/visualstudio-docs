@@ -89,9 +89,10 @@ When you start debugging an installed app package on a connected Xbox, HoloLens,
 For more information on remote deployment of UWP apps, see [Deploy and debug UWP apps](/windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps#advanced-remote-deployment-options) and [Debug UWP apps on remote machines](run-windows-store-apps-on-a-remote-machine.md).
 
 ## See also
- [Debugging in Visual Studio](../debugger/index.md)
- [Debugger feature tour](../debugger/debugger-feature-tour.md)
- [Remote debugging](../debugger/remote-debugging.md)
- [Configure the Windows Firewall for remote debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md)
- [Remote debugger port assignments](../debugger/remote-debugger-port-assignments.md)
- [Remote debugging errors and troubleshooting](../debugger/remote-debugging-errors-and-troubleshooting.md)
+
+- [Debugging in Visual Studio](../debugger/index.md)
+- [Debugger feature tour](../debugger/debugger-feature-tour.md)
+- [Remote debugging](../debugger/remote-debugging.md)
+- [Configure the Windows Firewall for remote debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md)
+- [Remote debugger port assignments](../debugger/remote-debugger-port-assignments.md)
+- [Remote debugging errors and troubleshooting](../debugger/remote-debugging-errors-and-troubleshooting.md)
