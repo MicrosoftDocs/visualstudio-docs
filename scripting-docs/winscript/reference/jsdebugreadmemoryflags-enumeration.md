@@ -22,7 +22,7 @@ Flags to specify behavior when reading memory.
   
 ## Syntax  
   
-```  
+```cpp
 enum JsDebugReadMemoryFlags{   None = 0,   JsDebugAllowPartialRead= 0x1} JsDebugReadMemoryFlags;  
 ```  
   

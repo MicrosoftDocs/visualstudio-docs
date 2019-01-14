@@ -24,7 +24,7 @@ Returns the CLSID of the property page that can be used to edit this property.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT MapPropertyToPage(  
    DISPID  dispid,  
    CLSID*  pClsidPropPage  

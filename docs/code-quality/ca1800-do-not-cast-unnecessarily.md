@@ -2,7 +2,6 @@
 title: "CA1800: Do not cast unnecessarily"
 ms.date: 10/26/2017
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA1800"

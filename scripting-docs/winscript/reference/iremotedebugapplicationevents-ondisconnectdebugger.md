@@ -24,7 +24,7 @@ Handles a debugger disconnect event.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT OnDisconnectDebugger();  
 ```  
   

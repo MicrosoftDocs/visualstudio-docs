@@ -1,9 +1,6 @@
 ---
 title: "NamedRange control"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VST.Toolbox.Range"
@@ -80,5 +77,3 @@ ms.workload:
  [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)   
  [Walkthrough: Program against events of a NamedRange control](../vsto/walkthrough-programming-against-events-of-a-namedrange-control.md)   
  [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)  
-  
-  

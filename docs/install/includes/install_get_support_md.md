@@ -5,7 +5,7 @@ ms.topic: include
 
 Sometimes, things can go wrong. If your Visual Studio installation fails, see [Troubleshooting Visual Studio 2017 installation and upgrade issues](../troubleshooting-installation-issues.md) for step-by-step guidance.
 
-We also offer a [**live chat**](https://visualstudio.microsoft.com/vs/support/#talktous) (English only) support option  for installation-related issues.
+We also offer a [**live chat**](https://visualstudio.microsoft.com/vs/support/#talktous) (English only) support option for installation-related issues.
 
 Here are a few more support options:
 

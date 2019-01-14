@@ -2,7 +2,6 @@
 title: Set code bookmarks
 ms.date: 02/23/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 f1_keywords:
   - "VS.BookmarkWindow"

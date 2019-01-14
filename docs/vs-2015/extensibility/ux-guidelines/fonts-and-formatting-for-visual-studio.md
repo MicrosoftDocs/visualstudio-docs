@@ -5,8 +5,7 @@ ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
-  - "vs-ide-sdk"
+ms.technology: "vs-ide-sdk"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c3c3df69-83b4-4fd0-b5b1-e18c33f39376

@@ -5,7 +5,6 @@ author: ghogen
 manager: douge
 assetId: 521ec044-ad4b-4828-8864-01decde2e758
 ms.prod: visual-studio-dev15
-ms.technology: vs-azure
 ms.custom: vs-azure
 ms.workload: azure-vs
 ms.topic: conceptual

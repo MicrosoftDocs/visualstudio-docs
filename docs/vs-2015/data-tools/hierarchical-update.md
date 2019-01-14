@@ -39,7 +39,7 @@ Hierarchical update* refers to the process of saving updated data (from a datase
  By default, a dataset treats related tables as "relations only," which means that it doesn't enforce foreign key constraints. You can modify that setting at design time by using the Dataset Designer. Select the relation line between two tables to bring up the **Relation** dialog box. The changes you make here will determine how the TableAdapterManager behaves when it send the changes in the related tables back to the database.  
   
 ## Enablehierarchical update in a dataset  
- By default, hierarchical update is enabled for all new datasets that are added or created in a project. Turn hierarchical update on or off by setting the **Hierarchical Update** property of a typed dataset in the [Creating and Editing Typed Datasets](../data-tools/creating-and-editing-typed-datasets.md) to **True** or **False**:  
+ By default, hierarchical update is enabled for all new datasets that are added or created in a project. Turn hierarchical update on or off by setting the **Hierarchical Update** property of a typed dataset in the DataSet Designer to **True** or **False**:  
   
  ![Hierarchical update setting](../data-tools/media/hierarchical-update-setting.png "Hierarchical update setting")  
   
@@ -122,4 +122,3 @@ Hierarchical update* refers to the process of saving updated data (from a datase
   
 ## See Also  
  [Save data back to the database](../data-tools/save-data-back-to-the-database.md)
-

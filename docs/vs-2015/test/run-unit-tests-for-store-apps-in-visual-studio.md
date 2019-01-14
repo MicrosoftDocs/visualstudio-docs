@@ -5,8 +5,7 @@ ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
-  - "vs-ide-general"
+ms.technology: "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 5a6f5b32-bfce-4a63-81e9-02d54c592539

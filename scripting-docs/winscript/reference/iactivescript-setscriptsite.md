@@ -24,7 +24,7 @@ Informs the scripting engine of the [IActiveScriptSite](../../winscript/referenc
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT SetScriptSite(  
     IActiveScriptSite *pScriptSite  // address of host script site  
 );  

@@ -24,7 +24,7 @@ Sets the short name for the document.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT SetShortName(  
    LPCOLESTR  pszShortName  
 );  

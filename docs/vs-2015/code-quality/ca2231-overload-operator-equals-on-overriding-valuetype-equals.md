@@ -5,8 +5,7 @@ ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
+ms.technology: "vs-devops-test"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords:
@@ -78,6 +77,3 @@ return left.Equals(right);
 
 ## See Also
  <xref:System.Object.Equals%2A?displayProperty=fullName>
-
-
-

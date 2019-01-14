@@ -1,9 +1,6 @@
 ---
 title: "Grant trust to documents"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -13,8 +10,8 @@ helpviewer_keywords:
   - "inclusion lists [Office development in Visual Studio], about inclusion lists"
   - "trust [Office development in Visual Studio], 2007 Office system"
   - "granting trust [Office development in Visual Studio]"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -44,5 +41,3 @@ ms.workload:
  [Grant trust to Office solutions](../vsto/granting-trust-to-office-solutions.md)   
  [Troubleshoot Office solution security](../vsto/troubleshooting-office-solution-security.md)   
  [Secure Office solutions](../vsto/securing-office-solutions.md)  
-  
-  

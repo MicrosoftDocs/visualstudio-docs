@@ -22,7 +22,7 @@ Evaluate an expression in the context of this stack frame.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Evaluate(  
    LPCOLESTR pExpressionText,  
    IJsDebugProperty **ppDebugProperty,  

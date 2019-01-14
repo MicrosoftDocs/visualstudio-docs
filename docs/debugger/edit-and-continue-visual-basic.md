@@ -1,8 +1,6 @@
 ---
 title: "Edit and Continue (Visual Basic) | Microsoft Docs"
-ms.custom: ""
 ms.date: "10/11/2017"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
@@ -23,7 +21,7 @@ ms.workload:
   - "multiple"
 ---
 # Edit and Continue (Visual Basic)
-Edit and Continue is a feature for [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] debugging that enables you to change your code while it is executing in Break mode. After code edits have been applied, you can resume code execution with the new edits in place and see the effect.  
+Edit and Continue is a feature for [!INCLUDE [vbprvb](../code-quality/includes/vbprvb_md.md)] debugging that enables you to change your code while it is executing in Break mode. After code edits have been applied, you can resume code execution with the new edits in place and see the effect.  
   
  You can use the Edit and Continue feature whenever you enter Break mode. In Break mode, the instruction pointer, a yellow arrowhead in the source window, points to the line containing an executable statement in a method or property body that will be executed next.
 
@@ -36,7 +34,7 @@ Edit and Continue is a feature for [!INCLUDE[vbprvb](../code-quality/includes/vb
  > [!NOTE]
  > Unsupported apps and platforms include ASP.NET 5, Silverlight 5, and Windows 8.1.
   
- Edit and Continue is not supported when you start debugging using **Attach to Process**. Edit and Continue is not supported for optimized code or mixed managed and native code. For more information, see [Supported Code Changes (C# and Visual Basic](../debugger/supported-code-changes-csharp.md).
+ Edit and Continue is not supported when you start debugging using **Attach to Process**. Edit and Continue is not supported for optimized code or mixed managed and native code. For more information, see [Supported Code Changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md).
   
  The topics in this section provide additional details about how to use this feature and what kinds of changes are not allowed.  
   
@@ -44,8 +42,8 @@ Edit and Continue is a feature for [!INCLUDE[vbprvb](../code-quality/includes/vb
  [How to: Apply Edits in Break Mode with Edit and Continue](../debugger/how-to-apply-edits-in-break-mode-with-edit-and-continue.md)  
  Explains how to apply code edits in Break mode.  
   
- [Supported Code Changes (C# and Visual Basic](../debugger/supported-code-changes-csharp.md)   
- Describes what types of edits cannot be performed in [!INCLUDE[vb_current_short](../debugger/includes/vb_current_short_md.md)] Edit and Continue.  
+ [Supported Code Changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md)   
+ Describes what types of edits cannot be performed in [!INCLUDE [vb_current_short](../debugger/includes/vb_current_short_md.md)] Edit and Continue.  
   
 ## Related Sections  
  [Edit and Continue](../debugger/edit-and-continue.md)  

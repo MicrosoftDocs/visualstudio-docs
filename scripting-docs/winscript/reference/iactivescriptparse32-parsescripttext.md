@@ -16,7 +16,7 @@ Parses the given code scriptlet, adding declarations into the namespace and eval
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT ParseScriptText(  
     LPCOLESTR pstrCode,              // address of scriptlet text  
     LPCOLESTR pstrItemName,          // address of item name  

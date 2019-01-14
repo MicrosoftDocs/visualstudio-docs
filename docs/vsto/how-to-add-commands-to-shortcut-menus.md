@@ -1,9 +1,6 @@
 ---
 title: "How to: Add Commands to shortcut menus"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -11,8 +8,8 @@ dev_langs:
 helpviewer_keywords: 
   - "Office menus, creating"
   - "Office development in Visual Studio, context menus"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -81,4 +78,3 @@ ms.workload:
  [Walkthrough: Create Shortcut menus for bookmarks](../vsto/walkthrough-creating-shortcut-menus-for-bookmarks.md)   
  [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)   
  [Customize context menus in Office 2010](http://go.microsoft.com/fwlink/?LinkId=182186)  
-  

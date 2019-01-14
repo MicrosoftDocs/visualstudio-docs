@@ -24,7 +24,7 @@ Stops the expression.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Abort();  
 ```  
   

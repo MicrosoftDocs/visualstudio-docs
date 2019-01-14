@@ -24,7 +24,7 @@ Returns the text that corresponds to the body of an `IScriptEntry` script block,
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetBody(  
    BSTR               *pbstr  
 );  

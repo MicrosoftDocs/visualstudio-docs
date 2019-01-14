@@ -3,7 +3,7 @@ title: Azure Community Benefit in Visual Studio Subscription | Microsoft Docs
 author: evanwindom
 ms.author: jaunger
 manager: evelynp
-ms.date: 01/08/2018
+ms.date: 12/19/2018
 ms.topic: Get-Started-Article
 description:  Learn about the Azure Community benefit included in selected Visual Studio subscriptions.
 ms.prod: vs-subscription
@@ -49,8 +49,8 @@ Availability of the Azure Community benefit depends on your subscription level a
 
 |                                          Subscription Level                                           |     Channels      |    Benefit    | Renewable? |
 |-------------------------------------------------------------------------------------------------------|-------------------|---------------|------------|
-|                           Visual Studio Enterprise (Standard, annual cloud)                           | VL, Azure, Retail |   One year    |    Yes     |
-|                          Visual Studio Professional (Standard, annual cloud)                          | VL, Azure, Retail |   One year    |    Yes     |
+|                           Visual Studio Enterprise (Standard)                           | VL, Azure, Retail |   One year    |    Yes     |
+|                          Visual Studio Professional (Standard)                          | VL, Azure, Retail |   One year    |    Yes     |
 |                              Visual Studio Test Professional (Standard)                               |    VL, Retail     |   One year    |    Yes     |
 |                                       MSDN Platforms (Standard)                                       |    VL, Retail     |   One year    |    Yes     |
 | Visual Studio Enterprise (monthly cloud), Visual Studio Professional (monthly cloud), NFR<sup>1</sup> |        All        | Not available |     No     |
@@ -58,6 +58,10 @@ Availability of the Azure Community benefit depends on your subscription level a
 |                                                                                                       |                   |               |            |
 
 <sup>1</sup>  *Includes:  Not for Resale (NFR), Microsoft FTE, Microsoft Valued Professional (MVP), Region Director (RD), Visual Studio Industry Partner (VSIP), BizSpark, Imagine, Microsoft Certified Trainer (MCT)*
+
+> [!NOTE]
+> Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
+
 
 Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.
 

@@ -24,7 +24,7 @@ Sets the simple event name that is associated with a scriptlet. This is a single
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT SetSimpleEventName(  
    LPCOLESTR          psz  
 );  

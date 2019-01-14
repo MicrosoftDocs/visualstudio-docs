@@ -1,8 +1,6 @@
 ---
 title: "How to: Debug an ActiveX Control | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords:
   - "vc.controls.debug"
@@ -58,4 +56,4 @@ To debug your ActiveX control, you must specify a container (executable) for the
 - [Testing Properties and Events with Test Container](/cpp/mfc/testing-properties-and-events-with-test-container)
 - [COM and ActiveX Debugging](../debugger/com-and-activex-debugging.md)
 - [Debugging in Visual Studio](../debugger/index.md)
-- [Debugger Feature Tour](../debugger/debugger-feature-tour.md)
+- [First look at the debugger](../debugger/debugger-feature-tour.md)

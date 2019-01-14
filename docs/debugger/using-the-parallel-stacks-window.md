@@ -1,8 +1,6 @@
 ---
 title: "View threads in the Parallel Stacks window | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/20/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.parallelstacks"
@@ -20,7 +18,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# View threads and tasks in the Parallel Stacks window
+# View threads and tasks in the Parallel Stacks window (C#, Visual Basic, C++)
 
 The **Parallel Stacks** window is useful for debugging multithreaded applications. It has several views:
 
@@ -134,7 +132,7 @@ If you switch to a new stack frame, you make that method the current method, and
 ## See also  
  [Get started debugging a multithreaded application](../debugger/get-started-debugging-multithreaded-apps.md)   
  [Walkthrough: Debug a parallel application](../debugger/walkthrough-debugging-a-parallel-application.md)   
- [Debugger basics](../debugger/getting-started-with-the-debugger.md)   
+ [First look at the debugger](../debugger/debugger-feature-tour.md) 
  [Debugging managed code](../debugger/debugging-managed-code.md)   
  [Parallel programming](/dotnet/standard/parallel-programming/index)   
  [Use the Tasks window](../debugger/using-the-tasks-window.md)   

@@ -1,9 +1,6 @@
 ---
 title: "How to: Prevent Outlook from displaying a form region"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -11,8 +8,8 @@ dev_langs:
 helpviewer_keywords: 
   - "form regions [Office development in Visual Studio], canceling display"
   - "canceling form region display"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -42,5 +39,3 @@ ms.workload:
  [How to: Add a form region to an Outlook Add-in project](../vsto/how-to-add-a-form-region-to-an-outlook-add-in-project.md)   
  [Walkthrough: Design an Outlook form region](../vsto/walkthrough-designing-an-outlook-form-region.md)   
  [Walkthrough: Import a form region that is designed in Outlook](../vsto/walkthrough-importing-a-form-region-that-is-designed-in-outlook.md)  
-  
-  

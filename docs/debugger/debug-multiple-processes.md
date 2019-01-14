@@ -1,8 +1,6 @@
 ---
 title: "Debug multiple processes | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/20/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.programs"
@@ -22,7 +20,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Debug multiple processes
+# Debug multiple processes (C#, Visual Basic, C++)
 
 Visual Studio can debug a solution that has several processes. You can start and switch between processes, break, continue, and step through source, stop debugging, and end or detach from individual processes.  
 

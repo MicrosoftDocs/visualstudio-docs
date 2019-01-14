@@ -13,7 +13,6 @@ ms.workload: multiple
 ms.date: 10/13/2017
 ms.author: devinb
 ---
-
 # Troubleshoot Visual Studio 2017 development with Docker
 
 When you're working with Visual Studio Tools for Docker, you may encounter issues while building or debugging your application. Below are some common troubleshooting steps.

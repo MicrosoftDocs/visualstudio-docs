@@ -1,8 +1,6 @@
 ---
 title: "Otherwise Element (MSBuild) | Microsoft Docs"
-ms.custom: ""
 ms.date: "03/13/2017"
-ms.technology: msbuild
 ms.topic: "reference"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#Otherwise"

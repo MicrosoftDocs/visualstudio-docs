@@ -1,8 +1,6 @@
 ---
 title: "Saving Symbol Information with Performance Data Files | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "packsymbols, in profiling tools reports"

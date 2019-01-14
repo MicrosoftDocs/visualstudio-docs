@@ -4,7 +4,6 @@ description: In this quickstart, you create a Vue.js app in Visual Studio using 
 ms.custom: "seodec18"
 ms.date: 09/24/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-nodejs
 ms.topic: quickstart
 ms.devlang: javascript
 ms.assetid: b0e4ebed-1a01-41ef-aad1-4d8465ce5322
@@ -29,13 +28,13 @@ First, you'll create a Vue.js web application project.
 
 1. If you don't have the Node.js runtime already installed, install the LTS version from the [Node.js](https://nodejs.org/en/download/) website.
 
-    In general, Visual Studio automatically detects the installed Node.js runtime. If it does not detect an installed runtime, you can configure your project to reference the installed runtime in the properties page (after you create a project, right-click the project node and choose **Properties**).
+    In general, Visual Studio automatically detects the installed Node.js runtime. If it doesn't detect an installed runtime, you can configure your project to reference the installed runtime in the properties page (after you create a project, right-click the project node and choose **Properties**).
 
 1. Open Visual Studio 2017.
 
 1. From the top menu bar, choose **File** > **New** > **Project**.
 
-1. In the **New Project** dialog box, under either **JavaScript** > **Node.js** or **TypeScript** > **Node.js**, choose **Basic Vue.js Web Application**, and then enter a project name, and then click **OK**.
+1. In the **New Project** dialog box, under either **JavaScript** > **Node.js** or **TypeScript** > **Node.js**, choose **Basic Vue.js Web Application**. Enter a project name, and then click **OK**.
 
      ![Vue.js template](../javascript/media/vuejs-template.png)
 
@@ -69,7 +68,7 @@ First, you'll create a Vue.js web application project.
 
 ## Add a .vue file to the project
 
-1. In Solution Explorer, right-click any folder such as the *src* folder, and then choose **Add** > **New Item**.
+1. In Solution Explorer, right-click any folder such as the *src/components* folder, and then choose **Add** > **New Item**.
 
 1. Select either **JavaScript Vue Single File Component** or **TypeScript Vue Single File Component**, and then click **Add**.
 
@@ -79,7 +78,7 @@ First, you'll create a Vue.js web application project.
 
 1. (TypeScript project only) From Visual Studio, choose **Build** > **Clean Solution**.
 
-1. Next, choose **Build** > **Build Solution** to build the project. Check the **Output** window to see build results.
+1. Next, choose **Build** > **Build Solution** to build the project. Check the **Output** window to see build results, and choose **Build** from the **Show output from** list.
 
     The Vue.js project template uses the `build` npm script by configuring a post build event. If you want to modify this setting, open the project file (*\<projectname\>.njsproj*) from Windows Explorer and locate this line of code:
 
@@ -99,10 +98,10 @@ First, you'll create a Vue.js web application project.
 
 1. Close the web browser.
 
-Congratulations on completing this Quickstart! We hope you learned a little bit about using the Visual Studio IDE with Vue.js. If you'd like to delve deeper into its capabilities, please continue with a tutorial in the **Tutorials** section of the table of contents.
+Congratulations on completing this Quickstart! We hope you learned a little bit about using the Visual Studio IDE with Vue.js. If you'd like to delve deeper into its capabilities, continue with a tutorial in the **Tutorials** section of the table of contents.
 
 ## Next steps
 
 - Go through the [Tutorial for Node.js and Express](../nodejs/tutorial-nodejs.md)
-- Go through the [Tutorial for Node.js and React](../nodejs/tutorial-nodejs-with-react-and-jsx.md)
+- Go through the [Tutorial for Node.js and React](/visualstudio/javascript/tutorial-nodejs-with-react-and-jsx)
 - [Deploy the app to Linux App Service](../javascript/publish-nodejs-app-azure.md)

@@ -2,7 +2,6 @@
 title: Team Explorer reference
 ms.date: 12/04/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 ms.author: kaelli
 author: KathrynEE

@@ -2,7 +2,6 @@
 title: Options Page, Debugging Node Properties
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 ms.assetid: 564cc8b2-0084-420e-b560-200cc5621a7e
 author: gewarren
@@ -80,5 +79,5 @@ The following tables describe the pages (or properties collections) that are ass
 - [Options Page, Fonts and Colors Node Properties](../../ide/reference/options-page-fonts-and-colors-node-properties.md)
 - [Options Page, Text Editor Node Properties](../../ide/reference/options-page-text-editor-node-properties.md)
 - [General, Debugging, Options Dialog Box](../../debugger/general-debugging-options-dialog-box.md)
-- [Edit and Continue, Debugging, Options Dialog Box](/visualstudio/debugger/edit-and-continue?view=vs-2015)
+- [Edit and Continue, Debugging, Options Dialog Box](../../debugger/edit-and-continue.md?view=vs-2015)
 - [Just-In-Time, Debugging, Options Dialog Box](../../debugger/just-in-time-debugging-options-dialog-box.md)

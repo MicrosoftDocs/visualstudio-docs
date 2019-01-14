@@ -1,9 +1,6 @@
 ---
 title: "Outlook object model overview"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VST.ProjectItem.OutlookAddin"
@@ -137,4 +134,3 @@ ms.workload:
 |[Work with folders](../vsto/working-with-folders.md)|Provides topics that show how to perform tasks with folders.|  
 |[Work with calendar items](../vsto/working-with-calendar-items.md)|Provides topics that show how to perform tasks with calendar items.|  
 |[How to: Programmatically determine the current Outlook item](../vsto/how-to-programmatically-determine-the-current-outlook-item.md)|Shows how to display the name of the current folder and some information about the selected item.|  
-  

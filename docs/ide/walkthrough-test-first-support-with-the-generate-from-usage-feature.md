@@ -2,7 +2,6 @@
 title: "Walkthrough: Test-first development with the Generate From Usage feature"
 ms.date: 10/09/2017
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 dev_langs:
   - "VB"
   - "CSharp"

@@ -2,7 +2,6 @@
 title: "How to: View Existing Types (Class Designer)"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 f1_keywords:
   - "vs.classdesigner.CannotShowBaseType"
@@ -61,4 +60,4 @@ In **Solution Explorer** or **Class View**, right-click the project and choose *
 
 - [How to: View Inheritance Between Types](how-to-view-inheritance-between-types.md)
 - [How to: Customize Class Diagrams](how-to-customize-class-diagrams.md)
-- [Viewing Types and Relationships](viewing-types-and-relationships.md)
+- [Viewing Types and Relationships](designing-and-viewing-classes-and-types.md)

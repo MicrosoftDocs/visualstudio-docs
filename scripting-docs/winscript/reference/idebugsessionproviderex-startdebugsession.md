@@ -22,7 +22,7 @@ Initiates a debug session with the specified application.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT StartDebugSession(  
    IRemoteDebugApplication*  pda  
    BOOL  fQuery  

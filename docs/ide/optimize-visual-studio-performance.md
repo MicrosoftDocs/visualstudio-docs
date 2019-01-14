@@ -11,7 +11,6 @@ manager: douge
 f1_keywords:
   - "vs.performancecenter"
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.workload:
   - "multiple"
 ---

@@ -1,9 +1,7 @@
 ---
 title: "Debug a parallel application | Microsoft Docs"
 description: Debug using the Parallel Tasks and Parallel Stacks windows in Visual Studio
-ms.custom: ""
 ms.date: "03/22/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
@@ -25,7 +23,8 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Walkthrough: Debugging a Parallel Application in Visual Studio
+# Walkthrough: Debugging a Parallel Application in Visual Studio (C#, Visual Basic, C++)
+
 This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks** windows to debug a parallel application. These windows help you understand and verify the runtime behavior of code that uses the [Task Parallel Library (TPL)](/dotnet/standard/parallel-programming/task-parallel-library-tpl) or the [Concurrency Runtime](/cpp/parallel/concrt/concurrency-runtime). This walkthrough provides sample code that has built-in breakpoints. After the code breaks, the walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks** windows to examine it.  
   
  This walkthrough teaches these tasks:  
@@ -292,7 +291,7 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
   
 ## See Also  
  [Debugging Multithreaded Applications](../debugger/walkthrough-debugging-a-parallel-application.md)   
- [Debugger Basics](../debugger/getting-started-with-the-debugger.md)   
+ [First look at the debugger](../debugger/debugger-feature-tour.md)  
  [Debugging Managed Code](../debugger/debugging-managed-code.md)   
  [Parallel Programming](/dotnet/standard/parallel-programming/index)   
  [Concurrency Runtime](/cpp/parallel/concrt/concurrency-runtime)   

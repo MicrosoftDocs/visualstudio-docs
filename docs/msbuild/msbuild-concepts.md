@@ -1,8 +1,6 @@
 ---
 title: "MSBuild Concepts | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: msbuild
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "MSBuild, concepts"
@@ -30,4 +28,3 @@ ms.workload:
 | [Walkthrough: Using MSBuild](../msbuild/walkthrough-using-msbuild.md) | Introduces the building blocks of MSBuild and shows how to write, manipulate, and debug MSBuild projects without closing the Visual Studio integrated development environment (IDE). |
 | [MSBuild reference](../msbuild/msbuild-reference.md) | Links to documents that contain reference information. |
 | [MSBuild](../msbuild/msbuild.md) | Presents an overview of the XML schema for a project file and shows how it controls processes that builds software. |
-

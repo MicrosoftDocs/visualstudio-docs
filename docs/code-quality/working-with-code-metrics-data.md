@@ -2,7 +2,6 @@
 title: Code Metrics window
 ms.date: 12/12/2017
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "vs.codemetrics.output"

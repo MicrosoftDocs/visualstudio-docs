@@ -11,7 +11,6 @@ manager: douge
 ms.workload:
   - "multiple"
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Deploy a layer model extension
 
@@ -43,7 +42,7 @@ Team Foundation Server servers do not normally have Visual Studio installed, and
 
 ### To install your layer extension on a Team Foundation Server server
 
-1.  Copy the **.vsix** files from your development computer to the Team Foundation Server (TFS) computer.
+1.  Copy the .*vsix* files from your development computer to the Team Foundation Server (TFS) computer.
 
      Place the VSIX file in one of the following locations:
 

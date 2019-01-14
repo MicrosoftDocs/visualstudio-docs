@@ -1,13 +1,8 @@
 ---
 title: "MSBuild Properties Supported by SharePoint | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
-  - "VB"
-  - "CSharp"
   - "VB"
   - "CSharp"
 helpviewer_keywords: 
@@ -51,5 +46,5 @@ ms.workload:
 >  You can use either the [!INCLUDE[vstecmsbuild](../sharepoint/includes/vstecmsbuild-md.md)] variable syntax `$(`*propertyName*`)` or the environment variable syntax `%`*propertyName*`%` to specify a property.  
   
 ## See also
- [MSBuild Reference](/visualstudio/msbuild/msbuild-reference)  
-  
+
+- [MSBuild Reference](../msbuild/msbuild-reference.md)  

@@ -22,7 +22,7 @@ Flags to specify the type of information to return in a request for members of a
   
 ## Syntax  
   
-```  
+```cpp
 enum JS_PROPERTY_MEMBERS{   JS_PROPERTY_MEMBERS_ALL = 0,   JS_PROPERTY_MEMBERS_ARGUMENTS = 1} JS_PROPERTY_MEMBERS;  
 ```  
   

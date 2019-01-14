@@ -21,7 +21,7 @@ Indicates the kind of exception thrown. This enumeration is used by the [IActive
   
 ## Syntax  
   
-```  
+```cpp
 typedef SCRIPT_ERROR_DEBUG_EXCEPTION_THROWN_KIND  
 ```  
   

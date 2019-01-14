@@ -1,16 +1,11 @@
 ---
 title: "Additional Information for SharePoint Errors | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VS.SharePointTools.errors.general"
   - "VS.SharePointTools.Project.Errors.General"
 dev_langs: 
-  - "VB"
-  - "CSharp"
   - "VB"
   - "CSharp"
 helpviewer_keywords: 
@@ -47,5 +42,3 @@ ms.workload:
   
 ## See also
  [Build and debug SharePoint solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)  
-  
- 

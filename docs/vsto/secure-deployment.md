@@ -1,9 +1,6 @@
 ---
 title: "Secure deployment"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -45,5 +42,3 @@ ms.workload:
  [Deploy an Office solution](../vsto/deploying-an-office-solution.md)   
  [Prepare computers to run or host Office solutions](https://msdn.microsoft.com/be1b173f-7261-4d74-aa4e-94ccd43db8d8)   
  [Secure Office solutions](../vsto/securing-office-solutions.md)  
-  
-  

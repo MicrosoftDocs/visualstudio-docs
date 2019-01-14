@@ -1,8 +1,6 @@
 ---
 title: "About the Registers window | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
@@ -47,4 +45,4 @@ The **Registers** window is available only if address-level debugging is enabled
   
 ## See Also  
  [How to: Use the Registers Window](../debugger/how-to-use-the-registers-window.md)   
- [Debugger Basics](../debugger/getting-started-with-the-debugger.md)
+ [First look at the debugger](../debugger/debugger-feature-tour.md)

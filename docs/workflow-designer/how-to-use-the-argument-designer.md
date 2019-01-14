@@ -3,7 +3,6 @@ title: "Workflow Designer - How to: Use the Argument Designer"
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 f1_keywords:
   - "System.Activities.Presentation.View.ArgumentDesigner.UI"
   - "System.Activities.Presentation.View.DesignTimeArgument.UI"
@@ -31,5 +30,5 @@ Compared to previous versions of the .NET Framework, the argument designer makes
 
 ## See also
 
-- [Using the Workflow Designer](../workflow-designer/using-the-workflow-designer.md)
+- [Using the Workflow Designer](developing-applications-with-the-workflow-designer.md)
 - [Variables and Arguments](/dotnet/framework/windows-workflow-foundation/variables-and-arguments)

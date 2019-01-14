@@ -3,7 +3,6 @@ title: F# tools
 description: Learn which features of Visual Studio are supported in F#.
 ms.date: 07/11/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 helpviewer_keywords:
   - "F# features [Visual Studio]"

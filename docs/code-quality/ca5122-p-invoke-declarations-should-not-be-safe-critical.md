@@ -2,7 +2,6 @@
 title: CA5122 P-Invoke declarations should not be safe critical
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 ms.assetid: f2581a6d-2a0e-40c1-b600-f5dc70909200
 author: gewarren

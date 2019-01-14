@@ -2,7 +2,6 @@
 title: Creating and Configuring Type Members (Class Designer)
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 f1_keywords:
   - "vs.classdetails.method"
@@ -314,5 +313,5 @@ You cannot edit native C++ code by using the Class Designer or the **Class Detai
 
 ## See also
 
-- [Viewing types and relationships](viewing-types-and-relationships.md)
+- [Viewing types and relationships](designing-and-viewing-classes-and-types.md)
 - [Refactoring classes and types](refactoring-classes-and-types.md)

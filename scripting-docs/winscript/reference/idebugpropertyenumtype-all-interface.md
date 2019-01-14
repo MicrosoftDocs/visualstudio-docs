@@ -24,7 +24,7 @@ The `IDebugPropertyEnumType` interfaces are defined so that each of their IIDs c
   
 ## Syntax  
   
-```  
+```cpp
 IDebugPropertyEnumType_All : IUnknown  
 ```  
   
@@ -36,7 +36,7 @@ IDebugPropertyEnumType_All : IUnknown
   
  The following interfaces inherit from `IDebugPropertyEnumType_All`, and have no additional methods.  
   
-```  
+```cpp
 IDebugPropertyEnumType_Arguments : IDebugPropertyEnumType_All   
 IDebugPropertyEnumType_Locals : IDebugPropertyEnumType_All   
 IDebugPropertyEnumType_LocalsPlusArgs : IDebugPropertyEnumType_All   

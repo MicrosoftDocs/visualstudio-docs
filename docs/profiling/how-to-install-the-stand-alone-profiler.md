@@ -1,8 +1,6 @@
 ---
 title: "How to: Install the Stand-Alone Profiler | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "performance tools, installing stand-alone profiler"
@@ -21,13 +19,15 @@ ms.workload:
 >  When you are using the stand-alone profiler to collect performance data for an ASP.NET web site, the [VSPerfASPNetCmd](../profiling/vsperfaspnetcmd.md) line tool is recommended over [VSPerfCmd](../profiling/vsperfcmd.md) tool.  
   
 ### To install the stand-alone profiler  
-  
-1. Locate the stand-alone profile installer (*vs_profiler.exe*) on the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] installation media in the directory that includes the *\Standalone Profiler* path and run it.  
+
+1. Download the [Performance Tools for Visual Studio](https://visualstudio.microsoft.com/downloads/?q=performance+tools#performance-tools-for-visual-studio-2017).
+
+1. Locate the stand-alone profile installer (*vs_standaloneprofiler.exe*) where you downloaded the performance tools and run it.
   
 2. Add the paths for *vsintr.exe* and *msdis150.dll* to the system path.  
   
    > [!NOTE]
-   >  In the default installation of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], *vsinstr.exe* and *msdis150.dll* are located in *\Program Files\Visual Studio 10\Team Tools\Performance Tools*.  
+   >  To get the path to the profiling tools, see [Specify the path to command line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md). On 64-bit computers, both 64-bit and 32-bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the Command Prompt window or add it to the command itself. 
   
 3. At the command prompt, type **VSInstr**.  
   
@@ -48,6 +48,6 @@ ms.workload:
 ## See also  
  [Profile from the command-line](../profiling/using-the-profiling-tools-from-the-command-line.md)   
  [Walkthrough: Command-line profiling using sampling](../profiling/walkthrough-command-line-profiling-using-sampling.md)   
- [Walkthrough: Command-line profiling using instrumentation](../profiling/walkthrough-command-line-profiling-using-instrumentation.md)   
+ [Walkthrough: Command-line profiling using instrumentation](/visualstudio/profiling/command-line-profiling-of-stand-alone-applications)   
  [How to: Reference Windows symbol information](../profiling/how-to-reference-windows-symbol-information.md)   
  [VSPerfReport](../profiling/vsperfreport.md)

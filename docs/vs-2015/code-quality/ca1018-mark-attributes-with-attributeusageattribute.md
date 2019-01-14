@@ -5,8 +5,7 @@ ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
+ms.technology: "vs-devops-test"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords:
@@ -58,6 +57,3 @@ manager: "wpickett"
 
 ## See Also
  [Attributes](http://msdn.microsoft.com/library/ee0038ef-b247-4747-a650-3c5c5cd58d8b)
-
-
-

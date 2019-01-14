@@ -2,7 +2,6 @@
 title: "Trigger suspend, resume, and background events while debugging UWP | Microsoft Docs"
 ms.custom: "seodec18"
 ms.date: "01/16/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.error.background_task_activate_failure"
@@ -105,6 +104,6 @@ When you are not debugging, Windows **Process Lifetime Management** (PLM) contro
   
 ## See Also  
  [Testing UWP apps with Visual Studio](../test/testing-store-apps-with-visual-studio.md)   
- [Debug apps in Visual Studio](../debugger/debug-store-apps-in-visual-studio.md)   
+ [Debug apps in Visual Studio](/visualstudio/debugger/debugging-windows-store-and-windows-universal-apps)   
  [Application lifecycle](/windows/uwp/launch-resume/app-lifecycle)   
  [Launching, resuming, and multitasking](/windows/uwp/launch-resume/index)

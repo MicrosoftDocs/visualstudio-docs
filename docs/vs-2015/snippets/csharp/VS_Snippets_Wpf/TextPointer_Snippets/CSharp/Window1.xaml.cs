@@ -29,7 +29,7 @@ namespace TextPointer_Snippets
         }
 
         // <Snippet_TextPointer_GetInsertionPosition>
-        // Tests to see if the specified TextElement is empty (has no printatble content).
+        // Tests to see if the specified TextElement is empty (has no printable content).
         bool IsElementEmpty(TextElement element)
         {
             // Find starting and ending insertion positions in the element.
@@ -108,7 +108,7 @@ namespace TextPointer_Snippets
                         break;
                 }
          
-                // Advance the naviagtor to the next context position.
+                // Advance the navigator to the next context position.
                 navigator = navigator.GetNextContextPosition(LogicalDirection.Forward);
             
             } // End while.
@@ -119,7 +119,7 @@ namespace TextPointer_Snippets
         // </Snippet_TextPointer_GetNextContextPosition>
 
         // <Snippet_TextPointer_GetNextInsertionPosition>
-        // This method returns the number of pagragraphs between two
+        // This method returns the number of paragraphs between two
         // specified TextPointers.
         int GetParagraphCount(TextPointer start, TextPointer end)
         {
@@ -252,7 +252,7 @@ namespace TextPointer_Snippets
             // Note that without this check, an exception will be raised by CompareTo if positionToTest 
             // does not point to a position that is in the same text container used by start and end.
             //
-            // This test also implicitely indicates whether start and end share a common text container.
+            // This test also implicitly indicates whether start and end share a common text container.
             if (!positionToTest.IsInSameDocument(start) || !positionToTest.IsInSameDocument(end)) 
                 return false;
             
@@ -294,7 +294,7 @@ namespace TextPointer_Snippets
 //</SnippetFCEParent>
                 
             // This will be either null if no Run is found, or a position just inside of the first Run element in the
-            // specifed text container.  Because position is formed from ContentStart, it will have a logical direction
+            // specified text container.  Because position is formed from ContentStart, it will have a logical direction
             // of Backward.
             return position;
         } 
@@ -352,7 +352,7 @@ namespace TextPointer_Snippets
                 return true;
             }
             // If not, selection2 may still entirely contain selection1.
-            // Is either end of selection1 contained by seleciotn2?
+            // Is either end of selection1 contained by selection2?
             else if (selection2.Contains(selection1.Start) || selection2.Contains(selection1.End))
             {
                 // If so, the selections overlap.

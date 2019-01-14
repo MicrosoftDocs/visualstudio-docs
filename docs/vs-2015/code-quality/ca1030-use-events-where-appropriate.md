@@ -5,8 +5,7 @@ ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
+ms.technology: "vs-devops-test"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords:
@@ -52,6 +51,3 @@ manager: "wpickett"
 
 ## When to Suppress Warnings
  Suppress a warning from this rule if the method does not work with the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] event model.
-
-
-

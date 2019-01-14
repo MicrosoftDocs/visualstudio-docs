@@ -1,8 +1,6 @@
 ---
 title: "Debugging Native Code | Microsoft Docs"
-ms.custom: ""
 ms.date: "04/11/2017"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug"
@@ -24,7 +22,7 @@ ms.workload:
   - "cplusplus"
 ---
 # Debugging Native Code
-The section covers some common debugging problems and techniques for native applications. The techniques covered in this section are high-level techniques. For the mechanics of using the Visual Studio debugger, see [Debugger Roadmap](../debugger/getting-started-with-the-debugger.md).  
+The section covers some common debugging problems and techniques for native applications. The techniques covered in this section are high-level techniques. For the mechanics of using the Visual Studio debugger, see [First look at the debugger](../debugger/debugger-feature-tour.md)).  
   
 ## In This Section  
  [How to: Debug Optimized Code](../debugger/how-to-debug-optimized-code.md)  
@@ -64,10 +62,9 @@ The section covers some common debugging problems and techniques for native appl
  [Debugging DLL Projects](../debugger/debugging-dll-projects.md)
  Provides information on how to debug native and managed DLLs.
   
- [Debugger Feature Tour](../debugger/debugger-feature-tour.md)  
+ [First look at the debugger](../debugger/debugger-feature-tour.md)  
  Provides links to the larger sections of the debugging documentation. Information includes what's new in the debugger, settings and preparation, breakpoints, handling exceptions, edit and continue, debugging managed code, debugging native code, debugging SQL, and the user interface references.  
   
 ## See Also  
  [Debugger Security](../debugger/debugger-security.md)  
  [Debugging in Visual Studio](../debugger/index.md) 
- [Debugger Feature Tour](../debugger/debugger-feature-tour.md)

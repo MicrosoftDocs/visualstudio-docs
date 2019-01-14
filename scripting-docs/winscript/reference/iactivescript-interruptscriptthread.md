@@ -24,7 +24,7 @@ Interrupts the execution of a running script thread (an event sink, an immediate
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT InterruptScriptThread(  
     SCRIPTTHREADID   stidThread,  // identifier of thread  
     const EXCEPINFO *pexcepinfo,  // receives error information  

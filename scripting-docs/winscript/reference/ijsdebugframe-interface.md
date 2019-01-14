@@ -18,7 +18,7 @@ Represents a stack frame.
   
 ## Syntax  
   
-```  
+```cpp
 IJsDebugFrame : public IUnknown;  
 ```  
   

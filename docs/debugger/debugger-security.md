@@ -1,8 +1,6 @@
 ---
 title: "Debugger Security | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
@@ -75,6 +73,6 @@ The ability to debug another process gives you extremely broad powers that you w
   
 ## See Also  
  [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)   
- [Debugger Basics](../debugger/getting-started-with-the-debugger.md)   
+ [First look at the debugger](../debugger/debugger-feature-tour.md) 
  [Security Warning: Attaching to a process owned by an untrusted user can be dangerous. If the following information looks suspicious or you are unsure, do not attach to this process](../debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user.md)   
  [Security Warning: Debugger Must Execute Untrusted Command](../debugger/security-warning-debugger-must-execute-untrusted-command.md)

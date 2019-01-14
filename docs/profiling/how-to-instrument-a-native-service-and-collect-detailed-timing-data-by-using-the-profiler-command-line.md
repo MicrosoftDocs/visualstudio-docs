@@ -1,8 +1,6 @@
 ---
 title: "How to: Instrument a Native Service and Collect Detailed Timing Data by Using the Profiler Command Line | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: dfe58b39-63f8-4a87-ab3a-2b5b14faa8d0
 author: "mikejo5000"
@@ -17,8 +15,8 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
 > [!NOTE]
 >  You cannot profile a service with the instrumentation method if the service cannot be restarted after the computer starts, such a service that start only when the operating system starts.  
 > 
->  Command-line tools of the Profiling Tools are located in the *\Team Tools\Performance Tools* subdirectory of the [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] installation directory. On 64-bit computers, both 64-bit and 32-bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the command prompt window or add it to the command itself. For more information, see [Specify the path to command-line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md).  
-
+>  To get the path to the profiling tools, see [Specify the path to command line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md). On 64-bit computers, both 64-bit and 32-bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the Command Prompt window or add it to the command itself.
+ 
  To collect detailed timing data from a native service by using the instrumentation method, you use the [VSInstr.exe](../profiling/vsinstr.md) tool to generate an instrumented version of the component. You then replace the non-instrumented version of the service with the instrumented version, making sure that the service is configured to start manually. You then start the profiler.  
 
  When the service is started, timing data is automatically collected to a data file. You can pause and resume data collection during the profiling session.  

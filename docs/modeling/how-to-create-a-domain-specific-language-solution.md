@@ -14,7 +14,6 @@ manager: douge
 ms.workload:
   - "multiple"
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # How to: Create a Domain-Specific Language Solution
 A domain-specific language (DSL) is created by using a specialized Visual Studio solution.

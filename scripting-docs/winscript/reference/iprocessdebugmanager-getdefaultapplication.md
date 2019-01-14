@@ -24,7 +24,7 @@ Returns a default application object for the current process.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetDefaultApplication(  
    IDebugApplication**  ppda  
 );  

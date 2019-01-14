@@ -1,9 +1,6 @@
 ---
 title: "How to: Install Office primary interop assemblies"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -11,8 +8,8 @@ dev_langs:
 helpviewer_keywords: 
   - "primary interop assemblies [Office development in Visual Studio], installing"
   - "Office primary interop assemblies, installing"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -36,5 +33,3 @@ ms.workload:
  [How to: Install the Visual Studio Tools for Office runtime redistributable](../vsto/how-to-install-the-visual-studio-tools-for-office-runtime-redistributable.md)   
  [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)   
  [Get started &#40;Office development in Visual Studio&#41;](../vsto/getting-started-office-development-in-visual-studio.md)  
-  
-  

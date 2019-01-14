@@ -1,9 +1,6 @@
 ---
 title: "Walkthrough: Change cached data in a workbook on a server"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology:
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs:
   - "VB"
@@ -83,7 +80,7 @@ ms.workload:
 ## Define a dataset in the class library project
  Define a typed dataset that contains data from the AdventureWorksLT database for SQL Server 2005. Later in this walkthrough, you will reference this dataset from an Excel workbook project and a console application project.
 
- The dataset is a *typed dataset* that represents the data in the Product table of the AdventureWorksLT database. For more information about typed datasets, see [Dataset tools in Visual Studio](/visualstudio/data-tools/dataset-tools-in-visual-studio).
+ The dataset is a *typed dataset* that represents the data in the Product table of the AdventureWorksLT database. For more information about typed datasets, see [Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md).
 
 ### To define a typed dataset in the class library project
 

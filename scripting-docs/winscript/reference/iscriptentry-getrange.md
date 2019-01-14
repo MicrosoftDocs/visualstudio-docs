@@ -24,7 +24,7 @@ Returns the start position and length of an entry.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetRange(  
    ULONG              *pichMin  
    ULONG              *pcch  

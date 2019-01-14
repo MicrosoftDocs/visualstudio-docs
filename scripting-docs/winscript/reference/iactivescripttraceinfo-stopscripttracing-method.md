@@ -18,7 +18,7 @@ Stops script tracing.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT StopScriptTracing(void); }  
 ```  
   

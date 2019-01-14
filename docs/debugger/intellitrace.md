@@ -1,8 +1,6 @@
 ---
 title: "IntelliTrace | Microsoft Docs"
-ms.custom: ""
 ms.date: "09/19/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.historicaldebug.overview"
@@ -23,7 +21,7 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# IntelliTrace
+# IntelliTrace for Visual Studio Enterprise (C#, Visual Basic, C++)
 
 You can spend less time debugging your application when you use IntelliTrace to record and trace your code's execution history. You can find bugs easily because IntelliTrace lets you:
 
@@ -49,7 +47,7 @@ You can use IntelliTrace in Visual Studio Enterprise edition (but not the Profes
 | | |
 |---------------------| - |
 | **Full support** | - Visual Basic and Visual C# applications that use .NET Framework 2.0 or higher versions.<br/>You can debug most applications, including ASP.NET, Microsoft Azure, Windows Forms, WCF, WPF, Windows Workflow, SharePoint 2010, SharePoint 2013, and 64-bit apps.<br/>To debug SharePoint applications with IntelliTrace, see [Walkthrough: Debugging a SharePoint Application by Using IntelliTrace](../sharepoint/walkthrough-debugging-a-sharepoint-application-by-using-intellitrace.md).<br/> To debug Microsoft Azure apps with IntelliTrace, see [Debugging a Published Cloud Service with IntelliTrace and Visual Studio](/azure/vs-azure-tools-intellitrace-debug-published-cloud-services). |
-| **Limited support** | - Native apps targeting Windows support viewing snapshots using IntelliTrace step-back. Only debugger and exception events are supported.<br />- .NET Core and ASP.NET Core apps supported for certain events only (MVC Controller, ADO.NET, and HTTPClicent events) in local debugging. The Standalone Collector is not supported for .NET Core or ASP.NET Core apps.<br />- F# apps on an experimental basis<br />- UWP apps supported for events only |
+| **Limited support** | - C++ apps targeting Windows support viewing snapshots using IntelliTrace step-back. Only debugger and exception events are supported.<br />- .NET Core and ASP.NET Core apps supported for certain events only (MVC Controller, ADO.NET, and HTTPClient events) in local debugging. The Standalone Collector is not supported for .NET Core or ASP.NET Core apps.<br />- F# apps on an experimental basis<br />- UWP apps supported for events only |
 | **Not supported** | - Other languages and script<br />- Windows Services, Silverlight, Xbox, or [!INCLUDE[winmobile](../debugger/includes/winmobile_md.md)] apps |
 
 > [!NOTE]
@@ -142,6 +140,9 @@ By default, IntelliTrace records only IntelliTrace events: debugger events, exce
 **Capture snapshots**
 
 You can configure IntelliTrace to capture snapshots at every breakpoint and debugger step event. IntelliTrace records the full application state at each snapshot, which allows you to view complex variables and to evaluate expressions.
+
+> [!NOTE]
+> The [IntelliTrace stand-alone collector](../debugger/using-the-intellitrace-stand-alone-collector.md) does not support capturing snapshots.
 
 See [Inspect previous app states using IntelliTrace](../debugger/view-historical-application-state.md).
 

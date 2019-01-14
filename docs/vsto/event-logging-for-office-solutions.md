@@ -1,9 +1,6 @@
 ---
 title: "Event logging for Office solutions"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -13,8 +10,8 @@ helpviewer_keywords:
   - "ClickOnce deployment [Office development in Visual Studio], event viewer"
   - "deploying applications [Office development in Visual Studio], event viewer"
   - "Office development in Visual Studio, event viewer"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -96,5 +93,3 @@ ms.workload:
 ## See also  
  [Deploy an Office solution](../vsto/deploying-an-office-solution.md)   
  [Troubleshoot Office solution deployment](../vsto/troubleshooting-office-solution-deployment.md)  
-  
-  

@@ -1,10 +1,8 @@
 ---
-title: "CreateInPlace (Visual Studio Templates) | Microsoft Docs"
-ms.custom: ""
+title: CreateInPlace element (Visual Studio Templates)
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-general"
-ms.topic: "conceptual"
+ms.technology: vs-ide-general
+ms.topic: reference
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/vstemplate/2005#CreateInPlace"
 helpviewer_keywords: 
@@ -17,7 +15,7 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# CreateInPlace (Visual Studio templates)
+# CreateInPlace element (Visual Studio templates)
 Specifies whether to create the project and perform parameter replacement in the specified location, or perform parameter replacement in a temporary location and then save the project to the specified location.  
   
  \<VSTemplate>  

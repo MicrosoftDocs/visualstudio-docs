@@ -5,8 +5,7 @@ ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
+ms.technology: "vs-devops-test"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords:
@@ -53,6 +52,3 @@ manager: "wpickett"
  <xref:System.Runtime.InteropServices.ClassInterfaceAttribute?displayProperty=fullName>
  [Introducing the Class Interface](http://msdn.microsoft.com/en-us/733c0dd2-12e5-46e6-8de1-39d5b25df024)
  [Interoperating with Unmanaged Code](http://msdn.microsoft.com/library/ccb68ce7-b0e9-4ffb-839d-03b1cd2c1258)
-
-
-

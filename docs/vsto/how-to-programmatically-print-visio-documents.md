@@ -1,9 +1,6 @@
 ---
 title: "How to: Programmatically print Visio documents"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -51,5 +48,3 @@ ms.workload:
  [How to: Programmatically open Visio documents](../vsto/how-to-programmatically-open-visio-documents.md)   
  [How to: Programmatically close Visio documents](../vsto/how-to-programmatically-close-visio-documents.md)   
  [How to: Programmatically save Visio documents](../vsto/how-to-programmatically-save-visio-documents.md)  
-  
-  

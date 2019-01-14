@@ -12,7 +12,6 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ---
 # Edit the test mix to specify which web performance, unit and coded UI tests to include in a load test scenario
 

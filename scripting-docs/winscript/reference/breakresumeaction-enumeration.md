@@ -24,7 +24,7 @@ Describes ways to continue from a breakpoint.
   
 ## Syntax  
   
-```  
+```cpp
 typedef enum tagBREAKRESUME_ACTION {  
    BREAKRESUMEACTION_ABORT,  
    BREAKRESUMEACTION_CONTINUE,  

@@ -1,8 +1,6 @@
 ---
 title: "Args | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: 20c35949-1f29-4282-ac75-4e6c237d71bc
 author: "mikejo5000"

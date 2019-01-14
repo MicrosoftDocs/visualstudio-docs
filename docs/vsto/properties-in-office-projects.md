@@ -1,9 +1,6 @@
 ---
 title: "Properties in Office projects"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -52,5 +49,3 @@ ms.workload:
  [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)   
  [Office project templates overview](../vsto/office-project-templates-overview.md)   
  [Events in Office projects](../vsto/events-in-office-projects.md)  
-  
-  

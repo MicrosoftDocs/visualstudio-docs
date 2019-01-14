@@ -2,7 +2,6 @@
 title: "How to: Export Class Diagrams As Images (Class Designer)"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 f1_keywords:
   - "vs.classdesigner.exportdialog"
@@ -36,4 +35,4 @@ To automatically update exported images that are linked from other documents, ex
 ## See also
 
 - [How to: Print Class Diagrams](how-to-print-class-diagrams.md)
-- [Working with Class Diagrams](working-with-class-diagrams.md)
+- [Working with Class Diagrams](designing-and-viewing-classes-and-types.md)

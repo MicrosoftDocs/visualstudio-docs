@@ -1,9 +1,6 @@
 ---
-title: "How to: Use Wizards with Project Templates | Microsoft Docs"
-ms.custom: ""
+title: "How to: Use Wizards with Project Templates"
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-general"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "project templates [Visual Studio], wizards"
@@ -19,25 +16,27 @@ ms.workload:
   - "vssdk"
 ---
 # How to: Use wizards with project templates
+
 Visual Studio provides the <xref:Microsoft.VisualStudio.TemplateWizard.IWizard> interface that, when implemented, enables you to run custom code when a user creates a project from a template.  
   
- Project template customization can be used to display custom UI that collects user input to customize the template, add additional files to the template, or any other action allowed on a project.  
+Project template customization can be used to display custom UI that collects user input to customize the template, add additional files to the template, or any other action allowed on a project.  
   
- The <xref:Microsoft.VisualStudio.TemplateWizard.IWizard> interface methods are called at various times while the project is being created, starting as soon as a user clicks **OK** on the **New Project** dialog box. Each method of the interface is named to describe the point at which it is called. For example, Visual Studio calls <xref:Microsoft.VisualStudio.TemplateWizard.IWizard.RunStarted%2A> immediately when it starts to create the project, making it a good location to write custom code to collect user input.  
+The <xref:Microsoft.VisualStudio.TemplateWizard.IWizard> interface methods are called at various times while the project is being created, starting as soon as a user clicks **OK** on the **New Project** dialog box. Each method of the interface is named to describe the point at which it is called. For example, Visual Studio calls <xref:Microsoft.VisualStudio.TemplateWizard.IWizard.RunStarted%2A> immediately when it starts to create the project, making it a good location to write custom code to collect user input.  
   
 ## Create a project template project with a VSIX project  
- You start creating a custom template with the project template project., which is part of the Visual Studio SDK. In this procedure we will use a C# project template project, but there is also a Visual Basic project template project. Then you add a VSIX project to the solution that contains the project template project.  
+
+You start creating a custom template with the project template project, which is part of the Visual Studio SDK. In this procedure we'll use a C# project template project, but there is also a Visual Basic project template project. Then you add a VSIX project to the solution that contains the project template project.  
   
 1. Create a C# project template project (in Visual Studio, **File** > **New** > **Project** > **Visual C#** > **Extensibility** > **C# Project Template**). Name it **MyProjectTemplate**.  
   
    > [!NOTE]
-   >  You may be asked to install the Visual Studio SDK. For more information, see [Installing the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).  
+   > You may be asked to install the Visual Studio SDK. For more information, see [Installing the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).  
   
-2. Add a new VSIX project (**File** > **New** > <strong>Project > **Visual C#</strong> > <strong>Extensibility > **VSIX Project</strong>) in the same solution as the project template project (in the **Solution Explorer**, select the solution node, right-click, and select **Add** > **New Project**). Name it **MyProjectWizard.**  
+2. Add a new VSIX project (**File** > **New** > **Project** > **Visual C#** > **Extensibility** > **VSIX Project**) in the same solution as the project template project (in **Solution Explorer**, select the solution node, right-click, and select **Add** > **New Project**). Name it **MyProjectWizard.**  
   
-3. Set the VSIX project as the startup project. In the **Solution Explorer**, select the VSIX project node, right-click, and select **Set as Startup Project**.  
+3. Set the VSIX project as the startup project. In **Solution Explorer**, select the VSIX project node, right-click, and select **Set as Startup Project**.  
   
-4. Add the template project as an asset of the VSIX project. In the **Solution Explorer**, under the VSIX project node, find the *source.extension.vsixmanifest* file. Double-click it to open it in the manifest editor.  
+4. Add the template project as an asset of the VSIX project. In **Solution Explorer**, under the VSIX project node, find the *source.extension.vsixmanifest* file. Double-click it to open it in the manifest editor.  
   
 5. In the manifest editor, select the **Assets** tab on the left side of the window.  
   
@@ -45,14 +44,15 @@ Visual Studio provides the <xref:Microsoft.VisualStudio.TemplateWizard.IWizard> 
   
 7. Build the solution and start debugging. A second instance of Visual Studio appears. (This may take a few minutes.)  
   
-8. In the second instance of Visual Studio, try to create a new project with your new template. (**File** > **New** > **Project > Visual C#** > **MyProject Template**). The new project should appear with a class named **Class1**. You have now created a custom project template! Stop debugging now.  
+8. In the second instance of Visual Studio, try to create a new project with your new template (**File** > **New** > **Project > Visual C#** > **MyProject Template**). The new project should appear with a class named **Class1**. You have now created a custom project template! Stop debugging now.  
   
 ## Create a custom template wizard  
- This topic shows how to create a custom wizard that opens a Windows Form before the project is created. The form allows users to add a custom parameter value that is added to the source code during project creation.  
+
+This procedure shows how to create a custom wizard that opens a Windows Form before the project is created. The form allows users to add a custom parameter value that is added to the source code during project creation.  
   
 1. Set up the VSIX project to allow it to create an assembly.  
   
-2. In the **Solution Explorer**, select the VSIX project node. Below the Solution Explorer, you should see the **Properties** window. If you do not, select **View** > **Properties Window**, or press **F4**. In the **Properties** window, select the following fields to `true`:  
+2. In **Solution Explorer**, select the VSIX project node. Below **Solution Explorer**, you should see the **Properties** window. If you do not, select **View** > **Properties Window**, or press **F4**. In the **Properties** window, select the following fields to `true`:  
   
    -   **IncludeAssemblyInVSIXContainer**  
   
@@ -62,9 +62,9 @@ Visual Studio provides the <xref:Microsoft.VisualStudio.TemplateWizard.IWizard> 
   
 3. Add the assembly as an asset to the VSIX project. Open the *source.extension.vsixmanifest* file and select the **Assets** tab. In the **Add New Asset** window, for **Type** select **Microsoft.VisualStudio.Assembly**, for **Source** select **A project in current solution**, and for **Project** select **MyProjectWizard**.  
   
-4. Add the following references to the VSIX project. (In the **Solution Explorer**, under the VSIX project node select **References**, right-click, and select **Add Reference**.) In the **Add Reference** dialog,  in the **Framework** tab, find the **System.Windows Forms** assembly and select it. Now select the **Extensions** tab. find the **EnvDTE** assembly and select it. Also find the **Microsoft.VisualStudio.TemplateWizardInterface** assembly and select it. Click **OK**.  
+4. Add the following references to the VSIX project. (In **Solution Explorer**, under the VSIX project node, select **References**, right-click, and select **Add Reference**.) In the **Add Reference** dialog,  in the **Framework** tab, find the **System.Windows Forms** assembly and select it. Now select the **Extensions** tab. Find the **EnvDTE** assembly and select it. Also find the **Microsoft.VisualStudio.TemplateWizardInterface** assembly and select it. Click **OK**.  
   
-5. Add a class for the wizard implementation to the VSIX project. (In the **Solution Explorer**, right-click the VSIX project node and select **Add**, then **New Item**, then **Class**.) Name the class **WizardImplementation**.  
+5. Add a class for the wizard implementation to the VSIX project. (In **Solution Explorer**, right-click the VSIX project node and select **Add**, then **New Item**, then **Class**.) Name the class **WizardImplementation**.  
   
 6. Replace the code in the *WizardImplementationClass.cs* file with the following code:  
   
@@ -199,7 +199,8 @@ Visual Studio provides the <xref:Microsoft.VisualStudio.TemplateWizard.IWizard> 
     The user input form provides a simple form for entering a custom parameter. The form contains a text box named `textBox1` and a button named `button1`. When the button is clicked, the text from the text box is stored in the `customMessage` parameter.  
   
 ## Connect the wizard to the custom template  
- In order for your custom project template to use your custom wizard, you need to sign the wizard assembly and add some lines to your custom project template to let it know where to find the wizard implementation when a new project is created.  
+
+In order for your custom project template to use your custom wizard, you need to sign the wizard assembly and add some lines to your custom project template to let it know where to find the wizard implementation when a new project is created.  
   
 1. Sign the assembly. In the **Solution Explorer**, select the VSIX project, right-click, and select **Project Properties**.  
   
@@ -253,7 +254,8 @@ Visual Studio provides the <xref:Microsoft.VisualStudio.TemplateWizard.IWizard> 
 13. Save all the files in the project and rebuild.  
   
 ## Add the custom parameter to the template  
- In this example, the project used as the template displays the message specified in the user input form of the custom wizard.  
+
+In this example, the project used as the template displays the message specified in the user input form of the custom wizard.  
   
 1. In the **Solution Explorer**, go to the **MyProjectTemplate** project and open *Class1.cs*.  
   
@@ -265,7 +267,7 @@ Visual Studio provides the <xref:Microsoft.VisualStudio.TemplateWizard.IWizard> 
   
     The parameter `$custommessage$` is replaced with the text entered in the user input form when a project is created from the template.  
   
-   Here is the full code file before it has been exported to a template.  
+Here is the full code file before it has been exported to a template.  
   
 ```csharp  
 using System;  
@@ -286,7 +288,8 @@ namespace $safeprojectname$
 ```  
   
 ## Use the custom wizard  
- Now you can create a project from your template and use the custom wizard.  
+
+Now you can create a project from your template and use the custom wizard.  
   
 1.  Rebuild the solution and start debugging. A second instance of Visual Studio should appear.  
   
@@ -306,7 +309,7 @@ namespace $safeprojectname$
   
 ## See also  
 
-<xref:Microsoft.VisualStudio.TemplateWizard.IWizard>   
-[Customize templates](../ide/customizing-project-and-item-templates.md)  
-[WizardExtension element (Visual Studio templates)](../extensibility/wizardextension-element-visual-studio-templates.md)  
-[NuGet packages in Visual Studio templates](/nuget/visual-studio-extensibility/visual-studio-templates)
+- <xref:Microsoft.VisualStudio.TemplateWizard.IWizard>   
+- [Customize templates](../ide/customizing-project-and-item-templates.md)  
+- [WizardExtension element (Visual Studio templates)](../extensibility/wizardextension-element-visual-studio-templates.md)  
+- [NuGet packages in Visual Studio templates](/nuget/visual-studio-extensibility/visual-studio-templates)

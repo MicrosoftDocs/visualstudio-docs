@@ -1,9 +1,6 @@
 ---
 title: "Walkthrough: Extending Server Explorer to Display Web Parts | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -371,4 +368,3 @@ ms.workload:
  [Walkthrough: Call into the SharePoint client object model in a Server Explorer extension](../sharepoint/walkthrough-calling-into-the-sharepoint-client-object-model-in-a-server-explorer-extension.md)   
  [Image Editor for Icons](/cpp/windows/image-editor-for-icons)   
  [Creating an Icon or Other Image &#40;Image Editor for Icons&#41;](/cpp/windows/creating-an-icon-or-other-image-image-editor-for-icons)  
-  
