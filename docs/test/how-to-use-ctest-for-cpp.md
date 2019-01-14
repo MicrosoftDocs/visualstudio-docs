@@ -30,7 +30,7 @@ If you are using CTest but not the Google or Boost adapters, you see results at 
 
 ## To run tests (Visual Studio 2017 version 15.5)
 
-In **Visual Studio 2017 version 15.5**, CTest is not integrated with **Test Explorer**. You can run your tests from the CMake main menu or from the context menu on a *CMakeLists.txt* file in **Solution Explorer**. Test results are directed to the Visual Studio **Output Window**.
+In **Visual Studio 2017 version 15.5**, CTest is not integrated with **Test Explorer**. You can run your tests from the CMake main menu or from the right-click menu on a *CMakeLists.txt* file in **Solution Explorer**. Test results are directed to the Visual Studio **Output Window**.
 
 ![Run CTest tests in VS2017 15.5](media/cpp-cmake-run-tests.png)
 

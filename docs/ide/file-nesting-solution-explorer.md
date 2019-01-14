@@ -125,7 +125,7 @@ You can manage all settings, including your own custom settings, through the sam
 
 ## Create solution-specific and project-specific settings
 
-You can create solution-specific and project-specific settings through the context menu of each solution and project:
+You can create solution-specific and project-specific settings through the right-click menu (context menu) of each solution and project:
 
 ![Solution and project-specific nesting rules](media/filenesting_solutionprojectspecific.png)
 

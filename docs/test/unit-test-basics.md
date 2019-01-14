@@ -77,7 +77,7 @@ It is often quicker to generate the unit test project and unit test stubs from y
 
 ### Generate unit test project and unit test stubs
 
-1. From the code editor window, right-click and choose **Create Unit Tests** from the context menu.
+1. From the code editor window, right-click and choose **Create Unit Tests** from the right-click menu.
 
     ![From the editor window, view the context menu](../test/media/createunittestsrightclick.png)
 
@@ -212,7 +212,7 @@ The **Test Explorer** toolbar helps you discover, organize, and run the tests th
 
 ![Run tests from the Test Explorer toolbar](../test/media/ute_toolbar.png)
 
-You can choose **Run All** to run all your tests, or choose **Run** to choose a subset of tests to run. After you run a set of tests, a summary of the test run appears at the bottom of the **Test Explorer** window. Select a test to view the details of that test in the bottom pane. Choose **Open Test** from the context menu (Keyboard: **F12**) to display the source code for the selected test.
+You can choose **Run All** to run all your tests, or choose **Run** to choose a subset of tests to run. After you run a set of tests, a summary of the test run appears at the bottom of the **Test Explorer** window. Select a test to view the details of that test in the bottom pane. Choose **Open Test** from the right-click menu (Keyboard: **F12**) to display the source code for the selected test.
 
 If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution with the ![UTE&#95;parallelicon&#45;small](../test/media/ute_parallelicon-small.png) toggle button on the toolbar. This can noticeably reduce the time taken to run all the tests.
 

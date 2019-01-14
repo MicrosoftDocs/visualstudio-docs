@@ -41,7 +41,7 @@ Anyone with [owner or contributor access](https://na01.safelinks.protection.outl
 0. Choose **Visual Studio Marketplace**.
 0. Make sure you're customer's name is in the upper right corner.
 0. Choose **Subscriptions**.
-0. Choose Enterprise or Professional and choose monthly or annual for Visual Studio.
+0. Choose Enterprise or Professional for Visual Studio.
 0. Choose **Buy**.
 0. Choose the Azure subscription to bill for the purchase.
 0. Enter the number of users your customer needs.

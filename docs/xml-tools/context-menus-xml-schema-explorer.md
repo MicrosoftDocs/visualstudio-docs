@@ -12,7 +12,7 @@ ms.workload:
 ---
 # Context menus (XML Schema Explorer)
 
-The following context menu items are used to perform schema-specific searches and other operations.
+A context menu is the menu that appears when you right-click on something. The following context menu items are used to perform schema-specific searches and other operations.
 
 ## Node type: Schema set
 

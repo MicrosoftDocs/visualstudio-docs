@@ -36,7 +36,7 @@ The Graph View provides a graphic representation of global schema nodes and the 
 
  The breadcrumb bar at the bottom of the Graph View shows where the selected node is located in the schema set. If multiple items are selected, the breadcrumb bar will be blank.
 
-## Context menu
+## Context (right-click) menu
 
  The following table describes the options that are available for all the nodes on the Graph View design surface.
 
@@ -86,7 +86,7 @@ The Graph View provides a graphic representation of global schema nodes and the 
 
 ## Properties window
 
- Use the context menu to initially open the **Properties** window. By default, the **Properties** window appears in the lower right corner of Visual Studio. When you click a node that is rendered in the Content Model View, the properties of that node will be displayed in the **Properties** Window.
+ Use the context (right-click) menu to initially open the **Properties** window. By default, the **Properties** window appears in the lower right corner of Visual Studio. When you click a node that is rendered in the Content Model View, the properties of that node will be displayed in the **Properties** Window.
 
 ## XSD toolbar
 
@@ -135,7 +135,7 @@ The Zoom slider is opaque when you select it, hover over it, or use **Ctrl** wit
 
 ## XML editor integration
 
- You can switch back and forth between the Graph View and the XML Editor by clicking a node and using the View Code context menu.
+ You can switch back and forth between the Graph View and the XML Editor by clicking a node and using the View Code context (right-click) menu.
 
  If you make changes to the schema set in the XML Editor, the changes will be synchronized in the Graph View. For more information, see [Integration with XML editor](../xml-tools/integration-with-xml-editor.md).
 

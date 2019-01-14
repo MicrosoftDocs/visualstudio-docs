@@ -61,7 +61,7 @@ Finds all the references to the selected element in the solution. You can use th
 Input | Function
 ------------ | ---
 **Keyboard** | Place your text cursor somewhere inside the type name, and press **Shift**+**F12**
-**Mouse** | Select **Find All References** from the context menu
+**Mouse** | Select **Find All References** from the right-click menu
 
 ## Reference highlighting
 
