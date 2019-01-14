@@ -1,14 +1,13 @@
 ---
 title: Visual Studio for Mac Tour
 description: "Visual Studio for Mac provides an integrated development environment to build .NET applications on macOS, including ASP.NET Core websites and Xamarin projects for iOS, Android, Mac, and Xamarin.Forms."
-zone_pivot_groups: "mac-ide-version"
 author: conceptdev
 ms.author: crdun
 ms.date: 11/03/2018
 ms.assetid: 7DC64A52-AA41-4F3A-A8A1-8A20BCD81CC7
 ---
 
-# Visual Studio for Mac Tour
+# Visual Studio 2017 for Mac Tour
 
 Visual Studio for Mac evolves Xamarin's mobile-centric IDE, Xamarin Studio, into a mobile-first, cloud-first development environment on the Mac. This developer-focused tool allows you to use the power of .NET to create applications for all platforms required by your users.
 
@@ -20,25 +19,7 @@ This article explores various sections of Visual Studio for Mac, providing a loo
 
 Visual Studio for Mac is organized into several sections for managing application files and settings, creating application code, and debugging.
 
-::: zone pivot="vsmac2019"
-
-## Visual Studio for Mac 2019 Start Window
-
-> [!TIP]
-> The Visual Studio 2019 for Mac preview is [available for download](install-preview.md) and testing.
-
-When you start the Visual Studio for Mac 2019 preview, new users will see a sign-in window. Sign-in with your Microsoft account to activate a paid license (if you have one) or link to Azure subscriptions. You can press **Skip** and sign in later via the **Visual Studio > Sign in** menu item:
-
-![Sign in to your Microsoft account](media/ide-tour-2019-start-signin.png)
-
-Signed-in users will see the new _start window_, which shows a list of recent projects, and buttons to open an existing project or create a new one:
-
-![Choose from recent projects, or create something new](media/ide-tour-2019-start-projects.png)
-
-::: zone-end
-::: zone pivot="vsmac2017"
-
-## Welcome Screen in Visual Studio for Mac 2017
+## Welcome Screen
 
 When launched, Visual Studio for Mac displays a *Welcome Screen*:
 
@@ -50,8 +31,6 @@ The Welcome Screen contains the following sections:
 - **Getting Started** - Provides quick access to useful topics for developers getting started with Visual Studio for Mac.
 - **Recent Solutions** - Provides quick access to recently opened solutions, as well as convenient buttons to open or create projects.
 - **Developer News** - A news feed that keeps you up-to-date on the latest Microsoft Developer information.
-
-::: zone-end
 
 ## Solutions and Projects
 
@@ -69,7 +48,7 @@ The Solution Pad organizes the project(s) in a solution:
 
 This is where files for the source code, resources, user interface, and dependencies are organized into platform-specific Projects.
 
-For more information on using Projects and Solutions in Visual Studio for Mac, see the [Projects and Solutions](projects-and-solutions.md) article.
+For more information on using Projects and Solutions in Visual Studio for Mac, see the [Projects and Solutions](/visualstudio/mac/projects-and-solutions) article.
 
 ## Assembly References
 
@@ -81,7 +60,7 @@ Additional references are added using the **Edit References** dialog, which is d
 
 ![Edit References Dialog](media/ide-tour-image20.png)
 
-For more information on using References in Visual Studio for Mac, see the [Managing References in a Project](managing-references-in-a-project.md) article.
+For more information on using References in Visual Studio for Mac, see the [Managing References in a Project](/visualstudio/mac/managing-references-in-a-project) article.
 
 ## Dependencies / Packages
 
@@ -93,19 +72,19 @@ To add a dependency to your application, right-click on the Dependencies / Packa
 
 ![Add a NuGet package](media/ide-tour-image21.png)
 
-Information on using a NuGet package in an application can be found in the [Including a NuGet project in your project](nuget-walkthrough.md) article.
+Information on using a NuGet package in an application can be found in the [Including a NuGet project in your project](/visualstudio/mac/nuget-walkthrough) article.
 
 ## Refactoring
 
-Visual Studio for Mac provides two useful ways to refactor your code: Context Actions, and Source Analysis. You can read more about them in the [Refactoring](refactoring.md) article.
+Visual Studio for Mac provides two useful ways to refactor your code: Context Actions, and Source Analysis. You can read more about them in the [Refactoring](/visualstudio/mac/refactoring) article.
 
 ## Debugging
 
-Visual Studio for Mac has a native debugger allowing debugging support for Xamarin.iOS, Xamarin.Mac, and Xamarin.Android applications. Visual Studio for Mac uses the Mono Soft Debugger, which is implemented into the Mono runtime, allowing the IDE to debug managed code across all platforms. For additional information on debugging, visit the [Debugging](debugging.md) article.
+Visual Studio for Mac has a native debugger allowing debugging support for Xamarin.iOS, Xamarin.Mac, and Xamarin.Android applications. Visual Studio for Mac uses the Mono Soft Debugger, which is implemented into the Mono runtime, allowing the IDE to debug managed code across all platforms. For additional information on debugging, visit the [Debugging](/visualstudio/mac/debugging) article.
 
 The debugger contains rich visualizers for special types such as strings, colors, URLs, as well as sizes, co-ordinates, and bézier curves.
 
-For more information on the debugger's data visualizations, visit the [Data Visualizations](data-visualizations.md) article.
+For more information on the debugger's data visualizations, visit the [Data Visualizations](/visualstudio/mac/data-visualizations) article.
 
 ## Version Control
 
@@ -117,7 +96,7 @@ Files with uncommitted changes have an annotation on their icons in the Solution
 
 ![Uncommitted files in solution pad](media/ide-tour-image23.png)
 
-For more information on using version control in Visual Studio, see the [Version Control](version-control.md) article.
+For more information on using version control in Visual Studio, see the [Version Control](/visualstudio/mac/version-control) article.
 
 ## See also
 
