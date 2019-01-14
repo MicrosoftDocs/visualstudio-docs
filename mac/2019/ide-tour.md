@@ -7,7 +7,7 @@ ms.date: 11/03/2018
 ms.assetid: 7DC64A52-AA41-4F3A-A8A1-8A20BCD81CC7
 ---
 
-# Visual Studio 2019 for Mac Preview Tour
+# Visual Studio 2019 for Mac Preview tour
 
 > [!NOTE]
 > Visual Studio 2019 for Mac is [now available](installation.md) as a preview for testing.
@@ -18,11 +18,11 @@ The user experience (UX) of Visual Studio for Mac is similar to that of its Wind
 
 This article explores various sections of Visual Studio for Mac, providing a look at some of the features that make it a powerful tool for creating cross-platform applications.
 
-## IDE Tour
+## IDE tour
 
 Visual Studio for Mac is organized into several sections for managing application files and settings, creating application code, and debugging.
 
-## New Start Window
+## New start window
 
 When you start Visual Studio 2019 for Mac Preview, new users will see a sign-in window. Sign-in with your Microsoft account to activate a paid license (if you have one) or link to Azure subscriptions. You can press **Skip** and sign in later via the **Visual Studio > Sign in** menu item:
 
@@ -32,7 +32,7 @@ Signed-in users will see the new _start window_, which shows a list of recent pr
 
 ![Choose from recent projects, or create something new](media/ide-tour-2019-start-projects.png)
 
-## Solutions and Projects
+## Solutions and projects
 
 The following image shows Visual Studio for Mac with an application loaded:
 
@@ -40,7 +40,7 @@ The following image shows Visual Studio for Mac with an application loaded:
 
 The following sections provide an overview of the major areas in Visual Studio for Mac.
 
-## Solution Pad
+## Solution pad
 
 The Solution Pad organizes the project(s) in a solution:
 
@@ -50,7 +50,7 @@ This is where files for the source code, resources, user interface, and dependen
 
 For more information on using Projects and Solutions in Visual Studio for Mac, see the [Projects and Solutions](/visualstudio/mac/projects-and-solutions) article.
 
-## Assembly References
+## Assembly references
 
 Assembly references for each project are available under the References folder:
 
@@ -62,7 +62,7 @@ Additional references are added using the **Edit References** dialog, which is d
 
 For more information on using References in Visual Studio for Mac, see the [Managing References in a Project](/visualstudio/mac/managing-references-in-a-project) article.
 
-## Dependencies / Packages
+## Dependencies / packages
 
 All external dependencies used in your app are stored in the Dependencies or Packages folder, depending on whether you are in a .Net Core or Xamarin.iOS/Xamarin.Android project. These are usually provided in the form of a NuGet.
 
@@ -86,7 +86,7 @@ The debugger contains rich visualizers for special types such as strings, colors
 
 For more information on the debugger's data visualizations, visit the [Data Visualizations](/visualstudio/mac/data-visualizations) article.
 
-## Version Control
+## Version control
 
 Visual Studio for Mac integrates with Git and Subversion source control systems. Projects under source control are denoted with the branch listed next to the Solution name:
 
@@ -97,6 +97,11 @@ Files with uncommitted changes have an annotation on their icons in the Solution
 ![Uncommitted files in solution pad](media/ide-tour-image23.png)
 
 For more information on using version control in Visual Studio, see the [Version Control](/visualstudio/mac/version-control) article.
+
+## Next steps
+
+- [Install Visual Studio for Mac](installation.md)
+- [Review the available workloads](/visualstudio/mac/workloads/)
 
 ## See also
 
