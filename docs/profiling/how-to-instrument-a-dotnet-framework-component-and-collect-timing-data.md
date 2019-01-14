@@ -1,8 +1,6 @@
 ---
 title: "How to: Instrument a Stand-Alone .NET Framework Component and Collect Timing Data with the Profiler from the Command Line | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: b7dcc27b-45c6-4302-9552-6fa5b1e94b56
 author: "mikejo5000"

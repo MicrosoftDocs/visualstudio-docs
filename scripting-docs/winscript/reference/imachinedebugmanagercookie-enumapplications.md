@@ -24,7 +24,7 @@ Returns an enumerator of the current list of running applications.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT EnumApplications(  
    IEnumRemoteDebugApplications**  ppeda  
 );  

@@ -24,7 +24,7 @@ Returns the synchronous debug operation associated with this object.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetSyncDebugOperation(  
    IDebugSyncOperation**  ppsdo  
 );  

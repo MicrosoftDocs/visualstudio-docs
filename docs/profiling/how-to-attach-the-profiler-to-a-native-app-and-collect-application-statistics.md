@@ -2,7 +2,6 @@
 title: "Attach the profiler to a native app and collect app statistics"
 ms.custom: "seodec18"
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: df44fe42-281b-4398-b3fc-277b62ae41f1
 author: "mikejo5000"

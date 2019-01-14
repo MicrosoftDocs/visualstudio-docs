@@ -11,7 +11,6 @@ manager: douge
 ms.workload:
   - "multiple"
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Code generation in a build process
 
@@ -53,7 +52,7 @@ If [your build server](/azure/devops/pipelines/agents/agents) runs on a computer
 
 You'll have to edit your project file to configure some of the features in MSBuild.
 
-In **Solution Explorer**, choose **Unload** from the context menu of your project. That allows you to edit the .csproj or .vbproj file in the XML editor.
+In **Solution Explorer**, choose **Unload** from the right-click menu of your project. That allows you to edit the .csproj or .vbproj file in the XML editor.
 
 When you've finished editing, choose **Reload**.
 

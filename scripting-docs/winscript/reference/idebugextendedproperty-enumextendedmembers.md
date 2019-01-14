@@ -24,7 +24,7 @@ Enumerates the members of an extended property.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT EnumExtendedMembers(  
    EX_DBGPROP_INFO_FLAGS  dwFieldSpec,  
    UINT  nRadix,  

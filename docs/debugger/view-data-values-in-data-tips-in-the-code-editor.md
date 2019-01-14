@@ -2,7 +2,6 @@
 title: "View variable values in DataTips | Microsoft Docs"
 ms.custom: "seodec18"
 ms.date: "11/21/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
@@ -22,9 +21,7 @@ ms.workload:
 ---
 # View data values in DataTips in the code editor
 
-DataTips provide a convenient way to view information about variables in your program during debugging. DataTips work only in break mode and only with variables that are in the current scope of execution. If this is the first time that you've tried to debug code, you may want to read [Fix bugs by writing better C# code](../debugger/write-better-code-with-visual-studio.md) and [Debugging for absolute beginners](../debugger/debugging-absolute-beginners.md) before going through this article.
-
-If this is your first time debugging, you may want to read [Write better C# code using Visual Studio](../debugger/write-better-code-with-visual-studio.md) and [Debugging for absolute beginners](../debugger/debugging-absolute-beginners.md) before you read this article.
+DataTips provide a convenient way to view information about variables in your program during debugging. DataTips work only in break mode and only with variables that are in the current scope of execution. If this is the first time that you've tried to debug code, you may want to read [Debugging for absolute beginners](../debugger/debugging-absolute-beginners.md) and [Fix bugs by writing better C# code](../debugger/write-better-code-with-visual-studio.md) before going through this article.
   
 ## Work with DataTips
 
@@ -126,4 +123,3 @@ You can export DataTips to an XML file, which you can share or edit using a text
  [Viewing Data in the Debugger](../debugger/viewing-data-in-the-debugger.md)   
  [Watch and QuickWatch Windows](../debugger/watch-and-quickwatch-windows.md)   
  [Create Custom Visualizers](../debugger/create-custom-visualizers-of-data.md)   
-

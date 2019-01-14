@@ -1,9 +1,6 @@
 ---
 title: "How to: Programmatically delete Outlook contacts"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -11,8 +8,8 @@ dev_langs:
 helpviewer_keywords: 
   - "deleting contacts"
   - "contacts [Office development in Visual Studio], deleting"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -30,5 +27,3 @@ ms.workload:
  [Work with contact items](../vsto/working-with-contact-items.md)   
  [How to: Programmatically search for a specific contact](../vsto/how-to-programmatically-search-for-a-specific-contact.md)   
  [How to: Programmatically access Outlook contacts](../vsto/how-to-programmatically-access-outlook-contacts.md)  
-  
-  

@@ -24,7 +24,7 @@ Signals that a result is available from an asynchronous debug operation.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT onComplete();  
 ```  
   

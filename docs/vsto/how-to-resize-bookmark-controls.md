@@ -1,9 +1,6 @@
 ---
 title: "How to: Resize Bookmark controls"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -91,5 +88,3 @@ ms.workload:
  [How to: Resize NamedRange controls](../vsto/how-to-resize-namedrange-controls.md)   
  [How to: Resize ListObject controls](../vsto/how-to-resize-listobject-controls.md)   
  [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)  
-  
-  

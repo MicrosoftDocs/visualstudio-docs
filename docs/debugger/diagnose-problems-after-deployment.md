@@ -1,8 +1,6 @@
 ---
 title: "Diagnose problems after deployment | Microsoft Docs"
-ms.custom: ""
 ms.date: "04/10/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: a3463eab-a352-4d17-8551-adbaad526db0
 author: "mikejo5000"
@@ -11,7 +9,7 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Diagnose problems after deployment using IntelliTrace
+# Diagnose problems after deployment using IntelliTrace (C#, Visual Basic)
 
 To diagnose issues in your ASP.NET web app after deployment by using IntelliTrace, include build information with your release to let Visual Studio automatically find the correct source files and symbol files that are required to debug the IntelliTrace log.
 

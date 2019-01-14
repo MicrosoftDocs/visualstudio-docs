@@ -24,7 +24,7 @@ Returns the language-dependent programmatic identifier for the class or applicat
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetSource(  
    BSTR*  pbstrSource  
 );  

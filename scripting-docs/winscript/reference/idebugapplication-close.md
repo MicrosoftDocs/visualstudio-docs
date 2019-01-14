@@ -24,7 +24,7 @@ Causes this application to release all references and enter an inactive state.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Close();  
 ```  
   

@@ -1,8 +1,6 @@
 ---
 title: "MSBuild Reference | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: msbuild
 ms.topic: "reference"
 dev_langs: 
   - "VB"
@@ -55,7 +53,7 @@ ms.workload:
  [Response riles](../msbuild/msbuild-response-files.md)  
  Explains the *.rsp* files that contain command-line switches.  
   
- [Additional resources](../msbuild/additional-resources-for-msbuild.md)  
+ [Additional resources](https://social.msdn.microsoft.com/forums/vstudio/home?forum=msbuild)  
  Provides links to [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] websites and newsgroups.  
   
  [WPF MSBuild reference](../msbuild/wpf-msbuild-reference.md)  

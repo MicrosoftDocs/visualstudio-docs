@@ -24,7 +24,7 @@ Retrieves a host-defined string that uniquely identifies the current document ve
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetDocVersionString(  
     BSTR *pbstrVersionString  // address of document version string  
 );  

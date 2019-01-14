@@ -26,7 +26,7 @@ Namespace TextPointer_Snippets
         End Sub
 
         ' <Snippet_TextPointer_GetInsertionPosition>
-        ' Tests to see if the specified TextElement is empty (has no printatble content).
+        ' Tests to see if the specified TextElement is empty (has no printable content).
         Private Function IsElementEmpty(ByVal element As TextElement) As Boolean
             ' Find starting and ending insertion positions in the element.
             ' Inward-facing directions are used to make sure that insertion position
@@ -95,7 +95,7 @@ Namespace TextPointer_Snippets
                         buffer.Append(navigator.GetTextInRun(LogicalDirection.Forward))
                 End Select
 
-                ' Advance the naviagtor to the next context position.
+                ' Advance the navigator to the next context position.
                 navigator = navigator.GetNextContextPosition(LogicalDirection.Forward)
 
             Loop ' End while.
@@ -106,7 +106,7 @@ Namespace TextPointer_Snippets
         ' </Snippet_TextPointer_GetNextContextPosition>
 
         ' <Snippet_TextPointer_GetNextInsertionPosition>
-        ' This method returns the number of pagragraphs between two
+        ' This method returns the number of paragraphs between two
         ' specified TextPointers.
         Private Function GetParagraphCount(ByVal start As TextPointer, ByVal [end] As TextPointer) As Integer
             Dim paragraphCount As Integer = 0
@@ -230,7 +230,7 @@ Namespace TextPointer_Snippets
             ' Note that without this check, an exception will be raised by CompareTo if positionToTest 
             ' does not point to a position that is in the same text container used by start and end.
             '
-            ' This test also implicitely indicates whether start and end share a common text container.
+            ' This test also implicitly indicates whether start and end share a common text container.
             If (Not positionToTest.IsInSameDocument(start)) OrElse (Not positionToTest.IsInSameDocument([end])) Then
                 Return False
             End If
@@ -272,7 +272,7 @@ Namespace TextPointer_Snippets
             '</SnippetFCEParent>
 
             ' This will be either null if no Run is found, or a position just inside of the first Run element in the
-            ' specifed text container.  Because position is formed from ContentStart, it will have a logical direction
+            ' specified text container.  Because position is formed from ContentStart, it will have a logical direction
             ' of Backward.
             Return position
         End Function
@@ -322,7 +322,7 @@ Namespace TextPointer_Snippets
                 ' If so, the selections overlap.
                 Return True
                 ' If not, selection2 may still entirely contain selection1.
-                ' Is either end of selection1 contained by seleciotn2?
+                ' Is either end of selection1 contained by selection2?
             ElseIf selection2.Contains(selection1.Start) OrElse selection2.Contains(selection1.End) Then
                 ' If so, the selections overlap.
                 Return True

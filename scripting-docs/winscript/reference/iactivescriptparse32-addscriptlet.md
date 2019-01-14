@@ -16,7 +16,7 @@ Adds a code scriptlet to the script. This method is used in environments where t
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT AddScriptlet(  
     LPCOLESTR pstrDefaultName,       // address of default name of scriptlet  
     LPCOLESTR pstrCode,              // address of scriptlet text  

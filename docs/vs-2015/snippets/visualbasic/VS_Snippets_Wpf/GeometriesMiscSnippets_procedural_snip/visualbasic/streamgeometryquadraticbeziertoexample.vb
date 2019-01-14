@@ -24,7 +24,7 @@ Namespace SDKSample
 				' Set the begin point of the shape.
 				ctx.BeginFigure(New Point(10, 100), True, False) ' is closed  -  is filled 
 
-				' Create a Quadratic Bezier curve using the 2 specifed points. The first point
+				' Create a Quadratic Bezier curve using the 2 specified points. The first point
 				' specifies the control point while the second point specifies the end point 
 				' of the curve.
 				ctx.QuadraticBezierTo(New Point(100, 0), New Point(200, 200), True, False) ' is smooth join  -  is stroked 

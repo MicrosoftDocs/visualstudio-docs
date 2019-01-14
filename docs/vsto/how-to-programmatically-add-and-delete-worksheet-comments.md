@@ -1,9 +1,6 @@
 ---
 title: "How to: Programmatically add and delete worksheet comments"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -12,8 +9,8 @@ helpviewer_keywords:
   - "ranges, comments"
   - "worksheets, comments"
   - "comments, worksheets"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -61,5 +58,3 @@ ms.workload:
  [Work with worksheets](../vsto/working-with-worksheets.md)   
  [How to: Programmatically display worksheet comments](../vsto/how-to-programmatically-display-worksheet-comments.md)   
  [NamedRange control](../vsto/namedrange-control.md)  
-  
-  

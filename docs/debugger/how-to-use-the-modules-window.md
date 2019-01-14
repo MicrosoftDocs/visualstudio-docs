@@ -3,7 +3,6 @@ title: "View DLLs and executables"
 titleSuffix: Visual Studio Modules window
 ms.custom: "seodec18"
 ms.date: "11/04/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.modules"

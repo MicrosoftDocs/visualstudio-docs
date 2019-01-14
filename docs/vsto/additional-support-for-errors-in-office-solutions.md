@@ -1,8 +1,6 @@
 ---
 title: "Additional support for errors in Office solutions"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: office-development
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords: 
@@ -87,5 +85,3 @@ ms.workload:
  [Troubleshoot Office solution security](../vsto/troubleshooting-office-solution-security.md)   
  [Troubleshoot Office solution deployment](../vsto/troubleshooting-office-solution-deployment.md)   
  [Additional resources for developing Office solutions](../vsto/additional-resources-for-developing-office-solutions.md)  
-  
-  

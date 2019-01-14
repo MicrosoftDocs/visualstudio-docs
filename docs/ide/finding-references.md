@@ -2,7 +2,6 @@
 title: Finding references in your code
 ms.date: 09/26/2017
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:
   - "code editor, find all references"
@@ -35,13 +34,13 @@ You can use the following methods to navigate to references in the **references*
 
 - Press **F8** to go to the next reference, or **Shift + F8** to go to the previous reference.
 - Press the **Enter** key on a reference, or double-click it, to go to it in code.
-- On the context menu of a reference, choose the **Go To Previous Location** or **Go To Next Location** commands.
+- On the right-click menu (context menu) of a reference, choose the **Go To Previous Location** or **Go To Next Location** commands.
 - Choose the **Up Arrow** and **Down Arrow** keys (if they are enabled in the **Options** dialog box). To enable this functionality, on the menu bar, choose **Tools** > **Options** > **Environment** > **Tabs and Windows** > **Preview Tab**, and then select the **Allow new files to be opened in the preview tab** and **Preview selected files in Find Results** boxes.
 
 ## Change reference groupings
 By default, references are grouped by project, then by definition. However, you can change this grouping order by changing the setting in the **Group by:** drop-down list box on the toolbar. For example, you can change it from the default setting of **Project then definition** to **Definition then project**, as well to other settings.
 
-**Definition** and **Project** are the two default groupings used, but you can add others by choosing the **Grouping** command on the selected item's context menu. Adding more groupings can be helpful if your solution has a lot of files and paths.
+**Definition** and **Project** are the two default groupings used, but you can add others by choosing the **Grouping** command on the selected item's right-click or context menu. Adding more groupings can be helpful if your solution has a lot of files and paths.
 
 ## See also
 

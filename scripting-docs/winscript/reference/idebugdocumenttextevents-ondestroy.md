@@ -24,7 +24,7 @@ Indicates that the underlying document has been destroyed and is no longer valid
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT onDestroy();  
 ```  
   

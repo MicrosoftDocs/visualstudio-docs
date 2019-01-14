@@ -24,7 +24,7 @@ Handles a create thread event.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT OnCreateThread(  
    IRemoteDebugApplicationThread*  prdat  
 );  

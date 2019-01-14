@@ -24,7 +24,7 @@ Gets extended information for the property.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetExtendedInfo (  
    ULONG  cInfos,  
    GUID*  rgguidExtendedInfo,  

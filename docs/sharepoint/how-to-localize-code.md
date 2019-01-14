@@ -1,13 +1,8 @@
 ---
 title: "How to: Localize Code | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
-  - "VB"
-  - "CSharp"
   - "VB"
   - "CSharp"
 helpviewer_keywords: 
@@ -72,4 +67,3 @@ ms.workload:
  [How to: Localize a feature](../sharepoint/how-to-localize-a-feature.md)   
  [How to: Localize ASPX markup](../sharepoint/how-to-localize-aspx-markup.md)   
  [How to: Add a resource file](../sharepoint/how-to-add-a-resource-file.md)  
-

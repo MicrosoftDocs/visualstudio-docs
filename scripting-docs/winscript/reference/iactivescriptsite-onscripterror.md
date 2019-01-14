@@ -24,7 +24,7 @@ Informs the host that an execution error occurred while the engine was running t
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT OnScriptError(  
     IActiveScriptError *pase  // address of error interface  
 );  

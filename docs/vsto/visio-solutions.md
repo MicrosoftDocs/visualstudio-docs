@@ -1,9 +1,6 @@
 ---
 title: "Visio solutions"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -73,4 +70,3 @@ ms.workload:
  [Office UI customization](../vsto/office-ui-customization.md)   
  [Visio object model overview](../vsto/visio-object-model-overview.md)   
  [Visio 2010 in Office development](http://go.microsoft.com/fwlink/?LinkId=199017)  
-  

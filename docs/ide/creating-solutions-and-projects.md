@@ -2,7 +2,6 @@
 title: Create solutions and projects
 ms.date: 02/06/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 f1_keywords:
   - "vs.openprojectfromweb"
@@ -124,7 +123,7 @@ You can delete solutions and their contents permanently, but not by using the Vi
 
 ### To permanently delete a solution
 
-1. In **Solution Explorer**, on the context menu of the solution you want to delete, choose **Open folder in File Explorer**.
+1. In **Solution Explorer**, on the right-click menu (context menu) of the solution you want to delete, choose **Open folder in File Explorer**.
 
 1. In File Explorer, navigate up one level.
 

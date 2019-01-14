@@ -2,7 +2,6 @@
 title: "CA1028: Enum storage should be Int32"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA1028"

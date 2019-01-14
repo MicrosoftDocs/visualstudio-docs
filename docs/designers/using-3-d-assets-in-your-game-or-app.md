@@ -2,7 +2,6 @@
 title: Using 3D Assets in Your Game or App
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-designers
 ms.topic: conceptual
 f1_keywords:
   - "VC.Project.ImageContentTask.ContentOutput"

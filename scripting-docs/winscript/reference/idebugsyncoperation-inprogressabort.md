@@ -24,7 +24,7 @@ Cancels an operation in progress on another thread.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT InProgressAbort();  
 ```  
   

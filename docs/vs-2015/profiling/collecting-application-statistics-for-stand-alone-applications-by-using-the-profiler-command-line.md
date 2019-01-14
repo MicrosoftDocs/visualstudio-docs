@@ -49,7 +49,7 @@ This section describes the procedures and options for collecting performance sta
   
 |Task|Related content|  
 |----------|---------------------|  
-|**Profile ASP.NET Web applications**|-   [Collecting Application Statistics Using Sampling](../profiling/collecting-application-statistics-for-aspnet-web-applications-using-the-profiler-sampling-method-from-the-command-line.md)|  
+|**Profile ASP.NET Web applications**|-   [Collecting Application Statistics Using Sampling](/visualstudio/profiling/collecting-concurrency-data-for-an-aspnet-web-application?view=vs-2015)|  
 |**Profile services**|-   [Collecting Application Statistics Using Sampling](../profiling/collecting-application-statistics-for-services-by-using-the-profiler-sampling-method.md). Describes how to collect performance statistics from Windows services by using the sampling method.|  
   
 ### Analyzing Sampling Data Views and Reports  

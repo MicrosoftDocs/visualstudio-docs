@@ -1,9 +1,6 @@
 ---
 title: "Workbook host item"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -58,5 +55,3 @@ ms.workload:
  [Worksheet host item](../vsto/worksheet-host-item.md)   
  [Automate Excel by using extended objects](../vsto/automating-excel-by-using-extended-objects.md)   
  [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)  
-  
-  

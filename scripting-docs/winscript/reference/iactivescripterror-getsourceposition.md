@@ -24,7 +24,7 @@ Retrieves the location in the source code where an error occurred while the scri
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetSourcePosition(  
     DWORD *pdwSourceContext,  // context cookie  
     ULONG *pulLineNumber,     // line number of error  

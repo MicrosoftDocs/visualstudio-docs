@@ -1,9 +1,7 @@
 ---
 title: "Analyze CPU usage data (C++)"
 description: "Measure app performance in C++ using the CPU Usage diagnostics tool"
-ms.custom: ""
 ms.date: "08/06/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "quickstart"
 f1_keywords: 
   - ""

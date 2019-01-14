@@ -1,8 +1,6 @@
 ---
 title: "BasicType | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -39,7 +37,7 @@ enum BasicType { 
    btComplex  = 28,  
    btBit      = 29,  
    btBSTR     = 30,  
-   btHresult  = 31  
+   btHresult  = 31,  
    btChar16   = 32,  // char16_t
    btChar32   = 33,  // char32_t
 };  

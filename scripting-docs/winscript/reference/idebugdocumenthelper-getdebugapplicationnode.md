@@ -24,7 +24,7 @@ Returns the debug application node corresponding to this document.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetDebugApplicationNode(  
    IDebugApplicationNode**  ppdan  
 );  

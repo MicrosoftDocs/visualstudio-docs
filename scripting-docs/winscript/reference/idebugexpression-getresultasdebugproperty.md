@@ -24,7 +24,7 @@ Returns the result of the expression evaluation as a debug property and the oper
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetResultAsDebugProperty(  
    HRESULT*          phrResult,  
    IDebugProperty**  ppdp  

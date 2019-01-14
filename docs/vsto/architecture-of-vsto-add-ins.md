@@ -1,8 +1,6 @@
 ---
 title: "Architecture of VSTO Add-ins"
-ms.custom: ""
 ms.date: 02/02/2017
-ms.technology: office-development
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
 dev_langs: 
@@ -109,5 +107,3 @@ ms.workload:
  [Develop Office solutions](../vsto/developing-office-solutions.md)   
  [Secure Office solutions](../vsto/securing-office-solutions.md)   
  [Deploy an Office solution](../vsto/deploying-an-office-solution.md)  
-  
-  

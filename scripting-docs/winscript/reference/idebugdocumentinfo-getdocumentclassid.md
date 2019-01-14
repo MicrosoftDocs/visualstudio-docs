@@ -24,7 +24,7 @@ Returns a `CLSID` identifying the document type.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetDocumentClassId(  
    CLSID*  pclsidDocument  
 );  

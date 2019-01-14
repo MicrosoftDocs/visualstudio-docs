@@ -22,7 +22,7 @@ Returns the absolute address range of the logical JavaScript stack frame.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetStackRange(  
    UINT64 *pStart,  
    UINT64 *pEnd  

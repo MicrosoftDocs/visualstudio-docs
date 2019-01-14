@@ -1,16 +1,11 @@
 ---
 title: "Deploying, Publishing, and Upgrading SharePoint Solution Packages | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VS.SharePointTools.Project.SharePointProjectPropertyTab"
   - "VS.SharePointTools.Project.Publishing"
 dev_langs: 
-  - "VB"
-  - "CSharp"
   - "VB"
   - "CSharp"
 helpviewer_keywords: 
@@ -64,4 +59,3 @@ ms.workload:
   
 ## See also
  [Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)  
-  

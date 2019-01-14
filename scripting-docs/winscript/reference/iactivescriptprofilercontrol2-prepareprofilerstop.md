@@ -20,7 +20,7 @@ Notifies the profiler that you are going to stop profiling on all applicable scr
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT PrepareProfilerStop();  
 ```  
   

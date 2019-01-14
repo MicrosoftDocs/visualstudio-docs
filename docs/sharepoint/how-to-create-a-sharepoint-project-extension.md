@@ -1,9 +1,6 @@
 ---
 title: "How to: Create a SharePoint Project Extension | Microsoft Docs"
-ms.custom: ""
 ms.date: "04/28/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"

@@ -24,7 +24,7 @@ Returns one of the standard script statistics.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetStat(  
    DWORD   stid,  
    ULONG*  pluHi,  

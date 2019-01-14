@@ -1,9 +1,6 @@
 ---
 title: "Threading support in Office"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -74,5 +71,3 @@ ms.workload:
  [Threading (Visual Basic)](/dotnet/visual-basic/programming-guide/concepts/threading/index)   
  [Use threads and threading](/dotnet/standard/threading/using-threads-and-threading)   
  [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)  
-  
-  

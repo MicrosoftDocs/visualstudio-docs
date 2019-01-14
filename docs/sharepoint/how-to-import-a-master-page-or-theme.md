@@ -1,9 +1,6 @@
 ---
 title: "How to: Import a Master Page or Theme | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -91,4 +88,3 @@ ms.workload:
  [Importing items from an existing SharePoint site](../sharepoint/importing-items-from-an-existing-sharepoint-site.md)   
  [Create pages for SharePoint](../sharepoint/creating-pages-for-sharepoint.md)   
  [Use modules to include files in the solution](../sharepoint/using-modules-to-include-files-in-the-solution.md)  
-  

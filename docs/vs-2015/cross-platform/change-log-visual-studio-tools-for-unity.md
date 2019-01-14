@@ -5,8 +5,7 @@ ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
-  - "tgt-pltfrm-cross-plat"
+ms.technology: "tgt-pltfrm-cross-plat"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ea490b7e-fc0d-44b1-858a-a725ce20e396
@@ -812,4 +811,3 @@ Visual Studio Tools for Unity change log.
 
 ## 1.0 – Initial release
  Released 2012-08-22
-

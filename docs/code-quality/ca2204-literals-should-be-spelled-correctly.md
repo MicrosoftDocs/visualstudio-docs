@@ -2,7 +2,6 @@
 title: "CA2204: Literals should be spelled correctly"
 ms.date: 03/28/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "Literals should be spelled correctly"

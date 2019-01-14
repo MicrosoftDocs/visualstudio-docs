@@ -1,9 +1,6 @@
 ---
 title: "Designing XML Command Table (.Vsct) Files | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology:
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "VSCT files, designing"

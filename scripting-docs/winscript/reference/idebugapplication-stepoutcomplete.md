@@ -24,7 +24,7 @@ Notifies the process debug manager that a language engine in single-step mode is
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT StepOutComplete();  
 ```  
   

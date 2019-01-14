@@ -2,7 +2,7 @@
 title: "Tutorial: Get started with C# console apps"
 description: "Learn how to create a C# console app in Visual Studio, step-by-step."
 ms.custom: "seodec18, get-started"
-ms.date: 12/12/2018
+ms.date: 01/10/2019
 ms.technology: vs-ide-general
 ms.prod: visual-studio-dev15
 ms.topic: tutorial
@@ -129,9 +129,11 @@ As in the following screenshot, if you run the app and divide number 42 by the n
 
 Let's fix the code so that it handles decimals.
 
+1. Press **Ctrl** + **F** to open the **Find and Replace** control.
+
 1. Change each instance of the `int` variable to `float`.
 
-   (You can use the [Find and Replace](../../ide/finding-and-replacing-text.md#find-and-replace-control) control to help you with this task. To access the search control within the code editor, press **Crtl**+**F**. Then, choose the **Find Next** button or the **Find Previous** button on the search control. To access replacement options, choose the button next to the **Find** text box. To make one replacement at a time, choose the **Replace Next** button next to the **Replace** text box. To replace all matches, choose the **Replace All** button.)
+    ![Animation of the Find and Replace control showing how to change the int variable to float](./media/find-replace-control-animation.gif)
 
 1. Run your calculator app again and divide the number **42** by the number **119**.
 
@@ -141,9 +143,7 @@ Let's fix the code so that it handles decimals.
 
 However, the app produces only a decimal result. Let's make a few more tweaks to the code so that the app can calculate decimals too.
 
-1. Change each instance of the `float` variable to `double`.
-
-1. Change each instance of the `Convert.ToInt32` method to `Convert.ToDouble`.
+1. Use the **Find and Replace** control (**Ctrl** + **F**) to change each instance of the `float` variable to `double`, and to change each instance of the `Convert.ToInt32` method to `Convert.ToDouble`.
 
 1. Run your calculator app and divide the number **42.5** by the number **119.75**.
 

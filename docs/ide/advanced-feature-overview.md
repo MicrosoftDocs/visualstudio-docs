@@ -3,7 +3,6 @@ title: Advanced features of Visual Studio 2017
 titleSuffix: ""
 ms.date: 06/01/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren

@@ -2,7 +2,6 @@
 title: Creating a UI with XAML Designer
 ms.date: 11/05/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-designers
 ms.topic: conceptual
 f1_keywords:
   - "VS.XamlDesigner"
@@ -157,7 +156,7 @@ The Document Outline window in XAML Designer helps you perform these tasks:
 
 - Create and modify templates for elements that are controls.
 
-- Use the context menu for selected elements. The same menu is also available for selected elements in the artboard.
+- Use the right-click menu (context menu) for selected elements. The same menu is also available for selected elements in the artboard.
 
 To view the **Document Outline** window, on the menu bar choose **View** > **Other Windows** > **Document Outline**.
 

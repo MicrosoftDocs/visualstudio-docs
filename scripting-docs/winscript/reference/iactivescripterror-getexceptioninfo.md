@@ -24,7 +24,7 @@ Retrieves information about an error that occurred while the scripting engine wa
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetExceptionInfo(  
     EXCEPINFO *pexcepinfo  // structure for exception information  
 );  

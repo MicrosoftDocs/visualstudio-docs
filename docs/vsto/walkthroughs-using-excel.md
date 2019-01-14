@@ -1,9 +1,6 @@
 ---
 title: "Walkthroughs using Excel"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -69,5 +66,3 @@ ms.workload:
   
  [Walkthrough: Complex data binding in VSTO Add-in project](../vsto/walkthrough-complex-data-binding-in-vsto-add-in-project.md)  
  Demonstrates how to bind a table in a SQL Server database to a <xref:Microsoft.Office.Tools.Excel.ListObject> in a VSTO Add-in for Excel.  
-  
-  

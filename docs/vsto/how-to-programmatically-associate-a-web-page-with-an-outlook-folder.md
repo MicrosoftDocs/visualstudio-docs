@@ -1,9 +1,6 @@
 ---
 title: "How to: Programmatically associate a web page with an Outlook folder"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -12,8 +9,8 @@ helpviewer_keywords:
   - "folders [Office development in Visual Studio], Web pages and"
   - "Outlook [Office development in Visual Studio], Web pages attached to folders"
   - "Web pages [Office development in Visual Studio], Outlook folders"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -30,5 +27,3 @@ ms.workload:
  [Work with folders](../vsto/working-with-folders.md)   
  [How to: Programmatically retrieve a folder by name](../vsto/how-to-programmatically-retrieve-a-folder-by-name.md)   
  [How to: Programmatically create custom folder items](../vsto/how-to-programmatically-create-custom-folder-items.md)  
-  
-  

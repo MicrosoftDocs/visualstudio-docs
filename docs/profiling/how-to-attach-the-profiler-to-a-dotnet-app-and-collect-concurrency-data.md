@@ -2,7 +2,6 @@
 title: "Attach the profiler to a .NET app to collect concurrency data | Microsoft Docs"
 ms.custom: "seodec18"
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: fdd41576-797e-4312-8520-fee7bb767e4a
 author: "mikejo5000"

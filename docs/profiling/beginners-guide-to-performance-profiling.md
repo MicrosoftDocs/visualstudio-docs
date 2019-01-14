@@ -3,7 +3,6 @@ title: "Measure CPU usage in your apps"
 description: "Analyze CPU performance issues in your application using the debugger-integrated diagnostics tools."
 ms.custom: "seodec18"
 ms.date: "02/27/2017"
-ms.technology: "vs-ide-debug"
 ms.topic: "tutorial"
 f1_keywords: 
   - "vs.performance.wizard.intropage"

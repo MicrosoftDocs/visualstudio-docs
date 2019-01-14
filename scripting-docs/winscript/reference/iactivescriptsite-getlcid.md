@@ -24,7 +24,7 @@ Retrieves the locale identifier associated with the host's user interface. The s
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetLCID(  
     LCID *plcid  // address of variable for language identifier  
 );  

@@ -24,7 +24,7 @@ Handles a custom application event.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT onDebuggerEvent(  
    REFIID     riid,  
    IUnknown*  punk  

@@ -1,8 +1,6 @@
 ---
 title: "Walkthrough: Using Graphics Diagnostics to Debug a Compute Shader | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: 69287456-644b-4aff-bd03-b1bbb2abb82a
 author: "mikejo5000"

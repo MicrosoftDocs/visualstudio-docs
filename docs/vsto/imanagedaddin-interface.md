@@ -1,9 +1,6 @@
 ---
 title: "IManagedAddin interface"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -83,5 +80,3 @@ interface IManagedAddin : IUnknown
   
 ## See also  
  [Unmanaged API reference &#40;Office development in Visual Studio&#41;](../vsto/unmanaged-api-reference-office-development-in-visual-studio.md)  
-  
-  

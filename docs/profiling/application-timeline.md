@@ -2,7 +2,6 @@
 title: "Analyze resource consumption in XAML apps"
 ms.custom: "seodec18"
 ms.date: "11/01/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: df7d854b-0a28-45a9-8a64-c015a4327701
 author: "mikejo5000"

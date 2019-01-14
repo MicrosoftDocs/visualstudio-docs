@@ -24,7 +24,7 @@ Returns a range of characters that were added by using the `IDebugDocumentHelper
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetDeferredText(  
    DWORD              dwTextStartCookie,  
    WCHAR*             pcharText,  

@@ -24,7 +24,7 @@ Terminates an advisory connection previously established through `ISimpleConnect
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Unadvise(  
    DWORD  dwCookie  
 );  

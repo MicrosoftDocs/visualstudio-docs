@@ -24,7 +24,7 @@ Returns a property browser for the current frame.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetDebugProperty(  
    IDebugProperty**  ppDebugProp  
 );  

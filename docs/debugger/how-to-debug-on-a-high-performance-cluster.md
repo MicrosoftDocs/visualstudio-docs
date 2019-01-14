@@ -1,8 +1,6 @@
 ---
 title: "How to: Debug On a High-Performance Cluster | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
@@ -11,7 +9,7 @@ dev_langs:
   - "C++"
 helpviewer_keywords: 
   - "cluster debugging"
-  - "high-perfomance debugging"
+  - "high-performance debugging"
 ms.assetid: a2f0eb07-840e-4f95-a1b1-9509217e5b8f
 author: "mikejo5000"
 ms.author: "mikejo"
@@ -19,7 +17,8 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Debug On a High-Performance Cluster
+# How to: Debug On a High-Performance Cluster (C#, Visual Basic, C++)
+
 Debugging a multiprocessing program on a high-performance cluster is like debugging an ordinary program on a remote computer. However, there are some additional considerations. For general remote setup requirements, see [Remote Debugging](../debugger/remote-debugging.md).  
   
  When you debug on a high-performance cluster, you can use all the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugging windows and techniques that are available for remote debugging. Because you are debugging remotely, however, the external console window is not available.  
@@ -30,7 +29,7 @@ Debugging a multiprocessing program on a high-performance cluster is like debugg
   
  When you debug a parallel application, you might want to set a breakpoint on a particular thread, process, or computer. You can do this by creating a normal breakpoint, and then adding a breakpoint filter.  
   
-### To open the Breakpoint Filter dialog box  
+### To open the Breakpoint Filter dialog box
   
 1.  Right-click a breakpoint glyph in a source window, the **Disassembly** window, the **Call Stack** window, or the **Breakpoints** window.  
   

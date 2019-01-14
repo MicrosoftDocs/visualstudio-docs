@@ -22,7 +22,7 @@ Starts profiling on the scripting engine. The scripting engine creates an instan
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT StartProfiling(  
     [in] REFCLSID clsidProfilerObject,  
     [in] DWORD dwEventMask,  
