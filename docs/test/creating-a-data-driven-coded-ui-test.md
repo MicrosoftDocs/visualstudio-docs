@@ -58,11 +58,11 @@ This sample creates a coded UI test that runs on the Windows Calculator applicat
    }
    ```
 
-5. Use the `AddNumbers()` method to verify that the test runs. Place the cursor in the test method shown above, open the context menu, and choose **Run Tests**. (Keyboard shortcut: **Ctrl**+**R**,**T**).
+5. Use the `AddNumbers()` method to verify that the test runs. Place the cursor in the test method shown above, open the right-click menu, and choose **Run Tests**. (Keyboard shortcut: **Ctrl**+**R**,**T**).
 
     The test result that shows if the test passed or failed is displayed in the **Test Explorer** window. To open the Test Explorer window, from the **Test** menu, choose **Windows** and then choose **Test Explorer**.
 
-6. Because a data source can also be used for assertion parameter values—which are used by the test to verify expected values—let's add an assertion to validate that the sum of the two numbers is correct. Place the cursor in the test method shown above, open the context menu and choose **Generate Code for Coded UI Test**, and then **Use Coded UI Test Builder**.
+6. Because a data source can also be used for assertion parameter values—which are used by the test to verify expected values—let's add an assertion to validate that the sum of the two numbers is correct. Place the cursor in the test method shown above, open the right-click menu and choose **Generate Code for Coded UI Test**, and then **Use Coded UI Test Builder**.
 
     Map the text control in the calculator that displays the sum.
 
@@ -87,7 +87,7 @@ This sample creates a coded UI test that runs on the Windows Calculator applicat
    }
    ```
 
-9. Verify that the test runs by using the `ValidateSum()` method. Place the cursor in the test method shown above, open the context menu, and choose **Run Tests**. (Keyboard shortcut: **Ctrl**+**R**,**T**).
+9. Verify that the test runs by using the `ValidateSum()` method. Place the cursor in the test method shown above, open the right-click menu, and choose **Run Tests**. (Keyboard shortcut: **Ctrl**+**R**,**T**).
 
      At this point, all the parameter values are defined in their methods as constants. Next, let's create a data set to make our test data-driven.
 

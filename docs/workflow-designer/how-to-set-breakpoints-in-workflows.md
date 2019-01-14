@@ -31,7 +31,7 @@ A breakpoint has three states: *Pending*, *Bound*, and *Error*. When you set a b
 
 2. On the **Debug** menu, select **Toggle Breakpoint**. A red icon will appear at the top left edge of the activity.
 
-   Alternatively, you can press **F9** after selecting the activity, or you can right-click the activity and select **Breakpoint** > **Insert Breakpoint** from the context menu.
+   Alternatively, you can press **F9** after selecting the activity, or you can right-click the activity and select **Breakpoint** > **Insert Breakpoint** from the right-click menu.
 
 ## See also
 

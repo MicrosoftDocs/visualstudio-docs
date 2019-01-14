@@ -33,11 +33,11 @@ Coded UI tests include support for some of the HTML5 controls that are included 
 
 |Action|Recording|Generated Code|
 |-|---------------|-|
-|**Play audio**<br /><br /> Directly from control, or from controls context menu.|Play \<name> Audio from 00:00:00|HtmlAudio.Play(TimeSpan)|
+|**Play audio**<br /><br /> Directly from control, or from control's right-click menu.|Play \<name> Audio from 00:00:00|HtmlAudio.Play(TimeSpan)|
 |**Seek to a specific time in the audio**|Seek \<name> Audio to 00:01:48|HtmlAudio.Seek(TimeSpan)|
-|**Pause audio**<br /><br /> Directly from control, or from controls context menu.|Pause \<name> Audio at 00:01:53|HtmlAudio.Pause(TimeSpan)|
-|**Mute audio**<br /><br /> Directly from control, or from controls context menu.|Mute \<name> Audio|HtmlAudio.Mute()|
-|**Unmute audio**<br /><br /> Directly from control, or from controls context menu.|Unmute \<name> Audio|HtmlAudio.Unmute()|
+|**Pause audio**<br /><br /> Directly from control, or from control's right-click menu.|Pause \<name> Audio at 00:01:53|HtmlAudio.Pause(TimeSpan)|
+|**Mute audio**<br /><br /> Directly from control, or from control's right-click menu.|Mute \<name> Audio|HtmlAudio.Mute()|
+|**Unmute audio**<br /><br /> Directly from control, or from control's right-click menu.|Unmute \<name> Audio|HtmlAudio.Unmute()|
 |**Change volume of audio**|Set volume of \<name> Audio to 79%|HtmlAudio.SetVolume(float)|
 
 See [HTMLAudioElement](https://developer.mozilla.org/docs/Web/API/HTMLAudioElement) for a list of properties on which you can add an assertion.
@@ -57,11 +57,11 @@ See [HTMLAudioElement](https://developer.mozilla.org/docs/Web/API/HTMLAudioEleme
 
 |Action|Recording|Generated Code|
 |-|---------------|-|
-|**Play video**<br /><br /> Directly from control, or from controls context menu.|Play \<name> Video  from 00:00:00|HtmlVideo.Play(TimeSpan)|
+|**Play video**<br /><br /> Directly from control, or from control's right-click menu.|Play \<name> Video  from 00:00:00|HtmlVideo.Play(TimeSpan)|
 |**Seek to a specific time in the video**|Seek \<name> Video to 00:01:48|HtmlVideo.Seek(TimeSpan)|
-|**Pause video**<br /><br /> Directly from control, or from controls context menu.|Pause \<name> Video at 00:01:53|HtmlVideo.Pause(TimeSpan)|
-|**Mute video**<br /><br /> Directly from control, or from controls context menu.|Mute \<name> Video|HtmlVideo.Mute()|
-|**Unmute video**<br /><br /> Directly from control, or from controls context menu.|Unmute \<name> Video|HtmlVideo.Unmute()|
+|**Pause video**<br /><br /> Directly from control, or from control's right-click menu.|Pause \<name> Video at 00:01:53|HtmlVideo.Pause(TimeSpan)|
+|**Mute video**<br /><br /> Directly from control, or from control's right-click menu.|Mute \<name> Video|HtmlVideo.Mute()|
+|**Unmute video**<br /><br /> Directly from control, or from control's right-click menu.|Unmute \<name> Video|HtmlVideo.Unmute()|
 |**Change volume of video**|Set volume of \<name> Video to 79%||
 
 See [HTMLVideoElement](https://developer.mozilla.org/docs/Web/HTML/Element/video) for a list of properties on which you can add an assertion.

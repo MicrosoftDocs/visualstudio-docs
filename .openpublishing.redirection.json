@@ -701,6 +701,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/debugger/more-debugging-features.md",
+            "redirect_url": "/visualstudio/debugger/debugger-feature-tour",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user-can-be-dangerous-if-the-following-information-looks-suspicious-or-you-are-unsure-do-not-attach-to-this-process.md",
             "redirect_url": "/visualstudio/debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user",
             "redirect_document_id": false
@@ -7095,11 +7100,6 @@
         {
             "source_path": "docs/ide/reference/setup-devenv-exe.md",
             "redirect_url": "/visualstudio/extensibility/devenv-command-line-switches-for-vspackage-development",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "docs/ide/reference/useenv-devenv-exe.md",
-            "redirect_url": "/visualstudio/ide/reference/devenv-command-line-switches",
             "redirect_document_id": false
         }
     ]

@@ -21,7 +21,7 @@ Developers often need to view the source code definitions for types or class mem
 
 ## Go To Definition
 
-The **Go To Definition** feature navigates to the source of a type or member, and opens the result in a new tab. If you are a keyboard user, place your text cursor somewhere inside the symbol name and press **F12**. If you are a mouse user, either select **Go To Definition** from the context menu or use the **Ctrl-click** functionality described in the following section.
+The **Go To Definition** feature navigates to the source of a type or member, and opens the result in a new tab. If you are a keyboard user, place your text cursor somewhere inside the symbol name and press **F12**. If you are a mouse user, either select **Go To Definition** from the right-click menu or use the **Ctrl-click** functionality described in the following section.
 
 ### Ctrl-click Go To Definition
 
@@ -35,7 +35,7 @@ You can change the modifier key for mouse-click **Go To Definition** by going to
 
 ## Peek Definition
 
-The **Peek Definition** feature lets you preview the definition of a type without leaving your current location in the editor. If you are a keyboard user, place your text cursor somewhere inside the type or member name and press **Alt + F12**. If you are a mouse user, you can select **Peek Definition** from the context menu. In Visual Studio 2017 version 15.4 and later, there is a new way to peek view a definition by using the mouse. First, go to **Tools** > **Options** > **Text Editor** > **General**. Select the option **Open definition in peek view** and click **OK** to close the **Options** dialog box.
+The **Peek Definition** feature lets you preview the definition of a type without leaving your current location in the editor. If you are a keyboard user, place your text cursor somewhere inside the type or member name and press **Alt + F12**. If you are a mouse user, you can select **Peek Definition** from the right-click menu. In Visual Studio 2017 version 15.4 and later, there is a new way to peek view a definition by using the mouse. First, go to **Tools** > **Options** > **Text Editor** > **General**. Select the option **Open definition in peek view** and click **OK** to close the **Options** dialog box.
 
 ![Setting the mouse-click peek definition option](../ide/media/editor_options_peek_view.png)
 

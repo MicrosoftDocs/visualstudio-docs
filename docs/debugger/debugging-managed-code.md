@@ -80,7 +80,7 @@ Provides links to the larger sections of the debugging documentation. Informatio
 
 ## See also
 
-[Walkthrough: Debugging Custom Windows Forms Controls at Design Time](/dotnet/framework/winforms/controls/walkthrough-debugging-custom-windows-forms-controls-at-design-time)
-[Debugger Security](../debugger/debugger-security.md)
-[Debugging in Visual Studio](../debugger/index.md)
-[Debugger Feature Tour](../debugger/debugger-feature-tour.md)
+[Walkthrough: Debugging Custom Windows Forms Controls at Design Time](/dotnet/framework/winforms/controls/walkthrough-debugging-custom-windows-forms-controls-at-design-time)  
+[Debugger Security](../debugger/debugger-security.md)  
+[Debugging in Visual Studio](../debugger/index.md)  
+[First look at the debugger](../debugger/debugger-feature-tour.md)
