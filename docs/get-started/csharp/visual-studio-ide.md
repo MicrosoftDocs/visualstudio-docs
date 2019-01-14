@@ -298,5 +298,5 @@ Explore Visual Studio further by following along with one of these introductory 
 
 - Discover [more Visual Studio features](../../ide/advanced-feature-overview.md)
 - Visit [visualstudio.microsoft.com](https://visualstudio.microsoft.com/vs/)
-- Read [The Visual Studio blog](https://blogs.msdn.microsoft.com/visualstudio/)
+- Read [The Visual Studio blog](https://devblogs.microsoft.com/visualstudio/)
 - Check out the free Visual Studio courses at [Microsoft Virtual Academy](https://mva.microsoft.com/product-training/visual-studio-courses#!index=2&lang=1033)
