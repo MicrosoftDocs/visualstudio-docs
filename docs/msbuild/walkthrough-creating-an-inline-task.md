@@ -1,8 +1,6 @@
 ---
 title: "Walkthrough: Creating an Inline Task | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: msbuild
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "MSBuild, tutorial"

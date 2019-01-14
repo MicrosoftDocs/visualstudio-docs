@@ -2,7 +2,6 @@
 title: "Walkthrough: Using XSLT IntelliSense"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-xml-tools
 ms.topic: conceptual
 ms.assetid: 079d95ac-2eaf-4ae1-9cd3-2c81a961a942
 author: gewarren

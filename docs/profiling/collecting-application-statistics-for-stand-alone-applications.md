@@ -1,8 +1,6 @@
 ---
 title: "Collecting Application Statistics for Stand-Alone Applications by Using the Profiler Command Line | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "sampling profiling method"
@@ -48,4 +46,3 @@ This section describes the procedures and options for collecting performance sta
   
 ### Analyze sampling data views and reports  
  [Sampling method data views](../profiling/profiler-sampling-method-data-views.md)
-

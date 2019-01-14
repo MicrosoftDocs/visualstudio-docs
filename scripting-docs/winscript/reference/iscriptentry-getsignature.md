@@ -24,7 +24,7 @@ Returns type information for an `IScriptEntry` function object.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetSignature(  
    ITypeInfo          **ppti  
    ULONG              *piMethod  

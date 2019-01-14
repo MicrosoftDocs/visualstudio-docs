@@ -1,9 +1,6 @@
 ---
 title: "Walkthrough: Update a chart in a document using radio buttons"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -213,5 +210,3 @@ ms.workload:
  [Walkthroughs using Word](../vsto/walkthroughs-using-word.md)   
  [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md)   
  [Limitations of Windows Forms controls on Office documents](../vsto/limitations-of-windows-forms-controls-on-office-documents.md)  
-  
-  

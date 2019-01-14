@@ -27,7 +27,7 @@ If you’ve claimed all the available product keys under your subscription and h
 ## Retail and Volume Licensing versions of products
 Visual Studio subscriptions offer a selection of retail and Volume Licensing versions of Microsoft products. Certain products are available from Downloads only in their retail version or only in their Volume Licensing version; some are available in both versions. Generally, products requiring activation, such as Windows, Windows Server, and Office client products, are only offered in their retail version through Downloads.
 
-Volume Licensing customers can also download software from the Volume Licensing Service Center (VSLC) to get Volume Licensing versions of products (and the corresponding product keys).  Access to the VLSC is managed by designated administrators within the customer’s organization.
+Volume Licensing customers can also download software from the Volume Licensing Service Center (VLSC) to get Volume Licensing versions of products (and the corresponding product keys).  Access to the VLSC is managed by designated administrators within the customer’s organization.
 
 ## Daily product key claim limits
 Microsoft is committed to protecting the integrity of the Visual Studio subscriptions program and the value of the software and benefits that the program’s legitimate subscribers receive for their investment. In support of this commitment, Microsoft has implemented daily key claim limits for Visual Studio subscriptions. Daily key claim limits restrict the number of keys that can be claimed per day per subscription.

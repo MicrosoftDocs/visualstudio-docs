@@ -24,7 +24,7 @@ Causes the given string to be displayed by the debugger integrated development e
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT DebugOutput(  
    LPCOLESTR  pstr  
 );  

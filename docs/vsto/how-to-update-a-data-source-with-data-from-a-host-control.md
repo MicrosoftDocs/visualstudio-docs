@@ -1,9 +1,6 @@
 ---
 title: "How to: Update a data source with data from a host control"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -118,5 +115,3 @@ ms.workload:
  [How to: Populate documents with data from objects](../vsto/how-to-populate-documents-with-data-from-objects.md)   
  [How to: Populate documents with data from a database](../vsto/how-to-populate-documents-with-data-from-a-database.md)   
  [How to: Populate documents with data from services](../vsto/how-to-populate-documents-with-data-from-services.md)  
-  
-  

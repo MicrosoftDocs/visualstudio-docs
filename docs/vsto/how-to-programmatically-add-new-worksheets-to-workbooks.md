@@ -1,9 +1,6 @@
 ---
 title: "How to: Programmatically add new worksheets to workbooks"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -13,8 +10,8 @@ helpviewer_keywords:
   - "workbooks, creating worksheets"
   - "worksheets, creating"
   - "worksheets, adding to workbooks"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -50,5 +47,3 @@ ms.workload:
  [Automate Excel by using extended objects](../vsto/automating-excel-by-using-extended-objects.md)   
  [Global access to objects in Office projects](../vsto/global-access-to-objects-in-office-projects.md)   
  [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)  
-  
-  

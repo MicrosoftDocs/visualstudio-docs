@@ -1,8 +1,6 @@
 ---
 title: "Set a Watch on Variables in Parallel Threads | Microsoft Docs"
-ms.custom: ""
 ms.date: "04/25/2017"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.parallelwatch"
@@ -20,7 +18,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Set a Watch on Variables in Parallel Threads in Visual Studio
+# Set a Watch on Variables in Parallel Threads in Visual Studio (C#, Visual Basic, C++)
 In the Parallel Watch window, you can simultaneously display the values that one expression holds on multiple threads. Each row represents a thread that is running in an application, but a thread might be represented in multiple rows. More specifically, each row represents a function call whose function signature matches the function on the current stack frame. You can sort, reorder, remove, and group the items that are in the columns. You can flag, unflag, freeze (suspend), and thaw (resume) threads. The following columns are displayed in the **Parallel Watch** window:  
   
 - The flag column, in which you can mark a thread that you want to pay special attention to.  
@@ -30,7 +28,7 @@ In the Parallel Watch window, you can simultaneously display the values that one
 - A configurable column that can display the machine, process, tile, task, and thread.  
   
   > [!TIP]
-  >  To dislay task information in the **Parallel Watch** window, you must first open the **Task** window.  
+  >  To display task information in the **Parallel Watch** window, you must first open the **Task** window.  
   
 - The blank *add watch* columns, in which you can enter expressions to watch.  
   

@@ -24,7 +24,7 @@ Adds a global expression context provider to this application.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT AddGlobalExpressionContextProvider(  
    IProvideExpressionContexts*  pdsfs,  
    DWORD_PTR*                   pdwCookie  

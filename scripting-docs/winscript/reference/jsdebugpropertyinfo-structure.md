@@ -22,7 +22,7 @@ Indicates information about a property.
   
 ## Syntax  
   
-```  
+```cpp
 typedef struct tagJsDebugPropertyInfo{   BSTR name;   BSTR type;   BSTR value;   BSTR fullName;   JS_PROPERTY_ATTRIBUTES attr;} JsDebugPropertyInfo;  
 ```  
   

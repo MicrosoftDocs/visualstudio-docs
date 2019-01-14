@@ -1,8 +1,6 @@
 ---
 title: "Graphics Frame Analysis | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/09/2017"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.graphics.frameanalysis"
@@ -87,7 +85,7 @@ Use Graphics Frame Analysis in Visual Studio Graphics Analyzer to analyze and op
 #### Statistical significance  
  To bring attention to rendering variations that have the highest relevance, Frame Analysis determines the statistical significance of each rendering variant and displays the significant ones as boldface. It displays the ones that improve performance as green and the ones that reduce performance as red. It displays results that are not statistically significant as normal type.  
   
- ![The statistical relevence of the draw call variant](media/pix_frame_analysis_summary_stats.png "pix_frame_analysis_summary_stats")  
+ ![The statistical relevance of the draw call variant](media/pix_frame_analysis_summary_stats.png "pix_frame_analysis_summary_stats")  
   
  To determine statistical relevance, Frame Analysis uses the [Student's t-test](http://www.wikipedia.org/wiki/Student%27s_t-test).  
   

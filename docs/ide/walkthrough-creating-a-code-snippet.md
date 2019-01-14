@@ -2,7 +2,6 @@
 title: "Walkthrough: Create a code snippet"
 ms.date: 10/27/2017
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:
   - "code snippets, creating"
@@ -74,7 +73,7 @@ You can create a code snippet with only a few steps. All you need to do is creat
 
      *%USERPROFILE%\Documents\Visual Studio 2017\Code Snippets\Visual Basic\My Code Snippets*
 
-6.  Test your snippet by opening a Visual Basic project and opening a code file. In the file choose **Snippets** > **Insert Snippet** from the context menu, then **My Code Snippets**. You should see a snippet named **My Visual Basic Code Snippet**. Double-click it.
+6.  Test your snippet by opening a Visual Basic project and opening a code file. In the file choose **Snippets** > **Insert Snippet** from the right-click menu, then **My Code Snippets**. You should see a snippet named **My Visual Basic Code Snippet**. Double-click it.
 
     `Console.WriteLine("Hello, World!")` is inserted in the code file.
 

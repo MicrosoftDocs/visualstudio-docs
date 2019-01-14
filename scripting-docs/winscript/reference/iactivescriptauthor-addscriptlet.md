@@ -24,7 +24,7 @@ Adds a code scriptlet as a child of the root level `IScriptNode` object. In the 
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT AddScriptlet(  
    LPCOLESTR pszDefaultName,  
    LPCOLESTR pszCode,  

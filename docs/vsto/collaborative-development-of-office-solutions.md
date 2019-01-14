@@ -1,9 +1,6 @@
 ---
 title: "Collaborative development of Office solutions"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -43,5 +40,3 @@ ms.workload:
  [Secure Office solutions](../vsto/securing-office-solutions.md)   
  [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)   
  [Build Office solutions](../vsto/building-office-solutions.md)  
-  
-  

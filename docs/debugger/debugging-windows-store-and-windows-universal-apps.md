@@ -2,7 +2,6 @@
 title: "Debug UWP apps | Microsoft Docs"
 ms.custom: "seodec18"
 ms.date: "01/17/2017"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
@@ -28,4 +27,4 @@ The Visual Studio debugger provides complete support for debugging UWP apps. See
 
   
 ## See Also  
- [Analyze code quality using static code analysis](../test/analyze-the-code-quality-of-store-apps-using-visual-studio-static-code-analysis.md)
+ [Analyze code quality using static code analysis](/visualstudio/code-quality/code-analysis-for-managed-code-overview)

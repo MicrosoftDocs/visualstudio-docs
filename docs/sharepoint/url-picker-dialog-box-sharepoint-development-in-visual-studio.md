@@ -1,9 +1,6 @@
 ---
 title: "URL Picker Dialog Box (SharePoint development in Visual Studio) | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VS.SharePointTools.VWD.URLPicker"
@@ -56,4 +53,3 @@ ms.workload:
  [Create application pages for SharePoint](../sharepoint/creating-application-pages-for-sharepoint.md)   
  [Create web parts for SharePoint](../sharepoint/creating-web-parts-for-sharepoint.md)   
  [Create reusable controls for web parts or application pages](../sharepoint/creating-reusable-controls-for-web-parts-or-application-pages.md)   
-  

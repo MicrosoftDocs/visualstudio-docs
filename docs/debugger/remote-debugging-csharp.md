@@ -2,7 +2,6 @@
 title: "Remote Debug a C# or VB project | Microsoft Docs"
 ms.custom: ['remotedebugging"=', 'seodec18']
 ms.date: "08/14/2017"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -103,7 +102,7 @@ The debugger cannot deploy Visual C# or Visual Basic desktop applications to a r
   
 ## See Also  
  [Debugging in Visual Studio](../debugger/index.md)  
- [Debugger Feature Tour](../debugger/debugger-feature-tour.md)   
+ [First look at the debugger](../debugger/debugger-feature-tour.md)   
  [Configure the Windows Firewall for Remote Debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md)   
  [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md)   
  [Remote Debugging ASP.NET on a Remote IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md)  

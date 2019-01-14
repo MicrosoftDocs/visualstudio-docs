@@ -1,8 +1,6 @@
 ---
 title: "Launch | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: f81bde5c-3394-4b79-a315-c2f6491689b3
 author: "mikejo5000"

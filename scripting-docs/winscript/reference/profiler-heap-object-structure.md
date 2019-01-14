@@ -18,7 +18,7 @@ Represents the heap objects gathered by [IActiveScriptProfilerControl3::EnumHeap
   
 ## Syntax  
   
-```  
+```cpp
 typedef struct _PROFILER_HEAP_OBJECT  
 {  
     UINT size;    union {        PROFILER_HEAP_OBJECT_ID objectId;        PROFILER_EXTERNAL_OBJECT_ADDRESS externalObjectAddress;    };    PROFILER_HEAP_OBJECT_NAME_ID typeNameId;    USHORT flags;     USHORT optionalInfoCount;} PROFILER_HEAP_OBJECT;  

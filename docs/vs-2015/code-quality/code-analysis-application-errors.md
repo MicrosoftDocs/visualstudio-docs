@@ -2,8 +2,7 @@
 title: Code Analysis Application Errors
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.technology:
-  - "vs-devops-test"
+ms.technology: "vs-devops-test"
 ms.topic: reference
 helpviewer_keywords:
   - "errors [Visual Studio ALM], code analysis"

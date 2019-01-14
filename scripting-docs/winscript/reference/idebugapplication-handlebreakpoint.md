@@ -24,7 +24,7 @@ Causes the current thread to block and sends a notification of the breakpoint to
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT HandleBreakPoint(  
    BREAKREASON         br,  
    BREAKRESUMEACTION*  pbra  

@@ -1,8 +1,6 @@
 ---
 title: "How to: Configure Targets and Tasks | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: msbuild
 ms.topic: "conceptual"
 ms.assetid: 92814100-392a-471d-96fd-e26f637d6cc2
 author: mikejo5000

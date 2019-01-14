@@ -1,9 +1,6 @@
 ---
 title: "How to: Programmatically create new workbooks"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -11,8 +8,8 @@ dev_langs:
 helpviewer_keywords: 
   - "Excel [Office development in Visual Studio], creating workbooks"
   - "workbooks, creating"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -44,5 +41,3 @@ ms.workload:
  [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)   
  [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)   
  [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)  
-  
-  

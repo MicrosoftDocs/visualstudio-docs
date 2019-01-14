@@ -1,8 +1,6 @@
 ---
 title: "How to: Profile JavaScript Code in Web Pages | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "JavaScript performance profiling"

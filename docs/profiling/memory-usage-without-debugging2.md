@@ -2,7 +2,6 @@
 title: "Analyze memory usage without debugging | Microsoft Docs"
 ms.custom: "H1Hack27Feb2017"
 ms.date: "11/15/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"

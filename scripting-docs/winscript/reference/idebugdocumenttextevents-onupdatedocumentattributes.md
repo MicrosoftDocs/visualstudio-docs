@@ -24,7 +24,7 @@ Indicates that the document attributes changed.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT onUpdateDocumentAttributes(  
    TEXT_DOC_ATTR  textdocattr  
 );  

@@ -1,9 +1,7 @@
 ---
 title: "Step 2: Run your program"
-ms.custom: ""
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.assetid: 9a8fe90e-c97b-4e98-b6c8-0c6b3962c49d

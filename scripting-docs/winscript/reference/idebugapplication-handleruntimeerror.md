@@ -24,7 +24,7 @@ Causes the current thread to block and sends a notification of the error to the 
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT HandleRuntimeError(  
    IActiveScriptErrorDebug*  pErrorDebug,  
    IActiveScriptSite*        pScriptSite,  

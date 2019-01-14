@@ -1,9 +1,6 @@
 ---
 title: "How to: Target Office applications through primary interop assemblies"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -53,5 +50,3 @@ ms.workload:
  [Write code in Office solutions](../vsto/writing-code-in-office-solutions.md)   
  [Develop Office solutions](../vsto/developing-office-solutions.md)   
  [How to: Install Office primary interop assemblies](../vsto/how-to-install-office-primary-interop-assemblies.md)  
-  
-  

@@ -8,7 +8,6 @@ manager: douge
 ms.workload:
   - "multiple"
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # How to: Open a Model from File in Program Code
 You can open DSL models in any application.

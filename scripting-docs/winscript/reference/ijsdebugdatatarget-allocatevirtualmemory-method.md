@@ -22,7 +22,7 @@ Reserves and/or commits a region of memory within the virtual address space of t
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT AllocateVirtualMemory(  
    UINT64 address,  
    DWORD size,  

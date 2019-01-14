@@ -24,7 +24,7 @@ Handles a breakpoint event.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT onHandleBreakPoint(  
    IRemoteDebugApplicationThread*  prpt,  
    BREAKREASON                     br,  

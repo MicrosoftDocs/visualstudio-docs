@@ -24,7 +24,7 @@ Removes text from the document.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT RemoveText(  
    ULONG  cCharacterPosition,  
    ULONG  cNumToRemove  

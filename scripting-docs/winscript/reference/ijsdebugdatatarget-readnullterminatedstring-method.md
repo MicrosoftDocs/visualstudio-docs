@@ -22,7 +22,7 @@ Reads the specified number of characters from the target.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT ReadNullTerminatedString(  
    UINT64 address,  
    UINT16 characterSize,  

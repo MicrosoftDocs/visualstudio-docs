@@ -1,5 +1,5 @@
 ---
-title: "Intellitrace data"
+title: "IntelliTrace data"
 ms.date: 10/13/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -12,7 +12,6 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ---
 # How to: Collect IntelliTrace data to help debug difficult issues
 
@@ -56,7 +55,7 @@ Before you perform the steps in this procedure, you must open your test settings
      This proxy enables you to collect information about the http calls from a client to a web server for the IntelliTrace and Test Impact diagnostic data adapters.
 
     > [!WARNING]
-    > If you decide to use a custom account for the identity that is being used for the application pool on the Internet Information Server (IIS) where you intend to collect Intellitrace data, you must create the local user profile on the IIS machine for the custom account that is being used. You can create the local profile for the custom account either by logging on to the IIS machine locally one time or by running the following command line by using the custom account credentials:
+    > If you decide to use a custom account for the identity that is being used for the application pool on the Internet Information Server (IIS) where you intend to collect IntelliTrace data, you must create the local user profile on the IIS machine for the custom account that is being used. You can create the local profile for the custom account either by logging on to the IIS machine locally one time or by running the following command line by using the custom account credentials:
     >
     > **runas /user:domain\name /profile cmd.exe**
 

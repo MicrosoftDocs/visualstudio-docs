@@ -2,7 +2,6 @@
 title: "Attach the profiler to an ASP.NET app to collect cncurrency data"
 ms.custom: "seodec18"
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: 0e215fdd-55f8-43ef-9534-06542eefe223
 author: "mikejo5000"

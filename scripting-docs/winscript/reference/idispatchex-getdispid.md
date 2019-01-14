@@ -24,8 +24,8 @@ Maps a single member name to its corresponding DISPID, which can then be used on
   
 ## Syntax  
   
-```  
- HRESULT GetDispID(  
+```cpp
+HRESULT GetDispID(  
    BSTR bstrName,  
    DWORD grfdex,  
    DISPID *pid  
@@ -67,7 +67,7 @@ Maps a single member name to its corresponding DISPID, which can then be used on
   
 ## Example  
   
-```  
+```cpp
 BSTR bstrName;  
    DISPID dispid;  
    IDispatchEx *pdex;   

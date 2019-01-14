@@ -24,7 +24,7 @@ Sets the debug application cookie.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT SetDebugCookie(  
    DWORD  dwDebugAppCookie  
 );  

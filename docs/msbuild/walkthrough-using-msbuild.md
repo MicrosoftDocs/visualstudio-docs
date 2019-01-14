@@ -1,8 +1,6 @@
 ---
 title: "Walkthrough: Using MSBuild | Microsoft Docs"
-ms.custom: ""
 ms.date: "12/18/2018"
-ms.technology: msbuild
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "MSBuild, tutorial"

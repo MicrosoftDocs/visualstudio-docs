@@ -1,9 +1,6 @@
 ---
 title: "Developing SharePoint Solutions | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VS.SharePointTools.Project.ProjectProperties"
@@ -130,5 +127,3 @@ ms.workload:
  [Browse SharePoint connections using Server Explorer](../sharepoint/browsing-sharepoint-connections-using-server-explorer.md)   
  [Build and debug SharePoint solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)   
  [Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)  
-  
-  

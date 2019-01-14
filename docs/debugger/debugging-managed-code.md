@@ -1,8 +1,6 @@
 ---
 title: "Debugging Managed Code | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
@@ -71,7 +69,7 @@ Provides considerations for debugging Windows service applications, including se
 [Debugging and Profiling](/dotnet/framework/debug-trace-profile/index)  
 Discusses debugging .NET Framework applications and the configuration requirements.
 
-[Debugging Script and Web Applications](../debugger/debugging-web-applications-and-script.md)  
+[Debugging Script and Web Applications](/visualstudio/debugger/how-to-enable-debugging-for-aspnet-applications)  
 Describes common debugging problems and techniques you may encounter when debugging script and Web applications.
 
 [What's New for the Debugger in Visual Studio 2015](../debugger/what-s-new-for-the-debugger-in-visual-studio.md)  
@@ -82,7 +80,7 @@ Provides links to the larger sections of the debugging documentation. Informatio
 
 ## See also
 
-[Walkthrough: Debugging Custom Windows Forms Controls at Design Time](/dotnet/framework/winforms/controls/walkthrough-debugging-custom-windows-forms-controls-at-design-time)
-[Debugger Security](../debugger/debugger-security.md)
-[Debugging in Visual Studio](../debugger/index.md)
-[Debugger Feature Tour](../debugger/debugger-feature-tour.md)
+[Walkthrough: Debugging Custom Windows Forms Controls at Design Time](/dotnet/framework/winforms/controls/walkthrough-debugging-custom-windows-forms-controls-at-design-time)  
+[Debugger Security](../debugger/debugger-security.md)  
+[Debugging in Visual Studio](../debugger/index.md)  
+[First look at the debugger](../debugger/debugger-feature-tour.md)

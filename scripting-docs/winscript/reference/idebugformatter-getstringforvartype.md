@@ -24,7 +24,7 @@ Returns a string that represents the given VARTYPE value.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetStringForVarType(  
    VARTYPE    vt,  
    TYPEDESC*  ptdescArrayType,  

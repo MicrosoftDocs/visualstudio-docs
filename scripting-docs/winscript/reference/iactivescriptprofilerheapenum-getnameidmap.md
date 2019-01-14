@@ -18,7 +18,7 @@ Returns the string names corresponding to [PROFILER_HEAP_OBJECT_NAME_ID Type](..
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetNameIdMap (    [out, size_is(,*pcelt)] LPCWSTR* pNameList[],     [out] UINT *pcelt);  
 ```  
   

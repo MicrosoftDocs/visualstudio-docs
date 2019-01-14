@@ -1,9 +1,7 @@
 ---
 title: "Debug a Node.js app"
 description: Visual Studio provides support for debugging Node.js applications in Visual Studio
-ms.custom: ""
 ms.date: "12/03/2018"
-ms.technology: vs-nodejs
 ms.topic: "conceptual"
 ms.devlang: javascript
 author: "mikejo5000"
@@ -106,7 +104,7 @@ Visual Studio has the capability to use and generate source maps on JavaScript s
 * In a JavaScript project, you need to generate source maps using a bundler like webpack and a compiler like the TypeScript compiler (or Babel), which you can add to your project. For the TypeScript compiler, you must also add a *tsconfig.json* file. For an example that shows how to do this using a basic webpack configuration, see [Create a Node.js app with React](../javascript/tutorial-nodejs-with-react-and-jsx.md).
 
 > [!NOTE]
-> If you are new to source maps, please read [Introduction to JavaScript Source Maps](https://www.html5rocks.com/en/tutorials/developertools/sourcemaps/) before before continuing.
+> If you are new to source maps, please read [Introduction to JavaScript Source Maps](https://www.html5rocks.com/en/tutorials/developertools/sourcemaps/) before continuing.
 
 To configure advanced settings for source maps, use either a *tsconfig.json* or the project settings in a TypeScript project, but not both.
 

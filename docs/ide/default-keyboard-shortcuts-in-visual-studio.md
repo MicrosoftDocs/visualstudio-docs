@@ -2,7 +2,6 @@
 title: Default keyboard shortcuts
 ms.date: 06/26/2017
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 helpviewer_keywords:
   - "shortcut keys [Visual Studio], keyboard binding schemes"

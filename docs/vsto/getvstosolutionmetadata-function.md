@@ -1,9 +1,6 @@
 ---
 title: "GetVstoSolutionMetadata function"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -36,5 +33,3 @@ HRESULT WINAPI GetVstoSolutionMetadata(
   
 ## Return value  
  If the function succeeds, it returns **S_OK**. If the function fails, it returns an error code.  
-  
-  

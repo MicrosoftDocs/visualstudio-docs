@@ -1,8 +1,6 @@
 ---
 title: "Debugging Web Applications | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
@@ -33,8 +31,7 @@ This section explains how to debug several types of Web applications.
  Describes the steps that are required to enable debugging of [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] applications.  
   
 ## See Also  
- [Debugging Web Applications and Script](../debugger/debugging-web-applications-and-script.md)   
- [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)   
- [First look at the debugger](../debugger/debugger-feature-tour.md)
- [Debugging in Visual Studio](../debugger/index.md)  
- [Debugger Feature Tour](../debugger/debugger-feature-tour.md)
+ [Debugging Web Applications and Script](/visualstudio/debugger/how-to-enable-debugging-for-aspnet-applications)  
+ [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)  
+ [First look at the debugger](../debugger/debugger-feature-tour.md)  
+ [Debugging in Visual Studio](../debugger/index.md)

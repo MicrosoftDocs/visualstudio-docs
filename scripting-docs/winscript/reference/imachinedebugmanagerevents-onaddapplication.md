@@ -24,7 +24,7 @@ Handles the event when an application is added to the running application list.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT onAddApplication(  
    IRemoteDebugApplication*  pda,  
    DWORD                     dwAppCookie  

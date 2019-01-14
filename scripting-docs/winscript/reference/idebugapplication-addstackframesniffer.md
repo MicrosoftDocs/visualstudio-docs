@@ -24,7 +24,7 @@ Adds a stack frame enumerator provider to this application.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT AddStackFrameSniffer(  
    IDebugStackFrameSniffer*  pdsfs,  
    DWORD*                    pdwCookie  

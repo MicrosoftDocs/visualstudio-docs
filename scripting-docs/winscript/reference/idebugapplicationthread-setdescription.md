@@ -24,7 +24,7 @@ Sets the description of this thread.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT SetDescription(  
    LPCOLESTR  pstrDescription  
 );  

@@ -24,7 +24,7 @@ Suspends the thread.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Suspend(  
    DWORD*  pdwCount  
 );  

@@ -18,7 +18,7 @@ Provides routines for inspecting and controlling the target process.
   
 ## Syntax  
   
-```  
+```cpp
 IJsDebugProcess : public IUnknown;  
 ```  
   

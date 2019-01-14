@@ -1,9 +1,6 @@
 ---
 title: "How to: Programmatically add headers and footers to documents"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -13,8 +10,8 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], adding headers"
   - "documents [Office development in Visual Studio], adding footers"
   - "footers, adding to documents"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -70,4 +67,3 @@ ms.workload:
  [How to: Programmatically create new documents](../vsto/how-to-programmatically-create-new-documents.md)   
  [How to: Programmatically extend ranges in documents](../vsto/how-to-programmatically-extend-ranges-in-documents.md)   
  [How to: Programmatically loop through found items in documents](../vsto/how-to-programmatically-loop-through-found-items-in-documents.md)  
-   

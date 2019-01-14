@@ -2,7 +2,6 @@
 title: Suppress code analysis warnings
 ms.date: 12/01/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "source suppression, code analysis"

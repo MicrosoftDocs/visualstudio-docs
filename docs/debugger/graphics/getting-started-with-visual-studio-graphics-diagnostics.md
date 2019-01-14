@@ -2,7 +2,6 @@
 title: "Getting started with graphics diagnostics | Microsoft Docs"
 ms.custom: "seodec18"
 ms.date: "05/26/2017"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 author: "mikejo5000"
 ms.author: "mikejo"

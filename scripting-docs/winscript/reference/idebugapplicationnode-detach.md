@@ -24,7 +24,7 @@ Removes this application node from the project tree.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Detach();  
 ```  
   

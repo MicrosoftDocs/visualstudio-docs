@@ -3,7 +3,6 @@ title: "Workflow Designer - How to: Use the Variable Designer"
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 f1_keywords:
   - "System.Activities.Presentation.View.DesignTimeVariable.UI"
 ms.assetid: 0318dfb0-bf8f-4f92-9b86-ae4c1b2161ad

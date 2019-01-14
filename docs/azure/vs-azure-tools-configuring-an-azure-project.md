@@ -5,7 +5,6 @@ author: ghogen
 manager: douge
 assetId: 609d6965-05cc-47b1-82dc-c76a92d4f295
 ms.prod: visual-studio-dev15
-ms.technology: vs-azure
 ms.custom: vs-azure
 ms.workload: azure-vs
 ms.topic: conceptual
@@ -43,4 +42,3 @@ You can configure an Azure cloud service project, depending on your requirements
 
 ## Next steps
 - [Configure an Azure project using multiple service configurations](vs-azure-tools-multiple-services-project-configurations.md)
-

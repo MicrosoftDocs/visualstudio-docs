@@ -5,8 +5,7 @@ ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
+ms.technology: "vs-devops-test"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords:
@@ -85,6 +84,3 @@ csc /r:ThrowNonClsCompliantException.dll CatchNonClsCompliantException.cs
  [Ilasm.exe (IL Assembler)](http://msdn.microsoft.com/library/4ca3a4f0-4400-47ce-8936-8e219961c76f)
  [Overriding Security Checks](http://msdn.microsoft.com/en-us/4acdeff5-fc05-41bf-8505-7387cdbfca28)
  [Language Independence and Language-Independent Components](http://msdn.microsoft.com/library/4f0b77d0-4844-464f-af73-6e06bedeafc6)
-
-
-

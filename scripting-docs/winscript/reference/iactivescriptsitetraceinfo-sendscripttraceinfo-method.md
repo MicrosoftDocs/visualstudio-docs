@@ -18,7 +18,7 @@ Sends trace information that includes the event type, context, and the script st
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT SendScriptTraceInfo(     [in] SCRIPTTRACEINFO stiEventType,     [in] GUID guidContextID,     [in] DWORD dwScriptContextCookie,     [in] LONG lScriptStatementStart,     [in] LONG lScriptStatementEnd,     [in] DWORD64 dwReserved );   
 ```  
   

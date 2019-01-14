@@ -1,8 +1,6 @@
 ---
 title: "How to: Flag and Unflag Threads | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
@@ -18,12 +16,13 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Flag and Unflag Threads
+# How to: Flag and Unflag Threads (C#, Visual Basic, C++)
+
 You can flag a thread that you want to give special attention by marking it with an icon in the **Threads**, **Parallel Stacks** (thread view), **Parallel Watch**, and **GPU Threads** windows. This icon can help you and others distinguish flagged threads from other threads.  
   
 Flagged threads also receive special treatment in the **Thread** list on the **Debug Location** toolbar and in the other multithreaded debugging windows. You can show all threads or only flagged threads in the **Thread** list or in the other windows.
   
-### To flag or unflag a thread 
+### To flag or unflag a thread
   
 - In the **Threads** or **Parallel Watch** window, find the thread you are interested in and click the flag icon to select or clear the flag. 
 - In the **Parallel Stacks** window, right-click on a thread or group of threads and select **Flag / <thread>** or **Unflag / <thread>**.

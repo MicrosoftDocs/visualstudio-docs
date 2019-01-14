@@ -24,7 +24,7 @@ Sets the property that is specified by the parameter.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT SetProperty(  
 // The property value:  
     uint dwProperty,    

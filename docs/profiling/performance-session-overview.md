@@ -1,8 +1,6 @@
 ---
 title: "Performance Session Overview | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Profiling Tools, performance session"
@@ -71,4 +69,4 @@ This overview explains the basics of profiling. Developers who are new to perfor
   
 ## See also  
  [Overviews](../profiling/overviews-performance-tools.md)   
- [Walkthrough: Identify performance problems](../profiling/walkthrough-identifying-performance-problems.md)
+ [Walkthrough: Identify performance problems](/visualstudio/profiling/beginners-guide-to-cpu-sampling)

@@ -1,13 +1,8 @@
 ---
 title: "How to: Create a User Control for a SharePoint Application Page or Web Part | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
-  - "VB"
-  - "CSharp"
   - "VB"
   - "CSharp"
 helpviewer_keywords: 
@@ -55,4 +50,3 @@ ms.workload:
  [Create reusable controls for web parts or application pages](../sharepoint/creating-reusable-controls-for-web-parts-or-application-pages.md)   
  [Create application pages for SharePoint](../sharepoint/creating-application-pages-for-sharepoint.md)   
  [Create web parts for SharePoint](../sharepoint/creating-web-parts-for-sharepoint.md)  
-  

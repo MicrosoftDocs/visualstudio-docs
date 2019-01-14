@@ -21,7 +21,7 @@ After you install the current release of the Azure Tools (or a previous release 
 ## How your project changes when you upgrade it
 If a project is automatically upgraded or you specify that you want to upgrade it, your project is modified to work with current versions of certain assemblies, and some properties are also changed as this section describes. If your project requires other changes to be compatible with the newer version of the tools, you must make those changes manually.
 
-* The web.config file for web roles and the app.config file for worker roles are updated to reference the newer version of Microsoft.WindowsAzure.Diagnostics.DiagnosticMonitoirTraceListener.dll.
+* The web.config file for web roles and the app.config file for worker roles are updated to reference the newer version of Microsoft.WindowsAzure.Diagnostics.DiagnosticMonitorTraceListener.dll.
 * The Microsoft.WindowsAzure.StorageClient.dll, Microsoft.WindowsAzure.Diagnostics.dll, and Microsoft.WindowsAzure.ServiceRuntime.dll assemblies are upgraded to the new versions.
 * Publish profiles that were stored in the Azure project file (.ccproj) are moved to a separate file, with the extension .azurePubXml, in the **Publish** subdirectory.
 * Some properties in the publish profile are updated to support new and changed features. **AllowUpgrade** is replaced by **DeploymentReplacementMethod** because you can update a deployed cloud service simultaneously or incrementally.

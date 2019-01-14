@@ -1,8 +1,6 @@
 ---
 title: "Debug HTML and CSS in UWP apps | Microsoft Docs"
-ms.custom: ""
 ms.date: "07/17/2017"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VS.WebClient.DomExplorer"
@@ -25,7 +23,7 @@ ms.workload:
   
  Using the interactive debugging model provided by the DOM inspection tools, you can view and modify the rendered HTML and CSS code. You can do all this without stopping and restarting the debugger.
   
- For info on other JavaScript debugging features, such as using the JavaScript Console window and setting breakpoints, see [QuickStart: Debug JavaScript](../debugger/quickstart-debug-javascript-using-the-console.md) and [Debug apps in Visual Studio](../debugger/debug-store-apps-in-visual-studio.md).  
+ For info on other JavaScript debugging features, such as using the JavaScript Console window and setting breakpoints, see [QuickStart: Debug JavaScript](../debugger/quickstart-debug-javascript-using-the-console.md) and [Debug apps in Visual Studio](/visualstudio/debugger/debugging-windows-store-and-windows-universal-apps).  
   
 ##  <a name="InspectingDOM"></a> Inspecting the live DOM  
  DOM Explorer shows you a view of the rendered page, and you can use DOM Explorer to change values and immediately see the results. This enables you to test changes without stopping and restarting the debugger. The source code in your project doesn't change when you interact with the page by using this method, so when you find the desired code corrections, you make the changes to your source code.  
@@ -250,7 +248,7 @@ ms.workload:
 >  Highlighting elements by hovering over them is only partially supported in the Windows Phone Emulator.  
   
 ## See Also  
- [Debug apps in Visual Studio](../debugger/debug-store-apps-in-visual-studio.md)   
+ [Debug apps in Visual Studio](/visualstudio/debugger/debugging-windows-store-and-windows-universal-apps)   
  [Refresh an app (JavaScript)](../debugger/refresh-an-app-javascript.md)   
  [Debug a WebView control](../debugger/debug-a-webview-control.md)   
  [Keyboard shortcuts](../debugger/keyboard-shortcuts-html-and-javascript.md)   

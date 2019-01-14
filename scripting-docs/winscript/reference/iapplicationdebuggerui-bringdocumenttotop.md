@@ -24,7 +24,7 @@ Brings the window containing the specified debug document to the top in the debu
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT BringDocumentToTop(  
    IDebugDocumentText*  pddt  
 );  

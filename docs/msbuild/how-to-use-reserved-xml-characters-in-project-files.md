@@ -1,8 +1,6 @@
 ---
 title: "How to: Use Reserved XML Characters in Project Files | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: msbuild
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "MSBuild, using reserved XML characters"

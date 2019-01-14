@@ -10,7 +10,6 @@ manager: douge
 ms.workload:
   - "multiple"
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Understanding the DSL Code
 A Domain-Specific Language (DSL) solution generates an API that you can use to read and update instances of the DSL in Visual Studio. This API is defined in the code that is generated from the DSL definition. This topic describes the generated API.
@@ -186,7 +185,7 @@ A Domain-Specific Language (DSL) solution generates an API that you can use to r
 
  `CommandSet.cs`
 
- The context menu commands that are visible on the diagram. You can adapt or add to this set. This file contains the code for the commands. The location of the commands on menus is determined by the Commands.vsct file. For more information, see [Writing User Commands and Actions](../modeling/writing-user-commands-and-actions.md).
+ The right-click menu commands that are visible on the diagram. You can adapt or add to this set. This file contains the code for the commands. The location of the commands on menus is determined by the Commands.vsct file. For more information, see [Writing User Commands and Actions](../modeling/writing-user-commands-and-actions.md).
 
  `Constants.cs`
 
@@ -276,7 +275,7 @@ namespace Company.EmbedInForm
 
  `GeneratedVSCT.vsct`
 
- Locates the standard menu commands on menus, such as the diagram context menu, the **Edit** menu, and so on. The code for the commands is in CommandSet.cs. You can relocate or modify the standard commands, and you can add your own commands. For more information, see [Writing User Commands and Actions](../modeling/writing-user-commands-and-actions.md).
+ Locates the standard menu commands on menus, such as the diagram right-click (context) menu, the **Edit** menu, and so on. The code for the commands is in CommandSet.cs. You can relocate or modify the standard commands, and you can add your own commands. For more information, see [Writing User Commands and Actions](../modeling/writing-user-commands-and-actions.md).
 
  `ModelExplorer.cs`
 
@@ -286,7 +285,7 @@ namespace Company.EmbedInForm
 
  If you want the selection in the model explorer to keep synchronized with the diagram selection, you could use the following code:
 
-```
+```csharp
 protected override void OnSelectionChanged(global::System.EventArgs e)
 {
 base.OnSelectionChanged(e);

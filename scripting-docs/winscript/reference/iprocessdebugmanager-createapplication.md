@@ -24,7 +24,7 @@ Creates a new debug application object for this application.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT CreateApplication(  
    IDebugApplication**  ppda  
 );  

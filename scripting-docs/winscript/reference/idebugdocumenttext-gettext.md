@@ -24,7 +24,7 @@ Retrieves the characters and/or the character attributes associated with a chara
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetText(  
    ULONG              cCharacterPosition,  
    WCHAR*             pcharText,  

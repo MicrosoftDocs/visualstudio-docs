@@ -1,8 +1,6 @@
 ---
 title: "VsgDbg Class | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: 6722263c-ccef-40c7-a0ae-87a863fbab00
 author: "mikejo5000"

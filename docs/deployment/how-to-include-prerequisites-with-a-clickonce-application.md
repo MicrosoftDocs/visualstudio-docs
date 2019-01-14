@@ -1,8 +1,6 @@
 ---
 title: "How to: Include Prerequisites with a ClickOnce Application | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 ms.assetid: c66bf0a5-8c93-4e68-a224-3b29ac36fe4d
 author: mikejo5000

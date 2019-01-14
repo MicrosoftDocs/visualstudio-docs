@@ -10,7 +10,6 @@ manager: douge
 ms.workload:
   - "multiple"
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Develop tests from a model
 You can use requirements and architectural models to help you organize the tests of your system and its components. This practice helps ensure that you test the requirements that are important to the users and other stakeholders, and it helps you update the tests quickly when the requirements change. If you use [!INCLUDE[TCMext](../misc/includes/tcmext_md.md)], you can also maintain links between the models and the tests.

@@ -4,7 +4,6 @@ titleSuffix: ""
 ms.custom: seodec18
 ms.date: 12/10/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 ms.assetid: b9531c25-e4cf-43ae-b331-a9f31a8cd171
 author: TerryGLee

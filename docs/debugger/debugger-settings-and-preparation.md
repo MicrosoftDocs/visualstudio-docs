@@ -1,8 +1,6 @@
 ---
 title: "Debugger Settings and Preparation | Microsoft Docs"
-ms.custom: ""
 ms.date: "08/01/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "reference"
 f1_keywords: 
   - "vs.debug"
@@ -48,4 +46,4 @@ This section describes the debugger-related property settings, and the preparati
 ## See Also  
  [Debugger Security](../debugger/debugger-security.md)  
  [Debugging in Visual Studio](../debugger/index.md)  
- [Debugger Feature Tour](../debugger/debugger-feature-tour.md)
+ [First look at the debugger](../debugger/debugger-feature-tour.md)

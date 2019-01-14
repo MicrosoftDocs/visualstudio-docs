@@ -20,7 +20,7 @@ Gets optional information on the specified object (from the set of heap objects 
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetOptionalInfo (    [in] PROFILER_HEAP_OBJECT* heapObject,    [in] ULONG celt,    [out, size_is(celt)] PROFILER_HEAP_OBJECT_OPTIONAL_INFO* optionalInfo);  
 ```  
   

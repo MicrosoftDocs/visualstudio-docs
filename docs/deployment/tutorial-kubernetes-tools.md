@@ -1,8 +1,6 @@
 ---
 title: "Kubernetes tools tutorial | Microsoft Docs"
-ms.custom: ""
 ms.date: "06/08/2018"
-ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 author: ghogen
 ms.author: ghogen

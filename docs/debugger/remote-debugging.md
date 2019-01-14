@@ -2,7 +2,6 @@
 title: "Remote debugging | Microsoft Docs"
 ms.custom: ['remotedebugging', 'seodec18']
 ms.date: "07/02/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.debug.remote.overview"
@@ -115,7 +114,7 @@ For debugging in ASP.NET and other server environments, you must either run the 
 
 ## See also
 
-- [Debugger Feature Tour](../debugger/debugger-feature-tour.md)
+- [First look at the debugger](../debugger/debugger-feature-tour.md)
 - [Configure the Windows Firewall for Remote Debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md)
 - [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md)
 - [Remote Debugging ASP.NET Core on a Remote IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md)

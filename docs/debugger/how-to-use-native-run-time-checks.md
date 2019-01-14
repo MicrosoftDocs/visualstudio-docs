@@ -1,8 +1,6 @@
 ---
 title: "How to: Use Native Run-Time Checks | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "c.runtime.errorchecks"
@@ -75,6 +73,6 @@ In Visual C++, you can use native [runtime_checks](/cpp/preprocessor/runtime-che
   
 ## See Also  
  [Debugging in Visual Studio](../debugger/index.md)  
- [Debugger Feature Tour](../debugger/debugger-feature-tour.md)   
+ [First look at the debugger](../debugger/debugger-feature-tour.md)   
  [runtime_checks](/cpp/preprocessor/runtime-checks)   
  [Run-Time Error Checking](/cpp/c-runtime-library/run-time-error-checking)

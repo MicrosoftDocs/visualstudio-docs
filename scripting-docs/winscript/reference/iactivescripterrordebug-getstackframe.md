@@ -24,7 +24,7 @@ Provides the stack frame that is in effect for runtime errors.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetStackFrame(  
    IDebugStackFrame**  ppdsf  
 );  

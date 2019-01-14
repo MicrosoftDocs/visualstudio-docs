@@ -22,7 +22,7 @@ Notifies the profiler object that the scripting engine is about to execute a fun
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT OnFunctionEnter(  
     [in] PROFILER_TOKEN scriptId,   
     [in] PROFILER_TOKEN functionId);  

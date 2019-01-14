@@ -1,9 +1,6 @@
 ---
 title: "How to: Retrieve the SharePoint Project Service | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -100,4 +97,3 @@ ms.workload:
  [Use the SharePoint project service](../sharepoint/using-the-sharepoint-project-service.md)   
  [How to: Get a service](../extensibility/how-to-get-a-service.md)   
  [How to: Use wizards with project templates](../extensibility/how-to-use-wizards-with-project-templates.md)  
-  

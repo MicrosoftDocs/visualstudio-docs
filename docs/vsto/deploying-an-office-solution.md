@@ -1,9 +1,6 @@
 ---
 title: "Deploy an Office solution"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -44,5 +41,3 @@ ms.workload:
  [Deploy an Office solution by using ClickOnce](../vsto/deploying-an-office-solution-by-using-clickonce.md)   
  [Deploy an Office solution by using Windows Installer](../vsto/deploying-an-office-solution-by-using-windows-installer.md)   
  [Troubleshoot Office solution deployment](../vsto/troubleshooting-office-solution-deployment.md)  
-  
-  
