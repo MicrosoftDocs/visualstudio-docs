@@ -32,7 +32,7 @@ This property contains the CLSID of an interface in the Office solution loader c
 
 This property contains a string that provides details about the deployment manifest for the customization. For more information about manifests, see [Application and deployment manifests in Office solutions](../vsto/application-and-deployment-manifests-in-office-solutions.md).
 
- The _AssemblyLocation property value can have different formats, depending on how the solution is deployed:
+ The \_AssemblyLocation property value can have different formats, depending on how the solution is deployed:
 
 - If the solution is published to be installed from a Web site, UNC path, or a CD or USB drive, the _AssemblyLocation property has the format *DeploymentManifestPath*|*SolutionID*. The following string is an example:
 
