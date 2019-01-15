@@ -1,4 +1,4 @@
-- name: Node.js in Visual Studio
+- name: JavaScript in Visual Studio
   href: index.yml
 - name: Overview
   items:
@@ -22,20 +22,20 @@
   items:
   - name: Write and edit code
     href: write-and-edit-code.md
+  - name: Create a Vue.js application
+    href: create-application-with-vuejs.md
   - name: Manage npm packages
     href: npm-package-management.md
   - name: Develop without projects or solutions ("Open Folder")
     href: develop-javascript-code-without-solutions-projects.md
   - name: Use the Node.js interactive REPL
     href: nodejs-interactive-repl.md
-  - name: Debug a Node.js application
-    href: debug-nodejs.md
-  - name: Unit testing JavaScript and TypeScript
-    href: unit-testing-javascript-with-visual-studio.md
   - name: JavaScript IntelliSense
     href: /visualstudio/ide/javascript-intellisense?toc=/visualstudio/javascript/toc.json
-  - name: Create a Vue.js application
-    href: create-application-with-vuejs.md
+  - name: Debug a JavaScript application
+    href: debug-nodejs.md
+  - name: Unit testing JavaScript
+    href: unit-testing-javascript-with-visual-studio.md
 - name: Resources
   items:
   - name: package.json configuration
