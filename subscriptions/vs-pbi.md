@@ -15,6 +15,9 @@ searchscope: VS Subscription
 
 Transform your data into rich visuals for you to collect and organize.
 
+> [!Note]
+> This Power BI license is made available to learn about and experiment with Power BI capabilities, in a safe place, without impacting larger Production/Dev/Test environments.  The current offer of Power BI requires the subscriber to create their own tenant to enforce separation. If you need to have a Power BI license associated with your corporate credentials in your company tenant please work with your company admin to purchase and assign a license.
+
 ## Activation steps
 To use Power BI Pro, you’ll need to set up an account or sign in using an existing account.
 1. Sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
@@ -90,8 +93,10 @@ A:  The benefit is free, but activation uses the same system used to process pai
 - Credit card.  If you provide a credit card number, your card will NOT be charged. 
 - Invoice.  If you select "Invoice" as the payment type, you don't need to provide a credit card number.  You can also set the interval to "annual".  That way, you'll receive a single email letting you know that an invoice is ready for you.  The invoice amount will be $0.00.  
 
-### Q:  Is the Power BI Pro benefit included in my subscription licenses for use in a production environment?
-A:  Yes.  
+### Q:  Is the Power BI Pro benefit included in my subscription licensed for use in a production environment?
+A:  Yes, you can use it in a production, with two important caveats:
+- This offer requires installation on its own tenant.  If you need to have a Power BI license associated with your corporate credentials in your company tenant please work with your company admin to purchase and assign a license. 
+- This Power BI Pro benefit cannot be used on government tenants.  
 
 ### Q:  When I try to activate Power BI Pro, I get a message "You already have an account through work".  Can I still use the benefit?
 A:  Yes.  The message indicates that you're logged on to a domain that already has active Office 365 tenants on which you are not an administrator.  To add Power BI Pro to a tenant, you must be an administrator on that tenant.  To resolve this issue, follow these steps to create your own tenant.
