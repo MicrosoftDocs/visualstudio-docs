@@ -1,5 +1,9 @@
 - name: Node.js in Visual Studio
   href: index.yml
+- name: Overview
+  items:
+  - name: JavaScript in Visual Studio 2017
+    href:/javascript-in-vs-2017.md
 - name: Quickstarts
   items:
   - name: Create a Node.js project
@@ -12,7 +16,7 @@
     href: tutorial-nodejs.md
   - name: Create a Node.js app with React
     href: tutorial-nodejs-with-react-and-jsx.md
-  - name: Publish to Linux App Service
+  - name: Publish a Node.js app to Linux App Service
     href: publish-nodejs-app-azure.md
 - name: How-to Guides
   items:
@@ -22,11 +26,11 @@
     href: npm-package-management.md
   - name: Develop without projects or solutions ("Open Folder")
     href: develop-javascript-code-without-solutions-projects.md
-  - name: Use the interactive REPL
+  - name: Use the Node.js interactive REPL
     href: nodejs-interactive-repl.md
   - name: Debug a Node.js application
     href: debug-nodejs.md
-  - name: Unit testing JavaScript code
+  - name: Unit testing JavaScript and TypeScript
     href: unit-testing-javascript-with-visual-studio.md
   - name: JavaScript IntelliSense
     href: /visualstudio/ide/javascript-intellisense?toc=/visualstudio/javascript/toc.json

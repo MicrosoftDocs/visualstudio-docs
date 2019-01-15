@@ -21,9 +21,6 @@ In this short introduction to the code editor in Visual Studio, we'll look at so
 
 This article assumes you're already familiar with JavaScript development. If you aren't, we suggest you look at a tutorial such as [Create a Node.js and Express app](../javascript/tutorial-nodejs.md) first.
 
-> [!TIP]
-> To follow along with this article, make sure you have the JavaScript settings selected for Visual Studio. For information about selecting settings for the integrated development environment (IDE), see [Environment settings](../ide/environment-settings.md). When you import settings, import **JavaScript** settings.
-
 ## Add a new project file
 
 You can use the IDE to add new files to your project.
