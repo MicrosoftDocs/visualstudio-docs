@@ -3,7 +3,7 @@
 - name: Overview
   items:
   - name: JavaScript in Visual Studio 2017
-    href:/javascript-in-vs-2017.md
+    href: javascript-in-vs-2017.md
 - name: Quickstarts
   items:
   - name: Create a Node.js project
