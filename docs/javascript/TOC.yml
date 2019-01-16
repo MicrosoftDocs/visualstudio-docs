@@ -40,5 +40,5 @@
   items:
   - name: package.json configuration
     href: configure-packages-with-package-json.md
-  - name: Wiki page for Node.js tools
-    href: https://github.com/Microsoft/nodejstools
+  - name: Wiki docs for JavaScript and TypeScript
+    href: https://ticehurst.com/jsdocs/articles/
