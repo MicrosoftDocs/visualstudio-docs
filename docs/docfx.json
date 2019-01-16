@@ -137,7 +137,8 @@
     },
     "template": [],
     "xref": [
-      "missingapi.yml"
+      "missingapi.yml",
+      "vs.140.zip"
     ],
     "dest": "vsdocsdocs",
     "groups": {
