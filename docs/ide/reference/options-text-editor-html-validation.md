@@ -22,7 +22,7 @@ Use the **Validation** options page to set preferences for how the HTML editor c
 
    A schema determines which elements, attributes, and capitalization are valid in that schema. It also determines the tags and attributes that are available in IntelliSense.
   
-   Select this option if you want Visual Studio to use the content of the page's **<!DOCTYPE>** declaration and **html** element to determine the schema. For example, if you select this option and the page has the declaration `<!DOCTYPE html>`, Visual Studio uses the HTML5 schema. However, if the **html** tag has an **xmlns** attribute, (such as, `<html xmlns="http://www.w3.org/1999/xhtml">`), Visual Studio uses the XHTML5 schema.
+   Select this option if you want Visual Studio to use the content of the page's **<!DOCTYPE>** declaration and **html** element to determine the schema. For example, if you select this option and the page has the declaration `<!DOCTYPE html>`, Visual Studio uses the HTML5 schema. However, if the **html** tag has an **xmlns** attribute, such as `<html xmlns="http://www.w3.org/1999/xhtml">`, Visual Studio uses the XHTML5 schema.
 
 - **Target when no doctype found**
 

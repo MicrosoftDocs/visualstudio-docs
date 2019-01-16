@@ -35,7 +35,7 @@ These options let you choose whether to display Virtual Projects when a Solution
 
 ## Compile on Save
 
-These options determine whether TypeScript files that are **not** part of the project are automatically compiled. Select the check box and then choose the type of code generation to use.
+These options determine whether TypeScript files that aren't part of the project are automatically compiled. Select the check box and then choose the type of code generation to use.
 
 ### UIElement list
 
