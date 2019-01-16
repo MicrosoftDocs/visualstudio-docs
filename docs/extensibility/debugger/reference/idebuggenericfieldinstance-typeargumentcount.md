@@ -1,9 +1,6 @@
 ---
 title: "IDebugGenericFieldInstance::TypeArgumentCount | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "TypeArgumentCount"
@@ -22,13 +19,13 @@ Returns the number of type parameter arguments for this instance.
   
 ```cpp  
 HRESULT TypeArgumentCount(  
-   ULONG32* pcArgs  
+   ULONG32* pcArgs  
 );  
 ```  
   
 ```csharp  
 int TypeArgumentCount(  
-   ref uint pcArgs  
+   ref uint pcArgs  
 );  
 ```  
   

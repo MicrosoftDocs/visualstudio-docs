@@ -3,7 +3,7 @@ title: Technical Support Benefit
 author: evanwindom
 ms.author: jaunger
 manager: evelynp
-ms.date: 10/03/2017
+ms.date: 12/19/2018
 ms.topic: Get-Started-Article
 description: Learn how to activate the technical support benefit included with your Visual Studio subscription.
 ms.prod: vs-subscription
@@ -14,23 +14,25 @@ searchscope: VS Subscription
 
 Resolve break-fix issues in non-production environments. (Benefit must be activated before you can submit a support request.) Visual Studio Enterprise standard and annual cloud subscriptions receive four incidents, while Visual Studio Professional standard and annual cloud subscriptions receive two incidents.
 
-   > [!NOTE]
-   > Not all subscriptions at a given level are eligible to receive support incidents. Subscriptions acquired through FTE, NFR, MPN, MCT and other programs do not receive support incidents. If your subscription is not eligible to receive technical support incidents, the Technical Support tile will not appear in your available benefits.
-
-   ![Technical Support Benefit Tile](_img\vs-tech-support\vs-tech-support-tile.png)
-
-
-1.	To begin using your Technical Support benefit, click on **Chat to activate** on the Technical Support tile. 
-2.	This will initiate a chat session with a representative who can create your Contract ID and Access ID and provide those to you. 
-3.  To complete the process, you will need to provide the representative with:
-    - The email address you use to sign in to your subscription
-    - The Subscription ID which can be found on the [Subscriptions](https://my.visualstudio.com/subscriptions) tab.
-
-    ![Technical Support Benefit Find Subscription ID](_img\vs-tech-support\vs-tech-support-subID-cropped.png)
+> [!NOTE]
+> Not all subscriptions at a given level are eligible to receive support incidents. Subscriptions acquired through FTE, NFR, MPN, MCT and other programs do not receive support incidents. If your subscription is not eligible to receive technical support incidents, the Technical Support tile will not appear in your available benefits.
+> 
+> [!div class="mx-imgBorder"]
+> ![Technical Support Benefit Tile](_img/vs-tech-support/vs-tech-support-tile.png)
 
 
-    > [!NOTE]
-    > To activate your support account in a language other than English, choose your country from [this list](https://support.microsoft.com/help/14084/activate-support-contract).   
+1. To begin using your Technical Support benefit, click on **Chat to activate** on the Technical Support tile. 
+2. This will initiate a chat session with a representative who can create your Contract ID and Access ID and provide those to you. 
+3. To complete the process, you will need to provide the representative with:
+   - The email address you use to sign in to your subscription
+   - The Subscription ID which can be found on the [Subscriptions](https://my.visualstudio.com/subscriptions) tab.
+
+   > [!div class="mx-imgBorder"]
+   > ![Technical Support Benefit Find Subscription ID](_img/vs-tech-support/vs-tech-support-subID-cropped.png)
+
+
+> [!NOTE]
+> To activate your support account in a language other than English, choose your country from [this list](https://support.microsoft.com/help/14084/activate-support-contract).   
 
 
 ## How to submit an incident
@@ -39,25 +41,28 @@ Once you have your Contract ID and Access ID set up, when you need support you c
 
 ### Submit an incident online
 
-1.  To [submit an incident online](http://support.microsoft.com/oas/), specify the product you need help with. You can either select from the various lists, or search for it by name. To submit an incident for Visual Studio Enterprise 2017, for example, click on **Visual Studio** in the **Developer Tools** group.
-    ![Technical Support Benefit Select Incident Product](_img\vs-tech-support\vs-tech-support-select-product.png)
+1. To [submit an incident online](http://support.microsoft.com/oas/), specify the product you need help with. You can either select from the various lists, or search for it by name. To submit an incident for Visual Studio Enterprise 2017, for example, click on **Visual Studio** in the **Developer Tools** group.
+   > [!div class="mx-imgBorder"]    
+   > ![Technical Support Benefit Select Incident Product](_img/vs-tech-support/vs-tech-support-select-product.png)
 
-2.	Choose the product for which you need support. (For example, click on **Visual Studio Enterprise 2017** in the Visual Studio product list.)
-3.	On the **Create an incident** page, select the applicable problem type from the drop-down list. For our example, we’ll choose **Integrated Development Environment (IDE)**.
-    ![Technical Support Benefit Create Incident](_img\vs-tech-support\vs-tech-support-create-incident.png)
+2. Choose the product for which you need support. (For example, click on **Visual Studio Enterprise 2017** in the Visual Studio product list.)
+3. On the **Create an incident** page, select the applicable problem type from the drop-down list. For our example, we’ll choose **Integrated Development Environment (IDE)**.
+   > [!div class="mx-imgBorder"]    
+   > ![Technical Support Benefit Create Incident](_img/vs-tech-support/vs-tech-support-create-incident.png)
 
-4.	Then choose the **Category** that best fits your question/issue. For our example, we’ll choose **Architect tools.**
-5.	Click **Start Request**.
-6.	On the next page, you’ll be asked to choose a payment option.
-    - Choose **Use my Visual Studio Subscription**.
-    - Click **Use another contract**
-    - Enter your Access ID and Contract ID
-    - Click **Add**
-7.	Once your support contract has been added, it will appear in the Professional Support Contract list. Choose it, and click **Continue**.
-     ![Technical Support Benefit Payment](_img\vs-tech-support\vs-tech-support-payment.png)
+4. Then choose the **Category** that best fits your question/issue. For our example, we’ll choose **Architect tools.**
+5. Click **Start Request**.
+6. On the next page, you’ll be asked to choose a payment option.
+   - Choose **Use my Visual Studio Subscription**.
+   - Click **Use another contract**
+   - Enter your Access ID and Contract ID
+   - Click **Add**
+7. Once your support contract has been added, it will appear in the Professional Support Contract list. Choose it, and click **Continue**.
+   > [!div class="mx-imgBorder"]     
+   > ![Technical Support Benefit Payment](_img/vs-tech-support/vs-tech-support-payment.png)
 
-8.	Provide your contact information and preferred contact method, and click **Continue**.
-9.	Provide a title for your support incident, and then describe your issue.
+8. Provide your contact information and preferred contact method, and click **Continue**.
+9. Provide a title for your support incident, and then describe your issue.
 10.	Answer a brief series of questions to determine the severity of the issue.
 11.	Click the checkbox to accept the terms of service.
 12.	Click **Submit** to submit your issue.
@@ -74,23 +79,25 @@ Please ensure you have your Contract ID and Access ID available when you call.
 To use your Visual Studio subscription technical support benefit for issues relating to Azure, you will need to link your Contract ID and Access ID to your Azure subscription.
 
 1.	Visit https://portal.azure.com and sign in
-2.	From the left-hand navigation click “Help + Support”
-3.	Under “Support” click “Link support contract”
-4.	Enter the provide “Access ID” and “Contract ID” provided in #1 above.
-
-Once you've completed these steps, you'll be able to select the support plan associated with your Visual Studio subscription benefit.  (The name of the plan may contain "MSDN".)
+2.	From the left-hand navigation click **Help + Support**
+3.	Under “Support” click **New Support Request**
 
 ## Eligibility
 
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
-| Visual Studio Enterprise (Standard, annual cloud)   | VL, Azure, Retail, selected NFR<sup>1</sup> | 4 incidents       |  Yes|
-| Visual Studio Professional (Standard, annual cloud) | VL, Azure, Retail, selected NFR<sup>2</sup>                                        | 2 incidents                                                          |Yes         |
+| Visual Studio Enterprise (Standard)   | VL, Azure, Retail, selected NFR<sup>1</sup> | 4 incidents       |  Yes|
+| Visual Studio Professional (Standard) | VL, Azure, Retail, selected NFR<sup>2</sup>                                        | 2 incidents                                                          |Yes         |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | 2 incidents                                             |  Yes         |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | 2 incidents                                               | Yes         |
 | Visual Studio Dev Essentials | NA | Not available |NA|
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure                                       | Not available                                                           |NA|
 
-<sup>1</sup> *Includes: Imagine Premium. Excludes: Not for Resale (NFR), Visual Studio Industry Partner (VSIP), Microsoft Partner Network (MPN), FTE, MCT Software & Services Developer, BizSpark, Imagine Standard, Microsoft Valued Partner (MVP), Region Director (RD), MCT Software & Services.*
+<sup>1</sup> *Includes: Imagine Premium. Excludes: Not for Resale (NFR), Visual Studio Industry Partner (VSIP), Microsoft Partner Network (MPN), FTE, MCT Software & Services Developer, BizSpark, Imagine Standard, Microsoft Valued Professional (MVP), Region Director (RD), MCT Software & Services.*
 
 <sup>2</sup> *Includes: Imagine Standard.*
+
+> [!NOTE]
+> Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
+
+Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.

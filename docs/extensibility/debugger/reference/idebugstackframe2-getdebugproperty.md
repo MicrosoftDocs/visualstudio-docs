@@ -1,9 +1,6 @@
 ---
 title: "IDebugStackFrame2::GetDebugProperty | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugStackFrame2::GetDebugProperty"
@@ -23,13 +20,13 @@ Gets a description of the properties of a stack frame.
   
 ```cpp  
 HRESULT GetDebugProperty (   
-   IDebugProperty2** ppDebugProp  
+   IDebugProperty2** ppDebugProp  
 );  
 ```  
   
 ```csharp  
 int GetDebugProperty (   
-   out IDebugProperty2 ppDebugProp  
+   out IDebugProperty2 ppDebugProp  
 );  
 ```  
   

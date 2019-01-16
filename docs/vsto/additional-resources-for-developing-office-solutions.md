@@ -1,8 +1,6 @@
 ---
 title: "Additional resources to develop Office solutions"
-ms.custom: ""
 ms.date: 02/02/2017
-ms.technology: office-development
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
 dev_langs:
@@ -10,8 +8,8 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords:
   - "Office development in Visual Studio, additional resources"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload:
   - "office"

@@ -1,9 +1,6 @@
 ---
 title: "IDebugProgram2::GetDebugProperty | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProgram2::GetDebugProperty"
@@ -23,13 +20,13 @@ Gets the program's properties.
   
 ```cpp  
 HRESULT GetDebugProperty(   
-   IDebugProperty2** ppProperty  
+   IDebugProperty2** ppProperty  
 );  
 ```  
   
 ```csharp  
 int GetDebugProperty(   
-   out IDebugProperty2 ppProperty  
+   out IDebugProperty2 ppProperty  
 );  
 ```  
   

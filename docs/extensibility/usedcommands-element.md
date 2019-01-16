@@ -1,9 +1,6 @@
 ---
 title: "UsedCommands Element | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "UsedCommands"
@@ -55,9 +52,9 @@ The UsedCommands element groups UsedCommand elements and other UsedCommands grou
   
 ```  
 <UsedCommands>  
-  <UsedCommand guid="guidVSStd97" id="cmdidCut"/>  
-  <UsedCommand guid="guidVSStd97" id="cmdidCopy"/>  
-  <UsedCommand guid="guidVSStd97" id="cmdidPaste"/>  
+  <UsedCommand guid="guidVSStd97" id="cmdidCut"/>  
+  <UsedCommand guid="guidVSStd97" id="cmdidCopy"/>  
+  <UsedCommand guid="guidVSStd97" id="cmdidPaste"/>  
 </UsedCommands>  
 ```  
   

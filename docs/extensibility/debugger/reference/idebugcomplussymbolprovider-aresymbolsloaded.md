@@ -1,9 +1,6 @@
 ---
 title: "IDebugComPlusSymbolProvider::AreSymbolsLoaded | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "AreSymbolsLoaded"
@@ -22,15 +19,15 @@ Determines if the debug symbols are loaded for the specified module given the ap
   
 ```cpp  
 HRESULT AreSymbolsLoaded (  
-   ULONG32 ulAppDomainID,  
-   GUID    guidModule  
+   ULONG32 ulAppDomainID,  
+   GUID    guidModule  
 );  
 ```  
   
 ```csharp  
 int AreSymbolsLoaded (  
-   uint ulAppDomainID,  
-   Guid guidModule  
+   uint ulAppDomainID,  
+   Guid guidModule  
 );  
 ```  
   

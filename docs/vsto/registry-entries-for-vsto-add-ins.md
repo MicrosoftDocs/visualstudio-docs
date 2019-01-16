@@ -1,9 +1,6 @@
 ---
 title: "Registry entries for VSTO Add-ins"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -35,11 +32,11 @@ ms.workload:
 ## Register VSTO Add-ins for the current user vs. all users  
  When a VSTO Add-in is installed, it can be registered in two ways:  
   
--   For the current user only (that is, it is available only to the user that is logged on to the computer when the VSTO Add-in is installed). In this case, the registry entries are created under the **HKEY_CURRENT_USER**.  
+- For the current user only (that is, it is available only to the user that is logged on to the computer when the VSTO Add-in is installed). In this case, the registry entries are created under the **HKEY_CURRENT_USER**.  
   
--   For all users (that is, any user that logs on to the computer can use the VSTO Add-in). In this case, the registry entries are created under **HKEY_LOCAL_MACHINE**.  
+- For all users (that is, any user that logs on to the computer can use the VSTO Add-in). In this case, the registry entries are created under **HKEY_LOCAL_MACHINE**.  
   
- All VSTO Add-ins that you create by using Visual Studio can be registered for the current user. However, VSTO Add-ins can be registered for all users only in certain scenarios. These scenarios depend on the version of Microsoft Office on the computer and how the VSTO Add-in was deployed.  
+  All VSTO Add-ins that you create by using Visual Studio can be registered for the current user. However, VSTO Add-ins can be registered for all users only in certain scenarios. These scenarios depend on the version of Microsoft Office on the computer and how the VSTO Add-in was deployed.  
   
 ### Microsoft Office version  
  Office applications can load VSTO Add-ins that are registered under **HKEY_LOCAL_MACHINE** or **HKEY_CURRENT_USER**.  
@@ -82,7 +79,7 @@ ms.workload:
   
  Like the other registry entries shared by all VSTO Add-ins, Visual Studio creates the form region registry entries on the development computer when you build your project. If you use ClickOnce to deploy your VSTO Add-in, the registry entries are automatically created on the end-user computer. If you use Windows Installer to deploy your VSTO Add-in, you must configure the InstallShield Limited Edition project to create the registry entries on the end-user computer.  
   
- For more information about the form region registry entries, see [Specify the location of a form region in a custom form](http://msdn.microsoft.com/library/office/ff868998.aspx). For more information about Outlook form regions, see [Create Outlook form regions](../vsto/creating-outlook-form-regions.md).  
+ For more information about the form region registry entries, see [Specify the location of a form region in a custom form](/office/vba/outlook/Concepts/Creating-Form-Regions/specify-the-location-of-a-form-region-in-a-custom-form). For more information about Outlook form regions, see [Create Outlook form regions](../vsto/creating-outlook-form-regions.md).  
   
 ##  <a name="LoadBehavior"></a> LoadBehavior values  
  The **LoadBehavior** entry under the *Root*\Software\Microsoft\Office\\*application name*\Addins\\*add-in ID* key contains a bitwise combination of values that specify the run time behavior of the VSTO Add-in. The lowest order bit (values 0 and 1) indicates whether the VSTO Add-in is currently unloaded or loaded. Other bits indicate when the application attempts to load the VSTO Add-in.  
@@ -106,5 +103,3 @@ ms.workload:
  [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md)   
  [Build Office solutions](../vsto/building-office-solutions.md)   
  [Deploy an Office solution](../vsto/deploying-an-office-solution.md)  
-  
-  

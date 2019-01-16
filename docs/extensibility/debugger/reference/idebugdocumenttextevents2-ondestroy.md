@@ -1,9 +1,6 @@
 ---
 title: "IDebugDocumentTextEvents2::onDestroy | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugDocumentTextEvents2::OnDestroy"
@@ -23,7 +20,7 @@ Indicates that the entire document has been destroyed.
   
 ```cpp  
 HRESULT onDestroy(   
-   void   
+   void   
 );  
 ```  
   

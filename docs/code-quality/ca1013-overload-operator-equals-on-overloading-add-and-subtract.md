@@ -2,7 +2,6 @@
 title: "CA1013: Overload operator equals on overloading add and subtract"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "OverrideOperatorEqualsOnOverridingAddAndSubtract"
@@ -18,10 +17,14 @@ ms.assetid: 5bd28d68-c179-49ff-af47-5250b8b18a10
 author: gewarren
 ms.author: gewarren
 manager: douge
+dev_langs:
+ - CSharp
+ - VB
 ms.workload:
   - "multiple"
 ---
 # CA1013: Overload operator equals on overloading add and subtract
+
 |||
 |-|-|
 |TypeName|OverloadOperatorEqualsOnOverloadingAddAndSubtract|
@@ -32,7 +35,7 @@ ms.workload:
 ## Cause
  A public or protected type implements the addition or subtraction operators without implementing the equality operator.
 
-## Rule Description
+## Rule description
  When instances of a type can be combined by using operations such as addition and subtraction, you should almost always define equality to return `true` for any two instances that have the same constituent values.
 
  You cannot use the default equality operator in an overloaded implementation of the equality operator. Doing so will cause a stack overflow. To implement the equality operator, use the Object.Equals method in your implementation. See the following example.
@@ -51,10 +54,10 @@ if (Object.ReferenceEquals(left, null))
 return left.Equals(right);
 ```
 
-## How to Fix Violations
+## How to fix violations
  To fix a violation of this rule, implement the equality operator so that it is mathematically consistent with the addition and subtraction operators.
 
-## When to Suppress Warnings
+## When to suppress warnings
  It is safe to suppress a warning from this rule when the default implementation of the equality operator provides the correct behavior for the type.
 
 ## Example
@@ -67,12 +70,16 @@ return left.Equals(right);
 
  [!code-csharp[FxCop.Design.TestAddAndSubtract#1](../code-quality/codesnippet/CSharp/ca1013-overload-operator-equals-on-overloading-add-and-subtract_2.cs)]
 
- This example produces the following output.
+This example produces the following output:
 
- **Bad type:  {2,2} {2,2} are equal? No**
-**Good type: {3,3} {3,3} are equal? Yes**
-**Good type: {3,3} {3,3} are == ?   Yes**
-**Bad type:  {2,2} {9,9} are equal? No**
-**Good type: {3,3} {9,9} are == ?   No**
-## See Also
- [Equality Operators](/dotnet/standard/design-guidelines/equality-operators)
+```txt
+Bad type:  {2,2} {2,2} are equal? No
+Good type: {3,3} {3,3} are equal? Yes
+Good type: {3,3} {3,3} are == ?   Yes
+Bad type:  {2,2} {9,9} are equal? No
+Good type: {3,3} {9,9} are == ?   No
+```
+
+## See also
+
+- [Equality Operators](/dotnet/standard/design-guidelines/equality-operators)

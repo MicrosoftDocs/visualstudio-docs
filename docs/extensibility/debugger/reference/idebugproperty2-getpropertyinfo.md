@@ -1,9 +1,6 @@
 ---
 title: "IDebugProperty2::GetPropertyInfo | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProperty2::GetPropertyInfo"
@@ -23,23 +20,23 @@ Gets the [DEBUG_PROPERTY_INFO](../../../extensibility/debugger/reference/debug-p
   
 ```cpp  
 HRESULT GetPropertyInfo (   
-   DEBUGPROP_INFO_FLAGS dwFields,  
-   DWORD                nRadix,  
-   DWORD                dwTimeout,  
-   IDebugReference2**   rgpArgs,  
-   DWORD                dwArgCount,  
-   DEBUG_PROPERTY_INFO* pPropertyInfo  
+   DEBUGPROP_INFO_FLAGS dwFields,  
+   DWORD                nRadix,  
+   DWORD                dwTimeout,  
+   IDebugReference2**   rgpArgs,  
+   DWORD                dwArgCount,  
+   DEBUG_PROPERTY_INFO* pPropertyInfo  
 );  
 ```  
   
 ```cpp  
 int GetPropertyInfo (   
-   enum_DEBUGPROP_INFO_FLAGS dwFields,  
-   uint                      nRadix,  
-   uint                      dwTimeout,  
-   IDebugReference2[]        rgpArgs,  
-   uint                      dwArgCount,  
-   DEBUG_PROPERTY_INFO[]     pPropertyInfo  
+   enum_DEBUGPROP_INFO_FLAGS dwFields,  
+   uint                      nRadix,  
+   uint                      dwTimeout,  
+   IDebugReference2[]        rgpArgs,  
+   uint                      dwArgCount,  
+   DEBUG_PROPERTY_INFO[]     pPropertyInfo  
 );  
 ```  
   

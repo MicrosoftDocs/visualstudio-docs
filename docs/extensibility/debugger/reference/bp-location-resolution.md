@@ -1,9 +1,6 @@
 ---
 title: "BP_LOCATION_RESOLUTION | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "BP_LOCATION_RESOLUTION"
@@ -23,7 +20,7 @@ Describes the resolution of a breakpoint at a specific location.
   
 ```cpp  
 typedef struct _BP_LOCATION_RESOLUTION {   
-   IDebugBreakpointResolution2* pResolution;  
+   IDebugBreakpointResolution2* pResolution;  
 } BP_LOCATION_RESOLUTION;  
 ```  
   

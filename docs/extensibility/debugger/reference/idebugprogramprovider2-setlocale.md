@@ -1,9 +1,6 @@
 ---
 title: "IDebugProgramProvider2::SetLocale | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProgramProvider2::SetLocale"
@@ -23,13 +20,13 @@ Establishes a locale to be used for any locale-specific resources.
   
 ```cpp  
 HRESULT SetLocale(  
-   WORD wLangID  
+   WORD wLangID  
 );  
 ```  
   
 ```csharp  
 int SetLocale(  
-   ushort wLangID  
+   ushort wLangID  
 );  
 ```  
   

@@ -1,9 +1,6 @@
 ---
 title: "Walkthrough: Add controls to a worksheet at runtime in VSTO add-in project"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -26,13 +23,13 @@ ms.workload:
   
  This walkthrough illustrates the following tasks:  
   
--   Providing a user interface (UI) to add controls to the worksheet.  
+- Providing a user interface (UI) to add controls to the worksheet.  
   
--   Adding controls to the worksheet.  
+- Adding controls to the worksheet.  
   
--   Removing controls from the worksheet.  
+- Removing controls from the worksheet.  
   
- [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
+  [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
   
 ## Prerequisites  
  You need the following components to complete this walkthrough:  
@@ -189,5 +186,3 @@ ms.workload:
  [Controls on Office documents](../vsto/controls-on-office-documents.md)   
  [NamedRange control](../vsto/namedrange-control.md)   
  [ListObject control](../vsto/listobject-control.md)  
-  
-  

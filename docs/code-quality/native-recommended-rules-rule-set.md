@@ -2,7 +2,6 @@
 title: Native Recommended Rules rule set
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 author: gewarren
 ms.author: gewarren
@@ -142,6 +141,9 @@ The Native Recommended Rules focus on the most critical and common problems in y
 |[C26116](../code-quality/c26116.md)|Failing to acquire or to hold lock|
 |[C26117](../code-quality/c26117.md)|Releasing unheld lock|
 |[C26140](../code-quality/c26140.md)|Concurrency SAL annotation error|
+|[C26441](../code-quality/c26441.md)|NO_UNNAMED_GUARDS|
+|[C26444](../code-quality/c26444.md)|NO_UNNAMED_RAII_OBJECTS|
+|[C26498](../code-quality/c26498.md)|USE_CONSTEXPR_FOR_FUNCTIONCALL|
 |[C28020](../code-quality/c28020.md)|The expression is not true at this call|
 |[C28021](../code-quality/c28021.md)|The parameter being annotated must be a pointer|
 |[C28022](../code-quality/c28022.md)|The function class(es) on this function do not match the function class(es) on the typedef used to define it.|

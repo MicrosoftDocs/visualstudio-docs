@@ -1,9 +1,6 @@
 ---
 title: "Getting Started with Debugger Extensibility | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "getting started, Debugging SDK"
@@ -25,11 +22,11 @@ The [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)] provides the
   
  To best use the [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)], you should be familiar with the following items:  
   
--   The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE)  
+- The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE)  
   
--   The C++ programming language  
+- The C++ programming language  
   
--   ATL COM  
+- ATL COM  
   
 ## In this section  
  [Roadmap for extending the debugger](../../extensibility/debugger/roadmap-for-extending-the-debugger.md)  

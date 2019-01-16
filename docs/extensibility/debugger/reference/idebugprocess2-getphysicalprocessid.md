@@ -1,9 +1,6 @@
 ---
 title: "IDebugProcess2::GetPhysicalProcessId | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProcess2::GetPhysicalProcessId"
@@ -23,13 +20,13 @@ Gets the system process identifier.
   
 ```cpp  
 HRESULT GetPhysicalProcessId(  
-   AD_PROCESS_ID* pdwProcessId  
+   AD_PROCESS_ID* pdwProcessId  
 );  
 ```  
   
 ```csharp  
 int GetPhysicalProcessId(  
-   AD_PROCESS_ID[] pdwProcessId  
+   AD_PROCESS_ID[] pdwProcessId  
 );  
 ```  
   

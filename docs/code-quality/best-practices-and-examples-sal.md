@@ -2,7 +2,6 @@
 title: Best Practices and Examples (SAL)
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: "conceptual"
 author: mikeblome
 ms.author: mblome
@@ -55,7 +54,6 @@ void Func2(_Out_ int *p1)
 {
     *p = 1;
 }
-
 ```
 
 ## \_Pre\_defensive\_ and \_Post\_defensive\_
@@ -72,7 +70,6 @@ The following example demonstrates a common misuse of `_Out_writes_`.
 void Func1(_Out_writes_(size) CHAR *pb,
     DWORD size
 );
-
 ```
 
 The annotation `_Out_writes_` signifies that you have a buffer. It has `cb` bytes allocated, with the first byte initialized on exit. This annotation is not strictly wrong and it is helpful to express the allocated size. However, it does not tell how many elements are initialized by the function.
@@ -94,7 +91,6 @@ void Func2(_Out_writes_all_(size) CHAR *pb,
 void Func3(_Out_writes_(size) PSTR pb,
     DWORD size
 );
-
 ```
 
 ## \_Out\_ PSTR
@@ -108,7 +104,6 @@ void Func1(_Out_ PSTR pFileName, size_t n);
 
 // Correct
 void Func2(_Out_writes_(n) PSTR wszFileName, size_t n);
-
 ```
 
 An annotation like `_In_ PCSTR` is common and useful. It points to an input string that has NULL termination because the precondition of `_In_` allows the recognition of a NULL-terminated string.
@@ -124,7 +119,6 @@ void Func1(_In_ WCHAR* wszFileName);
 
 // Correct
 void Func2(_In_ PWSTR wszFileName);
-
 ```
 
 Missing the proper specification of NULL termination is common. Use the appropriate `STR` version to replace the type, as shown in the following example.
@@ -142,7 +136,6 @@ BOOL StrEquals2(_In_ PSTR p1, _In_ PSTR p2)
 {
     return strcmp(p1, p2) == 0;
 }
-
 ```
 
 ## \_Out\_range\_
@@ -164,7 +157,6 @@ void Func2(
     DWORD cbSize,
     _Deref_out_range_(0, cbSize) _Out_ DWORD *pcbFilled
 );
-
 ```
 
  `_Deref_out_range_(0, cbSize)` is not strictly required for some tools because it can be inferred from `_Out_writes_to_(cbSize,*pcbFilled)`, but it is shown here for completeness.
@@ -182,7 +174,6 @@ int Func1(_In_ MyData *p, int flag);
 // Correct
 _When_(flag == 0, _Requires_lock_held_(p->cs))
 int Func2(_In_ MyData *p, int flag);
-
 ```
 
  The expression `result` refers to a post-state value that is not available in pre-state.
@@ -204,7 +195,6 @@ _Success_(return != 0, _Acquires_lock_(*lpCriticalSection))
 BOOL WINAPI TryEnterCriticalSection(
   _Inout_ LPCRITICAL_SECTION lpCriticalSection
 );
-
 ```
 
 ## Reference variable
@@ -224,7 +214,6 @@ void Func2(
     _Out_writes_bytes_all_(cbSize) BYTE *pb,
     _Out_range_(0, 2) _Out_ DWORD &cbSize
 );
-
 ```
 
 ## Annotations on return values
@@ -238,7 +227,6 @@ _Out_opt_ void *MightReturnNullPtr1();
 
 // Correct
 _Ret_maybenull_ void *MightReturnNullPtr2();
-
 ```
 
 In this example, `_Out_opt_` says that the pointer might be NULL as part of the precondition. However, preconditions cannot be applied to the return value. In this case, the correct annotation is `_Ret_maybenull_`.

@@ -1,9 +1,6 @@
 ---
 title: "Cached data in document-level customizations"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -16,8 +13,8 @@ helpviewer_keywords:
   - "data [Office development in Visual Studio], cache"
   - "data [Office development in Visual Studio], document-level solutions"
   - "document-level customizations [Office development in Visual Studio], data model"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -60,5 +57,3 @@ ms.workload:
 ## See also  
  [Data in Office solutions](../vsto/data-in-office-solutions.md)   
  [Architecture of Office solutions in Visual Studio](../vsto/architecture-of-office-solutions-in-visual-studio.md)  
-  
-  

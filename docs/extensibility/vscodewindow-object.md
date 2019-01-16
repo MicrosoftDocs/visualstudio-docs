@@ -1,9 +1,6 @@
 ---
 title: "VSCodeWindow Object | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VSCodeWindow"
@@ -32,4 +29,4 @@ A code window is a specialized document window that can include one or more text
   
 ## See also  
  <xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider>   
- [Figures edit](http://msdn.microsoft.com/en-us/f08872bd-fd9c-4e36-8cf2-a2a2622ef986)
+ [Figures edit](https://www.microsoft.com/download/details.aspx?id=55984)

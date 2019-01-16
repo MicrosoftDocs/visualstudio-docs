@@ -1,9 +1,6 @@
 ---
 title: "IDebugCustomAttribute::GetAttributeTypeField | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugCustomAttribute::GetAttributeTypeField"
@@ -23,13 +20,13 @@ Gets the custom attribute class type.
   
 ```cpp  
 HRESULT GetAttributeTypeField(   
-   IDebugClassField** ppCAType  
+   IDebugClassField** ppCAType  
 );  
 ```  
   
 ```csharp  
 int GetAttributeTypeField(  
-   out IDebugClassField ppCAType  
+   out IDebugClassField ppCAType  
 );  
 ```  
   

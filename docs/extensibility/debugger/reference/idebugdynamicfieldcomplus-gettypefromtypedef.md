@@ -1,9 +1,6 @@
 ---
 title: "IDebugDynamicFieldCOMPlus::GetTypeFromTypeDef | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "GetTypeFromTypeDef"
@@ -22,19 +19,19 @@ Retrieves a type given its token.
   
 ```cpp  
 HRESULT GetTypeFromTypeDef(  
-   ULONG32       ulAppDomainID,  
-   GUID          guidModule,  
-   _mdToken      tokClass,  
-   IDebugField** ppType  
+   ULONG32       ulAppDomainID,  
+   GUID          guidModule,  
+   _mdToken      tokClass,  
+   IDebugField** ppType  
 );  
 ```  
   
 ```csharp  
 int GetTypeFromTypeDef(  
-   uint            ulAppDomainID,  
-   Guid            guidModule,  
-   int             tokClass,  
-   out IDebugField ppType  
+   uint            ulAppDomainID,  
+   Guid            guidModule,  
+   int             tokClass,  
+   out IDebugField ppType  
 );  
 ```  
   

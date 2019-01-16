@@ -11,38 +11,39 @@ manager: douge
 ms.workload:
   - "multiple"
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # How to: Add a Command to the Shortcut Menu
+
 You can add menu commands to your domain-specific language (DSL) so that your users can perform tasks that are specific to your DSL. The commands appear on the context (shortcut) menu when users right-click on the diagram. You can define a command so that it only appears in the menu in specific circumstances. For example, you can make the command visible only when the user clicks specific types of element, or elements in specific states.
 
- In summary, the steps are performed in the DslPackage project, as follows:
+In summary, the steps are performed in the DslPackage project as follows:
 
-1.  [Declare the command in Commands.vsct](#VSCT)
+1. [Declare the command in Commands.vsct](#VSCT)
 
-2.  [Update the package version number in Package.tt](#version). You have to do this whenever you change Commands.vsct
+2. [Update the package version number in Package.tt](#version). You have to do this whenever you change Commands.vsct
 
-3.  [Write methods in the CommandSet class](#CommandSet) to make the command visible and to define what you want the command to do.
+3. [Write methods in the CommandSet class](#CommandSet) to make the command visible and to define what you want the command to do.
 
- For samples, see the [Visualization and Modeling SDK website](http://go.microsoft.com/fwlink/?LinkID=185579).
+   For samples, see the [Visualization and Modeling SDK website](http://go.microsoft.com/fwlink/?LinkID=185579).
 
 > [!NOTE]
->  You can also modify the behavior of some existing commands such as Cut, Paste, Select All, and Print by overriding methods in CommandSet.cs. For more information, see [How to: Modify a Standard Menu Command](../modeling/how-to-modify-a-standard-menu-command-in-a-domain-specific-language.md).
+> You can also modify the behavior of some existing commands such as Cut, Paste, Select All, and Print by overriding methods in CommandSet.cs. For more information, see [How to: Modify a Standard Menu Command](../modeling/how-to-modify-a-standard-menu-command-in-a-domain-specific-language.md).
 
-## Defining a Command using MEF
- Managed Extension Framework (MEF) provides an alternative method of defining menu commands on the diagram menu. Its primary purpose is to enable a DSL to be extended by you or by other parties. Users can choose to install just the DSL, or can install both the DSL and extensions. However, MEF also reduces the work of defining shortcut menu commands, after the initial work to enable MEF on the DSL.
+## Define a Command using MEF
 
- Use the method in this topic if:
+Managed Extension Framework (MEF) provides an alternative method of defining menu commands on the diagram menu. Its primary purpose is to enable a DSL to be extended by you or by other parties. Users can choose to install just the DSL, or can install both the DSL and extensions. However, MEF also reduces the work of defining shortcut menu commands, after the initial work to enable MEF on the DSL.
 
-1.  You want to define menu commands on menus other than the right-click shortcut menu.
+Use the method in this topic if:
 
-2.  You want to define specific groupings of commands in the menu.
+1. You want to define menu commands on menus other than the right-click shortcut menu.
 
-3.  You do not want to enable others to extend the DSL with their own commands.
+2. You want to define specific groupings of commands in the menu.
 
-4.  You only want to define one command.
+3. You do not want to enable others to extend the DSL with their own commands.
 
- Otherwise, consider using the MEF method to define commands. For more information, see [Extend your DSL by using MEF](../modeling/extend-your-dsl-by-using-mef.md).
+4. You only want to define one command.
+
+   Otherwise, consider using the MEF method to define commands. For more information, see [Extend your DSL by using MEF](../modeling/extend-your-dsl-by-using-mef.md).
 
 ##  <a name="VSCT"></a> Declare the Command in Commands.Vsct
  Menu commands are declared in DslPackage\Commands.vsct. These definitions specify the labels of the menu items and where they appear on the menus.
@@ -51,7 +52,7 @@ You can add menu commands to your domain-specific language (DSL) so that your us
 
  For more information about .vsct files, see [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md).
 
-#### To add the command
+### To add the command
 
 1.  In **Solution Explorer**, under the **DslPackage** project, open Commands.vsct.
 
@@ -82,7 +83,7 @@ You can add menu commands to your domain-specific language (DSL) so that your us
     ```
 
     > [!NOTE]
-    >  Each button or group is identified by a GUID and an integer ID. You can create several groups and buttons with the same GUID. However, they must have different IDs. The GUID names and ID names are translated to actual GUIDs and numeric IDs in the `<Symbols>` node.
+    > Each button or group is identified by a GUID and an integer ID. You can create several groups and buttons with the same GUID. However, they must have different IDs. The GUID names and ID names are translated to actual GUIDs and numeric IDs in the `<Symbols>` node.
 
 3.  Add a visibility constraint for the command so that it is loaded only in the context of your domain-specific language. For more information, see [VisibilityConstraints Element](../extensibility/visibilityconstraints-element.md).
 
@@ -129,7 +130,7 @@ You can add menu commands to your domain-specific language (DSL) so that your us
 
  Because the package class is defined in a generated file, update the attribute in the text template file that generates the Package.cs file.
 
-#### To update the Package.tt file
+### To update the Package.tt file
 
 1.  In **Solution Explorer**, in the **DslPackage** project, in the **GeneratedCode** folder, open the Package.tt file.
 
@@ -140,11 +141,12 @@ You can add menu commands to your domain-specific language (DSL) so that your us
      `[VSShell::ProvideMenuResource("1000.ctmenu", version: 2 )]`
 
 ##  <a name="CommandSet"></a> Define the Behavior of the Command
- Your DSL already has some commands that are implemented in a partial class that is declared in DslPackage\GeneratedCode\CommandSet.cs. To add new commands, you must extend this class by creating a new file that contains a partial declaration of the same class. The name of the class is usually *\<YourDslName>*`CommandSet`. It is useful to begin by verifying the name of the class and inspecting its contents.
 
- The command set class is derived from <xref:Microsoft.VisualStudio.Modeling.Shell.CommandSet>.
+Your DSL already has some commands that are implemented in a partial class that is declared in DslPackage\GeneratedCode\CommandSet.cs. To add new commands, you must extend this class by creating a new file that contains a partial declaration of the same class. The name of the class is usually *\<YourDslName>*`CommandSet`. It's useful to begin by verifying the name of the class and inspecting its contents.
 
-#### To extend the CommandSet class
+The command set class is derived from <xref:Microsoft.VisualStudio.Modeling.Shell.CommandSet>.
+
+### Extend the CommandSet class
 
 1.  In Solution Explorer, in the DslPackage project, open the GeneratedCode folder and then look under CommandSet.tt and open its generated file CommandSet.cs. Note the namespace and the name of the first class that is defined there. For example, you might see:
 
@@ -162,8 +164,7 @@ You can add menu commands to your domain-specific language (DSL) so that your us
 
      **Note** If you used the class template to create the new file, you must correct both the namespace and the class name.
 
-### Extend the Command Set class
- Your command set code will typically need to import the following namespaces:
+Your command set code will typically need to import the following namespaces:
 
 ```csharp
 using System;
@@ -175,7 +176,7 @@ using Microsoft.VisualStudio.Modeling.Diagrams;
 using Microsoft.VisualStudio.Modeling.Shell;
 ```
 
- Adjust the namespace and the class name to match those in the generated CommandSet.cs:
+Adjust the namespace and the class name to match those in the generated CommandSet.cs:
 
 ```csharp
 namespace Company.Language1 /* Make sure this is correct */
@@ -185,7 +186,7 @@ namespace Company.Language1 /* Make sure this is correct */
   {
 ```
 
- You have to define two methods, one to determine when the command will be visible on the context menu, and the other to perform the command. These methods are not overrides; instead, you register them in a list of commands.
+You must define two methods, one to determine when the command will be visible on the right-click (context) menu, and the other to perform the command. These methods are not overrides; instead, you register them in a list of commands.
 
 ### Define when the command will be visible
  For each command, define an `OnStatus...` method that determines whether the command will appear on the menu, and whether it will be enabled or greyed out. Set the `Visible` and `Enabled` properties of the `MenuCommand`, as shown in the following example. This method is called in order to construct the shortcut menu every time that the user right-clicks the diagram, so it must work quickly.
@@ -213,23 +214,23 @@ private void OnStatusMyContextMenuCommand(object sender, EventArgs e)
 } } } }
 ```
 
- The following fragments are frequently useful in OnStatus methods:
+The following fragments are frequently useful in OnStatus methods:
 
--   `this.CurrentSelection`. The shape that the user right-clicked is always included in this list. If the user clicks on a blank part of the diagram, the Diagram is the only member of the list.
+- `this.CurrentSelection`. The shape that the user right-clicked is always included in this list. If the user clicks on a blank part of the diagram, the Diagram is the only member of the list.
 
--   `this.IsDiagramSelected()` - `true` if the user clicked a blank part of the diagram.
+- `this.IsDiagramSelected()` - `true` if the user clicked a blank part of the diagram.
 
--   `this.IsCurrentDiagramEmpty()`
+- `this.IsCurrentDiagramEmpty()`
 
--   `this.IsSingleSelection()` - the user did not select multiple objects
+- `this.IsSingleSelection()` - the user did not select multiple objects
 
--   `this.SingleSelection` - the shape or diagram that the user right-clicked
+- `this.SingleSelection` - the shape or diagram that the user right-clicked
 
--   `shape.ModelElement as MyLanguageElement` - the model element represented by a shape.
+- `shape.ModelElement as MyLanguageElement` - the model element represented by a shape.
 
- As a general guideline, make the `Visible` property depend on what is selected, and make the `Enabled` property depend on the state of the selected elements.
+As a general guideline, make the `Visible` property depend on what is selected, and make the `Enabled` property depend on the state of the selected elements.
 
- An OnStatus method should not change the state of the Store.
+An OnStatus method should not change the state of the Store.
 
 ### Define what the command does
  For each command, define an `OnMenu...` method that performs the required action when the user clicks the menu command.
@@ -314,7 +315,7 @@ protected override IList<MenuCommand> GetMenuCommands()
 ## Test the Command
  Build and run the DSL in an experimental instance of Visual Studio. The command should appear in the shortcut menu in the situations you have specified.
 
-#### To exercise the command
+### To exercise the command
 
 1.  On the **Solution Explorer** toolbar, click **Transform All Templates**.
 
@@ -324,38 +325,39 @@ protected override IList<MenuCommand> GetMenuCommands()
 
 4.  Right-click various items in the diagram to verify that the command is correctly enabled or disabled, and appropriately shown or hidden, depending on the selected item.
 
-## Troubleshooting
- **Command does not appear in menu:**
+## Troubleshoot
 
--   The command will appear only in debugging instances of Visual Studio, until you install the DSL package. For more information, see [Deploying Domain-Specific Language Solutions](../modeling/deploying-domain-specific-language-solutions.md).
+**Command does not appear in menu:**
 
--   Make sure that your experimental sample has the correct file name extension for this DSL. To check the file name extension, open DslDefinition.dsl in the main instance of Visual Studio. Then in DSL Explorer, right-click the Editor node, and then click Properties. In the Properties window, examine the FileExtension property.
+- The command will appear only in debugging instances of Visual Studio, until you install the DSL package. For more information, see [Deploying Domain-Specific Language Solutions](../modeling/deploying-domain-specific-language-solutions.md).
 
--   Did you [increment the package version number](#version)?
+- Make sure that your experimental sample has the correct file name extension for this DSL. To check the file name extension, open DslDefinition.dsl in the main instance of Visual Studio. Then in DSL Explorer, right-click the Editor node, and then click Properties. In the Properties window, examine the FileExtension property.
 
--   Set a breakpoint at the beginning of your OnStatus method. It should break when you right-click over any part of the diagram.
+- Did you [increment the package version number](#version)?
 
-     **OnStatus method is not called**:
+- Set a breakpoint at the beginning of your OnStatus method. It should break when you right-click over any part of the diagram.
 
-    -   Make sure that the GUIDs and IDs in your CommandSet code match those in the Symbols section of Commands.vsct.
+**OnStatus method is not called**:
 
-    -   In Commands.vsct, make sure that the GUID and ID in every Parent node identify the correct parent Group.
+-   Make sure that the GUIDs and IDs in your CommandSet code match those in the Symbols section of Commands.vsct.
 
-    -   In a Visual Studio command prompt, type devenv /rootsuffix exp /setup. Then restart the debugging instance of Visual Studio.
+-   In Commands.vsct, make sure that the GUID and ID in every Parent node identify the correct parent Group.
 
--   Step through the OnStatus method to verify that command.Visible and command.Enabled are set to true.
+-   In a Visual Studio command prompt, type devenv /rootsuffix exp /setup. Then restart the debugging instance of Visual Studio.
 
- **Wrong menu text appears, or command appears in the wrong place**:
+- Step through the OnStatus method to verify that command.Visible and command.Enabled are set to true.
 
--   Make sure that the combination of GUID and ID is unique to this command.
+**Wrong menu text appears, or command appears in the wrong place**:
 
--   Make sure that you have uninstalled earlier versions of the package.
+- Make sure that the combination of GUID and ID is unique to this command.
 
-## See Also
+- Make sure that you have uninstalled earlier versions of the package.
+
+## See also
 
 - [Writing Code to Customise a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md)
 - [How to: Modify a Standard Menu Command](../modeling/how-to-modify-a-standard-menu-command-in-a-domain-specific-language.md)
 - [Deploying Domain-Specific Language Solutions](../modeling/deploying-domain-specific-language-solutions.md)
-- [Sample code: Circuit Diagrams](http://code.msdn.microsoft.com/Visualization-Modeling-SDK-763778e8)
+- [Sample code: Circuit Diagrams](https://code.msdn.microsoft.com/Visualization-Modeling-SDK-763778e8)
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]

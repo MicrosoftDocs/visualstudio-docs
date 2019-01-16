@@ -1,9 +1,6 @@
 ---
 title: "How to: Programmatically open Visio documents"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -20,7 +17,7 @@ ms.workload:
 # How to: Programmatically open Visio documents
   There are two methods for opening existing Microsoft Office Visio documents: Open and OpenEx. The OpenEx method is identical to the Open method, except that it provides arguments in which the caller can specify how the document opens.  
   
- For details about the object model, see the VBA reference documentation for the [Microsoft.Office.Interop.Visio.Documents.Open](https://msdn.microsoft.com/library/office/ff765240.aspx) method and [Microsoft.Office.Interop.Visio.Documents.OpenEx](https://msdn.microsoft.com/library/office/ff767229.aspx) method.  
+ For details about the object model, see the VBA reference documentation for the [Microsoft.Office.Interop.Visio.Documents.Open](/office/vba/api/Visio.Documents.Open) method and [Microsoft.Office.Interop.Visio.Documents.OpenEx](/office/vba/api/Visio.Documents.OpenEx) method.  
   
 ## Open a Visio document  
   
@@ -52,5 +49,3 @@ ms.workload:
  [How to: Programmatically close Visio documents](../vsto/how-to-programmatically-close-visio-documents.md)   
  [How to: Programmatically save Visio documents](../vsto/how-to-programmatically-save-visio-documents.md)   
  [How to: Programmatically print Visio documents](../vsto/how-to-programmatically-print-visio-documents.md)  
-  
-  

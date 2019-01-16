@@ -2,7 +2,6 @@
 title: "CA1814: Prefer jagged arrays over multidimensional"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "PreferJaggedArraysOverMultidimensional"
@@ -14,10 +13,14 @@ ms.assetid: b1ccf563-2ec8-42e5-b89c-731a9de1ea1d
 author: gewarren
 ms.author: gewarren
 manager: douge
+dev_langs:
+ - CSharp
+ - VB
 ms.workload:
   - "multiple"
 ---
 # CA1814: Prefer jagged arrays over multidimensional
+
 |||
 |-|-|
 |TypeName|PreferJaggedArraysOverMultidimensional|
@@ -28,13 +31,13 @@ ms.workload:
 ## Cause
  A member is declared as a multidimensional array.
 
-## Rule Description
+## Rule description
  A jagged array is an array whose elements are arrays. The arrays that make up the elements can be of different sizes, leading to less wasted space for some sets of data.
 
-## How to Fix Violations
+## How to fix violations
  To fix a violation of this rule, change the multidimensional array to a jagged array.
 
-## When to Suppress Warnings
+## When to suppress warnings
  Suppress a warning from this rule if the multidimensional array does not waste space.
 
 ## Example

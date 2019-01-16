@@ -1,9 +1,6 @@
 ---
 title: "IDebugSettingsCallback2::EnumEEs | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugSettingsCallback2::EnumEEs"
@@ -21,19 +18,19 @@ Enumerates the available expression evaluators given the language and vendor ide
   
 ```cpp  
 HRESULT EnumEEs(  
-   DWORD  celtBuffer,  
-   GUID*  rgguidLang,  
-   GUID*  rgguidVendor,  
-   DWORD* pceltEEs  
+   DWORD  celtBuffer,  
+   GUID*  rgguidLang,  
+   GUID*  rgguidVendor,  
+   DWORD* pceltEEs  
 );  
 ```  
   
 ```csharp  
 public int EnumEEs(  
-   uint       celtBuffer,  
-   ref Guid   rgguidLang,  
-   ref Guid   rgguidVendor,  
-   ref uint[] pceltEEs  
+   uint       celtBuffer,  
+   ref Guid   rgguidLang,  
+   ref Guid   rgguidVendor,  
+   ref uint[] pceltEEs  
 );  
 ```  
   

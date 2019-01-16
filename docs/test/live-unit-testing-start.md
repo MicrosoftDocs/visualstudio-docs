@@ -1,8 +1,7 @@
 ---
-title: "Learn how to test your code with Live Unit Test in Visual Studio 2017 | Microsoft Docs"
+title: "Learn how to test your code with Live Unit Test 2017 | Microsoft Docs"
 ms.date: 08/31/2017
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 ms.topic: conceptual
 helpviewer_keywords:
@@ -15,7 +14,7 @@ ms.workload:
 ---
 # Get started with Live Unit Testing in Visual Studio
 
-When you enable Live Unit Testing in a Visual Studio solution, Live Unit Testing visually depicts your test coverage and the status of your tests. It also dynamically executes tests whenever you modify your code. It provides immediate notification when changes have broken your code and indicates areas for which additional tests are needed.
+When you enable Live Unit Testing in a Visual Studio solution, Live Unit Testing visually depicts your test coverage and the status of your tests. It also dynamically executes tests whenever you modify your code and immediately notifies you when your changes cause tests to fail.
 
 Live Unit Testing can be used to test solutions that target either the .NET Framework or .NET Core. In this tutorial, you'll learn to use Live Unit Testing by creating a simple class library that targets the .NET Standard, and you'll create an MSTest project that targets .NET Core to test it.
 
@@ -110,7 +109,7 @@ Now that you've created the solution, you'll create a class library named `Strin
 
 ## Create the test project
 
-The next step is to create the unit test project to test `StringLibrary` library. Create the unit tests by performing the following steps:
+The next step is to create the unit test project to test the `StringLibrary` library. Create the unit tests by performing the following steps:
 
 # [C#](#tab/csharp)
 1. In **Solution Explorer**, right-click on the `UtilityLibraries` solution and select **Add** > **New Project**.
@@ -147,7 +146,7 @@ The next step is to create the unit test project to test `StringLibrary` library
 
    ![Choosing the UTF-8 encoding](media/lut-start/utf8-encoding.png)
 
-1. Compile the unit test project by **Build** > **Rebuild Solution** from the top-level Visual Studio menu.
+1. Compile the unit test project by selecting **Build** > **Rebuild Solution** from the top-level Visual Studio menu.
 
 # [Visual Basic](#tab/visual-basic)
 
@@ -195,7 +194,7 @@ You've created a class library as well as some unit tests for it. You've now fin
 
 So far, although you've written the tests for the `StringLibrary` class library, you haven't executed them. Live Unit Testing executes them automatically once you enable it. To do that, do the following:
 
-1. Optionally, select the code window that contains the code for `StringLibrary`. This is either *class1.cs* for a C# project or *Class1.vb* for a Visual Basic project. (This step let you visually inspect the result of your tests and the extent of your code coverage once you enable Live Unit Testing.)
+1. Optionally, select the code window that contains the code for `StringLibrary`. This is either *Class1.cs* for a C# project or *Class1.vb* for a Visual Basic project. (This step let you visually inspect the result of your tests and the extent of your code coverage once you enable Live Unit Testing.)
 
 1. Select **Test** > **Live Unit Testing** > **Start** from the top-level Visual Studio menu.
 
@@ -279,7 +278,7 @@ To extend code coverage to the `StartsWithLower` method, do the following:
 
 In some cases, successful tests in **Test Explorer** may be grayed-out. That indicates that a test is currently executing, or that the test has not run again because there have been no code changes that would impact the test since it was last executed.
 
-So far, all of our tests have succeed. In the next section, we'll examine how you can handle test failure.
+So far, all of our tests have succeeded. In the next section, we'll examine how you can handle test failure.
 
 ## Handle a test failure
 
@@ -291,6 +290,7 @@ In this section, you'll explore how you can use Live Unit Testing to identify, t
     [!code-csharp[The TestHasEmbeddedSpaces test method](samples/snippets/csharp/lut-start/unittest2.cs#3)]
 
 1. When the test executes, Live Unit Testing indicates that the `TestHasEmbeddedSpaces` method has failed, as the following figure shows:
+
    ![The Test Explorer reporting a failed test.](media/lut-start/test-failure.png)
 
 1. Select the window that displays the library code. Note that Live Unit Testing has expanded code coverage to the `HasEmbeddedSpaces` method. It also reports the test failure by adding a red  "🞩" to lines covered by failing tests.
@@ -332,7 +332,7 @@ In this section, you'll explore how you can use Live Unit Testing to identify, t
 
    ![Live Unit Testing information on a failed test.](media/lut-start/test-failure-info-vb.png)
 
-1. Select the failed **TestHasEmbeddedSpaces** test. Note that Live Unit Testing gives you a number of options, such as running all tests, running the select tests, debugging all tests, and debugging selected tests, as the following figure shows:
+1. Select the failed **TestHasEmbeddedSpaces** test. Note that Live Unit Testing gives you a number of options, such as running all tests, running the selected tests, debugging all tests, and debugging selected tests, as the following figure shows:
 
    ![Live Unit Testing options for a failed test.](media/lut-start/test-failure-options.png)
 
@@ -352,7 +352,7 @@ In this section, you'll explore how you can use Live Unit Testing to identify, t
 
 ---
 
-This provides enough information for a preliminary investigation of the bug. Either `TestHasEmbeddedSpaces`, the test routine, made an incorrect assumption, or `HasEmbeddedSpaces` does not correctly recognize all embedded spaces. To diagnose and correct the problem, start with the `StringLibrary.HasEmbeddedSpaces` method:
+This provides enough information for a preliminary investigation of the bug. Either `TestHasEmbeddedSpaces` (the test routine) made an incorrect assumption, or `HasEmbeddedSpaces` does not correctly recognize all embedded spaces. To diagnose and correct the problem, start with the `StringLibrary.HasEmbeddedSpaces` method:
 
 # [C#](#tab/csharp)
 1. Look at the comparison in the `HasEmbeddedSpaces` method. It considers an embedded space to be U+0020. However, the Unicode Standard includes a number of other space characters. This suggests that the library code has incorrectly tested for a whitespace character.
@@ -379,5 +379,5 @@ This provides enough information for a preliminary investigation of the bug. Eit
 ---
 
 ## See also
-[Live Unit Testing in Visual Studio](live-unit-testing.md)
-[Live Unit Testing Frequently Asked Questions](live-unit-testing-faq.md)
+- [Live Unit Testing in Visual Studio](live-unit-testing.md)
+- [Live Unit Testing Frequently Asked Questions](live-unit-testing-faq.md)

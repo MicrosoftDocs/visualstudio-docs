@@ -1,9 +1,6 @@
 ---
 title: "Groups Element | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "VSCT XML schema elements, Groups"
@@ -53,9 +50,9 @@ Contains entries that define the command groups of a VSPackage.
   
 ```xml  
 <Groups>  
-  <Group guid="cmdSetGuidWidgetCommands" id="groupIDFileEdit">  
-    <Parent guid="guidSHLMainMenu" id="IDM_VS_TOOL_MAINMENU"/>  
-  </Group>  
+  <Group guid="cmdSetGuidWidgetCommands" id="groupIDFileEdit">  
+    <Parent guid="guidSHLMainMenu" id="IDM_VS_TOOL_MAINMENU"/>  
+  </Group>  
 </Groups>  
 ```  
   

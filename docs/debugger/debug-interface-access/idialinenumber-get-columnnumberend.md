@@ -1,8 +1,6 @@
 ---
 title: "IDiaLineNumber::get_columnNumberEnd | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves the one-based source column number where the expression or statement e
   
 ```C++  
 HRESULT get_columnNumberEnd (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

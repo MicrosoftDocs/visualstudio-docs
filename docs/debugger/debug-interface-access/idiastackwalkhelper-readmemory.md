@@ -1,8 +1,6 @@
 ---
 title: "IDiaStackWalkHelper::readMemory | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,11 +20,11 @@ Reads a block of data from the executable's image in memory.
   
 ```C++  
 HRESULT readMemory(   
-   enum MemoryTypeEnum type,  
-   ULONGLONG           va,  
-   DWORD               cbData,  
-   DWORD*              pcbData,  
-   BYTE*               pbData  
+   enum MemoryTypeEnum type,  
+   ULONGLONG           va,  
+   DWORD               cbData,  
+   DWORD*              pcbData,  
+   BYTE*               pbData  
 );  
 ```  
   

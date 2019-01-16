@@ -1,9 +1,6 @@
 ---
 title: "IDebugDocumentPosition2::GetFileName | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugDocumentPosition2::GetFileName"
@@ -23,13 +20,13 @@ Gets the file name of the source file that contains the document position.
   
 ```cpp  
 HRESULT GetFileName(   
-   BSTR* pbstrFileName  
+   BSTR* pbstrFileName  
 );  
 ```  
   
 ```csharp  
 int GetFileName(   
-   out string pbstrFileName  
+   out string pbstrFileName  
 );  
 ```  
   

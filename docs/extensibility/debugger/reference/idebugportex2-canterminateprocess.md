@@ -1,9 +1,6 @@
 ---
 title: "IDebugPortEx2::CanTerminateProcess | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugPortEx2::CanTerminateProcess"
@@ -23,13 +20,13 @@ Determines whether a process can be terminated.
   
 ```cpp  
 HRESULT CanTerminateProcess(   
-   IDebugProcess2* pPortProcess  
+   IDebugProcess2* pPortProcess  
 );  
 ```  
   
 ```csharp  
 HRESULT CanTerminateProcess(   
-   IDebugProcess2 pPortProcess  
+   IDebugProcess2 pPortProcess  
 );  
 ```  
   

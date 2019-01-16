@@ -1,8 +1,6 @@
 ---
 title: "IDiaStackFrame::get_rawLVarInstanceValue | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,10 +20,10 @@ This method retrieves the value of the specified local variable as raw bytes.
   
 ```C++  
 HRESULT get_rawLVarInstanceValue(  
-   IDiaLVarInstance* pInstance,  
-   DWORD             cbDataMax,  
-   DWORD*            pcbData,  
-   BYTE*             pbData  
+   IDiaLVarInstance* pInstance,  
+   DWORD             cbDataMax,  
+   DWORD*            pcbData,  
+   BYTE*             pbData  
 );  
 ```  
   

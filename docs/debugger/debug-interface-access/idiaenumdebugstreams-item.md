@@ -1,8 +1,6 @@
 ---
 title: "IDiaEnumDebugStreams::Item | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,8 +20,8 @@ Retrieves a debug stream by means of an index or name.
   
 ```C++  
 HRESULT Item (   
-   VARIANT                   index,  
-   IDiaEnumDebugStreamData** stream  
+   VARIANT                   index,  
+   IDiaEnumDebugStreamData** stream  
 );  
 ```  
   

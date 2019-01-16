@@ -1,9 +1,6 @@
 ---
 title: "Images and Icons for Visual Studio | Microsoft Docs"
-ms.custom: ""
 ms.date: "04/26/2017"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 ms.assetid: f410325e-9cf2-4f39-b6d7-b672121c2691
 author: "gregvanl"
@@ -35,21 +32,21 @@ ms.workload:
 ### Overview  
  Visual Studio uses modern-style icons, which have clean geometry and a 50/50 balance of positive/negative (light/dark), and use direct, understandable metaphors. Crucial icon design points center around clarity, simplification, and context.  
   
--   **Clarity:** focus on the core metaphor that gives an icon its meaning and individuality.  
+- **Clarity:** focus on the core metaphor that gives an icon its meaning and individuality.  
   
--   **Simplification:** reduce the icon to its core meaning - get the theme across with just the necessary element(s) and no frills.  
+- **Simplification:** reduce the icon to its core meaning - get the theme across with just the necessary element(s) and no frills.  
   
--   **Context:** consider all aspects of an icon's role during concept development, which is crucial when deciding which elements constitute the icon's core metaphor.  
+- **Context:** consider all aspects of an icon's role during concept development, which is crucial when deciding which elements constitute the icon's core metaphor.  
   
- With icons, there are a number of design points to avoid:  
+  With icons, there are a number of design points to avoid:  
   
--   Don't use icons that signify UI elements except when appropriate. Choose a more abstract or symbolic approach when the UI element is neither common, evident, nor unique.  
+- Don't use icons that signify UI elements except when appropriate. Choose a more abstract or symbolic approach when the UI element is neither common, evident, nor unique.  
   
--   Don't overuse common elements like documents, folders, arrows, and the magnifying glass. Use such elements only when essential to the icon's meaning. For example, the right-facing magnifying glass should indicate only Search, Browse, and Find.  
+- Don't overuse common elements like documents, folders, arrows, and the magnifying glass. Use such elements only when essential to the icon's meaning. For example, the right-facing magnifying glass should indicate only Search, Browse, and Find.  
   
--   Although some legacy icon elements maintain the use of perspective, don't create new icons with perspective unless the element lacks clarity without it.  
+- Although some legacy icon elements maintain the use of perspective, don't create new icons with perspective unless the element lacks clarity without it.  
   
--   Don't cram too much information into an icon. A simple image that can be easily recognized or learned as a recognizable symbol is much more useful than an overly complex image. An icon cannot tell the whole story.  
+- Don't cram too much information into an icon. A simple image that can be easily recognized or learned as a recognizable symbol is much more useful than an overly complex image. An icon cannot tell the whole story.  
   
 ### Icon creation  
   
@@ -224,17 +221,17 @@ ms.workload:
 ### Icon construction  
  The smallest icon size in Visual Studio is 16x16. The largest in common use is 32x32. Keep in mind not to fill up the entire 16x16, 24x24, or 32x32 frame when designing an icon. Legible, uniform icon construction is essential to user recognition. Adhere to the following points when building icons.  
   
--   Icons should be clear, understandable, and consistent.  
+- Icons should be clear, understandable, and consistent.  
   
--   It is better to use the status notification elements as single icons and not to stack them on top of an icon base element. In certain contexts, the UI might require the status element to be paired with a base element.  
+- It is better to use the status notification elements as single icons and not to stack them on top of an icon base element. In certain contexts, the UI might require the status element to be paired with a base element.  
   
--   Project icons are usually .ico files that contain several sizes. Only the 16x16, 24x24, and 32x32 icons are being updated. Most 16x16 and 24x24 icons will contain the same elements. The 32x32 icons contain more details, including the project language type when applicable.  
+- Project icons are usually .ico files that contain several sizes. Only the 16x16, 24x24, and 32x32 icons are being updated. Most 16x16 and 24x24 icons will contain the same elements. The 32x32 icons contain more details, including the project language type when applicable.  
   
--   For 32x32 icons, the base elements generally have a 2-pixel line weight. A 1- or 2-pixel line weight can be used for detail elements. Use your best judgment to determine which is more suitable.  
+- For 32x32 icons, the base elements generally have a 2-pixel line weight. A 1- or 2-pixel line weight can be used for detail elements. Use your best judgment to determine which is more suitable.  
   
--   Have at least a 1-pixel spacing between elements for 16x16 and 24x24 icons. For 32x32 icons, use 2-pixel spacing between elements and between the modifier and base element.  
+- Have at least a 1-pixel spacing between elements for 16x16 and 24x24 icons. For 32x32 icons, use 2-pixel spacing between elements and between the modifier and base element.  
   
- ![Element spacing for icons sized 16x16, 24x24, and 32x32](../../extensibility/ux-guidelines/media/0404-47_elementspacing.png "0404-47_ElementSpacing")<br />Element spacing for icons sized 16x16, 24x24, and 32x32
+  ![Element spacing for icons sized 16x16, 24x24, and 32x32](../../extensibility/ux-guidelines/media/0404-47_elementspacing.png "0404-47_ElementSpacing")<br />Element spacing for icons sized 16x16, 24x24, and 32x32
   
 #### Color and accessibility  
  Visual Studio compliance guidelines require that all icons in the product pass the accessibility requirements for color and contrast. This is achieved through icon inversion, and when you are designing, you should be aware they will be inverted programmatically in the product.  

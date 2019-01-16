@@ -2,7 +2,6 @@
 title: "CA2237: Mark ISerializable types with SerializableAttribute"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA2237"
@@ -14,10 +13,14 @@ ms.assetid: 9bd6bb24-a527-43dd-9952-043c0c694f46
 author: gewarren
 ms.author: gewarren
 manager: douge
+dev_langs:
+ - CSharp
+ - VB
 ms.workload:
   - "multiple"
 ---
 # CA2237: Mark ISerializable types with SerializableAttribute
+
 |||
 |-|-|
 |TypeName|MarkISerializableTypesWithSerializable|
@@ -28,13 +31,13 @@ ms.workload:
 ## Cause
  An externally visible type implements the <xref:System.Runtime.Serialization.ISerializable?displayProperty=fullName> interface and the type is not marked with the <xref:System.SerializableAttribute?displayProperty=fullName> attribute. The rule ignores derived types whose base type is not serializable.
 
-## Rule Description
+## Rule description
  To be recognized by the common language runtime as serializable, types must be marked with the <xref:System.SerializableAttribute> attribute even if the type uses a custom serialization routine through implementation of the <xref:System.Runtime.Serialization.ISerializable> interface.
 
-## How to Fix Violations
+## How to fix violations
  To fix a violation of this rule, apply the <xref:System.SerializableAttribute> attribute to the type.
 
-## When to Suppress Warnings
+## When to suppress warnings
  Do not suppress a warning from this rule for exception classes because they must be serializable to work correctly across application domains.
 
 ## Example
@@ -43,7 +46,7 @@ ms.workload:
  [!code-vb[FxCop.Usage.MarkSerializable#1](../code-quality/codesnippet/VisualBasic/ca2237-mark-iserializable-types-with-serializableattribute_1.vb)]
  [!code-csharp[FxCop.Usage.MarkSerializable#1](../code-quality/codesnippet/CSharp/ca2237-mark-iserializable-types-with-serializableattribute_1.cs)]
 
-## Related Rules
+## Related rules
  [CA2236: Call base class methods on ISerializable types](../code-quality/ca2236-call-base-class-methods-on-iserializable-types.md)
 
  [CA2240: Implement ISerializable correctly](../code-quality/ca2240-implement-iserializable-correctly.md)

@@ -1,15 +1,14 @@
 ---
-title: "Unit tests for Generic Methods in Visual Studio"
+title: "Unit tests for Generic Methods"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
-helpviewer_keywords: 
+helpviewer_keywords:
   - "generics, and unit tests"
   - "unit tests, and generics"
 ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 author: gewarren
 ---
@@ -89,29 +88,29 @@ public void SizeOfLinkedListTest()
 ```csharp
 public void SizeOfLinkedListTestHelper<T>()
 {
-    T val = default(T);
-    MyLinkedList<T> target = new MyLinkedList<T>(val); // step 1
-    for (int i = 0; i < 4; i++) // step 2
-    {
-        MyLinkedList<T> newNode = new MyLinkedList<T>(val);
-        target.Append(newNode);
-    }
-    int expected = 5; // step 3
-    int actual;
-    actual = target.SizeOfLinkedList(); // step 4
-    Assert.AreEqual(expected, actual); // step 5
+    T val = default(T);
+    MyLinkedList<T> target = new MyLinkedList<T>(val); // step 1
+    for (int i = 0; i < 4; i++) // step 2
+    {
+        MyLinkedList<T> newNode = new MyLinkedList<T>(val);
+        target.Append(newNode);
+    }
+    int expected = 5; // step 3
+    int actual;
+    actual = target.SizeOfLinkedList(); // step 4
+    Assert.AreEqual(expected, actual); // step 5
 }
 
 [TestMethod()]
 public void SizeOfLinkedListTest()
 {
-    SizeOfLinkedListTestHelper<int>();  // step 6
-    SizeOfLinkedListTestHelper<char>(); // step 7
+    SizeOfLinkedListTestHelper<int>();  // step 6
+    SizeOfLinkedListTestHelper<char>(); // step 7
 }
 ```
 
 > [!NOTE]
-> Each time the SizeOfLinkedListTest test runs, its TestHelper method is called two times. The assert statement must evaluate to true every time for the test to pass. If the test fails, it might not be clear whether the call that specified `<int>` or the call that specified `<char>` caused it to fail. To find the answer, you could examine the call stack, or you could set breakpoints in your test method and then debug while running the test. For more information, see [How to: Debug while running a test in an ASP.NET solution](http://msdn.microsoft.com/Library/de4d7aa1-4a1e-467e-a19b-4a85ec245b8b).
+> Each time the SizeOfLinkedListTest test runs, its TestHelper method is called two times. The assert statement must evaluate to true every time for the test to pass. If the test fails, it might not be clear whether the call that specified `<int>` or the call that specified `<char>` caused it to fail. To find the answer, you could examine the call stack, or you could set breakpoints in your test method and then debug while running the test. For more information, see [How to: Debug while running a test in an ASP.NET solution](https://msdn.microsoft.com/Library/de4d7aa1-4a1e-467e-a19b-4a85ec245b8b).
 
 
 ###  <a name="TypeConstraintNotSatisfied"></a> Example 2: Using a type constraint
@@ -129,25 +128,25 @@ using System.Text;
 
 namespace ClassLibrary2
 {
-    public class Employee
-    {
-        public Employee(string s, int i)
-        {
-        }
-    }
+    public class Employee
+    {
+        public Employee(string s, int i)
+        {
+        }
+    }
 
-    public class GenericList<T> where T : Employee
-    {
-        private class Node
-        {
-            private T data;
-            public T Data
-            {
-                get { return data; }
-                set { data = value; }
-            }
-        }
-    }
+    public class GenericList<T> where T : Employee
+    {
+        private class Node
+        {
+            private T data;
+            public T Data
+            {
+                get { return data; }
+                set { data = value; }
+            }
+        }
+    }
 }
 ```
 
@@ -167,29 +166,29 @@ As with all newly generated unit tests, you must add non-inconclusive Assert sta
 
 ```csharp
 {
-    [TestClass()]
-    public class GenericList_NodeTest
-    {
+    [TestClass()]
+    public class GenericList_NodeTest
+    {
 
-        public void DataTestHelper<T>()
-            where T : Employee
-        {
-            GenericList_Shadow<T>.Node target = new GenericList_Shadow<T>.Node(); // TODO: Initialize to an appropriate value
-            T expected = default(T); // TODO: Initialize to an appropriate value
-            T actual;
-            target.Data = expected;
-            actual = target.Data;
-            Assert.AreEqual(expected, actual);
-            Assert.Inconclusive("Verify the correctness of this test method.");
-        }
+        public void DataTestHelper<T>()
+            where T : Employee
+        {
+            GenericList_Shadow<T>.Node target = new GenericList_Shadow<T>.Node(); // TODO: Initialize to an appropriate value
+            T expected = default(T); // TODO: Initialize to an appropriate value
+            T actual;
+            target.Data = expected;
+            actual = target.Data;
+            Assert.AreEqual(expected, actual);
+            Assert.Inconclusive("Verify the correctness of this test method.");
+        }
 
-        [TestMethod()]
-        public void DataTest()
-        {
-            Assert.Inconclusive("No appropriate type parameter is found to satisfies the type constraint(s) of T. " +
-            "Please call DataTestHelper<T>() with appropriate type parameters.");
-        }
-    }
+        [TestMethod()]
+        public void DataTest()
+        {
+            Assert.Inconclusive("No appropriate type parameter is found to satisfies the type constraint(s) of T. " +
+            "Please call DataTestHelper<T>() with appropriate type parameters.");
+        }
+    }
 }
 ```
 

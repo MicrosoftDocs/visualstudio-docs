@@ -1,9 +1,6 @@
 ---
 title: "CommandTable Element | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "CommandTable"
@@ -41,10 +38,10 @@ CommandTable is the root element of the *.vsct* file. This is the file that defi
   
 ### Attributes  
   
-|Attribute|Description|  
-|---------------|-----------------|  
-|xmlns|Required. XML namespaces:<br /><br /> xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable"<br /><br /> xmlns:xs="http://www.w3.org/2001/XMLSchema"|  
-|language|Optional. The language attribute may be used to specify the default language of all \<Strings> elements in the command table.  If the language is not specified, the language of the current process will be used:<br /><br /> language="en-us"|  
+| Attribute | Description |
+|-----------| - |
+| xmlns | Required. XML namespaces:<br /><br /> xmlns="<http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable>"<br /><br /> xmlns:xs="<http://www.w3.org/2001/XMLSchema>" |
+| language | Optional. The language attribute may be used to specify the default language of all \<Strings> elements in the command table.  If the language is not specified, the language of the current process will be used:<br /><br /> language="en-us" |
   
 ### Child Elements  
   
@@ -58,7 +55,7 @@ CommandTable is the root element of the *.vsct* file. This is the file that defi
 |[VisibilityConstraints element](../extensibility/visibilityconstraints-element.md)|Optional. Determines the static visibility of commands and toolbars.|  
 |[KeyBindings element](../extensibility/keybindings-element.md)|Optional. Specifies the shortcut key combinations, if any, for the commands.|  
 |[UsedCommands element](../extensibility/usedcommands-element.md)|Optional. Allows a VSPackage to optionally implement its own version of functionality originally supported by other VSPackages.|  
-|[Symbols element](http://msdn.microsoft.com/en-us/f2ddd0aa-c3dd-439e-834d-28f136a27ffa)|Optional. Contains any symbol data -- GUIDs, IDs, and so forth -- for the compiler.|  
+|[Symbols element](https://www.microsoft.com/download/details.aspx?id=55984)|Optional. Contains any symbol data -- GUIDs, IDs, and so forth -- for the compiler.|  
   
 ### Parent elements  
   

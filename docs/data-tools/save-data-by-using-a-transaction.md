@@ -15,11 +15,11 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
 ms.workload:
   - "data-storage"
 ---
 # How to: Save data by using a transaction
+
 You save data in a transaction by using the <xref:System.Transactions> namespace. Use the <xref:System.Transactions.TransactionScope> object to participate in a transaction that is automatically managed for you.
 
 Projects are not created with a reference to the *System.Transactions* assembly, so you need to manually add a reference to projects that use transactions.

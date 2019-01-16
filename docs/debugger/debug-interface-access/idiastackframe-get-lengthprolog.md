@@ -1,8 +1,6 @@
 ---
 title: "IDiaStackFrame::get_lengthProlog | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves the number of bytes of prologue code in the block.
   
 ```C++  
 HRESULT get_lengthProlog (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

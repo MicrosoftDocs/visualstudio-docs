@@ -1,9 +1,6 @@
 ---
 title: "IDebugPortEx2::ResumeProcess | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugPortEx2::ResumeProcess"
@@ -23,13 +20,13 @@ Resumes execution of a process.
   
 ```cpp  
 HRESULT ResumeProcess(   
-   IDebugProcess2* pPortProcess  
+   IDebugProcess2* pPortProcess  
 );  
 ```  
   
 ```cpp  
 int ResumeProcess(   
-   IDebugProcess2 pPortProcess  
+   IDebugProcess2 pPortProcess  
 );  
 ```  
   

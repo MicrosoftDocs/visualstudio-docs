@@ -1,9 +1,6 @@
 ---
 title: "IDebugPort2::GetPortRequest | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugPort2::GetPortRequest"
@@ -23,13 +20,13 @@ Gets the description of a port that was previously used to create the port (if a
   
 ```cpp  
 HRESULT GetPortRequest(   
-   IDebugPortRequest2** ppRequest  
+   IDebugPortRequest2** ppRequest  
 );  
 ```  
   
 ```csharp  
 int GetPortRequest(   
-   out IDebugPortRequest2 ppRequest  
+   out IDebugPortRequest2 ppRequest  
 );  
 ```  
   

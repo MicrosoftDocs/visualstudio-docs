@@ -1,8 +1,8 @@
 ---
-title: "Visual Studio Integration (MSBuild) | Microsoft Docs"
-ms.custom: ""
+title: "Visual Studio Integration (MSBuild)"
+titleSuffix: ""
+ms.custom: "seodec18"
 ms.date: "11/04/2016"
-ms.technology: msbuild
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "MSBuild, reference resolution"
@@ -62,9 +62,9 @@ Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' 
 ## In-process compilers  
  When possible, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] will attempt to use the in-process version of the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] compiler for increased performance. (Not applicable to [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)].) For this to work correctly, the following conditions must be met:  
   
--   In a target of the project, there must be a task named `Vbc` for [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] projects.  
+- In a target of the project, there must be a task named `Vbc` for [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] projects.  
   
--   The `UseHostCompilerIfAvailable` parameter of the task must be set to true.  
+- The `UseHostCompilerIfAvailable` parameter of the task must be set to true.  
   
 ## Design-time IntelliSense  
  To get IntelliSense support in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] before a build has generated an output assembly, the following conditions must be met:  
@@ -151,23 +151,23 @@ Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' 
 ## Reference resolution  
  Reference resolution is the process of using the reference items stored in a project file to locate actual assemblies. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] must trigger reference resolution in order to show detailed properties for each reference in the **Properties** window. The following list describes the three types of references and how they are resolved.  
   
--   Assembly references:  
+- Assembly references:  
   
-     The project system calls a target with the well-known name `ResolveAssemblyReferences`. This target should produce items with the item type name `ReferencePath`. Each of these items should have an item specification (the value of the `Include` attribute of an item) containing the full path to the reference. The items should have all the metadata from the input items passed through in addition to the following new metadata:  
+   The project system calls a target with the well-known name `ResolveAssemblyReferences`. This target should produce items with the item type name `ReferencePath`. Each of these items should have an item specification (the value of the `Include` attribute of an item) containing the full path to the reference. The items should have all the metadata from the input items passed through in addition to the following new metadata:  
   
-    -   `CopyLocal`, indicating whether the assembly should be copied into the output folder, set to true or false.  
+  - `CopyLocal`, indicating whether the assembly should be copied into the output folder, set to true or false.  
   
-    -   `OriginalItemSpec`, containing the original item specification of the reference.  
+  - `OriginalItemSpec`, containing the original item specification of the reference.  
   
-    -   `ResolvedFrom`, set to "{TargetFrameworkDirectory}" if it was resolved from the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] directory.  
+  - `ResolvedFrom`, set to "{TargetFrameworkDirectory}" if it was resolved from the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] directory.  
   
--   COM references:  
+- COM references:  
   
-     The project system calls a target with the well-known name `ResolveCOMReferences`. This target should produce items with the item type name `ComReferenceWrappers`. Each of these items should have an item specification containing the full path to the interop assembly for the COM reference. The items should have all the metadata from the input items passed through, in addition to new metadata with the name `CopyLocal`, indicating whether the assembly should be copied into the output folder, set to true or false.  
+   The project system calls a target with the well-known name `ResolveCOMReferences`. This target should produce items with the item type name `ComReferenceWrappers`. Each of these items should have an item specification containing the full path to the interop assembly for the COM reference. The items should have all the metadata from the input items passed through, in addition to new metadata with the name `CopyLocal`, indicating whether the assembly should be copied into the output folder, set to true or false.  
   
--   Native references  
+- Native references  
   
-     The project system calls a target with the well-known name `ResolveNativeReferences`. This target should produce items with the item type name `NativeReferenceFile`. The items should have all the metadata from the input items passed through, in addition to a new piece of metadata named `OriginalItemSpec`, containing the original item specification of the reference.  
+   The project system calls a target with the well-known name `ResolveNativeReferences`. This target should produce items with the item type name `NativeReferenceFile`. The items should have all the metadata from the input items passed through, in addition to a new piece of metadata named `OriginalItemSpec`, containing the original item specification of the reference.  
   
 ## Performance shortcuts  
  If you start debugging in the Visual Studio UI (either by choosing the F5 key or by choosing **Debug** > **Start Debugging** on the menu bar), the build process uses a fast update check to improve performance. In some cases where customized builds create files that get built in turn, the fast update check does not correctly identify the changed files. Projects that need more thorough update checks can turn off the fast checking by setting the environment variable `DISABLEFASTUPTODATECHECK=1`. Alternatively, projects can set this as an MSBuild property in the project or in a file the project imports.  

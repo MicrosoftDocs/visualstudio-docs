@@ -1,9 +1,6 @@
 ---
 title: "PROCESS_INFO_FIELDS | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "PROCESS_INFO_FIELDS"
@@ -23,30 +20,30 @@ Specified what kind of information to retrieve for a process.
   
 ```cpp  
 enum enum_PROCESS_INFO_FIELDS {   
-   PIF_FILE_NAME             = 0x00000001,  
-   PIF_BASE_NAME             = 0x00000002,  
-   PIF_TITLE                 = 0x00000004,  
-   PIF_PROCESS_ID            = 0x00000008,  
-   PIF_SESSION_ID            = 0x00000010,  
-   PIF_ATTACHED_SESSION_NAME = 0x00000020,  
-   PIF_CREATION_TIME         = 0x00000040,  
-   PIF_FLAGS                 = 0x00000080,  
-   PIF_ALL                   = 0x000000ff  
+   PIF_FILE_NAME             = 0x00000001,  
+   PIF_BASE_NAME             = 0x00000002,  
+   PIF_TITLE                 = 0x00000004,  
+   PIF_PROCESS_ID            = 0x00000008,  
+   PIF_SESSION_ID            = 0x00000010,  
+   PIF_ATTACHED_SESSION_NAME = 0x00000020,  
+   PIF_CREATION_TIME         = 0x00000040,  
+   PIF_FLAGS                 = 0x00000080,  
+   PIF_ALL                   = 0x000000ff  
 };  
 typedef DWORD PROCESS_INFO_FIELDS;  
 ```  
   
 ```csharp  
 public enum enum_PROCESS_INFO_FIELDS {   
-   PIF_FILE_NAME             = 0x00000001,  
-   PIF_BASE_NAME             = 0x00000002,  
-   PIF_TITLE                 = 0x00000004,  
-   PIF_PROCESS_ID            = 0x00000008,  
-   PIF_SESSION_ID            = 0x00000010,  
-   PIF_ATTACHED_SESSION_NAME = 0x00000020,  
-   PIF_CREATION_TIME         = 0x00000040,  
-   PIF_FLAGS                 = 0x00000080,  
-   PIF_ALL                   = 0x000000ff  
+   PIF_FILE_NAME             = 0x00000001,  
+   PIF_BASE_NAME             = 0x00000002,  
+   PIF_TITLE                 = 0x00000004,  
+   PIF_PROCESS_ID            = 0x00000008,  
+   PIF_SESSION_ID            = 0x00000010,  
+   PIF_ATTACHED_SESSION_NAME = 0x00000020,  
+   PIF_CREATION_TIME         = 0x00000040,  
+   PIF_FLAGS                 = 0x00000080,  
+   PIF_ALL                   = 0x000000ff  
 };  
 ```  
   

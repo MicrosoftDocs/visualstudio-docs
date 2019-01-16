@@ -1,9 +1,6 @@
 ---
 title: "MACHINE_INFO | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "MACHINE_INFO"
@@ -23,17 +20,17 @@ Describes a particular machine.
   
 ```cpp  
 typedef struct tagMACHINE_INFO {   
-   MACHINE_INFO_FIELDS Fields;  
-   BSTR                bstrName;  
-   MACHINE_INFO_FLAGS  Flags;  
+   MACHINE_INFO_FIELDS Fields;  
+   BSTR                bstrName;  
+   MACHINE_INFO_FLAGS  Flags;  
 } MACHINE_INFO;  
 ```  
   
 ```csharp  
 public struct MACHINE_INFO {   
-   public uint   Fields;  
-   public string bstrName;  
-   public uint   Flags;  
+   public uint   Fields;  
+   public string bstrName;  
+   public uint   Flags;  
 };  
 ```  
   

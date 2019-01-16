@@ -2,7 +2,6 @@
 title: "CA1047: Do not declare protected members in sealed types"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "DoNotDeclareProtectedMembersInSealedTypes"
@@ -14,10 +13,14 @@ ms.assetid: 829033b5-a9d8-4f26-a719-45494c9dd035
 author: gewarren
 ms.author: gewarren
 manager: douge
+dev_langs:
+ - CSharp
+ - VB
 ms.workload:
   - "multiple"
 ---
 # CA1047: Do not declare protected members in sealed types
+
 |||
 |-|-|
 |TypeName|DoNotDeclareProtectedMembersInSealedTypes|
@@ -28,15 +31,15 @@ ms.workload:
 ## Cause
  A public type is `sealed` (`NotInheritable` in Visual basic) and declares a protected member or a protected nested type. This rule does not report violations for <xref:System.Object.Finalize%2A> methods, which must follow this pattern.
 
-## Rule Description
+## Rule description
  Types declare protected members so that inheriting types can access or override the member. By definition, you cannot inherit from a sealed type, which means that protected methods on sealed types cannot be called.
 
  The C# compiler issues a warning for this error.
 
-## How to Fix Violations
+## How to fix violations
  To fix a violation of this rule, change the access level of the member to private, or make the type inheritable.
 
-## When to Suppress Warnings
+## When to suppress warnings
  Do not suppress a warning from this rule. Leaving the type in its current state can cause maintenance issues and does not provide any benefits.
 
 ## Example

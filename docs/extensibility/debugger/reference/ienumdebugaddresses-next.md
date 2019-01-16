@@ -1,9 +1,6 @@
 ---
 title: "IEnumDebugAddresses::Next | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IEnumDebugAddresses::Next"
@@ -23,17 +20,17 @@ This method returns the next set of elements from the enumeration.
   
 ```cpp  
 HRESULT Next(  
-   ULONG           celt,  
-   IDebugAddress** rgelt,  
-   ULONG*          pceltFetched  
+   ULONG           celt,  
+   IDebugAddress** rgelt,  
+   ULONG*          pceltFetched  
 );  
 ```  
   
 ```csharp  
 int Next(  
-   uint            celt,  
-   IDebugAddress[] rgelt,  
-   ref uint        pceltFetched  
+   uint            celt,  
+   IDebugAddress[] rgelt,  
+   ref uint        pceltFetched  
 );  
 ```  
   

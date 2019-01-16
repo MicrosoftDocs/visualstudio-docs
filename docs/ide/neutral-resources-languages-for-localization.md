@@ -2,7 +2,6 @@
 title: Neutral Resources Languages for Localization
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:
   - "localization [Visual Studio], resources"
@@ -27,7 +26,6 @@ The <xref:System.Resources.NeutralResourcesLanguageAttribute> class specifies th
 ```vb
 ' Set neutral resources language for assembly.
 <Assembly: NeutralResourcesLanguageAttribute("en")>
-
 ```
 
 ```csharp

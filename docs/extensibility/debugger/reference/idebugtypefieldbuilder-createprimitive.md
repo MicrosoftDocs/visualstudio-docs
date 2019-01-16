@@ -1,9 +1,6 @@
 ---
 title: "IDebugTypeFieldBuilder::CreatePrimitive | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "CreatePrimitive"
@@ -22,15 +19,15 @@ Creates an object that represents a primitive type.
   
 ```cpp  
 HRESULT CreatePrimitive (  
-   DWORD          dwElementType,  
-   IDebugField ** pTypeField  
+   DWORD          dwElementType,  
+   IDebugField ** pTypeField  
 );  
 ```  
   
 ```csharp  
 int CreatePrimitive (  
-   uint            dwElementType,  
-   out IDebugField pTypeField  
+   uint            dwElementType,  
+   out IDebugField pTypeField  
 );  
 ```  
   

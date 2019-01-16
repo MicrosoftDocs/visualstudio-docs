@@ -1,8 +1,6 @@
 ---
 title: "CV_access_e | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,9 +20,9 @@ Specifies the scope of visibility (access level) of member functions and variabl
   
 ```C++  
 typedef enum CV_access_e {   
-   CV_private   = 1,  
-   CV_protected = 2,  
-   CV_public    = 3  
+   CV_private   = 1,  
+   CV_protected = 2,  
+   CV_public    = 3  
 } CV_access_e;  
 ```  
   

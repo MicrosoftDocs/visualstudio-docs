@@ -1,9 +1,6 @@
 ---
 title: "IDebugFunctionObject::CreateArrayObject | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugFunctionObject::CreateArrayObject"
@@ -23,23 +20,23 @@ Creates an array object. This array can contain either primitive or object insta
   
 ```cpp  
 HRESULT CreateArrayObject(   
-   OBJECT_TYPE    ot,  
-   IDebugField*   pClassField,  
-   DWORD          dwRank,  
-   DWORD          dwDims[],  
-   DWORD          dwLowBounds[],  
-   IDebugObject** ppObject  
+   OBJECT_TYPE    ot,  
+   IDebugField*   pClassField,  
+   DWORD          dwRank,  
+   DWORD          dwDims[],  
+   DWORD          dwLowBounds[],  
+   IDebugObject** ppObject  
 );  
 ```  
   
 ```csharp  
 int CreateArrayObject(  
-   enum_OBJECT_TYPE ot,   
-   IDebugField      pClassField,   
-   uint             dwRank,   
-   uint[]           dwDims,   
-   uint[]           dwLowBounds,   
-   out IDebugObject ppObject  
+   enum_OBJECT_TYPE ot,   
+   IDebugField      pClassField,   
+   uint             dwRank,   
+   uint[]           dwDims,   
+   uint[]           dwLowBounds,   
+   out IDebugObject ppObject  
 );  
 ```  
   

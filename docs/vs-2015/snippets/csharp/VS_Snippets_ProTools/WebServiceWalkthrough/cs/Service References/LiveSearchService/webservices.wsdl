@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:tns="http://schemas.microsoft.com/MSNSearch/2005/09/fex" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://schemas.microsoft.com/MSNSearch/2005/09/fex" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema elementFormDefault="qualified" targetNamespace="http://schemas.microsoft.com/MSNSearch/2005/09/fex">
+      <xsd:simpleType name="SourceType">
+        <xsd:restriction base="xsd:string">
+          <xsd:enumeration value="Web" />
+          <xsd:enumeration value="News" />
+          <xsd:enumeration value="Ads" />
+          <xsd:enumeration value="InlineAnswers" />
+          <xsd:enumeration value="PhoneBook" />
+          <xsd:enumeration value="WordBreaker" />
+          <xsd:enumeration value="Spelling" />
+          <xsd:enumeration value="QueryLocation" />
+          <xsd:enumeration value="Image" />
+          <xsd:enumeration value="Video" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:simpleType name="ResultFieldMask">
+        <xsd:list>
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:enumeration value="All" />
+              <xsd:enumeration value="Title" />
+              <xsd:enumeration value="Description" />
+              <xsd:enumeration value="Url" />
+              <xsd:enumeration value="DisplayUrl" />
+              <xsd:enumeration value="CacheUrl" />
+              <xsd:enumeration value="Source" />
+              <xsd:enumeration value="SearchTags" />
+              <xsd:enumeration value="Phone" />
+              <xsd:enumeration value="DateTime" />
+              <xsd:enumeration value="Address" />
+              <xsd:enumeration value="Location" />
+              <xsd:enumeration value="SearchTagsArray" />
+              <xsd:enumeration value="Summary" />
+              <xsd:enumeration value="ResultType" />
+              <xsd:enumeration value="Image" />
+              <xsd:enumeration value="Video" />
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:list>
+      </xsd:simpleType>
+      <xsd:simpleType name="SafeSearchOptions">
+        <xsd:restriction base="xsd:string">
+          <xsd:enumeration value="Moderate" />
+          <xsd:enumeration value="Strict" />
+          <xsd:enumeration value="Off" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:simpleType name="SearchFlags">
+        <xsd:list>
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:enumeration value="None" />
+              <xsd:enumeration value="MarkQueryWords" />
+              <xsd:enumeration value="DisableSpellCorrectForSpecialWords" />
+              <xsd:enumeration value="DisableHostCollapsing" />
+              <xsd:enumeration value="DisableLocationDetection" />
+              <xsd:enumeration value="DisableWebQueryAlteration" />
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:list>
+      </xsd:simpleType>
+      <xsd:simpleType name="SortByType">
+        <xsd:list>
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:enumeration value="Default" />
+              <xsd:enumeration value="Relevance" />
+              <xsd:enumeration value="Distance" />
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:list>
+      </xsd:simpleType>
+      <xsd:complexType name="SearchConstants">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="1" default="" name="MarkBegin" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" default="" name="MarkEnd" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Location">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="Latitude" type="xsd:double" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Longitude" type="xsd:double" />
+          <xsd:element minOccurs="0" maxOccurs="1" default="5.0" name="Radius" type="xsd:double" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Address">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="1" name="AddressLine" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="PrimaryCity" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="SecondaryCity" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Subdivision" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="PostalCode" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="CountryRegion" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="FormattedAddress" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DateTime">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="Year" type="xsd:int" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Month" type="xsd:int" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Day" type="xsd:int" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Hour" type="xsd:int" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Minute" type="xsd:int" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Second" type="xsd:int" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="SearchTag">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="Name" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Value" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="StaticThumbnail">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="1" name="URL" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Format" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Width" type="xsd:int" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Height" type="xsd:int" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="FileSize" type="xsd:int" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="MotionThumbnail">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="1" name="URL" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Format" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="RunTime" type="xsd:int" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Width" type="xsd:int" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Height" type="xsd:int" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="FileSize" type="xsd:int" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Image">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="1" name="ImageURL" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ImageWidth" type="xsd:int" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ImageHeight" type="xsd:int" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ImageFileSize" type="xsd:int" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ThumbnailURL" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ThumbnailWidth" type="xsd:int" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ThumbnailHeight" type="xsd:int" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ThumbnailFileSize" type="xsd:int" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Video">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="1" name="PlayUrl" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="SourceTitle" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Format" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="RunTime" type="xsd:int" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Width" type="xsd:int" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Height" type="xsd:int" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="FileSize" type="xsd:int" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="StaticThumbnail" type="tns:StaticThumbnail" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="MotionThumbnail" type="tns:MotionThumbnail" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="SourceRequest">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" default="Web" name="Source" type="tns:SourceType" />
+          <xsd:element minOccurs="1" maxOccurs="1" default="0" name="Offset" type="xsd:int" />
+          <xsd:element minOccurs="1" maxOccurs="1" default="10" name="Count" type="xsd:int" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="FileType" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" default="Default" name="SortBy" type="tns:SortByType" />
+          <xsd:element minOccurs="1" maxOccurs="1" default="Title Description Url" name="ResultFields" type="tns:ResultFieldMask" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="SearchTagFilters" type="tns:ArrayOfstringSearchTagFilters" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOfstringSearchTagFilters">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="string" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Result">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="1" name="Title" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Description" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Url" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="DisplayUrl" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="CacheUrl" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Source" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="SearchTags" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Phone" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="DateTime" type="tns:DateTime" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Address" type="tns:Address" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Location" type="tns:Location" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="SearchTagsArray" type="tns:ArrayOfSearchTagSearchTagsArray" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Summary" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ResultType" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Image" type="tns:Image" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Video" type="tns:Video" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOfSearchTagSearchTagsArray">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="SearchTag" type="tns:SearchTag" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="SourceResponse">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="Source" type="tns:SourceType" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Offset" type="xsd:int" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Total" type="xsd:int" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="RecourseQuery" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Results" type="tns:ArrayOfResultResults" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOfResultResults">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="Result" type="tns:Result" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="SearchRequest">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="AppID" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Query" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="CultureInfo" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" default="Moderate" name="SafeSearch" type="tns:SafeSearchOptions" />
+          <xsd:element minOccurs="1" maxOccurs="1" default="None" name="Flags" type="tns:SearchFlags" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Location" type="tns:Location" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Requests" type="tns:ArrayOfSourceRequestRequests" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOfSourceRequestRequests">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="SourceRequest" type="tns:SourceRequest" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="SearchResponse">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="Responses" type="tns:ArrayOfSourceResponseResponses" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOfSourceResponseResponses">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="SourceResponse" type="tns:SourceResponse" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="Search">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="Request" type="tns:SearchRequest" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="SearchResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="Response" type="tns:SearchResponse" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="SearchMessage">
+    <wsdl:part name="parameters" element="tns:Search" />
+  </wsdl:message>
+  <wsdl:message name="SearchResponseMessage">
+    <wsdl:part name="parameters" element="tns:SearchResponse" />
+  </wsdl:message>
+  <wsdl:portType name="MSNSearchPortType">
+    <wsdl:operation name="Search">
+      <wsdl:input wsa:Action="http://schemas.microsoft.com/MSNSearch/2005/09/fex/MSNSearchPortType/Search" message="tns:SearchMessage" />
+      <wsdl:output wsa:Action="http://schemas.microsoft.com/MSNSearch/2005/09/fex/MSNSearchPortType/SearchResponse" message="tns:SearchResponseMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="MSNSearchPortBinding" type="tns:MSNSearchPortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Search">
+      <soap:operation soapAction="http://schemas.microsoft.com/MSNSearch/2005/09/fex/Search" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="MSNSearchService">
+    <wsdl:port name="MSNSearchPort" binding="tns:MSNSearchPortBinding">
+      <soap:address location="http://soap.search.live.com:80/webservices.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

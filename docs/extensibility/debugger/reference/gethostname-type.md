@@ -1,9 +1,6 @@
 ---
 title: "GETHOSTNAME_TYPE | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "GETHOSTNAME_TYPE"
@@ -23,16 +20,16 @@ Specifies the type of host name.
   
 ```cpp  
 enum enum_GETHOSTNAME_TYPE {   
-   GHN_FRIENDLY_NAME = 0,  
-   GHN_FILE_NAME     = 1  
+   GHN_FRIENDLY_NAME = 0,  
+   GHN_FILE_NAME     = 1  
 };  
 typedef DWORD GETHOSTNAME_TYPE;  
 ```  
   
 ```csharp  
 public enum enum_GETHOSTNAME_TYPE {   
-   GHN_FRIENDLY_NAME = 0,  
-   GHN_FILE_NAME     = 1  
+   GHN_FRIENDLY_NAME = 0,  
+   GHN_FILE_NAME     = 1  
 };  
 ```  
   

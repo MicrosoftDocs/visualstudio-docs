@@ -1,9 +1,6 @@
 ---
 title: "IDebugDisassemblyStream2::GetCurrentLocation | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugDisassemblyStream2::GetCurrentLocation"
@@ -23,13 +20,13 @@ Returns a code location identifier that represents the current code location.
   
 ```cpp  
 HRESULT GetCurrentLocation(   
-   UINT64* puCodeLocationId  
+   UINT64* puCodeLocationId  
 );  
 ```  
   
 ```csharp  
 int GetCurrentLocation(   
-   out ulong puCodeLocationId  
+   out ulong puCodeLocationId  
 );  
 ```  
   

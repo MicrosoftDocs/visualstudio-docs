@@ -1,9 +1,6 @@
 ---
 title: "IDebugBinder::ResolveRuntimeType | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugBinder::ResolveRuntimeType"
@@ -23,15 +20,15 @@ This method determines the run-time type of an object.
   
 ```cpp  
 HRESULT ResolveRuntimeType(   
-   IDebugObject* pObject,  
-   IDebugField** ppResolved  
+   IDebugObject* pObject,  
+   IDebugField** ppResolved  
 );  
 ```  
   
 ```csharp  
 int ResolveRuntimeType(  
-   IDebugObject     pObject,   
-   out IDebugField  ppResolved  
+   IDebugObject     pObject,   
+   out IDebugField  ppResolved  
 );  
 ```  
   

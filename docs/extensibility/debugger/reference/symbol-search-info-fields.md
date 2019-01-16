@@ -1,9 +1,6 @@
 ---
 title: "SYMBOL_SEARCH_INFO_FIELDS | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "SYMBOL_SEARCH_INFO_FIELDS"
@@ -24,8 +21,8 @@ Specifies the kind of symbol information to retrieve.
 ```cpp  
 enum enum_SYMBOL_SEARCH_INFO_FIELDS  
 {  
-   SSIF_NONE                = 0x00000000,  
-   SSIF_VERBOSE_SEARCH_INFO = 0x00000001  
+   SSIF_NONE                = 0x00000000,  
+   SSIF_VERBOSE_SEARCH_INFO = 0x00000001  
 };  
 typedef DWORD SYMBOL_SEARCH_INFO_FIELDS;  
 ```  
@@ -33,8 +30,8 @@ typedef DWORD SYMBOL_SEARCH_INFO_FIELDS;
 ```csharp  
 public enum enum_SYMBOL_SEARCH_INFO_FIELDS  
 {  
-   SSIF_NONE                = 0x00000000,  
-   SSIF_VERBOSE_SEARCH_INFO = 0x00000001  
+   SSIF_NONE                = 0x00000000,  
+   SSIF_VERBOSE_SEARCH_INFO = 0x00000001  
 };  
   
 ```  

@@ -1,9 +1,6 @@
 ---
 title: "IDebugField::GetTypeInfo | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugField::GetTypeInfo"
@@ -23,13 +20,13 @@ This method gets type-independent information about the symbol or type.
   
 ```cpp  
 HRESULT GetTypeInfo(   
-   TYPE_INFO* pTypeInfo  
+   TYPE_INFO* pTypeInfo  
 );  
 ```  
   
 ```csharp  
 int GetTypeInfo(  
-   TYPE_INFO[] pTypeInfo  
+   TYPE_INFO[] pTypeInfo  
 );  
 ```  
   

@@ -1,9 +1,6 @@
 ---
 title: "IDebugSettingsCallback2::GetEEMetricGuid | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugSettingsCallback2::GetEEMetricGuid"
@@ -21,19 +18,19 @@ Retrieves the unique identifier for a expression evaluator metric given its name
   
 ```cpp  
 HRESULT GetEEMetricGuid(  
-   REFGUID guidLang,  
-   REFGUID guidVendor,  
-   LPCWSTR pszMetric,  
-   GUID*   pguidValue  
+   REFGUID guidLang,  
+   REFGUID guidVendor,  
+   LPCWSTR pszMetric,  
+   GUID*   pguidValue  
 );  
 ```  
   
 ```csharp  
 HRESULT GetEEMetricGuid(  
-   ref Guid guidLang,  
-   ref Guid guidVendor,  
-   string   pszMetric,  
-   out Guid pguidValue  
+   ref Guid guidLang,  
+   ref Guid guidVendor,  
+   string   pszMetric,  
+   out Guid pguidValue  
 );  
 ```  
   

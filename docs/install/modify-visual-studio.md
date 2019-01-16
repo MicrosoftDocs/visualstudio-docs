@@ -1,9 +1,9 @@
 ---
-title: "Modify Visual Studio 2017 | Microsoft Docs"
+title: "Modify Visual Studio"
+titleSuffix: ""
 description: "Learn how to modify Visual Studio, step-by-step."
-ms.custom: H1Hack27Feb2017
+ms.custom: "H1Hack27Feb2017,seodec18"
 ms.date: 06/12/2018
-ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
@@ -20,7 +20,7 @@ ms.workload:
 ---
 # Modify Visual Studio 2017 by adding or removing workloads and components
 
-Not only have we made is easier for you to personalize Visual Studio to match the tasks you want to accomplish, we've also made it easier to customize Visual Studio, too. To do so, start the new Visual Studio Installer and make the changes you want.
+Not only have we made it easier for you to personalize Visual Studio to match the tasks you want to accomplish, we've also made it easier to customize Visual Studio, too. To do so, start the new Visual Studio Installer and make the changes you want.
 
 Here's how.
 
@@ -60,16 +60,7 @@ Here's how.
 
 If you don't want to use the handy Workloads feature to customize your Visual Studio installation, choose the **Individual Components** option from the Visual Studio Installer, select what you want and then follow the prompts.
 
-## Get support
-
-Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page for help. You can also contact us for installation help by [live chat](https://visualstudio.microsoft.com/vs/support/#talktous) (English only); for more information, see the [Visual Studio "Contact Us"  page](https://visualstudio.microsoft.com/vs/support/#talktous).
-
-Here are a few more support options:
-
-* You can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
-* You can share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
-* You can track product issues and find answers in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/).
-* You can also engage with us and other Visual Studio developers through the [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio). (This option requires a [GitHub](https://github.com/) account.)
+[!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
 ## See also
 

@@ -1,8 +1,6 @@
 ---
 title: "IDiaSymbol::get_isCTypes | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves a flag indicating whether the symbol file contains C types.
   
 ```C++  
 HRESULT get_isCTypes(  
-   BOOL *pFlag  
+   BOOL *pFlag  
 );  
 ```  
   

@@ -1,9 +1,6 @@
 ---
 title: "INTERCEPT_EXCEPTION_ACTION | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "INTERCEPT_EXCEPTION_ACTION"
@@ -24,7 +21,7 @@ Specifies what actions to take when intercepting exceptions.
 ```cpp  
 enum enum_INTERCEPT_EXCEPTION_ACTION  
 {  
-   IEA_INTERCEPT = 0x0001  
+   IEA_INTERCEPT = 0x0001  
 }  
 typedef DWORD INTERCEPT_EXCEPTION_ACTION;  
 ```  
@@ -32,7 +29,7 @@ typedef DWORD INTERCEPT_EXCEPTION_ACTION;
 ```csharp  
 public enum enum_INTERCEPT_EXCEPTION_ACTION  
 {  
-   IEA_INTERCEPT = 0x0001  
+   IEA_INTERCEPT = 0x0001  
 }  
 ```  
   

@@ -1,24 +1,53 @@
 ---
-title: Visual Studio 2017 build numbers and release dates
-description: "A list of released versions and build numbers for Visual Studio 2017, sorted by date."
+title: Visual Studio build numbers and release dates
+titleSuffix: ""
+description: "A list of released versions and build numbers for Visual Studio 2017 and later, sorted by date."
 keywords:
 author: TerryGLee
 ms.author: tglee
 manager: douge
-ms.date: 08/02/2018
+ms.date: 01/09/2019
 ms.topic: reference
 helpviewer_keywords:
 ms.prod: visual-studio-dev15
-ms.technology: vs-acquisition
+ms.custom: "seodec18"
 ms.workload:
   - "multiple"
 ---
-# Visual Studio 2017 build numbers and release dates
+# Visual Studio build numbers and release dates
+
+## Visual Studio 2017
 
 The following table lists the build numbers and release dates for Visual Studio 2017, to date.
 
 | **Version**| **Channel** | **Release date** | **Build version** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 15.9.5 | Release | January 8, 2019 | 15.9.28307.280 |
+| 15.9.4 | Release | December 11, 2018 | 15.9.28307.222 |
+| 15.0.20 | Release | December 11, 2018 | 15.0.26228.64 |
+| 15.9.3 | Release | November 28, 2018 | 15.9.28307.145 |
+| 15.9.2 | Release | November 19, 2018 | 15.9.28307.108 |
+| 15.9.1 | Release | November 15, 2018 | 15.9.28307.105 |
+| 15.9.0 | Release | November 13, 2018 | 15.9.28307.53 |
+| 15.9.0 Preview 6 | Preview | November 13, 2018 | 15.9.28307.53 |
+| 15.9.0 Preview 5 | Preview | November 6, 2018 | 15.9.28302.56 |
+| 15.8.9 | Release | November 2, 2018 | 15.8.28010.2050 |
+| 15.8.8 | Release | October 24, 2018 | 15.8.28010.2048 |
+| 15.9.0 Preview 4 | Preview | October 23, 2018 | 15.9.28219.56 |
+| 15.8.7 | Release | October 10, 2018 | 15.8.28010.2046 |
+| 15.0.19 | Release | October 10, 2018 | 15.0.26228.57 |
+| 15.9.0 Preview 3 | Preview | October 2, 2018 | 15.9.28128.56 |
+| 15.8.6 | Release | October 2, 2018 | 15.8.28010.2041 |
+| 15.8.5 | Release | September 20, 2018 | 15.8.28010.2036 |
+| 15.9.0 Preview 2 | Preview | September 11, 2018 | 15.9.28107.0 |
+| 15.8.4 | Release | September 11, 2018 | 15.8.28010.2026 |
+| 15.8.3 | Release | September 6, 2018 | 15.8.28010.2019 |
+| 15.8.2 | Release | August 28, 2018 | 15.8.28010.2016 |
+| 15.0.18 | Release | August 28, 2018 | 15.0.26228.52 |
+| 15.9.0 Preview 1 | Preview | August 20, 2018 | 15.9.28016.0 |
+| 15.8.1 | Release | August 17, 2018 | 15.8.28010.2003 |
+| 15.8.0 | Release | August 14, 2018 | 15.8.28010.0 |
+| 15.0.17 | Release | August 14, 2018 | 15.0.26228.49 |
 | 15.7.6 | Release | August 2, 2018 | 15.7.27703.2047 |
 | 15.0.16 | Release | August 2, 2018 | 15.0.26228.48 |
 | 15.8.0 Preview 5 | Preview | July 26, 2018 | 15.8.27924.0 |
@@ -56,35 +85,35 @@ The following table lists the build numbers and release dates for Visual Studio 
 | 15.6.0 Preview 7 | Preview | March 2, 2018 | 15.6.27428.1 |
 | 15.6.0 Preview 6 | Preview | February 23, 2018 | 15.6.27421.1 |
 | 15.0.10 | Release | February 21, 2018 | 15.0.26228.28 |
-| 15.5.7 | Release | February 20, 2018 | 15.5.27130.2036 |
+| 15.5.7 | Release | February 20, 2018 | 15.0.27130.2036 |
 | 15.6.0 Preview 5 | Preview | February 14, 2018 | 15.6.27413.0 |
 | 15.6.0 Preview 4 | Preview | February 7, 2018 | 15.6.27406.0 |
 | 15.0.9 | Release | February 2, 2018 | 15.0.26228.23 |
-| 15.5.6 | Release | January 29, 2018 | 15.5.27130.2027 |
-| 15.5.5 | Release | January 25, 2018 | 15.5.27130.2026 |
+| 15.5.6 | Release | January 29, 2018 | 15.0.27130.2027 |
+| 15.5.5 | Release | January 25, 2018 | 15.0.27130.2026 |
 | 15.6.0 Preview 3 | Preview | January 25, 2018 | 15.6.27323.2 |
-| 15.5.4 | Release | January 16, 2018 | 15.5.27130.2024 |
+| 15.5.4 | Release | January 16, 2018 | 15.0.27130.2024 |
 | 15.6.0 Preview 2 | Preview | January 10, 2018 | 15.6.27309.0 |
-| 15.5.3 | Release |  January 9, 2018 | 15.5.27130.2020 |
+| 15.5.3 | Release |  January 9, 2018 | 15.0.27130.2020 |
 | 15.0.8 | Release |  January 9, 2018 | 15.0.26228.21 |
-| 15.5.2 | Release | December 14, 2017 | 15.5.27130.2010 |
+| 15.5.2 | Release | December 14, 2017 | 15.0.27130.2010 |
 | 15.6.0 Preview 1 | Preview | December 14, 2017 | 15.6.27205.2004 |
-| 15.5.1 | Release | December 7, 2017 | 15.5.27130.2003 |
+| 15.5.1 | Release | December 7, 2017 | 15.0.27130.2003 |
 | 15.6.0 Preview 1 | Preview | December 7, 2017 | 15.6.27205.0 |
 | 15.0.7 | Release | December 6, 2017 | 15.0.26228.18 |
-| 15.5 | Release | December 4, 2017 | 15.5.27130.0 |
-| 15.5.0 Preview 5 | Preview | November 30, 2017 | 15.5.27128.1 |
-| 15.4.5 | Release | November 27, 2017 | 15.4.27004.2010 |
-| 15.5.0 Preview 4 | Preview | November 14, 2017 | 15.5.27110.0 |
-| 15.4.4 | Release | November 14, 2017 | 15.4.27004.2009 |
+| 15.5 | Release | December 4, 2017 | 15.0.27130.0 |
+| 15.5.0 Preview 5 | Preview | November 30, 2017 | 15.0.27128.1 |
+| 15.4.5 | Release | November 27, 2017 | 15.0.27004.2010 |
+| 15.5.0 Preview 4 | Preview | November 14, 2017 | 15.0.27110.0 |
+| 15.4.4 | Release | November 14, 2017 | 15.0.27004.2009 |
 | 15.0.6 | Release | November 14, 2017 | 15.0.26228.17 |
-| 15.4.3 | Release | November 8, 2017 | 15.4.27004.2008 |
-| 15.5.0 Preview 3 | Preview | November 6, 2017 | 15.5.27102.0 |
-| 15.4.2 | Release | October 31, 2017 | 15.4.27004.2006 |
-| 15.5.0 Preview 2 | Preview | October 23, 2017 | 15.5.27019.1 |
-| 15.4.1 | Release | October 19, 2017 | 15.4.27004.2005 |
+| 15.4.3 | Release | November 8, 2017 | 15.0.27004.2008 |
+| 15.5.0 Preview 3 | Preview | November 6, 2017 | 15.0.27102.0 |
+| 15.4.2 | Release | October 31, 2017 | 15.0.27004.2006 |
+| 15.5.0 Preview 2 | Preview | October 23, 2017 | 15.0.27019.1 |
+| 15.4.1 | Release | October 19, 2017 | 15.0.27004.2005 |
 | 15.5 Preview 1 | Preview | October 11, 2017 | 15.0.27009.1 |
-| 15.4 | Release | October 9, 2017 | 15.0.27004.20002 |
+| 15.4 | Release | October 9, 2017 | 15.0.27004.2002 |
 | 15.4 Preview 6 | Preview | October 9, 2017| 15.0.27004.20002 |
 | 15.4 Preview 5 | Preview | October 6, 2017 | 15.0.27004.2000 |
 | 15.4 Preview 4 | Preview | October 2, 2017 | 15.0.26929.2 |
@@ -99,7 +128,7 @@ The following table lists the build numbers and release dates for Visual Studio 
 | 15.3.1 | Release | August 18, 2017 | 15.0.26730.08 |
 | 15.3.1 Preview 1 | Preview | August 18, 2017 | 15.0.26730.08 |
 | 15.3.1  | Release | August 18, 2017 | 15.0.26730.08 |
-| 15.4 Preview 1 | Preview | August 24, 2017 | 15.4.26823.1 |
+| 15.4 Preview 1 | Preview | August 24, 2017 | 15.0.26823.1 |
 | 15.3 | Release | August 14, 2017 | 15.0.26730.3 |
 | 15.3 Preview 7.1 | Preview | August 11, 2017 | 15.0.26730.3 |
 | 15.3 Preview 7 | Preview | August 1, 2017 | 15.0.26730.0 |
@@ -134,16 +163,16 @@ The following table lists the build numbers and release dates for Visual Studio 
 | 15.1 Preview 1 | Preview | March 7, 2017 | 15.0.26304.0 |
 | 15.0.0 | Release | March 7, 2017 | 15.0.26228.4 |
 
-## Get support
+## Visual Studio 2019 Preview
 
-Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page. If none of the troubleshooting steps help, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://visualstudio.microsoft.com/vs/support/#talktous).
+The following table lists the build numbers and release dates for Visual Studio 2019 Preview, to date.
 
-Here are a few more support options:
+| **Version**| **Channel** | **Release date** | **Build version** |
+| ---------------------- | ----------- | ---------------- | ----------------- |
+| 16.0.0 | Preview 1.1 | December 10, 2018 | 16.0.28408.50 |
+| 16.0.0 | Preview 1 | December 4, 2018 | 16.0.28329.73 |
 
-* You can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
-* You can share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
-* You can track product issues and find answers in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/).
-* You can also engage with us and other Visual Studio developers through the [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio). (This option requires a [GitHub](https://github.com/) account.)
+[!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
 ## See also
 

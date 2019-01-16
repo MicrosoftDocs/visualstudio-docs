@@ -1,9 +1,6 @@
 ---
 title: "How to: Programmatically add rows and columns to Word tables"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -12,8 +9,8 @@ helpviewer_keywords:
   - "rows [Office development in Visual Studio], adding to Word tables"
   - "tables [Office development in Visual Studio], adding rows and columns"
   - "columns [Office development in Visual Studio], adding to Word tables"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -26,15 +23,15 @@ ms.workload:
 ## Document-level customization examples  
  The following code examples can be used in a document-level customization. To use these examples, run them from the `ThisDocument` class in your project. These examples assume that the document associated with your customization already has at least one table.  
   
-> [!IMPORTANT]  
+> [!IMPORTANT]
 >  This code runs only in projects that you create by using any of the following project templates:  
->   
-> -   Word 2013 Document  
-> -   Word 2013 Template  
-> -   Word 2010 Document  
-> -   Word 2010 Template  
->   
->  If you want to perform this task in any other type of project, you must add a reference to the **Microsoft.Office.Interop.Word** assembly, and then you must use classes from that assembly to add rows and columns to tables. For more information, see [How to: Target Office applications through primary interop assemblies](../vsto/how-to-target-office-applications-through-primary-interop-assemblies.md) and [Word 2010 primary interop assembly reference](http://go.microsoft.com/fwlink/?LinkId=189588).  
+> 
+> - Word 2013 Document  
+> - Word 2013 Template  
+> - Word 2010 Document  
+> - Word 2010 Template  
+> 
+>   If you want to perform this task in any other type of project, you must add a reference to the **Microsoft.Office.Interop.Word** assembly, and then you must use classes from that assembly to add rows and columns to tables. For more information, see [How to: Target Office applications through primary interop assemblies](../vsto/how-to-target-office-applications-through-primary-interop-assemblies.md) and [Word 2010 primary interop assembly reference](http://go.microsoft.com/fwlink/?LinkId=189588).  
   
 ### To add a row to a table  
   
@@ -76,5 +73,3 @@ ms.workload:
  [How to: Programmatically create Word tables](../vsto/how-to-programmatically-create-word-tables.md)   
  [How to: Programmatically add text and formatting to cells in Word tables](../vsto/how-to-programmatically-add-text-and-formatting-to-cells-in-word-tables.md)   
  [How to: Programmatically populate Word tables with document properties](../vsto/how-to-programmatically-populate-word-tables-with-document-properties.md)  
-  
-  

@@ -1,8 +1,6 @@
 ---
 title: "IDiaSymbol::get_targetVirtualAddress | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves the virtual address (VA) of a thunk target.
   
 ```C++  
 HRESULT get_targetVirtualAddress (   
-   ULONGLONG* pRetVal  
+   ULONGLONG* pRetVal  
 );  
 ```  
   

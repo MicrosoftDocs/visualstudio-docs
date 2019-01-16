@@ -1,9 +1,6 @@
 ---
 title: "IDebugIDECallback::DisplayMessage | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugIDECallback::DisplayMessage"
@@ -21,13 +18,13 @@ Sends the specified message string to the debugger's output window.
   
 ```cpp  
 HRESULT DisplayMessage (  
-   LPCOLESTR szMessage  
+   LPCOLESTR szMessage  
 );  
 ```  
   
 ```csharp  
 int DisplayMessage (  
-   string szMessage  
+   string szMessage  
 );  
 ```  
   

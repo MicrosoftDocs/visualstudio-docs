@@ -1,9 +1,6 @@
 ---
 title: "How to: Open Project-Specific Editors | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "project types, opening a project-specific editor"
@@ -16,17 +13,17 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# How to: Open Project-Specific Editors
+# How to: Open project-specific editors
 If an item file being opened by a project is intrinsically bound to the particular editor for that project, the project must open the file by using a project-specific editor. The file cannot be delegated down to the IDE's mechanism for selecting an editor. For example, instead of using a standard bitmap editor, you can use this project-specific editor option to specify a specific bitmap editor that recognizes information in the file that is unique to your project.  
   
- The IDE calls the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3.OpenItem%2A> method when it determines that a file should be opened by a specific project. For more information, see [Displaying Files By Using the Open File Command](../extensibility/internals/displaying-files-by-using-the-open-file-command.md). Use the following guidelines to implement the `OpenItem` method to have your project open a file by using a project-specific editor.  
+ The IDE calls the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3.OpenItem%2A> method when it determines that a file should be opened by a specific project. For more information, see [Display files by using the Open File command](../extensibility/internals/displaying-files-by-using-the-open-file-command.md). Use the following guidelines to implement the `OpenItem` method to have your project open a file by using a project-specific editor.  
   
-### To implement the OpenItem method with a project-specific editor  
+## To implement the OpenItem method with a project-specific editor  
   
-1.  Call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsRunningDocumentTable.FindAndLockDocument%2A> method (RDT_EditLock) to determine whether the file (document data object) is already open.  
+1.  Call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsRunningDocumentTable.FindAndLockDocument%2A> method (`RDT_EditLock`) to determine whether the file (document data object) is already open.  
   
     > [!NOTE]
-    >  For more information about document data and document view objects, see [Document Data and Document View in Custom Editors](../extensibility/document-data-and-document-view-in-custom-editors.md).  
+    >  For more information about document data and document view objects, see [Document data and document view in custom editors](../extensibility/document-data-and-document-view-in-custom-editors.md).  
   
 2.  If the file is already open, resurface the file by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.IsDocumentOpen%2A> method and specifying a value of IDO_ActivateIfOpen for the `grfIDO` parameter.  
   
@@ -48,7 +45,7 @@ If an item file being opened by a project is intrinsically bound to the particul
   
 6.  Call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame.Show%2A> method to show and open the view.  
   
-## See Also  
- [Opening and Saving Project Items](../extensibility/internals/opening-and-saving-project-items.md)   
- [How to: Open Standard Editors](../extensibility/how-to-open-standard-editors.md)   
- [How to: Open Editors for Open Documents](../extensibility/how-to-open-editors-for-open-documents.md)
+## See also  
+ [Open and Save project items](../extensibility/internals/opening-and-saving-project-items.md)   
+ [How to: Open standard editors](../extensibility/how-to-open-standard-editors.md)   
+ [How to: Open editors for open documents](../extensibility/how-to-open-editors-for-open-documents.md)

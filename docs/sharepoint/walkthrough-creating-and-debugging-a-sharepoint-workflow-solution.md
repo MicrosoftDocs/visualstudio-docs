@@ -1,16 +1,11 @@
 ---
 title: "Walkthrough: Creating and Debugging a SharePoint Workflow Solution | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VS.SharePointTools.Workflow.WorkflowConditions"
   - "VS.SharePointTools.Workflow.WorkflowList"
 dev_langs: 
-  - "VB"
-  - "CSharp"
   - "VB"
   - "CSharp"
 helpviewer_keywords: 
@@ -41,7 +36,7 @@ ms.workload:
 ## Prerequisites  
  You need the following components to complete this walkthrough:  
   
--   Supported editions of Microsoft Windows and SharePoint. For more information, see [Requirements for developing SharePoint solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md).  
+-   Supported editions of Microsoft Windows and SharePoint.  
   
 -   Visual Studio.  
   
@@ -290,4 +285,3 @@ ms.workload:
  [Create SharePoint workflow solutions](../sharepoint/creating-sharepoint-workflow-solutions.md)   
  [SharePoint project and project item templates](../sharepoint/sharepoint-project-and-project-item-templates.md)   
  [Build and debug SharePoint solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)  
-  

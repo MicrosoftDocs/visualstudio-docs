@@ -1,8 +1,6 @@
 ---
 title: "How to: Configure the ClickOnce Trust Prompt Behavior | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -53,11 +51,11 @@ You can configure the ClickOnce trust prompt to control whether end users are gi
   
     1.  Click **Start**, and then click **Run**.  
   
-    2.  In the **Open** box, type `regedit32`, and then click **OK**.  
+    2.  In the **Open** box, type `regedit`, and then click **OK**.  
   
 2.  Find the following registry key:  
   
-     **\HKEY_LOCAL_MACHINE\SOFTWARE\MICROSOFT\.NETFramework\Security\TrustManager\PromptingLevel**  
+     **\HKEY_LOCAL_MACHINE\SOFTWARE\MICROSOFT\\.NETFramework\Security\TrustManager\PromptingLevel**  
   
      If the key does not exist, create it.  
   
@@ -116,7 +114,7 @@ You can configure the ClickOnce trust prompt to control whether end users are gi
   
 2.  Find the following registry key:  
   
-     **\HKEY_LOCAL_MACHINE\SOFTWARE\MICROSOFT\.NETFramework\Security\TrustManager\PromptingLevel** 
+     **\HKEY_LOCAL_MACHINE\SOFTWARE\MICROSOFT\\.NETFramework\Security\TrustManager\PromptingLevel** 
   
      If the key does not exist, create it.  
   

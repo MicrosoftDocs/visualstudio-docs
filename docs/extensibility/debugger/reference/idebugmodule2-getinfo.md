@@ -1,9 +1,6 @@
 ---
 title: "IDebugModule2::GetInfo | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugModule2::GetInfo"
@@ -24,15 +21,15 @@ Gets information about this module.
   
 ```cpp  
 HRESULT GetInfo(   
-   MODULE_INFO_FIELDS dwFields,  
-   MODULE_INFO*       pInfo  
+   MODULE_INFO_FIELDS dwFields,  
+   MODULE_INFO*       pInfo  
 );  
 ```  
   
 ```cpp  
 int GetInfo(   
-   enum_MODULE_INFO_FIELDS dwFields,  
-   MODULE_INFO[]           pInfo  
+   enum_MODULE_INFO_FIELDS dwFields,  
+   MODULE_INFO[]           pInfo  
 );  
 ```  
   

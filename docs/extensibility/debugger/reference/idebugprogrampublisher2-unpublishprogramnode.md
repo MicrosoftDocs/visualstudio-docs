@@ -1,9 +1,6 @@
 ---
 title: "IDebugProgramPublisher2::UnpublishProgramNode | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProgramPublisher2::UnpublishProgramNode"
@@ -23,13 +20,13 @@ Removes a specified program node from availability to debug engines (DEs) and th
   
 ```cpp  
 HRESULT UnpublishProgramNode(  
-   IDebugProgramNode2* pProgramNode  
+   IDebugProgramNode2* pProgramNode  
 );  
 ```  
   
 ```csharp  
 int UnpublishProgramNode(  
-   IDebugProgramNode2 pProgramNode  
+   IDebugProgramNode2 pProgramNode  
 );  
 ```  
   

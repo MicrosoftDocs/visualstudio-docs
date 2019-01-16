@@ -1,9 +1,8 @@
 ---
 title: Options and settings for Python
 description: A reference for the various settings in Visual Studio that relate to Python code and projects.
-ms.date: 06/27/2018
+ms.date: 10/29/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-python
 ms.topic: reference
 f1_keywords: 
   - "VS.ToolsOptionsPages.Python_Tools"
@@ -41,7 +40,7 @@ There are also additional Python-specific options on the **Text Editor** > **Pyt
 | **Show the Output Window when creating virtual environments**| On | Clear to prevent the **Output** window from appearing. |
 | **Show the Output Window when installing or removing packages** | On | Clear to prevent the **Output** window from appearing. |
 | **Always run pip as administrator** | Off | Always elevates `pip install` operations for all environments. When installing packages, Visual Studio prompts for administrator privileges if the environment is located in a protected area of the file system such as *c:\Program Files*. In that prompt you can choose to always elevate `pip install` for just that one environment. See [Packages tab](python-environments-window-tab-reference.md#packages-tab). |
-| **Automatically generate completion DB on first use** | On | *Applies to Visual Studio 2017 version 15.5 and earlier and to later versions when using an IntelliSense database.* Prioritizes completion of the database for a library when you write code that uses it. For more information, see [Environments window reference - Intellisense tab](python-environments-window-tab-reference.md). |
+| **Automatically generate completion DB on first use** | On | *Applies to Visual Studio 2017 version 15.5 and earlier and to later versions when using an IntelliSense database.* Prioritizes completion of the database for a library when you write code that uses it. For more information, see [Intellisense tab](python-environments-window-tab-reference.md#intellisense-tab). |
 | **Ignore system-wide PYTHONPATH variables** | On | PYTHONPATH is ignored by default because Visual Studio provides a more direct means to specify search paths in environments and projects. See [Search paths](search-paths.md) for details. |
 | **Update search paths when adding linked files** | On | When set, adding a [linked file](managing-python-projects-in-visual-studio.md#linked-files) to a project updates [Search paths](search-paths.md) so that IntelliSense can include the contents of the linked file's folder in its completion database. Clear this option to exclude such content from the completion database. |
 | **Warn when imported module cannot be found** | On | Clear this option to suppress warnings when you know an imported module isn't presently available but doesn't otherwise affect code operation. |
@@ -106,7 +105,7 @@ There are also additional Python-specific options on the **Text Editor** > **Pyt
 
 | Option | Default | Description |
 | --- | --- | --- |
-| **Committed by typing the following characters** | **{}[]().,:;+-*/%&&#124;^~=<>#@\\** | These characters typically follow an identifier that one might select from a completion list, so it's convenient to commit the completion simply by typing a character. You can remove or add specific characters to the list as desired.  |
+| **Committed by typing the following characters** | **{}\[\]().,:;+-*/%&&#124;^~=<>#@\\** | These characters typically follow an identifier that one might select from a completion list, so it's convenient to commit the completion simply by typing a character. You can remove or add specific characters to the list as desired.  |
 | **Enter commits current completion** | On | When set, the **Enter** key chooses and applies the currently selected completion as with the characters above (but of course, there isn't a character for **Enter** so it couldn't go into that list directly!). |
 | **Add new line on enter at end of fully typed word** | Off | By default, if you type the entire word that appears in the completion popup and press **Enter**, you commit that completion. By setting this option, you effectively commit completions when you finish typing the identifier, such that **Enter** inserts a new line. |
 

@@ -1,9 +1,9 @@
 ---
 title: "Use command-line parameters to install Visual Studio"
+titleSuffix: ""
 description: "Learn how to use command-line parameters to control or customize your Visual Studio installation."
-ms.custom: ""
-ms.date: 05/07/2018
-ms.technology: vs-acquisition
+ms.date: 11/14/2018
+ms.custom: "seodec18"
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
@@ -27,9 +27,9 @@ When you install Visual Studio 2017 from a command prompt, you can use a variety
 
 The command-line options are used in conjunction with the setup bootstrapper, which is the small (approximately 1MB) file that initiates the download process. The bootstrapper is the first executable that is launched when you download from the Visual Studio site. Use the following links to get a direct link to the latest release bootstrapper for the product edition that you're installing:
 
-* [Visual Studio 2017 Enterprise](https://aka.ms/vs/15/release/vs_enterprise.exe)
-* [Visual Studio 2017 Professional](https://aka.ms/vs/15/release/vs_professional.exe)
-* [Visual Studio 2017 Community](https://aka.ms/vs/15/release/vs_community.exe)
+- [Visual Studio 2017 Enterprise](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=enterprise&rel=15?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=link+cta&utm_content=download+commandline+parameters+vs2017)
+- [Visual Studio 2017 Professional](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=professional&rel=15?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=link+cta&utm_content=download+commandline+parameters+vs2017)
+- [Visual Studio 2017 Community](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=community&rel=15?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=link+cta&utm_content=download+commandline+parameters+vs2017)
 
 ## List of command-line parameters
 
@@ -49,6 +49,7 @@ The command-line options are used in conjunction with the setup bootstrapper, wh
 | `update` | Updates an installed product. |
 | `repair` | Repairs an installed product. |
 | `uninstall` | Uninstalls an installed product. |
+| `export` | **New in 15.9**: Exports installation selection to an installation configuration file. **Note**: Can only be used with vs_installer.exe. |
 
 | **Install option** | **Description** |
 | ----------------------- | --------------- |
@@ -68,6 +69,7 @@ The command-line options are used in conjunction with the setup bootstrapper, wh
 | `--nickname <name>` | **Optional**: This defines the nickname to assign to an installed product. The nickname cannot be longer than 10 characters.  |
 | `--productKey` | **Optional**: This defines the product key to use for an installed product. It is composed of 25 alphanumeric characters either in the format `xxxxx-xxxxx-xxxxx-xxxxx-xxxxx` or `xxxxxxxxxxxxxxxxxxxxxxxxx`. |
 | `--help, --?, -h, -?` | Display an offline version of this page. |
+| `--config <path>` | **Optional** and **New in 15.9**: During an install or modify operation, this determines the workloads and components to add based on a previously saved installation configuration file. This operation is additive and it will not remove any workload or component if they are not present in the file. Also, items that do not apply to the product will not be added. During an export operation, this determines the location to save the installation configuration file. |
 
 > Note: When specifying multiple workloads and components, you must repeat the `--add` or `--remove` command-line switch for each item.
 
@@ -139,20 +141,11 @@ Depending on the result of the operation, the `%ERRORLEVEL%` environment variabl
 
 Each operation generates several log files in the `%TEMP%` directory that indicate the progress of the installation. Sort the folder by date and look for files that begin with `dd_bootstrapper`, `dd_client`, and `dd_setup` for the bootstrapper, the installer app, and the setup engine, respectively.
 
-## Get support
-
-Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page. If none of the troubleshooting steps help, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://visualstudio.microsoft.com/vs/support/#talktous).
-
-Here are a few more support options:
-
-* You can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
-* You can share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
-* You can track product issues and find answers in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/).
-* You can also engage with us and other Visual Studio developers through the [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio). (This option requires a [GitHub](https://github.com/) account.)
+[!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
 ## See also
 
-* [Command-line parameter examples for Visual Studio 2017 installation](command-line-parameter-examples.md)
-* [Create an offline installation of Visual Studio 2017](create-an-offline-installation-of-visual-studio.md)
-* [Automate Visual Studio installation with a response file](automated-installation-with-response-file.md)
-* [Visual Studio 2017 workload and component IDs](workload-and-component-ids.md)
+- [Command-line parameter examples for Visual Studio 2017 installation](command-line-parameter-examples.md)
+- [Create an offline installation of Visual Studio 2017](create-an-offline-installation-of-visual-studio.md)
+- [Automate Visual Studio installation with a response file](automated-installation-with-response-file.md)
+- [Visual Studio 2017 workload and component IDs](workload-and-component-ids.md)

@@ -1,9 +1,6 @@
 ---
 title: "IDebugEngine2::EnumPrograms | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugEngine2::EnumPrograms"
@@ -23,13 +20,13 @@ Retrieves a list of all programs being debugged by a debug engine (DE).
   
 ```cpp  
 HRESULT EnumPrograms(   
-   IEnumDebugPrograms2** ppEnum  
+   IEnumDebugPrograms2** ppEnum  
 );  
 ```  
   
 ```csharp  
 int EnumPrograms(   
-   out IEnumDebugPrograms2 ppEnum  
+   out IEnumDebugPrograms2 ppEnum  
 );  
 ```  
   

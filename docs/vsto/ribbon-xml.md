@@ -1,9 +1,6 @@
 ---
 title: "Ribbon XML"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VSTO.Ribbon.RibbonXMLItem"
@@ -35,11 +32,11 @@ ms.workload:
 ## Add a Ribbon (XML) item to a project  
  You can add a **Ribbon (XML)** item to any Office project from the **Add New Item** dialog box. Visual Studio automatically adds the following files to your project:  
   
--   A Ribbon XML file. This file defines the Ribbon user interface (UI). Use this file to add UI elements such as tabs, groups, and controls. For details, see [Ribbon XML file reference](#RibbonDescriptorFile) later in this topic.  
+- A Ribbon XML file. This file defines the Ribbon user interface (UI). Use this file to add UI elements such as tabs, groups, and controls. For details, see [Ribbon XML file reference](#RibbonDescriptorFile) later in this topic.  
   
--   A Ribbon code file. This file contains the *Ribbon class*. This class has the name that you specified for the **Ribbon (XML)** item in the **Add New Item** dialog box. Microsoft Office applications use an instance of this class to load the custom ribbon. For details, see [Ribbon class reference](#RibbonExtensionClass) later in this topic.  
+- A Ribbon code file. This file contains the *Ribbon class*. This class has the name that you specified for the **Ribbon (XML)** item in the **Add New Item** dialog box. Microsoft Office applications use an instance of this class to load the custom ribbon. For details, see [Ribbon class reference](#RibbonExtensionClass) later in this topic.  
   
- By default, these files add a custom group to the **Add-Ins** tab in the ribbon.  
+  By default, these files add a custom group to the **Add-Ins** tab in the ribbon.  
   
 ## Display the custom ribbon in a Microsoft Office application  
  After you add a **Ribbon (XML)** item to your project, you must add code to the **ThisAddin**, **ThisWorkbook**, or **ThisDocument** class that overrides the `CreateRibbonExtensibilityObject` method and returns the Ribbon XML class to the Office application.  
@@ -72,23 +69,23 @@ ms.workload:
   
  The method that you specify in the attribute can have any name. However, it must match the name of the method that you define in the Ribbon code file.  
   
- There are many different types of callback methods that you can assign to Ribbon controls. For a complete list of the callback methods available for each control, see the technical article [Customize the Office (2007) Ribbon user interface for developers (Part 3 of 3)](http://msdn.microsoft.com/a16c7df5-93f3-4920-baa8-7b7290794c15).  
+ There are many different types of callback methods that you can assign to Ribbon controls. For a complete list of the callback methods available for each control, see the technical article [Customize the Office (2007) Ribbon user interface for developers (Part 3 of 3)](/previous-versions/office/developer/office-2007/aa722523(v=office.12)).  
   
 ###  <a name="CallBackMethods"></a> Define callback methods  
  Define your callback methods in the Ribbon class in the Ribbon code file. A callback method has several requirements:  
   
--   It must be declared as public.  
+- It must be declared as public.  
   
--   Its name must match the name of a callback method that you assigned to a control in the Ribbon XML file.  
+- Its name must match the name of a callback method that you assigned to a control in the Ribbon XML file.  
   
--   Its signature must match the signature of a type of callback method that is available for the associated Ribbon control.  
+- Its signature must match the signature of a type of callback method that is available for the associated Ribbon control.  
   
- For a complete list of the callback method signatures for Ribbon controls, see the technical article [Customize the Office (2007) Ribbon user interface for developers (Part 3 of 3)](http://msdn.microsoft.com/a16c7df5-93f3-4920-baa8-7b7290794c15). Visual Studio does not provide IntelliSense support for callback methods that you create in the Ribbon code file. If you create a callback method that does not match a valid signature, the code will compile, but nothing will occur when the user clicks the control.  
+  For a complete list of the callback method signatures for Ribbon controls, see the technical article [Customize the Office (2007) Ribbon user interface for developers (Part 3 of 3)](/previous-versions/office/developer/office-2007/aa722523(v=office.12)). Visual Studio does not provide IntelliSense support for callback methods that you create in the Ribbon code file. If you create a callback method that does not match a valid signature, the code will compile, but nothing will occur when the user clicks the control.  
   
- All callback methods have a <xref:Microsoft.Office.Core.IRibbonControl> parameter that represents the control that called the method. You can use this parameter to reuse the same callback method for multiple controls. The following code example demonstrates an **onAction** callback method that performs different tasks depending on which control the user clicks.  
+  All callback methods have a <xref:Microsoft.Office.Core.IRibbonControl> parameter that represents the control that called the method. You can use this parameter to reuse the same callback method for multiple controls. The following code example demonstrates an **onAction** callback method that performs different tasks depending on which control the user clicks.  
   
- [!code-csharp[Trin_RibbonOutlookBasic#2](../vsto/codesnippet/CSharp/Trin_RibbonOutlookBasic/Ribbon1.cs#2)]
- [!code-vb[Trin_RibbonOutlookBasic#2](../vsto/codesnippet/VisualBasic/Trin_RibbonOutlookBasic/Ribbon1.vb#2)]  
+  [!code-csharp[Trin_RibbonOutlookBasic#2](../vsto/codesnippet/CSharp/Trin_RibbonOutlookBasic/Ribbon1.cs#2)]
+  [!code-vb[Trin_RibbonOutlookBasic#2](../vsto/codesnippet/VisualBasic/Trin_RibbonOutlookBasic/Ribbon1.vb#2)]  
   
 ##  <a name="RibbonDescriptorFile"></a> Ribbon XML file reference  
  You can define your custom ribbon by adding elements and attributes to the Ribbon XML file. By default, the Ribbon XML file contains the following XML.  
@@ -127,7 +124,7 @@ ms.workload:
 |**id**|**group**|Identifies the group.|  
 |**label**|**group**|Specifies the text that appears on the group.|  
   
- The default elements and attributes in the Ribbon XML file are a small subset of the elements and attributes that are available. For a complete list of the available elements and attributes, see the technical article [Customize the Office (2007) Ribbon user interface for developers (Part 2 of 3)](http://msdn.microsoft.com/6b904f55-525f-4520-9b81-a017db65657b).  
+ The default elements and attributes in the Ribbon XML file are a small subset of the elements and attributes that are available. For a complete list of the available elements and attributes, see the technical article [Customize the Office (2007) Ribbon user interface for developers (Part 2 of 3)](/previous-versions/office/developer/office-2007/aa338199(v=office.12)).  
   
 ##  <a name="RibbonExtensionClass"></a> Ribbon class reference  
  Visual Studio generates the Ribbon class in the Ribbon code file. Add the callback methods for controls on the ribbon to this class. This class implements the <xref:Microsoft.Office.Core.IRibbonExtensibility> interface.  
@@ -137,12 +134,10 @@ ms.workload:
 |Method|Description|  
 |------------|-----------------|  
 |`GetCustomUI`|Returns the contents of the Ribbon XML file. Microsoft Office applications call this method to obtain an XML string that defines the user interface of your custom ribbon. This method implements the <xref:Microsoft.Office.Core.IRibbonExtensibility.GetCustomUI%2A> method. **Note:**  `GetCustomUI` should be implemented only to return the contents of the Ribbon XML file; it should not be used to initialize your VSTO Add-in. In particular, you should not try to display dialog boxes or other windows in your `GetCustomUI` implementation. Otherwise, the custom ribbon might not behave correctly. If you have to run code that initializes your VSTO Add-in, add the code to the `ThisAddIn_Startup` event handler.|  
-|`OnLoad`|Assigns the <xref:Microsoft.Office.Core.IRibbonControl> parameter to the `Ribbon` field. Microsoft Office applications call this method when they load the custom ribbon. You can use this field to dynamically update the custom ribbon. For more information, see the technical article [Customize the Office (2007) Ribbon user interface for developers (Part 1 of 3)](http://msdn.microsoft.com/a4fd6d18-d4a8-4e64-bd89-f437208573d3).|  
+|`OnLoad`|Assigns the <xref:Microsoft.Office.Core.IRibbonControl> parameter to the `Ribbon` field. Microsoft Office applications call this method when they load the custom ribbon. You can use this field to dynamically update the custom ribbon. For more information, see the technical article [Customize the Office (2007) Ribbon user interface for developers (Part 1 of 3)](/previous-versions/office/developer/office-2007/aa338202(v=office.12)).|  
 |`GetResourceText`|Called by the `GetCustomUI` method to obtain the contents of the Ribbon XML file.|  
   
 ## See also  
  [Ribbon overview](../vsto/ribbon-overview.md)   
  [Walkthrough: Create a custom tab by using Ribbon XML](../vsto/walkthrough-creating-a-custom-tab-by-using-ribbon-xml.md)   
  [Office UI customization](../vsto/office-ui-customization.md)  
-  
-  

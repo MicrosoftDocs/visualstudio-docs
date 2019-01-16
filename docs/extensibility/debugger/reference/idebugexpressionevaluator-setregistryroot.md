@@ -1,9 +1,6 @@
 ---
 title: "IDebugExpressionEvaluator::SetRegistryRoot | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugExpressionEvaluator::SetRegistryRoot"
@@ -23,13 +20,13 @@ This method sets the registry root. Used for side-by-side debugging.
   
 ```cpp  
 HRESULT SetRegistryRoot (   
-   LPCOLESTR ustrRegistryRoot  
+   LPCOLESTR ustrRegistryRoot  
 );  
 ```  
   
 ```csharp  
 int SetRegistryRoot(  
-   string ustrRegistryRoot  
+   string ustrRegistryRoot  
 );  
 ```  
   

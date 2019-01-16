@@ -1,9 +1,6 @@
 ---
 title: "Project Configuration for Output | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "project configurations, output"
@@ -39,7 +36,7 @@ Output groups
   
  Note that if a project has an `IVsOutputGroup` that it does not want to package or deploy, it is sufficient to not put that output in a group. The output can still be enumerated normally by implementing the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectCfg.EnumOutputs%2A> method that returns all of a configuration's outputs regardless of grouping.  
   
- For more information, see the implementation of `IVsOutputGroup` in the Custom Project sample at [MPF for Projects](http://mpfproj12.codeplex.com).  
+ For more information, see the implementation of `IVsOutputGroup` in the Custom Project sample at [MPF for Projects](https://github.com/tunnelvisionlabs/MPFProj10).  
   
 ## See Also  
  [Managing Configuration Options](../../extensibility/internals/managing-configuration-options.md)   

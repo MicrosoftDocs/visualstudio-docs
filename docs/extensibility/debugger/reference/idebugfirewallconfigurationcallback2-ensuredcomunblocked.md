@@ -1,9 +1,6 @@
 ---
 title: "IDebugFirewallConfigurationCallback2::EnsureDCOMUnblocked | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "EnsureDCOMUnblocked"
@@ -22,7 +19,7 @@ Requests that the firewall not block remote debugging.
   
 ```cpp  
 HRESULT EnsureDCOMUnblocked(   
-    Void  
+    Void  
 );  
 ```  
   

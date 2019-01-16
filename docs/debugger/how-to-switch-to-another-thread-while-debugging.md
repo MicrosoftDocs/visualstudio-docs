@@ -1,8 +1,7 @@
 ---
-title: "How to: Switch to Another Thread While Debugging | Microsoft Docs"
-ms.custom: ""
+title: "Switch to another thread while debugging"
+ms.custom: "seodec18"
 ms.date: "04/27/2017"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
@@ -18,7 +17,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Switch to Another Thread While Debugging in Visual Studio
+# How to: Switch to Another Thread While Debugging in Visual Studio (C#, Visual Basic, C++)
 When you debug a multithreaded application, you can use any one of several methods to switch from the thread that you have been working with to another thread.
 
 > [!NOTE]

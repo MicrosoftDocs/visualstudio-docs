@@ -1,8 +1,6 @@
 ---
 title: "IDiaEnumTables::Item | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,8 +20,8 @@ Retrieves a table by means of an index or name.
   
 ```C++  
 HRESULT Item (   
-   VARIANT     index,  
-   IDiaTable** table  
+   VARIANT     index,  
+   IDiaTable** table  
 );  
 ```  
   

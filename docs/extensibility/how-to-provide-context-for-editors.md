@@ -1,9 +1,6 @@
 ---
 title: "How to: Provide Context for Editors | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], legacy - provide context"
@@ -14,18 +11,18 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# How to: Provide Context for Editors
-For an editor, the context is active only when the editor has focus or had focus immediately before the focus was moved to a tool window. You can provide context for an editor by doing the following:  
+# How to: Provide context for editors
+For an editor, the context is active only when the editor has focus or had focus immediately before the focus was moved to a tool window. You can provide context for an editor by doing the following tasks:  
   
-1.  Create a context bag.  
+1. Create a context bag.  
   
-2.  Publish the context bag to the selection element identifier (SEID).  
+2. Publish the context bag to the selection element identifier (SEID).  
   
-3.  Maintain the context in the bag.  
+3. Maintain the context in the bag.  
   
- These tasks are covered by the following procedures. For more information about providing context, see **Robust Programming** later in this topic.  
+   These tasks are covered by the following procedures. For more information about providing context, see **Robust Programming** later in this article.  
   
-### To create a context bag for an editor or a designer  
+## To create a context bag for an editor or a designer  
   
 1.  Call `QueryService` on your <xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider> interface for the <xref:Microsoft.VisualStudio.Shell.Interop.SVsMonitorUserContext> service.  
   
@@ -35,7 +32,7 @@ For an editor, the context is active only when the editor has focus or had focus
   
      A pointer to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext> interface is returned.  
   
-3.  Call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext.AddAttribute%2A> method to add attributes, lookup keywords, or F1 keywords to the context or subcontext bag.  
+3.  Call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext.AddAttribute%2A> method to add attributes, lookup keywords, or **F1** keywords to the context or subcontext bag.  
   
 4.  If you are creating a subcontext bag, call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext.AddSubcontext%2A> method to link the subcontext bag to the parent context bag.  
   
@@ -43,7 +40,7 @@ For an editor, the context is active only when the editor has focus or had focus
   
      Having the **Dynamic Help** window call your editor when it is ready to update gives you the opportunity to delay changing the context until the update occurs. Doing this can improve performance because it allows you to delay running time-consuming algorithms until system idle time is available.  
   
-### To publish the context bag to the SEID  
+## To publish the context bag to the SEID  
   
 1.  Call `QueryService` on the <xref:Microsoft.VisualStudio.Shell.Interop.SVsTrackSelectionEx> service to return a pointer to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackSelectionEx> interface.  
   
@@ -51,7 +48,7 @@ For an editor, the context is active only when the editor has focus or had focus
   
 3.  When the editor or designer becomes active, the values in its <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackSelectionEx> object are propagated to the global selection. You only need to complete this process once per session, and then store the pointer to the global context created when you called <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackSelectionEx.OnElementValueChange%2A>.  
   
-### To maintain the context bag  
+## To maintain the context bag  
   
 1.  Implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext> to ensure that the **Dynamic Help** window calls the editor or designer before it updates.  
   
@@ -66,19 +63,19 @@ For an editor, the context is active only when the editor has focus or had focus
   
 3.  Call <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext.AddAttribute%2A> to add context to the active context collection or <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext.RemoveAttribute%2A> to remove context.  
   
-## Robust Programming  
- If you are writing your own editor, then you must complete all three of the procedures in this topic to provide context for the editor.  
+## Robust programming  
+ If you are writing your own editor, then you must complete all three of the procedures in this article to provide context for the editor.  
   
 > [!NOTE]
 >  To properly activate an editor or designer window and to ensure that command routing is updated properly, you must call <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame.Show%2A> on the component to make it the focus window.  
   
  The SEID is a collection of properties that change based on the selection. SEID information is available through the global selection. The global selection is wired into events triggered by the <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackSelectionEx> interface, and has a list of everything that is selected (current editor, current tool window, current hierarchy, and so on).  
   
- For editors and designers, in which context can change whenever the cursor moves within a word, it is inefficient to constantly update the context bag. To make updating more efficient any time you detect the cursor moving within the editor or designer window, you can call <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext.SetDirty%2A>. Doing this allows you to hold your context changes until there is idle time and the IDE's context service sends notification to the editor or designer that the **Dynamic Help** window is updating. This approach is used in the "To maintain the context bag" procedure in this topic.  
+ For editors and designers, in which context can change whenever the cursor moves within a word, it is inefficient to constantly update the context bag. To make updating more efficient any time you detect the cursor moving within the editor or designer window, you can call <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext.SetDirty%2A>. Doing this allows you to hold your context changes until there is idle time and the IDE's context service sends notification to the editor or designer that the **Dynamic Help** window is updating. This approach is used in the **To maintain the context bag** procedure in this article.  
   
- After providing context for activities within your editor or designer, you should provide a specific F1 keyword to allow users to get help for the editor or designer itself.  
+ After providing context for activities within your editor or designer, you should provide a specific **F1** keyword to allow users to get help for the editor or designer itself.  
   
-## See Also  
+## See also  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackSelectionEx.OnElementValueChange%2A>   
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext.AddAttribute%2A>   
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext.AdviseUpdate%2A>   

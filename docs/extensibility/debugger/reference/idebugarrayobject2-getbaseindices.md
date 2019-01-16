@@ -1,9 +1,6 @@
 ---
 title: "IDebugArrayObject2::GetBaseIndices | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "GetBaseIndices"
@@ -22,15 +19,15 @@ Retrieves the base indices (lower bounds) for each index given the number of dim
   
 ```cpp  
 HRESULT GetBaseIndices (  
-   DWORD  dwRank,  
-   DWORD* dwIndices  
+   DWORD  dwRank,  
+   DWORD* dwIndices  
 );  
 ```  
   
 ```csharp  
 int GetBaseIndices (  
-   uint       dwRank,  
-   out uint[] dwIndices  
+   uint       dwRank,  
+   out uint[] dwIndices  
 );  
 ```  
   

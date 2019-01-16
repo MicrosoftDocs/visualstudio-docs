@@ -1,8 +1,6 @@
 ---
 title: "IDiaSectionContrib::get_informational | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves a flag indicating whether a section contains comments or similar infor
   
 ```C++  
 HRESULT get_informational(  
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 };  
 ```  
   

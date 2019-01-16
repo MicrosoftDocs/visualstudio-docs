@@ -1,9 +1,6 @@
 ---
 title: "Visual Studio Debugger Glossary | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "glossary [Debugging SDK]"
@@ -55,31 +52,31 @@ The following are terms used in the [!INCLUDE[vsprvs](../../../code-quality/incl
  pending breakpoint  
  Provides an abstraction for breakpoints before, during, and after code is loaded and a way to virtualize breakpoints. A pending breakpoint:  
   
--   Contains all the information needed to bind a breakpoint to code in one or more programs.  
+- Contains all the information needed to bind a breakpoint to code in one or more programs.  
   
--   May bind to multiple code locations in one or more programs.  
+- May bind to multiple code locations in one or more programs.  
   
--   Never binds itself to code.  
+- Never binds itself to code.  
   
- Each time code loads, all pending breakpoints in a program are checked to see if they can bind. A pending breakpoint is said to contain all bound breakpoints that it binds.  
+  Each time code loads, all pending breakpoints in a program are checked to see if they can bind. A pending breakpoint is said to contain all bound breakpoints that it binds.  
   
- process  
- A physical Win32 process. A process can contain multiple programs. See also *program*.  
+  process  
+  A physical Win32 process. A process can contain multiple programs. See also *program*.  
   
- program  
- A single namespace running inside a particular run-time architecture. See also *process*.  
+  program  
+  A single namespace running inside a particular run-time architecture. See also *process*.  
   
- session debug manager (SDM)  
- Manages any number of debug engines debugging any number of programs in multiple processes on any number of machines. At the basic level, the SDM is a multiplexer of debug engines. Additionally, the SDM provides a unified view of the debugging session to the IDE.  
+  session debug manager (SDM)  
+  Manages any number of debug engines debugging any number of programs in multiple processes on any number of machines. At the basic level, the SDM is a multiplexer of debug engines. Additionally, the SDM provides a unified view of the debugging session to the IDE.  
   
- stack frame  
- Represents the state of computation on a particular frame and particular level of nested function calls.  
+  stack frame  
+  Represents the state of computation on a particular frame and particular level of nested function calls.  
   
- thread  
- The generalized notion of stack-based instruction execution running in at least one program.  
+  thread  
+  The generalized notion of stack-based instruction execution running in at least one program.  
   
- warning breakpoint  
- An abstraction for describing a warning in a pending breakpoint. A warning breakpoint describes a reason why the pending breakpoint has not yet bound to a code location. This may be that the code has not loaded yet for the location described by the pending breakpoint, or for some other reason.  
+  warning breakpoint  
+  An abstraction for describing a warning in a pending breakpoint. A warning breakpoint describes a reason why the pending breakpoint has not yet bound to a code location. This may be that the code has not loaded yet for the location described by the pending breakpoint, or for some other reason.  
   
 ## See Also  
  [Visual Studio Debugger Extensibility](../../../extensibility/debugger/visual-studio-debugger-extensibility.md)

@@ -1,9 +1,6 @@
 ---
 title: "IDebugThread2::GetThreadId | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugThread2::GetThreadId"
@@ -23,13 +20,13 @@ Gets the system thread identifier.
   
 ```cpp  
 HRESULT GetThreadId (   
-   DWORD* pdwThreadId  
+   DWORD* pdwThreadId  
 );  
 ```  
   
 ```csharp  
 int GetThreadId (   
-   out uint pdwThreadId  
+   out uint pdwThreadId  
 );  
 ```  
   

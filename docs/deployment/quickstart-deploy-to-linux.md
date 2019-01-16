@@ -1,8 +1,6 @@
 ---
 title: Publish to App Service on Linux
-ms.custom: ""
 ms.date: 07/23/2018
-ms.technology: vs-ide-deployment
 ms.topic: "quickstart"
 helpviewer_keywords:
   - "deployment, website"

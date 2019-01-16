@@ -1,9 +1,6 @@
 ---
 title: "IDebugObject2::IsUserData | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugObject2::IsUserData"
@@ -23,13 +20,13 @@ Determines whether the object represents user data.
   
 ```cpp  
 HRESULT IsUserData(  
-   BOOL* pfUser  
+   BOOL* pfUser  
 );  
 ```  
   
 ```csharp  
 int IsUserData(  
-   out int pfUser  
+   out int pfUser  
 );  
 ```  
   

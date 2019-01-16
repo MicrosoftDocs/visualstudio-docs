@@ -1,5 +1,5 @@
 ---
-title: "Add a data source to a web performance test in Visual Studio"
+title: "Add a data source to a web performance test"
 ms.date: 10/03/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -10,21 +10,22 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ---
 # Add a data source to a web performance test
 
 Bind data to provide different values to the same test, for example, to provide different values to your form post parameters.
 
- ![Binding data to a web performance test](../test/media/web_test_databinding_conceptual.png)
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
- We’re going to use a sample ASP.NET app. It has three *.aspx* pages – the default page, a Red page, and a Blue page. The default page has a radio control to choose either red or blue and a submit button. The other two *.aspx* pages are very simple. One has a label named Red and the other has a label named Blue. When you choose submit on the default page, we display one of the other pages. You can download the [ColorWebApp](http://code.msdn.microsoft.com/Sample-ColorWebApp-76ff7506) sample, or just follow along with your own web app.
+![Binding data to a web performance test](../test/media/web_test_databinding_conceptual.png)
 
- ![Running the web app to be tested](../test/media/web_test_databinding_runwebapp.png)
+We’re going to use a sample ASP.NET app. It has three *.aspx* pages – the default page, a Red page, and a Blue page. The default page has a radio control to choose either red or blue and a submit button. The other two *.aspx* pages are very simple. One has a label named Red and the other has a label named Blue. When you choose submit on the default page, we display one of the other pages. You can download the [ColorWebApp](https://code.msdn.microsoft.com/Sample-ColorWebApp-76ff7506) sample, or just follow along with your own web app.
 
- Your solution should also include a web performance test that browses through the pages of the web application.
+![Running the web app to be tested](../test/media/web_test_databinding_runwebapp.png)
 
- ![Solution with web performance test](../test/media/web_test_databinding_solution.png)
+Your solution should also include a web performance test that browses through the pages of the web application.
+
+![Solution with web performance test](../test/media/web_test_databinding_solution.png)
 
 ## Create a SQL database
 
@@ -258,11 +259,11 @@ Bind data to provide different values to the same test, for example, to provide 
     ```xml
     <?xml version="1.0" encoding="utf-8"?>
     <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
-        <soap:Body>
-            <CheckStatus xmlns="http://tempuri.org/">
-                <userName>string</userName> <password>string</password> <orderID>int</orderID>
-            </CheckStatus>
-        </soap:Body>
+        <soap:Body>
+            <CheckStatus xmlns="http://tempuri.org/">
+                <userName>string</userName> <password>string</password> <orderID>int</orderID>
+            </CheckStatus>
+        </soap:Body>
     </soap:Envelope>
     ```
 
@@ -271,11 +272,11 @@ Bind data to provide different values to the same test, for example, to provide 
     ```xml
     <?xml version="1.0" encoding="utf-8"?>
     <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
-        <soap:Body>
-            <CheckStatus xmlns="http://tempuri.org/">
-                <userName>{{DataSourceName.Users.Name}}</userName> <password>{{DataSourceName.Users.Password}}</password> <orderID>{{DataSourceName.Orders.OrderID}}</orderID>
-            </CheckStatus>
-        </soap:Body>
+        <soap:Body>
+            <CheckStatus xmlns="http://tempuri.org/">
+                <userName>{{DataSourceName.Users.Name}}</userName> <password>{{DataSourceName.Users.Password}}</password> <orderID>{{DataSourceName.Orders.OrderID}}</orderID>
+            </CheckStatus>
+        </soap:Body>
     </soap:Envelope>
     ```
 

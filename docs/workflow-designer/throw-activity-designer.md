@@ -3,7 +3,6 @@ title: "Workflow Designer - Throw Activity Designer"
 ms.date: 11/04/2016
 ms.topic: reference
 ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 f1_keywords:
   - "System.Activities.Statements.Throw.UI"
 ms.assetid: 5e97c947-be39-4a1f-af04-000e2e09528a
@@ -32,7 +31,7 @@ The **Throw** activity designer can be dragged from the **Toolbox** and dropped 
 The following table shows the <xref:System.Activities.Statements.Throw> properties and describes how they are used in the designer.
 
 |Property Name|Required|Usage|
-|-------------------|--------------|-----------|
+|-|--------------|-|
 |<xref:System.Activities.Activity.DisplayName%2A>|False|Specifies the optional friendly name of the <xref:System.Activities.Statements.Throw> activity. The default is Throw.|
 |<xref:System.Activities.Statements.Throw.Exception%2A>|True|The exception to throw. This exception must derive from <xref:System.Exception>. To specify the exception, type a Visual Basic expression in the property grid.|
 

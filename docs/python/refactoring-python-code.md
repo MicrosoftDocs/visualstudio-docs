@@ -1,13 +1,13 @@
 ---
-title: Refactoring Python code
-description: How to easily refactor Python code in Visual Studio by renaming identifiers, extracting methods, adding imports, and removing unused imports.
-ms.date: 06/26/2018
+title: Refactor Python code
+description: Visual Studio makes it easy to refactor Python code by renaming identifiers, extracting methods, adding imports, and removing unused imports.
+ms.date: 11/12/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-python
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
 manager: douge
+ms.custom: seodec18
 ms.workload: 
   - python
   - data-science
@@ -25,27 +25,27 @@ Visual Studio provides several commands for automatically transforming and clean
 ## Rename
 
 1. Right-click the identifier you wish to rename and select **Rename**, or place the caret in that identifier and select the **Edit** > **Refactor** > **Rename** menu command (**F2**).
-1. In the **Rename** dialog that appears, enter the new name for the identifier and select **OK**:
+2. In the **Rename** dialog that appears, enter the new name for the identifier and select **OK**:
 
-  ![Rename prompt for new identifer name](media/code-refactor-rename-1.png)
+   ![Rename prompt for new identifer name](media/code-refactor-rename-1.png)
 
-1. In the next dialog, select the files and instances in your code to which to apply the renaming; select any individual instance to preview the specific change:
+3. In the next dialog, select the files and instances in your code to which to apply the renaming; select any individual instance to preview the specific change:
 
-  ![Rename dialog to select where to apply the changes](media/code-refactor-rename-2.png)
+   ![Rename dialog to select where to apply the changes](media/code-refactor-rename-2.png)
 
-1. Select **Apply** to make the changes to your source code files. (This action can be undone.)
+4. Select **Apply** to make the changes to your source code files. (This action can be undone.)
 
 ## Extract method
 
 1. Select the lines of code or the expression to extract into a separate method.
-1. Select the **Edit** > **Refactor** > **Extract method** menu command or type **Ctrl**+**R** > **M**.
-1. In the dialog that appears, enter a new method name, indicate where to extract it to, and select any closure variables. Variables not selected for closure are turned into method arguments:
+2. Select the **Edit** > **Refactor** > **Extract method** menu command or type **Ctrl**+**R** > **M**.
+3. In the dialog that appears, enter a new method name, indicate where to extract it to, and select any closure variables. Variables not selected for closure are turned into method arguments:
 
-  ![Extract method dialog](media/code-refactor-extract-method-1.png)
+   ![Extract method dialog](media/code-refactor-extract-method-1.png)
 
-1. Select **OK** and the code is modified accordingly:
+4. Select **OK** and the code is modified accordingly:
 
-  ![Effect of extracting a method](media/code-refactor-extract-method-2.png)
+   ![Effect of extracting a method](media/code-refactor-extract-method-2.png)
 
 ## Add import
 

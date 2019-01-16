@@ -1,9 +1,6 @@
 ---
 title: "IEEVisualizerDataProvider::GetObjectForVisualizer | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IEEVisualizerDataProvider::GetObjectForVisualizer"
@@ -23,13 +20,13 @@ This method gets the object that this visualizer represents.
   
 ```cpp  
 HRESULT GetObjectForVisualizer(  
-   IDebugObject** ppObject  
+   IDebugObject** ppObject  
 );  
 ```  
   
 ```csharp  
 int GetObjectForVisualizer(  
-   out IDebugObject ppObject  
+   out IDebugObject ppObject  
 );  
 ```  
   

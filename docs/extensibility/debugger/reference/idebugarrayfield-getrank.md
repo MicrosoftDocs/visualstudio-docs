@@ -1,9 +1,6 @@
 ---
 title: "IDebugArrayField::GetRank | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugArrayField::GetRank"
@@ -23,13 +20,13 @@ Gets the rank or number of dimensions of the array.
   
 ```cpp  
 HRESULT GetRank(   
-   DWORD* pdwRank  
+   DWORD* pdwRank  
 );  
 ```  
   
 ```csharp  
 int GetRank(  
-   out uint pdwRank  
+   out uint pdwRank  
 );  
 ```  
   

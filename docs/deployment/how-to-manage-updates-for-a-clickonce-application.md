@@ -1,8 +1,6 @@
 ---
 title: "How to: Manage Updates for a ClickOnce Application | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 f1_keywords: 
   - "Microsoft.VisualStudio.Publish.ClickOnceProvider.Dialog.Update"
@@ -103,7 +101,7 @@ ms.workload:
   
 ## See also  
  <xref:System.Deployment.Application.ApplicationDeployment>   
- [Application updates dialog box](http://msdn.microsoft.com/en-us/8eca8743-8e68-4d04-bfd5-4dc0a9b2934f)   
+ [Application updates dialog box](/previous-versions/visualstudio/visual-studio-2010/axw1fa38(v=vs.100))   
  [Choose a ClickOnce update strategy](../deployment/choosing-a-clickonce-update-strategy.md)   
  [Publish ClickOnce aplications](../deployment/publishing-clickonce-applications.md)   
  [How to: Publish a ClickOnce application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)   

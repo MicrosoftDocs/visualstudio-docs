@@ -1,9 +1,6 @@
 ---
 title: "BP_ERROR_RESOLUTION_INFO | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "BP_ERROR_RESOLUTION_INFO"
@@ -23,23 +20,23 @@ Describes the resolution of an error breakpoint, including location, program, an
   
 ```cpp  
 typedef struct _BP_ERROR_RESOLUTION_INFO {   
-   BPERESI_FIELDS         dwFields;  
-   BP_RESOLUTION_LOCATION bpResLocation;  
-   IDebugProgram2*        pProgram;  
-   IDebugThread2*         pThread;  
-   BSTR                   bstrMessage;  
-   BP_ERROR_TYPE          dwType;  
+   BPERESI_FIELDS         dwFields;  
+   BP_RESOLUTION_LOCATION bpResLocation;  
+   IDebugProgram2*        pProgram;  
+   IDebugThread2*         pThread;  
+   BSTR                   bstrMessage;  
+   BP_ERROR_TYPE          dwType;  
 } BP_ERROR_RESOLUTION_INFO;  
 ```  
   
 ```csharp  
 public struct BP_ERROR_RESOLUTION_INFO {   
-   public uint                   dwFields;  
-   public BP_RESOLUTION_LOCATION bpResLocation;  
-   public IDebugProgram2         pProgram;  
-   public IDebugThread2          pThread;  
-   public string                 bstrMessage;  
-   public uint                   dwType;  
+   public uint                   dwFields;  
+   public BP_RESOLUTION_LOCATION bpResLocation;  
+   public IDebugProgram2         pProgram;  
+   public IDebugThread2          pThread;  
+   public string                 bstrMessage;  
+   public uint                   dwType;  
 };  
 ```  
   

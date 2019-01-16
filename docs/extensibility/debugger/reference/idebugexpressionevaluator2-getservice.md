@@ -1,9 +1,6 @@
 ---
 title: "IDebugExpressionEvaluator2::GetService | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugExpressionEvaluator2::GetService"
@@ -22,15 +19,15 @@ Retrieves a service object given its unique identifier.
   
 ```cpp  
 HRESULT GetService (  
-   GUID        uid,  
-   IUnknown ** ppService  
+   GUID        uid,  
+   IUnknown ** ppService  
 );  
 ```  
   
 ```csharp  
 int GetService (  
-   Guid       uid,  
-   out object ppService  
+   Guid       uid,  
+   out object ppService  
 );  
 ```  
   

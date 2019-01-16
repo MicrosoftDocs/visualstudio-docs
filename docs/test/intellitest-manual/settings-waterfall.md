@@ -2,7 +2,6 @@
 title: "Settings waterfall | Microsoft IntelliTest Developer Test Tool"
 ms.date: 05/02/2017
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 helpviewer_keywords: 
   - "IntelliTest, Settings waterfall"
@@ -44,4 +43,4 @@ namespace MyTests
 
 ## Got feedback?
 
-Post your ideas and feature requests on [UserVoice](https://visualstudio.uservoice.com/forums/121579-visual-studio-2015/category/157869-test-tools?query=IntelliTest).
+Post your ideas and feature requests on [Developer Community](https://developercommunity.visualstudio.com/content/idea/post.html?space=8).

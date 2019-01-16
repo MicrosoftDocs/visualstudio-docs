@@ -1,9 +1,6 @@
 ---
 title: "Walkthrough: Design an Outlook form region"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -39,11 +36,11 @@ ms.workload:
 ## Prerequisites  
  You need the following components to complete this walkthrough:  
   
--   [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]  
+- [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]  
   
--   [!INCLUDE[Outlook_15_short](../vsto/includes/outlook-15-short-md.md)] or [!INCLUDE[Outlook_14_short](../vsto/includes/outlook-14-short-md.md)].  
+- [!INCLUDE[Outlook_15_short](../vsto/includes/outlook-15-short-md.md)] or [!INCLUDE[Outlook_14_short](../vsto/includes/outlook-14-short-md.md)].  
   
- ![link to video](../vsto/media/playvideo.gif "link to video") For a video version of this topic, see [Video how to: Design an Outlook form region](http://go.microsoft.com/fwlink/?LinkID=140824).  
+  ![link to video](../vsto/media/playvideo.gif "link to video") For a video version of this topic, see [Video how to: Design an Outlook form region](http://go.microsoft.com/fwlink/?LinkID=140824).  
   
 ## Create a new Outlook VSTO Add-in project  
  First create a basic VSTO Add-in project.  
@@ -111,24 +108,24 @@ ms.workload:
   
 ### To customize the behavior of the form region  
   
-1.  In **Solution Explorer**, right click *MapIt.cs* or *MapIt.vb*, and then click **View Code**.  
+1. In **Solution Explorer**, right click *MapIt.cs* or *MapIt.vb*, and then click **View Code**.  
   
-     *MapIt.cs* or *MapIt.vb* opens in the Code Editor.  
+    *MapIt.cs* or *MapIt.vb* opens in the Code Editor.  
   
-2.  Expand the **Form Region Factory** code region.  
+2. Expand the **Form Region Factory** code region.  
   
-     The form region factory class named `MapItFactory` is exposed.  
+    The form region factory class named `MapItFactory` is exposed.  
   
-3.  Add the following code to the `MapItFactory_FormRegionInitializing` event handler. This event handler is called when the user opens a contact item. The following code determines whether the contact item contains an address. If the contact item does not contain an address, this code sets the <xref:System.ComponentModel.CancelEventArgs.Cancel%2A> property of the <xref:Microsoft.Office.Tools.Outlook.FormRegionInitializingEventArgs> class to **true** and the form region is not displayed. Otherwise, the VSTO Add-in raises the <xref:Microsoft.Office.Tools.Outlook.FormRegionControl.FormRegionShowing> event and displays the form region.  
+3. Add the following code to the `MapItFactory_FormRegionInitializing` event handler. This event handler is called when the user opens a contact item. The following code determines whether the contact item contains an address. If the contact item does not contain an address, this code sets the <xref:System.ComponentModel.CancelEventArgs.Cancel%2A> property of the <xref:Microsoft.Office.Tools.Outlook.FormRegionInitializingEventArgs> class to **true** and the form region is not displayed. Otherwise, the VSTO Add-in raises the <xref:Microsoft.Office.Tools.Outlook.FormRegionControl.FormRegionShowing> event and displays the form region.  
   
-     [!code-csharp[Trin_Outlook_FR_Separate#1](../vsto/codesnippet/CSharp/Trin_Outlook_FR_Separate_O12/MapIt.cs#1)]
-     [!code-vb[Trin_Outlook_FR_Separate#1](../vsto/codesnippet/VisualBasic/Trin_Outlook_FR_Separate_O12/MapIt.vb#1)]  
+    [!code-csharp[Trin_Outlook_FR_Separate#1](../vsto/codesnippet/CSharp/Trin_Outlook_FR_Separate_O12/MapIt.cs#1)]
+    [!code-vb[Trin_Outlook_FR_Separate#1](../vsto/codesnippet/VisualBasic/Trin_Outlook_FR_Separate_O12/MapIt.vb#1)]  
   
-4.  Add the following code to the <xref:Microsoft.Office.Tools.Outlook.FormRegionControl.FormRegionShowing> event handler. This code performs the following tasks:  
+4. Add the following code to the <xref:Microsoft.Office.Tools.Outlook.FormRegionControl.FormRegionShowing> event handler. This code performs the following tasks:  
   
-    -   Concatenates each address in the contact item and creates a URL string.  
+   - Concatenates each address in the contact item and creates a URL string.  
   
-    -   Calls the <xref:System.Windows.Forms.WebBrowser.Navigate%2A> method of the <xref:System.Windows.Forms.WebBrowser> object and passes the URL string as a parameter.  
+   - Calls the <xref:System.Windows.Forms.WebBrowser.Navigate%2A> method of the <xref:System.Windows.Forms.WebBrowser> object and passes the URL string as a parameter.  
   
      The Local Search Web site appears in the Map It form region and presents each address in the scratch pad.  
   
@@ -176,5 +173,3 @@ ms.workload:
  [Associate a form region with an Outlook message class](../vsto/associating-a-form-region-with-an-outlook-message-class.md)   
  [Custom actions in Outlook form regions](../vsto/custom-actions-in-outlook-form-regions.md)   
  [How to: Prevent Outlook from displaying a form region](../vsto/how-to-prevent-outlook-from-displaying-a-form-region.md)  
-  
-  

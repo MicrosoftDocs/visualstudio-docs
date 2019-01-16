@@ -1,11 +1,11 @@
 ---
 layout: LandingPage
-author: jasongroce
-ms.author: apexprodleads
-ms.technology: vs-ide-sdk
-ms.topic: landing-page
-title: Visual Studio Extensibility Documentation | Microsoft Docs
+title: Visual Studio Extensibility
 description: Learn about Visual Studio extensibility.
+author: gregvanl
+ms.author: gregvanl
+ms.date: 10/31/2018
+ms.topic: landing-page
 ms.workload: 
   - apexprodleads
 ---
@@ -43,7 +43,7 @@ Visual Studio gives you a lot of extensibility options. You can extend Visual St
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>.NET Compiler Platform ("Roslyn") Extensibility</h3>
+                        <h3>.NET Compiler Platform (&quot;Roslyn&quot;) Extensibility</h3>
                     </div>
                 </div>
             </div>

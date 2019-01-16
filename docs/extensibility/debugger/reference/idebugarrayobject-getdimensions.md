@@ -1,9 +1,6 @@
 ---
 title: "IDebugArrayObject::GetDimensions | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugArrayObject::GetDimensions"
@@ -23,15 +20,15 @@ Gets the dimensions of the array.
   
 ```cpp  
 HRESULT GetDimensions(   
-   DWORD dwCount,  
-   DWORD dwDimensions[]  
+   DWORD dwCount,  
+   DWORD dwDimensions[]  
 );  
 ```  
   
 ```csharp  
 int GetDimensions(  
-   [In] uint    dwCount,   
-   [Out] uint[] dwDimensions  
+   [In] uint    dwCount,   
+   [Out] uint[] dwDimensions  
 );  
 ```  
   

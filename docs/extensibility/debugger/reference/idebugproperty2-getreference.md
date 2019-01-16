@@ -1,9 +1,6 @@
 ---
 title: "IDebugProperty2::GetReference | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProperty2::GetReference"
@@ -23,13 +20,13 @@ Returns a reference to the property's value.
   
 ```cpp  
 HRESULT GetReference(  
-   IDebugReference2** ppReference  
+   IDebugReference2** ppReference  
 );  
 ```  
   
 ```csharp  
 int GetReference(  
-   out IDebugReference2 ppReference  
+   out IDebugReference2 ppReference  
 );  
 ```  
   

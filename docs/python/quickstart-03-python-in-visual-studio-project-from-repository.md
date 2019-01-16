@@ -1,13 +1,13 @@
 ---
 title: Quickstart - Clone a repository of Python code
 description: In this quickstart, you create a Python project in Visual Studio by cloning the Python koans repository using Visual Studio Team Explorer.
-ms.date: 06/26/2018
+ms.date: 12/06/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-python
 ms.topic: quickstart
 author: kraigb
 ms.author: kraigb
 manager: douge
+ms.custom: seodec18
 ms.workload: 
   - python
   - data-science
@@ -25,14 +25,14 @@ Once you've [installed Python support in Visual Studio 2017](installing-python-s
 
 1. Launch Visual Studio.
 
-1. Select **View** > **Team Explorer** to open the **Team Explorer** window in which you can connect to GitHub or Visual Studio Team Services, or clone a repository. (If you don't see the **Connect** page shown below, select the plug icon on the top toolbar, which takes you to that page.)
+1. Select **View** > **Team Explorer** to open the **Team Explorer** window in which you can connect to GitHub or Azure Repos, or clone a repository. (If you don't see the **Connect** page shown below, select the plug icon on the top toolbar, which takes you to that page.)
 
-    ![Team explorer window showing Visual Studio Team Services, GitHub, and cloning a repository](media/team-explorer.png)
+    ![Team explorer window showing Azure Repos, GitHub, and cloning a repository](media/team-explorer.png)
 
 1. Under **Local Git Repositories**, select the **Clone** command, then enter `https://github.com/gregmalcolm/python_koans` in the URL field, enter a folder for the cloned files, and select the **Clone** button.
 
     > [!Tip]
-    > The folder you specify in Team Explorer is the exact folder to receive the cloned files. Unlike the `git clone` command, creating a clone in Team Explorer does not automatically create a subfolder with the name of the repository.
+    > The folder you specify in **Team Explorer** is the exact folder to receive the cloned files. Unlike the `git clone` command, creating a clone in **Team Explorer** does not automatically create a subfolder with the name of the repository.
 
 1. When cloning is complete, the repository name appears in the **Local Git Repositories** list. Double-click that name to navigate to the repository dashboard in **Team Explorer**.
 
@@ -52,7 +52,7 @@ Once you've [installed Python support in Visual Studio 2017](installing-python-s
 
 1. Press **Ctrl**+**F5** or select **Debug** > **Start without Debugging** to run the program. If you see a **FileNotFoundError** for *koans.txt*, check the working directory setting as described in the previous step.
 
-1. When the program runs successfully, it displays an assertion error on line 17 of *python3/koans/about_asserts.py*. This is intentional: the program is designed to teach Python by having you correct all the intentional errors. (More details are found on [Ruby Koans](http://rubykoans.com/), which inspired Python Koans.)
+1. When the program runs successfully, it displays an assertion error on line 17 of *python3/koans/about_asserts.py*. This is intentional: the program is designed to teach Python by having you correct all the intentional errors. (More details are found on [Ruby Koans](https://rubykoans.com/), which inspired Python Koans.)
 
     ![First output from the Python koans program](media/koans-output.png)
 

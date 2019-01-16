@@ -1,8 +1,6 @@
 ---
 title: "IDiaAddressMap::set_imageHeaders | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,9 +20,9 @@ Sets image headers to enable relative virtual address translation.
   
 ```C++  
 HRESULT set_imageHeaders (   
-   DWORD cbData,  
-   BYTE  data[],  
-   BOOL  originalHeaders  
+   DWORD cbData,  
+   BYTE  data[],  
+   BOOL  originalHeaders  
 );  
 ```  
   

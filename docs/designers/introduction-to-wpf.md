@@ -2,7 +2,6 @@
 title: Introduction to WPF
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-designers
 ms.topic: conceptual
 ms.assetid: b8d7cf43-d1f2-4f3d-adb0-4f3a6428edc0
 author: gewarren
@@ -14,15 +13,15 @@ dev_langs:
 ms.workload:
   - "multiple"
 ---
-# Introduction to WPF
+# WPF overview
 
 Windows Presentation Foundation (WPF) lets you create desktop client applications for Windows with visually stunning user experiences.
 
- ![Contoso Healthcare UI sample](../designers/media/wpfintrofigure24.png)
+![Contoso Healthcare UI sample](../designers/media/wpfintrofigure24.png)
 
- The core of WPF is a resolution-independent and vector-based rendering engine that is built to take advantage of modern graphics hardware. WPF extends the core with a comprehensive set of application-development features that include Extensible Application Markup Language (XAML), controls, data binding, layout, 2D and 3D graphics, animation, styles, templates, documents, media, text, and typography. WPF is included in the .NET Framework, so you can build applications that incorporate other elements of the .NET Framework class library.
+The core of WPF is a resolution-independent and vector-based rendering engine that is built to take advantage of modern graphics hardware. WPF extends the core with a comprehensive set of application-development features that include Extensible Application Markup Language (XAML), controls, data binding, layout, 2D and 3D graphics, animation, styles, templates, documents, media, text, and typography. WPF is included in the .NET Framework, so you can build applications that incorporate other elements of the .NET Framework class library.
 
- This overview is intended for newcomers and covers the key capabilities and concepts of WPF.
+This overview is intended for newcomers and covers the key capabilities and concepts of WPF.
 
 ## Program with WPF
 
@@ -44,7 +43,7 @@ WPF lets you develop an application using both *markup* and *code-behind*, an ex
 
 XAML is an XML-based markup language that implements an application's appearance declaratively. You typically use it to create windows, dialog boxes, pages, and user controls, and to fill them with controls, shapes, and graphics.
 
- The following example uses XAML to implement the appearance of a window that contains a single button.
+The following example uses XAML to implement the appearance of a window that contains a single button.
 
 ```xaml
 <Window
@@ -58,13 +57,13 @@ XAML is an XML-based markup language that implements an application's appearance
 </Window>
 ```
 
- Specifically, this XAML defines a window and a button by using the `Window` and `Button` elements, respectively. Each element is configured with attributes, such as the `Window` element's `Title` attribute to specify the window's title-bar text. At run time, WPF converts the elements and attributes that are defined in markup to instances of WPF classes. For example, the `Window` element is converted to an instance of the <xref:System.Windows.Window> class whose <xref:System.Windows.Window.Title%2A> property is the value of the `Title` attribute.
+Specifically, this XAML defines a window and a button by using the `Window` and `Button` elements, respectively. Each element is configured with attributes, such as the `Window` element's `Title` attribute to specify the window's title-bar text. At run time, WPF converts the elements and attributes that are defined in markup to instances of WPF classes. For example, the `Window` element is converted to an instance of the <xref:System.Windows.Window> class whose <xref:System.Windows.Window.Title%2A> property is the value of the `Title` attribute.
 
- The following figure shows the user interface (UI) that is defined by the XAML in the previous example.
+The following figure shows the user interface (UI) that is defined by the XAML in the previous example.
 
- ![A window that contains a button](../designers/media/wpfintrofigure10.png)
+![A window that contains a button](../designers/media/wpfintrofigure10.png)
 
- Since XAML is XML-based, the UI that you compose with it is assembled in a hierarchy of nested elements known as an [element tree](/dotnet/framework/wpf/advanced/trees-in-wpf). The element tree provides a logical and intuitive way to create and manage UIs.
+Since XAML is XML-based, the UI that you compose with it is assembled in a hierarchy of nested elements known as an [element tree](/dotnet/framework/wpf/advanced/trees-in-wpf). The element tree provides a logical and intuitive way to create and manage UIs.
 
 ### Code-behind
 
@@ -633,18 +632,18 @@ At this point, however, you can take advantage of one of three WPF models to cre
 
 The following example shows a custom numeric up/down control that derives from <xref:System.Windows.Controls.UserControl>.
 
- [!code-xaml[IntroToWPFSnippets#UserControlMARKUP](../designers/codesnippet/Xaml/introduction-to-wpf_33.xaml)]
+[!code-xaml[IntroToWPFSnippets#UserControlMARKUP](../designers/codesnippet/Xaml/introduction-to-wpf_33.xaml)]
 
- [!code-csharp[IntroToWPFSnippets#UserControlCODEBEHIND1](../designers/codesnippet/CSharp/introduction-to-wpf_34.cs)]
- [!code-vb[IntroToWPFSnippets#UserControlCODEBEHIND1](../designers/codesnippet/VisualBasic/introduction-to-wpf_34.vb)]
+[!code-csharp[IntroToWPFSnippets#UserControlCODEBEHIND1](../designers/codesnippet/CSharp/introduction-to-wpf_34.cs)]
+[!code-vb[IntroToWPFSnippets#UserControlCODEBEHIND1](../designers/codesnippet/VisualBasic/introduction-to-wpf_34.vb)]
 
- The next example illustrates the XAML that is required to incorporate the user control into a <xref:System.Windows.Window>.
+The next example illustrates the XAML that is required to incorporate the user control into a <xref:System.Windows.Window>.
 
- [!code-xaml[IntroToWPFSnippets#UserControlWindowMARKUP1](../designers/codesnippet/Xaml/introduction-to-wpf_37.xaml)]
+[!code-xaml[IntroToWPFSnippets#UserControlWindowMARKUP1](../designers/codesnippet/Xaml/introduction-to-wpf_37.xaml)]
 
- The following figure shows the `NumericUpDown` control hosted in a <xref:System.Windows.Window>.
+The following figure shows the `NumericUpDown` control hosted in a <xref:System.Windows.Window>.
 
- ![A custom UserControl](../designers/media/wpfintrofigure3.png)
+![A custom UserControl](../designers/media/wpfintrofigure3.png)
 
 For more information on custom controls, see [Control authoring overview](/dotnet/framework/wpf/controls/control-authoring-overview).
 

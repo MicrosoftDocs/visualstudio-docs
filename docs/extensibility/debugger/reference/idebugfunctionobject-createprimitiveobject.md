@@ -1,9 +1,6 @@
 ---
 title: "IDebugFunctionObject::CreatePrimitiveObject | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugFunctionObject::CreatePrimitiveObject"
@@ -23,15 +20,15 @@ Creates a primitive data object, such as a simple integer.
   
 ```cpp  
 HRESULT CreatePrimitiveObject(   
-   OBJECT_TYPE    ot,  
-   IDebugObject** ppObject  
+   OBJECT_TYPE    ot,  
+   IDebugObject** ppObject  
 );  
 ```  
   
 ```csharp  
 int CreatePrimitiveObject(  
-   enum_OBJECT_TYPE ot,   
-   out IDebugObject ppObject  
+   enum_OBJECT_TYPE ot,   
+   out IDebugObject ppObject  
 );  
 ```  
   

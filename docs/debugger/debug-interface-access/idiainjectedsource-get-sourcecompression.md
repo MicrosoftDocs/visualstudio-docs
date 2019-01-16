@@ -1,8 +1,6 @@
 ---
 title: "IDiaInjectedSource::get_sourceCompression | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves the indicator of the source compression used.
   
 ```C++  
 HRESULT get_sourceCompression (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

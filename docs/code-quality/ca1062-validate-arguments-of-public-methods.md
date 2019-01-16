@@ -2,7 +2,6 @@
 title: "CA1062: Validate arguments of public methods"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA1062"
@@ -14,6 +13,9 @@ helpviewer_keywords:
 author: gewarren
 ms.author: gewarren
 manager: douge
+dev_langs:
+ - CSharp
+ - VB
 ms.workload:
   - "multiple"
 ---
@@ -30,17 +32,17 @@ ms.workload:
 
 An externally visible method dereferences one of its reference arguments without verifying whether that argument is `null` (`Nothing` in Visual Basic).
 
-## Rule Description
+## Rule description
 
 All reference arguments that are passed to externally visible methods should be checked against `null`. If appropriate, throw a <xref:System.ArgumentNullException> when the argument is `null`.
 
 If a method can be called from an unknown assembly because it is declared public or protected, you should validate all parameters of the method. If the method is designed to be called only by known assemblies, you should make the method internal and apply the <xref:System.Runtime.CompilerServices.InternalsVisibleToAttribute> attribute to the assembly that contains the method.
 
-## How to Fix Violations
+## How to fix violations
 
 To fix a violation of this rule, validate each reference argument against `null`.
 
-## When to Suppress Warnings
+## When to suppress warnings
 
 You can suppress a warning from this rule if you are sure that the dereferenced parameter has been validated by another method call in the function.
 
@@ -123,21 +125,21 @@ In the following `Person` class example, the `other` object that is passed to th
 ```csharp
 public class Person
 {
-    public string Name { get; private set; }
-    public int Age { get; private set; }
+    public string Name { get; private set; }
+    public int Age { get; private set; }
 
-    public Person(string name, int age)
-    {
-        Name = name;
-        Age = age;
-    }
+    public Person(string name, int age)
+    {
+        Name = name;
+        Age = age;
+    }
 
-    // Copy constructor CA1062 fires because other is dereferenced
-    // without being checked for null
-    public Person(Person other)
-        : this(other.Name, other.Age)
-    {
-    }
+    // Copy constructor CA1062 fires because other is dereferenced
+    // without being checked for null
+    public Person(Person other)
+        : this(other.Name, other.Age)
+    {
+    }
 }
 ```
 
@@ -148,29 +150,28 @@ In the following revised `Person` example, the `other` object that is passed to 
 ```csharp
 public class Person
 {
-    public string Name { get; private set; }
-    public int Age { get; private set; }
+    public string Name { get; private set; }
+    public int Age { get; private set; }
 
-    public Person(string name, int age)
-    {
-        Name = name;
-        Age = age;
-    }
+    public Person(string name, int age)
+    {
+        Name = name;
+        Age = age;
+    }
 
-    // Copy constructor
-    public Person(Person other)
-        : this(PassThroughNonNull(other).Name,
-          PassThroughNonNull(other).Age)
-    {
-    }
+    // Copy constructor
+    public Person(Person other)
+        : this(PassThroughNonNull(other).Name,
+          PassThroughNonNull(other).Age)
+    {
+    }
 
-    // Null check method
-    private static Person PassThroughNonNull(Person person)
-    {
-        if (person == null)
-            throw new ArgumentNullException("person");
-        return person;
-    }
+    // Null check method
+    private static Person PassThroughNonNull(Person person)
+    {
+        if (person == null)
+            throw new ArgumentNullException("person");
+        return person;
+    }
 }
-
 ```

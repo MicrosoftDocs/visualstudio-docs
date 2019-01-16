@@ -1,8 +1,6 @@
 ---
 title: "IDiaSymbol::get_hasManagedCode | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves a flag indicating whether the module contains managed code.
   
 ```C++  
 HRESULT get_hasManagedCode(  
-   BOOL *pFlag  
+   BOOL *pFlag  
 );  
 ```  
   

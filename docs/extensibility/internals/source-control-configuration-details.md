@@ -1,9 +1,6 @@
 ---
 title: "Source Control Configuration Details | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology:
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "source control [Visual Studio SDK], configuration details"
@@ -28,11 +25,11 @@ In order to implement source control, you need to properly configure your projec
 
  In response to the `IVsQueryEditQuerySave2::QueryEditFiles` call, the environment can do the following:
 
--   Reject the call to change, in which case the editor or project must remain in the unchanged (clean) state.
+- Reject the call to change, in which case the editor or project must remain in the unchanged (clean) state.
 
--   Indicate that the document data should be reloaded. For a project, the environment will reload the data for the project. An editor must reload the data from disk through its <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistDocData2.ReloadDocData%2A> implementation. In either case, the context in the project or editor can change when the data is reloaded.
+- Indicate that the document data should be reloaded. For a project, the environment will reload the data for the project. An editor must reload the data from disk through its <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistDocData2.ReloadDocData%2A> implementation. In either case, the context in the project or editor can change when the data is reloaded.
 
- It is a complex and difficult task to retrofit appropriate `IVsQueryEditQuerySave2::QueryEditFiles` calls onto an existing code base. As a result, these calls should be integrated during the creation of the project or editor.
+  It is a complex and difficult task to retrofit appropriate `IVsQueryEditQuerySave2::QueryEditFiles` calls onto an existing code base. As a result, these calls should be integrated during the creation of the project or editor.
 
 ## Request Permission to Save a File
  Before a project or editor saves a file, it must call <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QuerySaveFile%2A> or <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QuerySaveFiles%2A>. For project files, these calls are automatically completed by the solution, which knows when to save a project file. Editors are responsible for making these calls unless the editor implementation of `IVsPersistDocData2` uses the helper function <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.SaveDocDataToFile%2A>. If your editor implements `IVsPersistDocData2` in this way, then the call to `IVsQueryEditQuerySave2::QuerySaveFile` or `IVsQueryEditQuerySave2::QuerySaveFiles` is made for you.

@@ -1,9 +1,6 @@
 ---
 title: "CommandPlacement Element | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "CommandPlacements element (VSCT XML schema)"
@@ -56,10 +53,10 @@ The CommandPlacement element enables buttons, groups, and menus to be included i
   
 ```  
 <CommandPlacements>  
-  <CommandPlacement guid="guidWidgetPackage" id="cmdidInsertOptions"  
-    priority="0x0300">  
-    <Parent guid="cmdGuidWidgetCommands" id="menuIDEditWidget"/>  
-  </CommandPlacement>  
+  <CommandPlacement guid="guidWidgetPackage" id="cmdidInsertOptions"  
+    priority="0x0300">  
+    <Parent guid="cmdGuidWidgetCommands" id="menuIDEditWidget"/>  
+  </CommandPlacement>  
 </CommandPlacements>  
 ```  
   

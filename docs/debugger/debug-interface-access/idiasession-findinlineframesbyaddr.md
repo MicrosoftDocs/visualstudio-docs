@@ -1,8 +1,6 @@
 ---
 title: "IDiaSession::findInlineFramesByAddr | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -20,9 +18,9 @@ Retrieves an enumeration that allows a client to iterate through all of the inli
   
 ```C++  
 HRESULT findInlineFramesByAddr (   
-   IDiaSymbol*       parent,   DWORD             isect,  
-   DWORD             offset,  
-   IDiaEnumSymbols** ppResult  
+   IDiaSymbol*       parent,   DWORD             isect,  
+   DWORD             offset,  
+   IDiaEnumSymbols** ppResult  
 );  
 ```  
   

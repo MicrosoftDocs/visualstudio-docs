@@ -1,8 +1,6 @@
 ---
 title: "Choose Element (MSBuild) | Microsoft Docs"
-ms.custom: ""
 ms.date: "03/13/2017"
-ms.technology: msbuild
 ms.topic: "reference"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#Choose"
@@ -58,11 +56,11 @@ Evaluates child elements to select one set of `ItemGroup` elements and/or `Prope
 
 ### Parent elements  
 
-|Element|Description|  
-|-------------|-----------------|  
-|[Otherwise](../msbuild/otherwise-element-msbuild.md)|Specifies the block of code to execute if the conditions of all `When` elements evaluate to `false`.|  
-|[Project](../msbuild/project-element-msbuild.md)|Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file.|  
-|[When](../msbuild/when-element-msbuild.md)|Specifies a possible block of code for the `Choose` element to select.|  
+| Element | Description |
+| - | - |
+| [Otherwise](../msbuild/otherwise-element-msbuild.md) | Specifies the block of code to execute if the conditions of all `When` elements evaluate to `false`. |
+| [Project](../msbuild/project-element-msbuild.md) | Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file. |
+| [When](../msbuild/when-element-msbuild.md) | Specifies a possible block of code for the `Choose` element to select. |
 
 ## Remarks  
  The `Choose`, `When`, and `Otherwise` elements are used together to provide a way to select one section of code to execute out of a number of possible alternatives. For more information, see [Conditional constructs](../msbuild/msbuild-conditional-constructs.md).  

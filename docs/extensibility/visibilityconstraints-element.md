@@ -1,9 +1,6 @@
 ---
 title: "VisibilityConstraints Element | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VisibilityConstraints"
@@ -55,8 +52,8 @@ The VisibilityConstraints element determines the static visibility of groups of 
   
 ```xml  
 <VisibilityConstraints>  
-  <VisibilityItem guid="cmdSetGuidMyProductCommands"     id="cmdidAddWidget"  
-    context="guidNotViewSourceMode"/>  
+  <VisibilityItem guid="cmdSetGuidMyProductCommands"     id="cmdidAddWidget"  
+    context="guidNotViewSourceMode"/>  
 </VisibilityConstraints>  
 ```  
   

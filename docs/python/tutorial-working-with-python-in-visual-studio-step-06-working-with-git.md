@@ -1,13 +1,14 @@
 ---
-title: Working with Python Tutorial, Step 6, working with Git
+title: Python in Visual Studio tutorial step 6, work with Git
+titleSuffix: ""
 description: Step 6 of a core walkthrough of Python in Visual Studio, covering Visual Studio's Git-related features.
-ms.date: 06/26/2018
+ms.date: 10/29/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-python
 ms.topic: tutorial
 author: kraigb
 ms.author: kraigb
 manager: douge
+ms.custom: seodec18
 ms.workload: 
   - python
   - data-science
@@ -17,7 +18,7 @@ ms.workload:
 
 **Previous step: [Install packages and manage your Python environment](tutorial-working-with-python-in-visual-studio-step-05-installing-packages.md)**
 
-Visual Studio provides direct integration with local Git repositories and remote repositories on services like GitHub and Visual Studio Team Services. The integration includes cloning a repository, committing changes, and managing branches.
+Visual Studio provides direct integration with local Git repositories and remote repositories on services like GitHub and Azure Repos. The integration includes cloning a repository, committing changes, and managing branches.
 
 This article provides a basic overview of creating a local Git repository for an existing project, and familiarizing yourself with some of Visual Studio's Git-related features.
 
@@ -51,7 +52,7 @@ This article provides a basic overview of creating a local Git repository for an
 
 For a short walkthrough of creating a project from a remote Git repository, see [Quickstart: Clone a repository of Python code in Visual Studio](quickstart-03-python-in-visual-studio-project-from-repository.md).
 
-For a much more comprehensive tutorial, including handling merge conflicts, reviewing code with pull requests, rebasing, and cherry-picking changes between branches, see [Get started with Git and VSTS](/vsts/git/gitquickstart?toc=/visualstudio/version-control/toc.json&bc=/vsts/git/breadcrumb/vc/toc.json&view=vsts&tabs=visual-studio).
+For a much more comprehensive tutorial, including handling merge conflicts, reviewing code with pull requests, rebasing, and cherry-picking changes between branches, see [Get started with Git and Azure Repos](/azure/devops/repos/git/gitquickstart?toc=/visualstudio/version-control/toc.json&bc=/azure/devops/repos/git/breadcrumb/vc/toc.json&view=vsts&tabs=visual-studio).
 
 ## Tutorial review
 

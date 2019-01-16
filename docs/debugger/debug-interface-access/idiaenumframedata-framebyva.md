@@ -1,8 +1,6 @@
 ---
 title: "IDiaEnumFrameData::frameByVA | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,8 +20,8 @@ Returns a frame by virtual address (VA).
   
 ```C++  
 HRESULT frameByVA(   
-   ULONGLONG       virtualAddress,  
-   IDiaFrameData** frame  
+   ULONGLONG       virtualAddress,  
+   IDiaFrameData** frame  
 );  
 ```  
   

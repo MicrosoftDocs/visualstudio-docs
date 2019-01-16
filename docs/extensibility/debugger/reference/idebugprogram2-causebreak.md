@@ -1,9 +1,6 @@
 ---
 title: "IDebugProgram2::CauseBreak | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProgram2::CauseBreak"
@@ -23,7 +20,7 @@ Requests that the program stop execution the next time one of its threads attemp
   
 ```cpp  
 HRESULT CauseBreak(   
-   void   
+   void   
 );  
 ```  
   

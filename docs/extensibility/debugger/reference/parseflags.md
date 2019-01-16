@@ -1,9 +1,6 @@
 ---
 title: "PARSEFLAGS | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "PARSEFLAGS"
@@ -23,18 +20,18 @@ Specifies how to parse an expression.
   
 ```cpp  
 enum enum_PARSEFLAGS {   
-   PARSE_EXPRESSION            = 0x0001,  
-   PARSE_FUNCTION_AS_ADDRESS   = 0x0002,  
-   PARSE_DESIGN_TIME_EXPR_EVAL = 0x1000  
+   PARSE_EXPRESSION            = 0x0001,  
+   PARSE_FUNCTION_AS_ADDRESS   = 0x0002,  
+   PARSE_DESIGN_TIME_EXPR_EVAL = 0x1000  
 };  
 typedef DWORD PARSEFLAGS;  
 ```  
   
 ```csharp  
 public enum enum_PARSEFLAGS {   
-   PARSE_EXPRESSION            = 0x0001,  
-   PARSE_FUNCTION_AS_ADDRESS   = 0x0002,  
-   PARSE_DESIGN_TIME_EXPR_EVAL = 0x1000  
+   PARSE_EXPRESSION            = 0x0001,  
+   PARSE_FUNCTION_AS_ADDRESS   = 0x0002,  
+   PARSE_DESIGN_TIME_EXPR_EVAL = 0x1000  
 };  
 ```  
   

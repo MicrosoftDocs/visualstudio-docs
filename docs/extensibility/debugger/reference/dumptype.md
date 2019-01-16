@@ -1,9 +1,6 @@
 ---
 title: "DUMPTYPE | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "DUMPTYPE"
@@ -23,16 +20,16 @@ Specifies how much of a program's state (such as running threads, stack frames, 
   
 ```cpp  
 enum enum_DUMPTYPE {   
-   DUMP_MINIDUMP = 0,  
-   DUMP_FULLDUMP = 1  
+   DUMP_MINIDUMP = 0,  
+   DUMP_FULLDUMP = 1  
 };  
 typedef DWORD DUMPTYPE;  
 ```  
   
 ```csharp  
 public enum enum_DUMPTYPE {   
-   DUMP_MINIDUMP = 0,  
-   DUMP_FULLDUMP = 1  
+   DUMP_MINIDUMP = 0,  
+   DUMP_FULLDUMP = 1  
 };  
 ```  
   

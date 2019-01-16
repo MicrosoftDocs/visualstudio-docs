@@ -1,9 +1,6 @@
 ---
 title: "IEEVisualizerService::GetCustomViewerCount | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IEEVisualizerService::GetCustomViewerCount"
@@ -23,13 +20,13 @@ This method gets the number of type visualizers available from this service.
   
 ```cpp  
 HRESULT GetCustomViewerCount(  
-   ULONG* pcelt  
+   ULONG* pcelt  
 );  
 ```  
   
 ```csharp  
 int GetCustomViewerCount(  
-   out uint pcelt  
+   out uint pcelt  
 );  
 ```  
   

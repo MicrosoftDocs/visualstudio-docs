@@ -1,8 +1,6 @@
 ---
 title: "IDiaSymbol::get_editAndContinueEnabled | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves a flag indicating whether the module was compiled with the [/Z7, /Zi, 
   
 ```C++  
 HRESULT get_editAndContinueEnabled (   
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 );  
 ```  
   

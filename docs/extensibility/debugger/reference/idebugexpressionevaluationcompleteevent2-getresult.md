@@ -1,9 +1,6 @@
 ---
 title: "IDebugExpressionEvaluationCompleteEvent2::GetResult | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugExpressionEvaluationCompleteEvent2::GetResult"
@@ -23,13 +20,13 @@ Gets the result of expression evaluation.
   
 ```cpp  
 HRESULT GetResult(   
-   IDebugProperty2** ppResult  
+   IDebugProperty2** ppResult  
 );  
 ```  
   
 ```csharp  
 int GetResult(   
-   out IDebugProperty2 ppResult  
+   out IDebugProperty2 ppResult  
 );  
 ```  
   

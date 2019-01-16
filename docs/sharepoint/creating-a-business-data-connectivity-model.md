@@ -1,13 +1,8 @@
 ---
 title: "Creating a Business Data Connectivity Model | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
-  - "VB"
-  - "CSharp"
   - "VB"
   - "CSharp"
 helpviewer_keywords: 
@@ -51,13 +46,13 @@ ms.workload:
 ## Add an existing model
  You can import a model that was created by using other tools such as SharePoint Designer. You might choose to import an existing model to your project in the following situations:  
   
--   To customize a model that is already deployed to a SharePoint server farm.  
+- To customize a model that is already deployed to a SharePoint server farm.  
   
--   To package and deploy an existing model to multiple SharePoint server farms.  
+- To package and deploy an existing model to multiple SharePoint server farms.  
   
- In either case, the LOB systems defined in the model that you import are not affected and will continue to work as expected. To add an existing model to a SharePoint project, use the Visual Studio **Add Existing Item** dialog box. For more information, see [How to: Add an existing BDC model file to a SharePoint project](../sharepoint/how-to-add-an-existing-bdc-model-file-to-a-sharepoint-project.md).  
+  In either case, the LOB systems defined in the model that you import are not affected and will continue to work as expected. To add an existing model to a SharePoint project, use the Visual Studio **Add Existing Item** dialog box. For more information, see [How to: Add an existing BDC model file to a SharePoint project](../sharepoint/how-to-add-an-existing-bdc-model-file-to-a-sharepoint-project.md).  
   
- You can add a LOB system of type .NET Framework assembly to the imported model by selecting an option in the **Add .NET assembly LobSystem**. This enables you to write custom code and use a designer to define the metadata for the imported model.  
+  You can add a LOB system of type .NET Framework assembly to the imported model by selecting an option in the **Add .NET assembly LobSystem**. This enables you to write custom code and use a designer to define the metadata for the imported model.  
   
 ## Related topics
   
@@ -67,5 +62,3 @@ ms.workload:
 |[How to: Add an existing BDC model file to a SharePoint project](../sharepoint/how-to-add-an-existing-bdc-model-file-to-a-sharepoint-project.md)|Shows you how to import an existing model into a SharePoint project.|  
 |[How to: Use a resource file to specify localized names, properties, and permissions](../sharepoint/how-to-use-a-resource-file-to-specify-localized-names-properties-and-permissions.md)|Describes how to provide strings that are merged with model metadata when the model is consumed by a Web Part or Web Page.|  
 |[How to: Include a custom assembly in a BDC feature](../sharepoint/how-to-include-a-custom-assembly-in-a-bdc-feature.md)|Shows you how to include a custom assembly in the feature.|  
-  
- 

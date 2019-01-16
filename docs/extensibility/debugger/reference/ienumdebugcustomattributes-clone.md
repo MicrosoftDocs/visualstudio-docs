@@ -1,9 +1,6 @@
 ---
 title: "IEnumDebugCustomAttributes::Clone | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IEnumCustomAttributes::Clone"
@@ -23,13 +20,13 @@ Creates an enumerator that contains the same enumeration state as the current en
   
 ```cpp  
 HRESULT Clone (   
-   IEnumCustomAttributes** ppEnum  
+   IEnumCustomAttributes** ppEnum  
 );  
 ```  
   
 ```csharp  
 int Clone(  
-   out IEnumDebugCustomAttributes ppEnum  
+   out IEnumDebugCustomAttributes ppEnum  
 );  
 ```  
   

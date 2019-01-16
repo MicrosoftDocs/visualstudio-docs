@@ -1,9 +1,6 @@
 ---
 title: "IDebugProgram2::EnumCodePaths | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProgram2::EnumCodePaths"
@@ -23,23 +20,23 @@ Retrieves a list of the code paths for a given position in a source file.
   
 ```cpp  
 HRESULT EnumCodePaths(   
-   LPCOLESTR            pszHint,  
-   IDebugCodeContext2*  pStart,  
-   IDebugStackFrame2*   pFrame,  
-   BOOL                 fSource,  
-   IEnumCodePaths2**    ppEnum,  
-   IDebugCodeContext2** ppSafety  
+   LPCOLESTR            pszHint,  
+   IDebugCodeContext2*  pStart,  
+   IDebugStackFrame2*   pFrame,  
+   BOOL                 fSource,  
+   IEnumCodePaths2**    ppEnum,  
+   IDebugCodeContext2** ppSafety  
 );  
 ```  
   
 ```csharp  
 int EnumCodePaths(   
-   string                 pszHint,  
-   IDebugCodeContext2     pStart,  
-   IDebugStackFrame2      pFrame,  
-   Int                    fSource,  
-   out IEnumCodePaths2    ppEnum,  
-   out IDebugCodeContext2 ppSafety  
+   string                 pszHint,  
+   IDebugCodeContext2     pStart,  
+   IDebugStackFrame2      pFrame,  
+   Int                    fSource,  
+   out IEnumCodePaths2    ppEnum,  
+   out IDebugCodeContext2 ppSafety  
 );  
 ```  
   

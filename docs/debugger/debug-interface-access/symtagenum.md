@@ -1,8 +1,6 @@
 ---
 title: "SymTagEnum | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,43 +20,43 @@ Specifies the type of symbol.
   
 ```C++  
 enum SymTagEnum {   
-   SymTagNull,  
-   SymTagExe,  
-   SymTagCompiland,  
-   SymTagCompilandDetails,  
-   SymTagCompilandEnv,  
-   SymTagFunction,  
-   SymTagBlock,  
-   SymTagData,  
-   SymTagAnnotation,  
-   SymTagLabel,  
-   SymTagPublicSymbol,  
-   SymTagUDT,  
-   SymTagEnum,  
-   SymTagFunctionType,  
-   SymTagPointerType,  
-   SymTagArrayType,   
-   SymTagBaseType,   
-   SymTagTypedef,   
-   SymTagBaseClass,  
-   SymTagFriend,  
-   SymTagFunctionArgType,   
-   SymTagFuncDebugStart,   
-   SymTagFuncDebugEnd,  
-   SymTagUsingNamespace,   
-   SymTagVTableShape,  
-   SymTagVTable,  
-   SymTagCustom,  
-   SymTagThunk,  
-   SymTagCustomType,  
-   SymTagManagedType,  
-   SymTagDimension,  
-   SymTagCallSite,  
-   SymTagInlineSite,  
-   SymTagBaseInterface,  
-   SymTagVectorType,  
-   SymTagMatrixType,  
-   SymTagHLSLType  
+   SymTagNull,  
+   SymTagExe,  
+   SymTagCompiland,  
+   SymTagCompilandDetails,  
+   SymTagCompilandEnv,  
+   SymTagFunction,  
+   SymTagBlock,  
+   SymTagData,  
+   SymTagAnnotation,  
+   SymTagLabel,  
+   SymTagPublicSymbol,  
+   SymTagUDT,  
+   SymTagEnum,  
+   SymTagFunctionType,  
+   SymTagPointerType,  
+   SymTagArrayType,   
+   SymTagBaseType,   
+   SymTagTypedef,   
+   SymTagBaseClass,  
+   SymTagFriend,  
+   SymTagFunctionArgType,   
+   SymTagFuncDebugStart,   
+   SymTagFuncDebugEnd,  
+   SymTagUsingNamespace,   
+   SymTagVTableShape,  
+   SymTagVTable,  
+   SymTagCustom,  
+   SymTagThunk,  
+   SymTagCustomType,  
+   SymTagManagedType,  
+   SymTagDimension,  
+   SymTagCallSite,  
+   SymTagInlineSite,  
+   SymTagBaseInterface,  
+   SymTagVectorType,  
+   SymTagMatrixType,  
+   SymTagHLSLType  
 };  
 ```  
   

@@ -1,9 +1,6 @@
 ---
 title: "IDebugAlias::GetName | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugAlias::GetName"
@@ -23,13 +20,13 @@ Gets the name of this alias.
   
 ```cpp  
 HRESULT GetName(  
-   BSTR* pbstrName  
+   BSTR* pbstrName  
 );  
 ```  
   
 ```csharp  
 int GetName(  
-   out string pbstrName  
+   out string pbstrName  
 );  
 ```  
   

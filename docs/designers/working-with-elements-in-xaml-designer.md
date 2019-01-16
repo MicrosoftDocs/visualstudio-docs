@@ -2,7 +2,6 @@
 title: Working with elements in XAML Designer
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-designers
 ms.topic: conceptual
 ms.assetid: a29690bf-f212-4ac6-a77a-adc53d14102e
 author: gewarren
@@ -15,7 +14,7 @@ ms.workload:
 You can add elements—controls, layouts, and shapes—to your app in XAML, in code, or by using XAML Designer. This topic describes how to work with elements in XAML Designer in Visual Studio or Blend for Visual Studio.
 
 ## Adding an element to a layout
- *Layout* is the process of sizing and positioning elements in a UI. To position visual elements, you must put them in a layout [Panel](http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.panel.aspx). A  `Panel` has a child property which is a collection of [FrameworkElement](http://msdn.microsoft.com/library/windows/apps/br208706.aspx) types. You can use various  `Panel` child elements, such as [Canvas](http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.canvas.aspx), [StackPanel](http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.stackpanel.aspx), and [Grid](http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.grid.aspx), to serve as layout containers and to position and arrange the elements on a page.
+ *Layout* is the process of sizing and positioning elements in a UI. To position visual elements, you must put them in a layout [Panel](/uwp/api/Windows.UI.Xaml.Controls.Panel). A  `Panel` has a child property which is a collection of [FrameworkElement](/uwp/api/Windows.UI.Xaml.FrameworkElement) types. You can use various  `Panel` child elements, such as [Canvas](/uwp/api/Windows.UI.Xaml.Controls.Canvas), [StackPanel](/uwp/api/Windows.UI.Xaml.Controls.StackPanel), and [Grid](/uwp/api/Windows.UI.Xaml.Controls.Grid), to serve as layout containers and to position and arrange the elements on a page.
 
  By default, a `Grid` panel is used as the top-level layout container within a page or form. You can add layout panels, controls, or other elements within the top-level page layout.
 
@@ -27,28 +26,28 @@ You can add elements—controls, layouts, and shapes—to your app in XAML, in c
 
     -   Drag an element from the **Toolbox** to the artboard.
 
-    -   In the **Toolbox**, select one of the drawing tools (for example, [Ellipse](http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.shapes.ellipse.aspx) or [Rectangle](http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.shapes.rectangle.aspx)), and then draw an element in the active panel.
+    -   In the **Toolbox**, select one of the drawing tools (for example, [Ellipse](/uwp/api/Windows.UI.Xaml.Shapes.Ellipse) or [Rectangle](/uwp/api/Windows.UI.Xaml.Shapes.Rectangle)), and then draw an element in the active panel.
 
 ## Changing the layering order of elements
  When there are two elements on the artboard in XAML Designer, one element will appear in front of the other in the layering order. At the bottom of the list of elements, in the Document Outline window is the front-most element (except for when the **ZIndex** property for an element is set). When you insert an element into a page, form, or layout container, the element is automatically placed in front of other elements in the active container element. To change the order of elements, you can use the **Order** commands or drag the elements in the object tree in the Document Outline window.
 
 #### To change the layering order
 
--   Do one of the following:
+- Do one of the following:
 
-    -   In the **Document Outline** window, drag the elements up or down to create the desired layering order.
+  - In the **Document Outline** window, drag the elements up or down to create the desired layering order.
 
-    -   Right-click the element in the Document Outline window or the artboard for which you want to change the layering order, point to **Order**, and then click one of the following:
+  - Right-click the element in the Document Outline window or the artboard for which you want to change the layering order, point to **Order**, and then click one of the following:
 
-        -   **Bring to Front** to bring the element all the way to the front of the order.
+    -   **Bring to Front** to bring the element all the way to the front of the order.
 
-        -   **Bring Forward** to bring the element forward one level in the order.
+    -   **Bring Forward** to bring the element forward one level in the order.
 
-        -   **Send Backward** to send the element back one level in the order.
+    -   **Send Backward** to send the element back one level in the order.
 
-        -   **Send to Back** to send the element all the way to the back of the order.
+    -   **Send to Back** to send the element all the way to the back of the order.
 
-     Change the **ZIndex** property in the **Layout** section in the Properties window. For overlapping elements, the **ZIndex** property takes precedence over the order of elements shown in the Document Outline window. An element that has a higher **ZIndex** value appears in front when elements overlap.
+    Change the **ZIndex** property in the **Layout** section in the Properties window. For overlapping elements, the **ZIndex** property takes precedence over the order of elements shown in the Document Outline window. An element that has a higher **ZIndex** value appears in front when elements overlap.
 
 ## Changing the alignment of an element
  You can align elements in the artboard by using menu commands or by dragging elements to snaplines.
@@ -103,9 +102,9 @@ You can add elements—controls, layouts, and shapes—to your app in XAML, in c
 
 #### To ungroup elements and delete the layout
 
--   Right-click the group that you want to ungroup and click **Ungroup**.
+- Right-click the group that you want to ungroup and click **Ungroup**.
 
- You can also group or ungroup elements by right-clicking selected items in the Document Outline window and clicking **Group Into** or **Ungroup**.
+  You can also group or ungroup elements by right-clicking selected items in the Document Outline window and clicking **Group Into** or **Ungroup**.
 
 ## Resetting the element layout
  You can restore default values for specific layout properties of an element by using the Layout Reset commands. By using this command, you can reset the margin, alignment, width, height, and size of an element, either individually or collectively.

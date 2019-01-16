@@ -1,17 +1,12 @@
 ---
 title: "Providing Packaging and Deployment Information in Project Items | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VS.SharePointTools.Project.SafeControlEntries"
   - "VS.SharePointTools.Project.ProjectOutputReference"
   - "VS.SharePointTools.Project.FeatureProperties"
 dev_langs: 
-  - "VB"
-  - "CSharp"
   - "VB"
   - "CSharp"
 helpviewer_keywords: 
@@ -33,15 +28,15 @@ ms.workload:
 # Provide packaging and deployment information in project items
   All SharePoint project items in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] have properties that you can use to provide additional data when the project is deployed to SharePoint. These properties are as follows:  
   
--   Feature Properties  
+- Feature Properties  
   
--   Feature Receivers  
+- Feature Receivers  
   
--   Project Output References  
+- Project Output References  
   
--   Safe Control Entries  
+- Safe Control Entries  
   
- These properties appear in the **Properties** window.  
+  These properties appear in the **Properties** window.  
   
 ## Feature properties
  Use the **Feature Properties** property to specify data that the feature uses. Feature properties data is a set of values (stored as key/value pairs) that is included with a feature when it deploys to SharePoint. After the feature is deployed, you can access the property values in your code.  

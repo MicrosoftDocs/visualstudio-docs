@@ -1,9 +1,6 @@
 ---
 title: "Specifying File Handlers for File Name Extensions | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "file extensions, specifying file handlers"
@@ -44,7 +41,7 @@ HKEY_CLASSES_ROOT\
 |--------------------|----------------------|  
 |.extension|ProductName. extension.versionMajor.versionMinor|  
   
- You can register different applications that are able to open a particular file extension by adding versioned ProgIDs as values to the HKEY_CLASSES_ROOT\\*\<extension>*\OpenWithProgids key. This registry key contains a list of alternate ProgIDs associated with the file extension. The applications associated with the listed ProgIDs appear in the **Open With***Product Name* submenu. If the same application is specified in both the `OpenWithList` and `OpenWithProgids` keys, the operating system merges the duplicates.  
+ You can register different applications that are able to open a particular file extension by adding versioned ProgIDs as values to the HKEY_CLASSES_ROOT\\*\<extension>*\OpenWithProgids key. This registry key contains a list of alternate ProgIDs associated with the file extension. The applications associated with the listed ProgIDs appear in the **Open With**_Product Name_ submenu. If the same application is specified in both the `OpenWithList` and `OpenWithProgids` keys, the operating system merges the duplicates.  
   
 > [!NOTE]
 >  The `OpenWithProgids` key is only supported in Windows XP. Because other operating systems ignore this key, do not use it as the only registration for file handlers. Use this key to provide a better user experience in Windows XP.  

@@ -13,7 +13,6 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
 ms.workload:
   - "data-storage"
 ---
@@ -26,7 +25,7 @@ For more information on control authoring, see [Developing Windows Forms control
 When authoring controls for use in data-binding scenarios you need to implement one of the following data-binding attributes:
 
 |Data-binding attribute usage|
-|-----------------------------------|
+| - |
 |Implement the <xref:System.ComponentModel.DefaultBindingPropertyAttribute> on simple controls, like a <xref:System.Windows.Forms.TextBox>, that display a single column (or property) of data. For more information, see [Create a Windows Forms user control that supports simple data binding](../data-tools/create-a-windows-forms-user-control-that-supports-simple-data-binding.md).|
 |Implement the <xref:System.ComponentModel.ComplexBindingPropertiesAttribute> on controls, like a <xref:System.Windows.Forms.DataGridView>, that display lists (or tables) of data. (This process is described in this walkthrough page.)|
 |Implement the <xref:System.ComponentModel.LookupBindingPropertiesAttribute> on controls, like a <xref:System.Windows.Forms.ComboBox>, that display lists (or tables) of data but also need to present a single column or property. For more information, see [Create a Windows Forms user control that supports lookup data binding](../data-tools/create-a-windows-forms-user-control-that-supports-lookup-data-binding.md).|
@@ -45,9 +44,9 @@ During this walkthrough, you will learn how to:
 
 - Create a dataset with the [Data Source Configuration Wizard](../data-tools/media/data-source-configuration-wizard.png).
 
-- Set the **Customers** table in the [Data Sources Window](add-new-data-sources.md) to use the new complex control.
+- Set the **Customers** table in the [Data Sources window](add-new-data-sources.md#data-sources-window) to use the new complex control.
 
-- Add the new control by dragging it from the **Data Sources Window** onto **Form1**.
+- Add the new control by dragging it from the **Data Sources** window onto **Form1**.
 
 ## Prerequisites
 
@@ -112,7 +111,7 @@ For complex controls that support data binding, you can implement the <xref:Syst
 
 Use the **Data Source Configuration** wizard to create a data source based on the `Customers` table in the Northwind sample database:
 
-1.  On the **Data** menu, click **Show Data Sources**.
+1.  To open the **Data Sources** window, on the **Data** menu, click **Show Data Sources**.
 
 2.  In the **Data Sources** window, select **Add New Data Source** to start the **Data Source Configuration** wizard.
 

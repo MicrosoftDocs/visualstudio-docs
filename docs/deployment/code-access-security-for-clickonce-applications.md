@@ -1,8 +1,6 @@
 ---
 title: "Code Access Security for ClickOnce Applications | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 f1_keywords: 
   - "vb.XBAPProjectPropertiesSecurity.HowTo"
@@ -34,14 +32,14 @@ ClickOnce applications are based on the .NET Framework and are subject to code a
 ## Default ClickOnce code access security  
  By default, a ClickOnce application receives Full Trust permissions when it is installed or run on a client computer.  
   
--   An application that has Full Trust permissions has unrestricted access to resources such as the file system and the registry. This potentially allows your application (and the end user's system) to be exploited by malicious code.  
+- An application that has Full Trust permissions has unrestricted access to resources such as the file system and the registry. This potentially allows your application (and the end user's system) to be exploited by malicious code.  
   
--   When an application requires Full Trust permissions, the end user may be prompted to grant permissions to the application. This means that the application does not truly provide a ClickOnce experience, and the prompt can potentially be confusing to less experienced users.  
+- When an application requires Full Trust permissions, the end user may be prompted to grant permissions to the application. This means that the application does not truly provide a ClickOnce experience, and the prompt can potentially be confusing to less experienced users.  
   
-    > [!NOTE]
-    >  When installing an application from removable media such as a CD-ROM, the user is not prompted. In addition, a network administrator can configure network policy so that users are not prompted when they install an application from a trusted source. For more information, see [Trusted application deployment overview](../deployment/trusted-application-deployment-overview.md).  
+  > [!NOTE]
+  >  When installing an application from removable media such as a CD-ROM, the user is not prompted. In addition, a network administrator can configure network policy so that users are not prompted when they install an application from a trusted source. For more information, see [Trusted application deployment overview](../deployment/trusted-application-deployment-overview.md).  
   
- To restrict the permissions for a ClickOnce application, you can modify the code access security permissions for your application to request the zone that best fits the permissions that your application requires. In most cases, you can select the zone from which the application is being deployed. For example, if your application is an enterprise application, you can use the **Local Intranet** zone. If your application is an internet application, you can use the **Internet** zone.  
+  To restrict the permissions for a ClickOnce application, you can modify the code access security permissions for your application to request the zone that best fits the permissions that your application requires. In most cases, you can select the zone from which the application is being deployed. For example, if your application is an enterprise application, you can use the **Local Intranet** zone. If your application is an internet application, you can use the **Internet** zone.  
   
 ## Configure security permissions  
  You should always configure your ClickOnce application to request the appropriate zone to limit the code access security permissions. You can configure security permissions on the **Security** page of the **Project Designer**.  
@@ -68,23 +66,23 @@ ClickOnce applications are based on the .NET Framework and are subject to code a
 ## Security permissions for browser-hosted applications  
  Visual Studio provides the following project types for Windows Presentation Foundation (WPF) applications:  
   
--   WPF Windows Application  
+- WPF Windows Application  
   
--   WPF Web Browser Application  
+- WPF Web Browser Application  
   
--   WPF Custom Control Library  
+- WPF Custom Control Library  
   
--   WPF Service Library  
+- WPF Service Library  
   
- Of these project types, only WPF Web Browser Applications are hosted in a Web browser and therefore require special deployment and security settings. The default security settings for these applications are as follows:  
+  Of these project types, only WPF Web Browser Applications are hosted in a Web browser and therefore require special deployment and security settings. The default security settings for these applications are as follows:  
   
--   **Enable ClickOnce Security Settings**  
+- **Enable ClickOnce Security Settings**  
   
--   **This is a partial trust application**  
+- **This is a partial trust application**  
   
--   **Internet zone** (with default permission set for WPF Web Browser Applications selected)  
+- **Internet zone** (with default permission set for WPF Web Browser Applications selected)  
   
- In the **Advanced Security Settings** dialog box, the **Debug this application with the selected permission set** check box is selected and disabled. This is because Debug In Zone cannot be turned off for browser-hosted applications.  
+  In the **Advanced Security Settings** dialog box, the **Debug this application with the selected permission set** check box is selected and disabled. This is because Debug In Zone cannot be turned off for browser-hosted applications.  
   
 ## See also  
  [Secure ClickOnce applications](../deployment/securing-clickonce-applications.md)   

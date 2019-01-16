@@ -1,9 +1,6 @@
 ---
 title: "IDebugMethodField::EnumLocals | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugMethodField::EnumLocals"
@@ -23,15 +20,15 @@ Creates an enumerator for selected local variables of the method.
   
 ```cpp  
 HRESULT EnumLocals(   
-   IDebugAddress*     pAddress,  
-   IEnumDebugFields** ppLocals  
+   IDebugAddress*     pAddress,  
+   IEnumDebugFields** ppLocals  
 );  
 ```  
   
 ```csharp  
 int EnumLocals(  
-   IDebugAddress        pAddress,   
-   out IEnumDebugFields ppLocals  
+   IDebugAddress        pAddress,   
+   out IEnumDebugFields ppLocals  
 );  
 ```  
   

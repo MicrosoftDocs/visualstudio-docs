@@ -15,7 +15,6 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
 ms.workload:
   - "data-storage"
 ---
@@ -131,7 +130,7 @@ Save data back to the database by passing the values from your object to the Tab
 Visual Studio creates DBDirect methods that can be executed directly against the database. These methods do not require DataSet or DataTable objects.
 
 |TableAdapter DBDirect method|Description|
-|----------------------------------|-----------------|
+| - |-----------------|
 |`TableAdapter.Insert`|Adds new records to a database, allowing you to pass in individual column values as method parameters.|
 |`TableAdapter.Update`|Updates existing records in a database. The Update method takes original and new column values as method parameters. The original values are used to locate the original record, and the new values are used to update that record.<br /><br /> The `TableAdapter.Update` method is also used to reconcile changes in a dataset back to the database, by taking a <xref:System.Data.DataSet>, <xref:System.Data.DataTable>, <xref:System.Data.DataRow>, or array of <xref:System.Data.DataRow>s as method parameters.|
 |`TableAdapter.Delete`|Deletes existing records from the database based on the original column values passed in as method parameters.|

@@ -19,16 +19,12 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
 ms.workload:
   - "data-storage"
 ---
 # Read XML data into a dataset
 
 ADO.NET provides simple methods for working with XML data. In this walkthrough, you create a Windows application that loads XML data into a dataset. The dataset is then displayed in a <xref:System.Windows.Forms.DataGridView> control. Finally, an XML schema based on the contents of the XML file is displayed in a text box.
-
-> [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or the edition you're using. To change your settings, on the **Tools** menu, select **Import and Export Settings**. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
 
 ## Create a new project
 
@@ -48,75 +44,75 @@ In this step, you create a Visual Basic or Visual C# project.
 
 Because this walkthrough focuses on reading XML data into a dataset, the contents of an XML file is provided.
 
-1.  On the **Project** menu, select **Add New Item**.
+1. On the **Project** menu, select **Add New Item**.
 
-2.  Select **XML File**, name the file **authors.xml**, and then select **Add**.
+2. Select **XML File**, name the file **authors.xml**, and then select **Add**.
 
    The XML file loads into the designer and is ready for edit.
 
-3.  Paste the following XML data into the editor below the XML declaration:
+3. Paste the following XML data into the editor below the XML declaration:
 
-    ```xml
-    <Authors_Table>
-      <authors>
-        <au_id>172-32-1176</au_id>
-        <au_lname>White</au_lname>
-        <au_fname>Johnson</au_fname>
-        <phone>408 496-7223</phone>
-        <address>10932 Bigge Rd.</address>
-        <city>Menlo Park</city>
-        <state>CA</state>
-        <zip>94025</zip>
-        <contract>true</contract>
-      </authors>
-      <authors>
-        <au_id>213-46-8915</au_id>
-        <au_lname>Green</au_lname>
-        <au_fname>Margie</au_fname>
-        <phone>415 986-7020</phone>
-        <address>309 63rd St. #411</address>
-        <city>Oakland</city>
-        <state>CA</state>
-        <zip>94618</zip>
-        <contract>true</contract>
-      </authors>
-      <authors>
-        <au_id>238-95-7766</au_id>
-        <au_lname>Carson</au_lname>
-        <au_fname>Cheryl</au_fname>
-        <phone>415 548-7723</phone>
-        <address>589 Darwin Ln.</address>
-        <city>Berkeley</city>
-        <state>CA</state>
-        <zip>94705</zip>
-        <contract>true</contract>
-      </authors>
-      <authors>
-        <au_id>267-41-2394</au_id>
-        <au_lname>Hunter</au_lname>
-        <au_fname>Anne</au_fname>
-        <phone>408 286-2428</phone>
-        <address>22 Cleveland Av. #14</address>
-        <city>San Jose</city>
-        <state>CA</state>
-        <zip>95128</zip>
-        <contract>true</contract>
-      </authors>
-      <authors>
-        <au_id>274-80-9391</au_id>
-        <au_lname>Straight</au_lname>
-        <au_fname>Dean</au_fname>
-        <phone>415 834-2919</phone>
-        <address>5420 College Av.</address>
-        <city>Oakland</city>
-        <state>CA</state>
-        <zip>94609</zip>
-        <contract>true</contract>
-      </authors>
-    </Authors_Table>
-    ```
+   ```xml
+   <Authors_Table>
+     <authors>
+       <au_id>172-32-1176</au_id>
+       <au_lname>White</au_lname>
+       <au_fname>Johnson</au_fname>
+       <phone>408 496-7223</phone>
+       <address>10932 Bigge Rd.</address>
+       <city>Menlo Park</city>
+       <state>CA</state>
+       <zip>94025</zip>
+       <contract>true</contract>
+     </authors>
+     <authors>
+       <au_id>213-46-8915</au_id>
+       <au_lname>Green</au_lname>
+       <au_fname>Margie</au_fname>
+       <phone>415 986-7020</phone>
+       <address>309 63rd St. #411</address>
+       <city>Oakland</city>
+       <state>CA</state>
+       <zip>94618</zip>
+       <contract>true</contract>
+     </authors>
+     <authors>
+       <au_id>238-95-7766</au_id>
+       <au_lname>Carson</au_lname>
+       <au_fname>Cheryl</au_fname>
+       <phone>415 548-7723</phone>
+       <address>589 Darwin Ln.</address>
+       <city>Berkeley</city>
+       <state>CA</state>
+       <zip>94705</zip>
+       <contract>true</contract>
+     </authors>
+     <authors>
+       <au_id>267-41-2394</au_id>
+       <au_lname>Hunter</au_lname>
+       <au_fname>Anne</au_fname>
+       <phone>408 286-2428</phone>
+       <address>22 Cleveland Av. #14</address>
+       <city>San Jose</city>
+       <state>CA</state>
+       <zip>95128</zip>
+       <contract>true</contract>
+     </authors>
+     <authors>
+       <au_id>274-80-9391</au_id>
+       <au_lname>Straight</au_lname>
+       <au_fname>Dean</au_fname>
+       <phone>415 834-2919</phone>
+       <address>5420 College Av.</address>
+       <city>Oakland</city>
+       <state>CA</state>
+       <zip>94609</zip>
+       <contract>true</contract>
+     </authors>
+   </Authors_Table>
+   ```
 
-4.  On the **File** menu, select **Save authors.xml**.
+4. On the **File** menu, select **Save authors.xml**.
 
 ## Create the user interface
 

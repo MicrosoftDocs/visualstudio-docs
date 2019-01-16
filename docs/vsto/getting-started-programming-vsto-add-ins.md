@@ -1,9 +1,6 @@
 ---
 title: "Get started programming VSTO Add-ins"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VST.ProjectItem.Outlook"
@@ -13,8 +10,8 @@ dev_langs:
 helpviewer_keywords: 
   - "application-level add-ins [Office development in Visual Studio], getting started"
   - "add-ins [Office development in Visual Studio], getting started"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -54,34 +51,34 @@ ms.workload:
 ## Customize the user interface of applications  
  There are several different ways to customize the UI of the host application by using a VSTO Add-in:  
   
--   For Excel and Word, you can add managed controls to documents. For more information, see [Extend Word documents and Excel workbooks in VSTO Add-ins at runtime](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md).  
+- For Excel and Word, you can add managed controls to documents. For more information, see [Extend Word documents and Excel workbooks in VSTO Add-ins at runtime](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md).  
   
--   You can customize the Ribbon if the application supports it. For more information, see [Ribbon overview](../vsto/ribbon-overview.md).  
+- You can customize the Ribbon if the application supports it. For more information, see [Ribbon overview](../vsto/ribbon-overview.md).  
   
--   You can create a custom task pane if the application supports it. For more information, see [Custom task panes](../vsto/custom-task-panes.md).  
+- You can create a custom task pane if the application supports it. For more information, see [Custom task panes](../vsto/custom-task-panes.md).  
   
--   For Outlook, you can create a custom form region. For more information, see [Create Outlook form regions](../vsto/creating-outlook-form-regions.md).  
+- For Outlook, you can create a custom form region. For more information, see [Create Outlook form regions](../vsto/creating-outlook-form-regions.md).  
   
--   For all Microsoft Office applications, you can display Windows Forms in your VSTO Add-in.  
+- For all Microsoft Office applications, you can display Windows Forms in your VSTO Add-in.  
   
- For more information about how to customize the UI of Microsoft Office applications, see [Office UI customization](../vsto/office-ui-customization.md).  
+  For more information about how to customize the UI of Microsoft Office applications, see [Office UI customization](../vsto/office-ui-customization.md).  
   
 ## Next steps  
  To learn how to create VSTO Add-ins, see the following walkthroughs:  
   
--   [Walkthrough: Create your first VSTO Add-in for Excel](../vsto/walkthrough-creating-your-first-vsto-add-in-for-excel.md)  
+- [Walkthrough: Create your first VSTO Add-in for Excel](../vsto/walkthrough-creating-your-first-vsto-add-in-for-excel.md)  
   
--   [Walkthrough: Create your first VSTO Add-In for Outlook](../vsto/walkthrough-creating-your-first-vsto-add-in-for-outlook.md)  
+- [Walkthrough: Create your first VSTO Add-In for Outlook](../vsto/walkthrough-creating-your-first-vsto-add-in-for-outlook.md)  
   
--   [Walkthrough: Create your first VSTO Add-in for PowerPoint](../vsto/walkthrough-creating-your-first-vsto-add-in-for-powerpoint.md)  
+- [Walkthrough: Create your first VSTO Add-in for PowerPoint](../vsto/walkthrough-creating-your-first-vsto-add-in-for-powerpoint.md)  
   
--   [Walkthrough: Create your first VSTO Add-in for Project](../vsto/walkthrough-creating-your-first-vsto-add-in-for-project.md)  
+- [Walkthrough: Create your first VSTO Add-in for Project](../vsto/walkthrough-creating-your-first-vsto-add-in-for-project.md)  
   
--   [Walkthrough: Create your first VSTO Add-in for Word](../vsto/walkthrough-creating-your-first-vsto-add-in-for-word.md)  
+- [Walkthrough: Create your first VSTO Add-in for Word](../vsto/walkthrough-creating-your-first-vsto-add-in-for-word.md)  
   
- These walkthroughs introduce you to the Office development tools in Visual Studio and the programming model for VSTO Add-ins.  
+  These walkthroughs introduce you to the Office development tools in Visual Studio and the programming model for VSTO Add-ins.  
   
- For a list of topics that walk you through some of the common tasks in Office projects, see [Common tasks in Office programming](../vsto/common-tasks-in-office-programming.md).  
+  For a list of topics that walk you through some of the common tasks in Office projects, see [Common tasks in Office programming](../vsto/common-tasks-in-office-programming.md).  
   
 ## See also  
  [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md)   
@@ -89,5 +86,3 @@ ms.workload:
  [Write code in Office solutions](../vsto/writing-code-in-office-solutions.md)   
  [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md)   
  [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)  
-  
-  

@@ -1,9 +1,6 @@
 ---
 title: "How to: Programmatically automatically fill ranges with incrementally changing data"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -13,8 +10,8 @@ helpviewer_keywords:
   - "filling ranges automatically"
   - "ranges, automatically filling"
   - "workbooks, filling ranges"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -55,5 +52,3 @@ ms.workload:
  [How to: Programmatically run Excel calculations](../vsto/how-to-programmatically-run-excel-calculations-programmatically.md)   
  [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)   
  [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)  
-  
-  

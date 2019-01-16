@@ -1,9 +1,6 @@
 ---
 title: "IDebugPendingBreakpoint2::Bind | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugPendingBreakpoint2::Bind"
@@ -24,7 +21,7 @@ Binds this pending breakpoint to one or more code locations.
   
 ```cpp  
 HRESULT Bind(   
-   void   
+   void   
 );  
 ```  
   

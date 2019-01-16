@@ -1,9 +1,6 @@
 ---
 title: "Develop Office solutions"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -12,8 +9,8 @@ helpviewer_keywords:
   - "Office development in Visual Studio, about developing solutions"
   - "solutions [Office development in Visual Studio], developing"
   - "Office solutions [Office development in Visual Studio], developing"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -34,13 +31,13 @@ ms.workload:
   
  For more information about features that are specific to different types of solutions, see the following topics:  
   
--   [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md).  
+- [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md).  
   
--   [Program document-level customizations](../vsto/programming-document-level-customizations.md).  
+- [Program document-level customizations](../vsto/programming-document-level-customizations.md).  
   
--   [Office UI customization](../vsto/office-ui-customization.md).  
+- [Office UI customization](../vsto/office-ui-customization.md).  
   
- For background information to help you plan your Office solutions and procedures to help you create projects, see [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md).  
+  For background information to help you plan your Office solutions and procedures to help you create projects, see [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md).  
   
 ## Related topics  
   
@@ -67,5 +64,3 @@ ms.workload:
  [Walkthrough: Create your first VSTO Add-in for Project](../vsto/walkthrough-creating-your-first-vsto-add-in-for-project.md)   
  [Walkthrough: Create your first VSTO Add-in for Word](../vsto/walkthrough-creating-your-first-vsto-add-in-for-word.md)   
  [Walkthrough: Create your first document-level customization for Word](../vsto/walkthrough-creating-your-first-document-level-customization-for-word.md)  
-  
-  

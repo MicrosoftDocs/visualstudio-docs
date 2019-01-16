@@ -1,9 +1,6 @@
 ---
 title: "IDebugBinder3::FindAlias | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugBinder3::FindAlias"
@@ -23,15 +20,15 @@ This method locates an alias, given a name. This will search all aliases in the 
   
 ```cpp  
 HRESULT FindAlias(  
-   LPCOLESTR     pcstrName,  
-   IDebugAlias** ppAlias  
+   LPCOLESTR     pcstrName,  
+   IDebugAlias** ppAlias  
 );  
 ```  
   
 ```csharp  
 int FindAlias(  
-   string          pcstrName,  
-   out IDebugAlias ppAlias  
+   string          pcstrName,  
+   out IDebugAlias ppAlias  
 );  
 ```  
   

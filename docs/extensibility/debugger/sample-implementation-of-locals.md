@@ -1,9 +1,6 @@
 ---
 title: "Sample Implementation of Locals | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "debugging [Debugging SDK], local variables"
@@ -61,7 +58,7 @@ ms.workload:
  [Evaluation context](../../extensibility/debugger/evaluation-context.md)  
  Provides the arguments that are passed when the DE calls the expression evaluator (EE).  
   
- [MyCEE sample](http://msdn.microsoft.com/en-us/624a018b-9179-402f-9d48-3aec87b48f4f)  
+ [MyCEE sample](https://msdn.microsoft.com/library/624a018b-9179-402f-9d48-3aec87b48f4f)  
  Demonstrates one implementation approach to creating an expression evaluator for the MyC language.  
   
 ## See also  

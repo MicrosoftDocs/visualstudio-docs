@@ -1,9 +1,6 @@
 ---
 title: "IDebugObject::GetValue | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugObject::GetValue"
@@ -23,15 +20,15 @@ Gets the value of the object as a consecutive series of bytes.
   
 ```cpp  
 HRESULT GetValue(   
-   BYTE* pValue,  
-   UINT  nSize  
+   BYTE* pValue,  
+   UINT  nSize  
 );  
 ```  
   
 ```csharp  
 int GetValue(  
-   ref byte[] pValue,   
-   uint nSize  
+   ref byte[] pValue,   
+   uint nSize  
 );  
 ```  
   

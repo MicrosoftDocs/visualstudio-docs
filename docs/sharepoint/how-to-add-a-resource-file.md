@@ -1,13 +1,8 @@
 ---
 title: "How to: Add a Resource File | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
-  - "VB"
-  - "CSharp"
   - "VB"
   - "CSharp"
 helpviewer_keywords: 
@@ -24,20 +19,20 @@ ms.workload:
   
 ### To add a global resource file to a SharePoint solution  
   
-1.  In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], open a SharePoint solution.  
+1. In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], open a SharePoint solution.  
   
-2.  In **Solution Explorer**, choose a SharePoint project node, and then, on the menu bar, choose **Project** > **Add New Item**.  
+2. In **Solution Explorer**, choose a SharePoint project node, and then, on the menu bar, choose **Project** > **Add New Item**.  
   
-3.  In the **Add New Item** dialog box, choose the **Global Resources File** template, and then choose the **Add** button.  
+3. In the **Add New Item** dialog box, choose the **Global Resources File** template, and then choose the **Add** button.  
   
-    > [!NOTE]  
-    >  The Global Resources File project item template appears only when a SharePoint project item is selected.  
+   > [!NOTE]  
+   >  The Global Resources File project item template appears only when a SharePoint project item is selected.  
   
-4.  In the **Add Resource** dialog box, choose a culture for the resource file, such as English (United States).  
+4. In the **Add Resource** dialog box, choose a culture for the resource file, such as English (United States).  
   
-     This step adds a global resource file to your solution in the format, Resource*x***.***culture***.**resx, such as, *Resource1.en-US.resx*.  
+    This step adds a global resource file to your solution in the format, Resource_x_**.**<em>culture</em><strong>.</strong>resx, such as, *Resource1.en-US.resx*.  
   
-5.  When the **Resource Editor** opens in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], add resources to the resource file.  
+5. When the **Resource Editor** opens in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], add resources to the resource file.  
   
 ### To add a feature resource file to a SharePoint feature  
   
@@ -45,11 +40,9 @@ ms.workload:
   
 2.  In **Solution Explorer**, open the shortcut menu for the name of a feature under the **Features** node, and then choose **Add Feature Resource**.  
   
-     This step adds a resource file to the feature in the format, *ResourceFileName***.***culture***.**resx, such as, *Feature1.en-US.resx*.  
+     This step adds a resource file to the feature in the format, _ResourceFileName_**.**_culture_**.resx**, such as, *Feature1.en-US.resx*.  
   
 3.  When the **Resource Editor** opens in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], add resources to the resource file.  
   
 ## See also
  [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)  
-  
- 

@@ -3,7 +3,6 @@ title: "Workflow Designer - ClearCollection<T> Activity Designer"
 ms.date: 11/04/2016
 ms.topic: reference
 ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 f1_keywords:
   - "System.Activities.Statements.ClearCollection`1.UI"
 ms.assetid: db0e5da2-7b5a-4f1a-864c-f3aeeeeb51a7
@@ -32,7 +31,7 @@ The **ClearCollection\<T>** activity designer can be dragged from the **Toolbox*
 The following table shows the <xref:System.Activities.Statements.ClearCollection%601> properties and describes how they are used in the designer.
 
 |Property Name|Required|Usage|
-|-------------------|--------------|-----------|
+|-|--------------|-|
 |<xref:System.Activities.Activity.DisplayName%2A>|False|Specifies the optional friendly name of the <xref:System.Activities.Statements.ClearCollection%601> activity. The default is ClearCollection<Int32\>. Although the <xref:System.Activities.Activity.DisplayName%2A> value is not strictly required, it is a best practice to use one.|
 |<xref:System.Activities.Statements.ClearCollection%601.Collection%2A>|True|Specifies the collection to be cleared of items. This collection is of type **ICollection\<TypeArgument>.** To specify the collection, type a Visual Basic expression in the property grid.|
 |*TypeArgument*|True|Specifies the type T of the items contained in the <xref:System.Collections.Generic.ICollection%601>. By default, this *TypeArgument* type is set to **Int32**. To change the type, change the value of the *TypeArgument* in the combo box in the property grid.|

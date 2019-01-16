@@ -3,7 +3,6 @@ title: "Workflow Designer - AddToCollection<T> Activity Designer"
 ms.date: 11/04/2016
 ms.topic: reference
 ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 f1_keywords:
   - "System.Activities.Statements.AddToCollection`1.UI"
 ms.assetid: f7fc0702-164e-4370-8946-bb2f9f9384b7
@@ -32,7 +31,7 @@ The **AddToCollection\<T>** activity designer can be dragged from the **Toolbox*
 The following table shows the <xref:System.Activities.Statements.AddToCollection%601> properties and describes how they are used in the designer.
 
 |Property Name|Required|Usage|
-|-------------------|--------------|-----------|
+|-|--------------|-|
 |<xref:System.Activities.Activity.DisplayName%2A>|False|The friendly name of the <xref:System.Activities.Statements.AddToCollection%601> activity. The default is AddToCollection<Int32\>. Although the <xref:System.Activities.Activity.DisplayName%2A> value is not strictly required, it is a best practice to use one.|
 |<xref:System.Activities.Statements.AddToCollection%601.Item%2A>|True|The item to add to the Collection\<T>. This item is of type *T*, which is of type *TypeArgument*. To specify the item, type in a Visual Basic expression in the property grid.|
 |<xref:System.Activities.Statements.AddToCollection%601.Collection%2A>|True|The collection to which the item should be added. This collection is of type **ICollection<TypeArgument\>**. To specify the collection, type a Visual Basic expression in the property grid.|

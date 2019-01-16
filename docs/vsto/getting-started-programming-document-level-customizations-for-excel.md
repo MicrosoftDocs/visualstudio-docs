@@ -1,9 +1,6 @@
 ---
 title: "Get started programming document-level customizations for Excel"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -11,8 +8,8 @@ dev_langs:
 helpviewer_keywords: 
   - "Excel solutions in Visual Studio"
   - "Excel projects [Office development in Visual Studio], getting started"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -68,5 +65,3 @@ ms.workload:
  [Walkthroughs using Excel](../vsto/walkthroughs-using-excel.md)   
  [Excel object model overview](../vsto/excel-object-model-overview.md)   
  [Write code in Office solutions](../vsto/writing-code-in-office-solutions.md)  
-  
-  

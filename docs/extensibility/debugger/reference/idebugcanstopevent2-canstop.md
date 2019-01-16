@@ -1,9 +1,6 @@
 ---
 title: "IDebugCanStopEvent2::CanStop | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugCanStopEvent2::CanStop"
@@ -23,13 +20,13 @@ Notifies the debug engine (DE) whether or not to stop at the current code locati
   
 ```cpp  
 HRESULT CanStop (   
-   BOOL fCanStop  
+   BOOL fCanStop  
 );  
 ```  
   
 ```csharp  
 int CanStop (   
-   int fCanStop  
+   int fCanStop  
 );  
 ```  
   

@@ -1,9 +1,6 @@
 ---
 title: "IDebugProcess2::CanDetach | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProcess2::CanDetach"
@@ -23,7 +20,7 @@ Determines if the session debug manager (SDM) can detach the process.
   
 ```cpp  
 HRESULT CanDetach(  
-   void  
+   void  
 );  
 ```  
   

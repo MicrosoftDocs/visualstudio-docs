@@ -1,8 +1,6 @@
 ---
 title: "Using the Tasks Window | Microsoft Docs"
-ms.custom: ""
 ms.date: "03/18/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.debug.paralleltasks"
@@ -20,15 +18,15 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Using the Tasks Window
+# Using the Tasks Window (C#, Visual Basic, C++)
 
-The **Tasks** window resembles the **Threads** window, except that it shows information about <xref:System.Threading.Tasks.Task?displayProperty=fullName>, [task_handle](/cpp/parallel/concrt/reference/task-group-class), or [WinJS.Promise](http://msdn.microsoft.com/library/windows/apps/br211867.aspx) objects instead of each thread. Like threads, tasks represent asynchronous operations that can run concurrently; however, multiple tasks may run on the same thread.
+The **Tasks** window resembles the **Threads** window, except that it shows information about <xref:System.Threading.Tasks.Task?displayProperty=fullName>, [task_handle](/cpp/parallel/concrt/reference/task-group-class), or [WinJS.Promise](/previous-versions/windows/apps/br211867(v=win.10)) objects instead of each thread. Like threads, tasks represent asynchronous operations that can run concurrently; however, multiple tasks may run on the same thread.
 
 In managed code, you can use the **Tasks** window when you work with <xref:System.Threading.Tasks.Task?displayProperty=fullName> objects or with the **await** and **async** keywords (**Await** and **Async** in VisualBasic). For more information about tasks in managed code, see  [Parallel Programming](/dotnet/standard/parallel-programming/index).
 
 In native code, you can use the **Tasks** window when you work with [task groups](/cpp/parallel/concrt/task-parallelism-concurrency-runtime), [parallel algorithms](/cpp/parallel/concrt/parallel-algorithms), [asynchronous agents](/cpp/parallel/concrt/asynchronous-agents), and [lightweight tasks](/cpp/parallel/concrt/task-scheduler-concurrency-runtime). For more information about tasks in native code, see [Concurrency Runtime](/cpp/parallel/concrt/concurrency-runtime).
 
-In JavaScript, you can use the Tasks window when you are working with promise `.then` code. See [Asynchronous programming in JavaScript (UWP apps)](http://msdn.microsoft.com/library/windows/apps/hh700330.aspx) for more information.
+In JavaScript, you can use the Tasks window when you are working with promise `.then` code. See [Asynchronous programming in JavaScript (UWP apps)](/previous-versions/windows/apps/hh700330(v=win.10)) for more information.
 
 You can use the **Tasks** window whenever you break into the debugger. You can access it on the **Debug** menu by clicking **Windows** and then clicking **Tasks**. The following illustration shows the **Tasks** window in its default mode.
 
@@ -90,7 +88,7 @@ The **Switch to Task** command makes the current task the active task. The **Swi
 
 ## See also
 
-- [Debugger Basics](../debugger/getting-started-with-the-debugger.md)
+- [First look at the debugger](../debugger/debugger-feature-tour.md)
 - [Debugging Managed Code](../debugger/debugging-managed-code.md)
 - [Parallel Programming](/dotnet/standard/parallel-programming/index)
 - [Concurrency Runtime](/cpp/parallel/concrt/concurrency-runtime)

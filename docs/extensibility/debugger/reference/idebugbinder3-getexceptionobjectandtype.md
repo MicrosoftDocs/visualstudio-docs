@@ -1,9 +1,6 @@
 ---
 title: "IDebugBinder3::GetExceptionObjectAndType | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugBinder3::GetExceptionObjectAndType"
@@ -23,15 +20,15 @@ This method retrieves the exception associated with an object, if any.
   
 ```cpp  
 HRESULT GetExceptionObjectAndType(  
-   IDebugObject** ppException,  
-   IDebugField**  ppField  
+   IDebugObject** ppException,  
+   IDebugField**  ppField  
 );  
 ```  
   
 ```csharp  
 int GetExceptionObjectAndType(  
-   out IDebugObject ppException,  
-   out IDebugField  ppField  
+   out IDebugObject ppException,  
+   out IDebugField  ppField  
 );  
 ```  
   

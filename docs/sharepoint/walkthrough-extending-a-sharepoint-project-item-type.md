@@ -1,9 +1,6 @@
 ---
 title: "Walkthrough: Extending a SharePoint Project Item Type | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -36,24 +33,24 @@ ms.workload:
 ## Prerequisites  
  You need the following components on the development computer to complete this walkthrough:  
   
--   Supported editions of Microsoft Windows, SharePoint and Visual Studio. For more information, see [Requirements for developing SharePoint solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md).  
+- Supported editions of Microsoft Windows, SharePoint and Visual Studio.  
   
--   The [!include[vssdk_current_long](../sharepoint/includes/vssdk-current-long-md.md)]. This walkthrough uses the **VSIX Project** template in the SDK to create a VSIX package to deploy the project item. For more information, see [Extend the SharePoint Tools in Visual Studio](../sharepoint/extending-the-sharepoint-tools-in-visual-studio.md).  
+- The [!include[vssdk_current_long](../sharepoint/includes/vssdk-current-long-md.md)]. This walkthrough uses the **VSIX Project** template in the SDK to create a VSIX package to deploy the project item. For more information, see [Extend the SharePoint Tools in Visual Studio](../sharepoint/extending-the-sharepoint-tools-in-visual-studio.md).  
   
- Knowledge of the following concepts is helpful, but not required, to complete the walkthrough:  
+  Knowledge of the following concepts is helpful, but not required, to complete the walkthrough:  
   
--   The BDC service in [!INCLUDE[moss_14_long](../sharepoint/includes/moss-14-long-md.md)]. For more information, see [BDC Architecture](http://go.microsoft.com/fwlink/?LinkId=177798).  
+- The BDC service in [!INCLUDE[moss_14_long](../sharepoint/includes/moss-14-long-md.md)]. For more information, see [BDC Architecture](http://go.microsoft.com/fwlink/?LinkId=177798).  
   
--   The XML schema for BDC models. For more information, see [BDC Model Infrastructure](http://go.microsoft.com/fwlink/?LinkId=177799).  
+- The XML schema for BDC models. For more information, see [BDC Model Infrastructure](http://go.microsoft.com/fwlink/?LinkId=177799).  
   
 ## Create the projects
  To complete this walkthrough, you need to create two projects:  
   
--   A VSIX project to create the VSIX package to deploy the project item extension.  
+- A VSIX project to create the VSIX package to deploy the project item extension.  
   
--   A class library project that implements the project item extension.  
+- A class library project that implements the project item extension.  
   
- Start the walkthrough by creating the projects.  
+  Start the walkthrough by creating the projects.  
   
 #### To create the VSIX project  
   
@@ -158,7 +155,7 @@ ms.workload:
   
 1.  In **Solution Explorer**, open the shortcut menu for the source.extension.vsixmanifest file in the GenerateExternalDataLists project, and then choose **Open**.  
   
-     Visual Studio opens the file in the manifest editor. The source.extension.vsixmanifest file is the basis for the extension.vsixmanifest file is required by all VSIX packages. For more information about this file, see [VSIX Extension Schema 1.0 Reference](http://msdn.microsoft.com/en-us/76e410ec-b1fb-4652-ac98-4a4c52e09a2b).  
+     Visual Studio opens the file in the manifest editor. The source.extension.vsixmanifest file is the basis for the extension.vsixmanifest file is required by all VSIX packages. For more information about this file, see [VSIX Extension Schema 1.0 Reference](https://msdn.microsoft.com/76e410ec-b1fb-4652-ac98-4a4c52e09a2b).  
   
 2.  In the **Product Name** box, enter **External Data List Generator**.  
   
@@ -173,7 +170,7 @@ ms.workload:
 6.  In the **Type** list, choose **Microsoft.VisualStudio.MefComponent**.  
   
     > [!NOTE]  
-    >  This value corresponds to the `MefComponent` element in the extension.vsixmanifest file. This element specifies the name of an extension assembly in the VSIX package. For more information, see [MEFComponent Element (VSX Schema)](http://msdn.microsoft.com/en-us/8a813141-8b73-44c9-b80b-ca85bbac9551).  
+    >  This value corresponds to the `MefComponent` element in the extension.vsixmanifest file. This element specifies the name of an extension assembly in the VSIX package. For more information, see [MEFComponent Element (VSX Schema)](/previous-versions/visualstudio/visual-studio-2010/dd393736\(v\=vs.100\)).  
   
 7.  In the **Source** list, choose **A project in current solution**.  
   
@@ -214,7 +211,7 @@ ms.workload:
   
 5.  In the **Name** box, enter **SharePointProjectTestBDC**, and then choose the **OK** button.  
   
-6.  In the SharePoint Customization Wizard, enter the URL of the site that you want to use for debugging, choose **Deploy as a farm solution**, and then choose the **Finish**button.  
+6.  In the SharePoint Customization Wizard, enter the URL of the site that you want to use for debugging, choose **Deploy as a farm solution**, and then choose the **Finish** button.  
   
 7.  Open the shortcut menu for the SharePointProjectTestBDC project, choose **Add**, and then choose **New Item**.  
   
@@ -293,5 +290,3 @@ ms.workload:
  [Extend the SharePoint project system](../sharepoint/extending-the-sharepoint-project-system.md)   
  [Create a business data connectivity model](../sharepoint/creating-a-business-data-connectivity-model.md)   
  [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md)  
-  
-  

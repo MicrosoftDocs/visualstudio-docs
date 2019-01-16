@@ -24,7 +24,7 @@ Indicates to the helper that a particular range of characters is a script block 
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT DefineScriptBlock(  
    ULONG           ulCharOffset,  
    ULONG           cChars,  

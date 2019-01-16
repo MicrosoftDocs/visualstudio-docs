@@ -1,9 +1,6 @@
 ---
 title: "IDebugField::GetSize | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugField::GetSize"
@@ -23,13 +20,13 @@ This method gets the size of a field, in bytes.
   
 ```cpp  
 HRESULT GetSize(   
-   DWORD* pdwSize  
+   DWORD* pdwSize  
 );  
 ```  
   
 ```csharp  
 int GetSize(  
-   out uint pdwSize  
+   out uint pdwSize  
 );  
 ```  
   

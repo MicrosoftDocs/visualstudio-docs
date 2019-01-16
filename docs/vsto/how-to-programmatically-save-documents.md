@@ -1,9 +1,6 @@
 ---
 title: "How to: Programmatically save documents"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -33,12 +30,12 @@ ms.workload:
   
 ### To save the active document  
   
-1.  Call the <xref:Microsoft.Office.Interop.Word._Document.Save%2A> method for the active document. To use this code example, run it from the `ThisDocument` or `ThisAddIn` class in your project.  
+1. Call the <xref:Microsoft.Office.Interop.Word._Document.Save%2A> method for the active document. To use this code example, run it from the `ThisDocument` or `ThisAddIn` class in your project.  
   
-     [!code-vb[Trin_VstcoreWordAutomation#8](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#8)]
-     [!code-csharp[Trin_VstcoreWordAutomation#8](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs#8)]  
+    [!code-vb[Trin_VstcoreWordAutomation#8](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#8)]
+    [!code-csharp[Trin_VstcoreWordAutomation#8](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs#8)]  
   
- If you are not sure whether the document you want to save is the active document, you can refer to it by its name.  
+   If you are not sure whether the document you want to save is the active document, you can refer to it by its name.  
   
 ### To save a document specified by name  
   
@@ -87,5 +84,3 @@ ms.workload:
  [How to: Programmatically open existing documents](../vsto/how-to-programmatically-open-existing-documents.md)   
  [Document host item](../vsto/document-host-item.md)   
  [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)  
-  
-  

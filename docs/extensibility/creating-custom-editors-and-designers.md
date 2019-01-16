@@ -1,9 +1,6 @@
 ---
 title: "Creating Custom Editors and Designers | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "designers [Visual Studio SDK]"
@@ -18,15 +15,15 @@ ms.workload:
 # Create custom editors and designers
 The Visual Studio integrated development environment (IDE) can host different types of editor:  
   
--   The Visual Studio core editor  
+- The Visual Studio core editor  
   
--   Custom editors  
+- Custom editors  
   
--   External Editors  
+- External Editors  
   
--   Designers  
+- Designers  
   
- The following information helps you choose the type of editor you need.  
+  The following information helps you choose the type of editor you need.  
   
 ## Types of editor  
  For information about the Visual Studio core editor, see [Extend the editor and language services](../extensibility/extending-the-editor-and-language-services.md).  
@@ -46,25 +43,25 @@ The Visual Studio integrated development environment (IDE) can host different ty
 ## Editor design decisions  
  The following design questions will help you to choose the type of editor best suited to your application:  
   
--   Will your application save its data in files or not? If it will save its data in files, will they be in a custom or standard format?  
+- Will your application save its data in files or not? If it will save its data in files, will they be in a custom or standard format?  
   
-     If you use a standard file format, other project types in addition to your project will be able to open and read/write data to them. If you use a custom file format, however, only your project type will be able to open and read/write data to them.  
+   If you use a standard file format, other project types in addition to your project will be able to open and read/write data to them. If you use a custom file format, however, only your project type will be able to open and read/write data to them.  
   
-     If your project uses files, then you should customize the standard editor. If your project does not use files, but rather uses items in a database or other repository, then you should create a custom editor.  
+   If your project uses files, then you should customize the standard editor. If your project does not use files, but rather uses items in a database or other repository, then you should create a custom editor.  
   
--   Does your editor need to host ActiveX controls?  
+- Does your editor need to host ActiveX controls?  
   
-     If your editor hosts ActiveX controls, then implement an in-place activation editor, as outlined in [In-place activation](../extensibility/in-place-activation.md). If it does not host ActiveX controls, then either use a simplified embedding editor, or customize the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] default editor.  
+   If your editor hosts ActiveX controls, then implement an in-place activation editor, as outlined in [In-place activation](../extensibility/in-place-activation.md). If it does not host ActiveX controls, then either use a simplified embedding editor, or customize the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] default editor.  
   
--   Will your editor support multiple views? You must support multiple views if you want views of your editor to be visible at the same time as the default editor.  
+- Will your editor support multiple views? You must support multiple views if you want views of your editor to be visible at the same time as the default editor.  
   
-     If your editor needs to support multiple views, the document data and document view objects for the editor must be separate objects. For more information, see [Support multiple document views](../extensibility/supporting-multiple-document-views.md).  
+   If your editor needs to support multiple views, the document data and document view objects for the editor must be separate objects. For more information, see [Support multiple document views](../extensibility/supporting-multiple-document-views.md).  
   
-     If your editor supports multiple views, do you plan to use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] core editor's text buffer implementation (<xref:Microsoft.VisualStudio.TextManager.Interop.VsTextBuffer> object) for your document data object? That is, do you want to support your editor view side-by-side with the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] core editor? The ability to do this is the basis of the forms designer..  
+   If your editor supports multiple views, do you plan to use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] core editor's text buffer implementation (<xref:Microsoft.VisualStudio.TextManager.Interop.VsTextBuffer> object) for your document data object? That is, do you want to support your editor view side-by-side with the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] core editor? The ability to do this is the basis of the forms designer..  
   
--   If you need to host an external editor , can the editor be embedded inside [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]?  
+- If you need to host an external editor , can the editor be embedded inside [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]?  
   
-     If it can be embedded, you should create a host window for the external editor and then call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3.IsDocumentInProject%2A> method and set the <xref:Microsoft.VisualStudio.Shell.Interop.VSDOCUMENTPRIORITY> enumeration value to `DP_External`. If the editor cannot be embedded, the IDE will automatically create a separate window for it.  
+   If it can be embedded, you should create a host window for the external editor and then call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3.IsDocumentInProject%2A> method and set the <xref:Microsoft.VisualStudio.Shell.Interop.VSDOCUMENTPRIORITY> enumeration value to `DP_External`. If the editor cannot be embedded, the IDE will automatically create a separate window for it.  
   
 ## In This Section  
  [Walkthrough: Create a custom editor](../extensibility/walkthrough-creating-a-custom-editor.md)  

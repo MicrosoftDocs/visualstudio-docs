@@ -1,9 +1,6 @@
 ---
 title: "IDebugReference2::GetDerivedMostReference | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugReference2::GetDerivedMostReference"
@@ -23,13 +20,13 @@ Gets the derived-most reference of a reference. Reserved for future use.
   
 ```cpp  
 HRESULT GetDerivedMostReference(   
-   IDebugReference2** ppDerivedMost  
+   IDebugReference2** ppDerivedMost  
 );  
 ```  
   
 ```csharp  
 int GetDerivedMostReference(   
-   out IDebugReference2 ppDerivedMost  
+   out IDebugReference2 ppDerivedMost  
 );  
 ```  
   

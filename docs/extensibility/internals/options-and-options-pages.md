@@ -1,9 +1,6 @@
 ---
 title: "Options and Options Pages | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Tools Options pages [Visual Studio SDK], managed package framework support"
@@ -49,21 +46,21 @@ Clicking **Options** on the **Tools** menu opens the **Options** dialog box. The
 ## Option Attributes and Layout  
  The user interface (UI) that the page provides determines the appearance of options in a custom options page. The layout, labeling, and description of options in a generic options page are determined by the following attributes:  
   
--   <xref:System.ComponentModel.CategoryAttribute> determines the category of the option.  
+- <xref:System.ComponentModel.CategoryAttribute> determines the category of the option.  
   
--   <xref:System.ComponentModel.DisplayNameAttribute> determines the display name of the option.  
+- <xref:System.ComponentModel.DisplayNameAttribute> determines the display name of the option.  
   
--   <xref:System.ComponentModel.DescriptionAttribute> determines the description of the option.  
+- <xref:System.ComponentModel.DescriptionAttribute> determines the description of the option.  
   
-    > [!NOTE]
-    >  Equivalent attributes, SRCategory, LocDisplayName, and SRDescription, use string resources for localization and are defined in the [managed project sample](http://go.microsoft.com/fwlink/?LinkId=122774).  
+  > [!NOTE]
+  >  Equivalent attributes, SRCategory, LocDisplayName, and SRDescription, use string resources for localization and are defined in the [managed project sample](http://go.microsoft.com/fwlink/?LinkId=122774).  
   
- Consider the following code fragment:  
+  Consider the following code fragment:  
   
- [!code-csharp[VSSDKSupportForOptionsPages#3](../../extensibility/internals/codesnippet/CSharp/options-and-options-pages_3.cs)]
- [!code-vb[VSSDKSupportForOptionsPages#3](../../extensibility/internals/codesnippet/VisualBasic/options-and-options-pages_3.vb)]  
+  [!code-csharp[VSSDKSupportForOptionsPages#3](../../extensibility/internals/codesnippet/CSharp/options-and-options-pages_3.cs)]
+  [!code-vb[VSSDKSupportForOptionsPages#3](../../extensibility/internals/codesnippet/VisualBasic/options-and-options-pages_3.vb)]  
   
- The OptionInteger option appears on the options page as **Integer Option** in the **My Options** category. If the option is selected, the description, **My integer option**, appears in the description box.  
+  The OptionInteger option appears on the options page as **Integer Option** in the **My Options** category. If the option is selected, the description, **My integer option**, appears in the description box.  
   
 ## Accessing Options Pages from Another VSPackage  
  A VSPackage that hosts and manages an options page can be programmatically accessed from another VSPackage by using the automation model. For example, in the following code a VSPackage is registered as hosting an option page.  

@@ -1,8 +1,6 @@
 ---
 title: "IDiaSession::findFileById | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,8 +20,8 @@ Retrieves a source file by source file identifier.
   
 ```C++  
 HRESULT findFileById (   
-   DWORD            uniqueId,  
-   IDiaSourceFile** ppResult  
+   DWORD            uniqueId,  
+   IDiaSourceFile** ppResult  
 );  
 ```  
   

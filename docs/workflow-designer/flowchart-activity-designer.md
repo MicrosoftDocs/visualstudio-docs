@@ -3,7 +3,6 @@ title: "Workflow Designer - Flowchart Activity Designer"
 ms.date: 11/04/2016
 ms.topic: reference
 ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 f1_keywords:
   - "System.Activities.Statements.Flowchart.UI"
   - "System.Activities.Statements.FlowStep.UI"
@@ -36,7 +35,7 @@ After dragging various activity designers onto the Workflow Designer canvas, the
 The following table shows the <xref:System.Activities.Statements.Flowchart> properties and describes how they are used in the designer. These properties can be edited in property grid or on the designer surface.
 
 |Property Name|Required|Usage|
-|-------------------|--------------|-----------|
+|-|--------------|-|
 |<xref:System.Activities.Activity.DisplayName%2A>|False|Specifies the display name of the activity designer in the header. The default value is Flowchart. The value can be edited in the **Properties** window or directly on the activity designer header.<br /><br /> Although the <xref:System.Activities.Activity.DisplayName%2A> is not strictly required, it is a best practice to use one.|
 |<xref:System.Activities.Statements.Flowchart.Variables%2A>|False|The collection of variables that are scoped within this <xref:System.Activities.Statements.Flowchart> to share state across its child activities.|
 |<xref:System.Activities.Statements.Flowchart.StartNode%2A>|False|The <xref:System.Activities.Statements.FlowNode> that is executed when the <xref:System.Activities.Statements.Flowchart> starts.|

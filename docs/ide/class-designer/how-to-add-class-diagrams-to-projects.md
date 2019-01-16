@@ -2,7 +2,6 @@
 title: "How to: Add Class Diagrams to Projects (Class Designer)"
 ms.date: 05/08/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:
   - "class diagrams, creating"
@@ -53,11 +52,14 @@ To add multiple class diagrams, repeat the steps in this procedure.
 
 ## Add a class diagram based on existing types
 
-In **Solution Explorer**, open the class file context menu and then choose **View Class Diagram**.
+In **Solution Explorer**, open a class file's context menu (right-click) and then choose **View Class Diagram**.
 
 -or-
 
 In **Class View**, open the namespace or type context menu and then choose **View Class Diagram**.
+
+> [!TIP]
+> If **Class View** is not open, open **Class View** from the **View** menu.
 
 ## To display the contents of a complete project in a class diagram
 
@@ -70,5 +72,3 @@ An auto-populated class diagram is created.
 - [How to: Create types using the Class Designer](how-to-create-types.md)
 - [How to: View existing types](how-to-view-existing-types.md)
 - [Design and view classes and types](designing-and-viewing-classes-and-types.md)
-- [View types and relationships](viewing-types-and-relationships.md)
-- [Work with class diagrams](working-with-class-diagrams.md)

@@ -1,8 +1,6 @@
 ---
 title: "IDiaInjectedSource::get_virtualFilename | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves the name given to non-file source code; that is, code that was injecte
   
 ```C++  
 HRESULT get_virtualFilename (   
-   BSTR* pRetVal  
+   BSTR* pRetVal  
 );  
 ```  
   

@@ -1,9 +1,6 @@
 ---
 title: "IDebugPort2::GetPortSupplier | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugPort2::GetPortSupplier"
@@ -23,13 +20,13 @@ Gets the port supplier for this port.
   
 ```cpp  
 HRESULT GetPortSupplier(   
-   IDebugPortSupplier2** ppSupplier  
+   IDebugPortSupplier2** ppSupplier  
 );  
 ```  
   
 ```csharp  
 int GetPortSupplier(   
-   out IDebugPortSupplier2 ppSupplier  
+   out IDebugPortSupplier2 ppSupplier  
 );  
 ```  
   

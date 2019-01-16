@@ -1,9 +1,6 @@
 ---
 title: "Symbols Element | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Symbols element (VSCT XML schema)"
@@ -57,12 +54,12 @@ Defines GUIDs and IDs that are used by other VSCT elements. For unmanaged code, 
   
 ```  
 <Symbols>  
-  <GuidSymbol name="guidVsPackage1Pkg" value="{c5f54698-101a-4846-84d3-dc748f9cd848}" />  
-  <GuidSymbol name="guidVsPackage1CmdSet" value="{cb9dfd7f-2fcc-4a3e-aae8-f7fe30b1cfac}">  
-    <IDSymbol name="MyMenuGroup" value="0x1020" />  
-    <IDSymbol name="cmdidMyCommand" value="0x0100" />  
-    <IDSymbol name="cmdidMyTool" value="0x0101" />  
-  </GuidSymbol>  
+  <GuidSymbol name="guidVsPackage1Pkg" value="{c5f54698-101a-4846-84d3-dc748f9cd848}" />  
+  <GuidSymbol name="guidVsPackage1CmdSet" value="{cb9dfd7f-2fcc-4a3e-aae8-f7fe30b1cfac}">  
+    <IDSymbol name="MyMenuGroup" value="0x1020" />  
+    <IDSymbol name="cmdidMyCommand" value="0x0100" />  
+    <IDSymbol name="cmdidMyTool" value="0x0101" />  
+  </GuidSymbol>  
 </Symbols>  
 ```  
   

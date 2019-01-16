@@ -1,8 +1,6 @@
 ---
 title: "Collecting .NET Memory Allocation and Lifetime Data | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - ".NET memory profiling method"
@@ -47,11 +45,11 @@ For information about how to collect .NET memory data by using the Profiling Too
 
 ## Common tasks
 
-You can specify additional options in the *Performance Session***Property Pages** dialog box of the performance session. To open this dialog box:
+You can specify additional options in the _Performance Session_**Property Pages** dialog box of the performance session. To open this dialog box:
 
 - In **Performance Explorer**, right-click the performance session name, and then click **Properties**.
 
-The tasks in the following table describe options that you can specify in the *Performance Session***Property Pages** dialog box when you collect .NET memory data.
+The tasks in the following table describe options that you can specify in the _Performance Session_**Property Pages** dialog box when you collect .NET memory data.
 
 |Task|Related Content|
 |----------|---------------------|

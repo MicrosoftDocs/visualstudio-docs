@@ -1,9 +1,6 @@
 ---
 title: "IDebugComPlusSymbolProvider::CreateTypeFromPrimitive | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugComPlusSymbolProvider::CreateTypeFromPrimitive"
@@ -23,18 +20,18 @@ Creates a type from the specified primitive type.
 ```  
 [C++]  
 HRESULT CreateTypeFromPrimitive(  
-   DWORD          dwPrimType,  
-   IDebugAddress* pAddress,  
-   IDebugField**  ppType  
+   DWORD          dwPrimType,  
+   IDebugAddress* pAddress,  
+   IDebugField**  ppType  
 );  
 ```  
   
 ```  
 [C#]  
 int CreateTypeFromPrimitive(  
-   uint          dwPrimType,  
-   IDebugAddress pAddress,  
-   IDebugField   ppType  
+   uint          dwPrimType,  
+   IDebugAddress pAddress,  
+   IDebugField   ppType  
 );  
 ```  
   

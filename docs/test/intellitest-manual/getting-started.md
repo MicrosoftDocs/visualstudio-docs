@@ -1,14 +1,13 @@
 ---
-title: "Creating unit test method stubs with the Create Unit Tests command"
+title: "Introduction to IntelliTest"
 ms.date: 05/02/2017
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
-helpviewer_keywords: 
+helpviewer_keywords:
   - "IntelliTest, Get started"
 ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 author: gewarren
 ---
@@ -70,4 +69,4 @@ void StaticHelpers(Foo target) {
 
 ## Got feedback?
 
-Post your ideas and feature requests on [UserVoice](https://visualstudio.uservoice.com/forums/121579-visual-studio-2015/category/157869-test-tools?query=IntelliTest).
+Post your ideas and feature requests on [Developer Community](https://developercommunity.visualstudio.com/content/idea/post.html?space=8).

@@ -1,9 +1,6 @@
 ---
 title: "IDebugProcess3::GetENCAvailableState | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProcess3::GetENCAvailableState"
@@ -23,13 +20,13 @@ This method gets the current Edit and Continue state of the process. A custom po
   
 ```cpp  
 HRESULT GetENCAvailableState(  
-   EncUnavailableReason* pReason  
+   EncUnavailableReason* pReason  
 );  
 ```  
   
 ```csharp  
 int GetENCAvailableState(  
-   EncUnavailableReason[] pReason  
+   EncUnavailableReason[] pReason  
 );  
 ```  
   

@@ -1,8 +1,6 @@
 ---
 title: "IDiaStackFrame::get_size | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves the size of the stack frame in bytes.
   
 ```C++  
 HRESULT get_size (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

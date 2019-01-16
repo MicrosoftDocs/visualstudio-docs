@@ -24,11 +24,11 @@ Retrieves a specified number of`ExtendedDebugPropertyInfo` structures in an enum
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Next (  
-   ULONGcelt,  
-   ExtendedDebugPropertyInfo *rgelt,  
-   ULONG* pceltFetched  
+   ULONGcelt,  
+   ExtendedDebugPropertyInfo *rgelt,  
+   ULONG* pceltFetched  
 );  
 ```  
   

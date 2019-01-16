@@ -1,9 +1,6 @@
 ---
 title: "VSIX Language Pack Schema 2.0 Reference | Microsoft Docs"
-ms.custom: ""
 ms.date: "10/26/2017"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "language pack"
@@ -25,9 +22,10 @@ The VSIX Language Pack schema provides localized installation information for VS
 
 The root element of the language pack file is `<PackageLanguagePackManifest>`, with an attribute of `Version`, which is the version of the language pack format. This article describes version 2.0 of the language pack format, which is specified in the manifest by setting the `Version` attribute to the value `Version="2.0.0"`. The root element contains exactly one child `<Metadata>` element.
 
-### PackageLangaugePackManifest element
+### PackageLanguagePackManifest element
 
 Within the `<PackageLanguagePackManifest>` element the following element must exist:
+
 |Title|Description|
 |-----------|-----------------|
 |`<Metadata>`| The containing element for all localized package metadata
@@ -35,6 +33,7 @@ Within the `<PackageLanguagePackManifest>` element the following element must ex
 ### Metadata element
 
 Within the `<Metadata>` element you can have the following elements:
+
 |Title|Description|
 |-----------|-----------------|
 |`<DisplayName>`|The localized name of the extension to be installed|

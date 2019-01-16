@@ -1,7 +1,7 @@
 ---
 title: "Quickstart: use Visual Studio to create a Python web app"
 description: In this quickstart, you use Visual Studio and the Flask framework to build a simple web app in Python.
-ms.date: 06/27/2018
+ms.date: 10/29/2018
 ms.prod: visual-studio-dev15
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
@@ -62,11 +62,11 @@ Here, you use the following steps to install the Flask library into the default 
 
 1. Enter "flask" in the search field and select **pip install flask from PyPI**. Accept any prompts for administrator privileges and observe the **Output** window in Visual Studio for progress. (A prompt for elevation happens when the packages folder for the global environment is located within a protected area like *C:\Program Files*.)
 
-    ![Installing the Flask library](media/quickstart-python-03-install-package.png)
+    ![Installing the Flask library using pip install](media/quickstart-python-03-install-package.png)
 
 1. Once installed, the library appears in the environment in **Solution Explorer**, which means that you can make use of it in Python code.
 
-    ![Flask library installed](media/quickstart-python-04-package-installed.png)
+    ![Flask library installed and showing in Solution Explorer](media/quickstart-python-04-package-installed.png)
 
 > [!Note]
 > Instead of installing libraries in the global environment, developers typically create a "virtual environment" in which to install libraries for a specific project. Visual Studio templates typically offer this option, as discussed in [Quickstart - Create a Python project using a template](../python/quickstart-02-python-in-visual-studio-project-from-template.md).
@@ -120,19 +120,19 @@ You're now ready to add a bit of Python code to implement a minimal web app.
 
     ![Setting the startup file for a project in Solution Explorer](media/quickstart-python-05-set-as-startup-file.png)
 
-1. Right-click the project in **Solution Explorer** and select **Properties**. Then select the **Debug** tab and set the **Port Number** property to `4449`. This step ensures that Visual Studio launches a browser with `localhost:4449` to match the `app.run` arguments in the code.
+2. Right-click the project in **Solution Explorer** and select **Properties**. Then select the **Debug** tab and set the **Port Number** property to `4449`. This step ensures that Visual Studio launches a browser with `localhost:4449` to match the `app.run` arguments in the code.
 
-1. Select **Debug > Start Without Debugging** (**Ctrl**+**F5**), which saves changes to files and runs the app.
+3. Select **Debug > Start Without Debugging** (**Ctrl**+**F5**), which saves changes to files and runs the app.
 
-1. A command window appears with the message "* Running in https://localhost:4449/", and a browser window should open to `localhost:4449` where you see the message, "Hello, Python!" The GET request also appears in the command window with a status of 200.
+4. A command window appears with the message "* Running in <https://localhost:4449/>", and a browser window should open to `localhost:4449` where you see the message, "Hello, Python!" The GET request also appears in the command window with a status of 200.
 
     If a browser does not open automatically, start the browser of your choice and navigate to `localhost:4449`.
 
     If you see only the Python interactive shell in the command window, or if that window flashes on the screen briefly, ensure that you set *app.py* as the startup file in step 1 above.
 
-1. Navigate to `localhost:4449/hello` to test that the decorator for the `/hello` resource also works. Again, the GET request appears in the command window with a status of 200. Feel free to try some other URL as well to see that they show 404 status codes in the command window.
+5. Navigate to `localhost:4449/hello` to test that the decorator for the `/hello` resource also works. Again, the GET request appears in the command window with a status of 200. Feel free to try some other URL as well to see that they show 404 status codes in the command window.
 
-1. Close the command window to stop the app, then close the browser window.
+6. Close the command window to stop the app, then close the browser window.
 
 **Question: What's the difference between the Start Without Debugging command and Start Debugging?**
 
@@ -153,4 +153,4 @@ To explore more that Visual Studio has to offer, select the links below.
 
 - Learn about [Python web app templates in Visual Studio](../python/python-web-application-project-templates.md).
 - Learn about [Python debugging](../python/debugging-python-in-visual-studio.md)
-- Learn more about the [Visual Studio IDE](../ide/visual-studio-ide.md) in general.
+- Learn more about the [Visual Studio IDE](../get-started/visual-studio-ide.md) in general.

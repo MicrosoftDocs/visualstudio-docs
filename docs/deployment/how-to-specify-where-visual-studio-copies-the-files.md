@@ -1,8 +1,7 @@
 ---
-title: "How to: Specify Where Visual Studio Copies the Files | Microsoft Docs"
-ms.custom: ""
+title: "Specify where to copy files | Microsoft Docs"
+ms.custom: "seodec18"
 ms.date: "11/04/2016"
-ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -28,15 +27,15 @@ When you publish an application by using ClickOnce, the `Publish Location` prope
   
 ### To specify a publishing location  
   
-1.  With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.  
+1. With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.  
   
-2.  Click the **Publish** tab.  
+2. Click the **Publish** tab.  
   
-3.  In the **Publish Location** field, enter the publishing location by using one of the following formats:  
+3. In the **Publish Location** field, enter the publishing location by using one of the following formats:  
   
-    -   To publish to a file share or disk path, enter the path by using either a UNC path (*\\\Server\ApplicationName*) or a file path (*C:\Deploy\ApplicationName*).  
+   - To publish to a file share or disk path, enter the path by using either a UNC path (*\\\Server\ApplicationName*) or a file path (*C:\Deploy\ApplicationName*).  
   
-    -   To publish to an FTP server, enter the path using the format *ftp://ftp.microsoft.com/\<ApplicationName>*.  
+   - To publish to an FTP server, enter the path using the format <em>ftp://ftp.microsoft.com/\<ApplicationName></em>.  
   
      Note that text must be present in the **Publishing Location** box in order for the Browse (**...**) button to work.  
   

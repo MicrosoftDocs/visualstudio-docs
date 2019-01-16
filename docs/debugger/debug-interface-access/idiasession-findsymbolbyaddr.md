@@ -1,8 +1,6 @@
 ---
 title: "IDiaSession::findSymbolByAddr | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,10 +20,10 @@ Retrieves a specified symbol type that contains, or is closest to, a specified a
   
 ```C++  
 HRESULT findSymbolByAddr (   
-   DWORD        isect,  
-   DWORD        offset,  
-   SymTagEnum   symtag,  
-   IDiaSymbol** ppSymbol  
+   DWORD        isect,  
+   DWORD        offset,  
+   SymTagEnum   symtag,  
+   IDiaSymbol** ppSymbol  
 );  
 ```  
   

@@ -24,7 +24,7 @@ Provides access to properties and methods exposed by an `IDispatchEx` object.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT InvokeEx(  
    DISPID id,  
    LCID lcid,  
@@ -115,7 +115,7 @@ HRESULT InvokeEx(
   
 ## Example  
   
-```  
+```cpp
 VARIANT var;  
    BSTR bstrName;  
    DISPID dispid;  

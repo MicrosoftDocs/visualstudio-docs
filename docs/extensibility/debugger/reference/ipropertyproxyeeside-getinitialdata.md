@@ -1,9 +1,6 @@
 ---
 title: "IPropertyProxyEESide::GetInitialData | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IPropertyProxyEESide::GetInitialData"
@@ -23,13 +20,13 @@ Returns the initial data for this object.
   
 ```cpp  
 HRESULT GetInitialData(  
-   IEEDataStorage** dataOut  
+   IEEDataStorage** dataOut  
 );  
 ```  
   
 ```csharp  
 int GetInitialData(  
-   out IEEDataStorage dataOut  
+   out IEEDataStorage dataOut  
 );  
 ```  
   

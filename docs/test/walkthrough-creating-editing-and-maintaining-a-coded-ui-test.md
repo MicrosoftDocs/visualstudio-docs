@@ -1,8 +1,7 @@
 ---
-title: "Create a Coded UI Test in Visual Studio"
+title: "Create a Coded UI Test"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 ms.author: gewarren
 manager: douge
@@ -13,6 +12,8 @@ author: gewarren
 # Walkthrough: Create, edit, and maintain a coded UI test
 
 In this walkthrough, you'll learn how to create, edit, and maintain a coded UI test to test a Windows Presentation Framework (WPF) app. The walkthrough provides solutions for correcting tests that have been broken by various timing issues and refactoring of controls.
+
+[!INCLUDE [coded-ui-test-deprecation](includes/coded-ui-test-deprecation.md)]
 
 ## Create a WPF app
 
@@ -355,7 +356,7 @@ In this walkthrough, you'll learn how to create, edit, and maintain a coded UI t
 
 ## FAQ
 
-[Coded UI tests FAQ](https://social.msdn.microsoft.com/Forums/en-US/3a74dd2c-cef8-4923-abbf-7a91f489e6c4/faqs?forum=vsautotest)
+[Coded UI tests FAQ](https://social.msdn.microsoft.com/Forums/vsautotest/3a74dd2c-cef8-4923-abbf-7a91f489e6c4/faqs)
 
 ## See also
 

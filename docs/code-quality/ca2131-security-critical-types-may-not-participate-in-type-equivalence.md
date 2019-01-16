@@ -2,7 +2,6 @@
 title: "CA2131: Security critical types may not participate in type equivalence"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA2131"
@@ -14,6 +13,7 @@ ms.workload:
   - "multiple"
 ---
 # CA2131: Security critical types may not participate in type equivalence
+
 |||
 |-|-|
 |TypeName|CriticalTypesMustNotParticipateInTypeEquivalence|
@@ -24,13 +24,13 @@ ms.workload:
 ## Cause
  A type participates in type equivalence and a either the type itself, or a member or field of the type, is marked with the <xref:System.Security.SecurityCriticalAttribute> attribute.
 
-## Rule Description
+## Rule description
  This rule fires on any critical types or types that contain critical methods or fields that are participating in type equivalence. When the CLR detects such a type, it fails to load it with a <xref:System.TypeLoadException> at run time. Typically, this rule fires only when users implement type equivalence manually rather than by relying on tlbimp and the compilers to do the type equivalence.
 
-## How to Fix Violations
+## How to fix violations
  To fix a violation of this rule, remove the SecurityCritical attribute.
 
-## When to Suppress Warnings
+## When to suppress warnings
  Do not suppress a warning from this rule.
 
 ## Example
@@ -38,5 +38,5 @@ ms.workload:
 
  [!code-csharp[FxCop.Security.CA2131.CriticalTypesMustNotParticipateInTypeEquivalence#1](../code-quality/codesnippet/CSharp/ca2131-security-critical-types-may-not-participate-in-type-equivalence_1.cs)]
 
-## See Also
+## See also
  [Security-Transparent Code, Level 2](/dotnet/framework/misc/security-transparent-code-level-2)

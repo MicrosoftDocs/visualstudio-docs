@@ -1,9 +1,6 @@
 ---
 title: "Walkthrough: Display custom task panes with email messages in Outlook"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -50,11 +47,11 @@ ms.workload:
 ## Prerequisites  
  You need the following components to complete this walkthrough:  
   
--   [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]  
+- [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]  
   
--   Microsoft [!INCLUDE[Outlook_15_short](../vsto/includes/outlook-15-short-md.md)] or Microsoft Outlook 2010.  
+- Microsoft [!INCLUDE[Outlook_15_short](../vsto/includes/outlook-15-short-md.md)] or Microsoft Outlook 2010.  
   
- ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Use task panes in Outlook?](http://go.microsoft.com/fwlink/?LinkID=130309).  
+  ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Use task panes in Outlook?](http://go.microsoft.com/fwlink/?LinkID=130309).  
   
 ## Create the project  
  Custom task panes are implemented in VSTO Add-ins. Start by creating a VSTO Add-in project for Outlook.  
@@ -115,13 +112,13 @@ ms.workload:
 ## Create a class to manage inspector windows and custom task panes  
  There are several cases in which the VSTO Add-in must identify which custom task pane is associated with a specific email message. These cases include the following:  
   
--   When the user closes an email message. In this case, the VSTO Add-in must remove the corresponding custom task pane to ensure that resources used by the VSTO Add-in are cleaned up correctly.  
+- When the user closes an email message. In this case, the VSTO Add-in must remove the corresponding custom task pane to ensure that resources used by the VSTO Add-in are cleaned up correctly.  
   
--   When the user closes the custom task pane. In this case, the VSTO Add-in must update the state of the toggle button on the ribbon of the email message.  
+- When the user closes the custom task pane. In this case, the VSTO Add-in must update the state of the toggle button on the ribbon of the email message.  
   
--   When the user clicks the toggle button on the ribbon. In this case, the VSTO Add-in must hide or display the corresponding task pane.  
+- When the user clicks the toggle button on the ribbon. In this case, the VSTO Add-in must hide or display the corresponding task pane.  
   
- To enable the VSTO Add-in to keep track of which custom task pane is associated with each open email message, create a custom class that wraps pairs of <xref:Microsoft.Office.Interop.Outlook.Inspector> and <xref:Microsoft.Office.Tools.CustomTaskPane> objects. This class creates a new custom task pane object for each email message, and it deletes the custom task pane when the corresponding email message is closed.  
+  To enable the VSTO Add-in to keep track of which custom task pane is associated with each open email message, create a custom class that wraps pairs of <xref:Microsoft.Office.Interop.Outlook.Inspector> and <xref:Microsoft.Office.Tools.CustomTaskPane> objects. This class creates a new custom task pane object for each email message, and it deletes the custom task pane when the corresponding email message is closed.  
   
 ### To create a class to manage inspector windows and custom task panes  
   
@@ -162,36 +159,36 @@ ms.workload:
   
 ### To initialize and clean up resources used by the VSTO Add-in  
   
-1.  In the *ThisAddIn.cs* or *ThisAddIn.vb* file, locate the definition of the `ThisAddIn` class.  
+1. In the *ThisAddIn.cs* or *ThisAddIn.vb* file, locate the definition of the `ThisAddIn` class.  
   
-2.  Add the following declarations to the `ThisAddIn` class:  
+2. Add the following declarations to the `ThisAddIn` class:  
   
-    -   The `inspectorWrappersValue` field contains all the <xref:Microsoft.Office.Interop.Outlook.Inspector> and `InspectorWrapper` objects that are managed by the VSTO Add-in.  
+   - The `inspectorWrappersValue` field contains all the <xref:Microsoft.Office.Interop.Outlook.Inspector> and `InspectorWrapper` objects that are managed by the VSTO Add-in.  
   
-    -   The `inspectors` field maintains a reference to the collection of Inspector windows in the current Outlook instance. This reference prevents the garbage collector from freeing the memory that contains the event handler for the <xref:Microsoft.Office.Interop.Outlook.InspectorsEvents_Event.NewInspector> event, which you will declare in the next step.  
+   - The `inspectors` field maintains a reference to the collection of Inspector windows in the current Outlook instance. This reference prevents the garbage collector from freeing the memory that contains the event handler for the <xref:Microsoft.Office.Interop.Outlook.InspectorsEvents_Event.NewInspector> event, which you will declare in the next step.  
   
      [!code-csharp[Trin_OutlookMailItemTaskPane#8](../vsto/codesnippet/CSharp/Trin_OutlookMailItemTaskPane/ThisAddIn.cs#8)]
      [!code-vb[Trin_OutlookMailItemTaskPane#8](../vsto/codesnippet/VisualBasic/Trin_OutlookMailItemTaskPane/ThisAddIn.vb#8)]  
   
-3.  Replace the `ThisAddIn_Startup` method with the following code. This code attaches an event handler to the <xref:Microsoft.Office.Interop.Outlook.InspectorsEvents_Event.NewInspector> event, and it passes every existing <xref:Microsoft.Office.Interop.Outlook.Inspector> object to the event handler. If the user loads the VSTO Add-in after Outlook is already running, the VSTO Add-in uses this information to create custom task panes for all email messages that are already open.  
+3. Replace the `ThisAddIn_Startup` method with the following code. This code attaches an event handler to the <xref:Microsoft.Office.Interop.Outlook.InspectorsEvents_Event.NewInspector> event, and it passes every existing <xref:Microsoft.Office.Interop.Outlook.Inspector> object to the event handler. If the user loads the VSTO Add-in after Outlook is already running, the VSTO Add-in uses this information to create custom task panes for all email messages that are already open.  
   
-     [!code-csharp[Trin_OutlookMailItemTaskPane#9](../vsto/codesnippet/CSharp/Trin_OutlookMailItemTaskPane/ThisAddIn.cs#9)]
-     [!code-vb[Trin_OutlookMailItemTaskPane#9](../vsto/codesnippet/VisualBasic/Trin_OutlookMailItemTaskPane/ThisAddIn.vb#9)]  
+    [!code-csharp[Trin_OutlookMailItemTaskPane#9](../vsto/codesnippet/CSharp/Trin_OutlookMailItemTaskPane/ThisAddIn.cs#9)]
+    [!code-vb[Trin_OutlookMailItemTaskPane#9](../vsto/codesnippet/VisualBasic/Trin_OutlookMailItemTaskPane/ThisAddIn.vb#9)]  
   
-4.  Replace the `ThisAddIn_ShutDown` method with the following code. This code detaches the <xref:Microsoft.Office.Interop.Outlook.InspectorsEvents_Event.NewInspector> event handler and cleans up objects used by the VSTO Add-in.  
+4. Replace the `ThisAddIn_ShutDown` method with the following code. This code detaches the <xref:Microsoft.Office.Interop.Outlook.InspectorsEvents_Event.NewInspector> event handler and cleans up objects used by the VSTO Add-in.  
   
-     [!code-csharp[Trin_OutlookMailItemTaskPane#10](../vsto/codesnippet/CSharp/Trin_OutlookMailItemTaskPane/ThisAddIn.cs#10)]
-     [!code-vb[Trin_OutlookMailItemTaskPane#10](../vsto/codesnippet/VisualBasic/Trin_OutlookMailItemTaskPane/ThisAddIn.vb#10)]  
+    [!code-csharp[Trin_OutlookMailItemTaskPane#10](../vsto/codesnippet/CSharp/Trin_OutlookMailItemTaskPane/ThisAddIn.cs#10)]
+    [!code-vb[Trin_OutlookMailItemTaskPane#10](../vsto/codesnippet/VisualBasic/Trin_OutlookMailItemTaskPane/ThisAddIn.vb#10)]  
   
-5.  Add the following <xref:Microsoft.Office.Interop.Outlook.InspectorsEvents_Event.NewInspector> event handler to the `ThisAddIn` class. If a new <xref:Microsoft.Office.Interop.Outlook.Inspector> contains an email message, the method creates an instance of a new `InspectorWrapper` object to manage the relationship between the e-mail message and the corresponding task pane.  
+5. Add the following <xref:Microsoft.Office.Interop.Outlook.InspectorsEvents_Event.NewInspector> event handler to the `ThisAddIn` class. If a new <xref:Microsoft.Office.Interop.Outlook.Inspector> contains an email message, the method creates an instance of a new `InspectorWrapper` object to manage the relationship between the e-mail message and the corresponding task pane.  
   
-     [!code-csharp[Trin_OutlookMailItemTaskPane#11](../vsto/codesnippet/CSharp/Trin_OutlookMailItemTaskPane/ThisAddIn.cs#11)]
-     [!code-vb[Trin_OutlookMailItemTaskPane#11](../vsto/codesnippet/VisualBasic/Trin_OutlookMailItemTaskPane/ThisAddIn.vb#11)]  
+    [!code-csharp[Trin_OutlookMailItemTaskPane#11](../vsto/codesnippet/CSharp/Trin_OutlookMailItemTaskPane/ThisAddIn.cs#11)]
+    [!code-vb[Trin_OutlookMailItemTaskPane#11](../vsto/codesnippet/VisualBasic/Trin_OutlookMailItemTaskPane/ThisAddIn.vb#11)]  
   
-6.  Add the following property to the `ThisAddIn` class. This property exposes the private `inspectorWrappersValue` field to code outside the `ThisAddIn` class.  
+6. Add the following property to the `ThisAddIn` class. This property exposes the private `inspectorWrappersValue` field to code outside the `ThisAddIn` class.  
   
-     [!code-csharp[Trin_OutlookMailItemTaskPane#12](../vsto/codesnippet/CSharp/Trin_OutlookMailItemTaskPane/ThisAddIn.cs#12)]
-     [!code-vb[Trin_OutlookMailItemTaskPane#12](../vsto/codesnippet/VisualBasic/Trin_OutlookMailItemTaskPane/ThisAddIn.vb#12)]  
+    [!code-csharp[Trin_OutlookMailItemTaskPane#12](../vsto/codesnippet/CSharp/Trin_OutlookMailItemTaskPane/ThisAddIn.cs#12)]
+    [!code-vb[Trin_OutlookMailItemTaskPane#12](../vsto/codesnippet/VisualBasic/Trin_OutlookMailItemTaskPane/ThisAddIn.vb#12)]  
   
 ## Checkpoint  
  Build your project to ensure that it compiles without errors.  
@@ -224,29 +221,29 @@ ms.workload:
   
 ### To test the VSTO Add-in  
   
-1.  Press **F5**.  
+1. Press **F5**.  
   
-2.  In Outlook, click **New** to create a new email message.  
+2. In Outlook, click **New** to create a new email message.  
   
-3.  On the ribbon of the email message, click the **Add-Ins** tab, and then click the **Show Task Pane** button.  
+3. On the ribbon of the email message, click the **Add-Ins** tab, and then click the **Show Task Pane** button.  
   
-     Verify that a task pane with the title **My task pane** is displayed with the email message.  
+    Verify that a task pane with the title **My task pane** is displayed with the email message.  
   
-4.  In the task pane, type **First task pane** in the text box.  
+4. In the task pane, type **First task pane** in the text box.  
   
-5.  Close the task pane.  
+5. Close the task pane.  
   
-     Verify that the state of the **Show Task Pane** button changes so that it is no longer pressed.  
+    Verify that the state of the **Show Task Pane** button changes so that it is no longer pressed.  
   
-6.  Click the **Show Task Pane** button again.  
+6. Click the **Show Task Pane** button again.  
   
-     Verify that the task pane opens, and that the text box still contains the string **First task pane**.  
+    Verify that the task pane opens, and that the text box still contains the string **First task pane**.  
   
-7.  In Outlook, click **New** to create a second email message.  
+7. In Outlook, click **New** to create a second email message.  
   
-8.  On the ribbon of the email message, click the **Add-Ins** tab, and then click the **Show Task Pane** button.  
+8. On the ribbon of the email message, click the **Add-Ins** tab, and then click the **Show Task Pane** button.  
   
-     Verify that a task pane with the title **My task pane** is displayed with the email message, and the text box in this task pane is empty.  
+    Verify that a task pane with the title **My task pane** is displayed with the email message, and the text box in this task pane is empty.  
   
 9. In the task pane, type **Second task pane** in the text box.  
   
@@ -254,7 +251,7 @@ ms.workload:
   
      Verify that the task pane that is associated with this email message still displays **First task pane** in the text box.  
   
- This VSTO Add-in also handles more advanced scenarios that you can try. For example, you can test the behavior when viewing emails by using the **Next Item** and **Previous Item** buttons. You can also test the behavior when you unload the VSTO Add-in, open several email messages, and then reload the VSTO Add-in.  
+    This VSTO Add-in also handles more advanced scenarios that you can try. For example, you can test the behavior when viewing emails by using the **Next Item** and **Previous Item** buttons. You can also test the behavior when you unload the VSTO Add-in, open several email messages, and then reload the VSTO Add-in.  
   
 ## Next steps  
  You can learn more about how to create custom task panes from these topics:  
@@ -273,5 +270,3 @@ ms.workload:
  [Ribbon overview](../vsto/ribbon-overview.md)   
  [Outlook object model overview](../vsto/outlook-object-model-overview.md)   
  [Access the ribbon at runtime](../vsto/accessing-the-ribbon-at-run-time.md)  
-  
-  

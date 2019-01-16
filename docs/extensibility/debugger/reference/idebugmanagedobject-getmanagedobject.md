@@ -1,9 +1,6 @@
 ---
 title: "IDebugManagedObject::GetManagedObject | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugManagedObject::GetManagedObject"
@@ -23,13 +20,13 @@ Returns an interface that represents the managed object.
   
 ```cpp  
 HRESULT GetManagedObject(   
-   IUnknown** ppManagedObject  
+   IUnknown** ppManagedObject  
 );  
 ```  
   
 ```cpp  
 int GetManagedObject(  
-   out object ppManagedObject  
+   out object ppManagedObject  
 );  
 ```  
   

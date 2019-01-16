@@ -8,10 +8,9 @@ manager: douge
 ms.workload:
   - "multiple"
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # How to ... with Text Templates
-Text templates in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] provide a useful way of generating text of any kind. You can use text templates to generate text at run time as part of your application and at design time to generate some of your project code. This topic summarizes the most frequently asked "How do I ...?" questions.
+Text templates in Visual Studio provide a useful way of generating text of any kind. You can use text templates to generate text at run time as part of your application and at design time to generate some of your project code. This topic summarizes the most frequently asked "How do I ...?" questions.
 
  In this topic, multiple answers that are preceded by bullets are alternative suggestions.
 
@@ -29,12 +28,12 @@ Text templates in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] prov
 
 -   Add a runtime text template to your project. This template creates a class in your code, which you can instantiate and use to generate text. You can pass data to it in the constructor parameters. For more information, see [Run-Time Text Generation with T4 Text Templates](../modeling/run-time-text-generation-with-t4-text-templates.md).
 
--   If you want to generate from templates that are available only at run time, you can use standard text templates. If you are writing a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] extension, you can invoke the text templating service. For more information, see [Invoking Text Transformation in a VS Extension](../modeling/invoking-text-transformation-in-a-vs-extension.md). In other contexts, you can use the text templating engine. For more information, see <xref:Microsoft.VisualStudio.TextTemplating.Engine?displayProperty=fullName>.
+-   If you want to generate from templates that are available only at run time, you can use standard text templates. If you are writing a Visual Studio extension, you can invoke the text templating service. For more information, see [Invoking Text Transformation in a VS Extension](../modeling/invoking-text-transformation-in-a-vs-extension.md). In other contexts, you can use the text templating engine. For more information, see <xref:Microsoft.VisualStudio.TextTemplating.Engine?displayProperty=fullName>.
 
      Use the \<#@parameter#> directive to pass parameters to these templates. For more information, see [T4 Parameter Directive](../modeling/t4-parameter-directive.md).
 
 ### Read another project file from a template
- To read a file from the same [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project as the template:
+ To read a file from the same Visual Studio project as the template:
 
 -   Insert `hostSpecific="true"` into the `<#@template#>` directive.
 
@@ -43,21 +42,21 @@ Text templates in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] prov
 ### Invoke methods from a template
  If the methods already exist, for example, in standard [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] classes:
 
--   Use the \<#@assembly#> directive to load the assembly, and use \<#@import#> to set the namespace context. For more information, see [T4 Import Directive](../modeling/t4-import-directive.md).
+- Use the \<#@assembly#> directive to load the assembly, and use \<#@import#> to set the namespace context. For more information, see [T4 Import Directive](../modeling/t4-import-directive.md).
 
-     If you frequently use the same set of assembly and import directives, consider writing a directive processor. In each template, you can invoke the directive processor, which can load the assemblies and the model files and set the namespace context. For more information, see [Creating Custom T4 Text Template Directive Processors](../modeling/creating-custom-t4-text-template-directive-processors.md).
+   If you frequently use the same set of assembly and import directives, consider writing a directive processor. In each template, you can invoke the directive processor, which can load the assemblies and the model files and set the namespace context. For more information, see [Creating Custom T4 Text Template Directive Processors](../modeling/creating-custom-t4-text-template-directive-processors.md).
 
- If you are writing the methods yourself:
+  If you are writing the methods yourself:
 
--   If you are writing a runtime text template, write a partial class definition that has the same name as your runtime text template. Add the additional methods into this class.
+- If you are writing a runtime text template, write a partial class definition that has the same name as your runtime text template. Add the additional methods into this class.
 
--   Write a class feature control block `<#+ ... #>` in which you can declare methods, properties, and private classes. When the text template is compiled, it is transformed to a class. The standard control blocks `<#...#>` and text are transformed to a single method, and class feature blocks are inserted as separate members. For more information, see [Text Template Control Blocks](../modeling/text-template-control-blocks.md).
+- Write a class feature control block `<#+ ... #>` in which you can declare methods, properties, and private classes. When the text template is compiled, it is transformed to a class. The standard control blocks `<#...#>` and text are transformed to a single method, and class feature blocks are inserted as separate members. For more information, see [Text Template Control Blocks](../modeling/text-template-control-blocks.md).
 
-     Methods defined as class features can also include embedded text blocks.
+   Methods defined as class features can also include embedded text blocks.
 
-     Consider placing class features in a separate file which you can `<#@include#>` into one or more template files.
+   Consider placing class features in a separate file which you can `<#@include#>` into one or more template files.
 
--   Write the methods in a separate assembly (class library) and call them from your template. Use the `<#@assembly#>` directive to load the assembly, and `<#@import#>` to set the namespace context. Note that in order to rebuild the assembly while you are debugging it, you might have to stop and restart [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. For more information, see [T4 Text Template Directives](../modeling/t4-text-template-directives.md).
+- Write the methods in a separate assembly (class library) and call them from your template. Use the `<#@assembly#>` directive to load the assembly, and `<#@import#>` to set the namespace context. Note that in order to rebuild the assembly while you are debugging it, you might have to stop and restart Visual Studio. For more information, see [T4 Text Template Directives](../modeling/t4-text-template-directives.md).
 
 ### Generate many files from one model schema
  If you often generate files from models that have the same XML or database schema:
@@ -72,8 +71,8 @@ Text templates in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] prov
 
      For more information, see [Getting Started with Domain-Specific Languages](../modeling/getting-started-with-domain-specific-languages.md) and [Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md).
 
-### Get data from [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]
- To use services provided in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], by set the `hostSpecific` attribute and load the `EnvDTE` assembly. For example:
+### Get data from Visual Studio
+ To use services provided in Visual Studio, by set the `hostSpecific` attribute and load the `EnvDTE` assembly. For example:
 
 ```csharp
 <#@ template hostspecific="true" language="C#" #>
@@ -85,7 +84,6 @@ Text templates in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] prov
 #>
 
 Number of projects in this VS solution:  <#= dte.Solution.Projects.Count #>
-
 ```
 
 ### Execute text templates in the build process
@@ -94,7 +92,7 @@ Number of projects in this VS solution:  <#= dte.Solution.Projects.Count #>
 
 ## More general questions
 
-###  <a name="starting"></a> What is the best way to start writing a text template?
+### <a name="starting"></a> What is the best way to start writing a text template?
 
 1.  Write a specific example of the generated file.
 
@@ -119,4 +117,4 @@ Number of projects in this VS solution:  <#= dte.Solution.Projects.Count #>
 
 ### What is "T4"?
 
--   Another name for the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] text template capabilities described here. The previous version, which was not published, was an abbreviation for "Text Template Transformation".
+-   Another name for the Visual Studio text template capabilities described here. The previous version, which was not published, was an abbreviation for "Text Template Transformation".

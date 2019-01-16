@@ -24,20 +24,20 @@ Extends the `DebugPropertyInfo` structure with additional members to characteriz
   
 ## Syntax  
   
-```  
+```cpp
 typedef struct ExtendedDebugPropertyInfo{  
-   DBGPROP_INFO_FLAGS  dwValidFields;  
-   LPOLESTR  bstrName;  
-   LPOLESTR  bstrType;  
-   LPOLESTR  bstrValue;  
-   LPOLESTR  bstrFullName;  
-   DBGPROP_ATTRIB_FLAGS  dwAttrib;  
-   IDebugProperty*  pDebugProp;  
-   DWORD  nDISPID;  
-   DWORD  nType;  
-   VARIANT  varValue;  
-   ILockBytes*  plbValue;  
-   IDebugExtendedProperty*  pDebugExtProp;  
+   DBGPROP_INFO_FLAGS  dwValidFields;  
+   LPOLESTR  bstrName;  
+   LPOLESTR  bstrType;  
+   LPOLESTR  bstrValue;  
+   LPOLESTR  bstrFullName;  
+   DBGPROP_ATTRIB_FLAGS  dwAttrib;  
+   IDebugProperty*  pDebugProp;  
+   DWORD  nDISPID;  
+   DWORD  nType;  
+   VARIANT  varValue;  
+   ILockBytes*  plbValue;  
+   IDebugExtendedProperty*  pDebugExtProp;  
 };  
 ```  
   

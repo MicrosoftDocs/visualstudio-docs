@@ -1,9 +1,6 @@
 ---
 title: "IDebugClassField::EnumConstructors | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugClassField::EnumConstructors"
@@ -23,15 +20,15 @@ Creates an enumerator for the constructors for this class.
   
 ```cpp  
 HRESULT EnumConstructors(   
-   CONSTRUCTOR_ENUM   cMatch,  
-   IEnumDebugFields** ppEnum  
+   CONSTRUCTOR_ENUM   cMatch,  
+   IEnumDebugFields** ppEnum  
 );  
 ```  
   
 ```csharp  
 int EnumConstructors(  
-   CONSTRUCTOR_ENUM     cMatch,   
-   out IEnumDebugFields ppEnum  
+   CONSTRUCTOR_ENUM     cMatch,   
+   out IEnumDebugFields ppEnum  
 );  
 ```  
   

@@ -1,8 +1,6 @@
 ---
 title: "IDiaSectionContrib::get_code16bit | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves a flag that indicates whether the section contains 16-bit code.
   
 ```C++  
 HRESULT get_code16bit(  
-   BOOL *pRetVal  
+   BOOL *pRetVal  
 };  
 ```  
   

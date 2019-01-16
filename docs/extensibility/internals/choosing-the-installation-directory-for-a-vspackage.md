@@ -1,9 +1,6 @@
 ---
 title: "Choosing the Installation Directory for a VSPackage | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "VSPackages, installation directory"
@@ -60,4 +57,4 @@ If your VSPackage DLL includes resources and the **SatelliteDll\DllName** regist
 ## See also  
  [Choose between shared and versioned VSPackages](../../extensibility/choosing-between-shared-and-versioned-vspackages.md)   
  [Manage VSPackages](../../extensibility/managing-vspackages.md)   
- [Manage package registration](http://msdn.microsoft.com/en-us/f69e0ea3-6a92-4639-8ca9-4c9c210e58a1)
+ [Manage package registration](https://msdn.microsoft.com/library/f69e0ea3-6a92-4639-8ca9-4c9c210e58a1)

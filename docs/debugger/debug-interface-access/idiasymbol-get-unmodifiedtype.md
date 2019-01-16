@@ -1,8 +1,6 @@
 ---
 title: "IDiaSymbol::get_unmodifiedType | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves the original type for this symbol. Use when the [SymTagEnum Enumeratio
   
 ```C++  
 HRESULT get_unmodifiedType(   
-   IDiaSymbol** pRetVal  
+   IDiaSymbol** pRetVal  
 );  
 ```  
   

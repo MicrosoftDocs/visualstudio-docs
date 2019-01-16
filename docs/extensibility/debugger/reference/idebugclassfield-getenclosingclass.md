@@ -1,9 +1,6 @@
 ---
 title: "IDebugClassField::GetEnclosingClass | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugClassField::GetEnclosingClass"
@@ -23,13 +20,13 @@ Gets the class that encloses this class.
   
 ```cpp  
 HRESULT GetEnclosingClass(   
-   IDebugClassField** ppClassField  
+   IDebugClassField** ppClassField  
 );  
 ```  
   
 ```csharp  
 int GetEnclosingClass(  
-   out IDebugClassField ppClassField  
+   out IDebugClassField ppClassField  
 );  
 ```  
   

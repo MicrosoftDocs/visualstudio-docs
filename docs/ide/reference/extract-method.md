@@ -1,8 +1,7 @@
 ---
-title: Extract a method in Visual Studio
+title: Extract a method
 ms.date: 01/26/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 author: gewarren
 ms.author: gewarren
@@ -35,36 +34,36 @@ This refactoring applies to:
 
    - C#:
 
-    ![Highlighted code- C#](media/extractmethod-highlight-cs.png)
+       ![Highlighted code- C#](media/extractmethod-highlight-cs.png)
 
    - Visual Basic:
 
-    ![Highlighted code - Visual Basic](media/extractmethod-highlight-vb.png)
+       ![Highlighted code - Visual Basic](media/extractmethod-highlight-vb.png)
 
-1. Next, do one of the following:
+2. Next, do one of the following:
 
    - **Keyboard**
-     - Press **Ctrl+R**, then **Ctrl+M**. (Note that your keyboard shortcut may be different based on which profile you've selected.)
-     - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu and select **Extract Method** from the Preview window popup.
+      - Press **Ctrl+R**, then **Ctrl+M**. (Note that your keyboard shortcut may be different based on which profile you've selected.)
+      - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu and select **Extract Method** from the Preview window popup.
    - **Mouse**
-     - Select **Edit > Refactor > Extract Method**.
-     - Right-click the code and select **Refactor > Extract > Extract Method**.
-     - Right-click the code, select the **Quick Actions and Refactorings** menu and select **Extract Method** from the Preview window popup.
+      - Select **Edit > Refactor > Extract Method**.
+      - Right-click the code and select **Refactor > Extract > Extract Method**.
+      - Right-click the code, select the **Quick Actions and Refactorings** menu and select **Extract Method** from the Preview window popup.
 
    The method will be immediately created. From here, you can now rename the method simply by typing the new name.
 
    > [!TIP]
-   > You can also update comments and other strings to use this new name, as well as [preview changes](../../ide/preview-changes.md) before saving, using the checkboxes in the **Rename** box which appears at the top right of your IDE.
+   > You can also update comments and other strings to use this new name, as well as [preview changes](../../ide/preview-changes.md) before saving, using the checkboxes in the **Rename** box that appears at the top right of your IDE.
 
    - C#:
 
-    ![Rename method - C#](media/extractmethod-rename-cs.png)
+      ![Rename method - C#](media/extractmethod-rename-cs.png)
 
    - Visual Basic:
 
-    ![Rename method - Visual Basic](media/extractmethod-rename-vb.png)
+      ![Rename method - Visual Basic](media/extractmethod-rename-vb.png)
 
-1. When you're happy with the change, choose the **Apply** button or press **Enter** and the changes will be committed.
+3. When you're happy with the change, choose the **Apply** button or press **Enter** and the changes will be committed.
 
 ## See also
 

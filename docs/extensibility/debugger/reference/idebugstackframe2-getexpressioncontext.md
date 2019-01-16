@@ -1,9 +1,6 @@
 ---
 title: "IDebugStackFrame2::GetExpressionContext | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugStackFrame2::GetExpressionContext"
@@ -23,13 +20,13 @@ Gets an evaluation context for expression evaluation within the current context 
   
 ```cpp  
 HRESULT GetExpressionContext (   
-   IDebugExpressionContext2** ppExprCxt  
+   IDebugExpressionContext2** ppExprCxt  
 );  
 ```  
   
 ```csharp  
 int GetExpressionContext (   
-   out IDebugExpressionContext2 ppExprCxt  
+   out IDebugExpressionContext2 ppExprCxt  
 );  
 ```  
   

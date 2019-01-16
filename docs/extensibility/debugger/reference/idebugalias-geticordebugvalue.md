@@ -1,9 +1,6 @@
 ---
 title: "IDebugAlias::GetICorDebugValue | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugAlias::GetICorDebugValue"
@@ -23,13 +20,13 @@ Retrieves a managed code interface that represents the value associated with thi
   
 ```cpp  
 HRESULT GetICorDebugValue(  
-   IUnknown** ppUnk  
+   IUnknown** ppUnk  
 );  
 ```  
   
 ```csharp  
 int GetICorDebugValue(  
-   out object ppUnk  
+   out object ppUnk  
 );  
 ```  
   

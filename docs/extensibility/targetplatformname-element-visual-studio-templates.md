@@ -1,10 +1,8 @@
 ---
 title: "TargetPlatformName Element (Visual Studio Templates) | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-general"
-ms.topic: "conceptual"
+ms.technology: vs-ide-general
+ms.topic: reference
 ms.assetid: 3a6b1f45-b5d6-418e-add1-87ee8f15033d
 author: "gregvanl"
 ms.author: "gregvanl"

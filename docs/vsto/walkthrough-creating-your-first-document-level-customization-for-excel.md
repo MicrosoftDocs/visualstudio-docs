@@ -1,9 +1,6 @@
 ---
 title: "Walkthrough: Create your first document-level customization for Excel"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -25,17 +22,17 @@ ms.workload:
   
  This walkthrough illustrates the following tasks:  
   
--   Creating an Excel workbook project.  
+- Creating an Excel workbook project.  
   
--   Adding text to a worksheet that is hosted in the Visual Studio designer.  
+- Adding text to a worksheet that is hosted in the Visual Studio designer.  
   
--   Writing code that uses the object model of Excel to add text to the customized worksheet when it is opened.  
+- Writing code that uses the object model of Excel to add text to the customized worksheet when it is opened.  
   
--   Building and running the project to test it.  
+- Building and running the project to test it.  
   
--   Cleaning up the completed project to remove unnecessary build files and security settings from your development computer.  
+- Cleaning up the completed project to remove unnecessary build files and security settings from your development computer.  
   
- [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
+  [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
   
 ## Prerequisites  
  You need the following components to complete this walkthrough:  
@@ -48,35 +45,35 @@ ms.workload:
   
 ### To create a new Excel workbook project in Visual Studio  
   
-1.  Start [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].  
+1. Start [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].  
   
-2.  On the **File** menu, point to **New**, and then click **Project**.  
+2. On the **File** menu, point to **New**, and then click **Project**.  
   
-3.  In the templates pane, expand **Visual C#** or **Visual Basic**, and then expand **Office/SharePoint**.  
+3. In the templates pane, expand **Visual C#** or **Visual Basic**, and then expand **Office/SharePoint**.  
   
-4.  Under the expanded **Office/SharePoint** node, select the **Office Add-ins** node.  
+4. Under the expanded **Office/SharePoint** node, select the **Office Add-ins** node.  
   
-5.  In the list of project templates, choose an Excel VSTO Add-in project.  
+5. In the list of project templates, choose an Excel VSTO Add-in project.  
   
-6.  In the **Name** box, type **FirstWorkbookCustomization**.  
+6. In the **Name** box, type **FirstWorkbookCustomization**.  
   
-7.  Click **OK**.  
+7. Click **OK**.  
   
-     The **Visual Studio Tools for Office Project Wizard** opens.  
+    The **Visual Studio Tools for Office Project Wizard** opens.  
   
-8.  Select **Create a new document**, and click **OK**.  
+8. Select **Create a new document**, and click **OK**.  
   
-    -   [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] creates the **FirstWorkbookCustomization** project, and adds the following files to the project.  
+   - [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] creates the **FirstWorkbookCustomization** project, and adds the following files to the project.  
   
-    -   *FirstWorkbookCustomization*.xlsx - Represents the Excel workbook in the project. Contains all the worksheets and charts.  
+   - *FirstWorkbookCustomization*.xlsx - Represents the Excel workbook in the project. Contains all the worksheets and charts.  
   
-    -   Sheet1 (*.vb* file for Visual Basic or *.cs* file for Visual C#) - A worksheet that provides the design surface and the code for the first worksheet in the workbook. For more information, see [Worksheet host item](../vsto/worksheet-host-item.md).  
+   - Sheet1 (*.vb* file for Visual Basic or *.cs* file for Visual C#) - A worksheet that provides the design surface and the code for the first worksheet in the workbook. For more information, see [Worksheet host item](../vsto/worksheet-host-item.md).  
   
-    -   Sheet2 (*.vb* file for Visual Basic or *.cs* file for Visual C#) - A worksheet that provides the design surface and the code for the second worksheet in the workbook.  
+   - Sheet2 (*.vb* file for Visual Basic or *.cs* file for Visual C#) - A worksheet that provides the design surface and the code for the second worksheet in the workbook.  
   
-    -   Sheet3 (*.vb* file for Visual Basic or *.cs* file for Visual C#) - A worksheet that provides the design surface and the code for the third worksheet in the workbook.  
+   - Sheet3 (*.vb* file for Visual Basic or *.cs* file for Visual C#) - A worksheet that provides the design surface and the code for the third worksheet in the workbook.  
   
-    -   ThisWorkbook (*.vb* file for Visual Basic or *.cs* file for Visual C#) - Contains the design surface and the code for workbook-level customizations. For more information, see [Workbook host item](../vsto/workbook-host-item.md).  
+   - ThisWorkbook (*.vb* file for Visual Basic or *.cs* file for Visual C#) - Contains the design surface and the code for workbook-level customizations. For more information, see [Workbook host item](../vsto/workbook-host-item.md).  
   
      The Sheet1 code file is opened automatically in the designer.  
   
@@ -173,5 +170,3 @@ ms.workload:
  [Build Office solutions](../vsto/building-office-solutions.md)   
  [Deploy an Office solution](../vsto/deploying-an-office-solution.md)   
  [Office project templates overview](../vsto/office-project-templates-overview.md)  
-  
-  

@@ -1,8 +1,6 @@
 ---
 title: "Customize your build | Microsoft Docs"
-ms.custom: ""
 ms.date: "06/14/2017"
-ms.technology: msbuild
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "MSBuild, transforms"
@@ -14,7 +12,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Customize your build
+# Customize your build (C#, Visual Basic)
 
 MSBuild projects that use the standard build process (importing *Microsoft.Common.props* and *Microsoft.Common.targets*) have several extensibility hooks that you can use to customize your build process.
 
@@ -28,6 +26,11 @@ Prior to MSBuild version 15, if you wanted to provide a new, custom property to 
 
 However, now you can add a new property to every project in one step by defining it in a single file called *Directory.Build.props* in the root folder that contains your source. When MSBuild runs, *Microsoft.Common.props* searches your directory structure for the *Directory.Build.props* file (and *Microsoft.Common.targets* looks for *Directory.Build.targets*). If it finds one, it imports the property. *Directory.Build.props* is a user-defined file that provides customizations to projects under a directory.
 
+> [!NOTE]
+> Linux-based file systems are case-sensitive. Make sure the casing of the Directory.Build.props filename matches exactly, or it won't be detected during the build process.
+>
+> See [this GitHub issue](https://github.com/dotnet/core/issues/1991#issue-368441031) for more information.
+
 ### Directory.Build.props example
 
 For example, if you wanted to enable all of your projects to access the new Roslyn **/deterministic** feature (which is exposed in the Roslyn `CoreCompile` target by the property `$(Deterministic)`), you could do the following.
@@ -35,13 +38,13 @@ For example, if you wanted to enable all of your projects to access the new Rosl
 1. Create a new file in the root of your repo called *Directory.Build.props*.
 2. Add the following XML to the file.
 
-  ```xml
-  <Project>
+   ```xml
+   <Project>
     <PropertyGroup>
       <Deterministic>true</Deterministic>
     </PropertyGroup>
-  </Project>
-  ```
+   </Project>
+   ```
 3. Run MSBuild. Your project’s existing imports of *Microsoft.Common.props* and *Microsoft.Common.targets* find the file and import it.
 
 ### Search scope

@@ -1,9 +1,6 @@
 ---
 title: "Walkthrough: Simple data binding in VSTO Add-in project"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology:
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs:
   - "VB"
@@ -44,9 +41,9 @@ You need the following components to complete this walkthrough:
 
 -   Access to a running instance of SQL Server 2005 or SQL Server 2005 Express that has the `AdventureWorksLT` sample database attached to it. You can download the `AdventureWorksLT` database from the [CodePlex website](http://go.microsoft.com/fwlink/?LinkId=115611). For more information about attaching a database, see the following topics:
 
-    -   To attach a database by using SQL Server Management Studio or SQL Server Management Studio Express, see [How to: Attach a database (SQL Server Management Studio)](http://msdn.microsoft.com/b4efb0ae-cfe6-4d81-a4b4-6e4916885caa).
+    -   To attach a database by using SQL Server Management Studio or SQL Server Management Studio Express, see [How to: Attach a database (SQL Server Management Studio)](/sql/relational-databases/databases/attach-a-database).
 
-    -   To attach a database by using the command line, see [How to: Attach a database file to SQL Server Express](http://msdn.microsoft.com/0f8e42b5-7a8c-4c30-8c98-7d2bdc8dcc68).
+    -   To attach a database by using the command line, see [How to: Attach a database file to SQL Server Express](/previous-versions/sql/).
 
 ## Create a new project
 
@@ -68,27 +65,27 @@ Use the **Data Sources** window to add a typed dataset to your project.
 
 ### To add a typed dataset to the project
 
-1.  If the **Data Sources** window is not visible, display it by, on the menu bar, choosing **View** > **Other Windows** > **Data Sources**.
+1. If the **Data Sources** window is not visible, display it by, on the menu bar, choosing **View** > **Other Windows** > **Data Sources**.
 
-2.  Choose **Add New Data Source** to start the **Data Source Configuration Wizard**.
+2. Choose **Add New Data Source** to start the **Data Source Configuration Wizard**.
 
-3.  Click **Database**, and then click **Next**.
+3. Click **Database**, and then click **Next**.
 
-4.  If you have an existing connection to the `AdventureWorksLT` database, choose this connection and click **Next**.
+4. If you have an existing connection to the `AdventureWorksLT` database, choose this connection and click **Next**.
 
-     Otherwise, click **New Connection**, and use the **Add Connection** dialog box to create the new connection. For more information, see [Add new connections](../data-tools/add-new-connections.md).
+    Otherwise, click **New Connection**, and use the **Add Connection** dialog box to create the new connection. For more information, see [Add new connections](../data-tools/add-new-connections.md).
 
-5.  In the **Save the Connection String to the Application Configuration File** page, click **Next**.
+5. In the **Save the Connection String to the Application Configuration File** page, click **Next**.
 
-6.  In the **Choose Your Database Objects** page, expand **Tables** and select **Customer (SalesLT)**.
+6. In the **Choose Your Database Objects** page, expand **Tables** and select **Customer (SalesLT)**.
 
-7.  Click **Finish**.
+7. Click **Finish**.
 
-     The *AdventureWorksLTDataSet.xsd* file is added to **Solution Explorer**. This file defines the following items:
+    The *AdventureWorksLTDataSet.xsd* file is added to **Solution Explorer**. This file defines the following items:
 
-    -   A typed dataset named `AdventureWorksLTDataSet`. This dataset represents the contents of the **Customer (SalesLT)** table in the AdventureWorksLT database.
+   - A typed dataset named `AdventureWorksLTDataSet`. This dataset represents the contents of the **Customer (SalesLT)** table in the AdventureWorksLT database.
 
-    -   A TableAdapter named `CustomerTableAdapter`. This TableAdapter can be used to read and write data in the `AdventureWorksLTDataSet`. For more information, see [TableAdapter overview](../data-tools/fill-datasets-by-using-tableadapters.md#tableadapter-overview).
+   - A TableAdapter named `CustomerTableAdapter`. This TableAdapter can be used to read and write data in the `AdventureWorksLTDataSet`. For more information, see [TableAdapter overview](../data-tools/fill-datasets-by-using-tableadapters.md#tableadapter-overview).
 
      You will use both of these objects later in this walkthrough.
 

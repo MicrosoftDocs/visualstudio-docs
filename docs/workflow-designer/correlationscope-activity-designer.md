@@ -3,7 +3,6 @@ title: "Workflow Designer - CorrelationScope Activity Designer"
 ms.date: 11/04/2016
 ms.topic: reference
 ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 f1_keywords:
   - "System.ServiceModel.Activities.CorrelationScope.UI"
 ms.assetid: 75f20664-9042-464d-8e2b-148d365a2286
@@ -36,7 +35,7 @@ The activities scoped within the correlation are specified by dropping their des
 The following table shows the <xref:System.ServiceModel.Activities.CorrelationScope> properties and describes how they are used in the designer. These properties can be edited either in **Properties** window or on the Workflow Designer surface, and often in both.
 
 |Property Name|Required|Usage|
-|-------------------|--------------|-----------|
+|-|--------------|-|
 |<xref:System.Activities.Activity.DisplayName%2A>|False|The optional friendly name of the <xref:System.ServiceModel.Activities.InitializeCorrelation> activity.|
 |<xref:System.ServiceModel.Activities.CorrelationScope.CorrelatesWith%2A>|False|Specifies the <xref:System.ServiceModel.Activities.CorrelationHandle> used to manage child messaging activities. If you do not set this property, <xref:System.ServiceModel.Activities.CorrelationScope> creates an implicit <xref:System.ServiceModel.Activities.CorrelationHandle> automatically.|
 |<xref:System.ServiceModel.Activities.CorrelationScope.Body%2A>|False|Specifies the activities within the scope of the correlation.|

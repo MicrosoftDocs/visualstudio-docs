@@ -1,15 +1,10 @@
 ---
 title: "How to: Edit a SharePoint Deployment Configuration | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VS.SharePointTools.Project.DeploymentConfig"
 dev_langs: 
-  - "VB"
-  - "CSharp"
   - "VB"
   - "CSharp"
 helpviewer_keywords: 
@@ -27,7 +22,7 @@ ms.workload:
   
 #### To create a SharePoint deployment configuration  
   
-1.  In **Solution Explorer**, choose a SharePoint project, and then, on the menu bar, choose **Project**, *ProjectName***Properties**.  
+1.  In **Solution Explorer**, choose a SharePoint project, and then, on the menu bar, choose **Project**, _ProjectName_**Properties**.  
   
 2.  On the **SharePoint** tab, choose the **New** button.  
   
@@ -52,4 +47,3 @@ ms.workload:
   
 ## See also
  [Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)  
-  

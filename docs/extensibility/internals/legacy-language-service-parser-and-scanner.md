@@ -1,9 +1,6 @@
 ---
 title: "Legacy Language Service Parser and Scanner | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "parsers, language services [managed package framework]"
@@ -53,11 +50,11 @@ namespace MyNamespace
 ## Types of Parsers  
  A language service parser is not the same as a parser used as part of a compiler. However, this kind of parser needs to use both a scanner and a parser, in the same way as a compiler parser.  
   
--   A scanner is used to identify types of tokens. This information is used for syntax highlighting and for quickly identifying token types that can trigger other operations, for example, brace matching. This scanner is represented by the <xref:Microsoft.VisualStudio.Package.IScanner> interface.  
+- A scanner is used to identify types of tokens. This information is used for syntax highlighting and for quickly identifying token types that can trigger other operations, for example, brace matching. This scanner is represented by the <xref:Microsoft.VisualStudio.Package.IScanner> interface.  
   
--   A parser is used to describe the functions and scope of the tokens. This information is used in IntelliSense operations to identify language elements, such as methods, variables, parameters, and declarations, and to provide lists of members and method signatures based on context. This parser is also used to locate matching language element pairs, such as braces and parentheses. This parser is accessed through the <xref:Microsoft.VisualStudio.Package.LanguageService.ParseSource%2A> method in the <xref:Microsoft.VisualStudio.Package.LanguageService> class.  
+- A parser is used to describe the functions and scope of the tokens. This information is used in IntelliSense operations to identify language elements, such as methods, variables, parameters, and declarations, and to provide lists of members and method signatures based on context. This parser is also used to locate matching language element pairs, such as braces and parentheses. This parser is accessed through the <xref:Microsoft.VisualStudio.Package.LanguageService.ParseSource%2A> method in the <xref:Microsoft.VisualStudio.Package.LanguageService> class.  
   
- How you implement a scanner and parser for your language service is up to you. Several resources are available that describe how parsers work and how to write your own parser. Also, several free and commercial products are available that help in creating a parser.  
+  How you implement a scanner and parser for your language service is up to you. Several resources are available that describe how parsers work and how to write your own parser. Also, several free and commercial products are available that help in creating a parser.  
   
 ### The ParseSource Parser  
  Unlike a parser that is used as part of a compiler (where the tokens are converted to some form of executable code), a language service parser can be called for many different reasons and in many different contexts. How you implement this approach in the <xref:Microsoft.VisualStudio.Package.LanguageService.ParseSource%2A> method in the <xref:Microsoft.VisualStudio.Package.LanguageService> class is up to you. It is important to keep in mind that the <xref:Microsoft.VisualStudio.Package.LanguageService.ParseSource%2A> method might be called on a background thread.  

@@ -1,8 +1,6 @@
 ---
 title: "StartProfile | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "StartProfile"
@@ -20,8 +18,8 @@ The `StartProfile` function sets the counter to 1 (on) for the specified profili
   
 ```cpp  
 PROFILE_COMMAND_STATUS PROFILERAPI StartProfile(  
-                        PROFILE_CONTROL_LEVEL Level,   
-                        unsigned int dwId);  
+                        PROFILE_CONTROL_LEVEL Level,   
+                        unsigned int dwId);  
 ```  
   
 #### Parameters  

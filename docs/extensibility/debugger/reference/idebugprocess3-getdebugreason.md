@@ -1,9 +1,6 @@
 ---
 title: "IDebugProcess3::GetDebugReason | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProcess3::GetDebugReason"
@@ -23,13 +20,13 @@ This method returns the reason that the process was launched for debugging.
   
 ```cpp  
 HRESULT GetDebugReason(  
-   DEBUG_REASON* pReason  
+   DEBUG_REASON* pReason  
 );  
 ```  
   
 ```csharp  
 int GetDebugReason(  
-   out enum_DEBUG_REASON pReason  
+   out enum_DEBUG_REASON pReason  
 );  
 ```  
   

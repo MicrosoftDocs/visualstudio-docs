@@ -1,9 +1,6 @@
 ---
 title: "IDebugBreakpointErrorEvent2::GetErrorBreakpoint | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugBreakpointErrorEvent2::GetErrorBreakpoint"
@@ -23,13 +20,13 @@ Gets an [IDebugErrorBreakpoint2](../../../extensibility/debugger/reference/idebu
   
 ```cpp  
 HRESULT GetErrorBreakpoint(   
-   IDebugErrorBreakpoint2** ppErrorBP  
+   IDebugErrorBreakpoint2** ppErrorBP  
 );  
 ```  
   
 ```csharp  
 int GetErrorBreakpoint(   
-   out IDebugErrorBreakpoint2 ppErrorBP  
+   out IDebugErrorBreakpoint2 ppErrorBP  
 );  
 ```  
   

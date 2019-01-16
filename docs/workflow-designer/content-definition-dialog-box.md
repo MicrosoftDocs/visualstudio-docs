@@ -3,7 +3,6 @@ title: "Workflow Designer - Content Definition Dialog Box"
 ms.date: 11/04/2016
 ms.topic: reference
 ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 f1_keywords:
   - "MessageContent.UI"
 ms.assetid: 7e4237c3-90a1-4149-bd8a-3643d1dde0df
@@ -20,7 +19,7 @@ The **Content Definition** dialog box is used in Workflow Designer to configure 
 The following table describes the user interface (UI) elements of the **Initialize Correlation** dialog box:
 
 |UI Element|Description|
-|----------------|-----------------|
+|-|-----------------|
 |**Message**|Specifies the message content with the **Message data** expression text box and the type by using the **Message type** drop-down list box. By default, the **Content Definition** uses the <xref:System.ServiceModel.Activities.ReceiveMessageContent>, which expects a <xref:System.ServiceModel.Channels.Message> or a message contract type within the workflow service definition.|
 |**Parameters**|Click the **Parameters** radio button to use <xref:System.ServiceModel.Activities.ReceiveParametersContent>, which expects a data contract. Use the data grid to set a generic collection of <xref:System.Activities.OutArgument> key/value pairs whose values are assigned to variable parameters in the current workflow.|
 

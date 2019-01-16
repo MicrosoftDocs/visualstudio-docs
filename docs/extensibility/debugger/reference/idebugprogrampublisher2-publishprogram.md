@@ -1,9 +1,6 @@
 ---
 title: "IDebugProgramPublisher2::PublishProgram | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProgramPublisher2::PublishProgram"
@@ -23,17 +20,17 @@ This method makes a program available for debug engines (DEs) and the session de
   
 ```cpp  
 HRESULT PublishProgram(  
-   CONST_GUID_ARRAY Engines,  
-   LPCOLESTR        szFriendlyName,  
-   IUnknown*        pDebuggeeInterface  
+   CONST_GUID_ARRAY Engines,  
+   LPCOLESTR        szFriendlyName,  
+   IUnknown*        pDebuggeeInterface  
 );  
 ```  
   
 ```csharp  
 int PublishProgram(  
-   CONST_GUID_ARRAY Engines,  
-   string           szFriendlyName,  
-   object           pDebuggeeInterface  
+   CONST_GUID_ARRAY Engines,  
+   string           szFriendlyName,  
+   object           pDebuggeeInterface  
 );  
 ```  
   

@@ -1,9 +1,6 @@
 ---
 title: "IEnumDebugFields::GetCount | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IEnumDebugFields::GetCount"
@@ -23,13 +20,13 @@ This method returns the number of elements in the enumeration.
   
 ```cpp  
 HRESULT GetCount(  
-   [out] ULONG* pcelt  
+   [out] ULONG* pcelt  
 );  
 ```  
   
 ```csharp  
 int GetCount(  
-   out uint pcelt  
+   out uint pcelt  
 );  
 ```  
   

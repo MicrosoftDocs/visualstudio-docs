@@ -24,10 +24,10 @@ Sets the value of the property specified by `dispID`. The predefined value is id
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT SetPredefinedValue(  
-   DISPID  dispid,  
-   DWORD  dwCookie  
+   DISPID  dispid,  
+   DWORD  dwCookie  
 );  
 ```  
   

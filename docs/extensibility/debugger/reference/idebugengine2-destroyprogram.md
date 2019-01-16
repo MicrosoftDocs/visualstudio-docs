@@ -1,9 +1,6 @@
 ---
 title: "IDebugEngine2::DestroyProgram | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugEngine2::DestroyProgram"
@@ -23,13 +20,13 @@ Informs a debug engine (DE) that the program specified has been atypically termi
   
 ```cpp  
 HRESULT DestroyProgram(   
-   IDebugProgram2* pProgram  
+   IDebugProgram2* pProgram  
 );  
 ```  
   
 ```cpp  
 int DestroyProgram(   
-   IDebugProgram2 pProgram  
+   IDebugProgram2 pProgram  
 );  
 ```  
   

@@ -1,9 +1,6 @@
 ---
 title: "IDebugComPlusSymbolProvider::GetAttributedClassesForLanguage | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "GetAttributedClassesForLanguage"
@@ -23,18 +20,18 @@ Retrieves the classes with the specified attribute that are implemented in the s
 ```  
 [C++]  
 HRESULT GetAttributedClassesForLanguage (  
-   GUID               guidLanguage,  
-   LPOLESTR           pstrAttribute,  
-   IEnumDebugFields** ppEnum  
+   GUID               guidLanguage,  
+   LPOLESTR           pstrAttribute,  
+   IEnumDebugFields** ppEnum  
 );  
 ```  
   
 ```  
 [C#]  
 int GetAttributedClassesForLanguage (  
-   Guid                 guidLanguage,  
-   string               pstrAttribute,  
-   out IEnumDebugFields ppEnum  
+   Guid                 guidLanguage,  
+   string               pstrAttribute,  
+   out IEnumDebugFields ppEnum  
 );  
 ```  
   

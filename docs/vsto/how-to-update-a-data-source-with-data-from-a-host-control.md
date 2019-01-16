@@ -1,9 +1,6 @@
 ---
 title: "How to: Update a data source with data from a host control"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -22,13 +19,13 @@ ms.workload:
 # How to: Update a data source with data from a host control
   You can bind a host control to a data source and update the data source with the changes that are made to the data in the control. There are two main steps in this process:  
   
-1.  Update the in-memory data source with the modified data in the control. Typically, the in-memory data source is a <xref:System.Data.DataSet>, a <xref:System.Data.DataTable>, or some other data object.  
+1. Update the in-memory data source with the modified data in the control. Typically, the in-memory data source is a <xref:System.Data.DataSet>, a <xref:System.Data.DataTable>, or some other data object.  
   
-2.  Update the database with the changed data in the in-memory data source. This is applicable only if the data source is connected to a back-end database, such as a SQL Server or Microsoft Office Access database.  
+2. Update the database with the changed data in the in-memory data source. This is applicable only if the data source is connected to a back-end database, such as a SQL Server or Microsoft Office Access database.  
   
- For more information about host controls and data binding, see [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md) and [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md).  
+   For more information about host controls and data binding, see [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md) and [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md).  
   
- [!INCLUDE[appliesto_controls](../vsto/includes/appliesto-controls-md.md)]  
+   [!INCLUDE[appliesto_controls](../vsto/includes/appliesto-controls-md.md)]  
   
 ## Update the in-memory data source  
  By default, host controls that enable simple data binding (such as content controls on a Word document or a named range control on an Excel worksheet) do not save data changes to the in-memory data source. That is, when an end user changes a value in a host control and then navigates away from the control, the new value in the control is not automatically saved to the data source.  
@@ -51,14 +48,14 @@ ms.workload:
   
 #### To set a control to automatically update the in-memory data source by using code  
   
-1.  Use the System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged mode of the <xref:System.Windows.Forms.Binding> object that binds the control to the data source. There are two options for updating the data source:  
+1. Use the System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged mode of the <xref:System.Windows.Forms.Binding> object that binds the control to the data source. There are two options for updating the data source:  
   
-    -   To update the data source when the control is validated, set this property to System.Windows.Forms.DataSourceUpdateMode.OnValidation.  
+   - To update the data source when the control is validated, set this property to System.Windows.Forms.DataSourceUpdateMode.OnValidation.  
   
-    -   To update the data source when the value of the data-bound property of the control changes, set this property to System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged.  
+   - To update the data source when the value of the data-bound property of the control changes, set this property to System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged.  
   
-        > [!NOTE]  
-        >  The System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged option does not apply to Word host controls, because Word does not offer document-change or control-change notifications. However, this option can be used for Windows Forms controls on Word documents.  
+     > [!NOTE]  
+     >  The System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged option does not apply to Word host controls, because Word does not offer document-change or control-change notifications. However, this option can be used for Windows Forms controls on Word documents.  
   
      The following example configures a <xref:Microsoft.Office.Tools.Excel.NamedRange> control to automatically update the data source when the value in the control changes. This example assumes that you have a <xref:Microsoft.Office.Tools.Excel.NamedRange> control named `namedRange1` with its <xref:Microsoft.Office.Tools.Excel.NamedRange.Value2%2A> property bound to a field in a data source.  
   
@@ -118,5 +115,3 @@ ms.workload:
  [How to: Populate documents with data from objects](../vsto/how-to-populate-documents-with-data-from-objects.md)   
  [How to: Populate documents with data from a database](../vsto/how-to-populate-documents-with-data-from-a-database.md)   
  [How to: Populate documents with data from services](../vsto/how-to-populate-documents-with-data-from-services.md)  
-  
-  

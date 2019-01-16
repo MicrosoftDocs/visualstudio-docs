@@ -1,9 +1,6 @@
 ---
 title: "Restrictions on String Lengths | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "source control plug-ins, restrictions on string lengths"
@@ -14,10 +11,10 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Restrictions on String Lengths
+# Restrictions on string lengths
 The Source Control Plug-in API limits the lengths of strings used in various functions.  
   
-## String Length Values  
+## String length values  
   
 |Constant|Value|  
 |--------------|-----------|  
@@ -36,5 +33,5 @@ The Source Control Plug-in API limits the lengths of strings used in various fun
 |SCC_USER_SIZE|32|  
 |SCC_PRJPATH_SIZE|301|  
   
-## See Also  
- [Source Control Plug-ins](../extensibility/source-control-plug-ins.md)
+## See also  
+ [Source control plug-ins](../extensibility/source-control-plug-ins.md)

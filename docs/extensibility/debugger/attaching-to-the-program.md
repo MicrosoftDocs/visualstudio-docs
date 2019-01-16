@@ -1,9 +1,6 @@
 ---
 title: "Attaching to the Program | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "debug engines, attaching to programs"
@@ -20,25 +17,25 @@ After you have registered your programs with the appropriate port, you must atta
 ## Choose how to attach  
  There are three ways in which the session debug manager (SDM) attempts to attach to the program being debugged. 
   
-1.  For programs that are launched by the debug engine through the [LaunchSuspended](../../extensibility/debugger/reference/idebugenginelaunch2-launchsuspended.md) method (typical of interpreted languages, for example), the SDM obtains the [IDebugProgramNodeAttach2](../../extensibility/debugger/reference/idebugprogramnodeattach2.md) interface from the [IDebugProgramNode2](../../extensibility/debugger/reference/idebugprogramnode2.md) object associated with the program being attached to. If the SDM can obtain the `IDebugProgramNodeAttach2` interface, the SDM then calls the [OnAttach](../../extensibility/debugger/reference/idebugprogramnodeattach2-onattach.md) method. The `IDebugProgramNodeAttach2::OnAttach` method returns `S_OK` to indicate that it did not attach to the program and that other attempts can be made to attach to the program.  
+1. For programs that are launched by the debug engine through the [LaunchSuspended](../../extensibility/debugger/reference/idebugenginelaunch2-launchsuspended.md) method (typical of interpreted languages, for example), the SDM obtains the [IDebugProgramNodeAttach2](../../extensibility/debugger/reference/idebugprogramnodeattach2.md) interface from the [IDebugProgramNode2](../../extensibility/debugger/reference/idebugprogramnode2.md) object associated with the program being attached to. If the SDM can obtain the `IDebugProgramNodeAttach2` interface, the SDM then calls the [OnAttach](../../extensibility/debugger/reference/idebugprogramnodeattach2-onattach.md) method. The `IDebugProgramNodeAttach2::OnAttach` method returns `S_OK` to indicate that it did not attach to the program and that other attempts can be made to attach to the program.  
   
-2.  If the SDM can obtain the [IDebugProgramEx2](../../extensibility/debugger/reference/idebugprogramex2.md) interface from the program being attached to, the SDM calls the [Attach](../../extensibility/debugger/reference/idebugprogramex2-attach.md) method. This approach is typical for programs that were launched remotely by the port supplier.  
+2. If the SDM can obtain the [IDebugProgramEx2](../../extensibility/debugger/reference/idebugprogramex2.md) interface from the program being attached to, the SDM calls the [Attach](../../extensibility/debugger/reference/idebugprogramex2-attach.md) method. This approach is typical for programs that were launched remotely by the port supplier.  
   
-3.  If the program cannot be attached through the `IDebugProgramNodeAttach2::OnAttach` or `IDebugProgramEx2::Attach` methods, the SDM loads the debug engine (if not already loaded) by calling the `CoCreateInstance` function and then calls the [Attach](../../extensibility/debugger/reference/idebugengine2-attach.md) method. This approach is typical for programs launched locally by a port supplier.  
+3. If the program cannot be attached through the `IDebugProgramNodeAttach2::OnAttach` or `IDebugProgramEx2::Attach` methods, the SDM loads the debug engine (if not already loaded) by calling the `CoCreateInstance` function and then calls the [Attach](../../extensibility/debugger/reference/idebugengine2-attach.md) method. This approach is typical for programs launched locally by a port supplier.  
   
-     It is also possible for a custom port supplier to call the `IDebugEngine2::Attach` method in the custom port supplier's implementation of the `IDebugProgramEx2::Attach` method. Typically in this case, the custom port supplier launches the debug engine on the remote machine.  
+    It is also possible for a custom port supplier to call the `IDebugEngine2::Attach` method in the custom port supplier's implementation of the `IDebugProgramEx2::Attach` method. Typically in this case, the custom port supplier launches the debug engine on the remote machine.  
   
- Attachment is achieved when the session debug manager (SDM) calls the [Attach](../../extensibility/debugger/reference/idebugengine2-attach.md) method.  
+   Attachment is achieved when the session debug manager (SDM) calls the [Attach](../../extensibility/debugger/reference/idebugengine2-attach.md) method.  
   
- If you run your DE in the same process as the application to be debugged, then you must implement the following methods of [IDebugProgramNode2](../../extensibility/debugger/reference/idebugprogramnode2.md):  
+   If you run your DE in the same process as the application to be debugged, then you must implement the following methods of [IDebugProgramNode2](../../extensibility/debugger/reference/idebugprogramnode2.md):  
   
--   [GetHostName](../../extensibility/debugger/reference/idebugprogramnode2-gethostname.md),  
+- [GetHostName](../../extensibility/debugger/reference/idebugprogramnode2-gethostname.md),  
   
--   [GetHostPid](../../extensibility/debugger/reference/idebugprogramnode2-gethostpid.md)  
+- [GetHostPid](../../extensibility/debugger/reference/idebugprogramnode2-gethostpid.md)  
   
--   [GetProgramName](../../extensibility/debugger/reference/idebugprogramnode2-getprogramname.md)  
+- [GetProgramName](../../extensibility/debugger/reference/idebugprogramnode2-getprogramname.md)  
   
- After the `IDebugEngine2::Attach` method is called, follow these steps in your implementation of the `IDebugEngine2::Attach` method:  
+  After the `IDebugEngine2::Attach` method is called, follow these steps in your implementation of the `IDebugEngine2::Attach` method:  
   
 1.  Send an [IDebugEngineCreateEvent2](../../extensibility/debugger/reference/idebugenginecreateevent2.md) event object to the SDM. For more information, see [Sending events](../../extensibility/debugger/sending-events.md).  
   

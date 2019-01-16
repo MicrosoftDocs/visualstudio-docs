@@ -1,8 +1,6 @@
 ---
 title: "IDiaSession::findLinesByLinenum | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,11 +20,11 @@ Determines the line numbers of the compiland that the specified line number in a
   
 ```C++  
 HRESULT findLinesByLinenum (   
-   IDiaSymbol*           compiland,  
-   IDiaSourceFile*       file,  
-   DWORD                 linenum,  
-   DWORD                 column,  
-   IDiaEnumLineNumbers** ppResult  
+   IDiaSymbol*           compiland,  
+   IDiaSourceFile*       file,  
+   DWORD                 linenum,  
+   DWORD                 column,  
+   IDiaEnumLineNumbers** ppResult  
 );  
 ```  
   

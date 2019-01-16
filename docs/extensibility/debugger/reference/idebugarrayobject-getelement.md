@@ -1,9 +1,6 @@
 ---
 title: "IDebugArrayObject::GetElement | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugArrayObject::GetElement"
@@ -23,15 +20,15 @@ Gets an element of the array.
   
 ```cpp  
 HRESULT GetElement(   
-   DWORD          dwIndex,  
-   IDebugObject** ppElement  
+   DWORD          dwIndex,  
+   IDebugObject** ppElement  
 );  
 ```  
   
 ```csharp  
 int GetElement(  
-   [In] uint dwIndex,   
-   out IDebugObject ppElement  
+   [In] uint dwIndex,   
+   out IDebugObject ppElement  
 );  
 ```  
   

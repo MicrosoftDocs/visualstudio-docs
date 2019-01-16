@@ -24,7 +24,7 @@ Notifies the host that a new document context is being created and allows the ho
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT OnCreateDocumentContext(  
    IUnknown**  ppunkOuter  
 );  

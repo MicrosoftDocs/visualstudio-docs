@@ -1,8 +1,6 @@
 ---
 title: "IDiaSymbol::get_addressTaken | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves a flag that indicates whether another symbol references this symbol's 
   
 ```C++  
 HRESULT get_addressTaken (   
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 );  
 ```  
   

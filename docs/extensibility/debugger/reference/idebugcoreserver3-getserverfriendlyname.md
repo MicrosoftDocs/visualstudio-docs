@@ -1,9 +1,6 @@
 ---
 title: "IDebugCoreServer3::GetServerFriendlyName | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugCoreServer3::GetServerFriendlyName"
@@ -23,13 +20,13 @@ Retrieves a friendly name for the server.
   
 ```cpp  
 HRESULT GetServerFriendlyName(  
-   BSTR* pbstrName  
+   BSTR* pbstrName  
 );  
 ```  
   
 ```csharp  
 int GetServerFriendlyName(  
-   out string pbstrName  
+   out string pbstrName  
 );  
 ```  
   

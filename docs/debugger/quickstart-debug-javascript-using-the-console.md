@@ -1,8 +1,6 @@
 ---
 title: "Debug JavaScript using the console | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VS.WebClient.JavaScriptConsole"
@@ -39,7 +37,7 @@ ms.workload:
 > [!TIP]
 >  If the JavaScript Console window is closed, choose **Debug**> **Windows** > **JavaScript Console** to re-open it. The window appears only during a script debugging session.  
   
- Using the JavaScript Console window, you can interact with your app without stopping and restarting the debugger. For more info, see [Refresh an app (JavaScript)](../debugger/refresh-an-app-javascript.md). For info on other JavaScript debugging features, such as using the DOM Explorer and setting breakpoints, see [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md) and [Debug apps in Visual Studio](../debugger/debug-store-apps-in-visual-studio.md).  
+ Using the JavaScript Console window, you can interact with your app without stopping and restarting the debugger. For more info, see [Refresh an app (JavaScript)](../debugger/refresh-an-app-javascript.md). For info on other JavaScript debugging features, such as using the DOM Explorer and setting breakpoints, see [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md) and [Debug apps in Visual Studio](/visualstudio/debugger/debugging-windows-store-and-windows-universal-apps).  
   
 ##  <a name="InteractiveConsole"></a> Debug by using the JavaScript Console window  
  The following steps create a `FlipView` app and show how to interactively debug a JavaScript coding error.  
@@ -49,95 +47,95 @@ ms.workload:
   
 #### To debug JavaScript code in the FlipView app  
   
-1.  Create a new solution in Visual Studio by choosing **File** > **New Project**.  
+1. Create a new solution in Visual Studio by choosing **File** > **New Project**.  
   
-2.  Choose **JavaScript** > **Windows Universal**, and then choose **WinJS App**.  
+2. Choose **JavaScript** > **Windows Universal**, and then choose **WinJS App**.  
   
-3.  Type a name for the project, such as `FlipViewApp`, and choose **OK** to create the app.  
+3. Type a name for the project, such as `FlipViewApp`, and choose **OK** to create the app.  
   
-4.  In the BODY element of index.html, replace the existing HTML code with this code:  
+4. In the BODY element of index.html, replace the existing HTML code with this code:  
   
-    ```html  
-    <div id="flipTemplate" data-win-control="WinJS.Binding.Template"  
-             style="display:none">  
-        <div class="fixedItem" >  
-            <img src="#" data-win-bind="src: flipImg" />  
-        </div>  
-    </div>  
-    <div id="fView" data-win-control="WinJS.UI.FlipView" data-win-options="{  
-        itemDataSource: Data.items.dataSource, itemTemplate: flipTemplate }">  
-    </div>  
-    ```  
+   ```html  
+   <div id="flipTemplate" data-win-control="WinJS.Binding.Template"  
+            style="display:none">  
+       <div class="fixedItem" >  
+           <img src="#" data-win-bind="src: flipImg" />  
+       </div>  
+   </div>  
+   <div id="fView" data-win-control="WinJS.UI.FlipView" data-win-options="{  
+       itemDataSource: Data.items.dataSource, itemTemplate: flipTemplate }">  
+   </div>  
+   ```  
   
-5.  Open default.css and add the CSS for the `#fView` selector:  
+5. Open default.css and add the CSS for the `#fView` selector:  
   
-    ```css  
-    #fView {  
-        background-color:#0094ff;  
-        height: 500px;  
-        margin: 25px;  
-    }  
-    ```  
+   ```css  
+   #fView {  
+       background-color:#0094ff;  
+       height: 500px;  
+       margin: 25px;  
+   }  
+   ```  
   
-6.  Open default.js and replace the code with the following JavaScript code:  
+6. Open default.js and replace the code with the following JavaScript code:  
   
-    ```javascript  
-    (function () {  
-        "use strict";  
+   ```javascript  
+   (function () {  
+       "use strict";  
   
-        var app = WinJS.Application;  
-        var activation = Windows.ApplicationModel.Activation;  
+       var app = WinJS.Application;  
+       var activation = Windows.ApplicationModel.Activation;  
   
-        var myData = [];  
-        for (var x = 0; x < 4; x++) {  
-            myData[x] = { flipImg: "/images/logo.png" }  
-        };  
+       var myData = [];  
+       for (var x = 0; x < 4; x++) {  
+           myData[x] = { flipImg: "/images/logo.png" }  
+       };  
   
-        var pages = new WinJS.Binding.List(myData, { proxy: true });  
+       var pages = new WinJS.Binding.List(myData, { proxy: true });  
   
-        app.onactivated = function (args) {  
-            if (args.detail.kind === activation.ActivationKind.launch) {  
-                if (args.detail.previousExecutionState !==  
-                activation.ApplicationExecutionState.terminated) {  
-                    // TODO: . . .  
-                } else {  
-                    // TODO: . . .  
-                }  
-                args.setPromise(WinJS.UI.processAll());  
+       app.onactivated = function (args) {  
+           if (args.detail.kind === activation.ActivationKind.launch) {  
+               if (args.detail.previousExecutionState !==  
+               activation.ApplicationExecutionState.terminated) {  
+                   // TODO: . . .  
+               } else {  
+                   // TODO: . . .  
+               }  
+               args.setPromise(WinJS.UI.processAll());  
   
-                updateImages();  
-            }  
-        };  
+               updateImages();  
+           }  
+       };  
   
-        function updateImages() {  
+       function updateImages() {  
   
-            pages.push(0, { flipImg: "http://public-domain-photos.com/free-stock-photos-1/flowers/cactus-76.jpg" });  
-            pages.push(1, { flipImg: "http://public-domain-photos.com/free-stock-photos-1/flowers/cactus-77.jpg" });  
-            pages.push(2, { flipImg: "http://public-domain-photos.com/free-stock-photos-1/flowers/cactus-78.jpg" });  
+           pages.push(0, { flipImg: "http://public-domain-photos.com/free-stock-photos-1/flowers/cactus-76.jpg" });  
+           pages.push(1, { flipImg: "http://public-domain-photos.com/free-stock-photos-1/flowers/cactus-77.jpg" });  
+           pages.push(2, { flipImg: "http://public-domain-photos.com/free-stock-photos-1/flowers/cactus-78.jpg" });  
   
-        };  
+       };  
   
-        app.oncheckpoint = function (args) {  
-        };  
+       app.oncheckpoint = function (args) {  
+       };  
   
-        app.start();  
+       app.start();  
   
-        var publicMembers = {  
-            items: pages  
-        };  
+       var publicMembers = {  
+           items: pages  
+       };  
   
-        WinJS.Namespace.define("Data", publicMembers);  
+       WinJS.Namespace.define("Data", publicMembers);  
   
-    })();  
-    ```  
+   })();  
+   ```  
   
-7.  If a debugging target isn't already selected, choose **Local Machine** from the drop-down list next to the **Device** button on the **Debug** toolbar:  
+7. If a debugging target isn't already selected, choose **Local Machine** from the drop-down list next to the **Device** button on the **Debug** toolbar:  
   
-     ![Select debug target list](../debugger/media/js_select_target.png "JS_Select_Target")  
+    ![Select debug target list](../debugger/media/js_select_target.png "JS_Select_Target")  
   
-8.  Press F5 to start the debugger.  
+8. Press F5 to start the debugger.  
   
-     The app runs but images are missing. APPHOST errors in the JavaScript Console window indicate that images are missing.  
+    The app runs but images are missing. APPHOST errors in the JavaScript Console window indicate that images are missing.  
   
 9. With the `FlipView` app running, type `Data.items` in the console window input prompt (next to the ">>" symbol) and press Enter.  
   
@@ -245,11 +243,11 @@ ms.workload:
  You can also switch the execution context by using the `cd` command, but you must know the name of the other execution context and the reference you use must be in scope. The **Target** list provides better access to other execution contexts.   
   
 ## See Also  
- [Debug apps in Visual Studio](../debugger/debug-store-apps-in-visual-studio.md)   
+ [Debug apps in Visual Studio](/visualstudio/debugger/debugging-windows-store-and-windows-universal-apps)   
  [JavaScript Console commands](../debugger/javascript-console-commands.md)   
  [Refresh an app (JavaScript)](../debugger/refresh-an-app-javascript.md)   
  [Keyboard shortcuts](../debugger/keyboard-shortcuts-html-and-javascript.md)   
  [Debug HTML, CSS, and JavaScript sample code](../debugger/debug-html-css-and-javascript-sample-code.md)   
  [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md)   
  [Debug a WebView control](../debugger/debug-a-webview-control.md)   
- [Product Support and Accessibility](http://msdn.microsoft.com/library/tzbxw1af\(VS.120\).aspx)
+ [Product Support and Accessibility](https://visualstudio.microsoft.com/vs/support/)

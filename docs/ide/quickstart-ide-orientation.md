@@ -1,15 +1,15 @@
 ---
 title: Tour of the Visual Studio IDE
+titleSuffix: ""
 ms.date: 07/12/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: quickstart
 author: gewarren
 ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"
-experimental: true​
+experimental: true
 experiment_id: "7b7f8053-75fc-4d"
 ---
 # Quickstart: First look at the Visual Studio IDE
@@ -101,15 +101,13 @@ Should you encounter any problems while you're using Visual Studio, or if you ha
 We've looked at just a few of the features of Visual Studio to get acquainted with the user interface. To explore further:
 
 > [!div class="nextstepaction"]
-> [Quickstart: Personalize the IDE](../ide/quickstart-personalize-the-ide.md)
+> [Learn about the code editor](../get-started/tutorial-editor.md)
 
 > [!div class="nextstepaction"]
-> [Quickstart: Write code in the editor](../ide/quickstart-editor.md)
-
-> [!div class="nextstepaction"]
-> [Quickstart: Projects and solutions](../ide/quickstart-projects-solutions.md)
+> [Learn about projects and solutions](../get-started/tutorial-projects-solutions.md)
 
 ## See also
 
-- [Overview of the Visual Studio IDE](../ide/visual-studio-ide.md)
-- [Features of Visual Studio 2017](../ide/advanced-feature-overview.md)
+- [Overview of the Visual Studio IDE](../get-started/visual-studio-ide.md)
+- [More features of Visual Studio 2017](../ide/advanced-feature-overview.md)
+- [Change theme and font colors](../ide/quickstart-personalize-the-ide.md)

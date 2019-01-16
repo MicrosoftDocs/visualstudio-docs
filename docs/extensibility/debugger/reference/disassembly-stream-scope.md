@@ -1,9 +1,6 @@
 ---
 title: "DISASSEMBLY_STREAM_SCOPE | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "DISASSEMBLY_STREAM_SCOPE"
@@ -23,20 +20,20 @@ Specifies the scope of the disassembly stream.
   
 ```cpp  
 enum enum_DISASSEMBLY_STREAM_SCOPE {   
-   DSS_HUGE     = 0x10000000,  
-   DSS_FUNCTION = 0x0001,  
-   DSS_MODULE   = (DSS_HUGE) | 0x0002,  
-   DSS_ALL      = (DSS_HUGE) | 0x0003  
+   DSS_HUGE     = 0x10000000,  
+   DSS_FUNCTION = 0x0001,  
+   DSS_MODULE   = (DSS_HUGE) | 0x0002,  
+   DSS_ALL      = (DSS_HUGE) | 0x0003  
 };  
 typedef DWORD DISASSEMBLY_STREAM_SCOPE;  
 ```  
   
 ```csharp  
 public enum enum_DISASSEMBLY_STREAM_SCOPE {   
-   DSS_HUGE     = 0x10000000,  
-   DSS_FUNCTION = 0x0001,  
-   DSS_MODULE   = (DSS_HUGE) | 0x0002,  
-   DSS_ALL      = (DSS_HUGE) | 0x0003  
+   DSS_HUGE     = 0x10000000,  
+   DSS_FUNCTION = 0x0001,  
+   DSS_MODULE   = (DSS_HUGE) | 0x0002,  
+   DSS_ALL      = (DSS_HUGE) | 0x0003  
 };  
 ```  
   

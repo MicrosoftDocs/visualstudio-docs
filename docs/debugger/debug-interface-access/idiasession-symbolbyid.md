@@ -1,8 +1,6 @@
 ---
 title: "IDiaSession::symbolById | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,8 +20,8 @@ Retrieves a symbol by its unique identifier.
   
 ```C++  
 HRESULT symbolById (   
-   DWORD        id,  
-   IDiaSymbol** ppSymbol  
+   DWORD        id,  
+   IDiaSymbol** ppSymbol  
 );  
 ```  
   

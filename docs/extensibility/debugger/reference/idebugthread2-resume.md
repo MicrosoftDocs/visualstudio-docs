@@ -1,9 +1,6 @@
 ---
 title: "IDebugThread2::Resume | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugThread2::Resume"
@@ -23,13 +20,13 @@ Resumes execution of a thread.
   
 ```cpp  
 HRESULT Resume (   
-   DWORD *pdwSuspendCount  
+   DWORD *pdwSuspendCount  
 );  
 ```  
   
 ```csharp  
 int Resume (   
-   out uint pdwSuspendCount  
+   out uint pdwSuspendCount  
 );  
 ```  
   

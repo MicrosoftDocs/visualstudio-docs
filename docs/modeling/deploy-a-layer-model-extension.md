@@ -11,36 +11,38 @@ manager: douge
 ms.workload:
   - "multiple"
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Deploy a layer model extension
+
 Other users of Visual Studio can install layer modeling extensions that you create by using Visual Studio.
 
-## Installing your extension
- Your extension is compiled to a VSIX file, which you can install on other computers. You can also install it on your development computer, to make the extension available in the main instance of Visual Studio.
+## Install your extension
 
-#### To install the extension
+Your extension is compiled to a VSIX file, which you can install on other computers. You can also install it on your development computer, to make the extension available in the main instance of Visual Studio.
 
-1.  In the project that contains **source.vsix.manifest**, open **bin\\\*** in File Explorer.
+### To install the extension
 
-2.  Copy the **\*.vsix** file to the computer on which you want to install the extension.
+1. In the project that contains **source.vsix.manifest**, open the *bin* directory in File Explorer.
 
-3.  On the target computer, double-click the *.vsix file in Windows Explorer.
+2. Copy the **\*.vsix** file to the computer on which you want to install the extension.
 
-     The VSIX installer opens.
+3. On the target computer, double-click the *.vsix file in Windows Explorer.
 
-#### To uninstall the extension
+    The VSIX installer opens.
+
+### To uninstall the extension
 
 1.  In Visual Studio, on the **Tools** menu, click **Extensions and Updates**.
 
 2.  Click the name of the extension and then click **Uninstall**.
 
-## Installing an Extension on a Team Foundation Build Server
- [!INCLUDE[esprbuild](../misc/includes/esprbuild_md.md)] servers do not normally have Visual Studio installed, and so you cannot install the VSIX by double-clicking it. The installation of [!INCLUDE[esprbuild](../misc/includes/esprbuild_md.md)] includes some components that allow a VSIX extension to run, but you must install the extension manually.
+## Install an Extension on Team Foundation Server
 
-#### To install your layer extension on a [!INCLUDE[esprbuild](../misc/includes/esprbuild_md.md)] Server
+Team Foundation Server servers do not normally have Visual Studio installed, and so you cannot install the VSIX by double-clicking it. You must install the extension manually.
 
-1.  Copy the **.vsix** files from your development computer to the [!INCLUDE[esprbuild](../misc/includes/esprbuild_md.md)] computer.
+### To install your layer extension on a Team Foundation Server server
+
+1.  Copy the .*vsix* files from your development computer to the Team Foundation Server (TFS) computer.
 
      Place the VSIX file in one of the following locations:
 
@@ -48,16 +50,13 @@ Other users of Visual Studio can install layer modeling extensions that you crea
 
          %ProgramFiles%\Microsoft Visual Studio [version]\Common7\IDE\Extensions\Microsoft
 
-    -   To install only for the network service that runs [!INCLUDE[esprbuild](../misc/includes/esprbuild_md.md)]:
+    -   To install only for the network service that runs the build:
 
          %WinDir%\ServiceProfiles\NetworkService\AppData\Local\Microsoft\VisualStudio\\[version]\Extensions\Microsoft
 
-    -   If you have configured [!INCLUDE[esprbuild](../misc/includes/esprbuild_md.md)] to run in interactive mode as a particular user, you can install just for that user:
+    -   If you have configured the build to run in interactive mode as a particular user, you can install just for that user:
 
          %LocalAppData%\Microsoft\VisualStudio\\[version]\Extensions\Microsoft
-
-        > [!NOTE]
-        >  %LocalAppData% is typically *DriveName*:Users*UserName*AppDataLocal.
 
 2.  Expand each VSIX file into a folder in the same location:
 
@@ -67,4 +66,4 @@ Other users of Visual Studio can install layer modeling extensions that you crea
 
     3.  Delete the .zip file
 
-3.  Restart [!INCLUDE[esprbuild](../misc/includes/esprbuild_md.md)].
+3.  Restart TFS.

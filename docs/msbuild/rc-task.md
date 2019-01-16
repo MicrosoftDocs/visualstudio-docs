@@ -1,8 +1,6 @@
 ---
 title: "RC Task | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: msbuild
 ms.topic: "reference"
 f1_keywords: 
   - "VC.Project.VCResourceCompilerTool.UndefineProcessorDefinitions"
@@ -26,7 +24,7 @@ ms.workload:
   - "multiple"
 ---
 # RC task
-Wraps the Microsoft Windows Resource Compiler tool, *rc.exe*. The **RC** task compiles resources, such as cursors, icons, bitmaps, dialog boxes, and fonts, into a resource (*.res*) file. For more information, see [Resource Compiler](https://docs.microsoft.com/en-us/windows/desktop/menurc/resource-compiler).
+Wraps the Microsoft Windows Resource Compiler tool, *rc.exe*. The **RC** task compiles resources, such as cursors, icons, bitmaps, dialog boxes, and fonts, into a resource (*.res*) file. For more information, see [Resource Compiler](https://docs.microsoft.com/windows/desktop/menurc/resource-compiler).
   
 ## Parameters  
  The following table describes the parameters of the RC task. Most task parameters, and a few sets of parameters, correspond to a command-line option.  

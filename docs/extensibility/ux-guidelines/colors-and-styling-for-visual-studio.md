@@ -1,9 +1,6 @@
 ---
 title: "Colors and Styling for Visual Studio | Microsoft Docs"
-ms.custom: ""
 ms.date: "07/31/2017"
-ms.technology:
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 ms.assetid: 0e384ea1-4d9e-4307-8884-6e183900732c
 author: "gregvanl"
@@ -135,7 +132,7 @@ private void VSColorPaint(object sender, System.Windows.Forms.PaintEventArgs e)
     {
         //get the COLORREF structure
         uint win32Color;
-        uiShell.GetVSSysColorEx(VSSYSCOLOREX.VSCOLOR_SMARTTAG_HOVER_FILL, out win32Color);
+        uiShell2.GetVSSysColorEx((int)__VSSYSCOLOREX.VSCOLOR_SMARTTAG_HOVER_FILL, out win32Color);
 
         //translate it to a managed Color structure
         Color myColor = ColorTranslator.FromWin32((int)win32Color);
@@ -281,7 +278,7 @@ Only a handful of system colors can be used for High Contrast themes. When choos
 
 ### System color set
 
-The table at [WPF Team Blog: SystemColors Reference](http://blogs.msdn.com/b/wpf/archive/2010/11/30/systemcolors-reference.aspx) indicates the complete set of system color names, and the corresponding hues displayed in each theme.
+The table at [WPF Team Blog: SystemColors Reference](https://blogs.msdn.microsoft.com/wpf/2010/11/30/systemcolors-reference/) indicates the complete set of system color names, and the corresponding hues displayed in each theme.
 
 When applying this limited set of colors to your UI, *it is expected that you will lose subtle details that were present in the "normal" themes*. Here is an example of UI with subtle gray colors that are used to distinguish areas within a tool window. When paired with the same window displayed in High Contrast mode, you can see that all the backgrounds are the same hue and the borders of those areas are indicated by border alone:
 
@@ -336,7 +333,7 @@ Sometimes you'll want to allow the end user to customize your UI, like when you'
 
 ### Building a VSPackage for your customizable colors
 
-A VSPackage can control the fonts and colors through custom categories and display items on the Fonts and Colors property page. When using this mechanism, VSPackages must implement the [IVsFontAndColorDefaultsProvider](https://msdn.microsoft.com/en-us/library/microsoft.visualstudio.shell.interop.ivsfontandcolordefaultsprovider.aspx) interface and its associated interfaces.
+A VSPackage can control the fonts and colors through custom categories and display items on the Fonts and Colors property page. When using this mechanism, VSPackages must implement the [IVsFontAndColorDefaultsProvider](/dotnet/api/microsoft.visualstudio.shell.interop.ivsfontandcolordefaultsprovider) interface and its associated interfaces.
 
 In principle, this mechanism can be used to modify all existing display items and the categories that contain them. However, it should not be used to modify the Text Editor category or its display items. For more information on the Text Editor category, see [Font and Color Overview](../font-and-color-overview.md).
 
@@ -361,7 +358,7 @@ Populate the registry with two values:
 | Category | REG_SZ | GUID | A GUID created to identify the category |
 | Package | REG_SZ | GUID | The GUID of the VSPackage service that supports the category |
 
- The service specified in the registry must provide an implementation of [IVsFontAndColorDefaults](https://msdn.microsoft.com/en-us/library/microsoft.visualstudio.shell.interop.ivsfontandcolordefaults.aspx) for the corresponding category.
+ The service specified in the registry must provide an implementation of [IVsFontAndColorDefaults](/dotnet/api/microsoft.visualstudio.shell.interop.ivsfontandcolordefaults) for the corresponding category.
 
 #### To create or identify groups
 
@@ -380,11 +377,11 @@ The service specified in the registry must provide an implementation of <xref:Mi
 
 ### To implement IDE support
 
-Implement [GetObject](https://msdn.microsoft.com/en-us/library/microsoft.visualstudio.shell.interop.ivsfontandcolordefaultsprovider.getobject.aspx), which returns either an [IVsFontAndColorDefaults](https://msdn.microsoft.com/en-us/library/microsoft.visualstudio.shell.interop.ivsfontandcolordefaults.aspx) interface or an <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorGroup> interface to the IDE for each category or group GUID supplied.
+Implement [GetObject](/dotnet/api/microsoft.visualstudio.shell.interop.ivsfontandcolordefaultsprovider.getobject), which returns either an [IVsFontAndColorDefaults](/dotnet/api/microsoft.visualstudio.shell.interop.ivsfontandcolordefaults) interface or an <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorGroup> interface to the IDE for each category or group GUID supplied.
 
-For every category it supports, a VSPackage implements a separate instance of the [IVsFontAndColorDefaults](https://msdn.microsoft.com/en-us/library/microsoft.visualstudio.shell.interop.ivsfontandcolordefaults.aspx) interface.
+For every category it supports, a VSPackage implements a separate instance of the [IVsFontAndColorDefaults](/dotnet/api/microsoft.visualstudio.shell.interop.ivsfontandcolordefaults) interface.
 
-The methods implemented through [IVsFontAndColorDefaults](https://msdn.microsoft.com/en-us/library/microsoft.visualstudio.shell.interop.ivsfontandcolordefaults.aspx) must provide the IDE with:
+The methods implemented through [IVsFontAndColorDefaults](/dotnet/api/microsoft.visualstudio.shell.interop.ivsfontandcolordefaults) must provide the IDE with:
 
 - Lists of display items in the category
 
@@ -401,7 +398,7 @@ Its implementation provides the IDE with:
 
 - A list of the categories that make up a given group
 
-- Access to instances of [IVsFontAndColorDefaults](https://msdn.microsoft.com/en-us/library/microsoft.visualstudio.shell.interop.ivsfontandcolordefaults.aspx) supporting each Category within the group
+- Access to instances of [IVsFontAndColorDefaults](/dotnet/api/microsoft.visualstudio.shell.interop.ivsfontandcolordefaults) supporting each Category within the group
 
 - Localizable group names
 
@@ -409,7 +406,7 @@ Its implementation provides the IDE with:
 
 The IDE caches information about Font and Color settings. Therefore, after any modification of the IDE Font and Color configuration, ensuring that the cache is up to date is a best practice.
 
-Updating the cache is done through the [IvsFontAndColorCacheManager](https://msdn.microsoft.com/en-us/library/microsoft.visualstudio.shell.interop.ivsfontandcolorcachemanager.aspx) interface and can be performed globally or just on selected items.
+Updating the cache is done through the [IvsFontAndColorCacheManager](/dotnet/api/microsoft.visualstudio.shell.interop.ivsfontandcolorcachemanager) interface and can be performed globally or just on selected items.
 
 ### Handling font and color changes
 
@@ -417,14 +414,14 @@ To properly support the colorization of text that a VSPackage displays, the colo
 
 To do this, a VSPackage must:
 
-- **handle IDE-generated events** by implementing the [IVsFontAndColorEvents](https://msdn.microsoft.com/en-us/library/microsoft.visualstudio.shell.interop.ivsfontandcolorevents.aspx) interface. The IDE calls the appropriate method following user modifications of the Fonts and Colors page. For example, it calls the [OnFontChanged](https://msdn.microsoft.com/en-us/library/microsoft.visualstudio.shell.interop.ivsfontandcolorevents.onfontchanged.aspx) method if a new font is selected.
+- **handle IDE-generated events** by implementing the [IVsFontAndColorEvents](/dotnet/api/microsoft.visualstudio.shell.interop.ivsfontandcolorevents) interface. The IDE calls the appropriate method following user modifications of the Fonts and Colors page. For example, it calls the [OnFontChanged](/dotnet/api/microsoft.visualstudio.shell.interop.ivsfontandcolorevents.onfontchanged) method if a new font is selected.
 
- **OR**
+  **OR**
 
-- **poll the IDE for changes**. This can be done through the system-implemented [IVsFontAndColorStorage](https://msdn.microsoft.com/en-us/library/microsoft.visualstudio.shell.interop.ivsfontandcolorstorage.aspx) interface. Although primarily for support of persistence, the [GetItem](https://msdn.microsoft.com/en-us/library/microsoft.visualstudio.shell.interop.ivsfontandcolorstorage.getitem.aspx) method can obtain font and color information for Display Items. For more information on font and color settings, see the MSDN article [Accessing Stored Font and Color Settings](../accessing-stored-font-and-color-settings.md).
+- **poll the IDE for changes**. This can be done through the system-implemented [IVsFontAndColorStorage](/dotnet/api/microsoft.visualstudio.shell.interop.ivsfontandcolorstorage) interface. Although primarily for support of persistence, the [GetItem](/dotnet/api/microsoft.visualstudio.shell.interop.ivsfontandcolorstorage.getitem) method can obtain font and color information for Display Items. For more information on font and color settings, see the MSDN article [Accessing Stored Font and Color Settings](../accessing-stored-font-and-color-settings.md).
 
 > [!NOTE]
-> To ensure that polling results are correct, use the [IVsFontAndColorCacheManager](https://msdn.microsoft.com/en-us/library/microsoft.visualstudio.shell.interop.ivsfontandcolorcachemanager.aspx) interface to determine if a cache flush and update are needed prior to calling the retrieval methods of the [IVsFontAndColorStorage](https://msdn.microsoft.com/en-us/library/microsoft.visualstudio.shell.interop.ivsfontandcolorstorage.aspx) interface.
+> To ensure that polling results are correct, use the [IVsFontAndColorCacheManager](/dotnet/api/microsoft.visualstudio.shell.interop.ivsfontandcolorcachemanager) interface to determine if a cache flush and update are needed prior to calling the retrieval methods of the [IVsFontAndColorStorage](/dotnet/api/microsoft.visualstudio.shell.interop.ivsfontandcolorstorage) interface.
 
 #### Registering custom font and color Category without implementing interfaces
 

@@ -1,9 +1,8 @@
 ---
-title: "Tips and Tricks in the Visual Studio Debugger"
+title: "Tips and tricks in the debugger"
 description: Learn about some of the lesser-known features supported by the Visual Studio debugger
-ms.custom: ""
+ms.custom: "seodec18"
 ms.date: "06/15/2017"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "stepping"
@@ -18,7 +17,7 @@ ms.workload:
 ---
 # Learn Productivity Tips and Tricks for the Debugger in Visual Studio
 
-Read this topic to learn a few productivity tips and tricks for the Visual Studio debugger. For a look at the basic features of the debugger, see [Debugger Feature Tour](../debugger/debugger-feature-tour.md). In this topic, we cover some areas that are not included in the feature tour.
+Read this topic to learn a few productivity tips and tricks for the Visual Studio debugger. For a look at the basic features of the debugger, see [First look at the debugger](../debugger/debugger-feature-tour.md). In this topic, we cover some areas that are not included in the feature tour.
 
 ## Pin data tips
 
@@ -139,7 +138,7 @@ Select an operation in the summary view to view more details.
 
 For more information, see [Network Usage](../profiling/network-usage.md).
 
-## Get more familiar with how the debugger attaches to your app
+## <a name="modules_window"></a> Get more familiar with how the debugger attaches to your app (C#, C++, Visual Basic, F#)
 
 To attach to your running app, the debugger loads symbol (.pdb) files generated for the exact same build of the app you are trying to debug. In some scenarios, a little knowledge of symbol files can be helpful. You can examine how Visual Studio loads symbol files using the **Modules** window.
 

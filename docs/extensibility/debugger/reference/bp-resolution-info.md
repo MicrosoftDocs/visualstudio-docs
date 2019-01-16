@@ -1,9 +1,6 @@
 ---
 title: "BP_RESOLUTION_INFO | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "BP_RESOLUTION_INFO"
@@ -23,19 +20,19 @@ Describes the bound breakpoint information for either a code breakpoint or a dat
   
 ```cpp  
 typedef struct _BP_RESOLUTION_INFO {   
-   BPRESI_FIELDS          dwFields;  
-   BP_RESOLUTION_LOCATION bpResLocation;  
-   IDebugProgram2*        pProgram;  
-   IDebugThread2*         pThread;  
+   BPRESI_FIELDS          dwFields;  
+   BP_RESOLUTION_LOCATION bpResLocation;  
+   IDebugProgram2*        pProgram;  
+   IDebugThread2*         pThread;  
 } BP_RESOLUTION_INFO;  
 ```  
   
 ```csharp  
 public struct BP_RESOLUTION_INFO {   
-   public uint                   dwFields;  
-   public BP_RESOLUTION_LOCATION bpResLocation;  
-   public IDebugProgram2         pProgram;  
-   public IDebugThread2          pThread;  
+   public uint                   dwFields;  
+   public BP_RESOLUTION_LOCATION bpResLocation;  
+   public IDebugProgram2         pProgram;  
+   public IDebugThread2          pThread;  
 };  
 ```  
   

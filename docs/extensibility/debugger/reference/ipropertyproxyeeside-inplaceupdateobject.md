@@ -1,9 +1,6 @@
 ---
 title: "IPropertyProxyEESide::InPlaceUpdateObject | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IPropertyProxyEESide::InPlaceUpdateObject"
@@ -23,15 +20,15 @@ Updates the object's data with the given data object and returns a new data obje
   
 ```cpp  
 HRESULT InPlaceUpdateObject(  
-   [in] IEEDataStorage*   dataIn,  
-   [out] IEEDataStorage** dataOut  
+   [in] IEEDataStorage*   dataIn,  
+   [out] IEEDataStorage** dataOut  
 );  
 ```  
   
 ```csharp  
 int InPlaceUpdateObject(  
-   IEEDataStorage     dataIn,  
-   out IEEDataStorage dataOut  
+   IEEDataStorage     dataIn,  
+   out IEEDataStorage dataOut  
 );  
 ```  
   

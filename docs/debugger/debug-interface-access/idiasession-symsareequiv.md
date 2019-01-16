@@ -1,8 +1,6 @@
 ---
 title: "IDiaSession::symsAreEquiv | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,8 +20,8 @@ Checks to see if two symbols are equivalent.
   
 ```C++  
 HRESULT symsAreEquiv (   
-   IDiaSymbol* symbolA,  
-   IDiaSymbol* symbolB  
+   IDiaSymbol* symbolA,  
+   IDiaSymbol* symbolB  
 );  
 ```  
   

@@ -2,7 +2,6 @@
 title: "Set a Unique Automation Property for UWP Controls for Testing"
 ms.date: 05/31/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 ms.author: gewarren
 manager: douge
@@ -13,6 +12,8 @@ author: gewarren
 # Set a unique automation property for UWP controls for testing
 
 If you want to run coded UI tests for your XAML-based UWP application, each control must be identified by a unique automation property. You can assign a unique automation property based on the type of XAML control in your application.
+
+[!INCLUDE [coded-ui-test-deprecation](includes/coded-ui-test-deprecation.md)]
 
 ## Static XAML definition
 
@@ -63,13 +64,13 @@ You can define a simple template using **ItemTemplate** to bind the values in a 
 ```xaml
 <ListBox Name="listBox1" ItemsSource="{Binding Source={StaticResource employees}}">
    <ListBox.ItemTemplate>
-      <DataTemplate>
-         <StackPanel Orientation="Horizontal">
-            <TextBlock Text="{Binding EmployeeName}" />
-            <TextBlock Text="{Binding EmployeeID}" />
-         </StackPanel>
-      </DataTemplate>
-   </ListBox.ItemTemplate>
+      <DataTemplate>
+         <StackPanel Orientation="Horizontal">
+            <TextBlock Text="{Binding EmployeeName}" />
+            <TextBlock Text="{Binding EmployeeID}" />
+         </StackPanel>
+      </DataTemplate>
+   </ListBox.ItemTemplate>
 </ListBox>
 ```
 
@@ -78,18 +79,18 @@ You can also use a template with **ItemContainerStyle** to bind the values to va
 ```xaml
 <ListBox Name="listBox1" ItemsSource="{Binding Source={StaticResource employees}}">
    <ListBox.ItemContainerStyle>
-      <Style TargetType="ListBoxItem">
-         <Setter Property="Template">
-            <Setter.Value>
-               <ControlTemplate TargetType="ListBoxItem">
-                  <Grid>
-                     <Button Content="{Binding EmployeeName}" AutomationProperties.AutomationId="{Binding EmployeeID}"/>
-                  </Grid>
-               </ControlTemplate>
-            </Setter.Value>
-         </Setter>
-      </Style>
-   </ListBox.ItemContainerStyle>
+      <Style TargetType="ListBoxItem">
+         <Setter Property="Template">
+            <Setter.Value>
+               <ControlTemplate TargetType="ListBoxItem">
+                  <Grid>
+                     <Button Content="{Binding EmployeeName}" AutomationProperties.AutomationId="{Binding EmployeeID}"/>
+                  </Grid>
+               </ControlTemplate>
+            </Setter.Value>
+         </Setter>
+      </Style>
+   </ListBox.ItemContainerStyle>
 </ListBox>
 ```
 
@@ -102,9 +103,9 @@ For both of these examples, you must then override the **ToString()** method of 
 Employee[] employees = new Employee[]
 {
    new Employee("john", "4384"),
-   new Employee("margaret", "7556"),
-   new Employee("richard", "8688"),
-   new Employee("george", "1293")
+   new Employee("margaret", "7556"),
+   new Employee("richard", "8688"),
+   new Employee("george", "1293")
 };
 
 listBox1.ItemsSource = employees;

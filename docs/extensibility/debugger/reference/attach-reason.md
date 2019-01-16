@@ -1,9 +1,6 @@
 ---
 title: "ATTACH_REASON | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "ATTACH_REASON"
@@ -23,18 +20,18 @@ Specifies the reason for the debug engine (DE) to attach to a program node.
   
 ```cpp  
 enum enum_ATTACH_REASON {   
-   ATTACH_REASON_LAUNCH = 0x0001,  
-   ATTACH_REASON_USER   = 0x0002,  
-   ATTACH_REASON_AUTO   = 0x0003  
+   ATTACH_REASON_LAUNCH = 0x0001,  
+   ATTACH_REASON_USER   = 0x0002,  
+   ATTACH_REASON_AUTO   = 0x0003  
 };  
 typedef DWORD ATTACH_REASON;  
 ```  
   
 ```csharp  
 public enum enum_ATTACH_REASON {   
-   ATTACH_REASON_LAUNCH = 0x0001,  
-   ATTACH_REASON_USER   = 0x0002,  
-   ATTACH_REASON_AUTO   = 0x0003  
+   ATTACH_REASON_LAUNCH = 0x0001,  
+   ATTACH_REASON_USER   = 0x0002,  
+   ATTACH_REASON_AUTO   = 0x0003  
 };  
 ```  
   

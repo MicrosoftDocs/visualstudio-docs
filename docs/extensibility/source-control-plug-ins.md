@@ -1,9 +1,6 @@
 ---
 title: "Source Control Plug-ins | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "source control plug-ins, reference"
@@ -55,7 +52,7 @@ The Source Control Plug-in SDK reference section contains the complete interface
  Describes how to disable warnings.  
   
 ## Related Sections  
- [Source Control Plug-in Sample](http://msdn.microsoft.com/en-us/61de7d2b-71db-451e-8e3e-d41b11c7a4ca)  
+ [Source Control Plug-in Sample](https://www.microsoft.com/download/details.aspx?id=55984)  
  Provides a sample of source control plug-in functionality.  
   
  [Test Guide for Source Control Plug-ins](../extensibility/internals/test-guide-for-source-control-plug-ins.md)  

@@ -1,8 +1,6 @@
 ---
 title: "Import Element (MSBuild) | Microsoft Docs"
-ms.custom: ""
 ms.date: "03/13/2017"
-ms.technology: msbuild
 ms.topic: "reference"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#Import"
@@ -49,10 +47,10 @@ Imports the contents of one project file into another project file.
 
 ### Parent elements  
 
-|Element|Description|  
-|-------------|-----------------|  
-|[Project](../msbuild/project-element-msbuild.md)|Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file.|  
-|[ImportGroup](../msbuild/importgroup-element.md)|Contains a collection of `Import` elements grouped under an optional condition.|  
+| Element | Description |
+| - | - |
+| [Project](../msbuild/project-element-msbuild.md) | Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file. |
+| [ImportGroup](../msbuild/importgroup-element.md) | Contains a collection of `Import` elements grouped under an optional condition. |
 
 ## Remarks  
  By using the `Import` element, you can reuse code that is common to many project files. This makes it easier to maintain the code because any updates you make to the shared code get propagated to all the projects that import it.  
@@ -67,10 +65,6 @@ Imports the contents of one project file into another project file.
 
  The schema of an imported project is identical to that of a standard project. Although [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] may be able to build an imported project, it is unlikely because an imported project typically does not contain information about which properties to set or the order in which to run targets. The imported project depends on the project into which it is imported to provide that information.  
 
-> [!NOTE]
->  While conditional import statements work in command-line MSBuilds, they do not work with MSBuild in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE). Conditional imports are evaluated by using the configuration and platform values that are set when the project is loaded. If changes are subsequently made that require a reevaluation of the conditionals in the project file, for example, changing the platform, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] reevaluates the conditions on properties and items, but not on imports. Because the import conditional is not reevaluated, the import is skipped.  
->   
->  To work around this, put conditional imports in the *.targets* files or put code in a conditional block such as a [Choose element (MSBuild)](../msbuild/choose-element-msbuild.md) block.  
 
 ## Wildcards  
  In the .NET Framework 4, MSBuild allows wildcards in the Project attribute. When there are wildcards, all matches found are sorted (for reproducibility), and then they are imported in that order as if the order had been explicitly set.  

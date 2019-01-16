@@ -1,9 +1,6 @@
 ---
 title: "IEnumDebugPrograms2::Clone | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IEnumDebugPrograms2::Clone"
@@ -23,13 +20,13 @@ Returns a copy of the current enumeration as a separate object.
   
 ```cpp  
 HRESULT Clone(  
-   IEnumDebugPrograms2** ppEnum  
+   IEnumDebugPrograms2** ppEnum  
 );  
 ```  
   
 ```csharp  
 int Clone(  
-   out IEnumDebugPrograms2 ppEnum  
+   out IEnumDebugPrograms2 ppEnum  
 );  
 ```  
   

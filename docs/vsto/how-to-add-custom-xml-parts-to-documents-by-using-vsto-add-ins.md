@@ -1,9 +1,6 @@
 ---
 title: "How to: Add custom XML parts to documents by using VSTO Add-ins"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -17,8 +14,8 @@ helpviewer_keywords:
   - "custom XML parts [Office development in Visual Studio], adding"
   - "documents [Office development in Visual Studio], custom XML parts"
   - "application-level add-ins [Office development in Visual Studio], custom XML parts"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -26,15 +23,15 @@ ms.workload:
 # How to: Add custom XML parts to documents by using VSTO Add-ins
   You can store XML data in the following types of documents by creating a custom XML part in a VSTO Add-in:  
   
--   A Microsoft Office Excel workbook.  
+- A Microsoft Office Excel workbook.  
   
--   A Microsoft Office Word document.  
+- A Microsoft Office Word document.  
   
--   A Microsoft Office PowerPoint presentation.  
+- A Microsoft Office PowerPoint presentation.  
   
- For more information, see [Custom XML parts overview](../vsto/custom-xml-parts-overview.md).  
+  For more information, see [Custom XML parts overview](../vsto/custom-xml-parts-overview.md).  
   
- **Applies to:** The information in this topic applies to application-level projects for Excel, PowerPoint, and Word. For more information, see [Features available by Office application and project type](../vsto/features-available-by-office-application-and-project-type.md).  
+  **Applies to:** The information in this topic applies to application-level projects for Excel, PowerPoint, and Word. For more information, see [Features available by Office application and project type](../vsto/features-available-by-office-application-and-project-type.md).  
   
 ## To add a custom XML part to an Excel workbook  
   
@@ -64,7 +61,7 @@ ms.workload:
   
 ## To add a custom XML part to a PowerPoint presentation  
   
-1.  Add a new <xref:Microsoft.Office.Core.CustomXMLPart> object to the <xref:Microsoft.Office.Interop.PowerPoint._Presentation.CustomXMLParts%2A> collection in the presentation. The <xref:Microsoft.Office.Core.CustomXMLPart> contains the XML string that you want to store in the presentation.  
+1.  Add a new <xref:Microsoft.Office.Core.CustomXMLPart> object to the [Microsoft.Office.Interop.PowerPoint._Presentation.CustomXMLParts](/previous-versions/office/developer/office-2010/ff760806%28v%3doffice.14%29) collection in the presentation. The <xref:Microsoft.Office.Core.CustomXMLPart> contains the XML string that you want to store in the presentation.  
   
      The following code example adds a custom XML part to a specified presentation.  
   
@@ -73,7 +70,7 @@ ms.workload:
   
 2.  Add the `AddCustomXmlPartToPresentation` method to the `ThisAddIn` class in a VSTO Add-in project for PowerPoint.  
   
-3.  Call the method from other code in your project. For example, to create the custom XML part when the user opens a presentation, call the method from an event handler for the <xref:Microsoft.Office.Interop.PowerPoint.EApplication_Event.AfterPresentationOpen> event.  
+3.  Call the method from other code in your project. For example, to create the custom XML part when the user opens a presentation, call the method from an event handler for the [Microsoft.Office.Interop.PowerPoint.EApplication_Event.AfterPresentationOpen](/previous-versions/office/developer/office-2010/ff762843(v=office.14)) event.  
   
 ## Robust programming  
  For simplicity, this example uses an XML string that is defined as a local variable in the method. Typically, you should obtain the XML from an external source, such as a file or a database.  
@@ -81,5 +78,3 @@ ms.workload:
 ## See also  
  [Custom XML parts overview](../vsto/custom-xml-parts-overview.md)   
  [How to: Add custom XML parts to document-level customizations](../vsto/how-to-add-custom-xml-parts-to-document-level-customizations.md)  
-  
-  

@@ -1,9 +1,6 @@
 ---
 title: "Fonts and Formatting for Visual Studio | Microsoft Docs"
-ms.custom: ""
 ms.date: "04/26/2017"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 ms.assetid: c3c3df69-83b4-4fd0-b5b1-e18c33f39376
 author: "gregvanl"
@@ -46,13 +43,13 @@ ms.workload:
   
 ```xaml
 <ui:DialogWindow  
-    x:Class"MyNameSpace.MyWindow"  
-    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  
-    xmlns:s="http://schemas.microsoft.com/winfx/2006/xaml"  
-    xmlns:ui="clr-namespace:Microsoft.VisualStudio.PlatformUI;assembly=Microsoft.VisualStudio.Shell.11.0"  
-    ShowInTaskbar="False"  
-    WindowStartupLocation="CenterOwner"  
-    Title="My Dialog">  
+    x:Class"MyNameSpace.MyWindow"  
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  
+    xmlns:s="http://schemas.microsoft.com/winfx/2006/xaml"  
+    xmlns:ui="clr-namespace:Microsoft.VisualStudio.PlatformUI;assembly=Microsoft.VisualStudio.Shell.11.0"  
+    ShowInTaskbar="False"  
+    WindowStartupLocation="CenterOwner"  
+    Title="My Dialog">  
 </ui:DialogWindow>  
 ```
 
@@ -77,7 +74,7 @@ window.ShowModal()
   
  `ShowModal` returns a bool? (nullable Boolean) with the `DialogResult`, which can be used if needed. The return value is true if the dialog was closed with **OK**.  
   
- If you need to display some WPF UI that is not a dialog and is hosted in its own `HwndSource`, such as a popup window or a WPF child window of a Win32/WinForms parent window window, you will need to set the `FontFamily` and `FontSize` on the root element of the WPF element. (The shell sets the properties on the main window, but they will not be inherited past a `HWND`). The shell provides resources to which the properties can be bound, like this:  
+ If you need to display some WPF UI that is not a dialog and is hosted in its own `HwndSource`, such as a popup window or a WPF child window of a Win32/WinForms parent window, you will need to set the `FontFamily` and `FontSize` on the root element of the WPF element. (The shell sets the properties on the main window, but they will not be inherited past a `HWND`). The shell provides resources to which the properties can be bound, like this:  
   
 ```xaml
 <Setter Property="FontFamily" Value="{DynamicResource VsFont.EnvironmentFontFamily}" />  
@@ -245,7 +242,7 @@ label.SetResourceReference(Label.StyleProperty,  
 ```csharp
 private void Form1_FontChanged(object sender, System.EventArgs e)  
 {  
-          SetFontStyles();  
+          SetFontStyles();  
 }  
   
 /// <summary>  
@@ -259,20 +256,20 @@ private void Form1_FontChanged(object sender, System.EventArgs e)
 /// </summary>   
 protected void SetFontStyles()  
 {  
-     SetFontStyles(this, this, this.Font);  
+     SetFontStyles(this, this, this.Font);  
 }  
   
 protected static void SetFontStyles(Control topControl, Control parent, Font referenceFont)  
 {  
-     foreach(Control c in parent.Controls)  
-     {  
-          if (c.Controls != null && c.Controls.Count > 0) {  
-               SetFontStyles(topControl, c, referenceFont);  
-          }  
-          if (c.Font != topControl.Font) {  
-               c.Font = new Font(referenceFont, c.Font.Style);  
-          }  
-     }  
+     foreach(Control c in parent.Controls)  
+     {  
+          if (c.Controls != null && c.Controls.Count > 0) {  
+               SetFontStyles(topControl, c, referenceFont);  
+          }  
+          if (c.Font != topControl.Font) {  
+               c.Font = new Font(referenceFont, c.Font.Style);  
+          }  
+     }  
 }  
 ```
   
@@ -319,13 +316,13 @@ protected static void SetFontStyles(Control topControl, Control parent, Font ref
 ##### Title case  
  Title case is a style in which the first letters of most or all of the words within a phrase are capitalized. In Visual Studio, title case is used for many items, including:  
   
--   **Tooltips.** Example: "Preview Selected Items"  
+- **Tooltips.** Example: "Preview Selected Items"  
   
--   **Column headers.** Example: "System Response"  
+- **Column headers.** Example: "System Response"  
   
--   **Menu items.** Example: "Save All"  
+- **Menu items.** Example: "Save All"  
   
- When using title case, these are the guidelines for when to capitalize words and when to leave them lowercase:  
+  When using title case, these are the guidelines for when to capitalize words and when to leave them lowercase:  
   
 |Uppercase|Comments and examples|  
 |---------------|---------------------------|  
@@ -460,5 +457,5 @@ protected static void SetFontStyles(Control topControl, Control parent, Font ref
 -   Bolded environment font text should follow default line height spacing and padding.  
   
 ## See Also  
- [MSDN: Fonts (Windows)](https://msdn.microsoft.com/en-us/library/windows/desktop/dn742483\(v=vs.85\).aspx)   
- [MSDN: User Interface Text (Windows)](https://msdn.microsoft.com/en-us/library/windows/desktop/dn742478\(v=vs.85\).aspx)
+ [MSDN: Fonts (Windows)](/windows/desktop/uxguide/vis-fonts)   
+ [MSDN: User Interface Text (Windows)](/windows/desktop/uxguide/text-ui)

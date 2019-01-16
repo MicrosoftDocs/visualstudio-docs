@@ -2,7 +2,6 @@
 title: "CA1711: Identifiers should not have incorrect suffix"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA1711"
@@ -18,6 +17,7 @@ ms.workload:
   - "multiple"
 ---
 # CA1711: Identifiers should not have incorrect suffix
+
 |||
 |-|-|
 |TypeName|IdentifiersShouldNotHaveIncorrectSuffix|
@@ -26,12 +26,14 @@ ms.workload:
 |Breaking Change|Breaking|
 
 ## Cause
- An identifier has an incorrect suffix.
 
-## Rule Description
- By convention, only the names of types that extend certain base types or that implement certain interfaces, or types derived from these types, should end with specific reserved suffixes. Other type names should not use these reserved suffixes.
+An identifier has an incorrect suffix.
 
- The following table lists the reserved suffixes and the base types and interfaces with which they are associated.
+## Rule description
+
+By convention, only the names of types that extend certain base types or that implement certain interfaces, or types derived from these types, should end with specific reserved suffixes. Other type names should not use these reserved suffixes.
+
+The following table lists the reserved suffixes and the base types and interfaces with which they are associated.
 
 |Suffix|Base type/Interface|
 |------------|--------------------------|
@@ -46,27 +48,31 @@ ms.workload:
 |Stack|<xref:System.Collections.Stack?displayProperty=fullName>|
 |Stream|<xref:System.IO.Stream?displayProperty=fullName>|
 
- In addition, the following suffixes should **not** be used:
+In addition, the following suffixes should **not** be used:
 
--   Delegate
+- `Delegate`
 
--   Enum
+- `Enum`
 
--   Impl - use 'Core' instead
+- `Impl` (use `Core` instead)
 
--   Ex or similar suffix to distinguish it from an earlier version of the same type
+- `Ex` or similar suffix to distinguish it from an earlier version of the same type
 
- Naming conventions provide a common look for libraries that target the common language runtime. This reduces the learning curve that is required for new software libraries, and increases customer confidence that the library was developed by someone who has expertise in developing managed code.
+Naming conventions provide a common look for libraries that target the common language runtime. This reduces the learning curve that is required for new software libraries, and increases customer confidence that the library was developed by someone who has expertise in developing managed code.
 
-## How to Fix Violations
- Remove the suffix from the type name.
+## How to fix violations
 
-## When to Suppress Warnings
- Do not suppress a warning from this rule unless the suffix has an unambiguous meaning in the application domain.
+Remove the suffix from the type name.
 
-## Related Rules
- [CA1710: Identifiers should have correct suffix](../code-quality/ca1710-identifiers-should-have-correct-suffix.md)
+## When to suppress warnings
 
-## See Also
- [Attributes](/dotnet/standard/design-guidelines/attributes)
- [Handling and raising events](/dotnet/standard/events/index)
+Do not suppress a warning from this rule unless the suffix has an unambiguous meaning in the application domain.
+
+## Related rules
+
+- [CA1710: Identifiers should have correct suffix](../code-quality/ca1710-identifiers-should-have-correct-suffix.md)
+
+## See also
+
+- [Attributes](/dotnet/standard/design-guidelines/attributes)
+- [Handling and raising events](/dotnet/standard/events/index)

@@ -10,7 +10,6 @@ manager: douge
 ms.workload:
   - "multiple"
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Understanding Models, Classes and Relationships
 A domain-specific language (DSL) is defined by its DSL Definition file, together with any custom program code that you might write. Most of the program code in the DSL solution is generated from this file.
@@ -18,7 +17,7 @@ A domain-specific language (DSL) is defined by its DSL Definition file, together
  This topic explains the central features of the DSL definition.
 
 ## The DSL Definition
- When you open `Dsl\DslDefinition.dsl`, your [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] window resembles the following picture.
+ When you open `Dsl\DslDefinition.dsl`, your Visual Studio window resembles the following picture.
 
  ![dsl designer](../modeling/media/dsl_designer.png)
 
@@ -129,7 +128,7 @@ A domain-specific language (DSL) is defined by its DSL Definition file, together
  Configure the multiplicity of a role either by typing on the diagram or by modifying the `Multiplicity` property in the **Properties** window. The following table describes the settings for this property.
 
 |Multiplicity type|Description|
-|-----------------------|-----------------|
+|-|-|
 |0..* (Zero to many)|Each instance of the domain class can have multiple instances of the relationship or no instances of the relationship.|
 |0..1 (Zero to one)|Each instance of the domain class can have no more than one instance of the relationship or no instances of the relationship.|
 |1..1 (One)|Each instance of the domain class can have one instance of the relationship. You cannot create more than one instance of this relationship from any instance of the role class. If validation is enabled, a validation error will appear when any instance of the role class has no instance of the relationship.|
@@ -146,4 +145,4 @@ A domain-specific language (DSL) is defined by its DSL Definition file, together
 
 ## See Also
 
-- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+- [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

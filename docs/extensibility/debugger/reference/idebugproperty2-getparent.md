@@ -1,9 +1,6 @@
 ---
 title: "IDebugProperty2::GetParent | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProperty2::GetParent"
@@ -23,13 +20,13 @@ Gets the parent property of a property.
   
 ```cpp  
 HRESULT GetParent (   
-   IDebugProperty2** ppParent  
+   IDebugProperty2** ppParent  
 );  
 ```  
   
 ```csharp  
 int GetParent (   
-   out IDebugProperty2 ppParent  
+   out IDebugProperty2 ppParent  
 );  
 ```  
   

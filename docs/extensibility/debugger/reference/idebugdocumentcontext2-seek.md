@@ -1,9 +1,6 @@
 ---
 title: "IDebugDocumentContext2::Seek | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugDocumentContext2::Seek"
@@ -23,15 +20,15 @@ Moves the document context by a given number of statements or lines.
   
 ```cpp  
 HRESULT Seek(   
-   int                      nCount,  
-   IDebugDocumentContext2** ppDocContext  
+   int                      nCount,  
+   IDebugDocumentContext2** ppDocContext  
 );  
 ```  
   
 ```cpp  
 int Seek(   
-   int                        nCount,  
-   out IDebugDocumentContext2 ppDocContext  
+   int                        nCount,  
+   out IDebugDocumentContext2 ppDocContext  
 );  
 ```  
   

@@ -1,8 +1,6 @@
 ---
 title: "Error: Unable to access the SQL Server debugging interface | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "troubleshooting"
 f1_keywords: 
   - "vs.debug.error.sqlde_debugging_not_enabled"
@@ -23,7 +21,7 @@ This message occurs when you attempt SQL debugging on a machine where SQL debugg
   
 ### To correct this error  
   
--   See [Setting Up SQL Debugging](http://msdn.microsoft.com/en-us/3db09e68-edcc-42de-9c22-4e97cfd55ab3).  
+-   See [Setting Up SQL Debugging](https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2010/s4sszxst(v=vs.100)).  
   
 ## See Also  
- [Debugging SQL](http://msdn.microsoft.com/en-us/f27c17e6-1d90-49f2-9fc0-d02e6a27f109)
+ [Debugging SQL](https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2010/zefbf0t6(v=vs.100))

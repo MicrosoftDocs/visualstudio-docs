@@ -2,7 +2,6 @@
 title: "CA2117: APTCA types should only extend APTCA base types"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA2117"
@@ -30,7 +29,7 @@ ms.workload:
 
 A public or protected type in an assembly with the <xref:System.Security.AllowPartiallyTrustedCallersAttribute?displayProperty=fullName> attribute inherits from a type declared in an assembly that does not have the attribute.
 
-## Rule Description
+## Rule description
 
 By default, public or protected types in assemblies with strong names are implicitly protected by an [InheritanceDemand](xref:System.Security.Permissions.SecurityAction#System_Security_Permissions_SecurityAction_InheritanceDemand) for full trust. Strong-named assemblies marked with the <xref:System.Security.AllowPartiallyTrustedCallersAttribute> (APTCA) attribute do not have this protection. The attribute disables the inheritance demand. Exposed types declared in an assembly without an inheritance demand are inheritable by types that do not have full trust.
 
@@ -46,7 +45,7 @@ A partially trusted type `X` can inherit from `T1`, which gives it access to inh
 
 Another security issue, and perhaps a more common one, is that the derived type (`T1`) can, through programmer error, expose protected members from the type that requires full trust (`T2`). When this exposure occurs, untrusted callers gain access to information that should be available only to fully trusted types.
 
-## How to Fix Violations
+## How to fix violations
 
 If the type reported by the violation is in an assembly that does not require the APTCA attribute, remove it.
 
@@ -54,7 +53,7 @@ If the APTCA attribute is required, add an inheritance demand for full trust to 
 
 It is possible to fix a violation by adding the APTCA attribute to the assemblies of the base types reported by the violation. Do not do this without first conducting an intensive security review of all code in the assemblies and all code that depends on the assemblies.
 
-## When to Suppress Warnings
+## When to suppress warnings
 
 To safely suppress a warning from this rule, you must ensure that protected members exposed by your type do not directly or indirectly allow untrusted callers to access sensitive information, operations, or resources that can be used in a destructive manner.
 
@@ -74,13 +73,13 @@ The test type, represented by `X` in the previous discussion, is in a partially 
 
 This example produces the following output:
 
-**Meet at the shady glen 2/22/2003 12:00:00 AM!**
+```txt
+Meet at the shady glen 2/22/2003 12:00:00 AM!
+From Test: sunny meadow
+Meet at the sunny meadow 2/22/2003 12:00:00 AM!
+```
 
-**From Test: sunny meadow**
-
-**Meet at the sunny meadow 2/22/2003 12:00:00 AM!**
-
-## Related Rules
+## Related rules
 
 [CA2116: APTCA methods should only call APTCA methods](../code-quality/ca2116-aptca-methods-should-only-call-aptca-methods.md)
 

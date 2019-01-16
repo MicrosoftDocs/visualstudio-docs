@@ -1,9 +1,6 @@
 ---
 title: "STEPKIND | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "STEPKIND"
@@ -23,20 +20,20 @@ Specifies the step kind for stepping.
   
 ```cpp  
 enum enum_STEPKIND {   
-   STEP_INTO      = 0,  
-   STEP_OVER      = 1,  
-   STEP_OUT       = 2,  
-   STEP_BACKWARDS = 3  
+   STEP_INTO      = 0,  
+   STEP_OVER      = 1,  
+   STEP_OUT       = 2,  
+   STEP_BACKWARDS = 3  
 };  
 typedef DWORD STEPKIND;  
 ```  
   
 ```csharp  
 public enum enum_STEPKIND {   
-   STEP_INTO      = 0,  
-   STEP_OVER      = 1,  
-   STEP_OUT       = 2,  
-   STEP_BACKWARDS = 3  
+   STEP_INTO      = 0,  
+   STEP_OVER      = 1,  
+   STEP_OUT       = 2,  
+   STEP_BACKWARDS = 3  
 };  
 ```  
   

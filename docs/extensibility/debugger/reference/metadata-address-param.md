@@ -1,9 +1,6 @@
 ---
 title: "METADATA_ADDRESS_PARAM | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "METADATA_ADDRESS_PARAM"
@@ -23,17 +20,17 @@ This structure represents a parameter of a method or function.
   
 ```cpp  
 typedef struct _tagMETADATA_ADDRESS_PARAM {  
-   _mdToken tokMethod;  
-   _mdToken tokParam;  
-   DWORD    dwIndex;  
+   _mdToken tokMethod;  
+   _mdToken tokParam;  
+   DWORD    dwIndex;  
 } METADATA_ADDRESS_PARAM;  
 ```  
   
 ```csharp  
 public struct METADATA_ADDRESS_PARAM {  
-   public int  tokMethod;  
-   public int  tokParam;  
-   public uint dwIndex;  
+   public int  tokMethod;  
+   public int  tokParam;  
+   public uint dwIndex;  
 }  
 ```  
   

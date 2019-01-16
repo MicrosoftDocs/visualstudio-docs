@@ -2,7 +2,6 @@
 title: "How to: Display URLs as Links in the Editor"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:
   - "URLs, opening"
@@ -25,12 +24,7 @@ You can choose to have the Code Editor treat Uniform Resource Locators (URLs) in
 
 -   Attempt to open the website indicated when you **Ctrl**+**click** on the link. By default, the website is displayed in the internal web browser.
 
-> [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).
-
-## Procedure
-
-### To display URLs as links
+## Display URLs as links
 
 1.  On the **Tools** menu, click **Options**.
 

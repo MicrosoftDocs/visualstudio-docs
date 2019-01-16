@@ -1,9 +1,6 @@
 ---
 title: "Anatomy of a VSIX Package | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "visual studio extension"
@@ -25,7 +22,7 @@ A VSIX package is a *.vsix* file that contains one or more Visual Studio extensi
 >  The names of the files included in VSIX packages must not include spaces, nor characters that are reserved in Uniform Resource Identifiers (URI), as defined under [\[RFC2396\]](http://go.microsoft.com/fwlink/?LinkId=90339).  
   
 ## The VSIX manifest  
- The VSIX manifest contains information about the extension to be installed, and follows the VSX Schema. For more information, see [VSIX extension schema 1.0 reference](http://msdn.microsoft.com/en-us/76e410ec-b1fb-4652-ac98-4a4c52e09a2b). For an example VSIX manifest, see [PackageManifest element (root element, VSX schema)](http://msdn.microsoft.com/en-us/f8ae42ba-775a-4d2b-976a-f556e147f187).  
+ The VSIX manifest contains information about the extension to be installed, and follows the VSX Schema. For more information, see [VSIX extension schema 1.0 reference](https://msdn.microsoft.com/library/76e410ec-b1fb-4652-ac98-4a4c52e09a2b). For an example VSIX manifest, see [PackageManifest element (root element, VSX schema)](https://msdn.microsoft.com/library/f8ae42ba-775a-4d2b-976a-f556e147f187).  
   
  The VSIX manifest must be named `extension.vsixmanifest` when it is included in a ^.vsix* file.  
   
@@ -40,7 +37,7 @@ A VSIX package is a *.vsix* file that contains one or more Visual Studio extensi
   
  If a user tries to install an extension that has dependencies, the installer verifies that the required assemblies are installed on the user system. If the required assemblies are not found, **Extensions and Updates** displays a list of the missing assemblies.  
   
- If the extension manifest includes one or more [Reference](http://msdn.microsoft.com/en-us/32c52934-e81e-4b53-8cb6-4df45ef7bfa8) elements, **Extensions and Updates** compares the manifest of each reference to the extensions that are installed on the system, and installs the referenced extension if it is not already installed. If an earlier version of a referenced extension is installed, the newer version replaces it.  
+ If the extension manifest includes one or more [Reference](/previous-versions/visualstudio/visual-studio-2010/dd393687(v=vs.100)) elements, **Extensions and Updates** compares the manifest of each reference to the extensions that are installed on the system, and installs the referenced extension if it is not already installed. If an earlier version of a referenced extension is installed, the newer version replaces it.  
   
  If a project in a multi-project solution includes a reference to another project in the same solution, the VSIX package includes the dependencies of that project. You can override this behavior by clicking the reference for the internal project, and then, in the **Properties** window, setting the **Output Groups Included in VSIX** property to `BuiltProjectOutputGroup`.  
   
@@ -49,7 +46,7 @@ A VSIX package is a *.vsix* file that contains one or more Visual Studio extensi
 ## Installation location  
  During installation, **Extensions and Updates** looks for the contents of the VSIX package in a folder under *%LocalAppData%\Microsoft\VisualStudio\14.0\Extensions*.  
   
- By default, the installation applies only to the current user, because *%LocalAppData%* is a user-specific directory. However, if you set the [AllUsers](http://msdn.microsoft.com/en-us/ac817f50-3276-4ddb-b467-8bbb1432455b) element of the manifest to `True`, the extension will be installed under *..\\*VisualStudioInstallationFolder*\Common7\IDE\Extensions* and will be available to all users of the computer.  
+ By default, the installation applies only to the current user, because *%LocalAppData%* is a user-specific directory. However, if you set the [AllUsers](https://msdn.microsoft.com/library/ac817f50-3276-4ddb-b467-8bbb1432455b) element of the manifest to `True`, the extension will be installed under <em>..\\</em>VisualStudioInstallationFolder<em>\Common7\IDE\Extensions</em> and will be available to all users of the computer.  
   
 ## [Content_Types].xml  
  The *[Content_Types].xml* file identifies the file types in the expanded *.vsix* file. Visual Studio uses this file during installation of the package but does not install the file itself. For more information about this file, see [The structure of the [Content_types].xml file](the-structure-of-the-content-types-dot-xml-file.md).  

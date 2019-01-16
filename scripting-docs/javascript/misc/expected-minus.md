@@ -1,5 +1,5 @@
 ---
-title: "Expected &#39;-&#39; | Microsoft Docs"
+title: "Expected '-' | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
 ms.prod: "windows-client-threshold"
@@ -21,7 +21,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 ---
-# Expected &#39;-&#39;
+# Expected '-'
 You attempted to create a regular expression literal, but did not include one of the slashes (/). Just as string literals are written as characters within a pair of quotation marks, regular expression literals are expressed as characters within a pair of slash (/) characters.  
   
 ### To correct this error  
@@ -30,4 +30,4 @@ You attempted to create a regular expression literal, but did not include one of
   
 ## See Also  
  [Regular Expression Object](../../javascript/reference/regular-expression-object-javascript.md)   
- [Regular Expression Syntax (JavaScript)](http://msdn.microsoft.com/en-us/ab0766e1-7037-45ed-aa23-706f58358c0e)
+ [Regular Expression Syntax (JavaScript)](https://msdn.microsoft.com/library/1400241x)

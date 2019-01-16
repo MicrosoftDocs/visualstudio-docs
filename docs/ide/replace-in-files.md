@@ -1,8 +1,7 @@
 ---
-title: Visual Studio find and replace in files
+title: Find and replace in files
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 f1_keywords:
   - "vs.findreplace.replaceinfiles"
@@ -30,11 +29,11 @@ You can use any of the following methods to display **Replace in Files** in the 
 
 1. On the **Edit** menu, expand **Find and Replace**.
 
-1. Choose **Replace in Files**.
+2. Choose **Replace in Files**.
 
    — or —
 
-  If the **Find and Replace** window is already open, on the toolbar, choose **Replace in Files**.
+   If the **Find and Replace** window is already open, on the toolbar, choose **Replace in Files**.
 
 ## Find what
 

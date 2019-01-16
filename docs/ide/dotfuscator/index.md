@@ -3,7 +3,6 @@ title: Dotfuscator Community Edition (CE)
 ms.date: 10/10/2017
 ms.devlang: "dotnet"
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 keywords: Dotfuscator, Dotfuscator CE, PreEmptive, PreEmptive Solutions, PreEmptive Protection, protection, community edition, obfuscation, .NET, free, Visual Studio 2017
 helpviewer_keywords:
@@ -43,7 +42,7 @@ For more information on how Dotfuscator fits into a secure software development 
 
 ## About Dotfuscator CE
 
-Your copy of Microsoft Visual Studio 2017 includes a copy of ***PreEmptive Protection - Dotfuscator* Community Edition**, also known as Dotfuscator CE, free for personal use.
+Your copy of Microsoft Visual Studio 2017 includes a copy of **_PreEmptive Protection - Dotfuscator_ Community Edition**, also known as Dotfuscator CE, free for personal use.
 For instructions on how to install the version of Dotfuscator CE included with Visual Studio 2017, see the [Installation page][install].
 
 Dotfuscator CE offers a range of [software protection and hardening][software-protection] services for developers, architects, and testers.
@@ -79,7 +78,7 @@ See [the full Dotfuscator CE User Guide at preemptive.com][full] for detailed us
 
 <!-- Copyright © 2017 PreEmptive Solutions, LLC -->
 
-[assemblies]:  https://docs.microsoft.com/en-us/dotnet/standard/assembly-format
+[assemblies]:  https://docs.microsoft.com/dotnet/standard/assembly-format
 [software-protection]:  https://www.preemptive.com/software-protection
 [obfuscation]:  https://www.preemptive.com/obfuscation
 [app-protection]:  https://www.preemptive.com/application-protection

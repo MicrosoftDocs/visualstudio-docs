@@ -8,7 +8,6 @@ manager: douge
 ms.workload:
   - "multiple"
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Defining Shapes and Connectors
 There are several basic types of shapes that you can used to display information on a diagram in a domain-specific language (DSL).
@@ -16,20 +15,20 @@ There are several basic types of shapes that you can used to display information
 ##  <a name="shapeTypes"></a> Basic Types of Shapes and Connectors
  A DSL diagram shows a collection of *shapes* interlinked by lines or *connectors*.  Typically, but not always:
 
--   Shapes are the visible representation of model elements.
+- Shapes are the visible representation of model elements.
 
--   Connectors represent reference relationships.
+- Connectors represent reference relationships.
 
--   The diagram represents the model root instance.
+- The diagram represents the model root instance.
 
--   Embedding relationships between model elements are shown by containment. For example, elements representing component ports are embedded in the component.
+- Embedding relationships between model elements are shown by containment. For example, elements representing component ports are embedded in the component.
 
- These patterns are not enforced, but are more strongly supported. When you design a DSL, bear in mind that the design of the embedding relationships should be influenced by how you want to present the model on the screen. By contrast, the reference relationships should reflect the concepts of your business domain.
+  These patterns are not enforced, but are more strongly supported. When you design a DSL, bear in mind that the design of the embedding relationships should be influenced by how you want to present the model on the screen. By contrast, the reference relationships should reflect the concepts of your business domain.
 
- The following types of shapes are available:
+  The following types of shapes are available:
 
 |Shape type|Description|
-|----------------|-----------------|
+|-|-|
 |Geometry shape|General purpose rectangular or elliptical shape. You can display text and icon decorators in specific positions relative to the bounds of the shape.<br /><br /> To nest shapes inside geometry shapes, see [Nesting Shapes](../modeling/nesting-shapes.md).|
 |Compartment shape|Rectangle containing a header and compartments, like a UML class. Each compartment can contain a list of text rows.<br /><br /> The rows typically represent elements embedded under the element represented by the shape. For an example, create a DSL from the Class Diagrams solution template.|
 |Image shape|Shape that displays an image.|

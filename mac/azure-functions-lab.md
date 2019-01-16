@@ -1,8 +1,8 @@
 ---
 title: "Tutorial: Azure Functions"
 description: "Using Azure functions in Visual Studio for Mac."
-author: asb3993
-ms.author: amburns
+author: conceptdev
+ms.author: crdun
 ms.date: 05/06/2018
 ms.topic: article
 ms.technology: vs-ide-install
@@ -29,22 +29,22 @@ In this lab, you'll learn how to get started building Azure Functions using Visu
 
 1. Launch **Visual Studio for Mac**.
 
-1. Select **File > New Solution**.
+2. Select **File > New Solution**.
 
-1. From the **Cloud > General** category, select the **Azure Functions** template. You will use C# to create a .NET class library that hosts Azure Functions. Click **Next**.
+3. From the **Cloud > General** category, select the **Azure Functions** template. You will use C# to create a .NET class library that hosts Azure Functions. Click **Next**.
 
     ![azure functions template selection](media/azure-functions-lab-image1.png)
 
-1. Set the **Project Name** to **"AzureFunctionsLab"** and click **Create**.
+4. Set the **Project Name** to **"AzureFunctionsLab"** and click **Create**.
 
     ![naming and creating your azure function project](media/azure-functions-lab-image2.png)
 
-1. Expand the nodes in **Solution Pad**. The default project template includes NuGet references to a variety of Azure WebJobs packages, as well as the Newtonsoft.Json package. 
+5. Expand the nodes in **Solution Pad**. The default project template includes NuGet references to a variety of Azure WebJobs packages, as well as the Newtonsoft.Json package.
 
-     There are also three files:  
-        - **host.json** for describing the global configuration options for the host  
-        - **local.settings.json** for configuring service settings.  
-        - The project template also creates a default HttpTrigger. For the sake of this lab, you should delete the **HttpTrigger.cs** file from the project.  
+     There are also three files:
+        - **host.json** for describing the global configuration options for the host
+        - **local.settings.json** for configuring service settings.
+        - The project template also creates a default HttpTrigger. For the sake of this lab, you should delete the **HttpTrigger.cs** file from the project.
 
     Open **local.settings.json**. It defaults to having two empty connection string settings.
 
@@ -53,7 +53,7 @@ In this lab, you'll learn how to get started building Azure Functions using Visu
 ## Exercise 2: Creating an Azure storage account
 
 1. Log on to your Azure account at [https://portal.azure.com](https://portal.azure.com).
- 
+
 1. Under the **Favorites** section, located on the left of the screen, select **Storage Accounts**:
 
     ![favorites section of Azure portal showing storage accounts item](media/azure-functions-lab-image4.png)
@@ -86,7 +86,7 @@ In this lab, you'll learn how to get started building Azure Functions using Visu
 
 ## Example 3: Creating and debugging an Azure Function
 
-1. You're now ready to start adding some code. When working with a .NET class library, Azure Functions are added as static methods. From **Solution Pad**, right-click the **AzureFunctions** project node and select **Add > Add Function…**:
+1. You're now ready to start adding some code. When working with a .NET class library, Azure Functions are added as static methods. From **Solution Pad**, right-click the **AzureFunctions** project node and select **Add > Add Function**:
 
     ![Add function option](media/azure-functions-lab-image11.png)
 
@@ -116,8 +116,8 @@ In this lab, you'll learn how to get started building Azure Functions using Visu
         return x + y;
     }
     ```
-1. Let's walk through the method definition piece by piece. 
-    
+1. Let's walk through the method definition piece by piece.
+
     The first thing you'll see is the **FunctionName** attribute that marks this method as an Azure Function. The attribute designates the public name of the function. The attribute name doesn't need to match the actual method name.
 
     ![New run method with FunctionName attribute highlighted](media/azure-functions-lab-image13.png)
@@ -152,7 +152,7 @@ In this lab, you'll learn how to get started building Azure Functions using Visu
 
     ![Azure Function API URL](media/azure-functions-lab-image20.png)
 
-1. The breakpoint should trigger immediately. The web request has been routed to the function and can now be debugged. Mouse over the **x** variable to see its value. 
+1. The breakpoint should trigger immediately. The web request has been routed to the function and can now be debugged. Mouse over the **x** variable to see its value.
 
     ![Breakpoint triggered](media/azure-functions-lab-image21.png)
 
@@ -301,7 +301,7 @@ In this lab, you'll learn how to get started building Azure Functions using Visu
 
 ## Exercise 5: Working with Azure storage tables
 
-Often, the service you build might be much more complex than what we have built so far and require a significant amount of time and/or infrastructure to execute. In that case, you might find it effective to accept requests that are queued for processing when the resources become available, which Azure Functions provides support for. In other cases, you’ll want to store data centrally. Azure Storage tables let you do that quickly. 
+Often, the service you build might be much more complex than what we have built so far and require a significant amount of time and/or infrastructure to execute. In that case, you might find it effective to accept requests that are queued for processing when the resources become available, which Azure Functions provides support for. In other cases, you’ll want to store data centrally. Azure Storage tables let you do that quickly.
 
 1. Add the class below to **Add.cs**. It should go inside the namespace, but outside the existing class.
 
@@ -327,7 +327,7 @@ Often, the service you build might be much more complex than what we have built 
         TraceWriter log)
     {
         log.Info($"Processing {x} + {y}");
-    
+
         return new TableRow()
         {
             PartitionKey = "sums",
@@ -348,7 +348,7 @@ Often, the service you build might be much more complex than what we have built 
 
 1. Return to the browser to refresh the request to the same URL. This time you'll see an error after the **Process** method. This is because the code is attempting to add a row to the Azure Table Storage table using a partition and row key combination that already exists.
 
-    ``` 
+    ```
     System.Private.CoreLib: Exception while executing function: Process. Microsoft.Azure.WebJobs.Host: Error while handling parameter $return after function returned:. Microsoft.Azure.WebJobs.Host: The specified entity already exists.
     ```
 
@@ -382,7 +382,7 @@ Often, the service you build might be much more complex than what we have built 
 1. Return to **Visual Studio for Mac** and end the debugging session.
 
 <!--
-1. Finally, let's take a look at what it's like to work with multiple input records. Rather than specify a specific **TableRow**, you can request an **IQueryable<TableRow>** using the same attributes, and the runtime will fill it with the appropriate resource you need. Add the code below to create a **List** function that lists all items that currently exist in the Azure table we've been working with. Also note that we're specifying that the MIME type of the response is **application/json**, so the runtime will automatically render as JSON. 
+1. Finally, let's take a look at what it's like to work with multiple input records. Rather than specify a specific **TableRow**, you can request an **IQueryable<TableRow>** using the same attributes, and the runtime will fill it with the appropriate resource you need. Add the code below to create a **List** function that lists all items that currently exist in the Azure table we've been working with. Also note that we're specifying that the MIME type of the response is **application/json**, so the runtime will automatically render as JSON.
 
     ```csharp
     [FunctionName("List")]

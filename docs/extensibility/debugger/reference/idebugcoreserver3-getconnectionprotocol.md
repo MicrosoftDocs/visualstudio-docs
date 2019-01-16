@@ -1,9 +1,6 @@
 ---
 title: "IDebugCoreServer3::GetConnectionProtocol | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugCoreServer3::GetConnectionProtocol"
@@ -23,13 +20,13 @@ Returns a value indicating the protocol that is being used to communicate betwee
   
 ```cpp  
 HRESULT GetConnectionProtocol(  
-   CONNECTION_PROTOCOL* pProtocol  
+   CONNECTION_PROTOCOL* pProtocol  
 );  
 ```  
   
 ```csharp  
 int GetConnectionProtocol(  
-   CONNECTION_PROTOCOL[] pProtocol  
+   CONNECTION_PROTOCOL[] pProtocol  
 );  
 ```  
   

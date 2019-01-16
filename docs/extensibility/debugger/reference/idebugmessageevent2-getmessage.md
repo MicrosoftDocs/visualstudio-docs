@@ -1,9 +1,6 @@
 ---
 title: "IDebugMessageEvent2::GetMessage | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugMessageEvent2::GetMessage"
@@ -24,21 +21,21 @@ Gets the message to be displayed.
   
 ```cpp  
 HRESULT GetMessage(   
-   MESSAGETYPE* pMessageType,  
-   BSTR*        pbstrMessage,  
-   DWORD*       pdwType,  
-   BSTR*        pbstrHelpFileName,  
-   DWORD*       pdwHelpId  
+   MESSAGETYPE* pMessageType,  
+   BSTR*        pbstrMessage,  
+   DWORD*       pdwType,  
+   BSTR*        pbstrHelpFileName,  
+   DWORD*       pdwHelpId  
 );  
 ```  
   
 ```csharp  
 int GetMessage(   
-   out enum_MESSAGETYPE pMessageType,  
-   out string           pbstrMessage,  
-   out uint             pdwType,  
-   out string           pbstrHelpFileName,  
-   out uint             dwHelpId  
+   out enum_MESSAGETYPE pMessageType,  
+   out string           pbstrMessage,  
+   out uint             pdwType,  
+   out string           pbstrHelpFileName,  
+   out uint             dwHelpId  
 );  
 ```  
   

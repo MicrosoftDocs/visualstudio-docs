@@ -1,8 +1,6 @@
 ---
 title: "IDiaSymbol::get_timeStamp | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves the timestamp of the underlying executable file.
   
 ```C++  
 HRESULT get_timeStamp (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

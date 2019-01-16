@@ -1,9 +1,6 @@
 ---
 title: "CONST_GUID_ARRAY | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "CONST_GUID_ARRAY"
@@ -23,15 +20,15 @@ A structure that holds a list of `GUID`s.
   
 ```cpp  
 typedef struct tagCONST_GUID_ARRAY {  
-   DWORD       dwCount;  
-   CONST GUID* Members;  
+   DWORD       dwCount;  
+   CONST GUID* Members;  
 } CONST_GUID_ARRAY;  
 ```  
   
 ```csharp  
 public struct CONST_GUID_ARRAY {  
-   public uint   dwCount;  
-   public Guid[] Members;  
+   public uint   dwCount;  
+   public Guid[] Members;  
 }  
 ```  
   

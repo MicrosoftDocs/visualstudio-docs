@@ -3,7 +3,6 @@ title: "Workflow Designer - InitializeCorrelation Activity Designer"
 ms.date: 11/04/2016
 ms.topic: reference
 ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 f1_keywords:
   - "System.ServiceModel.Activities.InitializeCorrelation.UI"
 ms.assetid: 4c54f34c-ee84-42a6-abb0-ec260c1ccb76
@@ -36,7 +35,7 @@ To display the **Initialize Correlation** dialog box where you can specify the c
 The following table shows the <xref:System.ServiceModel.Activities.InitializeCorrelation> properties and describes how they're used in the designer. These properties can be edited in **Properties** window or on Workflow Designer surface.
 
 |Property Name|Required|Usage|
-|-------------------|--------------|-----------|
+|-|--------------|-|
 |<xref:System.Activities.Activity.DisplayName%2A>|False|The friendly name of the <xref:System.ServiceModel.Activities.InitializeCorrelation> activity. The default value is InitializeCorrelation.<br /><br /> Although the use of a non-default value for the friendly <xref:System.Activities.Activity.DisplayName%2A> isn't strictly required, it is recommended.|
 |<xref:System.ServiceModel.Activities.InitializeCorrelation.Correlation%2A>|False|The <xref:System.ServiceModel.Activities.CorrelationHandle> used to associate workflow activities in the correlation.|
 |<xref:System.ServiceModel.Activities.InitializeCorrelation.CorrelationData%2A>|False|A dictionary of correlation data that relates messages to the workflow instance.<br /><br /> Use the **Initialize Correlation** dialog box to configure the <xref:System.ServiceModel.Activities.InitializeCorrelation.CorrelationData%2A>. For more information about the use this dialog box, see the [Type Collection Editor Dialog Box](../workflow-designer/type-collection-editor-dialog-box.md) article.|

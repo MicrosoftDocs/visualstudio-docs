@@ -1,9 +1,6 @@
 ---
 title: "IDebugGenericParamField::GetOwner | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugGenericParamField::GetOwner"
@@ -21,13 +18,13 @@ Retrieves the type or method owner of this generic parameter.
   
 ```cpp  
 HRESULT GetOwner(  
-   IDebugField** ppOwner  
+   IDebugField** ppOwner  
 );  
 ```  
   
 ```csharp  
 int GetOwner(  
-   out IDebugField ppOwner  
+   out IDebugField ppOwner  
 );  
 ```  
   

@@ -1,8 +1,6 @@
 ---
 title: "IDiaFrameData::get_lengthBlock | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves the length, in bytes, of the block of code described by the frame.
   
 ```C++  
 HRESULT get_lengthBlock (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

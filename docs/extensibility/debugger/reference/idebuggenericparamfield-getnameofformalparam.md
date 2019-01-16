@@ -1,9 +1,6 @@
 ---
 title: "IDebugGenericParamField::GetNameOfFormalParam | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugGenericParamField::GetNameOfFormalParam"
@@ -22,13 +19,13 @@ Retrieves the name of this generic parameter.
   
 ```cpp  
 HRESULT GetNameOfFormalParam (  
-   BSTR* pbstrName  
+   BSTR* pbstrName  
 );  
 ```  
   
 ```csharp  
 int GetNameOfFormalParam (  
-   string pbstrName  
+   string pbstrName  
 );  
 ```  
   

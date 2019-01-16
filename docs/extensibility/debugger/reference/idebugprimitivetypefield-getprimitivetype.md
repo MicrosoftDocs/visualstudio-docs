@@ -1,9 +1,6 @@
 ---
 title: "IDebugPrimitiveTypeField::GetPrimitiveType | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "GetPrimitiveType"
@@ -22,13 +19,13 @@ Retrieves the primitive type that is associated with this field.
   
 ```cpp  
 HRESULT GetPrimitiveType (  
-   DWORD* pdwType  
+   DWORD* pdwType  
 );  
 ```  
   
 ```csharp  
 int GetPrimitiveType (  
-   out uint pdwType  
+   out uint pdwType  
 );  
 ```  
   

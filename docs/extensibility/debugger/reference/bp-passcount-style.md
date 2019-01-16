@@ -1,9 +1,6 @@
 ---
 title: "BP_PASSCOUNT_STYLE | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "BP_PASSCOUNT_STYLE"
@@ -23,20 +20,20 @@ Specifies the condition associated with the breakpoint pass count that causes th
   
 ```cpp  
 enum enum_BP_PASSCOUNT_STYLE {   
-   BP_PASSCOUNT_NONE             = 0x0000,  
-   BP_PASSCOUNT_EQUAL            = 0x0001,  
-   BP_PASSCOUNT_EQUAL_OR_GREATER = 0x0002,  
-   BP_PASSCOUNT_MOD              = 0x0003  
+   BP_PASSCOUNT_NONE             = 0x0000,  
+   BP_PASSCOUNT_EQUAL            = 0x0001,  
+   BP_PASSCOUNT_EQUAL_OR_GREATER = 0x0002,  
+   BP_PASSCOUNT_MOD              = 0x0003  
 };  
 typedef DWORD BP_PASSCOUNT_STYLE;  
 ```  
   
 ```csharp  
 public enum enum_BP_PASSCOUNT_STYLE {   
-   BP_PASSCOUNT_NONE             = 0x0000,  
-   BP_PASSCOUNT_EQUAL            = 0x0001,  
-   BP_PASSCOUNT_EQUAL_OR_GREATER = 0x0002,  
-   BP_PASSCOUNT_MOD              = 0x0003  
+   BP_PASSCOUNT_NONE             = 0x0000,  
+   BP_PASSCOUNT_EQUAL            = 0x0001,  
+   BP_PASSCOUNT_EQUAL_OR_GREATER = 0x0002,  
+   BP_PASSCOUNT_MOD              = 0x0003  
 };  
 ```  
   

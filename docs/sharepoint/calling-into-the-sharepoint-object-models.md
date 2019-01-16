@@ -1,9 +1,6 @@
 ---
 title: "Calling into the SharePoint Object Models | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -31,11 +28,11 @@ ms.workload:
   
  However, the client object model has two drawbacks in the context of SharePoint tools extensions:  
   
--   The client object model provides only a subset of the server object model. If you have to use SharePoint functionality that is not exposed in the client object model, then you must use the server object model.  
+- The client object model provides only a subset of the server object model. If you have to use SharePoint functionality that is not exposed in the client object model, then you must use the server object model.  
   
--   Although using the client object model in SharePoint tools extensions should work in most cases, you might encounter some scenarios where calls to the client object model do not work as expected. The client object model is designed to be used in client applications to call into SharePoint sites on a remote server or farm. The SharePoint tools in Visual Studio work only with a local SharePoint installation on the development computer. Therefore, when you use the client object model in a SharePoint tools extension, you call into a SharePoint site on the local computer, which is not how the client object model was designed to be used.  
+- Although using the client object model in SharePoint tools extensions should work in most cases, you might encounter some scenarios where calls to the client object model do not work as expected. The client object model is designed to be used in client applications to call into SharePoint sites on a remote server or farm. The SharePoint tools in Visual Studio work only with a local SharePoint installation on the development computer. Therefore, when you use the client object model in a SharePoint tools extension, you call into a SharePoint site on the local computer, which is not how the client object model was designed to be used.  
   
- For a walkthrough that demonstrates how to use the client object model in an extension of the SharePoint tools in Visual Studio, see [Walkthrough: Call into the SharePoint client object model in a Server Explorer extension](../sharepoint/walkthrough-calling-into-the-sharepoint-client-object-model-in-a-server-explorer-extension.md).  
+  For a walkthrough that demonstrates how to use the client object model in an extension of the SharePoint tools in Visual Studio, see [Walkthrough: Call into the SharePoint client object model in a Server Explorer extension](../sharepoint/walkthrough-calling-into-the-sharepoint-client-object-model-in-a-server-explorer-extension.md).  
   
 ## Use the server object model in extension projects
  The server object model is a superset of the client object model. When you use the server object model, you can use all the features that [!INCLUDE[wss_14_long](../sharepoint/includes/wss-14-long-md.md)] and [!INCLUDE[moss_14_long](../sharepoint/includes/moss-14-long-md.md)] expose programmatically.  
@@ -55,4 +52,3 @@ ms.workload:
  [How to: Create a SharePoint command](../sharepoint/how-to-create-a-sharepoint-command.md)   
  [How to: Execute a SharePoint command](../sharepoint/how-to-execute-a-sharepoint-command.md)   
  [Overview of the programming model of SharePoint tools extensions](../sharepoint/overview-of-the-programming-model-of-sharepoint-tools-extensions.md)  
-  

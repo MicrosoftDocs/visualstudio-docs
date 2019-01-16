@@ -1,8 +1,6 @@
 ---
 title: "Debugging WCF Services | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
@@ -32,4 +30,4 @@ ms.workload:
   
 ## See Also  
  [Debugger Security](../debugger/debugger-security.md)   
- [Debugger Feature Tour](../debugger/debugger-feature-tour.md)
+ [First look at the debugger](../debugger/debugger-feature-tour.md)

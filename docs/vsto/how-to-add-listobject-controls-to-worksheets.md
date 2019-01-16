@@ -1,9 +1,6 @@
 ---
 title: "How to: Add ListObject controls to worksheets"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -11,8 +8,8 @@ dev_langs:
 helpviewer_keywords: 
   - "ListObject control, adding to worksheets"
   - "controls [Office development in Visual Studio], adding to worksheets"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -26,13 +23,13 @@ ms.workload:
   
  This topic describes the following tasks:  
   
--   [Add ListObject controls at design time](#designtime)  
+- [Add ListObject controls at design time](#designtime)  
   
--   [Add ListObject controls at runtime in a document-level project](#runtimedoclevel)  
+- [Add ListObject controls at runtime in a document-level project](#runtimedoclevel)  
   
--   [Add ListObject controls at runtime in a VSTO Add-in project](#runtimeaddin)  
+- [Add ListObject controls at runtime in a VSTO Add-in project](#runtimeaddin)  
   
- For more information about <xref:Microsoft.Office.Tools.Excel.ListObject> controls, see [ListObject control](../vsto/listobject-control.md).  
+  For more information about <xref:Microsoft.Office.Tools.Excel.ListObject> controls, see [ListObject control](../vsto/listobject-control.md).  
   
 ##  <a name="designtime"></a> Add ListObject controls at design time  
  There are several ways to add <xref:Microsoft.Office.Tools.Excel.ListObject> controls to a worksheet in a document-level project at design time: From within Excel, from the Visual Studio **Toolbox**, and from the **Data Sources** window.  
@@ -92,5 +89,3 @@ ms.workload:
  [How to: Resize ListObject controls](../vsto/how-to-resize-listobject-controls.md)   
  [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)   
  [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)  
-  
-  

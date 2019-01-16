@@ -1,9 +1,6 @@
 ---
 title: "IPropertyProxyEESide::CreateReplacementObject | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IPropertyProxyEESide::CreateReplacementObject"
@@ -23,15 +20,15 @@ Creates a copy of a data object specific to the expression evaluator (EE).
   
 ```cpp  
 HRESULT CreateReplacementObject(  
-   IEEDataStorage*  dataIn,  
-   IEEDataStorage** dataOut  
+   IEEDataStorage*  dataIn,  
+   IEEDataStorage** dataOut  
 );  
 ```  
   
 ```csharp  
 int CreateReplacementObject(  
-   IEEDataStorage     dataIn,  
-   out IEEDataStorage dataOut  
+   IEEDataStorage     dataIn,  
+   out IEEDataStorage dataOut  
 );  
 ```  
   

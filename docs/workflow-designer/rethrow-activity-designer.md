@@ -3,7 +3,6 @@ title: "Workflow Designer - Rethrow Activity Designer"
 ms.date: 11/04/2016
 ms.topic: reference
 ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 f1_keywords:
   - "System.Activities.Statements.Rethrow.UI"
 ms.assetid: 9cfa2eda-395f-4cf3-9154-83fadd4f7452
@@ -30,7 +29,7 @@ Access the **Rethrow** activity designer in the **Error Handling** category of t
 The following table shows the <xref:System.Activities.Statements.Rethrow> properties, and describes how they're used in the designer:
 
 |Property Name|Required|Usage|
-|-------------------|--------------|-----------|
+|-|--------------|-|
 |<xref:System.Activities.Activity.DisplayName%2A>|False|Specifies the optional friendly name of the <xref:System.Activities.Statements.Rethrow> activity. The default is Rethrow.|
 
 ## See also

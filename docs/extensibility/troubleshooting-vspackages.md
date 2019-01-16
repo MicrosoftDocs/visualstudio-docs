@@ -1,9 +1,6 @@
 ---
 title: "Troubleshooting VSPackages | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "VSPackages, troubleshooting"
@@ -20,36 +17,36 @@ Following are common problems that you might have with your VSPackage and tips t
   
 ### To troubleshoot a VSPackage that keeps Visual Studio from starting  
   
--   Start [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] in safe mode.  
+- Start [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] in safe mode.  
   
-     To start [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] in safe mode, at a command prompt, type **devenv.exe /safemode**.  
+   To start [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] in safe mode, at a command prompt, type **devenv.exe /safemode**.  
   
-     During this process no VSPackages are loaded except the VSPackages that are included with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
+   During this process no VSPackages are loaded except the VSPackages that are included with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 ### To troubleshoot a VSPackage that does not load  
   
-1.  Make sure that you are using the registry root in which the VSPackage is registered to run, usually the experimental registry root.  
+1. Make sure that you are using the registry root in which the VSPackage is registered to run, usually the experimental registry root.  
   
-     For more information, see [The Experimental Instance](../extensibility/the-experimental-instance.md).  
+    For more information, see [The Experimental Instance](../extensibility/the-experimental-instance.md).  
   
-2.  If the VSPackage is targeted to run in the experimental registry root, make sure that you are running the experimental version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
+2. If the VSPackage is targeted to run in the experimental registry root, make sure that you are running the experimental version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
-     To run the experimental version, type the following in a command window: **devenv /rootsuffix exp**.  
+    To run the experimental version, type the following in a command window: **devenv /rootsuffix exp**.  
   
-3.  Check your VSPackage registry entries.  
+3. Check your VSPackage registry entries.  
   
-     For more information, see [Registering VSPackages](http://msdn.microsoft.com/en-us/31e6050f-1457-4849-944a-a3c36b76f3dd) and [Managing VSPackages](../extensibility/managing-vspackages.md).  
+    For more information, see [Registering VSPackages](registering-and-unregistering-vspackages.md) and [Managing VSPackages](../extensibility/managing-vspackages.md).  
   
-4.  Open the **Output** window of the instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] that is failing to load the VSPackage. Information about why the VSPackage is failing to load may be displayed in that window.  
+4. Open the **Output** window of the instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] that is failing to load the VSPackage. Information about why the VSPackage is failing to load may be displayed in that window.  
   
-    > [!NOTE]
-    >  If you are starting the experimental version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] from the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE), inspect the **Output** window of both versions.  
+   > [!NOTE]
+   >  If you are starting the experimental version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] from the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE), inspect the **Output** window of both versions.  
   
-5.  Examine the activity log.  
+5. Examine the activity log.  
   
-     For more information, see [How to: Use the Activity Log](../extensibility/how-to-use-the-activity-log.md).  
+    For more information, see [How to: Use the Activity Log](../extensibility/how-to-use-the-activity-log.md).  
   
-6.  For more information about exceptions thrown by the IDE, click **Exceptions** on the **Debug** menu to enable the exceptions. In the **Exceptions** dialog box select the types of exceptions about which you want more information.  
+6. For more information about exceptions thrown by the IDE, click **Exceptions** on the **Debug** menu to enable the exceptions. In the **Exceptions** dialog box select the types of exceptions about which you want more information.  
   
 ### To troubleshoot a VSPackage that does not register  
   
@@ -57,15 +54,15 @@ Following are common problems that you might have with your VSPackage and tips t
   
 ### To troubleshoot a command that is not visible or that generates an error when you click a command  
   
-1.  Merge the new or changed menu commands and those already in the IDE by typing the following at the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Command Prompt: **devenv /rootsuffix Exp /setup**.  
+1. Merge the new or changed menu commands and those already in the IDE by typing the following at the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Command Prompt: **devenv /rootsuffix Exp /setup**.  
   
-2.  Make sure that [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] can find UI.dll for your VSPackage.  
+2. Make sure that [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] can find UI.dll for your VSPackage.  
   
-    1.  Find the CLSID of the VSPackage in the Packages section of the registry:  
+   1.  Find the CLSID of the VSPackage in the Packages section of the registry:  
   
-         HKLM\Software\Microsoft\Visual Studio\\*\<version>*\Packages  
+        HKLM\Software\Microsoft\Visual Studio\\*\<version>*\Packages  
   
-    2.  Verify that the path given by the SatelliteDll subkey is correct.  
+   2.  Verify that the path given by the SatelliteDll subkey is correct.  
   
 ### To troubleshoot a VSPackage that behaves unexpectedly  
   
@@ -106,19 +103,19 @@ Following are common problems that you might have with your VSPackage and tips t
   
 ### To troubleshoot a missing VSPackage or one of its dependencies  
   
-1.  For managed code, make sure that the reference paths are correct.  
+1. For managed code, make sure that the reference paths are correct.  
   
-    1.  On the **Project** menu, click **Properties**.  
+   1.  On the **Project** menu, click **Properties**.  
   
-    2.  Select the **References** tab in the **Property Pages** dialog box and make sure all paths are correct. Alternatively, you can use the **Object Browser** to browse for the referenced objects.  
+   2.  Select the **References** tab in the **Property Pages** dialog box and make sure all paths are correct. Alternatively, you can use the **Object Browser** to browse for the referenced objects.  
   
-         For managed code, you can use the [Fuslogvw.exe (Assembly Binding Log Viewer)](/dotnet/framework/tools/fuslogvw-exe-assembly-binding-log-viewer) to display the details of failed assembly loads.  
+        For managed code, you can use the [Fuslogvw.exe (Assembly Binding Log Viewer)](/dotnet/framework/tools/fuslogvw-exe-assembly-binding-log-viewer) to display the details of failed assembly loads.  
   
-2.  For unmanaged code, find the CLSID of the VSPackage in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] CLSID registry node:  
+2. For unmanaged code, find the CLSID of the VSPackage in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] CLSID registry node:  
   
-     HKLM\Software\Microsoft\Visual Studio\\*\<version>*\CLSID  
+    HKLM\Software\Microsoft\Visual Studio\\*\<version>*\CLSID  
   
- Make sure that the InprocServer32 entry has the correct path of the VSPackage dll.  
+   Make sure that the InprocServer32 entry has the correct path of the VSPackage dll.  
   
 ## See Also  
  [VSPackages](../extensibility/internals/vspackages.md)

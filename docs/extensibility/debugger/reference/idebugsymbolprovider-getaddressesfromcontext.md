@@ -1,9 +1,6 @@
 ---
 title: "IDebugSymbolProvider::GetAddressesFromContext | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugSymbolProvider::GetAddressesFromContext"
@@ -23,19 +20,19 @@ This method maps a document context into an array of debug addresses.
   
 ```cpp  
 HRESULT GetAddressesFromContext(   
-   IDebugDocumentContext2* pDocContext,  
-   BOOL                    fStatmentOnly,  
-   IEnumDebugAddresses**   ppEnumBegAddresses,  
-   IEnumDebugAddresses**   ppEnumEndAddresses  
+   IDebugDocumentContext2* pDocContext,  
+   BOOL                    fStatmentOnly,  
+   IEnumDebugAddresses**   ppEnumBegAddresses,  
+   IEnumDebugAddresses**   ppEnumEndAddresses  
 );  
 ```  
   
 ```csharp  
 int GetAddressesFromContext(  
-   IDebugDocumentContext2  pDocContext,  
-   bool                    fStatmentOnly,  
-   out IEnumDebugAddresses ppEnumBegAddresses,  
-   out IEnumDebugAddresses ppEnumEndAddresses  
+   IDebugDocumentContext2  pDocContext,  
+   bool                    fStatmentOnly,  
+   out IEnumDebugAddresses ppEnumBegAddresses,  
+   out IEnumDebugAddresses ppEnumEndAddresses  
 );  
 ```  
   

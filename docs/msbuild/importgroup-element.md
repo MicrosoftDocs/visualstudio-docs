@@ -1,8 +1,6 @@
 ---
 title: "ImportGroup Element | Microsoft Docs"
-ms.custom: ""
 ms.date: "03/13/2017"
-ms.technology: msbuild
 ms.topic: "reference"
 dev_langs: 
   - "VB"
@@ -51,9 +49,9 @@ Contains a collection of `Import` elements that are grouped under an optional co
 
 ### Parent elements  
 
-|Element|Description|  
-|-------------|-----------------|  
-|[Project](../msbuild/project-element-msbuild.md)|Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file.|  
+| Element | Description |
+| - | - |
+| [Project](../msbuild/project-element-msbuild.md) | Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file. |
 
 ## Example  
  The following code example shows the `ImportGroup` element.  
@@ -61,8 +59,8 @@ Contains a collection of `Import` elements that are grouped under an optional co
 ```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
     <ImportGroup>  
-        <Import Project="$(Targets1.targets) />  
-        <Import Project="$(Targets2.targets) />  
+        <Import Project="$(Targets1.targets)" />  
+        <Import Project="$(Targets2.targets)" />  
     </ImportGroup>  
 ...  
 </Project>  

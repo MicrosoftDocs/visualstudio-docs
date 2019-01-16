@@ -1,9 +1,6 @@
 ---
 title: "UX Essentials for Visual Studio | Microsoft Docs"
-ms.custom: ""
 ms.date: "04/26/2017"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 ms.assetid: a793cf7a-f230-43ce-88d0-fa5d6f1aa9c7
 author: "gregvanl"
@@ -144,13 +141,13 @@ Forcing the user to read explanatory text before dismissing UI is an anti-patter
 ### Hyperlink anti-patterns  
  The following example contains two anti-patterns.  
   
-1.  The foreground turning red on hover means that the correct shared color from the font service is not being used.  
+1. The foreground turning red on hover means that the correct shared color from the font service is not being used.  
   
-2.  "Learn more" is not the appropriate text for a link to a conceptual topic. The user's goal is not to learn more, it is to understand the ramifications of their choice.  
+2. "Learn more" is not the appropriate text for a link to a conceptual topic. The user's goal is not to learn more, it is to understand the ramifications of their choice.  
   
- ![Ignoring the color service and using "Learn more" for hyperlinks are Visual Studio anti-patterns.](../../extensibility/ux-guidelines/media/0102-j_hyperlinkincorrect.png "0102-j_HyperlinkIncorrect")<br />Ignoring the color service and using "Learn more" for hyperlinks are Visual Studio anti-patterns.  
+   ![Ignoring the color service and using "Learn more" for hyperlinks are Visual Studio anti-patterns.](../../extensibility/ux-guidelines/media/0102-j_hyperlinkincorrect.png "0102-j_HyperlinkIncorrect")<br />Ignoring the color service and using "Learn more" for hyperlinks are Visual Studio anti-patterns.  
   
- **Better solution:** Pose the question the user would be asking by clicking the link.  
+   **Better solution:** Pose the question the user would be asking by clicking the link.  
   
 -   How do Windows Azure services work?  
   

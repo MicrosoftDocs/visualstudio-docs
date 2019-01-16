@@ -1,9 +1,6 @@
 ---
 title: "IDebugStackFrame2::GetThread | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugStackFrame2::GetThread"
@@ -23,13 +20,13 @@ Gets the thread associated with a stack frame.
   
 ```cpp  
 HRESULT GetThread (   
-   IDebugThread2** ppThread  
+   IDebugThread2** ppThread  
 );  
 ```  
   
 ```csharp  
 int GetThread (   
-   out IDebugThread2 ppThread  
+   out IDebugThread2 ppThread  
 );  
 ```  
   

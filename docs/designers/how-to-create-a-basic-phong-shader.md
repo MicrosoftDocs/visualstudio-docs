@@ -2,7 +2,6 @@
 title: "How to: Create a Basic Phong Shader"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-designers
 ms.topic: conceptual
 ms.assetid: c7c69da8-142b-4d3b-9be9-4be0d5970b25
 author: gewarren
@@ -23,19 +22,19 @@ For more information about the Lambert lighting model, see [How to: Create a bas
 
 Before you begin, make sure that the **Properties** window and the **Toolbox** are displayed.
 
-1.  Create a Lambert shader, as described in [How to: Create a basic Lambert shader](../designers/how-to-create-a-basic-lambert-shader.md).
+1. Create a Lambert shader, as described in [How to: Create a basic Lambert shader](../designers/how-to-create-a-basic-lambert-shader.md).
 
-2.  Disconnect the **Lambert** node from the **Final Color** node. Choose the **RGB** terminal of the **Lambert** node, and then choose **Break Links**. This makes room for the node that's added in the next step.
+2. Disconnect the **Lambert** node from the **Final Color** node. Choose the **RGB** terminal of the **Lambert** node, and then choose **Break Links**. This makes room for the node that's added in the next step.
 
-3.  Add an **Add** node to the graph. In the **Toolbox**, under **Math**, select **Add** and move it to the design surface.
+3. Add an **Add** node to the graph. In the **Toolbox**, under **Math**, select **Add** and move it to the design surface.
 
-4.  Add a **Specular** node to the graph. In the **Toolbox**, under **Utility**, select **Specular** and move it to the design surface.
+4. Add a **Specular** node to the graph. In the **Toolbox**, under **Utility**, select **Specular** and move it to the design surface.
 
-5.  Add the specular contribution. Move the **Output** terminal of the **Specular** node to the **X** terminal of the **Add** node, and then move the **Output** terminal of the **Lambert** node to the **Y** terminal of the **Add** node. These connections combine the total diffuse and specular color contributions for the pixel.
+5. Add the specular contribution. Move the **Output** terminal of the **Specular** node to the **X** terminal of the **Add** node, and then move the **Output** terminal of the **Lambert** node to the **Y** terminal of the **Add** node. These connections combine the total diffuse and specular color contributions for the pixel.
 
-6.  Connect the computed color value to the final color. Move the **Output** terminal of the **Add** node to the **RGB** terminal of the **Final Color** node.
+6. Connect the computed color value to the final color. Move the **Output** terminal of the **Add** node to the **RGB** terminal of the **Final Color** node.
 
- The following illustration shows the completed shader graph and a preview of the shader applied to a teapot model.
+   The following illustration shows the completed shader graph and a preview of the shader applied to a teapot model.
 
 > [!NOTE]
 > To better demonstrate the effect of the shader in this illustration, an orange color has been specified by using the **MaterialDiffuse** parameter of the shader, and a metallic-looking finish has been specified by using the **MaterialSpecular** and **MaterialSpecularPower** parameters. For information about material parameters, see the Previewing Shaders section in [Shader Designer](../designers/shader-designer.md).

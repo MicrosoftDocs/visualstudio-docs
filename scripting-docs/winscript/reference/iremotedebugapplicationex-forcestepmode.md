@@ -24,7 +24,7 @@ Forces the debugger into single-step mode.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT ForceStepMode(  
    IRemoteDebugApplicationThread*  pStepThread  
 );  

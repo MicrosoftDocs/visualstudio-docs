@@ -1,8 +1,6 @@
 ---
 title: "ClickOnce and Authenticode | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -33,11 +31,11 @@ ms.workload:
   
  You can obtain a certificate for code signing in one of three ways:  
   
--   Purchase one from a certificate vendor.  
+- Purchase one from a certificate vendor.  
   
--   Receive one from a group in your organization responsible for creating digital certificates.  
+- Receive one from a group in your organization responsible for creating digital certificates.  
   
--   Generate your own certificate by using the New-SelfSignedCertificate PowerShell cmdlet, or by using *MakeCert.exe*, which is included with the [!INCLUDE[winsdklong](../deployment/includes/winsdklong_md.md)].  
+- Generate your own certificate by using the New-SelfSignedCertificate PowerShell cmdlet, or by using *MakeCert.exe*, which is included with the [!INCLUDE[winsdklong](../deployment/includes/winsdklong_md.md)].  
   
 ### How using certificate authorities helps users  
  A certificate generated using New-SelfSignedCertificate or the *MakeCert.exe* utility is commonly called a *self-cert* or a *test cert*. This kind of certificate works much the same way that a *.snk* file works in the .NET Framework. It consists solely of a public/private cryptographic key pair, and contains no verifiable information about the publisher. You can use self-certs to deploy [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications with high trust on an intranet. However, when these applications run on a client computer, [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] will identify them as coming from an Unknown Publisher. By default, [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications signed with self-certs and deployed over the Internet cannot utilize Trusted Application Deployment.  
@@ -62,7 +60,7 @@ ms.workload:
   
 ### Store certificates  
   
--   You can store certificates as a *.pfx* file on your file system, or you can store them inside of a key container. A user on a Windows domain can have a number of key containers. By default, *MakeCert.exe* will store certificates in your personal key container, unless you specify that it should save it to a *.pfx* instead. *Mage.exe* and *MageUI.exe*, the [!INCLUDE[winsdkshort](../debugger/debug-interface-access/includes/winsdkshort_md.md)] tools for creating [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployments, enable you to use certificates stored in either fashion.  
+- You can store certificates as a *.pfx* file on your file system, or you can store them inside of a key container. A user on a Windows domain can have a number of key containers. By default, *MakeCert.exe* will store certificates in your personal key container, unless you specify that it should save it to a *.pfx* instead. *Mage.exe* and *MageUI.exe*, the [!INCLUDE[winsdkshort](../debugger/debug-interface-access/includes/winsdkshort_md.md)] tools for creating [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployments, enable you to use certificates stored in either fashion.  
   
 ## See also  
  [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md)   

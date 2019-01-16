@@ -1,8 +1,6 @@
 ---
 title: "IDiaSymbol::get_slot | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves the slot number of the location. Use when the [LocationType Enumeratio
   
 ```C++  
 HRESULT get_slot (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

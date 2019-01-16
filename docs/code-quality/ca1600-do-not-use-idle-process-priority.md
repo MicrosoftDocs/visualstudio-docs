@@ -2,7 +2,6 @@
 title: "CA1600: Do not use idle process priority"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "DoNotUseIdleProcessPriority"
@@ -18,6 +17,7 @@ ms.workload:
   - "multiple"
 ---
 # CA1600: Do not use idle process priority
+
 |||
 |-|-|
 |TypeName|DoNotUseIdleProcessPriority|
@@ -28,11 +28,11 @@ ms.workload:
 ## Cause
  This rule occurs when processes are set to `ProcessPriorityClass.Idle`.
 
-## Rule Description
+## Rule description
  Do not set process priority to Idle. Processes that have `System.Diagnostics.ProcessPriorityClass.Idle` will occupy the CPU when it would otherwise be idle, and will therefore block standby.
 
-## How to Fix Violations
+## How to fix violations
  Set processes to `ProcessPriorityClass.BelowNormal`.
 
-## When to Suppress Warnings
+## When to suppress warnings
  This rule should be suppressed only when Idle process priority is required and mobility considerations can be ignored safely.

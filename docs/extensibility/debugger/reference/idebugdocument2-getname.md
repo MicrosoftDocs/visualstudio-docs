@@ -1,9 +1,6 @@
 ---
 title: "IDebugDocument2::GetName | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugDocument2::GetName"
@@ -23,15 +20,15 @@ Gets the name of the document in one of several forms.
   
 ```cpp  
 HRESULT GetName(   
-   GETNAME_TYPE gnType,  
-   BSTR*        pbstrFileName  
+   GETNAME_TYPE gnType,  
+   BSTR*        pbstrFileName  
 );  
 ```  
   
 ```csharp  
 int GetName(   
-   enum_GETNAME_TYPE gnType,  
-   out string        pbstrFileName  
+   enum_GETNAME_TYPE gnType,  
+   out string        pbstrFileName  
 );  
 ```  
   

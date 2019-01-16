@@ -10,7 +10,6 @@ manager: douge
 ms.workload:
   - "multiple"
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Properties of Connectors
 Connectors represent domain relationships in a generated designer.
@@ -20,7 +19,7 @@ Connectors represent domain relationships in a generated designer.
  Connectors have the properties that are listed in the following table.
 
 |Property|Description|Default|
-|--------------|-----------------|-------------|
+|-|-|-|
 |Color|The color of this connector.|Black|
 |Dash Style|The dash style for the line for this connector (Solid, Dash, Dot, DashDot, DashDotDot, or Custom).|Solid|
 |Source End Style|The source end style for this connector (HollowArrow, EmptyArrow, FilledArrow, EmptyDiamond, FilledDiamond, or None).|None|
@@ -46,4 +45,4 @@ Connectors represent domain relationships in a generated designer.
 
 ## See Also
 
-- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+- [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

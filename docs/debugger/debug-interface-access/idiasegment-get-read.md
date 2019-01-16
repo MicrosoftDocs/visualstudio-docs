@@ -1,8 +1,6 @@
 ---
 title: "IDiaSegment::get_read | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves a flag that indicates whether the segment can be read.
   
 ```C++  
 HRESULT get_read (   
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 );  
 ```  
   

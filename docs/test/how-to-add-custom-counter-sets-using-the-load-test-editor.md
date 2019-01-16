@@ -1,5 +1,5 @@
 ---
-title: "Add Custom Counter Sets for load testing in Visual Studio"
+title: "Add Custom Counter Sets for load testing"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -11,7 +11,6 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ---
 # How to: Add custom counter sets using the Load Test Editor
 
@@ -23,6 +22,8 @@ When you create a load test with the **New Load Test Wizard**, you add an initia
 You manage your counters in the **Load Test Editor**. The counter sets that are already added to the test are visible in the **Counter Sets** node of the load test. After you create a Load test, you can add new custom counter sets to it.
 
 ![Custom Counter Set](../test/media/loadtestcustomcounter.png)
+
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
 ## To add a custom counter set to a Load Test
 

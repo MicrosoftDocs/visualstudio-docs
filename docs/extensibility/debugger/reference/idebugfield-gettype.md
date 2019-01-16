@@ -1,9 +1,6 @@
 ---
 title: "IDebugField::GetType | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugField::GetType"
@@ -23,13 +20,13 @@ This method gets the type of field.
   
 ```cpp  
 HRESULT GetType(   
-   IDebugField** ppType  
+   IDebugField** ppType  
 );  
 ```  
   
 ```csharp  
 int GetType(  
-   out IDebugField ppType  
+   out IDebugField ppType  
 );  
 ```  
   

@@ -2,7 +2,6 @@
 title: "CA1504: Review misleading field names"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "ReviewMisleadingFieldNames"
@@ -18,6 +17,7 @@ ms.workload:
   - "multiple"
 ---
 # CA1504: Review misleading field names
+
 |||
 |-|-|
 |TypeName|ReviewMisleadingFieldNames|
@@ -28,11 +28,11 @@ ms.workload:
 ## Cause
  The name of an instance field starts with "s_" or the name of a `static` (`Shared` in [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]) field starts with "m_".
 
-## Rule Description
+## Rule description
  Field names that start with "s_" are associated with static data by many users. Similarly, field names that start with "m_" are associated with instance (member) data. For more easily maintained code, names should follow generally used conventions.
 
-## How to Fix Violations
+## How to fix violations
  To fix a violation of this rule, rename the field by using the appropriate prefix. Alternatively, make the field agree with the current suffix by adding or removing the `static` modifier.
 
-## When to Suppress Warnings
+## When to suppress warnings
  Do not suppress a warning from this rule.

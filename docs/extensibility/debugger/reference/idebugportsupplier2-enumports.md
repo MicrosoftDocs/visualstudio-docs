@@ -1,9 +1,6 @@
 ---
 title: "IDebugPortSupplier2::EnumPorts | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugPortSupplier2::EnumPorts"
@@ -23,13 +20,13 @@ Retrieves a list of all the ports supplied by a port supplier.
   
 ```cpp  
 HRESULT EnumPorts(   
-   IEnumDebugPorts2** ppEnum  
+   IEnumDebugPorts2** ppEnum  
 );  
 ```  
   
 ```csharp  
 int EnumPorts(   
-   out IEnumDebugPorts2 ppEnum  
+   out IEnumDebugPorts2 ppEnum  
 );  
 ```  
   

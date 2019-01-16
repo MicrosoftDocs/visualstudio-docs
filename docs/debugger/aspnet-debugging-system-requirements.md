@@ -1,8 +1,6 @@
 ---
 title: "ASP.NET Debugging: System Requirements | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
@@ -22,13 +20,13 @@ ms.workload:
 # ASP.NET Debugging: System Requirements
 This topic describes the software and security requirements for [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] debugging scenarios:  
   
--   Local debugging, in which [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and the Web application run on the same computer. There are two versions of this scenario:  
+- Local debugging, in which [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and the Web application run on the same computer. There are two versions of this scenario:  
   
-    -   The [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] code resides on the file system.  
+  - The [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] code resides on the file system.  
   
-    -   The [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] code resides in an IIS Web site.  
+  - The [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] code resides in an IIS Web site.  
   
--   Remote debugging, in which [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] runs on a client computer and debugs a Web application that is running on a remote server computer.  
+- Remote debugging, in which [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] runs on a client computer and debugs a Web application that is running on a remote server computer.  
   
 ## Security Requirements  
  For remote debugging, local and remote computers must be on a domain setup or a workgroup setup.  

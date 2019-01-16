@@ -1,8 +1,6 @@
 ---
 title: "Performance Report Overview | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "profiling tools, about performance rerports"
@@ -36,13 +34,13 @@ You can view the profiling data of a performance session in the **Performance Re
 ### Caller/Callee View  
  The Caller/Callee view displays a call tree for an individual function. The view is divided into three parts:  
   
--   The target function is displayed in the middle of the view.  
+- The target function is displayed in the middle of the view.  
   
--   The functions that called the function (callers) are displayed above the target function.  
+- The functions that called the function (callers) are displayed above the target function.  
   
--   The functions that are called by the target function (callees) are displayed below the target.  
+- The functions that are called by the target function (callees) are displayed below the target.  
   
- You can select a different function by double-clicking any function in the called list or the callee list. For more information, see [Caller/Callee View](../profiling/caller-callee-view.md).  
+  You can select a different function by double-clicking any function in the called list or the callee list. For more information, see [Caller/Callee View](../profiling/caller-callee-view.md).  
   
 ### Call Tree View  
  The Call Tree view displays the function execution paths that were traversed in the profiled application. The root of the tree is the entry point into the application or component. Each function node lists all the functions that it called and performance data about those function calls.  

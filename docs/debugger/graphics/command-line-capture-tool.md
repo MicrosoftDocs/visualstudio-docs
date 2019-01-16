@@ -1,8 +1,6 @@
 ---
 title: "Command-Line Capture Tool | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: db75b3a7-80b2-4a74-91d2-fd6e0f73b45d
 author: "mikejo5000"
@@ -167,7 +165,7 @@ DXCap.exe -e map
  **Id: AppexMaps**  
  **Exe: C:\Program Files\WindowsApps\Microsoft.BingMaps_2.1.2914.1734_x64__8wekyb3d8bbwe\Map.exe**  
  **IsWWA: No**  
- **AppSpec (to launch): **DXCap.exe -c Microsoft.BingMaps_2.1.2914.1734_x64__8wekyb3d8bbwe,AppexMaps**** The last line of output for each enumerated app displays the command you can use to capture graphics information from it.  
+ **AppSpec (to launch): DXCap.exe -c Microsoft.BingMaps_2.1.2914.1734_x64__8wekyb3d8bbwe,AppexMaps** The last line of output for each enumerated app displays the command you can use to capture graphics information from it.  
   
 ### Capture specific frames or frames between specific times.  
  Use `-frame` to specify the frames that you want to capture using commas and ranges:  

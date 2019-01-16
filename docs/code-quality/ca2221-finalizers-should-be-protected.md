@@ -2,7 +2,6 @@
 title: "CA2221: Finalizers should be protected"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA2221"
@@ -18,6 +17,7 @@ ms.workload:
   - "multiple"
 ---
 # CA2221: Finalizers should be protected
+
 |||
 |-|-|
 |TypeName|FinalizersShouldBeProtected|
@@ -28,13 +28,13 @@ ms.workload:
 ## Cause
  A public type implements a finalizer that does not specify family (protected) access.
 
-## Rule Description
+## Rule description
  Finalizers must use the family access modifier. This rule is enforced by the C#, Visual Basic, and Visual C++ compilers.
 
-## How to Fix Violations
+## How to fix violations
  To fix a violation of this rule, change the finalizer to be family-accessible.
 
-## When to Suppress Warnings
+## When to suppress warnings
  Do not suppress a warning from this rule.
 
 ## Example
@@ -73,5 +73,6 @@ ms.workload:
 } // end of namespace
 ```
 
-## See Also
- [Dispose Pattern](/dotnet/standard/design-guidelines/dispose-pattern)
+## See also
+
+- [Dispose Pattern](/dotnet/standard/design-guidelines/dispose-pattern)

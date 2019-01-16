@@ -1,9 +1,6 @@
 ---
 title: "IDebugCodeContext2::GetLanguageInfo | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugCodeContext2::GetLanguageInfo"
@@ -23,15 +20,15 @@ Gets the language information for this code context.
   
 ```cpp  
 HRESULT GetLanguageInfo(   
-   BSTR* pbstrLanguage,  
-   GUID* pguidLanguage  
+   BSTR* pbstrLanguage,  
+   GUID* pguidLanguage  
 );  
 ```  
   
 ```csharp  
 int GetLanguageInfo(   
-   ref string pbstrLanguage,  
-   ref Guid pguidLanguage  
+   ref string pbstrLanguage,  
+   ref Guid pguidLanguage  
 );  
 ```  
   

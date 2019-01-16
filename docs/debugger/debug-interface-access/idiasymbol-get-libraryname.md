@@ -1,8 +1,6 @@
 ---
 title: "IDiaSymbol::get_libraryName | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves the file name of the library or object file from which the object was 
   
 ```C++  
 HRESULT get_libraryName (   
-   BSTR* pRetVal  
+   BSTR* pRetVal  
 );  
 ```  
   

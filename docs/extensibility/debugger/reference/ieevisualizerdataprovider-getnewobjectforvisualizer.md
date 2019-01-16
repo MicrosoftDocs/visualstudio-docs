@@ -1,9 +1,6 @@
 ---
 title: "IEEVisualizerDataProvider::GetNewObjectForVisualizer | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IEEVisualizerDataProvider::GetNewObjectForVisualizer"
@@ -23,13 +20,13 @@ This method gets a new object for the visualizer. This method will always create
   
 ```cpp  
 HRESULT GetNewObjectForVisualizer(  
-   IDebugObject** ppObject  
+   IDebugObject** ppObject  
 );  
 ```  
   
 ```csharp  
 int GetNewObjectForVisualizer(  
-   out IDebugObject ppObject  
+   out IDebugObject ppObject  
 );  
 ```  
   

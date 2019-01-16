@@ -3,7 +3,6 @@ title: F# tools
 description: Learn which features of Visual Studio are supported in F#.
 ms.date: 07/11/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 helpviewer_keywords:
   - "F# features [Visual Studio]"
@@ -55,7 +54,7 @@ The following table summarizes features in project properties for F#:
 **Project Designer** consists of several project property pages grouped by related functionality. The pages available for F# projects are mostly a subset of those available for other languages, and are described in the following table. Links are provided to the corresponding C# **Project Designer** page.
 
 |Project Designer page|Related links|Description|
-|---------------------|-------------|-----------|
+| - |-------------|-----------|
 |Application|[Application Page, Project Designer](reference/application-page-project-designer-csharp.md)|Enables you to specify application-level settings and properties, such as whether you are creating a library or an executable file, what version of the .NET Framework the application is targeting, and information about where the resource files that the application uses are stored.|
 |Build|[Build Page, Project Designer](reference/build-page-project-designer-csharp.md)|Enables you to control how the code is compiled.|
 |Build Events|[Build Events Page, Project Designer](reference/build-events-page-project-designer-csharp.md)|Enables you to specify commands to run before or after a compilation.|
@@ -69,7 +68,7 @@ The following table summarizes features in project properties for F#:
 The following table summarizes settings that are specific to F#:
 
 |Project Designer page|Setting|Description|
-|---------------------|-------|-----------|
+| - |-------|-----------|
 |Build|Generate tail calls|If selected, enables the use of the tail Microsoft Intermediate Language (MSIL) instruction. This causes the stack frame to be reused for tail recursive functions. Equivalent to the `--tailcalls` compiler option.|
 |Build|Other flags|Allows you to specify additional compiler command-line options.|
 

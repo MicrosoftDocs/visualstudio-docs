@@ -1,9 +1,6 @@
 ---
 title: "IDebugPendingBreakpoint2::Delete | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugPendingBreakpoint2::Delete"
@@ -24,7 +21,7 @@ Deletes this pending breakpoint and all breakpoints bound from it.
   
 ```cpp  
 HRESULT Delete(   
-   void   
+   void   
 );  
 ```  
   

@@ -1,9 +1,6 @@
 ---
 title: "LPTEXTOUTPROC | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "LPTEXTOUTPROC"
@@ -30,8 +27,8 @@ When the user executes a source control operation from inside the integrated dev
   
 ```cpp  
 typedef LONG (*LPTEXTOUTPROC) (  
-   LPSTR display_string,  
-   LONG mesg_type  
+   LPSTR display_string,  
+   LONG mesg_type  
 );  
 ```  
   
@@ -54,7 +51,7 @@ typedef LONG (*LPTEXTOUTPROC) (
 |`SCC_MSG_BACKGROUND_ON_AFTER_GET_FILE`|Tells the IDE about a file after it has been retrieved from version control. The `display_string` parameter is cast as an [SccMsgDataOnAfterGetFile](#LinkSccMsgDataOnAfterGetFile) structure, which is supplied by the source control plug-in.|  
 |`SCC_MSG_BACKGROUND_ON_MESSAGE`|Tells the IDE of the current status of a background operation. The `display_string` parameter is cast as an [SccMsgDataOnMessage](#LinkSccMsgDataOnMessage) structure, which is supplied by the source control plug-in.|  
   
-## Return Value  
+## Return value  
   
 |Value|Description|  
 |-----------|-----------------|  
@@ -70,7 +67,7 @@ typedef LONG (*LPTEXTOUTPROC) (
   
 ```cpp  
 typedef struct {  
-   DWORD dwBackgroundOperationID;  
+   DWORD dwBackgroundOperationID;  
 } SccMsgDataIsCancelled;  
 ```  
   
@@ -80,8 +77,8 @@ typedef struct {
   
 ```cpp  
 typedef struct {  
-   DWORD dwBackgroundOperationID;  
-   PCSTR szFile;  
+   DWORD dwBackgroundOperationID;  
+   PCSTR szFile;  
 } SccMsgDataOnBeforeGetFile;  
 ```  
   
@@ -91,9 +88,9 @@ typedef struct {
   
 ```cpp  
 typedef struct {  
-   DWORD dwBackgroundOperationID;  
-   PCSTR szFile;  
-   SCCRTN sResult;  
+   DWORD dwBackgroundOperationID;  
+   PCSTR szFile;  
+   SCCRTN sResult;  
 } SccMsgDataOnAfterGetFile;  
 ```  
   
@@ -102,38 +99,38 @@ typedef struct {
 ###  <a name="LinkSccMsgDataOnMessage"></a> SccMsgDataOnMessage  
  [C++]  
   
-```  
+```cpp  
 typedef struct {  
-   DWORD dwBackgroundOperationID;  
-   PCSTR szMessage;  
-   BOOL bIsError;  
+   DWORD dwBackgroundOperationID;  
+   PCSTR szMessage;  
+   BOOL bIsError;  
 } SccMsgDataOnMessage;  
 ```  
   
  This structure is sent with the `SCC_MSG_BACKGROUND_ON_MESSAGE` message. It is used to communicate the current status of a background operation. The status is expressed as a string to be displayed by the IDE, and `bIsError` indicates the severity of the message (`TRUE` for an error message; `FALSE` for a warning or for an informational message). The ID of the background operation sending the status is also given.  
   
-## Code Example  
+## Code example  
  Here is a brief example of calling `LPTEXTOUTPROC` to send the `SCC_MSG_BACKGROUND_ON_MESSAGE` message, showing how to cast the structure for the call.  
   
 ```cpp  
 LONG SendStatusMessage(  
-    LPTEXTOUTPROC pTextOutProc,  
-    DWORD         dwBackgroundID,  
-    LPCTSTR       pStatusMsg,  
-    BOOL          bIsError)  
+    LPTEXTOUTPROC pTextOutProc,  
+    DWORD         dwBackgroundID,  
+    LPCTSTR       pStatusMsg,  
+    BOOL          bIsError)  
 {  
-    SccMsgDataOnMessage msgData = { 0 };  
-    LONG                result  = 0;  
+    SccMsgDataOnMessage msgData = { 0 };  
+    LONG                result  = 0;  
   
-    msgData.dwBackgroundOperationID = dwBackgroundID;  
-    msgData.szMessage               = pStatusMsg;  
-    msgData.bIsError                = bIsError;  
+    msgData.dwBackgroundOperationID = dwBackgroundID;  
+    msgData.szMessage               = pStatusMsg;  
+    msgData.bIsError                = bIsError;  
   
-    result = pTextOutProc(reinterpret_cast<LPCTSTR>(&msgData), SCC_MSG_BACKGROUND_ON_MESSAGE);  
-    return result;  
+    result = pTextOutProc(reinterpret_cast<LPCTSTR>(&msgData), SCC_MSG_BACKGROUND_ON_MESSAGE);  
+    return result;  
 }  
 ```  
   
-## See Also  
- [Callback Functions Implemented by the IDE](../extensibility/callback-functions-implemented-by-the-ide.md)   
- [Source Control Plug-ins](../extensibility/source-control-plug-ins.md)
+## See also  
+ [Callback functions implemented by the IDE](../extensibility/callback-functions-implemented-by-the-ide.md)   
+ [Source control plug-ins](../extensibility/source-control-plug-ins.md)

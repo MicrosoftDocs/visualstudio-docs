@@ -1,9 +1,6 @@
 ---
 title: "IDebugExpressionEvaluator2::SetIDebugIDECallback | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugExpressionEvaluator2::SetIDebugIDECallback"
@@ -22,13 +19,13 @@ Enables a debug engine to pass a callback to the expression evaluator during ini
   
 ```cpp  
 HRESULT SetIDebugIDECallback (  
-   IDebugIDECallback * pCallback  
+   IDebugIDECallback * pCallback  
 );  
 ```  
   
 ```csharp  
 int SetIDebugIDECallback (  
-   IDebugIDECallback pCallback  
+   IDebugIDECallback pCallback  
 );  
 ```  
   

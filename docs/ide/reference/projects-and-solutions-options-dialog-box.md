@@ -2,7 +2,6 @@
 title: Projects and Solutions, Options Dialog Box
 ms.date: 07/14/2017
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Projects.General"
@@ -22,9 +21,6 @@ ms.workload:
 Sets Visual Studio behavior related to projects and solutions. To access these options, select **Tools** > **Options**, expand **Projects and Solutions**, and then select **General**.
 
 The default paths for project and template folders are set through the **Locations** tab in the same dialog box.
-
-> [!NOTE]
-> The options available in the UI might differ from what is described here, depending on your active settings or edition. This article was written with the **General Development settings** in mind. To view or change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).
 
 ## General page
 

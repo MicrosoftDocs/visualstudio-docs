@@ -1,8 +1,6 @@
 ---
 title: "IDiaSectionContrib::get_compiland | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves a reference to the compiland symbol that contributed this section.
   
 ```C++  
 HRESULT get_compiland (   
-   IDiaSymbol** pRetVal  
+   IDiaSymbol** pRetVal  
 );  
 ```  
   

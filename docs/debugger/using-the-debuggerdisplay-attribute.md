@@ -1,11 +1,9 @@
 ---
 title: "Using the DebuggerDisplay Attribute | Microsoft Docs"
-ms.custom: ""
-ms.date: "08/09/2017"
-ms.technology: "vs-ide-debug"
+ms.date: "01/09/2019"
 ms.topic: "conceptual"
 helpviewer_keywords: 
-  - "attributes [C#], debugger"
+  - "attributes, debugger"
   - "DebuggerDisplay attribute"
   - "DebuggerDisplayAttribute class"
 ms.assetid: f4eb7c76-af4e-493b-9ab6-9cb05949d9b3
@@ -15,8 +13,8 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Using the DebuggerDisplay Attribute
-The [DebuggerDisplayAttribute Class](/dotnet/api/system.diagnostics.debuggerdisplayattribute) controls how an object, property, or field is displayed in the debugger variable windows. This attribute can be applied to types, delegates, properties, fields, and assemblies.  
+# Using the DebuggerDisplay Attribute (C#, Visual Basic, C++/CLI)
+The <xref:System.Diagnostics.DebuggerDisplayAttribute> controls how an object, property, or field is displayed in the debugger variable windows. This attribute can be applied to types, delegates, properties, fields, and assemblies.  
   
  The `DebuggerDisplay` attribute has a single argument, which is a string to be displayed in the value column for instances of the type. This string can contain braces (`{` and `}`). Text within a pair of braces is evaluated as a field, property or method.  
   
@@ -26,11 +24,14 @@ The [DebuggerDisplayAttribute Class](/dotnet/api/system.diagnostics.debuggerdisp
   
 > [!IMPORTANT]
 >  If the **Show raw structure of objects in variables windows** check box is selected in the **Tools /Options / Debugging** dialog box, then the `DebuggerDisplay` attribute is ignored.  
+
+> [!NOTE]
+> For native code, this attribute is supported only in C++/CLI code.
   
  The following table shows some possible uses of the `DebuggerDisplay` attribute and example outputs.  
   
 |Attribute|Output appearing in the Value column|  
-|---------------|------------------------------------------------|  
+|---------------| - |  
 |`[DebuggerDisplay("x = {x} y = {y}")]`<br /><br /> Used on a type with fields `x` and `y`.|`x = 5 y = 18`|  
 |`[DebuggerDisplay("String value is {getString()}")]`Parameter syntax can vary between languages. Therefore, use it with care.|`String value is [5, 6, 6]`|  
   
@@ -59,13 +60,13 @@ csc /t:library autoexp.cs
   
  Using expressions in DebuggerDisplay can lead to the following issues:  
   
--   Evaluating expressions is the most expensive operation in the debugger and the expression is evaluated each time it is displayed. This can cause performance issues in stepping through code. For example, a complex expression that is used to display the values in a collection or list can be very slow when the number of elements is large.  
+- Evaluating expressions is the most expensive operation in the debugger and the expression is evaluated each time it is displayed. This can cause performance issues in stepping through code. For example, a complex expression that is used to display the values in a collection or list can be very slow when the number of elements is large.  
   
--   Expressions are evaluated by the expression evaluator of the language of the current stack frame and not by the evaluator of the language in which the expression was written. This can cause unpredictable results when the languages are different.  
+- Expressions are evaluated by the expression evaluator of the language of the current stack frame and not by the evaluator of the language in which the expression was written. This can cause unpredictable results when the languages are different.  
   
--   Evaluating an expression can change the state of the application. For example, an expression that sets the value of a property mutates the property value in the executing code.  
+- Evaluating an expression can change the state of the application. For example, an expression that sets the value of a property mutates the property value in the executing code.  
   
- One way to reduce the possible problems of expression evaluation is by creating a private property that performs the operation and returns a string. The DebuggerDisplay attribute can then display the value of that private property. The following example implements this pattern:  
+  One way to reduce the possible problems of expression evaluation is by creating a private property that performs the operation and returns a string. The DebuggerDisplay attribute can then display the value of that private property. The following example implements this pattern:  
   
 ```csharp  
 [DebuggerDisplay("{DebuggerDisplay,nq}")]  

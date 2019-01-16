@@ -1,9 +1,6 @@
 ---
 title: "Walkthrough: Update a chart in a document using radio buttons"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -24,15 +21,15 @@ ms.workload:
   
  This walkthrough illustrates the following tasks:  
   
--   Adding a chart to the document in a document-level project at design time.  
+- Adding a chart to the document in a document-level project at design time.  
   
--   Grouping radio buttons by adding them to a user control.  
+- Grouping radio buttons by adding them to a user control.  
   
--   Changing the chart style when an option is selected.  
+- Changing the chart style when an option is selected.  
   
- To see the result as a completed sample, see the Word Controls Sample at [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md).  
+  To see the result as a completed sample, see the Word Controls Sample at [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md).  
   
- [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
+  [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
   
 ## Prerequisites  
  You need the following components to complete this walkthrough:  
@@ -213,5 +210,3 @@ ms.workload:
  [Walkthroughs using Word](../vsto/walkthroughs-using-word.md)   
  [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md)   
  [Limitations of Windows Forms controls on Office documents](../vsto/limitations-of-windows-forms-controls-on-office-documents.md)  
-  
-  

@@ -1,9 +1,6 @@
 ---
 title: "IDebugEnumField::GetStringFromValue | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugEnumField::GetStringFromValue"
@@ -23,15 +20,15 @@ This method obtains the name of the enumeration constant given its value.
   
 ```cpp  
 HRESULT GetStringFromValue(  
-   ULONGLONG value,  
-   BSTR*     pbstrValue  
+   ULONGLONG value,  
+   BSTR*     pbstrValue  
 );  
 ```  
   
 ```csharp  
 int GetStringFromValue(  
-   ulong      value,  
-   out string pbstrValue  
+   ulong      value,  
+   out string pbstrValue  
 );  
 ```  
   

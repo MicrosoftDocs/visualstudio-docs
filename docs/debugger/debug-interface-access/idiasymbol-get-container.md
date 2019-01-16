@@ -1,8 +1,6 @@
 ---
 title: "IDiaSymbol::get_container | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ This function retrieves a pointer to a symbol representing the parent/container 
   
 ```C++  
 HRESULT get_container(  
-   IDiaSymbol **pRetVal  
+   IDiaSymbol **pRetVal  
 );  
 ```  
   

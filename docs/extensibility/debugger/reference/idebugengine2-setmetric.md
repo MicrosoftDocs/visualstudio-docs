@@ -1,9 +1,6 @@
 ---
 title: "IDebugEngine2::SetMetric | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugEngine2:::SetMetric"
@@ -23,15 +20,15 @@ This method sets a registry value known as a metric.
   
 ```cpp  
 HRESULT SetMetric(  
-   LPCOLESTR pszMetric,  
-   VARIANT   varValue  
+   LPCOLESTR pszMetric,  
+   VARIANT   varValue  
 );  
 ```  
   
 ```csharp  
 int SetMetric(  
-   string pszMetric,  
-   object varValue  
+   string pszMetric,  
+   object varValue  
 );  
 ```  
   

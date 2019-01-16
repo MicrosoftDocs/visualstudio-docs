@@ -1,9 +1,6 @@
 ---
 title: "IDebugSymbolProvider::GetNextAddress | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugSymbolProvider::GetNextAddress"
@@ -23,17 +20,17 @@ Gets the debug address that follows a given debug address in a method.
   
 ```cpp  
 HRESULT GetNextAddress(   
-   IDebugAddress*  pAddress,  
-   BOOL            fStatementOnly,  
-   IDebugAddress** ppAddress  
+   IDebugAddress*  pAddress,  
+   BOOL            fStatementOnly,  
+   IDebugAddress** ppAddress  
 );  
 ```  
   
 ```csharp  
 int GetNextAddress(   
-   IDebugAddress     pAddress,  
-   bool              fStatementOnly,  
-   out IDebugAddress ppAddress  
+   IDebugAddress     pAddress,  
+   bool              fStatementOnly,  
+   out IDebugAddress ppAddress  
 );  
 ```  
   

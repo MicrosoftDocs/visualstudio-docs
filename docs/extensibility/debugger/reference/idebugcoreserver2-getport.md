@@ -1,9 +1,6 @@
 ---
 title: "IDebugCoreServer2::GetPort | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugCoreServer2::GetPort"
@@ -23,15 +20,15 @@ Retrieves a specific port.
   
 ```cpp  
 HRESULT GetPort(   
-   REFGUID       guidPort,  
-   IDebugPort2** ppPort  
+   REFGUID       guidPort,  
+   IDebugPort2** ppPort  
 );  
 ```  
   
 ```csharp  
 int GetPort(   
-   ref Guid        guidPort,  
-   out IDebugPort2 ppPort  
+   ref Guid        guidPort,  
+   out IDebugPort2 ppPort  
 );  
 ```  
   

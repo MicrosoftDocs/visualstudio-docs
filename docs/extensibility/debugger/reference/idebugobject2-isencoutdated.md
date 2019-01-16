@@ -1,9 +1,6 @@
 ---
 title: "IDebugObject2::IsEncOutdated | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugObject2::IsEncOutdated"
@@ -23,13 +20,13 @@ This method determines whether the Edit and Continue status of this object or of
   
 ```cpp  
 HRESULT IsEncOutdated(  
-   BOOL* pfEncOutdated  
+   BOOL* pfEncOutdated  
 );  
 ```  
   
 ```csharp  
 int IsEncOutdated(  
-   out int pfEncOutdated  
+   out int pfEncOutdated  
 );  
 ```  
   

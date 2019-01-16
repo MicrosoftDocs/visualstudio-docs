@@ -1,9 +1,7 @@
 ---
 title: "Unit testing in Node.js"
 description: Visual Studio provides support unit testing JavaScript code using the Node.js Tools for Visual Studio
-ms.custom: ""
 ms.date: "06/06/2018"
-ms.technology: vs-nodejs
 ms.topic: "conceptual"
 ms.devlang: javascript
 author: "mikejo5000"
@@ -29,7 +27,7 @@ The supported frameworks are:
 > [!WARNING]
 > An issue in Tape currently prevents Tape tests from running. If [PR #361](https://github.com/substack/tape/pull/361) is merged, the issue should be resolved.
 
-If your favorite framework is not supported, see [Add support for a unit test framework](#addingFramework) for information on adding support. 
+If your favorite framework is not supported, see [Add support for a unit test framework](#addingFramework) for information on adding support.
 
 ## Write unit tests
 
@@ -84,7 +82,7 @@ You can run tests in Visual Studio 2017 or from the command line.
 
 ### Run tests in Visual Studio 2017
 
-You can run the tests by clicking the **Run All** link in Test Explorer. Or, you can run tests by selecting one or more tests or groups, right-clicking, and selecting **Run Selected Tests** from the shorcut menu. Tests run in the background, and Test Explorer automatically updates and shows the results. Furthermore, you can also debug selected tests by selecting **Debug Selected Tests**.
+You can run the tests by clicking the **Run All** link in Test Explorer. Or, you can run tests by selecting one or more tests or groups, right-clicking, and selecting **Run Selected Tests** from the shortcut menu. Tests run in the background, and Test Explorer automatically updates and shows the results. Furthermore, you can also debug selected tests by selecting **Debug Selected Tests**.
 
 > [!Warning]
 > Debugging unit tests using Node 8+ currently only works for JavaScript test files,
@@ -130,7 +128,7 @@ Test execution time: 1.5731 Seconds
 ```
 
 > [!NOTE]
-> If you get an error indicating that *vstest.console.exe* cannot be found, make sure you've opened the Developer Command Prompt and not a regular command prompt. 
+> If you get an error indicating that *vstest.console.exe* cannot be found, make sure you've opened the Developer Command Prompt and not a regular command prompt.
 
 ## <a name="addingFramework"></a>Add support for a unit test framework
 
@@ -138,7 +136,7 @@ You can add support for additional test frameworks by implementing the discovery
 
 `<VisualStudioFolder>\Common7\IDE\Extensions\Microsoft\NodeJsTools\TestAdapter\TestFrameworks`
 
-This folder has to contain a JavaScript file with the same name which exports the following 2 functions:
+This folder has to contain a JavaScript file with the same name which exports the following two functions:
 
 * `find_tests`
 * `run_tests`
@@ -151,3 +149,27 @@ unit testing framework in:
 Discovery of available test frameworks occurs at Visual Studio start. If a framework is added while
 Visual Studio is running, restart Visual Studio to detect the framework. However you don't need to restart
 when making changes to the implementation.
+
+## Unit tests in other project types
+You are not limited to writing unit tests in just your Node.js projects. When you add the TestFramework and
+TestRoot properties to any C# or Visual Basic project, those tests will be enumerated and you can run them using
+the Test Explorer window.
+
+To enable this, right-click the project node in the Solution Explorer, choose **Unload Project**, and then choose **Edit Project**. Then in the project file, add the following two elements to a property group.
+
+> [!NOTE]
+> Make sure that the property group you're adding the elements to doesn't have a condition specified.
+> This can cause unexpected behavior.
+
+```xml
+<PropertyGroup>
+    <JavaScriptTestRoot>tests\</JavaScriptTestRoot>
+    <JavaScriptTestFramework>Tape</JavaScriptTestFramework>
+</PropertyGroup>
+```
+
+Next, add your tests to the test root folder you specified, and they will be available to run in the
+Test Explorer window. If they don't initially appear, you may need to rebuild the project.
+
+> [!NOTE]
+> This currently doesn't work for .NET Standard and .NET Core projects.

@@ -1,9 +1,6 @@
 ---
 title: "IDebugSymbolProvider::GetContextFromAddress | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugSymbolProvider::GetContextFromAddress"
@@ -23,15 +20,15 @@ This method maps a debug address into a document context.
   
 ```cpp  
 HRESULT GetContextFromAddress(   
-   IDebugAddress*           pAddress,  
-   IDebugDocumentContext2** ppDocContext  
+   IDebugAddress*           pAddress,  
+   IDebugDocumentContext2** ppDocContext  
 );  
 ```  
   
 ```csharp  
 int GetContextFromAddress(  
-   IDebugAddress              pAddress,   
-   out IDebugDocumentContext2 ppDocContext  
+   IDebugAddress              pAddress,   
+   out IDebugDocumentContext2 ppDocContext  
 );  
 ```  
   

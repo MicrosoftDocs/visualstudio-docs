@@ -1,8 +1,6 @@
 ---
 title: "Function Details View | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.performance.view.functiondetails"
@@ -19,17 +17,17 @@ ms.workload:
 # Function Details View
 The **Function Details View** window displays the following information:  
   
--   The **Cost Distribution** bar chart represents the relationships between a function that you select and the calling functions that executed the selected function, and between the selected function and the functions that were called by it.  
+- The **Cost Distribution** bar chart represents the relationships between a function that you select and the calling functions that executed the selected function, and between the selected function and the functions that were called by it.  
   
--   The **Function Performance Details** table that shows summary profiling data for the function that you specify.  
+- The **Function Performance Details** table that shows summary profiling data for the function that you specify.  
   
--   The **Function Code View** window, which shows the function code when the code is available.  
+- The **Function Code View** window, which shows the function code when the code is available.  
   
- The **Function Code View** window is a separate pane. By default, the two panes are split horizontally, and the **Function Code View** window is positioned at the bottom of the frame.  
+  The **Function Code View** window is a separate pane. By default, the two panes are split horizontally, and the **Function Code View** window is positioned at the bottom of the frame.  
   
--   To split the two panes vertically, click **Split Screen Vertically** on the toolbar.  
+- To split the two panes vertically, click **Split Screen Vertically** on the toolbar.  
   
--   To change the relative size of the panes, click the shaded border between the frames and drag the border to a different location.  
+- To change the relative size of the panes, click the shaded border between the frames and drag the border to a different location.  
   
 ## Cost Distribution Bar Chart  
   
@@ -43,25 +41,25 @@ The **Function Details View** window displays the following information:
   
  You can click the name of a calling function to make it the selected function in the view.  
   
--   If there are too many calling functions to list, functions with the smallest contributions are collected in an **Other** block. Click **Other** to display all calling and called functions of the selected function in the **Caller/Callee View** window. For more information, see [Caller/Callee View](../profiling/caller-callee-view.md).  
+- If there are too many calling functions to list, functions with the smallest contributions are collected in an **Other** block. Click **Other** to display all calling and called functions of the selected function in the **Caller/Callee View** window. For more information, see [Caller/Callee View](../profiling/caller-callee-view.md).  
   
--   If there are no calling functions or if the function is the entry function of a thread or process, a **Top of Stack** block appears.  
+- If there are no calling functions or if the function is the entry function of a thread or process, a **Top of Stack** block appears.  
   
- **Selected Function**  
+  **Selected Function**  
   
- The selected function bar shows the contributions of called functions and of code in the selected function to the total performance metric of the selected function. The size of the block that contains a called function or the function body is in proportion to the its contribution to the total value of the performance metric for the selected function.  
+  The selected function bar shows the contributions of called functions and of code in the selected function to the total performance metric of the selected function. The size of the block that contains a called function or the function body is in proportion to the its contribution to the total value of the performance metric for the selected function.  
   
- You can click the name of a called function to make it the selected function in the view.  
+  You can click the name of a called function to make it the selected function in the view.  
   
--   The **Total** value is the performance metric for the selected function.  
+- The **Total** value is the performance metric for the selected function.  
   
--   The **Function Body** block represents the amount of the total value of the performance metric that occurred in the direct execution of code in the body of the function.  
+- The **Function Body** block represents the amount of the total value of the performance metric that occurred in the direct execution of code in the body of the function.  
   
--   Functions that are called by the selected function are listed in blocks. The size of  selected functions block represent the amount of the total performance metric for the selected function that occurred in the called function.  
+- Functions that are called by the selected function are listed in blocks. The size of  selected functions block represent the amount of the total performance metric for the selected function that occurred in the called function.  
   
--   If there are too many calling functions to list, functions with the smallest contributions are collected in an **Other** block. Click **Other** to display all calling and called functions of the selected function in the **Caller/Callee View** window. For more information, see [Caller/Callee View](../profiling/caller-callee-view.md).  
+- If there are too many calling functions to list, functions with the smallest contributions are collected in an **Other** block. Click **Other** to display all calling and called functions of the selected function in the **Caller/Callee View** window. For more information, see [Caller/Callee View](../profiling/caller-callee-view.md).  
   
--   If there are no called functions, a **Bottom of Stack** block appears.  
+- If there are no called functions, a **Bottom of Stack** block appears.  
   
 ## Function Performance Details  
  The Function Performance Details table provides summary data for the performance metrics of the selected function. Both the value and the percentage appear. You specify the specify the profiling data that appears in the chart and the details table in the **Performance metric** list.  

@@ -1,9 +1,6 @@
 ---
 title: "IDebugMemoryContext2::Compare | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugMemoryContext2::Compare"
@@ -24,19 +21,19 @@ Compares the memory context to each context in the given array in the manner ind
   
 ```cpp  
 HRESULT Compare(   
-   CONTEXT_COMPARE        compare,  
-   IDebugMemoryContext2** rgpMemoryContextSet,  
-   DWORD                  dwMemoryContextSetLen,  
-   DWORD*                 pdwMemoryContext  
+   CONTEXT_COMPARE        compare,  
+   IDebugMemoryContext2** rgpMemoryContextSet,  
+   DWORD                  dwMemoryContextSetLen,  
+   DWORD*                 pdwMemoryContext  
 );  
 ```  
   
 ```csharp  
 int Compare(  
-   enum_CONTEXT_COMPARE   compare,   
-   IDebugMemoryContext2[] rgpMemoryContextSet,   
-   uint                   dwMemoryContextSetLen,   
-   out uint               pdwMemoryContext  
+   enum_CONTEXT_COMPARE   compare,   
+   IDebugMemoryContext2[] rgpMemoryContextSet,   
+   uint                   dwMemoryContextSetLen,   
+   out uint               pdwMemoryContext  
 );  
 ```  
   

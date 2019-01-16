@@ -1,9 +1,6 @@
 ---
 title: "IDebugClassField::EnumInterfacesImplemented | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugClassField::EnumInterfacesImplemented"
@@ -23,13 +20,13 @@ Creates an enumerator for the interfaces implemented by this class.
   
 ```cpp  
 HRESULT EnumInterfacesImplemented(   
-   IEnumDebugFields** ppEnum  
+   IEnumDebugFields** ppEnum  
 );  
 ```  
   
 ```csharp  
 int EnumInterfacesImplemented(  
-   out IEnumDebugFields ppEnum  
+   out IEnumDebugFields ppEnum  
 );  
 ```  
   

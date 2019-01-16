@@ -1,8 +1,6 @@
 ---
 title: "Attach | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: 79614283-6733-4592-a53a-d428052271ad
 author: "mikejo5000"
@@ -50,7 +48,7 @@ VSPerfCmd.exe /Attach:ProcessID [Options]
 ## Interval options  
  One of the following sampling interval options can be specified on the Attach command line. The default sampling interval is 10,000,000 processor clock cycles.  
   
- **Timer**[**:**`Cycles`]**PF**[**:**`Events`]**Sys**[**:**Events]**Counter**[**:**`Name`,`Reload`,`FriendlyName`]  
+ **Timer**[**:**`Cycles`]**PF**[**:**`Events`]**Sys**[<strong>:</strong>Events]**Counter**[**:**`Name`,`Reload`,`FriendlyName`]  
  Specifies the number and type of the sampling interval.  
   
 -   **Timer** - Samples every `Cycles` processor clock cycles. If `Cycles` is not specified, 10,000,000 cycles are used.  

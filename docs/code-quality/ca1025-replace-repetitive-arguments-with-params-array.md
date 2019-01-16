@@ -2,7 +2,6 @@
 title: "CA1025: Replace repetitive arguments with params array"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA1025"
@@ -18,6 +17,7 @@ ms.workload:
   - "multiple"
 ---
 # CA1025: Replace repetitive arguments with params array
+
 |||
 |-|-|
 |TypeName|ReplaceRepetitiveArgumentsWithParamsArray|
@@ -28,13 +28,13 @@ ms.workload:
 ## Cause
  A public or protected method in a public type has more than three parameters, and its last three parameters are the same type.
 
-## Rule Description
+## Rule description
  Use a parameter array instead of repeated arguments when the exact number of arguments is unknown and the variable arguments are the same type, or can be passed as the same type. For example, the <xref:System.Console.WriteLine%2A> method provides a general-purpose overload that uses a parameter array to accept any number of <xref:System.Object> arguments.
 
-## How to Fix Violations
+## How to fix violations
  To fix a violation of this rule, replace the repeated arguments with a parameter array.
 
-## When to Suppress Warnings
+## When to suppress warnings
  It is always safe to suppress a warning from this rule; however, this design might cause usability issues.
 
 ## Example

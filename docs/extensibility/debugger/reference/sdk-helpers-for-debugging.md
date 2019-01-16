@@ -1,9 +1,6 @@
 ---
 title: "SDK Helpers for Debugging | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "dbgmetric.lib"
@@ -204,7 +201,7 @@ HRESULT EnumMetricSections(
 |metricThisObjectName|Set this to the "this" object name.|  
   
 |Expression Evaluator Extension Properties|Description|  
-|-----------------------------------------------|-----------------|  
+| - |-----------------|  
 |metricExtensionDll|Name of the dll that supports this extension.|  
 |metricExtensionRegistersSupported|List of registers supported.|  
 |metricExtensionRegistersEntryPoint|Entry point for accessing registers.|  

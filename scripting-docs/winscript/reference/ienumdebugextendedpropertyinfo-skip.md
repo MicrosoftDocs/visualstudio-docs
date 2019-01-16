@@ -24,9 +24,9 @@ Skips a specified number of `ExtendedDebugPropertyInfo` structures in an enumera
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Skip(  
-   ULONG celt  
+   ULONG celt  
 );  
 ```  
   

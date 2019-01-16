@@ -1,8 +1,6 @@
 ---
 title: "CrossSession | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: b9fcb9c3-7903-478c-9b7c-dbd94092fcba
 author: "mikejo5000"
@@ -31,10 +29,10 @@ VSPerfCmd.exe /Start:Method /CrossSession [Options]
  **Start:** `Method`  
  The **Start** option initializes the profiler to the specified profiling method.  
   
- **Attach:** *PID*[**,***PID*]  
+ **Attach:** _PID_[**,**_PID_]  
  Begins profiling the specified processes.  
   
- **Detach**[**:***PID*[,*PID*]]  
+ **Detach**[**:**_PID_[,_PID_]]  
  Stops profiling the specified processes.  
   
 ## Example  

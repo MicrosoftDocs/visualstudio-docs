@@ -1,9 +1,6 @@
 ---
 title: "IDebugObject::SetReferenceValue | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugObject::SetReferenceValue"
@@ -23,13 +20,13 @@ Sets the reference value of this object.
   
 ```cpp  
 HRESULT SetReferenceValue(   
-   IDebugObject* pObject  
+   IDebugObject* pObject  
 );  
 ```  
   
 ```csharp  
 int SetReferenceValue(  
-   [In] IDebugObject pObject  
+   [In] IDebugObject pObject  
 );  
 ```  
   

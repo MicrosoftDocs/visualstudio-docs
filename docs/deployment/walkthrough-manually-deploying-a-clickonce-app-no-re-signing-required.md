@@ -1,8 +1,6 @@
 ---
 title: "Walkthrough: Manually Deploying a ClickOnce Application that Does Not Require Re-Signing and that Preserves Branding Information | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -42,36 +40,36 @@ When you create a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.m
   
 ### To deploy a ClickOnce application with multiple deployment and branding support using Mage.exe  
   
-1.  Open a Visual Studio command prompt or a [!INCLUDE[winsdkshort](../debugger/debug-interface-access/includes/winsdkshort_md.md)] command prompt, and change to the directory in which you will store your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] files.  
+1. Open a Visual Studio command prompt or a [!INCLUDE[winsdkshort](../debugger/debug-interface-access/includes/winsdkshort_md.md)] command prompt, and change to the directory in which you will store your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] files.  
   
-2.  Create a directory named after the current version of your deployment. If this is the first time that you are deploying the application, you will likely choose **1.0.0.0**.  
+2. Create a directory named after the current version of your deployment. If this is the first time that you are deploying the application, you will likely choose **1.0.0.0**.  
   
-    > [!NOTE]
-    >  The version of your deployment may be distinct from the version of your application files.  
+   > [!NOTE]
+   >  The version of your deployment may be distinct from the version of your application files.  
   
-3.  Create a subdirectory named **bin** and copy all of your application files here, including executable files, assemblies, resources, and data files.  
+3. Create a subdirectory named **bin** and copy all of your application files here, including executable files, assemblies, resources, and data files.  
   
-4.  Generate the application manifest with a call to Mage.exe.  
+4. Generate the application manifest with a call to Mage.exe.  
   
-    ```cmd  
-    mage -New Application -ToFile 1.0.0.0\WindowsFormsApp1.exe.manifest -Name "Windows Forms App 1" -Version 1.0.0.0 -FromDirectory 1.0.0.0\bin -UseManifestForTrust true -Publisher "A. Datum Corporation"  
-    ```  
+   ```cmd  
+   mage -New Application -ToFile 1.0.0.0\WindowsFormsApp1.exe.manifest -Name "Windows Forms App 1" -Version 1.0.0.0 -FromDirectory 1.0.0.0\bin -UseManifestForTrust true -Publisher "A. Datum Corporation"  
+   ```  
   
-5.  Sign the application manifest with your digital certificate.  
+5. Sign the application manifest with your digital certificate.  
   
-    ```cmd  
-    mage -Sign WindowsFormsApp1.exe.manifest -CertFile mycert.pfx  
-    ```  
+   ```cmd  
+   mage -Sign WindowsFormsApp1.exe.manifest -CertFile mycert.pfx  
+   ```  
   
-6.  Generate the deployment manifest with a call to *Mage.exe*. By default, *Mage.exe* will mark your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment as an installed application, so that it can be run both online and offline. To make the application available only when the user is online, use the `-i` argument with a value of `f`. Since this application will take advantage of the multiple deployment feature, exclude the `-providerUrl` argument to *Mage.exe*. (In versions of the .NET Framework prior to version 3.5, excluding `-providerUrl` for an offline application will result in an error.)  
+6. Generate the deployment manifest with a call to *Mage.exe*. By default, *Mage.exe* will mark your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment as an installed application, so that it can be run both online and offline. To make the application available only when the user is online, use the `-i` argument with a value of `f`. Since this application will take advantage of the multiple deployment feature, exclude the `-providerUrl` argument to *Mage.exe*. (In versions of the .NET Framework prior to version 3.5, excluding `-providerUrl` for an offline application will result in an error.)  
   
-    ```cmd  
-    mage -New Deployment -ToFile WindowsFormsApp1.application -Name "Windows Forms App 1" -Version 1.0.0.0 -AppManifest 1.0.0.0\WindowsFormsApp1.manifest   
-    ```  
+   ```cmd  
+   mage -New Deployment -ToFile WindowsFormsApp1.application -Name "Windows Forms App 1" -Version 1.0.0.0 -AppManifest 1.0.0.0\WindowsFormsApp1.manifest   
+   ```  
   
-7.  Do not sign the deployment manifest.  
+7. Do not sign the deployment manifest.  
   
-8.  Provide all of the files to the customer, who will deploy the application on his network.  
+8. Provide all of the files to the customer, who will deploy the application on his network.  
   
 9. At this point, the customer must sign the deployment manifest with his own self-generated certificate. For example, if the customer works for a company named Adventure Works, he can generate a self-signed certificate using the *MakeCert.exe* tool. Next, use the *Pvk2pfx.exe* tool to combine the files created by *MakeCert.exe* into a PFX file that can be passed to *Mage.exe*.  
   
@@ -90,28 +88,28 @@ When you create a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.m
   
 ### To deploy a ClickOnce application with multiple deployment and branding support using MageUI.exe  
   
-1.  Open a Visual Studio command prompt or a [!INCLUDE[winsdkshort](../debugger/debug-interface-access/includes/winsdkshort_md.md)] command prompt, and navigate to the directory in which you will store your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] files.  
+1. Open a Visual Studio command prompt or a [!INCLUDE[winsdkshort](../debugger/debug-interface-access/includes/winsdkshort_md.md)] command prompt, and navigate to the directory in which you will store your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] files.  
   
-2.  Create a subdirectory named **bin** and copy all of your application files here, including executable files, assemblies, resources, and data files.  
+2. Create a subdirectory named **bin** and copy all of your application files here, including executable files, assemblies, resources, and data files.  
   
-3.  Create a subdirectory named after the current version of your deployment. If this is the first time that you are deploying the application, you will likely choose **1.0.0.0**.  
+3. Create a subdirectory named after the current version of your deployment. If this is the first time that you are deploying the application, you will likely choose **1.0.0.0**.  
   
-    > [!NOTE]
-    >  The version of your deployment may be distinct from the version of your application files.  
+   > [!NOTE]
+   >  The version of your deployment may be distinct from the version of your application files.  
   
-4.  Move the \\**bin** directory into the directory you created in step 2.  
+4. Move the \\**bin** directory into the directory you created in step 2.  
   
-5.  Start the graphical tool *MageUI.exe*.  
+5. Start the graphical tool *MageUI.exe*.  
   
-    ```cmd  
-    MageUI.exe  
-    ```  
+   ```cmd  
+   MageUI.exe  
+   ```  
   
-6.  Create a new application manifest by selecting **File**, **New**, **Application Manifest** from the menu.  
+6. Create a new application manifest by selecting **File**, **New**, **Application Manifest** from the menu.  
   
-7.  On the default **Name** tab, enter the name and version number of this deployment. Also, supply a value for **Publisher**, which will be used as the folder name for the application's shortcut link in the Start menu when it is deployed.  
+7. On the default **Name** tab, enter the name and version number of this deployment. Also, supply a value for **Publisher**, which will be used as the folder name for the application's shortcut link in the Start menu when it is deployed.  
   
-8.  Select the **Application Options** tab and click **Use Application Manifest for Trust Information**. This will enable third-party branding for this [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application.  
+8. Select the **Application Options** tab and click **Use Application Manifest for Trust Information**. This will enable third-party branding for this [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application.  
   
 9. Select the **Files** tab and click the **Browse** button next to the **Application Directory** text box.  
   

@@ -1,9 +1,6 @@
 ---
 title: "IDebugBinder::GetFunctionObject | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugBinder::GetFunctionObject"
@@ -23,13 +20,13 @@ This method gets an [IDebugFunctionObject](../../../extensibility/debugger/refer
   
 ```cpp  
 HRESULT GetFunctionObject(   
-   IDebugFunctionObject **ppFunction  
+   IDebugFunctionObject **ppFunction  
 );  
 ```  
   
 ```csharp  
 int GetFunctionObject(  
-   out IDebugFunctionObject ppFunction  
+   out IDebugFunctionObject ppFunction  
 );  
 ```  
   

@@ -1,9 +1,6 @@
 ---
 title: "Command Design | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "commands"
@@ -38,15 +35,15 @@ When you add a command to a VSPackage, you must specify where it is to appear, w
 ### Command organization  
  The environment positions commands by group, priority, and menu.  
   
--   Groups are logical collections of related commands, for example, the **Cut**, **Copy**, and **Paste** command group. Groups are the commands that appear on menus.  
+- Groups are logical collections of related commands, for example, the **Cut**, **Copy**, and **Paste** command group. Groups are the commands that appear on menus.  
   
--   Priority determines the order in which individual commands in a group appear on the menu.  
+- Priority determines the order in which individual commands in a group appear on the menu.  
   
--   Menus act as containers for groups.  
+- Menus act as containers for groups.  
   
- The environment predefines some commands, groups, and menus. For more information, see [Default command, group, and toolbar placement](../../extensibility/internals/default-command-group-and-toolbar-placement.md).  
+  The environment predefines some commands, groups, and menus. For more information, see [Default command, group, and toolbar placement](../../extensibility/internals/default-command-group-and-toolbar-placement.md).  
   
- A command can be assigned to a primary group. The primary group controls the position of the command in the main menu structure and in the **Customize** dialog box. A command can appear in multiple groups; for example, a command can be on the main menu, on a shortcut menu, and on a toolbar. For more information, see [How VSPackages add user interface elements](../../extensibility/internals/how-vspackages-add-user-interface-elements.md).  
+  A command can be assigned to a primary group. The primary group controls the position of the command in the main menu structure and in the **Customize** dialog box. A command can appear in multiple groups; for example, a command can be on the main menu, on a shortcut menu, and on a toolbar. For more information, see [How VSPackages add user interface elements](../../extensibility/internals/how-vspackages-add-user-interface-elements.md).  
   
 ### Command routing  
  The process of invoking and routing commands for VSPackages differs from the process of calling methods on object instances.  

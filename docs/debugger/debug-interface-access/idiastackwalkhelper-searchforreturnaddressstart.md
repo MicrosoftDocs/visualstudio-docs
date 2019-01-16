@@ -1,8 +1,6 @@
 ---
 title: "IDiaStackWalkHelper::searchForReturnAddressStart | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,9 +20,9 @@ Searches the specified stack frame for a return address at or near the specified
   
 ```C++  
 HRESULT searchForReturnAddressStart(   
-   IDiaFrameData*  frame,  
-   ULONGLONG       startAddress,  
-   ULONGLONG*      returnAddress  
+   IDiaFrameData*  frame,  
+   ULONGLONG       startAddress,  
+   ULONGLONG*      returnAddress  
 );  
 ```  
   

@@ -1,9 +1,6 @@
 ---
 title: "IDebugDisassemblyStream2::GetCodeContext | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugDisassemblyStream2::GetCodeContext"
@@ -23,15 +20,15 @@ Returns a code context object corresponding to a specified code location identif
   
 ```cpp  
 HRESULT GetCodeContext(   
-   UINT64               uCodeLocationId,  
-   IDebugCodeContext2** ppCodeContext  
+   UINT64               uCodeLocationId,  
+   IDebugCodeContext2** ppCodeContext  
 );  
 ```  
   
 ```csharp  
 int GetCodeContext(   
-   ulong                  uCodeLocationId,  
-   out IDebugCodeContext2 ppCodeContext  
+   ulong                  uCodeLocationId,  
+   out IDebugCodeContext2 ppCodeContext  
 );  
 ```  
   

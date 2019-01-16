@@ -1,4 +1,5 @@
-- name: Node.js documentation
+- name: Node.js in Visual Studio
+  href: index.yml
 - name: Quickstarts
   items:
   - name: Create a Node.js project
@@ -15,17 +16,25 @@
     href: publish-nodejs-app-azure.md
 - name: How-to Guides
   items:
-  - name: Create a Vue.js application
-    href: create-application-with-vuejs.md
+  - name: Write and edit code
+    href: write-and-edit-code.md
   - name: Manage npm packages
     href: npm-package-management.md
   - name: Develop without projects or solutions ("Open Folder")
     href: develop-javascript-code-without-solutions-projects.md
+  - name: Use the interactive REPL
+    href: nodejs-interactive-repl.md
+  - name: Debug a Node.js application
+    href: debug-nodejs.md
   - name: Unit testing JavaScript code
     href: unit-testing-javascript-with-visual-studio.md
   - name: JavaScript IntelliSense
     href: /visualstudio/ide/javascript-intellisense?toc=/visualstudio/javascript/toc.json
+  - name: Create a Vue.js application
+    href: create-application-with-vuejs.md
 - name: Resources
   items:
+  - name: package.json configuration
+    href: configure-packages-with-package-json.md
   - name: Wiki page for Node.js tools
     href: https://github.com/Microsoft/nodejstools

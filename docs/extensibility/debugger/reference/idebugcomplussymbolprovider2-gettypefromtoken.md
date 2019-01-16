@@ -1,9 +1,6 @@
 ---
 title: "IDebugComPlusSymbolProvider2::GetTypeFromToken | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugComPlusSymbolProvider2::GetTypeFromToken"
@@ -22,19 +19,19 @@ Retrieves a type given its token.
   
 ```cpp  
 HRESULT GetTypeFromToken(  
-   ULONG32       appDomain,  
-   GUID          guidModule,  
-   DWORD         tdToken,  
-   IDebugField** ppField  
+   ULONG32       appDomain,  
+   GUID          guidModule,  
+   DWORD         tdToken,  
+   IDebugField** ppField  
 );  
 ```  
   
 ```csharp  
 int GetTypeFromToken(  
-   uint            appDomain,  
-   Guid            guidModule,  
-   uint            tdToken,  
-   out IDebugField ppField  
+   uint            appDomain,  
+   Guid            guidModule,  
+   uint            tdToken,  
+   out IDebugField ppField  
 );  
 ```  
   

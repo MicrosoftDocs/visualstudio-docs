@@ -1,9 +1,6 @@
 ---
 title: "How to: Add a Property to SharePoint Projects | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -42,11 +39,11 @@ ms.workload:
   
  To persist changes to the property values, the **set** accessors for the properties use the following APIs:  
   
--   `CustomUserFileProperty` uses the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProject.ProjectUserFileData%2A> property to save its value to the project user option file.  
+- `CustomUserFileProperty` uses the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProject.ProjectUserFileData%2A> property to save its value to the project user option file.  
   
--   `CustomProjectFileProperty` uses the <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage.SetPropertyValue%2A> method to save its value to the project file.  
+- `CustomProjectFileProperty` uses the <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage.SetPropertyValue%2A> method to save its value to the project file.  
   
- For more information about persisting data in these files, see [Save data in extensions of the SharePoint project system](../sharepoint/saving-data-in-extensions-of-the-sharepoint-project-system.md).  
+  For more information about persisting data in these files, see [Save data in extensions of the SharePoint project system](../sharepoint/saving-data-in-extensions-of-the-sharepoint-project-system.md).  
   
 ### Specify the behavior of custom properties  
  You can define how a custom property appears and behaves in the **Properties** window by applying attributes from the <xref:System.ComponentModel> namespace to the property definition. The following attributes are useful in many scenarios:  
@@ -82,5 +79,3 @@ ms.workload:
  [How to: Create a SharePoint project extension](../sharepoint/how-to-create-a-sharepoint-project-extension.md)   
  [How to: Add a shortcut menu item to SharePoint projects](../sharepoint/how-to-add-a-shortcut-menu-item-to-sharepoint-projects.md)   
  [Extend the SharePoint project system](../sharepoint/extending-the-sharepoint-project-system.md)  
-  
-  

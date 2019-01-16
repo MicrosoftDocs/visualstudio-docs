@@ -1,8 +1,6 @@
 ---
 title: "IDiaEnumSymbolsByAddr::symbolByVA | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,8 +20,8 @@ Positions the enumerator by performing a lookup by virtual address (VA).
   
 ```C++  
 HRESULT symbolByVA (   
-   DWORD**      virtualAddress,  
-   IDiaSymbol** ppsymbol  
+   DWORD**      virtualAddress,  
+   IDiaSymbol** ppsymbol  
 );  
 ```  
   

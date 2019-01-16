@@ -1,9 +1,6 @@
 ---
 title: "IDebugSettingsCallback2::GetEEMetricDword | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugSettingsCallback2::GetEEMetricDword"
@@ -21,19 +18,19 @@ Retrieves a value that corresponds to the specified metric of the expression eva
   
 ```cpp  
 HRESULT GetEEMetricDword(  
-   REFGUID guidLang,  
-   REFGUID guidVendor,  
-   LPCWSTR pszMetric,  
-   DWORD*  pdwValue  
+   REFGUID guidLang,  
+   REFGUID guidVendor,  
+   LPCWSTR pszMetric,  
+   DWORD*  pdwValue  
 );  
 ```  
   
 ```csharp  
 private int GetEEMetricDword(  
-   ref Guid guidLang,  
-   ref Guid guidVendor,  
-   string   pszMetric,  
-   out uint pdwValue  
+   ref Guid guidLang,  
+   ref Guid guidVendor,  
+   string   pszMetric,  
+   out uint pdwValue  
 );  
 ```  
   

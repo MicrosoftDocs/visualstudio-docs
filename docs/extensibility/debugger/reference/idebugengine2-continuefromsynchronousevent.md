@@ -1,9 +1,6 @@
 ---
 title: "IDebugEngine2::ContinueFromSynchronousEvent | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugEngine2::ContinueFromSynchronousEvent"
@@ -23,13 +20,13 @@ Called by the session debug manager (SDM) to indicate that a synchronous debug e
   
 ```cpp  
 HRESULT ContinueFromSynchronousEvent(   
-   IDebugEvent2* pEvent  
+   IDebugEvent2* pEvent  
 );  
 ```  
   
 ```csharp  
 HRESULT ContinueFromSynchronousEvent(   
-   IDebugEvent2 pEvent  
+   IDebugEvent2 pEvent  
 );  
 ```  
   

@@ -1,8 +1,6 @@
 ---
 title: "Publishing ClickOnce Applications | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 f1_keywords: 
   - "Microsoft.VisualStudio.Publish.ClickOnceProvider.Dialog.Options"
@@ -31,15 +29,15 @@ When publishing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.m
 ## Publish Wizard  
  You can use the Publish Wizard to set the basic settings for publishing your application. This includes the following publishing properties:  
   
--   Publishing Folder Location - where Visual Studio will copy the files (local computer, network file share, FTP server, or Web site)  
+- Publishing Folder Location - where Visual Studio will copy the files (local computer, network file share, FTP server, or Web site)  
   
--   Installation Folder Location - where end users will install from (network file share, FTP server, Web site, CD/DVD)  
+- Installation Folder Location - where end users will install from (network file share, FTP server, Web site, CD/DVD)  
   
--   Online or Offline availability - if end users can access the application with or without a network connection  
+- Online or Offline availability - if end users can access the application with or without a network connection  
   
--   Update frequency - how often the application checks for new updates.  
+- Update frequency - how often the application checks for new updates.  
   
- For more information, see [How to: Publish a ClickOnce application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md).  
+  For more information, see [How to: Publish a ClickOnce application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md).  
   
 ## Publish Page  
  The **Publish** page of the **Project Designer** is used to configure properties for ClickOnce deployment. The following table lists topics.  
@@ -92,7 +90,7 @@ When publishing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.m
 |[Walkthrough: Manually deploy a ClickOnce application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md)|Explains how to use .NET Framework utilities to deploy your ClickOnce application.|  
 |[Walkthrough: Manually deploy a ClickOnce application that does not require re-signing and that preserves branding information](../deployment/walkthrough-manually-deploying-a-clickonce-app-no-re-signing-required.md)|Explains how to use .NET Framework utilities to deploy your ClickOnce application without re-signing the manifests.|  
 |[How to: Configure projects to target platforms](../ide/how-to-configure-projects-to-target-platforms.md)|Explains how to publish for a 64-bit processor by changing the **Target CPU** or **Platform target** property in your project.|  
-|[Walkthrough: Enable a ClickOnce application to run on multiple .NET Framework versions](http://msdn.microsoft.com/en-us/7f4383af-ed87-4853-b4d4-02a3967a5fd9)|Explains how to enable a ClickOnce application to install and run on multiple versions of the NET Framework.|  
+|[Walkthrough: Enable a ClickOnce application to run on multiple .NET Framework versions](https://msdn.microsoft.com/library/7f4383af-ed87-4853-b4d4-02a3967a5fd9)|Explains how to enable a ClickOnce application to install and run on multiple versions of the NET Framework.|  
 |[Walkthrough: Create a custom installer for a ClickOnce application](../deployment/walkthrough-creating-a-custom-installer-for-a-clickonce-application.md)|Explains how to create a custom installer to install a ClickOnce application.|  
 |[How to: Publish a WPF application with visual styles enabled](../deployment/how-to-publish-a-wpf-application-with-visual-styles-enabled.md)|Provides step-by-step instructions to resolve an error that appears when you attempt to publish a WPF application that has visual styles enabled.|  
   

@@ -1,9 +1,6 @@
 ---
 title: "IDebugDocumentContext2::EnumCodeContexts | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugDocumentContext2::EnumCodeContexts"
@@ -23,13 +20,13 @@ Retrieves a list of all code contexts associated with this document context.
   
 ```cpp  
 HRESULT EnumCodeContexts(   
-   IEnumDebugCodeContexts2** ppEnumCodeCxts  
+   IEnumDebugCodeContexts2** ppEnumCodeCxts  
 );  
 ```  
   
 ```csharp  
 int EnumCodeContexts(   
-   out IEnumDebugCodeContexts2 ppEnumCodeCxts  
+   out IEnumDebugCodeContexts2 ppEnumCodeCxts  
 );  
 ```  
   

@@ -1,8 +1,6 @@
 ---
 title: "IDiaStackWalkHelper::frameForVA | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,8 +20,8 @@ Retrieves the stack frame that contains the specified virtual address.
   
 ```C++  
 HRESULT frameForVA(   
-   ULONGLONG        va,  
-   IDiaFrameData**  ppFrame  
+   ULONGLONG        va,  
+   IDiaFrameData**  ppFrame  
 );  
 ```  
   

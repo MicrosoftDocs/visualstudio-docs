@@ -1,9 +1,6 @@
 ---
 title: "IDebugEngine3::SetSymbolPath | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugEngine3::SetSymbolPath"
@@ -23,17 +20,17 @@ Sets the path or paths that are searched for debugging symbols.
   
 ```cpp  
 HRESULT SetSymbolPath (  
-   LPOLESTR            szSymbolSearchPath,  
-   LPOLESTR            szSymbolCachePath,  
-   LOAD_SYMBOLS_FLAGS  Flags  
+   LPOLESTR            szSymbolSearchPath,  
+   LPOLESTR            szSymbolCachePath,  
+   LOAD_SYMBOLS_FLAGS  Flags  
 );  
 ```  
   
 ```csharp  
 int SetSymbolPath(  
-   string                    szSymbolSearchPath,   
-   string                    szSymbolCachePath,   
-   enum_LOAD_SYMBOLS_FLAGS   Flags  
+   string                    szSymbolSearchPath,   
+   string                    szSymbolCachePath,   
+   enum_LOAD_SYMBOLS_FLAGS   Flags  
 );  
 ```  
   

@@ -1,9 +1,6 @@
 ---
 title: "IDebugPendingBreakpoint2::CanBind | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugPendingBreakpoint2::CanBind"
@@ -24,13 +21,13 @@ Determines whether this pending breakpoint can bind to a code location.
   
 ```cpp  
 HRESULT CanBind (   
-   IEnumDebugErrorBreakpoints2** ppErrorEnum  
+   IEnumDebugErrorBreakpoints2** ppErrorEnum  
 );  
 ```  
   
 ```csharp  
 int CanBind (   
-   out IEnumDebugErrorBreakpoints2 ppErrorEnum  
+   out IEnumDebugErrorBreakpoints2 ppErrorEnum  
 );  
 ```  
   

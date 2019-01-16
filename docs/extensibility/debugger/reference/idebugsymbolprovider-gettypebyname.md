@@ -1,9 +1,6 @@
 ---
 title: "IDebugSymbolProvider::GetTypeByName | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugSymbolProvider::GetTypeByName"
@@ -23,17 +20,17 @@ This method maps a symbol name to a symbol type.
   
 ```cpp  
 HRESULT GetTypeByName(   
-   LPCOLESTR     pszClassName,  
-   NAME_MATCH    nameMatch,  
-   IDebugField** ppField  
+   LPCOLESTR     pszClassName,  
+   NAME_MATCH    nameMatch,  
+   IDebugField** ppField  
 );  
 ```  
   
 ```csharp  
 int GetTypeByName(  
-   string          pszClassName,   
-   NAME_MATCH      nameMatch,   
-   out IDebugField ppField  
+   string          pszClassName,   
+   NAME_MATCH      nameMatch,   
+   out IDebugField ppField  
 );  
 ```  
   

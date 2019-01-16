@@ -1,9 +1,6 @@
 ---
 title: "IDebugModule3::SetJustMyCodeState | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugModule3::SetJustMyCodeState"
@@ -23,13 +20,13 @@ Marks the module as being user code or not.
   
 ```cpp  
 HRESULT SetJustMyCodeState(  
-   BOOL fIsUserCode  
+   BOOL fIsUserCode  
 );  
 ```  
   
 ```csharp  
 int SetJustMyCodeState(  
-   int fIsUserCode  
+   int fIsUserCode  
 );  
 ```  
   

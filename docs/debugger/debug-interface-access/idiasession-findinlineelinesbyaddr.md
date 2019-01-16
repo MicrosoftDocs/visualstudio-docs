@@ -1,8 +1,6 @@
 ---
 title: "IDiaSession::findInlineeLinesByAddr | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -20,8 +18,8 @@ Retrieves an enumeration that allows a client to iterate through the line number
   
 ```C++  
 HRESULT findInlineeLinesByAddr (   
-   IDiaSymbol*           parent,   DWORD                 isect,   DWORD                 offset,   DWORD                 length,  
-   IDiaEnumLineNumbers** ppResult  
+   IDiaSymbol*           parent,   DWORD                 isect,   DWORD                 offset,   DWORD                 length,  
+   IDiaEnumLineNumbers** ppResult  
 );  
 ```  
   

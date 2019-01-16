@@ -1,9 +1,6 @@
 ---
 title: "IEnumDebugCustomAttributes::Skip | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IEnumCustomAttributes::Skip"
@@ -23,13 +20,13 @@ Skips a specified number of custom attributes in an enumeration sequence.
   
 ```cpp  
 HRESULT Skip (   
-   ULONG celt  
+   ULONG celt  
 );  
 ```  
   
 ```csharp  
 int Skip(  
-   uint celt  
+   uint celt  
 );  
 ```  
   

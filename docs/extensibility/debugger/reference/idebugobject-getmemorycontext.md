@@ -1,9 +1,6 @@
 ---
 title: "IDebugObject::GetMemoryContext | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugObject::GetMemoryContext"
@@ -23,13 +20,13 @@ Gets the memory context that represents the address of the value of the object.
   
 ```cpp  
 HRESULT GetMemoryContext(   
-   IDebugMemoryContext2** pContext  
+   IDebugMemoryContext2** pContext  
 );  
 ```  
   
 ```csharp  
 int GetMemoryContext(  
-   ref IDebugMemoryContext2 pContext  
+   ref IDebugMemoryContext2 pContext  
 );  
 ```  
   

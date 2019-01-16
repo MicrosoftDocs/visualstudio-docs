@@ -1,9 +1,6 @@
 ---
 title: "BP_RESOLUTION_CODE | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "BP_RESOLUTION_CODE"
@@ -23,13 +20,13 @@ Describes the location of a code breakpoint.
   
 ```cpp  
 typedef struct _BP_RESOLUTION_CODE {   
-   IDebugCodeContext2* pCodeContext;  
+   IDebugCodeContext2* pCodeContext;  
 } BP_RESOLUTION_CODE;  
 ```  
   
 ```csharp  
 public struct BP_RESOLUTION_CODE {   
-   public IDebugCodeContext2 pCodeContext;  
+   public IDebugCodeContext2 pCodeContext;  
 };  
 ```  
   

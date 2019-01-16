@@ -8,7 +8,6 @@ manager: douge
 ms.workload:
   - "multiple"
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Generate and configure your app from models
 You can generate or configure parts of your application from a model.
@@ -16,28 +15,28 @@ You can generate or configure parts of your application from a model.
  The model represents the requirements more directly than the code. By deriving the application's behavior directly from the model, you can respond to changed requirements much more quickly and reliably than by updating the code. Although some initial work is required to set up the derivation, this investment is returned if you expect changes in requirements, or if you plan to make several variants of the product.
 
 ## Generating the Code of your Application from a Model
- The easiest way to generate code is by using text templates. You can generate code in the same [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution in which you keep the model. For more information, see:
+ The easiest way to generate code is by using text templates. You can generate code in the same Visual Studio solution in which you keep the model. For more information, see:
 
--   [Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md)
+- [Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md)
 
--   [Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md)
+- [Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md)
 
- This method is easy to apply incrementally. Start with an application that works only for a specific case, and choose a few parts of it that you want to vary from the model. Rename the source files of these parts so that they become text template (.tt) files. At this point, the source .cs files will automatically be generated from the template files, so the application will work as it did before.
+  This method is easy to apply incrementally. Start with an application that works only for a specific case, and choose a few parts of it that you want to vary from the model. Rename the source files of these parts so that they become text template (.tt) files. At this point, the source .cs files will automatically be generated from the template files, so the application will work as it did before.
 
- Then you can take one part of the code and replace it with a text template expression, which reads the model and generates that part of the source file. At least one value of the model should generate the original source so that again you can run the application and it will work as before. After you test different model values, you can move on to insert template expressions in another part of the code.
+  Then you can take one part of the code and replace it with a text template expression, which reads the model and generates that part of the source file. At least one value of the model should generate the original source so that again you can run the application and it will work as before. After you test different model values, you can move on to insert template expressions in another part of the code.
 
- This incremental method means that code generation is usually a low-risk approach. The resulting applications usually perform almost as well as a hand-written version.
+  This incremental method means that code generation is usually a low-risk approach. The resulting applications usually perform almost as well as a hand-written version.
 
- However, if you start with an existing application, you might find that a lot of refactoring is required to separate the different behaviors that are governed by the model so that they can be independently varied. We recommend that you assess this aspect of the application when you estimate the cost of your project.
+  However, if you start with an existing application, you might find that a lot of refactoring is required to separate the different behaviors that are governed by the model so that they can be independently varied. We recommend that you assess this aspect of the application when you estimate the cost of your project.
 
 ## Configuring your Application from a Model
  If you want to vary your application's behavior at run time, you cannot use code generation, which generates source code before the application is compiled. Instead, you can design your application to read the model, and to vary its behavior accordingly. For more information, see:
 
--   [How to: Open a Model from File in Program Code](../modeling/how-to-open-a-model-from-file-in-program-code.md)
+- [How to: Open a Model from File in Program Code](../modeling/how-to-open-a-model-from-file-in-program-code.md)
 
- This method can also be applied incrementally, but there is more work at the beginning. You need to write the code that will read the model, and set up a framework that allows its values to be accessible to the variable parts. Making the variable parts generic is more expensive than code generation.
+  This method can also be applied incrementally, but there is more work at the beginning. You need to write the code that will read the model, and set up a framework that allows its values to be accessible to the variable parts. Making the variable parts generic is more expensive than code generation.
 
- A generic application usually performs less well than its specific counterparts. If performance is crucial, your project plan should include an assessment of this risk.
+  A generic application usually performs less well than its specific counterparts. If performance is crucial, your project plan should include an assessment of this risk.
 
 ## Developing a Derived Application
  You might find the following general guidelines useful.

@@ -1,9 +1,6 @@
 ---
 title: "IDebugProperty3::GetCustomViewerCount | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProperty3::GetCustomViewerCount"
@@ -23,13 +20,13 @@ Gets the number of custom viewers that might be available for this property.
   
 ```cpp  
 HRESULT GetCustomViewerCount(  
-   ULONG* pcelt  
+   ULONG* pcelt  
 );  
 ```  
   
 ```csharp  
 int GetCustomViewerCount(  
-   out uint pcelt  
+   out uint pcelt  
 );  
 ```  
   

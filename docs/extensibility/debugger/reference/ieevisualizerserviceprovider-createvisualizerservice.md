@@ -1,9 +1,6 @@
 ---
 title: "IEEVisualizerServiceProvider::CreateVisualizerService | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IEEVisualizerServiceProvider::CreateVisualizerService"
@@ -23,21 +20,21 @@ This method creates a visualizer service.
   
 ```cpp  
 HRESULT CreateVisualizerService(  
-   IDebugBinder*              binder,  
-   IDebugSymbolProvider*      pSymProv,  
-   IDebugAddress*             pAddress,  
-   IEEVisualizerDataProvider* dataProvider,  
-   IEEVisualizerService**     ppService  
+   IDebugBinder*              binder,  
+   IDebugSymbolProvider*      pSymProv,  
+   IDebugAddress*             pAddress,  
+   IEEVisualizerDataProvider* dataProvider,  
+   IEEVisualizerService**     ppService  
 );  
 ```  
   
 ```csharp  
 int CreateVisualizerService(  
-   IDebugBinder binder,  
-   IDebugSymbolProvider      pSymProv,  
-   IDebugAddress             pAddress,  
-   IEEVisualizerDataProvider dataProvider,  
-   out IEEVisualizerService  ppService  
+   IDebugBinder binder,  
+   IDebugSymbolProvider      pSymProv,  
+   IDebugAddress             pAddress,  
+   IEEVisualizerDataProvider dataProvider,  
+   out IEEVisualizerService  ppService  
 );  
 ```  
   

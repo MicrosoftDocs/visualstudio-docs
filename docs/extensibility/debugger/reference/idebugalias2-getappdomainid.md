@@ -1,9 +1,6 @@
 ---
 title: "IDebugAlias2::GetAppDomainId | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "GetAppDomainId"
@@ -22,13 +19,13 @@ Retrieves the identifier for the application domain.
   
 ```cpp  
 HRESULT GetAppDomainId (  
-   ULONG32* pappDomainId  
+   ULONG32* pappDomainId  
 );  
 ```  
   
 ```csharp  
 int GetAppDomainId (  
-   out uint pappDomainId  
+   out uint pappDomainId  
 );  
 ```  
   

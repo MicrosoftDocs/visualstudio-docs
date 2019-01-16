@@ -1,8 +1,6 @@
 ---
 title: "IDiaSymbol::get_value | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves the value of a constant.
   
 ```C++  
 HRESULT get_value (   
-   VARIANT* pRetVal  
+   VARIANT* pRetVal  
 );  
 ```  
   

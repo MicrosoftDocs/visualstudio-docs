@@ -1,9 +1,6 @@
 ---
 title: "IDebugProgramPublisher2::PublishProgramNode | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProgramPublisher2::PublishProgramNode"
@@ -23,13 +20,13 @@ Makes a program node available for use by debug engines (DEs) and the session de
   
 ```cpp  
 HRESULT PublishProgramNode(  
-   IDebugProgramNode2 *pProgramNode  
+   IDebugProgramNode2 *pProgramNode  
 );  
 ```  
   
 ```csharp  
 int PublishProgramNode(  
-   IDebugProgramNode2 pProgramNode  
+   IDebugProgramNode2 pProgramNode  
 );  
 ```  
   

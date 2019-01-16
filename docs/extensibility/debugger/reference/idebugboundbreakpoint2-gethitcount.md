@@ -1,9 +1,6 @@
 ---
 title: "IDebugBoundBreakpoint2::GetHitCount | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugBoundBreakpoint2::GetHitCount"
@@ -24,13 +21,13 @@ Gets the current hit count for this bound breakpoint.
   
 ```cpp  
 HRESULT GetHitCount(   
-   DWORD* pdwHitCount  
+   DWORD* pdwHitCount  
 );  
 ```  
   
 ```csharp  
 int GetHitCount(   
-   out uint pdwHitCount  
+   out uint pdwHitCount  
 );  
 ```  
   

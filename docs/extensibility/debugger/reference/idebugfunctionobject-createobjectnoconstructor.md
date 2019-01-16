@@ -1,9 +1,6 @@
 ---
 title: "IDebugFunctionObject::CreateObjectNoConstructor | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugFunctionObject::CreateObjectNoConstructor"
@@ -23,15 +20,15 @@ Creates an object with no constructor.
   
 ```cpp  
 HRESULT CreateObjectNoConstructor(   
-   IDebugField*   pClassObject,  
-   IDebugObject** ppObject  
+   IDebugField*   pClassObject,  
+   IDebugObject** ppObject  
 );  
 ```  
   
 ```csharp  
 int CreateObjectNoConstructor(  
-   IDebugField      pClassField,   
-   out IDebugObject ppObject  
+   IDebugField      pClassField,   
+   out IDebugObject ppObject  
 );  
 ```  
   

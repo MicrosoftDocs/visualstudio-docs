@@ -1,9 +1,6 @@
 ---
 title: "BP_LOCATION_CODE_FILE_LINE | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "BP_LOCATION_CODE_FILE_LINE"
@@ -23,8 +20,8 @@ Contains the data for the location of a breakpoint at a specific line in a code 
   
 ```cpp  
 typedef struct _BP_LOCATION_CODE_FILE_LINE {   
-   BSTR                     bstrContext;  
-   IDebugDocumentPosition2* pDocPos;  
+   BSTR                     bstrContext;  
+   IDebugDocumentPosition2* pDocPos;  
 } BP_LOCATION_CODE_FILE_LINE;  
 ```  
   

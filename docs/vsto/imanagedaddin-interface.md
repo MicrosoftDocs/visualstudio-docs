@@ -1,9 +1,6 @@
 ---
 title: "IManagedAddin interface"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -51,25 +48,25 @@ interface IManagedAddin : IUnknown
 ## How managed Add-ins are loaded  
  The following steps occur when an application starts:  
   
-1.  The application discovers VSTO Add-ins by looking for entries under the following registry key:  
+1. The application discovers VSTO Add-ins by looking for entries under the following registry key:  
   
-     **HKEY_CURRENT_USER\Software\Microsoft\Office\\_\<application name>_\Addins\**  
+    **HKEY_CURRENT_USER\Software\Microsoft\Office\\*\<application name>*\Addins\\**  
   
-     Each entry under this registry key is a unique ID of the VSTO Add-in. Typically, this is the name of the VSTO Add-in assembly.  
+    Each entry under this registry key is a unique ID of the VSTO Add-in. Typically, this is the name of the VSTO Add-in assembly.  
   
-2.  The application looks for a `Manifest` entry under the entry for each VSTO Add-in.  
+2. The application looks for a `Manifest` entry under the entry for each VSTO Add-in.  
   
-     Managed VSTO Add-ins can store the full path of a manifest in the `Manifest` entry under **HKEY_CURRENT_USER\Software\Microsoft\Office\\_\<application name>_\Addins\\_\<add-in ID>_**. A manifest is a file (typically, an XML file) that provides information that is used to help load the VSTO Add-in.  
+    Managed VSTO Add-ins can store the full path of a manifest in the `Manifest` entry under **HKEY_CURRENT_USER\Software\Microsoft\Office\\_\<application name>_\Addins\\_\<add-in ID>_**. A manifest is a file (typically, an XML file) that provides information that is used to help load the VSTO Add-in.  
   
-3.  If the application finds a `Manifest` entry, the application tries to load a managed VSTO Add-in loader component. The application does this by trying to create a COM object that implements the IManagedAddin interface.  
+3. If the application finds a `Manifest` entry, the application tries to load a managed VSTO Add-in loader component. The application does this by trying to create a COM object that implements the IManagedAddin interface.  
   
-     The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] includes a VSTO Add-in loader component (*VSTOLoader.dll*), or you can create your own by implementing the IManagedAddin interface.  
+    The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] includes a VSTO Add-in loader component (*VSTOLoader.dll*), or you can create your own by implementing the IManagedAddin interface.  
   
-4.  The application calls the [IManagedAddin::Load](../vsto/imanagedaddin-load.md) method and passes in the value of the `Manifest` entry.  
+4. The application calls the [IManagedAddin::Load](../vsto/imanagedaddin-load.md) method and passes in the value of the `Manifest` entry.  
   
-5.  The [IManagedAddin::Load](../vsto/imanagedaddin-load.md) method performs tasks required to load the VSTO Add-in, such as configuring the application domain and security policy for the VSTO Add-in that is being loaded.  
+5. The [IManagedAddin::Load](../vsto/imanagedaddin-load.md) method performs tasks required to load the VSTO Add-in, such as configuring the application domain and security policy for the VSTO Add-in that is being loaded.  
   
- For more information about the registry keys that Microsoft Office applications use to discover and load managed VSTO Add-ins, see [Registry entries for VSTO Add-ins](../vsto/registry-entries-for-vsto-add-ins.md).  
+   For more information about the registry keys that Microsoft Office applications use to discover and load managed VSTO Add-ins, see [Registry entries for VSTO Add-ins](../vsto/registry-entries-for-vsto-add-ins.md).  
   
 ## Guidance to implement IManagedAddin  
  If you implement IManagedAddin, you must register the DLL that contains the implementation by using the following CLSID:  
@@ -83,5 +80,3 @@ interface IManagedAddin : IUnknown
   
 ## See also  
  [Unmanaged API reference &#40;Office development in Visual Studio&#41;](../vsto/unmanaged-api-reference-office-development-in-visual-studio.md)  
-  
-  

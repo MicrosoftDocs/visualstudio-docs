@@ -1,8 +1,6 @@
 ---
 title: "IDiaSegment::get_relativeVirtualAddress | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves the relative virtual address (RVA) of the beginning of the section.
   
 ```C++  
 HRESULT get_relativeVirtualAddress (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

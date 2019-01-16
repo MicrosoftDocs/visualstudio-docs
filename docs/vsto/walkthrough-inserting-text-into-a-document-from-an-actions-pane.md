@@ -1,9 +1,6 @@
 ---
 title: "Walkthrough: Insert text into a document from an actions pane"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -54,17 +51,17 @@ ms.workload:
   
 ### To add text to your document  
   
-1.  Type the following text into your Word document:  
+1. Type the following text into your Word document:  
   
-     **March 21, 2008**  
+    **March 21, 2008**  
   
-     **Name**  
+    **Name**  
   
-     **Address**  
+    **Address**  
   
-     **This is an example of a basic actions pane in Word.**  
+    **This is an example of a basic actions pane in Word.**  
   
- You can add a <xref:Microsoft.Office.Tools.Word.Bookmark> control to your document by dragging it from the **Toolbox** in Visual Studio or by using the **Bookmark** dialog box in Word.  
+   You can add a <xref:Microsoft.Office.Tools.Word.Bookmark> control to your document by dragging it from the **Toolbox** in Visual Studio or by using the **Bookmark** dialog box in Word.  
   
 ### To add a Bookmark control to your document  
   
@@ -139,7 +136,7 @@ ms.workload:
      [!code-csharp[Trin_VstcoreActionsPaneWord#8](../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/InsertTextControl.cs#8)]
      [!code-vb[Trin_VstcoreActionsPaneWord#8](../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/InsertTextControl.vb#8)]  
   
-2.  In C#, you must add an event handler for the button click. You can place this code in the `InsertTextControl` constructor after the call to `IntializeComponent`. For information about creating event handlers, see [How to: Create event handlers in Office projects](../vsto/how-to-create-event-handlers-in-office-projects.md).  
+2.  In C#, you must add an event handler for the button click. You can place this code in the `InsertTextControl` constructor after the call to `InitializeComponent`. For information about creating event handlers, see [How to: Create event handlers in Office projects](../vsto/how-to-create-event-handlers-in-office-projects.md).  
   
      [!code-csharp[Trin_VstcoreActionsPaneWord#9](../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/InsertTextControl.cs#9)]  
   
@@ -172,15 +169,13 @@ ms.workload:
 ## Next steps  
  Here are some tasks that might come next:  
   
--   Create an actions pane in Excel. For more information, see [How to: Add an actions pane to Excel workbooks](http://msdn.microsoft.com/62abfce6-e44f-419d-85d8-26bf59f33872).  
+-   Create an actions pane in Excel. For more information, see [How to: Add an actions pane to Excel workbooks](/previous-versions/visualstudio/visual-studio-2010/e3zbk0hz(v=vs.100)).  
   
 -   Bind data to controls on an actions pane. For more information, see [Walkthrough: Bind data to controls on a Word actions pane](../vsto/walkthrough-binding-data-to-controls-on-a-word-actions-pane.md).  
   
 ## See also  
  [Actions pane overview](../vsto/actions-pane-overview.md)   
  [How to: Add an actions pane to Word documents or Excel workbooks](../vsto/how-to-add-an-actions-pane-to-word-documents-or-excel-workbooks.md)   
- [How to: Add an actions pane to Excel workbooks](http://msdn.microsoft.com/62abfce6-e44f-419d-85d8-26bf59f33872)   
+ [How to: Add an actions pane to Excel workbooks](/previous-versions/visualstudio/visual-studio-2010/e3zbk0hz(v=vs.100))   
  [How to: Manage control layout on actions panes](../vsto/how-to-manage-control-layout-on-actions-panes.md)   
  [Bookmark control](../vsto/bookmark-control.md)  
-  
-  

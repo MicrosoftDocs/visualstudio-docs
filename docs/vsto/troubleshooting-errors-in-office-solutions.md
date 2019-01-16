@@ -1,9 +1,6 @@
 ---
 title: "Troubleshoot errors in Office solutions"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VST.Project.DesignerDisabled"
@@ -118,7 +115,7 @@ ms.workload:
   
  [!code-csharp[Trin_VstcoreTroubleshootingExcel#1](../vsto/codesnippet/CSharp/Trin_VstcoreTroubleshootingExcelCS/ThisWorkbook.cs#1)]  
   
- For more information about event interfaces in the Office PIAs, see [Overview of classes and interfaces in the Office primary interop assemblies](http://msdn.microsoft.com/da92dc3c-8209-44de-8095-a843659368d5).  
+ For more information about event interfaces in the Office PIAs, see [Overview of classes and interfaces in the Office primary interop assemblies](/previous-versions/office/office-12//ms247299(v=office.12)).  
   
 ### Cannot reference Office PIA classes in projects that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or the [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)]  
  In projects that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or the [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)], code that references a class that is defined in an Office PIA will not compile by default. Classes in the PIAs use the naming convention *objectname*Class, such as <xref:Microsoft.Office.Interop.Word.DocumentClass> and <xref:Microsoft.Office.Interop.Excel.WorkbookClass>. For example, the following code from a Word VSTO Add-in project will not compile.  
@@ -133,11 +130,11 @@ Word.DocumentClass document = (Word.DocumentClass) Globals.ThisAddIn.Application
   
  This code results in the following compile errors:  
   
--   Visual Basic: "Reference to class 'DocumentClass' is not allowed when its assembly is linked using No-PIA mode."  
+- Visual Basic: "Reference to class 'DocumentClass' is not allowed when its assembly is linked using No-PIA mode."  
   
--   Visual C#: "Interop type 'Microsoft.Office.Interop.Word.DocumentClass' cannot be embedded. Use the applicable interface instead."  
+- Visual C#: "Interop type 'Microsoft.Office.Interop.Word.DocumentClass' cannot be embedded. Use the applicable interface instead."  
   
- To resolve this error, modify the code to reference the corresponding interface instead. For example, rather than reference a <xref:Microsoft.Office.Interop.Word.DocumentClass> object, reference an instance of the <xref:Microsoft.Office.Interop.Word.Document> interface instead.  
+  To resolve this error, modify the code to reference the corresponding interface instead. For example, rather than reference a <xref:Microsoft.Office.Interop.Word.DocumentClass> object, reference an instance of the <xref:Microsoft.Office.Interop.Word.Document> interface instead.  
   
 ```vb  
 Dim document As Word.Document = Globals.ThisAddIn.Application.ActiveDocument  
@@ -214,5 +211,3 @@ Word.Document document = Globals.ThisAddIn.Application.ActiveDocument;
  [Troubleshoot Office solutions](../vsto/troubleshooting-office-solutions.md)   
  [Troubleshoot Office solution security](../vsto/troubleshooting-office-solution-security.md)   
  [Troubleshoot Office solution deployment](../vsto/troubleshooting-office-solution-deployment.md)  
-  
-  

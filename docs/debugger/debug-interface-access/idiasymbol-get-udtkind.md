@@ -1,8 +1,6 @@
 ---
 title: "IDiaSymbol::get_udtKind | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves the variety of a user-defined type (UDT).
   
 ```C++  
 HRESULT get_udtKind (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

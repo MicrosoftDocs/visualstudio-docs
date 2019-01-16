@@ -1,9 +1,6 @@
 ---
 title: "Secure deployment"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -29,21 +26,19 @@ ms.workload:
 ## Prevent Office solutions from running code  
  Administrators can use the registry to prevent all Office solutions from running on a computer. When an Office solution that has managed code extensions is opened, the Visual Studio Tools for Office runtime checks whether an entry with the name `Disabled` exists under one of the following registry keys on the computer:  
   
--   **HKEY_CURRENT_USER\Software\Microsoft\VSTO**  
+- **HKEY_CURRENT_USER\Software\Microsoft\VSTO**  
   
--   **HKEY_LOCAL_MACHINE\Software\Microsoft\VSTO**  
+- **HKEY_LOCAL_MACHINE\Software\Microsoft\VSTO**  
   
- To prevent Office solutions from running code, create a `Disabled` entry under one or both of these registry keys, and specify one of the following data types and values for `Disabled`:  
+  To prevent Office solutions from running code, create a `Disabled` entry under one or both of these registry keys, and specify one of the following data types and values for `Disabled`:  
   
--   A REG_SZ or REG_EXPAND_SZ that is set to any string other than "0" (zero).  
+- A REG_SZ or REG_EXPAND_SZ that is set to any string other than "0" (zero).  
   
--   A REG_DWORD that is set to any value other than 0 (zero).  
+- A REG_DWORD that is set to any value other than 0 (zero).  
   
- To enable Office solutions to run code, set both of the `Disabled` entries to 0 (zero), or delete the registry entries.  
+  To enable Office solutions to run code, set both of the `Disabled` entries to 0 (zero), or delete the registry entries.  
   
 ## See also  
  [Deploy an Office solution](../vsto/deploying-an-office-solution.md)   
- [Prepare computers to run or host Office solutions](http://msdn.microsoft.com/be1b173f-7261-4d74-aa4e-94ccd43db8d8)   
+ [Prepare computers to run or host Office solutions](https://msdn.microsoft.com/be1b173f-7261-4d74-aa4e-94ccd43db8d8)   
  [Secure Office solutions](../vsto/securing-office-solutions.md)  
-  
-  

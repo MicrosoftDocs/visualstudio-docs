@@ -1,9 +1,6 @@
 ---
 title: "Walkthrough: Synchronize a custom task pane with a Ribbon button"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -174,5 +171,3 @@ ms.workload:
  [Walkthrough: Automate an application from a custom task pane](../vsto/walkthrough-automating-an-application-from-a-custom-task-pane.md)   
  [Walkthrough: Display custom task panes with email messages in Outlook](../vsto/walkthrough-displaying-custom-task-panes-with-e-mail-messages-in-outlook.md)   
  [Ribbon overview](../vsto/ribbon-overview.md)  
-  
-  

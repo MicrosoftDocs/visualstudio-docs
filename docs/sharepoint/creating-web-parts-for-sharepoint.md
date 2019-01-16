@@ -1,9 +1,6 @@
 ---
 title: "Creating Web Parts for SharePoint | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "Microsoft.SharePoint.WebControls.DateTimeControl"
@@ -16,8 +13,6 @@ f1_keywords:
   - "Microsoft.SharePoint.WebControls.FormsDigest"
   - "Microsoft.SharePoint.WebControls.ScriptLink"
 dev_langs: 
-  - "VB"
-  - "CSharp"
   - "VB"
   - "CSharp"
 helpviewer_keywords: 
@@ -78,25 +73,25 @@ ms.workload:
 ## Visual web part limitations
  Starting in Visual Studio, you can add visual web parts to sandboxed SharePoint solutions and farm solutions. However, visual web parts have the following limitations:  
   
--   Visual web parts don't support Replaceable parameters. For more information, see [Replaceable parameters](../sharepoint/replaceable-parameters.md).  
+- Visual web parts don't support Replaceable parameters. For more information, see [Replaceable parameters](../sharepoint/replaceable-parameters.md).  
   
--   User controls or visual web parts can't be dragged and dropped or copied onto visual web parts. This action causes a build error.  
+- User controls or visual web parts can't be dragged and dropped or copied onto visual web parts. This action causes a build error.  
   
--   Visual web parts don't directly support SharePoint server tokens such as $SPUrl. For more information, see "Token Restrictions in Sandboxed Visual Web Parts" in the topic [Troubleshoot SharePoint solutions](../sharepoint/troubleshooting-sharepoint-solutions.md).  
+- Visual web parts don't directly support SharePoint server tokens such as $SPUrl. For more information, see "Token Restrictions in Sandboxed Visual Web Parts" in the topic [Troubleshoot SharePoint solutions](../sharepoint/troubleshooting-sharepoint-solutions.md).  
   
--   Visual web parts in a sandboxed solution occasionally get the error, "The sandboxed code execution request was refused because the Sandboxed Code Host Service was too busy to handle the request." For more information about this error, see this post in the [SharePoint Developer Team Blog](http://go.microsoft.com/fwlink/?LinkId=225932).  
+- Visual web parts in a sandboxed solution occasionally get the error, "The sandboxed code execution request was refused because the Sandboxed Code Host Service was too busy to handle the request." For more information about this error, see this post in the [SharePoint Developer Team Blog](http://go.microsoft.com/fwlink/?LinkId=225932).  
   
--   Server-side JavaScript debugging isn't supported in Visual Studio, but client-side JavaScript debugging is supported.  
+- Server-side JavaScript debugging isn't supported in Visual Studio, but client-side JavaScript debugging is supported.  
   
-     Although you can add inline JavaScript to a server-side markup file, debugging isn't supported for breakpoints added to the markup. To debug JavaScript, reference an external JavaScript file in the markup file, and then set the breakpoints in the JavaScript file.  
+   Although you can add inline JavaScript to a server-side markup file, debugging isn't supported for breakpoints added to the markup. To debug JavaScript, reference an external JavaScript file in the markup file, and then set the breakpoints in the JavaScript file.  
   
--   Debugging of inline [!INCLUDE[vstecasp](../sharepoint/includes/vstecasp-md.md)] code must be done in the generated code file instead of in the markup file.  
+- Debugging of inline [!INCLUDE[vstecasp](../sharepoint/includes/vstecasp-md.md)] code must be done in the generated code file instead of in the markup file.  
   
--   Visual web parts don't support the use of the `<@ Assembly Src=` directive.  
+- Visual web parts don't support the use of the `<@ Assembly Src=` directive.  
   
--   SharePoint web controls and some [!INCLUDE[vstecasp](../sharepoint/includes/vstecasp-md.md)] controls aren't supported in the SharePoint sandboxed environment. If unsupported controls are used on a visual web part in a sandboxed solution, the error, "The type or namespace name 'Theme' does not exist in the namespace 'Microsoft.SharePoint.WebControls'" appears.  
+- SharePoint web controls and some [!INCLUDE[vstecasp](../sharepoint/includes/vstecasp-md.md)] controls aren't supported in the SharePoint sandboxed environment. If unsupported controls are used on a visual web part in a sandboxed solution, the error, "The type or namespace name 'Theme' does not exist in the namespace 'Microsoft.SharePoint.WebControls'" appears.  
   
- For more information about sandboxed solutions, see [Differences between sandboxed and farm solutions](../sharepoint/differences-between-sandboxed-and-farm-solutions.md).  
+  For more information about sandboxed solutions, see [Differences between sandboxed and farm solutions](../sharepoint/differences-between-sandboxed-and-farm-solutions.md).  
   
 ## Create older style SharePoint-based web parts
  You can use the templates in Visual Studio to create custom [!INCLUDE[vstecasplong](../sharepoint/includes/vstecasplong-md.md)] web parts for SharePoint. [!INCLUDE[vstecasplong](../sharepoint/includes/vstecasplong-md.md)] web parts are built on top of the [!INCLUDE[vstecasp](../sharepoint/includes/vstecasp-md.md)] web part infrastructure and are the recommended type for new projects.  
@@ -115,4 +110,3 @@ ms.workload:
 |[Walkthrough: Create a web part for SharePoint](../sharepoint/walkthrough-creating-a-web-part-for-sharepoint.md)|Describes how to design a web part for SharePoint.|  
 |[Walkthrough: Create a web part for SharePoint by using a designer](../sharepoint/walkthrough-creating-a-web-part-for-sharepoint-by-using-a-designer.md)|Describes how to design a web part for SharePoint by dragging controls to a visual design surface.|  
 |[Walkthrough: Create Silverlight web part that displays OData for SharePoint](../sharepoint/walkthrough-creating-a-silverlight-web-part-that-displays-odata-for-sharepoint.md)|Describes how to design a web part for SharePoint that hosts a Silverlight application and displays data from SharePoint lists.|  
-  

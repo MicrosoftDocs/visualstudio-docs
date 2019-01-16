@@ -2,7 +2,6 @@
 title: "Analyze HTML UI responsiveness in UWP Apps | Microsoft Docs"
 ms.custom: "H1Hack27Feb2017"
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "JavaScript"
@@ -36,7 +35,7 @@ This topic describes how to isolate performance problems in your apps using the 
   
 2.  On the **Debug** menu, choose **Performance Profiler**.  
   
-     If you want to change the analysis target for the profiler, choose**Change Target**.  
+     If you want to change the analysis target for the profiler, choose **Change Target**.  
   
      ![Change analysis target](../profiling/media/js_tools_target.png "JS_Tools_Target")  
   
@@ -63,7 +62,7 @@ This topic describes how to isolate performance problems in your apps using the 
 6.  To stop profiling the app and view data that the profiler gathered, choose **Stop collection**.  
   
 ## Isolate an issue  
- The following section provides suggestions to help you isolate performance problems. For a step-by-step explanation of how to identify and fix performance issues by using a sample performance testing app, see [Walkthrough: Improving UI responsiveness (HTML)](../profiling/walkthrough-improving-ui-responsiveness-html.md).  
+ The following section provides suggestions to help you isolate performance problems. For a step-by-step explanation of how to identify and fix performance issues by using a sample performance testing app, see [Walkthrough: Improving UI responsiveness (HTML)](/visualstudio/profiling/html-ui-responsiveness).  
   
 ###  <a name="Workflow"></a> Isolate a UI responsiveness problem  
  These steps provide a suggested workflow that might help you use the UI Responsiveness Profiler more effectively:  
@@ -195,36 +194,36 @@ if (performance.mark && performance.measure) {
   
  Use this graph to:  
   
--   Identify general areas of concern.  
+- Identify general areas of concern.  
   
--   Choose a specific time period to display in the timeline details graph. To choose a time period, select a part of the graph and drag the pointer to make a selection.  
+- Choose a specific time period to display in the timeline details graph. To choose a time period, select a part of the graph and drag the pointer to make a selection.  
   
--   Get a more detailed view of a selected time period by choosing the **Zoom in** button.  
+- Get a more detailed view of a selected time period by choosing the **Zoom in** button.  
   
- For more info on using the graph, see [Isolate a UI responsiveness problem](#Workflow) in this topic.  
+  For more info on using the graph, see [Isolate a UI responsiveness problem](#Workflow) in this topic.  
   
 ###  <a name="VisualThroughput"></a> View visual throughput (FPS)  
  The visual throughput graph enables you to identify periods of time in which the frame rate dropped. It shows the frames per second (FPS) for the app. This graph is most useful for the development of games and rich media apps.  
   
  The displayed FPS value might differ from the actual frame rate. Keep this information in mind when examining data in this graph:  
   
--   The graph shows the FPS that the app is capable of achieving at any specific time. When the app is idle, the FPS is the same as the monitor refresh rate.  
+- The graph shows the FPS that the app is capable of achieving at any specific time. When the app is idle, the FPS is the same as the monitor refresh rate.  
   
--   The graph shows the actual FPS if the app is doing work that requires visual updates.  
+- The graph shows the actual FPS if the app is doing work that requires visual updates.  
   
--   The graph shows a value of zero if frames are being dropped.  
+- The graph shows a value of zero if frames are being dropped.  
   
- This example shows what the visual throughput graph looks like:  
+  This example shows what the visual throughput graph looks like:  
   
- ![Visual throughput graph](../profiling/media/js_htmlvizprof_vizthru.png "JS_HTMLVizProf_VizThru")  
+  ![Visual throughput graph](../profiling/media/js_htmlvizprof_vizthru.png "JS_HTMLVizProf_VizThru")  
   
- Use the visual throughput graph to:  
+  Use the visual throughput graph to:  
   
--   Identify general areas of concern.  
+- Identify general areas of concern.  
   
--   Choose a specific time period to display in the timeline details graph. To choose a time period, select a part of the graph and drag the pointer to make a selection.  
+- Choose a specific time period to display in the timeline details graph. To choose a time period, select a part of the graph and drag the pointer to make a selection.  
   
--   Get a more detailed view of a selected time period by choosing the **Zoom in** button.  
+- Get a more detailed view of a selected time period by choosing the **Zoom in** button.  
   
 ###  <a name="TimelineDetails"></a> View timeline details  
  The timeline details graph appears in the lower pane of the UI Responsiveness Profiler. It provides sequential and hierarchical information about events that consumed the most CPU time during selected time periods. This graph can help you determine what triggered a particular event and, for some events, how the event maps back to source code. This graph also helps you determine the time required to paint visual updates on the screen.  
@@ -301,23 +300,23 @@ if (performance.mark && performance.measure) {
 ## Profiler event reference  
  Profiler events are categorized and color-coded in the UI Responsiveness Profiler. These are the event categories:  
   
--   **Loading.** Indicates time spent retrieving app resources and parsing HTML and CSS when the app first loads. This can include network requests.  
+- **Loading.** Indicates time spent retrieving app resources and parsing HTML and CSS when the app first loads. This can include network requests.  
   
--   **Scripting.** Indicates time spent parsing and running JavaScript. This includes DOM events, timers, script evaluation, and animation frame work. It includes both user code and library code.  
+- **Scripting.** Indicates time spent parsing and running JavaScript. This includes DOM events, timers, script evaluation, and animation frame work. It includes both user code and library code.  
   
--   **GC.** Indicates time spent on garbage collection.  
+- **GC.** Indicates time spent on garbage collection.  
   
--   **Styling.** Indicates time spent parsing CSS and calculating element presentation and layout.  
+- **Styling.** Indicates time spent parsing CSS and calculating element presentation and layout.  
   
--   **Rendering.** Indicates time spent painting the screen.  
+- **Rendering.** Indicates time spent painting the screen.  
   
--   **Image decoding.** Indicates time spent decompressing and decoding images.  
+- **Image decoding.** Indicates time spent decompressing and decoding images.  
   
- For the script and styling categories, the UI Responsiveness Profiler might provide data that you can act on in the timeline details graph. If you identify scripting issues as a problem, you can run the CPU Sampling profiler with the UI Responsiveness Profiler. Alternatively, you could use the Visual Studio function profiler to obtain more detailed data. For more info, see [JavaScript Memory](../profiling/javascript-memory.md).  
+  For the script and styling categories, the UI Responsiveness Profiler might provide data that you can act on in the timeline details graph. If you identify scripting issues as a problem, you can run the CPU Sampling profiler with the UI Responsiveness Profiler. Alternatively, you could use the Visual Studio function profiler to obtain more detailed data. For more info, see [JavaScript Memory](../profiling/javascript-memory.md).  
   
- For the other event categories, you might be able to identify platform side effects that result from adding features to your app, but in these cases you might not be able to resolve the particular performance issues by using the UI Responsiveness Profiler.  
+  For the other event categories, you might be able to identify platform side effects that result from adding features to your app, but in these cases you might not be able to resolve the particular performance issues by using the UI Responsiveness Profiler.  
   
- This table shows the events and their descriptions:  
+  This table shows the events and their descriptions:  
   
 |Event|Event category|Occurs when|  
 |-----------|--------------------|-----------------|  
@@ -345,11 +344,11 @@ if (performance.mark && performance.measure) {
   
 ## Additional information  
   
--   Watch [this video](http://channel9.msdn.com/Events/Build/2013/3-316) from the Build 2013 conference about the UI Responsiveness Profiler.  
+-   Watch [this video](https://channel9.msdn.com/Events/Build/2013/3-316) from the Build 2013 conference about the UI Responsiveness Profiler.  
   
--   Read performance tips for UWP apps built for Windows using JavaScript. For more info, see [Performance best practices for UWP apps using JavaScript](http://msdn.microsoft.com/library/windows/apps/hh465194.aspx).  
+-   Read performance tips for UWP apps built for Windows using JavaScript. For more info, see [Performance best practices for UWP apps using JavaScript](/previous-versions/windows/apps/hh465194\(v\=win.10\)).  
   
--   For info on the single-threaded code execution model and performance, see [Executing code](http://msdn.microsoft.com/library/windows/apps/hh781217.aspx).  
+-   For info on the single-threaded code execution model and performance, see [Executing code](/previous-versions/windows/apps/hh781217\(v\=win.10\)).  
   
 ## See also  
  [First look at profiling tools](../profiling/profiling-feature-tour.md)

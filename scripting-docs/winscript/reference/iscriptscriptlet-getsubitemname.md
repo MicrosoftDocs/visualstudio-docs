@@ -24,7 +24,7 @@ Returns the last identifier in the fully qualified name of a scriptlet's object 
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetSubItemName(  
    BSTR               *pbstr  
 );  

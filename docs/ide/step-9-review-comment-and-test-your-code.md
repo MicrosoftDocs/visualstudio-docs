@@ -1,9 +1,7 @@
 ---
 title: "Step 9: Review, comment, and test your code"
-ms.custom: ""
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.assetid: f26f79ba-c91b-4164-b87f-679a1b231c09
@@ -18,29 +16,29 @@ You next add a comment to your code. A comment is a note that doesn't change the
 
  You just built something that works, and although it's not done yet, it can already load a picture. Before you add a comment to your code and test it, take time to review the code concepts, because you will use these concepts frequently:
 
--   When you double-clicked the **Show a picture** button in **Windows Forms Designer**, the IDE automatically added a *method* to your program's code.
+- When you double-clicked the **Show a picture** button in **Windows Forms Designer**, the IDE automatically added a *method* to your program's code.
 
--   Methods are how you organize your code: It's how your code is grouped together.
+- Methods are how you organize your code: It's how your code is grouped together.
 
--   Most of the time, a method does a small number of things in a specific order, like how your `showButton_Click()` method shows a dialog box and then loads a picture.
+- Most of the time, a method does a small number of things in a specific order, like how your `showButton_Click()` method shows a dialog box and then loads a picture.
 
--   A method is made up of code *statements*, or lines of code. Think of a method as a way to bundle code statements together.
+- A method is made up of code *statements*, or lines of code. Think of a method as a way to bundle code statements together.
 
--   When a method is executed, or *called*, the statements in the method are executed in order, one after another, starting with the first one.
+- When a method is executed, or *called*, the statements in the method are executed in order, one after another, starting with the first one.
 
-     The following is an example of a statement.
+   The following is an example of a statement.
 
-    ```csharp
-    pictureBox1.Load(openFileDialog1.FileName);
-    ```
+  ```csharp
+  pictureBox1.Load(openFileDialog1.FileName);
+  ```
 
-    ```vb
-    pictureBox1.Load(openFileDialog1.FileName)
-    ```
+  ```vb
+  pictureBox1.Load(openFileDialog1.FileName)
+  ```
 
-     Statements are what make your programs do things. In Visual C#, a statement always ends in a semicolon. In Visual Basic, the end of a line is the end of a statement. (No semicolon is needed in Visual Basic.) The preceding statement tells your <xref:System.Windows.Forms.PictureBox> control to load the file that the user selected with the **OpenFileDialog** component.
+   Statements are what make your programs do things. In Visual C#, a statement always ends in a semicolon. In Visual Basic, the end of a line is the end of a statement. (No semicolon is needed in Visual Basic.) The preceding statement tells your <xref:System.Windows.Forms.PictureBox> control to load the file that the user selected with the **OpenFileDialog** component.
 
- ![link to video](../data-tools/media/playvideo.gif)For a video version of this topic, see [Tutorial 1: Create a picture viewer in Visual Basic - Video 5](http://go.microsoft.com/fwlink/?LinkId=205216) or [Tutorial 1: Create a picture viewer in C# - Video 5](http://go.microsoft.com/fwlink/?LinkId=205206). These videos use an earlier version of Visual Studio, so there are slight differences in some menu commands and other user interface elements. However, the concepts and procedures work similarly in the current version of Visual Studio.
+  ![link to video](../data-tools/media/playvideo.gif)For a video version of this topic, see [Tutorial 1: Create a picture viewer in Visual Basic - Video 5](http://go.microsoft.com/fwlink/?LinkId=205216) or [Tutorial 1: Create a picture viewer in C# - Video 5](http://go.microsoft.com/fwlink/?LinkId=205206). These videos use an earlier version of Visual Studio, so there are slight differences in some menu commands and other user interface elements. However, the concepts and procedures work similarly in the current version of Visual Studio.
 
 ## To add comments
 

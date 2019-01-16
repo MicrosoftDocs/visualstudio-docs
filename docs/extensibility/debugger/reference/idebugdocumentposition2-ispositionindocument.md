@@ -1,9 +1,6 @@
 ---
 title: "IDebugDocumentPosition2::IsPositionInDocument | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugDocumentPosition2::IsPositionInDocument"
@@ -23,13 +20,13 @@ Determines if the document position is contained in the given document.
   
 ```cpp  
 HRESULT IsPositionInDocument(   
-   IDebugDocument2* pDoc  
+   IDebugDocument2* pDoc  
 );  
 ```  
   
 ```csharp  
 int IsPositionInDocument(   
-   IDebugDocument2 pDoc  
+   IDebugDocument2 pDoc  
 );  
 ```  
   

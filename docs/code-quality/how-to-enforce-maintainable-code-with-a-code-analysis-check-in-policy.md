@@ -2,7 +2,6 @@
 title: "How to: Enforce Maintainable Code with a Code Analysis Check-in Policy"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "code analysis, check-in policies"
@@ -23,7 +22,7 @@ Administrators of version control for Team Foundation can add the Code Analysis 
 
 ## To open the Code Analysis Policy editor
 
-1. In **Team Explorer**, right-click the team project, click **Team Project Settings**, and then click **Source Control**.
+1. In **Team Explorer**, right-click the project, click **Project Settings**, and then click **Source Control**.
 
      The **Source Control** dialog box appears.
 
@@ -41,19 +40,19 @@ Administrators of version control for Team Foundation can add the Code Analysis 
 
 2. Select the check boxes for the following rules:
 
-    -   Depth of Inheritance: **CA1501 AvoidExcessiveInheritance** - Threshold: Warning at more than 5 levels deep
+   - Depth of Inheritance: **CA1501 AvoidExcessiveInheritance** - Threshold: Warning at more than 5 levels deep
 
-    -   Complexity: **CA1502 AvoidExcessiveComplexity** - Threshold: Warning at more than 25
+   - Complexity: **CA1502 AvoidExcessiveComplexity** - Threshold: Warning at more than 25
 
-    -   Maintainability Index: **CA1505 AvoidUnmaintainableCode** - Threshold: Warning at fewer than 20
+   - Maintainability Index: **CA1505 AvoidUnmaintainableCode** - Threshold: Warning at fewer than 20
 
-    -   Class Coupling: **CA1506 AvoidExcessiveClassCoupling** - Threshold: Warning at more than 80 for a class and more than 30 for a method
+   - Class Coupling: **CA1506 AvoidExcessiveClassCoupling** - Threshold: Warning at more than 80 for a class and more than 30 for a method
 
-    In addition, if you want a rule violation to prevent a successful build, select the **Treat Warning As An Error** check box next to the rule description.
+     In addition, if you want a rule violation to prevent a successful build, select the **Treat Warning As An Error** check box next to the rule description.
 
 3. Click **OK**. The new check-in policy now applies to future check-ins.
 
 ## See also
 
 - [Code metrics values](../code-quality/code-metrics-values.md)
-- [Creating and using code analysis check-in policies](../code-quality/creating-and-using-code-analysis-check-in-policies.md)
+- [Creating and using code analysis check-in policies](../code-quality/how-to-create-or-update-standard-code-analysis-check-in-policies.md)

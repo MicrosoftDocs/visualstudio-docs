@@ -21,58 +21,58 @@ manager: douge
 ms.workload:
   - "multiple"
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Customize code maps by editing the DGML files
-To customize a code map, you can edit a map's Directed Graph Markup Language (.dgml) file. For example, you can edit elements to specify custom styles, assign properties and categories to code elements and links, or link documents or URLs to code elements or to links. For more information about DGML elements, see [Directed Graph Markup Language (DGML) reference](../modeling/directed-graph-markup-language-dgml-reference.md).
 
- Edit the code map's .dgml file in a text or XML editor. If the map is part of your Visual Studio solution, select it in **Solution Explorer**, open the shortcut menu, and choose **Open With**, **XML (Text) Editor**.
+To customize a code map, you can edit its Directed Graph Markup Language (.dgml) file. For example, you can edit elements to specify custom styles, assign properties and categories to code elements and links, or link documents or URLs to code elements or to links. For more information about DGML elements, see [Directed Graph Markup Language (DGML) reference](../modeling/directed-graph-markup-language-dgml-reference.md).
+
+Edit the code map's .dgml file in a text or XML editor. If the map is part of your Visual Studio solution, select it in **Solution Explorer**, open the shortcut menu, and choose **Open With**, **XML (Text) Editor**.
 
 > [!NOTE]
->  To create code maps, you must have Visual Studio Enterprise. When you edit a code map in Visual Studio, it cleans up any unused DGML elements and attributes by deleting them when you save the .dgml file. It also creates code elements automatically when you manually add new links. When you save the .dgml file, any attributes that you added to an element might rearrange themselves in alphabetical order.
+> To create code maps, you must have Visual Studio Enterprise edition. When you edit a code map in Visual Studio, it cleans up any unused DGML elements and attributes by deleting them when you save the .dgml file. It also creates code elements automatically when you manually add new links. When you save the .dgml file, any attributes that you added to an element might rearrange themselves in alphabetical order.
 
-##  <a name="OrganizeNodes"></a> Group code elements
+## <a name="OrganizeNodes"></a> Group code elements
  You can add new groups or convert existing nodes into a group.
 
-1.  Open the .dgml file in a text or XML editor.
+1. Open the .dgml file in a text or XML editor.
 
-2.  To convert a code element to a group, find the `<Node/>` element for that code element.
+2. To convert a code element to a group, find the `<Node/>` element for that code element.
 
-     \- or -
+    \- or -
 
-     To add a new group, find the `<Nodes>` section. Add a new `<Node/>` element.
+    To add a new group, find the `<Nodes>` section. Add a new `<Node/>` element.
 
-3.  In the `<Node/>` element, add a `Group` attribute to specify whether the group appears expanded or collapsed. For example:
+3. In the `<Node/>` element, add a `Group` attribute to specify whether the group appears expanded or collapsed. For example:
 
-    ```xml
-    <Nodes>
-       <Node Id="MyFirstGroup" Group="Expanded" />
-       <Node Id="MySecondGroup" Group="Collapsed" />
-    </Nodes>
-    ```
+   ```xml
+   <Nodes>
+      <Node Id="MyFirstGroup" Group="Expanded" />
+      <Node Id="MySecondGroup" Group="Collapsed" />
+   </Nodes>
+   ```
 
-4.  In the `<Links>` section, make sure that a `<Link/>` element that has the following attributes exist for each relationship between a group code element and its child code elements:
+4. In the `<Links>` section, make sure that a `<Link/>` element that has the following attributes exist for each relationship between a group code element and its child code elements:
 
-    -   A `Source` attribute that specifies the group code element
+   - A `Source` attribute that specifies the group code element
 
-    -   A `Target` attribute that specifies the child code element
+   - A `Target` attribute that specifies the child code element
 
-    -   A `Category` attribute that specifies a `Contains` relationship between the group code element and its child code element
+   - A `Category` attribute that specifies a `Contains` relationship between the group code element and its child code element
 
      For example:
 
-    ```xml
-    <Links>
-       <Link Category="Contains" Source="MyFirstNewGroup" Target="FirstGroupChildOne" />
-       <Link Category ="Contains" Source="MyFirstNewGroup" Target="FirstGroupChildTwo" />
-       <Link Category ="Contains" Source="MySecondNewGroup" Target="SecondGroupChildOne" />
-       <Link Category="Contains" Source="MySecondNewGroup" Target="SecondGroupChildTwo" />
-    </Links>
-    ```
+   ```xml
+   <Links>
+      <Link Category="Contains" Source="MyFirstNewGroup" Target="FirstGroupChildOne" />
+      <Link Category ="Contains" Source="MyFirstNewGroup" Target="FirstGroupChildTwo" />
+      <Link Category ="Contains" Source="MySecondNewGroup" Target="SecondGroupChildOne" />
+      <Link Category="Contains" Source="MySecondNewGroup" Target="SecondGroupChildTwo" />
+   </Links>
+   ```
 
-     For more information about the `Category` attribute, see [Assign categories to code elements and links](#AssignCategories).
+    For more information about the `Category` attribute, see [Assign categories to code elements and links](#AssignCategories).
 
-##  <a name="ChangeGraphStyle"></a> Change the style of the map
+## <a name="ChangeGraphStyle"></a> Change the style of the map
  You can change the background color and border color of the map by editing the map's .dgml file. To change the style of code elements and links, see [Change the style of code elements and links](#Highlight).
 
 1.  Open the .dgml file in a text or XML editor.
@@ -100,9 +100,9 @@ To customize a code map, you can edit a map's Directed Graph Markup Language (.d
     </DirectedGraph>
     ```
 
-##  <a name="Highlight"></a> Change the style of code elements and links
+## <a name="Highlight"></a> Change the style of code elements and links
 
-###  <a name="CreateCustomStyles"></a>
+### <a name="CreateCustomStyles"></a>
  You can apply custom styles to the following code elements:
 
 -   Single code elements and links
@@ -241,81 +241,81 @@ To customize a code map, you can edit a map's Directed Graph Markup Language (.d
 
 ##### To apply custom styles to a group of code elements or links
 
-1.  Open the .dgml file in a text or XML editor.
+1. Open the .dgml file in a text or XML editor.
 
-2.  If a `<Styles></Styles>` element does not exist, add one under the `<DirectedGraph></DirectedGraph>` element after the `<Links></Links>` element.
+2. If a `<Styles></Styles>` element does not exist, add one under the `<DirectedGraph></DirectedGraph>` element after the `<Links></Links>` element.
 
-3.  In the `<Styles></Styles>` element, under the `<Style/>` element and specify the following attributes:
+3. In the `<Styles></Styles>` element, under the `<Style/>` element and specify the following attributes:
 
-    -   `TargetType="Node` &#124; `Link | Graph"`
+   - `TargetType="Node` &#124; `Link | Graph"`
 
-    -   `GroupLabel="` *NameInLegendBox* `"`
+   - `GroupLabel="` *NameInLegendBox* `"`
 
-    -   `ValueLabel="` *NameInStylePickerBox* `"`
+   - `ValueLabel="` *NameInStylePickerBox* `"`
 
      To apply a custom style to all target types, do not use a condition.
 
 ##### To apply a conditional style to groups of code elements or links
 
-1.  Open the .dgml file in a text or XML editor.
+1. Open the .dgml file in a text or XML editor.
 
-2.  In the `<Style/>` element, add a `<Condition/>` element that contains an `Expression` attribute to specify an expression that returns a Boolean value.
+2. In the `<Style/>` element, add a `<Condition/>` element that contains an `Expression` attribute to specify an expression that returns a Boolean value.
 
-     For example:
+    For example:
 
-    ```xml
-    <Condition Expression="MyCategory"/>
-    ```
+   ```xml
+   <Condition Expression="MyCategory"/>
+   ```
 
-     - or -
+    - or -
 
-    ```xml
-    <Condition Expression="MyCategory > 100"/>
-    ```
+   ```xml
+   <Condition Expression="MyCategory > 100"/>
+   ```
 
-     - or -
+    - or -
 
-    ```xml
-    <Condition Expression="HasCategory('MyCategory')"/>
-    ```
+   ```xml
+   <Condition Expression="HasCategory('MyCategory')"/>
+   ```
 
-     This expression uses the following Backus-Naur Form (BNF) syntax:
+    This expression uses the following Backus-Naur Form (BNF) syntax:
 
-     <Expression> ::= <BinaryExpression> &#124; <UnaryExpression> &#124; "("<Expression>")" &#124; <MemberBindings> &#124; <Literal> &#124; <Number>
+    <Expression> ::= <BinaryExpression> &#124; <UnaryExpression> &#124; "("<Expression>")" &#124; <MemberBindings> &#124; <Literal> &#124; <Number>
 
-     <BinaryExpression> ::= <Expression> <Operator> <Expression>
+    <BinaryExpression> ::= <Expression> <Operator> <Expression>
 
-     <UnaryExpression> ::= "!" <Expression> &#124; "+" <Expression> &#124; "-" <Expression>
+    <UnaryExpression> ::= "!" <Expression> &#124; "+" <Expression> &#124; "-" <Expression>
 
-     <Operator> ::= "<" &#124; "\<=" &#124; "=" &#124; ">=" &#124; ">" &#124; "!=" &#124; "or" &#124; "and" &#124; "+" &#124; "*" &#124; "/" &#124; "-"
+    <Operator> ::= "<" &#124; "\<=" &#124; "=" &#124; ">=" &#124; ">" &#124; "!=" &#124; "or" &#124; "and" &#124; "+" &#124; "*" &#124; "/" &#124; "-"
 
-     <MemberBindings> ::= <MemberBindings> &#124; <MemberBinding> "." <MemberBinding>
+    <MemberBindings> ::= <MemberBindings> &#124; <MemberBinding> "." <MemberBinding>
 
-     <MemberBinding> ::= <MethodCall> &#124; <PropertyGet>
+    <MemberBinding> ::= <MethodCall> &#124; <PropertyGet>
 
-     <MethodCall> ::= <Identifier> "(" <MethodArgs> ")"
+    <MethodCall> ::= <Identifier> "(" <MethodArgs> ")"
 
-     <PropertyGet> ::= Identifier
+    <PropertyGet> ::= Identifier
 
-     <MethodArgs> ::= <Expression> &#124; <Expression> "," <MethodArgs> &#124; <empty>
+    <MethodArgs> ::= <Expression> &#124; <Expression> "," <MethodArgs> &#124; <empty>
 
-     <Identifier> ::= [^. ]*
+    <Identifier> ::= [^. ]*
 
-     <Literal> ::= single or double-quoted string literal
+    <Literal> ::= single or double-quoted string literal
 
-     <Number> ::= string of digits with optional decimal point
+    <Number> ::= string of digits with optional decimal point
 
-     You can specify multiple `<Condition/>` elements, which must all be true to apply the style.
+    You can specify multiple `<Condition/>` elements, which must all be true to apply the style.
 
-3.  On the next line after the `<Condition/>` element, add one or multiple `<Setter/>` elements to specify a `Property` attribute and a fixed `Value` attribute or a computed `Expression` attribute to apply to the map, code elements, or links that meet the condition.
+3. On the next line after the `<Condition/>` element, add one or multiple `<Setter/>` elements to specify a `Property` attribute and a fixed `Value` attribute or a computed `Expression` attribute to apply to the map, code elements, or links that meet the condition.
 
-     For example:
+    For example:
 
-    ```xml
-    <Setter Property="BackGround" Value="Green"/>
-    ```
+   ```xml
+   <Setter Property="BackGround" Value="Green"/>
+   ```
 
- As a simple complete example, the following condition specifies that a code element appears green or red based on whether its `Passed` category is set to `True` or `False`:
+   As a simple complete example, the following condition specifies that a code element appears green or red based on whether its `Passed` category is set to `True` or `False`:
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -430,7 +430,7 @@ To customize a code map, you can edit a map's Directed Graph Markup Language (.d
 </DirectedGraph>
 ```
 
-##  <a name="AssignProperties"></a> Assign properties to code elements and links
+## <a name="AssignProperties"></a> Assign properties to code elements and links
  You can organize code elements and links by assigning properties to them. For example, you can select code elements that have specific properties so that you can group them, change their style, or hide them.
 
 #### To assign a property to a code element
@@ -475,7 +475,7 @@ To customize a code map, you can edit a map's Directed Graph Markup Language (.d
     </Properties>
     ```
 
-##  <a name="AssignCategories"></a> Assign categories to code elements and links
+## <a name="AssignCategories"></a> Assign categories to code elements and links
  The following sections demonstrate how you can organize code elements by assigning categories to them, and how you can create hierarchical categories that help you organize code elements and add attributes to child categories by using inheritance.
 
 #### To assign a category to a code element
@@ -546,7 +546,7 @@ To customize a code map, you can edit a map's Directed Graph Markup Language (.d
 
      In this example, the background of `MyFirstNode` is green because its `Category` attribute inherits the `Background` attribute of `MyParentCategory`.
 
-##  <a name="AddReferences"></a> Link documents or URLs to code elements and links
+## <a name="AddReferences"></a> Link documents or URLs to code elements and links
  You can link documents or URLs to code elements or to links by editing the map's .dgml file and adding a `Reference` attribute to the `<Node/>` element for a code element or the `<Link/>` element for a link. You can then open and view that content from the code element or link. The `Reference` attribute specifies the path of that content. This can be a path relative to the location of the .dgml file or an absolute path.
 
 > [!CAUTION]
@@ -564,74 +564,74 @@ To customize a code map, you can edit a map's Directed Graph Markup Language (.d
 
 #### To link a document or URL to a code element
 
-1.  Open the .dgml file in a text or XML editor.
+1. Open the .dgml file in a text or XML editor.
 
-2.  Find the `<Node/>` element for the code element that you want.
+2. Find the `<Node/>` element for the code element that you want.
 
-3.  Perform one of the tasks in the following table:
+3. Perform one of the tasks in the following table:
 
-     A single code element
+    A single code element
 
-    -   In the `<Node/>` or `<Link/>` element, add a `Reference` attribute to specify the location of the code element.
+   - In the `<Node/>` or `<Link/>` element, add a `Reference` attribute to specify the location of the code element.
 
-        > [!NOTE]
-        >  You can have only one `Reference` attribute per element.
-
-     For example:
-
-    ```xml
-    <Nodes>
-       <Node Id="MyNode" Reference="MyDocument.txt" />
-    </Nodes>
-    <Properties>
-       <Property Id="Reference" Label="My Document" DataType="System.String" IsReference="True" />
-    </Properties>
-    ```
-
-     Multiple code elements
-
-    1.  In the `<Node/>` or `<Link/>` element, add a new attribute to specify the location of each reference.
-
-    2.  In the `<Properties>` section:
-
-        1.  Add a `<Property/>` element for each new type of reference.
-
-        2.  Set the `Id` attribute to the name of the new reference attribute.
-
-        3.  Add the `IsReference` attribute and set it to `True` to make the reference appear on the code element's **Go To Reference** shortcut menu.
-
-        4.  Use the `Label` attribute to specify the display text on the code element's **Go To Reference** shortcut menu.
+     > [!NOTE]
+     >  You can have only one `Reference` attribute per element.
 
      For example:
 
-    ```xml
-    <Nodes>
-       <Node Id="MyNode" SequenceDiagram="MySequenceDiagram.sequencediagram" ActiveBugs="MyActiveBugs.wiq"/>
-    </Nodes>
-    <Properties>
-       <Property Id="SequenceDiagram" Label="My Sequence Diagram" DataType="System.String" IsReference="True" />
-       <Property Id="ActiveBugs" Label="Active Bugs" DataType="System.String" IsReference="True" />
-    </Properties>
-    ```
+   ```xml
+   <Nodes>
+      <Node Id="MyNode" Reference="MyDocument.txt" />
+   </Nodes>
+   <Properties>
+      <Property Id="Reference" Label="My Document" DataType="System.String" IsReference="True" />
+   </Properties>
+   ```
 
-     On the map, the name of the code element appears underlined. When you open the shortcut menu for the code element or the link, you will see a **Go To Reference** shortcut menu that contains the linked code elements for you to choose.
+    Multiple code elements
 
-4.  Use the `ReferenceTemplate` attribute to specify a common string, such as a URL, that is used by multiple references instead of repeating that string in the reference.
+   1. In the `<Node/>` or `<Link/>` element, add a new attribute to specify the location of each reference.
 
-     The `ReferenceTemplate` attribute specifies a placeholder for the value of the reference. In the following example, the `{0}` placeholder in the `ReferenceTemplate` attribute will be replaced by the values of the `MyFirstReference` and `MySecondReference` attributes in the `<Node/>` element to produce a full path:
+   2. In the `<Properties>` section:
 
-    ```xml
-    <Nodes>
-       <Node Id="MyNode" MyFirstReference="MyFirstDocument" MySecondReference="MySecondDocument"/>
-       <Node Id="MySecondNode" MyFirstReference="AnotherFirstDocument" MySecondReference="AnotherSecondDocument"/>
-    </Nodes>
-    <Properties>
-       <Property Id="MyFirstReference" Label="My First Document" DataType="System.String" IsReference="True" ReferenceTemplate="http://www.Fabrikam.com/FirstDocuments/{0}.asp"/>
-       <Property Id="MySecondReference" Label="My Second Document" DataType="System.String" IsReference="True" ReferenceTemplate=" http://www.Fabrikam.com/SecondDocuments/{0}.asp"/>
-    </Properties>
-    ```
+      1.  Add a `<Property/>` element for each new type of reference.
 
-5.  To view the referenced code element or code elements from the map, open the shortcut menu for the code element or the link. Choose **Go To Reference** and then the code element.
+      2.  Set the `Id` attribute to the name of the new reference attribute.
+
+      3.  Add the `IsReference` attribute and set it to `True` to make the reference appear on the code element's **Go To Reference** shortcut menu.
+
+      4.  Use the `Label` attribute to specify the display text on the code element's **Go To Reference** shortcut menu.
+
+      For example:
+
+   ```xml
+   <Nodes>
+      <Node Id="MyNode" SequenceDiagram="MySequenceDiagram.sequencediagram" ActiveBugs="MyActiveBugs.wiq"/>
+   </Nodes>
+   <Properties>
+      <Property Id="SequenceDiagram" Label="My Sequence Diagram" DataType="System.String" IsReference="True" />
+      <Property Id="ActiveBugs" Label="Active Bugs" DataType="System.String" IsReference="True" />
+   </Properties>
+   ```
+
+    On the map, the name of the code element appears underlined. When you open the shortcut menu for the code element or the link, you will see a **Go To Reference** shortcut menu that contains the linked code elements for you to choose.
+
+4. Use the `ReferenceTemplate` attribute to specify a common string, such as a URL, that is used by multiple references instead of repeating that string in the reference.
+
+    The `ReferenceTemplate` attribute specifies a placeholder for the value of the reference. In the following example, the `{0}` placeholder in the `ReferenceTemplate` attribute will be replaced by the values of the `MyFirstReference` and `MySecondReference` attributes in the `<Node/>` element to produce a full path:
+
+   ```xml
+   <Nodes>
+      <Node Id="MyNode" MyFirstReference="MyFirstDocument" MySecondReference="MySecondDocument"/>
+      <Node Id="MySecondNode" MyFirstReference="AnotherFirstDocument" MySecondReference="AnotherSecondDocument"/>
+   </Nodes>
+   <Properties>
+      <Property Id="MyFirstReference" Label="My First Document" DataType="System.String" IsReference="True" ReferenceTemplate="http://www.Fabrikam.com/FirstDocuments/{0}.asp"/>
+      <Property Id="MySecondReference" Label="My Second Document" DataType="System.String" IsReference="True" ReferenceTemplate=" http://www.Fabrikam.com/SecondDocuments/{0}.asp"/>
+   </Properties>
+   ```
+
+5. To view the referenced code element or code elements from the map, open the shortcut menu for the code element or the link. Choose **Go To Reference** and then the code element.
 
 ## See Also
 

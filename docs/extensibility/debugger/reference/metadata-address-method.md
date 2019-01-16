@@ -1,9 +1,6 @@
 ---
 title: "METADATA_ADDRESS_METHOD | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "METADATA_ADDRESS_METHOD"
@@ -23,17 +20,17 @@ This structure represents the address of a method of a class.
   
 ```cpp  
 typedef struct _tagMETADATA_ADDRESS_METHOD {  
-   _mdToken tokMethod;  
-   DWORD    dwOffset;  
-   DWORD    dwVersion;  
+   _mdToken tokMethod;  
+   DWORD    dwOffset;  
+   DWORD    dwVersion;  
 } METADATA_ADDRESS_METHOD;  
 ```  
   
 ```csharp  
 public struct METADATA_ADDRESS_METHOD {  
-   public int  tokMethod;  
-   public uint dwOffset;  
-   public uint dwVersion;  
+   public int  tokMethod;  
+   public uint dwOffset;  
+   public uint dwVersion;  
 }  
 ```  
   

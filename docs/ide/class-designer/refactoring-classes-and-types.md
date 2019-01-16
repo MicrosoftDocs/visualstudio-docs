@@ -2,7 +2,6 @@
 title: Rename and move classes and types in Class Designer
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 f1_keywords:
   - "vs.ClassDesigner.OverrideMembersDialog"
@@ -32,7 +31,7 @@ When you refactor code, you make it easier to understand, maintain, and more eff
 ## Common tasks
 
 |Task|Supporting Content|
-|----------|------------------------|
+|----------| - |
 |**Refactoring classes:** You can use refactoring operations to split a class into partial classes or to implement an abstract base class.|-   [How to: Split a Class into Partial Classes](how-to-split-a-class-into-partial-classes.md)|
 |**Working with interfaces:** In Class Designer, you can implement an interface on the class diagram by connecting it to a class that provides code for the interface methods.|-   [How to: Implement an Interface](how-to-implement-an-interface.md)|
 |**Refactoring types, type members, and parameters:** By using Class Designer, you can rename types, override type members, or move them from one type to another. You can also create nullable types.|-   [Rename types and type members](#rename-types-and-type-members)<br />-   [Move type members from one type to another](#move-type-members-from-one-type-to-another)<br />-   [How to: Create a Nullable Type](how-to-create-a-nullable-type.md)|
@@ -84,5 +83,4 @@ Using **Class Designer**, you can move a type member from one type to another ty
 
 ## See also
 
-- [Viewing Types and Relationships](viewing-types-and-relationships.md)
-- [Designing Classes and Types](designing-classes-and-types.md)
+- [Designing Classes and Types](designing-and-viewing-classes-and-types.md)

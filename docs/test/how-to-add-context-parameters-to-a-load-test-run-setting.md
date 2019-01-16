@@ -1,5 +1,5 @@
 ---
-title: "Add Context Parameters to a Load Test Run Setting in Visual Studio"
+title: "Add Context Parameters to a Load Test Run Setting"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -10,11 +10,12 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ---
 # How to: Add context parameters to a load test run setting
 
 After you create your load test by using the **New Load Test Wizard**, you can use the **Load Test Editor** to change the scenarios properties to meet your testing needs and goals.
+
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
 > [!NOTE]
 > For a full list of the run settings properties and their descriptions, see [Load test run settings properties](../test/load-test-run-settings-properties.md).
@@ -30,19 +31,19 @@ If you assign the value of the Webserver1 context parameter to `http://Corporate
 
 Additionally, by assigning different values to a context parameter by using the same name in different load test run settings, you can run the load test by using different environments:
 
--   Corporate Staging Web Server run setting: The context parameter that is named `WebServer1=http://CorporateStagingWebServer`
+- Corporate Staging Web Server run setting: The context parameter that is named `WebServer1=http://CorporateStagingWebServer`
 
--   Corporate Production Web Server run setting: The Context parameter that is named `WebServer1=http://CorporateProductionWebServer`
+- Corporate Production Web Server run setting: The Context parameter that is named `WebServer1=http://CorporateProductionWebServer`
 
- **Changing the Run Setting from the Command Line**
+  **Changing the Run Setting from the Command Line**
 
- If you want to use different run settings from the command line to take advantage of the context parameter strategy, use the following commands:
+  If you want to use different run settings from the command line to take advantage of the context parameter strategy, use the following commands:
 
- **Set Test.UseRunSetting= CorporateStagingWebServer**
+  **Set Test.UseRunSetting= CorporateStagingWebServer**
 
- -and-
+  -and-
 
- **mstest /testcontainer:loadtest1.loadtest**
+  **mstest /testcontainer:loadtest1.loadtest**
 
 ## To add a context parameter to a run setting
 

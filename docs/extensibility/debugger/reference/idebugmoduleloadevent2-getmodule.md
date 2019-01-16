@@ -1,9 +1,6 @@
 ---
 title: "IDebugModuleLoadEvent2::GetModule | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugModuleLoadEvent2::GetModule"
@@ -23,17 +20,17 @@ Gets the module that is being loaded or unloaded.
   
 ```cpp  
 HRESULT GetModule(   
-   IDebugModule2** pModule,  
-   BSTR*           pbstrDebugMessage,  
-   BOOL*           pbLoad  
+   IDebugModule2** pModule,  
+   BSTR*           pbstrDebugMessage,  
+   BOOL*           pbLoad  
 );  
 ```  
   
 ```csharp  
 int GetModule(   
-   out IDebugModule2 pModule,  
-   ref string        pbstrDebugMessage,  
-   ref int           pbLoad  
+   out IDebugModule2 pModule,  
+   ref string        pbstrDebugMessage,  
+   ref int           pbLoad  
 );  
 ```  
   

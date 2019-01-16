@@ -1,9 +1,6 @@
 ---
 title: "METADATA_ADDRESS_LOCAL | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "METADATA_ADDRESS_LOCAL"
@@ -23,17 +20,17 @@ This structure represents the address of a local variable within a scope (usuall
   
 ```cpp  
 typedef struct _tagMETADATA_ADDRESS_LOCAL {  
-   _mdToken  tokMethod;  
-   IUnknown* pLocal;  
-   DWORD     dwIndex;  
+   _mdToken  tokMethod;  
+   IUnknown* pLocal;  
+   DWORD     dwIndex;  
 } METADATA_ADDRESS_LOCAL;  
 ```  
   
 ```csharp  
 public struct METADATA_ADDRESS_LOCAL {  
-   public int    tokMethod;  
-   public object pLocal;  
-   public uint   dwIndex;  
+   public int    tokMethod;  
+   public object pLocal;  
+   public uint   dwIndex;  
 }  
 ```  
   
@@ -57,7 +54,7 @@ public struct METADATA_ADDRESS_LOCAL {
 ```  
 if (addr.dwKind == ADDRESS_KIND_METADATA_LOCAL &&  addr.addr.addrLocal.pLocal != NULL)  
 {  
-    addr.addr.addrLocal.pLocal->Release();  
+    addr.addr.addrLocal.pLocal->Release();  
 }  
 ```  
   

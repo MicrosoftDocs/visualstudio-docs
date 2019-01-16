@@ -1,9 +1,6 @@
 ---
 title: "IDebugSymbolProviderDirect::GetCurrentModulesInfo | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugSymbolProviderDirect::GetCurrentModulesInfo"
@@ -22,21 +19,21 @@ Retrieves information about the modules in the symbol group.
   
 ```cpp  
 HRESULT GetCurrentModulesInfo(  
-   unsigned long * pCount,  
-   GUID *          ppGuids,  
-   DWORD *         pADIds,  
-   DWORD *         pCurrentState,  
-   IUnknown **     ppCDModItfs  
+   unsigned long * pCount,  
+   GUID *          ppGuids,  
+   DWORD *         pADIds,  
+   DWORD *         pCurrentState,  
+   IUnknown **     ppCDModItfs  
 );  
 ```  
   
 ```csharp  
 int GetCurrentModulesInfo(  
-   uint       pCount,  
-   Guid       ppGuids,  
-   uint       pADIds,  
-   uint       pCurrentState,  
-   out object ppCDModItfs  
+   uint       pCount,  
+   Guid       ppGuids,  
+   uint       pADIds,  
+   uint       pCurrentState,  
+   out object ppCDModItfs  
 );  
 ```  
   

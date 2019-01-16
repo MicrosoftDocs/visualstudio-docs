@@ -1,9 +1,6 @@
 ---
 title: "Getting Started with Language Service and Editor Extensions | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], new - extensions"
@@ -38,17 +35,17 @@ You can use editor extensions to add language service features such as outlining
   
  The following are some of the basic kinds of editor extensions:  
   
--   Margins and scrollbars  
+- Margins and scrollbars  
   
--   Tags  
+- Tags  
   
--   Adornments  
+- Adornments  
   
--   Options  
+- Options  
   
--   IntelliSense  
+- IntelliSense  
   
- For more information about editor extension points, see [Language service and editor extension points](../extensibility/language-service-and-editor-extension-points.md).  
+  For more information about editor extension points, see [Language service and editor extension points](../extensibility/language-service-and-editor-extension-points.md).  
   
 ## Deploying editor extensions  
  In Visual Studio, you deploy editor extensions by adding a metadata file named *source.extension.vsixmanifest* to the solution, building the solution, and then adding a copy of the binary files and the manifest in a folder that is known to Visual Studio. The manifest file defines the basic facts about the extension (for example, name, author, version, and type of content). For more information about the VSIX manifest file and how to deploy extensions, see [Ship Visual Studio extensions](../extensibility/shipping-visual-studio-extensions.md).  

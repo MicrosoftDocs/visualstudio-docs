@@ -1,9 +1,6 @@
 ---
 title: "IDebugPropertyField::GetPropertyGetter | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugPropertyField::GetPropertyGetter"
@@ -23,13 +20,13 @@ Gets the method that gets the property.
   
 ```cpp  
 HRESULT GetPropertyGetter(   
-   IDebugMethodField** ppField  
+   IDebugMethodField** ppField  
 );  
 ```  
   
 ```cpp  
 int GetPropertyGetter(  
-   out IDebugMethodField ppField  
+   out IDebugMethodField ppField  
 );  
 ```  
   

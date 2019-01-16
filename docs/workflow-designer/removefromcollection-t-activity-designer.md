@@ -3,7 +3,6 @@ title: "Workflow Designer - RemoveFromCollection&lt;T&gt; Activity Designer"
 ms.date: 11/04/2016
 ms.topic: reference
 ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 f1_keywords:
   - "System.Activities.Statements.RemoveFromCollection`1.UI"
 ms.assetid: 6617ba26-c8bc-4aed-b746-112bf490d288
@@ -23,18 +22,18 @@ The <xref:System.Activities.Statements.RemoveFromCollection%601> activity remove
 
 ### Using the RemoveFromCollection\<T> Activity Designer
 
-Access the **RemoveFromCollection\<T>** activity designer in the **Collection** category of the **Toolbox**. 
+Access the **RemoveFromCollection\<T>** activity designer in the **Collection** category of the **Toolbox**.
 The **RemoveFromCollection\<T>** activity designer can be dragged from the **Toolbox** and dropped on to the Workflow Designer surface wherever activities are usually placed, such as inside a <xref:System.Activities.Statements.Sequence>. This creates a <xref:System.Activities.Statements.RemoveFromCollection%601> activity with a default <xref:System.Activities.Activity.DisplayName%2A> of RemoveFromCollection<Int32\>. The <xref:System.Activities.Activity.DisplayName%2A> value can be edited in the header of the **RemoveFromCollection<T\>** activity designer or in the **DisplayName** box of the property grid. The other properties must be edited on the property grid.
 
 ### The RemoveFromCollection<T\> Properties
 
-The following table shows the <xref:System.Activities.Statements.RemoveFromCollection%601> properties and describes how they are used in the designer.
+The following table shows the <xref:System.Activities.Statements.RemoveFromCollection%601> properties and describes how they are used in the designer:
 
 |Property Name|Required|Usage|
-|-------------------|--------------|-----------|
+|-|--------------|-|
 |<xref:System.Activities.Activity.DisplayName%2A>|False|The optional friendly name of the <xref:System.Activities.Statements.RemoveFromCollection%601> activity. The default is the RemoveFromCollection<Int32\>.<br /><br /> Although the <xref:System.Activities.Activity.DisplayName%2A> is not strictly required, it is a best practice to use one.|
-|<xref:System.Activities.Statements.RemoveFromCollection%601.Item%2A>|True|The item to add to the **Collection\<T>**. This item is of type *T*, which is of type *TypeArgument*. To specify the item, type in a Visual Basic expression in the property grid.|
-|<xref:System.Activities.Statements.RemoveFromCollection%601.Collection%2A>|True|The collection to which the item should be added. This collection is of type **ICollection<TypeArgument\>.** To specify the collection, type in a Visual Basic expression in the property grid.|
+|<xref:System.Activities.Statements.RemoveFromCollection%601.Item%2A>|True|The item to remove from the **Collection\<T>**. This item is of type *T*, which is of type *TypeArgument*. To specify the item, type in a Visual Basic expression in the property grid.|
+|<xref:System.Activities.Statements.RemoveFromCollection%601.Collection%2A>|True|The collection from which the item should be removed. This collection is of type **ICollection<TypeArgument\>.** To specify the collection, type in a Visual Basic expression in the property grid.|
 |*TypeArgument*|True|The type T of the items contained in the <xref:System.Collections.Generic.ICollection%601>. By default, this *TypeArgument* type is set to **Int32**. To change the type, change the value of the *TypeArgument* in the combo box in the property grid.|
 |<xref:System.Activities.Activity%601.Result%2A>|False|A value that indicates whether the specified item was removed from the collection. To specify a variable to bind to the result, type in a variable in the property grid|
 

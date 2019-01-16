@@ -1,9 +1,6 @@
 ---
 title: "Adding an Attribute to a Project Item | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "attributes [Visual Studio], adding to a project item"
@@ -32,11 +29,11 @@ The methods <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage.G
     IVsBuildPropertyStorage buildPropertyStorage = hierarchy as IVsBuildPropertyStorage;  
     if (buildPropertyStorage != null)  
     {  
-        uint itemId;  
-        string fullPath =         (string)project.ProjectItems.Item("Program.cs").Properties.Item("FullPath").Value;  
-        hierarchy.ParseCanonicalName(fullPath, out itemId);  
-        buildPropertyStorage.SetItemAttribute(  
-            itemId, "MyAttribute", "MyValue");  
+        uint itemId;  
+        string fullPath =         (string)project.ProjectItems.Item("Program.cs").Properties.Item("FullPath").Value;  
+        hierarchy.ParseCanonicalName(fullPath, out itemId);  
+        buildPropertyStorage.SetItemAttribute(  
+            itemId, "MyAttribute", "MyValue");  
     }  
   
     ```  

@@ -1,5 +1,5 @@
 ---
-title: "Load Test API in Visual Studio"
+title: "Load Test API"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -11,11 +11,12 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ---
 # How to: Use the load test API
 
 Visual Studio supports load test plug-ins which can control or enhance a load test. Load test plug-ins are user defined classes which implement the <xref:Microsoft.VisualStudio.TestTools.LoadTesting.ILoadTestPlugin> interface found in the <xref:Microsoft.VisualStudio.TestTools.LoadTesting> namespace. Load test plug-ins allow for custom load test control, such as, aborting a load test when a counter or error threshold is met. Use the properties on the <xref:Microsoft.VisualStudio.TestTools.LoadTesting.LoadTest> class to get or set load test parameters from user defined code. Use the events on the <xref:Microsoft.VisualStudio.TestTools.LoadTesting.LoadTest> class to attach delegates for notifications when the load test is running.
+
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
 > [!TIP]
 > Use the object browser to examine the <xref:Microsoft.VisualStudio.TestTools.LoadTesting> namespace. Both the Visual C# and Visual Basic editors offer IntelliSense support for coding with the classes in the namespace.
@@ -24,7 +25,7 @@ You can also create plug-ins for web performance tests. For more information, se
 
 ## To use the LoadTesting namespace
 
-1.  Open a web performance and load test Project that contains a load test.
+1.  Open a web performance and load test project that contains a load test.
 
 2.  Add a Visual C# or a Visual Basic class library project to your test solution.
 

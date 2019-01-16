@@ -1,9 +1,6 @@
 ---
 title: "IDebugClassField::EnumNestedEnums | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugClassField::EnumNestedEnums"
@@ -23,13 +20,13 @@ Creates an enumerator for the nested enumerators of this class.
   
 ```cpp  
 HRESULT EnumNestedEnums(   
-   IEnumDebugFields** ppEnum  
+   IEnumDebugFields** ppEnum  
 );  
 ```  
   
 ```csharp  
 int EnumNestedEnums(  
-   out IEnumDebugFields ppEnum  
+   out IEnumDebugFields ppEnum  
 );  
 ```  
   

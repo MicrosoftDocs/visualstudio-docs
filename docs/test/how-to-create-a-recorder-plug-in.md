@@ -1,5 +1,5 @@
 ---
-title: "Create a Recorder Plug-In for web performance tests in Visual Studio"
+title: "Create a Recorder Plug-In for web performance tests"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -9,11 +9,12 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ---
 # How to: Create a recorder plug-in
 
 The <xref:Microsoft.VisualStudio.TestTools.WebTesting.WebTestRecorderPlugin> lets you modify a recorded web performance test. The modification occurs after you choose **Stop** in the **Web Performance Test Recorder** toolbar but prior to the test being saved and presented in the Web Performance Test Editor.
+
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
 A recorder plug-in enables you to perform your own custom correlation on dynamic parameters. With the built-in correlation functionality, web performance tests detect the dynamic parameters in the web recording upon completion, or when you use the **Promote Dynamic Parameters to Web Test Parameters** on the **Web Performance Test Editor** toolbar. However, the built in detection functionality does not always find all the dynamic parameters. For example, it does not find a session ID, which usually gets its value changed between 5 to 30 minutes. Therefore, you have to manually perform the correlation process.
 
@@ -81,11 +82,11 @@ The following procedures describe how to create the rudimentary code for a recor
 
 ### Deploy the recorder plug-in
 
-After you compile the recorder plug-in, you will need to place the resulting DLL in one of two locations:
+After you compile the recorder plug-in, place the resulting DLL in one of two locations:
 
--   *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\PrivateAssemblies\WebTestPlugins*
+- *%ProgramFiles(x86)%\Microsoft Visual Studio\\[version]\\[edition]\Common7\IDE\PrivateAssemblies\WebTestPlugins*
 
--   *%USERPROFILE%\My Documents\Visual Studio \<*version*>\WebTestPlugins*
+- *%USERPROFILE%\Documents\Visual Studio [version]\WebTestPlugins*
 
 > [!WARNING]
 > After you copy the recorder plug-in to one of the two locations, you must restart Visual Studio for the recorder plug-in to be registered.
@@ -107,8 +108,8 @@ After you compile the recorder plug-in, you will need to place the resulting DLL
     >
     > This is caused if you make code changes to any of your plug-ins and create a new DLL version **(Version=0.0.0.0)**, but the plug-in is still referencing the original plug-in version. To correct this problem, follow these steps:
     >
-    > 1.  In your web performance and load test project, you will see a warning in references. Remove and re-add the reference to your plug-in DLL.
-    > 2.  Remove the plug-in from your test or the appropriate location and then add it back.
+    > 1. In your web performance and load test project, you will see a warning in references. Remove and re-add the reference to your plug-in DLL.
+    > 2. Remove the plug-in from your test or the appropriate location and then add it back.
 
 ## Example
 
@@ -117,7 +118,7 @@ This sample demonstrates how to create a customized web performance test recorde
 > [!NOTE]
 > A complete listing of the sample code is located at the bottom of this topic.
 
- **Reviewing the Sample Code**
+**Reviewing the Sample Code**
 
 ## Iterate through the result to find first page with ReportSession
 

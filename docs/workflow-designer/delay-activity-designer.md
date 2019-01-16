@@ -3,7 +3,6 @@ title: "Workflow Designer - Delay Activity Designer"
 ms.date: 11/04/2016
 ms.topic: reference
 ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 f1_keywords:
   - "System.Activities.Statements.Delay.UI"
 ms.assetid: f51742a8-2c9a-47d1-8a23-18459d03ae19
@@ -32,7 +31,7 @@ The **Delay** activity designer can be dragged from the **Toolbox** and dropped 
 The following table shows the <xref:System.Activities.Statements.Delay> properties and describes how they're used in the designer. These properties can be edited in the property grid and some of them can be edited on the Workflow Designer surface.
 
 |Property Name|Required|Usage|
-|-------------------|--------------|-----------|
+|-|--------------|-|
 |<xref:System.Activities.Activity.DisplayName%2A>|False|The friendly name of the <xref:System.Activities.Statements.Delay> activity. The default is Delay. Although the <xref:System.Activities.Activity.DisplayName%2A> value isn't strictly required, it's a best practice to use one.|
 |<xref:System.Activities.Statements.Delay.Duration%2A>|True|The amount of time to delay the workflow. This property is set in the property grid. Type in either a literal <xref:System.TimeSpan> in the format 00:00:00 or a Visual Basic expression to specify the amount of time.|
 

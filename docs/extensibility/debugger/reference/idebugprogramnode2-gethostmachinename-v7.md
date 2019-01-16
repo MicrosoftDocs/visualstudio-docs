@@ -1,9 +1,6 @@
 ---
 title: "IDebugProgramNode2::GetHostMachineName_V7 | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProgramNode2::GetHostMachineName"
@@ -25,13 +22,13 @@ ms.workload:
 
 ```cpp
 HRESULT GetHostMachineName_V7 (
-   BSTR* pbstrHostMachineName
+   BSTR* pbstrHostMachineName
 );
 ```
 
 ```csharp
 int GetHostMachineName_V7 (
-   out string pbstrHostMachineName
+   out string pbstrHostMachineName
 );
 ```
 

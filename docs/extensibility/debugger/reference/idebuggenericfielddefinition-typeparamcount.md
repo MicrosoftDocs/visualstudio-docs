@@ -1,9 +1,6 @@
 ---
 title: "IDebugGenericFieldDefinition::TypeParamCount | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "TypeParamCount"
@@ -22,13 +19,13 @@ Retrieves the number of type parameters that are associated with the generic fie
   
 ```cpp  
 HRESULT TypeParamCount(  
-   ULONG32* pcParams  
+   ULONG32* pcParams  
 );  
 ```  
   
 ```csharp  
 int TypeParamCount(  
-   ref uint pcParams  
+   ref uint pcParams  
 );  
 ```  
   

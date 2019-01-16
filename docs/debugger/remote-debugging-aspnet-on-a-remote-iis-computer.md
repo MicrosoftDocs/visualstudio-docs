@@ -2,7 +2,6 @@
 title: "Remote Debug ASP.NET Core on a Remote IIS Computer | Microsoft Docs"
 ms.custom: "remotedebugging"
 ms.date: "05/21/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: 573a3fc5-6901-41f1-bc87-557aa45d8858
 author: "mikejo5000"
@@ -141,12 +140,7 @@ You can also publish and deploy the app using the file system or other tools.
 
 In this tutorial, we are using Visual Studio 2017.
 
-If you have trouble opening the page with the remote debugger download, see [Unblock the file download](../debugger/remote-debugging.md#unblock_msvsmon) for help.
-
 [!INCLUDE [remote-debugger-download](../debugger/includes/remote-debugger-download.md)]
-
-> [!TIP]
-> In some scenarios, it can be most efficient to run the remote debugger from a file share. For more information, see [Run the remote debugger from a file share](../debugger/remote-debugging.md#fileshare_msvsmon).
   
 ## <a name="BKMK_setup"></a> Set up the remote debugger on Windows Server
 

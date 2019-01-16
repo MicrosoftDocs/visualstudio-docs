@@ -1,8 +1,6 @@
 ---
 title: "Threads View | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.externaltools.spyplus.threadsview"
@@ -22,12 +20,12 @@ The Threads view is a flat listing of all threads associated with windows on you
   
 #### To open the Threads view  
   
-1.  From the **Spy** menu, choose **Threads**.  
+1. From the **Spy** menu, choose **Threads**.  
   
- ![Spy&#43;&#43; Threads View](../debugger/media/spy--_threads.png "Spy++_Threads")  
-Spy++ Threads View  
+   ![Spy&#43;&#43; Threads View](../debugger/media/spy--_threads.png "Spy++_Threads")  
+   Spy++ Threads View  
   
- The figure above shows the Threads view.  
+   The figure above shows the Threads view.  
   
 ## In This Section  
  [Searching for a Thread in Threads View](../debugger/how-to-search-for-a-thread-in-threads-view.md)  

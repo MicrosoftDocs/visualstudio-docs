@@ -1,9 +1,6 @@
 ---
 title: "IDebugProgram2::GetENCUpdate | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProgram2::GetENCUpdate"
@@ -23,13 +20,13 @@ This method gets the Edit and Continue (ENC) update for this program. A custom d
   
 ```cpp  
 HRESULT GetENCUpdate(   
-   IUnknown** ppUpdate  
+   IUnknown** ppUpdate  
 );  
 ```  
   
 ```csharp  
 int GetENCUpdate(  
-   out object ppUpdate  
+   out object ppUpdate  
 );  
 ```  
   

@@ -1,9 +1,6 @@
 ---
 title: "PROGRAM_NODE_ARRAY | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "PROGRAM_NODE_ARRAY"
@@ -23,15 +20,15 @@ Contains an array of objects that describe programs of interest.
   
 ```cpp  
 typedef struct tagPROGRAM_NODE_ARRAY {  
-   DWORD                dwCount;  
-   IDebugProgramNode2** Members;  
+   DWORD                dwCount;  
+   IDebugProgramNode2** Members;  
 } PROGRAM_NODE_ARRAY;  
 ```  
   
 ```csharp  
 public struct tagPROGRAM_NODE_ARRAY {  
-   public uint                 dwCount;  
-   public IDebugProgramNode2[] Members;  
+   public uint                 dwCount;  
+   public IDebugProgramNode2[] Members;  
 }  
 ```  
   

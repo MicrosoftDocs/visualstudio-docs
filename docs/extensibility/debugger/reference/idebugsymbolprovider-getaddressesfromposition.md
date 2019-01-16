@@ -1,9 +1,6 @@
 ---
 title: "IDebugSymbolProvider::GetAddressesFromPosition | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugSymbolProvider::GetAddressesFromPosition"
@@ -23,19 +20,19 @@ This method maps a document position into an array of debug addresses.
   
 ```cpp  
 HRESULT GetAddressesFromPosition(   
-   IDebugDocumentPosition2* pDocPos,  
-   BOOL                     fStatmentOnly,  
-   IEnumDebugAddresses**    ppEnumBegAddresses,  
-   IEnumDebugAddresses**    ppEnumEndAddresses  
+   IDebugDocumentPosition2* pDocPos,  
+   BOOL                     fStatmentOnly,  
+   IEnumDebugAddresses**    ppEnumBegAddresses,  
+   IEnumDebugAddresses**    ppEnumEndAddresses  
 );  
 ```  
   
 ```csharp  
 int GetAddressesFromPosition(   
-   IDebugDocumentPosition2  pDocPos,  
-   bool                     fStatmentOnly,  
-   out IEnumDebugAddresses  ppEnumBegAddresses,  
-   out IEnumDebugAddresses  ppEnumEndAddresses  
+   IDebugDocumentPosition2  pDocPos,  
+   bool                     fStatmentOnly,  
+   out IEnumDebugAddresses  ppEnumBegAddresses,  
+   out IEnumDebugAddresses  ppEnumEndAddresses  
 );  
 ```  
   

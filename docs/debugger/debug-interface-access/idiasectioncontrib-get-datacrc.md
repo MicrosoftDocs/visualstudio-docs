@@ -1,8 +1,6 @@
 ---
 title: "IDiaSectionContrib::get_dataCrc | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves the cyclic redundancy check (CRC) of the data in the section.
   
 ```C++  
 HRESULT get_dataCrc (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

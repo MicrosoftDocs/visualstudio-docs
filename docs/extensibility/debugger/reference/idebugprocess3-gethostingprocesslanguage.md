@@ -1,9 +1,6 @@
 ---
 title: "IDebugProcess3::GetHostingProcessLanguage | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProcess3::GetHostingProcessLanguage"
@@ -23,13 +20,13 @@ This method returns a `GUID` representing the language of this process as set by
   
 ```cpp  
 HRESULT GetHostingProcessLanguage(  
-   GUID* pguidLang  
+   GUID* pguidLang  
 );  
 ```  
   
 ```csharp  
 int GetHostingProcessLanguage(  
-   out Guid pguidLang  
+   out Guid pguidLang  
 );  
 ```  
   

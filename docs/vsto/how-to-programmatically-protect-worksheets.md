@@ -1,9 +1,6 @@
 ---
 title: "How to: Programmatically protect worksheets"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -33,11 +30,11 @@ ms.workload:
   
 ### To protect a worksheet in the designer  
   
-1.  In the **Changes** group of the **Review** tab, click **Protect Sheet**.  
+1. In the **Changes** group of the **Review** tab, click **Protect Sheet**.  
   
-     The **Protect Sheet** dialog box appears. You can set a password and optionally specify certain actions that users are allowed to perform with the worksheet, such as format cells or insert rows.  
+    The **Protect Sheet** dialog box appears. You can set a password and optionally specify certain actions that users are allowed to perform with the worksheet, such as format cells or insert rows.  
   
- You can also allow users to edit specific ranges in protected worksheets.  
+   You can also allow users to edit specific ranges in protected worksheets.  
   
 ### To allow editing in specific ranges  
   
@@ -71,5 +68,3 @@ ms.workload:
  [Worksheet host item](../vsto/worksheet-host-item.md)   
  [Global access to objects in Office projects](../vsto/global-access-to-objects-in-office-projects.md)   
  [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)  
-  
-  

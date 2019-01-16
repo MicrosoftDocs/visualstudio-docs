@@ -1,9 +1,6 @@
 ---
 title: "MODULE_INFO_FLAGS | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "MODULE_INFO_FLAGS"
@@ -23,14 +20,14 @@ Specifies the state of symbols for a module.
   
 ```cpp  
 enum enum_MODULE_INFO_FLAGS {  
-   MIF_SYMBOLS_LOADED = 0x0001  
+   MIF_SYMBOLS_LOADED = 0x0001  
 };  
 typedef DWORD MODULE_INFO_FLAGS;  
 ```  
   
 ```csharp  
 public enum enum_MODULE_INFO_FLAGS {  
-   MIF_SYMBOLS_LOADED = 0x0001  
+   MIF_SYMBOLS_LOADED = 0x0001  
 };  
 ```  
   

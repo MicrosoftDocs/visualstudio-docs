@@ -1,9 +1,6 @@
 ---
 title: "Manage documents on a server by using the ServerDocument class"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -21,11 +18,11 @@ ms.workload:
 # Manage documents on a server by using the ServerDocument class
   You can use the `ServerDocument` class in the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] to manage several aspects of document-level customizations, even if Microsoft Office Word and Microsoft Office Excel are not installed. You can perform the following tasks:  
   
--   Access and modify data in the data cache of a document or workbook. For more information, see [Work with cached data in the document](#CachedData).  
+- Access and modify data in the data cache of a document or workbook. For more information, see [Work with cached data in the document](#CachedData).  
   
--   Manage the customization assembly that is associated with a document. For more information, see [Manage the document customization](#CustomizationInfo).  
+- Manage the customization assembly that is associated with a document. For more information, see [Manage the document customization](#CustomizationInfo).  
   
- [!INCLUDE[appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]  
+  [!INCLUDE[appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]  
   
 ## Understand the ServerDocument class  
  The `ServerDocument` class is designed to be used on computers that do not have Office installed. Therefore, you typically use this class in applications that do not integrate with Office, such as Console projects or Windows Forms projects, rather than Office projects. Use the <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument> class in the *Microsoft.VisualStudio.Tools.Applications.ServerDocument.dll* assembly.  
@@ -64,4 +61,3 @@ ms.workload:
  [How to: Remove managed code extensions from documents](../vsto/how-to-remove-managed-code-extensions-from-documents.md)   
  [Visual Studio Tools for Office runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md)   
  [Cache data](../vsto/caching-data.md)  
-  

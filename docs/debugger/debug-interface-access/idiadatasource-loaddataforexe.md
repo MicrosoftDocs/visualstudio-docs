@@ -1,8 +1,6 @@
 ---
 title: "IDiaDataSource::loadDataForExe | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,9 +20,9 @@ Opens and prepares the debug data associated with the .exe/.dll file.
   
 ```C++  
 HRESULT loadDataForExe (  
-   LPCOLESTR executable,  
-   LPCOLESTR searchPath,  
-   IUnknown* pCallback  
+   LPCOLESTR executable,  
+   LPCOLESTR searchPath,  
+   IUnknown* pCallback  
 );  
 ```  
   

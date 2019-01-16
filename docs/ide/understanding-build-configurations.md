@@ -33,6 +33,9 @@ ms.workload:
 You can store different configurations of solution and project properties to use in different kinds of builds. To create, select, modify, or delete a configuration, you can use the **Configuration Manager**. To open it, on the menu bar, choose **Build** > **Configuration Manager**, or just type **Configuration** in the **Quick Launch** box. You can also use the **Solution Configurations** list on the **Standard** toolbar to select a configuration or open the **Configuration Manager**.
 
 > [!NOTE]
+> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Build configurations in Visual Studio for Mac](/visualstudio/mac/configurations).
+
+> [!NOTE]
 > If you can't find solution configuration settings on the toolbar and can't access the **Configuration Manager**, [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] development settings may be applied. For more information, see [How to: Manage configurations with Visual Basic developer settings applied](../ide/how-to-manage-build-configurations-with-visual-basic-developer-settings-applied.md).
 
 By default, Debug and Release configurations are included in projects that are created by using [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] templates. A Debug configuration supports the debugging of an app, and a Release configuration builds a version of the app that can be deployed. For more information, see [How to: Set debug and release configurations](../debugger/how-to-set-debug-and-release-configurations.md). You can also create custom solution configurations and project configurations. For more information, see [How to: Create and edit configurations](../ide/how-to-create-and-edit-configurations.md).
@@ -86,3 +89,4 @@ The active solution configuration also provides context to the IDE. For example,
 - [Solutions and projects](../ide/solutions-and-projects-in-visual-studio.md)
 - [C/C++ build reference](/cpp/build/reference/c-cpp-building-reference)
 - [Devenv command line switches](../ide/reference/devenv-command-line-switches.md)
+- [Build configurations (Visual Studio for Mac)](/visualstudio/mac/configurations)

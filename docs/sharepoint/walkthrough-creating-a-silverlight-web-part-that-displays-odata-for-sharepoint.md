@@ -1,9 +1,6 @@
 ---
 title: "Walkthrough: Creating a Silverlight Web Part that Displays OData for SharePoint | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/22/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VS.SharePointTools.SPE.SilverlightWebPart"
@@ -24,7 +21,7 @@ ms.workload:
 ## Prerequisites  
  You need the following components to complete this walkthrough:  
   
--   Supported editions of Microsoft Windows and SharePoint. [!INCLUDE[crdefault](../sharepoint/includes/crdefault-md.md)] [Requirements for developing SharePoint solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md).  
+-   Supported editions of Microsoft Windows and SharePoint.
   
 -   [!INCLUDE[vs_dev11_long](../sharepoint/includes/vs-dev11-long-md.md)].  
   
@@ -36,25 +33,25 @@ ms.workload:
   
 #### To create a Silverlight application and Silverlight web part
   
-1.  On the menu bar, choose **File** > **New** > **Project** to display the **New Project** dialog box.  
+1. On the menu bar, choose **File** > **New** > **Project** to display the **New Project** dialog box.  
   
-2.  Expand the **SharePoint** node under either **Visual C#** or **Visual Basic**, and then choose the **2010** node.  
+2. Expand the **SharePoint** node under either **Visual C#** or **Visual Basic**, and then choose the **2010** node.  
   
-3.  In the templates pane, choose the **SharePoint 2010 Silverlight Web Part** template.  
+3. In the templates pane, choose the **SharePoint 2010 Silverlight Web Part** template.  
   
-4.  In the **Name** box, enter **SLWebPartTest** and then choose the **OK** button.  
+4. In the **Name** box, enter **SLWebPartTest** and then choose the **OK** button.  
   
-     The **SharePoint Customization Wizard** dialog box appears.  
+    The **SharePoint Customization Wizard** dialog box appears.  
   
-5.  On the **Specify the site and security level for debugging** page, enter the URL for the SharePoint server site where you want to debug the site definition, or use the default location (http://*system name*/).  
+5. On the **Specify the site and security level for debugging** page, enter the URL for the SharePoint server site where you want to debug the site definition, or use the default location (http://<em>system name</em>/).  
   
-6.  In the **What is the trust level for this SharePoint solution?** section, choose the **Deploy as a farm solution** option button.  
+6. In the **What is the trust level for this SharePoint solution?** section, choose the **Deploy as a farm solution** option button.  
   
-     Although this example uses a farm solution, Silverlight web part projects can be deployed as either farm or sandboxed solutions. For more information about sandboxed solutions and farm solutions, see [Sandboxed solution considerations](../sharepoint/sandboxed-solution-considerations.md).  
+    Although this example uses a farm solution, Silverlight web part projects can be deployed as either farm or sandboxed solutions. For more information about sandboxed solutions and farm solutions, see [Sandboxed solution considerations](../sharepoint/sandboxed-solution-considerations.md).  
   
-7.  In the **How do you want to associate the Silverlight Web Part** section of the **Specify Silverlight Configuration Information** page, choose the **Create a new Silverlight project and associate it with the web part** option button.  
+7. In the **How do you want to associate the Silverlight Web Part** section of the **Specify Silverlight Configuration Information** page, choose the **Create a new Silverlight project and associate it with the web part** option button.  
   
-8.  Change the **Name** to **SLApplication**, set **Language** to either **Visual Basic** or **Visual C#**, and then set **Silverlight Version** to **Silverlight 4.0**.  
+8. Change the **Name** to **SLApplication**, set **Language** to either **Visual Basic** or **Visual C#**, and then set **Silverlight Version** to **Silverlight 4.0**.  
   
 9. Choose the **Finish** button. The projects appear in **Solution Explorer**.  
   
@@ -65,7 +62,7 @@ ms.workload:
   
 #### To customize the Silverlight application
   
-1.  Add an assembly reference to System.Windows.Data in the Silverlight application. For more information, see [How to: Add or Remove References By Using the Add Reference Dialog Box](http://msdn.microsoft.com/en-us/3bd75d61-f00c-47c0-86a2-dd1f20e231c9).  
+1.  Add an assembly reference to System.Windows.Data in the Silverlight application. For more information, see [How to: Add or Remove References By Using the Add Reference Dialog Box](https://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9).  
   
 2.  In **Solution Explorer**, open the shortcut menu for **References**, and then choose **Add Service Reference**.  
   
@@ -229,5 +226,3 @@ ms.workload:
 ## See also
  [Create web parts for SharePoint](../sharepoint/creating-web-parts-for-sharepoint.md)   
  [Deploy, publish, and upgrade SharePoint solution packages](../sharepoint/deploying-publishing-and-upgrading-sharepoint-solution-packages.md)  
-  
-  

@@ -1,9 +1,6 @@
 ---
 title: "Create Outlook form regions"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "MICROSOFT.OFFICE.TOOLS.OUTLOOK.FORMREGION"
@@ -14,8 +11,8 @@ helpviewer_keywords:
   - "form regions [Office development in Visual Studio]"
   - "form regions [Office development in Visual Studio], creating"
   - "Outlook [Office development in Visual Studio], form regions"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -46,15 +43,15 @@ ms.workload:
 ##  <a name="Enhance"></a> Advantages of using form regions  
  Form regions offer many enhancements over traditional Outlook forms development:  
   
--   Customize the default page of any standard form.  
+- Customize the default page of any standard form.  
   
--   Add up to 12 extra pages to any standard form.  
+- Add up to 12 extra pages to any standard form.  
   
--   Replace or enhance any standard form.  
+- Replace or enhance any standard form.  
   
--   Display custom UI in the Reading Pane and in Inspectors.  
+- Display custom UI in the Reading Pane and in Inspectors.  
   
- For more information, see [Customize form pages and form regions](http://msdn.microsoft.com/library/office/ff869060.aspx).  
+  For more information, see [Customize form pages and form regions](/office/vba/outlook/Concepts/Forms/customizing-form-pages-and-form-regions).  
   
 ##  <a name="Adding"></a> Add an Outlook form region to your project  
  You can use the **New Outlook Form Region** wizard to design a new form region or import a form region that was designed in Outlook. Also, if you have a form region that you used in another Outlook VSTO Add-in project, you can reuse your existing form region.  
@@ -113,13 +110,13 @@ ms.workload:
   
  There are three ways to open the form region designer:  
   
--   In **Solution Explorer**, double-click the form region code file.  
+- In **Solution Explorer**, double-click the form region code file.  
   
--   In **Solution Explorer**, right-click the form region code file, and then click **View Designer**.  
+- In **Solution Explorer**, right-click the form region code file, and then click **View Designer**.  
   
--   In **Solution Explorer**, select the form region code file, and then, on the **View** menu, click **Designer**.  
+- In **Solution Explorer**, select the form region code file, and then, on the **View** menu, click **Designer**.  
   
- The form region designer supports only managed controls. You cannot add native Outlook controls.  
+  The form region designer supports only managed controls. You cannot add native Outlook controls.  
   
 ##  <a name="UsingFormRegionDesignedOutlook"></a> Import a form region designed in Outlook  
  When you design in Outlook, you can add native Outlook controls to the form region. Native Outlook controls enable you to bind to Outlook data at design time. However, you cannot then use the form region designer to add managed controls or change the design of the form region.  
@@ -157,11 +154,11 @@ ms.workload:
 ##  <a name="Building"></a> Build the project  
  When you build an Outlook VSTO Add-in project that contains a form region, Visual Studio adds the following information to the registry:  
   
--   A key for each message class that is associated with one or more form regions.  
+- A key for each message class that is associated with one or more form regions.  
   
--   An entry for each form region and an associated value that represents the name of the Outlook VSTO Add-in.  
+- An entry for each form region and an associated value that represents the name of the Outlook VSTO Add-in.  
   
- Outlook uses this information to load the form regions.  
+  Outlook uses this information to load the form regions.  
   
 ##  <a name="Debugging"></a> Debug a form region  
  You can debug an Outlook VSTO Add-in that contains a form region just as you would debug other [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] projects. When you start the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] debugger, Visual Studio automatically starts Outlook.  
@@ -184,4 +181,3 @@ ms.workload:
 |[How to: Prevent Outlook from displaying a form region](../vsto/how-to-prevent-outlook-from-displaying-a-form-region.md)|Shows how to prevent Microsoft Office Outlook from displaying a form region for a particular item.|  
 |Shows how to access the Outlook item in which a form region appears.|  
 |[Custom actions in Outlook form regions](../vsto/custom-actions-in-outlook-form-regions.md)|Describes how to enable users to respond to an Outlook item.|  
-  

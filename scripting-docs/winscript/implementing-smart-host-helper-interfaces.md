@@ -20,17 +20,17 @@ The [IDebugDocumentHelper Interface](../winscript/reference/idebugdocumenthelper
   
  To be a smart host using `IDebugDocumentHelper`, a host application must do only three things:  
   
-1.  `CoCreate` the Process Debug Manager, and use the [IProcessDebugManager Interface](../winscript/reference/iprocessdebugmanager-interface.md) interface to add your application to the list of debuggable applications.  
+1. `CoCreate` the Process Debug Manager, and use the [IProcessDebugManager Interface](../winscript/reference/iprocessdebugmanager-interface.md) interface to add your application to the list of debuggable applications.  
   
-2.  Create a debug document helper for each script object, using the [IProcessDebugManager::CreateDebugDocumentHelper](../winscript/reference/iprocessdebugmanager-createdebugdocumenthelper.md) method. Make sure that the document name, parent document, text, and script blocks are defined.  
+2. Create a debug document helper for each script object, using the [IProcessDebugManager::CreateDebugDocumentHelper](../winscript/reference/iprocessdebugmanager-createdebugdocumenthelper.md) method. Make sure that the document name, parent document, text, and script blocks are defined.  
   
-3.  Implement the [IActiveScriptSiteDebug Interface](../winscript/reference/iactivescriptsitedebug-interface.md) interface on your object that implements the [IActiveScriptSite](../winscript/reference/iactivescriptsite.md) interface (which is needed for Active Scripting). The only non-trivial method on the `IActiveScriptSiteDebug` interface simply delegates to the helper.  
+3. Implement the [IActiveScriptSiteDebug Interface](../winscript/reference/iactivescriptsitedebug-interface.md) interface on your object that implements the [IActiveScriptSite](../winscript/reference/iactivescriptsite.md) interface (which is needed for Active Scripting). The only non-trivial method on the `IActiveScriptSiteDebug` interface simply delegates to the helper.  
   
- Optionally, the host can implement the [IDebugDocumentHost Interface](../winscript/reference/idebugdocumenthost-interface.md) interface if it needs additional control over syntax color, document context creation, and other extended functionality.  
+   Optionally, the host can implement the [IDebugDocumentHost Interface](../winscript/reference/idebugdocumenthost-interface.md) interface if it needs additional control over syntax color, document context creation, and other extended functionality.  
   
- The main limitation on the smart host helper is that it can only handle documents whose contents change or shrink after they have been added (although documents can expand). For many smart hosts, however, the functionality it provides is exactly what is needed.  
+   The main limitation on the smart host helper is that it can only handle documents whose contents change or shrink after they have been added (although documents can expand). For many smart hosts, however, the functionality it provides is exactly what is needed.  
   
- The following sections explain each step in more detail.  
+   The following sections explain each step in more detail.  
   
 ## Create an Application Object  
  Before the smart host helper can be used, it is necessary to create an [IDebugApplication Interface](../winscript/reference/idebugapplication-interface.md) object to represent your application in the debugger.  
@@ -47,7 +47,7 @@ The [IDebugDocumentHelper Interface](../winscript/reference/idebugdocumenthelper
   
      The code below outlines the process, but it does not include error checking or other robust programming techniques.  
   
-    ```  
+    ```cpp
     CoCreateInstance(CLSID_ProcessDebugManager, NULL,  
           CLSCTX_INPROC_SERVER | CLSCTX_INPROC_HANDLER  
           | CLSCTX_LOCAL_SERVER,  
@@ -74,13 +74,13 @@ The [IDebugDocumentHelper Interface](../winscript/reference/idebugdocumenthelper
 ## Implementing IActiveScriptSiteDebug  
  To implement [IActiveScriptSiteDebug::GetDocumentContextFromPosition](../winscript/reference/iactivescriptsitedebug-getdocumentcontextfromposition.md), get the helper corresponding to the given site, and then get the starting document offset for the given source context, as follows:  
   
-```  
+```cpp
 pddh->GetScriptBlockInfo(dwSourceContext, NULL, &ulStartPos, NULL);  
 ```  
   
  Next, use the helper to create a new document context for the given character offset:  
   
-```  
+```cpp
 pddh->CreateDebugDocumentContext(ulStartPos + uCharacterOffset, cChars, &pddcNew);  
 ```  
   

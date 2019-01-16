@@ -1,9 +1,6 @@
 ---
 title: "IntelliSenseHostFlags | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IntellisenseHostFlags"
@@ -25,11 +22,11 @@ Specifies IntelliSense host flags.
 ```cpp  
 enum IntellisenseHostFlags  
 {  
-    IHF_READONLYCONTEXT      = 0x00000001  
-    IHF_NOSEPARATESUBJECT    = 0x00000002  
-    IHF_SINGLELINESUBJECT    = 0x00000004  
-    IHF_FORCECOMMITTOCONTEXT = 0x00000008  
-    IHF_OVERTYPE             = 0x00000010  
+    IHF_READONLYCONTEXT      = 0x00000001  
+    IHF_NOSEPARATESUBJECT    = 0x00000002  
+    IHF_SINGLELINESUBJECT    = 0x00000004  
+    IHF_FORCECOMMITTOCONTEXT = 0x00000008  
+    IHF_OVERTYPE             = 0x00000010  
 };  
 ```  
   

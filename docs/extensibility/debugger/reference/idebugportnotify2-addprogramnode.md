@@ -1,9 +1,6 @@
 ---
 title: "IDebugPortNotify2::AddProgramNode | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugPortNotify2::AddProgramNode"
@@ -23,13 +20,13 @@ Registers a program that can be debugged with the port it is running on.
   
 ```cpp  
 HRESULT AddProgramNode(   
-   IDebugProgramNode2* pProgramNode  
+   IDebugProgramNode2* pProgramNode  
 );  
 ```  
   
 ```csharp  
 int AddProgramNode(   
-   IDebugProgramNode2 pProgramNode  
+   IDebugProgramNode2 pProgramNode  
 );  
 ```  
   

@@ -1,8 +1,6 @@
 ---
 title: "IDiaStackFrame::get_localsBase | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves the base address of the local variables for the frame.
   
 ```C++  
 HRESULT get_localsBase (   
-   ULONGLONG* pRetVal  
+   ULONGLONG* pRetVal  
 );  
 ```  
   

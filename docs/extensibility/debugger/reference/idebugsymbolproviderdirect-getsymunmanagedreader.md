@@ -1,9 +1,6 @@
 ---
 title: "IDebugSymbolProviderDirect::GetSymUnmanagedReader | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "GetSymUnmanagedReader"
@@ -22,17 +19,17 @@ Retrieves a symbol reader for unmanaged code.
   
 ```cpp  
 HRESULT GetSymUnmanagedReader (  
-   ULONG32    ulAppDomainID,  
-   GUID       guidModule,  
-   IUnknown** ppSymUnmanagedReader  
+   ULONG32    ulAppDomainID,  
+   GUID       guidModule,  
+   IUnknown** ppSymUnmanagedReader  
 );  
 ```  
   
 ```csharp  
 int GetSymUnmanagedReader (  
-   uint       ulAppDomainID,  
-   Guid       guidModule,  
-   out object ppSymUnmanagedReader  
+   uint       ulAppDomainID,  
+   Guid       guidModule,  
+   out object ppSymUnmanagedReader  
 );  
 ```  
   

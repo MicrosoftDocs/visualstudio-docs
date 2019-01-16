@@ -1,9 +1,6 @@
 ---
 title: "Walkthrough: Create a master detail relation using a cached dataset"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -51,34 +48,34 @@ ms.workload:
   
 ### To create a new project  
   
-1.  Create an Excel Workbook project with the name **My Master-Detail**, using either Visual Basic or C#. Make sure that **Create a new document** is selected. For more information, see [How to: Create Office Projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).  
+1. Create an Excel Workbook project with the name **My Master-Detail**, using either Visual Basic or C#. Make sure that **Create a new document** is selected. For more information, see [How to: Create Office Projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).  
   
- Visual Studio opens the new Excel workbook in the designer and adds the **My Master-Detail** project to **Solution Explorer**.  
+   Visual Studio opens the new Excel workbook in the designer and adds the **My Master-Detail** project to **Solution Explorer**.  
   
 ## Create the data source  
  Use the **Data Sources** window to add a typed dataset to your project.  
   
 ### To create the data source  
   
-1.  If the **Data Sources** window is not visible, display it by, on the menu bar, choosing **View** > **Other Windows** > **Data Sources**.  
+1. If the **Data Sources** window is not visible, display it by, on the menu bar, choosing **View** > **Other Windows** > **Data Sources**.  
   
-2.  Choose **Add New Data Source** to start the **Data Source Configuration Wizard**.  
+2. Choose **Add New Data Source** to start the **Data Source Configuration Wizard**.  
   
-3.  Select **Database** and then click **Next**.  
+3. Select **Database** and then click **Next**.  
   
-4.  Select a data connection to the Northwind sample SQL Server database, or add a new connection by using the **New Connection** button.  
+4. Select a data connection to the Northwind sample SQL Server database, or add a new connection by using the **New Connection** button.  
   
-5.  After selecting or creating a connection, click **Next**.  
+5. After selecting or creating a connection, click **Next**.  
   
-6.  Clear the option to save the connection if it is selected, and then click **Next**.  
+6. Clear the option to save the connection if it is selected, and then click **Next**.  
   
-7.  Expand the **Tables** node in the **Database objects** window.  
+7. Expand the **Tables** node in the **Database objects** window.  
   
-8.  Select the **Orders** table and the **Order Details** table.  
+8. Select the **Orders** table and the **Order Details** table.  
   
 9. Click **Finish**.  
   
- The wizard adds the two tables to the **Data Sources** window. It also adds a typed dataset to your project that is visible in **Solution Explorer**.  
+   The wizard adds the two tables to the **Data Sources** window. It also adds a typed dataset to your project that is visible in **Solution Explorer**.  
   
 ## Add controls to the worksheet  
  In this step, you will add a named range, a list object, and two buttons to the first worksheet. First, add the named range and the list object from the **Data Sources** window so that they are automatically bound to the data source. Next, add the buttons from the **Toolbox**.  
@@ -103,30 +100,30 @@ ms.workload:
   
 ### To add two buttons  
   
-1.  From the **Common Controls** tab of the **Toolbox**, add a <xref:System.Windows.Forms.Button> control to cell **A3** of the worksheet.  
+1. From the **Common Controls** tab of the **Toolbox**, add a <xref:System.Windows.Forms.Button> control to cell **A3** of the worksheet.  
   
-     This button is named `Button1`.  
+    This button is named `Button1`.  
   
-2.  Add another <xref:System.Windows.Forms.Button> control to cell **B3** of the worksheet.  
+2. Add another <xref:System.Windows.Forms.Button> control to cell **B3** of the worksheet.  
   
-     This button is named `Button2`.  
+    This button is named `Button2`.  
   
- Next, mark the dataset to be cached in the document.  
+   Next, mark the dataset to be cached in the document.  
   
 ## Cache the dataset  
  Mark the dataset to be cached in the document by making the dataset public and setting the **CacheInDocument** property.  
   
 ### To cache the dataset  
   
-1.  Select **NorthwindDataSet** in the component tray.  
+1. Select **NorthwindDataSet** in the component tray.  
   
-2.  In the **Properties** window, change the **Modifiers** property to **Public**.  
+2. In the **Properties** window, change the **Modifiers** property to **Public**.  
   
-     Datasets must be public before caching is enabled.  
+    Datasets must be public before caching is enabled.  
   
-3.  Change the **CacheInDocument** property to **True**.  
+3. Change the **CacheInDocument** property to **True**.  
   
- The next step is to add text to the buttons, and in C# add code to hook up the event handlers.  
+   The next step is to add text to the buttons, and in C# add code to hook up the event handlers.  
   
 ## Initialize the controls  
  Set the button text and add event handlers during the <xref:Microsoft.Office.Tools.Excel.Workbook.Startup> event.  
@@ -190,5 +187,3 @@ ms.workload:
  [Data in Office solutions](../vsto/data-in-office-solutions.md)   
  [Cache data](../vsto/caching-data.md)   
  [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)  
-  
-  

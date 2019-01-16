@@ -1,9 +1,6 @@
 ---
 title: "IDebugCustomAttribute::GetName | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugCustomAttribute::GetName"
@@ -23,13 +20,13 @@ Gets the name of the custom attribute.
   
 ```cpp  
 HRESULT GetName(   
-   BSTR* bstrName  
+   BSTR* bstrName  
 );  
 ```  
   
 ```csharp  
 int GetName(  
-   out string bstrName  
+   out string bstrName  
 );  
 ```  
   

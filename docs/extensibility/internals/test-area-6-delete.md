@@ -1,9 +1,6 @@
 ---
 title: "Test Area 6: Delete | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "source control [Visual Studio SDK], deleting items"
@@ -22,13 +19,13 @@ This source-control plug-in test area covers delete actions.
   
  Following is a list of items that can be deleted:  
   
--   Files  
+- Files  
   
--   Folders  
+- Folders  
   
--   Project  
+- Project  
   
- Depending on the project type, you might have the option to **Remove** the project (leaves the files on disk) or **Delete** the project (removes the files on disk). Either action removes the project or item from **Solution Explorer**.  
+  Depending on the project type, you might have the option to **Remove** the project (leaves the files on disk) or **Delete** the project (removes the files on disk). Either action removes the project or item from **Solution Explorer**.  
   
 ## Expected Behavior  
  The expected behavior for the test cases in the delete test area is:  

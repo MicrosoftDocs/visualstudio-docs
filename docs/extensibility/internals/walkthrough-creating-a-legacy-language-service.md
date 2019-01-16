@@ -1,9 +1,6 @@
 ---
 title: "Walkthrough: Creating a Legacy Language Service | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "language services [managed package framework], creating"
@@ -31,25 +28,25 @@ Using the managed package framework (MPF) language classes to implement a langua
   
 ### Create a VSPackage  
   
-1.  Create a new VSPackage with the Visual Studio Package project template.  
+1. Create a new VSPackage with the Visual Studio Package project template.  
   
-     If you are adding a language service to an existing VSPackage, skip the following steps and go directly to the "Create the Language Service Class" procedure.  
+    If you are adding a language service to an existing VSPackage, skip the following steps and go directly to the "Create the Language Service Class" procedure.  
   
-2.  Enter MyLanguagePackage for the name of the project and click **OK**.  
+2. Enter MyLanguagePackage for the name of the project and click **OK**.  
   
-     You can use whatever name you want. These procedures detailed here assume MyLanguagePackage as the name.  
+    You can use whatever name you want. These procedures detailed here assume MyLanguagePackage as the name.  
   
-3.  Select [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] as the language and the option to generate a new key file. Click **Next**.  
+3. Select [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] as the language and the option to generate a new key file. Click **Next**.  
   
-4.  Enter the appropriate company and package information. Click **Next**.  
+4. Enter the appropriate company and package information. Click **Next**.  
   
-5.  Select **Menu Command**. Click **Next**.  
+5. Select **Menu Command**. Click **Next**.  
   
-     If you do not intend to support code snippets, you can just click Finish and ignore the next step.  
+    If you do not intend to support code snippets, you can just click Finish and ignore the next step.  
   
-6.  Enter **Insert Snippet** as the **Command Name** and `cmdidInsertSnippet` for the **Command ID**. Click **Finish**.  
+6. Enter **Insert Snippet** as the **Command Name** and `cmdidInsertSnippet` for the **Command ID**. Click **Finish**.  
   
-     The **Command Name** and **Command ID** can be whatever you want, these are just examples.  
+    The **Command Name** and **Command ID** can be whatever you want, these are just examples.  
   
 ### Create the Language Service Class  
   

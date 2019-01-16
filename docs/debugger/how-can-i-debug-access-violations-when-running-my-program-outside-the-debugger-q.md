@@ -1,8 +1,7 @@
 ---
-title: "How Can I Debug Access Violations When Running My Program Outside the Debugger? | Microsoft Docs"
-ms.custom: ""
+title: "Debug access violations when running an app outside the debugger | Microsoft Docs"
+ms.custom: "seodec18"
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.access"
@@ -22,6 +21,7 @@ ms.workload:
   - "multiple"
 ---
 # How Can I Debug Access Violations When Running My Program Outside the Debugger?
+
 ## Problem Description  
  My program runs fine in the Visual Studio environment, but when I run it stand-alone with the Windows operating system, it produces an access violation. How can I debug this problem?  
   

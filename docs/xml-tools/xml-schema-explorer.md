@@ -2,7 +2,6 @@
 title: "XML Schema Explorer"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-xml-tools
 ms.topic: conceptual
 ms.assetid: 2fc39e98-b194-456b-a452-cfafb0a52d66
 author: gewarren
@@ -35,7 +34,7 @@ The **XML Schema Explorer** provides a hierarchal view of the schema set through
 
 -   If you are on the [Start View](../xml-tools/start-view.md), click the **XML Schema Explorer** link.
 
--   If you are on the [Graph View](../xml-tools/graph-view.md) or the [Content Model View](../xml-tools/content-model-view.md) and have nodes in your workspace, use the context menu to select the **XML Schema Explorer**.
+-   If you are on the [Graph View](../xml-tools/graph-view.md) or the [Content Model View](../xml-tools/content-model-view.md) and have nodes in your workspace, use the context (right-click) menu to select the **XML Schema Explorer**.
 
 -   You can also select the **XML Schema Explorer** from the **View** menu.
 

@@ -1,8 +1,6 @@
 ---
 title: "IDiaSession::findLines | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,9 +20,9 @@ Retrieves line numbers within specified compiland and source file identifiers.
   
 ```C++  
 HRESULT findLines (   
-   IDiaSymbol*           compiland,  
-   IDiaSourceFile*       file,  
-   IDiaEnumLineNumbers** ppResult  
+   IDiaSymbol*           compiland,  
+   IDiaSourceFile*       file,  
+   IDiaEnumLineNumbers** ppResult  
 );  
 ```  
   

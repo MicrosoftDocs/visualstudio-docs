@@ -24,7 +24,7 @@ Describes which type to get for a document.
   
 ## Syntax  
   
-```  
+```cpp
 typedef enum tagDOCUMENTNAMETYPE {  
    DOCUMENTNAMETYPE_APPNODE,  
    DOCUMENTNAMETYPE_TITLE,  

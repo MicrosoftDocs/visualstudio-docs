@@ -1,8 +1,6 @@
 ---
 title: "IDiaSession::get_globalScope | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves a reference to the global scope.
   
 ```C++  
 HRESULT get_globalScope (   
-   IDiaSymbol** pRetVal  
+   IDiaSymbol** pRetVal  
 );  
 ```  
   

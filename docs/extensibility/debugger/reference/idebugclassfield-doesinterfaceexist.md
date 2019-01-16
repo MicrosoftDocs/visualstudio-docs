@@ -1,9 +1,6 @@
 ---
 title: "IDebugClassField::DoesInterfaceExist | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugClassField::DoesInterfaceExist"
@@ -23,13 +20,13 @@ Determines if a specific interface is defined in the class.
   
 ```cpp  
 HRESULT DoesInterfaceExist(   
-   LPCOLESTR pszInterfaceName  
+   LPCOLESTR pszInterfaceName  
 );  
 ```  
   
 ```csharp  
 int DoesInterfaceExist(  
-   [In] string pszInterfaceName  
+   [In] string pszInterfaceName  
 );  
 ```  
   

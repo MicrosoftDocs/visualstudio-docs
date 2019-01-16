@@ -1,9 +1,6 @@
 ---
 title: "IDebugSymbolProviderDirect::GetCurrentModulesState | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "GetCurrentModulesState"
@@ -22,15 +19,15 @@ Retrieves information about the symbol group of which the symbol provider is a m
   
 ```cpp  
 HRESULT GetCurrentModulesState(  
-    DWORD*          pState,  
-    unsigned long * count  
+    DWORD*          pState,  
+    unsigned long * count  
 );  
 ```  
   
 ```csharp  
 int GetCurrentModulesState(  
-    out uint pState,  
-    out uint count  
+    out uint pState,  
+    out uint count  
 );  
 ```  
   

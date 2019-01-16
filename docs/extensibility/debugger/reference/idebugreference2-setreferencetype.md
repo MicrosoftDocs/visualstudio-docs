@@ -1,9 +1,6 @@
 ---
 title: "IDebugReference2::SetReferenceType | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugReference2::SetReferenceType"
@@ -23,13 +20,13 @@ Sets the reference type. Reserved for future use.
   
 ```cpp  
 HRESULT SetReferenceType (   
-   REFERENCE_TYPE dwRefType  
+   REFERENCE_TYPE dwRefType  
 );  
 ```  
   
 ```csharp  
 int SetReferenceType (   
-   enum_REFERENCE_TYPE dwRefType  
+   enum_REFERENCE_TYPE dwRefType  
 );  
 ```  
   

@@ -1,8 +1,6 @@
 ---
 title: "IDiaStackWalker::getEnumFrames | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,8 +20,8 @@ Retrieves a stack frame enumerator for x86 platforms.
   
 ```C++  
 HRESULT getEnumFrames(   
-   IDiaStackWalkHelper*   pHelper,  
-   IDiaEnumStackFrames**  ppEnum  
+   IDiaStackWalkHelper*   pHelper,  
+   IDiaEnumStackFrames**  ppEnum  
 );  
 ```  
   

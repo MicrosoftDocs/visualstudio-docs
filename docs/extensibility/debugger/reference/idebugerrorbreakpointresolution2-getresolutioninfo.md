@@ -1,9 +1,6 @@
 ---
 title: "IDebugErrorBreakpointResolution2::GetResolutionInfo | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugErrorBreakpointResolution2::GetResolutionInfo"
@@ -23,15 +20,15 @@ Gets the breakpoint error resolution information.
   
 ```cpp  
 HRESULT GetResolutionInfo(   
-   BPERESI_FIELDS            dwFields,  
-   BP_ERROR_RESOLUTION_INFO* pErrorResolutionInfo  
+   BPERESI_FIELDS            dwFields,  
+   BP_ERROR_RESOLUTION_INFO* pErrorResolutionInfo  
 );  
 ```  
   
 ```csharp  
 int GetResolutionInfo(   
-   enum_BPERESI_FIELDS        dwFields,  
-   BP_ERROR_RESOLUTION_INFO[] pErrorResolutionInfo  
+   enum_BPERESI_FIELDS        dwFields,  
+   BP_ERROR_RESOLUTION_INFO[] pErrorResolutionInfo  
 );  
 ```  
   

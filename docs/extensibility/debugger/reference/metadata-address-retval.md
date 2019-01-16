@@ -1,9 +1,6 @@
 ---
 title: "METADATA_ADDRESS_RETVAL | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "METADATA_ADDRESS_RETVAL"
@@ -23,19 +20,19 @@ This structure represents a return value from a method or function.
   
 ```cpp  
 typedef struct _tagMETADATA_ADDRESS_RETVAL {  
-   _mdToken tokMethod;  
-   DWORD    dwCorType;  
-   DWORD    dwSigSize;  
-   BYTE     rgSig[10];  
+   _mdToken tokMethod;  
+   DWORD    dwCorType;  
+   DWORD    dwSigSize;  
+   BYTE     rgSig[10];  
 } METADATA_ADDRESS_RETVAL;  
 ```  
   
 ```csharp  
 public struct METADATA_ADDRESS_RETVAL {  
-   public int    tokMethod;  
-   public uint   dwCorType;  
-   public uint   dwSigSize;  
-   public byte[] rgSig;  
+   public int    tokMethod;  
+   public uint   dwCorType;  
+   public uint   dwSigSize;  
+   public byte[] rgSig;  
 }  
 ```  
   

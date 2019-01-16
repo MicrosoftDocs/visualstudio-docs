@@ -1,9 +1,6 @@
 ---
 title: "IDebugActivateDocumentEvent2::GetDocumentContext | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugActivateDocumentEvent2::GetDocumentContext"
@@ -24,13 +21,13 @@ Gets the document context that describes the position in the document that is to
   
 ```cpp  
 HRESULT GetDocumentContext (   
-   IDebugDocumentContext2** ppDocContext  
+   IDebugDocumentContext2** ppDocContext  
 );  
 ```  
   
 ```csharp  
 int GetDocumentContext (   
-   out IDebugDocumentContext2 ppDocContext  
+   out IDebugDocumentContext2 ppDocContext  
 );  
 ```  
   

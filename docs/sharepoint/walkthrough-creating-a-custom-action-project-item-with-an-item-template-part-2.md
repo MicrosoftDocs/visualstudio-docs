@@ -1,9 +1,6 @@
 ---
 title: "Walkthrough: Creating a Custom Action Project Item with an Item Template, Part 2 | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "project items [SharePoint development in Visual Studio], creating template wizards"
@@ -38,15 +35,15 @@ ms.workload:
   
  You also need the following components on the development computer to complete this walkthrough:  
   
--   Supported editions of Windows, SharePoint, and Visual Studio. For more information, see [Requirements for developing SharePoint solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md).  
+- Supported editions of Windows, SharePoint, and Visual Studio.
   
--   The Visual Studio SDK. This walkthrough uses the **VSIX Project** template in the SDK to create a VSIX package to deploy the project item. For more information, see [Extend the SharePoint tools in Visual Studio](../sharepoint/extending-the-sharepoint-tools-in-visual-studio.md).  
+- The Visual Studio SDK. This walkthrough uses the **VSIX Project** template in the SDK to create a VSIX package to deploy the project item. For more information, see [Extend the SharePoint tools in Visual Studio](../sharepoint/extending-the-sharepoint-tools-in-visual-studio.md).  
   
- Knowledge of the following concepts is helpful, but not required, to complete the walkthrough:  
+  Knowledge of the following concepts is helpful, but not required, to complete the walkthrough:  
   
--   Wizards for project and item templates in Visual Studio. For more information, see [How to: Use Wizards with Project Templates](../extensibility/how-to-use-wizards-with-project-templates.md) and the <xref:Microsoft.VisualStudio.TemplateWizard.IWizard> interface.  
+- Wizards for project and item templates in Visual Studio. For more information, see [How to: Use Wizards with Project Templates](../extensibility/how-to-use-wizards-with-project-templates.md) and the <xref:Microsoft.VisualStudio.TemplateWizard.IWizard> interface.  
   
--   Custom actions in SharePoint. For more information, see [Custom Action](http://go.microsoft.com/fwlink/?LinkId=177800).  
+- Custom actions in SharePoint. For more information, see [Custom Action](http://go.microsoft.com/fwlink/?LinkId=177800).  
   
 ## Create the wizard project
  To complete this walkthrough, you must add a project to the CustomActionProjectItem solution that you created in [Walkthrough: Create a custom action project item with an item template, Part 1](../sharepoint/walkthrough-creating-a-custom-action-project-item-with-an-item-template-part-1.md). You will implement the <xref:Microsoft.VisualStudio.TemplateWizard.IWizard> interface and define the wizard UI in this project.  
@@ -300,7 +297,7 @@ ms.workload:
   
 13. In the  **Description** box, enter **Opens the SharePoint Developer Center website**.  
   
-14. In the **URL** box, enter **http://msdn.microsoft.com/sharepoint/default.aspx**, and then choose the **Finish** button.  
+14. In the **URL** box, enter **https://docs.microsoft.com/sharepoint/dev/**, and then choose the **Finish** button.  
   
      Visual Studio adds an item that's named **CustomAction1** to your project and opens the *Elements.xml* file in the editor. Verify that *Elements.xml* contains the values that you specified in the wizard.  
   
@@ -321,7 +318,7 @@ ms.workload:
   
      The **List Settings** page appears.  
   
-4.  Under the **Communications** heading near the top of the page, choose the **SharePoint Developer Center** link, verify that the browser opens the website http://msdn.microsoft.com/sharepoint/default.aspx, and then close the browser.  
+4.  Under the **Communications** heading near the top of the page, choose the **SharePoint Developer Center** link, verify that the browser opens the website https://docs.microsoft.com/sharepoint/dev/, and then close the browser.  
   
 ## Cleaning up the development computer
  After you finish testing the project item, remove the project item template from the experimental instance of Visual Studio.  
@@ -345,4 +342,3 @@ ms.workload:
  [Visual Studio Template Schema Reference](/visualstudio/extensibility/visual-studio-template-schema-reference)   
  [How to: Use Wizards with Project Templates](../extensibility/how-to-use-wizards-with-project-templates.md)   
  [Default Custom Action Locations and IDs](http://go.microsoft.com/fwlink/?LinkId=181964)  
-  

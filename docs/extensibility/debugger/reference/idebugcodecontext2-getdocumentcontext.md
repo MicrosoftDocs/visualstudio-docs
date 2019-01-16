@@ -1,9 +1,6 @@
 ---
 title: "IDebugCodeContext2::GetDocumentContext | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugCodeContext2::GetDocumentContext"
@@ -23,13 +20,13 @@ Gets the document context that corresponds to this code context. The document co
   
 ```cpp  
 HRESULT GetDocumentContext(   
-   IDebugDocumentContext2** ppSrcCxt  
+   IDebugDocumentContext2** ppSrcCxt  
 );  
 ```  
   
 ```csharp  
 int GetDocumentContext(   
-   out IDebugDocumentContext2 ppSrcCxt  
+   out IDebugDocumentContext2 ppSrcCxt  
 );  
 ```  
   

@@ -1,8 +1,6 @@
 ---
 title: "Launch | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: f81bde5c-3394-4b79-a315-c2f6491689b3
 author: "mikejo5000"
@@ -32,7 +30,7 @@ VSPerfCmd.exe /Launch:AppName [Options]
  **Start:** `Method`  
  Initializes the command-line profiler session and sets the specified profiling method.  
   
- **GlobalOn**and **GlobalOff**  
+ **GlobalOn** and **GlobalOff**  
  Resumes (**GlobalOn**) or pauses (**GlobalOff**) profiling, but does not end the profiling session.  
   
  **ProcessOn:** `PID` and **ProcessOff**:`PID`  

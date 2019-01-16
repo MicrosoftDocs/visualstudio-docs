@@ -1,8 +1,7 @@
 ---
-title: Import and Export Settings Command
-ms.date: 11/04/2016
+title: Import and Export Settings command
+ms.date: 11/21/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "Tools.ImportandExportSettings"
@@ -16,8 +15,9 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Import and Export Settings Command
-Imports, exports, or resets [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] settings.
+# Import and Export Settings command
+
+Imports, exports, or resets Visual Studio settings.
 
 ## Syntax
 
@@ -26,25 +26,26 @@ Tools.ImportandExportSettings [/export:filename | /import:filename | /reset]
 ```
 
 ## Switches
- /export:`filename`
 
- Optional. Exports the current settings to the specified file.
+/export:`filename`
 
- /import:`filename`
+Optional. Exports the current settings to the specified file.
 
- Optional. Imports the settings in the specified file.
+/import:`filename`
 
- /reset
+Optional. Imports the settings in the specified file.
 
- Optional. Resets the current settings.
+/reset
+
+Optional. Resets the current settings.
 
 ## Remarks
 
-Running this command with no switches opens the **Import and Export Settings** wizard. For more information, see [Synchronize your settings](../../ide/synchronized-settings-in-visual-studio.md).
+Running this command with no switches opens the **Import and Export Settings** wizard. For more information, see [Synchronize your settings](../synchronized-settings-in-visual-studio.md) and [Environment settings](../environment-settings.md).
 
 ## Example
 
-The following command exports the current settings to the file `MyFile.vssettings`.
+The following command exports the current settings to the file `MyFile.vssettings`:
 
 ```cmd
 Tools.ImportandExportSettings /export:"c:\Files\MyFile.vssettings"
@@ -52,5 +53,7 @@ Tools.ImportandExportSettings /export:"c:\Files\MyFile.vssettings"
 
 ## See also
 
+- [Environment settings](../../ide/environment-settings.md)
+- [Synchronize your settings](../../ide/synchronized-settings-in-visual-studio.md)
 - [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md)
-- [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)
+- [Visual Studio commands](../../ide/reference/visual-studio-commands.md)

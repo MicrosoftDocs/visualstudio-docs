@@ -1,9 +1,6 @@
 ---
 title: "IDebugBreakpointBoundEvent2::GetPendingBreakpoint | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugBreakpointBoundEvent2::GetPendingBreakpoint"
@@ -23,13 +20,13 @@ Gets the pending breakpoint that is being bound.
   
 ```cpp  
 HRESULT GetPendingBreakpoint(   
-   IDebugPendingBreakpoint2** ppPendingBP  
+   IDebugPendingBreakpoint2** ppPendingBP  
 );  
 ```  
   
 ```cpp  
 int GetPendingBreakpoint(   
-   out IDebugPendingBreakpoint2 ppPendingBP  
+   out IDebugPendingBreakpoint2 ppPendingBP  
 );  
 ```  
   

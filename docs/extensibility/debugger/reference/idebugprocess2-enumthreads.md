@@ -1,9 +1,6 @@
 ---
 title: "IDebugProcess2::EnumThreads | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProcess2::EnumThreads"
@@ -23,13 +20,13 @@ Retrieves a list of all the threads running in the process.
   
 ```cpp  
 HRESULT EnumThreads(  
-   IEnumDebugThreads2** ppEnum  
+   IEnumDebugThreads2** ppEnum  
 );  
 ```  
   
 ```csharp  
 int EnumThreads(  
-   out IEnumDebugThreads2 ppEnum  
+   out IEnumDebugThreads2 ppEnum  
 );  
 ```  
   

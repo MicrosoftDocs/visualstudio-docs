@@ -1,9 +1,6 @@
 ---
 title: "IDebugProgramPublisher2::UnpublishProgram | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProgramPublisher2::UnpublishProgram"
@@ -23,13 +20,13 @@ Makes a program unavailable to be debugged.
   
 ```cpp  
 HRESULT UnpublishProgram(  
-   IUnknown* pDebuggeeInterface  
+   IUnknown* pDebuggeeInterface  
 );  
 ```  
   
 ```csharp  
 int UnpublishProgram(  
-   object pDebuggeeInterface  
+   object pDebuggeeInterface  
 );  
 ```  
   

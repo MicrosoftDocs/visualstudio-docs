@@ -1,9 +1,6 @@
 ---
 title: "IDebugComPlusSymbolProvider::IsFunctionDeleted | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugComPlusSymbolProvider::IsFunctionDeleted"
@@ -21,13 +18,13 @@ Determines that the function at the specified debug address is deleted.
   
 ```cpp  
 HRESULT IsFunctionDeleted(  
-   IDebugAddress* pAddress  
+   IDebugAddress* pAddress  
 );  
 ```  
   
 ```csharp  
 int IsFunctionDeleted(  
-   IDebugAddress pAddress  
+   IDebugAddress pAddress  
 );  
 ```  
   

@@ -1,8 +1,6 @@
 ---
 title: "IDiaSymbol::get_platform | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves the platform type for which the compiland was compiled.
   
 ```C++  
 HRESULT get_platform (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

@@ -1,9 +1,6 @@
 ---
 title: "SccRunScc Function | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "SccRunScc"
@@ -23,10 +20,10 @@ This function invokes the source control administration tool.
   
 ```cpp  
 SCCRTN SccRunScc(  
-   LPVOID  pvContext,  
-   HWND    hWnd,  
-   LONG    nFiles,  
-   LPCSTR* lpFileNames  
+   LPVOID  pvContext,  
+   HWND    hWnd,  
+   LONG    nFiles,  
+   LPCSTR* lpFileNames  
 );  
 ```  
   

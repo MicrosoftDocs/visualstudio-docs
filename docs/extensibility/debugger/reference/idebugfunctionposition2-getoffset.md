@@ -1,9 +1,6 @@
 ---
 title: "IDebugFunctionPosition2::GetOffset | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugFunctionPosition2::GetOffset"
@@ -23,13 +20,13 @@ Retrieves the position of the function in the source document.
   
 ```cpp  
 HRESULT GetOffset(   
-   TEXT_POSITION* pPosition  
+   TEXT_POSITION* pPosition  
 );  
 ```  
   
 ```csharp  
 int GetOffset(  
-   TEXT_POSITION[] pPosition  
+   TEXT_POSITION[] pPosition  
 );  
 ```  
   

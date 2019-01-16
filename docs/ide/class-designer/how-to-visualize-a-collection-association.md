@@ -2,7 +2,6 @@
 title: "How to: Visualize a Collection Association (Class Designer)"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 f1_keywords:
   - "vs.classdesigner.collectionassociationline"
@@ -36,4 +35,3 @@ The property or field is shown as an association line linking to the collected t
 
 - [How to: Create Associations Between Types](how-to-create-associations-between-types.md)
 - [Designing Classes and Types](designing-and-viewing-classes-and-types.md)
-- [Viewing Types and Relationships](viewing-types-and-relationships.md)

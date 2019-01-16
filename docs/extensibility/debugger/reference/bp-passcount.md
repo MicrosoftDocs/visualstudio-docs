@@ -1,9 +1,6 @@
 ---
 title: "BP_PASSCOUNT | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "BP_PASSCOUNT"
@@ -23,15 +20,15 @@ Describes the count and conditions upon which a conditional breakpoint is fired.
   
 ```cpp  
 typedef struct _BP_PASSCOUNT {   
-   DWORD              dwPassCount;  
-   BP_PASSCOUNT_STYLE stylePassCount;  
+   DWORD              dwPassCount;  
+   BP_PASSCOUNT_STYLE stylePassCount;  
 } BP_PASSCOUNT;  
 ```  
   
 ```csharp  
 public struct BP_PASSCOUNT {   
-   public uint dwPassCount;  
-   public uint stylePassCount;  
+   public uint dwPassCount;  
+   public uint stylePassCount;  
 };  
 ```  
   

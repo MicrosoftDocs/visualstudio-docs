@@ -1,15 +1,14 @@
 ---
-title: "Include Recordings of the Screen and Voice During Tests Using Test Settings in Visual Studio"
+title: Record Screen and Voice During Tests
 ms.date: 10/03/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "test settings, recording desktop video"
+ - "test settings, recording desktop video"
 ms.assetid: 2cefe8c2-430a-4cb4-bbe0-f3edb2e5bc03
 author: gewarren
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ---
 # How to: Include recordings of the screen and voice during tests using test settings
 
@@ -20,9 +19,11 @@ From the configuration editor in Visual Studio, you can configure the diagnostic
 
 The screen and voice recorder can be used with either manual or automated tests. For example, if you run a coded UI test remotely you might want to record the desktop to see the coded UI test as it runs. For more information about how to capture a screen and voice recording remotely, see [How to: Set up your test agent to run tests that interact with the desktop](../test/how-to-set-up-your-test-agent-to-run-tests-that-interact-with-the-desktop.md).
 
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
+
 ## To configure screen and voice recording for your test settings
 
-1.  Open the test settings that you want to configure for recording the screen and voice. For more information, see [Collect diagnostic data while testing (VSTS)](/vsts/manual-test/collect-diagnostic-data) or [Collect diagnostic information using test settings](../test/collect-diagnostic-information-using-test-settings.md).
+1.  Open the test settings that you want to configure for recording the screen and voice. For more information, see [Collect diagnostic data while testing (Azure Test Plans)](/azure/devops/test/collect-diagnostic-data?view=vsts) or [Collect diagnostic information using test settings](../test/collect-diagnostic-information-using-test-settings.md).
 
 2.  In the test settings, select the **Role** to use to record the screen and voice.
 
@@ -57,7 +58,7 @@ The screen and voice recorder can be used with either manual or automated tests.
 
 ## See also
 
-- [Collect diagnostic data while testing (VSTS)](/vsts/manual-test/collect-diagnostic-data)
-- [Collect diagnostic data in manual tests (VSTS)](/vsts/manual-test/mtm/collect-more-diagnostic-data-in-manual-tests)
+- [Collect diagnostic data while testing (Azure Test Plans)](/azure/devops/test/collect-diagnostic-data?view=vsts)
+- [Collect diagnostic data in manual tests (Azure Test Plans)](/azure/devops/test/mtm/collect-more-diagnostic-data-in-manual-tests?view=vsts)
 - [Collect diagnostic information using test settings](../test/collect-diagnostic-information-using-test-settings.md)
-- [Run manual tests (VSTS)](/vsts/manual-test/getting-started/run-manual-tests)
+- [Run manual tests (Azure Test Plans)](/azure/devops/test/run-manual-tests?view=vsts)

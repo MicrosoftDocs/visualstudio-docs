@@ -1,9 +1,6 @@
 ---
 title: "IDebugBoundBreakpoint2::GetBreakpointResolution | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugBoundBreakpoint2::GetBreakpointResolution"
@@ -24,13 +21,13 @@ Gets the breakpoint resolution that describes this breakpoint.
   
 ```cpp  
 HRESULT GetBreakpointResolution(   
-   IDebugBreakpointResolution2** ppBPResolution  
+   IDebugBreakpointResolution2** ppBPResolution  
 );  
 ```  
   
 ```csharp  
 int GetBreakpointResolution(   
-   out IDebugBreakpointResolution2 ppBPResolution  
+   out IDebugBreakpointResolution2 ppBPResolution  
 );  
 ```  
   

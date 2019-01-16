@@ -1,9 +1,6 @@
 ---
 title: "Adding a Language Server Protocol extension | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/14/2017"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 ms.assetid: 52f12785-1c51-4c2c-8228-c8e10316cd83
 author: "gregvanl"
@@ -126,10 +123,10 @@ The LSP does not include specification on how to provide text colorization for l
 
 4. Create a *.pkgdef* file and add a line similar to this:
 
-  ```xml
-  [$RootKey$\TextMate\Repositories]
-  "MyLang"="$PackageFolder$\Grammars"
-  ```
+   ```xml
+   [$RootKey$\TextMate\Repositories]
+   "MyLang"="$PackageFolder$\Grammars"
+   ```
 
 5. Right-click on the files and select **Properties**. Change the **Build** action to **Content** and the **Include in VSIX** property to true.
 
@@ -193,15 +190,15 @@ namespace MockLanguageExtension
 
         public async Task OnLoadedAsync()
         {
-            await StartAsync?.InvokeAsync(this, EventArgs.Empty);
+            await StartAsync.InvokeAsync(this, EventArgs.Empty);
         }
 
-        public async Task OnServerInitializeFailedAsync(Exception e)
+        public Task OnServerInitializeFailedAsync(Exception e)
         {
             return Task.CompletedTask;
         }
 
-        public async Task OnServerInitializedAsync()
+        public Task OnServerInitializedAsync()
         {
             return Task.CompletedTask;
         }
@@ -224,7 +221,7 @@ Once your language client class is implemented, you'll need to define two attrib
 
 ### MEF
 
-Visual Studio uses [MEF](https://github.com/Microsoft/vs-mef/blob/master/doc/index.md) (Managed Extensibility Framework) to manage its extensibility points. The [Export](https://msdn.microsoft.com/library/system.componentmodel.composition.exportattribute(v=vs.110).aspx) attribute indicates to Visual Studio that this class should be picked up as an extension point and loaded at the appropriate time.
+Visual Studio uses [MEF](https://github.com/Microsoft/vs-mef/blob/master/doc/index.md) (Managed Extensibility Framework) to manage its extensibility points. The [Export](/dotnet/api/system.componentmodel.composition.exportattribute) attribute indicates to Visual Studio that this class should be picked up as an extension point and loaded at the appropriate time.
 
 To use MEF, you must also define MEF as an Asset in the VSIX manifest.
 
@@ -289,40 +286,47 @@ Follow these steps below to add support for settings to your LSP language servic
 
 1. Add a JSON file (for example, *MockLanguageExtensionSettings.json*) in your project that contains the settings and their default values. For example:
 
-  ```json
-  {
+   ```json
+   {
     "foo.maxNumberOfProblems": -1
-  }
-  ```
+   }
+   ```
 2. Right-click on the JSON file and select **Properties**. Change the **Build** action to "Content" and the "Include in VSIX' property to true.
 
 3. Implement ConfigurationSections and return the list of prefixes for the settings defined in the JSON file (In Visual Studio Code, this would map to the configuration section name in package.json):
 
-  ```csharp
-  public IEnumerable<string> ConfigurationSections
-  {
+   ```csharp
+   public IEnumerable<string> ConfigurationSections
+   {
       get
       {
           yield return "foo";
       }
-  }
-  ```
+   }
+   ```
+
 4. Add a .pkgdef file to the project (add new text file and change the file extension to .pkgdef). The pkgdef file should contain this info:
 
-  ```xml
+   ```xml
     [$RootKey$\OpenFolder\Settings\VSWorkspaceSettings\[settings-name]]
     @="$PackageFolder$\[settings-file-name].json"
-  ```
+   ```
+
+    Sample:
+    ```xml
+    [$RootKey$\OpenFolder\Settings\VSWorkspaceSettings\MockLanguageExtension]
+    @="$PackageFolder$\MockLanguageExtensionSettings.json"
+    ```
 
 5. Right click on the .pkgdef file and select **Properties**. Change the **Build** action to **Content** and the **Include in VSIX** property to true.
 
 6. Open up the *source.extension.vsixmanifest* file and add an asset in the **Asset** tab:
 
-  ![edit vspackage asset](media/lsp-add-vspackage-asset.png)
+   ![edit vspackage asset](media/lsp-add-vspackage-asset.png)
 
-  * **Type**: Microsoft.VisualStudio.VsPackage
-  * **Source**: File on filesystem
-  * **Path**: [Path to your *.pkgdef* file]
+   * **Type**: Microsoft.VisualStudio.VsPackage
+   * **Source**: File on filesystem
+   * **Path**: [Path to your *.pkgdef* file]
 
 ### User editing of settings for a workspace
 
@@ -330,16 +334,16 @@ Follow these steps below to add support for settings to your LSP language servic
 2. User adds a file in the *.vs* folder called *VSWorkspaceSettings.json*.
 3. User adds a line to the *VSWorkspaceSettings.json* file for a setting the server provides. For example:
 
-  ```json
-  {
+   ```json
+   {
     "foo.maxNumberOfProblems": 10
-  }
-  ```
-### Enabling diagnostics tracing
-Diagnostics tracing can be enabled to output all messages between the client and server, which can be useful when debugging issues.  To enable diagnostic tracing, do the following:
+   }
+   ```
+   ### Enabling diagnostics tracing
+   Diagnostics tracing can be enabled to output all messages between the client and server, which can be useful when debugging issues.  To enable diagnostic tracing, do the following:
 
-1. Open or create the workspace settings file *VSWorkspaceSettings.json* (see "User editing of settings for a workspace").
-2. Add the following line in the settings json file:
+4. Open or create the workspace settings file *VSWorkspaceSettings.json* (see "User editing of settings for a workspace").
+5. Add the following line in the settings json file:
 
 ```json
 {

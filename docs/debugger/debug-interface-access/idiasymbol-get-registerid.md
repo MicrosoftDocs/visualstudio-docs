@@ -1,8 +1,6 @@
 ---
 title: "IDiaSymbol::get_registerId | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves the register designator of the location when the [LocationType Enumera
   
 ```C++  
 HRESULT get_registerId (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

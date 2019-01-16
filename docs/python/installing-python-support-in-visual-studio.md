@@ -1,13 +1,13 @@
 ---
-title: Installing Python support
+title: Install Python support
 description: How to install the Python Tools for Visual Studio (PTVS) in Visual Studio 2017, 2015, 2013, 2012, and 2010, including options and installation locations.
-ms.date: 06/26/2018
+ms.date: 12/06/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-python
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
 manager: douge
+ms.custom: seodec18
 ms.workload:
   - python
   - data-science
@@ -20,8 +20,6 @@ To install Python support for Visual Studio (also known as Python Tools for Visu
 - [Visual Studio 2017](#visual-studio-2017)
 - [Visual Studio 2015](#visual-studio-2015)
 - [Visual Studio 2013 and earlier](#visual-studio-2013-and-earlier)
-
-For Visual Studio 2015 and earlier you also need to separately [install a Python interpreter](installing-python-interpreters.md) of your choice (Python  3.5 and earlier; 3.6 is not supported and generates the message **Unsupported Python version 3.6**). The same page also contains instructions for adding an existing Python interpreter to Visual Studio 2017.
 
 To quickly test Python support after following the installation steps, open the **Python Interactive** window by pressing **Alt**+**I** and entering `2+2`. If you don't see the output of `4`, recheck your steps.
 
@@ -56,7 +54,7 @@ To quickly test Python support after following the installation steps, open the 
 
     | Option | Description |
     | --- | --- |
-    | Python distributions | Choose any combination of the 32-bit and 64-bit variants of the Python 2, Python 3, Anaconda2, and Anaconda3 distributions that you plan to work with. Each includes the distribution's interpreter, runtime, and libraries. Anaconda, specifically, is an open data science platform that includes a wide range of pre-installed packages. (You can return to the Visual Studio installer at any time to add or remove distributions.)  **Note**: If you've installed a distribution outside of the Visual Studio installer, there's no need to check the equivalent option here. Visual Studio automatically detects existing Python installations. See [Python environments](managing-python-environments-in-visual-studio.md). |
+    | Python distributions | Choose any combination of the 32-bit and 64-bit variants of the Python 2, Python 3, Anaconda2, and Anaconda3 distributions that you plan to work with. Each includes the distribution's interpreter, runtime, and libraries. Anaconda, specifically, is an open data science platform that includes a wide range of pre-installed packages. (You can return to the Visual Studio installer at any time to add or remove distributions.)  **Note**: If you've installed a distribution outside of the Visual Studio installer, there's no need to check the equivalent option here. Visual Studio automatically detects existing Python installations. See [The Python Environments window](managing-python-environments-in-visual-studio.md#the-python-environments-window). Also, if a newer version of Python is available than what's shown in the installer, you can install that version separately and Visual Studio will detect it. |
     | **Cookiecutter template support** | Installs the Cookiecutter graphical UI to discover templates, input template options, and create projects and files. See [Use the Cookiecutter extension](using-python-cookiecutter-templates.md). |
     | **Python web support** | Installs tools for web development including HTML, CSS, and JavaScript editing support, along with templates for projects using the Bottle, Flask, and Django frameworks. See [Python web project templates](python-web-application-project-templates.md). |
     | **Python IoT support** | Supports Windows IoT Core development using Python. |
@@ -91,7 +89,7 @@ If you encounter problems installing or running Python in Visual Studio, try the
 
     ![PTVS option in Visual Studio 2015 installer](media/installation-vs2015.png)
 
-1. Once Visual Studio setup is complete, [install a Python interpreter of your choice](installing-python-interpreters.md). If you already have an interpreter installed and Visual Studio doesn't detect it automatically, see [Manually identify an existing environment](managing-python-environments-in-visual-studio.md#manually-identify-an-existing-environment).
+1. Once Visual Studio setup is complete, [install a Python interpreter of your choice](installing-python-interpreters.md). Visual Studio 2015 supports only Python 3.5 and earlier; later versions generate a message like **Unsupported Python version 3.6**). If you already have an interpreter installed and Visual Studio doesn't detect it automatically, see [Manually identify an existing environment](managing-python-environments-in-visual-studio.md#manually-identify-an-existing-environment).
 
 ## Visual Studio 2013 and earlier
 
@@ -130,4 +128,3 @@ where:
 ### User-specific installations (1.5 and earlier)
 
 Python Tools for Visual Studio 1.5 and earlier allowed installation for the current user only, in which case the installation path is *%LocalAppData%\Microsoft\VisualStudio\\<VS_ver>\Extensions\Microsoft\Python Tools for Visual Studio\\<PTVS_ver>* where &lt;VS_ver&gt; and &lt;PTVS_ver&gt; are the same as described above.
-

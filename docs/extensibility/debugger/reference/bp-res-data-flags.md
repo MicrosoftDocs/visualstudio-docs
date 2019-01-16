@@ -1,9 +1,6 @@
 ---
 title: "BP_RES_DATA_FLAGS | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "BP_RES_DATA_FLAGS"
@@ -23,14 +20,14 @@ Specifies whether the data breakpoint is being emulated or implemented in hardwa
   
 ```cpp  
 enum enum_BP_RES_DATA_FLAGS {   
-   BP_RES_DATA_EMULATED = 0x0001  
+   BP_RES_DATA_EMULATED = 0x0001  
 };  
 typedef DWORD BP_RES_DATA_FLAGS;  
 ```  
   
 ```csharp  
 public enum enum_BP_RES_DATA_FLAGS {   
-   BP_RES_DATA_EMULATED = 0x0001  
+   BP_RES_DATA_EMULATED = 0x0001  
 };  
 ```  
   

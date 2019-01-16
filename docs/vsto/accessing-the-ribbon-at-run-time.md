@@ -1,8 +1,6 @@
 ---
 title: "Access the Ribbon at runtime"
-ms.custom: ""
 ms.date: 02/02/2017
-ms.technology: office-development
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
 dev_langs:
@@ -12,8 +10,8 @@ helpviewer_keywords:
   - "Globals class, Ribbon"
   - "Ribbon [Office development in Visual Studio], accessing"
   - "RibbonManager class"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload:
   - "office"

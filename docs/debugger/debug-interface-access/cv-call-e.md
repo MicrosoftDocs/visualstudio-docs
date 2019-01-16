@@ -1,8 +1,6 @@
 ---
 title: "CV_call_e | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -25,12 +23,12 @@ Specifies the calling convention for a function.
   
 ```C++  
 typedef enum CV_call_e {   
-   CV_CALL_NEAR_C    = 0x00,  
-   CV_CALL_NEAR_FAST = 0x04,  
-   CV_CALL_NEAR_STD  = 0x07,  
-   CV_CALL_NEAR_SYS  = 0x09,  
-   CV_CALL_THISCALL  = 0x0b,  
-   CV_CALL_CLRCALL   = 0x16  
+   CV_CALL_NEAR_C    = 0x00,  
+   CV_CALL_NEAR_FAST = 0x04,  
+   CV_CALL_NEAR_STD  = 0x07,  
+   CV_CALL_NEAR_SYS  = 0x09,  
+   CV_CALL_THISCALL  = 0x0b,  
+   CV_CALL_CLRCALL   = 0x16  
 } CV_call_e;  
 ```  
   

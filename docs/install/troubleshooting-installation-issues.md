@@ -1,8 +1,8 @@
 ---
-title: "Troubleshoot installation issues with Visual Studio 2017"
+title: "Troubleshoot installation or upgrade issues"
 description: "Sometimes, things can go wrong. If your Visual Studio installation or upgrade fails, this page can help."
 ms.date: 08/01/2018
-ms.technology: vs-acquisition
+ms.custom: "seodec18"
 ms.prod: visual-studio-dev15
 ms.topic: troubleshooting
 helpviewer_keywords:
@@ -50,7 +50,7 @@ The Visual Studio Installer bootstrapper is a minimal light-weight executable th
 
 In some situations, such as those related to corrupted files, the problems might have to be looked at on a case-by-case basis. To help us help you, please do the following:
 
-1. Collect your setup logs. See [How to get the Visual Studio installation logs](#how-to-get-the-visual-studio-installation-logs) for details.
+1. Collect your setup logs. See [How to get the Visual Studio installation logs](#how-to-get-visual-studio-installation-logs) for details.
 2. Open the Visual Studio Installer, and then click **Report a problem** to open the Visual Studio Feedback tool.
 ![You can tab to the Provide Feedback button to open the feedback tool](media/report-a-problem.png)
 3. Give your problem report a title, and provide relevant details. Click **Next** to go to the **Attachments** section, and then attach the generated log file (typically, the file is at `%TEMP%\vslogs.zip`).

@@ -2,7 +2,6 @@
 title: "CA2133: Delegates must bind to methods with consistent transparency"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA2133"
@@ -29,15 +28,15 @@ ms.workload:
 
 This warning fires on a method that binds a delegate that is marked with the <xref:System.Security.SecurityCriticalAttribute> to a method that is transparent or that is marked with the <xref:System.Security.SecuritySafeCriticalAttribute>. The warning also fires a method that binds a delegate that is transparent or safe-critical to a critical method.
 
-## Rule Description
+## Rule description
 
 Delegate types and the methods that they bind to must have consistent transparency. Transparent and safe-critical delegates may only bind to other transparent or safe-critical methods. Similarly, critical delegates may only bind to critical methods. These binding rules ensure that the only code that can invoke a method via a delegate could have also invoked the same method directly. For example, binding rules prevent transparent code from calling critical code directly via a transparent delegate.
 
-## How to Fix Violations
+## How to fix violations
 
 To fix a violation of this warning, change the transparency of the delegate or of the method that it binds so that the transparency of the two are equivalent.
 
-## When to Suppress Warnings
+## When to suppress warnings
 
 Do not suppress a warning from this rule.
 

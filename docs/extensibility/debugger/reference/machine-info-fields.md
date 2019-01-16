@@ -1,9 +1,6 @@
 ---
 title: "MACHINE_INFO_FIELDS | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "MACHINE_INFO_FIELDS"
@@ -23,18 +20,18 @@ Specifies what kind of information to retrieve for a particular machine.
   
 ```cpp  
 enum enum_MACHINE_INFO_FIELDS {   
-   MCIF_NAME  = 0x00000001,  
-   MCIF_FLAGS = 0x00000002,  
-   MCIF_ALL   = 0x00000003  
+   MCIF_NAME  = 0x00000001,  
+   MCIF_FLAGS = 0x00000002,  
+   MCIF_ALL   = 0x00000003  
 };  
 typedef DWORD MACHINE_INFO_FIELDS;  
 ```  
   
 ```csharp  
 public enum enum_MACHINE_INFO_FIELDS {   
-   MCIF_NAME  = 0x00000001,  
-   MCIF_FLAGS = 0x00000002,  
-   MCIF_ALL   = 0x00000003  
+   MCIF_NAME  = 0x00000001,  
+   MCIF_FLAGS = 0x00000002,  
+   MCIF_ALL   = 0x00000003  
 };  
 ```  
   

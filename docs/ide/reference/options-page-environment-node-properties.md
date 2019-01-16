@@ -2,7 +2,6 @@
 title: Options Page, Environment Node Properties
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 helpviewer_keywords:
   - "automation [Visual Studio], controlling Tools Options"
@@ -21,7 +20,7 @@ This document describes the pages (or properties collections) that are associate
  `DTE.Properties("Environment", "General")`
 
 |Property Item Name|Value|Description|
-|------------------------|-----------|-----------------|
+| - |-----------|-----------------|
 |ShowStatusBar|Get/Set (Boolean)|Determines whether the status bar is visible.|
 |WindowMenuContainsNItems|Get/Set (Short)|Determines how document windows are contained at the bottom of the Windows menu.|
 |MRUListContainsNItems|Get/Set (Short)|Determines how many files display in the "Most Recently Used" submenu.|
@@ -36,7 +35,7 @@ This document describes the pages (or properties collections) that are associate
  `DTE.Properties("Environment", "AddinMacrosSecurity")`
 
 |Property Item Name|Value|Description|
-|------------------------|-----------|-----------------|
+| - |-----------|-----------------|
 |MacrosEnabled|Get/Set (Boolean)|Allows macros to run.|
 |AddinsEnabled|Get/Set (Boolean)|Allows add-ins to load.|
 |LoadAddinsFromTheWeb|Get/Set (Boolean)|Allows add-ins to load from a URL on the Web.|
@@ -45,7 +44,7 @@ This document describes the pages (or properties collections) that are associate
  `DTE.Properties("Environment", "Documents")`
 
 |Property Item Name|Value|Description|
-|------------------------|-----------|-----------------|
+| - |-----------|-----------------|
 |ReuseSavedActiveDocWindow|Get/Set (Boolean)|Determines whether opening a new file reuses the current document window if the current document is saved. `false` means always open a new document window for each document opened.|
 |DetectFileChangesOutsideIDE|Get/Set (Boolean)|Determines whether the environment automatically reloads files opened in the IDE when the operating system notifies the IDE that the files have been modified on disk.|
 |AutoloadExternalChanges|Get/Set (Boolean)|Determines whether detected external modifications to open documents automatically reload the modified file if the open document is not modified. If the open document is modified and this property is `true`, then the IDE prompts as if this property were `false`.|
@@ -62,7 +61,7 @@ This document describes the pages (or properties collections) that are associate
  `DTE.Properties("Environment", "ExtensionManager")`
 
 |Property Item Name|Value|Description|
-|------------------------|-----------|-----------------|
+| - |-----------|-----------------|
 |EnableAdminExtensions|Get/Set (Boolean)|Loads per-user extensions when Visual Studio is run under Administrator credentials. Visual Studio must be restarted after this value is changed.|
 |EnableOnline|Get/Set (Boolean)|Enables access to extensions on the Visual Studio Marketplace.|
 |AutomaticallyCheckForUpdates|Get/Set (Boolean)|Automatically checks for updates to installed extensions.|
@@ -71,7 +70,7 @@ This document describes the pages (or properties collections) that are associate
  `DTE.Properties("Environment", "FindAndReplace")`
 
 |Property Item Name|Value|Description|
-|------------------------|-----------|-----------------|
+| - |-----------|-----------------|
 |ShowWarningMessages|Get/Set (Boolean)|Displays warning messages.|
 |InitializeFromEditor|Get/Set (Boolean)|Automatically populates the **Find What** box with text from the editor.|
 |ShowMessageBoxes|Get/Set (Boolean)|Displays informational messages.|
@@ -81,7 +80,7 @@ This document describes the pages (or properties collections) that are associate
  `DTE.Properties("Environment", "Import and Export Settings")`
 
 |Property Item Name|Value|Description|
-|------------------------|-----------|-----------------|
+| - |-----------|-----------------|
 |TrackTeamSettings|Get/Set (Boolean)|Uses the settings in the file specified by TeamSettingsFile.|
 |TeamSettingsFile|Get/Set (String)|Name of file that has team settings.|
 |AutoSaveFile|Get/Set (String)|Name of file where user settings are automatically saved.|
@@ -90,21 +89,21 @@ This document describes the pages (or properties collections) that are associate
  `DTE.Properties("Environment", "International")`
 
 |Property Item Name|Value|Description|
-|------------------------|-----------|-----------------|
+| - |-----------|-----------------|
 |Language|Get/Set (String)|LCID value for the current language for Visual Studio.|
 
 ## Keyboard
  `DTE.Properties("Environment", "Keyboard")`
 
 |Property Item Name|Value|Description|
-|------------------------|-----------|-----------------|
+| - |-----------|-----------------|
 |Scheme|Get/Set (String)|Returns a string that contains a built-in scheme, a string containing the full path of the .vsk file that is loaded, or "(Default)" if no .vsk file is loaded.|
 
 ## Projects and Solution
  `DTE.Properties("Environment", "ProjectsAndSolution")`
 
 |Property Item Name|Value|Description|
-|------------------------|-----------|-----------------|
+| - |-----------|-----------------|
 |OnRunOrPreview|Get/Set (String)|Determines whether the IDE saves everything before previewing or running a built project.|
 |ProjectsLocation|Get/Set (String)|Determines the default directory where the **Add Project** dialog box saves new projects.|
 |ShowOutputWindowBeforeBuild|Get/Set (Boolean)|Determines whether starting a build displays the **Output** window.|
@@ -127,7 +126,7 @@ This document describes the pages (or properties collections) that are associate
  `DTE.Properties("Environment", "Startup")`
 
 |Property Item Name|Value|Description|
-|------------------------|-----------|-----------------|
+| - |-----------|-----------------|
 |OnStartUp|Get/Set (Enum)|Action to take at startup, from <xref:EnvDTE.vsStartUp>, with values 0 through 5:<br /><br /> -   0: Open Home Page<br />-   1: Load last loaded solution<br />-   2: Show **Open Project** dialog box<br />-   3: Show **New Project** dialog box<br />-   4: Show empty environment<br />-   5: Show Start Page|
 |StartPageRSSUrl|Get/Set (String)|URL for the RSS feed that is used at startup.|
 |StartPageRefreshDownloadedContent|Get/Set (Boolean)|Refreshes the Start Page after every passage of the interval specified in StartPageRefreshInterval.|
@@ -137,7 +136,7 @@ This document describes the pages (or properties collections) that are associate
  `DTE.Properties("Environment", "TaskList")`
 
 |Property Item Name|Value|Description|
-|------------------------|-----------|-----------------|
+| - |-----------|-----------------|
 |ConfirmTaskDeletion|Get/Set (Boolean)|Specifies whether a confirmation box displays when deleting tasks from the **Task List**.|
 |WarnOnAddingHiddenItem|Get/Set (Boolean)|Specifies whether you are warned when adding a user task that will not be shown.|
 |DontShowFilePaths|Get/Set (Boolean)|Specifies whether to show full file paths in the Task List.|
@@ -147,7 +146,7 @@ This document describes the pages (or properties collections) that are associate
  `DTE.Properties("Environment", "WebBrowser")`
 
 |Property Item Name|Value|Description|
-|------------------------|-----------|-----------------|
+| - |-----------|-----------------|
 |HomePage|Get/Set (String)|Represents the home page URL.|
 |SearchPage|Get/Set (String)|Represents the search page URL.|
 |ViewSourceIn|Get/Set (Enum)|<xref:EnvDTE.vsBrowserViewSource> (Source, Design, External).|
@@ -155,8 +154,8 @@ This document describes the pages (or properties collections) that are associate
 
 ## See Also
 
-- [Controlling Options Settings](http://msdn.microsoft.com/Library/a09ed242-7494-4cde-bbd1-7a8ec617965d)
-- [Determining the Names of Property Items on Options Pages](http://msdn.microsoft.com/Library/d450422d-47c7-4eeb-9f9f-3286264bc5aa)
+- [Controlling Options Settings](https://msdn.microsoft.com/Library/a09ed242-7494-4cde-bbd1-7a8ec617965d)
+- [Determining the Names of Property Items on Options Pages](https://msdn.microsoft.com/Library/d450422d-47c7-4eeb-9f9f-3286264bc5aa)
 - [Options Page, Fonts and Colors Node Properties](../../ide/reference/options-page-fonts-and-colors-node-properties.md)
 - [Options Page, Text Editor Node Properties](../../ide/reference/options-page-text-editor-node-properties.md)
 - [Environment Options Dialog Box](../../ide/reference/environment-options-dialog-box.md)

@@ -1,9 +1,6 @@
 ---
 title: "Error Handling and Return Values | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "errors [Visual Studio SDK], handling"
@@ -16,10 +13,10 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Error Handling and Return Values
+# Error handling and return values
 VSPackages and COM use the same architecture for errors. The `SetErrorInfo` and `GetErrorInfo` functions are part of the Win32 application programming interface (API). Any VSPackage in the integrated development environment (IDE) can call these global Win32 APIs to record rich error information when receiving an error notification. The [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] provides interop assemblies to manage error information.  
   
-## Interop Methods  
+## Interop methods  
  As a convenience, the IDE provides a method, <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.SetErrorInfo%2A>, to use instead of calling the Win32 APIs. In managed code use <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.SetErrorInfo%2A>. When an error `HRESULT` arrives at the level where the error message should be displayed (this is often the object implementing an <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> command handler), the IDE uses another method, <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.ReportErrorInfo%2A>, to display the appropriate message box. In managed code use the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.ReportErrorInfo%2A> method.  
   
  As a VSPackage implementer, your COM objects normally implement `ISupportErrorInfo`. The `ISupportErrorInfo` interface ensures that rich error information can move vertically up the call chain. Objects that might be used across processes or across threads must support `ISupportErrorInfo` to ensure that the rich error information is properly marshaled back to the caller.  
@@ -28,7 +25,7 @@ VSPackages and COM use the same architecture for errors. The `SetErrorInfo` and 
   
  The IDE is responsible for reporting error information and displaying it to a user of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] whenever an `HRESULT` is propagated to the IDE. The IDE is also the mechanism for creating `ErrorInfo` objects.  
   
-## General Guidelines  
+## General guidelines  
  You can use the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.SetErrorInfo%2A> and <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.ReportErrorInfo%2A> methods to set and report errors that are internal to your VSPackage implementation as well. However, as a general rule, follow these guidelines for handling error messages in your VSPackage:  
   
 -   Implement `ISupportErrorInfo` in your VSPackage COM objects.  
@@ -37,7 +34,7 @@ VSPackages and COM use the same architecture for errors. The `SetErrorInfo` and 
   
 -   Let the IDE display errors to users through the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.ReportErrorInfo%2A> method.  
   
-## Error Information in the IDE  
+## Error information in the IDE  
  The following rules indicate how to handle error information in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE:  
   
 -   As a defensive strategy to guarantee that stale error info is not reported to users, functions that call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.ReportErrorInfo%2A> method should first call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.SetErrorInfo%2A> method. Pass in `null` to clear cached error messages before calling anything that might set new error information.  
@@ -50,8 +47,8 @@ VSPackages and COM use the same architecture for errors. The `SetErrorInfo` and 
   
 -   All functions that return an error originated by another call must pass on the information that was received from the failing call in the `HRESULT` without modifying the `ErrorInfo` object.  
   
-## See Also  
+## See also  
  <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget>   
- [SetErrorInfo (Component Automation)](http://msdn.microsoft.com/8eaacfac-fc37-4eaa-870b-10b99d598d66)   
+ [SetErrorInfo (Component Automation)](/previous-versions/windows/desktop/api/oleauto/nf-oleauto-seterrorinfo)   
  [GetErrorInfo](/previous-versions/windows/desktop/api/oleauto/nf-oleauto-geterrorinfo)   
  [ISupportErrorInfo Interface](/previous-versions/windows/desktop/api/oaidl/nn-oaidl-isupporterrorinfo)

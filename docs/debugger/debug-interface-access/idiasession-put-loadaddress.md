@@ -1,8 +1,6 @@
 ---
 title: "IDiaSession::put_loadAddress | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Sets the load address for the executable file that corresponds to the symbols in
   
 ```C++  
 HRESULT put_loadAddress (   
-   ULONGLONG NewVal  
+   ULONGLONG NewVal  
 );  
 ```  
   

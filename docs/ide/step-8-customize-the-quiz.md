@@ -1,9 +1,7 @@
 ---
 title: "Step 8: Customize the quiz"
-ms.custom: ""
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.assetid: dc8edb13-1b23-47d7-b859-8c6f7888c1a9
@@ -24,7 +22,7 @@ In the last part of the tutorial, you'll explore some ways to customize the quiz
   
 ## To continue or review  
   
--   To download a completed version of the quiz, see [Complete math quiz tutorial sample](http://code.msdn.microsoft.com/Complete-Math-Quiz-8581813c).  
+-   To download a completed version of the quiz, see [Complete math quiz tutorial sample](https://code.msdn.microsoft.com/Complete-Math-Quiz-8581813c).  
   
 -   To go to the next tutorial, see [Tutorial 3: Create a matching game](../ide/tutorial-3-create-a-matching-game.md).  
   

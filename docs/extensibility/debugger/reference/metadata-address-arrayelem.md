@@ -1,9 +1,6 @@
 ---
 title: "METADATA_ADDRESS_ARRAYELEM | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "METADATA_ADDRESS_ARRAYELEM"
@@ -23,15 +20,15 @@ This structure represents an array element within an array.
   
 ```cpp  
 typedef struct _tagMETADATA_ADDRESS_ARRAYELEM {  
-   _mdToken tokMethod;  
-   DWORD    dwIndex;  
+   _mdToken tokMethod;  
+   DWORD    dwIndex;  
 } METADATA_ADDRESS_ARRAYELEM;  
 ```  
   
 ```csharp  
 public struct METADATA_ADDRESS_ARRAYELEM {  
-   public int  tokMethod;  
-   public uint dwIndex;  
+   public int  tokMethod;  
+   public uint dwIndex;  
 }  
 ```  
   

@@ -1,9 +1,6 @@
 ---
 title: "IDebugAddress2::GetProcessID | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugAddress2::GetProcessID"
@@ -23,13 +20,13 @@ Retrieves the ID of the process that owns the object represented by this [IDebug
   
 ```cpp  
 HRESULT GetProcessID (  
-   DWORD* pProcID  
+   DWORD* pProcID  
 );  
 ```  
   
 ```csharp  
 int GetProcessID (  
-   out uint pProcID  
+   out uint pProcID  
 );  
 ```  
   

@@ -24,7 +24,7 @@ Specifies the state of a scripting engine. This enumeration is used by the [IAct
   
 ## Syntax  
   
-```  
+```cpp
 typedef enum tagSCRIPTSTATE {  
     SCRIPTSTATE_UNINITIALIZED = 0,  
     SCRIPTSTATE_INITIALIZED   = 5,  

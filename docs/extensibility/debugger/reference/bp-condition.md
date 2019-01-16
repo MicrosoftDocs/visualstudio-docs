@@ -1,9 +1,6 @@
 ---
 title: "BP_CONDITION | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "BP_CONDITION"
@@ -23,21 +20,21 @@ Describes the conditions under which a breakpoint fires.
   
 ```cpp  
 typedef struct _BP_CONDITION {   
-   IDebugThread2* pThread;  
-   BP_COND_STYLE  styleCondition;  
-   BSTR           bstrContext;  
-   BSTR           bstrCondition;  
-   UINT           nRadix;  
+   IDebugThread2* pThread;  
+   BP_COND_STYLE  styleCondition;  
+   BSTR           bstrContext;  
+   BSTR           bstrCondition;  
+   UINT           nRadix;  
 } BP_CONDITION;  
 ```  
   
 ```csharp  
 public struct BP_CONDITION {   
-   public IDebugThread2 pThread;  
-   public uint          styleCondition;  
-   public string        bstrContext;  
-   public string        bstrCondition;  
-   public uint          nRadix;  
+   public IDebugThread2 pThread;  
+   public uint          styleCondition;  
+   public string        bstrContext;  
+   public string        bstrCondition;  
+   public uint          nRadix;  
 };  
 ```  
   

@@ -1,9 +1,6 @@
 ---
 title: "IDebugExpressionEvaluator::SetLocale | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugExpressionEvaluator::SetLocale"
@@ -23,13 +20,13 @@ This method sets the language to use to create printable results.
   
 ```cpp  
 HRESULT SetLocale(   
-   WORD wLangID  
+   WORD wLangID  
 );  
 ```  
   
 ```csharp  
 int SetLocale(  
-   ushort wLangID  
+   ushort wLangID  
 );  
 ```  
   

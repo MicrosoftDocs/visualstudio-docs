@@ -1,9 +1,6 @@
 ---
 title: "IDebugPortSupplier2::AddPort | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugPortSupplier2::AddPort"
@@ -23,15 +20,15 @@ Adds a port.
   
 ```cpp  
 HRESULT AddPort(   
-   IDebugPortRequest2* pRequest,  
-   IDebugPort2**       ppPort  
+   IDebugPortRequest2* pRequest,  
+   IDebugPort2**       ppPort  
 );  
 ```  
   
 ```csharp  
 int AddPort(   
-   IDebugPortRequest2 pRequest,  
-   out IDebugPort2    ppPort  
+   IDebugPortRequest2 pRequest,  
+   out IDebugPort2    ppPort  
 );  
 ```  
   

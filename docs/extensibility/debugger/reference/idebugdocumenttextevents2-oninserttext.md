@@ -1,9 +1,6 @@
 ---
 title: "IDebugDocumentTextEvents2::onInsertText | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugDocumentTextEvents2::OnInsertText"
@@ -23,15 +20,15 @@ Notifies the debug package that text has been inserted into the document.
   
 ```cpp  
 HRESULT onInsert(   
-   TEXT_POSITION pos,  
-   DWORD         dwNumToInsert  
+   TEXT_POSITION pos,  
+   DWORD         dwNumToInsert  
 );  
 ```  
   
 ```csharp  
 int onInsert(   
-   enum_TEXT_POSITION pos,  
-   uint               dwNumToInsert  
+   enum_TEXT_POSITION pos,  
+   uint               dwNumToInsert  
 );  
 ```  
   

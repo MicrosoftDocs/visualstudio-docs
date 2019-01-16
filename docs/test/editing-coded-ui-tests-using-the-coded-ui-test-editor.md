@@ -2,7 +2,6 @@
 title: "Editing Coded UI Tests"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 f1_keywords:
   - "vs.codedUItest.testeditor"
@@ -17,6 +16,8 @@ author: gewarren
 # Edit coded UI tests using the Coded UI Test Editor
 
 The Coded UI Test Editor lets you easily modify your coded UI tests. Using the Coded UI Test Editor, you can locate, view, and edit the properties of your test methods and UI actions. In addition, you can use the UI control map to view and edit their corresponding controls.
+
+[!INCLUDE [coded-ui-test-deprecation](includes/coded-ui-test-deprecation.md)]
 
 **Requirements**
 
@@ -68,7 +69,7 @@ Using the Coded UI Test Editor, you can quickly locate and view all the UI actio
 
 To modify the properties for a UI action, in the **UI Action** pane, expand the test method that contains a UI action that you want to edit the properties for, select the UI action, and then modify the properties using the Properties window.
 
-For example, if a server is unavailable, and you have a UI action associated with your web browser that states **Go to Web page 'http://Contoso1/default.aspx'**, you could change the URL to `'http://Contoso2/default.aspx'`.
+For example, if a server is unavailable, and you have a UI action associated with your web browser that states **Go to Web page '<http://Contoso1/default.aspx>'**, you could change the URL to `'http://Contoso2/default.aspx'`.
 
 ![Control properties](../test/media/codeduitestcontrolprop.png)
 

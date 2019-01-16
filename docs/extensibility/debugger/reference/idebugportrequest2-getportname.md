@@ -1,9 +1,6 @@
 ---
 title: "IDebugPortRequest2::GetPortName | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugPortRequest2::GetPortName"
@@ -23,13 +20,13 @@ Gets the name of the port.
   
 ```cpp  
 HRESULT GetPortName(   
-   BSTR* pbstrPortName  
+   BSTR* pbstrPortName  
 );  
 ```  
   
 ```csharp  
 int GetPortName(   
-   out string pbstrPortName  
+   out string pbstrPortName  
 );  
 ```  
   

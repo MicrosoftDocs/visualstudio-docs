@@ -1,8 +1,6 @@
 ---
 title: "How to: Include a Data File in a ClickOnce Application | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -24,35 +22,35 @@ Each [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applicati
   
 ### To include a data file by using Mage.exe  
   
-1.  Add the data file to your application directory with the rest of your application's files.  
+1. Add the data file to your application directory with the rest of your application's files.  
   
-     Typically, your application directory will be a directory labeled with the deployment's current version—for example, v1.0.0.0.  
+    Typically, your application directory will be a directory labeled with the deployment's current version—for example, v1.0.0.0.  
   
-2.  Update your application manifest to list the data file.  
+2. Update your application manifest to list the data file.  
   
-     `mage -u v1.0.0.0\Application.manifest -FromDirectory v1.0.0.0`  
+    `mage -u v1.0.0.0\Application.manifest -FromDirectory v1.0.0.0`  
   
-     Performing this task re-creates the list of files in your application manifest and also automatically generates the hash signatures.  
+    Performing this task re-creates the list of files in your application manifest and also automatically generates the hash signatures.  
   
-3.  Open the application manifest in your preferred text or XML editor and find the `file` element for your recently added file.  
+3. Open the application manifest in your preferred text or XML editor and find the `file` element for your recently added file.  
   
-     If you added an XML file named `Data.xml`, the file will look similar to the following code example.  
+    If you added an XML file named `Data.xml`, the file will look similar to the following code example.  
   
- `<file name="Data.xml" hash="23454C18A2DC1D23E5B391FEE299B1F235067C59" hashalg="SHA1" asmv2:size="39500" />`  
+   `<file name="Data.xml" hash="23454C18A2DC1D23E5B391FEE299B1F235067C59" hashalg="SHA1" asmv2:size="39500" />`  
   
-1.  Add the attribute `type` to this element, and supply it with a value of `data`.  
+4. Add the attribute `type` to this element, and supply it with a value of `data`.  
   
- `<file name="Data.xml" writeableType="applicationData" hash="23454C18A2DC1D23E5B391FEE299B1F235067C59" hashalg="SHA1" asmv2:size="39500" />`  
+   `<file name="Data.xml" writeableType="applicationData" hash="23454C18A2DC1D23E5B391FEE299B1F235067C59" hashalg="SHA1" asmv2:size="39500" />`  
   
-1.  Re-sign your application manifest by using your key pair or certificate, and then re-sign your deployment manifest.  
+5. Re-sign your application manifest by using your key pair or certificate, and then re-sign your deployment manifest.  
   
-     You must re-sign your deployment manifest because its hash of the application manifest has changed.  
+    You must re-sign your deployment manifest because its hash of the application manifest has changed.  
   
-     `mage -s app manifest -cf cert_file -pwd password`
+    `mage -s app manifest -cf cert_file -pwd password`
   
-     `mage -u deployment manifest -appm app manifest`
+    `mage -u deployment manifest -appm app manifest`
   
-     `mage -s deployment manifest -cf certfile -pwd password`
+    `mage -s deployment manifest -cf certfile -pwd password`
   
 ### To include a data file by using MageUI.exe  
   

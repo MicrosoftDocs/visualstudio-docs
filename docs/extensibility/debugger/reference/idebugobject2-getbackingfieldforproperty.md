@@ -1,9 +1,6 @@
 ---
 title: "IDebugObject2::GetBackingFieldForProperty | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugObject2::GetBackingFieldForProperty"
@@ -23,13 +20,13 @@ Gets the field or variable (if any) that may be backing the property represented
   
 ```cpp  
 HRESULT GetBackingFieldForProperty(  
-   IDebugObject2** ppObject  
+   IDebugObject2** ppObject  
 );  
 ```  
   
 ```csharp  
 int GetBackingFieldForProperty(  
-   out IDebugObject2 ppObject  
+   out IDebugObject2 ppObject  
 );  
 ```  
   

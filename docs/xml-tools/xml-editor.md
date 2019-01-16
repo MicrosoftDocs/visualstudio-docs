@@ -2,7 +2,6 @@
 title: "XML editor"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-xml-tools
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren
@@ -51,5 +50,5 @@ The [XSLT hierarchy tool](../xml-tools/walkthrough-using-xslt-hierarchy.md) allo
 ## See also
 
 - [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md) provides information about the text editor.
-- [XML standards reference](http://msdn.microsoft.com/79c78508-c9d0-423a-a00f-672e855de401) provides information about XML technologies, including XML, Document Type Definition (DTD), XML Schema Definition language (XSD), and XSLT.
+- [XML standards reference](https://msdn.microsoft.com/79c78508-c9d0-423a-a00f-672e855de401) provides information about XML technologies, including XML, Document Type Definition (DTD), XML Schema Definition language (XSD), and XSLT.
 - [XML tools in Visual Studio](../xml-tools/xml-tools-in-visual-studio.md)

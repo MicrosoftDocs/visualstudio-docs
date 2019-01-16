@@ -1,9 +1,6 @@
 ---
 title: "IEnumDebugCustomAttributes::GetCount | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IEnumCustomAttributes::GetCount"
@@ -23,13 +20,13 @@ Gets the number of custom attributes in an enumerator.
   
 ```cpp  
 HRESULT GetCount(   
-   ULONG* pcelt  
+   ULONG* pcelt  
 );  
 ```  
   
 ```csharp  
 int GetCount(  
-   out uint pcelt  
+   out uint pcelt  
 );  
 ```  
   

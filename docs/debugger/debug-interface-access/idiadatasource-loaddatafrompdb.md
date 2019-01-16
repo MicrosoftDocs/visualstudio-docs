@@ -1,8 +1,6 @@
 ---
 title: "IDiaDataSource::loadDataFromPdb | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Opens and prepares a program database (.pdb) file as a debug data source.
   
 ```C++  
 HRESULT loadDataFromPdb (  
-   LPCOLESTR pdbPath  
+   LPCOLESTR pdbPath  
 );  
 ```  
   

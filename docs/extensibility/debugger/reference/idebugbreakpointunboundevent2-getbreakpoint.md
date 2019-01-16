@@ -1,9 +1,6 @@
 ---
 title: "IDebugBreakpointUnboundEvent2::GetBreakpoint | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugBreakpointUnboundEvent2::GetBreakpoint"
@@ -23,13 +20,13 @@ Gets the breakpoint that became unbound.
   
 ```cpp  
 HRESULT GetBreakpoint(   
-   IDebugBoundBreakpoint2** ppBP  
+   IDebugBoundBreakpoint2** ppBP  
 );  
 ```  
   
 ```csharp  
 int GetBreakpoint(   
-   out IDebugBoundBreakpoint2 ppBP  
+   out IDebugBoundBreakpoint2 ppBP  
 );  
 ```  
   

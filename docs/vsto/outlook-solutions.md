@@ -1,9 +1,6 @@
 ---
 title: "Outlook solutions"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -43,13 +40,13 @@ ms.workload:
 ## Automate Outlook by using the Outlook object model  
  The Outlook object model exposes many types that you can use to automate Outlook. These types enable you to write code to accomplish common tasks:  
   
--   Programmatically create and send e-mail messages.  
+- Programmatically create and send e-mail messages.  
   
--   Send new meeting requests.  
+- Send new meeting requests.  
   
--   Search for items in Outlook folders.  
+- Search for items in Outlook folders.  
   
- For more information, see [Outlook object model overview](../vsto/outlook-object-model-overview.md).  
+  For more information, see [Outlook object model overview](../vsto/outlook-object-model-overview.md).  
   
 ## Customize the user interface of an Outlook application  
   
@@ -70,5 +67,3 @@ ms.workload:
 |[Create Outlook form regions](../vsto/creating-outlook-form-regions.md)|Explains the tools provided by Visual Studio that make it easier for you to design, develop, and debug form regions.|  
 |[Walkthrough: Create your first VSTO Add-In for Outlook](../vsto/walkthrough-creating-your-first-vsto-add-in-for-outlook.md)|Shows you how to create a VSTO Add-in for Microsoft Office Outlook.|  
 |[Outlook 2010 in Office development](http://go.microsoft.com/fwlink/?LinkId=199013)|The area of the MSDN Library where you can find articles and reference documentation about developing Outlook solutions (not specific to Office development using Visual Studio).|  
-  
-  

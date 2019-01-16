@@ -1,9 +1,6 @@
 ---
 title: "SccOpenProject Function | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "SccOpenProject"
@@ -23,15 +20,15 @@ This function opens an existing source control project or creates a new one.
   
 ```cpp  
 SCCRTN SccOpenProject (  
-   LPVOID        pvContext,  
-   HWND          hWnd,  
-   LPSTR         lpUser,  
-   LPCSTR        lpProjName,  
-   LPCSTR        lpLocalProjPath,  
-   LPSTR         lpAuxProjPath,  
-   LPCSTR        lpComment,  
-   LPTEXTOUTPROC lpTextOutProc,  
-   LONG          dwFlags  
+   LPVOID        pvContext,  
+   HWND          hWnd,  
+   LPSTR         lpUser,  
+   LPCSTR        lpProjName,  
+   LPCSTR        lpLocalProjPath,  
+   LPSTR         lpAuxProjPath,  
+   LPCSTR        lpComment,  
+   LPTEXTOUTPROC lpTextOutProc,  
+   LONG          dwFlags  
 );  
 ```  
   

@@ -1,9 +1,6 @@
 ---
 title: "IEnumDebugErrorBreakpoints2::Skip | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IEnumDebugErrorBreakpoints2::Skip"
@@ -23,13 +20,13 @@ Skips over the specified number of elements.
   
 ```cpp  
 HRESULT Skip(  
-   ULONG celt  
+   ULONG celt  
 );  
 ```  
   
 ```csharp  
 int Skip(  
-   uint celt  
+   uint celt  
 );  
 ```  
   

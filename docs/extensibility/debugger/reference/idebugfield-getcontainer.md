@@ -1,9 +1,6 @@
 ---
 title: "IDebugField::GetContainer | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugField::GetContainer"
@@ -23,13 +20,13 @@ This method gets the container of a field.
   
 ```cpp  
 HRESULT GetContainer(   
-   IDebugContainerField** ppContainerField  
+   IDebugContainerField** ppContainerField  
 );  
 ```  
   
 ```csharp  
 int GetContainer(  
-   out IDebugContainerField ppContainerField  
+   out IDebugContainerField ppContainerField  
 );  
 ```  
   

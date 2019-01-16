@@ -3,7 +3,6 @@ title: "Workflow Designer - State Activity Designer"
 ms.date: 11/04/2016
 ms.topic: reference
 ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 f1_keywords:
   - "System.Activities.Statements.State.UI"
 ms.assetid: 9455ab37-93a0-4c46-9eb8-b6611ca23167
@@ -26,7 +25,7 @@ To add a <xref:System.Activities.Statements.State> to a workflow, drag the **Sta
 The following table shows the <xref:System.Activities.Statements.State> properties that can be set using the workflow designer and describes how they are used in the designer. Some of these properties can be edited in the property grid and some can be edited on the designer surface.
 
 |Property Name|Required|Usage|
-|-------------------|--------------|-----------|
+|-|--------------|-|
 |<xref:System.Activities.Statements.State.DisplayName%2A>|False|Specifies the friendly name of the <xref:System.Activities.Statements.State> activity designer in the header. The default value is **State**. The value can be edited in the property grid or directly on the header of the activity designer. The <xref:System.Activities.Statements.State.DisplayName%2A> is used in the breadcrumb navigation that is displayed at the top of the workflow designer.<br /><br /> Although the <xref:System.Activities.Statements.State.DisplayName%2A> is not strictly required, it is a best practice to use one.|
 |<xref:System.Activities.Statements.State.Entry%2A>|False|Specifies the action that occurs when this state is transitioned to. When the <xref:System.Activities.Statements.State> activity is expanded, this value can be set by dragging an activity from the **Toolbox** and dropping it onto the **Entry** section of the state.|
 |<xref:System.Activities.Statements.State.Exit%2A>|False|Specifies the action that occurs when this state is transitioned away from. When the <xref:System.Activities.Statements.State> activity is expanded, this value can be set by dragging an activity from the **Toolbox** and dropping it onto the **Exit** section of the state.|

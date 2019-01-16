@@ -3,7 +3,6 @@ title: R workspaces
 description: How to control where R code runs by using workspaces in Visual Studio.
 ms.date: 01/24/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-rtvs
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
@@ -32,7 +31,7 @@ The **R Tools** > **Session** > **Reset** command and the reset toolbar button i
 
 The Local workspaces list displays all the R interpreters that you have installed on your computer. 
 
-When Visual Studio starts, it attempts to automatically detect all of the versions of R that you have installed by looking through the **HKEY_LOCAL_MACHINE\Software\R-Core\** registry key. Because this check is done only at startup, you need to restart Visual Studio if you install a new R interpreter.
+When Visual Studio starts, it attempts to automatically detect all of the versions of R that you have installed by looking through the **HKEY_LOCAL_MACHINE\Software\R-Core\\** registry key. Because this check is done only at startup, you need to restart Visual Studio if you install a new R interpreter.
 
 RTVS might not detect an R interpreter that's installed in a non-standard way (for example, when simply copying files to a folder instead of running an installer). In this case, manually create a new local R Workspace as follows:
 

@@ -1,8 +1,6 @@
 ---
 title: "IDiaSession::findLinesByRVA | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,9 +20,9 @@ Retrieves the lines in a specified compiland that contain a specified relative v
   
 ```C++  
 HRESULT findLinesByRVA (   
-   DWORD                 rva,  
-   DWORD                 length,  
-   IDiaEnumLineNumbers** ppResult  
+   DWORD                 rva,  
+   DWORD                 length,  
+   IDiaEnumLineNumbers** ppResult  
 );  
 ```  
   

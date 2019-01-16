@@ -1,9 +1,6 @@
 ---
 title: "QUERYCHANGESFUNC | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "QUERYCHANGESFUNC"
@@ -26,8 +23,8 @@ This is a callback function used by the [SccQueryChanges](../extensibility/sccqu
   
 ```cpp  
 typedef BOOL (*QUERYCHANGESFUNC)(  
-   LPVOID pvCallerData,  
-   QUERYCHANGESDATA * pChangesData  
+   LPVOID pvCallerData,  
+   QUERYCHANGESDATA * pChangesData  
 );  
 ```  
   
@@ -38,7 +35,7 @@ typedef BOOL (*QUERYCHANGESFUNC)(
  pChangesData  
  [in] Pointer to a [QUERYCHANGESDATA Structure](#LinkQUERYCHANGESDATA) structure describing the changes to a file.  
   
-## Return Value  
+## Return value  
  The IDE returns an appropriate error code:  
   
 |Value|Description|  
@@ -95,7 +92,7 @@ struct QUERYCHANGESDATA_W
  lpLatestName  
  The current file name for this item.  
   
-## See Also  
- [Callback Functions Implemented by the IDE](../extensibility/callback-functions-implemented-by-the-ide.md)   
+## See also  
+ [Callback functions implemented by the IDE](../extensibility/callback-functions-implemented-by-the-ide.md)   
  [SccQueryChanges](../extensibility/sccquerychanges-function.md)   
- [Error Codes](../extensibility/error-codes.md)
+ [Error codes](../extensibility/error-codes.md)

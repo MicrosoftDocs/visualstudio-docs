@@ -1,13 +1,13 @@
 ---
-title: How To define custom menu commands for Python projects
-description: Demonstrates how to edit project and targets files to add custom commands to the Python project context menu in Visual Studio. Commands can invoke on executable programs, scripts, modules, inline code snippets, and pip.
-ms.date: 06/27/2018
+title: Define custom menu commands for Python projects
+description: By editing project and targets files,  you can add custom commands to the Python project context menu in Visual Studio to invoke executable programs, scripts, modules, inline code snippets, and pip.
+ms.date: 11/12/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-python
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
 manager: douge
+ms.custom: seodec18
 ms.workload: 
   - python
   - data-science
@@ -15,7 +15,7 @@ ms.workload:
 
 # Define custom commands for Python projects
 
-In the process of working with your Python projects, you may find yourself switching to a command window to run specific scripts or modules, run pip commands, or run some other arbitrary tool. To improve your workflow, you can add custom commands to the **Python** submenu in the Python project context menu. Those commands can run in a console window or in the Visual Studio output window. You can also use regular expressions to instruct Visual Studio how to parse errors and warnings from the command's output.
+In the process of working with your Python projects, you may find yourself switching to a command window to run specific scripts or modules, run pip commands, or run some other arbitrary tool. To improve your workflow, you can add custom commands to the **Python** submenu in the Python project context menu. Those commands can run in a console window or in the Visual Studio **Output** window. You can also use regular expressions to instruct Visual Studio how to parse errors and warnings from the command's output.
 
 By default, that menu contains only the single **Run PyLint** command:
 

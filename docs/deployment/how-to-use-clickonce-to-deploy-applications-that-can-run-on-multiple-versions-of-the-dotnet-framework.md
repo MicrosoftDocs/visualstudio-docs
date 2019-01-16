@@ -1,8 +1,6 @@
 ---
 title: "How to: Use ClickOnce to Deploy Applications That Can Run on Multiple Versions of the .NET Framework | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -76,23 +74,23 @@ You can deploy an application that targets multiple versions of the .NET Framewo
   
 ### To change the application manifest to mark dependent assemblies as .NET Framework assemblies  
   
-1.  In the publish directory, open the application manifest by using the XML Editor in Visual Studio. The deployment manifest has the *.manifest* file name extension.  
+1. In the publish directory, open the application manifest by using the XML Editor in Visual Studio. The deployment manifest has the *.manifest* file name extension.  
   
-2.  Add `group="framework"` to the dependency XML for the sentinel assemblies (`System.Core`, `WindowsBase`, `Sentinel.v3.5Client`, and `System.Data.Entity`). For example, the XML should look like the following:  
+2. Add `group="framework"` to the dependency XML for the sentinel assemblies (`System.Core`, `WindowsBase`, `Sentinel.v3.5Client`, and `System.Data.Entity`). For example, the XML should look like the following:  
   
-    ```xml  
-    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true" group="framework">  
-    ```  
+   ```xml  
+   <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true" group="framework">  
+   ```  
   
-3.  Update the version number of the `<assemblyIdentity>` element for Microsoft.Windows.CommonLanguageRuntime to the version number for the .NET Framework that is the lowest common denominator. For example, if the application targets .NET Framework 3.5 and [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)], use the 2.0.50727.0 version number and the XML should look like the following:  
+3. Update the version number of the `<assemblyIdentity>` element for Microsoft.Windows.CommonLanguageRuntime to the version number for the .NET Framework that is the lowest common denominator. For example, if the application targets .NET Framework 3.5 and [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)], use the 2.0.50727.0 version number and the XML should look like the following:  
   
-    ```xml  
-    <dependency>  
-      <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">  
-        <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />  
-      </dependentAssembly>  
-    </dependency>  
-    ```  
+   ```xml  
+   <dependency>  
+     <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">  
+       <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />  
+     </dependentAssembly>  
+   </dependency>  
+   ```  
   
 ### To update and re-sign the application and deployment manifests  
   

@@ -1,9 +1,6 @@
 ---
 title: "How to: Protect parts of documents by using content controls"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -25,11 +22,11 @@ ms.workload:
 # How to: Protect parts of documents by using content controls
   When you protect part of a document, you prevent users from changing or deleting the content in that part of the document. There are several ways you can protect parts of a Microsoft Office Word document by using content controls:  
   
--   You can protect a content control.  
+- You can protect a content control.  
   
--   You can protect a part of a document that is not in a content control.  
+- You can protect a part of a document that is not in a content control.  
   
- [!INCLUDE[appliesto_wdalldocapp](../vsto/includes/appliesto-wdalldocapp-md.md)]  
+  [!INCLUDE[appliesto_wdalldocapp](../vsto/includes/appliesto-wdalldocapp-md.md)]  
   
 ##  <a name="EditDeleteControl"></a> Protect a content control  
  You can prevent users from editing or deleting a content control by setting properties of the control in a document-level project at design time or at runtime.  
@@ -106,4 +103,3 @@ ms.workload:
  [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)   
  [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)   
  [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md)  
-   

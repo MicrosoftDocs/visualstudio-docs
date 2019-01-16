@@ -1,8 +1,6 @@
 ---
 title: "IDiaSymbol::get_arrayIndexType | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves the symbol interface of the array index type of the symbol.
   
 ```C++  
 HRESULT get_arrayIndexType (   
-   IDiaSymbol** pRetVal  
+   IDiaSymbol** pRetVal  
 );  
 ```  
   

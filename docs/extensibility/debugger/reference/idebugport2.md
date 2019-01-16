@@ -1,9 +1,6 @@
 ---
 title: "IDebugPort2 | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugPort2"
@@ -46,7 +43,7 @@ IDebugPort2 : IUnknown
 |[EnumProcesses](../../../extensibility/debugger/reference/idebugport2-enumprocesses.md)|Enumerates all the processes running on a port.|  
   
 ## Remarks  
- The local port provides access to all the processes and programs running on the local machine. Other ports might represent a serial cable connection to a Windows CE-based device, or a network connection to a non-DCOM computer. The `IDebugPort2` interface is used to find the name and identifier of a port, enumerate all processes running on the port, and provide facilities for launching and terminating processes on the port.  
+ The local port provides access to all the processes and programs running on the local machine. Other ports might represent a serial cable connection to a Windows CE-based device, or a network connection to a non-DCOM computer. The `IDebugPort2` interface is used to find the name and identifier of a port, and enumerate all processes running on the port. Facilities for launching and terminating processes on the port are implemented in the `IDebugPortEx2` interface.  
   
 ## Requirements  
  Header: msdbg.h  

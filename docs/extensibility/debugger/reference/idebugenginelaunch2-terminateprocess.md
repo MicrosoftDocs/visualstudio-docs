@@ -1,9 +1,6 @@
 ---
 title: "IDebugEngineLaunch2::TerminateProcess | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugEngineLaunch2::TerminateProcess"
@@ -23,13 +20,13 @@ Terminates a process.
   
 ```cpp  
 HRESULT TerminateProcess (   
-   IDebugProcess2* pProcess  
+   IDebugProcess2* pProcess  
 );  
 ```  
   
 ```csharp  
 int TerminateProcess (   
-   IDebugProcess2 pProcess  
+   IDebugProcess2 pProcess  
 );  
 ```  
   

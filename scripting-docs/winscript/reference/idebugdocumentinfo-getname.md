@@ -24,7 +24,7 @@ Returns the specified document name.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetName(  
    DOCUMENTNAMETYPE  dnt,  
    BSTR*             pbstrName  

@@ -2,7 +2,6 @@
 title: "CA1055: URI return values should not be strings"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA1055"
@@ -14,10 +13,15 @@ ms.assetid: 40e39873-7872-4988-8195-9eb0ade9ece0
 author: gewarren
 ms.author: gewarren
 manager: douge
+dev_langs:
+ - CPP
+ - CSharp
+ - VB
 ms.workload:
   - "multiple"
 ---
 # CA1055: URI return values should not be strings
+
 |||
 |-|-|
 |TypeName|UriReturnValuesShouldNotBeStrings|
@@ -28,13 +32,13 @@ ms.workload:
 ## Cause
  The name of a method contains "uri", "Uri", "urn", "Urn", "url", or "Url", and the method returns a string.
 
-## Rule Description
+## Rule description
  This rule splits the method name into tokens based on the Pascal casing convention and checks whether each token equals "uri", "Uri", "urn", "Urn", "url", or "Url". If there is a match, the rule assumes that the method returns a uniform resource identifier (URI). A string representation of a URI is prone to parsing and encoding errors, and can lead to security vulnerabilities. The <xref:System.Uri?displayProperty=fullName> class provides these services in a safe and secure manner.
 
-## How to Fix Violations
+## How to fix violations
  To fix a violation of this rule, change the return type to a <xref:System.Uri>.
 
-## When to Suppress Warnings
+## When to suppress warnings
  It is safe to suppress a warning from this rule if the return value does not represent a URI.
 
 ## Example
@@ -44,7 +48,7 @@ ms.workload:
  [!code-vb[FxCop.Design.UriNotString#1](../code-quality/codesnippet/VisualBasic/ca1055-uri-return-values-should-not-be-strings_1.vb)]
  [!code-cpp[FxCop.Design.UriNotString#1](../code-quality/codesnippet/CPP/ca1055-uri-return-values-should-not-be-strings_1.cpp)]
 
-## Related Rules
+## Related rules
  [CA1056: URI properties should not be strings](../code-quality/ca1056-uri-properties-should-not-be-strings.md)
 
  [CA1054: URI parameters should not be strings](../code-quality/ca1054-uri-parameters-should-not-be-strings.md)

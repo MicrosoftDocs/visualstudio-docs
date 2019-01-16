@@ -1,9 +1,6 @@
 ---
 title: "Configuration Options Overview | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "project configurations"
@@ -50,21 +47,21 @@ Configuration interfaces
   
  A few notes relating to the previous diagram:  
   
--   `IDispatch` is marked as optional in the configuration object. Specifically, it is optional to have the configuration interfaces on the browse object.  
+- `IDispatch` is marked as optional in the configuration object. Specifically, it is optional to have the configuration interfaces on the browse object.  
   
--   `IVsDebuggableProjectCfg` is marked optional in the configuration object, but is required for debugging support.  
+- `IVsDebuggableProjectCfg` is marked optional in the configuration object, but is required for debugging support.  
   
--   `IVsProjectCfg2` is marked optional in the configuration object, but is needed for output grouping support.  
+- `IVsProjectCfg2` is marked optional in the configuration object, but is needed for output grouping support.  
   
--   The Config Provider object is marked as an optional object, but the option is where to implement it. You may implement the object on the project object or on a separate object.  
+- The Config Provider object is marked as an optional object, but the option is where to implement it. You may implement the object on the project object or on a separate object.  
   
--   `IVsCfgProvider2` is needed for platform support and configuration editing. `IVsCfgProvider` is sufficient if you do not implement that functionality.  
+- `IVsCfgProvider2` is needed for platform support and configuration editing. `IVsCfgProvider` is sufficient if you do not implement that functionality.  
   
--   Some of these objects shown in the diagram as separate objects can be combined into the same class where practical based on your specific design requirements. In other topics of this section, however, the objects and interfaces associated with those objects will be discussed according to the scenario presented in the diagram.  
+- Some of these objects shown in the diagram as separate objects can be combined into the same class where practical based on your specific design requirements. In other topics of this section, however, the objects and interfaces associated with those objects will be discussed according to the scenario presented in the diagram.  
   
--   Certain objects are implemented separately. For example, project and solution building occur on separate threads and the object to manage the build lives separately from the object describing the configuration for the build.  
+- Certain objects are implemented separately. For example, project and solution building occur on separate threads and the object to manage the build lives separately from the object describing the configuration for the build.  
   
- For more information on the configuration object interfaces and configuration provider object interfaces in the previous diagram, see [Project configuration object](../../extensibility/internals/project-configuration-object.md). In addition, [Project configuration for building](../../extensibility/internals/project-configuration-for-building.md) provides more information on the Configuration builder and build dependency object interfaces, and [Project configuration for managing deployment](../../extensibility/internals/project-configuration-for-managing-deployment.md) further describes the interfaces attached to the configuration deployer and deployment dependency objects. Finally, [Project configuration for output](../../extensibility/internals/project-configuration-for-output.md) describes the output group and output object interfaces, and the use of property pages to view and set configuration-dependent properties.  
+  For more information on the configuration object interfaces and configuration provider object interfaces in the previous diagram, see [Project configuration object](../../extensibility/internals/project-configuration-object.md). In addition, [Project configuration for building](../../extensibility/internals/project-configuration-for-building.md) provides more information on the Configuration builder and build dependency object interfaces, and [Project configuration for managing deployment](../../extensibility/internals/project-configuration-for-managing-deployment.md) further describes the interfaces attached to the configuration deployer and deployment dependency objects. Finally, [Project configuration for output](../../extensibility/internals/project-configuration-for-output.md) describes the output group and output object interfaces, and the use of property pages to view and set configuration-dependent properties.  
   
 ## See also  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsCfgProvider2>   

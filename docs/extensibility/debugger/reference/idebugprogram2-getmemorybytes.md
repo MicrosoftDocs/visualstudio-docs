@@ -1,9 +1,6 @@
 ---
 title: "IDebugProgram2::GetMemoryBytes | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProgram2::GetMemoryBytes"
@@ -23,13 +20,13 @@ Retrieves the memory bytes occupied by the program.
   
 ```cpp  
 HRESULT GetMemoryBytes(   
-   IDebugMemoryBytes2** ppMemoryBytes  
+   IDebugMemoryBytes2** ppMemoryBytes  
 );  
 ```  
   
 ```csharp  
 int GetMemoryBytes(   
-   out IDebugMemoryBytes2 ppMemoryBytes  
+   out IDebugMemoryBytes2 ppMemoryBytes  
 );  
 ```  
   

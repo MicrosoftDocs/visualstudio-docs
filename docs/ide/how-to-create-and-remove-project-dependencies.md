@@ -2,7 +2,6 @@
 title: "How to: Create and remove project dependencies"
 ms.date: 06/21/2017
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 f1_keywords:
   - "VS.ProjectDependenciesDlg"
@@ -26,20 +25,20 @@ When building a solution that contains multiple projects, it can be necessary to
 
 ## To assign dependencies to projects
 
-1.  In **Solution Explorer**, select a project.
+1. In **Solution Explorer**, select a project.
 
-2.  On the **Project** menu, choose **Project Dependencies**.
+2. On the **Project** menu, choose **Project Dependencies**.
 
-     The **Project Dependencies** dialog box opens.
+    The **Project Dependencies** dialog box opens.
 
-    > [!NOTE]
-    > The **Project Dependencies** option is only available in a solution with more than one project.
+   > [!NOTE]
+   > The **Project Dependencies** option is only available in a solution with more than one project.
 
-3.  On the **Dependencies** tab, select a project from the **Project** drop-down menu.
+3. On the **Dependencies** tab, select a project from the **Project** drop-down menu.
 
-4.  In the **Depends on** field, select the check box of any other project that must build before this project does.
+4. In the **Depends on** field, select the check box of any other project that must build before this project does.
 
- Your solution must consist of more than one project before you can create project dependencies.
+   Your solution must consist of more than one project before you can create project dependencies.
 
 ## To remove dependencies from projects
 

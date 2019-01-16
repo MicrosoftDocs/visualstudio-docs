@@ -22,7 +22,7 @@ Gets the return address pushed at the 'start' (see GetStackRange) of the frame.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetReturnAddress(  
    UINT64 *pReturnAddress  
 );  

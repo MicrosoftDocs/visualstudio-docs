@@ -1,9 +1,7 @@
 ---
 title: "Tutorial 3: Create a matching game"
-ms.custom: ""
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.assetid: 525815c8-2845-45e8-be96-100d1f144725
@@ -14,6 +12,7 @@ ms.workload:
   - "multiple"
 ---
 # Tutorial 3: Create a matching game
+
 In this tutorial, you build a matching game, where the player must match pairs of hidden icons. You learn how to:
 
 -   Store objects, such as icons, in a <xref:System.Collections.Generic.List%601> object.
@@ -26,19 +25,18 @@ In this tutorial, you build a matching game, where the player must match pairs o
 
 -   Make a timer that counts down and then fires an event exactly once after being started.
 
- When you finish this tutorial, your program will look like the following picture.
+When you finish this tutorial, your program will look like the following picture:
 
- ![Game that you create in this tutorial](../ide/media/express_finishedgame.png)
-Game that you create in this tutorial
+![Game that you create in this tutorial](../ide/media/express_finishedgame.png)
 
 ## Tutorial links
 
- To download a completed version of the sample, see [Complete matching game tutorial sample](http://code.msdn.microsoft.com/Complete-Matching-Game-4cffddba).
+To download a completed version of the sample, see [Complete matching game tutorial sample](https://code.msdn.microsoft.com/Complete-Matching-Game-4cffddba).
 
 > [!NOTE]
->  In this tutorial, both Visual C# and Visual Basic are covered, so focus on information specific to the programming language that you're using.
+> In this tutorial, both Visual C# and Visual Basic are covered, so focus on information specific to the programming language that you're using.
 
- If you get stuck or have programming questions, try posting your question on one of the MSDN forums. See [Visual Basic forum](http://social.msdn.microsoft.com/Forums/home?forum=vbgeneral) and [Visual C# forum](http://social.msdn.microsoft.com/Forums/home?forum=csharpgeneral). Also, there are great, free video learning resources available to you. To learn more about programming in Visual Basic, see [Visual Basic fundamentals: Development for absolute beginners](http://channel9.msdn.com/Series/Visual-Basic-Development-for-Absolute-Beginners). To learn more about programming in Visual C#, see [C# fundamentals: Development for absolute beginners](http://channel9.msdn.com/Series/C-Sharp-Fundamentals-Development-for-Absolute-Beginners).
+If you get stuck or have programming questions, try posting your question on one of the MSDN forums. See [Visual Basic forum](https://social.msdn.microsoft.com/Forums/vstudio/home?forum=vbgeneral) and [Visual C# forum](https://social.msdn.microsoft.com/Forums/vstudio/home?forum=csharpgeneral). Also, there are great, free video learning resources available to you. To learn more about programming in Visual Basic, see [Visual Basic fundamentals: Development for absolute beginners](https://channel9.msdn.com/Series/Visual-Basic-Development-for-Absolute-Beginners). To learn more about programming in Visual C#, see [C# fundamentals: Development for absolute beginners](https://channel9.msdn.com/Series/C-Sharp-Fundamentals-Development-for-Absolute-Beginners).
 
 ## Related topics
 

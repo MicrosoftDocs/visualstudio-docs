@@ -1,9 +1,6 @@
 ---
 title: "IDebugExpressionEvaluator2::PreloadModules | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugExpressionEvaluator2::PreloadModules"
@@ -22,13 +19,13 @@ Preloads the modules designated by the specified symbol provider.
   
 ```cpp  
 HRESULT PreloadModules (  
-   IDebugSymbolProvider* pSym  
+   IDebugSymbolProvider* pSym  
 );  
 ```  
   
 ```csharp  
 int PreloadModules (  
-   IDebugSymbolProvider pSym  
+   IDebugSymbolProvider pSym  
 );  
 ```  
   

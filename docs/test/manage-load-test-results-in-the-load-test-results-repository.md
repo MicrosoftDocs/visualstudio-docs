@@ -1,5 +1,5 @@
 ---
-title: "Manage Load Test Results in Visual Studio"
+title: "Manage Load Test Results"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -12,15 +12,16 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ---
 # Manage load test results in the Load Test Results Repository
 
 When you run your load tests, any information gathered during a load test run may be stored in the *Load Test Results Repository*, which is a SQL database. The Load Test Results Repository contains performance counter data and any information about recorded errors. The Results Repository database is created by setup for controllers, or created automatically on the first local run of a load test. For a local run, the database will be created automatically if the load test schema is not present.
 
- If you modify the controller's results repository connection string to use a different server, the new server must have the *loadtestresultsrepository.sql* script run to create the schema.
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
- Visual Studio Enterprise provides named counter sets which collect common performance counters based on a technology. These sets are useful when you are analyzing an IIS server, an ASP.NET server, or a SQL server. All of the data collected with counter sets is stored in the Load Test Results Repository.
+If you modify the controller's results repository connection string to use a different server, the new server must have the *loadtestresultsrepository.sql* script run to create the schema.
+
+Visual Studio Enterprise provides named counter sets which collect common performance counters based on a technology. These sets are useful when you are analyzing an IIS server, an ASP.NET server, or a SQL server. All of the data collected with counter sets is stored in the Load Test Results Repository.
 
 > [!IMPORTANT]
 > There is a difference between a counter set and the performance counter data. A counter set is metadata. It defines a group of performance counters that should be collected from a computer that is performing a particular role such as IIS or SQL Server. The counter set is part of the load test definition. Performance counter data is collected based on the counter sets, the mapping of the counter set to a specific computer, and the sample rate.
@@ -38,7 +39,7 @@ When you run your load tests, any information gathered during a load test run ma
 ## Load Test Analyzer tasks
 
 |Tasks|Associated topics|
-|-----------|-----------------------|
+|-|-----------------------|
 |**Set up a load test results repository:** You can set up a load test results repository on a SQL database. **Note:**  A load test repository can also be created when you install a test controller. For more information, see [Install and configure test agents](../test/lab-management/install-configure-test-agents.md).||
 |**Selecting and viewing a results repository:** You can select a specific results repository. You are not limited to a local results store. Frequently, load tests are run on a remote set of Agent computers. Test results from your agents or your local computer can be saved to any SQL server on which you have created a load test results store. In either case, you must identify where to store your load test results by using the **Administer Test Controllers** window.|-   [How to: Select a load test results repository](../test/how-to-select-a-load-test-results-repository.md)<br />-   [How to: Access load test results for analysis](../test/how-to-access-load-test-results-for-analysis.md)|
 |**Deleting a load test result from the repository:** You can remove a load test result from the **Load Test Editor** by using the **Open and Manage Load Test Results** dialog box.|-   [How to: Delete load test results from a repository](../test/how-to-delete-load-test-results-from-a-repository.md)|

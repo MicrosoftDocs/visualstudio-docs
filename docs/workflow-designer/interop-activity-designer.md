@@ -3,7 +3,6 @@ title: "Workflow Designer - Interop Activity Designer"
 ms.date: 11/04/2016
 ms.topic: reference
 ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 f1_keywords:
   - "System.Activities.Statements.Interop.UI"
 ms.assetid: 800a3403-ba86-41c4-8de1-c4fee9703eb1
@@ -29,7 +28,7 @@ The [Migration](../workflow-designer/migration-activity-designers.md) category t
 
 For C# projects, you can re-target the project to use the full .NET Framework 4 by right-clicking the project in **Solution Explorer** and selecting **Properties**. On the **Application** tab, select the **NET Framework 4** option in the **Target framework**. Select **Yes** to confirm this change.
 
-For VB projects, you can re-target the project to use the full .NET Framework 4 by right-clicking on the project in **Solution Explorer** and selecting **Properties**. On the **Compile** tab, click the **Advanced Compile Options** button. Select **.Net Framework 4** from the **Target framework list**, and then click **OK**. Select **Yes** to confirm this change.
+For Visual Basic projects, you can re-target the project to use the full .NET Framework 4 by right-clicking on the project in **Solution Explorer** and selecting **Properties**. On the **Compile** tab, click the **Advanced Compile Options** button. Select **.Net Framework 4** from the **Target framework list**, and then click **OK**. Select **Yes** to confirm this change.
 
 The **Interop** activity designer can be dragged from **Toolbox** and dropped onto the Workflow Designer surface wherever activities are usually placed, such as inside a <xref:System.Activities.Statements.Sequence>. Dropping the **Interop** activity designer creates an <xref:System.Activities.Statements.Interop> activity with a default **DisplayName** of Interop. You can edit the <xref:System.Activities.Activity.DisplayName%2A> in the header of the **Interop** activity designer, or in the **DisplayName** box of the property grid.
 
@@ -40,7 +39,7 @@ Click the **Click to browse** text in the **ActivityType** box, either on the **
 The following table shows the <xref:System.Activities.Statements.Interop> properties, and describes how they are used in the designer. These properties can be edited in property grid or on the Workflow Designer surface.
 
 |Property Name|Required|Usage|
-|-------------------|--------------|-----------|
+|-|--------------|-|
 |<xref:System.Activities.Activity.DisplayName%2A>|False|The friendly name of the <xref:System.Activities.Statements.Interop> activity. The default value is **Interop**. Although the display name is not required, it's recommended to provide one.|
 |<xref:System.Activities.Statements.Interop.ActivityType%2A>|True|Specifies the type of the activity contained by the <xref:System.Activities.Statements.Interop> activity. This type specified must derive from <xref:System.Workflow.ComponentModel.Activity>.|
 

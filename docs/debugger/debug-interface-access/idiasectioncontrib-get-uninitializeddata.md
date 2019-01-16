@@ -1,8 +1,6 @@
 ---
 title: "IDiaSectionContrib::get_uninitializedData | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves a flag that indicates whether the section contains uninitialized data.
   
 ```C++  
 HRESULT get_uninitializedData (   
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 );  
 ```  
   

@@ -1,9 +1,6 @@
 ---
 title: "IDebugComPlusSymbolProvider::UnloadSymbols | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "UnloadSymbols"
@@ -22,15 +19,15 @@ Unloads the debug symbols for the specified module from memory.
   
 ```cpp  
 HRESULT UnloadSymbols(  
-   ULONG32 ulAppDomainID,  
-   GUID    guidModule  
+   ULONG32 ulAppDomainID,  
+   GUID    guidModule  
 );  
 ```  
   
 ```csharp  
 int UnloadSymbols(  
-   uint ulAppDomainID,  
-   Guid guidModule  
+   uint ulAppDomainID,  
+   Guid guidModule  
 );  
 ```  
   

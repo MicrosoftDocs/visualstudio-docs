@@ -1,9 +1,6 @@
 ---
 title: "IDebugEngineCreateEvent2::GetEngine | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugEngineCreateEvent2::GetEngine"
@@ -23,13 +20,13 @@ Retrieves the object that represents the newly created debug engine (DE).
   
 ```cpp  
 HRESULT GetEngine(   
-   IDebugEngine2** pEngine  
+   IDebugEngine2** pEngine  
 );  
 ```  
   
 ```csharp  
 int GetEngine(   
-   out IDebugEngine2 pEngine  
+   out IDebugEngine2 pEngine  
 );  
 ```  
   

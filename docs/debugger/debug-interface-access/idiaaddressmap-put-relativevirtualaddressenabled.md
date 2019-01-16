@@ -1,8 +1,6 @@
 ---
 title: "IDiaAddressMap::put_relativeVirtualAddressEnabled | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Allows the client to enable or disable the calculation and use of relative virtu
   
 ```C++  
 HRESULT put_relativeVirtualAddressEnabled (   
-   BOOL NewVal  
+   BOOL NewVal  
 );  
 ```  
   

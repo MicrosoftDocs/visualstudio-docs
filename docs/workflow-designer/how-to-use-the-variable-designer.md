@@ -3,7 +3,6 @@ title: "Workflow Designer - How to: Use the Variable Designer"
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 f1_keywords:
   - "System.Activities.Presentation.View.DesignTimeVariable.UI"
 ms.assetid: 0318dfb0-bf8f-4f92-9b86-ae4c1b2161ad
@@ -34,6 +33,6 @@ The variable designer is used to create variables for use in data-binding scenar
 
 ## See also
 
-- [Using the Workflow Designer](../workflow-designer/using-the-workflow-designer.md)
+- [Using the Workflow Designer](developing-applications-with-the-workflow-designer.md)
 - [Variables and Arguments](/dotnet/framework/windows-workflow-foundation/variables-and-arguments)
 - [How to: Use the Argument Designer](../workflow-designer/how-to-use-the-argument-designer.md)

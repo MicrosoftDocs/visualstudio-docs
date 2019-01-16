@@ -1,9 +1,6 @@
 ---
 title: "Shared Colors for Visual Studio | Microsoft Docs"
-ms.custom: ""
 ms.date: "04/26/2017"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 ms.assetid: 8d11b9a0-6175-4f2e-8e7f-79daee1bfd41
 author: "gregvanl"
@@ -222,7 +219,7 @@ When you use a standard Visual Studio command bar in your feature, you'll have a
 
 | Element | Token name: Category.color |
 | --- | --- |
-| Background |  `CommonControls.ComboBoxListBackground`<br />`CommonControls.ComboBoxListBackgroundHover`<br />`CommonControls.ComboBoxListItemBackgroundPressed`<br />`CommonControls.ComboBoxListItemBackgroundFocused` |
+| Background | `CommonControls.ComboBoxListBackground`<br />`CommonControls.ComboBoxListBackgroundHover`<br />`CommonControls.ComboBoxListItemBackgroundPressed`<br />`CommonControls.ComboBoxListItemBackgroundFocused` |
 | Border | `CommonControls.ComboBoxListBorder`<br />`CommonControls.ComboBoxListBorderHover`<br />`CommonControls.ComboBoxListBorderPressed`<br />`CommonControls.ComboBoxListBorderFocused` |
 | Item text | `CommonControls.ComboBoxListItemText`<br /> `CommonControls.ComboBoxListItemTextHover`<br />`CommonControls.ComboBoxListItemTextPressed`<br />`CommonControls.ComboBoxListItemTextFocused` |
 | Background shadow | `CommonControls.ComboBoxListBackgroundShadow` |
@@ -1109,7 +1106,7 @@ An individual menu item consists of the menu text and an optional icon, check bo
 
 ![Menu items redline](../../extensibility/ux-guidelines/media/0303-009_menuitemredline.png "0303-009_MenuItemRedline")  
 
-| Use ... | Don't use ...  |
+| Use ... | Don't use ... |
 |---|---|
 | ... for any drop-down list that's launched from a menu bar or command bar. | ... for any drop-down list in another context. |
 | | ... in any background/foreground combination other than specified. |
@@ -1716,7 +1713,7 @@ Each open document has a tab in the document tab channel that displays its name.
 
 ![Open document tab (redline)](../../extensibility/ux-guidelines/media/0303-073_opendocumenttabredline.png "0303-073_OpenDocumentTabRedline")<br />Open document tab (redline)
 
-| Use ...  | Don't use ... |
+| Use ... | Don't use ... |
 | --- | --- |
 | ... when you're creating custom document tabs. | ... for provisional (preview) tabs. |
 | | ... for any UI that you don't want to change automatically if the shell has a theme update. |

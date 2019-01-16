@@ -1,8 +1,6 @@
 ---
 title: "IDiaSourceFile::get_uniqueId | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves a simple integer key value that is unique for this image.
   
 ```C++  
 HRESULT get_uniqueId (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

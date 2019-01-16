@@ -2,7 +2,6 @@
 title: Code analysis rule sets
 ms.date: 04/02/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: conceptual
 f1_keywords:
   - "vs.codeanalysis.rulesets.learnmore"
@@ -52,10 +51,15 @@ The contents of a *.ruleset* file looks similar to this XML:
 > [!TIP]
 > It's easier to [edit a rule set](../code-quality/working-in-the-code-analysis-rule-set-editor.md) in the graphical **Rule Set Editor** than by hand.
 
+## Specify a rule set for a project
+
 The rule set for a project is specified by the **CodeAnalysisRuleSet** property in the Visual Studio project file. For example:
 
 ```xml
-<CodeAnalysisRuleSet>HelloWorld.ruleset</CodeAnalysisRuleSet>
+<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+  ...
+  <CodeAnalysisRuleSet>HelloWorld.ruleset</CodeAnalysisRuleSet>
+</PropertyGroup>
 ```
 
 ## See also

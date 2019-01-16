@@ -1,9 +1,6 @@
 ---
 title: "IEnumDebugCustomAttributes::Next | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IEnumCustomAttributes::Next"
@@ -23,17 +20,17 @@ Retrieves a specified number of custom attributes in an enumeration sequence.
   
 ```cpp  
 HRESULT Next (   
-   ULONG      celt,  
-   CODE_PATH* rgelt,  
-   ULONG*     pceltFetched  
+   ULONG      celt,  
+   CODE_PATH* rgelt,  
+   ULONG*     pceltFetched  
 );  
 ```  
   
 ```csharp  
 int Next(  
-   uint                        celt,   
-   out IDebugCustomAttribute[] rgelt,   
-   ref uint                    pceltFetched  
+   uint                        celt,   
+   out IDebugCustomAttribute[] rgelt,   
+   ref uint                    pceltFetched  
 );  
 ```  
   

@@ -1,9 +1,6 @@
 ---
 title: "IDebugObject::SetValue | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugObject::SetValue"
@@ -23,15 +20,15 @@ Sets the value of the object from a consecutive series of bytes.
   
 ```cpp  
 HRESULT SetValue(   
-   BYTE* pValue,  
-   UINT  nSize  
+   BYTE* pValue,  
+   UINT  nSize  
 );  
 ```  
   
 ```csharp  
 int SetValue(  
-   byte[] pValue,   
-   uint   nSize  
+   byte[] pValue,   
+   uint   nSize  
 );  
 ```  
   

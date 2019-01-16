@@ -1,9 +1,6 @@
 ---
 title: "FIELD_INFO | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "FIELD_INFO"
@@ -23,21 +20,21 @@ This structure describes a local variable, parameter, or other field.
   
 ```cpp  
 typedef struct _tagFieldInfo {   
-   FIELD_INFO_FIELDS dwFields;  
-   BSTR              bstrFullName;  
-   BSTR              bstrName;  
-   BSTR              bstrType;  
-   FIELD_MODIFIERS   dwModifiers;  
+   FIELD_INFO_FIELDS dwFields;  
+   BSTR              bstrFullName;  
+   BSTR              bstrName;  
+   BSTR              bstrType;  
+   FIELD_MODIFIERS   dwModifiers;  
 } FIELD_INFO;  
 ```  
   
 ```csharp  
 public struct FIELD_INFO {  
-   public uint   dwFields;  
-   public string bstrFullName;  
-   public string bstrName;  
-   public string bstrType;  
-   public uint   dwModifiers;  
+   public uint   dwFields;  
+   public string bstrFullName;  
+   public string bstrName;  
+   public string bstrType;  
+   public uint   dwModifiers;  
 };  
 ```  
   

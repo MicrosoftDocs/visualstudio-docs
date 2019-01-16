@@ -1,9 +1,6 @@
 ---
 title: "IEEVisualizerDataProvider::CanSetObjectForVisualizer | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IEEVisualizerDataProvider::CanSetObjectForVisualizer"
@@ -23,13 +20,13 @@ This method determines whether the visualizer can have the data object it repres
   
 ```cpp  
 HRESULT CanSetObjectForVisualizer(  
-   BOOL* b  
+   BOOL* b  
 );  
 ```  
   
 ```csharp  
 int CanSetObjectForVisualizer(  
-   out int b  
+   out int b  
 );  
 ```  
   

@@ -1,6 +1,6 @@
 ---
 title: Use code maps to debug your applications
-ms.date: 11/04/2016
+ms.date: 09/28/2018
 ms.topic: conceptual
 helpviewer_keywords:
   - "Visual Studio Ultimate, visualizing code"
@@ -17,16 +17,19 @@ manager: douge
 ms.workload:
   - "multiple"
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Use code maps to debug your applications
+
 Code maps can help you avoid getting lost in large code bases, unfamiliar code, or legacy code. For example, when you're debugging, you might have to look at code across many files and projects. Use code maps to navigate around pieces of code and understand the relationships between them. That way, you don't have to keep track of this code in your head, or draw a separate diagram. So, when your work is interrupted, code maps help refresh your memory about the code you're working on.
 
- ![Code map &#45; Map relationships in code](../modeling/media/codemapstoryboardpaint.png)
+![Code map &#45; Map relationships in code](../modeling/media/codemapstoryboardpaint.png)
 
- **A green arrow shows where your cursor appears in the editor**
+**A green arrow shows where your cursor appears in the editor**
 
- For details of the commands and actions you can use when working with code maps, see [Browse and rearrange code maps](../modeling/browse-and-rearrange-code-maps.md).
+For details of the commands and actions you can use when working with code maps, see [Browse and rearrange code maps](../modeling/browse-and-rearrange-code-maps.md).
+
+> [!NOTE]
+> To create and edit code maps, you need Visual Studio Enterprise edition. In Visual Studio Community and Professional editions, you can open diagrams that were generated in Enterprise edition, but you cannot edit them.
 
 ## Understand the problem
  Suppose there's a bug in a drawing program that you're working on. To reproduce the bug, you open the solution in Visual Studio and press **F5** to start debugging.
@@ -45,7 +48,7 @@ Code maps can help you avoid getting lost in large code bases, unfamiliar code, 
  ![Code map &#45; Show method and related fields](../modeling/media/codemapstoryboardpaint3.png)
 
 > [!TIP]
->  The green highlighting shows the last items that were added to the map. The green arrow shows your cursor's position in the code. Arrows between items represent different relationships. You can get more info about items on the map by moving the mouse over them and examining their tooltips.
+> The green highlighting shows the last items that were added to the map. The green arrow shows your cursor's position in the code. Arrows between items represent different relationships. You can get more info about items on the map by moving the mouse over them and examining their tooltips.
 
  ![Code map &#45; Show tooltips](../modeling/media/codemapstoryboardpaint4.png)
 
@@ -57,7 +60,7 @@ Code maps can help you avoid getting lost in large code bases, unfamiliar code, 
  ![Code map &#45; Examine field definition](../modeling/media/codemapstoryboardpaint5a.png)
 
 > [!TIP]
->  You can also move the green arrow on the map by moving your cursor in the code editor.
+> You can also move the green arrow on the map by moving your cursor in the code editor.
 
 ## Understand relationships between pieces of code
  Now you want to know which other code interacts with the `history` and `paintObjects` fields. You can add all the methods that reference these fields to the map. You can do this from the map or from the code editor.
@@ -67,14 +70,14 @@ Code maps can help you avoid getting lost in large code bases, unfamiliar code, 
  ![Open a code map from the code editor](../modeling/media/codemapstoryboardpaint6a.png)
 
 > [!NOTE]
->  If you add items from a project that's shared across multiple apps, like Windows Phone or Windows Store, then those items always appear with the currently active app project on the map. So, if you change the context to another app project, then the context on the map also changes for any newly added items from the shared project. Operations that you perform with an item on the map apply only to those items that share the same context.
+> If you add items from a project that's shared across multiple apps, like Windows Phone or Windows Store, then those items always appear with the currently active app project on the map. So, if you change the context to another app project, then the context on the map also changes for any newly added items from the shared project. Operations that you perform with an item on the map apply only to those items that share the same context.
 
  Change the layout to rearrange the flow of relationships and make the map easier to read. You can also move items around the map by dragging them.
 
  ![Code map &#45; Change layout](../modeling/media/codemapstoryboardpaint7a.png)
 
 > [!TIP]
->  By default, **Incremental Layout** is turned on. This rearranges the map as little as possible when you add new items. To rearrange the entire map every time you add new items, turn off **Incremental Layout**.
+> By default, **Incremental Layout** is turned on. This rearranges the map as little as possible when you add new items. To rearrange the entire map every time you add new items, turn off **Incremental Layout**.
 
  ![Code map &#45; Change layout](../modeling/media/codemapstoryboardpaint7.png)
 
@@ -128,7 +131,7 @@ Code maps can help you avoid getting lost in large code bases, unfamiliar code, 
  ![Code map &#45; Updated map with method call](../modeling/media/codemapstoryboardpaint17.png)
 
 > [!NOTE]
->  When you update the map, you might see a message that says the code index used to create your map was updated. This means someone changed the code, which causes your map to not match the current code. This doesn't stop you from updating the map, but you might have to recreate the map to confirm that it matches the code.
+> When you update the map, you might see a message that says the code index used to create your map was updated. This means someone changed the code, which causes your map to not match the current code. This doesn't stop you from updating the map, but you might have to recreate the map to confirm that it matches the code.
 
  Now you're done with your investigation. You successfully found and fixed the problem by mapping the code. You also have a map that helps you navigate around the code, remember what you learned, and shows the steps you took to fix the problem.
 

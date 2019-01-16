@@ -1,8 +1,6 @@
 ---
 title: "Logging in a Multi-Processor Environment | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: msbuild
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "MSBuild, multi-processor logging"
@@ -56,15 +54,15 @@ public interface IForwardingLogger: INodeLogger
  For more information, see [Create forwarding loggers](../msbuild/creating-forwarding-loggers.md).  
   
 ### Attaching a distributed logger  
- To attaching a distributed logger on a command line build, use the `/distributedlogger` (or, `/dl` for short) switch. The format for specifying the names of the logger types and classes are the same as those for the `/logger` switch, except that a distributed logger is comprised of two logging classes: a forwarding logger and a central logger. Following is an example of attaching a distributed logger:  
+ To attaching a distributed logger on a command line build, use the `-distributedlogger` (or, `-dl` for short) switch. The format for specifying the names of the logger types and classes are the same as those for the `-logger` switch, except that a distributed logger is comprised of two logging classes: a forwarding logger and a central logger. Following is an example of attaching a distributed logger:  
   
 ```cmd  
-msbuild.exe *.proj /distributedlogger:XMLCentralLogger,MyLogger,Version=1.0.2,  
+msbuild.exe *.proj -distributedlogger:XMLCentralLogger,MyLogger,Version=1.0.2,  
 Culture=neutral*XMLForwardingLogger,MyLogger,Version=1.0.2,  
 Culture=neutral  
 ```  
   
- An asterisk (*) separates the two logger names in the `/dl` switch.  
+ An asterisk (*) separates the two logger names in the `-dl` switch.  
   
 ## See also  
  [Build loggers](../msbuild/build-loggers.md)   

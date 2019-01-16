@@ -1,9 +1,6 @@
 ---
 title: "Troubleshooting RegPkg Package Registration | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "RegPkg"
@@ -23,15 +20,15 @@ ms.workload:
 ## RegPkg Versions Related to Package Versions  
  There are two versions of RegPkg. One version is included in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. Use this version to register packages that have been built by using one of the following assemblies:  
   
-1.  Microsoft.VisualStudioShell.9.0.dll  
+1. Microsoft.VisualStudioShell.9.0.dll  
   
-2.  Microsoft.VisualStudioShell.10.0.dll  
+2. Microsoft.VisualStudioShell.10.0.dll  
   
-3.  Microsoft.VisualStudioShell.11.0.dll  
+3. Microsoft.VisualStudioShell.11.0.dll  
   
- It cannot register packages that have been built by using the earlier Microsoft.VisualStudio.Shell.dll assembly.  
+   It cannot register packages that have been built by using the earlier Microsoft.VisualStudio.Shell.dll assembly.  
   
- The earlier version of RegPkg can register packages that have been built by using the Microsoft.VisualStudio.Shell.dll assembly. However, it cannot register packages built by using later versions of that assembly.  
+   The earlier version of RegPkg can register packages that have been built by using the Microsoft.VisualStudio.Shell.dll assembly. However, it cannot register packages built by using later versions of that assembly.  
   
 ## See Also  
  [VSPackages](../../extensibility/internals/vspackages.md)

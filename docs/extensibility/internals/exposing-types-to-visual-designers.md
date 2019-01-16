@@ -1,9 +1,6 @@
 ---
 title: "Exposing Types to Visual Designers | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "types [Visual Studio SDK], exposing to visual designers"
@@ -41,6 +38,6 @@ ms.workload:
      When a temporary PE is compiled, the only source file provided to the compiler is the custom tool output. Therefore, a custom tool that uses a temporary PE must generate output files that can be compiled independently of other files in the project.  
   
 ## See also  
- [Introduction to the BuildManager object](http://msdn.microsoft.com/en-us/50080ec2-c1c9-412c-98ef-18d7f895e7fa)   
+ [Introduction to the BuildManager object](https://msdn.microsoft.com/library/50080ec2-c1c9-412c-98ef-18d7f895e7fa)   
  [Implement single-file generators](../../extensibility/internals/implementing-single-file-generators.md)   
  [Register single-file generators](../../extensibility/internals/registering-single-file-generators.md)

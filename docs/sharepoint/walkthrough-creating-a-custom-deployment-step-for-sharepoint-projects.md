@@ -1,9 +1,6 @@
 ---
 title: "Walkthrough: Creating a Custom Deployment Step for SharePoint Projects | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -39,28 +36,28 @@ ms.workload:
 ## Prerequisites  
  You need the following components on the development computer to complete this walkthrough:  
   
--   Supported editions of Windows, SharePoint, and Visual Studio. For more information, see [Requirements for developing SharePoint solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md).  
+- Supported editions of Windows, SharePoint, and Visual Studio.
   
--   The Visual Studio SDK. This walkthrough uses the **VSIX Project** template in the SDK to create a VSIX package to deploy the extension. For more information, see [Extend the SharePoint tools in Visual Studio](../sharepoint/extending-the-sharepoint-tools-in-visual-studio.md).  
+- The Visual Studio SDK. This walkthrough uses the **VSIX Project** template in the SDK to create a VSIX package to deploy the extension. For more information, see [Extend the SharePoint tools in Visual Studio](../sharepoint/extending-the-sharepoint-tools-in-visual-studio.md).  
   
- Knowledge of the following concepts is helpful, but not required, to complete the walkthrough:  
+  Knowledge of the following concepts is helpful, but not required, to complete the walkthrough:  
   
--   Using the server object model for SharePoint. For more information, see [Using the SharePoint Foundation Server-Side Object Model](http://go.microsoft.com/fwlink/?LinkId=177796).  
+- Using the server object model for SharePoint. For more information, see [Using the SharePoint Foundation Server-Side Object Model](http://go.microsoft.com/fwlink/?LinkId=177796).  
   
--   SharePoint solutions. For more information, see [Solutions Overview](http://go.microsoft.com/fwlink/?LinkId=169422).  
+- SharePoint solutions. For more information, see [Solutions Overview](http://go.microsoft.com/fwlink/?LinkId=169422).  
   
--   Upgrading SharePoint solutions. For more information, see [Upgrading a Solution](http://go.microsoft.com/fwlink/?LinkId=177802).  
+- Upgrading SharePoint solutions. For more information, see [Upgrading a Solution](http://go.microsoft.com/fwlink/?LinkId=177802).  
   
 ## Create the projects
  To complete this walkthrough, you must create three projects:  
   
--   A VSIX project to create the VSIX package to deploy the extension.  
+- A VSIX project to create the VSIX package to deploy the extension.  
   
--   A class library project that implements the extension. This project must target the .NET Framework 4.5.  
+- A class library project that implements the extension. This project must target the .NET Framework 4.5.  
   
--   A class library project that defines the custom SharePoint commands. This project must target the .NET Framework 3.5.  
+- A class library project that defines the custom SharePoint commands. This project must target the .NET Framework 3.5.  
   
- Start the walkthrough by creating the projects.  
+  Start the walkthrough by creating the projects.  
   
 #### To create the VSIX project  
   
@@ -187,7 +184,7 @@ ms.workload:
   
 1.  In **Solution Explorer**, under the **UpgradeDeploymentStep** project, open the shortcut menu for the **source.extension.vsixmanifest** file, and then choose **Open**.  
   
-     Visual Studio opens the file in the manifest editor. The source.extension.vsixmanifest file is the basis for the extension.vsixmanifest file that all VSIX packages require. For more information about this file, see [VSIX Extension Schema 1.0 Reference](http://msdn.microsoft.com/en-us/76e410ec-b1fb-4652-ac98-4a4c52e09a2b).  
+     Visual Studio opens the file in the manifest editor. The source.extension.vsixmanifest file is the basis for the extension.vsixmanifest file that all VSIX packages require. For more information about this file, see [VSIX Extension Schema 1.0 Reference](https://msdn.microsoft.com/76e410ec-b1fb-4652-ac98-4a4c52e09a2b).  
   
 2.  In the **Product Name** box, enter **Upgrade Deployment Step for SharePoint Projects**.  
   
@@ -202,7 +199,7 @@ ms.workload:
 6.  In the **Type** list, choose **Microsoft.VisualStudio.MefComponent**.  
   
     > [!NOTE]  
-    >  This value corresponds to the `MefComponent` element in the extension.vsixmanifest file. This element specifies the name of an extension assembly in the VSIX package. For more information, see [MEFComponent Element (VSX Schema)](http://msdn.microsoft.com/en-us/8a813141-8b73-44c9-b80b-ca85bbac9551).  
+    >  This value corresponds to the `MefComponent` element in the extension.vsixmanifest file. This element specifies the name of an extension assembly in the VSIX package. For more information, see [MEFComponent Element (VSX Schema)](/previous-versions/visualstudio/visual-studio-2010/dd393736\(v\=vs.100\)).  
   
 7.  In the **Source** list, choose **A project in current solution**.  
   
@@ -215,7 +212,7 @@ ms.workload:
 10. In the **Type** list, enter **SharePoint.Commands.v4**.  
   
     > [!NOTE]  
-    >  This element specifies a custom extension that you want to include in the Visual Studio extension. For more information, see [Asset Element (VSX Schema)](http://msdn.microsoft.com/en-us/9fcfc098-edc7-484b-9d4c-acd17829d737).  
+    >  This element specifies a custom extension that you want to include in the Visual Studio extension. For more information, see [Asset Element (VSX Schema)](https://msdn.microsoft.com/9fcfc098-edc7-484b-9d4c-acd17829d737).  
   
 11. In the **Source** list, choose **A project in current solution**.  
   
@@ -244,28 +241,28 @@ ms.workload:
   
 #### To create a SharePoint project with a list definition and a list instance  
   
-1.  In the experimental instance of Visual Studio, on the menu bar, choose **File** > **New** > **Project**.  
+1. In the experimental instance of Visual Studio, on the menu bar, choose **File** > **New** > **Project**.  
   
-2.  In the **New Project** dialog box, expand the **Visual C#** node or the **Visual Basic** node, expand the **SharePoint** node, and then choose the **2010** node.  
+2. In the **New Project** dialog box, expand the **Visual C#** node or the **Visual Basic** node, expand the **SharePoint** node, and then choose the **2010** node.  
   
-3.  At the top of the dialog box, make sure that **.NET Framework 3.5** appears in the list of versions of the .NET Framework.  
+3. At the top of the dialog box, make sure that **.NET Framework 3.5** appears in the list of versions of the .NET Framework.  
   
-     Projects for [!INCLUDE[wss_14_long](../sharepoint/includes/wss-14-long-md.md)] and [!INCLUDE[moss_14_long](../sharepoint/includes/moss-14-long-md.md)] require this version of the .NET Framework.  
+    Projects for [!INCLUDE[wss_14_long](../sharepoint/includes/wss-14-long-md.md)] and [!INCLUDE[moss_14_long](../sharepoint/includes/moss-14-long-md.md)] require this version of the .NET Framework.  
   
-4.  In the list of project templates, choose **SharePoint 2010 Project**, name the project **EmployeesListDefinition**, and then choose the **OK** button.  
+4. In the list of project templates, choose **SharePoint 2010 Project**, name the project **EmployeesListDefinition**, and then choose the **OK** button.  
   
-5.  In the **SharePoint Customization Wizard**, enter the URL of the site that you want to use for debugging.  
+5. In the **SharePoint Customization Wizard**, enter the URL of the site that you want to use for debugging.  
   
-6.  Under **What is the trust level for this SharePoint solution**, choose the **Deploy as a farm solution** option button.  
+6. Under **What is the trust level for this SharePoint solution**, choose the **Deploy as a farm solution** option button.  
   
-    > [!NOTE]  
-    >  The upgrade deployment step doesn't support sandboxed solutions.  
+   > [!NOTE]  
+   >  The upgrade deployment step doesn't support sandboxed solutions.  
   
-7.  Choose the **Finish** button.  
+7. Choose the **Finish** button.  
   
-     [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] creates the EmployeesListDefinition project.  
+    [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] creates the EmployeesListDefinition project.  
   
-8.  Open the shortcut menu for the EmployeesListDefinition project, choose **Add**, and then choose **New Item**.  
+8. Open the shortcut menu for the EmployeesListDefinition project, choose **Add**, and then choose **New Item**.  
   
 9. In the **Add New Item - EmployeesListDefinition** dialog box, expand the **SharePoint** node, and then choose the **2010** node.  
   
@@ -275,13 +272,13 @@ ms.workload:
   
 11. On the **Choose List Settings** page, verify the following settings, and then choose the **Finish** button:  
   
-    1.  **Employees List** appears in the **What name do you want to display for your list?** box.  
+    1. **Employees List** appears in the **What name do you want to display for your list?** box.  
   
-    2.  The **Create a customizable list based on:** option button is chosen.  
+    2. The **Create a customizable list based on:** option button is chosen.  
   
-    3.  **Default (Blank)** is chosen in the **Create a customizable list based on:** list.  
+    3. **Default (Blank)** is chosen in the **Create a customizable list based on:** list.  
   
-     [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] creates the Employees List item with a Title column and a single empty instance and opens the List Designer.  
+       [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] creates the Employees List item with a Title column and a single empty instance and opens the List Designer.  
   
 12. In the List Designer, on the **Columns** tab, choose the **Type a new or existing column name** row, and then add the following columns in the **Column Display Name** list:  
   
@@ -413,29 +410,29 @@ ms.workload:
   
 #### To test the upgrade deployment step  
   
-1.  In the experimental instance of Visual Studio, in **Solution Explorer**, open the shortcut menu for the **EmployeesListDefinition** project node, and then choose **Properties**.  
+1. In the experimental instance of Visual Studio, in **Solution Explorer**, open the shortcut menu for the **EmployeesListDefinition** project node, and then choose **Properties**.  
   
-     The Properties Editor/Designer opens.  
+    The Properties Editor/Designer opens.  
   
-2.  On the **SharePoint** tab, set the **Active Deployment Configuration** property to **Upgrade**.  
+2. On the **SharePoint** tab, set the **Active Deployment Configuration** property to **Upgrade**.  
   
-     This custom deployment configuration includes the new upgrade deployment step.  
+    This custom deployment configuration includes the new upgrade deployment step.  
   
-3.  Open the shortcut menu for the **Employees List** project item, and then choose **Properties** or **Open**.  
+3. Open the shortcut menu for the **Employees List** project item, and then choose **Properties** or **Open**.  
   
-     The Properties Editor/Designer opens.  
+    The Properties Editor/Designer opens.  
   
-4.  On the **Views** tab, choose the **E-Mail** column, and then choose the **<** key to move that column from the **Selected columns** list to the **Available columns** list.  
+4. On the **Views** tab, choose the **E-Mail** column, and then choose the **<** key to move that column from the **Selected columns** list to the **Available columns** list.  
   
-     This action removes these fields from the default view of the **Employees** list on the SharePoint site.  
+    This action removes these fields from the default view of the **Employees** list on the SharePoint site.  
   
-5.  Start debugging by choosing the **F5** key or, on the menu bar, choosing **Debug** > **Start Debugging**.  
+5. Start debugging by choosing the **F5** key or, on the menu bar, choosing **Debug** > **Start Debugging**.  
   
-6.  Verify that the code in the other instance of Visual Studio stops on the breakpoint that you set earlier in the `CanExecute` method.  
+6. Verify that the code in the other instance of Visual Studio stops on the breakpoint that you set earlier in the `CanExecute` method.  
   
-7.  Choose the **F5** key again or, on the menu bar, choose **Debug** > **Continue**.  
+7. Choose the **F5** key again or, on the menu bar, choose **Debug** > **Continue**.  
   
-8.  Verify that the code stops on the breakpoint that you set earlier in the `Execute` method.  
+8. Verify that the code stops on the breakpoint that you set earlier in the `Execute` method.  
   
 9. Choose the **F5** key or, on the menu bar, choose **Debug** > **Continue** a final time.  
   
@@ -443,11 +440,11 @@ ms.workload:
   
 10. In the **Lists** section of the Quick Launch area, choose the **Employees** list, and then verify the following details:  
   
-    -   The item that you manually added earlier (for Andy, the facilities manager) is still in the list.  
+    - The item that you manually added earlier (for Andy, the facilities manager) is still in the list.  
   
-    -   The **Business Phone** and **E-mail Address** columns don't appear in this view of the list.  
+    - The **Business Phone** and **E-mail Address** columns don't appear in this view of the list.  
   
-     The **Upgrade** deployment configuration modifies the existing **Employees** list instance on the SharePoint site. If you used the **Default** deployment configuration instead of the **Upgrade** configuration, you would encounter a deployment conflict. Visual Studio would resolve the conflict by replacing the **Employees** list, and the item for Andy, the facilities manager, would be deleted.  
+      The **Upgrade** deployment configuration modifies the existing **Employees** list instance on the SharePoint site. If you used the **Default** deployment configuration instead of the **Upgrade** configuration, you would encounter a deployment conflict. Visual Studio would resolve the conflict by replacing the **Employees** list, and the item for Andy, the facilities manager, would be deleted.  
   
 ## Clean up the development computer
  After you finish testing the upgrade deployment step, remove the list instance and list definition from the SharePoint site, and remove the deployment step extension from Visual Studio.  
@@ -482,4 +479,3 @@ ms.workload:
   
 ## See also
  [Extend SharePoint packaging and deployment](../sharepoint/extending-sharepoint-packaging-and-deployment.md)  
-  

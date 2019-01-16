@@ -1,9 +1,6 @@
 ---
 title: "IDebugMemoryBytes2::GetSize | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugMemoryBytes2::GetSize"
@@ -24,13 +21,13 @@ Retrieves the size, in bytes, of the memory represented by this [IDebugMemoryByt
   
 ```cpp  
 HRESULT GetSize(   
-   UINT64* pqwSize  
+   UINT64* pqwSize  
 );  
 ```  
   
 ```csharp  
 int GetSize(  
-   out ulong pqwSize  
+   out ulong pqwSize  
 );  
 ```  
   

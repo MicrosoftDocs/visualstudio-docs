@@ -1,9 +1,6 @@
 ---
 title: "SccQueryChanges Function | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "SccQueryChanges"
@@ -23,11 +20,11 @@ This function enumerates a given list of files, providing information about name
   
 ```cpp  
 SCCRTN SccQueryChanges(  
-   LPVOID           pContext,  
-   LONG             nFiles,  
-   LPCSTR*          lpFileNames,  
-   QUERYCHANGESFUNC pfnCallback,  
-   LPVOID           pvCallerData  
+   LPVOID           pContext,  
+   LONG             nFiles,  
+   LPCSTR*          lpFileNames,  
+   QUERYCHANGESFUNC pfnCallback,  
+   LPVOID           pvCallerData  
 );  
 ```  
   

@@ -1,9 +1,6 @@
 ---
 title: "IDebugBoundBreakpoint2::SetCondition | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugBoundBreakpoint2::SetCondition"
@@ -24,13 +21,13 @@ Sets or changes the condition associated with this bound breakpoint.
   
 ```cpp  
 HRESULT SetCondition(   
-   BP_CONDITION bpCondition  
+   BP_CONDITION bpCondition  
 );  
 ```  
   
 ```csharp  
 int SetCondition(   
-   enum_BP_CONDITION bpCondition  
+   enum_BP_CONDITION bpCondition  
 );  
 ```  
   

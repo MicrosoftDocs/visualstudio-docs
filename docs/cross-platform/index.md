@@ -1,16 +1,16 @@
 ---
 layout: LandingPage
+title: Mobile Development with C++
+description: Create native C++ apps for iOS, Android and Windows devices with Visual Studio.
+ms.date: 10/31/2018
 author: jasongroce
-ms.author: apexprodleads
+ms.author: jasgro
 ms.topic: landing-page
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-mobile
-title: Mobile Development with C++ Documentation | Microsoft Docs
-description: Create native C++ apps for iOS, Android and Windows devices with Visual Studio.
 ms.workload:
   - apexprodleads
 ---
-
 # Mobile development with C++ documentation
 
 Create native C++ apps for iOS, Android, and Windows devices with Visual Studio.
@@ -42,7 +42,7 @@ Create native C++ apps for iOS, Android, and Windows devices with Visual Studio.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/common/i_learn-about.svg" alt="Learn about Visual C++ for cross-platform mobile develpment">
+                            <img src="/media/common/i_learn-about.svg" alt="Learn about Visual C++ for cross-platform mobile development">
                         </div>
                     </div>
                     <div class="cardText">

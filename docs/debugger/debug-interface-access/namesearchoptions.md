@@ -1,8 +1,6 @@
 ---
 title: "NameSearchOptions | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,19 +20,19 @@ Specifies the search options for symbol and file names.
   
 ```C++  
 enum NameSearchOptions {   
-   nsNone,  
-   nsfCaseSensitive     = 0x1,  
-   nsfCaseInsensitive   = 0x2,  
-   nsfFNameExt          = 0x4,  
-   nsfRegularExpression = 0x8,  
-   nsfUndecoratedName   = 0x10,  
+   nsNone,  
+   nsfCaseSensitive     = 0x1,  
+   nsfCaseInsensitive   = 0x2,  
+   nsfFNameExt          = 0x4,  
+   nsfRegularExpression = 0x8,  
+   nsfUndecoratedName   = 0x10,  
   
 // For backward compatibility:  
-   nsCaseSensitive           = nsfCaseSensitive,  
-   nsCaseInsensitive         = nsfCaseInsensitive,  
-   nsFNameExt                = nsfCaseInsensitive | nsfFNameExt,  
-   nsRegularExpression       = nsfRegularExpression | nsfCaseSensitive,  
-   nsCaseInRegularExpression = nsfRegularExpression | nsfCaseInsensitive  
+   nsCaseSensitive           = nsfCaseSensitive,  
+   nsCaseInsensitive         = nsfCaseInsensitive,  
+   nsFNameExt                = nsfCaseInsensitive | nsfFNameExt,  
+   nsRegularExpression       = nsfRegularExpression | nsfCaseSensitive,  
+   nsCaseInRegularExpression = nsfRegularExpression | nsfCaseInsensitive  
 };  
 ```  
   

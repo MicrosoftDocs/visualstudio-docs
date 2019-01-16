@@ -1,9 +1,6 @@
 ---
 title: "Merging XML in Feature and Package Manifests | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -78,4 +75,3 @@ ms.workload:
 ## See also
  [Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)   
  [Build and debug SharePoint solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)  
-  

@@ -1,9 +1,6 @@
 ---
 title: "Drop-down Bar | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], legacy - drop-down bar"
@@ -14,10 +11,10 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Drop-down Bar
+# Drop-down bar
 The drop-down bar is provided at the top of the code window and contains two drop-down lists.  
   
-## Drop-Down Bar Interfaces  
+## Drop-down bar interfaces  
  In [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)], for example, the drop-down bar contains lists for [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] Items and [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] Items Member Functions, as shown in the following picture.  
   
  ![Drop&#45;down Bars](../extensibility/media/vsdropdown_bar.gif "vsDropdown_bar")  
@@ -41,9 +38,9 @@ Drop-down bar
   
      If you have registered the `ShowDropdownBarOption` in your language service registry key, then your code window manager must monitor this event to synchronize with user preferences regarding whether the drop-down bar should be displayed. If you do not register this option in your language service key, then the option to show or hide the drop-down bar is disabled on the **Options** menu.  
   
-## Attaching a Drop-Down Bar to a Code Window  
+## Attach a drop-down bar to a code window  
  To attach a drop-down bar to the code window when it is created, a language service should attach to the drop-down bar when the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsCodeWindowManager.AddAdornments%2A> method is called. If a call to the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsDropdownBarManager.GetDropdownBar%2A> method indicates that a drop-down bar does not already exist, then call <xref:Microsoft.VisualStudio.TextManager.Interop.IVsDropdownBarManager.AddDropdownBar%2A>. To access the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsDropdownBarManager> interface, call <xref:System.Runtime.InteropServices.Marshal.QueryInterface%2A> from the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsCodeWindow> pointer returned to you when your <xref:Microsoft.VisualStudio.TextManager.Interop.IVsCodeWindowManager> implementation was attached.  
   
-## See Also  
- [Customizing Code Windows by Using the Legacy API](../extensibility/customizing-code-windows-by-using-the-legacy-api.md)   
- [Support for the Navigation Bar in a Legacy Language Service](../extensibility/internals/support-for-the-navigation-bar-in-a-legacy-language-service.md)
+## See also  
+ [Customize code windows by using the legacy API](../extensibility/customizing-code-windows-by-using-the-legacy-api.md)   
+ [Support for the Navigation bar in a legacy language service](../extensibility/internals/support-for-the-navigation-bar-in-a-legacy-language-service.md)

@@ -1,18 +1,17 @@
 ---
-title: "Hello World | Microsoft Docs"
-ms.custom: ""
+title: "Hello World extension tutorial | Microsoft Docs"
 ms.date: "07/10/2017"
 ms.topic: "conceptual"
 ms.assetid: f74e1ad1-1ee5-4360-9bd5-d82467b884ca
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: douge
-ms.workload: 
+ms.workload:
   - "vssdk"
 ---
 # Create your first extension: Hello World
 
-This Hello World example walks you through creating your first extension for Visual Studio. This tutorial will show you how to add a new command to Visual Studio.
+This Hello World example walks you through creating your first extension for Visual Studio. This tutorial shows you how to add a new command to Visual Studio.
 
 In the process, you will learn how to:
 
@@ -25,15 +24,19 @@ For this example, you'll use Visual C# to add a custom menu button named "Say He
 
 ![Hello World command](media/hello-world-say-hello-world.png)
 
+> [!NOTE]
+> This article applies to Visual Studio on Windows. For Visual Studio for Mac, see [Extensibility walkthrough in Visual Studio for Mac](/visualstudio/mac/extending-visual-studio-mac-walkthrough).
+
 ## Prerequisites
 
 Before you start, make sure you have installed the **Visual Studio extension development** workload which includes the VSIX template you'll need and sample code.
 
-Note: You can use any version of Visual Studio (Community, Professional, or Enterprise) to create a Visual Studio Extensibility project.
+> [!NOTE]
+> You can use any edition of Visual Studio (Community, Professional, or Enterprise) to create a Visual Studio extensibility project.
 
 ## Create an extensibility project
 
-Step 1. From the **File** menu, click **New Project**. At the bottom of the screen, you can enter the name of your project.
+Step 1. From the **File** menu, click **New Project**. At the bottom of the screen, enter the name of your project.
 
 Step 2. From the **Templates** menu, click **Visual C#**, click **Extensibility**, and then click **VSIX Project**.
 
@@ -47,15 +50,15 @@ If you need to leave this tutorial and come back to it, you can find your new He
 
 Step 1. If you select the manifest, you can see what options are changeable, for instance, metadata, description, and version.
 
-Step 2. Right-click the project (not the solution). On the context menu, click **Add**, and then click **User Control**.
+Step 2. Right-click the project (not the solution). On the context menu, click **Add**, and then click **New Item**.
 
-Step 3. Go back to the **Extensibility** section, and then click **Custom Command**.
+Step 3. Select the **Extensibility** section, and then click **Custom Command**.
 
 Step 4. In the **Name** field at the bottom, give it a name, for instance *Command.cs*.
 
 ![custom command](media/hello-world-custom-command.png)
 
-Your new command will be listed in the **Solution Explorer** under the **Resources** branch. This is also where you'll find other files related to your command, such as the PNG and ICO files if you wish to modify the image.
+Your new command is listed in **Solution Explorer** under the **Resources** branch. This is also where you'll find other files related to your command, such as the PNG and ICO files if you wish to modify the image.
 
 ## Modify the source code
 
@@ -110,7 +113,7 @@ Make sure to save your changes to each file.
 
 You can now run the source code in the Visual Studio Experimental Instance.
 
-Step 1. Click **Start** in the Toolbar. This will build your project and start the debugger, launching a new instance of Visual Studio called the **Experimental Instance**.
+Step 1. Click **Start** in the Toolbar. This builds your project and starts the debugger, launching a new instance of Visual Studio called the **Experimental Instance**.
 
 You will see the words **Experimental Instance** in the Visual Studio title bar.
 
@@ -126,6 +129,6 @@ You should see the output from your new custom command, in this case the dialog 
 
 Now that you know the basics of working with Visual Studio Extensibility, here's where you can learn more:
 
-* [Start to develop Visual Studio extensions](starting-to-develop-visual-studio-extensions.md) - Samples, tutorials. and publishing your extension.
+* [Start to develop Visual Studio extensions](starting-to-develop-visual-studio-extensions.md) - Samples, tutorials. and publishing your extension
 * [What's new in the Visual Studio 2017 SDK](what-s-new-in-the-visual-studio-2017-sdk.md) -New extensibility features in Visual Studio 2017
 * [Inside the Visual Studio SDK](internals/inside-the-visual-studio-sdk.md) - Learn the details of Visual Studio Extensibility

@@ -1,9 +1,6 @@
 ---
 title: "IDebugBreakpointUnboundEvent2::GetReason | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugBreakpointUnboundEvent2::GetReason"
@@ -23,13 +20,13 @@ Gets the reason the breakpoint was unbound.
   
 ```cpp  
 HRESULT GetReason(   
-   BP_UNBOUND_REASON* pdwUnboundReason  
+   BP_UNBOUND_REASON* pdwUnboundReason  
 );  
 ```  
   
 ```csharp  
 int GetReason(   
-   out enum_ BP_UNBOUND_REASON pdwUnboundReason  
+   out enum_ BP_UNBOUND_REASON pdwUnboundReason  
 );  
 ```  
   

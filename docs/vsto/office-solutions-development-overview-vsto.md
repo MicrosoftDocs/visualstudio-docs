@@ -1,9 +1,6 @@
 ---
 title: "Office solutions development overview (VSTO)"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -25,13 +22,13 @@ ms.workload:
 ## Choose an Office project type  
  [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] provides the following types of project templates for VSTO-based Office development:  
   
--   **Document-level customizations** are associated with a specific document.  
+- **Document-level customizations** are associated with a specific document.  
   
--   **VSTO Add-ins** are associated with the application itself.  
+- **VSTO Add-ins** are associated with the application itself.  
   
- To decide which of these project types is best for your solution, think about whether you want your code to run only when a specific document is open, or whether you want the code to be available whenever the application is running. For more information about the project templates, see [Office project templates overview](../vsto/office-project-templates-overview.md).  
+  To decide which of these project types is best for your solution, think about whether you want your code to run only when a specific document is open, or whether you want the code to be available whenever the application is running. For more information about the project templates, see [Office project templates overview](../vsto/office-project-templates-overview.md).  
   
- The types of projects you can create depend on which Office applications you have installed on the development computer. For more information, see [Features available by Office application and project type](../vsto/features-available-by-office-application-and-project-type.md).  
+  The types of projects you can create depend on which Office applications you have installed on the development computer. For more information, see [Features available by Office application and project type](../vsto/features-available-by-office-application-and-project-type.md).  
   
 ### Document-level customizations  
  Document-level customizations consist of an assembly that is associated with a single document, workbook, or template in Microsoft Office Word or Microsoft Office Excel. The assembly is loaded when the associated document is opened. Features in customizations that you create are available only when the associated document is open. Customizations cannot make application-wide changes, such as displaying a new menu item or ribbon tab when any document is open.  
@@ -77,7 +74,7 @@ ms.workload:
  Use ClickOnce or Windows Installer to deploy solutions that you create by using the Office development tools in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. ClickOnce deployment enables you to create self-updating solutions that can be installed and run with minimal user interaction. Windows Installer (*.msi*) files can be easily distributed to end-user computers, or distributed by using Systems Management Server (SMS). For more information about deploying VSTO Office solutions, see [Deploy an Office solution](../vsto/deploying-an-office-solution.md).  
   
 ### Install prerequisites  
- Before end users can run a solution you create by using the Office development tools in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], their computers must have certain prerequisites installed. If you deploy your solution by using ClickOnce or by creating a Windows Installer file, these prerequisites can be installed with your solution. For more information, see [Office solution prerequisites for deployment](http://msdn.microsoft.com/9f672809-43a3-40a1-9057-397ce3b5126e) and [How to: Install prerequisites on end user computers to run Office solutions](http://msdn.microsoft.com/74dd2c52-838f-4abf-b2b4-4d7b0c2a0a98).  
+ Before end users can run a solution you create by using the Office development tools in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], their computers must have certain prerequisites installed. If you deploy your solution by using ClickOnce or by creating a Windows Installer file, these prerequisites can be installed with your solution. For more information, see [Office solution prerequisites for deployment](https://msdn.microsoft.com/9f672809-43a3-40a1-9057-397ce3b5126e) and [How to: Install prerequisites on end user computers to run Office solutions](https://msdn.microsoft.com/74dd2c52-838f-4abf-b2b4-4d7b0c2a0a98).  
   
 ### Security  
  Security for VSTO Office solutions is enforced by a series of checks that the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] makes when it installs and loads the solution. These checks include verifying whether the location of the deployment manifest is trusted or whether the certificate used to sign the deployment manifest is trusted. For more information, see [Secure Office solutions](../vsto/securing-office-solutions.md).  
@@ -89,5 +86,3 @@ ms.workload:
  [Get started programming document-level customizations for Excel](../vsto/getting-started-programming-document-level-customizations-for-excel.md)   
  [Get started programming document-level customizations for Word](../vsto/getting-started-programming-document-level-customizations-for-word.md)   
  [Get started programming VSTO Add-ins](../vsto/getting-started-programming-vsto-add-ins.md)  
-  
-  

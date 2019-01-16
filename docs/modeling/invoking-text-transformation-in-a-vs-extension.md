@@ -8,7 +8,6 @@ manager: douge
 ms.workload:
   - "multiple"
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Invoking Text Transformation in a VS Extension
 If you are writing a Visual Studio extension such as a menu command or [domain-specific language](../modeling/modeling-sdk-for-visual-studio-domain-specific-languages.md), you can use the text templating service to transform text templates. Get the <xref:Microsoft.VisualStudio.TextTemplating.VSHost.STextTemplating> service and cast it to <xref:Microsoft.VisualStudio.TextTemplating.VSHost.ITextTemplating>.
@@ -27,7 +26,6 @@ ITextTemplating t4 = serviceProvider.GetService(typeof(STextTemplating)) as ITex
 
 // Process a text template:
 string result = t4.ProcessTemplate(filePath, System.IO.File.ReadAllText(filePath));
-
 ```
 
 ## Passing parameters to the template
@@ -68,11 +66,10 @@ string result = t4.ProcessTemplate("",
 
 // This test code yields a result similar to the following line:
 //     Test: Hello    07/06/2010 12:37:45    42
-
 ```
 
 ## Error Reporting and the Output Directive
- Any errors that arise during processing will be displayed in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] error window. In addition, you can be notified of errors by specifying a callback that implements <xref:Microsoft.VisualStudio.TextTemplating.VSHost.ITextTemplatingCallback>.
+ Any errors that arise during processing will be displayed in the Visual Studio error window. In addition, you can be notified of errors by specifying a callback that implements <xref:Microsoft.VisualStudio.TextTemplating.VSHost.ITextTemplatingCallback>.
 
  If you want to write the result string to a file, you might want to know what file extension and encoding have been specified in the `<#@output#>` directive in the template. This information will also be passed to your callback. For more information, see [T4 Output Directive](../modeling/t4-output-directive.md).
 
@@ -114,7 +111,6 @@ class T4Callback : ITextTemplatingCallback
   public void SetOutputEncoding(Encoding encoding, bool fromOutputDirective)
   { outputEncoding = encoding; }
 }
-
 ```
 
  The code can be tested with a template file similar to the following:
@@ -126,7 +122,7 @@ class T4Callback : ITextTemplatingCallback
 Sample text.
 ```
 
- The compiler warning will appear in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] error window, and it will also generate a call to `ErrorCallback`.
+ The compiler warning will appear in the Visual Studio error window, and it will also generate a call to `ErrorCallback`.
 
 ## Reference parameters
  You can pass values out of a text template by using a parameter class that is derived from <xref:System.MarshalByRefObject>.
@@ -135,7 +131,7 @@ Sample text.
  To generate text from a preprocessed text template:
  Call the `TransformText()` method of the generated class. For more information, see [Run-Time Text Generation with T4 Text Templates](../modeling/run-time-text-generation-with-t4-text-templates.md).
 
- To generate text outside a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] extension:
+ To generate text outside a Visual Studio extension:
  Define a custom host. For more information, see [Processing Text Templates by using a Custom Host](../modeling/processing-text-templates-by-using-a-custom-host.md).
 
  To generate source code that can later be compiled and executed:

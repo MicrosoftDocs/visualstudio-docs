@@ -1,15 +1,10 @@
 ---
 title: "Walkthrough: Import a SharePoint Designer Reusable Workflow into Visual Studio | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VS.SharePointTools.WSPImport.ImportWF"
 dev_langs: 
-  - "VB"
-  - "CSharp"
   - "VB"
   - "CSharp"
 helpviewer_keywords: 
@@ -32,22 +27,22 @@ ms.workload:
   
  This walkthrough demonstrates the following tasks:  
   
--   Creating a simple, reusable workflow in SharePoint Designer.  
+- Creating a simple, reusable workflow in SharePoint Designer.  
   
--   Exporting the SharePoint Designer reusable workflow to a *.wsp* file and into SharePoint.  
+- Exporting the SharePoint Designer reusable workflow to a *.wsp* file and into SharePoint.  
   
--   Importing the *.wsp* file into [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] by using the Import Reusable Workflow project.  
+- Importing the *.wsp* file into [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] by using the Import Reusable Workflow project.  
   
--   Altering the workflow by adding code.  
+- Altering the workflow by adding code.  
   
--   Using the imported workflow in a SharePoint site.  
+- Using the imported workflow in a SharePoint site.  
   
- [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
+  [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
   
 ## Prerequisites  
  You need the following components to complete this walkthrough:  
   
--   Supported editions of [!INCLUDE[TLA#tla_win](../sharepoint/includes/tlasharptla-win-md.md)] and SharePoint. For more information, see [Requirements for developing SharePoint solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md).  
+-   Supported editions of [!INCLUDE[TLA#tla_win](../sharepoint/includes/tlasharptla-win-md.md)] and SharePoint.  
   
 -   Visual Studio.  
   
@@ -58,21 +53,21 @@ ms.workload:
   
 #### To create SharePoint subsites  
   
-1.  In SharePoint Designer 2010, on the menu bar, choose **File** > **New Blank Web Site**.  
+1. In SharePoint Designer 2010, on the menu bar, choose **File** > **New Blank Web Site**.  
   
-2.  In the **New Blank Web Site** dialog box, browse to a SharePoint site where you want to create the workflow, or use the value of http://*SystemName*/ and then choose the **OK** button.  
+2. In the **New Blank Web Site** dialog box, browse to a SharePoint site where you want to create the workflow, or use the value of http://<em>SystemName</em>/ and then choose the **OK** button.  
   
-     The Home page appears.  
+    The Home page appears.  
   
-3.  In the **Subsites** section, choose the **New** button.  
+3. In the **Subsites** section, choose the **New** button.  
   
-4.  In the **New** dialog box, choose **SharePoint Templates** from the list in the left pane, and choose **Team Site** from the list in the right pane.  
+4. In the **New** dialog box, choose **SharePoint Templates** from the list in the left pane, and choose **Team Site** from the list in the right pane.  
   
-5.  In the **Specify the location of the Web site** box, replace the word **subsite** in the URL with **SPD1**, and then choose the **OK** button.  
+5. In the **Specify the location of the Web site** box, replace the word **subsite** in the URL with **SPD1**, and then choose the **OK** button.  
   
-     This opens the new subsite into SharePoint Designer. Close this instance of SharePoint Designer and go back to the first instance (the top-level site).  
+    This opens the new subsite into SharePoint Designer. Close this instance of SharePoint Designer and go back to the first instance (the top-level site).  
   
-6.  Repeat steps 3 - 5 to create the second subsite, this time replacing the word **subsite** in the [!INCLUDE[TLA2#tla_url](../sharepoint/includes/tla2sharptla-url-md.md)] with **SPD2**.  
+6. Repeat steps 3 - 5 to create the second subsite, this time replacing the word **subsite** in the [!INCLUDE[TLA2#tla_url](../sharepoint/includes/tla2sharptla-url-md.md)] with **SPD2**.  
   
 ## Create a SharePoint Designer reusable workflow
  Because SharePoint does not include any reusable workflows that you can use for this example, you will create one. In this simple workflow, when a user enters a new task in the Task list that has a specific title, the task is assigned to that user.  
@@ -152,32 +147,32 @@ ms.workload:
   
 #### To import a workflow from a .wsp file and modify it  
   
-1.  In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], on the menu bar, choose **File** > **New** > **Project**.  
+1. In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], on the menu bar, choose **File** > **New** > **Project**.  
   
-2.  In the **New Project** dialog box, expand the **SharePoint** node under either **Visual C#** or **Visual Basic**, and then choose the **2010** node.  
+2. In the **New Project** dialog box, expand the **SharePoint** node under either **Visual C#** or **Visual Basic**, and then choose the **2010** node.  
   
-3.  In the **Templates** pane, choose the **Import Reusable SharePoint 2010 Workflow** template, leave the name of the project as **WorkflowImportProject1**, and then choose the **OK** button.  
+3. In the **Templates** pane, choose the **Import Reusable SharePoint 2010 Workflow** template, leave the name of the project as **WorkflowImportProject1**, and then choose the **OK** button.  
   
-     The SharePoint Customization Wizard appears.  
+    The SharePoint Customization Wizard appears.  
   
-4.  On the **Specify the site and security level for debugging** page, enter the [!INCLUDE[TLA2#tla_url](../sharepoint/includes/tla2sharptla-url-md.md)] for the second SharePoint subsite that you created previously: http://*system name*/SPD2.  
+4. On the **Specify the site and security level for debugging** page, enter the [!INCLUDE[TLA2#tla_url](../sharepoint/includes/tla2sharptla-url-md.md)] for the second SharePoint subsite that you created previously: http://<em>system name</em>/SPD2.  
   
-5.  In the **What is the trust level for this SharePoint solution?** section, choose the **Deploy as a farm solution** option button, and then choose the **Next** button.  
+5. In the **What is the trust level for this SharePoint solution?** section, choose the **Deploy as a farm solution** option button, and then choose the **Next** button.  
   
-     For more information about sandboxed versus farm solutions, see [Sandboxed solution considerations](../sharepoint/sandboxed-solution-considerations.md).  
+    For more information about sandboxed versus farm solutions, see [Sandboxed solution considerations](../sharepoint/sandboxed-solution-considerations.md).  
   
-6.  In the **Specify the new project source** page, browse to the location on the system where you previously saved the *.wsp* file, open the file, and then choose the **Next** button.  
+6. In the **Specify the new project source** page, browse to the location on the system where you previously saved the *.wsp* file, open the file, and then choose the **Next** button.  
   
-    > [!NOTE]  
-    >  Choose the **Finish** button to import all available items in the *.wsp* file.  
+   > [!NOTE]  
+   >  Choose the **Finish** button to import all available items in the *.wsp* file.  
   
-     This displays a list of reusable workflows available for importing.  
+    This displays a list of reusable workflows available for importing.  
   
-7.  In the **Select items to import** box, choose the **SPD Task Workflow** workflow, and then choose the **Finish** button.  
+7. In the **Select items to import** box, choose the **SPD Task Workflow** workflow, and then choose the **Finish** button.  
   
-     After the import operation is finished, a project named **WorkflowImportProject1** is created containing a workflow named **SPD_Workflow_TestFT**. In this folder is the workflow's definition file *Elements.xml* and the workflow designer file (*.xoml*). The designer contains two files: the rules file (.rules) and the code-behind file (either *.cs* or *.vb*, depending on your project's programming language).  
+    After the import operation is finished, a project named **WorkflowImportProject1** is created containing a workflow named **SPD_Workflow_TestFT**. In this folder is the workflow's definition file *Elements.xml* and the workflow designer file (*.xoml*). The designer contains two files: the rules file (.rules) and the code-behind file (either *.cs* or *.vb*, depending on your project's programming language).  
   
-8.  In **Solution Explorer**, delete the **Other Imported Files** folder.  
+8. In **Solution Explorer**, delete the **Other Imported Files** folder.  
   
 9. In the *Elements.xml* file, delete `InstantiationURL="_layouts/IniErkflIP.sspx"`.  
   
@@ -197,11 +192,11 @@ ms.workload:
   
 13. In the **Windows Workflow v3.0** node of the **Toolbox**, perform one of the following steps:  
   
-    -   Open the shortcut menu for the **Code** activity, and then choose **Copy**. In the workflow designer, open the shortcut menu for the line under the **SequenceActivity1** activity, and then choose **Paste**.  
+    - Open the shortcut menu for the **Code** activity, and then choose **Copy**. In the workflow designer, open the shortcut menu for the line under the **SequenceActivity1** activity, and then choose **Paste**.  
   
-    -   Drag the **Code** activity from the **Toolbox** to the workflow designer, and connect it to the line under the **SequenceActivity1** activity.  
+    - Drag the **Code** activity from the **Toolbox** to the workflow designer, and connect it to the line under the **SequenceActivity1** activity.  
   
-     This adds an activity to the workflow designer named **CodeActivity1**. In this activity, you will add a code action that creates an announcement in the Announcements list when the user starts the workflow.  
+      This adds an activity to the workflow designer named **CodeActivity1**. In this activity, you will add a code action that creates an announcement in the Announcements list when the user starts the workflow.  
   
 14. Perform one of the following sets of steps:  
   
@@ -263,4 +258,3 @@ ms.workload:
  [Import items from an existing SharePoint site](../sharepoint/importing-items-from-an-existing-sharepoint-site.md)   
  [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)   
  [Create reusable controls for web parts or application pages](../sharepoint/creating-reusable-controls-for-web-parts-or-application-pages.md)  
-  

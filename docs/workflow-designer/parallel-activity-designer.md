@@ -3,7 +3,6 @@ title: "Workflow Designer - Parallel Activity Designer"
 ms.date: 11/04/2016
 ms.topic: reference
 ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 f1_keywords:
   - "System.Activities.Statements.Parallel.UI"
 ms.assetid: 0306dc3b-075a-4091-ac3a-96486fbabed5
@@ -36,7 +35,7 @@ To add an activity to the <xref:System.Activities.Statements.Parallel.Branches%2
 The following table shows the Parallel activity properties and describes how they are used in the designer.
 
 |Property Name|Required|Usage|
-|-------------------|--------------|-----------|
+|-|--------------|-|
 |<xref:System.Activities.Activity.DisplayName%2A>|False|Specifies the friendly display name of the activity designer in the header. The default value is **Parallel**. The value can be optionally edited in the **Properties** grid or directly on the activity designer header.|
 |<xref:System.Activities.Statements.Parallel.Branches%2A>|True|Contains the collection of child activities to be executed.|
 |<xref:System.Activities.Statements.Parallel.CompletionCondition%2A>|False|Evaluated after a branch completes. If it evaluates to **True**, then the scheduled pending branches are canceled. If this property is not set or evaluates to **False**, the activity completes when all of its child activities have completed. The default value is **null**.|

@@ -2,7 +2,6 @@
 title: "CA2135: Level 2 assemblies should not contain LinkDemands"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA2135"
@@ -14,6 +13,7 @@ ms.workload:
   - "multiple"
 ---
 # CA2135: Level 2 assemblies should not contain LinkDemands
+
 |||
 |-|-|
 |TypeName|SecurityRuleSetLevel2MethodsShouldNotBeProtectedWithLinkDemands|
@@ -24,13 +24,13 @@ ms.workload:
 ## Cause
  A class or class member is using a <xref:System.Security.Permissions.SecurityAction> in an application that is using Level 2 security.
 
-## Rule Description
+## Rule description
  LinkDemands are deprecated in the level 2 security rule set. Instead of using LinkDemands to enforce security at just-in-time (JIT) compilation time, mark the methods, types, and fields with the <xref:System.Security.SecurityCriticalAttribute> attribute.
 
-## How to Fix Violations
+## How to fix violations
  To fix a violation of this rule, remove the <xref:System.Security.Permissions.SecurityAction> and mark the type or member with the <xref:System.Security.SecurityCriticalAttribute> attribute.
 
-## When to Suppress Warnings
+## When to suppress warnings
  Do not suppress a warning from this rule.
 
 ## Example

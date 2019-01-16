@@ -1,9 +1,6 @@
 ---
 title: "IDebugDisassemblyStream2::GetDocument | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugDisassemblyStream2::GetDocument"
@@ -23,15 +20,15 @@ Gets the source document associated with this input stream.
   
 ```cpp  
 HRESULT GetDocument(   
-   BSTR              bstrDocumentUrl,  
-   IDebugDocument2** ppDocument  
+   BSTR              bstrDocumentUrl,  
+   IDebugDocument2** ppDocument  
 );  
 ```  
   
 ```csharp  
 int GetDocument(   
-   string              bstrDocumentUrl,  
-   out IDebugDocument2 ppDocument  
+   string              bstrDocumentUrl,  
+   out IDebugDocument2 ppDocument  
 );  
 ```  
   

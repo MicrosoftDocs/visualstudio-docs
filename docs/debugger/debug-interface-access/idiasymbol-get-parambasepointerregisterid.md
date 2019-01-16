@@ -1,8 +1,6 @@
 ---
 title: "IDiaSymbol::get_paramBasePointerRegisterId | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves the ID of the register that holds a base pointer to the parameters. Us
   
 ```C++  
 HRESULT get_paramBasePointerRegisterId (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

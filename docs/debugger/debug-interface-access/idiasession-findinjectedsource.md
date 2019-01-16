@@ -1,8 +1,6 @@
 ---
 title: "IDiaSession::findInjectedSource | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,8 +20,8 @@ Retrieves a list of sources that has been placed into the symbol store by attrib
   
 ```C++  
 HRESULT findInjectedSource (   
-   LPCOLESTR                 srcFile,  
-   IDiaEnumInjectedSources** ppResult  
+   LPCOLESTR                 srcFile,  
+   IDiaEnumInjectedSources** ppResult  
 );  
 ```  
   

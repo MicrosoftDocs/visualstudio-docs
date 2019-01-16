@@ -1,9 +1,6 @@
 ---
 title: "IDebugMethodField::GetThis | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugMethodField::GetThis"
@@ -23,13 +20,13 @@ Gets the `this` (`Me` in [!INCLUDE[vbprvb](../../../code-quality/includes/vbprvb
   
 ```cpp  
 HRESULT GetThis(   
-   IDebugClassField** ppClass  
+   IDebugClassField** ppClass  
 );  
 ```  
   
 ```csharp  
 int GetThis(  
-   out IDebugClassField ppClass  
+   out IDebugClassField ppClass  
 );  
 ```  
   

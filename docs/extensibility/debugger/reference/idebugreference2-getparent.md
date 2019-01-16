@@ -1,9 +1,6 @@
 ---
 title: "IDebugReference2::GetParent | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugReference2::GetParent"
@@ -23,13 +20,13 @@ Gets the parent reference of a reference. Reserved for future use.
   
 ```cpp  
 HRESULT GetParent (   
-   IDebugReference2** ppParent  
+   IDebugReference2** ppParent  
 );  
 ```  
   
 ```csharp  
 int GetParent (   
-   out IDebugReference2 ppParent  
+   out IDebugReference2 ppParent  
 );  
 ```  
   

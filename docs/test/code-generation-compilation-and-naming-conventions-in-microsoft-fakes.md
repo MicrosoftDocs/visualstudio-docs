@@ -1,8 +1,7 @@
 ---
-title: "Code generation, compilation, and naming conventions in Microsoft Fakes for Visual Studio"
+title: "Code generation, compilation, and naming conventions in Microsoft Fakes"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 ms.author: gewarren
 manager: douge
@@ -195,42 +194,42 @@ attribute of the Assembly element in the .fakes:
 
  **Namespaces**
 
--   .Fakes suffix is added to the namespace.
+- .Fakes suffix is added to the namespace.
 
-     For example, `System.Fakes` namespace contains the shim types of System namespace.
+   For example, `System.Fakes` namespace contains the shim types of System namespace.
 
--   Global.Fakes contains the shim type of the empty namespace.
+- Global.Fakes contains the shim type of the empty namespace.
 
- **Type names**
+  **Type names**
 
--   Shim prefix is added to the type name to build the shim type name.
+- Shim prefix is added to the type name to build the shim type name.
 
-     For example, ShimExample is the shim type of the Example type.
+   For example, ShimExample is the shim type of the Example type.
 
--   Stub prefix is added to the type name to build the stub type name.
+- Stub prefix is added to the type name to build the stub type name.
 
-     For example, StubIExample is the stub type of the IExample type.
+   For example, StubIExample is the stub type of the IExample type.
 
- **Type Arguments and Nested Type Structures**
+  **Type Arguments and Nested Type Structures**
 
--   Generic type arguments are copied.
+- Generic type arguments are copied.
 
--   Nested type structure is copied for shim types.
+- Nested type structure is copied for shim types.
 
 ### Shim delegate property or stub delegate field naming conventions
 
 **Basic rules** for field naming, starting from an empty name:
 
--   The method name is appended.
+- The method name is appended.
 
--   If the method name is an explicit interface implementation, the dots are removed.
+- If the method name is an explicit interface implementation, the dots are removed.
 
--   If the method is generic, `Of`*n* is appended where *n* is the number of generic method arguments.
+- If the method is generic, `Of`*n* is appended where *n* is the number of generic method arguments.
 
- **Special method names** such as property getter or setters are treated as described in the following table:
+  **Special method names** such as property getter or setters are treated as described in the following table:
 
 |If method is...|Example|Method name appended|
-|-------------------|-------------|--------------------------|
+|-|-|-|
 |A **constructor**|`.ctor`|`Constructor`|
 |A static **constructor**|`.cctor`|`StaticConstructor`|
 |An **accessor** with method name composed of two parts separated by "_" (such as property getters)|*kind_name* (common case, but not enforced by ECMA)|*NameKind*, where both parts have been capitalized and swapped|
@@ -250,7 +249,7 @@ attribute of the Assembly element in the .fakes:
 ### Parameter type naming conventions
 
 |Given|Appended string is...|
-|-----------|-------------------------|
+|-|-|
 |A **type**`T`|T<br /><br /> The namespace, nested structure, and generic tics are dropped.|
 |An **out parameter**`out T`|`TOut`|
 |A **ref parameter** `ref T`|`TRef`|

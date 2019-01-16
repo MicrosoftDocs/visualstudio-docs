@@ -3,7 +3,6 @@ title: "Workflow Designer - Compensate Activity Designer"
 ms.date: 11/04/2016
 ms.topic: reference
 ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 f1_keywords:
   - "System.Activities.Statements.Compensate.UI"
 ms.assetid: 7347c947-bfff-4bad-becd-5cd23e7b24cd
@@ -34,7 +33,7 @@ The **Compensate** activity designer can be dragged from the **Toolbox** and dro
 The following table shows the <xref:System.Activities.Statements.CancellationScope> properties and describes how they are used in the designer. The <xref:System.Activities.Activity.DisplayName%2A> property can be edited in property grid or on Workflow Designer surface. Edit the <xref:System.Activities.Statements.Compensate.Target%2A> property in the property grid.
 
 |Property Name|Required|Usage|
-|-------------------|--------------|-----------|
+|-|--------------|-|
 |<xref:System.Activities.Activity.DisplayName%2A>|False|Specifies the optional friendly name of the <xref:System.Activities.Statements.Compensate> activity. The default is Compensate.|
 |<xref:System.Activities.Statements.Compensate.Target%2A>|True|Specifies the <xref:System.Activities.InArgument%601> that contains the <xref:System.Activities.Statements.CompensationToken> for this <xref:System.Activities.Statements.Compensate> activity.|
 

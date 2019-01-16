@@ -1,9 +1,6 @@
 ---
 title: "IDebugThread2::GetProgram | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugThread2::GetProgram"
@@ -23,13 +20,13 @@ Gets the program in which a thread is running.
   
 ```cpp  
 HRESULT GetProgram (   
-   IDebugProgram2** ppProgram  
+   IDebugProgram2** ppProgram  
 );  
 ```  
   
 ```csharp  
 int GetProgram (   
-   out IDebugProgram2 ppProgram  
+   out IDebugProgram2 ppProgram  
 );  
 ```  
   

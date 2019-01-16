@@ -1,9 +1,6 @@
 ---
 title: "IDebugEnumField::GetUnderlyingSymbol | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugEnumField::GetUnderlyingSymbol"
@@ -23,13 +20,13 @@ This method returns an [IDebugField](../../../extensibility/debugger/reference/i
   
 ```cpp  
 HRESULT GetUnderlyingSymbol(  
-   IDebugField** ppField  
+   IDebugField** ppField  
 );  
 ```  
   
 ```csharp  
 int GetUnderlyingSymbol(  
-   out IDebugField ppField  
+   out IDebugField ppField  
 );  
 ```  
   

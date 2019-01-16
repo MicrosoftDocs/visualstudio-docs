@@ -1,9 +1,9 @@
 ---
 title: "Install Visual Studio Build Tools into a container"
+titleSuffix: ""
 description: "Learn how to install Visual Studio Build Tools into a Windows container to support continuous integration and continuous delivery (CI/CD) workflows."
-ms.custom: ""
 ms.date: 04/18/2018
-ms.technology: vs-acquisition
+ms.custom: "seodec18"
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.assetid: d5c038e2-e70d-411e-950c-8a54917b578a
@@ -51,7 +51,7 @@ Visual Studio Build Tools - and to a greater extent, Visual Studio - require lot
 
 **On Windows 10**:
 
-1. [Rick-click on the Docker for Windows icon](https://docs.docker.com/docker-for-windows/#docker-settings) in the system tray and click **Settings...**.
+1. [Right-click on the Docker for Windows icon](https://docs.docker.com/docker-for-windows/#docker-settings) in the system tray and click **Settings**.
 2. [Click on the Daemon](https://docs.docker.com/docker-for-windows/#docker-daemon) section.
 3. [Toggle the **Basic**](https://docs.docker.com/docker-for-windows/#edit-the-daemon-configuration-file) button to **Advanced**.
 4. Add the following JSON array property to increase disk space to 120 GB (more than enough for Build Tools with room to grow).
@@ -111,8 +111,8 @@ Visual Studio Build Tools - and to a greater extent, Visual Studio - require lot
 
 Save the following example Dockerfile to a new file on your disk. If the file is named simply "Dockerfile", it is recognized by default.
 
-> [!NOTE]
-> This example Dockerfile only excludes older Windows SDKs that cannot be installed into containers. Older releases cause the build command to fail.
+> [!WARNING]
+> This example Dockerfile only excludes earlier Windows SDKs that cannot be installed into containers. Earlier releases cause the build command to fail.
 
 1. Open a command prompt.
 2. Create a new directory (recommended):
@@ -158,8 +158,12 @@ Save the following example Dockerfile to a new file on your disk. If the file is
    CMD ["powershell.exe", "-NoLogo", "-ExecutionPolicy", "Bypass"]
    ```
 
-   > [!NOTE]
-   > If you base your image directly on microsoft/windowsservercore, the .NET Framework may not install properly and no install error is indicated. Managed code may not run after the install is complete. Instead, base your image on [microsoft/dotnet-framework:4.7.1](https://hub.docker.com/r/microsoft/dotnet-framework) or newer. Also note that newer images may use PowerShell as the default `SHELL` which will cause the `RUN` and `ENTRYPOINT` instructions to fail.
+   > [!WARNING]
+   > If you base your image directly on microsoft/windowsservercore, the .NET Framework may not install properly and no install error is indicated. Managed code may not run after the install is complete. Instead, base your image on [microsoft/dotnet-framework:4.7.1](https://hub.docker.com/r/microsoft/dotnet-framework) or later. Also note that images tagged version 4.7.1 or later may use PowerShell as the default `SHELL` which will cause the `RUN` and `ENTRYPOINT` instructions to fail.
+   >
+   > Visual Studio 2017 version 15.8 or earlier (any product) will not properly install on mcr<span></span>.microsoft\.com\/windows\/servercore:1809 or later. No error is displayed.
+   >
+   > See [Known issues for containers](build-tools-container-issues.md) for more information.
 
 4. Run the following command within that directory.
 
@@ -184,16 +188,7 @@ Now that you have created an image, you can run it in a container to do both int
 
 To use this image for your CI/CD workflow, you can publish it to your own [Azure Container Registry](https://azure.microsoft.com/services/container-registry) or other internal [Docker registry](https://docs.docker.com/registry/deploying) so servers only need to pull it.
 
-## Get support
-
-Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page. If none of the troubleshooting steps help, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://visualstudio.microsoft.com/vs/support/#talktous).
-
-Here are a few more support options:
-
-* You can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
-* You can share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
-* You can track product issues and find answers in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/).
-* You can also engage with us and other Visual Studio developers through the [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio).  (This option requires a [GitHub](https://github.com/) account.)
+[!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
 ## See also
 

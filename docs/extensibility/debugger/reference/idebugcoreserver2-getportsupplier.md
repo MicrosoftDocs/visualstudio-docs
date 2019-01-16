@@ -1,9 +1,6 @@
 ---
 title: "IDebugCoreServer2::GetPortSupplier | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugCoreServer2::GetPortSupplier"
@@ -23,15 +20,15 @@ Retrieves a specific port supplier.
   
 ```cpp  
 HRESULT GetPortSupplier(   
-   REFGUID               guidPortSupplier,  
-   IDebugPortSupplier2** ppPortSupplier  
+   REFGUID               guidPortSupplier,  
+   IDebugPortSupplier2** ppPortSupplier  
 );  
 ```  
   
 ```csharp  
 int GetPortSupplier(   
-   ref Guid                guidPortSupplier,  
-   out IDebugPortSupplier2 ppPortSupplier  
+   ref Guid                guidPortSupplier,  
+   out IDebugPortSupplier2 ppPortSupplier  
 );  
 ```  
   

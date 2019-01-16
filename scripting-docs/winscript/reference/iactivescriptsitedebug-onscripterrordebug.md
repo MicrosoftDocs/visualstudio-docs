@@ -24,7 +24,7 @@ Allows a smart host to determine how to handle run-time errors.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT OnScriptErrorDebug(  
    IActiveScriptErrorDebug*  pErrorDebug,  
    BOOL*                     pfEnterDebugger,  

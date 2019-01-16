@@ -1,8 +1,6 @@
 ---
 title: "IDiaSymbol::get_targetSection | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves the address section of a thunk target.
   
 ```C++  
 HRESULT get_targetSection (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

@@ -1,9 +1,6 @@
 ---
 title: "IDebugReturnValueEvent2::GetReturnValue | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugReturnValueEvent2::GetReturnValue"
@@ -23,13 +20,13 @@ Gets the value returned on stepping out of or over a function.
   
 ```cpp  
 HRESULT GetReturnValue (   
-   IDebugProperty2** ppReturnValue  
+   IDebugProperty2** ppReturnValue  
 );  
 ```  
   
 ```csharp  
 int GetReturnValue (   
-   out IDebugProperty2 ppReturnValue  
+   out IDebugProperty2 ppReturnValue  
 );  
 ```  
   

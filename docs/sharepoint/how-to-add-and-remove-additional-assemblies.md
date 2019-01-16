@@ -1,15 +1,10 @@
 ---
 title: "How to: Add and Remove Additional Assemblies | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VS.SharePointTools.RAD.CustomAssembly"
 dev_langs: 
-  - "VB"
-  - "CSharp"
   - "VB"
   - "CSharp"
 helpviewer_keywords: 
@@ -60,7 +55,7 @@ ms.workload:
   
 #### To add a safe control  
   
-1.  Open the **Edit Existing Assembly** dialog box. To accomplish this, open the Package Designer, choose the **Advanced** tab, choose an assembly, and then choose the **Edit**button.  
+1.  Open the **Edit Existing Assembly** dialog box. To accomplish this, open the Package Designer, choose the **Advanced** tab, choose an assembly, and then choose the **Edit** button.  
   
 2.  In the **Safe Controls** pane, choose the **Click here to add a new item** button.  
   
@@ -111,4 +106,3 @@ ms.workload:
  [Create SharePoint features](../sharepoint/creating-sharepoint-features.md)   
  [How to: Customize a SharePoint Feature](../sharepoint/how-to-customize-a-sharepoint-feature.md)   
  [How to: Add and remove items to SharePoint features](../sharepoint/how-to-add-and-remove-items-to-sharepoint-features.md)   
-  

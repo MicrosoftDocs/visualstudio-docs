@@ -1,9 +1,6 @@
 ---
 title: "IDebugProgram2::GetDisassemblyStream | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProgram2::GetDisassemblyStream"
@@ -23,17 +20,17 @@ Gets the disassembly stream for this program or a part of this program.
   
 ```cpp  
 HRESULT GetDisassemblyStream(   
-   DISASSEMBLY_STREAM_SCOPE   dwScope,  
-   IDebugCodeContext2*        pCodeContext,  
-   IDebugDisassemblyStream2** ppDisassemblyStream  
+   DISASSEMBLY_STREAM_SCOPE   dwScope,  
+   IDebugCodeContext2*        pCodeContext,  
+   IDebugDisassemblyStream2** ppDisassemblyStream  
 );  
 ```  
   
 ```csharp  
 int GetDisassemblyStream(   
-   enum_DISASSEMBLY_STREAM_SCOPE  dwScope,  
-   IDebugCodeContext2             pCodeContext,  
-   out IDebugDisassemblyStream2   ppDisassemblyStream  
+   enum_DISASSEMBLY_STREAM_SCOPE  dwScope,  
+   IDebugCodeContext2             pCodeContext,  
+   out IDebugDisassemblyStream2   ppDisassemblyStream  
 );  
 ```  
   

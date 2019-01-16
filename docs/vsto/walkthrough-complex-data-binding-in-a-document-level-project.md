@@ -1,9 +1,6 @@
 ---
 title: "Walkthrough: Complex data binding in a document-level project"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -26,13 +23,13 @@ ms.workload:
   
  This walkthrough illustrates the following tasks:  
   
--   Adding a data source to your workbook project.  
+- Adding a data source to your workbook project.  
   
--   Adding data-bound controls to a worksheet.  
+- Adding data-bound controls to a worksheet.  
   
--   Saving data changes back to the database.  
+- Saving data changes back to the database.  
   
- [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
+  [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
   
 ## Prerequisites  
  You need the following components to complete this walkthrough:  
@@ -61,25 +58,25 @@ ms.workload:
   
 ### To create the data source  
   
-1.  If the **Data Sources** window is not visible, display it by, on the menu bar, choosing **View** > **Other Windows** > **Data Sources**.  
+1. If the **Data Sources** window is not visible, display it by, on the menu bar, choosing **View** > **Other Windows** > **Data Sources**.  
   
-2.  Choose **Add New Data Source** to start the **Data Source Configuration Wizard**.  
+2. Choose **Add New Data Source** to start the **Data Source Configuration Wizard**.  
   
-3.  Select **Database** and then click **Next**.  
+3. Select **Database** and then click **Next**.  
   
-4.  Select a data connection to the Northwind sample SQL Server database, or add a new connection by using the **New Connection** button.  
+4. Select a data connection to the Northwind sample SQL Server database, or add a new connection by using the **New Connection** button.  
   
-5.  After a connection has been selected or created, click **Next**.  
+5. After a connection has been selected or created, click **Next**.  
   
-6.  Clear the option to save the connection if it is selected, and then click **Next**.  
+6. Clear the option to save the connection if it is selected, and then click **Next**.  
   
-7.  Expand the **Tables** node in the **Database objects** window.  
+7. Expand the **Tables** node in the **Database objects** window.  
   
-8.  Select the check box next to the **Employees** table.  
+8. Select the check box next to the **Employees** table.  
   
 9. Click **Finish**.  
   
- The wizard adds the **Employees** table to the **Data Sources** window. It also adds a typed dataset to your project that is visible in **Solution Explorer**.  
+   The wizard adds the **Employees** table to the **Data Sources** window. It also adds a typed dataset to your project that is visible in **Solution Explorer**.  
   
 ## Add controls to the worksheet  
  A worksheet will display the **Employees** table when the workbook is opened. Users will be able to make changes to the data and then save those changes back to the database by clicking a button.  
@@ -102,27 +99,27 @@ ms.workload:
   
 ### To add a button  
   
-1.  From the **Common Controls** tab of the **Toolbox**, add a <xref:System.Windows.Forms.Button> control to cell **A4** of the worksheet.  
+1. From the **Common Controls** tab of the **Toolbox**, add a <xref:System.Windows.Forms.Button> control to cell **A4** of the worksheet.  
   
- The next step is to add text to the button when the worksheet opens.  
+   The next step is to add text to the button when the worksheet opens.  
   
 ## Initialize the control  
  Add text to the button in the <xref:Microsoft.Office.Tools.Excel.Worksheet.Startup> event handler.  
   
 ### To initialize the control  
   
-1.  In **Solution Explorer**, right-click **Sheet1.vb** or **Sheet1.cs**, and then click **View Code** on the shortcut menu.  
+1. In **Solution Explorer**, right-click **Sheet1.vb** or **Sheet1.cs**, and then click **View Code** on the shortcut menu.  
   
-2.  Add the following code to the `Sheet1_Startup` method to set the text for the b`utton`.  
+2. Add the following code to the `Sheet1_Startup` method to set the text for the b`utton`.  
   
-     [!code-csharp[Trin_VstcoreDataExcel#8](../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet3.cs#8)]
-     [!code-vb[Trin_VstcoreDataExcel#8](../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet3.vb#8)]  
+    [!code-csharp[Trin_VstcoreDataExcel#8](../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet3.cs#8)]
+    [!code-vb[Trin_VstcoreDataExcel#8](../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet3.vb#8)]  
   
-3.  For C# only, add an event handler for the <xref:System.Windows.Forms.Control.Click> event to the `Sheet1_Startup` method.  
+3. For C# only, add an event handler for the <xref:System.Windows.Forms.Control.Click> event to the `Sheet1_Startup` method.  
   
-     [!code-csharp[Trin_VstcoreDataExcel#9](../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet3.cs#9)]  
+    [!code-csharp[Trin_VstcoreDataExcel#9](../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet3.cs#9)]  
   
- Now add code to handle the <xref:System.Windows.Forms.Control.Click> event of the button.  
+   Now add code to handle the <xref:System.Windows.Forms.Control.Click> event of the button.  
   
 ## Save changes to the database  
  Any changes have been made to the data exist only in the local dataset until they are explicitly saved back to the database.  
@@ -169,15 +166,15 @@ ms.workload:
   
 ### To add new rows  
   
-1.  Select a cell inside the list object.  
+1. Select a cell inside the list object.  
   
-     A new row appears at the bottom of the list, with an asterisk (**\***) in the first cell of the new row.  
+    A new row appears at the bottom of the list, with an asterisk (**\\***) in the first cell of the new row.  
   
-2.  Add the following information in the empty row.  
+2. Add the following information in the empty row.  
   
-    |EmployeeID|LastName|FirstName|Title|  
-    |----------------|--------------|---------------|-----------|  
-    |10|Ito|Shu|Sales Manager|  
+   |EmployeeID|LastName|FirstName|Title|  
+   |----------------|--------------|---------------|-----------|  
+   |10|Ito|Shu|Sales Manager|  
   
 ### To delete rows  
   
@@ -224,5 +221,3 @@ ms.workload:
  [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)   
  [Data in Office solutions](../vsto/data-in-office-solutions.md)   
  [Walkthrough: Simple data binding in a document-level project](../vsto/walkthrough-simple-data-binding-in-a-document-level-project.md)  
-  
-  

@@ -1,9 +1,6 @@
 ---
 title: "IDebugGenericParamField::GetIndex | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugGenericParamField::GetIndex"
@@ -21,13 +18,13 @@ Retrieves the index of this generic parameter.
   
 ```cpp  
 HRESULT GetIndex(  
-   DWORD* pIndex  
+   DWORD* pIndex  
 );  
 ```  
   
 ```csharp  
 int GetIndex(  
-   out uint pIndex  
+   out uint pIndex  
 );  
 ```  
   

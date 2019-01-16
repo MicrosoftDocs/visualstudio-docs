@@ -1,9 +1,6 @@
 ---
 title: "CANSTOP_REASON | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "CANSTOP_REASON"
@@ -23,16 +20,16 @@ Used to determine if a program can stop execution after reaching a particular po
   
 ```cpp  
 enum enum_CANSTOP_REASON {   
-   CANSTOP_ENTRYPOINT = 0x0000,  
-   CANSTOP_STEPIN     = 0x0001  
+   CANSTOP_ENTRYPOINT = 0x0000,  
+   CANSTOP_STEPIN     = 0x0001  
 };  
 typedef DWORD CANSTOP_REASON;  
 ```  
   
 ```csharp  
 public enum enum_CANSTOP_REASON {   
-   CANSTOP_ENTRYPOINT = 0x0000,  
-   CANSTOP_STEPIN     = 0x0001  
+   CANSTOP_ENTRYPOINT = 0x0000,  
+   CANSTOP_STEPIN     = 0x0001  
 };  
 ```  
   

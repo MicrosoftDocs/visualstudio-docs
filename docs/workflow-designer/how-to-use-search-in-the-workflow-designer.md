@@ -3,7 +3,6 @@ title: "How to: Use Search in the Workflow Designer"
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 ms.assetid: f42d3115-2ed2-4941-8f1e-92dac41c30fa
 ms.author: gewarren
 manager: douge
@@ -29,11 +28,11 @@ Quick find finds the following in the designer:
 
 ### Use Quick Find
 
-1.  With the workflow designer open, press **Ctrl+F**, or select **Edit** > **Find and Replace** > **Quick Find**.
+1. With the workflow designer open, press **Ctrl+F**, or select **Edit** > **Find and Replace** > **Quick Find**.
 
-2.  Enter the search term into the **Find what** textbox and click **Find Next**.
+2. Enter the search term into the **Find what** textbox and click **Find Next**.
 
-3.  The search term is located in the current workflow. The following image shows an activity display name being located in the designer:
+3. The search term is located in the current workflow. The following image shows an activity display name being located in the designer:
 
    ![Search result in the Workflow Designer](../workflow-designer/media/designersearch.png)
 

@@ -1,9 +1,8 @@
 ---
 title: Azure SDK for Python
 description: The Azure SDK for Python makes it easy to consume Microsoft Azure services from Python applications running on any platform.
-ms.date: 06/26/2018
+ms.date: 12/06/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-python
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
@@ -14,9 +13,9 @@ ms.workload:
   - azure
 ---
 
-# Azure SDK for Python
+# Consume Azure services using the Azure SDK for Python
 
-The Azure SDK for Python makes it easy to consume and manage Microsoft Azure services from applications running on Windows, Mac OSX, and Linux.
+The Azure SDK for Python makes it easy to consume and manage Microsoft Azure services from applications running on Windows, MacOS, and Linux.
 
 ## Installation
 
@@ -32,13 +31,11 @@ You can also follow [Install Python and the SDK](https://docs.microsoft.com/azur
 
 ## Documentation
 
-Documentation can be found on [azure-sdk-for-python.readthedocs.org](https://docs.microsoft.com/en-us/python/azure/?view=azure-python).
+The [Azure SDK for Python Developer Center](https://docs.microsoft.com/python/azure/?view=azure-python) also has a number of helpful resources, including a number of tutorials:
 
-The [Azure SDK for Python Developer Center](http://azure.microsoft.com/develop/python/) also has a number of helpful resources, including a number of tutorials:
-
-- Creating web apps with [Django](/azure/app-service-web/web-sites-python-create-deploy-django-app), [Flask](/azure/app-service-web/web-sites-python-create-deploy-flask-app), and [Bottle](/azure/app-service-web/web-sites-python-create-deploy-bottle-app).
-- [Blob storage](/azure/storage/storage-python-how-to-use-blob-storage)
-- [Table storage](/azure/storage/storage-python-how-to-use-table-storage)
+- [Creating web apps on Azuyre App Service on Linux](/azure/app-service/containers/quickstart-python).
+- [Blob storage](/azure/storage/blobs/storage-quickstart-blobs-python)
+- [Table storage](/azure/cosmos-db/table-storage-how-to-use-python)
 - [Queue storage](/azure/storage/storage-python-how-to-use-queue-storage)
 - [Azure Cosmos DB](/azure/cosmos-db/sql-api-python-application)
 - [Service Bus queues](/azure/service-bus-messaging/service-bus-python-how-to-use-queues)
@@ -53,6 +50,6 @@ For public APIs without documentation, the unit tests in the [SDK GitHub reposit
 
 ## Support
 
-The Git repository for the SDK is located at [https://github.com/Azure/azure-sdk-for-python](https://github.com/Azure/azure-sdk-for-python).
+The GitHub repository for the SDK is located at [https://github.com/Azure/azure-sdk-for-python](https://github.com/Azure/azure-sdk-for-python).
 
 [File issues at the repository](https://github.com/Azure/azure-sdk-for-python/issues) if you find any problems or have questions regarding the usage of the SDK.

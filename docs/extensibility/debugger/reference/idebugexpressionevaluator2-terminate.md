@@ -1,9 +1,6 @@
 ---
 title: "IDebugExpressionEvaluator2::Terminate | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Terminate"
@@ -22,7 +19,7 @@ Stops and cleans up the expression evaluator.
   
 ```cpp  
 HRESULT Terminate (  
-    void  
+    void  
 );  
 ```  
   

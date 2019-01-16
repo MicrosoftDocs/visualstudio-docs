@@ -20,7 +20,7 @@ Notifies the profiler object that the scripting engine is going to execute a Doc
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT OnFunctionEnterByName(  
     [in] [string] const WCHAR *pwszFunctionName,  
     [in] PROFILER_SCRIPT_TYPE scriptType);  

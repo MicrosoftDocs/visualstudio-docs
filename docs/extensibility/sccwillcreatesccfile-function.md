@@ -1,9 +1,6 @@
 ---
 title: "SccWillCreateSccFile Function | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "SccWillCreateSccFile"
@@ -23,10 +20,10 @@ This function determines whether the source control plug-in supports the creatio
   
 ```cpp  
 SCCRTN SccWillCreateSccFile(  
-   LPVOID  pContext,  
-   LONG    nFiles,  
-   LPCSTR* lpFileNames,  
-   LPBOOL  pbSccFiles  
+   LPVOID  pContext,  
+   LONG    nFiles,  
+   LPCSTR* lpFileNames,  
+   LPBOOL  pbSccFiles  
 );  
 ```  
   

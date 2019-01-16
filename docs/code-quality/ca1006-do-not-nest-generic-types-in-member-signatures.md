@@ -2,7 +2,6 @@
 title: "CA1006: Do not nest generic types in member signatures"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "DoNotNestGenericTypesInMemberSignatures"
@@ -14,10 +13,14 @@ ms.assetid: dfc867bc-f4af-45d7-b071-db04a248f9fc
 author: gewarren
 ms.author: gewarren
 manager: douge
+dev_langs:
+ - CSharp
+ - VB
 ms.workload:
   - "multiple"
 ---
 # CA1006: Do not nest generic types in member signatures
+
 |||
 |-|-|
 |TypeName|DoNotNestGenericTypesInMemberSignatures|
@@ -28,13 +31,13 @@ ms.workload:
 ## Cause
  An externally visible member has a signature that contains a nested type argument.
 
-## Rule Description
+## Rule description
  A nested type argument is a type argument that is also a generic type. To call a member whose signature contains a nested type argument, the user must instantiate one generic type and pass this type to the constructor of a second generic type. The required procedure and syntax are complex and should be avoided.
 
-## How to Fix Violations
+## How to fix violations
  To fix a violation of this rule, change the design to remove the nested type argument.
 
-## When to Suppress Warnings
+## When to suppress warnings
  Do not suppress a warning from this rule. Providing generics in a syntax that is easy to understand and use reduces the time that is required to learn and increases the adoption rate of new libraries.
 
 ## Example
@@ -43,7 +46,7 @@ ms.workload:
  [!code-vb[FxCop.Design.NestedGenerics#1](../code-quality/codesnippet/VisualBasic/ca1006-do-not-nest-generic-types-in-member-signatures_1.vb)]
  [!code-csharp[FxCop.Design.NestedGenerics#1](../code-quality/codesnippet/CSharp/ca1006-do-not-nest-generic-types-in-member-signatures_1.cs)]
 
-## Related Rules
+## Related rules
  [CA1005: Avoid excessive parameters on generic types](../code-quality/ca1005-avoid-excessive-parameters-on-generic-types.md)
 
  [CA1010: Collections should implement generic interface](../code-quality/ca1010-collections-should-implement-generic-interface.md)
@@ -58,5 +61,5 @@ ms.workload:
 
  [CA1007: Use generics where appropriate](../code-quality/ca1007-use-generics-where-appropriate.md)
 
-## See Also
+## See also
  [Generics](/dotnet/csharp/programming-guide/generics/index)

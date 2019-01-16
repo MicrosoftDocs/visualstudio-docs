@@ -1,9 +1,6 @@
 ---
 title: "PORT_SUPPLIER_DESCRIPTION_FLAGS | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "PORT_SUPPLIER_DESCRIPTION_FLAGS enumeration"
@@ -22,7 +19,7 @@ Defines the metadata that can be retrieved about a port supplier.
 ```cpp  
 enum enum_PORT_SUPPLIER_DESCRIPTION_FLAGS  
 {  
-   PSDFLAG_SHOW_WARNING_ICON = 0x1  
+   PSDFLAG_SHOW_WARNING_ICON = 0x1  
 };  
 typedef DWORD PORT_SUPPLIER_DESCRIPTION_FLAGS;  
 ```  
@@ -30,7 +27,7 @@ typedef DWORD PORT_SUPPLIER_DESCRIPTION_FLAGS;
 ```csharp  
 public enum enum_PORT_SUPPLIER_DESCRIPTION_FLAGS  
 {  
-   PSDFLAG_SHOW_WARNING_ICON = 0x1  
+   PSDFLAG_SHOW_WARNING_ICON = 0x1  
 };  
 ```  
   

@@ -1,20 +1,21 @@
 ---
 title: "Using Visual Studio on an Azure Virtual Machine"
+titleSuffix: ""
 description: "Learn how to use Visual Studio on an Azure Virtual Machine"
-ms.date: 07/10/2018
-ms.technology: vs-acquisition
+ms.date: 09/12/2018
+ms.custom: "seodec18"
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
-helpviewer_keywords: 
-  - "azure services"
-  - "virtual machine; VM"
-  - "installation"
-  - "visual studio"
+helpviewer_keywords:
+  - azure services
+  - virtual machine
+  - installation
+  - visual studio
 author: PhilLee-MSFT
 ms.author: tglee
 manager: douge
-ms.workload: 
-  - "multiple"
+ms.workload:
+  - multiple
 ---
 # <a id="top"> </a> Visual Studio images on Azure
 
@@ -24,15 +25,15 @@ New to Azure? [Create a free Azure account](https://azure.microsoft.com/free).
 
 ## What configurations and versions are available?
 
-Images for the most recent major versions, Visual Studio 2017 and Visual Studio 2015, can be found in the Azure Marketplace. For each major version, you see the originally released (RTW) version and the latest updated versions. Each of these versions offers the Visual Studio Enterprise and the Visual Studio Community editions. These images are updated at least every month to include the latest Visual Studio and Windows updates. While the names of the images remain the same, each image's description includes the installed product version and the image's "as of" date.
+Images for the most recent major versions, Visual Studio 2017 and Visual Studio 2015, can be found in the Azure Marketplace.  We've recently added support for Previews of the upcoming major version - Visual Studio 2019.  For each released major version, you see the originally released (RTW) version and the latest updated versions.  Each of these versions offers the Visual Studio Enterprise and the Visual Studio Community editions.  These images are updated at least every month to include the latest Visual Studio and Windows updates.  While the names of the images remain the same, each image's description includes the installed product version and the image's "as of" date.
 
-| Release version                                              | Editions                     |     Product version     |
-|:------------------------------------------------------------:|:----------------------------:|:-----------------------:|
-| Visual Studio 2017: Latest (Version 15.7)                    |    Enterprise, Community     |      Version 15.7.5     |
-| Visual Studio 2017: Latest Preview (Version 15.8, Preview 5) |    Enterprise, Community     |      Version 15.8.5     |
-|         Visual Studio 2017: RTW                              |    Enterprise, Community     |      Version 15.0.15    |
-|   Visual Studio 2015: Latest (Update 3)                      |    Enterprise, Community     |  Version 14.0.25431.01  |
-|         Visual Studio 2015: RTW                              |             None             | (Expired for servicing) |
+| Release version                                              | Editions                     |     Product version      |
+|:------------------------------------------------------------:|:----------------------------:|:------------------------:|
+|    Visual Studio 2019: Preview (Preview 1)                   |           Enterprise         | Version 16.0.0 Preview 1 |
+| Visual Studio 2017: Latest (Version 15.9)                    |    Enterprise, Community     |      Version 15.9.4      |
+|         Visual Studio 2017: RTW                              |    Enterprise, Community     |      Version 15.0.20     |
+|   Visual Studio 2015: Latest (Update 3)                      |    Enterprise, Community     |  Version 14.0.25431.01   |
+|         Visual Studio 2015: RTW                              |             None             | (Expired for servicing)  |
 
 > [!NOTE]
 > In accordance with Microsoft servicing policy, the originally released (RTW) version of Visual Studio 2015 has expired for servicing. Visual Studio 2015 Update 3 is the only remaining version offered for the Visual Studio 2015 product line.

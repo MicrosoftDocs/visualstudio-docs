@@ -1,9 +1,6 @@
 ---
 title: "How to: Read from and write to document properties"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -29,13 +26,13 @@ ms.workload:
 ## Set document properties in Excel  
  To work with built-in properties in Excel, use the following properties:  
   
--   In a document-level project, use the <xref:Microsoft.Office.Tools.Excel.Workbook.BuiltinDocumentProperties%2A> property of the `ThisWorkbook` class.  
+- In a document-level project, use the <xref:Microsoft.Office.Tools.Excel.Workbook.BuiltinDocumentProperties%2A> property of the `ThisWorkbook` class.  
   
--   In a VSTO Add-in project, use the <xref:Microsoft.Office.Interop.Excel._Workbook.BuiltinDocumentProperties%2A> property of a <xref:Microsoft.Office.Interop.Excel.Workbook> object.  
+- In a VSTO Add-in project, use the <xref:Microsoft.Office.Interop.Excel._Workbook.BuiltinDocumentProperties%2A> property of a <xref:Microsoft.Office.Interop.Excel.Workbook> object.  
   
- These properties return a <xref:Microsoft.Office.Core.DocumentProperties> object, which is a collection of <xref:Microsoft.Office.Core.DocumentProperty> objects. You can use the `Item` property of the collection to retrieve a particular property, either by name or by index within the collection.  
+  These properties return a <xref:Microsoft.Office.Core.DocumentProperties> object, which is a collection of <xref:Microsoft.Office.Core.DocumentProperty> objects. You can use the `Item` property of the collection to retrieve a particular property, either by name or by index within the collection.  
   
- The following code example shows how to change the built-in **Revision Number** property in a document-level project.  
+  The following code example shows how to change the built-in **Revision Number** property in a document-level project.  
   
 ### To change the Revision Number property in Excel  
   
@@ -52,13 +49,13 @@ ms.workload:
 ## Set document properties in Word  
  To work with built-in properties in Word, use the following properties:  
   
--   In a document-level project, use the <xref:Microsoft.Office.Tools.Word.Document.BuiltInDocumentProperties%2A> property of the `ThisDocument` class.  
+- In a document-level project, use the <xref:Microsoft.Office.Tools.Word.Document.BuiltInDocumentProperties%2A> property of the `ThisDocument` class.  
   
--   In a VSTO Add-in project, use the <xref:Microsoft.Office.Interop.Word._Document.BuiltInDocumentProperties%2A> property of a <xref:Microsoft.Office.Interop.Word.Document> object.  
+- In a VSTO Add-in project, use the <xref:Microsoft.Office.Interop.Word._Document.BuiltInDocumentProperties%2A> property of a <xref:Microsoft.Office.Interop.Word.Document> object.  
   
- These properties return a <xref:Microsoft.Office.Core.DocumentProperties> object, which is a collection of <xref:Microsoft.Office.Core.DocumentProperty> objects. You can use the `Item` property of the collection to retrieve a particular property, either by name or by index within the collection.  
+  These properties return a <xref:Microsoft.Office.Core.DocumentProperties> object, which is a collection of <xref:Microsoft.Office.Core.DocumentProperty> objects. You can use the `Item` property of the collection to retrieve a particular property, either by name or by index within the collection.  
   
- The following code example shows how to change the built-in **Subject** property in a document-level project.  
+  The following code example shows how to change the built-in **Subject** property in a document-level project.  
   
 ### To change the Subject property  
   
@@ -81,5 +78,3 @@ ms.workload:
  [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)   
  [Program document-level customizations](../vsto/programming-document-level-customizations.md)   
  [How to: Create and modify custom document properties](../vsto/how-to-create-and-modify-custom-document-properties.md)  
-  
-  

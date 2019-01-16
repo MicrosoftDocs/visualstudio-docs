@@ -1,8 +1,6 @@
 ---
 title: "IDiaStackWalkHelper::imageForVA | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,8 +20,8 @@ Returns the start of an executable's image in memory given a virtual address som
   
 ```C++  
 HRESULT imageForVA(  
-   ULONGLONG  vaContext,  
-   ULONGLONG *pvaImageStart  
+   ULONGLONG  vaContext,  
+   ULONGLONG *pvaImageStart  
 );  
 ```  
   

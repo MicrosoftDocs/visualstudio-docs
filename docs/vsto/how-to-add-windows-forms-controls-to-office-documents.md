@@ -1,9 +1,6 @@
 ---
 title: "How to: Add Windows forms controls to Office documents"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -13,8 +10,8 @@ helpviewer_keywords:
   - "Windows Forms controls [Office development in Visual Studio], adding"
   - "controls [Office development in Visual Studio], Windows Forms controls"
   - "documents [Office development in Visual Studio], Windows Forms controls"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -26,13 +23,13 @@ ms.workload:
   
  This topic describes the following tasks:  
   
--   [Add controls at design time](#designtime)  
+- [Add controls at design time](#designtime)  
   
--   [Add controls at runtime in document-level projects](#runtimedoclevel)  
+- [Add controls at runtime in document-level projects](#runtimedoclevel)  
   
--   [Add controls at runtime in VSTO Add-ins](#runtimeaddin)  
+- [Add controls at runtime in VSTO Add-ins](#runtimeaddin)  
   
- ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Add controls to a document surface at runtime?](http://go.microsoft.com/fwlink/?LinkId=132782).  
+  ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Add controls to a document surface at runtime?](http://go.microsoft.com/fwlink/?LinkId=132782).  
   
 ##  <a name="designtime"></a> Add controls at design time  
  There are several ways to add Windows Forms controls to the document in a document-level project at design time.  
@@ -135,4 +132,3 @@ ms.workload:
  [How to: Resize controls within worksheet cells](../vsto/how-to-resize-controls-within-worksheet-cells.md)   
  [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)   
  [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)  
-  

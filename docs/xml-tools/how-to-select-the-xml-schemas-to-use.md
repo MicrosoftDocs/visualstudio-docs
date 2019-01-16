@@ -2,7 +2,6 @@
 title: "How to: Select the XML Schemas to Use"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-xml-tools
 ms.topic: conceptual
 ms.assetid: d6fda3ef-d465-4788-8514-2f2d528d658c
 author: gewarren
@@ -24,23 +23,23 @@ The schemas you specify are saved in the hidden Solution user options file (.*su
 
 ## To select an XML schema from the schema cache
 
-1.  Open a file in the XML editor.
+1. Open a file in the XML editor.
 
-2.  In the document properties window, click the button on the **Schemas** field.
+2. In the document properties window, click the button on the **Schemas** field.
 
-     The **XML Schemas** dialog box is displayed. The dialog box lists all schemas with an .*xsd* extension in the schema cache (including schemas referenced in the *catalog.xml* file), and also any schema that is in the current solution, open in Visual Studio, referenced in an `xsd:schemaLocation` attribute, or referenced in the **Schemas** property.
+    The **XML Schemas** dialog box is displayed. The dialog box lists all schemas with an .*xsd* extension in the schema cache (including schemas referenced in the *catalog.xml* file), and also any schema that is in the current solution, open in Visual Studio, referenced in an `xsd:schemaLocation` attribute, or referenced in the **Schemas** property.
 
-3.  Select the schemas to use for validation by doing one of the following:
+3. Select the schemas to use for validation by doing one of the following:
 
-    -   Select a schema listed in the **XML Schemas** dialog, click the **Use** column, and then select **Use this schema**.
+   - Select a schema listed in the **XML Schemas** dialog, click the **Use** column, and then select **Use this schema**.
 
      -or-
 
-    -   Select multiple schemas listed in the **XML Schemas** dialog, right-click and select **Use this schema**.
+   - Select multiple schemas listed in the **XML Schemas** dialog, right-click and select **Use this schema**.
 
-4.  Click **OK**.
+4. Click **OK**.
 
-     The list of selected schemas is copied back to the **Schemas** document property.
+    The list of selected schemas is copied back to the **Schemas** document property.
 
 ## To add an XML schema to the schema cache
 

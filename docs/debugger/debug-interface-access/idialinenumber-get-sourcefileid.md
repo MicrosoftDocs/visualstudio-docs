@@ -1,8 +1,6 @@
 ---
 title: "IDiaLineNumber::get_sourceFileId | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves a unique source file identifier for the source file that contributed t
   
 ```C++  
 HRESULT get_sourceFileId (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

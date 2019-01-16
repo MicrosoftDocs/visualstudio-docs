@@ -1,9 +1,6 @@
 ---
 title: "IDebugPortNotify2::RemoveProgramNode | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugPortNotify2::RemoveProgramNode"
@@ -23,13 +20,13 @@ Unregisters a program that can be debugged from the port it is running on.
   
 ```cpp  
 HRESULT RemoveProgramNode(   
-   IDebugProgramNode2* pProgramNode  
+   IDebugProgramNode2* pProgramNode  
 );  
 ```  
   
 ```csharp  
 int RemoveProgramNode(   
-   IDebugProgramNode2 pProgramNode  
+   IDebugProgramNode2 pProgramNode  
 );  
 ```  
   

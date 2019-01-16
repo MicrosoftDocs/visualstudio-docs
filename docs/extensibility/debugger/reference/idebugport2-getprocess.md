@@ -1,9 +1,6 @@
 ---
 title: "IDebugPort2::GetProcess | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugPort2::GetPortSupplier"
@@ -23,15 +20,15 @@ Gets the specified process running on a port.
   
 ```cpp  
 HRESULT GetProcess(   
-   AD_PROCESS_ID    ProcessId,  
-   IDebugProcess2** ppProcess  
+   AD_PROCESS_ID    ProcessId,  
+   IDebugProcess2** ppProcess  
 );  
 ```  
   
 ```csharp  
 int GetProcess(   
-   AD_PROCESS_ID      ProcessId,  
-   out IDebugProcess2 ppProcess  
+   AD_PROCESS_ID      ProcessId,  
+   out IDebugProcess2 ppProcess  
 );  
 ```  
   

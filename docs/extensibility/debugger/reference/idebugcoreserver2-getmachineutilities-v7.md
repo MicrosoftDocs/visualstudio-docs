@@ -1,9 +1,6 @@
 ---
 title: "IDebugCoreServer2::GetMachineUtilities_V7 | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugCoreServer2::GetMachineUtilities_V7"
@@ -26,13 +23,13 @@ This method gets the machine utilities for a server.
   
 ```cpp  
 HRESULT GetMachineUtilities_V7(  
-   IDebugMDMUtil2_V7** ppUtil  
+   IDebugMDMUtil2_V7** ppUtil  
 );  
 ```  
   
 ```csharp  
 int GetMachineUtilities_V7(  
-   out IDebugMDMUtil2_V7 ppUtil  
+   out IDebugMDMUtil2_V7 ppUtil  
 );  
 ```  
   

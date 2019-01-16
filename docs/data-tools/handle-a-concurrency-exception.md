@@ -17,7 +17,6 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
 ms.workload:
   - "data-storage"
 ---
@@ -58,9 +57,6 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
     3. Paste the T-SQL script into the query editor, and then choose the **Execute** button.
 
        After a short time, the query finishes running and the Northwind database is created.
-
-> [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or the edition that you're using. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
 
 ## Create a new project
 
@@ -103,7 +99,7 @@ Next, create a dataset named **NorthwindDataSet**:
 
 In this section, you create a <xref:System.Windows.Forms.DataGridView?displayProperty=nameWithType> by dragging the **Customers** item from the **Data Sources** window onto your Windows Form.
 
-1. On the **Data** menu, choose **Show Data Sources** to open the **Data Sources Window**.
+1. To open the **Data Sources** window, on the **Data** menu, choose **Show Data Sources**.
 
 2. In the **Data Sources** window, expand the **NorthwindDataSet** node, and then select the **Customers** table.
 
@@ -156,13 +152,13 @@ When you attempt to perform an update and an exception is raised, you generally 
 
 1. Add the following code below the `Form1_Load` method:
 
-     [!code-csharp[VbRaddataConcurrency#1](../data-tools/codesnippet/CSharp/handle-a-concurrency-exception_1.cs)]
-     [!code-vb[VbRaddataConcurrency#1](../data-tools/codesnippet/VisualBasic/handle-a-concurrency-exception_1.vb)]
+   [!code-csharp[VbRaddataConcurrency#1](../data-tools/codesnippet/CSharp/handle-a-concurrency-exception_1.cs)]
+   [!code-vb[VbRaddataConcurrency#1](../data-tools/codesnippet/VisualBasic/handle-a-concurrency-exception_1.vb)]
 
 2. Replace the `CustomersBindingNavigatorSaveItem_Click` method to call the `UpdateDatabase` method so it looks like the following:
 
-     [!code-csharp[VbRaddataConcurrency#2](../data-tools/codesnippet/CSharp/handle-a-concurrency-exception_2.cs)]
-     [!code-vb[VbRaddataConcurrency#2](../data-tools/codesnippet/VisualBasic/handle-a-concurrency-exception_2.vb)]
+   [!code-csharp[VbRaddataConcurrency#2](../data-tools/codesnippet/CSharp/handle-a-concurrency-exception_2.cs)]
+   [!code-vb[VbRaddataConcurrency#2](../data-tools/codesnippet/VisualBasic/handle-a-concurrency-exception_2.vb)]
 
 ### Display choices to the user
 
@@ -170,8 +166,8 @@ The code you just wrote calls the `CreateMessage` procedure to display error inf
 
 Create the message by adding the following code to the **Code Editor**. Enter this code below the `UpdateDatabase` method:
 
-     [!code-csharp[VbRaddataConcurrency#4](../data-tools/codesnippet/CSharp/handle-a-concurrency-exception_3.cs)]
-     [!code-vb[VbRaddataConcurrency#4](../data-tools/codesnippet/VisualBasic/handle-a-concurrency-exception_3.vb)]
+[!code-csharp[VbRaddataConcurrency#4](../data-tools/codesnippet/CSharp/handle-a-concurrency-exception_3.cs)]
+[!code-vb[VbRaddataConcurrency#4](../data-tools/codesnippet/VisualBasic/handle-a-concurrency-exception_3.vb)]
 
 ### Process the user's response
 
@@ -179,8 +175,8 @@ You also need code to process the user's response to the message box. The option
 
 Add the following code below the code that was added in the previous section:
 
-     [!code-csharp[VbRaddataConcurrency#3](../data-tools/codesnippet/CSharp/handle-a-concurrency-exception_4.cs)]
-     [!code-vb[VbRaddataConcurrency#3](../data-tools/codesnippet/VisualBasic/handle-a-concurrency-exception_4.vb)]
+[!code-csharp[VbRaddataConcurrency#3](../data-tools/codesnippet/CSharp/handle-a-concurrency-exception_4.cs)]
+[!code-vb[VbRaddataConcurrency#3](../data-tools/codesnippet/VisualBasic/handle-a-concurrency-exception_4.vb)]
 
 ## Test the form
 

@@ -1,8 +1,6 @@
 ---
 title: "IDiaFrameData::get_program | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves the program string that is used to compute the register set before the
   
 ```C++  
 HRESULT get_program (   
-   BSTR* pRetVal  
+   BSTR* pRetVal  
 );  
 ```  
   
@@ -36,15 +34,15 @@ HRESULT get_program ( 
 ## Remarks  
  The program string is a sequence of macros that is interpreted in order to establish the prologue. For example, a typical stack frame might use the program string `"$T0 $ebp = $eip $T0 4 + ^ = $ebp $T0 ^ = $esp $T0 8 + ="`. The format is reverse polish notation, where the operators follow the operands. `T0` represents a temporary variable on the stack. This example performs the following steps:  
   
-1.  Move contents of register `ebp` to `T0`.  
+1. Move contents of register `ebp` to `T0`.  
   
-2.  Add `4` to the value in `T0` to produce an address, get the value from that address, and store the value in register `eip`.  
+2. Add `4` to the value in `T0` to produce an address, get the value from that address, and store the value in register `eip`.  
   
-3.  Get the value from the address stored in `T0` and store that value in register `ebp`.  
+3. Get the value from the address stored in `T0` and store that value in register `ebp`.  
   
-4.  Add `8` to the value in `T0` and store that value in register `esp`.  
+4. Add `8` to the value in `T0` and store that value in register `esp`.  
   
- Note that the program string is specific to the CPU and to the calling convention set up for the function represented by the current stack frame.  
+   Note that the program string is specific to the CPU and to the calling convention set up for the function represented by the current stack frame.  
   
 ## See Also  
  [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)

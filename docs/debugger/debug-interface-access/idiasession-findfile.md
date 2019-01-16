@@ -1,8 +1,6 @@
 ---
 title: "IDiaSession::findFile | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,10 +20,10 @@ Retrieves source files by compiland and name.
   
 ```C++  
 HRESULT findFile (   
-   IDiaSymbol*           pCompiland,  
-   LPCOLESTR             name,  
-   DWORD                 option,  
-   IDiaEnumSourceFiles** ppResult  
+   IDiaSymbol*           pCompiland,  
+   LPCOLESTR             name,  
+   DWORD                 option,  
+   IDiaEnumSourceFiles** ppResult  
 );  
 ```  
   

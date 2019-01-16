@@ -1,8 +1,7 @@
 ---
 title: "Architecture of Office solutions in Visual Studio"
-ms.custom: ""
+titleSuffix: ""
 ms.date: 02/02/2017
-ms.technology: office-development
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
 dev_langs: 
@@ -12,8 +11,8 @@ helpviewer_keywords:
   - "Office development in Visual Studio, architecture"
   - "architecture [Office development in Visual Studio], solutions"
   - "Office applications [Office development in Visual Studio], architecture"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -52,5 +51,3 @@ ms.workload:
   
  [General reference &#40;Office development in Visual Studio&#41;](../vsto/general-reference-office-development-in-visual-studio.md)  
  Provides links to information about user interface elements in Office projects, application and deployment manifests for Office projects, and APIs in the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)].  
-  
-  

@@ -1,9 +1,6 @@
 ---
 title: "IDebugSettingsCallback2::GetMetricString | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugSettingsCallback2::GetMetricString"
@@ -22,19 +19,19 @@ Retrieves the value string of the metric given its name.
   
 ```cpp  
 HRESULT GetMetricString(  
-    LPCWSTR pszType,  
-    REFGUID guidSection,  
-    LPCWSTR pszMetric,  
-    BSTR*   pbstrValue  
+    LPCWSTR pszType,  
+    REFGUID guidSection,  
+    LPCWSTR pszMetric,  
+    BSTR*   pbstrValue  
 );  
 ```  
   
 ```csharp  
 private int GetMetricString(  
-    string     pszType,  
-    ref Guid   guidSection,  
-    string     pszMetric,  
-    out string pbstrValue  
+    string     pszType,  
+    ref Guid   guidSection,  
+    string     pszMetric,  
+    out string pbstrValue  
 );  
 ```  
   

@@ -1,9 +1,6 @@
 ---
 title: "IDebugObject2::GetICorDebugValue | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugObject2::GetICorDebugValue"
@@ -23,13 +20,13 @@ Gets a managed code object representing the value associated with this object.
   
 ```cpp  
 HRESULT GetICorDebugValue(  
-   IUnknown** ppUnk  
+   IUnknown** ppUnk  
 );  
 ```  
   
 ```csharp  
 int GetICorDebugValue(  
-   out object ppUnk  
+   out object ppUnk  
 );  
 ```  
   

@@ -1,8 +1,6 @@
 ---
 title: "IDiaSymbol::findChildren | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,10 +20,10 @@ Retrieves the children of the symbol.
   
 ```C++  
 HRESULT findChildren (   
-   enum SymTagEnum   symtag,  
-   LPCOLESTR         name,  
-   DWORD             compareFlags,  
-   IDiaEnumSymbols** ppResult  
+   enum SymTagEnum   symtag,  
+   LPCOLESTR         name,  
+   DWORD             compareFlags,  
+   IDiaEnumSymbols** ppResult  
 );  
 ```  
   

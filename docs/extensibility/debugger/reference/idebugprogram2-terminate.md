@@ -1,9 +1,6 @@
 ---
 title: "IDebugProgram2::Terminate | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProgram2::Terminate"
@@ -23,7 +20,7 @@ Terminates the program.
   
 ```cpp  
 HRESULT Terminate(   
-   void   
+   void   
 );  
 ```  
   

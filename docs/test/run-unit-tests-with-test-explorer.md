@@ -3,7 +3,6 @@ title: "Run, build, and debug unit tests with the Test Explorer"
 description: Learn how to run tests with the Test Exlorer in Visual Studio. This topic covers how to enable automatic test runs after build, view test results, group and filter the test list, create playlists, debug tests, and use test shortcuts.
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 f1_keywords:
   - "vs.unittesting.testexplorer.overview"
@@ -41,7 +40,7 @@ You can run all the tests in the solution, all the tests in a group, or a set of
 
 - To run all the tests in a default group, choose **Run** and then choose the group on the menu.
 
-- Select the individual tests that you want to run, open the context menu for a selected test and then choose **Run Selected Tests**.
+- Select the individual tests that you want to run, open the right-click menu for a selected test and then choose **Run Selected Tests**.
 
 - If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution with the ![UTE&#95;parallelicon&#45;small](../test/media/ute_parallelicon-small.png) toggle button on the toolbar. This can noticeably reduce the time taken to run all the tests.
 
@@ -79,7 +78,7 @@ If the test fails, the details pane also displays:
 
 ### View the source code of a test method
 
- To display the source code for a test method in the Visual Studio editor, select the test and then choose **Open Test** on the context menu (Keyboard: **F12**).
+ To display the source code for a test method in the Visual Studio editor, select the test and then choose **Open Test** on the right-click menu (Keyboard: **F12**).
 
 ## Group and filter the test list
 
@@ -94,7 +93,7 @@ Test Explorer lets you group your tests into predefined categories. Most unit te
 ### Test Explorer groups
 
 |Group|Description|
-|-----------|-----------------|
+|-|-----------------|
 |**Duration**|Groups test by execution time: **Fast**, **Medium**, and **Slow**.|
 |**Outcome**|Groups tests by execution results: **Failed Tests**, **Skipped Tests**, **Passed Tests**.|
 |**Traits**|Groups test by category/value pairs that you define. The syntax to specify trait categories and values is defined by the unit test framework.|
@@ -109,7 +108,7 @@ Test Explorer lets you group your tests into predefined categories. Most unit te
  In the Microsoft unit test framework for managed apps, you define a trait name/ value pair in a  <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute> attribute. The test framework also contains these predefined traits:
 
 |Trait|Description|
-|-----------|-----------------|
+|-|-----------------|
 |<xref:Microsoft.VisualStudio.TestTools.UnitTesting.OwnerAttribute>|The Owner category is defined by the unit test framework and requires you to provide a string value of the owner.|
 |<xref:Microsoft.VisualStudio.TestTools.UnitTesting.PriorityAttribute>|The Priority category is defined by the unit test framework and requires you to provide an integer value of the priority.|
 |<xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute>|The TestCategory attribute enables you to provide a category without a value. A category defined by the TestCategory attribute can also be the category of a TestProperty attribute.|
@@ -138,7 +137,7 @@ To filter by a different criteria:
 > Searches are case insensitive and match the specified string to any part of the criteria value.
 
 |Qualifier|Description|
-|---------------|-----------------|
+|-|-----------------|
 |**Trait**|Searches both trait category and value for matches. The syntax to specify trait categories and values are defined by the unit test framework.|
 |**Project**|Searches the test project names for matches.|
 |**Error Message**|Searches the user-defined error messages returned by failed asserts for matches.|
@@ -161,9 +160,9 @@ For example, `FullName:"MyClass" - FullName:"PerfTest"` returns all tests that i
 
  ![Choose a playlist](../test/media/ute_playlist.png)
 
- **To create a playlist**, choose one or more tests in Test Explorer. On the context menu, choose **Add to Playlist** > **NewPlaylist**. Save the file with the name and location that you specify in the **Create New Playlist** dialog box.
+ **To create a playlist**, choose one or more tests in Test Explorer. On the right-click menu, choose **Add to Playlist** > **NewPlaylist**. Save the file with the name and location that you specify in the **Create New Playlist** dialog box.
 
- **To add tests to a playlist**, choose one or more tests in Test Explorer. On the context menu, choose **Add to Playlist**, and then choose the playlist that you want to add the tests to.
+ **To add tests to a playlist**, choose one or more tests in Test Explorer. On the right-click menu, choose **Add to Playlist**, and then choose the playlist that you want to add the tests to.
 
  **To open a playlist**, choose **Test** > **Playlist** from the Visual Studio menu, and either choose from the list of recently used playlists, or choose **Open Playlist** to specify the name and location of the playlist.
 
@@ -180,13 +179,13 @@ You can use Test Explorer to start a debugging session for your tests. Stepping 
     > [!NOTE]
     > Because test methods can run in any order, set breakpoints in all the test methods that you want to debug.
 
-2. In Test Explorer, select the test methods and then choose **Debug Selected Tests** on the context menu.
+2. In Test Explorer, select the test methods and then choose **Debug Selected Tests** on the right-click menu.
 
- For more information, about the debugger, see [Debug in Visual Studio](../debugger/debugging-in-visual-studio.md).
+   For more information, about the debugger, see [Debug in Visual Studio](../debugger/debugger-feature-tour.md).
 
 ### Diagnose test method performance issues
 
- To diagnose why a test method is taking too much time, select the method in Test Explorer and then choose **Profile** on the context menu. See [Performance Explorer](../profiling/performance-explorer.md).
+ To diagnose why a test method is taking too much time, select the method in Test Explorer and then choose **Profile** on the right-click menu. See [Performance Explorer](../profiling/performance-explorer.md).
 
 ### Analyze unit test code coverage
 
@@ -211,7 +210,7 @@ For more information, see [Use code coverage to determine how much code is being
 Tests can be run from the **Test Explorer**, by right-clicking in the code editor on a test and selecting **Run test**, or by using the default [Test Explorer shortcuts](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_testexplorerGLOBAL) in Visual Studio. Some of the shortcuts are context-based. This means that they run or debug tests based on where your cursor is in the code editor. If your cursor is inside a test method, then that test method runs. If your cursor is at the class level, then all the tests in that class run. This is the same for the namespace level as well.
 
 |Frequent Commands| Keyboard Shortcuts|
-|--------------|------------------------|
+|-|------------------------|
 |TestExplorer.DebugAllTestsInContext|**Ctrl**+**R**, **Ctrl**+**T**|
 |TestExplorer.RunAllTestsInContext|**Ctrl**+**R**, **T**|
 

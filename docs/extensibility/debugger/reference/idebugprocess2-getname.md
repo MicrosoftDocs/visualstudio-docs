@@ -1,9 +1,6 @@
 ---
 title: "IDebugProcess2::GetName | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProcess2::GetName"
@@ -23,15 +20,15 @@ Gets the title, friendly name, or file name of the process.
   
 ```cpp  
 HRESULT GetName(   
-   GETNAME_TYPE  gnType,  
-   BSTR*         pbstrName  
+   GETNAME_TYPE  gnType,  
+   BSTR*         pbstrName  
 );  
 ```  
   
 ```csharp  
 int GetName(   
-   enum_GETNAME_TYPE  gnType,  
-   out string         pbstrName  
+   enum_GETNAME_TYPE  gnType,  
+   out string         pbstrName  
 );  
 ```  
   

@@ -1,9 +1,6 @@
 ---
 title: "IDebugDocumentText2::GetSize | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugDocumentText2::GetSize"
@@ -23,15 +20,15 @@ Retrieves the size of the text at this position in the document.
   
 ```cpp  
 HRESULT GetSize(   
-   ULONG* pcNumLines,  
-   ULONG* pcNumChars  
+   ULONG* pcNumLines,  
+   ULONG* pcNumChars  
 );  
 ```  
   
 ```csharp  
 int GetSize(   
-   ref uint pcNumLines,  
-   ref uint pcNumChars  
+   ref uint pcNumLines,  
+   ref uint pcNumChars  
 );  
 ```  
   

@@ -1,9 +1,6 @@
 ---
 title: "SccSetOption Function | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "SccSetOption"
@@ -23,9 +20,9 @@ This function sets options that control the behavior of the source control plug-
   
 ```cpp  
 SCCRTN SccSetOption(  
-   LPVOID pvContext,  
-   LONG   nOption,  
-   LONG   dwVal  
+   LPVOID pvContext,  
+   LONG   nOption,  
+   LONG   dwVal  
 );  
 ```  
   

@@ -1,9 +1,6 @@
 ---
 title: "IDebugCustomAttribute::GetParentField | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugCustomAttribute::GetParentField"
@@ -23,13 +20,13 @@ Gets the field to which the custom attribute is attached.
   
 ```cpp  
 HRESULT GetParentField(   
-   IDebugField** ppField  
+   IDebugField** ppField  
 );  
 ```  
   
 ```csharp  
 int GetParentField(  
-   out IDebugField ppField  
+   out IDebugField ppField  
 );  
 ```  
   

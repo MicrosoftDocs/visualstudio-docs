@@ -1,9 +1,6 @@
 ---
 title: "IDebugReference2::SetValueAsString | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugReference2::SetValueAsString"
@@ -23,17 +20,17 @@ Sets the value of a reference from a string. Reserved for future use.
   
 ```cpp  
 HRESULT SetValueAsString (   
-   LPCOLESTR pszValue,  
-   DWORD     dwRadix,  
-   DWORD     dwTimeout  
+   LPCOLESTR pszValue,  
+   DWORD     dwRadix,  
+   DWORD     dwTimeout  
 );  
 ```  
   
 ```csharp  
 int SetValueAsString (   
-   string pszValue,  
-   uint   dwRadix,  
-   uint   dwTimeout  
+   string pszValue,  
+   uint   dwRadix,  
+   uint   dwTimeout  
 );  
 ```  
   

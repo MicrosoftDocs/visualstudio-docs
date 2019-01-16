@@ -1,9 +1,6 @@
 ---
 title: "Loading VSPackages | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "VSPackages, autoloading"
@@ -15,7 +12,7 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Loading VSPackages
+# Load VSPackages
 VSPackages are loaded into Visual Studio only when their functionality is required. For example, a VSPackage is loaded when Visual Studio uses a project factory or a service that the VSPackage implements. This feature is called delayed loading, which is used whenever possible to improve performance.  
   
 > [!NOTE]
@@ -23,7 +20,7 @@ VSPackages are loaded into Visual Studio only when their functionality is requir
   
  VSPackages can be set to autoload in a particular user interface (UI) context, for example, when a solution is open. The <xref:Microsoft.VisualStudio.Shell.ProvideAutoLoadAttribute> attribute sets this context.  
   
-### Autoloading a VSPackage in a specific context  
+### Autoload a VSPackage in a specific context  
   
 -   Add the `ProvideAutoLoad` attribute to the VSPackage attributes:  
   
@@ -46,7 +43,7 @@ VSPackages are loaded into Visual Studio only when their functionality is requir
   
      The VSPackage loads and stops at the breakpoint.  
   
-## Forcing a VSPackage to load  
+## Force a VSPackage to load  
  Under some circumstances a VSPackage may have to force another VSPackage to be loaded. For example, a lightweight VSPackage might load a larger VSPackage in a context that is not available as a CMDUIContext.  
   
  You can use the <xref:Microsoft.VisualStudio.Shell.Interop.IVsShell.LoadPackage%2A> method to force a VSPackage to load.  
@@ -66,7 +63,7 @@ VSPackages are loaded into Visual Studio only when their functionality is requir
   
      When the VSPackage is initialized, it will force `PackageToBeLoaded` to load.  
   
-     Force loading should not be used for VSPackage communication. Use [Using and Providing Services](../extensibility/using-and-providing-services.md) instead.
+     Force loading should not be used for VSPackage communication. Use [Use and provide services](../extensibility/using-and-providing-services.md) instead.
   
-## See Also  
+## See also  
  [VSPackages](../extensibility/internals/vspackages.md)

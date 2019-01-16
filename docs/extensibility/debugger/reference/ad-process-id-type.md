@@ -1,9 +1,6 @@
 ---
 title: "AD_PROCESS_ID_TYPE | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "AD_PROCESS_ID_TYPE"
@@ -23,16 +20,16 @@ Specifies how to interpret a process ID in the [AD_PROCESS_ID](../../../extensib
   
 ```cpp  
 enum enum_AD_PROCESS_ID {  
-   AD_PROCESS_ID_SYSTEM = 0,  
-   AD_PROCESS_ID_GUID   = 1  
+   AD_PROCESS_ID_SYSTEM = 0,  
+   AD_PROCESS_ID_GUID   = 1  
 };  
 typedef DWORD AD_PROCESS_ID_TYPE;  
 ```  
   
 ```csharp  
 public enum enum_AD_PROCESS_ID {  
-   AD_PROCESS_ID_SYSTEM = 0,  
-   AD_PROCESS_ID_GUID   = 1  
+   AD_PROCESS_ID_SYSTEM = 0,  
+   AD_PROCESS_ID_GUID   = 1  
 };  
 ```  
   

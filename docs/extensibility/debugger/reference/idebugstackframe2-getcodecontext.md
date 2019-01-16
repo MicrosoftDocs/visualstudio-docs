@@ -1,9 +1,6 @@
 ---
 title: "IDebugStackFrame2::GetCodeContext | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugStackFrame2::GetCodeContext"
@@ -23,13 +20,13 @@ Gets the code context for this stack frame.
   
 ```cpp  
 HRESULT GetCodeContext (   
-   IDebugCodeContext2** ppCodeCxt  
+   IDebugCodeContext2** ppCodeCxt  
 );  
 ```  
   
 ```csharp  
 int GetCodeContext (   
-   out IDebugCodeContext2 ppCodeCxt  
+   out IDebugCodeContext2 ppCodeCxt  
 );  
 ```  
   

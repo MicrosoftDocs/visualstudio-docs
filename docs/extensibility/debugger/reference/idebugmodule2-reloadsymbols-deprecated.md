@@ -1,9 +1,6 @@
 ---
 title: "IDebugModule2::ReloadSymbols_Deprecated | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugModule2::ReloadSymbols"
@@ -23,15 +20,15 @@ OBSOLETE. DO NOT USE. Reloads the symbols for this module.
   
 ```cpp  
 HRESULT ReloadSymbols(   
-   LPCOLESTR pszUrlToSymbols,  
-   BSTR*     pbstrDebugMessage  
+   LPCOLESTR pszUrlToSymbols,  
+   BSTR*     pbstrDebugMessage  
 );  
 ```  
   
 ```csharp  
 int ReloadSymbols(   
-   string     pszUrlToSymbols,  
-   out string pbstrDebugMessage  
+   string     pszUrlToSymbols,  
+   out string pbstrDebugMessage  
 );  
 ```  
   

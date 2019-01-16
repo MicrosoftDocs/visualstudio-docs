@@ -1,8 +1,6 @@
 ---
 title: "IDiaFrameData::get_lengthSavedRegisters | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves the number of bytes of saved registers pushed on the stack.
   
 ```C++  
 HRESULT get_lengthSavedRegisters (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

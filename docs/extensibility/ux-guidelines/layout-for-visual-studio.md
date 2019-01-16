@@ -1,9 +1,6 @@
 ---
 title: "Layout for Visual Studio | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 ms.assetid: c19e3022-047c-43b6-a046-a82717efed4f
 author: "gregvanl"
@@ -50,19 +47,19 @@ The majority of Visual Studio dialogs are [Utility dialog layout](../../extensib
   
 #### Command buttons  
   
--   Command buttons operate on the dialog frame, not on the content. They should be placed at the bottom right and should have enough variable space above to set the buttons distinctly separate.  
+- Command buttons operate on the dialog frame, not on the content. They should be placed at the bottom right and should have enough variable space above to set the buttons distinctly separate.  
   
--   If there are horizontal buttons that operate within the dialog, the alternate command button configuration is a vertical stack at the upper right. See [Interior command buttons](../../extensibility/ux-guidelines/layout-for-visual-studio.md#BKMK_InteriorCommandButtons) below.  
+- If there are horizontal buttons that operate within the dialog, the alternate command button configuration is a vertical stack at the upper right. See [Interior command buttons](../../extensibility/ux-guidelines/layout-for-visual-studio.md#BKMK_InteriorCommandButtons) below.  
   
--   The space to the left of the command buttons (lower left/center of the dialog) is considered part of the "band" of dialog operation controls. The only thing that should intrude on that space is a Help link that is relevant to the overall task or dialog.  
+- The space to the left of the command buttons (lower left/center of the dialog) is considered part of the "band" of dialog operation controls. The only thing that should intrude on that space is a Help link that is relevant to the overall task or dialog.  
   
--   Command buttons should be 75x23 pixels.  
+- Command buttons should be 75x23 pixels.  
   
--   Command buttons should be 6 pixels apart.  
+- Command buttons should be 6 pixels apart.  
   
- ![Basic button alignment](../../extensibility/ux-guidelines/media/0801-c_buttonalign.png "0801-c_ButtonAlign")  
+  ![Basic button alignment](../../extensibility/ux-guidelines/media/0801-c_buttonalign.png "0801-c_ButtonAlign")  
   
- **Figure 08.01-c: Basic button alignment**  
+  **Figure 08.01-c: Basic button alignment**  
   
 #### Labels  
   
@@ -100,19 +97,19 @@ The majority of Visual Studio dialogs are [Utility dialog layout](../../extensib
 ####  <a name="BKMK_InteriorCommandButtons"></a> Interior command buttons  
  In more complex dialogs, an internal control might have its own related buttons, which might affect where the dialog's commit buttons are located.  
   
--   Use a vertical alignment (column) of interior buttons when **OK**/**Cancel** are horizontally oriented in the lower right corner.  
+- Use a vertical alignment (column) of interior buttons when **OK**/**Cancel** are horizontally oriented in the lower right corner.  
   
--   Use a horizontal alignment (row) of interior buttons when **OK**/**Cancel** are vertically oriented in the upper right corner. This situation is less common.  
+- Use a horizontal alignment (row) of interior buttons when **OK**/**Cancel** are vertically oriented in the upper right corner. This situation is less common.  
   
--   Interior button size should target the standard button size of 75x23 pixels, matching the size of **OK**/**Cancel** buttons when possible. If a button label makes the button exceed the standard button size, the other buttons in that set should align with that wider size.  
+- Interior button size should target the standard button size of 75x23 pixels, matching the size of **OK**/**Cancel** buttons when possible. If a button label makes the button exceed the standard button size, the other buttons in that set should align with that wider size.  
   
- ![Horizontal OK and Cancel buttons](../../extensibility/ux-guidelines/media/0801-f_horizokcan.png "0801-f_HorizOKCan")  
+  ![Horizontal OK and Cancel buttons](../../extensibility/ux-guidelines/media/0801-f_horizokcan.png "0801-f_HorizOKCan")  
   
- **Figure 08.01-f: Vertical Interior buttons with horizontal OK/Cancel**  
+  **Figure 08.01-f: Vertical Interior buttons with horizontal OK/Cancel**  
   
- ![Vertical OK and Cancel buttons](../../extensibility/ux-guidelines/media/0801-g_vertokcan.png "0801-g_VertOKCan")  
+  ![Vertical OK and Cancel buttons](../../extensibility/ux-guidelines/media/0801-g_vertokcan.png "0801-g_VertOKCan")  
   
- **Figure 08.01-g: Horizontal interior buttons with vertical OK/Cancel**  
+  **Figure 08.01-g: Horizontal interior buttons with vertical OK/Cancel**  
   
 #### [Browse...] button  
  **[Browse...]** buttons that follow a text box should spell out "Browse..." in full, including the ellipsis. If space is tight or there are multiple **[Browse...]** buttons on the screen, the button can be reduced to just the ellipsis.  
@@ -153,5 +150,5 @@ The majority of Visual Studio dialogs are [Utility dialog layout](../../extensib
   
 ## See Also  
  [Application Patterns for Visual Studio](../../extensibility/ux-guidelines/application-patterns-for-visual-studio.md)   
- [Controls (Windows)](https://msdn.microsoft.com/library/windows/desktop/dn742399.aspx)   
- [Dialog Boxes (Windows)](https://msdn.microsoft.com/en-us/library/windows/desktop/dn742499\(v=vs.85\).aspx)
+ [Controls (Windows)](/windows/desktop/uxguide/controls)   
+ [Dialog Boxes (Windows)](/windows/desktop/uxguide/win-dialog-box)

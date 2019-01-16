@@ -1,9 +1,6 @@
 ---
 title: "SccBackgroundGet Function | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "SccBackgroundGet"
@@ -16,22 +13,22 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# SccBackgroundGet Function
+# SccBackgroundGet function
 This function retrieves from source control each of the specified files with no user interaction.  
   
 ## Syntax  
   
 ```cpp  
 SCCRTN SccBackgroundGet(  
-   LPVOID  pContext,  
-   LONG    nFiles,  
-   LPCSTR* lpFileNames,  
-   LONG    dwFlags,  
-   LONG    dwBackgroundOperationID  
+   LPVOID  pContext,  
+   LONG    nFiles,  
+   LPCSTR* lpFileNames,  
+   LONG    dwFlags,  
+   LONG    dwBackgroundOperationID  
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  pContext  
  [in] The source control plug-in context pointer.  
   
@@ -50,7 +47,7 @@ SCCRTN SccBackgroundGet(
  dwBackgroundOperationID  
  [in] A unique value associated with this operation.  
   
-## Return Value  
+## Return value  
  The source control plug-in implementation of this function is expected to return one of the following values:  
   
 |Value|Description|  
@@ -64,6 +61,6 @@ SCCRTN SccBackgroundGet(
   
  The use of the `dwFlags` argument is the same as the [SccGet](../extensibility/sccget-function.md).  
   
-## See Also  
- [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)   
+## See also  
+ [Source control plug-in API functions](../extensibility/source-control-plug-in-api-functions.md)   
  [SccGet](../extensibility/sccget-function.md)

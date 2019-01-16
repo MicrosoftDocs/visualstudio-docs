@@ -1,9 +1,6 @@
 ---
 title: "IDebugAddress::GetAddress | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugAddress::GetAddress"
@@ -23,13 +20,13 @@ Returns a structure describing an object and its location within its scope or co
   
 ```cpp  
 HRESULT GetAddress (  
-   DEBUG_ADDRESS * pAddress  
+   DEBUG_ADDRESS * pAddress  
 );  
 ```  
   
 ```csharp  
 int GetAddress(  
-   DEBUG_ADDRESS[] pAddress  
+   DEBUG_ADDRESS[] pAddress  
 );  
 ```  
   

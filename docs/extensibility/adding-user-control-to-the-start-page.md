@@ -1,9 +1,6 @@
 ---
 title: "Adding User Control to the Start Page | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "start page dll"
@@ -131,47 +128,47 @@ This walkthrough shows how to add a DLL reference to a custom Start Page. The ex
 ## Add the user control to the Start Page  
  To make this control available to the Start Page project, in the Start Page project file, add a reference to the new control library. Then you can add the control to the Start Page XAML markup.  
   
-1.  In **Solution Explorer**, in the Start Page project, right-click **References** and then click **Add Reference**.  
+1. In **Solution Explorer**, in the Start Page project, right-click **References** and then click **Add Reference**.  
   
-2.  On the **Projects** tab, select **WebUserControl** and then click **OK**.  
+2. On the **Projects** tab, select **WebUserControl** and then click **OK**.  
   
-3.  On the **Build** menu, click **Build Solution**.  
+3. On the **Build** menu, click **Build Solution**.  
   
-     Building the solution makes the user control available to IntelliSense for other files in the solution.  
+    Building the solution makes the user control available to IntelliSense for other files in the solution.  
   
- To add the control to the Start Page XAML markup, add a namespace reference to the assembly, then put the control on the page.  
+   To add the control to the Start Page XAML markup, add a namespace reference to the assembly, then put the control on the page.  
   
 ### To add the control to the markup  
   
-1.  In **Solution Explorer**, open the Start Page *.xaml* file.  
+1. In **Solution Explorer**, open the Start Page *.xaml* file.  
   
-2.  In the **XAML** pane, add the following namespace declaration to the top-level <xref:System.Windows.Controls.Grid> element.  
+2. In the **XAML** pane, add the following namespace declaration to the top-level <xref:System.Windows.Controls.Grid> element.  
   
-    ```xml  
-    xmlns:vsc="clr-namespace:WebUserControl;assembly=WebUserControl"  
-    ```  
+   ```xml  
+   xmlns:vsc="clr-namespace:WebUserControl;assembly=WebUserControl"  
+   ```  
   
-3.  In the **XAML** pane, scroll to the \<Grid> section.  
+3. In the **XAML** pane, scroll to the \<Grid> section.  
   
-     The section contains a <xref:System.Windows.Controls.TabControl> element in a <xref:System.Windows.Controls.Grid> element.  
+    The section contains a <xref:System.Windows.Controls.TabControl> element in a <xref:System.Windows.Controls.Grid> element.  
   
-4.  Add a \<TabControl> element containing a \<TabItem> that contains a reference to your user control.  
+4. Add a \<TabControl> element containing a \<TabItem> that contains a reference to your user control.  
   
-    ```xml  
+   ```xml  
   
-    <TabItem Header="Web" Height="Auto">  
-        <vsc:UserControl1 />  
-    </TabItem>  
+   <TabItem Header="Web" Height="Auto">  
+       <vsc:UserControl1 />  
+   </TabItem>  
   
-    ```  
+   ```  
   
- Now you can test the control.  
+   Now you can test the control.  
   
 ## Test a manually created custom Start Page  
   
 1.  Copy your XAML file, and any supporting text files or markup files, to the *%USERPROFILE%\My Documents\Visual Studio 2015\StartPages\\* folder.  
   
-2.  If your start page references any controls or types in assemblies that are not installed by Visual Studio, copy the assemblies and then paste them in *Visual Studio installation folder***\Common7\IDE\PrivateAssemblies\\**.  
+2.  If your start page references any controls or types in assemblies that are not installed by Visual Studio, copy the assemblies and then paste them in _Visual Studio installation folder_**\Common7\IDE\PrivateAssemblies\\**.  
   
 3.  At a Visual Studio command prompt, type **devenv /rootsuffix Exp** to open an experimental instance of Visual Studio.  
   
@@ -182,5 +179,5 @@ This walkthrough shows how to add a DLL reference to a custom Start Page. The ex
      Your custom start page should be displayed. If you want to change any files, you must close the experimental instance, make the changes, copy and paste the changed files, and then re-open the experimental instance to view the changes.  
   
 ## See also  
- [WPF container controls](http://msdn.microsoft.com/en-us/a0177167-d7db-4205-9607-8ae316952566)   
+ [WPF container controls](https://msdn.microsoft.com/library/a0177167-d7db-4205-9607-8ae316952566)   
  [Walkthrough: Add custom XAML to the Start Page](../extensibility/walkthrough-adding-custom-xaml-to-the-start-page.md)

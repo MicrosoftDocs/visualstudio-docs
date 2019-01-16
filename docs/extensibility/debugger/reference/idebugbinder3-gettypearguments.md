@@ -1,9 +1,6 @@
 ---
 title: "IDebugBinder3::GetTypeArguments | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugBinder3::GetTypeArguments"
@@ -23,19 +20,19 @@ This method retrieves a list of argument types associated with this object.
   
 ```cpp  
 HRESULT GetTypeArguments(  
-   UINT          skip,  
-   UINT          count,  
-   IDebugField** ppFields,  
-   UINT*         pFetched  
+   UINT          skip,  
+   UINT          count,  
+   IDebugField** ppFields,  
+   UINT*         pFetched  
 );  
 ```  
   
 ```csharp  
 int GetTypeArguments(  
-   uint          skip,  
-   uint          count,  
-   IDebugField[] ppFields,  
-   out uint      pFetched  
+   uint          skip,  
+   uint          count,  
+   IDebugField[] ppFields,  
+   out uint      pFetched  
 );  
 ```  
   

@@ -1,9 +1,6 @@
 ---
 title: "IDebugProgramHost2::GetHostMachineName | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProgramHost2::GetHostMachineName"
@@ -23,13 +20,13 @@ Gets the name of the machine that the process hosting this program is running on
   
 ```cpp  
 HRESULT GetHostMachineName(   
-   BSTR* pbstrHostMachineName  
+   BSTR* pbstrHostMachineName  
 );  
 ```  
   
 ```csharp  
 int GetHostMachineName(   
-   out string pbstrHostMachineName  
+   out string pbstrHostMachineName  
 );  
 ```  
   

@@ -1,8 +1,7 @@
 ---
-title: "Test SharePoint Applications with Coded UI Tests in Visual Studio"
+title: "Test SharePoint Applications with Coded UI Tests"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 ms.author: gewarren
 manager: douge
@@ -15,6 +14,8 @@ author: gewarren
 Including coded UI tests in a SharePoint application lets you verify that the whole application, including its UI controls, is functioning correctly. Coded UI tests can also validate values and logic in the user interface.
 
 To learn more about the benefits of using coded UI tests, see [Use UI automation to test your code](../test/use-ui-automation-to-test-your-code.md).
+
+[!INCLUDE [coded-ui-test-deprecation](includes/coded-ui-test-deprecation.md)]
 
 **Requirements**
 

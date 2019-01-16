@@ -1,9 +1,6 @@
 ---
 title: "IDebugExceptionEvent2::GetException | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugExceptionEvent2::GetException"
@@ -23,13 +20,13 @@ Gets a detailed description of the exception that fired this event.
   
 ```cpp  
 HRESULT GetException(   
-   EXCEPTION_INFO* pExceptionInfo  
+   EXCEPTION_INFO* pExceptionInfo  
 );  
 ```  
   
 ```csharp  
 int GetException(   
-   EXCEPTION_INFO[] pExceptionInfo  
+   EXCEPTION_INFO[] pExceptionInfo  
 );  
 ```  
   

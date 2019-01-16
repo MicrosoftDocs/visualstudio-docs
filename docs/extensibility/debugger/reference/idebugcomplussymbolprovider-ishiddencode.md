@@ -1,9 +1,6 @@
 ---
 title: "IDebugComPlusSymbolProvider::IsHiddenCode | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugComPlusSymbolProvider::IsHiddenCode"
@@ -21,13 +18,13 @@ Determines if the code at the specified debugger address is hidden.
   
 ```cpp  
 HRESULT IsHiddenCode(  
-   IDebugAddress* pAddress  
+   IDebugAddress* pAddress  
 );  
 ```  
   
 ```csharp  
 int IsHiddenCode(  
-   IDebugAddress pAddress  
+   IDebugAddress pAddress  
 );  
 ```  
   

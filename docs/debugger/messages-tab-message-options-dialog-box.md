@@ -1,8 +1,6 @@
 ---
 title: "Messages Tab, Message Options Dialog Box | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "reference"
 helpviewer_keywords: 
   - "message options, Messages"
@@ -26,15 +24,15 @@ Use the **Messages** tab to select which message types to list in [Messages View
  **Message Groups**  
  Select message groups for viewing. The available groups include:  
   
--   WM_USER: with a code greater than or equal to WM_USER  
+- WM_USER: with a code greater than or equal to WM_USER  
   
--   Registered: registered with the **RegisterWindowMessage** call  
+- Registered: registered with the **RegisterWindowMessage** call  
   
--   Unknown: unknown messages in the range 0 to (WM_USER - 1)  
+- Unknown: unknown messages in the range 0 to (WM_USER - 1)  
   
- Note that these **Message Groups** do not map to specific entries under **Messages To View**. When you select a group, the selection is applied directly to the message stream.  
+  Note that these **Message Groups** do not map to specific entries under **Messages To View**. When you select a group, the selection is applied directly to the message stream.  
   
- A grayed check box within **Message Groups** indicates that the **Messages To View** list box has been modified for messages in that group; not all of the message types in that group are selected.  
+  A grayed check box within **Message Groups** indicates that the **Messages To View** list box has been modified for messages in that group; not all of the message types in that group are selected.  
   
- **Save Settings as Default**  
- Save the current settings for later use as message search options. These settings are also saved when exiting Spy++.
+  **Save Settings as Default**  
+  Save the current settings for later use as message search options. These settings are also saved when exiting Spy++.

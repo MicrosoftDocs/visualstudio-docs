@@ -1,8 +1,7 @@
 ---
-title: Develop code in Visual Studio without projects or solutions
+title: Develop code without projects or solutions
 ms.date: 02/21/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:
   - "open folder [Visual Studio]"
@@ -58,9 +57,9 @@ The following example shows how to clone a GitHub repo and then open its code in
 
    You can now browse folders and files in the cloned repo, and view and search the code in the Visual Studio code editor, complete with syntax colorization and other features.
 
-|         |         |
+| | |
 |---------|---------|
-|  ![movie camera icon for video](../install/media/video-icon.png)|    [Watch a video](https://mva.microsoft.com/en-us/training-courses/getting-started-with-visual-studio-2017-17798?l=lp3TOKD6D_6711787171) on how to clone and open code from a GitHub repo in Visual Studio. |
+| ![movie camera icon for video](../install/media/video-icon.png)| [Watch a video](https://mva.microsoft.com/en-us/training-courses/getting-started-with-visual-studio-2017-17798?l=lp3TOKD6D_6711787171) on how to clone and open code from a GitHub repo in Visual Studio. |
 
 ## Run and debug your code
 

@@ -24,7 +24,7 @@ Retrieves the name of a member.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetMemberName(  
    DISPID id,  
    BSTR *pbstrName  
@@ -48,7 +48,7 @@ HRESULT GetMemberName(
   
 ## Example  
   
-```  
+```cpp
 HRESULT hr;  
    BSTR bstrName;  
    DISPID dispid;  

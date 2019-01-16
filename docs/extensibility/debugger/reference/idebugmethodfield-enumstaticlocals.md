@@ -1,9 +1,6 @@
 ---
 title: "IDebugMethodField::EnumStaticLocals | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugMethodField::EnumStaticLocals"
@@ -23,13 +20,13 @@ Creates an enumerator for static local variables of the method.
   
 ```cpp  
 HRESULT EnumStaticLocals(   
-   IEnumDebugFields** ppLocals  
+   IEnumDebugFields** ppLocals  
 );  
 ```  
   
 ```csharp  
 int EnumStaticLocals(  
-   out IEnumDebugFields ppLocals  
+   out IEnumDebugFields ppLocals  
 );  
 ```  
   

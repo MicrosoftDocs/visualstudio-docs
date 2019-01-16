@@ -1,9 +1,6 @@
 ---
 title: "IDebugExpressionEvaluator2::SetCorPath | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "SetCorPath"
@@ -22,13 +19,13 @@ Sets the path to the common language runtime (CLR) loaded in the debugger.
   
 ```cpp  
 HRESULT SetCorPath(  
-   LPCOLESTR pcstrCorPath  
+   LPCOLESTR pcstrCorPath  
 );  
 ```  
   
 ```csharp  
 int SetCorPath(  
-   string pcstrCorPath  
+   string pcstrCorPath  
 );  
 ```  
   

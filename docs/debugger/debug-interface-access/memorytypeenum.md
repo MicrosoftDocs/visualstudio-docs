@@ -1,8 +1,6 @@
 ---
 title: "MemoryTypeEnum | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,10 +20,10 @@ Specifies the type of memory to access.
   
 ```C++  
 enum MemoryTypeEnum {  
-   MemTypeCode,  
-   MemTypeData,  
-   MemTypeStack,  
-   MemTypeAny = -1  
+   MemTypeCode,  
+   MemTypeData,  
+   MemTypeStack,  
+   MemTypeAny = -1  
 };  
 ```  
   

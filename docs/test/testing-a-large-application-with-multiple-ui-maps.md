@@ -1,8 +1,7 @@
 ---
-title: "Testi a Large Application with Multiple UI Maps in Visual Studio"
+title: "Testi a Large Application with Multiple UI Maps"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 helpviewer_keywords:
   - "coded UI tests, multiple UI maps"
@@ -17,21 +16,23 @@ ms.workload:
 
 This topic discusses how to use coded UI tests when you are testing a large application by using multiple UI Maps.
 
- **Requirements**
+[!INCLUDE [coded-ui-test-deprecation](includes/coded-ui-test-deprecation.md)]
 
--   Visual Studio Enterprise
+**Requirements**
 
- When you create a new coded UI test, the Visual Studio testing framework generates code for the test by default in a <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap> class. For more information about how to record coded UI tests, see [Create coded UI tests](../test/use-ui-automation-to-test-your-code.md) and [Anatomy of a coded UI test](../test/anatomy-of-a-coded-ui-test.md).
+- Visual Studio Enterprise
 
- The generated code for the UI Map contains a class for each object that the test interacts with. For each generated method, a companion class for method parameters is generated specifically for that method. If there are a large number of objects, pages, and forms and controls in your application, the UI Map can grow very large. Also, if several people are working on tests, the application becomes unwieldy with a single large UI Map file.
+When you create a new coded UI test, the Visual Studio testing framework generates code for the test by default in a <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap> class. For more information about how to record coded UI tests, see [Create coded UI tests](../test/use-ui-automation-to-test-your-code.md) and [Anatomy of a coded UI test](../test/anatomy-of-a-coded-ui-test.md).
 
- Using multiple UI Map files can provide the following benefits:
+The generated code for the UI Map contains a class for each object that the test interacts with. For each generated method, a companion class for method parameters is generated specifically for that method. If there are a large number of objects, pages, and forms and controls in your application, the UI Map can grow very large. Also, if several people are working on tests, the application becomes unwieldy with a single large UI Map file.
 
--   Each map can be associated with a logical subset of the application. This makes changes easier to manage.
+Using multiple UI Map files can provide the following benefits:
 
--   Each tester can work on a section of the application and check in their code without interfering with other testers working on other sections of the application.
+- Each map can be associated with a logical subset of the application. This makes changes easier to manage.
 
--   Additions to the application UI can be scaled incrementally with minimal effect on tests for other parts of the UI.
+- Each tester can work on a section of the application and check in their code without interfering with other testers working on other sections of the application.
+
+- Additions to the application UI can be scaled incrementally with minimal effect on tests for other parts of the UI.
 
 ## Do you need multiple UI Maps?
  Create multiple UI Maps in each of these types of situations:
@@ -44,34 +45,34 @@ This topic discusses how to use coded UI tests when you are testing a large appl
 
 ### To add a UI Map to your coded UI test project
 
-1.  In **Solution Explorer**, to create a folder in your coded UI test project to store all the UI Maps, right-click the coded UI test project file, point to **Add**, and then choose **New Folder**. For example, you could name it `UIMaps`.
+1. In **Solution Explorer**, to create a folder in your coded UI test project to store all the UI Maps, right-click the coded UI test project file, point to **Add**, and then choose **New Folder**. For example, you could name it `UIMaps`.
 
-     The new folder is displayed under the coded UI test project.
+    The new folder is displayed under the coded UI test project.
 
-2.  Right-click the `UIMaps` folder, point to **Add**, and then choose **New Item**.
+2. Right-click the `UIMaps` folder, point to **Add**, and then choose **New Item**.
 
-     The **Add New Item** dialog box is displayed.
+    The **Add New Item** dialog box is displayed.
 
-    > [!NOTE]
-    > You must be in a coded UI test project to add a new coded UI test map.
+   > [!NOTE]
+   > You must be in a coded UI test project to add a new coded UI test map.
 
-3.  Select **Coded UI Test Map** from the list.
+3. Select **Coded UI Test Map** from the list.
 
-     In the **Name** box, enter a name for the new UI Map. Use the name of the component or page that the map will represent, for example, `HomePageMap`.
+    In the **Name** box, enter a name for the new UI Map. Use the name of the component or page that the map will represent, for example, `HomePageMap`.
 
-4.  Choose **Add**.
+4. Choose **Add**.
 
-     The Visual Studio window minimizes and the **Coded UI Test Builder** dialog box is displayed.
+    The Visual Studio window minimizes and the **Coded UI Test Builder** dialog box is displayed.
 
-5.  Record the actions for the first method and choose **Generate Code**.
+5. Record the actions for the first method and choose **Generate Code**.
 
-6.  After you have recorded all actions and assertions for the first component or page and grouped them into methods, close the **Coded UI Test Builder** dialog box.
+6. After you have recorded all actions and assertions for the first component or page and grouped them into methods, close the **Coded UI Test Builder** dialog box.
 
-7.  Continue to create UI Maps. Record the actions and assertions, group them into methods for each component, and then generate the code.
+7. Continue to create UI Maps. Record the actions and assertions, group them into methods for each component, and then generate the code.
 
- In many cases, the top-level window of your application remains constant for all wizards, forms, and pages. Although each UI Map has a class for the top-level window, all maps are probably referring to the same top-level window within which all components of your application run. Coded UI tests search for controls hierarchically from the top down, starting from the top-level window, so in a complex application, the real top-level window could be duplicated in every UI Map. If the real top-level window is duplicated, multiple modifications will result if that window changes. This could cause performance problems when you switch between UI Maps.
+   In many cases, the top-level window of your application remains constant for all wizards, forms, and pages. Although each UI Map has a class for the top-level window, all maps are probably referring to the same top-level window within which all components of your application run. Coded UI tests search for controls hierarchically from the top down, starting from the top-level window, so in a complex application, the real top-level window could be duplicated in every UI Map. If the real top-level window is duplicated, multiple modifications will result if that window changes. This could cause performance problems when you switch between UI Maps.
 
- To minimize this effect, you can use the `CopyFrom()` method to make sure that the new top-level window in that UI Map is the same as the main top-level window.
+   To minimize this effect, you can use the `CopyFrom()` method to make sure that the new top-level window in that UI Map is the same as the main top-level window.
 
 ## Example
 

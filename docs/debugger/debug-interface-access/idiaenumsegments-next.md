@@ -1,8 +1,6 @@
 ---
 title: "IDiaEnumSegments::Next | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,9 +20,9 @@ Retrieves a specified number of segments in the enumeration sequence.
   
 ```C++  
 HRESULT Next (   
-   ULONG         celt,   
-   IDiaSegment** rgelt,  
-   ULONG*        pceltFetched  
+   ULONG         celt,   
+   IDiaSegment** rgelt,  
+   ULONG*        pceltFetched  
 );  
 ```  
   

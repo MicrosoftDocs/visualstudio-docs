@@ -1,10 +1,8 @@
 ---
 title: "MaxFrameworkVersion Element (Visual Studio Templates) | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology:
-  - "vs-ide-general"
-ms.topic: "conceptual"
+ms.technology: vs-ide-general
+ms.topic: reference
 helpviewer_keywords:
   - "<MaxFrameworkVersion> Element (Visual Studio Templates)"
   - "MaxFrameworkVersion Element (Visual Studio Templates)"
@@ -15,7 +13,7 @@ manager: douge
 ms.workload:
   - "vssdk"
 ---
-# MaxFrameworkVersion Element (Visual Studio Templates)
+# MaxFrameworkVersion element (Visual Studio templates)
 
 Specifies the maximum version of the .NET Framework that is required by the template. It determines the highest value available in the **Target Framework Version** dropdown of the **New Project** dialog. In order for users to be able to select a framework version, you must also specify [RequiredFrameworkVersion](../extensibility/requiredframeworkversion-element-visual-studio-templates.md) as the minimum .NET Framework version for the template.
 
@@ -32,22 +30,22 @@ Specifies the maximum version of the .NET Framework that is required by the temp
 <MaxFrameworkVersion> ... </MaxFrameworkVersion>
 ```
 
-## Attributes and Elements
+## Attributes and elements
  The following sections describe attributes, child elements, and parent elements.
 
 ### Attributes
  None.
 
-### Child Elements
+### Child elements
  None.
 
-### Parent Elements
+### Parent elements
 
 |Element|Description|
 |-------------|-----------------|
 |[TemplateData](../extensibility/templatedata-element-visual-studio-templates.md)|Required element.<br /><br /> Categorizes the template and defines how it is displayed in either the **New Project** or the **Add New Item** dialog box.|
 
-## Text Value
+## Text value
  A text value is required.
 
  The text must be the highest version number of the .NET Framework that is allowed by the template.
@@ -80,7 +78,7 @@ The following example illustrates the metadata for a standard [!INCLUDE[csprcs](
 
 In this example, the maximum version of the .NET Framework that is required by the template, represented by `MaxFrameworkVersion`, is 4.7.1. A project created with this template can target .NET Framework versions up to 4.7.1.
 
-## See Also
+## See also
 
-- [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)
-- [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)
+- [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)
+- [Creating project and item templates](../ide/creating-project-and-item-templates.md)

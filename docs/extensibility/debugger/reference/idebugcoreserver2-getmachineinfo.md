@@ -1,9 +1,6 @@
 ---
 title: "IDebugCoreServer2::GetMachineInfo | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugCoreServer2::GetInfo"
@@ -22,16 +19,16 @@ Retrieves a description of the machine the core server is running on.
 ## Syntax  
   
 ```cpp  
-HRESULT GetInfo(   
-   MACHINE_INFO_FIELDS Fields,  
-   MACHINE_INFO*       pMachineInfo  
+HRESULT GetMachineInfo(   
+   MACHINE_INFO_FIELDS Fields,  
+   MACHINE_INFO*       pMachineInfo  
 );  
 ```  
   
 ```csharp  
-int GetInfo(   
-   enum_ MACHINE_INFO_FIELDS  Fields,  
-   MACHINE_INFO[]             pMachineInfo  
+int GetMachineInfo(   
+   enum_ MACHINE_INFO_FIELDS  Fields,  
+   MACHINE_INFO[]             pMachineInfo  
 );  
 ```  
   

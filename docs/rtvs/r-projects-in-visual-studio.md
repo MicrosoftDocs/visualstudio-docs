@@ -3,7 +3,6 @@ title: R projects
 description: How to create an manager R projects in Visual Studio including properties, project commands, and templates.
 ms.date: 06/29/2017
 ms.prod: visual-studio-dev15
-ms.technology: vs-rtvs
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
@@ -58,16 +57,17 @@ If you have an existing folder of *.R* files that you want to manage in a projec
 
 ## Project properties
 
-To open the project property pages, right-click the project in **Solution Explorer** and select **Properties**, or select the **Project > (project name) properties* menu item. The window that opens displays project properties:
+To open the project property pages, right-click the project in **Solution Explorer** and select **Properties**, or select the **Project > (project name) properties** menu item. The window that opens displays project properties:
 
-| Tab | Property | Description |
-| --- | --- | --- |
-| Run | Startup file | The name of the file that is run with **Source startup file** command, **F5**, **Debug > Start debugging**, or **Debug > Start without debugging**. Right-clicking the file in the project and selecting **Set as startup R script** also sets it as the startup file. |
-| | Reset R Interactive on Run | Clears all variables from the interactive window's workspace when running the project. Doing so guarantees that there's no residual workspace contents from pervious runs. |
-| | Remote Project Path | Path to a remote workspace. |
-| | Transfer files on run | Indicates whether the project files, subject to the filter in **Files to transfer**, are to be copied to a remote workspace with each run. |
-| | Files to transfer | Filenames and wildcards indicating the specific files to copy to a remote workspace if **Transfer files on run** is selected. |
-| Settings | (Settings.R file) | R project settings come from *Settings.R* or **.Settings.R* files that are located inside the project. If there is no settings file, you can add variables, save the page, and a default *Settings.R* file is created for you. You can also add settings file to the project through the **File** > **Add New Item** menu command. <br/> Settings are stored as R code and the file can be sourced before running other modules, thus pre-populating environment with the predefined settings. |
+
+| Tab | Property | Description | 
+| --- | --- | --- | 
+| Run | Startup file | The name of the file that is run with **Source startup file** command, **F5**, **Debug** > **Start debugging**, or **Debug** > **Start without debugging**. Right-clicking the file in the project and selecting **Set as startup R script** also sets it as the startup file. | 
+| | Reset R Interactive on Run | Clears all variables from the interactive window's workspace when running the project. Doing so guarantees that there's no residual workspace contents from pervious runs. | 
+| | Remote Project Path | Path to a remote workspace. | 
+| | Transfer files on run | Indicates whether the project files, subject to the filter in **Files to transfer**, are to be copied to a remote workspace with each run. | 
+| | Files to transfer | Filenames and wildcards indicating the specific files to copy to a remote workspace if **Transfer files on run** is selected. | 
+| Settings | (Settings.R file) | R project settings come from *Settings.R* or **.Settings.R* files that are located inside the project. If there is no settings file, you can add variables, save the page, and a default *Settings.R* file is created for you. You can also add settings file to the project through the **File** > **Add New Item** menu command. <br/> Settings are stored as R code and the file can be sourced before running other modules, thus pre-populating environment with the predefined settings. | 
 
 ## R-specific project commands
 

@@ -1,9 +1,6 @@
 ---
 title: "Custom document properties overview"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -15,8 +12,8 @@ helpviewer_keywords:
   - "Office documents [Office development in Visual Studio], custom properties"
   - "_AssemblyLocation property"
   - "_AssemblyName property"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -35,7 +32,7 @@ This property contains the CLSID of an interface in the Office solution loader c
 
 This property contains a string that provides details about the deployment manifest for the customization. For more information about manifests, see [Application and deployment manifests in Office solutions](../vsto/application-and-deployment-manifests-in-office-solutions.md).
 
- The_AssemblyLocation property value can have different formats, depending on how the solution is deployed:
+ The \_AssemblyLocation property value can have different formats, depending on how the solution is deployed:
 
 - If the solution is published to be installed from a Web site, UNC path, or a CD or USB drive, the _AssemblyLocation property has the format *DeploymentManifestPath*|*SolutionID*. The following string is an example:
 
@@ -45,12 +42,12 @@ This property contains a string that provides details about the deployment manif
 
      ExcelWorkbook1.vsto|74744e4b-e4d6-41eb-84f7-ad20346fe2d9|vstolocal
 
- The *SolutionID* is a GUID that the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] uses to identify the solution. The *SolutionID* is automatically generated when you build the project. The **vstolocal** term indicates to the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] that the assembly should be loaded from the same folder as the document.
+  The *SolutionID* is a GUID that the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] uses to identify the solution. The *SolutionID* is automatically generated when you build the project. The **vstolocal** term indicates to the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] that the assembly should be loaded from the same folder as the document.
 
 ## See also
 
 - [Architecture of Office solutions in Visual Studio](../vsto/architecture-of-office-solutions-in-visual-studio.md)
 - [Architecture of document-level customizations](../vsto/architecture-of-document-level-customizations.md)
 - [Application and deployment manifests in Office solutions](../vsto/application-and-deployment-manifests-in-office-solutions.md)
-- [How to: Publish an Office solution by using ClickOnce](http://msdn.microsoft.com/2b6c247e-bc04-4ce4-bb64-c4e79bb3d5b8)
+- [How to: Publish an Office solution by using ClickOnce](https://msdn.microsoft.com/2b6c247e-bc04-4ce4-bb64-c4e79bb3d5b8)
 - [How to: Create and modify custom document properties](../vsto/how-to-create-and-modify-custom-document-properties.md)

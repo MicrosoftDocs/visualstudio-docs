@@ -1,8 +1,6 @@
 ---
 title: "IDiaAddressMap::get_imageAlign | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves the current image alignment.
   
 ```C++  
 HRESULT get_imageAlign (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

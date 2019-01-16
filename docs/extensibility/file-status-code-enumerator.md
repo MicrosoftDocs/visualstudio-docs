@@ -1,9 +1,6 @@
 ---
 title: "File Status Code Enumerator | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "named constants, SccStatus enumerator"
@@ -24,24 +21,24 @@ The `SccStatus` enumerator contains named constant values that specify the state
   
 ```  
 enum SccStatus {  
-   SCC_STATUS_INVALID          = -1L,  
-   SCC_STATUS_NOTCONTROLLED    = 0x0000L,  
-   SCC_STATUS_CONTROLLED       = 0x0001L,  
-   SCC_STATUS_CHECKEDOUT       = 0x0002L,  
-   SCC_STATUS_OUTOTHER         = 0x0004L,  
-   SCC_STATUS_OUTEXCLUSIVE     = 0x0008L,  
-   SCC_STATUS_OUTMULTIPLE      = 0x0010L,  
-   SCC_STATUS_OUTOFDATE        = 0x0020L,  
-   SCC_STATUS_DELETED          = 0x0040L,  
-   SCC_STATUS_LOCKED           = 0x0080L,  
-   SCC_STATUS_MERGED           = 0x0100L,  
-   SCC_STATUS_SHARED           = 0x0200L,  
-   SCC_STATUS_PINNED           = 0x0400L,  
-   SCC_STATUS_MODIFIED         = 0x0800L,  
-   SCC_STATUS_OUTBYUSER        = 0x1000L  
-   SCC_STATUS_NOMERGE          = 0x2000L  
-   SCC_STATUS_RESERVED_1       = 0x4000L  
-   SCC_STATUS_RESERVED_2       = 0x8000L  
+   SCC_STATUS_INVALID          = -1L,  
+   SCC_STATUS_NOTCONTROLLED    = 0x0000L,  
+   SCC_STATUS_CONTROLLED       = 0x0001L,  
+   SCC_STATUS_CHECKEDOUT       = 0x0002L,  
+   SCC_STATUS_OUTOTHER         = 0x0004L,  
+   SCC_STATUS_OUTEXCLUSIVE     = 0x0008L,  
+   SCC_STATUS_OUTMULTIPLE      = 0x0010L,  
+   SCC_STATUS_OUTOFDATE        = 0x0020L,  
+   SCC_STATUS_DELETED          = 0x0040L,  
+   SCC_STATUS_LOCKED           = 0x0080L,  
+   SCC_STATUS_MERGED           = 0x0100L,  
+   SCC_STATUS_SHARED           = 0x0200L,  
+   SCC_STATUS_PINNED           = 0x0400L,  
+   SCC_STATUS_MODIFIED         = 0x0800L,  
+   SCC_STATUS_OUTBYUSER        = 0x1000L  
+   SCC_STATUS_NOMERGE          = 0x2000L  
+   SCC_STATUS_RESERVED_1       = 0x4000L  
+   SCC_STATUS_RESERVED_2       = 0x8000L  
 };  
 ```  
   

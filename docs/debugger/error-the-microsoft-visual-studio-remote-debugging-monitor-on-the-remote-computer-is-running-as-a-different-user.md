@@ -1,8 +1,8 @@
 ---
-title: "Error: The Microsoft Visual Studio Remote Debugging Monitor on the remote computer is running as a different user | Microsoft Docs"
-ms.custom: ""
+title: "Error: The Microsoft Visual Studio Remote Debugging Monitor on the remote computer is running as a different user"
+titleSuffix: ""
+ms.custom: "seodec18"
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "troubleshooting"
 dev_langs: 
   - "CSharp"

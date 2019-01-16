@@ -1,8 +1,6 @@
 ---
 title: "IDiaLoadCallback::NotifyDebugDir | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,9 +20,9 @@ Called when a debug directory was found in the .exe file.
   
 ```C++  
 HRESULT NotifyDebugDir (   
-   BOOL  fExecutable,  
-   DWORD cbData,  
-   BYTE  data[]  
+   BOOL  fExecutable,  
+   DWORD cbData,  
+   BYTE  data[]  
 );  
 ```  
   

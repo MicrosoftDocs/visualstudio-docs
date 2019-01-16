@@ -1,8 +1,6 @@
 ---
 title: "Error: Debugging Failed Because Integrated Windows Authentication Is Not Enabled | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "troubleshooting"
 f1_keywords: 
   - "vs.debug.error.webdbg_ntlm_authn_not_enabled"
@@ -112,4 +110,4 @@ Authentication of the user who requested debugging was prevented by an authentic
 ## See Also  
  [Debugging Web Applications: Errors and Troubleshooting](../debugger/debugging-web-applications-errors-and-troubleshooting.md)   
  [Microsoft Digest Authentication](http://go.microsoft.com/fwlink/?LinkId=77938)   
- [Running Web Applications on Windows Vista with IIS 7.0 and Visual Studio](http://msdn.microsoft.com/Library/262a82ac-dd0e-4096-86c6-fb463e88be66)
+ [Running Web Applications on Windows Vista with IIS 7.0 and Visual Studio](https://msdn.microsoft.com/Library/262a82ac-dd0e-4096-86c6-fb463e88be66)

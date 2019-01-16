@@ -1,10 +1,8 @@
 ---
 title: "PromptForSaveOnCreation Element (Visual Studio Templates) | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-general"
-ms.topic: "conceptual"
+ms.technology: vs-ide-general
+ms.topic: reference
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/vstemplate/2005#PromptForSaveOnCreation"
 helpviewer_keywords: 
@@ -16,7 +14,7 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# PromptForSaveOnCreation Element (Visual Studio Templates)
+# PromptForSaveOnCreation element (Visual Studio templates)
 Specifies whether the user is prompted for a project save location via the **New Project** dialog box when creating a project. If this element is set to `true`, then the user is prompted for a save location; if `false`, then they are not prompted. (That is, a temporary project is created.)  
   
  \<VSTemplate>  
@@ -25,26 +23,26 @@ Specifies whether the user is prompted for a project save location via the **New
   
 ## Syntax  
   
-```  
+```xml  
 <PromptForSaveOnCreation> true/false </PromptForSaveOnCreation>  
 ```  
   
-## Attributes and Elements  
+## Attributes and elements  
  The following sections describe attributes, child elements, and parent elements.  
   
 ### Attributes  
  None.  
   
-### Child Elements  
+### Child elements  
  None.  
   
-### Parent Elements  
+### Parent elements  
   
 |Element|Description|  
 |-------------|-----------------|  
 |[TemplateData](../extensibility/templatedata-element-visual-studio-templates.md)|Required element.<br /><br /> Categorizes the template and defines how it displays in either the **New Project** or the **Add New Item** dialog box.|  
   
-## Text Value  
+## Text value  
  A text value is required.  
   
  The text must be either `true` or `false`, `true` indicating that the user will be prompted for a save location when creating a new project.  
@@ -82,6 +80,6 @@ Specifies whether the user is prompted for a project save location via the **New
 </VSTemplate>  
 ```  
   
-## See Also  
- [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)   
- [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)
+## See also  
+ [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)   
+ [Create project and item templates](../ide/creating-project-and-item-templates.md)

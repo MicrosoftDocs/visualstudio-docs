@@ -1,9 +1,6 @@
 ---
 title: "SharePoint Project and Project Item Templates | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/22/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VS.SharePointTools.SPE.FirstWizardPage"
@@ -13,8 +10,6 @@ f1_keywords:
   - "VS.SharePointTools.SPE.ContentType"
   - "SPE.Wizard"
 dev_langs: 
-  - "VB"
-  - "CSharp"
   - "VB"
   - "CSharp"
 helpviewer_keywords: 
@@ -89,17 +84,17 @@ ms.workload:
 ### Event receiver
  *Event receivers* handle events for items in the SharePoint site, such as when an item is added to a list, when a web item is deleted, or when a workflow started. The event receiver project item template lets you handle  
   
--   List events  
+- List events  
   
--   List item events  
+- List item events  
   
--   List email events  
+- List email events  
   
--   Web events  
+- Web events  
   
--   List workflow events  
+- List workflow events  
   
- The event receiver project item creates an **Event Receiver** folder with a single class file that contains event handlers for all of the events you specified when you created the project in the **SharePoint Customization Wizard**. The event receiver class can handle events that occur on the SharePoint site when items such as files, fields, items, lists, attachments, web parts, and workflows are added, updated, deleted, or removed. For more information, see [How to: Create an event receiver](../sharepoint/how-to-create-an-event-receiver.md) and [Building Block: Event Handling](http://go.microsoft.com/fwlink/?LinkId=179416).  
+  The event receiver project item creates an **Event Receiver** folder with a single class file that contains event handlers for all of the events you specified when you created the project in the **SharePoint Customization Wizard**. The event receiver class can handle events that occur on the SharePoint site when items such as files, fields, items, lists, attachments, web parts, and workflows are added, updated, deleted, or removed. For more information, see [How to: Create an event receiver](../sharepoint/how-to-create-an-event-receiver.md) and [Building Block: Event Handling](http://go.microsoft.com/fwlink/?LinkId=179416).  
   
 ### List  
  A list is an instance of a reusable base SharePoint list definition, such as a calendar or a task list. After adding a list to your solution, the List Designer enables you to add site columns to the list and create custom list columns. This includes site columns from content types. You can specify the *view* for the list, which determines the columns that will appear in the list. For more information, see [Walkthrough: Create a site column, content type, and list for SharePoint](../sharepoint/walkthrough-create-a-site-column-content-type-and-list-for-sharepoint.md) and [Building Block: Lists and Document Libraries](http://go.microsoft.com/fwlink/?LinkId=179421).  
@@ -119,13 +114,13 @@ ms.workload:
 ### Site definition (farm solution only)
  *Site definition* project items contain a site definition folder that includes the following files:  
   
--   A default .aspx page, used as the default web page for the site.  
+- A default .aspx page, used as the default web page for the site.  
   
--   An *onet.xml* file that defines the components of the site.  
+- An *onet.xml* file that defines the components of the site.  
   
--   A webtemp xml file that specifies the site definition configurations that appear in the **Template Selection** section of the **New SharePoint Site** page.  
+- A webtemp xml file that specifies the site definition configurations that appear in the **Template Selection** section of the **New SharePoint Site** page.  
   
- After you add a site definition, you add code and files to introduce functionality. This project item can be used only in farm solutions. You can add this project item only to farm solutions. For more information, see [Create site definitions for SharePoint](../sharepoint/creating-site-definitions-for-sharepoint.md) and [Site Definitions and Configurations](http://go.microsoft.com/fwlink/?LinkId=260554).  
+  After you add a site definition, you add code and files to introduce functionality. This project item can be used only in farm solutions. You can add this project item only to farm solutions. For more information, see [Create site definitions for SharePoint](../sharepoint/creating-site-definitions-for-sharepoint.md) and [Site Definitions and Configurations](http://go.microsoft.com/fwlink/?LinkId=260554).  
   
 ### State machine workflow (farm solution only)
  A *state machine workflow* is a set of business logic states, transitions, and actions. The steps in a state machine workflow are not performed in sequence; instead, they are triggered by actions and states. Like a sequential workflow, state machine workflows are associated with SharePoint items such as lists and documents. Once again, you can create site-level (global) workflows or list-level (local) workflows. You can also select whether a workflow starts automatically or manually. This project item can be used only in farm solutions. You can add this project item only to farm solutions. For more information, see [Create SharePoint workflow solutions](../sharepoint/creating-sharepoint-workflow-solutions.md), [Workflows in SharePoint Server 2010](http://go.microsoft.com/fwlink/?LinkId=260555),  and [What's New: Workflow Improvements](http://go.microsoft.com/fwlink/?LinkId=179418).  
@@ -142,5 +137,3 @@ ms.workload:
 ## See also
  [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)   
  [SharePoint Products and Technologies](http://go.microsoft.com/fwlink/?LinkId=178818)  
-  
-  

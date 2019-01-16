@@ -1,8 +1,6 @@
 ---
 title: "IDiaAddressMap::put_addressMapEnabled | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Specifies whether the address map should be used to translate symbol addresses.
   
 ```C++  
 HRESULT put_addressMapEnabled (   
-   BOOL NewVal  
+   BOOL NewVal  
 );  
 ```  
   

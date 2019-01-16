@@ -1,8 +1,6 @@
 ---
 title: "&lt;dependency&gt; Element (ClickOnce Deployment) | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: vs-ide-deployment
 ms.topic: "reference"
 f1_keywords: 
   - "urn:schemas-microsoft-com:asm.v2#osVersionInfo"
@@ -30,11 +28,11 @@ ms.workload:
 ---
 # &lt;dependency&gt; element (ClickOnce deployment)
 Identifies the version of the application to install, and the location of the application manifest.  
-  
+
 ## Syntax  
-  
+
 ```xml  
-  
+
       <dependency>   
    <dependentAssembly  
       preRequisite  
@@ -61,30 +59,31 @@ Identifies the version of the application to install, and the location of the ap
          <dsig:DigestValue>  
          </dsig:DigestValue>  
       </hash>  
-  
+
    </dependentAssembly>   
 </dependency>  
 ```  
-  
+
 ## Elements and attributes  
  The `dependency` element is required. It has no attributes. A deployment manifest can have multiple `dependency` elements.  
-  
+
  The `dependency` element usually expresses dependencies for the main application on assemblies contained within a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application. If your Main.exe application consumes an assembly called DotNetAssembly.dll, then that assembly must be listed in a dependency section. Dependency, however, can also express other types of dependencies, such as dependencies on a specific version of the common language runtime, on an assembly in the global assembly cache (GAC), or on a COM object. Because it is a no-touch deployment technology, [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] cannot initiate download and installation of these types of dependencies, but it does prevent the application from running if one or more of the specified dependencies do not exist.  
-  
+
 ## dependentAssembly  
  Required. This element contains the `assemblyIdentity` element. The following table shows the attributes the `dependentAssembly` supports.  
-  
-|Attribute|Description|  
-|---------------|-----------------|  
-|`preRequisite`|Optional. Specifies that this assembly should already exist in the GAC. Valid values are `true` and `false`. If `true`, and the specified assembly does not exist in the GAC, the application fails to run.|  
-|`visible`|Optional. Identifies the top-level application identity, including its dependencies. Used internally by [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] to manage application storage and activation.|  
-|`dependencyType`|Required. The relationship between this dependency and the application. Valid values are:<br /><br /> -   `install`. Component represents a separate installation from the current application.<br />-   `preRequisite`. Component is required by the current application.|  
-|`codebase`|Optional. The full path to the application manifest.|  
-|`size`|Optional. The size of the application manifest, in bytes.|  
-  
+
+
+| Attribute | Description |
+|------------------| - |
+| `preRequisite` | Optional. Specifies that this assembly should already exist in the GAC. Valid values are `true` and `false`. If `true`, and the specified assembly does not exist in the GAC, the application fails to run. |
+| `visible` | Optional. Identifies the top-level application identity, including its dependencies. Used internally by [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] to manage application storage and activation. |
+| `dependencyType` | Required. The relationship between this dependency and the application. Valid values are:<br /><br /> -   `install`. Component represents a separate installation from the current application.<br />-   `preRequisite`. Component is required by the current application. |
+| `codebase` | Optional. The full path to the application manifest. |
+| `size` | Optional. The size of the application manifest, in bytes. |
+
 ## assemblyIdentity  
  Required. This element is a child of the `dependentAssembly` element. The content of `assemblyIdentity` must be the same as described in the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifest. The following table shows the attributes of the `assemblyIdentity` element.  
-  
+
 |Attribute|Description|  
 |---------------|-----------------|  
 |`Name`|Required. Identifies the name of the application.|  
@@ -93,38 +92,40 @@ Identifies the version of the application to install, and the location of the ap
 |`processorArchitecture`|Required. Specifies the microprocessor. The valid values are `x86` for 32-bit Windows and `IA64` for 64-bit Windows.|  
 |`Language`|Optional. Identifies the two part language codes of the assembly. For example, EN-US, which stands for English (U.S.). The default is `neutral`. This element is in the `asmv2` namespace.|  
 |`type`|Optional. For backwards compatibility with Windows side-by-side install technology. The only allowed value is `win32`.|  
-  
+
 ## hash  
  The `hash` element is an optional child of the `file` element. The `hash` element has no attributes.  
-  
+
  [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] uses an algorithmic hash of all the files in an application as a security check to ensure that none of the files were changed after deployment. If the `hash` element is not included, this check will not be performed. Therefore, omitting the `hash` element is not recommended.  
-  
+
 ## dsig:Transforms  
  The `dsig:Transforms` element is a required child of the `hash` element. The `dsig:Transforms` element has no attributes.  
-  
+
 ## dsig:Transform  
  The `dsig:Transform` element is a required child of the `dsig:Transforms` element. The following table shows the attributes of the `dsig:Transform` element.  
-  
-|Attribute|Description|  
-|---------------|-----------------|  
-|`Algorithm`|The algorithm used to calculate the digest for this file. Currently the only value used by [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] is `urn:schemas-microsoft-com:HashTransforms.Identity`.|  
-  
+
+
+| Attribute | Description |
+|-------------| - |
+| `Algorithm` | The algorithm used to calculate the digest for this file. Currently the only value used by [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] is `urn:schemas-microsoft-com:HashTransforms.Identity`. |
+
 ## dsig:DigestMethod  
  The `dsig:DigestMethod` element is a required child of the `hash` element. The following table shows the attributes of the `dsig:DigestMethod` element.  
-  
-|Attribute|Description|  
-|---------------|-----------------|  
-|`Algorithm`|The algorithm used to calculate the digest for this file. Currently the only value used by [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] is `http://www.w3.org/2000/09/xmldsig#sha1`.|  
-  
+
+
+| Attribute | Description |
+|-------------| - |
+| `Algorithm` | The algorithm used to calculate the digest for this file. Currently the only value used by [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] is `http://www.w3.org/2000/09/xmldsig#sha1`. |
+
 ## dsig:DigestValue  
  The `dsig:DigestValue` element is a required child of the `hash` element. The `dsig:DigestValue` element has no attributes. Its text value is the computed hash for the specified file.  
-  
+
 ## Remarks  
  Deployment manifests typically have a single `assemblyIdentity` element that identifies the name and version of the application manifest.  
-  
+
 ## Example  
  The following code example shows a `dependency` element in a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment manifest.  
-  
+
 ```xml  
 <!-- Identify the assembly dependencies -->  
 <dependency>  
@@ -140,10 +141,10 @@ Identifies the version of the application to install, and the location of the ap
   </dependentAssembly>  
 </dependency>  
 ```  
-  
+
 ## Example  
  The following code example specifies a dependency on an assembly already installed in the GAC.  
-  
+
 ```xml  
 <dependency>  
   <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">  
@@ -151,10 +152,10 @@ Identifies the version of the application to install, and the location of the ap
   </dependentAssembly>  
 </dependency>  
 ```  
-  
+
 ## Example  
  The following code example specifies a dependency on a specific version of the common language runtime.  
-  
+
 ```xml  
 <dependency>  
   <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">  
@@ -162,10 +163,10 @@ Identifies the version of the application to install, and the location of the ap
   </dependentAssembly>  
 </dependency>  
 ```  
-  
+
 ## Example  
  The following code example specifies an operating system dependency.  
-  
+
 ```xml  
 <dependency>  
    <dependentOS supportUrl="http://www.microsoft.com" description="Microsoft Windows Operating System">  
@@ -175,7 +176,7 @@ Identifies the version of the application to install, and the location of the ap
    </dependentOS>  
 </dependency>  
 ```  
-  
+
 ## See also  
  [ClickOnce deployment manifest](../deployment/clickonce-deployment-manifest.md)   
  [\<dependency> element](../deployment/dependency-element-clickonce-application.md)

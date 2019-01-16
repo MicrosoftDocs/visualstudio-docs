@@ -1,9 +1,6 @@
 ---
 title: "Checklist: Creating New Project Types | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "projects [Visual Studio SDK], creating new types"
@@ -30,7 +27,7 @@ You must complete several tasks to create a new project type. The following chec
   
     -   Project factory, to manage creating new projects and opening existing projects. For more information, see [Create project instances by using project factories](../../extensibility/internals/creating-project-instances-by-using-project-factories.md).  
   
-    -   Project hierarchy and command handling. For more information, see [Use HierUtil7 project classes to implement a project type (C++)](http://msdn.microsoft.com/en-us/a5c16a09-94a2-46ef-87b5-35b815e2f346), [Elements of a project model](../../extensibility/internals/elements-of-a-project-model.md), [Project model core components](../../extensibility/internals/project-model-core-components.md), and [MenuCommands vs. OleMenuCommands](../../extensibility/menucommands-vs-olemenucommands.md).  
+    -   Project hierarchy and command handling. For more information, see [Use HierUtil7 project classes to implement a project type (C++)](https://msdn.microsoft.com/library/a5c16a09-94a2-46ef-87b5-35b815e2f346), [Elements of a project model](../../extensibility/internals/elements-of-a-project-model.md), [Project model core components](../../extensibility/internals/project-model-core-components.md), and [MenuCommands vs. OleMenuCommands](../../extensibility/menucommands-vs-olemenucommands.md).  
   
     -   Project items management, including adding your project to the **New Project** dialog box. For more information, see [Add project and project item templates](../../extensibility/internals/adding-project-and-project-item-templates.md) and [Register project and item templates](../../extensibility/internals/registering-project-and-item-templates.md).  
   

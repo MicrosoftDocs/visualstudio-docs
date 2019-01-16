@@ -1,8 +1,6 @@
 ---
 title: "Context operator in the debugger (C++) | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.operators"
@@ -47,17 +45,17 @@ You can use the context operator in C++ to qualify a breakpoint location, variab
     EXAMPLE.dll!SomeFunction  
     ```  
   
--   *module* is the name of a module. You can use a full path to disambiguate between modules with the same name.  
+- *module* is the name of a module. You can use a full path to disambiguate between modules with the same name.  
   
-     If the *module* path includes a comma, an embedded space, or a brace, you must use quotation marks around the path so that the context parser can properly recognize the string. Single quotation marks are considered part of a Windows file name, so you must use double quotation marks. For example,  
+   If the *module* path includes a comma, an embedded space, or a brace, you must use quotation marks around the path so that the context parser can properly recognize the string. Single quotation marks are considered part of a Windows file name, so you must use double quotation marks. For example,  
   
-    ```C++  
-    {,,"a long, long, library name.dll"} g_Var  
-    ```  
+  ```C++  
+  {,,"a long, long, library name.dll"} g_Var  
+  ```  
   
--   *expression* is any valid C++ expression that resolves to a valid target, such as a function name, variable name, or pointer address in *module*.  
+- *expression* is any valid C++ expression that resolves to a valid target, such as a function name, variable name, or pointer address in *module*.  
   
- When the expression evaluator encounters a symbol in an expression, it searches for the symbol in the following order:  
+  When the expression evaluator encounters a symbol in an expression, it searches for the symbol in the following order:  
   
 1.  Lexical scope outward, starting with the current block, series of statements enclosed in braces, and continuing outward with the enclosing block. The current block is the code containing the current location, instruction pointer address.  
   

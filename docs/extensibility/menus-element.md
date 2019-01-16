@@ -1,9 +1,6 @@
 ---
 title: "Menus Element | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "VSCT XML schema elements, Menus"
@@ -15,43 +12,43 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Menus Element
+# Menus element
 Defines all the menus and toolbars that a VSPackage implements.  
   
 ## Syntax  
   
-```  
+```xml  
 <Menus>  
   <Menu>... </Menu>  
   <Menu>... </Menu>  
 </Menus>  
 ```  
   
-## Attributes and Elements  
+## Attributes and elements  
  The following sections describe attributes, child elements, and parent elements.  
   
 ### Attributes  
   
 |Attribute|Description|  
 |---------------|-----------------|  
-|Condition|Optional. See [Conditional Attributes](../extensibility/vsct-xml-schema-conditional-attributes.md).|  
+|Condition|Optional. See [Conditional attributes](../extensibility/vsct-xml-schema-conditional-attributes.md).|  
   
 ### Child Elements  
   
 |Element|Description|  
 |-------------|-----------------|  
-|[Menus Element](../extensibility/menus-element.md)|Defines all the menus and toolbars that a VSPackage implements.|  
-|[Menu Element](../extensibility/menu-element.md)|Represents a single menu or toolbar.|  
+|[Menus element](../extensibility/menus-element.md)|Defines all the menus and toolbars that a VSPackage implements.|  
+|[Menu element](../extensibility/menu-element.md)|Represents a single menu or toolbar.|  
   
-### Parent Elements  
+### Parent elements  
   
 |Element|Description|  
 |-------------|-----------------|  
-|[Commands Element](../extensibility/commands-element.md)|Represents the collection of commands in the VSPackage.|  
+|[Commands element](../extensibility/commands-element.md)|Represents the collection of commands in the VSPackage.|  
   
 ## Example  
   
-```  
+```xml  
 <Commands package="guidMyPackage">  
     <Menus>  
       <Menu Condition="'%(DEBUG)' != 'true'"   
@@ -74,6 +71,6 @@ Defines all the menus and toolbars that a VSPackage implements.
 <Commands>  
 ```  
   
-## See Also  
- [How VSPackages Add User Interface Elements](../extensibility/internals/how-vspackages-add-user-interface-elements.md)   
- [Commands, Menus, and Toolbars](../extensibility/internals/commands-menus-and-toolbars.md)
+## See also  
+ [How VSPackages add user interface elements](../extensibility/internals/how-vspackages-add-user-interface-elements.md)   
+ [Commands, menus, and toolbars](../extensibility/internals/commands-menus-and-toolbars.md)

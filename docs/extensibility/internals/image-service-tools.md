@@ -1,6 +1,5 @@
 ---
 title: "Image Service Tools | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 2ddb0342-eb22-429a-bdf3-ccc2719a7ceb

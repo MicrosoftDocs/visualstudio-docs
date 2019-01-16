@@ -1,8 +1,6 @@
 ---
 title: "How to: Stop Code Changes | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
@@ -28,12 +26,12 @@ While Edit and Continue is in the process of applying code changes, you can stop
   
 ### To stop applying code changes  
   
--   Choose **Stop Applying Code Changes** from the **Debug** menu.  
+- Choose **Stop Applying Code Changes** from the **Debug** menu.  
   
- This menu item is visible only when code changes are being applied.  
+  This menu item is visible only when code changes are being applied.  
   
- If you choose this option, none of the code changes are committed.  
+  If you choose this option, none of the code changes are committed.  
   
 ## See Also  
  [Edit and Continue](../debugger/edit-and-continue.md)   
- [Edit and Continue, Debugging, Options Dialog Box](http://msdn.microsoft.com/Library/009d225f-ef65-463f-a146-e4c518f86103)
+ [Edit and Continue, Debugging, Options Dialog Box](https://msdn.microsoft.com/library/bcew296c.aspx)

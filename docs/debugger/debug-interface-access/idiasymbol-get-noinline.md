@@ -1,8 +1,6 @@
 ---
 title: "IDiaSymbol::get_noInline | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves a flag that specifies whether the function has been marked as being no
   
 ```C++  
 HRESULT get_noInline(  
-   BOOL *pFlag  
+   BOOL *pFlag  
 );  
 ```  
   

@@ -1,9 +1,6 @@
 ---
 title: "IDebugProperty2::GetMemoryContext | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProperty2::GetMemoryContext"
@@ -23,13 +20,13 @@ Gets the memory context of the property value.
   
 ```cpp  
 HRESULT GetMemoryContext (   
-   IDebugMemoryContext2** ppMemory  
+   IDebugMemoryContext2** ppMemory  
 );  
 ```  
   
 ```csharp  
 int GetMemoryContext(  
-   out IDebugMemoryContext2 ppMemory  
+   out IDebugMemoryContext2 ppMemory  
 );  
 ```  
   

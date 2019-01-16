@@ -1,9 +1,6 @@
 ---
 title: "IDebugStackFrame3::InterceptCurrentException | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugStackFrame3::InterceptCurrentException"
@@ -23,15 +20,15 @@ Called by the debugger on the current stack frame when it wants to intercept the
   
 ```cpp  
 HRESULT InterceptCurrentException(  
-   INTERCEPT_EXCEPTION_ACTION dwFlags,  
-   UINT64*                    pqwCookie  
+   INTERCEPT_EXCEPTION_ACTION dwFlags,  
+   UINT64*                    pqwCookie  
 );  
 ```  
   
 ```csharp  
 int InterceptCurrentException(  
-   uint dwFlags,   
-   out  ulong pqwCookie  
+   uint dwFlags,   
+   out  ulong pqwCookie  
 );  
 ```  
   

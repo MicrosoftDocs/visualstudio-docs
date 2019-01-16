@@ -1,8 +1,6 @@
 ---
 title: "ParameterGroup Element | Microsoft Docs"
-ms.custom: ""
 ms.date: "03/13/2017"
-ms.technology: msbuild
 ms.topic: "reference"
 dev_langs: 
   - "VB"
@@ -46,23 +44,23 @@ Contains an optional list of parameters that will be present on the task that is
 
 ### Parent elements  
 
-|Element|Description|  
-|-------------|-----------------|  
-|[UsingTask](../msbuild/usingtask-element-msbuild.md)|Provides a way to register tasks in [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]. There may be zero or more `UsingTask` elements in a project.|  
+| Element | Description |
+| - | - |
+| [UsingTask](../msbuild/usingtask-element-msbuild.md) | Provides a way to register tasks in [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]. There may be zero or more `UsingTask` elements in a project. |
 
 ## Example  
  The following example shows how to use the `ParameterGroup` element.  
 
 ```xml  
 <UsingTask TaskName="MyTask" AssemblyName="My.Assembly" TaskFactory="MyTaskFactory">  
-       <ParameterGroup>  
-              <Parameter1 ParameterType="System.String" Required="False" Output="False"/>  
-              <Parameter2 ParameterType="System.Int" Required="True" Output="False"/>  
-             ...  
+       <ParameterGroup>  
+              <Parameter1 ParameterType="System.String" Required="False" Output="False"/>  
+              <Parameter2 ParameterType="System.Int" Required="True" Output="False"/>  
+             ...  
 </ParameterGroup>  
-       <TaskBody Evaluate="true">  
-      ... Task factory-specific data ...  
-       </TaskBody>  
+       <TaskBody Evaluate="true">  
+      ... Task factory-specific data ...  
+       </TaskBody>  
 </UsingTask>  
 ```  
 

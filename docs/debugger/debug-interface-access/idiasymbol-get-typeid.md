@@ -1,8 +1,6 @@
 ---
 title: "IDiaSymbol::get_typeId | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves the type identifier of the symbol.
   
 ```C++  
 HRESULT get_typeId (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

@@ -1,8 +1,6 @@
 ---
 title: "OnError Element (MSBuild) | Microsoft Docs"
-ms.custom: ""
 ms.date: "03/13/2017"
-ms.technology: msbuild
 ms.topic: "reference"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#OnError"
@@ -50,9 +48,9 @@ Causes one or more targets to execute, if the `ContinueOnError` attribute is `fa
 
 ### Parent elements  
 
-|Element|Description|  
-|-------------|-----------------|  
-|[Target](../msbuild/target-element-msbuild.md)|Container element for [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] tasks.|  
+| Element | Description |
+| - | - |
+| [Target](../msbuild/target-element-msbuild.md) | Container element for [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] tasks. |
 
 ## Remarks  
  [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] executes the `OnError` element if one of the `Target` element's tasks fails with the `ContinueOnError` attribute set to `ErrorAndStop` (or `false`). When the task fails, the targets specified in the `ExecuteTargets` attribute is executed. If there is more than one `OnError` element in the target, the `OnError` elements are executed sequentially when the task fails.  

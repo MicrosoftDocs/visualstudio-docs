@@ -1,8 +1,6 @@
 ---
 title: "How to: Create a Profiling Tools ETW Report | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: bf5547b3-f6c7-4989-9d47-2fe4f1261444
 author: "mikejo5000"
@@ -17,11 +15,11 @@ The Event Tracing for Windows (ETW) report lists the ETW events that are recorde
 > [!NOTE]
 >  You cannot display ETW reports in the interface for [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
--   For information about how to collect ETW data by using the interface for [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], see [How to: Collect Event Tracing for Windows (ETW) data](../profiling/how-to-collect-event-tracing-for-windows-etw-data.md).  
+- For information about how to collect ETW data by using the interface for [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], see [How to: Collect Event Tracing for Windows (ETW) data](../profiling/how-to-collect-event-tracing-for-windows-etw-data.md).  
   
--   For information about how to collect ETW data from a command prompt, see [VSPerfCmd](../profiling/vsperfcmd.md) and [Events](../profiling/events-vsperfcmd.md).  
+- For information about how to collect ETW data from a command prompt, see [VSPerfCmd](../profiling/vsperfcmd.md) and [Events](../profiling/events-vsperfcmd.md).  
   
- You generate the ETW report by using the **VSReport/summary:etw** command. The .*etl* that contains the ETW data must be in the same directory as the profiling data (.*vsp* or .*vsps*) file. By default, the report is generated as a comma-separated value (.*csv*) file. For more information, see [VSPerfReport](../profiling/vsperfreport.md).  
+  You generate the ETW report by using the **VSReport/summary:etw** command. The .*etl* that contains the ETW data must be in the same directory as the profiling data (.*vsp* or .*vsps*) file. By default, the report is generated as a comma-separated value (.*csv*) file. For more information, see [VSPerfReport](../profiling/vsperfreport.md).  
   
 ### To generate an ETW report  
   

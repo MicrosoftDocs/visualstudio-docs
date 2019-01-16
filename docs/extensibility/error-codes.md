@@ -1,9 +1,6 @@
 ---
 title: "Error Codes | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "error codes, source control plug-ins"
@@ -16,7 +13,7 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Error Codes
+# Error codes
 When a Source Control Plug-in API function returns an error, it is expected to be one of the following error codes. All errors are negative, warnings or informational error codes are positive, and success is 0.  
   
 |Error Code|Value|Description|  
@@ -61,7 +58,7 @@ When a Source Control Plug-in API function returns an error, it is expected to b
 |`SCC_E_UNKNOWNERROR`|-30|Unknown error.|  
 |`SCC_E_BACKGROUNDGETINPROGRESS`|-31|Background get operation is currently in progress.|  
   
-## Macros Provided for Quick Checking  
+## Macros provided for quick checking  
   
 ```cpp  
 IS_SCC_ERROR(rtn) (((rtn) < 0) ? TRUE : FALSE)  
@@ -76,5 +73,5 @@ IS_SCC_WARNING(rtn) (((rtn) > 0) ? TRUE : FALSE)
   
  The source control plug-in should make no assumptions regarding privileges on a file in the working folder, even if the plug-in had marked the file read-only during some operation. A file in the working folder can be moved, deleted, and changed outside the plug-in's control.  
   
-## See Also  
- [Source Control Plug-ins](../extensibility/source-control-plug-ins.md)
+## See also  
+ [Source control plug-ins](../extensibility/source-control-plug-ins.md)

@@ -1,13 +1,13 @@
 ---
 title: Mixed-mode debugging for Python
-description: How to simultaneously debug C++ and Python in Visual Studio including stepping between environments, viewing values, and evaluating expressions.
-ms.date: 06/26/2018
+description: Simultaneously debug C++ and Python in Visual Studio including stepping between environments, viewing values, and evaluating expressions.
+ms.date: 11/12/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-python
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
 manager: douge
+ms.custom: seodec18
 ms.workload: 
   - python
   - data-science
@@ -30,7 +30,7 @@ Mixed-mode debugging features include the following, as explained in this articl
 - See Python representations of objects in native frames and vice versa
 - Debugging within the context of the Python project or the C++ project
 
-![Mixed-mode debugging](media/mixed-mode-debugging.png)
+![Mixed-mode debugging for Python in Visual Studio](media/mixed-mode-debugging.png)
 
 |   |   |
 |---|---|
@@ -72,7 +72,7 @@ Using this method, be aware that you can't debug the *py.exe* launcher itself, b
 
 For all previous versions of Visual Studio, direct mixed-mode debugging is enabled only when launching a Python project in Visual Studio because C/C++ projects use only the native debugger. You can, however, attach the debugger separately:
 
-1. Start the C++ project without debugging (**Debug** > **Start without debugging** or **Ctrl**+**F5**).
+1. Start the C++ project without debugging (**Debug** > **Start without Debugging** or **Ctrl**+**F5**).
 1. Select **Debug** > **Attach to Process**. In the dialog that appears, select the appropriate process, then use the **Select** button to open the **Select Code Type** dialog in which you can select **Python**:
 
     ![Selecting Python as the debugging type when attaching a debugger](media/mixed-mode-debugging-attach-type.png)
@@ -91,7 +91,7 @@ For all previous versions of Visual Studio, direct mixed-mode debugging is enabl
 
 The **Call Stack** window shows both native and Python stack frames interleaved, with transitions marked between the two:
 
-![Combined call stack](media/mixed-mode-debugging-call-stack.png)
+![Combined call stack with mixed-mode debugging](media/mixed-mode-debugging-call-stack.png)
 
 Transitions appear as **[External Code]**, without specifying the direction of transition, if the **Tools** > **Options** > **Debugging** > **General** > **Enable Just My Code** option is set.
 
@@ -99,17 +99,17 @@ Double-clicking any call frame makes it active and opens the appropriate source 
 
 ### Step between Python and native code
 
-When using the **Step Into** (**F11**) or **Step Out** (**Shift**+**F11**) commands, the mixed-mode debugger correctly handles changes between code types. For example, when Python calls a method of a type that is implemented in C, stepping in on a call to that method stops at the beginning of the native function implementing the method. Similarly, when native code calls some Python API function that results in Python code being invoked. For example, stepping into a `PyObject_CallObject` on a function value that was originally defined in Python stops at the beginning of the Python function. Stepping in from Python to native is also supported for native functions invoked from Python via [ctypes](http://docs.python.org/3/library/ctypes.html).
+When using the **Step Into** (**F11**) or **Step Out** (**Shift**+**F11**) commands, the mixed-mode debugger correctly handles changes between code types. For example, when Python calls a method of a type that is implemented in C, stepping in on a call to that method stops at the beginning of the native function implementing the method. Similarly, when native code calls some Python API function that results in Python code being invoked. For example, stepping into a `PyObject_CallObject` on a function value that was originally defined in Python stops at the beginning of the Python function. Stepping in from Python to native is also supported for native functions invoked from Python via [ctypes](https://docs.python.org/3/library/ctypes.html).
 
 ### PyObject values view in native code
 
 When a native (C or C++) frame is active, its local variables show up in the debugger **Locals** window. In native Python extension modules, many of these variables are of type `PyObject` (which is a typedef for `_object`), or a few other fundamental Python types (see list below). In mixed-mode debugging, these values present an additional child node labeled **[Python view]**. When expanded, this node shows the variable's Python representation, identical to what you'd see if a local variable referencing the same object was present in a Python frame. The children of this node are editable.
 
-![Python View](media/mixed-mode-debugging-python-view.png)
+![Python View in the Locals window](media/mixed-mode-debugging-python-view.png)
 
 To disable this feature, right-click anywhere in the **Locals** window and toggle the **Python** > **Show Python View Nodes** menu option:
 
-![Enabling Python View](media/mixed-mode-debugging-enable-python-view.png)
+![Enabling Python View in the Locals window](media/mixed-mode-debugging-enable-python-view.png)
 
 C types that show **[Python view]** nodes (if enabled):
 
@@ -132,17 +132,17 @@ C types that show **[Python view]** nodes (if enabled):
 
 For Python 2.x, however, each object type typically declares its header as a collection of inline fields, and there is no association between custom authored types and `PyObject` at the type system level in C/C++ code. To enable **[Python view]** nodes for such custom types, edit the *PythonDkm.natvis* file in the [Python tools install directory](installing-python-support-in-visual-studio.md#install-locations), and add another element in the XML for your C struct or C++ class.
 
-An alternate (and better) option is to follow [PEP 3123](http://www.python.org/dev/peps/pep-3123/) and use an explicit `PyObject ob_base;` field rather than `PyObject_HEAD`, though that may not always be possible for backwards-compatibility reasons.
+An alternate (and better) option is to follow [PEP 3123](https://www.python.org/dev/peps/pep-3123/) and use an explicit `PyObject ob_base;` field rather than `PyObject_HEAD`, though that may not always be possible for backwards-compatibility reasons.
 
 ### Native values view in Python code
 
 Similar to the previous section, you can enable a **[C++ view]** for native values in the **Locals** window when a Python frame is active. This feature is not enabled by default, so you turn it on by right-clicking in the **Locals** window and toggling the **Python** > **Show C++ View Nodes** menu option.
 
-![Enabling C++ View](media/mixed-mode-debugging-enable-cpp-view.png)
+![Enabling C++ View in the Locals window](media/mixed-mode-debugging-enable-cpp-view.png)
 
 The **[C++ view]** node provides a representation of the underlying C/C++ structure for a value, identical to what you'd see in a native frame. For example, it shows an instance of `_longobject` (for which `PyLongObject` is a typedef) for a Python long integer, and it tries to infer types for native classes that you have authored yourself. The children of this node are editable.
 
-![C++ View](media/mixed-mode-debugging-cpp-view.png)
+![C++ View in the Locals window](media/mixed-mode-debugging-cpp-view.png)
 
 If a child field of an object is of type `PyObject`, or one of the other supported types, then it has a **[Python view]** representation node (if those representations are enabled), making it possible to navigate object graphs where links are not directly exposed to Python.
 

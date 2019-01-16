@@ -24,7 +24,7 @@ Determines if this thread is the debugger thread.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT QueryIsDebuggerThread();  
 ```  
   

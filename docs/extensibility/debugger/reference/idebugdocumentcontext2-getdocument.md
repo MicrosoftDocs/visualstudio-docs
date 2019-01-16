@@ -1,9 +1,6 @@
 ---
 title: "IDebugDocumentContext2::GetDocument | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugDocumentContext2::GetDocument"
@@ -23,13 +20,13 @@ Gets the document that contains this document context.
   
 ```cpp  
 HRESULT GetDocument(   
-   IDebugDocument2** ppDocument  
+   IDebugDocument2** ppDocument  
 );  
 ```  
   
 ```csharp  
 int GetDocument(   
-   out IDebugDocument2 ppDocument  
+   out IDebugDocument2 ppDocument  
 );  
 ```  
   

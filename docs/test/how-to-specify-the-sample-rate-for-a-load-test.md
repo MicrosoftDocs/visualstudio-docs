@@ -1,5 +1,5 @@
 ---
-title: "How to: Specify the Sample Rate for a Load Test Run Setting in Visual Studio"
+title: "How to: Specify the Sample Rate for a Load Test Run Setting"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -9,11 +9,12 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ---
 # How to: Specify the sample rate for a load test run setting
 
 After you create your load test with the **New Load Test Wizard**, you can use the **Load Test Editor** to change the properties to meet your testing needs and goals.
+
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
 Using the **Load Test Editor**, you can edit a run setting's **Sample Rate** property's value in the **Properties** window. For a complete list of the run settings properties and their descriptions, see [Load test run settings properties](../test/load-test-run-settings-properties.md).
 
@@ -22,7 +23,7 @@ Choose an appropriate value for the **Sample Rate** property for the load test r
 Here are some guidelines for sample rates:
 
 |Load Test Duration|Recommended Sample Rate|
-|------------------------|-----------------------------|
+|-|-----------------------------|
 |\< 1 Hour|5 seconds|
 |1 - 8 Hours|15 seconds|
 |8 - 24 Hours|30 seconds|

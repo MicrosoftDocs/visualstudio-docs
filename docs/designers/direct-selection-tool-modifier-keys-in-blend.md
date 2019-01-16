@@ -2,7 +2,6 @@
 title: Direct Selection tool modifier keys in Blend
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-designers
 ms.topic: conceptual
 ms.assetid: 21f9b951-dc2b-4d09-bd70-75caed8fb964
 author: gewarren
@@ -15,7 +14,7 @@ ms.workload:
 The following table lists shortcuts that you can use to modify the shape of an existing path with the **Direct Selection** tool ![Direct selection tool](../designers/media/6dd6571f-c116-451d-8dd2-1f88b8406362.png). To add or remove points on an existing path, or to join two existing paths, use the **Pen** tool.
 
 |To do this action|Do this|Pointer|
-|-----------------------|-------------|-------------|
+| - |-------------|-------------|
 |Make tangent handles appear for a point on a path|Click a point on a path|![Make tangent handles appear for a point on a path](../designers/media/cfcc5f41-a666-4524-a958-50b9051130ca.png)<br /><br /> Move point pointer|
 |Move a point on a path|Drag a point on a path|![Move a point on a path](../designers/media/cfcc5f41-a666-4524-a958-50b9051130ca.png)<br /><br /> Move point pointer|
 |Make tangent handles appear for a segment between two points on a path|Click a segment of a path|![Make tangent handles appear for a segment between two points on a path](../designers/media/2ace930f-98fa-410b-92cf-7a4b88503ee7.png)<br /><br /> Move segment pointer|

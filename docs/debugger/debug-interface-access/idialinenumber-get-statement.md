@@ -1,8 +1,6 @@
 ---
 title: "IDiaLineNumber::get_statement | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves a flag indicating that this line information describes the beginning o
   
 ```C++  
 HRESULT get_statement (   
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 );  
 ```  
   

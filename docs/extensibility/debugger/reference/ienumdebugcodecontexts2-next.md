@@ -1,9 +1,6 @@
 ---
 title: "IEnumDebugCodeContexts2::Next | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IEnumDebugCodeContexts2::Next"
@@ -23,17 +20,17 @@ Returns the next set of elements from the enumeration.
   
 ```cpp  
 HRESULT Next(  
-   ULONG                celt,  
-   IDebugCodeContext2** rgelt,  
-   ULONG*               pceltFetched  
+   ULONG                celt,  
+   IDebugCodeContext2** rgelt,  
+   ULONG*               pceltFetched  
 );  
 ```  
   
 ```csharp  
 int Next(  
-   uint                 celt,  
-   IDebugCodeContext2[] rgelt,  
-   ref uint             pceltFetched  
+   uint                 celt,  
+   IDebugCodeContext2[] rgelt,  
+   ref uint             pceltFetched  
 );  
 ```  
   

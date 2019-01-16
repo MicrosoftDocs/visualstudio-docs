@@ -1,9 +1,7 @@
 ---
 title: "MSBuild Items | Microsoft Docs"
 description: "Use the MSBuild Include attribute of the ItemGroup to specify files to be included in a build"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: msbuild
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "MSBuild, Items"
@@ -29,7 +27,7 @@ MSBuild items are inputs into the build system, and they typically represent fil
 </ItemGroup>  
 ```  
   
- The item *file2.cs* doesn't replace the item *file1.cs*; instead, the file name is appended to the list of values for the `Compile` item type. You can't remove an item from an item type during the evaluation phase of a build.  
+ The item *file2.cs* doesn't replace the item *file1.cs*; instead, the file name is appended to the list of values for the `Compile` item type.
   
  The following XML creates the same item type by declaring both files in one `Include` attribute. Notice that the file names are separated by a semicolon.  
   
@@ -54,25 +52,26 @@ MSBuild items are inputs into the build system, and they typically represent fil
  By default, the items of an item type are separated by semicolons (;) when it's expanded. You can use the syntax @(\<ItemType>, '\<separator>') to specify a separator other than the default. For more information, see [How to: Display an item list separated with commas](../msbuild/how-to-display-an-item-list-separated-with-commas.md).  
   
 ##  Use wildcards to specify items  
- You can use the **, \*, and ? wildcard characters to specify a group of files as inputs for a build instead of listing each file separately.  
-  
--   The ? wildcard character matches a single character.  
-  
--   The * wildcard character matches zero or more characters.  
-  
--   The ** wildcard character sequence matches a partial path.  
 
-For example, you can specify all the *.cs* files in the directory that contains the project file by using the following element in your project file.  
+You can use the `**`, `*`, and `?` wildcard characters to specify a group of files as inputs for a build instead of listing each file separately.
+  
+- The `?` wildcard character matches a single character.
+- The `*` wildcard character matches zero or more characters.
+- The `**` wildcard character sequence matches a partial path.
+
+For example, you can specify all the `.cs` files in the directory that contains the project file by using the following element in your project file.
 
 ```xml  
 <CSFile Include="*.cs"/>  
 ```  
 
-The following element selects all *.vb* files on the *D:* drive:  
+The following element selects all `.vb` files on the `D:` drive:
 
 ```xml  
 <VBFile Include="D:/**/*.vb"/>  
 ```  
+
+If you would like to include literal `*` or `?` characters in an item without wildcard expansion, you must [escape the wildcard characters](../msbuild/how-to-escape-special-characters-in-msbuild.md).
 
 For more information about wildcard characters, see [How to: Select the files to build](../msbuild/how-to-select-the-files-to-build.md).  
 
@@ -174,7 +173,7 @@ For more information about wildcard characters, see [How to: Select the files to
  Starting in the .NET Framework 3.5, `Target` elements may contain [ItemGroup](../msbuild/itemgroup-element-msbuild.md) elements that may contain item elements. The attributes in this section are valid when they are specified for an item in an `ItemGroup` that's in a `Target`.  
   
 ###  <a name="BKMK_RemoveAttribute"></a> Remove attribute  
- Items in an `ItemGroup` of a target may contain the `Remove` attribute, which removes specific items (files) from the item type. This attribute was introduced in the .NET Framework 3.5.  
+ The `Remove` attribute removes specific items (files) from the item type. This attribute was introduced in the .NET Framework 3.5, but was only supported inside targets until MSBuild 15.0.
   
  The following example removes every *.config* file from the Compile item type.  
   
@@ -316,12 +315,13 @@ Output:
 -->  
 ```  
   
-## See also  
+## See also
+ [Item element (MSBuild)](../msbuild/item-element-msbuild.md)  
+ [Common MSBuild project items](../msbuild/common-msbuild-project-items.md)  
  [MSBuild concepts](../msbuild/msbuild-concepts.md)  
  [MSBuild](../msbuild/msbuild.md)   
  [How to: Select the files to build](../msbuild/how-to-select-the-files-to-build.md)   
  [How to: Exclude files from the build](../msbuild/how-to-exclude-files-from-the-build.md)   
  [How to: Display an item list separated with commas](../msbuild/how-to-display-an-item-list-separated-with-commas.md)   
  [Item definitions](../msbuild/item-definitions.md)   
- [Batching](../msbuild/msbuild-batching.md)   
- [Item element (MSBuild)](../msbuild/item-element-msbuild.md)
+ [Batching](../msbuild/msbuild-batching.md)

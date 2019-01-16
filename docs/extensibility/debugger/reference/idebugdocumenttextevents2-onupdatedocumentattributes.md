@@ -1,9 +1,6 @@
 ---
 title: "IDebugDocumentTextEvents2::onUpdateDocumentAttributes | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugDocumentTextEvents2::OnUpdateDocumentAttributes"
@@ -23,13 +20,13 @@ Notifies receiver of the event that the document attributes have been updated.
   
 ```cpp  
 HRESULT onUpdateDocumentAttributes(   
-   TEXT_DOC_ATTR_2 textdocattr  
+   TEXT_DOC_ATTR_2 textdocattr  
 );  
 ```  
   
 ```csharp  
 int onUpdateDocumentAttributes(   
-   enum_TEXT_DOC_ATTR_2 textdocattr  
+   enum_TEXT_DOC_ATTR_2 textdocattr  
 );  
 ```  
   

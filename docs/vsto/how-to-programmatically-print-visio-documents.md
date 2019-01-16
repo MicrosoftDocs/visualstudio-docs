@@ -1,9 +1,6 @@
 ---
 title: "How to: Programmatically print Visio documents"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -20,7 +17,7 @@ ms.workload:
 # How to: Programmatically print Visio documents
   You can print a complete Microsoft Office Visio document or only a specific page.  
   
- For details about the print methods, see the VBA reference documentation for the [Microsoft.Office.Interop.Visio.Document.Print](https://msdn.microsoft.com/library/office/ff767996.aspx) method and [Microsoft.Office.Interop.Visio.Page.Print](https://msdn.microsoft.com/library/office/ff765064.aspx) method.  
+ For details about the print methods, see the VBA reference documentation for the [Microsoft.Office.Interop.Visio.Document.Print](/office/vba/api/Visio.Document.Print) method and [Microsoft.Office.Interop.Visio.Page.Print](/office/vba/api/Visio.Page.Print) method.  
   
 ## Print a Visio document  
   
@@ -51,5 +48,3 @@ ms.workload:
  [How to: Programmatically open Visio documents](../vsto/how-to-programmatically-open-visio-documents.md)   
  [How to: Programmatically close Visio documents](../vsto/how-to-programmatically-close-visio-documents.md)   
  [How to: Programmatically save Visio documents](../vsto/how-to-programmatically-save-visio-documents.md)  
-  
-  

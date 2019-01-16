@@ -3,7 +3,6 @@ title: "Workflow Designer - Sequence Activity Designer"
 ms.date: 11/04/2016
 ms.topic: reference
 ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 f1_keywords:
   - "System.Activities.Statements.Sequence.UI"
 ms.assetid: 51c8d3cb-4d43-458f-9631-b63755f9ac94
@@ -28,7 +27,7 @@ To add a <xref:System.Activities.Statements.Sequence> activity, drag the **Seque
 The following table shows the <xref:System.Activities.Statements.Sequence> properties and describes how they are used in the designer. These properties can be edited in property grid or on the designer surface.
 
 |Property Name|Required|Usage|
-|-------------------|--------------|-----------|
+|-|--------------|-|
 |<xref:System.Activities.Activity.DisplayName%2A>|False|Specifies the friendly name of the <xref:System.Activities.Statements.Sequence> activity designer in the header. The default value is Sequence. The value can be edited in the property grid or directly on the header of the activity designer.<br /><br /> Although the <xref:System.Activities.Activity.DisplayName%2A> is not strictly required, it is a best practice to use one.|
 
 ## See also

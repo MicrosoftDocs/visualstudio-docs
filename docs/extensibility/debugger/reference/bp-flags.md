@@ -1,9 +1,6 @@
 ---
 title: "BP_FLAGS | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "BP_FLAGS"
@@ -23,18 +20,18 @@ Provides optional flags that may be used to specify additional information when 
   
 ```cpp  
 enum enum_BP_FLAGS {   
-   BP_FLAG_NONE            = 0x0000,  
-   BP_FLAG_MAP_DOCPOSITION = 0x0001,  
-   BP_FLAG_DONT_STOP       = 0x0002  
+   BP_FLAG_NONE            = 0x0000,  
+   BP_FLAG_MAP_DOCPOSITION = 0x0001,  
+   BP_FLAG_DONT_STOP       = 0x0002  
 };  
 typedef DWORD BP_FLAGS;  
 ```  
   
 ```csharp  
 public enum enum_BP_FLAGS {   
-   BP_FLAG_NONE            = 0x0000,  
-   BP_FLAG_MAP_DOCPOSITION = 0x0001,  
-   BP_FLAG_DONT_STOP       = 0x0002  
+   BP_FLAG_NONE            = 0x0000,  
+   BP_FLAG_MAP_DOCPOSITION = 0x0001,  
+   BP_FLAG_DONT_STOP       = 0x0002  
 };  
 ```  
   

@@ -1,8 +1,6 @@
 ---
 title: "Analyze energy use in UWP apps | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
@@ -23,21 +21,21 @@ The Visual Studio **Energy Consumption** profiler helps you analyze the power an
  The Energy Consumption profiler captures the activities of the display, CPU, and network connections of a device during a profiling session. It then generates estimates of the power used for those activities and the total amount of energy for the profiling session.  
   
 > [!NOTE]
->  The energy profiler estimates power and energy use by using a software model of standard reference device hardware that is representative of the low powered tablet devices your application might run on. To provide the best estimates, we recommend that you collect the profile data on a low powered tablet device.  
+> The energy profiler estimates power and energy use by using a software model of standard reference device hardware that is representative of the low powered tablet devices your application might run on. To provide the best estimates, we recommend that you collect the profile data on a low powered tablet device.  
 >   
->  Although the model provides good estimates for a variety of low-powered devices, the actual values of the device you profile will likely be different. Use the values to find display, CPU, and network activities that are costly relative to other resource uses and so might be good candidates for optimization.  
+> Although the model provides good estimates for a variety of low-powered devices, the actual values of the device you profile will likely be different. Use the values to find display, CPU, and network activities that are costly relative to other resource uses and so might be good candidates for optimization.  
   
  The Energy Consumption profiler uses these definitions of *power* and *energy*:  
   
--   *Power* measures the rate that force is used to perform work that is done in a period of time. In electrical science, the standard unit of power is a *watt*, which is defined as the rate at which work is done when one ampere of current flows through an electrical potential difference of one volt. In the **Power Usage** graph, the units are displayed as milliwatts **mW** which are one thousandth  of a watt.  
+- *Power* measures the rate that force is used to perform work that is done in a period of time. In electrical science, the standard unit of power is a *watt*, which is defined as the rate at which work is done when one ampere of current flows through an electrical potential difference of one volt. In the **Power Usage** graph, the units are displayed as milliwatts **mW** which are one thousandth  of a watt.  
   
-     Note that because power is a rate, it has a direction (the work can increase or decrease in a period of time) and a speed (the amount that the work increases or decreases).  
+   Note that because power is a rate, it has a direction (the work can increase or decrease in a period of time) and a speed (the amount that the work increases or decreases).  
   
--   *Energy* measures the total amount of power, either as a capacity or potential, as in the power capacity of a battery, or as the total amounted of power expended over a period of time. The unit of energy is a watt-hour, the amount of power of one watt constantly applied for one hour. In the **Energy Summary**, the units are displayed as milliwatt-hours **mW-h**.  
+- *Energy* measures the total amount of power, either as a capacity or potential, as in the power capacity of a battery, or as the total amounted of power expended over a period of time. The unit of energy is a watt-hour, the amount of power of one watt constantly applied for one hour. In the **Energy Summary**, the units are displayed as milliwatt-hours **mW-h**.  
   
- ![Energy capacity, power used, total energy used](../profiling/media/energyprof_capcitypowerused.png "ENERGYPROF_CapcityPowerUsed")  
+  ![Energy capacity, power used, total energy used](../profiling/media/energyprof_capcitypowerused.png "ENERGYPROF_CapcityPowerUsed")  
   
- For example, a fully charged battery in a tablet has a certain amount of stored energy. As the energy is used to perform tasks such as communicating over a network, calculating values, or displaying graphics, the power of the battery dissipates at different rates. For any period of time, the total of the power consumed is also measured by energy.  
+  For example, a fully charged battery in a tablet has a certain amount of stored energy. As the energy is used to perform tasks such as communicating over a network, calculating values, or displaying graphics, the power of the battery dissipates at different rates. For any period of time, the total of the power consumed is also measured by energy.  
   
 ## Identify scenarios with user marks  
  You can add *user marks* to your profiling data to help identify areas in the timeline ruler.  
@@ -48,15 +46,15 @@ The Visual Studio **Energy Consumption** profiler helps you analyze the power an
   
  **Add marks to C#, Visual Basic, C++ code**  
   
- To add a user mark to C#, Visual Basic, C++ code, first create a [Windows.Foundation.Diagnostics LoggingChannel](http://msdn.microsoft.com/library/windows/apps/windows.foundation.diagnostics.loggingchannel.aspx) object. Then insert calls to [LoggingChannel.LogMessage](http://msdn.microsoft.com/library/windows/apps/dn264210.aspx) methods at the points in your code that you want to mark. Use [LoggingLevel.Information](http://msdn.microsoft.com/library/windows/apps/windows.foundation.diagnostics.logginglevel.aspx) in the calls.  
+ To add a user mark to C#, Visual Basic, C++ code, first create a <xref:Windows.Foundation.Diagnostics.LoggingChannel?displayProperty=fullName> object. Then insert calls to <xref:Windows.Foundation.Diagnostics.LoggingChannel.LogMessage%2A?displayProperty=nameWithType> methods at the points in your code that you want to mark. Use [LoggingLevel.Information](xref:Windows.Foundation.Diagnostics.LoggingLevel) in the calls.  
   
  When the method executes, a user mark is added to the profiling data along with a message.  
   
 > [!NOTE]
->  -   Windows.Foundation.Diagnostics LoggingChannel implements the [Windows.Foundation.IClosable](/uwp/api/windows.foundation.iclosable) interface  (projected as [System.IDisposable](/dotnet/api/system.idisposable) in C# and VB).To avoid leaking operating system resources, call [LoggingChannel.Close](/uwp/api/Windows.Foundation.Diagnostics.LoggingChannel) ([Windows.Foundation.Diagnostics.LoggingChannel.Dispose](/uwp/api/Windows.Foundation.Diagnostics.LoggingChannel) in C# and VB) when you are finished with a logging channel.  
-> -   Each open logging channel must have a unique name. Attempting to create a new logging channel with the same name as an undisposed channel causes an exception.  
+> - Windows.Foundation.Diagnostics LoggingChannel implements the [Windows.Foundation.IClosable](/uwp/api/windows.foundation.iclosable) interface  (projected as [System.IDisposable](/dotnet/api/system.idisposable) in C# and VB).To avoid leaking operating system resources, call [LoggingChannel.Close](/uwp/api/Windows.Foundation.Diagnostics.LoggingChannel) ([Windows.Foundation.Diagnostics.LoggingChannel.Dispose](/uwp/api/Windows.Foundation.Diagnostics.LoggingChannel) in C# and VB) when you are finished with a logging channel.  
+>  - Each open logging channel must have a unique name. Attempting to create a new logging channel with the same name as an undisposed channel causes an exception.  
   
- See the Windows SDK Sample [LoggingSession sample](http://code.msdn.microsoft.com/windowsapps/LoggingSession-Sample-ccd52336) for examples.  
+ See the Windows SDK Sample [LoggingSession sample](https://code.msdn.microsoft.com/windowsapps/LoggingSession-Sample-ccd52336) for examples.  
   
  **Add marks to JavaScript code**  
   
@@ -74,9 +72,9 @@ if (performance && performance.mark) {
  To obtain the good estimates, you'll want to profile the energy use of the app on a low-powered device that is being powered by its batteries. Because Visual Studio does not run on most of these devices, you'll need to connect your Visual Studio computer to the device using the Visual Studio remote tools. To connect to a remote device, you need to configure both the Visual Studio project and the remote device. See [Run UWP apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md) for more information.  
   
 > [!TIP]
->  -   We don't recommend energy profiling on the UWP simulator or on the Visual Studio computer. Profiling on the actual device provides far more realistic data.  
-> -   Profile on the target device while it is powered by its batteries.  
-> -   Close other apps that might use the same resources (network, CPU, or display).  
+> - We don't recommend energy profiling on the UWP simulator or on the Visual Studio computer. Profiling on the actual device provides far more realistic data.  
+>   -   Profile on the target device while it is powered by its batteries.  
+>   -   Close other apps that might use the same resources (network, CPU, or display).  
   
 ## Collect energy profile data for your app  
   
@@ -100,15 +98,15 @@ if (performance && performance.mark) {
 ## Collect energy profile data for an installed app  
  The Energy Consumption tool can only be run on UWP apps that are launched from a Visual Studio solution or are installed from the Microsoft Store. When a solution is open in Visual Studio, the default target is the **Startup Project**. To target an installed app:  
   
-1.  Choose **Change Target** and then choose **Installed App**.  
+1. Choose **Change Target** and then choose **Installed App**.  
   
-2.  From the **Select Installed App Package** list, choose the target.  
+2. From the **Select Installed App Package** list, choose the target.  
   
-3.  Choose **Energy Consumption** on the diagnostics hub page.  
+3. Choose **Energy Consumption** on the diagnostics hub page.  
   
-4.  Choose **Start** to begin profiling.  
+4. Choose **Start** to begin profiling.  
   
- To stop profiling, switch back to Visual Studio (Alt + Tab) and choose **Stop collection** on the Diagnostic hub page.  
+   To stop profiling, switch back to Visual Studio (Alt + Tab) and choose **Stop collection** on the Diagnostic hub page.  
   
 ## Analyze energy profile data  
  The energy profile data is displayed in Visual Studio document window:  
@@ -141,12 +139,13 @@ if (performance && performance.mark) {
   
 ## Other resources  
   
--   The **Connection state and cost management** sections for [C#/VB/C++ and XAML](http://msdn.microsoft.com/en-us/0ee0b706-8432-4d49-9801-306ed90764e1) and [JavaScript and HTML](http://msdn.microsoft.com/en-us/372afa6a-1c7c-4657-967d-03a77cd8e933) in the Windows Dev Center describe the Windows APIs that provide network connectivity information that your app can use to minimize the cost of network traffic.  
+-   The **Connection state and cost management** sections for [C#/VB/C++ and XAML](/previous-versions/windows/apps/hh452985\(v\=win.10\)) and [JavaScript and HTML](https://msdn.microsoft.com/372afa6a-1c7c-4657-967d-03a77cd8e933) in the Windows Dev Center describe the Windows APIs that provide network connectivity information that your app can use to minimize the cost of network traffic.  
   
      The Visual Studio simulator for UWP apps enables you to simulate data connection properties of the network information APIs. See [Run UWP apps in the simulator](../debugger/run-windows-store-apps-in-the-simulator.md)  
   
--   The **JavaScript Function Timing** and the **CPU Usage** tools can help you reduce the CPU load when it is caused by inefficient functions. See [Analyze CPU usage](../profiling/analyze-cpu-usage-in-a-windows-universal-app.md).
+-   The **JavaScript Function Timing** and the **CPU Usage** tools can help you reduce the CPU load when it is caused by inefficient functions. See [Analyze CPU usage](/visualstudio/profiling/beginners-guide-to-performance-profiling).
 
 ## See also
- [Profiling in Visual Studio](../profiling/index.md)  
- [First look at profiling tools](../profiling/profiling-feature-tour.md)
+
+- [Profiling in Visual Studio](../profiling/index.md)  
+- [First look at profiling tools](../profiling/profiling-feature-tour.md)

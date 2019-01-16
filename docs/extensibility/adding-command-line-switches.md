@@ -1,9 +1,6 @@
 ---
 title: "Adding Command-Line Switches | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "command-line switches, adding"
@@ -30,7 +27,7 @@ You can add command-line switches that apply to your VSPackage when *devenv.exe*
 |-|-|-|-|
 | Parameter | Description|
 | Arguments | The number of arguments for the switch. Can be "*", or a list of arguments. |
-| DemandLoad |  Load the VSPackage automatically if this is set to 1, otherwise set to 0. |  
+| DemandLoad | Load the VSPackage automatically if this is set to 1, otherwise set to 0. |  
 | HelpString | The help string or resource ID of the string to display with **devenv /?**. |
 | Name | The switch. |
 | PackageGuid | The GUID of the package. |  
@@ -48,11 +45,11 @@ You can add command-line switches that apply to your VSPackage when *devenv.exe*
 ## Retrieve command-line switches  
  When your package is loaded, you can retrieve the command-line switches by completing the following steps.  
   
-1.  In your VSPackage's <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.SetSite%2A> implementation, call `QueryService` on <xref:Microsoft.VisualStudio.Shell.Interop.SVsAppCommandLine> to get the <xref:Microsoft.VisualStudio.Shell.Interop.IVsAppCommandLine> interface.  
+1. In your VSPackage's <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.SetSite%2A> implementation, call `QueryService` on <xref:Microsoft.VisualStudio.Shell.Interop.SVsAppCommandLine> to get the <xref:Microsoft.VisualStudio.Shell.Interop.IVsAppCommandLine> interface.  
   
-2.  Call <xref:Microsoft.VisualStudio.Shell.Interop.IVsAppCommandLine.GetOption%2A> to retrieve the command-line switches that the user entered.  
+2. Call <xref:Microsoft.VisualStudio.Shell.Interop.IVsAppCommandLine.GetOption%2A> to retrieve the command-line switches that the user entered.  
   
- The following code shows how to find out whether the MySwitch command-line switch was entered by the user:  
+   The following code shows how to find out whether the MySwitch command-line switch was entered by the user:  
   
 ```csharp  
 IVsAppCommandLine cmdline = (IVsAppCommandLine)GetService(typeof(SVsAppCommandLine));  
@@ -70,4 +67,4 @@ cmdline.GetOption("MySwitch", out isPresent, out optionValue);
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.SetSite%2A>   
  [Devenv command-line switches](../ide/reference/devenv-command-line-switches.md)   
  [CreatePkgDef utility](../extensibility/internals/createpkgdef-utility.md)   
- [.Pkgdef files](../extensibility/modifying-the-isolated-shell-by-using-the-dot-pkgdef-file.md)
+ [.Pkgdef files](/visualstudio/extensibility/shell/modifying-the-isolated-shell-by-using-the-dot-pkgdef-file)

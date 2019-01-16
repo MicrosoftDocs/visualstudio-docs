@@ -1,8 +1,6 @@
 ---
 title: "Performance Session Overview | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Profiling Tools, performance session"
@@ -21,28 +19,28 @@ This overview explains the basics of profiling. Developers who are new to perfor
   
  The following steps make up the basic process of using the Profiling Tools:  
   
-1.  Configure the performance session by specifying the collection method and the data that you want to collect.  
+1. Configure the performance session by specifying the collection method and the data that you want to collect.  
   
-2.  Collect profiling data by running the application in the performance session.  
+2. Collect profiling data by running the application in the performance session.  
   
-3.  Analyze the data to identify the performance issue.  
+3. Analyze the data to identify the performance issue.  
   
-4.  Modify code in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) to increases the application performance of the code  
+4. Modify code in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) to increases the application performance of the code  
   
-5.  Collect profiling data on the changed code, and compare the profiling data of the original and changed data.  
+5. Collect profiling data on the changed code, and compare the profiling data of the original and changed data.  
   
-6.  Generate a report that documents the increase in performance.  
+6. Generate a report that documents the increase in performance.  
   
- To work with the information that is provided by profiling, you should have symbol information available for the binaries that you want to profile and for the binaries of the Windows operating system.  
+   To work with the information that is provided by profiling, you should have symbol information available for the binaries that you want to profile and for the binaries of the Windows operating system.  
   
 ## Configure the performance session  
  To configure a profiling session, select the profiling method that you want to use and the data that you want to collect. The Profiling Tools **Performance Wizard** can guide you through the basic configuration, and you can use the Performance Session property pages to add more options:  
   
--   Profiling methods include sampling, tracing, and memory allocation.  
+- Profiling methods include sampling, tracing, and memory allocation.  
   
--   Data values include time, processor and operating system performance counters, and application events such as page faults and kernel transitions.  
+- Data values include time, processor and operating system performance counters, and application events such as page faults and kernel transitions.  
   
- You can configure a performance session in a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project as part of the project solution, or profile arbitrary binaries through the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE. You can specify session properties in the Performance Session property pages or you can use the Profiling Wizard.  
+  You can configure a performance session in a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project as part of the project solution, or profile arbitrary binaries through the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE. You can specify session properties in the Performance Session property pages or you can use the Profiling Wizard.  
   
 ## Collect profiling data  
  You start the collection of profiling data from **Performance Explorer**. You can pause and resume profiling to limit the amount of data that you collect. You can also attach to a process that is already running.  
@@ -54,11 +52,11 @@ This overview explains the basics of profiling. Developers who are new to perfor
 ## Analyze the data and identify performance issues  
  When you end a profiling run, the data is analyzed and a summary is displayed in the Profiling Tools **Performance Report** view windows. Profiling data is collected for the call stack and individual functions of the target application. Report views display performance analysis for data ranges of the processes, threads, modules, functions, and source code lines of the application. Profiling data values for a function include the following:  
   
--   The overall time that was spent in the function and in child functions that were called by the function (inclusive values).  
+- The overall time that was spent in the function and in child functions that were called by the function (inclusive values).  
   
--   The time that was spent executing only the code in the function (exclusive values).  
+- The time that was spent executing only the code in the function (exclusive values).  
   
- Over twelve different views enable you to analyze the profiling data in the most efficient way. View customizations enable you to filter and sort the data to find the functions that might be causing performance issues. Hot Path filtering provides immediate highlighting of the most active paths in Call Tree and Module views.  
+  Over twelve different views enable you to analyze the profiling data in the most efficient way. View customizations enable you to filter and sort the data to find the functions that might be causing performance issues. Hot Path filtering provides immediate highlighting of the most active paths in Call Tree and Module views.  
   
 ## Modify the application code  
  After you have isolated one or more relevant performance issues, you can modify code by using the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE, and then collect profiling data for your changes.  
@@ -71,4 +69,4 @@ This overview explains the basics of profiling. Developers who are new to perfor
   
 ## See also  
  [Overviews](../profiling/overviews-performance-tools.md)   
- [Walkthrough: Identify performance problems](../profiling/walkthrough-identifying-performance-problems.md)
+ [Walkthrough: Identify performance problems](/visualstudio/profiling/beginners-guide-to-cpu-sampling)

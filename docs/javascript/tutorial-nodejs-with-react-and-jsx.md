@@ -2,8 +2,7 @@
 title: "Create a Node.js and React app"
 description: In this tutorial, you create an app in using Node.js tools for Visual Studio
 ms.custom: "mvc"
-ms.date: "05/23/2018"
-ms.technology: vs-nodejs
+ms.date: "11/01/2018"
 ms.topic: "tutorial"
 ms.devlang: javascript
 author: "mikejo5000"
@@ -25,6 +24,30 @@ In this tutorial, you learn how to:
 > * Add React code to your app
 > * Transpile JSX
 > * Attach the debugger
+
+## Before you begin
+
+Here's a quick FAQ to introduce you to some key concepts.
+
+### What is Node.js?
+
+Node.js is a server-side JavaScript runtime environment that executes JavaScript server-side.
+
+### What is npm?
+
+npm is the default package manager for the Node.js. The package manager makes it easier for programmers to publish and share source code of Node.js libraries and is designed to simplify installation, updating, and uninstallation of libraries.
+
+### What is React?
+
+React is a front-end framework to create a UI.
+
+### What is JSX?
+
+JSX is a JavaScript syntax extension, typically used with React to describe UI elements. JSX code must be transpiled to plain JavaScript before it can run in a browser.
+
+### What is webpack?
+
+webpack bundles JavaScript files so they can run in a browser. It can also transform or package other resources and assets. It is often used to specify a compiler, such as Babel or TypeScript, to transpile JSX or TypeScript code to plain JavaScript.
 
 ## Prerequisites
 
@@ -56,13 +79,15 @@ First, create a Node.js web application project.
 
     ![Node.js project in Solution Explorer](../javascript/media/tutorial-nodejs-react-project-structure.png)
 
-    * Highlighted in bold is your project, using the name you gave in the **New Project** dialog box. In the file system, this project is represented by a *.njsproj* file in your project folder. You can set properties and environment variables associated with the project by right-clicking the project and choosing **Properties**. You can do round-tripping with other development tools, since the project file does not make custom changes to the Node.js project source.
+    (1) Highlighted in **bold** is your project, using the name you gave in the **New Project** dialog box. In the file system, this project is represented by a *.njsproj* file in your project folder. You can set properties and environment variables associated with the project by right-clicking the project and choosing **Properties**. You can do round-tripping with other development tools, because the project file does not make custom changes to the Node.js project source.
 
-    * At the top level is a solution, which by default has the same name as your project. A solution, represented by a *.sln* file on disk, is a container for one or more related projects.
+    (2) At the top level is a solution, which by default has the same name as your project. A solution, represented by a *.sln* file on disk, is a container for one or more related projects.
 
-    * The npm node shows any installed npm packages. You can right-click the npm node to search for and install npm packages using a dialog box.
+    (3) The npm node shows any installed npm packages. You can right-click the npm node to search for and install npm packages using a dialog box or install and update packages using the settings in *package.json* and right-click options in the npm node.
 
-    * Project files such as *server.js* show up under the project node. *server.js* is the project startup file.
+    (4) *package.json* is a file used by npm to manage package dependencies and package versions for locally-installed packages. For more information on this file, see [package.json configuration](../javascript/configure-packages-with-package-json.md)
+
+    (5) Project files such as *server.js* show up under the project node. *server.js* is the project startup file and that is why it shows up in **bold**. You can set the startup file by right-clicking a file in the project and selecting **Set as Node.js startup file**.
 
 ## Add npm packages
 
@@ -89,26 +114,26 @@ This app requires a number of npm modules to run correctly.
 
     The project's *package.json* file is updated with the new package information including the package version.
 
-1. Instead of using the UI to search for and add the rest of the packages one at a time, paste the following code into package.json. To do this, replace the `dependencies` section with this code:
+1. Instead of using the UI to search for and add the rest of the packages one at a time, paste the following code into *package.json*. To do this, add a `dependencies` section with this code:
 
-    ```js
+    ```json
     "dependencies": {
-      "express": "4.16.2",
-      "path": "0.12.7",
-      "react": "16.4.0",
-      "react-dom": "16.4.0",
-      "ts-loader": "4.0.1",
-      "typescript": "2.7.2",
-      "webpack": "4.1.1",
-      "webpack-cli": "2.0.11"
+      "express": "~4.16.4",
+      "path": "~0.12.7",
+      "react": "~16.6.0",
+      "react-dom": "~16.6.0",
+      "ts-loader": "~5.3.0",
+      "typescript": "~3.1.5",
+      "webpack": "~4.23.1",
+      "webpack-cli": "~3.1.2"
     }
     ```
 
-    If there is no `dependencies` section in your version of the blank template, you must add it instead of replace the existing section.
+    If there is already a `dependencies` section in your version of the blank template, just replace it with the preceding JSON code. For more information on use of this file, see [package.json configuration](../javascript/configure-packages-with-package-json.md)
 
 1. Right-click **npm** node in your project and choose **Update npm Packages**.
 
-    In the lower pane, select the **Output** window to see progress on installing the packages. Installation may take a few minutes and you may not see results immediately. Too see the output, make sure that you select **Npm** in the **Show output from** field in the **Output** window.
+    In the lower pane, select the **Output** window to see progress on installing the packages. Installation may take a few minutes and you may not see results immediately. To see the output, make sure that you select **Npm** in the **Show output from** field in the **Output** window.
 
     Here are the npm modules as they appear in Solution Explorer after they are installed.
 
@@ -170,7 +195,7 @@ For this simple app, you add the new project files in the project root. (In most
     var React = require('react');
     var ReactDOM = require('react-dom');
 
-    class Hello extends React.Component {
+    export class Hello extends React.Component {
         render() {
             return (
                 <h1>Welcome to React!!</h1>
@@ -226,7 +251,7 @@ In the previous steps, you added *webpack-config.js* to the project. Next, you a
     }
     ```
 
-    The webpack configuration code instructs Webpack to use the TypeScript loader to transpile the JSX.
+    The webpack configuration code instructs webpack to use the TypeScript loader to transpile the JSX.
 
 1. Open *tsconfig.json* and replace the default code with the following code, which specifies the TypeScript compiler options:
 
@@ -264,7 +289,7 @@ In the previous steps, you added *webpack-config.js* to the project. Next, you a
 
     ![Run webpack](../javascript/media/tutorial-nodejs-react-run-webpack.png)
 
-    If you see any errors instead of the preceding output, you must resolve them before your app will work. If your npm package versions are different than the versions shown in this tutorial, that can be a source of errors. One way to fix errors is to use the exact versions shown in the earlier steps. Also, if one or more of these package versions has been deprecated and results in an error, you may need to install a more recent version to fix errors.
+    If you see any errors instead of the preceding output, you must resolve them before your app will work. If your npm package versions are different than the versions shown in this tutorial, that can be a source of errors. One way to fix errors is to use the exact versions shown in the earlier steps. Also, if one or more of these package versions has been deprecated and results in an error, you may need to install a more recent version to fix errors. For information on using *package.json* to control npm package versions, see [package.json configuration](../javascript/configure-packages-with-package-json.md).
 
 1. In Solution Explorer, right-click the project node and choose **Add** > **Existing Folder**, then choose the *dist* folder and choose **Select Folder**.
 
@@ -280,9 +305,11 @@ Each time you make changes to *app.tsx*, you must rerun the webpack command.
 
 ## Run the app
 
-1. Make sure that Chrome is selected as the current debug target.
+1. Select Chrome as the current debug target.
 
     ![Select Chrome as debug target](../javascript/media/tutorial-nodejs-react-debug-target.png)
+
+    If Chrome is available on your machine, but does not show up as an option, choose **Browse With** from the debug target dropdown list, and select Chrome as the default browser target (choose **Set as Default**).
 
 1. To run the app, press **F5** (**Debug** > **Start Debugging**) or the green arrow button.
 
@@ -320,25 +347,27 @@ In the preceding section, you attached the debugger to server-side Node.js code.
 
 1. Close all Chrome windows.
 
-1. Open the **Run** command from the Windows **Start** button (right-click and choose **Run**), and enter the following command:
+2. Open the **Run** command from the Windows **Start** button (right-click and choose **Run**), and enter the following command:
 
     `chrome.exe --remote-debugging-port=9222`
 
     This starts Chrome with debugging enabled.
 
-1. Switch to Visual Studio and set a breakpoint in *app-bundle.js* code in the `render()` function as shown in the following illustration:
+3. Switch to Visual Studio and set a breakpoint in *app-bundle.js* code in the `render()` function as shown in the following illustration:
 
     ![Set a breakpoint](../javascript/media/tutorial-nodejs-react-set-breakpoint-client-code.png)
 
-1. With Chrome selected as the debug target in Visual Studio, press **Ctrl**+**F5** (**Debug** > **Start Without Debugging**) to run the app in the browser.
+    To find the `render()` function in *app-bundle.js*, use **Ctrl**+**F** (**Edit** > **Find and Replace** > **Quick Find**).
+
+4. With Chrome selected as the debug target in Visual Studio, press **Ctrl**+**F5** (**Debug** > **Start Without Debugging**) to run the app in the browser.
 
     The app opens in a new browser tab.
 
-1. Choose **Debug** > **Attach to Process**.
+5. Choose **Debug** > **Attach to Process**.
 
-1. In the **Attach to Process** dialog box, choose **Webkit code** in the **Attach to** field, type **chrome** in the filter box to filter the search results.
+6. In the **Attach to Process** dialog box, choose **Webkit code** in the **Attach to** field, type **chrome** in the filter box to filter the search results.
 
-1. Select the Chrome process with the correct host port (1337 in this example), and select **Attach**.
+7. Select the Chrome process with the correct host port (1337 in this example), and select **Attach**.
 
     ![Attach to process](../javascript/media/tutorial-nodejs-react-attach-to-process.png)
 
@@ -347,20 +376,20 @@ In the preceding section, you attached the debugger to server-side Node.js code.
     > [!NOTE]
     > If the debugger does not attach and you see the message "Unable to attach to the process. An operation is not legal in the current state.", use the Task Manager to close all instances of Chrome before starting Chrome in debugging mode. Chrome Extensions may be running and preventing full debug mode.
 
-1. Because the code with the breakpoint already executed, refresh your browser page to hit the breakpoint.
+8. Because the code with the breakpoint already executed, refresh your browser page to hit the breakpoint.
 
     While paused in the debugger, you can examine your app state by hovering over variables and using debugger windows. You can advance the debugger by stepping through code (**F5**, **F10**, and **F11**).
 
     You may hit the breakpoint in either *app-bundle.js* or its mapped location in *app.tsx*, depending on your environment and browser state. Either way, you can step through code and examine variables.
 
-    * If you need to break into code in *app.tsx* and are unable to do it, use **Attach to Process** as described in the previous steps to attach the debugger. Then open the dynamically generated *app.tsx* file from Solution Explorer by opening **Script Documents** > **app.tsx**, set a breakpoint, and refresh the page in your browser (set the breakpoint in a line of code that allows breakpoints, such as the `return` statement or a `var` declaration).
+   * If you need to break into code in *app.tsx* and are unable to do it, use **Attach to Process** as described in the previous steps to attach the debugger. Then open the dynamically generated *app.tsx* file from Solution Explorer by opening **Script Documents** > **app.tsx**, set a breakpoint, and refresh the page in your browser (set the breakpoint in a line of code that allows breakpoints, such as the `return` statement or a `var` declaration).
 
-        Alternatively, if you need to break into code in *app.tsx* and are unable to do it, try using the `debugger;` statement in *app.tsx*, or set breakpoints in the Chrome Developer Tools instead.
+       Alternatively, if you need to break into code in *app.tsx* and are unable to do it, try using the `debugger;` statement in *app.tsx*, or set breakpoints in the Chrome Developer Tools instead.
 
-    * If you need to break into code in *app-bundle.js* and are unable to do it, remove the sourcemap file, *app-bundle.js.map*.
+   * If you need to break into code in *app-bundle.js* and are unable to do it, remove the sourcemap file, *app-bundle.js.map*.
 
-    > [!TIP]
-    > Once you attach to the process the first time by following these steps, you can quickly reattach to the same process in Visual Studio 2017 by choosing **Debug** > **Reattach to Process**.
+     > [!TIP]
+     > Once you attach to the process the first time by following these steps, you can quickly reattach to the same process in Visual Studio 2017 by choosing **Debug** > **Reattach to Process**.
 
 ## Next steps
 

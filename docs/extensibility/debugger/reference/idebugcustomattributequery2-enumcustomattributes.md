@@ -1,9 +1,6 @@
 ---
 title: "IDebugCustomAttributeQuery2::EnumCustomAttributes | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugCustomAttributeQuery2::EnumCustomAttributes"
@@ -23,13 +20,13 @@ Gets an enumerator for all custom attributes attached to this field.
   
 ```cpp  
 HRESULT EnumCustomAttributes(   
-   IEnumDebugCustomAttributes** ppEnum  
+   IEnumDebugCustomAttributes** ppEnum  
 );  
 ```  
   
 ```csharp  
 int EnumCustomAttributes(  
-   out IEnumDebugCustomAttributes ppEnum  
+   out IEnumDebugCustomAttributes ppEnum  
 );  
 ```  
   

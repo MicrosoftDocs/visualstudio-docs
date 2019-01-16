@@ -1,8 +1,6 @@
 ---
 title: "IDiaSectionContrib::get_compilandId | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves the compiland identifier for the section.
   
 ```C++  
 HRESULT get_compilandId (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

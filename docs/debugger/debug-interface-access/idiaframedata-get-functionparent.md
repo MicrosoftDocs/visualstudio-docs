@@ -1,8 +1,6 @@
 ---
 title: "IDiaFrameData::get_functionParent | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves a frame data interface for the enclosing function.
   
 ```C++  
 HRESULT get_functionParent (   
-   IDiaFrameData** pRetVal  
+   IDiaFrameData** pRetVal  
 );  
 ```  
   

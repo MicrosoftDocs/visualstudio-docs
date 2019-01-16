@@ -1,9 +1,6 @@
 ---
 title: "IDebugInterceptExceptionCompleteEvent2::GetInterceptCookie | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugInterceptExceptionCompleteEvent2::GetInterceptCookie"
@@ -23,13 +20,13 @@ Called when the processing of an intercepted exception has completed.
   
 ```cpp  
 HRESULT GetInterceptCookie(  
-   UINT64* pqwCookie  
+   UINT64* pqwCookie  
 );  
 ```  
   
 ```csharp  
 int GetInterceptCookie(  
-   out ulong pqwCookie  
+   out ulong pqwCookie  
 );  
 ```  
   

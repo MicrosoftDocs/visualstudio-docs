@@ -1,9 +1,6 @@
 ---
 title: "IDebugCanStopEvent2::GetReason | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugCanStopEvent2::GetReason"
@@ -23,13 +20,13 @@ Gets the reason why the debug engine (DE) wants to stop.
   
 ```cpp  
 HRESULT GetReason(   
-   CANSTOP_REASON* pcr  
+   CANSTOP_REASON* pcr  
 );  
 ```  
   
 ```csharp  
 int GetReason(   
-   out enum_CANSTOP_REASON pcr  
+   out enum_CANSTOP_REASON pcr  
 );  
 ```  
   

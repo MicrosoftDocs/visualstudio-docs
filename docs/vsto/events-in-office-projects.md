@@ -1,9 +1,6 @@
 ---
 title: "Events in Office projects"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -30,8 +27,8 @@ helpviewer_keywords:
   - "Sheet1_Shutdown"
   - "events [Office development in Visual Studio]"
   - "ThisAddIn_Shutdown"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -100,29 +97,29 @@ ms.workload:
 ### Order of events in document-level Excel projects  
  The **Startup** event handlers in Excel projects are called in this order:  
   
-1.  `ThisWorkbook_Startup`.  
+1. `ThisWorkbook_Startup`.  
   
-2.  `Sheet1_Startup`.  
+2. `Sheet1_Startup`.  
   
-3.  `Sheet2_Startup`.  
+3. `Sheet2_Startup`.  
   
-4.  `Sheet3_Startup`.  
+4. `Sheet3_Startup`.  
   
-5.  Other sheets in order.  
+5. Other sheets in order.  
   
- The **Shutdown** event handlers in a workbook solution are called in this order:  
+   The **Shutdown** event handlers in a workbook solution are called in this order:  
   
-1.  `ThisWorkbook_Shutdown`.  
+6. `ThisWorkbook_Shutdown`.  
   
-2.  `Sheet1_Shutdown`.  
+7. `Sheet1_Shutdown`.  
   
-3.  `Sheet2_Shutdown`.  
+8. `Sheet2_Shutdown`.  
   
-4.  `Sheet3_Shutdown`.  
+9. `Sheet3_Shutdown`.  
   
-5.  Other sheets in order.  
+10. Other sheets in order.  
   
- The order is determined when the project is compiled. If the user rearranges the sheets at runtime, it does not change the order that the events are raised the next time the workbook is opened or closed.  
+    The order is determined when the project is compiled. If the user rearranges the sheets at runtime, it does not change the order that the events are raised the next time the workbook is opened or closed.  
   
 ## VSTO Add-in projects  
  Visual Studio provides generated code in VSTO Add-ins. This code raises two different events: <xref:Microsoft.Office.Tools.AddInBase.Startup> and <xref:Microsoft.Office.Tools.AddInBase.Shutdown>.  
@@ -155,5 +152,3 @@ ms.workload:
  [Program document-level customizations](../vsto/programming-document-level-customizations.md)   
  [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)   
  [Office project templates overview](../vsto/office-project-templates-overview.md)  
-  
-  

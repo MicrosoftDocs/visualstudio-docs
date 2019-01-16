@@ -1,9 +1,6 @@
 ---
 title: "IEnumDebugFrameInfo2::Reset | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IEnumDebugFrameInfo2::Reset"
@@ -23,7 +20,7 @@ Resets the enumeration to the first element.
   
 ```cpp  
 HRESULT Reset(  
-   void  
+   void  
 );  
 ```  
   

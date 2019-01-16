@@ -1,8 +1,6 @@
 ---
 title: "IDiaSymbol::get_bitPosition | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves the bit position of location. Used when the [LocationType Enumeration]
   
 ```C++  
 HRESULT get_bitPosition (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

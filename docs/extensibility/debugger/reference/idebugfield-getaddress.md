@@ -1,9 +1,6 @@
 ---
 title: "IDebugField::GetAddress | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugField::GetAddress"
@@ -23,13 +20,13 @@ This method gets the debug address of a field.
   
 ```cpp  
 HRESULT GetAddress(   
-   IDebugAddress** ppAddress  
+   IDebugAddress** ppAddress  
 );  
 ```  
   
 ```csharp  
 int GetAddress(  
-   out IDebugAddress ppAddress  
+   out IDebugAddress ppAddress  
 );  
 ```  
   

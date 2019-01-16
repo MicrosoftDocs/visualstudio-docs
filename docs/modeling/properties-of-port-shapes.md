@@ -12,7 +12,6 @@ manager: douge
 ms.workload:
   - "multiple"
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Properties of Port Shapes
 You can use port shapes to represent domain classes in the generated designer.
@@ -22,7 +21,7 @@ You can use port shapes to represent domain classes in the generated designer.
  Port shapes have the properties that are listed in the following table.
 
 |Property|Description|Default|
-|--------------|-----------------|-------------|
+|-|-|-|
 |Fill Color|The fill color of this shape.|White|
 |Fill Gradient Mode|The fill gradient mode of this shape.|Horizontal|
 |Geometry|The geometry of this shape (Rectangle, Rounded Rectangle, Ellipse, or Circle).|Rectangle|
@@ -51,4 +50,4 @@ You can use port shapes to represent domain classes in the generated designer.
 
 ## See Also
 
-- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+- [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

@@ -1,9 +1,6 @@
 ---
 title: "IDebugEngineLaunch2::ResumeProcess | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugEngineLaunch2::ResumeProcess"
@@ -23,13 +20,13 @@ Resumes process execution.
   
 ```cpp  
 HRESULT ResumeProcess (   
-   IDebugProcess2* pProcess  
+   IDebugProcess2* pProcess  
 );  
 ```  
   
 ```csharp  
 int ResumeProcess (   
-   IDebugProcess2 pProcess  
+   IDebugProcess2 pProcess  
 );  
 ```  
   

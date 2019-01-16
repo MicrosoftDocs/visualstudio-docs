@@ -1,8 +1,6 @@
 ---
 title: "IDiaSymbol::get_msil | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves a flag that specifies whether the symbol refers to Microsoft Intermedi
   
 ```C++  
 HRESULT get_msil (   
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 );  
 ```  
   

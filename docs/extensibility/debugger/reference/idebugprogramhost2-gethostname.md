@@ -1,9 +1,6 @@
 ---
 title: "IDebugProgramHost2::GetHostName | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProgramHost2::GetHostName"
@@ -23,15 +20,15 @@ Gets the title, friendly name, or file name of the hosting process of this progr
   
 ```cpp  
 HRESULT GetHostName(   
-   DWORD dwType,  
-   BSTR* pbstrHostName  
+   DWORD dwType,  
+   BSTR* pbstrHostName  
 );  
 ```  
   
 ```csharp  
 int GetHostName(   
-   uint dwType,  
-   out string pbstrHostName  
+   uint dwType,  
+   out string pbstrHostName  
 );  
 ```  
   

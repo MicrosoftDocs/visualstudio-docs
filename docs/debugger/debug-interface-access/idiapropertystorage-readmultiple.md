@@ -1,8 +1,6 @@
 ---
 title: "IDiaPropertyStorage::ReadMultiple | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,9 +20,9 @@ Reads specified properties from the current property set.
   
 ```C++  
 HRESULT ReadMultiple(   
-   ULONG          cpspec,  
-   PROPSPEC const rgpspec,  
-   PROPVARIANT    rgvar  
+   ULONG          cpspec,  
+   PROPSPEC const rgpspec,  
+   PROPVARIANT    rgvar  
 );  
 ```  
   

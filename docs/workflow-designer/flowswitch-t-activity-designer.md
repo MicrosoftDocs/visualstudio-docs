@@ -3,7 +3,6 @@ title: "Workflow Designer - FlowSwitch<T> Activity Designer"
 ms.date: 11/04/2016
 ms.topic: reference
 ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 f1_keywords:
   - "System.Activities.Core.Presentation.FlowSwitchLink.UI"
   - "System.Activities.Statements.FlowSwitch`1.UI"
@@ -37,7 +36,7 @@ Mouse over the **FlowSwitch\<T>** activity designer to cause the square handles 
 The following table shows the <xref:System.Activities.Statements.FlowSwitch%601> properties and describes how they are used in the designer. These properties can be edited in the property grid or on designer surface.
 
 |Property Name|Required|Usage|
-|-------------------|--------------|-----------|
+|-|--------------|-|
 |<xref:System.Activities.Statements.FlowSwitch%601.Expression%2A>|True|Specifies the expression that is evaluated to determine which of the <xref:System.Activities.Statements.FlowSwitch%601.Cases%2A> to switch to in the path of execution.|
 |<xref:System.Activities.Statements.FlowSwitch%601.Cases%2A>|False|Specifies a unique mapping from possible results obtained from evaluating the <xref:System.Activities.Statements.FlowSwitch%601.Expression%2A> to a set of <xref:System.Activities.Statements.FlowNode> objects.|
 |<xref:System.Activities.Statements.FlowSwitch%601.Default%2A>|True|Specifies the mapping when the evaluation of the <xref:System.Activities.Statements.FlowSwitch%601.Expression%2A> does not match one of the values contained in the <xref:System.Activities.Statements.FlowSwitch%601.Cases%2A> object.|

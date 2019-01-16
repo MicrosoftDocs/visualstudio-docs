@@ -24,11 +24,11 @@ Allows the caller to fill a list box with a counted array of string pointers whi
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetPredefinedStrings(  
-   DISPID  dispid,  
-   CALPOLESTR*  pCaStrings,  
-   CADWORD*  pCaCookies  
+   DISPID  dispid,  
+   CALPOLESTR*  pCaStrings,  
+   CADWORD*  pCaCookies  
 );  
 ```  
   

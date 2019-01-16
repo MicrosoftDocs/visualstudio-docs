@@ -1,9 +1,6 @@
 ---
 title: "IDebugTypeFieldBuilder2::CreateArrayOfType | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugTypeFieldBuilder2::CreateArrayOfType"
@@ -22,17 +19,17 @@ Creates an array of the specified type and size.
   
 ```cpp  
 HRESULT CreateArrayOfType (  
-   IDebugField*  pTypeField,  
-   DWORD         rank,  
-   IDebugField** pArrayOfTypeField  
+   IDebugField*  pTypeField,  
+   DWORD         rank,  
+   IDebugField** pArrayOfTypeField  
 );  
 ```  
   
 ```csharp  
 int CreateArrayOfType (  
-   IDebugField     pTypeField,  
-   uint            rank,  
-   out IDebugField pArrayOfTypeField  
+   IDebugField     pTypeField,  
+   uint            rank,  
+   out IDebugField pArrayOfTypeField  
 );  
 ```  
   

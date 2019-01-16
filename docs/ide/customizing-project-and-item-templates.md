@@ -1,8 +1,7 @@
 ---
-title: Customizing project and item templates in Visual Studio
+title: Customizing project and item templates
 ms.date: 01/02/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:
   - "customizing templates [Visual Studio]"

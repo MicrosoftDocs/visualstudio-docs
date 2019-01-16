@@ -1,9 +1,6 @@
 ---
 title: "SccAdd Function | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "SccAdd"
@@ -16,24 +13,24 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# SccAdd Function
+# SccAdd function
 This function adds new files to the source control system.  
   
 ## Syntax  
   
 ```cpp  
 SCCRTN SccAdd(  
-   LPVOID    pvContext,  
-   HWND      hWnd,  
-   LONG      nFiles,  
-   LPCSTR*   lpFileNames,  
-   LPCSTR    lpComment,  
-   LONG*     pfOptions,  
-   LPCMDOPTS pvOptions  
+   LPVOID    pvContext,  
+   HWND      hWnd,  
+   LONG      nFiles,  
+   LPCSTR*   lpFileNames,  
+   LPCSTR    lpComment,  
+   LONG*     pfOptions,  
+   LPCMDOPTS pvOptions  
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  pvContext  
  [in] The source control plug-in context structure.  
   
@@ -55,7 +52,7 @@ SCCRTN SccAdd(
  pvOptions  
  [in] Source control plug-in-specific options.  
   
-## Return Value  
+## Return value  
  The source control plug-in implementation of this function is expected to return one of the following values:  
   
 |Value|Description|  
@@ -90,5 +87,5 @@ SCCRTN SccAdd(
 |SCC_FILETYPE_UTF16LE|0x20|Treats the file as Unicode text in UTF16 Little Endian format.|  
 |SCC_FILETYPE_UTF16BE|0x40|Treats the file as Unicode text in UTF16 Big Endian format.|  
   
-## See Also  
- [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)
+## See also  
+ [Source control plug-in API functions](../extensibility/source-control-plug-in-api-functions.md)

@@ -2,7 +2,6 @@
 title: "CA1710: Identifiers should have correct suffix"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA1710"
@@ -18,6 +17,7 @@ ms.workload:
   - "multiple"
 ---
 # CA1710: Identifiers should have correct suffix
+
 |||
 |-|-|
 |TypeName|IdentifiersShouldHaveCorrectSuffix|
@@ -26,14 +26,16 @@ ms.workload:
 |Breaking Change|Breaking|
 
 ## Cause
- An identifier does not have the correct suffix.
 
-## Rule Description
- By convention, the names of types that extend certain base types or that implement certain interfaces, or types derived from these types, have a suffix that is associated with the base type or interface.
+An identifier does not have the correct suffix.
 
- Naming conventions provide a common look for libraries that target the common language runtime. This reduces the learning curve that is required for new software libraries, and increases customer confidence that the library was developed by someone who has expertise in developing managed code.
+## Rule description
 
- The following table lists the base types and interfaces that have associated suffixes.
+By convention, the names of types that extend certain base types or that implement certain interfaces, or types derived from these types, have a suffix that is associated with the base type or interface.
+
+Naming conventions provide a common look for libraries that target the common language runtime. This reduces the learning curve that is required for new software libraries, and increases customer confidence that the library was developed by someone who has expertise in developing managed code.
+
+The following table lists the base types and interfaces that have associated suffixes.
 
 |Base type/Interface|Suffix|
 |--------------------------|------------|
@@ -54,37 +56,41 @@ ms.workload:
 |<xref:System.Security.Policy.IMembershipCondition?displayProperty=fullName>|Condition|
 |An event-handler delegate.|EventHandler|
 
- Types that implement <xref:System.Collections.ICollection> and are a generalized type of data structure, such as a dictionary, stack, or queue, are allowed names that provide meaningful information about the intended usage of the type.
+Types that implement <xref:System.Collections.ICollection> and are a generalized type of data structure, such as a dictionary, stack, or queue, are allowed names that provide meaningful information about the intended usage of the type.
 
- Types that implement <xref:System.Collections.ICollection> and are a collection of specific items have names that end with the word 'Collection'. For example, a collection of <xref:System.Collections.Queue> objects would have the name 'QueueCollection'. The 'Collection' suffix signifies that the members of the collection can be enumerated by using the `foreach` (`For Each` in [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]) statement.
+Types that implement <xref:System.Collections.ICollection> and are a collection of specific items have names that end with the word 'Collection'. For example, a collection of <xref:System.Collections.Queue> objects would have the name 'QueueCollection'. The 'Collection' suffix signifies that the members of the collection can be enumerated by using the `foreach` (`For Each` in [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]) statement.
 
- Types that implement <xref:System.Collections.IDictionary> have names that end with the word 'Dictionary' even if the type also implements <xref:System.Collections.IEnumerable> or <xref:System.Collections.ICollection>. The 'Collection' and 'Dictionary' suffix naming conventions enable users to distinguish between the following two enumeration patterns.
+Types that implement <xref:System.Collections.IDictionary> have names that end with the word 'Dictionary' even if the type also implements <xref:System.Collections.IEnumerable> or <xref:System.Collections.ICollection>. The 'Collection' and 'Dictionary' suffix naming conventions enable users to distinguish between the following two enumeration patterns.
 
- Types with the 'Collection' suffix follow this enumeration pattern.
+Types with the 'Collection' suffix follow this enumeration pattern.
 
 ```
 foreach(SomeType x in SomeCollection) { }
 ```
 
- Types with the 'Dictionary' suffix follow this enumeration pattern.
+Types with the 'Dictionary' suffix follow this enumeration pattern.
 
 ```
 foreach(SomeType x in SomeDictionary.Values) { }
 ```
 
- A <xref:System.Data.DataSet> object consists of a collection of <xref:System.Data.DataTable> objects, which consist of collections of <xref:System.Data.DataColumn?displayProperty=fullName> and <xref:System.Data.DataRow?displayProperty=fullName> objects, among others. These collections implement <xref:System.Collections.ICollection> through the base <xref:System.Data.InternalDataCollectionBase?displayProperty=fullName> class.
+A <xref:System.Data.DataSet> object consists of a collection of <xref:System.Data.DataTable> objects, which consist of collections of <xref:System.Data.DataColumn?displayProperty=fullName> and <xref:System.Data.DataRow?displayProperty=fullName> objects, among others. These collections implement <xref:System.Collections.ICollection> through the base <xref:System.Data.InternalDataCollectionBase?displayProperty=fullName> class.
 
-## How to Fix Violations
- Rename the type so that it is suffixed with the correct term.
+## How to fix violations
 
-## When to Suppress Warnings
- It is safe to suppress a warning to use the 'Collection' suffix if the type is a generalized data structure that might be extended or that will hold an arbitrary set of diverse items. In this case, a name that provides meaningful information about the implementation, performance, or other characteristics of the data structure might make sense (for example, BinaryTree). In cases where the type represents a collection of a specific type (for example, StringCollection), do not suppress a warning from this rule because the suffix indicates that the type can be enumerated by using a `foreach` statement.
+Rename the type so that it is suffixed with the correct term.
 
- For other suffixes, do not suppress a warning from this rule. The suffix allows the intended usage to be evident from the type name.
+## When to suppress warnings
 
-## Related Rules
- [CA1711: Identifiers should not have incorrect suffix](../code-quality/ca1711-identifiers-should-not-have-incorrect-suffix.md)
+It is safe to suppress a warning to use the 'Collection' suffix if the type is a generalized data structure that might be extended or that will hold an arbitrary set of diverse items. In this case, a name that provides meaningful information about the implementation, performance, or other characteristics of the data structure might make sense (for example, BinaryTree). In cases where the type represents a collection of a specific type (for example, StringCollection), do not suppress a warning from this rule because the suffix indicates that the type can be enumerated by using a `foreach` statement.
 
-## See Also
- [Attributes](/dotnet/standard/design-guidelines/attributes)
- [Handling and raising events](/dotnet/standard/events/index)
+For other suffixes, do not suppress a warning from this rule. The suffix allows the intended usage to be evident from the type name.
+
+## Related rules
+
+[CA1711: Identifiers should not have incorrect suffix](../code-quality/ca1711-identifiers-should-not-have-incorrect-suffix.md)
+
+## See also
+
+- [Attributes](/dotnet/standard/design-guidelines/attributes)
+- [Handling and raising events](/dotnet/standard/events/index)

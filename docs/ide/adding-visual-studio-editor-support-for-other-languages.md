@@ -1,5 +1,5 @@
 ---
-title: Adding Visual Studio editor support for other languages
+title: Add editor support for other languages
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -15,7 +15,6 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.workload:
   - "multiple"
 ---
@@ -25,7 +24,7 @@ Learn about how the Visual Studio editor supports reading and navigating through
 
 ## Syntax colorization, statement completion, and Navigate To support
 
-Features in the Visual Studio editor such as syntax colorization, statement completion, and Navigate To can help you more easily read, create, and edit your code. The following screenshot shows an example of editing a Perl script in Visual Studio. The syntax is automatically colorized. For example, remarks in the code are colored green, code is black, paths are red, and statements are blue. The Visual Studio editor automatically applies syntax colorization to any language it supports. In addition, when you begin to enter a known language keyword or object, statement completion displays a list of possible statements and objects. Statement completion can help you create code more quickly and easily.
+Features in the Visual Studio editor such as syntax colorization, statement completion (also known as IntelliSense), and _Navigate To_ can help you more easily write, read, and edit your code. The following screenshot shows an example of editing a Perl script in Visual Studio. The syntax is automatically colorized. For example, remarks in the code are colored green, code is black, paths are red, and statements are blue. The Visual Studio editor automatically applies syntax colorization to any language it supports. In addition, when you begin to enter a known language keyword or object, statement completion displays a list of possible statements and objects. Statement completion can help you write code more quickly and easily.
 
 ![Syntax colorization in Perl script](../ide/media/vside_perledit.png)
 

@@ -1,9 +1,6 @@
 ---
 title: "IDebugMethodField::EnumArguments | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugMethodField::EnumArguments"
@@ -23,13 +20,13 @@ Creates an enumerator for the type of each argument required to call the method.
   
 ```cpp  
 HRESULT EnumArguments(   
-   IEnumDebugFields** ppParams  
+   IEnumDebugFields** ppParams  
 );  
 ```  
   
 ```csharp  
 int EnumArguments(  
-   out IEnumDebugFields ppParams  
+   out IEnumDebugFields ppParams  
 );  
 ```  
   

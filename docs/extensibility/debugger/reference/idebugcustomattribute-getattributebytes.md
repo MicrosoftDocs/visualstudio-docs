@@ -1,9 +1,6 @@
 ---
 title: "IDebugCustomAttribute::GetAttributeBytes | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugCustomAttribute::GetAttributeBytes"
@@ -23,15 +20,15 @@ Gets the attribute information as a blob of bytes.
   
 ```cpp  
 HRESULT GetAttributeBytes(   
-   BYTE*  ppBlob,  
-   DWORD* pdwLen  
+   BYTE*  ppBlob,  
+   DWORD* pdwLen  
 );  
 ```  
   
 ```csharp  
 int GetAttributeBytes(  
-   ref byte[] ppBlob,   
-   ref uint   pdwLen  
+   ref byte[] ppBlob,   
+   ref uint   pdwLen  
 );  
 ```  
   

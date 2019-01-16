@@ -1,9 +1,6 @@
 ---
 title: "IDebugEvent2::GetAttributes | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugEvent2::GetAttributes"
@@ -23,13 +20,13 @@ Gets the attributes for this debug event.
   
 ```cpp  
 HRESULT GetAttribute(   
-   DWORD* pdwAttrib  
+   DWORD* pdwAttrib  
 );  
 ```  
   
 ```csharp  
 int GetAttribute(   
-   out uint pdwAttrib  
+   out uint pdwAttrib  
 );  
 ```  
   

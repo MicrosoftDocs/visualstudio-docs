@@ -1,8 +1,6 @@
 ---
 title: "IDiaSession::findAcceleratorInlineesByName | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -20,9 +18,9 @@ Returns an enumeration of symbols for inline frames corresponding to the specifi
   
 ```C++  
 HRESULT findAcceleratorInlineeLinesByName (   
-   LPCOLESTR             name,  
+   LPCOLESTR             name,  
    DWORD                 option,  
-   IDiaEnumSymbols**     ppResult  
+   IDiaEnumSymbols**     ppResult  
 );  
 ```  
   

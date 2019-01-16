@@ -1,8 +1,6 @@
 ---
 title: "Associate a form region with an Outlook message class"
-ms.custom: ""
 ms.date: 02/02/2017
-ms.technology: office-development
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords: 
@@ -13,8 +11,8 @@ dev_langs:
 helpviewer_keywords: 
   - "FormRegionMessageClassAttribute"
   - "form regions [Office development in Visual Studio], message classes"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -60,17 +58,17 @@ ms.workload:
   
  The names that you type must comply with the following guidelines:  
   
--   Use the fully qualified message class name (for example: "IPM.Note.Contoso").  
+- Use the fully qualified message class name (for example: "IPM.Note.Contoso").  
   
--   Use semicolons to separate multiple message class names.  
+- Use semicolons to separate multiple message class names.  
   
--   Do not include standard Outlook message classes, such as "IPM.Note" or "IPM.Contact". Only include custom message classes, such as "IPM.Note.Contoso".  
+- Do not include standard Outlook message classes, such as "IPM.Note" or "IPM.Contact". Only include custom message classes, such as "IPM.Note.Contoso".  
   
--   Do not specify the base message class by itself (for example: "IPM").  
+- Do not specify the base message class by itself (for example: "IPM").  
   
--   Do not exceed 256 characters for each message class name.  
+- Do not exceed 256 characters for each message class name.  
   
- The **New Outlook Form Region** wizard validates the format of your input when you click **Finish**.  
+  The **New Outlook Form Region** wizard validates the format of your input when you click **Finish**.  
   
 > [!NOTE]  
 >  The **New Outlook Form Region** wizard does not verify that the message class names that you provide are correct or valid.  
@@ -87,15 +85,15 @@ ms.workload:
   
  Attributes must comply with the following guidelines:  
   
--   For custom message classes, use the fully qualified message class name (for example: "IPM.Note.Contoso").  
+- For custom message classes, use the fully qualified message class name (for example: "IPM.Note.Contoso").  
   
--   Do not specify the base message class by itself (for example: "IPM").  
+- Do not specify the base message class by itself (for example: "IPM").  
   
--   Do not exceed 256 characters for each message class name.  
+- Do not exceed 256 characters for each message class name.  
   
--   Do not include the names of standard message classes if the form region replaces the whole form or the default page of a form. You can specify standard message class names only for forms that add a new page to a form or that are appended to the bottom of a form. For more information, see [How to: Add a form region to an Outlook Add-in project](../vsto/how-to-add-a-form-region-to-an-outlook-add-in-project.md).  
+- Do not include the names of standard message classes if the form region replaces the whole form or the default page of a form. You can specify standard message class names only for forms that add a new page to a form or that are appended to the bottom of a form. For more information, see [How to: Add a form region to an Outlook Add-in project](../vsto/how-to-add-a-form-region-to-an-outlook-add-in-project.md).  
   
- Visual Studio validates the format of the message class names when you build the project.  
+  Visual Studio validates the format of the message class names when you build the project.  
   
 > [!NOTE]  
 >  Visual Studio does not verify that the message class names that you provide are correct or valid.  
@@ -105,7 +103,5 @@ ms.workload:
  [Create Outlook form regions](../vsto/creating-outlook-form-regions.md)   
  [Walkthrough: Design an Outlook form region](../vsto/walkthrough-designing-an-outlook-form-region.md)   
  [Guidelines to create Outlook form regions](../vsto/guidelines-for-creating-outlook-form-regions.md)   
- [Form name and message class overview](http://msdn.microsoft.com/library/office/ff867629.aspx)   
- [How Outlook forms and items work together](http://msdn.microsoft.com/library/office/ff869706.aspx)  
-  
-  
+ [Form name and message class overview](/office/vba/outlook/Concepts/Forms/form-name-and-message-class-overview)   
+ [How Outlook forms and items work together](/office/vba/outlook/Concepts/Forms/how-outlook-forms-and-items-work-together)  

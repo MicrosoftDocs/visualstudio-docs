@@ -1,10 +1,8 @@
 ---
 title: "ZipDirectory Task | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: msbuild
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
 f1_keywords: 
@@ -52,8 +50,7 @@ Creates a *.zip* archive from the contents of a directory.
     <Target Name="ZipOutputPath" AfterTargets="Build">
         <ZipDirectory
             SourceDirectory="$(OutputPath)"
-            DestinationFile="$(MSBuildProjectDirectory)\output.zip">
-        />
+            DestinationFile="$(MSBuildProjectDirectory)\output.zip" />
     </Target>
 
 </Project>

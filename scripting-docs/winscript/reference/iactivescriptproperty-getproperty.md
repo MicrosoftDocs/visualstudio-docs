@@ -24,7 +24,7 @@ Gets the property that is specified by the parameter.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetProperty(  
 // The property value:  
     uint dwProperty,    
@@ -69,6 +69,6 @@ HRESULT GetProperty(
  The host can use the SCRIPTPROP_INVOKEVERSIONING property to select the set of language features to be supported when the [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] scripting engine is started. If this property is set to 1 (SCRIPTLANGUAGEVERSION_5_7), the available language features are the same as those that appeared in version 5.7 of the [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] scripting engine. If it is set to 2 (SCRIPTLANGUAGEVERSION_5_8), the available language features are those that appeared in version 5.7 in addition to features that were added in version 5.8. By default, this property is set to 0 (SCRIPTLANGUAGEVERSION_DEFAULT), which is equivalent to the language feature set that appeared in version 5.7, unless the host supports a different default behavior. For instance, Internet Explorer 8 opts into the [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] language features supported by the version 5.8 [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] scripting engine by default when the document mode for Internet Explorer 8 is "Internet Explorer 8 Standards" mode.  
   
 ## See Also  
- [Defining Document Compatibility](http://msdn.microsoft.com/library/cc288325)   
+ [Defining Document Compatibility](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/compatibility/cc288325(v=vs.85))   
  [IActiveScriptProperty](../../winscript/reference/iactivescriptproperty.md)   
  [Version Information](../../javascript/reference/javascript-version-information.md)

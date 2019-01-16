@@ -1,9 +1,6 @@
 ---
 title: "IDebugDocumentContext2::GetName | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugDocumentContext2::GetName"
@@ -23,15 +20,15 @@ Gets the displayable name of the document that contains this document context.
   
 ```cpp  
 HRESULT GetName(   
-   GETNAME_TYPE gnType,  
-   BSTR*        pbstrFileName  
+   GETNAME_TYPE gnType,  
+   BSTR*        pbstrFileName  
 );  
 ```  
   
 ```csharp  
 int GetName(   
-   enum_GETNAME_TYPE  gnType,  
-   out string         pbstrFileName  
+   enum_GETNAME_TYPE  gnType,  
+   out string         pbstrFileName  
 );  
 ```  
   

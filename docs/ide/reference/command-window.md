@@ -2,7 +2,6 @@
 title: Command Window
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "VS.CommandWindow"
@@ -49,7 +48,7 @@ The **Command** window is used to execute commands or aliases directly in the [!
  The following shortcuts help you navigate while in Command mode.
 
 |Action|Cursor location|Keybinding|
-|------------|---------------------|----------------|
+|------------| - |----------------|
 |Cycle through the list of previously entered commands.|Input line|UP ARROW & DOWN ARROW|
 |Scroll up the window.|Command window contents|CTRL+UP ARROW|
 |Scroll down the window.|Command window contents|DOWN ARROW or CTRL+DOWN ARROW|

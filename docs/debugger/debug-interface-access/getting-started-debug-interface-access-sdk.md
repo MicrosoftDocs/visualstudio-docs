@@ -1,8 +1,6 @@
 ---
 title: "Getting Started (Debug Interface Access SDK) | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -21,21 +19,21 @@ The Debug Interface Access (DIA) SDK supplies you with instructional documentati
   
  To best use the DIA SDK, you should be familiar with the following:  
   
--   C++ programming language  
+- C++ programming language  
   
--   COM programming  
+- COM programming  
   
--   Visual Studio integrated development environment (IDE) for compiling the samples  
+- Visual Studio integrated development environment (IDE) for compiling the samples  
   
- The DIA SDK is normally installed with Visual Studio and its default location is *[drive]*\Program Files\Microsoft Visual Studio 9.0\DIA SDK. As part of the installation, the msdia90.dll, which implements the DIA SDK, is automatically registered so all that you need to do to use it is to include `dia2.h` in your program and link to `diaguids.lib`.  
+  The DIA SDK is normally installed with Visual Studio and its default location is *[drive]*\Program Files\Microsoft Visual Studio 9.0\DIA SDK. As part of the installation, the msdia90.dll, which implements the DIA SDK, is automatically registered so all that you need to do to use it is to include `dia2.h` in your program and link to `diaguids.lib`.  
   
- Header: include\dia2.h  
+  Header: include\dia2.h  
   
- Library: lib\diaguids.lib  
+  Library: lib\diaguids.lib  
   
- DLL: bin\msdia80.dll  
+  DLL: bin\msdia80.dll  
   
- IDL: idl\dia2.idl  
+  IDL: idl\dia2.idl  
   
 ## In This Section  
  [Overview](../../debugger/debug-interface-access/overview-debug-interface-access-sdk.md)  

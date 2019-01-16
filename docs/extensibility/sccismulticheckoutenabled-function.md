@@ -1,9 +1,6 @@
 ---
 title: "SccIsMultiCheckoutEnabled Function | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "SccIsMultiCheckoutEnabled"
@@ -23,8 +20,8 @@ This function checks whether the source control plug-in allows multiple checkout
   
 ```cpp  
 SCCRTN SccIsMultiCheckoutEnabled(  
-   LPVOID pContext,  
-   LPBOOL pbMultiCheckout  
+   LPVOID pContext,  
+   LPBOOL pbMultiCheckout  
 );  
 ```  
   

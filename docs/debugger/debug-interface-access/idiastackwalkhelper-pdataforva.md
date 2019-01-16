@@ -1,8 +1,6 @@
 ---
 title: "IDiaStackWalkHelper::pdataForVA | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,10 +20,10 @@ Returns the PDATA data block associated with the virtual address.
   
 ```C++  
 HRESULT pdataForVA(   
-   ULONGLONG  va,  
-   DWORD      cbData,  
-   DWORD*     pcbData,  
-   BYTE*      pbData  
+   ULONGLONG  va,  
+   DWORD      cbData,  
+   DWORD*     pcbData,  
+   BYTE*      pbData  
 );  
 ```  
   

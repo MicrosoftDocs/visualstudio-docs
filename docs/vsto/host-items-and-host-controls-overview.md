@@ -1,9 +1,6 @@
 ---
 title: "Host items and host controls overview"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -34,8 +31,8 @@ helpviewer_keywords:
   - "document-level customizations [Office development in Visual Studio], host items"
   - "Word [Office development in Visual Studio], host controls"
   - "host controls [Office development in Visual Studio], deleting"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -48,21 +45,21 @@ ms.workload:
 ## Host items  
  Host items are types that are at the top of object model hierarchies in Office projects. The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] defines the following host items for Word and Excel solutions:  
   
--   <xref:Microsoft.Office.Tools.Word.Document>  
+- <xref:Microsoft.Office.Tools.Word.Document>  
   
--   <xref:Microsoft.Office.Tools.Excel.Workbook>  
+- <xref:Microsoft.Office.Tools.Excel.Workbook>  
   
--   <xref:Microsoft.Office.Tools.Excel.Worksheet>  
+- <xref:Microsoft.Office.Tools.Excel.Worksheet>  
   
--   <xref:Microsoft.Office.Tools.Excel.ChartSheet>  
+- <xref:Microsoft.Office.Tools.Excel.ChartSheet>  
   
- Each of these types extends an object that exists natively in the Word or Excel object model, called a *native Office object*. For example, the <xref:Microsoft.Office.Tools.Word.Document> host item extends the <xref:Microsoft.Office.Interop.Word.Document> object, which is defined in the primary interop assembly for Word.  
+  Each of these types extends an object that exists natively in the Word or Excel object model, called a *native Office object*. For example, the <xref:Microsoft.Office.Tools.Word.Document> host item extends the <xref:Microsoft.Office.Interop.Word.Document> object, which is defined in the primary interop assembly for Word.  
   
- Host items generally have the same base functionality as the corresponding Office objects, but are enhanced with the following features:  
+  Host items generally have the same base functionality as the corresponding Office objects, but are enhanced with the following features:  
   
--   The ability to host managed controls, including host controls and Windows Forms controls.  
+- The ability to host managed controls, including host controls and Windows Forms controls.  
   
--   Richer event models. Some document, workbook, and worksheet events in the native Word and Excel object models are raised only at the application level. Host items provide these events at the document level, so that it is easier to handle the events for a specific document.  
+- Richer event models. Some document, workbook, and worksheet events in the native Word and Excel object models are raised only at the application level. Host items provide these events at the document level, so that it is easier to handle the events for a specific document.  
   
 ### Understand host items in document-level projects  
  In document-level projects, host items provide an entry point for your code, and they have designers that help you develop your solution.  
@@ -83,31 +80,31 @@ ms.workload:
   
  The following host controls are available for Excel projects:  
   
--   [Chart control](../vsto/chart-control.md)  
+- [Chart control](../vsto/chart-control.md)  
   
--   [ListObject control](../vsto/listobject-control.md)  
+- [ListObject control](../vsto/listobject-control.md)  
   
--   [NamedRange control](../vsto/namedrange-control.md)  
+- [NamedRange control](../vsto/namedrange-control.md)  
   
--   [XmlMappedRange control](../vsto/xmlmappedrange-control.md)  
+- [XmlMappedRange control](../vsto/xmlmappedrange-control.md)  
   
- The following host controls are available for Word projects:  
+  The following host controls are available for Word projects:  
   
--   [Bookmark control](../vsto/bookmark-control.md)  
+- [Bookmark control](../vsto/bookmark-control.md)  
   
--   [Content controls](../vsto/content-controls.md)  
+- [Content controls](../vsto/content-controls.md)  
   
--   [XMLNode control](../vsto/xmlnode-control.md)  
+- [XMLNode control](../vsto/xmlnode-control.md)  
   
--   [XMLNodes control](../vsto/xmlnodes-control.md)  
+- [XMLNodes control](../vsto/xmlnodes-control.md)  
   
- Host controls that are added to Office documents behave like the native Office objects; however, host controls have additional functionality, including events and data-binding capabilities. For example, when you want to capture the events of a native <xref:Microsoft.Office.Interop.Excel.Range> object in Excel, you must first handle the change event of the worksheet. Then you must determine whether the change occurred within the <xref:Microsoft.Office.Interop.Excel.Range>. In contrast, the <xref:Microsoft.Office.Tools.Excel.NamedRange> host control has a <xref:Microsoft.Office.Tools.Excel.NamedRange.Change> event that you can handle directly.  
+  Host controls that are added to Office documents behave like the native Office objects; however, host controls have additional functionality, including events and data-binding capabilities. For example, when you want to capture the events of a native <xref:Microsoft.Office.Interop.Excel.Range> object in Excel, you must first handle the change event of the worksheet. Then you must determine whether the change occurred within the <xref:Microsoft.Office.Interop.Excel.Range>. In contrast, the <xref:Microsoft.Office.Tools.Excel.NamedRange> host control has a <xref:Microsoft.Office.Tools.Excel.NamedRange.Change> event that you can handle directly.  
   
- The relationship between a host item and host controls is similar to the relationship between a Windows Form and Windows Forms controls. Just as you would place a text box control on a Windows Form, you place a <xref:Microsoft.Office.Tools.Excel.NamedRange> control on a <xref:Microsoft.Office.Tools.Excel.Worksheet> host item. The following illustration shows the relationship between host items and host controls.  
+  The relationship between a host item and host controls is similar to the relationship between a Windows Form and Windows Forms controls. Just as you would place a text box control on a Windows Form, you place a <xref:Microsoft.Office.Tools.Excel.NamedRange> control on a <xref:Microsoft.Office.Tools.Excel.Worksheet> host item. The following illustration shows the relationship between host items and host controls.  
   
- ![Relationship between host items and host controls](../vsto/media/hostitemscontrols.png "Relationship between host items and host controls")  
+  ![Relationship between host items and host controls](../vsto/media/hostitemscontrols.png "Relationship between host items and host controls")  
   
- You can also use Windows Forms controls in your Office solutions by adding them directly to the Word and Excel document surface. For more information, see [Windows Forms controls on Office documents overview](../vsto/windows-forms-controls-on-office-documents-overview.md).  
+  You can also use Windows Forms controls in your Office solutions by adding them directly to the Word and Excel document surface. For more information, see [Windows Forms controls on Office documents overview](../vsto/windows-forms-controls-on-office-documents-overview.md).  
   
 > [!NOTE]  
 >  Adding host controls or Windows Forms controls to a Word subdocument is not supported.  
@@ -115,31 +112,31 @@ ms.workload:
 ### Add host controls to your documents  
  In document-level projects, you can add host controls to your Word documents or Excel worksheets at design time in the following ways:  
   
--   Add host controls to your document at design time in the same manner you would add a native object.  
+- Add host controls to your document at design time in the same manner you would add a native object.  
   
--   Drag host controls from the **Toolbox** onto your documents and worksheets. Excel host controls are available in the **Excel Controls** tab in Excel projects, and Word host controls are available in the **Word Controls** tab in Word projects.  
+- Drag host controls from the **Toolbox** onto your documents and worksheets. Excel host controls are available in the **Excel Controls** tab in Excel projects, and Word host controls are available in the **Word Controls** tab in Word projects.  
   
--   Drag host controls from the **Data Sources** window onto your documents and worksheets. This enables you to add controls that are already bound to data. For more information, see [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md).  
+- Drag host controls from the **Data Sources** window onto your documents and worksheets. This enables you to add controls that are already bound to data. For more information, see [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md).  
   
- In document-level and VSTO Add-in projects, you can also add some host controls to documents at runtime. For more information, see [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md).  
+  In document-level and VSTO Add-in projects, you can also add some host controls to documents at runtime. For more information, see [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md).  
   
- For more information about how to add host controls to documents, see the following topics:  
+  For more information about how to add host controls to documents, see the following topics:  
   
--   [How to: Add Chart controls to worksheets](../vsto/how-to-add-chart-controls-to-worksheets.md)  
+- [How to: Add Chart controls to worksheets](../vsto/how-to-add-chart-controls-to-worksheets.md)  
   
--   [How to: Add ListObject controls to worksheets](../vsto/how-to-add-listobject-controls-to-worksheets.md)  
+- [How to: Add ListObject controls to worksheets](../vsto/how-to-add-listobject-controls-to-worksheets.md)  
   
--   [How to: Add NamedRange controls to worksheets](../vsto/how-to-add-namedrange-controls-to-worksheets.md)  
+- [How to: Add NamedRange controls to worksheets](../vsto/how-to-add-namedrange-controls-to-worksheets.md)  
   
--   [How to: Add XMLMappedRange controls to worksheets](../vsto/how-to-add-xmlmappedrange-controls-to-worksheets.md)  
+- [How to: Add XMLMappedRange controls to worksheets](../vsto/how-to-add-xmlmappedrange-controls-to-worksheets.md)  
   
--   [How to: Add Bookmark controls to Word documents](../vsto/how-to-add-bookmark-controls-to-word-documents.md)  
+- [How to: Add Bookmark controls to Word documents](../vsto/how-to-add-bookmark-controls-to-word-documents.md)  
   
--   [How to: Add Content controls to Word documents](../vsto/how-to-add-content-controls-to-word-documents.md)  
+- [How to: Add Content controls to Word documents](../vsto/how-to-add-content-controls-to-word-documents.md)  
   
--   [How to: Add XMLNode controls to Word documents](../vsto/how-to-add-xmlnode-controls-to-word-documents.md)  
+- [How to: Add XMLNode controls to Word documents](../vsto/how-to-add-xmlnode-controls-to-word-documents.md)  
   
--   [How to: Add XMLNodes controls to Word documents](../vsto/how-to-add-xmlnodes-controls-to-word-documents.md)  
+- [How to: Add XMLNodes controls to Word documents](../vsto/how-to-add-xmlnodes-controls-to-word-documents.md)  
   
 ### Name host controls  
  When you drag a host control from the **Toolbox** to your document, the control is automatically named using the control type with an incremental number at the end. For example, bookmarks are named **bookmark1**, **bookmark2**, and so on. If you use the native functionality of Word or Excel to add the control, you can give it a specific name at the time that you create it. You can also rename your controls by changing the value of the **Name** property in the **Properties** window.  
@@ -173,4 +170,3 @@ ms.workload:
  [Automate Excel by using extended objects](../vsto/automating-excel-by-using-extended-objects.md)   
  [Controls on Office documents](../vsto/controls-on-office-documents.md)   
  [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)  
-  

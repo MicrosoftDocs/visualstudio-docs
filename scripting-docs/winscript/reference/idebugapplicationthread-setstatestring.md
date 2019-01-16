@@ -24,7 +24,7 @@ Sets the description of thread state.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT SetStateString(  
    LPCOLESTR  pstrState  
 );  

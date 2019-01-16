@@ -24,7 +24,7 @@ Provides the return value and return object parameter from the synchronous debug
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetResult(  
    HRESULT*    phrResult,  
    IUnknown**  ppunkResult  

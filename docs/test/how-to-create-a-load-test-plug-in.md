@@ -1,5 +1,5 @@
 ---
-title: "Create a Load Test Plug-In in Visual Studio"
+title: "Create a Load Test Plug-In"
 ms.date: 10/19/2016
 ms.topic: conceptual
 f1_keywords:
@@ -13,7 +13,6 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ---
 # How to: Create a load test plug-in
 
@@ -21,6 +20,8 @@ You can create a load test plug-in to run code at different times while the load
 
 > [!NOTE]
 > You can also create plug-ins for web performance tests. For more information, see [How to: Create a web performance test plug-in](../test/how-to-create-a-web-performance-test-plug-in.md)
+
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
 ## To create a load test plug-in by using Visual C#
 

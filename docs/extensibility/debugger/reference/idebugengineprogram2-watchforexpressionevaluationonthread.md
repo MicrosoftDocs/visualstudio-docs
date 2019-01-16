@@ -1,9 +1,6 @@
 ---
 title: "IDebugEngineProgram2::WatchForExpressionEvaluationOnThread | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugEngineProgram2::WatchForExpressionEvaluationOnThread"
@@ -23,21 +20,21 @@ Allows (or disallows) expression evaluation to occur on the given thread, even i
   
 ```cpp  
 HRESULT WatchForExpressionEvaluationOnThread(   
-   IDebugProgram2*       pOriginatingProgram,  
-   DWORD                 dwTid,  
-   DWORD                 dwEvalFlags,  
-   IDebugEventCallback2* pExprCallback,  
-   BOOL                  fWatch  
+   IDebugProgram2*       pOriginatingProgram,  
+   DWORD                 dwTid,  
+   DWORD                 dwEvalFlags,  
+   IDebugEventCallback2* pExprCallback,  
+   BOOL                  fWatch  
 );  
 ```  
   
 ```csharp  
 int WatchForExpressionEvaluationOnThread(   
-   IDebugProgram2       pOriginatingProgram,  
-   uint                  dwTid,  
-   uint                  dwEvalFlags,  
-   IDebugEventCallback2 pExprCallback,  
-   int                   fWatch  
+   IDebugProgram2       pOriginatingProgram,  
+   uint                  dwTid,  
+   uint                  dwEvalFlags,  
+   IDebugEventCallback2 pExprCallback,  
+   int                   fWatch  
 );  
 ```  
   

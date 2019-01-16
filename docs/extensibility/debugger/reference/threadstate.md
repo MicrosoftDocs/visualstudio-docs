@@ -1,9 +1,6 @@
 ---
 title: "THREADSTATE | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "THREADSTATE"
@@ -23,22 +20,22 @@ Specifies the state of the thread.
   
 ```cpp  
 enum enum_THREADSTATE {   
-   THREADSTATE_RUNNING = 0x0001,  
-   THREADSTATE_STOPPED = 0x0002,  
-   THREADSTATE_FRESH   = 0x0003,  
-   THREADSTATE_DEAD    = 0x0004,  
-   THREADSTATE_FROZEN  = 0x0005  
+   THREADSTATE_RUNNING = 0x0001,  
+   THREADSTATE_STOPPED = 0x0002,  
+   THREADSTATE_FRESH   = 0x0003,  
+   THREADSTATE_DEAD    = 0x0004,  
+   THREADSTATE_FROZEN  = 0x0005  
 };  
 typedef DWORD THREADSTATE;  
 ```  
   
 ```csharp  
 public enum enum_THREADSTATE {   
-   THREADSTATE_RUNNING = 0x0001,  
-   THREADSTATE_STOPPED = 0x0002,  
-   THREADSTATE_FRESH   = 0x0003,  
-   THREADSTATE_DEAD    = 0x0004,  
-   THREADSTATE_FROZEN  = 0x0005  
+   THREADSTATE_RUNNING = 0x0001,  
+   THREADSTATE_STOPPED = 0x0002,  
+   THREADSTATE_FRESH   = 0x0003,  
+   THREADSTATE_DEAD    = 0x0004,  
+   THREADSTATE_FROZEN  = 0x0005  
 };  
 ```  
   

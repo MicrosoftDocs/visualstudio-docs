@@ -1,9 +1,6 @@
 ---
 title: "Getting Font and Color Information for Text Colorization | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology:
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "text, coloring"
@@ -44,4 +41,4 @@ After you have obtained font and color information, parse the text to be display
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorDefaults>
 - [Use fonts and text](/dotnet/framework/winforms/advanced/using-fonts-and-text)
 - [Work with color](/cpp/windows/working-with-color-image-editor-for-icons)
-- [GDI (graphics device interface)](http://msdn.microsoft.com/en-us/7e1d4540-bb2e-4257-8eee-eee376acba83)
+- [GDI (graphics device interface)](https://msdn.microsoft.com/library/7e1d4540-bb2e-4257-8eee-eee376acba83)

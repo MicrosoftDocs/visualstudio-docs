@@ -1,8 +1,6 @@
 ---
 title: "IDiaAddressMap::set_addressMap | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,9 +20,9 @@ Provides an address map to support image layout translations.
   
 ```C++  
 HRESULT set_addressMap (   
-   DWORD                     cbData,  
-   struct DiaAddressMapEntry data[],  
-   BOOL                      imagetoSymbols  
+   DWORD                     cbData,  
+   struct DiaAddressMapEntry data[],  
+   BOOL                      imagetoSymbols  
 );  
 ```  
   

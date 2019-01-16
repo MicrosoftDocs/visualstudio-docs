@@ -11,13 +11,12 @@ manager: douge
 ms.workload:
   - "multiple"
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Debugging by Using the Store Viewer
 With the Store Viewer, you can examine the state of a *store* used by [!INCLUDE[dsl](../modeling/includes/dsl_md.md)]. The Store Viewer displays all of the domain model elements that are in a specific store, along with element properties and links between elements.
 
 ## Opening Store Viewer
- When you are in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] experimental build, stop your code at a breakpoint where an instance of the store contains model information. Then, open the Store Viewer by typing the following command in the **Immediate** window:
+ When you are in the Visual Studio experimental build, stop your code at a breakpoint where an instance of the store contains model information. Then, open the Store Viewer by typing the following command in the **Immediate** window:
 
 ```csharp
 Microsoft.VisualStudio.Modeling.Diagnostics.StoreViewer.Show(mystore);

@@ -2,7 +2,6 @@
 title: "CA1012: Abstract types should not have constructors"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "AbstractTypesShouldNotHaveConstructors"
@@ -13,10 +12,14 @@ ms.assetid: 09f458ac-dd88-4cd7-a47f-4106c1e80ece
 author: gewarren
 ms.author: gewarren
 manager: douge
+dev_langs:
+ - CSharp
+ - VB
 ms.workload:
   - "multiple"
 ---
 # CA1012: Abstract types should not have constructors
+
 |||
 |-|-|
 |TypeName|AbstractTypesShouldNotHaveConstructors|
@@ -27,13 +30,13 @@ ms.workload:
 ## Cause
  A public type is abstract and has a public constructor.
 
-## Rule Description
+## Rule description
  Constructors on abstract types can be called only by derived types. Because public constructors create instances of a type, and you cannot create instances of an abstract type, an abstract type that has a public constructor is incorrectly designed.
 
-## How to Fix Violations
+## How to fix violations
  To fix a violation of this rule, either make the constructor protected or do not declare the type as abstract.
 
-## When to Suppress Warnings
+## When to suppress warnings
  Do not suppress a warning from this rule. The abstract type has a public constructor.
 
 ## Example

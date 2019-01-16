@@ -1,9 +1,6 @@
 ---
 title: "IDebugProgramNodeAttach2::OnAttach | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProgramNodeAttach2::OnAttach"
@@ -23,13 +20,13 @@ Attaches to the associated program or defers the attach process to the [Attach](
   
 ```cpp  
 HRESULT OnAttach(  
-   [in] REFGUID guidProgramId  
+   [in] REFGUID guidProgramId  
 );  
 ```  
   
 ```csharp  
 int OnAttach(  
-   ref Guid guidProgramId  
+   ref Guid guidProgramId  
 };  
 ```  
   

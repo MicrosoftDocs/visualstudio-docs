@@ -1,9 +1,6 @@
 ---
 title: "CONSTRUCTOR_ENUM | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "CONSTRUCTOR_ENUM"
@@ -23,17 +20,17 @@ Selects different types of constructors.
   
 ```cpp  
 typedef enum ConstructorMatchOptions {   
-   crAll       = 0,  
-   crNonStatic = 1,  
-   crStatic    = 2  
+   crAll       = 0,  
+   crNonStatic = 1,  
+   crStatic    = 2  
 } CONSTRUCTOR_ENUM;  
 ```  
   
 ```csharp  
 public enum ConstructorMatchOptions {   
-   crAll       = 0,  
-   crNonStatic = 1,  
-   crStatic    = 2  
+   crAll       = 0,  
+   crNonStatic = 1,  
+   crStatic    = 2  
 };  
 ```  
   

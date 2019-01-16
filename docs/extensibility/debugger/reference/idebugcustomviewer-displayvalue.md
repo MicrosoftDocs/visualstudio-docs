@@ -1,9 +1,6 @@
 ---
 title: "IDebugCustomViewer::DisplayValue | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugCustomViewer::DisplayValue"
@@ -23,19 +20,19 @@ This method is called to display the specified value.
   
 ```cpp  
 HRESULT DisplayValue(  
-   HWND             hwnd,  
-   DWORD            dwID,  
-   IUnknown *       pHostServices,  
-   IDebugProperty3* pDebugProperty);  
+   HWND             hwnd,  
+   DWORD            dwID,  
+   IUnknown *       pHostServices,  
+   IDebugProperty3* pDebugProperty);  
 );  
 ```  
   
 ```csharp  
 int DisplayValue(  
-   IntPtr          hwnd,   
-   uint            dwID,   
-   object          pHostServices,   
-   IDebugProperty3 pDebugProperty  
+   IntPtr          hwnd,   
+   uint            dwID,   
+   object          pHostServices,   
+   IDebugProperty3 pDebugProperty  
 );  
 ```  
   

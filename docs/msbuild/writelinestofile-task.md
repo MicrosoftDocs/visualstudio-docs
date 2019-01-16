@@ -1,8 +1,6 @@
 ---
 title: "WriteLinesToFile Task | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.technology: msbuild
+ms.date: "09/20/2018"
 ms.topic: "reference"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#WriteLinesToFile"
@@ -33,7 +31,8 @@ Writes the paths of the specified items to the specified text file.
 |`Lines`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies the items to write to the file.|  
 |`Overwrite`|Optional `Boolean` parameter.<br /><br /> If `true`, the task overwrites any existing content in the file.|  
 |`Encoding`|Optional `String` parameter.<br /><br /> Selects the character encoding, for example, "Unicode".  See also <xref:System.Text.Encoding>.|  
-  
+|`WriteOnlyWhenDifferent`|Optional `Boolean` parameter.<br /><br /> If `true`, the target file specified, if it exists, will be read first to compare against what the task would have written. If identical, the file is not written to disk and the timestamp will be preserved.|  
+
 ## Remarks  
  If `Overwrite` is `true`, creates a new file, write the contents to the file, and then closes the file. If the target file already exists, it is overwritten. If `Overwrite` is `false`, appends the contents to file, creating the target file if it does not already exist.  
   

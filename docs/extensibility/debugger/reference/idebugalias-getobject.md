@@ -1,9 +1,6 @@
 ---
 title: "IDebugAlias::GetObject | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugAlias::GetObject"
@@ -23,13 +20,13 @@ Gets the object that this alias is for.
   
 ```cpp  
 HRESULT GetObject(  
-   IDebugObject2** ppObject  
+   IDebugObject2** ppObject  
 );  
 ```  
   
 ```csharp  
 int GetObject(  
-   Out IDebugObject2 ppObject  
+   Out IDebugObject2 ppObject  
 )  
 ```  
   

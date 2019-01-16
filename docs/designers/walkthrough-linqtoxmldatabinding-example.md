@@ -2,7 +2,6 @@
 title: "Walkthrough: LinqToXmlDataBinding Example"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-designers
 ms.topic: conceptual
 ms.assetid: aedf42e8-896c-48fa-88df-7f7c9536aa69
 author: gewarren
@@ -20,19 +19,19 @@ This walkthrough describes the LinqToXmlDataBinding example, and explains some o
 ## Remarks
  The LinqToXmlDataBinding program is a Windows Presentation Foundation (WPF) application that is composed of C# and XAML source files. It contains an embedded XML document that defines a list of books, and enables the user to view, add, delete, and edit these entries. It is composed of the following two primary source files:
 
--   *L2DBForm.xaml* contains the XAML declaration code for the user interface (UI) of the main window. It also contains a window resource section that defines a data provider and embedded XML document for the book listings.
+- *L2DBForm.xaml* contains the XAML declaration code for the user interface (UI) of the main window. It also contains a window resource section that defines a data provider and embedded XML document for the book listings.
 
--   *L2DBForm.xaml.cs* contains the initialization and event-handling methods associated with the UI.
+- *L2DBForm.xaml.cs* contains the initialization and event-handling methods associated with the UI.
 
- The main window is divided into the following four vertical UI sections:
+  The main window is divided into the following four vertical UI sections:
 
--   **XML** displays the raw XML source of the embedded book listing.
+- **XML** displays the raw XML source of the embedded book listing.
 
--   **Book List** displays the book entries as standard text and enables the user to select and delete individual entries.
+- **Book List** displays the book entries as standard text and enables the user to select and delete individual entries.
 
--   **Edit Selected Book** enables the user to edit the values associated with the currently selected book entry.
+- **Edit Selected Book** enables the user to edit the values associated with the currently selected book entry.
 
--   **Add New Book** enables the creation of a new book entry based on values entered by the user.
+- **Add New Book** enables the creation of a new book entry based on values entered by the user.
 
 ## In this section
 

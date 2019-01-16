@@ -1,8 +1,6 @@
 ---
 title: "IDiaPropertyStorage::Enum | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Gets an enumerator for properties within this set.
   
 ```C++  
 HRESULT Enum (   
-   IEnumSTATPROPSTG** ppenum  
+   IEnumSTATPROPSTG** ppenum  
 );  
 ```  
   

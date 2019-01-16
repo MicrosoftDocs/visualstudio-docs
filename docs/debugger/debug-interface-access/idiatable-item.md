@@ -1,8 +1,6 @@
 ---
 title: "IDiaTable::Item | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,8 +20,8 @@ Retrieves a reference to the specified entry in the table.
   
 ```C++  
 HRESULT Item (   
-   DWORD      index,  
-   IUnknown** element  
+   DWORD      index,  
+   IUnknown** element  
 );  
 ```  
   

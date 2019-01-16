@@ -1,9 +1,6 @@
 ---
 title: "Guidelines for creating Outlook form regions"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -11,8 +8,8 @@ dev_langs:
 helpviewer_keywords: 
   - "form regions [Office development in Visual Studio], guidelines"
   - "icons [Office development in Visual Studio]"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -20,19 +17,19 @@ ms.workload:
 # Guidelines to create Outlook form regions
   The following information can help you optimize your form regions and avoid potential problems:  
   
--   [Use form region names](#UsingFormRegions).  
+- [Use form region names](#UsingFormRegions).  
   
--   [Disable form region inheritance](#DisablingInheritance).  
+- [Disable form region inheritance](#DisablingInheritance).  
   
--   [Understand types and message class names](#ClassNames).  
+- [Understand types and message class names](#ClassNames).  
   
--   [Design adjoining form regions for the reading pane](#ReadingPane).  
+- [Design adjoining form regions for the reading pane](#ReadingPane).  
   
--   [Use optimal icon sizes](#UsingOptimal).  
+- [Use optimal icon sizes](#UsingOptimal).  
   
- For more information about form regions, see [Create Outlook form regions](../vsto/creating-outlook-form-regions.md).  
+  For more information about form regions, see [Create Outlook form regions](../vsto/creating-outlook-form-regions.md).  
   
- [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]  
+  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]  
   
 ##  <a name="UsingFormRegions"></a> Use form region names  
  There are several names used to describe the form region. It is important to understand the difference between these names and how they affect the form region. The following table describes each name.  
@@ -60,28 +57,28 @@ ms.workload:
   
  For example, if an item that has an adjoining form region is open in the Reading Pane, the following situation is possible:  
   
-1.  Select some text in a textbox that is on the form region.  
+1. Select some text in a textbox that is on the form region.  
   
-2.  Press **Delete**.  
+2. Press **Delete**.  
   
-3.  The entire mail item is deleted instead of the text in the textbox.  
+3. The entire mail item is deleted instead of the text in the textbox.  
   
- If you are designing an adjoining form region that contains input controls, test the controls in the Reading Pane to ensure they work properly. Consider adding custom code that disables controls that do not behave as expected.  
+   If you are designing an adjoining form region that contains input controls, test the controls in the Reading Pane to ensure they work properly. Consider adding custom code that disables controls that do not behave as expected.  
   
- Alternatively, you can set the <xref:Microsoft.Office.Tools.Outlook.FormRegionManifest.ShowInspectorRead%2A> property of the form region to **False**. This way the form region cannot be used in the Reading Pane.  
+   Alternatively, you can set the <xref:Microsoft.Office.Tools.Outlook.FormRegionManifest.ShowInspectorRead%2A> property of the form region to **False**. This way the form region cannot be used in the Reading Pane.  
   
 ##  <a name="UsingOptimal"></a> Use optimal icon sizes  
  You can specify which icons you want the form region to display by setting icon properties in the **Icons** property group of the **Properties** window. Use the following guidelines to achieve the best visual quality:  
   
--   For the **Page** icon, use a Portable Network Graphics (PNG) file.  
+- For the **Page** icon, use a Portable Network Graphics (PNG) file.  
   
--   **Window** icons should be 32 pixels by 32 pixels.  
+- **Window** icons should be 32 pixels by 32 pixels.  
   
--   All other icons should be 16 pixels by 16 pixels.  
+- All other icons should be 16 pixels by 16 pixels.  
   
- The **Page** icon appears on the Ribbon of an Inspector for items that have separate, replacement, or replace-all form regions.  
+  The **Page** icon appears on the Ribbon of an Inspector for items that have separate, replacement, or replace-all form regions.  
   
- The **Window** icon appears in the notification area and in the **Alt**+**Tab** dialog box for open items that display replacement or replace-all form regions.  
+  The **Window** icon appears in the notification area and in the **Alt**+**Tab** dialog box for open items that display replacement or replace-all form regions.  
   
 ## See also  
  [Access a form region at runtime](../vsto/accessing-a-form-region-at-run-time.md)   
@@ -89,5 +86,3 @@ ms.workload:
  [Walkthrough: Design an Outlook form region](../vsto/walkthrough-designing-an-outlook-form-region.md)   
  [How to: Add a form region to an Outlook Add-in project](../vsto/how-to-add-a-form-region-to-an-outlook-add-in-project.md)   
  [Associate a form region with an Outlook message class](../vsto/associating-a-form-region-with-an-outlook-message-class.md)  
-  
-  

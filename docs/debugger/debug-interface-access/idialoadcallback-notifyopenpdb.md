@@ -1,8 +1,6 @@
 ---
 title: "IDiaLoadCallback::NotifyOpenPDB | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,8 +20,8 @@ Called when a candidate .pdb file is opened.
   
 ```C++  
 HRESULT NotifyOpenPDB (   
-   LPCOLESTR pdbPath,  
-   HRESULT   resultCode  
+   LPCOLESTR pdbPath,  
+   HRESULT   resultCode  
 );  
 ```  
   

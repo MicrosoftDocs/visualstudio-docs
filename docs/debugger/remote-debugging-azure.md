@@ -2,7 +2,6 @@
 title: "Remote Debug ASP.NET Core on IIS and Azure | Microsoft Docs"
 ms.custom: "remotedebugging"
 ms.date: "05/21/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: a6c04b53-d1b9-4552-a8fd-3ed6f4902ce6
 author: "mikejo5000"
@@ -179,8 +178,6 @@ If you're not using Web Deploy, you must publish and deploy the app using the fi
 
 In this tutorial, we are using Visual Studio 2017.
 
-If you have trouble opening the page with the remote debugger download, see [Unblock the file download](../debugger/remote-debugging.md#unblock_msvsmon) for help.
-
 [!INCLUDE [remote-debugger-download](../debugger/includes/remote-debugger-download.md)]
   
 ### <a name="BKMK_setup"></a> Set up the remote debugger on Windows Server
@@ -237,4 +234,3 @@ Required ports:
 
 In addition, these ports should already be opened by the ASP.NET installation:
 - 8172 - (Optional) Required for Web Deploy to deploy the app from Visual Studio
-

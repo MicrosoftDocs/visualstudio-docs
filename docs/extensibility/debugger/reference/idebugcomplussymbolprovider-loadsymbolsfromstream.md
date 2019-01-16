@@ -1,9 +1,6 @@
 ---
 title: "IDebugComPlusSymbolProvider::LoadSymbolsFromStream | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugComPlusSymbolProvider::LoadSymbolsFromStream"
@@ -22,21 +19,21 @@ Loads debug symbols given the data stream.
   
 ```cpp  
 HRESULT LoadSymbolsFromStream(  
-   ULONG32   ulAppDomainID,  
-   GUID      guidModule,  
-   ULONGLONG baseAddress,  
-   IUnknown* pUnkMetadataImport,  
-   IStream*  pStream  
+   ULONG32   ulAppDomainID,  
+   GUID      guidModule,  
+   ULONGLONG baseAddress,  
+   IUnknown* pUnkMetadataImport,  
+   IStream*  pStream  
 );  
 ```  
   
 ```csharp  
 int LoadSymbolsFromStream(  
-   uint    ulAppDomainID,  
-   Guid    guidModule,  
-   ulong   baseAddress,  
-   object  pUnkMetadataImport,  
-   IStream pStream  
+   uint    ulAppDomainID,  
+   Guid    guidModule,  
+   ulong   baseAddress,  
+   object  pUnkMetadataImport,  
+   IStream pStream  
 );  
 ```  
   

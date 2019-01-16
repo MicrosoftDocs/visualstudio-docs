@@ -1,8 +1,6 @@
 ---
 title: "Processes View | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.externaltools.spyplus.processesview"
@@ -26,12 +24,12 @@ The Processes view displays a tree of all active processes on your system. The p
   
 #### To open the Processes view  
   
-1.  From the **Spy** menu, choose **Processes**.  
+1. From the **Spy** menu, choose **Processes**.  
   
- ![Spy&#43;&#43; Processes View](../debugger/media/spy--_processes.png "Spy++_Processes")  
-Spy++ Processes View  
+   ![Spy&#43;&#43; Processes View](../debugger/media/spy--_processes.png "Spy++_Processes")  
+   Spy++ Processes View  
   
- The figure above shows the Processes view with process and thread nodes expanded.  
+   The figure above shows the Processes view with process and thread nodes expanded.  
   
 ### In This Section  
  [Searching for a Process in Processes View](../debugger/how-to-search-for-a-process-in-processes-view.md)  

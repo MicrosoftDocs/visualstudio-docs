@@ -1,8 +1,6 @@
 ---
 title: "IDiaStackWalkFrame::readMemory | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,11 +20,11 @@ Reads memory from image.
   
 ```C++  
 HRESULT readMemory (   
-   MemoryTypeEnum type,  
-   ULONGLONG va,  
-   DWORD     cbData,  
-   DWORD*    pcbData,  
-   BYTE      data[]  
+   MemoryTypeEnum type,  
+   ULONGLONG va,  
+   DWORD     cbData,  
+   DWORD*    pcbData,  
+   BYTE      data[]  
 );  
 ```  
   

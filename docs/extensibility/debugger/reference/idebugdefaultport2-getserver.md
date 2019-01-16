@@ -1,9 +1,6 @@
 ---
 title: "IDebugDefaultPort2::GetServer | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugDefaultPort2::GetServer"
@@ -23,13 +20,13 @@ This method obtains an interface to the server that this port is on.
   
 ```cpp  
 HRESULT GetServer(  
-   IDebugCoreServer3** ppServer  
+   IDebugCoreServer3** ppServer  
 );  
 ```  
   
 ```csharp  
 int GetServer(  
-   out IDebugCoreServer3 ppServer  
+   out IDebugCoreServer3 ppServer  
 );  
 ```  
   

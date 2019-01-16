@@ -1,9 +1,6 @@
 ---
 title: "IDebugPendingBreakpoint2::GetState | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugPendingBreakpoint2::GetState"
@@ -24,13 +21,13 @@ Gets the state of the pending breakpoint.
   
 ```cpp  
 HRESULT GetState(   
-   PENDING_BP_STATE_INFO* pState  
+   PENDING_BP_STATE_INFO* pState  
 );  
 ```  
   
 ```csharp  
 int GetState(   
-   PENDING_BP_STATE_INFO[] pState  
+   PENDING_BP_STATE_INFO[] pState  
 );  
 ```  
   

@@ -1,9 +1,6 @@
 ---
 title: "Using MSBuild | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "VSPackages, compiling with MSBuild"
@@ -33,7 +30,7 @@ MSBuild supplies a well-defined, extensible XML format for creating project file
 ### Extending MSBuild for Your Project Type  
  MSBuild interfaces and APIs are subject to change in future versions of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. Therefore, it is prudent to use the managed package framework (MPF) classes because they provide shielding from changes.  
   
- The Managed Package Framework for Projects (MPFProj) provides helper classes for creating and managing new project system. You can find the source code and compilation instructions at [MPF for Projects - Visual Studio 2013](http://mpfproj12.codeplex.com/).  
+ The Managed Package Framework for Projects (MPFProj) provides helper classes for creating and managing new project system. You can find the source code and compilation instructions at [MPF for Projects - Visual Studio 2013](https://github.com/tunnelvisionlabs/MPFProj10).  
   
  The project-specific MPF classes are as follows:  
   

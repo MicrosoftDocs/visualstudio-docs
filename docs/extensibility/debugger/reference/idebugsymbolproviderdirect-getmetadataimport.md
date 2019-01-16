@@ -1,9 +1,6 @@
 ---
 title: "IDebugSymbolProviderDirect::GetMetaDataImport | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "GetMetaDataImport"
@@ -22,17 +19,17 @@ Retrieves the metadata import information.
   
 ```cpp  
 HRESULT GetMetaDataImport (  
-    GUID*      guid,  
-    DWORD      appID,  
-    IUnknown** ppImport  
+    GUID*      guid,  
+    DWORD      appID,  
+    IUnknown** ppImport  
 );  
 ```  
   
 ```csharp  
 int GetMetaDataImport (  
-    Guid       guid,  
-    uint       appID,  
-    out object ppImport  
+    Guid       guid,  
+    uint       appID,  
+    out object ppImport  
 );  
 ```  
   

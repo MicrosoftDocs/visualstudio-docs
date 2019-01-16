@@ -1,8 +1,6 @@
 ---
 title: "ClickOnce Security and Deployment | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -25,13 +23,13 @@ ms.workload:
   
  [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment overcomes three major issues in deployment:  
   
--   **Difficulties in updating applications.** With Microsoft Windows Installer deployment, whenever an application is updated, the user can install an update, an msp file, and apply it to the installed product; with [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment, you can provide updates automatically. Only those parts of the application that have changed are downloaded, and then the full, updated application is reinstalled from a new side-by-side folder.  
+- **Difficulties in updating applications.** With Microsoft Windows Installer deployment, whenever an application is updated, the user can install an update, an msp file, and apply it to the installed product; with [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment, you can provide updates automatically. Only those parts of the application that have changed are downloaded, and then the full, updated application is reinstalled from a new side-by-side folder.  
   
--   **Impact to the user's computer.** With Windows Installer deployment, applications often rely on shared components, with the potential for versioning conflicts; with [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment, each application is self-contained and cannot interfere with other applications.  
+- **Impact to the user's computer.** With Windows Installer deployment, applications often rely on shared components, with the potential for versioning conflicts; with [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment, each application is self-contained and cannot interfere with other applications.  
   
--   **Security permissions.** Windows Installer deployment requires administrative permissions and allows only limited user installation; [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment enables non-administrative users to install and grants only those Code Access Security permissions necessary for the application.  
+- **Security permissions.** Windows Installer deployment requires administrative permissions and allows only limited user installation; [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment enables non-administrative users to install and grants only those Code Access Security permissions necessary for the application.  
   
- In the past, these issues sometimes caused developers to decide to create Web applications instead of Windows-based applications, sacrificing a rich user interface for ease of installation. By using applications deployed using [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)], you can have the best of both technologies.  
+  In the past, these issues sometimes caused developers to decide to create Web applications instead of Windows-based applications, sacrificing a rich user interface for ease of installation. By using applications deployed using [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)], you can have the best of both technologies.  
   
 ## What is a ClickOnce application?  
  A [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application is any Windows Presentation Foundation (*.xbap*), Windows Forms (*.exe*), console application (*.exe*), or Office solution (*.dll*) published using [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] technology. You can publish a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application in three different ways: from a Web page, from a network file share, or from media such as a CD-ROM. A [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application can be installed on an end user's computer and run locally even when the computer is offline, or it can be run in an online-only mode without permanently installing anything on the end user's computer. For more information, see [Choose a ClickOnce deployment strategy](../deployment/choosing-a-clickonce-deployment-strategy.md).  
@@ -47,7 +45,7 @@ ms.workload:
  Authenticode certificates are used to verify the authenticity of the application's publisher. By using Authenticode for application deployment, ClickOnce helps prevent a harmful program from portraying itself as a legitimate program coming from an established, trustworthy source. Optionally, certificates can also be used to sign the application and deployment manifests to prove that the files have not been tampered with. For more information, see [ClickOnce and Authenticode](../deployment/clickonce-and-authenticode.md). Certificates can also be used to configure client computers to have a list of trusted publishers. If an application comes from a trusted publisher, it can be installed without any user interaction. For more information, see [Trusted application deployment overview](../deployment/trusted-application-deployment-overview.md).  
   
 ### Code access security  
- Code access secrity helps limit the access that code has to protected resources. In most cases, you can choose the Internet or Local Intranet zones to limit the permissions. Use the **Security** page in the **ProjectDesigner** to request the zone appropriate for the application. You can also debug applications with restricted permissions to emulate the end-user experience. For more information, see [Code access security for ClickOnce applications](../deployment/code-access-security-for-clickonce-applications.md).  
+ Code access security helps limit the access that code has to protected resources. In most cases, you can choose the Internet or Local Intranet zones to limit the permissions. Use the **Security** page in the **ProjectDesigner** to request the zone appropriate for the application. You can also debug applications with restricted permissions to emulate the end-user experience. For more information, see [Code access security for ClickOnce applications](../deployment/code-access-security-for-clickonce-applications.md).  
   
 ### ClickOnce trust prompt  
  If the application requests more permissions than the zone allows, the end user can be prompted to make a trust decision. The end user can decide if ClickOnce applications such as Windows Forms applications, Windows Presentation Foundation applications, console applications, XAML browser applications, and Office solutions are trusted to run. For more information, see [How to: Configure the ClickOnce trust prompt behavior](../deployment/how-to-configure-the-clickonce-trust-prompt-behavior.md).  

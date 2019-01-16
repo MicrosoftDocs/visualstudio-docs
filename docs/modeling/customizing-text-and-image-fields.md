@@ -8,7 +8,6 @@ manager: douge
 ms.workload:
   - "multiple"
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Customizing Text and Image Fields
 When you define a text decorator in a shape, it is represented by a TextField. For examples of the initialization of TextFields and other ShapeFields, inspect Dsl\GeneratedCode\Shapes.cs in your DSL solution.
@@ -74,7 +73,6 @@ public virtual Font GetFont(ShapeElement shape)
 // To change per shape or dynamically, override this.
 public virtual StyleSetResourceId GetFontId(ShapeElement parentShape)
 { return DefaultFontId; }
-
 ```
 
  There are several other pairs of `Get` methods and `Default` properties, such as `DefaultMultipleLine/GetMultipleLine()`. You can assign a value to the Default property to change the value for all instances of the shape field. To make the value vary from one shape instance to another, or dependent on the state of the shape or its model element, override the `Get` method.
@@ -100,7 +98,6 @@ public virtual StyleSetResourceId GetFontId(ShapeElement parentShape)
       TextField commentField = ShapeElement.FindShapeField(shapeFields, "CommentDecorator") as TextField;
       // Use the standard font for comments:
       commentField.DefaultFontId = DiagramFonts.CommentText;
-
 ```
 
 ## Dynamic customizations
@@ -163,7 +160,6 @@ using Microsoft.VisualStudio.Modeling.Diagrams;
     }
 
   }
-
 ```
 
 ## Style sets
@@ -258,7 +254,6 @@ partial class ExampleShape
     }
   }
 }
-
 ```
 
 ## See Also

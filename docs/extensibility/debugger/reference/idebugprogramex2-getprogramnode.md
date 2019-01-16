@@ -1,9 +1,6 @@
 ---
 title: "IDebugProgramEx2::GetProgramNode | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProgramEx2::Attach"
@@ -23,13 +20,13 @@ Gets the program node associated with a program.
   
 ```cpp  
 HRESULT GetProgramNode(   
-   IDebugProgramNode2** ppProgramNode  
+   IDebugProgramNode2** ppProgramNode  
 );  
 ```  
   
 ```csharp  
 int GetProgramNode(   
-   out IDebugProgramNode2 ppProgramNode  
+   out IDebugProgramNode2 ppProgramNode  
 );  
 ```  
   

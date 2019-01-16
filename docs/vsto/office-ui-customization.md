@@ -1,9 +1,6 @@
 ---
 title: "Office UI customization"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -55,13 +52,13 @@ ms.workload:
   
  The Office development tools in Visual Studio provide two different ways to customize task panes:  
   
--   You can add an actions pane to a document-level customization. By default, the actions pane is displayed on the right side of the application, to the right of the document. However, the actions pane can also be displayed to the left, top, or bottom of the document.  
+- You can add an actions pane to a document-level customization. By default, the actions pane is displayed on the right side of the application, to the right of the document. However, the actions pane can also be displayed to the left, top, or bottom of the document.  
   
--   You can add a custom task pane to a VSTO Add-in. Users can dock custom task panes to different sides of the application window, or they can drag custom task panes to any location in the window.  
+- You can add a custom task pane to a VSTO Add-in. Users can dock custom task panes to different sides of the application window, or they can drag custom task panes to any location in the window.  
   
- Actions panes and custom task panes provide functionality by hosting a variety of controls to help users with tasks such as data entry. Compared to a Ribbon group, actions panes and custom task panes provide a much larger area to include text and controls.  
+  Actions panes and custom task panes provide functionality by hosting a variety of controls to help users with tasks such as data entry. Compared to a Ribbon group, actions panes and custom task panes provide a much larger area to include text and controls.  
   
- For more information about actions panes, see [Actions pane overview](../vsto/actions-pane-overview.md). For more information about custom task panes, see [Custom task panes](../vsto/custom-task-panes.md).  
+  For more information about actions panes, see [Actions pane overview](../vsto/actions-pane-overview.md). For more information about custom task panes, see [Custom task panes](../vsto/custom-task-panes.md).  
   
 ##  <a name="Ribbon"></a> Custom Ribbon UI  
  You can customize the Ribbon UI to expose functionality that you add to applications in Office. The Ribbon is a way to organize related commands (in the form of controls) so that they are easier to find. You can create your own Ribbon tabs and groups to give users access to functionality that you provide in your solution. Most of the features that were accessed by using the menus and toolbars in earlier versions of the Microsoft Office system can now be accessed by using the Ribbon.  
@@ -102,5 +99,3 @@ ms.workload:
  [How to: Show the Developer tab on the Ribbon](../vsto/how-to-show-the-developer-tab-on-the-ribbon.md)   
  [How to: Show Add-in user interface errors](../vsto/how-to-show-add-in-user-interface-errors.md)   
  [Walkthrough: Collect data using a Windows form](../vsto/walkthrough-collecting-data-using-a-windows-form.md)  
-  
-  

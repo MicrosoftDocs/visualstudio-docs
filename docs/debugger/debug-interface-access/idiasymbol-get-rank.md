@@ -1,8 +1,6 @@
 ---
 title: "IDiaSymbol::get_rank | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves the rank (number of dimensions) of a FORTRAN multi-dimensional array.
   
 ```C++  
 HRESULT get_rank (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

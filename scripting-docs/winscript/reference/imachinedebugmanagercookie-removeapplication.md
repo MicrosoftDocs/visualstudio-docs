@@ -24,7 +24,7 @@ Removes an application from the running application list.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT RemoveApplication(  
    DWORD  dwDebugAppCookie,  
    DWORD  dwAppCookie  

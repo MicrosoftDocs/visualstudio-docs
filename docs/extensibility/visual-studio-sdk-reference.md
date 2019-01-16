@@ -1,9 +1,6 @@
 ---
 title: "Visual Studio SDK Reference | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Visual Studio SDK, reference"
@@ -217,7 +214,7 @@ This section contains information about Visual Studio namespaces, related namesp
  <xref:Microsoft.VisualStudio.Threading>  
  Used for Visual Studio threading.  
   
- [Microsoft.VisualStudio.ConnectedServices Namespace](https://msdn.microsoft.com/library/microsoft.visualstudio.connectedservices.aspx)
+ [Microsoft.VisualStudio.ConnectedServices Namespace](/dotnet/api/microsoft.visualstudio.connectedservices)
  Used for Visual Studio connected services.  
   
  [IntelliSenseHostFlags](../extensibility/intellisensehostflags.md) enumeration  

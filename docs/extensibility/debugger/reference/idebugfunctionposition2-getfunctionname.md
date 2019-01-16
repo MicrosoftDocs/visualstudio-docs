@@ -1,9 +1,6 @@
 ---
 title: "IDebugFunctionPosition2::GetFunctionName | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugFunctionPosition2::GetFunctionName"
@@ -23,13 +20,13 @@ Gets the name of the function to which this position points.
   
 ```cpp  
 HRESULT GetFunctionName(   
-   BSTR* pbstrFunctionName  
+   BSTR* pbstrFunctionName  
 );  
 ```  
   
 ```csharp  
 int GetFunctionName(  
-   out string pbstrFunctionName  
+   out string pbstrFunctionName  
 );  
 ```  
   

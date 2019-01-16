@@ -1,8 +1,6 @@
 ---
 title: "IDiaLineNumber::get_columnNumber | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -23,7 +21,7 @@ Retrieves the column number where the expression or statement begins.
 ```  
 [C++]  
 HRESULT get_columnNumber (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

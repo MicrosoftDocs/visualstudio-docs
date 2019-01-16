@@ -1,8 +1,6 @@
 ---
 title: "IDiaInjectedSource::get_objectFilename | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves the object file name to which the source was compiled.
   
 ```C++  
 HRESULT get_objectFilename (   
-   BSTR* pRetVal  
+   BSTR* pRetVal  
 );  
 ```  
   

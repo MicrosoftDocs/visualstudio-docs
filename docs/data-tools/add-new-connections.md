@@ -6,7 +6,6 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
 ms.workload:
   - "data-storage"
 ---
@@ -20,7 +19,7 @@ You can test your connection to a database or service, and explore database cont
 
 - Cloud Explorer
 
-   Install this window manually as a Visual Studio extension by selecting **Tools** > **Extensions and Updates** > **Online** > **Visual Studio Markeplace**. Provides specialized functionality for exploring and connecting to Azure services.
+   Install this window manually as a Visual Studio extension by selecting **Tools** > **Extensions and Updates** > **Online** > **Visual Studio Marketplace**. Provides specialized functionality for exploring and connecting to Azure services.
 
 - SQL Server Object Explorer
 

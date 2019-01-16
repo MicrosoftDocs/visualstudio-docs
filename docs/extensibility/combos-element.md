@@ -1,9 +1,6 @@
 ---
 title: "Combos Element | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Combos element (VSCT XML schema)"
@@ -53,23 +50,23 @@ Groups [Combo element](../extensibility/combo-element.md) elements.
   
 ```  
 <Combos>  
-  <Combo guid="guidWidgetPackage" id="cmdidInsertOptions"  
-    defaultWidth="100" idCommandList="cmdidGetInsertOptionsList">  
-    <CommandFlag>DynamicVisibility</CommandFlag>  
-    <Strings>  
-      <ButtonText>Select Insert Options</ButtonText>  
-    </Strings>  
-  </Combo>  
+  <Combo guid="guidWidgetPackage" id="cmdidInsertOptions"  
+    defaultWidth="100" idCommandList="cmdidGetInsertOptionsList">  
+    <CommandFlag>DynamicVisibility</CommandFlag>  
+    <Strings>  
+      <ButtonText>Select Insert Options</ButtonText>  
+    </Strings>  
+  </Combo>  
   
-  <Combo guid="guidWidgetPackage" id="cmdidInsertOptions"  
-    priority="0x0500" type="DropDownCombo" defaultWidth="100"  
-    idCommandList="cmdidGetInsertOptionsList">  
-    <Parent guid="cmdSetGuidWidgetCommands" id="groupIDFileEdit">  
-    <CommandFlag>DynamicVisibility</CommandFlag>  
-    <Strings>  
-      <ButtonText>Select Insert Options</ButtonText>  
-    </Strings>  
-  </Combo>  
+  <Combo guid="guidWidgetPackage" id="cmdidInsertOptions"  
+    priority="0x0500" type="DropDownCombo" defaultWidth="100"  
+    idCommandList="cmdidGetInsertOptionsList">  
+    <Parent guid="cmdSetGuidWidgetCommands" id="groupIDFileEdit">  
+    <CommandFlag>DynamicVisibility</CommandFlag>  
+    <Strings>  
+      <ButtonText>Select Insert Options</ButtonText>  
+    </Strings>  
+  </Combo>  
 </Combos>  
 ```  
   

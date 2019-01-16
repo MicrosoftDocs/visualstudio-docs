@@ -1,9 +1,6 @@
 ---
 title: "Intercepting Legacy Language Service Commands | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "commands, intercepting language service"
@@ -25,12 +22,12 @@ With [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], you can have 
   
  You have the following options for command handling:  
   
--   Handle the command and then pass the command on to the next command filter in the chain.  
+- Handle the command and then pass the command on to the next command filter in the chain.  
   
--   Handle the command and do not pass the command on to the next command filter.  
+- Handle the command and do not pass the command on to the next command filter.  
   
--   Do not handle the command, but pass the command on to the next command filter.  
+- Do not handle the command, but pass the command on to the next command filter.  
   
--   Ignore the command. Do not handle it in the current filter, and do not pass it on to the next filter.  
+- Ignore the command. Do not handle it in the current filter, and do not pass it on to the next filter.  
   
- For information about which commands your language service should handle, see [Important Commands for Language Service Filters](../../extensibility/internals/important-commands-for-language-service-filters.md).
+  For information about which commands your language service should handle, see [Important Commands for Language Service Filters](../../extensibility/internals/important-commands-for-language-service-filters.md).

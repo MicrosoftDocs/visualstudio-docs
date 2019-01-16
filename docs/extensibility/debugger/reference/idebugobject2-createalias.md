@@ -1,9 +1,6 @@
 ---
 title: "IDebugObject2::CreateAlias | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugObject2::CreateAlias"
@@ -23,13 +20,13 @@ Creates a unique ID or alias for this object or returns an existing alias.
   
 ```cpp  
 HRESULT CreateAlias(  
-   IDebugAlias** ppAlias  
+   IDebugAlias** ppAlias  
 );  
 ```  
   
 ```csharp  
 int CreateAlias(  
-   out IDebugAlias ppAlias  
+   out IDebugAlias ppAlias  
 );  
 ```  
   

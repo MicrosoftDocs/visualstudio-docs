@@ -3,7 +3,6 @@ title: "Workflow Designer - CorrelatesOn Definition Dialog Box"
 ms.date: 11/04/2016
 ms.topic: reference
 ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 f1_keywords:
   - "CorrelatesOnDefinition.UI"
 ms.assetid: 8b2b627a-f236-4479-aa09-525df65e3413
@@ -22,7 +21,7 @@ The correlation between <xref:System.ServiceModel.Activities.Receive> activities
 The following table describes the user interface (UI) elements of the **CorrelatesOn** dialog box.
 
 |UI Element|Description|
-|----------------|-----------------|
+|-|-----------------|
 |**CorrelatesWith**|The <xref:System.ServiceModel.Activities.CorrelationHandle> that is used to route the message to the appropriate workflow instance.|
 |**XPath Queries**|A key/value pair that contains the queries used to extract correlation data from the incoming messages. This value corresponds to the <xref:System.ServiceModel.Activities.Receive.CorrelatesOn%2A> property. The XPath queries are contained in a <xref:System.ServiceModel.MessageQuerySet> object.|
 

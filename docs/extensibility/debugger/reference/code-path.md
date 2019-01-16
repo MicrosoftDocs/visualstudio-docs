@@ -1,9 +1,6 @@
 ---
 title: "CODE_PATH | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "CODE_PATH"
@@ -23,8 +20,8 @@ Describes a method or function call.
   
 ```cpp  
 typedef struct tagCODE_PATH {   
-   BSTR                bstrName;  
-   IDebugCodeContext2* pCode;  
+   BSTR                bstrName;  
+   IDebugCodeContext2* pCode;  
 } CODE_PATH;  
 ```  
   

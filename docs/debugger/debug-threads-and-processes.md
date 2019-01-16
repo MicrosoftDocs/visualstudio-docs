@@ -1,8 +1,6 @@
 ---
 title: "Tools to debug threads and processes | Microsoft Docs"
-ms.custom: ""
 ms.date: "04/21/2017"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
@@ -44,7 +42,7 @@ The tools you need to use in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_m
 
 - For debugging threads on the GPU, the primary tool is the **GPU Threads** windows.  
   
- The following table shows the information available and the actions you can perform in each of these places:  
+  The following table shows the information available and the actions you can perform in each of these places:  
   
 |User Interface|Information Available|Actions You Can Perform|  
 |--------------------|---------------------------|-----------------------------|  

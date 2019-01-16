@@ -1,8 +1,6 @@
 ---
 title: "Walkthrough: Create a custom bootstrapper with a privacy prompt | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 dev_langs: 
   - "FSharp"
@@ -37,23 +35,23 @@ You can configure ClickOnce applications to automatically update when assemblies
   
 #### To create a consent dialog box  
   
-1.  On the **File** menu, point to **New**, and then click **Project**.  
+1. On the **File** menu, point to **New**, and then click **Project**.  
   
-2.  In the **New Project** dialog box, click **Windows**, and then click **WindowsFormsApplication**.  
+2. In the **New Project** dialog box, click **Windows**, and then click **WindowsFormsApplication**.  
   
-3.  For the **Name**, type **ConsentDialog**, and then click **OK**.  
+3. For the **Name**, type **ConsentDialog**, and then click **OK**.  
   
-4.  In the designer, click the form.  
+4. In the designer, click the form.  
   
-5.  In the **Properties** window, change the **Text** property to **Update Consent Dialog**.  
+5. In the **Properties** window, change the **Text** property to **Update Consent Dialog**.  
   
-6.  In the **Toolbox**, expand **All Windows Forms**, and drag a **Label** control to the form.  
+6. In the **Toolbox**, expand **All Windows Forms**, and drag a **Label** control to the form.  
   
-7.  In the designer, click the label control.  
+7. In the designer, click the label control.  
   
-8.  In the **Properties** window, change the **Text** property under **Appearance** to the following:  
+8. In the **Properties** window, change the **Text** property under **Appearance** to the following:  
   
-     The application that you are about to install checks for the latest updates on the Web. By clicking on "I Agree", you authorize the application to check for and install updates automatically from the Internet.  
+    The application that you are about to install checks for the latest updates on the Web. By clicking on "I Agree", you authorize the application to check for and install updates automatically from the Internet.  
   
 9. In the **Toolbox**, drag a **Checkbox** control to the middle of the form.  
   
@@ -106,28 +104,28 @@ You can configure ClickOnce applications to automatically update when assemblies
   
      For Visual Basic developers only:  
   
-    1.  In **Solution Explorer**, click **ConsentDialog**.  
+    1. In **Solution Explorer**, click **ConsentDialog**.  
   
-    2.  On the **Project** menu, click **Add Module**, and then click **Add**.  
+    2. On the **Project** menu, click **Add Module**, and then click **Add**.  
   
-    3.  In the *Module1.vb* code file, add the following code.  
+    3. In the *Module1.vb* code file, add the following code.  
   
-         [!code-vb[ConsentDialog#7](../deployment/codesnippet/VisualBasic/walkthrough-creating-a-custom-bootstrapper-to-show-a-privacy-prompt_6.vb)]  
+        [!code-vb[ConsentDialog#7](../deployment/codesnippet/VisualBasic/walkthrough-creating-a-custom-bootstrapper-to-show-a-privacy-prompt_6.vb)]  
   
-    4.  On the **Project** menu, click **ConsentDialog Properties**, and then click the **Application** tab.  
+    4. On the **Project** menu, click **ConsentDialog Properties**, and then click the **Application** tab.  
   
-    5.  Uncheck **Enable application framework**.  
+    5. Uncheck **Enable application framework**.  
   
-    6.  In the **Startup object** drop-down menu, select **Module1**.  
+    6. In the **Startup object** drop-down menu, select **Module1**.  
   
-        > [!NOTE]
-        >  Disabling the application framework disables features such as Windows XP visual styles, application events, splash screen, single instance application, and more. For more information, see [Application Page, Project Designer (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md).  
+       > [!NOTE]
+       >  Disabling the application framework disables features such as Windows XP visual styles, application events, splash screen, single instance application, and more. For more information, see [Application Page, Project Designer (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md).  
   
-     For Visual C# developers only:  
+       For Visual C# developers only:  
   
-     Open the *Program.cs* code file, and add the following code.  
+       Open the *Program.cs* code file, and add the following code.  
   
-     [!code-csharp[ConsentDialog#5](../deployment/codesnippet/CSharp/walkthrough-creating-a-custom-bootstrapper-to-show-a-privacy-prompt_7.cs)]  
+       [!code-csharp[ConsentDialog#5](../deployment/codesnippet/CSharp/walkthrough-creating-a-custom-bootstrapper-to-show-a-privacy-prompt_7.cs)]  
   
 26. On the **Build** menu, click **BuildSolution**.  
   

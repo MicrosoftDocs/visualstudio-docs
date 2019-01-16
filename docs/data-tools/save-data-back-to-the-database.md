@@ -19,7 +19,6 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
 ms.workload:
   - "data-storage"
 ---
@@ -67,21 +66,21 @@ You can update the contents of a dataset by *merging* it with another dataset. T
 When merging datasets, you can pass a Boolean argument (`preserveChanges`) that tells the <xref:System.Data.DataSet.Merge%2A> method whether to retain existing modifications in the target dataset. Because datasets maintain multiple versions of records, it's important to keep in mind that more than one version of the records is being merged. The following table shows how a record in two datasets is merged:
 
 |DataRowVersion|Target dataset|Source dataset|
-|--------------------|--------------------|--------------------|
+| - | - | - |
 |Original|James Wilson|James C. Wilson|
 |Current|Jim Wilson|James C. Wilson|
 
 Calling the <xref:System.Data.DataSet.Merge%2A> method on the previous table with `preserveChanges=false targetDataset.Merge(sourceDataset)` results in the following data:
 
 |DataRowVersion|Target dataset|Source dataset|
-|--------------------|--------------------|--------------------|
+| - | - | - |
 |Original|James C. Wilson|James C. Wilson|
 |Current|James C. Wilson|James C. Wilson|
 
 Calling the <xref:System.Data.DataSet.Merge%2A> method with `preserveChanges = true targetDataset.Merge(sourceDataset, true)` results in the following data:
 
 |DataRowVersion|Target dataset|Source dataset|
-|--------------------|--------------------|--------------------|
+| - | - | - |
 |Original|James C. Wilson|James C. Wilson|
 |Current|Jim Wilson|James C. Wilson|
 
@@ -122,7 +121,7 @@ The <xref:System.Data.DataRow.RowState%2A> property of a <xref:System.Data.DataR
 The following table details the possible values of the <xref:System.Data.DataRowState> enumeration:
 
 |DataRowState Value|Description|
-|------------------------|-----------------|
+| - |-----------------|
 |<xref:System.Data.DataRowState.Added>|The row has been added as an item to a <xref:System.Data.DataRowCollection>. (A row in this state does not have a corresponding original version since it did not exist when the last <xref:System.Data.DataRow.AcceptChanges%2A> method was called).|
 |<xref:System.Data.DataRowState.Deleted>|The row was deleted using the <xref:System.Data.DataRow.Delete%2A> of a <xref:System.Data.DataRow> object.|
 |<xref:System.Data.DataRowState.Detached>|The row has been created but is not part of any <xref:System.Data.DataRowCollection>. A <xref:System.Data.DataRow> object is in this state immediately after it has been created, before it has been added to a collection, and after it has been removed from a collection.|
@@ -136,7 +135,7 @@ Datasets maintain multiple versions of records. The <xref:System.Data.DataRowVer
 The following table details the possible values of the <xref:System.Data.DataRowVersion> enumeration:
 
 |DataRowVersion Value|Description|
-|--------------------------|-----------------|
+| - |-----------------|
 |<xref:System.Data.DataRowVersion.Current>|The current version of a record contains all modifications that have been performed on the record since the last time <xref:System.Data.DataRow.AcceptChanges%2A> was called. If the row has been deleted, there is no current version.|
 |<xref:System.Data.DataRowVersion.Default>|The default value of a record, as defined by the dataset schema or data source.|
 |<xref:System.Data.DataRowVersion.Original>|The original version of a record is a copy of the record as it was the last time changes were committed in the dataset. In practical terms, this is typically the version of a record as read from a data source.|

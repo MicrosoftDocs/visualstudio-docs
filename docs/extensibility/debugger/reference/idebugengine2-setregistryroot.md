@@ -1,9 +1,6 @@
 ---
 title: "IDebugEngine2::SetRegistryRoot | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugEngine2::SetRegistryRoot"
@@ -23,13 +20,13 @@ Sets the registry root for the debug engine (DE).
   
 ```cpp  
 HRESULT SetRegistryRoot(   
-   LPCOLESTR pszRegistryRoot  
+   LPCOLESTR pszRegistryRoot  
 );  
 ```  
   
 ```csharp  
 int SetRegistryRoot(   
-   string pszRegistryRoot  
+   string pszRegistryRoot  
 );  
 ```  
   

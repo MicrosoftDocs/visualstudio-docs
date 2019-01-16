@@ -1,13 +1,8 @@
 ---
 title: "Walkthrough: Creating an External List in SharePoint by Using Business Data | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
-  - "VB"
-  - "CSharp"
   - "VB"
   - "CSharp"
 helpviewer_keywords: 
@@ -43,7 +38,7 @@ This walkthrough illustrates the following tasks:
 
 You need the following components to complete this walkthrough:
 
-- Supported editions of Windows and SharePoint. For more information, see [Requirements for developing SharePoint solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md).
+- Supported editions of Windows and SharePoint.
 
 - Access to the AdventureWorks sample database. For more information about how to install the AdventureWorks database, see [SQL Server Sample Databases](http://go.microsoft.com/fwlink/?LinkID=117483).
 
@@ -79,7 +74,7 @@ You need the following components to complete this walkthrough:
 
 2. Add a connection to the SQL Server AdventureWorks sample database.
 
-     For more information, see [Add/Modify Connection (Microsoft SQL Server)](http://msdn.microsoft.com/fa400910-26c3-4df7-b9d1-115e688b4ea3).
+     For more information, see [Add/Modify Connection (Microsoft SQL Server)](https://msdn.microsoft.com/fa400910-26c3-4df7-b9d1-115e688b4ea3).
 
 3. In **Solution Explorer**, choose the project node.
 
@@ -226,12 +221,12 @@ To enable the BDC service to display the contacts in a list, you must add a Find
 
 5. In the `ContactService` class, replace the `ReadList` method with the following code. This code performs the following tasks:
 
-    - Retrieves data from the Contacts table of the AdventureWorks database.
+   - Retrieves data from the Contacts table of the AdventureWorks database.
 
-    - Returns a list of Contact entities to the BDC service.
+   - Returns a list of Contact entities to the BDC service.
 
-    > [!NOTE]
-    > Replace the value of the `ServerName` field with the name of your server.
+     > [!NOTE]
+     > Replace the value of the `ServerName` field with the name of your server.
 
      [!code-csharp[SP_BDC#2](../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/contactservice.cs#2)]
      [!code-vb[SP_BDC#2](../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/contactservice.vb#2)]

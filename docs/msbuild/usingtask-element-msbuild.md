@@ -1,8 +1,6 @@
 ---
 title: "UsingTask Element (MSBuild) | Microsoft Docs"
-ms.custom: ""
 ms.date: "03/13/2017"
-ms.technology: msbuild
 ms.topic: "reference"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#UsingTask"
@@ -58,9 +56,9 @@ Maps the task that is referenced in a [Task](../msbuild/task-element-msbuild.md)
 
 ### Parent elements  
 
-|Element|Description|  
-|-------------|-----------------|  
-|[Project](../msbuild/project-element-msbuild.md)|Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file.|  
+| Element | Description |
+| - | - |
+| [Project](../msbuild/project-element-msbuild.md) | Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file. |
 
 ## Remarks  
  Environment variables, command-line properties, project-level properties, and project-level items can be referenced in the `UsingTask` elements included in the project file either directly or through an imported project file. For more information, see [Tasks](../msbuild/msbuild-tasks.md).  
@@ -75,14 +73,14 @@ Maps the task that is referenced in a [Task](../msbuild/task-element-msbuild.md)
 
 ```xml  
 <UsingTask TaskName="MyTask" AssemblyName="My.Assembly" TaskFactory="MyTaskFactory">  
-       <ParameterGroup>  
-              <Parameter1 ParameterType="System.String" Required="False" Output="False"/>  
-              <Parameter2 ParameterType="System.Int" Required="True" Output="False"/>  
-              ...  
+       <ParameterGroup>  
+              <Parameter1 ParameterType="System.String" Required="False" Output="False"/>  
+              <Parameter2 ParameterType="System.Int" Required="True" Output="False"/>  
+              ...  
 </ParameterGroup>  
-       <TaskBody>  
-      ... Task factory-specific data ...  
-       </TaskBody>  
+       <TaskBody>  
+      ... Task factory-specific data ...  
+       </TaskBody>  
 </UsingTask>  
 ```  
 

@@ -1,9 +1,6 @@
 ---
 title: "Walkthrough: Change cached data in a workbook on a server"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology:
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs:
   - "VB"
@@ -27,17 +24,17 @@ ms.workload:
 
  This walkthrough illustrates the following tasks:
 
--   Defining a dataset that contains data from the AdventureWorksLT database.
+- Defining a dataset that contains data from the AdventureWorksLT database.
 
--   Creating instances of the dataset in an Excel workbook project and a console application project.
+- Creating instances of the dataset in an Excel workbook project and a console application project.
 
--   Creating a <xref:Microsoft.Office.Tools.Excel.ListObject> that is bound to the dataset in the workbook, and populating the <xref:Microsoft.Office.Tools.Excel.ListObject> with data when the workbook is opened.
+- Creating a <xref:Microsoft.Office.Tools.Excel.ListObject> that is bound to the dataset in the workbook, and populating the <xref:Microsoft.Office.Tools.Excel.ListObject> with data when the workbook is opened.
 
--   Adding the dataset in the workbook to the data cache.
+- Adding the dataset in the workbook to the data cache.
 
--   Modifying a column of data in the cached dataset by running code in the console application, without starting Excel.
+- Modifying a column of data in the cached dataset by running code in the console application, without starting Excel.
 
- Although this walkthrough assumes that you are running the code on your development computer, the code demonstrated by this walkthrough can be used on a server that does not have Excel installed.
+  Although this walkthrough assumes that you are running the code on your development computer, the code demonstrated by this walkthrough can be used on a server that does not have Excel installed.
 
 > [!NOTE]
 >  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
@@ -51,9 +48,9 @@ ms.workload:
 
 -   Access to a running instance of Microsoft SQL Server or Microsoft SQL Server Express that has the AdventureWorksLT sample database attached to it. You can download the AdventureWorksLT database from the [CodePlex website](http://go.microsoft.com/fwlink/?linkid=87843). For more information about attaching a database, see the following topics:
 
-    -   To attach a database by using SQL Server Management Studio or SQL Server Management Studio Express, see [How to: Attach a database (SQL Server Management Studio)](http://msdn.microsoft.com/b4efb0ae-cfe6-4d81-a4b4-6e4916885caa).
+    -   To attach a database by using SQL Server Management Studio or SQL Server Management Studio Express, see [How to: Attach a database (SQL Server Management Studio)](/sql/relational-databases/databases/attach-a-database).
 
-    -   To attach a database by using the command line, see [How to: Attach a database file to SQL Server Express](http://msdn.microsoft.com/0f8e42b5-7a8c-4c30-8c98-7d2bdc8dcc68).
+    -   To attach a database by using the command line, see [How to: Attach a database file to SQL Server Express](/previous-versions/sql/).
 
 ## Create a class library project that defines a dataset
  To use the same dataset in an Excel workbook project and a console application, you must define the dataset in a separate assembly that is referenced by both of these projects. For this walkthrough, define the dataset in a class library project.
@@ -83,33 +80,33 @@ ms.workload:
 ## Define a dataset in the class library project
  Define a typed dataset that contains data from the AdventureWorksLT database for SQL Server 2005. Later in this walkthrough, you will reference this dataset from an Excel workbook project and a console application project.
 
- The dataset is a *typed dataset* that represents the data in the Product table of the AdventureWorksLT database. For more information about typed datasets, see [Dataset tools in Visual Studio](/visualstudio/data-tools/dataset-tools-in-visual-studio).
+ The dataset is a *typed dataset* that represents the data in the Product table of the AdventureWorksLT database. For more information about typed datasets, see [Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md).
 
 ### To define a typed dataset in the class library project
 
-1.  In **Solution Explorer**, click the **AdventureWorksDataSet** project.
+1. In **Solution Explorer**, click the **AdventureWorksDataSet** project.
 
-2.  If the **Data Sources** window is not visible, display it by, on the menu bar, choosing **View** > **Other Windows** > **Data Sources**.
+2. If the **Data Sources** window is not visible, display it by, on the menu bar, choosing **View** > **Other Windows** > **Data Sources**.
 
-3.  Choose **Add New Data Source** to start the **Data Source Configuration Wizard**.
+3. Choose **Add New Data Source** to start the **Data Source Configuration Wizard**.
 
-4.  Click **Database**, and then click **Next**.
+4. Click **Database**, and then click **Next**.
 
-5.  If you have an existing connection to the AdventureWorksLT database, choose this connection and click **Next**.
+5. If you have an existing connection to the AdventureWorksLT database, choose this connection and click **Next**.
 
-     Otherwise, click **New Connection**, and use the **Add Connection** dialog box to create the new connection. For more information, see [Add new connections](../data-tools/add-new-connections.md).
+    Otherwise, click **New Connection**, and use the **Add Connection** dialog box to create the new connection. For more information, see [Add new connections](../data-tools/add-new-connections.md).
 
-6.  In the **Save the Connection String to the Application Configuration File** page, click **Next**.
+6. In the **Save the Connection String to the Application Configuration File** page, click **Next**.
 
-7.  In the **Choose Your Database Objects** page, expand **Tables** and select **Product (SalesLT)**.
+7. In the **Choose Your Database Objects** page, expand **Tables** and select **Product (SalesLT)**.
 
-8.  Click **Finish**.
+8. Click **Finish**.
 
-     The *AdventureWorksLTDataSet.xsd* file is added to the **AdventureWorksDataSet** project. This file defines the following items:
+    The *AdventureWorksLTDataSet.xsd* file is added to the **AdventureWorksDataSet** project. This file defines the following items:
 
-    -   A typed dataset named `AdventureWorksLTDataSet`. This dataset represents the contents of the Product table in the AdventureWorksLT database.
+   - A typed dataset named `AdventureWorksLTDataSet`. This dataset represents the contents of the Product table in the AdventureWorksLT database.
 
-    -   A TableAdapter named `ProductTableAdapter`. This TableAdapter can be used to read and write data in the `AdventureWorksLTDataSet`. For more information, see [TableAdapter overview](../data-tools/fill-datasets-by-using-tableadapters.md#tableadapter-overview).
+   - A TableAdapter named `ProductTableAdapter`. This TableAdapter can be used to read and write data in the `AdventureWorksLTDataSet`. For more information, see [TableAdapter overview](../data-tools/fill-datasets-by-using-tableadapters.md#tableadapter-overview).
 
      You will use both of these objects later in this walkthrough.
 
@@ -240,46 +237,46 @@ ms.workload:
 
 ### To change data in the cached dataset
 
-1.  In **Solution Explorer**, right-click the **DataWriter** project and click **Add Reference**.
+1. In **Solution Explorer**, right-click the **DataWriter** project and click **Add Reference**.
 
-2.  On the **.NET** tab, select **Microsoft.VisualStudio.Tools.Applications**.
+2. On the **.NET** tab, select **Microsoft.VisualStudio.Tools.Applications**.
 
-3.  Click **OK**.
+3. Click **OK**.
 
-4.  In **Solution Explorer**, right-click the **DataWriter** project and click **Add Reference**.
+4. In **Solution Explorer**, right-click the **DataWriter** project and click **Add Reference**.
 
-5.  On the **Projects** tab, select **AdventureWorksDataSet**, and click **OK**.
+5. On the **Projects** tab, select **AdventureWorksDataSet**, and click **OK**.
 
-6.  Open the *Program.cs* or *Module1.vb* file in the Code Editor.
+6. Open the *Program.cs* or *Module1.vb* file in the Code Editor.
 
-7.  Add the following **using** (for C#) or **Imports** (for Visual Basic) statement to the top of the code file.
+7. Add the following **using** (for C#) or **Imports** (for Visual Basic) statement to the top of the code file.
 
-     [!code-csharp[Trin_CachedDataWalkthroughs#1](../vsto/codesnippet/CSharp/AdventureWorksDataSet/DataWriter/Program.cs#1)]
-     [!code-vb[Trin_CachedDataWalkthroughs#1](../vsto/codesnippet/VisualBasic/AdventureWorksDataSet/DataWriter/Module1.vb#1)]
+    [!code-csharp[Trin_CachedDataWalkthroughs#1](../vsto/codesnippet/CSharp/AdventureWorksDataSet/DataWriter/Program.cs#1)]
+    [!code-vb[Trin_CachedDataWalkthroughs#1](../vsto/codesnippet/VisualBasic/AdventureWorksDataSet/DataWriter/Module1.vb#1)]
 
-8.  Add the following code to the `Main` method. This code declares the following objects:
+8. Add the following code to the `Main` method. This code declares the following objects:
 
-    -   An instance of the `AdventureWorksLTDataSet` type that is defined in the **AdventureWorksDataSet** project.
+   - An instance of the `AdventureWorksLTDataSet` type that is defined in the **AdventureWorksDataSet** project.
 
-    -   The path to the AdventureWorksReport workbook in the build folder of the **AdventureWorksReport** project.
+   - The path to the AdventureWorksReport workbook in the build folder of the **AdventureWorksReport** project.
 
-    -   A <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument> object to use to access the data cache in the workbook.
+   - A <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument> object to use to access the data cache in the workbook.
 
-        > [!NOTE]
-        >  The following code assumes that you are using a workbook that has the *.xlsx* file extension. If the workbook in your project has a different file extension, modify the path as necessary.
+     > [!NOTE]
+     >  The following code assumes that you are using a workbook that has the *.xlsx* file extension. If the workbook in your project has a different file extension, modify the path as necessary.
 
      [!code-csharp[Trin_CachedDataWalkthroughs#6](../vsto/codesnippet/CSharp/AdventureWorksDataSet/DataWriter/Program.cs#6)]
      [!code-vb[Trin_CachedDataWalkthroughs#6](../vsto/codesnippet/VisualBasic/AdventureWorksDataSet/DataWriter/Module1.vb#6)]
 
 9. Add the following code to the `Main` method, after the code you added in the previous step. This code performs the following tasks:
 
-    -   It uses the <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument.CachedData%2A> property of the <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument> class to access the cached dataset in the workbook.
+   - It uses the <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument.CachedData%2A> property of the <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument> class to access the cached dataset in the workbook.
 
-    -   It reads the data from the cached dataset into the local dataset.
+   - It reads the data from the cached dataset into the local dataset.
 
-    -   It changes the `ListPrice` value of each product in the Product table of the dataset.
+   - It changes the `ListPrice` value of each product in the Product table of the dataset.
 
-    -   It saves the changes to the cached dataset in the workbook.
+   - It saves the changes to the cached dataset in the workbook.
 
      [!code-csharp[Trin_CachedDataWalkthroughs#7](../vsto/codesnippet/CSharp/AdventureWorksDataSet/DataWriter/Program.cs#7)]
      [!code-vb[Trin_CachedDataWalkthroughs#7](../vsto/codesnippet/VisualBasic/AdventureWorksDataSet/DataWriter/Module1.vb#7)]

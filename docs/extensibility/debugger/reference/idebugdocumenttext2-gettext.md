@@ -1,9 +1,6 @@
 ---
 title: "IDebugDocumentText2::GetText | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugDocumentText2::GetText"
@@ -23,19 +20,19 @@ Retrieves the text from the specified position in the document.
   
 ```cpp  
 HRESULT GetText(   
-   TEXT_POSITION pos,  
-   ULONG         cMaxChars,  
-   WCHAR*        pText,  
-   ULONG*        pcNumChars  
+   TEXT_POSITION pos,  
+   ULONG         cMaxChars,  
+   WCHAR*        pText,  
+   ULONG*        pcNumChars  
 );  
 ```  
   
 ```csharp  
 int GetText(   
-   eumn_TEXT_POSITION pos,  
-   uint               cMaxChars,  
-   IntPtr             pText,  
-   out uint           pcNumChars  
+   eumn_TEXT_POSITION pos,  
+   uint               cMaxChars,  
+   IntPtr             pText,  
+   out uint           pcNumChars  
 );  
 ```  
   

@@ -1,8 +1,6 @@
 ---
 title: "How to: Reference the Name or Location of the Project File | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: msbuild
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "locations, referencing"
@@ -27,15 +25,15 @@ You can use the name or location of the project in the project file itself witho
   
 #### To use the project properties
   
--   Reference the property in the project file with the $() notation, just as you would with any property. For example:  
+- Reference the property in the project file with the $() notation, just as you would with any property. For example:  
   
-    ```xml  
-    <CSC Sources = "@(CSFile)"   
-        OutputAssembly = "$(MSBuildProjectName).exe"/>  
-    </CSC>  
-    ```          
+  ```xml  
+  <CSC Sources = "@(CSFile)"   
+      OutputAssembly = "$(MSBuildProjectName).exe"/>  
+  </CSC>  
+  ```          
   
- An advantage of using a reserved property is that any changes to the project file name are incorporated automatically. The next time that you build the project, the output file will have the new name with no further action required on your part.  
+  An advantage of using a reserved property is that any changes to the project file name are incorporated automatically. The next time that you build the project, the output file will have the new name with no further action required on your part.  
   
 > [!NOTE]
 >  Reserved properties cannot be redefined in the project file.  

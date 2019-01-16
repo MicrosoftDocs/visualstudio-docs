@@ -1,9 +1,6 @@
 ---
 title: "IDebugStackFrame2::GetPhysicalStackRange | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugStackFrame2::GetPhysicalStackRange"
@@ -23,15 +20,15 @@ Gets a machine-dependent representation of the range of physical addresses assoc
   
 ```cpp  
 HRESULT GetPhysicalStackRange (   
-   UINT64* paddrMin,  
-   UINT64* paddrMax  
+   UINT64* paddrMin,  
+   UINT64* paddrMax  
 );  
 ```  
   
 ```csharp  
 int GetPhysicalStackRange (   
-   out ulong paddrMin,  
-   out ulong paddrMax  
+   out ulong paddrMin,  
+   out ulong paddrMax  
 );  
 ```  
   

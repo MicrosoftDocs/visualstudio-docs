@@ -1,9 +1,6 @@
 ---
 title: "SccBeginBatch Function | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "SccBeginBatch"
@@ -16,7 +13,7 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# SccBeginBatch Function
+# SccBeginBatch function
 This function starts a batch sequence of source control operations. The [SccEndBatch](../extensibility/sccendbatch-function.md) will be called to end the batch. These batches may not be nested.  
   
 ## Syntax  
@@ -25,10 +22,10 @@ This function starts a batch sequence of source control operations. The [SccEndB
 SCCRTN SccBeginBatch(void);  
 ```  
   
-#### Parameters  
+### Parameters  
  None.  
   
-## Return Value  
+## Return value  
  The source control plug-in implementation of this function is expected to return one of the following values:  
   
 |Value|Description|  
@@ -41,6 +38,6 @@ SCCRTN SccBeginBatch(void);
   
  While a batch operation is in effect, the source control plug-in should present at most one dialog box for any question to the user and apply the response from that dialog box on all subsequent operations.  
   
-## See Also  
- [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)   
+## See also  
+ [Source control plug-in API functions](../extensibility/source-control-plug-in-api-functions.md)   
  [SccEndBatch](../extensibility/sccendbatch-function.md)

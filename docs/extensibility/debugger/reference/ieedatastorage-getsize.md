@@ -1,9 +1,6 @@
 ---
 title: "IEEDataStorage::GetSize | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IEEDataStorage::GetSize"
@@ -23,13 +20,13 @@ Returns the number of bytes contained in this object.
   
 ```cpp  
 HRESULT GetSize(  
-   ULONG* size  
+   ULONG* size  
 );  
 ```  
   
 ```csharp  
 int GetSize(  
-   out uint size  
+   out uint size  
 );  
 ```  
   

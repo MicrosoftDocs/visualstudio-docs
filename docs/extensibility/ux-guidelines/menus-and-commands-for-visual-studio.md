@@ -1,9 +1,6 @@
 ---
 title: "Menus and Commands for Visual Studio | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 ms.assetid: 0a1ed675-2bd1-4603-ba3a-f40dfb5cfb69
 author: "gregvanl"
@@ -181,29 +178,29 @@ ms.workload:
   
  **General toolbar guidelines:**  
   
--   Each toolbar has 24 pixels in common controls (gripper, overflow).  
+- Each toolbar has 24 pixels in common controls (gripper, overflow).  
   
--   Each toolbar button is 22 pixels wide including padding. Making the icon a split button adds another 11 pixels of width.  
+- Each toolbar button is 22 pixels wide including padding. Making the icon a split button adds another 11 pixels of width.  
   
--   Duplication of commands across toolbars is allowed.  
+- Duplication of commands across toolbars is allowed.  
   
- **Document-specific toolbars** appear when a certain file type is active and disappear when a different file type becomes active.  
+  **Document-specific toolbars** appear when a certain file type is active and disappear when a different file type becomes active.  
   
--   Document-specific toolbars may not have more than 12 buttons.  
+- Document-specific toolbars may not have more than 12 buttons.  
   
--   The total width of the toolbar may not exceed 300 pixels.  
+- The total width of the toolbar may not exceed 300 pixels.  
   
--   Each file type can have either one embedded toolbar or one document-specific global toolbar, but not both.  
+- Each file type can have either one embedded toolbar or one document-specific global toolbar, but not both.  
   
- **Context-specific toolbars** appear when a certain context is set and tend to stay active for extended periods.  
+  **Context-specific toolbars** appear when a certain context is set and tend to stay active for extended periods.  
   
--   The button limit for all context-specific toolbars is 18.  
+- The button limit for all context-specific toolbars is 18.  
   
--   If most users won't consistently employ this toolbar's commands when the context is active, then don't associate this toolbar with a context.  
+- If most users won't consistently employ this toolbar's commands when the context is active, then don't associate this toolbar with a context.  
   
--   Ensure that the toolbar disappears when exiting context. None of these toolbars should appear on startup.  
+- Ensure that the toolbar disappears when exiting context. None of these toolbars should appear on startup.  
   
- **Toolbars with no context** never appear automatically. These show only when the user activates them. Keep the maximum width below 200 pixels.  
+  **Toolbars with no context** never appear automatically. These show only when the user activates them. Keep the maximum width below 200 pixels.  
   
 ### General organization and shell-defined groups  
  Use existing shared commands, command groups, and menus. If a new command needs to be defined, try to place it in an existing shared command group. If a new group needs to be defined, try to place it in an existing shared menu close to a related command group before creating a new top-level menu. This reduces command complexity while ensuring consistent command placement in the IDE.  
@@ -268,19 +265,19 @@ ms.workload:
   
  When defining shortcuts, follow these rules:  
   
--   **Use Control (Ctrl) and Function (Fn) key sequences.**  
+- **Use Control (Ctrl) and Function (Fn) key sequences.**  
   
--   **Preserve frequently used shortcuts.** Maintain the most popular shortcuts.  
+- **Preserve frequently used shortcuts.** Maintain the most popular shortcuts.  
   
--   **Make editor shortcuts easy to type.** Bind easy-to-type shortcuts to commands that developers need most while writing code. For example, **Edit.InvokeSmartTag** needs to have a quick shortcut key like Ctrl+/ and not Alt+Shift+F10.  
+- **Make editor shortcuts easy to type.** Bind easy-to-type shortcuts to commands that developers need most while writing code. For example, **Edit.InvokeSmartTag** needs to have a quick shortcut key like Ctrl+/ and not Alt+Shift+F10.  
   
--   **Strive for consistently themed shortcuts.**  
+- **Strive for consistently themed shortcuts.**  
   
--   **Follow Windows guidelines to determine which modifier keys to employ.** Use Ctrl key combinations for commands that have large-scale effects, such as commands that apply to an entire document. Use Shift key combinations for commands that extend or complement the actions of the standard shortcut key. Don't use Ctrl+Alt combinations.  
+- **Follow Windows guidelines to determine which modifier keys to employ.** Use Ctrl key combinations for commands that have large-scale effects, such as commands that apply to an entire document. Use Shift key combinations for commands that extend or complement the actions of the standard shortcut key. Don't use Ctrl+Alt combinations.  
   
--   **Remove extraneous shortcuts.** If you have a legacy feature, consider removing shortcuts that are used with extreme infrequency (fewer than 10 times from the CEIP data) or moderate infrequency (fewer than 100 times from the CEIP data) if an access key provides quick access to the same command. For example: Alt, H, C will open Help/Contents.  
+- **Remove extraneous shortcuts.** If you have a legacy feature, consider removing shortcuts that are used with extreme infrequency (fewer than 10 times from the CEIP data) or moderate infrequency (fewer than 100 times from the CEIP data) if an access key provides quick access to the same command. For example: Alt, H, C will open Help/Contents.  
   
- There is not a simple way to check shortcut availability. If you want to add a shortcut, follow these steps:  
+  There is not a simple way to check shortcut availability. If you want to add a shortcut, follow these steps:  
   
 1.  Check the list of [Visual Studio 2013 shortcuts](http://visualstudioshortcuts.com/2013/) to determine if there are similar commands to group yours with.  
   

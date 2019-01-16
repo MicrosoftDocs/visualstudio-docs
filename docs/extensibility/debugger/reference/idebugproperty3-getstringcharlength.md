@@ -1,9 +1,6 @@
 ---
 title: "IDebugProperty3::GetStringCharLength | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProperty3::GetStringCharLength"
@@ -23,13 +20,13 @@ Returns the number of characters in the associated property's string.
   
 ```cpp  
 HRESULT GetStringCharLength(  
-   ULONG *pLen  
+   ULONG *pLen  
 );  
 ```  
   
 ```csharp  
 int GetStringCharLength(  
-   out uint pLen  
+   out uint pLen  
 );  
 ```  
   

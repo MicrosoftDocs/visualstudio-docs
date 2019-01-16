@@ -1,9 +1,6 @@
 ---
 title: "IDebugWindowsComputerPort2::GetComputerInfo | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "GetComputerInfo"
@@ -22,13 +19,13 @@ Retrieves information about the computer on which the debugger in running.
   
 ```cpp  
 HRESULT GetComputerInfo(  
-   COMPUTER_INFO * pInfo  
+   COMPUTER_INFO * pInfo  
 );  
 ```  
   
 ```csharp  
 public int GetComputerInfo(  
-   out COMPUTER_INFO[] pInfo  
+   out COMPUTER_INFO[] pInfo  
 );  
 ```  
   

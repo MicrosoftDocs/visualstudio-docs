@@ -24,7 +24,7 @@ Indicates that the expression evaluation is complete.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT onComplete();  
 ```  
   

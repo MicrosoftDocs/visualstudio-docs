@@ -1,9 +1,6 @@
 ---
 title: "IDebugCodeContext3::GetModule | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugCodeContext3::GetModule"
@@ -21,13 +18,13 @@ Retrieves a reference to the interface of the debug module.
   
 ```cpp  
 HRESULT GetModule(   
-   IDebugModule2 **ppModule  
+   IDebugModule2 **ppModule  
 );  
 ```  
   
 ```csharp  
 public int GetModule(   
-   out IDebugModule2 ppModule  
+   out IDebugModule2 ppModule  
 );  
 ```  
   

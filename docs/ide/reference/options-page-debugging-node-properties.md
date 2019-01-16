@@ -2,7 +2,6 @@
 title: Options Page, Debugging Node Properties
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 ms.assetid: 564cc8b2-0084-420e-b560-200cc5621a7e
 author: gewarren
@@ -18,7 +17,7 @@ The following tables describe the pages (or properties collections) that are ass
  `DTE.Properties("Debugging", "General")`
 
 |Property Item Name|Value|Description|
-|------------------------|-----------|-----------------|
+| - |-----------|-----------------|
 |PromptOnBreakpointDelete|Get/Set (Boolean)|Determines whether the debugger prompts for permission before deleting all breakpoints in a project.|
 |BreakAllProcesses|Get/Set (Boolean)|Determines whether the debugger breaks all processes whenever a single process breaks.|
 |BreakAtBoundaries|Get/Set (Boolean)|Determines whether the debugger breaks execution when an exception crosses a border between AppDomains or between managed and native code.|
@@ -48,7 +47,7 @@ The following tables describe the pages (or properties collections) that are ass
  `DTE.Properties("Debugging", "EditAndContinue")`
 
 |Property Item Name|Value|Description|
-|------------------------|-----------|-----------------|
+| - |-----------|-----------------|
 |EnableEditAndContinue|Get/Set (Boolean)|Determines whether Edit and Continue is enabled. This option applies to all languages that support Edit and Continue.|
 |InvokedByCommands|Get/Set (Boolean)|Determines whether Edit and Continue automatically applies code changes when the user selects a debugging command such as **Step** or **Continue**. This option applies to native code only.|
 |InvokedByCommandsAskFirst|Get/Set (Boolean)|Determines whether Edit and Continue prompts the user for permission to apply code changes when the user selects a debugging command such as **Step** or **Continue**. This option applies to native code only.|
@@ -60,7 +59,7 @@ The following tables describe the pages (or properties collections) that are ass
  `DTE.Properties("Debugging", "JustInTime")`
 
 |Property Item Name|Value|Description|
-|------------------------|-----------|-----------------|
+| - |-----------|-----------------|
 |JitManaged|Get/Set (Boolean)|Determines whether Just-In-Time Debugging is enabled for managed code.|
 |JitNative|Get/Set (Boolean)|Determines whether Just-In-Time Debugging is enabled for native code.|
 |JitScript|Get/Set (Boolean)|Determines whether Just-In-Time Debugging is enabled for script code.|
@@ -69,16 +68,16 @@ The following tables describe the pages (or properties collections) that are ass
  `DTE.Properties("Debugging", "Native")`
 
 |Property Item Name|Value|Description|
-|------------------------|-----------|-----------------|
+| - |-----------|-----------------|
 |LoadDllExports|Get/Set (Boolean)|Determines whether the debugger loads DLL export tables.|
 |EnableRPC|Get/Set (Boolean)|Determines whether the debugger can step into COM remote procedure calls.|
 
 ## See Also
 
-- [Controlling Options Settings](http://msdn.microsoft.com/Library/a09ed242-7494-4cde-bbd1-7a8ec617965d)
-- [Determining the Names of Property Items on Options Pages](http://msdn.microsoft.com/Library/d450422d-47c7-4eeb-9f9f-3286264bc5aa)
+- [Controlling Options Settings](https://msdn.microsoft.com/Library/a09ed242-7494-4cde-bbd1-7a8ec617965d)
+- [Determining the Names of Property Items on Options Pages](https://msdn.microsoft.com/Library/d450422d-47c7-4eeb-9f9f-3286264bc5aa)
 - [Options Page, Fonts and Colors Node Properties](../../ide/reference/options-page-fonts-and-colors-node-properties.md)
 - [Options Page, Text Editor Node Properties](../../ide/reference/options-page-text-editor-node-properties.md)
 - [General, Debugging, Options Dialog Box](../../debugger/general-debugging-options-dialog-box.md)
-- [Edit and Continue, Debugging, Options Dialog Box](http://msdn.microsoft.com/Library/009d225f-ef65-463f-a146-e4c518f86103)
+- [Edit and Continue, Debugging, Options Dialog Box](../../debugger/edit-and-continue.md?view=vs-2015)
 - [Just-In-Time, Debugging, Options Dialog Box](../../debugger/just-in-time-debugging-options-dialog-box.md)

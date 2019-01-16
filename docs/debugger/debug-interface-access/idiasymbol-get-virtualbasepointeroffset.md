@@ -1,8 +1,6 @@
 ---
 title: "IDiaSymbol::get_virtualBasePointerOffset | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves the offset of the virtual base pointer.
   
 ```C++  
 HRESULT get_virtualBasePointerOffset (   
-   LONG* pRetVal  
+   LONG* pRetVal  
 );  
 ```  
   

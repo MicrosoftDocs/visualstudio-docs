@@ -10,7 +10,6 @@ manager: douge
 ms.workload:
   - "multiple"
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Calculated and Custom Storage Properties
 All domain properties in a domain-specific language (DSL) can be displayed to the user on the diagram and in your language explorer, and can be accessed by program code. However, properties differ in the way that their values are stored.
@@ -19,7 +18,7 @@ All domain properties in a domain-specific language (DSL) can be displayed to th
  In the DSL Definition, you can set the **Kind** of a domain property, as listed in the following table:
 
 |Domain Property Kind|Description|
-|--------------------------|-----------------|
+|-|-|
 |**Standard** (Default)|A domain property that is saved in the *store* and serialized to file.|
 |**Calculated**|A read-only domain property that is not saved in the store, but is calculated from other values.<br /><br /> For example, `Person.Age` could be calculated from `Person.BirthDate`.<br /><br /> You have to provide the code that performs the calculation. Typically, you calculate the value from other domain properties. However, you can also use external resources.|
 |**Custom Storage**|A domain property that is not saved directly in the store, but can be both get and set.<br /><br /> You have to provide the methods that get and set the value.<br /><br /> For example, `Person.FullAddress` could be stored in `Person.StreetAddress`, `Person.City`, and `Person.PostalCode`.<br /><br /> You can also access external resources, for example to get and set values from a database.<br /><br /> Your code should not set values in the store when `Store.InUndoRedoOrRollback` is true. See [Transactions and Custom Setters](#setters).|
@@ -82,11 +81,11 @@ All domain properties in a domain-specific language (DSL) can be displayed to th
 
  However, the Set method might also be called if the user invokes Undo or Redo, or if a transaction is being rolled back. When <xref:Microsoft.VisualStudio.Modeling.Store.InUndoRedoOrRollback%2A> is true, your Set method should behave as follows:
 
--   It should not make changes in the store, such as assigning values to other domain properties. The undo manager will set their values.
+- It should not make changes in the store, such as assigning values to other domain properties. The undo manager will set their values.
 
--   However, it should update any external resources, such as database or file contents, or objects outside the store. This will make sure that they are kept in synchronism with the values in the store.
+- However, it should update any external resources, such as database or file contents, or objects outside the store. This will make sure that they are kept in synchronism with the values in the store.
 
- For example:
+  For example:
 
 ```
 void SetAgeValue(int value)

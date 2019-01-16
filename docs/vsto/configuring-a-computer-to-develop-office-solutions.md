@@ -1,17 +1,14 @@
 ---
 title: "Configure a computer to develop Office solutions"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
 helpviewer_keywords: 
   - "Office development in Visual Studio, installing tools"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -38,7 +35,7 @@ If you install a supported version of Visual Studio, the .NET Framework, and Mic
 
      To make sure that these tools are installed, start the Visual Studio setup program, and choose the **Modify** button. Select the **Microsoft Office Developer Tools** check box, and then choose the **Update** button.
 
-- Make sure that you're not running a version of Office that was delivered by Click-to-Run. See [How to: Verify whether Outlook is a Click-to-Run application on a computer](http://msdn.microsoft.com/library/office/ff864733(v=office.14).aspx).
+- Make sure that you're not running a version of Office that was delivered by Click-to-Run. See [How to: Verify whether Outlook is a Click-to-Run application on a computer](/previous-versions/office/developer/office-2010/ff864733(v=office.14)).
 
 - Ensure that you're running only one version of Microsoft Office.
 

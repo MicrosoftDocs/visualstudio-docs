@@ -2,7 +2,6 @@
 title: Find calls to a method
 ms.date: 05/18/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "VS.CallHierarchy"
@@ -60,7 +59,7 @@ When you select a child member in the **Call Hierarchy** tree view pane:
 The following table describes several shortcut menu options that are available when you right-click a node in the tree view pane.
 
 |Context Menu Item|Description|
-|-----------------------|-----------------|
+| - |-----------------|
 |**Add As New Root**|Adds the selected node to the tree view pane as a new root node. This enables you to focus your attention on a specific subtree.|
 |**Remove Root**|Removes the selected root node from the tree view pane. This option is available only from a root node.<br /><br /> You can also use the **Remove Root** toolbar button to remove the selected root node.|
 |**Go To Definition**|Runs the Go To Definition command on the selected node. This navigates to the original definition for a member call or variable definition.<br /><br /> To run the Go To Definition command, you can also double-click the selected node or press F12 on the selected node.|

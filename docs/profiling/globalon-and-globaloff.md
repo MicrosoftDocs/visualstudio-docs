@@ -1,8 +1,6 @@
 ---
 title: "GlobalOn and GlobalOff | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: 24b0ed68-d19e-473e-9af3-252c11d82bcf
 author: "mikejo5000"
@@ -22,11 +20,11 @@ The *VSPerfCmd.exe* **GlobalOff** and **GlobalOn** options pause and resume prof
   
  The **GlobalOff** and **GlobalOn** options also affect the Global Start/Stop count that is manipulated by the profiler's API functions.  
   
--   **GlobalOff** immediately sets the Global Start/Stop Count to 0 and therefore pauses profiling.  
+- **GlobalOff** immediately sets the Global Start/Stop Count to 0 and therefore pauses profiling.  
   
--   **GlobalOn** immediately sets the Global Start/Stop Count to 1 and therefore resumes profiling.  
+- **GlobalOn** immediately sets the Global Start/Stop Count to 1 and therefore resumes profiling.  
   
- For more information, see [Profiling tools APIs](../profiling/profiling-tools-apis.md).  
+  For more information, see [Profiling tools APIs](../profiling/profiling-tools-apis.md).  
   
 ## Syntax  
   

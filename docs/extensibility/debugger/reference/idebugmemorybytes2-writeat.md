@@ -1,9 +1,6 @@
 ---
 title: "IDebugMemoryBytes2::WriteAt | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugMemoryBytes2::WriteAt"
@@ -24,17 +21,17 @@ Writes the specified number of bytes of memory, starting at the specified addres
   
 ```cpp  
 HRESULT WriteAt(   
-   IDebugMemoryContext2* pStartContext,  
-   DWORD                 dwCount,  
-   BYTE*                 rgbMemory  
+   IDebugMemoryContext2* pStartContext,  
+   DWORD                 dwCount,  
+   BYTE*                 rgbMemory  
 );  
 ```  
   
 ```csharp  
 int WriteAt(  
-   IDebugMemoryContext2 pStartContext,  
-   uint                 dwCount,  
-   byte[]               rgbMemory  
+   IDebugMemoryContext2 pStartContext,  
+   uint                 dwCount,  
+   byte[]               rgbMemory  
 );  
 ```  
   

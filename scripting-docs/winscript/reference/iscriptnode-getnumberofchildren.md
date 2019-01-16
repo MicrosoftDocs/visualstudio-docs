@@ -24,7 +24,7 @@ Returns the number of child nodes of the `IScriptNode` object.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetNumberOfChildren(  
    ULONG              *pcsn  
 );  

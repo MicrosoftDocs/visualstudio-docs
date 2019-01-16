@@ -1,9 +1,6 @@
 ---
 title: "Walkthrough: Program against events of a NamedRange control"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -82,15 +79,15 @@ ms.workload:
   
 ### To add text to your worksheet  
   
-1.  In Cell **A1**, type the following text:  
+1. In Cell **A1**, type the following text:  
   
-     **This is an example of a NamedRange control.**  
+    **This is an example of a NamedRange control.**  
   
-2.  In Cell **A3** (to the left of `namedRange2`), type the following text:  
+2. In Cell **A3** (to the left of `namedRange2`), type the following text:  
   
-     **Events:**  
+    **Events:**  
   
- In the following sections, you will write code that inserts text into `namedRange2` and modifies properties of the `namedRange2` control in response to the <xref:Microsoft.Office.Tools.Excel.NamedRange.BeforeDoubleClick>, <xref:Microsoft.Office.Tools.Excel.NamedRange.Change>, and <xref:Microsoft.Office.Tools.Excel.NamedRange.SelectionChange> events of `namedRange1`.  
+   In the following sections, you will write code that inserts text into `namedRange2` and modifies properties of the `namedRange2` control in response to the <xref:Microsoft.Office.Tools.Excel.NamedRange.BeforeDoubleClick>, <xref:Microsoft.Office.Tools.Excel.NamedRange.Change>, and <xref:Microsoft.Office.Tools.Excel.NamedRange.SelectionChange> events of `namedRange1`.  
   
 ## Add code to respond to the BeforeDoubleClick event  
   
@@ -161,5 +158,3 @@ ms.workload:
  [How to: Add NamedRange controls to worksheets](../vsto/how-to-add-namedrange-controls-to-worksheets.md)   
  [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)   
  [How to: Create event handlers in Office projects](../vsto/how-to-create-event-handlers-in-office-projects.md)  
-  
-  

@@ -1,9 +1,6 @@
 ---
 title: "MODULE_SYMBOL_SEARCH_INFO | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "MODULE_SYMBOL_SEARCH_INFO"
@@ -24,15 +21,15 @@ Contains status information about symbol search paths that have been searched.
 ```cpp  
 typedef struct _tagSYMBOL_SEARCH_INFO  
 {  
-   SYMBOL_SEARCH_INFO_FIELDS dwValidFields;  
-   BSTR                      bstrVerboseSearchInfo;  
+   SYMBOL_SEARCH_INFO_FIELDS dwValidFields;  
+   BSTR                      bstrVerboseSearchInfo;  
 } MODULE_SYMBOL_SEARCH_INFO;  
 ```  
   
 ```csharp  
 public struct MODULE_SYMBOL_SEARCH_INFO {  
-   public uint   dwValidFields;  
-   public string bstrVerboseSearchInfo;  
+   public uint   dwValidFields;  
+   public string bstrVerboseSearchInfo;  
 }  
 ```  
   

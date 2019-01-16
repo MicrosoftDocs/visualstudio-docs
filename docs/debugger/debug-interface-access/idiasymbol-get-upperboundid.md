@@ -1,8 +1,6 @@
 ---
 title: "IDiaSymbol::get_upperBoundId | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves the symbol identifier of the upper bound of a FORTRAN array dimension.
   
 ```C++  
 HRESULT get_upperBoundId (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

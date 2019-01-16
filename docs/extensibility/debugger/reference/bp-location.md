@@ -1,9 +1,6 @@
 ---
 title: "BP_LOCATION | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "BP_LOCATION"
@@ -23,27 +20,27 @@ Specifies the type of structure used to describe the location of the breakpoint.
   
 ```cpp  
 typedef struct _BP_LOCATION {  
-   BP_LOCATION_TYPE bpLocationType;  
-   union {  
-      BP_LOCATION_CODE_FILE_LINE   bplocCodeFileLine;  
-      BP_LOCATION_CODE_FUNC_OFFSET bplocCodeFuncOffset;  
-      BP_LOCATION_CODE_CONTEXT     bplocCodeContext;  
-      BP_LOCATION_CODE_STRING      bplocCodeString;  
-      BP_LOCATION_CODE_ADDRESS     bplocCodeAddress;  
-      BP_LOCATION_DATA_STRING      bplocDataString;  
-      BP_LOCATION_RESOLUTION       bplocResolution;  
-      DWORD                        unused;  
-   } bpLocation;  
+   BP_LOCATION_TYPE bpLocationType;  
+   union {  
+      BP_LOCATION_CODE_FILE_LINE   bplocCodeFileLine;  
+      BP_LOCATION_CODE_FUNC_OFFSET bplocCodeFuncOffset;  
+      BP_LOCATION_CODE_CONTEXT     bplocCodeContext;  
+      BP_LOCATION_CODE_STRING      bplocCodeString;  
+      BP_LOCATION_CODE_ADDRESS     bplocCodeAddress;  
+      BP_LOCATION_DATA_STRING      bplocDataString;  
+      BP_LOCATION_RESOLUTION       bplocResolution;  
+      DWORD                        unused;  
+   } bpLocation;  
 } BP_LOCATION;  
 ```  
   
 ```csharp  
 public struct BP_LOCATION {  
-   public uint   bpLocationType;  
-   public IntPtr unionmember1;  
-   public IntPtr unionmember2;  
-   public IntPtr unionmember3;  
-   public IntPtr unionmember4;  
+   public uint   bpLocationType;  
+   public IntPtr unionmember1;  
+   public IntPtr unionmember2;  
+   public IntPtr unionmember3;  
+   public IntPtr unionmember4;  
 };  
 ```  
   

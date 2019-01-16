@@ -1,9 +1,6 @@
 ---
 title: "IDebugExpressionEvaluator2::SetCallback | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugExpressionEvaluator2::SetCallback"
@@ -22,13 +19,13 @@ Enables the expression evaluator (EE) to specify the callback interface that the
   
 ```cpp  
 HRESULT SetCallback (  
-   IDebugSettingsCallback2* pCallback  
+   IDebugSettingsCallback2* pCallback  
 );  
 ```  
   
 ```csharp  
 int SetCallback (  
-   IDebugSettingsCallback2 pCallback  
+   IDebugSettingsCallback2 pCallback  
 );  
 ```  
   

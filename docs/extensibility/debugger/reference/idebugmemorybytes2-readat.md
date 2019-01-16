@@ -1,9 +1,6 @@
 ---
 title: "IDebugMemoryBytes2::ReadAt | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugMemoryBytes2::ReadAt"
@@ -24,21 +21,21 @@ Reads a sequence of bytes, starting at a given location.
   
 ```cpp  
 HRESULT ReadAt(   
-   IDebugMemoryContext2* pStartContext,  
-   DWORD                 dwCount,  
-   BYTE*                 rgbMemory,  
-   DWORD*                pdwRead,  
-   DWORD*                pdwUnreadable  
+   IDebugMemoryContext2* pStartContext,  
+   DWORD                 dwCount,  
+   BYTE*                 rgbMemory,  
+   DWORD*                pdwRead,  
+   DWORD*                pdwUnreadable  
 );  
 ```  
   
 ```csharp  
 int ReadAt(  
-   IDebugMemoryContext2 pStartContext,  
-   uint                 dwCount,  
-   byte[]               rgbMemory,  
-   out uint             pdwRead,  
-   ref uint             pdwUnreadable  
+   IDebugMemoryContext2 pStartContext,  
+   uint                 dwCount,  
+   byte[]               rgbMemory,  
+   out uint             pdwRead,  
+   ref uint             pdwUnreadable  
 );  
 ```  
   

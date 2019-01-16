@@ -1,9 +1,6 @@
 ---
 title: "IDebugThread2::EnumFrameInfo | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugThread2::EnumFrameInfo"
@@ -23,17 +20,17 @@ Retrieves a list of the stack frames for this thread.
   
 ```cpp  
 HRESULT EnumFrameInfo (   
-   FRAMEINFO_FLAGS        dwFieldSpec,  
-   UINT                   nRadix,  
-   IEnumDebugFrameInfo2** ppEnum  
+   FRAMEINFO_FLAGS        dwFieldSpec,  
+   UINT                   nRadix,  
+   IEnumDebugFrameInfo2** ppEnum  
 );  
 ```  
   
 ```csharp  
 int EnumFrameInfo (   
-   enum_FRAMEINFO_FLAGS     dwFieldSpec,  
-   uint                     nRadix,  
-   out IEnumDebugFrameInfo2 ppEnum  
+   enum_FRAMEINFO_FLAGS     dwFieldSpec,  
+   uint                     nRadix,  
+   out IEnumDebugFrameInfo2 ppEnum  
 );  
 ```  
   

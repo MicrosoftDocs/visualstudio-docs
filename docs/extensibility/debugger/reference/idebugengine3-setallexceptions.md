@@ -1,9 +1,6 @@
 ---
 title: "IDebugEngine3::SetAllExceptions | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugEngine3::SetAllExceptions"
@@ -23,13 +20,13 @@ This method sets the state of all outstanding exceptions.
   
 ```cpp  
 HRESULT SetAllExceptions(  
-   EXCEPTION_STATE dwState  
+   EXCEPTION_STATE dwState  
 );  
 ```  
   
 ```csharp  
 int SetAllExceptions(  
-   enum_EXCEPTION_STATE dwState  
+   enum_EXCEPTION_STATE dwState  
 );  
 ```  
   

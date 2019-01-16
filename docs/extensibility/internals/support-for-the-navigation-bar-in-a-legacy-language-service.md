@@ -1,9 +1,6 @@
 ---
 title: "Support for the Navigation Bar in a Legacy Language Service | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Navigation bar, supporting in language services [managed package framework]"
@@ -59,11 +56,11 @@ namespace TestLanguagePackage
   
  As the selection changes in the types drop-down, the members list must be updated to reflect the new type. What is shown in the members list can be either:  
   
--   The list of members for the current type.  
+- The list of members for the current type.  
   
--   All the members available in the source file, but with all members not in the current type displayed in grayed-out text. The user can still select the grayed-out members, so they can be used for quick navigation, but the color indicates that they are not part of the currently selected type.  
+- All the members available in the source file, but with all members not in the current type displayed in grayed-out text. The user can still select the grayed-out members, so they can be used for quick navigation, but the color indicates that they are not part of the currently selected type.  
   
- An implementation of the <xref:Microsoft.VisualStudio.Package.TypeAndMemberDropdownBars.OnSynchronizeDropdowns%2A> method typically performs the following steps:  
+  An implementation of the <xref:Microsoft.VisualStudio.Package.TypeAndMemberDropdownBars.OnSynchronizeDropdowns%2A> method typically performs the following steps:  
   
 1.  Get a list of current declarations for the source file.  
   

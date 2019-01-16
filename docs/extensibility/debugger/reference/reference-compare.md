@@ -1,9 +1,6 @@
 ---
 title: "REFERENCE_COMPARE | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "REFERENCE_COMPARE"
@@ -23,18 +20,18 @@ Specifies the type of comparison for references.
   
 ```cpp  
 enum enum_REFERENCE_COMPARE {   
-   REF_COMPARE_EQUAL        = 0x0001,  
-   REF_COMPARE_LESS_THAN    = 0x0002,  
-   REF_COMPARE_GREATER_THAN = 0x0003  
+   REF_COMPARE_EQUAL        = 0x0001,  
+   REF_COMPARE_LESS_THAN    = 0x0002,  
+   REF_COMPARE_GREATER_THAN = 0x0003  
 };  
 typedef DWORD REFERENCE_COMPARE;  
 ```  
   
 ```csharp  
 public enum enum_REFERENCE_COMPARE {   
-   REF_COMPARE_EQUAL        = 0x0001,  
-   REF_COMPARE_LESS_THAN    = 0x0002,  
-   REF_COMPARE_GREATER_THAN = 0x0003  
+   REF_COMPARE_EQUAL        = 0x0001,  
+   REF_COMPARE_LESS_THAN    = 0x0002,  
+   REF_COMPARE_GREATER_THAN = 0x0003  
 };  
 ```  
   

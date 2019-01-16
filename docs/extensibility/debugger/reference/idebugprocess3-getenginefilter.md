@@ -1,9 +1,6 @@
 ---
 title: "IDebugProcess3::GetEngineFilter | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "GetEngineFilter"
@@ -22,13 +19,13 @@ Retrieves an array of unique identifiers for available debug engines.
   
 ```cpp  
 HRESULT GetEngineFilter(  
-   GUID_ARRAY *pEngineArray  
+   GUID_ARRAY *pEngineArray  
 );  
 ```  
   
 ```csharp  
 public int GetEngineFilter(  
-   out GUID_ARRAY[] pEngineArray  
+   out GUID_ARRAY[] pEngineArray  
 );  
 ```  
   

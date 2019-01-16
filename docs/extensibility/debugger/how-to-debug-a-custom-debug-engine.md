@@ -1,9 +1,6 @@
 ---
 title: "How To: Debug a Custom Debug Engine | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "debug engines, debugging"
@@ -26,21 +23,21 @@ A project type launches the debug engine (DE) from the <xref:Microsoft.VisualStu
   
 ## Debug a custom debug engine  
   
-1.  Start *msvsmon.exe*, the Remote Debug Monitor.  
+1. Start *msvsmon.exe*, the Remote Debug Monitor.  
   
-2.  From the **Tools** menu in *msvsmon.exe*, select **Options** to open the **Options** dialog box.  
+2. From the **Tools** menu in *msvsmon.exe*, select **Options** to open the **Options** dialog box.  
   
-3.  Select the "no authentication" option and click **OK**.  
+3. Select the "no authentication" option and click **OK**.  
   
-4.  Start an instance of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] and open your custom DE project.  
+4. Start an instance of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] and open your custom DE project.  
   
-5.  Start a second instance of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] and open your custom project that launches the DE (for development, this is typically in the experimental registry hive that is set up when VSIP is installed).  
+5. Start a second instance of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] and open your custom project that launches the DE (for development, this is typically in the experimental registry hive that is set up when VSIP is installed).  
   
-6.  In this second instance of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], load a source file from your custom project and start the program to be debugged. Wait a few moments to allow the DE to load, or wait until a breakpoint is hit.  
+6. In this second instance of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], load a source file from your custom project and start the program to be debugged. Wait a few moments to allow the DE to load, or wait until a breakpoint is hit.  
   
-7.  In the first instance of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] (with your DE project), select **Attach to Process** from the **Debug** menu.  
+7. In the first instance of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] (with your DE project), select **Attach to Process** from the **Debug** menu.  
   
-8.  In the **Attach to Process** dialog box, change the **Transport** to **Remote (Native only with no authentication)**.  
+8. In the **Attach to Process** dialog box, change the **Transport** to **Remote (Native only with no authentication)**.  
   
 9. Change the **Qualifier** to the name of your machine (note: there is a history of entries, so you need to type this name only once).  
   
@@ -52,21 +49,21 @@ A project type launches the debug engine (DE) from the <xref:Microsoft.VisualStu
   
 ## Debug a custom project type  
   
-1.  Start [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] in the normal registry hive and load your project type project (this is, the source to your project type, not an instantiation of your project type).  
+1. Start [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] in the normal registry hive and load your project type project (this is, the source to your project type, not an instantiation of your project type).  
   
-2.  Open the Project properties and go to the **Debug** page. For the **Command**, type the path to the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] IDE (by default, this is *[drive]*\Program Files\Microsoft [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 8\Common7\IDE\devenv.exe).  
+2. Open the Project properties and go to the **Debug** page. For the **Command**, type the path to the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] IDE (by default, this is *[drive]*\Program Files\Microsoft [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 8\Common7\IDE\devenv.exe).  
   
-3.  For the **Command Arguments**, type `/rootsuffix exp` for the experimental registry hive (created when VSIP was installed).  
+3. For the **Command Arguments**, type `/rootsuffix exp` for the experimental registry hive (created when VSIP was installed).  
   
-4.  Click **OK** to accept the changes.  
+4. Click **OK** to accept the changes.  
   
-5.  Start your project type by pressing **F5**. This launches a second instance of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].  
+5. Start your project type by pressing **F5**. This launches a second instance of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].  
   
-6.  At this point, you can place breakpoints in your project type source code.  
+6. At this point, you can place breakpoints in your project type source code.  
   
-7.  In the second instance of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], load or create a new instance of your project type. During the load or creation, your breakpoints may be hit.  
+7. In the second instance of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], load or create a new instance of your project type. During the load or creation, your breakpoints may be hit.  
   
-8.  Debug your project type.  
+8. Debug your project type.  
   
 9. If you choose to debug the process of launching a DE, you can perform the steps in the "Debug a custom debug engine" procedure to attach to your DE after it is launched. This gives you three instances of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] running: one for your project type source, a second for your instantiated project type, and a third attached to your DE.  
   

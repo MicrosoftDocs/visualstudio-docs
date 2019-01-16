@@ -2,7 +2,6 @@
 title: Output Window
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "vs.build.output"
@@ -72,7 +71,7 @@ If you use autoscrolling in the **Output** window and then navigate by using the
 ## See also
 
 - [Diagnostic messages in the Output window](../../debugger/diagnostic-messages-in-the-output-window.md)
-- [How to: Control the Output window](http://msdn.microsoft.com/Library/91aebd15-8854-4a7a-9f7d-57376fb4e858)
+- [How to: Control the Output window](https://msdn.microsoft.com/Library/91aebd15-8854-4a7a-9f7d-57376fb4e858)
 - [Compile and build](../../ide/compiling-and-building-in-visual-studio.md)
 - [Understand build configurations](../../ide/understanding-build-configurations.md)
 - [Class library overview](/dotnet/standard/class-library-overview)

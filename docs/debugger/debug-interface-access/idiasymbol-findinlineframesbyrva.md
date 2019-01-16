@@ -1,8 +1,6 @@
 ---
 title: "IDiaSymbol::findInlineFramesByRVA | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -20,7 +18,7 @@ Retrieves an enumeration that allows a client to iterate through all of the inli
   
 ```C++  
 HRESULT findInlineFramesByRVA (    DWORD             rva,  
-   IDiaEnumSymbols** ppResult  
+   IDiaEnumSymbols** ppResult  
 );  
 ```  
   

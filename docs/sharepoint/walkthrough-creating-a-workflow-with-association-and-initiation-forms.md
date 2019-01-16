@@ -1,13 +1,8 @@
 ---
 title: "Walkthrough: Creating a Workflow with Association and Initiation Forms | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
-  - "VB"
-  - "CSharp"
   - "VB"
   - "CSharp"
 helpviewer_keywords: 
@@ -28,25 +23,25 @@ ms.workload:
   
  This walkthrough outlines a scenario where a user wants to create an approval workflow for expense reports that has the following requirements:  
   
--   When the workflow is associated with a list, the administrator is prompted with an association form where they enter a dollar limit for expense reports.  
+- When the workflow is associated with a list, the administrator is prompted with an association form where they enter a dollar limit for expense reports.  
   
--   Employees upload their expense reports to the Shared Documents list, start the workflow, and then enter the expense total in the workflow initiation form.  
+- Employees upload their expense reports to the Shared Documents list, start the workflow, and then enter the expense total in the workflow initiation form.  
   
--   If an employee expense report total exceeds the administrator's predefined limit, a task is created for the employee's manager to approve the expense report. However, if an employee's expense report total is less than or equal to the expense limit, an auto-approved message is written to the workflow's history list.  
+- If an employee expense report total exceeds the administrator's predefined limit, a task is created for the employee's manager to approve the expense report. However, if an employee's expense report total is less than or equal to the expense limit, an auto-approved message is written to the workflow's history list.  
   
- This walkthrough illustrates the following tasks:  
+  This walkthrough illustrates the following tasks:  
   
--   Creating a SharePoint list definition sequential workflow project in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].  
+- Creating a SharePoint list definition sequential workflow project in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].  
   
--   Creating a workflow schedule.  
+- Creating a workflow schedule.  
   
--   Handling workflow activity events.  
+- Handling workflow activity events.  
   
--   Creating workflow association and initiation forms.  
+- Creating workflow association and initiation forms.  
   
--   Associating the workflow.  
+- Associating the workflow.  
   
--   Manually starting the workflow.  
+- Manually starting the workflow.  
   
 > [!NOTE]  
 >  Although this walkthrough uses a sequential workflow project, the process is the same for state machine workflows.  
@@ -56,7 +51,7 @@ ms.workload:
 ## Prerequisites  
  You need the following components to complete this walkthrough:  
   
--   Supported editions of [!INCLUDE[TLA#tla_win](../sharepoint/includes/tlasharptla-win-md.md)] and SharePoint. For more information, see [Requirements for developing SharePoint solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md).  
+-   Supported editions of [!INCLUDE[TLA#tla_win](../sharepoint/includes/tlasharptla-win-md.md)] and SharePoint.  
   
 -   Visual Studio.  
   
@@ -447,4 +442,3 @@ ms.workload:
 ## See also
  [Create SharePoint workflow solutions](../sharepoint/creating-sharepoint-workflow-solutions.md)   
  [Walkthrough: Add an application page to a workflow](../sharepoint/walkthrough-add-an-application-page-to-a-workflow.md)  
-  

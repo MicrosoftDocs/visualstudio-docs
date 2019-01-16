@@ -1,5 +1,5 @@
 ---
-title: "Editing Load Test Scenarios in Visual Studio"
+title: Load Test Scenarios
 ms.date: 10/03/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -11,13 +11,14 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ---
 # Edit load test scenarios
 
 A load test *scenario* specifies the load pattern, test mix, browser mix, and network mix. Scenarios are important because they enable you to configure tests to simulate complex, realistic workloads.
 
 For example, you might be testing an e-commerce site that has an Internet front-end used by hundreds of concurrent customers coming in over many connection speeds and using different browsers. The same site might also have an administration function that is used by internal employees to update products and to view statistics. These internal users would typically access the site by using the same browser and a high-speed LAN connection. You would want to encapsulate the properties of these two different groups of users in different scenarios. Each scenario can contain a virtual user type. In this case, a load test scenario can be made to represent virtual customers and another scenario can be made to represent virtual internal users of a website.
+
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
 ## Scenario components
 
@@ -40,7 +41,7 @@ A scenario has several other properties that you can edit by using the **Load Te
 ## Tasks
 
 |Tasks|Associated Topics|
-|-----------|-----------------------|
+|-|-----------------------|
 |**Add artificial human interaction pauses in your scenario:** Think times are used to simulate human behavior that causes people to wait between interactions with a website. Think times occur between requests in a web performance test and between test iterations in a load test scenario. Using think times in a load test can be useful in creating more accurate load simulations.|-   [Edit think times to simulate website human interaction delays](../test/edit-think-times-in-load-test-scenarios.md)|
 |**Specify the number of virtual users for your scenario:** You can configure the load pattern properties to specify how the simulated user load is adjusted during a load test. You get three built-in load patterns: constant, step, and goal-based. You choose the load pattern and adjust the properties to appropriate levels for your load test goals.|-   [Edit load patterns to model virtual user activities](../test/edit-load-patterns-to-model-virtual-user-activities.md)|
 |**Configure the probability of a virtual user running a test in the scenario:** You can use the test mix, which specifies the probability of a virtual user running a given test in a load test scenario. This lets you simulate load more realistically. Instead of having just one workflow through your applications, you can have several workflows, which is a closer approximation of how end-users interact with your applications.|-   [Edit text mix models](../test/edit-test-mix-models-to-specify-the-probability-of-a-virtual-user-running-a-test.md)|

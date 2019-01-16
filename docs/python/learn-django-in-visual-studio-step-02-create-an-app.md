@@ -1,13 +1,14 @@
 ---
-title: Tutorial - Learn Django in Visual Studio, step 2
+title: Learn Django tutorial in Visual Studio step 2, views and page templates
+titleSuffix: ""
 description: A walkthrough of Django basics in the context of Visual Studio projects, specifically steps of creating an app and using views and templates.
-ms.date: 04/25/2018
+ms.date: 11/19/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-python
 ms.topic: tutorial
 author: kraigb
 ms.author: kraigb
 manager: douge
+ms.custom: seodec18
 ms.workload: 
   - python
   - data-science
@@ -47,8 +48,8 @@ Using either method, create an app with the name "HelloDjangoApp". The result is
 | --- | --- |
 | **\_\_init\_\_.py** | The file that identifies the app as a package. |
 | **migrations** | A folder in which Django stores scripts that update the database to align with changes to the models. Django's migration tools then apply the necessary changes to any previous version of the database so that it matches the current models. Using migrations, you keep your focus on your models and let Django handle the underlying database schema. Migrations are discussed in step 6; for now, the folder simply contains an *\_\_init\_\_.py* file (indicating that the folder defines its own Python package). |
-| **templates** | A folder for Django page templates containing a single file *index.html*. Templates are blocks of HTML into which views can add information to dynamically render a page. Page template "variables," such as `{{ content }}` in *index.html*, are placeholders for dynamic values as explained later in this article (step 2). Typically Django apps create a namespace for their templates by placing them in a subfolder that matches the app name. |
-| **admin.py** | The Python file in which you extend the app's administrative interface (see step 6), which is used to see and edit data in a database. Initially, this file contains only the statement, `from django.contrib import admin`. By default, Django includes a standard administrative interface through entries in the Django project's *settings.py* file, which you can turn on by uncommenting existing entries in *urls.py*. |
+| **templates** | A folder for Django page templates containing a single file *index.html* within a folder matching the app name. (In Visual Studio 2017 15.7 and earlier, the file is contained directly under *templates* and step 2-4 instructs you to create the subfolder.) Templates are blocks of HTML into which views can add information to dynamically render a page. Page template "variables," such as `{{ content }}` in *index.html*, are placeholders for dynamic values as explained later in this article (step 2). Typically Django apps create a namespace for their templates by placing them in a subfolder that matches the app name. |
+| **admin.py** | The Python file in which you extend the app's administrative interface (see step 6), which is used to seed and edit data in a database. Initially, this file contains only the statement, `from django.contrib import admin`. By default, Django includes a standard administrative interface through entries in the Django project's *settings.py* file, which you can turn on by uncommenting existing entries in *urls.py*. |
 | **apps.py** | A Python file that defines a configuration class for the app (see below, after this table). |
 | **models.py** | Models are data objects, identified by functions, through which views interact with the app's underlying database (see step 6). Django provides the database connection layer so that apps don't need to concern themselves with those details. The *models.py* file is a default place in which to create your models, and initially contains only the statement, `from django.db import models`. |
 | **tests.py** | A Python file that contains the basic structure of unit tests. |
@@ -120,11 +121,11 @@ Answer: In the regular expressions that define URL patterns, ^ means "start of l
 
 If you don't use a trailing $ in a regular expression, as with `^home`, then URL pattern matches *any* URL that begins with "home" such as "home", "homework", "homestead", and "home192837".
 
-To experiment with different regular expressions, try online tools such as [regex101.com](https://regex101.com) at [pythex.org](http://www.pythex.org).
+To experiment with different regular expressions, try online tools such as [regex101.com](https://regex101.com) at [pythex.org](https://www.pythex.org).
 
 ## Step 2-3: Render a view using HTML
 
-The `index` function that you have so far in *views.py* generates nothing more than a plain-text HTTP response for the page. Most real-world web pages, of course, respond with rich HTML pages that often incorporate live data. Indeed, the primary reason to define a view using a function is so you can generated that content dynamically.
+The `index` function that you have so far in *views.py* generates nothing more than a plain-text HTTP response for the page. Most real-world web pages, of course, respond with rich HTML pages that often incorporate live data. Indeed, the primary reason to define a view using a function is so you can generate that content dynamically.
 
 Because the argument to `HttpResponse` is just a string, you can build up any HTML you like within a string. As a simple example, replace the `index` function with the following code (keeping the existing `from` statements), which generates an HTML response using dynamic content that's updated every time you refresh the page:
 
@@ -144,7 +145,7 @@ def index(request):
 Run the project again to see a message like "**Hello Django!** on Monday, 16 April, 2018 at 16:28:10". Refresh the page to update the time and confirm that the content is being generated with each request. Stop the server when you're done.
 
 > [!Tip]
-> A shortcut to stopping and restarting the project is to use the **Debug** > **Restart** menu command (**Ctrl**+**Shift**+**F5**) or the restart button on the debugging toolbar:
+> A shortcut to stopping and restarting the project is to use the **Debug** > **Restart** menu command (**Ctrl**+**Shift**+**F5**) or the **Restart** button on the debugging toolbar:
 >
 > ![Restart button on the debugging toolbar in Visual Studio](media/debugging-restart-toolbar-button.png)
 
@@ -171,7 +172,7 @@ The following steps demonstrate the use of page templates:
     'APP_DIRS': True,
     ```
 
-1. In the *HelloDjangoApp* folder, open the *templates/index.html* page template file, to observe that it contains one variable, `{{ content }}`:
+1. In the *HelloDjangoApp* folder, open the *templates/HelloDjangoApp/index.html* page template file (or *templates/index.html* in VS 2017 15.7 and earlier), to observe that it contains one variable, `{{ content }}`:
 
     ```html
     <html>
@@ -195,7 +196,8 @@ The following steps demonstrate the use of page templates:
 
         return render(
             request,
-            "index.html",  # Relative path from the 'templates' folder to the template file
+            "HelloDjangoApp/index.html",  # Relative path from the 'templates' folder to the template file
+            # "index.html", # Use this code for VS 2017 15.7 and earlier
             {
                 'content': "<strong>Hello Django!</strong> on " + now.strftime("%A, %d %B, %Y at %X")
             }
@@ -204,9 +206,9 @@ The following steps demonstrate the use of page templates:
 
     The first argument to `render`, as you can see, is the request object, followed by the relative path to the template file within the app's *templates* folder. A template file is named for the view it supports, if appropriate. The third argument to `render` is then a dictionary of variables that the template refers to. You can include objects in the dictionary, in which case a variable in the template can refer to `{{ object.property }}`.
 
-1. Run the project and observe the output. You should see a similar message to that seen step 2-2, indicating that the template works.
+1. Run the project and observe the output. You should see a similar message to that seen in step 2-2, indicating that the template works.
 
-    Observe, however, that the HTML you used in the `content` property renders only as plain text because the `render` function automatically escapes that HTML. Automatic escaping prevent accidental vulnerabilities to injection attacks: developers often gather input from one page and use it as a value in another through a template placeholder. Escaping also serves as a reminder that it's again best to keep HTML in the page template and out of the code. Fortunately, it's a simple matter to create additional variables where needed. For example, change *templates/index.html* to match the following markup, which adds a page title and keeps all formatting in the page template:
+    Observe, however, that the HTML you used in the `content` property renders only as plain text because the `render` function automatically escapes that HTML. Automatic escaping prevent accidental vulnerabilities to injection attacks: developers often gather input from one page and use it as a value in another through a template placeholder. Escaping also serves as a reminder that it's again best to keep HTML in the page template and out of the code. Fortunately, it's a simple matter to create additional variables where needed. For example, change *index.html* with *templates* to match the following markup, which adds a page title and keeps all formatting in the page template:
 
     ```html
     <html>
@@ -227,7 +229,8 @@ The following steps demonstrate the use of page templates:
 
         return render(
             request,
-            "index.html",  # Relative path from the 'templates' folder to the template file
+            "HelloDjangoApp/index.html",  # Relative path from the 'templates' folder to the template file
+            # "index.html", # Use this code for VS 2017 15.7 and earlier
             {
                 'title' : "Hello Django",
                 'message' : "Hello Django!",
@@ -240,7 +243,7 @@ The following steps demonstrate the use of page templates:
 
     ![Running app using the template](media/django/step02-result.png)
 
-1. <a name="template-namespacing"></a>As a final step, move your templates into a subfolder named the same as your app, which creates a namespace and avoids potential conflicts with other apps you might add to the project. That is, create a subfolder in *templates* named *HelloDjangoApp*, move *index.html* into that subfolder, and modify the `index` view function to refer to the template's new path, *HelloDjangoApp/index.html*. Then run the project, verify that the page renders properly, and stop the server.
+1. <a name="template-namespacing"></a>Visual Studio 2017 version 15.7 and earlier: As a final step, move your templates into a subfolder named the same as your app, which creates a namespace and avoids potential conflicts with other apps you might add to the project. (The templates in VS 2017 15.8+ do this for you automatically.) That is, create a subfolder in *templates* named *HelloDjangoApp*, move *index.html* into that subfolder, and modify the `index` view function to refer to the template's new path, *HelloDjangoApp/index.html*. Then run the project, verify that the page renders properly, and stop the server.
 
 1. Commit your changes to source control and update your remote repository, if desired, as described under [step 2-2](#commit-to-source-control).
 

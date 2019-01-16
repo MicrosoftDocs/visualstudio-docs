@@ -1,9 +1,6 @@
 ---
 title: "IDebugProviderProgramNode2::UnmarshalDebuggeeInterface | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProviderProgramNode2::UnmarshalDebuggeeInterface"
@@ -23,15 +20,15 @@ Obtains a specified interface across process boundaries.
   
 ```cpp  
 HRESULT UnmarshalDebuggeeInterface(  
-   REFIID riid,  
-   void** ppvObject  
+   REFIID riid,  
+   void** ppvObject  
 );  
 ```  
   
 ```csharp  
 int UnmarshalDebuggeeInterface(  
-   ref Guid   riid,  
-   out IntPtr ppvObject  
+   ref Guid   riid,  
+   out IntPtr ppvObject  
 );  
 ```  
   

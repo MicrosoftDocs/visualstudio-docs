@@ -1,9 +1,6 @@
 ---
 title: "IDebugComPlusSymbolProvider2::LoadSymbolsWithCorModule | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugComPlusSymbolProvider2::LoadSymbolsWithCorModule"
@@ -22,25 +19,25 @@ Loads debug symbols given the **ICorDebugModule** object.
   
 ```cpp  
 HRESULT LoadSymbolsWithCorModule(  
-   ULONG32   ulAppDomainID,  
-   GUID      guidModule,  
-   ULONGLONG baseAddress,  
-   IUnknown* pUnkMetadataImport,  
-   IUnknown* pUnkCorDebugModule,  
-   BSTR      bstrModuleName,  
-   BSTR      bstrSymSearchPath  
+   ULONG32   ulAppDomainID,  
+   GUID      guidModule,  
+   ULONGLONG baseAddress,  
+   IUnknown* pUnkMetadataImport,  
+   IUnknown* pUnkCorDebugModule,  
+   BSTR      bstrModuleName,  
+   BSTR      bstrSymSearchPath  
 );  
 ```  
   
 ```csharp  
 int LoadSymbolsWithCorModule(  
-   uint   ulAppDomainID,  
-   Guid   guidModule,  
-   ulong  baseAddress,  
-   object pUnkMetadataImport,  
-   object pUnkCorDebugModule,  
-   string bstrModuleName,  
-   string bstrSymSearchPath  
+   uint   ulAppDomainID,  
+   Guid   guidModule,  
+   ulong  baseAddress,  
+   object pUnkMetadataImport,  
+   object pUnkCorDebugModule,  
+   string bstrModuleName,  
+   string bstrSymSearchPath  
 );  
 ```  
   

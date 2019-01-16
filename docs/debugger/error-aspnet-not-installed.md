@@ -1,8 +1,6 @@
 ---
 title: "Error: ASP.NET Not Installed | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "troubleshooting"
 f1_keywords: 
   - "vs.debug.error.http_not_supported"
@@ -27,16 +25,16 @@ This error occurs when [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.
   
 ### To reinstall ASP.NET  
   
-1.  From a command prompt window, run the following command:  
+1. From a command prompt window, run the following command:  
   
-    ```cmd
-    \WINDOWS\Microsoft.NET\Framework\version\aspnet_regiis -i  
-    ```  
+   ```cmd
+   \WINDOWS\Microsoft.NET\Framework\version\aspnet_regiis -i  
+   ```  
   
-     where *version* represents the version number of the .NET Framework installed on your computer, such as v1.0.370. You can determine the framework version by looking in the `\WINDOWS\Microsoft.NET\Framework` directory.  
+    where *version* represents the version number of the .NET Framework installed on your computer, such as v1.0.370. You can determine the framework version by looking in the `\WINDOWS\Microsoft.NET\Framework` directory.  
   
-    > [!NOTE]
-    >  With Windows Server 2003, you can install [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] by using **Add or Remove Programs** in Control Panel.  
+   > [!NOTE]
+   >  With Windows Server 2003, you can install [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] by using **Add or Remove Programs** in Control Panel.  
   
 ## See Also  
  [Debugging Web Applications: Errors and Troubleshooting](../debugger/debugging-web-applications-errors-and-troubleshooting.md)

@@ -1,9 +1,6 @@
 ---
 title: "IDebugProgramNode2::Attach_V7 | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology:
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords:
   - "IDebugProgramNode2::Attach"
@@ -25,17 +22,17 @@ ms.workload:
 
 ```cpp
 HRESULT Attach_V7 (
-   IDebugProgram2*       pMDMProgram,
-   IDebugEventCallback2* pCallback,
-   DWORD                 dwReason
+   IDebugProgram2*       pMDMProgram,
+   IDebugEventCallback2* pCallback,
+   DWORD                 dwReason
 );
 ```
 
 ```csharp
 int Attach_V7 (
-   IDebugProgram2       pMDMProgram,
-   IDebugEventCallback2 pCallback,
-   uint                 dwReason
+   IDebugProgram2       pMDMProgram,
+   IDebugEventCallback2 pCallback,
+   uint                 dwReason
 );
 ```
 

@@ -2,7 +2,6 @@
 title: "How to: Unlock Visual Studio"
 ms.date: 07/20/2017
 ms.prod: visual-studio-dev15
-ms.technology: vs-acquisition
 ms.topic: conceptual
 ms.assetid: ffb580a1-8b5d-48f5-b811-87f8036f50ea
 author: "TerryGLee"
@@ -21,14 +20,14 @@ You can evaluate Visual Studio for free up to 30 days. Signing into the IDE exte
 
 ## To unlock Visual Studio using an online subscription
 
-To unlock Visual Studio using an MSDN or Visual Studio Team Service subscription associated with a Microsoft account, or a work or school account:
+To unlock Visual Studio using a Visual Studio subscription or an Azure DevOps organization associated with a Microsoft account, or a work or school account:
 
 1. Click on the **Sign in** button in the upper right corner of the IDE (or go to **File** > **Account Settings** to open the **Account Settings** dialog and click on the **Sign in** button).
 
-1. Enter the credentials for either a Microsoft account or a work or school account. Visual Studio finds a Visual Studio subscription or Visual Studio Team Services subscription associated with your account.
+1. Enter the credentials for either a Microsoft account or a work or school account. Visual Studio finds a Visual Studio subscription or an Azure DevOps organization associated with your account.
 
 > [!IMPORTANT]
-> Visual Studio automatically looks for associated online subscriptions when you connect to a Visual Studio Team Services account from the **Team Explorer** tool window. When you connect to a Visual Studio Team Services account, you can sign in using both Microsoft and work or school accounts. If an online subscription exists for that user account, Visual Studio will automatically unlock the IDE for you.
+> Visual Studio automatically looks for associated online subscriptions when you connect to an Azure DevOps organization from the **Team Explorer** tool window. When you connect to an Azure DevOps organization, you can sign in using both Microsoft and work or school accounts. If an online subscription exists for that user account, Visual Studio will automatically unlock the IDE for you.
 
 ## To unlock Visual Studio with a product key
 

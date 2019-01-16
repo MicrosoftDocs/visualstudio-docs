@@ -1,9 +1,6 @@
 ---
 title: "IDebugField::GetExtendedInfo | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugField::GetExtendedInfo"
@@ -23,17 +20,17 @@ This method gets extended information about a field.
   
 ```cpp  
 HRESULT GetExtendedInfo(   
-   REFGUID guidExtendedInfo,  
-   BYTE**  prgBuffer,  
-   DWORD*  pdwLen  
+   REFGUID guidExtendedInfo,  
+   BYTE**  prgBuffer,  
+   DWORD*  pdwLen  
 );  
 ```  
   
 ```csharp  
 int GetExtendedInfo(  
-   ref Guid guidExtendedInfo,   
-   IntPtr[] prgBuffer,   
-   ref uint pdwLen  
+   ref Guid guidExtendedInfo,   
+   IntPtr[] prgBuffer,   
+   ref uint pdwLen  
 );  
 ```  
   

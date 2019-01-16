@@ -1,9 +1,6 @@
 ---
 title: "IDebugPortSupplierDescription2::GetDescription | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugPortSupplierDescription2::GetDescription"
@@ -21,15 +18,15 @@ Retrieves the description and description metadata for the port supplier.
   
 ```cpp  
 HRESULT GetDescription(  
-   PORT_SUPPLIER_DESCRIPTION_FLAGS *pdwFlags,  
-   BSTR *pbstrText  
+   PORT_SUPPLIER_DESCRIPTION_FLAGS *pdwFlags,  
+   BSTR *pbstrText  
 );  
 ```  
   
 ```csharp  
 public int GetDescription(  
-   out enum_PORT_SUPPLIER_DESCRIPTION_FLAGS pdwFlags,  
-   out string pbstrText  
+   out enum_PORT_SUPPLIER_DESCRIPTION_FLAGS pdwFlags,  
+   out string pbstrText  
 );  
 ```  
   

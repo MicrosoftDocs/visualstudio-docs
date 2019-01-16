@@ -1,9 +1,6 @@
 ---
 title: "IDebugBreakpointRequest2::GetRequestInfo | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugBreakpointRequest2::GetRequestInfo"
@@ -23,15 +20,15 @@ Gets the breakpoint request information that describes this breakpoint request.
   
 ```cpp  
 HRESULT GetRequestInfo(   
-   BPREQI_FIELDS    dwFields,  
-   BP_REQUEST_INFO* pBPRequestInfo  
+   BPREQI_FIELDS    dwFields,  
+   BP_REQUEST_INFO* pBPRequestInfo  
 );  
 ```  
   
 ```csharp  
 int GetRequestInfo(   
-   eunm_BPREQI_FIELDS  dwFields,  
-   BP_REQUEST_INFO[]   pBPRequestInfo  
+   eunm_BPREQI_FIELDS  dwFields,  
+   BP_REQUEST_INFO[]   pBPRequestInfo  
 );  
 ```  
   

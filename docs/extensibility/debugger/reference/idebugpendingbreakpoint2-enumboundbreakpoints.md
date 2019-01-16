@@ -1,9 +1,6 @@
 ---
 title: "IDebugPendingBreakpoint2::EnumBoundBreakpoints | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugPendingBreakpoint2::EnumBoundBreakpoints"
@@ -24,13 +21,13 @@ Enumerates all breakpoints bound from this pending breakpoint.
   
 ```cpp  
 HRESULT EnumBoundBreakpoints(   
-   IEnumDebugBoundBreakpoints2** ppEnum  
+   IEnumDebugBoundBreakpoints2** ppEnum  
 );  
 ```  
   
 ```csharp  
 int EnumBoundBreakpoints(   
-   out IEnumDebugBoundBreakpoints2 ppEnum  
+   out IEnumDebugBoundBreakpoints2 ppEnum  
 );  
 ```  
   

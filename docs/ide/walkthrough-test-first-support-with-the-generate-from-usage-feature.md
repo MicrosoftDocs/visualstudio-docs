@@ -2,7 +2,6 @@
 title: "Walkthrough: Test-first development with the Generate From Usage feature"
 ms.date: 10/09/2017
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 dev_langs:
   - "VB"
   - "CSharp"
@@ -30,15 +29,15 @@ This topic demonstrates how to use the [Generate From Usage](../ide/visual-cshar
 
 ### Create a Windows Class Library project and a Test project
 
-1.  In [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] or [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)], create a new **Windows Class Library** project. Name it `GFUDemo_VB` or `GFUDemo_CS`, depending on which language you are using.
+1. In [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] or [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)], create a new **Windows Class Library** project. Name it `GFUDemo_VB` or `GFUDemo_CS`, depending on which language you are using.
 
-2.  In **Solution Explorer**, right-click the solution icon at the top, choose **Add**, and then choose **New Project**. In the left pane of the **New Project** dialog box, choose **Test**.
+2. In **Solution Explorer**, right-click the solution icon at the top, choose **Add**, and then choose **New Project**. In the left pane of the **New Project** dialog box, choose **Test**.
 
-3.  In the middle pane, choose **Unit Test Project** and accept the default name of `UnitTestProject1`. The following illustration shows the dialog box when it appears in [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)]. In [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)], the dialog box looks similar.
+3. In the middle pane, choose **Unit Test Project** and accept the default name of `UnitTestProject1`. The following illustration shows the dialog box when it appears in [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)]. In [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)], the dialog box looks similar.
 
-     ![New Test Project dialog](../ide/media/newproject_test.png)
+    ![New Test Project dialog](../ide/media/newproject_test.png)
 
-4.  Choose **OK** to close the **New Project** dialog box.
+4. Choose **OK** to close the **New Project** dialog box.
 
 ### Add a reference to the Class Library project
 
@@ -52,20 +51,20 @@ This topic demonstrates how to use the [Generate From Usage](../ide/visual-cshar
 
 ### Generate a new class from a unit test
 
-1.  The test project contains a file that is named *UnitTest1*. Double-click this file in **Solution Explorer** to open it in the code editor. A test class and test method have been generated.
+1. The test project contains a file that is named *UnitTest1*. Double-click this file in **Solution Explorer** to open it in the code editor. A test class and test method have been generated.
 
-2.  Locate the declaration for class `UnitTest1` and rename it to `AutomobileTest`.
+2. Locate the declaration for class `UnitTest1` and rename it to `AutomobileTest`.
 
- > [!NOTE]
- >  IntelliSense now provides two alternatives for IntelliSense statement completion: *completion mode* and *suggestion mode*. Use suggestion mode for situations in which classes and members are used before they are defined. When an **IntelliSense** window is open, you can press **Ctrl**+**Alt**+**Space** to toggle between completion mode and suggestion mode. See [Use IntelliSense](../ide/using-intellisense.md) for more information. Suggestion mode will help when you are typing `Automobile` in the next step.
+   > [!NOTE]
+   >  IntelliSense now provides two alternatives for IntelliSense statement completion: *completion mode* and *suggestion mode*. Use suggestion mode for situations in which classes and members are used before they are defined. When an **IntelliSense** window is open, you can press **Ctrl**+**Alt**+**Space** to toggle between completion mode and suggestion mode. See [Use IntelliSense](../ide/using-intellisense.md) for more information. Suggestion mode will help when you are typing `Automobile` in the next step.
 
-3.  Locate the `TestMethod1()` method and rename it to `DefaultAutomobileIsInitializedCorrectly()`. Inside this method, create a new instance of a class named `Automobile`, as shown in the following screenshots. A wavy underline appears, which indicates a compile-time error, and a [Quick Actions](../ide/quick-actions.md) light bulb appears in the left margin (C# only), or directly below the squiggle if you hover over it.
+3. Locate the `TestMethod1()` method and rename it to `DefaultAutomobileIsInitializedCorrectly()`. Inside this method, create a new instance of a class named `Automobile`, as shown in the following screenshots. A wavy underline appears, which indicates a compile-time error, and a [Quick Actions](../ide/quick-actions.md) light bulb appears in the left margin (C# only), or directly below the squiggle if you hover over it.
 
-     ![Quick Actions in Visual Basic](../ide/media/genclass_underlinevb.png)
+    ![Quick Actions in Visual Basic](../ide/media/genclass_underlinevb.png)
 
-     ![Quick Actions in C&#35;](../ide/media/genclass_underline.png)
+    ![Quick Actions in C&#35;](../ide/media/genclass_underline.png)
 
-4.  Choose or click the **Quick Actions** light bulb. You'll see an error message that states that the type `Automobile` is not defined. You are also presented with some solutions.
+4. Choose or click the **Quick Actions** light bulb. You'll see an error message that states that the type `Automobile` is not defined. You are also presented with some solutions.
 
 5. Click **Generate new type** to open the **Generate Type** dialog box. This dialog box provides options that include generating the type in a different project.
 
@@ -73,9 +72,9 @@ This topic demonstrates how to use the [Generate From Usage](../ide/visual-cshar
 
      ![Generate New Type dialog box](../ide/media/genotherdialog.png)
 
-6.  Click **OK** to close the dialog box and create the new file.
+7. Click **OK** to close the dialog box and create the new file.
 
-7.  In **Solution Explorer**, look under the **GFUDemo_VB** or **GFUDemo_CS** project node to verify that the new *Automobile.vb* or *Automobile.cs* file is there. In the code editor, the focus is still in `AutomobileTest.DefaultAutomobileIsInitializedCorrectly`, which enables you to continue to write your test with a minimum of interruption.
+8. In **Solution Explorer**, look under the **GFUDemo_VB** or **GFUDemo_CS** project node to verify that the new *Automobile.vb* or *Automobile.cs* file is there. In the code editor, the focus is still in `AutomobileTest.DefaultAutomobileIsInitializedCorrectly`, which enables you to continue to write your test with a minimum of interruption.
 
 ### Generate a property stub
 Assume that the product specification states that the `Automobile` class has two public properties named `Model` and `TopSpeed`. These properties must be initialized with default values of `"Not specified"` and `-1` by the default constructor. The following unit test will verify that the default constructor sets the properties to their correct default values.

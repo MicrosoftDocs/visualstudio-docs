@@ -1,9 +1,6 @@
 ---
 title: "Implementing Type Visualizers and Custom Viewers | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "debugging [Debugging SDK], custom viewer"
@@ -32,25 +29,25 @@ ms.workload:
 ## Interfaces  
  The EE implements the following interfaces to support type visualizers, to be consumed by Visual Studio:  
   
--   [IEEVisualizerDataProvider](../../extensibility/debugger/reference/ieevisualizerdataprovider.md)  
+- [IEEVisualizerDataProvider](../../extensibility/debugger/reference/ieevisualizerdataprovider.md)  
   
--   [IPropertyProxyEESide](../../extensibility/debugger/reference/ipropertyproxyeeside.md)  
+- [IPropertyProxyEESide](../../extensibility/debugger/reference/ipropertyproxyeeside.md)  
   
--   [IPropertyProxyProvider](../../extensibility/debugger/reference/ipropertyproxyprovider.md)  
+- [IPropertyProxyProvider](../../extensibility/debugger/reference/ipropertyproxyprovider.md)  
   
--   [IEEDataStorage](../../extensibility/debugger/reference/ieedatastorage.md)  
+- [IEEDataStorage](../../extensibility/debugger/reference/ieedatastorage.md)  
   
--   [IDebugProperty3](../../extensibility/debugger/reference/idebugproperty3.md)  
+- [IDebugProperty3](../../extensibility/debugger/reference/idebugproperty3.md)  
   
--   [IDebugObject](../../extensibility/debugger/reference/idebugobject.md)  
+- [IDebugObject](../../extensibility/debugger/reference/idebugobject.md)  
   
- The EE consumes the following interfaces to support type visualizers:  
+  The EE consumes the following interfaces to support type visualizers:  
   
--   [IEEVisualizerService](../../extensibility/debugger/reference/ieevisualizerservice.md)  
+- [IEEVisualizerService](../../extensibility/debugger/reference/ieevisualizerservice.md)  
   
--   [IEEVisualizerServiceProvider](../../extensibility/debugger/reference/ieevisualizerserviceprovider.md)  
+- [IEEVisualizerServiceProvider](../../extensibility/debugger/reference/ieevisualizerserviceprovider.md)  
   
--   [IDebugBinder3](../../extensibility/debugger/reference/idebugbinder3.md)  
+- [IDebugBinder3](../../extensibility/debugger/reference/idebugbinder3.md)  
   
 ## See also  
  [Writing a CLR expression evaluator](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md)   

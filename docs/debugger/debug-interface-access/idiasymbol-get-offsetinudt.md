@@ -1,8 +1,6 @@
 ---
 title: "IDiaSymbol::get_offsetInUdt | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves the offset to the beginning of a user-defined type (UDT) of a member i
   
 ```C++  
 HRESULT get_offsetInUdt(   
-   DWORD* pRetVal)  
+   DWORD* pRetVal)  
 );  
 ```  
   

@@ -1,9 +1,6 @@
 ---
 title: "IDebugPointerObject::Dereference | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugPointerObject::Dereference"
@@ -23,15 +20,15 @@ Gets the object pointed to.
   
 ```cpp  
 HRESULT DeReference(   
-   DWORD          dwIndex,  
-   IDebugObject** ppObject  
+   DWORD          dwIndex,  
+   IDebugObject** ppObject  
 );  
 ```  
   
 ```csharp  
 int Dereference(  
-   uint             dwIndex,   
-   out IDebugObject ppObject  
+   uint             dwIndex,   
+   out IDebugObject ppObject  
 );  
 ```  
   

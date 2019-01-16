@@ -1,9 +1,6 @@
 ---
 title: "IDebugStackFrame2::EnumProperties | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugStackFrame2::EnumProperties"
@@ -23,23 +20,23 @@ Creates an enumerator for properties associated with the stack frame, such as lo
   
 ```cpp  
 HRESULT EnumProperties (   
-   DEBUGPROP_INFO_FLAGS      dwFieldSpec,  
-   UINT                      nRadix,  
-   REFIID                    refiid,  
-   DWORD                     dwTimeout,  
-   ULONG*                    pcelt,  
-   IEnumDebugPropertyInfo2** ppEnum  
+   DEBUGPROP_INFO_FLAGS      dwFieldSpec,  
+   UINT                      nRadix,  
+   REFIID                    refiid,  
+   DWORD                     dwTimeout,  
+   ULONG*                    pcelt,  
+   IEnumDebugPropertyInfo2** ppEnum  
 );  
 ```  
   
 ```csharp  
 int EnumProperties (   
-   enum_DEBUGPROP_INFO_FLAGS   dwFieldSpec,  
-   uint                        nRadix,  
-   ref Guid                    refiid,  
-   uint                        dwTimeout,  
-   out uint                    pcelt,  
-   out IEnumDebugPropertyInfo2 ppEnum  
+   enum_DEBUGPROP_INFO_FLAGS   dwFieldSpec,  
+   uint                        nRadix,  
+   ref Guid                    refiid,  
+   uint                        dwTimeout,  
+   out uint                    pcelt,  
+   out IEnumDebugPropertyInfo2 ppEnum  
 );  
 ```  
   

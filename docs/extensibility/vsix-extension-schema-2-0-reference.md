@@ -1,9 +1,6 @@
 ---
 title: "VSIX Extension Schema 2.0 Reference | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "vsix"
@@ -124,7 +121,11 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
         -   Single version # - only the specified version.  
   
         > [!IMPORTANT]
-        >  Version 2.0 of the VSIX Schema was introduced in Visual Studio 2012. To use this schema you must have Visual Studio 2012 or later installed on the machine and use the VSIXInstaller.exe that is part of that product. You can target earlier versions of Visual Studio with a Visual Studio 2012 or later VSIXInstaller, but only by using the later versions of the installer.  
+        >  Version 2.0 of the VSIX Schema was introduced in Visual Studio 2012. To use this schema you must have Visual Studio 2012 or later installed on the machine and use the VSIXInstaller.exe that is part of that product. You can target earlier versions of Visual Studio with a Visual Studio 2012 or later VSIXInstaller, but only by using the later versions of the installer. 
+        
+        Visual Studio 2017 version numbers can be found at [Visual Studio build numbers and release dates](../install/visual-studio-build-numbers-and-release-dates.md).
+        
+        When expressing the version for Visual Studio 2017 releases, the minor version should always be **0**. For example, Visual Studio 2017 version 15.3.26730.0 should be expressed as [15.0.26730.0,16.0). This is only required for Visual Studio 2017 version numbers.
   
     -   `AnyAttribute*` - The `<InstallationTarget>` element allows an open-ended set of attributes that is exposed at runtime as a name-value pair dictionary.  
   
@@ -156,33 +157,33 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
 ### Assets element  
  This element contains a list of `<Asset>` tags for each extension or content element surfaced by this package.  
   
--   `<Asset>` -  This element contains the following attributes and elements:  
+- `<Asset>` -  This element contains the following attributes and elements:  
   
-    -   `Type` - Type of extension or content represented by this element. Each `<Asset>` element must have a single `Type`, but multiple `<Asset>` elements may have the same `Type`. This attribute should be represented as a fully qualified name, according to namespace conventions. The known types are:  
+  - `Type` - Type of extension or content represented by this element. Each `<Asset>` element must have a single `Type`, but multiple `<Asset>` elements may have the same `Type`. This attribute should be represented as a fully qualified name, according to namespace conventions. The known types are:  
   
-        1.  Microsoft.VisualStudio.VsPackage  
+    1. Microsoft.VisualStudio.VsPackage  
   
-        2.  Microsoft.VisualStudio.MefComponent  
+    2. Microsoft.VisualStudio.MefComponent  
   
-        3.  Microsoft.VisualStudio.ToolboxControl  
+    3. Microsoft.VisualStudio.ToolboxControl  
   
-        4.  Microsoft.VisualStudio.Samples  
+    4. Microsoft.VisualStudio.Samples  
   
-        5.  Microsoft.VisualStudio.ProjectTemplate  
+    5. Microsoft.VisualStudio.ProjectTemplate  
   
-        6.  Microsoft.VisualStudio.ItemTemplate  
+    6. Microsoft.VisualStudio.ItemTemplate  
   
-        7.  Microsoft.VisualStudio.Assembly  
+    7. Microsoft.VisualStudio.Assembly  
   
-         You can create your own types and give them unique names. At run time inside Visual Studio, your code can enumerate and access these custom types through the Extension Manager API.  
+       You can create your own types and give them unique names. At run time inside Visual Studio, your code can enumerate and access these custom types through the Extension Manager API.  
   
-    -   `Path` - the relative path to the file or folder within the package that contains the asset.  
+  - `Path` - the relative path to the file or folder within the package that contains the asset.  
     
-    -   `TargetVersion` - the version range to which the given asset applies. Used for shipping multiple versions of assets to different versions of Visual Studio. Requires Visual Studio 2017.3 or newer to have effect.
+  - `TargetVersion` - the version range to which the given asset applies. Used for shipping multiple versions of assets to different versions of Visual Studio. Requires Visual Studio 2017.3 or newer to have effect.
   
-    -   `AnyAttribute*` - An open-ended set of attributes that is exposed at runtime as a name-value pair dictionary.  
+  - `AnyAttribute*` - An open-ended set of attributes that is exposed at runtime as a name-value pair dictionary.  
   
-         `<AnyElement>*` - Any structured content is allowed between an `<Asset>` begin and end tag. All elements are exposed as a list of XmlElement objects. VSIX extensions can define structured type-specific metadata in the manifest file and enumerate them at runtime.  
+     `<AnyElement>*` - Any structured content is allowed between an `<Asset>` begin and end tag. All elements are exposed as a list of XmlElement objects. VSIX extensions can define structured type-specific metadata in the manifest file and enumerate them at runtime.  
   
 ### Sample manifest  
   

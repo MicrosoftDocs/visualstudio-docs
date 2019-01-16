@@ -1,9 +1,6 @@
 ---
 title: "IDebugDefaultPort2::GetPortNotify | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugDefaultPort2::GetPortNotify"
@@ -23,13 +20,13 @@ This method gets an [IDebugPortNotify2](../../../extensibility/debugger/referenc
   
 ```cpp  
 HRESULT GetPortNotify(  
-   IDebugPortNotify2** ppPortNotify  
+   IDebugPortNotify2** ppPortNotify  
 );  
 ```  
   
 ```csharp  
 int GetPortNotify(  
-   out IDebugPortNotify2 ppPortNotify  
+   out IDebugPortNotify2 ppPortNotify  
 );  
 ```  
   

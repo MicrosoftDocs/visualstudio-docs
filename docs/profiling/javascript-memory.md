@@ -2,7 +2,6 @@
 title: "Analyze JavaScript Memory Usage in UWP Apps | Microsoft Docs"
 ms.custom: "H1Hack27Feb2017"
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "JavaScript"
@@ -95,31 +94,31 @@ The JavaScript memory analyzer is available in Visual Studio to help you underst
 ## Isolate a memory leak  
  These steps provide a workflow that might help you use the JavaScript memory analyzer more effectively. These steps can be useful if you suspect that your app has a memory leak. For a tutorial that leads you through the process of identifying a memory leak in a working app, see [Walkthrough: Find a memory leak (JavaScript)](../profiling/walkthrough-find-a-memory-leak-javascript.md).  
   
-1.  Open your app in Visual Studio.  
+1. Open your app in Visual Studio.  
   
-2.  Run the JavaScript Memory Analyzer. For more info, see [Run the JavaScript memory analyzer](#run-the-JavaScript-memory-analyzer).  
+2. Run the JavaScript Memory Analyzer. For more info, see [Run the JavaScript memory analyzer](#run-the-JavaScript-memory-analyzer).  
   
-3.  Run your app through the scenario that you want to test. For example, the scenario might involve a large DOM mutation, when a particular page loads, or when the app starts.  
+3. Run your app through the scenario that you want to test. For example, the scenario might involve a large DOM mutation, when a particular page loads, or when the app starts.  
   
-4.  Repeat the scenario 1-4 additional times.  
+4. Repeat the scenario 1-4 additional times.  
   
-    > [!TIP]
-    >  By repeating the test scenario several times, you can help make sure that initialization work can be filtered out of the results.  
+   > [!TIP]
+   >  By repeating the test scenario several times, you can help make sure that initialization work can be filtered out of the results.  
   
-5.  Switch to Visual Studio (press **Alt**+**Tab**).  
+5. Switch to Visual Studio (press **Alt**+**Tab**).  
   
-6.  Take a baseline heap snapshot by choosing **Take Heap Snapshot**.  
+6. Take a baseline heap snapshot by choosing **Take Heap Snapshot**.  
   
-     The following illustration shows an example of a baseline snapshot.  
+    The following illustration shows an example of a baseline snapshot.  
   
-     ![Baseline snapshot](../profiling/media/js_mem_leak_workflow_baseline.png "JS_Mem_Leak_Workflow_Baseline")  
+    ![Baseline snapshot](../profiling/media/js_mem_leak_workflow_baseline.png "JS_Mem_Leak_Workflow_Baseline")  
   
-    > [!TIP]
-    >  For more precise control over the timing of snapshots, you can use the [Associate source code with memory usage data](#associate-source-code-with-memory-usage-data) command in your code.  
+   > [!TIP]
+   >  For more precise control over the timing of snapshots, you can use the [Associate source code with memory usage data](#associate-source-code-with-memory-usage-data) command in your code.  
   
-7.  Switch to your app and repeat the scenario that you are testing (repeat once only).  
+7. Switch to your app and repeat the scenario that you are testing (repeat once only).  
   
-8.  Switch to Visual Studio and take a second snapshot.  
+8. Switch to Visual Studio and take a second snapshot.  
   
 9. Switch to your app and repeat the scenario that you are testing (repeat once only).  
   
@@ -133,11 +132,11 @@ The JavaScript memory analyzer is available in Visual Studio to help you underst
   
 11. From the third snapshot, choose a link to one of the differential views:  
   
-    -   Differential heap size (left link beneath the heap size). The link text shows the difference between the heap size of the current snapshot and the heap size of the previous snapshot.  
+    - Differential heap size (left link beneath the heap size). The link text shows the difference between the heap size of the current snapshot and the heap size of the previous snapshot.  
   
-    -   Differential object count (right link beneath the object count). The link text shows two values (for example, +1858 / -1765): The first value is the number of new objects added since the previous snapshot, and the second value is the number of objects removed since the previous snapshot.  
+    - Differential object count (right link beneath the object count). The link text shows two values (for example, +1858 / -1765): The first value is the number of new objects added since the previous snapshot, and the second value is the number of objects removed since the previous snapshot.  
   
-     These links open a differential snapshot details view of types on the heap, sorted either by retained size or object count, depending on which link you opened.  
+      These links open a differential snapshot details view of types on the heap, sorted either by retained size or object count, depending on which link you opened.  
   
 12. Choose one of the following **Scope** filter options to help identify memory usage issues:  
   
@@ -206,29 +205,29 @@ The JavaScript memory analyzer is available in Visual Studio to help you underst
   
  In the snapshot details view, you can review memory usage data by type, root, or dominator by choosing an option from the toolbar:  
   
--   **Types**. Shows the instance count and total size of objects on the heap, grouped by object type. By default, these are sorted by instance count.  
+- **Types**. Shows the instance count and total size of objects on the heap, grouped by object type. By default, these are sorted by instance count.  
   
-    > [!TIP]
-    >  Typically, diff views of the types on the object heap are the most useful views for identifying a memory leak; these views provide a **Scope** filter to help identify left over objects.  
+  > [!TIP]
+  >  Typically, diff views of the types on the object heap are the most useful views for identifying a memory leak; these views provide a **Scope** filter to help identify left over objects.  
   
--   **Roots**. Shows a hierarchical view of objects from root objects through child references. By default, the child nodes are sorted by the retained size column, with the largest at the top.  
+- **Roots**. Shows a hierarchical view of objects from root objects through child references. By default, the child nodes are sorted by the retained size column, with the largest at the top.  
   
--   **Dominators**. Shows a list of objects on the heap that have exclusive references to other objects. Dominators are sorted by retained size.  
+- **Dominators**. Shows a list of objects on the heap that have exclusive references to other objects. Dominators are sorted by retained size.  
   
-    > [!TIP]
-    >  When you remove a dominator from memory, you reclaim all memory that the object retains. For a few apps, the Dominators view might help clarify retained memory sizes, because you can investigate the complete object reference chain.  
+  > [!TIP]
+  >  When you remove a dominator from memory, you reclaim all memory that the object retains. For a few apps, the Dominators view might help clarify retained memory sizes, because you can investigate the complete object reference chain.  
   
- All three views show similar value types, including:  
+  All three views show similar value types, including:  
   
--   **Identifier(s)**. Name that best identifies the object. For example, for HTML elements the snapshot details show the ID attribute value, if one is used.  
+- **Identifier(s)**. Name that best identifies the object. For example, for HTML elements the snapshot details show the ID attribute value, if one is used.  
   
--   **Type**. Object type (for example, HTML link element or div element).  
+- **Type**. Object type (for example, HTML link element or div element).  
   
--   **Size**. Object size, not including the size of any referenced objects.  
+- **Size**. Object size, not including the size of any referenced objects.  
   
--   **Retained size**. Object size plus the size of all child objects that have no other parents. For practical purposes, this is the amount of memory retained by the object, so if you delete the object you reclaim the specified amount of memory.  
+- **Retained size**. Object size plus the size of all child objects that have no other parents. For practical purposes, this is the amount of memory retained by the object, so if you delete the object you reclaim the specified amount of memory.  
   
--   **Count**. Number of object instances. This value appears only in the Types view.  
+- **Count**. Number of object instances. This value appears only in the Types view.  
   
 ## View a snapshot diff  
  In the JavaScript memory analyzer, you can compare a snapshot against the previous snapshot in the snapshot diff views.  
@@ -243,22 +242,22 @@ The JavaScript memory analyzer is available in Visual Studio to help you underst
   
  In the snapshot diff window, the Dominators, Types, and Roots views are the same as in the [View snapshot details](#view-snapshot-details) window. The snapshot diff shows the same info as the snapshot details, with these additional values:  
   
--   **Size diff**. Difference between the size of the object in the current snapshot and its size in the previous snapshot, not including the size of any referenced objects.  
+- **Size diff**. Difference between the size of the object in the current snapshot and its size in the previous snapshot, not including the size of any referenced objects.  
   
--   **Retained size diff**. Difference between the retained size of the object in the current snapshot and its retained size in the previous snapshot. The retained size includes the object size plus the size of all its child objects that have no other parents. For practical purposes, the retained size is the amount of memory retained by the object, so if you delete the object you reclaim the specified amount of memory.  
+- **Retained size diff**. Difference between the retained size of the object in the current snapshot and its retained size in the previous snapshot. The retained size includes the object size plus the size of all its child objects that have no other parents. For practical purposes, the retained size is the amount of memory retained by the object, so if you delete the object you reclaim the specified amount of memory.  
   
- To filter differential info between snapshots, choose one of the **Scope** filters at the top of the differential views.  
+  To filter differential info between snapshots, choose one of the **Scope** filters at the top of the differential views.  
   
--   **Objects left over from Snapshot #\<number>**. This filter shows the diff between the objects added to the heap and removed from the heap compared to the baseline snapshot and the previous snapshot. For example, if the snapshot summary shows +205 / -195 in the object count, this filter will show you the ten objects that were added but not removed.  
+- **Objects left over from Snapshot #\<number>**. This filter shows the diff between the objects added to the heap and removed from the heap compared to the baseline snapshot and the previous snapshot. For example, if the snapshot summary shows +205 / -195 in the object count, this filter will show you the ten objects that were added but not removed.  
   
-    > [!TIP]
-    >  To show the most useful info in this filter, follow the steps described in [Isolate a memory leak](#isolate-a-memory-leak).  
+  > [!TIP]
+  >  To show the most useful info in this filter, follow the steps described in [Isolate a memory leak](#isolate-a-memory-leak).  
   
--   **Objects added between Snapshot #\<number> and #\<number>**. This filter shows all objects added to the heap from the previous snapshot.  
+- **Objects added between Snapshot #\<number> and #\<number>**. This filter shows all objects added to the heap from the previous snapshot.  
   
--   **All objects in Snapshot #\<number>**. This filter setting doesn't filter out any objects on the heap.  
+- **All objects in Snapshot #\<number>**. This filter setting doesn't filter out any objects on the heap.  
   
- To show object references that don't match the current **Scope** filter, select **Show non-matching references** in the settings list ![Settings drop&#45;down list in memory analyzer](../profiling/media/js_mem_settings.png "JS_Mem_Settings") in the upper-right corner of the pane. If you enable this setting, non-matching references are displayed with gray text.  
+  To show object references that don't match the current **Scope** filter, select **Show non-matching references** in the settings list ![Settings drop&#45;down list in memory analyzer](../profiling/media/js_mem_settings.png "JS_Mem_Settings") in the upper-right corner of the pane. If you enable this setting, non-matching references are displayed with gray text.  
   
 > [!TIP]
 >  We recommend that you follow the steps in [Isolate a memory leak](#isolate-a-memory-leak) and then use the objects left over **Scope** filter to help identify objects that are leaking memory.  
@@ -309,11 +308,11 @@ The JavaScript memory analyzer is available in Visual Studio to help you underst
   
 - Add memory analyzer commands to your source code.  
   
- You can use the following commands in your source code:  
+  You can use the following commands in your source code:  
   
--   `console.takeHeapSnapshot` takes a heap snapshot that appears in the JavaScript memory analyzer. This command is one of the [JavaScript Console commands](../debugger/javascript-console-commands.md).  
+- `console.takeHeapSnapshot` takes a heap snapshot that appears in the JavaScript memory analyzer. This command is one of the [JavaScript Console commands](../debugger/javascript-console-commands.md).  
   
--   `performance.mark` sets a user mark (the inverted triangle) that appears in the timeline of the memory graph in the summary view while the app is running. This command takes one string argument that describes the event and appears as a tooltip in the memory graph. This description must not exceed 100 characters.  
+- `performance.mark` sets a user mark (the inverted triangle) that appears in the timeline of the memory graph in the summary view while the app is running. This command takes one string argument that describes the event and appears as a tooltip in the memory graph. This description must not exceed 100 characters.  
   
 > [!TIP]
 >  Use `console.takeHeapSnapshot` to speed up the analysis when repeating memory usage scenarios.  
@@ -349,15 +348,15 @@ if (performance && performance.mark) {
   
 -   Look for objects that are retained in memory inadvertently after the user has navigated to a new page, which is a common cause of memory issues. For example:  
   
-    -   The incorrect use of the [URL.CreateObjectUrl](http://msdn.microsoft.com/library/windows/apps/hh453196.aspx) function can cause this problem.  
+    -   The incorrect use of the [URL.CreateObjectUrl](https://developer.mozilla.org/docs/Web/API/URL/createObjectURL) function can cause this problem.  
   
-    -   Some objects might provide a `dispose` method and recommendations for use. For example, you should call `dispose` on a [WinJS.Binding.List](http://msdn.microsoft.com/library/windows/apps/Hh700774.aspx) if you call the list's `createFiltered` method and then navigate away from a page.  
+    -   Some objects might provide a `dispose` method and recommendations for use. For example, you should call `dispose` on a [WinJS.Binding.List](/previous-versions/windows/apps/hh700774\(v\=win.10\)) if you call the list's `createFiltered` method and then navigate away from a page.  
   
-    -   You might need to remove one or more event listeners. For more info, see [View DOM event listeners](../debugger/view-dom-event-listeners.md).  
+    -   You might need to remove one or more event listeners. For more info, see [View DOM event listeners](/visualstudio/debugger/quickstart-debug-html-and-css).  
   
--   Watch the latter part of [this video](http://channel9.msdn.com/Events/Build/2013/3-316) from the Build 2013 conference about the JavaScript memory analyzer.  
+-   Watch the latter part of [this video](https://channel9.msdn.com/Events/Build/2013/3-316) from the Build 2013 conference about the JavaScript memory analyzer.  
   
--   Read [Managing memory in UWP apps](http://msdn.microsoft.com/magazine/jj651575.aspx).  
+-   Read [Managing memory in UWP apps](https://msdn.microsoft.com/magazine/jj651575.aspx).  
   
 -   Consider temporarily modifying code to isolate problems. For example, you might want to:  
   

@@ -1,6 +1,5 @@
 ---
 title: "How to: Provide an Asynchronous Visual Studio Service | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 0448274c-d3d2-4e12-9d11-8aca78a1f3f5
@@ -10,18 +9,18 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# How to: Provide an Asynchronous Visual Studio Service
+# How to: Provide an asynchronous Visual Studio service
 If you want to obtain a service without blocking the UI thread, you should create an asynchronous service and load the package on a background thread. For this purpose you can use an <xref:Microsoft.VisualStudio.Shell.AsyncPackage> rather than a <xref:Microsoft.VisualStudio.Shell.Package>, and add the service with the asynchronous package's special asynchronous methods.
   
- For information about providing synchronous Visual Studio services, see [How to: Provide a Service](../extensibility/how-to-provide-a-service.md).  
+ For information about providing synchronous Visual Studio services, see [How to: Provide a service](../extensibility/how-to-provide-a-service.md).  
   
-## Implementing an Asynchronous Service  
+## Implement an asynchronous service  
   
-1.  Create a VSIX project (**File > New > Project > Visual C# > Extensiblity > VSIX Project**). Name the project **TestAsync**.  
+1.  Create a VSIX project (**File** > **New** > **Project** > **Visual C#** > **Extensiblity** > **VSIX Project**). Name the project **TestAsync**.  
   
-2.  Add a VSPackage to the project. Select the project node in the **Solution Explorer** and click **Add > New item > Visual C# Items > Extensibility > Visual Studio Package**. Name this file **TestAsyncPackage.cs**.  
+2.  Add a VSPackage to the project. Select the project node in the **Solution Explorer** and click **Add** > **New item** > **Visual C# Items** > **Extensibility** > **Visual Studio Package**. Name this file *TestAsyncPackage.cs*.  
   
-3.  In TestAsyncPackage.cs, change the package to inherit from AsyncPackage rather than Package:  
+3.  In *TestAsyncPackage.cs*, change the package to inherit from `AsyncPackage` rather than `Package`:  
   
     ```csharp  
     public sealed class TestAsyncPackage : AsyncPackage  
@@ -95,14 +94,14 @@ If you want to obtain a service without blocking the UI thread, you should creat
     }  
     ```  
   
-## Registering a Service  
+## Register a service  
  To register a service, add the <xref:Microsoft.VisualStudio.Shell.ProvideServiceAttribute> to the package that provides the service. Different to registering a synchronous service, you have to make sure both package and service supports async loading:
   
--   You must add the **AllowsBackgroundLoading = true** field to the <xref:Microsoft.VisualStudio.Shell.PackageRegistrationAttribute> to ensure package can be initialized asynchronously For more information about the PackageRegistrationAttribute, see [Registering and Unregistering VSPackages](../extensibility/registering-and-unregistering-vspackages.md).  
+- You must add the **AllowsBackgroundLoading = true** field to the <xref:Microsoft.VisualStudio.Shell.PackageRegistrationAttribute> to ensure package can be initialized asynchronously For more information about the PackageRegistrationAttribute, see [Register and unregister VSPackages](../extensibility/registering-and-unregistering-vspackages.md).  
   
--   You must add the **IsAsyncQueryable = true** field to the <xref:Microsoft.VisualStudio.Shell.ProvideServiceAttribute> to ensure service instance can be initialized asynchronously.
+- You must add the **IsAsyncQueryable = true** field to the <xref:Microsoft.VisualStudio.Shell.ProvideServiceAttribute> to ensure service instance can be initialized asynchronously.
 
- Here is an example of an AsyncPackage with an asynchronous service registration:
+  Here is an example of an `AsyncPackage` with an asynchronous service registration:
   
 ```csharp  
 [ProvideService((typeof(STextWriterService)), IsAsyncQueryable = true)]  
@@ -113,9 +112,9 @@ public sealed class TestAsyncPackage : AsyncPackage
 {. . . }  
 ```  
   
-## Adding a service  
+## Add a service  
   
-1.  In TestAsyncPackage.cs, remove the `Initialize()` method and override the `InitializeAsync()` method. Add the service, and add a callback method to create the services. Here is an example of the asynchronous initializer adding a service:  
+1.  In *TestAsyncPackage.cs*, remove the `Initialize()` method and override the `InitializeAsync()` method. Add the service, and add a callback method to create the services. Here is an example of the asynchronous initializer adding a service:  
   
     ```csharp
     protected override async Task InitializeAsync(CancellationToken cancellationToken, IProgress<ServiceProgressData> progress)  
@@ -126,7 +125,7 @@ public sealed class TestAsyncPackage : AsyncPackage
   
     ```  
   
-2.  Add a reference to Microsoft.VisualStudio.Shell.Interop.14.0.DesignTime.dll.  
+2.  Add a reference to *Microsoft.VisualStudio.Shell.Interop.14.0.DesignTime.dll*.  
   
 3.  Implement the callback method as an asynchronous method that creates and returns the service.  
   
@@ -140,7 +139,7 @@ public sealed class TestAsyncPackage : AsyncPackage
   
     ```  
   
-## Using a Service  
+## Use a service  
  Now you can get the service and use its methods.  
   
 1.  We'll show this in the initializer, but you can get the service anywhere you want to use the service.  
@@ -160,20 +159,20 @@ public sealed class TestAsyncPackage : AsyncPackage
   
      Don't forget to change *\<userpath>* to a filename and path that makes sense on your machine!  
   
-2.  Build and run the code. When the experimental instance of Visual Studio appears, open a solution. This causes the AsyncPackage to autoload. When the initializer has run, you should find a file in the location you specified.  
+2.  Build and run the code. When the experimental instance of Visual Studio appears, open a solution. This causes the `AsyncPackage` to autoload. When the initializer has run, you should find a file in the location you specified.  
   
-## Using an Asynchronous Service in a Command Handler  
+## Use an asynchronous service in a command handler  
  Here's an example of how to use an asynchronous service in a menu command. You can use the procedure shown here to use the service in other non-asynchronous methods.  
   
-1.  Add a menu command to your project. (In the **Solution Explorer**, select the project node, right-click, and select **Add / New Item / Extensibility / Custom Command**.) Name the command file **TestAsyncCommand.cs.**  
+1.  Add a menu command to your project. (In the **Solution Explorer**, select the project node, right-click, and select **Add** > **New Item** > **Extensibility** > **Custom Command**.) Name the command file *TestAsyncCommand.cs*.  
   
-2.  The custom command template re-adds the `Initialize()` method to the TestAsyncPackage.cs file in order to initialize the command. In the Initialize() method, copy the line that initializes the command. It should look like this:  
+2.  The custom command template re-adds the `Initialize()` method to the *TestAsyncPackage.cs* file in order to initialize the command. In the `Initialize()` method, copy the line that initializes the command. It should look like this:  
   
     ```csharp
     TestAsyncCommand.Initialize(this);  
     ```  
   
-     Move this line to the `InitializeAsync()` method in the AsyncPackageForService.cs file. Since this is in an asynchronous initialization, you must switch to the main thread before you initialize the command using <xref:Microsoft.VisualStudio.Threading.JoinableTaskFactory.SwitchToMainThreadAsync%2A>. It should now look like this:  
+     Move this line to the `InitializeAsync()` method in the *AsyncPackageForService.cs* file. Since this is in an asynchronous initialization, you must switch to the main thread before you initialize the command using <xref:Microsoft.VisualStudio.Threading.JoinableTaskFactory.SwitchToMainThreadAsync%2A>. It should now look like this:  
   
     ```csharp  
   
@@ -195,7 +194,7 @@ public sealed class TestAsyncPackage : AsyncPackage
   
 3.  Delete the `Initialize()` method.  
   
-4.  In the TestAsyncCommand.cs file, find the `MenuItemCallback()` method. Delete the body of the method.  
+4.  In the *TestAsyncCommand.cs* file, find the `MenuItemCallback()` method. Delete the body of the method.  
   
 5.  Add a using statement:  
   
@@ -231,5 +230,5 @@ public sealed class TestAsyncPackage : AsyncPackage
   
 8.  Build the solution and start debugging. When the experimental instance of Visual Studio appears, go to the **Tools** menu and look for the **Invoke TestAsyncCommand** menu item. When you click it, the TextWriterService writes to the file you specified. (You don't need to open a solution, because invoking the command also causes the package to load.)  
   
-## See Also  
- [Using and Providing Services](../extensibility/using-and-providing-services.md)
+## See also  
+ [Use and provide services](../extensibility/using-and-providing-services.md)

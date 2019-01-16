@@ -1,9 +1,6 @@
 ---
 title: "IDebugPortEx2::GetPortProcessId | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugPortEx2::GetPortProcessId"
@@ -23,13 +20,13 @@ Gets the process ID of the port itself.
   
 ```cpp  
 HRESULT GetPortProcessId (   
-   DWORD* pdwProcessId  
+   DWORD* pdwProcessId  
 );  
 ```  
   
 ```csharp  
 int GetPortProcessId (   
-   out uint pdwProcessId  
+   out uint pdwProcessId  
 );  
 ```  
   

@@ -1,8 +1,6 @@
 ---
 title: "Saving Symbol Information with Performance Data Files | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "packsymbols, in profiling tools reports"
@@ -37,7 +35,7 @@ If you do not see any symbols in your own code, some common solutions are availa
 
 - If you collected type data, add /SUMMARY:TYPE to the vsperfreport command line.
 
- If you do not see symbols from Windows or other Microsoft programs:
+  If you do not see symbols from Windows or other Microsoft programs:
 
 - Make sure that you have set the path of your Windows symbol cache. Do one of the following to set the symbol cache path:
 

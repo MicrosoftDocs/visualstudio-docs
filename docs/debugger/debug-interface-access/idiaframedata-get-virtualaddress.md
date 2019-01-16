@@ -1,8 +1,6 @@
 ---
 title: "IDiaFrameData::get_virtualAddress | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves the virtual address (VA) of the code for the frame.
   
 ```C++  
 HRESULT get_virtualAddress (   
-   ULONGLONG* pRetVal  
+   ULONGLONG* pRetVal  
 );  
 ```  
   

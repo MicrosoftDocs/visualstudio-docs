@@ -10,13 +10,12 @@ manager: douge
 ms.workload:
   - "multiple"
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Properties of Domain Relationships
 The properties in the following table are associated with a domain relationship. For information about domain relationships, see [Understanding Models, Classes and Relationships](../modeling/understanding-models-classes-and-relationships.md). For more information about how to use these properties, see [Customizing and Extending a Domain-Specific Language](../modeling/customizing-and-extending-a-domain-specific-language.md).
 
 |Property|Description|Default|
-|--------------|-----------------|-------------|
+|-|-|-|
 |Access Modifier|The level of access of the domain relationship (`public` or `internal`).|`public`|
 |Custom Attributes|Used to add attributes to the source code class that is generated from the domain relationship.|\<none>|
 |Generates Double Derived|If `True`, both a base class and a partial class (to support customization through overrides) is generated. For more information, see [Overriding and Extending the Generated Classes](../modeling/overriding-and-extending-the-generated-classes.md).|`False`|
@@ -34,4 +33,4 @@ The properties in the following table are associated with a domain relationship.
 
 ## See Also
 
-- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+- [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

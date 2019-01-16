@@ -1,8 +1,6 @@
 ---
 title: "IDiaStackFrame::get_cplusplusExceptionHandling | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves a flag that indicates if C++ exception handling is in effect.
   
 ```C++  
 HRESULT get_cplusplusExceptionHandling (   
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 );  
 ```  
   

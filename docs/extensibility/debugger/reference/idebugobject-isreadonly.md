@@ -1,9 +1,6 @@
 ---
 title: "IDebugObject::IsReadOnly | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugObject::IsReadOnly"
@@ -23,13 +20,13 @@ Determines if this object is read-only.
   
 ```cpp  
 HRESULT IsReadOnly(   
-   BOOL* pfIsReadOnly  
+   BOOL* pfIsReadOnly  
 );  
 ```  
   
 ```csharp  
 int IsReadOnly(  
-   out int pfIsReadOnly  
+   out int pfIsReadOnly  
 );  
 ```  
   

@@ -2,7 +2,6 @@
 title: "CA2115: Call GC.KeepAlive when using native resources"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CallGCKeepAliveWhenUsingNativeResources"
@@ -18,6 +17,7 @@ ms.workload:
   - "cplusplus"
 ---
 # CA2115: Call GC.KeepAlive when using native resources
+
 |||
 |-|-|
 |TypeName|CallGCKeepAliveWhenUsingNativeResources|
@@ -26,36 +26,42 @@ ms.workload:
 |Breaking Change|Non Breaking|
 
 ## Cause
- A method declared in a type with a finalizer references a <xref:System.IntPtr?displayProperty=fullName> or <xref:System.UIntPtr?displayProperty=fullName> field, but does not call <xref:System.GC.KeepAlive%2A?displayProperty=fullName>.
 
-## Rule Description
- Garbage collection finalizes an object if there are no more references to it in managed code. Unmanaged references to objects do not prevent garbage collection. This rule detects errors that might occur because an unmanaged resource is being finalized while it is still being used in unmanaged code.
+A method declared in a type with a finalizer references a <xref:System.IntPtr?displayProperty=fullName> or <xref:System.UIntPtr?displayProperty=fullName> field, but does not call <xref:System.GC.KeepAlive%2A?displayProperty=fullName>.
 
- This rule assumes that <xref:System.IntPtr> and <xref:System.UIntPtr> fields store pointers to unmanaged resources. Because the purpose of a finalizer is to free unmanaged resources, the rule assumes that the finalizer will free the unmanaged resource pointed to by the pointer fields. This rule also assumes that the method is referencing the pointer field to pass the unmanaged resource to unmanaged code.
+## Rule description
 
-## How to Fix Violations
- To fix a violation of this rule, add a call to <xref:System.GC.KeepAlive%2A> to the method, passing the current instance (`this` in C# and C++) as the argument. Position the call after the last line of code where the object must be protected from garbage collection. Immediately after the call to <xref:System.GC.KeepAlive%2A>, the object is again considered ready for garbage collection assuming that there are no managed references to it.
+Garbage collection finalizes an object if there are no more references to it in managed code. Unmanaged references to objects do not prevent garbage collection. This rule detects errors that might occur because an unmanaged resource is being finalized while it is still being used in unmanaged code.
 
-## When to Suppress Warnings
- This rule makes some assumptions that can lead to false positives. You can safely suppress a warning from this rule if:
+This rule assumes that <xref:System.IntPtr> and <xref:System.UIntPtr> fields store pointers to unmanaged resources. Because the purpose of a finalizer is to free unmanaged resources, the rule assumes that the finalizer will free the unmanaged resource pointed to by the pointer fields. This rule also assumes that the method is referencing the pointer field to pass the unmanaged resource to unmanaged code.
 
--   The finalizer does not free the contents of the <xref:System.IntPtr> or <xref:System.UIntPtr> field referenced by the method.
+## How to fix violations
 
--   The method does not pass the <xref:System.IntPtr> or <xref:System.UIntPtr> field to unmanaged code.
+To fix a violation of this rule, add a call to <xref:System.GC.KeepAlive%2A> to the method, passing the current instance (`this` in C# and C++) as the argument. Position the call after the last line of code where the object must be protected from garbage collection. Immediately after the call to <xref:System.GC.KeepAlive%2A>, the object is again considered ready for garbage collection assuming that there are no managed references to it.
 
- Carefully review other messages before excluding them. This rule detects errors that are difficult to reproduce and debug.
+## When to suppress warnings
+
+This rule makes some assumptions that can lead to false positives. You can safely suppress a warning from this rule if:
+
+- The finalizer does not free the contents of the <xref:System.IntPtr> or <xref:System.UIntPtr> field referenced by the method.
+
+- The method does not pass the <xref:System.IntPtr> or <xref:System.UIntPtr> field to unmanaged code.
+
+Carefully review other messages before excluding them. This rule detects errors that are difficult to reproduce and debug.
 
 ## Example
- In the following example, `BadMethod` does not include a call to `GC.KeepAlive` and therefore violates the rule. `GoodMethod` contains the corrected code.
+
+In the following example, `BadMethod` does not include a call to `GC.KeepAlive` and therefore violates the rule. `GoodMethod` contains the corrected code.
 
 > [!NOTE]
->  This example is pseudo-code Although the code compiles and runs, the warning is not fired because an unmanaged resource is not created or freed.
+> This example is pseudo-code. Although the code compiles and runs, the warning is not fired because an unmanaged resource is not created or freed.
 
- [!code-csharp[FxCop.Security.IntptrAndFinalize#1](../code-quality/codesnippet/CSharp/ca2115-call-gc-keepalive-when-using-native-resources_1.cs)]
+[!code-csharp[FxCop.Security.IntptrAndFinalize#1](../code-quality/codesnippet/CSharp/ca2115-call-gc-keepalive-when-using-native-resources_1.cs)]
 
-## See Also
- <xref:System.GC.KeepAlive%2A?displayProperty=fullName>
- <xref:System.IntPtr?displayProperty=fullName>
- <xref:System.Object.Finalize%2A?displayProperty=fullName>
- <xref:System.UIntPtr?displayProperty=fullName>
- [Dispose Pattern](/dotnet/standard/design-guidelines/dispose-pattern)
+## See also
+
+- <xref:System.GC.KeepAlive%2A?displayProperty=fullName>
+- <xref:System.IntPtr?displayProperty=fullName>
+- <xref:System.Object.Finalize%2A?displayProperty=fullName>
+- <xref:System.UIntPtr?displayProperty=fullName>
+- [Dispose Pattern](/dotnet/standard/design-guidelines/dispose-pattern)

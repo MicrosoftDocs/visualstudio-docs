@@ -1,9 +1,6 @@
 ---
 title: "Features available by Office application and project type"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -17,8 +14,8 @@ helpviewer_keywords:
   - "Office projects [Office development in Visual Studio], features available"
   - "add-ins [Office development in Visual Studio]"
   - "form regions [Office development in Visual Studio], features available"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -26,11 +23,11 @@ ms.workload:
 # Features available by Office application and project type
   Visual Studio has several types of project templates that support different business scenarios for Microsoft Office applications, including the following types:  
   
--   Document-level customizations.  
+- Document-level customizations.  
   
--   VSTO Add-ins.  
+- VSTO Add-ins.  
   
- Not all applications can use every project type. For example, document-level projects are available only for Microsoft Office Word and Microsoft Office Excel. Similarly, some features are available only for certain types of projects or applications. For example, the actions pane is available only in document-level projects, and Ribbon extensions are available only for some applications. For more information about the different project types, see [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md).  
+  Not all applications can use every project type. For example, document-level projects are available only for Microsoft Office Word and Microsoft Office Excel. Similarly, some features are available only for certain types of projects or applications. For example, the actions pane is available only in document-level projects, and Ribbon extensions are available only for some applications. For more information about the different project types, see [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md).  
   
 > [!NOTE]  
 >  Office project templates are available only in some editions of [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. For more information, see [Configure a computer to develop Office solutions](../vsto/configuring-a-computer-to-develop-office-solutions.md).  
@@ -56,9 +53,9 @@ ms.workload:
 |Expose an object in a VSTO Add-in to other Microsoft Office solutions.|VSTO Add-in projects.|[Call code in VSTO Add-ins from other Office solutions](../vsto/calling-code-in-vsto-add-ins-from-other-office-solutions.md)|  
 |The following host controls:<br /><br /> -   Chart<br />-   ListObject<br />-   NamedRange<br />-   Content controls<br />-   Bookmark|Document-level projects.<br /><br /> VSTO Add-in projects for Word and Excel.|[Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)|  
 |The following host controls:<br /><br /> -   XMLMappedRange<br />-   XMLNode<br />-   XMLNodes|Document-level projects.|[Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)|  
-|Multi-project deployment.|Document-level projects.<br /><br /> VSTO Add-in projects.|[Walkthrough: Deploy multiple Office solutions in a single ClickOnce installer](http://msdn.microsoft.com/051223c0-4082-4799-b78b-a4763a9def55)|  
+|Multi-project deployment.|Document-level projects.<br /><br /> VSTO Add-in projects.|[Walkthrough: Deploy multiple Office solutions in a single ClickOnce installer](https://msdn.microsoft.com/051223c0-4082-4799-b78b-a4763a9def55)|  
 |Outlook form regions.|VSTO Add-in projects for Outlook.|[Create Outlook form regions](../vsto/creating-outlook-form-regions.md)|  
-|Post-deployment actions.|Document-level projects.<br /><br /> VSTO Add-in projects.|[Walkthrough: Copy a document to the end user computer after a ClickOnce installation](http://msdn.microsoft.com/100090f7-bc63-4152-b3e1-19b48bc27466)|  
+|Post-deployment actions.|Document-level projects.<br /><br /> VSTO Add-in projects.|[Walkthrough: Copy a document to the end user computer after a ClickOnce installation](https://msdn.microsoft.com/100090f7-bc63-4152-b3e1-19b48bc27466)|  
 |Ribbon customizations.|Document-level projects.<br /><br /> VSTO Add-in projects for the following applications:<br /><br /> -   Excel<br />-   InfoPath (InfoPath 2013 and InfoPath 2010 only)<br />-   Outlook<br />-   PowerPoint<br />-   Project<br />-   Visio<br />-   Word|[Ribbon overview](../vsto/ribbon-overview.md)|  
 |Visual document designer.|Document-level projects.|[Office projects in the Visual Studio environment](../vsto/office-projects-in-the-visual-studio-environment.md)|  
   
@@ -71,5 +68,3 @@ ms.workload:
  [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)   
  [Cached data in document-level customizations](../vsto/cached-data-in-document-level-customizations.md)   
  [Deploy an Office solution](../vsto/deploying-an-office-solution.md)  
-  
-  

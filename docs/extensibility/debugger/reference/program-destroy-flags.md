@@ -1,9 +1,6 @@
 ---
 title: "PROGRAM_DESTROY_FLAGS | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "PROGRAM_DESTROY_FLAGS enumeration"
@@ -22,7 +19,7 @@ Enumerates the valid values of the program destroy flags.
 ```cpp  
 enum enum_PPROGRAM_DESTROY_FLAGS  
 {  
-   PROGRAM_DESTROY_CONTINUE_DEBUGGING = 0x1  
+   PROGRAM_DESTROY_CONTINUE_DEBUGGING = 0x1  
 };  
 typedef DWORD PROGRAM_DESTROY_FLAGS;  
 ```  
@@ -30,7 +27,7 @@ typedef DWORD PROGRAM_DESTROY_FLAGS;
 ```csharp  
 public enum enum_PPROGRAM_DESTROY_FLAGS  
 {  
-   PROGRAM_DESTROY_CONTINUE_DEBUGGING = 0x1  
+   PROGRAM_DESTROY_CONTINUE_DEBUGGING = 0x1  
 };  
 ```  
   

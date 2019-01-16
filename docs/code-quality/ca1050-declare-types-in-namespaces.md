@@ -2,7 +2,6 @@
 title: "CA1050: Declare types in namespaces"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA1050"
@@ -14,10 +13,14 @@ ms.assetid: 1002748d-ac8d-404f-85dd-7a12d1ad3e05
 author: gewarren
 ms.author: gewarren
 manager: douge
+dev_langs:
+ - CSharp
+ - VB
 ms.workload:
   - "multiple"
 ---
 # CA1050: Declare types in namespaces
+
 |||
 |-|-|
 |TypeName|DeclareTypesInNamespaces|
@@ -28,13 +31,13 @@ ms.workload:
 ## Cause
  A public or protected type is defined outside the scope of a named namespace.
 
-## Rule Description
+## Rule description
  Types are declared in namespaces to prevent name collisions, and as a way to organize related types in an object hierarchy. Types that are outside any named namespace are in a global namespace that cannot be referenced in code.
 
-## How to Fix Violations
+## How to fix violations
  To fix a violation of this rule, place the type in a namespace.
 
-## When to Suppress Warnings
+## When to suppress warnings
  Although you never have to suppress a warning from this rule, it is safe to do this when the assembly will never be used together with other assemblies.
 
 ## Example

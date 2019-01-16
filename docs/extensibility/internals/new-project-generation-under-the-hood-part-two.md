@@ -1,9 +1,6 @@
 ---
 title: "New Project Generation: Under the Hood, Part Two | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "projects [Visual Studio], new project dialog"
@@ -35,10 +32,10 @@ using System.Windows.Forms;
   
 namespace $safeprojectname$  
 {  
-    static class Program  
-    {  
-        // source code deleted here for brevity  
-    }  
+    static class Program  
+    {  
+        // source code deleted here for brevity  
+    }  
 }  
 ```  
   
@@ -51,10 +48,10 @@ using System.Windows.Forms;
   
 namespace Simple  
 {  
-    static class Program  
-    {  
-        // source code deleted here for brevity  
-    }  
+    static class Program  
+    {  
+        // source code deleted here for brevity  
+    }  
 }  
 ```  
   
@@ -65,10 +62,10 @@ namespace Simple
   
 ```  
 <VSTemplate Version="2.0.0"     xmlns="http://schemas.microsoft.com/developer/vstemplate/2005"     Type="Project">  
-    <TemplateData>  
-    </TemplateData>  
-    <TemplateContent>  
-    </TemplateContent>  
+    <TemplateData>  
+    </TemplateData>  
+    <TemplateContent>  
+    </TemplateContent>  
 </VSTemplate>  
 ```  
   
@@ -78,33 +75,33 @@ namespace Simple
   
 ```  
 <TemplateContent>  
-  <Project File="WindowsApplication.csproj" ReplaceParameters="true">  
-    <ProjectItem ReplaceParameters="true"  
-      TargetFileName="Properties\AssemblyInfo.cs">  
-      AssemblyInfo.cs  
-    </ProjectItem>  
-    <ProjectItem TargetFileName="Properties\Resources.resx">  
-      Resources.resx  
-    </ProjectItem>  
-    <ProjectItem ReplaceParameters="true"       TargetFileName="Properties\Resources.Designer.cs">  
-      Resources.Designer.cs  
-    </ProjectItem>  
-    <ProjectItem TargetFileName="Properties\Settings.settings">  
-      Settings.settings  
-    </ProjectItem>  
-    <ProjectItem ReplaceParameters="true"       TargetFileName="Properties\Settings.Designer.cs">  
-      Settings.Designer.cs  
-    </ProjectItem>  
-    <ProjectItem ReplaceParameters="true" OpenInEditor="true">  
-      Form1.cs  
-    </ProjectItem>  
-    <ProjectItem ReplaceParameters="true">  
-      Form1.Designer.cs  
-    </ProjectItem>  
-    <ProjectItem ReplaceParameters="true">  
-      Program.cs  
-    </ProjectItem>  
-  </Project>  
+  <Project File="WindowsApplication.csproj" ReplaceParameters="true">  
+    <ProjectItem ReplaceParameters="true"  
+      TargetFileName="Properties\AssemblyInfo.cs">  
+      AssemblyInfo.cs  
+    </ProjectItem>  
+    <ProjectItem TargetFileName="Properties\Resources.resx">  
+      Resources.resx  
+    </ProjectItem>  
+    <ProjectItem ReplaceParameters="true"       TargetFileName="Properties\Resources.Designer.cs">  
+      Resources.Designer.cs  
+    </ProjectItem>  
+    <ProjectItem TargetFileName="Properties\Settings.settings">  
+      Settings.settings  
+    </ProjectItem>  
+    <ProjectItem ReplaceParameters="true"       TargetFileName="Properties\Settings.Designer.cs">  
+      Settings.Designer.cs  
+    </ProjectItem>  
+    <ProjectItem ReplaceParameters="true" OpenInEditor="true">  
+      Form1.cs  
+    </ProjectItem>  
+    <ProjectItem ReplaceParameters="true">  
+      Form1.Designer.cs  
+    </ProjectItem>  
+    <ProjectItem ReplaceParameters="true">  
+      Program.cs  
+    </ProjectItem>  
+  </Project>  
 </TemplateContent>  
 ```  
   
@@ -131,12 +128,12 @@ namespace Simple
   
 ```  
 <ItemGroup>  
-    <Reference Include="System" />  
-    <Reference Include="System.Data" />  
-    <Reference Include="System.Deployment" />  
-    <Reference Include="System.Drawing" />  
-    <Reference Include="System.Windows.Forms" />  
-    <Reference Include="System.Xml" />  
+    <Reference Include="System" />  
+    <Reference Include="System.Data" />  
+    <Reference Include="System.Deployment" />  
+    <Reference Include="System.Drawing" />  
+    <Reference Include="System.Windows.Forms" />  
+    <Reference Include="System.Xml" />  
 </ItemGroup>  
 ```  
   
@@ -144,9 +141,9 @@ namespace Simple
   
 ```  
 <ItemGroup>  
-    <Compile Include="Properties\Settings.Designer.cs">  
-        <DependentUpon>Settings.settings</DependentUpon>  
-    </Compile>  
+    <Compile Include="Properties\Settings.Designer.cs">  
+        <DependentUpon>Settings.settings</DependentUpon>  
+    </Compile>  
 </ItemGroup>  
 ```  
   

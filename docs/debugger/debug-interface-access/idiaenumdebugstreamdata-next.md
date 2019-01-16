@@ -1,8 +1,6 @@
 ---
 title: "IDiaEnumDebugStreamData::Next | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,11 +20,11 @@ Retrieves a specified number of records in the enumerated sequence.
   
 ```C++  
 HRESULT Next (   
-   ULONG  celt,  
-   DWORD  cbData,  
-   DWORD* pcbData,  
-   BYTE   data[],  
-   ULONG* pceltFetched  
+   ULONG  celt,  
+   DWORD  cbData,  
+   DWORD* pcbData,  
+   BYTE   data[],  
+   ULONG* pceltFetched  
 );  
 ```  
   

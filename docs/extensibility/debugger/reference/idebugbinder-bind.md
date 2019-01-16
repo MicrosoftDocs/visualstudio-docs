@@ -1,9 +1,6 @@
 ---
 title: "IDebugBinder::Bind | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugBinder::Bind"
@@ -23,17 +20,17 @@ This method gets the memory context or object that contains the symbol's current
   
 ```cpp  
 HRESULT Bind(   
-   IDebugObject*  pContainer,  
-   IDebugField*   pField,  
-   IDebugObject** ppObject  
+   IDebugObject*  pContainer,  
+   IDebugField*   pField,  
+   IDebugObject** ppObject  
 );  
 ```  
   
 ```csharp  
 int Bind(  
-   IDebugObject     pContainer,  
-   IDebugField      pField,  
-   out IDebugObject ppObject  
+   IDebugObject     pContainer,  
+   IDebugField      pField,  
+   out IDebugObject ppObject  
 );  
 ```  
   

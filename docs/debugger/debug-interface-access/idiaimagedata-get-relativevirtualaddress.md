@@ -1,8 +1,6 @@
 ---
 title: "IDiaImageData::get_relativeVirtualAddress | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves the location in virtual memory of the module relative to the applicati
   
 ```C++  
 HRESULT get_relativeVirtualAddress (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

@@ -1,8 +1,6 @@
 ---
 title: "VSInstr | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "performance tools, instrumentation"
@@ -41,7 +39,7 @@ VSInstr [/U] filename [/options]
 |**ExcludeSmallFuncs**|Excludes small functions, which are short functions that do not make any function calls, from instrumentation. The **ExcludeSmallFuncs** option provides for less instrumentation overhead a thus improved instrumentation speed.<br /><br /> The exclusion of small functions also reduces the .*vsp* file size and time required for analysis.|  
 |**Mark:**{**Before**`&#124;`**After**`&#124;`**Top**`&#124;`**Bottom**}`,funcname,markid`|Inserts a profile mark (an identifier used to delimit the data in reports) that you can use to identify the start or end of a data range in the .vsp report file.<br /><br /> **Before** - Immediately before the target function entry.<br /><br /> **After** - Immediately after the target function exit.<br /><br /> **Top** - Immediately after the target function entry.<br /><br /> **Bottom** - Immediately before each return in the target function.<br /><br /> `funcname` - Name of the target function<br /><br /> `Markid` - A positive integer (long) to use as the identifier of the profile mark.|  
 |**Coverage**|Performs coverage instrumentation. It can be used only with the following options: **Verbose**, **OutputPath**, **Exclude**, and **Logfile**..|  
-|**Verbose**|The **Verbose**option is used to view detailed information about the instrumentation process.|  
+|**Verbose**|The **Verbose** option is used to view detailed information about the instrumentation process.|  
 |**NoWarn** `[:[Message Number[;Message Number]]]`|Suppress all or specific warnings.<br /><br /> `Message Number` - the warning number. If `Message Number` is omitted, all warnings are suppressed.<br /><br /> For more information, see [VSInstr Warnings](../profiling/vsinstr-warnings.md).|  
 |**Control** `:{` **Thread** `&#124;` **Process** `&#124;` **Global** `}`|Specifies the profiling level of the following VSInstr data collection control Options:<br /><br /> **Start**<br /><br /> **StartOnly**<br /><br /> **Suspend**<br /><br /> **StopOnly**<br /><br /> **SuspendOnly**<br /><br /> **ResumeOnly**<br /><br /> **Thread** - specifies thread-level data collection control functions. Profiling is started or stopped only for the current thread. The profiling state of other threads is not affected. The default is thread.<br /><br /> **Process** - specifies process-level profiling data collection control functions. Profiling starts or stops for all threads in the current process. The profiling state of other processes is not affected.<br /><br /> **Global** - specifies global-level (cross-process) data collection control functions.<br /><br /> An error occurs if you do not specify the profiling level.|  
 |**Start** `:{` **Inside** `&#124;` **Outside** `},funcname`|Limits data collection to the target function and child functions called by that function.<br /><br /> **Inside** - Inserts the StartProfile function immediately after the entry to the target function. Inserts the StopProfile function immediately before each return in the target function.<br /><br /> **Outside** - Inserts the StartProfile function immediately before each call to the target function. Inserts the StopProfile function immediately after each call to the target function.<br /><br /> `funcname` - the name of the target function.|  

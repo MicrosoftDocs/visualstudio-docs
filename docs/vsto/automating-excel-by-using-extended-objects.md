@@ -1,8 +1,6 @@
 ---
 title: "Automate Excel by using extended objects"
-ms.custom: ""
 ms.date: 02/02/2017
-ms.technology: office-development
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
 dev_langs: 
@@ -18,8 +16,8 @@ helpviewer_keywords:
   - "automating Excel"
   - "host items [Office development in Visual Studio], Excel"
   - "controls [Office development in Visual Studio], Excel host controls"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -73,5 +71,3 @@ ms.workload:
  [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md)   
  [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)   
  [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)  
-  
-  

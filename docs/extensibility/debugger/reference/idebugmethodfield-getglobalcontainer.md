@@ -1,9 +1,6 @@
 ---
 title: "IDebugMethodField::GetGlobalContainer | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugMethodField::GetGlobalContainer"
@@ -23,13 +20,13 @@ Gets the global container of the method.
   
 ```cpp  
 HRESULT GetGlobalContainer(  
-   IDebugClassField** ppClass  
+   IDebugClassField** ppClass  
 );  
 ```  
   
 ```csharp  
 int GetGlobalContainer(  
-   out IDebugClassField ppClass  
+   out IDebugClassField ppClass  
 );  
 ```  
   

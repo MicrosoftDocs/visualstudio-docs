@@ -24,15 +24,15 @@ Describes an object of a hierarchical nature that has name, type, and value. It 
   
 ## Syntax  
   
-```  
+```cpp
 typedef struct DebugPropertyInfo{  
-   DBGPROP_INFO_FLAGS  dwValidFields;  
-   BSTR  bstrName;  
-   BSTR  bstrType;  
-   BSTR  bstrValue;  
-   BSTR  bstrFullName;  
-   DBGPROP_ATTRIB_FLAGS  dwAttrib;  
-   IDebugProperty*  pDebugProp;  
+   DBGPROP_INFO_FLAGS  dwValidFields;  
+   BSTR  bstrName;  
+   BSTR  bstrType;  
+   BSTR  bstrValue;  
+   BSTR  bstrFullName;  
+   DBGPROP_ATTRIB_FLAGS  dwAttrib;  
+   IDebugProperty*  pDebugProp;  
 };  
 ```  
   

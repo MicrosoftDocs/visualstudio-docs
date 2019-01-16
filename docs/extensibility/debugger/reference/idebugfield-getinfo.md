@@ -1,9 +1,6 @@
 ---
 title: "IDebugField::GetInfo | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugField::GetInfo"
@@ -23,15 +20,15 @@ This method gets displayable information about the field.
   
 ```cpp  
 HRESULT GetInfo(   
-   FIELD_INFO_FIELDS dwFields,  
-   FIELD_INFO* pFieldInfo  
+   FIELD_INFO_FIELDS dwFields,  
+   FIELD_INFO* pFieldInfo  
 );  
 ```  
   
 ```csharp  
 int GetInfo(  
-   enum_FIELD_INFO_FIELDS dwFields,  
-   FIELD_INFO[] pFieldInfo  
+   enum_FIELD_INFO_FIELDS dwFields,  
+   FIELD_INFO[] pFieldInfo  
 );  
 ```  
   

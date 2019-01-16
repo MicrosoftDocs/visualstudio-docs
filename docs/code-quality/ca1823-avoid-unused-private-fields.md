@@ -2,7 +2,6 @@
 title: "CA1823: Avoid unused private fields"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "AvoidUnusedPrivateFields"
@@ -18,6 +17,7 @@ ms.workload:
   - "multiple"
 ---
 # CA1823: Avoid unused private fields
+
 |||
 |-|-|
 |TypeName|AvoidUnusedPrivateFields|
@@ -28,16 +28,16 @@ ms.workload:
 ## Cause
  This rule is reported when a private field in your code exists but is not used by any code path.
 
-## Rule Description
+## Rule description
  Private fields were detected that do not appear to be accessed in the assembly.
 
-## How to Fix Violations
+## How to fix violations
  To fix a violation of this rule, remove the field or add code that uses it.
 
-## When to Suppress Warnings
+## When to suppress warnings
  It is safe to suppress a warning from this rule.
 
-## Related Rules
+## Related rules
  [CA1812: Avoid uninstantiated internal classes](../code-quality/ca1812-avoid-uninstantiated-internal-classes.md)
 
  [CA1801: Review unused parameters](../code-quality/ca1801-review-unused-parameters.md)

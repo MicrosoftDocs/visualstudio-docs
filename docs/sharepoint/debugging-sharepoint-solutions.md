@@ -1,9 +1,6 @@
 ---
 title: "Debugging SharePoint Solutions | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VS.SharePointTools.Project.WebConfigModificationDialog"
@@ -37,13 +34,13 @@ ms.workload:
 ## Enable debugging
  When you first debug a SharePoint solution in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], a dialog box alerts you that the web.config file is not configured to enable debugging. (The web.config file is created when you install SharePoint server. For more information, see [Working with Web.config Files](http://go.microsoft.com/fwlink/?LinkID=149266).) The dialog box gives you the option of either running the project without debugging or modifying the web.config file to enable debugging. If you choose the first option, the project runs normally. If you choose the second option, the web.config file is configured to:  
   
--   Turn on the call stack (`CallStack="true"`)  
+- Turn on the call stack (`CallStack="true"`)  
   
--   Disable custom errors in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] (`<customErrors mode="Off" />`)  
+- Disable custom errors in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] (`<customErrors mode="Off" />`)  
   
--   Enable compilation debugging (`<compilation debug="true">`)  
+- Enable compilation debugging (`<compilation debug="true">`)  
   
- The resulting web.config file follows:  
+  The resulting web.config file follows:  
   
 ```xml  
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>  
@@ -83,24 +80,24 @@ ms.workload:
 ## F5 debug and deployment process
  When you run your SharePoint project in debug mode, the SharePoint deployment process performs the following tasks:  
   
-1.  Runs the customizable pre-deployment commands.  
+1. Runs the customizable pre-deployment commands.  
   
-2.  Creates a Web solution package (.wsp) file by using [!INCLUDE[vstecmsbuild](../sharepoint/includes/vstecmsbuild-md.md)] commands. The .wsp file includes all of the necessary files and features. For more information, see [Solutions Overview](http://go.microsoft.com/fwlink/?LinkID=128154).  
+2. Creates a Web solution package (.wsp) file by using [!INCLUDE[vstecmsbuild](../sharepoint/includes/vstecmsbuild-md.md)] commands. The .wsp file includes all of the necessary files and features. For more information, see [Solutions Overview](http://go.microsoft.com/fwlink/?LinkID=128154).  
   
-3.  If the SharePoint solution is a farm solution, recycles the [!INCLUDE[TLA2#tla_iis5](../sharepoint/includes/tla2sharptla-iis5-md.md)] application pool for the specified site [!INCLUDE[TLA2#tla_url](../sharepoint/includes/tla2sharptla-url-md.md)]. This step releases files locked by the [!INCLUDE[TLA2#tla_iis5](../sharepoint/includes/tla2sharptla-iis5-md.md)] worker process.  
+3. If the SharePoint solution is a farm solution, recycles the [!INCLUDE[TLA2#tla_iis5](../sharepoint/includes/tla2sharptla-iis5-md.md)] application pool for the specified site [!INCLUDE[TLA2#tla_url](../sharepoint/includes/tla2sharptla-url-md.md)]. This step releases files locked by the [!INCLUDE[TLA2#tla_iis5](../sharepoint/includes/tla2sharptla-iis5-md.md)] worker process.  
   
-4.  If a previous version of the package already exists, retracts the previous version of the features and files in the .wsp file. This step deactivates the features, uninstalls the solution package, and then deletes the solution package on the SharePoint server.  
+4. If a previous version of the package already exists, retracts the previous version of the features and files in the .wsp file. This step deactivates the features, uninstalls the solution package, and then deletes the solution package on the SharePoint server.  
   
-5.  Installs the current version of the features and files in the .wsp file. This step adds and installs the solution on the SharePoint server.  
+5. Installs the current version of the features and files in the .wsp file. This step adds and installs the solution on the SharePoint server.  
   
-6.  For workflows, installs the workflow assembly. You can change its location by using the *Assembly Location* property.  
+6. For workflows, installs the workflow assembly. You can change its location by using the *Assembly Location* property.  
   
-7.  Activates the project's feature in SharePoint if the scope is Site or Web. Features in the Farm and WebApplication scopes are not activated.  
+7. Activates the project's feature in SharePoint if the scope is Site or Web. Features in the Farm and WebApplication scopes are not activated.  
   
-8.  For workflows, associates the workflow with the SharePoint library, list, or site that you selected in the **SharePoint Customization Wizard**.  
+8. For workflows, associates the workflow with the SharePoint library, list, or site that you selected in the **SharePoint Customization Wizard**.  
   
-    > [!NOTE]  
-    >  This association occurs only if you selected **Automatically associate workflow** in the wizard.  
+   > [!NOTE]  
+   >  This association occurs only if you selected **Automatically associate workflow** in the wizard.  
   
 9. Runs the customizable post-deployment commands.  
   
@@ -110,7 +107,7 @@ ms.workload:
   
 12. Displays the appropriate library, list, or site page in the Web browser.  
   
- [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] displays a status message in the Output window after each task is completed. If a task cannot be completed, [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] displays an error message in the Error List window.  
+    [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] displays a status message in the Output window after each task is completed. If a task cannot be completed, [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] displays an error message in the Error List window.  
   
 ## SharePoint project features
  A feature is a portable and modular unit of functionality that simplifies modification of sites by using site definitions. It is also a package of [!INCLUDE[sharepointShort](../sharepoint/includes/sharepointshort-md.md)] (WSS) elements that can be activated for a specific scope and that helps users accomplish a particular goal or task. Templates are deployed as features.  
@@ -122,8 +119,8 @@ ms.workload:
 ## Debug workflows
  When you debug workflow projects, [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] adds the workflow template (depending on its type) to a library or to a list. You can then start the workflow template manually or by adding or updating an item. You can then use [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] to debug the workflow.  
   
-> [!NOTE]  
->  If you add references to other assemblies, make sure that those assemblies are installed in the global assembly cache ([!INCLUDE[TLA2#tla_gac](../sharepoint/includes/tla2sharptla-gac-md.md)]). Otherwise, the workflow solution will fail. For information about how to install assemblies, see [Manually start a workflow on a document or item](https://support.office.com/article/Manually-start-a-workflow-on-a-document-or-item-5C106E0E-6FF2-4A75-AF99-F01653BC7963).  
+> [!NOTE]
+>  If you add references to other assemblies, make sure that those assemblies are installed in the global assembly cache ( [!INCLUDE[TLA2#tla_gac](../sharepoint/includes/tla2sharptla-gac-md.md)]). Otherwise, the workflow solution will fail. For information about how to install assemblies, see [Manually start a workflow on a document or item](https://support.office.com/article/Manually-start-a-workflow-on-a-document-or-item-5C106E0E-6FF2-4A75-AF99-F01653BC7963).  
   
  However, the deployment process does not start the workflow. You must start the workflow from the SharePoint Web site. You can also start the workflow by using a client application such as Microsoft Office Word 2010, or by using separate server-side code. Use one of the approaches specified in the **SharePoint Customization Wizard**.  
   
@@ -147,4 +144,3 @@ ms.workload:
   
 ## See also
  [Troubleshoot SharePoint solutions](../sharepoint/troubleshooting-sharepoint-solutions.md)  
-  

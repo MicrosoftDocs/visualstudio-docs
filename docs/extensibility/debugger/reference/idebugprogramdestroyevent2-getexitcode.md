@@ -1,9 +1,6 @@
 ---
 title: "IDebugProgramDestroyEvent2::GetExitCode | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProgramDestroyEvent2::GetExitCode"
@@ -23,13 +20,13 @@ Gets the program's exit code.
   
 ```cpp  
 HRESULT GetExitCode(   
-   DWORD* pdwExit  
+   DWORD* pdwExit  
 );  
 ```  
   
 ```csharp  
 int GetExitCode(   
-   out uint pdwExit  
+   out uint pdwExit  
 );  
 ```  
   

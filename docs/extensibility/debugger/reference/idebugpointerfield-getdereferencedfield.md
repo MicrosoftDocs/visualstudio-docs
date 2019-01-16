@@ -1,9 +1,6 @@
 ---
 title: "IDebugPointerField::GetDereferencedField | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugPointerField::GetDereferencedField"
@@ -23,13 +20,13 @@ This method returns the type of object to which this pointer object points.
   
 ```cpp  
 HRESULT GetDereferencedField(  
-   IDebugField** ppField  
+   IDebugField** ppField  
 );  
 ```  
   
 ```csharp  
 int GetDereferencedField(  
-   out IDebugField ppField  
+   out IDebugField ppField  
 );  
 ```  
   

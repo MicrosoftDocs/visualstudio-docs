@@ -1,9 +1,6 @@
 ---
 title: "IDebugClassField::GetDefaultIndexer | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugClassField::GetDefaultIndexer"
@@ -23,13 +20,13 @@ Gets the name of the default indexer.
   
 ```cpp  
 HRESULT GetDefaultIndexer(   
-   BSTR* pbstrIndexer  
+   BSTR* pbstrIndexer  
 );  
 ```  
   
 ```csharp  
 int GetDefaultIndexer(  
-   out string pbstrIndexer  
+   out string pbstrIndexer  
 );  
 ```  
   

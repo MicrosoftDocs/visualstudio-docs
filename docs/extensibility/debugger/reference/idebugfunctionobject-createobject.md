@@ -1,9 +1,6 @@
 ---
 title: "IDebugFunctionObject::CreateObject | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugFunctionObject::CreateObject"
@@ -23,19 +20,19 @@ Creates an object using a constructor.
   
 ```cpp  
 HRESULT CreateObject(   
-   IDebugFunctionObject* pConstructor,  
-   DWORD                 dwArgs,  
-   IDebugObject*         pArgs[],  
-   IDebugObject**        ppObject  
+   IDebugFunctionObject* pConstructor,  
+   DWORD                 dwArgs,  
+   IDebugObject*         pArgs[],  
+   IDebugObject**        ppObject  
 );  
 ```  
   
 ```csharp  
 int CreateObject(  
-   IDebugFunctionObject pConstructor,   
-   uint                 dwArgs,   
-   IDebugObject[]       pArgs,   
-   out IDebugObject     ppObject  
+   IDebugFunctionObject pConstructor,   
+   uint                 dwArgs,   
+   IDebugObject[]       pArgs,   
+   out IDebugObject     ppObject  
 );  
 ```  
   

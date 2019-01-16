@@ -1,9 +1,6 @@
 ---
 title: "IDebugSymbolProviderDirect::GetAppIDFromAddress | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugSymbolProviderDirect::GetAppIDFromAddress"
@@ -22,15 +19,15 @@ Retrieves the application domain identifier given the debug address.
   
 ```cpp  
 HRESULT GetAppIDFromAddress(  
-   IDebugAddress* pAddress,  
-   DWORD*         pAppID  
+   IDebugAddress* pAddress,  
+   DWORD*         pAppID  
 );  
 ```  
   
 ```csharp  
 int GetAppIDFromAddress(  
-   IDebugAddress pAddress,  
-   out uint      pAppID  
+   IDebugAddress pAddress,  
+   out uint      pAppID  
 );  
 ```  
   

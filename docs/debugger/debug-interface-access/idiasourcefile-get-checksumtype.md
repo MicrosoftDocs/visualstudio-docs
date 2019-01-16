@@ -1,8 +1,6 @@
 ---
 title: "IDiaSourceFile::get_checksumType | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves the checksum type.
   
 ```C++  
 HRESULT get_checksumType (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

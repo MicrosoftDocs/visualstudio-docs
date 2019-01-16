@@ -24,7 +24,7 @@ Adds an application to the running application list.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT AddApplication(  
    IRemoteDebugApplication*  pda,  
    DWORD*                    pdwAppCookie  

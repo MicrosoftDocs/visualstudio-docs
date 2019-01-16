@@ -24,7 +24,7 @@ Causes the document to be instantiated if it does not already exist.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetDocument(  
    IDebugDocument**  ppssd  
 );  

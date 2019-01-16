@@ -1,9 +1,6 @@
 ---
 title: "IDebugModOpt::GetModOpts | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugModOpt::GetModOpts"
@@ -22,17 +19,17 @@ Retrieves a list of optional modifiers.
   
 ```cpp  
 HRESULT GetModOpts(  
-   ULONG  celt,  
-   BSTR*  rgelt,  
-   ULONG* pceltFetched  
+   ULONG  celt,  
+   BSTR*  rgelt,  
+   ULONG* pceltFetched  
 );  
 ```  
   
 ```csharp  
 int GetModOpts(  
-   uint         celt,  
-   out string[] rgelt,  
-   ref uint     pceltFetched  
+   uint         celt,  
+   out string[] rgelt,  
+   ref uint     pceltFetched  
 );  
 ```  
   

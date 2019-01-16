@@ -1,8 +1,7 @@
 ---
-title: Use regular expressions in Visual Studio
+title: Use regular expressions
 ms.date: 03/26/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 f1_keywords:
   - "vsregularexpressionhelp"
@@ -43,7 +42,8 @@ Here are some examples:
 |Match zero or more occurrences of the preceding expression (match as few characters as possible)|*?|`e.*?e` matches "ee" in "feeder" but not "eede".|
 |Match one or more occurrences of the preceding expression (match as few characters as possible)|+?|`e.+?e` matches "ente" and "erprise" in "enterprise", but not the whole word "enterprise".|
 |Anchor the match string to the beginning of a line or string|^|`^car` matches the word "car" only when it appears at the beginning of a line.|
-|Anchor the match string to the end of a line|\r?$|`End\r?$` matches "end" only when it appears at the end of a line.|
+|Anchor the match string to the end of a line|\r?$|`end\r?$` matches "end" only when it appears at the end of a line.|
+|Anchor the match string to the end of the file|$|`end$` matches "end" only when it appears at the end of the file.|
 |Match any single character in a set|[abc]|`b[abc]` matches "ba", "bb", and "bc".|
 |Match any character in a range of characters|[a-f]|`be[n-t]` matches "bet" in "between", "ben" in "beneath", and "bes" in "beside", but not "below".|
 |Capture and implicitly number the expression contained within parenthesis|()|`([a-z])X\1` matches "aXa"and "bXb", but not "aXb". "\1" refers to the first expression group "[a-z]".|
@@ -52,8 +52,8 @@ Here are some examples:
 |Match either the expression before or the one after the symbol.|&#124;|`(sponge\|mud) bath` matches "sponge bath" and "mud bath."|
 |Escape the character following the backslash| \\ |`\^` matches the character ^.|
 |Specify the number of occurrences of the preceding character or group|{x}, where x is the number of occurrences|`x(ab){2}x` matches "xababx", and `x(ab){2,3}x` matches "xababx" and "xabababx" but not "xababababx".|
-|Match text in a Unicode character class, where "X" is the Unicode number. For more information about Unicode character classes, see<br /><br /> [Unicode Standard 5.2 Character Properties](http://www.unicode.org/versions/Unicode5.2.0/ch04.pdf).|\p{X}|`\p{Lu}` matches "T" and "D" in "Thomas Doe".|
-|Match a word boundary|`\b` (Outside a character class \b specifies a word boundary, and inside a character class specifies a backspace).|`\bin` matches "in" in "inside" but not "pinto".|
+|Match text in a Unicode character class. For more information about Unicode character classes, see<br /><br /> [Unicode Standard 5.2 Character Properties](http://www.unicode.org/versions/Unicode5.2.0/ch04.pdf).|\p{X}, where "X" is the Unicode number.|`\p{Lu}` matches "T" and "D" in "Thomas Doe".|
+|Match a word boundary|\b (Outside a character class `\b` specifies a word boundary, and inside a character class `\b` specifies a backspace.)|`\bin` matches "in" in "inside" but not "pinto".|
 |Match a line break (that is, a carriage return followed by a new line).|\r?\n|`End\r?\nBegin` matches "End" and "Begin" only when "End" is the last string in a line and "Begin" is the first string in the next line.|
 |Match any alphanumeric character|\w|`a\wd` matches "add" and "a1d" but not "a d".|
 |Match any whitespace character.|(?([^\r\n])\s)|`Public\sInterface` matches the phrase "Public Interface".|

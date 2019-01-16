@@ -1,8 +1,6 @@
 ---
 title: "Collecting Thread and Process Concurrency Data | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "concurrency profiling method"
@@ -25,11 +23,11 @@ You can specify the concurrency profiling method by using one of the following p
 
 ## Common tasks
 
-You can specify additional options in the *Performance Session***Property Pages** dialog box of the performance session. To open this dialog box:
+You can specify additional options in the _Performance Session_**Property Pages** dialog box of the performance session. To open this dialog box:
 
 - In **Performance Explorer**, right-click the performance session name, and then click **Properties**.
 
-The tasks in the following table describe options that you can specify in the *Performance Session***Property Pages** dialog box when you profile by using the concurrency method.
+The tasks in the following table describe options that you can specify in the _Performance Session_**Property Pages** dialog box when you profile by using the concurrency method.
 
 |Task|Related Content|
 |----------|---------------------|

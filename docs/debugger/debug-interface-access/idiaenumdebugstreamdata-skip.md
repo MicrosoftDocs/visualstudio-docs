@@ -1,8 +1,6 @@
 ---
 title: "IDiaEnumDebugStreamData::Skip | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Skips a specified number of records in an enumerated sequence.
   
 ```C++  
 HRESULT Skip (   
-   ULONG celt  
+   ULONG celt  
 );  
 ```  
   

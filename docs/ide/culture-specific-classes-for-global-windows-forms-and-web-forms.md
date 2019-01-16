@@ -2,7 +2,6 @@
 title: Culture-Specific Classes for Global Windows Forms and Web Forms
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:
   - "globalization [Windows Forms], classes"
@@ -40,7 +39,7 @@ Each culture has different conventions for displaying dates, time, numbers, curr
 
 ## Using the culture setting
 
-Use the culture setting, stored either in the app or in the **Regional Options** control panel, to determine the culture conventions at run time and format information accordingly. For more information on setting the culture, see [How to: Set the culture and UI culture for ASP.NET web page globalization](http://msdn.microsoft.com/Library/76091f86-f967-4687-a40f-de87bd8cc9a0). Classes that automatically format information according to the culture setting are called *culture-specific*. Some culture-specific methods are
+Use the culture setting, stored either in the app or in the **Regional Options** control panel, to determine the culture conventions at run time and format information accordingly. For more information on setting the culture, see [How to: Set the culture and UI culture for ASP.NET web page globalization](https://msdn.microsoft.com/Library/76091f86-f967-4687-a40f-de87bd8cc9a0). Classes that automatically format information according to the culture setting are called *culture-specific*. Some culture-specific methods are
 - <xref:System.IFormattable.ToString%2A?displayProperty=fullName>
 - <xref:System.Console.WriteLine%2A?displayProperty=fullName>
 - <xref:System.String.Format%2A?displayProperty=fullName>

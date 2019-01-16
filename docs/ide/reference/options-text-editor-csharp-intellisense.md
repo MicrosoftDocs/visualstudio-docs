@@ -2,7 +2,6 @@
 title: Options, Text Editor, C#, IntelliSense
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.CSharp.Intellisense"
@@ -23,9 +22,6 @@ ms.workload:
 
 Use the **IntelliSense** options page to modify settings that affect the behavior of IntelliSense for C#. To access this options page, choose **Tools** > **Options**, and then choose **Text Editor** > **C#** > **IntelliSense**.
 
-> [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).
-
 The **IntelliSense** options page contains the following options:
 
 ## Completion Lists
@@ -38,11 +34,9 @@ The **IntelliSense** options page contains the following options:
 
 - Highlight matching portions of completion list items
 
-- Show completion list filters
+- Show completion item filters
 
-- Show name suggestions
-
-### Snippets behavior
+## Snippets behavior
 
 - Never include snippets
 
@@ -56,7 +50,7 @@ The **IntelliSense** options page contains the following options:
 
    When this option is selected, IntelliSense adds aliases for C# code snippets to the completion list when **?**+**Tab** is pressed after an identifier
 
-### Enter key behavior
+## Enter key behavior
 
 - Never add new line on enter
 
@@ -79,6 +73,10 @@ The **IntelliSense** options page contains the following options:
 - Always add new line on enter
 
    Specifies that if you type *any* of the characters for an entry in the completion list and then press **Enter**, a new line is added automatically and the cursor moves to the new line.
+
+## Show name suggestions
+
+Performs automatic object name completion for the members that you have recently selected.
 
 ## See also
 

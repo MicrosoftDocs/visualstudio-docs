@@ -1,8 +1,6 @@
 ---
 title: "Sdk Element (MSBuild) | Microsoft Docs"
-ms.custom: ""
 ms.date: "01/25/2018"
-ms.technology: msbuild
 ms.topic: "reference"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#Project"
@@ -48,9 +46,10 @@ References an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecm
  None.
 
 ### Parent elements  
- |Element|Description|  
-|-------------|-----------------|  
-|[Project](../msbuild/project-element-msbuild.md)|Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file.|  
+
+| Element | Description |
+| - | - |
+| [Project](../msbuild/project-element-msbuild.md) | Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file. |
 
 ## See also  
  [How to: Reference an MSBuild project SDK](../msbuild/how-to-use-project-sdk.md)   

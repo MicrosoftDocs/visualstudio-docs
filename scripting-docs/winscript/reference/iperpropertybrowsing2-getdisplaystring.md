@@ -24,10 +24,10 @@ Gets a string to display types which are not inherently viewable The returned te
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetDisplayString(  
-   DISPID  dispid,  
-   BSTR*  pBstr  
+   DISPID  dispid,  
+   BSTR*  pBstr  
 );  
 ```  
   

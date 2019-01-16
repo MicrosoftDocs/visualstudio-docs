@@ -1,5 +1,5 @@
 ---
-title: "Load patterns for load testing in Visual Studio"
+title: "Load patterns for load testing"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -11,7 +11,6 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ---
 # Edit load patterns to model virtual user activities
 
@@ -21,6 +20,8 @@ The load pattern is a component of a scenario. The scenarios, together with thei
 
 > [!NOTE]
 > In all Load Patterns, the load that Visual Studio generates is a simulated load of virtual users.
+
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
 ## Load patterns
 
@@ -50,32 +51,32 @@ The load pattern is a component of a scenario. The scenarios, together with thei
 
  A step load pattern can be used to increase the load on the server or servers as the load test runs so that you can see how performance varies as the user load increases. For example, to see how your server or servers perform as the user load increases to 2,000 users, you might run a 10-hour load test by using a step load pattern that has the following properties:
 
--   **Initial User Count**: 100
+- **Initial User Count**: 100
 
--   **Maximum User Count**: 2,000
+- **Maximum User Count**: 2,000
 
--   **Step Duration (seconds)**: 1,800
+- **Step Duration (seconds)**: 1,800
 
--   **Step Ramp Time (seconds)**: 20
+- **Step Ramp Time (seconds)**: 20
 
--   **Step User Count**: 100
+- **Step User Count**: 100
 
- These settings run the load test for 30 minutes (1,800 seconds) at user loads of 100, 200, 300, and up to 2,000 users. The **Step Ramp Time** property is worth special mention, because it is the only one of these properties that is not available for selection in the **New Load Test Wizard**. This property allows the increase from one step to the next (for example from 100 to 200 users) to occur gradually rather than immediately. In the example, the user load would be increased from 100 to 200 users over a 20 second period (an increase of five users every second). For more information, see [How to: Specify the step ramp time property for a step load pattern](../test/how-to-specify-the-step-ramp-time-property-for-a-step-load-pattern.md).
+  These settings run the load test for 30 minutes (1,800 seconds) at user loads of 100, 200, 300, and up to 2,000 users. The **Step Ramp Time** property is worth special mention, because it is the only one of these properties that is not available for selection in the **New Load Test Wizard**. This property allows the increase from one step to the next (for example from 100 to 200 users) to occur gradually rather than immediately. In the example, the user load would be increased from 100 to 200 users over a 20 second period (an increase of five users every second). For more information, see [How to: Specify the step ramp time property for a step load pattern](../test/how-to-specify-the-step-ramp-time-property-for-a-step-load-pattern.md).
 
 ### Goal-based
 
  A goal-based load pattern resembles the step pattern but adjusts the user load based on performance counter thresholds versus periodic user load adjustments. Goal based loads are useful for a variety of different purposes:
 
--   Maximizing output from the agents: measure the key limiting metric on the agent to maximize the output of the agents. Typically, it is CPU; However, it could also be memory.
+- Maximizing output from the agents: measure the key limiting metric on the agent to maximize the output of the agents. Typically, it is CPU; However, it could also be memory.
 
--   Reaching some target resource level, typically CPU, on the target server, then measuring throughput at that level. This enables you to do run-to-run comparisons of throughput given a consistent level of resource usage on the server.
+- Reaching some target resource level, typically CPU, on the target server, then measuring throughput at that level. This enables you to do run-to-run comparisons of throughput given a consistent level of resource usage on the server.
 
--   Reaching a target throughput level on the server.
+- Reaching a target throughput level on the server.
 
- In the following table, an example shows a goal-based pattern with the following property settings:
+  In the following table, an example shows a goal-based pattern with the following property settings:
 
 |Property Group|Property|Value|
-|--------------------|--------------|-----------|
+|-|--------------|-|
 |Performance Counter|Category|Processor|
 |Performance Counter|Computer|ContosoServer1|
 |Performance Counter|Counter|% Processor Time|
@@ -103,7 +104,7 @@ The load pattern is a component of a scenario. The scenarios, together with thei
 ## Tasks
 
 |Tasks|Associated Topics|
-|-----------|-----------------------|
+|-|-----------------------|
 |**Specifying the initial load pattern for your load test:** When you create a load test by using the **New Load Test Wizard**, you select a load pattern.|-   [Change the load pattern](../test/edit-load-patterns-to-model-virtual-user-activities.md#change-the-load-pattern)|
 |**Editing the load pattern for your load test:** After you create your load test, you can edit the load pattern in the **Load Test Editor**.|-   [How to: Specify the step ramp time property for a step load pattern](../test/how-to-specify-the-step-ramp-time-property-for-a-step-load-pattern.md)|
 |**Specifying whether the virtual users in your load test scenario should include web cache data:** You can change the **Percentage of new Users** property to affect the way in which the load test simulates the web caching that would be performed by a web browser for the virtual users.|-   [How to: Specify the percentage of virtual users that use web cache data](../test/how-to-specify-the-percentage-of-virtual-users-that-use-web-cache-data.md)|

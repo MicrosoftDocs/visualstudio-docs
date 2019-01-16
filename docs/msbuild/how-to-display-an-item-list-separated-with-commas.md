@@ -1,8 +1,6 @@
 ---
 title: "How to: Display an Item List Separated with Commas | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: msbuild
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "MSBuild, separating items with semicolons"
@@ -39,7 +37,7 @@ When you work with item lists in [!INCLUDE[vstecmsbuildengine](../msbuild/includ
      `@(TXTFile, ', ')`  
   
 ## Example  
- In this example, [Exec](../msbuild/exec-task.md) task runs the findstr tool to find specified text strings in the file, *Phrases.txt*. In the findstr command, literal search strings are indicated by the **/c:** switch, so the item separator, `/c:` is inserted between items in the `@(Phrase)` item list.  
+ In this example, [Exec](../msbuild/exec-task.md) task runs the findstr tool to find specified text strings in the file, *Phrases.txt*. In the findstr command, literal search strings are indicated by the **-c:** switch, so the item separator, `-c:` is inserted between items in the `@(Phrase)` item list.  
   
  For this example, the equivalent command-line command is:  
   

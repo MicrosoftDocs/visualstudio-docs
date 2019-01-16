@@ -1,8 +1,6 @@
 ---
 title: "IDiaSymbol::get_isStatic | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves a flag that specifies whether the function or thunk layer has been mar
   
 ```C++  
 HRESULT get_isStatic(  
-   BOOL *pFlag  
+   BOOL *pFlag  
 );  
 ```  
   

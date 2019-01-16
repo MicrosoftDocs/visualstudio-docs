@@ -1,9 +1,6 @@
 ---
 title: "Walkthrough: Change document formatting using CheckBox controls"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -27,13 +24,13 @@ ms.workload:
   
  This walkthrough illustrates the following tasks:  
   
--   Adding text and a control to the document in a document-level project at design time.  
+- Adding text and a control to the document in a document-level project at design time.  
   
--   Formatting the text when an option is selected.  
+- Formatting the text when an option is selected.  
   
- To see the result as a completed sample, see the Word Controls Sample at [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md).  
+  To see the result as a completed sample, see the Word Controls Sample at [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md).  
   
- [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
+  [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
   
 ## Prerequisites  
  You need the following components to complete this walkthrough:  
@@ -89,21 +86,21 @@ ms.workload:
   
 ### Add text and a Bookmark control  
   
-1.  Move the insertion point below the check box controls and type the following text:  
+1. Move the insertion point below the check box controls and type the following text:  
   
-     **Click a check box to change the formatting of this text.**  
+    **Click a check box to change the formatting of this text.**  
   
-2.  From the **Word Controls** tab of the **Toolbox**, drag a <xref:Microsoft.Office.Tools.Word.Bookmark> control to the document.  
+2. From the **Word Controls** tab of the **Toolbox**, drag a <xref:Microsoft.Office.Tools.Word.Bookmark> control to the document.  
   
-     The **Add Bookmark Control** dialog box appears.  
+    The **Add Bookmark Control** dialog box appears.  
   
-3.  Select the text you added to the document and click **OK**.  
+3. Select the text you added to the document and click **OK**.  
   
-     A <xref:Microsoft.Office.Tools.Word.Bookmark> control named **Bookmark1** is added to the selected text in the document.  
+    A <xref:Microsoft.Office.Tools.Word.Bookmark> control named **Bookmark1** is added to the selected text in the document.  
   
-4.  In the **Properties** window, change the value of the **(Name)** property to **fontText.**  
+4. In the **Properties** window, change the value of the **(Name)** property to **fontText.**  
   
- Next, write the code to format the text when a check box is checked or cleared.  
+   Next, write the code to format the text when a check box is checked or cleared.  
   
 ## Format the text when a check box is checked or cleared  
  When the user selects a formatting option, change the format of the text in the document.  
@@ -159,5 +156,3 @@ ms.workload:
  [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md)   
  [NamedRange control](../vsto/namedrange-control.md)   
  [Limitations of Windows Forms controls on Office documents](../vsto/limitations-of-windows-forms-controls-on-office-documents.md)  
-  
-  

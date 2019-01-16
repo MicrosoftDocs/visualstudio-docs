@@ -8,17 +8,16 @@ manager: douge
 ms.workload:
   - "multiple"
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # T4 Output Directive
 
-In [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] text templates, the `output` directive is used to define the file name extension and encoding of the transformed file.
+In Visual Studio text templates, the `output` directive is used to define the file name extension and encoding of the transformed file.
 
- For example, if your [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project includes a template file named **MyTemplate.tt** which contains the following directive:
+ For example, if your Visual Studio project includes a template file named **MyTemplate.tt** which contains the following directive:
 
  `<#@output extension=".cs"#>`
 
- then [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] will generate a file named **MyTemplate.cs**
+ then Visual Studio will generate a file named **MyTemplate.cs**
 
  The `output` directive is not required in a run-time (preprocessed) text template. Instead, your application obtains the generated string by calling `TextTransform()`. For more information, see [Run-Time Text Generation with T4 Text Templates](../modeling/run-time-text-generation-with-t4-text-templates.md).
 

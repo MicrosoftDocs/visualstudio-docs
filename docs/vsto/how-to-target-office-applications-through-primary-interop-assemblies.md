@@ -1,9 +1,6 @@
 ---
 title: "How to: Target Office applications through primary interop assemblies"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -23,13 +20,13 @@ ms.workload:
 # How to: Target Office applications through primary interop assemblies
   When you create a new Office project, Visual Studio automatically adds references to the Microsoft Office primary interop assemblies (PIAs) that are required to build your project. You must add references to other PIAs in the following scenarios:  
   
--   You want to use features of other Microsoft Office applications in your project. For example, you might want to use features of Microsoft Office Excel in a project for Microsoft Office Word.  
+- You want to use features of other Microsoft Office applications in your project. For example, you might want to use features of Microsoft Office Excel in a project for Microsoft Office Word.  
   
--   You want to automate Microsoft Office applications that do not have dedicated projects in Visual Studio, such as Microsoft Office Access.  
+- You want to automate Microsoft Office applications that do not have dedicated projects in Visual Studio, such as Microsoft Office Access.  
   
- [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]  
+  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]  
   
- [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
+  [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
   
 ## To add a reference to a primary interop assembly  
   
@@ -53,5 +50,3 @@ ms.workload:
  [Write code in Office solutions](../vsto/writing-code-in-office-solutions.md)   
  [Develop Office solutions](../vsto/developing-office-solutions.md)   
  [How to: Install Office primary interop assemblies](../vsto/how-to-install-office-primary-interop-assemblies.md)  
-  
-  

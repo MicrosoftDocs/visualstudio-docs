@@ -1,8 +1,6 @@
 ---
 title: "IDiaEnumLineNumbers::Item | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,8 +20,8 @@ Retrieves a line number by means of an index.
   
 ```C++  
 HRESULT Item (   
-   DWORD            index,  
-   IDiaLineNumber** lineNumber  
+   DWORD            index,  
+   IDiaLineNumber** lineNumber  
 );  
 ```  
   

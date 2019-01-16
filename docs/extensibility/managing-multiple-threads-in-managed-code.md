@@ -1,9 +1,6 @@
 ---
 title: "How to: Managing Multiple Threads in Managed Code | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 ms.assetid: 59730063-cc29-4dae-baff-2234ad8d0c8f
 author: "gregvanl"
@@ -12,7 +9,7 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# How to: Managing Multiple Threads in Managed Code
+# How to: Manage multiple threads in managed code
 If you have a managed VSPackage extension that calls asynchronous methods or has operations that execute on threads other than the Visual Studio UI thread, you should follow the guidelines given below. You can keep the UI thread responsive because it doesn't need to wait for work on another thread to complete. You can make your code more efficient, because you don't have extra threads that take up stack space, and you can make it more reliable and easier to debug because you avoid deadlocks and hangs.  
   
  In general, you can switch from the UI thread to a different thread, or vice versa. When the method returns, the current thread is the thread from which it was originally called.  
@@ -20,9 +17,9 @@ If you have a managed VSPackage extension that calls asynchronous methods or has
 > [!IMPORTANT]
 >  The following guidelines use the APIs in the <xref:Microsoft.VisualStudio.Threading> namespace, in particular, the <xref:Microsoft.VisualStudio.Threading.JoinableTaskFactory> class. The APIs in this namespace are new in [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md)]. You can get an instance of a <xref:Microsoft.VisualStudio.Threading.JoinableTaskFactory> from the <xref:Microsoft.VisualStudio.Shell.ThreadHelper> property `ThreadHelper.JoinableTaskFactory`.  
   
-## Switching from the UI Thread to a Background Thread  
+## Switch from the UI thread to a background thread  
   
-1.  If you are on the UI thread and you want to do asynchronous work on a background thread, use Task.Run():  
+1.  If you are on the UI thread and you want to do asynchronous work on a background thread, use `Task.Run()`:  
   
     ```csharp  
     await Task.Run(async delegate{  
@@ -44,7 +41,7 @@ If you have a managed VSPackage extension that calls asynchronous methods or has
     });  
     ```  
   
-## Switching from a Background Thread to the UI Thread  
+## Switch from a background thread to the UI thread  
   
 1.  If you're on a background thread and you want to do something on the UI thread, use <xref:Microsoft.VisualStudio.Threading.JoinableTaskFactory.SwitchToMainThreadAsync%2A>:  
   

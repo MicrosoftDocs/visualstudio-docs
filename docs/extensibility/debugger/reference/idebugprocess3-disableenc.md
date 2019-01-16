@@ -1,9 +1,6 @@
 ---
 title: "IDebugProcess3::DisableENC | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProcess3::DisableENC"
@@ -23,12 +20,12 @@ This method explicitly disables Edit and Continue on this process (and all progr
   
 ```cpp  
 HRESULT DisableENC(  
-   EncUnavailableReason reason  
+   EncUnavailableReason reason  
 );  
 ```  
   
 ```csharp  
-   EncUnavailableReason reason  
+   EncUnavailableReason reason  
 );  
 ```  
   

@@ -1,9 +1,6 @@
 ---
 title: "IDebugProperty2::SetValueAsString | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProperty2::SetValueAsString"
@@ -23,17 +20,17 @@ Sets the value of a property from a given string.
   
 ```cpp  
 HRESULT SetValueAsString (   
-   LPCOLESTR pszValue,  
-   UINT      nRadix,  
-   DWORD     dwTimeout  
+   LPCOLESTR pszValue,  
+   UINT      nRadix,  
+   DWORD     dwTimeout  
 );  
 ```  
   
 ```csharp  
 int SetValueAsString (   
-   string pszValue,  
-   uint   nRadix,  
-   uint   dwTimeout  
+   string pszValue,  
+   uint   nRadix,  
+   uint   dwTimeout  
 );  
 ```  
   

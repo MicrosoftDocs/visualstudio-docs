@@ -1,9 +1,6 @@
 ---
 title: "BPRESI_FIELDS | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "BPRESI_FIELDS"
@@ -23,20 +20,20 @@ Specifies the information  to be retrieved about the successful resolution of a 
   
 ```cpp  
 enum enum_BPRESI_FIELDS {   
-   BPRESI_BPRESLOCATION = 0x0001,  
-   BPRESI_PROGRAM       = 0x0002,  
-   BPRESI_THREAD        = 0x0004,  
-   BPRESI_ALLFIELDS     = 0xffffffff  
+   BPRESI_BPRESLOCATION = 0x0001,  
+   BPRESI_PROGRAM       = 0x0002,  
+   BPRESI_THREAD        = 0x0004,  
+   BPRESI_ALLFIELDS     = 0xffffffff  
 };  
 typedef DWORD BPRESI_FIELDS;  
 ```  
   
 ```csharp  
 public enum enum_BPRESI_FIELDS {   
-   BPRESI_BPRESLOCATION = 0x0001,  
-   BPRESI_PROGRAM       = 0x0002,  
-   BPRESI_THREAD        = 0x0004,  
-   BPRESI_ALLFIELDS     = 0xffffffff  
+   BPRESI_BPRESLOCATION = 0x0001,  
+   BPRESI_PROGRAM       = 0x0002,  
+   BPRESI_THREAD        = 0x0004,  
+   BPRESI_ALLFIELDS     = 0xffffffff  
 };  
 ```  
   

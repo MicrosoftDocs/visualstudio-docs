@@ -1,9 +1,6 @@
 ---
 title: "How to: Map ListObject columns to data"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -11,8 +8,8 @@ dev_langs:
 helpviewer_keywords: 
   - "data [Office development in Visual Studio], mapping to ListObject column"
   - "ListObject control, mapping data"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -63,5 +60,3 @@ ms.workload:
  [How to: Fill ListObject controls with data](../vsto/how-to-fill-listobject-controls-with-data.md)   
  [Automate Excel by using extended objects](../vsto/automating-excel-by-using-extended-objects.md)   
  [ListObject control](../vsto/listobject-control.md)  
-  
-  

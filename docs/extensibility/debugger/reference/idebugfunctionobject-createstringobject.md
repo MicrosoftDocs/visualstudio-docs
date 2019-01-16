@@ -1,9 +1,6 @@
 ---
 title: "IDebugFunctionObject::CreateStringObject | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugFunctionObject::CreateStringObject"
@@ -23,15 +20,15 @@ Creates a string object.
   
 ```cpp  
 HRESULT CreateStringObject(   
-   LPCOLESTR      pcstrString,  
-   IDebugObject** ppObject  
+   LPCOLESTR      pcstrString,  
+   IDebugObject** ppObject  
 );  
 ```  
   
 ```csharp  
 int CreateStringObject(  
-   string      pcstrString,   
-   out IDebugObject ppOjbect  
+   string      pcstrString,   
+   out IDebugObject ppOjbect  
 );  
 ```  
   

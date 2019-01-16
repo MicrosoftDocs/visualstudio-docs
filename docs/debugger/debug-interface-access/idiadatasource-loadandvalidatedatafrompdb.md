@@ -1,8 +1,6 @@
 ---
 title: "IDiaDataSource::loadAndValidateDataFromPdb | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,10 +20,10 @@ Opens and verifies that the program database (.pdb) file matches the signature i
   
 ```C++  
 HRESULT loadAndValidateDataFromPdb (   
-   LPCOLESTR pdbPath,  
-   GUID*     pcsig70,  
-   DWORD     sig,  
-   DWORD     age  
+   LPCOLESTR pdbPath,  
+   GUID*     pcsig70,  
+   DWORD     sig,  
+   DWORD     age  
 );  
 ```  
   

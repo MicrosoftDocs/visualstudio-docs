@@ -1,9 +1,6 @@
 ---
 title: "Custom task panes"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -23,8 +20,8 @@ helpviewer_keywords:
   - "custom task panes [Office development in Visual Studio]"
   - "task panes [Office development in Visual Studio], about custom task panes"
   - "custom task panes [Office development in Visual Studio], about custom task panes"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -49,11 +46,11 @@ ms.workload:
 ## Create a custom task pane  
  You can create a basic custom task pane in two steps:  
   
-1.  Create a user interface for your custom task pane by adding Windows Forms controls to a <xref:System.Windows.Forms.UserControl> object.  
+1. Create a user interface for your custom task pane by adding Windows Forms controls to a <xref:System.Windows.Forms.UserControl> object.  
   
-2.  Instantiate the custom task pane by passing the user control to the <xref:Microsoft.Office.Tools.CustomTaskPaneCollection> object in your VSTO Add-in. This collection returns a new <xref:Microsoft.Office.Tools.CustomTaskPane> object that you can use to modify the appearance of the task pane and respond to user events.  
+2. Instantiate the custom task pane by passing the user control to the <xref:Microsoft.Office.Tools.CustomTaskPaneCollection> object in your VSTO Add-in. This collection returns a new <xref:Microsoft.Office.Tools.CustomTaskPane> object that you can use to modify the appearance of the task pane and respond to user events.  
   
- For more information, see [How to: Add a custom task pane to an application](../vsto/how-to-add-a-custom-task-pane-to-an-application.md).  
+   For more information, see [How to: Add a custom task pane to an application](../vsto/how-to-add-a-custom-task-pane-to-an-application.md).  
   
 ### Create the user interface  
  All custom task panes that are created by using the Office development tools in Visual Studio contain a <xref:System.Windows.Forms.UserControl> object. This user control provides the user interface of your custom task pane. You can create the user control at design time or at runtime. If you create the user control at design time, you can use the Windows Forms Designer to construct the user interface of your task pane.  
@@ -71,11 +68,11 @@ ms.workload:
   
  To determine which window displays the custom task pane, use the appropriate <xref:Microsoft.Office.Tools.CustomTaskPaneCollection.Add%2A> method overload when you create the task pane:  
   
--   To associate the task pane with the active window, use the <xref:Microsoft.Office.Tools.CustomTaskPaneCollection.Add%2A> method.  
+- To associate the task pane with the active window, use the <xref:Microsoft.Office.Tools.CustomTaskPaneCollection.Add%2A> method.  
   
--   To associate the task pane with a document that is hosted by a specified window, use the <xref:Microsoft.Office.Tools.CustomTaskPaneCollection.Add%2A> method.  
+- To associate the task pane with a document that is hosted by a specified window, use the <xref:Microsoft.Office.Tools.CustomTaskPaneCollection.Add%2A> method.  
   
- Some Office applications require explicit instructions for when to create or display your task pane when more than one window is open. This makes it important to consider where to instantiate the custom task pane in your code to ensure that the task pane appears with the appropriate documents or items in the application. For more information, see [Manage custom task panes in application windows](#Managing).  
+  Some Office applications require explicit instructions for when to create or display your task pane when more than one window is open. This makes it important to consider where to instantiate the custom task pane in your code to ensure that the task pane appears with the appropriate documents or items in the application. For more information, see [Manage custom task panes in application windows](#Managing).  
   
 ## Access the application from the Task Pane  
  If you want to automate the application from the user control, you can directly access the object model by using `Globals.ThisAddIn.Application` in your code. The static `Globals` class provides access to the `ThisAddIn` object. The `Application` field of this object is the entry point into the object model of the application.  
@@ -130,11 +127,11 @@ ms.workload:
   
  The following application groups have different development requirements:  
   
--   [Outlook](#Outlook)  
+- [Outlook](#Outlook)  
   
--   [Word, InfoPath, and PowerPoint](#WordAndInfoPath)  
+- [Word, InfoPath, and PowerPoint](#WordAndInfoPath)  
   
- ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Manage task panes in Word VSTO Add-ins?](http://go.microsoft.com/fwlink/?LinkId=136781).  
+  ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Manage task panes in Word VSTO Add-ins?](http://go.microsoft.com/fwlink/?LinkId=136781).  
   
 ##  <a name="Outlook"></a> Outlook  
  When you create a custom task pane for Outlook, the custom task pane is associated with a specific Explorer or Inspector window. Explorers are windows that display the contents of a folder, and Inspectors are windows that display an item such as an email message or a task.  
@@ -143,23 +140,23 @@ ms.workload:
   
  To associate the task pane with a specific Explorer or Inspector, use the <xref:Microsoft.Office.Tools.CustomTaskPaneCollection.Add%2A> method to create the task pane, and pass the <xref:Microsoft.Office.Interop.Outlook.Explorer> or <xref:Microsoft.Office.Interop.Outlook.Inspector> object to the *window* parameter. For more information about creating custom task panes, see [Custom task panes overview](../vsto/custom-task-panes.md).  
   
--   <xref:Microsoft.Office.Interop.Outlook.ExplorersEvents_Event.NewExplorer>  
+- <xref:Microsoft.Office.Interop.Outlook.ExplorersEvents_Event.NewExplorer>  
   
--   <xref:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.Activate>  
+- <xref:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.Activate>  
   
--   <xref:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.Close>  
+- <xref:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.Close>  
   
--   <xref:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.Deactivate>  
+- <xref:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.Deactivate>  
   
- To monitor the state of Inspector windows, you can handle the following Inspector-related events:  
+  To monitor the state of Inspector windows, you can handle the following Inspector-related events:  
   
--   <xref:Microsoft.Office.Interop.Outlook.InspectorsEvents_Event.NewInspector>  
+- <xref:Microsoft.Office.Interop.Outlook.InspectorsEvents_Event.NewInspector>  
   
--   <xref:Microsoft.Office.Interop.Outlook.InspectorEvents_10_Event.Activate>  
+- <xref:Microsoft.Office.Interop.Outlook.InspectorEvents_10_Event.Activate>  
   
--   <xref:Microsoft.Office.Interop.Outlook.InspectorEvents_10_Event.Close>  
+- <xref:Microsoft.Office.Interop.Outlook.InspectorEvents_10_Event.Close>  
   
--   <xref:Microsoft.Office.Interop.Outlook.InspectorEvents_10_Event.Deactivate>  
+- <xref:Microsoft.Office.Interop.Outlook.InspectorEvents_10_Event.Deactivate>  
   
 ### Prevent multiple instances of a custom task pane in Outlook  
  To prevent Outlook windows from displaying multiple instances of a custom task pane, explicitly remove the custom task pane from the `CustomTaskPanes` collection of the `ThisAddIn` class when each window is closed. Call the <xref:Microsoft.Office.Tools.CustomTaskPaneCollection.Remove%2A> method in an event that is raised when a window is closed, such as <xref:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.Close> or <xref:Microsoft.Office.Interop.Outlook.InspectorEvents_10_Event.Close>.  
@@ -202,17 +199,17 @@ ms.workload:
 ### PowerPoint events  
  To monitor the state of document windows in PowerPoint, you can handle the following events:  
   
--   <xref:Microsoft.Office.Interop.PowerPoint.EApplication_Event.AfterNewPresentation>  
+-   [Microsoft.Office.Interop.PowerPoint.EApplication_Event.AfterNewPresentation](/previous-versions/office/developer/office-2010/ff761105(v%3doffice.14))
   
--   <xref:Microsoft.Office.Interop.PowerPoint.EApplication_Event.AfterPresentationOpen>  
+-   [Microsoft.Office.Interop.PowerPoint.EApplication_Event.AfterPresentationOpen](/previous-versions/office/developer/office-2010/ff762843(v%3doffice.14))
   
--   <xref:Microsoft.Office.Interop.PowerPoint.EApplication_Event.NewPresentation>  
+-   [Microsoft.Office.Interop.PowerPoint.EApplication_Event.NewPresentation](/previous-versions/office/developer/office-2010/ff761498(v%3doffice.14))
   
--   <xref:Microsoft.Office.Interop.PowerPoint.EApplication_Event.PresentationOpen>  
+-   [Microsoft.Office.Interop.PowerPoint.EApplication_Event.PresentationOpen](/previous-versions/office/developer/office-2010/ff760423(v=office.14))
   
--   <xref:Microsoft.Office.Interop.PowerPoint.EApplication_Event.WindowActivate>  
+-   [Microsoft.Office.Interop.PowerPoint.EApplication_Event.WindowActivate](/previous-versions/office/developer/office-2010/ff761153(v=office.14)) 
   
--   <xref:Microsoft.Office.Interop.PowerPoint.EApplication_Event.WindowDeactivate>  
+-   [Microsoft.Office.Interop.PowerPoint.EApplication_Event.WindowDeactivate](/previous-versions/office/developer/office-2010/ff763093(v=office.14))
   
 ## See also  
  [How to: Add a custom task pane to an application](../vsto/how-to-add-a-custom-task-pane-to-an-application.md)   

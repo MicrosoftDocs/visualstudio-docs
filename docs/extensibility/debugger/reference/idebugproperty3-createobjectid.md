@@ -1,9 +1,6 @@
 ---
 title: "IDebugProperty3::CreateObjectID | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProperty3::CreateObjectID"
@@ -23,7 +20,7 @@ Creates a unique ID for this property to ensure that it is unique among all othe
   
 ```cpp  
 HRESULT CreateObjectID(  
-   void  
+   void  
 );  
 ```  
   

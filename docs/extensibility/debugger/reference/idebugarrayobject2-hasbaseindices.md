@@ -1,9 +1,6 @@
 ---
 title: "IDebugArrayObject2::HasBaseIndices | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "HasBaseIndices"
@@ -22,13 +19,13 @@ Determines if the array has base indices (lower bounds) defined.
   
 ```cpp  
 HRESULT HasBaseIndices (  
-   BOOL* pfHasBaseIndices  
+   BOOL* pfHasBaseIndices  
 );  
 ```  
   
 ```csharp  
 int HasBaseIndices (  
-   out bool pfHasBaseIndices  
+   out bool pfHasBaseIndices  
 );  
 ```  
   

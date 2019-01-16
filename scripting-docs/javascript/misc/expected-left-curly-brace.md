@@ -1,5 +1,5 @@
 ---
-title: "Expected &#39;{&#39; | Microsoft Docs"
+title: "Expected '{' | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
 ms.prod: "windows-client-threshold"
@@ -21,7 +21,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 ---
-# Expected &#39;{&#39;
+# Expected '{'
 You did not include the left brace that marks the beginning of the function body. Code that makes up the body of a function, even if it is a single line, must be contained within left and right braces. Notice that the use of braces in function bodies is stricter than in loops.  
   
 ### To correct this error  

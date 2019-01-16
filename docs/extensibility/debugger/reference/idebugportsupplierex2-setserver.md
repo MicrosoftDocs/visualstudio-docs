@@ -1,9 +1,6 @@
 ---
 title: "IDebugPortSupplierEx2::SetServer | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugPortSupplierEx2::SetServer"
@@ -21,13 +18,13 @@ Sets the core server for the port supplier.
   
 ```cpp  
 HRESULT SetServer(  
-   IDebugCoreServer2* pServer  
+   IDebugCoreServer2* pServer  
 );  
 ```  
   
 ```csharp  
 int SetServer(  
-   IDebugCoreServer2 pServer  
+   IDebugCoreServer2 pServer  
 );  
 ```  
   

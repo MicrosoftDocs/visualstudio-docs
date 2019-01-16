@@ -1,9 +1,6 @@
 ---
 title: "Source Control VSPackage Architecture | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "source control packages, architecture"
@@ -24,25 +21,25 @@ A source-control package is a VSPackage that uses services that the [!INCLUDE[vs
   
  Source Control Stub handles the following tasks.  
   
--   Provides the common UI that is required for source-control package registration.  
+- Provides the common UI that is required for source-control package registration.  
   
--   Loads a source-control package.  
+- Loads a source-control package.  
   
--   Sets a source-control package as active/inactive.  
+- Sets a source-control package as active/inactive.  
   
- Source Control Stub looks for the active service for the source-control package and routes all incoming service calls from the IDE to that package.  
+  Source Control Stub looks for the active service for the source-control package and routes all incoming service calls from the IDE to that package.  
   
- The Source Control Adapter Package is a special source-control package that [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] provides. This package is the central component for supporting source control plug-ins based on the Source Control Plug-in API. When a source control plug-in is the active plug-in, the Source Control Stub sends its events to the Source Control Adapter Package. In turn, the Source Control Adapter Package communicates with the source control plug-in by using the Source Control Plug-in API and also provides a default UI that is common for all source control plug-ins.  
+  The Source Control Adapter Package is a special source-control package that [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] provides. This package is the central component for supporting source control plug-ins based on the Source Control Plug-in API. When a source control plug-in is the active plug-in, the Source Control Stub sends its events to the Source Control Adapter Package. In turn, the Source Control Adapter Package communicates with the source control plug-in by using the Source Control Plug-in API and also provides a default UI that is common for all source control plug-ins.  
   
- When a source-control package is the active package, on the other hand, the Source Control Stub directly communicates with the package by using the [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)] Source-Control Package interfaces. The source-control package is responsible for hosting its own source control UI.  
+  When a source-control package is the active package, on the other hand, the Source Control Stub directly communicates with the package by using the [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)] Source-Control Package interfaces. The source-control package is responsible for hosting its own source control UI.  
   
- ![Source Control Architecture graphic](../../extensibility/internals/media/vsipsccarch.gif "VSIPSCCArch")  
+  ![Source Control Architecture graphic](../../extensibility/internals/media/vsipsccarch.gif "VSIPSCCArch")  
   
- For a source-control package, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] does not supply source control code or an API for integration. Contrast this with the approach outlined in [Creating a Source Control Plug-in](../../extensibility/internals/creating-a-source-control-plug-in.md) where the source control plug-in has to implement a rigid set of functions and callbacks.  
+  For a source-control package, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] does not supply source control code or an API for integration. Contrast this with the approach outlined in [Creating a Source Control Plug-in](../../extensibility/internals/creating-a-source-control-plug-in.md) where the source control plug-in has to implement a rigid set of functions and callbacks.  
   
- Like any VSPackage, a source-control package is a COM object that can be created by using `CoCreateInstance`. The VSPackage makes itself available to the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] IDE by implementing <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage>. When an instance has been created, a VSPackage receives a site pointer and an <xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider> interface that provides the VSPackage access to the available services and interfaces in the IDE.  
+  Like any VSPackage, a source-control package is a COM object that can be created by using `CoCreateInstance`. The VSPackage makes itself available to the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] IDE by implementing <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage>. When an instance has been created, a VSPackage receives a site pointer and an <xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider> interface that provides the VSPackage access to the available services and interfaces in the IDE.  
   
- Writing a VSPackage-based source-control package requires more advanced programming expertise than writing a Source Control Plug-in API-based plug-in.  
+  Writing a VSPackage-based source-control package requires more advanced programming expertise than writing a Source Control Plug-in API-based plug-in.  
   
 ## See Also  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage>   

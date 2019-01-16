@@ -1,9 +1,6 @@
 ---
 title: "BSTR_ARRAY | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "BSTR_ARRAY"
@@ -23,15 +20,15 @@ A structure that describes an array of strings.
   
 ```cpp  
 typedef struct tagBSTR_ARRAY {  
-   DWORD dwCount;  
-   BSTR* Members;  
+   DWORD dwCount;  
+   BSTR* Members;  
 } BSTR_ARRAY;  
 ```  
   
 ```csharp  
 struct BSTR_ARRAY {  
-   DWORD    dwCount;  
-   string[] Members;  
+   DWORD    dwCount;  
+   string[] Members;  
 }  
 ```  
   

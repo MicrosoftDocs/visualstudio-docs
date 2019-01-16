@@ -1,9 +1,6 @@
 ---
 title: "Visual Studio Command Table (.Vsct) Files | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "VSCT files, overview"
@@ -31,7 +28,7 @@ A command table configuration file is a text file that describes the set of comm
  [VSCT XML Schema Reference](../../extensibility/vsct-xml-schema-reference.md)  
  Provides details about each section of the command table XML configuration file.  
   
- [Command Table Configuration (.Ctc) Files](http://msdn.microsoft.com/en-us/3413dda1-f372-4669-bcf0-c64d3463842c)  
+ [Command Table Configuration (.Ctc) Files](https://msdn.microsoft.com/library/3413dda1-f372-4669-bcf0-c64d3463842c)  
  Presents an overview of the deprecated .ctc file format.  
   
  [How VSPackages Add User Interface Elements](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)  

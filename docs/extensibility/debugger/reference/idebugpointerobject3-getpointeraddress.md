@@ -1,9 +1,6 @@
 ---
 title: "IDebugPointerObject3::GetPointerAddress | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "GetPointerAddress"
@@ -22,13 +19,13 @@ Retrieves the address of the pointer.
   
 ```cpp  
 HRESULT GetPointerAddress (  
-   UINT64* puAddress  
+   UINT64* puAddress  
 );  
 ```  
   
 ```csharp  
 int GetPointerAddress (  
-   out ulong puAddress  
+   out ulong puAddress  
 );  
 ```  
   

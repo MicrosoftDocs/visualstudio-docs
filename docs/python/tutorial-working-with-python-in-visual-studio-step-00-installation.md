@@ -1,13 +1,14 @@
 ---
-title: Working with Python Tutorial, Step 0, installation
+title: Python in Visual Studio tutorial step 0, installation
+titleSuffix: ""
 description: Step 0 (installation prerequisites) of a core walkthrough of working with Python in Visual Studio.
-ms.date: 06/26/2018
+ms.date: 10/29/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-python
 ms.topic: tutorial
 author: kraigb
 ms.author: kraigb
 manager: douge
+ms.custom: seodec18
 ms.workload:
   - python
   - data-science

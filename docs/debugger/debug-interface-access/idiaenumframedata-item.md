@@ -1,8 +1,6 @@
 ---
 title: "IDiaEnumFrameData::Item | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,8 +20,8 @@ Retrieves a frame data element by means of an index.
   
 ```C++  
 HRESULT Item (   
-   DWORD           index,  
-   IDiaFrameData** section  
+   DWORD           index,  
+   IDiaFrameData** section  
 );  
 ```  
   

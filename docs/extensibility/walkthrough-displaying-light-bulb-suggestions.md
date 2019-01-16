@@ -1,9 +1,6 @@
 ---
 title: "Walkthrough: Displaying Light Bulb Suggestions | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 ms.assetid: 99e5566d-450e-4660-9bca-454e1c056a02
 author: "gregvanl"
@@ -17,21 +14,21 @@ Light bulbs are icons in the Visual Studio editor that expand to display a set o
   
  In the Visual C# and Visual Basic editors, you can also use the .NET Compiler Platform ("Roslyn") to write and package your own code analyzers with actions that display light bulbs automatically. For more information, see:  
   
--   [How To: Write a C# diagnostic and code fix](https://github.com/dotnet/roslyn/wiki/How-To-Write-a-C%23-Analyzer-and-Code-Fix)  
+- [How To: Write a C# diagnostic and code fix](https://github.com/dotnet/roslyn/wiki/How-To-Write-a-C%23-Analyzer-and-Code-Fix)  
   
--   [How To: Write a Visual Basic diagnostic and code fix](https://github.com/dotnet/roslyn/wiki/How-To-Write-a-Visual-Basic-Analyzer-and-Code-Fix)  
+- [How To: Write a Visual Basic diagnostic and code fix](https://github.com/dotnet/roslyn/wiki/How-To-Write-a-Visual-Basic-Analyzer-and-Code-Fix)  
   
- Other languages such as C++ also provide light bulbs for some quick actions, such as, a suggestion to create a stub implementation of that function.  
+  Other languages such as C++ also provide light bulbs for some quick actions, such as, a suggestion to create a stub implementation of that function.  
   
- Here's what a light bulb looks like. In a Visual Basic or Visual C# project, a red squiggle appears under a variable name when it's invalid. If you mouse over the invalid identifier, a light bulb appears near the cursor.  
+  Here's what a light bulb looks like. In a Visual Basic or Visual C# project, a red squiggle appears under a variable name when it's invalid. If you mouse over the invalid identifier, a light bulb appears near the cursor.  
   
- ![light bulb](../extensibility/media/lightbulb.png "LightBulb")  
+  ![light bulb](../extensibility/media/lightbulb.png "LightBulb")  
   
- If you click the down arrow by the light bulb, a set of suggested actions appears, along with a preview of the selected action. In this case, it shows the changes that are made to your code if you execute the action.  
+  If you click the down arrow by the light bulb, a set of suggested actions appears, along with a preview of the selected action. In this case, it shows the changes that are made to your code if you execute the action.  
   
- ![light bulb preview](../extensibility/media/lightbulbpreview.png "LightBulbPreview")  
+  ![light bulb preview](../extensibility/media/lightbulbpreview.png "LightBulbPreview")  
   
- You can use light bulbs to provide your own suggested actions. For example, you could provide actions to move opening curly braces to a new line or move them to the end of the preceding line. The following walkthrough shows how to create a light bulb that appears on the current word and has two suggested actions: **Convert to upper case** and **Convert to lower case**.  
+  You can use light bulbs to provide your own suggested actions. For example, you could provide actions to move opening curly braces to a new line or move them to the end of the preceding line. The following walkthrough shows how to create a light bulb that appears on the current word and has two suggested actions: **Convert to upper case** and **Convert to lower case**.  
   
 ## Prerequisites  
  Starting in Visual Studio 2015, you don't install the Visual Studio SDK from the download center. It's included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).  
@@ -360,4 +357,3 @@ Light bulbs are icons in the Visual Studio editor that expand to display a set o
      ![test light bulb, expanded](../extensibility/media/testlightbulbexpanded.gif "TestLIghtBulbExpanded")  
   
 6.  If you click the first action, all the text in the current word should be converted to upper-case. If you click the second action, all the text should be converted to lower-case.  
-  

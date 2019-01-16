@@ -1,9 +1,6 @@
 ---
 title: "IDebugCustomAttributeQuery2::IsCustomAttributeDefined | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugCustomAttributeQuery2::IsCustomAttributeDefined"
@@ -23,13 +20,13 @@ Determines whether a custom attribute exists by name.
   
 ```cpp  
 HRESULT IsCustomAttributeDefined(   
-   LPCOLESTR pszCustomAttributeName  
+   LPCOLESTR pszCustomAttributeName  
 );  
 ```  
   
 ```csharp  
 int IsCustomAttributeDefined(  
-   [In] string pszCustomAttributeName  
+   [In] string pszCustomAttributeName  
 );  
 ```  
   

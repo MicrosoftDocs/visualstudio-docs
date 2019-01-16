@@ -1,9 +1,6 @@
 ---
 title: "IDebugExceptionEvent2::GetExceptionDescription | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugExceptionEvent2::GetExceptionDescription"
@@ -23,13 +20,13 @@ Gets a displayable description of the exception.
   
 ```cpp  
 HRESULT GetExceptionDescription(   
-   BSTR* pbstrDescription  
+   BSTR* pbstrDescription  
 );  
 ```  
   
 ```csharp  
 int GetExceptionDescription(   
-   out string pbstrDescription  
+   out string pbstrDescription  
 );  
 ```  
   

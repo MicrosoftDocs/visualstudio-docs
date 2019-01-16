@@ -1,11 +1,10 @@
 ---
 title: Increase your productivity for .NET development
 description: "An overview of navigation, code analysis, unit testing, and other features to help you write better .NET code faster."
-author: "kuhlenh"
-ms.author: "kaseyu"
+author: kuhlenh
+ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.date: 06/14/2018
 ms.topic: conceptual
 helpviewer_keywords:
@@ -40,18 +39,18 @@ The following are popular Visual Studio shortcuts:
 | **Ctrl**+**.** (also **Alt**+**Enter** in C# Profile) | Quick Actions and Refactorings | See what code fixes, code generation actions, refactorings, or other quick actions are available at your cursor position or code selection |
 | **Ctrl**+**D** | Duplicate line | Duplicates the line of code that the cursor is in (available in **Visual Studio 2017 version 15.6** and later) |
 | **Shift**+**Alt**+**+**/**-** | Expand/Contract selection | Expands or contracts the current selection in the editor (available in **Visual Studio 2017 version 15.5** and later) |
-| **Shift** + **Alt** + **Ins** | Insert Next Matching Caret | Adds a selection and caret at the next location that matches the current selection (available in **Visual Studio 2017 version 15.8** and later) |
+| **Shift** + **Alt** + **.** | Insert Next Matching Caret | Adds a selection and caret at the next location that matches the current selection (available in **Visual Studio 2017 version 15.8** and later) |
 | **Ctrl**+**Q** | Quick Launch | Search all Visual Studio settings |
 | **F5** | Start Debugging | Start debugging your application |
 | **Ctrl**+**F5** | Run without Debug | Run your application locally without debugging |
-| **Ctrl**+**K**,**D** (Default Profile) or **Ctrl**+**E**,**D** (C# Profile) | Format Document | Cleans up formatting violations in your file based on your newline, spacing, and indentation settings |
-| **Ctrl**+**\\**,**E** (Default Profile) or **Ctrl**+**W**,**E** (C# Profile) | View Error List | See all errors in your document, project, or solution |
+| **Ctrl**+**K**,**D** (Default Profile) or **Ctrl**+**E**,**D** (C# Profile) | [Format Document](code-styles-and-quick-actions.md#format-document-command) | Cleans up formatting violations in your file based on your newline, spacing, and indentation settings |
+| **Ctrl**+**\\**,**Ctrl**+**E** (Default Profile) or **Ctrl**+**W**,**E** (C# Profile) | View Error List | See all errors in your document, project, or solution |
 | **Alt** + **PgUp/PgDn** | Go to Next/Previous Issue | Jump to the previous/next error, warning, suggestion in your document (available in **Visual Studio 2017 version 15.8** and later) |
 
 > [!NOTE]
 > Some extensions unbind the default Visual Studio keybindings. To use the above commands, restore your keybindings to Visual Studio's defaults by going to **Tools** > **Import and Export Settings** > **Reset all settings** or **Tools** > **Options** > **Keyboard** > **Reset**.
 
-Learn more keyboard shortcuts and commands in Visual Studio in [our documentation](..\ide\tips-and-tricks-for-visual-studio.md).
+Learn more keyboard shortcuts and commands in Visual Studio in [our documentation](../ide/tips-and-tricks-for-visual-studio.md).
 
 ## I need a way to quickly navigate to files or types
 
@@ -129,7 +128,7 @@ We've added a ton of new debugging capabilities in Visual Studio 2017:
 
 - *Run to click* allows you to hover next to a line of code, hit the green 'play' icon that appears, and run your program until it reaches that line.
 - The new **Exception Helper** puts the most important information, like which variable is 'null' in a NullReferenceException, at the top-level in the dialog.
-- [Step Back](../debugger/how-to-use-intellitrace-step-back.md) debugging enables you to go back to previous breakpoints or steps and view the state of the application as it was in the past.
+- [Step Back](../debugger/view-historical-application-state.md) debugging enables you to go back to previous breakpoints or steps and view the state of the application as it was in the past.
 - [Snapshot debugging](/azure/application-insights/app-insights-snapshot-debugger) lets you investigate the state of a live web application at the moment an exception was thrown (must be on Azure).
 
 ![New Exception Helper in Visual Studio 2017](../ide/media/VSGuide_Debugging.png)
@@ -155,7 +154,7 @@ Here is a list of editor and productivity features to make writing code more eff
 | Enable navigation to decompiled sources | Allow Go To Definition on types/members from external sources and use the ILSpy decompiler to show method bodies | **Tools** > **Options** > **Text Editor** > **C#** > **Advanced** > **Enable navigation to decompiled sources** |
 | Completion/Suggestion Mode | Changes the completion behavior in IntelliSense--developers with IntelliJ backgrounds tend to change the setting here from the default | **Menu** > **Edit** > **IntelliSense** > **Toggle Completion Mode** |
 | [CodeLens](../ide/find-code-changes-and-other-history-with-codelens.md) | Displays code reference information and change history in the editor | **Tools** > **Options** > **Text Editor** > **All Languages** > **CodeLens** |
-| [Code snippets](../ide/visual-csharp-code-snippets.md) | Help stub out common boilerplate |  Type a snippet name and press **Tab** twice. |
+| [Code snippets](../ide/visual-csharp-code-snippets.md) | Help stub out common boilerplate | Type a snippet name and press **Tab** twice. |
 
 ## Missing a feature that makes you productive or experiencing poor performance?
 

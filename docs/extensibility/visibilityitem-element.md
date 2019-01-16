@@ -1,9 +1,6 @@
 ---
 title: "VisibilityItem Element | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "VisibilityItem element (VSCT XML schema)"
@@ -61,8 +58,8 @@ The `VisibilityItem` element determines the static visibility of commands and to
   
 ```xml  
 <VisibilityConstraints>  
-  <VisibilityItem guid="cmdSetGuidMyProductCommands"     id="cmdidAddWidget"  
-    context="guidNotViewSourceMode"/>  
+  <VisibilityItem guid="cmdSetGuidMyProductCommands"     id="cmdidAddWidget"  
+    context="guidNotViewSourceMode"/>  
 </VisibilityConstraints>  
 ```  
   

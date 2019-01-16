@@ -1,9 +1,6 @@
 ---
 title: "IDebugStackFrame2::GetInfo | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugStackFrame2::GetInfo"
@@ -23,17 +20,17 @@ Gets a description of the stack frame.
   
 ```cpp  
 HRESULT GetInfo (   
-   FRAMEINFO_FLAGS dwFieldSpec,  
-   UINT            nRadix,  
-   FRAMEINFO*      pFrameInfo  
+   FRAMEINFO_FLAGS dwFieldSpec,  
+   UINT            nRadix,  
+   FRAMEINFO*      pFrameInfo  
 );  
 ```  
   
 ```csharp  
 int GetInfo (   
-   enum_FRAMEINFO_FLAGS dwFieldSpec,  
-   uint                 nRadix,  
-   FRAMEINFO[]          pFrameInfo  
+   enum_FRAMEINFO_FLAGS dwFieldSpec,  
+   uint                 nRadix,  
+   FRAMEINFO[]          pFrameInfo  
 );  
 ```  
   

@@ -1,9 +1,6 @@
 ---
 title: "IDebugExpressionEvaluator::GetMethodLocationProperty | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugExpressionEvaluator::GetMethodLocationProperty"
@@ -23,21 +20,21 @@ This method converts a method location and offset into a memory address.
   
 ```cpp  
 HRESULT GetMethodLocationProperty(   
-   LPCOLESTR             upstrFullyQualifiedMethodPlusOffset,  
-   IDebugSymbolProvider* pSymbolProvider,  
-   IDebugAddress*        pAddress,  
-   IDebugBinder*         pBinder,  
-   IDebugProperty2**     ppProperty  
+   LPCOLESTR             upstrFullyQualifiedMethodPlusOffset,  
+   IDebugSymbolProvider* pSymbolProvider,  
+   IDebugAddress*        pAddress,  
+   IDebugBinder*         pBinder,  
+   IDebugProperty2**     ppProperty  
 );  
 ```  
   
 ```csharp  
 int GetMethodLocationProperty(  
-   string               upstrFullyQualifiedMethodPlusOffset,   
-   IDebugSymbolProvider pSymbolProvider,   
-   IDebugAddress        pAddress,   
-   IDebugBinder         pBinder,   
-   out IDebugProperty2  ppProperty  
+   string               upstrFullyQualifiedMethodPlusOffset,   
+   IDebugSymbolProvider pSymbolProvider,   
+   IDebugAddress        pAddress,   
+   IDebugBinder         pBinder,   
+   out IDebugProperty2  ppProperty  
 );  
 ```  
   

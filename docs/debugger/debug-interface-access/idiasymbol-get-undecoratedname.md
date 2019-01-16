@@ -1,8 +1,6 @@
 ---
 title: "IDiaSymbol::get_undecoratedName | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves the undecorated name for a C++ decorated, or linkage, name.
   
 ```C++  
 HRESULT get_undecoratedName (   
-   BSTR* pRetVal  
+   BSTR* pRetVal  
 );  
 ```  
   

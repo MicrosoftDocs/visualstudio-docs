@@ -1,13 +1,8 @@
 ---
 title: "Walkthrough: Creating a SharePoint Application Page | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
-  - "VB"
-  - "CSharp"
   - "VB"
   - "CSharp"
 helpviewer_keywords: 
@@ -38,7 +33,7 @@ This walkthrough illustrates the following tasks:
 
 ## Prerequisites
 
-- Supported editions of Windows and SharePoint. For more information, see [Requirements for developing SharePoint solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md).
+- Supported editions of Windows and SharePoint.
 
 ## Create a SharePoint project
 

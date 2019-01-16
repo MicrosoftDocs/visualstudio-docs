@@ -1,8 +1,6 @@
 ---
 title: "IDiaPropertyStorage::ReadLONG | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,8 +20,8 @@ Reads `LONG` values in a property set.
   
 ```C++  
 HRESULT ReadDLONG (   
-   PROPID id,  
-   LONG*  pValue  
+   PROPID id,  
+   LONG*  pValue  
 );  
 ```  
   

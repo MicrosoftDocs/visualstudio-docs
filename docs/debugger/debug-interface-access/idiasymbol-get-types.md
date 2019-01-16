@@ -1,8 +1,6 @@
 ---
 title: "IDiaSymbol::get_types | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,9 +20,9 @@ Retrieves an array of compiler-specific types for this symbol.
   
 ```C++  
 HRESULT get_types (   
-   DWORD       cTypes,  
-   DWORD*      pcTypes,  
-   IDiaSymbol* types[]  
+   DWORD       cTypes,  
+   DWORD*      pcTypes,  
+   IDiaSymbol* types[]  
 );  
 ```  
   

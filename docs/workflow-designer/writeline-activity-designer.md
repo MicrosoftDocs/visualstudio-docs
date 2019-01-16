@@ -3,7 +3,6 @@ title: "Workflow Designer - WriteLine Activity Designer"
 ms.date: 11/04/2016
 ms.topic: reference
 ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 f1_keywords:
   - "System.Activities.Statements.WriteLine.UI"
 ms.assetid: 1b5f29a8-b7fd-477e-949e-2f689cae3c96
@@ -30,7 +29,7 @@ Access the **WriteLine** activity designer in the **Primitives** category of the
 The following table shows the <xref:System.Activities.Statements.WriteLine> properties and describes how they are used in the designer. These properties can be edited in property grid and some of them can be edited on Workflow Designer surface.
 
 |Property Name|Required|Usage|
-|-------------------|--------------|-----------|
+|-|--------------|-|
 |<xref:System.Activities.Activity.DisplayName%2A>|False|The friendly name of the <xref:System.Activities.Statements.WriteLine> activity. The default is WriteLine. Although the <xref:System.Activities.Activity.DisplayName%2A> is not strictly required, it is best practice to use a one.|
 |<xref:System.Activities.Statements.WriteLine.Text%2A>|False|The text to write. To set the property, type a Visual Basic expression in the **Text** box on the **WriteLine** activity designer or in the property grid.|
 |<xref:System.Activities.Statements.WriteLine.TextWriter%2A>|False|The <xref:System.IO.TextWriter> to which the <xref:System.Activities.Statements.WriteLine> writes the <xref:System.Activities.Statements.WriteLine.Text%2A>. The default is the console.|

@@ -1,9 +1,6 @@
 ---
 title: "IDebugSourceServerModule::GetSourceServerData | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugSourceServerModule::GetSourceServerData"
@@ -21,15 +18,15 @@ Retrieves an array of source server information.
   
 ```cpp  
 HRESULT GetSourceServerData(  
-   ULONG* pDataByteCount,   
-   BYTE** ppData  
+   ULONG* pDataByteCount,   
+   BYTE** ppData  
 );  
 ```  
   
 ```csharp  
 public int GetSourceServerData(  
-   out uint  pDataByteCount,   
-   out int[] ppData  
+   out uint  pDataByteCount,   
+   out int[] ppData  
 );  
 ```  
   

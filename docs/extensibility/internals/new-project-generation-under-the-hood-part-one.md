@@ -1,9 +1,6 @@
 ---
 title: "New Project Generation: Under the Hood, Part One | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "projects [Visual Studio], new project dialog"
@@ -165,35 +162,35 @@ devenv /installvstemplates
 #### A Quick Review  
  Let's modify the **New Project** dialog box and create a new user project template.  
   
-1.  Add a MyProjectNode subfolder to the \Program Files\Microsoft Visual Studio 14.0\Common7\IDE\ProjectTemplates\CSharp folder.  
+1. Add a MyProjectNode subfolder to the \Program Files\Microsoft Visual Studio 14.0\Common7\IDE\ProjectTemplates\CSharp folder.  
   
-2.  Create a MyProject.vstdir file in the MyProjectNode folder using any text editor.  
+2. Create a MyProject.vstdir file in the MyProjectNode folder using any text editor.  
   
-3.  Add these lines to the .vstdir file:  
+3. Add these lines to the .vstdir file:  
   
-    ```  
-    <TemplateDir Version="1.0.0">  
-        <SortOrder>6</SortOrder>  
-    </TemplateDir>  
-    ```  
+   ```  
+   <TemplateDir Version="1.0.0">  
+       <SortOrder>6</SortOrder>  
+   </TemplateDir>  
+   ```  
   
-4.  Save and close the .vstdir file.  
+4. Save and close the .vstdir file.  
   
-5.  Create a MyProject.vstemplate file in the MyProjectNode folder using any text editor.  
+5. Create a MyProject.vstemplate file in the MyProjectNode folder using any text editor.  
   
-6.  Add these lines to the .vstemplate file:  
+6. Add these lines to the .vstemplate file:  
   
-    ```  
-    <VSTemplate Version="2.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">  
-        <TemplateData>  
-            <ProjectType>CSharp</ProjectType>  
-        </TemplateData>  
-    </VSTemplate>  
-    ```  
+   ```  
+   <VSTemplate Version="2.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">  
+       <TemplateData>  
+           <ProjectType>CSharp</ProjectType>  
+       </TemplateData>  
+   </VSTemplate>  
+   ```  
   
-7.  Save the.vstemplate file and close the editor.  
+7. Save the.vstemplate file and close the editor.  
   
-8.  Send the .vstemplate file to a new compressed MyProjectNode\MyProject.zip folder.  
+8. Send the .vstemplate file to a new compressed MyProjectNode\MyProject.zip folder.  
   
 9. From the Visual Studio command window, type:  
   
@@ -201,13 +198,13 @@ devenv /installvstemplates
     devenv /installvstemplates  
     ```  
   
- Open Visual Studio.  
+   Open Visual Studio.  
   
-1.  Open the **New Project** dialog box and expand the **Visual C#** project node.  
+10. Open the **New Project** dialog box and expand the **Visual C#** project node.  
   
- ![MyProjectNode](../../extensibility/internals/media/myprojectnode.png "MyProjectNode")  
+    ![MyProjectNode](../../extensibility/internals/media/myprojectnode.png "MyProjectNode")  
   
- **MyProjectNode** appears as a child node of Visual C# just under the Windows node.  
+    **MyProjectNode** appears as a child node of Visual C# just under the Windows node.  
   
 ## See Also  
  [New Project Generation: Under the Hood, Part Two](../../extensibility/internals/new-project-generation-under-the-hood-part-two.md)

@@ -1,9 +1,6 @@
 ---
 title: "IDebugPortSupplierLocale2::SetLocale | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugPortSupplierLocale2::SetLocale"
@@ -21,13 +18,13 @@ Sets the locale for the port supplier.
   
 ```cpp  
 HRESULT SetLocale(  
-   WORD wLangID  
+   WORD wLangID  
 );  
 ```  
   
 ```csharp  
 int SetLocale(  
-   ushort wLangID  
+   ushort wLangID  
 );  
 ```  
   

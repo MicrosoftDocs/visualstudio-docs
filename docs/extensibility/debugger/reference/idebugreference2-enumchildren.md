@@ -1,9 +1,6 @@
 ---
 title: "IDebugReference2::EnumChildren | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugReference2::EnumChildren"
@@ -23,23 +20,23 @@ Get a list of selected children of a reference. Reserved for future use.
   
 ```cpp  
 HRESULT EnumChildren (   
-   DEBUGREF_INFO_FLAGS        dwFields,  
-   DWORD                      dwRadix,  
-   DBG_ATTRIB_FLAGS           dwAttribFilter,  
-   LPCOLESTR                  pszNameFilter,  
-   DWORD                      dwTimeout,  
-   IEnumDebugReferenceInfo2** ppEnum  
+   DEBUGREF_INFO_FLAGS        dwFields,  
+   DWORD                      dwRadix,  
+   DBG_ATTRIB_FLAGS           dwAttribFilter,  
+   LPCOLESTR                  pszNameFilter,  
+   DWORD                      dwTimeout,  
+   IEnumDebugReferenceInfo2** ppEnum  
 );  
 ```  
   
 ```csharp  
 int EnumChildren (   
-   enum_DEBUGREF_INFO_FLAGS     dwFields,  
-   uint                         dwRadix,  
-   enum_DBG_ATTRIB_FLAGS        dwAttribFilter,  
-   string                       pszNameFilter,  
-   uint                         dwTimeout,  
-   out IEnumDebugReferenceInfo2 ppEnum  
+   enum_DEBUGREF_INFO_FLAGS     dwFields,  
+   uint                         dwRadix,  
+   enum_DBG_ATTRIB_FLAGS        dwAttribFilter,  
+   string                       pszNameFilter,  
+   uint                         dwTimeout,  
+   out IEnumDebugReferenceInfo2 ppEnum  
 );  
 ```  
   

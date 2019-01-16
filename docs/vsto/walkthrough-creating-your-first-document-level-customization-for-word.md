@@ -1,9 +1,6 @@
 ---
 title: "Walkthrough: Create your first document-level customization for Word"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -25,17 +22,17 @@ ms.workload:
   
  This walkthrough illustrates the following tasks:  
   
--   Creating a Word document project.  
+- Creating a Word document project.  
   
--   Adding text to the document that is hosted in the Visual Studio designer.  
+- Adding text to the document that is hosted in the Visual Studio designer.  
   
--   Writing code that uses the object model of Word to add text to the customized document when it is opened.  
+- Writing code that uses the object model of Word to add text to the customized document when it is opened.  
   
--   Building and running the project to test it.  
+- Building and running the project to test it.  
   
--   Cleaning up the project to remove unnecessary build files and security settings from your development computer.  
+- Cleaning up the project to remove unnecessary build files and security settings from your development computer.  
   
- [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
+  [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
   
 ## Prerequisites  
  You need the following components to complete this walkthrough:  
@@ -161,5 +158,3 @@ ms.workload:
  [Build Office solutions](../vsto/building-office-solutions.md)   
  [Deploy an Office solution](../vsto/deploying-an-office-solution.md)   
  [Office project templates overview](../vsto/office-project-templates-overview.md)  
-  
-  

@@ -1,9 +1,6 @@
 ---
 title: "Adding a Most Recently Used List to a Submenu | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "MRU lists"
@@ -32,9 +29,9 @@ This walkthrough builds on the demonstrations in [Add a submenu to a menu](../ex
   
 ## Create an extension  
   
--   Follow the procedures in [Adding a submenu to a menu](../extensibility/adding-a-submenu-to-a-menu.md) to create the submenu that is modified in the following procedures.  
+- Follow the procedures in [Adding a submenu to a menu](../extensibility/adding-a-submenu-to-a-menu.md) to create the submenu that is modified in the following procedures.  
   
- The procedures in this walkthrough assume that the name of the VSPackage is `TopLevelMenu`, which is the name that is used in [Add a menu to the Visual Studio menu bar](../extensibility/adding-a-menu-to-the-visual-studio-menu-bar.md).  
+  The procedures in this walkthrough assume that the name of the VSPackage is `TopLevelMenu`, which is the name that is used in [Add a menu to the Visual Studio menu bar](../extensibility/adding-a-menu-to-the-visual-studio-menu-bar.md).  
   
 ## Create a dynamic item list command  
   

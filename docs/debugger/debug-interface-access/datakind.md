@@ -1,8 +1,6 @@
 ---
 title: "DataKind | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,16 +20,16 @@ Indicates the particular scope of a data value.
   
 ```C++  
 enum DataKind {   
-   DataIsUnknown,  
-   DataIsLocal,  
-   DataIsStaticLocal,  
-   DataIsParam,  
-   DataIsObjectPtr,  
-   DataIsFileStatic,  
-   DataIsGlobal,  
-   DataIsMember,  
-   DataIsStaticMember,  
-   DataIsConstant  
+   DataIsUnknown,  
+   DataIsLocal,  
+   DataIsStaticLocal,  
+   DataIsParam,  
+   DataIsObjectPtr,  
+   DataIsFileStatic,  
+   DataIsGlobal,  
+   DataIsMember,  
+   DataIsStaticMember,  
+   DataIsConstant  
 };  
 ```  
   

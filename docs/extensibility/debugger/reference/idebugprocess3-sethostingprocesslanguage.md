@@ -1,9 +1,6 @@
 ---
 title: "IDebugProcess3::SetHostingProcessLanguage | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProcess3::SetHostingProcessLanguage"
@@ -23,13 +20,13 @@ This method sets the language that the process will be hosted under. This langua
   
 ```cpp  
 HRESULT SetHostingProcessLanguage(  
-   REFGUID guidLang  
+   REFGUID guidLang  
 );  
 ```  
   
 ```csharp  
 int SetHostingProcessLanguage(  
-   ref Guid guidLang  
+   ref Guid guidLang  
 );  
 ```  
   

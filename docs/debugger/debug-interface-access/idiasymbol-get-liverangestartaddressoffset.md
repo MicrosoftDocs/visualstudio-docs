@@ -1,8 +1,6 @@
 ---
 title: "IDiaSymbol::get_liveRangeStartAddressOffset | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Returns the offset part of the starting address of the range in which the local 
   
 ```C++  
 HRESULT get_liveRangeStartAddressOffset (   
-   DWORD* offset  
+   DWORD* offset  
 );  
 ```  
   

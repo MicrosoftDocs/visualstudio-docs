@@ -1,9 +1,6 @@
 ---
 title: "IDebugProgramNode2::GetHostPid | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProgramNode2::GetHostPid"
@@ -23,13 +20,13 @@ Gets the system process identifier for the process hosting the program.
   
 ```cpp  
 HRESULT GetHostPid (   
-   AD_PROCESS_ID * pdwHostPid  
+   AD_PROCESS_ID * pdwHostPid  
 );  
 ```  
   
 ```csharp  
 int GetHostPid (   
-   out AD_PROCESS_ID pdwHostPid  
+   out AD_PROCESS_ID pdwHostPid  
 );  
 ```  
   

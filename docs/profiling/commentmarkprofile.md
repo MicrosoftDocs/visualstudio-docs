@@ -1,8 +1,6 @@
 ---
 title: "CommentMarkProfile | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "CommentMarkProfile"
@@ -21,8 +19,8 @@ The `CommentMarkProfile` function inserts a numeric marker and a text string in 
   
 ```cpp  
 PROFILE_COMMAND_STATUS PROFILERAPI CommentMarkProfile(  
-                                   long lMarker,   
-                                   LPCTSTR szComment);  
+                                   long lMarker,   
+                                   LPCTSTR szComment);  
 ```  
   
 #### Parameters  

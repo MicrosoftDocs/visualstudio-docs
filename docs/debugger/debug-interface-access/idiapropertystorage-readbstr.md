@@ -1,8 +1,6 @@
 ---
 title: "IDiaPropertyStorage::ReadBSTR | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,8 +20,8 @@ Reads `BSTR` values in a property set.
   
 ```C++  
 HRESULT ReadBSTR (   
-   PROPID id,  
-   BSTR*  pValue  
+   PROPID id,  
+   BSTR*  pValue  
 );  
 ```  
   

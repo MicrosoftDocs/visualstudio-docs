@@ -1,9 +1,6 @@
 ---
 title: "IDebugComPlusSymbolProvider2::LoadSymbolsFromCallback | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "LoadSymbolsFromCallback"
@@ -22,25 +19,25 @@ Loads debug symbols using the specified callback method.
   
 ```cpp  
 HRESULT LoadSymbolsFromCallback(  
-   ULONG32   ulAppDomainID,  
-   GUID      guidModule,  
-   IUnknown* pUnkMetadataImport,  
-   IUnknown* pUnkCorDebugModule,  
-   BSTR      bstrModuleName,  
-   BSTR      bstrSymSearchPath,  
-   IUnknown* pCallback  
+   ULONG32   ulAppDomainID,  
+   GUID      guidModule,  
+   IUnknown* pUnkMetadataImport,  
+   IUnknown* pUnkCorDebugModule,  
+   BSTR      bstrModuleName,  
+   BSTR      bstrSymSearchPath,  
+   IUnknown* pCallback  
 );  
 ```  
   
 ```csharp  
 int LoadSymbolsFromCallback(  
-   uint   ulAppDomainID,  
-   Guid   guidModule,  
-   object pUnkMetadataImport,  
-   object pUnkCorDebugModule,  
-   string bstrModuleName,  
-   string bstrSymSearchPath,  
-   object pCallback  
+   uint   ulAppDomainID,  
+   Guid   guidModule,  
+   object pUnkMetadataImport,  
+   object pUnkCorDebugModule,  
+   string bstrModuleName,  
+   string bstrSymSearchPath,  
+   object pCallback  
 );  
 ```  
   

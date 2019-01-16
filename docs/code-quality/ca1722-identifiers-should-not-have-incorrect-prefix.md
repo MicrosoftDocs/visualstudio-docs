@@ -2,7 +2,6 @@
 title: "CA1722: Identifiers should not have incorrect prefix"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "IdentifiersShouldNotHaveIncorrectPrefix"
@@ -18,6 +17,7 @@ ms.workload:
   - "multiple"
 ---
 # CA1722: Identifiers should not have incorrect prefix
+
 |||
 |-|-|
 |TypeName|IdentifiersShouldNotHaveIncorrectPrefix|
@@ -28,18 +28,18 @@ ms.workload:
 ## Cause
  An identifier has an incorrect prefix.
 
-## Rule Description
+## Rule description
  By convention, only certain programming elements have names that begin with a specific prefix.
 
  Type names do not have a specific prefix and should not be prefixed with a 'C'. This rule reports violations for type names such as 'CMyClass' and does not report violations for type names such as 'Cache'.
 
- Naming conventions provide a common look for libraries that target the common language runtime. This reduces the learning curve that is required for new software libraries, and increases customer confidence that the library was developed by someone who has expertise in developing managed code.
+ Naming conventions provide a common look for libraries that target the common language runtime. This consistency reduces the learning curve that's required for new software libraries and increases customer confidence that the library was developed by someone who has expertise in developing managed code.
 
-## How to Fix Violations
+## How to fix violations
  Remove the prefix from the identifier.
 
-## When to Suppress Warnings
+## When to suppress warnings
  Do not suppress a warning from this rule.
 
-## Related Rules
+## Related rules
  [CA1715: Identifiers should have correct prefix](../code-quality/ca1715-identifiers-should-have-correct-prefix.md)

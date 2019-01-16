@@ -1,9 +1,6 @@
 ---
 title: "DISASSEMBLY_FLAGS | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "DISASSEMBLY_FLAGS"
@@ -23,24 +20,24 @@ Specifies the flags for disassembly.
   
 ```cpp  
 enum enum_DISASSEMBLY_FLAGS {   
-   DF_DOCUMENTCHANGE     = 0x00000001,  
-   DF_DISABLED           = 0x00000002,  
-   DF_INSTRUCTION_ACTIVE = 0x00000004,  
-   DF_DATA               = 0x00000008,  
-   DF_HASSOURCE          = 0x00000010,  
-   DF_DOCUMENT_CHECKSUM  = 0x00000020  
+   DF_DOCUMENTCHANGE     = 0x00000001,  
+   DF_DISABLED           = 0x00000002,  
+   DF_INSTRUCTION_ACTIVE = 0x00000004,  
+   DF_DATA               = 0x00000008,  
+   DF_HASSOURCE          = 0x00000010,  
+   DF_DOCUMENT_CHECKSUM  = 0x00000020  
 };  
 typedef DWORD DISASSEMBLY_FLAGS;  
 ```  
   
 ```csharp  
 public enum enum_DISASSEMBLY_FLAGS {   
-   DF_DOCUMENTCHANGE     = 0x00000001,  
-   DF_DISABLED           = 0x00000002,  
-   DF_INSTRUCTION_ACTIVE = 0x00000004,  
-   DF_DATA               = 0x00000008,  
-   DF_HASSOURCE          = 0x00000010,  
-   DF_DOCUMENT_CHECKSUM  = 0x00000020  
+   DF_DOCUMENTCHANGE     = 0x00000001,  
+   DF_DISABLED           = 0x00000002,  
+   DF_INSTRUCTION_ACTIVE = 0x00000004,  
+   DF_DATA               = 0x00000008,  
+   DF_HASSOURCE          = 0x00000010,  
+   DF_DOCUMENT_CHECKSUM  = 0x00000020  
 };  
 ```  
   

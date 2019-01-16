@@ -1,8 +1,7 @@
 ---
-title: "Remote debugging in Visual Studio | Microsoft Docs"
-ms.custom: "remotedebugging"
+title: "Remote debugging | Microsoft Docs"
+ms.custom: ['remotedebugging', 'seodec18']
 ms.date: "07/02/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.debug.remote.overview"
@@ -41,47 +40,6 @@ If you just want to download and install the remote debugger and don't need any 
 ## Download and Install the remote tools
 
 [!INCLUDE [remote-debugger-download](../debugger/includes/remote-debugger-download.md)]
-
-## <a name="unblock_msvsmon"></a> Unblock the download of the remote tools on Windows Server
-
-The default security settings in Internet Explorer on Windows Server can make it time-consuming to download components such as the remote tools.
-
-* Enhanced Security Configuration is enabled on Internet Explorer, which prevents you from opening websites and accessing web resources unless the domain containing the resource is explicitly allowed (that is, trusted). Although you can disable this setting, we do not recommend it because it can presents a security risk.
-
-* On Windows Server 2016, a default setting in **Internet Options** > **Security** > **Internet** > **Custom Level** > **Downloads** also disables file downloads. If you choose to download the remote tools directly on Windows Server, you must enable file download.
-
-To download the tools on Windows Server, we recommend one of the following:
-
-* Download the remote tools on a different computer such as the one running Visual Studio, and then copy the *.exe* file to Windows Server.
-
-* Run the remote debugger [from a file share](#fileshare_msvsmon) on your Visual Studio machine.
-
-* Download the remote tools directly on Windows Server and accept the prompts to add trusted sites. Modern websites often include many third-party resources, so this can result in a lot of prompts. In addition, any redirected links may need to be added manually. You can choose to add some of the trusted sites before beginning the download. Go to **Internet Options > Security > Trusted Sites > Sites** and add the following sites.
-
-  * visualstudio.microsoft.com
-  * download.visualstudio.microsoft.com
-  * about:blank
-
-  For older versions of the debugger on my.visualstudio.com, add these additional sites to make sure that login is successful:
-
-  * microsoft.com
-  * go.microsoft.com
-  * download.microsoft.com
-  * my.visualstudio.com
-  * login.microsoftonline.com
-  * login.live.com
-  * secure.aadcdn.microsoftonline-p.com
-  * msft.sts.microsoft.com
-  * auth.gfx.ms
-  * app.vssps.visualstudio.com
-  * vlscppe.microsoft.com
-  * query.prod.cms.rt.microsoft.com
-
-    If you choose to add these domains while downloading the remote tools, then choose **Add** when prompted.
-
-    ![Blocked content dialog box](../debugger/media/remotedbg-blocked-content.png)
-
-    When you download the software, you get some additional requests to grant permission to load various web site scripts and resources. On my.visualstudio.com, we recommend that you add the additional domains to make sure that login is successful.
 
 ## <a name="requirements_msvsmon"></a> Requirements
 
@@ -130,25 +88,25 @@ For debugging in ASP.NET and other server environments, you must either run the 
 
  If you want to configure the remote debugger as a service, follow these steps.
 
-1.  Find the **Remote Debugger Configuration Wizard** (rdbgwiz.exe). (This is a separate application from the Remote Debugger.) It is available only when you install the remote tools. It is not installed with Visual Studio.
+1. Find the **Remote Debugger Configuration Wizard** (rdbgwiz.exe). (This is a separate application from the Remote Debugger.) It is available only when you install the remote tools. It is not installed with Visual Studio.
 
-2.  Start running the configuration wizard. When the first page comes up, click **Next**.
+2. Start running the configuration wizard. When the first page comes up, click **Next**.
 
-3.  Check the **Run the Visual Studio 2015 Remote Debugger as a service** checkbox.
+3. Check the **Run the Visual Studio 2015 Remote Debugger as a service** checkbox.
 
-4.  Add the name of the user account and password.
+4. Add the name of the user account and password.
 
-     You may need to add the **Log on as a service** user right to this account (Find **Local Security Policy** (secpol.msc) in the **Start** page or window (or type **secpol** at a command prompt). When the window appears, double-click **User Rights Assignment**, then find **Log on as a service** in the right pane. Double-click it. Add the user account to the **Properties** window and click **OK**). Click **Next**.
+    You may need to add the **Log on as a service** user right to this account (Find **Local Security Policy** (secpol.msc) in the **Start** page or window (or type **secpol** at a command prompt). When the window appears, double-click **User Rights Assignment**, then find **Log on as a service** in the right pane. Double-click it. Add the user account to the **Properties** window and click **OK**). Click **Next**.
 
-5.  Select the type of network that you want the remote tools to communicate with. At least one network type must be selected. If the computers are connected through a domain, you should choose the first item. If the computers are connected through a workgroup or homegroup, you should choose the second or third items. Click **Next**.
+5. Select the type of network that you want the remote tools to communicate with. At least one network type must be selected. If the computers are connected through a domain, you should choose the first item. If the computers are connected through a workgroup or homegroup, you should choose the second or third items. Click **Next**.
 
-6.  If the service can be started, you will see **You have successfully completed the Visual Studio Remote Debugger Configuration Wizard**. If the service cannot be started, you will see **Failed to complete the Visual Studio Remote Debugger Configuration Wizard**. The page also gives some tips to follow to get the service to start.
+6. If the service can be started, you will see **You have successfully completed the Visual Studio Remote Debugger Configuration Wizard**. If the service cannot be started, you will see **Failed to complete the Visual Studio Remote Debugger Configuration Wizard**. The page also gives some tips to follow to get the service to start.
 
-7.  Click **Finish**.
+7. Click **Finish**.
 
- At this point the remote debugger is running as a service. You can verify this by going to **Control Panel > Services** and looking for **Visual Studio 2015 Remote Debugger**.
+   At this point the remote debugger is running as a service. You can verify this by going to **Control Panel > Services** and looking for **Visual Studio 2015 Remote Debugger**.
 
- You can stop and start the remote debugger service from **Control Panel > Services**.
+   You can stop and start the remote debugger service from **Control Panel > Services**.
 
 ## Set Up Debugging with Remote Symbols
 
@@ -156,7 +114,7 @@ For debugging in ASP.NET and other server environments, you must either run the 
 
 ## See also
 
-- [Debugger Feature Tour](../debugger/debugger-feature-tour.md)
+- [First look at the debugger](../debugger/debugger-feature-tour.md)
 - [Configure the Windows Firewall for Remote Debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md)
 - [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md)
 - [Remote Debugging ASP.NET Core on a Remote IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md)

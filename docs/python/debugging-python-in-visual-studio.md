@@ -1,13 +1,13 @@
 ---
-title: Debugging Python code
-description: A walkthrough of the debugging features in Visual Studio specifically for Python code, including setting breakpoints, stepping, inspecting values, looking at exceptions, and debugging in the interactive window.
-ms.date: 07/13/2018
+title: Debug Python code
+description: Visual Studio provide rich debugging for Python code, including setting breakpoints, stepping, inspecting values, looking at exceptions, and debugging in the interactive window.
+ms.date: 01/07/2019
 ms.prod: visual-studio-dev15
-ms.technology: vs-python
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
 manager: douge
+ms.custom: seodec18
 ms.workload:
   - python
   - data-science
@@ -20,7 +20,6 @@ Visual Studio provides a comprehensive debugging experience for Python, includin
 Also see the following scenario-specific debugging articles:
 
 - [Linux remote debugging](debugging-python-code-on-remote-linux-machines.md)
-- [Azure remote debugging](debugging-remote-python-code-on-azure.md)
 - [Mixed-mode Python/C++ debugging](debugging-mixed-mode-c-cpp-python-in-visual-studio.md)
 - [Symbols for mixed-mode debugging](debugging-symbols-for-mixed-mode-c-cpp-python.md)
 
@@ -50,7 +49,7 @@ A debugging session starts with the **Debug** > **Start Debugging** command, the
 
 Breakpoints stop execution of code at a marked point so you can inspect the program state. Set breakpoints by clicking in the left margin of the code editor or by right-clicking a line of code and selecting **Breakpoint** > **Insert Breakpoint**. A red dot appears on each line with a breakpoint.
 
-![Breakpoints in Visual Studio](media/debugging-breakpoints.png)
+![Breakpoints appearing in Visual Studio](media/debugging-breakpoints.png)
 
 Clicking the red dot or right-clicking the line of code and selecting **Breakpoint** > **Delete Breakpoint** removes the breakpoint. You can also disable it without removing it using the **Breakpoint** > **Disable Breakpoint** command.
 
@@ -75,35 +74,35 @@ Once stopped at a breakpoint, you have various ways to step through code or run 
 | **Step Out** | **Shift**+**F11** | Runs code until the end of the current function, then steps to the calling statement.  This command is useful when you don't need to debug the remainder of the current function. |
 | **Run to Cursor** | **Ctrl**+**F10** | Runs code up to the location of the caret in the editor. This command allows you to easily skip over a segment of code that you don't need to debug. |
 | **Set Next Statement** | **Ctrl**+**Shift**+**F10** | Changes the current run point in the code to the location of the  caret. This command allows you to omit a segment of code from being run at all, such as when you know the code is faulty or produces an unwanted side-effect. |
-| **Show Next Statement** | **Alt**+**Num**+**&#42;**| Returns you to the next statement to run. This command is helpful if you've been looking around in your code and don't remember where the debugger is stopped. |
+| **Show Next Statement** | **Alt**+**Num** **&#42;**| Returns you to the next statement to run. This command is helpful if you've been looking around in your code and don't remember where the debugger is stopped. |
 
 ### Inspect and modify values
 
-When stopped in the debugger, you can inspect and modify the values of variables. You can also use the **Watch** window to monitor individual variables as well as custom expressions. (See [Inspect variables](../debugger/getting-started-with-the-debugger.md#inspect-variables-with-the-autos-and-locals-windows) for general details.)
+When stopped in the debugger, you can inspect and modify the values of variables. You can also use the **Watch** window to monitor individual variables as well as custom expressions. (See [Inspect variables](../debugger/debugger-feature-tour.md#inspect-variables-with-the-autos-and-locals-windows) for general details.)
 
 To view a value using **DataTips**, simply hover the mouse over any variable in the editor. You can click on the value to change it:
 
-![DataTips in the debugger](media/debugging-quick-tips.png)
+![DataTips showing in the Visual Studio debugger](media/debugging-quick-tips.png)
 
 The **Autos** window (**Debug** > **Windows** > **Autos**) contains variables and expressions that are close to the current statement. You can double-click in the value column or select and press **F2** to edit the value:
 
-![Autos window in the debugger](media/debugging-autos-window.png)
+![Autos window in the Visual Studio debugger](media/debugging-autos-window.png)
 
 The **Locals** window (**Debug** > **Windows** > **Locals**) displays all variables that are in the current scope, which can again be edited:
 
-![Locals window in the debugger](media/debugging-locals-window.png)
+![Locals window in the Visual Studio debugger](media/debugging-locals-window.png)
 
 For more on using **Autos** and **Locals**, see [Inspect variables in the Autos and Locals windows](../debugger/autos-and-locals-windows.md).
 
 The **Watch** windows (**Debug** > **Windows** > **Watch** > **Watch 1-4**) allow you to enter arbitrary Python expressions and view the results. Expressions are reevaluated for each step:
 
-![Watch window in the debugger](media/debugging-watch-window.png)
+![Watch window in the Visual Studio debugger](media/debugging-watch-window.png)
 
 For more on using **Watch**, see [Set a watch on variables using the Watch and QuickWatch windows](../debugger/watch-and-quickwatch-windows.md).
 
 When inspecting a string value(`str`, `unicode`, `bytes`, and `bytearray` are all considered strings for this purpose), a magnifying glass icon appears on the right side of the value. Clicking the icon displays the unquoted string value in a popup dialog, with wrapping and scrolling, which is useful for long strings. In addition, selecting the drop-down arrow on the icon allows you to select plain text, HTML, XML, and JSON visualizations:
 
-![String visualizers](media/debugging-string-visualizers.png)
+![String visualizers in the Visual Studio debugger](media/debugging-string-visualizers.png)
 
 HTML, XML, and JSON visualizations appear in separate popup windows with syntax highlighting and tree views.
 
@@ -111,13 +110,13 @@ HTML, XML, and JSON visualizations appear in separate popup windows with syntax 
 
 If an error occurs in your program during debugging, but you don't have an exception handler for it, the debugger breaks at the point of the exception:
 
-![Exception popup](media/debugging-exception-popup.png)
+![Exception popup in the Visual Studio debugger](media/debugging-exception-popup.png)
 
 At this point you can inspect the program state, including the call stack. However, if you attempt to step through the code, the exception continues being thrown until it is either handled or your program exits.
 
 The **Debug** > **Windows** > **Exception Settings** menu command brings up a window in which you can expand **Python Exceptions**:
 
-![Exceptions window](media/debugging-exception-settings.png)
+![Exceptions window in the Visual Studio debugger](media/debugging-exception-settings.png)
 
 The checkbox for each exception controls whether the debugger *always* breaks when it is raised. Check this box when you want to break more often for a particular exception.
 
@@ -129,7 +128,7 @@ To configure an exception that does not appear in this list, click the **Add** b
 
 By default, the debugger starts your program with the standard Python launcher, no command-line arguments, and no other special paths or conditions. Startup options are changed through the project's debug properties accessed by right-clicking your project in **Solution Explorer**, selecting **Properties**, and selecting the **Debug** tab.
 
-![Project debug properties](media/debugging-project-properties.png)
+![Project debug properties in the Visual Studio debugger](media/debugging-project-properties.png)
 
 ### Launch mode options
 
@@ -144,11 +143,11 @@ By default, the debugger starts your program with the standard Python launcher, 
 
 | Option | Description |
 | --- | --- |
-| **Search Paths** | These values match what's shown in the project's Search Paths node in **Solution Explorer**. You can modify this value here, but it's easier to use **Solution Explorer** that lets you browse folders and automatically converts paths to relative form. |
+| **Search Paths** | These values match what's shown in the project's **Search Paths** node in **Solution Explorer**. You can modify this value here, but it's easier to use **Solution Explorer** that lets you browse folders and automatically converts paths to relative form. |
 | **Script Arguments** | These arguments are added to the command used to launch your script, appearing after your script's filename. The first item here is available to your script as `sys.argv[1]`, the second as `sys.argv[2]`, and so on. |
 | **Interpreter Arguments** | These arguments are added to the launcher command line before the name of your script. Common arguments here are `-W ...` to control warnings, `-O` to slightly optimize your program, and `-u` to use unbuffered IO. IronPython users are likely to use this field to pass `-X` options, such as `-X:Frames` or `-X:MTA`. |
 | **Interpreter Path** | Overrides the path associated with the current environment. The value may be useful for launching your script with a non-standard interpreter. |
-| **Environment Variables** | In this multi-line text box, add entries of the form \<NAME>=\<VALUE>. Because this setting is applied last, on top of any existing global environment variables, and after `PYTHONPATH` is set according to the Search Paths setting, it can be used to manually override any of those other variables. |
+| **Environment Variables** | In this multi-line text box, add entries of the form \<NAME>=\<VALUE>. Because this setting is applied last, on top of any existing global environment variables, and after `PYTHONPATH` is set according to the **Search Paths** setting, it can be used to manually override any of those other variables. |
 
 ## Immediate and Interactive windows
 
@@ -187,48 +186,80 @@ The **Debug Interactive** window has its own set of options, which you can acces
 
 ![Debug Interactive Window Options](media/debugging-interactive-options.png)
 
-## Use the experimental debugger
+<a name="use-the-experimental-debugger"></a>
 
-Starting with Visual Studio 2017 Preview 4.0, you can opt into using the "experimental debugger", which is based on ptvsd version 4.1+. To opt in, select the **Tools** > **Options** menu command, then navigate to **Python** > **Experimental** in the Options dialog box and select **Use experimental debugger**.
+## Use the legacy debugger
 
-The experimental debugger is compatible with only limited Python environments, as described in the following table:
+Visual Studio 2017 versions 15.8 and later use a debugger based on ptvsd version 4.1+. This version of ptvsd is compatible with Python 2.7 and Python 3.5+. If you're using Python 2.6, 3.1 to 3.4, or IronPython, Visual Studio shows the error, **Debugger does not support this Python environment**:
 
-| Python version | Compatible with the experimental debugger |
-| --- | --- |
-| 2.6 | No |
-| 2.7 | Yes |
-| 3.1 to 3.4 | No |
-| 3.5 and later | Yes |
-| IronPython | No |
+![Debugger does not support this Python environment error when using the debugger](media/debugging-experimental-incompatible-error.png)
 
-If you attempt to use the experimental debugger with an incompatible environment, Visual Studio shows the error, **Debugger is incompatible with this environment**:
+In these cases you must use the older debugger (which is the default in Visual Studio 2017 versions 15.7 and earlier). Select the **Tools** > **Options** menu command, navigate to **Python** > **Debugging**, and select the **Use legacy debugger** option.
 
-![Debugger is incompatible with this environment error when using the experimental debugger](media/debugging-experimental-incompatible-error.png)
+If you've installed an older version of ptvsd in the current environment (such as an earlier 4.0.x version, or a 3.x version required for remote debugging), Visual Studio may show an error or warning.
 
-Select the **Disable the experimental debugger** command, which clears the **Use experimental debugger** option.
+The error, **Debugger package could not be loaded**, appears when you've installed ptvsd 3.x:
 
-> [!Note]
-> The warning is not presently shown for Python 3.3 and 3.4.
+![Debugger package could not be loaded error when using the debugger](media/debugging-experimental-version-error.png)
 
-If you've installed an older version of ptvsd in the current environment (such as an earlier 4.0.x version of a 3.x version required for remote debugging), Visual Studio shows either the error **Debugger package could not be loaded**, or the warning, **Debugger package is outdated**:
+In this case, select **Use the legacy debugger** to set the **Use legacy debugger** option, and restart the debugger.
 
-![Debugger package could not be loaded error when using the experimental debugger](media/debugging-experimental-version-error.png)
+The warning, **Debugger package is outdated**, appears when you've installed an earlier 4.x version of ptvsd:
 
-![Debugger package is outdated warning when using the experimental debugger](media/debugging-experimental-version-warning.png)
-
-To manage your ptvsd installation, use the  **Packages** tab in the **Python Environments** window, or use the following commands from the command line:
-
-```powershell
-# Uninstalling ptvsd causes VS to default to its bundled 4.1.x version.
-pip uninstall ptvsd
-
-# Upgrading ptvsd gives you the latest version, which may be newer than the bundled version.
-# -pre is required to allow pre-release versions as currently required by the experimental debugger.
-pip install --upgrade ptvsd -pre
-```
+![Debugger package is outdated warning when using the debugger](media/debugging-experimental-version-warning.png)
 
 > [!Important]
 > Although you may choose to ignore the warning for some versions of ptvsd, Visual Studio may not work correctly.
+
+To manage your ptvsd installation:
+
+1. Navigate to the **Packages** tab in the **Python Environments** window.
+
+1. Enter "ptvsd" in the search box and examine the installed version of ptvsd:
+
+    ![Checking the ptvsd version in the Python Environments window](media/debugging-experimental-check-ptvsd.png)
+
+1. If the version is lower than 4.1.1a9 (the version bundled with Visual Studio), select the **X** to the right of the package to uninstall the older version. Visual Studio then uses its bundled version. (You can also uninstall from PowerShell using `pip uninstall ptvsd`.)
+
+1. Alternately, you can update the ptvsd package to its newest version by following the instructions in the [Troubleshooting](#troubleshooting) section.
+
+## Troubleshooting
+
+If you have issues with the debugger, first upgrade your version of ptvsd as follows:
+
+1. Navigate to the **Packages** tab in the **Python Environments** window.
+
+1. Enter `ptvsd --upgrade` in the search box, then select **Run command: pip install ptvsd --upgrade**. (You can also use the same command from PowerShell.)
+
+    ![Giving the ptvsd upgrade command in the Python Environments window](media/debugging-experimental-upgrade-ptvsd.png)
+
+If issues persist, please file an issue on the [PTVS GitHub repository](https://github.com/Microsoft/ptvs/issues).
+
+### Enable debugger logging
+
+In the course of investigating a debugger issue, Microsoft may ask you to enable and collect debugger logs that help in diagnosis.
+
+The following steps enable debugging in the current Visual Studio session:
+
+1. Open a command window in Visual Studio using the **View** > **Other Windows** > **Command Window** menu command.
+
+1. Enter the following command:
+
+    ```ps
+    DebugAdapterHost.Logging /On
+    ```
+
+1. Start debugging and go through whatever steps are necessary to reproduce your issue. During this time, debug logs appear in the **Output** window under **Debug Adapter Host Log**. You can then copy the logs from that window and paste into a GitHub issue, email, etc.
+
+    ![Debugger logging output in the Output window](media/debugger-logging-output.png)
+
+1. If Visual Studio hangs or you are otherwise not able to access the **Output** window, restart Visual Studio, open a command window, and enter the following command:
+
+    ```ps
+    DebugAdapterHost.Logging /On /OutputWindow
+    ```
+
+1. Start debugging and reproduce your issue again. The debugger logs can then be found in `%temp%\DebugAdapterHostLog.txt`.
 
 ## See also
 

@@ -1,9 +1,8 @@
 ---
-title: "Get started debugging in VS 2017"
+title: "Debug apps using Visual Studio"
 description: "Get started debugging applications using the Visual Studio debugger"
 ms.custom: "mvc"
-ms.date: "06/15/2018"
-ms.technology: "vs-ide-debug"
+ms.date: "01/09/2019"
 ms.topic: "quickstart"
 helpviewer_keywords:
   - "debugger"
@@ -180,9 +179,9 @@ In this example, the **Exception Helper** shows you a `System.Argument` exceptio
 
 In this example, the `DirectoryInfo` call gave the error on the empty string stored in the `value` variable.
 
-The Exception Helper is a great feature that can help you debug errors. You can also do things like view error details and add a watch from the Exception Helper. Or, if needed, you can change conditions for throwing the particular exception.
+The Exception Helper is a great feature that can help you debug errors. You can also do things like view error details and add a watch from the Exception Helper. Or, if needed, you can change conditions for throwing the particular exception. For more information on how to handle exceptions in your code, see [Fix bugs by writing better C# code](../debugger/write-better-code-with-visual-studio.md).
 
->  [!NOTE]
+> [!NOTE]
 > The Exception Helper replaces the Exception Assistant in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)].
 
 Expand the **Exception Settings** node to see more options on how to handle this exception type, but you don't need to change anything for this tour!
@@ -205,11 +204,11 @@ You can navigate and view snapshots by using the **Step Backward** and **Step Fo
 
 ![Step Backward and Forward Buttons](../debugger/media/intellitrace-step-back-icons-description.png  "Step Backward and Forward buttons")
 
-For more information, see the [View snapshots using IntelliTrace step-back](../debugger/how-to-use-intellitrace-step-back.md) page.
+For more information, see the [Inspect previous app states using IntelliTrace](../debugger/view-historical-application-state.md) page.
 
 ## Next steps
 
-In this tutorial, you've had a quick look at many debugger features. You may want a more in-depth look at these features using a sample application
+In this tutorial, you've had a quick look at many debugger features. You may want a more in-depth look at one of these features, such as breakpoints.
 
 > [!div class="nextstepaction"]
-> [Learn to debug using Visual Studio](../debugger/getting-started-with-the-debugger.md)
+> [Learn to use breakpoints](../debugger/using-breakpoints.md)

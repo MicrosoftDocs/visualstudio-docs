@@ -3,7 +3,6 @@ title: "Workflow Designer - Type Collection Editor Dialog Box"
 ms.date: 11/04/2016
 ms.topic: reference
 ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 f1_keywords:
   - "TypeCollectionEditor.UI"
 ms.assetid: 63cdea6b-bca2-4c06-b8b4-c8faabd40726
@@ -22,7 +21,7 @@ For more information, see [Data contract known types](/dotnet/framework/wcf/feat
 The following table describes the user interface (UI) elements of the **Type Collection** dialog box.
 
 |UI Element|Description|
-|----------------|-----------------|
+|-|-----------------|
 |**Type List**|A list of the types that have been added or removed.|
 
 ## To bring up the Type Collection Editor for the Send and Receive activities

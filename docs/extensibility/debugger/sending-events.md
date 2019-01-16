@@ -1,9 +1,6 @@
 ---
 title: "Sending Events | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "debugging [Debugging SDK], sending events"
@@ -17,15 +14,15 @@ ms.workload:
 # Send events
 The mechanism for communication between the debugger and the debug engine (DE) is an event model based on DCOM. Events are sent as COM objects, and each event has parameters that specify:  
   
--   The DE that called the event.  
+- The DE that called the event.  
   
--   A description of what happened.  
+- A description of what happened.  
   
--   The process, program, and thread information that identifies the context of where the event occurred. The process is not sent for events sent from a DE.  
+- The process, program, and thread information that identifies the context of where the event occurred. The process is not sent for events sent from a DE.  
   
--   The event type that indicates whether the event is synchronous or asynchronous.  
+- The event type that indicates whether the event is synchronous or asynchronous.  
   
- All debug events are sent using the method [IDebugEventCallback2::Event](../../extensibility/debugger/reference/idebugeventcallback2-event.md).  
+  All debug events are sent using the method [IDebugEventCallback2::Event](../../extensibility/debugger/reference/idebugeventcallback2-event.md).  
   
 ## In this section  
  [Event sources](../../extensibility/debugger/event-sources-visual-studio-sdk.md)  

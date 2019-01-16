@@ -1,15 +1,10 @@
 ---
 title: "How to: Add and Remove Features and Items to a Package by Using the Package Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VS.SharePointTools.RAD.PackageDesignerDesign"
 dev_langs: 
-  - "VB"
-  - "CSharp"
   - "VB"
   - "CSharp"
 helpviewer_keywords: 
@@ -30,21 +25,21 @@ ms.workload:
   
 #### To add SharePoint features with the package designer
   
-1.  Open the **Package Designer**.  
+1. Open the **Package Designer**.  
   
-     For more information, see [How to: Customize a SharePoint solution package](../sharepoint/how-to-customize-a-sharepoint-solution-package.md).  
+    For more information, see [How to: Customize a SharePoint solution package](../sharepoint/how-to-customize-a-sharepoint-solution-package.md).  
   
-2.  Add one or more SharePoint Features by performing one or more of the following steps:  
+2. Add one or more SharePoint Features by performing one or more of the following steps:  
   
-    1.  Double-click each item in the **Items in the Solution** list that you want to add.  
+   1. Double-click each item in the **Items in the Solution** list that you want to add.  
   
-    2.  Choose an item that you want to add, and then choose the **Add** button (>).  
+   2. Choose an item that you want to add, and then choose the **Add** button (>).  
   
-    3.  Choose the **Add All** button (>>) to add all items at once.  
+   3. Choose the **Add All** button (>>) to add all items at once.  
   
-     For example, you can double-click an item in the **Items in the Solution** list to add it to the **Items in the Package** list.  
+      For example, you can double-click an item in the **Items in the Solution** list to add it to the **Items in the Package** list.  
   
-     The SharePoint Project Items and Features appear in the **Items in the Package** list.  
+      The SharePoint Project Items and Features appear in the **Items in the Package** list.  
   
 ## Remove Features from a SharePoint Package  
  You can use the Package Designer to remove Features to a SharePoint package.  
@@ -58,5 +53,4 @@ ms.workload:
 ## See also
  [Create SharePoint solution packages](../sharepoint/creating-sharepoint-solution-packages.md)   
  [How to: Customize a SharePoint solution package](../sharepoint/how-to-customize-a-sharepoint-solution-package.md)  
- [How to: Create a Package](http://msdn.microsoft.com/en-us/b24be45c-e91d-49bb-afb0-7b265404214b)  
-  
+ [How to: Create a Package](https://msdn.microsoft.com/b24be45c-e91d-49bb-afb0-7b265404214b)  

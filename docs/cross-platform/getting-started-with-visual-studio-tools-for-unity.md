@@ -5,8 +5,8 @@ ms.date: "07/03/2018"
 ms.technology: vs-unity-tools
 ms.topic: "conceptual"
 ms.assetid: 66b5b4eb-13b5-4071-98d2-87fafa4598a8
-author: "dantogno"
-ms.author: "v-davian"
+author: "conceptdev"
+ms.author: "crdun"
 manager: crdun
 ms.workload:
   - "unity"
@@ -41,7 +41,7 @@ The version of Visual Studio included with your Unity installation may not be th
 
 If you already have Visual Studio 2017 installed, or prefer to manually install, run the Visual Studio installer.
 
-1. [Download the Visual Studio installer](https://docs.microsoft.com/en-us/visualstudio/install/install-visual-studio), or open it if already installed.
+1. [Download the Visual Studio installer](../install/install-visual-studio.md), or open it if already installed.
 
 1. Click **Modify** (if already installed) or **Install** (for new installations) for your desired version of Visual Studio.
 
@@ -57,21 +57,21 @@ Starting with Unity 2018.1, Visual Studio should be the default external script 
 
 1. Select **Preferences** from the **Edit** menu.
 
-  ![Select Preferences](media/vstu_unity-preferences.png)
+   ![Select Preferences](media/vstu_unity-preferences.png)
 
-1. In the Preferences dialog, select the **External Tools** tab.
+2. In the Preferences dialog, select the **External Tools** tab.
 
-1. From the **External Script Editor** dropdown list, choose your desired version of Visual Studio if it is listed, otherwise select **Browse...**.
+3. From the **External Script Editor** dropdown list, choose your desired version of Visual Studio if it is listed, otherwise select **Browse...**.
 
-  ![Select Visual Studio](media/vstu_unity-external-tools.png)
+   ![Select Visual Studio](media/vstu_unity-external-tools.png)
 
-1. If **Browse...** was selected, navigate to the **Common7/IDE** directory inside your Visual Studio installation directory and select **devenv.exe**. Then click **Open**.
+4. If **Browse...** was selected, navigate to the **Common7/IDE** directory inside your Visual Studio installation directory and select **devenv.exe**. Then click **Open**.
 
-  ![Select Open](media/vstu_browse-for-application.png)
+   ![Select Open](media/vstu_browse-for-application.png)
 
-1. Once Visual Studio is selected in the **External Script Editor** list, confirm that the **Editor Attaching** checkbox is selected.
+5. Once Visual Studio is selected in the **External Script Editor** list, confirm that the **Editor Attaching** checkbox is selected.
 
-1. Close the **Preferences** dialog to complete the configuration process.
+6. Close the **Preferences** dialog to complete the configuration process.
 
 ## Support for older versions
 
@@ -79,7 +79,7 @@ Starting with Unity 2018.1, Visual Studio should be the default external script 
 
 - For Visual Studio 2015 Community, Visual Studio 2015 Professional, or Visual Studio 2015 Enterprise:
 
-   [Download Visual Studio 2015 Tools for Unity](https://visualstudiogallery.msdn.microsoft.com/8d26236e-4a64-4d64-8486-7df95156aba9)
+   [Download Visual Studio 2015 Tools for Unity](https://marketplace.visualstudio.com/items?itemName=SebastienLebreton.VisualStudio2015ToolsforUnity)
 
 > [!NOTE]
 > Visual Studio Tools for Unity requires Unity 5.2 and above, as well as a version of Visual Studio that supports extensions, such as Visual Studio Community, Professional, Premium, or Enterprise. To verify that Visual Studio Tools for Unity are enabled in your installation of Unity, select **About Unity** from the **Help** menu and look for the text "Microsoft Visual Studio Tools for Unity enabled" in the bottom-left of the dialog.

@@ -1,9 +1,6 @@
 ---
 title: "IDebugObject::IsEqual | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugObject::IsEqual"
@@ -23,15 +20,15 @@ Compares an object with this object.
   
 ```cpp  
 HRESULT IsEqual(   
-   IDebugObject* pObject,  
-   BOOL*         pfIsEqual  
+   IDebugObject* pObject,  
+   BOOL*         pfIsEqual  
 );  
 ```  
   
 ```csharp  
 int IsEqual(  
-   IDebugObject pObject,  
-   out int      pfIsEqual  
+   IDebugObject pObject,  
+   out int      pfIsEqual  
 );  
 ```  
   

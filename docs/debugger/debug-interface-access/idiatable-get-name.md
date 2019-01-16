@@ -1,8 +1,6 @@
 ---
 title: "IDiaTable::get_name | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves the name of the table.
   
 ```C++  
 HRESULT get_name (   
-   BSTR* pRetVal  
+   BSTR* pRetVal  
 );  
 ```  
   

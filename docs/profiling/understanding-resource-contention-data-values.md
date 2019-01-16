@@ -1,8 +1,6 @@
 ---
 title: "Understanding Resource Contention Data Values | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "concurrency profiling method"
@@ -17,7 +15,7 @@ ms.workload:
 
 Resource contention profiling collects detailed call stack information each time competing threads in an application are forced to wait for access to a shared resource.
 
-Resource contention reports display the total number of contentions and the total time that was spent waiting for a resource for the modules, functions, source code lines, and instructions in which the waiting occured.
+Resource contention reports display the total number of contentions and the total time that was spent waiting for a resource for the modules, functions, source code lines, and instructions in which the waiting occurred.
 
 - Inclusive values display the total number of contentions that forced a function to wait by resource contentions and the total time that the function waited.  Contentions that were caused by child functions that were called by the function are included in inclusive values.
 

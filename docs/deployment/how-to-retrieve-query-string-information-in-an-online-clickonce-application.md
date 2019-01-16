@@ -1,8 +1,6 @@
 ---
 title: "How to: Retrieve Query String Information in an Online ClickOnce Application | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -51,17 +49,17 @@ The *query string* is the portion of a URL beginning with a question mark (?) th
   
 ### To enable query string passing in a ClickOnce application with MageUI.exe  
   
-1.  Open the .NET Command Prompt and type:  
+1. Open the .NET Command Prompt and type:  
   
-    ```cmd  
-    MageUI  
-    ```  
+   ```cmd  
+   MageUI  
+   ```  
   
-2.  From the **File** menu, select **Open**, and open the deployment manifest for your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application, which is the file ending in the `.application` extension.  
+2. From the **File** menu, select **Open**, and open the deployment manifest for your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application, which is the file ending in the `.application` extension.  
   
-3.  Select the **Deployment Options** panel in the left-hand navigation window, and select the **Allow URL parameters to be passed to application** check box.  
+3. Select the **Deployment Options** panel in the left-hand navigation window, and select the **Allow URL parameters to be passed to application** check box.  
   
-4.  From the **File** menu, select **Save**.  
+4. From the **File** menu, select **Save**.  
   
 > [!NOTE]
 >  Alternately, you can enable query string passing in [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)]. Select the **Allow URL parameters to be passed to application** check box, which can be found by opening the **Project Properties**, selecting the **Publish** tab, clicking the **Options** button, and then selecting **Manifests**.  
@@ -72,7 +70,7 @@ The *query string* is the portion of a URL beginning with a question mark (?) th
  If your application is online only, it will always be activated through a URL. Even in this case, however, your application must be written to function properly if the query string parameters are missing or corrupted.  
   
 ## .NET Framework security  
- Allow passing URL parameters to your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application only if you plan to cleanse the input of any malicious characters before using it. A string embedded with quotes, slashes, or semicolons, for example, might perform arbitrary data operations if used unfiltered in a SQL query against a database. For more information on query string security, see [Script exploits overview](http://msdn.microsoft.com/Library/772c7312-211a-4eb3-8d6e-eec0aa1dcc07).  
+ Allow passing URL parameters to your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application only if you plan to cleanse the input of any malicious characters before using it. A string embedded with quotes, slashes, or semicolons, for example, might perform arbitrary data operations if used unfiltered in a SQL query against a database. For more information on query string security, see [Script exploits overview](https://msdn.microsoft.com/Library/772c7312-211a-4eb3-8d6e-eec0aa1dcc07).  
   
 ## See also  
  [Secure ClickOnce applications](../deployment/securing-clickonce-applications.md)

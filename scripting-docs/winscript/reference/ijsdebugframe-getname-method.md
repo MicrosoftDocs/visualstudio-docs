@@ -22,7 +22,7 @@ Gets the user-friendly name of the stack frame.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetName(  
    BSTR *pName  
 );  

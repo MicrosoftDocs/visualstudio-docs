@@ -1,8 +1,6 @@
 ---
 title: "IDiaSession::findChildren | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,11 +20,11 @@ Retrieves all children of a specified parent identifier that match the name and 
   
 ```C++  
 HRESULT findChildren (   
-   IDiaSymbol*       parent,  
-   SymTagEnum        symtag,  
-   LPCOLESTR         name,  
-   DWORD             compareFlags,  
-   IDiaEnumSymbols** ppResult  
+   IDiaSymbol*       parent,  
+   SymTagEnum        symtag,  
+   LPCOLESTR         name,  
+   DWORD             compareFlags,  
+   IDiaEnumSymbols** ppResult  
 );  
 ```  
   

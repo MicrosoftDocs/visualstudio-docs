@@ -1,8 +1,6 @@
 ---
 title: "IDiaEnumFrameData::frameByRVA | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,8 +20,8 @@ Returns a frame by relative virtual address (RVA).
   
 ```C++  
 HRESULT frameByRVA(   
-   DWORD           relativeVirtualAddress,  
-   IDiaFrameData** frame  
+   DWORD           relativeVirtualAddress,  
+   IDiaFrameData** frame  
 );  
 ```  
   

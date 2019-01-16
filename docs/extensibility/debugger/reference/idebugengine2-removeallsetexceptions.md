@@ -1,9 +1,6 @@
 ---
 title: "IDebugEngine2::RemoveAllSetExceptions | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugEngine2::RemoveAllSetExceptions"
@@ -23,13 +20,13 @@ Removes the list of exceptions the IDE has set for a particular run-time archite
   
 ```cpp  
 HRESULT RemoveAllSetExceptions(   
-   REFGUID guidType  
+   REFGUID guidType  
 );  
 ```  
   
 ```csharp  
 int RemoveAllSetExceptions(   
-   ref Guid guidType  
+   ref Guid guidType  
 );  
 ```  
   

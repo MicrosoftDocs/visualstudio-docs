@@ -1,8 +1,6 @@
 ---
 title: "IDiaSymbol::get_length | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves the number of bits or bytes of memory used by the object represented b
   
 ```C++  
 HRESULT get_length (   
-   ULONGLONG* pRetVal  
+   ULONGLONG* pRetVal  
 );  
 ```  
   

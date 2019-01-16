@@ -1,9 +1,6 @@
 ---
 title: "IDebugGenericFieldDefinition::GetFormalTypeParams | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "GetFormalTypeParams"
@@ -22,17 +19,17 @@ Retrieves the type parameters given the number of parameters.
   
 ```cpp  
 HRESULT GetFormalTypeParams(  
-   ULONG32                   cParams,  
-   IDebugGenericParamField** ppParams,  
-   ULONG32*                  pcParams  
+   ULONG32                   cParams,  
+   IDebugGenericParamField** ppParams,  
+   ULONG32*                  pcParams  
 );  
 ```  
   
 ```csharp  
 int GetFormalTypeParams(  
-   uint                          cParams,  
-   out IDebugGenericParamField[] ppParams,  
-   ref uint                      pcParams  
+   uint                          cParams,  
+   out IDebugGenericParamField[] ppParams,  
+   ref uint                      pcParams  
 );  
 ```  
   

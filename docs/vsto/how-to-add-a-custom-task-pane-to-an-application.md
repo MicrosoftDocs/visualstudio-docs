@@ -1,9 +1,6 @@
 ---
 title: "How to: Add a custom task pane to an application"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -11,8 +8,8 @@ dev_langs:
 helpviewer_keywords: 
   - "task panes [Office development in Visual Studio], adding to application"
   - "custom task panes [Office development in Visual Studio], adding to application"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -58,5 +55,3 @@ ms.workload:
  [Office UI customization](../vsto/office-ui-customization.md)   
  [Custom task panes](../vsto/custom-task-panes.md)   
  [Walkthrough: Automate an application from a custom task pane](../vsto/walkthrough-automating-an-application-from-a-custom-task-pane.md)  
-  
-  

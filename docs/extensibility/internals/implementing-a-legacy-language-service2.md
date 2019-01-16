@@ -1,9 +1,6 @@
 ---
 title: "Implementing a Legacy Language Service2 | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "language services [managed package framework], implementing"
@@ -17,19 +14,19 @@ ms.workload:
 # Implementing a Legacy Language Service
 To implement a language service using the managed package framework (MPF), you must derive a class from the <xref:Microsoft.VisualStudio.Package.LanguageService> class and implement the following abstract methods and properties:  
   
--   The <xref:Microsoft.VisualStudio.Package.LanguageService.GetLanguagePreferences%2A> method  
+- The <xref:Microsoft.VisualStudio.Package.LanguageService.GetLanguagePreferences%2A> method  
   
--   The <xref:Microsoft.VisualStudio.Package.LanguageService.GetScanner%2A> method  
+- The <xref:Microsoft.VisualStudio.Package.LanguageService.GetScanner%2A> method  
   
--   The <xref:Microsoft.VisualStudio.Package.LanguageService.ParseSource%2A> method  
+- The <xref:Microsoft.VisualStudio.Package.LanguageService.ParseSource%2A> method  
   
--   The <xref:Microsoft.VisualStudio.Package.LanguageService.Name%2A> property  
+- The <xref:Microsoft.VisualStudio.Package.LanguageService.Name%2A> property  
   
- See the appropriate sections below for details on implementing these methods and properties.  
+  See the appropriate sections below for details on implementing these methods and properties.  
   
- To support additional features, your language service may have to derive a class from one of the MPF language service classes; for example, to support additional menu commands, you must derive a class from the <xref:Microsoft.VisualStudio.Package.ViewFilter> class and override several of the command handling methods (see <xref:Microsoft.VisualStudio.Package.ViewFilter> for details). The <xref:Microsoft.VisualStudio.Package.LanguageService> class provides a number of methods that are called to create new instances of various classes and you override the appropriate creation method to provide an instance of your class. For example, you need to override the <xref:Microsoft.VisualStudio.Package.LanguageService.CreateViewFilter%2A> method in the <xref:Microsoft.VisualStudio.Package.LanguageService> class to return an instance of your own <xref:Microsoft.VisualStudio.Package.ViewFilter> class. See the "Instantiating Custom Classes" section for more details.  
+  To support additional features, your language service may have to derive a class from one of the MPF language service classes; for example, to support additional menu commands, you must derive a class from the <xref:Microsoft.VisualStudio.Package.ViewFilter> class and override several of the command handling methods (see <xref:Microsoft.VisualStudio.Package.ViewFilter> for details). The <xref:Microsoft.VisualStudio.Package.LanguageService> class provides a number of methods that are called to create new instances of various classes and you override the appropriate creation method to provide an instance of your class. For example, you need to override the <xref:Microsoft.VisualStudio.Package.LanguageService.CreateViewFilter%2A> method in the <xref:Microsoft.VisualStudio.Package.LanguageService> class to return an instance of your own <xref:Microsoft.VisualStudio.Package.ViewFilter> class. See the "Instantiating Custom Classes" section for more details.  
   
- Your language service can also supply its own icons, which are used in many places. For example, when an IntelliSense completion list is shown, each item in the list can have an icon associated with it, marking the item as a method, class, namespace, property, or whatever is necessary for your language. These icons are used in all IntelliSense lists, the **Navigation bar**, and in the **Error List** task window. See the "Language Service Images" section below for details.  
+  Your language service can also supply its own icons, which are used in many places. For example, when an IntelliSense completion list is shown, each item in the list can have an icon associated with it, marking the item as a method, class, namespace, property, or whatever is necessary for your language. These icons are used in all IntelliSense lists, the **Navigation bar**, and in the **Error List** task window. See the "Language Service Images" section below for details.  
   
 ## GetLanguagePreferences Method  
  The <xref:Microsoft.VisualStudio.Package.LanguageService.GetLanguagePreferences%2A> method always returns the same instance of a <xref:Microsoft.VisualStudio.Package.LanguagePreferences> class. You can use the base <xref:Microsoft.VisualStudio.Package.LanguagePreferences> class if you do not need any additional preferences for your language service. The MPF language service classes assume the presence of at least the base <xref:Microsoft.VisualStudio.Package.LanguagePreferences> class.  

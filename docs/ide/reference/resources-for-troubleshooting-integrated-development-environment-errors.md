@@ -2,7 +2,6 @@
 title: Resources for troubleshooting errors
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: troubleshooting
 f1_keywords:
   - "VS.Message.0x00005A89"
@@ -100,6 +99,9 @@ ms.workload:
 
 Not all error messages have a specific associated Help topic. If the information in the error message does not help you resolve the problem, you can consult other resources such as Knowledge Base articles, forums, or product support.
 
+> [!NOTE]
+> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Troubleshoot Visual Studio for Mac](/visualstudio/mac/troubleshooting).
+
 ## Knowledge Base articles
 
 You can search the Knowledge Base (KB) online for articles about product issues. Not all issues have a corresponding KB article, but errors encountered by a significant number of customers are typically documented. You can access KB articles on the [Microsoft Support](https://support.microsoft.com) website.
@@ -117,3 +119,4 @@ If you still have questions after you try the other resources, you can contact M
 ## See also
 
 * [Troubleshoot network-related or proxy errors](../../install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md#troubleshoot-network-related-errors)
+* [Troubleshooting (Visual Studio for Mac)](/visualstudio/mac/troubleshooting)

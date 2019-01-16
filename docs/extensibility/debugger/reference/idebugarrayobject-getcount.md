@@ -1,9 +1,6 @@
 ---
 title: "IDebugArrayObject::GetCount | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugArrayObject::GetCount"
@@ -24,14 +21,14 @@ Gets the count of elements in the array.
 ```  
 [C++]  
 HRESULT GetCount(   
-   DWORD* pdwElements  
+   DWORD* pdwElements  
 );  
 ```  
   
 ```  
 [C#]  
 int GetCount(  
-   out uint pdwElements  
+   out uint pdwElements  
 );  
 ```  
   

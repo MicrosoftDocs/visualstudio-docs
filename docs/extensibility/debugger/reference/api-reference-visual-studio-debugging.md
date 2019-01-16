@@ -1,9 +1,6 @@
 ---
 title: "API Reference (Visual Studio Debugging) | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "debugging [Debugging SDK], API reference"
@@ -35,7 +32,7 @@ The reference section includes a conceptual overview of the API, a guide that sh
   
 > [!NOTE]
 >  When a [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] debugging method returns `S_OK`, it is assumed that all out parameter pointers are valid, that is, no validation is conducted on out parameter pointers when `S_OK` is returned.  
-  
+> 
 > [!NOTE]
 >  Invalid or `NULL` [out] parameters may cause the IDE to crash.  
   

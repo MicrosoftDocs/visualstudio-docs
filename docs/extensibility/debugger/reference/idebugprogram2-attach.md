@@ -1,9 +1,6 @@
 ---
 title: "IDebugProgram2::Attach | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProgram2::Attach"
@@ -23,13 +20,13 @@ Attaches to the program.
   
 ```cpp  
 HRESULT Attach(   
-   IDebugEventCallback2* pCallback  
+   IDebugEventCallback2* pCallback  
 );  
 ```  
   
 ```csharp  
 int Attach(   
-   IDebugEventCallback2 pCallback  
+   IDebugEventCallback2 pCallback  
 );  
 ```  
   

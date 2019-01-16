@@ -1,9 +1,6 @@
 ---
 title: "IDebugBinder3::GetTypeArgumentCount | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugBinder3::GetTypeArgumentCount"
@@ -23,13 +20,13 @@ This method returns the number of argument types associated with this object.
   
 ```cpp  
 HRESULT GetTypeArgumentCount(  
-   UINT* uCount  
+   UINT* uCount  
 );  
 ```  
   
 ```csharp  
 int GetTypeArgumentCount(  
-   out uint uCount  
+   out uint uCount  
 );  
 ```  
   

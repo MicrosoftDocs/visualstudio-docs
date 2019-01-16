@@ -1,9 +1,6 @@
 ---
 title: "IDebugObject::GetManagedDebugObject | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugObject::GetManagedDebugObject"
@@ -23,13 +20,13 @@ Creates a copy of the managed object in the address space of the debug engine.
   
 ```cpp  
 HRESULT GetManagedDebugObject(   
-   IDebugManagedObject** ppObject  
+   IDebugManagedObject** ppObject  
 );  
 ```  
   
 ```csharp  
 int GetManagedDebugObject(  
-   out IDebugManagedObject ppObject  
+   out IDebugManagedObject ppObject  
 );  
 ```  
   

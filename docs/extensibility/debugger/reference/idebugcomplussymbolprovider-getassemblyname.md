@@ -1,9 +1,6 @@
 ---
 title: "IDebugComPlusSymbolProvider::GetAssemblyName | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugComPlusSymbolProvider::GetAssemblyName"
@@ -23,18 +20,18 @@ Retrieves the name of the assembly given its module and application domain.
 ```  
 [C++]  
 HRESULT GetAssemblyName(  
-   ULONG32 ulAppDomainID,  
-   GUID    guidModule,  
-   BSTR*   pbstrName  
+   ULONG32 ulAppDomainID,  
+   GUID    guidModule,  
+   BSTR*   pbstrName  
 );  
 ```  
   
 ```  
 [C#]  
 int GetAssemblyName(  
-   uint   ulAppDomainID,  
-   Guid   guidModule,  
-   string pbstrName  
+   uint   ulAppDomainID,  
+   Guid   guidModule,  
+   string pbstrName  
 );  
 ```  
   

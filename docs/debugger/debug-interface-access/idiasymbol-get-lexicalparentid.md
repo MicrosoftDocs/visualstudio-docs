@@ -1,8 +1,6 @@
 ---
 title: "IDiaSymbol::get_lexicalParentId | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves the lexical parent identifier of the symbol.
   
 ```C++  
 HRESULT get_lexicalParentId (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

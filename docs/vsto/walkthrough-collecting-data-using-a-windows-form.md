@@ -1,9 +1,6 @@
 ---
 title: "Walkthrough: Collect data using a Windows Form"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -64,41 +61,41 @@ ms.workload:
   
 ### To add a Windows Form  
   
-1.  Select the project **WinFormInput** in **Solution Explorer**.  
+1. Select the project **WinFormInput** in **Solution Explorer**.  
   
-2.  On the **Project** menu, click **Add Windows Form**.  
+2. On the **Project** menu, click **Add Windows Form**.  
   
-3.  Name the form **GetInputString.vb** or **GetInputString.cs**, and then click **Add**.  
+3. Name the form **GetInputString.vb** or **GetInputString.cs**, and then click **Add**.  
   
-     The new form opens in the designer.  
+    The new form opens in the designer.  
   
-4.  Add a <xref:System.Windows.Forms.TextBox> and a <xref:System.Windows.Forms.Button> to the form.  
+4. Add a <xref:System.Windows.Forms.TextBox> and a <xref:System.Windows.Forms.Button> to the form.  
   
-5.  Select the button, find the property **Text** in the **Properties** window, and change the text to **OK**.  
+5. Select the button, find the property **Text** in the **Properties** window, and change the text to **OK**.  
   
- Next, add code to `ThisWorkbook.vb` or `ThisWorkbook.cs` to collect the user's information.  
+   Next, add code to `ThisWorkbook.vb` or `ThisWorkbook.cs` to collect the user's information.  
   
 ## Display the Windows Form and collecting information  
  Create an instance of the `GetInputString` Windows Form and display it, and then write the user's information into a cell in the worksheet.  
   
 #### To display the form and collect information  
   
-1.  Right-click **ThisWorkbook.vb** or **ThisWorkbook.cs** in **Solution Explorer**, and then click **View Code**.  
+1. Right-click **ThisWorkbook.vb** or **ThisWorkbook.cs** in **Solution Explorer**, and then click **View Code**.  
   
-2.  In the <xref:Microsoft.Office.Tools.Excel.Workbook.Open> event handler of `ThisWorkbook`, add the following code to declare a variable for the form `GetInputString` and then show the form.  
+2. In the <xref:Microsoft.Office.Tools.Excel.Workbook.Open> event handler of `ThisWorkbook`, add the following code to declare a variable for the form `GetInputString` and then show the form.  
   
-    > [!NOTE]  
-    >  In C#, you must add an event handler as shown in the <xref:Microsoft.Office.Tools.Excel.Workbook.Startup> event below. For information about creating event handlers, see [How to: Create event handlers in Office projects](../vsto/how-to-create-event-handlers-in-office-projects.md).  
+   > [!NOTE]  
+   >  In C#, you must add an event handler as shown in the <xref:Microsoft.Office.Tools.Excel.Workbook.Startup> event below. For information about creating event handlers, see [How to: Create event handlers in Office projects](../vsto/how-to-create-event-handlers-in-office-projects.md).  
   
-     [!code-csharp[Trin_VstcoreProgrammingCollectingData#1](../vsto/codesnippet/CSharp/WinFormInputCS/ThisWorkbook.cs#1)]
-     [!code-vb[Trin_VstcoreProgrammingCollectingData#1](../vsto/codesnippet/VisualBasic/WinFormInput/ThisWorkbook.vb#1)]  
+    [!code-csharp[Trin_VstcoreProgrammingCollectingData#1](../vsto/codesnippet/CSharp/WinFormInputCS/ThisWorkbook.cs#1)]
+    [!code-vb[Trin_VstcoreProgrammingCollectingData#1](../vsto/codesnippet/VisualBasic/WinFormInput/ThisWorkbook.vb#1)]  
   
-3.  Create a method called `WriteStringToCell` that writes text to a named range. This method is called from the form, and the user's input is passed to the <xref:Microsoft.Office.Tools.Excel.NamedRange> control, `formInput`, on cell **A1**.  
+3. Create a method called `WriteStringToCell` that writes text to a named range. This method is called from the form, and the user's input is passed to the <xref:Microsoft.Office.Tools.Excel.NamedRange> control, `formInput`, on cell **A1**.  
   
-     [!code-csharp[Trin_VstcoreProgrammingCollectingData#2](../vsto/codesnippet/CSharp/WinFormInputCS/ThisWorkbook.cs#2)]
-     [!code-vb[Trin_VstcoreProgrammingCollectingData#2](../vsto/codesnippet/VisualBasic/WinFormInput/ThisWorkbook.vb#2)]  
+    [!code-csharp[Trin_VstcoreProgrammingCollectingData#2](../vsto/codesnippet/CSharp/WinFormInputCS/ThisWorkbook.cs#2)]
+    [!code-vb[Trin_VstcoreProgrammingCollectingData#2](../vsto/codesnippet/VisualBasic/WinFormInput/ThisWorkbook.vb#2)]  
   
- Next, add code to the form to handle the button's click event.  
+   Next, add code to the form to handle the button's click event.  
   
 ## Send information to the worksheet  
   
@@ -140,5 +137,3 @@ ms.workload:
  [Program document-level customizations](../vsto/programming-document-level-customizations.md)   
  [Walkthroughs using Word](../vsto/walkthroughs-using-word.md)   
  [Walkthroughs using Excel](../vsto/walkthroughs-using-excel.md)  
-  
-  

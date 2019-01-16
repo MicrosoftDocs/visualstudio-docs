@@ -1,9 +1,6 @@
 ---
 title: "IDebugPortSupplier3::EnumPersistedPorts | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugPortSupplier3::EnumPersistedPorts"
@@ -23,15 +20,15 @@ This method retrieves an object that allows enumeration of the list of persisted
   
 ```cpp  
 HRESULT EnumPersistedPorts(  
-   BSTR_ARRAY         PortNames,  
-   IEnumDebugPorts2** ppEnum  
+   BSTR_ARRAY         PortNames,  
+   IEnumDebugPorts2** ppEnum  
 );  
 ```  
   
 ```csharp  
 int EnumPersistedPorts(  
-   BSTR_ARRAY           PortNames,  
-   out IEnumDebugPorts2 ppEnum  
+   BSTR_ARRAY           PortNames,  
+   out IEnumDebugPorts2 ppEnum  
 );  
 ```  
   

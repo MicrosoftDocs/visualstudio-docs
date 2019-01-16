@@ -1,9 +1,6 @@
 ---
 title: "IDebugPendingBreakpoint2::GetBreakpointRequest | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugPendingBreakpoint2::GetBreakpointRequest"
@@ -24,13 +21,13 @@ Gets the breakpoint request that was used to create this pending breakpoint.
   
 ```cpp  
 HRESULT GetBreakpointRequest(   
-   IDebugBreakpointRequest2** ppBPRequest  
+   IDebugBreakpointRequest2** ppBPRequest  
 );  
 ```  
   
 ```csharp  
 int GetBreakpointRequest(   
-   out IDebugBreakpointRequest2 ppBPRequest  
+   out IDebugBreakpointRequest2 ppBPRequest  
 );  
 ```  
   

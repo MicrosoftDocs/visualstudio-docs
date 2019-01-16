@@ -1,9 +1,6 @@
 ---
 title: "IDebugPort2::EnumProcesses | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugPort2::EnumProcesses"
@@ -23,13 +20,13 @@ Returns a list of all the processes running on a port.
   
 ```cpp  
 HRESULT EnumProcesses(   
-   IEnumDebugProcesses2** ppEnum  
+   IEnumDebugProcesses2** ppEnum  
 );  
 ```  
   
 ```csharp  
 int EnumProcesses(   
-   out IEnumDebugProcesses2 ppEnum  
+   out IEnumDebugProcesses2 ppEnum  
 );  
 ```  
   

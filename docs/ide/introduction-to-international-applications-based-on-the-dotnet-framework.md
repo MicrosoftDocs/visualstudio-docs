@@ -2,7 +2,6 @@
 title: Introduction to International Applications Based on the .NET Framework
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:
   - "strings [Visual Studio], localizing"
@@ -30,7 +29,7 @@ ms.workload:
 ---
 # Introduction to International Applications Based on the .NET Framework
 
-In [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], there are two parts to creating a world-ready application: globalization, the process of designing applications that can adapt to different cultures, and localization, the process of translating resources for a specific culture. For general information on designing applications for an international audience, see [Best Practices for Developing World-Ready Applications](http://msdn.microsoft.com/Library/f08169c7-aad8-4ec3-9a21-9ebd3b89986c).
+In [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], there are two parts to creating a world-ready application: globalization, the process of designing applications that can adapt to different cultures, and localization, the process of translating resources for a specific culture. For general information on designing applications for an international audience, see [Best Practices for Developing World-Ready Applications](/dotnet/standard/globalization-localization/best-practices-for-developing-world-ready-apps).
 
  The [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] localization model consists of a main assembly that contains both the application code and the fallback resources — strings, images, and other objects for the language in which the application is originally developed. Each localized application will have satellite assemblies, or assemblies which contain only the localized resources. Because the main assembly always contains the fallback resources, if a resource is not found in the localized satellite assembly, the <xref:System.Resources.ResourceManager> will attempt to load it in a hierarchical manner, eventually falling back to the resource in the main assembly. The resource fallback system is explained in greater detail in [Hierarchical Organization of Resources for Localization](../ide/hierarchical-organization-of-resources-for-localization.md).
 

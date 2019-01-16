@@ -1,9 +1,6 @@
 ---
 title: "SccQueryInfo Function | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "SccQueryInfo"
@@ -23,10 +20,10 @@ This function obtains status information for a set of selected files under sourc
   
 ```cpp  
 SCCRTN SccQueryInfo(  
-   LPVOID  pvContext,  
-   LONG    nFiles,  
-   LPCSTR* lpFileNames,  
-   LPLONG  lpStatus  
+   LPVOID  pvContext,  
+   LONG    nFiles,  
+   LPCSTR* lpFileNames,  
+   LPLONG  lpStatus  
 );  
 ```  
   

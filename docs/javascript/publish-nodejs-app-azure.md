@@ -1,9 +1,7 @@
 ---
 title: "Publish a Node.js app to Linux App Service"
 description: You can publish Node.js applications created in Visual Studio to Linux App Service on Azure
-ms.custom: ""
-ms.date: "06/10/2018"
-ms.technology: vs-nodejs
+ms.date: "11/1/2018"
 ms.topic: "tutorial"
 ms.devlang: javascript
 author: "mikejo5000"
@@ -37,15 +35,19 @@ In this tutorial, you learn how to:
 
 1. Create a new TypeScript Express app using the **File** > **New Project** dialog box.
 
+1. Under the **TypeScript** node, select **Basic Node.js Express 4 Application**.
+
     ![Create a new TypeScript Express app](../javascript/media/azure-ts-express-app.png)
 
-2. Press **F5** to build and run the app, and make sure that everything is running as expected.
+1. Click **OK** to create the project in Visual Studio.
 
-3. Select **File** > **Add to source control** to create a local Git repository for the project.
+1. Press **F5** to build and run the app, and make sure that everything is running as expected.
+
+1. Select **File** > **Add to source control** to create a local Git repository for the project.
 
     At this point, a Node.js app using the Express framework and written in TypeScript is working and checked in to local source control.
 
-4. Edit the project as desired before proceeding to the next steps.
+1. Edit the project as desired before proceeding to the next steps.
 
 ## Push code from Visual Studio to GitHub
 

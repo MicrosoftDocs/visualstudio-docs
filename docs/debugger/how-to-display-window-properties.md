@@ -1,8 +1,6 @@
 ---
 title: "How to: Display Window Properties | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "window properties"
@@ -18,6 +16,6 @@ To find out more about a window listed in [Windows View](../debugger/windows-vie
   
 ### To open the Window Properties dialog box  
   
-1.  Select the item, then choose **Properties** from the **View** menu.  
+1. Select the item, then choose **Properties** from the **View** menu.  
   
- Properties dialog boxes are not modal. As you click from item to item in a view window, the dialog box is automatically refreshed with information on each item selected.
+   Properties dialog boxes are not modal. As you click from item to item in a view window, the dialog box is automatically refreshed with information on each item selected.

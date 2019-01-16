@@ -1,9 +1,6 @@
 ---
 title: "IDebugPendingBreakpoint2::Virtualize | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugPendingBreakpoint2::Virtualize"
@@ -24,13 +21,13 @@ Toggles the virtualized state of this pending breakpoint. When a pending breakpo
   
 ```cpp  
 HRESULT Virtualize(   
-   BOOL fVirtualize  
+   BOOL fVirtualize  
 );  
 ```  
   
 ```cpp  
 int Virtualize(   
-   int fVirtualize  
+   int fVirtualize  
 );  
 ```  
   

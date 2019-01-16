@@ -1,9 +1,6 @@
 ---
 title: "IDebugSettingsCallback2::GetMetricDword | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugSettingsCallback2::GetMetricDword"
@@ -21,19 +18,19 @@ Retrieves the value of a metric given its name.
   
 ```cpp  
 HRESULT GetMetricDword(  
-   LPCWSTR pszType,  
-   REFGUID guidSection,  
-   LPCWSTR pszMetric,  
-   DWORD*  pdwValue  
+   LPCWSTR pszType,  
+   REFGUID guidSection,  
+   LPCWSTR pszMetric,  
+   DWORD*  pdwValue  
 );  
 ```  
   
 ```csharp  
 private int GetMetricDword(  
-   string   pszType,  
-   ref Guid guidSection,  
-   string   pszMetric,  
-   out uint pdwValue  
+   string   pszType,  
+   ref Guid guidSection,  
+   string   pszMetric,  
+   out uint pdwValue  
 );  
 ```  
   

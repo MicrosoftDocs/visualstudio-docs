@@ -1,9 +1,6 @@
 ---
 title: "IEEVisualizerService::GetValueDisplayStringCount | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IEEVisualizerService::GetValueDisplayStringCount"
@@ -22,17 +19,17 @@ Retrieves the number of value strings to display for the specified property or f
   
 ```cpp  
 HRESULT GetValueDisplayStringCount (  
-   DWORD         displayKind,   
-   IDebugField * propertyOrField,   
-   ULONG *       pcelt  
+   DWORD         displayKind,   
+   IDebugField * propertyOrField,   
+   ULONG *       pcelt  
 );  
 ```  
   
 ```csharp  
 int GetValueDisplayStringCount (  
-   uint        displayKind,   
-   IDebugField propertyOrField,   
-   out ulong   pcelt  
+   uint        displayKind,   
+   IDebugField propertyOrField,   
+   out ulong   pcelt  
 );  
 ```  
   

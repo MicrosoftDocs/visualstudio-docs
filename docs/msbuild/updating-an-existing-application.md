@@ -1,8 +1,6 @@
 ---
 title: "Updating an existing application to MSBuild 15 | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: msbuild
 ms.topic: "conceptual"
 author: mikejo5000
 ms.author: mikejo
@@ -34,7 +32,7 @@ The mechanism for changing your project to avoid loading MSBuild from a central 
 
 #### Use NuGet packages (preferred)
 
-These instructions assume that you're using [PackageReference-style NuGet references](https://docs.microsoft.com/en-us/nuget/consume-packages/package-references-in-project-files).
+These instructions assume that you're using [PackageReference-style NuGet references](https://docs.microsoft.com/nuget/consume-packages/package-references-in-project-files).
 
 Change your project file(s) to reference MSBuild assemblies from their NuGet packages. Specify `ExcludeAssets=runtime` to tell NuGet that the assemblies are needed only at build time, and shouldn't be copied to the output directory.
 

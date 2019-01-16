@@ -1,8 +1,6 @@
 ---
 title: "Walkthrough: Using Profiler APIs | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "profiling tools, walkthroughs"
@@ -26,9 +24,11 @@ The walkthrough uses a C# application to demonstrate how to use the [!INCLUDE[vs
   
  The Visual Studio profiler allows you to limit the collection of data. This walkthrough offers an example of how to limit the collection of data by using the profiler APIs. The Visual Studio profiler provides an API for controlling data collection from within an application.  
   
- For native code, the Visual Studio profiler APIs are in *VSPerf.dll*. The header file, *VSPerf.h*, and the import library, *VSPerf.lib*, are located in the *Microsoft Visual Studio 9\Team Tools\Performance Tools* directory.  
+ For native code, the Visual Studio profiler APIs are in *VSPerf.dll*. The header file, *VSPerf.h*, and the import library, *VSPerf.lib*, are located in the *Microsoft Visual Studio\2017\Team Tools\Performance Tools\PerfSDK* directory.  For 64-bit apps, the folder is *Microsoft Visual Studio\2017\Team Tools\Performance Tools\x64\PerfSDK*
   
- For managed code, the profiler APIs are in the *Microsoft.VisualStudio.Profiler.dll*. This DLL is found in the *Microsoft Visual Studio 9\Team Tools\Performance Tools* directory. For more information, see <xref:Microsoft.VisualStudio.Profiler>.  
+ For managed code, the profiler APIs are in the *Microsoft.VisualStudio.Profiler.dll*. This DLL is found in the *Microsoft Visual Studio\Shared\Common\VSPerfCollectionTools* directory. For 64-bit apps, the folder is *Microsoft Visual Studio\Shared\Common\VSPerfCollectionTools\x64*. For more information, see <xref:Microsoft.VisualStudio.Profiler>. 
+ 
+  
   
 ## Prerequisites  
  This walkthrough assumes your choice of development environment is configured to support debugging and sampling. The following topics provide an overview of these prerequisites:  
@@ -54,7 +54,7 @@ DataCollection.CurrentId);
 1.  Create a new C# project in Visual Studio, or use a command line build, depending on your preference.  
   
     > [!NOTE]
-    >  Your build must reference the *Microsoft.VisualStudio.Profiler.dll* library, located in the *Microsoft Visual Studio 9\Team Tools\Performance Tools* directory.  
+    >  Your build must reference the *Microsoft.VisualStudio.Profiler.dll* library, located in the *Microsoft Visual Studio\Shared\Common\VSPerfCollectionTools* directory.  
   
 2.  Copy and paste the following code into your project:  
   
@@ -117,19 +117,19 @@ DataCollection.CurrentId);
   
 #### To collect and view data in the Visual Studio IDE  
   
-1.  Open the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE. On to the **Analyze** menu, point to **Profiler**, and then select **New Performance Session**.  
+1. Open the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE. On to the **Analyze** menu, point to **Profiler**, and then select **New Performance Session**.  
   
-2.  Add your compiled binary to the **Targets** list in the **Performance Explorer** window. Right-click **Targets**, and then select **Add Target Binary**. Locate the binary in the **Add Target Binary** dialog box, and then click **Open**.  
+2. Add your compiled binary to the **Targets** list in the **Performance Explorer** window. Right-click **Targets**, and then select **Add Target Binary**. Locate the binary in the **Add Target Binary** dialog box, and then click **Open**.  
   
-3.  Select **Instrumentation** from the **Method** list on the **Performance Explorer** toolbar.  
+3. Select **Instrumentation** from the **Method** list on the **Performance Explorer** toolbar.  
   
-4.  Click **Launch with Profiling**.  
+4. Click **Launch with Profiling**.  
   
-     The profiler will instrument and execute the binary and create a performance report file. The performance report file will appear in the **Reports** node of the **Performance Explorer**.  
+    The profiler will instrument and execute the binary and create a performance report file. The performance report file will appear in the **Reports** node of the **Performance Explorer**.  
   
-5.  Open the resulting performance report file.  
+5. Open the resulting performance report file.  
   
- By default, when the profiler is started, the profiler will collect data at the global level. The following code at the start of the program turns global profiling off.  
+   By default, when the profiler is started, the profiler will collect data at the global level. The following code at the start of the program turns global profiling off.  
   
 ```csharp  
 DataCollection.StopProfile(  

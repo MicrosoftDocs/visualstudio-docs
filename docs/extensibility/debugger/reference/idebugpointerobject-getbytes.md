@@ -1,9 +1,6 @@
 ---
 title: "IDebugPointerObject::GetBytes | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugPointerObject::GetBytes"
@@ -23,19 +20,19 @@ Gets the value pointed to as a series of consecutive bytes.
   
 ```cpp  
 HRESULT GetBytes(   
-   DWORD  dwStart,  
-   DWORD  dwCount,  
-   BYTE*  pBytes,  
-   DWORD* pdwBytes  
+   DWORD  dwStart,  
+   DWORD  dwCount,  
+   BYTE*  pBytes,  
+   DWORD* pdwBytes  
 );  
 ```  
   
 ```csharp  
 int GetBytes(  
-   uint       dwStart,   
-   uint       dwCount,   
-   out byte[] pBytes,   
-   out uint   pdwBytes  
+   uint       dwStart,   
+   uint       dwCount,   
+   out byte[] pBytes,   
+   out uint   pdwBytes  
 );  
 ```  
   

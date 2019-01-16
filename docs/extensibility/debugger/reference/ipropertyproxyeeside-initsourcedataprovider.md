@@ -1,9 +1,6 @@
 ---
 title: "IPropertyProxyEESide::InitSourceDataProvider | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IPropertyProxyEESide::InitSourceDataProvider"
@@ -23,13 +20,13 @@ Initializes the source data for this object and returns an object containing the
   
 ```cpp  
 HRESULT InitSourceDataProvider(  
-   IEEDataStorage** dataOut  
+   IEEDataStorage** dataOut  
 );  
 ```  
   
 ```csharp  
 int InitSourceDataProvider(  
-   out IEEDataStorage dataOut  
+   out IEEDataStorage dataOut  
 );  
 ```  
   

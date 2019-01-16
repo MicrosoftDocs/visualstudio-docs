@@ -1,8 +1,6 @@
 ---
 title: "IDiaSymbol::get_typeIds | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,9 +20,9 @@ Retrieves an array of compiler-specific type identifier values for this symbol.
   
 ```C++  
 HRESULT get_typeIds (   
-   DWORD  cTypeIds,  
-   DWORD* pcTypeIds,  
-   DWORD  typeIds[]  
+   DWORD  cTypeIds,  
+   DWORD* pcTypeIds,  
+   DWORD  typeIds[]  
 );  
 ```  
   

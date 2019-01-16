@@ -1,9 +1,6 @@
 ---
 title: "IDebugEngineLaunch2::CanTerminateProcess | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugEngineLaunch2::CanTerminateProcess"
@@ -23,13 +20,13 @@ Determines if a process can be terminated.
   
 ```cpp  
 HRESULT CanTerminateProcess (   
-   IDebugProcess2* pProcess  
+   IDebugProcess2* pProcess  
 );  
 ```  
   
 ```csharp  
 int CanTerminateProcess (   
-   IDebugProcess2 pProcess  
+   IDebugProcess2 pProcess  
 );  
 ```  
   

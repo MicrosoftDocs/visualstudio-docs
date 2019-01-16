@@ -1,9 +1,6 @@
 ---
 title: "Walkthrough: Bind data to controls on a Word actions pane"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -72,28 +69,28 @@ ms.workload:
   
 ### To add a data source to the project  
   
-1.  If the **Data Sources** window is not visible, display it by, on the menu bar, choosing **View** > **Other Windows** > **Data Sources**.  
+1. If the **Data Sources** window is not visible, display it by, on the menu bar, choosing **View** > **Other Windows** > **Data Sources**.  
   
-    > [!NOTE]  
-    >  If **Show Data Sources** is not available, click the Word document and then check again.  
+   > [!NOTE]  
+   >  If **Show Data Sources** is not available, click the Word document and then check again.  
   
-2.  Click **Add New Data Source** to start the **Data Source Configuration Wizard**.  
+2. Click **Add New Data Source** to start the **Data Source Configuration Wizard**.  
   
-3.  Select **Database** and then click **Next**.  
+3. Select **Database** and then click **Next**.  
   
-4.  Select a data connection to the Northwind sample SQL Server database, or add a new connection by using the **New Connection** button.  
+4. Select a data connection to the Northwind sample SQL Server database, or add a new connection by using the **New Connection** button.  
   
-5.  Click **Next**.  
+5. Click **Next**.  
   
-6.  Clear the option to save the connection if it is selected, and then click **Next**.  
+6. Clear the option to save the connection if it is selected, and then click **Next**.  
   
-7.  Expand the **Tables** node in the **Database objects** window.  
+7. Expand the **Tables** node in the **Database objects** window.  
   
-8.  Select the check box next to the **Suppliers** and **Products** tables.  
+8. Select the check box next to the **Suppliers** and **Products** tables.  
   
 9. Click **Finish**.  
   
- The wizard adds the **Suppliers** table and **Products** table to the **Data Sources** window. It also adds a typed dataset to your project that is visible in **Solution Explorer**.  
+   The wizard adds the **Suppliers** table and **Products** table to the **Data Sources** window. It also adds a typed dataset to your project that is visible in **Solution Explorer**.  
   
 ### To add data-bound Windows Forms controls to an actions pane control  
   
@@ -236,5 +233,3 @@ ms.workload:
  [Actions pane overview](../vsto/actions-pane-overview.md)   
  [How to: Add an actions pane to Word documents or Excel workbooks](../vsto/how-to-add-an-actions-pane-to-word-documents-or-excel-workbooks.md)   
  [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)  
-  
-  

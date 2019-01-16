@@ -24,7 +24,7 @@ Creates a new debug document context.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT CreateDebugDocumentContext(  
    ULONG                    iCharPos,  
    ULONG                    cChars,  

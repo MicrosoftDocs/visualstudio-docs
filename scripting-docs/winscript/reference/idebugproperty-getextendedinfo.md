@@ -24,11 +24,11 @@ Gets extended information for the property.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetExtendedInfo (  
-   ULONG  cInfos,  
-   GUID*  rgguidExtendedInfo,  
-   VARIANT* pExtendedInfo  
+   ULONG  cInfos,  
+   GUID*  rgguidExtendedInfo,  
+   VARIANT* pExtendedInfo  
 );  
 ```  
   

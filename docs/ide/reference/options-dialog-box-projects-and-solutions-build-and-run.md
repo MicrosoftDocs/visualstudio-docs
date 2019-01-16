@@ -2,11 +2,9 @@
 title: Options Dialog Box, Projects and Solutions, Build and Run
 ms.date: 07/14/2017
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Projects.Build_and_Run"
-  - "VS.ToolsOptionsPag.Projects.Build_and_Run"
 helpviewer_keywords:
   - "builds [Visual Studio], setting up"
   - "run actions"

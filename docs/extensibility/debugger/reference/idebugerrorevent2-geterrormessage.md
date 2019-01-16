@@ -1,9 +1,6 @@
 ---
 title: "IDebugErrorEvent2::GetErrorMessage | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugErrorEvent2::GetErrorMessage"
@@ -23,23 +20,23 @@ Returns information that allows construction of a human-readable error message.
   
 ```cpp  
 HRESULT GetErrorMessage(  
-   MESSAGETYPE* pMessageType,  
-   BSTR*        pbstrErrorFormat,  
-   HRESULT*     hrErrorReason,  
-   DWORD*       pdwType,  
-   BSTR*        pbstrHelpFileName,  
-   DWORD*       pdwHelpId  
+   MESSAGETYPE* pMessageType,  
+   BSTR*        pbstrErrorFormat,  
+   HRESULT*     hrErrorReason,  
+   DWORD*       pdwType,  
+   BSTR*        pbstrHelpFileName,  
+   DWORD*       pdwHelpId  
 );  
 ```  
   
 ```csharp  
 int GetErrorMessage(  
-   out enum_MESSAGETYPE   pMessageType,  
-   out string             pbstrErrorFormat,  
-   out int                phrErrorReason,  
-   out uint               pdwType,  
-   out string             pbstrHelpFileName,  
-   out uint               pdwHelpId  
+   out enum_MESSAGETYPE   pMessageType,  
+   out string             pbstrErrorFormat,  
+   out int                phrErrorReason,  
+   out uint               pdwType,  
+   out string             pbstrHelpFileName,  
+   out uint               pdwHelpId  
 );  
 ```  
   

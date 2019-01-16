@@ -1,9 +1,6 @@
 ---
 title: "IDebugProgram2::Execute | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProgram2::Execute"
@@ -26,7 +23,7 @@ Continues running this program from a stopped state. Any previous execution stat
   
 ```cpp  
 HRESULT Execute(  
-   void  
+   void  
 );  
 ```  
   

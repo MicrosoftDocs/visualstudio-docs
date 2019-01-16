@@ -1,8 +1,8 @@
 ---
 title: "Extending Visual Studio for Mac"
 description: "Visual Studio for Mac's features and functionality can be extended with modules called extension packages. The first part of this guide creates a simple Visual Studio for Mac extension package to insert the date and time into a document. The second part of this guide introduces the fundamentals of the extension package system and some of the core APIs that form the foundation of Visual Studio for Mac."
-author: asb3993
-ms.author: amburns
+author: conceptdev
+ms.author: crdun
 ms.date: 04/14/2017
 ms.technology: vs-ide-sdk
 ms.assetid: D5245AB0-8404-426B-B538-F49125E672B2
@@ -47,13 +47,13 @@ Furthermore, additional references can be added via the Add-in reference node in
 
 ![Insert Date Screenshot](media/extending-visual-studio-mac-addin13.png)
 
-They also have their corresponding `assembly:AddinDependency ` attributes added at build time. Once the metadata and dependency declarations are in place, you can focus on the essential building blocks of the extension package.
+They also have their corresponding `assembly:AddinDependency` attributes added at build time. Once the metadata and dependency declarations are in place, you can focus on the essential building blocks of the extension package.
 
 ## Extensions and extension points
 
-An extension point is a placeholder that defines a data structure (a type), while an extension defines data that conforms to a structure specified by a specific extension point. Extension points specify what type of extension they can accept in their declaration. Extensions are declared using type names or extension paths. See the [Extension Point reference](http://monoaddins.codeplex.com/wikipage?title=Extension%20Points&referringTitle=Description%20of%20Add-ins%20and%20Add-in%20Roots) for a more in-depth explanation on how to create the extension point that you need.
+An extension point is a placeholder that defines a data structure (a type), while an extension defines data that conforms to a structure specified by a specific extension point. Extension points specify what type of extension they can accept in their declaration. Extensions are declared using type names or extension paths. See the [Extension Point reference](https://github.com/mono/mono-addins/wiki/Extension-Points) for a more in-depth explanation on how to create the extension point that you need.
 
-The extension/extension point architecture keeps the development of Visual Studio for Mac fast and modular. 
+The extension/extension point architecture keeps the development of Visual Studio for Mac fast and modular.
 
 <!--Since there are a large number of extension types, this article focuses on the ones used in the extension package that was built in the [Walkthrough](~/extending-visual-studio-mac-walkthrough.md).-->
 
@@ -157,4 +157,8 @@ For information on the scope of areas that are available for development, see th
 ## Additional Information
 
 > [!NOTE]
-We are currently working on improving the extensibility scenarios for Visual Studio for Mac. If you are creating extensions and need additional help or information, or would like to provide feedback, please fill in the [Visual Studio for Mac Extension Authoring](https://aka.ms/vsmac-extensions-survey) form.
+> We are currently working on improving the extensibility scenarios for Visual Studio for Mac. If you are creating extensions and need additional help or information, or would like to provide feedback, please fill in the [Visual Studio for Mac Extension Authoring](https://aka.ms/vsmac-extensions-survey) form.
+
+## See also
+
+- [Develop Visual Studio extensions (on Windows)](/visualstudio/extensibility/starting-to-develop-visual-studio-extensions)

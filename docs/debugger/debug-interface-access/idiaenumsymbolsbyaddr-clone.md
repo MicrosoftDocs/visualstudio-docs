@@ -1,8 +1,6 @@
 ---
 title: "IDiaEnumSymbolsByAddr::Clone | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Makes a copy of an object.
   
 ```C++  
 HRESULT Clone (   
-   IDiaEnumSymbolsByAddr** ppenum  
+   IDiaEnumSymbolsByAddr** ppenum  
 );  
 ```  
   

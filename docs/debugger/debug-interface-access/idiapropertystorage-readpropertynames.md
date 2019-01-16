@@ -1,8 +1,6 @@
 ---
 title: "IDiaPropertyStorage::ReadPropertyNames | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,9 +20,9 @@ Retrieves corresponding string names for given property identifiers.
   
 ```C++  
 HRESULT ReadPropertyNames (  
-   ULONG         cpropid,  
-   PROPID const* rgpropid,  
-   BSTR*         rglpwstrName  
+   ULONG         cpropid,  
+   PROPID const* rgpropid,  
+   BSTR*         rglpwstrName  
 );  
 ```  
   

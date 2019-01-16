@@ -13,33 +13,33 @@ manager: douge
 ms.workload:
   - "multiple"
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Properties of Image Shapes
+
 You can use image shapes to specify how domain classes appear in a generated designer. Define an image shape by setting the `Image` property of the class to a predefined image file. The following formats are supported:
 
--   .gif
+- .gif
 
--   .jpg
+- .jpg
 
--   .jpeg
+- .jpeg
 
--   .bmp
+- .bmp
 
--   .wmf
+- .wmf
 
--   .emf
+- .emf
 
--   .png
+- .png
 
- By default, designer resource files, such as image files, are located in the **Resources**folder in the **Dsl** project.
+By default, designer resource files, such as image files, are located in the **Resources** folder in the **Dsl** project.
 
- For more information, see [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md). For more information about how to use these properties, see [Customizing and Extending a Domain-Specific Language](../modeling/customizing-and-extending-a-domain-specific-language.md).
+For more information, see [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md). For more information about how to use these properties, see [Customizing and Extending a Domain-Specific Language](../modeling/customizing-and-extending-a-domain-specific-language.md).
 
- Image shapes have the properties that are listed in the following table.
+Image shapes have the properties that are listed in the following table.
 
 |Property|Description|Default|
-|--------------|-----------------|-------------|
+|-|-|-|
 |Fill Color|The fill color of this shape.|White|
 |Fill Gradient Mode|The fill gradient mode of this shape.|Horizontal|
 |Has Default Connection Points|If `True`, the shape will use top, bottom, left, and right connection points in the generated designer.|False|
@@ -68,4 +68,4 @@ You can use image shapes to specify how domain classes appear in a generated des
 
 ## See Also
 
-- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+- [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

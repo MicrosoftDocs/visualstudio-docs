@@ -1,21 +1,21 @@
 ---
-title: Selecting a Python interpreter and environment for a project
-description: How to assign the Python environment to use for a Visual Studio project, plus instructions on creating virtual environments.
-ms.date: 06/27/2018
+title: Select a Python interpreter and environment for a project
+description: You can specifically select a Python environment, including Anaconda and virtual environments, to apply to a specific project.
+ms.date: 11/08/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-python
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
 manager: douge
+ms.custom: seodec18
 ms.workload: 
   - python
   - data-science
 ---
 
-# How to assign which Python environment is used for a project
+# How to select a Python environment for a project
 
-All code in a Python project runs within the context of a specific environment. Visual Studio also uses that environment for debugging, import and member completions, syntax checking, and any other tasks that require an environment.
+All code in a Python project runs within the context of a specific environment, such as a global Python environment, an Anaconda environment, a virtual environment, or a conda environment. Visual Studio also uses that environment for debugging, import and member completions, syntax checking, and any other tasks that require language services that are specific to the Python version and a set of installed packages.
 
 All new Python projects in Visual Studio are initially configured to use the default global environment, which appears under the **Python Environments** node in **Solution Explorer**:
 
@@ -37,7 +37,7 @@ The context menu on the **Python Environments** node also provides additional co
 | --- | --- |
 | **Add Virtual Environment** | Begins the process of creating a new virtual environment in the project. See [Create a virtual environment](#create-a-virtual-environment). |
 | **Add Existing Virtual Environment** | Prompts you to select a folder containing a virtual environment and adds it to the list under **Python Environments**, but does not activate it. See [Activate an existing virtual environment](#activate-an-existing-virtual-environment). |
-| **Create Conda environment** | Switches to the **Python Environments** *window* in which you enter a name for the environment and specify its base interpreter. |
+| **Create Conda environment** | Switches to the **Python Environments** *window* in which you enter a name for the environment and specify its base interpreter. See [Conda environments](managing-python-environments-in-visual-studio.md#conda-environments). |
 
 ## Use virtual environments
 
@@ -45,7 +45,7 @@ A virtual environment is a unique combination of a specific Python interpreter a
 
 A benefit to using a virtual environment is that as you develop project over time, the virtual environment always reflects the project's exact dependencies. (A shared global environment, on the other hand, contains any number of libraries whether you use them in your project or not.) You can then easily create a *requirements.txt* file from the virtual environment, which is then used to reinstall those dependencies on another development or production computer. For more information, see [Manage required packages with requirements.txt](managing-required-packages-with-requirements-txt.md).
 
-When you open a project in Visual Studio that contains a *requirements.txt* file, Visual Studio automatically gives you the option to recreate the virtual environment. On computers where Visual Studio isn't installed, such as Azure App Service, you can use `pip install -r requirements.txt` to restore the packages (this process is described on [Manage Python on Azure App Service](managing-python-on-azure-app-service.md)).
+When you open a project in Visual Studio that contains a *requirements.txt* file, Visual Studio automatically gives you the option to recreate the virtual environment. On computers where Visual Studio isn't installed, you can use `pip install -r requirements.txt` to restore the packages.
 
 Because a virtual environment contains a hard-coded path to the base interpreter, and because you can recreate the environment using *requirements.txt*, you typically omit the entire virtual environment folder from source control.
 
@@ -109,7 +109,7 @@ Be aware that the displayed entries may not always be accurate, and installation
 Also note that Visual Studio does not presently support using `conda` to install packages into a conda environment. Use `conda` from the command line instead.
 
 > [!Tip]
-> A common situation where pip fails to install a package is when the package includes source code for native components in *\*.pyd* files. Without the required version of Visual Studio installed, pip cannot compile these components. The error message displayed in this situation is **error: Unable to find vcvarsall.bat**. `easy_install` is often able to download pre-compiled binaries, and you can download a suitable compiler for older versions of Python from [http://aka.ms/VCPython27](http://aka.ms/VCPython27). For more details, see [How to deal with the pain of "unable to find vcvarsallbat"](https://blogs.msdn.microsoft.com/pythonengineering/2016/04/11/unable-to-find-vcvarsall-bat/) on the Python tools team blog.
+> A common situation where pip fails to install a package is when the package includes source code for native components in *\*.pyd* files. Without the required version of Visual Studio installed, pip cannot compile these components. The error message displayed in this situation is **error: Unable to find vcvarsall.bat**. `easy_install` is often able to download pre-compiled binaries, and you can download a suitable compiler for older versions of Python from [https://aka.ms/VCPython27](https://aka.ms/VCPython27). For more details, see [How to deal with the pain of "unable to find vcvarsallbat"](https://blogs.msdn.microsoft.com/pythonengineering/2016/04/11/unable-to-find-vcvarsall-bat/) on the Python tools team blog.
 
 ## See also
 

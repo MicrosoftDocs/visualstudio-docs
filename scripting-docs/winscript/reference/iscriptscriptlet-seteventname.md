@@ -24,7 +24,7 @@ Sets the name of the event that is associated with the scriptlet.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT SetEventName(  
    LPCOLESTR          psz  
 );  

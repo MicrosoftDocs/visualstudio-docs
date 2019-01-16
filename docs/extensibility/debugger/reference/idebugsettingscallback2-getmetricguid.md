@@ -1,9 +1,6 @@
 ---
 title: "IDebugSettingsCallback2::GetMetricGuid | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugSettingsCallback2::GetMetricGuid"
@@ -21,19 +18,19 @@ Retrieves the unique identifier of a metric given its name.
   
 ```cpp  
 HRESULT GetMetricGuid(  
-   LPCWSTR pszType,  
-   REFGUID guidSection,  
-   LPCWSTR pszMetric,  
-   GUID*   pguidValue  
+   LPCWSTR pszType,  
+   REFGUID guidSection,  
+   LPCWSTR pszMetric,  
+   GUID*   pguidValue  
 );  
 ```  
   
 ```csharp  
 private int GetMetricGuid(  
-   string   pszType,  
-   ref Guid guidSection,  
-   string   pszMetric,  
-   out Guid pguidValue  
+   string   pszType,  
+   ref Guid guidSection,  
+   string   pszMetric,  
+   out Guid pguidValue  
 );  
 ```  
   

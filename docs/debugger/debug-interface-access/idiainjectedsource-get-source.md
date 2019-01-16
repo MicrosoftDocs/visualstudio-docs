@@ -1,8 +1,6 @@
 ---
 title: "IDiaInjectedSource::get_source | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,9 +20,9 @@ Retrieves the source code bytes.
   
 ```C++  
 HRESULT get_source (   
-   DWORD  cbData,  
-   DWORD* pcbData,  
-   BYTE   data[]  
+   DWORD  cbData,  
+   DWORD* pcbData,  
+   BYTE   data[]  
 );  
 ```  
   

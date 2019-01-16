@@ -1,8 +1,6 @@
 ---
 title: "Error: Remote machine does not appear in a Remote Connections dialog | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "troubleshooting"
 dev_langs: 
   - "CSharp"
@@ -18,7 +16,7 @@ ms.workload:
 # Error: Remote machine does not appear in a Remote Connections dialog
 If the remote machine does not appear in the Remote Connections dialog, check the following common causes.  
   
- If you are using managed compatibility mode, please check the Visual Studio 2010 documentation: [Troubleshooting Remote Debugging - Visual Studio 2010](https://msdn.microsoft.com/en-us/library/2ys11ead\(v=vs.100\).aspx) .  
+ If you are using managed compatibility mode, please check the Visual Studio 2010 documentation: [Troubleshooting Remote Debugging - Visual Studio 2010](https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2010/2ys11ead(v=vs.100)).  
   
 ### Common causes for this error  
   

@@ -12,7 +12,6 @@ manager: douge
 ms.workload:
   - "multiple"
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Customizing Deletion Behavior
 Deleting an element usually causes related elements to be deleted also. All relationships connected to it, and any child elements are deleted. This behavior is named *delete propagation*. You can customize delete propagation, for example to arrange that additional related elements are deleted. By writing program code, you can make delete propagation depend on the state of the model. You can also cause other changes to occur in response to a deletion.
@@ -29,11 +28,11 @@ Deleting an element usually causes related elements to be deleted also. All rela
 
 -   [Deletion Rules](#rules) - Use rules to propagate updates of any kind within the store, where one change might lead to others.
 
--   [Deletion Events](#rules) - Use store events to propagate updates outside the store, for example to other [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] documents.
+-   [Deletion Events](#rules) - Use store events to propagate updates outside the store, for example to other Visual Studio documents.
 
 -   [UnMerge](#unmerge) - use the UnMerge operation to undo the merge operation that attached a child element to its parent.
 
-##  <a name="default"></a> Default Deletion Behavior
+## <a name="default"></a> Default Deletion Behavior
  By default, the following rules govern delete propagation:
 
 -   If an element is deleted, all embedded elements are also deleted. The embedded elements are those that are the targets of embedding relationships for which this element is the source. For example, if there is an embedding relationship from **Album** to **Song**, then when a particular Album is deleted, all its Songs will also be deleted.
@@ -46,24 +45,24 @@ Deleting an element usually causes related elements to be deleted also. All rela
 
 -   Every relationship that is connected to the element, either at the source or target role, is deleted. The role property of the element at the opposite role no longer contains the deleted element.
 
-##  <a name="property"></a> Setting the Propagate Delete option of a role
+## <a name="property"></a> Setting the Propagate Delete option of a role
  You can cause deletion to propagate along a reference relationship, or from an embedded child to its parent.
 
 #### To set delete propagation
 
-1.  On the DSL Definition diagram, select the *role* to which you want propagation to delete. The role is represented by the line on the left or right of a domain relationship box.
+1. On the DSL Definition diagram, select the *role* to which you want propagation to delete. The role is represented by the line on the left or right of a domain relationship box.
 
-     For example, if you want to specify that whenever an Album is deleted, the related Artists are also deleted, then select the role connected to the domain class Artist.
+    For example, if you want to specify that whenever an Album is deleted, the related Artists are also deleted, then select the role connected to the domain class Artist.
 
-2.  In the Properties window, set the **Propagates Delete** property.
+2. In the Properties window, set the **Propagates Delete** property.
 
-3.  Press F5 and verify that:
+3. Press F5 and verify that:
 
-    -   When an instance of this relationship is deleted, the element at the selected role will also be deleted.
+   -   When an instance of this relationship is deleted, the element at the selected role will also be deleted.
 
-    -   When an element at the opposite role is deleted, instances of this relationship will be deleted, and the related elements at this role will be deleted.
+   -   When an element at the opposite role is deleted, instances of this relationship will be deleted, and the related elements at this role will be deleted.
 
- You can also see the **Propagates Delete** option in the **DSL Details** window. Select a domain class and, in the DSL Details window, open the **Delete Behavior** page by clicking the button at the side of the window. The **Propagate** option is shown for the opposite role of each relationship. The **Delete Style** column indicates whether the **Propagate** option is at its default setting, but it does not have any separate effect.
+   You can also see the **Propagates Delete** option in the **DSL Details** window. Select a domain class and, in the DSL Details window, open the **Delete Behavior** page by clicking the button at the side of the window. The **Propagate** option is shown for the opposite role of each relationship. The **Delete Style** column indicates whether the **Propagate** option is at its default setting, but it does not have any separate effect.
 
 ## Delete Propagation by using program code
  The options in the DSL Definition file only let you choose whether deletion propagates to an immediate neighbor. To implement a more complex scheme of delete propagation, you can write program code.
@@ -71,8 +70,8 @@ Deleting an element usually causes related elements to be deleted also. All rela
 > [!NOTE]
 >  To add program code to your DSL definition, create a separate code file in the **Dsl** project and write partial definitions to augment the classes in the Generated Code folder. For more information, see [Writing Code to Customise a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md).
 
-##  <a name="closure"></a> Defining a Delete Closure
- The deletion operation uses the class *YourModel***DeleteClosure** to determine which elements to delete, given an initial selection. It calls `ShouldVisitRelationship()` and `ShouldVisitRolePlayer()` repeatedly, walking the graph of relationships. You can override these methods. ShouldVisitRolePlayer is provided with the identity of a link and the element at one of the link's roles. It should return one of the following values:
+## <a name="closure"></a> Defining a Delete Closure
+ The deletion operation uses the class _YourModel_**DeleteClosure** to determine which elements to delete, given an initial selection. It calls `ShouldVisitRelationship()` and `ShouldVisitRolePlayer()` repeatedly, walking the graph of relationships. You can override these methods. ShouldVisitRolePlayer is provided with the identity of a link and the element at one of the link's roles. It should return one of the following values:
 
 -   **VisitorFilterResult.Yes**- The element should be deleted and the walker should proceed to try the element's other links.
 
@@ -117,27 +116,26 @@ partial class MusicLibDeleteClosure
     }
   }
 }
-
 ```
 
  The closure technique ensures that the set of elements and links to be deleted is determined before deletion begins. The walker also combines the results of your closure with those from other parts of the model.
 
  However, the technique assumes that deletion affects only its neighbors in the graph of relationships: you cannot use this method to delete an element in another part of the model. You cannot use it if you want to add elements or make other changes in response to a deletion.
 
-##  <a name="ondeleting"></a> Using OnDeleting and OnDeleted
+## <a name="ondeleting"></a> Using OnDeleting and OnDeleted
  You can override `OnDeleting()` or `OnDeleted()` either in a domain class, or in a domain relationship.
 
-1.  <xref:Microsoft.VisualStudio.Modeling.ModelElement.OnDeleting%2A> is called when an element is about to be deleted, but before its relationships have been disconnected. It is still navigable to and from other elements, and is still in `store.ElementDirectory`.
+1. <xref:Microsoft.VisualStudio.Modeling.ModelElement.OnDeleting%2A> is called when an element is about to be deleted, but before its relationships have been disconnected. It is still navigable to and from other elements, and is still in `store.ElementDirectory`.
 
-     If several elements are deleted at the same time, OnDeleting is called for all of them before performing the deletions.
+    If several elements are deleted at the same time, OnDeleting is called for all of them before performing the deletions.
 
-     `IsDeleting` is true.
+    `IsDeleting` is true.
 
-2.  <xref:Microsoft.VisualStudio.Modeling.ModelElement.OnDeleted%2A> is called when the element has been deleted. It remains in the CLR heap so that an Undo can be performed if required, but it is unlinked from other elements and removed from `store.ElementDirectory`. For relationships, the roles still reference the old role players.`IsDeleted` is true.
+2. <xref:Microsoft.VisualStudio.Modeling.ModelElement.OnDeleted%2A> is called when the element has been deleted. It remains in the CLR heap so that an Undo can be performed if required, but it is unlinked from other elements and removed from `store.ElementDirectory`. For relationships, the roles still reference the old role players.`IsDeleted` is true.
 
-3.  OnDeleting and OnDeleted are called when the user invokes Undo after a creating an element, and when an earlier deletion is repeated in Redo. Use `this.Store.InUndoRedoOrRollback` to avoid updating store elements in these cases. For more information, see [How to: Use Transactions to Update the Model](../modeling/how-to-use-transactions-to-update-the-model.md).
+3. OnDeleting and OnDeleted are called when the user invokes Undo after a creating an element, and when an earlier deletion is repeated in Redo. Use `this.Store.InUndoRedoOrRollback` to avoid updating store elements in these cases. For more information, see [How to: Use Transactions to Update the Model](../modeling/how-to-use-transactions-to-update-the-model.md).
 
- For example, the following code deletes an Album when its last child Song is deleted:
+   For example, the following code deletes an Album when its last child Song is deleted:
 
 ```
 
@@ -158,7 +156,6 @@ partial class AlbumHasSongs
       {
         this.Album.Delete();
 } } } }
-
 ```
 
  It is often more useful to trigger from the deletion of the relationship than the role element, because this works both when the element is deleted, and when the relationship itself is deleted. However, for a reference relationship, you might want to propagate deletion when a related element is deleted, but not when the relationship itself is deleted. This example deletes an Album when its last contributing Artist is deleted, but it does not respond if the relationships are deleted:
@@ -186,12 +183,11 @@ partial class Artist
     {
       album.Delete();
 } } }
-
 ```
 
  When you perform <xref:Microsoft.VisualStudio.Modeling.ModelElement.Delete%2A> on an element, OnDeleting and OnDeleted will be called. These methods are always performed inline - that is, immediately before and after the actual deletion. If your code deletes two or more elements, OnDeleting and OnDeleted will be called in alternation on all of them in turn.
 
-##  <a name="rules"></a> Deletion Rules and Events
+## <a name="rules"></a> Deletion Rules and Events
  As an alternative  to  OnDelete handlers, you can define deletion rules and deletion events.
 
 1.  **Deleting** and **Delete** rules are triggered only in a transaction, and not in an Undo or Redo. You can set them to be queued to execute at the end of the transaction in which the deletion is performed. Deleting rules are always executed before any Deleted rules that are in the queue.
@@ -200,7 +196,7 @@ partial class Artist
 
      For more information, see [Rules Propagate Changes Within the Model](../modeling/rules-propagate-changes-within-the-model.md).
 
-2.  **Deleted** store event is invoked at the end of a transaction, and is called after an undo or redo. It can therefore be used to propagate deletions to objects outside the store such as files, database entries or other objects in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].
+2.  **Deleted** store event is invoked at the end of a transaction, and is called after an undo or redo. It can therefore be used to propagate deletions to objects outside the store such as files, database entries or other objects in Visual Studio.
 
      For more information, see [Event Handlers Propagate Changes Outside the Model](../modeling/event-handlers-propagate-changes-outside-the-model.md).
 
@@ -241,7 +237,6 @@ public partial class MusicLibDomainModel
     return types.ToArray();
   }
 }
-
 ```
 
 ### Example Deleted Event
@@ -278,10 +273,9 @@ partial class NestedShapesSampleDocData
     }
   }
 }
-
 ```
 
-##  <a name="unmerge"></a> UnMerge
+## <a name="unmerge"></a> UnMerge
  The operation that attaches a child element to its parent is called *merge*. It occurs when a new element or group of elements is created from the toolbox, or moved from another part of the model, or copied from the clipboard. As well as creating an embedding relationship between the parent and its new child, the merge operation can also set up additional relationships, create auxiliary elements, and set property values in the elements. The merge operation is encapsulated in an Element Merge Directive (EMD).
 
  An EMD also encapsulates the complementary *unmerge* or `MergeDisconnect` operation. If you have a cluster of elements that has been constructed by using a merge, it is recommended to use the associated unmerge to remove an element from it, if you want to leave the remaining elements in a consistent state. The unmerge operation will typically use the techniques described in the previous sections.

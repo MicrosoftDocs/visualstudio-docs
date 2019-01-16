@@ -1,13 +1,14 @@
 ---
-title: Tutorial - Learn Flask in Visual Studio, step 1
-description: A walkthrough of Flask basics in the context of Visual Studio projects.
-ms.date: 06/04/2018
+title: Learn Flask tutorial in Visual Studio step 1, Flask basics
+titleSuffix: ""
+description: A walkthrough of Flask basics in the context of Visual Studio projects, including prerequisites, Git, and virtual environments.
+ms.date: 01/07/2019
 ms.prod: visual-studio-dev15
-ms.technology: vs-python
 ms.topic: tutorial
 author: kraigb
 ms.author: kraigb
 manager: douge
+ms.custom: seodec18
 ms.workload: 
   - python
   - data-science
@@ -31,7 +32,7 @@ In this tutorial, you learn how to:
 Over the course of these steps you create a single Visual Studio solution that contains three separate projects. You create the project using different Flask project templates that are included with Visual Studio. By keeping the projects in the same solution, you can easily switch back and forth between different files for comparison.
 
 > [!Note]
-> This tutorial differs from the [Flask Quickstart](../ide/quickstart-python.md?context=visualstudio/python/default) in that you learn more about Flask as well as how to use the different Flask project templates that provide a more extensive starting point for your own projects. For example, the project templates automatically install the Flask package when creating a project, rather than needing you to install the package manually as shown in the Quickstart.
+> This tutorial differs from the [Flask Quickstart](../ide/quickstart-python.md?toc=/visualstudio/python/toc.json&bc=/visualstudio/python/_breadcrumb/toc.json) in that you learn more about Flask as well as how to use the different Flask project templates that provide a more extensive starting point for your own projects. For example, the project templates automatically install the Flask package when creating a project, rather than needing you to install the package manually as shown in the Quickstart.
 
 ## Prerequisites
 
@@ -90,7 +91,7 @@ Because you selected the **Create new Git repository** in the **New Project** di
 
     ![Team Explorer window for pushing to an existing remote repository](media/flask/step01-push-to-github.png)
 
-    If you don't have an existing repository, the **Publish to GitHub** and **Push to Visual Studio Team Services** options let you create one directly from within Visual Studio.
+    If you don't have an existing repository, the **Publish to GitHub** and **Push to Azure DevOps** options let you create one directly from within Visual Studio.
 
 1. As you work through this tutorial, get into the habit of periodically using the controls in Visual Studio to commit and push changes. This tutorial reminds you at appropriate points.
 

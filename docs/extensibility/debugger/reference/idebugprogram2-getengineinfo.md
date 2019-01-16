@@ -1,9 +1,6 @@
 ---
 title: "IDebugProgram2::GetEngineInfo | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProgram2::GetEngineInfo"
@@ -23,15 +20,15 @@ Gets the name and GUID of the debug engine (DE) running this program.
   
 ```cpp  
 HRESULT GetEngineInfo(   
-   BSTR* pbstrEngine,  
-   GUID* pguidEngine  
+   BSTR* pbstrEngine,  
+   GUID* pguidEngine  
 );  
 ```  
   
 ```csharp  
 int GetEngineInfo(   
-   out string pbstrEngine,  
-   out GUID   pguidEngine  
+   out string pbstrEngine,  
+   out GUID   pguidEngine  
 );  
 ```  
   

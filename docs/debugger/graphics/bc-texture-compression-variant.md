@@ -1,8 +1,6 @@
 ---
 title: "BC Texture Compression Variant | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: 2d0f5305-585b-4b01-bc9a-7a32d6e991da
 author: "mikejo5000"
@@ -22,19 +20,19 @@ Enables block compression on textures that have a pixel format that's a variatio
 ## Remarks  
  You compress textures by using a block-based compression format on every call to `ID3DDevice::CreateTexture2D` that creates a source texture. Specifically, textures are compressed when:  
   
--   The `D3D11_TEXTURE2D_DESC` object passed in `pDesc` describes an unchanging shader resource; that is:  
+- The `D3D11_TEXTURE2D_DESC` object passed in `pDesc` describes an unchanging shader resource; that is:  
   
-    -   The BindFlags member has only the D3D11_BIND_SHADER_RESOURCE flag set.  
+  -   The BindFlags member has only the D3D11_BIND_SHADER_RESOURCE flag set.  
   
-    -   The Usage member is set to either D3D11_USAGE_DEFAULT or D3D11_USAGE_IMMUTABLE.  
+  -   The Usage member is set to either D3D11_USAGE_DEFAULT or D3D11_USAGE_IMMUTABLE.  
   
-    -   The CPUAccessFlags member is set to 0 (no CPU access).  
+  -   The CPUAccessFlags member is set to 0 (no CPU access).  
   
-    -   The SamplerDesc member has its Count member set to 1 (no Multi-Sample Anti-Aliasing (MSAA)).  
+  -   The SamplerDesc member has its Count member set to 1 (no Multi-Sample Anti-Aliasing (MSAA)).  
   
--   Initial data is provided to the call to `CreateTexture2D`.  
+- Initial data is provided to the call to `CreateTexture2D`.  
   
- Here are the supported source formats and their block-compressed formats.  
+  Here are the supported source formats and their block-compressed formats.  
   
 |Original format (from)|Compressed format (to)|  
 |------------------------------|------------------------------|  

@@ -1,8 +1,6 @@
 ---
 title: "IDiaSymbol::get_notReached | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves a flag that specifies whether the function or label is never reached.
   
 ```C++  
 HRESULT get_notReached(  
-   BOOL *pFlag  
+   BOOL *pFlag  
 );  
 ```  
   

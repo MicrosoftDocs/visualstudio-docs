@@ -1,9 +1,6 @@
 ---
 title: "IDebugBoundBreakpoint2::SetHitCount | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugBoundBreakpoint2::SetHitCount"
@@ -24,13 +21,13 @@ Sets the hit count for the bound breakpoint.
   
 ```cpp  
 HRESULT SetHitCount(   
-   DWORD dwHitCount  
+   DWORD dwHitCount  
 );  
 ```  
   
 ```csharp  
 int SetHitCount(   
-   uint dwHitCount  
+   uint dwHitCount  
 );  
 ```  
   

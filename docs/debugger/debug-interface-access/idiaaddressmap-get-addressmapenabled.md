@@ -1,8 +1,6 @@
 ---
 title: "IDiaAddressMap::get_addressMapEnabled | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Indicates whether an address map has been established for a particular session.
   
 ```C++  
 HRESULT get_addressMapEnabled (   
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 );  
 ```  
   

@@ -1,9 +1,6 @@
 ---
 title: "IDebugBreakpointBoundEvent2::EnumBoundBreakpoints | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugBreakpointBoundEvent2::EnumBoundBreakpoints"
@@ -23,13 +20,13 @@ Creates an enumerator of breakpoints that were bound on this event.
   
 ```cpp  
 HRESULT EnumBoundBreakpoints(   
-   IEnumDebugBoundBreakpoints2** ppEnum  
+   IEnumDebugBoundBreakpoints2** ppEnum  
 );  
 ```  
   
 ```csharp  
 int EnumBoundBreakpoints(   
-   out IEnumDebugBoundBreakpoints2 ppEnum  
+   out IEnumDebugBoundBreakpoints2 ppEnum  
 );  
 ```  
   

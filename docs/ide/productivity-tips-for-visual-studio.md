@@ -1,8 +1,7 @@
 ---
-title: Productivity tips for Visual Studio
+title: Productivity tips
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren
@@ -72,7 +71,7 @@ You can search across the IDE for commands, files, and options, in addition to f
 
 Debugging can consume a lot of time, but the following tips can help you speed up the process.
 
-- **Test the same page, application, or site in different browsers**. As you debug your code, you can easily switch among the installed web browsers, including [Page Inspector (Visual Studio)](http://msdn.microsoft.com/Library/65880969-1ad2-47be-85b9-bb12c81bf209), without having to open the **Browse With** dialog box. You can use the **Debug Target** list, which is on the **Standard** toolbar next to the **Start Debugging** button, to quickly verify which browser you're using as you debug or view pages.
+- **Test the same page, application, or site in different browsers**. As you debug your code, you can easily switch among the installed web browsers, including [Page Inspector (Visual Studio)](https://msdn.microsoft.com/Library/65880969-1ad2-47be-85b9-bb12c81bf209), without having to open the **Browse With** dialog box. You can use the **Debug Target** list, which is on the **Standard** toolbar next to the **Start Debugging** button, to quickly verify which browser you're using as you debug or view pages.
 
     ![Select web browser debug options](../ide/media/webbrowserdropdowntoolbar.png)
 
@@ -118,5 +117,5 @@ At any one time, you may be working in multiple code files and moving among seve
 
 - [Default keyboard shortcuts for frequently used commands](../ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md)
 - [How to: Customize menus and toolbars](../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md)
-- [Walkthrough: Create a simple application](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md)
+- [Walkthrough: Create a simple application](../get-started/csharp/tutorial-wpf.md)
 - [Accessibility tips and tricks](../ide/reference/accessibility-tips-and-tricks.md)

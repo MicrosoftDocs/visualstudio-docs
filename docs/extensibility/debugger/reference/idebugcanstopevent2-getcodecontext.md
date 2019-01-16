@@ -1,9 +1,6 @@
 ---
 title: "IDebugCanStopEvent2::GetCodeContext | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugCanStopEvent2::GetCodeContext"
@@ -23,13 +20,13 @@ Gets the code context that describes the location of this event.
   
 ```cpp  
 HRESULT GetCodeContext(   
-   IDebugCodeContext2** ppCodeContext  
+   IDebugCodeContext2** ppCodeContext  
 );  
 ```  
   
 ```csharp  
 int GetCodeContext(   
-   out IDebugCodeContext2 ppCodeContext  
+   out IDebugCodeContext2 ppCodeContext  
 );  
 ```  
   

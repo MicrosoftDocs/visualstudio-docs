@@ -1,9 +1,6 @@
 ---
 title: "Ribbon object model overview"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -89,17 +86,17 @@ ms.workload:
 ##  <a name="SettingReadOnlyProperties"></a> Set properties that become read-only  
  Some properties can only be set before the ribbon loads. There are three places to set these properties:  
   
--   In the Visual Studio **Properties** window.  
+- In the Visual Studio **Properties** window.  
   
--   In the constructor of the **Ribbon** class.  
+- In the constructor of the **Ribbon** class.  
   
--   In the `CreateRibbonExtensibilityObject` method of the `ThisAddin`, `ThisWorkbook`, or `ThisDocument` class of your project.  
+- In the `CreateRibbonExtensibilityObject` method of the `ThisAddin`, `ThisWorkbook`, or `ThisDocument` class of your project.  
   
- Dynamic menus provide some exceptions. You can create new controls, set their properties, and then add them to a dynamic menu at runtime, even after the ribbon that contains the menu is loaded.  
+  Dynamic menus provide some exceptions. You can create new controls, set their properties, and then add them to a dynamic menu at runtime, even after the ribbon that contains the menu is loaded.  
   
- Properties of controls that you add to a dynamic menu can be set at any time.  
+  Properties of controls that you add to a dynamic menu can be set at any time.  
   
- For more information, see [Properties that become read-only](#ReadOnlyProperties).  
+  For more information, see [Properties that become read-only](#ReadOnlyProperties).  
   
 ### Set properties in the constructor of the ribbon  
  You can set the properties of a `Ribbon` control in the constructor of the **Ribbon** class. This code must appear after the call to the `InitializeComponent` method. The following example adds a new button to a group if the current time is 17:00 Pacific Time (UTC-8) or later.  
@@ -193,4 +190,3 @@ ms.workload:
  [How to: Add controls to the Backstage view](../vsto/how-to-add-controls-to-the-backstage-view.md)   
  [How to: Export a ribbon from the Ribbon Designer to Ribbon XML](../vsto/how-to-export-a-ribbon-from-the-ribbon-designer-to-ribbon-xml.md)   
  [How to: Show Add-in user interface errors](../vsto/how-to-show-add-in-user-interface-errors.md)  
- 

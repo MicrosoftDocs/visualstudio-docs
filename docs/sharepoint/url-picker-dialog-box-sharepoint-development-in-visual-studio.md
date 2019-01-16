@@ -1,9 +1,6 @@
 ---
 title: "URL Picker Dialog Box (SharePoint development in Visual Studio) | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VS.SharePointTools.VWD.URLPicker"
@@ -30,30 +27,29 @@ ms.workload:
   
  Expand the **Project** node to choose files in your project. To appear as selectable in the dialog box, files in your project must meet the following criteria:  
   
--   The file must be contained in a mapped folder.  
+- The file must be contained in a mapped folder.  
   
--   The file must be added to the solution package.  
+- The file must be added to the solution package.  
   
--   The file cannot be located in another project.  
+- The file cannot be located in another project.  
   
- If you want to reference files that do not meet these criteria, you have to enter the path of the file manually.  
+  If you want to reference files that do not meet these criteria, you have to enter the path of the file manually.  
   
- Expand the **Server** node to choose files that are located on the local server that's running SharePoint. To appear as selectable in the dialog box, these files must meet the following criteria:  
+  Expand the **Server** node to choose files that are located on the local server that's running SharePoint. To appear as selectable in the dialog box, these files must meet the following criteria:  
   
--   The file must be located in one of the following mapped folders: **Images**, **Layouts**, or **ControlTemplates**.  
+- The file must be located in one of the following mapped folders: **Images**, **Layouts**, or **ControlTemplates**.  
   
--   The file cannot be located in the SharePoint content database.  
+- The file cannot be located in the SharePoint content database.  
   
- If you want to reference files that do not meet these criteria, you have to enter the path of the file manually.  
+  If you want to reference files that do not meet these criteria, you have to enter the path of the file manually.  
   
- **Contents of folder**  
- Displays a list of files in the selected folder. Choose a file, and then choose the **OK** button to close the dialog box and send your selection to the process that called it.  
+  **Contents of folder**  
+  Displays a list of files in the selected folder. Choose a file, and then choose the **OK** button to close the dialog box and send your selection to the process that called it.  
   
- **Files of type**  
- Allows you to choose from a list of files that are appropriate for the task you are performing.  
+  **Files of type**  
+  Allows you to choose from a list of files that are appropriate for the task you are performing.  
   
 ## See also
  [Create application pages for SharePoint](../sharepoint/creating-application-pages-for-sharepoint.md)   
  [Create web parts for SharePoint](../sharepoint/creating-web-parts-for-sharepoint.md)   
  [Create reusable controls for web parts or application pages](../sharepoint/creating-reusable-controls-for-web-parts-or-application-pages.md)   
-  

@@ -1,9 +1,6 @@
 ---
 title: "REFERENCE_TYPE | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "REFERENCE_TYPE"
@@ -23,16 +20,16 @@ Specifies the reference type.
   
 ```cpp  
 enum enum_REFERENCE_TYPE {   
-   REF_TYPE_WEAK   = 0x0001,  
-   REF_TYPE_STRONG = 0x0002  
+   REF_TYPE_WEAK   = 0x0001,  
+   REF_TYPE_STRONG = 0x0002  
 };  
 typedef DWORD REFERENCE_TYPE;  
 ```  
   
 ```csharp  
 public enum enum_REFERENCE_TYPE {   
-   REF_TYPE_WEAK   = 0x0001,  
-   REF_TYPE_STRONG = 0x0002  
+   REF_TYPE_WEAK   = 0x0001,  
+   REF_TYPE_STRONG = 0x0002  
 };  
 ```  
   

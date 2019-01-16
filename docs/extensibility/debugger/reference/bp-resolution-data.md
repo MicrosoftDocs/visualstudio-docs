@@ -1,9 +1,6 @@
 ---
 title: "BP_RESOLUTION_DATA | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "BP_RESOLUTION_DATA"
@@ -23,19 +20,19 @@ Describes the result of binding a data breakpoint.
   
 ```cpp  
 typedef struct _BP_RESOLUTION_DATA {   
-   BSTR              bstrDataExpr;  
-   BSTR              bstrFunc;  
-   BSTR              bstrImage;  
-   BP_RES_DATA_FLAGS dwFlags;  
+   BSTR              bstrDataExpr;  
+   BSTR              bstrFunc;  
+   BSTR              bstrImage;  
+   BP_RES_DATA_FLAGS dwFlags;  
 } BP_RESOLUTION_DATA;  
 ```  
   
 ```csharp  
 public struct BP_RESOLUTION_DATA {   
-   public string bstrDataExpr;  
-   public string bstrFunc;  
-   public string bstrImage;  
-   public uint   dwFlags;  
+   public string bstrDataExpr;  
+   public string bstrFunc;  
+   public string bstrImage;  
+   public uint   dwFlags;  
 };  
 ```  
   

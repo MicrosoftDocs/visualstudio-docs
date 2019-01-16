@@ -1,9 +1,6 @@
 ---
 title: "Localizing VSIX Packages | Microsoft Docs"
-ms.custom: ""
 ms.date: "10/26/2017"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "localize package"
@@ -18,13 +15,13 @@ ms.workload:
 ---
 # Localizing VSIX Packages
 
-You can localize a VSIX package by creating an Extension.vsixlangpack file for each target language and then putting them in the correct folder. When a localized package is installed, the localized name of the extension is displayed together with a localized description. If you supply a localized license file, or a URL that points to localized information, they are also displayed.
+You can localize a VSIX package by creating an *Extension.vsixlangpack* file for each target language and then putting them in the correct folder. When a localized package is installed, the localized name of the extension is displayed together with a localized description. If you supply a localized license file, or a URL that points to localized information, they are also displayed.
 
-If the content your VSIX package includes a VSPackage that adds menu commands or other UI, see [Localizing Menu Commands](../extensibility/localizing-menu-commands.md) for information about localizing the new UI elements.
+If the content your VSIX package includes a VSPackage that adds menu commands or other UI, see [Localize menu commands](../extensibility/localizing-menu-commands.md) for information about localizing the new UI elements.
 
-## Directory Structure
+## Directory structure
 
- When a user installs an extension, **Extensions and Updates** checks the top level of the VSIX package for a folder whose name matches the Visual Studio locale of the target computer. If **Extensions and Updates** finds a .vsixlangpack file in the folder, it substitutes the localized values in that file for the corresponding values in the .vsixmanifest file. These values are displayed when the extension is being installed. The following example shows the directory structure for a VSIX package that is localized into Spanish (es-ES) and French (fr-FR).  
+ When a user installs an extension, **Extensions and Updates** checks the top level of the VSIX package for a folder whose name matches the Visual Studio locale of the target computer. If **Extensions and Updates** finds a *.vsixlangpack* file in the folder, it substitutes the localized values in that file for the corresponding values in the *.vsixmanifest* file. These values are displayed when the extension is being installed. The following example shows the directory structure for a VSIX package that is localized into Spanish (es-ES) and French (fr-FR).  
 
 ```text
 .
@@ -38,11 +35,11 @@ If the content your VSIX package includes a VSPackage that adds menu commands or
 ```
 
 > [!NOTE]
-> The VSIX-supported project templates in the [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] generate a VSIX manifest and name it source.extension.vsixmanifest. When Visual Studio builds the project, it copies the content of that file into Extension.VsixManifest in the VSIX package.
+> The VSIX-supported project templates in the [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] generate a VSIX manifest and name it *source.extension.vsixmanifest*. When Visual Studio builds the project, it copies the content of that file into Extension.VsixManifest in the VSIX package.
 
-## The Extension.vsixlangpack File
+## The Extension.vsixlangpack file
 
-The Extension.vsixlangpack file follows the [VSIX Language Pack Schema 2.0](../extensibility/vsix-language-pack-schema-2-0-reference.md). This schema has a `PackageLanguagePackManifest`, which is immediately followed by a `Metadata` child element. The Metadata element can contain up to 6 child elements, `DisplayName`, `Description`, `MoreInfo`, `License`, `ReleaseNotes`, and `Icon`. These child elements correspond to the `DisplayName`, `Description`, `MoreInfo`, `License`, `ReleaseNotes`, and `Icon` child elements of the `Metadata` element of the Extension.vsixmanifest file.
+The *Extension.vsixlangpack* file follows the [VSIX Language Pack schema 2.0](../extensibility/vsix-language-pack-schema-2-0-reference.md). This schema has a `PackageLanguagePackManifest`, which is immediately followed by a `Metadata` child element. The Metadata element can contain up to 6 child elements, `DisplayName`, `Description`, `MoreInfo`, `License`, `ReleaseNotes`, and `Icon`. These child elements correspond to the `DisplayName`, `Description`, `MoreInfo`, `License`, `ReleaseNotes`, and `Icon` child elements of the `Metadata` element of the *Extension.vsixmanifest* file.
 
 When you create a vsixlangpack file, you must set the `Include in Vsix` property to `true`. Otherwise, the localized installation text will be ignored.
 
@@ -50,17 +47,17 @@ When you create a vsixlangpack file, you must set the `Include in Vsix` property
 
 1. In **Solution Explorer**, right-click the Extension.vsixlangpack file, and then click **Properties**.
 
-2.  In the Property Grid, click **Include in Vsix**, and set its value to `true`.
+2.  In the **Property Grid**, click **Include in Vsix**, and set its value to `true`.
 
 ## Example
 
 ### Description
 
-The following example shows relevant portions of an Extension.vsixmanifest file, together with the corresponding Extension.vsixlangpack file for Spanish. The values from the language pack replace the values from the manifest if the Visual Studio locale of the target computer is set to Spanish.
+The following example shows relevant portions of an *Extension.vsixmanifest* file. The file also includes the corresponding *Extension.vsixlangpack* file for Spanish. The values from the language pack replace the values from the manifest if the Visual Studio locale of the target computer is set to Spanish.
 
 ### Code
 
- [Extension.vsixmanifest]
+ [*Extension.vsixmanifest*]
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -80,7 +77,7 @@ The following example shows relevant portions of an Extension.vsixmanifest file,
 </PackageManifest>
 ```
 
- [Extension.vsixlangpack]
+ [*Extension.vsixlangpack*]
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -96,10 +93,10 @@ The following example shows relevant portions of an Extension.vsixmanifest file,
 </PackageLanguagePackManifest>
 ```
 
-## See Also
+## See also
 
 |Title|Description|
 |-----------|-----------------|
-|[VSIX LanguagePack Schema 2.0 Reference](../extensibility/vsixlanguagepack-element-vsix-language-pack-schema.md)|A VSIX language pack describes the localization information of a .vsix deployment file.|
-|[Anatomy of a VSIX Package](../extensibility/anatomy-of-a-vsix-package.md)|Describes the structure and contents of a vsix package.|
-|[Localizing Menu Commands](../extensibility/localizing-menu-commands.md)|Shows how to localize other text resources in an extension.|
+|[VSIX Language Pack schema 2.0 reference](/visualstudio/extensibility/vsix-language-pack-schema-2-0-reference)|A VSIX language pack describes the localization information of a .vsix deployment file.|
+|[Anatomy of a VSIX package](../extensibility/anatomy-of-a-vsix-package.md)|Describes the structure and contents of a vsix package.|
+|[Localize menu commands](../extensibility/localizing-menu-commands.md)|Shows how to localize other text resources in an extension.|

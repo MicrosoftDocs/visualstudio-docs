@@ -1,8 +1,6 @@
 ---
 title: "IDiaReadExeAtOffsetCallback::ReadExecutableAt | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,10 +20,10 @@ Reads the specified number of bytes starting at the specified offset from an exe
   
 ```C++  
 HRESULT ReadExecutableAt (   
-   DWORDLONG fileOffset,  
-   DWORD     cbData,  
-   DWORD*    pcbData,  
-   BYTE      data[]  
+   DWORDLONG fileOffset,  
+   DWORD     cbData,  
+   DWORD*    pcbData,  
+   BYTE      data[]  
 );  
 ```  
   

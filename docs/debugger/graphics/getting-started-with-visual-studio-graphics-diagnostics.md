@@ -1,8 +1,7 @@
 ---
-title: "Getting Started with Visual Studio Graphics Diagnostics | Microsoft Docs"
-ms.custom: ""
+title: "Getting started with graphics diagnostics | Microsoft Docs"
+ms.custom: "seodec18"
 ms.date: "05/26/2017"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 author: "mikejo5000"
 ms.author: "mikejo"
@@ -28,17 +27,17 @@ In this section you'll prepare to use Graphics Diagnostics for the first time, t
   
 #### To install Graphics Tools for Windows 10  
   
-1.  In Search, type **Apps and features** and then open the **Apps & features** settings.
+1. In Search, type **Apps and features** and then open the **Apps & features** settings.
   
-3.  On the right-hand side of the **Apps & features** dialog, choose **Manage optional features** (under **Apps & features**).
+2. On the right-hand side of the **Apps & features** dialog, choose **Manage optional features** (under **Apps & features**).
 
-    The **Manage optional features** dialog appears.
+   The **Manage optional features** dialog appears.
   
-4.  In the **Manage optional features** dialog, choose **Add a feature**. A list of optional features you can install appears.  
+3. In the **Manage optional features** dialog, choose **Add a feature**. A list of optional features you can install appears.  
   
-5.  Select **Graphics Tools** from the list of features, then choose **Install**.  
+4. Select **Graphics Tools** from the list of features, then choose **Install**.  
   
- The Graphics Tools feature is also installed automatically when you install the Windows 10 SDK.  
+   The Graphics Tools feature is also installed automatically when you install the Windows 10 SDK.  
   
 > [!TIP]
 >  The optional Graphics Tools feature of Windows 10 provides lightweight capture and playback functionality—such as the command-line capture program **dxcap.exe**—that can be used in support, testing, and diagnostic scenarios on machines where developer tools aren't installed. For more information, see the [Command-Line Capture Tool](command-line-capture-tool.md) topic.  
@@ -52,7 +51,7 @@ In this section you'll prepare to use Graphics Diagnostics for the first time, t
 - The **DirectX 11 App (Universal Windows)** or **DirectX 12 App (Universal Windows)** project templates for Windows 10.
 - [Direct3D 12 UAP sample](https://code.msdn.microsoft.com/Direct3D-12-UAP-Sample-ecb1779f) for Windows 10.  
   
- Make sure you can build the app before moving on.  
+  Make sure you can build the app before moving on.  
   
 ### 2 - Start a Graphics Diagnostics session  
  Now you're ready to start your first graphics diagnostics session. In Visual Studio, on the main menu, choose **Debug, Graphics, Start Graphics Debugging**, or just press **Alt+F5**. This starts your app under Graphics Diagnostics and displays the diagnostics session windows in Visual Studio.  
@@ -69,11 +68,11 @@ In this section you'll prepare to use Graphics Diagnostics for the first time, t
   
 #### To capture a sequence of frames  
   
--   In Visual Studio, in the diagnostic session window, set **Frames to capture** to the number of frames you want to capture in sequence, then capture the sequence by using any of the methods you described above to capture single frames.  
+- In Visual Studio, in the diagnostic session window, set **Frames to capture** to the number of frames you want to capture in sequence, then capture the sequence by using any of the methods you described above to capture single frames.  
   
-     To capture single frames again, set **Frames to capture** to *1*.  
+   To capture single frames again, set **Frames to capture** to *1*.  
   
- When you're done capturing frames just exit the app or choose the **Stop** button from the Graphics toolbar or diagnostic session window.  
+  When you're done capturing frames just exit the app or choose the **Stop** button from the Graphics toolbar or diagnostic session window.  
   
 ### 4 - Examine captured frames in the Graphics Analyzer  
  Now you're ready to examine the frames you just captured. To start analyzing a frame, choose the frame number of the frame you want to examine from the diagnostic session window. This opens the frame in the **Graphics Analyzer**, where you can use the Graphics Diagnostics tools to examine how your app uses Direct3D to track down rendering problems, or use the **Frame Analysis** tool to understand its performance.  

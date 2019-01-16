@@ -1,8 +1,6 @@
 ---
 title: "How to: Edit a Register Value | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.register.edit"
@@ -22,7 +20,8 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Edit a Register Value
+# How to: Edit a Register Value (C#, C++, Visual Basic, F#)
+
 The Registers window is available only if address-level debugging is enabled in the **Options** dialog box, **Debugging** node.  
   
 ### To change the value of a register  

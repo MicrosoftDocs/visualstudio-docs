@@ -2,7 +2,6 @@
 title: "CA1010: Collections should implement generic interface"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA1010"
@@ -18,6 +17,7 @@ ms.workload:
   - "multiple"
 ---
 # CA1010: Collections should implement generic interface
+
 |||
 |-|-|
 |TypeName|CollectionsShouldImplementGenericInterface|
@@ -28,25 +28,25 @@ ms.workload:
 ## Cause
  An externally visible type implements the <xref:System.Collections.IEnumerable?displayProperty=fullName> interface but does not implement the <xref:System.Collections.Generic.IEnumerable%601?displayProperty=fullName> interface, and the containing assembly targets [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)]. This rule ignores types that implement <xref:System.Collections.IDictionary?displayProperty=fullName>.
 
-## Rule Description
+## Rule description
  To broaden the usability of a collection, implement one of the generic collection interfaces. Then the collection can be used to populate generic collection types such as the following:
 
--   <xref:System.Collections.Generic.List%601?displayProperty=fullName>
+- <xref:System.Collections.Generic.List%601?displayProperty=fullName>
 
--   <xref:System.Collections.Generic.Queue%601?displayProperty=fullName>
+- <xref:System.Collections.Generic.Queue%601?displayProperty=fullName>
 
--   <xref:System.Collections.Generic.Stack%601?displayProperty=fullName>
+- <xref:System.Collections.Generic.Stack%601?displayProperty=fullName>
 
-## How to Fix Violations
+## How to fix violations
  To fix a violation of this rule, implement one of the following generic collection interfaces:
 
--   <xref:System.Collections.Generic.IEnumerable%601?displayProperty=fullName>
+- <xref:System.Collections.Generic.IEnumerable%601?displayProperty=fullName>
 
--   <xref:System.Collections.Generic.ICollection%601?displayProperty=fullName>
+- <xref:System.Collections.Generic.ICollection%601?displayProperty=fullName>
 
--   <xref:System.Collections.Generic.IList%601?displayProperty=fullName>
+- <xref:System.Collections.Generic.IList%601?displayProperty=fullName>
 
-## When to Suppress Warnings
+## When to suppress warnings
  It is safe to suppress a warning from this rule; however, the collection will have a more limited use.
 
 ## Example Violation
@@ -79,7 +79,7 @@ ms.workload:
 ### Code
  [!code-csharp[FxCop.Design.CollectionsGenericInterface#1](../code-quality/codesnippet/CSharp/ca1010-collections-should-implement-generic-interface_3.cs)]
 
-## Related Rules
+## Related rules
  [CA1005: Avoid excessive parameters on generic types](../code-quality/ca1005-avoid-excessive-parameters-on-generic-types.md)
 
  [CA1000: Do not declare static members on generic types](../code-quality/ca1000-do-not-declare-static-members-on-generic-types.md)
@@ -94,5 +94,5 @@ ms.workload:
 
  [CA1007: Use generics where appropriate](../code-quality/ca1007-use-generics-where-appropriate.md)
 
-## See Also
+## See also
  [Generics](/dotnet/csharp/programming-guide/generics/index)

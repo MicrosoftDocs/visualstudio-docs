@@ -1,8 +1,6 @@
 ---
 title: "How to: Build Specific Targets in Solutions By Using MSBuild.exe | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: msbuild
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "MSBuild, building specific targets in a solution"
@@ -22,13 +20,13 @@ You can use *MSBuild.exe* to build specific targets of specific projects in a so
   
 1.  At the command line, type `MSBuild.exe <SolutionName>.sln`, where `<SolutionName>` corresponds to the file name of the solution that contains the target that you want to execute.  
   
-2. Specify the target after the `/target:` switch in the format \<ProjectName>:\<TargetName>. If the project name contains any of the characters `%`, `$`, `@`, `;`, `.`, `(`, `)`, or `'`, replace them with an `_` in the specified target name.
+2. Specify the target after the `-target:` switch in the format \<ProjectName>:\<TargetName>. If the project name contains any of the characters `%`, `$`, `@`, `;`, `.`, `(`, `)`, or `'`, replace them with an `_` in the specified target name.
   
 ## Example  
  The following example executes the `Rebuild` target of the `NotInSlnFolder` project, and then executes the `Clean` target of the `InSolutionFolder` project, which is located in the *NewFolder* solution folder.  
   
 ```cmd
-msbuild SlnFolders.sln /target:NotInSlnfolder:Rebuild;NewFolder\InSolutionFolder:Clean
+msbuild SlnFolders.sln -target:NotInSlnfolder:Rebuild;NewFolder\InSolutionFolder:Clean
 ```
 
 ## Troubleshooting

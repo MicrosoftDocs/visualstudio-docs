@@ -1,9 +1,6 @@
 ---
 title: "IDebugEnumField::GetValueFromStringCaseInsensitive | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugEnumField::GetValueFromStringCaseInsensitive"
@@ -23,15 +20,15 @@ This method uses a case-insensitive search to return the value associated with t
   
 ```cpp  
 HRESULT GetValueFromStringCaseInsensitive(  
-   LPCOLESTR  pszValue,  
-   ULONGLONG* pvalue  
+   LPCOLESTR  pszValue,  
+   ULONGLONG* pvalue  
 );  
 ```  
   
 ```csharp  
 int GetValueFromStringCaseInsensitive(  
-   string    pszValue,   
-   out ulong pValue  
+   string    pszValue,   
+   out ulong pValue  
 );  
 ```  
   

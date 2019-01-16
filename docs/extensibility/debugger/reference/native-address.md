@@ -1,9 +1,6 @@
 ---
 title: "NATIVE_ADDRESS | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "NATIVE_ADDRESS"
@@ -23,13 +20,13 @@ This structure represents a native address.
   
 ```cpp  
 typedef struct _tagNATIVE_ADDRESS {  
-   DWORD unknown;  
+   DWORD unknown;  
 } NATIVE_ADDRESS;  
 ```  
   
 ```csharp  
 public struct NATIVE_ADDRESS {  
-   public uint unknown;  
+   public uint unknown;  
 }  
 ```  
   

@@ -1,9 +1,6 @@
 ---
 title: "Buttons Element | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Buttons element (VSCT XML schema)"
@@ -53,13 +50,13 @@ Groups [Button](../extensibility/button-element.md) elements, which represent in
   
 ```  
 <Buttons>  
-  <Button guid="guidMenuAndCommandsCmdSet" id="cmdidMyCommand"     priority="0x100" type="Button">  
-    <Parent guid="guidMenuAndCommandsCmdSet" id="MyMenuGroup"/>  
-    <Icon guid="guidGenericCmdBmp" id="bmpArrow"/>  
-    <Strings>  
-      <ButtonText>C# Command Sample</ButtonText>  
-    </Strings>  
-  </Button>  
+  <Button guid="guidMenuAndCommandsCmdSet" id="cmdidMyCommand"     priority="0x100" type="Button">  
+    <Parent guid="guidMenuAndCommandsCmdSet" id="MyMenuGroup"/>  
+    <Icon guid="guidGenericCmdBmp" id="bmpArrow"/>  
+    <Strings>  
+      <ButtonText>C# Command Sample</ButtonText>  
+    </Strings>  
+  </Button>  
 </Buttons>  
 ```  
   

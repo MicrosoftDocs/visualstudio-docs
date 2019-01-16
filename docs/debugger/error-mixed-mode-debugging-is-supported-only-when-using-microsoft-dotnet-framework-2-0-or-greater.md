@@ -1,8 +1,6 @@
 ---
 title: "Error: Mixed mode debugging is supported only when using Microsoft .NET Framework 2.0 or greater | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "troubleshooting"
 f1_keywords: 
   - "vs.debug.error.interop_unsupported_to_old"
@@ -22,7 +20,7 @@ To debug mixed native and managed code, you must have [!INCLUDE[dnprdnshort](../
   
 ### To correct this error  
   
--   Upgrade the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] to version 2.0, 3.0, 3.5, or 4.0.  
+- Upgrade the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] to version 2.0, 3.0, 3.5, or 4.0.  
   
 ## See Also  
  [Remote Debugging](../debugger/remote-debugging.md)

@@ -1,9 +1,6 @@
 ---
 title: "IEnumDebugPortSuppliers2::Next | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IEnumDebugPortSuppliers2::Next"
@@ -23,17 +20,17 @@ Returns the next set of elements from the enumeration.
   
 ```cpp  
 HRESULT Next(  
-   ULONG                 celt,  
-   IDebugPortSupplier2** rgelt,  
-   ULONG*                pceltFetched  
+   ULONG                 celt,  
+   IDebugPortSupplier2** rgelt,  
+   ULONG*                pceltFetched  
 );  
 ```  
   
 ```csharp  
 int Next(  
-   uint                  celt,  
-   IDebugPortSupplier2[] rgelt,  
-   ref uint              pceltFetched  
+   uint                  celt,  
+   IDebugPortSupplier2[] rgelt,  
+   ref uint              pceltFetched  
 );  
 ```  
   

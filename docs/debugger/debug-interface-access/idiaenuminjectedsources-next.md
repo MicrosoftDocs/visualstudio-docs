@@ -1,8 +1,6 @@
 ---
 title: "IDiaEnumInjectedSources::Next | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,9 +20,9 @@ Retrieves a specified number of injected sources in the enumeration sequence.
   
 ```C++  
 HRESULT Next (   
-   ULONG                celt,   
-   IDiaInjectedSource** rgelt,  
-   ULONG*               pceltFetched  
+   ULONG                celt,   
+   IDiaInjectedSource** rgelt,  
+   ULONG*               pceltFetched  
 );  
 ```  
   

@@ -1,9 +1,6 @@
 ---
 title: "Service Essentials | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "services, essentials"
@@ -23,35 +20,35 @@ A service is a contract between two VSPackages. One VSPackage provides a specifi
   
  Services have no discoverability. Therefore, you must know the service identifier (SID) of a service that you want to consume, and you must know which interfaces it provides. The reference documentation for the service provides this information.  
   
--   VSPackages that provide services are called service providers.  
+- VSPackages that provide services are called service providers.  
   
--   Services that are provided to other VSPackages are called global services.  
+- Services that are provided to other VSPackages are called global services.  
   
--   Services that are available only to the VSPackage that implements them, or to any object it creates, are called local services.  
+- Services that are available only to the VSPackage that implements them, or to any object it creates, are called local services.  
   
--   Services that replace built-in services or services provided by other packages, are called service overrides.  
+- Services that replace built-in services or services provided by other packages, are called service overrides.  
   
--   Services, or service overrides, are loaded on demand, that is, the service provider is loaded when the service it provides is requested by another VSPackage.  
+- Services, or service overrides, are loaded on demand, that is, the service provider is loaded when the service it provides is requested by another VSPackage.  
   
--   To support on-demand loading, a service provider registers its global services with [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. For more information, see [How to: Provide a Service](../../extensibility/how-to-provide-a-service.md).  
+- To support on-demand loading, a service provider registers its global services with [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. For more information, see [How to: Provide a Service](../../extensibility/how-to-provide-a-service.md).  
   
--   After you obtain a service, use [QueryInterface](/cpp/atl/queryinterface) (unmanaged code) or casting (managed code) to get the desired interface, for example:  
+- After you obtain a service, use [QueryInterface](/cpp/atl/queryinterface) (unmanaged code) or casting (managed code) to get the desired interface, for example:  
   
-    ```vb  
-    TryCast(GetService(GetType(SVsActivityLog)), IVsActivityLog)  
-    ```  
+  ```vb  
+  TryCast(GetService(GetType(SVsActivityLog)), IVsActivityLog)  
+  ```  
   
-    ```csharp  
-    GetService(typeof(SVsActivityLog)) as IVsActivityLog;  
-    ```  
+  ```csharp  
+  GetService(typeof(SVsActivityLog)) as IVsActivityLog;  
+  ```  
   
--   Managed code refers to a service by its type, whereas unmanaged code refers to a service by its GUID.  
+- Managed code refers to a service by its type, whereas unmanaged code refers to a service by its GUID.  
   
--   When [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] loads a VSPackage, it passes a service provider to the VSPackage to give the VSPackage access to global services. This is referred to as "siting" the VSPackage.  
+- When [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] loads a VSPackage, it passes a service provider to the VSPackage to give the VSPackage access to global services. This is referred to as "siting" the VSPackage.  
   
--   VSPackages can be service providers for the objects they create. For example, a form might send a request for a color service to its frame, which might pass the request to [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].  
+- VSPackages can be service providers for the objects they create. For example, a form might send a request for a color service to its frame, which might pass the request to [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].  
   
--   Managed objects that are deeply nested, or not sited at all, may call <xref:Microsoft.VisualStudio.Shell.Package.GetGlobalService%2A> for direct access to global services.   
+- Managed objects that are deeply nested, or not sited at all, may call <xref:Microsoft.VisualStudio.Shell.Package.GetGlobalService%2A> for direct access to global services.   
   
 <a name="how-to-use-getglobalservice"></a>  
   

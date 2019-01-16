@@ -1,9 +1,6 @@
 ---
 title: "How to: Resize Bookmark controls"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -24,21 +21,21 @@ ms.workload:
   
  There are three ways to resize a bookmark:  
   
--   Add or remove text in the <xref:Microsoft.Office.Tools.Word.Bookmark> control.  
+- Add or remove text in the <xref:Microsoft.Office.Tools.Word.Bookmark> control.  
   
-     Whenever you add text in a bookmark, the size of the bookmark automatically increases to contain the new text. When you delete text, the size of the bookmark automatically decreases.  
+   Whenever you add text in a bookmark, the size of the bookmark automatically increases to contain the new text. When you delete text, the size of the bookmark automatically decreases.  
   
--   Change the <xref:Microsoft.Office.Tools.Word.Bookmark.Start%2A> and <xref:Microsoft.Office.Tools.Word.Bookmark.End%2A> properties of the <xref:Microsoft.Office.Tools.Word.Bookmark> control.  
+- Change the <xref:Microsoft.Office.Tools.Word.Bookmark.Start%2A> and <xref:Microsoft.Office.Tools.Word.Bookmark.End%2A> properties of the <xref:Microsoft.Office.Tools.Word.Bookmark> control.  
   
-     This is useful if you are changing the size by only a few characters.  
+   This is useful if you are changing the size by only a few characters.  
   
--   Recreate the <xref:Microsoft.Office.Tools.Word.Bookmark> control.  
+- Recreate the <xref:Microsoft.Office.Tools.Word.Bookmark> control.  
   
-     This is useful if there is a substantial change in the size or location of a bookmark.  
+   This is useful if there is a substantial change in the size or location of a bookmark.  
   
- In document-level projects, you can add <xref:Microsoft.Office.Tools.Word.Bookmark> controls to the document in your project at design time or at run time. In VSTO Add-in projects, you can add <xref:Microsoft.Office.Tools.Word.Bookmark> controls to any open document at runtime. For more information, see [How to: Add Bookmark controls to Word documents](../vsto/how-to-add-bookmark-controls-to-word-documents.md).  
+  In document-level projects, you can add <xref:Microsoft.Office.Tools.Word.Bookmark> controls to the document in your project at design time or at run time. In VSTO Add-in projects, you can add <xref:Microsoft.Office.Tools.Word.Bookmark> controls to any open document at runtime. For more information, see [How to: Add Bookmark controls to Word documents](../vsto/how-to-add-bookmark-controls-to-word-documents.md).  
   
- [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
+  [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
   
 ## Change the start and end properties  
   
@@ -91,5 +88,3 @@ ms.workload:
  [How to: Resize NamedRange controls](../vsto/how-to-resize-namedrange-controls.md)   
  [How to: Resize ListObject controls](../vsto/how-to-resize-listobject-controls.md)   
  [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)  
-  
-  

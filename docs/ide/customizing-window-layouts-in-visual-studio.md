@@ -1,8 +1,7 @@
 ---
-title: Customize window layouts in Visual Studio
+title: Customize window layouts
 ms.date: 01/23/2017
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 f1_keywords:
   - "vs.windows"
@@ -75,9 +74,6 @@ You can arrange windows in the following ways:
 -   Reset window placement to the default layout or to a saved custom layout.
 
 Tool and document windows can be arranged by dragging, by using commands on the **Window** menu, and by right-clicking the title bar of the window to be arranged.
-
-> [!NOTE]
-> Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
 
 ### Dock windows
 

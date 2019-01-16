@@ -24,9 +24,9 @@ Returns a BSTR containing the name of the `EnumType`.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetName(  
-   BSTR*  pname  
+   BSTR*  pname  
 );  
 ```  
   

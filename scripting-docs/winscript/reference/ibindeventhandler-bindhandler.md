@@ -24,7 +24,7 @@ Binds an event to an object.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT BindHandler(  
    LPCOLESTR   pstrEvent,  
    IDispatch*  pdisp  

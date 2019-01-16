@@ -1,8 +1,6 @@
 ---
 title: "IDiaEnumSymbolsByAddr::symbolByAddr | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,9 +20,9 @@ Positions the enumerator by performing a lookup by image section number and offs
   
 ```C++  
 HRESULT symbolByAddr (   
-   DWORD**      isect,  
-   DWORD**      offsect,  
-   IDiaSymbol** ppsymbol  
+   DWORD**      isect,  
+   DWORD**      offsect,  
+   IDiaSymbol** ppsymbol  
 );  
 ```  
   

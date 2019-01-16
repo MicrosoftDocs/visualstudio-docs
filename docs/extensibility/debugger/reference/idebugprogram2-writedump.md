@@ -1,9 +1,6 @@
 ---
 title: "IDebugProgram2::WriteDump | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProgram2::WriteDump"
@@ -23,15 +20,15 @@ Writes a dump to a file.
   
 ```cpp  
 HRESULT WriteDump(   
-   DUMPTYPE  DumpType,  
-   LPCOLESTR pszDumpUrl  
+   DUMPTYPE  DumpType,  
+   LPCOLESTR pszDumpUrl  
 );  
 ```  
   
 ```csharp  
 int WriteDump(   
-   enum_DUMPTYPE  DumpType,  
-   string         pszDumpUrl  
+   enum_DUMPTYPE  DumpType,  
+   string         pszDumpUrl  
 );  
 ```  
   

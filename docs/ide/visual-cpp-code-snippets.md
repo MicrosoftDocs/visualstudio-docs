@@ -2,7 +2,6 @@
 title: Visual C++ code snippets
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 author: gewarren
 ms.author: gewarren
@@ -164,7 +163,6 @@ If you try to insert the destructor snippet outside a class, it provides a destr
 ```cpp
 ~TypeNamePlaceholder()
 {
-
 ```
 
 ## See also

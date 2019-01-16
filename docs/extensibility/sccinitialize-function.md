@@ -1,9 +1,6 @@
 ---
 title: "SccInitialize Function | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "SccInitialize"
@@ -23,14 +20,14 @@ This function initializes the source control plug-in and provides capabilities a
   
 ```cpp  
 SCCRTN SccInitialize (  
-   LPVOID* ppvContext,  
-   HWND    hWnd,  
-   LPCSTR  lpCallerName,  
-   LPSTR   lpSccName,  
-   LPLONG  lpSccCaps,  
-   LPSTR   lpAuxPathLabel,  
-   LPLONG  pnCheckoutCommentLen,  
-   LPLONG  pnCommentLen  
+   LPVOID* ppvContext,  
+   HWND    hWnd,  
+   LPCSTR  lpCallerName,  
+   LPSTR   lpSccName,  
+   LPLONG  lpSccCaps,  
+   LPSTR   lpAuxPathLabel,  
+   LPLONG  pnCheckoutCommentLen,  
+   LPLONG  pnCommentLen  
 );  
 ```  
   

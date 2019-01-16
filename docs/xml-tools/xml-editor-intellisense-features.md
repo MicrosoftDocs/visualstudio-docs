@@ -2,7 +2,6 @@
 title: "XML Editor IntelliSense Features"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-xml-tools
 ms.topic: conceptual
 ms.assetid: 2b26f214-cc3a-46bf-b260-14eb8e599182
 author: gewarren
@@ -99,7 +98,7 @@ For example, if you select the `e:Book` element from the IntelliSense list where
  The **Auto Insert** section of the **Miscellaneous** page controls the following behavior:
 
 |Name|Description|
-|----------|-----------------|
+|-|-----------------|
 |Close tags|Inserts close tags for new elements.|
 |Attribute quotes|Inserts attribute value quotes when you enter a new attribute name.|
 |Other markup|Completes comments, CDATA, DOCTYPE, processing instructions, and other markup declarations.|

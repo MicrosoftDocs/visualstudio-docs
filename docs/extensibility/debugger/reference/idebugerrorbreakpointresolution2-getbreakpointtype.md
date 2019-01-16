@@ -1,9 +1,6 @@
 ---
 title: "IDebugErrorBreakpointResolution2::GetBreakpointType | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugErrorBreakpointResolution2::GetBreakpointType"
@@ -23,13 +20,13 @@ Gets the breakpoint type.
   
 ```cpp  
 HRESULT GetBreakpointType(   
-   BP_TYPE* pBPType  
+   BP_TYPE* pBPType  
 );  
 ```  
   
 ```csharp  
 int GetBreakpointType(   
-   out enum_BP_TYPE pBPType  
+   out enum_BP_TYPE pBPType  
 );  
 ```  
   

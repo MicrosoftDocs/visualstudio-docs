@@ -1,9 +1,6 @@
 ---
 title: "IDebugProperty2::GetDerivedMostProperty | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProperty2::GetDerivedMostProperty"
@@ -23,13 +20,13 @@ Gets the derived-most property of a property.
   
 ```cpp  
 HRESULT GetDerivedMostProperty (   
-   IDebugProperty2** ppDerivedMost  
+   IDebugProperty2** ppDerivedMost  
 );  
 ```  
   
 ```csharp  
 int GetDerivedMostProperty (   
-   out IDebugProperty2 ppDerivedMost  
+   out IDebugProperty2 ppDerivedMost  
 );  
 ```  
   

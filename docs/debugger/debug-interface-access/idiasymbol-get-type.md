@@ -1,8 +1,6 @@
 ---
 title: "IDiaSymbol::get_type | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves the symbol that represents the type for this symbol.
   
 ```C++  
 HRESULT get_type (   
-   IDiaSymbol** pRetVal  
+   IDiaSymbol** pRetVal  
 );  
 ```  
   
@@ -45,10 +43,10 @@ HRESULT get_type ( 
 IDiaSymbol*         pType;  
 CComPtr<IDiaSymbol> pBaseType;  
 if (SUCCEEDED(pType->get_type( &pBaseType ))) {  
-    BasicType btBaseType;  
-    if (SUCCEEDED(pBaseType->get_baseType((DWORD *)&btBaseType))) {  
-        // Do something with basic type.  
-    }  
+    BasicType btBaseType;  
+    if (SUCCEEDED(pBaseType->get_baseType((DWORD *)&btBaseType))) {  
+        // Do something with basic type.  
+    }  
 }  
 ```  
   

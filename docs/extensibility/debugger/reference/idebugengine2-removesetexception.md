@@ -1,9 +1,6 @@
 ---
 title: "IDebugEngine2::RemoveSetException | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugEngine2::RemoveSetException"
@@ -23,13 +20,13 @@ Removes the specified exception so it is no longer handled by the debug engine.
   
 ```cpp  
 HRESULT RemoveSetException(   
-   EXCEPTION_INFO* pException  
+   EXCEPTION_INFO* pException  
 );  
 ```  
   
 ```csharp  
 int RemoveSetException(   
-   EXCEPTION_INFO[] pException  
+   EXCEPTION_INFO[] pException  
 );  
 ```  
   

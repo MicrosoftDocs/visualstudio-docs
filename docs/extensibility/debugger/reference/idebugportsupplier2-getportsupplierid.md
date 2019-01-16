@@ -1,9 +1,6 @@
 ---
 title: "IDebugPortSupplier2::GetPortSupplierId | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugPortSupplier2::GetPortSupplierId"
@@ -23,13 +20,13 @@ Gets the port supplier identifier.
   
 ```cpp  
 HRESULT GetPortSupplierId(   
-   GUID* pguidPortSupplier  
+   GUID* pguidPortSupplier  
 );  
 ```  
   
 ```csharp  
 HRESULT GetPortSupplierId(   
-   out Guid pguidPortSupplier  
+   out Guid pguidPortSupplier  
 );  
 ```  
   

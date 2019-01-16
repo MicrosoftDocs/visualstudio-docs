@@ -1,9 +1,6 @@
 ---
 title: "IDebugProgram2::CanDetach | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProgram2::CanDetach"
@@ -23,7 +20,7 @@ Determines if a debug engine (DE) can detach from the program.
   
 ```cpp  
 HRESULT CanDetach(  
-   void  
+   void  
 );  
 ```  
   

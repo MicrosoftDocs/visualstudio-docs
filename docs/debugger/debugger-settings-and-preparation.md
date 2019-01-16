@@ -1,8 +1,6 @@
 ---
 title: "Debugger Settings and Preparation | Microsoft Docs"
-ms.custom: ""
 ms.date: "08/01/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "reference"
 f1_keywords: 
   - "vs.debug"
@@ -39,9 +37,6 @@ This section describes the debugger-related property settings, and the preparati
  [How to: Debug an Executable Not Part of a Visual Studio Solution](../debugger/how-to-debug-an-executable-not-part-of-a-visual-studio-solution.md)  
  Explains how to debug an executable that is not created as part of a Visual Studio project.  
   
- [How to: Debug with Code Center Premium Source](../debugger/how-to-debug-with-code-center-premium-source.md)  
- Describes how to debug source from Microsoft Code Center Premium in your Visual Studio Project.  
-  
  [Debug 64-Bit Applications](../debugger/debug-64-bit-applications.md)  
  Describes how to debug 64-bit applications.  
   
@@ -51,4 +46,4 @@ This section describes the debugger-related property settings, and the preparati
 ## See Also  
  [Debugger Security](../debugger/debugger-security.md)  
  [Debugging in Visual Studio](../debugger/index.md)  
- [Debugger Feature Tour](../debugger/debugger-feature-tour.md)
+ [First look at the debugger](../debugger/debugger-feature-tour.md)

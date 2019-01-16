@@ -1,8 +1,6 @@
 ---
 title: "IDiaEnumSymbols::Clone | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Creates an enumerator that contains the same enumeration state as the current en
   
 ```C++  
 HRESULT Clone (   
-   IDiaEnumSymbols** ppenum  
+   IDiaEnumSymbols** ppenum  
 );  
 ```  
   

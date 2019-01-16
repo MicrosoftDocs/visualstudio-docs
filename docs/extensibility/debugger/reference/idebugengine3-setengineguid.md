@@ -1,9 +1,6 @@
 ---
 title: "IDebugEngine3::SetEngineGuid | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugEngine3::SetEngineGuid"
@@ -23,14 +20,14 @@ This method sets the debug engine's (DE) `GUID`.
   
 ```cpp  
 HRESULT SetEngineGuid(  
-   GUID* guidEngine  
+   GUID* guidEngine  
 );  
 ```  
   
 ```  
 [C#]  
 int SetEngineGuid(  
-   ref Guid guidEngine  
+   ref Guid guidEngine  
 );  
 ```  
   

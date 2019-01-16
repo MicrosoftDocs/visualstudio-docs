@@ -1,9 +1,6 @@
 ---
 title: "PDB_TYPE | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "PDB_TYPE"
@@ -23,17 +20,17 @@ This structure specifies information about a field type taken from a PDB symbol.
   
 ```cpp  
 typedef struct _tagTYPE_PDB {  
-   ULONG32 ulAppDomainID;  
-   GUID    guidModule;  
-   DWORD   symid;  
+   ULONG32 ulAppDomainID;  
+   GUID    guidModule;  
+   DWORD   symid;  
 } PDB_TYPE;  
 ```  
   
 ```csharp  
 public struct PDB_TYPE {  
-   public uint ulAppDomainID;  
-   public Guid guidModule;  
-   public uint symid;  
+   public uint ulAppDomainID;  
+   public Guid guidModule;  
+   public uint symid;  
 };  
 ```  
   

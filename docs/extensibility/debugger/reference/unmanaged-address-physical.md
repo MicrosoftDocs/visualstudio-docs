@@ -1,9 +1,6 @@
 ---
 title: "UNMANAGED_ADDRESS_PHYSICAL | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "UNMANAGED_ADDRESS_PHYSICAL"
@@ -23,13 +20,13 @@ This structure represents a physical address.
   
 ```cpp  
 typedef struct _tagUNMANAGED_ADDRESS_PHYSICAL {  
-   ULONGLONG offset;  
+   ULONGLONG offset;  
 } UNMANAGED_ADDRESS_PHYSICAL;  
 ```  
   
 ```csharp  
 public struct UNMANAGED_ADDRESS_PHYSICAL {  
-   public ulong offset;  
+   public ulong offset;  
 }  
 ```  
   

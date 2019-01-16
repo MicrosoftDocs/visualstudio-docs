@@ -1,8 +1,7 @@
 ---
-title: "How to use Boost.Test for C++ in Visual Studio"
+title: "How to use Boost.Test for C++"
 ms.date: 01/29/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 author: mikeblome
 ms.author: mblome

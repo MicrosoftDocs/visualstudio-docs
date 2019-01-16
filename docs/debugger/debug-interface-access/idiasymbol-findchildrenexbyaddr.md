@@ -1,8 +1,6 @@
 ---
 title: "IDiaSymbol::findChildrenExByAddr | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,11 +20,11 @@ Retrieves the children of the symbol that are valid at a specified address.
   
 ```C++  
 HRESULT findChildrenExByAddr (   
-   enum SymTagEnum   symtag,  
-   LPCOLESTR         name,  
-   DWORD             compareFlags,  
-   DWORD             address,  
-   IDiaEnumSymbols** ppResult  
+   enum SymTagEnum   symtag,  
+   LPCOLESTR         name,  
+   DWORD             compareFlags,  
+   DWORD             address,  
+   IDiaEnumSymbols** ppResult  
 );  
 ```  
   

@@ -1,9 +1,6 @@
 ---
 title: "IDebugEngine2::SetException | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugEngine2::SetException"
@@ -23,13 +20,13 @@ Specifies how the debug engine (DE) should handle a given exception.
   
 ```cpp  
 HRESULT SetException(   
-   EXCEPTION_INFO* pException  
+   EXCEPTION_INFO* pException  
 );  
 ```  
   
 ```csharp  
 int SetException(   
-   EXCEPTION_INFO[] pException  
+   EXCEPTION_INFO[] pException  
 );  
 ```  
   

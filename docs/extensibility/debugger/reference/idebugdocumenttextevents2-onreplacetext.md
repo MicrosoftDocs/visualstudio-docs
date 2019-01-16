@@ -1,9 +1,6 @@
 ---
 title: "IDebugDocumentTextEvents2::onReplaceText | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugDocumentTextEvents2::OnReplaceText"
@@ -23,15 +20,15 @@ Notifies the debug package that text has been replaced in the document.
   
 ```cpp  
 HRESULT onReplaceText(   
-   TEXT_POSITION pos,  
-   DWORD         dwNumToReplace  
+   TEXT_POSITION pos,  
+   DWORD         dwNumToReplace  
 );  
 ```  
   
 ```csharp  
 int onReplaceText(   
-   enum_TEXT_POSITION pos,  
-   uint               dwNumToReplace  
+   enum_TEXT_POSITION pos,  
+   uint               dwNumToReplace  
 );  
 ```  
   

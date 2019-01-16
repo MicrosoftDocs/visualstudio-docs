@@ -1,9 +1,6 @@
 ---
 title: "BP_LOCATION_CODE_ADDRESS | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "BP_LOCATION_CODE_ADDRESS"
@@ -23,10 +20,10 @@ Describes the location of a breakpoint at an address in code.
   
 ```cpp  
 typedef struct _BP_LOCATION_CODE_ADDRESS {   
-   BSTR bstrContext;  
-   BSTR bstrModuleUrl;  
-   BSTR bstrFunction;  
-   BSTR bstrAddress;  
+   BSTR bstrContext;  
+   BSTR bstrModuleUrl;  
+   BSTR bstrFunction;  
+   BSTR bstrAddress;  
 } BP_LOCATION_CODE_ADDRESS;  
 ```  
   

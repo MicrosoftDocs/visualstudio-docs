@@ -1,9 +1,6 @@
 ---
 title: "IDebugProperty2::GetExtendedInfo | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProperty2::GetExtendedInfo"
@@ -23,15 +20,15 @@ Gets extended information for the property.
   
 ```cpp  
 HRESULT GetExtendedInfo (   
-   REFGUID* guidExtendedInfo,  
-   VARIANT* pExtendedInfo  
+   REFGUID* guidExtendedInfo,  
+   VARIANT* pExtendedInfo  
 );  
 ```  
   
 ```csharp  
 int GetExtendedInfo (   
-   ref Guid guidExtendedInfo,  
-   out object pExtendedInfo  
+   ref Guid guidExtendedInfo,  
+   out object pExtendedInfo  
 );  
 ```  
   

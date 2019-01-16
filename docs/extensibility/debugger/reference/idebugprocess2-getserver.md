@@ -1,9 +1,6 @@
 ---
 title: "IDebugProcess2::GetServer | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProcess2::GetServer"
@@ -23,13 +20,13 @@ Gets the server that this process is running on.
   
 ```cpp  
 HRESULT GetServer(   
-   IDebugCoreServer2** ppServer  
+   IDebugCoreServer2** ppServer  
 );  
 ```  
   
 ```csharp  
 int GetServer(   
-   out IDebugCoreServer2 ppServer  
+   out IDebugCoreServer2 ppServer  
 );  
 ```  
   

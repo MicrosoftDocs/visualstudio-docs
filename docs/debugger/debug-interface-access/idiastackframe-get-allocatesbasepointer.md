@@ -1,8 +1,6 @@
 ---
 title: "IDiaStackFrame::get_allocatesBasePointer | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves a flag that indicates whether the base pointer is allocated for code i
   
 ```C++  
 HRESULT get_allocatesBasePointer (   
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 );  
 ```  
   

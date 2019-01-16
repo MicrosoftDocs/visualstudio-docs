@@ -1,9 +1,6 @@
 ---
 title: "IEnumCodePaths2::GetCount | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IEnumCodePaths2::GetCount"
@@ -23,13 +20,13 @@ Returns the number of elements in the enumeration.
   
 ```cpp  
 HRESULT GetCount(  
-   ULONG* pcelt  
+   ULONG* pcelt  
 );  
 ```  
   
 ```csharp  
 int GetCount(  
-   out uint pcelt  
+   out uint pcelt  
 );  
 ```  
   

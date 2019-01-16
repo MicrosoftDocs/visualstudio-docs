@@ -1,9 +1,6 @@
 ---
 title: "IDebugCodeContext3::GetProcess | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugCodeContext3::GetProcess"
@@ -21,13 +18,13 @@ Retrieves a reference to the interface of the debug process.
   
 ```cpp  
 HRESULT GetProcess(   
-   IDebugProcess2 **ppProcess  
+   IDebugProcess2 **ppProcess  
 );  
 ```  
   
 ```csharp  
 public int GetProcess(   
-   out IDebugProcess2 ppProcess  
+   out IDebugProcess2 ppProcess  
 );  
 ```  
   

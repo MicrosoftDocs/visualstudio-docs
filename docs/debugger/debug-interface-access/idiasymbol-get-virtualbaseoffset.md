@@ -1,8 +1,6 @@
 ---
 title: "IDiaSymbol::get_virtualBaseOffset | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves the offset in the virtual function table of a virtual function.
   
 ```C++  
 HRESULT get_virtualBaseOffset (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

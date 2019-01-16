@@ -1,8 +1,6 @@
 ---
 title: "Viewing GPU Threads in the Debugger | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.gputthreads"
@@ -21,30 +19,30 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Use the GPU Threads Window
+# How to: Use the GPU Threads Window (C++)
 In the GPU Threads window, you can examine and work with threads that are running on the GPU in the application that you are debugging. For more information about applications that run on the GPU, see [C++ AMP Overview](/cpp/parallel/amp/cpp-amp-overview).  
   
  The GPU Threads window contains a table in which each row represents a set of GPU threads that have the same values in all of the columns. You can sort, reorder, remove, and group items that are in the columns. You can flag, unflag, freeze (suspend), and thaw (resume) threads from the GPU Threads window. The following columns are displayed in the GPU Threads window:  
   
--   The flag column, in which you can mark a thread that you want to pay special attention to.  
+- The flag column, in which you can mark a thread that you want to pay special attention to.  
   
--   The current thread column, in which a yellow arrow indicates the current thread.  
+- The current thread column, in which a yellow arrow indicates the current thread.  
   
--   The **Thread Count** column, which displays the number of threads at the same location.  
+- The **Thread Count** column, which displays the number of threads at the same location.  
   
--   The **Line** column, which displays the line of code where each group of threads is located.  
+- The **Line** column, which displays the line of code where each group of threads is located.  
   
--   The **Address** column, which displays the instruction address where each group of threads is located. By default, this column is hidden.  
+- The **Address** column, which displays the instruction address where each group of threads is located. By default, this column is hidden.  
   
--   The **Location** column, which is the location in the source code.  
+- The **Location** column, which is the location in the source code.  
   
--   The **Status** column, which shows whether the thread is active, blocked, not started, or complete.  
+- The **Status** column, which shows whether the thread is active, blocked, not started, or complete.  
   
--   The **Tile** column, which shows the tile index for the threads in the row.  
+- The **Tile** column, which shows the tile index for the threads in the row.  
   
- The header of the table shows the tile and thread being displayed.  
+  The header of the table shows the tile and thread being displayed.  
   
- [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  
+  [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  
   
 ### To display the GPU Threads window  
   

@@ -1,8 +1,6 @@
 ---
 title: "MSBuild Properties | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: msbuild
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "MSBuild, properties"
@@ -78,12 +76,12 @@ $(registry:Hive\MyKey\MySubKey)
 ```  
   
 ## Global properties  
- MSBuild lets you set properties on the command line by using the **/property** (or **/p**) switch. These global property values override property values that are set in the project file. This includes environment properties, but does not include reserved properties, which cannot be changed.  
+ MSBuild lets you set properties on the command line by using the **-property** (or **-p**) switch. These global property values override property values that are set in the project file. This includes environment properties, but does not include reserved properties, which cannot be changed.  
   
  The following example sets the global `Configuration` property to `DEBUG`.  
   
 ```cmd  
-msbuild.exe MyProj.proj /p:Configuration=DEBUG  
+msbuild.exe MyProj.proj -p:Configuration=DEBUG  
 ```  
   
  Global properties can also be set or modified for child projects in a multi-project build by using the `Properties` attribute of the MSBuild task. Global properties are also forwarded to child projects unless the `RemoveProperties` attribute of the MSBuild task is used to specify the list of properties not to forward. For more information, see [MSBuild task](../msbuild/msbuild-task.md).

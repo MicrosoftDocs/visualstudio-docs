@@ -1,9 +1,6 @@
 ---
 title: "Command Code Enumerator | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "command code enumerator"
@@ -22,17 +19,17 @@ This enumerator is used in the options for the [SccGetCommandOptions](../extensi
   
 ```  
 enum SCCCOMMAND {  
-   SCC_COMMAND_GET,  
-   SCC_COMMAND_CHECKOUT,  
-   SCC_COMMAND_CHECKIN,  
-   SCC_COMMAND_UNCHECKOUT,  
-   SCC_COMMAND_ADD,  
-   SCC_COMMAND_REMOVE,  
-   SCC_COMMAND_DIFF,  
-   SCC_COMMAND_HISTORY,  
-   SCC_COMMAND_RENAME,  
-   SCC_COMMAND_PROPERTIES,  
-   SCC_COMMAND_OPTIONS  
+   SCC_COMMAND_GET,  
+   SCC_COMMAND_CHECKOUT,  
+   SCC_COMMAND_CHECKIN,  
+   SCC_COMMAND_UNCHECKOUT,  
+   SCC_COMMAND_ADD,  
+   SCC_COMMAND_REMOVE,  
+   SCC_COMMAND_DIFF,  
+   SCC_COMMAND_HISTORY,  
+   SCC_COMMAND_RENAME,  
+   SCC_COMMAND_PROPERTIES,  
+   SCC_COMMAND_OPTIONS  
 };  
 ```  
   

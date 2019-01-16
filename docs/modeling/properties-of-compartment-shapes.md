@@ -12,7 +12,6 @@ manager: douge
 ms.workload:
   - "multiple"
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Properties of Compartment Shapes
 Compartment shapes are one of the shapes you can use to display a domain class in a domain-specific language. You can expand and collapse the compartments.
@@ -22,7 +21,7 @@ Compartment shapes are one of the shapes you can use to display a domain class i
  Compartment shapes have the properties that are listed in the following table.
 
 |Property|Description|Default|
-|--------------|-----------------|-------------|
+|-|-|-|
 |Default Expand Collapse State|If `Expanded`, the compartments are shown on creation. If `Collapsed`, they are not.|Expanded|
 |Fill Color|The fill color of this shape.|White|
 |Fill Gradient Mode|The fill gradient mode of this shape.|Horizontal|
@@ -53,4 +52,4 @@ Compartment shapes are one of the shapes you can use to display a domain class i
 
 ## See Also
 
-- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+- [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

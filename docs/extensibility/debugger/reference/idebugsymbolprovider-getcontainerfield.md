@@ -1,9 +1,6 @@
 ---
 title: "IDebugSymbolProvider::GetContainerField | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugSymbolProvider::GetContainerField"
@@ -23,15 +20,15 @@ This method gets the field that contains the debug address.
   
 ```cpp  
 HRESULT GetContainerField(   
-   IDebugAddress*         pAddress,  
-   IDebugContainerField** ppContainerField  
+   IDebugAddress*         pAddress,  
+   IDebugContainerField** ppContainerField  
 );  
 ```  
   
 ```csharp  
 int GetContainerField(  
-   IDebugAddress            pAddress,   
-   out IDebugContainerField ppContainerField  
+   IDebugAddress            pAddress,   
+   out IDebugContainerField ppContainerField  
 );  
 ```  
   

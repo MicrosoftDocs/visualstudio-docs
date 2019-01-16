@@ -1,8 +1,6 @@
 ---
 title: "IDiaSession::findSymbolsForAcceleratorPointerTag | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -20,9 +18,9 @@ Returns an enumeration of symbols for the variable that the specified tag value 
   
 ```C++  
 HRESULT findSymbolsForAcceleratorPointerTag (   
-   IDiaSymbol*           parent,  
+   IDiaSymbol*           parent,  
    DWORD                 tagValue,  
-   IDiaEnumSymbols**     ppResult  
+   IDiaEnumSymbols**     ppResult  
 );  
 ```  
   

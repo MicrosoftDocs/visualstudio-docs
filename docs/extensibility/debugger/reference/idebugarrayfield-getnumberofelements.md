@@ -1,9 +1,6 @@
 ---
 title: "IDebugArrayField::GetNumberOfElements | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugArrayField::GetNumberOfElements"
@@ -23,13 +20,13 @@ Gets the number of elements in the array.
   
 ```cpp  
 HRESULT GetNumberOfElements(   
-   DWORD* pdwNumElements  
+   DWORD* pdwNumElements  
 );  
 ```  
   
 ```csharp  
 int GetNumberOfElements(  
-   out uint pdwNumElements  
+   out uint pdwNumElements  
 );  
 ```  
   

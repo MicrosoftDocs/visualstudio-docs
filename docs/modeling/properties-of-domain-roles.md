@@ -8,13 +8,12 @@ manager: douge
 ms.workload:
   - "multiple"
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Properties of Domain Roles
 The properties in the following table are associated with a domain role. For information about domain roles, see [Understanding Models, Classes and Relationships](../modeling/understanding-models-classes-and-relationships.md). For more information about how to use these properties, see [Customizing and Extending a Domain-Specific Language](../modeling/customizing-and-extending-a-domain-specific-language.md).
 
 |Property|Description|Default|
-|--------------|-----------------|-------------|
+|-|-|-|
 |Collection Type|If this role has multiplicity of 0..* or 1..\*, this property customizes the generic type that is used to store the collection of links.|`(none)` - <xref:Microsoft.VisualStudio.Modeling.LinkedElementCollection%601> is used|
 |Custom Attributes|Attributes that you specify here will be added as attributes to the generated code class.|<none\>|
 |Is Property Browsable|If `True`, and if the multiplicity of the relationship is 0..1 or 1..1, the role property can be browsed by the user in the **Properties** window. The property displays the name of the element at the other end of the relationship link.|`True`|

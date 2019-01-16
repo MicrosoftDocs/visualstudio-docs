@@ -1,8 +1,6 @@
 ---
 title: "How to: Display Message Properties | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "message properties in SpyHelp"
@@ -18,8 +16,8 @@ To find out more about a message listed in [Messages View](../debugger/messages-
   
 ### To open a Message Properties dialog box  
   
-1.  Select a message from the tree displayed in Messages view.  
+1. Select a message from the tree displayed in Messages view.  
   
-2.  From the **View** menu, choose **Properties**.  
+2. From the **View** menu, choose **Properties**.  
   
- Properties dialog boxes are not modal, so you can click on another item in a view window and the dialog box will show information on the selected item.
+   Properties dialog boxes are not modal, so you can click on another item in a view window and the dialog box will show information on the selected item.

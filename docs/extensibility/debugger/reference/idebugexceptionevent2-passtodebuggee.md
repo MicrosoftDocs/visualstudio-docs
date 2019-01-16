@@ -1,9 +1,6 @@
 ---
 title: "IDebugExceptionEvent2::PassToDebuggee | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugExceptionEvent2::PassToDebuggee"
@@ -23,13 +20,13 @@ Specifies whether the exception should be passed on to the program being debugge
   
 ```cpp  
 HRESULT PassToDebuggee(  
-   BOOL fPass  
+   BOOL fPass  
 );  
 ```  
   
 ```csharp  
 int PassToDebuggee(  
-   int fPass  
+   int fPass  
 );  
 ```  
   

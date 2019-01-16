@@ -1,9 +1,6 @@
 ---
 title: "IDebugObject::GetSize | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugObject::GetSize"
@@ -23,13 +20,13 @@ Gets the size of the object in bytes.
   
 ```cpp  
 HRESULT GetSize(   
-   UINT* pnSize  
+   UINT* pnSize  
 );  
 ```  
   
 ```csharp  
 int GetSize(  
-   out uint pnSize  
+   out uint pnSize  
 );  
 ```  
   

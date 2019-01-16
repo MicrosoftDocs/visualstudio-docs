@@ -1,9 +1,6 @@
 ---
 title: "How to: Create event handlers in Office projects"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -13,8 +10,8 @@ helpviewer_keywords:
   - "event handlers [Office development in Visual Studio]"
   - "Visual C# [Office development in Visual Studio], event handlers"
   - "events [Office development in Visual Studio]"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -51,5 +48,3 @@ ms.workload:
  [Write code in Office solutions](../vsto/writing-code-in-office-solutions.md)   
  [Walkthrough: Program against events of a NamedRange control](../vsto/walkthrough-programming-against-events-of-a-namedrange-control.md)   
  [Build Office solutions](../vsto/building-office-solutions.md)  
-  
-  

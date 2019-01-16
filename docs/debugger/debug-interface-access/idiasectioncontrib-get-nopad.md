@@ -1,8 +1,6 @@
 ---
 title: "IDiaSectionContrib::get_nopad | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Retrieves a flag indicating whether the section should not be padded to the next
   
 ```C++  
 HRESULT get_nopad(  
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 };  
 ```  
   

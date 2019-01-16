@@ -1,9 +1,6 @@
 ---
 title: "IDebugProcessSecurity::GetUserName | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugProcessSecurity::GetUserName"
@@ -21,13 +18,13 @@ Gets the user name from the port supplier.
   
 ```cpp  
 HRESULT GetUserName(  
-    BSTR *pbstrUserName  
+    BSTR *pbstrUserName  
 );  
 ```  
   
 ```csharp  
 int GetUserName (  
-    string pbstrUserName  
+    string pbstrUserName  
 );  
 ```  
   

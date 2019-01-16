@@ -1,9 +1,6 @@
 ---
 title: "IDebugProcessEx2::Attach | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProcessEx2::Attach"
@@ -23,13 +20,13 @@ This method informs the process that a session is now debugging the process.
   
 ```cpp  
 HRESULT Attach(   
-   IDebugSession2* pSession  
+   IDebugSession2* pSession  
 );  
 ```  
   
 ```csharp  
 int Attach(  
-   IDebugSession2 pSession  
+   IDebugSession2 pSession  
 );  
 ```  
   

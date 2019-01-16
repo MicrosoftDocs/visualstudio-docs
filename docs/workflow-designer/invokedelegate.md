@@ -3,7 +3,6 @@ title: "Workflow Designer - InvokeDelegate"
 ms.date: 11/04/2016
 ms.topic: reference
 ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 f1_keywords:
   - "InvokeDelegate Designer"
   - "System.Activities.Statements.InvokeDelegate.UI"
@@ -31,7 +30,7 @@ Access the **InvokeDelegate** activity designer in the **Primitives** category o
 The following table shows the <xref:System.Activities.Statements.InvokeDelegate> properties and describes how they are used in the designer. These properties can be edited in property grid, and some can be edited on Workflow Designer surface.
 
 |Property Name|Required|Usage|
-|-------------------|--------------|-----------|
+|-|--------------|-|
 |<xref:System.Activities.Activity.DisplayName%2A>|False|The friendly name of the <xref:System.Activities.Statements.InvokeDelegate> activity. The default value is InvokeDelegate.<br /><br /> Although the <xref:System.Activities.Activity.DisplayName%2A> is not strictly required, it's best to use one.|
 |<xref:System.Activities.Statements.InvokeDelegate.Delegate%2A>|True|The name of the <xref:System.Activities.ActivityDelegate> to be called when the activity executes. This property can be edited on designer surface, and is mandatory.|
 |<xref:System.Activities.Statements.InvokeDelegate.DelegateArguments%2A>|False|The argument collection of the called delegate. The keys are the names of the parameter objects on the <xref:System.Activities.ActivityDelegate>, and the values are the arguments whose expressions are evaluated and assigned to the corresponding parameter objects. To display the **DelegateArguments** dialog where you can set this property, click the ellipsis button in the **DelegateArguments** field of the property grid. Click the **Create Argument** field to add the arguments.|

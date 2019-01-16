@@ -1,8 +1,6 @@
 ---
 title: "IDiaStackWalkFrame::searchForReturnAddress | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,8 +20,8 @@ Searches the specified stack frame for the nearest function return address.
   
 ```C++  
 HRESULT searchForReturnAddress (   
-   IDiaFrameData* frame,  
-   ULONGLONG*     returnAddress  
+   IDiaFrameData* frame,  
+   ULONGLONG*     returnAddress  
 );  
 ```  
   

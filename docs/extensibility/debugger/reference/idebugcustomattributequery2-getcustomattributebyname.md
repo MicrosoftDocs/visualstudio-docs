@@ -1,9 +1,6 @@
 ---
 title: "IDebugCustomAttributeQuery2::GetCustomAttributeByName | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugCustomAttributeQuery2::GetCustomAttributeByName"
@@ -23,17 +20,17 @@ Obtains the custom attributes bytes given the name of the custom attribute.
   
 ```cpp  
 HRESULT GetCustomAttributeByName(   
-   LPCOLESTR pszCustomAttributeName,  
-   BYTE*     ppBlob,  
-   DWORD*    pdwLen  
+   LPCOLESTR pszCustomAttributeName,  
+   BYTE*     ppBlob,  
+   DWORD*    pdwLen  
 );  
 ```  
   
 ```csharp  
 int GetCustomAttributeByName(  
-   [In] string        pszCustomAttributeName,   
-   [In, Out] byte[]   ppBlob,   
-   [In, Out] ref uint pdwLen  
+   [In] string        pszCustomAttributeName,   
+   [In, Out] byte[]   ppBlob,   
+   [In, Out] ref uint pdwLen  
 );  
 ```  
   

@@ -1,9 +1,6 @@
 ---
 title: "IDebugModule3::IsUserCode | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugModule3::IsUserCode"
@@ -23,13 +20,13 @@ Retrieves information on whether the module represents user code or not.
   
 ```cpp  
 HRESULT IsUserCode(  
-   BOOL* pfUser  
+   BOOL* pfUser  
 );  
 ```  
   
 ```csharp  
 int IsUserCode(  
-   out int pfUser  
+   out int pfUser  
 );  
 ```  
   

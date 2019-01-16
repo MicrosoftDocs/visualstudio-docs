@@ -1,9 +1,6 @@
 ---
 title: "IDebugClassField::EnumBaseClasses | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugClassField::EnumBaseClasses"
@@ -23,13 +20,13 @@ Creates an enumerator for the base classes of this class.
   
 ```cpp  
 HRESULT EnumBaseClasses(   
-   IEnumDebugFields** ppEnum  
+   IEnumDebugFields** ppEnum  
 );  
 ```  
   
 ```csharp  
 int EnumBaseClasses(  
-   out IEnumDebugFields ppEnum  
+   out IEnumDebugFields ppEnum  
 );  
 ```  
   

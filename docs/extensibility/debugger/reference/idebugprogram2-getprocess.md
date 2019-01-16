@@ -1,9 +1,6 @@
 ---
 title: "IDebugProgram2::GetProcess | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProgram2::GetProcess"
@@ -23,13 +20,13 @@ Get the process that this program is running in.
   
 ```cpp  
 HRESULT GetProcess(  
-   IDebugProcess2** ppProcess  
+   IDebugProcess2** ppProcess  
 );  
 ```  
   
 ```csharp  
 int GetProcess(  
-   out IDebugProcess2 ppProcess  
+   out IDebugProcess2 ppProcess  
 );  
 ```  
   

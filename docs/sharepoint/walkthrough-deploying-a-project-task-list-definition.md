@@ -1,13 +1,8 @@
 ---
 title: "Walkthrough: Deploying a Project Task List Definition | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
-  - "VB"
-  - "CSharp"
   - "VB"
   - "CSharp"
 helpviewer_keywords: 
@@ -26,9 +21,9 @@ This walkthrough shows you how to use [!INCLUDE[vs_dev11_long](../sharepoint/inc
 
 ## Prerequisites
 
-- Supported editions of Microsoft Windows and SharePoint. For more information, see [Requirements for developing SharePoint solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md).
+- Supported editions of Microsoft Windows and SharePoint.
 
-- Visual Studio 2017 or an edition of Visual Studio Application Lifecycle Management (ALM).
+- Visual Studio 2017 or Azure DevOps Services.
 
 ## Create a SharePoint list
 

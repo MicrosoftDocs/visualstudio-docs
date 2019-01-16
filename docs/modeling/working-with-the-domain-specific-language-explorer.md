@@ -10,7 +10,6 @@ manager: douge
 ms.workload:
   - "multiple"
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Working with the Domain-Specific Language Explorer
 The **DSL Explorer** displays several kinds of information in a tree view. For more information about most of the items in the DSL Explorer, see [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md).
@@ -39,4 +38,4 @@ The **DSL Explorer** displays several kinds of information in a tree view. For m
 
 ## See Also
 
-- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+- [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

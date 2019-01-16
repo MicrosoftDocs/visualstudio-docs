@@ -1,8 +1,6 @@
 ---
 title: "How to: Display Process Properties | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Process properties"
@@ -18,8 +16,8 @@ To find out more about a process listed in [Processes View](../debugger/processe
   
 ### To open a Process Properties dialog box  
   
-1.  Select a process from the tree displayed in **Processes view**.  
+1. Select a process from the tree displayed in **Processes view**.  
   
-2.  From the **View** menu, choose **Properties**.  
+2. From the **View** menu, choose **Properties**.  
   
- Properties dialog boxes are not modal, so you can click on another item in a view window and the dialog box will show information on the selected item.
+   Properties dialog boxes are not modal, so you can click on another item in a view window and the dialog box will show information on the selected item.

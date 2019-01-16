@@ -1,9 +1,6 @@
 ---
 title: "IDebugDynamicFieldCOMPlus::GetTypeFromPrimitive | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugDynamicFieldCOMPlus::GetTypeFromPrimitive"
@@ -22,15 +19,15 @@ Retrieves a type given its primitive type.
   
 ```cpp  
 HRESULT GetTypeFromPrimitive(  
-   DWORD         dwCorElementType,  
-   IDebugField** ppType  
+   DWORD         dwCorElementType,  
+   IDebugField** ppType  
 );  
 ```  
   
 ```csharp  
 int GetTypeFromPrimitive(  
-   uint            dwCorElementType,  
-   out IDebugField ppType  
+   uint            dwCorElementType,  
+   out IDebugField ppType  
 );  
 ```  
   

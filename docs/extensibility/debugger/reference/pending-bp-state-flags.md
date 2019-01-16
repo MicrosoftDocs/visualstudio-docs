@@ -1,9 +1,6 @@
 ---
 title: "PENDING_BP_STATE_FLAGS | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "PENDING_BP_STATE_FLAGS"
@@ -23,16 +20,16 @@ Specifies the pending breakpoint state flags.
   
 ```cpp  
 enum enum_PENDING_BP_STATE_FLAGS {   
-   PBPSF_NONE        = 0x0000,  
-   PBPSF_VIRTUALIZED = 0x0001  
+   PBPSF_NONE        = 0x0000,  
+   PBPSF_VIRTUALIZED = 0x0001  
 };  
 typedef DWORD PENDING_BP_STATE_FLAGS;  
 ```  
   
 ```csharp  
 public enum enum_PENDING_BP_STATE_FLAGS {   
-   PBPSF_NONE        = 0x0000,  
-   PBPSF_VIRTUALIZED = 0x0001  
+   PBPSF_NONE        = 0x0000,  
+   PBPSF_VIRTUALIZED = 0x0001  
 };  
 ```  
   

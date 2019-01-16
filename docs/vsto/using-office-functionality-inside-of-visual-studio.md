@@ -1,9 +1,6 @@
 ---
 title: "Use Office functionality inside of Visual Studio"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -37,5 +34,3 @@ ms.workload:
  [Information rights management and managed code extensions overview](../vsto/information-rights-management-and-managed-code-extensions-overview.md)   
  [Password protection on Office documents](../vsto/password-protection-on-office-documents.md)   
  [How to: Open Office solutions without running code](../vsto/how-to-open-office-solutions-without-running-code.md)  
-  
-  

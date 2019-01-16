@@ -1,9 +1,6 @@
 ---
 title: "IDebugThread2::CanSetNextStatement | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugThread2::CanSetNextStatement"
@@ -23,15 +20,15 @@ Determines whether the current instruction pointer can be set to the given stack
   
 ```cpp  
 HRESULT CanSetNextStatement (   
-   IDebugStackFrame2*  pStackFrame,  
-   IDebugCodeContext2* pCodeContext  
+   IDebugStackFrame2*  pStackFrame,  
+   IDebugCodeContext2* pCodeContext  
 );  
 ```  
   
 ```csharp  
 int CanSetNextStatement (   
-   IDebugStackFrame2  pStackFrame,  
-   IDebugCodeContext2 pCodeContext  
+   IDebugStackFrame2  pStackFrame,  
+   IDebugCodeContext2 pCodeContext  
 );  
 ```  
   

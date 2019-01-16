@@ -1,9 +1,6 @@
 ---
 title: "IDebugBinder::ResolveDynamicType | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugBinder::ResolveDynamicType"
@@ -23,15 +20,15 @@ This method returns the exact type of a variable.
   
 ```cpp  
 HRESULT ResolveDynamicType (  
-   IDebugDynamicField *pDynamic,  
-   IDebugField       **ppResolved  
+   IDebugDynamicField *pDynamic,  
+   IDebugField       **ppResolved  
 );  
 ```  
   
 ```csharp  
 int ResolveDynamicType(  
-   IDebugDynamicField pDynamic,   
-   out IDebugField    ppResolved  
+   IDebugDynamicField pDynamic,   
+   out IDebugField    ppResolved  
 );  
 ```  
   

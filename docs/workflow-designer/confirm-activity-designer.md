@@ -3,7 +3,6 @@ title: "Workflow Designer - Confirm Activity Designer"
 ms.date: 11/04/2016
 ms.topic: reference
 ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 f1_keywords:
   - "System.Activities.Statements.Confirm.UI"
 ms.assetid: c753b67b-b0e7-462a-bb4e-ba8db04a078d
@@ -31,7 +30,7 @@ The **Confirm** activity designer is used to create and configure a <xref:System
  The following table shows the <xref:System.Activities.Statements.Confirm> properties and describes how they are used in the designer. The <xref:System.Activities.Activity.DisplayName%2A> property can be edited in property grid or on Workflow Designer surface, but the <xref:System.Activities.Statements.Confirm.Target%2A> property must be edited in property grid.
 
 |Property Name|Required|Usage|
-|-------------------|--------------|-----------|
+|-|--------------|-|
 |<xref:System.Activities.Activity.DisplayName%2A>|False|Specifies the optional friendly name of the <xref:System.Activities.Statements.CancellationScope> activity. The default is Confirm.|
 |<xref:System.Activities.Statements.Confirm.Target%2A>|True|Specifies the <xref:System.Activities.InArgument%601> that contains the <xref:System.Activities.Statements.CompensationToken> for this <xref:System.Activities.Statements.Confirm> activity.|
 

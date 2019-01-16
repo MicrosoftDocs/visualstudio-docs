@@ -1,9 +1,6 @@
 ---
 title: "IDebugStackFrame3::GetUnwindCodeContext | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugStackFrame3::GetUnwindCodeContext"
@@ -23,13 +20,13 @@ Returns the code context representing a location if a stack unwind operation occ
   
 ```cpp  
 HRESULT GetUnwindCodeContext(  
-   IDebugCodeContext2 **ppCodeContext  
+   IDebugCodeContext2 **ppCodeContext  
 );  
 ```  
   
 ```csharp  
 int GetUnwindCodeContext(  
-   out IDebugCodeContext2 ppCodeContext  
+   out IDebugCodeContext2 ppCodeContext  
 );  
 ```  
   

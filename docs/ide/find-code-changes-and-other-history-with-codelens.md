@@ -2,8 +2,9 @@
 title: Find code changes and other history with CodeLens
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
+f1_keywords:
+  - "VS.ToolsOptionsPages.Text_Editor.All_Languages.CodeLens"
 author: gewarren
 ms.author: gewarren
 manager: douge
@@ -58,9 +59,9 @@ You need:
 
 - Visual Studio Enterprise or Visual Studio Professional
 
-- Team Foundation Server 2013 or later, Visual Studio Team Services, or Git
+- Team Foundation Server 2013 or later, Azure DevOps Services, or Git
 
-- [Skype for Business](/skypeforbusiness/), or Lync 2010 or later, to contact your team from the code editor
+- [Skype for Business](/skypeforbusiness/) to contact your team from the code editor
 
 For C# or Visual Basic code that's stored with Team Foundation Version Control (TFVC) or Git, you get CodeLens details at the class and method levels (*code element-level* indicators). If your Git repository is hosted in TfGit, you also get links to TFS work items.
 
@@ -74,7 +75,7 @@ For file types other than *.cs* or *.vb*, you get CodeLens details for the entir
 
 Code element-level indicators let you see who changed your code, and what changes they made. Code element-level indicators are available for C# and Visual Basic code.
 
-This is what you see when you use Team Foundation Version Control (TFVC) in Team Foundation Server or Visual Studio Team Services:
+This is what you see when you use Team Foundation Version Control (TFVC) in Team Foundation Server or Azure DevOps Services:
 
 ![CodeLens: Get change history for your code in TFVC](../ide/media/codelens-code-changes.png)
 
@@ -119,7 +120,7 @@ You can find out how many people changed your code and how many changes were mad
 
 ### Find when your code was branched
 
-To find when your code was branched, navigate to your code in the child branch. Then, select the **changes** indicator or press**Alt**+**6**:
+To find when your code was branched, navigate to your code in the child branch. Then, select the **changes** indicator or press **Alt**+**6**:
 
 ![CodeLens: Find when your code was branched](../ide/media/codelens-first-branch.png)
 
@@ -156,7 +157,7 @@ Compare an incoming change with your local version by pressing **Shift**+**F10**
 The icon in the **Branch** column tells you how the branch is related to the branch you're working in.
 
 |**Icon**|**The change came from:**|
-|--------------|-----------------------------------------|
+|--------------| - |
 |![CodeLens: Change from current branch icon](../ide/media/codelensbranchcurrenticon.png)|The current branch|
 |![CodeLens: Change from parent branch icon](../ide/media/codelensbranchparenticon.png)|The parent branch|
 |![CodeLens: Change from child branch icon](../ide/media/codelensbranchchildicon.png)|A child branch|
@@ -200,7 +201,7 @@ You can discover unit tests that exist for your C# or Visual Basic code without 
 
 1. Go to application code that has associated [unit test code](../test/unit-test-your-code.md).
 
-2. If you have not already, build your application to load the CodeLens test indicators. Make sure [discovery by built assemblies](../test/test-explorer-faq.md#3-assembly-based-discovery-is-no-longer-working-for-my-project-how-do-i-turn-it-back-on) is turned on.
+2. If you have not already, build your application to load the CodeLens test indicators. Make sure [discovery by built assemblies](../test/test-explorer-faq.md#assembly-based-discovery) is turned on.
 
 3. Review the tests for the code by pressing **Alt**+**3**.
 
@@ -251,13 +252,13 @@ Turn CodeLens file-level indicators on and off using the chevron icons at the bo
 
 - If your code is stored in TFS, make sure that code indexing is turned on by using the [CodeIndex command](../ide/codeindex-command.md) with the [TFS Config command](/tfs/server/ref/command-line/tfsconfig-cmd).
 
-- TFS-related indicators appear only when work items are linked to the code and when you have permissions to open linked work items. Confirm that you have [team member permissions](/vsts/work/scale/multiple-teams).
+- DevOps-related indicators appear only when work items are linked to the code and when you have permissions to open linked work items. Confirm that you have [team member permissions](/azure/devops/organizations/security/view-permissions?view=vsts).
 
 - Unit test indicators don't appear when application code doesn't have unit tests. Test status indicators appear automatically in test projects. If you know that your application code has unit tests, but the test indicators don't appear, try building the solution (**Ctrl**+**Shift**+**B**).
 
 ### Q: Why don't I see the work item details for a commit?
 
-**A:** This might happen because CodeLens can't find the work items in TFS. Check that you're connected to the team project that has those work items, and that you have permissions to see those work items. Work item details might not also not show if the commit description has incorrect information about the work item IDs in TFS.
+**A:** This might happen because CodeLens can't find the work items in Azure Boards or TFS. Check that you're connected to the project that has those work items, and that you have permissions to see those work items. Work item details might also not show if the commit description has incorrect information about the work item IDs in Azure Boards or TFS.
 
 ### Q: Why don't I see the Skype indicators?
 
@@ -309,7 +310,7 @@ To use the keyboard:
 
      ![Refresh CodeLens Team Indicators menu item](../ide/media/codelensrefreshindicatorsfromcode.png)
 
-- **Test**: [Find unit tests for your code](#Find-unit-tests-for-your-code) to refresh the **Test** indicator.
+- **Test**: [Find unit tests for your code](#associated-unit-tests) to refresh the **Test** indicator.
 
 ### Q: What's "Local Version"?
 
@@ -321,7 +322,8 @@ To use the keyboard:
 
 ### Q: My CodeLens test indicators no longer appear in my file when I first open my solution. How can I load them?
 
-**A:** Rebuild your project to get CodeLens test indicators to load in your file. Make sure [discovery by built assemblies](../test/test-explorer-faq.md#3-assembly-based-discovery-is-no-longer-working-for-my-project-how-do-i-turn-it-back-on) is turned on. To improve performance, Visual Studio no longer fetches source information for test indicators when code files are loaded. Test indicators are loaded after a build, or when you navigate to a test by double-clicking on it in **Test Explorer**.
+**A:** Rebuild your project to get CodeLens test indicators to load in your file. Make sure [discovery by built assemblies](../test/test-explorer-faq.md#assembly-based-discovery
+) is turned on. To improve performance, Visual Studio no longer fetches source information for test indicators when code files are loaded. Test indicators are loaded after a build, or when you navigate to a test by double-clicking on it in **Test Explorer**.
 
 ## See also
 

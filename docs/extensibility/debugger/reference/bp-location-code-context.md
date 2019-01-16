@@ -1,9 +1,6 @@
 ---
 title: "BP_LOCATION_CODE_CONTEXT | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "BP_LOCATION_CODE_CONTEXT"
@@ -23,7 +20,7 @@ Describes the location of a breakpoint that is bound directly to an address in t
   
 ```cpp  
 typedef struct _BP_LOCATION_CODE_CONTEXT {   
-   IDebugCodeContext2* pCodeContext;  
+   IDebugCodeContext2* pCodeContext;  
 } BP_LOCATION_CODE_CONTEXT;  
 ```  
   

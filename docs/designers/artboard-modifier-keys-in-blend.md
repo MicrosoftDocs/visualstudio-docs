@@ -2,7 +2,6 @@
 title: Artboard modifier keys in Blend
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-designers
 ms.topic: conceptual
 ms.assetid: 50732733-ff49-41ba-8c44-4f6a3875ec1c
 author: gewarren
@@ -15,7 +14,7 @@ ms.workload:
 Some keyboard shortcuts do not have associated menu items, which means that you can't use the [!INCLUDE[blend_subs](../debugger/includes/blend_subs_md.md)] user interface to discover them. The following table lists shortcuts that modify an action, such as resizing an object.
 
 |To do this action|Do this|
-|-----------------------|-------------|
+| - |-------------|
 |Temporarily select the **Selection** tool while a different tool remains selected (this reduces the number of times you have to click something in the **Tools** panel, going back and forth between the **Selection** tool and others)|Hold down **Ctrl**|
 |Nudge selected objects while the **Selection** tool is selected|Press the arrow keys|
 |Pan the artboard|Hold down **Spacebar** and drag the artboard|

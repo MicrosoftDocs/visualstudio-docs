@@ -1,9 +1,6 @@
 ---
 title: "Workspaces and language services in Visual Studio | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/21/2018"
-ms.technology:
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 ms.assetid: 8631ffea-83c8-4fd4-a01e-c59772e89c84
 author: "vukelich"
@@ -20,7 +17,7 @@ Language services can provide [Open Folder](../ide/develop-code-in-visual-studio
 
 In a [workspace](workspaces.md), language services are initialized by an <xref:Microsoft.VisualStudio.Workspace.Intellisense.ILanguageServiceProvider> extension point that specializes only in that language service and knows nothing of the build authoring. In this way, a language service owner can maintain a single Open Folder extension regardless of how many patterns exist within folders and files for running their compiler during a build (for example MSBuild, makefiles, etc.). When files from which a file context was created are changed on disk and the file context is refreshed, the language service provider is notified of the updated set of file contexts. The language service provider can then update its model.
 
-When a document is opened in the editor, Visual Studio only considers language service providers that require file context types for which a matching file context provider can be found. It then passes the file context(s) from the matching provider(s) to the selected language service provider via `ILangaugeServiceProvider.InitializeAsync`. What the language service provider does with that file context data is an implementation detail of the language service provider, but the expected user experience is a richer language service for that opened document.
+When a document is opened in the editor, Visual Studio only considers language service providers that require file context types for which a matching file context provider can be found. It then passes the file context(s) from the matching provider(s) to the selected language service provider via `ILanguageServiceProvider.InitializeAsync`. What the language service provider does with that file context data is an implementation detail of the language service provider, but the expected user experience is a richer language service for that opened document.
 
 ## Using ILanguageServiceProvider
 

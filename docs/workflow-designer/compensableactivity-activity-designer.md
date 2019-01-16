@@ -3,7 +3,6 @@ title: "Workflow Designer - CompensableActivity Activity Designer"
 ms.date: 11/04/2016
 ms.topic: reference
 ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 f1_keywords:
   - "System.Activities.Statements.CompensableActivity.UI"
 ms.assetid: e0340d89-d39e-4a52-8557-13e27040d7b5
@@ -29,7 +28,7 @@ The **CompensableActivity** activity designer is used to create and configure a 
  The following table shows the <xref:System.Activities.Statements.CompensableActivity> properties and describes how they are used in the designer. The <xref:System.Activities.Activity.DisplayName%2A> and <xref:System.Activities.Activity%601.Result%2A> property can be edited in property grid but the other properties must be edited on the Workflow Designer surface.
 
 |Property Name|Required|Usage|
-|-------------------|--------------|-----------|
+|-|--------------|-|
 |<xref:System.Activities.Activity.DisplayName%2A>|False|The optional friendly name of the <xref:System.Activities.Statements.CompensableActivity> activity. The default is CompensableActivity.|
 |<xref:System.Activities.Activity%601.Result%2A>|False|Specifies the return value of the <xref:System.Activities.Statements.CompensableActivity>. This property must be edited in the property grid.|
 |<xref:System.Activities.Statements.CompensableActivity.Body%2A>|True|Specifies the activity for which the compensation, cancellation, and confirmation logic is provided. To add the <xref:System.Activities.Statements.CompensableActivity.Body%2A> activity, drop an activity from **Toolbox** into the **Body** box on the **CompensableActivity** activity designer. Add the hint text "Drop activity here".|

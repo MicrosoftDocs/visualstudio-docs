@@ -1,9 +1,6 @@
 ---
 title: "IDebugObject::IsProxy | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugObject::IsProxy"
@@ -22,13 +19,13 @@ Determines if the object is a transparent proxy.
   
 ```cpp  
 HRESULT IsProxy (  
-   BOOL* pfIsProxy  
+   BOOL* pfIsProxy  
 );  
 ```  
   
 ```csharp  
 int IsProxy (  
-   out bool pfIsProxy  
+   out bool pfIsProxy  
 );  
 ```  
   

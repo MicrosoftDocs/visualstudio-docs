@@ -1,9 +1,6 @@
 ---
 title: "IDebugComPlusSymbolProvider2::GetTypesByName | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "GetTypesByName"
@@ -22,17 +19,17 @@ Retrieves a type given its name.
   
 ```cpp  
 HRESULT GetTypesByName(  
-   LPCOLESTR          pszClassName,  
-   NAME_MATCH         nameMatch,  
-   IEnumDebugFields** ppEnum  
+   LPCOLESTR          pszClassName,  
+   NAME_MATCH         nameMatch,  
+   IEnumDebugFields** ppEnum  
 );  
 ```  
   
 ```csharp  
 int GetTypesByName(  
-   string               pszClassName,  
-   enum_ NAME_MATCH     nameMatch,  
-   out IEnumDebugFields ppEnum  
+   string               pszClassName,  
+   enum_ NAME_MATCH     nameMatch,  
+   out IEnumDebugFields ppEnum  
 );  
 ```  
   
@@ -50,7 +47,7 @@ int GetTypesByName(
  If successful, returns `S_OK`; otherwise, returns an error code.  
   
 ## Remarks  
- For generic types, the name to look up for 'List\<int>' or 'List\<int,int>' would be 'List'. If types of the same name appear in multiple modules, the `ppEnum` paramter will contain all copies. You have to use [GetTypeInfo](../../../extensibility/debugger/reference/idebugfield-gettypeinfo.md) and distinguish based on the `guidModule` parameter.  
+ For generic types, the name to look up for 'List\<int>' or 'List\<int,int>' would be 'List'. If types of the same name appear in multiple modules, the `ppEnum` parameter will contain all copies. You have to use [GetTypeInfo](../../../extensibility/debugger/reference/idebugfield-gettypeinfo.md) and distinguish based on the `guidModule` parameter.  
   
 ## Example  
  The following example shows how to implement this method for a **CDebugSymbolProvider** object that exposes the [IDebugComPlusSymbolProvider2](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2.md) interface.  

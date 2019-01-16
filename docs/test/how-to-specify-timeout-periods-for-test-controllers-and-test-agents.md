@@ -1,5 +1,5 @@
 ---
-title: "Timeout Periods for Test Controllers and Test Agents in Visual Studio"
+title: "Timeout Periods for Test Controllers and Test Agents"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -12,18 +12,19 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ---
 # How to: Specify timeout periods for test controllers and test agents
 
 Both the test controller and the test agent have several timeout settings that specify how long they should wait for responses from one another, or from a data source before failing with an error. Under certain circumstances, it might be necessary to edit the timeout values to meet the needs of your topology or other environment issues. To edit the timeout values, edit the XML configuration file that is associated with either the test controller or test agent, as covered in the following procedures.
 
- To edit a test controller or a test agent’s various timeout settings, modify the following configuration files using the key names and values in the tables:
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
+
+To edit a test controller or a test agent’s various timeout settings, modify the following configuration files using the key names and values in the tables:
 
 -   Test controller: *QTController.exe.config*
 
     |Key name|Description|Value|
-    |--------------|-----------------|-----------|
+    |-|-----------------|-|
     |AgentConnectionTimeoutInSeconds|Number of seconds to wait for agent ping request before connection is considered lost.|"n" seconds.|
     |AgentSyncTimeoutInSeconds|When you start a synchronizing test run, number of seconds to wait for all agents to sync before aborting the run.|"n" seconds.|
     |AgentInitializeTimeout|Number of seconds to wait for all agents and their data collectors to initialize at the beginning of a test run, before aborting the test run. This value should be reasonably large if using data collectors.|"n" seconds. Default: "120" (two minutes).|
@@ -32,7 +33,7 @@ Both the test controller and the test agent have several timeout settings that s
 -   Test Agent: *QTAgentService.exe.config*
 
     |Key name|Description|Value|
-    |--------------|-----------------|-----------|
+    |-|-----------------|-|
     |ControllerConnectionPeriodInSeconds|Number of seconds between attempts to connect to the controller.|"n" seconds. Default: "30" (thirty seconds).|
     |RemotingTimeoutSeconds|Maximum time a remoting call can last in seconds.|"n" seconds. Default: "600" (ten minutes).|
     |StopTestRunCallTimeoutInSeconds|Number of seconds to wait for call to stop the test run.|"n" seconds. Default: "120" (two minutes).|

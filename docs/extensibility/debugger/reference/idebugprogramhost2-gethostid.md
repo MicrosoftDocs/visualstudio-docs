@@ -1,9 +1,6 @@
 ---
 title: "IDebugProgramHost2::GetHostId | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProgramHost2::GetHostId"
@@ -23,13 +20,13 @@ Gets the process identifier of the process hosting this program.
   
 ```cpp  
 HRESULT GetHostId(   
-   AD_PROCESS_ID* pdwId  
+   AD_PROCESS_ID* pdwId  
 );  
 ```  
   
 ```csharp  
 int GetHostId(   
-   AD_PROCESS_ID[] pdwId  
+   AD_PROCESS_ID[] pdwId  
 );  
 ```  
   

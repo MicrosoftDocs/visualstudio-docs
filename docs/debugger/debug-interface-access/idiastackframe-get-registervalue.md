@@ -1,8 +1,6 @@
 ---
 title: "IDiaStackFrame::get_registerValue | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,8 +20,8 @@ Retrieves the value of a specified register as stored in the stack frame.
   
 ```C++  
 HRESULT get_registerValue(  
-   ULONG      registerIndex,  
-   ULONGLONG *pRetVal  
+   ULONG      registerIndex,  
+   ULONGLONG *pRetVal  
 );  
 ```  
   

@@ -1,9 +1,6 @@
 ---
 title: "IDebugDisassemblyStream2::GetSize | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugDisassemblyStream2::GetSize"
@@ -23,13 +20,13 @@ Gets the size in instructions of this disassembly stream.
   
 ```cpp  
 HRESULT GetSize(   
-   UINT64* pnSize  
+   UINT64* pnSize  
 );  
 ```  
   
 ```csharp  
 int GetSize(   
-   out ulong pnSize  
+   out ulong pnSize  
 );  
 ```  
   

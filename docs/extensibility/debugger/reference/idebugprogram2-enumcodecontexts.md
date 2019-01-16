@@ -1,9 +1,6 @@
 ---
 title: "IDebugProgram2::EnumCodeContexts | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProgram2::EnumCodeContexts"
@@ -23,15 +20,15 @@ Retrieves a list of the code contexts for a given position in a source file.
   
 ```cpp  
 HRESULT EnumCodeContexts(   
-   IDebugDocumentPosition2*  pDocPos,  
-   IEnumDebugCodeContexts2** ppEnum  
+   IDebugDocumentPosition2*  pDocPos,  
+   IEnumDebugCodeContexts2** ppEnum  
 );  
 ```  
   
 ```csharp  
 int EnumCodeContexts(   
-   IDebugDocumentPosition2     pDocPos,  
-   out IEnumDebugCodeContexts2 ppEnum  
+   IDebugDocumentPosition2     pDocPos,  
+   out IEnumDebugCodeContexts2 ppEnum  
 );  
 ```  
   

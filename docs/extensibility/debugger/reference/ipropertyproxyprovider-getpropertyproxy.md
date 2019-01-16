@@ -1,9 +1,6 @@
 ---
 title: "IPropertyProxyProvider::GetPropertyProxy | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IPropertyProxyProvider::GetPropertyProxy"
@@ -23,15 +20,15 @@ Retrieves the property proxy interface for the specified proxy ID.
   
 ```cpp  
 HRESULT GetPropertyProxy(  
-   DWORD                  dwID,  
-   IPropertyProxyEESide** proxy  
+   DWORD                  dwID,  
+   IPropertyProxyEESide** proxy  
 );  
 ```  
   
 ```csharp  
 int GetPropertyProxy(  
-   uint                     dwID,  
-   out IPropertyProxyEESide proxy  
+   uint                     dwID,  
+   out IPropertyProxyEESide proxy  
 );  
 ```  
   

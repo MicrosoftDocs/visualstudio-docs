@@ -24,7 +24,7 @@ Determines if this thread is the currently running thread.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT QueryIsCurrentThread();  
 ```  
   

@@ -1,7 +1,7 @@
 ---
-title: Port, Migrate, and Upgrade Projects
+title: Port, migrate, and upgrade projects
 description: A reference for the support in Visual Studio 2017 for projects created in earlier versions of Visual Studio, and how Visual Studio decides when it needs to migrate a project.
-ms.date: 06/19/2018
+ms.date: 10/09/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
@@ -35,7 +35,7 @@ This present article provides details only for project types that Visual Studio 
 
 The following list describes support in Visual Studio 2017 for projects that were created in earlier versions.
 
-If you don't see a project or file type listed here that should be, consult the [Visual Studio 2015 version of this article](port-migrate-and-upgrade-visual-studio-projects.md) and use the "Give documentation feedback" option at the bottom of this page to provide details of your project. (If you'd like a response, use the documentation feedback rather than the anonymous "Is this page helpful?" control.)
+If you don't see a project or file type listed here that should be, consult the [Visual Studio 2015 version of this article](https://docs.microsoft.com/visualstudio/porting/porting-migrating-and-upgrading-visual-studio-projects?view=vs-2015) and use the "Give documentation feedback" option at the bottom of this page to provide details of your project. (If you'd like a response, use the documentation feedback rather than the anonymous "Is this page helpful?" control.)
 
 | Type of Project | Support |
 | --- | --- |
@@ -52,7 +52,7 @@ If you don't see a project or file type listed here that should be, consult the 
 | MSI Setup (vdproj) | See InstallShield Projects. |
 | Office 2007 VSTO | Requires a one-way upgrade for Visual Studio 2017. |
 | Office 2010 VSTO | If the project targets the .NET Framework 4, you can open it in Visual Studio 2010 SP1 and later. All other projects require a one-way upgrade. |
-| Service Fabric (sfproj) | Service Fabric Application Projects can be opened in either Visual Studio 2015 or Visual Studio 2017, unless the Service Fabric Application project references an ASP.NET Core service project. Service Fabric projects from Visual Studio 2015 that are opened in Visual Studio 2017 are one-way migrated from the xproj format to csproj. See ".NET Core projects (xproj)" earlier in this table. |
+| Service Fabric (sfproj) | Service Fabric Application projects can be opened in either Visual Studio 2015 or Visual Studio 2017, unless the Service Fabric Application project references an ASP.NET Core service project. Service Fabric projects from Visual Studio 2015 that are opened in Visual Studio 2017 are one-way migrated from the xproj format to csproj. See ".NET Core projects (xproj)" earlier in this table. |
 | SharePoint 2010 | When a SharePoint solution project is opened with Visual Studio 2017, it's upgraded to either SharePoint 2013 or SharePoint 2016. The ".NET Desktop Development" workload must be installed in Visual Studio 2017 for the upgrade.<br/><br/>For more information about how to upgrade SharePoint projects, see [Upgrade to SharePoint 2013](https://technet.microsoft.com/library/cc303420.aspx), [Update Workflow in SharePoint Server 2013](https://technet.microsoft.com/library/dn133867.aspx), and [Create the SharePoint Server 2016 farm for a database attach upgrade](https://technet.microsoft.com/library/cc263026(v=office.16).aspx). |
 | SharePoint 2016 | SharePoint Add-In projects created in Office Developer Tools Preview 2 cannot be opened in Visual Studio 2017. To work around this limitation, update the `MinimumVisualStudioVersion` to 12.0 and `MinimumOfficeToolsVersion` to 12.2 in the csproj vbproj file. |
 | Silverlight | Silverlight projects not supported in Visual Studio 2017. To maintain Silverlight applications, continue to use Visual Studio 2015. |
@@ -62,7 +62,7 @@ If you don't see a project or file type listed here that should be, consult the 
 | Visual Studio Extensibility/VSIX | Projects with MinimumVersion 14.0 or less are updated to declare MinimumVersion 15.0, which prevents the project from being opened in earlier versions of Visual Studio. To allow a project to open in earlier versions, set MinimumVersion to `$(VisualStudioVersion)`. See also [How to: Migrate Extensibility Projects to Visual Studio 2017](../extensibility/how-to-migrate-extensibility-projects-to-visual-studio-2017.md). |
 | Visual Studio Lab Management | You can use Microsoft Test Manager or Visual Studio 2010 SP1 and later to open environments created in any of these versions. However, for Visual Studio 2010 SP1 the version of Microsoft Test Manager must match the version of Team Foundation Server before you can create environments. |
 | Visual Studio Tools for Apache Cordova | Projects can be opened in Visual Studio 2017, but are not backwards compatible. Upon opening a project from Visual Studio 2015, you're prompted to allow modifications to your project. This modification upgrades the project to use toolsets instead of a `taco.json` file to manage the versioning of the Cordova library, its platforms, its plugins, and its node/npm dependencies. See the [migration guide](https://docs.microsoft.com/visualstudio/cross-platform/tools-for-cordova/first-steps/migrate-from-visual-studio-2015) for more information. |
-| Web Deployment (wdproj) | Support for Web Deployment projects was removed in Visual Studio 2012 with the addition of publish profile support. Because there is no equivalent in Visual Studio 2017, there is no automatic migration path for such projects. Instead, open the wdproj file in a text editor and copy-paste any customizations into to the pubxml (publish profile) file, as described on [StackOverflow](https://stackoverflow.com/a/12061065/1203388). Also see [Plans regarding website and web deployment projects (MSDN blogs)](https://blogs.msdn.microsoft.com/webdev/2012/08/06/plans-regarding-website-projects-and-web-deployment-projects). |
+| Web Deployment (wdproj) | Support for Web Deployment projects was removed in Visual Studio 2012 with the addition of publish profile support. Because there is no equivalent in Visual Studio 2017, there is no automatic migration path for such projects. Instead, open the wdproj file in a text editor and copy-paste any customizations into to the pubxml (publish profile) file, as described on [StackOverflow](https://stackoverflow.com/a/12061065/1203388). Also see [Plans regarding website and web deployment projects](https://blogs.msdn.microsoft.com/webdev/2012/08/06/plans-regarding-website-projects-and-web-deployment-projects/). |
 | Windows Communication Foundation, Windows Workflow Foundation | You can open this project in Visual Studio 2017, Visual Studio 2015, Visual Studio 2013, and Visual Studio 2012 |
 | Windows Presentation Foundation | You can open this project in Visual Studio 2013, Visual Studio 2012, and Visual Studio 2010 SP1. |
 | Windows Store/Phone apps | Projects for Windows Store 8.1 and 8.0, and Windows Phone 8.1 and 8.0 are not supported in Visual Studio 2017. To maintain these apps, continue to use Visual Studio 2015. To maintain Windows Phone 7.x projects, use Visual Studio 2012. |
@@ -89,7 +89,13 @@ To maintain maximum compatibility with projects created in older versions, Visua
 
 In this context, the question naturally arises whether you should try to manually update or migrate a project to a newer `ToolsVersion` value. Making such a change is unnecessary, and would likely generate many errors and warnings that you'd need to fix to get the project to build again. Furthermore, if Visual Studio drops support for a specific `ToolsVersion` in the future, then opening the project will trigger the project migration process specifically because the `ToolsVersion` value must be changed. In such a case, the subsystem for that specific project type knows exactly what needs to be changed, and can make those changes automatically as described earlier in this article.
 
+# Next steps
+
 Refer to the following articles for further discussion:
 
 - [ToolsVersion guidance](../msbuild/msbuild-toolset-toolsversion.md)
 - [Framework targeting guidance](../ide/visual-studio-multi-targeting-overview.md)
+
+## See also
+
+[Project migration and upgrade reference for Visual Studio 2019 Preview](port-migrate-upgrade-visual-studio-projects-2019.md)

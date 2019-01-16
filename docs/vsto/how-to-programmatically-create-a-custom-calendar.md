@@ -1,9 +1,6 @@
 ---
 title: "How to: Programmatically create a custom calendar"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -12,8 +9,8 @@ helpviewer_keywords:
   - "custom calendars [Office development in Visual Studio]"
   - "calendars [Office development in Visual Studio], custom"
   - "appointments [Office development in Visual Studio]"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -24,12 +21,9 @@ ms.workload:
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]  
   
 ## Example  
- [!code-csharp[Trin_OL_CustomCalendar#1](../vsto/codesnippet/CSharp/Trin_OL_CustomCalendar/backup/thisaddin.cs#1)]
  [!code-csharp[Trin_OL_CustomCalendar#1](../vsto/codesnippet/CSharp/Trin_OL_CustomCalendar/thisaddin.cs#1)]  
   
 ## See also  
  [Work with calendar items](../vsto/working-with-calendar-items.md)   
  [How to: Programmatically create appointments](../vsto/how-to-programmatically-create-appointments.md)   
  [How to: Programmatically create a meeting request](../vsto/how-to-programmatically-create-a-meeting-request.md)  
-  
-  

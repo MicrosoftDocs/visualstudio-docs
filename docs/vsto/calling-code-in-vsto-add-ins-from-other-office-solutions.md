@@ -1,9 +1,6 @@
 ---
 title: "Call code in VSTO Add-ins from other Office solutions"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -15,8 +12,8 @@ helpviewer_keywords:
   - "add-ins [Office development in Visual Studio], calling code from other solutions"
   - "interoperability [Office development in Visual Studio]"
   - "calling code from VBA"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -57,24 +54,24 @@ ms.workload:
   
  The recommended way to expose the [IDispatch](/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch) interface is to perform the following steps:  
   
-1.  Define an interface that declares the members that you want to expose to other solutions. You can define this interface in your VSTO Add-in project. However, you might want to define this interface in a separate class library project if you want to expose the class to non-VBA solutions, so that the solutions that call your VSTO Add-in can reference the interface without referencing your VSTO Add-in project.  
+1. Define an interface that declares the members that you want to expose to other solutions. You can define this interface in your VSTO Add-in project. However, you might want to define this interface in a separate class library project if you want to expose the class to non-VBA solutions, so that the solutions that call your VSTO Add-in can reference the interface without referencing your VSTO Add-in project.  
   
-2.  Apply the <xref:System.Runtime.InteropServices.ComVisibleAttribute> attribute to this interface, and set this attribute to **true**.  
+2. Apply the <xref:System.Runtime.InteropServices.ComVisibleAttribute> attribute to this interface, and set this attribute to **true**.  
   
-3.  Modify your class to implement this interface.  
+3. Modify your class to implement this interface.  
   
-4.  Apply the <xref:System.Runtime.InteropServices.ClassInterfaceAttribute> attribute to your class, and set this attribute to the **None** value of the <xref:System.Runtime.InteropServices.ClassInterfaceType> enumeration.  
+4. Apply the <xref:System.Runtime.InteropServices.ClassInterfaceAttribute> attribute to your class, and set this attribute to the **None** value of the <xref:System.Runtime.InteropServices.ClassInterfaceType> enumeration.  
   
-5.  If you want to expose this class to out-of-process clients, you might also need to do the following:  
+5. If you want to expose this class to out-of-process clients, you might also need to do the following:  
   
-    -   Derive the class from <xref:System.Runtime.InteropServices.StandardOleMarshalObject>. For more information, see [Expose classes to out-of-process clients](#outofproc).  
+   -   Derive the class from <xref:System.Runtime.InteropServices.StandardOleMarshalObject>. For more information, see [Expose classes to out-of-process clients](#outofproc).  
   
-    -   Set the **Register for COM interop** property in the project where you define the interface. This property is necessary only if you want to enable clients to use early binding to call into the VSTO Add-in.  
+   -   Set the **Register for COM interop** property in the project where you define the interface. This property is necessary only if you want to enable clients to use early binding to call into the VSTO Add-in.  
   
- The following code example demonstrates an `AddInUtilities` class with an `ImportData` method that can be called by other solutions. To see this code in the context of a larger walkthrough, see [Walkthrough: Call code in a VSTO Add-in from VBA](../vsto/walkthrough-calling-code-in-a-vsto-add-in-from-vba.md).  
+   The following code example demonstrates an `AddInUtilities` class with an `ImportData` method that can be called by other solutions. To see this code in the context of a larger walkthrough, see [Walkthrough: Call code in a VSTO Add-in from VBA](../vsto/walkthrough-calling-code-in-a-vsto-add-in-from-vba.md).  
   
- [!code-csharp[Trin_AddInInteropWalkthrough #3](../vsto/codesnippet/CSharp/Trin_AddInInteropWalkthrough/AddInUtilities.cs#3)]
- [!code-vb[Trin_AddInInteropWalkthrough#3](../vsto/codesnippet/VisualBasic/Trin_AddInInteropWalkthrough/AddInUtilities.vb#3)]  
+   [!code-csharp[Trin_AddInInteropWalkthrough #3](../vsto/codesnippet/CSharp/Trin_AddInInteropWalkthrough/AddInUtilities.cs#3)]
+   [!code-vb[Trin_AddInInteropWalkthrough#3](../vsto/codesnippet/VisualBasic/Trin_AddInInteropWalkthrough/AddInUtilities.vb#3)]  
   
 ### Expose classes to VBA  
  When you perform the steps provided above, VBA code can call only the methods that you declare in the interface. VBA code cannot call any other methods in your class, including methods that your class obtains from base classes such as <xref:System.Object>.  
@@ -99,13 +96,13 @@ ms.workload:
 ## Access objects from other solutions  
  To call the exposed object in your VSTO Add-in, perform the following steps in the client solution:  
   
-1.  Get the <xref:Microsoft.Office.Core.COMAddIn> object that represents the exposed VSTO Add-in. Clients can access all of the available VSTO Add-ins by using the `Application.COMAddIns` property in the object model of the host Office application.  
+1. Get the <xref:Microsoft.Office.Core.COMAddIn> object that represents the exposed VSTO Add-in. Clients can access all of the available VSTO Add-ins by using the `Application.COMAddIns` property in the object model of the host Office application.  
   
-2.  Access the COMAddIn.Object property of the <xref:Microsoft.Office.Core.COMAddIn> object. This property returns the exposed object from the VSTO Add-in.  
+2. Access the COMAddIn.Object property of the <xref:Microsoft.Office.Core.COMAddIn> object. This property returns the exposed object from the VSTO Add-in.  
   
-3.  Call the members of the exposed object.  
+3. Call the members of the exposed object.  
   
- The way that you use the return value of the COMAddIn.Object property is different for VBA clients and non-VBA clients. For out-of-process clients, additional code is necessary to avoid a possible race condition.  
+   The way that you use the return value of the COMAddIn.Object property is different for VBA clients and non-VBA clients. For out-of-process clients, additional code is necessary to avoid a possible race condition.  
   
 ### Access objects from VBA solutions  
  The following code example demonstrates how to use VBA to call a method that is exposed by a VSTO Add-in. This VBA macro calls a method named `ImportData` that is defined in a VSTO Add-in that is named **ExcelImportData**. To see this code in the context of a larger walkthrough, see [Walkthrough: Call code in a VSTO Add-in from VBA](../vsto/walkthrough-calling-code-in-a-vsto-add-in-from-vba.md).  
@@ -146,5 +143,3 @@ utilities.ImportData();
  [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md)   
  [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md)   
  [Customize UI features by using extensibility interfaces](../vsto/customizing-ui-features-by-using-extensibility-interfaces.md)  
-  
-  

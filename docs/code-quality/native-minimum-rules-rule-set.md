@@ -2,7 +2,6 @@
 title: Native Minimum Rules rule set
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 ms.assetid: 2d898bc4-fba5-472e-8f09-b0c6b511c5a3
 author: gewarren
@@ -31,7 +30,7 @@ The Microsoft Native Minimum Rules focus on the most critical problems in your n
 |[C6270](../code-quality/c6270.md)|Missing Float Argument To Format Function|
 |[C6271](../code-quality/c6271.md)|Extra Argument To Format Function|
 |[C6272](../code-quality/c6272.md)|Non-Float Argument To Format Function|
-|[C6273](../code-quality/c6273.md)|Non-Integer Argumen To Format Function|
+|[C6273](../code-quality/c6273.md)|Non-Integer Argument To Format Function|
 |[C6274](../code-quality/c6274.md)|Non-Character Argument To Format Function|
 |[C6276](../code-quality/c6276.md)|Invalid String Cast|
 |[C6277](../code-quality/c6277.md)|Invalid CreateProcess Call|
@@ -75,6 +74,12 @@ The Microsoft Native Minimum Rules focus on the most critical problems in your n
 |[C6704](../code-quality/c6704.md)|Unexpected Annotation Expression Error|
 |[C6705](../code-quality/c6705.md)|Expected number of arguments for annotation does not match actual number of arguments for annotation|
 |[C6706](../code-quality/c6706.md)|Unexpected Annotation Error for annotation|
+|[C26450](../code-quality/c26450.md)|RESULT_OF_ARITHMETIC_OPERATION_PROVABLY_LOSSY|
+|[C26451](../code-quality/c26451.md)|RESULT_OF_ARITHMETIC_OPERATION_CAST_TO_LARGER_SIZE|
+|[C26452](../code-quality/c26452.md)|SHIFT_COUNT_NEGATIVE_OR_TOO_BIG|
+|[C26453](../code-quality/c26453.md)|LEFTSHIFT_NEGATIVE_SIGNED_NUMBER|
+|[C26454](../code-quality/c26454.md)|RESULT_OF_ARITHMETIC_OPERATION_NEGATIVE_UNSIGNED|
+|[C26495](../code-quality/c26495.md)|MEMBER_UNINIT|
 |[C28021](../code-quality/c28021.md)|The parameter being annotated must be a pointer|
 |[C28182](../code-quality/c28182.md)|Dereferencing NULL pointer. The pointer contains the same NULL value as another pointer did.|
 |[C28202](../code-quality/c28202.md)|Illegal reference to non-static member|
@@ -90,7 +95,7 @@ The Microsoft Native Minimum Rules focus on the most critical problems in your n
 |[C28215](../code-quality/c28215.md)|The typefix cannot be applied to a parameter that already has a typefix|
 |[C28216](../code-quality/c28216.md)|The checkReturn annotation only applies to postconditions for the specific function parameter.|
 |[C28217](../code-quality/c28217.md)|For function, the number of parameters to annotation does not match that found at file|
-|[C28218](../code-quality/c28218.md)|For function paramteer, the annotation's parameter does not match that found at file|
+|[C28218](../code-quality/c28218.md)|For function parameter, the annotation's parameter does not match that found at file|
 |[C28219](../code-quality/c28219.md)|Member of enumeration expected for annotation the parameter in the annotation|
 |[C28220](../code-quality/c28220.md)|Integer expression expected for annotation the parameter in the annotation|
 |[C28221](../code-quality/c28221.md)|String expression expected for the parameter in the annotation|

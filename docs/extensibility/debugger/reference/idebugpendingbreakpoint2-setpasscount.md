@@ -1,9 +1,6 @@
 ---
 title: "IDebugPendingBreakpoint2::SetPassCount | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugPendingBreakpoint2::SetPassCount"
@@ -24,13 +21,13 @@ Sets or changes the pass count associated with the pending breakpoint.
   
 ```cpp  
 HRESULT SetPassCount(   
-   BP_PASSCOUNT bpPassCount  
+   BP_PASSCOUNT bpPassCount  
 );  
 ```  
   
 ```csharp  
 int SetPassCount(   
-   BP_PASSCOUNT bpPassCount  
+   BP_PASSCOUNT bpPassCount  
 );  
 ```  
   

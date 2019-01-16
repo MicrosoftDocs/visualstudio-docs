@@ -1,9 +1,6 @@
 ---
 title: "CONTEXT_INFO_FIELDS | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "CONTEXT_INFO_FIELDS"
@@ -23,26 +20,26 @@ Specifies what information to retrieve about a memory context.
   
 ```cpp  
 enum enum_CONTEXT_INFO_FIELDS {   
-   CIF_MODULEURL =       0x00000001,  
-   CIF_FUNCTION =        0x00000002,  
-   CIF_FUNCTIONOFFSET =  0x00000004,  
-   CIF_ADDRESS =         0x00000008,  
-   CIF_ADDRESSOFFSET =   0x00000010,  
-   CIF_ADDRESSABSOLUTE = 0x00000020,  
-   CIF_ALLFIELDS =       0x0000003f  
+   CIF_MODULEURL =       0x00000001,  
+   CIF_FUNCTION =        0x00000002,  
+   CIF_FUNCTIONOFFSET =  0x00000004,  
+   CIF_ADDRESS =         0x00000008,  
+   CIF_ADDRESSOFFSET =   0x00000010,  
+   CIF_ADDRESSABSOLUTE = 0x00000020,  
+   CIF_ALLFIELDS =       0x0000003f  
 };  
 typedef DWORD CONTEXT_INFO_FIELDS;  
 ```  
   
 ```csharp  
 public enum enum_CONTEXT_INFO_FIELDS {  
-   CIF_MODULEURL =       0x00000001,  
-   CIF_FUNCTION =        0x00000002,  
-   CIF_FUNCTIONOFFSET =  0x00000004,  
-   CIF_ADDRESS =         0x00000008,  
-   CIF_ADDRESSOFFSET =   0x00000010,  
-   CIF_ADDRESSABSOLUTE = 0x00000020,  
-   CIF_ALLFIELDS =       0x0000003f  
+   CIF_MODULEURL =       0x00000001,  
+   CIF_FUNCTION =        0x00000002,  
+   CIF_FUNCTIONOFFSET =  0x00000004,  
+   CIF_ADDRESS =         0x00000008,  
+   CIF_ADDRESSOFFSET =   0x00000010,  
+   CIF_ADDRESSABSOLUTE = 0x00000020,  
+   CIF_ALLFIELDS =       0x0000003f  
 };  
 ```  
   

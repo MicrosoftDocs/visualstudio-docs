@@ -1,9 +1,6 @@
 ---
 title: "IDebugThread2::SetNextStatement | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugThread2::SetNextStatement"
@@ -23,15 +20,15 @@ Sets the current instruction pointer to the given code context.
   
 ```cpp  
 HRESULT SetNextStatement (   
-   IDebugStackFrame2*  pStackFrame,  
-   IDebugCodeContext2* pCodeContext  
+   IDebugStackFrame2*  pStackFrame,  
+   IDebugCodeContext2* pCodeContext  
 );  
 ```  
   
 ```csharp  
 int SetNextStatement (   
-   IDebugStackFrame2  pStackFrame,  
-   IDebugCodeContext2 pCodeContext  
+   IDebugStackFrame2  pStackFrame,  
+   IDebugCodeContext2 pCodeContext  
 );  
 ```  
   

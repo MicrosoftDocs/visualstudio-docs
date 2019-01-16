@@ -3,7 +3,6 @@ title: "Workflow Designer - Add CorrelationInitializers Dialog Box"
 ms.date: 11/04/2016
 ms.topic: reference
 ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 f1_keywords:
   - "AddCorrelationInitializers.UI"
 ms.assetid: c0517467-d54a-4ee6-aef0-c19b96b6f395
@@ -27,7 +26,7 @@ The correlation initializers in the collection specified with this dialog box ca
 The following table describes the user interface (UI) elements of the **Add Correlation Initializers** dialog box:
 
 |UI Element|Description|
-|----------------|-----------------|
+|-|-----------------|
 |**Add Initializer**|Click the **Add initialize** box to add an additional initializer to the collection.|
 |**Correlation Type**|Specifies the type of correlation initializer. There are four types to choose from:<br /><br /> 1. A callback correlation initializer to specify a <xref:System.ServiceModel.Activities.CallbackCorrelationInitializer>.<br />2. A context correlation initializer to specify a <xref:System.ServiceModel.Activities.CorrelationInitializer>.<br />3. A request-reply correlation initializer to specify a <xref:System.ServiceModel.Activities.RequestReplyCorrelationInitializer>.<br />4. A query correlation initializer to specify a <xref:System.ServiceModel.Activities.QueryCorrelationInitializer>.<br /><br /> To edit the **CorrelationType**<br /><br /> 1. Tab to the specific row in the **Add Initializer** DataGrid.<br />2. To set focus to **CorrelationTypeComboBox**, press **Ctrl**+**Tab**.<br />3. Press Alt+Down to pop up the **ComboBox** and edit it.|
 |**XPath Queries**|A key/value pair that contains the queries used to extract correlation data from incoming and outgoing messages. This list is only valid when using <xref:System.ServiceModel.Activities.QueryCorrelationInitializer> types.|

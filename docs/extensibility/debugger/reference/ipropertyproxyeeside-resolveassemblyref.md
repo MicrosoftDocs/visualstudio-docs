@@ -1,9 +1,6 @@
 ---
 title: "IPropertyProxyEESide::ResolveAssemblyRef | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IPropertyProxyEESide::ResolveAssemblyRef"
@@ -23,21 +20,21 @@ Determines the location of the specified managed assembly reference.
   
 ```cpp  
 HRESULT ResolveAssemblyRef(  
-   BSTR*                  assemName,  
-   IEEDataStorage**       assemBytes,  
-   IEEDataStorage**       assemPdb,  
-   BSTR*                  assemLocation,  
-   ASSEMBLYLOCRESOLUTION* alr  
+   BSTR*                  assemName,  
+   IEEDataStorage**       assemBytes,  
+   IEEDataStorage**       assemPdb,  
+   BSTR*                  assemLocation,  
+   ASSEMBLYLOCRESOLUTION* alr  
 );  
 ```  
   
 ```csharp  
 int ResolveAssemblyRef(  
-   ref string                     assemName,  
-   out IEEDataStorage             assemBytes,  
-   out IEEDataStorage             assemPdb,  
-   out string                     assemLocation,  
-   out enum_ASSEMBLYLOCRESOLUTION alr  
+   ref string                     assemName,  
+   out IEEDataStorage             assemBytes,  
+   out IEEDataStorage             assemPdb,  
+   out string                     assemLocation,  
+   out enum_ASSEMBLYLOCRESOLUTION alr  
 );  
 ```  
   

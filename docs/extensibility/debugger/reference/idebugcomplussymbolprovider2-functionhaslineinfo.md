@@ -1,9 +1,6 @@
 ---
 title: "IDebugComPlusSymbolProvider2::FunctionHasLineInfo | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "FunctionHasLineInfo"
@@ -22,13 +19,13 @@ Determines if the specified method has line information.
   
 ```cpp  
 HRESULT FunctionHasLineInfo(  
-   IDebugAddress* pAddress  
+   IDebugAddress* pAddress  
 );  
 ```  
   
 ```csharp  
 int FunctionHasLineInfo(  
-   IDebugAddress pAddress  
+   IDebugAddress pAddress  
 );  
 ```  
   

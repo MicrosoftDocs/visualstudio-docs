@@ -1,9 +1,6 @@
 ---
 title: "IDebugPortSupplier2::RemovePort | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugPortSupplier2::RemovePort"
@@ -23,13 +20,13 @@ Removes a port.
   
 ```cpp  
 HRESULT RemovePort(   
-   IDebugPort2* pPort  
+   IDebugPort2* pPort  
 );  
 ```  
   
 ```csharp  
 int RemovePort(   
-   IDebugPort2 pPort  
+   IDebugPort2 pPort  
 );  
 ```  
   

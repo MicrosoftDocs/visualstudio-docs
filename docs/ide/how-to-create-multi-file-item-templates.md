@@ -1,8 +1,7 @@
 ---
-title: Creating multi-file item templates for Visual Studio
+title: Creating multi-file item templates
 ms.date: 01/02/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:
   - "Visual Studio templates, creating multi-file item templates"

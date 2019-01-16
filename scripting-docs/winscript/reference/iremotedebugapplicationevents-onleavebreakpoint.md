@@ -24,7 +24,7 @@ Handles an event for leaving a breakpoint.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT OnLeaveBreakPoint(  
    IRemoteDebugApplicationThread*  prdat  
 );  

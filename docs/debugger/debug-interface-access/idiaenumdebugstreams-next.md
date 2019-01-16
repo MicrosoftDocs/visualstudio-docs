@@ -1,8 +1,6 @@
 ---
 title: "IDiaEnumDebugStreams::Next | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,15 +20,15 @@ Retrieves a specified number of debug streams in the enumeration sequence.
   
 ```C++  
 HRESULT Next (   
-   ULONG                     celt,   
-   IDiaEnumDebugStreamData** rgelt,  
-   ULONG*                    pceltFetched  
+   ULONG                     celt,   
+   IDiaEnumDebugStreamData** rgelt,  
+   ULONG*                    pceltFetched  
 );  
 ```  
   
 #### Parameters  
  celt  
- [in] **T**he number of debug streams in the enumerator to be retrieved.  
+ [in] The number of debug streams in the enumerator to be retrieved.  
   
  rgelt  
  [out] Returns an array of [IDiaEnumDebugStreamData](../../debugger/debug-interface-access/idiaenumdebugstreamdata.md) objects that represents the debug streams being retrieved.  

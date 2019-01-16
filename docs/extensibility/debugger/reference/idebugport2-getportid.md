@@ -1,9 +1,6 @@
 ---
 title: "IDebugPort2::GetPortId | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugPort2::GetPortId"
@@ -23,13 +20,13 @@ Gets the port identifier.
   
 ```cpp  
 HRESULT GetPortId(   
-   GUID* pguidPort  
+   GUID* pguidPort  
 );  
 ```  
   
 ```csharp  
 int GetPortId(   
-   out Guid pguidPort  
+   out Guid pguidPort  
 );  
 ```  
   

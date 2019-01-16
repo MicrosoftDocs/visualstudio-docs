@@ -1,8 +1,6 @@
 ---
 title: "IDiaSymbol::get_compilerName | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Returns the name of the compiler used to generate the [Compiland](../../debugger
   
 ```C++  
 HRESULT get_compilerName (  
-   BSTR *pName  
+   BSTR *pName  
 );  
 ```  
   

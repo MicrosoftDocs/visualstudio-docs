@@ -1,8 +1,6 @@
 ---
 title: "IDiaSymbol::get_liveRangeLength | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "C++"
@@ -22,7 +20,7 @@ Returns the length of the address range in which the local symbol is valid.
   
 ```C++  
 HRESULT get_liveRangeLength (   
-   ULONGLONG* length  
+   ULONGLONG* length  
 );  
 ```  
   

@@ -1,9 +1,6 @@
 ---
 title: "Walkthrough: Bind to data from a service in a VSTO add-in project"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -25,13 +22,13 @@ ms.workload:
   
  This walkthrough illustrates the following tasks:  
   
--   Adding a <xref:Microsoft.Office.Tools.Word.RichTextContentControl> control to a document at runtime.  
+- Adding a <xref:Microsoft.Office.Tools.Word.RichTextContentControl> control to a document at runtime.  
   
--   Binding the <xref:Microsoft.Office.Tools.Word.RichTextContentControl> control to data from a web service.  
+- Binding the <xref:Microsoft.Office.Tools.Word.RichTextContentControl> control to data from a web service.  
   
--   Responding to the <xref:Microsoft.Office.Tools.Word.ContentControlBase.Entering> event of a <xref:Microsoft.Office.Tools.Word.RichTextContentControl> control.  
+- Responding to the <xref:Microsoft.Office.Tools.Word.ContentControlBase.Entering> event of a <xref:Microsoft.Office.Tools.Word.RichTextContentControl> control.  
   
- [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
+  [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
   
 ## Prerequisites  
  You need the following components to complete this walkthrough:  
@@ -113,5 +110,3 @@ ms.workload:
   
 ## See also  
  [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)  
-  
-  

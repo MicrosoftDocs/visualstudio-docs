@@ -24,7 +24,7 @@ Adds a type library to the namespace for the script.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT AddTypeLib(  
    REFGUID   rguidTypeLib,  
    DWORD     dwMajor,  
@@ -59,4 +59,4 @@ HRESULT AddTypeLib(
 ## See Also  
  [IActiveScriptAuthor Interface](../../winscript/reference/iactivescriptauthor-interface.md)   
  [IActiveScriptAuthor::AddNamedItem](../../winscript/reference/iactivescriptauthor-addnameditem.md)   
- [LoadTypeLib](http://msdn.microsoft.com/en-us/155b48e5-5438-409e-9342-630a6a500f60)
+ [LoadTypeLib](https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-loadtypelib)
