@@ -1,4 +1,4 @@
-- name: JavaScript in Visual Studio
+- name: JavaScript and TypeScript
   href: index.yml
 - name: Overview
   items:
@@ -41,4 +41,4 @@
   - name: package.json configuration
     href: configure-packages-with-package-json.md
   - name: Wiki docs for JavaScript and TypeScript
-    href: https://ticehurst.com/jsdocs/articles/
+    href: https://github.com/Microsoft/nodejstools/wiki

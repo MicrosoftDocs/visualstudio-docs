@@ -57,7 +57,7 @@
     - name: MSBuild
       tocHref: /visualstudio/msbuild/
       topicHref: /visualstudio/msbuild/msbuild
-    - name: JavaScript
+    - name: JavaScript and TypeScript
       tocHref: /visualstudio/javascript/
       topicHref: /visualstudio/javascript/index
     - name: Profiling
