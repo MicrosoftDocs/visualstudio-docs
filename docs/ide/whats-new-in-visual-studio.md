@@ -44,7 +44,8 @@ Here's more detailed information about some of the most notable improvements and
 
 ### A new setup experience
 
-[Download Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) or [Check Visual Studio system requirements](/visualstudio/productinfo/vs2017-system-requirements-vs?context=visualstudio/default&contextView=vs-2017)
+>[!div class="button"]
+>[Download Visual Studio](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs201)
 
  Visual Studio makes it easier and faster to install just the features you need, when you need them. And, it uninstalls cleanly, too.
 
