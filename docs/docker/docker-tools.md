@@ -9,26 +9,17 @@ ms.technology: vs-azure
 ---
 # Quickstart: Visual Studio Tools for Docker
 
-With Visual Studio 2017, you can easily build, debug, and run containerized ASP.NET Core apps and publish them to Azure Container Registry.
-
-[View or download sample code](https://github.com/aspnet/Docs/tree/master/aspnetcore/host-and-deploy/docker/visual-studio-tools-for-docker/samples) ([how to download](xref:index#how-to-download-a-sample))
+With Visual Studio 2017, you can easily build, debug, and run containerized ASP.NET Core apps and publish them to Azure Container Registry (ACR), Docker Hub, Azure App Service, or your own container registry. In this article, we'll publish to ACR.
 
 ## Prerequisites
 
-* [Docker for Windows](https://docs.docker.com/docker-for-windows/install/)
-* [Visual Studio 2017](https://www.visualstudio.com/) with the **.NET Core cross-platform development** workload
+* Either [Docker Desktop (Windows)](https://hub.docker.com/editions/community/docker-ce-desktop-windows) or [Docker Desktop for Windows](https://docs.docker.com/docker-for-windows/)
+* [Visual Studio 2017](https://visualstudio.microsoft.com/) with the **Web Development**, **Azure Tools** workload, and/or **.NET Core cross-platform development** workload installed
 * [ASP.NET Core 2.1 Tools](https://dotnet.microsoft.com/download/dotnet-core/2.1)
 
 ## Installation and setup
 
 For Docker installation, first review the information at [Docker for Windows: What to know before you install](https://docs.docker.com/docker-for-windows/install/#what-to-know-before-you-install). Next, install [Docker For Windows](https://docs.docker.com/docker-for-windows/install/).
-
-**[Shared Drives](https://docs.docker.com/docker-for-windows/#shared-drives)** in Docker for Windows must be configured to support volume mapping and debugging. Right-click the System Tray's Docker icon, select **Settings**, and select **Shared Drives**. Select the drive where Docker stores files. Click **Apply**.
-
-![Dialog to select local C drive sharing for containers](media/settings-shared-drives-win.png)
-
-> [!TIP]
-> Visual Studio 2017 versions 15.6 and later prompt when **Shared Drives** aren't configured.
 
 ## Add a project to a Docker container
 
@@ -42,8 +33,6 @@ For Docker installation, first review the information at [Docker for Windows: Wh
    ![Enable Docker Support check box](media/docker-tools/enable-docker-support.PNG)
 
 1. Select the type of container you want (Windows or Linux) and click **OK**.
-
-   When adding Docker support to a project, choose either a Windows or a Linux container. The Docker host must be running the same container type. To change the container type in the running Docker instance, right-click the System Tray's Docker icon and choose **Switch to Windows containers...** or **Switch to Linux containers...**.
 
 ## Dockerfile overview
 
@@ -72,7 +61,7 @@ COPY --from=publish /app .
 ENTRYPOINT ["dotnet", "HelloDockerTools.dll"]
 ```
 
-The preceding *Dockerfile* is based on the [microsoft/aspnetcore](https://hub.docker.com/r/microsoft/aspnetcore/) image, and includes instructions for modifying the base image by building your project and adding it to the container. This base image includes the ASP.NET Core NuGet packages, which are just-in-time (JIT) compiled to improve startup performance.
+The preceding *Dockerfile* is based on the [microsoft/aspnetcore](https://hub.docker.com/r/microsoft/aspnetcore/) image, and includes instructions for modifying the base image by building your project and adding it to the container. 
 
 When the new project dialog's **Configure for HTTPS** check box is checked, the *Dockerfile* exposes two ports. One port is used for HTTP traffic; the other port is used for HTTPS. If the check box isn't checked, a single port (80) is exposed for HTTP traffic.
 
@@ -80,13 +69,7 @@ When the new project dialog's **Configure for HTTPS** check box is checked, the 
 
 Select **Docker** from the debug drop-down in the toolbar, and start debugging the app. You might see a message with a prompt about trusting a certificate; choose to trust the certificate to continue.
 
-The **Output** window shows the following actions taking place:
-
-* The *2.1-aspnetcore-runtime* tag of the *microsoft/dotnet* runtime image is acquired (if not already in the cache). The image installs the ASP.NET Core and .NET Core runtimes and associated libraries. It's optimized for running ASP.NET Core apps in production.
-* The `ASPNETCORE_ENVIRONMENT` environment variable is set to `Development` within the container.
-* Two dynamically assigned ports are exposed: one for HTTP and one for HTTPS. The port assigned to localhost can be queried with the `docker ps` command.
-* The app is copied to the container.
-* The default browser is launched with the debugger attached to the container using the dynamically assigned port.
+The **Output** window shows what actions are taking place.
 
 Open the **Package Manager Console** (PMC) from the menu **Tools**> NuGet Package Manager, **Package Manager Console**.
 
@@ -99,7 +82,7 @@ microsoft/dotnet  2.1-aspnetcore-runtime  fcc3887985bb  6 days ago      255MB
 ```
 
 > [!NOTE]
-> The *dev* image lacks the app contents, as **Debug** configurations use volume mounting to provide the iterative experience. To push an image, use the **Release** configuration.
+> The **dev** image does not contain the app binaries and other content, as **Debug** configurations use volume mounting to provide the iterative edit and debug experience. To create a production image containing all contents, use the **Release** configuration.
 
 Run the `docker ps` command in PMC. Notice the app is running using the container:
 
@@ -116,11 +99,11 @@ Changes to static files and Razor views are automatically updated without the ne
 
 Code file modifications require compilation and a restart of Kestrel within the container.  Make a code change, such as changing the text in About.cshtml.cs that says "Your application description page" to something else, like "Hello from my Docker container."
 
-After making the change, use `CTRL+F5` to rebuild and start the app within the container. The Docker container isn't rebuilt or stopped. Run the `docker ps` command in PMC. Notice the original container is still running as of 10 minutes ago:
+After making the change, use `F5` to rebuild and start debugging the app within the container. The Docker container isn't rebuilt or stopped. Run the `docker ps` command in PMC. Notice the original container is still running as of 10 minutes ago:
 
 ```console
 CONTAINER ID        IMAGE                  COMMAND               CREATED             STATUS              PORTS                                           NAMES
-7492e48bfebb        hellodockertools:dev   "tail -f /dev/null"   2 hours ago         Up 2 hours          0.0.0.0:39293->80/tcp, 0.0.0.0:44356->443/tcp   nifty_lamport
+7492e48bfebb        hellodockertools:dev   "tail -f /dev/null"   10 minutes ago         Up 10 minutes          0.0.0.0:39293->80/tcp, 0.0.0.0:44356->443/tcp   nifty_lamport
 ```
 
 ## Publish Docker images
@@ -147,8 +130,24 @@ Once the develop and debug cycle of the app is completed, you can create a produ
 
 You can now pull the container from the registry to any host capable of running Docker images, for example [Azure Container Instances](/azure/container-instances/container-instances-tutorial-deploy-app).
 
+## Troubleshooting
+
+### Shared Drives
+
+Make sure that Shared Drives are enabled in Docker. **[Shared Drives](https://docs.docker.com/docker-for-windows/#shared-drives)** in Docker for Windows must be configured to support volume mapping and debugging. Right-click the System Tray's Docker icon, select **Settings**, and select **Shared Drives**. Select the drive where Docker stores files. Click **Apply**.
+
+![Dialog to select local C drive sharing for containers](media/settings-shared-drives-win.png)
+
+> [!TIP]
+> Visual Studio 2017 versions 15.6 and later prompt when **Shared Drives** aren't configured.
+
+### Container type
+
+When adding Docker support to a project, you choose either a Windows or a Linux container. The Docker host must be running the same container type. To change the container type in the running Docker instance, right-click the System Tray's Docker icon and choose **Switch to Windows containers...** or **Switch to Linux containers...**.
+
 ## Additional resources
 
+* [View or download sample code](https://github.com/aspnet/Docs/tree/master/aspnetcore/host-and-deploy/docker/visual-studio-tools-for-docker/samples) ([how to download](xref:index#how-to-download-a-sample))
 * [Container development with Visual Studio](/visualstudio/containers)
 * [Troubleshoot Visual Studio 2017 development with Docker](vs-azure-tools-docker-troubleshooting-docker-errors.md)
 * [Visual Studio Tools for Docker GitHub repository](https://github.com/Microsoft/DockerTools)
