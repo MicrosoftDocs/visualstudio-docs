@@ -94,7 +94,7 @@ The text editor reformats your code as appropriate. When this option is selected
 
 **Automatic insertion of end constructs**
 
-When you type—for example, the first line of a procedure declaration, `Sub Main—`and press **Enter**, the text editor adds a matching `End Sub` line. Similarly, if you add a [For](/dotnet/visual-basic/language-reference/statements/for-next-statement) loop, the text editor adds a matching `Next` statement. When this option is selected, the code editor automatically adds the end construct.
+When you type—for example, the first line of a procedure declaration, `Sub Main`—and press **Enter**, the text editor adds a matching `End Sub` line. Similarly, if you add a [For](/dotnet/visual-basic/language-reference/statements/for-next-statement) loop, the text editor adds a matching `Next` statement. When this option is selected, the code editor automatically adds the end construct.
 
 **Automatic insertion of Interface and MustOverride members**
 
