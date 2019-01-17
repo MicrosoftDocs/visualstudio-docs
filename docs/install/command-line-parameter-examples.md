@@ -1,7 +1,7 @@
 ---
 title: "Command-line parameter examples for installation"
 description: "Customize these examples to create your own command-line installation of Visual Studio."
-ms.date: 11/14/2018
+ms.date: 01/16/2019
 ms.custom: "seodec18"
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
@@ -22,7 +22,9 @@ In each example, `vs_enterprise.exe`, `vs_professional.exe` and `vs_community.ex
 > All commands require administrative elevation, and a User Account Control prompt will be displayed if the process is not started from an elevated prompt.
 >
 > [!NOTE]
->  You can use the `^` character at the end of a command line to concatenate multiple lines into a single command. Alternatively, you can simply place these lines together onto a single row. In PowerShell, the equivalent is the backtick (`` ` ``) character.
+> You can use the `^` character at the end of a command line to concatenate multiple lines into a single command. Alternatively, you can simply place these lines together onto a single row. In PowerShell, the equivalent is the backtick (`` ` ``) character.
+
+For lists of the workloads and components that you can install by using the command line, see the [Visual Studio workload and component IDs](workload-and-component-ids.md) page.
 
 ## Using --installPath
 
@@ -77,13 +79,15 @@ In each example, `vs_enterprise.exe`, `vs_professional.exe` and `vs_community.ex
    --includeRecommended
   ```
 
-## Using --includeRecommended
+## Using --all
 
 * Start an interactive installation of all workloads and components that are available in the Visual Studio 2017 Enterprise edition:
 
   ```cmd
-  vs_enterprise.exe --all --includeRecommended --includeOptional
+  vs_enterprise.exe --all
   ```
+
+## Using --includeRecommended
 
 * Install a second, named instance of Visual Studio 2017 Professional on a machine with Visual Studio 2017 Community edition already installed, with support for Node.js development:
 
@@ -163,3 +167,4 @@ vs_enterprise.exe modify --installPath "C:\VS" --config "C:\.vsconfig"
 * [Visual Studio Administrator Guide](visual-studio-administrator-guide.md)
 * [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
 * [Create an offline installation of Visual Studio 2017](create-an-offline-installation-of-visual-studio.md)
+* [Visual Studio workload and component IDs](workload-and-component-ids.md)

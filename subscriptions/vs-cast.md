@@ -89,12 +89,12 @@ Upon approval of your request, you'll receive a second email confirming successf
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Not available                                             |  N/A           |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | Not available                                              |  N/A          |
 | Visual Studio Dev Essentials | N/A  | Not available | N/A |
-| Visual Studio Enterprise (Standard, annual cloud)  | NFR<sup>1</sup> |Not available  | N/A |
+| Visual Studio Enterprise (Standard)  | NFR<sup>1</sup> |Not available  | N/A |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure | Not available | N/A |
 
 
 
-<sup>1</sup>  *Includes:  Not for Resale (NFR), FTE, Microsoft Valued Professional (MVP), Region Director (RD), Microsoft Partner Network (MPN), Visual Studio Industry Partner (VSIP), Microsoft Certified Trainer, BizSpark, Imagine*
+<sup>1</sup>  *Includes:  Not for Resale (NFR), FTE, Most Valuable Professional (MVP), Regional Director (RD), Microsoft Partner Network (MPN), Visual Studio Industry Partner (VSIP), Microsoft Certified Trainer, BizSpark, Imagine*
 
 
 > [!NOTE]
