@@ -87,7 +87,7 @@ Right-click on `render` and choose **Peek Definition** from the content menu. Or
 
    ![Peek definition window](../javascript/media/write-code-peek-definition.png)
 
-1. Close the peeked definition window by choosing the small box with an "x" at the top right of the pop-up window.
+Close the peeked definition window by choosing the small box with an "x" at the top right of the pop-up window.
 
 ## Use code snippets
 
