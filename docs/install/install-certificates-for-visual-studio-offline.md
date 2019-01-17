@@ -1,7 +1,7 @@
 ---
 title: "Install certificates required for an offline installation"
 description: "Learn how to install certificates for a Visual Studio offline installation."
-ms.date: 08/30/2017
+ms.date: 01/15/2019
 ms.custom: "seodec18"
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
@@ -59,11 +59,11 @@ If you are scripting the deployment of Visual Studio in an offline environment t
    **Update**: For Visual Studio 2017 version 15.8 Preview 2 or later, create the batch file with the following commands:
 
    ```cmd
-   certmgr.exe -add [layout path]\certificates\manifestSignCertificates.cer -n "Microsoft Root Certificate Authority 2011" -s -r LocalMachine root
+   certmgr.exe -add [layout path]\certificates\manifestRootCertificate.cer -n "Microsoft Root Certificate Authority 2011" -s -r LocalMachine root
 
-   certmgr.exe -add [layout path]\certificates\manifestCounterSignCertificates.cer -n "Microsoft Root Certificate Authority 2010" -s -r LocalMachine root
+   certmgr.exe -add [layout path]\certificates\manifestCounterSignRootCertificate.cer -n "Microsoft Root Certificate Authority 2010" -s -r LocalMachine root
 
-   certmgr.exe -add [layout path]\certificates\vs_installer_opc.SignCertificates.cer -n "Microsoft Root Certificate Authority" -s -r LocalMachine root
+   certmgr.exe -add [layout path]\certificates\vs_installer_opc.RootCertificate.cer -n "Microsoft Root Certificate Authority" -s -r LocalMachine root
    ```
 
 3. Deploy the batch file to the client. This command should be run from an elevated process.
