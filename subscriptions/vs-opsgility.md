@@ -41,7 +41,7 @@ Selected Visual Studio subscriptions include up to six months of access to exper
 | Visual Studio Dev Essentials | NA  | Not available | NA  |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure                                       | Not available                                                           |NA|
 
-*Excludes:  Microsoft Partner Network (MPN), Microsoft Valued Professional (MVP), Microsoft Certified Trainer, BizSpark, Imagine, NFR, FTE*
+*Excludes:  Microsoft Partner Network (MPN), Most Valuable Professional (MVP), Regional Director (RD), Microsoft Certified Trainer, BizSpark, Imagine, NFR, FTE*
 
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
