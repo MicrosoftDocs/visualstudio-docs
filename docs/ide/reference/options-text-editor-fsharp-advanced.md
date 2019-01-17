@@ -21,7 +21,7 @@ Select this check box to display dotted vertical lines between curly brackets (*
   
 ## Outlining
 
-Select this check box to display dotted vertical lines between curly brackets (**{}**) in your code. Doing so lets you easily identify your individual blocks of code.
+Select this check box to automatically outline the code file, which creates collapsible blocks of code.
   
 ## See also
 
