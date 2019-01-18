@@ -1641,6 +1641,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/scripting/javascript/javascript-in-vs-2017.md",
+            "redirect_url": "/visualstudio/javascript/javascript-in-vs-2017",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/nodejs/tutorial-nodejs.md",
             "redirect_url": "/visualstudio/javascript/tutorial-nodejs",
             "redirect_document_id": false

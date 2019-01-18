@@ -1,7 +1,7 @@
 ---
 title: "Command-line parameter examples for installation"
 description: "Customize these examples to create your own command-line installation of Visual Studio."
-ms.date: 01/15/2019
+ms.date: 01/16/2019
 ms.custom: "seodec18"
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
@@ -23,6 +23,8 @@ In each example, `vs_enterprise.exe`, `vs_professional.exe` and `vs_community.ex
 >
 > [!NOTE]
 > You can use the `^` character at the end of a command line to concatenate multiple lines into a single command. Alternatively, you can simply place these lines together onto a single row. In PowerShell, the equivalent is the backtick (`` ` ``) character.
+
+For lists of the workloads and components that you can install by using the command line, see the [Visual Studio workload and component IDs](workload-and-component-ids.md) page.
 
 ## Using --installPath
 
@@ -165,3 +167,4 @@ vs_enterprise.exe modify --installPath "C:\VS" --config "C:\.vsconfig"
 * [Visual Studio Administrator Guide](visual-studio-administrator-guide.md)
 * [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
 * [Create an offline installation of Visual Studio 2017](create-an-offline-installation-of-visual-studio.md)
+* [Visual Studio workload and component IDs](workload-and-component-ids.md)

@@ -78,7 +78,7 @@ Click the green **Install** button if you are using Azure DevOps Services, or th
 | Visual Studio Dev Essentials | NA  | Not available |NA |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure                                       | Not available                                                           |NA|
 
-<sup>1</sup>  *Includes:  Microsoft Partner Network (Enterprise).  Excludes: Other Not for Resale (NFR), Visual Studio Industry Partner (VSIP), FTE, MCT Software & Services Developer, BizSpark, Imagine, Microsoft Valued Professional (MVP), Region Director (RD), MCT Software & Services, Microsoft Partner Network (Professional).*
+<sup>1</sup>  *Includes:  Microsoft Partner Network (Enterprise).  Excludes: Other Not for Resale (NFR), Visual Studio Industry Partner (VSIP), FTE, MCT Software & Services Developer, BizSpark, Imagine, Most Valuable Professional (MVP), Regional Director (RD), MCT Software & Services, Microsoft Partner Network (Professional).*
 
 
 > [!NOTE]
