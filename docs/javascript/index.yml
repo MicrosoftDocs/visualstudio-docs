@@ -27,7 +27,7 @@ sections:
       image:
         src: https://docs.microsoft.com/media/common/i_setup.svg
       title: Install Visual Studio
-    - href: ../ide/quickstart-ide-orientation?toc=/visualstudio/javascript/toc.json
+    - href: ../ide/quickstart-ide-orientation.md
       html: <p></p>
       image:
         src: https://docs.microsoft.com/media/logos/logo_visual-studio.svg
