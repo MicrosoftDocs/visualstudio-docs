@@ -11,6 +11,7 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.Basic"
   - "VS.ToolsOptionsPages.Text_Editor.Basic.Advanced"
   - "VS.ToolsOptionsPages.Text_Editor.Basic.VB_Specific"
+  - "VS.ToolsOptionsPages.Text_Editor.SQL_Server_Tools.Advanced"
 helpviewer_keywords:
   - "Basic Text Editor Options dialog box"
 ms.assetid: 5a8cafca-f7b4-4a2d-92ce-6894a7673d00
@@ -71,7 +72,7 @@ The text editor indicates visual scope of procedures. A line is drawn in the *.v
 
 ## Block Structure Guides
 
-Select these check boxes to display dotted vertical lines between curly brackets (**{}**) in your code. Doing so lets you easily see individual blocks of code for your declaration level and code level constructs.
+When selected, vertical lines appear in the editor that line up with structured code blocks, which lets you easily identify the individual blocks of code.
 
 ## Editor Help
 
