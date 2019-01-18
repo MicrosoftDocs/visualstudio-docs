@@ -23,8 +23,7 @@ ms.workload:
 
 Visual Studio 2019 Preview includes many general improvements along with new features that optimize developer productivity and team collaboration. Whether you are using Visual Studio for the first time or you've been using it for years, you'll be able to take advantage of its features for all aspects of the development lifecycle&mdash;from simplified project creation and code health management, to team- and open-source collaborative workflows.
 
->[!div class="button"]
->[Download Preview](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?ch=pre&sku=Enterprise&rel=16)
+>[!VIDEO https://channel9.msdn.com/Events/Connect/Microsoft-Connect--2018/D190/player]
 
 Here's a high-level recap of what Visual Studio has to offer:
 
@@ -34,6 +33,9 @@ Here's a high-level recap of what Visual Studio has to offer:
 
 > [!NOTE]
 > For a complete list of new features and functionality in Visual Studio 2019 Preview, see the [release notes](/visualstudio/releases/2019/release-notes-preview?context=visualstudio/default&contextView=vs-2017).
+>
+>[!div class="button"]
+>[Download Preview](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?ch=pre&sku=Enterprise&rel=16)
 
 ## Personal and team productivity
 
