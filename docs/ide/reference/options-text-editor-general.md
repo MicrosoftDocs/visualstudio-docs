@@ -43,7 +43,7 @@ When selected, enables you to move text by selecting it and dragging it with the
 
 ### Automatic delimiter highlighting
 
-When selected, delimiter characters that separate parameters, item-value pairs, or matching braces, are highlighted.
+When selected, delimiter characters that separate parameters or item-value pairs, as well as matching braces, are highlighted.
 
 ### Track changes
 
@@ -83,7 +83,7 @@ When selected, displays a gray box around the line of code in which the cursor i
 
 ### Show structure guide lines
 
-Select this check box to display dotted vertical lines between curly brackets (**{}**) in your code. Doing so lets you easily identify your individual blocks of code.
+When selected, vertical lines appear in the editor that line up with structured code blocks, which lets you easily identify the individual blocks of code.
 
 ## See also
 
