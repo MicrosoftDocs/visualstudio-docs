@@ -6,6 +6,7 @@ ms.author: crdun
 ms.date: 11/03/2018
 ms.technology: vs-ide-install
 ms.assetid: 22B1F2CD-32AE-464D-80AC-C8AB4786B015
+ms.custom: video
 ---
 
 # Install Visual Studio 2019 for Mac Preview
