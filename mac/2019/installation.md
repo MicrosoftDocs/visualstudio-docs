@@ -86,6 +86,10 @@ Installing Visual Studio for Mac allows you to start writing code for your apps.
 
 For other Workloads, refer to the [Workloads](/visualstudio/mac/workloads) page.
 
+## Related Video
+
+> [!Video https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Acquisition/player]
+
 ## See also
 
 - [Install Visual Studio 2017 (on Windows)](/visualstudio/install/install-visual-studio)
