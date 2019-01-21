@@ -52,9 +52,9 @@ You can use the Publish tool to publish ASP.NET Core apps to Azure App Service.
 
     You can select an existing **Resource Group** using the dropdown or you can create a new one with the **+** button.
 
-    For the App Service plan, select and existing one, or create a new one by selecting the **Custom** radio button.
+    For the App Service plan, select an existing one, or create a new one by selecting the **Custom** radio button.
 
-    To create your new App Service, and publish your project to it, click Create.
+    To create your new App Service, and publish your project to it, click **Create**.
 
     After clicking **Create** the **New App Service** dialog will be dismissed, and you should see the following message indicating that creating the App Service has started.
 
