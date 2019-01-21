@@ -5,7 +5,7 @@ ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
-  - "VS.ToolsOptionsPages.Text_Editor.HTML_(Web_Forms).Formatting"
+  - "VS.ToolsOptionsPages.Text_Editor.HTML.Format"
 author: gewarren
 ms.author: gewarren
 manager: douge
