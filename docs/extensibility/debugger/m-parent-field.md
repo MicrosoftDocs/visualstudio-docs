@@ -12,7 +12,7 @@ ms.workload:
   - "vssdk"
 ---
 # m_parent field
-The backing field for the <xref:System.Threading.Tasks.Task?displayProperty=fullName> `Parent` property.  
+The backing field for the <xref:System.Threading.Tasks.Task.Parent?displayProperty=fullName> `Parent` property.  
   
  **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>  
   
