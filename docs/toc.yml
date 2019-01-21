@@ -843,6 +843,10 @@
           href: ide/reference/options-text-editor-javascript-linting.md
         - name: Text Editor - JavaScript, Project
           href: ide/reference/options-text-editor-javascript-project.md
+        - name: Text Editor - U-SQL, Formatting
+          href: ide/reference/options-text-editor-usql-formatting.md
+        - name: Text Editor - U-SQL, IntelliSense
+          href: ide/reference/options-text-editor-usql-intellisense.md
         - name: Text Editor - XAML, Formatting
           href: ide/reference/options-text-editor-xaml-formatting.md
         - name: Text Editor - XAML, Miscellaneous
