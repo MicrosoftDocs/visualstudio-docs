@@ -341,6 +341,16 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/debugger/how-to-debug-com-servers.md",
+            "redirect_url": "/visualstudio/debugger/com-server-and-container-debugging",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/sdi-server-applications.md",
+            "redirect_url": "/visualstudio/debugger/com-server-and-container-debugging",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/debugger/0x-2x-4x-msaa-variants.md",
             "redirect_url": "/visualstudio/debugger/graphics/0x-2x-4x-msaa-variants",
             "redirect_document_id": false
