@@ -72,7 +72,7 @@ The text editor indicates visual scope of procedures. A line is drawn in the *.v
 
 ## Block Structure Guides
 
-When selected, vertical lines appear in the editor that line up with structured code blocks, which lets you easily identify the individual blocks of code.
+When selected, vertical lines appear in the editor that line up with structured code blocks, which lets you easily identify the individual blocks of code. For example, you would see a line between `Sub` and `EndSub` in a `Sub` statement.
 
 ## Editor Help
 
