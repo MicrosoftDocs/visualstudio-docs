@@ -7,22 +7,22 @@ ms.date: 11/03/2018
 ms.assetid: 3A130EC1-DD8C-4125-9034-B08D7AF7EA65
 ---
 
-# Introducing Visual Studio for Mac
+# Visual Studio for Mac
 
 Visual Studio for Mac is a modern, sophisticated IDE with many features to create mobile, desktop, and web applications. It supports the following types of development:
 
-* Mobile with .NET: Android, iOS, tvOS, watchOS
-* Mac desktop apps
-* .NET Core applications
-* ASP.NET Core web applications
-* Cross-platform Unity games
+- Mobile with .NET: Android, iOS, tvOS, watchOS
+- Mac desktop apps
+- .NET Core applications
+- ASP.NET Core web applications
+- Cross-platform Unity games
 
 It includes features such as a rich editor, debugging, native platform integration with iOS, Mac, and Android, and integrated source control.
 
 This article surveys various sections of Visual Studio for Mac and introduces features that make it a powerful tool to create cross-platform applications.
 
 > [!TIP]
-> Visual Studio 2019 for Mac preview is now available for testing. Follow these [installation instructions](install-preview.md) and check out the [IDE tour](ide-tour.md).
+> **Visual Studio 2019 for Mac preview** is now available for testing. Follow these [installation instructions](/visualstudio/mac/installation/?view=vsmac-2019) and check out the [2019 IDE tour](/visualstudio/mac/ide-tour/?view=vsmac-2019).
 
 ## Installation
 
@@ -50,16 +50,16 @@ To run .NET Core projects, the .NET Core SDK should be downloaded and installed.
 
 .NET Core support includes:
 
-* C# and F# IntelliSense.
-* .NET Core project templates for console, library, and web applications.
-* Full debugging support, including breakpoints, call stack, watch window, etc.
-* NuGet PackageReferences and MSBuild-based restore.
-* Integrated unit testing support for running and debugging tests with the Visual Studio Test Platform that is included with the .NET Core SDK.
-* Migration from the old project.json format.
+- C# and F# IntelliSense.
+- .NET Core project templates for console, library, and web applications.
+- Full debugging support, including breakpoints, call stack, watch window, etc.
+- NuGet PackageReferences and MSBuild-based restore.
+- Integrated unit testing support for running and debugging tests with the Visual Studio Test Platform that is included with the .NET Core SDK.
+- Migration from the old project.json format.
 
 To get started, check out the ASP.NET Core web apps [hands-on lab](https://github.com/Microsoft/vs4mac-labs/tree/master/Web/Getting-Started).
 
-## Xamarin
+## Xamarin mobile app development
 
 First-class support for [Xamarin](https://developer.xamarin.com/) allows you to develop rich native experiences for Android, macOS, iOS, tvOS, and watchOS. Xamarin.Forms cross-platform applications help you share XAML-based UI code between Android, iOS, and macOS without limiting access to native functionality.
 
@@ -117,8 +117,8 @@ For more information, see the [Xamarin Inspector](https://developer.xamarin.com/
 
 ## Next steps
 
-* **Get the tour** - To get an overview of many of the major features in Visual Studio for Mac, see the Visual Studio for Mac [IDE Tour](ide-tour.md).
-* **Set up** - To learn about how to download and install Visual Studio, see the [Installation](installation.md) guide.
-* **Xamarin Tutorials** - To learn more about how to develop code with Xamarin, go to the Xamarin [Developer Center](https://developer.xamarin.com).
-* **Videos** - To learn more about other features and aspects of Visual Studio for Mac, check out videos on the [Xamarin University](https://university.xamarin.com) website.
-* **Hands-on Labs** - To get started working with the various workloads included in Visual Studio for Mac, check out the [hands-on labs](https://github.com/Microsoft/vs4mac-labs).
+- **Get the tour** - To get an overview of many of the major features in Visual Studio for Mac, see the Visual Studio for Mac [IDE Tour](/visualstudio/mac/ide-tour/).
+- **Set up** - To learn about how to download and install Visual Studio 2017 for Mac, see the [Installation](/visualstudio/mac/installation/?view=vsmac-2017) guide.
+- **Xamarin Tutorials** - To learn more about how to develop code with Xamarin, go to the Xamarin [Developer Center](https://developer.xamarin.com).
+- **Videos** - To learn more about other features and aspects of Visual Studio for Mac, check out videos on the [Xamarin University](https://university.xamarin.com) website.
+- **Hands-on Labs** - To get started working with the various workloads included in Visual Studio for Mac, check out the [hands-on labs](https://github.com/Microsoft/vs4mac-labs).

@@ -79,11 +79,8 @@ Please ensure you have your Contract ID and Access ID available when you call.
 To use your Visual Studio subscription technical support benefit for issues relating to Azure, you will need to link your Contract ID and Access ID to your Azure subscription.
 
 1.	Visit https://portal.azure.com and sign in
-2.	From the left-hand navigation click “Help + Support”
-3.	Under “Support” click “Link support contract”
-4.	Enter the provide “Access ID” and “Contract ID” provided in #1 above.
-
-Once you've completed these steps, you'll be able to select the support plan associated with your Visual Studio subscription benefit.  (The name of the plan may contain "MSDN".)
+2.	From the left-hand navigation click **Help + Support**
+3.	Under “Support” click **New Support Request**
 
 ## Eligibility
 
@@ -96,7 +93,7 @@ Once you've completed these steps, you'll be able to select the support plan ass
 | Visual Studio Dev Essentials | NA | Not available |NA|
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure                                       | Not available                                                           |NA|
 
-<sup>1</sup> *Includes: Imagine Premium. Excludes: Not for Resale (NFR), Visual Studio Industry Partner (VSIP), Microsoft Partner Network (MPN), FTE, MCT Software & Services Developer, BizSpark, Imagine Standard, Microsoft Valued Professional (MVP), Region Director (RD), MCT Software & Services.*
+<sup>1</sup> *Includes: Imagine Premium. Excludes: Not for Resale (NFR), Visual Studio Industry Partner (VSIP), Microsoft Partner Network (MPN), FTE, MCT Software & Services Developer, BizSpark, Imagine Standard, Most Valuable Professional (MVP), Regional Director (RD), MCT Software & Services.*
 
 <sup>2</sup> *Includes: Imagine Standard.*
 
