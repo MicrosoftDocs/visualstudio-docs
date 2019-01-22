@@ -19,7 +19,7 @@
       <Border Grid.Row="0">
         <FlowDocumentReader>
           <FlowDocument Name="flowDoc2">
-
+            
           </FlowDocument>
         </FlowDocumentReader>
       </Border>
@@ -93,8 +93,8 @@
         <FlowDocumentReader>
           <!-- <Snippet_Block_LineHeightXAML> -->
           <FlowDocument>
-            <Paragraph
-              TextAlignment="Left"
+            <Paragraph 
+              TextAlignment="Left" 
               Background="AliceBlue"
               FontSize="24"
               LineHeight="48"
@@ -133,7 +133,7 @@
         <FlowDocumentReader>
           <!-- <Snippet_Block_HyphenateXAML> -->
           <FlowDocument
-            TextAlignment="Justify"
+            TextAlignment="Justify" 
             IsOptimalParagraphEnabled="True"
             Background="LightGray"
             PageWidth="400" PageHeight="480"

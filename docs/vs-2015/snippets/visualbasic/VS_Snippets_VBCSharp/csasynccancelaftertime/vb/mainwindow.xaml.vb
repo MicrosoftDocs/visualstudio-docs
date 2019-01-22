@@ -21,7 +21,7 @@ Class MainWindow
         resultsTextBox.Clear()
 
         Try
-            ' ***Set up the CancellationTokenSource to cancel after 2.5 seconds. (You
+            ' ***Set up the CancellationTokenSource to cancel after 2.5 seconds. (You 
             ' can adjust the time.)
             cts.CancelAfter(2500)
 
@@ -61,8 +61,8 @@ Class MainWindow
 
         ' Process each element in the list of web addresses.
         For Each url In urlList
-            ' GetAsync returns a Task(Of HttpResponseMessage).
-            ' Argument ct carries the message if the Cancel button is chosen.
+            ' GetAsync returns a Task(Of HttpResponseMessage). 
+            ' Argument ct carries the message if the Cancel button is chosen. 
             ' Note that the Cancel button can cancel all remaining downloads.
             Dim response As HttpResponseMessage = Await client.GetAsync(url, ct)
 

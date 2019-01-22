@@ -50,8 +50,8 @@ namespace AsyncExampleWPF_WhenAll
             List<string> urlList = SetUpURLList();
 
             //<snippet3>
-            // Create a query.
-            IEnumerable<Task<int>> downloadTasksQuery =
+            // Create a query. 
+            IEnumerable<Task<int>> downloadTasksQuery = 
                 from url in urlList select ProcessURLAsync(url);
 
             // Use ToArray to execute the query and start the download tasks.
@@ -87,7 +87,7 @@ namespace AsyncExampleWPF_WhenAll
 
             //    DisplayResults(url, urlContents);
 
-            //    // Update the total.
+            //    // Update the total.          
             //    total += urlContents.Length;
             //}
             //</snippet2>
@@ -100,8 +100,8 @@ namespace AsyncExampleWPF_WhenAll
 
         private List<string> SetUpURLList()
         {
-            List<string> urls = new List<string>
-            {
+            List<string> urls = new List<string> 
+            { 
                 "http://msdn.microsoft.com",
                 "http://msdn.microsoft.com/library/windows/apps/br211380.aspx",
                 "http://msdn.microsoft.com/library/hh290136.aspx",
@@ -156,7 +156,7 @@ namespace AsyncExampleWPF_WhenAll
 
         private void DisplayResults(string url, byte[] content)
         {
-            // Display the length of each website. The string format
+            // Display the length of each website. The string format 
             // is designed to be used with a monospaced font, such as
             // Lucida Console or Global Monospace.
             var bytes = content.Length;

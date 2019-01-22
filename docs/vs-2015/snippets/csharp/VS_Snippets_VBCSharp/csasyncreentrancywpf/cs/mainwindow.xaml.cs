@@ -78,8 +78,8 @@ namespace WebsiteDownloadWPF
 
         private List<string> SetUpURLList()
         {
-            List<string> urls = new List<string>
-            {
+            List<string> urls = new List<string> 
+            { 
                 "http://msdn.microsoft.com/library/hh191443.aspx",
                 "http://msdn.microsoft.com/library/aa578028.aspx",
                 "http://msdn.microsoft.com/library/jj155761.aspx",
@@ -96,7 +96,7 @@ namespace WebsiteDownloadWPF
         private void DisplayResults(string url, byte[] content, int pos)
         {
             // Display the length of each website. The string format is designed
-            // to be used with a monospaced font, such as Lucida Console or
+            // to be used with a monospaced font, such as Lucida Console or 
             // Global Monospace.
 
             // Strip off the "http://".

@@ -81,7 +81,7 @@ namespace ProcessTasksAsTheyFinish
                 from url in urlList select ProcessURL(url, client, ct);
             //</snippet1>
 
-            // ***Use ToList to execute the query and start the tasks.
+            // ***Use ToList to execute the query and start the tasks. 
             //<snippet2>
             List<Task<int>> downloadTasks = downloadTasksQuery.ToList();
             //</snippet2>
@@ -111,8 +111,8 @@ namespace ProcessTasksAsTheyFinish
 
         private List<string> SetUpURLList()
         {
-            List<string> urls = new List<string>
-            {
+            List<string> urls = new List<string> 
+            { 
                 "http://msdn.microsoft.com",
                 "http://msdn.microsoft.com/library/windows/apps/br211380.aspx",
                 "http://msdn.microsoft.com/library/hh290136.aspx",
@@ -127,7 +127,7 @@ namespace ProcessTasksAsTheyFinish
 
         async Task<int> ProcessURL(string url, HttpClient client, CancellationToken ct)
         {
-            // GetAsync returns a Task<HttpResponseMessage>.
+            // GetAsync returns a Task<HttpResponseMessage>. 
             HttpResponseMessage response = await client.GetAsync(url, ct);
 
             // Retrieve the website contents from the HttpResponseMessage.

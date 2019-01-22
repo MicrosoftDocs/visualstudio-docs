@@ -34,7 +34,7 @@ namespace CancelATask
         {
             InitializeComponent();
         }
-
+        
 
         private async void startButton_Click(object sender, RoutedEventArgs e)
         {
@@ -65,7 +65,7 @@ namespace CancelATask
             //</snippet4>
 
             // ***Set the CancellationTokenSource to null when the download is complete.
-            cts = null;
+            cts = null; 
         }
 
 
@@ -93,7 +93,7 @@ namespace CancelATask
             // You might need to slow things down to have a chance to cancel.
             await Task.Delay(250);
 
-            // GetAsync returns a Task<HttpResponseMessage>.
+            // GetAsync returns a Task<HttpResponseMessage>. 
             // ***The ct argument carries the message if the Cancel button is chosen.
             HttpResponseMessage response = await client.GetAsync("http://msdn.microsoft.com/library/dd470362.aspx", ct);
 

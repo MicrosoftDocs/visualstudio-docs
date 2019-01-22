@@ -45,13 +45,13 @@ namespace AsyncExample_MultipleTasks
             HttpClient client =
                 new HttpClient() { MaxResponseContentBufferSize = 1000000 };
 
-            // Create and start the tasks. As each task finishes, DisplayResults
+            // Create and start the tasks. As each task finishes, DisplayResults 
             // displays its length.
-            Task<int> download1 =
+            Task<int> download1 = 
                 ProcessURLAsync("http://msdn.microsoft.com", client);
-            Task<int> download2 =
+            Task<int> download2 = 
                 ProcessURLAsync("http://msdn.microsoft.com/library/hh156528(VS.110).aspx", client);
-            Task<int> download3 =
+            Task<int> download3 = 
                 ProcessURLAsync("http://msdn.microsoft.com/library/67w7t67f.aspx", client);
 
             // Await each task.
@@ -60,7 +60,7 @@ namespace AsyncExample_MultipleTasks
             int length3 = await download3;
 
             int total = length1 + length2 + length3;
-
+            
             // Display the total count for the downloaded websites.
             resultsTextBox.Text +=
                 string.Format("\r\n\r\nTotal bytes returned:  {0}\r\n", total);
@@ -75,11 +75,11 @@ namespace AsyncExample_MultipleTasks
             DisplayResults(url, byteArray);
             return byteArray.Length;
         }
-
+        
 
         private void DisplayResults(string url, byte[] content)
         {
-            // Display the length of each website. The string format
+            // Display the length of each website. The string format 
             // is designed to be used with a monospaced font, such as
             // Lucida Console or Global Monospace.
             var bytes = content.Length;

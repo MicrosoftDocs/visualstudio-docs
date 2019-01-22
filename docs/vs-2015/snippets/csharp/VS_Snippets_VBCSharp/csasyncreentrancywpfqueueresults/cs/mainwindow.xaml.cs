@@ -23,8 +23,8 @@ namespace QueueResults
     //<snippet1>
     public partial class MainWindow : Window  // Class MainPage in Windows Store app.
     {
-        // ***Declare the following variables where all methods can access them.
-        private Task pendingWork = null;
+        // ***Declare the following variables where all methods can access them. 
+        private Task pendingWork = null;   
         private char group = (char)('A' - 1);
         //</snippet1>
 
@@ -48,7 +48,7 @@ namespace QueueResults
                 char finishedGroup = await AccessTheWebAsync(group);
 
                 // The following line verifies a successful return from the download and
-                // display procedures.
+                // display procedures. 
                 ResultsTextBox.Text += string.Format("\r\n\r\n#Group {0} is complete.\r\n", finishedGroup);
             }
             catch (Exception)
@@ -113,7 +113,7 @@ namespace QueueResults
         // ***Add a parameter for the group label.
         private void DisplayResults(string url, byte[] content, int pos, char grp)
         {
-            // Display the length of a website. The string format is designed to be
+            // Display the length of a website. The string format is designed to be 
             // used with a monospaced font, such as Lucida Console or Global Monospace.
 
             // Strip off the "http://".
@@ -125,8 +125,8 @@ namespace QueueResults
 
         private List<string> SetUpURLList()
         {
-            List<string> urls = new List<string>
-            {
+            List<string> urls = new List<string> 
+            { 
                 "http://msdn.microsoft.com/library/hh191443.aspx",
                 "http://msdn.microsoft.com/library/aa578028.aspx",
                 "http://msdn.microsoft.com/library/jj155761.aspx",

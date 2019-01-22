@@ -64,8 +64,8 @@ Class MainWindow
         '<snippet9>
         ' ***Add a loop to process the list of web addresses.
         For Each url In urlList
-            ' GetAsync returns a Task(Of HttpResponseMessage).
-            ' Argument ct carries the message if the Cancel button is chosen.
+            ' GetAsync returns a Task(Of HttpResponseMessage). 
+            ' Argument ct carries the message if the Cancel button is chosen. 
             ' ***Note that the Cancel button can cancel all remaining downloads.
             Dim response As HttpResponseMessage = Await client.GetAsync(url, ct)
 

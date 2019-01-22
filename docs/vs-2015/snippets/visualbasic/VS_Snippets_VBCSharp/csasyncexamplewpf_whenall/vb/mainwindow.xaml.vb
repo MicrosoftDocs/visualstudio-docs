@@ -29,7 +29,7 @@ Class MainWindow
         Dim urlList As List(Of String) = SetUpURLList()
 
         '<snippet3>
-        ' Create a query.
+        ' Create a query. 
         Dim downloadTasksQuery As IEnumerable(Of Task(Of Integer)) =
             From url In urlList Select ProcessURLAsync(url)
 
@@ -120,7 +120,7 @@ Class MainWindow
         Using response As WebResponse = Await webReq.GetResponseAsync()
             ' Get the data stream that is associated with the specified URL.
             Using responseStream As Stream = response.GetResponseStream()
-                ' Read the bytes in responseStream and copy them to content.
+                ' Read the bytes in responseStream and copy them to content.  
                 ' CopyToAsync returns a Task, not a Task<T>.
                 Await responseStream.CopyToAsync(content)
             End Using
@@ -134,7 +134,7 @@ Class MainWindow
 
     Private Sub DisplayResults(url As String, content As Byte())
 
-        ' Display the length of each website. The string format
+        ' Display the length of each website. The string format 
         ' is designed to be used with a monospaced font, such as
         ' Lucida Console or Global Monospace.
         Dim bytes = content.Length

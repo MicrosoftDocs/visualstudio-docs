@@ -55,8 +55,8 @@ Class MainWindow
 
         '' Comment out or delete the loop.
         ''For Each url In urlList
-        ''    ' GetAsync returns a Task(Of HttpResponseMessage).
-        ''    ' Argument ct carries the message if the Cancel button is chosen.
+        ''    ' GetAsync returns a Task(Of HttpResponseMessage). 
+        ''    ' Argument ct carries the message if the Cancel button is chosen. 
         ''    ' Note that the Cancel button can cancel all remaining downloads.
         ''    Dim response As HttpResponseMessage = Await client.GetAsync(url, ct)
 
@@ -74,12 +74,12 @@ Class MainWindow
         '</snippet2>
 
         '<snippet3>
-        ' ***Use ToArray to execute the query and start the download tasks.
+        ' ***Use ToArray to execute the query and start the download tasks. 
         Dim downloadTasks As Task(Of Integer)() = downloadTasksQuery.ToArray()
         '</snippet3>
 
         '<snippet4>
-        ' ***Call WhenAny and then await the result. The task that finishes
+        ' ***Call WhenAny and then await the result. The task that finishes 
         ' first is assigned to firstFinishedTask.
         Dim firstFinishedTask As Task(Of Integer) = Await Task.WhenAny(downloadTasks)
         '</snippet4>
@@ -103,7 +103,7 @@ Class MainWindow
     ' ***Bundle the processing steps for a website into one async method.
     Async Function ProcessURLAsync(url As String, client As HttpClient, ct As CancellationToken) As Task(Of Integer)
 
-        ' GetAsync returns a Task(Of HttpResponseMessage).
+        ' GetAsync returns a Task(Of HttpResponseMessage). 
         Dim response As HttpResponseMessage = Await client.GetAsync(url, ct)
 
         ' Retrieve the website contents from the HttpResponseMessage.

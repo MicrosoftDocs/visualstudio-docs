@@ -60,7 +60,7 @@ namespace CancelAfterTime
                 resultsTextBox.Text += "\r\nDownloads failed.\r\n";
             }
 
-            cts = null;
+            cts = null; 
         }
         //</snippet1>
 
@@ -85,8 +85,8 @@ namespace CancelAfterTime
 
             foreach (var url in urlList)
             {
-                // GetAsync returns a Task<HttpResponseMessage>.
-                // Argument ct carries the message if the Cancel button is chosen.
+                // GetAsync returns a Task<HttpResponseMessage>. 
+                // Argument ct carries the message if the Cancel button is chosen. 
                 // Note that the Cancel button cancels all remaining downloads.
                 HttpResponseMessage response = await client.GetAsync(url, ct);
 
@@ -98,11 +98,11 @@ namespace CancelAfterTime
             }
         }
 
-
+        
         private List<string> SetUpURLList()
         {
-            List<string> urls = new List<string>
-            {
+            List<string> urls = new List<string> 
+            { 
                 "http://msdn.microsoft.com",
                 "http://msdn.microsoft.com/library/windows/apps/br211380.aspx",
                 "http://msdn.microsoft.com/library/hh290136.aspx",

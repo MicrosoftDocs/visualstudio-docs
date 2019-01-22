@@ -81,8 +81,8 @@ namespace CancelAfterOneTask
             // ***Comment out or delete the loop.
             //foreach (var url in urlList)
             //{
-            //    // GetAsync returns a Task<HttpResponseMessage>.
-            //    // Argument ct carries the message if the Cancel button is chosen.
+            //    // GetAsync returns a Task<HttpResponseMessage>. 
+            //    // Argument ct carries the message if the Cancel button is chosen. 
             //    // ***Note that the Cancel button can cancel all remaining downloads.
             //    HttpResponseMessage response = await client.GetAsync(url, ct);
 
@@ -100,12 +100,12 @@ namespace CancelAfterOneTask
             //</snippet2>
 
             //<snippet3>
-            // ***Use ToArray to execute the query and start the download tasks.
+            // ***Use ToArray to execute the query and start the download tasks. 
             Task<int>[] downloadTasks = downloadTasksQuery.ToArray();
             //</snippet3>
 
             //<snippet4>
-            // ***Call WhenAny and then await the result. The task that finishes
+            // ***Call WhenAny and then await the result. The task that finishes 
             // first is assigned to firstFinishedTask.
             Task<int> firstFinishedTask = await Task.WhenAny(downloadTasks);
             //</snippet4>
@@ -115,7 +115,7 @@ namespace CancelAfterOneTask
             cts.Cancel();
             //</snippet5>
 
-            // ***Await the first completed task and display the results.
+            // ***Await the first completed task and display the results. 
             // Run the program several times to demonstrate that different
             // websites can finish first.
             //<snippet6>
@@ -129,7 +129,7 @@ namespace CancelAfterOneTask
         // ***Bundle the processing steps for a website into one async method.
         async Task<int> ProcessURLAsync(string url, HttpClient client, CancellationToken ct)
         {
-            // GetAsync returns a Task<HttpResponseMessage>.
+            // GetAsync returns a Task<HttpResponseMessage>. 
             HttpResponseMessage response = await client.GetAsync(url, ct);
 
             // Retrieve the website contents from the HttpResponseMessage.
@@ -143,8 +143,8 @@ namespace CancelAfterOneTask
         // Add a method that creates a list of web addresses.
         private List<string> SetUpURLList()
         {
-            List<string> urls = new List<string>
-            {
+            List<string> urls = new List<string> 
+            { 
                 "http://msdn.microsoft.com",
                 "http://msdn.microsoft.com/library/hh290138.aspx",
                 "http://msdn.microsoft.com/library/hh290140.aspx",

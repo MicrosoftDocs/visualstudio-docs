@@ -111,7 +111,7 @@ Class MainWindow
 
     Private Sub DisplayResults(url As String, content As Byte())
 
-        ' Display the length of each website. The string format
+        ' Display the length of each website. The string format 
         ' is designed to be used with a monospaced font, such as
         ' Lucida Console or Global Monospace.
         Dim bytes = content.Length

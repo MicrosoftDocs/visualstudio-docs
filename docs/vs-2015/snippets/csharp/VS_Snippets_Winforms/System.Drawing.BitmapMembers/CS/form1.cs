@@ -9,7 +9,7 @@ public class Form1:
     #region " Windows Form Designer generated code "
 
     public Form1() : base()
-    {
+    {        
 
         //This call is required by the Windows Form Designer.
         InitializeComponent();
@@ -39,7 +39,7 @@ public class Form1:
     private System.ComponentModel.IContainer components;
 
     //NOTE: The following procedure is required by the Windows Form Designer
-    //It can be modified using the Windows Form Designer.
+    //It can be modified using the Windows Form Designer.  
     //Do not modify it using the code editor.
     internal System.Windows.Forms.Button Button1;
     internal System.Windows.Forms.PictureBox PictureBox1;
@@ -52,32 +52,32 @@ public class Form1:
         this.PictureBox1 = new System.Windows.Forms.PictureBox();
         this.Button2 = new System.Windows.Forms.Button();
         this.SuspendLayout();
-        //
+        // 
         // Button1
-        //
+        // 
         this.Button1.Location = new System.Drawing.Point(24, 192);
         this.Button1.Name = "Button1";
         this.Button1.Size = new System.Drawing.Size(96, 23);
         this.Button1.TabIndex = 2;
         this.Button1.Text = "Rotate and Flip";
-        //
+        // 
         // PictureBox1
-        //
+        // 
         this.PictureBox1.Location = new System.Drawing.Point(48, 40);
         this.PictureBox1.Name = "PictureBox1";
         this.PictureBox1.Size = new System.Drawing.Size(168, 72);
         this.PictureBox1.TabIndex = 3;
         this.PictureBox1.TabStop = false;
-        //
+        // 
         // Button2
-        //
+        // 
         this.Button2.Location = new System.Drawing.Point(152, 192);
         this.Button2.Name = "Button2";
         this.Button2.TabIndex = 4;
         this.Button2.Text = "Button2";
-        //
+        // 
         // Form1
-        //
+        // 
         this.ClientSize = new System.Drawing.Size(292, 266);
         this.Controls.Add(this.Button2);
         this.Controls.Add(this.PictureBox1);
@@ -92,26 +92,26 @@ public class Form1:
 
 
     // <snippet3Intro>
-    // The following code example demonstrates constructing how to construct
+    // The following code example demonstrates constructing how to construct 
     // a new Bitmap from a file.
 
     // This example is designed to be used with a Windows Forms that contains
-    // a PictureBox named PictureBox1.
-    //
+    // a PictureBox named PictureBox1. 
+    // 
     // Paste the code into a form and call InitializeBitmap from the form's
     // constructor or Load method.
 
     // </snippet3Intro>
 
     // <snippet4Intro>
-    // The following code example demonstrates how to set the RotateFlip
-    // property of a Bitmap.
+    // The following code example demonstrates how to set the RotateFlip 
+    // property of a Bitmap.  
 
     // This example is designed to be used with a Windows form that contains
-    // a PictureBox named PictureBox1 and a button named Button1.
+    // a PictureBox named PictureBox1 and a button named Button1. 
     // Paste the code to a form, call InitializeBitmap from the form's
     // constructor or Load method and associate Button1_Click with the button's
-    // click event. Ensure the filepath to the bitmap is valid on
+    // click event. Ensure the filepath to the bitmap is valid on 
     // your system.
     // </snippet4Intro>
 
@@ -123,14 +123,14 @@ public class Form1:
     {
         try
         {
-            bitmap1 = (Bitmap)Bitmap.FromFile(@"C:\Documents and Settings\" +
+            bitmap1 = (Bitmap)Bitmap.FromFile(@"C:\Documents and Settings\" + 
                 @"All Users\Documents\My Music\music.bmp");
             PictureBox1.SizeMode = PictureBoxSizeMode.AutoSize;
             PictureBox1.Image = bitmap1;
         }
         catch(System.IO.FileNotFoundException)
         {
-            MessageBox.Show("There was an error." +
+            MessageBox.Show("There was an error." + 
                 "Check the path to the bitmap.");
         }
 
@@ -150,9 +150,9 @@ public class Form1:
     }
     //</snippet3>
 
-    // The following code example demonstrates how to load a bitmap
-    // from an Icon handle, using the GraphicsUnit enumeration, and the
-    // the use of the RectangleF.Round method to draw the rectangle
+    // The following code example demonstrates how to load a bitmap 
+    // from an Icon handle, using the GraphicsUnit enumeration, and the  
+    // the use of the RectangleF.Round method to draw the rectangle 
     // bounds of an icon.
 
     // This example is designed to be used with Windows Forms. Create
@@ -173,11 +173,11 @@ public class Form1:
     }
     //</snippet1>
 
-    // The following code example demonstrates how to load a bitmap
+    // The following code example demonstrates how to load a bitmap 
     // from a stream.
 
     // This example is designed to be used with Windows Forms. Create
-    // a form that contains a PictureBox named PictureBox1. Paste the code
+    // a form that contains a PictureBox named PictureBox1. Paste the code 
     // into the form and call InitializeStreamBitmap from the form's
     // constructor or Load method.
     //<snippet2>
@@ -185,11 +185,11 @@ public class Form1:
     {
         try
         {
-            System.Net.WebRequest request =
+            System.Net.WebRequest request = 
                 System.Net.WebRequest.Create(
                 "http://www.microsoft.com//h/r/ms_masthead_ltr.gif");
             System.Net.WebResponse response = request.GetResponse();
-            System.IO.Stream responseStream =
+            System.IO.Stream responseStream = 
                 response.GetResponseStream();
             Bitmap bitmap2 = new Bitmap(responseStream);
             PictureBox1.Image = bitmap2;
@@ -203,11 +203,11 @@ public class Form1:
     }
     //</snippet2>
  // The following code example demonstrates how to use the Image.PixelFormat,
-    // Image.Height, Image.Width, and BitmapData.Scan0 properties; the Bitmap.LockBits
-    // and Bitmap.UnlockBits methods; and the ImageLockMode enumeration.
+    // Image.Height, Image.Width, and BitmapData.Scan0 properties; the Bitmap.LockBits 
+    // and Bitmap.UnlockBits methods; and the ImageLockMode enumeration. 
     // This example is designed to be used with Windows
     // Forms. To run this example, paste it into a form and handle the form's Paint event by
-    // calling the LockUnlockBitsExample method, passing e as PaintEventArgs.
+    // calling the LockUnlockBitsExample method, passing e as PaintEventArgs. 
     // This example assumes the existence of an 24bpp image file named fakePhoto.jpg at c:\.
     //<snippet5>
     private void LockUnlockBitsExample(PaintEventArgs e)
@@ -216,7 +216,7 @@ public class Form1:
             // Create a new bitmap.
             Bitmap bmp = new Bitmap("c:\\fakePhoto.jpg");
 
-            // Lock the bitmap's bits.
+            // Lock the bitmap's bits.  
             Rectangle rect = new Rectangle(0, 0, bmp.Width, bmp.Height);
             System.Drawing.Imaging.BitmapData bmpData =
                 bmp.LockBits(rect, System.Drawing.Imaging.ImageLockMode.ReadWrite,
@@ -232,7 +232,7 @@ public class Form1:
             // Copy the RGB values into the array.
             System.Runtime.InteropServices.Marshal.Copy(ptr, rgbValues, 0, bytes);
 
-            // Set every third value to 255. A 24bpp bitmap will look red.
+            // Set every third value to 255. A 24bpp bitmap will look red.  
             for (int counter = 2; counter < rgbValues.Length; counter += 3)
                 rgbValues[counter] = 255;
 
@@ -246,7 +246,7 @@ public class Form1:
             e.Graphics.DrawImage(bmp, 0, 150);
 
         }
-
+    
     //</snippet5>
 
 

@@ -14,7 +14,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-// Add the following using directives.
+// Add the following using directives. 
 using System.Threading.Tasks;
 using System.Threading;
 using System.Net.Http;
@@ -76,8 +76,8 @@ namespace WebsiteDownloadWin
 
         private List<string> SetUpURLList()
         {
-            List<string> urls = new List<string>
-            {
+            List<string> urls = new List<string> 
+            { 
                 "http://msdn.microsoft.com/library/hh191443.aspx",
                 "http://msdn.microsoft.com/library/aa578028.aspx",
                 "http://msdn.microsoft.com/library/jj155761.aspx",

@@ -6,7 +6,7 @@ Imports System.Threading
 '<snippet1>
 Class MainWindow    ' Class MainPage in Windows Store app.
 
-    ' ***Declare the following variables where all methods can access them.
+    ' ***Declare the following variables where all methods can access them. 
     Private pendingWork As Task = Nothing
     Private group As Char = ChrW(AscW("A") - 1)
     '</snippet1>
@@ -22,8 +22,8 @@ Class MainWindow    ' Class MainPage in Windows Store app.
             ' *** Pass the group value to AccessTheWebAsync.
             Dim finishedGroup As Char = Await AccessTheWebAsync(group)
 
-            ' The following line verifies a successful return from the download and
-            ' display procedures.
+            ' The following line verifies a successful return from the download and 
+            ' display procedures. 
             ResultsTextBox.Text &= String.Format(vbCrLf & vbCrLf & "#Group {0} is complete." & vbCrLf, finishedGroup)
 
         Catch ex As Exception

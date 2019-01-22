@@ -5,11 +5,11 @@ ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-ide-sdk"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "Visual Studio shell, isolated mode%2C .pkgdef file"
 ms.assetid: 69e8f78e-bcf1-46cb-8866-7de37d134997
 caps.latest.revision: 28
@@ -19,43 +19,43 @@ manager: "ghogen"
 # Modifying the Isolated Shell By Using the .Pkgdef File
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The .pkgdef file supports settings that you can use to customize an isolated shell application. It specifies values that are created when an application is installed on a computer and that are referenced by the Visual Studio shell when it starts the application. The settings are organized in the file based on the applicable registry keys.
+The .pkgdef file supports settings that you can use to customize an isolated shell application. It specifies values that are created when an application is installed on a computer and that are referenced by the Visual Studio shell when it starts the application. The settings are organized in the file based on the applicable registry keys.  
 
 > [!WARNING]
->  Note that .pkgdef files that are not declared in the .vsixmanifest file of the VSPackage are not scanned when Visual Studio starts.
+>  Note that .pkgdef files that are not declared in the .vsixmanifest file of the VSPackage are not scanned when Visual Studio starts.  
 
- The .pkgdef file contains sections that are each identified by a key, either `[$RootKey$]` or `[$RootKey$\`*subkey*`]`, where $RootKey$ is the root key for the application.
+ The .pkgdef file contains sections that are each identified by a key, either `[$RootKey$]` or `[$RootKey$\`*subkey*`]`, where $RootKey$ is the root key for the application.  
 
- Each section contains name/value pairs that have the following format: `"`*ValueName*`"=`*Value*.
+ Each section contains name/value pairs that have the following format: `"`*ValueName*`"=`*Value*.  
 
- Values are either a string that is enclosed in quotes, or a 32-bit integer that is represented as a dword. Values have the following constraints:
+ Values are either a string that is enclosed in quotes, or a 32-bit integer that is represented as a dword. Values have the following constraints:  
 
-- All dword values are in hexadecimal format, for example `dword:00000001`.
+- All dword values are in hexadecimal format, for example `dword:00000001`.  
 
-   For boolean values, 1 represents true, and 0 represents false.
+   For boolean values, 1 represents true, and 0 represents false.  
 
-- All GUID strings are in registry format, for example, `"{00000000-0000-0000-0000-000000000000}"`.
+- All GUID strings are in registry format, for example, `"{00000000-0000-0000-0000-000000000000}"`.  
 
-- All localizable resource identifiers have the form "@*resourceID*" or "#*resourceID*", where *resourceID* is the resource identifier in the application UI package, for example, `"@102"`. The application UI package is the package that is referenced in the AppLocalizationPackage setting.
+- All localizable resource identifiers have the form "@*resourceID*" or "#*resourceID*", where *resourceID* is the resource identifier in the application UI package, for example, `"@102"`. The application UI package is the package that is referenced in the AppLocalizationPackage setting.  
 
-  For example,
+  For example,  
 
-```
-"HideSolutionConcept"=dword:00000001
-"DefaultDebugEngine"="{00000000-0000-0000-0000-000000000000}"
-```
+```  
+"HideSolutionConcept"=dword:00000001  
+"DefaultDebugEngine"="{00000000-0000-0000-0000-000000000000}"  
+```  
 
- You can add comments to the .pkgdef file. A single-line comment has two slashes as the first two characters.
+ You can add comments to the .pkgdef file. A single-line comment has two slashes as the first two characters.  
 
- For a list of the substitution strings, see [Substitution Strings Used in .Pkgdef and .Pkgundef Files](../extensibility/substitution-strings-used-in-dot-pkgdef-and-dot-pkgundef-files.md).
+ For a list of the substitution strings, see [Substitution Strings Used in .Pkgdef and .Pkgundef Files](../extensibility/substitution-strings-used-in-dot-pkgdef-and-dot-pkgundef-files.md).  
 
- The following sections describe specific registry values that affect the behavior of the Visual Studio shell in isolated mode. You can also define additional registry values for the application in this file.
+ The following sections describe specific registry values that affect the behavior of the Visual Studio shell in isolated mode. You can also define additional registry values for the application in this file.  
 
 > [!NOTE]
->  If a setting is not provided in the .pkgdef file, then no corresponding entry is made in the registry.
+>  If a setting is not provided in the .pkgdef file, then no corresponding entry is made in the registry.  
 
-## Settings
- The following table describes the values defined under [$RootKey$].
+## Settings  
+ The following table describes the values defined under [$RootKey$].  
 
 
 |              Name               |  Type  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Value                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
@@ -84,49 +84,49 @@ The .pkgdef file supports settings that you can use to customize an isolated she
 |     UserFilesSubFolderName      | string |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               The name of the subfolder under the user's My Documents folder in which the application creates user files and subfolders.<br /><br /> The default value is the name of the application solution file.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |         UserOptsFileExt         | string |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           The extension for solution user options files for the application.<br /><br /> The default value is the name of the application solution file.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 
-## Binding Path Settings
- The [$RootKey$\BindingPaths\\{00000000-0000-0000-0000-000000000000}] key contains the list of directories that the shell checks for assemblies. These directories are added to the list of directories that the shell probes for private assemblies for the application.
+## Binding Path Settings  
+ The [$RootKey$\BindingPaths\\{00000000-0000-0000-0000-000000000000}] key contains the list of directories that the shell checks for assemblies. These directories are added to the list of directories that the shell probes for private assemblies for the application.  
 
- By default, no binding-path entries are added to the .pkgdef file. However, the following subdirectories of the Visual Studio installation directory are automatically added to the application binding-path list in the registry.
+ By default, no binding-path entries are added to the .pkgdef file. However, the following subdirectories of the Visual Studio installation directory are automatically added to the application binding-path list in the registry.  
 
-- Common7\IDE\
+- Common7\IDE\  
 
-- Common7\IDE\\\PrivateAssemblies
+- Common7\IDE\\\PrivateAssemblies  
 
-- Common7\IDE\\\PublicAssemblies
+- Common7\IDE\\\PublicAssemblies  
 
-  To add a directory to the binding path, add an entry of the form "*directoryName*"="", where *directoryName* is an absolute path. For example,
+  To add a directory to the binding path, add an entry of the form "*directoryName*"="", where *directoryName* is an absolute path. For example,  
 
-```
-[$RootKey$\BindingPaths\{00000000-0000-0000-0000-000000000000}]
-"$RootFolder$\directory1"=""
-"%CommonProgramFiles%\directory2"=""
-```
+```  
+[$RootKey$\BindingPaths\{00000000-0000-0000-0000-000000000000}]  
+"$RootFolder$\directory1"=""  
+"%CommonProgramFiles%\directory2"=""  
+```  
 
-## Profile Settings
- The following table describes the values that are defined for each associated package under [$RootKey$\Profile].
+## Profile Settings  
+ The following table describes the values that are defined for each associated package under [$RootKey$\Profile].  
 
-|Name|Type|Value|
-|----------|----------|-----------|
-|AutoSaveFile|string|The directory in which the application stores auto-save files.<br /><br /> The default value is "$RootFolder$\Profiles\CurrentSettings.vssettings".|
+|Name|Type|Value|  
+|----------|----------|-----------|  
+|AutoSaveFile|string|The directory in which the application stores auto-save files.<br /><br /> The default value is "$RootFolder$\Profiles\CurrentSettings.vssettings".|  
 
-## Package Satellite DLL Settings
- The following table describes the values that are defined under [$RootKey$\Packages\\{*vsPackageGuid*}\SatelliteDll] for the satellite DLL of each associated package, where *vsPackageGuid* is the GUID of the associated package.
+## Package Satellite DLL Settings  
+ The following table describes the values that are defined under [$RootKey$\Packages\\{*vsPackageGuid*}\SatelliteDll] for the satellite DLL of each associated package, where *vsPackageGuid* is the GUID of the associated package.  
 
-|Name|Type|Value|
-|----------|----------|-----------|
-|DllName|string|The file name of the DLL.<br /><br /> The default value is "*solutionName*ui.dll", where *solutionName* is the name of the application solution file.|
-|Path|string|The directory that contains the satellite DLL.<br /><br /> The default value is "$PackageFolder$".|
+|Name|Type|Value|  
+|----------|----------|-----------|  
+|DllName|string|The file name of the DLL.<br /><br /> The default value is "*solutionName*ui.dll", where *solutionName* is the name of the application solution file.|  
+|Path|string|The directory that contains the satellite DLL.<br /><br /> The default value is "$PackageFolder$".|  
 
-## Package Menu Item Settings
- The [$RootKey$\Menus] registry key defines UI resource files for the application.
+## Package Menu Item Settings  
+ The [$RootKey$\Menus] registry key defines UI resource files for the application.  
 
- Menu item values have the form "{*vsUiPackageGuid*}"=", *resourceId*, *versionNumber*", where *vsUiPackageGuid* is the GUID of the application UI package, *resourceId* is the resource identifier of the CTMENU resource that contains the UI elements, and *versionNumber* is a virtual version number for the CTMENU resource. For more information, see [Registering Interop Assembly Command Handlers](../extensibility/internals/registering-interop-assembly-command-handlers.md).
+ Menu item values have the form "{*vsUiPackageGuid*}"=", *resourceId*, *versionNumber*", where *vsUiPackageGuid* is the GUID of the application UI package, *resourceId* is the resource identifier of the CTMENU resource that contains the UI elements, and *versionNumber* is a virtual version number for the CTMENU resource. For more information, see [Registering Interop Assembly Command Handlers](../extensibility/internals/registering-interop-assembly-command-handlers.md).  
 
- By default, a menu item entry is created in the .pkgdef file for the application UI package.
+ By default, a menu item entry is created in the .pkgdef file for the application UI package.  
 
- For each package that provides menu items and that is distributed as a part of the application, add a menu item entry for the package.
+ For each package that provides menu items and that is distributed as a part of the application, add a menu item entry for the package.  
 
-## See Also
- [Customizing the Isolated Shell](../extensibility/customizing-the-isolated-shell.md)
+## See Also  
+ [Customizing the Isolated Shell](../extensibility/customizing-the-isolated-shell.md)   
  [.Pkgundef Files](../extensibility/modifying-the-isolated-shell-by-using-the-dot-pkgundef-file.md)

@@ -5,7 +5,7 @@ ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-devops-test"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -18,7 +18,7 @@ manager: "wpickett"
 # Mixed Recommended Rules rule set
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The Microsoft Mixed Recommended Rules focus on the most common and critical problems in your C++ projects that support the Common Language Runtime, including potential security holes, application crashes, and other important logic and design errors. You should include this rule set in any custom rule set you create for your C++ projects that support the Common Language Runtime. This ruleset is designed to be configured with the Visual Studio Professional edition and higher.
+The Microsoft Mixed Recommended Rules focus on the most common and critical problems in your C++ projects that support the Common Language Runtime, including potential security holes, application crashes, and other important logic and design errors. You should include this rule set in any custom rule set you create for your C++ projects that support the Common Language Runtime. This ruleset is designed to be configured with the Visual Studio Professional edition and higher.  
 
 
 |                                                              Rule                                                              |                                                             Description                                                             |

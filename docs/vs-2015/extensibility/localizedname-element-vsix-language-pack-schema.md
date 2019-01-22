@@ -5,7 +5,7 @@ ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-ide-sdk"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -17,48 +17,48 @@ manager: "ghogen"
 # LocalizedName Element (VSIX Language Pack Schema)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-Required. The localized name of the extension to be installed.
-
-## Syntax
-
-```
-<Name>Localized name of the extension</Name>
-```
-
-## Attributes and Elements
- The following sections describe attributes, child elements, and parent elements.
-
-### Attributes
-
-|Attribute|Description|
-|---------------|-----------------|
-|None||
-
-### Child Elements
-
-|Element|Description|
-|-------------|-----------------|
-|None||
-
-### Parent Elements
-
-|Element|Description|
-|-------------|-----------------|
-|[VSIX LanguagePack Element](../extensibility/vsixlanguagepack-element-vsix-language-pack-schema.md)|Required. Provides the root element for a VSIX language pack.|
-
-## Text Value
- Required. The name of the language pack in the target language.
-
-## Element Information
-
+Required. The localized name of the extension to be installed.  
+  
+## Syntax  
+  
+```  
+<Name>Localized name of the extension</Name>  
+```  
+  
+## Attributes and Elements  
+ The following sections describe attributes, child elements, and parent elements.  
+  
+### Attributes  
+  
+|Attribute|Description|  
+|---------------|-----------------|  
+|None||  
+  
+### Child Elements  
+  
+|Element|Description|  
+|-------------|-----------------|  
+|None||  
+  
+### Parent Elements  
+  
+|Element|Description|  
+|-------------|-----------------|  
+|[VSIX LanguagePack Element](../extensibility/vsixlanguagepack-element-vsix-language-pack-schema.md)|Required. Provides the root element for a VSIX language pack.|  
+  
+## Text Value  
+ Required. The name of the language pack in the target language.  
+  
+## Element Information  
+  
 |                 |                                                           |
 |-----------------|-----------------------------------------------------------|
 |    Namespace    | http://schemas.microsoft.com/developer/vsx-schema-lp/2010 |
 |   Schema Name   |                 VSIX Language Pack Schema                 |
 | Validation File |                VSIXLanguagePackSchema.xsd                 |
 |  Can be Empty   |                      Not applicable                       |
-
-## See Also
- [VSX Language Pack Schema Reference](../extensibility/vsx-language-pack-schema-reference.md)
- [Localizing VSIX Packages](../extensibility/localizing-vsix-packages.md)
+  
+## See Also  
+ [VSX Language Pack Schema Reference](../extensibility/vsx-language-pack-schema-reference.md)   
+ [Localizing VSIX Packages](../extensibility/localizing-vsix-packages.md)   
  [VSIX Extension Schema 1.0 Reference](http://msdn.microsoft.com/76e410ec-b1fb-4652-ac98-4a4c52e09a2b)

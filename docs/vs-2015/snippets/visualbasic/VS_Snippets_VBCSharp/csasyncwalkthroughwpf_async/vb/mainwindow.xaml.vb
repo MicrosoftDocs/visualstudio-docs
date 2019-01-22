@@ -116,7 +116,7 @@ Class MainWindow
 
             ' Get the data stream that is associated with the specified URL.
             Using responseStream As Stream = response.GetResponseStream()
-                ' Read the bytes in responseStream and copy them to content.
+                ' Read the bytes in responseStream and copy them to content.  
                 '<snippet15>
                 Await responseStream.CopyToAsync(content)
                 '</snippet15>
@@ -141,7 +141,7 @@ Class MainWindow
 
     Private Sub DisplayResults(url As String, content As Byte())
 
-        ' Display the length of each website. The string format
+        ' Display the length of each website. The string format 
         ' is designed to be used with a monospaced font, such as
         ' Lucida Console or Global Monospace.
         Dim bytes = content.Length
