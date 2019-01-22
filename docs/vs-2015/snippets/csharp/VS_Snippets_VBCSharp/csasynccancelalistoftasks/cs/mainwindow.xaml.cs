@@ -40,7 +40,7 @@ namespace CancelAListOfTasks
             cts = new CancellationTokenSource();
 
             resultsTextBox.Clear();
-            
+
             try
             {
                 //<snippet11>
@@ -91,8 +91,8 @@ namespace CancelAListOfTasks
             // ***Add a loop to process the list of web addresses.
             foreach (var url in urlList)
             {
-                // GetAsync returns a Task<HttpResponseMessage>. 
-                // Argument ct carries the message if the Cancel button is chosen. 
+                // GetAsync returns a Task<HttpResponseMessage>.
+                // Argument ct carries the message if the Cancel button is chosen.
                 // ***Note that the Cancel button can cancel all remaining downloads.
                 HttpResponseMessage response = await client.GetAsync(url, ct);
 
@@ -110,15 +110,15 @@ namespace CancelAListOfTasks
         // ***Add a method that creates a list of web addresses.
         private List<string> SetUpURLList()
         {
-            List<string> urls = new List<string> 
-            { 
+            List<string> urls = new List<string>
+            {
                 "http://msdn.microsoft.com",
-                "http://msdn.microsoft.com/en-us/library/hh290138.aspx",
-                "http://msdn.microsoft.com/en-us/library/hh290140.aspx",
-                "http://msdn.microsoft.com/en-us/library/dd470362.aspx",
-                "http://msdn.microsoft.com/en-us/library/aa578028.aspx",
-                "http://msdn.microsoft.com/en-us/library/ms404677.aspx",
-                "http://msdn.microsoft.com/en-us/library/ff730837.aspx"
+                "http://msdn.microsoft.com/library/hh290138.aspx",
+                "http://msdn.microsoft.com/library/hh290140.aspx",
+                "http://msdn.microsoft.com/library/dd470362.aspx",
+                "http://msdn.microsoft.com/library/aa578028.aspx",
+                "http://msdn.microsoft.com/library/ms404677.aspx",
+                "http://msdn.microsoft.com/library/ff730837.aspx"
             };
             return urls;
         }

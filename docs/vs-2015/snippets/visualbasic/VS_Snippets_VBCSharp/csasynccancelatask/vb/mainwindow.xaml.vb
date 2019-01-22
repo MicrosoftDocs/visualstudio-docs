@@ -64,9 +64,9 @@ Class MainWindow
         ' You might need to slow things down to have a chance to cancel.
         Await Task.Delay(250)
 
-        ' GetAsync returns a Task(Of HttpResponseMessage). 
+        ' GetAsync returns a Task(Of HttpResponseMessage).
         ' ***The ct argument carries the message if the Cancel button is chosen.
-        Dim response As HttpResponseMessage = Await client.GetAsync("http://msdn.microsoft.com/en-us/library/dd470362.aspx", ct)
+        Dim response As HttpResponseMessage = Await client.GetAsync("http://msdn.microsoft.com/library/dd470362.aspx", ct)
 
         ' Retrieve the website contents from the HttpResponseMessage.
         Dim urlContents As Byte() = Await response.Content.ReadAsByteArrayAsync()

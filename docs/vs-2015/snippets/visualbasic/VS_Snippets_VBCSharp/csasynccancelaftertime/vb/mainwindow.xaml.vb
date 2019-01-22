@@ -21,7 +21,7 @@ Class MainWindow
         resultsTextBox.Clear()
 
         Try
-            ' ***Set up the CancellationTokenSource to cancel after 2.5 seconds. (You 
+            ' ***Set up the CancellationTokenSource to cancel after 2.5 seconds. (You
             ' can adjust the time.)
             cts.CancelAfter(2500)
 
@@ -61,8 +61,8 @@ Class MainWindow
 
         ' Process each element in the list of web addresses.
         For Each url In urlList
-            ' GetAsync returns a Task(Of HttpResponseMessage). 
-            ' Argument ct carries the message if the Cancel button is chosen. 
+            ' GetAsync returns a Task(Of HttpResponseMessage).
+            ' Argument ct carries the message if the Cancel button is chosen.
             ' Note that the Cancel button can cancel all remaining downloads.
             Dim response As HttpResponseMessage = Await client.GetAsync(url, ct)
 
@@ -81,12 +81,12 @@ Class MainWindow
         Dim urls = New List(Of String) From
             {
                 "http://msdn.microsoft.com",
-                "http://msdn.microsoft.com/en-us/library/hh290138.aspx",
-                "http://msdn.microsoft.com/en-us/library/hh290140.aspx",
-                "http://msdn.microsoft.com/en-us/library/dd470362.aspx",
-                "http://msdn.microsoft.com/en-us/library/aa578028.aspx",
-                "http://msdn.microsoft.com/en-us/library/ms404677.aspx",
-                "http://msdn.microsoft.com/en-us/library/ff730837.aspx"
+                "http://msdn.microsoft.com/library/hh290138.aspx",
+                "http://msdn.microsoft.com/library/hh290140.aspx",
+                "http://msdn.microsoft.com/library/dd470362.aspx",
+                "http://msdn.microsoft.com/library/aa578028.aspx",
+                "http://msdn.microsoft.com/library/ms404677.aspx",
+                "http://msdn.microsoft.com/library/ff730837.aspx"
             }
         Return urls
     End Function
@@ -104,4 +104,3 @@ End Class
 
 ' Downloads canceled.
 '</snippet2>
-

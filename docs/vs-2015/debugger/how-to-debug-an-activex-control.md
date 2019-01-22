@@ -5,18 +5,18 @@ ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
+ms.technology:
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords: 
+f1_keywords:
   - "vc.controls.debug"
-dev_langs: 
+dev_langs:
   - "FSharp"
   - "VB"
   - "CSharp"
   - "C++"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "testing [Visual Studio], test containers"
   - "ActiveX control container debugging [Visual Studio]"
   - "debugging ActiveX controls"
@@ -35,33 +35,30 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose Import and Export Settings on the Tools menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
-  
- To debug your ActiveX control, you must specify a container (executable) for the control to run in.  
-  
-### To specify a container for the debug session  
-  
-1.  In Solution Explorer, select the project.  
-  
-2.  From the **View** menu, choose **Property Pages**.  
-  
-3.  In the **Project Property Pages** dialog box, open the **Configuration Properties** folder, and select **Debugging**.  
-  
-4.  Under the **Debugging** category, locate the **Command** property.  
-  
-5.  Specify the path name for the container. For example, C:\Program Files\Internet Explorer\IEXPLORE.EXE.  
-  
-6.  If you specify Internet Explorer as the container and you are using Active Desktop, type `/new` in the **Command Arguments** box.  
-  
-7.  Click **OK**.  
-  
-     If you do not specify a container in the **Project Property Pages** dialog box, you can specify the container when you begin debugging. When you select an execution command to start debugging, the [Executable for Debugging Session Dialog Box](../debugger/executable-for-debugging-session-dialog-box.md) appears. Specify the path name of the container in the dialog box.  
-  
-## See Also  
- [ActiveX Controls](http://msdn.microsoft.com/library/52aaec4d-3889-402e-b57d-758078f8ac57)   
- [Testing Properties and Events with Test Container](http://msdn.microsoft.com/library/626867cf-fe53-4c30-8973-55bb93ef3917)   
- [COM and ActiveX Debugging](../debugger/com-and-activex-debugging.md)   
+>  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose Import and Export Settings on the Tools menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).
+
+ To debug your ActiveX control, you must specify a container (executable) for the control to run in.
+
+### To specify a container for the debug session
+
+1.  In Solution Explorer, select the project.
+
+2.  From the **View** menu, choose **Property Pages**.
+
+3.  In the **Project Property Pages** dialog box, open the **Configuration Properties** folder, and select **Debugging**.
+
+4.  Under the **Debugging** category, locate the **Command** property.
+
+5.  Specify the path name for the container. For example, C:\Program Files\Internet Explorer\IEXPLORE.EXE.
+
+6.  If you specify Internet Explorer as the container and you are using Active Desktop, type `/new` in the **Command Arguments** box.
+
+7.  Click **OK**.
+
+     If you do not specify a container in the **Project Property Pages** dialog box, you can specify the container when you begin debugging. When you select an execution command to start debugging, the [Executable for Debugging Session Dialog Box](../debugger/executable-for-debugging-session-dialog-box.md) appears. Specify the path name of the container in the dialog box.
+
+## See Also
+ [ActiveX Controls](http://msdn.microsoft.com/library/52aaec4d-3889-402e-b57d-758078f8ac57)
+ [Testing Properties and Events with Test Container](http://msdn.microsoft.com/library/626867cf-fe53-4c30-8973-55bb93ef3917)
+ [COM and ActiveX Debugging](../debugger/com-and-activex-debugging.md)
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)
-
-
-

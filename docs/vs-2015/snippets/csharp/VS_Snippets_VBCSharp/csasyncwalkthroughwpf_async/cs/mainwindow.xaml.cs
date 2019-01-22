@@ -85,7 +85,7 @@ namespace AsyncExampleWPF
 
                 DisplayResults(url, urlContents);
 
-                // Update the total.          
+                // Update the total.
                 total += urlContents.Length;
             }
             // Display the total count for all of the websites.
@@ -96,18 +96,18 @@ namespace AsyncExampleWPF
 
         private List<string> SetUpURLList()
         {
-            List<string> urls = new List<string> 
-            { 
+            List<string> urls = new List<string>
+            {
                 "http://msdn.microsoft.com/library/windows/apps/br211380.aspx",
                 "http://msdn.microsoft.com",
-                "http://msdn.microsoft.com/en-us/library/hh290136.aspx",
-                "http://msdn.microsoft.com/en-us/library/ee256749.aspx",
-                "http://msdn.microsoft.com/en-us/library/hh290138.aspx",
-                "http://msdn.microsoft.com/en-us/library/hh290140.aspx",
-                "http://msdn.microsoft.com/en-us/library/dd470362.aspx",
-                "http://msdn.microsoft.com/en-us/library/aa578028.aspx",
-                "http://msdn.microsoft.com/en-us/library/ms404677.aspx",
-                "http://msdn.microsoft.com/en-us/library/ff730837.aspx"
+                "http://msdn.microsoft.com/library/hh290136.aspx",
+                "http://msdn.microsoft.com/library/ee256749.aspx",
+                "http://msdn.microsoft.com/library/hh290138.aspx",
+                "http://msdn.microsoft.com/library/hh290140.aspx",
+                "http://msdn.microsoft.com/library/dd470362.aspx",
+                "http://msdn.microsoft.com/library/aa578028.aspx",
+                "http://msdn.microsoft.com/library/ms404677.aspx",
+                "http://msdn.microsoft.com/library/ff730837.aspx"
             };
             return urls;
         }
@@ -124,11 +124,11 @@ namespace AsyncExampleWPF
             var webReq = (HttpWebRequest)WebRequest.Create(url);
 
             // Send the request to the Internet resource and wait for
-            // the response.                
+            // the response.
             //<snippet14>
             using (WebResponse response = await webReq.GetResponseAsync())
             //</snippet14>
-                        
+
             // The previous statement abbreviates the following two statements.
 
             //<snippet12>
@@ -139,10 +139,10 @@ namespace AsyncExampleWPF
                 // Get the data stream that is associated with the specified url.
                 using (Stream responseStream = response.GetResponseStream())
                 {
-                    // Read the bytes in responseStream and copy them to content. 
+                    // Read the bytes in responseStream and copy them to content.
                     //<snippet15>
                     await responseStream.CopyToAsync(content);
-                    //</snippet15>           
+                    //</snippet15>
 
                     // The previous statement abbreviates the following two statements.
 
@@ -163,7 +163,7 @@ namespace AsyncExampleWPF
 
         private void DisplayResults(string url, byte[] content)
         {
-            // Display the length of each website. The string format 
+            // Display the length of each website. The string format
             // is designed to be used with a monospaced font, such as
             // Lucida Console or Global Monospace.
             var bytes = content.Length;

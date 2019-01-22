@@ -43,10 +43,10 @@
       <Border BorderThickness="1" BorderBrush="Black">
         <!--<Snippet_FlowDocumentColumnStuffXAML>-->
         <FlowDocumentReader>
-          <FlowDocument 
-            ColumnGap="20.0" 
-            ColumnRuleBrush="DodgerBlue" 
-            ColumnRuleWidth="5.0" 
+          <FlowDocument
+            ColumnGap="20.0"
+            ColumnRuleBrush="DodgerBlue"
+            ColumnRuleWidth="5.0"
             ColumnWidth="140.0"
         >
             <Paragraph  Background="AntiqueWhite" TextAlignment="Left">
@@ -73,7 +73,7 @@
     <Grid Grid.Row="2">
       <!--<Snippet_FlowDocumentBackgroundXAML>-->
       <FlowDocumentReader>
-        <FlowDocument 
+        <FlowDocument
           Background="IndianRed"
           Foreground="NavajoWhite"
         >
@@ -105,7 +105,7 @@
       <Border BorderThickness="1" BorderBrush="Black">
         <!--<Snippet_FlowDocumentFlowDirectionXAML>-->
         <FlowDocumentReader>
-          <FlowDocument 
+          <FlowDocument
             FlowDirection="LeftToRight"
           >
             <Paragraph>
@@ -296,30 +296,30 @@
       <!--<Snippet_FlowDocumentHyphenateXAML>-->
       <FlowDocumentReader>
         <FlowDocument
-          TextAlignment="Justify" 
+          TextAlignment="Justify"
           IsHyphenationEnabled="True"
           IsOptimalParagraphEnabled="True"
           Background="LightGray"
           PageWidth="400" PageHeight="480"
         >
           <Paragraph>
-            <Hyperlink NavigateUri="http://www.xbox.com/en-US/games/p/perfectdarkzero/default.htm">
+            <Hyperlink NavigateUri="http://www.xbox.com/games/p/perfectdarkzero/default.htm">
               Perfect Dark Zero
             </Hyperlink>
           </Paragraph>
           <Paragraph>
-            Joanna Dark returns in the Xbox 360 exclusive <Bold><Italic>Perfect Dark Zero</Italic></Bold>, the 
-            prequel to the internationally award-winning and multi-million selling first-person shooter 
+            Joanna Dark returns in the Xbox 360 exclusive <Bold><Italic>Perfect Dark Zero</Italic></Bold>, the
+            prequel to the internationally award-winning and multi-million selling first-person shooter
             <Italic>Perfect Dark</Italic> from famed game developer Rare.
           </Paragraph>
           <Paragraph>
-            A secret war has begun between shadowy corporations bent on world domination. Joanna Dark and her father 
-            Jack are caught up in the fight for the future of the planet. A routine bounty hunting mission rips open 
+            A secret war has begun between shadowy corporations bent on world domination. Joanna Dark and her father
+            Jack are caught up in the fight for the future of the planet. A routine bounty hunting mission rips open
             a global conspiracy that will change Joanna's destiny—forever.
           </Paragraph>
           <Paragraph>
-            Guide Joanna Dark on her journey to become the perfect agent. Featuring a compelling and captivating story, 
-            <Italic>Perfect Dark Zero</Italic> plunges you into a world of corporate espionage and conspiracy. The title 
+            Guide Joanna Dark on her journey to become the perfect agent. Featuring a compelling and captivating story,
+            <Italic>Perfect Dark Zero</Italic> plunges you into a world of corporate espionage and conspiracy. The title
             merges the excitement and intrigue of its predecessor with revolutionary game design, cutting-edge online play,
             and amazing graphics to deliver an experience that defines next-generation gaming and entertainment...
           </Paragraph>
@@ -333,7 +333,7 @@
       <!--<Snippet_FlowDocumentOptimalFitXAML>-->
       <FlowDocumentReader>
         <FlowDocument
-          TextAlignment="Justify" 
+          TextAlignment="Justify"
           IsOptimalParagraphEnabled="True"
           IsHyphenationEnabled="True"
           Background="AliceBlue"
@@ -400,14 +400,14 @@
           </Paragraph>
 
         </FlowDocument>
-      </FlowDocumentReader>      
+      </FlowDocumentReader>
       <!--</Snippet_FlowDocumentOptimalFitXAML>-->
     </Grid>
 
     <Grid Grid.Row="16">
       <!--<Snippet_FlowDocumentReaderXAML>-->
       <FlowDocumentReader
-        IsFindEnabled="True"  
+        IsFindEnabled="True"
         IsPrintEnabled="True"
         MinZoom="50" MaxZoom="1000"
         Zoom="120" ZoomIncrement="5"
@@ -424,8 +424,8 @@
     <Grid Grid.Row="17">
       <!--<Snippet_FlowDocRdr_BaseXAML>-->
       <FlowDocumentReader
-        Name="flowDocRdr" 
-        IsFindEnabled="True"  
+        Name="flowDocRdr"
+        IsFindEnabled="True"
         IsPrintEnabled="True"
         MinZoom="50" MaxZoom="1000"
         Zoom="120" ZoomIncrement="5"
@@ -436,7 +436,7 @@
     <Grid Grid.Row="18">
       <!--<Snippet_FlowDocPageViewer_BaseXAML>-->
     <FlowDocumentPageViewer
-      Name="flowDocPageViewer" 
+      Name="flowDocPageViewer"
       MinZoom="50" MaxZoom="1000"
       Zoom="120" ZoomIncrement="5"
       />
@@ -446,11 +446,11 @@
     <Grid Grid.Row="19">
       <!--<Snippet_FlowDocScrollViewer_BaseXAML>-->
       <FlowDocumentScrollViewer
-        Name="flowDocScrollViewer" 
-        HorizontalScrollBarVisibility="Auto" 
-        VerticalScrollBarVisibility="Auto" 
-        IsSelectionEnabled="True" 
-        IsToolBarVisible="True" 
+        Name="flowDocScrollViewer"
+        HorizontalScrollBarVisibility="Auto"
+        VerticalScrollBarVisibility="Auto"
+        IsSelectionEnabled="True"
+        IsToolBarVisible="True"
         MinZoom="50" MaxZoom="1000"
         Zoom="120" ZoomIncrement="5"
       />
@@ -475,10 +475,10 @@
     <Grid Grid.Row="21">
       <!--<Snippet_FlowDocumentScrollViewerXAML>-->
       <FlowDocumentScrollViewer
-        HorizontalScrollBarVisibility="Auto" 
-        VerticalScrollBarVisibility="Auto" 
-        IsSelectionEnabled="True" 
-        IsToolBarVisible="True" 
+        HorizontalScrollBarVisibility="Auto"
+        VerticalScrollBarVisibility="Auto"
+        IsSelectionEnabled="True"
+        IsToolBarVisible="True"
         MinZoom="50" MaxZoom="1000"
         Zoom="120" ZoomIncrement="5"
       >
@@ -493,23 +493,23 @@
 
     <Grid Grid.Row="22">
       <!--<Snippet_TextBlockPropsXAML>-->
-      <TextBlock 
+      <TextBlock
         Name="textBlock"
-        
-        Background="AntiqueWhite" 
-        Foreground="Navy" 
-        
+
+        Background="AntiqueWhite"
+        Foreground="Navy"
+
         FontFamily="Century Gothic"
         FontSize="12"
         FontStretch="UltraExpanded"
         FontStyle="Italic"
         FontWeight="UltraBold"
-        
+
         LineHeight="Auto"
         Padding="5,10,5,10"
         TextAlignment="Center"
         TextWrapping="Wrap"
-        
+
         Typography.NumeralStyle="OldStyle"
         Typography.SlashedZero="True"
       >
@@ -529,7 +529,7 @@
           of flow content into a UI.
         </TextBlock>
         <Button Width="100" Margin="10">Click Me</Button>
-        <TextBlock  Name="textBlock2" 
+        <TextBlock  Name="textBlock2"
           TextWrapping="Wrap" Background="AntiqueWhite" TextAlignment="Center"
         >
           By default, a TextBlock provides no UI beyond simply displaying its contents.

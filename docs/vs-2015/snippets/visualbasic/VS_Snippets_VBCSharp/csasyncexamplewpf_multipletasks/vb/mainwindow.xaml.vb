@@ -23,14 +23,14 @@ Class MainWindow
         Dim client As HttpClient =
             New HttpClient() With {.MaxResponseContentBufferSize = 1000000}
 
-        ' Create and start the tasks. As each task finishes, DisplayResults 
+        ' Create and start the tasks. As each task finishes, DisplayResults
         ' displays its length.
         Dim download1 As Task(Of Integer) =
             ProcessURLAsync("http://msdn.microsoft.com", client)
         Dim download2 As Task(Of Integer) =
-            ProcessURLAsync("http://msdn.microsoft.com/en-us/library/hh156528(VS.110).aspx", client)
+            ProcessURLAsync("http://msdn.microsoft.com/library/hh156528(VS.110).aspx", client)
         Dim download3 As Task(Of Integer) =
-            ProcessURLAsync("http://msdn.microsoft.com/en-us/library/67w7t67f.aspx", client)
+            ProcessURLAsync("http://msdn.microsoft.com/library/67w7t67f.aspx", client)
 
         ' Await each task.
         Dim length1 As Integer = Await download1
@@ -57,7 +57,7 @@ Class MainWindow
 
     Private Sub DisplayResults(url As String, content As Byte())
 
-        ' Display the length of each website. The string format 
+        ' Display the length of each website. The string format
         ' is designed to be used with a monospaced font, such as
         ' Lucida Console or Global Monospace.
         Dim bytes = content.Length
@@ -68,5 +68,3 @@ Class MainWindow
     '</snippet2>
 End Class
 '</snippet4>
-
-

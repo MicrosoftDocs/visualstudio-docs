@@ -59,7 +59,7 @@ Class MainWindow
             From url In urlList Select ProcessURLAsync(url, client, ct)
         '</snippet1>
 
-        ' ***Use ToList to execute the query and start the download tasks. 
+        ' ***Use ToList to execute the query and start the download tasks.
         '<snippet2>
         Dim downloadTasks As List(Of Task(Of Integer)) = downloadTasksQuery.ToList()
         '</snippet2>
@@ -90,7 +90,7 @@ Class MainWindow
     ' Bundle the processing steps for a website into one async method.
     Async Function ProcessURLAsync(url As String, client As HttpClient, ct As CancellationToken) As Task(Of Integer)
 
-        ' GetAsync returns a Task(Of HttpResponseMessage). 
+        ' GetAsync returns a Task(Of HttpResponseMessage).
         Dim response As HttpResponseMessage = Await client.GetAsync(url, ct)
 
         ' Retrieve the website contents from the HttpResponseMessage.
@@ -106,12 +106,12 @@ Class MainWindow
         Dim urls = New List(Of String) From
             {
                 "http://msdn.microsoft.com",
-                "http://msdn.microsoft.com/en-us/library/hh290138.aspx",
-                "http://msdn.microsoft.com/en-us/library/hh290140.aspx",
-                "http://msdn.microsoft.com/en-us/library/dd470362.aspx",
-                "http://msdn.microsoft.com/en-us/library/aa578028.aspx",
-                "http://msdn.microsoft.com/en-us/library/ms404677.aspx",
-                "http://msdn.microsoft.com/en-us/library/ff730837.aspx"
+                "http://msdn.microsoft.com/library/hh290138.aspx",
+                "http://msdn.microsoft.com/library/hh290140.aspx",
+                "http://msdn.microsoft.com/library/dd470362.aspx",
+                "http://msdn.microsoft.com/library/aa578028.aspx",
+                "http://msdn.microsoft.com/library/ms404677.aspx",
+                "http://msdn.microsoft.com/library/ff730837.aspx"
             }
         Return urls
     End Function
@@ -130,7 +130,3 @@ End Class
 ' Length of the download:  44908
 ' Downloads complete.
 '</snippet6>
-
-
-
-

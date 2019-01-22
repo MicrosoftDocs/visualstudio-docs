@@ -43,7 +43,7 @@ namespace AsyncExampleWPF
         private void SumPageSizes()
         {
             // Make a list of web addresses.
-            List<string> urlList = SetUpURLList(); 
+            List<string> urlList = SetUpURLList();
 
             var total = 0;
             foreach (var url in urlList)
@@ -58,25 +58,25 @@ namespace AsyncExampleWPF
             }
 
             // Display the total count for all of the web addresses.
-            resultsTextBox.Text += 
+            resultsTextBox.Text +=
                 string.Format("\r\n\r\nTotal bytes returned:  {0}\r\n", total);
         }
 
 
         private List<string> SetUpURLList()
         {
-            var urls = new List<string> 
-            { 
+            var urls = new List<string>
+            {
                 "http://msdn.microsoft.com/library/windows/apps/br211380.aspx",
                 "http://msdn.microsoft.com",
-                "http://msdn.microsoft.com/en-us/library/hh290136.aspx",
-                "http://msdn.microsoft.com/en-us/library/ee256749.aspx",
-                "http://msdn.microsoft.com/en-us/library/hh290138.aspx",
-                "http://msdn.microsoft.com/en-us/library/hh290140.aspx",
-                "http://msdn.microsoft.com/en-us/library/dd470362.aspx",
-                "http://msdn.microsoft.com/en-us/library/aa578028.aspx",
-                "http://msdn.microsoft.com/en-us/library/ms404677.aspx",
-                "http://msdn.microsoft.com/en-us/library/ff730837.aspx"
+                "http://msdn.microsoft.com/library/hh290136.aspx",
+                "http://msdn.microsoft.com/library/ee256749.aspx",
+                "http://msdn.microsoft.com/library/hh290138.aspx",
+                "http://msdn.microsoft.com/library/hh290140.aspx",
+                "http://msdn.microsoft.com/library/dd470362.aspx",
+                "http://msdn.microsoft.com/library/aa578028.aspx",
+                "http://msdn.microsoft.com/library/ms404677.aspx",
+                "http://msdn.microsoft.com/library/ff730837.aspx"
             };
             return urls;
         }
@@ -98,7 +98,7 @@ namespace AsyncExampleWPF
                 // Get the data stream that is associated with the specified URL.
                 using (Stream responseStream = response.GetResponseStream())
                 {
-                    // Read the bytes in responseStream and copy them to content.  
+                    // Read the bytes in responseStream and copy them to content.
                     responseStream.CopyTo(content);
                 }
             }
@@ -110,7 +110,7 @@ namespace AsyncExampleWPF
 
         private void DisplayResults(string url, byte[] content)
         {
-            // Display the length of each website. The string format 
+            // Display the length of each website. The string format
             // is designed to be used with a monospaced font, such as
             // Lucida Console or Global Monospace.
             var bytes = content.Length;

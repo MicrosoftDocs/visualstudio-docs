@@ -54,7 +54,7 @@ namespace AsyncExampleWPF_HttpClient_WhenAll
 
             //<snippet8>
             // Create a query.
-            IEnumerable<Task<int>> downloadTasksQuery = 
+            IEnumerable<Task<int>> downloadTasksQuery =
                 from url in urlList select ProcessURL(url, client);
 
             // Use ToArray to execute the query and start the download tasks.
@@ -83,7 +83,7 @@ namespace AsyncExampleWPF_HttpClient_WhenAll
             //    // GetByteArrayAsync returns a Task<T>. At completion, the task
             //    // produces a byte array.
             //    byte[] urlContent = await client.GetByteArrayAsync(url);
-            
+
             //    // The previous line abbreviates the following two assignment
             //    // statements.
             //    Task<byte[]> getContentTask = client.GetByteArrayAsync(url);
@@ -104,17 +104,17 @@ namespace AsyncExampleWPF_HttpClient_WhenAll
 
         private List<string> SetUpURLList()
         {
-            List<string> urls = new List<string> 
-            { 
+            List<string> urls = new List<string>
+            {
                 "http://msdn.microsoft.com",
-                "http://msdn.microsoft.com/en-us/library/hh290136.aspx",
-                "http://msdn.microsoft.com/en-us/library/ee256749.aspx",
-                "http://msdn.microsoft.com/en-us/library/hh290138.aspx",
-                "http://msdn.microsoft.com/en-us/library/hh290140.aspx",
-                "http://msdn.microsoft.com/en-us/library/dd470362.aspx",
-                "http://msdn.microsoft.com/en-us/library/aa578028.aspx",
-                "http://msdn.microsoft.com/en-us/library/ms404677.aspx",
-                "http://msdn.microsoft.com/en-us/library/ff730837.aspx"
+                "http://msdn.microsoft.com/library/hh290136.aspx",
+                "http://msdn.microsoft.com/library/ee256749.aspx",
+                "http://msdn.microsoft.com/library/hh290138.aspx",
+                "http://msdn.microsoft.com/library/hh290140.aspx",
+                "http://msdn.microsoft.com/library/dd470362.aspx",
+                "http://msdn.microsoft.com/library/aa578028.aspx",
+                "http://msdn.microsoft.com/library/ms404677.aspx",
+                "http://msdn.microsoft.com/library/ff730837.aspx"
             };
             return urls;
         }
@@ -133,7 +133,7 @@ namespace AsyncExampleWPF_HttpClient_WhenAll
 
         private void DisplayResults(string url, byte[] content)
         {
-            // Display the length of each web site. The string format 
+            // Display the length of each web site. The string format
             // is designed to be used with a monospaced font, such as
             // Lucida Console or Global Monospace.
             var bytes = content.Length;

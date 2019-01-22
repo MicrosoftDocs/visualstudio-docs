@@ -1,6 +1,6 @@
 
 Option Strict On
-Option Explicit On 
+Option Explicit On
 
 Imports System
 Imports System.Drawing
@@ -38,7 +38,7 @@ Public Class Form1
     Private components As System.ComponentModel.IContainer
 
     'NOTE: The following procedure is required by the Windows Form Designer
-    'It can be modified using the Windows Form Designer.  
+    'It can be modified using the Windows Form Designer.
     'Do not modify it using the code editor.
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
@@ -93,22 +93,22 @@ Public Class Form1
     ' from a file.
 
     ' This example is designed to be used with a Windows Forms that contains
-    ' a PictureBox named PictureBox1. 
-    ' 
+    ' a PictureBox named PictureBox1.
+    '
     ' Paste the code into a form and call InitializeBitmap from the form's
     ' constructor or Load method.
 
     ' </snippet3Intro>
 
     ' <snippet4Intro>
-    ' The following code example demonstrates how to set the RotateFlip 
-    ' property of a Bitmap.  
+    ' The following code example demonstrates how to set the RotateFlip
+    ' property of a Bitmap.
 
     ' This example is designed to be used with a Windows form that contains
-    ' a PictureBox named PictureBox1 and a button named Button1. 
+    ' a PictureBox named PictureBox1 and a button named Button1.
     ' Paste the code to a form, call InitializeBitmap from the form's
     ' constructor or Load method and associate Button1_Click with the button's
-    ' click event. Ensure the filepath to the bitmap is valid on 
+    ' click event. Ensure the filepath to the bitmap is valid on
     ' your system.
     ' </snippet4Intro>
 
@@ -141,9 +141,9 @@ Public Class Form1
     End Sub
     '</snippet3>
 
-    ' The following code example demonstrates how to load a bitmap 
-    ' from an Icon handle, using the GraphicsUnit enumeration, and the  
-    ' the use of the RectangleF.Round method to draw the rectangle 
+    ' The following code example demonstrates how to load a bitmap
+    ' from an Icon handle, using the GraphicsUnit enumeration, and the
+    ' the use of the RectangleF.Round method to draw the rectangle
     ' bounds of an icon.
 
     ' This example is designed to be used with Windows Forms. Create
@@ -163,11 +163,11 @@ Public Class Form1
     End Sub
     '</snippet1>
 
-    ' The following code example demonstrates how to load a bitmap 
+    ' The following code example demonstrates how to load a bitmap
     ' from a stream.
 
     ' This example is designed to be used with Windows Forms. Create
-    ' a form that contains a PictureBox named PictureBox1. Paste the code 
+    ' a form that contains a PictureBox named PictureBox1. Paste the code
     ' into the form and call InitializeStreamBitmap from the form's
     ' constructor or Load method.
     '<snippet2>
@@ -175,7 +175,7 @@ Public Class Form1
         Try
             Dim request As System.Net.WebRequest = _
                 System.Net.WebRequest.Create( _
-                "http://www.microsoft.com//h/en-us/r/ms_masthead_ltr.gif")
+                "http://www.microsoft.com//h/r/ms_masthead_ltr.gif")
             Dim response As System.Net.WebResponse = request.GetResponse()
             Dim responseStream As System.IO.Stream = response.GetResponseStream()
             Dim bitmap2 As New Bitmap(responseStream)
@@ -188,8 +188,8 @@ Public Class Form1
     '</snippet2>
 
 ' The following code example demonstrates how to use the Image.PixelFormat,
-    ' Image.Height, Image.Width, and BitmapData.Scan0 properties; the Bitmap.LockBits 
-    ' and Bitmap.UnlockBits methods; and the ImageLockMode enumeration. 
+    ' Image.Height, Image.Width, and BitmapData.Scan0 properties; the Bitmap.LockBits
+    ' and Bitmap.UnlockBits methods; and the ImageLockMode enumeration.
     ' This example is designed to be used with Windows
     ' Forms. To run this example, paste it into a form and handle the form's Paint event by
     ' calling the LockUnlockBitsExample method, passing e as PaintEventArgs. This example assumes the existence of an 24bpp image file named
@@ -200,7 +200,7 @@ Public Class Form1
         ' Create a new bitmap.
         Dim bmp As New Bitmap("c:\fakePhoto.jpg")
 
-        ' Lock the bitmap's bits.  
+        ' Lock the bitmap's bits.
         Dim rect As New Rectangle(0, 0, bmp.Width, bmp.Height)
         Dim bmpData As System.Drawing.Imaging.BitmapData = bmp.LockBits(rect, _
             Drawing.Imaging.ImageLockMode.ReadWrite, bmp.PixelFormat)
@@ -238,5 +238,3 @@ Public Class Form1
     End Sub
 
 End Class
-
-

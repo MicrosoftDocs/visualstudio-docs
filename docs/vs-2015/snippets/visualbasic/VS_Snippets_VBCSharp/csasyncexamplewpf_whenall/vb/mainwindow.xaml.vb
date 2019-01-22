@@ -29,7 +29,7 @@ Class MainWindow
         Dim urlList As List(Of String) = SetUpURLList()
 
         '<snippet3>
-        ' Create a query. 
+        ' Create a query.
         Dim downloadTasksQuery As IEnumerable(Of Task(Of Integer)) =
             From url In urlList Select ProcessURLAsync(url)
 
@@ -83,14 +83,14 @@ Class MainWindow
         Dim urls = New List(Of String) From
             {
                 "http://msdn.microsoft.com",
-                "http://msdn.microsoft.com/en-us/library/hh290136.aspx",
-                "http://msdn.microsoft.com/en-us/library/ee256749.aspx",
-                "http://msdn.microsoft.com/en-us/library/hh290138.aspx",
-                "http://msdn.microsoft.com/en-us/library/hh290140.aspx",
-                "http://msdn.microsoft.com/en-us/library/dd470362.aspx",
-                "http://msdn.microsoft.com/en-us/library/aa578028.aspx",
-                "http://msdn.microsoft.com/en-us/library/ms404677.aspx",
-                "http://msdn.microsoft.com/en-us/library/ff730837.aspx"
+                "http://msdn.microsoft.com/library/hh290136.aspx",
+                "http://msdn.microsoft.com/library/ee256749.aspx",
+                "http://msdn.microsoft.com/library/hh290138.aspx",
+                "http://msdn.microsoft.com/library/hh290140.aspx",
+                "http://msdn.microsoft.com/library/dd470362.aspx",
+                "http://msdn.microsoft.com/library/aa578028.aspx",
+                "http://msdn.microsoft.com/library/ms404677.aspx",
+                "http://msdn.microsoft.com/library/ff730837.aspx"
             }
         Return urls
     End Function
@@ -120,7 +120,7 @@ Class MainWindow
         Using response As WebResponse = Await webReq.GetResponseAsync()
             ' Get the data stream that is associated with the specified URL.
             Using responseStream As Stream = response.GetResponseStream()
-                ' Read the bytes in responseStream and copy them to content.  
+                ' Read the bytes in responseStream and copy them to content.
                 ' CopyToAsync returns a Task, not a Task<T>.
                 Await responseStream.CopyToAsync(content)
             End Using
@@ -134,7 +134,7 @@ Class MainWindow
 
     Private Sub DisplayResults(url As String, content As Byte())
 
-        ' Display the length of each website. The string format 
+        ' Display the length of each website. The string format
         ' is designed to be used with a monospaced font, such as
         ' Lucida Console or Global Monospace.
         Dim bytes = content.Length
@@ -145,4 +145,3 @@ Class MainWindow
 
 End Class
 '</snippet12>
-

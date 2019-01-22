@@ -17,7 +17,7 @@ namespace ClaimsBasedAuthorization
         {
 // <Snippet2>
             //
-            // Method 1. Simple access check using static method. 
+            // Method 1. Simple access check using static method.
             // Expect this to be most common method.
             //
             ClaimsPrincipalPermission.CheckAccess("resource", "action");
@@ -26,7 +26,7 @@ namespace ClaimsBasedAuthorization
 // <Snippet3>
             //
             // Method 2. Programmatic check using the permission class
-            // Follows model found at http://msdn.microsoft.com/en-us/library/system.security.permissions.principalpermission.aspx
+            // Follows model found at http://msdn.microsoft.com/library/system.security.permissions.principalpermission.aspx
             //
             ClaimsPrincipalPermission cpp = new ClaimsPrincipalPermission("resource", "action");
             cpp.Demand();
@@ -34,7 +34,7 @@ namespace ClaimsBasedAuthorization
 
             //
             // Method 3. Access check interacting directly with the authorization manager.
-            //            
+            //
             ClaimsAuthorizationManager am = new ClaimsAuthorizationManager();
             am.CheckAccess(new AuthorizationContext((ClaimsPrincipal)Thread.CurrentPrincipal, "resource", "action"));
 

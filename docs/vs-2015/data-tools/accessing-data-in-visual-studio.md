@@ -34,7 +34,7 @@ In Visual Studio, you can create applications that connect to data in virtually 
 
  For applications in JavaScript, Python, PHP, Ruby, or C++, you connect to data like you do anything else, by obtaining libraries and writing code. For .NET applications, Visual Studio provides tools that you can use to explore data sources,  create object models to store and manipulate data in memory, and bind data to the user interface.     Microsoft Azure provides SDKs for .NET, Java, Node.js, PHP, Python, Ruby, and mobile apps, and tools in Visual Studio for connecting to Azure Storage.
 
- The following lists show just a few of the many database and storage systems that can be used from Visual Studio. The [Microsoft Azure](https://azure.microsoft.com/en-us/) offerings are data services that include all provisioning and administration of the  underlying data store.  [Azure Tools for Visual Studio](https://www.visualstudio.com/en-us/features/azure-tools-vs.aspx) is an optional component that enables you to work with Azure data stores directly from Visual Studio. Most of the other SQL and NoSQL database products that are listed here can be hosted on a local machine, on a local network, or in Microsoft Azure on a virtual machine. In this scenario, you are responsible for managing the database itself.
+ The following lists show just a few of the many database and storage systems that can be used from Visual Studio. The [Microsoft Azure](https://azure.microsoft.com/) offerings are data services that include all provisioning and administration of the  underlying data store.  [Azure Tools for Visual Studio](https://www.visualstudio.com/features/azure-tools-vs.aspx) is an optional component that enables you to work with Azure data stores directly from Visual Studio. Most of the other SQL and NoSQL database products that are listed here can be hosted on a local machine, on a local network, or in Microsoft Azure on a virtual machine. In this scenario, you are responsible for managing the database itself.
 
  **Microsoft Azure**
 
@@ -68,7 +68,7 @@ In Visual Studio, you can create applications that connect to data in virtually 
  Many database vendors and third parties support Visual Studio integration by NuGet packages. You can explore the offerings on nuget.org or through the NuGet Package Manager in Visual Studio (**Tools** > **NuGet Package Manager** > **Manage NuGet Packages for Solution**). Other database products integrate with Visual Studio as an extension.   You can browse these offerings in the Visual Studio Gallery by navigating to **Tools** > **Extensions and Updates** and then selecting **Online** in the left pane of the dialog box.  For more information, see [Installing database systems, tools, and samples](../data-tools/installing-database-systems-tools-and-samples.md).
 
 > [!NOTE]
->  Extended support for SQL Server 2005 ended on April 12, 2016.   There is no guarantee that data tools in Visual Studio 2015 and later will continue to work with SQL Server 2005 after this date. For more information, see the [end-of-support announcement for SQL Server 2005](https://www.microsoft.com/en-us/server-cloud/products/sql-server-2005/).
+>  Extended support for SQL Server 2005 ended on April 12, 2016.   There is no guarantee that data tools in Visual Studio 2015 and later will continue to work with SQL Server 2005 after this date. For more information, see the [end-of-support announcement for SQL Server 2005](https://www.microsoft.com/server-cloud/products/sql-server-2005/).
 
 ### .NET languages
  All .NET data access, including in .NET Core,  is based on ADO.NET, a set of classes that defines an interface for accessing any kind of data source, both relational and non-relational. Visual Studio has several tools and designers that work with ADO.NET to help you connect to databases, manipulate the data, and present the data to the user. The documentation in this section describes how to use those tools. You can also program directly against the ADO.NET command objects. For more information about calling the ADO.NET APIs directly, see [ADO.NET](https://msdn.microsoft.com/library/e80y5yhx\(v=vs.110\).aspx) in the MSDN Library.
@@ -79,7 +79,7 @@ In Visual Studio, you can create applications that connect to data in virtually 
 
  For data storage on the local machine, the recommended approach is to use SQLite, which runs in the same process as the app. If an object-relational mapping (ORM) layer is required, you can use Entity Framework. For more information, see [Data access](https://msdn.microsoft.com/windows/uwp/data-access/index) in the Windows Developer Center.
 
- If you are connecting to Azure services, be sure to download the latest [Azure SDK tools](https://azure.microsoft.com/en-us/downloads/).
+ If you are connecting to Azure services, be sure to download the latest [Azure SDK tools](https://azure.microsoft.com/downloads/).
 
 #### Data providers
  For a database to be consumable in ADO.NET, it must have a custom *ADO.NET data provider* or else must expose an ODBC or OLE DB interface. Microsoft provides a [list of ADO.NET data providers](https://msdn.microsoft.com/data/dd363565) for SQL Server products as well as ODBC and OLE DB providers.
@@ -120,17 +120,17 @@ In Visual Studio, you can create applications that connect to data in virtually 
  [Installing database systems, tools, and samples](../data-tools/installing-database-systems-tools-and-samples.md)
  Discusses how to obtain database products and the Visual Studio extensions or drivers that support them, and where to find sample databases for experimentation and learning purposes.
 
- [Visual Studio data tools for .NET](http://msdn.microsoft.com/en-us/6b145922-2f00-47db-befc-bf351b4809a1)
+ [Visual Studio data tools for .NET](http://msdn.microsoft.com/6b145922-2f00-47db-befc-bf351b4809a1)
  Describes how to use Visual Studio tool windows to connect to data sources, create datasets or Entity Framework models, and bind the data to user interface controls.
 
 ## Related topics
  [Data, Devices, and Analytics](https://msdn.microsoft.com/data-and-devices)
  Provides an introduction to the Microsoft intelligent cloud, including Cortana Analytics Suite and support for Internet of Things.
 
- [Microsoft Azure Storage](https://azure.microCsoft.com/en-us/documentation/services/storage/)
+ [Microsoft Azure Storage](https://azure.microCsoft.com/documentation/services/storage/)
  Describes Azure Storage, and how to create applications by  using Azure blobs, tables, queues, and files.
 
- [Azure SQL Database](https://azure.microsoft.com/en-us/documentation/services/sql-database/)
+ [Azure SQL Database](https://azure.microsoft.com/documentation/services/sql-database/)
  Describes how to connect to Azure SQL Database, a relational database as a service.
 
  [SQL Server Data Tools](https://msdn.microsoft.com/library/hh272686\(v=vs.103\).aspx)
