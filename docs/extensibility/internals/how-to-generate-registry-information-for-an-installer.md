@@ -177,5 +177,5 @@ The *RegPkg.exe* utility can be used to generate a registration manifest for a m
 
 ## See also
 
-- [Register VSPackages](../extensibility/registering-and-unregistering-vspackages.md)
+- [Register VSPackages](../../extensibility/registering-and-unregistering-vspackages.md)
 - [VSPackages](../../extensibility/internals/vspackages.md)
