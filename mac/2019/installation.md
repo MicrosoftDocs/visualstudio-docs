@@ -6,6 +6,7 @@ ms.author: crdun
 ms.date: 11/03/2018
 ms.technology: vs-ide-install
 ms.assetid: 22B1F2CD-32AE-464D-80AC-C8AB4786B015
+ms.custom: video
 ---
 
 # Install Visual Studio 2019 for Mac Preview
@@ -85,6 +86,10 @@ Installing Visual Studio for Mac allows you to start writing code for your apps.
 ### .NET Core apps, ASP.NET Core web apps, Unity game development
 
 For other Workloads, refer to the [Workloads](/visualstudio/mac/workloads) page.
+
+## Related Video
+
+> [!Video https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Acquisition/player]
 
 ## See also
 
