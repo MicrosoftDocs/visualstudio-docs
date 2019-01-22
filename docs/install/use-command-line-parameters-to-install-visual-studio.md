@@ -71,7 +71,8 @@ The command-line options are used in conjunction with the setup bootstrapper, wh
 | `--help, --?, -h, -?` | Display an offline version of this page. |
 | `--config <path>` | **Optional** and **New in 15.9**: During an install or modify operation, this determines the workloads and components to add based on a previously saved installation configuration file. This operation is additive and it will not remove any workload or component if they are not present in the file. Also, items that do not apply to the product will not be added. During an export operation, this determines the location to save the installation configuration file. |
 
-> Note: When specifying multiple workloads and components, you must repeat the `--add` or `--remove` command-line switch for each item.
+> [!IMPORTANT]
+> When specifying multiple workloads and components, you must repeat the `--add` or `--remove` command-line switch for each item.
 
 | **Layout options** | **Description** |
 | ----------------------- | --------------- |

@@ -1,6 +1,6 @@
 ---
-title: "Debug a Node.js app"
-description: Visual Studio provides support for debugging Node.js applications in Visual Studio
+title: "Debug a JavaScript or TypeScript app"
+description: Visual Studio provides support for debugging JavaScript and TypeScript apps in Visual Studio
 ms.date: "12/03/2018"
 ms.topic: "conceptual"
 ms.devlang: javascript
@@ -13,9 +13,12 @@ ms.workload:
   - "nodejs"
 ---
 
-# Debug a Node.js app in Visual Studio
+# Debug a JavaScript or TypeScript app in Visual Studio
 
 You can debug JavaScript and TypeScript code using Visual Studio. You can set and hit breakpoints, attach the debugger, inspect variables, view the call stack, and use other debugging features.
+
+> [!TIP]
+> If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free. Depending on the type of app development you're doing, you may need to install the **Node.js development workload** with Visual Studio.
 
 ## Debug server-side script
 

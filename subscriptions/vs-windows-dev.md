@@ -55,7 +55,7 @@ We recommend that you create a "private" browser window for this process.  For e
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure                                       | Not available                                                           |NA|
 
 <sup>1</sup>  *Includes:  Not for Resale (NFR), FTE, Visual Studio Industry Partner (VSIP), BizSpark, MCT Software & Services Developer.
-Excludes:  Microsoft Partner Network (MPN), Imagine, Microsoft Valued Professional (MVP), Region Director (RD), MCT Software & Services.*
+Excludes:  Microsoft Partner Network (MPN), Imagine, Most Valuable Professional (MVP), Regional Director (RD), MCT Software & Services.*
 
 
 > [!NOTE]

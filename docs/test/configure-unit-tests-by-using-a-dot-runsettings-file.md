@@ -71,7 +71,7 @@ The following XML shows the contents of a typical *.runsettings* file. Each elem
     <ResultsDirectory>.\TestResults</ResultsDirectory>
 
     <!-- x86 or x64 -->
-    <!-- You can also change it from menu Test > Test Settings > Default Processor Architecture -->
+    <!-- You can also change it from the top-level menu Test > Test Settings > Processor Architecture for AnyCPU Projects -->
     <TargetPlatform>x86</TargetPlatform>
 
     <!-- Framework35 | [Framework40] | Framework45 -->

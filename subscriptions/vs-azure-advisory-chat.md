@@ -41,7 +41,7 @@ Using the Azure Advisory Chat is easy.
 |                                                  MSDN Platforms (Standard)                                                   |        All        | Not available |     No     |
 |                                                 Visual Studio Dev Essentials                                                 |        N/A        | Not available |     No     |
 
-<sup>1</sup>  *Includes:  Not for Resale (NFR), Microsoft Valued Professional (MVP), Region Director (RD), Visual Studio Industry Partner (VSIP), BizSpark, Imagine, MCT*
+<sup>1</sup>  *Includes:  Not for Resale (NFR), Most Valuable Professional (MVP), Regional Director (RD), Visual Studio Industry Partner (VSIP), BizSpark, Imagine, MCT*
 
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.

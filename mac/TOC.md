@@ -1,9 +1,9 @@
-# [Introducing Visual Studio for Mac](index.md)
-# [IDE Tour](ide-tour.md)
+# [Visual Studio for Mac](index.md)
+# [IDE Tour](/visualstudio/mac/ide-tour/)
 
-# [Installation](installation.md)
+# [Installation](/visualstudio/mac/installation/)
 ## [Install and use behind a firewall or proxy](install-behind-a-firewall-or-proxy-server.md)
-## [Install a Preview release](install-preview.md)
+## [Install a preview release](install-preview.md)
 ## [Update](update.md)
 ## [Uninstall](uninstall.md)
 
@@ -65,6 +65,7 @@
 ### [Using Unity Tools](using-vsmac-tools-unity.md)
 ### [Using .NET 4.x in Unity](/visualstudio/cross-platform/unity-scripting-upgrade/?context=visualstudio/mac/context)
 ### [Change Log](/visualstudio/cross-platform/change-log-visual-studio-tools-for-unity-mac/?context=visualstudio/mac/context)
+## [Mobile apps with Xamarin](/xamarin/)
 
 # [Accessibility](accessibility.md)
 
