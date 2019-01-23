@@ -140,7 +140,7 @@ ms.custom: seodec18
                                                                 <li>
                                                                     <a class="barLink" href="/visualstudio/javascript/">
                                                                         <img src="https://docs.microsoft.com/media/logos/logo_js.svg" alt="JavaScript logo">
-                                                                        Node.js</a>
+                                                                        JavaScript</a>
                                                                 </li>
                                                             </ul>
                                                         </td>
