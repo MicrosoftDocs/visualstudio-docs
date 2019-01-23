@@ -1,14 +1,9 @@
 ---
 title: "Accessibility Products and Services from Microsoft | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 helpviewer_keywords: 
   - "TTY/TDD services"
   - "documentation, recorded documentation"
@@ -23,7 +18,7 @@ ms.assetid: ef3c6247-9f59-4ef4-aa8b-a8922b3e0943
 caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Accessibility Products and Services from Microsoft
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -81,9 +76,3 @@ Microsoft is committed to making its products and services easier for everyone t
 ## See Also  
  [Resources for Designing Accessible Applications](../../ide/reference/resources-for-designing-accessible-applications.md)   
  [Accessibility Features of Visual Studio](../../ide/reference/accessibility-features-of-visual-studio.md)
-
-
-
-
-
-

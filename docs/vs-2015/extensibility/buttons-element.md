@@ -1,21 +1,16 @@
 ---
 title: "Buttons Element | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 helpviewer_keywords: 
   - "Buttons element (VSCT XML schema)"
   - "VSCT XML schema elements, Buttons"
 ms.assetid: 9f2cf94d-dec5-4776-a836-9a89c75f0c87
 caps.latest.revision: 13
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Buttons Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -70,4 +65,3 @@ Groups [Button](../extensibility/button-element.md) elements, which represent in
 ## See Also  
  [How VSPackages Add User Interface Elements](../extensibility/internals/how-vspackages-add-user-interface-elements.md)   
  [Commands, Menus, and Toolbars](../extensibility/internals/commands-menus-and-toolbars.md)
-

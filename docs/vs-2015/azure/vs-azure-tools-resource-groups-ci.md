@@ -2,7 +2,7 @@
 title: Continuous integration in Azure DevOps Services using Azure Resource Group projects | Microsoft Docs
 description: Describes how to set up continuous integration in Azure DevOps Services by using Azure Resource Group deployment projects in Visual Studio.
 author: mlearned
-manager: douge
+manager: jillfra
 ms.assetid: b81c172a-be87-4adc-861e-d20b94be9e38
 ms.service: azure-resource-manager
 ms.topic: article

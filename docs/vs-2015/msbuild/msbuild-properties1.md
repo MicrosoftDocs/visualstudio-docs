@@ -1,21 +1,16 @@
 ---
 title: "MSBuild Properties1 | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: reference
 helpviewer_keywords: 
   - "MSBuild, properties"
 ms.assetid: 962912ac-8931-49bf-a88c-0200b6e37362
 caps.latest.revision: 35
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # MSBuild Properties1
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -147,5 +142,3 @@ msbuild.exe MyProj.proj /p:Configuration=DEBUG
  [How to: Build the Same Source Files with Different Options](../msbuild/how-to-build-the-same-source-files-with-different-options.md)   
  [MSBuild Reserved and Well-Known Properties](../msbuild/msbuild-reserved-and-well-known-properties.md)   
  [Property Element (MSBuild)](../msbuild/property-element-msbuild.md)
-
-

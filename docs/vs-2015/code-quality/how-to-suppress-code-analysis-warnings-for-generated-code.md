@@ -1,14 +1,9 @@
 ---
 title: "How to: Suppress Code Analysis Warnings for Generated Code | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 ms.assetid: 3a96434e-d419-43a7-81ba-95cccac835b8
 caps.latest.revision: 7
 author: gewarren
@@ -34,6 +29,3 @@ Managed code compilers often generate code that is added to a project to facilit
 2.  Click **Code Analysis**.  
   
 3.  Select the **Suppress results from generated code** check box.
-
-
-

@@ -1,19 +1,14 @@
 ---
 title: "Creating Basic Profiling Reports from the Command Line | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 ms.assetid: 6d73e21e-c04e-48ea-91cc-e517a5f2cd3f
 caps.latest.revision: 14
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Creating Basic Profiling Reports from the Command Line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -53,6 +48,3 @@ This topic describes the basic VSPerfReport commands that generate comma-separat
 |**Contention**|Resource contentions.|-   [Resource Contentions](../profiling/resource-contentions-view-contention-data.md)|  
 |**RuleWarnings**|Lists performance rule issues.|-   Lists the CheckId, description, and source code location of the rule issue.|  
 |**ETW**|Lists Event Tracing for Windows (ETW) events collected in the profiling run.|-   [ETW Report](../profiling/event-tracing-for-windows-etw-report.md)|
-
-
-

@@ -1,14 +1,9 @@
 ---
 title: "&lt;Strings&gt; Element (Bootstrapper) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 f1_keywords: 
   - "MSBuild.GenerateBootstrapper.NoStringsForCulture"
   - "MSBuild.GenerateBootstrapper.ProductCultureNotFound"
@@ -23,7 +18,7 @@ ms.assetid: d5ea3613-5fc9-4a11-bef3-46a01178bf60
 caps.latest.revision: 6
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # &lt;Strings&gt; Element (Bootstrapper)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -77,6 +72,3 @@ Defines localized strings for product names, package names, and installation err
   
 ## See Also  
  [\<Package> Element](../deployment/package-element-bootstrapper.md)
-
-
-

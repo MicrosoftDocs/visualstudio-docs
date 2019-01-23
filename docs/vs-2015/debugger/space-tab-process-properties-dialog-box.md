@@ -1,21 +1,16 @@
 ---
 title: "Space Tab, Process Properties Dialog Box | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Process properties for Windows NT"
 ms.assetid: c4de1866-7447-48f7-aa88-28ad92c0b930
 caps.latest.revision: 7
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Space Tab, Process Properties Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,6 +30,3 @@ Use the **Space** tab to examine the address space of a process. To display the 
 |**Read-Only Bytes**|For the selected category, the sum of all the address space that can be executed as well as read.|  
 |**Read-Write Bytes**|For the selected category, the sum of all the address space that allows reading and writing.|  
 |**Write-Copy Bytes**|For the selected category, the sum of all the address space that allows memory sharing for reading but not for writing. When processes are reading this memory, they can share the same memory. However, when a sharing process wants to have read/write access to this shared memory, a copy of that memory is made for writing.|
-
-
-

@@ -1,14 +1,9 @@
 ---
 title: "DA0505: Average Private Bytes allocated for the Process being profiled | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 f1_keywords: 
   - "vs.performance.DA0505"
   - "vs.performance.rules.DA0505"
@@ -17,7 +12,7 @@ ms.assetid: 32c612ea-d077-44ba-8e6f-3a96333bad00
 caps.latest.revision: 13
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # DA0505: Average Private Bytes allocated for the Process being profiled
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,6 +38,3 @@ Rule Id|DA0505|
   
 ## How to Use Rule Data  
  Use the reported value to compare the performance of different versions or builds of the program or to understand the performance of the application under different profiling scenarios.
-
-
-

@@ -1,14 +1,9 @@
 ---
 title: "IDebugProperty3::GetStringCharLength | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugProperty3::GetStringCharLength"
 helpviewer_keywords: 
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 89a8676b-6da9-4358-91c2-039bf33f99e4
 caps.latest.revision: 10
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # IDebugProperty3::GetStringCharLength
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -95,4 +90,3 @@ STDMETHODIMP CProperty::GetStringCharLength(ULONG *pLen)
 ## See Also  
  [GetStringChars](../../../extensibility/debugger/reference/idebugproperty3-getstringchars.md)   
  [IDebugProperty3](../../../extensibility/debugger/reference/idebugproperty3.md)
-

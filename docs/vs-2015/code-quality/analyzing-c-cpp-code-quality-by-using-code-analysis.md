@@ -1,14 +1,9 @@
 ---
 title: "Analyzing C-C++ Code Quality by Using Code Analysis | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 helpviewer_keywords: 
   - "C/C++, code analysis"
   - "code analysis, running"
@@ -21,7 +16,7 @@ ms.assetid: 03b8b47a-e9d8-4692-835f-2d22ec6c76a4
 caps.latest.revision: 37
 author: mikeblome
 ms.author: mblome
-manager: "ghogen"
+manager: jillfra
 ---
 # Analyzing C/C++ Code Quality by Using Code Analysis
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -45,6 +40,3 @@ You can improve your C/C++ code by using the code analysis in Visual Studio to f
 ## See Also  
  [Analyzing Application Quality](../code-quality/analyzing-application-quality-by-using-code-analysis-tools.md)   
  [Analyzing Managed Code Quality](../code-quality/analyzing-managed-code-quality-by-using-code-analysis.md)
-
-
-

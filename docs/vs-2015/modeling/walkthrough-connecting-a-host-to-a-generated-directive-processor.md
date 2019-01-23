@@ -1,12 +1,9 @@
 ---
 title: "Walkthrough: Connecting a Host to a Generated Directive Processor | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "walkthroughs [text templates], connecting host to processor"
   - "text templates, custom directive hosts"
@@ -14,7 +11,7 @@ ms.assetid: 254540d9-90d6-42de-8c1c-068affd56e83
 caps.latest.revision: 49
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Walkthrough: Connecting a Host to a Generated Directive Processor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -357,6 +354,3 @@ You can write your own host that processes text templates. A basic custom host i
   
 ## See Also  
  [Walkthrough: Creating a Custom Text Template Host](../modeling/walkthrough-creating-a-custom-text-template-host.md)
-
-
-

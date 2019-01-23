@@ -1,13 +1,9 @@
 ---
 title: "CA1724: Type Names Should Not Match Namespaces | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "TypeNamesShouldNotMatchNamespaces"
   - "CA1724"

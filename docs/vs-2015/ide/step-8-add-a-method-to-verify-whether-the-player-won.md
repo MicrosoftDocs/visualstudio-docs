@@ -1,19 +1,14 @@
 ---
 title: "Step 8: Add a Method to Verify Whether the Player Won | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 ms.assetid: 6e317f6e-ba4c-4306-8924-300b0c2f65c6
 caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Step 8: Add a Method to Verify Whether the Player Won
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,6 +39,3 @@ Matching game with MessageBox
 -   To go to the next tutorial step, see [Step 9: Try Other Features](../ide/step-9-try-other-features.md).  
   
 -   To return to the previous tutorial step, see [Step 7: Keep Pairs Visible](../ide/step-7-keep-pairs-visible.md).
-
-
-

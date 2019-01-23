@@ -2,7 +2,7 @@
 title: How to retain a constant virtual IP address for an Azure cloud service | Microsoft Docs
 description: Learn how to ensure that the virtual IP address (VIP) of your Azure cloud service doesn't change.
 author: ghogen
-manager: douge
+manager: jillfra
 assetId: 4a58e2c6-7a79-4051-8a2c-99182ff8b881
 ms.prod: visual-studio-dev14
 ms.technology: vs-azure
@@ -49,4 +49,3 @@ You can specify deployment settings in the **Publish Wizard**, which supports se
 
 ## Next steps
 - [Using the Visual Studio Publish Azure Application Wizard](vs-azure-tools-publish-azure-application-wizard.md)
-

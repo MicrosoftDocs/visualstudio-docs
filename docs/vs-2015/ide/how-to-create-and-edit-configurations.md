@@ -1,14 +1,9 @@
 ---
 title: "How to: Create and Edit Configurations | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "solution build configurations, editing"
   - "build configurations, creating"
@@ -23,7 +18,7 @@ ms.assetid: 19be121c-148e-4ece-bbfc-d20b08cfc3f7
 caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Create and Edit Configurations
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -52,7 +47,7 @@ You can create several build configurations for a solution. For example, you can
   
      The  **Property Pages** window opens.  
   
-     You can set properties for your configurations. For example, for a Release configuration, you can specify that code is optimized when the solution is built, and for a Debug configuration, you can specify that the `DEBUG` conditional compilation symbol is included. For more information about property page settings, see [Introduction to the Project Designer](http://msdn.microsoft.com/en-us/898dd854-c98d-430c-ba1b-a913ce3c73d7).  
+     You can set properties for your configurations. For example, for a Release configuration, you can specify that code is optimized when the solution is built, and for a Debug configuration, you can specify that the `DEBUG` conditional compilation symbol is included. For more information about property page settings, see [Introduction to the Project Designer](http://msdn.microsoft.com/898dd854-c98d-430c-ba1b-a913ce3c73d7).  
   
 ## Creating and Modifying Project Configurations  
   
@@ -125,7 +120,4 @@ You can create several build configurations for a solution. For example, you can
 ## See Also  
  [Understanding Build Configurations](../ide/understanding-build-configurations.md)   
  [Building and Cleaning Projects and Solutions in Visual Studio](../ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md)   
- [NIB How to: Modify Project Properties and Configuration Settings](http://msdn.microsoft.com/en-us/e7184bc5-2f2b-4b4f-aa9a-3ecfcbc48b67)
-
-
-
+ [NIB How to: Modify Project Properties and Configuration Settings](http://msdn.microsoft.com/e7184bc5-2f2b-4b4f-aa9a-3ecfcbc48b67)

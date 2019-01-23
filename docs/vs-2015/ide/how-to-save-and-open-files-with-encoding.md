@@ -1,14 +1,9 @@
 ---
 title: "How to: Save and Open Files with Encoding | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Unicode, bi-directional language support"
   - "files, encoding"
@@ -18,7 +13,7 @@ ms.assetid: cb52b732-b395-4ba1-a3ef-104b3942a12a
 caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Save and Open Files with Encoding
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -60,4 +55,3 @@ You can save files with specific character encoding to support bi-directional la
 ## See Also  
  [Encoding and Windows Forms Globalization](http://msdn.microsoft.com/library/22e8965d-a712-42b3-8167-3ee346bd70f9)   
  [Globalizing and Localizing Applications](../ide/globalizing-and-localizing-applications.md)
-

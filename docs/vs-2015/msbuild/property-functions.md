@@ -1,21 +1,16 @@
 ---
 title: "Property Functions | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 helpviewer_keywords: 
   - "MSBuild, property functions"
 ms.assetid: 2253956e-3ae0-4bdc-9d3a-4881dfae4ddb
 caps.latest.revision: 35
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Property Functions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -335,5 +330,3 @@ Output:
 ## See Also
 [MSBuild Properties](msbuild-properties1.md)   
 [MSBuild Overview](msbuild.md)
-
-

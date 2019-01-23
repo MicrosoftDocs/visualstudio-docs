@@ -1,21 +1,16 @@
 ---
 title: "Support for State Persistence | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "devlang-csharp"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "state persistence, managed package framework support"
   - "managed package framework, state persistence support"
   - "state, persistence"
 ms.assetid: d25866f2-8d1f-477f-8aa5-3af3fbbf6e97
 caps.latest.revision: 15
-manager: "douge"
+manager: jillfra
 ---
 # Support for State Persistence
 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] can maintain the state of common objects. For example, solution and project properties are saved to and restored from solution and project files. User settings can be exported to and imported from settings files.  

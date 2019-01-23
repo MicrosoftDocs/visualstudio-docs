@@ -1,14 +1,9 @@
 ---
 title: "-Command (devenv.exe) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 helpviewer_keywords: 
   - "Devenv, /command switch"
   - "/command Devenv switch"
@@ -16,7 +11,7 @@ ms.assetid: 13c20cd6-f09d-400a-8b7b-ecc266a32cef
 caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # /Command (devenv.exe)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -49,6 +44,3 @@ devenv /command "Macros.MyMacros.Module1.OpenFavoriteFiles"
 ## See Also  
  [Devenv Command Line Switches](../../ide/reference/devenv-command-line-switches.md)   
  [Visual Studio Command Aliases](../../ide/reference/visual-studio-command-aliases.md)
-
-
-

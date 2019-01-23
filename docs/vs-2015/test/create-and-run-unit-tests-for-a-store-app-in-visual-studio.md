@@ -2,7 +2,7 @@
 title: "Create and run unit tests for a Store app"
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.technology: vs-ide-general
+ms.technology: vs-ide-test
 ms.topic: conceptual
 helpviewer_keywords:
   - "unit tests"
@@ -10,7 +10,7 @@ ms.assetid: d3de7b31-0262-4373-ba84-e74eda7651e4
 caps.latest.revision: 28
 author: "alexhomer1"
 ms.author: gewarren
-manager: "robinr"
+manager: jillfra
 ---
 # Create and run unit tests for a Store app in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

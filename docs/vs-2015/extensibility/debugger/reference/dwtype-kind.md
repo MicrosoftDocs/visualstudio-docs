@@ -1,14 +1,9 @@
 ---
 title: "dwTYPE_KIND | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "dwTYPE_KIND"
 helpviewer_keywords: 
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 6ff56b0f-c502-4e6c-9829-bfa05361b783
 caps.latest.revision: 9
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # dwTYPE_KIND
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -70,4 +65,3 @@ public enum enum_dwTYPE_KIND {
  [METADATA_TYPE](../../../extensibility/debugger/reference/metadata-type.md)   
  [PDB_TYPE](../../../extensibility/debugger/reference/pdb-type.md)   
  [BUILT_TYPE](../../../extensibility/debugger/reference/built-type.md)
-

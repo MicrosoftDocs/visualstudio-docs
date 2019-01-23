@@ -1,14 +1,9 @@
 ---
 title: "Code Access Security for ClickOnce Applications | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 f1_keywords: 
   - "vb.XBAPProjectPropertiesSecurity.HowTo"
   - "vb.XBAProjectPropertiesSecurity.HowTo"
@@ -28,7 +23,7 @@ ms.assetid: 04b104d0-0bd3-4ccb-b164-1de92d234487
 caps.latest.revision: 33
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # Code Access Security for ClickOnce Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -100,6 +95,3 @@ ClickOnce applications are based on the .NET Framework and are subject to code a
  [How to: Debug a ClickOnce Application with Restricted Permissions](../deployment/how-to-debug-a-clickonce-application-with-restricted-permissions.md)   
  [Trusted Application Deployment Overview](../deployment/trusted-application-deployment-overview.md)   
  [Security Page, Project Designer](../ide/reference/security-page-project-designer.md)
-
-
-

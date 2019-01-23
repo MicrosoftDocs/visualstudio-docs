@@ -1,14 +1,9 @@
 ---
 title: "MSBuild Tasks | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: reference
 helpviewer_keywords: 
   - "tasks"
   - "MSBuild, tasks"
@@ -16,7 +11,7 @@ ms.assetid: 5d3cc4a7-e5db-4f73-b707-8b6882fddcf8
 caps.latest.revision: 21
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # MSBuild Tasks
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -72,5 +67,3 @@ A build platform needs the ability to execute any number of actions during the b
  [MSBuild](msbuild.md)   
  [Task Writing](../msbuild/task-writing.md)   
  [Inline Tasks](../msbuild/msbuild-inline-tasks.md)
-
-

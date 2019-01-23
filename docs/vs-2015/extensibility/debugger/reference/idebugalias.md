@@ -1,14 +1,9 @@
 ---
 title: "IDebugAlias | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugAlias"
 helpviewer_keywords: 
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 3cc4c9a4-7805-4239-b00e-eb4a024f3c55
 caps.latest.revision: 15
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # IDebugAlias
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -63,4 +58,3 @@ IDebugAlias : IUnknown
  [CreateAlias](../../../extensibility/debugger/reference/idebugobject2-createalias.md)   
  [FindAlias](../../../extensibility/debugger/reference/idebugbinder3-findalias.md)   
  [GetAllAliases](../../../extensibility/debugger/reference/idebugbinder3-getallaliases.md)
-

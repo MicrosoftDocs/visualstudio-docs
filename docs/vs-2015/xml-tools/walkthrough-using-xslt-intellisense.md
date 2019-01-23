@@ -1,19 +1,14 @@
 ---
 title: "Walkthrough: Using XSLT IntelliSense | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: 079d95ac-2eaf-4ae1-9cd3-2c81a961a942
 caps.latest.revision: 7
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Walkthrough: Using XSLT IntelliSense
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -164,6 +159,3 @@ This walkthrough demonstrates how to use XSLT IntelliSense to auto-complete valu
   
 ## See Also  
  [XML Editor IntelliSense Features](../xml-tools/xml-editor-intellisense-features.md)
-
-
-

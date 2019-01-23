@@ -1,14 +1,9 @@
 ---
 title: "Adding Command-Line Switches | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "command-line switches, adding"
   - "command-line switches, retrieving"
@@ -17,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: 8bbbd87e-76fe-4fb5-8ef9-65f5e31967cf
 caps.latest.revision: 22
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Adding Command-Line Switches
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -81,4 +76,3 @@ cmdline.GetOption("MySwitch", out isPresent, out optionValue);
  [Devenv Command Line Switches](../ide/reference/devenv-command-line-switches.md)   
  [CreatePkgDef Utility](../extensibility/internals/createpkgdef-utility.md)   
  [.Pkgdef Files](../extensibility/modifying-the-isolated-shell-by-using-the-dot-pkgdef-file.md)
-

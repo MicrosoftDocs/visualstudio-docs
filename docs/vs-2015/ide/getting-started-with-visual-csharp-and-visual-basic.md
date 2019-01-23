@@ -1,13 +1,8 @@
 ---
 title: "Getting Started with Visual C# and Visual Basic | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
+ms.technology: "vs-ide-general"
 ms.topic: conceptual
 helpviewer_keywords: 
   - "C# tutorial"
@@ -20,7 +15,7 @@ ms.assetid: d57bb19f-58d6-48cc-96cb-ab1c540a25d0
 caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Getting Started with Visual C# and Visual Basic
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,6 +36,3 @@ Whether you are new to Visual C# or Microsoft Visual Basic, this is the place to
   
  [Tutorial 3: Create a Matching Game](../ide/tutorial-3-create-a-matching-game.md)  
  Build a matching game, where the player must match pairs of hidden icons. Learn how to hold objects using a `List` object, use a `foreach` loop, keep track of a form's state using reference variables, build an event handler that you can use with multiple objects, and make a timer fire exactly once when started.
-
-
-

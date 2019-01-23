@@ -1,20 +1,15 @@
 ---
 title: "TASK_STATE_RAN_TO_COMPLETION Field | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "TASK_STATE_RAN_TO_COMPLETION field, Task class [.NET Framework debug engines]"
 ms.assetid: 0f4830af-fe0c-4141-b768-817f4e426b8c
 caps.latest.revision: 9
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # TASK_STATE_RAN_TO_COMPLETION Field
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -38,4 +33,3 @@ The task completed execution successfully.
   
 ## See Also  
  [Task Class](../../extensibility/debugger/task-class-internal-members.md)
-

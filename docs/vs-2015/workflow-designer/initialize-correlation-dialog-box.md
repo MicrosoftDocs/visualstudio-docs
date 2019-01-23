@@ -1,11 +1,8 @@
 ---
 title: "Initialize Correlation Dialog Box | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: ".net-framework-4.6"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: "reference"
 f1_keywords: 
   - "InitializeCorrelation.UI"
@@ -13,7 +10,7 @@ ms.assetid: 2a0a1cd3-7b9e-493e-9264-fcf85289ffcf
 caps.latest.revision: 6
 author: gewarren
 ms.author: gewarren
-manager: "erikre"
+manager: jillfra
 ---
 # Initialize Correlation Dialog Box
 The **Initialize Correlation** dialog box is used in [!INCLUDE[wfd1](../includes/wfd1-md.md)] to edit the <xref:System.ServiceModel.Activities.InitializeCorrelation.CorrelationData%2A> property of an <xref:System.ServiceModel.Activities.InitializeCorrelation> activity. [!INCLUDE[crdefault](../includes/crdefault-md.md)] the [InitializeCorrelation](../workflow-designer/initializecorrelation-activity-designer.md) topic.  

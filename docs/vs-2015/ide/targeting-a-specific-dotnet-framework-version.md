@@ -1,14 +1,9 @@
 ---
 title: "Targeting a Specific .NET Framework Version | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "targeting .NET Framework version [Visual Studio]"
   - "versions [Visual Studio], targeting .NET Framework version"
@@ -18,7 +13,7 @@ ms.assetid: 91e77ad4-4da3-419d-85fb-9036f0e5c330
 caps.latest.revision: 29
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Targeting a Specific .NET Framework Version
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -46,6 +41,3 @@ In Visual Studio, you can specify the version or profile of the .NET Framework t
   
  [How to: Modify the Target Framework and Platform Toolset](http://msdn.microsoft.com/library/031b1d54-e6e1-4da7-9868-3e75a87d9ffe)  
  Describes how to change settings for Visual C++ projects to target different versions of the .NET Framework and to use different platform toolsets.
-
-
-

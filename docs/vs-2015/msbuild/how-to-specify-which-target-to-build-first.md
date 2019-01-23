@@ -1,14 +1,9 @@
 ---
 title: "How to: Specify Which Target to Build First | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 helpviewer_keywords: 
   - "DefaultTargets attribute [MSBuild]"
   - "MSBuild, specifying the defalut target"
@@ -17,7 +12,7 @@ ms.assetid: a580ba5b-2919-42d2-ae38-1af991e0205a
 caps.latest.revision: 20
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Specify Which Target to Build First
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -78,5 +73,3 @@ A project file can contain one or more `Target` elements that define how the pro
   [MSBuild](msbuild.md)  
  [Targets](../msbuild/msbuild-targets.md)   
  [How to: Clean a Build](../msbuild/how-to-clean-a-build.md)
-
-

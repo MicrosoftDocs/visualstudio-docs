@@ -1,11 +1,8 @@
 ---
 title: "Rule Set Editor Dialog Box (Legacy) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: ".net-framework-4.6"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: "reference"
 f1_keywords: 
   - "System.Workflow.Activities.Rules.Design.RuleSetDialog.UI"
@@ -15,7 +12,7 @@ ms.assetid: 7cfd5df1-1115-4e5c-9b72-121f39419e83
 caps.latest.revision: 7
 author: gewarren
 ms.author: gewarren
-manager: "erikre"
+manager: jillfra
 ---
 # Rule Set Editor Dialog Box (Legacy)
 This topic describes how use the **Rule Set Editor** dialog box in the legacy [!INCLUDE[wfd1](../includes/wfd1-md.md)]. Use the legacy [!INCLUDE[wfd2](../includes/wfd2-md.md)] when you need to target either the [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)] or the [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)].  
@@ -73,7 +70,7 @@ This topic describes how use the **Rule Set Editor** dialog box in the legacy [!
   
   Expression operator precedence follows C# operator precedence rules.  
   
-  For more information about conditions, see [Using Conditions in Workflows](http://msdn.microsoft.com/en-us/541211f5-d382-4810-894f-71f00b34fa77).  
+  For more information about conditions, see [Using Conditions in Workflows](http://msdn.microsoft.com/541211f5-d382-4810-894f-71f00b34fa77).  
   
 ### Halt and Update Functions  
  **Then Actions:** and **Else Actions:** expressions support **Halt** and **Update** functions. To use the **Halt** function, type **Halt** into a **Then Action:** or **Else Action:** text box. The **Halt** action causes rule set execution to stop immediately, and control returns to the calling code. You use the **Update** function with forward chaining.  

@@ -1,14 +1,9 @@
 ---
 title: "Making Commands Available | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "menus [Visual Studio SDK], commands"
   - "best practices, menu and toolbar commands"
@@ -17,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: 3ffc4312-c6db-4759-a946-a4bb85f4a17a
 caps.latest.revision: 36
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Making Commands Available
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -150,4 +145,3 @@ When multiple VSPackages are added to Visual Studio, the user interface (UI) may
  [How VSPackages Add User Interface Elements](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)   
  [Command Routing in VSPackages](../../extensibility/internals/command-routing-in-vspackages.md)   
  [Dynamically Adding Menu Items](../../extensibility/dynamically-adding-menu-items.md)
-

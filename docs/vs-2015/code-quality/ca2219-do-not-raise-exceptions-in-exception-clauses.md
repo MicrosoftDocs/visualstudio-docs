@@ -1,13 +1,9 @@
 ---
 title: "CA2219: Do not raise exceptions in exception clauses | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "DoNotRaiseExceptionsInExceptionClauses"
   - "CA2219"

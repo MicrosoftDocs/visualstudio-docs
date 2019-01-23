@@ -1,14 +1,9 @@
 ---
 title: "Using IntelliSense | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 f1_keywords: 
   - "vc.tools.intellisense"
 helpviewer_keywords: 
@@ -29,7 +24,7 @@ ms.assetid: 9fdb489b-8b46-4b92-9ccc-c8f8cc184081
 caps.latest.revision: 33
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Using IntelliSense
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -105,6 +100,3 @@ MessageBox( hWnd, "String literal|") )
  [Visual C# IntelliSense](../ide/visual-csharp-intellisense.md)   
  [JavaScript IntelliSense](../ide/javascript-intellisense.md)   
  [Supplying XML Code Comments](../ide/supplying-xml-code-comments.md)
-
-
-

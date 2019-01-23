@@ -1,19 +1,14 @@
 ---
 title: "Step 1: Create a Windows Forms Application Project | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 ms.assetid: 16ac2422-e720-4e3a-b511-bc2a54201a86
 caps.latest.revision: 24
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Step 1: Create a Windows Forms Application Project
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -72,6 +67,3 @@ Save All toolbar button
 -   To go to the next tutorial step, see [Step 2: Run Your Program](../ide/step-2-run-your-program.md).  
   
 -   To return to the overview topic, see [Tutorial 1: Create a Picture Viewer](../ide/tutorial-1-create-a-picture-viewer.md).
-
-
-

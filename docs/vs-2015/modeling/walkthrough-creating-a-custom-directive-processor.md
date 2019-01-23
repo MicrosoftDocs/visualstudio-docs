@@ -1,12 +1,9 @@
 ---
 title: "Walkthrough: Creating a Custom Directive Processor | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "text templates, custom directive processors"
   - "walkthroughs [text templates], directive processor"
@@ -14,7 +11,7 @@ ms.assetid: b8f35a36-14e1-4467-8f5f-e01402af14d5
 caps.latest.revision: 76
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Walkthrough: Creating a Custom Directive Processor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -969,6 +966,3 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\*.0\TextTemplatin
 3.  To view the output in a browser, in **Solution Explorer**, right-click TestDP.htm, and click **View In Browser**.  
 
      Your output should be the same as the original text except it should have the HTML format applied. Each item name should appear in bold.
-
-
-

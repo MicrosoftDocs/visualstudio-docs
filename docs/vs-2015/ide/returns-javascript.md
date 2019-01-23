@@ -1,14 +1,9 @@
 ---
 title: "&lt;returns&gt; (JavaScript) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "returns JavaScript XML tag"
   - "<returns> JavaScript XML tag"
@@ -16,7 +11,7 @@ ms.assetid: 10d97829-c0ae-40a5-b04c-d8b538cdefbc
 caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # &lt;returns&gt; (JavaScript)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -113,6 +108,3 @@ calculate().  // Completion list for a Number.
   
 ## See Also  
  [XML Documentation Comments](../ide/xml-documentation-comments-javascript.md)
-
-
-

@@ -1,12 +1,9 @@
 ---
 title: "Working with a Conceptual Model (WCF Data Services) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -20,7 +17,7 @@ ms.assetid: 2cd873cf-b010-49f2-a278-bb1277aaa934
 caps.latest.revision: 12
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Working with a Conceptual Model (WCF Data Services)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -53,4 +50,3 @@ When you use a conceptual model to describe the data in a database, you can quer
 ## See Also  
  [Windows Communication Foundation Services and WCF Data Services in Visual Studio](../data-tools/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md)   
  [Querying the Data Service](http://msdn.microsoft.com/library/823e9444-27aa-4f1f-be8e-0486d67f54c0)
-

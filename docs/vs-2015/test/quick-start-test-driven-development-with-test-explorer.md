@@ -1,18 +1,13 @@
 ---
 title: "Quick Start: Test Driven Development with Test Explorer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 ms.assetid: 5161b533-2127-4172-b473-d4ffc76ff05b
 caps.latest.revision: 17
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Quick Start: Test Driven Development with Test Explorer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -287,6 +282,3 @@ We recommend that you create unit tests to help keep your code working correctly
      All the tests still pass.  
   
      ![Unit Test Explorer showing 3 passed tests.](../test/media/unittestexplorerwalkthrough4.png "UnitTestExplorerWalkthrough4")
-
-
-

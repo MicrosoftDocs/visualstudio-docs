@@ -1,11 +1,8 @@
 ---
 title: "Sequential Workflow Views (Legacy) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: ".net-framework-4.6"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: "reference"
 helpviewer_keywords: 
   - "sequential workflow views"
@@ -14,7 +11,7 @@ ms.assetid: 135f24b9-1b37-442b-9ef8-f0f2108a3212
 caps.latest.revision: 7
 author: gewarren
 ms.author: gewarren
-manager: "erikre"
+manager: jillfra
 ---
 # Sequential Workflow Views (Legacy)
 [!INCLUDE[vs2010](../includes/vs2010-md.md)] provides a legacy [!INCLUDE[wfd1](../includes/wfd1-md.md)] that can be used to target the [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)] or the [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)].  

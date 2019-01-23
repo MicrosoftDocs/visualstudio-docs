@@ -1,11 +1,7 @@
 ---
 title: "Adding editor support for other languages | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: conceptual
 helpviewer_keywords:
   - "syntax colorization"
   - "IntelliSense"
@@ -18,7 +14,7 @@ ms.assetid: d78c43ee-4ef2-42e5-984e-d137de4e7e92
 caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Adding Visual Studio editor support for other languages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

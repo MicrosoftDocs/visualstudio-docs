@@ -1,21 +1,16 @@
 ---
 title: "Caller-Callee View - NET Memory Instrumentation Data | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Caller/Callee view"
 ms.assetid: da624c06-8741-4afb-aad1-f8c0002f3de2
 caps.latest.revision: 17
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Caller/Callee View - NET Memory Instrumentation Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -110,6 +105,3 @@ The Caller/Callee view of .NET memory profiling data that was collected by using
  [Caller/Callee View - .NET Memory Sampling Data](../profiling/caller-callee-view-dotnet-memory-sampling-data.md)   
  [Caller/Callee View - Instrumentation Data](../profiling/caller-callee-view-instrumentation-data.md)   
  [Caller / Callee View - Sampling Data](../profiling/caller-callee-view-sampling-data.md)
-
-
-

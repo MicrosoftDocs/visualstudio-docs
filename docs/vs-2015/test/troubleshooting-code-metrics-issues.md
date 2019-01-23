@@ -1,19 +1,14 @@
 ---
 title: "Troubleshooting Code Metrics Issues | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: troubleshooting
 ms.assetid: f2fdb995-4888-4246-85dc-7bacadd45968
 caps.latest.revision: 6
 author: "erickson-doug"
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Troubleshooting Code Metrics Issues
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -31,6 +26,3 @@ You might encounter some of the following issues when you collect code metrics:
   
 ## See Also  
  [Measuring Complexity and Maintainability of Managed Code](../code-quality/measuring-complexity-and-maintainability-of-managed-code.md)
-
-
-

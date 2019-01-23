@@ -1,13 +1,8 @@
 ---
 title: "Autos and Locals Windows | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
+ms.technology: "vs-ide-debug"
 ms.topic: conceptual
 f1_keywords: 
   - "vs.debug.autos"
@@ -25,7 +20,7 @@ ms.assetid: bb6291e1-596d-4af0-9f22-5fd713d6b84b
 caps.latest.revision: 29
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Autos and Locals Windows
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -147,8 +142,3 @@ private static int subtractVars(int i, int j)
   
 ## See Also  
  [Debugger Windows](../debugger/debugger-windows.md)
-
-
-
-
-

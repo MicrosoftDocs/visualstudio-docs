@@ -1,17 +1,14 @@
 ---
 title: "T4 CleanUpBehavior directive | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 ms.assetid: 9e5a211f-a3bf-4229-bff0-7d2e45b71c64
 caps.latest.revision: 4
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # T4 CleanUpBehavior directive
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,6 +24,3 @@ To delete the appDomain after processing a text template, include the following 
  This slows text processing, but can be useful to make sure that resources are disposed.  
   
  This directive works only in the Visual Studio host.
-
-
-

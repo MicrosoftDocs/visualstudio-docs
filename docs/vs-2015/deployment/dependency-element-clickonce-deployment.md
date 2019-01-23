@@ -1,14 +1,9 @@
 ---
 title: "&lt;dependency&gt; Element (ClickOnce Deployment) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 f1_keywords: 
   - "urn:schemas-microsoft-com:asm.v2#osVersionInfo"
   - "urn:schemas-microsoft-com:asm.v2#os"
@@ -30,7 +25,7 @@ ms.assetid: 9b4d2082-0347-4922-ac70-85f11b913039
 caps.latest.revision: 29
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # &lt;dependency&gt; Element (ClickOnce Deployment)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -185,6 +180,3 @@ Identifies the version of the application to install, and the location of the ap
 ## See Also  
  [ClickOnce Deployment Manifest](../deployment/clickonce-deployment-manifest.md)   
  [\<dependency> Element](../deployment/dependency-element-clickonce-application.md)
-
-
-

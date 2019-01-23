@@ -1,14 +1,9 @@
 ---
 title: "Manage the Help Viewer Window | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-help-viewer
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Help Viewer 2.0, rearranging the window"
   - "Help Viewer 2.0, restoring the default window layout"
@@ -16,7 +11,7 @@ ms.assetid: 98625016-acce-46c9-9b5a-2107d2939a5e
 caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Manage the Help Viewer Window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,6 +28,3 @@ In the Help Viewer you can customize the window layout.
   
 ## Minimize a Navigation Tab  
  Create more space for viewing topics by choosing the pin icon for the navigation tabs. When these tabs are minimized, only their labels appear on the closest edge of the window. To restore the tabs, choose the label of any tab, and then choose the pin icon again.
-
-
-

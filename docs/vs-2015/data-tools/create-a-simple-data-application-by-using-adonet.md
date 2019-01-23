@@ -1,12 +1,9 @@
 ---
 title: "Create a simple data application by using ADO.NET | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -16,7 +13,7 @@ ms.assetid: 2222841f-e443-4a3d-8c70-4506aa905193
 caps.latest.revision: 46
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Create a simple data application by using ADO.NET
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -1139,4 +1136,3 @@ End Namespace
   
 ##  <a name="BKMK_testyourapplication"></a> Test your application  
  Select the F5 key to build and test your application after you code each Click event handler, and then after you finish coding.
-

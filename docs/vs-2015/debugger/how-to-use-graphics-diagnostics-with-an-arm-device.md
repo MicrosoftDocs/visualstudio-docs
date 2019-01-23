@@ -1,19 +1,14 @@
 ---
 title: "How to: Use Graphics Diagnostics with an ARM Device | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 ms.assetid: 346fd3c0-9e92-4ab8-bb3b-1aa9000a2483
 caps.latest.revision: 12
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Use Graphics Diagnostics with an ARM Device
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -47,6 +42,3 @@ Graphics Diagnostics supports remote debugging of Direct3D apps on ARM-based dev
 ## See Also  
  [Run Windows Store apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md)   
  [How to: Change the Graphics Diagnostics Playback Machine](../debugger/how-to-change-the-graphics-diagnostics-playback-machine.md)
-
-
-

@@ -1,18 +1,13 @@
 ---
 title: "Install third-party unit test frameworks | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 ms.assetid: 47893b70-46f8-49dc-84bd-ec820178f683
 caps.latest.revision: 12
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Install third-party unit test frameworks
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -59,6 +54,3 @@ Visual Studio Test Explorer can run any unit test framework that has developed a
   
 ## See Also  
  [Unit Test Your Code](../test/unit-test-your-code.md)
-
-
-

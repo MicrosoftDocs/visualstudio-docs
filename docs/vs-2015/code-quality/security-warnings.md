@@ -1,14 +1,9 @@
 ---
 title: "Security Warnings | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 f1_keywords: 
   - "vs.codeanalysis.securityrules"
 helpviewer_keywords: 
@@ -84,6 +79,3 @@ Security warnings support safer libraries and applications. These warnings help 
 |[CA3075: Insecure DTD Processing](../code-quality/ca3075-insecure-dtd-processing.md)|If you use insecure DTDProcessing instances or reference external entity sources, the parser may accept untrusted input and disclose sensitive information to attackers.|  
 |[CA3076: Insecure XSLT Script Execution](../code-quality/ca3076-insecure-xslt-script-execution.md)|If you execute Extensible Stylesheets Language Transformations (XSLT) in .NET applications insecurely, the processor may resolve untrusted URI references that could disclose sensitive information to attackers, leading to Denial of Service and Cross-Site attacks.|  
 |[CA3077: Insecure Processing in API Design, XML Document and XML Text Reader](../code-quality/ca3077-insecure-processing-in-api-design-xml-document-and-xml-text-reader.md)|When designing an API derived from XMLDocument and XMLTextReader, be mindful of DtdProcessing.  Using insecure DTDProcessing instances when referencing or resolving external entity sources or setting insecure values in the XML may lead to information disclosure.|
-
-
-

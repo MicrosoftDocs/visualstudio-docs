@@ -1,19 +1,14 @@
 ---
 title: "Diagnose problems after deployment | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 ms.assetid: a3463eab-a352-4d17-8551-adbaad526db0
 caps.latest.revision: 66
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Diagnose problems after deployment
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -369,8 +364,3 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
  ![Debug with untrusted symbols path?](../debugger/media/ffr-ituntrustedsymbolpaths.png "FFR_ITUntrustedSymbolPaths")  
   
  **A:** This message appears when the symbols path in the build manifest file (\<*ProjectName*>.BuildInfo.config) isn't included in the list of trusted symbol paths. You can add the path to the symbols path list in the debugger options.
-
-
-
-
-

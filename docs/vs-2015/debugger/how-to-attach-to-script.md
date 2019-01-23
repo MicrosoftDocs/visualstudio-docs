@@ -1,14 +1,9 @@
 ---
 title: "How to: Attach to Script | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -23,7 +18,7 @@ ms.assetid: 82013e9a-ef53-4fd2-b451-a6891cdc6307
 caps.latest.revision: 26
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Attach to Script
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,7 +31,7 @@ This topic explains how to manually attach the Visual Studio debugger to a scrip
   
 2. In the **Attach to Process** dialog box, look at the **Available Processes** list and find the script process you want to attach to. You can identify script processes by looking at the **Type** column.  
   
-   1.  If the process you want to debug is running on another computer, you must first select the remote computer. For more information, see [How to: Select a Remote Computer](http://msdn.microsoft.com/en-us/4332ba8e-2f0b-4f62-b96a-e762b9f3c3ba).  
+   1.  If the process you want to debug is running on another computer, you must first select the remote computer. For more information, see [How to: Select a Remote Computer](http://msdn.microsoft.com/4332ba8e-2f0b-4f62-b96a-e762b9f3c3ba).  
   
    2.  If the process is running under a different user account, select the **Show processes from all users** check box.  
   
@@ -58,7 +53,7 @@ This topic explains how to manually attach the Visual Studio debugger to a scrip
   
    The **Available Processes** list is displayed automatically when you open the **Processes** dialog box. Processes can start and stop in the background while the dialog box is open. Therefore, the contents might not always be current. You can refresh the list at any time to see the current list of processes by pressing the **Refresh** button.  
   
-   You can be attached to multiple programs when you are debugging, but only one program is active in the debugger at any time. You can set the active program in the Debug Location toolbar. For more information, see [How to: Set the Current Process](http://msdn.microsoft.com/en-us/7e1d7fa5-0e40-44cf-8c41-d3dba31c969e).  
+   You can be attached to multiple programs when you are debugging, but only one program is active in the debugger at any time. You can set the active program in the Debug Location toolbar. For more information, see [How to: Set the Current Process](http://msdn.microsoft.com/7e1d7fa5-0e40-44cf-8c41-d3dba31c969e).  
   
    All **Debug** menu execution commands affect the active program. You can break any debugged program from the Processes dialog box.See [Using Breakpoints](../debugger/using-breakpoints.md).  
   
@@ -72,6 +67,3 @@ This topic explains how to manually attach the Visual Studio debugger to a scrip
  [Attach to Running Processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)   
  [Security Warning: Attaching to a process owned by an untrusted user can be dangerous. If the following information looks suspicious or you are unsure, do not attach to this process](/visualstudio/debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user?view=vs-2015)   
  [Debugger Security](../debugger/debugger-security.md)
-
-
-

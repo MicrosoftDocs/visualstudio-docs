@@ -1,12 +1,9 @@
 ---
 title: "Generating Files with the TextTransform Utility | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "text templates, TextTransform utility"
   - "TextTransform.exe"
@@ -14,7 +11,7 @@ ms.assetid: 06a48235-fe02-403e-a1cf-2ae70b4db62f
 caps.latest.revision: 43
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Generating Files with the TextTransform Utility
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -58,6 +55,3 @@ TextTransform [<options>] <templateName>
 |Generate files in a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] solution.|[Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md)|  
 |Write directive processors to transform your own data sources.|[Customizing T4 Text Transformation](../modeling/customizing-t4-text-transformation.md)|  
 |Write a text templating host that allows you to invoke text templates from your own application.|[Processing Text Templates by using a Custom Host](../modeling/processing-text-templates-by-using-a-custom-host.md)|
-
-
-

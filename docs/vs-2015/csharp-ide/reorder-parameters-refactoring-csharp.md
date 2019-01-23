@@ -1,14 +1,9 @@
 ---
 title: "Reorder Parameters Refactoring (C#) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-general
+ms.topic: reference
 f1_keywords: 
   - "vs.csharp.refactoring.reorder"
 dev_langs: 
@@ -20,7 +15,7 @@ ms.assetid: 4dabf21a-a9f0-41e9-b11b-55760cf2bd90
 caps.latest.revision: 26
 author: gewarren
 ms.author: gewarren
-manager: "wpickett"
+manager: jillfra
 ---
 # Reorder Parameters Refactoring (C#)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

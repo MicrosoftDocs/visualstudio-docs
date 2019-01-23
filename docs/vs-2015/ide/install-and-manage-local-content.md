@@ -1,14 +1,9 @@
 ---
 title: "Install and Manage Local Content | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 f1_keywords: 
   - "hv_manage"
 helpviewer_keywords: 
@@ -28,7 +23,7 @@ ms.assetid: efd9df4c-2e69-4c50-992c-9678a8d8cf19
 caps.latest.revision: 27
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Install and Manage Local Content
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -125,6 +120,3 @@ By using the Microsoft Help Viewer, you can add, remove, update, and move the He
   
 ## See Also  
  [Microsoft Help Viewer](../ide/microsoft-help-viewer.md)
-
-
-

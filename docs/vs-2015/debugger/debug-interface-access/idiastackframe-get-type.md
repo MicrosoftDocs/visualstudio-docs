@@ -1,14 +1,9 @@
 ---
 title: "IDiaStackFrame::get_type | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ ms.assetid: 99daa97b-5c05-455d-bd1e-800762ccf7c9
 caps.latest.revision: 14
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # IDiaStackFrame::get_type
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -42,6 +37,3 @@ HRESULT get_type ( 
 ## See Also  
  [IDiaStackFrame](../../debugger/debug-interface-access/idiastackframe.md)   
  [StackFrameTypeEnum Enumeration](../../debugger/debug-interface-access/stackframetypeenum.md)
-
-
-

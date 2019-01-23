@@ -1,14 +1,9 @@
 ---
 title: "Implementing Syntax Coloring | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "syntax coloring, implementing"
   - "editors [Visual Studio SDK], colorizing text"
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 96e762ca-efd0-41e7-8958-fda4897c8c7a
 caps.latest.revision: 21
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Implementing Syntax Coloring
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -68,4 +63,3 @@ When the language service provides syntax colorization, the parser converts a li
  [Custom Colorable Items](../../extensibility/internals/custom-colorable-items.md)   
  [Developing a Legacy Language Service](../../extensibility/internals/developing-a-legacy-language-service.md)   
  [Syntax Colorizing in a Legacy Language Service](../../extensibility/internals/syntax-colorizing-in-a-legacy-language-service.md)
-

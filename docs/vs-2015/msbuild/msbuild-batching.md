@@ -1,14 +1,9 @@
 ---
 title: "MSBuild Batching | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: reference
 helpviewer_keywords: 
   - "batching [MSBuild]"
   - "MSBuild, batching"
@@ -16,7 +11,7 @@ ms.assetid: d35c085b-27b8-49d7-b6f8-8f2f3a0eec38
 caps.latest.revision: 12
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # MSBuild Batching
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -107,6 +102,3 @@ manager: "ghogen"
  [MSBuild Concepts](../msbuild/msbuild-concepts.md)   
  [MSBuild Reference](../msbuild/msbuild-reference.md)   
  [Advanced Concepts](../msbuild/msbuild-advanced-concepts.md)
-
-
-
