@@ -13,7 +13,7 @@ With Visual Studio 2017, you can easily build, debug, and run containerized ASP.
 
 ## Prerequisites
 
-* Either [Docker Desktop (Windows)](https://hub.docker.com/editions/community/docker-ce-desktop-windows) or [Docker Desktop for Windows](https://docs.docker.com/docker-for-windows/)
+* Either [Docker Desktop for Windows](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
 * [Visual Studio 2017](https://visualstudio.microsoft.com/) with the **Web Development**, **Azure Tools** workload, and/or **.NET Core cross-platform development** workload installed
 
 ## Installation and setup
