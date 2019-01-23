@@ -44,7 +44,7 @@ The**Tools / Options / Debugging / General** page lets you set the following opt
   
  1\) When native code calls managed code by using COM Interop and the managed code throws an exception. See [Introduction to COM Interop](http://msdn.microsoft.com/library/8bd62e68-383d-407f-998b-29aa0ce0fd67).  
   
- 2\) When managed code running in application domain 1 calls managed code in application domain 2, and the code in application domain 2 throws an exception. See [Programming with Application Domains](http://msdn.microsoft.com/en-us/bd36055b-56bd-43eb-b4d8-820c37172131).  
+ 2\) When managed code running in application domain 1 calls managed code in application domain 2, and the code in application domain 2 throws an exception. See [Programming with Application Domains](http://msdn.microsoft.com/bd36055b-56bd-43eb-b4d8-820c37172131).  
   
  3\) When code calls a function by using reflection, and the function throws an exception. See [Reflection](http://msdn.microsoft.com/library/d1a58e7f-fb39-4d50-bf84-e3b8f9bf9775).  
   
@@ -185,6 +185,3 @@ The**Tools / Options / Debugging / General** page lets you set the following opt
   
 ## See Also  
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)
-
-
-

@@ -55,7 +55,7 @@ Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' 
  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] looks at the conditions on `PropertyGroup`, `ItemGroup`, `Import`, property, and item elements for this purpose.  
   
 ## Additional Build Actions  
- [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] allows you to change the item type name of a file in a project with the **Build Action** property of the [File Properties](http://msdn.microsoft.com/en-us/013c4aed-08d6-4dce-a124-ca807ca08959) window. `Compile`, `EmbeddedResource`, `Content`, and `None` item type names are always listed in this menu, along with any other item type names already in your project. To ensure any custom item type names are always available in this menu, you can add the names to an item type named `AvailableItemName`. For example, adding the following to your project file will add the custom type `JScript` to this menu for all projects that import it:  
+ [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] allows you to change the item type name of a file in a project with the **Build Action** property of the [File Properties](http://msdn.microsoft.com/013c4aed-08d6-4dce-a124-ca807ca08959) window. `Compile`, `EmbeddedResource`, `Content`, and `None` item type names are always listed in this menu, along with any other item type names already in your project. To ensure any custom item type names are always available in this menu, you can add the names to an item type named `AvailableItemName`. For example, adding the following to your project file will add the custom type `JScript` to this menu for all projects that import it:  
   
 ```  
 <ItemGroup>  
@@ -191,6 +191,3 @@ Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' 
  [Target Element (MSBuild)](../msbuild/target-element-msbuild.md)   
  [Csc Task](../msbuild/csc-task.md)   
  [Vbc Task](../msbuild/vbc-task.md)
-
-
-

@@ -43,7 +43,7 @@ Tools.ImportandExportSettings [/export:filename | /import:filename | /reset]
  Optional. Resets the current settings.  
   
 ## Remarks  
- Running this command with no switches opens the **Import and Export Settings** wizard. For more information, see [How to: Share Settings Between Computers or Visual Studio Versions](http://msdn.microsoft.com/en-us/1131fb10-35c1-42da-9cd8-91aa3235b882).  
+ Running this command with no switches opens the **Import and Export Settings** wizard. For more information, see [How to: Share Settings Between Computers or Visual Studio Versions](http://msdn.microsoft.com/1131fb10-35c1-42da-9cd8-91aa3235b882).  
   
 ## Example  
  The following command exports the curent settings to the file `MyFile.vssettings`.  
@@ -53,8 +53,5 @@ Tools.ImportandExportSettings /export:"c:\Files\MyFile.vssettings"
 ```  
   
 ## See Also  
- [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)   
+ [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)   
  [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)
-
-
-

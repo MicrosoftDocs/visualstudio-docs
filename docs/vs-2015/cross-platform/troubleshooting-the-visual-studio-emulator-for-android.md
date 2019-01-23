@@ -253,7 +253,7 @@ This topic contains information to help you resolve issues that you may experien
 
   To solve this problem, disable USB3 in the BIOS settings of the motherboard and reboot the computer. Then check whether Gigabyte has released an update for your motherboard’s BIOS.
 
-  For more info, see the following Knowledge Base article: [Boot failure after installation of Hyper-V role on Gigabyte systems](https://support.microsoft.com/en-us/kb/2693144).
+  For more info, see the following Knowledge Base article: [Boot failure after installation of Hyper-V role on Gigabyte systems](https://support.microsoft.com/kb/2693144).
 
 ##  <a name="ADB"></a> Visual Studio gets stuck trying to deploy the app to the emulator or the emulator does not appear as a debug target in other IDEs
  If the emulator is running, but it does not appear to be connected to ADB (Android Debug Bridge) or it does not appear in Android tools that make use of ADB (for example, Android Studio or Eclipse), you may need to adjust where the emulator looks for ADB. The emulator uses a registry key to identify the base location of your Android SDK, and looks for the \platform-tools\adb.exe file under that directory. To modify the Android SDK path used by the emulator:

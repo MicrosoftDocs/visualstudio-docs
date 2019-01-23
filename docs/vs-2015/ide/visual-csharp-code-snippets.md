@@ -77,10 +77,7 @@ Code snippets are ready-made snippets of code you can quickly insert into your c
 ## See Also  
  [Code Snippet Functions](../ide/code-snippet-functions.md)   
  [Code Snippets](../ide/code-snippets.md)   
- [How to: Create a New Snippet with Replacements](http://msdn.microsoft.com/en-us/8d56d43c-097a-475b-aa85-cae1554b6338)   
+ [How to: Create a New Snippet with Replacements](http://msdn.microsoft.com/8d56d43c-097a-475b-aa85-cae1554b6338)   
  [Template Parameters](../ide/template-parameters.md)   
  [How to: Use Surround-with Code Snippets](../ide/how-to-use-surround-with-code-snippets.md)   
  [How to: Restore C# Refactoring Snippets](../ide/how-to-restore-csharp-refactoring-snippets.md)
-
-
-

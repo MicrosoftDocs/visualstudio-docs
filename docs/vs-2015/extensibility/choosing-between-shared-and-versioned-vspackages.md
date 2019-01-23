@@ -36,7 +36,7 @@ Different versions of Visual Studio can coexist on the same computer. VSPackages
   
     -   Program your VSPackage to adapt to the version of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] in which it is running. Then, if queries for newer services fail, your VSPackage can offer other services that are supported in older versions of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
   
--   Register your VSPackage appropriately. For more information, see [VSPackage Registration](../extensibility/internals/vspackage-registration.md) and [Managed VSPackage Registration](http://msdn.microsoft.com/en-us/f69e0ea3-6a92-4639-8ca9-4c9c210e58a1).  
+-   Register your VSPackage appropriately. For more information, see [VSPackage Registration](../extensibility/internals/vspackage-registration.md) and [Managed VSPackage Registration](http://msdn.microsoft.com/f69e0ea3-6a92-4639-8ca9-4c9c210e58a1).  
   
 -   Register file extensions appropriately. For more information, see [Registering File Name Extensions for Side-By-Side Deployments](../extensibility/registering-file-name-extensions-for-side-by-side-deployments.md).  
   
@@ -65,4 +65,3 @@ Different versions of Visual Studio can coexist on the same computer. VSPackages
 ## See Also  
  [Installing VSPackages With Windows Installer](../extensibility/internals/installing-vspackages-with-windows-installer.md)   
  [Component Management](../extensibility/internals/component-management.md)
-

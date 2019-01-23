@@ -143,7 +143,7 @@ The Visual Studio simulator for Windows Store apps is a desktop application that
   
    [Windows.Networking.Connectivity](https://msdn.microsoft.com/library/windows/apps/windows.networking.connectivity.aspx)  
   
-   [How to respond to system events with background tasks](http://msdn.microsoft.com/en-us/f7c86e86-a7ae-4abb-a923-76b03337a80a)  
+   [How to respond to system events with background tasks](http://msdn.microsoft.com/f7c86e86-a7ae-4abb-a923-76b03337a80a)  
   
    [How to trigger suspend, resume, and background events in Windows Store apps](http://msdn.microsoft.com/library/windows/apps/hh974425.aspx)  
   
@@ -154,6 +154,3 @@ The Visual Studio simulator for Windows Store apps is a desktop application that
   
 ## See Also  
  [Run apps from Visual Studio](../debugger/run-store-apps-from-visual-studio.md)
-
-
-

@@ -77,7 +77,7 @@ Before we dig in to the details, here's a list of our most frequently requested 
 |Debug programs|SeDebugPrivilege|
 |Manage auditing and security log|SeSecurityPrivilege|
 
- For more information on this local administrator account requirement, see the Knowledge Base article, [SQL Server installation fails if the Setup account does not have certain user rights](https://support.microsoft.com/en-us/kb/2000257).
+ For more information on this local administrator account requirement, see the Knowledge Base article, [SQL Server installation fails if the Setup account does not have certain user rights](https://support.microsoft.com/kb/2000257).
 
 ###  <a name="BKMK_Media"></a> Using installation media
  To install [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], in the root directory on the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] installation media, run the installation file for the edition you want:

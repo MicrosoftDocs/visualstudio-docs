@@ -29,7 +29,4 @@ Build apps that run on iOS, Android, and Windows devices and share nearly 100% o
   
   If you're considering these tools, but you're not ready to try them yet, visit our [features](https://www.visualstudio.com/explore/cordova-vs) page, and we'll tell you more about them.  
   
-  If you're ready to start, visit our [website](http://taco.visualstudio.com/en-us/docs/get-started-vs-tools-apache-cordova/).
-
-
-
+  If you're ready to start, visit our [website](http://taco.visualstudio.com/docs/get-started-vs-tools-apache-cordova/).

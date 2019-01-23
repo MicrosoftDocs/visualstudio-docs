@@ -74,7 +74,7 @@ Xamarin enables you to build cross-platform mobile apps targeting Android, iOS, 
 |-------------|----------------------------|-------------------------|  
 |On-premises TFS server|Yes|Build machines must have Xamarin installed and can be linked to an OSX computer to build for iOS. See [Configuring TFS for Xamarin](http://developer.xamarin.com/guides/cross-platform/ci/configuring_tfs/) (Xamarin website)|  
 |On-premises build server linked to Visual Studio Team Services|Yes|See [Build server](http://msdn.microsoft.com/library/2d258a0a-f178-4e93-9da1-eba61151af3c) for instructions.|  
-|Hosted controller service of Visual Studio Team Services|Yes|See [Build your Xamarin app](https://www.visualstudio.com/en-us/docs/build/apps/mobile/xamarin).|  
+|Hosted controller service of Visual Studio Team Services|Yes|See [Build your Xamarin app](https://www.visualstudio.com/docs/build/apps/mobile/xamarin).|  
 |Build definitions with pre- and post-scripts|Yes||  
 |Continuous integration including gated check-ins|Yes|Gated check-ins for TFVC only as Git works on a pull-request model rather than check-ins.|  
   
@@ -116,4 +116,3 @@ Xamarin enables you to build cross-platform mobile apps targeting Android, iOS, 
 |Feature|Supported with Xamarin|Additional Comments|  
 |-------------|----------------------------|-------------------------|  
 |Crash analytics, telemetry, and beta distribution|Yes||
-

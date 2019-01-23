@@ -49,11 +49,11 @@ You can install this version of Visual Studio on a computer that already has an 
     |Visual C#|[Application Page, Project Designer (C#)](../ide/reference/application-page-project-designer-csharp.md)|
     |Visual F#|[Configuring Projects](http://msdn.microsoft.com/library/a1489abb-6294-4f8f-b71f-2cb126393526)|
     |C++|[How to: Modify the Target Framework and Platform Toolset](http://msdn.microsoft.com/library/031b1d54-e6e1-4da7-9868-3e75a87d9ffe)|
-    |[!INCLUDE[jsprjscript](../includes/jsprjscript-md.md)]|[Running a JScript Application on a Previous Version of the Common Language Runtime](http://msdn.microsoft.com/en-us/bbea51b5-ac03-4e6c-b9a6-f487ef63eda5)|
+    |[!INCLUDE[jsprjscript](../includes/jsprjscript-md.md)]|[Running a JScript Application on a Previous Version of the Common Language Runtime](http://msdn.microsoft.com/bbea51b5-ac03-4e6c-b9a6-f487ef63eda5)|
 
 ## See Also
 
 - [Install Visual Studio](../install/install-visual-studio-2015.md)
 - [Port, Migrate, and Upgrade Visual Studio Projects](/visualstudio/porting/port-migrate-and-upgrade-visual-studio-projects?view=vs-2015)
 - [Building C/C++ Isolated Applications and Side-by-side Assemblies](http://msdn.microsoft.com/library/9465904e-76f7-48bd-bb3f-c55d8f1699b6)
-- [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)
+- [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)

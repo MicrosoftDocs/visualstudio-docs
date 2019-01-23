@@ -21,7 +21,7 @@ manager: "ghogen"
 
 A project subtype may need to persist subtype-specific data into the project file for later use. A project subtype uses project file persistence to meet the following requirements:  
   
-1.  Persist data used as part of building the project. (For more information on the Microsoft Build Engine, see [MSBuild](http://msdn.microsoft.com/en-us/7c49aba1-ee6c-47d8-9de1-6f29a906e20b).) Build-related information can either:  
+1.  Persist data used as part of building the project. (For more information on the Microsoft Build Engine, see [MSBuild](http://msdn.microsoft.com/7c49aba1-ee6c-47d8-9de1-6f29a906e20b).) Build-related information can either:  
   
     1.  Configuration-independent data. That is, data stored in MSBuild elements with blank or missing conditions.  
   
@@ -79,4 +79,3 @@ A project subtype may need to persist subtype-specific data into the project fil
   
 ## See Also  
  [Project Subtypes](../../extensibility/internals/project-subtypes.md)
-

@@ -35,7 +35,7 @@ This walkthrough demonstrates how to create a VSPackage that starts the [!INCLUD
   
 ### To create the VSPackage  
   
--   Start [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] and create a [!INCLUDE[csprcs](../includes/csprcs-md.md)] VSPackage named `MyPackage`, as outlined in [Walkthrough: Creating a Menu Command VSPackage](http://msdn.microsoft.com/en-us/d699c149-5d1e-47ff-94c7-e1222af02c32).  
+-   Start [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] and create a [!INCLUDE[csprcs](../includes/csprcs-md.md)] VSPackage named `MyPackage`, as outlined in [Walkthrough: Creating a Menu Command VSPackage](http://msdn.microsoft.com/d699c149-5d1e-47ff-94c7-e1222af02c32).  
   
 ### To add the editor factory  
   
@@ -397,4 +397,3 @@ This walkthrough demonstrates how to create a VSPackage that starts the [!INCLUD
 ## See Also  
  [Inside the Core Editor](../extensibility/inside-the-core-editor.md)   
  [Instantiating the Core Editor By Using the Legacy API](../extensibility/instantiating-the-core-editor-by-using-the-legacy-api.md)
-

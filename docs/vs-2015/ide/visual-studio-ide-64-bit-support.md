@@ -28,7 +28,7 @@ manager: "ghogen"
 
 -   [Deploying Prerequisites for 64-bit Applications](../deployment/deploying-prerequisites-for-64-bit-applications.md)
 
--   [How to: Create a Windows Installer for a 64-bit Platform](http://msdn.microsoft.com/en-us/232bfc64-f99a-4cc6-9806-ba70bb9a09ff)
+-   [How to: Create a Windows Installer for a 64-bit Platform](http://msdn.microsoft.com/232bfc64-f99a-4cc6-9806-ba70bb9a09ff)
 
 ## Configuring projects as 64-bit applications
  The following topics discuss configuring projects to be built to 64-bit applications.
@@ -38,7 +38,7 @@ manager: "ghogen"
 ## Debugging a 64-bit application
  Edit and Continue does not work when [!INCLUDE[vsprvslong](../includes/vsprvslong-md.md)] is running on a 64-bit Windows operating system. The following topics discuss debugging 64-bit applications.
 
--   [How to: Debug on 64-bit Platforms](http://msdn.microsoft.com/en-us/27495e23-a624-46fb-996f-043d0a816dd5)
+-   [How to: Debug on 64-bit Platforms](http://msdn.microsoft.com/27495e23-a624-46fb-996f-043d0a816dd5)
 
 -   [Debug 64-Bit Applications](../debugger/debug-64-bit-applications.md)
 

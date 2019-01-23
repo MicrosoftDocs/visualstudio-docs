@@ -37,7 +37,7 @@ To attach to a running [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] applicat
   Older ASP applications run inside the IIS process inetinfo.exe when they are running in-process.  
   
 > [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ### To determine whether project code resides on the file system or IIS  
   
@@ -66,6 +66,3 @@ To attach to a running [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] applicat
  [System Requirements](../debugger/aspnet-debugging-system-requirements.md)   
  [Preparing to Debug ASP.NET](../debugger/preparing-to-debug-aspnet.md)   
  [Debugging Web Applications and Script](../debugger/debugging-web-applications-and-script.md)
-
-
-

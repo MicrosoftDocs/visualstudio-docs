@@ -22,7 +22,7 @@ manager: "ghogen"
 # Code Snippet Functions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-There are three functions available to use with [!INCLUDE[csprcs](../includes/csprcs-md.md)] code snippets. Functions are specified in the [Function](http://msdn.microsoft.com/en-us/572c5549-5821-4e15-8ecd-0fa86c1c65df) element of the code snippet. For information on creating code snippets, see [Code Snippets](../ide/code-snippets.md).  
+There are three functions available to use with [!INCLUDE[csprcs](../includes/csprcs-md.md)] code snippets. Functions are specified in the [Function](http://msdn.microsoft.com/572c5549-5821-4e15-8ecd-0fa86c1c65df) element of the code snippet. For information on creating code snippets, see [Code Snippets](../ide/code-snippets.md).  
   
 ## Functions  
  The following table describes the functions available for use with the `Function` element in code snippets.  
@@ -153,8 +153,5 @@ There are three functions available to use with [!INCLUDE[csprcs](../includes/cs
 ```  
   
 ## See Also  
- [Function Element (Intellisense Code Snippets)](http://msdn.microsoft.com/en-us/572c5549-5821-4e15-8ecd-0fa86c1c65df)   
+ [Function Element (Intellisense Code Snippets)](http://msdn.microsoft.com/572c5549-5821-4e15-8ecd-0fa86c1c65df)   
  [Code Snippets Schema Reference](../ide/code-snippets-schema-reference.md)
-
-
-

@@ -33,5 +33,4 @@ To install the [!INCLUDE[vsipsdk](../../includes/vsipsdk-md.md)] on your compute
   
 ## See Also  
  [Add-In Security](http://msdn.microsoft.com/library/44a5c651-6246-4310-b371-65378917c799)   
- [DDEX Security](http://msdn.microsoft.com/en-us/44a52a70-5c98-450e-993d-4a3b32f69ba8)
-
+ [DDEX Security](http://msdn.microsoft.com/44a52a70-5c98-450e-993d-4a3b32f69ba8)
