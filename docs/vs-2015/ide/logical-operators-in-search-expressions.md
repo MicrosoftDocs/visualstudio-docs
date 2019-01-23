@@ -1,14 +1,9 @@
 ---
 title: "Logical Operators in Search Expressions | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Help Viewer 2.0, logical operators in search"
   - "logical operators in search [Help Viewer 2.0]"
@@ -16,7 +11,7 @@ ms.assetid: 0c38ae7d-3e20-4d47-a020-9677cd285916
 caps.latest.revision: 11
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Logical Operators in Search Expressions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,6 +31,3 @@ By using logical operators, you can refine your search for content by creating m
 ## See Also  
  [Full-Text Search Tips](../ide/full-text-search-tips.md)   
  [Locate Information](../ide/locate-information.md)
-
-
-

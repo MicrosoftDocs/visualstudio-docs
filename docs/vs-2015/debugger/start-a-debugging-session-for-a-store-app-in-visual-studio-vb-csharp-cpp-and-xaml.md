@@ -1,13 +1,9 @@
 ---
 title: "Start a debugging session for a Store app (VB, C#, C++ and XAML) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: conceptual
 f1_keywords:
   - "VC.Project.IVCAppHostRemoteDebugPageObject.MachineName"
   - "VC.Project.IVCAppHostRemoteDebugPageObject.BreakpointBehavior"
@@ -37,7 +33,7 @@ ms.assetid: 66ec0e79-8261-4c19-a618-3fd1b3f71bbd
 caps.latest.revision: 23
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Start a debugging session for a Store app in Visual Studio (VB, C#, C++ and XAML)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

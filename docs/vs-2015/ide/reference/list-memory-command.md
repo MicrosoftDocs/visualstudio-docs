@@ -1,14 +1,9 @@
 ---
 title: "List Memory Command | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "debug.listmemory"
 helpviewer_keywords: 
@@ -19,7 +14,7 @@ ms.assetid: a84de361-a6a6-4f6d-96aa-a0d4a424371e
 caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # List Memory Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -90,7 +85,3 @@ Debug.ListMemory [/ANSI|Unicode] [/Count:number] [/Format:formattype]
  [Command Window](../../ide/reference/command-window.md)   
  [Find/Command Box](../../ide/find-command-box.md)   
  [Visual Studio Command Aliases](../../ide/reference/visual-studio-command-aliases.md)
-
-
-
-

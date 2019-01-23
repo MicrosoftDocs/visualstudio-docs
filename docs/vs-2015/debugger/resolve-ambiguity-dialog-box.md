@@ -1,14 +1,9 @@
 ---
 title: "Resolve Ambiguity Dialog Box | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.debug.Disambig"
 dev_langs: 
@@ -24,7 +19,7 @@ ms.assetid: d9f47455-a116-4c84-8bad-2dfbf4d77f74
 caps.latest.revision: 10
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Resolve Ambiguity Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -45,6 +40,3 @@ The `Resolve Ambiguity` dialog box appears when the debugger cannot choose the l
   
 ## See Also  
  [Expressions in the Debugger](../debugger/expressions-in-the-debugger.md)
-
-
-

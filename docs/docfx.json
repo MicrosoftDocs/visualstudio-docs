@@ -118,6 +118,7 @@
         "xml-tools/**/**.md": "vs-xml-tools"
       },
       "titleSuffix": {
+        "ai/**/**.md": "AI tools for Visual Studio",
         "vs-2015/**/**.md": "Visual Studio 2015"
       },
       "breadcrumb_path": {

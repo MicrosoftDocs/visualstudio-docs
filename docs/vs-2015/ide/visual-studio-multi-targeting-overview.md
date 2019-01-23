@@ -1,13 +1,9 @@
 ---
 title: "Multi-Targeting Overview | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: conceptual
 helpviewer_keywords:
   - "targeting .NET Framework version [Visual Studio]"
   - "versions [Visual Studio], targeting .NET Framework version"
@@ -17,7 +13,7 @@ ms.assetid: b1702c33-0672-4ebc-b779-2b324d6ea880
 caps.latest.revision: 39
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Visual Studio Multi-Targeting Overview
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -69,7 +65,7 @@ In this version of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], you can specify
 > [!NOTE]
 >  A .NET Framework client profile is a subset of the .NET Framework that provides a limited set of libraries and features. For more information about client profiles, see [.NET Framework Client Profile](http://msdn.microsoft.com/library/f0219919-1f02-4588-8704-327a62fd91f1).
 
- The **Add Reference** dialog box disables system assemblies that do not pertain to the target [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] version so that they cannot be added to a project inadvertently. (System assemblies are .dll files that are included in a [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] version.) References that belong to a framework version that is later than the targeted version will not resolve, and controls that depend on such a reference cannot be added. If you want to enable such a reference, reset the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] target of the project to one that includes the reference.  For more information, see [Introduction to the Project Designer](http://msdn.microsoft.com/en-us/898dd854-c98d-430c-ba1b-a913ce3c73d7).
+ The **Add Reference** dialog box disables system assemblies that do not pertain to the target [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] version so that they cannot be added to a project inadvertently. (System assemblies are .dll files that are included in a [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] version.) References that belong to a framework version that is later than the targeted version will not resolve, and controls that depend on such a reference cannot be added. If you want to enable such a reference, reset the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] target of the project to one that includes the reference.  For more information, see [Introduction to the Project Designer](http://msdn.microsoft.com/898dd854-c98d-430c-ba1b-a913ce3c73d7).
 
  For more information about assembly references, see [Resolving Assemblies at Design Time](../msbuild/resolving-assemblies-at-design-time.md).
 

@@ -1,14 +1,9 @@
 ---
 title: "How to: Create a Work Item for a Managed Code Defect | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 helpviewer_keywords: 
   - "managed code, creating work items for code defects"
   - "code analysis, creating work items"
@@ -38,6 +33,3 @@ You can use the work item tracking feature to log work item from within [!INCLUD
 2.  Point to **Create Work Item** and click the type of work item to create.  
   
      A single work item is created for all the selected warnings for you to specify the bug information.
-
-
-

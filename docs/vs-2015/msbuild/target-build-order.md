@@ -1,21 +1,16 @@
 ---
 title: "Target Build Order | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 helpviewer_keywords: 
   - "msbuild, build order"
 ms.assetid: f4a26339-9f9a-497a-9aa6-0797183d450d
 caps.latest.revision: 21
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Target Build Order
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -123,6 +118,3 @@ Targets must be ordered if the input to one target depends on the output of anot
   
 ## See Also  
  [Targets](../msbuild/msbuild-targets.md)
-
-
-

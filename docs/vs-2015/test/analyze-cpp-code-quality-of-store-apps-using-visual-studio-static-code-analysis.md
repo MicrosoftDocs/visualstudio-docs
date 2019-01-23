@@ -2,7 +2,7 @@
 title: C++ static code analysis Store apps
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.technology: vs-ide-general
+ms.technology: vs-ide-test
 ms.topic: conceptual
 f1_keywords:
   - "vs.codeanalysis.propertypages.native.express"
@@ -10,7 +10,7 @@ ms.assetid: c5355e43-a37c-4686-a969-18e3dfc59a9c
 caps.latest.revision: 15
 author: "alexhomer1"
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Analyze C++ code quality of Store apps using Visual Studio static code analysis
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

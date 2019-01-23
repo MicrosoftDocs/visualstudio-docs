@@ -1,14 +1,9 @@
 ---
 title: "DA0506: Maximum Private Bytes allocated for the Process being profiled | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 f1_keywords: 
   - "vs.performance.rules.DA0506"
   - "vs.performance.DA0506"
@@ -17,7 +12,7 @@ ms.assetid: e9c43554-9a85-4d98-9fa4-3b19986e7b62
 caps.latest.revision: 12
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # DA0506: Maximum Private Bytes allocated for the Process being profiled
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -45,6 +40,3 @@ Rule Id|DA0506|
  Use the reported value to compare the performance of different versions or builds of the program or to understand the performance of the application under different profiling scenarios.  
   
  A maximum value of process private bytes that is approaching the architectural limit of how large a process address space can grow can lead to out of memory exceptions. For more information, see [Investigating Memory Issues](http://go.microsoft.com/fwlink/?LinkID=177833) in the MSDN Magazine.
-
-
-

@@ -1,14 +1,9 @@
 ---
 title: "How to: Specify Build Events (C#) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "pre-build events"
   - "events [Visual Studio], builds"
@@ -19,7 +14,7 @@ ms.assetid: b4ce1ad9-5215-4b6f-b6a2-798b249aa335
 caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Specify Build Events (C#)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -187,6 +182,3 @@ Use build events to specify commands that run before the build starts or after t
  [Pre-build Event/Post-build Event Command Line Dialog Box](../ide/reference/pre-build-event-post-build-event-command-line-dialog-box.md)   
  [How to: Specify Build Events (Visual Basic)](../ide/how-to-specify-build-events-visual-basic.md)   
  [Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)
-
-
-

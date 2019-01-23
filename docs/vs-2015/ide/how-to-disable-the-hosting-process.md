@@ -1,14 +1,9 @@
 ---
 title: "How to: Disable the Hosting Process | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "hosting process, disabling"
   - "vshost.exe, disabling the hosting process"
@@ -16,7 +11,7 @@ ms.assetid: 9157488d-737f-454b-8d8d-36f99de38bb0
 caps.latest.revision: 12
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Disable the Hosting Process
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -46,7 +41,4 @@ Calls to certain APIs can be affected when the hosting process is enabled. In th
 ## See Also  
  [Debugging and the Hosting Process](../debugger/debugging-and-the-hosting-process.md)   
  [Hosting Process (vshost.exe)](../ide/hosting-process-vshost-exe.md)   
- [Builds During Application Development](http://msdn.microsoft.com/en-us/c9497d62-3b7b-4449-88e8-cf27acc9efe6)
-
-
-
+ [Builds During Application Development](http://msdn.microsoft.com/c9497d62-3b7b-4449-88e8-cf27acc9efe6)

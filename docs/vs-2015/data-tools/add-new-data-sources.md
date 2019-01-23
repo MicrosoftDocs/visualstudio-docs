@@ -1,12 +1,9 @@
 ---
 title: "Add new data sources | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 f1_keywords: 
   - "vs.datasource.datasourcefieldspicker"
 dev_langs: 
@@ -21,7 +18,7 @@ ms.assetid: ed28c625-bb89-4037-bfde-cfa435d182a2
 caps.latest.revision: 60
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Add new data sources
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -102,4 +99,3 @@ In the context of .NET data tools in Visual Studio, the term *data source* refer
   
 ## See Also  
  [Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-dotnet.md)
-

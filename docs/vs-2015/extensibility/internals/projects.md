@@ -1,14 +1,9 @@
 ---
 title: "Projects | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "solutions [Visual Studio]"
   - "custom tools [Visual Studio SDK]"
@@ -18,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 237742e4-a638-4d5b-a9b3-6a69d627763c
 caps.latest.revision: 44
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Projects
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -44,4 +39,3 @@ In Visual Studio, projects are the containers that developers use to organize so
 ## Related Sections  
  [Inside the Visual Studio SDK](../../extensibility/internals/inside-the-visual-studio-sdk.md)  
  Explain different aspects of Visual Studio extensibility.
-

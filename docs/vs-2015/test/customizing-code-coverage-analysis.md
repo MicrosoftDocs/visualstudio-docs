@@ -1,18 +1,13 @@
 ---
 title: "Customizing Code Coverage Analysis | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 ms.assetid: f6337c35-acae-4c5f-b5d9-ac5ff687ef18
 caps.latest.revision: 18
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Customizing Code Coverage Analysis
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -327,6 +322,3 @@ Included items must then not match any entries in the exclude list to remain inc
 ## See Also  
  [Using Code Coverage to Determine How Much Code is being Tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md)   
  [Unit Test Your Code](../test/unit-test-your-code.md)
-
-
-

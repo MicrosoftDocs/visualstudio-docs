@@ -1,21 +1,16 @@
 ---
 title: "IDebugExpressionEvaluator2::Terminate | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 helpviewer_keywords: 
   - "Terminate"
   - "IDebugExpressionEvaluator2::Terminate"
 ms.assetid: 38265100-4d80-4902-833a-07bb569f9ba8
 caps.latest.revision: 9
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # IDebugExpressionEvaluator2::Terminate
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -59,4 +54,3 @@ STDMETHODIMP ExpressionEvaluatorPackage::Terminate(void)
   
 ## See Also  
  [IDebugExpressionEvaluator2](../../../extensibility/debugger/reference/idebugexpressionevaluator2.md)
-

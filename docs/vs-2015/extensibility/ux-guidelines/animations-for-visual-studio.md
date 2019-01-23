@@ -1,17 +1,13 @@
 ---
 title: "Animations"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: conceptual
 ms.assetid: 446773a9-e6f7-4c0c-8dbc-9e303bf32eb1
 caps.latest.revision: 3
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Animations for Visual Studio
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]

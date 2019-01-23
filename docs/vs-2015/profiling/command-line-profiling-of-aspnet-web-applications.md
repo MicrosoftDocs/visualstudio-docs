@@ -1,14 +1,9 @@
 ---
 title: "Command-Line Profiling of ASP.NET Web Applications | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "profiling ASP.NET applications"
   - "profling tools,ASP.NET applications"
@@ -16,7 +11,7 @@ ms.assetid: 897c00d5-5767-433b-a960-4a29c6023ede
 caps.latest.revision: 26
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Command-Line Profiling of ASP.NET Web Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,6 +38,3 @@ This section describes the procedures and options for collecting performance dat
 |----------|---------------------|  
 |**Profile stand-alone (client) applications**|-   [Profiling Stand-Alone Applications](../profiling/command-line-profiling-of-stand-alone-applications.md)|  
 |**Profile services**|-   [Profiling Services](../profiling/command-line-profiling-of-services.md)|
-
-
-

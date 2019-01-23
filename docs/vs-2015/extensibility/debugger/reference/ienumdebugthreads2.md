@@ -1,14 +1,9 @@
 ---
 title: "IEnumDebugThreads2 | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IEnumDebugThreads2"
 helpviewer_keywords: 
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 1854f078-3b49-42c2-b65b-33e3b506fd63
 caps.latest.revision: 12
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # IEnumDebugThreads2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -63,4 +58,3 @@ IEnumDebugThreads2 : IUnknown
  [Step](../../../extensibility/debugger/reference/idebugprocess3-step.md)   
  [Continue](../../../extensibility/debugger/reference/idebugprocess3-continue.md)   
  [Execute](../../../extensibility/debugger/reference/idebugprocess3-execute.md)
-

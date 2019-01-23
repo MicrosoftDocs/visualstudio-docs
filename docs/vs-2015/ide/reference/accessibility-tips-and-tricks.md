@@ -1,21 +1,16 @@
 ---
 title: "Accessibility Tips and Tricks | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 helpviewer_keywords: 
   - "accessibility [Visual Studio]"
 ms.assetid: 6b491d88-f79e-4686-8841-857624bdcfda
 caps.latest.revision: 26
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Accessibility Tips and Tricks
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -24,10 +19,10 @@ manager: "ghogen"
 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] includes built-in accessibility features so you can easily work from the keyboard and use screen readers or other assistive technology devices. The topic includes some suggestions for optimizing [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] for accessibility as well as some useful shortcut key combinations.  
   
 > [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ## Save Your IDE Settings  
- You can customize your IDE experience by saving your window layout, keyboard mapping scheme, and other preferences. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+ You can customize your IDE experience by saving your window layout, keyboard mapping scheme, and other preferences. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ## Common Windows Shortcut Key Combinations  
  You can use many of the standard Windows shortcut key combinations to perform tasks within [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]. Some of these shortcut key combinations include:  
@@ -53,6 +48,3 @@ manager: "ghogen"
   
 ## See Also  
  [Accessibility Features of Visual Studio](../../ide/reference/accessibility-features-of-visual-studio.md)
-
-
-

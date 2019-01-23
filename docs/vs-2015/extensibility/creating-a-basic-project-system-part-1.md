@@ -1,14 +1,9 @@
 ---
 title: "Creating a Basic Project System, Part 1 | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "writing a project system"
   - "project system"
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 882a10fa-bb1c-4b01-943a-7a3c155286dd
 caps.latest.revision: 48
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Creating a Basic Project System, Part 1
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -652,4 +647,3 @@ In Visual Studio, projects are the containers that developers use to organize so
     ![Simple Project Command](../extensibility/media/simpleprojcommand.png "SimpleProjCommand")  
   
    Congratulations! You have implemented a basic managed project system.
-

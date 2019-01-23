@@ -1,20 +1,15 @@
 ---
 title: "Managing Side-by-Side File Associations | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "verbs, setting default"
 ms.assetid: 9b6df3bc-d15c-4a5d-9015-948a806193b7
 caps.latest.revision: 18
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Managing Side-by-Side File Associations
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -86,4 +81,3 @@ If your VSPackage provides file associations, you must decide how to handle side
 ## See Also  
  [Registering File Name Extensions for Side-By-Side Deployments](../extensibility/registering-file-name-extensions-for-side-by-side-deployments.md)   
  [Registering Verbs for File Name Extensions](../extensibility/registering-verbs-for-file-name-extensions.md)
-

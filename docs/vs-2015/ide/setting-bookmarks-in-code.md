@@ -1,21 +1,16 @@
 ---
 title: "Setting Bookmarks in Code | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 f1_keywords: 
   - "VS.BookmarkWindow"
 ms.assetid: a752ed5f-5cf9-4bf2-865a-2131ca600ed5
 caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Setting Bookmarks in Code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,6 +30,3 @@ You can use bookmarks to mark lines in your code so that you can quickly return 
  You can organize bookmarks into virtual folders by clicking **New Folder** in the bookmark window and then dragging selected bookmarks into the new folder.  
   
  You can turn off bookmarks (without removing them) by clicking the **Disable All Bookmarks** button in the bookmark window. You can re-enable them by clicking the same button (which is now called **Enable All Bookmarks**).
-
-
-

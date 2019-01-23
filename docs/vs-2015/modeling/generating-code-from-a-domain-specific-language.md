@@ -1,17 +1,14 @@
 ---
 title: "Generating Code from a Domain-Specific Language | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 ms.assetid: e3706cc9-2afd-456a-a879-68425a248ebc
 caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Generating Code from a Domain-Specific Language
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -64,6 +61,3 @@ Microsoft [!INCLUDE[dsl](../includes/dsl-md.md)] provides a powerful way to gene
  [Code Generation in a Build Process](../modeling/code-generation-in-a-build-process.md)  
   
  Read this topic if you are generating files from a DSL on a build server.
-
-
-

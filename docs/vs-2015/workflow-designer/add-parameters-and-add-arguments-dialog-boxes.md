@@ -1,11 +1,8 @@
 ---
 title: "Add Parameters and Add Arguments Dialog Boxes | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: ".net-framework-4.6"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: "reference"
 f1_keywords: 
   - "AddParameters.UI"
@@ -13,7 +10,7 @@ ms.assetid: a21fb4fe-134b-40b0-8497-86b842940ca1
 caps.latest.revision: 7
 author: "steved0x"
 ms.author: gewarren
-manager: "erikre"
+manager: jillfra
 ---
 # Add Parameters and Add Arguments Dialog Boxes
 The following table describes the user interface (UI) elements of the **Add Parameters** dialog box used by the <xref:System.Activities.Statements.InvokeMethod> designer.  

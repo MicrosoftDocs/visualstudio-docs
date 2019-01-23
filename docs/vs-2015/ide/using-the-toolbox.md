@@ -1,14 +1,9 @@
 ---
 title: "Using the Toolbox | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.chooseitems"
   - "vs.toolboxpages.activexcontrols"
@@ -31,7 +26,7 @@ ms.assetid: 82e7cb43-4d0b-4e17-b7b0-43f96c22c3c2
 caps.latest.revision: 24
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Using the Toolbox
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -67,6 +62,3 @@ You can use the toolbox to add controls and other items to your project. You can
   
 ## Creating and Distributing Custom Toolbox Controls  
  You can create a custom toolbox control in either Visual Basic or Visual C#, and you can start with a project template that's based on [Windows Presentation Foundation](../extensibility/creating-a-wpf-toolbox-control.md) or [Windows Forms](../misc/how-to-create-a-toolbox-control-that-uses-windows-forms.md). You can then distribute your control to your teammates or publish it on the web by using the [Toolbox Controls Installer](http://download.microsoft.com/download/8/3/6/836657BD-9CCB-4ED4-B9D2-FB769473B284/TCI_whitepaper.docx).
-
-
-

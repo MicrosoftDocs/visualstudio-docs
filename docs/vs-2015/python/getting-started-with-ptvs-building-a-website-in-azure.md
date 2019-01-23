@@ -1,19 +1,14 @@
 ---
 title: "Getting Started with PTVS: Building a Website in Azure | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-python"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-python
+ms.topic: conceptual
 ms.assetid: 3bdbda36-14d2-4fde-ba42-d91042777ff6
 caps.latest.revision: 5
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: jillfra
 ---
 # Getting Started with PTVS: Building a Website in Azure
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,4 +30,3 @@ You can get started quickly building a Python web site in Azure.
 ## See Also  
  [Wiki documentation](https://github.com/Microsoft/PTVS/wiki/Web-Project)   
  [PTVS Getting Started and Deep Dive Videos](https://www.youtube.com/playlist?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff)
-

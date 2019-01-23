@@ -1,17 +1,14 @@
 ---
 title: "Multiple DSLs in One Solution | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 ms.assetid: 7e668620-6217-4e87-aea7-e9036776c8e4
 caps.latest.revision: 5
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Multiple DSLs in One Solution
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -62,6 +59,3 @@ You can package several DSLs as part of a single solution so that they are insta
  [Integrating Models by using Visual Studio Modelbus](../modeling/integrating-models-by-using-visual-studio-modelbus.md)   
  [How to: Add a Drag-and-Drop Handler](../modeling/how-to-add-a-drag-and-drop-handler.md)   
  [Customizing Copy Behavior](../modeling/customizing-copy-behavior.md)
-
-
-

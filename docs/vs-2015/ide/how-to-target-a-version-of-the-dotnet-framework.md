@@ -1,14 +1,9 @@
 ---
 title: "How to: Target a Version of the .NET Framework | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "targeting .NET Framework version [Visual Studio]"
   - "versions [Visual Studio], targeting .NET Framework version"
@@ -16,7 +11,7 @@ ms.assetid: dea62d25-3d1b-492e-a6cc-b5154489800a
 caps.latest.revision: 53
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Target a Version of the .NET Framework
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -87,6 +82,3 @@ This document describes how to target a version of the .NET Framework when you c
  [Application Page, Project Designer (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md)   
  [Configuring Projects](http://msdn.microsoft.com/library/a1489abb-6294-4f8f-b71f-2cb126393526)   
  [How to: Modify the Target Framework and Platform Toolset](http://msdn.microsoft.com/library/031b1d54-e6e1-4da7-9868-3e75a87d9ffe)
-
-
-

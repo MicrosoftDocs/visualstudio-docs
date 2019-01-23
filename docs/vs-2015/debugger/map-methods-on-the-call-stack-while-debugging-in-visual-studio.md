@@ -1,12 +1,8 @@
 ---
 title: "Map methods on the call stack while debugging"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: conceptual
 f1_keywords:
   - "vs.progression.debugwithcodemaps"
@@ -33,7 +29,7 @@ ms.assetid: d6a72e5e-f88d-46fc-94a3-1789d34805ef
 caps.latest.revision: 43
 author: MikeJo5000
 ms.author: mikejo
-manager: "douge"
+manager: jillfra
 ---
 # Map methods on the call stack while debugging in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

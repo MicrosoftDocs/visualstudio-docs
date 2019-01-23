@@ -1,20 +1,15 @@
 ---
 title: "Single and Multi-tab Views | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], custom - single and multi-tab views"
 ms.assetid: e3611704-349f-4323-b03c-f2b0a445d781
 caps.latest.revision: 23
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Single and Multi-tab Views
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -117,4 +112,3 @@ Error:
  [Supporting Multiple Document Views](../extensibility/supporting-multiple-document-views.md)   
  [How to: Attach Views to Document Data](../extensibility/how-to-attach-views-to-document-data.md)   
  [Creating Custom Editors and Designers](../extensibility/creating-custom-editors-and-designers.md)
-

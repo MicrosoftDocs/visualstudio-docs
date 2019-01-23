@@ -1,14 +1,9 @@
 ---
 title: "Debugger navigation sample code (JavaScript) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -18,7 +13,7 @@ ms.assetid: 4e2d1346-91d6-4935-9e70-130e369a4cb7
 caps.latest.revision: 6
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Debugger navigation sample code (JavaScript)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -171,6 +166,3 @@ The code in this topic is the sample file for the [Control execution in a debug 
  })();  
   
 ```
-
-
-

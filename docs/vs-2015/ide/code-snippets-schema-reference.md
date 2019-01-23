@@ -1,14 +1,9 @@
 ---
 title: "Code Snippets Schema Reference | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 helpviewer_keywords: 
   - "schema reference [Visual Studio]"
   - "snippets [Visual Studio], schema reference"
@@ -18,7 +13,7 @@ ms.assetid: 58a60621-725f-4763-93b7-62ea5424ef88
 caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Code Snippets Schema Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -660,6 +655,3 @@ is a great color. I love Blue.
 ## See Also  
  [Code Snippets](../ide/code-snippets.md)   
  [Walkthrough: Creating a Code Snippet](../ide/walkthrough-creating-a-code-snippet.md)
-
-
-

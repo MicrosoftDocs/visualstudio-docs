@@ -1,14 +1,9 @@
 ---
 title: "Creating Project and Item Templates | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "templates [Visual Studio], projects"
   - "item templates, about item templates"
@@ -22,7 +17,7 @@ ms.assetid: a6ce501a-699b-4e3e-ade8-c81895645c20
 caps.latest.revision: 12
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Creating Project and Item Templates
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -54,6 +49,3 @@ manager: "ghogen"
  [Template Parameters](../ide/template-parameters.md)   
  [Customizing Templates](../ide/customizing-project-and-item-templates.md)   
  [How to: Create Starter Kits](../ide/how-to-create-starter-kits.md)
-
-
-

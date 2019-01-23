@@ -1,12 +1,9 @@
 ---
 title: "Creating and managing databases and data-tier applications"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 helpviewer_keywords:
   - "managing change, databases"
   - "database features of Visual Studio, managing change"
@@ -16,7 +13,7 @@ ms.assetid: 40b51f5a-d52c-44ac-8f84-037a0917af33
 caps.latest.revision: 40
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Creating and managing databases and data-tier applications in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

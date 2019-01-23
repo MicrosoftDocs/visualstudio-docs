@@ -1,19 +1,14 @@
 ---
 title: "How to: Filter Reports from the Command Line | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 ms.assetid: 6e9b140f-b44f-4a5c-bd65-d868ddc94023
 caps.latest.revision: 11
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Filter Reports from the Command Line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,6 +24,3 @@ By using options for the **VSPerfReport** command, you can filter reports to a s
 |**Process:**[*Pid*]|Only show data from the specified process.|  
 |**Thread:**[*ThreadID*]|Only show data from the specified thread.|  
 |**Thread:**[*ThreadID,ProcessID*]|Only show data from the specified thread that is associated with the specified process.|
-
-
-

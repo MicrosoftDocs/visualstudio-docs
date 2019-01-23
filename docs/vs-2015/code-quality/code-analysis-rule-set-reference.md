@@ -1,14 +1,9 @@
 ---
 title: "Code analysis rule set reference | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 helpviewer_keywords: 
   - "code analysis, rule sets"
 ms.assetid: 5874e854-e298-4d2e-bbe4-95e899d22587
@@ -40,6 +35,3 @@ When you configure code analysis for managed code projects in [!INCLUDE[vsPreLon
 |[Native Minimum Rules rule set](../code-quality/native-minimum-rules-rule-set.md)|These rules focus on the most critical problems in your native code, including potential security holes and  application crashes. You should include this rule set in any custom rule set you create for your native projects.|  
 |[Native Recommended Rules rule set](../code-quality/native-recommended-rules-rule-set.md)|These rules focus on the most critical and common problems in your native code, including potential security holes and application crashes.  You should include this rule set in any custom rule set you create for your native projects.  This ruleset is designed to work with Visual Studio Professional edition and higher.|  
 |[Security Rules rule set for managed code](../code-quality/security-rules-rule-set-for-managed-code.md)|This rule set contains all Microsoft security rules. Include this rule set to maximize the number of potential security issues that are reported.|
-
-
-

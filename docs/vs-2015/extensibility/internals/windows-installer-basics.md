@@ -1,21 +1,16 @@
 ---
 title: "Windows Installer Basics | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Windows Installer, VSPackages"
   - "VSPackages, Windows Installer basics"
 ms.assetid: 497e479b-add8-4644-870a-917f15306b97
 caps.latest.revision: 13
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Windows Installer Basics
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -74,4 +69,3 @@ The Windows Installer installs and uninstalls applications or software products 
   
 ## See Also  
  [What Happens if the Component Rules Are Broken?](http://msdn.microsoft.com/library/aa372795\(VS.85\).aspx)
-

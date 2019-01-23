@@ -1,14 +1,9 @@
 ---
 title: "XDCMake Task | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: reference
 f1_keywords: 
   - "vc.task.xdcmake"
 dev_langs: 
@@ -24,7 +19,7 @@ ms.assetid: a7de9c64-903a-4a02-85f3-f37672270f25
 caps.latest.revision: 10
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # XDCMake Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -54,6 +49,3 @@ Wraps the XML Documentation tool (xdcmake.exe), which merges XML document commen
   
 ## See Also  
  [Task Reference](../msbuild/msbuild-task-reference.md)
-
-
-

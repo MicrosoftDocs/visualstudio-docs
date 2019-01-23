@@ -1,14 +1,9 @@
 ---
 title: "Managed Minimun Rules rule set for managed code | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 ms.assetid: 44a50c54-8dd3-42b2-8387-532a150e5a6c
 caps.latest.revision: 4
 author: gewarren
@@ -26,6 +21,3 @@ The Managed Minimum Rules focus on the most critical problems in your code, incl
 |[CA1821](../code-quality/ca1821-remove-empty-finalizers.md)|Remove empty finalizers|  
 |[CA2213](../code-quality/ca2213-disposable-fields-should-be-disposed.md)|Disposable fields should be disposed|  
 |[CA2231](../code-quality/ca2231-overload-operator-equals-on-overriding-valuetype-equals.md)|Overload operator equals on overriding ValueType.Equals|
-
-
-

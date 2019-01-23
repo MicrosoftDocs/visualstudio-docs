@@ -1,14 +1,9 @@
 ---
 title: "MSBuild .Targets Files | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: reference
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -21,7 +16,7 @@ ms.assetid: f6d98eb4-d2fa-49b7-8e3c-bae1ca3cf596
 caps.latest.revision: 20
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # MSBuild .Targets Files
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -48,5 +43,3 @@ manager: "ghogen"
  [Import Element (MSBuild)](../msbuild/import-element-msbuild.md)   
  [MSBuild Reference](../msbuild/msbuild-reference.md)  
  [MSBuild](msbuild.md)
-
-

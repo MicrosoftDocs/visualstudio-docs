@@ -1,14 +1,9 @@
 ---
 title: "How to: Profile JavaScript Code in Web Pages | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "JavaScript performance profiling"
   - "Profiling Tools,JavaScript"
@@ -17,7 +12,7 @@ ms.assetid: 37d02aad-ca4d-4eb0-bf66-ca3ecef31fbe
 caps.latest.revision: 32
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Profile JavaScript Code in Web Pages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -84,6 +79,3 @@ manager: "ghogen"
 7.  Exercise the functionality that you want to profile.  
   
 8.  To end the profiling session, close the browser.
-
-
-

@@ -1,21 +1,16 @@
 ---
 title: "IEEVisualizerService::GetValueDisplayStringCount | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 helpviewer_keywords: 
   - "IEEVisualizerService::GetValueDisplayStringCount"
   - "GetValueDisplayStringCount"
 ms.assetid: d683a833-fbfb-4042-84df-6905124a268a
 caps.latest.revision: 11
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # IEEVisualizerService::GetValueDisplayStringCount
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -55,4 +50,3 @@ int GetValueDisplayStringCount (
   
 ## See Also  
  [IEEVisualizerService](../../../extensibility/debugger/reference/ieevisualizerservice.md)
-

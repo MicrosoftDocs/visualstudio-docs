@@ -1,12 +1,9 @@
 ---
 title: "How to Define a Domain-Specific Language | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 f1_keywords: 
   - "vs.dsltools.dsldesigner.domainrelationship"
   - "vs.dsltools.dsldesigner.domainclass"
@@ -20,7 +17,7 @@ ms.assetid: d1772463-0eb1-40a5-b7c0-9a008bc76760
 caps.latest.revision: 45
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # How to Define a Domain-Specific Language
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -211,7 +208,7 @@ To define a domain-specific language (DSL), you create a [!INCLUDE[vsprvs](../in
   
 ##### To test the new Domain Classes  
   
-1.  **Click Transform All Templates** in the toolbar of Solution Explorer, to generate the DSL designer code. You can automate this step. For more information, see [How to Automate Transform All Templates](http://msdn.microsoft.com/en-us/b63cfe20-fe5e-47cc-9506-59b29bca768a).  
+1.  **Click Transform All Templates** in the toolbar of Solution Explorer, to generate the DSL designer code. You can automate this step. For more information, see [How to Automate Transform All Templates](http://msdn.microsoft.com/b63cfe20-fe5e-47cc-9506-59b29bca768a).  
   
 2.  **Build and run the DSL.** Press F5 or CTRL+F5 to run a new instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] in experimental mode. In the experimental instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], open or create a file that has the file name extension of your DSL.  
   
@@ -623,6 +620,3 @@ To define a domain-specific language (DSL), you create a [!INCLUDE[vsprvs](../in
  [Getting Started with Domain-Specific Languages](../modeling/getting-started-with-domain-specific-languages.md)   
  [Creating a Windows Forms-Based Domain-Specific Language](../modeling/creating-a-windows-forms-based-domain-specific-language.md)   
  [Creating a WPF-Based Domain-Specific Language](../modeling/creating-a-wpf-based-domain-specific-language.md)
-
-
-

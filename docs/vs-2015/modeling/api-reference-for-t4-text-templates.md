@@ -1,17 +1,14 @@
 ---
 title: "API Reference for T4 Text Templates | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: reference
 ms.assetid: 63279da9-69ac-49ad-ac7d-43957c45e0ce
 caps.latest.revision: 8
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # API Reference for T4 Text Templates
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -25,6 +22,3 @@ The Text Templating API lets you invoke and customize the transformation of [tex
 |<xref:Microsoft.VisualStudio.TextTemplating>|Contains classes for the text template transformation functionality. The text template transformation engine is integrated into Visual Studio, and transforms text template files into generated text output files.|  
 |<xref:Microsoft.VisualStudio.TextTemplating.Modeling>|Provides text transformation facilities related to UML models and domain-specific languages, such as access to [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] ModelBus.|  
 |<xref:Microsoft.VisualStudio.TextTemplating.VSHost>|Provides access to the text templating service in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].|
-
-
-

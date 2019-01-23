@@ -1,19 +1,14 @@
 ---
 title: "Designing User Interfaces | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 ms.assetid: 880da508-7573-4434-b3a0-d48cf003c0a9
 caps.latest.revision: 13
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Designing User Interfaces
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,6 +25,3 @@ You can create and design the user interface for your application by using a var
 ## See Also  
  [Walkthrough: Create a Simple Application](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md)   
  [The Visual Studio Image Library](../designers/the-visual-studio-image-library.md)
-
-
-

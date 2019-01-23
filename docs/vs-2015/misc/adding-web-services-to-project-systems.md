@@ -1,20 +1,15 @@
 ---
 title: "Adding Web Services to Project Systems | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "devlang-csharp"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "project systems, adding Web services"
   - "Web services, adding to VSPackage project systems"
 ms.assetid: 8efa078b-68b2-45a2-9be2-44f807bc0d7f
 caps.latest.revision: 8
-manager: "douge"
+manager: jillfra
 ---
 # Adding Web Services to Project Systems
 XML Web services are, in general, URL-addressable resources that return programmatic information to the project system using the SOAP (Simple Object Access Protocol) protocol. You can integrate Web services to your VSPackage project system by using the <xref:Microsoft.VisualStudio.Shell.Interop.IVsAddProjectItemDlg2> interface.  

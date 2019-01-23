@@ -1,18 +1,13 @@
 ---
 title: "Writing Unit tests for C-C++ with the Microsoft Unit Testing Framework for C++ | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 ms.assetid: 4f4b5f10-7314-4725-8c6e-e72f52eff918
 caps.latest.revision: 16
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Writing Unit tests for C/C++ with the Microsoft Unit Testing Framework for C++
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -398,6 +393,3 @@ In Visual Studio, you can create unit tests for unmanaged code written in C++. U
  [Debugging Native Code](../debugger/debugging-native-code.md)   
  [Walkthrough: Creating and Using a Dynamic Link Library (C++)](http://msdn.microsoft.com/library/3ae94848-44e7-4955-bbad-7d40f493e941)   
  [Importing and Exporting](http://msdn.microsoft.com/library/7c44c2aa-2117-4cec-9615-a65bfd3f8f7b)
-
-
-

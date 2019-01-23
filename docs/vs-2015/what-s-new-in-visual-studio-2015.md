@@ -3,10 +3,7 @@ title: "What's New in Visual Studio 2015 | Microsoft Docs"
 titleSuffix: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: conceptual
 f1_keywords:
   - "VS.StartPage.WhatsNew"
 helpviewer_keywords:
@@ -16,7 +13,7 @@ ms.assetid: 7307e180-ba28-4774-8a43-cbb980085a71
 caps.latest.revision: 364
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # What&#39;s New in Visual Studio 2015
 [!INCLUDE[vs2017banner](./includes/vs2017banner.md)]

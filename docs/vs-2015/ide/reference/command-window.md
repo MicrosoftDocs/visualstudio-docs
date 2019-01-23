@@ -1,14 +1,9 @@
 ---
 title: "Command Window | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "VS.CommandWindow"
 helpviewer_keywords: 
@@ -21,7 +16,7 @@ ms.assetid: 48711628-1909-4713-a73e-d7b714c77f8a
 caps.latest.revision: 25
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Command Window
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -127,6 +122,3 @@ Edit.ReplaceInFiles /case /pattern:regex var[1-3]+ oldpar
 ## See Also  
  [Visual Studio Command Aliases](../../ide/reference/visual-studio-command-aliases.md)   
  [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)
-
-
-

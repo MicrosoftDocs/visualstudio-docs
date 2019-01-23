@@ -1,14 +1,9 @@
 ---
 title: "How to: Access the Built-in Fonts and Color Scheme | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "fonts, accessing built-in"
   - "font and color control [Visual Studio SDK], categories"
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 6905845e-e88e-4805-adcf-21da39108ec7
 caps.latest.revision: 24
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Access the Built-in Fonts and Color Scheme
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -101,4 +96,3 @@ if (spPropCatContainer != NULL){
  [Getting Font and Color Information for Text Colorization](../extensibility/getting-font-and-color-information-for-text-colorization.md)   
  [Accessing Stored Font and Color Settings](../extensibility/accessing-stored-font-and-color-settings.md)   
  [Font and Color Overview](../extensibility/font-and-color-overview.md)
-

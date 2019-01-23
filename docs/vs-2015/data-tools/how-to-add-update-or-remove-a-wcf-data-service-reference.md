@@ -1,12 +1,9 @@
 ---
 title: "How to: Add, Update, or Remove a WCF Data Service Reference | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 helpviewer_keywords: 
   - "service references [Visual Studio]"
   - "WCF Data Service reference"
@@ -17,7 +14,7 @@ ms.assetid: 892ebf37-3af4-472e-8744-92837677d611
 caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Add, Update, or Remove a WCF Data Service Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -93,4 +90,3 @@ A *service reference* enables a project to access one or more [!INCLUDE[ssAstori
   
 ## See Also  
  [Windows Communication Foundation Services and WCF Data Services in Visual Studio](../data-tools/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md)
-

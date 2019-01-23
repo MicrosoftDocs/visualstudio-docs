@@ -1,14 +1,9 @@
 ---
 title: "Registering Extensions of the .NET Framework | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Add References dialog box, registering extensions of the .NET Framework"
   - "MSBuild, registering extensions of the .NET Framework"
@@ -17,7 +12,7 @@ ms.assetid: deee6f53-ea87-4b88-a120-bea589822e03
 caps.latest.revision: 8
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Registering Extensions of the .NET Framework
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,6 +31,3 @@ You can develop an assembly that extends a specific version of the .NET Framewor
   
 ## See Also  
  [Visual Studio Integration](../msbuild/visual-studio-integration-msbuild.md)
-
-
-

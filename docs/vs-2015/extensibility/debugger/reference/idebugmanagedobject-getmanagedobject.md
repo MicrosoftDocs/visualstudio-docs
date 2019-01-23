@@ -1,14 +1,9 @@
 ---
 title: "IDebugManagedObject::GetManagedObject | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugManagedObject::GetManagedObject"
 helpviewer_keywords: 
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 6abe1402-6aad-41e6-8ec1-ae12d5945992
 caps.latest.revision: 10
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # IDebugManagedObject::GetManagedObject
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -49,4 +44,3 @@ int GetManagedObject(
   
 ## See Also  
  [IDebugManagedObject](../../../extensibility/debugger/reference/idebugmanagedobject.md)
-

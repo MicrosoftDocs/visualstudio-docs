@@ -1,12 +1,9 @@
 ---
 title: "Relationships in datasets | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 f1_keywords: 
   - "vbData.Microsoft.VSDesigner.DataSource.DesignRelation"
   - "vbdata.Microsoft.VSDesigner.DataSource.DesignRelation"
@@ -23,7 +20,7 @@ ms.assetid: cfe274f0-71fe-40f6-994e-7c7f6273c9ba
 caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Relationships in datasets
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -109,4 +106,3 @@ Datasets that contain related data tables use <xref:System.Data.DataRelation> ob
 1.  Open your dataset in the **Dataset Designer**. For more information, see [How to: Open a Dataset in the Dataset Designer](http://msdn.microsoft.com/library/36fc266f-365b-42cb-aebb-c993dc2c47c3).  
   
 2.  From the **Data** menu, select the **Show Relation Labels** command to display the relation name. Clear that command to hide the relation name.
-

@@ -1,12 +1,9 @@
 ---
 title: "Customizing the Model Explorer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 f1_keywords: 
   - "vs.dsltools.dsldesigner.explorerbehavior"
 helpviewer_keywords: 
@@ -15,7 +12,7 @@ ms.assetid: d2926444-9408-41d8-a27e-3fd0c416f9ac
 caps.latest.revision: 22
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Customizing the Model Explorer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -113,7 +110,4 @@ You can change the appearance and behavior of the explorer for your domain-speci
      The explorer should show only an **Actors** node, and should not show the **Comments** node.  
   
 ## See Also  
- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/en-us/ca5e84cb-a315-465c-be24-76aa3df276aa)
-
-
-
+ [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

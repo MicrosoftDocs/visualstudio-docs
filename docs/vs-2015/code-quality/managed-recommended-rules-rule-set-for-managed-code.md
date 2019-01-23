@@ -1,14 +1,9 @@
 ---
 title: "Managed Recommended Rules rule set for managed code | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 ms.assetid: 1d1160f8-4e51-4e70-99cd-82ad10ee7b32
 caps.latest.revision: 12
 author: gewarren
@@ -84,6 +79,3 @@ You can use the Microsoft Managed Recommended Rules rule set to focus on the mos
 |[CA2240](../code-quality/ca2240-implement-iserializable-correctly.md)|Implement ISerializable correctly|  
 |[CA2241](../code-quality/ca2241-provide-correct-arguments-to-formatting-methods.md)|Provide correct arguments to formatting methods|  
 |[CA2242](../code-quality/ca2242-test-for-nan-correctly.md)|Test for NaN correctly|
-
-
-
