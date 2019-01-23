@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2019 Preview"
 titleSuffix: ""
 description: "Learn about the new features in the preview release of Visual Studio 2019."
-ms.date: 12/19/2018
+ms.date: 01/24/2019
 ms.prod: visual-studio-dev16
 ms.custom: "seodec18"
 ms.topic: conceptual
