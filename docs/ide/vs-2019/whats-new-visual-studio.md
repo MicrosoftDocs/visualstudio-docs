@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2019 Preview"
 titleSuffix: ""
 description: "Learn about the new features in the preview release of Visual Studio 2019."
-ms.date: 12/19/2018
+ms.date: 01/24/2019
 ms.prod: visual-studio-dev16
 ms.custom: "seodec18"
 ms.topic: conceptual
@@ -20,10 +20,10 @@ monikerRange: vs-2019
 ---
 # What&#39;s new in Visual Studio 2019 Preview
 
-**Updated for the [16.0 Preview 1 release](/visualstudio/releases/2019/release-notes-preview?context=visualstudio/default&contextView=vs-2017)**
+**Updated for the [16.0 Preview 2 release](/visualstudio/releases/2019/release-notes-preview?context=visualstudio/default&contextView=vs-2017)**
 
 >[!div class="button"]
->[Download Preview](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?ch=pre&sku=Enterprise&rel=16)
+>[Download Preview](https://visualstudio.microsoft.com/vs/preview/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2019+preview)
 
 Visual Studio 2019 Preview includes many general improvements along with new features that optimize developer productivity and team collaboration. Whether you are using Visual Studio for the first time or you've been using it for years, you'll be able to take advantage of its features for all aspects of the development lifecycle&mdash;from simplified project creation and code health management, to team- and open-source collaborative workflows.<br/><br/>
 
