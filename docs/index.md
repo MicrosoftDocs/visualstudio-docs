@@ -139,8 +139,8 @@ ms.custom: seodec18
                                                                 </li>
                                                                 <li>
                                                                     <a class="barLink" href="/visualstudio/javascript/">
-                                                                        <img src="https://docs.microsoft.com/media/logos/logo_nodejs.svg" alt="Node.js icon">
-                                                                        Node.js</a>
+                                                                        <img src="https://docs.microsoft.com/media/logos/logo_js.svg" alt="JavaScript logo">
+                                                                        JavaScript</a>
                                                                 </li>
                                                             </ul>
                                                         </td>

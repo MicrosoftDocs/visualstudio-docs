@@ -7116,6 +7116,11 @@
             "source_path": "docs/ide/reference/setup-devenv-exe.md",
             "redirect_url": "/visualstudio/extensibility/devenv-command-line-switches-for-vspackage-development",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/whats-new-in-visual-studio.md",
+            "redirect_url": "/visualstudio/ide/whats-new-visual-studio",
+            "redirect_document_id": true
         }
     ]
 }
