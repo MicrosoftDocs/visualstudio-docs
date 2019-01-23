@@ -1,14 +1,9 @@
 ---
 title: "Preparing to Debug ASP.NET | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -20,7 +15,7 @@ ms.assetid: d65d7299-51dd-4337-b334-aa1cbb37b77e
 caps.latest.revision: 32
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Preparing to Debug ASP.NET
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

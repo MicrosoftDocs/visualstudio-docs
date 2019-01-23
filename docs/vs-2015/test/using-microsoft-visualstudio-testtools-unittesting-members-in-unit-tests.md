@@ -1,17 +1,13 @@
 ---
 title: "Using Microsoft.VisualStudio.TestTools.UnitTesting Members in Unit Tests | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 ms.assetid: 0fa335fd-e442-448f-913f-25a19df90a93
 caps.latest.revision: 8
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Using Microsoft.VisualStudio.TestTools.UnitTesting Members in Unit Tests
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

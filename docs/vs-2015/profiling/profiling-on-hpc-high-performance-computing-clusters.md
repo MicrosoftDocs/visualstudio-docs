@@ -1,14 +1,9 @@
 ---
 title: "Profiling on HPC (High Performance Computing) Clusters | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.performance.hpc.wizard.exeoptions"
   - "vs.performance.hpc.wizard.summary"
@@ -25,7 +20,7 @@ ms.assetid: 1525bbdb-27da-4088-8487-a486cee5e7b3
 caps.latest.revision: 27
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Profiling on HPC (High Performance Computing) Clusters
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -149,6 +144,3 @@ You can profile on compute nodes of Microsoft Windows HPC clusters by using the 
 |**Pre-profile script arguments**|Specifies the arguments to pass to the pre-profile script.|  
 |**Post-profile script**|Specifies the path and file name of a script to run on the local development computer after the profiling session ends.|  
 |**Post-profile script arguments**|Specifies the arguments to pass to the post-profile script.|
-
-
-

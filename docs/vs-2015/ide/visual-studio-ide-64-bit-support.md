@@ -1,13 +1,9 @@
 ---
 title: "64-Bit Support | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: conceptual
 helpviewer_keywords:
   - "64-bit applications [C++]"
   - "Visual Studio, 64-bit support"
@@ -16,7 +12,7 @@ ms.assetid: b08ff3ad-c6fd-468f-94d5-01a61aab6833
 caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Visual Studio IDE 64-Bit Support
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

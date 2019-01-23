@@ -1,20 +1,15 @@
 ---
 title: "Registering a Custom Debug Engine | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "debug engines, registering"
 ms.assetid: 9984cd3d-d34f-4662-9ace-31766499abf5
 caps.latest.revision: 7
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Registering a Custom Debug Engine
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]

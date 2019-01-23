@@ -1,14 +1,9 @@
 ---
 title: "Refactoring Classes and Types (Class Designer) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.ClassDesigner.OverrideMembersDialog"
 helpviewer_keywords: 
@@ -24,7 +19,7 @@ ms.assetid: dcf07bb4-fa3b-4224-9dec-566fd924a8ce
 caps.latest.revision: 30
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Refactoring Classes and Types (Class Designer)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

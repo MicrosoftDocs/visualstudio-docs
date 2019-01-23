@@ -1,14 +1,9 @@
 ---
 title: "Choosing Between Shared and Versioned VSPackages | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "SxS"
   - "side-by-side installation"
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: e3128ac3-2e92-48e9-87ab-3b6c9d80e8c9
 caps.latest.revision: 23
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Choosing Between Shared and Versioned VSPackages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

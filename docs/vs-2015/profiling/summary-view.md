@@ -1,14 +1,9 @@
 ---
 title: "Summary View | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.performance.view.summary"
 helpviewer_keywords: 
@@ -20,7 +15,7 @@ ms.assetid: 98a1eb71-bbf5-4ce7-8559-cdc29f082c4b
 caps.latest.revision: 42
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Summary View
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

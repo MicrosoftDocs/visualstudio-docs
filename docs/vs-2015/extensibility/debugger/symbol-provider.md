@@ -1,21 +1,16 @@
 ---
 title: "Symbol Provider | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "symbol handler"
   - "debugging [Debugging SDK], symbol handler"
 ms.assetid: 5fce651b-fead-4418-81b0-a011df7644ab
 caps.latest.revision: 18
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Symbol Provider
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -31,4 +26,3 @@ An expression evaluator implementation must access the symbolic debug informatio
   
 ## See Also  
  [Debugger Components](../../extensibility/debugger/debugger-components.md)
-

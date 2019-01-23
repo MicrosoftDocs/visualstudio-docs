@@ -1,20 +1,15 @@
 ---
 title: "Support for Settings Categories | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "devlang-csharp"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "settings, supporting with Visual Studio SDK"
   - "Visual Studio SDK, supporting settings"
 ms.assetid: 3bac375d-8bd5-41be-a8de-32eb33c5cfac
 caps.latest.revision: 20
-manager: "douge"
+manager: jillfra
 ---
 # Support for Settings Categories
 A settings category consists of a group of options that customize the integrated development environment (IDE). For example, settings can control the layout of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] windows and the contents of menus. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  

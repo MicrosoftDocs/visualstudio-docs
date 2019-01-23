@@ -1,14 +1,9 @@
 ---
 title: "Encapsulate Field Refactoring (C#) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-general
+ms.topic: reference
 f1_keywords: 
   - "vs.csharp.refactoring.encapsulatefield"
 dev_langs: 
@@ -20,7 +15,7 @@ ms.assetid: bf714a04-ab1e-49ce-99ce-dda1ebb1a17f
 caps.latest.revision: 26
 author: gewarren
 ms.author: gewarren
-manager: "wpickett"
+manager: jillfra
 ---
 # Encapsulate Field Refactoring (C#)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

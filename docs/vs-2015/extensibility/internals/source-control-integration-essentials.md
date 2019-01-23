@@ -1,14 +1,9 @@
 ---
 title: "Source Control Integration Essentials | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Source Control Integration, essentials"
   - "Source Control Integration,overview"
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 442057cb-fd54-4283-96f8-2f6dc8bf2de7
 caps.latest.revision: 10
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Source Control Integration Essentials
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -55,4 +50,3 @@ manager: "ghogen"
  [Overview](../../extensibility/internals/source-control-integration-overview.md)   
  [Creating a Source Control Plug-in](../../extensibility/internals/creating-a-source-control-plug-in.md)   
  [Creating a Source Control VSPackage](../../extensibility/internals/creating-a-source-control-vspackage.md)
-

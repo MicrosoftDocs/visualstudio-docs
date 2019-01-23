@@ -1,13 +1,9 @@
 ---
 title: "How to: Move Around in the IDE | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: conceptual
 helpviewer_keywords:
   - "environments [Visual Studio], navigation"
   - "documents [Visual Studio], navigating"
@@ -21,7 +17,7 @@ ms.assetid: 6c36b6eb-c93f-496b-af08-4199f7afd8bd
 caps.latest.revision: 33
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Move Around in the Visual Studio IDE
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

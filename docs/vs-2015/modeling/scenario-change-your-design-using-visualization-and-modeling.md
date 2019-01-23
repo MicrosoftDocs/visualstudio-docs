@@ -1,13 +1,9 @@
 ---
 title: "Scenario: Change your design using visualization and modeling | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-techdebt"
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.technology: "vs-devops-techdebt"
 ms.topic: conceptual
 helpviewer_keywords: 
   - "code visualization [Visual Studio ALM]"
@@ -21,7 +17,7 @@ ms.assetid: ccc80825-a4a0-44fa-a0bb-f95254785a3b
 caps.latest.revision: 63
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Scenario: Change your design using visualization and modeling
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

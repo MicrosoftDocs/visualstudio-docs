@@ -1,12 +1,9 @@
 ---
 title: "Accessing data"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 f1_keywords:
   - "80025080"
 dev_langs:
@@ -23,7 +20,7 @@ ms.assetid: 9812a6d5-23d2-4427-8b98-70a2abfec3bc
 caps.latest.revision: 103
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 robots: noindex,nofollow
 ---
 # Accessing data in Visual Studio

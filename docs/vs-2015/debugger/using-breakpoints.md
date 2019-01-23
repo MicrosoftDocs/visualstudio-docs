@@ -1,13 +1,8 @@
 ---
 title: "Using Breakpoints | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
+ms.technology: "vs-ide-debug"
 ms.topic: conceptual
 f1_keywords: 
   - "vs.debug.breakpointswin"
@@ -45,7 +40,7 @@ ms.assetid: 020b2e97-3b3e-4b2c-872d-b5c6025e120e
 caps.latest.revision: 63
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Using Breakpoints
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -253,6 +248,3 @@ You can set breakpoints when you want to stop debugger execution, perhaps to see
   
 ## See Also  
  [Navigating through Code with the Debugger](../debugger/navigating-through-code-with-the-debugger.md)
-
-
-

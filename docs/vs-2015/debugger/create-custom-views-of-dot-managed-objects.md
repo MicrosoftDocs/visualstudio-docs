@@ -1,14 +1,9 @@
 ---
 title: "Create Custom Views of Managed Objects | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.debug.data.elements"
 dev_langs: 
@@ -28,7 +23,7 @@ ms.assetid: 9969e9b2-9008-4729-8a14-0d6deaa61576
 caps.latest.revision: 37
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Create Custom Views of Managed Objects
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

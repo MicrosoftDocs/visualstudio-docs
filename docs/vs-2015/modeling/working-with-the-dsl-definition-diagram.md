@@ -1,12 +1,9 @@
 ---
 title: "Working with the DSL Definition Diagram | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 f1_keywords: 
   - "vs.dsltools.dsldesigner.diagram"
   - "vs.dsltools.dsldesigner.dsldiagram"
@@ -20,7 +17,7 @@ ms.assetid: 1a4c7a58-e134-438e-848e-efd98f92bf10
 caps.latest.revision: 23
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Working with the DSL Definition Diagram
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

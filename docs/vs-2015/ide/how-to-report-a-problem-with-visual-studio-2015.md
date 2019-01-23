@@ -8,7 +8,7 @@ ms.assetid: 24ecb76e-b7ad-432d-88ab-d9849963465d
 caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to Report a Problem with Visual Studio 2015
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

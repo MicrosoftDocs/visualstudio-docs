@@ -1,14 +1,9 @@
 ---
 title: "Choose Toolbox Items, WPF Components | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "vs.chooseitems.wpfcomponents"
 helpviewer_keywords: 
@@ -18,7 +13,7 @@ ms.assetid: 6ce1d178-88c0-4295-8915-59fdeedabb11
 caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Choose Toolbox Items, WPF Components
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]

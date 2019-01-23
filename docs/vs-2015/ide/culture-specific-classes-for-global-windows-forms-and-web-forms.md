@@ -1,14 +1,9 @@
 ---
 title: "Culture-Specific Classes for Global Windows Forms and Web Forms | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "globalization [Windows Forms], classes"
   - "Web applications [.NET Framework], globalization"
@@ -30,7 +25,7 @@ ms.assetid: 0d06a0a4-f887-4f7c-bde7-1d543c06f803
 caps.latest.revision: 11
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Culture-Specific Classes for Global Windows Forms and Web Forms
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

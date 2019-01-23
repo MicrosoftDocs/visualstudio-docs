@@ -1,13 +1,9 @@
 ---
 title: "GUIDs and IDs of Toolbars | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: conceptual
 helpviewer_keywords:
   - "visual studio groups"
   - "toolbars"
@@ -19,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: c9cacd57-9225-450f-a9ac-cbf3168ea844
 caps.latest.revision: 8
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # GUIDs and IDs of Visual Studio Toolbars
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]

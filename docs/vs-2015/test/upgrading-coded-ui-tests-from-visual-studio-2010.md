@@ -2,12 +2,12 @@
 title: "Upgrading Coded UI Tests"
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.technology: vs-devops-test
+ms.technology: vs-ide-test
 ms.topic: conceptual
 ms.assetid: 11232a83-73ea-46bd-bc0c-46f74f6e3a42
 caps.latest.revision: 35
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Upgrading Coded UI Tests from Visual Studio 2010
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

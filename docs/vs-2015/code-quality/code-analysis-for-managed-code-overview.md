@@ -1,14 +1,9 @@
 ---
 title: "Code Analysis for Managed Code Overview | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: overview
 f1_keywords: 
   - "vs.projectpropertypages.codeanalysis"
 helpviewer_keywords: 
@@ -67,6 +62,3 @@ Code analysis for managed code analyzes managed assemblies and reports informati
 ## See Also  
  [Using Rule Sets to Group Code Analysis Rules](../code-quality/using-rule-sets-to-group-code-analysis-rules.md)   
  [How to: Enable and Disable Automatic Code Analysis](../code-quality/how-to-enable-and-disable-automatic-code-analysis-for-managed-code.md)
-
-
-

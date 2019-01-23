@@ -1,12 +1,9 @@
 ---
 title: "Configure Service Reference Dialog Box | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: reference
 f1_keywords: 
   - "msvse_wcf.dlg.ConfigureServiceReference"
 helpviewer_keywords: 
@@ -17,7 +14,7 @@ ms.assetid: 25e4c36b-2db6-4e71-9010-b7068255d09d
 caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Configure Service Reference Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

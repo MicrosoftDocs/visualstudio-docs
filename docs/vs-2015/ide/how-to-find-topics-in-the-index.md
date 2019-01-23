@@ -1,14 +1,9 @@
 ---
 title: "How to: Find Topics in the Index | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Index tab [Help Viewer 2.0]"
   - "Help Viewer 2.0, using the index"
@@ -20,7 +15,7 @@ ms.assetid: cb071e93-f297-459c-a6fa-8ae0dabc42a4
 caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Find Topics in the Index
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,6 +39,3 @@ The index contains a list of keywords that are associated with topics in the ins
   
 ## See Also  
  [Index Search Tips](../ide/index-search-tips.md)
-
-
-

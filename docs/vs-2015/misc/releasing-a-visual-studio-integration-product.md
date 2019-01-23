@@ -1,19 +1,15 @@
 ---
 title: "Releasing an Integration Product | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: conceptual
 helpviewer_keywords:
   - "VSPackages, shipping"
   - "VSPackages, distributing"
 ms.assetid: c94ed6a5-d5a2-40d3-b227-65318a3eb364
 caps.latest.revision: 17
-manager: "douge"
+manager: jillfra
 ---
 # Releasing a Visual Studio Integration Product
 The topics in this section show you how to release your Visual Studio integration product by building and installing VSPackages and using Visual Studio Integration Test (VSIT).

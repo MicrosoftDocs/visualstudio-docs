@@ -1,14 +1,9 @@
 ---
 title: "How To: Create a Data-Driven Unit Test | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 f1_keywords: 
   - "vs.test.testresults.unittest.datadriven"
   - "vs.test.testresults.unittest.datadriven.failure"
@@ -19,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: a0322bc5-02c8-4f9f-af43-100a60b1bd28
 caps.latest.revision: 35
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # How To: Create a Data-Driven Unit Test
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

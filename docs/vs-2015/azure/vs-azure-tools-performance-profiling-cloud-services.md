@@ -2,7 +2,7 @@
 title: Testing the performance of a cloud service | Microsoft Docs
 description: Test the performance of a cloud service using the Visual Studio profiler
 author: mikejo5000
-manager: douge
+manager: jillfra
 ms.assetid: 7a5501aa-f92c-457c-af9b-92ea50914e24
 ms.topic: conceptual
 ms.tgt_pltfrm: multiple
@@ -105,4 +105,3 @@ A profiling session is created for each instance of a role in your cloud service
 [Debugging Cloud Services](https://msdn.microsoft.com/library/azure/ee405479.aspx)
 
 [Publishing to an Azure Cloud Service from Visual Studio](https://msdn.microsoft.com/library/azure/ee460772.aspx)
-

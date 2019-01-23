@@ -1,14 +1,9 @@
 ---
 title: "Using the Task List | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 f1_keywords: 
   - "TaskListWindow"
   - "VS.TaskList"
@@ -20,7 +15,7 @@ ms.assetid: f46a75a8-47b3-4cb6-bb59-b72e3356a664
 caps.latest.revision: 33
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Using the Task List
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -127,6 +122,3 @@ Use the **Task List** to track code comments that use tokens such as `TODO` and 
   
 ## See Also  
  [Task List, Environment, Options Dialog Box](../ide/reference/task-list-environment-options-dialog-box.md)
-
-
-

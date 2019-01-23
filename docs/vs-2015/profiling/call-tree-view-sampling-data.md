@@ -1,14 +1,9 @@
 ---
 title: "Call Tree View - Sampling Data | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "sampling profiling method,Call Tree view"
   - "Call Tree view"
@@ -16,7 +11,7 @@ ms.assetid: 5c4e8ec3-d0d3-485a-93bd-9060df4eb739
 caps.latest.revision: 21
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Call Tree View - Sampling Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -60,6 +55,3 @@ The Call Tree view displays the function execution paths that were traversed in 
  [Call Tree View - Sampling](../profiling/call-tree-view-dotnet-memory-sampling-data.md)   
  [Call Tree View - Instrumentation](../profiling/call-tree-view-dotnet-memory-instrumentation-data.md)   
  [Call Tree View](../profiling/call-tree-view-instrumentation-data.md)
-
-
-

@@ -1,14 +1,9 @@
 ---
 title: "How to: Use the Modules Window | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.debug.modules"
 dev_langs: 
@@ -31,7 +26,7 @@ ms.assetid: d840fdca-b035-4452-b652-72580c831896
 caps.latest.revision: 41
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Use the Modules Window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

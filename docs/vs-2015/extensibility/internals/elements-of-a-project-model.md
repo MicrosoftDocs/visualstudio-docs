@@ -1,14 +1,9 @@
 ---
 title: "Elements of a Project Model | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "projects [Visual Studio SDK], implementation considerations"
   - "project models"
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: a1dbe0dc-68da-45d7-8704-5b43ff7e4fc4
 caps.latest.revision: 19
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Elements of a Project Model
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]

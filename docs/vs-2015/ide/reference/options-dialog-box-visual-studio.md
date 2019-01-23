@@ -1,13 +1,9 @@
 ---
 title: "Options Dialog Box | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: reference
 f1_keywords:
   - "vs.toolsoptionspages"
 helpviewer_keywords:
@@ -19,7 +15,7 @@ ms.assetid: 02b09877-1df1-4531-a0d1-a4ca17c7f857
 caps.latest.revision: 23
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Options Dialog Box (Visual Studio)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]

@@ -1,17 +1,14 @@
 ---
 title: "Using ModelBus in a Text Template | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 ms.assetid: 5ed3e5c2-f60f-43c7-8ef4-754f511339c5
 caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Using Visual Studio ModelBus in a Text Template
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

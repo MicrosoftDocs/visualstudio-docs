@@ -3,10 +3,7 @@ title: "Install Visual Studio 2015 | Microsoft Docs"
 titleSuffix: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: "vs-ide-install"
-ms.tgt_pltfrm: ""
 ms.topic: conceptual
 f1_keywords:
   - "vs.about"
@@ -21,7 +18,7 @@ ms.assetid: da049020-cfda-40d7-8ff4-7492772b620f
 caps.latest.revision: 183
 author: TerryGLee
 ms.author: tglee
-manager: "ghogen"
+manager: jillfra
 ---
 # Install Visual Studio 2015
 

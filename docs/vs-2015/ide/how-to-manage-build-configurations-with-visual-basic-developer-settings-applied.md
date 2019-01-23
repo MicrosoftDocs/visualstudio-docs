@@ -1,14 +1,9 @@
 ---
 title: "How to: Manage Build Configurations with Visual Basic Developer Settings Applied | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Visual Studio, building with Visual Basic settings"
   - "MSBuild, debug build"
@@ -21,7 +16,7 @@ ms.assetid: eaea6e0b-6c61-4869-8d63-d372c745a23c
 caps.latest.revision: 11
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Manage Build Configurations with Visual Basic Developer Settings Applied
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

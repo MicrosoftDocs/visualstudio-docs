@@ -1,18 +1,13 @@
 ---
 title: "How to: Configure Unit Tests to Target An Earlier Version of the .NET Framework | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 ms.assetid: adb6c011-5abd-41d2-8ead-08cd7579bf37
 caps.latest.revision: 14
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # How to: Configure Unit Tests to Target An Earlier Version of the .NET Framework
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

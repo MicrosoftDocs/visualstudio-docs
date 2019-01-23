@@ -1,14 +1,9 @@
 ---
 title: "Anonymous Methods and Code Analysis | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 helpviewer_keywords: 
   - "methods, anonymous"
   - "code analysis, anonymous methods"
@@ -153,6 +148,3 @@ class Class
   
 ## See Also  
  [Analyzing Managed Code Quality](../code-quality/analyzing-managed-code-quality-by-using-code-analysis.md)
-
-
-

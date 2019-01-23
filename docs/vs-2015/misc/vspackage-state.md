@@ -1,21 +1,16 @@
 ---
 title: "VSPackage State | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "devlang-csharp"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "state, VSPackages"
   - "VSPackages, managing application state"
   - "state persistence"
 ms.assetid: 6056a9ea-e7a8-481c-9fc8-340229fa12d9
 caps.latest.revision: 25
-manager: "douge"
+manager: jillfra
 ---
 # VSPackage State
 Many factors determine the set of persisted values, or state, of a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] application.  

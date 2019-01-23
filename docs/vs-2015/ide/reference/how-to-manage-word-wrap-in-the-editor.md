@@ -1,14 +1,9 @@
 ---
 title: "How to: Manage Word Wrap in the Editor | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 helpviewer_keywords: 
   - "word wrap"
   - "editors, text viewing"
@@ -17,7 +12,7 @@ ms.assetid: 442f33ef-9f52-4515-b55f-fb816d664645
 caps.latest.revision: 12
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Manage Word Wrap in the Editor
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]

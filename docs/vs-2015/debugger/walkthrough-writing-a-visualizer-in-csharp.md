@@ -1,14 +1,9 @@
 ---
 title: "Walkthrough: Writing a Visualizer in C# | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -21,7 +16,7 @@ ms.assetid: 53467461-8e0f-45ee-9bc4-374bbaeaf00f
 caps.latest.revision: 36
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Walkthrough: Writing a Visualizer in C# #
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

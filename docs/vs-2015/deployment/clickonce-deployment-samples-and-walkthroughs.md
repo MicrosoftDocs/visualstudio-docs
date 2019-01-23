@@ -1,14 +1,9 @@
 ---
 title: "ClickOnce Deployment Samples and Walkthroughs | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -22,7 +17,7 @@ ms.assetid: 3973276b-7b11-4692-a0a2-32bebf0b9c2a
 caps.latest.revision: 8
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # ClickOnce Deployment Samples and Walkthroughs
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

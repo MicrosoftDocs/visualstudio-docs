@@ -1,7 +1,8 @@
 ---
 title: Create parameterized TableAdapter queries
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
 ms.topic: conceptual
 helpviewer_keywords: 
   - "data [Visual Studio], TableAdapters"
@@ -14,7 +15,7 @@ ms.assetid: 104d1d19-b5a9-4071-b81e-1b3af08e9c7b
 caps.latest.revision: 24
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Create parameterized TableAdapter queries
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

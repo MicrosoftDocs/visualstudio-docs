@@ -1,14 +1,9 @@
 ---
 title: "Working with Class Diagrams (Class Designer) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "class diagrams"
   - "documentation, using class diagrams"
@@ -20,7 +15,7 @@ ms.assetid: 37908cb7-f77b-4698-a4f9-3c21e5440fee
 caps.latest.revision: 29
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Working with Class Diagrams (Class Designer)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

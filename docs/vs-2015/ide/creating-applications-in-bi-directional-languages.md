@@ -1,14 +1,9 @@
 ---
 title: "Creating Applications in Bi-directional Languages | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Hebrew character display, creating applications"
   - "bi-directional language support, about bi-directional language support"
@@ -17,7 +12,7 @@ ms.assetid: b56f9795-ed8d-4452-9d49-8ca0b0145d86
 caps.latest.revision: 11
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Creating Applications in Bi-directional Languages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

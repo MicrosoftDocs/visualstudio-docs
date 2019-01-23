@@ -1,18 +1,14 @@
 ---
 title: "JavaScript"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: "devlang-javascript"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-javascript
+ms.topic: conceptual
 ms.assetid: f3eee13e-30e4-4bc1-81f5-058d7e379b75
 caps.latest.revision: 18
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # JavaScript in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

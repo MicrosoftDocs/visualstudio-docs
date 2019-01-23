@@ -1,21 +1,16 @@
 ---
 title: "Support for Project and Configuration Properties | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "project properties, supporting with Visual Studio SDK"
   - "configuration properties, suppporting with Visual Studio SDK"
 ms.assetid: 9fcfaa0f-7b41-4b68-82ec-7a151dca5d7e
 caps.latest.revision: 26
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Support for Project and Configuration Properties
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]

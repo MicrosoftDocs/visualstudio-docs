@@ -1,21 +1,16 @@
 ---
 title: "Item Definitions | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 helpviewer_keywords: 
   - "msbuild, item definitions"
 ms.assetid: 8e3dc223-f9e5-4974-aa0e-5dc7967419cb
 caps.latest.revision: 24
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Item Definitions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -241,6 +236,3 @@ manager: "ghogen"
   
 ## See Also  
  [Batching](../msbuild/msbuild-batching.md)
-
-
-

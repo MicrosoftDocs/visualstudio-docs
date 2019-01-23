@@ -1,14 +1,9 @@
 ---
 title: "Native Minimum Rules rule set | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 ms.assetid: 2d898bc4-fba5-472e-8f09-b0c6b511c5a3
 caps.latest.revision: 5
 author: gewarren

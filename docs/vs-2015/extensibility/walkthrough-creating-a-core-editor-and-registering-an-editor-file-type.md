@@ -1,20 +1,15 @@
 ---
 title: "Walkthrough: Creating a Core Editor and Registering an Editor File Type | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], legacy - walkthrough"
 ms.assetid: 24d2bffd-a35c-46db-8515-fd60b884b7fb
 caps.latest.revision: 30
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Walkthrough: Creating a Core Editor and Registering an Editor File Type
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

@@ -1,13 +1,9 @@
 ---
 title: "Compiling and Building"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: conceptual
 helpviewer_keywords:
   - "builds [Visual Studio], about building in Visual Studio"
   - "custom build steps, types of builds"
@@ -15,7 +11,7 @@ ms.assetid: c7958821-285f-4e28-9e7a-b5d8b40336a1
 caps.latest.revision: 30
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Compiling and Building in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

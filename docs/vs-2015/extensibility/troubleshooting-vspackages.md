@@ -1,21 +1,16 @@
 ---
 title: "Troubleshooting VSPackages | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: troubleshooting
 helpviewer_keywords: 
   - "VSPackages, troubleshooting"
   - "debugging, VSPackages"
 ms.assetid: 274673e7-72e7-476f-a263-3411b5b874be
 caps.latest.revision: 23
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Troubleshooting VSPackages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

@@ -1,14 +1,9 @@
 ---
 title: "Client Block Hook Functions | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.debug.hooks"
 dev_langs: 
@@ -27,7 +22,7 @@ ms.assetid: f21c197e-565d-4e3f-9b27-4c018c9b87fc
 caps.latest.revision: 18
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Client Block Hook Functions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

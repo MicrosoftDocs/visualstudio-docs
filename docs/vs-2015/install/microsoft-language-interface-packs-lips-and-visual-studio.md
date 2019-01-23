@@ -1,13 +1,9 @@
 ---
 title: "Microsoft Language Interface Packs (LIPs) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: "vs-ide-install"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: conceptual
 helpviewer_keywords:
   - "text [Visual Studio], multiple languages"
   - "Multilingual User Interface [Visual Studio]"
@@ -21,7 +17,7 @@ ms.assetid: dc86304b-65b7-47e6-9314-1dfd02ecfa65
 caps.latest.revision: 28
 author: TerryGLee
 ms.author: tglee
-manager: "ghogen"
+manager: jillfra
 ---
 # Microsoft Language Interface Packs (LIPs) and Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

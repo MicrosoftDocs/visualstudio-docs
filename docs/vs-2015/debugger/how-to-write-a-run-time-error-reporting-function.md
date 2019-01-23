@@ -1,14 +1,9 @@
 ---
 title: "How to: Write a Run-Time Error Reporting Function | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -25,7 +20,7 @@ ms.assetid: 989bf312-5038-44f3-805f-39a34d18760e
 caps.latest.revision: 20
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Write a Run-Time Error Reporting Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -128,8 +123,3 @@ int main()
   
 ## See Also  
  [Native Run-Time Checks Customization](../debugger/native-run-time-checks-customization.md)
-
-
-
-
-

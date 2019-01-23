@@ -1,14 +1,9 @@
 ---
 title: "Registering Project and Item Templates | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "projects [Visual Studio SDK], adding items"
   - "registry, Add New Item dialog box"
@@ -18,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 6b909f93-d7f5-4aec-81c6-ee9ff0f31638
 caps.latest.revision: 28
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Registering Project and Item Templates
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -122,4 +117,3 @@ Project types must register the directories where their project and project-item
  [Wizards](../../extensibility/internals/wizards.md)   
  [Localizing Applications](../../ide/localizing-applications.md)   
  [CATIDs for Objects That Are Typically Used to Extend Projects](../../extensibility/internals/catids-for-objects-that-are-typically-used-to-extend-projects.md)
-

@@ -1,14 +1,9 @@
 ---
 title: "Options, Text Editor, All Languages, Tabs | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "VS.ToolsOptionsPages.Text_Editor.ResJSON.Tabs"
   - "VS.ToolsOptionsPages.Text_Editor.JavaScript.Tabs"
@@ -25,7 +20,7 @@ ms.assetid: 7e208e1d-5e3a-4bf7-a27b-4417e3e049c7
 caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Options, Text Editor, All Languages, Tabs
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]

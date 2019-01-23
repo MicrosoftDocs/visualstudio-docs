@@ -1,14 +1,9 @@
 ---
 title: "How VSPackages Add User Interface Elements | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "user interfaces, adding elements"
   - "UI element design [Visual Studio SDK], VSPackages"
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: abc5d9d9-b267-48a1-92ad-75fbf2f4c1b9
 caps.latest.revision: 61
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # How VSPackages Add User Interface Elements
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -302,4 +297,3 @@ priority="0x0100" type="Menu">
   
 ## See Also  
  [Extending Menus and Commands](../../extensibility/extending-menus-and-commands.md)
-

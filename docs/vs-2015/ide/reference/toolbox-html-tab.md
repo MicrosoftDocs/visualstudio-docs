@@ -1,14 +1,9 @@
 ---
 title: "Toolbox, HTML Tab | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "vs.toolbox.html"
 helpviewer_keywords: 
@@ -19,7 +14,7 @@ ms.assetid: 9bfdd3b8-f5ac-4a5f-bdbf-c2b4e97641d8
 caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Toolbox, HTML Tab
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]

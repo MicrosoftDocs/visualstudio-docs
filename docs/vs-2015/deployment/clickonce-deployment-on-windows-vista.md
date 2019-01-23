@@ -1,14 +1,9 @@
 ---
 title: "ClickOnce Deployment on Windows Vista | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -22,7 +17,7 @@ ms.assetid: b21a0ebc-0ff6-4f49-8993-7d1ad3f8cac2
 caps.latest.revision: 14
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # ClickOnce Deployment on Windows Vista
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

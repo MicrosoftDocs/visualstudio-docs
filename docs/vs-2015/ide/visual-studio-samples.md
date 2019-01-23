@@ -1,20 +1,16 @@
 ---
 title: "Samples | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: conceptual
 helpviewer_keywords:
   - "sample applications [Visual Studio]"
 ms.assetid: 3070fa13-46c7-4252-a1c2-857b4a2c9528
 caps.latest.revision: 58
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Visual Studio Samples
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

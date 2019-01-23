@@ -1,19 +1,14 @@
 ---
 title: "Walkthrough: Using Graphics Diagnostics to Debug a Compute Shader | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 ms.assetid: 69287456-644b-4aff-bd03-b1bbb2abb82a
 caps.latest.revision: 15
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Walkthrough: Using Graphics Diagnostics to Debug a Compute Shader
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -109,6 +104,3 @@ This walkthrough demonstrates how to use the Visual Studio Graphics Diagnostics 
    In this scenario, because the compute shaders are compiled at run time, you can just restart the app after you make the changes to observe how they affect the simulation. You don't have to rebuild the app. When you run the app, you discover that the simulation now behaves correctly.  
   
    ![The simulated fluid behaves correctly.](../debugger/media/gfx-diag-demo-compute-shader-fluid-resolution.png "gfx_diag_demo_compute_shader_fluid_resolution")
-
-
-

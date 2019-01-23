@@ -1,14 +1,9 @@
 ---
 title: "How to: Customize the Code Analysis Dictionary | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 helpviewer_keywords: 
   - "code analysis dictionary"
   - "custom dictionary, code analysis"
@@ -274,6 +269,3 @@ Code Analysis uses a built-in dictionary to check identifiers in your code for e
 5.  From the **Build Action** list, select **CodeAnalysisDictionary**.  
   
 6.  From the **Copy to Output Directory** list, select **Do not copy**.
-
-
-

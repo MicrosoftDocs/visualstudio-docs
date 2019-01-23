@@ -1,14 +1,9 @@
 ---
 title: "Creating and Using Code Analysis Check-In Policies | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 helpviewer_keywords: 
   - "code analysis, check-in policies"
 ms.assetid: 3fa5a849-e05f-4e31-8ba3-b014c889d94d
@@ -46,6 +41,3 @@ When you use Team Foundation Version Control (TFVC), you can create a code analy
  [Set and Enforce Quality Gates](http://msdn.microsoft.com/library/bdc5666e-6cf0-45b2-a0a1-133c3f61e852)  
   
  [Enhancing Code Quality with Team Project Check-in Policies](../code-quality/enhancing-code-quality-with-team-project-check-in-policies.md)
-
-
-

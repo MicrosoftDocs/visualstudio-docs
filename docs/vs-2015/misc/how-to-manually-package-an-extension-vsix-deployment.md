@@ -1,17 +1,12 @@
 ---
 title: "How to: Manually Package an Extension (VSIX Deployment) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "devlang-csharp"
+ms.topic: conceptual
 ms.assetid: d25990e0-e782-4a79-9d9a-1caf3c56c6a2
 caps.latest.revision: 10
-manager: "douge"
+manager: jillfra
 ---
 # How to: Manually Package an Extension (VSIX Deployment)
 You can create a VSIX package to wrap a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] extension for deployment. There are three ways to create the package:  

@@ -1,21 +1,16 @@
 ---
 title: "Upgrading Custom Projects | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "devlang-csharp"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "upgrading project systems"
   - "projects [Visual Studio SDK], upgrading"
   - "project system upgrades [Visual Studio]"
 ms.assetid: 262ada44-7689-44d8-bacb-9c6d33834d4e
 caps.latest.revision: 11
-manager: "douge"
+manager: jillfra
 ---
 # Upgrading Custom Projects
 If you change the information persisted in the project file between different Visual Studio versions of your product, then you need to support upgrading your project file from the old to the new version. To support upgrading that allows you to participate in the **Visual Studio Conversion Wizard**, implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgradeViaFactory> interface. This interface contains the only mechanism available for copy upgrading. The upgrading of the project happens as a part of the solution opens. The <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgradeViaFactory> interface is implemented by the project factory, or should at least be obtainable from the project factory.  

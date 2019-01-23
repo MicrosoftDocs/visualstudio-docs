@@ -1,14 +1,9 @@
 ---
 title: "Convert Dialog Box | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "jlca_Conversion_F1_3"
   - "JLCA_Conversion_F1"
@@ -19,7 +14,7 @@ ms.assetid: 56f23ef7-17c4-4d76-9ead-982bbcd42061
 caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Convert Dialog Box
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]

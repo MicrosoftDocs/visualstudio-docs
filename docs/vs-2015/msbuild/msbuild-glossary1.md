@@ -1,15 +1,14 @@
 ---
 title: "Glossary of MSBuild terms"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.technology: "vs-ide-sdk"
+ms.technology: msbuild
 ms.topic: reference
 ms.assetid: f767d8e4-24d8-4803-80eb-e857202dbe2c
 caps.latest.revision: 25
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # MSBuild glossary
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

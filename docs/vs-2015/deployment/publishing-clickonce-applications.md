@@ -1,14 +1,9 @@
 ---
 title: "Publishing ClickOnce Applications | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 f1_keywords: 
   - "Microsoft.VisualStudio.Publish.ClickOnceProvider.Dialog.Options"
   - "Microsoft.VisualStudio.Publish.ClickOnceProvider.PublishWizard.Help"
@@ -25,7 +20,7 @@ ms.assetid: eb6dfe79-f54c-4331-8e36-073688e70973
 caps.latest.revision: 24
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # Publishing ClickOnce Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

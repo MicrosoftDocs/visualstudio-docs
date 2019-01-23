@@ -1,14 +1,9 @@
 ---
 title: "Measuring Complexity and Maintainability of Managed Code | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 f1_keywords: 
   - "vs.codeanalysis.codemetrics.toolwindow"
 helpviewer_keywords: 
@@ -23,7 +18,7 @@ ms.assetid: 952b6f2e-584f-4c97-a5ba-42d7bd47a576
 caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Measuring Complexity and Maintainability of Managed Code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

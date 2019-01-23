@@ -1,19 +1,16 @@
 ---
 title: "Working with the Domain-Specific Language Explorer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Domain-Specific Language Tools, DSL Explorer"
 ms.assetid: ca0e8550-bb55-4218-92e2-f79ab5308d4f
 caps.latest.revision: 13
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Working with the Domain-Specific Language Explorer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

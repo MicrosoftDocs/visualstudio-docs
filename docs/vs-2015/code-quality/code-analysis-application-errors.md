@@ -2,7 +2,7 @@
 title: Code Analysis Application Errors
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.technology: "vs-devops-test"
+ms.technology: vs-ide-code-analysis
 ms.topic: reference
 helpviewer_keywords:
   - "errors [Visual Studio ALM], code analysis"
@@ -13,7 +13,7 @@ ms.assetid: d8fd9475-ac9b-4085-b5a3-b0c807922cac
 caps.latest.revision: 25
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ---
 # Code Analysis Application Errors
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

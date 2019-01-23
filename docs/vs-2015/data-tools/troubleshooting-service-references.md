@@ -1,12 +1,9 @@
 ---
 title: "Troubleshooting Service References | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: reference
 f1_keywords:
   - "msvse_wcf.Err.ReferenceGroup_NamespaceConflictsOther"
   - "msvse_wcf.Err.AddSvcRefDlg_NothingSelectedOnGo"
@@ -19,7 +16,7 @@ ms.assetid: 3b531120-1325-4734-90c6-6e6113bd12ac
 caps.latest.revision: 25
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Troubleshooting Service References
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

@@ -1,14 +1,10 @@
 ---
 title: "Create models for your app | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-techdebt"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.technology: "vs-devops-techdebt"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.teamarch.common.commentlink.properties"
   - "vs.teamarch.UMLModelExplorer.dependency"
@@ -41,7 +37,7 @@ ms.assetid: b69d9d91-c7e7-4dee-8eb6-706076eecb85
 caps.latest.revision: 60
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Create models for your app
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

@@ -1,13 +1,9 @@
 ---
 title: "Use UI Automation To Test Your Code | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 f1_keywords:
   - "vs.codedUITest"
   - "vs.codedUITest.recorder"
@@ -20,7 +16,7 @@ helpviewer_keywords:
 ms.assetid: ad9e3eaa-ab86-436e-95b8-dc20eb1f8b2a
 caps.latest.revision: 87
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Use UI Automation To Test Your Code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

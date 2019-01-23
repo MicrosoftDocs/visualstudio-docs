@@ -1,14 +1,9 @@
 ---
 title: "How to: Find Which DLL Your Program Crashed In | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.debug.dll"
 dev_langs: 
@@ -30,7 +25,7 @@ ms.assetid: ecf62568-8b65-4a41-b8a4-e962ff2dfb71
 caps.latest.revision: 22
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Find Which DLL Your Program Crashed In
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

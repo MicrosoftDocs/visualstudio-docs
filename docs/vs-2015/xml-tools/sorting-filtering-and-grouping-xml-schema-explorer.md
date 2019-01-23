@@ -1,19 +1,14 @@
 ---
 title: "Sorting, Filtering, and Grouping (XML Schema Explorer) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: 4a914de0-9ffc-4526-9603-92e460e52513
 caps.latest.revision: 11
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Sorting, Filtering, and Grouping (XML Schema Explorer)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -76,8 +71,3 @@ This topic describes the options that are available through the **Sorting, Filte
   
 ## Persisting Sort/Filter Options  
  The sorting, filtering, and grouping options are saved to the registry for each user, no matter which solution or files were open when the settings were changed.
-
-
-
-
-

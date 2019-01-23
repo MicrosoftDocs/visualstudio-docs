@@ -1,21 +1,16 @@
 ---
 title: "PROFILE_CURRENTID | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "PROFILE_CURRENTID"
 ms.assetid: 55ccf665-a05e-48c3-adf7-7714c0a9aaef
 caps.latest.revision: 11
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # PROFILE_CURRENTID
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -66,6 +61,3 @@ void ExerciseProfileCurrentID()
  [StartProfile](../profiling/startprofile.md)   
  [StopProfile](../profiling/stopprofile.md)   
  [SuspendProfile](../profiling/suspendprofile.md)
-
-
-

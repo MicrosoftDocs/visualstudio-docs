@@ -1,20 +1,15 @@
 ---
 title: "Creating a Settings Category | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "profile settings, creating categories"
 ms.assetid: 97c88693-05ff-499e-8c43-352ee073dcb7
 caps.latest.revision: 40
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Creating a Settings Category
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

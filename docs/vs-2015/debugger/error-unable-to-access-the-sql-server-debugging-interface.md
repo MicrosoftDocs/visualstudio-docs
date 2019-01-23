@@ -1,14 +1,9 @@
 ---
 title: "Error: Unable to access the SQL Server debugging interface | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 f1_keywords: 
   - "vs.debug.error.sqlde_debugging_not_enabled"
 dev_langs: 
@@ -21,7 +16,7 @@ ms.assetid: 527cf400-d12d-45ef-a7e7-baa65ca96ec5
 caps.latest.revision: 8
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Error: Unable to access the SQL Server debugging interface
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

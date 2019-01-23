@@ -1,21 +1,16 @@
 ---
 title: "Getting Font and Color Information for Text Colorization | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "text, coloring"
   - "font and color control [Visual Studio SDK], coloring"
 ms.assetid: d1f985bd-743e-40b7-9458-d9af53647c91
 caps.latest.revision: 23
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Getting Font and Color Information for Text Colorization
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

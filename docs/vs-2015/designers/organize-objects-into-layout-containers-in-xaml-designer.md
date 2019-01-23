@@ -1,19 +1,14 @@
 ---
 title: "Organize objects into layout containers in XAML Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 ms.assetid: 29c80c38-0fa3-48d6-b3a8-3b864f482e44
 caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Organize objects into layout containers in XAML Designer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -134,6 +129,3 @@ Imagine where you’d like objects to appear on a page; objects such as images, 
 ## See Also  
  [Working with elements in XAML Designer](../designers/working-with-elements-in-xaml-designer.md)   
  [Creating a UI by using XAML Designer](../designers/creating-a-ui-by-using-xaml-designer-in-visual-studio.md)
-
-
-

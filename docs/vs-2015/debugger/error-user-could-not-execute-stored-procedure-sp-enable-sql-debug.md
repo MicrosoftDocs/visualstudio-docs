@@ -1,14 +1,9 @@
 ---
 title: "Error: User Could Not Execute Stored Procedure sp_enable_sql_debug | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 f1_keywords: 
   - "vs.debug.error.sqlde_accessdenied"
 dev_langs: 
@@ -20,7 +15,7 @@ ms.assetid: 11957495-c238-4cc5-8937-e4026f5e10e1
 caps.latest.revision: 9
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Error: User Could Not Execute Stored Procedure sp_enable_sql_debug
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

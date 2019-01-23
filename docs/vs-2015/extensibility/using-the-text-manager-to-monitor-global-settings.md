@@ -1,21 +1,16 @@
 ---
 title: "Using the Text Manager to Monitor Global Settings | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], legacy - monitor global settings"
   - "editors [Visual Studio SDK], legacy - text manager"
 ms.assetid: 023e7671-cf65-419c-9bc1-3c4ee92aa436
 caps.latest.revision: 15
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Using the Text Manager to Monitor Global Settings
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

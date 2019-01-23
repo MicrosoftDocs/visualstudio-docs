@@ -1,21 +1,16 @@
 ---
 title: "Registering Interop Assembly Command Handlers | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "interop assemblies, command handlers"
   - "command handling with interop assemblies, registering"
 ms.assetid: 303cd399-e29d-4ea1-8abe-5e0b59c12a0c
 caps.latest.revision: 20
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Registering Interop Assembly Command Handlers
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]

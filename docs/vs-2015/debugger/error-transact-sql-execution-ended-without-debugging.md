@@ -1,14 +1,9 @@
 ---
 title: "Error: Transact-SQL execution ended without debugging | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 f1_keywords: 
   - "vs.debug.error.sqlde_sql_executed_but_not_debugged"
 dev_langs: 
@@ -21,7 +16,7 @@ ms.assetid: 7a4d4999-3973-4339-ba6a-f0d19bcb1d4a
 caps.latest.revision: 12
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Error: Transact-SQL execution ended without debugging
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

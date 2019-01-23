@@ -1,21 +1,16 @@
 ---
 title: "Enabling the Azure SDK | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "tgt-pltfrm-azure"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "tgt-pltfrm-azure"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "azure"
   - "cloud"
 ms.assetid: 1c323afd-fb4e-449a-adaa-bb7a5d3b1468
 caps.latest.revision: 15
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Enabling the Azure SDK
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,4 +38,3 @@ The Azure SDK for .NET helps you create, configure, build, debug, run, and packa
  [Azure](http://go.microsoft.com/fwlink?LinkID=164788)   
  [Getting Started with Azure](http://go.microsoft.com/fwlink?LinkID=159361)   
  [Azure Community](http://go.microsoft.com/fwlink?LinkID=159370)
-

@@ -1,14 +1,9 @@
 ---
 title: "Find in Files | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.findreplace.findinfiles"
   - "vs.findinfiles"
@@ -25,7 +20,7 @@ ms.assetid: 989e0737-46d7-4474-8453-fad52a74669d
 caps.latest.revision: 45
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Find in Files
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -96,6 +91,3 @@ Find in Files** allows you to search a specified set of files. The matches found
  [Finding and Replacing Text](../ide/finding-and-replacing-text.md)   
  [Replace in Files](../ide/replace-in-files.md)   
  [Visual Studio Commands](../ide/reference/visual-studio-commands.md)
-
-
-

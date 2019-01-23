@@ -1,14 +1,9 @@
 ---
 title: "CATIDs for Objects That Are Typically Used to Extend Projects | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "VSPackages, CATIDs"
   - "GUIDs, VSPackages"
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 0c7fdb66-ed96-4b36-89f6-021bca573572
 caps.latest.revision: 17
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # CATIDs for Objects That Are Typically Used to Extend Projects
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -97,4 +92,3 @@ const LPOLESTR CVCReferences::s_wszCATID = L"{FE8299CA-19B6-4f20-ABEA-E1FD9A33B6
 ## See Also  
  [Adding Project and Project Item Templates](../../extensibility/internals/adding-project-and-project-item-templates.md)   
  [Registering Project and Item Templates](../../extensibility/internals/registering-project-and-item-templates.md)
-

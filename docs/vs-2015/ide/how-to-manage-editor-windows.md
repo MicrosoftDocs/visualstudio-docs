@@ -1,14 +1,9 @@
 ---
 title: "How to: Manage Editor Windows | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editor windows"
   - "windows, managing editor windows"
@@ -18,7 +13,7 @@ ms.assetid: 340143d4-8a71-490d-823e-162b276f4c6d
 caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Manage Editor Windows
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -59,6 +54,3 @@ You can work on code in several locations at once. Do this by splitting an Edito
  [Customizing the Editor](../ide/customizing-the-editor.md)   
  [Writing Code](../ide/writing-code-in-the-code-and-text-editor.md)   
  [Customizing window layouts](../ide/customizing-window-layouts-in-visual-studio.md)
-
-
-

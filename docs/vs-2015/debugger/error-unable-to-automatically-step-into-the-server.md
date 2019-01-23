@@ -1,14 +1,9 @@
 ---
 title: "Error: Unable to Automatically Step Into the Server | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 f1_keywords: 
   - "vs.debug.error.causality_no_server_response"
 dev_langs: 
@@ -26,7 +21,7 @@ ms.assetid: 9a370ccc-d358-429c-b285-9b6c0649bc68
 caps.latest.revision: 16
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Error: Unable to Automatically Step Into the Server
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

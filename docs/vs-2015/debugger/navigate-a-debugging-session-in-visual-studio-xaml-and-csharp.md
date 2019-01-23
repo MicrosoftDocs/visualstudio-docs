@@ -1,13 +1,9 @@
 ---
 title: "Navigate a debugging session (Xaml and C#) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: conceptual
 dev_langs:
   - "FSharp"
   - "VB"
@@ -17,7 +13,7 @@ ms.assetid: 1da33203-333f-4a05-b4e2-8d407c497233
 caps.latest.revision: 21
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Navigate a debugging session in Visual Studio (Xaml and C#)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

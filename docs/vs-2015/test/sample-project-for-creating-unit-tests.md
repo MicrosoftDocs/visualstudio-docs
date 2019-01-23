@@ -1,21 +1,16 @@
 ---
 title: "Sample Project for Creating Unit Tests | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 helpviewer_keywords: 
   - "unit test sample [Visual Studio]"
   - "unit tests, samples"
 ms.assetid: db80aaf2-0652-4d3f-a8c5-2a98fd8502a2
 caps.latest.revision: 32
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Sample Project for Creating Unit Tests
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

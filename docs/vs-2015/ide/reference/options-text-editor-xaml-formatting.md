@@ -1,14 +1,9 @@
 ---
 title: "Options, Text Editor, XAML, Formatting | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "VS.ToolsOptionsPages.Text_Editor.XAML.Formatting.General"
   - "VS.ToolsOptionsPages.Text_Editor.XAML.Miscellaneous"
@@ -35,7 +30,7 @@ ms.assetid: ad3820b1-0d94-4807-a74c-c3467ed973a2
 caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Options, Text Editor, XAML, Formatting
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]

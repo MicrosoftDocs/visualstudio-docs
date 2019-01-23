@@ -1,14 +1,9 @@
 ---
 title: "How to: Verify IIS Property Settings | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -24,7 +19,7 @@ ms.assetid: 9efc50bf-02fb-4750-9b3e-f03c38f10d8b
 caps.latest.revision: 15
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Verify IIS Property Settings
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

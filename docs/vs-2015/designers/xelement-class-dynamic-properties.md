@@ -1,19 +1,14 @@
 ---
 title: "XElement Class Dynamic Properties | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 ms.assetid: a9795dba-2afc-45f7-9b53-c6c67a23c40b
 caps.latest.revision: 4
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # XElement Class Dynamic Properties
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,6 +30,3 @@ This section describes the dynamic properties of the <xref:System.Xml.Linq.XElem
  <xref:System.Xml.Linq.XElement?displayProperty=fullName>   
  [LINQ to XML Dynamic Properties](../designers/linq-to-xml-dynamic-properties.md)   
  [XAttribute Class Dynamic Properties](../designers/xattribute-class-dynamic-properties.md)
-
-
-

@@ -1,14 +1,9 @@
 ---
 title: "Walkthrough: Using a Configuration File to Define a Data Source | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 helpviewer_keywords: 
   - "configuration files [Visual Studio ALM], defining data sources"
   - "unit tests, walkthrough"
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 95fa5214-b12e-4e1f-84e5-cc4c2d86b0d7
 caps.latest.revision: 34
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Walkthrough: Using a Configuration File to Define a Data Source
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

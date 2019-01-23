@@ -1,14 +1,9 @@
 ---
 title: "Viewing Types and Relationships (Class Designer) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.classdesigner.CannotShowBaseType"
 helpviewer_keywords: 
@@ -21,7 +16,7 @@ ms.assetid: c4f46d94-9972-42ac-ae63-6ff306369965
 caps.latest.revision: 37
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Viewing Types and Relationships (Class Designer)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

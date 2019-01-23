@@ -1,18 +1,13 @@
 ---
 title: "Unit testing existing C++ applications with Test Explorer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 ms.assetid: 7d08de69-c32e-4f0b-89aa-75347b15fb82
 caps.latest.revision: 13
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Unit testing existing C++ applications with Test Explorer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

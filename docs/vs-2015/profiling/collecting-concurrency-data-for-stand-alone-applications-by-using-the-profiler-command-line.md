@@ -1,14 +1,9 @@
 ---
 title: "Collecting Concurrency Data for Stand-Alone Applications by Using the Profiler Command Line | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "concurrency profiling method"
   - "profiling tools,concurrency method"
@@ -16,7 +11,7 @@ ms.assetid: 0a2c6d8a-50b3-48aa-b617-9137b049d21e
 caps.latest.revision: 17
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Collecting Concurrency Data for Stand-Alone Applications by Using the Profiler Command Line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -57,6 +52,3 @@ The concurrency method of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling
   
 ## Reference  
  [Command-Line Profiling Tools Reference](../profiling/command-line-profiling-tools-reference.md)
-
-
-

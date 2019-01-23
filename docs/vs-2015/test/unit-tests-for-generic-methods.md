@@ -1,21 +1,16 @@
 ---
 title: "Unit tests for Generic Methods | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 helpviewer_keywords: 
   - "generics, and unit tests"
   - "unit tests, and generics"
 ms.assetid: ffc89814-a7df-44fc-aef5-dd3dfeb28a9b
 caps.latest.revision: 49
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Unit tests for Generic Methods
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

@@ -3,10 +3,7 @@ title: "Welcome to Visual Studio 2015 | Microsoft Docs"
 titleSuffix: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: conceptual
 f1_keywords:
   - "msdnstart"
 helpviewer_keywords:
@@ -15,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: ba237712-f8c4-4d13-854b-ab4a16afa309
 caps.latest.revision: 128
 ms.author: gewarren
-manager: "crdun"
+manager: jillfra
 ---
 # Welcome to Visual Studio 2015
 [!INCLUDE[vs2017banner](includes/vs2017banner.md)]

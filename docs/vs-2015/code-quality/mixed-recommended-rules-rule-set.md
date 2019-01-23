@@ -1,14 +1,9 @@
 ---
 title: "Mixed Recommended Rules rule set | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 ms.assetid: c3186b5b-0149-4a75-826e-e3539e4e703f
 caps.latest.revision: 5
 author: gewarren

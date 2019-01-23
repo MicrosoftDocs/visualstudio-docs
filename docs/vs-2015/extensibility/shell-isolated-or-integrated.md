@@ -1,14 +1,9 @@
 ---
 title: "Shell (Isolated or Integrated) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Visual Studio shell"
   - "Visual Studio, Shell"
@@ -18,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: c64a9bf0-9bf8-45c3-8fa2-306fa6cab66a
 caps.latest.revision: 26
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Shell (Isolated or Integrated)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

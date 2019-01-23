@@ -1,12 +1,9 @@
 ---
 title: "Add custom controls to the Data Sources window | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 f1_keywords: 
   - "vs.datasource.howtoaddcustomcontrol"
 dev_langs: 
@@ -25,7 +22,7 @@ ms.assetid: 8c43e7d2-ba94-4d9b-96de-3aa971955afd
 caps.latest.revision: 45
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Add custom controls to the Data Sources window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

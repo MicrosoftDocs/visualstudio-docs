@@ -1,14 +1,9 @@
 ---
 title: "How to: Display Line Numbers in the Editor | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 helpviewer_keywords: 
   - "line numbers, displaying"
   - "Code Editor, line numbers"
@@ -18,7 +13,7 @@ ms.assetid: 40b38559-b8de-4041-91f2-68986767c976
 caps.latest.revision: 23
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Display Line Numbers in the Editor
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]

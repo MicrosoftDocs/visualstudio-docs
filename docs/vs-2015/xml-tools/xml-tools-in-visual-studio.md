@@ -1,13 +1,9 @@
 ---
 title: "XML Tools"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 f1_keywords:
   - "vb.xmldesigner"
 helpviewer_keywords:
@@ -36,7 +32,7 @@ ms.assetid: 1fd5de47-2d61-4180-9539-c2c4bf9ab768
 caps.latest.revision: 29
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # XML Tools in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

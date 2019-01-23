@@ -1,14 +1,9 @@
 ---
 title: "How to: Publish a ClickOnce Application using the Publish Wizard | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -22,7 +17,7 @@ ms.assetid: 2e4aa67c-4445-4f7b-9e03-9acb95829127
 caps.latest.revision: 27
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # How to: Publish a ClickOnce Application using the Publish Wizard
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

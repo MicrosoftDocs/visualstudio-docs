@@ -1,19 +1,16 @@
 ---
 title: "Supported Visual Studio Editions for Visualization and Modeling SDK | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords:
   - "Domain-Specific Language Tools, supported Visual Studio editions"
 ms.assetid: 7c313ba0-031d-45b8-8220-eead61754747
 caps.latest.revision: 29
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Supported Visual Studio Editions for Visualization &amp; Modeling SDK
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

@@ -1,14 +1,9 @@
 ---
 title: "How to: Display URLs as Links in the Editor | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 helpviewer_keywords: 
   - "URLs, opening"
   - "Code Editor, displaying URLs"
@@ -17,7 +12,7 @@ ms.assetid: 7c673953-476e-4897-9c2d-1fc15556c172
 caps.latest.revision: 13
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Display URLs as Links in the Editor
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]

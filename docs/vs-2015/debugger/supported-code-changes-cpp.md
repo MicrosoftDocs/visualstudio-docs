@@ -1,14 +1,9 @@
 ---
 title: "Supported Code Changes (C++) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -28,7 +23,7 @@ ms.assetid: f5754363-8a56-417b-b904-b05d9dd26d03
 caps.latest.revision: 29
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Supported Code Changes (C++)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -143,6 +138,3 @@ Edit and Continue for Visual C++ handles most types of code changes. However, so
   
 ## See Also  
  [Edit and Continue (Visual C++)](../debugger/edit-and-continue-visual-cpp.md)
-
-
-

@@ -1,17 +1,14 @@
 ---
 title: "Invoking Text Transformation in a VS Extension | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 ms.assetid: 64674976-841f-43cb-8e61-0645c8a89eec
 caps.latest.revision: 7
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Invoking Text Transformation in a VS Extension
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -145,6 +142,3 @@ Sample text.
   
  To generate source code that can later be compiled and executed:  
  Call the `t4.PreprocessTemplate()` method of <xref:Microsoft.VisualStudio.TextTemplating.VSHost.ITextTemplating>.
-
-
-

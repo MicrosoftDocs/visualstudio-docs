@@ -1,14 +1,9 @@
 ---
 title: "Code Snippet Functions | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "code snippets [Visual Studio], functions"
   - "snippets [Visual Studio], functions"
@@ -17,7 +12,7 @@ ms.assetid: c0a2bf21-8fa5-4457-9281-f599beb53e7d
 caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Code Snippet Functions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

@@ -1,13 +1,9 @@
 ---
 title: "Control execution of a Store app in debug session for Windows Store apps (JavaScript) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: conceptual
 dev_langs:
   - "FSharp"
   - "VB"
@@ -17,7 +13,7 @@ ms.assetid: 60159535-61ec-466a-a4a6-115ec72a8af5
 caps.latest.revision: 19
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Control execution of a Store app in a Visual Studio debug session for Windows Store apps (JavaScript)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

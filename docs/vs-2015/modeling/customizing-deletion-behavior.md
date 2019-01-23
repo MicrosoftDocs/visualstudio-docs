@@ -1,12 +1,9 @@
 ---
 title: "Customizing Deletion Behavior | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 f1_keywords: 
   - "vs.dsltools.dsldesigner.deletebehavior"
 helpviewer_keywords: 
@@ -15,7 +12,7 @@ ms.assetid: c6bf088d-52c6-4817-af45-ddae745bb5a9
 caps.latest.revision: 25
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Customizing Deletion Behavior
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -297,6 +294,3 @@ partial class NestedShapesSampleDocData
  [Customizing Copy Behavior](../modeling/customizing-copy-behavior.md)   
  [Customizing Element Creation and Movement](../modeling/customizing-element-creation-and-movement.md)   
  [Writing Code to Customise a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md)
-
-
-

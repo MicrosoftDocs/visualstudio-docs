@@ -1,14 +1,9 @@
 ---
 title: "Project Settings for a Visual Basic Debug Configuration | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vbProjectPropertiesDebug"
 dev_langs: 
@@ -27,7 +22,7 @@ ms.assetid: 72a8483a-af0b-4403-8b0d-ee9ad71ee435
 caps.latest.revision: 20
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Project Settings for a Visual Basic Debug Configuration
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

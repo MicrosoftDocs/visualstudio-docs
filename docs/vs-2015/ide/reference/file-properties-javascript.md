@@ -1,14 +1,9 @@
 ---
 title: "File Properties, JavaScript | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "javascript.project.property.expandedsdknode.fileversion"
   - "javascript.project.property.expandedsdknode.uri"
@@ -30,7 +25,7 @@ ms.assetid: 085913b8-a97b-45f7-85fa-bbb0902f3ee9
 caps.latest.revision: 12
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # File Properties, JavaScript
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]

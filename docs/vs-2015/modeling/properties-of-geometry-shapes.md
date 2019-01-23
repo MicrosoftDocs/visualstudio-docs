@@ -1,12 +1,9 @@
 ---
 title: "Properties of Geometry Shapes | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: reference
 f1_keywords: 
   - "vs.dsltools.dsldesigner.geometryshape"
 helpviewer_keywords: 
@@ -15,7 +12,7 @@ ms.assetid: 3993a23e-eab3-4ceb-b475-c395d5992bfc
 caps.latest.revision: 23
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Properties of Geometry Shapes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

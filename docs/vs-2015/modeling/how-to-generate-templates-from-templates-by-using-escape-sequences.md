@@ -1,19 +1,16 @@
 ---
 title: "How to: Generate Templates from Templates By Using Escape Sequences | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "text templates, generating templates from templates"
 ms.assetid: 4126156a-7cea-48b8-925e-7790806cfe6c
 caps.latest.revision: 37
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # How to: Generate Templates from Templates By Using Escape Sequences
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -73,6 +70,3 @@ XmlDocument xDoc = new XmlDocument();
      }  
 #>  
 ```
-
-
-

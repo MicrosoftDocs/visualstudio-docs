@@ -1,14 +1,9 @@
 ---
 title: "How to: Change Text Case in the Editor | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors, text case"
   - "text, case"
@@ -16,7 +11,7 @@ ms.assetid: b04d1327-a45e-4c12-a0d0-67672b3fa855
 caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Change Text Case in the Editor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

@@ -1,11 +1,8 @@
 ---
 title: "How to: Debug ASP.NET-Based Workflows (Legacy) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: ".net-framework-4.6"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: "reference"
 helpviewer_keywords: 
   - "ASP.NET, debugging workflows"
@@ -16,7 +13,7 @@ ms.assetid: 79b21edc-9e7d-410d-af68-09c1598b9c30
 caps.latest.revision: 5
 author: gewarren
 ms.author: gewarren
-manager: "erikre"
+manager: jillfra
 ---
 # How to: Debug ASP.NET-Based Workflows (Legacy)
 This topic describes how to debug [!INCLUDE[vstecasp](../includes/vstecasp-md.md)]-based [!INCLUDE[wf](../includes/wf-md.md)] applications that target either the [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)] or the [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)] in the legacy [!INCLUDE[wfd1](../includes/wfd1-md.md)].  

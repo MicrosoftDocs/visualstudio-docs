@@ -1,19 +1,16 @@
 ---
 title: "Choosing a Domain-Specific Language Solution Template | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Domain-Specific Language Tools, solution templates"
 ms.assetid: 9c05955f-1548-4df6-b09b-4b348823c237
 caps.latest.revision: 26
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Choosing a Domain-Specific Language Solution Template
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,6 +34,3 @@ To create a domain-specific language solution, choose one of the solution templa
   
 ## See Also  
  [Overview of Domain-Specific Language Tools](../modeling/overview-of-domain-specific-language-tools.md)
-
-
-

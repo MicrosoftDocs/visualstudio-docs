@@ -1,13 +1,9 @@
 ---
 title: "How to trigger suspend, resume, and background events for Windows Store apps"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: conceptual
 f1_keywords:
   - "vs.debug.error.background_task_activate_failure"
 dev_langs:
@@ -19,7 +15,7 @@ ms.assetid: 824ff3ca-fedf-4cf5-b3e2-ac8dc82d40ac
 caps.latest.revision: 20
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # How to trigger suspend, resume, and background events for Windows Store apps in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

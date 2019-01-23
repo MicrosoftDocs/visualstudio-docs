@@ -1,14 +1,9 @@
 ---
 title: "How to: Serialize Symbol Information | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "VS.ToolsOptionsPages.Performance.General"
 helpviewer_keywords: 
@@ -18,7 +13,7 @@ ms.assetid: 9e0da706-6325-4073-83d1-aeab3b7c137a
 caps.latest.revision: 14
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Serialize Symbol Information
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

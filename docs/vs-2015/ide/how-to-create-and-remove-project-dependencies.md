@@ -1,14 +1,9 @@
 ---
 title: "How to: Create and Remove Project Dependencies | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 f1_keywords: 
   - "VS.ProjectDependenciesDlg"
 helpviewer_keywords: 
@@ -22,7 +17,7 @@ ms.assetid: e2a0a8ff-dae7-40a8-b774-b88aa5235183
 caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Create and Remove Project Dependencies
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

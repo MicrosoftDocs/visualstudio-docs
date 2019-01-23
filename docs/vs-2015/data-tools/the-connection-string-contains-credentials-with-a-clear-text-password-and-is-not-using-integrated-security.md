@@ -1,17 +1,14 @@
 ---
 title: "The connection string contains credentials with a clear text password and is not using integrated security | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 ms.assetid: 501d85af-92e0-4471-b280-8a59c0688575
 caps.latest.revision: 6
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # The connection string contains credentials with a clear text password and is not using integrated security
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,4 +35,3 @@ Do you want to save the connection string to the current DBML file and applicati
   
 ## See Also  
  [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)
-

@@ -1,14 +1,9 @@
 ---
 title: "Project Property User Interface | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "project properties [Visual Studio], user interface"
   - "projects [Visual Studio SDK], properties UI"
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: b6aec634-8533-476c-9ebd-36536a2288e2
 caps.latest.revision: 17
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Project Property User Interface
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]

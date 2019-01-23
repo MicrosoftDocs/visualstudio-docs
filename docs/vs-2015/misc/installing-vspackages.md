@@ -1,20 +1,15 @@
 ---
 title: "Installing VSPackages | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "devlang-csharp"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "VSPackages, installing"
   - "installation [Visual Studio SDK], VSPackages"
 ms.assetid: 43db03ef-ceb5-4c13-875f-90259f470cc7
 caps.latest.revision: 18
-manager: "douge"
+manager: jillfra
 ---
 # Installing VSPackages
 This section discusses how to build and install VSPackages and how to support users who are running multiple versions of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] at the same time.  

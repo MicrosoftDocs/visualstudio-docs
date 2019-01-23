@@ -1,20 +1,15 @@
 ---
 title: "Legacy Interfaces in the Editor | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], legacy"
 ms.assetid: 741d45f5-0ea3-4614-972a-8728fe054e07
 caps.latest.revision: 11
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Legacy Interfaces in the Editor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -46,4 +41,3 @@ You can access the Visual Studio editor from legacy interfaces. The Visual Studi
 |[Creating Custom Editors and Designers](../extensibility/creating-custom-editors-and-designers.md)|Explains how to create custom editors and designers.|  
 |[Developing a Legacy Language Service](../extensibility/internals/developing-a-legacy-language-service.md)|Provides links to documents about features that provide customization capabilities to the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] core editor by adding support for a language service.|  
 |[Using Fonts and Colors](../extensibility/using-fonts-and-colors.md)|Explains how to use fonts and colors with legacy interfaces.|
-

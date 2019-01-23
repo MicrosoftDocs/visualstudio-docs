@@ -1,14 +1,9 @@
 ---
 title: "How to: Use the Keyboard Exclusively | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 helpviewer_keywords: 
   - "Toolbox, shortcut keys"
   - "shortcut keys [Visual Studio]"
@@ -20,7 +15,7 @@ ms.assetid: d71a4cc1-d352-4164-8538-3f9fa070a331
 caps.latest.revision: 30
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Use the Keyboard Exclusively
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]

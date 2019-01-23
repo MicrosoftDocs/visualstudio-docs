@@ -1,21 +1,16 @@
 ---
 title: "How to: Manage a Private Gallery By Using Registry Settings | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "VSIX private galleries, managing"
   - "managing VSIX private galleries"
 ms.assetid: 86b86442-4293-4cad-9fe2-876eef65f426
 caps.latest.revision: 7
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Manage a Private Gallery By Using Registry Settings
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -70,4 +65,3 @@ DisplayNamePackageGuid={GUID} (REG_SZ)
   
 ## See Also  
  [Private Galleries](../extensibility/private-galleries.md)
-

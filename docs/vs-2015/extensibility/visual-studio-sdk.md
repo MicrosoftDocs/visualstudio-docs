@@ -1,14 +1,9 @@
 ---
 title: "Visual Studio SDK | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 f1_keywords: 
   - "VSSDK.v90.StartPage"
 helpviewer_keywords: 
@@ -18,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 1f7c348a-114c-4243-b392-3531e9c9c6fd
 caps.latest.revision: 57
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Visual Studio SDK
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -97,4 +92,3 @@ The Visual Studio SDK helps you extend Visual Studio features or integrate new f
  [Support for the Visual Studio SDK](../extensibility/support-for-the-visual-studio-sdk.md)   
  [Archive](../extensibility/archive.md)   
  [Visual Studio SDK Reference](../extensibility/visual-studio-sdk-reference.md)
-

@@ -1,12 +1,9 @@
 ---
 title: "Adding a Tracking Property to a Domain-Specific Language Definition | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "tracking properties [Domain-Specific Language Tools], walkthrough"
   - "Domain-Specific Language Tools, walkthroughs"
@@ -15,7 +12,7 @@ ms.assetid: 4aa47777-de75-4897-a423-a3c4426b4125
 caps.latest.revision: 24
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Adding a Tracking Property to a Domain-Specific Language Definition
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

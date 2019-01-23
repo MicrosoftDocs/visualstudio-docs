@@ -1,14 +1,9 @@
 ---
 title: "Environment Options Dialog Box | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "VS.OptionsDialog.Environment"
   - "VS.ToolsOptionsPages.Environment"
@@ -16,7 +11,7 @@ ms.assetid: 3f463cf0-734b-4fdc-b4ff-b47f9bb99069
 caps.latest.revision: 33
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Environment Options Dialog Box
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]

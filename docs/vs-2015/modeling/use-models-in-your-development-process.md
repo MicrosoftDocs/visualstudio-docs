@@ -1,13 +1,9 @@
 ---
 title: "Use models in your development process | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-techdebt"
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.technology: "vs-devops-techdebt"
 ms.topic: conceptual
 helpviewer_keywords: 
   - "UML, using models"
@@ -15,7 +11,7 @@ ms.assetid: a33ac8fc-4ba0-4850-b71b-014dc8674e54
 caps.latest.revision: 31
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Use models in your development process
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

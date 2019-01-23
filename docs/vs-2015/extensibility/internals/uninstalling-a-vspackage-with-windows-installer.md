@@ -1,14 +1,9 @@
 ---
 title: "Uninstalling a VSPackage With Windows Installer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "packages, uninstalling"
   - "VSPackages, uninstalling"
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: c4575ac7-82da-4af8-a375-ea756a101fbf
 caps.latest.revision: 15
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Uninstalling a VSPackage With Windows Installer
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]

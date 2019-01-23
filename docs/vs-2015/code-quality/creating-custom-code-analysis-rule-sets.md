@@ -1,14 +1,9 @@
 ---
 title: "Creating Custom Code Analysis Rule Sets | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 ms.assetid: 88db3a0a-1b92-496d-9fae-b2bb980f5933
 caps.latest.revision: 14
 author: gewarren
@@ -33,6 +28,3 @@ You apply code analysis rules to a managed code project by specifying a rule set
  [Code analysis rule set reference](../code-quality/code-analysis-rule-set-reference.md)   
  [Analyzing Managed Code Quality](../code-quality/analyzing-managed-code-quality-by-using-code-analysis.md)   
  [Analyzing C/C++ Code Quality by Using Code Analysis](../code-quality/analyzing-c-cpp-code-quality-by-using-code-analysis.md)
-
-
-

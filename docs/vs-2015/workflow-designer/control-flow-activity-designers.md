@@ -1,17 +1,14 @@
 ---
 title: "Control Flow Activity Designers | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: ".net-framework-4.6"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: "reference"
 ms.assetid: ba74af23-5398-4e62-bd90-c50612e3bfef
 caps.latest.revision: 7
 author: gewarren
 ms.author: gewarren
-manager: "erikre"
+manager: jillfra
 ---
 # Control Flow Activity Designers
 [!INCLUDE[wfd1](../includes/wfd1-md.md)] includes a number of system-provided activities that you can use when constructing your workflows. This section contains the system-provided activities used to control the flow within a workflow. The following topics describe these activities and provide guidance on how to use them.  

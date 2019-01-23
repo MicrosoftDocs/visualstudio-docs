@@ -1,14 +1,9 @@
 ---
 title: "How to: Add an Application Configuration File to a C# Project | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-general
+ms.topic: conceptual
 dev_langs: 
   - "CSharp"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ ms.assetid: 9caf6bb0-c2fc-4ab6-ba69-bed3b880fbf8
 caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
-manager: "wpickett"
+manager: jillfra
 ---
 # How to: Add an Application Configuration File to a C# Project
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

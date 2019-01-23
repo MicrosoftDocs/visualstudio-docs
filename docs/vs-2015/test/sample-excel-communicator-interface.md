@@ -1,18 +1,13 @@
 ---
 title: "Sample Excel Communicator Interface | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 ms.assetid: 1dbf1090-762c-4824-82dd-2d7c2c6f00b6
 caps.latest.revision: 13
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Sample Excel Communicator Interface
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,6 +32,3 @@ The sample `IExcelUICommunication` interface is used in the `ExcelUICommunicator
  [Extending Coded UI Tests and Action Recordings to Support Microsoft Excel](../test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel.md)   
  [Sample Excel Add-In for Coded UI Testing](../test/sample-excel-add-in-for-coded-ui-testing.md)   
  [Sample Coded UI Test Extension for Excel](../test/sample-coded-ui-test-extension-for-excel.md)
-
-
-

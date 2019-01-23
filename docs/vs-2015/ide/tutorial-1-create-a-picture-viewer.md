@@ -1,19 +1,14 @@
 ---
 title: "Tutorial 1: Create a Picture Viewer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 ms.assetid: 3071d6df-2b2f-4e95-ab68-bef727323136
 caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Tutorial 1: Create a Picture Viewer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -65,6 +60,3 @@ In this tutorial, you build a program that loads a picture from a file and displ
 |[Step 9: Review, Comment, and Test Your Code](../ide/step-9-review-comment-and-test-your-code.md)|Review and test your code. Add comments as needed.|  
 |[Step 10: Write Code for Additional Buttons and a Check Box](../ide/step-10-write-code-for-additional-buttons-and-a-check-box.md)|Write code to make other buttons and a check box work using IntelliSense.|  
 |[Step 11: Run Your Program and Try Other Features](../ide/step-11-run-your-program-and-try-other-features.md)|Run your program and set the background color. Try other features, such as changing colors, fonts, and borders.|
-
-
-

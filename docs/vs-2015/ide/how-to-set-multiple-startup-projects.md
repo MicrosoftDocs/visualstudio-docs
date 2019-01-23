@@ -1,21 +1,16 @@
 ---
 title: "How to: Set Multiple Startup Projects | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "startup projects, setting multiple startup projects"
 ms.assetid: 6131eb80-8745-4eb9-bdab-433e69b41651
 caps.latest.revision: 12
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Set Multiple Startup Projects
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

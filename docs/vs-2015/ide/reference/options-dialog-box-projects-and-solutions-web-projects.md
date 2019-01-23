@@ -1,21 +1,16 @@
 ---
 title: "Options Dialog Box, Projects and Solutions, Web Projects | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "VS.ToolsOptionsPages.Projects.WebProjects"
 ms.assetid: ea813046-1ae6-4c9f-9784-dc41494101b9
 caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Options Dialog Box, Projects and Solutions, Web Projects
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]

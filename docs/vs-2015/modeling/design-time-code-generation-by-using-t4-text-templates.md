@@ -1,12 +1,9 @@
 ---
 title: "Design-Time Code Generation by using T4 Text Templates | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "text templates, guidelines for code generation"
   - "text templates, data source model"
@@ -19,7 +16,7 @@ ms.assetid: 2774b83d-1adb-4c66-a607-746e019b80c0
 caps.latest.revision: 40
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Design-Time Code Generation by using T4 Text Templates
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -369,6 +366,3 @@ Warning("A warning message");
   
 ## See Also  
  [Guidelines for Writing T4 Text Templates](../modeling/guidelines-for-writing-t4-text-templates.md)
-
-
-

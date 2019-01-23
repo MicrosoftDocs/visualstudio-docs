@@ -2,11 +2,8 @@
 title: "Install Visual Studio Versions Side-by-Side | Microsoft Docs"
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: "vs-ide-install"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: conceptual
 helpviewer_keywords:
   - "side-by-side installations [Visual Studio]"
   - "Help [Visual Studio], installing"
@@ -15,7 +12,7 @@ ms.assetid: 4d00f240-4910-4699-aaf3-cda6461f0c29
 caps.latest.revision: 48
 author: TerryGLee
 ms.author: tglee
-manager: "ghogen"
+manager: jillfra
 ---
 # Install Visual Studio Versions Side-by-Side
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

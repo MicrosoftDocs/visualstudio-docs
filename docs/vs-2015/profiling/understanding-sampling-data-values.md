@@ -1,14 +1,9 @@
 ---
 title: "Understanding Sampling Data Values | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "sampling profiling method"
   - "Profiling Tools, sampling"
@@ -16,7 +11,7 @@ ms.assetid: fad540a8-24b6-4ff9-91ce-e67e9a58399d
 caps.latest.revision: 27
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Understanding Sampling Data Values
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -54,6 +49,3 @@ The *sampling* profiling method of the [!INCLUDE[vsprvs](../includes/vsprvs-md.m
 ## See Also  
  [How to: Choose Collection Methods](../profiling/how-to-choose-collection-methods.md)   
  [Analyzing Performance Tools Data](../profiling/analyzing-performance-tools-data.md)
-
-
-

@@ -2,12 +2,12 @@
 title: "Upgrade unit test projects"
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.technology: vs-devops-test
+ms.technology: vs-ide-test
 ms.topic: conceptual
 ms.assetid: f1502b51-d6db-4894-9fbf-4a5723e4bb1a
 caps.latest.revision: 8
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Upgrade Visual Studio 2010 unit test projects
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

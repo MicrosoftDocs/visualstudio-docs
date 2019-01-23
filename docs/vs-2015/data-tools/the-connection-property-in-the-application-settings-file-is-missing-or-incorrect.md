@@ -1,17 +1,14 @@
 ---
 title: "The connection property in the Application Settings file is missing or incorrect | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 ms.assetid: 77724510-ff59-4d43-b933-a0434e1ac597
 caps.latest.revision: 7
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # The connection property in the Application Settings file is missing or incorrect
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

@@ -1,14 +1,9 @@
 ---
 title: "Unit Test Your Code | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Visual Studio, unit tests"
   - "unit tests, verifying code with"
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: c191de3e-3f3b-471e-b828-29ec24e80e2c
 caps.latest.revision: 64
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Unit Test Your Code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

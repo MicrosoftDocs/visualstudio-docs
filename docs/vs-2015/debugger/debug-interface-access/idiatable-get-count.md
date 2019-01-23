@@ -1,14 +1,9 @@
 ---
 title: "IDiaTable::get_Count | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ ms.assetid: bb47abe8-6706-4679-bc52-79f6444dae7e
 caps.latest.revision: 11
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # IDiaTable::get_Count
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -42,6 +37,3 @@ HRESULT get_Count ( 
 ## See Also  
  [IDiaTable](../../debugger/debug-interface-access/idiatable.md)   
  [IDiaTable::Item](../../debugger/debug-interface-access/idiatable-item.md)
-
-
-

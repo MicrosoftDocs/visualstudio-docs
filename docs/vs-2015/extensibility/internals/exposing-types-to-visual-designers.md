@@ -1,14 +1,9 @@
 ---
 title: "Exposing Types to Visual Designers | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "types [Visual Studio SDK], exposing to visual designers"
   - "designers [Visual Studio SDK], exposing types"
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: a7a32ad4-3a0a-4eb8-a6ac-491c42885639
 caps.latest.revision: 12
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Exposing Types to Visual Designers
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]

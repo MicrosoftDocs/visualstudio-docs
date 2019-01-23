@@ -1,14 +1,9 @@
 ---
 title: "MSBuild Command-Line Reference | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: reference
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -22,7 +17,7 @@ ms.assetid: edaa65ec-ab8a-42a1-84cb-d76d5b2f4584
 caps.latest.revision: 61
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # MSBuild Command-Line Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -91,6 +86,3 @@ msbuild SlnFolders.sln /t:NotInSolutionfolder:Rebuild;NewFolder\InSolutionFolder
 ## See Also  
  [MSBuild Reference](../msbuild/msbuild-reference.md)   
  [Common MSBuild Project Properties](../msbuild/common-msbuild-project-properties.md)
-
-
-

@@ -1,14 +1,9 @@
 ---
 title: "Code Analysis for C-C++ Overview | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: overview
 helpviewer_keywords: 
   - "annotations, code analysis"
   - "build integration, code analysis"
@@ -26,7 +21,7 @@ ms.assetid: 81f0c9e8-f471-4de5-aac4-99db336a8809
 caps.latest.revision: 27
 author: mikeblome
 ms.author: mblome
-manager: "ghogen"
+manager: jillfra
 ---
 # Code Analysis for C/C++ Overview
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

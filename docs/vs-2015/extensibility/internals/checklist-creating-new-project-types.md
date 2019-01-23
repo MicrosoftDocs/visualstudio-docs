@@ -1,21 +1,16 @@
 ---
 title: "Checklist: Creating New Project Types | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "projects [Visual Studio SDK], creating new types"
   - "project types, checklist for creating"
 ms.assetid: 29eb9c3b-1933-4741-aa85-65a33f0825ba
 caps.latest.revision: 24
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Checklist: Creating New Project Types
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]

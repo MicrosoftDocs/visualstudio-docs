@@ -1,14 +1,9 @@
 ---
 title: "Edit and Continue | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.debug.enc"
 dev_langs: 
@@ -27,7 +22,7 @@ ms.assetid: 2cdd4531-7117-4221-a809-8447812de2a1
 caps.latest.revision: 27
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Edit and Continue
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

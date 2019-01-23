@@ -1,14 +1,9 @@
 ---
 title: "Projects and Solutions, Options Dialog Box | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 helpviewer_keywords: 
   - "Projects and Solutions Options dialog box"
   - "Options dialog box, Projects and Solutions"
@@ -16,7 +11,7 @@ ms.assetid: 2801f24e-a138-488a-ae3c-e1f99a678ac0
 caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Projects and Solutions, Options Dialog Box
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
