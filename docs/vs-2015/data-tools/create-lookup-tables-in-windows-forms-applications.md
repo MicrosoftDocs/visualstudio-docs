@@ -1,12 +1,9 @@
 ---
 title: "Create lookup tables in Windows Forms applications | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -19,7 +16,7 @@ ms.assetid: 0edd5385-c381-4b17-9096-74e2778db9d5
 caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Create lookup tables in Windows Forms applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

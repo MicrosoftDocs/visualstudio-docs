@@ -1,14 +1,9 @@
 ---
 title: "Signing Page, Project Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "vs.AddNewStrongNameKey"
   - "ResolveKeySource.KeyFileForSignAssemblyNotImported"
@@ -24,7 +19,7 @@ ms.assetid: dab3ba13-2f92-4827-92bd-1be3c35bc48b
 caps.latest.revision: 39
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Signing Page, Project Designer
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -66,7 +61,7 @@ Use the **Signing** page of the **Project Designer** to sign the application and
   
 ## Assembly Signing  
  **Sign the assembly** check box  
- Select this check box to sign the assembly and create a strongly named key file. For more information about signing the assembly by using the **Project Designer**, see [How to: Sign an Assembly (Visual Studio)](http://msdn.microsoft.com/en-us/f468a7d3-234c-4353-924d-8e0ae5896564).  
+ Select this check box to sign the assembly and create a strongly named key file. For more information about signing the assembly by using the **Project Designer**, see [How to: Sign an Assembly (Visual Studio)](http://msdn.microsoft.com/f468a7d3-234c-4353-924d-8e0ae5896564).  
   
  This option uses the Al.exe tool provided by the [!INCLUDE[winsdklong](../../includes/winsdklong-md.md)] to sign the assembly. For more information about Al.exe, see [How to: Sign an Assembly with a Strong Name](http://msdn.microsoft.com/library/2c30799a-a826-46b4-a25d-c584027a6c67).  
   
@@ -91,11 +86,8 @@ Use the **Signing** page of the **Project Designer** to sign the application and
 ## See Also  
  [Project Properties Reference](../../ide/reference/project-properties-reference.md)   
  [Managing Assembly and Manifest Signing](../../ide/managing-assembly-and-manifest-signing.md)   
- [Strong-Name Signing for Managed Applications](http://msdn.microsoft.com/en-us/5fef3490-c519-4363-94fd-8b1ad260dab5)   
+ [Strong-Name Signing for Managed Applications](http://msdn.microsoft.com/5fef3490-c519-4363-94fd-8b1ad260dab5)   
  [How to: Sign Application and Deployment Manifests](../../ide/how-to-sign-application-and-deployment-manifests.md)   
- [How to: Sign an Assembly (Visual Studio)](http://msdn.microsoft.com/en-us/f468a7d3-234c-4353-924d-8e0ae5896564)   
+ [How to: Sign an Assembly (Visual Studio)](http://msdn.microsoft.com/f468a7d3-234c-4353-924d-8e0ae5896564)   
  [How to: Sign an Assembly with a Strong Name](http://msdn.microsoft.com/library/2c30799a-a826-46b4-a25d-c584027a6c67)   
  [Strong-Named Assemblies](http://msdn.microsoft.com/library/d4a80263-f3e0-4d81-9b61-f0cbeae3797b)
-
-
-

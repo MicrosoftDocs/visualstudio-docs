@@ -1,14 +1,9 @@
 ---
 title: "Element (XElement Dynamic Property) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 api_name: 
   - "XElement.Element"
 api_type: 
@@ -17,7 +12,7 @@ ms.assetid: c6c25b8d-a1da-41ff-aeff-867ff1dcf749
 caps.latest.revision: 4
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Element (XElement Dynamic Property)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -40,6 +35,3 @@ elem.Element[{namespaceName}localName]
  <xref:System.Xml.Linq.XContainer.Element%2A?displayProperty=fullName>   
  [XElement Class Dynamic Properties](../designers/xelement-class-dynamic-properties.md)   
  [Elements](../designers/elements-xelement-dynamic-property.md)
-
-
-

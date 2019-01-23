@@ -1,19 +1,14 @@
 ---
 title: "Step 6: Add a Subtraction Problem | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 ms.assetid: 59204ef9-24bd-4f81-b85f-e3168e518a3e
 caps.latest.revision: 27
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Step 6: Add a Subtraction Problem
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -85,6 +80,3 @@ Math quiz with subtraction problem
 -   To go to the next tutorial step, see [Step 7: Add Multiplication and Division Problems](../ide/step-7-add-multiplication-and-division-problems.md).  
   
 -   To return to the previous tutorial step, see [Step 5: Add Enter Event Handlers for the NumericUpDown Controls](../ide/step-5-add-enter-event-handlers-for-the-numericupdown-controls.md).
-
-
-

@@ -1,20 +1,15 @@
 ---
 title: "Hiding Properties That Have Child Properties | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "devlang-csharp"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "properties [Visual Studio SDK], hiding"
   - "Properties window, hiding properties that have child properties"
 ms.assetid: 6003607e-fc19-4bf9-a299-9f6adf8e92eb
 caps.latest.revision: 13
-manager: "douge"
+manager: jillfra
 ---
 # Hiding Properties That Have Child Properties
 You would want to hide properties that have child properties:  

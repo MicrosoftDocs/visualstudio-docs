@@ -1,14 +1,9 @@
 ---
 title: "Customize the Help Viewer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-help-viewer
+ms.topic: conceptual
 f1_keywords: 
   - "hv_options"
 helpviewer_keywords: 
@@ -18,7 +13,7 @@ ms.assetid: 9c0bc950-7323-4f0f-8de2-0b0af9a42b85
 caps.latest.revision: 13
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Customize the Help Viewer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,6 +29,3 @@ You can configure several features of the Help Viewer by using the **Viewer Opti
 |Change the maximum number of search results that appear in the **Search** tab|Choose a value in the **Maximum Search Results** list.|  
 |Change the maximum number of history entries that appear in the **Favorites** window|Choose a value in the **Maximum History entries saved** list.|  
 |Include or exclude English content when you view content for a non-English version of a product.|Select or clear the **Include English content in all navigation tabs and F1 requests** check box. **Caution:**  This feature also controls whether you can download English content in the **Manage Content** tab.|
-
-
-

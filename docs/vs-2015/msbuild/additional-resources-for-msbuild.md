@@ -1,14 +1,9 @@
 ---
 title: "Additional Resources for MSBuild | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -20,7 +15,7 @@ ms.assetid: 3206dc09-daa4-43c4-8073-731a82e36a89
 caps.latest.revision: 18
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Additional Resources for MSBuild
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,5 +39,3 @@ The following Web sites and forums can help you find answers to common questions
  [MSBuild](msbuild.md)   
  [MSBuild Concepts](../msbuild/msbuild-concepts.md)   
  [MSBuild Reference](../msbuild/msbuild-reference.md)
-
-

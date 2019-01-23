@@ -1,21 +1,16 @@
 ---
 title: "Deploying Custom Start Pages | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "package start page"
   - "deploy start page"
 ms.assetid: 4a7eb360-de83-41d5-be53-3cfb160d19f9
 caps.latest.revision: 22
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Deploying Custom Start Pages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -92,4 +87,3 @@ You can deploy custom Start Pages by using VSIX deployment or by copying the fil
 ## See Also  
  [Customizing the Start Page](../ide/customizing-the-start-page-for-visual-studio.md)   
  [Adding User Control to the Start Page](../extensibility/adding-user-control-to-the-start-page.md)
-

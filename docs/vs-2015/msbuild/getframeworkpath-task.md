@@ -1,14 +1,9 @@
 ---
 title: "GetFrameworkPath Task | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: reference
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#GetFrameworkPath"
 dev_langs: 
@@ -23,7 +18,7 @@ ms.assetid: 5b7bcdd7-d4a0-442d-af29-8aadb3b10598
 caps.latest.revision: 15
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # GetFrameworkPath Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -66,6 +61,3 @@ Retrieves the path to the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)]
 ## See Also  
  [Tasks](../msbuild/msbuild-tasks.md)   
  [Task Reference](../msbuild/msbuild-task-reference.md)
-
-
-

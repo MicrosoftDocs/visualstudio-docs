@@ -1,14 +1,9 @@
 ---
 title: "Options Dialog Box,  Projects and Solutions, Build and Run | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "VS.ToolsOptionsPages.Projects.Build_and_Run"
   - "VS.ToolsOptionsPag.Projects.Build_and_Run"
@@ -20,7 +15,7 @@ ms.assetid: c884976e-c0df-4c6d-8e3a-856ea2bd547c
 caps.latest.revision: 24
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Options Dialog Box,  Projects and Solutions, Build and Run
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -79,6 +74,3 @@ In this dialog box, you can specify the maximum number of Visual C++ or Visual C
   
 ## See Also  
  [Compiling and Building](../../ide/compiling-and-building-in-visual-studio.md)
-
-
-

@@ -3,7 +3,7 @@ title: How to manage service configurations and profiles | Microsoft Docs
 description: Learn how to work with service configurations and profiles configuration files| which store settings for the deployment environments and publish settings for cloud services.
 
 author: ghogen
-manager: douge
+manager: jillfra
 assetId: 7da8c551-fb06-4057-b5c7-c77f4b39d803
 ms.prod: visual-studio-dev14
 ms.technology: vs-azure
@@ -95,4 +95,3 @@ When you run the wizard for the first time, a default profile is created. Visual
 
 ## Next steps
 To learn about configuring other parts of your Azure project from Visual Studio, see [Configuring an Azure Project](http://go.microsoft.com/fwlink/p/?LinkID=623075)
-

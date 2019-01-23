@@ -1,14 +1,9 @@
 ---
 title: "Mixed Code and Missing Information in the Call Stack Window | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -31,7 +26,7 @@ ms.assetid: dd628427-e8d6-4fc2-b524-9d6393ea5376
 caps.latest.revision: 23
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Mixed Code and Missing Information in the Call Stack Window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -46,8 +41,3 @@ Because of differences between call stacks for managed and native code, the debu
   
 ## See Also  
  [How to: Use the Call Stack Window](../debugger/how-to-use-the-call-stack-window.md)
-
-
-
-
-

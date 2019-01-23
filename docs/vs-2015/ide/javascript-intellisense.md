@@ -1,13 +1,9 @@
 ---
 title: "JavaScript IntelliSense | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: conceptual
 helpviewer_keywords:
   - "IntelliSense [JavaScript]"
   - "<reference> JavaScript XML tag"
@@ -29,7 +25,7 @@ ms.assetid: af1a3171-c9d8-45a3-9c96-a763e3b163ef
 caps.latest.revision: 67
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # JavaScript IntelliSense
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -282,5 +278,5 @@ IntelliSense helps you write code faster and with fewer errors by providing info
 - [Statement Completion for Identifiers](../ide/statement-completion-for-identifiers.md)
 - [XML Documentation Comments](../ide/xml-documentation-comments-javascript.md)
 - [About the DHTML Object Model](http://go.microsoft.com/fwlink/?LinkID=92344)
-- [List Members](http://msdn.microsoft.com/en-us/1b9cc469-9cd4-4d42-9999-1f9479635ff8)
+- [List Members](http://msdn.microsoft.com/1b9cc469-9cd4-4d42-9999-1f9479635ff8)
 - [SRC Attribute &#124; src Property](http://go.microsoft.com/fwlink/?LinkId=92345)

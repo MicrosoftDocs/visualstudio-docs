@@ -1,14 +1,9 @@
 ---
 title: "How to: Specify Additional Code Information by Using __analysis_assume | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 f1_keywords: 
   - "__analysis_assume"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ ms.assetid: 51205d97-4084-4cf4-a5ed-3eeaf67deb1b
 caps.latest.revision: 12
 author: mikeblome
 ms.author: mblome
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Specify Additional Code Information by Using __analysis_assume
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -59,6 +54,3 @@ void test( )
   
 ## See Also  
  [__assume](http://msdn.microsoft.com/library/d8565123-b132-44b1-8235-5a8c8bff85a7)
-
-
-

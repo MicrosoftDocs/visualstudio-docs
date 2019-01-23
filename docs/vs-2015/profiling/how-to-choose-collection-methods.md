@@ -1,14 +1,9 @@
 ---
 title: "How to: Choose Collection Methods | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "performance tools, choosing collection method"
   - "profiling tools, choosing collection method"
@@ -17,7 +12,7 @@ ms.assetid: c87cfd3a-0fc7-49ae-9c05-d8480891cc63
 caps.latest.revision: 39
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Choose Collection Methods
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -99,6 +94,3 @@ The [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools support three m
  [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)   
  [Understanding Sampling Data Values](../profiling/understanding-sampling-data-values.md)   
  [Performance Session Properties](../profiling/performance-session-properties.md)
-
-
-

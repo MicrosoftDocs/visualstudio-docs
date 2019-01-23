@@ -1,21 +1,16 @@
 ---
 title: "Creating a Source Control VSPackage | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "source control [Visual Studio SDK], creating source control packages"
   - "source control packages"
 ms.assetid: cca0a9ed-48ff-409f-8036-ed8db0f7533e
 caps.latest.revision: 24
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Creating a Source Control VSPackage
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -43,4 +38,3 @@ This documentation includes links to the architecture overview of a source-contr
   
  [Source Control](../../extensibility/internals/source-control.md)  
  Discusses the options for implementing source control as an integrated feature of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)].
-

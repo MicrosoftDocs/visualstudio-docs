@@ -1,14 +1,9 @@
 ---
 title: "CvWriteMessage Function | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 f1_keywords: 
   - "cvmarkers/CvWriteMessageW"
   - "cvmarkers/CvWriteMessageExW"
@@ -31,7 +26,7 @@ ms.assetid: e20ae7be-bfa7-437a-b8c1-fa0f1baa7f83
 caps.latest.revision: 8
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # CvWriteMessage Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -122,6 +117,3 @@ HRESULT CvWriteMessageExVA(
   
 ## See Also  
  [C++ Library Reference](../profiling/cpp-library-reference.md)
-
-
-

@@ -1,14 +1,9 @@
 ---
 title: "Globalizing Applications | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Visual Basic code, international applications"
   - "globalization [Visual Studio], international applications"
@@ -17,7 +12,7 @@ ms.assetid: 8e1b9920-e1ac-4691-928e-cd95bfc6550b
 caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Globalizing Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -40,4 +35,3 @@ Globalization is the process of designing and developing a software product that
   
  [Best Practices for Developing World-Ready Applications](http://msdn.microsoft.com/library/f08169c7-aad8-4ec3-9a21-9ebd3b89986c)  
  Provides information on programming for an international audience, such as design issues and terminology.
-

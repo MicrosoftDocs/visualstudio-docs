@@ -1,14 +1,9 @@
 ---
 title: "IDiaFrameData::get_lengthProlog | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ ms.assetid: 5f042ff1-e74e-430a-be34-d2cf1b18eff2
 caps.latest.revision: 11
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # IDiaFrameData::get_lengthProlog
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -44,6 +39,3 @@ HRESULT get_lengthProlog ( 
   
 ## See Also  
  [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)
-
-
-

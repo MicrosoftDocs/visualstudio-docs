@@ -1,14 +1,9 @@
 ---
 title: "Managing VSPackages | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "VSPackages, autoloading"
   - "VSPackages, delayed loading"
@@ -17,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: 386e0ce5-4107-4164-b0cd-1cf43eb5e7cf
 caps.latest.revision: 36
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Managing VSPackages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,4 +39,3 @@ In most cases you don’t need to worry about managing VSPackages, since the pro
   
 ## See Also  
  [VSPackages](../extensibility/internals/vspackages.md)
-

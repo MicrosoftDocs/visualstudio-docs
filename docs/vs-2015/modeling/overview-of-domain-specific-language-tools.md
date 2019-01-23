@@ -1,19 +1,16 @@
 ---
 title: "Overview of Domain-Specific Language Tools | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: overview
 helpviewer_keywords: 
   - "Domain-Specific Language"
 ms.assetid: 50d93ea2-8c88-4522-853b-40ab194953db
 caps.latest.revision: 56
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Overview of Domain-Specific Language Tools
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -77,7 +74,4 @@ Domain-Specific Language Tools (DSL Tools), which are hosted in [!INCLUDE[vsprvs
   
 ## See Also  
  [The Experimental Instance](../extensibility/the-experimental-instance.md)   
- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/en-us/ca5e84cb-a315-465c-be24-76aa3df276aa)
-
-
-
+ [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

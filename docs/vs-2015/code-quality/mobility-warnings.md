@@ -1,14 +1,9 @@
 ---
 title: "Mobility Warnings | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 f1_keywords: 
   - "vs.codeanalysis.MobilityRules"
 helpviewer_keywords: 
@@ -32,6 +27,3 @@ Mobility warnings support efficient power usage.
 |----------|-----------------|  
 |[CA1600: Do not use idle process priority](../code-quality/ca1600-do-not-use-idle-process-priority.md)|Do not set process priority to Idle. Processes that have System.Diagnostics.ProcessPriorityClass.Idle will occupy the CPU when it would otherwise be idle, and will therefore block standby.|  
 |[CA1601: Do not use timers that prevent power state changes](../code-quality/ca1601-do-not-use-timers-that-prevent-power-state-changes.md)|Higher-frequency periodic activity will keep the CPU busy and interfere with power-saving idle timers that turn off the display and hard disks.|
-
-
-

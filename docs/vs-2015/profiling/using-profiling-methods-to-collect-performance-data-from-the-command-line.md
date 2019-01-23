@@ -1,19 +1,14 @@
 ---
 title: "Using Profiling Methods to Collect Performance Data from the Command Line | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 ms.assetid: 5613fafc-f298-4e7a-9a2d-a853b61cdf9c
 caps.latest.revision: 19
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Using Profiling Methods to Collect Performance Data from the Command Line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -90,6 +85,3 @@ Your choice of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools comm
  [Profiling Stand-Alone Applications](../profiling/command-line-profiling-of-stand-alone-applications.md)   
  [Profiling ASP.NET Web Applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)   
  [Profiling Services](../profiling/command-line-profiling-of-services.md)
-
-
-

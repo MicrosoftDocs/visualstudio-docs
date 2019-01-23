@@ -1,14 +1,9 @@
 ---
 title: "UsedCommands Element | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "UsedCommands"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: 5e000ee0-a919-46e9-9277-2a0659f1eb78
 caps.latest.revision: 14
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # UsedCommands Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -68,4 +63,3 @@ The UsedCommands element groups UsedCommand elements and other UsedCommands grou
 ## See Also  
  [UsedCommand Element](../extensibility/usedcommand-element.md)   
  [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
-

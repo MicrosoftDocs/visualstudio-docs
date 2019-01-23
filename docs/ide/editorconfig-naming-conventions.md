@@ -79,7 +79,7 @@ To describe the modifiers of the symbols you want the naming rule to apply to, s
 
 `dotnet_naming_symbols.<symbolTitle>.required_modifiers = <values>`
 
-The following list shows the allowable values, and you can specify multiple values by separating them with a comma.
+The following list shows the allowable values, and you can specify multiple values by separating them with a comma. A naming rule will only match signatures that have all the modifiers specified in `required_modifiers`. If you omit this property, the default value of an empty list is used, that is, no specific modifiers are required for a match. This means a symbol's modifiers have no effect on whether or not this rule is applied.
 
 - `abstract` or `must_inherit`
 - `async`

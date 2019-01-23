@@ -5,7 +5,7 @@ metadata:
   title: Azure Development with Visual Studio | Microsoft Docs
   meta.description: Tutorials and conceptual articles about connecting apps and services to Azure and developing Azure services.
   author: ghogen
-  manager: douge
+  manager: jillfra
   ms.prod: visual-studio-dev14
   ms.technology: vs-azure
   ms.topic: landing-page

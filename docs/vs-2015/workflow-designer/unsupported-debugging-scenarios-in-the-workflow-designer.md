@@ -1,17 +1,14 @@
 ---
 title: "Unsupported debugging scenarios in the Workflow Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: ".net-framework-4.6"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: "reference"
 ms.assetid: 6adbe379-41d0-4681-9cd0-b91f187c3c2c
 caps.latest.revision: 4
 author: "steved0x"
 ms.author: gewarren
-manager: "erikre"
+manager: jillfra
 ---
 # Unsupported debugging scenarios in the Workflow Designer
 The Workflow Designer in [!INCLUDE[netfx40_short](../includes/netfx40-short-md.md)] added many new features, but there are still some debugging scenarios that it does not support. This document details unsupported Workflow Designer debugging scenarios.  

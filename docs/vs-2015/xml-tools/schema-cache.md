@@ -1,19 +1,14 @@
 ---
 title: "Schema Cache | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: 35a7fcad-f3bf-4a96-9008-4306e7276223
 caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Schema Cache
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -130,6 +125,3 @@ The XML Editor provides a schema cache located in the %InstallRoot%\Xml\Schemas 
 
 ## See Also  
  [XML Editor](../xml-tools/xml-editor.md)
-
-
-

@@ -1,14 +1,9 @@
 ---
 title: "How to: Specify Managed Code Rule Sets for Multiple Projects in a Solution | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 f1_keywords: 
   - "vs.codeanalysis.propertypages.solution"
 ms.assetid: 92dc3250-a010-4396-b515-f03a0b30cd2a
@@ -42,6 +37,3 @@ By default, all the managed projects of a solution are assigned the Microsoft Mi
     -   To specify all the projects in the solution, hold down SHIFT and click in the project list.  
   
 5.  Click the **Rule Set** field of a project and then click the name of the rule set that you want to apply.
-
-
-

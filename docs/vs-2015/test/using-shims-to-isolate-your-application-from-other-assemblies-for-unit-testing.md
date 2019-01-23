@@ -1,18 +1,13 @@
 ---
 title: "Using shims to isolate your application from other assemblies for unit testing | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 ms.assetid: d2a34de2-6527-4c21-8b93-2f268ee894b7
 caps.latest.revision: 14
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Using shims to isolate your application from other assemblies for unit testing
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -552,6 +547,3 @@ ShimFile.WriteAllTextStringString = shim;
  [Isolating Code Under Test with Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md)   
  [Peter Provost’s blog: Visual Studio 2012 Shims](http://www.peterprovost.org/blog/2012/04/25/visual-studio-11-fakes-part-2)   
  [Video (1h16): Testing Un-testable Code with Fakes in Visual Studio 2012](http://go.microsoft.com/fwlink/?LinkId=261837)
-
-
-

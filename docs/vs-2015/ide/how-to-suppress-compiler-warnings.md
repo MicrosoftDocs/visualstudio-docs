@@ -1,19 +1,14 @@
 ---
 title: "How to: Suppress Compiler Warnings | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 ms.assetid: 31827b17-f933-413d-b28a-b19f903b64ca
 caps.latest.revision: 7
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Suppress Compiler Warnings
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -109,6 +104,3 @@ You can declutter a build log by specifying one or more kinds of compiler warnin
  [Walkthrough: Building an Application](../ide/walkthrough-building-an-application.md)   
  [How to: View, Save, and Configure Build Log Files](../ide/how-to-view-save-and-configure-build-log-files.md)   
  [Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)
-
-
-

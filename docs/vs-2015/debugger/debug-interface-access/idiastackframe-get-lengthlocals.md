@@ -1,14 +1,9 @@
 ---
 title: "IDiaStackFrame::get_lengthLocals | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ ms.assetid: dbc3e544-578a-4f0b-8d20-f21ad4cbb604
 caps.latest.revision: 11
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # IDiaStackFrame::get_lengthLocals
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -41,6 +36,3 @@ HRESULT get_lengthLocals ( 
   
 ## See Also  
  [IDiaStackFrame](../../debugger/debug-interface-access/idiastackframe.md)
-
-
-

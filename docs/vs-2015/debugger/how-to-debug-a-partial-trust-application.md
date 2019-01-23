@@ -1,14 +1,9 @@
 ---
 title: "How to: Debug a Partial Trust Application | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -22,7 +17,7 @@ ms.assetid: 9d30ad92-28ce-4b21-91d8-698474cddf64
 caps.latest.revision: 28
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Debug a Partial Trust Application
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -83,6 +78,3 @@ Applies to Windows and console applications.
 ## See Also  
  [ClickOnce Security and Deployment](../deployment/clickonce-security-and-deployment.md)   
  [Debugger Security](../debugger/debugger-security.md)
-
-
-

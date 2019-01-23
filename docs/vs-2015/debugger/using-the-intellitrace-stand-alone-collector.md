@@ -1,13 +1,9 @@
 ---
 title: "Using the IntelliTrace stand-alone collector | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: conceptual
 f1_keywords:
   - "vs.historicaldebug.collectdataoutsideVS"
 helpviewer_keywords:
@@ -16,7 +12,7 @@ ms.assetid: 1bde9807-8219-4a2a-a440-ac5ee5178159
 caps.latest.revision: 111
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Using the IntelliTrace stand-alone collector
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

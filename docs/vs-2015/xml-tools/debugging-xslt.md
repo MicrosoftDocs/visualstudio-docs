@@ -1,19 +1,14 @@
 ---
 title: "Debugging XSLT | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: 344940bd-c41e-4ed9-8458-3e3aa8e6bb37
 caps.latest.revision: 7
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Debugging XSLT
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -55,6 +50,5 @@ You can use the Visual Studio debugger to debug XSLT. The debugger supports sett
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)  
  Introduces the Visual Studio debugger.  
   
- [XSLT Reference](http://msdn.microsoft.com/en-us/678bcd68-cbbb-4be5-9dd2-40f94488a1cf)  
+ [XSLT Reference](http://msdn.microsoft.com/678bcd68-cbbb-4be5-9dd2-40f94488a1cf)  
  Provides reference material for XSLT elements and functions.
-

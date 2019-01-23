@@ -1,21 +1,16 @@
 ---
 title: "IDebugComPlusSymbolProvider2::GetTypeFromToken | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 helpviewer_keywords: 
   - "IDebugComPlusSymbolProvider2::GetTypeFromToken"
   - "GetTypeFromToken"
 ms.assetid: 4452bc5d-0225-40e0-a467-c472a5c7c4ee
 caps.latest.revision: 11
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # IDebugComPlusSymbolProvider2::GetTypeFromToken
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -89,4 +84,3 @@ Error:
   
 ## See Also  
  [IDebugComPlusSymbolProvider2](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2.md)
-

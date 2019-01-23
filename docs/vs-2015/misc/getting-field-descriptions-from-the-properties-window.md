@@ -1,19 +1,14 @@
 ---
 title: "Getting Field Descriptions from the Properties Window | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "devlang-csharp"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Properties window, field descriptions"
 ms.assetid: 7d92bb6a-b9b9-4cd8-99e9-b5ee129b52a3
 caps.latest.revision: 9
-manager: "douge"
+manager: jillfra
 ---
 # Getting Field Descriptions from the Properties Window
 At the bottom of the **Properties** window, a description area displays information related to the selected property field. This feature is turned on by default. If you want to hide the description field, right-click the **Properties** window and click **Description**. Doing so also removes the check mark next to the **Description** title in the menu window. You can display the field again by following the same steps to toggle **Description** back on.  

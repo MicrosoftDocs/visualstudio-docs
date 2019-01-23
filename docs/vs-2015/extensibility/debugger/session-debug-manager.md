@@ -1,14 +1,9 @@
 ---
 title: "Session Debug Manager | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "session debug manager, unifying session views"
   - "session debug manager, broadcasting"
@@ -19,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: fbb1928d-dddc-43d1-98a4-e23b0ecbae09
 caps.latest.revision: 11
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Session Debug Manager
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -41,4 +36,3 @@ The session debug manager (SDM) manages any number of debug engines (DE) debuggi
  [Debug Engine](../../extensibility/debugger/debug-engine.md)   
  [Debugger Components](../../extensibility/debugger/debugger-components.md)   
  [Debugger Contexts](../../extensibility/debugger/debugger-contexts.md)
-

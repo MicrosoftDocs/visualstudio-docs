@@ -1,18 +1,14 @@
 ---
 title: "Getting Started with Graphics Diagnostics | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: conceptual
 ms.assetid: 59131181-1caa-4b7f-be4b-e84709634edf
 caps.latest.revision: 10
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Getting Started with Visual Studio Graphics Diagnostics
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -103,4 +99,4 @@ In this section you'll prepare to use Graphics Diagnostics for the first time, t
  To learn more about how to use the Graphics Analyzer tools together, see the [Examples](../debugger/graphics-diagnostics-examples.md).
 
 ## See Also
- [Direct3D 12 Graphics](http://msdn.microsoft.com/en-us/52094ae3-3b44-4689-9ee7-1ba1b3a779cb)
+ [Direct3D 12 Graphics](http://msdn.microsoft.com/52094ae3-3b44-4689-9ee7-1ba1b3a779cb)

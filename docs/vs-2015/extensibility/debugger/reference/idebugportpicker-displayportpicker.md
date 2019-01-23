@@ -1,21 +1,16 @@
 ---
 title: "IDebugPortPicker::DisplayPortPicker | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 helpviewer_keywords: 
   - "DisplayPortPicker"
   - "IDebugPortPicker::DisplayPortPicker"
 ms.assetid: 08511ef5-be64-4069-b169-a569cc94bc64
 caps.latest.revision: 10
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # IDebugPortPicker::DisplayPortPicker
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -50,4 +45,3 @@ public int DisplayPortPicker(
   
 ## See Also  
  [IDebugPortPicker](../../../extensibility/debugger/reference/idebugportpicker.md)
-

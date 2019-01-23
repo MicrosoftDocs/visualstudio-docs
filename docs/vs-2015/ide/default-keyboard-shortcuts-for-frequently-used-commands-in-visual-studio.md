@@ -1,18 +1,14 @@
 ---
 title: "Default Keyboard Shortcuts for Frequently Used Commands"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: conceptual
 ms.assetid: 5839d6ca-e5ac-4468-9025-3d5ea177f19c
 caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Default Keyboard Shortcuts for Frequently Used Commands in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

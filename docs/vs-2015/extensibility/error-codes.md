@@ -1,14 +1,9 @@
 ---
 title: "Error Codes | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "error codes, source control plug-ins"
   - "source control plug-ins, error codes"
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: d9cbd1c4-719b-467a-8100-333c1e146d3b
 caps.latest.revision: 20
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Error Codes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -82,4 +77,3 @@ IS_SCC_WARNING(rtn) (((rtn) > 0) ? TRUE : FALSE)
   
 ## See Also  
  [Source Control Plug-ins](../extensibility/source-control-plug-ins.md)
-

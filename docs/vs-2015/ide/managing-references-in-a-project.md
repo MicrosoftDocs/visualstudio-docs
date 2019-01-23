@@ -1,14 +1,9 @@
 ---
 title: "Managing references in a project | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.ProjectPropertiesReferencePaths"
   - "cs.ProjectPropertiesReferencePaths"
@@ -27,7 +22,7 @@ ms.assetid: 05d1c51b-44f3-4973-8a11-6c919b08ad62
 caps.latest.revision: 55
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Managing references in a project
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -119,4 +114,3 @@ Before you write code against an external component or connected service, your p
  [Troubleshooting Broken References](../ide/troubleshooting-broken-references.md)   
  [Programming with Assemblies](http://msdn.microsoft.com/library/25918b15-701d-42c7-95fc-c290d08648d6)   
  [How to: Add or Remove References By Using the Reference Manager](../ide/how-to-add-or-remove-references-by-using-the-reference-manager.md)
-

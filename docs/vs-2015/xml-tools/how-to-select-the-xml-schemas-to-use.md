@@ -1,19 +1,14 @@
 ---
 title: "How to: Select the XML Schemas to Use | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: d6fda3ef-d465-4788-8514-2f2d528d658c
 caps.latest.revision: 8
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Select the XML Schemas to Use
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -77,6 +72,3 @@ The XML Editor provides a schema cache located in the %InstallDir%\Xml\Schemas d
  [Schema Cache](../xml-tools/schema-cache.md)   
  [XML Schemas Dialog Box](../xml-tools/xml-schemas-dialog-box.md)   
  [XML Editor](../xml-tools/xml-editor.md)
-
-
-

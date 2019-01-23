@@ -1,14 +1,9 @@
 ---
 title: "IDebugArrayField::GetNumberOfElements | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugArrayField::GetNumberOfElements"
 helpviewer_keywords: 
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: a1961ef3-d69d-4022-b8c9-b9cfb9811345
 caps.latest.revision: 10
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # IDebugArrayField::GetNumberOfElements
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -49,4 +44,3 @@ int GetNumberOfElements(
   
 ## See Also  
  [IDebugArrayField](../../../extensibility/debugger/reference/idebugarrayfield.md)
-

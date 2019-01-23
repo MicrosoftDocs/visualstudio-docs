@@ -1,21 +1,16 @@
 ---
 title: "Registering VSPackages | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "managed VSPackages, registering"
   - "registration, managed VSPackages"
 ms.assetid: 79b9424e-7e9b-4fc8-9b9f-00212674573c
 caps.latest.revision: 21
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Registering VSPackages
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -31,4 +26,3 @@ manager: "ghogen"
   
  [Using a Custom Registration Attribute to Register an Extension](../../misc/using-a-custom-registration-attribute-to-register-an-extension.md)  
  Describes how to create a registration manifest that can be used to deploy a managed VSPackage.
-

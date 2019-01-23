@@ -1,20 +1,15 @@
 ---
 title: "Implementing a Legacy Language Service2 | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "language services [managed package framework], implementing"
 ms.assetid: 5bcafdc5-f922-48f6-a12e-6c8507a79a05
 caps.latest.revision: 27
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Implementing a Legacy Language Service
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -364,4 +359,3 @@ public enum IconImageIndex
  [Legacy Language Service Overview](../../extensibility/internals/legacy-language-service-overview.md)   
  [Registering a Legacy Language Service](../../extensibility/internals/registering-a-legacy-language-service1.md)   
  [Legacy Language Service Parser and Scanner](../../extensibility/internals/legacy-language-service-parser-and-scanner.md)
-

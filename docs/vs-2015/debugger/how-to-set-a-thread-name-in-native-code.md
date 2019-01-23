@@ -1,14 +1,9 @@
 ---
 title: "How to: Set a Thread Name in Native Code | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -24,7 +19,7 @@ ms.assetid: c85d0968-9f22-4d69-87f4-acca2ae777b8
 caps.latest.revision: 40
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Set a Thread Name in Native Code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -70,6 +65,3 @@ void SetThreadName(DWORD dwThreadID, const char* threadName) {
  [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)   
  [Viewing Data in the Debugger](../debugger/viewing-data-in-the-debugger.md)   
  [How to: Set a Thread Name in Managed Code](../debugger/how-to-set-a-thread-name-in-managed-code.md)
-
-
-

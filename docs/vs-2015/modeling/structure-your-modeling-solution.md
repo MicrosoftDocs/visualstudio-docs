@@ -1,17 +1,14 @@
 ---
 title: "Structure your modeling solution | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 ms.assetid: 2ba70ba4-2cea-4e01-93c2-055903d59470
 caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Structure your modeling solution
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -113,6 +110,3 @@ To use models effectively in a development project, the team members must be abl
 ## See Also  
  [Manage models and diagrams under version control](../modeling/manage-models-and-diagrams-under-version-control.md)   
  [Use models in your development process](../modeling/use-models-in-your-development-process.md)
-
-
-

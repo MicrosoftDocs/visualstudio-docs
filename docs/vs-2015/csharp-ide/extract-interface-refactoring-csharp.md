@@ -1,14 +1,9 @@
 ---
 title: "Extract Interface Refactoring (C#) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-general
+ms.topic: reference
 f1_keywords: 
   - "vs.csharp.refactoring.extractinterface"
 dev_langs: 
@@ -20,7 +15,7 @@ ms.assetid: 7d0aa225-3b33-4331-9652-5a67cac6f3d0
 caps.latest.revision: 25
 author: gewarren
 ms.author: gewarren
-manager: "wpickett"
+manager: jillfra
 ---
 # Extract Interface Refactoring (C#)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

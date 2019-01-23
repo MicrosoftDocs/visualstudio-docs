@@ -1,14 +1,9 @@
 ---
 title: "Maintainability Warnings | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 f1_keywords: 
   - "vs.codeanalysis.maintainabilityrules"
 helpviewer_keywords: 
@@ -39,6 +34,3 @@ Maintainability warnings support library and application maintenance.
   
 ## See Also  
  [Measuring Complexity and Maintainability of Managed Code](../code-quality/measuring-complexity-and-maintainability-of-managed-code.md)
-
-
-

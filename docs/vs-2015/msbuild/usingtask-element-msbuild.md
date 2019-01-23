@@ -1,14 +1,9 @@
 ---
 title: "UsingTask Element (MSBuild) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#UsingTask"
 dev_langs: 
@@ -23,7 +18,7 @@ ms.assetid: 20247902-9446-4a1f-8253-5c7a17e4fe43
 caps.latest.revision: 27
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # UsingTask Element (MSBuild)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -105,6 +100,3 @@ Maps the task that is referenced in a [Task](../msbuild/task-element-msbuild.md)
  [Tasks](../msbuild/msbuild-tasks.md)   
  [Task Reference](../msbuild/msbuild-task-reference.md)   
  [Project File Schema Reference](../msbuild/msbuild-project-file-schema-reference.md)
-
-
-

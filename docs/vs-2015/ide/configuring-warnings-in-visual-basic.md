@@ -1,14 +1,9 @@
 ---
 title: "Configuring Warnings in Visual Basic | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "errors [Visual Basic], warnings"
   - "run-time errors, warnings"
@@ -17,7 +12,7 @@ ms.assetid: 99cf4781-bd4d-47b4-91b9-217933509f82
 caps.latest.revision: 37
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Configuring Warnings in Visual Basic
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -126,8 +121,3 @@ The [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] compiler includes a set of warn
  [/warnaserror (Visual Basic)](http://msdn.microsoft.com/library/49819f1d-a1bd-4201-affe-5afe6d9712e1)   
  [Compile Page, Project Designer (Visual Basic)](../ide/reference/compile-page-project-designer-visual-basic.md)   
  [Compiler Warnings That Are Off by Default](http://msdn.microsoft.com/library/69809cfb-a38a-4035-b154-283a61938df8)
-
-
-
-
-

@@ -1,21 +1,16 @@
 ---
 title: "Button Element | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 helpviewer_keywords: 
   - "Buttons element (VSCT XML schema)"
   - "VSCT XML schema elements, Buttons"
 ms.assetid: 96dccf51-2b00-4700-9d28-924b34c21ecd
 caps.latest.revision: 12
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Button Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -79,4 +74,3 @@ Defines an element that the user can interact with. Buttons can be of different 
 
 ## See Also  
  [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
-

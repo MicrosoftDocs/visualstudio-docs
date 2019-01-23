@@ -1,14 +1,9 @@
 ---
 title: "Warning: Script Debugging Disabled | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.debug.scriptdisabled"
 dev_langs: 
@@ -20,7 +15,7 @@ ms.assetid: 323d2b1d-52a4-42f7-b4ad-96b4b0c23b8d
 caps.latest.revision: 10
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Warning: Script Debugging Disabled
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -47,6 +42,3 @@ Script Debugging is currently disabled in Internet Explorer
   
 ## See Also  
  [How to: Attach to Script](../debugger/how-to-attach-to-script.md)
-
-
-

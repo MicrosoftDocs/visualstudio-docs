@@ -1,18 +1,13 @@
 ---
 title: "Making Coded UI Tests Wait For Specific Events During Playback | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 ms.assetid: 41981ad6-673e-492e-b739-9863b14157b1
 caps.latest.revision: 26
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Making Coded UI Tests Wait For Specific Events During Playback
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -117,6 +112,3 @@ UITestControl.WaitForCondition<UITestControl[]>(new UITestControl[] { statusText
  [Anatomy of a Coded UI Test](../test/anatomy-of-a-coded-ui-test.md)   
  [Supported Configurations and Platforms for Coded UI Tests and Action Recordings](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)   
  [How to: Insert a Delay Before a UI Action Using the Coded UI Test Editor](http://msdn.microsoft.com/library/509f8ef7-e105-4049-b11b-d64549e055b0)
-
-
-

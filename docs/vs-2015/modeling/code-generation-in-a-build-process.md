@@ -1,12 +1,9 @@
 ---
 title: "Code Generation in a Build Process | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords:
   - "text templates, build tasks"
   - "text templates, transforming by using msbuild"
@@ -14,7 +11,7 @@ ms.assetid: 4da43429-2a11-4d7e-b2e0-9e4af7033b5a
 caps.latest.revision: 30
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Code Generation in a Build Process
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

@@ -1,18 +1,13 @@
 ---
 title: "Unit testing existing C++ applications with Test Explorer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 ms.assetid: 7d08de69-c32e-4f0b-89aa-75347b15fb82
 caps.latest.revision: 13
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Unit testing existing C++ applications with Test Explorer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -157,7 +152,7 @@ We recommend that, before you change an existing application, you make sure that
    }  
    ```  
   
-   For more information, see [Unit testing native code with Test Explorer](http://msdn.microsoft.com/en-us/8a09d6d8-3613-49d8-9ffe-11375ac4736c).  
+   For more information, see [Unit testing native code with Test Explorer](http://msdn.microsoft.com/8a09d6d8-3613-49d8-9ffe-11375ac4736c).  
   
 ## Run the tests  
   
@@ -166,6 +161,3 @@ We recommend that, before you change an existing application, you make sure that
 2. In Test Explorer, choose **Run All**.  
   
    For more information, see [Quick Start: Test Driven Development with Test Explorer](../test/quick-start-test-driven-development-with-test-explorer.md).
-
-
-

@@ -1,20 +1,15 @@
 ---
 title: "TASK_STATE_CANCELED Field | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "TASK_STATE_CANCELED field, Task class [.NET Framework debug engines]"
 ms.assetid: f4f5a96a-8230-493d-9696-8d2716bda261
 caps.latest.revision: 9
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # TASK_STATE_CANCELED Field
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -38,4 +33,3 @@ The task was canceled before it reached the running state, or it acknowledged it
   
 ## See Also  
  [Task Class](../../extensibility/debugger/task-class-internal-members.md)
-

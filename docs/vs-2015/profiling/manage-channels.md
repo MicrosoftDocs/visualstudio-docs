@@ -1,14 +1,9 @@
 ---
 title: "Manage Channels | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.cv.threads.tools.managechannels"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ ms.assetid: 507b06e9-bb56-4a72-8fd5-f91f958da6fc
 caps.latest.revision: 18
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Manage Channels
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -64,6 +59,3 @@ In the **Threads View** in the Concurrency Visualizer, you can organize the chan
  [Zoom Control (Threads View)](../profiling/zoom-control-threads-view.md)   
  [Measure Mode On/Off](../profiling/measure-mode-on-off.md)   
  [Threads View](../profiling/threads-view-parallel-performance.md)
-
-
-

@@ -1,14 +1,9 @@
 ---
 title: "How to: Arrange and Dock Windows | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "devlang-csharp"
+ms.topic: conceptual
 f1_keywords: 
   - "VisualStudio.TreeGrid.AddRemoveColumnsDialogBox"
   - "VisualStudio.TreeGrid.SortColumnDialogBox"
@@ -36,7 +31,7 @@ ms.assetid: 6a68f761-4589-4634-b39d-311fc46309aa
 caps.latest.revision: 35
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # How to: Arrange and Dock Windows
 This content has moved to [Customizing window layouts](../ide/customizing-window-layouts-in-visual-studio.md)

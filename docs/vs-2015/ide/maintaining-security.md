@@ -1,14 +1,9 @@
 ---
 title: "Maintaining Security | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "unauthorized access"
   - "Baseline Security Analyzer"
@@ -20,7 +15,7 @@ ms.assetid: 621d10c1-842b-4902-be60-bb9719591751
 caps.latest.revision: 22
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Maintaining Security
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,6 +38,3 @@ It is often said that the price of security is constant vigilance. Despite your 
   
  [Microsoft Baseline Security Analyzer](http://go.microsoft.com/fwlink/?LinkId=9173)  
  The Microsoft Baseline Security Analyzer (MBSA) is a tool that enables an individual home user, a corporate user, or an administrator to scan one or more Windows-based computers for common security configuration mistakes.
-
-
-

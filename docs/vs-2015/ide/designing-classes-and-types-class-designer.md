@@ -1,14 +1,9 @@
 ---
 title: "Designing Classes and Types (Class Designer) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "types [Visual Studio], designing"
   - "classes [Visual Studio], designing"
@@ -16,7 +11,7 @@ ms.assetid: 381481a2-87f4-475b-a780-18e85c8af350
 caps.latest.revision: 25
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Designing Classes and Types (Class Designer)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -54,6 +49,3 @@ Using **Class Designer**, you can not only visualize classes and types, but desi
   
 ## See Also  
  [Working with Class Diagrams (Class Designer)](../ide/working-with-class-diagrams-class-designer.md)
-
-
-

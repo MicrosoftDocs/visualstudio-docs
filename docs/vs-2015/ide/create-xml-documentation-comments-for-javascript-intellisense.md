@@ -1,14 +1,9 @@
 ---
 title: "Create XML Documentation Comments for JavaScript IntelliSense | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "code comments, JavaScript IntelliSense"
   - "XML documentation comments, JavaScript IntelliSense"
@@ -18,7 +13,7 @@ ms.assetid: a27f5b50-9807-436f-a0cf-6f3137ecbaf0
 caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Create XML Documentation Comments for JavaScript IntelliSense
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -158,7 +153,4 @@ manager: "ghogen"
 ## See Also  
  [JavaScript IntelliSense](../ide/javascript-intellisense.md)   
  [XML Documentation Comments](../ide/xml-documentation-comments-javascript.md)   
- [NIB: Walkthrough: JavaScript IntelliSense in ASP.NET](http://msdn.microsoft.com/en-us/4f6e0cc2-7f48-4dbf-abb0-7fb743a2d05b)
-
-
-
+ [NIB: Walkthrough: JavaScript IntelliSense in ASP.NET](http://msdn.microsoft.com/4f6e0cc2-7f48-4dbf-abb0-7fb743a2d05b)

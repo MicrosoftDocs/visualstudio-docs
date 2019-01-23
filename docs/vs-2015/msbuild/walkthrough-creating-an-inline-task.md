@@ -1,14 +1,9 @@
 ---
 title: "Walkthrough: Creating an Inline Task | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: reference
 helpviewer_keywords: 
   - "MSBuild, tutorial"
   - "MSBuild, tasks"
@@ -16,7 +11,7 @@ ms.assetid: 438194cb-668c-41a9-a7e2-c118d14c1ea7
 caps.latest.revision: 17
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Walkthrough: Creating an Inline Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -257,6 +252,3 @@ MSBuild tasks are typically created by compiling a class that implements the <xr
  [Inline Tasks](../msbuild/msbuild-inline-tasks.md)   
  [Tasks](../msbuild/msbuild-tasks.md)   
  [Targets](../msbuild/msbuild-targets.md)
-
-
-

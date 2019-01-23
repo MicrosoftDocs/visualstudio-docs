@@ -1,14 +1,9 @@
 ---
 title: "IDiaSymbol::get_baseType | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ ms.assetid: 5c69a241-a8d3-48ed-8b36-27463a196572
 caps.latest.revision: 14
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # IDiaSymbol::get_baseType
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -71,6 +66,3 @@ if (pType->get_type( &pBaseType ) == S_OK)
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
  [BasicType Enumeration](../../debugger/debug-interface-access/basictype.md)   
  [IDiaSymbol::get_type](../../debugger/debug-interface-access/idiasymbol-get-type.md)
-
-
-

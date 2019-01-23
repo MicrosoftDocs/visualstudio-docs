@@ -1,14 +1,9 @@
 ---
 title: "Getting Local Properties | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "expression evaluation, getting local properties"
   - "debugging [Debugging SDK], local properties"
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 6c3a79e8-1ba1-4863-97c3-0216c3d9f092
 caps.latest.revision: 12
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Getting Local Properties
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -160,4 +155,3 @@ STDMETHODIMP CEnumPropertyInfo::Next(
 ## See Also  
  [Sample Implementation of Locals](../../extensibility/debugger/sample-implementation-of-locals.md)   
  [Enumerating Locals](../../extensibility/debugger/enumerating-locals.md)
-

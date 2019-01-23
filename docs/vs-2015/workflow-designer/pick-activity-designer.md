@@ -1,11 +1,8 @@
 ---
 title: "Pick Activity Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: ".net-framework-4.6"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: "reference"
 f1_keywords: 
   - "System.Activities.Statements.Pick.UI"
@@ -13,7 +10,7 @@ ms.assetid: 642c0a47-1b47-45de-a19a-ca0606cedd7a
 caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
-manager: "erikre"
+manager: jillfra
 ---
 # Pick Activity Designer
 The <xref:System.Activities.Statements.Pick> activity provides event-based control flow. The activity executes one of several branches in response to a triggering event.  

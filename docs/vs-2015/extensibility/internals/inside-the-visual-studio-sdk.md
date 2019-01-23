@@ -1,14 +1,9 @@
 ---
 title: "Inside the Visual Studio SDK | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "roadmap, Visual Studio integration SDK"
   - "Visual Studio integration SDK roadmap"
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 9118eaa4-0453-4dc5-9e16-c7062d254869
 caps.latest.revision: 31
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Inside the Visual Studio SDK
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -127,4 +122,3 @@ Generalized view of the Visual Studio architecture
   
 ## Help Viewer  
  You can integrate your own help and F1 pages into the Help Viewer. For more information, see [Microsoft Help Viewer SDK](../../extensibility/internals/microsoft-help-viewer-sdk.md).
-

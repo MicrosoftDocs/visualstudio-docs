@@ -18,7 +18,7 @@ The Diagnostics Tools include new visualizations to help you identify issues in 
 
 For additional information, see the [Release notes for [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]](/visualstudio/releasenotes/vs2017-relnotes#debuggingdiag).
 
-A **Summary** tab has been added to the tools that helps you to focus on key areas for your performance analysis. This tab shows how many events have occurred, lets you take snapshots of the heap, and lets you quickly enable CPU usage data collection. This view shows any [Application insights](https://azure.microsoft.com/en-us/documentation/articles/app-insights-visual-studio/) or [UI analysis](/visualstudio/releasenotes/vs2017-relnotes#UIAnalysis) events. In addition, for Visual Studio Enterprise, this view also shows IntelliTrace events.
+A **Summary** tab has been added to the tools that helps you to focus on key areas for your performance analysis. This tab shows how many events have occurred, lets you take snapshots of the heap, and lets you quickly enable CPU usage data collection. This view shows any [Application insights](/azure/azure-monitor/app/visual-studio) or [UI analysis](/visualstudio/releasenotes/vs2017-relnotes#UIAnalysis) events. In addition, for Visual Studio Enterprise, this view also shows IntelliTrace events.
 
 ![Diagnostics Tools Summary tab](../profiling/media/DiagToolsSummaryTab-2.png "DiagToolsSummaryTab")
 

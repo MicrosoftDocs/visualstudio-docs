@@ -1,14 +1,9 @@
 ---
 title: "Elements (XElement Dynamic Property) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 api_name: 
   - "XElement.Elements"
 api_type: 
@@ -17,7 +12,7 @@ ms.assetid: 3d5737f2-d2ed-410a-821c-349dbb2b574f
 caps.latest.revision: 4
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Elements (XElement Dynamic Property)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,6 +39,3 @@ elem.Elements[{namespaceName}localName]
  [XElement Class Dynamic Properties](../designers/xelement-class-dynamic-properties.md)   
  [Element](../designers/element-xelement-dynamic-property.md)   
  [Descendants](../designers/descendants-xelement-dynamic-property.md)
-
-
-

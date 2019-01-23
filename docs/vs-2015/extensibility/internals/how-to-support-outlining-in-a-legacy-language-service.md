@@ -1,14 +1,9 @@
 ---
 title: "How to: Support Outlining in a Legacy Language Service | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], collapse to definitions command"
   - "language services, supporting Collapse to Definitions command"
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: bb6e74c3-93e4-4ef7-afc7-1c9b342f083b
 caps.latest.revision: 18
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Support Outlining in a Legacy Language Service
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -49,4 +44,3 @@ Outlining is used to expand or collapse different regions of text. The way outli
 ## See Also  
  [How to: Provide Hidden Text Support in a Legacy Language Service](../../extensibility/internals/how-to-provide-hidden-text-support-in-a-legacy-language-service.md)   
  [How to: Provide Expanded Outlining Support in a Legacy Language Service](../../extensibility/internals/how-to-provide-expanded-outlining-support-in-a-legacy-language-service.md)
-

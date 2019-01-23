@@ -1,18 +1,13 @@
 ---
 title: "Enable Coded UI Testing of Your Controls | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 ms.assetid: 5ef1188f-89dc-413d-801d-0efdaf9b0427
 caps.latest.revision: 24
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Enable Coded UI Testing of Your Controls
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -540,6 +535,3 @@ Assert.AreEqual(this.AssertMethod3ExpectedValues.UIATextState, uIAText.State);
 ## See Also  
  <xref:System.Windows.Forms.AccessibleObject>   
  [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)
-
-
-

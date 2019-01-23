@@ -1,17 +1,14 @@
 ---
 title: "How to: Assign stored procedures to perform updates, inserts, and deletes (O-R Designer) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 ms.assetid: e88224ab-ff61-4a3a-b6b8-6f3694546cac
 caps.latest.revision: 5
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Assign stored procedures to perform updates, inserts, and deletes (O/R Designer)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

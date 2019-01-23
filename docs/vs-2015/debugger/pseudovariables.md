@@ -1,14 +1,9 @@
 ---
 title: "Pseudovariables | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -22,7 +17,7 @@ ms.assetid: fae84f68-2138-4144-9bd4-c9e271b6182a
 caps.latest.revision: 40
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Pseudovariables
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -72,8 +67,3 @@ $handles
 ## See Also  
  [Watch and QuickWatch Windows](../debugger/watch-and-quickwatch-windows.md)   
  [Variable Windows](http://msdn.microsoft.com/library/ce0a67f6-2502-4b7a-ba45-cc32f8aeba3e)
-
-
-
-
-

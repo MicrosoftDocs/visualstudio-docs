@@ -1,12 +1,9 @@
 ---
 title: "Separate datasets and TableAdapters into different projects | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -19,7 +16,7 @@ ms.assetid: f66a3940-6227-46af-a930-9177f425f4fd
 caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Separate datasets and TableAdapters into different projects
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

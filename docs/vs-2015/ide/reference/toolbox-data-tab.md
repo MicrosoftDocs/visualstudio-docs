@@ -1,14 +1,9 @@
 ---
 title: "Toolbox, Data Tab | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 helpviewer_keywords: 
   - "Toolbox, Data tab"
   - "Data tab, Toolbox"
@@ -17,7 +12,7 @@ ms.assetid: 2ae38b2a-29d2-461c-a67d-29dad274bf45
 caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Toolbox, Data Tab
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -26,7 +21,7 @@ manager: "ghogen"
 Displays data objects you can add to a forms and components. The **Data** tab of the **Toolbox** appears when you create a project that has an associated designer. The **Toolbox** appears by default in the Visual Studio integrated development environment; if you need to display the **Toolbox**, select **Toolbox** from the **View** menu.  
   
 > [!TIP]
->  Running the Data Source Configuration Wizard will automatically create and configure most data items. For more information, see [Creating Data Applications with Visual Studio](http://msdn.microsoft.com/en-us/28edce21-220a-484c-b461-a75b0232d293).  
+>  Running the Data Source Configuration Wizard will automatically create and configure most data items. For more information, see [Creating Data Applications with Visual Studio](http://msdn.microsoft.com/28edce21-220a-484c-b461-a75b0232d293).  
   
 ## UI Element List  
  To go directly to the .NET Framework reference page for a component, press **F1** on the item in the **Toolbox** or on the component item in the tray of the designer.  

@@ -1,14 +1,9 @@
 ---
 title: "IDebugObject | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugObject"
 helpviewer_keywords: 
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 05cd8bf4-c9ee-4b49-b782-2263c33067d6
 caps.latest.revision: 15
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # IDebugObject
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -68,4 +63,3 @@ IDebugObject : IUnknown
  [Expression Evaluation Interfaces](../../../extensibility/debugger/reference/expression-evaluation-interfaces.md)   
  [GetElement](../../../extensibility/debugger/reference/idebugarrayobject-getelement.md)   
  [Bind](../../../extensibility/debugger/reference/idebugbinder-bind.md)
-

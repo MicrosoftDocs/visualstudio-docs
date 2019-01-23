@@ -1,14 +1,9 @@
 ---
 title: "Just My Code | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -18,7 +13,7 @@ ms.assetid: 0f0df097-bbaf-46ad-9ad1-ef5f40435079
 caps.latest.revision: 14
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Just My Code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -306,8 +301,3 @@ Developers who use .NET Framework languages are familiar with the Just My Code d
 |**Unrelated**|An array of urls or files that are classified as **UnrelatedCode**.|  
   
  The url or file string can contain one or more `*` characters, which match zero or more characters. `*` is the equivalent of the regular expression `.*`.
-
-
-
-
-

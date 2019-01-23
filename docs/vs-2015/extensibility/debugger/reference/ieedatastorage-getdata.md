@@ -1,14 +1,9 @@
 ---
 title: "IEEDataStorage::GetData | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IEEDataStorage::GetData"
 helpviewer_keywords: 
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 4d384039-73d4-40b4-ace6-a2474c546397
 caps.latest.revision: 8
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # IEEDataStorage::GetData
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -60,4 +55,3 @@ int GetData(
 ## See Also  
  [IEEDataStorage](../../../extensibility/debugger/reference/ieedatastorage.md)   
  [GetSize](../../../extensibility/debugger/reference/ieedatastorage-getsize.md)
-

@@ -1,19 +1,14 @@
 ---
 title: "Graph View | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: 5881afde-3f24-4eb9-bff8-6cb3fc8aade7
 caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Graph View
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -139,6 +134,3 @@ The Graph View provides a graphic representation of global schema nodes and the 
   
 ## See Also  
  [Design Surface](../xml-tools/xml-schema-designer-workspace.md)
-
-
-

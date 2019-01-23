@@ -9,7 +9,7 @@ ms.assetid: b9531c25-e4cf-43ae-b331-a9f31a8cd171
 caps.latest.revision: 34
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Signing in to Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

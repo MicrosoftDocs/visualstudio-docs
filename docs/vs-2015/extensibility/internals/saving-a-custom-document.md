@@ -1,14 +1,9 @@
 ---
 title: "Saving a Custom Document | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "persistence, saving custom documents"
   - "projects [Visual Studio SDK], saving custom documents"
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 040b36d6-1f0a-4579-971c-40fbb46ade1d
 caps.latest.revision: 13
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Saving a Custom Document
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -46,4 +41,3 @@ Save, Save As, and Save All command handling for a custom editor
 ## See Also  
  <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget>   
  [Opening and Saving Project Items](../../extensibility/internals/opening-and-saving-project-items.md)
-

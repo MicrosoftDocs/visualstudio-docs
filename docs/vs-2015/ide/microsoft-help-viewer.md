@@ -1,14 +1,9 @@
 ---
 title: "Microsoft Help Viewer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-help-viewer
+ms.topic: conceptual
 f1_keywords: 
   - "hv_general"
 helpviewer_keywords: 
@@ -24,7 +19,7 @@ ms.assetid: 74e41666-2ce8-4ac0-a0e5-3723d1e322c2
 caps.latest.revision: 27
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Microsoft Help Viewer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -78,6 +73,3 @@ You can install and view content for various products and technologies on your l
  [Install and Manage Local Content](../ide/install-and-manage-local-content.md)   
  [Locate Information](../ide/locate-information.md)   
  [Troubleshooting the Help Viewer](../ide/troubleshooting-the-help-viewer.md)
-
-
-

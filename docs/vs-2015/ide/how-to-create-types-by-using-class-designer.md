@@ -1,14 +1,9 @@
 ---
 title: "How to: Create Types by using Class Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 f1_keywords: 
   - "VS.Clr.ClrAttributesDialog"
 helpviewer_keywords: 
@@ -22,7 +17,7 @@ ms.assetid: 94458c31-28bc-40e2-9737-85868788a0e5
 caps.latest.revision: 45
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Create Types by using Class Designer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -100,6 +95,3 @@ To design new types for Visual C# .NET and Visual Basic .NET projects, create th
  [Creating and Configuring Type Members (Class Designer)](../ide/creating-and-configuring-type-members-class-designer.md)   
  [Working with Class Diagrams (Class Designer)](../ide/working-with-class-diagrams-class-designer.md)   
  [Designing Classes and Types (Class Designer)](../ide/designing-classes-and-types-class-designer.md)
-
-
-

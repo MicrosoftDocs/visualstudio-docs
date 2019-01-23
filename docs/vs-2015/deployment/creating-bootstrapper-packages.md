@@ -1,14 +1,9 @@
 ---
 title: "Creating Bootstrapper Packages | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -25,7 +20,7 @@ ms.assetid: ba1a785b-693d-446b-bcae-b88cadee73d1
 caps.latest.revision: 47
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # Creating Bootstrapper Packages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -128,6 +123,3 @@ HKLM\Software\Wow6432Node\Microsoft\GenericBootstrapper\11.0
  [Prerequisites Dialog Box](../ide/reference/prerequisites-dialog-box.md)   
  [Product and Package Schema Reference](../deployment/product-and-package-schema-reference.md)   
  [Use the Visual Studio 2005 Bootstrapper to Kick-Start Your Installation](http://go.microsoft.com/fwlink/?LinkId=107537)
-
-
-
