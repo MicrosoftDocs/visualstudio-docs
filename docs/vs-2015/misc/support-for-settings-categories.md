@@ -17,7 +17,7 @@ caps.latest.revision: 20
 manager: "douge"
 ---
 # Support for Settings Categories
-A settings category consists of a group of options that customize the integrated development environment (IDE). For example, settings can control the layout of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] windows and the contents of menus. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+A settings category consists of a group of options that customize the integrated development environment (IDE). For example, settings can control the layout of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] windows and the contents of menus. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
  On the **Tools** menu click **Import and Export Settings** to start the **Import and Export Settings Wizard**. The wizard offers three choices: export, import, or reset your settings. Selecting export, for example, opens the **Choose Settings to Export** page of the wizard.  
   
@@ -63,4 +63,4 @@ A settings category consists of a group of options that customize the integrated
  [Creating an Options Page](../extensibility/creating-an-options-page.md)   
  [VSSDK Samples](../misc/vssdk-samples.md)   
  [VSPackage State](../misc/vspackage-state.md)   
- [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)
+ [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)

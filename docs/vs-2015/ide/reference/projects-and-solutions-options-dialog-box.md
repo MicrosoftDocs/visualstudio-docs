@@ -25,7 +25,7 @@ manager: "ghogen"
 Sets the default path of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] project folders, and determines the default behavior of the **Output** window, **Task List**, and **Solution Explorer** as projects are developed and built. To access this dialog box, click **Tools / Options** expand **Projects and Solutions**, and click **General**.  
   
 > [!NOTE]
->  The options available in dialog boxes, and the names and locations of menu commands you see, might differ from what is described in Help depending on your active settings or edition. This Help page was written with the **General Development settings** in mind. To view or change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  The options available in dialog boxes, and the names and locations of menu commands you see, might differ from what is described in Help depending on your active settings or edition. This Help page was written with the **General Development settings** in mind. To view or change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ## Settings  
  **Projects location**  
@@ -65,6 +65,3 @@ Sets the default path of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] project
   
 ## See Also  
  [Options Dialog Box,  Projects and Solutions, Build and Run](../../ide/reference/options-dialog-box-projects-and-solutions-build-and-run.md)
-
-
-

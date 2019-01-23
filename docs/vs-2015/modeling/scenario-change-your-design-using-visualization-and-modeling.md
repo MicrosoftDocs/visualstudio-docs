@@ -887,9 +887,6 @@ Make sure that your software system meets users' needs by using the visualizatio
  [Visualize code](../modeling/visualize-code.md)   
  [Create models for your app](../modeling/create-models-for-your-app.md)   
  [Use models in your development process](../modeling/use-models-in-your-development-process.md)   
- [Use models in Agile development](http://msdn.microsoft.com/en-us/592ac27c-3d3e-454a-9c38-b76658ed137f)   
+ [Use models in Agile development](http://msdn.microsoft.com/592ac27c-3d3e-454a-9c38-b76658ed137f)   
  [Validate your system during development](../modeling/validate-your-system-during-development.md)   
  [Extend UML models and diagrams](../modeling/extend-uml-models-and-diagrams.md)
-
-
-

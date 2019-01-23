@@ -40,7 +40,7 @@ The command-line options are used in conjunction with the setup bootstrapper, wh
 (Replace `vs_enterprise.exe` as appropriate for the product edition you're installing.)
 
 >[!TIP]
-> For more examples of how to use the command line to install Visual Studio 2017, see the [Command-line parameter examples](command-line-parameter-examples.md) page.)
+> For more examples of how to use the command line to install Visual Studio 2017, see the [Command-line parameter examples](command-line-parameter-examples.md) page.
 
 | **Command** | **Description** |
 | ----------------------- | --------------- |
@@ -50,6 +50,8 @@ The command-line options are used in conjunction with the setup bootstrapper, wh
 | `repair` | Repairs an installed product. |
 | `uninstall` | Uninstalls an installed product. |
 | `export` | **New in 15.9**: Exports installation selection to an installation configuration file. **Note**: Can only be used with vs_installer.exe. |
+
+### Install options
 
 | **Install option** | **Description** |
 | ----------------------- | --------------- |
@@ -71,7 +73,10 @@ The command-line options are used in conjunction with the setup bootstrapper, wh
 | `--help, --?, -h, -?` | Display an offline version of this page. |
 | `--config <path>` | **Optional** and **New in 15.9**: During an install or modify operation, this determines the workloads and components to add based on a previously saved installation configuration file. This operation is additive and it will not remove any workload or component if they are not present in the file. Also, items that do not apply to the product will not be added. During an export operation, this determines the location to save the installation configuration file. |
 
-> Note: When specifying multiple workloads and components, you must repeat the `--add` or `--remove` command-line switch for each item.
+> [!IMPORTANT]
+> When specifying multiple workloads and components, you must repeat the `--add` or `--remove` command-line switch for each item.
+
+### Layout options
 
 | **Layout options** | **Description** |
 | ----------------------- | --------------- |

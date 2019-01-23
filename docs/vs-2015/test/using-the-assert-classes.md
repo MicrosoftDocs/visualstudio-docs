@@ -60,7 +60,4 @@ Use the Assert classes of the UnitTestingFramework namespace to verify specific 
   
 ## See Also  
  <xref:Microsoft.VisualStudio.TestTools.UnitTesting>   
- [Creating and Running Unit Tests for Existing Code](http://msdn.microsoft.com/en-us/e8370b93-085b-41c9-8dec-655bd886f173)
-
-
-
+ [Creating and Running Unit Tests for Existing Code](http://msdn.microsoft.com/e8370b93-085b-41c9-8dec-655bd886f173)

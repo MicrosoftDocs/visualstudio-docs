@@ -24,10 +24,10 @@ This section contains information about Visual Studio namespaces, related namesp
   
 ## In This Section
 
- [Setup Configuration](http://msdn.microsoft.com/en-us/faa4ed55-66ce-4792-939f-a5b093f13a2e)  
+ [Setup Configuration](http://msdn.microsoft.com/faa4ed55-66ce-4792-939f-a5b093f13a2e)  
  Setup configuration API for discovering instances of Visual Studio 2017.
 
- [Open Folder Extensibility](http://msdn.microsoft.com/en-us/0897ae3d-6a09-4d26-90c9-7f3d0b8e5c5d)  
+ [Open Folder Extensibility](http://msdn.microsoft.com/0897ae3d-6a09-4d26-90c9-7f3d0b8e5c5d)  
  Workspace API for Open Folder in Visual Studio 2017.
  
  <xref:Microsoft.VisualStudio.TextManager.Interop>  
@@ -309,4 +309,3 @@ This section contains information about Visual Studio namespaces, related namesp
 ## Related Sections  
  [Visual Studio SDK](../extensibility/visual-studio-sdk.md)  
  Includes documentation, samples, and code to help you develop products that integrate with Visual Studio.
-

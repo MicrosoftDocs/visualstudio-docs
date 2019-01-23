@@ -42,7 +42,7 @@ To install Python itself, visit [https://www.python.org/download/](https://www.p
   
 ## Python Tools for Visual Studio
   
-The Python Tools for Visual Studio, which you can install from [visualstudio.com](https://www.visualstudio.com/en-us/explore/python-vs), provide the following features:  
+The Python Tools for Visual Studio, which you can install from [visualstudio.com](https://www.visualstudio.com/explore/python-vs), provide the following features:  
   
 - Support for multiple interpreters: various versions of CPython, IronPython, and IPython  
 - A project system that implicitly picks up a folder structure of Python code, and also allows explicit control so you can identify app code, test code, web pages, JavaScript, build scripts, and so on.  
@@ -98,4 +98,3 @@ We recommend obtaining IPython and scientific computing libraries (matplotlib, s
 [Getting Started with PTVS: Debugging](../python/getting-started-with-ptvs-debugging.md)
 [Getting Started with PTVS: Interactive Python](../python/getting-started-with-ptvs-interactive-python.md)
 [Getting Started with PTVS: Building a Website in Azure](../python/getting-started-with-ptvs-building-a-website-in-azure.md)
-

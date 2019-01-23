@@ -52,8 +52,5 @@ typedef void (__cdecl *_CRT_DUMP_CLIENT)
   
 ## See Also  
  [Debug Hook Function Writing](../debugger/debug-hook-function-writing.md)   
- [crt_dbg2 Sample](http://msdn.microsoft.com/en-us/21e1346a-6a17-4f57-b275-c76813089167)   
+ [crt_dbg2 Sample](http://msdn.microsoft.com/21e1346a-6a17-4f57-b275-c76813089167)   
  [_CrtReportBlockType](http://msdn.microsoft.com/library/0f4b9da7-bebb-4956-9541-b2581640ec6b)
-
-
-

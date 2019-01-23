@@ -116,5 +116,6 @@ The following code example shows how to use the `Update` attribute to modify the
 
 ## See also  
  [Items](../msbuild/msbuild-items.md)   
+ [Common MSBuild project items](../msbuild/common-msbuild-project-items.md)
  [MSBuild properties](../msbuild/msbuild-properties.md)   
  [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)

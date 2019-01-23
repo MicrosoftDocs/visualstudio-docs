@@ -37,7 +37,7 @@ manager: "ghogen"
 You can display the Visual Studio Code Editor in various display modes.  
   
 > [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ## Enabling Full Screen mode  
  You can choose to hide all tool windows and view only document windows by enabling **Full Screen** mode.  
@@ -68,6 +68,3 @@ You can display the Visual Studio Code Editor in various display modes.
  [Customizing the Editor](../ide/customizing-the-editor.md)   
  [How to: Arrange and Dock Windows](../misc/how-to-arrange-and-dock-windows.md)   
  [Fonts and Colors, Environment, Options Dialog Box](../ide/reference/fonts-and-colors-environment-options-dialog-box.md)
-
-
-

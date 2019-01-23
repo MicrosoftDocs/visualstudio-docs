@@ -52,7 +52,4 @@ Windows Presentation Foundation (WPF) extends Microsoft build engine (MSBuild) w
  A build task windows assembly.  
   
 ## See Also  
- [MSBuild](http://msdn.microsoft.com/en-us/7c49aba1-ee6c-47d8-9de1-6f29a906e20b)
-
-
-
+ [MSBuild](http://msdn.microsoft.com/7c49aba1-ee6c-47d8-9de1-6f29a906e20b)

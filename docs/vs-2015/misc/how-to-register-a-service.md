@@ -40,5 +40,5 @@ The managed package framework (MPF) provides attributes to control the registrat
 >  Although you could use the same type or GUID for both the service and the interface, we recommend that you separate the two because a service can expose different interfaces.  
   
 ## See Also  
- [Registering VSPackages](http://msdn.microsoft.com/en-us/31e6050f-1457-4849-944a-a3c36b76f3dd)   
+ [Registering VSPackages](http://msdn.microsoft.com/31e6050f-1457-4849-944a-a3c36b76f3dd)   
  [Service Essentials](../extensibility/internals/service-essentials.md)

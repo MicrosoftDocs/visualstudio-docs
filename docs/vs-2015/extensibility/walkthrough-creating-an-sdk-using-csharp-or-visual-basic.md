@@ -174,6 +174,5 @@ In this walkthrough, you’ll learn how to create a simple Math Library SDK by u
   
 ## See Also  
  [Walkthrough: Creating an SDK using C++](../extensibility/walkthrough-creating-an-sdk-using-cpp.md)   
- [Walkthrough: Creating an SDK using JavaScript](http://msdn.microsoft.com/en-us/6195ff56-4a27-45fc-bd29-4b0451225f4b)   
+ [Walkthrough: Creating an SDK using JavaScript](http://msdn.microsoft.com/6195ff56-4a27-45fc-bd29-4b0451225f4b)   
  [Creating a Software Development Kit](../extensibility/creating-a-software-development-kit.md)
-

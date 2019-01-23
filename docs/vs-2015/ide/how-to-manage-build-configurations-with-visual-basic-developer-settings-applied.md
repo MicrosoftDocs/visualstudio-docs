@@ -29,7 +29,7 @@ manager: "ghogen"
 By default, all advanced build configuration options are hidden with [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] Developer settings applied. This topic explains how to manually enable these settings.  
   
 ## Enabling advanced build configurations  
- By default, the [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] Developer settings hide the option to open the **Configuration Manager** dialog box and the **Configuration** and **Platform** lists in the [Project Designer](http://msdn.microsoft.com/en-us/898dd854-c98d-430c-ba1b-a913ce3c73d7).  
+ By default, the [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] Developer settings hide the option to open the **Configuration Manager** dialog box and the **Configuration** and **Platform** lists in the [Project Designer](http://msdn.microsoft.com/898dd854-c98d-430c-ba1b-a913ce3c73d7).  
   
 #### To enable advanced build configurations  
   
@@ -49,6 +49,3 @@ By default, all advanced build configuration options are hidden with [!INCLUDE[v
 ## See Also  
  [Understanding Build Configurations](../ide/understanding-build-configurations.md)   
  [Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)
-
-
-

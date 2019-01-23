@@ -541,7 +541,7 @@ Specifies the references, imports, declarations, and code for the code snippet.
 |[Code element](../ide/code-snippets-schema-reference.md#code-element)|Required element. Specifies the code that you want to insert into a documentation file. There must be exactly one `Code` element in a `Snippet` element.|
 |[Declarations element](../ide/code-snippets-schema-reference.md#declarations-element)|Optional element. Specifies the literals and objects that make up the parts of a code snippet that you can edit. There may be zero or one `Declarations` elements in a `Snippet` element.|
 |[Imports element](../ide/code-snippets-schema-reference.md#imports-element)|Optional element. Groups individual `Import` elements. There may be zero or one `Imports` elements in a `Snippet` element.|
-||Optional element. Groups individual `Reference` elements. There may be zero or one `References` elements in a `Snippet` element.|
+|[References element](../ide/code-snippets-schema-reference.md#references-element)|Optional element. Groups individual `Reference` elements. There may be zero or one `References` elements in a `Snippet` element.|
 
 |Parent element|Description|
 | - |-----------------|

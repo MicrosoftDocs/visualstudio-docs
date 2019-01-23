@@ -57,7 +57,7 @@ If you have issues using Xamarin after doing this setup and install, post your q
 > [!TIP]
 >  These instructions apply to Visual Studio 2015. To use Xamarin with Visual Studio 2013 (Update 2 is required),  follow the instructions for [direct Xamarin install](https://developer.xamarin.com/guides/cross-platform/getting_started/requirements/#install) (xamarin.com).  
   
-1. [Download and launch the installer for any edition of Visual Studio 2015](https://www.visualstudio.com/en-us/downloads/download-visual-studio-vs.aspx) (Community, Professional, or Enterprise). Visual Studio 2015 Community is the free edition; the Professional and Enterprise editions can be used on a trial basis for 30 days after which you'll need to purchase a license.  
+1. [Download and launch the installer for any edition of Visual Studio 2015](https://www.visualstudio.com/downloads/download-visual-studio-vs.aspx) (Community, Professional, or Enterprise). Visual Studio 2015 Community is the free edition; the Professional and Enterprise editions can be used on a trial basis for 30 days after which you'll need to purchase a license.  
   
    1.  If you already have Visual Studio installed, open **Control Panel > Programs and Features**, choose the **Visual Studio 2015** item, and click **Change**. When the installer opens, click **Modify** and skip to step 3 below.  
   
@@ -101,4 +101,3 @@ If you have issues using Xamarin after doing this setup and install, post your q
 4.  Once you’ve completed installing Xamarin on both the Windows and Mac computers, follow the instructions on [Connecting to the Mac](http://developer.xamarin.com/guides/ios/getting_started/installation/windows/xamarin-mac-agent/) (xamarin.com) so that you can work with iOS and the Mac from Visual Studio on the Windows computer.  
   
      Note that both computers must be on the same local network.
-

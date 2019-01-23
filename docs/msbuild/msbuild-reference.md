@@ -66,9 +66,6 @@ ms.workload:
  [MSBuild overview](../msbuild/msbuild.md)     
  Introduces [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] and provides links to topics that explain  how to use it to build projects.  
   
- [Microsoft.Build.Conversion](https://docs.microsoft.com/dotnet/api/microsoft.build.conversion)  
- Contains the Conversion namespace reference.  
-  
  [Microsoft.Build.Evaluation](https://docs.microsoft.com/dotnet/api/microsoft.build.evaluation)  
  Contains the Evaluation namespace reference.  
   

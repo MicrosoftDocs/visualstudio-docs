@@ -82,7 +82,7 @@ Stay focused on your work while you find out what happened to your code - withou
   
  ![CodeLens: Get change history for your code in TFVC](../ide/media/codelenscodechanges.png "CodeLensCodeChanges")  
   
- The default time period is the last 12 months. If your code is stored in Team Foundation Server, you can change this by running the [TFSConfig command](http://msdn.microsoft.com/en-us/94424190-3b6b-4f33-a6b6-5807f4225b62) with the [CodeIndex command](../ide/codeindex-command.md) and the **/indexHistoryPeriod** flag.  
+ The default time period is the last 12 months. If your code is stored in Team Foundation Server, you can change this by running the [TFSConfig command](http://msdn.microsoft.com/94424190-3b6b-4f33-a6b6-5807f4225b62) with the [CodeIndex command](../ide/codeindex-command.md) and the **/indexHistoryPeriod** flag.  
   
  To see a detailed history of all the changes, including those from more than a year ago, choose **Show all file changes**.  
   
@@ -221,9 +221,9 @@ Stay focused on your work while you find out what happened to your code - withou
   
 -   Make sure CodeLens is turned on. Go to **Tools**, **Options**, **Text Editor**, **All Languages**, **CodeLens**.  
   
--   If your code is stored in TFS, make sure that code indexing is turned on by using the [CodeIndex command](../ide/codeindex-command.md) with the [TFS Config command](http://msdn.microsoft.com/en-us/94424190-3b6b-4f33-a6b6-5807f4225b62).  
+-   If your code is stored in TFS, make sure that code indexing is turned on by using the [CodeIndex command](../ide/codeindex-command.md) with the [TFS Config command](http://msdn.microsoft.com/94424190-3b6b-4f33-a6b6-5807f4225b62).  
   
--   TFS-related indicators appear only when work items are linked to the code and when you have permissions to open linked work items. [Confirm that you have team member permissions.](http://msdn.microsoft.com/en-us/f58805de-ba61-4d09-8f2d-d3ab9662ecfd)  
+-   TFS-related indicators appear only when work items are linked to the code and when you have permissions to open linked work items. [Confirm that you have team member permissions.](http://msdn.microsoft.com/f58805de-ba61-4d09-8f2d-d3ab9662ecfd)  
   
 -   Unit test indicators don't appear when application code doesn't have unit tests. Test status indicators appear automatically in test projects. If you know that your application code has unit tests, but the test indicators don't appear, try building the solution (**Ctrl + Shift + B**).  
   
@@ -282,8 +282,4 @@ Stay focused on your work while you find out what happened to your code - withou
  **A:** The **Local Version** arrow points at the most recent changeset in your local version of this file. When the server has more recent changesets, they appear above or below the **Local Version** arrow, depending on the order used to sort the changesets.  
   
 ### Q: Can I manage how CodeLens processes code to show history and linked items?  
- **A:** Yes, if your code is in TFS, use the [CodeIndex command](../ide/codeindex-command.md) with the [TFS Config command](http://msdn.microsoft.com/en-us/94424190-3b6b-4f33-a6b6-5807f4225b62).
-
-
-
-
+ **A:** Yes, if your code is in TFS, use the [CodeIndex command](../ide/codeindex-command.md) with the [TFS Config command](http://msdn.microsoft.com/94424190-3b6b-4f33-a6b6-5807f4225b62).

@@ -30,7 +30,7 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Create a visual map of the call stack while debugging 
+# Create a visual map of the call stack while debugging (C#, Visual Basic, C++, JavaScript)
 
 Create a code map to visually trace the call stack while you're debugging. You can make notes on the map to track what the code is doing, so you can focus on finding bugs.
 
@@ -48,7 +48,7 @@ Here's a quick look at a code map:
 
 ##  <a name="MapStack"></a> Map the call stack
 
-1. In a Visual Studio Enterprise C#, Visual Basic, C++, JavaScript, or X++ project, start debugging by selecting **Debug** > **Start Debugging** or pressing **F5**.
+1. In a Visual Studio Enterprise C#, Visual Basic, C++, or JavaScript project, start debugging by selecting **Debug** > **Start Debugging** or pressing **F5**.
    
 1. After your app enters break mode or you step into a function, select **Debug** > **Code Map**, or press **Ctrl**+**Shift**+**`**.
 
