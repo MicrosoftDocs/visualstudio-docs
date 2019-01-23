@@ -1,14 +1,9 @@
 ---
 title: "CA1056: URI properties should not be strings | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "UriPropertiesShouldNotBeStrings"
   - "CA1056"
@@ -58,6 +53,3 @@ manager: "wpickett"
  [CA2234: Pass System.Uri objects instead of strings](../code-quality/ca2234-pass-system-uri-objects-instead-of-strings.md)
 
  [CA1057: String URI overloads call System.Uri overloads](../code-quality/ca1057-string-uri-overloads-call-system-uri-overloads.md)
-
-
-

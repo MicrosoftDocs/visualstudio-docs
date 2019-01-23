@@ -1,14 +1,9 @@
 ---
 title: "CA1018: Mark attributes with AttributeUsageAttribute | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "CA1018"
   - "MarkAttributesWithAttributeUsage"
@@ -58,6 +53,3 @@ manager: "wpickett"
 
 ## See Also
  [Attributes](http://msdn.microsoft.com/library/ee0038ef-b247-4747-a650-3c5c5cd58d8b)
-
-
-

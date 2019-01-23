@@ -1,20 +1,15 @@
 ---
 title: "Supporting Multiple Document Views | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], custom - multiple document views"
 ms.assetid: c7ec2366-91c4-477f-908d-e89068bdb3e3
 caps.latest.revision: 26
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Supporting Multiple Document Views
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,4 +36,3 @@ Multiple views
  By default, each view (document view object) is contained in its own window frame (<xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame>). As already noted, however, document data can be displayed in multiple views. To enable this, Visual Studio checks the RDT to determine whether the document in question is already open in an editor. When the IDE calls <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory.CreateEditorInstance%2A> to create the editor, a non-NULL value returned in the `punkDocDataExisting` parameter indicates that the document is already open in another editor. For more information about how the RDT functions, see [Running Document Table](../extensibility/internals/running-document-table.md).  
   
  In your <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory> implementation, examine the document data object returned in `punkDocDataExisting` to determine whether the document data is appropriate for your editor. (For example, only HTML data should be displayed by an HTML editor.) If it is appropriate, then your editor factory should provide a second view for the data. If the `punkDocDataExisting` parameter is not `NULL`, it is possible either that the document data object is open in another editor, or, more likely, that the document data is already open in a different view with same the editor. If the document data is open in a different editor that your editor factory does not support, then Visual Studio fails to open your editor factory. For more information, see [How to: Attach Views to Document Data](../extensibility/how-to-attach-views-to-document-data.md).
-

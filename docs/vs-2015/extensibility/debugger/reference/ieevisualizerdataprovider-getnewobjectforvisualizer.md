@@ -1,14 +1,9 @@
 ---
 title: "IEEVisualizerDataProvider::GetNewObjectForVisualizer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IEEVisualizerDataProvider::GetNewObjectForVisualizer"
 helpviewer_keywords: 
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: a898d549-4898-4fde-aad1-e8bb89129652
 caps.latest.revision: 12
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # IEEVisualizerDataProvider::GetNewObjectForVisualizer
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -50,4 +45,3 @@ int GetNewObjectForVisualizer(
 ## See Also  
  [IEEVisualizerDataProvider](../../../extensibility/debugger/reference/ieevisualizerdataprovider.md)   
  [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)
-

@@ -1,14 +1,9 @@
 ---
 title: "CA1716: Identifiers should not match keywords | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "IdentifiersShouldNotMatchKeywords"
   - "CA1716"
@@ -52,6 +47,3 @@ manager: "wpickett"
 
 ## When to Suppress Warnings
  You can suppress a warning from this rule if you are convinced that the identifier will not confuse users of the API, and that  the library is usable in all available languages in the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)].
-
-
-

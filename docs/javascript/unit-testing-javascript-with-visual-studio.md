@@ -1,9 +1,7 @@
 ---
-title: "Unit testing in Node.js"
-description: Visual Studio provides support unit testing JavaScript code using the Node.js Tools for Visual Studio
-ms.custom: ""
+title: "Unit testing JavaScript and TypeScript"
+description: Visual Studio provides support unit testing JavaScript and TypeScript code using the Node.js Tools for Visual Studio
 ms.date: "06/06/2018"
-ms.technology: vs-nodejs
 ms.topic: "conceptual"
 ms.devlang: javascript
 author: "mikejo5000"
@@ -15,7 +13,7 @@ ms.workload:
   - "nodejs"
 ---
 
-# Unit testing in Node.js
+# Unit testing JavaScript and TypeScript in Visual Studio
 
 The Node.js Tools For Visual Studio allow you to write and run unit tests using some of the more popular
 JavaScript frameworks without the need to switch to a command prompt.

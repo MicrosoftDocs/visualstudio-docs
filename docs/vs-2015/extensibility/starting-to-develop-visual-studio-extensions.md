@@ -1,21 +1,16 @@
 ---
 title: "Starting to Develop Extensions | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords:
   - "getting started, Visual Studio integration"
   - "Visual Studio, integration"
 ms.assetid: 8fe5e2ab-a424-4173-9d39-dd082c4d58d0
 caps.latest.revision: 30
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Starting to Develop Visual Studio Extensions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

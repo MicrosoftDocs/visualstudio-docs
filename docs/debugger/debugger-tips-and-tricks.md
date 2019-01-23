@@ -3,7 +3,6 @@ title: "Tips and tricks in the debugger"
 description: Learn about some of the lesser-known features supported by the Visual Studio debugger
 ms.custom: "seodec18"
 ms.date: "06/15/2017"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "stepping"
@@ -18,7 +17,7 @@ ms.workload:
 ---
 # Learn Productivity Tips and Tricks for the Debugger in Visual Studio
 
-Read this topic to learn a few productivity tips and tricks for the Visual Studio debugger. For a look at the basic features of the debugger, see [Debugger Feature Tour](../debugger/debugger-feature-tour.md). In this topic, we cover some areas that are not included in the feature tour.
+Read this topic to learn a few productivity tips and tricks for the Visual Studio debugger. For a look at the basic features of the debugger, see [First look at the debugger](../debugger/debugger-feature-tour.md). In this topic, we cover some areas that are not included in the feature tour.
 
 ## Pin data tips
 

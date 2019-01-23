@@ -1,14 +1,9 @@
 ---
 title: "IDiaSymbol::get_virtualBasePointerOffset | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ ms.assetid: a4f2649c-6702-491c-90a1-d6d669258c51
 caps.latest.revision: 11
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # IDiaSymbol::get_virtualBasePointerOffset
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -44,6 +39,3 @@ HRESULT get_virtualBasePointerOffset ( 
   
 ## See Also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
-
-
-

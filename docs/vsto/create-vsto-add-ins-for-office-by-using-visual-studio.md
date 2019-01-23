@@ -1,15 +1,14 @@
 ---
 title: "Create VSTO Add-ins for Office by using Visual Studio"
-ms.custom: ""
+titleSuffix: ""
+ms.custom: "seodec18"
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -107,5 +106,3 @@ ms.workload:
   
  [.NET Framework programming in Visual Studio](/previous-versions/visualstudio/visual-studio-2010/k1s94fta(v=vs.100))  
  Discusses application development with the .NET Framework in Visual Basic and Visual C#.  
-  
-  

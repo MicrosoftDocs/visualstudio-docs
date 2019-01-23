@@ -1,8 +1,6 @@
 ---
 title: "&lt;assemblyIdentity&gt; Element (ClickOnce Application) | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: vs-ide-deployment
 ms.topic: "reference"
 f1_keywords: 
   - "urn:schemas-microsoft-com:asm.v2#assemblyIdentity"

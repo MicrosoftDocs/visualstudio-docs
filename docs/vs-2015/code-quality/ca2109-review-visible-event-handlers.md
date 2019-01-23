@@ -1,14 +1,9 @@
 ---
 title: "CA2109: Review visible event handlers | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "CA2109"
   - "ReviewVisibleEventHandlers"
@@ -65,7 +60,4 @@ manager: "wpickett"
 ## See Also
  <xref:System.Security.CodeAccessPermission.Demand%2A?displayProperty=fullName>
  <xref:System.EventArgs?displayProperty=fullName>
- [Security Demands](http://msdn.microsoft.com/en-us/324c14f8-54ff-494d-9fd1-bfd20962c8ba)
-
-
-
+ [Security Demands](http://msdn.microsoft.com/324c14f8-54ff-494d-9fd1-bfd20962c8ba)

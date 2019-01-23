@@ -1,14 +1,9 @@
 ---
 title: "IDebugBinder3::GetEEService | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugBinder3::GetEEService"
 helpviewer_keywords: 
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: eb07aa40-8cd9-4a52-a4c7-4affd2307a01
 caps.latest.revision: 13
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # IDebugBinder3::GetEEService
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -67,4 +62,3 @@ Int GetEEService(
  [IEEVisualizerServiceProvider](../../../extensibility/debugger/reference/ieevisualizerserviceprovider.md)   
  [IEEVisualizerService](../../../extensibility/debugger/reference/ieevisualizerservice.md)   
  [Visualizing and Viewing Data](../../../extensibility/debugger/visualizing-and-viewing-data.md)
-

@@ -8,7 +8,7 @@ ms.assetid: 586da5dc-f678-402b-afd0-0332959fd7a6
 caps.latest.revision: 11
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ---
 # Creating Custom Project and Item Templates
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

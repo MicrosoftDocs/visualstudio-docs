@@ -18,6 +18,6 @@ The external object address of an object, such as a C++-allocated object, that i
   
 ## Syntax  
   
-```  
+```cpp
 typedef void* PROFILER_EXTERNAL_OBJECT_ADDRESS;  
 ```

@@ -1,14 +1,9 @@
 ---
 title: "Pre-build Event-Post-build Event Command Line Dialog Box | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "cs.ProjectPropertiesBuildEventsBuilder"
   - "vb.ProjectPropertiesBuildEventsBuilder"
@@ -38,7 +33,7 @@ ms.assetid: d49b2c57-24bf-4fb2-8351-5c4b6cca938f
 caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Pre-build Event/Post-build Event Command Line Dialog Box
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -95,6 +90,3 @@ You can type pre- or post-build events for the [Build Events Page, Project Desig
  [Build Events Page, Project Designer (C#)](../../ide/reference/build-events-page-project-designer-csharp.md)   
  [How to: Specify Build Events (Visual Basic)](../../ide/how-to-specify-build-events-visual-basic.md)   
  [How to: Specify Build Events (C#)](../../ide/how-to-specify-build-events-csharp.md)
-
-
-

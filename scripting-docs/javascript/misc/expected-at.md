@@ -1,5 +1,5 @@
 ---
-title: "Expected &#39;@&#39; | Microsoft Docs"
+title: "Expected '@' | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
 ms.prod: "windows-client-threshold"
@@ -21,7 +21,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 ---
-# Expected &#39;@&#39;
+# Expected '@'
 You attempted to create a variable to be used with conditional compilation statements using the `@set` statement, but did not place an at sign "**@**" before the variable name.  
   
 ### To correct this error  

@@ -1,21 +1,16 @@
 ---
 title: "IDebugComPlusSymbolProvider2::FunctionHasLineInfo | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 helpviewer_keywords: 
   - "FunctionHasLineInfo"
   - "IDebugComPlusSymbolProvider2::FunctionHasLineInfo"
 ms.assetid: e1b508f1-6521-492f-b110-ab957744a037
 caps.latest.revision: 11
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # IDebugComPlusSymbolProvider2::FunctionHasLineInfo
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -85,4 +80,3 @@ Error:
   
 ## See Also  
  [IDebugComPlusSymbolProvider2](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2.md)
-

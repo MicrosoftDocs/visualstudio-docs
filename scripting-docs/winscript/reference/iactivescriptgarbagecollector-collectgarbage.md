@@ -18,7 +18,7 @@ The Active Script host calls this method to start garbage collection.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT CollectGarbage(        SCRIPTGCTYPE scriptgctype    );  
 ```  
   

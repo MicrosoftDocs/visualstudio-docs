@@ -24,7 +24,7 @@ Provides a mechanism for the caller to run code in the debugger thread.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT SynchronousCallInDebuggerThread(  
    IDebugThreadCall*  pptc,  
    DWORD_PTR          dwParam1,  

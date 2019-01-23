@@ -1,14 +1,9 @@
 ---
 title: "Compiling and Building"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords:
   - "builds [Visual Studio], about building in Visual Studio"
   - "custom build steps, types of builds"
@@ -16,7 +11,7 @@ ms.assetid: c7958821-285f-4e28-9e7a-b5d8b40336a1
 caps.latest.revision: 30
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Compiling and Building in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,7 +30,7 @@ You can use Visual Studio to build applications and to create assemblies and exe
 |Using Team Foundation Build|-   You can automate your build process. For example, you can build one or more projects nightly or every time that code is checked in. You can also build projects on shared build servers rather than on your development computer.<br />-   You can quickly specify the code that you want to build, the tests that you want to run, and other common options.<br />-   You can modify the build workflow, and as needed, create build activities to perform deeply customized tasks.|[Build the application](http://msdn.microsoft.com/library/a971b0f9-7c28-479d-a37b-8fd7e27ef692)|
 
 ## Building from the IDE
- When you create a project, default build configurations are defined for it, and a solution build configuration is assigned to it to provide context for builds. Solution configurations define how the projects in solution are built and deployed. Project configurations are a set of project properties that are unique for a platform and build type (for example, Release Win32). You can edit these default configurations, and you can create your own configurations. For more information, see [Introduction to the Project Designer](http://msdn.microsoft.com/en-us/898dd854-c98d-430c-ba1b-a913ce3c73d7) and [NIB How to: Modify Project Properties and Configuration Settings](http://msdn.microsoft.com/en-us/e7184bc5-2f2b-4b4f-aa9a-3ecfcbc48b67).
+ When you create a project, default build configurations are defined for it, and a solution build configuration is assigned to it to provide context for builds. Solution configurations define how the projects in solution are built and deployed. Project configurations are a set of project properties that are unique for a platform and build type (for example, Release Win32). You can edit these default configurations, and you can create your own configurations. For more information, see [Introduction to the Project Designer](http://msdn.microsoft.com/898dd854-c98d-430c-ba1b-a913ce3c73d7) and [NIB How to: Modify Project Properties and Configuration Settings](http://msdn.microsoft.com/e7184bc5-2f2b-4b4f-aa9a-3ecfcbc48b67).
 
  From within the IDE, you can perform the following additional tasks:
 

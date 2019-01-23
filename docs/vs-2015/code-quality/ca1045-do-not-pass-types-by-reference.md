@@ -1,14 +1,9 @@
 ---
 title: "CA1045: Do not pass types by reference | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "CA1045"
   - "DoNotPassTypesByReference"
@@ -86,6 +81,3 @@ manager: "wpickett"
 **12345 ABCDE**
 ## Related Rules
  [CA1021: Avoid out parameters](../code-quality/ca1021-avoid-out-parameters.md)
-
-
-

@@ -1,14 +1,9 @@
 ---
 title: "Security Rules rule set for managed code | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 ms.assetid: 564aeac6-03fa-41b0-b655-88179f0ab01b
 caps.latest.revision: 11
 author: gewarren
@@ -65,6 +60,3 @@ You should include the Microsoft Security Rules rule set to maximize the number 
 |[CA2147](../code-quality/ca2147-transparent-methods-may-not-use-security-asserts.md)|Transparent methods may not use security asserts|  
 |[CA2149](../code-quality/ca2149-transparent-methods-must-not-call-into-native-code.md)|Transparent methods must not call into native code|  
 |[CA2210](../code-quality/ca2210-assemblies-should-have-valid-strong-names.md)|Assemblies should have valid strong names|
-
-
-

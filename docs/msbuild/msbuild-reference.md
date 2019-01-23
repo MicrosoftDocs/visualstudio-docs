@@ -1,8 +1,6 @@
 ---
 title: "MSBuild Reference | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: msbuild
 ms.topic: "reference"
 dev_langs: 
   - "VB"
@@ -55,7 +53,7 @@ ms.workload:
  [Response riles](../msbuild/msbuild-response-files.md)  
  Explains the *.rsp* files that contain command-line switches.  
   
- [Additional resources](../msbuild/additional-resources-for-msbuild.md)  
+ [Additional resources](https://social.msdn.microsoft.com/forums/vstudio/home?forum=msbuild)  
  Provides links to [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] websites and newsgroups.  
   
  [WPF MSBuild reference](../msbuild/wpf-msbuild-reference.md)  
@@ -67,9 +65,6 @@ ms.workload:
 ## See also  
  [MSBuild overview](../msbuild/msbuild.md)     
  Introduces [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] and provides links to topics that explain  how to use it to build projects.  
-  
- [Microsoft.Build.Conversion](https://docs.microsoft.com/dotnet/api/microsoft.build.conversion)  
- Contains the Conversion namespace reference.  
   
  [Microsoft.Build.Evaluation](https://docs.microsoft.com/dotnet/api/microsoft.build.evaluation)  
  Contains the Evaluation namespace reference.  

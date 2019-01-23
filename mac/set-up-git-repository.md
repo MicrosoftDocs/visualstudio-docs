@@ -62,7 +62,10 @@ If you have an existing project that _is not_ already in version control, use th
 
 6. Click **Okay**, and then **Publish** from the alert dialog.
 
-7. If you have not already entered your Git credentials in Visual Studio for Mac preferences, enter them now. First, you need to create an Access Token, which is used in place of a password. If you have not created an access token, follow the steps in the Git [Access Token](https://help.github.com/articles/creating-an-access-token-for-command-line-use/) documentation.
+7. In the **Git Credentials** window, enter your GitHub username and password. 
+
+> [!NOTE]
+> If your account has two-factor authentication (2FA) enabled, you will need to create an Access Token, which is used in place of a password. If you have not created an access token, follow the steps in the Git [Access Token](https://help.github.com/articles/creating-an-access-token-for-command-line-use/) documentation.
 
 8. Enter the username and Personal Access Token, and press **Okay**:
 

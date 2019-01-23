@@ -1,8 +1,6 @@
 ---
 title: "SetEnv task | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/05/2018"
-ms.technology: msbuild
 ms.topic: "reference"
 f1_keywords: 
   - "vc.task.setenv"

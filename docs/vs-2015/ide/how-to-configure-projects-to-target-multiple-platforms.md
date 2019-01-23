@@ -1,14 +1,9 @@
 ---
 title: "How to: Configure Projects to Target Multiple Platforms | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "projects [Visual Studio], targeting platforms"
   - "platforms, changing target platforms"
@@ -16,7 +11,7 @@ ms.assetid: affa2392-7aed-45ac-9ffa-1d8e0496d590
 caps.latest.revision: 11
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Configure Projects to Target Multiple Platforms
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -66,6 +61,3 @@ manager: "ghogen"
  [How to: Create and Edit Configurations](../ide/how-to-create-and-edit-configurations.md)   
  [Understanding Build Configurations](../ide/understanding-build-configurations.md)   
  [Building and Cleaning Projects and Solutions in Visual Studio](../ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md)
-
-
-

@@ -13,7 +13,6 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ---
 # How to: Specify test agents to use in load test scenarios
 

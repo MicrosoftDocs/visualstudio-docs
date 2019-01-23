@@ -1,14 +1,9 @@
 ---
 title: "Walkthrough: Creating a Multiple-Computer Build Environment | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "MSBuild, building on multiple computers"
   - "build environment, MSBuild"
@@ -16,7 +11,7 @@ ms.assetid: ae5391b1-3eec-42f5-beb3-f28630615a9e
 caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Walkthrough: Creating a Multiple-Computer Build Environment
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -425,6 +420,3 @@ You can create a build environment within your organization by installing Visual
 ## See Also  
  [Preparing a Test Machine To Run a Debug Executable](http://msdn.microsoft.com/library/f0400989-cc2e-4dce-9788-6bdbe91c6f5a)   
  [Command-Line Reference](../msbuild/msbuild-command-line-reference.md)
-
-
-

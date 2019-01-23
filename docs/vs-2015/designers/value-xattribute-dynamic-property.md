@@ -1,14 +1,9 @@
 ---
 title: "Value (XAttribute Dynamic Property) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 api_name: 
   - "XAttribute.Value"
 api_type: 
@@ -17,7 +12,7 @@ ms.assetid: 019733d2-e050-4120-b537-831cd3fc008e
 caps.latest.revision: 4
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Value (XAttribute Dynamic Property)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -46,6 +41,3 @@ attrib.Value
  <xref:System.Xml.Linq.XAttribute.Value%2A?displayProperty=fullName>   
  [XAttribute Class Dynamic Properties](../designers/xattribute-class-dynamic-properties.md)   
  [Attribute](../designers/attribute-xelement-dynamic-property.md)
-
-
-

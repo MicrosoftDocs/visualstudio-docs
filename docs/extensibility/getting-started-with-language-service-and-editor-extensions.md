@@ -1,9 +1,6 @@
 ---
 title: "Getting Started with Language Service and Editor Extensions | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], new - extensions"

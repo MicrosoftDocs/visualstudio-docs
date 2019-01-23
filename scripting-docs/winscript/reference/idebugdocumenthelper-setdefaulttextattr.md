@@ -24,7 +24,7 @@ Sets the default attributes to use for text that is not in a script block.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT SetDefaultTextAttr(  
    SOURCE_TEXT_ATTR  staTextAttr  
 );  

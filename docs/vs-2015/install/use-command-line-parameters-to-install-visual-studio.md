@@ -3,12 +3,8 @@ title: "Use Command-Line Parameters to Install Visual Studio 2015 | Microsoft Do
 titleSuffix: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-install"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-install"
+ms.topic: conceptual
 f1_keywords:
   - "command-line parameters"
   - "switches"
@@ -17,7 +13,7 @@ ms.assetid: 480f3cb4-d873-434e-a8bf-82cff7401cf2
 caps.latest.revision: 10
 author: TerryGLee
 ms.author: tglee
-manager: "ghogen"
+manager: jillfra
 ---
 # Use Command-Line Parameters to Install Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

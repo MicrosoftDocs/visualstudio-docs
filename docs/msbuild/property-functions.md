@@ -1,8 +1,6 @@
 ---
 title: "Property Functions | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/21/2017"
-ms.technology: msbuild
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "MSBuild, property functions"
@@ -124,7 +122,7 @@ The name of the class must be fully qualified with the namespace.
 For example, you can use the following code to set a build property to the current date today.
 
 ```xml
-<Today>$([System.DateTime]::Now.ToString("yyyy.MM.dd"))</Today>
+<Today>$([System.DateTime]::Now.ToString('yyyy.MM.dd'))</Today>
 ```
 
 ### MSBuild property functions

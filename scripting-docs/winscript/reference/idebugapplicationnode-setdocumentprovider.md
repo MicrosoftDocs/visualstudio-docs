@@ -24,7 +24,7 @@ Sets the document provider for this application node.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT SetDocumentProvider(  
    IDebugDocumentProvider*  pddp  
 );  

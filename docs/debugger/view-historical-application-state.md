@@ -3,7 +3,6 @@ title: "View previous app state using IntelliTrace"
 description: "Learn how to take snapshots, and view snapshots with IntelliTrace step-back"
 ms.custom: "seodec18"
 ms.date: "09/19/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "tutorial"
 ms.assetid: 7c60d929-d993-49dc-9db3-43b30be9912b
 author: "mikejo5000"
@@ -12,7 +11,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Inspect previous app states using IntelliTrace step-back in Visual Studio
+# Inspect previous app states using IntelliTrace step-back in Visual Studio (Visual Studio Enterprise)
 
 IntelliTrace step-back automatically takes a snapshot of your application at every breakpoint and debugger step event. The recorded snapshots enable you to go back to previous breakpoints or steps and view the state of the application as it was in the past. IntelliTrace step-back can save you time when you want to see the previous application state but don't want to restart debugging or recreate the desired app state.
 
@@ -21,7 +20,7 @@ IntelliTrace step-back is available starting in Visual Studio Enterprise 2017 ve
 In this tutorial, you will:
 
 > [!div class="checklist"]
-> * Enable Intellitrace events and snapshots
+> * Enable IntelliTrace events and snapshots
 > * Navigate events using step-back and step-forward commands
 > * View event snapshots
   

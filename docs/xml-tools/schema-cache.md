@@ -2,7 +2,6 @@
 title: "XML Editor Schema Cache"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-xml-tools
 ms.topic: conceptual
 ms.assetid: 35a7fcad-f3bf-4a96-9008-4306e7276223
 author: gewarren

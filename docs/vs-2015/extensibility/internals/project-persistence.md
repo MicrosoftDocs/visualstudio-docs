@@ -1,21 +1,16 @@
 ---
 title: "Project Persistence | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "persistence, projects"
   - "projects [Visual Studio SDK], persistance"
 ms.assetid: 42907bcf-4e27-46bd-a8cb-01c2ccd2bde5
 caps.latest.revision: 12
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Project Persistence
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -46,4 +41,3 @@ Persistence is a key design consideration for your project. Most projects use pr
 ## See Also  
  [Checklist: Creating New Project Types](../../extensibility/internals/checklist-creating-new-project-types.md)   
  [Creating Project Instances By Using Project Factories](../../extensibility/internals/creating-project-instances-by-using-project-factories.md)
-

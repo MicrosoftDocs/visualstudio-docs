@@ -1,14 +1,9 @@
 ---
 title: "CA1307: Specify StringComparison | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "CA1307"
   - "SpecifyStringComparison"
@@ -48,6 +43,3 @@ manager: "wpickett"
 ## See Also
  [Globalization Warnings](../code-quality/globalization-warnings.md)
  [CA1309: Use ordinal StringComparison](../code-quality/ca1309-use-ordinal-stringcomparison.md)
-
-
-

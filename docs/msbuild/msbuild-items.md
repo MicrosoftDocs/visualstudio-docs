@@ -1,9 +1,7 @@
 ---
 title: "MSBuild Items | Microsoft Docs"
 description: "Use the MSBuild Include attribute of the ItemGroup to specify files to be included in a build"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: msbuild
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "MSBuild, Items"
@@ -317,12 +315,13 @@ Output:
 -->  
 ```  
   
-## See also  
+## See also
+ [Item element (MSBuild)](../msbuild/item-element-msbuild.md)  
+ [Common MSBuild project items](../msbuild/common-msbuild-project-items.md)  
  [MSBuild concepts](../msbuild/msbuild-concepts.md)  
  [MSBuild](../msbuild/msbuild.md)   
  [How to: Select the files to build](../msbuild/how-to-select-the-files-to-build.md)   
  [How to: Exclude files from the build](../msbuild/how-to-exclude-files-from-the-build.md)   
  [How to: Display an item list separated with commas](../msbuild/how-to-display-an-item-list-separated-with-commas.md)   
  [Item definitions](../msbuild/item-definitions.md)   
- [Batching](../msbuild/msbuild-batching.md)   
- [Item element (MSBuild)](../msbuild/item-element-msbuild.md)
+ [Batching](../msbuild/msbuild-batching.md)

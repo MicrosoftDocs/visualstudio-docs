@@ -1,14 +1,9 @@
 ---
 title: "CA1305: Specify IFormatProvider | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "SpecifyIFormatProvider"
   - "CA1305"
@@ -77,7 +72,4 @@ manager: "wpickett"
  [CA1304: Specify CultureInfo](../code-quality/ca1304-specify-cultureinfo.md)
 
 ## See Also
- [NIB: Using the CultureInfo Class](http://msdn.microsoft.com/en-us/d4329e34-64c3-4d1e-8c73-5b0ee626ba7a)
-
-
-
+ [NIB: Using the CultureInfo Class](http://msdn.microsoft.com/d4329e34-64c3-4d1e-8c73-5b0ee626ba7a)

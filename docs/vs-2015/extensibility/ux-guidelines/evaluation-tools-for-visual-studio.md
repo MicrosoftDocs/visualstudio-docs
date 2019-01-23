@@ -1,18 +1,13 @@
 ---
 title: "Evaluation Tools"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 ms.assetid: 94e0e9a3-440c-4943-ad7b-772ed742e034
 caps.latest.revision: 4
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Evaluation Tools for Visual Studio
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]

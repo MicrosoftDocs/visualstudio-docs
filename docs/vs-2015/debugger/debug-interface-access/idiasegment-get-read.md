@@ -1,14 +1,9 @@
 ---
 title: "IDiaSegment::get_read | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ ms.assetid: aafbc86d-352c-4e1a-911a-1472d2d59212
 caps.latest.revision: 11
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # IDiaSegment::get_read
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -41,6 +36,3 @@ HRESULT get_read ( 
   
 ## See Also  
  [IDiaSegment](../../debugger/debug-interface-access/idiasegment.md)
-
-
-

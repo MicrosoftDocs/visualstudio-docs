@@ -1,14 +1,10 @@
 ---
 title: "What&#39;s new for design"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-techdebt"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.technology: "vs-devops-techdebt"
+ms.topic: conceptual
 helpviewer_keywords:
   - "what's new [VIsual Studio ALM], architecture and modeling"
   - "architecture [Visual Studio Ultimate], modeling"
@@ -17,7 +13,7 @@ ms.assetid: 36ab5c17-6dc0-4075-a28e-a0fa49b11260
 caps.latest.revision: 34
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # What's new for design in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

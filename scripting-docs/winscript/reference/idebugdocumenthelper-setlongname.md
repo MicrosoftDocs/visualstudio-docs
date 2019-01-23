@@ -24,7 +24,7 @@ Sets the long name for the document.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT SetLongName(  
    LPCOLESTR  pszLongName  
 );  

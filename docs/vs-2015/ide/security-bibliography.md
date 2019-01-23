@@ -1,21 +1,16 @@
 ---
 title: "Security Bibliography | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "security [Visual Studio], additional information"
 ms.assetid: 3e839007-c388-4fc4-a6d1-8127cd207750
 caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Security Bibliography
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -31,6 +26,3 @@ Following are selected resources available online and in print on the subject of
   
  [Microsoft TechNet Security](http://go.microsoft.com/fwlink/?LinkId=67991)  
  Contains pointers to the most important technical information about security for information technology professionals and "Power Users".
-
-
-

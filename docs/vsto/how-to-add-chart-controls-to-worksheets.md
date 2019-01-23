@@ -1,9 +1,6 @@
 ---
 title: "How to: Add Chart controls to worksheets"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -11,8 +8,8 @@ dev_langs:
 helpviewer_keywords: 
   - "Chart control [Office development in Visual Studio], adding to worksheets"
   - "controls [Office development in Visual Studio], adding to worksheets"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -87,5 +84,3 @@ ms.workload:
  [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)   
  [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)   
  [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)  
-  
-  

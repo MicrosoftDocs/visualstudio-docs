@@ -1,14 +1,9 @@
 ---
 title: "ResumeTracking | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 api_name: 
   - "ResumeTracking"
 api_location: 
@@ -21,7 +16,7 @@ ms.assetid: d637e019-7c50-4b0a-812e-bc822001e697
 caps.latest.revision: 9
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # ResumeTracking
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,6 +38,3 @@ HRESULT WINAPI ResumeTracking();
   
 ## See Also  
  [SuspendTracking](../msbuild/suspendtracking.md)
-
-
-

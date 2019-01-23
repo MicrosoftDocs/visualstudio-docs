@@ -1,17 +1,14 @@
 ---
 title: "T4 Parameter Directive | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 ms.assetid: 1d590387-1d9d-40a5-a72c-65fae7a8bdf3
 caps.latest.revision: 5
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # T4 Parameter Directive
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -104,6 +101,3 @@ string resultText = t.TransformText();
   
 > [!IMPORTANT]
 >  The `parameter` directive does not retrieve values set in the `–a` parameter of the `TextTransform.exe` utility. To get those values, set `hostSpecific="true"` in the `template` directive, and use `this.Host.ResolveParameterValue("","","argName")`.
-
-
-

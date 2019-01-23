@@ -1,21 +1,16 @@
 ---
 title: "Synchronized Settings"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 f1_keywords:
   - "VS.ToolsOptionsPages.Environment.RoamingSettings"
 ms.assetid: a3d2ea29-be5d-4012-9820-44b06adbb7dd
 caps.latest.revision: 13
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Synchronized Settings in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -25,7 +20,7 @@ When you use the same personalization account to sign in to Visual Studio on mul
 ## Synchronized settings
  By default, the following settings are synchronized.
 
--   Development settings (You have to select a set of settings the first time you run Visual Studio, but you can change the selection anytime. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).)
+-   Development settings (You have to select a set of settings the first time you run Visual Studio, but you can change the selection anytime. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).)
 
 -   The following options in the **Tools &#124; Options** pages:
 

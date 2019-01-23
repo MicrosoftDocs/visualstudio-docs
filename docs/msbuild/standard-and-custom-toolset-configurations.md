@@ -1,8 +1,6 @@
 ---
 title: "Standard and Custom Toolset Configurations | Microsoft Docs"
-ms.custom: ""
 ms.date: "01/31/2018"
-ms.technology: msbuild
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "MSBuild, custom toolset configurations"
@@ -69,7 +67,7 @@ An MSBuild Toolset contains references to tasks, targets, and tools that you can
 <configSections>  
    <section name="msbuildToolsets"         
        Type="Microsoft.Build.BuildEngine.ToolsetConfigurationSection,   
-       Microsoft.Build.Engine, Version=15.1.0.0, Culture=neutral,   
+       Microsoft.Build, Version=15.1.0.0, Culture=neutral,   
        PublicKeyToken=b03f5f7f11d50a3a"  
    </section>  
 </configSections>  

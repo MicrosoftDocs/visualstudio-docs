@@ -1,8 +1,6 @@
 ---
 title: "How to: Instrument a Statically Compiled ASP.NET Web Application and Collect Detailed Timing Data with the Profiler by Using the Command Line | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: b260ce68-76e6-4c3b-8062-3c00bd5cf7b8
 author: "mikejo5000"
@@ -15,8 +13,8 @@ ms.workload:
 This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to instrument a precompiled [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] web component or web site and collect detailed timing data.  
 
 > [!NOTE]
->  Command-line tools of the Profiling Tools are located in the *\Team Tools\Performance Tools* subdirectory of the [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] installation directory. On 64-bit computers, both 64-bit and 32-bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the Command Prompt window or add it to the command itself. For more information, see [Specify the path to command-line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md).  
-> 
+>  To get the path to the profiling tools, see [Specify the path to command line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md). On 64-bit computers, both 64-bit and 32-bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the Command Prompt window or add it to the command itself.
+>
 >  Adding tier interaction data to a profiling run requires specific procedures with the command line profiling tools. See [Collecting tier interaction data](../profiling/adding-tier-interaction-data-from-the-command-line.md).  
 
  To collect detailed timing data from a [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web component by using the instrumentation method, you use the [VSInstr.exe](../profiling/vsinstr.md) tool to generate an instrumented version of the component. On the computer that hosts the component, you replace the noninstrumented version of the component with the instrumented version. You then use the [VSPerfCLREnv.cmd](../profiling/vsperfclrenv.md) tool to initialize the global profiling environment variables and restart the host computer. You then start the profiler.  

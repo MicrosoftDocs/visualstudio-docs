@@ -18,6 +18,6 @@ The ID of the heap object. Used in [PROFILER_HEAP_OBJECT Structure](../../winscr
   
 ## Syntax  
   
-```  
+```cpp
 typedef DWORD_PTR PROFILER_HEAP_OBJECT_ID;  
 ```

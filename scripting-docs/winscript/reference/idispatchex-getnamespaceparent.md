@@ -24,7 +24,7 @@ Retrieves the interface for the namespace parent of an object.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetNameSpaceParent(  
    IUnknown **ppunk  
 );  

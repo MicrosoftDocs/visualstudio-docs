@@ -22,8 +22,8 @@ Sets a 4-byte bitmask that specifies the types of events that the scripting engi
   
 ## Syntax  
   
-```  
-RESULT SetProfilerEventMask(  
+```cpp
+HRESULT SetProfilerEventMask(  
     [in] DWORD dwEventMask);  
 ```  
   

@@ -19,11 +19,11 @@
 - name: Tutorials
   items:
   - name: Learn to debug C#
-    href: getting-started-with-the-debugger.md
+    href: /visualstudio/get-started/csharp/tutorial-debugger?toc=/visualstudio/debugger/toc.json
   - name: Learn to debug C++
     href: getting-started-with-the-debugger-cpp.md
   - name: Learn to debug Visual Basic
-    href: getting-started-with-the-debugger-vb.md
+    href: /visualstudio/get-started/visual-basic/tutorial-debugger?toc=/visualstudio/debugger/toc.json
   - name: Running Python code in the debugger...
     href: ../python/tutorial-working-with-python-in-visual-studio-step-04-debugging.md
   - name: Debug a live Azure app
@@ -264,7 +264,7 @@
       - name: Ensure that DNS is correctly configured on the target computer
         href: error-ensure-that-dns-is-correctly-configured-on-the-target-computer.md
       - name: The Microsoft Visual Studio Remote Debugging Monitor (MSVSMON.EXE) does not appear to be running on the remote computer.
-        href: error-the-microsoft-visual-studio-remote-debugging-monitor-msvsmon-exe-does-not-appear-to-be-running-on-the-remote-computer.md
+        href: /visualstudio/debugger/error-remote-debugging-monitor-msvsmon-exe-does-not-appear-to-be-running
       - name: Unable to connect to the Microsoft Visual Studio Remote Debugging Monitor
         href: unable-to-connect-to-the-microsoft-visual-studio-remote-debugging-monitor.md
       - name: Unable to initiate DCOM communication
@@ -514,11 +514,6 @@
         - name: COM server and container debugging
           href: com-server-and-container-debugging.md
           items:
-          - name: Debug COM servers
-            href: how-to-debug-com-servers.md
-            items:
-            - name: SDI server applications
-              href: sdi-server-applications.md
           - name: Debug COM clients and servers using RPC debugging
             href: how-to-debug-com-clients-and-servers-using-rpc-debugging.md
         - name: Debug an ActiveX control

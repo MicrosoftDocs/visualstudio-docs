@@ -2,7 +2,6 @@
 title: "Debugger User Interface (XSLT)"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-xml-tools
 ms.topic: reference
 ms.assetid: 846fdabd-e5c3-4688-9b0d-a93fbeea1b96
 author: gewarren
@@ -96,5 +95,5 @@ For more information, see [How to: Evaluate an XPath expression](../xml-tools/ho
 ## See also
 
 - [Debugging XSLT](../xml-tools/debugging-xslt.md)
-- [Debugger basics](../debugger/getting-started-with-the-debugger.md)
+- [First look at the debugger](../debugger/debugger-feature-tour.md)   
 - [Inspect variables in the autos and locals windows in Visual Studio](../debugger/autos-and-locals-windows.md)

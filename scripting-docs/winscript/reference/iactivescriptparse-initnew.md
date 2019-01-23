@@ -24,7 +24,7 @@ Initializes the scripting engine.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT InitNew(void);  
 ```  
   

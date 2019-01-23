@@ -1,18 +1,13 @@
 ---
 title: "Layout"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 ms.assetid: c19e3022-047c-43b6-a046-a82717efed4f
 caps.latest.revision: 3
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Layout for Visual Studio
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]

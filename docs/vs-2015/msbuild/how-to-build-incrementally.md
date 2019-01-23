@@ -1,14 +1,9 @@
 ---
 title: "How to: Build Incrementally | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 helpviewer_keywords: 
   - "MSBuild, incremental builds"
   - "incremental builds"
@@ -17,7 +12,7 @@ ms.assetid: 8d82d7d8-a2f1-4df6-9d2f-80b9e0cb3ac3
 caps.latest.revision: 24
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Build Incrementally
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -110,6 +105,3 @@ When you build a large project, it is important that previously built components
  [Transforms](../msbuild/msbuild-transforms.md)   
  [Csc Task](../msbuild/csc-task.md)   
  [Vbc Task](../msbuild/vbc-task.md)
-
-
-

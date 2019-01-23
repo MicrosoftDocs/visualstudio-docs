@@ -1,14 +1,9 @@
 ---
 title: "IDebugProgramPublisher2::PublishProgram | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugProgramPublisher2::PublishProgram"
 helpviewer_keywords: 
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 92ff63f0-e869-4040-b3ae-b2c899e708ff
 caps.latest.revision: 10
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # IDebugProgramPublisher2::PublishProgram
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -60,4 +55,3 @@ int PublishProgram(
 ## See Also  
  [IDebugProgramPublisher2](../../../extensibility/debugger/reference/idebugprogrampublisher2.md)   
  [UnpublishProgram](../../../extensibility/debugger/reference/idebugprogrampublisher2-unpublishprogram.md)
-

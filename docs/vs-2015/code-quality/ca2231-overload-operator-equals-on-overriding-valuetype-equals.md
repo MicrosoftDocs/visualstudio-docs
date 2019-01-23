@@ -1,14 +1,9 @@
 ---
 title: "CA2231: Overload operator equals on overriding ValueType.Equals | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "OverloadOperatorEqualsOnOverridingValueTypeEquals"
   - "CA2231"
@@ -78,6 +73,3 @@ return left.Equals(right);
 
 ## See Also
  <xref:System.Object.Equals%2A?displayProperty=fullName>
-
-
-

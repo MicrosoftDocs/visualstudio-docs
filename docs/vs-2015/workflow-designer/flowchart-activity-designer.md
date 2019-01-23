@@ -1,11 +1,8 @@
 ---
 title: "Flowchart Activity Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: ".net-framework-4.6"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: "reference"
 f1_keywords: 
   - "System.Activities.Statements.Flowchart.UI"
@@ -15,7 +12,7 @@ ms.assetid: d5af2276-5215-4138-880a-cf2b90bbf3a0
 caps.latest.revision: 5
 author: gewarren
 ms.author: gewarren
-manager: "erikre"
+manager: jillfra
 ---
 # Flowchart Activity Designer
 The <xref:System.Activities.Statements.Flowchart> activity is used to create workflows that define and manage complex flow controls. A <xref:System.Activities.Statements.Flowchart> can be authored either in code or by using [!INCLUDE[wfd2](../includes/wfd2-md.md)]. This topic documents the [!INCLUDE[wfd2](../includes/wfd2-md.md)] experience. The [!INCLUDE[wfd1](../includes/wfd1-md.md)] workflow activity designer enables developers to author workflows in a natural manner.  

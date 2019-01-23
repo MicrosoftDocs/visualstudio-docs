@@ -1,13 +1,9 @@
 ---
 title: "Analyze and model your architecture | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-techdebt"
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.technology: "vs-devops-techdebt"
 ms.topic: conceptual
 helpviewer_keywords: 
   - "Visual Studio Ultimate, exploring code"
@@ -36,7 +32,7 @@ ms.assetid: c9f04cfa-72bd-419d-a952-616eed01472e
 caps.latest.revision: 129
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Analyze and model your architecture
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -78,6 +74,3 @@ Make sure your app meets user requirements by using Visual Studio architecture a
 ## See Also  
  [What's new](../modeling/what-s-new-for-design-in-visual-studio.md)   
  [DevOps and Application Lifecycle Management](http://msdn.microsoft.com/library/74a1f71d-7f23-4c71-8fd7-89ede614fab6)
-
-
-

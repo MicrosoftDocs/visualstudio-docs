@@ -1,12 +1,9 @@
 ---
 title: "Upgrade .mdf files | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -23,7 +20,7 @@ ms.assetid: 14ca6f76-f80e-4926-8020-3fee2d802b75
 caps.latest.revision: 36
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 robots: noindex,nofollow
 ---
 # Upgrade .mdf files
@@ -117,8 +114,3 @@ This topic describes your options for upgrading your database file (.mdf) after 
 4. Select the **OK** button.  
   
    SQL Server Express will be the default database engine for your applications.  
-  
-## See Also  
- [Local Data Overview](../data-tools/local-data-overview.md)   
- [Walkthrough: Connecting to Data in a Local Database File (Windows Forms)](../data-tools/walkthrough-connecting-to-data-in-a-local-database-file-windows-forms.md)
-

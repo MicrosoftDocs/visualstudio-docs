@@ -1,18 +1,13 @@
 ---
 title: "Colors and Styling"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 ms.assetid: 0e384ea1-4d9e-4307-8884-6e183900732c
 caps.latest.revision: 7
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Colors and Styling for Visual Studio
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]

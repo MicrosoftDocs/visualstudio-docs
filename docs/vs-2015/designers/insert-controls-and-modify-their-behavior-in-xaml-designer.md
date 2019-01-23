@@ -1,19 +1,14 @@
 ---
 title: "Insert controls and modify their behavior in XAML Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 ms.assetid: a80fff74-bf01-41c9-ab85-ada7a873c3a9
 caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Insert controls and modify their behavior in XAML Designer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -75,6 +70,3 @@ Controls enable users to interact with your app. You can use them to collect inf
  For ultimate flexibility, handle an *event*. You’ll have to write some code.  
   
  **Watch a short video:** ![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Add a Mouse event](https://www.youtube.com/watch?v=2PMxAlb-x_E).
-
-
-

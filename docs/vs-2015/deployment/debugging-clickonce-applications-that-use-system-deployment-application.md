@@ -1,14 +1,9 @@
 ---
 title: "Debugging ClickOnce Applications That Use System.Deployment.Application | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -22,7 +17,7 @@ ms.assetid: 86f31948-2ca8-47c0-8e8b-c2b817bbf79f
 caps.latest.revision: 16
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # Debugging ClickOnce Applications That Use System.Deployment.Application
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -80,6 +75,3 @@ In [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)], [!INCLUDE[n
   
 ## See Also  
  <xref:System.Deployment.Application>
-
-
-

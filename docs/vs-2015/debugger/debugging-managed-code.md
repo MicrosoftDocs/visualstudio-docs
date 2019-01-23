@@ -1,14 +1,9 @@
 ---
 title: "Debugging Managed Code | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -25,7 +20,7 @@ ms.assetid: fa3aff01-c271-4aa7-b5b1-def560471c84
 caps.latest.revision: 37
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Debugging Managed Code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -82,7 +77,7 @@ This section covers common debugging problems and techniques for managed applica
  [Debugging Script and Web Applications](../debugger/debugging-web-applications-and-script.md)  
  Describes common debugging problems and techniques you may encounter when debugging script and Web applications.  
   
- [What’s New for the Debugger in Visual Studio 2015](../debugger/what’s-new-for-the-debugger-in-visual-studio-2015.md)  
+ [What’s New for the Debugger in Visual Studio 2015](/visualstudio/debugger/what-s-new-for-the-debugger-in-visual-studio-2015?view=vs-2015)  
  Description of new debugging features added in this release of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
   
  [Debugging Home Page](../debugger/debugging-in-visual-studio.md)  
@@ -92,6 +87,3 @@ This section covers common debugging problems and techniques for managed applica
  [Walkthrough: Debugging Custom Windows Forms Controls at Design Time](http://msdn.microsoft.com/library/1fd83ccd-3798-42fc-85a3-6cba99467387)   
  [Debugger Security](../debugger/debugger-security.md)   
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)
-
-
-

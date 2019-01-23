@@ -1,9 +1,6 @@
 ---
 title: "Walkthrough: Bind to data from a service in a VSTO add-in project"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -113,5 +110,3 @@ ms.workload:
   
 ## See also  
  [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)  
-  
-  

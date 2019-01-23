@@ -24,7 +24,7 @@ Determines if a just-in-time (JIT) debugger is registered to auto-debug dumb hos
   
 ## Syntax  
   
-```  
+```cpp
 BOOL FIsAutoJitDebugEnabled();  
 ```  
   

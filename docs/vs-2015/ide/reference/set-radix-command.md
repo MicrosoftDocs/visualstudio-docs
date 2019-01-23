@@ -1,14 +1,9 @@
 ---
 title: "Set Radix Command | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "debug.setradix"
 helpviewer_keywords: 
@@ -18,7 +13,7 @@ ms.assetid: 6ffd1554-7530-4da4-b5f5-e276a5034f3b
 caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Set Radix Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -48,6 +43,3 @@ Debug.SetRadix [10 | 16 | hex | dec]
  [Command Window](../../ide/reference/command-window.md)   
  [Find/Command Box](../../ide/find-command-box.md)   
  [Visual Studio Command Aliases](../../ide/reference/visual-studio-command-aliases.md)
-
-
-

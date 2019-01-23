@@ -22,7 +22,7 @@ Resets the stack frame to the position before the first element.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Reset(void);  
 ```  
   

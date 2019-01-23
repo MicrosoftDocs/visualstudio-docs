@@ -1,14 +1,9 @@
 ---
 title: "Accessibility Features | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 helpviewer_keywords:
   - "Visual Studio, accessibility"
   - "accessibility [Visual Studio]"
@@ -16,7 +11,7 @@ ms.assetid: aa1ada29-4d93-4bf0-af8b-03633fcb0fba
 caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Accessibility Features of Visual Studio
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]

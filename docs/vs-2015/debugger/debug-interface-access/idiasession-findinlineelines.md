@@ -1,21 +1,16 @@
 ---
 title: "IDiaSession::findInlineeLines | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 ms.assetid: b6822d8b-70d5-470b-8278-3aec4680326c
 caps.latest.revision: 6
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # IDiaSession::findInlineeLines
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -46,6 +41,3 @@ HRESULT findInlineeLines ( 
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
  [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md)   
  [IDiaEnumLineNumbers](../../debugger/debug-interface-access/idiaenumlinenumbers.md)
-
-
-

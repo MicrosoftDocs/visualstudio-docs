@@ -1,9 +1,6 @@
 ---
 title: "How to: Create a SharePoint Command | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -78,4 +75,3 @@ ms.workload:
  [Call into the SharePoint object models](../sharepoint/calling-into-the-sharepoint-object-models.md)   
  [How to: Execute a SharePoint command](../sharepoint/how-to-execute-a-sharepoint-command.md)   
  [Walkthrough: Extend Server Explorer to display web parts](../sharepoint/walkthrough-extending-server-explorer-to-display-web-parts.md)  
-  

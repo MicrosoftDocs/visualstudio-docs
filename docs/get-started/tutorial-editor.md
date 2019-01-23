@@ -1,8 +1,9 @@
 ---
-title: Introduction to editing
+title: Introduction to editing in the code editor
 ms.date: 11/30/2017
 ms.prod: visual-studio-dev15
-ms.technology: vs-acquisition
+ms.technology: vs-ide-general
+ms.custom: get-started
 ms.topic: tutorial
 author: gewarren
 ms.author: gewarren
@@ -16,9 +17,10 @@ ms.workload:
 
 In this 10-minute introduction to the code editor in Visual Studio, we'll add code to a file to look at some of the ways that Visual Studio makes writing, navigating, and understanding code easier.
 
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
+> [!TIP]
+> If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
 
-This article assumes you're already familiar with a programming language. If you aren't, we suggest you look at one of the programming quickstarts first, such as create a web app with [Python](../ide/quickstart-python.md) or [C#](../ide/tutorial-csharp-aspnet-core.md), or create a console app with [Visual Basic](../ide/quickstart-visual-basic-console.md) or [C++](../ide/getting-started-with-cpp-in-visual-studio.md).
+This article assumes you're already familiar with a programming language. If you aren't, we suggest you look at one of the programming quickstarts first, such as create a web app with [Python](../ide/quickstart-python.md) or [C#](../get-started/csharp/tutorial-aspnet-core.md), or create a console app with [Visual Basic](../ide/quickstart-visual-basic-console.md) or [C++](../ide/getting-started-with-cpp-in-visual-studio.md).
 
 ## Create a new code file
 
@@ -36,7 +38,7 @@ Start by creating a new file and adding some code to it.
 
 Visual Studio provides useful *code snippets* that you can use to quickly and easily generate commonly used code blocks. [Code snippets](../ide/code-snippets.md) are available for different programming languages including C#, Visual Basic, and C++. Let's add the C# `void Main` snippet to our file.
 
-1. Place your cursor just above the final closing brace **}** in the file, and type the characters `svm` (which stands for `static void Main`&mdash;don't worry too much if you don't know what that means).
+1. Place your cursor just above the final closing brace **}** in the file, and type the characters `svm`. (`svm` stands for `static void Main`; the [Main()](/dotnet/csharp/programming-guide/main-and-command-args/) method is the entry point for C# applications.)
 
    A pop-up dialog box appears with information about the `svm` code snippet.
 
@@ -44,7 +46,7 @@ Visual Studio provides useful *code snippets* that you can use to quickly and ea
 
 1. Press **Tab** twice to insert the code snippet.
 
-   You see the `static void Main()` method signature get added to the file. The [Main()](/dotnet/csharp/programming-guide/main-and-command-args/) method is the entry point for C# applications.
+   You see the `static void Main()` method signature get added to the file.
 
 The available code snippets vary for different programming languages. You can look at the available code snippets for your language by choosing **Edit** > **IntelliSense** > **Insert Snippet**, and then choosing your language's folder. For C#, the list looks like this:
 

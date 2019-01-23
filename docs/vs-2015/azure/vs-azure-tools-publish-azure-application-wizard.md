@@ -2,7 +2,7 @@
 title: Using the Publish Azure Application Wizard | Microsoft Docs
 description: Learn how to configure the various settings in the Visual Studio Publish Azure Application Wizard
 author: ghogen
-manager: douge
+manager: jillfra
 assetId: 7d8f1ac9-e439-47e0-a183-0642c4ea1920
 ms.prod: visual-studio-dev14
 ms.technology: vs-azure
@@ -89,7 +89,7 @@ The Azure storage account stores the package for the application deployment. Aft
 
 ![Diagnostics settings](./media/vs-azure-tools-publish-azure-application-wizard/diagnostic-settings.png)
 
-Diagnostics enables you to troubleshoot an Azure cloud service (or Azure virtual machine). For information about diagnostics, see [Configuring Diagnostics for Azure Cloud Services and Virtual Machines](./vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines.md). For information about Application Insights, see [What is Application Insights?](/azure/application-insights/app-insights-overview.md).
+Diagnostics enables you to troubleshoot an Azure cloud service (or Azure virtual machine). For information about diagnostics, see [Configuring Diagnostics for Azure Cloud Services and Virtual Machines](./vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines.md). For information about Application Insights, see [What is Application Insights?](/azure/application-insights/app-insights-overview).
 
 ## Summary page
 
@@ -116,4 +116,4 @@ Once you configure all the settings for your project's deployment, select **Publ
 
 - [Configuring Diagnostics for Azure Cloud Services and Virtual Machines](./vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines.md).
 
-- [What is Application Insights?](/azure/application-insights/app-insights-overview.md)
+- [What is Application Insights?](/azure/application-insights/app-insights-overview)

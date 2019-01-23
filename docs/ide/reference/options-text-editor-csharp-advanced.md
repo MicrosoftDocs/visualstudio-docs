@@ -1,8 +1,7 @@
 ---
 title: Options, Text Editor, C#, Advanced
-ms.date: 10/29/2018
+ms.date: 01/16/2019
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.CSharp.Outlining"
@@ -104,13 +103,17 @@ Use the **Advanced** options page to modify the settings for editor formatting, 
 
 - Show procedure line separators
 
-   The text editor indicates visual scope of procedures. A line is drawn in the *.vb* source files of your project at locations listed in the following table:
+   The text editor indicates visual scope of procedures. A line is drawn in the *.cs* source files of your project at locations listed in the following table:
 
-   |Location in .vb Source File|Example of Line Location|
+   |Location in .cs Source File|Example of Line Location|
    |---------------------------------|------------------------------|
    |After the close of a block declaration construct|-   At the end of a class, structure, module, interface, or enum<br />-   After a property, function, or sub<br />-   Not between the get and set clauses in a property|
    |After a set of single line constructs|-   After the import statements, before a type definition in a class file<br />-   After variables declared in a class, before any procedures|
    |After single line declarations (non-block level declarations)|-   Following import statements, inherits statements, variable declarations, event declarations, delegate declarations, and DLL declare statements|
+
+## Block Structure Guides
+
+Select these check boxes to display dotted vertical lines between the curly brackets (**{}**) in your code. You can then easily see individual blocks of code for your declaration level and code level constructs.
 
 ## Editor Help
 

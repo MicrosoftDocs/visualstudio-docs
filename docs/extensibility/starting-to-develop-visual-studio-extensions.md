@@ -1,9 +1,6 @@
 ---
 title: "Starting to Develop Visual Studio Extensions | Microsoft Docs"
-ms.custom: ""
 ms.date: "09/18/2017"
-ms.technology:
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "getting started, Visual Studio integration"
@@ -58,7 +55,7 @@ In practice, we have found that the features most people want to extend are comm
 
 -   [Extending Other Parts of Visual Studio](../extensibility/extending-other-parts-of-visual-studio.md)
 
--   [Visual Studio Isolated Shell](../extensibility/visual-studio-isolated-shell.md)
+-   [Visual Studio Isolated Shell](/visualstudio/extensibility/shell/visual-studio-isolated-shell)
 
 ##  <a name="BKMK_ProjectTemplate"></a> What project templates are provided by the VSSDK?
  The two main types of extensions are VSPackages and MEF extensions. In general, VSPackage extensions are used for extensions that use or extend commands, tool windows, and projects. MEF extensions are used to extend or customize the Visual Studio editor.

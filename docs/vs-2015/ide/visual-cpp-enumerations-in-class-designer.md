@@ -1,21 +1,16 @@
 ---
 title: "Visual C++ Enumerations in Class Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Class Designer [Visual Studio], enumerations"
 ms.assetid: 11e90ba1-18cd-44f8-9e26-e3746a7a19d1
 caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Visual C++ Enumerations in Class Designer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -47,6 +42,3 @@ enum class CardSuit {
 ## See Also  
  [Working with Visual C++ Code (Class Designer)](../ide/working-with-visual-cpp-code-class-designer.md)   
  [Enumerations](http://msdn.microsoft.com/library/081829db-5dca-411e-a53c-bffef315bcb3)
-
-
-

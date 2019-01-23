@@ -24,7 +24,7 @@ Describes how to continue from a runtime error.
   
 ## Syntax  
   
-```  
+```cpp
 typedef enum tagERRORRESUMEACTION {  
    ERRORRESUMEACTION_ReexecuteErrorStatement,  
    ERRORRESUMEACTION_AbortCallAndReturnErrorToCaller,  

@@ -24,7 +24,7 @@ Indicates the state of a breakpoint.
   
 ## Syntax  
   
-```  
+```cpp
 typedef enum tagBREAKPOINT_STATE {  
    BREAKPOINT_DELETED = 0,  
    BREAKPOINT_DISABLED = 1,  

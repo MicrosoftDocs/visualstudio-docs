@@ -24,7 +24,7 @@ Starts the default debugger integrated development environment (IDE) and attache
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT StartDebugSession();  
 ```  
   

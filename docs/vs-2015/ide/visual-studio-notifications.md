@@ -1,19 +1,14 @@
 ---
 title: "Notifications | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 ms.assetid: cfbbc30a-bb61-42e6-b58e-b4ea9d33c440
 caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Visual Studio Notifications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

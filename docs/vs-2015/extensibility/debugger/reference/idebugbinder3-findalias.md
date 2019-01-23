@@ -1,14 +1,9 @@
 ---
 title: "IDebugBinder3::FindAlias | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugBinder3::FindAlias"
 helpviewer_keywords: 
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: b8333701-2718-4983-8513-0875fb7cb730
 caps.latest.revision: 11
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # IDebugBinder3::FindAlias
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -55,4 +50,3 @@ int FindAlias(
 ## See Also  
  [IDebugBinder3](../../../extensibility/debugger/reference/idebugbinder3.md)   
  [IDebugAlias](../../../extensibility/debugger/reference/idebugalias.md)
-

@@ -1,17 +1,14 @@
 ---
 title: "Adding Extensions to DSL Definitions | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 ms.assetid: 07e133be-92ab-4936-a02b-45d2012bd0a6
 caps.latest.revision: 8
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Adding Extensions to DSL Definitions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,6 +33,3 @@ DSL Definition extension allows you to create a package of extensions to a domai
   
 ## See Also  
  [Visual Studio Visualization and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=186128)
-
-
-

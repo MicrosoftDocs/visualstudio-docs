@@ -1,14 +1,9 @@
 ---
 title: "Debugger Components | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "debugging [Visual Studio], components"
   - "components [Visual Studio SDK], debugging"
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 8b8ab77f-a134-495c-be42-3bc51aa62dfb
 caps.latest.revision: 31
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Debugger Components
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -76,4 +71,3 @@ The [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] debugger is implemented as a
   
 ## See Also  
  [Getting Started](../../extensibility/debugger/getting-started-with-debugger-extensibility.md)
-

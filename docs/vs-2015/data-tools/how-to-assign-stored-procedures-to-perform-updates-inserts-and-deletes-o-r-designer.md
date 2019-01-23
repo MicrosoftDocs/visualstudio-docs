@@ -1,17 +1,14 @@
 ---
 title: "How to: Assign stored procedures to perform updates, inserts, and deletes (O-R Designer) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 ms.assetid: e88224ab-ff61-4a3a-b6b8-6f3694546cac
 caps.latest.revision: 5
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Assign stored procedures to perform updates, inserts, and deletes (O/R Designer)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -66,7 +63,5 @@ Stored procedures can be added to the O/R Designer and executed as typical <xref
  [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)   
  [DataContext Methods (O/R Designer)](../data-tools/datacontext-methods-o-r-designer.md)   
  [Walkthrough: Creating LINQ to SQL Classes (O-R Designer)](http://msdn.microsoft.com/library/35aad4a4-2e8a-46e2-ae09-5fbfd333c233)   
- [Walkthrough: Creating Update Stored Procedures for the Northwind Customers Table](../data-tools/walkthrough-creating-update-stored-procedures-for-the-northwind-customers-table.md)   
  [LINQ to SQL](http://msdn.microsoft.com/library/73d13345-eece-471a-af40-4cc7a2f11655)   
  [Insert, Update, and Delete Operations](http://msdn.microsoft.com/library/26a43a4f-83c9-4732-806d-bb23aad0ff6b)
-

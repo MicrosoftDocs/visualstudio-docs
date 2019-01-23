@@ -24,7 +24,7 @@ Returns a name and GUID for the language that owns this context.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetLanguageInfo(  
    BSTR*  pbstrLanguageName,  
    GUID*  pLanguageID  

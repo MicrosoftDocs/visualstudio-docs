@@ -24,7 +24,7 @@ Retrieves the handle to a window that can act as the owner of a pop-up window th
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetWindow(  
     HWND *phwnd  // address of variable for window handle  
 );  

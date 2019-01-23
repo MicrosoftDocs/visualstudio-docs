@@ -1,14 +1,9 @@
 ---
 title: "IDebugClassField::EnumBaseClasses | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugClassField::EnumBaseClasses"
 helpviewer_keywords: 
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 78749674-ef75-46d3-a1f4-ff33afd90e32
 caps.latest.revision: 10
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # IDebugClassField::EnumBaseClasses
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -59,4 +54,3 @@ class MyClass : Level2 { }
 ## See Also  
  [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md)   
  [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md)
-

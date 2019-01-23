@@ -24,7 +24,7 @@ Causes the scripting engine to abandon any currently loaded script, lose its sta
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Close(void);  
 ```  
   

@@ -1,14 +1,9 @@
 ---
 title: "CA1306: Set locale for data types | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "CA1306"
   - "SetLocaleForDataTypes"
@@ -54,6 +49,3 @@ manager: "wpickett"
  <xref:System.Globalization.CultureInfo?displayProperty=fullName>
  <xref:System.Globalization.CultureInfo.CurrentUICulture%2A?displayProperty=fullName>
  <xref:System.Globalization.CultureInfo.InvariantCulture%2A?displayProperty=fullName>
-
-
-

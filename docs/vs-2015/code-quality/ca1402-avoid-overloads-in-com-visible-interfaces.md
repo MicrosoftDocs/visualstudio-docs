@@ -1,14 +1,9 @@
 ---
 title: "CA1402: Avoid overloads in COM visible interfaces | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "AvoidOverloadsInComVisibleInterfaces"
   - "CA1402"
@@ -75,6 +70,3 @@ void SomeMethod_3(int valueOne, int valueTwo);
 ## See Also
  [Interoperating with Unmanaged Code](http://msdn.microsoft.com/library/ccb68ce7-b0e9-4ffb-839d-03b1cd2c1258)
  [Long Data Type](http://msdn.microsoft.com/library/b4770c34-1804-4f8c-b512-c10b0893e516)
-
-
-

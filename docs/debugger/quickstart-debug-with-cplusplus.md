@@ -3,7 +3,6 @@ title: "Debug C++"
 description: "Debug native code using the Visual Studio debugger"
 ms.custom: "mvc"
 ms.date: "08/06/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "quickstart"
 helpviewer_keywords: 
   - "debugger"
@@ -97,7 +96,7 @@ While paused at the breakpoint, hover over the statement `c1.push_back(20)` unti
 
 The app continues execution, calling `doWork`, and pauses on the line of code where you clicked the button.
 
-Common keyboard commands used to step through code include **F10** and **F11**. For more in-depth instructions, see the [Beginner's Guide](../debugger/getting-started-with-the-debugger.md).
+Common keyboard commands used to step through code include **F10** and **F11**. For more in-depth instructions, see [First look at the debugger](../debugger/debugger-feature-tour.md).
 
 ## Inspect variables in a datatip
 

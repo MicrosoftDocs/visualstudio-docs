@@ -1,14 +1,9 @@
 ---
 title: "How to: Add a Trusted Publisher to a Client Computer for ClickOnce Applications | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -20,7 +15,7 @@ ms.assetid: 35fe324c-45a1-4509-b7be-5c18b4b1b4ab
 caps.latest.revision: 12
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # How to: Add a Trusted Publisher to a Client Computer for ClickOnce Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -71,6 +66,3 @@ With Trusted Application Deployment, you can configure client computers so that 
  [How to: Add a Trusted Publisher to a Client Computer for ClickOnce Applications](../deployment/how-to-add-a-trusted-publisher-to-a-client-computer-for-clickonce-applications.md)   
  [How to: Re-sign Application and Deployment Manifests](../deployment/how-to-re-sign-application-and-deployment-manifests.md)   
  [How to: Configure the ClickOnce Trust Prompt Behavior](../deployment/how-to-configure-the-clickonce-trust-prompt-behavior.md)
-
-
-

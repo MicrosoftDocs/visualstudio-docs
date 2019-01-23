@@ -1,14 +1,9 @@
 ---
 title: "Troubleshooting Specific Errors in ClickOnce Deployments | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: troubleshooting
 f1_keywords: 
   - "Microsoft.VisualStudio.Publish.ClickOnceProvider.ErrorPrompt.UncRequired"
   - "Microsoft.VisualStudio.Publish.ClickOnceProvider.ErrorPrompt.NoInstallUrl"
@@ -24,7 +19,7 @@ ms.assetid: 22dfe8f1-8271-4708-9c25-6bbb13920ac8
 caps.latest.revision: 15
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # Troubleshooting Specific Errors in ClickOnce Deployments
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -141,6 +136,3 @@ This topic lists the following common errors that can occur when you deploy a [!
 ## See Also  
  [ClickOnce Security and Deployment](../deployment/clickonce-security-and-deployment.md)   
  [Troubleshooting ClickOnce Deployments](../deployment/troubleshooting-clickonce-deployments.md)
-
-
-

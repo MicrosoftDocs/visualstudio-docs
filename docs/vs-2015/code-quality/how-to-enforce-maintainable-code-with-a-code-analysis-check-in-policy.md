@@ -1,14 +1,9 @@
 ---
 title: "How to: Enforce Maintainable Code with a Code Analysis Check-in Policy | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 helpviewer_keywords: 
   - "code analysis, check-in policies"
 ms.assetid: d1b3b04f-4dd9-40e6-b2d4-b414d33fb647
@@ -61,6 +56,3 @@ Developers can use the Code Metrics tool to measure the complexity and maintaina
 ## See Also  
  [Code Metrics Values](../code-quality/code-metrics-values.md)   
  [Creating and Using Code Analysis Check-In Policies](../code-quality/creating-and-using-code-analysis-check-in-policies.md)
-
-
-

@@ -1,14 +1,9 @@
 ---
 title: "SccGetUserOption Function | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "SccGetUserOption"
 helpviewer_keywords: 
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 17863747-1901-4c53-a2b3-ed996085e120
 caps.latest.revision: 13
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # SccGetUserOption Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -62,4 +57,3 @@ SCCRTN SccGetUserOption(
 ## See Also  
  [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)   
  [Error Codes](../extensibility/error-codes.md)
-

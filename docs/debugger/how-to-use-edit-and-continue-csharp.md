@@ -1,8 +1,6 @@
 ---
 title: "How to: Use Edit and Continue (C#) | Microsoft Docs"
-ms.custom: ""
 ms.date: "10/04/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"

@@ -1,14 +1,9 @@
 ---
 title: "Vbc Task | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: reference
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#Vbc"
 dev_langs: 
@@ -23,7 +18,7 @@ ms.assetid: 595278b1-2782-4577-b1ba-b4b5ab5625a3
 caps.latest.revision: 22
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Vbc Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -107,6 +102,3 @@ Wraps vbc.exe, which produces executables (.exe), dynamic-link libraries (.dll),
  [Visual Basic Command-Line Compiler](http://msdn.microsoft.com/library/6b57c444-50c7-4b88-8f59-ed65cff5e05c)   
  [Tasks](../msbuild/msbuild-tasks.md)   
  [Task Reference](../msbuild/msbuild-task-reference.md)
-
-
-

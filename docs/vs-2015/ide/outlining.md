@@ -1,14 +1,9 @@
 ---
 title: "Outlining | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "outlining"
   - "Visual Studio, expand/collapse code"
@@ -21,7 +16,7 @@ ms.assetid: d1476758-9d35-4d74-b63c-310661932ecd
 caps.latest.revision: 38
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Outlining
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -51,6 +46,3 @@ You can choose to hide some code from view by collapsing a region of code so tha
 |Collapse All in: \<logical structures>|(Visual C++) Collapses all the structures inside the function.|  
   
  You can also use the Visual Studio SDK to define the text regions you want to expand or collapse. See [Walkthrough: Outlining](../extensibility/walkthrough-outlining.md).
-
-
-

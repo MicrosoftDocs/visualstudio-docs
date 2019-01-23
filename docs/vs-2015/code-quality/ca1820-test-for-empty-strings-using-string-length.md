@@ -1,14 +1,9 @@
 ---
 title: "CA1820: Test for empty strings using string length | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "TestForEmptyStringsUsingStringLength"
   - "CA1820"
@@ -49,6 +44,3 @@ manager: "wpickett"
  The following example illustrates the different techniques that are used to look for an empty string.
 
  [!code-csharp[FxCop.Performance.StringTest#1](../snippets/csharp/VS_Snippets_CodeAnalysis/FxCop.Performance.StringTest/cs/FxCop.Performance.StringTest.cs#1)]
-
-
-

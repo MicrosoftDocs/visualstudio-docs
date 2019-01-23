@@ -1,14 +1,9 @@
 ---
 title: "IDebugPointerObject | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugPointerObject"
 helpviewer_keywords: 
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 257fa167-b46e-4ffb-9a12-272efbf26702
 caps.latest.revision: 12
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # IDebugPointerObject
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -60,4 +55,3 @@ IDebugPointerObject : IDebugObject
 ## See Also  
  [Expression Evaluation Interfaces](../../../extensibility/debugger/reference/expression-evaluation-interfaces.md)   
  [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)
-

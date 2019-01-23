@@ -24,7 +24,7 @@ Determines if the operation is complete.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT QueryIsComplete();  
 ```  
   

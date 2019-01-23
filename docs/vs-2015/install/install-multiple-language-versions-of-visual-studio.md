@@ -1,14 +1,9 @@
 ---
 title: "Install Multiple Language Versions | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-install"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-install"
+ms.topic: conceptual
 helpviewer_keywords:
   - "installing Visual Studio, multiple languages"
   - "install Visual Studio, multiple languages"
@@ -16,7 +11,7 @@ ms.assetid: ee09497d-75ea-4359-9f55-889b3b2e342a
 caps.latest.revision: 14
 author: TerryGLee
 ms.author: tglee
-manager: "ghogen"
+manager: jillfra
 ---
 # Install Multiple Language Versions of Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

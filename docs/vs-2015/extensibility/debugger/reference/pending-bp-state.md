@@ -1,14 +1,9 @@
 ---
 title: "PENDING_BP_STATE | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "PENDING_BP_STATE"
 helpviewer_keywords: 
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: ac04ad72-fa92-4a15-ade2-0d0bbbadfc7f
 caps.latest.revision: 11
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # PENDING_BP_STATE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -70,4 +65,3 @@ public enum enum_PENDING_BP_STATE { 
 ## See Also  
  [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)   
  [PENDING_BP_STATE_INFO](../../../extensibility/debugger/reference/pending-bp-state-info.md)
-

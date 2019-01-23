@@ -1,14 +1,9 @@
 ---
 title: "Performance Report View Filter | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "profiling tools, Profiler Report view filter"
   - "Profiler Report View filter, profiling tools"
@@ -16,7 +11,7 @@ ms.assetid: 35f89d86-4683-4db1-aa0c-ae0ce65fa524
 caps.latest.revision: 21
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Performance Report View Filter
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,6 +36,3 @@ The Profiler Report View Filter window is located at the top of the Performance 
 ## See Also  
  [Analyzing Performance Tools Data](../profiling/analyzing-performance-tools-data.md)   
  [VSPerfReport](../profiling/vsperfreport.md)
-
-
-

@@ -1,9 +1,6 @@
 ---
 title: "Extending SharePoint Project Items | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -67,4 +64,3 @@ ms.workload:
  [How to: Add a property to a SharePoint project item extension](../sharepoint/how-to-add-a-property-to-a-sharepoint-project-item-extension.md)   
  [Walkthrough: Extend a SharePoint project item type](../sharepoint/walkthrough-extending-a-sharepoint-project-item-type.md)   
  [Extend the SharePoint project system](../sharepoint/extending-the-sharepoint-project-system.md)  
-  

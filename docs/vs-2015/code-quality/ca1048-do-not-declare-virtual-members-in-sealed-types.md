@@ -1,14 +1,9 @@
 ---
 title: "CA1048: Do not declare virtual members in sealed types | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "DoNotDeclareVirtualMembersInSealedTypes"
   - "CA1048"
@@ -49,6 +44,3 @@ manager: "wpickett"
  The following example shows a type that violates this rule.
 
  [!code-cpp[FxCop.Design.SealedVirtual#1](../snippets/cpp/VS_Snippets_CodeAnalysis/FxCop.Design.SealedVirtual/cpp/FxCop.Design.SealedVirtual.cpp#1)]
-
-
-

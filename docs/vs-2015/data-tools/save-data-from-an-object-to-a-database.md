@@ -1,12 +1,9 @@
 ---
 title: "Save data from an object to a database | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -20,13 +17,13 @@ ms.assetid: efd6135a-40cf-4b0d-8f8b-41a5aaea7057
 caps.latest.revision: 12
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Save data from an object to a database
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-You can save data in objects to a database by passing the values from your object to one of the TableAdapter's DBDirect methods (for example, `TableAdapter.Insert`). For more information, see [TableAdapter Overview](../data-tools/tableadapter-overview.md).  
+You can save data in objects to a database by passing the values from your object to one of the TableAdapter's DBDirect methods (for example, `TableAdapter.Insert`).
   
  To save data from a collection of objects, loop through the collection of objects (for example, a for-next loop), and send the values for each object to the database by using one of the TableAdapter's DBDirect methods.  
   
@@ -79,4 +76,3 @@ You can save data in objects to a database by passing the values from your objec
   
 ## See Also  
  [Save data back to the database](../data-tools/save-data-back-to-the-database.md)
-

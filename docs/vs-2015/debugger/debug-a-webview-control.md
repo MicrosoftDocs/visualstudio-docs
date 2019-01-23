@@ -1,14 +1,9 @@
 ---
 title: "Debug a WebView control | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -18,7 +13,7 @@ ms.assetid: 7d105907-8b39-4d07-8762-5c5ed74c7f21
 caps.latest.revision: 13
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Debug a WebView control
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -87,6 +82,3 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
   
 ## See Also  
  [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md)
-
-
-

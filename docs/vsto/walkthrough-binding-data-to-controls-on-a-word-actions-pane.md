@@ -1,9 +1,6 @@
 ---
 title: "Walkthrough: Bind data to controls on a Word actions pane"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -236,5 +233,3 @@ ms.workload:
  [Actions pane overview](../vsto/actions-pane-overview.md)   
  [How to: Add an actions pane to Word documents or Excel workbooks](../vsto/how-to-add-an-actions-pane-to-word-documents-or-excel-workbooks.md)   
  [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)  
-  
-  

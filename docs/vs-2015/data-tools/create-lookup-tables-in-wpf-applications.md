@@ -1,12 +1,9 @@
 ---
 title: "Create lookup tables in WPF applications | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -24,7 +21,7 @@ ms.assetid: 56a1fbff-c7e8-4187-a1c1-ffd17024bc1b
 caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Create lookup tables in WPF applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,8 +35,8 @@ The term *lookup table* (sometimes called a *lookup binding*) describes a contro
   
 1.  Add one of the following types of data sources with related data to your project:  
   
-    -   Dataset or Entity Data Model. For more information, see [How to: Connect to Data in a Database](../data-tools/how-to-connect-to-data-in-a-database.md).  
-  
+    -   Dataset or Entity Data Model.
+
     -   WCF Data Service, WCF service or Web service. For more information, see [How to: Connect to Data in a Service](../data-tools/how-to-connect-to-data-in-a-service.md).  
   
     -   Objects. For more information, see [How to: Connect to Data in Objects](http://msdn.microsoft.com/library/862fd351-0f4d-4220-9743-6103b87dc24b).  
@@ -98,4 +95,3 @@ The term *lookup table* (sometimes called a *lookup binding*) describes a contro
  [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio2.md)   
  [Display related data in WPF applications](../data-tools/display-related-data-in-wpf-applications.md)   
  [Walkthrough: Displaying Related Data in a WPF Application](../data-tools/walkthrough-displaying-related-data-in-a-wpf-application.md)
-

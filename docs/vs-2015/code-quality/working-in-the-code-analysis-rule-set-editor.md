@@ -1,14 +1,9 @@
 ---
 title: "Working in the Code Analysis Rule Set Editor | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 f1_keywords: 
   - "vs.codeanalysis.ruleseteditor"
 ms.assetid: 370c97bf-bb29-4b2f-b9ae-ba125bce7b2d
@@ -75,6 +70,3 @@ The Code Analysis rule set editor enables you to specify the rules that are incl
 -   To sort the rule set lists, click the column header of the field by which you want to sort. If the rule sets are grouped, each group is sorted individually.  
   
 -   To filter the rule sets by the value of a field, click the filter button on the column header of the field by which you want to filter. Select the check boxes of the values that you want to show, and clear the check boxes of the values that you want to hide.
-
-
-

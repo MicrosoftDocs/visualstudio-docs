@@ -1,14 +1,9 @@
 ---
 title: "CA1600: Do not use idle process priority | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "DoNotUseIdleProcessPriority"
   - "CA1600"
@@ -42,6 +37,3 @@ manager: "wpickett"
 
 ## When to Suppress Warnings
  This rule should be suppressed only when Idle process priority is required and mobility considerations can be ignored safely.
-
-
-

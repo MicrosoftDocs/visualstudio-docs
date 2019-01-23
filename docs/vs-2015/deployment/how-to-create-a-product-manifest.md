@@ -1,14 +1,9 @@
 ---
 title: "How to: Create a Product Manifest | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -23,7 +18,7 @@ ms.assetid: 2d316aaa-8bc0-4ce5-90ab-23b3eac0b5dd
 caps.latest.revision: 12
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # How to: Create a Product Manifest
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -162,6 +157,3 @@ To deploy prerequisites for your application, you can create a bootstrapper pack
   
 ## See Also  
  [Product and Package Schema Reference](../deployment/product-and-package-schema-reference.md)
-
-
-

@@ -18,7 +18,7 @@ Gets a [SCRIPTUICHANDLING Enumeration](../../winscript/reference/scriptuichandli
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetUIBehavior(     [in] SCRIPTUICITEM UicItem,     [out] SCRIPTUICHANDLING * pUicHandling );   
 ```  
   

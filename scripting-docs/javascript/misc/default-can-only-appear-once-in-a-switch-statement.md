@@ -1,5 +1,5 @@
 ---
-title: "&#39;default&#39; can only appear once in a &#39;switch&#39; statement | Microsoft Docs"
+title: "'default' can only appear once in a 'switch' statement | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
 ms.prod: "windows-client-threshold"
@@ -21,7 +21,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 ---
-# &#39;default&#39; can only appear once in a &#39;switch&#39; statement
+# 'default' can only appear once in a 'switch' statement
 You attempted to use the **default** statement more than once within a switch statement. The default case is always the last case statement in a switch statement (it is the fall-through case).  
   
 ### To correct this error  

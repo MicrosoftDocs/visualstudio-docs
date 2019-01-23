@@ -1,14 +1,9 @@
 ---
 title: "Building Multiple Projects in Parallel with MSBuild | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 helpviewer_keywords: 
   - "parallel project builds"
   - "building multiple projects in parallel"
@@ -17,7 +12,7 @@ ms.assetid: c8c9aadc-33ad-4aa1-b07d-b879e9eabda0
 caps.latest.revision: 23
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Building Multiple Projects in Parallel with MSBuild
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -76,6 +71,3 @@ msbuild.exe myproj.proj /maxcpucount:3
  [Using Multiple Processors to Build Projects](../msbuild/using-multiple-processors-to-build-projects.md)   
  [Writing Multi-Processor-Aware Loggers](../msbuild/writing-multi-processor-aware-loggers.md)   
  [Tuning C++ Build Parallelism blog](http://go.microsoft.com/fwlink/?LinkId=251457)
-
-
-

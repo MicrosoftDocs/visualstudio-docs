@@ -2,15 +2,12 @@
 title: "Sync Changes Between XCode and Visual Studio 2015 | Microsoft Docs"
 titleSuffix: ""
 ms.date: 11/15/2016
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: conceptual
 ms.assetid: c71a4d7c-120e-4559-a114-3a99c4b860a9
 caps.latest.revision: 10
 author: corob-msft
 ms.author: corob
-manager: "ghogen"
+manager: jillfra
 ---
 # Sync Changes Between XCode and Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

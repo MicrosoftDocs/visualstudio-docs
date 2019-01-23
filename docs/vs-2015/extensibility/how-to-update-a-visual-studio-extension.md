@@ -1,14 +1,9 @@
 ---
 title: "Update an extension | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords:
   - "update package"
   - "update extension"
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 93f79774-7b79-4dd6-94ad-13698f72c257
 caps.latest.revision: 15
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Update a Visual Studio Extension
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

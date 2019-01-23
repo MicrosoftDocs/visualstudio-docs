@@ -3,13 +3,13 @@ title: Load a subset of projects
 ms.date: 12/04/2018
 ms.topic: conceptual
 ms.prod: visual-studio-dev16
-ms.technology: vs-ide-general
 helpviewer_keywords:
  - "filtered solution"
  - "solution filtering"
 author: gewarren
 ms.author: stsu
 manager: douge
+monikerRange: vs-2019
 ---
 # Filtered solutions in Visual Studio
 

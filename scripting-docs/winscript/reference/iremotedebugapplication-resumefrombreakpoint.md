@@ -24,7 +24,7 @@ Continues an application that is currently in a breakpoint.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT ResumeFromBreakPoint(  
    IRemoteDebugApplicationThread*  prptFocus,  
    BREAKRESUMEACTION               bra,  

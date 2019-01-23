@@ -1,18 +1,13 @@
 ---
 title: "Configure unit tests by using a .runsettings file | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 ms.assetid: f7e9e4a2-5d01-4f78-b408-5be3892bd162
 caps.latest.revision: 28
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Configure unit tests by using a .runsettings file
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -24,7 +19,7 @@ Unit tests in Visual Studio can be configured by using a *.runsettings file. (Th
 > [!NOTE]
 >  **.runsettings and .testsettings**  
 >   
->  There are two types of file for configuring tests. *.runsettings are used for unit tests. And \*.testsettings for [lab environment tests](http://msdn.microsoft.com/library/0c15317e-80c6-4317-aed3-82b8e15e3901), web performance and load tests, and for customizing some types of diagnostic data adapters such as Intellitrace and event log adapters.  
+>  There are two types of file for configuring tests. *.runsettings are used for unit tests. And \*.testsettings for [lab environment tests](http://msdn.microsoft.com/library/0c15317e-80c6-4317-aed3-82b8e15e3901), web performance and load tests, and for customizing some types of diagnostic data adapters such as IntelliTrace and event log adapters.  
 >   
 >  In previous editions of Visual Studio up to 2010, unit tests were also customized by using *.testsettings files. You can still do that, but the tests will run more slowly than if you use the equivalent configurations in a \*.runsettings file.  
   
@@ -164,6 +159,3 @@ Unit tests in Visual Studio can be configured by using a *.runsettings file. (Th
 ## See Also  
  [Customizing Code Coverage Analysis](../test/customizing-code-coverage-analysis.md)   
  [Specifying Test Settings for Visual Studio Tests](http://msdn.microsoft.com/library/0c15317e-80c6-4317-aed3-82b8e15e3901)
-
-
-

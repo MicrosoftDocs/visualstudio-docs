@@ -10,7 +10,6 @@ manager: douge
 ms.workload:
   - "multiple"
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Creating Custom T4 Text Template Directive Processors
 

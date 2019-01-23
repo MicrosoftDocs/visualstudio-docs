@@ -1,14 +1,9 @@
 ---
 title: "CA2144: Transparent code should not load assemblies from byte arrays | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "CA2144"
 ms.assetid: 777b1310-6e16-4413-b4ee-5f3136304f82
@@ -49,6 +44,3 @@ manager: "wpickett"
  The rule fires on the following code because a transparent method loads an assembly from a byte array.
 
  [!code-csharp[FxCop.Security.CA2144.TransparentMethodsShouldNotLoadAssembliesFromByteArrays#1](../snippets/csharp/VS_Snippets_CodeAnalysis/fxcop.security.ca2144.transparentmethodsshouldnotloadassembliesfrombytearrays/cs/ca2144 - transparentmethodsshouldnotloadassembliesfrombytearrays.cs#1)]
-
-
-

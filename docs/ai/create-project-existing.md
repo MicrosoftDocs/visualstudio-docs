@@ -1,5 +1,13 @@
 ---
-ms.technology: vs-ai-tools
+title: Create an AI project from existing code
+author: lisawong19
+ms.author: liwong
+manager: routlaw
+ms.date: 11/13/2017
+ms.topic: conceptual
+ms.service: multiple
+ms.workload:
+  - "multiple"
 ---
 # Create an AI project from existing code
 

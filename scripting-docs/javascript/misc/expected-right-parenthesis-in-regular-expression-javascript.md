@@ -1,5 +1,5 @@
 ---
-title: "Expected &#39;)&#39; in regular expression (JavaScript) | Microsoft Docs"
+title: "Expected ')' in regular expression (JavaScript) | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
 ms.prod: "windows-client-threshold"
@@ -21,7 +21,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 ---
-# Expected &#39;)&#39; in regular expression (JavaScript)
+# Expected ')' in regular expression (JavaScript)
 You attempted to create a regular expression capture, assertion, or group, but did not include the closing parenthesis. Parentheses have several purposes in regular expressions. Primarily, they are used to capture sub-expressions, to specify assertions, or to group patterns together so that the items can be treated as a single unit by *, +, ?, and so on.  
   
 ### To correct this error  

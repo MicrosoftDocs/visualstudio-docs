@@ -1,14 +1,9 @@
 ---
 title: "MSBuild Conditional Constructs | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: reference
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -27,7 +22,7 @@ ms.assetid: dd54258e-f4fb-448f-9da4-d1817e0cbaf2
 caps.latest.revision: 12
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # MSBuild Conditional Constructs
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -84,6 +79,3 @@ manager: "ghogen"
  [When Element (MSBuild)](../msbuild/when-element-msbuild.md)   
  [Otherwise Element (MSBuild)](../msbuild/otherwise-element-msbuild.md)   
  [MSBuild Reference](../msbuild/msbuild-reference.md)
-
-
-

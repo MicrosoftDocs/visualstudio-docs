@@ -1,12 +1,9 @@
 ---
 title: "Connect to data in an Access database (Windows Forms) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -22,13 +19,12 @@ ms.assetid: 4159e815-d430-4ad0-a234-e4125fcbef18
 caps.latest.revision: 32
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Connect to data in an Access database (Windows Forms)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
-You can connect to an Access database (either an .mdf file or an .accdb file) by using Visual Studio. After you define the connection, the data appears in the **Data Sources** window. From there, you can drag tables or views onto your forms. If you want to understand how the project system in Visual Studio manages these local database files, see [How to: Manage Local Data Files in Your Project](../data-tools/how-to-manage-local-data-files-in-your-project.md).  
+You can connect to an Access database (either an .mdf file or an .accdb file) by using Visual Studio. After you define the connection, the data appears in the **Data Sources** window. From there, you can drag tables or views onto your forms.  
   
 ## Prerequisites  
  To use these procedures, you need a Windows Forms application project, and either an Access database (.accdb file) or an Access 2000–2003 database (.mdb file). Follow the procedure that corresponds to your file type.  
@@ -123,17 +119,13 @@ You can connect to an Access database (either an .mdf file or an .accdb file) by
   
 -   Select items in the **Data Sources** window and drag them onto your form (see [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)).  
   
--   Open the data source in the [Dataset Designer](../data-tools/creating-and-editing-typed-datasets.md) to add or edit the objects that make up the dataset.  
+-   Open the data source in the Dataset Designer to add or edit the objects that make up the dataset.  
   
 -   Add validation logic to the <xref:System.Data.DataTable.ColumnChanging> or <xref:System.Data.DataTable.RowChanging> event of the data tables in the dataset (see [Validate data in datasets](../data-tools/validate-data-in-datasets.md)).  
   
-## See Also  
- [Connecting to Data in Visual Studio](../data-tools/connecting-to-data-in-visual-studio.md)   
- [Preparing Your Application to Receive Data](http://msdn.microsoft.com/library/c17bdb7e-c234-4f2f-9582-5e55c27356ad)   
- [Fetching Data into Your Application](../data-tools/fetching-data-into-your-application.md)   
- [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md)   
- [Editing Data in Your Application](../data-tools/editing-data-in-your-application.md)   
- [Validating Data](http://msdn.microsoft.com/library/b3a9ee4e-5d4d-4411-9c56-c811f2b4ee7e)   
- [Saving Data](../data-tools/saving-data.md)   
- [Data Walkthroughs](http://msdn.microsoft.com/library/15a88fb8-3bee-4962-914d-7a1f8bd40ec4)
+## See Also
 
+ [Preparing Your Application to Receive Data](http://msdn.microsoft.com/library/c17bdb7e-c234-4f2f-9582-5e55c27356ad)   
+ [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md)   
+ [Validating Data](http://msdn.microsoft.com/library/b3a9ee4e-5d4d-4411-9c56-c811f2b4ee7e)   
+ [Data Walkthroughs](http://msdn.microsoft.com/library/15a88fb8-3bee-4962-914d-7a1f8bd40ec4)

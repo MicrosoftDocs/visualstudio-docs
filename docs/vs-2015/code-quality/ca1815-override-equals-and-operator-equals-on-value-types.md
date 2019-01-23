@@ -1,14 +1,9 @@
 ---
 title: "CA1815: Override equals and operator equals on value types | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "CA1815"
   - "OverrideEqualsAndOperatorEqualsOnValueTypes"
@@ -68,6 +63,3 @@ manager: "wpickett"
 
 ## See Also
  <xref:System.Object.Equals%2A?displayProperty=fullName>
-
-
-

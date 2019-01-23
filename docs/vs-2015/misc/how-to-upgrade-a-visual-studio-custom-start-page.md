@@ -1,17 +1,12 @@
 ---
 title: "How to: Upgrade a Custom Start Page | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "devlang-csharp"
+ms.topic: conceptual
 ms.assetid: 78342ce6-36c8-485b-a5f6-760e7a420a26
 caps.latest.revision: 8
-manager: "douge"
+manager: jillfra
 ---
 # How to: Upgrade a Visual Studio Custom Start Page
 You can upgrade a Visual Studio 2010 or Visual Studio 2012 custom start page to Visual Studio 2015 by following the steps listed below.

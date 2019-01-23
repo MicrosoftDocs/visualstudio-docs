@@ -1,20 +1,15 @@
 ---
 title: "IDebugDocumentChecksum2 | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 helpviewer_keywords: 
   - "IDebugDocumentChecksum2 interface"
 ms.assetid: 6d22fa94-21aa-46cb-b5b5-32a6399ebb20
 caps.latest.revision: 8
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # IDebugDocumentChecksum2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -43,4 +38,3 @@ IDebugDocumentChecksum2 : IUnknown
  Namespace: Microsoft.VisualStudio.Debugger.Interop  
   
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
-

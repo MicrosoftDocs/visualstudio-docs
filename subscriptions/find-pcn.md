@@ -17,18 +17,13 @@ In order to complete the onboarding of your organization to the subscription adm
 
 ## To locate your PCN or Authorization Number
 
-1.  Log in to the Volume Licensing Service Center at: [https://www.Microsoft.com/licensing/servicecenter](https://www.Microsoft.com/licensing/servicecenter).
-
-2. From the Subscriptions tab, select **Visual Studio Subscriptions**.
+The Volume License Service Center no longer provides access to your PCN.  To obtain it, please contact Visual Studio Subscriptions support.
+1. Visit https://visualstudio.microsoft.com/subscriptions/support/#talktous
+2. Tap the **Account, Subscription and Billing Support** button.
     > [!div class="mx-imgBorder"]
-    > ![Choose subscriptions in VLSC](_img/vlsc/vlsc-subscriptions.png)
-
-3. The PCN or Public Customer Number is located halfway down the page.
-    > [!div class="mx-imgBorder"]
-    > ![Locate PCN in VLSC](_img/vlsc/vlsc-pcn.png)
-
-    
-If you are not seeing the above page and are being redirected to the Visual Studio sign-in page, please copy and paste the following link into your browser: https://www.microsoft.com/Licensing/servicecenter/Subscription/AgreementSearch.
+    > ![Choose subscription support](_img/vlsc/vlsc-pcn.png)
+3. Choose your country from the drop-down list.
+4. Choose from the list of support options available in your country to contact a support agent who can research your PCN for you.  
 
 ## If I have more than one PCN, which one should I use?
 

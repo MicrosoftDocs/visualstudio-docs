@@ -1,14 +1,9 @@
 ---
 title: "CA2205: Use managed equivalents of Win32 API | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "UseManagedEquivalentsOfWin32Api"
   - "CA2205"
@@ -59,6 +54,3 @@ manager: "wpickett"
  [CA1401: P/Invokes should not be visible](../code-quality/ca1401-p-invokes-should-not-be-visible.md)
 
  [CA2101: Specify marshaling for P/Invoke string arguments](../code-quality/ca2101-specify-marshaling-for-p-invoke-string-arguments.md)
-
-
-

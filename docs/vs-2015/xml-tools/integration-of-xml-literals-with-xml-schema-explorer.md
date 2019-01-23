@@ -1,19 +1,14 @@
 ---
 title: "Integration of XML Literals with XML Schema Explorer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: 57a29998-c6e8-48ac-bdb0-5788e73f9164
 caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Integration of XML Literals with XML Schema Explorer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,6 +28,3 @@ Visual Basic supports XML literals, which means that you can incorporate XML fra
   
 ## See Also  
  [How to: Use the XML Schema Designer with XML Literals](../xml-tools/how-to-use-the-xml-schema-designer-with-xml-literals.md)
-
-
-

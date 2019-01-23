@@ -1,14 +1,9 @@
 ---
 title: "DA0012: Significant amount of Reflection | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 f1_keywords: 
   - "vs.performance.rules.DAReflection"
   - "vs.performance.12"
@@ -18,7 +13,7 @@ ms.assetid: c92a1d76-21fa-426e-8b1b-a3c08e9bcbca
 caps.latest.revision: 18
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # DA0012: Significant amount of Reflection
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -39,6 +34,3 @@ Rule Id|DA0012|
   
 ## How to Investigate a Warning  
  Double-click the message in the Errors List window to navigate to the [Function Details View](../profiling/function-details-view.md) of the profiling data. Examine the calling functions of the System.Type or System.Reflection method to find the sections of the program that make the most frequent use of .NET Reflection APIs. Avoid using methods that return metadata. When the performance of your application is critical, you might need to avoid using late binding and creating types dynamically at run-time.
-
-
-

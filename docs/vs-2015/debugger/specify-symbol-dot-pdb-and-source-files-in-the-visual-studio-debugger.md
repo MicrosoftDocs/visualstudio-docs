@@ -1,14 +1,9 @@
 ---
 title: "Specify Symbol (.pdb) and Source Files in the Debugger | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords:
   - "VS.ToolsOptionsPages.Debugger.Native"
   - "VS.ToolsOptionsPages.Debugger.Symbols"
@@ -31,7 +26,7 @@ ms.assetid: 1105e169-5272-4e7c-b3e7-cda1b7798a6b
 caps.latest.revision: 36
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Specify Symbol (.pdb) and Source Files in the Visual Studio Debugger
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

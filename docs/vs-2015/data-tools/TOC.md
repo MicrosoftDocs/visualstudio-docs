@@ -83,6 +83,7 @@
 ##### [Bind WPF controls to a WCF data service](bind-wpf-controls-to-a-wcf-data-service.md)
 ##### [Create lookup tables in WPF applications](create-lookup-tables-in-wpf-applications.md)
 ##### [Display related data in WPF applications](display-related-data-in-wpf-applications.md)
+##### [Walkthrough: Display Related Data in a WPF Application](walkthrough-displaying-related-data-in-a-wpf-application.md)
 ##### [Bind controls to pictures from a database](bind-controls-to-pictures-from-a-database.md)
 #### [Bind Windows Forms controls to data in Visual Studio](bind-windows-forms-controls-to-data-in-visual-studio.md)
 ##### [Bind Windows Forms controls to data](bind-windows-forms-controls-to-data.md)

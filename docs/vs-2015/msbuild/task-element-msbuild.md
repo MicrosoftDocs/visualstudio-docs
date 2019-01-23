@@ -1,14 +1,9 @@
 ---
 title: "Task Element (MSBuild) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -21,7 +16,7 @@ ms.assetid: d82e2485-e5f0-4936-a357-745bacccc299
 caps.latest.revision: 26
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Task Element (MSBuild)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -91,6 +86,3 @@ Creates and executes an instance of an [!INCLUDE[vstecmsbuild](../includes/vstec
  [Tasks](../msbuild/msbuild-tasks.md)   
  [Task Reference](../msbuild/msbuild-task-reference.md)   
  [Project File Schema Reference](../msbuild/msbuild-project-file-schema-reference.md)
-
-
-

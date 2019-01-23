@@ -1,14 +1,9 @@
 ---
 title: "CA1812: Avoid uninstantiated internal classes | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "CA1812"
   - "AvoidUninstantiatedInternalClasses"
@@ -98,6 +93,3 @@ manager: "wpickett"
  [CA1801: Review unused parameters](../code-quality/ca1801-review-unused-parameters.md)
 
  [CA1804: Remove unused locals](../code-quality/ca1804-remove-unused-locals.md)
-
-
-

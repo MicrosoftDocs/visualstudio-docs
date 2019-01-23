@@ -1,21 +1,16 @@
 ---
 title: "Upgrading Project Items | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "devlang-csharp"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "upgrading project items"
   - "projects [Visual Studio SDK], upgrading items"
   - "project items [Visual Studio], upgrading"
 ms.assetid: 8af29dd4-eaf1-4b3c-b602-198e1a3dff23
 caps.latest.revision: 14
-manager: "douge"
+manager: jillfra
 ---
 # Upgrading Project Items
 If you add or manage items inside project systems you do not implement, you may need to participate in the project upgrade process. Crystal Reports is an example of an item that can be added to the project system.  
@@ -37,5 +32,5 @@ If you add or manage items inside project systems you do not implement, you may 
 2.  At the time your project item gets a notification of the project upgrade, the **Visual Studio Conversion Wizard** is still displayed. Therefore, you should use the methods of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUpgradeLogger> interface to provide upgrade messages to the wizard UI.  
   
 ## See Also  
- [Visual Studio Conversion Wizard](http://msdn.microsoft.com/en-us/4acfd30e-c192-4184-a86f-2da5e4c3d83c)   
+ [Visual Studio Conversion Wizard](http://msdn.microsoft.com/4acfd30e-c192-4184-a86f-2da5e4c3d83c)   
  [Upgrading Custom Projects](../misc/upgrading-custom-projects.md)

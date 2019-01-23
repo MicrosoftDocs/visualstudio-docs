@@ -1,14 +1,9 @@
 ---
 title: "How to: Install the Stand-Alone Profiler | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "performance tools, installing stand-alone profiler"
   - "profiling tools, stand-alone profiler"
@@ -16,7 +11,7 @@ ms.assetid: cae81c95-83cd-4ab6-8a98-84ef977a2f6d
 caps.latest.revision: 29
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Install the Stand-Alone Profiler
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -57,6 +52,3 @@ manager: "ghogen"
  [Walkthrough: Command-Line Profiling Using Instrumentation](../profiling/walkthrough-command-line-profiling-using-instrumentation.md)   
  [How to: Reference Windows Symbol Information](../profiling/how-to-reference-windows-symbol-information.md)   
  [VSPerfReport](../profiling/vsperfreport.md)
-
-
-

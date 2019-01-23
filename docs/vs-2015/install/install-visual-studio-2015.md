@@ -3,11 +3,7 @@ title: "Install Visual Studio 2015 | Microsoft Docs"
 titleSuffix: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-install"
-ms.tgt_pltfrm: ""
+ms.technology: "vs-ide-install"
 ms.topic: conceptual
 f1_keywords:
   - "vs.about"
@@ -22,7 +18,7 @@ ms.assetid: da049020-cfda-40d7-8ff4-7492772b620f
 caps.latest.revision: 183
 author: TerryGLee
 ms.author: tglee
-manager: "ghogen"
+manager: jillfra
 ---
 # Install Visual Studio 2015
 
@@ -78,7 +74,7 @@ Before we dig in to the details, here's a list of our most frequently requested 
 |Debug programs|SeDebugPrivilege|
 |Manage auditing and security log|SeSecurityPrivilege|
 
- For more information on this local administrator account requirement, see the Knowledge Base article, [SQL Server installation fails if the Setup account does not have certain user rights](https://support.microsoft.com/en-us/kb/2000257).
+ For more information on this local administrator account requirement, see the Knowledge Base article, [SQL Server installation fails if the Setup account does not have certain user rights](https://support.microsoft.com/kb/2000257).
 
 ###  <a name="BKMK_Media"></a> Using installation media
  To install [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], in the root directory on the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] installation media, run the installation file for the edition you want:

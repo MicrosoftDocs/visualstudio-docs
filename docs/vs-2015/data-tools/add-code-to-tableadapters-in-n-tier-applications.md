@@ -1,12 +1,9 @@
 ---
 title: "Add code to TableAdapters in n-tier applications | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -19,7 +16,7 @@ ms.assetid: dafac00e-df9d-4d4a-95a6-e34b4d099425
 caps.latest.revision: 22
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Add code to TableAdapters in n-tier applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,23 +24,23 @@ manager: "ghogen"
   
 You can extend the functionality of a `TableAdapter` by creating a partial class file for the `TableAdapter` and adding code to it (instead of adding code to the *DatasetName*.DataSet.Designer file). Partial classes enable code for a specific class to be divided among multiple physical files. For more information, see [Partial](http://msdn.microsoft.com/library/7adaef80-f435-46e1-970a-269fff63b448) or [partial (Type)](http://msdn.microsoft.com/library/27320743-a22e-4c7b-b0b3-53afe3607334).  
   
- The code that defines a `TableAdapter` is generated every time changes are made to the `TableAdapter` (in the [Creating and Editing Typed Datasets](../data-tools/creating-and-editing-typed-datasets.md)). This code is also generated when changes are made during the running of any wizard that modifies the configuration of the `TableAdapter`. To prevent your code from being deleted during the regeneration of a `TableAdapter`, add code to the partial class file of the `TableAdapter`.  
+ The code that defines a `TableAdapter` is generated every time changes are made to the `TableAdapter`. This code is also generated when changes are made during the running of any wizard that modifies the configuration of the `TableAdapter`. To prevent your code from being deleted during the regeneration of a `TableAdapter`, add code to the partial class file of the `TableAdapter`.  
   
  By default, after you separate the dataset and `TableAdapter` code, the result is a discrete class file in each project. The original project has a file named *DatasetName*.Designer.vb (or *DatasetName*.Designer.cs) that contains the `TableAdapter` code. The project that's designated in the **Dataset Project** property has a file named *DatasetName*.DataSet.Designer.vb (or *DatasetName*.DataSet.Designer.cs) that contains the dataset code.  
   
 > [!NOTE]
->  When you separate datasets and `TableAdapter`s (by setting the **DataSet Project** property), existing partial dataset classes in the project will not be moved automatically. Existing dataset partial classes must be moved manually to the dataset project.  
+> When you separate datasets and `TableAdapter`s (by setting the **DataSet Project** property), existing partial dataset classes in the project will not be moved automatically. Existing dataset partial classes must be moved manually to the dataset project.  
   
 > [!NOTE]
->  The [Creating and Editing Typed Datasets](../data-tools/creating-and-editing-typed-datasets.md) provides functionality for generating <xref:System.Data.DataTable.ColumnChanging> and <xref:System.Data.DataTable.RowChanging> event handlers when validation is needed. For more information, see [Add validation to an n-tier dataset](../data-tools/add-validation-to-an-n-tier-dataset.md).  
+> The DataSet Designer provides functionality for generating <xref:System.Data.DataTable.ColumnChanging> and <xref:System.Data.DataTable.RowChanging> event handlers when validation is needed. For more information, see [Add validation to an n-tier dataset](../data-tools/add-validation-to-an-n-tier-dataset.md).  
   
  [!INCLUDE[note_settings_general](../includes/note-settings-general-md.md)]  
   
 ### To add user code to a TableAdapter in an n-tier application  
   
-1.  Locate the project that contains the .xsd file (the [Creating and Editing Typed Datasets](../data-tools/creating-and-editing-typed-datasets.md)).  
+1.  Locate the project that contains the .xsd file (the dataset).  
   
-2.  Double click the **.xsd** file to open the [Creating and Editing Typed Datasets](../data-tools/creating-and-editing-typed-datasets.md).  
+2.  Double click the **.xsd** file to open the dataset.  
   
 3.  Right-click the `TableAdapter` that you want to add code to, and then select**View Code**.  
   
@@ -73,6 +70,4 @@ You can extend the functionality of a `TableAdapter` by creating a partial class
  [Add code to datasets in n-tier applications](../data-tools/add-code-to-datasets-in-n-tier-applications.md)   
  [TableAdapters](http://msdn.microsoft.com/library/09416de9-134c-4dc7-8262-6c8d81e3f364)   
  [TableAdapterManager Overview](http://msdn.microsoft.com/library/33076d42-6b41-491a-ac11-6c6339aea650)   
- [Hierarchical Update Overview](http://msdn.microsoft.com/library/c4f8e8b9-e4a5-4a02-8462-d03d1e8222d6)   
- [Creating Data Applications](../data-tools/creating-data-applications.md)
-
+ [Hierarchical Update Overview](http://msdn.microsoft.com/library/c4f8e8b9-e4a5-4a02-8462-d03d1e8222d6)

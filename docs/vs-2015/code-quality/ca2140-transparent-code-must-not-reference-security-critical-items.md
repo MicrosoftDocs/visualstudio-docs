@@ -1,14 +1,9 @@
 ---
 title: "CA2140: Transparent code must not reference security critical items | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "CA2129"
   - "SecurityTransparentCodeShouldNotReferenceNonpublicSecurityCriticalCode"
@@ -78,6 +73,3 @@ manager: "wpickett"
  <xref:System.Security.SecurityTransparentAttribute>
  <xref:System.Security.SecurityTreatAsSafeAttribute>
  <xref:System.Security?displayProperty=fullName>
-
-
-

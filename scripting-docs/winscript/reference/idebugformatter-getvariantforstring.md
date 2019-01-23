@@ -24,7 +24,7 @@ Returns a VARIANT containing the given string.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetVariantForString(  
    LPCOLESTR  pwstrValue,  
    VARIANT*   pvar  

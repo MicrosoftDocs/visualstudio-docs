@@ -1,9 +1,6 @@
 ---
 title: "How to: Add Content controls to Word documents"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -24,8 +21,8 @@ helpviewer_keywords:
   - "ComboBoxContentControl, adding to documents"
   - "DatePickerContentControl, adding to documents"
   - "Word [Office development in Visual Studio], restricted permissions"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -186,4 +183,3 @@ ms.workload:
  [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)   
  [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)   
  [Program document-level customizations](../vsto/programming-document-level-customizations.md)  
-  

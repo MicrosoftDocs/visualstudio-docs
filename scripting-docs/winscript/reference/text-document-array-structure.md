@@ -20,7 +20,7 @@ An array of [IDebugDocumentText Interface](../../winscript/reference/idebugdocum
   
 ## Syntax  
   
-```  
+```cpp
 typedef struct tagTEXT_DOCUMENT_ARRAY{    DWORD dwCount;    [size_is(dwCount)] IDebugDocumentText **Members;} TEXT_DOCUMENT_ARRAY;  
 ```  
   

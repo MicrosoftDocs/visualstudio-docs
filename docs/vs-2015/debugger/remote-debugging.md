@@ -1,13 +1,8 @@
 ---
 title: "Remote Debugging | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
+ms.technology: "vs-ide-debug"
 ms.topic: conceptual
 f1_keywords: 
   - "vs.debug.remote.overview"
@@ -23,7 +18,7 @@ ms.assetid: 5a94ad64-100d-43ca-9779-16cb5af86f97
 caps.latest.revision: 81
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Remote Debugging
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -299,6 +294,3 @@ You can find the remote debugger (**msvsmon.exe**) on a computer with Visual Stu
  [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md)   
  [Remote Debugging ASP.NET on a Remote IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md)  
  [Remote Debugging Errors and Troubleshooting](../debugger/remote-debugging-errors-and-troubleshooting.md)
-
-
-

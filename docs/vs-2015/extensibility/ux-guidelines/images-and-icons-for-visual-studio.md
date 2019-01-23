@@ -1,18 +1,13 @@
 ---
 title: "Images and Icons"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 ms.assetid: f410325e-9cf2-4f39-b6d7-b672121c2691
 caps.latest.revision: 12
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Images and Icons for Visual Studio
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]

@@ -1,12 +1,9 @@
 ---
 title: "Validate data in datasets | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 f1_keywords: 
   - "DataTable.ColumnChanging"
   - "System.Data.DataTable.ColumnChanging"
@@ -26,7 +23,7 @@ ms.assetid: 79500596-1e4d-478e-a991-a636fd73a622
 caps.latest.revision: 27
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Validate data in datasets
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -211,9 +208,7 @@ Validating data is the process of confirming that the values being entered into 
      [!code-csharp[VbRaddataEditing#22](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataEditing/CS/Form1.cs#22)]
      [!code-vb[VbRaddataEditing#22](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataEditing/VB/Form1.vb#22)]  
   
-## See Also  
- [Creating and Editing Typed Datasets](../data-tools/creating-and-editing-typed-datasets.md)   
- [How to: Connect to Data in a Database](../data-tools/how-to-connect-to-data-in-a-database.md)   
- [How to: Validate Data in the Windows Forms DataGridView Control](http://msdn.microsoft.com/library/d10aef35-701e-4a3c-a684-2a2ed1aeaca6)   
- [How to: Display Error Icons for Form Validation with the Windows Forms ErrorProvider Component](http://msdn.microsoft.com/library/3b681a32-9db4-497b-a34b-34980eabee46)
+## See also
 
+- [How to: Validate Data in the Windows Forms DataGridView Control](http://msdn.microsoft.com/library/d10aef35-701e-4a3c-a684-2a2ed1aeaca6)   
+- [How to: Display Error Icons for Form Validation with the Windows Forms ErrorProvider Component](http://msdn.microsoft.com/library/3b681a32-9db4-497b-a34b-34980eabee46)

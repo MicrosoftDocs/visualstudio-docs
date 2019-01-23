@@ -1,14 +1,9 @@
 ---
 title: "Commands | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 helpviewer_keywords:
   - "Visual Studio, commands"
   - "commands, Visual Studio"
@@ -17,7 +12,7 @@ ms.assetid: 76ffa394-ee89-4629-aba9-1a62b72e6cc1
 caps.latest.revision: 23
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Visual Studio Commands
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]

@@ -3,12 +3,8 @@ title: "How to: Specify Where Visual Studio 2015 Copies Files | Microsoft Docs"
 titleSuffix: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs:
   - "VB"
   - "CSharp"
@@ -20,7 +16,7 @@ ms.assetid: 6c552700-dda3-49fe-af98-4717344fda07
 caps.latest.revision: 14
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # How to: Specify Where Visual Studio Copies the Files
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

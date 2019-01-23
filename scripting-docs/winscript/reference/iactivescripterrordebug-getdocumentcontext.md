@@ -24,7 +24,7 @@ Provides the document context for this error.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetDocumentContext(  
    IDebugDocumentContext**  ppssc  
 );  

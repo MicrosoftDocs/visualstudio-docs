@@ -1,20 +1,15 @@
 ---
 title: "Using Code Coverage to Determine How Much Code is being Tested | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 helpviewer_keywords: 
   - "code coverage"
 ms.assetid: 800fc739-acd2-4242-84cb-1d83b4d82cf9
 caps.latest.revision: 38
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Using Code Coverage to Determine How Much Code is being Tested
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -286,6 +281,3 @@ ExcludeSourceFromCodeCoverage(Exclusion4, L"*\\unittest1.cpp");
  [Customizing Code Coverage Analysis](../test/customizing-code-coverage-analysis.md)   
  [Troubleshooting Code Coverage](../test/troubleshooting-code-coverage.md)   
  [Unit Test Your Code](../test/unit-test-your-code.md)
-
-
-

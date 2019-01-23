@@ -1,8 +1,6 @@
 ---
 title: "Call Tree View - Instrumentation Data | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Call Tree view"

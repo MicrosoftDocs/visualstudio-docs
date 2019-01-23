@@ -1,14 +1,9 @@
 ---
 title: "CA1700: Do not name enum values &#39;Reserved&#39; | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "CA1700"
   - "DoNotNameEnumValuesReserved"
@@ -63,6 +58,3 @@ manager: "wpickett"
  [CA1008: Enums should have zero value](../code-quality/ca1008-enums-should-have-zero-value.md)
 
  [CA1027: Mark enums with FlagsAttribute](../code-quality/ca1027-mark-enums-with-flagsattribute.md)
-
-
-

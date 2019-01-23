@@ -2,7 +2,6 @@
 title: "Find out if my pointers corrupt a memory address | Microsoft Docs"
 ms.custom: "seodec18"
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"

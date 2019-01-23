@@ -2,7 +2,6 @@
 title: "Find out who is passing a wrong parameter value | Microsoft Docs"
 ms.custom: "seodec18"
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.parameters"

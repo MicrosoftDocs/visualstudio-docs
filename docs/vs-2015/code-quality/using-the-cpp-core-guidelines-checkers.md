@@ -1,16 +1,14 @@
 ---
 title: "Using the C++ Core Guidelines checkers | Microsoft Docs"
-ms.custom: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-code-analysis
 ms.date: 11/15/2016
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: conceptual
 ms.assetid: a2098fd9-8334-4e95-9b8d-bc3da689d9e3
 caps.latest.revision: 11
 author: mikeblome
 ms.author: mblome
-manager: "ghogen"
+manager: jillfra
 ---
 # Using the C++ Core Guidelines checkers
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -101,6 +99,3 @@ int main()
   
 ## Use the Guideline Support Library  
  The Microsoft.CppCoreCheck NuGet package also installs a package that contains Microsoft’s implementation of the Guideline Support Library (GSL). The GSL is also available in standalone form at [http://www.nuget.org/packages/Microsoft.Gsl](http://www.nuget.org/packages/Microsoft.Gsl). This library is helpful if you want to follow the Core Guidelines. The GSL includes definitions that let you replace error-prone constructs with safer alternatives. For example, you can replace a `T*, length` pair of parameters with the `span<T>` type. The GSL is open source, so if you want to take a look at the library sources, comment, or contribute, the project can be found at [https://github.com/Microsoft/GSL](https://github.com/Microsoft/GSL).
-
-
-

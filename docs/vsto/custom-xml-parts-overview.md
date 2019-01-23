@@ -1,9 +1,6 @@
 ---
 title: "Custom XML parts overview"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -21,8 +18,8 @@ helpviewer_keywords:
   - "Word [Office development in Visual Studio], custom XML parts"
   - "Excel [Office development in Visual Studio], custom XML parts"
   - "documents [Office development in Visual Studio], custom XML parts"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"

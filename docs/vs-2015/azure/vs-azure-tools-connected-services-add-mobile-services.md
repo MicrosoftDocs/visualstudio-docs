@@ -3,7 +3,7 @@ title: Adding Mobile Services by using Connected Services
 description: Add Mobile Services by using the Visual Studio Add Connected Services dialog box
 documentationcenter: na
 author: ghogen
-manager: douge
+manager: jillfra
 ms.assetid: 75c3cb93-88e1-476d-a416-f34caa3608e3
 ms.topic: conceptual
 ms.workload: azure-vs
@@ -43,7 +43,7 @@ You can use the Connected Services dialog to connect to Azure Mobile Services in
 
     To create a new mobile service account:
 
-   1. choose the **Create Service **link at the bottom of the dialog box.
+   1. Choose the **Create Service** link at the bottom of the dialog box.
        ![Add new mobile connected service](./media/vs-azure-tools-connected-services-add-mobile-services/IC797637.png)
    2. On the **Create Mobile Service** dialog box, you can choose a JavaScript backend mobile service, or a .NET backend mobile service from the **Runtime** drop-down list.
 

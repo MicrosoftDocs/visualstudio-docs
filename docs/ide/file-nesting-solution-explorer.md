@@ -3,7 +3,6 @@ title: File nesting rules for Solution Explorer
 ms.date: 05/25/2018
 ms.topic: conceptual
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 helpviewer_keywords:
  - "file nesting"
  - "Solution Explorer, file nesting"
@@ -126,7 +125,7 @@ You can manage all settings, including your own custom settings, through the sam
 
 ## Create solution-specific and project-specific settings
 
-You can create solution-specific and project-specific settings through the context menu of each solution and project:
+You can create solution-specific and project-specific settings through the right-click menu (context menu) of each solution and project:
 
 ![Solution and project-specific nesting rules](media/filenesting_solutionprojectspecific.png)
 

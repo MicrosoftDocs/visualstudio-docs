@@ -1,18 +1,13 @@
 ---
 title: "Application Patterns"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 ms.assetid: 8ed68602-4e28-46fe-b39f-f41979b308a2
 caps.latest.revision: 8
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Application Patterns for Visual Studio
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]

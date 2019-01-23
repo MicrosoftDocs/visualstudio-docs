@@ -3,12 +3,8 @@ title: "Uninstall Visual Studio 2015 | Microsoft Docs"
 titleSuffix: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-install"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-install"
+ms.topic: conceptual
 f1_keywords:
   - "uninstalling"
   - "uninstalling visual studio"
@@ -18,7 +14,7 @@ ms.assetid: 0e445255-b796-426d-ad93-a4d8e36da2c5
 caps.latest.revision: 9
 author: TerryGLee
 ms.author: tglee
-manager: "ghogen"
+manager: jillfra
 ---
 # Uninstall Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

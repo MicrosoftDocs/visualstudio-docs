@@ -1,9 +1,7 @@
 ---
 title: "Talk to us"
-ms.custom: ""
 ms.date: 10/09/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:

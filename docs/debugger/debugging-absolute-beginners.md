@@ -1,9 +1,7 @@
 ---
 title: "Debugging code for absolute beginners"
 description: "If you are debugging for the first time, learn a few principles to help you run your app in debugging mode with Visual Studio"
-ms.custom: ""
 ms.date: "07/06/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "tutorial"
 helpviewer_keywords:
   - "debugger"
@@ -60,9 +58,9 @@ When you normally run an app, you see errors and incorrect results only after th
 
 Running an app within a debugger, also called *debugging mode*, means that the debugger actively monitors everything that’s happening as the program runs. It also allows you to pause the app at any point to examine its state, and to then step through your code line by line to watch every detail as it happens.
 
-In Visual Studio, you enter debugging mode by using **F5** (or the **Debug** > **Start Debugging** menu command or the **Start Debugging** button ![Start Debugging](../debugger/media/dbg-tour-start-debugging.png "Start Debugging") in the Debug Toolbar). If any exceptions occur, Visual Studio’s Exception Helper takes you to the exact point where the exception occurred and provides other helpful information.
+In Visual Studio, you enter debugging mode by using **F5** (or the **Debug** > **Start Debugging** menu command or the **Start Debugging** button ![Start Debugging](../debugger/media/dbg-tour-start-debugging.png "Start Debugging") in the Debug Toolbar). If any exceptions occur, Visual Studio’s Exception Helper takes you to the exact point where the exception occurred and provides other helpful information. For more information on how to handle exceptions in your code, see [Fix bugs by writing better C# code](../debugger/write-better-code-with-visual-studio.md).
 
-If you didn't get an exception, you probably have a good idea where to look for the problem in your code. This where you use *breakpoints* with the debugger to give yourself a chance to examine your code more carefully. Breakpoints are the most basic and essential feature of reliable debugging. A breakpoint indicates where Visual Studio should pause your running code so you can take a look at the values of variables, or the behavior of memory, or the sequence in which code runs.
+If you didn't get an exception, you probably have a good idea where to look for the problem in your code. This is where you use *breakpoints* with the debugger to give yourself a chance to examine your code more carefully. Breakpoints are the most basic and essential feature of reliable debugging. A breakpoint indicates where Visual Studio should pause your running code so you can take a look at the values of variables, or the behavior of memory, or the sequence in which code runs.
 
 In Visual Studio, you can quickly set a breakpoint by clicking in the left margin next to a line of code. Or place the cursor on a line and press **F9**.
 
@@ -326,4 +324,4 @@ When you find the region of code with the problem, use the debugger to investiga
 In this article, you've learned a few general debugging concepts. Next, you can start learning more about the debugger.
 
 > [!div class="nextstepaction"]
-> [Learn to debug using Visual Studio](../debugger/getting-started-with-the-debugger.md)
+> [First look at the debugger](../debugger/debugger-feature-tour.md)

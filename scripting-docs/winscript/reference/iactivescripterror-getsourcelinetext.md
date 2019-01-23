@@ -24,7 +24,7 @@ Retrieves the line in the source file where an error occurred while a scripting 
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetSourceLineText(  
     BSTR *pbstrSourceLine  // address of buffer for source line  
 );  

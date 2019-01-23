@@ -1,14 +1,9 @@
 ---
 title: "CA2141:Transparent methods must not satisfy LinkDemands | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "CA2141"
 ms.assetid: 2957f5f7-c511-4180-ba80-752034f10a77
@@ -45,6 +40,3 @@ manager: "wpickett"
  In this example, a transparent method attempts to call a method that has a LinkDemand. This rule will fire on this code.
 
  [!code-csharp[FxCop.Security.CA2141.TransparentMethodsMustNotSatisfyLinkDemands#1](../snippets/csharp/VS_Snippets_CodeAnalysis/fxcop.security.ca2141.transparentmethodsmustnotsatisfylinkdemands/cs/ca2141 - transparentmethodsmustnotsatisfylinkdemands.cs#1)]
-
-
-

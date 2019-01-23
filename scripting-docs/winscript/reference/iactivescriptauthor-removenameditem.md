@@ -24,7 +24,7 @@ Removes a `NamedItem` object from the namespace of the script authoring engine.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT RemoveNamedItem(  
    LPCOLESTR          pszName  
 );  

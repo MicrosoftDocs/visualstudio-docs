@@ -1,9 +1,6 @@
 ---
 title: "Walkthrough: Call code in a VSTO Add-in from VBA"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -154,5 +151,3 @@ ms.workload:
  [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md)   
  [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md)   
  [Customize UI features by using extensibility interfaces](../vsto/customizing-ui-features-by-using-extensibility-interfaces.md)  
-  
-  

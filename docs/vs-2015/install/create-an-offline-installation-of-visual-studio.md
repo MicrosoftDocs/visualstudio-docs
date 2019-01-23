@@ -1,14 +1,9 @@
 ---
 title: "Create an Offline Installation | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-install"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-install"
+ms.topic: conceptual
 f1_keywords:
   - "offline installation"
   - "offline install"
@@ -17,7 +12,7 @@ ms.assetid: 85d65709-42be-449f-9663-914bf1045089
 caps.latest.revision: 22
 author: TerryGLee
 ms.author: tglee
-manager: "ghogen"
+manager: jillfra
 ---
 # Create an Offline Installation of Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

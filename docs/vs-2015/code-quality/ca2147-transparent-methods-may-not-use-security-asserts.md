@@ -1,14 +1,9 @@
 ---
 title: "CA2147: Transparent methods may not use security asserts | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "SecurityTransparentCodeShouldNotAssert"
   - "CA2147"
@@ -64,6 +59,3 @@ manager: "wpickett"
 
 ## See Also
  [Security Warnings](../code-quality/security-warnings.md)
-
-
-

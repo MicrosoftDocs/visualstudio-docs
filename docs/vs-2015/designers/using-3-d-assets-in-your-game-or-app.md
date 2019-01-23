@@ -1,14 +1,9 @@
 ---
 title: "Using 3-D Assets in Your Game or App | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 f1_keywords: 
   - "VC.Project.ImageContentTask.ContentOutput"
   - "VC.Project.MeshContentTask.ContentOutput"
@@ -20,7 +15,7 @@ ms.assetid: ea587909-e434-46a8-abf8-9b3e95a58b4f
 caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Using 3-D Assets in Your Game or App
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -206,6 +201,3 @@ cbuffer MiscVars : register(b3)
 |[How to: Export a Texture for Use with Direct2D or Javascipt Apps](../designers/how-to-export-a-texture-for-use-with-direct2d-or-javascipt-apps.md)|Describes how to use the Image Content Pipeline to export a texture that can be used in a Direct2D or JavaScript app.|  
 |[Working with 3-D Assets for Games and Apps](../designers/working-with-3-d-assets-for-games-and-apps.md)|Describes the editing tools that Visual Studio provides for creating and manipulating 3-D assets, which include textures and images, 3-D models, and shaders.|  
 |[How to: Export a Shader](../designers/how-to-export-a-shader.md)|Describes how to export a shader from the Shader Designer.|
-
-
-

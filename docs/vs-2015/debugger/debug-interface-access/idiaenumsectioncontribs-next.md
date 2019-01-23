@@ -1,14 +1,9 @@
 ---
 title: "IDiaEnumSectionContribs::Next | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ ms.assetid: a6bb2adb-ee6d-4f3c-ab5b-e89361c8880e
 caps.latest.revision: 10
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # IDiaEnumSectionContribs::Next
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -50,6 +45,3 @@ HRESULT Next( 
 ## See Also  
  [IDiaEnumSectionContribs](../../debugger/debug-interface-access/idiaenumsectioncontribs.md)   
  [IDiaSectionContrib](../../debugger/debug-interface-access/idiasectioncontrib.md)
-
-
-

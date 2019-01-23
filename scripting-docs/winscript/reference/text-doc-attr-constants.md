@@ -24,7 +24,7 @@ Describe the attributes of the document.
   
 ## Syntax  
   
-```  
+```cpp
 typedef DWORD TEXT_DOC_ATTR;  
 ```  
   

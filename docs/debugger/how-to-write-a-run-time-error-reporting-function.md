@@ -2,7 +2,6 @@
 title: "Write a run-time error reporting function | Microsoft Docs"
 ms.custom: "seodec18"
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
@@ -20,7 +19,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Write a Run-Time Error Reporting Function
+# How to: Write a Run-Time Error Reporting Function (C++)
 A custom reporting function for run-time errors must have the same declaration as `_CrtDbgReportW`. It should return a value of 1 to the debugger.  
   
  The following example shows how to define a custom reporting function.  

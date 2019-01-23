@@ -24,7 +24,7 @@ Returns the name of the event associated with the scriptlet.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetEventName(  
    BSTR               *pbstr  
 );  

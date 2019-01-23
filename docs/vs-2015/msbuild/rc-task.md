@@ -1,14 +1,9 @@
 ---
 title: "RC Task | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: reference
 f1_keywords: 
   - "VC.Project.VCResourceCompilerTool.UndefineProcessorDefinitions"
   - "vc.task.rc"
@@ -27,7 +22,7 @@ ms.assetid: 2fd26c75-a056-4dda-9f7e-2f90d3748d88
 caps.latest.revision: 13
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # RC Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -57,6 +52,3 @@ Wraps the Microsoft Windows Resource Compiler tool, rc.exe. The **RC** task comp
   
 ## See Also  
  [Task Reference](../msbuild/msbuild-task-reference.md)
-
-
-

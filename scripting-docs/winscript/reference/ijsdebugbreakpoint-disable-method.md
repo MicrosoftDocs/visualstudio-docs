@@ -22,7 +22,7 @@ Disables the breakpoint.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Disable(void);  
 ```  
   

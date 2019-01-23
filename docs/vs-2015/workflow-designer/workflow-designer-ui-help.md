@@ -1,11 +1,8 @@
 ---
 title: "Workflow Designer UI Help | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: ".net-framework-4.6"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: "reference"
 helpviewer_keywords: 
   - "Visual Studio 2010 Workflow Designer [WFD], user interface help"
@@ -14,7 +11,7 @@ ms.assetid: f7afc443-7c7f-4b0f-9517-c58070a640de
 caps.latest.revision: 5
 author: gewarren
 ms.author: gewarren
-manager: "erikre"
+manager: jillfra
 ---
 # Workflow Designer UI Help
 This section contains the context-sensitive Help topics for [!INCLUDE[wfd1](../includes/wfd1-md.md)]. When working in [!INCLUDE[vs2010](../includes/vs2010-md.md)], you can access these topics from the user interface by pressing **F1** when a [!INCLUDE[wfd2](../includes/wfd2-md.md)] dialog box is open.  

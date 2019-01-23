@@ -1,14 +1,9 @@
 ---
 title: "Creating ClickOnce Applications for Others to Deploy | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -29,7 +24,7 @@ ms.assetid: d20766c7-4ef3-45ab-8aa0-3f15b61eccaa
 caps.latest.revision: 12
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # Creating ClickOnce Applications for Others to Deploy
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -58,7 +53,7 @@ Not all developers who are creating ClickOnce deployments plan to deploy the app
   
  Using a self-signed certificate for the deployment manifest presents several advantages. By eliminating the need for the customer to obtain or create their own Authenticode certificate, `<useManifestForTrust>` simplifies deployment for the customer, while allowing the developer to maintain their own branding identity on the application. The result is a set of signed deployments that are more secure and have unique application identities. This eliminates the potential conflict that may occur from deploying the same application to multiple customers.  
   
- For step-by-step information about how to create a ClickOnce deployment with `<useManifestForTrust>` enabled, see [Walkthrough: Manually Deploying a ClickOnce Application that Does Not Require Re-Signing and that Preserves Branding Information](../deployment/walkthrough-manually-deploying-a-clickonce-application-that-does-not-require-re-signing-and-that-preserves-branding-information.md).  
+ For step-by-step information about how to create a ClickOnce deployment with `<useManifestForTrust>` enabled, see [Walkthrough: Manually Deploying a ClickOnce Application that Does Not Require Re-Signing and that Preserves Branding Information](/visualstudio/deployment/walkthrough-manually-deploying-a-clickonce-app-no-re-signing-required?view=vs-2015).  
   
 ### How Application Manifest for Trust Works at Runtime  
  To get a better understanding of how using the application manifest for trust works at runtime, consider the following example. A ClickOnce application that targets the .NET Framework 3.5 is created by Microsoft. The application manifest uses the `<useManifestForTrust>` element and is signed by Microsoft. Adventure Works signs the deployment manifest by using a self-signed certificate. Adventure Works clients are configured to trust any application signed by Microsoft.  
@@ -102,7 +97,4 @@ Not all developers who are creating ClickOnce deployments plan to deploy the app
 ## See Also  
  [Deploying ClickOnce Applications For Testing and Production Servers without Resigning](../deployment/deploying-clickonce-applications-for-testing-and-production-servers-without-resigning.md)   
  [Walkthrough: Manually Deploying a ClickOnce Application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md)   
- [Walkthrough: Manually Deploying a ClickOnce Application that Does Not Require Re-Signing and that Preserves Branding Information](../deployment/walkthrough-manually-deploying-a-clickonce-application-that-does-not-require-re-signing-and-that-preserves-branding-information.md)
-
-
-
+ [Walkthrough: Manually Deploying a ClickOnce Application that Does Not Require Re-Signing and that Preserves Branding Information](/visualstudio/deployment/walkthrough-manually-deploying-a-clickonce-app-no-re-signing-required?view=vs-2015)

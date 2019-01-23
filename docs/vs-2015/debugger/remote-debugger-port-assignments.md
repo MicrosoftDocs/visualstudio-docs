@@ -1,19 +1,14 @@
 ---
 title: "Remote Debugger Port Assignments | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 ms.assetid: 238bb4ec-bb00-4c2b-986e-18ac278f3959
 caps.latest.revision: 8
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Remote Debugger Port Assignments
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -59,6 +54,3 @@ The Visual Studio Remote Debugger can run as an application or as a background s
   
 ## See Also  
  [Remote Debugging](../debugger/remote-debugging.md)
-
-
-

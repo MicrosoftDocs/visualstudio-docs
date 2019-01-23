@@ -1,14 +1,9 @@
 ---
 title: "IDebugProgram2::GetMemoryBytes | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugProgram2::GetMemoryBytes"
 helpviewer_keywords: 
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 1cdedb47-caf8-468e-aaf4-163f16afb403
 caps.latest.revision: 11
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # IDebugProgram2::GetMemoryBytes
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -50,4 +45,3 @@ int GetMemoryBytes( 
 ## See Also  
  [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)   
  [IDebugMemoryBytes2](../../../extensibility/debugger/reference/idebugmemorybytes2.md)
-

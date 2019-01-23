@@ -1,14 +1,9 @@
 ---
 title: "BP_CONDITION | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "BP_CONDITION"
 helpviewer_keywords: 
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 407f87a3-2878-429b-8c65-b68feb36622a
 caps.latest.revision: 11
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # BP_CONDITION
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -81,4 +76,3 @@ public struct BP_CONDITION { 
  [SetCondition](../../../extensibility/debugger/reference/idebugpendingbreakpoint2-setcondition.md)   
  [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)   
  [BP_COND_STYLE](../../../extensibility/debugger/reference/bp-cond-style.md)
-

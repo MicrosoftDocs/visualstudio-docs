@@ -1,8 +1,6 @@
 ---
 title: "Using saved IntelliTrace data | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.historicaldebug.norepro"
@@ -18,7 +16,8 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Using saved IntelliTrace data
+# Using saved IntelliTrace data (C#, Visual Basic, C++)
+
 Go to specific points in your application's execution when you start debugging from an IntelliTrace log (.iTrace) file. This file can contain performance events, exceptions, threads, test steps, modules, and other system info that IntelliTrace records while your app runs.
 
  Make sure that you have:
@@ -252,7 +251,7 @@ Go to specific points in your application's execution when you start debugging f
 |----------------|-------------------|
 |**Module Name**|Module file name|
 |**Module Path**|Disk location where the module was loaded|
-|**Module ID**|Unique identifier of the module that is version-specific and contributes to the matching symbol (PDB) files. See [Finding symbol (.pdb) files and source files](/visualstudio/debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger).|
+|**Module ID**|Unique identifier of the module that is version-specific and contributes to the matching symbol (PDB) files. See [Finding symbol (.pdb) files and source files](specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).|
 
 ### Where can I get more information?
  [Using the IntelliTrace stand-alone collector](../debugger/using-the-intellitrace-stand-alone-collector.md)

@@ -1,14 +1,9 @@
 ---
 title: "Template Reference | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 helpviewer_keywords:
   - "Visual Studio templates, reference"
   - "reference, Visual Studio templates"
@@ -16,7 +11,7 @@ ms.assetid: 5ebdd6c4-5d3e-448c-b47d-f62ec5f44d51
 caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Visual Studio Template Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

@@ -11,11 +11,10 @@ manager: douge
 ms.workload:
   - "multiple"
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Add commands and gestures to dependency diagrams
 
-You can define context menu commands and gesture handlers on dependency diagrams in Visual Studio. You can package these extensions into a Visual Studio Integration Extension (VSIX) that you can distribute to other Visual Studio users.
+You can define right-click menu commands and gesture handlers on dependency diagrams in Visual Studio. You can package these extensions into a Visual Studio Integration Extension (VSIX) that you can distribute to other Visual Studio users.
 
 You can define several command and gesture handlers in the same Visual Studio project if you want. You can also combine several such projects into one VSIX. For example, you could define a single VSIX that includes layer commands, and a domain-specific language.
 

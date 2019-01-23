@@ -1,14 +1,9 @@
 ---
 title: "Globalization Warnings | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 f1_keywords: 
   - "vs.codeanalysis.globalizationrules"
 helpviewer_keywords: 
@@ -42,6 +37,3 @@ Globalization warnings support world-ready libraries and applications.
 |[CA1308: Normalize strings to uppercase](../code-quality/ca1308-normalize-strings-to-uppercase.md)|Strings should be normalized to uppercase. A small group of characters cannot make a round trip when they are converted to lowercase.|  
 |[CA1309: Use ordinal StringComparison](../code-quality/ca1309-use-ordinal-stringcomparison.md)|A string comparison operation that is nonlinguistic does not set the StringComparison parameter to either Ordinal or OrdinalIgnoreCase. By explicitly setting the parameter to either StringComparison.Ordinal or StringComparison.OrdinalIgnoreCase, your code often gains speed, becomes more correct, and becomes more reliable.|  
 |[CA2101: Specify marshaling for P/Invoke string arguments](../code-quality/ca2101-specify-marshaling-for-p-invoke-string-arguments.md)|A platform invoke member allows for partially trusted callers, has a string parameter, and does not explicitly marshal the string. This can cause a potential security vulnerability.|
-
-
-

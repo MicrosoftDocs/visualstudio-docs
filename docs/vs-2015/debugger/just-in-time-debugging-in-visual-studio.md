@@ -1,14 +1,9 @@
 ---
 title: "Just-In-Time Debugging"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs:
   - "C++"
   - "CSharp"
@@ -20,7 +15,7 @@ ms.assetid: 14972d5f-69bc-479b-9529-03b8787b118f
 caps.latest.revision: 51
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Just-In-Time Debugging in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -199,4 +194,4 @@ static void Main(string[] args)
  [Debugger Security](../debugger/debugger-security.md)
  [Debugger Basics](../debugger/debugger-basics.md)
  [Just-In-Time, Debugging, Options Dialog Box](../debugger/just-in-time-debugging-options-dialog-box.md)
- [Security Warning: Attaching to a process owned by an untrusted user can be dangerous. If the following information looks suspicious or you are unsure, do not attach to this process](../debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user-can-be-dangerous-if-the-following-information-looks-suspicious-or-you-are-unsure-do-not-attach-to-this-process.md)
+ [Security Warning: Attaching to a process owned by an untrusted user can be dangerous. If the following information looks suspicious or you are unsure, do not attach to this process](/visualstudio/debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user?view=vs-2015)

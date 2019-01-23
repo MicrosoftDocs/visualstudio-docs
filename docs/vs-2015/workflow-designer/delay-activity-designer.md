@@ -1,11 +1,8 @@
 ---
 title: "Delay Activity Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: ".net-framework-4.6"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: "reference"
 f1_keywords: 
   - "System.Activities.Statements.Delay.UI"
@@ -13,7 +10,7 @@ ms.assetid: f51742a8-2c9a-47d1-8a23-18459d03ae19
 caps.latest.revision: 8
 author: gewarren
 ms.author: gewarren
-manager: "erikre"
+manager: jillfra
 ---
 # Delay Activity Designer
 The **Delay** activity designer is used to create and configure a <xref:System.Activities.Statements.Delay> activity.  

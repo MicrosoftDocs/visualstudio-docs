@@ -1,18 +1,13 @@
 ---
 title: "Composite Patterns"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 ms.assetid: e48ecfb2-f4b5-4d3a-b4a2-7a4d62fa4ec0
 caps.latest.revision: 9
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Composite Patterns for Visual Studio
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]

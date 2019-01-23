@@ -1,14 +1,9 @@
 ---
 title: "Quick Launch, Environment, Options Dialog Box | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "VS.ToolsOptionsPages.Environment.QuickLaunch"
   - "vs.quicklaunch"
@@ -19,7 +14,7 @@ ms.assetid: 4200f297-d065-4723-9a30-d91ff2e26c9d
 caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Quick Launch, Environment, Options Dialog Box
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -52,6 +47,3 @@ You can use **Quick Launch** to quickly search and execute actions for IDE asset
 ## See Also  
  [General User Interface Elements (Visual Studio)](../../ide/reference/general-user-interface-elements-visual-studio.md)   
  [Environment Options Dialog Box](../../ide/reference/environment-options-dialog-box.md)
-
-
-

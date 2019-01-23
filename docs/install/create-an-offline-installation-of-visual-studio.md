@@ -1,9 +1,7 @@
 ---
 title: "Create an offline installation"
 description: "Learn how to install Visual Studio offline when you have an unreliable internet connection or low bandwidth."
-ms.custom: ""
-ms.date: 08/28/2018
-ms.technology: vs-acquisition
+ms.date: 01/15/2019
 ms.custom: "seodec18"
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
@@ -61,6 +59,9 @@ You must have an internet connection to complete this step.
 
 Open a command prompt and use one of the commands from the following examples. The examples that are listed here assume that you're using the Community edition of Visual Studio; adjust the command as appropriate for your edition.
 
+> [!TIP]
+> To prevent an error, make sure that your full installation path is less than 80 characters.
+
 - For .NET web and .NET desktop development, run:
 
    ```vs_community.exe --layout c:\vs2017layout --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetWeb --add Component.GitHub.VisualStudio --includeOptional --lang en-US```
@@ -77,10 +78,10 @@ Open a command prompt and use one of the commands from the following examples. T
 
    ```vs_community.exe --layout c:\vs2017layout --lang en-US```
 
-If you want to install a language other than English, change `en-US` to a locale from the [List of language locales](#list-of-language-locales). Then, use the [list of the components and workloads available](workload-and-component-ids.md) to further customize your installation cache.
+  > [!NOTE]
+  > A complete Visual Studio 2017 layout requires at least 35 GB of disk space. See [Use command-line parameters to install Visual Studio 2017](use-command-line-parameters-to-install-visual-studio.md) for information about how to create a layout with only the components you want to install.
 
-> [!IMPORTANT]
-> A complete Visual Studio 2017 layout requires at least 35 GB of disk space and can take some time to download. See [Use command-line parameters to install Visual Studio 2017](use-command-line-parameters-to-install-visual-studio.md) for information on how to create a layout with only the components you want to install.
+If you want to install a language other than English, change `en-US` to a locale from the [List of language locales](#list-of-language-locales). Then, use the [list of the components and workloads available](workload-and-component-ids.md) to further customize your installation cache.
 
 ### Step 3 - Install Visual Studio from the local cache
 

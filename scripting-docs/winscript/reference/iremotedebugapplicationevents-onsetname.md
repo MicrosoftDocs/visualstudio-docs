@@ -24,7 +24,7 @@ Handles a set name event.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT OnSetName(  
    LPCOLESTR  pstrName  
 );  

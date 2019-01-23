@@ -3,19 +3,15 @@ title: "How to: Upgrade Visual C++ Projects to Visual Studio 2015 | Microsoft Do
 titleSuffix: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords:
   - "projects [C++], upgrading"
 ms.assetid: 9a283ebb-f6d8-49c0-a73e-323979ff56a2
 caps.latest.revision: 26
 author: "mikeblome"
 ms.author: "mblome"
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Upgrade Visual C++ Projects to Visual Studio 2015
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

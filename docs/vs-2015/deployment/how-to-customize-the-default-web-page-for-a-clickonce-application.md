@@ -1,14 +1,9 @@
 ---
 title: "How to: Customize the Default Web Page for a ClickOnce Application | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -22,7 +17,7 @@ ms.assetid: 418de18c-bee9-4f24-9cd9-0252d175070d
 caps.latest.revision: 16
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # How to: Customize the Default Web Page for a ClickOnce Application
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -54,6 +49,3 @@ When publishing a ClickOnce application to the Web, a Web page is automatically 
  [Publishing ClickOnce Applications](../deployment/publishing-clickonce-applications.md)   
  [How to: Install Prerequisites with a ClickOnce Application](../deployment/how-to-install-prerequisites-with-a-clickonce-application.md)   
  [How to: Specify a Publish Page for a ClickOnce Application](../deployment/how-to-specify-a-publish-page-for-a-clickonce-application.md)
-
-
-

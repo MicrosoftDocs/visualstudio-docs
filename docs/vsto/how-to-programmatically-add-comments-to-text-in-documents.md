@@ -1,9 +1,6 @@
 ---
 title: "How to: Programmatically add comments to text in documents"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -11,8 +8,8 @@ dev_langs:
 helpviewer_keywords: 
   - "comments, adding to documents"
   - "documents [Office development in Visual Studio], adding comments"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -46,5 +43,3 @@ ms.workload:
 ## See also  
  [How to: Programmatically remove all comments from documents](../vsto/how-to-programmatically-remove-all-comments-from-documents.md)   
  [Document host item](../vsto/document-host-item.md)  
-  
-  

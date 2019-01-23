@@ -1,14 +1,9 @@
 ---
 title: "Deploy Windows Store apps"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs:
   - "FSharp"
   - "VB"
@@ -18,7 +13,7 @@ ms.assetid: ef3a0f36-bfc9-4ca0-aa61-18261f619bff
 caps.latest.revision: 17
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Deploy Windows Store apps from Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

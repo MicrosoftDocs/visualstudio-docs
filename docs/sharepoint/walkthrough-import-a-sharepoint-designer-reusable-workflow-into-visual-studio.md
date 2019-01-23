@@ -1,15 +1,10 @@
 ---
 title: "Walkthrough: Import a SharePoint Designer Reusable Workflow into Visual Studio | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VS.SharePointTools.WSPImport.ImportWF"
 dev_langs: 
-  - "VB"
-  - "CSharp"
   - "VB"
   - "CSharp"
 helpviewer_keywords: 
@@ -263,4 +258,3 @@ ms.workload:
  [Import items from an existing SharePoint site](../sharepoint/importing-items-from-an-existing-sharepoint-site.md)   
  [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)   
  [Create reusable controls for web parts or application pages](../sharepoint/creating-reusable-controls-for-web-parts-or-application-pages.md)  
-  

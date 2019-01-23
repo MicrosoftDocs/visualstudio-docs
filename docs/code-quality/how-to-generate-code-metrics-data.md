@@ -2,7 +2,6 @@
 title: Generate code metrics from the IDE or command line
 ms.date: 11/02/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "code metrics data"
@@ -62,7 +61,7 @@ To generate the executable *Metrics.exe*, follow these steps:
    msbuild /m /v:m /p:Configuration=Release Metrics.csproj
    ```
 
-   An executable named *Metrics.exe* is generated in the *Binaries* directory under the repo root.
+   An executable named *Metrics.exe* is generated in the *artifacts\bin* directory under the repo root.
 
    > [!TIP]
    > To build *Metrics.exe* in [legacy mode](#legacy-mode), execute the following command:

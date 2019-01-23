@@ -1,9 +1,6 @@
 ---
 title: "How to: Programmatically count characters in documents"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -12,8 +9,8 @@ helpviewer_keywords:
   - "characters, counting in documents"
   - "counting characters in documents"
   - "documents [Office development in Visual Studio], counting characters"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -52,5 +49,3 @@ ms.workload:
 ## See also  
  [How to: Programmatically retrieve start and end characters in ranges](../vsto/how-to-programmatically-retrieve-start-and-end-characters-in-ranges.md)   
  [How to: Programmatically define and select ranges in documents](../vsto/how-to-programmatically-define-and-select-ranges-in-documents.md)  
-  
-  

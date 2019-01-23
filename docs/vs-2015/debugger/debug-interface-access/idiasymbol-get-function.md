@@ -1,14 +1,9 @@
 ---
 title: "IDiaSymbol::get_function | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ ms.assetid: 48b3a318-3211-410f-8570-c02ee210f0a5
 caps.latest.revision: 11
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # IDiaSymbol::get_function
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -51,6 +46,3 @@ HRESULT get_function ( 
   
 ## See Also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
-
-
-

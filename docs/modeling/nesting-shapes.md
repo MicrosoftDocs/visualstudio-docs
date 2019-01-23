@@ -8,7 +8,6 @@ manager: douge
 ms.workload:
   - "multiple"
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Nesting Shapes
 See [Jean-Marc Prieur's blog](https://blogs.msdn.microsoft.com/jmprieur/2008/09/03/dsl-tools-support-of-nested-shapes-in-visual-studio-2008-sp1/)

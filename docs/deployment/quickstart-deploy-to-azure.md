@@ -1,8 +1,6 @@
 ---
 title: Publish to Azure App Service
-ms.custom: ""
 ms.date: 06/22/2018
-ms.technology: vs-ide-deployment
 ms.topic: "quickstart"
 helpviewer_keywords:
   - "deployment, website"

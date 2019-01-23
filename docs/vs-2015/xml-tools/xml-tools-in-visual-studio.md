@@ -1,14 +1,9 @@
 ---
 title: "XML Tools"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 f1_keywords:
   - "vb.xmldesigner"
 helpviewer_keywords:
@@ -37,7 +32,7 @@ ms.assetid: 1fd5de47-2d61-4180-9539-c2c4bf9ab768
 caps.latest.revision: 29
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # XML Tools in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -62,7 +57,7 @@ Extensible Markup Language (XML)* is a markup language that provides a format fo
  [Microsoft.VisualStudio.XmlEditor](http://go.microsoft.com/fwlink/?LinkID=165699)
  Exposes the [XML Editor](http://go.microsoft.com/fwlink/?LinkId=228249) parse tree through [System.Xml.Linq](http://go.microsoft.com/fwlink/?LinkId=228250) for any XML documents.
 
- [XML Standards Reference](http://msdn.microsoft.com/en-us/79c78508-c9d0-423a-a00f-672e855de401)
+ [XML Standards Reference](http://msdn.microsoft.com/79c78508-c9d0-423a-a00f-672e855de401)
  Provides information about XML technologies, including XML, Document Type Definition (DTD), XML Schema definition language (XSD), and XSLT.
 
  <xref:System.Xml?displayProperty=fullName>
@@ -75,10 +70,10 @@ Extensible Markup Language (XML)* is a markup language that provides a format fo
  [XML Document Object Model (DOM)](http://msdn.microsoft.com/library/b5e52844-4820-47c0-a61d-de2da33e9f54)
  Describes how the <xref:System.Xml.XmlDocument> and its associated classes comply with the W3C Document Object Model (Core) Level 1 and Level 2 namespace support specifications.
 
- [Reading XML with the XmlReader](http://msdn.microsoft.com/en-us/3029834c-a27e-4331-b7aa-711924062182)
+ [Reading XML with the XmlReader](http://msdn.microsoft.com/3029834c-a27e-4331-b7aa-711924062182)
  Describes how the <xref:System.Xml.XmlReader> provides noncached, forward only, read-only access to XML data over an XML stream.
 
- [Writing XML with the XmlWriter](http://msdn.microsoft.com/en-us/ea41f72c-e1d3-4e0a-ab0f-f0eb1c27ab86)
+ [Writing XML with the XmlWriter](http://msdn.microsoft.com/ea41f72c-e1d3-4e0a-ab0f-f0eb1c27ab86)
  Describes how the <xref:System.Xml.XmlWriter> provides noncached, forward only, way of generating XML streams and helps you build XML documents that comply with the W3C standard.
 
  [XSLT Transformations](http://msdn.microsoft.com/library/202f8820-224c-494f-b61e-cd127eac6e03)

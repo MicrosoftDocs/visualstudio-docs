@@ -1,14 +1,9 @@
 ---
 title: "CA1039: Lists are strongly typed | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "CA1039"
   - "ListsAreStronglyTyped"
@@ -75,6 +70,3 @@ manager: "wpickett"
  <xref:System.Collections.IEnumerable?displayProperty=fullName>
  <xref:System.Collections.IList?displayProperty=fullName>
  <xref:System.Object?displayProperty=fullName>
-
-
-

@@ -1,14 +1,9 @@
 ---
 title: "CA1023: Indexers should not be multidimensional | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "IndexersShouldNotBeMultidimensional"
   - "CA1023"
@@ -54,6 +49,3 @@ manager: "wpickett"
  [CA1043: Use integral or string argument for indexers](../code-quality/ca1043-use-integral-or-string-argument-for-indexers.md)
 
  [CA1024: Use properties where appropriate](../code-quality/ca1024-use-properties-where-appropriate.md)
-
-
-

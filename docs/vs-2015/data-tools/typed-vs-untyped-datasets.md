@@ -1,16 +1,14 @@
 ---
 title: "Typed vs. untyped datasets | Microsoft Docs"
-ms.custom: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
 ms.date: 11/15/2016
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: conceptual
 ms.assetid: c83ba0bb-5425-4d47-8891-6b4dbf937701
 caps.latest.revision: 8
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Typed vs. untyped datasets
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,4 +34,3 @@ A typed dataset is a dataset that is first derived from the base <xref:System.Da
  Even though typed datasets have many advantages, an untyped dataset is useful in a variety of circumstances. The most obvious scenario is when no schema is available for the dataset. This might occur, for example, if your application is interacting with a component that returns a dataset, but you do not know in advance what its structure is. Similarly, there are times when you are working with data that does not have a static, predictable structure. In that case, it is impractical to use a typed dataset, because you would have to regenerate the typed dataset class with each change in the data structure.  
   
  More generally, there are many times when you might create a dataset dynamically without having a schema available. In that case, the dataset is simply a convenient structure in which you can keep information, as long as the data can be represented in a relational way. At the same time, you can take advantage of the dataset's capabilities, such as the ability to serialize the information to pass to another process, or to write out an XML file.
-

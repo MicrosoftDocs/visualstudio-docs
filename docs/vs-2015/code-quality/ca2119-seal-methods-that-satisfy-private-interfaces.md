@@ -1,14 +1,9 @@
 ---
 title: "CA2119: Seal methods that satisfy private interfaces | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "SealMethodsThatSatisfyPrivateInterfaces"
   - "CA2119"
@@ -70,6 +65,3 @@ manager: "wpickett"
 ## See Also
  [Interfaces](http://msdn.microsoft.com/library/2feda177-ce11-432d-81b4-d50f5f35fd37)
  [Interfaces](http://msdn.microsoft.com/library/61b06674-12c9-430b-be68-cc67ecee1f5b)
-
-
-

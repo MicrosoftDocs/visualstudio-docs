@@ -1,21 +1,16 @@
 ---
 title: "Adding a Menu to the Menu Bar | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords:
   - "menus, creating top level"
   - "top-level menus"
 ms.assetid: 58fc1a31-2aeb-441c-8e48-c7d5cbcfe501
 caps.latest.revision: 52
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Adding a Menu to the Visual Studio Menu Bar
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

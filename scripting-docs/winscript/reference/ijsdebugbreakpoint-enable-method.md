@@ -22,7 +22,7 @@ Enables the breakpoint.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Enable(void);  
 ```  
   

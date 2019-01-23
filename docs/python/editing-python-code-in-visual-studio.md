@@ -3,7 +3,6 @@ title: Edit Python code
 description: For Python, Visual Studio provides rich IntelliSense, code snippets, and navigation features, alongside formatting, linting, and refactoring.
 ms.date: 11/19/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-python
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
@@ -191,7 +190,7 @@ Python support in Visual Studio provides several means to quickly navigate withi
 
 The navigation bar is displayed at the top of each editor window and includes a two-level list of definitions. The left drop-down contains top-level class and function definitions in the current file; the right drop-down displays a list of definitions within the scope shown in the left. As you move around in the editor, the lists update to show your current context, and you can also select an entry from these lists to jump directly to.
 
-![Navigation Bar] in the Visual Studio editor(media/code-editing-navigation-bar.png)
+![Navigation Bar in the Visual Studio editor](media/code-editing-navigation-bar.png)
 
 > [!Tip]
 > To hide the navigation bar, go to **Tools** > **Options** > **Text Editor** > **Python** > **General** and clear **Settings** > **Navigation bar**.

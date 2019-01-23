@@ -1,9 +1,6 @@
 ---
 title: "How to: Programmatically move worksheets within workbooks"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -42,5 +39,3 @@ ms.workload:
  [How to: Programmatically delete worksheets from workbooks](../vsto/how-to-programmatically-delete-worksheets-from-workbooks.md)   
  [How to: Programmatically protect worksheets](../vsto/how-to-programmatically-protect-worksheets.md)   
  [Global access to objects in Office projects](../vsto/global-access-to-objects-in-office-projects.md)  
-  
-  

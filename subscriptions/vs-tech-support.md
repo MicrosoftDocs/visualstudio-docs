@@ -3,7 +3,7 @@ title: Technical Support Benefit
 author: evanwindom
 ms.author: jaunger
 manager: evelynp
-ms.date: 10/03/2017
+ms.date: 12/19/2018
 ms.topic: Get-Started-Article
 description: Learn how to activate the technical support benefit included with your Visual Studio subscription.
 ms.prod: vs-subscription
@@ -79,23 +79,25 @@ Please ensure you have your Contract ID and Access ID available when you call.
 To use your Visual Studio subscription technical support benefit for issues relating to Azure, you will need to link your Contract ID and Access ID to your Azure subscription.
 
 1.	Visit https://portal.azure.com and sign in
-2.	From the left-hand navigation click “Help + Support”
-3.	Under “Support” click “Link support contract”
-4.	Enter the provide “Access ID” and “Contract ID” provided in #1 above.
-
-Once you've completed these steps, you'll be able to select the support plan associated with your Visual Studio subscription benefit.  (The name of the plan may contain "MSDN".)
+2.	From the left-hand navigation click **Help + Support**
+3.	Under “Support” click **New Support Request**
 
 ## Eligibility
 
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
-| Visual Studio Enterprise (Standard, annual cloud)   | VL, Azure, Retail, selected NFR<sup>1</sup> | 4 incidents       |  Yes|
-| Visual Studio Professional (Standard, annual cloud) | VL, Azure, Retail, selected NFR<sup>2</sup>                                        | 2 incidents                                                          |Yes         |
+| Visual Studio Enterprise (Standard)   | VL, Azure, Retail, selected NFR<sup>1</sup> | 4 incidents       |  Yes|
+| Visual Studio Professional (Standard) | VL, Azure, Retail, selected NFR<sup>2</sup>                                        | 2 incidents                                                          |Yes         |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | 2 incidents                                             |  Yes         |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | 2 incidents                                               | Yes         |
 | Visual Studio Dev Essentials | NA | Not available |NA|
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure                                       | Not available                                                           |NA|
 
-<sup>1</sup> *Includes: Imagine Premium. Excludes: Not for Resale (NFR), Visual Studio Industry Partner (VSIP), Microsoft Partner Network (MPN), FTE, MCT Software & Services Developer, BizSpark, Imagine Standard, Microsoft Valued Professional (MVP), Region Director (RD), MCT Software & Services.*
+<sup>1</sup> *Includes: Imagine Premium. Excludes: Not for Resale (NFR), Visual Studio Industry Partner (VSIP), Microsoft Partner Network (MPN), FTE, MCT Software & Services Developer, BizSpark, Imagine Standard, Most Valuable Professional (MVP), Regional Director (RD), MCT Software & Services.*
 
 <sup>2</sup> *Includes: Imagine Standard.*
+
+> [!NOTE]
+> Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
+
+Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.

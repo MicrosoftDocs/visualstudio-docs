@@ -1,18 +1,13 @@
 ---
 title: ".NET Compiler Platform (&quot;Roslyn&quot;) Extensibility | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 ms.assetid: 564201b3-1e18-4b88-b615-42c2f57f3fe8
 caps.latest.revision: 5
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # .NET Compiler Platform (&quot;Roslyn&quot;) Extensibility
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -23,4 +18,3 @@ The core mission of the .NET Compiler Platform (“Roslyn”) is opening up the 
   
 ## See Also  
  [Getting Started with Roslyn Analyzers](../extensibility/getting-started-with-roslyn-analyzers.md)
-

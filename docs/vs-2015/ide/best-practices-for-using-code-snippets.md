@@ -1,14 +1,9 @@
 ---
 title: "Best Practices for Using Code Snippets | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "code snippets, best practices"
   - "code snippets, security"
@@ -16,7 +11,7 @@ ms.assetid: a293ec17-4dd7-4a99-8eeb-99f44a822a8b
 caps.latest.revision: 26
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Best Practices for Using Code Snippets
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -69,6 +64,3 @@ The code in a code snippet shows only the most basic way to do something. For mo
  [Visual Basic IntelliSense Code Snippets](http://msdn.microsoft.com/library/ffdde4c9-8141-4906-b09b-15181357a643)   
  [Securing Applications](../ide/securing-applications.md)   
  [Code Snippets](../ide/code-snippets.md)
-
-
-

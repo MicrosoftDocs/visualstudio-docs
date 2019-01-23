@@ -1,14 +1,9 @@
 ---
 title: "CA1010: Collections should implement generic interface | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "CA1010"
   - "CollectionsShouldImplementGenericInterface"
@@ -102,6 +97,3 @@ manager: "wpickett"
 
 ## See Also
  [Generics](http://msdn.microsoft.com/library/75ea8509-a4ea-4e7a-a2b3-cf72482e9282)
-
-
-

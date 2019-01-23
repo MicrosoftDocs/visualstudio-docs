@@ -3,7 +3,7 @@ title: Concierge Chat Benefit in Visual Studio Subscription | Microsoft Docs
 author: evanwindom
 ms.author: jaunger
 manager: evelynp
-ms.date: 01/16/2018
+ms.date: 12/19/2018
 ms.topic: Get-Started-Article
 description:  Learn about the Concierge Chat benefit included in Visual Studio subscriptions.
 ms.prod: vs-subscription
@@ -38,14 +38,18 @@ Getting help via the Concierge Chat service is very easy.
 
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
-| Visual Studio Enterprise (Standard, annual cloud)   | VL, Azure, Retail,  selected NFR<sup>1</sup> | Available       |  Yes          |
-| Visual Studio Professional (Standard, annual cloud) | VL, Azure, Retail                                       | Available                                                            |  Yes          |
+| Visual Studio Enterprise (Standard)   | VL, Azure, Retail,  selected NFR<sup>1</sup> | Available       |  Yes          |
+| Visual Studio Professional (Standard) | VL, Azure, Retail                                       | Available                                                            |  Yes          |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Available                                             |  Yes          |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | Available                                              |  Yes          |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure | Not available | N/A |
 | Visual Studio Dev Essentials | NA  | Not available |N/A |
 
-<sup>1</sup>  *Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), Microsoft Certified Trainer, BizSpark.  Excludes:  FTE, Microsoft Valued Professional (MVP), Region Director (RD), Microsoft Partner Network (MPN), Imagine.*
+<sup>1</sup>  *Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), Microsoft Certified Trainer, BizSpark.  Excludes:  FTE, Most Valuable Professional (MVP), Regional Director (RD), Microsoft Partner Network (MPN), Imagine.*
+
+> [!NOTE]
+> Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
+
 
 Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.
 

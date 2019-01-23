@@ -24,7 +24,7 @@ Sets the name of the application.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT SetName(  
    LPCOLESTR  pstrName  
 );  

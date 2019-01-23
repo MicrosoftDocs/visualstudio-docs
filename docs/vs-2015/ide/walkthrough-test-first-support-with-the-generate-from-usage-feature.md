@@ -1,14 +1,9 @@
 ---
 title: "Walkthrough: Test-First Support with the Generate From Usage Feature | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Generate From Usage"
   - "Test-First Development"
@@ -16,7 +11,7 @@ ms.assetid: 764c17a4-cd95-4c23-bf63-d92d9c5adfb2
 caps.latest.revision: 68
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Walkthrough: Test-First Support with the Generate From Usage Feature
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -190,6 +185,3 @@ Test Results window
  [Writing Code](../ide/writing-code-in-the-code-and-text-editor.md)   
  [Using IntelliSense](../ide/using-intellisense.md)   
  [Unit Test Your Code](../test/unit-test-your-code.md)
-
-
-

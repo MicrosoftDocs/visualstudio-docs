@@ -18,7 +18,7 @@ Provides property browsing operations.
   
 ## Syntax  
   
-```  
+```cpp
 IJsEnumDebugProperty : public IUnknown;  
 ```  
   

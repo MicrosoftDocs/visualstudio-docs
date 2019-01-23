@@ -1,8 +1,6 @@
 ---
 title: "How to: Launch a Stand-Alone .NET Framework Application with the Profiler to Collect Concurrency Data by Using the Command Line | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: 17a48848-bd3e-44ef-9971-e39836ff1df2
 author: "mikejo5000"
@@ -15,7 +13,7 @@ ms.workload:
 This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to start a .NET Framework stand-alone (client) application and collect process and thread concurrency data  
 
 > [!NOTE]
->  Command-line tools of the Profiling Tools are located in the *\Team Tools\Performance Tools* subdirectory of the [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] installation directory. On 64-bit computers, both 64-bit and 32-bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the command prompt window or add it to the command itself. For more information, see [Specify the path to command-line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md).  
+>  To get the path to the profiling tools, see [Specify the path to command line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md). On 64-bit computers, both 64-bit and 32-bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the Command Prompt window or add it to the command itself.
 
  While the profiler is attached to the application, you can pause and resume data collection. To end a profiling session, the Profiler must no longer be attached to the application and the Profiler must be explicitly shut down.  
 

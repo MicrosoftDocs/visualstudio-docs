@@ -24,7 +24,7 @@ Returns the child that is at the specified index in the node.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetChild(  
    ULONG              isn,  
    IScriptNode        **ppsn  

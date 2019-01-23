@@ -1,14 +1,9 @@
 ---
 title: "CA2236: Call base class methods on ISerializable types | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "CA2236"
   - "CallBaseClassMethodsOnISerializableTypes"
@@ -67,6 +62,3 @@ manager: "wpickett"
  [CA2239: Provide deserialization methods for optional fields](../code-quality/ca2239-provide-deserialization-methods-for-optional-fields.md)
 
  [CA2120: Secure serialization constructors](../code-quality/ca2120-secure-serialization-constructors.md)
-
-
-

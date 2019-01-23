@@ -1,12 +1,9 @@
 ---
 title: "Entity Data Model Tools"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs:
   - "VB"
   - "CSharp"
@@ -16,7 +13,7 @@ ms.assetid: 1b06b573-84aa-4458-b3f5-e238df47bf45
 caps.latest.revision: 24
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Entity Data Model Tools in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

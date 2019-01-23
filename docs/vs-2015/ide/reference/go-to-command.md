@@ -1,14 +1,9 @@
 ---
 title: "Go To Command | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "edit.goto"
 helpviewer_keywords: 
@@ -18,7 +13,7 @@ ms.assetid: 201e1dd2-6701-467d-8cc1-faec2ef20511
 caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Go To Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -54,6 +49,3 @@ Edit.GoTo [linenumber]
  [Command Window](../../ide/reference/command-window.md)   
  [Find/Command Box](../../ide/find-command-box.md)   
  [Visual Studio Command Aliases](../../ide/reference/visual-studio-command-aliases.md)
-
-
-

@@ -1,8 +1,6 @@
 ---
 title: "1x1 Viewport Size Variant | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: 3dbc3247-00f5-4644-8ff9-72e9febcf09a
 author: "mikejo5000"

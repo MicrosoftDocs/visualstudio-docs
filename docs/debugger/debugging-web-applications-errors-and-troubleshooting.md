@@ -2,7 +2,6 @@
 title: "Debugging web apps -  errors and troubleshooting"
 ms.custom: "seodec18"
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
@@ -52,4 +51,4 @@ You may encounter the following errors when attempting to debug Web applications
   
 ## See Also  
  [Debugger Security](../debugger/debugger-security.md)   
- [Debugging Web Applications and Script](../debugger/debugging-web-applications-and-script.md)
+ [Debugging Web Applications and Script](/visualstudio/debugger/how-to-enable-debugging-for-aspnet-applications)

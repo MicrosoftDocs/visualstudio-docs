@@ -1,14 +1,9 @@
 ---
 title: "Menu Commands | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Spy++, menu commands"
   - "menu commands, Spy++"
@@ -16,7 +11,7 @@ ms.assetid: 9d1aab27-9ac0-4096-8e12-c47503acb2e9
 caps.latest.revision: 7
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Menu Commands
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -54,6 +49,3 @@ The Help topics in this section list the commands available on the Spy++ menus.
   
  [Spy++ Reference](../debugger/spy-increment-reference.md)  
  Includes this section, and sections describing each Spy++ dialog box.
-
-
-

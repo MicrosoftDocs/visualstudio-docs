@@ -1,14 +1,9 @@
 ---
 title: "Customizing Project and Item Templates | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "customizing Visual Studio templates"
   - "Visual Studio templates, customizing"
@@ -16,7 +11,7 @@ ms.assetid: d7344a0a-d93f-4b69-bbc4-0c2d67ef272b
 caps.latest.revision: 13
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Customizing Project and Item Templates
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -51,6 +46,3 @@ After project and item templates have been created, you still have the ability t
  [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)  
   
  <xref:Microsoft.VisualStudio.TemplateWizard.IWizard>
-
-
-

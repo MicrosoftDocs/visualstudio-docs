@@ -1,14 +1,9 @@
 ---
 title: "IDebugCustomViewer::DisplayValue | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugCustomViewer::DisplayValue"
 helpviewer_keywords: 
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 7a538248-5ced-450e-97cd-13fabe35fb1c
 caps.latest.revision: 12
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # IDebugCustomViewer::DisplayValue
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -68,4 +63,3 @@ int DisplayValue(
  [IDebugCustomViewer](../../../extensibility/debugger/reference/idebugcustomviewer.md)   
  [IDebugProperty3](../../../extensibility/debugger/reference/idebugproperty3.md)   
  [SetValueAsStringWithError](../../../extensibility/debugger/reference/idebugproperty3-setvalueasstringwitherror.md)
-

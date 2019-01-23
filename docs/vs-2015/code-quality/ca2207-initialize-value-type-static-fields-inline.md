@@ -1,14 +1,9 @@
 ---
 title: "CA2207: Initialize value type static fields inline | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "InitializeValueTypeStaticFieldsInline"
   - "CA2207"
@@ -47,6 +42,3 @@ manager: "wpickett"
 
 ## Related Rules
  [CA1810: Initialize reference type static fields inline](../code-quality/ca1810-initialize-reference-type-static-fields-inline.md)
-
-
-

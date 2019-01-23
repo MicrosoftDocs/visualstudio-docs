@@ -1,12 +1,9 @@
 ---
 title: "Bind WPF controls to a dataset | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -20,7 +17,7 @@ ms.assetid: 177420b9-568b-4dad-9d16-1b0e98a24d71
 caps.latest.revision: 35
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Bind WPF controls to a dataset
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -49,9 +46,9 @@ In this walkthrough, you will create a WPF application that contains data-bound 
   
   Prior knowledge of the following concepts is also helpful, but not required to complete the walkthrough:  
   
-- Datasets and TableAdapters. For more information, see [Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md) and [TableAdapter Overview](../data-tools/tableadapter-overview.md).  
+- Datasets and TableAdapters. For more information, see [Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md).  
   
-- Working with the WPF Designer. For more information, see [WPF and Silverlight Designer Overview](http://msdn.microsoft.com/en-us/570b7a5c-0c86-4326-a371-c9b63378fc62).  
+- Working with the WPF Designer. For more information, see [WPF and Silverlight Designer Overview](http://msdn.microsoft.com/570b7a5c-0c86-4326-a371-c9b63378fc62).  
   
 - WPF data binding. For more information, see [Data Binding Overview](http://msdn.microsoft.com/library/c707c95f-7811-401d-956e-2fffd019a211).  
   
@@ -258,6 +255,5 @@ In this walkthrough, you will create a WPF application that contains data-bound 
  [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio1.md)   
  [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio2.md)   
  [Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md)   
- [WPF and Silverlight Designer Overview](http://msdn.microsoft.com/en-us/570b7a5c-0c86-4326-a371-c9b63378fc62)   
+ [WPF and Silverlight Designer Overview](http://msdn.microsoft.com/570b7a5c-0c86-4326-a371-c9b63378fc62)   
  [Data Binding Overview](http://msdn.microsoft.com/library/c707c95f-7811-401d-956e-2fffd019a211)
-

@@ -1,14 +1,9 @@
 ---
 title: "Debugging Applications | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -18,7 +13,7 @@ ms.assetid: f7f08402-610e-47f0-ba10-575dd395a0f0
 caps.latest.revision: 5
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Debugging Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,6 +31,3 @@ The following sections deal with debugging for specific types of applications. D
 |[Graphics Diagnostics (Debugging DirectX Graphics)](../debugger/visual-studio-graphics-diagnostics.md)|Describes how to debug DirectX graphics.|  
 |[Debugging Web Applications and Script](../debugger/debugging-web-applications-and-script.md)|Describes how to debug Web, ASP.NET, and AJAX applications.|  
 |[Debugging WCF Services](../debugger/debugging-wcf-services.md)|Describes how to debug Windows Communication Foundation services.|
-
-
-

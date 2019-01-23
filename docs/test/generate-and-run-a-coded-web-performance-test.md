@@ -15,7 +15,6 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ---
 # Generate and run a coded web performance test
 
@@ -81,7 +80,7 @@ Web performance tests are recorded by browsing through your web app. The tests a
 ## Q&A
 
 ### Q: Can I run more than one test at a time?
- **A:** Yes, use the context menu in **Solution Explorer**.
+ **A:** Yes, use the right-click (context) menu in **Solution Explorer**.
 
 ### Q: Should I add a data source before or after I generate a coded test?
  **A:** It is easier to add a [data source](../test/add-a-data-source-to-a-web-performance-test.md) before you generate the coded test because the code will be automatically generated for you.

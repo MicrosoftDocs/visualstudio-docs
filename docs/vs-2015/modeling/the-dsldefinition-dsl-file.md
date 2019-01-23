@@ -1,19 +1,16 @@
 ---
 title: "The DslDefinition.dsl File | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Domain-Specific Language, definition file"
 ms.assetid: f3fc3ed7-2438-4e5a-b3d7-fe7e0e8a134c
 caps.latest.revision: 24
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # The DslDefinition.dsl File
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -546,9 +543,6 @@ ComponentHasPorts . Component / ! Component /    ComponentModelHasComponents . C
  Connector maps can also contain decorator maps.  
   
 ## See Also  
- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/en-us/ca5e84cb-a315-465c-be24-76aa3df276aa)   
+ [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)   
  [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)   
  [Understanding Models, Classes and Relationships](../modeling/understanding-models-classes-and-relationships.md)
-
-
-

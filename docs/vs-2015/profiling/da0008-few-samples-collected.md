@@ -1,14 +1,9 @@
 ---
 title: "DA0008: Few samples collected | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 f1_keywords: 
   - "vs.performance.rules.DATooFewSamples"
   - "vs.performance.8"
@@ -18,7 +13,7 @@ ms.assetid: 8a5b78aa-7b3d-476c-a47d-abfaff3fae7c
 caps.latest.revision: 20
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # DA0008: Few samples collected
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,6 +32,3 @@ Rule Id|DA0008|
   
 ## How to Fix Violations  
  Consider a profiling a longer run of the application or using a faster sampling rate to obtain statistically significant results. For information about how to change the sampling rate in the Visual Studio IDE, see [How to: Choose Sampling Events](../profiling/how-to-choose-sampling-events.md). For more information about how to change the sampling rate when you use the Profiling Tools command line, see [Timer](../profiling/timer.md) in the [VSPerfCmd](../profiling/vsperfcmd.md) reference.
-
-
-

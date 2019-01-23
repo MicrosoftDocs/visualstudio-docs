@@ -1,14 +1,9 @@
 ---
 title: "CA1051: Do not declare visible instance fields | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "CA1051"
   - "DoNotDeclareVisibleInstanceFields"
@@ -55,6 +50,3 @@ manager: "wpickett"
 
 ## See Also
  [Link Demands](http://msdn.microsoft.com/library/a33fd5f9-2de9-4653-a4f0-d9df25082c4d)
-
-
-

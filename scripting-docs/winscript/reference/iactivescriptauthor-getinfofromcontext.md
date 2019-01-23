@@ -24,7 +24,7 @@ Returns type information and anchor positions for a given character in a block o
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetInfoFromContext(  
    LPCOLESTR  pszCode,  
    ULONG      cchCode,  

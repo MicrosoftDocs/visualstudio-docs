@@ -1,21 +1,16 @@
 ---
 title: "Modules View - Instrumentation Data | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Modules view"
 ms.assetid: 895b9589-1987-4160-916f-53b898a69cf0
 caps.latest.revision: 15
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Modules View - Instrumentation Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -86,6 +81,3 @@ The Modules view displays performance data that is grouped by the modules that w
  [Modules View](../profiling/modules-view-sampling-data.md)   
  [Modules View - Instrumentation](../profiling/modules-view-dotnet-memory-instrumentation-data.md)   
  [Modules View - Sampling](../profiling/modules-view-dotnet-memory-sampling-data.md)
-
-
-

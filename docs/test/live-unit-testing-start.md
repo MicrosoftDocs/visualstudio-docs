@@ -2,7 +2,6 @@
 title: "Learn how to test your code with Live Unit Test 2017 | Microsoft Docs"
 ms.date: 08/31/2017
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 ms.topic: conceptual
 helpviewer_keywords:
@@ -21,7 +20,7 @@ Live Unit Testing can be used to test solutions that target either the .NET Fram
 
 # [C#](#tab/csharp)
 The complete C# solution can be downloaded from the [MicrosoftDocs/visualstudio-docs](https://github.com/MicrosoftDocs/visualstudio-docs/tree/master/docs/test/samples/csharp/UtilityLibraries/) repo on GitHub.
-# [Visual Basic](#tab/visual-basic)
+# [Visual Basic](#tab/vb)
 The complete Visual Basic solution can be downloaded from the [MicrosoftDocs/visualstudio-docs](https://github.com/MicrosoftDocs/visualstudio-docs/tree/master/docs/test/samples/visual-basic/UtilityLibraries/) repo on GitHub.
 
 ---
@@ -74,7 +73,7 @@ Now that you've created the solution, you'll create a class library named `Strin
 
 1.  Select **Build** > **Build Solution** from the top-level Visual Studio menu. Visual Studio should successfully build your library.
 
-# [Visual Basic](#tab/visual-basic)
+# [Visual Basic](#tab/vb)
 1. In **Solution Explorer**, right-click on the `UtilityLibraries` solution and select **Add** > **New Project**.
 
 1. In the **Add New Project** dialog, select the Visual Basic node, then select **.NET Standard**.
@@ -149,7 +148,7 @@ The next step is to create the unit test project to test the `StringLibrary` lib
 
 1. Compile the unit test project by selecting **Build** > **Rebuild Solution** from the top-level Visual Studio menu.
 
-# [Visual Basic](#tab/visual-basic)
+# [Visual Basic](#tab/vb)
 
 1. In **Solution Explorer**, right-click on the `UtilityLibraries` solution and select **Add** > **New Project**.
 
@@ -206,7 +205,7 @@ When it finishes running your tests, **Test Explorer** displays both the overall
 # [C#](#tab/csharp)
 ![The Test Explorer and code window after starting Live Unit testing](media/lut-start/lut-results-cs.png)
 
-# [Visual Basic](#tab/visual-basic)
+# [Visual Basic](#tab/vb)
 ![The Test Explorer and code window after starting Live Unit testing](media/lut-start/lut-results-vb.png)
 
 ---
@@ -222,7 +221,7 @@ You can also get more detailed information about test coverage and test results 
 
    ![Code coverage for the return statement](media/lut-start/code-coverage-cs2.png)
 
-# [Visual Basic](#tab/visual-basic)
+# [Visual Basic](#tab/vb)
 1. Click on the green check mark on the line that reads `If (String.IsNullOrWhiteSpace(s)) Then` in the `StartsWithUpper` method. As the following figure shows, Live Unit Testing indicates that three tests cover that line of code, and that all have executed successfully.
 
    ![Code coverage for the `If` conditional statement](media/lut-start/code-coverage-vb1.png)
@@ -258,7 +257,7 @@ To extend code coverage to the `StartsWithLower` method, do the following:
 
     ![Code coverage for the StartsWithLower method](media/lut-start/lut-extended-cs.png)
 
-# [Visual Basic](#tab/visual-basic)
+# [Visual Basic](#tab/vb)
 1. Add the following `TestStartsWithLower` and `TestDoesNotStartWithLower` methods to your project's test source code file:
 
     [!code-vb[StringLibraryTest source code](samples/snippets/visual-basic/lut-start/unittest2.vb#1)]
@@ -318,7 +317,7 @@ In this section, you'll explore how you can use Live Unit Testing to identify, t
 
 1. Select **Debug** > **Continue**, press **F5**, or click the **Continue** button on the toolbar to continue executing the test program. Because an unhandled exception occurred, the test terminates.
 
-# [Visual Basic](#tab/visual-basic)
+# [Visual Basic](#tab/vb)
 1. Add the following method to your test file:
 
     [!code-vb[The TestHasEmbeddedSpaces test method](samples/snippets/visual-basic/lut-start/unittest2.vb#3)]
@@ -366,7 +365,7 @@ This provides enough information for a preliminary investigation of the bug. Eit
 
     ![The successful HasEmbeddedSpaces test.](media/lut-start/test-success-cs.png)
 
-# [Visual Basic](#tab/visual-basic)
+# [Visual Basic](#tab/vb)
 1. Look at the comparison in the `HasEmbeddedSpaces` method. It considers an embedded space to be U+0020. However, the Unicode Standard includes a number of other space characters. This suggests that the library code has incorrectly tested for a whitespace character.
 
 1. Replace the equality comparison with a call to the <xref:System.Char.IsWhiteSpace%2A?displayProperty=fullName> method:

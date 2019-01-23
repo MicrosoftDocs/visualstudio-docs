@@ -1,17 +1,14 @@
 ---
 title: "How to: Create an Activity Library | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: ".net-framework-4.6"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: "reference"
 ms.assetid: 1eeebe74-7303-4345-8a83-fe37a26bc84b
 caps.latest.revision: 12
 author: gewarren
 ms.author: gewarren
-manager: "erikre"
+manager: jillfra
 ---
 # How to: Create an Activity Library
 Custom activities are used to model your particular business processes in a workflow. The Activity Library template in [!INCLUDE[vs2010](../includes/vs2010-md.md)] has been provided to enable you to create such custom activities visually using the [!INCLUDE[wfd1](../includes/wfd1-md.md)].  

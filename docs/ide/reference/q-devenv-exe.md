@@ -1,11 +1,12 @@
 ---
 title: -? (devenv.exe)
-ms.date: 11/04/2016
+ms.date: 12/10/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 helpviewer_keywords:
   - "/? Devenv switch"
+  - "Devenv, /? switch"
+  - "Devenv, command-line help"
 ms.assetid: fd8fd6b2-1304-4d06-8118-6629666801fb
 author: gewarren
 ms.author: gewarren
@@ -14,14 +15,15 @@ ms.workload:
   - "multiple"
 ---
 # /? (devenv.exe)
-Displays a message box listing all `devenv` switches, with a brief description of each one.
+
+Displays a message box listing all `devenv` switches, with a brief description of each switch.
 
 ## Syntax
 
-```
+```shell
 devenv /?
 ```
 
-## See Also
+## See also
 
 - [Devenv command-line switches](../../ide/reference/devenv-command-line-switches.md)

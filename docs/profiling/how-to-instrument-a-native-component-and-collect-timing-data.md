@@ -1,8 +1,6 @@
 ---
 title: "How to: Instrument a Native Stand-Alone Component and Collect Timing Data with the Profiler from the Command Line | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: 36883074-9be8-4e90-a66f-7e87f21fcd30
 author: "mikejo5000"
@@ -15,9 +13,9 @@ ms.workload:
 This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to instrument a native component such as a C++ .*exe* or .*dll* file, and to collect detailed timing data.  
 
 > [!NOTE]
->  Command-line tools of the Profiling Tools are located in the *\Team Tools\Performance Tools* subdirectory of the [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] installation directory. On 64-bit computers, both 64-bit and 32-bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the Command Prompt window or add it to the command itself. For more information, see [Specify the path to command-line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md).  
+>  To get the path to the profiling tools, see [Specify the path to command line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md). On 64-bit computers, both 64-bit and 32-bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the Command Prompt window or add it to the command itself.
 
- To collect detailed timing data from a component by using the instrumentation method, you use the [VSInstr.exe](../profiling/vsinstr.md) tool to generate an instrumented version of the component. You then start the profiler. When the instrumented component is executed, timing data is automatically collected to a data file. You can pause and resume data collection during the profiling session.  
+To collect detailed timing data from a component by using the instrumentation method, you use the [VSInstr.exe](../profiling/vsinstr.md) tool to generate an instrumented version of the component. You then start the profiler. When the instrumented component is executed, timing data is automatically collected to a data file. You can pause and resume data collection during the profiling session.  
 
  To end a profiling session, you close the target application and then explicitly shut down the profiler.  
 

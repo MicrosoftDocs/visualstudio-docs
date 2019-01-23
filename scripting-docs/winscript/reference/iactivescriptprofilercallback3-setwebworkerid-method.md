@@ -18,7 +18,7 @@ Notifies the profiler about the worker ID to use for this profiling session. If 
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT SetWebWorkerId([in] DWORD webWorkerId);  
 ```  
   

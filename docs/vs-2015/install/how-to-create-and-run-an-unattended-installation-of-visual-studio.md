@@ -1,14 +1,9 @@
 ---
 title: "How to: Create and Run an Unattended Installation | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-install"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-install"
+ms.topic: conceptual
 helpviewer_keywords:
   - "installing Visual Studio, unattended"
   - "unattended installation, Visual Studio"
@@ -16,7 +11,7 @@ ms.assetid: 3867b5dc-ed34-4ee2-be32-a42e7e320517
 caps.latest.revision: 44
 author: TerryGLee
 ms.author: tglee
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Create and Run an Unattended Installation of Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

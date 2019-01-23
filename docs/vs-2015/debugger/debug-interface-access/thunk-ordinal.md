@@ -1,14 +1,9 @@
 ---
 title: "THUNK_ORDINAL | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ ms.assetid: 026f98a9-36b8-41ef-8a72-12d7cbc2d362
 caps.latest.revision: 12
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # THUNK_ORDINAL
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -71,6 +66,3 @@ typedef enum THUNK_ORDINAL { 
 ## See Also  
  [Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)   
  [IDiaSymbol::get_thunkOrdinal](../../debugger/debug-interface-access/idiasymbol-get-thunkordinal.md)
-
-
-

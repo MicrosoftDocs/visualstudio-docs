@@ -8,7 +8,6 @@ manager: douge
 ms.workload:
   - "multiple"
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # MSI and VSIX Deployment of a DSL
 You can install a domain-specific language on your own computer or on other computers. Visual Studio must already be installed on the target computer.

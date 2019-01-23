@@ -1,14 +1,9 @@
 ---
 title: "User Permissions | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords:
   - "Visual Studio, user permissions"
   - "user permissions"
@@ -18,7 +13,7 @@ ms.assetid: 70485ed7-6342-41bf-8250-7a6826e21b98
 caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # User Permissions and Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

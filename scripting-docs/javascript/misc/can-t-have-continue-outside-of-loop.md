@@ -1,5 +1,5 @@
 ---
-title: "Can&#39;t have &#39;continue&#39; outside of loop | Microsoft Docs"
+title: "Can't have 'continue' outside of loop | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
 ms.prod: "windows-client-threshold"
@@ -21,7 +21,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 ---
-# Can&#39;t have &#39;continue&#39; outside of loop
+# Can't have 'continue' outside of loop
 You attempted to use the **continue** statement outside of a loop. The **continue** statement can be used only within the body of a:  
   
 -   `do-while` loop,  

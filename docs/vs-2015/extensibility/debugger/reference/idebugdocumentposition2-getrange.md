@@ -1,14 +1,9 @@
 ---
 title: "IDebugDocumentPosition2::GetRange | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugDocumentPosition2::GetRange"
 helpviewer_keywords: 
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 91a06ee7-253a-4215-be22-04bf57305aa8
 caps.latest.revision: 11
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # IDebugDocumentPosition2::GetRange
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -62,4 +57,3 @@ Line 6: x = 1;
 ## See Also  
  [IDebugDocumentPosition2](../../../extensibility/debugger/reference/idebugdocumentposition2.md)   
  [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md)
-

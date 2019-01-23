@@ -1,14 +1,9 @@
 ---
 title: "CA2004: Remove calls to GC.KeepAlive | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "RemoveCallsToGCKeepAlive"
   - "CA2004"
@@ -42,6 +37,3 @@ manager: "wpickett"
 
 ## When to Suppress Warnings
  You can suppress this warning only if it is not technically correct to convert to `SafeHandle` usage in your class.
-
-
-

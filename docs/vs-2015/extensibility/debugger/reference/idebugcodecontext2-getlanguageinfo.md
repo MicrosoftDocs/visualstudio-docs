@@ -1,14 +1,9 @@
 ---
 title: "IDebugCodeContext2::GetLanguageInfo | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugCodeContext2::GetLanguageInfo"
 helpviewer_keywords: 
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 03002ef1-9fe6-44b6-b23b-ef7b86b2b21b
 caps.latest.revision: 11
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # IDebugCodeContext2::GetLanguageInfo
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -54,4 +49,3 @@ int GetLanguageInfo( 
   
 ## See Also  
  [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md)
-

@@ -1,14 +1,9 @@
 ---
 title: "Security Page, Project Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "vb.ProjectPropertiesSecurity"
   - "vb.XBAPProjectPropertiesSecurity"
@@ -23,7 +18,7 @@ ms.assetid: 641d9cd3-fa07-498a-8568-3c169bb4d3d5
 caps.latest.revision: 40
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Security Page, Project Designer
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -81,6 +76,3 @@ The **Security** page of the **Project Designer** is used to configure code acce
  [ClickOnce Security and Deployment](../../deployment/clickonce-security-and-deployment.md)   
  [Project Properties Reference](../../ide/reference/project-properties-reference.md)   
  [Advanced Security Settings Dialog Box](../../ide/reference/advanced-security-settings-dialog-box.md)
-
-
-

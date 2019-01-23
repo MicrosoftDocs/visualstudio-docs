@@ -1,14 +1,9 @@
 ---
 title: "CA1302: Do not hardcode locale specific strings | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "DoNotHardcodeLocaleSpecificStrings"
   - "CA1302"
@@ -53,6 +48,3 @@ manager: "wpickett"
 
 ## Related Rules
  [CA1303: Do not pass literals as localized parameters](../code-quality/ca1303-do-not-pass-literals-as-localized-parameters.md)
-
-
-

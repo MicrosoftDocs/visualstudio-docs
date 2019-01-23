@@ -1,15 +1,10 @@
 ---
 title: "How to: Add and Remove Items to SharePoint Features | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 f1_keywords: 
   - "VS.SharePointTools.RAD.FeatureDesigner"
 dev_langs: 
-  - "VB"
-  - "CSharp"
   - "VB"
   - "CSharp"
 helpviewer_keywords: 
@@ -54,4 +49,3 @@ ms.workload:
 ## See also
  [Create SharePoint features](../sharepoint/creating-sharepoint-features.md)   
  [Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)  
-  

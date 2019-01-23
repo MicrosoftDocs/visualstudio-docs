@@ -1,20 +1,15 @@
 ---
 title: "Supported Configurations and Platforms for Coded UI Tests and Action Recordings | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 helpviewer_keywords: 
   - "coded UI tests"
 ms.assetid: 544742b5-4ec1-4d51-b941-72b2f6ff17bc
 caps.latest.revision: 108
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Supported Configurations and Platforms for Coded UI Tests and Action Recordings
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -72,6 +67,3 @@ The supported configurations and platforms for coded UI tests for Visual Studio 
 ## See Also  
  [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)   
  [Generating a Coded UI Test from an Existing Action Recording](http://msdn.microsoft.com/library/56736963-9027-493b-b5c4-2d4e86d1d497)
-
-
-

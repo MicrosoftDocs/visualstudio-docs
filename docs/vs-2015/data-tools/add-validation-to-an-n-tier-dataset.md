@@ -1,12 +1,9 @@
 ---
 title: "Add validation to an n-tier dataset | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -20,15 +17,14 @@ ms.assetid: 34ce4db6-09bb-4b46-b435-b2514aac52d3
 caps.latest.revision: 27
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Add validation to an n-tier dataset
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Adding validation to a dataset that is separated into an n-tier solution is basically the same as adding validation to a single-file dataset (a dataset in a single project). The suggested location for performing validation on data is during the <xref:System.Data.DataTable.ColumnChanging> and/or <xref:System.Data.DataTable.RowChanging> events of a data table.  
   
- The [Creating and Editing Typed Datasets](../data-tools/creating-and-editing-typed-datasets.md) provides the functionality to create partial classes to which you can add user code to column- and row- changing events of the data tables in the dataset. For more information about adding code to a dataset in an n-tier solution, see [Add code to datasets in n-tier applications](../data-tools/add-code-to-datasets-in-n-tier-applications.md), and [Add code to TableAdapters in n-tier applications](../data-tools/add-code-to-tableadapters-in-n-tier-applications.md). For more information about partial classes, see [How to: Split a Class into Partial Classes (Class Designer)](../ide/how-to-split-a-class-into-partial-classes-class-designer.md) or [Partial Classes and Methods](http://msdn.microsoft.com/library/804cecb7-62db-4f97-a99f-60975bd59fa1).  
+The DataSet Designer provides the functionality to create partial classes to which you can add user code to column- and row- changing events of the data tables in the dataset. For more information about adding code to a dataset in an n-tier solution, see [Add code to datasets in n-tier applications](../data-tools/add-code-to-datasets-in-n-tier-applications.md), and [Add code to TableAdapters in n-tier applications](../data-tools/add-code-to-tableadapters-in-n-tier-applications.md). For more information about partial classes, see [How to: Split a Class into Partial Classes (Class Designer)](../ide/how-to-split-a-class-into-partial-classes-class-designer.md) or [Partial Classes and Methods](http://msdn.microsoft.com/library/804cecb7-62db-4f97-a99f-60975bd59fa1).  
   
 > [!NOTE]
 >  When you separate datasets from TableAdapters (by setting the **DataSet Project** property), existing partial dataset classes in the project won't be moved automatically. Existing dataset partial classes must be moved manually to the dataset project.  
@@ -37,7 +33,7 @@ Adding validation to a dataset that is separated into an n-tier solution is basi
 >  The Dataset Designer does not automatically create event handlers in C# for the <xref:System.Data.DataTable.ColumnChanging> and <xref:System.Data.DataTable.RowChanging> events. You have to manually create an event handler and hook up the event handler to the underlying event. The following procedures describe how to create the required event handlers in both Visual Basic and C#.  
   
 ## Validatechanges to individual columns  
- Validate values in individual columns by handling the <xref:System.Data.DataTable.ColumnChanging> event. The <xref:System.Data.DataTable.ColumnChanging> event is raised when a value in a column is modified. Create an event handler for the <xref:System.Data.DataTable.ColumnChanging> event by double-clicking the desired column on the [Creating and Editing Typed Datasets](../data-tools/creating-and-editing-typed-datasets.md).  
+ Validate values in individual columns by handling the <xref:System.Data.DataTable.ColumnChanging> event. The <xref:System.Data.DataTable.ColumnChanging> event is raised when a value in a column is modified. Create an event handler for the <xref:System.Data.DataTable.ColumnChanging> event by double-clicking the desired column on the dataset.  
   
  The first time that you double-click a column, the designer generates an event handler for the <xref:System.Data.DataTable.ColumnChanging> event. An `If…Then` statement is also created that tests for the specific column. For example, the following code is generated when you double-click the RequiredDate column on the Northwind Orders table:  
   
@@ -56,7 +52,7 @@ End Sub
   
 #### To add validation during changes to individual column values  
   
-1.  Open the dataset in the [Creating and Editing Typed Datasets](../data-tools/creating-and-editing-typed-datasets.md) by double-clicking the **.xsd** file in **Solution Explorer**. For more information, see [How to: Open a Dataset in the Dataset Designer](http://msdn.microsoft.com/library/36fc266f-365b-42cb-aebb-c993dc2c47c3).  
+1.  Open the dataset in the designer by double-clicking the **.xsd** file in **Solution Explorer**. For more information, see [How to: Open a Dataset in the Dataset Designer](http://msdn.microsoft.com/library/36fc266f-365b-42cb-aebb-c993dc2c47c3).  
   
 2.  Double-click the column you want to validate. This action creates the <xref:System.Data.DataTable.ColumnChanging> event handler.  
   
@@ -111,11 +107,11 @@ End Sub
   
  When orders are being entered, validation makes sure that an order is not entered with a RequiredDate that is on or before the OrderDate. In this example, the values for both the RequiredDate and OrderDate columns need to be compared, so validating an individual column change does not make sense.  
   
- Create an event handler for the <xref:System.Data.DataTable.RowChanging> event by double-clicking the table name in the title bar of the table on the [Creating and Editing Typed Datasets](../data-tools/creating-and-editing-typed-datasets.md).  
+ Create an event handler for the <xref:System.Data.DataTable.RowChanging> event by double-clicking the table name in the title bar of the table.  
   
 #### To add validation during changes to whole rows  
   
-1.  Open the dataset in the [Creating and Editing Typed Datasets](../data-tools/creating-and-editing-typed-datasets.md) by double-clicking the **.xsd** file in **Solution Explorer**. For more information, see [How to: Open a Dataset in the Dataset Designer](http://msdn.microsoft.com/library/36fc266f-365b-42cb-aebb-c993dc2c47c3).  
+1.  Open the dataset in the designer by double-clicking the **.xsd** file in **Solution Explorer**. For more information, see [How to: Open a Dataset in the Dataset Designer](http://msdn.microsoft.com/library/36fc266f-365b-42cb-aebb-c993dc2c47c3).  
   
 2.  Double-click the title bar of the data table on the designer.  
   
@@ -177,4 +173,3 @@ End Sub
  [N-Tier Data Applications Overview](../data-tools/n-tier-data-applications-overview.md)   
  [Walkthrough: Creating an N-Tier Data Application](../data-tools/walkthrough-creating-an-n-tier-data-application.md)   
  [Validate data in datasets](../data-tools/validate-data-in-datasets.md)
-

@@ -1,14 +1,9 @@
 ---
 title: "How to: Clean a Build | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Exec task [MSBuild]"
   - "MSBuild, cleaning a build"
@@ -18,7 +13,7 @@ ms.assetid: 999ba473-b0c4-45c7-930a-63ea7a510509
 caps.latest.revision: 17
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Clean a Build
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -107,6 +102,3 @@ When you clean a build, all intermediate and output files are deleted, leaving o
  [RemoveDir Task](../msbuild/removedir-task.md)   
  [Csc Task](../msbuild/csc-task.md)   
  [Targets](../msbuild/msbuild-targets.md)
-
-
-

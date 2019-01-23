@@ -1,14 +1,9 @@
 ---
 title: "Disk Operations Report (Threads View) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.cv.threads.report.diskoperations"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ ms.assetid: e352f4f3-f654-45eb-96ed-417863487ddc
 caps.latest.revision: 16
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Disk Operations Report (Threads View)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -46,6 +41,3 @@ The Disk Operations Report shows disk I/O operations in the disk channels.
   
 ## See Also  
  [Threads View](../profiling/threads-view-parallel-performance.md)
-
-
-

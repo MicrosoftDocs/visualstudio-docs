@@ -1,14 +1,9 @@
 ---
 title: "How to: Locate the Product Key | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-install"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-install"
+ms.topic: conceptual
 f1_keywords:
   - "product key, Visual Studio"
   - "product keys"
@@ -16,7 +11,7 @@ ms.assetid: 65536281-7843-4121-b4b7-61b498bbd5f5
 caps.latest.revision: 24
 author: TerryGLee
 ms.author: tglee
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Locate the Visual Studio Product Key
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

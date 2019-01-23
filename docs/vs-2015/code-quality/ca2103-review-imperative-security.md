@@ -1,14 +1,9 @@
 ---
 title: "CA2103: Review imperative security | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "CA2103"
   - "ReviewImperativeSecurity"
@@ -48,6 +43,3 @@ manager: "wpickett"
 ## See Also
  [Secure Coding Guidelines](http://msdn.microsoft.com/library/4f882d94-262b-4494-b0a6-ba9ba1f5f177)
  [Data and Modeling](http://msdn.microsoft.com/library/8c37635d-e2c1-4b64-a258-61d9e87405e6)
-
-
-

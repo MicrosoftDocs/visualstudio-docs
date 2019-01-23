@@ -24,7 +24,7 @@ Gets the number of `DebugPropertyInfo` structures in the enumerator.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetCount (  
    ULONG* pcelt  
 );  

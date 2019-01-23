@@ -1,14 +1,9 @@
 ---
 title: "CA2111: Pointers should not be visible | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "PointersShouldNotBeVisible"
   - "CA2111"
@@ -58,6 +53,3 @@ manager: "wpickett"
 ## See Also
  <xref:System.IntPtr?displayProperty=fullName>
  <xref:System.UIntPtr?displayProperty=fullName>
-
-
-

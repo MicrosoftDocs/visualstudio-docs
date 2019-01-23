@@ -1,14 +1,9 @@
 ---
 title: "CA1412: Mark ComSource Interfaces as IDispatch | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "MarkComSourceInterfacesAsIDispatch"
   - "CA1412"
@@ -53,8 +48,5 @@ manager: "wpickett"
  [CA1408: Do not use AutoDual ClassInterfaceType](../code-quality/ca1408-do-not-use-autodual-classinterfacetype.md)
 
 ## See Also
- [How to: Raise Events Handled by a COM Sink](http://msdn.microsoft.com/en-us/7c9944b2-e951-4c3e-a0a1-59b2ae37d7fd)
+ [How to: Raise Events Handled by a COM Sink](http://msdn.microsoft.com/7c9944b2-e951-4c3e-a0a1-59b2ae37d7fd)
  [Interoperating with Unmanaged Code](http://msdn.microsoft.com/library/ccb68ce7-b0e9-4ffb-839d-03b1cd2c1258)
-
-
-

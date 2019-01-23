@@ -24,7 +24,7 @@ Informs the host that the scripting engine has returned from executing script co
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT OnLeaveScript(void);  
 ```  
   

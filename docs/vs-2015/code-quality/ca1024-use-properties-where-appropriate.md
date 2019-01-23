@@ -1,14 +1,9 @@
 ---
 title: "CA1024: Use properties where appropriate | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "UsePropertiesWhereAppropriate"
   - "CA1024"
@@ -119,6 +114,3 @@ namespace Microsoft.Samples
  The following example contains several methods that should be converted to properties, and several that should not because they do not behave like fields.
 
  [!code-csharp[FxCop.Design.MethodsProperties#1](../snippets/csharp/VS_Snippets_CodeAnalysis/FxCop.Design.MethodsProperties/cs/FxCop.Design.MethodsProperties.cs#1)]
-
-
-

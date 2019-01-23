@@ -1,14 +1,9 @@
 ---
 title: "How to: Troubleshoot Unsuccessful Project Upgrades | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: troubleshooting
 f1_keywords:
   - "VisualStudio.SourceControl.CannotOpenFromSourceControlDSW"
   - "vs.UpgradeProjectSolution.8.0"
@@ -22,7 +17,7 @@ ms.assetid: 842fe448-c044-4343-8eae-d81711cf48ba
 caps.latest.revision: 31
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Troubleshoot Unsuccessful Visual Studio Project Upgrades
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

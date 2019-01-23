@@ -1,21 +1,16 @@
 ---
 title: "Comparing Properties and Items | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 helpviewer_keywords: 
   - "msbuild, msbuild properties"
 ms.assetid: b9da45ae-d6a6-4399-8628-397deed31486
 caps.latest.revision: 19
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Comparing Properties and Items
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -183,6 +178,3 @@ KeyFileVersion: 1.0.0.3
   
 ## See Also  
  [Advanced Concepts](../msbuild/msbuild-advanced-concepts.md)
-
-
-

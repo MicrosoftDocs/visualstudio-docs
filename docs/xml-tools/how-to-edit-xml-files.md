@@ -2,7 +2,6 @@
 title: "How to: Edit XML Files"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-xml-tools
 ms.topic: conceptual
 ms.assetid: 07fa3ecf-6345-4d30-9d85-d5ef5b083319
 author: gewarren

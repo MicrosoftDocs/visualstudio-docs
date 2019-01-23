@@ -1,21 +1,16 @@
 ---
 title: "Get Started Developing | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords:
   - "Visual Studio, getting started"
 ms.assetid: 041ef726-f117-4a91-9c18-fef043bf2529
 caps.latest.revision: 67
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Get Started Developing with Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -54,7 +49,7 @@ Welcome to Visual Studio! After you have [downloaded](http://www.visualstudio.co
 
      [Load a sample](https://github.com/microsoft/windows-classic-samples) &#124;                     [Do a tutorial](https://msdn.microsoft.com/library/dd492171.aspx) &#124;                               [Browse the docs](https://dev.windows.com/desktop)
 
--   **[Make Office applications](https://msdn.microsoft.com/library/fp161347.aspx)** : Get started creating Office applications that extend and customize Word, Excel, Outlook and Powerpoint with Office 365 services.
+-   **[Make Office applications](https://msdn.microsoft.com/library/fp161347.aspx)** : Get started creating Office applications that extend and customize Word, Excel, Outlook and PowerPoint with Office 365 services.
 
      [Load a sample](https://code.msdn.microsoft.com/office365/) &#124;                       [Do a tutorial](http://dev.office.com/getting-started/office365apis) &#124;                              [Browse the docs](https://msdn.microsoft.com/office/aa905340.aspx) &#124;                                   [Watch a video](http://dev.office.com/videos)
 

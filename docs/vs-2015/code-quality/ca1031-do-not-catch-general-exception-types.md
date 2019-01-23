@@ -1,14 +1,9 @@
 ---
 title: "CA1031: Do not catch general exception types | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "CA1031"
   - "DoNotCatchGeneralExceptionTypes"
@@ -55,6 +50,3 @@ manager: "wpickett"
 
 ## Related Rules
  [CA2200: Rethrow to preserve stack details](../code-quality/ca2200-rethrow-to-preserve-stack-details.md)
-
-
-

@@ -1,14 +1,9 @@
 ---
 title: "Debug Multithreaded Applications"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords:
   - "vs.debug.gputthreads"
 dev_langs:
@@ -26,7 +21,7 @@ ms.assetid: 9d175bc2-1d95-4c47-9bc3-9755af968a9c
 caps.latest.revision: 28
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Debug Multithreaded Applications in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

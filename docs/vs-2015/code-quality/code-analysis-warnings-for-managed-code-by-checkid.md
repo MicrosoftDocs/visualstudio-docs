@@ -1,14 +1,9 @@
 ---
 title: "Code Analysis Warnings for Managed Code by CheckId | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 f1_keywords: 
   - "CA1000"
   - "CA1001"
@@ -509,6 +504,3 @@ The following table lists Code Analysis warnings for managed code by the CheckId
 |CA2242|[CA2242: Test for NaN correctly](../code-quality/ca2242-test-for-nan-correctly.md)|This expression tests a value against Single.Nan or Double.Nan. Use Single.IsNan(Single) or Double.IsNan(Double) to test the value.|  
 |CA2243|[CA2243: Attribute string literals should parse correctly](../code-quality/ca2243-attribute-string-literals-should-parse-correctly.md)|The string literal parameter of an attribute does not parse correctly for a URL, a GUID, or a version.|  
 |CA5122|[CA5122 P/Invoke declarations should not be safe critical](../code-quality/ca5122-p-invoke-declarations-should-not-be-safe-critical.md)|Methods are marked as SecuritySafeCritical when they perform a security sensitive operation, but are also safe to be used by transparent code. Transparent code may never directly call native code through a P/Invoke. Therefore, marking a P/Invoke as security safe critical will not enable transparent code to call it, and is misleading for security analysis.|
-
-
-

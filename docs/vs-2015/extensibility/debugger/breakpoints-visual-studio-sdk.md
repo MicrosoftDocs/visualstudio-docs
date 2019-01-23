@@ -1,20 +1,15 @@
 ---
 title: "Breakpoints (Visual Studio SDK) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "breakpoints"
 ms.assetid: acfcabed-9f2f-436c-ad18-7ca2f45d631b
 caps.latest.revision: 11
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Breakpoints (Visual Studio SDK)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -52,4 +47,3 @@ There are three types of breakpoints: pending, bound, and error.
  [IDebugBoundBreakpoint2](../../extensibility/debugger/reference/idebugboundbreakpoint2.md)   
  [IDebugPendingBreakpoint2](../../extensibility/debugger/reference/idebugpendingbreakpoint2.md)   
  [IDebugErrorBreakpoint2](../../extensibility/debugger/reference/idebugerrorbreakpoint2.md)
-

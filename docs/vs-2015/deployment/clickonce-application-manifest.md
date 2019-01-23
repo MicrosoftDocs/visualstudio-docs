@@ -1,14 +1,9 @@
 ---
 title: "ClickOnce Application Manifest | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -20,7 +15,7 @@ ms.assetid: 29570cec-4e53-4660-a850-abc4fa150243
 caps.latest.revision: 25
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # ClickOnce Application Manifest
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -118,6 +113,3 @@ A [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application manifest is
   
 ## See Also  
  [Publishing ClickOnce Applications](../deployment/publishing-clickonce-applications.md)
-
-
-

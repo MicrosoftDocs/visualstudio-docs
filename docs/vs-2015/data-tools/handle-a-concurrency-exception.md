@@ -1,12 +1,9 @@
 ---
 title: "Handle a concurrency exception | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -23,7 +20,7 @@ ms.assetid: 73ee9759-0a90-48a9-bf7b-9d6fc17bff93
 caps.latest.revision: 27
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Handle a concurrency exception
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,7 +38,7 @@ Concurrency exceptions (<xref:System.Data.DBConcurrencyException>) are raised wh
   
 4.  Fill a dataset with data from the `Customers` table in the Northwind database.  
   
-5.  Use the [Visual Database Tools](http://msdn.microsoft.com/en-us/6b145922-2f00-47db-befc-bf351b4809a1) in Visual Studio to directly access the `Customers` data table and change a record.  
+5.  Use the [Visual Database Tools](http://msdn.microsoft.com/6b145922-2f00-47db-befc-bf351b4809a1) in Visual Studio to directly access the `Customers` data table and change a record.  
   
 6.  Change the same record to a different value, update the dataset, and attempt to write the changes to the database, which results in a concurrency error being raised.  
   
@@ -50,10 +47,10 @@ Concurrency exceptions (<xref:System.Data.DBConcurrencyException>) are raised wh
 ## Prerequisites  
  In order to complete this walkthrough, you need:  
   
--   Access to the Northwind sample database with permission to perform updates. For more information, see [How to: Install Sample Databases](../data-tools/how-to-install-sample-databases.md).  
+-   Access to the Northwind sample database with permission to perform updates.
   
 > [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or the edition that you're using. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or the edition that you're using. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ## Create a new project  
  You begin your walkthrough by creating a new Windows application.  

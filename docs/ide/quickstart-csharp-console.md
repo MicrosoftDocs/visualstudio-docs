@@ -4,7 +4,6 @@ titleSuffix: ""
 description: "Learn how to create a simple Hello World console app in Visual Studio with C#, step-by-step."
 ms.date: 09/21/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-acquisition
 ms.custom: "seodec18"
 ms.topic: quickstart
 ms.devlang: vb
@@ -93,4 +92,4 @@ Let's add some code to pause the application so that the console window doesn't 
 Congratulations on completing this Quickstart! We hope you learned a little bit about C# and the Visual Studio IDE. To learn more, continue with the following tutorials.
 
 > [!div class="nextstepaction"]
-> [Get started with a C# console app in Visual Studio](tutorial-csharp-console.md)
+> [Get started with a C# console app in Visual Studio](../get-started/csharp/tutorial-console.md)

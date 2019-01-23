@@ -1,8 +1,7 @@
 ---
 title: "Create a network-based installation"
 description: "Learn how to create a network install point for deploying Visual Studio within an enterprise."
-ms.date: 10/17/2017
-ms.technology: vs-acquisition
+ms.date: 01/15/2019
 ms.custom: "seodec18"
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
@@ -25,7 +24,7 @@ Typically, an enterprise administrator creates a network install point for deplo
 
 ## Download the Visual Studio bootstrapper
 
-**Download** the edition of Visual Studio you want. Make sure to click **Save**, and then click **Open folder**.
+Download the edition of Visual Studio you want. Make sure to click **Save**, and then click **Open folder**.
 
 Your setup executable&mdash;or to be more specific, a bootstrapper file&mdash;should match one of the following.
 
@@ -110,11 +109,15 @@ If you want to update an existing layout to a full layout, use the --all option,
 
 Administrators can deploy Visual Studio onto client workstations as part of an installation script. Or, users who have administrator rights can run setup directly from the share to install Visual Studio on their machine.
 
-- Users can install by running: <br>```\\server\products\VS2017\vs_enterprise.exe```
-- Administrators can install in an unattended mode by running: <br>```\\server\products\VS2017\vs_enterprise.exe --quiet --wait --norestart```
+* Users can install by running: <br>```\\server\products\VS2017\vs_enterprise.exe```
+* Administrators can install in an unattended mode by running: <br>```\\server\products\VS2017\vs_enterprise.exe --quiet --wait --norestart```
 
+> [!IMPORTANT]
+> To prevent an error, make sure that your full installation path is less than 80 characters.
+>
 > [!TIP]
 > When executed as part of a batch file, the `--wait` option ensures that the `vs_enterprise.exe` process waits until the installation is complete before it returns an exit code. This is useful if an enterprise administrator wants to perform further actions on a completed installation (for example, to [apply a product key to a successful installation](automatically-apply-product-keys-when-deploying-visual-studio.md)) but must wait for the installation to finish to handle the return code from that installation.  If you do not use `--wait`, the `vs_enterprise.exe` process exits before the installation is complete and returns an inaccurate exit code that doesn't represent the state of the install operation.
+
 
 When you install from a layout, the content that is installed is acquired from the layout. However, if you select a component that is not in the layout, it will be acquired from the internet.  If you want to prevent Visual Studio setup from downloading any content that is missing in your layout, use the `--noWeb` option.  If `--noWeb` is used and the layout is missing any content that is selected to be installed, setup fails.
 

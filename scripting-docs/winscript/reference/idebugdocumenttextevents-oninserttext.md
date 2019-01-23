@@ -24,7 +24,7 @@ Indicates that new text has been added to the document.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT onInsertText(  
    ULONG  cCharacterPosition,  
    ULONG  cNumToInsert  

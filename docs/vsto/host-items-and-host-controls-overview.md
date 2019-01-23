@@ -1,9 +1,6 @@
 ---
 title: "Host items and host controls overview"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -34,8 +31,8 @@ helpviewer_keywords:
   - "document-level customizations [Office development in Visual Studio], host items"
   - "Word [Office development in Visual Studio], host controls"
   - "host controls [Office development in Visual Studio], deleting"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload: 
   - "office"
@@ -173,4 +170,3 @@ ms.workload:
  [Automate Excel by using extended objects](../vsto/automating-excel-by-using-extended-objects.md)   
  [Controls on Office documents](../vsto/controls-on-office-documents.md)   
  [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)  
-  
