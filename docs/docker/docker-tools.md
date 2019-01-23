@@ -15,7 +15,6 @@ With Visual Studio 2017, you can easily build, debug, and run containerized ASP.
 
 * Either [Docker Desktop (Windows)](https://hub.docker.com/editions/community/docker-ce-desktop-windows) or [Docker Desktop for Windows](https://docs.docker.com/docker-for-windows/)
 * [Visual Studio 2017](https://visualstudio.microsoft.com/) with the **Web Development**, **Azure Tools** workload, and/or **.NET Core cross-platform development** workload installed
-* [ASP.NET Core 2.1 Tools](https://dotnet.microsoft.com/download/dotnet-core/2.1)
 
 ## Installation and setup
 
@@ -91,21 +90,6 @@ CONTAINER ID        IMAGE                  COMMAND                   CREATED    
 baf9a678c88d        hellodockertools:dev   "C:\\remote_debugge..."   21 seconds ago      Up 19 seconds       0.0.0.0:37630->80/tcp   dockercompose4642749010770307127_hellodockertools_1
 ```
 
-## Making changes to your app
-
-Make a change to one of the static files in the app. Open About.cshtml, and replace the text **Use this area to provide additional information** with something else, like `Trying Docker containers`.
-
-Changes to static files and Razor views are automatically updated without the need for a compilation step. Make the change, save, restart the debugger if you're still debugging, and refresh the browser to view the update.
-
-Code file modifications require compilation and a restart of Kestrel within the container.  Make a code change, such as changing the text in About.cshtml.cs that says "Your application description page" to something else, like "Hello from my Docker container."
-
-After making the change, use `F5` to rebuild and start debugging the app within the container. The Docker container isn't rebuilt or stopped. Run the `docker ps` command in PMC. Notice the original container is still running as of 10 minutes ago:
-
-```console
-CONTAINER ID        IMAGE                  COMMAND               CREATED             STATUS              PORTS                                           NAMES
-7492e48bfebb        hellodockertools:dev   "tail -f /dev/null"   10 minutes ago         Up 10 minutes          0.0.0.0:39293->80/tcp, 0.0.0.0:44356->443/tcp   nifty_lamport
-```
-
 ## Publish Docker images
 
 Once the develop and debug cycle of the app is completed, you can create a production image of the app.
@@ -130,24 +114,8 @@ Once the develop and debug cycle of the app is completed, you can create a produ
 
 You can now pull the container from the registry to any host capable of running Docker images, for example [Azure Container Instances](/azure/container-instances/container-instances-tutorial-deploy-app).
 
-## Troubleshooting
-
-### Shared Drives
-
-Make sure that Shared Drives are enabled in Docker. **[Shared Drives](https://docs.docker.com/docker-for-windows/#shared-drives)** in Docker for Windows must be configured to support volume mapping and debugging. Right-click the System Tray's Docker icon, select **Settings**, and select **Shared Drives**. Select the drive where Docker stores files. Click **Apply**.
-
-![Dialog to select local C drive sharing for containers](media/settings-shared-drives-win.png)
-
-> [!TIP]
-> Visual Studio 2017 versions 15.6 and later prompt when **Shared Drives** aren't configured.
-
-### Container type
-
-When adding Docker support to a project, you choose either a Windows or a Linux container. The Docker host must be running the same container type. To change the container type in the running Docker instance, right-click the System Tray's Docker icon and choose **Switch to Windows containers...** or **Switch to Linux containers...**.
-
 ## Additional resources
 
-* [View or download sample code](https://github.com/aspnet/Docs/tree/master/aspnetcore/host-and-deploy/docker/visual-studio-tools-for-docker/samples) ([how to download](xref:index#how-to-download-a-sample))
 * [Container development with Visual Studio](/visualstudio/containers)
 * [Troubleshoot Visual Studio 2017 development with Docker](vs-azure-tools-docker-troubleshooting-docker-errors.md)
 * [Visual Studio Tools for Docker GitHub repository](https://github.com/Microsoft/DockerTools)
