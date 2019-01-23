@@ -101,7 +101,7 @@ ms.custom: seodec18
                                     <div class="cardPadding">
                                         <div class="card">
                                             <div class="cardText">
-                                                <h2>Choose a language</h2>
+                                                <h2>Follow a tutorial</h2>
                                                 <table cellpadding="0" cellspacing="0" border="0">
                                                     <tr>
                                                         <td style="border-top-color:transparent!important;padding-left:0;">
