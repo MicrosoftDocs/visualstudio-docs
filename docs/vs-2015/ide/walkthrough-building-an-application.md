@@ -74,7 +74,7 @@ By completing this walkthrough, you’ll  become more familiar with several opti
 4.  Choose the **OK** button.  
   
 ##  <a name="BKMK_CreateBuildConfig"></a> Create a Custom Build Configuration  
- When you create a solution, debug and release build configurations and their default platform targets are defined for the solution automatically. You can then customize these configurations or create your own. Build configurations specify the build type. Build platforms specify the operating system that an application targets for that configuration. For more information, see [Understanding Build Configurations](../ide/understanding-build-configurations.md), [Understanding Build Platforms](../ide/understanding-build-platforms.md), and [Debug and Release Project Configurations](http://msdn.microsoft.com/en-us/0440b300-0614-4511-901a-105b771b236e).  
+ When you create a solution, debug and release build configurations and their default platform targets are defined for the solution automatically. You can then customize these configurations or create your own. Build configurations specify the build type. Build platforms specify the operating system that an application targets for that configuration. For more information, see [Understanding Build Configurations](../ide/understanding-build-configurations.md), [Understanding Build Platforms](../ide/understanding-build-platforms.md), and [Debug and Release Project Configurations](http://msdn.microsoft.com/0440b300-0614-4511-901a-105b771b236e).  
   
  You can change or create configurations and platform settings by using the **Configuration Manager** dialog box. In this procedure, you’ll create a build configuration for testing.  
   
@@ -256,8 +256,5 @@ By completing this walkthrough, you’ll  become more familiar with several opti
   
 ## See Also  
  [Walkthrough: Building a Project (C++)](http://msdn.microsoft.com/library/d459bc03-88ef-48d0-9f9a-82d17f0b6a4d)   
- [ASP.NET Web Application Project Precompilation Overview](http://msdn.microsoft.com/en-us/b940abbd-178d-4570-b441-52914fa7b887)   
+ [ASP.NET Web Application Project Precompilation Overview](http://msdn.microsoft.com/b940abbd-178d-4570-b441-52914fa7b887)   
  [Walkthrough: Using MSBuild](../msbuild/walkthrough-using-msbuild.md)
-
-
-

@@ -53,7 +53,7 @@ class Penguin : public Bird, public Swimmer {};
 > [!NOTE]
 >  The **Show Derived Classes** command is not supported for C++ code. You can display derived classes by going to Class View, expanding the type node, expanding the **Derived Types** subfolder, and then dragging those types onto the class diagram.  
   
- For more information about multiple-class inheritance, see [(NOTINBUILD) Multiple Inheritance](http://msdn.microsoft.com/en-us/3b74185e-2beb-4e29-8684-441e51d2a2ca) and [Multiple Base Classes](http://msdn.microsoft.com/library/a30c69fe-401c-4a87-96a0-e0da70c7c740).  
+ For more information about multiple-class inheritance, see [(NOTINBUILD) Multiple Inheritance](http://msdn.microsoft.com/3b74185e-2beb-4e29-8684-441e51d2a2ca) and [Multiple Base Classes](http://msdn.microsoft.com/library/a30c69fe-401c-4a87-96a0-e0da70c7c740).  
   
 ## Abstract Classes  
  Class Designer supports abstract classes (also named "abstract base classes"). These are classes that you never instantiate, but from which you can derive other classes. Using an example from "Multiple Inheritance" earlier in this document, you might instantiate the `Bird` class as individual objects as follows:  
@@ -172,9 +172,6 @@ typedef struct
  [Working with Visual C++ Code (Class Designer)](../ide/working-with-visual-cpp-code-class-designer.md)   
  [Classes and Structs](http://msdn.microsoft.com/library/516dd496-13fb-4f17-845a-e9ca45437873)   
  [Anonymous Class Types](http://msdn.microsoft.com/library/9ba667b2-8c2a-4c29-82a6-fa120b9233c8)   
- [(NOTINBUILD) Multiple Inheritance](http://msdn.microsoft.com/en-us/3b74185e-2beb-4e29-8684-441e51d2a2ca)   
+ [(NOTINBUILD) Multiple Inheritance](http://msdn.microsoft.com/3b74185e-2beb-4e29-8684-441e51d2a2ca)   
  [Multiple Base Classes](http://msdn.microsoft.com/library/a30c69fe-401c-4a87-96a0-e0da70c7c740)   
  [Templates](http://msdn.microsoft.com/library/90fcc14a-2092-47af-9d2e-dba26d25b872)
-
-
-

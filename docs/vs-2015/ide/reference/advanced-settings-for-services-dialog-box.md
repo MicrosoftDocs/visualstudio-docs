@@ -32,11 +32,11 @@ Client application services provide simplified access to [!INCLUDE[ajax_current_
 ## Task List  
  [How to: Configure Client Application Services](http://msdn.microsoft.com/library/34a8688a-a32c-40d3-94be-c8e610c6a4e8)  
   
- [How to: Work Offline with Client Application Services](http://msdn.microsoft.com/en-us/f792cb16-8520-4a0f-9dc9-07bfbc454e38)  
+ [How to: Work Offline with Client Application Services](http://msdn.microsoft.com/f792cb16-8520-4a0f-9dc9-07bfbc454e38)  
   
 ## UIElement List  
  **Save password hash locally to enable offline login**  
- Specifies whether an encrypted form of the user's password will be cached locally to enable the user to log in when the application is in offline mode. For more information, see [How to: Work Offline with Client Application Services](http://msdn.microsoft.com/en-us/f792cb16-8520-4a0f-9dc9-07bfbc454e38). This option is selected by default.  
+ Specifies whether an encrypted form of the user's password will be cached locally to enable the user to log in when the application is in offline mode. For more information, see [How to: Work Offline with Client Application Services](http://msdn.microsoft.com/f792cb16-8520-4a0f-9dc9-07bfbc454e38). This option is selected by default.  
   
  **Require users to log on again whenever the server cookie expires**  
  Specifies whether previously authenticated users are automatically reauthenticated when your application accesses the roles or profile service and the server authentication cookie has expired. Select this option to deny access to the application services and require explicit reauthentication after the cookie expires. This is useful for applications deployed in public locations to make sure that users who leave the application running after use will not remain authenticated indefinitely. This option is cleared by default.  
@@ -53,7 +53,4 @@ Client application services provide simplified access to [!INCLUDE[ajax_current_
  [Client Application Services](http://msdn.microsoft.com/library/1487d8df-089e-4f21-abfb-a791a652b58e)   
  [Services Page, Project Designer](../../ide/reference/services-page-project-designer.md)   
  [How to: Configure Client Application Services](http://msdn.microsoft.com/library/34a8688a-a32c-40d3-94be-c8e610c6a4e8)   
- [How to: Work Offline with Client Application Services](http://msdn.microsoft.com/en-us/f792cb16-8520-4a0f-9dc9-07bfbc454e38)
-
-
-
+ [How to: Work Offline with Client Application Services](http://msdn.microsoft.com/f792cb16-8520-4a0f-9dc9-07bfbc454e38)

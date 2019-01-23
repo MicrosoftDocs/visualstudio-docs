@@ -20,4 +20,4 @@ ms.author: ghogen
 manager: "douge"
 ---
 # Getting Started with Visual C++ in Visual Studio 2015
-This content has been removed. For an introduction to Visual C++ in Visual Studio, see [Visual C++ Guided Tour](http://msdn.microsoft.com/en-us/499cb66f-7df1-45d6-8b6b-33d94fd1f17c).
+This content has been removed. For an introduction to Visual C++ in Visual Studio, see [Visual C++ Guided Tour](http://msdn.microsoft.com/499cb66f-7df1-45d6-8b6b-33d94fd1f17c).

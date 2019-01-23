@@ -25,7 +25,7 @@ JavaScript is a first-class language in Visual Studio. You can use most or all o
 
 - To create cross-platform apps using Apache Cordova, [get the Visual Studio Tools for Apache Cordova](http://go.microsoft.com/fwlink/p/?LinkId=397606).
 
-- To create [Windows Store](http://dev.windows.com/develop), [Windows Phone](http://dev.windows.com/develop), and universal apps (that support both platforms), [get the tools](http://dev.windows.com/en-us/develop/downloads).
+- To create [Windows Store](http://dev.windows.com/develop), [Windows Phone](http://dev.windows.com/develop), and universal apps (that support both platforms), [get the tools](http://dev.windows.com/develop/downloads).
 
 - To create cloud-based services, see the [Microsoft Azure site](http://azure.microsoft.com/documentation/).
 

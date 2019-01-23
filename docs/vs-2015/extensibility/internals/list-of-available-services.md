@@ -159,6 +159,5 @@ manager: "ghogen"
 |<xref:Microsoft.VisualStudio.Shell.Interop.SVsXMLMemberIndexService>|<xref:Microsoft.VisualStudio.Shell.Interop.IVsXMLMemberIndexService>|Yes|Yes|Provides access to XML-formatted documentation files associated with a particular metadata file.|  
   
 ## See Also  
- [COM and Managed Services](http://msdn.microsoft.com/en-us/6c5808b4-ad87-48d7-ae06-33a81e7052af)   
+ [COM and Managed Services](http://msdn.microsoft.com/6c5808b4-ad87-48d7-ae06-33a81e7052af)   
  [Using and Providing Services](../../extensibility/using-and-providing-services.md)
-

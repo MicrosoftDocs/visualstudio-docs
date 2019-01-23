@@ -161,7 +161,7 @@ TRACE( _T("This is a test of the TRACE macro that uses a TCHAR string: %s %d\n")
   
 ###  <a name="BKMK_Taking_memory_snapshots"></a> Taking memory snapshots  
   
-1. Create a [CMemoryState](http://msdn.microsoft.com/en-us/8fade6e9-c6fb-4b2a-8565-184a912d26d2) object and call the [CMemoryState::Checkpoint](http://msdn.microsoft.com/library/b2d80fea-3d21-457e-816d-b035909bf21a) member function. This creates the first memory snapshot.  
+1. Create a [CMemoryState](http://msdn.microsoft.com/8fade6e9-c6fb-4b2a-8565-184a912d26d2) object and call the [CMemoryState::Checkpoint](http://msdn.microsoft.com/library/b2d80fea-3d21-457e-816d-b035909bf21a) member function. This creates the first memory snapshot.  
   
 2. After your program performs its memory allocation and deallocation operations, create another `CMemoryState` object and call `Checkpoint` for that object. This gets a second snapshot of memory usage.  
   
@@ -437,9 +437,9 @@ pMyPerson->Dump( afxDump );
   
    1.  In the **\<Project> Property Pages** dialog box, click the **Configuration Manager** button.  
   
-   2.  In the [Configuration Manager dialog box](http://msdn.microsoft.com/en-us/fa182dca-282e-4ae5-bf37-e155344ca18b), locate your project in the grid. In the **Configuration** column, select **\<New...>**.  
+   2.  In the [Configuration Manager dialog box](http://msdn.microsoft.com/fa182dca-282e-4ae5-bf37-e155344ca18b), locate your project in the grid. In the **Configuration** column, select **\<New...>**.  
   
-   3.  In the [New Project Configuration dialog box](http://msdn.microsoft.com/en-us/cca616dc-05a6-4fe3-bdc1-40c72a66f2be), type a name for your new configuration, such as "Partial Debug", in the **Project Configuration Name** box.  
+   3.  In the [New Project Configuration dialog box](http://msdn.microsoft.com/cca616dc-05a6-4fe3-bdc1-40c72a66f2be), type a name for your new configuration, such as "Partial Debug", in the **Project Configuration Name** box.  
   
    4.  In the **Copy Settings from** list, choose **Release**.  
   
@@ -487,6 +487,3 @@ pMyPerson->Dump( afxDump );
   
 ## See Also  
  [Debugging Visual C++](../debugger/debugging-native-code.md)
-
-
-

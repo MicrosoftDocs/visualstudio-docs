@@ -158,7 +158,4 @@ manager: "ghogen"
 ## See Also  
  [JavaScript IntelliSense](../ide/javascript-intellisense.md)   
  [XML Documentation Comments](../ide/xml-documentation-comments-javascript.md)   
- [NIB: Walkthrough: JavaScript IntelliSense in ASP.NET](http://msdn.microsoft.com/en-us/4f6e0cc2-7f48-4dbf-abb0-7fb743a2d05b)
-
-
-
+ [NIB: Walkthrough: JavaScript IntelliSense in ASP.NET](http://msdn.microsoft.com/4f6e0cc2-7f48-4dbf-abb0-7fb743a2d05b)

@@ -49,7 +49,7 @@ You can disable or enable Edit and Continue in the **Options** dialog box at des
 3. To enable, select the **Enable Edit and Continue** check box. To disable, clear the check box.  
   
    > [!NOTE]
-   >  If IntelliTrace is enabled and you collect both IntelliTrace events and call information, Edit and Continue is disabled. For more information, see [Configure IntelliTrace](http://msdn.microsoft.com/en-us/7657ecab-e07e-4b1b-872d-f05d966be37e).  
+   >  If IntelliTrace is enabled and you collect both IntelliTrace events and call information, Edit and Continue is disabled. For more information, see [Configure IntelliTrace](http://msdn.microsoft.com/7657ecab-e07e-4b1b-872d-f05d966be37e).  
   
 4. Click **OK**.  
   
@@ -57,6 +57,3 @@ You can disable or enable Edit and Continue in the **Options** dialog box at des
   
 ## See Also  
  [Edit and Continue](../debugger/edit-and-continue.md)
-
-
-

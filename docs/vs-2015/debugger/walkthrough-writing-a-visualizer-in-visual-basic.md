@@ -29,7 +29,7 @@ manager: "ghogen"
 This walkthrough shows how to write a simple visualizer by using [!INCLUDE[vbprvb](../includes/vbprvb-md.md)]. The visualizer you will create in this walkthrough displays the contents of a string using a Windows Forms message box. This simple string visualizer is a basic example to show how you can create visualizers for other data types more applicable to your projects.  
   
 > [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help, depending on your active settings or edition. To change your settings, go to the **Tools** menu and choose **Import and Export** . For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  The dialog boxes and menu commands you see might differ from those described in Help, depending on your active settings or edition. To change your settings, go to the **Tools** menu and choose **Import and Export** . For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
  Visualizer code must be placed in a DLL that will be read by the debugger. The first step is to create a class library project for the DLL.  
   
@@ -230,6 +230,3 @@ This walkthrough shows how to write a simple visualizer by using [!INCLUDE[vbprv
  [Visualizer Architecture](../debugger/visualizer-architecture.md)   
  [How to: Install a Visualizer](../debugger/how-to-install-a-visualizer.md)   
  [Create Custom Visualizers](../debugger/create-custom-visualizers-of-data.md)
-
-
-

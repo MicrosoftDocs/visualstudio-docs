@@ -186,6 +186,5 @@ This walkthrough shows how to add a DLL reference to a custom Start Page. The ex
      Your custom start page should be displayed. If you want to change any files, you must close the experimental instance, make the changes, copy and paste the changed files, and then re-open the experimental instance to view the changes.  
   
 ## See Also  
- [WPF Container Controls](http://msdn.microsoft.com/en-us/a0177167-d7db-4205-9607-8ae316952566)   
+ [WPF Container Controls](http://msdn.microsoft.com/a0177167-d7db-4205-9607-8ae316952566)   
  [Walkthrough: Adding Custom XAML to the Start Page](../extensibility/walkthrough-adding-custom-xaml-to-the-start-page.md)
-

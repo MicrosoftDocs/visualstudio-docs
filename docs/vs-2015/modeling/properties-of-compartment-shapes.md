@@ -57,7 +57,4 @@ Compartment shapes are one of the shapes you can use to display a domain class i
 |Help Keyword|The keyword that is used to index F1 help for this shape.|\<none>|  
   
 ## See Also  
- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/en-us/ca5e84cb-a315-465c-be24-76aa3df276aa)
-
-
-
+ [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

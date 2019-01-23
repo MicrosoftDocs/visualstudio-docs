@@ -48,7 +48,7 @@ Below are the errors and warning dialog boxes you may encounter while debugging 
   
  [No Source Code Available for the Current Location Dialog Box](../debugger/no-source-available.md)  
   
- [No Symbolic Information Dialog Box](http://msdn.microsoft.com/en-us/18de4888-9cca-4059-a165-48b135fee4c9)  
+ [No Symbolic Information Dialog Box](http://msdn.microsoft.com/18de4888-9cca-4059-a165-48b135fee4c9)  
   
  [Resolve Ambiguity Dialog Box](../debugger/resolve-ambiguity-dialog-box.md)  
   
@@ -63,13 +63,10 @@ Below are the errors and warning dialog boxes you may encounter while debugging 
   
  [Remote Debugging Errors](../debugger/remote-debugging-errors-and-troubleshooting.md)  
   
- [Attach Errors](http://msdn.microsoft.com/en-us/2820d904-a068-4fcb-bbfb-bbbe5195d6ae)  
+ [Attach Errors](http://msdn.microsoft.com/2820d904-a068-4fcb-bbfb-bbbe5195d6ae)  
   
- [Troubleshooting SQL Debugging Setup](http://msdn.microsoft.com/en-us/b3ec8303-4c0d-449c-8d19-4932c1d820a7)  
+ [Troubleshooting SQL Debugging Setup](http://msdn.microsoft.com/b3ec8303-4c0d-449c-8d19-4932c1d820a7)  
   
  [Debugging Visual C++ FAQs](../debugger/debugging-native-code-faqs.md)  
   
  [Debugger Security](../debugger/debugger-security.md)
-
-
-

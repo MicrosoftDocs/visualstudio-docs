@@ -59,7 +59,7 @@ This feature is available only if address-level debugging is enabled the **Optio
   You probably will never have the desire or need to view machine-code instructions in their raw, numeric form, rather than assembly language. However, if you want to do so, you can use the Memory window for that purpose or choose Code Bytes from the shortcut menu in the Disassembly window.  
   
 > [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ### To display the Disassembly window  
   
@@ -78,8 +78,3 @@ This feature is available only if address-level debugging is enabled the **Optio
 ## See Also  
  [Viewing Data in the Debugger](../debugger/viewing-data-in-the-debugger.md)   
  [How to: Use the Registers Window](../debugger/how-to-use-the-registers-window.md)
-
-
-
-
-

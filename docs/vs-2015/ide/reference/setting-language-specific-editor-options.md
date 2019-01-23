@@ -57,8 +57,5 @@ manager: "ghogen"
  [Customizing the Editor](../../ide/customizing-the-editor.md)  
  Provides links to topics that explain the many aspects of the editor that you can set preferences for.  
   
- [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)  
+ [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)  
  Provides links to topics that explain how to customize your settings, key bindings, and other features of the integrated development environment (IDE).
-
-
-

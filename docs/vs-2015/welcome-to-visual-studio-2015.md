@@ -47,7 +47,7 @@ Welcome to Visual Studio! We’ve got everything you need to create great apps f
 ## Build apps for Android, iOS, and Windows
  You can use Visual Studio to build apps for Android, iOS, and Windows devices. Learn more about it at [Cross-Platform Mobile Development](./cross-platform/cross-platform-mobile-development-in-visual-studio.md).
 
- For information about Universal Windows Apps (UWP), see [Universal Windows Apps](https://dev.windows.com/en-us/windows-apps).
+ For information about Universal Windows Apps (UWP), see [Universal Windows Apps](https://dev.windows.com/windows-apps).
 
  Choose the tools you need based on your app requirements and the language you want to use.
 
@@ -93,7 +93,7 @@ Welcome to Visual Studio! We’ve got everything you need to create great apps f
 
 |||||
 |-|-|-|-|
-|[What’s new in Visual Studio 2015](./what-s-new-in-visual-studio-2015.md)|[What's New for Visual C#](http://msdn.microsoft.com/library/9f18dc26-27fa-4603-a639-b573f07a117b)|[What’s new for .NET Framework 4.6](http://msdn.microsoft.com/library/1d971dd7-10fc-4692-8dac-30ca308fc0fa)|[What’s new for ALM](http://msdn.microsoft.com/en-us/54b98a53-6083-4303-869a-8063d8fae938)|
+|[What’s new in Visual Studio 2015](./what-s-new-in-visual-studio-2015.md)|[What's New for Visual C#](http://msdn.microsoft.com/library/9f18dc26-27fa-4603-a639-b573f07a117b)|[What’s new for .NET Framework 4.6](http://msdn.microsoft.com/library/1d971dd7-10fc-4692-8dac-30ca308fc0fa)|[What’s new for ALM](http://msdn.microsoft.com/54b98a53-6083-4303-869a-8063d8fae938)|
 |[What’s new for C++](http://msdn.microsoft.com/library/1cc09fad-85a2-43c2-b022-bb99f5fe0ad7)|[What's New for Visual Basic](http://msdn.microsoft.com/library/d7e97396-7f42-4873-a81c-4ebcc4b6ca02)|[What’s new for JavaScript](/visualstudio/scripting-docs/javascript/what-s-new-in-javascript)||
 |[Python](./python/getting-started-with-python.md)||||
 

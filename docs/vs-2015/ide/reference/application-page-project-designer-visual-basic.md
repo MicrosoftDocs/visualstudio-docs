@@ -110,7 +110,7 @@ Use the **Application** page of the Project Designer to specify a project's appl
  The following settings are available in the **Windows application framework properties** section. These options are available only if the **Enable application framework** check box is selected. The section following this one describes **Windows application framework properties** settings for Windows Presentation Foundation (WPF) Applications.  
   
  **Enable XP visual styles**  
- Enables or disables the Windows XP visual styles, also known as *Windows XP Themes*. Windows XP visual styles enable, for example, controls with rounded corners and dynamic colors. The default is enabled. For more information about Windows XP visual styles, see [Windows XP Features and Windows Forms Controls](http://msdn.microsoft.com/en-us/bc7fab94-fce9-4bf1-a8ad-a5837c91c3c0)).  
+ Enables or disables the Windows XP visual styles, also known as *Windows XP Themes*. Windows XP visual styles enable, for example, controls with rounded corners and dynamic colors. The default is enabled. For more information about Windows XP visual styles, see [Windows XP Features and Windows Forms Controls](http://msdn.microsoft.com/bc7fab94-fce9-4bf1-a8ad-a5837c91c3c0)).  
   
  **Make single instance application**  
  Select this check box to prevent users from running multiple instances of the application. The default setting for this check box is cleared. This setting allows multiple instances of the application to be run.  
@@ -161,6 +161,3 @@ Use the **Application** page of the Project Designer to specify a project's appl
 ## See Also  
 [Managing Application Properties](../../ide/application-properties.md)
  [Writing Code in Office Solutions](http://msdn.microsoft.com/library/2d4d8fd0-e881-4829-976f-0d1a9221dec0)
-
-
-

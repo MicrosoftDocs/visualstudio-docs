@@ -49,7 +49,7 @@ To see an existing type and its members, add its shape to a class diagram.
    You can also view types in the project by dragging one or more types from the project node in Class View to the class diagram.  
   
 > [!TIP]
->  If Class View is not open, open Class View from the **View** menu. For more information about Class View, see [Viewing Classes and Their Members](http://msdn.microsoft.com/en-us/71e9e8f3-261a-4e0c-87bf-5ec48b8bf333).  
+>  If Class View is not open, open Class View from the **View** menu. For more information about Class View, see [Viewing Classes and Their Members](http://msdn.microsoft.com/71e9e8f3-261a-4e0c-87bf-5ec48b8bf333).  
   
  To display types at default locations on the diagram, select one or more types in Class View, right-click the selected types, and choose **View Class Diagram**.  
   
@@ -68,6 +68,3 @@ To see an existing type and its members, add its shape to a class diagram.
  [How to: View Inheritance Between Types (Class Designer)](../ide/how-to-view-inheritance-between-types-class-designer.md)   
  [How to: Customize Class Diagrams (Class Designer)](../ide/how-to-customize-class-diagrams-class-designer.md)   
  [Viewing Types and Relationships (Class Designer)](../ide/viewing-types-and-relationships-class-designer.md)
-
-
-

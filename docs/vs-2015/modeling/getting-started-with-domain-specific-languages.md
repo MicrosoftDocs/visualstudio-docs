@@ -101,7 +101,7 @@ This topic explains the basic concepts in defining and using a domain-specific l
 1. Click **Transform All Templates** in the Solution Explorer toolbar. This regenerates most of the source code from DslDefinition.dsl.  
   
    > [!NOTE]
-   >  Whenever you change DslDefinition.dsl, you must click **Transform All Templates** before you rebuild the solution. You can automate this step. For more information, see [How to Automate Transform All Templates](http://msdn.microsoft.com/en-us/b63cfe20-fe5e-47cc-9506-59b29bca768a).  
+   >  Whenever you change DslDefinition.dsl, you must click **Transform All Templates** before you rebuild the solution. You can automate this step. For more information, see [How to Automate Transform All Templates](http://msdn.microsoft.com/b63cfe20-fe5e-47cc-9506-59b29bca768a).  
   
 2. Press F5, or on the **Debug** menu, click **Start Debugging**.  
   
@@ -399,6 +399,3 @@ This topic explains the basic concepts in defining and using a domain-specific l
  [Understanding Models, Classes and Relationships](../modeling/understanding-models-classes-and-relationships.md)   
  [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)   
  [Visualizaton and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=186128)
-
-
-

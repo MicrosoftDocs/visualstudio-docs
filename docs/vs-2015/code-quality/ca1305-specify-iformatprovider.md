@@ -76,4 +76,4 @@ manager: "wpickett"
  [CA1304: Specify CultureInfo](../code-quality/ca1304-specify-cultureinfo.md)
 
 ## See Also
- [NIB: Using the CultureInfo Class](http://msdn.microsoft.com/en-us/d4329e34-64c3-4d1e-8c73-5b0ee626ba7a)
+ [NIB: Using the CultureInfo Class](http://msdn.microsoft.com/d4329e34-64c3-4d1e-8c73-5b0ee626ba7a)

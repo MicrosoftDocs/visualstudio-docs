@@ -35,7 +35,7 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose Import and Export Settings on the Tools menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose Import and Export Settings on the Tools menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
  To debug your ActiveX control, you must specify a container (executable) for the control to run in.  
   
@@ -62,6 +62,3 @@ NOTE]
  [Testing Properties and Events with Test Container](http://msdn.microsoft.com/library/626867cf-fe53-4c30-8973-55bb93ef3917)   
  [COM and ActiveX Debugging](../debugger/com-and-activex-debugging.md)   
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)
-
-
-

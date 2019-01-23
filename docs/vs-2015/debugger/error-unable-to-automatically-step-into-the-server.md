@@ -35,7 +35,7 @@ The error reads:
   
  Unable to Automatically Step Into the Server. The debugger was not notified before the remote procedure was executed  
   
- This error can occur when you are trying to step into a web service (see [Stepping Into an XML Web Service](http://msdn.microsoft.com/en-us/8e67de38-bf5f-41cc-a457-1b88ce63d764)). It can occur whenever [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] is not set up properly.  
+ This error can occur when you are trying to step into a web service (see [Stepping Into an XML Web Service](http://msdn.microsoft.com/8e67de38-bf5f-41cc-a457-1b88ce63d764)). It can occur whenever [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] is not set up properly.  
   
  Possible causes are:  
   
@@ -46,6 +46,3 @@ The error reads:
 ## See Also  
  [Remote Debugging Errors and Troubleshooting](../debugger/remote-debugging-errors-and-troubleshooting.md)   
  [Remote Debugging](../debugger/remote-debugging.md)
-
-
-
