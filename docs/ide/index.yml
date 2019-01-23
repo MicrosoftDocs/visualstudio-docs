@@ -65,8 +65,8 @@ sections:
       text: Python
       href: /visualstudio/python/
     - image: 
-        src: https://docs.microsoft.com/media/logos/logo_nodejs.svg
-      text: Node.js
+        src: https://docs.microsoft.com/media/logos/logo_js.svg
+      text: JavaScript
       href: /visualstudio/javascript/
 - title: Develop Applications
   items:
