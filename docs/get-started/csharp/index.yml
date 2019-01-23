@@ -14,6 +14,8 @@ metadata:
   ms.author: ghogen
   dev_langs:
     - CSharp
+abstract:
+  description: This page contains links to beginner tutorials for learning Visual Studio in the C# language. For the full Visual Studio documentation, see [Visual Studio](/visualstudio/ide/). For the full C# documentation, see [C# Guide](/dotnet/csharp).
 sections:
 - title: Get Started
   items:
