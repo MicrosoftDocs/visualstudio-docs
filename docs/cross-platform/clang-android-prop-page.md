@@ -7,8 +7,8 @@ ms.topic: "conceptual"
 ms.assetid: 663140ea-a568-472b-a79a-dfea8818e06a
 author: "corob"
 ms.author: "mblome"
-manager: douge
-f1_keywords: 
+manager: jillfra
+f1_keywords:
   - VC.Project.VCClangCompilerTool.AdditionalIncludeDirectories
   - VC.Project.VCClangCompilerTool.DebugInformationFormat
   - VC.Project.VCClangCompilerTool.ObjectFile
@@ -41,7 +41,7 @@ f1_keywords:
   - VC.Project.VCClangCompilerTool.ForcedIncludeFiles
   - VC.Project.VCClangCompilerTool.MultiProcessorCompilation
   - vc.project.AdditionalOptionsPage
-ms.workload: 
+ms.workload:
   - "xplat-cplusplus"
 ---
 
