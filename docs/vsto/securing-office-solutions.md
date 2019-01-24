@@ -9,9 +9,9 @@ helpviewer_keywords:
   - "Office development in Visual Studio, security"
   - "Office applications [Office development in Visual Studio], security"
   - "security [Office development in Visual Studio]"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
   - "office"
 ---

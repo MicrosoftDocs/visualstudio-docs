@@ -9,9 +9,9 @@ helpviewer_keywords:
   - "databases [Office development in Visual Studio], scrolling records"
   - "records [Office development in Visual Studio], scrolling"
   - "data [Office development in Visual Studio], scrolling database records"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

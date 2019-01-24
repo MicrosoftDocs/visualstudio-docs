@@ -11,9 +11,9 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, browsing SharePoint sites"
   - "SharePoint development in Visual Studio, SharePoint Connections"
   - "SharePoint Connections [SharePoint development in Visual Studio]"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

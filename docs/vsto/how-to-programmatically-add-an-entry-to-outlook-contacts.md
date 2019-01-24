@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "contacts [Office development in Visual Studio], creating"
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload: 
   - "office"
 ---

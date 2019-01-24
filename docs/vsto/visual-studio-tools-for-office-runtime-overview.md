@@ -21,9 +21,9 @@ helpviewer_keywords:
   - "runtime [Office development in Visual Studio], about VSTO runtime"
   - "solution loader [Office development in Visual Studio]"
   - "runtime [Office development in Visual Studio]"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

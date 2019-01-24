@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "Office development in Visual Studio, deployment manifests"
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
   - "office"
 ---

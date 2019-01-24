@@ -10,9 +10,9 @@ helpviewer_keywords:
   - "calculations, running in Excel"
   - "Excel [Office development in Visual Studio], running calculations programmatically"
   - "workbooks, running calculations"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

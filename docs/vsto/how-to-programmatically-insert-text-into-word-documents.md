@@ -11,9 +11,9 @@ helpviewer_keywords:
   - "ranges, replacing text in documents"
   - "documents [Office development in Visual Studio], inserting text"
   - "text [Office development in Visual Studio], replacing"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

@@ -13,9 +13,9 @@ helpviewer_keywords:
   - "mail items [Office development in Visual Studio], calendars"
   - "calendars [Office development in Visual Studio], about calendars in Outlook"
   - "e-mail [Office development in Visual Studio], calendars"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

@@ -10,9 +10,9 @@ helpviewer_keywords:
   - "data [Office development in Visual Studio], updating a data source from a document"
   - "host controls [Office development in Visual Studio], data source updates"
   - "Office documents [Office development in Visual Studio, data sources"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "collaborative development [Office development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload: 
   - "office"
 ---

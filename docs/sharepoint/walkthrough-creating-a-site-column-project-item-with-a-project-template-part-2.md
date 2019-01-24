@@ -6,9 +6,9 @@ helpviewer_keywords:
   - "project items [SharePoint development in Visual Studio], creating template wizards"
   - "SharePoint project items, creating template wizards"
   - "SharePoint development in Visual Studio, defining new project item types"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

@@ -19,9 +19,9 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, feature receiver"
   - "feature receiver [SharePoint development in Visual Studio]"
   - "safe controls [SharePoint development in Visual Studio]"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

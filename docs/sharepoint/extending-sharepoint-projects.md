@@ -9,9 +9,9 @@ helpviewer_keywords:
   - "projects [SharePoint development in Visual Studio], extending"
   - "SharePoint development in Visual Studio, extending projects"
   - "SharePoint projects, extending"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

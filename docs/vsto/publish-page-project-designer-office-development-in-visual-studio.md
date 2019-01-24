@@ -11,9 +11,9 @@ helpviewer_keywords:
   - "deploying applications [Office development in Visual Studio]"
   - "publishing, Office solutions"
   - "Property Pages dialog box, Publish [Office development in Visual Studio]"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
   - "office"
 ---

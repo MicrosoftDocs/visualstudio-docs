@@ -8,7 +8,7 @@ dev_langs:
 helpviewer_keywords: 
   - "Outlook folders [Office development in Visual Studio], creating"
   - "Outlook folders [Office development in Visual Studio], custom"
-author: TerryGLee
+author: John-Hart
 author: John-Hart
 ms.author: johnhart
 ms.workload: 
