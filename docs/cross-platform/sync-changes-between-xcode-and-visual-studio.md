@@ -7,7 +7,7 @@ ms.assetid: c71a4d7c-120e-4559-a114-3a99c4b860a9
 ms.technology: vs-ide-mobile
 author: "corob-msft"
 ms.author: "corob"
-manager: douge
+manager: jillfra
 ms.workload:
   - "xamarin"
 ---

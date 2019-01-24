@@ -6,7 +6,7 @@ metadata:
   description: Tutorials and conceptual articles about developing C# apps with Visual Studio.
   ms.custom: seodec18
   author: ghogen
-  manager: douge
+  manager: jillfra
   ms.prod: visual-studio-dev15
   ms.technology: vs-acquisition
   ms.topic: landing-page

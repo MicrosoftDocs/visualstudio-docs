@@ -7,13 +7,13 @@ ms.topic: "conceptual"
 ms.assetid: 789f7a1c-38b4-41d0-809b-14f4d96c8116
 author: "corob"
 ms.author: "mblome"
-manager: douge
-f1_keywords: 
+manager: jillfra
+f1_keywords:
   - VC.Project.AndroidDebugger.DebuggerType
   - VC.Project.AndroidDebugger.AndroidDeviceID
   - VC.Project.AndroidDebugger.PackagePath
   - VC.Project.AndroidDebugger.LaunchActivity
-ms.workload: 
+ms.workload:
   - "xplat-cplusplus"
 ---
 

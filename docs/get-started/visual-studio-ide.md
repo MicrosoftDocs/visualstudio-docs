@@ -12,7 +12,7 @@ f1_keywords:
   - VS.StartPage.HowDoI
   - MSDNSTART
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
