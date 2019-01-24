@@ -40,15 +40,38 @@ If you don't see the **Console App (.NET Core)** project template, you can get i
 
 ## Create the app
 
-First, we'll add code to create a basic calculator. Next, we'll tweak the code to add functionality. After that, we'll debug the app to find and fix errors. Finally, we'll refine the code to make it more efficient.
+First, we'll explore a few basic integer math in C#. Then, we'll add code to create a basic calculator. Next, we'll tweak the code to add functionality. After that, we'll debug the app to find and fix errors. And finally, we'll refine the code to make it more efficient.
 
-Let's start by adding the basic calculator code to your project.
+Let's start by exploring some integer math in C#.
 
 1. In the code editor, delete the default "Hello World" code.
 
     ![Delete the default Hello World code from your new calculator app](./media/csharp-console-calculator-deletehelloworld.png)
 
-   Specifically, delete all the code you see in the code editor.
+   Specifically, delete the line that says, `Console.WriteLine("Hello World!");`.
+
+1. In its place, type the following code:
+
+    ```csharp
+            int a = 42;
+            int b = 119;
+            int c = a + b;
+            Console.WriteLine(c);
+            Console.ReadKey();
+    ```
+1. Choose **Calculator** to run your program, or press **F5**.
+
+   ![Choose the Calculator button to run the app from the toolbar](./media/csharp-console-calculator-button.png)
+
+   A console window opens that reveals the sum of 42 + 119.  
+
+1. Now try changing the `int c = a + b;` line of code by using a different operator, such as `-` for subtraction, `*` for multiplication, or */* for division.
+
+    Notice that when you change the operator and run the program, the result changes, too.
+
+Let's continue by adding a more complex set of calculator code to your project.
+
+1. Delete all the code you see in the code editor.
 
 1. Enter or paste the following new code into the code editor:
 
