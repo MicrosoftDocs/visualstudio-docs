@@ -12,9 +12,9 @@ helpviewer_keywords:
   - "data binding [Office development in Visual Studio], actions panes"
   - "actions panes [Office development in Visual Studio], binding controls"
   - "smart documents [Office development in Visual Studio], data binding"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

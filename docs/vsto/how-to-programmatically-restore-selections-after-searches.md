@@ -9,9 +9,9 @@ helpviewer_keywords:
   - "searches, restoring selection after"
   - "documents [Office development in Visual Studio], restoring selections"
   - "selections, restoring after a search"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

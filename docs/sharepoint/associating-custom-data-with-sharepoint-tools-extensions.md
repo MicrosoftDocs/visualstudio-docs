@@ -11,9 +11,9 @@ helpviewer_keywords:
   - "SharePoint project items, associating custom data"
   - "SharePoint projects, associating custom data"
   - "SharePoint development in Visual Studio, extensibility features"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

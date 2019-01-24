@@ -11,9 +11,9 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, advanced packaging tools"
   - "SharePoint development in Visual Studio, event receivers"
   - "SharePoint development in Visual Studio, feature event receivers"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
   - "office"
 ---

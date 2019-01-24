@@ -14,9 +14,9 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, list instances"
   - "SharePoint development in Visual Studio, fields"
   - "SharePoint development in Visual Studio, content types"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

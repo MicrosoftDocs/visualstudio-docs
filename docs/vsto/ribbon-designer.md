@@ -21,9 +21,9 @@ helpviewer_keywords:
   - "Ribbon Designer [Office development in Visual Studio]"
   - "read-only properties"
   - "Ribbon [Office development in Visual Studio], shortcut keys"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
   - "office"
 ---

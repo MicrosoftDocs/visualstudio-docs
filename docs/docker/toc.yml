@@ -2,6 +2,8 @@
   href: /dotnet/standard/containerized-lifecycle-architecture/design-develop-containerized-apps/visual-studio-tools-for-docker?toc=/visualstudio/docker/toc.json&bc=/visualstudio/docker/breadcrumb/toc.json
   expanded: true
   items:
+  - name: 'Quickstart: Visual Studio Tools for Docker'
+    href: docker-tools.md
   - name: Debugging apps in a local Docker container
     href: ../docker/vs-azure-tools-docker-edit-and-refresh.md
   - name: Deploy an ASP.NET container to a container registry using Visual Studio

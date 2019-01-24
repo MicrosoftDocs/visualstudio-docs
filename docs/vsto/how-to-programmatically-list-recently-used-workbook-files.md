@@ -10,9 +10,9 @@ helpviewer_keywords:
   - "RecentFiles property"
   - "Excel [Office development in Visual Studio], recently used files listing"
   - "recent file list, Excel"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

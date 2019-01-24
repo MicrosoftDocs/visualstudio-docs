@@ -8,9 +8,9 @@ dev_langs:
 helpviewer_keywords: 
   - "Visio [Office development in Visual Studio], printing Visio documents"
   - "documents [Office development in Visual Studio], printing Visio documents"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

@@ -8,9 +8,9 @@ dev_langs:
 helpviewer_keywords: 
   - "SharePoint project service"
   - "SharePoint development in Visual Studio, extensibility features"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

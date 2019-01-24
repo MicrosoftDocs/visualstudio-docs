@@ -10,9 +10,9 @@ helpviewer_keywords:
   - "worksheets, referring to ranges"
   - "referring to worksheet ranges"
   - "Excel [Office development in Visual Studio], referring to worksheet ranges"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

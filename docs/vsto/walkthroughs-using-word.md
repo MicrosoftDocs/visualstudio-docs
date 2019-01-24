@@ -8,9 +8,9 @@ dev_langs:
 helpviewer_keywords: 
   - "Word [Office development in Visual Studio], walkthroughs"
   - "walkthroughs [Office development in Visual Studio], Word"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---
