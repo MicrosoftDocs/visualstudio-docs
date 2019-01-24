@@ -2,7 +2,7 @@
 title: "Tutorial: Get started with C# console apps"
 description: "Learn how to create a C# console app in Visual Studio, step-by-step."
 ms.custom: "seodec18, get-started"
-ms.date: 01/10/2019
+ms.date: 01/24/2019
 ms.technology: vs-ide-general
 ms.prod: visual-studio-dev15
 ms.topic: tutorial
