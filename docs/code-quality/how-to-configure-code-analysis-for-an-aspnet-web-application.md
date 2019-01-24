@@ -7,7 +7,7 @@ f1_keywords:
   - "vs.codeanalysis.propertypages.asp"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "aspnet"
 ---
