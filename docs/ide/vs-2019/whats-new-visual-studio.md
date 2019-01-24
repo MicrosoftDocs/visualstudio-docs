@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "what's new [Visual Studio]"
 author: TerryGLee
 ms.author: tglee
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 monikerRange: vs-2019

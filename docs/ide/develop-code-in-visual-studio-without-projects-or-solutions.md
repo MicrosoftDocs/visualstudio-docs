@@ -9,7 +9,7 @@ helpviewer_keywords:
   - projects and solutions, develop code without
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

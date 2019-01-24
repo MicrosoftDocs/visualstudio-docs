@@ -7,7 +7,7 @@ helpviewer_keywords:
   - "item templates [Visual Studio], creating"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ---
 # How to: Create item templates
 

@@ -7,7 +7,7 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.F%2523.Code_Fixes"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "dotnet"
 ---

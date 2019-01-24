@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "Text editor Options dialog box, formatting"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "dotnet"
 ---

@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "Visual Studio Start Page"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

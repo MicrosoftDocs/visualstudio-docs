@@ -5,7 +5,7 @@ ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.author: gewarren
 author: gewarren
-ms.manager: douge
+ms.manager: jillfra
 ---
 # Connect to projects in Team Explorer
 

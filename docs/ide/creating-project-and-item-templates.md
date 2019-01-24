@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "project templates [Visual Studio]"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ---
 # Project and item templates
 

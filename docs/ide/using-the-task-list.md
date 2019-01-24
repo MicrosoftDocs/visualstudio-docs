@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "Visual Studio, task list"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
