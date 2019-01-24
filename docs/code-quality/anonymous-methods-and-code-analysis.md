@@ -13,7 +13,7 @@ dev_langs:
  - VB
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
