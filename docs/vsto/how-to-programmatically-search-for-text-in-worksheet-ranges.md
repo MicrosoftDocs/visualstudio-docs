@@ -9,9 +9,9 @@ helpviewer_keywords:
   - "worksheets, searching"
   - "text [Office development in Visual Studio], searching in worksheets"
   - "text searches, worksheets"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload: 
   - "office"
 ---

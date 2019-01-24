@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "controls, data binding"
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfar
 ms.workload: 
   - "office"
 ---

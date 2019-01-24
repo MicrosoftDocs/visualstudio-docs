@@ -9,9 +9,9 @@ helpviewer_keywords:
   - "document protection"
   - "documents [Office development in Visual Studio], document protection"
   - "Word documents, protection"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload: 
   - "office"
 ---

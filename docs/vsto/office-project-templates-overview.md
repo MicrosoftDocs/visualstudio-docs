@@ -25,9 +25,9 @@ helpviewer_keywords:
   - "Visio [Office development in Visual Studio], project templates"
   - "Word projects in Visual Studio"
   - "Outlook [Office development in Visual Studio], project templates"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload: 
   - "office"
 ---

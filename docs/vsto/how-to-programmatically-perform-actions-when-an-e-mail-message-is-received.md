@@ -10,9 +10,9 @@ helpviewer_keywords:
   - "NewMail event"
   - "mail items [Office development in Visual Studio], custom actions"
   - "e-mail [Office development in Visual Studio], custom actions"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload: 
   - "office"
 ---

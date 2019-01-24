@@ -9,9 +9,9 @@ helpviewer_keywords:
   - "application manifests [Office development in Visual Studio], <postActions> element"
   - "postActions element"
   - "<postActions> element"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload:
   - "office"
 ---

@@ -10,9 +10,9 @@ helpviewer_keywords:
   - "smart documents [Office development in Visual Studio], adding controls"
   - "actions panes [Office development in Visual Studio], creating in Word"
   - "actions panes [Office development in Visual Studio], adding controls"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload: 
   - "office"
 ---

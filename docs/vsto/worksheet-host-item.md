@@ -15,9 +15,9 @@ helpviewer_keywords:
   - "worksheets, Excel"
   - "worksheets"
   - "events [Office development in Visual Studio]"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload: 
   - "office"
 ---

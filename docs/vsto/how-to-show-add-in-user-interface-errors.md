@@ -10,9 +10,9 @@ helpviewer_keywords:
   - "errors [Office development in Visual Studio], user interface errors"
   - "user interfaces [Office development in Visual Studio], errors"
   - "application-level add-ins [Office development in Visual Studio], user interface errors"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload: 
   - "office"
 ---

@@ -10,9 +10,9 @@ helpviewer_keywords:
   - "Bookmark control, events"
   - "shortcut menus, Word"
   - "menus, creating in Office applications"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload: 
   - "office"
 ---

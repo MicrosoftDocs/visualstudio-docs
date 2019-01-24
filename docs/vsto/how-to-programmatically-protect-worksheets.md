@@ -10,9 +10,9 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], document protection"
   - "document protection, adding to worksheets"
   - "worksheets, protecting"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload: 
   - "office"
 ---

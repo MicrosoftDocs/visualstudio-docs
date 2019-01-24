@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "accessibility [Office development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfar
 ms.workload:
   - "office"
 ---

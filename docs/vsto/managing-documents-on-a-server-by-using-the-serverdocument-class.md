@@ -9,9 +9,9 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], managing on server"
   - "Office documents [Office development in Visual Studio, managing on server"
   - "ServerDocument class, managing documents on server"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload: 
   - "office"
 ---

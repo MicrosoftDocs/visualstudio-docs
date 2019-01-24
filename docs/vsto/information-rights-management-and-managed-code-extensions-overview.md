@@ -12,9 +12,9 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], restricted permissions"
   - "rights management [Office development in Visual Studio]"
   - "Office documents [Office development in Visual Studio, restricted permissions"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload: 
   - "office"
 ---

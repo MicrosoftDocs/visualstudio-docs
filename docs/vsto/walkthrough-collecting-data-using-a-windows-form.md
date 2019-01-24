@@ -10,9 +10,9 @@ helpviewer_keywords:
   - "Windows Forms [Office development in Visual Studio], collecting data"
   - "forms [Office development in Visual Studio], walkthroughs"
   - "worksheets [Office development in Visual Studio], collecting data"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload: 
   - "office"
 ---

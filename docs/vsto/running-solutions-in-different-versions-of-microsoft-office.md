@@ -11,9 +11,9 @@ helpviewer_keywords:
   - "Office development in Visual Studio, multiple Office versions"
   - "Office solutions [Office development in Visual Studio]"
   - "multiple Office versions"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload: 
   - "office"
 ---

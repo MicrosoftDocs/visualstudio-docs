@@ -11,9 +11,9 @@ helpviewer_keywords:
   - "XML [Office development in Visual Studio], XML schemas"
   - "XML schemas [Office development in Visual Studio], about XML schemas and data"
   - "Office development in Visual Studio, XML"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload:
   - "office"
 ---

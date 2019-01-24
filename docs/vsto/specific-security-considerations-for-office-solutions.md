@@ -13,9 +13,9 @@ helpviewer_keywords:
   - "malicious code [Office development in Visual Studio]"
   - "Outlook object model guard [Office development in Visual Studio]"
   - "security [Office development in Visual Studio], troubleshooting"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload: 
   - "office"
 ---

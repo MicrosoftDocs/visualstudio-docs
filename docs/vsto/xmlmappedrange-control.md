@@ -9,9 +9,9 @@ helpviewer_keywords:
   - "XMLMappedRange control, data binding"
   - "XMLMappedRange control"
   - "XMLMappedRange control, events"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload: 
   - "office"
 ---

@@ -9,9 +9,9 @@ helpviewer_keywords:
   - "printing [Office development in Visual Studio], worksheets"
   - "worksheets, printing"
   - "print preview, worksheets"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload: 
   - "office"
 ---

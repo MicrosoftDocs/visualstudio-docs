@@ -8,9 +8,9 @@ dev_langs:
 helpviewer_keywords: 
   - "importing form regions"
   - "form regions [Office development in Visual Studio], importing"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload: 
   - "office"
 ---

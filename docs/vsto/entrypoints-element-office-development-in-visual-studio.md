@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "application manifests [Office development in Visual Studio], <entryPoints> element"
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfar
 ms.workload:
   - "office"
 ---

@@ -7,9 +7,9 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "Visual Studio Tools for Office runtime, installation scenarios"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload: 
   - "office"
 ---

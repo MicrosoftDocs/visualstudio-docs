@@ -11,9 +11,9 @@ helpviewer_keywords:
   - "disabled add-ins"
   - "add-ins [Office development in Visual Studio], disabled"
   - "add-ins [Office development in Visual Studio], enabling"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload: 
   - "office"
 ---

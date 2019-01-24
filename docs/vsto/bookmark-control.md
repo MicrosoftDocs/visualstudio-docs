@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "Bookmark control"
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfar
 ms.workload:
   - "office"
 ---

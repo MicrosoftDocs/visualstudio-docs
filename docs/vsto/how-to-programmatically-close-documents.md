@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "Word [Office development in Visual Studio], closing documents"
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfar
 ms.workload: 
   - "office"
 ---

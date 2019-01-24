@@ -11,9 +11,9 @@ helpviewer_keywords:
   - "Database field [Office development in Visual Studio]"
   - "data [Office development in Visual Studio], binding data"
   - "simple data binding [Office development in Visual Studio]"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload: 
   - "office"
 ---

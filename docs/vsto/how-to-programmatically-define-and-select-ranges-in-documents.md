@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "ranges, defining in documents"
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfar
 ms.workload: 
   - "office"
 ---

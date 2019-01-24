@@ -8,9 +8,9 @@ dev_langs:
 helpviewer_keywords: 
   - "workbooks, opening"
   - "Excel [Office development in Visual Studio], opening workbooks"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload: 
   - "office"
 ---

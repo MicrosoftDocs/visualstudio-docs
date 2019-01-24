@@ -9,9 +9,9 @@ helpviewer_keywords:
   - "building blocks [Office development in Visual Studio]"
   - "Word [Office development in Visual Studio], creating documents"
   - "content controls [Office development in Visual Studio], adding to documents"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload: 
   - "office"
 ---

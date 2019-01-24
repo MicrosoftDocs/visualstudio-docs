@@ -8,9 +8,9 @@ dev_langs:
 helpviewer_keywords: 
   - "workbooks, listing worksheets"
   - "worksheets, listing"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload: 
   - "office"
 ---

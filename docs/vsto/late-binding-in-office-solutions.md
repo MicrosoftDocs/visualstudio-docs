@@ -10,9 +10,9 @@ helpviewer_keywords:
   - "types [Office development in Visual Studio], casting"
   - "automation [Office development in Visual Studio], casting objects"
   - "casting, object to specific type"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload: 
   - "office"
 ---

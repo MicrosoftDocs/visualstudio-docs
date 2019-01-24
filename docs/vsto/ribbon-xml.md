@@ -18,9 +18,9 @@ helpviewer_keywords:
   - "customizing the Ribbon, defining behavior"
   - "Ribbon [Office development in Visual Studio], customizing"
   - "customizing the Ribbon, displaying"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload: 
   - "office"
 ---

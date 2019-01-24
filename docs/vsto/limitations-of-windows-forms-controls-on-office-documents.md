@@ -15,9 +15,9 @@ helpviewer_keywords:
   - "Toolbox [Office development in Visual Studio], unsupported controls"
   - "user controls [Office development in Visual Studio], grouping controls"
   - "Windows Forms controls [Office development in Visual Studio], Toolbox"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload:
   - "office"
 ---

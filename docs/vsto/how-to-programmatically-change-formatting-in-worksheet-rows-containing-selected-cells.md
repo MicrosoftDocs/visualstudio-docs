@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "worksheets, changing formatting"
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfar
 ms.workload: 
   - "office"
 ---

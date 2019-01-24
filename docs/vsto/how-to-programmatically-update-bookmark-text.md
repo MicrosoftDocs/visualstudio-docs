@@ -9,9 +9,9 @@ helpviewer_keywords:
   - "bookmarks, updating text"
   - "text [Office development in Visual Studio], updating in bookmarks"
   - "Bookmark control, updating contents"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload: 
   - "office"
 ---

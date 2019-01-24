@@ -8,9 +8,9 @@ dev_langs:
 helpviewer_keywords: 
   - "Word [Office development in Visual Studio], displaying documents in print preview"
   - "documents [Office development in Visual Studio], displaying in print preview"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload: 
   - "office"
 ---

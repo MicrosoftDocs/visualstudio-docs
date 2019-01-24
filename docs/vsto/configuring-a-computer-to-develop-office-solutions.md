@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "Office development in Visual Studio, installing tools"
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfar
 ms.workload: 
   - "office"
 ---

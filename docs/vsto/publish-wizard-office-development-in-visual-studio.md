@@ -13,9 +13,9 @@ helpviewer_keywords:
   - "deploying applications [Office development in Visual Studio], Publish Wizard"
   - "Office applications [Office development in Visual Studio], Publish Wizard"
   - "Publish Wizard, Office solutions"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload: 
   - "office"
 ---

@@ -10,9 +10,9 @@ helpviewer_keywords:
   - "threading [Office development in Visual Studio]"
   - "Office applications [Office development in Visual Studio], threading support"
   - "object models [Office development in Visual Studio], threading support"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload: 
   - "office"
 ---

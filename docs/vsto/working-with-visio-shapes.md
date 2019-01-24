@@ -8,9 +8,9 @@ dev_langs:
 helpviewer_keywords: 
   - "Visio [Office development in Visual Studio], common tasks with Visio shapes"
   - "shapes [Office development in Visual Studio], common tasks with Visio shapes"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload: 
   - "office"
 ---

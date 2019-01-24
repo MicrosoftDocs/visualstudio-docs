@@ -12,9 +12,9 @@ helpviewer_keywords:
   - "templates [Office development in Visual Studio], Visio"
   - "projects [Office development in Visual Studio], Visio"
   - "Office solutions [Office development in Visual Studio], Visio"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload: 
   - "office"
 ---

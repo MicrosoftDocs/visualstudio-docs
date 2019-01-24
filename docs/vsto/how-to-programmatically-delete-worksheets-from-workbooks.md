@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "worksheets, deleting"
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfar
 ms.workload: 
   - "office"
 ---

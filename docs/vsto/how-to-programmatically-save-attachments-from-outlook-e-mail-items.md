@@ -11,9 +11,9 @@ helpviewer_keywords:
   - "saving e-mail attachments"
   - "mail items [Office development in Visual Studio], attachments"
   - "attachments [Office development in Visual Studio]"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload: 
   - "office"
 ---

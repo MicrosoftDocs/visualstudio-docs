@@ -9,9 +9,9 @@ helpviewer_keywords:
   - "workbooks, opening text files as"
   - "text [Office development in Visual Studio], text files"
   - "text files, opening as workbooks"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload: 
   - "office"
 ---

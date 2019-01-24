@@ -10,9 +10,9 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], search options"
   - "Word, searching options"
   - "searching, Word options"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload: 
   - "office"
 ---

@@ -10,9 +10,9 @@ helpviewer_keywords:
   - "walkthroughs [Office development in Visual Studio], security"
   - "deployment manifests [Office development in Visual Studio], walkthroughs"
   - "walkthroughs [Office development in Visual Studio], deployment"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload: 
   - "office"
 ---

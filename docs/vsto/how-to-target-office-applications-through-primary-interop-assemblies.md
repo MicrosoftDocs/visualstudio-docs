@@ -11,9 +11,9 @@ helpviewer_keywords:
   - "Office primary interop assemblies in Visual Studio, adding references to"
   - "Office applications [Office development in Visual Studio], automating"
   - "application development [Office development in Visual Studio], automating"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload: 
   - "office"
 ---

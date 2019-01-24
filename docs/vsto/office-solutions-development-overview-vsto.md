@@ -8,9 +8,9 @@ dev_langs:
 helpviewer_keywords: 
   - "primary interop assemblies, Office"
   - "Office development in Visual Studio, about developing solutions"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload: 
   - "office"
 ---

@@ -7,9 +7,9 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "Ribbon [Office development in Visual Studio], object model"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload: 
   - "office"
 ---

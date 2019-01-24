@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "Ribbon [Office development in Visual Studio], InfoPath"
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfar
 ms.workload: 
   - "office"
 ---

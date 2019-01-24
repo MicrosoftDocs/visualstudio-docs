@@ -12,9 +12,9 @@ helpviewer_keywords:
   - "NamedRange control, events"
   - "NamedRange control, data binding"
   - "NamedRange control"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload: 
   - "office"
 ---

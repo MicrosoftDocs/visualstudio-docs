@@ -9,9 +9,9 @@ helpviewer_keywords:
   - "formatting [Office development in Visual Studio]"
   - "documents [Office development in Visual Studio], formatting text"
   - "text [Office development in Visual Studio], formatting in documents"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload: 
   - "office"
 ---

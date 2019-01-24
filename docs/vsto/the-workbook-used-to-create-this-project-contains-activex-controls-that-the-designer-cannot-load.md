@@ -7,9 +7,9 @@ f1_keywords:
 dev_langs: 
   - "VB"
   - "CSharp"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload: 
   - "office"
 ---

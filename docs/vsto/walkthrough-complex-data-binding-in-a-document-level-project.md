@@ -10,9 +10,9 @@ helpviewer_keywords:
   - "complex data [Office development in Visual Studio]"
   - "multiple column data binding [Office development in Visual Studio]"
   - "data binding [Office development in Visual Studio], multiple columns"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload: 
   - "office"
 ---

@@ -8,9 +8,9 @@ dev_langs:
 helpviewer_keywords: 
   - "documents [Office development in Visual Studio], saving Visio documents"
   - "Visio [Office development in Visual Studio], saving Visio documents"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload: 
   - "office"
 ---

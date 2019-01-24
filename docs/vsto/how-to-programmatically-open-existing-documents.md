@@ -8,9 +8,9 @@ dev_langs:
 helpviewer_keywords: 
   - "documents [Office development in Visual Studio], opening"
   - "Word [Office development in Visual Studio], opening documents"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload: 
   - "office"
 ---

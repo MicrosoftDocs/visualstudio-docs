@@ -22,9 +22,9 @@ helpviewer_keywords:
   - "Sheet2 class"
   - "document-level customizations [Office development in Visual Studio], programming"
   - "application development [Office development in Visual Studio], document-level customizations"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload: 
   - "office"
 ---

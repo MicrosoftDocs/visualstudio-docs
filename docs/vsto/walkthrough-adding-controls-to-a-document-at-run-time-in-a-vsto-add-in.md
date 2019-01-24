@@ -10,9 +10,9 @@ helpviewer_keywords:
   - "application-level add-ins [Office development in Visual Studio], adding controls"
   - "controls [Office development in Visual Studio], adding to documents at run time"
   - "documents [Office development in Visual Studio], adding controls at run time"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload: 
   - "office"
 ---

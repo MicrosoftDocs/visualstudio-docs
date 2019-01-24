@@ -10,9 +10,9 @@ helpviewer_keywords:
   - "contacts [Office development in Visual Studio], about contacts"
   - "e-mail [Office development in Visual Studio], contacts"
   - "contacts [Office development in Visual Studio]"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload: 
   - "office"
 ---

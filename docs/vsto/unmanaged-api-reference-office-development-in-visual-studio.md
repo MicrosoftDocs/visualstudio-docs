@@ -8,9 +8,9 @@ dev_langs:
 helpviewer_keywords: 
   - "Office development in Visual Studio, reference"
   - "Office development in Visual Studio, unmanaged API reference"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload: 
   - "office"
 ---

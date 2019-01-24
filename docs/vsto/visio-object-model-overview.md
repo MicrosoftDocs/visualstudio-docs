@@ -12,9 +12,9 @@ helpviewer_keywords:
   - "objects [Office development in Visual Studio], Office object models"
   - "Office object models"
   - "Visio object model"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload: 
   - "office"
 ---

@@ -12,9 +12,9 @@ helpviewer_keywords:
   - "Multilingual User Interface [Office development in Visual Studio]"
   - "localization [Office development in Visual Studio], user interface targeting"
   - "Office applications [Office development in Visual Studio], globalization"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload: 
   - "office"
 ---

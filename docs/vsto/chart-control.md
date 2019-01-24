@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "Chart control [Office development in Visual Studio], data binding"
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfar
 ms.workload: 
   - "office"
 ---

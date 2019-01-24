@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "data [Office development in Visual Studio], adding to documents"
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfar
 ms.workload:
   - "office"
 ---

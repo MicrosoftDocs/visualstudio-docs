@@ -10,9 +10,9 @@ helpviewer_keywords:
   - "Office documents [Office development in Visual Studio, tables"
   - "Word [Office development in Visual Studio], tables"
   - "documents [Office development in Visual Studio], tables"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload: 
   - "office"
 ---

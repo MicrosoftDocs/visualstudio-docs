@@ -11,9 +11,9 @@ helpviewer_keywords:
   - "server-side data access [Office development in Visual Studio]"
   - "data [Office development in Visual Studio], accessing on server"
   - "documents [Office development in Visual Studio], server-side data access"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload:
   - "office"
 ---

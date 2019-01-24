@@ -14,9 +14,9 @@ helpviewer_keywords:
   - "dates, storing in Excel ranges"
   - "ranges, storing date values"
   - "date values"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload: 
   - "office"
 ---

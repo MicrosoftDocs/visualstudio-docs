@@ -8,9 +8,9 @@ dev_langs:
 helpviewer_keywords: 
   - "Word [Office development in Visual Studio], printing documents"
   - "documents [Office development in Visual Studio], printing"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload: 
   - "office"
 ---

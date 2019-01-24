@@ -12,9 +12,9 @@ helpviewer_keywords:
   - "customizing the Ribbon, tabs"
   - "custom Ribbon, tabs"
   - "Custom tab [Office development in Visual Studio]"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload: 
   - "office"
 ---

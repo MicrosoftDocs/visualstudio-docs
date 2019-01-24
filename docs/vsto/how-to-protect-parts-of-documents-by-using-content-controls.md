@@ -13,9 +13,9 @@ helpviewer_keywords:
   - "document protection [Office development in Visual Studio]"
   - "Word [Office development in Visual Studio], restricted permissions"
   - "GroupContentControl"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfar
 ms.workload: 
   - "office"
 ---

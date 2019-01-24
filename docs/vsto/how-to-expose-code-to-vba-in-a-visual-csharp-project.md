@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "exposing code to VBA"
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfar
 ms.workload: 
   - "office"
 ---
