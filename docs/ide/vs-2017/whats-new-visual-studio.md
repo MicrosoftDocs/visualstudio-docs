@@ -19,7 +19,7 @@ ms.workload:
   - "multiple"
 monikerRange: vs-2017
 ---
-# What&#39;s new in Visual Studio 2017
+## Visual Studio 2017
 
 **Updated for the [15.9 release](/visualstudio/releasenotes/vs2017-relnotes?context=visualstudio/default&contextView=vs-2017)**
 
