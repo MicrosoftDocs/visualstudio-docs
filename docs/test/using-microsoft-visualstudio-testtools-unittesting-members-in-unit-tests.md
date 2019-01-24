@@ -4,8 +4,8 @@ ms.date: 03/02/2018
 ms.prod: visual-studio-dev15
 ms.topic: reference
 ms.author: gewarren
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 author: gewarren
 ---

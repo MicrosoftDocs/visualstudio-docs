@@ -10,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 7eb9290a-f9f6-4e41-9caa-796fcfaf0610
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.prod: visual-studio-dev15
 ---
 # How to: Bind a test controller or test agent to a network adapter

@@ -8,7 +8,7 @@ helpviewer_keywords:
   - "unit tests, verifying code with"
   - "testing code, automated tests"
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 author: gewarren

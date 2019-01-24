@@ -7,7 +7,7 @@ helpviewer_keywords:
 ms.assetid: 9649226a-857d-41ef-8ec7-047b6e498033
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.prod: visual-studio-dev15
 ---
 # Modify load test logging settings

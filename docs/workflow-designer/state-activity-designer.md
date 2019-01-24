@@ -7,7 +7,7 @@ f1_keywords:
   - "System.Activities.Statements.State.UI"
 ms.assetid: 9455ab37-93a0-4c46-9eb8-b6611ca23167
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 author: gewarren
