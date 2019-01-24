@@ -8,7 +8,7 @@ helpviewer_keywords:
 ms.assetid: d0b5b23c-7e94-4637-be6c-2620a5442d46
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.prod: visual-studio-dev15
 ---
 # How to: Create a request-level plug-in

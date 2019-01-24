@@ -7,7 +7,7 @@ helpviewer_keywords:
 ms.assetid: 0c86918b-cd63-4468-8f49-6d547a1276dc
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.prod: visual-studio-dev15
 ---
 # Collect diagnostic information using test settings

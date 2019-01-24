@@ -7,7 +7,7 @@ helpviewer_keywords:
 ms.assetid: 2cefe8c2-430a-4cb4-bbe0-f3edb2e5bc03
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.prod: visual-studio-dev15
 ---
 # How to: Include recordings of the screen and voice during tests using test settings

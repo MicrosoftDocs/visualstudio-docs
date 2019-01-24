@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "unit tests, UWP apps"
   - "unit tests, running"
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "uwp"
 author: gewarren
