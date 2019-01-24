@@ -40,9 +40,9 @@ If you don't see the **Console App (.NET Core)** project template, you can get i
 
 ## Create the app
 
-First, we'll explore a few basic integer math in C#. Then, we'll add code to create a basic calculator. Next, we'll tweak the code to add functionality. After that, we'll debug the app to find and fix errors. And finally, we'll refine the code to make it more efficient.
+First, we'll explore some basic integer math in C#. Then, we'll add code to create a basic calculator. Next, we'll tweak the code to add functionality. After that, we'll debug the app to find and fix errors. And finally, we'll refine the code to make it more efficient.
 
-Let's start by exploring some integer math in C#.
+Let's start with some integer math in C#.
 
 1. In the code editor, delete the default "Hello World" code.
 
