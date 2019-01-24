@@ -1,6 +1,5 @@
 ---
 monikerRange: '>= vs-2017'
-ms.topic: include
 ---
 # What's new in Visual Studio
 
