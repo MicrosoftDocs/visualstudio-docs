@@ -15,9 +15,9 @@ helpviewer_keywords:
   - "application development [Office development in Visual Studio], samples"
   - "sample applications [Office development in Visual Studio]"
   - "examples [Office development in Visual Studio]"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

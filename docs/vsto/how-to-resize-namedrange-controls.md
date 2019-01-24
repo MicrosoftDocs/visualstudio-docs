@@ -9,9 +9,9 @@ helpviewer_keywords:
   - "controls [Office development in Visual Studio], resizing"
   - "NamedRange control, resizing"
   - "ranges, resizing in Excel"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

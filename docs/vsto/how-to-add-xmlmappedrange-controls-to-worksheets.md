@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "controls [Office development in Visual Studio], adding to worksheets"
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload: 
   - "office"
 ---

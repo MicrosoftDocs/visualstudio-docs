@@ -6,9 +6,9 @@ dev_langs:
   - "VB"
   - "CSharp"
 helpviewer_keywords: 
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

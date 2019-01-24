@@ -10,9 +10,9 @@ helpviewer_keywords:
   - "BDC [SharePoint development in Visual Studio], method instance"
   - "BDC [SharePoint development in Visual Studio], method"
   - "Business Data Connectivity service [SharePoint development in Visual Studio], method"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

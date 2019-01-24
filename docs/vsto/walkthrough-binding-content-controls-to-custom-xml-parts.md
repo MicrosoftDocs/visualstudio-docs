@@ -12,9 +12,9 @@ helpviewer_keywords:
   - "data binding [Office development in Visual Studio], content controls"
   - "DropDownListContentControl, binding items to a custom XML part"
   - "DatePickerContentControl, binding to a custom XML part"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

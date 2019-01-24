@@ -9,9 +9,9 @@ helpviewer_keywords:
   - "Visual Studio, extending tools"
   - "SharePoint development in Visual Studio, extensibility object models"
   - "SharePoint development in Visual Studio, extending tools"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

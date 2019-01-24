@@ -12,9 +12,9 @@ helpviewer_keywords:
   - "master pages[SharePoint development in Visual Studio], designing"
   - "content pages[SharePoint development in Visual Studio], designing"
   - "page layouts[SharePoint development in Visual Studio], designing"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

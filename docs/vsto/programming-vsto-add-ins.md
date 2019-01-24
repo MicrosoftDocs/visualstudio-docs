@@ -27,9 +27,9 @@ helpviewer_keywords:
   - "ThisAddIn_Startup"
   - "application-level add-ins [Office development in Visual Studio], programming"
   - "ThisAddIn_Shutdown"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

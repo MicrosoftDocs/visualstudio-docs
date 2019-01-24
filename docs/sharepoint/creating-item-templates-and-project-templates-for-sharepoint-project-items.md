@@ -12,9 +12,9 @@ helpviewer_keywords:
   - "SharePoint projects, creating custom templates"
   - "SharePoint development in Visual Studio, creating custom project and item templates"
   - "project items [SharePoint development in Visual Studio], creating custom templates"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
   - "office"
 ---

@@ -9,9 +9,9 @@ helpviewer_keywords:
   - "loops, through found items in documents"
   - "documents [Office development in Visual Studio], searching"
   - "text [Office development in Visual Studio], searching in documents"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

@@ -8,9 +8,9 @@ dev_langs:
 helpviewer_keywords: 
   - "SharePoint development in Visual Studio, importing items"
   - "importing items [SharePoint development in Visual Studio]"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

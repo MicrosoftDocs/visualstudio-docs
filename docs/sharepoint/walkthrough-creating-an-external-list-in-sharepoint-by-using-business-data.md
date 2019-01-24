@@ -14,9 +14,9 @@ helpviewer_keywords:
   - "BDC [SharePoint development in Visual Studio], entity backed list"
   - "Business Data Connectivity service [SharePoint development in Visual Studio], entity backed list"
   - "Business Data Connectivity service [SharePoint development in Visual Studio], external list"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

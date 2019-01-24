@@ -11,9 +11,9 @@ helpviewer_keywords:
   - "displaying custom task panes in e-mail"
   - "e-mail [Office development in Visual Studio], custom task panes displayed in"
   - "custom task panes [Office development in Visual Studio], displaying with e-mail messages"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

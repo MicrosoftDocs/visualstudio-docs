@@ -8,9 +8,9 @@ dev_langs:
 helpviewer_keywords: 
   - "master-detail tables [Office development in Visual Studio], walkthroughs"
   - "data caching [Office development in Visual Studio], Master/Detail Relation"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

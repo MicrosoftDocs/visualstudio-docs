@@ -12,9 +12,9 @@ helpviewer_keywords:
   - "document protection, removing from workbooks"
   - "document protection, adding to workbooks"
   - "workbooks, protecting"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---
