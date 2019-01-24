@@ -5,7 +5,7 @@ ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
   - "CSharp"
 ms.workload:
@@ -87,4 +87,4 @@ namespace ConsoleApplication
 ## See also
 
 - [Walkthrough: Debug an XSLT style sheet](../xml-tools/walkthrough-debug-an-xslt-style-sheet.md)
-- [First look at the debugger](../debugger/debugger-feature-tour.md)   
+- [First look at the debugger](../debugger/debugger-feature-tour.md)

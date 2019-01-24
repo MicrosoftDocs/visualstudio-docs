@@ -16,7 +16,7 @@ dev_langs:
  - CPP
  - CSharp
  - VB
-manager: douge
+manager: jillfra
 ---
 # CA1806: Do not ignore method results
 

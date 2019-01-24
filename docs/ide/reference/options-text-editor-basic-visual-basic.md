@@ -16,7 +16,7 @@ helpviewer_keywords:
 ms.assetid: 5a8cafca-f7b4-4a2d-92ce-6894a7673d00
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -34,18 +34,18 @@ The **VB Specific** property page, in the **Basic** folder of the **Text Editor*
 - Place 'System' directives first when sorting usings
 
    When selected, the **Remove and Sort Usings** command in the right-click menu sorts the `using` directives and places the 'System' namespaces at the top of the list.
-   
+
 - Separate using directive groups
 
    When selected, the **Remove and Sort Usings** command in the right-click menu separates `using` directives by inserting an empty line between groups of directives that have the same root namespace.
-   
-- Suggest usings for types in reference assemblies 
-- Suggest usings for types in NuGet packages 
+
+- Suggest usings for types in reference assemblies
+- Suggest usings for types in NuGet packages
 
    When these options are selected, a [Quick Action](../quick-actions.md) is available to install a NuGet package and add a `using` directive for unreferenced types.
 
    ![Quick Action to install NuGet package in Visual Studio](media/nuget-lightbulb.png)
-  
+
 
 ## Highlighting
 

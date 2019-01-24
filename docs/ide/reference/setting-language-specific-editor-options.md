@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "editor settings"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

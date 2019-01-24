@@ -10,7 +10,7 @@ metadata:
   ms.topic: landing-page
   ms.author: gewarren
   author: gewarren
-  manager: douge
+  manager: jillfra
 abstract:
   description: Learn how to analyze code for the first time, or how to migrate from FxCop to the new way of analyzing managed code using analyzers.
   aside:

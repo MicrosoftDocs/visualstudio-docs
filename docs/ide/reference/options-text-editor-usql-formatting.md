@@ -11,7 +11,7 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.U-SQL.Formatting.General"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

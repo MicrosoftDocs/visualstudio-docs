@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "code analysis, rule sets"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

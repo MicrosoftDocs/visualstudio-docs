@@ -2,14 +2,14 @@
 title: "Tutorial: Get started with C# console apps"
 description: "Learn how to create a C# console app in Visual Studio, step-by-step."
 ms.custom: "seodec18, get-started"
-ms.date: 01/10/2019
+ms.date: 01/24/2019
 ms.technology: vs-ide-general
 ms.prod: visual-studio-dev15
 ms.topic: tutorial
 ms.devlang: CSharp
 author: TerryGLee
 ms.author: tglee
-manager: douge
+manager: jillfra
 dev_langs:
   - CSharp
 ms.workload:
@@ -63,7 +63,7 @@ Let's start with some integer math in C#.
 
    ![Choose the Calculator button to run the app from the toolbar](./media/csharp-console-calculator-button.png)
 
-   A console window opens that reveals the sum of 42 + 119.  
+   A console window opens that reveals the sum of 42 + 119.
 
 1. Now try changing the `int c = a + b;` line of code by using a different operator, such as `-` for subtraction, `*` for multiplication, or */* for division.
 
@@ -226,7 +226,7 @@ To fix this error, we must refactor the code that we've previously entered.
 
 #### Revise the code
 
-Rather than rely on the `program` class to handle all the code, we'll divide our app into two classes: `calculator` and `program`.  
+Rather than rely on the `program` class to handle all the code, we'll divide our app into two classes: `calculator` and `program`.
 
 The `calculator` class will handle the bulk of the calculation work, and the `program` class will handle the user interface and error-capturing work.
 

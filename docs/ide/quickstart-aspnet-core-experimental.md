@@ -8,7 +8,7 @@ ms.prod: visual-studio-dev15
 ms.topic: quickstart
 author: TerryGLee
 ms.author: tglee
-manager: douge
+manager: jillfra
 dev_langs:
   - CSharp
 ms.workload:

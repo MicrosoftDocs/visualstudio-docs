@@ -9,7 +9,7 @@ searchscope: VS Subscription
 ms.topic: conceptual
 author: TerryGLee
 ms.author: tglee
-manager: douge
+manager: jillfra
 ---
 # What&#39;s new in Visual Studio subscriptions
 

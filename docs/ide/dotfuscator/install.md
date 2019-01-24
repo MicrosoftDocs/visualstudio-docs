@@ -21,7 +21,7 @@ description: "Learn how to install the free Dotfuscator Community Edition includ
 ms.assetid: f2146651-e24a-4e24-ade8-8ddee8ff4e43
 author: "Joe-Sewell-PreEmptive"
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ---
 # Install Dotfuscator Community Edition (CE)
 

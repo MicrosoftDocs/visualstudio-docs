@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "Project Designer, Services page"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

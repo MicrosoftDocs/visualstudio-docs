@@ -7,7 +7,7 @@ ms.prod: visual-studio-dev15
 ms.topic: landing-page
 ms.author: gewarren
 author: gewarren
-manager: douge
+manager: jillfra
 ---
 # Code analysis in Visual Studio
 
