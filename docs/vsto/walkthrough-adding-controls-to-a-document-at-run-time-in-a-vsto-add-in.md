@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], adding controls at run time"
 author: John-Hart
 ms.author: johnhart
-manager: jillfar
+manager: jillfra
 ms.workload: 
   - "office"
 ---

@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "reference [Office development in Visual Studio], user interface"
 author: John-Hart
 ms.author: johnhart
-manager: jillfar
+manager: jillfra
 ms.workload: 
   - "office"
 ---

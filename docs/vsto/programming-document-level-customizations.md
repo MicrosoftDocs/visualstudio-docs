@@ -24,7 +24,7 @@ helpviewer_keywords:
   - "application development [Office development in Visual Studio], document-level customizations"
 author: John-Hart
 ms.author: johnhart
-manager: jillfar
+manager: jillfra
 ms.workload: 
   - "office"
 ---

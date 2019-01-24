@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "Outlook [Office development in Visual Studio], current item"
 author: John-Hart
 ms.author: johnhart
-manager: jillfar
+manager: jillfra
 ms.workload: 
   - "office"
 ---

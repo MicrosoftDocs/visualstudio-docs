@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "shapes [Office development in Visual Studio], common tasks with Visio shapes"
 author: John-Hart
 ms.author: johnhart
-manager: jillfar
+manager: jillfra
 ms.workload: 
   - "office"
 ---

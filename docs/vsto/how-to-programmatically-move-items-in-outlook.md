@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "Outlook folders [Office development in Visual Studio], moving items"
 author: John-Hart
 ms.author: johnhart
-manager: jillfar
+manager: jillfra
 ms.workload: 
   - "office"
 ---

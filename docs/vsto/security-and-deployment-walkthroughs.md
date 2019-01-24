@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "walkthroughs [Office development in Visual Studio], deployment"
 author: John-Hart
 ms.author: johnhart
-manager: jillfar
+manager: jillfra
 ms.workload: 
   - "office"
 ---

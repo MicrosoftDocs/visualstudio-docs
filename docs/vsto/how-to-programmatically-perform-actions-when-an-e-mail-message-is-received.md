@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "e-mail [Office development in Visual Studio], custom actions"
 author: John-Hart
 ms.author: johnhart
-manager: jillfar
+manager: jillfra
 ms.workload: 
   - "office"
 ---

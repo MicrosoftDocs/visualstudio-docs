@@ -23,7 +23,7 @@ helpviewer_keywords:
   - "Word [Office development in Visual Studio], restricted permissions"
 author: John-Hart
 ms.author: johnhart
-manager: jillfar
+manager: jillfra
 ms.workload: 
   - "office"
 ---

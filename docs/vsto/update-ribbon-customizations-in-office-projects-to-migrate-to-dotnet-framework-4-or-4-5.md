@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "Office projects [Office development in Visual Studio], migrating to .NET Framework 4"
 author: John-Hart
 ms.author: johnhart
-manager: jillfar
+manager: jillfra
 ms.workload: 
   - "office"
 ---

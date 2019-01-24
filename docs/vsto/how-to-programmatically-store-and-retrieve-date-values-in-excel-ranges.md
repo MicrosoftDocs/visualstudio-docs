@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "date values"
 author: John-Hart
 ms.author: johnhart
-manager: jillfar
+manager: jillfra
 ms.workload: 
   - "office"
 ---

@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "Office applications [Office development in Visual Studio], globalization"
 author: John-Hart
 ms.author: johnhart
-manager: jillfar
+manager: jillfra
 ms.workload: 
   - "office"
 ---

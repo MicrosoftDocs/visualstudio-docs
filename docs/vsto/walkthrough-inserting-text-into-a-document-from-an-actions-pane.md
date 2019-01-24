@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "actions panes [Office development in Visual Studio], adding controls"
 author: John-Hart
 ms.author: johnhart
-manager: jillfar
+manager: jillfra
 ms.workload: 
   - "office"
 ---

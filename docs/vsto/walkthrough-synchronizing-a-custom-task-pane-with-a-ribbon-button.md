@@ -20,7 +20,7 @@ helpviewer_keywords:
   - "task panes [Office development in Visual Studio], synchronizing with Ribbon button"
 author: John-Hart
 ms.author: johnhart
-manager: jillfar
+manager: jillfra
 ms.workload: 
   - "office"
 ---

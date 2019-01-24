@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "tables [Office development in Visual Studio], adding to documents"
 author: John-Hart
 ms.author: johnhart
-manager: jillfar
+manager: jillfra
 ms.workload: 
   - "office"
 ---

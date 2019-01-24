@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "document-level customizations [Office development in Visual Studio], calling code"
 author: John-Hart
 ms.author: johnhart
-manager: jillfar
+manager: jillfra
 ms.workload: 
   - "office"
 ---

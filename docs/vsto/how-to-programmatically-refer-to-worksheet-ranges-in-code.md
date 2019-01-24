@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "Excel [Office development in Visual Studio], referring to worksheet ranges"
 author: John-Hart
 ms.author: johnhart
-manager: jillfar
+manager: jillfra
 ms.workload: 
   - "office"
 ---

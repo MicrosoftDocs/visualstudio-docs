@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "Office documents [Office development in Visual Studio, data sources"
 author: John-Hart
 ms.author: johnhart
-manager: jillfar
+manager: jillfra
 ms.workload: 
   - "office"
 ---

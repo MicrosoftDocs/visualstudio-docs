@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IManagedAddin interface"
 author: John-Hart
 ms.author: johnhart
-manager: jillfar
+manager: jillfra
 ms.workload: 
   - "office"
 ---

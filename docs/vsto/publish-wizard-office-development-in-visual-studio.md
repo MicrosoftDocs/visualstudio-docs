@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "Publish Wizard, Office solutions"
 author: John-Hart
 ms.author: johnhart
-manager: jillfar
+manager: jillfra
 ms.workload: 
   - "office"
 ---

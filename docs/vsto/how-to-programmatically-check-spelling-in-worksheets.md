@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "spelling, checking in worksheets"
 author: John-Hart
 ms.author: johnhart
-manager: jillfar
+manager: jillfra
 ms.workload: 
   - "office"
 ---

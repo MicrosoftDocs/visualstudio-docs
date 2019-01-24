@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], printing"
 author: John-Hart
 ms.author: johnhart
-manager: jillfar
+manager: jillfra
 ms.workload: 
   - "office"
 ---

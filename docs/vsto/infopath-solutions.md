@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "Office projects [Office development in Visual Studio], InfoPath"
 author: John-Hart
 ms.author: johnhart
-manager: jillfar
+manager: jillfra
 ms.workload: 
   - "office"
 ---

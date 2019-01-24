@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "menus, creating in Office applications"
 author: John-Hart
 ms.author: johnhart
-manager: jillfar
+manager: jillfra
 ms.workload: 
   - "office"
 ---

@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "Web pages [Office development in Visual Studio], Outlook folders"
 author: John-Hart
 ms.author: johnhart
-manager: jillfar
+manager: jillfra
 ms.workload: 
   - "office"
 ---

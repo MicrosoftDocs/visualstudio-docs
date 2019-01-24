@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "Visio object model"
 author: John-Hart
 ms.author: johnhart
-manager: jillfar
+manager: jillfra
 ms.workload: 
   - "office"
 ---

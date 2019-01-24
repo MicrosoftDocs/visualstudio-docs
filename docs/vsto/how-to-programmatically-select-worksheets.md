@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "Excel projects, selecting worksheets"
 author: John-Hart
 ms.author: johnhart
-manager: jillfar
+manager: jillfra
 ms.workload: 
   - "office"
 ---

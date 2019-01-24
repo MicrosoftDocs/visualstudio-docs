@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "Office primary interop assemblies, installing"
 author: John-Hart
 ms.author: johnhart
-manager: jillfar
+manager: jillfra
 ms.workload: 
   - "office"
 ---

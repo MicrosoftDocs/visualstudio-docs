@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "copying data, Office development in Visual Studio"
 author: John-Hart
 ms.author: johnhart
-manager: jillfar
+manager: jillfra
 ms.workload: 
   - "office"
 ---

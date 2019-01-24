@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "application manifests [Office development in Visual Studio], <formRegions> element"
 author: John-Hart
 ms.author: johnhart
-manager: jillfar
+manager: jillfra
 ms.workload:
   - "office"
 ---

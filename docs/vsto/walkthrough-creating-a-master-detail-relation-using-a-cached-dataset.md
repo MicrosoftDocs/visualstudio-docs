@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "data caching [Office development in Visual Studio], Master/Detail Relation"
 author: John-Hart
 ms.author: johnhart
-manager: jillfar
+manager: jillfra
 ms.workload: 
   - "office"
 ---

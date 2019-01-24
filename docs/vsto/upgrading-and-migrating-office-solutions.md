@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "migrating Office solutions in Visual Studio"
 author: John-Hart
 ms.author: johnhart
-manager: jillfar
+manager: jillfra
 ms.workload: 
   - "office"
 ---

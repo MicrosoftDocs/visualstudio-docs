@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "text [Office development in Visual Studio], replacing"
 author: John-Hart
 ms.author: johnhart
-manager: jillfar
+manager: jillfra
 ms.workload: 
   - "office"
 ---

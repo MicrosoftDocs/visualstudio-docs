@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "recent file list, Excel"
 author: John-Hart
 ms.author: johnhart
-manager: jillfar
+manager: jillfra
 ms.workload: 
   - "office"
 ---
