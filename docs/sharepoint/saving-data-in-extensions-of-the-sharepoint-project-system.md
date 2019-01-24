@@ -7,9 +7,9 @@ helpviewer_keywords:
   - "project items [SharePoint development in Visual Studio], saving string data"
   - "projects [SharePoint development in Visual Studio], saving string data"
   - "SharePoint projects, saving string data"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

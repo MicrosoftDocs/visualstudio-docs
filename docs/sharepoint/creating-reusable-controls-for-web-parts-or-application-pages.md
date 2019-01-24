@@ -8,9 +8,9 @@ dev_langs:
 helpviewer_keywords: 
   - "user controls [SharePoint development in Visual Studio], creating"
   - "SharePoint development in Visual Studio, user controls"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

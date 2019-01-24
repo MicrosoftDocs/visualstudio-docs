@@ -12,9 +12,9 @@ helpviewer_keywords:
   - "Business Data Connectivity service [SharePoint development in Visual Studio], custom assembly"
   - "BDC [SharePoint development in Visual Studio], custom assembly"
   - "BDC [SharePoint development in Visual Studio], add reference"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

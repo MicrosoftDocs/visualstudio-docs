@@ -12,9 +12,9 @@ helpviewer_keywords:
   - "Business Data Connectivity service [SharePoint development in Visual Studio], reuse a model"
   - "BDC [SharePoint development in Visual Studio], import a model"
   - "BDC [SharePoint development in Visual Studio], remove a model"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

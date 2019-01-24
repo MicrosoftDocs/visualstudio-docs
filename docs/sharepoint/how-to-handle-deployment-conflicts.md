@@ -4,9 +4,9 @@ ms.date: "02/02/2017"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "SharePoint development in Visual Studio, extending deployment"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---
