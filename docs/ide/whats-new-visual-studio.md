@@ -1,5 +1,6 @@
 ---
 monikerRange: '>= vs-2017'
+ms.topic: include
 ---
 
 ::: moniker range="vs-2017"
