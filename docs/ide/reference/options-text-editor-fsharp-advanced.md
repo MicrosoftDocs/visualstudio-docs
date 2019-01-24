@@ -7,7 +7,7 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.F%2523.Advanced"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "dotnet"
 ---
@@ -18,11 +18,11 @@ Use the **Advanced** options page to modify some text editor settings for F#. To
 ## Block Structure Guides
 
 When selected, vertical lines appear in the editor that line up with structured code blocks, which lets you easily identify the individual blocks of code.
-  
+
 ## Outlining
 
 Select this check box to automatically outline the code file, which creates collapsible blocks of code.
-  
+
 ## See also
 
 - [General, Environment, Options Dialog Box](../../ide/reference/general-environment-options-dialog-box.md)

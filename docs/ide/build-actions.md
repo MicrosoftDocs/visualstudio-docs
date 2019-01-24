@@ -6,7 +6,7 @@ ms.technology: vs-ide-compile
 ms.topic: reference
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

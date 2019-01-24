@@ -22,7 +22,7 @@ helpviewer_keywords:
   - "XML documentation comments [JavaScript]"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "updating templates [Visual Studio]"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ---
 # How to: Update existing templates
 
