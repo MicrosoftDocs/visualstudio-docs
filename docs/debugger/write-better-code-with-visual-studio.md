@@ -1,5 +1,5 @@
 ---
-title: Handle exceptions, fix errors, and prevent bugs
+title: Fix exceptions, fix errors, and prevent bugs
 description: "Understand how to write better code with less bugs"
 ms.custom: ['debug-experiment', 'seodec18']
 ms.date: "01/24/2019"
@@ -12,7 +12,7 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Handle exceptions, fix errors, and prevent bugs using Visual Studio
+# Fix exceptions, fix errors, and prevent bugs using Visual Studio
 
 Fixing bugs in your code can be a time-consuming--and sometimes frustrating--task. It takes time to learn how to debug effectively, but a powerful IDE like Visual Studio can make your job a lot easier. An IDE can help you debug your code more quickly, and not just that, but it can also help you write better code with fewer bugs. Our aim in this article is to give you a holistic view of the "bug-fixing" process, so you will know when to use the code analyzer, when to work on code fixes, and when to use the debugger.
 
@@ -28,7 +28,7 @@ In this article, we talk about leveraging the IDE to make your coding sessions m
 
 To demonstrate these tasks, we show a few of the most common types of errors and bugs that you'll encounter when trying to debug your apps. Although the sample code is C#, the conceptual information is generally applicable to C++, Visual Basic, JavaScript, and other languages supported by Visual Studio (except where noted). The screenshots are in C#.
 
-## Create a sample app with some bugs in it
+## Create a sample app with some bugs and errors in it
 
 The following code has some bugs that you can fix using the Visual Studio IDE. The app here is a simple app that simulates getting JSON data from some operation, deserializing the data to an object, and updating a simple list with the new data.
 
@@ -184,7 +184,7 @@ Notice that this error shows a light bulb icon to the lower left. Along with the
 
 When you click this item, Visual Studio adds the `using System.Text` statement at the top of the *Program.cs* file, and the red squiggle disappears. (When you're not sure what a suggested fix will do, choose the **Preview changes** link on the right before applying the fix.)
 
-The preceding error is a common one that you usually fix by adding a new `using` statement to your code. There are several common, similar errors to this one such as ```The type or namespace `Name` cannot be found.``` These kinds of errors may indicate a missing assembly reference (right-click the project, choose **Add** > **Reference**), a misspelled name, or a missing library that you need to add using NuGet (right-click the project and choose **Manage NuGet Packages**).
+The preceding error is a common one that you usually fix by adding a new `using` statement to your code. There are several common, similar errors to this one such as ```The type or namespace `Name` cannot be found.``` These kinds of errors may indicate a missing assembly reference (right-click the project, choose **Add** > **Reference**), a misspelled name, or a missing library that you need to add (for C#, right-click the project and choose **Manage NuGet Packages**).
 
 ## Fix the errors and warnings
 
@@ -247,7 +247,7 @@ When you hit an exception, you need to ask (and answer) a couple of questions:
 
 * Is this exception something that your users might encounter?
 
-If it's the former, fix the bug. (In the sample app, that means fix the bad data.) If it's the latter, you might need to handle the exception in your code using a `try/catch` block (we look at other possible fixes in the next section). In the sample app, replace the following code:
+If it's the former, fix the bug. (In the sample app, that means fix the bad data.) If it's the latter, you might need to handle the exception in your code using a `try/catch` block (we look at other possible strategies in the next section). In the sample app, replace the following code:
 
 ```csharp
 users = ser.ReadObject(ms) as User[];

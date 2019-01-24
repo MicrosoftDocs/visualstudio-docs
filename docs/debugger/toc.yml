@@ -4,7 +4,7 @@
   items:
   - name: "What is debugging?"
     href: what-is-debugging.md
-  - name: Write code with less bugs
+  - name: Fix exceptions and errors
     href: write-better-code-with-visual-studio.md
 - name: Quickstarts
   items:

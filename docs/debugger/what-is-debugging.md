@@ -48,4 +48,4 @@ In this article, you've learned a few general debugging concepts. Next, you can 
 > [Debugging for absolute beginners](../debugger/debugging-absolute-beginners.md)
 
 > [!div class="nextstepaction"]
-> [Handle exceptions, fix errors, and prevent bugs](../debugger/write-better-code-with-visual-studio.md)
+> [Fix exceptions, fix errors, and prevent bugs](../debugger/write-better-code-with-visual-studio.md)
