@@ -109,7 +109,7 @@ helpviewer_keywords:
 ms.assetid: 860c7f13-a108-4fe5-8fca-d235cd3ca1cb
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: jillfra
 ms.workload: 
   - "cplusplus"
 ---

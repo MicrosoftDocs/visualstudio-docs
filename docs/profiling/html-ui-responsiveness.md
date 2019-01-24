@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "profiler, JavaScript [UWP apps]"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: jillfra
 ms.workload: 
   - "uwp"
 ---

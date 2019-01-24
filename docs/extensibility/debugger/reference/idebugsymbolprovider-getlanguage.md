@@ -9,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: e4142183-3d8b-418f-907f-4ee4c753d8ce
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: douge
+manager: jillfra
 ms.workload: 
   - "vssdk"
 ---

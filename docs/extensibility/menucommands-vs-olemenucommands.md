@@ -7,7 +7,7 @@ helpviewer_keywords:
   - "command buttons, creating and placing"
   - "menus, creating commands"
 ms.assetid: 553d5e07-3e19-4aba-b490-6c7dd05fd82e
-manager: "douge"
+manager: jillfra
 ---
 # MenuCommands Vs. OleMenuCommands
 You can create menu commands by deriving either from <xref:System.ComponentModel.Design.MenuCommand> or from <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> object, and implementing the appropriate event handlers. In the majority of cases you can use <xref:System.ComponentModel.Design.MenuCommand>, as the VSPackage project template does, but occasionally you may need to use <xref:Microsoft.VisualStudio.Shell.OleMenuCommand>.  
