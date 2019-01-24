@@ -13,7 +13,7 @@ helpviewer_keywords:
   - visual studio
 author: PhilLee-MSFT
 ms.author: tglee
-manager: douge
+manager: jillfra
 ms.workload:
   - multiple
 ---

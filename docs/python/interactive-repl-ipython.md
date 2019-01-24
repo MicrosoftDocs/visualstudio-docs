@@ -6,9 +6,9 @@ ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
-manager: douge
+manager: jillfra
 ms.custom: seodec18
-ms.workload: 
+ms.workload:
   - python
   - data-science
 ---
@@ -37,7 +37,7 @@ For this walkthrough you should have the [Anaconda](https://www.continuum.io) en
    ```python
    import matplotlib.pyplot as plt
    import numpy as np
-  
+
    x = np.linspace(0, 5, 10)
    y = x ** 2
    plt.plot(x, y, 'r', x, x ** 3, 'g', x, x ** 4, 'b')

@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "changing Visual Studio"
 author: TerryGLee
 ms.author: tglee
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

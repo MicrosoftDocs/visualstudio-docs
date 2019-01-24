@@ -7,7 +7,7 @@ ms.prod: visual-studio-dev15
 ms.topic: overview
 author: kraigb
 ms.author: kraigb
-manager: douge
+manager: jillfra
 ms.custom: seodec18
 ms.workload:
   - python
@@ -35,7 +35,7 @@ Visual Studio's **Python Environments** window (shown below in a wide, expanded 
 
 ![Expanded view of the Python Environments window](media/environments-expanded-view.png)
 
-Use the **Open interactive window** command to run Python interactively within the context of Visual Studio. Use the **Open in PowerShell** command to open a separate command window in the folder of the selected environment. From that command window you can run any python script. 
+Use the **Open interactive window** command to run Python interactively within the context of Visual Studio. Use the **Open in PowerShell** command to open a separate command window in the folder of the selected environment. From that command window you can run any python script.
 
 For more information:
 
