@@ -21,7 +21,7 @@ When you run IntelliTest, you can easily see which tests are failing and add any
 
 The **Create IntelliTest** and **Run IntelliTest** menu commands:
 
-* Are only available in the Enterprise Edition of Visual Studio 2015 and later.
+* Are available only in the Enterprise Edition of Visual Studio 2015 and later.
 
 * Support only C# code that targets the .NET Framework.
 
