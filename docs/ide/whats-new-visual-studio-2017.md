@@ -134,7 +134,7 @@ And, for more information about what's new in the [Continuous delivery tools for
 
 **New in 15.8**: Editing multiple locations in a file, simultaneously, is now easy. Start by creating insertion points and selections at multiple locations in a file. Then, use the multi-caret editing feature to make the same edit in two or more places at the same time.
 
-For more information, see the [Multi-caret selection](../finding-and-replacing-text.md#multi-caret-selection) section of the of the [Find and replace text](../finding-and-replacing-text.md) page.
+For more information, see the [Multi-caret selection](finding-and-replacing-text.md#multi-caret-selection) section of the of the [Find and replace text](finding-and-replacing-text.md) page.
 
 #### Keep keybinding profiles consistent
 
@@ -155,7 +155,7 @@ Refactoring is the process of improving your code after it has been written. Ref
 * Convert if-to-switch
 * Remove unused variable
 
-For more information, see [Quick Actions](../common-quick-actions.md).
+For more information, see [Quick Actions](common-quick-actions.md).
 
 #### Interact with Git
 
@@ -167,7 +167,7 @@ When you are working with a project in Visual Studio, you can set up and quickly
 
 We've refreshed the navigation experience to help you get from A to B with greater confidence and fewer distractions.
 
-* **New in 15.4**: **Go To Definition** (**Ctrl**+**click** or **F12**) &ndash; Mouse users have an easier way to navigate to the definition of a member by pressing **Ctrl** and then clicking the member. Pressing **Ctrl** and hovering over a code symbol will underline it and turn it into a link. See [Go To Definition and Peek Definition](../go-to-and-peek-definition.md) for more information.
+* **New in 15.4**: **Go To Definition** (**Ctrl**+**click** or **F12**) &ndash; Mouse users have an easier way to navigate to the definition of a member by pressing **Ctrl** and then clicking the member. Pressing **Ctrl** and hovering over a code symbol will underline it and turn it into a link. See [Go To Definition and Peek Definition](go-to-and-peek-definition.md) for more information.
 
 * **Go To Implementation** (**Ctrl**+**F12**) &ndash; Navigate from any base type or member to its various implementations.
 
@@ -368,11 +368,11 @@ Want to know more about what else is in the works for Visual Studio 2017? See th
 
  Why send feedback to the Visual Studio team? Because we take customer feedback seriously. It drives much of what we do.
 
-If you want to make a suggestion about how we can improve Visual Studio, or learn more about product support options, please see the [Talk to us](../talk-to-us.md) page.
+If you want to make a suggestion about how we can improve Visual Studio, or learn more about product support options, please see the [Talk to us](talk-to-us.md) page.
 
 ### Report a problem
 
- Sometimes, a message isn't enough to convey the full impact of a problem that you've encountered. If you experience a hang, crash, or other performance issue, you can easily share repro steps and supporting files (such as screenshots, and trace and heap dump files) with us by using the **Report a Problem** tool. For more information about how to use this tool, see the [How to report a problem](../how-to-report-a-problem-with-visual-studio-2017.md) page.
+ Sometimes, a message isn't enough to convey the full impact of a problem that you've encountered. If you experience a hang, crash, or other performance issue, you can easily share repro steps and supporting files (such as screenshots, and trace and heap dump files) with us by using the **Report a Problem** tool. For more information about how to use this tool, see the [How to report a problem](how-to-report-a-problem-with-visual-studio-2017.md) page.
 
 ## See also
 
@@ -381,4 +381,4 @@ If you want to make a suggestion about how we can improve Visual Studio, or lear
 * [What's new in C#](/dotnet/csharp/whats-new)
 * [What's new for Team Foundation Server](/tfs/server/whats-new?view=vsts)
 * [What's new in Visual Studio for Mac](https://visualstudio.microsoft.com/vs/visual-studio-mac/)
-* [What's new in Visual Studio 2019](../whats-new-visual-studio-2019.md)
+* [What's new in Visual Studio 2019](whats-new-visual-studio-2019.md)

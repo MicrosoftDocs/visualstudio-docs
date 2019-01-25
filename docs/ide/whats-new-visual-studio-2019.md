@@ -66,7 +66,7 @@ Paired with a new document health indicator is a new code cleanup command. You c
 
    ![The new code cleanup feature in Visual Studio 2019](media/code-cleanup.png)
 
-The cleanup will format the code and apply any code fixes as suggested by the [current settings](../code-styles-and-quick-actions.md), [.editorconfig files](../create-portable-custom-editor-options.md), or [Roslyn analyzers](../../code-quality/roslyn-analyzers-overview.md).
+The cleanup will format the code and apply any code fixes as suggested by the [current settings](code-styles-and-quick-actions.md), [.editorconfig files](create-portable-custom-editor-options.md), or [Roslyn analyzers](../code-quality/roslyn-analyzers-overview.md).
 
 ### Debugger improvements
 
@@ -90,7 +90,7 @@ For more information, see the [Visual Studio Live Share for real-time code revie
 
 ### Manage pull requests (PRs) from the IDE
 
-We're introducing a new extension that you can download to use with Visual Studio 2019 Preview. With this new extension, you can review, run, and even debug pull requests from your team without leaving the Visual Studio IDE [(integrated development environment)](../../get-started/visual-studio-ide.md). We support code in Azure Repos today, but are expanding to support GitHub and improve the overall experience.
+We're introducing a new extension that you can download to use with Visual Studio 2019 Preview. With this new extension, you can review, run, and even debug pull requests from your team without leaving the Visual Studio IDE [(integrated development environment)](../get-started/visual-studio-ide.md). We support code in Azure Repos today, but are expanding to support GitHub and improve the overall experience.
 
 To get started now, download the [Pull Requests for Visual Studio](https://aka.ms/pr4vs) extension from the Visual Studio Marketplace.
 
@@ -131,12 +131,12 @@ For more information about the recent updates, see the [Visual Studio IntelliCod
 
 Why send feedback to the Visual Studio team? Because we take customer feedback seriously. It drives much of what we do.
 
-* If you want to make a suggestion about how we can improve Visual Studio, you can do so by using the [Provide a Suggestion](../talk-to-us.md#i-want-to-make-a-suggestion-about-visual-studio-features) tool.
+* If you want to make a suggestion about how we can improve Visual Studio, you can do so by using the [Provide a Suggestion](talk-to-us.md#i-want-to-make-a-suggestion-about-visual-studio-features) tool.
 
-* If you experience a hang, crash, or other performance issue, you can easily share repro steps and supporting files with us by using the [Report a Problem](../talk-to-us.md#i-want-to-report-a-problem-with-visual-studio) tool.
+* If you experience a hang, crash, or other performance issue, you can easily share repro steps and supporting files with us by using the [Report a Problem](talk-to-us.md#i-want-to-report-a-problem-with-visual-studio) tool.
 
 ## See also
 
 * [Visual Studio 2019 release notes](/visualstudio/releases/2019/release-notes-preview?context=visualstudio/default&contextView=vs-2017)
 * [Microsoft Connect(); 2018 conference](https://www.microsoft.com/connectevent)
-* [What's new in Visual Studio 2017](../whats-new-visual-studio-2017.md)
+* [What's new in Visual Studio 2017](whats-new-visual-studio-2017.md)
