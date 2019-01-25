@@ -270,5 +270,4 @@ Congratulations on completing this tutorial! You can find the *.exe* you built u
 
 ## See also
 
-- [What's new in Visual Studio 2017](../../ide/whats-new-visual-studio.md)
 - [Productivity tips](../../ide/productivity-tips-for-visual-studio.md)
