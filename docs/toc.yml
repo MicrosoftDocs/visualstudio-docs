@@ -1100,6 +1100,7 @@
     - name: Upgrade Dotfuscator CE
       href: ide/dotfuscator/upgrades.md
 - name: Resources
+  expanded: true
   items:
   - name: What's new in Visual Studio 2017
     href: ide/whats-new-visual-studio-2017.md
