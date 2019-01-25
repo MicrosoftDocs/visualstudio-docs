@@ -16,7 +16,7 @@ ms.workload:
   - "multiple"
 monikerRange: '>= vs-2017'
 ---
-# What's New in Visual Studio 2019 Preview
+# What's new in Visual Studio 2019 Preview
 
 **Updated for the [Preview 2 release](/visualstudio/releases/2019/release-notes-preview?context=visualstudio/default&contextView=vs-2017)**
 
