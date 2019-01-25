@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.assetid: 34eac8a0-7ec5-4c40-b97a-0126ed367931
 author: "karann-msft"
 ms.author: "karann"
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

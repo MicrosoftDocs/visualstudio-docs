@@ -3,11 +3,11 @@ title: "Exploration bounds | Microsoft IntelliTest Developer Test Tool"
 ms.date: 05/02/2017
 ms.prod: visual-studio-dev15
 ms.topic: reference
-helpviewer_keywords: 
+helpviewer_keywords:
   - "IntelliTest, Exploration bounds"
 ms.author: gewarren
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 author: gewarren
 ---
@@ -43,7 +43,7 @@ public partial class FooTest {...}
 <a name="maxconstraintsolvertime"></a>
 ## MaxConstraintSolverTime
 
-The number of seconds the 
+The number of seconds the
 [constraint solver](input-generation.md#constraint-solver) has to calculate inputs that will cause a new and different execution path to be taken. This is an option of the **PexSettingsAttributeBase** and its derived types.
 
 The deeper that IntelliTest explores the execution paths of a program, the more complex the constraint systems that IntelliTest builds from the control-flow and data-flow of the program become. Depending on your time limitation, you can set this value to allow IntelliTest to take more or less time discovering new execution paths.
@@ -103,7 +103,7 @@ For example, each path in the following code consumes n+1 conditions:
 
 ```csharp
 [PexMethod]
-void ParameterizedTest(int n) 
+void ParameterizedTest(int n)
 {
      for (int i=0; i<n; i++) { // conditions are "0<n", "1<n", ..., "!(n<n)"
           ...
@@ -141,10 +141,10 @@ The maximum number of unique paths that IntelliTest will consider during an expl
 
 The motivation behind this exploration bound is that any code containing loops or recursion might have an infinite number of execution paths, and so IntelliTest must be limited during [input generation](input-generation.md).
 
-The two settings **MaxRuns** and **MaxRunsWithUniquePaths** are related as follows: 
+The two settings **MaxRuns** and **MaxRunsWithUniquePaths** are related as follows:
 
 * IntelliTest will call a parameterized test method up to **MaxRuns** times with different test inputs.
-* If the executed code is deterministic, IntelliTest will take a different execution path each time. However, under some conditions the executed code might follow an execution path it has already taken before, with different inputs. 
+* If the executed code is deterministic, IntelliTest will take a different execution path each time. However, under some conditions the executed code might follow an execution path it has already taken before, with different inputs.
 * IntelliTest counts how many unique execution paths it finds; this number is limited by the **MaxRunsWithUniquePaths** option.
 
 <a name="maxexceptions"></a>

@@ -6,7 +6,7 @@ ms.prod: visual-studio-dev15
 ms.assetid: b3a8a785-5928-457a-8a50-30267e29503d
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

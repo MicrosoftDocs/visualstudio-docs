@@ -8,7 +8,7 @@ ms.technology: vs-python
 ms.topic: quickstart
 author: kraigb
 ms.author: kraigb
-manager: douge
+manager: jillfra
 ms.workload:
   - python
   - data-science

@@ -8,7 +8,7 @@ helpviewer_keywords:
 ms.assetid: e3b7d952-9012-400a-8131-3444390a6066
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.prod: visual-studio-dev15
 ---
 # Edit test mix models to specify the probability of a virtual user running a test

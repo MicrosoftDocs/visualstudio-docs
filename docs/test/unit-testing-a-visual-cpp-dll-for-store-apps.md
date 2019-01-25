@@ -4,7 +4,7 @@ ms.date: 02/15/2018
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.author: mblome
-manager: douge
+manager: jillfra
 ms.workload:
   - "uwp"
 author: mikeblome

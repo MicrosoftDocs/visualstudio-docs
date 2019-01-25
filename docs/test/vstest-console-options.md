@@ -8,7 +8,7 @@ helpviewer_keywords:
   - "command-line tests"
 ms.author: gewarren
 author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

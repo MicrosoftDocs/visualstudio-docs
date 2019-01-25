@@ -23,7 +23,7 @@ helpviewer_keywords:
   - "General Environment Options dialog box"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

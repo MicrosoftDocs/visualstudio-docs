@@ -4,13 +4,13 @@ ms.custom: ""
 ms.date: "05/21/2018"
 ms.technology: vs-ide-mobile
 ms.topic: "conceptual"
-dev_langs: 
+dev_langs:
   - "C++"
 ms.assetid: d0c311c9-9eb9-42c5-ba07-25604362cd28
 author: "corob-msft"
 ms.author: "corob"
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "xplat-cplusplus"
 ---
 # Install and configure tools to build using iOS

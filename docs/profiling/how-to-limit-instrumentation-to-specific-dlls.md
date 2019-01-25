@@ -6,7 +6,7 @@ helpviewer_keywords:
   - "performance tools, runtime profiling control window"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: jillfra
 ms.workload: 
   - "multiple"
 ---

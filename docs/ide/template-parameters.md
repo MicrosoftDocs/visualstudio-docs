@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "item templates, parameters"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ---
 # Template parameters
 

@@ -8,7 +8,7 @@ helpviewer_keywords:
 ms.assetid: 1118c604-4b1b-4b21-a04e-45995b676fa8
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.prod: visual-studio-dev15
 ---
 # How to: Create a Visual Studio add-in for the Web Performance Test Results Viewer

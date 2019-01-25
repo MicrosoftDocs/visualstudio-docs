@@ -5,7 +5,7 @@ ms.prod: visual-studio-dev15
 ms.topic: reference
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
   - CSharp
 ms.workload:

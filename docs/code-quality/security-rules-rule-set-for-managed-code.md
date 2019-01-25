@@ -6,7 +6,7 @@ ms.topic: reference
 ms.assetid: 564aeac6-03fa-41b0-b655-88179f0ab01b
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "dotnet"
 ---

@@ -17,7 +17,7 @@ helpviewer_keywords:
 ms.assetid: b938a91b-be96-416f-83bc-4177e7f3929a
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: jillfra
 ms.workload: 
   - "aspnet"
 ---

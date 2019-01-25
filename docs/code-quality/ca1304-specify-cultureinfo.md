@@ -12,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: b912d76a-54fd-4c93-b25d-16491e0ae319
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

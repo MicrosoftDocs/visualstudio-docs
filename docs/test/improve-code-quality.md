@@ -7,7 +7,7 @@ helpviewer_keywords:
   - "testing tools [Visual Studio]"
   - "unit tests [Visual Studio]"
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 author: gewarren

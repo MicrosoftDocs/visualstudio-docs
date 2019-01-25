@@ -6,9 +6,9 @@ ms.prod: visual-studio-dev15
 ms.topic: quickstart
 author: kraigb
 ms.author: kraigb
-manager: douge
+manager: jillfra
 ms.custom: seodec18
-ms.workload: 
+ms.workload:
   - python
   - data-science
 ---

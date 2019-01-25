@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "results window, code metrics"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

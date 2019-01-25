@@ -8,7 +8,7 @@ f1_keywords:
   - "Blend.Start.Dev12"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

@@ -5,7 +5,7 @@ ms.topic: "conceptual"
 ms.assetid: 45cfcee6-7a68-4d4f-b3f6-e2d8a0fa066a
 author: "gregg-miskelly"
 ms.author: "greggm"
-manager: douge
+manager: jillfra
 ms.workload: 
   - "greggm"
 ---

@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "multi-project templates"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ---
 # How to: Create multi-project templates
 

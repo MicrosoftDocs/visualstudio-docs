@@ -6,7 +6,7 @@ ms.topic: "conceptual"
 ms.assetid: ffbdfe37-8325-44be-bd36-2c8aab2dec7b
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: jillfra
 ms.workload: 
   - "dotnet"
 ---

@@ -8,7 +8,7 @@ ms.technology: vs-ide-general
 ms.topic: tutorial
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
   - CSharp
 ms.workload:

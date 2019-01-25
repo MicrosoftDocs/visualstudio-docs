@@ -6,7 +6,7 @@ ms.topic: reference
 ms.assetid: 846fdabd-e5c3-4688-9b0d-a93fbeea1b96
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -95,5 +95,5 @@ For more information, see [How to: Evaluate an XPath expression](../xml-tools/ho
 ## See also
 
 - [Debugging XSLT](../xml-tools/debugging-xslt.md)
-- [First look at the debugger](../debugger/debugger-feature-tour.md)   
+- [First look at the debugger](../debugger/debugger-feature-tour.md)
 - [Inspect variables in the autos and locals windows in Visual Studio](../debugger/autos-and-locals-windows.md)

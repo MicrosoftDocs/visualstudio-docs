@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "code snippets"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CSharp
  - VB

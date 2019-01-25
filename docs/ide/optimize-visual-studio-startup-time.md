@@ -9,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: d1508121-8499-4084-8eb5-fa89fa7b17d3
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 f1_keywords:
   - "vs.performancecenter"
 ms.prod: visual-studio-dev15

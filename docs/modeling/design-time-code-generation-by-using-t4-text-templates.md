@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "text templates, generating code for your application"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ms.prod: visual-studio-dev15

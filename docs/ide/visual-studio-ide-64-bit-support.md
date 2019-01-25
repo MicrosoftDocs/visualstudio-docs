@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "64-bit programming [C++]"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

@@ -12,7 +12,7 @@ dev_langs:
   - VB
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.prod: visual-studio-dev15
 ---
 # Code a custom extraction rule for a web performance test

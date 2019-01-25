@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "Application page [UWP project]"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "uwp"
 ---

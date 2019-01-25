@@ -10,7 +10,7 @@ dev_langs:
 ms.assetid: 29a37182-2a2c-47e4-a4a9-2d5412738fed
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: jillfra
 ms.workload: 
   - "uwp"
 ---

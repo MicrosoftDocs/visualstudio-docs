@@ -4,7 +4,7 @@ ms.date: 11/07/2017
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.author: mblome
-manager: douge
+manager: jillfra
 ms.workload:
   - "cplusplus"
 author: mikeblome
