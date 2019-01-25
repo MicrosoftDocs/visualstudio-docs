@@ -182,7 +182,10 @@ We've improved on our basic calculator app, but it doesn't yet have failsafes in
 
 For example, if you try to divide a number by zero, or enter an alpha character when the app expects a numeric character (or vice versa), the app stops working and returns an error.
 
-Let's walk through a few common user input errors, locate them in the [debugger](../../debugger/debugger-feature-tour.md), and fix them in the code.
+Let's walk through a few common user input errors, locate them in the debugger, and fix them in the code.
+
+>[!TIP]
+>For more information about the debugger and how it works, see the [First look at the Visual Studio debugger]((../../debugger/debugger-feature-tour.md)) page.
 
 ### Fix the "divide by zero" error
 
@@ -499,48 +502,6 @@ namespace Calculator
 }
 
 ```
-
-## Quick answers FAQ
-
-Here's a quick FAQ to highlight some key concepts. The FAQ also includes answers to questions that might come up when you follow the procedures in the tutorial.
-
-### What is C#?
-
-C# is a type-safe programming language that runs on the .NET Framework and .NET Core. With C#, you can create Windows applications, client-server applications, database applications, XML Web services, distributed components, and more.
-
-### What is Visual Studio?
-
-Visual Studio is an integrated development suite of productivity tools for developers. Think of it as a program you can use to create programs and applications.
-
-### What is a console app?
-
-A console app takes input and displays output in a command-line window, a.k.a. a console.
-
-### What is .NET Core?
-
-.NET Core is the evolutionary next step of the .NET Framework. Where the .NET Framework allowed you to share code across programming languages, .NET Core adds the ability to share code across platforms. Even better, it's open source.
-
-(Both the .NET Framework and .NET Core include libraries of prebuilt functionality. They also include a common language runtime (CLR), which acts as a virtual machine in which to run your code.)
-
-### <a id="workload"></a>What's a workload and how do I add one?
-
-A workload in Visual Studio represents a set of programming options and templates that you can use to customize your Visual Studio installation. A workload installs only the tools you need for the programming language and platform of your choice. Here's how to install them.
-
-#### Option 1: Use the New Project dialog box
-
-1. Choose the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box.
-
-   ![Choose the Open Visual Studio Installer link from the New Project dialog box](./media/csharp-open-visual-studio-installer-generic-dark.png)
-
-1. The Visual Studio Installer launches. Choose the **.NET Core cross-platform development** workload, and then choose **Modify**.
-
-   ![.NET Core cross-platform development workload in the Visual Studio Installer](./media/dot-net-core-xplat-dev-workload.png)
-
-#### Option 2: Use the Tools menu bar
-
-1. Cancel out of the **New Project** dialog box and from the top menu bar, choose **Tools** > **Get Tools and Features**.
-
-1. The Visual Studio Installer launches. Choose the **.NET Core cross-platform development** workload, and then choose **Modify**.
 
 ## Next steps
 
