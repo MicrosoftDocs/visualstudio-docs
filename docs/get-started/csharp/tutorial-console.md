@@ -36,7 +36,23 @@ To start, we'll create a C# application project. The project type comes with all
 
 ### Add a workgroup (optional)
 
-If you don't see the **Console App (.NET Core)** project template, you can get it by adding the **.NET Core cross-platform development** workload. To find out how to do this, see the "[What's a workload and how do I add one?](#workload)" section in the FAQ.
+If you don't see the **Console App (.NET Core)** project template, you can get it by adding the **.NET Core cross-platform development** workload. Here's how.
+
+#### Option 1: Use the New Project dialog box
+
+1. Choose the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box.
+
+   ![Choose the Open Visual Studio Installer link from the New Project dialog box](./media/csharp-open-visual-studio-installer-generic-dark.png)
+
+1. The Visual Studio Installer launches. Choose the **.NET Core cross-platform development** workload, and then choose **Modify**.
+
+   ![.NET Core cross-platform development workload in the Visual Studio Installer](./media/dot-net-core-xplat-dev-workload.png)
+
+#### Option 2: Use the Tools menu bar
+
+1. Cancel out of the **New Project** dialog box and from the top menu bar, choose **Tools** > **Get Tools and Features**.
+
+1. The Visual Studio Installer launches. Choose the **.NET Core cross-platform development** workload, and then choose **Modify**.
 
 ## Create the app
 
@@ -512,4 +528,5 @@ Congratulations on completing this tutorial! To learn even more, continue with t
 
 ## See also
 
-* [C# Fundamentals for Absolute Beginners video course](https://mva.microsoft.com/en-us/training-courses/c-fundamentals-for-absolute-beginners-16169)
+* [Video course: C# Fundamentals for Absolute Beginners](https://mva.microsoft.com/en-us/training-courses/c-fundamentals-for-absolute-beginners-16169)
+* [Learn to debug C# code in Visual Studio](tutorial-debugger.md)
