@@ -1,8 +1,8 @@
 ---
-title: "Tutorial: Get started with C# console apps"
+title: "Tutorial: Create a simple C# console app"
 description: "Learn how to create a C# console app in Visual Studio, step-by-step."
 ms.custom: "seodec18, get-started"
-ms.date: 01/24/2019
+ms.date: 01/25/2019
 ms.technology: vs-ide-general
 ms.prod: visual-studio-dev15
 ms.topic: tutorial
@@ -16,7 +16,7 @@ ms.workload:
   - "dotnet"
   - "dotnetcore"
 ---
-# Tutorial: Get started with a C# console app in Visual Studio
+# Tutorial: Create a simple C# console app in Visual Studio
 
 In this tutorial for C#, you'll use Visual Studio to create and run a console app and explore some features of the [Visual Studio integrated development environment (IDE)](../visual-studio-ide.md) while you do so.
 
