@@ -13,6 +13,7 @@ author: TerryGLee
 ms.author: tglee
 manager: jillfra
 ms.prod: visual-studio-family
+ms.topic: conceptual
 ms.workload:
   - "multiple"
 monikerRange: '>= vs-2017'
