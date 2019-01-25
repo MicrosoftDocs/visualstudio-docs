@@ -12,9 +12,9 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Debugging techniques and debugging tools in Visual Studio
+# Debugging techniques and tools in Visual Studio to help you write better code
 
-Fixing bugs and errors in your code can be a time-consuming--and sometimes frustrating--task. It takes time to learn how to debug effectively, but a powerful IDE like Visual Studio can make your job a lot easier. An IDE can help you debug your code more quickly, and not just that, but it can also help you write better code with fewer bugs. Our aim in this article is to give you a holistic view of the "bug-fixing" process, so you will know when to use the code analyzer and when to use the debugger. If you already know you need to use the debugger, see [First look at the debugger](../debugger/debugger-feature-tour.md).
+Fixing bugs and errors in your code can be a time-consuming--and sometimes frustrating--task. It takes time to learn how to debug effectively, but a powerful IDE like Visual Studio can make your job a lot easier. An IDE can help you fix errors and debug your code more quickly, and not just that, but it can also help you write better code with fewer bugs. Our aim in this article is to give you a holistic view of the "bug-fixing" process, so you will know when to use the code analyzer, when to use the debugger, how to fix exceptions, and how to code for intent. If you already know you need to use the debugger, see [First look at the debugger](../debugger/debugger-feature-tour.md).
 
 In this article, we talk about leveraging the IDE to make your coding sessions more productive. We touch on several tasks, such as:
 
@@ -22,7 +22,7 @@ In this article, we talk about leveraging the IDE to make your coding sessions m
 
 * How to fix exceptions (run-time errors)
 
-* How to minimize bugs by coding for intent
+* How to minimize bugs by coding for intent (using assert)
 
 * When to use the debugger
 
