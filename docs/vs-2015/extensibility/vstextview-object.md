@@ -23,7 +23,7 @@ The text view is a window that allows users to view and edit the Unicode text of
   
 |Interface|Description|  
 |---------------|-----------------|  
-|[IDropSource](http://msdn.microsoft.com/library/windows/desktop/ms690071)|Standard OLE interface.|  
+|[IDropSource](/windows/desktop/api/oleidl/nn-oleidl-idropsource)|Standard OLE interface.|  
 |<xref:Microsoft.VisualStudio.OLE.Interop.IDropTarget>|Standard OLE interface.|  
 |<xref:Microsoft.VisualStudio.OLE.Interop.IObjectWithSite>|Standard OLE interface.|  
 |<xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget>|Standard OLE interface.|  
