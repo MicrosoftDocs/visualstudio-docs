@@ -5,7 +5,7 @@ ms.reviewer: "Jamie.Young"
 ms.topic: "conceptual"
 ms.assetid: d20a30c0-0dcc-4e2c-a809-31c8ea28c7df
 ms.author: "v-brickg"
-manager: douge
+manager: jillfra
 ms.workload: 
   - "v-brickg"
 ---

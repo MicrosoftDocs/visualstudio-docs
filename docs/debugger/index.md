@@ -6,7 +6,7 @@ ms.custom: "seodec18"
 ms.topic: landing-page
 ms.author: "mikejo"
 author: "mikejo5000"
-manager: douge
+manager: jillfra
 ---
 # Debugging in Visual Studio
 

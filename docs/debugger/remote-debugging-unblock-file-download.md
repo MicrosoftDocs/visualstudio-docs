@@ -6,7 +6,7 @@ helpviewer_keywords:
   - "remote debugging, unblock download"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

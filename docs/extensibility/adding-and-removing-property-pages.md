@@ -9,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: 34853412-ab8a-4caa-9601-7d0727b2985d
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: douge
+manager: jillfra
 dev_langs:
  - CSharp
  - VB

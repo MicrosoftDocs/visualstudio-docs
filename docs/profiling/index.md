@@ -6,7 +6,7 @@ ms.custom: "seodec18"
 ms.topic: landing-page
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: jillfra
 ---
 # Measure app performance in Visual Studio
 

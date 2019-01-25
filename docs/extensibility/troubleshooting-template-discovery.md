@@ -4,7 +4,7 @@ ms.date: "01/02/2018"
 ms.topic: "conceptual"
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: douge
+manager: jillfra
 ms.workload: 
   - "vssdk"
 ---

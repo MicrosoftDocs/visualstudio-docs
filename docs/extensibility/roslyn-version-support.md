@@ -7,7 +7,7 @@ helpviewer_keywords:
   - "roslyn package versions"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "vssdk"
 ---
