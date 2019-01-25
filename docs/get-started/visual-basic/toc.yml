@@ -1,4 +1,4 @@
-- name: Visual Basic in Visual Studio
+- name: Visual Basic Tutorials
   href: index.yml
   items:
   - name: Overview
@@ -11,7 +11,7 @@
       href: tutorial-projects-solutions.md
     - name: More Visual Studio features
       href: ../../ide/advanced-feature-overview.md?toc=/visualstudio/visual-basic/toc.json&bc=/visualstudio/visual-basic/breadcrumb/toc.json
-  - name: Tutorials
+  - name: Create an app
     expanded: true
     items:
     - name: Create a console app
@@ -25,6 +25,7 @@
     - name: Create a Windows Forms app
       href: ../../ide/create-a-visual-basic-winform-in-visual-studio.md?toc=/visualstudio/visual-basic/toc.json&bc=/visualstudio/visual-basic/breadcrumb/toc.json
   - name: 'Learn Visual Studio'
+    expanded: true
     items:
     - name: Write and edit code
       href: tutorial-editor.md

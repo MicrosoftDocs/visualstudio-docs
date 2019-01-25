@@ -1,4 +1,4 @@
-- name: C# in Visual Studio
+- name: C# Tutorials
   href: index.yml
   items:
   - name: Overview
@@ -11,7 +11,7 @@
       href: tutorial-projects-solutions.md
     - name: More Visual Studio features
       href: ../../ide/advanced-feature-overview.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
-  - name: Tutorials
+  - name: Create an app
     expanded: true
     items:
     - name: Create your first C# app
@@ -23,6 +23,7 @@
     - name: Create a WPF application
       href: tutorial-wpf.md
   - name: Learn Visual Studio
+    expanded: true
     items:
     - name: Write and edit code
       href: tutorial-editor.md
