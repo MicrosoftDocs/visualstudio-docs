@@ -7,8 +7,8 @@ ms.topic: "conceptual"
 ms.assetid: 66e88848-116c-4eb0-bc57-183394d35b57
 author: "corob"
 ms.author: "mblome"
-manager: douge
-f1_keywords: 
+manager: jillfra
+f1_keywords:
   - VC.Project.VCLinkerTool.OutputFile
   - VC.Project.VCLinkerTool.ShowProgress
   - VC.Project.VCLinkerTool.Version
@@ -30,7 +30,7 @@ f1_keywords:
   - VC.Project.AdditionalOptionsPage
   - VC.Project.VCLinkerTool.AdditionalDependencies
   - VC.Project.VCLinkerTool.LibraryDependencies
-ms.workload: 
+ms.workload:
   - "xplat-cplusplus"
 ---
 

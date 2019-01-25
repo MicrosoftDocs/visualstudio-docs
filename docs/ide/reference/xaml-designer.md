@@ -7,7 +7,7 @@ f1_keywords:
   - "VS.ToolsOptionsPages.XAMLDesigner"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "uwp"
 ---

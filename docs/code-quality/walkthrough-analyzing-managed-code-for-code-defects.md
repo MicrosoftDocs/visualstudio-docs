@@ -8,7 +8,7 @@ helpviewer_keywords:
   - "managed code, analyzing"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "dotnet"
 ---

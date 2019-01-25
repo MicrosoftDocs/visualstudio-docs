@@ -8,7 +8,7 @@ helpviewer_keywords:
   - "rule sets for analyzers"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

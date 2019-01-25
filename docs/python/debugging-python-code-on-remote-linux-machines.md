@@ -6,9 +6,9 @@ ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
-manager: douge
+manager: jillfra
 ms.custom: seodec18
-ms.workload: 
+ms.workload:
   - python
   - data-science
 ---
@@ -61,7 +61,7 @@ For details on creating a firewall rule for an Azure VM, see [Open ports to a VM
         print('Nope. The number I was thinking of was {0}'.format(number))
     ```
 
-1. Install the `ptvsd` package into your environment using `pip3 install ptvsd`. 
+1. Install the `ptvsd` package into your environment using `pip3 install ptvsd`.
    >[!NOTE]
    >It's a good idea to record the version of ptvsd that's installed in case you need it for troubleshooting; the [ptvsd listing](https://pypi.python.org/pypi/ptvsd) also shows available versions.
 

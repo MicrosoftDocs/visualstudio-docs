@@ -11,7 +11,7 @@ ms.topic: tutorial
 ms.devlang: CSharp
 author: TerryGLee
 ms.author: tglee
-manager: douge
+manager: jillfra
 dev_langs:
   - CSharp
 ms.workload:
@@ -42,7 +42,7 @@ First, you'll create a ASP.NET Core project. The project type comes with all the
 
 1. Open Visual Studio 2017.
 
-2. From the top menu bar, choose **File** > **New** > **Project**. 
+2. From the top menu bar, choose **File** > **New** > **Project**.
 
 3. In the **New Project** dialog box in the left pane, expand **Visual C#**, expand **Web**, and then choose **.NET Core**. In the middle pane, choose **ASP.NET Core Web Application**. Then, name the file *MyCoreApp* and choose **OK**.
 

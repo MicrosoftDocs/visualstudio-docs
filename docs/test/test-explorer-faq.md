@@ -14,7 +14,7 @@ ms.author: "kehavens"
 ms.workload:
   - "multiple"
 author: kendrahavens
-manager: douge
+manager: jillfra
 ---
 # Visual Studio Test Explorer FAQ
 

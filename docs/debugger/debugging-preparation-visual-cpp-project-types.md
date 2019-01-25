@@ -16,7 +16,7 @@ helpviewer_keywords:
 ms.assetid: 912b4ba2-7719-43d5-b087-db33e3f9329a
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: jillfra
 ms.workload: 
   - "cplusplus"
 ---

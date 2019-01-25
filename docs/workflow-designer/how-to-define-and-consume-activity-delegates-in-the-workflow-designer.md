@@ -5,7 +5,7 @@ ms.topic: conceptual
 ms.prod: visual-studio-dev15
 ms.assetid: c68e42ad-3ec0-4c2d-b104-fe36c6d83b5e
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 author: gewarren

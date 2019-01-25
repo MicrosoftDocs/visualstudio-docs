@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "datasets, configuring"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "data-storage"
 ---

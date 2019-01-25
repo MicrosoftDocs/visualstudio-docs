@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "user controls [Visual Studio], complex data binding"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.prod: visual-studio-dev15
 ms.workload:
   - "data-storage"

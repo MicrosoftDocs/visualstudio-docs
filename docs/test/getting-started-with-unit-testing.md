@@ -7,7 +7,7 @@ helpviewer_keywords:
   - "unit testing, create unit test plans"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

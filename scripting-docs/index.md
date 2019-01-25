@@ -7,7 +7,7 @@ ms.prod: visual-studio-dev15
 ms.technology: vs-ide-nodejs
 ms.author: "mikejo"
 author: "mikejo5000"
-manager: douge
+manager: jillfra
 ---
 # JavaScript in Visual Studio
 

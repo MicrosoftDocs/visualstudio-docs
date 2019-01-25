@@ -7,7 +7,7 @@ helpviewer_keywords:
 ms.assetid: 2f634fba-8dfa-4c7a-a8b9-be867b78d16a
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.prod: visual-studio-dev15
 ---
 # Configure scenario start delays in load tests

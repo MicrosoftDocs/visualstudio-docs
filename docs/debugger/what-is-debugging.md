@@ -8,7 +8,7 @@ helpviewer_keywords:
   - "debugger"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -48,4 +48,4 @@ In this article, you've learned a few general debugging concepts. Next, you can 
 > [Debugging for absolute beginners](../debugger/debugging-absolute-beginners.md)
 
 > [!div class="nextstepaction"]
-> [Fix bugs by writing better C# code](../debugger/write-better-code-with-visual-studio.md)
+> [Fix exceptions, fix errors, and prevent bugs](../debugger/write-better-code-with-visual-studio.md)

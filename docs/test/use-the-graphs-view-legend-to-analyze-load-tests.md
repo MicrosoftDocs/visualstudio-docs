@@ -8,7 +8,7 @@ helpviewer_keywords:
 ms.assetid: 0f6ba8e4-1343-419c-8a9f-240cf50efed7
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.prod: visual-studio-dev15
 ---
 # Use the Graphs view legend to analyze load tests

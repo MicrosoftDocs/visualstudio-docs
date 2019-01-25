@@ -17,7 +17,7 @@ helpviewer_keywords:
   - "remote debugging, Windows version error"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: jillfra
 ms.workload: 
   - "multiple"
 ---

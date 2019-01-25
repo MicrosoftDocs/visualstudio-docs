@@ -7,7 +7,7 @@ helpviewer_keywords:
 ms.assetid: ff275cfb-5df9-4710-9a91-9caabaaad34f
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.prod: visual-studio-dev15
 ---
 # How to: Configure network emulation using test settings in Visual Studio

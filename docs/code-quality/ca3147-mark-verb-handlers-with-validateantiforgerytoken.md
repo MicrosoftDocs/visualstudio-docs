@@ -5,7 +5,7 @@ ms.prod: visual-studio-dev15
 ms.topic: reference
 author: dotpaul
 ms.author: paulming
-manager: douge
+manager: jillfra
 dev_langs:
  - "CSharp"
 ms.workload:

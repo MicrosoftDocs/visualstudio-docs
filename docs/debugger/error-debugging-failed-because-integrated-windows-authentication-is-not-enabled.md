@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "debugger, Web application errors"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: jillfra
 ms.workload: 
   - "multiple"
 ---
