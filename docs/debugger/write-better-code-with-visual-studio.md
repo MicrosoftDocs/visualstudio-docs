@@ -1,6 +1,6 @@
 ---
-title: Fix exceptions, fix errors, and prevent bugs
-description: "Understand how to write better code with less bugs"
+title: Debugging techniques and tools
+description: "Understand how to write better code with less bugs by leveraging the Visual Studio IDE"
 ms.custom: ['debug-experiment', 'seodec18']
 ms.date: "01/24/2019"
 ms.topic: "conceptual"
@@ -12,9 +12,9 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Fix exceptions, fix errors, and prevent bugs using Visual Studio
+# Debugging techniques and debugging tools in Visual Studio
 
-Fixing bugs in your code can be a time-consuming--and sometimes frustrating--task. It takes time to learn how to debug effectively, but a powerful IDE like Visual Studio can make your job a lot easier. An IDE can help you debug your code more quickly, and not just that, but it can also help you write better code with fewer bugs. Our aim in this article is to give you a holistic view of the "bug-fixing" process, so you will know when to use the code analyzer, when to work on code fixes, and when to use the debugger.
+Fixing bugs in your code can be a time-consuming--and sometimes frustrating--task. It takes time to learn how to debug effectively, but a powerful IDE like Visual Studio can make your job a lot easier. An IDE can help you debug your code more quickly, and not just that, but it can also help you write better code with fewer bugs. Our aim in this article is to give you a holistic view of the "bug-fixing" process, so you will know when to use the code analyzer, when to make fixes to your code, and when to use the debugger.
 
 In this article, we talk about leveraging the IDE to make your coding sessions more productive. We touch on several tasks, such as:
 
@@ -186,7 +186,7 @@ When you click this item, Visual Studio adds the `using System.Text` statement a
 
 The preceding error is a common one that you usually fix by adding a new `using` statement to your code. There are several common, similar errors to this one such as ```The type or namespace `Name` cannot be found.``` These kinds of errors may indicate a missing assembly reference (right-click the project, choose **Add** > **Reference**), a misspelled name, or a missing library that you need to add (for C#, right-click the project and choose **Manage NuGet Packages**).
 
-## Fix the errors and warnings
+## Fix the remaining errors and warnings
 
 There are a few more squiggles to look at in this code. Here, you see a common type conversion error. When you hover over the squiggle, you see that the code is trying to convert a string to an int, which is not supported unless you add explicit code to make the conversion.
 
