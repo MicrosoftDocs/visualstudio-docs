@@ -42,7 +42,7 @@ The Visual Studio debugger helps you observe the run-time behavior of your progr
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Write code with less bugs!</h3>
+                        <h3>Debugging techniques and tools</h3>
                     </div>
                 </div>
             </div>
