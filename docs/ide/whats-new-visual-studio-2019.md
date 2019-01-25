@@ -20,7 +20,7 @@ monikerRange: '>= vs-2017'
 ---
 # What's New in Visual Studio 2019 Preview
 
-**Updated for the Visual Studio 2019 [Preview 2 release](/visualstudio/releases/2019/release-notes-preview?context=visualstudio/default&contextView=vs-2017)**
+**Updated for the [Preview 2 release](/visualstudio/releases/2019/release-notes-preview?context=visualstudio/default&contextView=vs-2017)**
 
 >[!div class="button"]
 >[Download Preview](https://visualstudio.microsoft.com/vs/preview/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2019+preview)
