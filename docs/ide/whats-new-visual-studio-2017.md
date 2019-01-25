@@ -53,7 +53,7 @@ The most important change to note when you install Visual Studio is its new setu
 
 Choose the workloads you need, and change them when you need to.
 
- ![Visual Studio 2017 setup dialog](../../../install/media/install-visual-studio-enterprise.png)
+ ![Visual Studio 2017 setup dialog](../install/media/install-visual-studio-enterprise.png)
 
 And you've got options to fine-tune your installation, too:
 
@@ -61,7 +61,7 @@ And you've got options to fine-tune your installation, too:
 * Want to install Language Packs without also having to change the Windows language option? Choose the **Language packs** tab of the installer.
 * **New in 15.7**: Want to change the location of where Visual Studio installs? Choose the **Installation options** tab of the installer.
 
-To learn more about the new installation experience, including step-by-step instructions that walk you through it, see the [Install Visual Studio](../../../install/install-visual-studio.md) page.
+To learn more about the new installation experience, including step-by-step instructions that walk you through it, see the [Install Visual Studio](../install/install-visual-studio.md) page.
 
 ### A focus on accessibility
 
@@ -85,7 +85,7 @@ The new Visual Studio Performance Center can help you optimize your IDE start-up
 
 Visual Studio is moving its extensions (and working with third-party extensions too) so that they load on-demand, rather than at IDE startup. Curious about which extensions impact startup, solution load, and typing performance? You can see this information in **Help** > **Manage Visual Studio Performance**.
 
-  ![Options dialog box in Visual Studio 2017](../../media/vs2017ide-manage-vs-perf.png)
+  ![Options dialog box in Visual Studio 2017](../media/vs2017ide-manage-vs-perf.png)
 
 #### Manage your extensions with Roaming Extensions Manager
 
@@ -93,19 +93,19 @@ It's easier to set up each development environment with your favorite extensions
 
 To see a list of your extensions in Visual Studio, click  **Tools** > **Extensions & Updates**, and then click the **Roaming Extension Manager**.
 
-![Visual Studio 2017 - Extensions and Updates dialog](../../media/vs2017ide-extensions-and-updates.png)
+![Visual Studio 2017 - Extensions and Updates dialog](../media/vs2017ide-extensions-and-updates.png)
 
 The Roaming Extension Manager tracks all the extensions you install, but you can choose which ones you want to add to your Roaming list.
 
-![Visual Studio 2017 - Extensions and Updates dialog](../../media/vs2017ide-RoamingExtensionManager.png)
+![Visual Studio 2017 - Extensions and Updates dialog](../media/vs2017ide-RoamingExtensionManager.png)
 
 When you use the Roaming Extension Manager, there are three icon types on your list:
 
-* ![Roamed icon](../../media/vs2017ide-roamedicon.png) **_Roamed_**: An extension that is part of this Roaming List, but not installed on your machine.
+* ![Roamed icon](../media/vs2017ide-roamedicon.png) **_Roamed_**: An extension that is part of this Roaming List, but not installed on your machine.
   (You can install these by using the **Download** button.)
-* ![Roamed & Installed icon](../../media/vs2017ide-roamedinstalledicon.png) **_Roamed & Installed_**: All extensions that are part of this Roaming List and installed in your dev environment.
+* ![Roamed & Installed icon](../media/vs2017ide-roamedinstalledicon.png) **_Roamed & Installed_**: All extensions that are part of this Roaming List and installed in your dev environment.
   (If you decide you do not want to roam, you can remove these by using the **Stop Roaming** button.)
-* ![Installed icon](../../media/vs2017ide-installedicon.png) **_Installed_**: All extensions that are installed in this environment, but are not part of your Roaming List.
+* ![Installed icon](../media/vs2017ide-installedicon.png) **_Installed_**: All extensions that are installed in this environment, but are not part of your Roaming List.
   (You can add extensions to the Roaming List by using the **Start Roaming** button.)
 
 Any extension that you download while you are signed in is added to your list as **Roamed & Installed**. The extension then becomes part of your Roaming list, which gives you access to it from any machine.
@@ -114,9 +114,9 @@ Any extension that you download while you are signed in is added to your list as
 
 In Visual Studio Enterprise 2017, live unit testing gives you live unit test results and code coverage in the editor while you are coding. It works with C# and Visual Basic projects for both the .NET Framework and .NET Core, and it supports three test frameworks of MSTest, xUnit, and NUnit.
 
-![Live Unit Testing](../../media/lut-codewindow.png)
+![Live Unit Testing](../media/lut-codewindow.png)
 
-For more information, see the [Introducing Live Unit Testing](../../../test/live-unit-testing-intro.md). For a list of new features added in each release of Visual Studio Enterprise 2017, see [What's new in Live Unit Testing](../../../test/live-unit-testing-whats-new.md).
+For more information, see the [Introducing Live Unit Testing](../test/live-unit-testing-intro.md). For a list of new features added in each release of Visual Studio Enterprise 2017, see [What's new in Live Unit Testing](../test/live-unit-testing-whats-new.md).
 
 ### Set up a CI/CD pipeline
 
@@ -134,13 +134,13 @@ And, for more information about what's new in the [Continuous delivery tools for
 
 **New in 15.8**: Editing multiple locations in a file, simultaneously, is now easy. Start by creating insertion points and selections at multiple locations in a file. Then, use the multi-caret editing feature to make the same edit in two or more places at the same time.
 
-For more information, see the [Multi-caret selection](../../finding-and-replacing-text.md#multi-caret-selection) section of the of the [Find and replace text](../../finding-and-replacing-text.md) page.
+For more information, see the [Multi-caret selection](../finding-and-replacing-text.md#multi-caret-selection) section of the of the [Find and replace text](../finding-and-replacing-text.md) page.
 
 #### Keep keybinding profiles consistent
 
 **New in 15.8**: Now, you can keep your keybindings consistent across tools with two new keyboard profiles: Visual Studio Code and ReSharper (Visual Studio). You can find these schemes under **Tools** > **Options** > **General** > **Keyboard** and the top drop-down menu.
 
-  ![New keybinding profiles for Visual Studio Code and ReSharper](../../media/vs-keyboard-mappings-code-resharper.png)
+  ![New keybinding profiles for Visual Studio Code and ReSharper](../media/vs-keyboard-mappings-code-resharper.png)
 
 #### Use new refactorings
 
@@ -155,33 +155,33 @@ Refactoring is the process of improving your code after it has been written. Ref
 * Convert if-to-switch
 * Remove unused variable
 
-For more information, see [Quick Actions](../../common-quick-actions.md).
+For more information, see [Quick Actions](../common-quick-actions.md).
 
 #### Interact with Git
 
 When you are working with a project in Visual Studio, you can set up and quickly commit and publish your code to a Git service. You can also manage your Git repositories by using menu clicks from buttons in the bottom right-hand corner of the IDE.
 
-![Visual Studio 2017 interacts with the Git dialog](../../media/vsIDE-GitInteraction.png)
+![Visual Studio 2017 interacts with the Git dialog](../media/vsIDE-GitInteraction.png)
 
 #### Experience improved navigation controls
 
 We've refreshed the navigation experience to help you get from A to B with greater confidence and fewer distractions.
 
-* **New in 15.4**: **Go To Definition** (**Ctrl**+**click** or **F12**) &ndash; Mouse users have an easier way to navigate to the definition of a member by pressing **Ctrl** and then clicking the member. Pressing **Ctrl** and hovering over a code symbol will underline it and turn it into a link. See [Go To Definition and Peek Definition](../../go-to-and-peek-definition.md) for more information.
+* **New in 15.4**: **Go To Definition** (**Ctrl**+**click** or **F12**) &ndash; Mouse users have an easier way to navigate to the definition of a member by pressing **Ctrl** and then clicking the member. Pressing **Ctrl** and hovering over a code symbol will underline it and turn it into a link. See [Go To Definition and Peek Definition](../go-to-and-peek-definition.md) for more information.
 
 * **Go To Implementation** (**Ctrl**+**F12**) &ndash; Navigate from any base type or member to its various implementations.
 
 * **Go To All** (**Ctrl**+**T** or **Ctrl**+**,**) &ndash; Navigate directly to any file/type/member/symbol declaration. You can filter your result list or use the query syntax (for example, "f searchTerm" for files, "t searchTerm" for types, etc.).
 
-  ![Improved Go To All](../../media/vs2017ide-navigation-go-to.png)
+  ![Improved Go To All](../media/vs2017ide-navigation-go-to.png)
 
 * **Find All References** (**Shift**+**F12**) &ndash; With syntax colorization, you can group Find All Reference results by a combination of project, definition, and path. You can also "lock" results so that you can continue to find other references without losing your original results.
 
-  ![New Find All References tool](../../media/vs2017ide-find-all-references.png)
+  ![New Find All References tool](../media/vs2017ide-find-all-references.png)
 
 * **Structure Visualizer** &ndash; Dotted, gray vertical lines (indent guides) act as landmarks in code to provide context within your frame of view. You may recognize them from the popular Productivity Power Tools. You can use them to visualize and discover what block of code you're in at any time without having to scroll. Hovering over the lines displays a tooltip that shows you the opening of that block and its parents. It's available for all the languages supported via TextMate grammars, as well as C#, Visual Basic, and XAML.
 
-  ![Visual Studio 2017 structure visualizer](../../media/vsIDE-StructureVisualizer.png)
+  ![Visual Studio 2017 structure visualizer](../media/vsIDE-StructureVisualizer.png)
 
 For more information about the new productivity features, see the [Productivity in Visual Studio 2017](https://blogs.msdn.microsoft.com/visualstudio/2016/11/28/productivity-in-visual-studio-2017-rc/) blog post by Mark Wilson-Thomas.
 
@@ -199,13 +199,13 @@ For complete details, see the [What's new for Visual C++ in Visual 2017](/cpp/to
 
 Now, you can more easily skip ahead during debugging without setting a breakpoint to stop on the line you want. When you are stopped in the debugger, just click the icon that appears next to the line of code. Your code will run and stop on that line the next time it is hit in your code path.
 
-![Visual Studio 2017 debug - Run To Click](../../media/vs2017ide-RunToClick.png)
+![Visual Studio 2017 debug - Run To Click](../media/vs2017ide-RunToClick.png)
 
 #### The new Exception Helper
 
 The new Exception Helper helps you view your exception information at-a-glance. The information is presented in a compact form with instant access to inner exceptions. When you diagnose a NullReferenceException, you can quickly see what was null right inside the Exception Helper.
 
-![The New Exception Helper dialog in Visual Studio](../../media/vs2017ide-ExceptionHelper.png)
+![The New Exception Helper dialog in Visual Studio](../media/vs2017ide-ExceptionHelper.png)
 
 For more information, see the [Use the new Exception Helper in Visual Studio](https://blogs.msdn.microsoft.com/devops/2016/03/31/using-the-new-exception-helper-in-visual-studio-15-preview/) blog post.
 
@@ -215,9 +215,9 @@ For more information, see the [Use the new Exception Helper in Visual Studio](ht
 
 You can navigate and view snapshots by using the **Step Backward** and **Step Forward** buttons in the **Debug** toolbar. These buttons navigate the events that appear in the **Events** tab in the **Diagnostic Tools** window. Stepping backward or forward to an event automatically activates historical debugging on the selected event.
 
-![The New Exception Helper dialog in Visual Studio](../../../debugger/media/intellitrace-step-back-icons-description.png  "Step Backward and Forward buttons")
+![The New Exception Helper dialog in Visual Studio](../debugger/media/intellitrace-step-back-icons-description.png  "Step Backward and Forward buttons")
 
-For more information, see the [View snapshots using IntelliTrace step-back](../../../debugger/view-historical-application-state.md) page.
+For more information, see the [View snapshots using IntelliTrace step-back](../debugger/view-historical-application-state.md) page.
 
 ### Containerization
 
@@ -247,7 +247,7 @@ Snapshot collection is available for the following web apps running in Azure App
 * ASP.NET applications running on .NET Framework 4.6.1 or later.
 * ASP.NET Core applications running on .NET Core 2.0 or later on Windows.
 
-For more information, see [Debug live ASP.NET apps using snappoints and logpoints](../../../debugger/debug-live-azure-applications.md).
+For more information, see [Debug live ASP.NET apps using snappoints and logpoints](../debugger/debug-live-azure-applications.md).
 
 ## Windows app development
 
@@ -255,7 +255,7 @@ For more information, see [Debug live ASP.NET apps using snappoints and logpoint
 
 The Universal Windows Platform (UWP) is the app platform for Windows 10. You can develop apps for UWP with just one API set, one app package, and one store to reach all Windows 10 devices &ndash; PC, tablet, phone, Xbox, HoloLens, Surface Hub, and more. UWP supports different screen sizes and a variety of interaction models, whether it be touch, mouse and keyboard, a game controller, or a pen. At the core of UWP apps is the idea that users want their experiences to be mobile across ALL their devices, and that they want to use whatever device is most convenient or productive for the task at hand.
 
- ![Universal Windows Platform](../../../cross-platform/media/uwp_coreextensions.png)
+ ![Universal Windows Platform](../cross-platform/media/uwp_coreextensions.png)
 
 Choose your preferred development language&mdash;from C#, Visual Basic, C++, or JavaScript&mdash;to create a Universal Windows Platform app for Windows 10 devices. Visual Studio 2017 provides a UWP app template for each language that lets you create a single project for all devices. When your work is finished, you can produce an app package and submit it to Microsoft Store from within Visual Studio to get your app out to customers on any Windows 10 device.
 
@@ -264,7 +264,7 @@ Choose your preferred development language&mdash;from C#, Visual Basic, C++, or 
 * **Support for .NET Standard 2.0**<br/>In addition to streamlined app deployment, the Windows 10 Fall Creators Update is the first release of Windows 10 to provide .NET Standard 2.0 support. Effectively, [.NET Standard](https://blogs.msdn.microsoft.com/dotnet/2016/09/26/introducing-net-standard/) is a reference implementation of the base class library that any .NET platform can implement. The goal of .NET Standard is to make it as easy as possible for .NET developers to share code across any .NET platform they choose to work on.
 * **The best of both UWP and Win32**<br/>We have improved the Windows 10 Platform with the [Desktop Bridge](https://docs.microsoft.com/windows/uwp/porting/desktop-to-uwp-root) to make Windows 10 better for all .NET developers, whether their current focus is on UWP, WPF, Windows Forms, or Xamarin. With the new App Packaging project type in Visual Studio 2017 version 15.5, you can create Windows App Packages for your WPF or Windows Forms projects, just like you can for UWP projects. After you package your app, you get all the Windows 10 app deployment benefits and have the option to distribute via Microsoft Store (for consumer apps) or Microsoft Store for Business and Education. Because packaged apps have access to both the full UWP API surface and the Win32 APIs on desktop, you can now modernize your WPF and Windows Forms applications gradually with UWP APIs and Windows 10 features. Moreover, you can include your Win32 components in your UWP applications that light up on desktop with all Win32 capabilities.
 
-For more information about UWP, see the [Develop apps for the Universal Windows Platform (UWP)](../../../cross-platform/develop-apps-for-the-universal-windows-platform-uwp.md) page.
+For more information about UWP, see the [Develop apps for the Universal Windows Platform (UWP)](../cross-platform/develop-apps-for-the-universal-windows-platform-uwp.md) page.
 
 ## Mobile app development
 
@@ -278,25 +278,25 @@ For more information, see the [Visual Studio and Xamarin](/xamarin/) page.
 
 **New in 15.3**: For your iOS development needs, we've added a stand-alone Entitlements editor. It includes a user-friendly UI that can be easily browsed. To launch it, double-click your *entitlements.plist* file.
 
-![Entitlement editor for Xamarin](../../media/xamarin-entitlements-editor.png)
+![Entitlement editor for Xamarin](../media/xamarin-entitlements-editor.png)
 
 ### Visual Studio Tools for Xamarin
 
 **New in 15.4**: Xamarin Live enables developers to continuously deploy, test, and debug their apps, directly on iOS and Android devices. After you download the Xamarin Live Player&mdash;available in the App Store or on Google Play&mdash;you can pair your device with Visual Studio and revolutionize the way you build mobile apps. This functionality is now included in Visual Studio and can be enabled by going to **Tools** > **Options** > **Xamarin** > **Other** > **Enable Xamarin Live Player**.
 
-![Animation of the Xamarin Live Player pair, deployment, and live edit modes](../../media/xamarinliveplayer.gif)
+![Animation of the Xamarin Live Player pair, deployment, and live edit modes](../media/xamarinliveplayer.gif)
 
 ### Support for Google Android Emulator
 
 **New in 15.8**: When you use Hyper-V, now you can use Google's Android Emulator side-by-side with other technologies that are based on Hyper-V, such as Hyper-V virtual machines, Docker tooling, the HoloLens emulator, and more. (This feature requires Windows 10 April 2018 Update or later.)
 
-![The Google Android emulator on Hyper-V technologies](../../media/xamarin-hyperv-android-emulator.png)
+![The Google Android emulator on Hyper-V technologies](../media/xamarin-hyperv-android-emulator.png)
 
 #### Xamarin.Android Designer split-view editor
 
 Also **new in 15.8**: We've made significant improvements to the designer experience for Xamarin.Android. A highlight is the new split-view editor that allows you to create, edit, and preview your layouts at the same time.
 
-![The Xamarin.Adroid Designer split-view editor](../../media/android-designer-split-view.png)
+![The Xamarin.Adroid Designer split-view editor](../media/android-designer-split-view.png)
 
 For more information, see [Hardware acceleration for emulator performance](/xamarin/android/get-started/installation/android-emulator/hardware-acceleration?tabs=vswin)
 
@@ -304,7 +304,7 @@ For more information, see [Hardware acceleration for emulator performance](/xama
 
 **New in 15.5**: Visual Studio App Center&mdash;which is now generally available for Android, iOS, macOS, and Windows apps&mdash;has everything you need to manage the lifecycle of your apps, including automated builds, testing on real devices in the cloud, distribution to beta testers and app stores, and monitoring of real-world usage through crash and analytics data. Apps written in Objective-C, Swift, Java, C#, Xamarin, and React Native are supported across all features.
 
-  ![Visual Studio App Center test environment](../../media/app-center-test-env.png)
+  ![Visual Studio App Center test environment](../media/app-center-test-env.png)
 
 For more information, see the [Introducing App Center: Build, test, distribute and monitor apps in the cloud](https://blogs.msdn.microsoft.com/vsappcenter/introducing-visual-studio-app-center/) blog post.
 
@@ -343,7 +343,7 @@ For more information, see the [.NET Core guide](/dotnet/core/index) page.
 
 As part of the "Games development for Unity" workload, we've included tools to help you develop cross-platform to create 2D and 3D games and interactive content. Create once and publish to 21 platforms, including all mobile platforms, WebGL, Mac, PC and Linux desktop, web, or consoles by using Visual Studio 2017 and Unity 5.6.
 
-For more information, see the [Visual Studio Tools for Unity](../../../cross-platform/visual-studio-tools-for-unity.md) page.
+For more information, see the [Visual Studio Tools for Unity](../cross-platform/visual-studio-tools-for-unity.md) page.
 
 ## AI development
 
@@ -351,9 +351,9 @@ For more information, see the [Visual Studio Tools for Unity](../../../cross-pla
 
 **New in 15.5**: Use the productivity features of Visual Studio to accelerate AI innovation today. Use built-in code editor features like syntax highlighting, IntelliSense, and text auto formatting. You can interactively test your deep learning application in your local environment by using step-through debugging on local variables and models.
 
-  ![Deep Learning IDE](../../../ai/media/about/ide.png)
+  ![Deep Learning IDE](../ai/media/about/ide.png)
 
-For more information, see the [Visual Studio Tools for AI](../../../ai/about-ai-tools.md) page.
+For more information, see the [Visual Studio Tools for AI](../ai/about-ai-tools.md) page.
 
 ## What's next
 
@@ -368,11 +368,11 @@ Want to know more about what else is in the works for Visual Studio 2017? See th
 
  Why send feedback to the Visual Studio team? Because we take customer feedback seriously. It drives much of what we do.
 
-If you want to make a suggestion about how we can improve Visual Studio, or learn more about product support options, please see the [Talk to us](../../talk-to-us.md) page.
+If you want to make a suggestion about how we can improve Visual Studio, or learn more about product support options, please see the [Talk to us](../talk-to-us.md) page.
 
 ### Report a problem
 
- Sometimes, a message isn't enough to convey the full impact of a problem that you've encountered. If you experience a hang, crash, or other performance issue, you can easily share repro steps and supporting files (such as screenshots, and trace and heap dump files) with us by using the **Report a Problem** tool. For more information about how to use this tool, see the [How to report a problem](../../how-to-report-a-problem-with-visual-studio-2017.md) page.
+ Sometimes, a message isn't enough to convey the full impact of a problem that you've encountered. If you experience a hang, crash, or other performance issue, you can easily share repro steps and supporting files (such as screenshots, and trace and heap dump files) with us by using the **Report a Problem** tool. For more information about how to use this tool, see the [How to report a problem](../how-to-report-a-problem-with-visual-studio-2017.md) page.
 
 ## See also
 
@@ -381,4 +381,4 @@ If you want to make a suggestion about how we can improve Visual Studio, or lear
 * [What's new in C#](/dotnet/csharp/whats-new)
 * [What's new for Team Foundation Server](/tfs/server/whats-new?view=vsts)
 * [What's new in Visual Studio for Mac](https://visualstudio.microsoft.com/vs/visual-studio-mac/)
-* [What's new in Visual Studio 2019](../../whats-new-visual-studio.md?view=vs-2019)
+* [What's new in Visual Studio 2019](../whats-new-visual-studio.md?view=vs-2019)
