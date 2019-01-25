@@ -1,6 +1,25 @@
 ---
-ms.topic: include
+title: "What's new in Visual Studio"
+titleSuffix: ""
+description: "Learn about the new features in Visual Studio."
+ms.date: 01/24/2019
+f1_keywords:
+  - "VS.StartPage.WhatsNew"
+helpviewer_keywords:
+  - "Visual Studio, what's new"
+  - "what's new [Visual Studio]"
+ms.assetid: 00bec66b-bcee-46f5-91d9-f73a2b469744
+author: TerryGLee
+ms.author: tglee
+manager: jillfra
+ms.prod: visual-studio-dev16
+ms.topic: conceptual
+ms.workload:
+  - "multiple"
+monikerRange: '>= vs-2017'
 ---
+# What's New in Visual Studio 2019 Preview
+
 **Updated for the Visual Studio 2019 [Preview 2 release](/visualstudio/releases/2019/release-notes-preview?context=visualstudio/default&contextView=vs-2017)**
 
 >[!div class="button"]
