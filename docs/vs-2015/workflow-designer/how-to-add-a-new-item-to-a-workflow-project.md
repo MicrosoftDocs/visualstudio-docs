@@ -1,17 +1,14 @@
 ---
 title: "How to: Add a New Item to a Workflow Project | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: ".net-framework-4.6"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: "reference"
 ms.assetid: 5c6180ca-af10-4513-b0cb-7d478fd84eab
 caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
-manager: "erikre"
+manager: jillfra
 ---
 # How to: Add a New Item to a Workflow Project
 After you have created a workflow project, you can add workflow activities, designers, and other familiar [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] items to your project.  

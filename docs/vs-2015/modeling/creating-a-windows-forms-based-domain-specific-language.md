@@ -1,17 +1,14 @@
 ---
 title: "Creating a Windows Forms-Based Domain-Specific Language | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 ms.assetid: 452318ff-8ecf-46d0-8ca0-4013d0cdafaf
 caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Creating a Windows Forms-Based Domain-Specific Language
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -330,6 +327,3 @@ private void NewSheepButton_Click(object sender, EventArgs e)
  [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)   
  [Writing Code to Customise a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md)   
  [Modeling SDK for Visual Studio - Domain-Specific Languages](../modeling/modeling-sdk-for-visual-studio-domain-specific-languages.md)
-
-
-

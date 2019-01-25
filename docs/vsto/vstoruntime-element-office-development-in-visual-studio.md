@@ -9,9 +9,9 @@ helpviewer_keywords:
   - "application manifests [Office development in Visual Studio], <vstoRuntime> element"
   - "<vstoRuntime> element"
   - "vstoRuntime element"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
   - "office"
 ---

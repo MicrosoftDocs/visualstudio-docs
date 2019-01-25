@@ -1,14 +1,9 @@
 ---
 title: "Code Analysis for Managed Code Warnings | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 f1_keywords: 
   - "vc.project.vcfxcoptool.enablefxcop"
 helpviewer_keywords: 
@@ -60,6 +55,3 @@ The Managed Code Analysis tool provides warnings that indicate rule violations i
 |[Security Warnings](../code-quality/security-warnings.md)|Warnings that support safer libraries and applications.|  
 |[Usage Warnings](../code-quality/usage-warnings.md)|Warnings that support appropriate usage of the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)].|  
 |[Code Analysis Policy Errors](../code-quality/code-analysis-policy-errors.md)|Errors that occur if the code analysis policy is not satisfied at check-in.|
-
-
-

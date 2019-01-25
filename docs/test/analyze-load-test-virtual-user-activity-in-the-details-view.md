@@ -10,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 63f4bd42-3cfb-4eee-af68-e8334976539e
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.prod: visual-studio-dev15
 ---
 # Analyzing load test virtual user activity in the Details view of the Load Test Analyzer

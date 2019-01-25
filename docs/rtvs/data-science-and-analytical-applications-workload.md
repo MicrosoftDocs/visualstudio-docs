@@ -6,8 +6,8 @@ ms.prod: visual-studio-dev15
 ms.topic: overview
 author: kraigb
 ms.author: kraigb
-manager: douge
-ms.workload:  
+manager: jillfra
+ms.workload:
   - python
   - data-science
 ---

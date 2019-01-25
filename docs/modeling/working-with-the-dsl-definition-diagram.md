@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "Domain-Specific Language Tools, Bring Tree Here"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ms.prod: visual-studio-dev15

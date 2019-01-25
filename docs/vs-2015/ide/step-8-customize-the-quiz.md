@@ -1,19 +1,14 @@
 ---
 title: "Step 8: Customize the Quiz | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 ms.assetid: dc8edb13-1b23-47d7-b859-8c6f7888c1a9
 caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Step 8: Customize the Quiz
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,6 +28,3 @@ In the last part of the tutorial, you'll explore some ways to customize the quiz
 -   To go to the next tutorial, see [Tutorial 3: Create a Matching Game](../ide/tutorial-3-create-a-matching-game.md).  
   
 -   To return to the previous tutorial step, see [Step 7: Add Multiplication and Division Problems](../ide/step-7-add-multiplication-and-division-problems.md).
-
-
-

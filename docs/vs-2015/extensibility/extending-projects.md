@@ -1,21 +1,16 @@
 ---
 title: "Extending Projects | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "solutions [Visual Studio]"
   - "projects [Visual Studio]"
 ms.assetid: 096d273d-4fe9-4f24-9b00-470bfbdf4bdf
 caps.latest.revision: 11
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Extending Projects
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -52,4 +47,3 @@ Projects and solutions are the ways Visual Studio organizes code and resource fi
  Explains how to manage universal projects.  
   
 ## Related Sections
-

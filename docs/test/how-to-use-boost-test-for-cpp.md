@@ -5,7 +5,7 @@ ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: mikeblome
 ms.author: mblome
-manager: douge
+manager: jillfra
 ms.workload:
   - "cplusplus"
 ---

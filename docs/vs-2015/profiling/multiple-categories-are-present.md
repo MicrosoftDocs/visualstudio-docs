@@ -1,14 +1,9 @@
 ---
 title: "Multiple Categories Are Present | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.cv.threads.timeline.multicategory"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ ms.assetid: f5c7ec07-8052-4df7-a0ca-7ec8bb3eee18
 caps.latest.revision: 12
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Multiple Categories Are Present
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,6 +27,3 @@ A section that contains more than one kind of activity for a given time range is
  [Sleep Time](../profiling/sleep-time.md)   
  [Synchronization Time](../profiling/synchronization-time.md)   
  [UI Processing Time](../profiling/ui-processing-time.md)
-
-
-

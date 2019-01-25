@@ -1,12 +1,9 @@
 ---
 title: "Create a SQL database by using a designer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -26,7 +23,7 @@ ms.assetid: 99c2b06f-47aa-414e-8057-a3453712fd23
 caps.latest.revision: 54
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 robots: noindex,nofollow
 ---
 # Create a SQL database by using a designer
@@ -189,4 +186,3 @@ You can explore basic tasks, such as adding tables and defining columns, by usin
   
 ## Next Steps  
  Now that you have a local database file with some sample data, you can complete any of the walkthroughs that demonstrate database tasks.
-

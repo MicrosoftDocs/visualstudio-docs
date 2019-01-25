@@ -6,7 +6,7 @@ helpviewer_keywords:
   - "IDebugStopCompleteEvent2 interface"
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: douge
+manager: jillfra
 ms.workload: 
   - "vssdk"
 ---

@@ -1,14 +1,9 @@
 ---
 title: "Managing Assembly and Manifest Signing | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "manifests [Visual Studio]"
   - "signing manifests [Visual Studio]"
@@ -18,7 +13,7 @@ ms.assetid: 6c1ef36b-25f7-4ad0-b29a-51801b7a5420
 caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Managing Assembly and Manifest Signing
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -69,6 +64,3 @@ Strong-name signing gives a software component a globally unique identity. Stron
 ## See Also  
  [Strong-Named Assemblies](http://msdn.microsoft.com/library/d4a80263-f3e0-4d81-9b61-f0cbeae3797b)   
  [Strong Name Assemblies (Assembly Signing) (C++/CLI)](http://msdn.microsoft.com/library/c337cd3f-e5dd-4c6f-a1ad-437e85dba1cc)
-
-
-

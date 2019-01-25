@@ -8,7 +8,7 @@ helpviewer_keywords:
   - "Assert methods"
   - "unit tests, Assert classes"
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 author: gewarren

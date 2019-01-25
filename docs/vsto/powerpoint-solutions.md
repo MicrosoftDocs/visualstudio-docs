@@ -12,9 +12,9 @@ helpviewer_keywords:
   - "projects [Office development in Visual Studio], PowerPoint"
   - "PowerPoint [Office development in Visual Studio]"
   - "Office projects [Office development in Visual Studio], PowerPoint"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

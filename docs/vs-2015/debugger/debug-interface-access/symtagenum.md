@@ -1,14 +1,9 @@
 ---
 title: "SymTagEnum | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ ms.assetid: 528a50cf-e13d-46ec-a98c-323d5d047de9
 caps.latest.revision: 15
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # SymTagEnum
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -217,6 +212,3 @@ enum SymTagEnum { 
  [IDiaSession::findSymbolByVAEx](../../debugger/debug-interface-access/idiasession-findsymbolbyvaex.md)   
  [IDiaSession::findChildren](../../debugger/debug-interface-access/idiasession-findchildren.md)   
  [IDiaSymbol::findChildren](../../debugger/debug-interface-access/idiasymbol-findchildren.md)
-
-
-

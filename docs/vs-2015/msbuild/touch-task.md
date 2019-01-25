@@ -1,14 +1,9 @@
 ---
 title: "Touch Task | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: reference
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#Touch"
 dev_langs: 
@@ -23,7 +18,7 @@ ms.assetid: 8a978645-1393-4904-ae69-42afabd8c109
 caps.latest.revision: 20
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Touch Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -69,6 +64,3 @@ Sets the access and modification times of files.
 ## See Also  
  [Tasks](../msbuild/msbuild-tasks.md)   
  [Task Reference](../msbuild/msbuild-task-reference.md)
-
-
-

@@ -1,14 +1,9 @@
 ---
 title: "IDiaFrameData | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ ms.assetid: 2f1b4986-341b-4641-89a4-226e261e9d93
 caps.latest.revision: 13
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # IDiaFrameData
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -126,6 +121,3 @@ void PrintFrameData(IDiaFrameData* pFrameData){
  [IDiaEnumFrameData](../../debugger/debug-interface-access/idiaenumframedata.md)   
  [IDiaEnumFrameData::Item](../../debugger/debug-interface-access/idiaenumframedata-item.md)   
  [IDiaEnumFrameData::Next](../../debugger/debug-interface-access/idiaenumframedata-next.md)
-
-
-

@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "CPU counters in Profiling Tools"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: jillfra
 ms.workload: 
   - "multiple"
 ---

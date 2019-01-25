@@ -7,7 +7,7 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.All_Languages.CodeLens"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

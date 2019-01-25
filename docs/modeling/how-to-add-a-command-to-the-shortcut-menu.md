@@ -7,7 +7,7 @@ helpviewer_keywords:
   - "walkthroughs [Domain-Specific Language Tools]"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ms.prod: visual-studio-dev15

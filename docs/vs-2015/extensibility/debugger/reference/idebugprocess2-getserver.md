@@ -1,14 +1,9 @@
 ---
 title: "IDebugProcess2::GetServer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugProcess2::GetServer"
 helpviewer_keywords: 
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 8f73c530-cceb-4f1f-8c63-1cc0ccd4a310
 caps.latest.revision: 13
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # IDebugProcess2::GetServer
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -50,4 +45,3 @@ int GetServer( 
 ## See Also  
  [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md)   
  [IDebugCoreServer2](../../../extensibility/debugger/reference/idebugcoreserver2.md)
-

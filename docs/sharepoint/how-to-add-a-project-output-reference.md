@@ -9,9 +9,9 @@ helpviewer_keywords:
   - "project output references [SharePoint development in Visual Studio]"
   - "SharePoint development in Visual Studio, project output references"
   - "SharePoint development in Visual Studio, advanced packaging tools"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

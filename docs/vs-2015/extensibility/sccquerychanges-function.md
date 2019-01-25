@@ -1,14 +1,9 @@
 ---
 title: "SccQueryChanges Function | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "SccQueryChanges"
 helpviewer_keywords: 
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 4cd58eb3-6952-49b1-9620-8682e3eaa604
 caps.latest.revision: 14
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # SccQueryChanges Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -68,4 +63,3 @@ SCCRTN SccQueryChanges(
  [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)   
  [QUERYCHANGESFUNC](../extensibility/querychangesfunc.md)   
  [Error Codes](../extensibility/error-codes.md)
-

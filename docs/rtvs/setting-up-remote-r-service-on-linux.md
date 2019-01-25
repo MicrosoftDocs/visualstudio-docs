@@ -7,8 +7,8 @@ ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
 ms.reviewer: karthiknadig
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - data-science
 ---
 

@@ -1,18 +1,14 @@
 ---
 title: "How to: Upgrade from a Trial Edition | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: "vs-ide-install"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: conceptual
 ms.assetid: 717f11fe-be6c-4d6e-9006-e7e5220c02bb
 caps.latest.revision: 28
 author: TerryGLee
 ms.author: tglee
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Upgrade from a Trial Edition of Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -46,4 +42,4 @@ You can evaluate the pre-release version of Visual Studio for 14 days without re
  [Signing in to Visual Studio](../ide/signing-in-to-visual-studio.md)
  [How to: Locate the Visual Studio Product Key](../install/how-to-locate-the-visual-studio-product-key.md)
  [Locate or Change the Product Key for Team Foundation Server](http://msdn.microsoft.com/library/64f29927-b520-4c9f-b633-bcb527e562cd)
- [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)
+ [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)

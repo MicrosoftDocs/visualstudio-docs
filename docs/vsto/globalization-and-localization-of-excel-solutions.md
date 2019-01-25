@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "globalization [Office development in Visual Studio], configuring"
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
   - "office"
 ---

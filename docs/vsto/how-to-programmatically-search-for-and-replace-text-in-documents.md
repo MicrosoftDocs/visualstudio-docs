@@ -11,9 +11,9 @@ helpviewer_keywords:
   - "text searches, documents"
   - "text [Office development in Visual Studio], searching in documents"
   - "text [Office development in Visual Studio], text searches"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

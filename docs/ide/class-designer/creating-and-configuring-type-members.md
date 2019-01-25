@@ -27,7 +27,7 @@ helpviewer_keywords:
 ms.assetid: 42af8738-3738-4ca7-82ff-edf573a68f96
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

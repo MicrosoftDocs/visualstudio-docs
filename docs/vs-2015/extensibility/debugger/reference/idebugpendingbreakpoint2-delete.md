@@ -1,14 +1,9 @@
 ---
 title: "IDebugPendingBreakpoint2::Delete | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugPendingBreakpoint2::Delete"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: 4cb5ed81-6f0c-41ce-a770-5adb6b4bf5d9
 caps.latest.revision: 10
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # IDebugPendingBreakpoint2::Delete
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -84,4 +79,3 @@ HRESULT CPendingBreakpoint::Delete(void)
   
 ## See Also  
  [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md)
-

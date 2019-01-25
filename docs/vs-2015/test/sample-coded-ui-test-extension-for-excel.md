@@ -1,20 +1,15 @@
 ---
 title: "Sample Coded UI Test Extension for Excel | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 helpviewer_keywords: 
   - "coded UI tests, extensions for Excel"
 ms.assetid: 451e4d14-7fac-42f9-af56-2bdc8414c6c7
 caps.latest.revision: 15
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Sample Coded UI Test Extension for Excel
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -52,6 +47,3 @@ Excel Extension Architecture
  [ActionFilter Class](../test/sample-excel-extension-actionfilter-class.md)   
  [Element Classes](../test/sample-excel-extension-element-classes.md)   
  [PropertyProvider Class](../test/sample-excel-extension-propertyprovider-class.md)
-
-
-

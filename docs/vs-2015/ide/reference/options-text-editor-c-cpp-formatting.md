@@ -1,14 +1,9 @@
 ---
 title: "Options, Text Editor, C-C++, Formatting | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "VS.ToolsOptionsPages.Text_Editor.C/C++.Formatting.General"
   - "VS.ToolsOptionsPages.Text_Editor.C%2fC%2b%2b.Formatting.General"
@@ -20,7 +15,7 @@ ms.assetid: cb6f1cbb-5305-48da-a8e8-33fd70775d46
 caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Options, Text Editor, C/C++, Formatting
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -31,7 +26,7 @@ Lets you change the default behavior of the Code Editor when you are programming
  To access this page, in the **Options** dialog box, in the left pane, expand **Text Editor**, expand **C/C++**, and then click **Formatting**.  
   
 > [!NOTE]
->  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ## C/C++ Options  
  **Enable automatic Quick Info ToolTips**  
@@ -80,6 +75,3 @@ Lets you change the default behavior of the Code Editor when you are programming
 ## See Also  
  [General, Environment, Options Dialog Box](../../ide/reference/general-environment-options-dialog-box.md)   
  [Using IntelliSense](../../ide/using-intellisense.md)
-
-
-

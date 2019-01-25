@@ -1,12 +1,9 @@
 ---
 title: "How to: Modify a Standard Menu Command in a Domain-Specific Language | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - ".vsct files, adding commands to a domain-specific language"
   - "Domain-Specific Language, adding custom commands"
@@ -14,7 +11,7 @@ ms.assetid: 9b9d8314-d0d8-421a-acb9-d7e91e69825c
 caps.latest.revision: 12
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # How to: Modify a Standard Menu Command in a Domain-Specific Language
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -157,6 +154,3 @@ protected override void ProcessOnMenuDeleteCommand()
  [VSCT XML Schema Reference](../extensibility/vsct-xml-schema-reference.md)   
  [VMSDK – Circuit Diagrams sample. Extensive DSL Customization](http://code.msdn.microsoft.com/Visualization-Modeling-SDK-763778e8)   
  [Sample code: Circuit Diagrams](http://code.msdn.microsoft.com/Visualization-Modeling-SDK-763778e8)
-
-
-

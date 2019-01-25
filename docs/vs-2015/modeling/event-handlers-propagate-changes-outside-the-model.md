@@ -1,12 +1,9 @@
 ---
 title: "Event Handlers Propagate Changes Outside the Model | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Domain-Specific Language, programming domain models"
   - "Domain-Specific Language, events"
@@ -14,7 +11,7 @@ ms.assetid: 0ac8d1e4-239f-4370-ba1d-3769bb38b8a5
 caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Event Handlers Propagate Changes Outside the Model
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -189,6 +186,3 @@ private static void AlbumTitleAdjuster(object sender,
 ## See Also  
  [Responding to and Propagating Changes](../modeling/responding-to-and-propagating-changes.md)   
  [Sample code: Circuit Diagrams](http://code.msdn.microsoft.com/Visualization-Modeling-SDK-763778e8)
-
-
-

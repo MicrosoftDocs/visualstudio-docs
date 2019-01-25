@@ -12,9 +12,9 @@ helpviewer_keywords:
   - "Ribbon [Office development in Visual Studio], dynamic menu"
   - "dynamic menus [Office development in Visual Studio]"
   - "Ribbon [Office development in Visual Studio], updating"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
   - "office"
 ---

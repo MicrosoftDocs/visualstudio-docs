@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "Ribbon [Office development in Visual Studio], tabs"
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload: 
   - "office"
 ---

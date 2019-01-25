@@ -1,14 +1,9 @@
 ---
 title: "-ProjectConfig (devenv.exe) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 helpviewer_keywords: 
   - "/projectconfig Devenv switch"
   - "configurations, rebuilding"
@@ -25,7 +20,7 @@ ms.assetid: 6b54ef59-ffed-4f62-a645-1279ede97ebf
 caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # /ProjectConfig (devenv.exe)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -87,6 +82,3 @@ devenv "C:\Documents and Settings\someuser\My Documents\Visual Studio\Projects\M
  [/Rebuild (devenv.exe)](../../ide/reference/rebuild-devenv-exe.md)   
  [/Deploy (devenv.exe)](../../ide/reference/deploy-devenv-exe.md)   
  [/Out (devenv.exe)](../../ide/reference/out-devenv-exe.md)
-
-
-

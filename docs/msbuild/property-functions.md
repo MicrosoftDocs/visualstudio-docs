@@ -7,7 +7,7 @@ helpviewer_keywords:
 ms.assetid: 2253956e-3ae0-4bdc-9d3a-4881dfae4ddb
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -122,7 +122,7 @@ The name of the class must be fully qualified with the namespace.
 For example, you can use the following code to set a build property to the current date today.
 
 ```xml
-<Today>$([System.DateTime]::Now.ToString("yyyy.MM.dd"))</Today>
+<Today>$([System.DateTime]::Now.ToString('yyyy.MM.dd'))</Today>
 ```
 
 ### MSBuild property functions

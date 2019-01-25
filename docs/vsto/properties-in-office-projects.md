@@ -13,9 +13,9 @@ helpviewer_keywords:
   - "Office projects [Office development in Visual Studio], properties"
   - "projects [Office development in Visual Studio], properties"
   - "Value2 property"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

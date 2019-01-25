@@ -1,13 +1,9 @@
 ---
 title: "Debugging"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: conceptual
 dev_langs:
   - "FSharp"
   - "VB"
@@ -21,7 +17,7 @@ ms.assetid: 590f152d-31e2-4e13-b808-a1b13e421483
 caps.latest.revision: 55
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Debugging in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

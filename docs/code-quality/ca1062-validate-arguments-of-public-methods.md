@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "ValidateArgumentsOfPublicMethods"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CSharp
  - VB

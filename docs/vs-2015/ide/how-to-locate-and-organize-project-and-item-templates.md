@@ -1,14 +1,9 @@
 ---
 title: "How to: Locate and Organize Project and Item Templates | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "project templates [Visual Studio], locations"
   - "custom template locations [Visual Studio]"
@@ -20,7 +15,7 @@ ms.assetid: 71f9ed52-c9c9-4818-9bce-c279ffaa0438
 caps.latest.revision: 28
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Locate and Organize Project and Item Templates
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -177,6 +172,3 @@ Template files must be placed in a location that Visual Studio recognizes so tha
  [NumberOfParentCategoriesToRollUp (Visual Studio Templates)](../extensibility/numberofparentcategoriestorollup-visual-studio-templates.md)   
  [How to: Create Project Templates](../ide/how-to-create-project-templates.md)   
  [How to: Create Item Templates](../ide/how-to-create-item-templates.md)
-
-
-

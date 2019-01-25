@@ -1,14 +1,9 @@
 ---
 title: "How to: Specify Which Files Are Published by ClickOnce | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 f1_keywords: 
   - "Microsoft.VisualStudio.Publish.BaseProvider.Dialog.File"
 dev_langs: 
@@ -22,7 +17,7 @@ ms.assetid: 579c134a-d50f-4e0c-8e05-2a4ff654896a
 caps.latest.revision: 18
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # How to: Specify Which Files Are Published by ClickOnce
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -118,6 +113,3 @@ When publishing a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] applica
 ## See Also  
  [Publishing ClickOnce Applications](../deployment/publishing-clickonce-applications.md)   
  [How to: Publish a ClickOnce Application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)
-
-
-

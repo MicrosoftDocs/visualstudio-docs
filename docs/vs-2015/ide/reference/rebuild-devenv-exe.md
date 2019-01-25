@@ -1,14 +1,9 @@
 ---
 title: "-Rebuild (devenv.exe) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 helpviewer_keywords: 
   - "Devenv, /rebuild switch"
   - "rebuild Devenv switch (/rebuild)"
@@ -19,7 +14,7 @@ ms.assetid: c5a8a4bf-0e2b-46eb-a44a-8aeb29b92c32
 caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # /Rebuild (devenv.exe)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -66,6 +61,3 @@ devenv "C:\Documents and Settings\someuser\My Documents\Visual Studio\Projects\M
  [/Build (devenv.exe)](../../ide/reference/build-devenv-exe.md)   
  [/Clean (devenv.exe)](../../ide/reference/clean-devenv-exe.md)   
  [/Out (devenv.exe)](../../ide/reference/out-devenv-exe.md)
-
-
-

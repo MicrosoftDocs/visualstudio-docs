@@ -11,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: e86806dd-5897-4e4c-bfd4-8d687fb72a6e
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.prod: visual-studio-dev15
 ---
 # How to: Specify test agents to use in load test scenarios

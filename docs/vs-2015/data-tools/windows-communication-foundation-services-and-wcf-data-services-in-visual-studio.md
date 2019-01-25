@@ -1,12 +1,9 @@
 ---
 title: "Windows Communication Foundation Services and WCF Data Services"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 helpviewer_keywords:
   - "services, WCF Data"
   - "WCF services, binding to"
@@ -35,7 +32,7 @@ ms.assetid: d56f12cb-e139-4fec-b3e4-488383356642
 caps.latest.revision: 29
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Windows Communication Foundation Services and WCF Data Services in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

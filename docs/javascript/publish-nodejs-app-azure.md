@@ -6,7 +6,7 @@ ms.topic: "tutorial"
 ms.devlang: javascript
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: jillfra
 dev_langs:
   - JavaScript
 ms.workload:
@@ -53,7 +53,7 @@ In this tutorial, you learn how to:
 
 To set up GitHub for Visual Studio:
 
-1. Make sure the [GitHub Extension for Visual Studio](https://visualstudio.github.com/) is installed and enabled using the 
+1. Make sure the [GitHub Extension for Visual Studio](https://visualstudio.github.com/) is installed and enabled using the
 menu item **Tools** > **Extensions and Updates**.
 
 2. From the menu select **View** > **Other Windows** > **GitHub**.
@@ -143,7 +143,7 @@ and it is accessible at the URL created for the Azure App Service (by default th
 
 * If the node.exe process dies (that is, an unhandled exception occurs), the container restarts.
 * When the container starts up, it runs through various heuristics to figure out
-how to start the Node.js process. Details of the implementation can be seen at 
+how to start the Node.js process. Details of the implementation can be seen at
 [generateStartupCommand.js](https://github.com/Azure-App-Service/node/blob/master/8.9.4/startup/generateStartupCommand.js).
 * You can connect to the running container via SSH for investigations. This is easily done using the Azure Portal. Select the App Service, and scroll down
 the list of tools until reaching **SSH** under the **Development Tools** section.

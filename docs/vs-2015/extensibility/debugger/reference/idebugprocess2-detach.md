@@ -1,14 +1,9 @@
 ---
 title: "IDebugProcess2::Detach | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugProcess2::Detach"
 helpviewer_keywords: 
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: ee2b9084-2db1-4e49-a1d9-387284b7c3f8
 caps.latest.revision: 11
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # IDebugProcess2::Detach
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -43,4 +38,3 @@ int Detach();
   
 ## See Also  
  [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md)
-

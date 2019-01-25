@@ -1,14 +1,9 @@
 ---
 title: "Debug Page, Project Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "vb.ProjectPropertiesDebug"
 helpviewer_keywords: 
@@ -18,7 +13,7 @@ ms.assetid: ef11eae9-df96-4e20-aabd-2678ba317140
 caps.latest.revision: 37
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Debug Page, Project Designer
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -35,10 +30,10 @@ manager: "ghogen"
  The following options allow you to select the configuration and platform to display or modify.  
   
  **Configuration**  
- Specifies which configuration settings to display or modify. The settings can be **Debug** (default), **Release**, or **All Configurations**. For more information, see [Debug and Release Project Configurations](http://msdn.microsoft.com/en-us/0440b300-0614-4511-901a-105b771b236e).  
+ Specifies which configuration settings to display or modify. The settings can be **Debug** (default), **Release**, or **All Configurations**. For more information, see [Debug and Release Project Configurations](http://msdn.microsoft.com/0440b300-0614-4511-901a-105b771b236e).  
   
  **Platform**  
- Specifies which platform settings to display or modify. The choices can include **Any CPU** (default), **x64**, and **x86**. For more information, see [Debug and Release Project Configurations](http://msdn.microsoft.com/en-us/0440b300-0614-4511-901a-105b771b236e).  
+ Specifies which platform settings to display or modify. The choices can include **Any CPU** (default), **x64**, and **x86**. For more information, see [Debug and Release Project Configurations](http://msdn.microsoft.com/0440b300-0614-4511-901a-105b771b236e).  
   
 ## Start Action  
  **Start Action** indicates the item to start when the application is debugged: the project, a custom program, a URL, or nothing. By default, this option is set to **Start project**. The **Start Action** setting on the **Debug** page determines the value of the `StartAction` property.  
@@ -78,9 +73,6 @@ manager: "ghogen"
  [Debugging in Visual Studio](../../debugger/debugging-in-visual-studio.md)   
  [Project Settings for  C# Debug Configurations](../../debugger/project-settings-for-csharp-debug-configurations.md)   
  [Project Settings for a Visual Basic Debug Configuration](../../debugger/project-settings-for-a-visual-basic-debug-configuration.md)   
- [Managing Debugging Properties](http://msdn.microsoft.com/en-us/92474d16-e7fe-4fac-9287-6bd6b3a7eb68)   
+ [Managing Debugging Properties](http://msdn.microsoft.com/92474d16-e7fe-4fac-9287-6bd6b3a7eb68)   
  [How to: Debug a ClickOnce Application with Restricted Permissions](../../deployment/how-to-debug-a-clickonce-application-with-restricted-permissions.md)   
  [How to: Create and Edit Configurations](../../ide/how-to-create-and-edit-configurations.md)
-
-
-

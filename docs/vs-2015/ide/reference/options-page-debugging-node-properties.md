@@ -1,19 +1,14 @@
 ---
 title: "Options Page, Debugging Node Properties | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 ms.assetid: 564cc8b2-0084-420e-b560-200cc5621a7e
 caps.latest.revision: 13
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Options Page, Debugging Node Properties
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -88,6 +83,3 @@ The following tables describe the pages (or properties collections) that are ass
  [General, Debugging, Options Dialog Box](../../debugger/general-debugging-options-dialog-box.md)   
  [Edit and Continue, Debugging, Options Dialog Box](http://msdn.microsoft.com/library/009d225f-ef65-463f-a146-e4c518f86103)   
  [Just-In-Time, Debugging, Options Dialog Box](../../debugger/just-in-time-debugging-options-dialog-box.md)
-
-
-

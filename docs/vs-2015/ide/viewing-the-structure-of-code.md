@@ -1,14 +1,9 @@
 ---
 title: "Viewing the Structure of Code | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.documentoutline.window"
   - "vs.objectbrowser"
@@ -32,7 +27,7 @@ ms.assetid: e6064f58-5ad9-4f05-8c3f-12e994b6583f
 caps.latest.revision: 32
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Viewing the Structure of Code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -223,6 +218,3 @@ Call Hierarchy window
   
 ## See Also  
  [Class View and Object Browser Icons](../ide/class-view-and-object-browser-icons.md)
-
-
-

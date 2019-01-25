@@ -1,14 +1,9 @@
 ---
 title: "Remote Debugging Errors and Troubleshooting | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: troubleshooting
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -29,7 +24,7 @@ ms.assetid: b2f41a80-e3e0-4064-a487-8e8446270dec
 caps.latest.revision: 25
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Remote Debugging Errors and Troubleshooting
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -46,6 +41,3 @@ You may encounter the following errors when attempting to debug remotely.
   
 ## See Also  
  [Remote Debugging](../debugger/remote-debugging.md)
-
-
-

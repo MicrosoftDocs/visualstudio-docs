@@ -2,7 +2,7 @@
 title: Configuring your Azure project using multiple service configurations | Microsoft Docs
 description: Learn how to configure an Azure cloud service project by changing the ServiceDefinition.csdef, ServiceConfiguration.Local.cscfg, and ServiceConfiguration.Cloud.cscfg files.
 author: ghogen
-manager: douge
+manager: jillfra
 assetId: a4fb79ed-384f-4183-9f74-5cac257206b9
 ms.prod: visual-studio-dev15
 ms.custom: vs-azure
@@ -82,7 +82,7 @@ For more information about how to update service configurations, see the section
 A web role typically has a single HTTP endpoint on port 80. A worker role, on the other hand, can have any number of HTTP, HTTPS, or TCP endpoints. Endpoints can be input endpoints, which are available to external clients, or internal endpoints, which are available to other roles that are running in the service.
 
 - To make an HTTP endpoint available to external clients and Web browsers, change the endpoint type to input, and specify a name and a public port number.
-- To make an HTTPS endpoint available to external clients and Web browsers, change the endpoint type to **input**, and specify a name, a public port number, and a management certificate name. You must also define the certificate on the **Certificates** property page before you can specify a management certificate. 
+- To make an HTTPS endpoint available to external clients and Web browsers, change the endpoint type to **input**, and specify a name, a public port number, and a management certificate name. You must also define the certificate on the **Certificates** property page before you can specify a management certificate.
 - To make an endpoint available for internal access by other roles in the cloud service, change the endpoint type to internal, and specify a name and possible private ports for this endpoint.
 
 ## Local storage page

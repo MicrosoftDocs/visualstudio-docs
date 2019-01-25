@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "IntelliSense [Visual Studio], Visual Basic"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

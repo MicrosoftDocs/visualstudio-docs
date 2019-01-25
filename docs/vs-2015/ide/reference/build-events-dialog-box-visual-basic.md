@@ -1,14 +1,9 @@
 ---
 title: "Build Events Dialog Box (Visual Basic) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "vb.ProjectPropertiesBuildEvents"
 helpviewer_keywords: 
@@ -21,7 +16,7 @@ ms.assetid: 3a81a7c7-39f9-47a8-ba5a-b351227f380e
 caps.latest.revision: 8
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Build Events Dialog Box (Visual Basic)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -54,6 +49,3 @@ Use the **Build Events** dialog box to specify build configuration instructions.
  [Compile Page, Project Designer (Visual Basic)](../../ide/reference/compile-page-project-designer-visual-basic.md)   
  [How to: Specify Build Events (Visual Basic)](../../ide/how-to-specify-build-events-visual-basic.md)   
  [Pre-build Event/Post-build Event Command Line Dialog Box](../../ide/reference/pre-build-event-post-build-event-command-line-dialog-box.md)
-
-
-

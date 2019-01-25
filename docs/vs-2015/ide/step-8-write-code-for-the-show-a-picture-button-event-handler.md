@@ -1,19 +1,14 @@
 ---
 title: "Step 8: Write Code for the Show a Picture Button Event Handler | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 ms.assetid: 07f4ec00-cda4-42f4-98bb-37edc7167de7
 caps.latest.revision: 26
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Step 8: Write Code for the Show a Picture Button Event Handler
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -103,6 +98,3 @@ Event icon
 -   To go to the next tutorial step, see [Step 9: Review, Comment, and Test Your Code](../ide/step-9-review-comment-and-test-your-code.md).  
   
 -   To return to the previous tutorial step, see [Step 7: Add Dialog Components to Your Form](../ide/step-7-add-dialog-components-to-your-form.md).
-
-
-

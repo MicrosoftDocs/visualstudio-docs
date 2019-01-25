@@ -1,14 +1,9 @@
 ---
 title: "How to: Debug COM Clients and Servers Using RPC Debugging | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.debug.com"
 dev_langs: 
@@ -30,7 +25,7 @@ ms.assetid: 3e8526c8-43b5-4b87-8e0d-b22c24f0a3ea
 caps.latest.revision: 26
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Debug COM Clients and Servers Using RPC Debugging
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -56,6 +51,3 @@ You can use remote procedure call (RPC) debugging to debug COM client/server app
 ## See Also  
  [COM Server and Container Debugging](../debugger/com-server-and-container-debugging.md)   
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)
-
-
-

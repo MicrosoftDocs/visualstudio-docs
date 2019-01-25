@@ -8,9 +8,9 @@ dev_langs:
 helpviewer_keywords: 
   - "Excel [Office development in Visual Studio], worksheets"
   - "worksheets [Office development in Visual Studio], common tasks"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

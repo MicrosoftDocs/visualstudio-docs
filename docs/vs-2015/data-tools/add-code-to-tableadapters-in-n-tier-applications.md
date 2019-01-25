@@ -1,12 +1,9 @@
 ---
 title: "Add code to TableAdapters in n-tier applications | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -19,7 +16,7 @@ ms.assetid: dafac00e-df9d-4d4a-95a6-e34b4d099425
 caps.latest.revision: 22
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Add code to TableAdapters in n-tier applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

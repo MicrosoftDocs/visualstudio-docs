@@ -1,14 +1,9 @@
 ---
 title: "IDebugCoreServer3::GetServerFriendlyName | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugCoreServer3::GetServerFriendlyName"
 helpviewer_keywords: 
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 7035b904-b3d7-4d9b-98d9-65714b8a8b9f
 caps.latest.revision: 9
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # IDebugCoreServer3::GetServerFriendlyName
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -55,4 +50,3 @@ int GetServerFriendlyName(
 ## See Also  
  [IDebugCoreServer3](../../../extensibility/debugger/reference/idebugcoreserver3.md)   
  [GetServerName](../../../extensibility/debugger/reference/idebugcoreserver3-getservername.md)
-

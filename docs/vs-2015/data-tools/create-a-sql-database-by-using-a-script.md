@@ -1,12 +1,9 @@
 ---
 title: "Create a SQL database by using a script | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -16,7 +13,7 @@ ms.assetid: 36f913c0-f5a7-4831-83a0-baba721ac95c
 caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Create a SQL database by using a script
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -270,4 +267,3 @@ In this walkthrough, you use Visual Studio to create a small database that conta
   
 ##  <a name="DeployDatabase"></a> Deploy the database  
  When you press the **F5** key, you deploy (or publish) the database to a LocalDB database by default. You can deploy the database to a different location by opening the properties page for the project, selecting the **Debug** tab, and then changing the connection string.
-

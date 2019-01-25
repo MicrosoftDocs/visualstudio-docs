@@ -8,7 +8,7 @@ ms.prod: visual-studio-dev15
 ms.topic: tutorial
 author: corob-msft
 ms.author: corob
-manager: douge
+manager: jillfra
 dev_langs:
   - "CPP"
 ms.workload:

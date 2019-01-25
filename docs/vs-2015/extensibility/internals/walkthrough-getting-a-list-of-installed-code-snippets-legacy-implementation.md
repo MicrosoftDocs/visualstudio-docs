@@ -1,14 +1,9 @@
 ---
 title: "Walkthrough: Getting a List of Installed Code Snippets (Legacy Implementation) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "snippets, retrieving list"
   - "code snippets, retrieving list"
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 7d142f8b-35b1-44c4-a13e-f89f6460c906
 caps.latest.revision: 16
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Walkthrough: Getting a List of Installed Code Snippets (Legacy Implementation)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -179,4 +174,3 @@ class TestLanguageService : LanguageService
   
 ## See Also  
  [Support for Code Snippets in a Legacy Language Service](../../extensibility/internals/support-for-code-snippets-in-a-legacy-language-service.md)
-

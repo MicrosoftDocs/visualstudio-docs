@@ -9,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: 8e03bee5-ab7b-4b40-9497-9dbe91ccb90e
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.prod: visual-studio-dev15
 ---
 # Edit think times to simulate website human interaction delays in load tests scenarios

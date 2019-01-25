@@ -8,7 +8,7 @@ f1_keywords:
 ms.assetid: 203e60b2-7b80-4ff4-9fa1-aa9f4374377b
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ---
 # Options, Text Editor, XML, Formatting
 

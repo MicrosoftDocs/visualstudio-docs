@@ -1,19 +1,14 @@
 ---
 title: "Tutorial 3: Create a Matching Game | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 ms.assetid: 525815c8-2845-45e8-be96-100d1f144725
 caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Tutorial 3: Create a Matching Game
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -55,6 +50,3 @@ In this tutorial, you build a matching game, where the player must match pairs o
 |[Step 7: Keep Pairs Visible](../ide/step-7-keep-pairs-visible.md)|Keep pairs of icons visible, if a matching pair is selected.|  
 |[Step 8: Add a Method to Verify Whether the Player Won](../ide/step-8-add-a-method-to-verify-whether-the-player-won.md)|Add a `CheckForWinner()` method to verify whether the player won.|  
 |[Step 9: Try Other Features](../ide/step-9-try-other-features.md)|Try other features, such as changing icons and colors, adding a grid, and adding sounds. Try making the board bigger and adjusting the timer.|
-
-
-

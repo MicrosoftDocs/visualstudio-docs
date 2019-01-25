@@ -1,14 +1,9 @@
 ---
 title: "Creating Applications in Bi-directional Languages | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Hebrew character display, creating applications"
   - "bi-directional language support, about bi-directional language support"
@@ -17,7 +12,7 @@ ms.assetid: b56f9795-ed8d-4452-9d49-8ca0b0145d86
 caps.latest.revision: 11
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Creating Applications in Bi-directional Languages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -78,7 +73,7 @@ You can use Visual Studio to create applications that correctly display text in 
 -   Code and literal text. In the code editor (which is also the text editor), you can use Arabic or Hebrew to name classes, functions, variables, properties, string literals, attributes, and so on. However, the editor does not support right-to-left reading order; text always starts at the left margin.  
   
     > [!TIP]
-    >  It is recommended that you place string literals in resource files instead of hard-coding them into your programs. For more information, see [Walkthrough: Localizing Windows Forms](http://msdn.microsoft.com/en-us/9a96220d-a19b-4de0-9f48-01e5d82679e5).  
+    >  It is recommended that you place string literals in resource files instead of hard-coding them into your programs. For more information, see [Walkthrough: Localizing Windows Forms](http://msdn.microsoft.com/9a96220d-a19b-4de0-9f48-01e5d82679e5).  
   
     > [!NOTE]
     >  You must be consistent in how you refer to objects named in these languages. For example, if you use Kashida in naming an Arabic variable, you must always use Kashida when referring to that variable, or errors will result.  
@@ -90,4 +85,3 @@ You can use Visual Studio to create applications that correctly display text in 
  [Bidirectional Support for ASP.NET Web Applications](http://msdn.microsoft.com/library/5576f9b1-9b86-41ef-8354-092d366bcd03)   
  [Globalizing Applications](../ide/globalizing-applications.md)   
  [Localizing Applications](../ide/localizing-applications.md)
-

@@ -1,21 +1,16 @@
 ---
 title: "MSBuild Concepts | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: reference
 helpviewer_keywords: 
   - "MSBuild, concepts"
 ms.assetid: 083b8ba3-e4ad-45af-bb5d-3bc81d406131
 caps.latest.revision: 20
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # MSBuild Concepts
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,7 +31,4 @@ manager: "ghogen"
 |[Walkthrough: Creating an MSBuild Project File from Scratch](../msbuild/walkthrough-creating-an-msbuild-project-file-from-scratch.md)|Shows how to create a basic project file incrementally, by using only a text editor.|  
 |[Walkthrough: Using MSBuild](../msbuild/walkthrough-using-msbuild.md)|Introduces the building blocks of MSBuild and shows how to write, manipulate, and debug MSBuild projects without closing the Visual Studio integrated development environment (IDE).|  
 |[MSBuild Reference](../msbuild/msbuild-reference.md)|Links to documents that contain reference information.|  
-|[MSBuild](http://msdn.microsoft.com/en-us/e39f13f7-1e1d-4435-95ca-0c222bca071c)|Presents an overview of the XML schema for a project file and shows how it controls processes that builds software.|
-
-
-
+|[MSBuild](http://msdn.microsoft.com/e39f13f7-1e1d-4435-95ca-0c222bca071c)|Presents an overview of the XML schema for a project file and shows how it controls processes that builds software.|

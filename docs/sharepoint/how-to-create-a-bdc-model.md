@@ -8,9 +8,9 @@ dev_langs:
 helpviewer_keywords: 
   - "BDC [SharePoint development in Visual Studio], creating a model"
   - "Business Data Connectivity service [SharePoint development in Visual Studio], creating a model"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

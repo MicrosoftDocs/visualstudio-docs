@@ -4,7 +4,7 @@
   items:
   - name: "What is debugging?"
     href: what-is-debugging.md
-  - name: Fix bugs by writing better C# code
+  - name: Fix exceptions and errors
     href: write-better-code-with-visual-studio.md
 - name: Quickstarts
   items:
@@ -514,11 +514,6 @@
         - name: COM server and container debugging
           href: com-server-and-container-debugging.md
           items:
-          - name: Debug COM servers
-            href: how-to-debug-com-servers.md
-            items:
-            - name: SDI server applications
-              href: sdi-server-applications.md
           - name: Debug COM clients and servers using RPC debugging
             href: how-to-debug-com-clients-and-servers-using-rpc-debugging.md
         - name: Debug an ActiveX control

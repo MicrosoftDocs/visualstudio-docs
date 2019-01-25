@@ -1,13 +1,9 @@
 ---
 title: "CA2134: Methods must keep consistent transparency when overriding base methods | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "CA2134"
 ms.assetid: 3b17e487-0326-442e-90e1-dc0ba9cdd3f2

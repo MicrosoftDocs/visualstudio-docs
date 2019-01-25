@@ -1,14 +1,9 @@
 ---
 title: "IDebugDynamicField | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugDynamicField"
 helpviewer_keywords: 
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: caffbd95-7596-4714-84b1-b964e89a78bb
 caps.latest.revision: 8
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # IDebugDynamicField
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -48,4 +43,3 @@ IDebugDynamicField : IDebugField
 ## See Also  
  [Symbol Provider Interfaces](../../../extensibility/debugger/reference/symbol-provider-interfaces.md)   
  [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)
-

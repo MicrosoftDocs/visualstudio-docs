@@ -1,19 +1,14 @@
 ---
 title: "Getting Started with PTVS: Debugging | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-python"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-python
+ms.topic: conceptual
 ms.assetid: 82803559-1d60-4c57-98fb-2dc1e0182b42
 caps.latest.revision: 5
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: jillfra
 ---
 # Getting Started with PTVS: Debugging
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -56,4 +51,3 @@ if __name__ == "__main__":
 ## See Also  
  [Wiki documentation](https://github.com/Microsoft/PTVS/wiki/Debugging)   
  [PTVS Getting Started and Deep Dive Videos](https://www.youtube.com/playlist?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff)
-

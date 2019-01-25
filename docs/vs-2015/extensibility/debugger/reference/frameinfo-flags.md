@@ -1,14 +1,9 @@
 ---
 title: "FRAMEINFO_FLAGS | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "FRAMEINFO_FLAGS"
 helpviewer_keywords: 
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 41578062-8455-412a-9d8b-1e1e9dc8d52e
 caps.latest.revision: 13
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # FRAMEINFO_FLAGS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -209,4 +204,3 @@ public enum enum_FRAMEINFO_FLAGS {
  [FRAMEINFO](../../../extensibility/debugger/reference/frameinfo.md)   
  [EnumFrameInfo](../../../extensibility/debugger/reference/idebugthread2-enumframeinfo.md)   
  [GetInfo](../../../extensibility/debugger/reference/idebugstackframe2-getinfo.md)
-

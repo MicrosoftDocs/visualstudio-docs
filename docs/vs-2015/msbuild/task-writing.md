@@ -1,14 +1,9 @@
 ---
 title: "Task Writing | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 helpviewer_keywords: 
   - "MSBuild, writing tasks"
   - "tasks, creating for MSBuild"
@@ -17,7 +12,7 @@ ms.assetid: 3ebc5f87-8f00-46fc-82a1-228f35a6823b
 caps.latest.revision: 22
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Task Writing
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -271,6 +266,3 @@ namespace SimpleTask2
 ## See Also  
  [Task Reference](../msbuild/msbuild-task-reference.md)   
  [Task Reference](../msbuild/msbuild-task-reference.md)
-
-
-

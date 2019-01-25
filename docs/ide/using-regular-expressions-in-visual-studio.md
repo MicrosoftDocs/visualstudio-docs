@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "regular expressions"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

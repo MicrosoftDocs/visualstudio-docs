@@ -1,14 +1,9 @@
 ---
 title: "IDebugAddress2::GetProcessID | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugAddress2::GetProcessID"
 helpviewer_keywords: 
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 2c18889d-074a-4b95-87b4-bf1a067f44ed
 caps.latest.revision: 7
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # IDebugAddress2::GetProcessID
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -46,4 +41,3 @@ int GetProcessID (
   
 ## See Also  
  [IDebugAddress2](../../../extensibility/debugger/reference/idebugaddress2.md)
-

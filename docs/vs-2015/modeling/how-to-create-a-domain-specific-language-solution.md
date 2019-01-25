@@ -1,12 +1,9 @@
 ---
 title: "How to: Create a Domain-Specific Language Solution | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 f1_keywords: 
   - "vs.dsltools.designerwizard"
 helpviewer_keywords: 
@@ -17,7 +14,7 @@ ms.assetid: e585b63b-34d2-405a-8d81-39ea22317975
 caps.latest.revision: 43
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # How to: Create a Domain-Specific Language Solution
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -130,7 +127,4 @@ A domain-specific language (DSL) is created by using a specialized [!INCLUDE[vsp
   
 ## See Also  
  [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)   
- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/en-us/ca5e84cb-a315-465c-be24-76aa3df276aa)
-
-
-
+ [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

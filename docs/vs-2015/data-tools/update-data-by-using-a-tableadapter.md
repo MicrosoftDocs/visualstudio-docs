@@ -1,12 +1,9 @@
 ---
 title: "Update data by using a TableAdapter | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -23,7 +20,7 @@ ms.assetid: 5e32e10e-9bac-4969-9bdd-b8f6919d3516
 caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Update data by using a TableAdapter
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

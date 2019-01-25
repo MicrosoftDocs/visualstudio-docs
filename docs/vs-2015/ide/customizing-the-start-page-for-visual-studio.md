@@ -1,13 +1,9 @@
 ---
 title: "Customizing the Start Page | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: conceptual
 f1_keywords:
   - "vs.startpage"
   - "VS.StartPage.HowDoI"
@@ -20,7 +16,7 @@ ms.assetid: 925d42eb-ec34-426e-ad81-19db8630e536
 caps.latest.revision: 48
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Customizing the Start Page for Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -60,5 +56,5 @@ You can customize the start page for Visual Studio in several default ways, such
 >  If an error in a custom start page causes Visual Studio to crash, you can start Visual Studio in safe mode and then set it to use the default start page. See [/SafeMode (devenv.exe)](../ide/reference/safemode-devenv-exe.md).
 
 ## See Also
- [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)
+ [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)
  [Creating Your Own Start Page](../misc/creating-your-own-start-page.md)

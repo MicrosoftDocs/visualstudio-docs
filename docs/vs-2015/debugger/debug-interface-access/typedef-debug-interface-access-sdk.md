@@ -1,14 +1,9 @@
 ---
 title: "Typedef (Debug Interface Access SDK) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ ms.assetid: 9ab441b9-cc72-47fa-83e2-87b3c2b891b4
 caps.latest.revision: 18
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Typedef (Debug Interface Access SDK)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -61,6 +56,3 @@ Symbols with `SymTagTypedef` tags introduce names for other types.
   
 ## See Also  
  [Class Hierarchy of Symbol Types](../../debugger/debug-interface-access/class-hierarchy-of-symbol-types.md)
-
-
-

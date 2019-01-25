@@ -1,14 +1,9 @@
 ---
 title: "-Runexit (devenv.exe) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 helpviewer_keywords: 
   - "runexit Devenv switch"
   - "Devenv, /runexit switch"
@@ -17,7 +12,7 @@ ms.assetid: bfc94875-5fc0-4110-b961-d59c0b403790
 caps.latest.revision: 13
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # /Runexit (devenv.exe)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -58,6 +53,3 @@ devenv /runexit "C:\Documents and Settings\someuser\My Documents\Visual Studio\P
  [/Build (devenv.exe)](../../ide/reference/build-devenv-exe.md)   
  [/Rebuild (devenv.exe)](../../ide/reference/rebuild-devenv-exe.md)   
  [/Out (devenv.exe)](../../ide/reference/out-devenv-exe.md)
-
-
-

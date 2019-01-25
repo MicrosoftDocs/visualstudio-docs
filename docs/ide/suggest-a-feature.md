@@ -7,7 +7,7 @@ ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: seaniyer
 ms.author: seiyer
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

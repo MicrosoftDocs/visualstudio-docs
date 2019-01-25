@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "debugging JavaScript, console [UWP apps]"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: jillfra
 ms.workload: 
   - "uwp"
   - "cordova"

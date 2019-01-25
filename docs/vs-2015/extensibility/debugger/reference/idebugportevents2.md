@@ -1,14 +1,9 @@
 ---
 title: "IDebugPortEvents2 | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugPortEvents2"
 helpviewer_keywords: 
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 2c017094-3ba2-4067-83f9-147df1d96bce
 caps.latest.revision: 19
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # IDebugPortEvents2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -57,4 +52,3 @@ IDebugPortEvents2 : IUnknown
 ## See Also  
  [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)   
  [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md)
-

@@ -1,14 +1,9 @@
 ---
 title: "Utilization View | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.performance.view.cpuutilization"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ ms.assetid: b4f7ceab-3653-4069-bb74-c309aec62866
 caps.latest.revision: 26
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Utilization View
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -53,6 +48,3 @@ The **Utilization View** displays information about the CPU, GPU, and other syst
 ## See Also  
  [Concurrency Visualizer](../profiling/concurrency-visualizer.md)   
  [Cores View](../profiling/cores-view.md)
-
-
-

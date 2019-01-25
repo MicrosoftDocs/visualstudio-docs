@@ -1,17 +1,14 @@
 ---
 title: "Extend your DSL by using MEF | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 ms.assetid: 3e7be79a-53ab-4d79-863a-bef8d27839bd
 caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Extend your DSL by using MEF
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -376,6 +373,3 @@ namespace MefExtension
  [Managed Extensibility Framework (MEF)](http://msdn.microsoft.com/library/6c61b4ec-c6df-4651-80f1-4854f8b14dde)   
  [How to: Add a Drag-and-Drop Handler](../modeling/how-to-add-a-drag-and-drop-handler.md)   
  [Validation in a Domain-Specific Language](../modeling/validation-in-a-domain-specific-language.md)
-
-
-

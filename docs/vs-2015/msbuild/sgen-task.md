@@ -1,14 +1,9 @@
 ---
 title: "SGen Task | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: reference
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#SGen"
 dev_langs: 
@@ -23,7 +18,7 @@ ms.assetid: 22c5ade4-4159-4667-b891-0c1aa06f4df5
 caps.latest.revision: 14
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # SGen Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -59,6 +54,3 @@ Creates an XML serialization assembly for types in the specified assembly. This 
  [Task Reference](../msbuild/msbuild-task-reference.md)   
  [Tasks](../msbuild/msbuild-tasks.md)   
  [MSBuild Concepts](../msbuild/msbuild-concepts.md)
-
-
-

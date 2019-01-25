@@ -1,13 +1,9 @@
 ---
 title: "Default Keyboard Shortcuts"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: conceptual
 helpviewer_keywords:
   - "shortcut keys [Visual Studio], keyboard binding schemes"
   - "keyboard binding schemes [Visual Studio]"
@@ -18,7 +14,7 @@ ms.assetid: c2c64648-00f8-4e48-a8a0-96c67cfd968c
 caps.latest.revision: 59
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Default Keyboard Shortcuts in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

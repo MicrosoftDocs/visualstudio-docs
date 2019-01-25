@@ -1,14 +1,9 @@
 ---
 title: "IDebugSymbolProvider | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugSymbolProvider"
 helpviewer_keywords: 
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: df5f095f-1dee-46f9-84cf-92417c71d5fb
 caps.latest.revision: 15
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # IDebugSymbolProvider
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -106,4 +101,3 @@ IDebugSymbolProvider *GetSymbolProvider(GUID *pSymbolProviderGuid)
   
 ## See Also  
  [Symbol Provider Interfaces](../../../extensibility/debugger/reference/symbol-provider-interfaces.md)
-

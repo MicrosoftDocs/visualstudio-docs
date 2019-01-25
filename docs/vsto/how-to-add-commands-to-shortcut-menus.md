@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "Office development in Visual Studio, context menus"
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload: 
   - "office"
 ---

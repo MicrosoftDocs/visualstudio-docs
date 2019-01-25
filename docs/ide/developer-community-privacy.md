@@ -8,7 +8,7 @@ helpviewer_keywords:
   - privacy, developer community
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

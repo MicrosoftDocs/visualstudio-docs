@@ -1,14 +1,9 @@
 ---
 title: "Customizing Performance Tools Report Views | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "profiling tools, customizing report views"
   - "reports, customizing profiling report views"
@@ -16,7 +11,7 @@ ms.assetid: 5224ac52-0fc2-4269-8eb2-ead7fda3afd4
 caps.latest.revision: 21
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Customizing Performance Tools Report Views
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,6 +32,3 @@ This section covers how to customize reports that are generated with [!INCLUDE[v
   
 ## See Also  
  [Analyzing Performance Tools Data](../profiling/analyzing-performance-tools-data.md)
-
-
-

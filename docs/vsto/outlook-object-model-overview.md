@@ -13,9 +13,9 @@ helpviewer_keywords:
   - "objects [Office development in Visual Studio], Office object models"
   - "object models [Office development in Visual Studio], Outlook"
   - "Office object models"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

@@ -1,14 +1,9 @@
 ---
 title: "-Log (devenv.exe) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 helpviewer_keywords: 
   - "Devenv, /Log switch"
   - "Log switch [devenv.exe]"
@@ -17,7 +12,7 @@ ms.assetid: ae23c4ae-2376-4fe3-b8d2-81d34e61c8ba
 caps.latest.revision: 13
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # /Log (devenv.exe)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -42,6 +37,3 @@ Devenv /log Path\NameOfLogFile
   
 ## See Also  
  [Devenv Command Line Switches](../../ide/reference/devenv-command-line-switches.md)
-
-
-

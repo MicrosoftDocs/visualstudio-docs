@@ -12,9 +12,9 @@ helpviewer_keywords:
   - "globalizing [SharePoint development in Visual Studio]"
   - "localizing [SharePoint development in Visual Studio]"
   - "SharePoint development in Visual Studio, localizing"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

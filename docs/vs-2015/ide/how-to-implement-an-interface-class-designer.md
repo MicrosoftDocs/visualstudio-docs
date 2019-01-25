@@ -1,14 +1,9 @@
 ---
 title: "How to: Implement an Interface (Class Designer) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "interfaces [Visual Studio], implementing"
   - "interfaces [Visual Studio]"
@@ -16,7 +11,7 @@ ms.assetid: 81d2cf46-7f60-448c-83e3-1d16bb88ca36
 caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Implement an Interface (Class Designer)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,7 +38,7 @@ In Class Designer, you can implement an interface on the class diagram by connec
 2.  Open Class View and locate the interface.  
   
     > [!TIP]
-    >  If Class View is not open, open Class View from the **View** menu. For more information about Class View, see [Viewing Classes and Their Members](http://msdn.microsoft.com/en-us/71e9e8f3-261a-4e0c-87bf-5ec48b8bf333).  
+    >  If Class View is not open, open Class View from the **View** menu. For more information about Class View, see [Viewing Classes and Their Members](http://msdn.microsoft.com/71e9e8f3-261a-4e0c-87bf-5ec48b8bf333).  
   
 3.  Drag the interface node to the class shape on the diagram.  
   
@@ -54,6 +49,3 @@ In Class Designer, you can implement an interface on the class diagram by connec
  [How to: View Existing Types (Class Designer)](../ide/how-to-view-existing-types-class-designer.md)   
  [How to: Create Inheritance Between Types (Class Designer)](../ide/how-to-create-inheritance-between-types-class-designer.md)   
  [Refactoring Classes and Types (Class Designer)](../ide/refactoring-classes-and-types-class-designer.md)
-
-
-

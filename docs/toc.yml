@@ -819,6 +819,14 @@
           href: ide/reference/options-text-editor-csharp-advanced.md
         - name: Text Editor - C#, IntelliSense
           href: ide/reference/options-text-editor-csharp-intellisense.md
+        - name: Text Editor - F#, Advanced
+          href: ide/reference/options-text-editor-fsharp-advanced.md
+        - name: Text Editor - F#, Code Fixes
+          href: ide/reference/options-text-editor-fsharp-code-fixes.md
+        - name: Text Editor - F#, CodeLens
+          href: ide/reference/options-text-editor-fsharp-codelens.md
+        - name: Text Editor - F#, IntelliSense
+          href: ide/reference/options-text-editor-fsharp-intellisense.md
         - name: Text Editor - HTML (Web Forms), Formatting
           href: ide/reference/options-text-editor-html-formatting.md
         - name: Text Editor - HTML (Web Forms), Miscellaneous
@@ -835,6 +843,10 @@
           href: ide/reference/options-text-editor-javascript-linting.md
         - name: Text Editor - JavaScript, Project
           href: ide/reference/options-text-editor-javascript-project.md
+        - name: Text Editor - U-SQL, Formatting
+          href: ide/reference/options-text-editor-usql-formatting.md
+        - name: Text Editor - U-SQL, IntelliSense
+          href: ide/reference/options-text-editor-usql-intellisense.md
         - name: Text Editor - XAML, Formatting
           href: ide/reference/options-text-editor-xaml-formatting.md
         - name: Text Editor - XAML, Miscellaneous
@@ -1089,10 +1101,8 @@
       href: ide/dotfuscator/upgrades.md
 - name: Resources
   items:
-  - name: What's new in Visual Studio 2017
-    href: ide/whats-new-in-visual-studio.md
-  - name: What's new in Visual Studio 2019
-    href: ide/whats-new-visual-studio-2019.md
+  - name: What's new in Visual Studio
+    href: ide/whats-new-visual-studio.md
   - name: Release notes & system requirements
     items:
     - name: Current release notes

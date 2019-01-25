@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "formatting conventions [EditorConfig]"
 author: kuhlenh
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.prod: visual-studio-dev15
 ms.workload:
   - "dotnet"

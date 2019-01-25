@@ -1,19 +1,14 @@
 ---
 title: "Texture Nodes | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 ms.assetid: b7df5ef3-dd4f-4964-9d96-34e0e180515e
 caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Texture Nodes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,6 +28,3 @@ In the Shader Designer, texture nodes sample various texture types and geometrie
 |**Texture Dimensions**|Outputs the width and height of a 2-D texture map.<br /><br /> You can use the texture dimensions to consider the width and height of the texture in a shader.<br /><br /> **Output:**<br /><br /> `Output`: `float2`<br /> The width and height of the texture, expressed as a vector. The width is stored in the first element of the vector. The height is stored in the second element.|**Texture**<br /> The texture register that's associated with the texture dimensions.|  
 |**Texel Delta**|Outputs the delta (distance) between the texels of a 2-D texture map.<br /><br /> You can use the texel delta to sample neighboring texel values in a shader.<br /><br /> **Output:**<br /><br /> `Output`: `float2`<br /> The delta (distance) from a texel to the next texel (moving diagonally in the positive direction), expressed as a vector in normalized texture space. You can derive the positions of all neighboring texels by selectively ignoring or negating the U or V coordinates of the delta.|**Texture**<br /> The texture register that's associated with the texel delta.|  
 |**Texture Sample**|Takes a color sample from a 2-D texture map at the specified coordinates.<br /><br /> You can use a texture map to provide color detail on the surface of an object.<br /><br /> **Input:**<br /><br /> `UV`: `float2`<br /> The coordinates where the sample is taken.<br /><br /> **Output:**<br /><br /> `Output`: `float4`<br /> The color sample.|**Texture**<br /> The texture register that's associated with the sampler.|
-
-
-

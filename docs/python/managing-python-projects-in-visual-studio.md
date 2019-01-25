@@ -6,9 +6,9 @@ ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
-manager: douge
+manager: jillfra
 ms.custom: seodec18
-ms.workload: 
+ms.workload:
   - python
   - data-science
 ---
@@ -108,7 +108,7 @@ Linked files are ignored under any of the following conditions:
 
 To add an existing item as a link, right-click the folder in the project where you wish to add the file, then select **Add** > **Existing Item**. In the dialog that appears, select a file and choose **Add as Link** from the drop-down on the **Add** button. Provided that there are no conflicting files, this command creates a link in the selected folder. However, the link is not added if there is already a file with the same name or a link to that file already exists in the project.
 
-If you attempt to link to a file that already exists in the project folders, it is added as a normal file and not as a link. To convert a file into a link, select **File** > **Save As** to save the file to a location outside of the project hierarchy; Visual Studio automatically converts it into a link. Similarly, a link can be converted back by using **File** > **Save As** to save the file somewhere within the project hierarchy. 
+If you attempt to link to a file that already exists in the project folders, it is added as a normal file and not as a link. To convert a file into a link, select **File** > **Save As** to save the file to a location outside of the project hierarchy; Visual Studio automatically converts it into a link. Similarly, a link can be converted back by using **File** > **Save As** to save the file somewhere within the project hierarchy.
 
 If you move a linked file in **Solution Explorer**, the link is moved but the actual file is unaffected. Similarly, deleting a link removes the link without affecting the file.
 

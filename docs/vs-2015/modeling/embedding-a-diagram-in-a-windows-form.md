@@ -1,17 +1,14 @@
 ---
 title: "Embedding a Diagram in a Windows Form | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 ms.assetid: fa6cd040-7c88-4329-b9c3-2a80b312610f
 caps.latest.revision: 3
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Embedding a Diagram in a Windows Form
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -153,4 +150,3 @@ You can embed a DSL diagram in a Windows Control, which appears in the [!INCLUDE
 ## See Also  
  [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md)   
  [Writing Code to Customise a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md)
-

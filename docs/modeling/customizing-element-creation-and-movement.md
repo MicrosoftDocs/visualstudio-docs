@@ -8,7 +8,7 @@ helpviewer_keywords:
   - "Domain-Specific Language, element merge directives"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ms.prod: visual-studio-dev15

@@ -8,7 +8,7 @@ helpviewer_keywords:
   - "Visual Studio templates, customizing"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ---
 # Customize project and item templates
 

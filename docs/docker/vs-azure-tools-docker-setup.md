@@ -4,7 +4,7 @@ description: Step-by-step instructions to configure a default Docker instance us
 services: azure-container-service
 documentationcenter: na
 author: mlearned
-manager: douge
+manager: jillfra
 ms.assetid: 0b1335a2-7720-42a8-8260-4e06fc00c9f6
 ms.service: multiple
 ms.devlang: dotnet

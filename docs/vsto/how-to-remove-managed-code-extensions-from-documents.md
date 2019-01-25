@@ -8,9 +8,9 @@ dev_langs:
 helpviewer_keywords: 
   - "managed code extensions [Office development in Visual Studio], removing"
   - "documents [Office development in Visual Studio], managed code extensions"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

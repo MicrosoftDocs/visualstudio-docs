@@ -1,12 +1,9 @@
 ---
 title: "Commit in-process edits on data-bound controls before saving data | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -23,7 +20,7 @@ ms.assetid: 61af4798-eef7-468c-b229-5e1497febb2f
 caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Commit in-process edits on data-bound controls before saving data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -55,4 +52,3 @@ When editing values in data-bound controls, users must navigate off the current 
 ## See Also  
  [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)   
  [Hierarchical update](../data-tools/hierarchical-update.md)
-

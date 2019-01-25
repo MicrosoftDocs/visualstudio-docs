@@ -1,17 +1,14 @@
 ---
 title: "Customizing Text and Image Fields | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 ms.assetid: a7259fc0-5afa-4356-b27e-5641e01628a9
 caps.latest.revision: 4
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Customizing Text and Image Fields
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -271,6 +268,3 @@ partial class ExampleShape
  [Setting a Background Image on a Diagram](../modeling/setting-a-background-image-on-a-diagram.md)   
  [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md)   
  [Writing Code to Customise a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md)
-
-
-

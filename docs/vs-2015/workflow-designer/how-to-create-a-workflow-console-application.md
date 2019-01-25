@@ -1,17 +1,14 @@
 ---
 title: "How to: Create a Workflow Console Application | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: ".net-framework-4.6"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: "reference"
 ms.assetid: 51a2eea7-921c-49f1-b358-68afc27f1ee9
 caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
-manager: "erikre"
+manager: jillfra
 ---
 # How to: Create a Workflow Console Application
 [!INCLUDE[wf](../includes/wf-md.md)] allows you to create workflows for executing system or human processes. The [!INCLUDE[wfd1](../includes/wfd1-md.md)] provides the design surface for creating these workflows. The [!INCLUDE[wfd2](../includes/wfd2-md.md)] can be used to create workflows from within [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] or it can be integrated into other applications that rehost the designer.  

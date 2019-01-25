@@ -1,11 +1,8 @@
 ---
 title: "Using the Legacy Workflow Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: ".net-framework-4.6"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: "reference"
 helpviewer_keywords: 
   - "Visual Studio 2005 Extensions for Windows Workflow Foundation, about"
@@ -13,7 +10,7 @@ ms.assetid: 7af53077-afd7-465f-9c1d-b387e9d4f216
 caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
-manager: "erikre"
+manager: jillfra
 ---
 # Using the Legacy Workflow Designer
 The legacy [!INCLUDE[wfd2](../includes/wfd2-md.md)] provided by [!INCLUDE[vs2010](../includes/vs2010-md.md)] can be used to target the [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)] or the [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)].  

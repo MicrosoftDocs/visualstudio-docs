@@ -12,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: f3b2e62d-fd66-4093-9f0c-dba01ad995fd
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CSharp
  - VB

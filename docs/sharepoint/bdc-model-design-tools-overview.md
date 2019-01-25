@@ -18,9 +18,9 @@ helpviewer_keywords:
   - "Business Data Connectivity service [SharePoint development in Visual Studio], method details"
   - "BDC [SharePoint development in Visual Studio], BDC Explorer"
   - "BDC [SharePoint development in Visual Studio], designer"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

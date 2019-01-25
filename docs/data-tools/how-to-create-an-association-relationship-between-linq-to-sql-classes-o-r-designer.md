@@ -5,7 +5,7 @@ ms.topic: conceptual
 ms.assetid: 56133e65-81f3-44c3-bc28-ffdd0671a0d2
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.prod: visual-studio-dev15
 ms.workload:
   - "data-storage"

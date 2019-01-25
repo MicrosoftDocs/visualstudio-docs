@@ -1,14 +1,9 @@
 ---
 title: "Debugging Preparation: C#, F#, and Visual Basic Project Types | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -27,7 +22,7 @@ ms.assetid: 7a0535f6-1cd4-4b51-ad34-f4a45b9f1ce3
 caps.latest.revision: 28
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Debugging Preparation: C#, F#, and Visual Basic Project Types
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -58,6 +53,3 @@ The topics in this section describe how to debug the C#, F#, and [!INCLUDE[vbprv
   
 ## See Also  
  [Debugger Security](../debugger/debugger-security.md)
-
-
-

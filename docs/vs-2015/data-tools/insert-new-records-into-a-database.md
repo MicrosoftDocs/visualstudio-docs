@@ -1,12 +1,9 @@
 ---
 title: "Insert new records into a database | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -22,7 +19,7 @@ ms.assetid: ea118fff-69b1-4675-b79a-e33374377f04
 caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Insert new records into a database
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

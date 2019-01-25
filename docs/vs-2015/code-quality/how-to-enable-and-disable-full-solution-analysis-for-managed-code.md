@@ -1,12 +1,9 @@
 ---
 title: "How to: Enable and Disable Full Solution Analysis for Managed Code | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 helpviewer_keywords: 
   - "full solution analysis"
 ms.assetid: 04315147-5792-47f0-8b5f-9ac8413c6a57
@@ -53,6 +50,3 @@ NOTE]
  By default, full solution analysis is enabled for Visual Basic and disabled for Visual C#.  
   
  Visual Studio Update 3 RC includes an enhanced code analyzer diagnostic v2 engine that significantly reduces memory usage and decreases CPU time to idle, even if full solution analysis is enabled.
-
-
-

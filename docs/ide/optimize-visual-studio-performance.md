@@ -7,7 +7,7 @@ helpviewer_keywords:
   - "performance [Visual Studio]"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 f1_keywords:
   - "vs.performancecenter"
 ms.prod: visual-studio-dev15

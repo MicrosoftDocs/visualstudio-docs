@@ -12,9 +12,9 @@ helpviewer_keywords:
   - "association forms [SharePoint development in Visual Studio]"
   - "initiation forms [SharePoint development in Visual Studio]"
   - "SharePoint development in Visual Studio, workflow initiation forms"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

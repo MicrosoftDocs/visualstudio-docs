@@ -1,12 +1,9 @@
 ---
 title: "Customizing Tools and the Toolbox | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 f1_keywords: 
   - "vs.dsltools.dsldesigner.selectiondialog"
   - "vs.dsltools.dsldesigner.selecticondialog"
@@ -17,7 +14,7 @@ ms.assetid: 2a0d03d7-ebc6-4458-b9f4-d2cb8418a62d
 caps.latest.revision: 28
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Customizing Tools and the Toolbox
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -251,6 +248,3 @@ using Microsoft.VisualStudio.Modeling.Diagrams;
  [How to: Add a Drag-and-Drop Handler](../modeling/how-to-add-a-drag-and-drop-handler.md)   
  [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md)   
  [Circuit Diagrams sample DSL](http://code.msdn.microsoft.com/Visualization-Modeling-SDK-763778e8)
-
-
-

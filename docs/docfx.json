@@ -75,9 +75,9 @@
       "breadcrumb_path": "/visualstudio/_breadcrumb/toc.json",
       "extendBreadcrumb": "true",
       "ROBOTS": "INDEX,FOLLOW",
-      "author": "erickson-doug",
-      "ms.author": "douge",
-      "manager": "douge",
+      "author": "jillre",
+      "ms.author": "jillfra",
+      "manager": "jillfra",
       "ms.date": "11/16/2016",
       "ms.topic": "conceptual",
       "audience": "developer",
@@ -118,6 +118,7 @@
         "xml-tools/**/**.md": "vs-xml-tools"
       },
       "titleSuffix": {
+        "ai/**/**.md": "AI tools for Visual Studio",
         "vs-2015/**/**.md": "Visual Studio 2015"
       },
       "breadcrumb_path": {

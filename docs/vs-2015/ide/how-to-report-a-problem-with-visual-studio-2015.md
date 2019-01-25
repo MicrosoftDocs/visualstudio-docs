@@ -8,7 +8,7 @@ ms.assetid: 24ecb76e-b7ad-432d-88ab-d9849963465d
 caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to Report a Problem with Visual Studio 2015
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -17,7 +17,7 @@ For the latest documentation for Visual Studio 2017, see [How to report a proble
 
 If you encounter a problem with Visual Studio 2015, we want to know about it so that we can diagnose and fix it.  By using the **Report a Problem** tool, you can collect detailed  information about the problem, and send it to Microsoft with just a few button clicks.
 
- Microsoft respects your privacy. For information about how we treat the data that you send to us, see [Microsoft Visual Studio Product Family Privacy Statement](https://www.visualstudio.com/en-us/dn948229).
+ Microsoft respects your privacy. For information about how we treat the data that you send to us, see [Microsoft Visual Studio Product Family Privacy Statement](https://www.visualstudio.com/dn948229).
 
 ## Open the Report a Problem tool
  Click on the user feedback icon next to **Quick Launch** in the title bar, or click on           **Help &#124; Send Feedback &#124; Report a Problem**.

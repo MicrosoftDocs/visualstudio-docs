@@ -11,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 47512bc9-a8e9-4628-883a-d9888edab786
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: jillfra
 ms.workload: 
   - "multiple"
 ---
@@ -20,6 +20,7 @@ The following table lists warnings issued by the *VSInstr.exe* tool. You can use
   
 |Warning Number|Description|  
 |--------------------|-----------------|  
+|**VSP1026**|Coverage is not supported on libraries that do not reference MSCorLib. This is often the case for Portable Libraries.|  
 |**VSP2000**|Internal Error. Cannot get the module file name for this executable.|  
 |**VSP2001**|\<assembly name> is a strongly named assembly. It must be re-signed before it can be executed.<br /><br /> This warning occurs when a signed assembly is instrumented. You can use the *sn.exe* tool to resign the binary or to temporarily turn off the strong name requirement. For more information, see [Sn.exe (strong name tool)](/dotnet/framework/tools/sn-exe-strong-name-tool).|  
 |**VSP2002**|Could not find function \<funcname> in file \<filename><br /><br /> This warning occurs if a function cannot be located in the specified file.|  

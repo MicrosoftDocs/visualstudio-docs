@@ -1,11 +1,8 @@
 ---
 title: "Browse and Select a .NET Type Dialog Box | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: ".net-framework-4.6"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: "reference"
 f1_keywords: 
   - "TypeBrowser.UI"
@@ -14,7 +11,7 @@ ms.assetid: 864b60b6-a070-4e5c-aa5b-a25341b57ea6
 caps.latest.revision: 13
 author: gewarren
 ms.author: gewarren
-manager: "erikre"
+manager: jillfra
 ---
 # Browse and Select a .NET Type Dialog Box
 In the **Properties** window, dialog boxes, or designers such as the variable designer, when you select **Browse for Types…** from a list of data types, is the **Browse and Select a .NET Type** dialog box (referred to in an abbreviated form as the “type browser”). In this dialog box, you can choose a type from a tree view of assemblies and projects.  

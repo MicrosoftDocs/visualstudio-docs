@@ -9,9 +9,9 @@ helpviewer_keywords:
   - "Office development in Visual Studio, creating your first project"
   - "Excel [Office development in Visual Studio], creating your first project"
   - "document-level customizations [Office development in Visual Studio], creating your first project"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

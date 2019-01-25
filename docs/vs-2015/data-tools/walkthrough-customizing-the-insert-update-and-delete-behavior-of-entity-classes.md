@@ -1,17 +1,14 @@
 ---
 title: "Walkthrough: Customizing the insert, update, and delete behavior of entity classes | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 ms.assetid: 03ff1146-706e-4780-91cb-56a83df63eea
 caps.latest.revision: 6
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Walkthrough: Customizing the insert, update, and delete behavior of entity classes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -261,4 +258,4 @@ The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visu
  [LINQ to SQL Queries](http://msdn.microsoft.com/library/f4897aaa-7f44-4c20-a471-b948c2971aae)   
  [DataContext Methods (O/R Designer)](../data-tools/datacontext-methods-o-r-designer.md)   
  [How to: Assign stored procedures to perform updates, inserts, and deletes (O/R Designer)](../data-tools/how-to-assign-stored-procedures-to-perform-updates-inserts-and-deletes-o-r-designer.md)   
- [PAVE What's New for Data Application Development in Visual Studio 2012](http://msdn.microsoft.com/en-us/3d50d68f-5f44-4915-842f-6d42fce793f1)
+ [PAVE What's New for Data Application Development in Visual Studio 2012](http://msdn.microsoft.com/3d50d68f-5f44-4915-842f-6d42fce793f1)

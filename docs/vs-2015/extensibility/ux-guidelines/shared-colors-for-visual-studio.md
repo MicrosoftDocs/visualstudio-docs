@@ -1,17 +1,13 @@
 ---
 title: "Shared Colors"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: conceptual
 ms.assetid: 8d11b9a0-6175-4f2e-8e7f-79daee1bfd41
 caps.latest.revision: 6
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Shared Colors for Visual Studio
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]

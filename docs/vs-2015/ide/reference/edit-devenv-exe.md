@@ -1,14 +1,9 @@
 ---
 title: "-Edit (devenv.exe) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 helpviewer_keywords: 
   - "Devenv, /edit switch"
   - "/Edit Devenv swtich"
@@ -16,7 +11,7 @@ ms.assetid: 02b3d6e7-a2b1-4d83-a747-aa8c2fb758b7
 caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # /Edit (devenv.exe)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -51,6 +46,3 @@ devenv /edit MyFile.cs
   
 ## See Also  
  [Devenv Command Line Switches](../../ide/reference/devenv-command-line-switches.md)
-
-
-

@@ -10,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 777d0db5-0073-458a-a2a3-58b1c1f24c60
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.prod: visual-studio-dev15
 ---
 # How to: Specify timeout periods for test controllers and test agents

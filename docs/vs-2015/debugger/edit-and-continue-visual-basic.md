@@ -1,14 +1,9 @@
 ---
 title: "Edit and Continue (Visual Basic) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -25,7 +20,7 @@ ms.assetid: 7e90f34f-e699-45ab-a4c9-a4b527c498c8
 caps.latest.revision: 43
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Edit and Continue (Visual Basic)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -52,6 +47,3 @@ Edit and Continue is a feature for [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] 
 ## Related Sections  
  [Edit and Continue](../debugger/edit-and-continue.md)  
  Provides a list of topics on Edit and Continue.
-
-
-

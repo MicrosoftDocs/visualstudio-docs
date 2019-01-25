@@ -9,7 +9,7 @@ ms.assetid: c3a14d28-d811-4ff3-bd09-21dce14025ca
 caps.latest.revision: 7
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Getting Started with Debugging in Visual Studio 2015
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

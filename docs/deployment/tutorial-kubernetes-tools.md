@@ -4,7 +4,7 @@ ms.date: "06/08/2018"
 ms.topic: "conceptual"
 author: ghogen
 ms.author: ghogen
-manager: douge
+manager: jillfra
 ms.workload:
   - "azure"
 ---

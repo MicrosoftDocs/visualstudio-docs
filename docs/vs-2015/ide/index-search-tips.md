@@ -1,14 +1,9 @@
 ---
 title: "Index Search Tips | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 f1_keywords: 
   - "hv_index"
 helpviewer_keywords: 
@@ -18,7 +13,7 @@ ms.assetid: f9ffa8e9-3ece-419d-a465-f9c2c21fd4ba
 caps.latest.revision: 8
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Index Search Tips
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -62,6 +57,3 @@ You can locate information in the Index by entering keywords. This topic suggest
 ## See Also  
  [Full-Text Search Tips](../ide/full-text-search-tips.md)   
  [Locate Information](../ide/locate-information.md)
-
-
-

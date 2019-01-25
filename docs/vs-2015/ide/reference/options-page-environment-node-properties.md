@@ -1,14 +1,9 @@
 ---
 title: "Options Page, Environment Node Properties | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 helpviewer_keywords: 
   - "automation [Visual Studio], controlling Tools Options"
   - "Tools Options settings, Environment node properties"
@@ -16,7 +11,7 @@ ms.assetid: 26dca41f-91fc-4ca7-9103-3da402baa1d5
 caps.latest.revision: 22
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Options Page, Environment Node Properties
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -166,6 +161,3 @@ This document describes the pages (or properties collections) that are associate
  [Options Page, Fonts and Colors Node Properties](../../ide/reference/options-page-fonts-and-colors-node-properties.md)   
  [Options Page, Text Editor Node Properties](../../ide/reference/options-page-text-editor-node-properties.md)   
  [Environment Options Dialog Box](../../ide/reference/environment-options-dialog-box.md)
-
-
-

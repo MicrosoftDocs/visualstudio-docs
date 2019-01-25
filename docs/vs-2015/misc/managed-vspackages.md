@@ -1,20 +1,15 @@
 ---
 title: "Managed VSPackages | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "devlang-csharp"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "VSPackages, managed"
   - "managed VSPackages"
 ms.assetid: a4f17068-c563-45a8-bbbf-4203ea99e9d2
 caps.latest.revision: 34
-manager: "douge"
+manager: jillfra
 ---
 # Managed VSPackages
 The following topics explain how to create a VSPackage. A VSPackage is a software module that extends the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] integrated development environment (IDE) by providing user interface (UI) elements, services, projects, editors, and designers. For more information, see [VSPackages](../extensibility/internals/vspackages.md).  

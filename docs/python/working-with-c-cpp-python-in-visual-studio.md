@@ -6,7 +6,7 @@ ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
-manager: douge
+manager: jillfra
 ms.custom: seodec18
 ms.workload:
   - python
@@ -318,7 +318,7 @@ The alternate method, described in the following steps, installs the module in t
 
     setup(
         name = 'superfastcode2',
-        version = '1.0',    
+        version = '1.0',
         description = 'Python package with superfastcode2 C++ extension (PyBind11)',
         ext_modules = [sfc_module],
     )
@@ -404,7 +404,7 @@ There are a variety of means to create Python extensions as described in the fol
 | ctypes | 2003 | [oscrypto](https://github.com/wbond/oscrypto) | No compilation, wide availability. | Accessing and mutating C structures cumbersome and error prone. |
 | SWIG | 1996 | [crfsuite](http://www.chokkan.org/software/crfsuite/) | Generate bindings for many languages at once. | Excessive overhead if Python is the only target. |
 | cffi | 2013 | [cryptography](https://cryptography.io/en/latest/), [pypy](https://pypy.org/) | Ease of integration, PyPy compatibility. | Newer, less mature. |
-| [cppyy](https://cppyy.readthedocs.io/en/latest/) | 2017 | | Similar to cffi using C++. | Newer, may have some issues with VS 2017. |  
+| [cppyy](https://cppyy.readthedocs.io/en/latest/) | 2017 | | Similar to cffi using C++. | Newer, may have some issues with VS 2017. |
 
 ## See also
 

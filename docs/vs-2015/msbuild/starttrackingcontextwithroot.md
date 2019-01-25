@@ -1,14 +1,9 @@
 ---
 title: "StartTrackingContextWithRoot | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 api_name: 
   - "StartTrackingContextWithRoot"
 api_location: 
@@ -21,7 +16,7 @@ ms.assetid: f6ef2b76-8035-4a14-8195-aa221c46ef48
 caps.latest.revision: 9
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # StartTrackingContextWithRoot
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -53,6 +48,3 @@ HRESULT WINAPI StartTrackingContextWithRoot(LPCTSTR intermediateDirectory, LPCTS
   
 ## See Also  
  [StartTrackingContext](../msbuild/starttrackingcontext.md)
-
-
-

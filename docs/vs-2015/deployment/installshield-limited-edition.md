@@ -1,19 +1,14 @@
 ---
 title: "InstallShield Limited Edition | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 ms.assetid: 151e46e5-86da-4336-b6d0-42b5326c4884
 caps.latest.revision: 9
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # InstallShield Limited Edition
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,6 +27,3 @@ By using InstallShield Limited Edition, you can create a setup file and distribu
 3.  In the template list, choose **Enable InstallShield Limited Edition**, and then choose the **OK** button.  
   
 4.  In the browser window that opens, read the instructions, and then choose the **Go to the download web site** link.
-
-
-

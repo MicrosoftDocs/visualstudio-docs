@@ -1,14 +1,9 @@
 ---
 title: "HTML UI responsiveness | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -24,7 +19,7 @@ ms.assetid: da13070a-ba40-47dd-a846-ad72eed70d0b
 caps.latest.revision: 52
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # HTML UI responsiveness
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -363,6 +358,3 @@ if (performance.mark && performance.measure) {
   
 ## See Also  
  [Analyze app performance](http://msdn.microsoft.com/library/58acb30b-8428-41a6-b195-b0fdedb89575)
-
-
-

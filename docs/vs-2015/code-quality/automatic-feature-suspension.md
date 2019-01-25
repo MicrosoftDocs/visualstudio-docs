@@ -1,12 +1,8 @@
 ---
 title: "Automatic feature suspension | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.topic: conceptual
 helpviewer_keywords:
   - "full solution analysis"
   - "performance"

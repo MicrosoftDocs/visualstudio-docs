@@ -1,13 +1,9 @@
 ---
 title: "View DOM event listeners | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: conceptual
 dev_langs:
   - "FSharp"
   - "VB"
@@ -20,7 +16,7 @@ ms.assetid: d5b679e7-87dd-4cec-9176-883db6ff0781
 caps.latest.revision: 26
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # View DOM event listeners
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

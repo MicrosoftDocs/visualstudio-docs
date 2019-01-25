@@ -1,17 +1,14 @@
 ---
 title: "API Reference for Modeling SDK"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: reference
 ms.assetid: 590c9a69-4e22-4841-bb23-f32e80ec1e76
 caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # API Reference for Modeling SDK for Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

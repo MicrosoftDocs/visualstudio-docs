@@ -6,13 +6,14 @@ ms.topic: "tutorial"
 ms.devlang: javascript
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: jillfra
 dev_langs:
   - JavaScript
 ms.workload:
   - "nodejs"
 ---
 # Tutorial: Create a Node.js and Express app in Visual Studio
+
 In this tutorial for Visual Studio development using Node.js and Express, you create a simple Node.js web application, add some code, explore some features of the IDE, and run the app. If you haven't already installed Visual Studio, install it for free [here](http://visualstudio.microsoft.com).
 
 In this tutorial, you learn how to:

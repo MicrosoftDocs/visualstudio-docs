@@ -1,19 +1,16 @@
 ---
 title: "Navigate relationships with the UML API | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "UML API"
 ms.assetid: a4d11d45-b8c0-40f9-a597-363f07659610
 caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Navigate relationships with the UML API
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -163,6 +160,3 @@ select shape.Element
 ## See Also  
  [Extend UML models and diagrams](../modeling/extend-uml-models-and-diagrams.md)   
  [Navigate the UML model](../modeling/navigate-the-uml-model.md)
-
-
-

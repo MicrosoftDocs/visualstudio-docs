@@ -9,7 +9,7 @@ ms.topic: quickstart
 ms.devlang: vb
 author: TerryGLee
 ms.author: tglee
-manager: douge
+manager: jillfra
 dev_langs:
   - CSharp
 ms.workload:
@@ -43,7 +43,7 @@ First, you'll create a C# application project. The project type comes with all t
 
 ## Create the application
 
-After you select your C# project template and name your project, Visual Studio creates a simple "Hello World" application for you. 
+After you select your C# project template and name your project, Visual Studio creates a simple "Hello World" application for you.
 
 (To do this, it calls the <xref:System.Console.WriteLine%2A> method to display the literal string "Hello World!" in the console window.)
 

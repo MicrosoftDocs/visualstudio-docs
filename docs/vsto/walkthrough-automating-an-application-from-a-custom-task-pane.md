@@ -12,9 +12,9 @@ helpviewer_keywords:
   - "custom task panes [Office development in Visual Studio], automating applications"
   - "custom task panes [Office development in Visual Studio], PowerPoint"
   - "task panes [Office development in Visual Studio], automating applications"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

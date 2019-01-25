@@ -1,14 +1,9 @@
 ---
 title: "CA1822: Mark members as static | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords: 
   - "MarkMembersAsStatic"
   - "CA1822"
@@ -51,4 +46,3 @@ For the latest documentation on Visual Studio 2017, see [CA1822: Mark members as
  [CA1812: Avoid uninstantiated internal classes](../code-quality/ca1812-avoid-uninstantiated-internal-classes.md)  
   
  [CA1804: Remove unused locals](../code-quality/ca1804-remove-unused-locals.md)
-

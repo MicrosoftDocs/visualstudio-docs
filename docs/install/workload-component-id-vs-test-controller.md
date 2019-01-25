@@ -5,7 +5,7 @@ description: "Use Visual Studio workload and component IDs to distribute automat
 keywords:
 author: TerryGLee
 ms.author: tglee
-manager: douge
+manager: jillfra
 ms.date: 11/13/2018
 ms.topic: reference
 helpviewer_keywords:

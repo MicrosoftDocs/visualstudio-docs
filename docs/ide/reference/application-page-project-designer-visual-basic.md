@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "Application page in Project Designer"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

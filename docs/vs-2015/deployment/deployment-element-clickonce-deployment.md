@@ -1,14 +1,9 @@
 ---
 title: "&lt;deployment&gt; Element (ClickOnce Deployment) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 f1_keywords: 
   - "urn:schemas-microsoft-com:asm.v2#subscription"
   - "urn:schemas-microsoft-com:asm.v2#beforeApplicationStartup"
@@ -26,7 +21,7 @@ ms.assetid: 4fafa9c2-97a0-4cea-b8fd-9746dca33af4
 caps.latest.revision: 32
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # &lt;deployment&gt; Element (ClickOnce Deployment)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -125,6 +120,3 @@ Identifies the attributes used for the deployment of updates and exposure to the
   
 ## See Also  
  [ClickOnce Deployment Manifest](../deployment/clickonce-deployment-manifest.md)
-
-
-

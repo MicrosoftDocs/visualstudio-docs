@@ -10,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 729b4c30-4bc3-4698-91b3-17a676897443
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.prod: visual-studio-dev15
 ---
 # How to: Zoom in on a region of the graph in load test results

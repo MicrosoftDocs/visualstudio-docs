@@ -21,7 +21,7 @@ helpviewer_keywords:
   - "projects [Visual Studio]"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

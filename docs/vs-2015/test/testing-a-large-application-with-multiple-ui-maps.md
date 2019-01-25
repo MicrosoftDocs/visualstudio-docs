@@ -1,21 +1,16 @@
 ---
 title: "Testing a Large Application with Multiple UI Maps | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 helpviewer_keywords: 
   - "coded UI tests, multiple UI maps"
   - "coded UI tests, for large applications"
 ms.assetid: 6e1ae9ec-e9b1-458a-bd96-0eb15e46f1d5
 caps.latest.revision: 24
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Testing a Large Application with Multiple UI Maps
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -143,6 +138,3 @@ namespace ContosoProject
  [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)   
  [Creating Coded UI Tests](../test/use-ui-automation-to-test-your-code.md#VerifyingCodeUsingCUITCreate)   
  [Anatomy of a Coded UI Test](../test/anatomy-of-a-coded-ui-test.md)
-
-
-

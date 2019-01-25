@@ -1,14 +1,9 @@
 ---
 title: "BscMake Task | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: reference
 f1_keywords: 
   - "vc.task.bscmake"
   - "VC.Project.VCBscMakeTool.PreserveSBR"
@@ -25,7 +20,7 @@ ms.assetid: bb98fc67-cad8-43a7-9598-60df6d734db2
 caps.latest.revision: 10
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # BscMake Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -52,6 +47,3 @@ IMPORTANT]
   
 ## See Also  
  [Task Reference](../msbuild/msbuild-task-reference.md)
-
-
-

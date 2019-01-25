@@ -1,17 +1,14 @@
 ---
 title: "How to: Add Activities to the Toolbox | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: ".net-framework-4.6"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: "reference"
 ms.assetid: b3a8a785-5928-457a-8a50-30267e29503d
 caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
-manager: "erikre"
+manager: jillfra
 ---
 # How to: Add Activities to the Toolbox
 Activities can be added to the **Toolbox** in your solution in several different ways. You can add them from within your current project, reference them from a different project, or reference them from a different assembly.  

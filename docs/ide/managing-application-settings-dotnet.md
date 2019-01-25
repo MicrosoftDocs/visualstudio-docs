@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "application settings [Visual Studio]"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

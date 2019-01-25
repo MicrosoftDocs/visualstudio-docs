@@ -1,14 +1,9 @@
 ---
 title: "IDebugBoundBreakpoint2::GetState | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugBoundBreakpoint2::GetState"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: a40a8382-295e-4916-aae6-ffe3a9cd3f2d
 caps.latest.revision: 12
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # IDebugBoundBreakpoint2::GetState
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -71,4 +66,3 @@ HRESULT CBoundBreakpoint::GetState(BP_STATE* pState)
 ## See Also  
  [IDebugBoundBreakpoint2](../../../extensibility/debugger/reference/idebugboundbreakpoint2.md)   
  [BP_STATE](../../../extensibility/debugger/reference/bp-state.md)
-
