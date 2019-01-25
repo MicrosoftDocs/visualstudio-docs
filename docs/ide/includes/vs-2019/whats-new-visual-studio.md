@@ -47,7 +47,7 @@ Paired with a new document health indicator is a new code cleanup command. You c
 
    ![The new code cleanup feature in Visual Studio 2019](../../media/code-cleanup.png)
 
-The cleanup will format the code and apply any code fixes as suggested by the [current settings](../../../code-styles-and-quick-actions.md), [.editorconfig files](../../create-portable-custom-editor-options.md), or [Roslyn analyzers](../../../code-quality/roslyn-analyzers-overview.md).
+The cleanup will format the code and apply any code fixes as suggested by the [current settings](../../code-styles-and-quick-actions.md), [.editorconfig files](../../create-portable-custom-editor-options.md), or [Roslyn analyzers](../../../code-quality/roslyn-analyzers-overview.md).
 
 ### Debugger improvements
 
@@ -120,4 +120,4 @@ Why send feedback to the Visual Studio team? Because we take customer feedback s
 
 * [Visual Studio 2019 release notes](/visualstudio/releases/2019/release-notes-preview?context=visualstudio/default&contextView=vs-2017)
 * [Microsoft Connect(); 2018 conference](https://www.microsoft.com/connectevent)
-* [What's new in Visual Studio 2017](whats-new-visual-studio.md?view=vs-2017)
+* [What's new in Visual Studio 2017](../../whats-new-visual-studio.md?view=vs-2017)
