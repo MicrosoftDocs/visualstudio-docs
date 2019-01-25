@@ -46,7 +46,7 @@ It's a given that performance improvements are top of mind with every release of
 
 The first thing you'll notice when you open Visual Studio 2019 is its new start window.
 
-   ![The new start window in Visual Studio 2019](../media/start-window.png)
+   ![The new start window in Visual Studio 2019](media/start-window.png)
 
 This new start window presents you with options to clone or check out code, open a project or solution, open a local folder, or create a new project. Having these options presented in a simple dialog helps both beginners and advanced Visual Studio users get to code quickly.
 
@@ -56,7 +56,7 @@ For more information, see the [Get to code: How we designed the new Visual Studi
 
 Formerly known as Quick Launch, our new search experience is faster and more effective. Now, search results appear dynamically as you type. And, search results include keyboard shortcuts for commands, so that you can more easily memorize them for future use.
 
-   ![The new search feature in Visual Studio 2019](../media/search-feature.png)
+   ![The new search feature in Visual Studio 2019](media/search-feature.png)
 
 Whether you are looking for commands, settings, documentation, or other useful things, the new search feature makes it easier to find what you're looking for.
 
@@ -64,7 +64,7 @@ Whether you are looking for commands, settings, documentation, or other useful t
 
 Paired with a new document health indicator is a new code cleanup command. You can use this new command to identify and then fix both warnings and suggestions with the click of a button.
 
-   ![The new code cleanup feature in Visual Studio 2019](../media/code-cleanup.png)
+   ![The new code cleanup feature in Visual Studio 2019](media/code-cleanup.png)
 
 The cleanup will format the code and apply any code fixes as suggested by the [current settings](../code-styles-and-quick-actions.md), [.editorconfig files](../create-portable-custom-editor-options.md), or [Roslyn analyzers](../../code-quality/roslyn-analyzers-overview.md).
 
@@ -76,7 +76,7 @@ You've probably been there before, looking in the Watch window for a string amon
 
 You can also format how a value is displayed within the Watch, Locals, and Autos windows.  Double-click one of the items in any of the windows and add a comma (",") to access the drop-down list of possible format specifiers, each of which includes a description of its intended effect.
 
-   ![The new Watch window and format values feature in Visual Studio 2019](../media/search-watch-window.png)
+   ![The new Watch window and format values feature in Visual Studio 2019](media/search-watch-window.png)
 
 ### Visual Studio Live Share
 
@@ -98,7 +98,7 @@ To get started now, download the [Pull Requests for Visual Studio](https://aka.m
 
 The preview release of Visual Studio 2019 supports building [.NET Core 3](http://aka.ms/netcore3preview1) applications for any platform. We'll continue to support and improve cross-platform C++ development, as well as .NET mobile development for iOS, and Android with Xamarin.
 
-   ![Develop apps with .NET Core 3 Preview 1 in Visual Studio 2019](../media/dot-net-core-three-dev.png)
+   ![Develop apps with .NET Core 3 Preview 1 in Visual Studio 2019](media/dot-net-core-three-dev.png)
 
 ## Continuous innovation
 
@@ -108,7 +108,7 @@ If you use monitors that are configured with different display scale factors, or
 
 With the release of Visual Studio 2019 Preview 1, we are taking the first steps towards making Visual Studio a per-monitor aware (PMA) application. We're laying the foundational work that will allow Visual Studio to render correctly regardless of what display scale factors you use.
 
-   ![Per-monitor aware (PMA) rendering in Visual Studio 2019](../media/per-monitor-aware-dpi-scaling.png)
+   ![Per-monitor aware (PMA) rendering in Visual Studio 2019](media/per-monitor-aware-dpi-scaling.png)
 
 ### Visual Studio IntelliCode
 

@@ -85,7 +85,7 @@ The new Visual Studio Performance Center can help you optimize your IDE start-up
 
 Visual Studio is moving its extensions (and working with third-party extensions too) so that they load on-demand, rather than at IDE startup. Curious about which extensions impact startup, solution load, and typing performance? You can see this information in **Help** > **Manage Visual Studio Performance**.
 
-  ![Options dialog box in Visual Studio 2017](../media/vs2017ide-manage-vs-perf.png)
+  ![Options dialog box in Visual Studio 2017](media/vs2017ide-manage-vs-perf.png)
 
 #### Manage your extensions with Roaming Extensions Manager
 
@@ -93,19 +93,19 @@ It's easier to set up each development environment with your favorite extensions
 
 To see a list of your extensions in Visual Studio, click  **Tools** > **Extensions & Updates**, and then click the **Roaming Extension Manager**.
 
-![Visual Studio 2017 - Extensions and Updates dialog](../media/vs2017ide-extensions-and-updates.png)
+![Visual Studio 2017 - Extensions and Updates dialog](media/vs2017ide-extensions-and-updates.png)
 
 The Roaming Extension Manager tracks all the extensions you install, but you can choose which ones you want to add to your Roaming list.
 
-![Visual Studio 2017 - Extensions and Updates dialog](../media/vs2017ide-RoamingExtensionManager.png)
+![Visual Studio 2017 - Extensions and Updates dialog](media/vs2017ide-RoamingExtensionManager.png)
 
 When you use the Roaming Extension Manager, there are three icon types on your list:
 
-* ![Roamed icon](../media/vs2017ide-roamedicon.png) **_Roamed_**: An extension that is part of this Roaming List, but not installed on your machine.
+* ![Roamed icon](media/vs2017ide-roamedicon.png) **_Roamed_**: An extension that is part of this Roaming List, but not installed on your machine.
   (You can install these by using the **Download** button.)
-* ![Roamed & Installed icon](../media/vs2017ide-roamedinstalledicon.png) **_Roamed & Installed_**: All extensions that are part of this Roaming List and installed in your dev environment.
+* ![Roamed & Installed icon](media/vs2017ide-roamedinstalledicon.png) **_Roamed & Installed_**: All extensions that are part of this Roaming List and installed in your dev environment.
   (If you decide you do not want to roam, you can remove these by using the **Stop Roaming** button.)
-* ![Installed icon](../media/vs2017ide-installedicon.png) **_Installed_**: All extensions that are installed in this environment, but are not part of your Roaming List.
+* ![Installed icon](media/vs2017ide-installedicon.png) **_Installed_**: All extensions that are installed in this environment, but are not part of your Roaming List.
   (You can add extensions to the Roaming List by using the **Start Roaming** button.)
 
 Any extension that you download while you are signed in is added to your list as **Roamed & Installed**. The extension then becomes part of your Roaming list, which gives you access to it from any machine.
@@ -114,7 +114,7 @@ Any extension that you download while you are signed in is added to your list as
 
 In Visual Studio Enterprise 2017, live unit testing gives you live unit test results and code coverage in the editor while you are coding. It works with C# and Visual Basic projects for both the .NET Framework and .NET Core, and it supports three test frameworks of MSTest, xUnit, and NUnit.
 
-![Live Unit Testing](../media/lut-codewindow.png)
+![Live Unit Testing](media/lut-codewindow.png)
 
 For more information, see the [Introducing Live Unit Testing](../test/live-unit-testing-intro.md). For a list of new features added in each release of Visual Studio Enterprise 2017, see [What's new in Live Unit Testing](../test/live-unit-testing-whats-new.md).
 
@@ -140,7 +140,7 @@ For more information, see the [Multi-caret selection](../finding-and-replacing-t
 
 **New in 15.8**: Now, you can keep your keybindings consistent across tools with two new keyboard profiles: Visual Studio Code and ReSharper (Visual Studio). You can find these schemes under **Tools** > **Options** > **General** > **Keyboard** and the top drop-down menu.
 
-  ![New keybinding profiles for Visual Studio Code and ReSharper](../media/vs-keyboard-mappings-code-resharper.png)
+  ![New keybinding profiles for Visual Studio Code and ReSharper](media/vs-keyboard-mappings-code-resharper.png)
 
 #### Use new refactorings
 
@@ -161,7 +161,7 @@ For more information, see [Quick Actions](../common-quick-actions.md).
 
 When you are working with a project in Visual Studio, you can set up and quickly commit and publish your code to a Git service. You can also manage your Git repositories by using menu clicks from buttons in the bottom right-hand corner of the IDE.
 
-![Visual Studio 2017 interacts with the Git dialog](../media/vsIDE-GitInteraction.png)
+![Visual Studio 2017 interacts with the Git dialog](media/vsIDE-GitInteraction.png)
 
 #### Experience improved navigation controls
 
@@ -173,15 +173,15 @@ We've refreshed the navigation experience to help you get from A to B with great
 
 * **Go To All** (**Ctrl**+**T** or **Ctrl**+**,**) &ndash; Navigate directly to any file/type/member/symbol declaration. You can filter your result list or use the query syntax (for example, "f searchTerm" for files, "t searchTerm" for types, etc.).
 
-  ![Improved Go To All](../media/vs2017ide-navigation-go-to.png)
+  ![Improved Go To All](media/vs2017ide-navigation-go-to.png)
 
 * **Find All References** (**Shift**+**F12**) &ndash; With syntax colorization, you can group Find All Reference results by a combination of project, definition, and path. You can also "lock" results so that you can continue to find other references without losing your original results.
 
-  ![New Find All References tool](../media/vs2017ide-find-all-references.png)
+  ![New Find All References tool](media/vs2017ide-find-all-references.png)
 
 * **Structure Visualizer** &ndash; Dotted, gray vertical lines (indent guides) act as landmarks in code to provide context within your frame of view. You may recognize them from the popular Productivity Power Tools. You can use them to visualize and discover what block of code you're in at any time without having to scroll. Hovering over the lines displays a tooltip that shows you the opening of that block and its parents. It's available for all the languages supported via TextMate grammars, as well as C#, Visual Basic, and XAML.
 
-  ![Visual Studio 2017 structure visualizer](../media/vsIDE-StructureVisualizer.png)
+  ![Visual Studio 2017 structure visualizer](media/vsIDE-StructureVisualizer.png)
 
 For more information about the new productivity features, see the [Productivity in Visual Studio 2017](https://blogs.msdn.microsoft.com/visualstudio/2016/11/28/productivity-in-visual-studio-2017-rc/) blog post by Mark Wilson-Thomas.
 
@@ -199,13 +199,13 @@ For complete details, see the [What's new for Visual C++ in Visual 2017](/cpp/to
 
 Now, you can more easily skip ahead during debugging without setting a breakpoint to stop on the line you want. When you are stopped in the debugger, just click the icon that appears next to the line of code. Your code will run and stop on that line the next time it is hit in your code path.
 
-![Visual Studio 2017 debug - Run To Click](../media/vs2017ide-RunToClick.png)
+![Visual Studio 2017 debug - Run To Click](media/vs2017ide-RunToClick.png)
 
 #### The new Exception Helper
 
 The new Exception Helper helps you view your exception information at-a-glance. The information is presented in a compact form with instant access to inner exceptions. When you diagnose a NullReferenceException, you can quickly see what was null right inside the Exception Helper.
 
-![The New Exception Helper dialog in Visual Studio](../media/vs2017ide-ExceptionHelper.png)
+![The New Exception Helper dialog in Visual Studio](media/vs2017ide-ExceptionHelper.png)
 
 For more information, see the [Use the new Exception Helper in Visual Studio](https://blogs.msdn.microsoft.com/devops/2016/03/31/using-the-new-exception-helper-in-visual-studio-15-preview/) blog post.
 
@@ -278,25 +278,25 @@ For more information, see the [Visual Studio and Xamarin](/xamarin/) page.
 
 **New in 15.3**: For your iOS development needs, we've added a stand-alone Entitlements editor. It includes a user-friendly UI that can be easily browsed. To launch it, double-click your *entitlements.plist* file.
 
-![Entitlement editor for Xamarin](../media/xamarin-entitlements-editor.png)
+![Entitlement editor for Xamarin](media/xamarin-entitlements-editor.png)
 
 ### Visual Studio Tools for Xamarin
 
 **New in 15.4**: Xamarin Live enables developers to continuously deploy, test, and debug their apps, directly on iOS and Android devices. After you download the Xamarin Live Player&mdash;available in the App Store or on Google Play&mdash;you can pair your device with Visual Studio and revolutionize the way you build mobile apps. This functionality is now included in Visual Studio and can be enabled by going to **Tools** > **Options** > **Xamarin** > **Other** > **Enable Xamarin Live Player**.
 
-![Animation of the Xamarin Live Player pair, deployment, and live edit modes](../media/xamarinliveplayer.gif)
+![Animation of the Xamarin Live Player pair, deployment, and live edit modes](media/xamarinliveplayer.gif)
 
 ### Support for Google Android Emulator
 
 **New in 15.8**: When you use Hyper-V, now you can use Google's Android Emulator side-by-side with other technologies that are based on Hyper-V, such as Hyper-V virtual machines, Docker tooling, the HoloLens emulator, and more. (This feature requires Windows 10 April 2018 Update or later.)
 
-![The Google Android emulator on Hyper-V technologies](../media/xamarin-hyperv-android-emulator.png)
+![The Google Android emulator on Hyper-V technologies](media/xamarin-hyperv-android-emulator.png)
 
 #### Xamarin.Android Designer split-view editor
 
 Also **new in 15.8**: We've made significant improvements to the designer experience for Xamarin.Android. A highlight is the new split-view editor that allows you to create, edit, and preview your layouts at the same time.
 
-![The Xamarin.Adroid Designer split-view editor](../media/android-designer-split-view.png)
+![The Xamarin.Adroid Designer split-view editor](media/android-designer-split-view.png)
 
 For more information, see [Hardware acceleration for emulator performance](/xamarin/android/get-started/installation/android-emulator/hardware-acceleration?tabs=vswin)
 
@@ -304,7 +304,7 @@ For more information, see [Hardware acceleration for emulator performance](/xama
 
 **New in 15.5**: Visual Studio App Center&mdash;which is now generally available for Android, iOS, macOS, and Windows apps&mdash;has everything you need to manage the lifecycle of your apps, including automated builds, testing on real devices in the cloud, distribution to beta testers and app stores, and monitoring of real-world usage through crash and analytics data. Apps written in Objective-C, Swift, Java, C#, Xamarin, and React Native are supported across all features.
 
-  ![Visual Studio App Center test environment](../media/app-center-test-env.png)
+  ![Visual Studio App Center test environment](media/app-center-test-env.png)
 
 For more information, see the [Introducing App Center: Build, test, distribute and monitor apps in the cloud](https://blogs.msdn.microsoft.com/vsappcenter/introducing-visual-studio-app-center/) blog post.
 
