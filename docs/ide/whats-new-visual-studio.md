@@ -1,4 +1,19 @@
 ---
+title: "What's new in Visual Studio"
+titleSuffix: ""
+description: "Learn about the new features in Visual Studio."
+ms.date: 01/24/2019
+f1_keywords:
+  - "VS.StartPage.WhatsNew"
+helpviewer_keywords:
+  - "Visual Studio, what's new"
+  - "what's new [Visual Studio]"
+ms.assetid: 7307e180-ba28-4774-8a43-cbb980085a71
+author: TerryGLee
+ms.author: tglee
+manager: jillfra
+ms.workload:
+  - "multiple"
 monikerRange: '>= vs-2017'
 ---
 # What's new in Visual Studio

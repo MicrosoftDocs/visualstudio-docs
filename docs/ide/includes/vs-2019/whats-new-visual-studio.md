@@ -1,24 +1,7 @@
 ---
-title: "What's new in Visual Studio 2019 Preview"
-titleSuffix: ""
-description: "Learn about the new features in the preview release of Visual Studio 2019."
-ms.date: 01/24/2019
-ms.prod: visual-studio-dev16
-ms.custom: "seodec18"
-ms.topic: conceptual
-f1_keywords:
-  - "VS.StartPage.WhatsNew"
-helpviewer_keywords:
-  - "Visual Studio, what's new"
-  - "what's new [Visual Studio]"
-author: TerryGLee
-ms.author: tglee
-manager: jillfra
-ms.workload:
-  - "multiple"
-monikerRange: vs-2019
+ms.topic: include
 ---
-**Updated for the Visual Studio 2019 [16.0 Preview 2 release](/visualstudio/releases/2019/release-notes-preview?context=visualstudio/default&contextView=vs-2017)**
+**Updated for the Visual Studio 2019 [Preview 2 release](/visualstudio/releases/2019/release-notes-preview?context=visualstudio/default&contextView=vs-2017)**
 
 >[!div class="button"]
 >[Download Preview](https://visualstudio.microsoft.com/vs/preview/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2019+preview)

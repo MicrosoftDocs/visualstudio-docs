@@ -1,23 +1,5 @@
 ---
-title: "What's new in Visual Studio 2017"
-titleSuffix: ""
-description: "Learn about the new features in Visual Studio 2017."
-ms.date: 12/04/2018
-ms.prod: visual-studio-dev15
-ms.custom: "seodec18"
-ms.topic: conceptual
-f1_keywords:
-  - "VS.StartPage.WhatsNew"
-helpviewer_keywords:
-  - "Visual Studio, what's new"
-  - "what's new [Visual Studio]"
-ms.assetid: 7307e180-ba28-4774-8a43-cbb980085a71
-author: TerryGLee
-ms.author: tglee
-manager: jillfra
-ms.workload:
-  - "multiple"
-monikerRange: vs-2017
+ms.topic: include
 ---
 **Updated for the Visual Studio 2017 [15.9 release](/visualstudio/releasenotes/vs2017-relnotes?context=visualstudio/default&contextView=vs-2017)**
 
