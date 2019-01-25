@@ -102,9 +102,6 @@ A: Yes, as a Visual Studio subscriber you get access to expert channels as part 
 ### Q: What happens when my Pluralsight subscription runs out?
 A:  At the end of your free Pluralsight subscription, you may choose to purchase a subscription directly from Pluralsight.  Please contact [Pluralsight](http://www.pluralsight.com) for full details.
 
-### Q: My company renews their Visual Studio subscription through an Enterprise Agreement. Does the Pluralsight benefit reset?
-A:  No.  The Pluralsight benefit is single use only, tied to the individual.  Once the subscriber consumes the benefit, it does not reset.  This is true for all purchasing channels, including retail, cloud and Volume License (VL) purchases.
-
 ## Support resources
 -  [Pluralsight Help Center](https://help.pluralsight.com/help) provides assistance with taking Pluralsight courses or using the Pluralsight website.
 -  For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
