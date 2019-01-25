@@ -8,7 +8,7 @@ f1_keywords:
   - "Annotation"
 ms.assetid: 9aa0e8d6-8129-4438-8389-d460611581a7
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 author: gewarren

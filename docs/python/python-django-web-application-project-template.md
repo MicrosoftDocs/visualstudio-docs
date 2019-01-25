@@ -6,9 +6,9 @@ ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
-manager: douge
+manager: jillfra
 ms.custom: seodec18
-ms.workload: 
+ms.workload:
   - python
   - data-science
 ---
@@ -33,7 +33,7 @@ Visual Studio provides full IntelliSense for Django projects:
 
     ![JavaScript IntelliSense](media/template-django-intellisense-js.png)
 
-Visual Studio also provides full [debugging support](debugging-python-in-visual-studio.md) for Django projects: 
+Visual Studio also provides full [debugging support](debugging-python-in-visual-studio.md) for Django projects:
 
 ![Breakpoints](media/template-django-debugging.png)
 

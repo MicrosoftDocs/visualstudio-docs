@@ -7,7 +7,7 @@ helpviewer_keywords:
   - "editorconfig, supporting in a language service"
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: douge
+manager: jillfra
 ms.workload: 
   - "vssdk"
 ---

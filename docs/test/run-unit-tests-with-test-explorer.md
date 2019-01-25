@@ -7,7 +7,7 @@ ms.topic: conceptual
 f1_keywords:
   - "vs.unittesting.testexplorer.overview"
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 author: gewarren

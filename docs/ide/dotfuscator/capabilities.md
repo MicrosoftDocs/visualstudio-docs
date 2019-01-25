@@ -16,7 +16,7 @@ description: "Learn the capabilities of the free Dotfuscator Community Edition i
 ms.assetid: 0ee89c58-c900-48fc-a6a2-65ace00e8bab
 author: "Joe-Sewell-PreEmptive"
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ---
 # Capabilities of Dotfuscator
 

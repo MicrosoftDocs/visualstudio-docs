@@ -9,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: bbf075a5-96d5-48ed-a03c-330f0fc04748
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.prod: visual-studio-dev15
 ---
 # Walkthrough: Create and run a load test that contains unit tests

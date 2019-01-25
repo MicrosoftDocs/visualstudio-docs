@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "use the D drive"
 author: TerryGLee
 ms.author: tglee
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

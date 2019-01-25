@@ -8,7 +8,7 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.CSharp.Advanced"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "dotnet"
 ---
@@ -41,7 +41,7 @@ Use the **Advanced** options page to modify the settings for editor formatting, 
    using Newtonsoft.Json;
    using System;
    ```
-   
+
    After sorting:
 
    ```csharp
@@ -52,7 +52,7 @@ Use the **Advanced** options page to modify the settings for editor formatting, 
    using FluentValidation;
    using Newtonsoft.Json;
    ```
-   
+
 - Separate using directive groups
 
    When selected, the **Remove and Sort Usings** command in the right-click menu separates `using` directives by inserting an empty line between groups of directives that have the same root namespace.
@@ -67,28 +67,28 @@ Use the **Advanced** options page to modify the settings for editor formatting, 
    using Newtonsoft.Json;
    using System;
    ```
-   
+
    After sorting:
-   
+
    ```csharp
    using AutoMapper;
-   
+
    using FluentValidation;
-   
+
    using Newtonsoft.Json;
-   
+
    using System;
    using System.Collections.Generic;
    using System.Linq;
    ```
-   
-- Suggest usings for types in reference assemblies 
-- Suggest usings for types in NuGet packages 
+
+- Suggest usings for types in reference assemblies
+- Suggest usings for types in NuGet packages
 
    When these options are selected, a [Quick Action](../quick-actions.md) is available to install a NuGet package and add a `using` directive for unreferenced types.
 
    ![Quick Action to install NuGet package in Visual Studio](media/nuget-lightbulb.png)
-  
+
 ## Highlighting
 
 - Highlight references to symbol under cursor

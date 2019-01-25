@@ -5,7 +5,7 @@ ms.topic: "conceptual"
 ms.assetid: e5aed651-afed-4b70-9a7e-1a6032cc614f
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: jillfra
 ms.workload: 
   - "cplusplus"
 ---

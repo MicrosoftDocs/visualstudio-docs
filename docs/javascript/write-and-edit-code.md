@@ -6,7 +6,7 @@ ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: jillfra
 dev_langs:
   - JavaScript
 ms.workload:

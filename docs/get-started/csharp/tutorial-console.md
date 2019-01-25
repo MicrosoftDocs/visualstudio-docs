@@ -1,26 +1,26 @@
 ---
-title: "Tutorial: Get started with C# console apps"
+title: "Tutorial: Create a simple C# console app"
 description: "Learn how to create a C# console app in Visual Studio, step-by-step."
 ms.custom: "seodec18, get-started"
-ms.date: 01/10/2019
+ms.date: 01/25/2019
 ms.technology: vs-ide-general
 ms.prod: visual-studio-dev15
 ms.topic: tutorial
 ms.devlang: CSharp
 author: TerryGLee
 ms.author: tglee
-manager: douge
+manager: jillfra
 dev_langs:
   - CSharp
 ms.workload:
   - "dotnet"
   - "dotnetcore"
 ---
-# Tutorial: Get started with a C# console app in Visual Studio
+# Tutorial: Create a simple C# console app in Visual Studio
 
-In this tutorial for C#, you'll use Visual Studio to create and run a console app and explore some features of the [Visual Studio integrated development environment (IDE)](../visual-studio-ide.md) while you do so.
+In this tutorial for C#, you'll use Visual Studio to create and run a console app and explore some features of the Visual Studio integrated development environment (IDE) while you do so.
 
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) page to install it for free.
 
 ## Create a project
 
@@ -36,7 +36,23 @@ To start, we'll create a C# application project. The project type comes with all
 
 ### Add a workgroup (optional)
 
-If you don't see the **Console App (.NET Core)** project template, you can get it by adding the **.NET Core cross-platform development** workload. To find out how to do this, see the "[What's a workload and how do I add one?](#workload)" section in the FAQ.
+If you don't see the **Console App (.NET Core)** project template, you can get it by adding the **.NET Core cross-platform development** workload. Here's how.
+
+#### Option 1: Use the New Project dialog box
+
+1. Choose the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box.
+
+   ![Choose the Open Visual Studio Installer link from the New Project dialog box](./media/csharp-open-visual-studio-installer-generic-dark.png)
+
+1. The Visual Studio Installer launches. Choose the **.NET Core cross-platform development** workload, and then choose **Modify**.
+
+   ![.NET Core cross-platform development workload in the Visual Studio Installer](./media/dot-net-core-xplat-dev-workload.png)
+
+#### Option 2: Use the Tools menu bar
+
+1. Cancel out of the **New Project** dialog box and from the top menu bar, choose **Tools** > **Get Tools and Features**.
+
+1. The Visual Studio Installer launches. Choose the **.NET Core cross-platform development** workload, and then choose **Modify**.
 
 ## Create the app
 
@@ -63,7 +79,7 @@ Let's start with some integer math in C#.
 
    ![Choose the Calculator button to run the app from the toolbar](./media/csharp-console-calculator-button.png)
 
-   A console window opens that reveals the sum of 42 + 119.  
+   A console window opens that reveals the sum of 42 + 119.
 
 1. Now try changing the `int c = a + b;` line of code by using a different operator, such as `-` for subtraction, `*` for multiplication, or */* for division.
 
@@ -182,7 +198,10 @@ We've improved on our basic calculator app, but it doesn't yet have failsafes in
 
 For example, if you try to divide a number by zero, or enter an alpha character when the app expects a numeric character (or vice versa), the app stops working and returns an error.
 
-Let's walk through a few common user input errors, locate them in the [debugger](../../debugger/debugger-feature-tour.md), and fix them in the code.
+Let's walk through a few common user input errors, locate them in the debugger, and fix them in the code.
+
+>[!TIP]
+>For more information about the debugger and how it works, see the [First look at the Visual Studio debugger](../../debugger/debugger-feature-tour.md) page.
 
 ### Fix the "divide by zero" error
 
@@ -226,7 +245,7 @@ To fix this error, we must refactor the code that we've previously entered.
 
 #### Revise the code
 
-Rather than rely on the `program` class to handle all the code, we'll divide our app into two classes: `calculator` and `program`.  
+Rather than rely on the `program` class to handle all the code, we'll divide our app into two classes: `calculator` and `program`.
 
 The `calculator` class will handle the bulk of the calculation work, and the `program` class will handle the user interface and error-capturing work.
 
@@ -500,48 +519,6 @@ namespace Calculator
 
 ```
 
-## Quick answers FAQ
-
-Here's a quick FAQ to highlight some key concepts. The FAQ also includes answers to questions that might come up when you follow the procedures in the tutorial.
-
-### What is C#?
-
-C# is a type-safe programming language that runs on the .NET Framework and .NET Core. With C#, you can create Windows applications, client-server applications, database applications, XML Web services, distributed components, and more.
-
-### What is Visual Studio?
-
-Visual Studio is an integrated development suite of productivity tools for developers. Think of it as a program you can use to create programs and applications.
-
-### What is a console app?
-
-A console app takes input and displays output in a command-line window, a.k.a. a console.
-
-### What is .NET Core?
-
-.NET Core is the evolutionary next step of the .NET Framework. Where the .NET Framework allowed you to share code across programming languages, .NET Core adds the ability to share code across platforms. Even better, it's open source.
-
-(Both the .NET Framework and .NET Core include libraries of prebuilt functionality. They also include a common language runtime (CLR), which acts as a virtual machine in which to run your code.)
-
-### <a id="workload"></a>What's a workload and how do I add one?
-
-A workload in Visual Studio represents a set of programming options and templates that you can use to customize your Visual Studio installation. A workload installs only the tools you need for the programming language and platform of your choice. Here's how to install them.
-
-#### Option 1: Use the New Project dialog box
-
-1. Choose the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box.
-
-   ![Choose the Open Visual Studio Installer link from the New Project dialog box](./media/csharp-open-visual-studio-installer-generic-dark.png)
-
-1. The Visual Studio Installer launches. Choose the **.NET Core cross-platform development** workload, and then choose **Modify**.
-
-   ![.NET Core cross-platform development workload in the Visual Studio Installer](./media/dot-net-core-xplat-dev-workload.png)
-
-#### Option 2: Use the Tools menu bar
-
-1. Cancel out of the **New Project** dialog box and from the top menu bar, choose **Tools** > **Get Tools and Features**.
-
-1. The Visual Studio Installer launches. Choose the **.NET Core cross-platform development** workload, and then choose **Modify**.
-
 ## Next steps
 
 Congratulations on completing this tutorial! To learn even more, continue with the following tutorials.
@@ -551,4 +528,5 @@ Congratulations on completing this tutorial! To learn even more, continue with t
 
 ## See also
 
-* [C# Fundamentals for Absolute Beginners video course](https://mva.microsoft.com/en-us/training-courses/c-fundamentals-for-absolute-beginners-16169)
+* [Video course: C# Fundamentals for Absolute Beginners](https://mva.microsoft.com/en-us/training-courses/c-fundamentals-for-absolute-beginners-16169)
+* [Learn to debug C# code in Visual Studio](tutorial-debugger.md)

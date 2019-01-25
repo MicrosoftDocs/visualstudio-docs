@@ -8,7 +8,7 @@ f1_keywords:
 ms.assetid: b6538cbe-badd-4313-a1fb-39e906736bbe
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ---
 # Options, Text Editor, XML, Miscellaneous
 

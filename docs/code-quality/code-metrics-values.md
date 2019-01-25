@@ -7,7 +7,7 @@ helpviewer_keywords:
   - "code metrics [Visual Studio]"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

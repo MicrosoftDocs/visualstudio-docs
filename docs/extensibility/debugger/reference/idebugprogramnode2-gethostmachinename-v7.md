@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDebugProgramNode2::GetHostMachineNameIDebugProgramNode2::GetHostMachineName"
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: douge
+manager: jillfra
 ms.workload: 
   - "vssdk"
 ---

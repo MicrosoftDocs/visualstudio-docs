@@ -9,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: 0ba0363b-7f50-4bde-a919-0e3bce7bc115
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.prod: visual-studio-dev15
 ---
 # Edit load patterns to model virtual user activities

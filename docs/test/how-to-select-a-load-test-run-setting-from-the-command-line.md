@@ -8,7 +8,7 @@ helpviewer_keywords:
 ms.assetid: 175d1d58-f09a-4449-b132-a29a394a7c8e
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.prod: visual-studio-dev15
 ---
 # How to: Select a load test run setting to use from the command line

@@ -7,7 +7,7 @@ ms.topic: "conceptual"
 ms.assetid: d901c572-16c4-402a-b230-7ae59ce9fad4
 author: "corob"
 ms.author: "mblome"
-manager: douge
+manager: jillfra
 f1_keywords:
   - VC.Project.VCNMakeTool.BuildCommandLine
   - VC.Project.VCNMakeTool.ReBuildCommandLine

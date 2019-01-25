@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "Roslyn analyzers"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "dotnet"
 ---
@@ -25,7 +25,7 @@ Visual Studio 2017 includes a core set of .NET Compiler Platform (*Roslyn*) anal
 
    > [!NOTE]
    > The www.nuget.org page for each analyzer package shows you the command to paste into the **Package Manager Console**. There's even a handy button to copy the text to the clipboard.
-   > 
+   >
    > ![NuGet.org page showing Package Manager Console command](media/nuget-install-command.png)
 
    The analyzer assemblies are installed and appear in **Solution Explorer** under **References** > **Analyzers**.

@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 3466dedb-e5f4-424c-8dd8-e4941b2f4fc2
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "dotnet"
 ---

@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "Choose Toolbox Items dialog box, WPF Components tab"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

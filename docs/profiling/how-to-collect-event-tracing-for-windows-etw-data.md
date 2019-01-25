@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "performance tools, enabling event trace providers"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: jillfra
 ms.workload: 
   - "multiple"
 ---

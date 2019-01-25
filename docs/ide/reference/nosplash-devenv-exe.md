@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "NoSplash Devenv switch"
 author: DennisLee-DennisLee
 ms.author: v-dele
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

@@ -19,7 +19,7 @@ helpviewer_keywords:
   - "software, modeling"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
