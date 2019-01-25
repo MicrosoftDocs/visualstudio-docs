@@ -11,7 +11,7 @@ dev_langs:
   - "CPP"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

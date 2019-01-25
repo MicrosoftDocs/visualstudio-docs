@@ -3,7 +3,7 @@ title: Troubleshooting Docker client errors on Windows | Microsoft Docs
 description: Troubleshoot problems you encounter when using Visual Studio to create and deploy web apps to Docker on Windows by using Visual Studio 2017.
 services: azure-container-service
 author: devinb
-manager: douge
+manager: jillfra
 ms.custom: seodec18
 ms.assetid: 346f70b9-7b52-4688-a8e8-8f53869618d3
 ms.service: multiple
@@ -28,6 +28,13 @@ To resolve this issue:
 > If files appear shared, you may still need to click the "Reset credentials..." link at the bottom of the dialog in order to re-enable volume sharing. To continue after you reset credentials, you might have to restart Visual Studio.
 
 ![shared drives](media/vs-azure-tools-docker-troubleshooting-docker-errors/shareddrives.png)
+
+> [!TIP]
+> Visual Studio 2017 versions 15.6 and later prompt when **Shared Drives** aren't configured.
+
+### Container type
+
+When adding Docker support to a project, you choose either a Windows or a Linux container. The Docker host must be running the same container type. To change the container type in the running Docker instance, right-click the System Tray's Docker icon and choose **Switch to Windows containers...** or **Switch to Linux containers...**.
 
 ## Unable to start debugging
 

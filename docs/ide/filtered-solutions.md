@@ -8,7 +8,7 @@ helpviewer_keywords:
  - "solution filtering"
 author: gewarren
 ms.author: stsu
-manager: douge
+manager: jillfra
 monikerRange: vs-2019
 ---
 # Filtered solutions in Visual Studio

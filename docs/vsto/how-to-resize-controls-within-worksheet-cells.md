@@ -10,9 +10,9 @@ helpviewer_keywords:
   - "managed controls, resizing"
   - "worksheets, resizing"
   - "Windows Forms controls [Office development in Visual Studio], resizing"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

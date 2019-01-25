@@ -6,7 +6,7 @@ f1_keywords:
   - "vs.performance.property.general"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: jillfra
 ms.workload: 
   - "multiple"
 ---

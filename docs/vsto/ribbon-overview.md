@@ -13,9 +13,9 @@ helpviewer_keywords:
   - "Ribbon [Office development in Visual Studio], multiple Ribbons"
   - "toolbars [Office development in Visual Studio]"
   - "custom Ribbon, multiple Ribbons"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

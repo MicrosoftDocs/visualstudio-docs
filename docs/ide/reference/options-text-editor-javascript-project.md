@@ -11,7 +11,7 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.TypeScript.Project"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -31,7 +31,7 @@ These options determine how the editor analyzes projects, reports diagnostics, a
 
 ## Virtual Projects in Solution Explorer
 
-These options let you choose whether to display Virtual Projects when a Solution is either loaded or not loaded. 
+These options let you choose whether to display Virtual Projects when a Solution is either loaded or not loaded.
 
 ## Compile on Save
 

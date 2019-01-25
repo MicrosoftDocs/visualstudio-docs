@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "programming [Office development in Visual Studio]"
   - "VSTO, see Office development in Visual Studio"
   - "Office, development with Visual Studio"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

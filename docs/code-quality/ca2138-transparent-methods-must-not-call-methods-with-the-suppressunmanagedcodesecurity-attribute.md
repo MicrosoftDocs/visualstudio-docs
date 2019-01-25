@@ -8,7 +8,7 @@ f1_keywords:
 ms.assetid: a14c4d32-f079-4f3a-956c-a1657cde0f66
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "cplusplus"
 ---

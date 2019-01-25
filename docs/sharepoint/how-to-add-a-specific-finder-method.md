@@ -12,9 +12,9 @@ helpviewer_keywords:
   - "Business Data Connectivity service [SharePoint development in Visual Studio], return an entity"
   - "BDC [SharePoint development in Visual Studio], Specific Finder"
   - "Business Data Connectivity service [SharePoint development in Visual Studio], get an entity"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

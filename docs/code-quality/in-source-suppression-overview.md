@@ -8,7 +8,7 @@ helpviewer_keywords:
   - "code analysis, source suppression"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CSharp
  - VB

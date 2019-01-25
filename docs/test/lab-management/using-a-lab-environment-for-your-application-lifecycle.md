@@ -6,7 +6,7 @@ ms.topic: conceptual
 helpviewer_keywords:
   - "lab environment, test lab"
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 author: gewarren

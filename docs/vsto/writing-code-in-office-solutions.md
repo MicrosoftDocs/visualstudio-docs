@@ -28,9 +28,9 @@ helpviewer_keywords:
   - "projects [Office development in Visual Studio], writing code"
   - "Office applications [Office development in Visual Studio], programming model"
   - "managed code extensions [Office development in Visual Studio], writing code"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
   - "office"
 ---

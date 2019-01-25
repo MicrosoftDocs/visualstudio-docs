@@ -8,9 +8,9 @@ dev_langs:
 helpviewer_keywords: 
   - "walkthroughs [Office development in Visual Studio], Excel"
   - "Excel [Office development in Visual Studio], walkthroughs"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

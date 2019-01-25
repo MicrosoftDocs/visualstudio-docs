@@ -4,7 +4,7 @@ title: Version control
 description: Guide to getting started with version control in Visual Studio
 keywords: VSTS, TFS, Version Control
 author: steved0x
-ms.manager: douge
+ms.manager: jillfra
 ms.author: sdanie
 ms.date: 12/15/2017
 ms.topic: landing-page

@@ -8,9 +8,9 @@ dev_langs:
 helpviewer_keywords: 
   - "SharePoint development in Visual Studio, extending deployment"
   - "SharePoint development in Visual Studio, validation rules"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

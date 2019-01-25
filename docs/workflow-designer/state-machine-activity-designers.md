@@ -5,7 +5,7 @@ ms.topic: reference
 ms.prod: visual-studio-dev15
 ms.assetid: 97f0bff5-7e48-4914-8f04-8015a1c6bfae
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 author: gewarren

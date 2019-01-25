@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "customHostSpecified element"
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
   - "office"
 ---

@@ -7,7 +7,7 @@ ms.custom: get-started
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - VB
 ms.workload:

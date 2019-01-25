@@ -8,7 +8,7 @@ helpviewer_keywords:
   - "PROCESS_INFO_FLAGS enumeration"
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: douge
+manager: jillfra
 ms.workload: 
   - "vssdk"
 ---

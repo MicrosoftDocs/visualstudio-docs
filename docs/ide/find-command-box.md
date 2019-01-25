@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "Find/Command box"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

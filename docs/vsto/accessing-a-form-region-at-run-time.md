@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "form regions [Office development in Visual Studio], accessing at runtime"
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
   - "office"
 ---

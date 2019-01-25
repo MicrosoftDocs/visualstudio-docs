@@ -7,7 +7,7 @@ dev_langs:
   - "C++"
 author: "corob-msft"
 ms.author: "corob"
-manager: douge
+manager: jillfra
 ms.workload: ["vssdk"]
 ---
 # Visual Studio C++ Project system extensibility and toolset integration

@@ -8,9 +8,9 @@ dev_langs:
 helpviewer_keywords: 
   - "resource files [SharePoint development in Visual Studio]"
   - "SharePoint development in Visual Studio, resource files"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

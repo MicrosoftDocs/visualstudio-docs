@@ -6,7 +6,7 @@ ms.topic: reference
 helpviewer_keywords:
   - "coded UI tests"
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 author: gewarren

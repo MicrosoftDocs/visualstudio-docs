@@ -5,7 +5,7 @@ ms.topic: "conceptual"
 ms.assetid: 367c2ec8-3059-46a5-9d1c-57bead0419e7
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: douge
+manager: jillfra
 ms.workload:
   - "vssdk"
 ---

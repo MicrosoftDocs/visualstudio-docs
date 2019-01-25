@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "columns [Office development in Visual Studio], adding to Word tables"
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload: 
   - "office"
 ---

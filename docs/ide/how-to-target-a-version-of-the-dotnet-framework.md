@@ -8,7 +8,7 @@ helpviewer_keywords:
   - ".NET Framework version [Visual Studio]"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "dotnet"
 ---

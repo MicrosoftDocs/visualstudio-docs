@@ -10,7 +10,7 @@ dev_langs:
 ms.assetid: 2d9a177a-e14b-404f-a6af-49498eff0bd7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: jillfra
 ms.workload: 
   - "cplusplus"
 ---
@@ -20,10 +20,6 @@ The Visual Studio *Natvis* framework customizes the way native types appear in d
 
 Natvis replaces the *autoexp.dat* file in earlier versions of Visual Studio with XML syntax, better diagnostics, versioning, and multiple file support.  
 
-Natvis does not work for:
-
-- C++ Windows desktop projects with **Debugger Type** set to **Mixed** under **Configuration Properties** > **Debugging**. 
-- [Mixed-mode debugging](how-to-debug-in-mixed-mode.md) for Windows desktop apps in managed compatibility mode (**Tools** > **Options** > **Debugging** > **General** > **Use Managed Compatibility Mode**).
 
 ## <a name="BKMK_Why_create_visualizations_"></a>Natvis visualizations
 

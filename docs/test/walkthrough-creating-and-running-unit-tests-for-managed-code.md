@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "unit tests, running"
   - "unit tests, authoring"
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "dotnet"
 author: gewarren

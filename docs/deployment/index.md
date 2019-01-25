@@ -7,7 +7,7 @@ ms.topic: landing-page
 ms.prod: visual-studio-dev15
 ms.author: "mikejo"
 author: "mikejo5000"
-manager: douge
+manager: jillfra
 ---
 # Deployment in Visual Studio
 

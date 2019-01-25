@@ -6,7 +6,7 @@ dev_langs:
   - "CPP"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.prod: visual-studio-dev15
 ms.workload:
   - "data-storage"

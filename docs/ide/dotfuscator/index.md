@@ -16,7 +16,7 @@ description: "Learn how you can protect your .NET applications with the free Dot
 ms.assetid: d9550502-0a82-49a6-b005-2caa791fbe02
 author: "Joe-Sewell-PreEmptive"
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ---
 # Dotfuscator Community Edition (CE)
 

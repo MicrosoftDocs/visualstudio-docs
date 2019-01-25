@@ -6,7 +6,7 @@ helpviewer_keywords:
   - "Domain-Specific Language, events"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ms.prod: visual-studio-dev15

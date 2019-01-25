@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "modeling software [Visual Studio ALM], What's New"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
