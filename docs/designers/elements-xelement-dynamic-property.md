@@ -9,7 +9,7 @@ apitype: "Assembly"
 ms.assetid: 3d5737f2-d2ed-410a-821c-349dbb2b574f
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

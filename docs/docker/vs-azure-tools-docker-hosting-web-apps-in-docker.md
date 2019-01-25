@@ -4,7 +4,7 @@ description: Learn how to use Visual Studio Tools for Docker to deploy an ASP.NE
 services: azure-container-service
 documentationcenter: .net
 author: mlearned
-manager: douge
+manager: jillfra
 ms.assetid: e5e81c5e-dd18-4d5a-a24d-a932036e78b9
 ms.service: azure-container-service
 ms.devlang: dotnet
