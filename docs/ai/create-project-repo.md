@@ -38,7 +38,7 @@ Once you've [installed Visual Studio Tools for AI](installation.md), you can eas
 
 8. In Solution Explorer, expand the `TensorFlow Examples> MNIST` node, right-click `convolutional.py`, and select **Set as Startup File**. This step tells Visual Studio which file it should use when running the project.
 
-9. Press **Ctrl**+**F5** or select **Debug > Start Without Debugging** to run the program. If you see an `, recheck the working directory setting in the previous step.
+9. Press **Ctrl**+**F5** or select **Debug > Start Without Debugging** to run the program. If you see an error, recheck the working directory setting in the previous step.
 
 10. When the program runs successfully, you'll see it start to download your training and test dataset, then train the model and output your error rate. You want error rate to decrease over time
 
