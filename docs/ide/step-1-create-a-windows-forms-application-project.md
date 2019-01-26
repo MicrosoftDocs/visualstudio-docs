@@ -22,14 +22,14 @@ When you create a picture viewer, the first step is to create a Windows Forms Ap
 1. On the menu bar, choose **File** > **New** > **Project**. The dialog box should look like this.
 
      ![New project dialog](../ide/media/newprojectdialogcallouts.png)<br/>
-**New project** dialog box
+***New project** dialog box*
 
 2. Choose either **Visual C#** or **Visual Basic** on the left side of the **New Project** dialog box.
 
 3. In the templates list, choose **Windows Forms App (.NET Framework)**. Name the new form **PictureViewer**, and then choose the **OK** button.
 
     >[!NOTE]
-    >If you don't see the **Windows Forms App (.NET Framework)** template, use the Visual Studio Installer to install the **.NET desktop development** workload.<br/><br/>![.NET desktop development workload in the Visual Studio Installer](../ide/media/dot-net-desktop-dev-workload.png)<br/><br/> For more information, see the [Install Visual Studio 2017](./install/install-visual-studio.md) page.
+    >If you don't see the **Windows Forms App (.NET Framework)** template, use the Visual Studio Installer to install the **.NET desktop development** workload.<br/><br/>![.NET desktop development workload in the Visual Studio Installer](../ide/media/dot-net-desktop-dev-workload.png)<br/><br/> For more information, see the [Install Visual Studio 2017](../install/install-visual-studio.md) page.
 
      Visual Studio creates a solution for your program. A solution acts as a container for all of the projects and files needed by your program. These terms will be explained in more detail later in this tutorial.
 
@@ -38,7 +38,7 @@ When you create a picture viewer, the first step is to create a Windows Forms Ap
     > [!NOTE]
     > Your window layout may not look exactly like this illustration. The precise window layout depends on the version of Visual Studio, the programming language you are using, and other factors. However, you should verify that all three windows appear.
 
-     ![IDE window](../ide/media/express_ideoverview_visio.png)<br/>**IDE** window
+     ![IDE window](../ide/media/express_ideoverview_visio.png)<br/>***IDE** window*
 
      The interface contains three windows: a main window, **Solution Explorer**, and the **Properties** window.
 
@@ -60,7 +60,7 @@ When you create a picture viewer, the first step is to create a Windows Forms Ap
      As an alternative, choose the **Save All** button on the toolbar, which the following illustration shows.
 
      ![Save All toolbar button](../ide/media/express_iconsaveall.png)<br/>
-**Save All** toolbar button
+***Save All** toolbar button*
 
      Visual Studio automatically fills in the folder name and the project name and then saves the project in your projects folder.
 
