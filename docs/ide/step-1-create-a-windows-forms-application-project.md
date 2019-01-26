@@ -1,6 +1,6 @@
 ---
 title: "Step 1: Create a Windows Forms Application project"
-ms.date: 11/04/2016
+ms.date: 01/26/2019
 ms.prod: visual-studio-dev15
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
@@ -12,6 +12,7 @@ ms.workload:
   - "multiple"
 ---
 # Step 1: Create a Windows Forms Application project
+
 When you create a picture viewer, the first step is to create a Windows Forms Application project.
 
  ![link to video](../data-tools/media/playvideo.gif)For a video version of this topic, see [Tutorial 1: Create a picture viewer in Visual Basic - Video 1](http://go.microsoft.com/fwlink/?LinkId=205209) or [Tutorial 1: Create a picture viewer in C# - Video 1](http://go.microsoft.com/fwlink/?LinkId=205199). These videos use an earlier version of Visual Studio, so there are slight differences in some menu commands and other user interface elements. However, the concepts and procedures work similarly in the current version of Visual Studio.
@@ -20,12 +21,17 @@ When you create a picture viewer, the first step is to create a Windows Forms Ap
 
 1.  On the menu bar, choose **File** > **New** > **Project**. The dialog box should look like this.
 
-     ![New project dialog](../ide/media/newprojectdialogcallouts.png)
+     ![New project dialog](../ide/media/newprojectdialogcallouts.png)<br/>
 **New project** dialog box
 
-2.  Choose either **Visual C#** or **Visual Basic** in the **Installed Templates** list.
+2.  Choose either **Visual C#** or **Visual Basic** on the left side of the **New Project** dialog box.
 
-3.  In the templates list, choose the **Windows Forms Application** icon. Name the new form **PictureViewer**, and then choose the **OK** button.
+3.  In the templates list, choose **Windows Forms App (.NET Framework)**. Name the new form **PictureViewer**, and then choose the **OK** button.
+
+    >[!NOTE]
+    >If you don't see the **Windows Forms App (.NET Framework)**, use the Visual Studio Installer to install the **.NET desktop development** workload.<br/><br/>
+       ![.NET desktop development workload in the Visual Studio Installer](../ide/media/dot-net-desktop-dev-workload)<br/><br/>
+    For more information, see the [Install Visual Studio 2017](./install/install-visual-studio.md) page.
 
      Visual Studio creates a solution for your program. A solution acts as a container for all of the projects and files needed by your program. These terms will be explained in more detail later in this tutorial.
 
