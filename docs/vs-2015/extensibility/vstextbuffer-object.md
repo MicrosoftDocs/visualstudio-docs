@@ -1,14 +1,9 @@
 ---
 title: "VSTextBuffer Object | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 f1_keywords: 
   - "VSTextBuffer"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: c5f94b45-7249-4e1f-a53d-1d2a1c61e0ef
 caps.latest.revision: 10
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # VSTextBuffer Object
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -47,5 +42,4 @@ The text buffer object represents a stream of Unicode text, which is generally a
 ## See Also  
  <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBuffer>   
  <xref:Microsoft.VisualStudio.TextManager.Interop.VsTextView>   
- [Figures Edit](http://msdn.microsoft.com/en-us/f08872bd-fd9c-4e36-8cf2-a2a2622ef986)
-
+ [Figures Edit](http://msdn.microsoft.com/f08872bd-fd9c-4e36-8cf2-a2a2622ef986)

@@ -1,13 +1,9 @@
 ---
 title: "Cross-Platform Mobile Development"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: "tgt-pltfrm-cross-plat"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-mobile
+ms.topic: conceptual
 ms.assetid: 8202717a-e990-45cf-b092-438651ccb38a
 caps.latest.revision: 66
 ms.author: crdun
@@ -115,7 +111,7 @@ You can build apps for Android, iOS, and Windows devices by using Visual Studio.
 |**Learn more**|
 |--------------------|
 |[Install Visual Studio](http://www.visualstudio.com/products/visual-studio-community-vs) (VisualStudio.com)|
-|[Get started with Visual Studio Tools for Apache Cordova](http://taco.visualstudio.com/en-us/docs/get-started-vs-tools-apache-cordova/) (taco.visualstudio.com)|
+|[Get started with Visual Studio Tools for Apache Cordova](http://taco.visualstudio.com/docs/get-started-vs-tools-apache-cordova/) (taco.visualstudio.com)|
 |[Learn about the Visual Studio Emulator for Android](http://www.visualstudio.com/explore/msft-android-emulator-vs) (VisualStudio.com)|
 
 ##  <a name="CPP"></a> Build an app for Android and Windows (C++)
@@ -161,7 +157,7 @@ You can build apps for Android, iOS, and Windows devices by using Visual Studio.
 
 |**Learn more**|
 |--------------------|
-|[Learn more about building Unity games with Visual Studio](https://www.visualstudio.com/en-us/features/unitytools-vs.aspx)|
+|[Learn more about building Unity games with Visual Studio](https://www.visualstudio.com/features/unitytools-vs.aspx)|
 |[Read more about Visual Studio Tools for Unity](../cross-platform/visual-studio-tools-for-unity.md) (MSDN Library)|
 |[Start using Visual Studio Tools for Unity](../cross-platform/getting-started-with-visual-studio-tools-for-unity.md) (MSDN Library)|
 |[Read about the latest enhancements to the Visual Studio Tools for Unity 2.0 Preview](http://blogs.msdn.com/b/visualstudio/archive/2014/12/03/visual-studio-tools-for-unity-2-0-preview.aspx) (Visual Studio blog)|

@@ -1,20 +1,15 @@
 ---
 title: "Enumerators | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "source control plug-ins, enumerators"
 ms.assetid: a60030c5-e1d1-47e1-84bb-cbfe838ab479
 caps.latest.revision: 20
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Enumerators
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -49,4 +44,3 @@ This section lists the enumerator data types in the Source Control Plug-in API t
   
  [Source Control Plug-ins](../extensibility/source-control-plug-ins.md)  
  Provides a complete listing of all the elements in the Source Control Plug-in API.
-

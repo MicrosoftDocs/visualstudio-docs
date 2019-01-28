@@ -1,12 +1,9 @@
 ---
 title: "Validate data in datasets | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 f1_keywords: 
   - "DataTable.ColumnChanging"
   - "System.Data.DataTable.ColumnChanging"
@@ -26,7 +23,7 @@ ms.assetid: 79500596-1e4d-478e-a991-a636fd73a622
 caps.latest.revision: 27
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Validate data in datasets
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

@@ -10,9 +10,9 @@ helpviewer_keywords:
   - "smart documents, walkthroughs"
   - "walkthroughs [Office development in Visual Studio], smart tags"
   - "walkthroughs [Office development in Visual Studio], action panes"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

@@ -1,14 +1,9 @@
 ---
 title: "IDebugCoreServer2::GetMachineName | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugCoreServer2::GetName"
 helpviewer_keywords: 
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 693bd794-7215-4f07-8651-b57366d39953
 caps.latest.revision: 12
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # IDebugCoreServer2::GetMachineName
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -46,4 +41,3 @@ int GetName( 
   
 ## See Also  
  [IDebugCoreServer2](../../../extensibility/debugger/reference/idebugcoreserver2.md)
-

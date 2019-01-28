@@ -139,8 +139,8 @@ ms.custom: seodec18
                                                                 </li>
                                                                 <li>
                                                                     <a class="barLink" href="/visualstudio/javascript/">
-                                                                        <img src="https://docs.microsoft.com/media/logos/logo_nodejs.svg" alt="Node.js icon">
-                                                                        Node.js</a>
+                                                                        <img src="https://docs.microsoft.com/media/logos/logo_js.svg" alt="JavaScript logo">
+                                                                        JavaScript</a>
                                                                 </li>
                                                             </ul>
                                                         </td>
@@ -525,7 +525,7 @@ ms.custom: seodec18
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <a href="/scripting/">
+                                                <a href="/visualstudio/javascript/">
                                                     <h3>JavaScript</h3>
                                                     <p>A lightweight, cross-platform, scripting language often used to help make web pages more interactive.</p>
                                                 </a>

@@ -266,5 +266,5 @@ Congratulations on completing this walkthrough! You can find the *.exe* you buil
 
 ## See also
 
-- [What's new in Visual Studio 2017](../../ide/whats-new-in-visual-studio.md)
+- [What's new in Visual Studio 2017](../../ide/whats-new-visual-studio.md)
 - [Productivity tips](../../ide/productivity-tips-for-visual-studio.md)

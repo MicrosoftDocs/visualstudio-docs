@@ -1,20 +1,15 @@
 ---
 title: "Generate unit tests for your code with IntelliTest | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 f1_keywords: 
   - "vs.UnitTest.CreateIntelliTest"
 ms.assetid: cd9ff940-e948-4d28-a72c-b291ef5c1e90
 caps.latest.revision: 35
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Generate unit tests for your code with IntelliTest
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -134,6 +129,3 @@ IntelliTest explores your .NET code to generate test data and a suite of unit te
   
 ### Q: Can I learn more about how the tests are generated?  
  **A:** Yes, to get a high-level overview, read this [blog post](http://blogs.msdn.com/b/visualstudioalm/archive/2015/07/05/intellitest-one-test-to-rule-them-all.aspx).
-
-
-

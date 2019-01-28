@@ -1,14 +1,9 @@
 ---
 title: "Properties Window | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 helpviewer_keywords: 
   - "properties [Visual Studio], Properties Window"
   - "handler functions, Properties window"
@@ -25,7 +20,7 @@ ms.assetid: e6e0fa4f-75c4-4a52-af15-281cd61876ca
 caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Properties Window
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -87,6 +82,3 @@ Use this window to view and change the design-time properties and events of sele
 ## See Also  
  [Project Properties Reference](../../ide/reference/project-properties-reference.md)   
  [Customizing window layouts](../../ide/customizing-window-layouts-in-visual-studio.md)
-
-
-

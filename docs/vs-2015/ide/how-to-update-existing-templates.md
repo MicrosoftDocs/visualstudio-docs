@@ -1,14 +1,9 @@
 ---
 title: "How to: Update Existing Templates | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "item templates, updating existing templates"
   - "Visual Studio templates, updating existing templates"
@@ -17,7 +12,7 @@ ms.assetid: d585e45b-7fe2-45fa-9cf3-7f2bc060f3c4
 caps.latest.revision: 22
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Update Existing Templates
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -68,6 +63,3 @@ After you create a template and compress the files into a .zip file, you may wan
  [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)   
  [Template Parameters](../ide/template-parameters.md)   
  [How to: Create Starter Kits](../ide/how-to-create-starter-kits.md)
-
-
-

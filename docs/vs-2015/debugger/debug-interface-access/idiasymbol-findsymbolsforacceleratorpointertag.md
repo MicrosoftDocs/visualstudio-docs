@@ -1,21 +1,16 @@
 ---
 title: "IDiaSymbol::findSymbolsForAcceleratorPointerTag | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 ms.assetid: fb66852c-c5f7-4140-b9fe-20cb4e51a9fe
 caps.latest.revision: 6
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # IDiaSymbol::findSymbolsForAcceleratorPointerTag
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -43,6 +38,3 @@ HRESULT findSymbolsForAccleratorPointerTag (
 ## See Also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
  [IDiaEnumSymbols](../../debugger/debug-interface-access/idiaenumsymbols.md)
-
-
-

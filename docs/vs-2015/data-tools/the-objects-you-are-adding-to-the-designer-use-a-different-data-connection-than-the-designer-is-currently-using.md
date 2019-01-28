@@ -1,17 +1,14 @@
 ---
 title: "The objects you are adding to the designer use a different data connection than the designer is currently using | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 ms.assetid: 332ed2f3-3377-4d51-8e3b-fdb98231978e
 caps.latest.revision: 7
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # The objects you are adding to the designer use a different data connection than the designer is currently using
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

@@ -1,14 +1,9 @@
 ---
 title: "How to: Find Topics in the Table of Contents | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 f1_keywords: 
   - "hv_contents"
 helpviewer_keywords: 
@@ -20,7 +15,7 @@ ms.assetid: 8b98464d-2b05-4710-ad68-5647e78c6b7b
 caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Find Topics in the Table of Contents
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -56,6 +51,3 @@ In the **Contents** tab, you can use the table of contents (TOC) to find informa
 ## See Also  
  [Locate Information](../ide/locate-information.md)   
  [Microsoft Help Viewer](../ide/microsoft-help-viewer.md)
-
-
-

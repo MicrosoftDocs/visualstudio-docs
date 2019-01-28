@@ -1,21 +1,16 @@
 ---
 title: "Intercepting Legacy Language Service Commands | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "commands, intercepting language service"
   - "language services, intercepting commands"
 ms.assetid: eea69f03-349c-44bb-bd4f-4925c0dc3e55
 caps.latest.revision: 14
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Intercepting Legacy Language Service Commands
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -38,4 +33,3 @@ With [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)], you can have the language 
 - Ignore the command. Do not handle it in the current filter, and do not pass it on to the next filter.  
   
   For information about which commands your language service should handle, see [Important Commands for Language Service Filters](../../extensibility/internals/important-commands-for-language-service-filters.md).
-

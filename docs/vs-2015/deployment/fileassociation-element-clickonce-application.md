@@ -1,14 +1,9 @@
 ---
 title: "&lt;fileAssociation&gt; Element (ClickOnce Application) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -20,7 +15,7 @@ ms.assetid: 8f951b4f-54f9-412e-a9e5-af4e379fcf08
 caps.latest.revision: 10
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # &lt;fileAssociation&gt; Element (ClickOnce Application)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -82,6 +77,3 @@ Identifies a file extension to be associated with the application.
   
 ## See Also  
  [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md)
-
-
-

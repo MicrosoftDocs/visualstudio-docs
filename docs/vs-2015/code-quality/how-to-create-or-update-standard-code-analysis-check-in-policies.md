@@ -1,14 +1,9 @@
 ---
 title: "How to: Create or Update Standard Code Analysis Check-in Policies | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 f1_keywords: 
   - "vs.codeanalysis.policyeditor"
 helpviewer_keywords: 
@@ -73,6 +68,3 @@ You can require that code analysis be run on all code projects in a team project
   
 ## See Also  
  [Creating and Using Code Analysis Check-In Policies](../code-quality/creating-and-using-code-analysis-check-in-policies.md)
-
-
-

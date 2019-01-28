@@ -1,14 +1,9 @@
 ---
 title: "Visualizer Architecture | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -18,7 +13,7 @@ ms.assetid: 6aad395f-7170-4d9e-b2b8-a5faf453380e
 caps.latest.revision: 20
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Visualizer Architecture
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -93,6 +88,3 @@ The architecture of a debugger visualizer has two parts:
  [Walkthrough: Writing a Visualizer in Visual Basic](../debugger/walkthrough-writing-a-visualizer-in-visual-basic.md)   
  [Walkthrough: Writing a Visualizer in Visual Basic](../debugger/walkthrough-writing-a-visualizer-in-visual-basic.md)   
  [Visualizer Security Considerations](../debugger/visualizer-security-considerations.md)
-
-
-

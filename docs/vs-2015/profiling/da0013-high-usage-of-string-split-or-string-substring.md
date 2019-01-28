@@ -1,14 +1,9 @@
 ---
 title: "DA0013: High usage of String.Split or String.Substring | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 f1_keywords: 
   - "vs.performance.13"
   - "vs.performance.rules.DAAvoidStringSubstr"
@@ -21,7 +16,7 @@ ms.assetid: f501f423-bef9-4e08-bf96-c9ac9957e5a2
 caps.latest.revision: 19
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # DA0013: High usage of String.Split or String.Substring
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,6 +37,3 @@ Rule Id|DA0013|
   
 ## How to Investigate a Warning  
  Double-click the message in the Error List window to navigate to the [Function Details View](../profiling/function-details-view.md) of the sampling profile data. Examine the calling functions to find the sections of the program that make the most frequent use of the System.String.Split or System.String.Substr methods. If it is possible, use either the IndexOf or IndexOfAny method to locate a specific substring within a character String without creating a new instance of the String class.
-
-
-

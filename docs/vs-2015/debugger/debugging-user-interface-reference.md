@@ -1,14 +1,9 @@
 ---
 title: "Debugging User Interface Reference | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 f1_keywords: 
   - "vs.debug.uiref"
 dev_langs: 
@@ -26,7 +21,7 @@ ms.assetid: 57f1cad8-c908-42bf-8ec5-6eb567df08e9
 caps.latest.revision: 13
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Debugging User Interface Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -50,6 +45,3 @@ You may encounter the following dialog boxes as you debug your application.
 ## See Also  
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)   
  [Command Window](../ide/reference/command-window.md)
-
-
-

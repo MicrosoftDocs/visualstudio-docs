@@ -1,14 +1,9 @@
 ---
 title: "Build Events Page, Project Designer (C#) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "cs.ProjectPropertiesBuildEvents"
 helpviewer_keywords: 
@@ -20,7 +15,7 @@ ms.assetid: 3fff9ae5-213c-46ea-a660-1d70acb6c922
 caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Build Events Page, Project Designer (C#)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -61,6 +56,3 @@ Use the **Build Events** page of the **Project Designer** to specify build confi
  [How to: Specify Build Events (C#)](../../ide/how-to-specify-build-events-csharp.md)   
  [Project Properties Reference](../../ide/reference/project-properties-reference.md)   
  [Compiling and Building](../../ide/compiling-and-building-in-visual-studio.md)
-
-
-

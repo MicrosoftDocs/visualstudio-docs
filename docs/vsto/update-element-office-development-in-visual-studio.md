@@ -9,9 +9,9 @@ helpviewer_keywords:
   - "update element"
   - "<update> element"
   - "application manifests [Office development in Visual Studio], <update> element"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
   - "office"
 ---

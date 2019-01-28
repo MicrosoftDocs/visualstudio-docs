@@ -9,9 +9,9 @@ helpviewer_keywords:
   - "ClickOnce deployment [Office development in Visual Studio], troubleshooting"
   - "Office development in Visual Studio, troubleshooting"
   - "deploying applications [Office development in Visual Studio], troubleshooting"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
   - "office"
 ---

@@ -1,19 +1,16 @@
 ---
 title: "Properties of Domain Relationships | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: reference
 helpviewer_keywords: 
   - "Domain-Specific Language, domain relationships"
 ms.assetid: 9ccb3dc2-b80c-4585-932f-3c5f87bafbcd
 caps.latest.revision: 22
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Properties of Domain Relationships
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,7 +35,4 @@ The properties in the following table are associated with a domain relationship.
 |Help Keyword|The optional keyword that is used to index F1 help for the domain relationship.|\<none>|  
   
 ## See Also  
- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/en-us/ca5e84cb-a315-465c-be24-76aa3df276aa)
-
-
-
+ [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

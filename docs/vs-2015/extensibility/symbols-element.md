@@ -1,21 +1,16 @@
 ---
 title: "Symbols Element | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 helpviewer_keywords: 
   - "Symbols element (VSCT XML schema)"
   - "VSCT XML schema elements, Symbols"
 ms.assetid: 1cda43d8-42a5-4b1b-a3c8-cf0401c3202f
 caps.latest.revision: 8
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Symbols Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -72,4 +67,3 @@ Defines GUIDs and IDs that are used by other VSCT elements. For unmanaged code, 
   
 ## See Also  
  [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
-

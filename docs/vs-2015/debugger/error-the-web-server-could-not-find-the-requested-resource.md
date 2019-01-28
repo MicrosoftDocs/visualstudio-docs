@@ -1,14 +1,9 @@
 ---
 title: "Error: The Web Server Could Not Find the Requested Resource | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -20,7 +15,7 @@ ms.assetid: 1ceeaf30-918c-42bb-ace1-96944530fef3
 caps.latest.revision: 12
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Error: The Web Server Could Not Find the Requested Resource
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,6 +31,3 @@ Due to security considerations, IIS has returned a generic error.
 ## See Also  
  [UrlScan Security Tool](http://www.microsoft.com/technet/security/tools/urlscan.mspx)   
  [Error: The Web Server Has Been Locked Down and Is Blocking the DEBUG Verb](../debugger/error-the-web-server-has-been-locked-down-and-is-blocking-the-debug-verb.md)
-
-
-

@@ -1,14 +1,9 @@
 ---
 title: "MSBuild Best Practices | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: reference
 helpviewer_keywords: 
   - "best practices, MSBuild"
   - "MSBuild, best practices"
@@ -16,7 +11,7 @@ ms.assetid: 90ef8693-e921-410a-a377-fe4d13f58c48
 caps.latest.revision: 8
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # MSBuild Best Practices
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,6 +31,3 @@ We recommend the following best practices for writing MSBuild scripts:
   
 ## See Also  
  [Advanced Concepts](../msbuild/msbuild-advanced-concepts.md)
-
-
-

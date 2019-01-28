@@ -1,14 +1,9 @@
 ---
 title: "Debugger Security | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -22,7 +17,7 @@ ms.assetid: d4fc3c43-e844-419c-8dbb-551cc2a9b09e
 caps.latest.revision: 21
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Debugger Security
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -59,7 +54,7 @@ The ability to debug another process gives you extremely broad powers that you w
  For more information, see [Remote Debugging](../debugger/remote-debugging.md).  
   
 ### Web Services Debugging Security  
- It is safer to debug locally, but since you probably do not have [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] installed on the web server, local debugging might not be practical. Generally, debugging Web services is done remotely, except during development, so the recommendations for remote debugging security also apply to Web services debugging. Here are some additional best practices. For more information, see [Debugging XML Web Services](http://msdn.microsoft.com/en-us/c900b137-9fbd-4f59-91b5-9c2c6ce06f00).  
+ It is safer to debug locally, but since you probably do not have [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] installed on the web server, local debugging might not be practical. Generally, debugging Web services is done remotely, except during development, so the recommendations for remote debugging security also apply to Web services debugging. Here are some additional best practices. For more information, see [Debugging XML Web Services](http://msdn.microsoft.com/c900b137-9fbd-4f59-91b5-9c2c6ce06f00).  
   
 -   Do not enable debugging on a Web server that has been compromised.  
   
@@ -84,8 +79,3 @@ The ability to debug another process gives you extremely broad powers that you w
  [Debugger Basics](../debugger/debugger-basics.md)   
  [Security Warning: Attaching to a process owned by an untrusted user can be dangerous. If the following information looks suspicious or you are unsure, do not attach to this process](/visualstudio/debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user?view=vs-2015)   
  [Security Warning: Debugger Must Execute Untrusted Command](../debugger/security-warning-debugger-must-execute-untrusted-command.md)
-
-
-
-
-

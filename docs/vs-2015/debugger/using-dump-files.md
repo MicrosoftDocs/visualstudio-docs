@@ -1,14 +1,9 @@
 ---
 title: "Using Dump Files | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.debug.crashdump"
 dev_langs: 
@@ -29,7 +24,7 @@ ms.assetid: b71be6dc-57e0-4730-99d2-b540a0863e49
 caps.latest.revision: 56
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Using Dump Files
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -141,4 +136,3 @@ Dump files with or without heaps; create a dump file; open a dump file; find the
  [Just-In-Time Debugging](../debugger/just-in-time-debugging-in-visual-studio.md)   
  [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)   
  [IntelliTrace](../debugger/intellitrace.md)
-

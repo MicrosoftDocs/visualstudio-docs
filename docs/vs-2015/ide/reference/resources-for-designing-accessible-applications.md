@@ -1,14 +1,9 @@
 ---
 title: "Resources for Designing Accessible Applications | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 helpviewer_keywords: 
   - "accessibility, Windows applications"
   - "Windows applications, accessibility"
@@ -18,7 +13,7 @@ ms.assetid: 426bf023-bb34-43c4-9edb-c307191c8170
 caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Resources for Designing Accessible Applications
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -58,6 +53,3 @@ Use the following links to find information about technologies that support acce
   
 ## See Also  
  [Accessibility Features of Visual Studio](../../ide/reference/accessibility-features-of-visual-studio.md)
-
-
-

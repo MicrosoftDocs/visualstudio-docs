@@ -1,20 +1,15 @@
 ---
 title: "IDebugSettingsCallback2::GetMetricGuid | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 helpviewer_keywords: 
   - "IDebugSettingsCallback2::GetMetricGuid"
 ms.assetid: 91092763-3362-4857-adf0-231bc1254206
 caps.latest.revision: 9
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # IDebugSettingsCallback2::GetMetricGuid
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -59,4 +54,3 @@ private int GetMetricGuid(
   
 ## See Also  
  [IDebugSettingsCallback2](../../../extensibility/debugger/reference/idebugsettingscallback2.md)
-

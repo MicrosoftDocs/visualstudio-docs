@@ -1,12 +1,9 @@
 ---
 title: "Create lookup tables in WPF applications | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -24,7 +21,7 @@ ms.assetid: 56a1fbff-c7e8-4187-a1c1-ffd17024bc1b
 caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Create lookup tables in WPF applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

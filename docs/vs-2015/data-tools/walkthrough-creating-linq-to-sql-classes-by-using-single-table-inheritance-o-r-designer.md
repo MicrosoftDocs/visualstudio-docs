@@ -1,17 +1,14 @@
 ---
 title: "Walkthrough: Creating LINQ to SQL Classes by Using Single-Table Inheritance (O-R Designer) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 ms.assetid: 63bc6328-e0df-4655-9ce3-5ff74dbf69a4
 caps.latest.revision: 7
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Walkthrough: Creating LINQ to SQL Classes by Using Single-Table Inheritance (O/R Designer)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -191,4 +188,3 @@ The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visu
  [How to: Assign stored procedures to perform updates, inserts, and deletes (O/R Designer)](../data-tools/how-to-assign-stored-procedures-to-perform-updates-inserts-and-deletes-o-r-designer.md)   
  [LINQ to SQL](http://msdn.microsoft.com/library/73d13345-eece-471a-af40-4cc7a2f11655)   
  [How to: Generate the Object Model in Visual Basic or C#](http://msdn.microsoft.com/library/a0c73b33-5650-420c-b9dc-f49310c201ee)
-

@@ -10,9 +10,9 @@ helpviewer_keywords:
   - "Outlook [Office development in Visual Studio], unread mail"
   - "unread e-mail"
   - "mail items [Office development in Visual Studio], unread mail"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

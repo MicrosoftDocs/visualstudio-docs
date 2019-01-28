@@ -1,14 +1,9 @@
 ---
 title: "References Element (Visual Studio Templates) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/vstemplate/2005#References"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: 1969146d-46bf-422d-8d46-0e9493925003
 caps.latest.revision: 9
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # References Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -85,4 +80,3 @@ Groups the assembly references that the template adds to projects.
 ## See Also  
  [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)   
  [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)
-

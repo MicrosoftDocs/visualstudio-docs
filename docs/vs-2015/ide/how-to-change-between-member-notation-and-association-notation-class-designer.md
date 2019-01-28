@@ -1,14 +1,9 @@
 ---
 title: "How to: Change Between Member Notation and Association Notation (Class Designer) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "notation, member"
   - "association notation"
@@ -18,7 +13,7 @@ ms.assetid: 65881c5a-d251-4a36-ad0d-73d088436092
 caps.latest.revision: 25
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Change Between Member Notation and Association Notation (Class Designer)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -50,6 +45,3 @@ In Class Designer, you can change the way the class diagram represents an associ
  [How to: View Inheritance Between Types (Class Designer)](../ide/how-to-view-inheritance-between-types-class-designer.md)   
  [Viewing Types and Relationships (Class Designer)](../ide/viewing-types-and-relationships-class-designer.md)   
  [How to: Visualize a Collection Association (Class Designer)](../ide/how-to-visualize-a-collection-association-class-designer.md)
-
-
-

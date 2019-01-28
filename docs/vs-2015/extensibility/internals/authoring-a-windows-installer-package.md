@@ -1,21 +1,16 @@
 ---
 title: "Authoring a Windows Installer Package | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - ".msi files, VSPackages"
   - "msi files, VSPackages"
 ms.assetid: 0ce7c21d-0d3f-47fe-a0bb-eed506e32609
 caps.latest.revision: 21
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Authoring a Windows Installer Package
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -52,4 +47,3 @@ Data drives the Windows Installer model. Rather than writing a procedural script
   
 ## See Also  
  [Installing VSPackages With Windows Installer](../../extensibility/internals/installing-vspackages-with-windows-installer.md)
-

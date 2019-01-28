@@ -1,18 +1,14 @@
 ---
 title: "JavaScript"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: "devlang-javascript"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-javascript
+ms.topic: conceptual
 ms.assetid: f3eee13e-30e4-4bc1-81f5-058d7e379b75
 caps.latest.revision: 18
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # JavaScript in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -25,7 +21,7 @@ JavaScript is a first-class language in Visual Studio. You can use most or all o
 
 - To create cross-platform apps using Apache Cordova, [get the Visual Studio Tools for Apache Cordova](http://go.microsoft.com/fwlink/p/?LinkId=397606).
 
-- To create [Windows Store](http://dev.windows.com/develop), [Windows Phone](http://dev.windows.com/develop), and universal apps (that support both platforms), [get the tools](http://dev.windows.com/en-us/develop/downloads).
+- To create [Windows Store](http://dev.windows.com/develop), [Windows Phone](http://dev.windows.com/develop), and universal apps (that support both platforms), [get the tools](http://dev.windows.com/develop/downloads).
 
 - To create cloud-based services, see the [Microsoft Azure site](http://azure.microsoft.com/documentation/).
 

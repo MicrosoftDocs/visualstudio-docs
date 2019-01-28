@@ -1,14 +1,9 @@
 ---
 title: "IDiaSectionContrib::get_informational | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ ms.assetid: 5351e89f-7db1-4f8e-9e57-2dd1c74002e0
 caps.latest.revision: 8
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # IDiaSectionContrib::get_informational
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -44,6 +39,3 @@ HRESULT get_informational(
   
 ## See Also  
  [IDiaSectionContrib](../../debugger/debug-interface-access/idiasectioncontrib.md)
-
-
-

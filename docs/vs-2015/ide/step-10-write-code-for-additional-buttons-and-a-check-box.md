@@ -1,19 +1,14 @@
 ---
 title: "Step 10: Write Code for Additional Buttons and a Check Box | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 ms.assetid: 185cf370-ab39-4ac0-b6bc-601d5b95a4a2
 caps.latest.revision: 23
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Step 10: Write Code for Additional Buttons and a Check Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -39,6 +34,3 @@ Now you're ready to complete the other four methods. You could copy and paste th
 -   To go to the next tutorial step, see [Step 11: Run Your Program and Try Other Features](../ide/step-11-run-your-program-and-try-other-features.md).  
   
 -   To return to the previous tutorial step, see [Step 9: Review, Comment, and Test Your Code](../ide/step-9-review-comment-and-test-your-code.md).
-
-
-

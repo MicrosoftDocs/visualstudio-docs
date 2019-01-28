@@ -1,20 +1,15 @@
 ---
 title: "Interfaces (Visual Studio Debugging) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 helpviewer_keywords: 
   - "debugging [Debugging SDK], interfaces"
 ms.assetid: 79875cbb-f946-49d4-94eb-941d0e1a40b2
 caps.latest.revision: 12
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Interfaces (Visual Studio Debugging)
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -37,4 +32,3 @@ Methods are listed alphabetically under each interface in the table of contents 
   
 ## See Also  
  [API Reference](../../../extensibility/debugger/reference/api-reference-visual-studio-debugging.md)
-

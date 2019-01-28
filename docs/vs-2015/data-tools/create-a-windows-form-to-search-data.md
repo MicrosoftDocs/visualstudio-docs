@@ -1,12 +1,9 @@
 ---
 title: "Create a Windows Form to search data | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -22,7 +19,7 @@ ms.assetid: 65ca79a9-7458-466c-af55-978cd24c549e
 caps.latest.revision: 31
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Create a Windows Form to search data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

@@ -1,21 +1,16 @@
 ---
 title: "VSCT Compiler Command-Line Flags | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "VSCT files, compiling"
   - "command-table file compilation (VSCT files)"
 ms.assetid: 9dc6c33f-e6cf-4cf2-9b05-e8f7bfac1cfb
 caps.latest.revision: 11
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # VSCT Compiler Command-Line Flags
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -79,4 +74,3 @@ Syntax: vsct <infile> [<outfile>] [-S[symbols file]] [-D<preprocessor-define>]*
  [Visual Studio Command Table (.Vsct) Files](../../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)   
  [VSCT XML Schema Reference](../../extensibility/vsct-xml-schema-reference.md)   
  [How VSPackages Add User Interface Elements](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)
-

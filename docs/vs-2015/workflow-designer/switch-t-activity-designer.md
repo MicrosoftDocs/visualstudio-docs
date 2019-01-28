@@ -1,11 +1,8 @@
 ---
 title: "Switch&lt;T&gt; Activity Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: ".net-framework-4.6"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: "reference"
 f1_keywords: 
   - "System.Activities.Presentation.ModelItemKeyValuePair.UI"
@@ -14,7 +11,7 @@ ms.assetid: 18a6c96e-49a9-4356-ab61-fbd7e3ab44bb
 caps.latest.revision: 3
 author: gewarren
 ms.author: gewarren
-manager: "erikre"
+manager: jillfra
 ---
 # Switch&lt;T&gt; Activity Designer
 The <xref:System.Activities.Statements.Switch%601> activity evaluates a specified expression and executes the activity from a collection of activities whose associated key matches the value obtained from the evaluation.  

@@ -1,14 +1,9 @@
 ---
 title: "Options, Text Editor, File Extension | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "vs.toolsoptionspages.text_editor.file_extension"
 helpviewer_keywords: 
@@ -20,7 +15,7 @@ ms.assetid: 05298fc5-fc4e-4bb2-b942-1f7d2dcdff0f
 caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Options, Text Editor, File Extension
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -31,7 +26,7 @@ This Options dialog allows you to specify how all files with certain file extens
  When you select an option "with Encoding," a dialog will be displayed whenever you open a document of that type that allows you to select an encoding scheme for that document. This can be helpful if you are preparing versions of your project documents for use on different platforms or in different target languages.  
   
 > [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ## UIElement List  
  **Extension**  
@@ -57,6 +52,3 @@ This Options dialog allows you to specify how all files with certain file extens
   
 ## See Also  
  [How to: Manage Editor Modes](../../ide/how-to-manage-editor-modes.md)
-
-
-

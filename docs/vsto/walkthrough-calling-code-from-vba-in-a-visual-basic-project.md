@@ -14,9 +14,9 @@ helpviewer_keywords:
   - "Office documents [Office development in Visual Studio, Visual Basic for Applications and"
   - "calling code from VBA"
   - "document-level customizations [Office development in Visual Studio], calling code"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

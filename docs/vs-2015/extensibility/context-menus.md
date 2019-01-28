@@ -1,20 +1,15 @@
 ---
 title: "Context Menus | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], legacy - context menus"
 ms.assetid: 44fd9e6a-6d42-4aba-80ba-f37fa0070f1d
 caps.latest.revision: 13
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Context Menus
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,4 +22,3 @@ Context menus are displayed when a user right-clicks in an active region of the 
 ## See Also  
  [Developing a Legacy Language Service](../extensibility/internals/developing-a-legacy-language-service.md)   
  [Extending Menus and Commands](../extensibility/extending-menus-and-commands.md)
-

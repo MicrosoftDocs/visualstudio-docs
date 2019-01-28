@@ -1,20 +1,15 @@
 ---
 title: "Model of a Legacy Language Service | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "language services, model"
 ms.assetid: d8ae1c0c-ee3d-4937-a581-ee78d0499793
 caps.latest.revision: 21
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Model of a Legacy Language Service
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -51,4 +46,3 @@ A language service defines the elements and features for a specific language, an
   
 ## See Also  
  [Document Data and Document View in Custom Editors](../../extensibility/document-data-and-document-view-in-custom-editors.md)
-

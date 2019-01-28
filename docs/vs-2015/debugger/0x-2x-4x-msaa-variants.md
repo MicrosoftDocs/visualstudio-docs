@@ -1,19 +1,14 @@
 ---
 title: "0x-2x-4x MSAA Variants | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 ms.assetid: 668a6603-5082-4c78-98e6-f3dc871aa55b
 caps.latest.revision: 11
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # 0x/2x/4x MSAA Variants
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -77,6 +72,3 @@ chain_description.SampleDesc.Quality = 0;
   
 // Call IDXGISwapChain::CreateSwapChain or D3D11CreateDeviceAndSwapChain, etc.  
 ```
-
-
-

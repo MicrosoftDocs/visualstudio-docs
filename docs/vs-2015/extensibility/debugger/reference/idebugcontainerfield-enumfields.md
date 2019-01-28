@@ -1,14 +1,9 @@
 ---
 title: "IDebugContainerField::EnumFields | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugContainerField::EnumFields"
 helpviewer_keywords: 
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 9e5e681b-ad49-4c62-bd95-4afa11d61a57
 caps.latest.revision: 11
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # IDebugContainerField::EnumFields
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -73,4 +68,3 @@ int EnumFields(
  [FIELD_KIND](../../../extensibility/debugger/reference/field-kind.md)   
  [FIELD_MODIFIERS](../../../extensibility/debugger/reference/field-modifiers.md)   
  [NAME_MATCH](../../../extensibility/debugger/reference/name-match.md)
-

@@ -1,14 +1,9 @@
 ---
 title: "How to: Retrieve Query String Information in an Online ClickOnce Application | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -20,7 +15,7 @@ ms.assetid: 48ce098a-a075-481b-a5f5-c8ba11f63120
 caps.latest.revision: 21
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # How to: Retrieve Query String Information in an Online ClickOnce Application
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -82,6 +77,3 @@ The *query string* is the portion of a URL beginning with a question mark (?) th
   
 ## See Also  
  [Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md)
-
-
-

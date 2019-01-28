@@ -9,9 +9,9 @@ helpviewer_keywords:
   - "certificates [Office development in Visual Studio], Office solutions"
   - "security [Office development in Visual Studio], signing Office solutions"
   - "signing manifests [Office development in Visual Studio]"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
   - "office"
 ---

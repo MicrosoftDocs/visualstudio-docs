@@ -1,20 +1,15 @@
 ---
 title: "GetTaskSchedulersForDebugger Method | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "GetTaskSchedulersForDebugger method, TaskScheduler class [.NET Framework debug engines]"
 ms.assetid: 58aa236a-5ab8-4695-b303-89dffdbcd946
 caps.latest.revision: 11
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # GetTaskSchedulersForDebugger Method
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -41,4 +36,3 @@ Retrieves an array of all <xref:System.Threading.Tasks.TaskScheduler> objects th
   
 ## See Also  
  [TaskScheduler Class](../../extensibility/debugger/taskscheduler-class-internal-members.md)
-

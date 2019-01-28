@@ -1,14 +1,9 @@
 ---
 title: "Item Metadata in Target Batching | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 helpviewer_keywords: 
   - "batching [MSBuild]"
   - "MSBuild, target batching"
@@ -17,7 +12,7 @@ ms.assetid: f3cc4186-6a4c-4161-bbe5-1ec638b4925b
 caps.latest.revision: 9
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Item Metadata in Target Batching
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -73,6 +68,3 @@ manager: "ghogen"
  [Batching](../msbuild/msbuild-batching.md)   
  [Target Element (MSBuild)](../msbuild/target-element-msbuild.md)   
  [Item Metadata in Task Batching](../msbuild/item-metadata-in-task-batching.md)
-
-
-

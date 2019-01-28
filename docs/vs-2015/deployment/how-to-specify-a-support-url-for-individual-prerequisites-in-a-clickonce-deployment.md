@@ -1,14 +1,9 @@
 ---
 title: "How to: Specify a Support URL for Individual Prerequisites in a ClickOnce Deployment | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -20,7 +15,7 @@ ms.assetid: 590742c3-a286-4160-aa75-7a441bb2207b
 caps.latest.revision: 12
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # How to: Specify a Support URL for Individual Prerequisites in a ClickOnce Deployment
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -89,6 +84,3 @@ A [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] deployment can test for
  [\<compatibleFrameworks> Element](../deployment/compatibleframeworks-element-clickonce-deployment.md)   
  [ClickOnce and Authenticode](../deployment/clickonce-and-authenticode.md)   
  [Application Deployment Prerequisites](../deployment/application-deployment-prerequisites.md)
-
-
-

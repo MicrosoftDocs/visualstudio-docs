@@ -1,12 +1,9 @@
 ---
 title: "Save data with the TableAdapter DBDirect methods | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -21,7 +18,7 @@ ms.assetid: 74a6773b-37e1-4d96-a39c-63ee0abf49b1
 caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Save data with the TableAdapter DBDirect methods
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

@@ -9,9 +9,9 @@ helpviewer_keywords:
   - "workbooks, saving in XML format"
   - "workbooks, saving"
   - "workbooks, saving backup copies"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

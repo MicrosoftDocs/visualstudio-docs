@@ -1,14 +1,9 @@
 ---
 title: "Common Patterns for Poorly-Behaved Multithreaded Applications | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.cv.threads.tools.gallery"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ ms.assetid: 00d10629-e20f-4d6d-8643-c59a3879812e
 caps.latest.revision: 17
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Common Patterns for Poorly-Behaved Multithreaded Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -67,6 +62,3 @@ The Concurrency Visualizer helps developers to visualize the behavior of a multi
   
 ## See Also  
  [Threads View](../profiling/threads-view-parallel-performance.md)
-
-
-

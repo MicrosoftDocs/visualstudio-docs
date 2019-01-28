@@ -1,14 +1,9 @@
 ---
 title: "Security, Versioning, and Manifest Issues in ClickOnce Deployments | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -28,7 +23,7 @@ ms.assetid: d5d0c90b-ac1a-44e2-88dc-0d0ffd881624
 caps.latest.revision: 23
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # Security, Versioning, and Manifest Issues in ClickOnce Deployments
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -93,6 +88,3 @@ There are a variety of issues with [!INCLUDE[ndptecclick](../includes/ndptecclic
  [Troubleshooting ClickOnce Deployments](../deployment/troubleshooting-clickonce-deployments.md)   
  [Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md)   
  [Choosing a ClickOnce Deployment Strategy](../deployment/choosing-a-clickonce-deployment-strategy.md)
-
-
-

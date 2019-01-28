@@ -1,12 +1,9 @@
 ---
 title: "Connect to data in an Access database (Windows Forms) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -22,7 +19,7 @@ ms.assetid: 4159e815-d430-4ad0-a234-e4125fcbef18
 caps.latest.revision: 32
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Connect to data in an Access database (Windows Forms)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

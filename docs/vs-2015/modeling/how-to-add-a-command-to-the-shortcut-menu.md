@@ -1,12 +1,9 @@
 ---
 title: "How to: Add a Command to the Shortcut Menu | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Domain-Specific Language Tools, walkthroughs"
   - "walkthroughs [Domain-Specific Language Tools]"
@@ -14,7 +11,7 @@ ms.assetid: cd550399-05fc-4dbf-be4c-f5094bb752ce
 caps.latest.revision: 24
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # How to: Add a Command to the Shortcut Menu
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -361,6 +358,3 @@ protected override IList<MenuCommand> GetMenuCommands()
  [How to: Modify a Standard Menu Command](../modeling/how-to-modify-a-standard-menu-command-in-a-domain-specific-language.md)   
  [Deploying Domain-Specific Language Solutions](../modeling/deploying-domain-specific-language-solutions.md)   
  [Sample code: Circuit Diagrams](http://code.msdn.microsoft.com/Visualization-Modeling-SDK-763778e8)
-
-
-

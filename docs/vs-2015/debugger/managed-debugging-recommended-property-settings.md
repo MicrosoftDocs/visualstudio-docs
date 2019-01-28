@@ -1,14 +1,9 @@
 ---
 title: "Managed Debugging: Recommended Property Settings | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -21,7 +16,7 @@ ms.assetid: 3d14a8d4-2925-44d0-be41-ec546d411db9
 caps.latest.revision: 32
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Managed Debugging: Recommended Property Settings
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -54,6 +49,3 @@ Certain properties should be set the same way for all managed debugging scenario
 ## See Also  
  [Debugging Managed Code](../debugger/debugging-managed-code.md)   
  [C#, F#, and Visual Basic Project Types](../debugger/debugging-preparation-csharp-f-hash-and-visual-basic-project-types.md)
-
-
-

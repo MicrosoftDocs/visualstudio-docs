@@ -1,19 +1,14 @@
 ---
 title: "Walkthrough: XSLT Profiler | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: 87387c9a-2e89-4801-ad51-83740cd6ea25
 caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Walkthrough: XSLT Profiler
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -110,6 +105,3 @@ The XSLT Profiler creates detailed XSLT performance reports that help measure, e
   
 ## See Also  
  [Walkthrough: Using XSLT Hierarchy](../xml-tools/walkthrough-using-xslt-hierarchy.md)
-
-
-

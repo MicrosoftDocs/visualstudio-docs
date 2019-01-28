@@ -1,14 +1,9 @@
 ---
 title: "Process Properties Dialog Box | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Spy++. process properties"
   - "process properties, Spy++"
@@ -16,7 +11,7 @@ ms.assetid: fe6c9d32-4b81-4dc4-a307-848d23af66ce
 caps.latest.revision: 8
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Process Properties Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -56,6 +51,3 @@ Use this dialog box to find out more about a specific process. To display this d
   
  [Using Spy++](../debugger/using-spy-increment.md)  
  Introduces the Spy++ tool and explains how it can be used.
-
-
-

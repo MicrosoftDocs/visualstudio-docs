@@ -1,19 +1,14 @@
 ---
 title: "XML Schema Explorer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: 2fc39e98-b194-456b-a452-cfafb0a52d66
 caps.latest.revision: 11
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # XML Schema Explorer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -92,10 +87,3 @@ The XML Schema Explorer is integrated with Microsoft Visual Studio and the XML E
   
 ## See Also  
  [How to: Add Nodes to the Workspace from the XML Schema Explorer](../xml-tools/how-to-add-nodes-to-the-workspace-from-the-xml-schema-explorer.md)
-
-
-
-
-
-
-

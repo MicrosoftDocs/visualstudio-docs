@@ -1,17 +1,14 @@
 ---
 title: "O-R Designer Messages | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 ms.assetid: 42178ae8-be6c-4df6-9b7a-cdac24d71dd2
 caps.latest.revision: 5
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # O/R Designer Messages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -59,4 +56,3 @@ This topic lists the messages that you can encounter when you work with the O/R 
  [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)  
   
  [LINQ to SQL](http://msdn.microsoft.com/library/73d13345-eece-471a-af40-4cc7a2f11655)
-

@@ -1,14 +1,9 @@
 ---
 title: "IDebugCoreServer3::DiagnoseWebDebuggingError | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugCoreServer3::DiagnoseWebDebuggingError"
 helpviewer_keywords: 
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 8c4570ca-ae55-42f2-bbaa-8d8e75d2fa19
 caps.latest.revision: 9
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # IDebugCoreServer3::DiagnoseWebDebuggingError
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -52,4 +47,3 @@ int DiagnoseWebDebuggingError(
   
 ## See Also  
  [IDebugCoreServer3](../../../extensibility/debugger/reference/idebugcoreserver3.md)
-

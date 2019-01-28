@@ -1,14 +1,9 @@
 ---
 title: "IDebugFunctionObject::CreateArrayObject | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugFunctionObject::CreateArrayObject"
 helpviewer_keywords: 
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: a380e53c-15f1-401f-927f-f366eea789e6
 caps.latest.revision: 11
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # IDebugFunctionObject::CreateArrayObject
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -74,4 +69,3 @@ int CreateArrayObject(
   
 ## See Also  
  [IDebugFunctionObject](../../../extensibility/debugger/reference/idebugfunctionobject.md)
-

@@ -1,14 +1,9 @@
 ---
 title: "span::span Constructor | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "cvmarkersobj/Concurrency::diagnostic::span::span"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ ms.assetid: 8b5578aa-5e5c-4ac7-87c7-ce87c4246e2c
 caps.latest.revision: 10
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # span::span Constructor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -73,6 +68,3 @@ span(
  
  ## See Also
  [span Class](../profiling/span-class.md)
-
-
-

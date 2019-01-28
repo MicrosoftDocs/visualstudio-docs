@@ -1,14 +1,9 @@
 ---
 title: "How to: Create a Package Manifest | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -23,7 +18,7 @@ ms.assetid: 5aecc507-2764-42f2-ae6f-c227971cf0af
 caps.latest.revision: 14
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # How to: Create a Package Manifest
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -102,6 +97,3 @@ installing this package.</String>
   
 ## See Also  
  [Product and Package Schema Reference](../deployment/product-and-package-schema-reference.md)
-
-
-

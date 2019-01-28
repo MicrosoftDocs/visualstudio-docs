@@ -9,9 +9,9 @@ helpviewer_keywords:
   - "Office documents [Office development in Visual Studio, common tasks"
   - "documents [Office development in Visual Studio], common tasks"
   - "Word [Office development in Visual Studio], document common tasks"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

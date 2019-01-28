@@ -9,9 +9,9 @@ helpviewer_keywords:
   - "Web Parts [SharePoint development in Visual Studio], designer"
   - "Web Parts [SharePoint development in Visual Studio], creating"
   - "Web Parts [SharePoint development in Visual Studio], designing"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

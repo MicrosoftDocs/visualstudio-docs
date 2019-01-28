@@ -1,14 +1,9 @@
 ---
 title: "Error: Ensure that DNS is Correctly Configured on the Target Computer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 f1_keywords: 
   - "vs.debug.error.callback_dns_failed"
 dev_langs: 
@@ -20,7 +15,7 @@ ms.assetid: 2d364caf-73af-4186-bf9b-af186331cbe8
 caps.latest.revision: 9
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Error: Ensure that DNS is Correctly Configured on the Target Computer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,6 +33,3 @@ Error: The Visual Studio Remote Debugger on the target computer cannot connect b
 - For more information, go to [Microsoft Windows web site](http://go.microsoft.com/fwlink/?LinkId=252720) and search for **Change TCP/IP settings**.  
   
   If you cannot resolve the DNS problem, you can try running the Remote Debugger under a different account. This error occurs only when you are running the Remote Debugger under the Local System or Network Service account. If you run the Remote Debugger under another account, it can use NTLM authentication, which does not require DNS. . For the procedure, see [Error: The Visual Studio Remote Debugger service on the target computer cannot connect back to this computer](../debugger/error-the-visual-studio-remote-debugger-service-on-the-target-computer-cannot-connect-back-to-this-computer.md).
-
-
-

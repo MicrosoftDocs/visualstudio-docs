@@ -1,14 +1,9 @@
 ---
 title: "Assembly Information Dialog Box | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "vb.ProjectPropertiesAssemblyInfo"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ ms.assetid: 8f1f6449-e03d-4a5b-9076-d3b1f84ada48
 caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Assembly Information Dialog Box
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -64,6 +59,3 @@ The **Assembly Information** dialog box is used to specify the values of the [!I
 ## See Also  
  [Application Page, Project Designer (Visual Basic)](../../ide/reference/application-page-project-designer-visual-basic.md)   
  [Attributes](http://msdn.microsoft.com/library/ae334cee-d96c-4243-a5e3-06dd7fcaf205)
-
-
-

@@ -1,19 +1,14 @@
 ---
 title: "User Accounts and Updates | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 ms.assetid: 0adb84eb-b22e-46a6-ad90-216652f3733c
 caps.latest.revision: 7
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # User Accounts and Updates
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,12 +27,3 @@ Visual Studio itself is a connected environment. By signing-in you enable access
   
 ## See Also  
  [Visual Studio IDE](../ide/visual-studio-ide.md)
-
-
-
-
-
-
-
-
-

@@ -1,19 +1,14 @@
 ---
 title: "Context Menus (XML Schema Explorer) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: 42ab17ca-b8c1-40d7-beda-d033f66fe874
 caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Context Menus (XML Schema Explorer)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -116,6 +111,3 @@ The following context menu items are used to perform schema-specific searches an
 ## See Also  
  [XML Schema Explorer](../xml-tools/xml-schema-explorer.md)   
  [Searching the Schema Set](../xml-tools/searching-the-schema-set.md)
-
-
-

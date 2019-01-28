@@ -1,14 +1,9 @@
 ---
 title: "Options, Text Editor, C#, Advanced | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "VS.ToolsOptionsPages.Text_Editor.CSharp.Outlining"
   - "VS.ToolsOptionsPages.Text_Editor.Visual_JSharp.Advanced"
@@ -24,7 +19,7 @@ ms.assetid: 947f9d9a-b0f3-408d-9866-d82895bcee31
 caps.latest.revision: 26
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Options, Text Editor, C#, Advanced
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -33,7 +28,7 @@ manager: "ghogen"
 Use this dialog box to modify the settings for editor formatting, code refactoring, and XML documentation comments for Visual C#. To access this dialog box, click **Options** on the **Tools** menu, expand the **Text Editor** folder, expand **C#**, and then click **Advanced**.  
   
 > [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ## Outlining  
  Enter outlining mode when files open  
@@ -82,6 +77,3 @@ Use this dialog box to modify the settings for editor formatting, code refactori
  [XML Documentation Comments](http://msdn.microsoft.com/library/803b7f7b-7428-4725-b5db-9a6cff273199)   
  [Setting Language-Specific Editor Options](../../ide/reference/setting-language-specific-editor-options.md)   
  [Visual C# IntelliSense](../../ide/visual-csharp-intellisense.md)
-
-
-

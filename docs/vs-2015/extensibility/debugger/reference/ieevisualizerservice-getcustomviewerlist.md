@@ -1,14 +1,9 @@
 ---
 title: "IEEVisualizerService::GetCustomViewerList | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IEEVisualizerService::GetCustomViewerList"
 helpviewer_keywords: 
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 249d26ca-914f-43af-a400-8162477223f4
 caps.latest.revision: 10
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # IEEVisualizerService::GetCustomViewerList
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -70,4 +65,3 @@ int GetCustomViewerList(
  [GetCustomViewerList](../../../extensibility/debugger/reference/idebugproperty3-getcustomviewerlist.md)   
  [GetCustomViewerCount](../../../extensibility/debugger/reference/idebugproperty3-getcustomviewercount.md)   
  [Type Visualizer and Custom Viewer](../../../extensibility/debugger/type-visualizer-and-custom-viewer.md)
-

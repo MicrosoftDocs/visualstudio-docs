@@ -8,9 +8,9 @@ dev_langs:
 helpviewer_keywords: 
   - "deploying [SharePoint development in Visual Studio]"
   - "SharePoint development in Visual Studio, deploying"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

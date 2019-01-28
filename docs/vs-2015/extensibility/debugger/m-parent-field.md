@@ -1,20 +1,15 @@
 ---
 title: "m_parent Field | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "m_parent field, Task class [.NET Framework debug engines]"
 ms.assetid: da9e3dc7-8e9b-4c3a-a9e0-12921b5300c6
 caps.latest.revision: 10
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # m_parent Field
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -37,4 +32,3 @@ The backing field for the <xref:System.Threading.Tasks.Task?displayProperty=full
   
 ## See Also  
  [Task Class](../../extensibility/debugger/task-class-internal-members.md)
-

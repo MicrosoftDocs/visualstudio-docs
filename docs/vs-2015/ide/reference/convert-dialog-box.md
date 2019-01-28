@@ -1,14 +1,9 @@
 ---
 title: "Convert Dialog Box | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "jlca_Conversion_F1_3"
   - "JLCA_Conversion_F1"
@@ -19,7 +14,7 @@ ms.assetid: 56f23ef7-17c4-4d76-9ead-982bbcd42061
 caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Convert Dialog Box
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -40,8 +35,5 @@ The **Convert** dialog box allows you to select a conversion tool to create a ne
 2.  Select the tool that is appropriate for your application.  
   
 ## See Also  
- [NOTINBUILD - How to: Upgrade a Project from Visual Basic 6.0](http://msdn.microsoft.com/en-us/c0421e57-5bba-422e-934d-ec42ab9f2af9)   
+ [NOTINBUILD - How to: Upgrade a Project from Visual Basic 6.0](http://msdn.microsoft.com/c0421e57-5bba-422e-934d-ec42ab9f2af9)   
  [Porting, Migrating, and Upgrading Visual Studio Projects](../../porting/porting-migrating-and-upgrading-visual-studio-projects.md)
-
-
-

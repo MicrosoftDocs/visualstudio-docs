@@ -1,14 +1,9 @@
 ---
 title: "Task Base Class | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -18,7 +13,7 @@ ms.assetid: 6c3f6238-b9f0-4325-b8b0-de61090bd0a2
 caps.latest.revision: 9
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Task Base Class
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -40,6 +35,3 @@ Many tasks ultimately inherit from the <xref:Microsoft.Build.Utilities.Task> cla
 ## See Also  
  [Task Reference](../msbuild/msbuild-task-reference.md)   
  [Tasks](../msbuild/msbuild-tasks.md)
-
-
-

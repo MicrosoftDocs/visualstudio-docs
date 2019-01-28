@@ -1,14 +1,9 @@
 ---
 title: "Using the Managed Package Framework to Implement a Project Type (C#) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "projects [Visual Studio SDK], creating with MPF"
   - "MPF projects"
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 926de536-eead-415b-9451-f1ddc8c44630
 caps.latest.revision: 21
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Using the Managed Package Framework to Implement a Project Type (C#)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -125,4 +120,3 @@ The Managed Package Framework (MPF) provides C# classes you can use or inherit f
 |`Microsoft.VisualStudio.Package.ProjectNodeProperties`|  
 |`Microsoft.VisualStudio.Package.FolderNodeProperties`|  
 |`Microsoft.VisualStudio.Package.ReferenceNodeProperties`|
-

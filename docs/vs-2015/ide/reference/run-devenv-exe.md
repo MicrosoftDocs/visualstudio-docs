@@ -1,14 +1,9 @@
 ---
 title: "-Run (devenv.exe) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 helpviewer_keywords: 
   - "/run Devenv"
   - "run Devenv switch"
@@ -20,7 +15,7 @@ ms.assetid: b1f22f9d-39a5-4918-8a2a-4b5c1e872665
 caps.latest.revision: 13
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # /Run (devenv.exe)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -61,6 +56,3 @@ devenv /run "C:\Documents and Settings\someuser\My Documents\Visual Studio\Proje
  [/Build (devenv.exe)](../../ide/reference/build-devenv-exe.md)   
  [/Rebuild (devenv.exe)](../../ide/reference/rebuild-devenv-exe.md)   
  [/Out (devenv.exe)](../../ide/reference/out-devenv-exe.md)
-
-
-

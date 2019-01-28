@@ -1,14 +1,9 @@
 ---
 title: "GenerateApplicationManifest Task | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: reference
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#GenerateApplicationManifest"
 dev_langs: 
@@ -24,7 +19,7 @@ ms.assetid: a494102b-0cb2-4755-8e2a-d2c0f39fac1d
 caps.latest.revision: 27
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # GenerateApplicationManifest Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -357,6 +352,3 @@ Generates a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application m
  [GenerateDeploymentManifest Task](../msbuild/generatedeploymentmanifest-task.md)   
  [SignFile Task](../msbuild/signfile-task.md)   
  [Task Reference](../msbuild/msbuild-task-reference.md)
-
-
-

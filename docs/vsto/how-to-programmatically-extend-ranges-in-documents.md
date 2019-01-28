@@ -8,9 +8,9 @@ dev_langs:
 helpviewer_keywords: 
   - "ranges, extending"
   - "documents [Office development in Visual Studio], extending ranges"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

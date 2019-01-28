@@ -1,13 +1,8 @@
 ---
 title: "Format Specifiers in C++ | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
+ms.technology: "vs-ide-debug"
 ms.topic: conceptual
 f1_keywords: 
   - "vs.debug"
@@ -32,7 +27,7 @@ ms.assetid: 0f6f3b7c-ce2c-4b4d-b14f-7589dbed5444
 caps.latest.revision: 45
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Format Specifiers in C++
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -144,8 +139,3 @@ int main() {
 |Specifier|Format|Expression|Value Displayed|  
 |---------------|------------|----------------|---------------------|  
 |n|Decimal integer|pBuffer[32]|Displays `pBuffer` as a 32 element array.|
-
-
-
-
-

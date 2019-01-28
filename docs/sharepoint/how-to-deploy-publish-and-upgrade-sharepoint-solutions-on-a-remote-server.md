@@ -10,9 +10,9 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, remote deployment"
   - "deploying [SharePoint development in Visual Studio]"
   - "SharePoint development in Visual Studio, deploying"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

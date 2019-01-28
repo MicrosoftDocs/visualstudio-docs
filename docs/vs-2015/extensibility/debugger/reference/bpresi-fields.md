@@ -1,14 +1,9 @@
 ---
 title: "BPRESI_FIELDS | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "BPRESI_FIELDS"
 helpviewer_keywords: 
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 99f17b1e-3e67-4f85-89d6-5c6cf45c8008
 caps.latest.revision: 12
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # BPRESI_FIELDS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -75,4 +70,3 @@ public enum enum_BPRESI_FIELDS { 
  [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)   
  [BP_RESOLUTION_INFO](../../../extensibility/debugger/reference/bp-resolution-info.md)   
  [GetResolutionInfo](../../../extensibility/debugger/reference/idebugbreakpointresolution2-getresolutioninfo.md)
-

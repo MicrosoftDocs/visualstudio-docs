@@ -1,21 +1,16 @@
 ---
 title: "IDiaSession::findInlineFramesByAddr | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 ms.assetid: e7dc1ac7-bb09-45be-96d2-365a9b7336e4
 caps.latest.revision: 6
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # IDiaSession::findInlineFramesByAddr
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -53,6 +48,3 @@ HRESULT findInlineFramesByAddr ( 
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
  [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md)   
  [IDiaEnumSymbols](../../debugger/debug-interface-access/idiaenumsymbols.md)
-
-
-

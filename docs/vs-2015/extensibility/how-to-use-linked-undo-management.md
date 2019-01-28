@@ -1,20 +1,15 @@
 ---
 title: "How to: Use Linked Undo Management | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], legacy - linked undo management"
 ms.assetid: af5cc22a-c9cf-45b1-a894-1022d563f3ca
 caps.latest.revision: 11
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Use Linked Undo Management
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,4 +32,3 @@ Linked undo allows the user to simultaneously undo the same edits in multiple fi
  [IOleParentUndoUnit](http://msdn.microsoft.com/library/windows/desktop/ms682151)   
  [IOleUndoUnit](http://msdn.microsoft.com/library/windows/desktop/ms678476)   
  [How to: Implement Undo Management](../extensibility/how-to-implement-undo-management.md)
-

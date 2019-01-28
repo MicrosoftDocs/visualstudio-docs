@@ -1,14 +1,9 @@
 ---
 title: "Using and Providing Services | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "examples [Visual Studio SDK], services"
   - "Visual Studio, services"
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: c0b415ba-b825-4da0-9faf-8a60a663e302
 caps.latest.revision: 42
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Using and Providing Services
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -51,4 +46,3 @@ A service is a contract between two VSPackages. One VSPackage offers a specific 
   
 ## Related Sections  
  [Visual Studio SDK](../extensibility/visual-studio-sdk.md)
-

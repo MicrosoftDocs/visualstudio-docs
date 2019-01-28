@@ -1,12 +1,11 @@
 ---
 title: "JavaScript in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "04/10/2017"
-ms.prod: "windows-client-threshold"
+ms.date: "01/15/2019"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
-  - "devlang-javascript"
+  - vs-nodejs
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs:
@@ -17,7 +16,7 @@ ms.assetid: 74dca14c-5071-416f-a92b-d09f95e3dfb8
 caps.latest.revision: 1
 author: "bowdenk7"
 ms.author: "wilkelly"
-manager: "ghogen"
+manager: "douge"
 ---
 # JavaScript in Visual Studio 2017
 
@@ -125,7 +124,7 @@ JavaScript in [!include[vs_dev15](../../docs/misc/includes/vs_dev15_md.md)] has 
 The following illustration shows a React component defined in the `comps.tsx` TypeScript file, and then this component being used from the `app.jsx` file, complete with IntelliSense for completions and documentation within the JSX expressions.
 You don't need TypeScript here, this specific example just happens to contain some TypeScript code as well.
 
-<img src="./media/react.png" height="500" width="640"/>
+![JSX syntax](../javascript/media/js-react.png)
 
 > [!NOTE]
 > To convert the JSX syntax to React calls, the setting `"jsx": "react"` must be added to the `compilerOptions` in the `tsconfig.json` file.
@@ -184,7 +183,7 @@ Given a project with the following setup:
 - `bootstrap`, `jquery`, `jquery-validation`, and `jquery-validation-unobtrusive` are listed in the `bower.json`
 - `kendo-ui` has been manually added to the lib folder
 
-![Folder structure](./media/folderStructure.png)
+![Folder structure](../javascript/media/js-folderstructure.png)
 
 You could use the following `tsconfig.json` to make sure the language service only analyzes your source files in the `js` folder, but still fetches and uses `.d.ts` files for the libraries in your `lib` folder.
 
@@ -201,7 +200,8 @@ You could use the following `tsconfig.json` to make sure the language service on
   }
 }
 ```
-# Troubleshooting The JavaScript language service has been disabled for the following project(s)
+
+## Troubleshooting The JavaScript language service has been disabled for the following project(s)
 When you open a JavaScript project that has a very large amount of content, you might get a message that reads "The JavaScript language service has been disabled for the following project(s)". The most common reason for having a very large amount of JavaScript source is due to including libraries with source code that exceeds a 20MB project limit.
 
 A simple way to optimize your project is to add a `tsconfig.json` file in your project root to let the language service know which files are safe to ignore. Use the sample below to exclude the most common directories where libraries are stored:
@@ -226,7 +226,7 @@ A simple way to optimize your project is to add a `tsconfig.json` file in your p
 }
 ```
 
-Add more directories as you see fit. Some other examples include "vendor" or "wwwroot/lib" directories. 
+Add more directories as you see fit. Some other examples include "vendor" or "wwwroot/lib" directories.
 
 > [!NOTE]
 > The compiler property `disableSizeLimit` can be used as well to disable the 20MB check limit. Take special precautions when using this property because disabling the limit might crash the language service.

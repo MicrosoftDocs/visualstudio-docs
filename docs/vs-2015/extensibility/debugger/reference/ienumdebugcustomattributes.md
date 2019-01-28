@@ -1,14 +1,9 @@
 ---
 title: "IEnumDebugCustomAttributes | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IEnumCustomAttributes"
 helpviewer_keywords: 
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 11aa768d-1852-44d6-9de3-17f9bafaded2
 caps.latest.revision: 14
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # IEnumDebugCustomAttributes
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -57,4 +52,3 @@ IEnumCustomAttributes : IUnknown
  [Symbol Provider Interfaces](../../../extensibility/debugger/reference/symbol-provider-interfaces.md)   
  [EnumCustomAttributes](../../../extensibility/debugger/reference/idebugcustomattributequery2-enumcustomattributes.md)   
  [IDebugCustomAttribute](../../../extensibility/debugger/reference/idebugcustomattribute.md)
-

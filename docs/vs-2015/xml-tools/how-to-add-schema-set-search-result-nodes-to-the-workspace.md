@@ -1,19 +1,14 @@
 ---
 title: "How to: Add Schema Set Search Result Nodes to the Workspace | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: ff33b3cc-4db9-4b4e-9378-b45ed5999b18
 caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Add Schema Set Search Result Nodes to the Workspace
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,6 +36,3 @@ This topic explains how to add nodes that are highlighted in the XML Schema Expl
      ![XML Schema Explorer Search Result](../xml-tools/media/schemaexplorersearchresult.gif "SchemaExplorerSearchResult")  
   
      The `purchaseOrder` node and the `PurchaseOrderType` node appear next to each other on the design surface of the [Graph View](../xml-tools/graph-view.md). Because the two nodes are related (the `purchaseOrder` element is of the `PurchaseOrderType` type), an arrow is drawn between them.
-
-
-

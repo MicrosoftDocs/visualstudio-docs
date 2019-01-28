@@ -1,21 +1,16 @@
 ---
 title: "Directory Status Code Enumerator | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "directory status code enumerator"
   - "source control plug-ins, directory status enumeration"
 ms.assetid: 616026b5-f529-40ef-90c1-1836e116d797
 caps.latest.revision: 14
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Directory Status Code Enumerator
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -49,4 +44,3 @@ enum SccDirStatus {
 ## See Also  
  [Source Control Plug-ins](../extensibility/source-control-plug-ins.md)   
  [SccDirQueryInfo](../extensibility/sccdirqueryinfo-function.md)
-

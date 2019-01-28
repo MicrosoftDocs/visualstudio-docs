@@ -1,13 +1,9 @@
 ---
 title: "CA2130: Security critical constants should be transparent | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "CA2130"
 ms.assetid: 344c7f7b-9130-4675-ae7f-9fa260cc9789

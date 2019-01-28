@@ -1,21 +1,16 @@
 ---
 title: "IDebugComPlusSymbolProvider2::LoadSymbolsFromStreamWithCorModule | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 helpviewer_keywords: 
   - "IDebugComPlusSymbolProvider2::LoadSymbolsFromStreamWithCorModule"
   - "LoadSymbolsFromStreamWithCorModule"
 ms.assetid: f79b894f-52c4-43c2-9a68-c71536451f6c
 caps.latest.revision: 14
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # IDebugComPlusSymbolProvider2::LoadSymbolsFromStreamWithCorModule
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -143,4 +138,3 @@ Error:
   
 ## See Also  
  [IDebugComPlusSymbolProvider2](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2.md)
-

@@ -1,14 +1,9 @@
 ---
 title: "IntelliTrace | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.historicaldebug.overview"
 helpviewer_keywords: 
@@ -26,7 +21,7 @@ ms.assetid: 486bfec2-39bd-4d78-892a-42352128ee52
 caps.latest.revision: 142
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # IntelliTrace
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -47,7 +42,7 @@ You can spend less time debugging your application when you use IntelliTrace to 
   
 |||  
 |-|-|  
-|**Debug my application with IntelliTrace:**<br /><br /> -   Show me past events.<br />-   Show me call information with past events.<br />-   Save my IntelliTrace session.<br />-   Control the data that IntelliTrace collects.|-   [Walkthrough: Using IntelliTrace](../debugger/walkthrough-using-intellitrace.md)<br />     [IntelliTrace Features](../debugger/intellitrace-features.md)<br />-   [Configure IntelliTrace](http://msdn.microsoft.com/en-us/7657ecab-e07e-4b1b-872d-f05d966be37e)<br />-   [Historical Debugging](../debugger/historical-debugging.md)|  
+|**Debug my application with IntelliTrace:**<br /><br /> -   Show me past events.<br />-   Show me call information with past events.<br />-   Save my IntelliTrace session.<br />-   Control the data that IntelliTrace collects.|-   [Walkthrough: Using IntelliTrace](../debugger/walkthrough-using-intellitrace.md)<br />     [IntelliTrace Features](../debugger/intellitrace-features.md)<br />-   [Configure IntelliTrace](http://msdn.microsoft.com/7657ecab-e07e-4b1b-872d-f05d966be37e)<br />-   [Historical Debugging](../debugger/historical-debugging.md)|  
 |**Collect IntelliTrace data during a test session in Test Manager**|-   [Collect more diagnostic data in manual tests](http://msdn.microsoft.com/library/bb5a2cc0-84f5-4dfe-9560-ca3d313aefd2)|  
 |**Collect IntelliTrace data from deployed applications**|-   [Using the IntelliTrace stand-alone collector](../debugger/using-the-intellitrace-stand-alone-collector.md)|  
 |**Start debugging from an IntelliTrace log file (.iTrace file).**|-   [Using saved IntelliTrace data](../debugger/using-saved-intellitrace-data.md)|  
@@ -103,7 +98,7 @@ You can spend less time debugging your application when you use IntelliTrace to 
 ##  <a name="WhatData"></a> What data does IntelliTrace collect?  
  **Collecting event information**  
   
- By default, IntelliTrace records only IntelliTrace events: debugger events, exceptions, .NET Framework events, and other system events that can help you with debugging. You can choose the kinds of IntelliTrace events that you want to collect, except for debugger events and exceptions, which are always collected. See [Configure IntelliTrace](http://msdn.microsoft.com/en-us/7657ecab-e07e-4b1b-872d-f05d966be37e).  
+ By default, IntelliTrace records only IntelliTrace events: debugger events, exceptions, .NET Framework events, and other system events that can help you with debugging. You can choose the kinds of IntelliTrace events that you want to collect, except for debugger events and exceptions, which are always collected. See [Configure IntelliTrace](http://msdn.microsoft.com/7657ecab-e07e-4b1b-872d-f05d966be37e).  
   
 - **Debugger events**  
   
@@ -162,21 +157,21 @@ You can spend less time debugging your application when you use IntelliTrace to 
 > [!NOTE]
 >  IntelliTrace collects only the first 256 objects in arrays and the first 256 characters for strings.  
   
- See [Configure IntelliTrace](http://msdn.microsoft.com/en-us/7657ecab-e07e-4b1b-872d-f05d966be37e).  
+ See [Configure IntelliTrace](http://msdn.microsoft.com/7657ecab-e07e-4b1b-872d-f05d966be37e).  
   
  **Collecting module information**  
   
- To control how much call information that IntelliTrace collects, specify only those modules that you care about. This can help improve your application's performance during collection. See [Configure IntelliTrace](http://msdn.microsoft.com/en-us/7657ecab-e07e-4b1b-872d-f05d966be37e).  
+ To control how much call information that IntelliTrace collects, specify only those modules that you care about. This can help improve your application's performance during collection. See [Configure IntelliTrace](http://msdn.microsoft.com/7657ecab-e07e-4b1b-872d-f05d966be37e).  
   
 ##  <a name="AffectPerformance"></a> Will IntelliTrace slow down my application?  
  By default, IntelliTrace collects data for selected IntelliTrace events only. This might or might not slow down your application, depending on the structure and organization of your code. For example, if IntelliTrace records an event often, this might slow down your application. It might also make you consider refactoring your application.  
   
- Collecting call information might slow down your application significantly. It might also increase the size of any IntelliTrace log files (.iTrace files) that you’re saving to disk. To minimize these effects, collect call information only for the modules you care about.  To change the maximum size of your .iTrace files, go to **Tools**, **Options**, **IntelliTrace**, **Advanced**. See [Configure IntelliTrace](http://msdn.microsoft.com/en-us/7657ecab-e07e-4b1b-872d-f05d966be37e).  
+ Collecting call information might slow down your application significantly. It might also increase the size of any IntelliTrace log files (.iTrace files) that you’re saving to disk. To minimize these effects, collect call information only for the modules you care about.  To change the maximum size of your .iTrace files, go to **Tools**, **Options**, **IntelliTrace**, **Advanced**. See [Configure IntelliTrace](http://msdn.microsoft.com/7657ecab-e07e-4b1b-872d-f05d966be37e).  
   
 ## In this section  
  [IntelliTrace Features](../debugger/intellitrace-features.md)  
   
- [Configure IntelliTrace](http://msdn.microsoft.com/en-us/7657ecab-e07e-4b1b-872d-f05d966be37e)  
+ [Configure IntelliTrace](http://msdn.microsoft.com/7657ecab-e07e-4b1b-872d-f05d966be37e)  
   
  [Including Diagnostic Trace Data with Bugs that are Difficult to Reproduce](http://msdn.microsoft.com/library/944ae9af-5a55-4c58-b520-0108c03b3564)  
   
@@ -189,8 +184,3 @@ You can spend less time debugging your application when you use IntelliTrace to 
   
 ### Forums  
  [Visual Studio Diagnostics](http://go.microsoft.com/fwlink/?LinkId=262263)
-
-
-
-
-

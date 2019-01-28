@@ -1,14 +1,9 @@
 ---
 title: "Debugger Settings and Preparation | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.debug"
 dev_langs: 
@@ -23,7 +18,7 @@ ms.assetid: f15a1400-b204-418d-8878-ab7755470fd7
 caps.latest.revision: 40
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Debugger Settings and Preparation
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -63,6 +58,3 @@ This section describes the debugger-related property settings, and the preparati
 ## See Also  
  [Debugger Security](../debugger/debugger-security.md)   
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)
-
-
-

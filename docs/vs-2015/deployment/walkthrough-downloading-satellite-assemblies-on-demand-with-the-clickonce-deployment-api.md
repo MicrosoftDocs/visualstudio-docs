@@ -1,14 +1,9 @@
 ---
 title: "Walkthrough: Downloading Satellite Assemblies on Demand with the ClickOnce Deployment API | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -26,7 +21,7 @@ ms.assetid: fdaa553f-a27e-44eb-a4e2-08c122105a87
 caps.latest.revision: 13
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # Walkthrough: Downloading Satellite Assemblies on Demand with the ClickOnce Deployment API
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -69,6 +64,3 @@ Windows Forms applications can be configured for multiple cultures through the u
   
 ## See Also  
  [Localizing ClickOnce Applications](../deployment/localizing-clickonce-applications.md)
-
-
-

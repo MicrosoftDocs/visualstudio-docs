@@ -1,11 +1,8 @@
 ---
 title: "Legacy Designer for Windows Workflow Foundation UI Help | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: ".net-framework-4.6"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: "reference"
 helpviewer_keywords: 
   - "UI reference"
@@ -15,7 +12,7 @@ ms.assetid: b3a0104f-4485-45ac-9794-82d54e45fb09
 caps.latest.revision: 6
 author: gewarren
 ms.author: gewarren
-manager: "erikre"
+manager: jillfra
 ---
 # Legacy Designer for Windows Workflow Foundation UI Help
 This section contains the context-sensitive Help topics for the legacy [!INCLUDE[wfd1](../includes/wfd1-md.md)] in [!INCLUDE[vs2010](../includes/vs2010-md.md)]. Use the legacy designer when you need to target the [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)] or the [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)].  

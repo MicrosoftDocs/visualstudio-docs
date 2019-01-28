@@ -9,9 +9,9 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, deployment modules"
   - "SharePoint development in Visual Studio, modules"
   - "modules [SharePoint development in Visual Studio]"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

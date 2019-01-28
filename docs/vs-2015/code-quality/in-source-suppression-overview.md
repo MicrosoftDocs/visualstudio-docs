@@ -1,14 +1,9 @@
 ---
 title: "In Source Suppression Overview | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 helpviewer_keywords: 
   - "source suppression, code analysis"
   - "code analysis, source suppression"
@@ -124,6 +119,3 @@ CA_SUPPRESS_MESSAGE("Rule Category", "Rule Id", Justification = "Justification",
   
 ## See Also  
  <xref:System.Diagnostics.CodeAnalysis>
-
-
-

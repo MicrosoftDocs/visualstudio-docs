@@ -1,20 +1,15 @@
 ---
 title: "m_taskId Field | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "m_taskId field, Task class [.NET Framework debug engines]"
 ms.assetid: 9e4b827e-7c41-4fa3-b646-830aba2ec736
 caps.latest.revision: 9
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # m_taskId Field
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -37,4 +32,3 @@ The backing field for the <xref:System.Threading.Tasks.Task.Id%2A?displayPropert
   
 ## See Also  
  [Task Class](../../extensibility/debugger/task-class-internal-members.md)
-

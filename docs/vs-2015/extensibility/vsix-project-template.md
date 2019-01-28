@@ -1,21 +1,16 @@
 ---
 title: "VSIX Project Template | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "deploy packages"
   - "publish extension"
 ms.assetid: b6c82167-e2a5-4cff-8c8b-2d72e2a9092c
 caps.latest.revision: 22
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # VSIX Project Template
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -84,4 +79,3 @@ You can use the VSIX Project template to wrap one or more Visual Studio extensio
 ## See Also  
  [VSIX Extension Schema 2.0 Reference](../extensibility/vsix-extension-schema-2-0-reference.md)   
  [Finding and Using Visual Studio Extensions](../ide/finding-and-using-visual-studio-extensions.md)
-

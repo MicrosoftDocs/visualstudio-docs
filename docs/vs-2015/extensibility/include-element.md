@@ -1,14 +1,9 @@
 ---
 title: "Include Element | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "Include"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: c923dfe6-084a-4105-aec1-f0a3f8399c54
 caps.latest.revision: 10
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Include Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -60,4 +55,3 @@ The Include element specifies a file that can be located on the supplied include
   
 ## See Also  
  [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
-

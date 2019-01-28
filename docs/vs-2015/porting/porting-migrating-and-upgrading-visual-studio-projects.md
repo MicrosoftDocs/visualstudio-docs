@@ -1,13 +1,9 @@
 ---
 title: "Porting, Migrating, and Upgrading Projects | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: conceptual
 f1_keywords:
   - "Win8ExpressDesktopBlock"
   - "w8trefactor"
@@ -22,7 +18,7 @@ ms.assetid: bee759bd-6ff5-4c2e-913a-ea7d3c906c29
 caps.latest.revision: 108
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: jillfra
 ---
 # Porting, Migrating, and Upgrading Visual Studio Projects
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -80,7 +76,7 @@ When you are considering whether you should move to a newer version of Visual St
 |Other|You can open most other types of projects in [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)], [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)], and Visual Studio 2010 SP1.|
 |FrontPage Web Sites|This project can't be opened in [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)] because it doesn't support the project type.|
 |Portable Class Library|If you allow Visual Studio to update the project automatically, you can open it in [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)], [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)], or Visual Studio 2010 SP1.<br /><br /> -   Projects that targeted Silverlight 4 will target Silverlight 5.<br />-   Projects that targeted Windows Phone 7.0 or Windows Phone 7.5 will target Windows Phone 8.<br />-   Projects that targeted Xbox 360 will no longer target Xbox 360.|
-|Azure projects such as cloud service projects (.ccproj extension) and Azure Resource Manager projects (Cloud Deployment Projects) with the .deployproj extension|To open these types of projects, first install the [Azure SDK for .NET](http://azure.microsoft.com/en-us/downloads/), then open the project.|
+|Azure projects such as cloud service projects (.ccproj extension) and Azure Resource Manager projects (Cloud Deployment Projects) with the .deployproj extension|To open these types of projects, first install the [Azure SDK for .NET](http://azure.microsoft.com/downloads/), then open the project.|
 
 ## Troubleshooting project compatibility issues
  Here are some things you can do when a project won't open in [!INCLUDE[vs_dev14](../includes/vs-dev14-md.md)] or [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)]:

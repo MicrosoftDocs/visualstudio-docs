@@ -1,17 +1,14 @@
 ---
 title: "Messaging Activity Designers | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: ".net-framework-4.6"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: "reference"
 ms.assetid: 897e63cf-a42f-4edd-876f-c4ccfffaf6d6
 caps.latest.revision: 7
 author: gewarren
 ms.author: gewarren
-manager: "erikre"
+manager: jillfra
 ---
 # Messaging Activity Designers
 Messaging activity designers are used to create and configure messaging activities that send and receive [!INCLUDE[indigo1](../includes/indigo1-md.md)] messages from within a [!INCLUDE[wf](../includes/wf-md.md)] application. The [!INCLUDE[netfx40_long](../includes/netfx40-long-md.md)] introduces five messaging activities and the [!INCLUDE[wfd1](../includes/wfd1-md.md)] provides two new template designers that enable you to manage messaging within a workflow. The topics contained in this section and listed in the following table provide guidance on how to use the [!INCLUDE[wfd2](../includes/wfd2-md.md)] activity and template designers.  

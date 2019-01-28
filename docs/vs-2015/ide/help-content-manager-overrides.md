@@ -1,19 +1,14 @@
 ---
 title: "Help Content Manager Overrides | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-help-viewer
+ms.topic: conceptual
 ms.assetid: 95fe6396-276b-4ee5-b03d-faacec42765f
 caps.latest.revision: 11
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Help Content Manager Overrides
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,6 +28,3 @@ You can modify the registry to change the default behavior of the Help Viewer an
   
 ## See Also  
  [Help Viewer Administrator Guide](../ide/help-viewer-administrator-guide.md)
-
-
-

@@ -1,12 +1,9 @@
 ---
 title: "How to: Connect to Data in a Service | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -24,7 +21,7 @@ ms.assetid: a6b54353-05fe-4e5c-8631-90231fc95504
 caps.latest.revision: 35
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Connect to Data in a Service
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -67,4 +64,3 @@ You connect your application to the data returned from a service by running the 
 ## See Also  
  [Bind WPF controls to a WCF data service](../data-tools/bind-wpf-controls-to-a-wcf-data-service.md)   
  [Windows Communication Foundation Services and WCF Data Services in Visual Studio](../data-tools/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md)
-

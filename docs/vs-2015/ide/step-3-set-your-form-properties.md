@@ -1,19 +1,14 @@
 ---
 title: "Step 3: Set Your Form Properties | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 ms.assetid: 634ef037-1525-48c8-ac7f-abf04be69376
 caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Step 3: Set Your Form Properties
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -74,6 +69,3 @@ Next, you use the **Properties** window to change the way your form looks.
 -   To go to the next tutorial step, see [Step 4: Lay Out Your Form with a TableLayoutPanel Control](../ide/step-4-lay-out-your-form-with-a-tablelayoutpanel-control.md).  
   
 -   To return to the previous tutorial step, see [Step 2: Run Your Program](../ide/step-2-run-your-program.md).
-
-
-

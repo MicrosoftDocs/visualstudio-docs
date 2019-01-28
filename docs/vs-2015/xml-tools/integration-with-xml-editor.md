@@ -1,19 +1,14 @@
 ---
 title: "Integration with XML Editor | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: 43d7a8e6-bd94-4407-a800-15a145c74223
 caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Integration with XML Editor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,6 +30,3 @@ The XML Schema Designer is integrated with the XML Editor. If you modify an XSD 
   
 ## See Also  
  [XML Schema Explorer](../xml-tools/xml-schema-explorer.md)
-
-
-

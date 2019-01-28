@@ -1,20 +1,15 @@
 ---
 title: "IDebugGenericParamField::GetOwner | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 helpviewer_keywords: 
   - "IDebugGenericParamField::GetOwner"
 ms.assetid: c7f6d166-a69e-40c4-bd0b-1a1fdf9aaacf
 caps.latest.revision: 10
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # IDebugGenericParamField::GetOwner
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -95,4 +90,3 @@ Error:
   
 ## See Also  
  [IDebugGenericParamField](../../../extensibility/debugger/reference/idebuggenericparamfield.md)
-

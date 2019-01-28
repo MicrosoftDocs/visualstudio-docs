@@ -8,9 +8,9 @@ dev_langs:
 helpviewer_keywords: 
   - "solutions [Office development in Visual Studio], configuration files"
   - "configuration files [Office development in Visual Studio]"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

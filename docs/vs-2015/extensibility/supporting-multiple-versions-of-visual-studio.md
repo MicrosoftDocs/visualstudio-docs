@@ -3,18 +3,15 @@ title: "Supporting Multiple Versions of Visual Studio 2015 | Microsoft Docs"
 titleSuffix: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: conceptual
 helpviewer_keywords:
   - "Visual Studio, supporting multiple versions"
   - "VSPackages, side-by-side compatibility"
 ms.assetid: 0047aa90-1ed4-40d3-8772-622b2719a4b1
 caps.latest.revision: 21
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Supporting Multiple Versions of Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

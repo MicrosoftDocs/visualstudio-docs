@@ -1,12 +1,9 @@
 ---
 title: "Debugging a T4 Text Template | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "text templates, troubleshooting"
   - "text templates, debugging"
@@ -14,7 +11,7 @@ ms.assetid: 0877fdf2-20bf-42da-b3cc-4c5856b80821
 caps.latest.revision: 30
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Debugging a T4 Text Template
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -78,6 +75,3 @@ You can set breakpoints in text templates. To debug a design-time text template,
 |An Exception was thrown while processing a directive named '{0}'.|Occurs when a directive processor throws an exception when processing a directive.|Be sure that the parameters to the directive processor are correct.|  
 |The host threw an exception while trying to resolve the assembly reference '{0}'.|Occurs when the host throws an exception when it tries to resolve an assembly reference. The message provides the assembly reference string.|Assembly references come from \<@#assembly#> directives and from directive processors. Be sure that the 'name' parameter provided in the assembly parameter is correct.|  
 |Attempt to specify unsupported {1} value '{0}' for directive {2}|Occurs by the RequiresProvidesDirectiveProcessor (all our generated directive processors derive from it), when you supply an unsupported requires or provides argument.|Be sure that the names in the name='value' pairs provided in the requires and provides parameters are correct.|
-
-
-

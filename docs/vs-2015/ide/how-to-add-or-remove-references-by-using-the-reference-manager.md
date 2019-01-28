@@ -1,14 +1,9 @@
 ---
 title: "How to: Add or Remove References By Using the Reference Manager | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 f1_keywords: 
   - "VS.ReferenceManager"
 helpviewer_keywords: 
@@ -27,7 +22,7 @@ ms.assetid: 1aabb520-99b0-46c6-9368-21b4d84793eb
 caps.latest.revision: 48
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Add or Remove References By Using the Reference Manager
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -215,8 +210,5 @@ You can use the **Reference Manager** dialog box to add and manage references to
  The search bar in the **Reference Manager** dialog box operates over the tab that’s in focus. For example, if a user types “System” in the search bar while the **Solution** tab is in focus, the search won’t return any results unless the solution consists of a project name that contains “System”.  
   
 ## See Also  
- [NIB How to: Add or Remove References By Using the Add Reference Dialog Box](http://msdn.microsoft.com/en-us/3bd75d61-f00c-47c0-86a2-dd1f20e231c9)   
+ [NIB How to: Add or Remove References By Using the Add Reference Dialog Box](http://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9)   
  [Managing references in a project](../ide/managing-references-in-a-project.md)
-
-
-
