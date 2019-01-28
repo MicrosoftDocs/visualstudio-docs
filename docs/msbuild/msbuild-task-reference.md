@@ -208,6 +208,9 @@ Tasks provide the code that runs during the build process. The tasks in the foll
  [Vbc task](../msbuild/vbc-task.md)  
  Invokes the Visual Basic compiler to produce executables, dynamic-link libraries, or code modules..  
 
+ [VerifyFileHash task](../msbuild/verifyfilehash-task.md)
+ Verifies that a file matches the expected file hash.
+
  [Warning task](../msbuild/warning-task.md)  
  Logs a warning during a build based on an evaluated conditional statement.  
 
