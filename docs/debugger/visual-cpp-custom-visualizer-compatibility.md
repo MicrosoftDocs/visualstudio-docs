@@ -24,7 +24,3 @@ Starting in Visual Studio 2019, Visual C++ includes an improved debugger that us
 If you are currently consuming a legacy C/C++ EE addin or C/C++ custom visualizer, you can turn off usage of this external process by going to **Tools** > **Options** > **Debugging**, and then deselecting **Load debug symbols in external process (native only)**. If you deselect this option, a significant increase in memory usage within the IDE (devenv.exe) process will occur. So, if you expect to debug large projects, it is recommended that you work with the owner of the extension to make it compatible with this debugging option.
 
 If you are the owner of a legacy C/C++ EE addin or C/C++ custom visualizer, you can find more information about opting into loading your extension in a worker process on the [Concord extensibility samples wiki](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Worker-Process-Remoting). You can also find a [C/C++ custom visualizer sample](https://github.com/Microsoft/ConcordExtensibilitySamples/tree/master/CppCustomVisualizer).
-  
-## See Also
-
-[Create custom views of native objects](../debugger/create-custom-views-of-native-objects.md)
