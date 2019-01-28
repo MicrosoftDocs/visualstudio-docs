@@ -94,7 +94,7 @@ To get started now, download the [Pull Requests for Visual Studio](https://aka.m
 
 ### Develop with .NET Core 3 Preview 1
 
-The preview release of Visual Studio 2019 supports building [.NET Core 3](http://aka.ms/netcore3preview1) applications for any platform. We'll continue to support and improve cross-platform C++ development, as well as .NET mobile development for iOS, and Android with Xamarin.
+The preview release of Visual Studio 2019 supports building [.NET Core 3](http://aka.ms/netcore3preview1) applications for any platform. We'll continue to support and improve cross-platform C++ development, as well as .NET mobile development for iOS and Android with Xamarin.
 
    ![Develop apps with .NET Core 3 Preview 1 in Visual Studio 2019](media/dot-net-core-three-dev.png)
 
