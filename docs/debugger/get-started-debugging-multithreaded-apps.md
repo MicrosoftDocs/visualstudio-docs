@@ -186,6 +186,8 @@ You'll first need a multithreaded application project. An example follows.
     ```
   
 7.  On the **File** menu, select **Save All**.  
+
+8. (Visual Basic only) In Solution Explorer (right pane), right-click the project node, choose **Properties**. Under the **Application** tab, change the **Startup object** to **Simple**.
   
 ## Debug the multithreaded app  
   
