@@ -31,7 +31,7 @@ The command-line options are used in conjunction with the setup bootstrapper, wh
 - [Visual Studio 2017 Professional](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=professional&rel=15?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=link+cta&utm_content=download+commandline+parameters+vs2017)
 - [Visual Studio 2017 Community](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=community&rel=15?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=link+cta&utm_content=download+commandline+parameters+vs2017)
 
-## List of command-line parameters
+## Command-line parameters
 
  Visual Studio command-line parameters are case-insensitive.
 
@@ -51,7 +51,7 @@ The command-line options are used in conjunction with the setup bootstrapper, wh
 | `uninstall` | Uninstalls an installed product. |
 | `export` | **New in 15.9**: Exports installation selection to an installation configuration file. **Note**: Can only be used with vs_installer.exe. |
 
-### Install options
+## Install options
 
 | **Install option** | **Description** |
 | ----------------------- | --------------- |
@@ -76,7 +76,7 @@ The command-line options are used in conjunction with the setup bootstrapper, wh
 > [!IMPORTANT]
 > When specifying multiple workloads and components, you must repeat the `--add` or `--remove` command-line switch for each item.
 
-### Layout options
+## Layout options
 
 | **Layout options** | **Description** |
 | ----------------------- | --------------- |
