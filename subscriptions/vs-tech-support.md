@@ -21,7 +21,7 @@ Resolve break-fix issues in non-production environments. (Benefit must be activa
 > ![Technical Support Benefit Tile](_img/vs-tech-support/vs-tech-support-tile.png)
 
 
-1. To begin using your Technical Support benefit, click on **Chat to activate** on the Technical Support tile. 
+1. To begin using your Technical Support benefit, go to https://my.visualstudio.com/Benefits, scroll down to the Support section and on the Technical Support tile click **Chat to activate**. 
 2. This will initiate a chat session with a representative who can create your Contract ID and Access ID and provide those to you. 
 3. To complete the process, you will need to provide the representative with:
    - The email address you use to sign in to your subscription
