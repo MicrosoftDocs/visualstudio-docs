@@ -2,8 +2,6 @@
 title: "GetFileHash  Task | Microsoft Docs"
 ms.date: "01/28/2019"
 ms.topic: "reference"
-f1_keywords:
-  - "http://schemas.microsoft.com/developer/msbuild/2003#GetFileHash"
 dev_langs:
   - "VB"
   - "CSharp"
@@ -12,7 +10,6 @@ dev_langs:
 helpviewer_keywords:
   - "GetFileHash task [MSBuild]"
   - "MSBuild, GetFileHash task"
-ms.assetid: ???
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
