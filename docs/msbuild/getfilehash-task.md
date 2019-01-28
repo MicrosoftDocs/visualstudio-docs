@@ -30,7 +30,7 @@ This task was added in 15.8, but requires a [workaround](https://github.com/Micr
 |---------------|-----------------|
 |`Files`|Required <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br />The files to be hashed.|
 |`Items`|<xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br />The `Files` input with additional metadata set to the file hash.|
-|`Hash`|`String` output parameter.<br /><br />The hash of the file. This is only set if there was exactly one item passed in.|
+|`Hash`|`String` output parameter.<br /><br />The hash of the file. This output is only set if there was exactly one item passed in.|
 |`Algorithm`|Optional `String` parameter.<br /><br />The algorithm. Allowed values: `SHA256`, `SHA384`, `SHA512`. Default = `SHA256`.|
 |`MetadataName`|Optional `String` parameter.<br /><br />The metadata name where the hash is stored in each item. Defaults to `FileHash`.|
 |`HashEncoding`|Optional `String` parameter.<br /><br />The encoding to use for generated hashes. Defaults to `hex`. Allowed values = `hex`, `base64`.|
