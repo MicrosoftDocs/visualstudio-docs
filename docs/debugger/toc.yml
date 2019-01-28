@@ -203,7 +203,7 @@
         href: create-custom-views-of-native-objects.md
         items:
         - name: "Visual C++ custom visualizer compatibility"
-        - href: visual-cpp-custom-visualizer-compatibility.md
+          href: visual-cpp-custom-visualizer-compatibility.md
       - name: Create custom views of managed objects
         href: create-custom-views-of-dot-managed-objects.md
         items:
