@@ -64,7 +64,7 @@ The first step in creating a matching game is to create the project and add a ta
 
    5.  Choose the **Font** property. An ellipsis (**...**) button should appear.
 
-   6.  Choose the ellipsis button, and set the **Font** value to **Webdings**, the **Font Style** to **Bold**, and the **Size** to **72**.
+   6.  Choose the ellipsis button, and set the **Font** value to **Webdings**, the **Font Style** to **Bold**, and the **Size** to **48**.
 
    7.  Set the **Text** property of the label to the letter **c**.
 
