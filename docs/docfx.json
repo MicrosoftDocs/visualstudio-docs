@@ -148,7 +148,8 @@
         "dest": "temp2015"
       },
       "vs-2017": {
-        "moniker_range": ">= vs-2017"
+        "moniker_range": ">= vs-2017",
+        "dest": "temp2017"
       }
     },
     "markdownEngineName": "markdig"
