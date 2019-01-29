@@ -93,7 +93,7 @@ To initiate the **Add using** operation, position the cursor on a type reference
 
 ![Add using, quick action expanded image](../ide/media/addusing-quickaction.png)
 
-Click the light bulb icon, and then choose **using System.Xml;** to automatically add the using directive.
+Click the error light bulb icon, and then choose **using System.Xml;** to automatically add the using directive.
 
 ### Remove and sort usings
 
@@ -117,7 +117,7 @@ The **Generate From Usage** feature enables you to use classes and members befor
 
 A red wavy underline appears under each undefined identifier. When you rest the mouse pointer on the identifier, an error message appears in a tooltip. To display the appropriate options, you can use one of the following procedures:
 
-- Click the undefined identifier. A **Quick Actions** light bulb appears under the identifier. Click the light bulb.
+- Click the undefined identifier. A **Quick Actions** error light bulb appears under the identifier. Click the error light bulb.
 
 - Click the undefined identifier, and then press **Ctrl**+**.** (**Ctrl** + period).
 
