@@ -379,7 +379,45 @@
 - name: Visual Studio C++ project extensibility
   href: visual-cpp-project-extensibility.md
 - name: Visual Studio User Experience Guidelines
-  href: ux-guidelines/toc.yml
+  href: ux-guidelines/visual-studio-user-experience-guidelines.md
+  items:
+  - name: UX Essentials
+    href: ux-guidelines/ux-essentials-for-visual-studio.md
+  - name: Fonts and Formatting
+    href: ux-guidelines/fonts-and-formatting-for-visual-studio.md
+  - name: Colors and Styling
+    href: ux-guidelines/colors-and-styling-for-visual-studio.md
+    items:
+    - name: Shared Colors
+      href: ux-guidelines/shared-colors-for-visual-studio.md
+    - name: Color Value Reference
+      href: ux-guidelines/color-value-reference-for-visual-studio.md
+  - name: Images and Icons
+    href: ux-guidelines/images-and-icons-for-visual-studio.md
+    items:
+    - name: Visual Language Dictionary
+      href: ux-guidelines/visual-language-dictionary-for-visual-studio.md
+  - name: Menus and Commands
+    href: ux-guidelines/menus-and-commands-for-visual-studio.md
+  - name: Interaction Patterns
+    href: ux-guidelines/interaction-patterns-for-visual-studio.md
+    items:
+    - name: Application Patterns
+      href: ux-guidelines/application-patterns-for-visual-studio.md
+    - name: Common Control Patterns
+      href: ux-guidelines/common-control-patterns-for-visual-studio.md
+    - name: Composite Patterns
+      href: ux-guidelines/composite-patterns-for-visual-studio.md
+  - name: UI Text and Help
+    href: ux-guidelines/ui-text-and-help-for-visual-studio.md
+  - name: Dialog Layout
+    href: ux-guidelines/layout-for-visual-studio.md
+  - name: Notifications and Progress
+    href: ux-guidelines/notifications-and-progress-for-visual-studio.md
+  - name: Animations
+    href: ux-guidelines/animations-for-visual-studio.md
+  - name: Evaluation Tools
+    href: ux-guidelines/evaluation-tools-for-visual-studio.md
 - name: Addressing DPI Issues
   href: addressing-dpi-issues2.md
 - name: Image Service and Catalog

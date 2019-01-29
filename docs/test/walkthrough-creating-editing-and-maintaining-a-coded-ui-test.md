@@ -348,11 +348,7 @@ In this walkthrough, you'll learn how to create, edit, and maintain a coded UI t
 
 ## Videos
 
-![link to video](../data-tools/media/playvideo.gif) [Get started with coded UI tests](http://go.microsoft.com/fwlink/?LinkID=230573)
-
-![link to video](../data-tools/media/playvideo.gif) [Maintenance and debugging of coded UI tests](http://go.microsoft.com/fwlink/?LinkID=230574)
-
-![link to video](../data-tools/media/playvideo.gif) [Hand coding coded UI tests](http://go.microsoft.com/fwlink/?LinkID=230575)
+![link to video](../data-tools/media/playvideo.gif) [Get started with coded UI tests](https://onedrive.live.com/?id=2DB0E1EFE1C1D3B8%21110&cid=2DB0E1EFE1C1D3B8)
 
 ## FAQ
 
