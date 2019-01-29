@@ -19,7 +19,7 @@ Template parameters are written in the format $*parameter*$. For a complete list
 
 The following section shows you how to modify a template to replace the name of a namespace with the "safe project name".
 
-## To use a parameter to replace the namespace name
+## Example - namespace name
 
 1. Insert the parameter in one or more of the code files in the template. For example:
 
