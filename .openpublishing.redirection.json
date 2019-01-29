@@ -1816,6 +1816,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/python/azure-sdk-for-python.md",
+            "redirect_url": "/python/azure",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/python/code-editing.md",
             "redirect_url": "/visualstudio/python/editing-python-code-in-visual-studio",
             "redirect_document_id": false

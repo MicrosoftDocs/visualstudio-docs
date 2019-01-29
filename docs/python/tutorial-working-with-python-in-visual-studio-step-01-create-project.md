@@ -2,7 +2,7 @@
 title: Python in Visual Studio tutorial step 1, create a project
 titleSuffix: ""
 description: Overview and step 1 of a core walkthrough of Python capabilities in Visual Studio, including prerequisites and creating a new Python project.
-ms.date: 10/29/2018
+ms.date: 01/28/2019
 ms.prod: visual-studio-dev15
 ms.topic: tutorial
 author: kraigb
