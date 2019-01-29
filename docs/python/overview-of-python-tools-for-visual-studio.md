@@ -135,7 +135,7 @@ For more information:
 
 The Python workload includes the Azure SDK for Python, which simplifies consuming Azure services from Windows, Mac OS X, and Linux apps.
 
-For more information, see [Azure SDK for Python](azure-sdk-for-python.md)
+For more information, see [Azure SDK for Python](/python/azure/?view=azure-python).
 
 ## Python training on Microsoft Virtual Academy
 

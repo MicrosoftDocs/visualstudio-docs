@@ -1,6 +1,6 @@
 ---
 title: "Visual C++ project extensibility"
-ms.date: "09/12/2018"
+ms.date: "01/25/2019"
 ms.technology: vs-ide-mobile
 ms.topic: "conceptual"
 dev_langs: 
@@ -267,6 +267,8 @@ The Microsoft.Cpp.Common.Tasks.dll implements these tasks:
 
 - `SetEnv`
 
+- `GetOutOfDateItems`
+
 If you have a tool that performs the same action as an existing tool, and that has similar command-line switches (as clang-cl and CL do), you can use the same task for both of them.
 
 If you need to create a new task for a build tool, you can choose from the following options:
@@ -287,11 +289,14 @@ If you need to create a new task for a build tool, you can choose from the follo
 
 The default MSBuild incremental build targets use `Inputs` and `Outputs` attributes. If you specify them, MSBuild calls the target only if any of the inputs has a newer timestamp than all outputs. Because source files often include or import other files, and build tools produce different outputs depending on the tool options, it is hard to specify all possible inputs and outputs in MSBuild targets.
 
-To manage this problem, the C++ build uses a different technique to support incremental builds. Most targets don't specify inputs and outputs, and as a result, always run during the build. The tasks called by targets write information about all inputs and outputs into *tlog* files that have a .tlog extension. The .tlog files are used by later builds to check what has changed and needs to be rebuilt, and what is up-to-date.
+To manage this problem, the C++ build uses a different technique to support incremental builds. Most targets don't specify inputs and outputs, and as a result, always run during the build. The tasks called by targets write information about all inputs and outputs into *tlog* files that have a .tlog extension. The .tlog files are used by later builds to check what has changed and needs to be rebuilt, and what is up-to-date. The .tlog files are also the only source for the default build up-to-date check in the IDE.
 
 To determine all the inputs and outputs, native tool tasks use tracker.exe and the [FileTracker](/dotnet/api/microsoft.build.utilities.filetracker) class provided by MSBuild.
 
 Microsoft.Build.CPPTasks.Common.dll defines the `TrackedVCToolTask` public abstract base class. Most of the native tool tasks are derived from this class.
+
+Starting in Visual Studio 2017 update 15.8, you can use the `GetOutOfDateItems` task implemented in Microsoft.Cpp.Common.Tasks.dll to produce .tlog files for custom targets with known inputs and outputs.
+Alternatively, you can create them by using the `WriteLinesToFile` task. See the `_WriteMasmTlogs` target in `$(VCTargetsPath)`\\*BuildCustomizations*\\*masm.targets* as an example.
 
 ## .tlog files
 
@@ -307,7 +312,6 @@ The [FlatTrackingData](/dotnet/api/microsoft.build.utilities.flattrackingdata) c
 
 Command-line .tlog files contain information about command lines used in the build. They are only used for incremental builds, not up-to-date checks, so the internal format is determined by the MSBuild task that produces them.
 
-If .tlog files are created by a task, it's best to use these helper classes to create them. However, because the default up-to-date check now relies solely on .tlog files, sometimes it's more convenient to produce them in a target without a task. You can write them by using the `WriteLinesToFile` task. See the `_WriteMasmTlogs` target in `$(VCTargetsPath)`\\*BuildCustomizations*\\*masm.targets* as an example.
 
 ### Read .tlog format
 
