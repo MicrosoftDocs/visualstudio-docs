@@ -28,7 +28,7 @@ The following table describes the functions available for use with the `Function
 |`ClassName()`|Returns the name of the class that contains the inserted snippet.|C#|
 |`SimpleTypeName(` `TypeName` `)`|Reduces the *TypeName* parameter to its simplest form in the context in which the snippet was invoked.|C#|
 
-## Example
+## GenerateSwitchCases example
 
 The following example shows how to use the `GenerateSwitchCases` function. When this snippet is inserted and an enumeration is entered into the `$switch_on$` literal, the `$cases$` literal generates a `case` statement for every value in the enumeration.
 
@@ -70,7 +70,7 @@ The following example shows how to use the `GenerateSwitchCases` function. When 
 </CodeSnippets>
 ```
 
-## Example
+## ClassName example
 
 The following example shows how to use the `ClassName` function. When this snippet is inserted, the `$classname$` literal is replaced with the name of the enclosing class at that location in the code file.
 
@@ -117,7 +117,7 @@ The following example shows how to use the `ClassName` function. When this snipp
 </CodeSnippets>
 ```
 
-## Example
+## SimpleTypeName example
 
 This example shows how to use the `SimpleTypeName` function. When this snippet is inserted into a code file, the `$SystemConsole$` literal will be replaced with the simplest form of the <xref:System.Console> type in the context in which the snippet was invoked.
 
