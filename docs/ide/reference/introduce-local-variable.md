@@ -41,7 +41,7 @@ This code generation applies to:
       - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
    - **Mouse**
       - Right-click and select the **Quick Actions and Refactorings** menu.
-      - Click the ![light bulb](media/bulb-cs.png) icon that appears in the left margin if the text cursor is already on the line with the red squiggle.
+      - Click the ![screwdriver](media/screwdriver.png) icon that appears in the left margin if the text cursor is already on the line with the highlighted expression.
 
    ![Introduce local preview](media/local-preview-cs.png)
 
@@ -65,5 +65,5 @@ This code generation applies to:
 
 ## See also
 
-- [Code Generation](../code-generation-in-visual-studio.md)
-- [Preview Changes](../../ide/preview-changes.md)
+- [Code generation](../code-generation-in-visual-studio.md)
+- [Preview changes](../../ide/preview-changes.md)
