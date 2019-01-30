@@ -309,6 +309,8 @@
         href: generatetrustinfo-task.md
       - name: GetAssemblyIdentity Task
         href: getassemblyidentity-task.md
+      - name: GetFileHash Task
+        href: getfilehash-task.md
       - name: GetFrameworkPath Task
         href: getframeworkpath-task.md
       - name: GetFrameworkSdkPath Task
@@ -361,6 +363,8 @@
         href: updatemanifest-task.md
       - name: Vbc Task
         href: vbc-task.md
+      - name: VerifyFileHash Task
+        href: verifyfilehash-task.md
       - name: Warning Task
         href: warning-task.md
       - name: WriteCodeFragment Task
