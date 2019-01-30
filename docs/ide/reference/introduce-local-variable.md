@@ -45,7 +45,7 @@ This code generation applies to:
 
    ![Introduce local preview](media/local-preview-cs.png)
 
-3. Select **Introduce local for (all occurrences of) '*expression*'** from the drop-down menu.
+3. Select **Introduce local for (all occurrences) of 'expression'** from the drop-down menu.
 
    > [!TIP]
    > Use the **Preview changes** link at the bottom of the preview window [to see all of the changes](../../ide/preview-changes.md) that will be made before making your selection.
