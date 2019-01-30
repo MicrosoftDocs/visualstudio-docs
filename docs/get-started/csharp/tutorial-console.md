@@ -524,7 +524,7 @@ namespace Calculator
 Congratulations on completing this tutorial! To learn even more, continue with the following tutorials.
 
 > [!div class="nextstepaction"]
-> [C# Tutorials](/dotnet/csharp/tutorials/)
+> [Continue with more C# tutorials](/dotnet/csharp/tutorials/)
 
 ## See also
 
