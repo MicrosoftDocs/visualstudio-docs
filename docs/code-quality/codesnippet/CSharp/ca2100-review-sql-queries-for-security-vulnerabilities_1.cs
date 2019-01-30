@@ -30,10 +30,10 @@ namespace SecurityLibrary
          SqlCommand someCommand = new SqlCommand();
          someCommand.Connection = someConnection;
 
-         someCommand.Parameters.Add(
-            "@username", SqlDbType.NChar).Value = name;
-         someCommand.Parameters.Add(
-            "@password", SqlDbType.NChar).Value = password;
+         someCommand.Parameters.AddWithValue(
+            "@username", name);
+         someCommand.Parameters.AddWithValue(
+            "@password", password);
          someCommand.CommandText = "SELECT AccountNumber FROM Users " + 
             "WHERE Username=@username AND Password=@password";
 
