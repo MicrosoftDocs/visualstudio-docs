@@ -29,7 +29,7 @@ After you have registered your programs with the appropriate port, you must atta
   
    If you run your DE in the same process as the application to be debugged, then you must implement the following methods of [IDebugProgramNode2](../../extensibility/debugger/reference/idebugprogramnode2.md):  
   
-- [GetHostName](../../extensibility/debugger/reference/idebugprogramnode2-gethostname.md),  
+- [GetHostName](../../extensibility/debugger/reference/idebugprogramnode2-gethostname.md)  
   
 - [GetHostPid](../../extensibility/debugger/reference/idebugprogramnode2-gethostpid.md)  
   
