@@ -1,6 +1,6 @@
 ---
 title: Deploy to a local folder
-ms.date: 06/22/2018
+ms.date: 01/29/2019
 ms.topic: "quickstart"
 helpviewer_keywords:
   - "deployment, local folder"
@@ -17,6 +17,9 @@ You can use the **Publish** tool to publish ASP.NET, ASP.NET Core, .NET Core, an
 
 [!INCLUDE [quickstart-prereqs](includes/quickstart-prereqs.md)]
 
+> [!NOTE]
+> If you need to publish a Windows desktop application to a local folder, see [Deploy a desktop app using ClickOnce](how-to-publish-a-clickonce-application-using-the-publish-wizard.md) (C# or Visual Basic) or [Deploy a native app using ClickOnce](/cpp/ide/clickonce-deployment-for-visual-cpp-applications) (C++).
+
 ## Deploy to a local folder
 
 1. In Solution Explorer, right-click the project and choose **Publish** (or use the **Build** > **Publish** menu item).
@@ -27,7 +30,7 @@ You can use the **Publish** tool to publish ASP.NET, ASP.NET Core, .NET Core, an
 
 1. In the **Pick a publish target** dialog box, choose **Folder**.
 
-    ![Choose local folder as a publish taget](../deployment/media/quickstart-publish-folder.png "Choose Folder")
+    ![Choose local folder as a publish target](../deployment/media/quickstart-publish-folder.png "Choose Folder")
 
 1. Enter a path or select **Browse** to specify a local folder.
 

@@ -124,7 +124,10 @@ Tasks provide the code that runs during the build process. The tasks in the foll
  [GetAssemblyIdentity task](../msbuild/getassemblyidentity-task.md)  
  Retrieves the assembly identities from the specified files and outputs the identity information.  
 
- [GetFrameworkPath task](../msbuild/getframeworkpath-task.md)  
+ [GetFileHash task](../msbuild/getfilehash-task.md)  
+ Computes checksums of the contents of a file or set of files.
+
+[GetFrameworkPath task](../msbuild/getframeworkpath-task.md)  
  Retrieves the path to the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] assemblies.  
 
  [GetFrameworkSdkPath task](../msbuild/getframeworksdkpath-task.md)  
@@ -204,6 +207,9 @@ Tasks provide the code that runs during the build process. The tasks in the foll
 
  [Vbc task](../msbuild/vbc-task.md)  
  Invokes the Visual Basic compiler to produce executables, dynamic-link libraries, or code modules..  
+
+ [VerifyFileHash task](../msbuild/verifyfilehash-task.md)  
+ Verifies that a file matches the expected file hash.
 
  [Warning task](../msbuild/warning-task.md)  
  Logs a warning during a build based on an evaluated conditional statement.  
