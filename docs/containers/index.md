@@ -73,30 +73,8 @@ featureFlags:
                                                         <li>
                                                             <a class="barLink" href="https://docs.microsoft.com/dotnet/core/docker/building-net-docker-images"><img src="https://docs.microsoft.com/media/common/i_build.svg" alt="">Build Docker Images</a>
                                                         </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="cardSize">
-                                        <div class="cardPadding" style="padding-bottom: 0;">
-                                            <div class="card">
-                                                <div class="cardText">
-                                                    <h4>ASP.NET</h4>
-                                                    <ul class="noBullet">
                                                         <li><a class="barLink" href="https://docs.microsoft.com/aspnet/core/host-and-deploy/docker/visual-studio-tools-for-docker?view=aspnetcore-2.1"><img src="https://docs.microsoft.com/media/common/i_web.svg" alt="">ASP.NET Docker Tools</a></li>
                                                         <li><a class="barLink" href="https://docs.microsoft.com/azure/vs-azure-tools-docker-hosting-web-apps-in-docker"><img src="https://docs.microsoft.com/media/logos/logo_azure.svg" alt="">Deploy to Azure Container Registry</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="cardSize">
-                                        <div class="cardPadding" style="padding-bottom: 0;">
-                                            <div class="card">
-                                                <div class="cardText">
-                                                    <h4>Microservices</h4>
-                                                    <ul class="noBullet">
                                                         <li><a class="barLink" href="https://docs.microsoft.com/dotnet/standard/containerized-lifecycle-architecture/"><img src="https://docs.microsoft.com/media/common/i_architecture.svg" alt="">Microservices architecture guide</a></li>
                                                     </ul>
                                                 </div>
