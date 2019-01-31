@@ -248,7 +248,7 @@ Visual Studio provides several different tools to help you deploy your apps.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Deploy a desktop app using ClickOnce</h3>
+                        <h3>Deploy a desktop app using ClickOnce (C#)</h3>
                     </div>
                 </div>
             </div>
