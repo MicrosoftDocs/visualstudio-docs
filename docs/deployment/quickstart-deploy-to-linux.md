@@ -16,9 +16,9 @@ Starting in Visual Studio 2017 version 15.7, you can publish ASP.NET Core apps t
 
 * For continuous (or automated) deployment of apps, use Azure DevOps with [Azure Pipelines](https://docs.microsoft.com/azure/devops/pipelines/get-started-yaml?view=azdevops).
 
-* For one-time (or manual) deployment of apps, use the **Publish** tool in Visual Studio to publish ASP.NET Core apps to Azure App Service Linux (using containers).
+* For one-time (or manual) deployment of apps, use the **Publish** tool in Visual Studio to publish ASP.NET Core apps to App Service for Linux (using containers).
 
-This topic describes how to use the **Publish** tool for one-time deployment.
+This article describes how to use the **Publish** tool for one-time deployment.
 
 [!INCLUDE [quickstart-prereqs-azure-linux](includes/quickstart-prereqs-azure-linux.md)]
 
