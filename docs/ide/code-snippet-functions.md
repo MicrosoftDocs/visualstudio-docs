@@ -24,9 +24,9 @@ The following table describes the functions available for use with the `Function
 
 |Function|Description|Language|
 |--------------|-----------------|--------------|
-|`GenerateSwitchCases(` `EnumerationLiteral` `)`|Generates a switch statement and a set of case statements for the members of the enumeration specified by the `EnumerationLiteral` parameter. The `EnumerationLiteral` parameter must be either a reference to an enumeration literal or an enumeration type.|C#|
+|`GenerateSwitchCases(EnumerationLiteral)`|Generates a switch statement and a set of case statements for the members of the enumeration specified by the `EnumerationLiteral` parameter. The `EnumerationLiteral` parameter must be either a reference to an enumeration literal or an enumeration type.|C#|
 |`ClassName()`|Returns the name of the class that contains the inserted snippet.|C#|
-|`SimpleTypeName(` `TypeName` `)`|Reduces the *TypeName* parameter to its simplest form in the context in which the snippet was invoked.|C#|
+|`SimpleTypeName(TypeName)`|Reduces the *TypeName* parameter to its simplest form in the context in which the snippet was invoked.|C#|
 
 ## GenerateSwitchCases example
 
