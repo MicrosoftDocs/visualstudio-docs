@@ -42,7 +42,7 @@ This code generation applies to:
    - **Mouse**
       - Right-click and select the **Quick Actions and Refactorings** menu.
       - Hover over the red squiggle and click the ![error light bulb](media/error-bulb.png) icon that appears.
-      - Click the ![light bulb](media/error-bulb.png) icon that appears in the left margin if the text cursor is already on the line with the red squiggle.
+      - Click the ![error light bulb](media/error-bulb.png) icon that appears in the left margin if the text cursor is already on the line with the red squiggle.
 
       ![Generate field/property/local preview](media/field-preview-cs.png)
 
