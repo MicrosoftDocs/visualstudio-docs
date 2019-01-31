@@ -19,6 +19,55 @@ featureFlags:
             <li>
                 <table>
                     <tr>
+                        <td>
+                            <ul id="visualstudio" class="cardsL">
+                                <li>
+                                    <div class="cardSize">
+                                        <div class="cardPadding" style="padding-bottom: 0;">
+                                            <div class="card">
+                                                <div class="cardText">
+                                                    <h3>Visual Studio Tools</h3>
+                                                    <ul class="noBullet">
+                                                        <li><a class="barLink" href="/visualstudio/docker/"><img src="https://docs.microsoft.com/media/logos/logo_docker.svg" alt="">Docker Tools in Visual Studio</a></li>
+                                                        <li><a class="barLink" href="https://docs.microsoft.com/visualstudio/install/build-tools-container"><img src="https://docs.microsoft.com/media/common/i_build.svg" alt="">Running build tools in a container</a></li>
+                                                        <li><a class="barLink" href="/visualstudio/deployment/tutorial-kubernetes-tools"><img src="https://docs.microsoft.com/media/logos/logo_kubernetes.svg" alt="">Visual Studio Tools for Kubernetes</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cardSize">
+                                        <div class="cardPadding" style="padding-bottom: 0;">
+                                            <div class="card">
+                                                <div class="cardText">
+                                                    <h3>Other sites</h3>
+                                                    <ul class="noBullet">
+                                                        <li><a class="barLink" href="http://www.docker.com/docker-windows"><img src="https://docs.microsoft.com/media/logos/logo_docker.svg" alt="">Docker for Windows</a></li>
+                                                        <li><a class="barLink" href="https://kubernetes.io"><img src="https://docs.microsoft.com/media/logos/logo_kubernetes.svg" alt="">Kubernetes</a></li>
+                                                        <li><a class="barLink" href="https://helm.sh"><img src="media/helm-logo.png" alt="">Helm</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cardSize">
+                                        <div class="cardPadding" style="padding-bottom: 0;">
+                                        <div class="card">
+                                            <div class="cardText">
+                                                <h4>Videos</h4>
+                                                <ul class="noBullet">
+                                                    <li>
+                                                        <a class="barLink" href="https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2017-Launch/T111">
+                                                        <img src="https://docs.microsoft.com/media/common/i_video.svg" alt="">
+                                                        Channel 9: Docker Development
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </td>
                         <td width="33%">
                             <ul id="dotnet" class="cardsL">
                                 <li>
@@ -105,55 +154,6 @@ featureFlags:
                                                     </ul>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </td>
-                        <td>
-                            <ul id="visualstudio" class="cardsL">
-                                <li>
-                                    <div class="cardSize">
-                                        <div class="cardPadding" style="padding-bottom: 0;">
-                                            <div class="card">
-                                                <div class="cardText">
-                                                    <h3>Visual Studio Tools</h3>
-                                                    <ul class="noBullet">
-                                                        <li><a class="barLink" href="/visualstudio/docker/"><img src="https://docs.microsoft.com/media/logos/logo_docker.svg" alt="">Docker Tools in Visual Studio</a></li>
-                                                        <li><a class="barLink" href="https://docs.microsoft.com/visualstudio/install/build-tools-container"><img src="https://docs.microsoft.com/media/common/i_build.svg" alt="">Running build tools in a container</a></li>
-                                                        <li><a class="barLink" href="/visualstudio/deployment/tutorial-kubernetes-tools"><img src="https://docs.microsoft.com/media/logos/logo_kubernetes.svg" alt="">Visual Studio Tools for Kubernetes</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="cardSize">
-                                        <div class="cardPadding" style="padding-bottom: 0;">
-                                            <div class="card">
-                                                <div class="cardText">
-                                                    <h3>Other sites</h3>
-                                                    <ul class="noBullet">
-                                                        <li><a class="barLink" href="http://www.docker.com/docker-windows"><img src="https://docs.microsoft.com/media/logos/logo_docker.svg" alt="">Docker for Windows</a></li>
-                                                        <li><a class="barLink" href="https://kubernetes.io"><img src="https://docs.microsoft.com/media/logos/logo_kubernetes.svg" alt="">Kubernetes</a></li>
-                                                        <li><a class="barLink" href="https://helm.sh"><img src="media/helm-logo.png" alt="">Helm</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="cardSize">
-                                        <div class="cardPadding" style="padding-bottom: 0;">
-                                        <div class="card">
-                                            <div class="cardText">
-                                                <h4>Videos</h4>
-                                                <ul class="noBullet">
-                                                    <li>
-                                                        <a class="barLink" href="https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2017-Launch/T111">
-                                                        <img src="https://docs.microsoft.com/media/common/i_video.svg" alt="">
-                                                        Channel 9: Docker Development
-                                                    </a>
-                                                </li>
-                                            </ul>
                                         </div>
                                     </div>
                                 </li>
