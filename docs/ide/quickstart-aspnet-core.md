@@ -1,7 +1,7 @@
 ---
 title: "Create an ASP.NET Core web app in C#"
 description: "Learn how to create a simple Hello World web app in Visual Studio with C# and ASP.NET Core, step-by-step."
-ms.date: 01/31/2019
+ms.date: 02/01/2019
 ms.prod: visual-studio-dev15
 ms.custom: "mvc,seodec18"
 ms.topic: quickstart
@@ -13,8 +13,6 @@ dev_langs:
 ms.workload:
   - "aspnet"
   - "dotnetcore"
-experimental: true
-experiment_id: "bef9e21b-00d0-4b"
 ---
 # Quickstart: Use Visual Studio to create your first ASP.NET Core web app
 
