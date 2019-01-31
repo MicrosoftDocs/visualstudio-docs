@@ -77,6 +77,11 @@ public void Debit(double amount)
 
 1. On the **File** menu, select **Add** > **New Project**.
 
+   > [!TIP]
+   > There are a couple other ways to add an additional project to an existing solution. You can right-click on the solution in **Solution Explorer** and choose **Add** > **New Project**. Or, you can select **File** > **New** > **Project**, and then, in the **New Project** dialog, select the **Add to solution** option:
+   >
+   > ![Add to solution option in New Project dialog](media/add-to-solution.png)
+
 2. In the **New Project** dialog box, expand **Installed**, expand **Visual C#**, and then choose **Test**.
 
 3. From the list of templates, select **Unit Test Project**.
