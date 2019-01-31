@@ -47,24 +47,24 @@ Deployment to a local folder is typically used for testing, or to begin a staged
 
   - For continuous (or automated) deployment of apps, use Azure DevOps with [Azure Pipelines](https://docs.microsoft.com/azure/devops/pipelines/get-started-yaml?view=azdevops).
 
-  - For one-time (or manual) deployment of apps, use the **Publish** tool in Visual Studio. For Python apps, follow the steps on [Python - Publish to Azure App Service](../python/publishing-python-web-applications-to-azure-from-visual-studio.md).
+  - For one-time (or manual) deployment of apps, use the **Publish** tool in Visual Studio.
 
-For deployment that provides more customized configuration of the server, you can also use the **Publish** tool to deploy apps to an Azure Virtual Machine.
+  For deployment that provides more customized configuration of the server, you can also use the **Publish** tool to deploy apps to an Azure Virtual Machine.
 
-To use the **Publish** tool, right-click the project in Solution Explorer and choose **Publish**. (If you have previously configured any publishing profiles, you must then click **Create new profile**.) In the Publish dialog box, choose either **App Service** or **Azure Virtual Machines**, and then follow the configuration steps.
+  To use the **Publish** tool, right-click the project in Solution Explorer and choose **Publish**. (If you have previously configured any publishing profiles, you must then click **Create new profile**.) In the Publish dialog box, choose either **App Service** or **Azure Virtual Machines**, and then follow the configuration steps.
 
-    ![Choose Azure App Service](../deployment/media/quickstart-publish-azure.png "Choose Azure App Service")
+  ![Choose Azure App Service](../deployment/media/quickstart-publish-azure.png "Choose Azure App Service")
 
-    Starting in Visual Studio 2017 version 15.7, you can deploy ASP.NET Core apps to **App Service for Linux**.
+  Starting in Visual Studio 2017 version 15.7, you can deploy ASP.NET Core apps to **App Service for Linux**.
 
-    For Python apps, also see [Python - Publishing to Azure App Service](../python/publishing-python-web-applications-to-azure-from-visual-studio.md?toc=/visualstudio/deployment/toc.json&bc=/visualstudio/deployment/_breadcrumb/toc.json).
+  For Python apps, also see [Python - Publishing to Azure App Service](../python/publishing-python-web-applications-to-azure-from-visual-studio.md?toc=/visualstudio/deployment/toc.json&bc=/visualstudio/deployment/_breadcrumb/toc.json).
 
-    For a quick introduction, see [Publish to Azure](quickstart-deploy-to-azure.md) and [Publish to Linux](quickstart-deploy-to-linux.md). Also, see [Publish an ASP.NET Core app to Azure](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs). For deployment using Git, see [Continuous deployment of ASP.NET Core to Azure with Git](/aspnet/core/publishing/azure-continuous-deployment).
+  For a quick introduction, see [Publish to Azure](quickstart-deploy-to-azure.md) and [Publish to Linux](quickstart-deploy-to-linux.md). Also, see [Publish an ASP.NET Core app to Azure](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs). For deployment using Git, see [Continuous deployment of ASP.NET Core to Azure with Git](/aspnet/core/publishing/azure-continuous-deployment).
 
-    For information on importing a publish profile from Azure App Service to Visual Studio, see [Import publish settings and deploy to Azure](../deployment/tutorial-import-publish-settings-azure.md).
+  For information on importing a publish profile from Azure App Service to Visual Studio, see [Import publish settings and deploy to Azure](../deployment/tutorial-import-publish-settings-azure.md).
 
-    > [!NOTE]
-    > If you do not already have an Azure account, you can [sign up here](https://azure.microsoft.com/free/?ref=microsoft.com&utm_source=microsoft.com&utm_medium=doc&utm_campaign=visualstudio).
+  > [!NOTE]
+  > If you do not already have an Azure account, you can [sign up here](https://azure.microsoft.com/free/?ref=microsoft.com&utm_source=microsoft.com&utm_medium=doc&utm_campaign=visualstudio).
 
 ## Publish to Web or deploy to network share
 
