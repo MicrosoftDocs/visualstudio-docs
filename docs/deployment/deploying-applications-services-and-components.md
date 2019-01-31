@@ -2,7 +2,7 @@
 title: "Deployment feature tour"
 description: "Learn about your options for deploying apps from Visual Studio."
 ms.custom: "mvc"
-ms.date: 06/22/2018
+ms.date: 01/29/2019
 ms.topic: "quickstart"
 dev_langs:
   - "FSharp"

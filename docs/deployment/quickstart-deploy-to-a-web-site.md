@@ -1,6 +1,6 @@
 ---
 title: Publish to a website
-ms.date: 06/22/2018
+ms.date: 01/29/2019
 ms.topic: "quickstart"
 helpviewer_keywords:
   - "deployment, website"
