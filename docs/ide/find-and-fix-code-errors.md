@@ -83,9 +83,9 @@ Any new or updated warnings appear in the **Error List** tab at the bottom of th
 
 ![Visual Studio Error List with Warnings](../ide/media/cpp-code-analysis-warning.png)
 
-## Use light bulbs to fix or refactor code
+## Use Quick Actions to fix or refactor code
 
-[Quick Actions](../ide/quick-actions.md), available from the light bulb or screwdriver icon, let you refactor code inline. They are an easy way to fix common warnings quickly and effectively in C#, C++, and Visual Basic code. To access them, right-click on a warning squiggle and select **Quick Actions and refactorings**. Or, when your cursor is on the line with the colored squiggle, press **Ctrl**+**.** or select the light bulb or screwdriver icon in the margin. You'll see a list of possible fixes or refactorings you can apply to that line of code.
+[Quick Actions](../ide/quick-actions.md), available from the light bulb or screwdriver icon, let you refactor code inline. They are an easy way to fix common warnings quickly and effectively in C#, C++, and Visual Basic code. To access them, right-click on a warning squiggle and select **Quick Actions and refactorings**. Or, when your cursor is on the line with the colored squiggle, press **Ctrl**+**.** or select the light bulb, error light bulb, or screwdriver icon in the margin. You'll see a list of possible fixes or refactorings you can apply to that line of code.
 
 ![Visual Studio light bulb preview](../ide/media/quick-actions-options.png)
 
