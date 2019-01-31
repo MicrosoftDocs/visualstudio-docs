@@ -51,14 +51,12 @@ To start, you'll create an ASP.NET Core web application project. The project typ
    >
    > (You might have to close Visual Studio before you can continue installing the new workload.)
 
-1. In the **New ASP.NET Core Web Application** dialog box, select **ASP.NET Core 2.1** from the top drop-down menu.
+1. In the **New ASP.NET Core Web Application** dialog box, select **ASP.NET Core 2.1** from the top drop-down menu. Next, choose **Web Application**, and then choose **OK**.
+
+   ![New ASP.NET Core Web Application dialog box](../ide/media/aspnet-core-2dot1.png)
 
    > [!NOTE]
    > If you don't see **ASP.NET Core 2.1** or later, make sure that you are running the most recent release of Visual Studio. For more information about how to update your installation, see the [Update Visual Studio 2017 to the most recent release](../install/update-visual-studio.md) page.
-
-1. Next, choose **Web Application**, and then choose **OK**.
-
-   ![New ASP.NET Core Web Application dialog box](../ide/media/aspnet-core-2dot1.png)
 
 Soon after, Visual Studio opens your project file.
 
@@ -94,14 +92,22 @@ Soon after, Visual Studio opens your project file.
 
 1. Choose **IIS Express** or press **Ctrl**+**F5** to run the app and open it in a web browser.
 
-   ![View the animated .gif file that shows how to create and run a C# ASP.NET Core web app in Visual Studio](../ide/media/csharp-aspnet-animated-hello-world.gif)
+   ![Select the IIS Express button in Visual Studio](../ide/media/csharp-aspnet-helloworld-iisbutton.png)
 
    > [!NOTE]
-   > If you get an error message that says, **Unable to connect to web server 'IIS Express'**, or an error message that mentions an SSL certificate, close Visual Studio. Next, open Visual Studio by using the **Run as administrator** option from the right-click or context menu. Then, run the application again.
+   > If you get an error message that says, **Unable to connect to web server 'IIS Express'**, or an error message that mentions an SSL certificate, close Visual Studio. Next, open Visual Studio by using the **Run as administrator** option from the right-click context menu. Then, run the application again.
 
 1. In the web browser, verify that the **About** page includes your updated text.
 
+   ![View the updated About page that includes the changes you made](../ide/media/csharp-aspnet-about-page-hello-world.png)
+
 1. Close the web browser.
+
+### Review your work
+
+View the following animation to check the work that you completed in the previous section.
+
+  ![View the animated .gif file that shows how to create and run a simple C# ASP.NET Core web app in Visual Studio](../ide/media/csharp-aspnet-animated-hello-world.gif)
 
 Congratulations on completing this Quickstart! We hope you learned a little bit about C#, ASP.NET Core, and the Visual Studio IDE (integrated development environment).
 
