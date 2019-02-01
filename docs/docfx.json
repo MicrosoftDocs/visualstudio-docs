@@ -111,7 +111,7 @@
         "profiling/**/**.md": "vs-ide-debug",
         "python/**/**.md": "vs-python",
         "rtvs/**/**.md": "vs-rtvs",
-        "sharepoint/**/**.md": "office-development",
+        "sharepoint/**/**.md": "sharepoint-development",
         "test/**/**.md": "vs-ide-test",
         "vsto/**/**.md": "office-development",
         "workflow-designer/**/**.md": "vs-workflow-designer",
