@@ -31,7 +31,7 @@ A publish settings file (*\*.publishsettings*) is different than a publishing pr
 
 ## Prerequisites
 
-* You must have Visual Studio 2017 installed and the **ASP.NET** and .**NET Framework** development workload. For a .NET Core app, you also need the .**NET Core** workload.
+* You must have Visual Studio 2017 installed and the **ASP.NET and web development** workload.
 
     If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
 
@@ -41,9 +41,9 @@ A publish settings file (*\*.publishsettings*) is different than a publishing pr
 
 1. On the computer running Visual Studio, choose **File** > **New Project**.
 
-1. Under **Visual C#** or **Visual Basic**, choose **Web**, and then in the middle pane choose either **ASP.NET Web Application (.NET Framework)** or (C# only) **ASP.NET Core Web Application**, and then click **OK**.
+1. Under **Visual C#** or **Visual Basic**, choose **Web**, and then in the middle pane choose either **ASP.NET Web Application (.NET Framework)** or (for C# only) **ASP.NET Core Web Application**, and then click **OK**.
 
-    If you don't see the specified project templates, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. See the prerequisites in this article to identify the required Visual Studio workloads, which you must install.
+    If you don't see the specified project templates, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Install the **ASP.NET and web development** workload.
 
 1. Choose either **MVC** (.NET Framework) or **Web Application (Model-View-Controller)** (for .NET Core), and make sure that **No Authentication** is selected, and then click **OK**.
 
