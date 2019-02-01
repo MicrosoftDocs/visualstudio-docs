@@ -8,7 +8,6 @@ ms.prod: visual-studio-dev15
 ms.technology: vs-azure
 ms.topic: include
 ---
-# Quickstart: Visual Studio Tools for Docker
 
 With Visual Studio 2017, you can easily build, debug, and run containerized ASP.NET Core apps and publish them to Azure Container Registry (ACR), Docker Hub, Azure App Service, or your own container registry. In this article, we'll publish to ACR.
 
