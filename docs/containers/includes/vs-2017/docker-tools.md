@@ -31,7 +31,7 @@ For Docker installation, first review the information at [Docker Desktop for Win
 1. Select **Web Application**.
 1. Check the **Enable Docker Support** checkbox.
 
-   ![Enable Docker Support check box](media/docker-tools/enable-docker-support.PNG)
+   ![Enable Docker Support check box](../../media/docker-tools/enable-docker-support.PNG)
 
 1. Select the type of container you want (Windows or Linux) and click **OK**.
 
@@ -121,7 +121,7 @@ You can now pull the container from the registry to any host capable of running 
 ## Additional resources
 
 * [Container development with Visual Studio](/visualstudio/containers)
-* [Troubleshoot Visual Studio 2017 development with Docker](vs-azure-tools-docker-troubleshooting-docker-errors.md)
+* [Troubleshoot Visual Studio 2017 development with Docker](../../vs-azure-tools-docker-troubleshooting-docker-errors.md)
 * [Visual Studio Tools for Docker GitHub repository](https://github.com/Microsoft/DockerTools)
 
-[0]:media/vs-azure-tools-docker-hosting-web-apps-in-docker/vs-acr-provisioning-dialog.png
+[0]:../../media/vs-azure-tools-docker-hosting-web-apps-in-docker/vs-acr-provisioning-dialog.png
