@@ -10,13 +10,15 @@ ms.topic: include
 ---
 # Quickstart: Visual Studio Tools for Docker
 
-::: moniker-range="vs-2017"
+::: moniker range="vs-2017"
 
-[!includes[Visual Studio Docker Tools](include/vs-2017/docker-tools.md)]
+[!include[Visual Studio Docker Tools](includes/vs-2017/docker-tools.md)]
 
-::: monker-range=">= vs-2019"
+::: moniker-end
 
-[!includes[Visual Studio Docker Tools](include/vs-2019/docker-tools.md)]
+::: moniker range=">= vs-2019"
+
+[!include[Visual Studio Docker Tools](includes/vs-2019/docker-tools.md)]
 
 ::: moniker-end
 
