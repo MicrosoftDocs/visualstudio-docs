@@ -248,7 +248,7 @@ Visual Studio provides several different tools to help you deploy your apps.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Deploy a desktop app using ClickOnce</h3>
+                        <h3>Deploy a desktop app using ClickOnce (C#)</h3>
                     </div>
                 </div>
             </div>
@@ -256,7 +256,7 @@ Visual Studio provides several different tools to help you deploy your apps.
         </a>
     </li>
     <li>
-        <a href="/cpp/ide/deployment-in-visual-cpp">
+        <a href="/cpp/ide/walkthrough-deploying-a-visual-cpp-application-by-using-a-setup-project">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -266,7 +266,25 @@ Visual Studio provides several different tools to help you deploy your apps.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Learn about deployment in Visual C++</h3>
+                        <h3>Deploy a C/C++ app</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="/cpp/ide/clickonce-deployment-for-visual-cpp-applications">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/media/logos/logo_Cplusplus.svg" alt="Learn about deployment in Visual C++">
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Deploy a C++/CLR app</h3>
                     </div>
                 </div>
             </div>
