@@ -43,7 +43,7 @@ The results are generated and the **Code Metrics Results** window is displayed. 
 
 ## Command-line code metrics
 
-You can generate code metrics data from the command line for C# and Visual Basic projects for .NET Framework, .NET Core, and .NET Standard apps. To run code metrics from the command line, install the [Microsoft.CodeAnalysis.Metrics NuGet package](#microsoft-codeanalysis-metrics-nuget-package) or build the [Metrics.exe](#metrics-exe) executable yourself.
+You can generate code metrics data from the command line for C# and Visual Basic projects for .NET Framework, .NET Core, and .NET Standard apps. To run code metrics from the command line, install the [Microsoft.CodeAnalysis.Metrics NuGet package](#microsoftcodeanalysismetrics-nuget-package) or build the [Metrics.exe](#metricsexe) executable yourself.
 
 ### Microsoft.CodeAnalysis.Metrics NuGet package
 
@@ -93,53 +93,6 @@ Build succeeded.
     0 Warning(s)
     0 Error(s)
 ```
-
-### Metrics.exe
-
-You can use the *Metrics.exe* executable to generate code metrics data from the command line.
-
-First, generate the *Metrics.exe* executable:
-
-1. Clone the [dotnet/roslyn-analyzers](https://github.com/dotnet/roslyn-analyzers) repo.
-2. Open Developer Command Prompt for Visual Studio as an administrator.
-3. From the root of the **roslyn-analyzers** repo, execute the following command: `Restore.cmd`
-4. Change directory to *src\Tools*.
-5. Execute the following command to build the **Metrics.csproj** project:
-
-   ```shell
-   msbuild /m /v:m /p:Configuration=Release Metrics.csproj
-   ```
-
-   An executable named *Metrics.exe* is generated in the *artifacts\bin* directory under the repo root.
-
-   > [!TIP]
-   > To build *Metrics.exe* in [legacy mode](#legacy-mode), execute the following command:
-   >
-   > ```shell
-   > msbuild /m /v:m /t:rebuild /p:LEGACY_CODE_METRICS_MODE=true Metrics.csproj
-   > ```
-
-#### Usage
-
-To run *Metrics.exe*, supply a project or solution and an output XML file as arguments. For example:
-
-```shell
-C:\>Metrics.exe /project:ConsoleApp20.csproj /out:report.xml
-Loading ConsoleApp20.csproj...
-Computing code metrics for ConsoleApp20.csproj...
-Writing output to 'report.xml'...
-Completed Successfully.
-```
-
-#### Legacy mode
-
-You can choose to build *Metrics.exe* in *legacy mode*. The legacy mode version of the tool generates metric values that are closer to what [older versions of the tool generated](#previous-versions). Additionally, in legacy mode, *Metrics.exe* generates code metrics for the same set of method types that previous versions of the tool generated code metrics for. For example, it doesn't generate code metrics data for field and property initializers. Legacy mode is useful for backwards compatibility or if you have code check-in gates based on code metrics numbers. The command to build *Metrics.exe* in legacy mode is:
-
-```shell
-msbuild /m /v:m /t:rebuild /p:LEGACY_CODE_METRICS_MODE=true Metrics.csproj
-```
-
-For more information, see [Enable generating code metrics in legacy mode](https://github.com/dotnet/roslyn-analyzers/pull/1841).
 
 ### Code metrics output
 
@@ -195,6 +148,44 @@ The generated XML output takes the following format:
   </Targets>
 </CodeMetricsReport>
 ```
+
+### Metrics.exe
+
+If you don't want to install the NuGet package, you can generate and use the *Metrics.exe* executable directly. To generate the *Metrics.exe* executable:
+
+1. Clone the [dotnet/roslyn-analyzers](https://github.com/dotnet/roslyn-analyzers) repo.
+2. Open Developer Command Prompt for Visual Studio as an administrator.
+3. From the root of the **roslyn-analyzers** repo, execute the following command: `Restore.cmd`
+4. Change directory to *src\Tools*.
+5. Execute the following command to build the **Metrics.csproj** project:
+
+   ```shell
+   msbuild /m /v:m /p:Configuration=Release Metrics.csproj
+   ```
+
+   An executable named *Metrics.exe* is generated in the *artifacts\bin* directory under the repo root.
+
+#### Metrics.exe usage
+
+To run *Metrics.exe*, supply a project or solution and an output XML file as arguments. For example:
+
+```shell
+C:\>Metrics.exe /project:ConsoleApp20.csproj /out:report.xml
+Loading ConsoleApp20.csproj...
+Computing code metrics for ConsoleApp20.csproj...
+Writing output to 'report.xml'...
+Completed Successfully.
+```
+
+#### Legacy mode
+
+You can choose to build *Metrics.exe* in *legacy mode*. The legacy mode version of the tool generates metric values that are closer to what [older versions of the tool generated](#previous-versions). Additionally, in legacy mode, *Metrics.exe* generates code metrics for the same set of method types that previous versions of the tool generated code metrics for. For example, it doesn't generate code metrics data for field and property initializers. Legacy mode is useful for backwards compatibility or if you have code check-in gates based on code metrics numbers. The command to build *Metrics.exe* in legacy mode is:
+
+```shell
+msbuild /m /v:m /t:rebuild /p:LEGACY_CODE_METRICS_MODE=true Metrics.csproj
+```
+
+For more information, see [Enable generating code metrics in legacy mode](https://github.com/dotnet/roslyn-analyzers/pull/1841).
 
 ### Previous versions
 
