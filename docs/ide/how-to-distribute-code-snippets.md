@@ -18,7 +18,7 @@ ms.workload:
 
 You can give your code snippets to your friends and have them install the snippets on their own computers by using **Code Snippets Manager**. However, if you have several snippets to distribute or would like to distribute them more widely, you include your snippet file in a Visual Studio extension. Visual Studio users can then install the extension.
 
-You must install the Visual Studio SDK in order to create Visual Studio extensions. Find the version of the VSSDK that matches your Visual Studio installation at [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017).
+You must install the Visual Studio SDK in order to create Visual Studio extensions. Find the version of the VSSDK that matches your Visual Studio installation at [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017).
 
 ## Set up the extension
 
