@@ -26,6 +26,9 @@ This refactoring applies to:
 
 **Why:** Placing a type in a file with a different name, or vice-versa, it difficult to find what you're looking for. By renaming either the type or filename, code becomes more readable and easier to navigate.
 
+> [!NOTE]
+> This refactoring is not yet available for .NET Standard and .NET Core projects.
+
 ## How-to
 
 1. Highlight or place the text cursor inside the name of the type to synchronize:
@@ -56,9 +59,6 @@ This refactoring applies to:
    - Visual Basic: In the example below, the file **Employee.vb** was renamed to **Person.vb** to match the type name.
 
        ![Inline result Visual Basic](media/synctype-result-vb.png)
-
-> [!NOTE]
-> This refactoring is not yet available for .NET Standard and .NET Core projects.
 
 ## See also
 
