@@ -20,7 +20,7 @@ This article provides some suggestions to try if you find that Visual Studio is 
 
 ## Upgrade to Visual Studio 2017 version 15.6 or later
 
-If you are currently using Visual Studio 2015, download [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) for free to check out its improved performance. Solutions load two to three times faster in Visual Studio 2017, with performance improvements in other areas too. Visual Studio 2017 is side-by-side compatible with Visual Studio 2015, so you won't lose anything by trying it out.
+If you are currently using Visual Studio 2015, download [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) for free to check out its improved performance. Solutions load two to three times faster in Visual Studio 2017, with performance improvements in other areas too. Visual Studio 2017 is side-by-side compatible with Visual Studio 2015, so you won't lose anything by trying it out.
 
 If you are currently using Visual Studio 2017, make sure you are running version 15.6 or later. Data shows that solutions load up to two or three times faster in version 15.6. Download it [here](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017).
 
