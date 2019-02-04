@@ -57,7 +57,7 @@ This refactoring applies to:
 
        ![Inline result Visual Basic](media/synctype-result-vb.png)
 
-> ![NOTE]
+> [!NOTE]
 > This refactoring is not yet available for .NET Standard and .NET Core projects.
 
 ## See also
