@@ -27,10 +27,7 @@ IDebugLoadCompleteEvent2 : IUnknown
   
 ## Notes for Callers  
  The DE creates and sends this event object to report that a program has been successfully loaded. The event is sent by using the [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md) callback function that is supplied by the SDM when it attached to the program being debugged.  
-  
-## Remarks  
- This event is a stopping event and must have the `EVENT_STOPPING` flag set on the event attributes.  
-  
+   
 ## Requirements  
  Header: msdbg.h  
   
