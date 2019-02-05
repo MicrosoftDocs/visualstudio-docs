@@ -1,16 +1,14 @@
 ---
 title: Tour of the Visual Studio IDE
 titleSuffix: ""
-ms.date: 07/12/2018
+ms.date: 02/05/2019
 ms.prod: visual-studio-dev15
 ms.topic: quickstart
-author: gewarren
-ms.author: gewarren
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
   - "multiple"
-experimental: true
-experiment_id: "7b7f8053-75fc-4d"
 ---
 # First look at the Visual Studio IDE
 
@@ -94,7 +92,7 @@ The **Quick Launch** box is a quick and easy way to do pretty much anything in V
 
 Should you encounter any problems while you're using Visual Studio, or if you have suggestions for how to improve the product, you can use the **Send Feedback** menu at the top of the Visual Studio window, next to the **Quick Launch** box.
 
-![Send Feedback menu in Visual Studio](../ide/media/quickstart-IDE-send-feedback.png)
+![Send Feedback menu in Visual Studio](../ide/media/quickstart-ide-send-feedback.png)
 
 ## Next steps
 
