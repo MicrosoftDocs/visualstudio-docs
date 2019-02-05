@@ -27,8 +27,7 @@ For example, you might have an unreliable internet connection or one that has lo
 
 ## Use the "Download all, then install" feature
 
-[**New in 15.8**](/visualstudio/releasenotes/vs2017-relnotes?context=visualstudio/default&contextView=vs-2017#install
-): After you download the web installer, select the new **Download all, then install** option from the Visual Studio Installer. Then, continue with your installation.
+[**New in 15.8**](visualstudio/releasenotes/vs2017-relnotes-v15.8#install): After you download the web installer, select the new **Download all, then install** option from the Visual Studio Installer. Then, continue with your installation.
 
    ![The "Download all, then install" option](media/download-all-then-install.png)
 
