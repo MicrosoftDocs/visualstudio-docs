@@ -25,7 +25,7 @@ ms.workload:
   - "multiple"
 ---
 
-# Quickstart: First look at deployment in Visual Studio
+# First look at deployment in Visual Studio
 
 By deploying an application, service, or component, you distribute it for installation on other computers, devices, or servers, or in the cloud. You choose the appropriate method in Visual Studio for the type of deployment that you need. (Many app types support other deployment tools such as command line deployment or NuGet that are not described here.)
 
