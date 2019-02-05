@@ -94,14 +94,14 @@ The **Quick Launch** box is a quick and easy way to do pretty much anything in V
 
 Should you encounter any problems while you're using Visual Studio, or if you have suggestions for how to improve the product, you can use the **Send Feedback** menu at the top of the Visual Studio window, next to the **Quick Launch** box.
 
-![Send Feedback menu in Visual Studio](media/quickstart-IDE-send-feedback.png)
+![Send Feedback menu in Visual Studio](../ide/media/quickstart-IDE-send-feedback.png)
 
 ## Next steps
 
 We've looked at just a few of the features of Visual Studio to get acquainted with the user interface. To explore further:
 
 > [!div class="nextstepaction"]
-> [Learn about the code editor](../get-started/write-and-edit-code.md)
+> [Learn about the code editor](write-and-edit-code.md)
 
 > [!div class="nextstepaction"]
 > [Learn about projects and solutions](../get-started/tutorial-projects-solutions.md)
