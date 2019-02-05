@@ -31,23 +31,47 @@ In this tutorial, you will:
 
 * Snapshot Debugger is only available for Visual Studio 2017 Enterprise version 15.5 or higher with the **Azure development workload**. (Under the **Individual components** tab, you find it under **Debugging and testing** > **Snapshot debugger**.)
 
+::: moniker range="<= vs-2017"
     If it's not already installed, install [Visual Studio 2017 Enterprise version 15.5](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) or later. If you are updating from a previous Visual Studio 2017 installation, run the Visual Studio Installer and check the Snapshot Debugger component in the **ASP.NET and web development workload**.
+::: moniker-end
 
-* Basic or higher Azure App Service plan.
+::: moniker range=">= vs-2019"
+    If it's not already installed, install [Visual Studio 2019 Enterprise preview](https://visualstudio.microsoft.com/vs/preview/).
+::: moniker-end
 
-* Snapshot collection is available for the following web apps running in Azure App Service:
+* Snapshot collection is available for the following web apps running Azure services:
 
-    * ASP.NET applications running on .NET Framework 4.6.1 or later.
-    * ASP.NET Core applications running on .NET Core 2.0 or later on Windows.
+    * Azure App Service - ASP.NET applications running on .NET Framework 4.6.1 or later (Basic or higher service plan).
+    * Azure App Service - ASP.NET Core applications running on .NET Core 2.0 or later on Windows (Basic or higher service plan).
+::: moniker range=">= vs-2019" 
+    * Azure Virtual Machines (and VMSS) - ASP.NET applications running on .NET Framework 4.6.1 or later.
+    * Azure Virtual Machines (and VMSS) - ASP.NET Core applications running on .NET Core 2.0 or later on Windows.
+    * Azure Kubernetes Services - ASP.NET Core applications running on .NET Core 2.2 or later on Linux.
+::: moniker-end
 
 ## Open your project and start the Snapshot Debugger
 
 1. Open the project you would like to snapshot debug.
 
     > [!IMPORTANT]
-    > To snapshot debug, you need to open the **same version of source code** that is published to your Azure App Service.
+    > To snapshot debug, you need to open the **same version of source code** that is published to your Azure service.
+::: moniker range="<= vs-2017"
 
 1. In the Cloud Explorer (**View > Cloud Explorer**), right-click the Azure App Service your project is deployed to and select **Attach Snapshot Debugger**.
+
+::: moniker-end
+::: moniker range=">= vs-2019"
+
+1. There are several ways to attach the Snapshot Debugger.
+    1. Choose **Debug > Attach Snapshot Debugger...**. Select the Azure resource your project is deployed to and an Azure storage account then click **Attach**.
+
+    1. Right click on your project and select **Publish**, on the Publish page click **Attach Snapshot Debugger**. Select the Azure resource your project is deployed to and an Azure storage account then click **Attach**.
+
+    1. In the Debug target dropdown menu select **Snapshot Debugger**, hit **F5** and if required select the Azure resource your project is deployed to and an Azure storage account then click **Attach**.
+
+    1. Using the Cloud Explorer (**View > Cloud Explorer**), right-click the Azure App Service your project is deployed to and an Azure storage account then click **Attach Snapshot Debugger**.
+
+::: moniker-end
 
    ![Launch the snapshot debugger](../debugger/media/snapshot-launch.png)
 
@@ -70,7 +94,7 @@ In this tutorial, you will:
 
    ![Set a snappoint](../debugger/media/snapshot-set-snappoint.png)
 
-2. Click **Start Collection** to turn on the snappoint.
+1. Click **Start Collection** to turn on the snappoint.
 
    ![Turn on the snappoint](../debugger/media/snapshot-start-collection.png)
 
