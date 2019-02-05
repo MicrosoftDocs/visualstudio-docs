@@ -34,7 +34,7 @@ For example, you might have an unreliable internet connection or one that has lo
 We designed the "Download all, then install" feature so that you can download Visual Studio as a single installation for the same computer on which you downloaded it. That way, you can safely disconnect from the web before you install Visual Studio.
 
 > [!IMPORTANT]
-> Do not use the "Download all, then install" feature to create an offline cache that you intend to transfer to or install from another computer, as it's not designed to work that way. If you want to create an offline cache to allow others to install from, or to install from another machine, please see the [Use the command line to create a local cache](../install/create-an-offline-installation-of-visual-studio?view=vs-2017#use-the-command-line-to-create-a-local-cache) section on this page. Or, if you want to create a network install cache, see the [Create a network installation of Visual Studio 2017](../install/create-a-network-installation-of-visual-studio.md) page.
+> Do not use the "Download all, then install" feature to create an offline cache that you intend to transfer to another computer, as it's not designed to work that way. If you want to create an offline cache to install Visual Studio on another computer, see the [Use the command line to create a local cache](create-an-offline-installation-of-visual-studio#use-the-command-line-to-create-a-local-cache) section of this page for information about how to create a local cache, or the [Create a network installation of Visual Studio 2017](../install/create-a-network-installation-of-visual-studio.md) page for information about how to create a network cache.
 
 ## Use the command line to create a local cache
 
