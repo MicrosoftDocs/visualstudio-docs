@@ -27,14 +27,14 @@ For example, you might have an unreliable internet connection or one that has lo
 
 ## Use the "Download all, then install" feature
 
-[**New in 15.8**](visualstudio/releasenotes/vs2017-relnotes-v15.8#install): After you download the web installer, select the new **Download all, then install** option from the Visual Studio Installer. Then, continue with your installation.
+[**New in 15.8**](/visualstudio/releasenotes/vs2017-relnotes-v15.8#install): After you download the web installer, select the new **Download all, then install** option from the Visual Studio Installer. Then, continue with your installation.
 
    ![The "Download all, then install" option](media/download-all-then-install.png)
 
 We designed the "Download all, then install" feature so that you can download Visual Studio as a single installation for the same computer on which you downloaded it. That way, you can safely disconnect from the web before you install Visual Studio.
 
 > [!IMPORTANT]
-> Do not use the "Download all, then install" feature to create an offline cache that you intend to transfer to another computer. It's not designed to work that way. <br><br>If you want to create an offline cache to install Visual Studio on another computer, see the [Use the command line to create a local cache](create-an-offline-installation-of-visual-studio#use-the-command-line-to-create-a-local-cache) section of this page for information about how to create a local cache, or the [Create a network installation of Visual Studio 2017](../install/create-a-network-installation-of-visual-studio.md) page for information about how to create a network cache.
+> Do not use the "Download all, then install" feature to create an offline cache that you intend to transfer to another computer. It's not designed to work that way. <br><br>If you want to create an offline cache to install Visual Studio on another computer, see the [Use the command line to create a local cache](#use-the-command-line-to-create-a-local-cache) section of this page for information about how to create a local cache, or the [Create a network installation of Visual Studio 2017](../install/create-a-network-installation-of-visual-studio.md) page for information about how to create a network cache.
 
 ## Use the command line to create a local cache
 
