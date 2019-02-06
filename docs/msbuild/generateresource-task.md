@@ -79,7 +79,11 @@ The `GenerateResource` task uses the \<LogicalName> metadata of an \<EmbeddedRes
 Assuming that the assembly is named myAssembly, the following code generates an embedded resource named *someQualifier.someResource.resources*:
 
 ```xml
-<ItemGroup>   <EmbeddedResource Include="myResource.resx">       <LogicalName>someQualifier.someResource.resources</LogicalName>   </EmbeddedResource></ItemGroup>
+<ItemGroup>
+    <EmbeddedResource Include="myResource.resx">
+        <LogicalName>someQualifier.someResource.resources</LogicalName>
+    </EmbeddedResource>
+</ItemGroup>
 ```
 
 Without the \<LogicalName> metadata, the resource would be named *myAssembly.myResource.resources*.  This example applies only to the Visual Basic and Visual C# build process.
