@@ -87,6 +87,6 @@ The AL task wraps *AL.exe*, a tool that is distributed with the [!INCLUDE[winsdk
 ```  
 
 ## See also  
- [Task reference](../msbuild/msbuild-task-reference.md)   
- [Tasks](../msbuild/msbuild-tasks.md)
+* [Task reference](../msbuild/msbuild-task-reference.md)   
+* [Tasks](../msbuild/msbuild-tasks.md)
 
