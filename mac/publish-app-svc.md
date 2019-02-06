@@ -9,6 +9,7 @@ author: sayedihashimi
 ms.author: sayedha
 manager: unniravindranathan
 ms.prod: visual-studio-mac-dev15
+ms.custom: video
 ms.workload:
   - "azure"
 ---
@@ -62,3 +63,7 @@ You can use the Publish tool to publish ASP.NET Core apps to Azure App Service.
       ![Create App Service Message](media/publish-create-app-service-message.png)
 
     After clicking **OK** the message is dismissed, and you can continue working on your project. You can watch the status of the publish process with the status bar at the top of the IDE. Once your web app is successfully published, the site is opened with your default browser.
+
+## Related Video
+
+> [!Video https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Publish-to-Azure/player]
