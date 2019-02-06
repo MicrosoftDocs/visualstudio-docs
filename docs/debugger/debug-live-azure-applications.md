@@ -63,13 +63,13 @@ In this tutorial, you will:
 ::: moniker range=">= vs-2019"
 
 1. There are several ways to attach the Snapshot Debugger.
-    1. Choose **Debug > Attach Snapshot Debugger...**. Select the Azure resource your project is deployed to and an Azure storage account then click **Attach**.
+    * Choose **Debug > Attach Snapshot Debugger...**. Select the Azure resource your project is deployed to and an Azure storage account then click **Attach**.
 
-    1. Right click on your project and select **Publish**, on the Publish page click **Attach Snapshot Debugger**. Select the Azure resource your project is deployed to and an Azure storage account then click **Attach**.
+    * Right click on your project and select **Publish**, on the Publish page click **Attach Snapshot Debugger**. Select the Azure resource your project is deployed to and an Azure storage account then click **Attach**.
 
-    1. In the Debug target dropdown menu select **Snapshot Debugger**, hit **F5** and if required select the Azure resource your project is deployed to and an Azure storage account then click **Attach**.
+    * In the Debug target dropdown menu select **Snapshot Debugger**, hit **F5** and if required select the Azure resource your project is deployed to and an Azure storage account then click **Attach**.
 
-    1. Using the Cloud Explorer (**View > Cloud Explorer**), right-click the Azure App Service your project is deployed to and an Azure storage account then click **Attach Snapshot Debugger**.
+    * Using the Cloud Explorer (**View > Cloud Explorer**), right-click the Azure App Service your project is deployed to and an Azure storage account then click **Attach Snapshot Debugger**.
 
 ::: moniker-end
 
