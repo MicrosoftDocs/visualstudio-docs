@@ -86,5 +86,5 @@ The following example creates an assembly with the specified options.
 ```
 
 ## See also
-[Task reference](../msbuild/msbuild-task-reference.md)  
-[Tasks](../msbuild/msbuild-tasks.md)
+* [Task reference](../msbuild/msbuild-task-reference.md)  
+* [Tasks](../msbuild/msbuild-tasks.md)
