@@ -23,7 +23,7 @@ ms.workload:
 Retrieves the assembly identities from the specified files and outputs the identity information.
 
 ## Task parameters
- The following table describes the parameters of the `GetAssemblyIdentity` task.
+The following table describes the parameters of the `GetAssemblyIdentity` task.
 
 |Parameter|Description|
 |---------------|-----------------|
@@ -31,12 +31,12 @@ Retrieves the assembly identities from the specified files and outputs the ident
 |`AssemblyFiles`|Required <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies the files to retrieve identities from.|
 
 ## Remarks
- The items output by the `Assemblies` parameter contain item metadata entries named `Version`, `PublicKeyToken`, and `Culture`.
+The items output by the `Assemblies` parameter contain item metadata entries named `Version`, `PublicKeyToken`, and `Culture`.
 
- In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).
+In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).
 
 ## Example
- The following example retrieves the identity of the files specified in the `MyAssemblies` item, and outputs them into the `MyAssemblyIdentities` item.
+The following example retrieves the identity of the files specified in the `MyAssemblies` item, and outputs them into the `MyAssemblyIdentities` item.
 
 ```xml
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
