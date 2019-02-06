@@ -5,6 +5,7 @@ author: conceptdev
 ms.author: crdun
 ms.date: 07/19/2018
 ms.assetid: 592BA4E3-8DEF-4FCD-8BA0-519A4CEEE03E
+ms.custom: video
 ---
 
 # Open multiple solutions or instances of Visual Studio for Mac
@@ -44,3 +45,7 @@ Alternatively, if you've recently opened the solution, you can use the following
     ![Screenshot of Recent Solutions menu](media/open-multiple-solutions-image2.png)
 
 1. Hold down the **Ctrl** key and select the solution. This combination opens the second solution in the Solution Pad.
+
+## Related Video
+
+> [!Video https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Work-With-Multiple-Solutions/player]
