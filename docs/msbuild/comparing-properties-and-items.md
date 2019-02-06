@@ -55,7 +55,7 @@ MSBuild performs conversions to and from item types and string values as needed.
 ```xml
 <ItemGroup>
     <OutputDir Include="KeyFiles\;Certificates\" />
-  </ItemGroup>
+</ItemGroup>
 <PropertyGroup>
     <OutputDirList>@(OutputDir)</OutputDirList>
 </PropertyGroup>
