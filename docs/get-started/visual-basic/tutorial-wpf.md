@@ -5,7 +5,6 @@ ms.custom: "seodec18, get-started"
 ms.date: 10/03/2017
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 dev_langs:
   - "VB"

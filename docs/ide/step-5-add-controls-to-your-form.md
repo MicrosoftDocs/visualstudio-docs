@@ -2,7 +2,6 @@
 title: "Step 5: Add controls to your form"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.assetid: dc2746f4-0b5c-4674-9ef7-f40f94150f52
 author: TerryGLee
