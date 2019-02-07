@@ -2,7 +2,6 @@
 title: "Step 8: Add a method to verify whether the player won"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.assetid: 6e317f6e-ba4c-4306-8924-300b0c2f65c6
 author: TerryGLee

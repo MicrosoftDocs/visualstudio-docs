@@ -2,7 +2,6 @@
 title: "Step 6: Name your button controls"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.assetid: 56b3baa3-651e-4ad4-8942-e334c5c57158
 author: TerryGLee
