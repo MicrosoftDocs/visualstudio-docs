@@ -61,23 +61,23 @@ sections:
     className: cardsM
     columns: 3
     items:
-    - href: ../ide/index-writing-code.md
+    - href: ~/source-editor.md
       html: <p>Make the most of the Visual Studio code editor</p>
       image:
         src: https://docs.microsoft.com/media/common/i_code-edit.svg
       title: Writing and editing code
-    - href: ../ide/compiling-and-building-in-visual-studio.md
+    - href: ~/compiling-and-building.md
       html: <p>Configure your compiler and build your app.</p>
       image:
         src: https://docs.microsoft.com/media/common/i_build.svg
       title: Compile and build
-    - href: ../debugger/debugger-feature-tour.md
+    - href: ~/debugging.md
       html: <p>Run your app under the debugger to investigate problems.</p>
       image:
         src: https://docs.microsoft.com/media/common/i_debug.svg
       title: Debug
-    - href: ../data-tools/create-a-sql-database-by-using-a-designer.md
+    - href: ~/version-controlmd
       html: <p>Access Azure DevOps, Git, or Subversion source repositories.</p>
       image:
         src: https://docs.microsoft.com/media/common/i_pull-request.svg
-      title: Source Control
+      title: Version Control
