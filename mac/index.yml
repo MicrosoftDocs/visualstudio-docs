@@ -76,7 +76,7 @@ sections:
       image:
         src: https://docs.microsoft.com/media/common/i_debug.svg
       title: Debug
-    - href: ~/version-controlmd
+    - href: ~/version-control.md
       html: <p>Access Azure DevOps, Git, or Subversion source repositories.</p>
       image:
         src: https://docs.microsoft.com/media/common/i_pull-request.svg
