@@ -82,7 +82,7 @@
       "ms.topic": "conceptual",
       "audience": "developer",
       "defaultDevLang": "csharp",
-      "ms.prod": "visual-studio-dev15",
+      "ms.prod": "visual-studio-windows",
       "uhfHeaderId": "MSDocsHeader-VisualStudio",
       "titleSuffix": "Visual Studio",
       "searchScope": [
@@ -93,6 +93,9 @@
       ]
     },
     "fileMetadata": {
+      "ms.prod": {
+        "vs-2015/**/**.md": "visual-studio-dev14"
+      },
       "ms.technology": {
         "ai/**/**.md": "vs-ai-tools",
         "azure/**/**.md": "vs-azure",
