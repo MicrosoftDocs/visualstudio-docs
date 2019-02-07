@@ -35,16 +35,26 @@ While there are many existing templates in a variety of languages that you can u
 
 ![Inset new template](media/source-editor-image12.png)
 
+Press the **Add** or **Edit** buttons to create or edit snippets.
+
 ## Keywords in code snippets
 
 After a code snippet is inserted into the editor, any keywords defined are highlighted and can be edited by tabbing between them. Keywords behave like a "variable" in the code snippet and are defined by placing a dollar-sign `$` before and after the name of the keyword. 
 
-The **Edit template** window is shown below, with the built-in `prop` snippet. The snippet contains two keywords &ndash; `$type$` and `$name$` &ndash; which can have further properties set (such as a default value and tooltip) on the right side of the window:
+The **Edit template** window is shown below, editing the built-in `prop` snippet. The snippet contains two keywords &ndash; `$type$` and `$name$` &ndash; which can have further properties set (such as a default value and tooltip) on the right side of the window:
 
 ![Edit template window](media/source-editor-image12z.png)
 
+The following fields are used to define a snippet:
+
+- **Shortcut** &ndash; The text the user types to insert the snippet.
+- **Group** &ndash; Snippets are grouped together in the snippet content menu, using this value.
+- **Description** &ndash; Explanation of the snippet's purpose.
+- **Mime** &ndash; Controls what file types the snippet is available in.
 - **Is expandable template** &ndash; Ensure this is checked so that the snippet can be inserted at the cursor by typing the shortcut.
 - **Is surround with template** &ndash; Check this option to list this shortcut in the **Surround with...** content menu in the editor.
+- **Template text** &ndash; The actual snippet that will be inserted into the editor. Keyword placeholders can be defined by surrounding a token with dollar signs eg. `$type$`.
+- **Keyword property panel** &ndash; On the right-side of the window, use the drop-down list at the top to choose a keyword (eg `type`) and edit properties like default value and tooltip.
 
 ## Using keywords in the editor
 
@@ -66,7 +76,7 @@ When used in the editor, the **Tab** key will switch between the first `i` and `
 
 There are two reserved keywords that you can use in a snippet:
 
-- `$selected$` &ndash; If the snippet has a **Is surround with template** checked, this keyword will be replaced by the text that was highlighted in the editor when the snippet was chosen.
+- `$selected$` &ndash; If the snippet has **Is surround with template** checked, this keyword will be replaced by the text that was highlighted in the editor when the snippet was chosen.
 - `$end$` &ndash; When the user has finished editing the keywords in a snippet, the cursor will be placed at the location of the `$end$` keyword.
 
 The `for` snippet in the previous section is an example of both these reserved keywords.
