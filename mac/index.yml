@@ -32,7 +32,7 @@ sections:
 - title: What apps can I build?
   items:
   - type: paragraph
-    text: With Visual Studio for Mac you can write in C#, F#, Razor, HTML5, CSS, Javascript and Typescript, XAML, and XML.
+    text: With Visual Studio for Mac you can build websites with ASP.NET Core and apps using .NET Core, games with Unity, and mobile apps for Android and iOS using Xamarin. Azure can be incorporated into all your apps.
   - type: list
     style: icon48
     items:
@@ -55,7 +55,7 @@ sections:
 - title: What languages can I use?
   items:
   - type: paragraph
-    text: Get started with Visual Studio for Mac with the language of your choice.
+    text: With Visual Studio for Mac you can write in C#, F#, Razor, HTML5, CSS, Javascript and Typescript, XAML, and XML.
   - type: list
     style: icon48
     items:
@@ -77,12 +77,12 @@ sections:
       href: ~/javascript.md
     - image:
         src: https://docs.microsoft.com/en-us/media/logos/logo_html5.svg
-      text: Razor/HTML
+      text: HTML/Razor
       href: ~/razor.md
 - title: Writing code with Visual Studio for Mac
   items:
   - type: paragraph
-    text: 'Learn more about using Visual Studio to write, compile, debug, and store your code.'
+    text: Learn more about using Visual Studio to write, compile, debug, and store your code.
   - type: list
     style: cards
     className: cardsM
