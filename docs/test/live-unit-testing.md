@@ -1,6 +1,6 @@
 ---
 title: "Live Unit Testing"
-ms.date: 03/07/2017
+ms.date: "03/07/2017"
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
