@@ -16,7 +16,6 @@ ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.workload:
   - "multiple"
-monikerRange: '>= vs-2017'
 ---
 # What's new in Visual Studio 2017
 
