@@ -6,7 +6,6 @@ ms.custom: "seodec18, get-started"
 ms.date: 10/29/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
-ms.prod: visual-studio-dev15
 ms.topic: tutorial
 ms.devlang: CSharp
 author: TerryGLee

@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2019"
 titleSuffix: ""
 description: "Learn about the new features in Visual Studio 2019."
-ms.date: 01/29/2019
+ms.date: 02/07/2019
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
@@ -14,7 +14,6 @@ ms.prod: visual-studio-dev16
 ms.topic: conceptual
 ms.workload:
   - "multiple"
-monikerRange: '>= vs-2017'
 ---
 # What's new in Visual Studio 2019 Preview
 
@@ -109,6 +108,8 @@ If you use monitors that are configured with different display scale factors, or
 With the release of Visual Studio 2019 Preview, we are taking the first steps towards making Visual Studio a per-monitor aware (PMA) application. We're laying the foundational work that will allow Visual Studio to render correctly regardless of what display scale factors you use.
 
    ![Per-monitor aware (PMA) rendering in Visual Studio 2019](media/per-monitor-aware-dpi-scaling.png)
+
+For more information, see the [A better multi-monitor experience with Visual Studio 2019](https://blogs.msdn.microsoft.com/visualstudio/2019/02/07/a-better-multi-monitor-experience-with-visual-studio-2019/) blog post.
 
 ### Visual Studio IntelliCode
 

@@ -5,7 +5,6 @@ ms.custom: "seodec18, get-started"
 ms.date: 08/10/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
-ms.prod: visual-studio-dev15
 ms.topic: tutorial
 ms.devlang: vb
 author: TerryGLee
