@@ -3,8 +3,9 @@ title: Visual Studio for Mac Tour
 description: "Visual Studio for Mac provides an integrated development environment to build .NET applications on macOS, including ASP.NET Core websites and Xamarin projects for iOS, Android, Mac, and Xamarin.Forms."
 author: conceptdev
 ms.author: crdun
-ms.date: 11/03/2018
+ms.date: 02/07/2019
 ms.assetid: 7DC64A52-AA41-4F3A-A8A1-8A20BCD81CC7
+ms.custom: video
 ---
 
 # Visual Studio 2017 for Mac Tour
@@ -97,6 +98,11 @@ Files with uncommitted changes have an annotation on their icons in the Solution
 ![Uncommitted files in solution pad](media/ide-tour-image23.png)
 
 For more information on using version control in Visual Studio, see the [Version Control](/visualstudio/mac/version-control) article.
+
+## Related Video
+
+> [!Video https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Overview/player]
+
 
 ## See also
 
