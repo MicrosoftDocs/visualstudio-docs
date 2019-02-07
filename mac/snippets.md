@@ -3,7 +3,7 @@ title: "Code Snippets"
 description: "How to use code snippets to program efficiently in Visual Studio for Mac"
 author: conceptdev
 ms.author: crdun
-ms.date: 05/06/2018
+ms.date: 02/07/2019
 ms.assetid: 0FE27C0C-A861-4133-A74E-8D0505CF5342
 ---
 
@@ -17,15 +17,15 @@ This section explains how to create, insert, and use snippets in code.
 
 There are some different ways to add code snippets, some of which are described below:
 
-* **Tab Expansion** - Start typing the template name, select it from the list and press **TAb**, **Tab** to add it:
+- **Tab Expansion** &ndash; Start typing the template name, select it from the list and press **Tab**, **Tab** to add it:
 
   ![Tab Expansion in Code](media/source-editor-image13.png)
 
-* **Toolbox** - Use the toolbox pad to display a list of all code snippets. Drag any template from the toolbox into the correct position in the source code:
+- **Toolbox** &ndash; Use the toolbox pad to display a list of all code snippets. Drag any template from the toolbox into the correct position in the source code:
 
   [![Code snippets in Toolbox](media/source-editor-image14-sml.png)](media/source-editor-image14.png#lightbox)
 
-* **Insert Templates command** - There is currently no default key binding set for inserting a template. To create one, browse to **Visual Studio > Preferences > Key Bindings** and search for `template`. This allows adding the desired key binding into the Edit Binding field, then click **Apply**:
+- **Insert Templates command** &ndash; There is currently no default key binding set for inserting a template. To create one, browse to **Visual Studio > Preferences > Key Bindings** and search for `template`. This allows adding the desired key binding into the Edit Binding field, then click **Apply**:
 
   ![Inset Template command](media/source-editor-image15.png)
 
@@ -85,4 +85,4 @@ Refer to the [Visual Studio code snippets reference](/visualstudio/ide/code-snip
 
 ## See also
 
-* [Code snippets (Visual Studio on Windows)](/visualstudio/ide/code-snippets)
+- [Code snippets (Visual Studio on Windows)](/visualstudio/ide/code-snippets)
