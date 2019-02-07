@@ -1,7 +1,6 @@
 ---
 title: Replace In Files Command
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "edit.replaceinfiles"

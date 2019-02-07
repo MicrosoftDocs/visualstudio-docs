@@ -6,7 +6,7 @@ metadata:
   description: Tutorials and conceptual articles about learning how to use Visual Studio.
   author: ghogen
   manager: jillfra
-  ms.prod: visual-studio-dev15
+  ms.prod: visual-studio-windows
   ms.technology: vs-ide
   ms.topic: landing-page
   ms.date: 11/12/2018

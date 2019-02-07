@@ -1,7 +1,6 @@
 ---
 title: Common Quick Actions
 ms.date: 03/28/2018
-ms.prod: visual-studio-dev15
 ms.topic: reference
 author: gewarren
 ms.author: gewarren

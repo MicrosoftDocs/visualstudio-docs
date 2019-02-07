@@ -1,7 +1,6 @@
 ---
 title: Globalizing and localizing applications
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "globalization [Visual Studio]"

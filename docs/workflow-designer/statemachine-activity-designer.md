@@ -2,7 +2,6 @@
 title: "Workflow Designer - StateMachine Activity Designer"
 ms.date: 11/04/2016
 ms.topic: reference
-ms.prod: visual-studio-dev15
 f1_keywords:
   - "StateMachine Designer"
   - "System.Activities.Statements.StateMachine.UI"

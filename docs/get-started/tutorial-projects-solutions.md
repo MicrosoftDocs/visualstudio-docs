@@ -1,7 +1,6 @@
 ---
 title: Introduction to projects and solutions
 ms.date: 12/11/2017
-ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.custom: get-started
 ms.topic: tutorial

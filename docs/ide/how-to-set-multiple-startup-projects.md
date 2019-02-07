@@ -1,7 +1,6 @@
 ---
 title: "How to: Set multiple startup projects"
 ms.date: 06/21/2017
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "startup projects, setting multiple startup projects"

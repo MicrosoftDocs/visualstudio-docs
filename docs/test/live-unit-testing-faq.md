@@ -1,7 +1,6 @@
 ---
 title: "Live Unit Testing FAQ"
 ms.date: "10/03/2017"
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "Visual Studio ALM"

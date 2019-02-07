@@ -2,7 +2,6 @@
 title: "Workflow Designer - Add CorrelationInitializers Dialog Box"
 ms.date: 11/04/2016
 ms.topic: reference
-ms.prod: visual-studio-dev15
 f1_keywords:
   - "AddCorrelationInitializers.UI"
 ms.assetid: c0517467-d54a-4ee6-aef0-c19b96b6f395

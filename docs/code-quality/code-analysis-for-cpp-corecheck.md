@@ -1,7 +1,6 @@
 ---
 title: C++ Core Guidelines Checker Reference
 ms.date: 03/22/2018
-ms.prod: visual-studio-dev15
 ms.topic: reference
 helpviewer_keywords:
   - "code analysis, C++ core check"

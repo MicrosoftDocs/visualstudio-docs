@@ -1,7 +1,6 @@
 ---
 title: Annotating Locking Behavior
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: "conceptual"
 f1_keywords:
   - "_Releases_nonreentrant_lock_"

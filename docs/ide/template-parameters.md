@@ -1,7 +1,6 @@
 ---
 title: Project and item template parameters
 ms.date: 01/02/2018
-ms.prod: visual-studio-dev15
 ms.topic: reference
 helpviewer_keywords:
   - "Visual Studio templates, parameters"

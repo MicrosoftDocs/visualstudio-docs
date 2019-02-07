@@ -1,7 +1,6 @@
 ---
 title: XElement Class Dynamic Properties
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 ms.assetid: a9795dba-2afc-45f7-9b53-c6c67a23c40b
 author: gewarren

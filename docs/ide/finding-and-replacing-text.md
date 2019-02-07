@@ -1,7 +1,6 @@
 ---
 title: Find and replace text, and multi-caret selection
 ms.date: 08/14/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
   - "vs.find"
