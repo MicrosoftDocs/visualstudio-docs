@@ -3,7 +3,6 @@ title: "Quickstart: Create an ASP.NET Core web service in F#"
 description: "Learn how to create an ASP.NET Core web service in Visual Studio with F#, step-by-step."
 ms.date: 08/24/2018
 ms.prod: visual-studio-dev15
-ms.prod: visual-studio-dev15
 ms.topic: quickstart
 author: "cartermp"
 ms.author: "phcart"
@@ -18,7 +17,7 @@ ms.workload:
 
 In this 5-10 minute introduction to F# in Visual Studio , you'll create an F# ASP.NET Core web application.
 
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) page to install it for free.
 
 ## Create a project
 

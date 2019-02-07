@@ -3,18 +3,19 @@ title: Visual Studio Tools for Docker with ASP.NET Core
 author: ghogen
 description: Learn how to use Visual Studio 2017 tooling and Docker for Windows
 ms.author: ghogen
-ms.date: 12/17/2018
+ms.date: 02/01/2019
 ms.prod: visual-studio-dev15
 ms.technology: vs-azure
+ms.topic: include
 ---
-# Quickstart: Visual Studio Tools for Docker
 
-With Visual Studio 2017, you can easily build, debug, and run containerized ASP.NET Core apps and publish them to Azure Container Registry (ACR), Docker Hub, Azure App Service, or your own container registry. In this article, we'll publish to ACR.
+With Visual Studio, you can easily build, debug, and run containerized ASP.NET Core apps and publish them to Azure Container Registry (ACR), Docker Hub, Azure App Service, or your own container registry. In this article, we'll publish to ACR.
 
 ## Prerequisites
 
 * [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
 * [Visual Studio 2017](https://visualstudio.microsoft.com/) with the **Web Development**, **Azure Tools** workload, and/or **.NET Core cross-platform development** workload installed
+* To publish to Azure Container Registry, an Azure subscription. [Sign up for a free trial](https://azure.microsoft.com/en-us/offers/ms-azr-0044p/).
 
 ## Installation and setup
 
@@ -29,7 +30,7 @@ For Docker installation, first review the information at [Docker Desktop for Win
 1. Select **Web Application**.
 1. Check the **Enable Docker Support** checkbox.
 
-   ![Enable Docker Support check box](media/docker-tools/enable-docker-support.PNG)
+   ![Enable Docker Support check box](../../media/docker-tools/enable-docker-support.PNG)
 
 1. Select the type of container you want (Windows or Linux) and click **OK**.
 
@@ -112,12 +113,14 @@ Once the develop and debug cycle of the app is completed, you can create a produ
 
 1. Click **Create**
 
+## Next steps
+
 You can now pull the container from the registry to any host capable of running Docker images, for example [Azure Container Instances](/azure/container-instances/container-instances-tutorial-deploy-app).
 
 ## Additional resources
 
 * [Container development with Visual Studio](/visualstudio/containers)
-* [Troubleshoot Visual Studio 2017 development with Docker](vs-azure-tools-docker-troubleshooting-docker-errors.md)
+* [Troubleshoot Visual Studio 2017 development with Docker](../../vs-azure-tools-docker-troubleshooting-docker-errors.md)
 * [Visual Studio Tools for Docker GitHub repository](https://github.com/Microsoft/DockerTools)
 
-[0]:media/vs-azure-tools-docker-hosting-web-apps-in-docker/vs-acr-provisioning-dialog.png
+[0]:../../media/vs-azure-tools-docker-hosting-web-apps-in-docker/vs-acr-provisioning-dialog.png

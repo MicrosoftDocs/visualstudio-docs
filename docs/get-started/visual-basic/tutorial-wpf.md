@@ -5,7 +5,6 @@ ms.custom: "seodec18, get-started"
 ms.date: 10/03/2017
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 dev_langs:
   - "VB"
@@ -19,6 +18,8 @@ ms.workload:
 # Tutorial: Create a simple application with Visual Basic
 
 By completing this walkthrough, you'll become familiar with many of the tools, dialog boxes, and designers that you can use when you develop applications with Visual Studio. You'll create a "Hello, World" application, design the UI, add code, and debug errors, while you learn about working in the integrated development environment ([IDE](visual-studio-ide.md)).
+
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) page to install it for free.
 
 ## Configure the IDE
 

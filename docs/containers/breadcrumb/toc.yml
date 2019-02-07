@@ -6,7 +6,7 @@
     tocHref: /visualstudio/
     topicHref: /visualstudio/
     items:
-    - name: Visual Studio Tools for Docker
-      tocHref: /visualstudio/docker
-      topicHref: /visualstudio/docker/
+    - name: Visual Studio Container Tools
+      tocHref: /visualstudio/containers
+      topicHref: /visualstudio/containers/
       

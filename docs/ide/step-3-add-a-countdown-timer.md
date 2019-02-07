@@ -2,7 +2,6 @@
 title: "Step 3: Add a countdown timer"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.assetid: 62670a2b-efdc-45c6-9646-9b17eeb33dcb
 author: TerryGLee

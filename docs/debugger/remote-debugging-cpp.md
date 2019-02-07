@@ -90,9 +90,11 @@ The remote debugger is supported on Windows 7 and newer (not phone) and versions
 11. On the Visual Studio computer, you should see that execution is stopped at the breakpoint.  
   
     > [!TIP]
-    >  Alternatively, you can deploy the files as a separate step. In the **Solution Explorer,** right-click the **mymfc** node and then choose **Deploy**.  
+    > Alternatively, you can deploy the files as a separate step. In the **Solution Explorer,** right-click the **mymfc** node and then choose **Deploy**.
   
-    If you have non-code files that need to be used by the application, you need to include them in the Visual Studio project. Create a project folder for the additional files (in the **Solution Explorer**, click **Add > New Folder**.) Then add the files to the folder (in the **Solution Explorer**, click **Add > Existing Item**, then select the files). On the **Properties** page for each file, set **Copy to Output Directory** to **Copy always**.
+    If you have non-code files that are required by the application, you can specify them in **Additional Files to Deploy** on the **Remote Windows Debugger** page.
+
+    Alternatively, you can include the files in your project, and set the **Content** property to **Yes** in the **Properties** page for each file. These files are copied to the **Deployment Directory** specified on the **Remote Windows Debugger** page. You can also change the **Item Type** to **Copy File** and specify additional properties there if you need the files to be copied to a subfolder of the **Deployment Directory**.
   
 ## Set Up Debugging with Remote Symbols 
 

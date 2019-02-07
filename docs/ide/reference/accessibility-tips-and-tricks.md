@@ -3,7 +3,6 @@ title: "Accessibility tips and tricks for Visual Studio"
 description: "Learn more about tips and tricks that can help make the Visual Studio integrated development environment (IDE) more accessible for everyone to use, including people with disabilities."
 ms.date: 09/15/2017
 ms.prod: visual-studio-dev15
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "accessibility [Visual Studio]"
@@ -36,7 +35,7 @@ For some folks, some colors are more difficult to see. If you want more contrast
 
 ## Use annotations to reveal useful information about your code
 
-The Visual Studio editor includes many text "adornments" that let you know about characteristics and features at particular points on a line of code, such as lightbulbs, error and warning “squiggles”, bookmarks, and so on. You can use the “Show Line Annotations” command set to help you discover and then navigate between these adornments.
+The Visual Studio editor includes many text "adornments" that let you know about characteristics and features at particular points on a line of code, such as screwdriver and light bulb icons, error and warning "squiggles", bookmarks, and so on. You can use the "Show Line Annotations" command set to help you discover and then navigate between these adornments.
 
   ![Use the Show Line Annotations command set](media/show-line-annotations-command-set.png)
 

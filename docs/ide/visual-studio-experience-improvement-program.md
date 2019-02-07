@@ -3,7 +3,6 @@ title: Customer Experience Improvement Program
 description: "Find out how to manage privacy settings in Visual Studio."
 ms.date: 05/21/2018
 ms.prod: visual-studio-dev15
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: PoulChapman
 ms.author: tglee

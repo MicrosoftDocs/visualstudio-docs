@@ -3,7 +3,6 @@ title: Suggest a feature
 description: "Describes what suggestions are on Developer Community, how to make a suggestion, and how suggestions are used by Microsoft in the Visual Studio road map."
 ms.date: 12/17/2018
 ms.prod: visual-studio-dev15
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: seaniyer
 ms.author: seiyer

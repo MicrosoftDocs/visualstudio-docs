@@ -1,7 +1,7 @@
 ---
 title: IPython REPL (interactive window)
 description: Use the Visual Studio interactive window in IPython mode for a user-friendly interactive development environment with Interactive Parallel Computing features.
-ms.date: 10/29/2018
+ms.date: 01/28/2019
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: kraigb

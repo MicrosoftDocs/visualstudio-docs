@@ -2,7 +2,6 @@
 title: "Step 7: Add multiplication and division problems"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.assetid: e638959e-f6a4-4eb4-b2e9-f63b7855cf8f
 author: TerryGLee

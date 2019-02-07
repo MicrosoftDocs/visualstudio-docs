@@ -13,7 +13,7 @@ metadata:
   ms.author: ghogen
   ms.custom: seodec18
 sections:
-- title: Publish to Azure
+- title: Deploy to Azure App Service
   items:
   - type: paragraph
     text: 'Deploy your app to Azure to staging or production environments with Visual Studio, or set up continuous integration and deployment (CI/CD).'
@@ -26,17 +26,12 @@ sections:
       html: <p></p>
       image:
         src: https://docs.microsoft.com/media/logos/logo_NETcore.svg
-      title: Publish an ASP.NET Core app to Azure
+      title: Deploy an ASP.NET Core app to Azure
     - href: https://docs.microsoft.com/azure/app-service/app-service-web-get-started-dotnet-framework
       html: <p></p>
       image:
         src: https://docs.microsoft.com/media/logos/logo_NET.svg
-      title: Publish an ASP.NET Web App to Azure
-    - href: https://docs.microsoft.com/azure/azure-functions/functions-create-your-first-function-visual-studio
-      html: <p></p>
-      image:
-        src: https://docs.microsoft.com/azure/media/index/AzureFunctions.svg
-      title: Publish Azure Functions
+      title: Deploy an ASP.NET Web App to Azure
     - href: /aspnet/core/host-and-deploy/azure-apps/azure-continuous-deployment?view=aspnetcore-2.1
       html: <p></p>
       image:
@@ -51,8 +46,8 @@ sections:
       html: <p></p>
       image:
         src: https://docs.microsoft.com/media/common/i_vmm-cloud.svg
-      title: Publish an ASP.NET Web App to an Azure VM
-- title: Azure App Services and Azure Functions
+      title: Deploy an ASP.NET Web App to an Azure VM
+- title: Azure App Services, Logic Apps, and Azure Functions
   items:
   - type: paragraph
     text: 'Tutorials for creating web apps and serverless functions hosted in Azure'
@@ -66,7 +61,12 @@ sections:
       image:
         src: https://docs.microsoft.com/azure/media/index/AppService.svg
       title: ASP.NET Core
-    - href: /azure/azure-functions/functions-develop-vs
+    - href: /azure/logic-apps/quickstart-create-logic-apps-with-visual-studio
+      html: <p>Build automated, scalable workflows with Azure Logic Apps.</p>
+      image:
+        src: https://docs.microsoft.com/azure/media/index/LogicApp.svg
+      title: Azure Logic Apps
+    - href: /azure/azure-functions/functions-create-your-first-function-visual-studio
       html: <p>Process events with serverless code</p>
       image:
         src: https://docs.microsoft.com/azure/media/index/AzureFunctions.svg
@@ -89,8 +89,8 @@ sections:
       href: /visualstudio/containers
     - image:
         src: https://docs.microsoft.com/media/logos/logo_docker.svg
-      text: Docker Tools in Visual Studio
-      href: /visualstudio/docker/vs-azure-tools-docker-setup
+      text: Container Tools in Visual Studio
+      href: /visualstudio/docker/docker-tools
     - image:
         src: https://docs.microsoft.com/media/logos/logo_kubernetes.svg
       text: Kubernetes Tools
@@ -172,10 +172,10 @@ sections:
         src: https://docs.microsoft.com//media/common/i_code-performance.svg
       title: Analyze performance
     - href: vs-azure-tools-publishing-a-cloud-service.md
-      html: <p>Publish a cloud service to Azure</p>
+      html: <p>Deploy a cloud service to Azure</p>
       image:
         src: https://docs.microsoft.com//media/common/i_deploy.svg
-      title: Publish
+      title: Deploy
     - href: vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines.md
       html: <p>Monitor and diagnose cloud services and virtual machines running in Azure</p>
       image:
