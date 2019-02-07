@@ -94,6 +94,7 @@
     },
     "fileMetadata": {
       "ms.prod": {
+        "rtvs/**/**.md": "visual-studio-dev15",
         "vs-2015/**/**.md": "visual-studio-dev14"
       },
       "ms.technology": {
