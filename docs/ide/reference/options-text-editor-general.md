@@ -1,7 +1,6 @@
 ---
 title: Options, Text Editor, General
 ms.date: 01/18/2019
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.RDL_Expression.General"

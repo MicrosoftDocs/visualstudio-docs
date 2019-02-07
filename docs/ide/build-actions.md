@@ -1,7 +1,6 @@
 ---
 title: Build actions for files
 ms.date: 11/19/2018
-ms.prod: visual-studio-dev15
 ms.technology: vs-ide-compile
 ms.topic: reference
 author: gewarren

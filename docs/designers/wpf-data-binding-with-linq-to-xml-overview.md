@@ -1,7 +1,6 @@
 ---
 title: WPF Data Binding with LINQ to XML Overview
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.assetid: 3bf80845-891b-41de-a71b-4080b5bd3ea6
 author: gewarren

@@ -1,7 +1,6 @@
 ---
 title: "CA1006: Do not nest generic types in member signatures"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "DoNotNestGenericTypesInMemberSignatures"

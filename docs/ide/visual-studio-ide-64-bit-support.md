@@ -1,7 +1,6 @@
 ---
 title: 64 bit support
 ms.date: 02/21/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "64-bit applications [C++]"

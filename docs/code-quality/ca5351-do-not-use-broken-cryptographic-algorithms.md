@@ -1,7 +1,6 @@
 ---
 title: CA5351 Do Not Use Broken Cryptographic Algorithms
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 ms.assetid: 483f51b3-e186-4433-b48e-5ca24a9a9c94
 author: gewarren

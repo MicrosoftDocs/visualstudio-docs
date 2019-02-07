@@ -1,7 +1,6 @@
 ---
 title: Code analysis using Roslyn analyzers
 ms.date: 03/26/2018
-ms.prod: visual-studio-dev15
 ms.topic: overview
 helpviewer_keywords:
   - "code analysis, managed code"

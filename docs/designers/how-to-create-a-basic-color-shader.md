@@ -1,7 +1,6 @@
 ---
 title: "How to: Create a Basic Color Shader"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.assetid: c301328a-079a-49e8-b688-4749c01657c0
 author: gewarren

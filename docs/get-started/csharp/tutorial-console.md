@@ -4,7 +4,6 @@ description: "Learn how to create a C# console app in Visual Studio, step-by-ste
 ms.custom: "seodec18, get-started"
 ms.date: 01/25/2019
 ms.technology: vs-ide-general
-ms.prod: visual-studio-dev15
 ms.topic: tutorial
 ms.devlang: CSharp
 author: TerryGLee

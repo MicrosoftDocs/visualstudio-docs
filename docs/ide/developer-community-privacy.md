@@ -1,7 +1,6 @@
 ---
 title: Private data for problem reports
 ms.date: 06/21/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - developer community privacy

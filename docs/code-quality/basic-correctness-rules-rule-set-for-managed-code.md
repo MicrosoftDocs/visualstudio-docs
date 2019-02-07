@@ -1,7 +1,6 @@
 ---
 title: Basic Correctness Rules rule set for managed code
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 ms.assetid: 631f0daf-1d42-4c90-a7dc-1a6a9de64c93
 author: gewarren
