@@ -1,6 +1,6 @@
 ---
 title: "Live Unit Testing FAQ"
-ms.date: 2017-10-03
+ms.date: "10/03/2017"
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
@@ -133,7 +133,7 @@ Do not override `<OutDir>` directly in your build process; override `<OutputPath
 
 Set the `LiveUnitTesting_BuildRoot` user-level environment variable to the path where you want the Live Unit Testing build artifacts to be dropped. 
 
-## Test Explorer vs. Live Unit Testing test runs 
+## Test Explorer vs. Live Unit Testing test runs
 **How is running tests from Test Explorer window different from running tests in Live Unit Testing?**
 
 There are several differences:
@@ -152,7 +152,7 @@ There are several differences:
 **How do I exclude tests from participating in Live Unit Testing?**
 
 See the "Include and exclude test projects and test methods" section of the [Use Live Unit Testing in Visual Studio 2017 Enterprise Edition](live-unit-testing.md#include-and-exclude-test-projects-and-test-methods) article for the user-specific setting. Including or excluding tests is useful when you want to run a specific set of tests for a particular edit session or to persist your own personal preferences.
- 
+
 For solution-specific settings, you can apply the <xref:System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverageAttribute?displayProperty=fullName> attribute programmatically to exclude methods, properties, classes, or structures from being instrumented by Live Unit Testing. Additionally, you can also set the `<ExcludeFromCodeCoverage>` property to `true` in your project file to exclude the whole project from being instrumented. Live Unit Testing will still run the tests that have not been instrumented, but their coverage will not be visualized.
 
 You can also check whether `Microsoft.CodeAnalysis.LiveUnitTesting.Runtime` is loaded in the current application domain and disable tests based on why. For example, you can do something like the following with xUnit:
