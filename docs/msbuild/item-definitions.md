@@ -150,7 +150,7 @@ You can use conditions in an ItemDefinitionGroup to control the inclusion of met
 In this case, the default metadata "m1" on item "i" is included only if the value of the "Configuration" property is "Debug".
 
 > [!NOTE]
->  Only local metadata references are supported in conditions.
+> Only local metadata references are supported in conditions.
 
 References to metadata defined in an earlier ItemDefinitionGroup are local to the item, not the definition group. That is, the scope of the references are item-specific. For example:
 
@@ -217,8 +217,8 @@ A qualified metadata reference can also be used:
 ```xml
 <ItemDefinitionGroup>
     <i>
-      <m>m1</m>
-      <m>%(i.m);m2</m>
+        <m>m1</m>
+        <m>%(i.m);m2</m>
     </i>
 </ItemDefinitionGroup>
 ```
