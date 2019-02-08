@@ -129,6 +129,8 @@ Here are a few ways that Visual Studio IntelliCode can help enhance your product
 * Find difficult-to-catch code issues
 * Focus code reviews by drawing attention to areas that really matter
 
+ ![An example of IntelliSense suggestion](media/intellicode-intellisense-suggestion.png)
+
 We initially supported only C# when we first previewed the IntelliCode extension for Visual Studio. Now, we've added support for C++ and XAML in Visual Studio, too.
 
 And if you're using C#, we've also added the ability to train a custom model on your own code.
