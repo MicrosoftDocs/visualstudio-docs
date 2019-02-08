@@ -6,7 +6,7 @@ metadata:
   meta.description: Tutorials and conceptual articles about developing JavaScript and TypeScript apps with Visual Studio.
   author: mikejo5000
   manager: jillfra
-  ms.prod: visual-studio-dev15
+  ms.prod: visual-studio-windows
   ms.technology: vs-nodejs
   ms.topic: landing-page
   ms.date: 01/15/2019

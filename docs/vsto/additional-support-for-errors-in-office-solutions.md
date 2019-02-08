@@ -1,7 +1,6 @@
 ---
 title: "Additional support for errors in Office solutions"
 ms.date: "02/02/2017"
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords: 
   - "VST.MSBuild.errAppInfoTaskInsertCtlFailed"

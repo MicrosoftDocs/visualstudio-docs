@@ -7,7 +7,6 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
 ---
 # Sharing Classes between DSLs by using a DSL Library
 In the Visual Studio Visualization and Modeling SDK, you can create an incomplete DSL Definition that you can import into another DSL. This lets you factor common parts of similar models.

@@ -1,7 +1,6 @@
 ---
 title: Best Practices and Examples (SAL)
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: "conceptual"
 author: mikeblome
 ms.author: mblome

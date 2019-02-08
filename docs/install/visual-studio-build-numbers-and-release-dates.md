@@ -9,7 +9,6 @@ manager: jillfra
 ms.date: 02/05/2019
 ms.topic: reference
 helpviewer_keywords:
-ms.prod: visual-studio-dev15
 ms.custom: "seodec18"
 ms.workload:
   - "multiple"

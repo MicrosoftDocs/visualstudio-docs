@@ -4,7 +4,6 @@ description: "An overview of navigation, code analysis, unit testing, and other 
 author: kuhlenh
 ms.author: gewarren
 manager: jillfra
-ms.prod: visual-studio-dev15
 ms.date: 06/14/2018
 ms.topic: conceptual
 helpviewer_keywords:

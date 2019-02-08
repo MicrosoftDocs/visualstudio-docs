@@ -4,7 +4,6 @@ description: Learn how to publish a web project to an Azure website. This script
 author: ghogen
 manager: jillfra
 assetId: 63cfaa2d-f04d-40dc-8677-345385c278d5
-ms.prod: visual-studio-dev15
 ms.custom: vs-azure
 ms.workload: azure-vs
 ms.topic: conceptual

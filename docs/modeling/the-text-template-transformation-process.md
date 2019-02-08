@@ -9,7 +9,6 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
 ---
 # The Text Template Transformation Process
 The text template transformation process takes a text template file as the input and generates a new text file as the output. For example, you can use text templates to generate Visual Basic or C# code, or you can generate an HTML report.

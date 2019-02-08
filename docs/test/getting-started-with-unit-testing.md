@@ -1,7 +1,6 @@
 ---
 title: Get started with unit testing
 ms.date: 05/02/2017
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "unit testing, create unit test plans"

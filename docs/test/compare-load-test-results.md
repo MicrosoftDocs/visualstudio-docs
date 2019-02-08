@@ -9,7 +9,6 @@ ms.assetid: 31874114-459a-45d5-9f8b-2ea503627db8
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.prod: visual-studio-dev15
 ---
 # Report load tests results for test comparisons or trend analysis
 

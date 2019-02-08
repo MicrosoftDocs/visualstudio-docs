@@ -9,7 +9,6 @@ ms.assetid: ba16ed02-137e-40bf-a4cb-45d87d922d37
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.prod: visual-studio-dev15
 ---
 # Edit load tests
 

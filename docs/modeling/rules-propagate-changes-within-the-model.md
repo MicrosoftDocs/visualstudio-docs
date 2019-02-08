@@ -10,7 +10,6 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
 ---
 # Rules Propagate Changes Within the Model
 You can create a store rule to propagate a change from one element to another in Visualization and Modeling SDK (VMSDK). When a change occurs to any element in the Store, rules are scheduled to be executed, usually when the outermost transaction is committed. There are different types of rules for different kinds of events, such as adding an element, or deleting it. You can attach rules to specific types of elements, shapes, or diagrams. Many built-in features are defined by rules: for example, rules ensure that a diagram is updated when the model changes. You can customize your domain-specific language by adding your own rules.

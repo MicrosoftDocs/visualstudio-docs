@@ -8,7 +8,6 @@ ms.assetid: 8bda19b3-91c1-4daf-b6c7-09108bddadff
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.prod: visual-studio-dev15
 ---
 # How to: Analyze what virtual users are doing during a load test using the virtual user activity chart
 

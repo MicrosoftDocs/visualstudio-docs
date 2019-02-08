@@ -2,7 +2,6 @@
 title: "Workflow Designer - Persist Activity Designer"
 ms.date: 11/04/2016
 ms.topic: reference
-ms.prod: visual-studio-dev15
 f1_keywords:
   - "System.Activities.Statements.Persist.UI"
 ms.assetid: be8648dd-3eb9-4a50-8ec1-57a8be804692

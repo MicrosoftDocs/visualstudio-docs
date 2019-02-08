@@ -1,7 +1,6 @@
 ---
 title: "CA1713: Events should not have before or after prefix"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "EventsShouldNotHaveBeforeOrAfterPrefix"

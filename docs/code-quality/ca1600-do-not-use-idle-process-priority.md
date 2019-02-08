@@ -1,7 +1,6 @@
 ---
 title: "CA1600: Do not use idle process priority"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "DoNotUseIdleProcessPriority"

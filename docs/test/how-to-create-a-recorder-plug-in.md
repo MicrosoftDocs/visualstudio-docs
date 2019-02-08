@@ -8,7 +8,6 @@ ms.assetid: 6fe13be1-aeb5-4927-9bff-35950e194da9
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.prod: visual-studio-dev15
 ---
 # How to: Create a recorder plug-in
 

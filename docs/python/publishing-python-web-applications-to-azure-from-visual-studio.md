@@ -2,7 +2,6 @@
 title: Publish a Python app to Azure App Service
 description: Options for publishing a Python app to Azure App Service, including Git deploy and containers for Linux, and deploying to IIS.
 ms.date: 12/06/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb

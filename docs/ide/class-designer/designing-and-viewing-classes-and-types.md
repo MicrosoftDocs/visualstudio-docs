@@ -1,7 +1,6 @@
 ---
 title: Use Class Designer
 ms.date: 05/08/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
   - "vs.classdesigner.diagram"

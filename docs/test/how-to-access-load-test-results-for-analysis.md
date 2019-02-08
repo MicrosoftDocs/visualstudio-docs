@@ -14,7 +14,6 @@ ms.assetid: b0a3e694-2894-479b-b270-7e61e9fafacd
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.prod: visual-studio-dev15
 ---
 # How to: Access load test results for analysis
 

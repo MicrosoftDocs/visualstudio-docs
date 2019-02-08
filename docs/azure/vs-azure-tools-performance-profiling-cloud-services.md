@@ -8,7 +8,6 @@ ms.topic: conceptual
 ms.workload: azure-vs
 ms.date: 11/11/2016
 ms.author: mikejo
-ms.prod: visual-studio-dev15
 ---
 # Testing the performance of a cloud service
 ## Overview
