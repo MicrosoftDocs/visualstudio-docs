@@ -53,7 +53,7 @@ IDiaEnumDebugStreamData *GetStreamData(IDiaEnumDebugStreams *pStreamList,
             vIndex.lVal = whichStream;
             if (pStreamList->Item(vIndex,&pStreamData) != S_OK)
             {
-                 std::cerr << "Error retrieving stream " << whichStream << std::endl;
+                std::cerr << "Error retrieving stream " << whichStream << std::endl;
             }
         }
     }
