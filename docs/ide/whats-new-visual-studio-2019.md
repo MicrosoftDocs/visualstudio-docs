@@ -83,6 +83,8 @@ For more information, see the [Enhanced in Visual Studio 2019: Search for Object
 
 And with Visual Studio 2019 Preview, this service is installed by default.
 
+   ![An animated GIF file that shows the Live Share collaboration feature in Visual Studio 2019](media/live-share-collaboration.gif)
+
 For more information, see the [Visual Studio Live Share for real-time code reviews and interactive education](https://blogs.msdn.microsoft.com/visualstudio/2018/12/06/visual-studio-live-share-for-real-time-code-reviews-and-interactive-education/) blog post.
 
 ## Modern development support
@@ -97,7 +99,7 @@ To get started now, download the [Pull Requests for Visual Studio](https://aka.m
 
 The preview release of Visual Studio 2019 supports building [.NET Core 3](https://dotnet.microsoft.com/download/dotnet-core/3.0) applications for any platform. We'll continue to support and improve cross-platform C++ development, as well as .NET mobile development for iOS and Android with Xamarin.
 
-   ![Develop apps with .NET Core 3 Preview 1 in Visual Studio 2019](media/dot-net-core-three-dev.png)
+   ![Develop apps with .NET Core 3 Preview in Visual Studio 2019](media/dot-net-core-three-dev.png)
 
 For more information, see the following pages:
 
@@ -126,6 +128,8 @@ Here are a few ways that Visual Studio IntelliCode can help enhance your product
 * Guide developers to adhere to the patterns and styles of their team
 * Find difficult-to-catch code issues
 * Focus code reviews by drawing attention to areas that really matter
+
+ ![An example of an IntelliSense suggestion](media/intellicode-intellisense-suggestion.png)
 
 We initially supported only C# when we first previewed the IntelliCode extension for Visual Studio. Now, we've added support for C++ and XAML in Visual Studio, too.
 
