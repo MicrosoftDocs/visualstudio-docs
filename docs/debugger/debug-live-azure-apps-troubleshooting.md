@@ -57,20 +57,6 @@ Take these steps:
 
 - Snapshots take up little memory but do have a commit charge. If the Snapshot Debugger detects your server is under heavy memory load, it will not take snapshots. You can delete already captured snapshots by stopping the Snapshot Debugger session and trying again.
 
-## Issue: Azure App Service incompatible Snapshot Debugger site extensions
-
-When using Visual Studio 2017 for Snapshot Debugging in Azure the associated site extension setting (SNAPSHOTDEBUGGER_EXTENSION_VERSION) is set to version 1 (*~1*). If you subsequently start using Visual Studio 2019 the Snapshot Debugger extention version will be updated to version 2 (*~2*).
-
-If you encounter the following it is likely that your site extension has been upgraded to work with Visual Studio 2019 and you are now attempting to attach the Snapshot Debugger to your service using Visual Studio 2017.
-
-***Need an image here showing the upgrade/downgrade issue***
-
-To start using Snapshot Debugger with Visual Studio 2017 after upgrading the site extension to version 2 take these steps (Warning! This will restart your site):
-
-- In the Azure portal select your impacted Azure App Service.
-- Navigate to Application settings (*Settings > Application settings > Application settings*)
-- Update the  value for *SNAPSHOTDEBUGGER_EXTENSION_VERSION* to *~1*.
-
 ## Known Issues
 
 - Snapshot debugging with multiple Visual Studio clients against the same App Service is not currently supported.
