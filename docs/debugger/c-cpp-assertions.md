@@ -112,11 +112,11 @@ When `_DEBUG` is defined, the `_ASSERTE` macro is defined as follows:
 
 ```cpp
 #define _ASSERTE(expr) \
-   do { \
-      if (!(expr) && (1 == _CrtDbgReport( \
-         _CRT_ASSERT, __FILE__, __LINE__, #expr))) \
-         _CrtDbgBreak(); \
-   } while (0)
+    do { \
+        if (!(expr) && (1 == _CrtDbgReport( \
+            _CRT_ASSERT, __FILE__, __LINE__, #expr))) \
+            _CrtDbgBreak(); \
+    } while (0)
 ```
 
 If the asserted expression evaluates to FALSE, [_CrtDbgReport](/cpp/c-runtime-library/reference/crtdbgreport-crtdbgreportw) is called to report the assertion failure (using a message dialog box by default). If you choose **Retry** in the message dialog box, `_CrtDbgReport` returns 1 and `_CrtDbgBreak` calls the debugger through `DebugBreak`.
@@ -291,8 +291,8 @@ It also assumes that H2O is somewhere in that linked list.
 Otherwise we'll get an access violation... */
 while (mols->type != "H2O")
 {
- iMols += mols->num;
- mols = mols->next;
+    iMols += mols->num;
+    mols = mols->next;
 }
 ASSERT(iMols<=numMols); // MFC version
 _ASSERT(iMols<=numMols); // CRT version
