@@ -4,7 +4,6 @@ titleSuffix: ""
 description: "Learn how to use command-line parameters to control or customize your Visual Studio installation."
 ms.date: 11/14/2018
 ms.custom: "seodec18"
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
   - "command-line parameters"

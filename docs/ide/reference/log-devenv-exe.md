@@ -1,7 +1,6 @@
 ---
 title: -Log (devenv.exe)
 ms.date: 12/12/2018
-ms.prod: visual-studio-dev15
 ms.topic: reference
 helpviewer_keywords:
   - "Devenv, /Log switch"

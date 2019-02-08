@@ -3,7 +3,6 @@ title: "Use Visual Studio to create your first C# console app"
 titleSuffix: ""
 description: "Learn how to create a simple Hello World console app in Visual Studio with C#, step-by-step."
 ms.date: 09/21/2018
-ms.prod: visual-studio-dev15
 ms.custom: "seodec18"
 ms.topic: quickstart
 ms.devlang: vb

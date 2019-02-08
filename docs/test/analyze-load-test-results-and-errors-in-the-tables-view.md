@@ -21,7 +21,6 @@ ms.assetid: 0a84bda3-6051-45eb-9c7f-d57419e1f97d
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.prod: visual-studio-dev15
 ---
 # Analyze load test results and errors in the Tables view of the Load Test Analyzer
 

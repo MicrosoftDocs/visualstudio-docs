@@ -1,7 +1,6 @@
 ---
 title: "Testi a Large Application with Multiple UI Maps"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "coded UI tests, multiple UI maps"

@@ -2,7 +2,6 @@
 title: Modeling SDK for Visual Studio - Domain-Specific Languages
 titleSuffix: ""
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "Domain-Specific Language Tools"

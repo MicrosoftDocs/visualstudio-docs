@@ -1,7 +1,6 @@
 ---
 title: C++ IntelliSense
 ms.date: 10/08/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: mikeblome
 ms.author: mblome

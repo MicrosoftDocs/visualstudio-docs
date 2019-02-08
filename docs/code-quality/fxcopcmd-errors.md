@@ -1,7 +1,6 @@
 ---
 title: FxCopCmd errors
 ms.date: 10/19/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 helpviewer_keywords:
   - "FxCopCmd errors"

@@ -10,7 +10,6 @@ ms.author: gewarren
 manager: jillfra
 f1_keywords:
   - "vs.performancecenter"
-ms.prod: visual-studio-dev15
 ms.workload:
   - "multiple"
 ---

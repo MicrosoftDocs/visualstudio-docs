@@ -1,7 +1,6 @@
 ---
 title: "CA5350: Do Not Use Weak Cryptographic Algorithms"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 ms.assetid: 4c51bb8a-fcfa-46aa-ab61-634be84c4a7a
 author: gewarren

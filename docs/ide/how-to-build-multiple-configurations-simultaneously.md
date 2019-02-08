@@ -1,7 +1,6 @@
 ---
 title: "How to: Build multiple configurations simultaneously"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.technology: vs-ide-compile
 ms.topic: conceptual
 ms.assetid: ba830937-3317-4674-8cc2-c0cd565603c5

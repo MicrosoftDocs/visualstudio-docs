@@ -1,7 +1,6 @@
 ---
 title: "Learn how to test your code with Live Unit Test"
 ms.date: 08/31/2017
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "Visual Studio ALM"

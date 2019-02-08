@@ -1,7 +1,6 @@
 ---
 title: "Use the Microsoft Unit Testing Framework for C++"
 ms.date: 11/15/2017
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.author: mblome
 manager: jillfra

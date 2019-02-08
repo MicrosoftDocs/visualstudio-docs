@@ -1,7 +1,6 @@
 ---
 title: "CA1724: Type Names Should Not Match Namespaces"
 ms.date: 09/28/2018
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "TypeNamesShouldNotMatchNamespaces"

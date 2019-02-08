@@ -1,7 +1,6 @@
 ---
 title: "How to test a Visual C++ DLL for UWP apps"
 ms.date: 02/15/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.author: mblome
 manager: jillfra
