@@ -1,5 +1,5 @@
 ---
-title: Overview of Visual Studio 2017
+title: Overview of Visual Studio
 titleSuffix: ""
 ms.date: 10/26/2018
 ms.prod: visual-studio-dev15
@@ -34,9 +34,21 @@ This image shows Visual Studio with an open project and several key tool windows
 
 ## Editions
 
+::: moniker range="vs-2017"
+
 Visual Studio is available for Windows and Mac. [Visual Studio for Mac](/visualstudio/mac/) has many of the same features as Visual Studio 2017, and is optimized for developing cross-platform and mobile apps. This article focuses on the Windows version of Visual Studio 2017.
 
 There are three editions of Visual Studio 2017: Community, Professional, and Enterprise. See [Compare Visual Studio 2017 IDEs](https://visualstudio.microsoft.com/vs/compare/) to learn about which features are supported in each edition.
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+Visual Studio is available for Windows and Mac. [Visual Studio for Mac](/visualstudio/mac/) has many of the same features as Visual Studio 2019, and is optimized for developing cross-platform and mobile apps. This article focuses on the Windows version of Visual Studio 2019.
+
+There are three editions of Visual Studio 2019: Community, Professional, and Enterprise. See [Compare Visual Studio IDEs](https://visualstudio.microsoft.com/vs/compare/) to learn about which features are supported in each edition.
+
+::: moniker-end
 
 ## Popular productivity features
 
@@ -58,7 +70,17 @@ Some of the popular features in Visual Studio that help you to be more productiv
 
    Visual Studio can seem overwhelming at times with so many menus, options, and properties. The **Quick Launch** search box is a great way to rapidly find what you need in Visual Studio. When you start typing the name of something you're looking for, Visual Studio lists results that take you exactly where you need to go. If you need to add functionality to Visual Studio, for example to add support for an additional programming language, **Quick Launch** provides results that open Visual Studio Installer to install a workload or individual component.
 
-   ![Quick Launch search box in Visual Studio](media/quick-launch-nuget.png)
+   ::: moniker range="vs-2017"
+
+   ![Quick Launch search box in Visual Studio 2017](media/quick-launch-nuget.png)
+
+   ::: moniker-end
+
+   ::: moniker range="vs-2019"
+
+   ![Quick Launch search box in Visual Studio 2019](media/2019/quick-launch-nuget.png)
+
+   ::: moniker-end
 
 - Squiggles and [Quick Actions](../ide/quick-actions.md)
 
@@ -92,7 +114,7 @@ Some of the popular features in Visual Studio that help you to be more productiv
 
 ## Install the Visual Studio IDE
 
-This overview article walks you through creating a simple project and trying some of the things you can do with Visual Studio, like changing the color theme, using [IntelliSense](../ide/using-intellisense.md) as a coding aid, and debugging an app to see the value of a variable during the program's execution. To get started, [download Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) and install it on your system.
+This overview article walks you through creating a simple project and trying some of the things you can do with Visual Studio, like changing the color theme, using [IntelliSense](../ide/using-intellisense.md) as a coding aid, and debugging an app to see the value of a variable during the program's execution. To get started, [download Visual Studio](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) and install it on your system.
 
 The modular installer enables you to choose and install *workloads*, which are groups of features needed for the programming language or platform you prefer. To follow the steps for [creating a program](#create-a-program), be sure to select the **.NET Core cross-platform development** workload during installation.
 
@@ -281,5 +303,3 @@ If you're ready to dive into more coding, one of the following language-specific
 - Discover [more Visual Studio features](../ide/advanced-feature-overview.md)
 - Visit [visualstudio.microsoft.com](https://visualstudio.microsoft.com/vs/)
 - Read [The Visual Studio blog](https://blogs.msdn.microsoft.com/visualstudio/)
-- Check out the free Visual Studio courses at [Microsoft Virtual Academy](https://mva.microsoft.com/product-training/visual-studio-courses#!index=2&lang=1033)
-- Download Visual Studio at [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017)
