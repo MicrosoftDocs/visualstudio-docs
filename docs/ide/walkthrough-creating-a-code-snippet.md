@@ -1,7 +1,6 @@
 ---
 title: "Walkthrough: Create a code snippet"
 ms.date: 10/27/2017
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "code snippets, creating"

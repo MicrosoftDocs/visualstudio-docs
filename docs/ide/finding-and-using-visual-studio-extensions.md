@@ -1,7 +1,6 @@
 ---
 title: Find and use extensions
 ms.date: 01/30/2019
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
   - "vs.ExtensionManager"

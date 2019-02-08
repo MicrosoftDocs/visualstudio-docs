@@ -1,7 +1,6 @@
 ---
 title: "How to: Create a Nullable Type (Class Designer)"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "nullable types, Class Designer"

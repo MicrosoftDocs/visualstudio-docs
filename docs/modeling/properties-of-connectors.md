@@ -9,7 +9,6 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
 ---
 # Properties of Connectors
 Connectors represent domain relationships in a generated designer.

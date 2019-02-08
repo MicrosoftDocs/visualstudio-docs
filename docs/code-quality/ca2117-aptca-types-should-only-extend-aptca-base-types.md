@@ -1,7 +1,6 @@
 ---
 title: "CA2117: APTCA types should only extend APTCA base types"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "CA2117"

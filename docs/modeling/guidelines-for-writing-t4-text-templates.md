@@ -7,7 +7,6 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
 ---
 # Guidelines for Writing T4 Text Templates
 These general guidelines might be helpful if you are generating program code or other application resources in Visual Studio. They are not fixed rules.

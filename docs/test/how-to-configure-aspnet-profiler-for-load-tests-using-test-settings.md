@@ -8,7 +8,6 @@ ms.assetid: 6832fe39-04d5-4d94-8a18-3e2730bad423
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.prod: visual-studio-dev15
 ---
 # How to: Configure ASP.NET profiler for load tests using test settings in Visual Studio
 

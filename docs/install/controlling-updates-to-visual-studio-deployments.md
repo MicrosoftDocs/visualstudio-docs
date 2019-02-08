@@ -3,7 +3,6 @@ title: "Control updates to deployments"
 description: "Learn how to change where Visual Studio looks for an update when you install from a network."
 ms.date: 08/14/2017
 ms.custom: "seodec18"
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "{{PLACEHOLDER}}"

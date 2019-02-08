@@ -5,7 +5,6 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "debugging [Visual Studio], Just-In-Time"
   - "Just-In-Time debugging"
-ms.assetid: ee4d79a5-a1d2-4418-a93f-dd57a53e1836
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
@@ -187,6 +186,7 @@ You might see the following error messages during Just-In-Time debugging:
     To fix this problem, use the Visual Studio Installer to reinstall or repair your Visual Studio installation.
 
 ## See also
+
 - [Debugger security](../debugger/debugger-security.md)
 - [First look at the debugger](../debugger/debugger-feature-tour.md)
 - [Options, Debugging, Just-In-Time dialog box](../debugger/just-in-time-debugging-options-dialog-box.md)

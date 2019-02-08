@@ -2,7 +2,6 @@
 title: "Assemblies in the Visual Studio Tools for Office runtime"
 titleSuffix: ""
 ms.date: 02/02/2017
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 dev_langs: 
   - "VB"

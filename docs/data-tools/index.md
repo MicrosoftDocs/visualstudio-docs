@@ -5,7 +5,6 @@ layout: LandingPage
 ms.date: 01/01/2018
 author: gewarren
 ms.author: gewarren
-ms.prod: visual-studio-dev15
 ms.topic: landing-page
 ms.workload:
   - "data-storage"

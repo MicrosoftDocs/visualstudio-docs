@@ -2,7 +2,6 @@
 title: "Workflow Designer - Add Parameters and Add Arguments Dialog Boxes"
 ms.date: 11/04/2016
 ms.topic: reference
-ms.prod: visual-studio-dev15
 f1_keywords:
   - "AddParameters.UI"
 ms.assetid: a21fb4fe-134b-40b0-8497-86b842940ca1

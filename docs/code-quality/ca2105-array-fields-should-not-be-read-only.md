@@ -1,7 +1,6 @@
 ---
 title: "CA2105: Array fields should not be read only"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "CA2105"

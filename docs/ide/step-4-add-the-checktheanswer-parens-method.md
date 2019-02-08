@@ -1,7 +1,6 @@
 ---
 title: "Step 4: Add the CheckTheAnswer() method"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.assetid: c66f3831-b4a0-40bc-a109-8f46f4db35ed
 author: TerryGLee

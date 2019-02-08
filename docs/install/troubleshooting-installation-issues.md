@@ -3,7 +3,6 @@ title: "Troubleshoot installation or upgrade issues"
 description: "Sometimes, things can go wrong. If your Visual Studio installation or upgrade fails, this page can help."
 ms.date: 08/01/2018
 ms.custom: "seodec18"
-ms.prod: visual-studio-dev15
 ms.topic: troubleshooting
 helpviewer_keywords:
   - "{{PLACEHOLDER}}"

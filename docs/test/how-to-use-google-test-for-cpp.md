@@ -1,7 +1,6 @@
 ---
 title: "How to use Google Test for C++"
 ms.date: 11/04/2017
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.author: mblome
 manager: jillfra
