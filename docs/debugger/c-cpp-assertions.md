@@ -44,7 +44,7 @@ Visual C++ supports assertion statements that are based on the following constru
 
   You can use assertions to catch logic errors, check results of an operation, and Test error conditions that should have been handled.
 
-##<a name="BKMK_In_this_topic"></a> In this topic
+## <a name="BKMK_In_this_topic"></a> In this topic
 [How assertions work](#BKMK_How_assertions_work)
 
 [Assertions in Debug and Release builds](#BKMK_Assertions_in_Debug_and_Release_builds)
