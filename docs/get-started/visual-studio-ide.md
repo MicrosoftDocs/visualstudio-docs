@@ -20,7 +20,17 @@ ms.workload:
 
 The Visual Studio *integrated development environment* is a creative launching pad that you can use to edit, debug, and build code, and then publish an app. An integrated development environment (IDE) is a feature-rich program that can be used for many aspects of software development. Over and above the standard editor and debugger that most IDEs provide, Visual Studio includes compilers, code completion tools, graphical designers, and many more features to ease the software development process.
 
-![The Visual Studio IDE](media/visual-studio-ide.png)
+::: moniker range="vs-2017"
+
+![The Visual Studio 2017 IDE](media/visual-studio-ide.png)
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+![The Visual Studio 2019 IDE](media/vs-2019/ide-overview.png)
+
+::: moniker-end
 
 This image shows Visual Studio with an open project and several key tool windows you'll likely use:
 
@@ -28,7 +38,11 @@ This image shows Visual Studio with an open project and several key tool windows
 
 - The [editor window](../ide/writing-code-in-the-code-and-text-editor.md) (center), where you'll likely spend a majority of your time, displays file contents. This is where you can edit code or design a user interface such as a window with buttons and text boxes.
 
+::: moniker range="vs-2017"
+
 - The [Output window](../ide/reference/output-window.md) (bottom center) is where Visual Studio sends notifications such as debugging and error messages, compiler warnings, publishing status messages, and more. Each message source has its own tab.
+
+::: moniker-end
 
 - [Team Explorer](/azure/devops/user-guide/work-team-explorer?view=vsts) (bottom right) lets you track work items and share code with others using version control technologies such as [Git](https://git-scm.com/) and [Team Foundation Version Control (TFVC)](/azure/devops/repos/tfvc/overview?view=vsts).
 
@@ -54,6 +68,22 @@ There are three editions of Visual Studio 2019: Community, Professional, and Ent
 
 Some of the popular features in Visual Studio that help you to be more productive as you develop software include:
 
+- Squiggles and [Quick Actions](../ide/quick-actions.md)
+
+   Squiggles are wavy underlines that alert you to errors or potential problems in your code as you type. These visual clues enable you to fix problems immediately without waiting for the error to be discovered during build or when you run the program. If you hover over a squiggle, you see additional information about the error. A light bulb may also appear in the left margin with actions, known as Quick Actions, to fix the error.
+
+   ![Squiggles in Visual Studio](media/squiggles-error.png)
+
+::: moniker range=">=vs-2019"
+
+- Code Cleanup
+
+   With the click of a button, format your code and apply any code fixes suggested by your [code style settings](../ide/reference/options-text-editor-csharp-formatting.md), [.editorconfig conventions](../ide/create-portable-custom-editor-option.md), and [Roslyn analyzers](../code-quality/roslyn-analyzers-overview.md). **Code Cleanup** helps you resolve issues in your code before it goes to code review.
+
+   ![Code Cleanup button in Visual Studio](media/vs-2019/code-cleanup.png)
+
+::: moniker-end
+
 - [Refactoring](../ide/refactoring-in-visual-studio.md)
 
    Refactoring includes operations such as intelligent renaming of variables, extracting one or more lines of code into a new method, changing the order of method parameters, and more.
@@ -78,15 +108,13 @@ Some of the popular features in Visual Studio that help you to be more productiv
 
    ::: moniker range="vs-2019"
 
-   ![Quick Launch search box in Visual Studio 2019](media/2019/quick-launch-nuget.png)
+   ![Quick Launch search box in Visual Studio 2019](media/vs-2019/quick-launch-nuget.png)
 
    ::: moniker-end
 
-- Squiggles and [Quick Actions](../ide/quick-actions.md)
+- [Live Share](/visualstudio/liveshare/)
 
-   Squiggles are wavy underlines that alert you to errors or potential problems in your code as you type. These visual clues enable you to fix problems immediately without waiting for the error to be discovered during build or when you run the program. If you hover over a squiggle, you see additional information about the error. A light bulb may also appear in the left margin with actions, known as Quick Actions, to fix the error.
-
-   ![Squiggles in Visual Studio](media/squiggles-error.png)
+   Collaboratively edit and debug with others in real time, regardless of what your app type or programming language. You can instantly and securely share your project and, as needed, debugging sessions, terminal instances, localhost web apps, voice calls, and more.
 
 - [Call Hierarchy](../ide/reference/call-hierarchy.md)
 
@@ -114,17 +142,29 @@ Some of the popular features in Visual Studio that help you to be more productiv
 
 ## Install the Visual Studio IDE
 
-This overview article walks you through creating a simple project and trying some of the things you can do with Visual Studio, like changing the color theme, using [IntelliSense](../ide/using-intellisense.md) as a coding aid, and debugging an app to see the value of a variable during the program's execution. To get started, [download Visual Studio](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) and install it on your system.
+In this section, you'll create a simple project to try out some of the things you can do with Visual Studio. You'll change the color theme, use [IntelliSense](../ide/using-intellisense.md) as a coding aid, and debug an app to see the value of a variable during the program's execution.
 
-The modular installer enables you to choose and install *workloads*, which are groups of features needed for the programming language or platform you prefer. To follow the steps for [creating a program](#create-a-program), be sure to select the **.NET Core cross-platform development** workload during installation.
+::: moniker range="vs-2017"
+
+To get started, [download Visual Studio](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) and install it on your system. The modular installer enables you to choose and install *workloads*, which are groups of features needed for the programming language or platform you prefer. To follow the steps for [creating a program](#create-a-program), be sure to select the **.NET Core cross-platform development** workload during installation.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+To get started, [download Visual Studio](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) and install it on your system. The modular installer enables you to choose and install *workloads*, which are groups of features needed for the programming language or platform you prefer. To follow the steps for [creating a program](#create-a-program), be sure to select the **.NET Core cross-platform development** workload during installation.
+
+::: moniker-end
 
 ![.NET Core cross-platform development workload in Visual Studio Installer](media/dotnet-core-cross-platform-workload.png)
 
-When you start Visual Studio for the first time, you can optionally [sign in](../ide/signing-in-to-visual-studio.md) using your Microsoft account, or your work or school account.
+When you start Visual Studio for the first time, you can optionally [sign in](../ide/signing-in-to-visual-studio.md) using your Microsoft account or your work or school account.
 
 ## Create a program
 
 Let's dive in and create a simple program.
+
+::: moniker range="vs-2017"
 
 1. Open Visual Studio. On the menu, choose **File** > **New** > **Project**.
 
@@ -134,10 +174,28 @@ Let's dive in and create a simple program.
 
    ![.NET Core app template](media/overview-new-project-dialog.png)
 
-   Visual Studio creates the project. It's a simple "Hello World" application that calls the <xref:System.Console.WriteLine?displayProperty=nameWithType> method to display the literal string "Hello World!" in the console (program output) window.
-
    > [!NOTE]
    > If you don't see the **.NET Core** category, you need to install the **.NET Core cross-platform development** workload. To do this, choose the **Open Visual Studio Installer** link on the bottom left of the **New Project** dialog. After Visual Studio Installer opens, scroll down and select the **.NET Core cross-platform development** workload, and then select **Modify**.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+1. Open Visual Studio. The Start window appears with various options for cloning a repo, opening a recent project, or creating a brand new project. That's what we want to do, so choose **Create a new project**.
+
+   ![Visual Studio Start window create a new project](media/vs-2019/start-window.png)
+
+2. The **Create a new project** window opens and shows several project *templates*. A template contains the basic files and settings needed for a given project type. To find the template we want, type or enter **.net core console** in the search box. The list of available templates is automatically filtered based on the keywords you entered. You can select the C# version of the **Console App (.NET Core)** template, or you could further filter by choosing **C#** from the **Language** drop-down list. Select the **Console App (.NET Core)** template, and then choose **Next**.
+
+    ![Create a new project in Visual Studio](media/vs-2019/create-new-project.png)
+
+3. In the **Configure your new project** window, enter **HelloWorld** in the **Project name** box, optionally change the directory location for your project files, and then choose **Create**.
+
+   ![Configure new project in Visual Studio](media/vs-2019/configure-new-project.png)
+
+::: moniker-end
+
+   Visual Studio creates the project. It's a simple "Hello World" application that calls the <xref:System.Console.WriteLine?displayProperty=nameWithType> method to display the literal string "Hello World!" in the console (program output) window.
 
    Shortly, you should see something like the following:
 
