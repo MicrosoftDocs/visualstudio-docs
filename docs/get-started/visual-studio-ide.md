@@ -227,19 +227,25 @@ Let's dive in and create a simple program.
 
    There are other menus and tool windows available, but let's move on for now.
 
+::: moniker range="vs-2017"
+
 3. Now, start the app. You can do this by choosing **Start Without Debugging** from the **Debug** menu on the menu bar. You can also press **Ctrl**+**F5**.
 
    ![Debug > Start without debugging menu](media/overview-start-without-debugging.png)
 
    Visual Studio builds the app, and a console window opens with the message **Hello World!**. You now have a running app!
 
-::: moniker range="vs-2017"
-
    ![Console window](media/overview-console-window.png)
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2019"
+
+3. Now, start the app. You can do this by choosing **Start Without Debugging** from the **Debug** menu on the menu bar. You can also press **Ctrl**+**F5**.
+
+   ![Debug > Start without debugging menu](media/overview-start-without-debugging.png)
+
+   Visual Studio builds the app, and a console window opens with the message **Hello World!**. You now have a running app!
 
    ![Console window](media/vs-2019/overview-console-window.png)
 
@@ -266,15 +272,17 @@ Let's dive in and create a simple program.
 
    Visual Studio rebuilds the app, and a console window opens and prompts you for your name.
 
-8. Enter your name in the console window and press **Enter**.
-
 ::: moniker range="vs-2017"
+
+8. Enter your name in the console window and press **Enter**.
 
    ![Console window input](media/overview-console-input.png)
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2019"
+
+8. Enter your name in the console window and press **Enter**.
 
    ![Console window](media/vs-2019/overview-console-input.png)
 
