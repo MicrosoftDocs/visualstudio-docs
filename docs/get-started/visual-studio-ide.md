@@ -78,7 +78,7 @@ Some of the popular features in Visual Studio that help you to be more productiv
 
 - Code Cleanup
 
-   With the click of a button, format your code and apply any code fixes suggested by your [code style settings](../ide/reference/options-text-editor-csharp-formatting.md), [.editorconfig conventions](../ide/create-portable-custom-editor-option.md), and [Roslyn analyzers](../code-quality/roslyn-analyzers-overview.md). **Code Cleanup** helps you resolve issues in your code before it goes to code review.
+   With the click of a button, format your code and apply any code fixes suggested by your [code style settings](../ide/reference/options-text-editor-csharp-formatting.md), [.editorconfig conventions](../ide/create-portable-custom-editor-options.md), and [Roslyn analyzers](../code-quality/roslyn-analyzers-overview.md). **Code Cleanup** helps you resolve issues in your code before it goes to code review.
 
    ![Code Cleanup button in Visual Studio](media/vs-2019/code-cleanup.png)
 
@@ -185,7 +185,7 @@ Let's dive in and create a simple program.
 
    ![Visual Studio Start window create a new project](media/vs-2019/start-window.png)
 
-2. The **Create a new project** window opens and shows several project *templates*. A template contains the basic files and settings needed for a given project type. To find the template we want, type or enter **.net core console** in the search box. The list of available templates is automatically filtered based on the keywords you entered. You can select the C# version of the **Console App (.NET Core)** template, or you could further filter by choosing **C#** from the **Language** drop-down list. Select the **Console App (.NET Core)** template, and then choose **Next**.
+2. The **Create a new project** window opens and shows several project *templates*. A template contains the basic files and settings needed for a given project type. To find the template we want, type or enter **.net core console** in the search box. The list of available templates is automatically filtered based on the keywords you entered. You can further filter the template results by choosing **C#** from the **Language** drop-down list. Select the **Console App (.NET Core)** template, and then choose **Next**.
 
     ![Create a new project in Visual Studio](media/vs-2019/create-new-project.png)
 
@@ -199,11 +199,31 @@ Let's dive in and create a simple program.
 
    Shortly, you should see something like the following:
 
+::: moniker range="vs-2017"
+
    ![Visual Studio IDE](media/overview-ide-console-app.png)
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+   ![Visual Studio IDE](media/vs-2019/overview-ide-console-app.png)
+
+::: moniker-end
 
    The C# code for your application shows in the editor window, which takes up most of the space. Notice that the text is automatically colorized to indicate different parts of the code, such as keywords and types. In addition, small, vertical dashed lines in the code indicate which braces match one another, and line numbers help you locate code later. You can choose the small, boxed minus signs to collapse or expand blocks of code. This code outlining feature lets you hide code you don't need, helping to minimize onscreen clutter. The project files are listed on the right side in a window called **Solution Explorer**.
 
+::: moniker range="vs-2017"
+
    ![Visual Studio IDE with red boxes](media/overview-ide-console-app-red-boxes.png)
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+   ![Visual Studio IDE with red boxes](media/vs-2019/overview-ide-console-app-red-boxes.png)
+
+::: moniker-end
 
    There are other menus and tool windows available, but let's move on for now.
 
@@ -213,7 +233,17 @@ Let's dive in and create a simple program.
 
    Visual Studio builds the app, and a console window opens with the message **Hello World!**. You now have a running app!
 
+::: moniker range="vs-2017"
+
    ![Console window](media/overview-console-window.png)
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+   ![Console window](media/vs-2019/overview-console-window.png)
+
+::: moniker-end
 
 4. To close the console window, press any key on your keyboard.
 
@@ -238,7 +268,17 @@ Let's dive in and create a simple program.
 
 8. Enter your name in the console window and press **Enter**.
 
+::: moniker range="vs-2017"
+
    ![Console window input](media/overview-console-input.png)
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+   ![Console window](media/vs-2019/overview-console-input.png)
+
+::: moniker-end
 
 9. Press any key to close the console window and stop the running program.
 
