@@ -95,7 +95,7 @@ ms.workload:
  [Visual Studio developer center](http://go.microsoft.com/fwlink/?LinkID=99124)  
  Provides additional Visual Studio resources such as technical articles, videos, and blogs.  
   
- [Office business applications developer portal](http://go.microsoft.com/fwlink/?LinkId=99125)  
+ [Office Business Applications developer portal](http://go.microsoft.com/fwlink/?LinkId=99125)  
  Provides information about Office Business Applications (OBAs) and how to build them by using the Office system platform.  
   
  [Microsoft Office development section of the MSDN library](http://go.microsoft.com/fwlink/?LinkId=149870)  
