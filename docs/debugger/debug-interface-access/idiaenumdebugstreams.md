@@ -65,7 +65,7 @@ void DumpAllDebugStreams( IDiaSession* pSession)
     }
     else
     {
-      wprintf(L"Failed to get any debug streams!\n");
+        wprintf(L"Failed to get any debug streams!\n");
     }
     wprintf(L"\n");
 }
