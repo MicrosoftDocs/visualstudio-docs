@@ -20,11 +20,11 @@ Determines the line numbers of the compiland that the specified line number in a
 
 ```C++
 HRESULT findLinesByLinenum ( 
-   IDiaSymbol*           compiland,
-   IDiaSourceFile*       file,
-   DWORD                 linenum,
-   DWORD                 column,
-   IDiaEnumLineNumbers** ppResult
+    IDiaSymbol*           compiland,
+    IDiaSourceFile*       file,
+    DWORD                 linenum,
+    DWORD                 column,
+    IDiaEnumLineNumbers** ppResult
 );
 ```
 
@@ -78,11 +78,11 @@ void ShowLinesInCompilands(IDiaSession *pSession, LPCOLESTR filename)
                 DWORD lineCount;
                 while ( pEnum->Next(1,&pLineNumber,&lineCount) == S_OK)
                 {
-                     DWORD lineNum;
-                     if (pLineNumber->get_line(&lineNum) == S_OK)
-                     {
-                          printf("compiland starts in source at line number = %lu\n",lineNum);
-                     }
+                    DWORD lineNum;
+                    if (pLineNumber->get_line(&lineNum) == S_OK)
+                    {
+                        printf("compiland starts in source at line number = %lu\n",lineNum);
+                    }
                 }
             }
         }
