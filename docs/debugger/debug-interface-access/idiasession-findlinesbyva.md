@@ -19,10 +19,10 @@ Retrieves the line number information for lines contained in a specified virtual
 ## Syntax
 
 ```C++
-HRESULT findLinesByVA ( 
-   ULONGLONG             va,
-   DWORD                 length,
-   IDiaEnumLineNumbers** ppResult
+HRESULT findLinesByVA (
+    ULONGLONG             va,
+    DWORD                 length,
+    IDiaEnumLineNumbers** ppResult
 );
 ```
 
