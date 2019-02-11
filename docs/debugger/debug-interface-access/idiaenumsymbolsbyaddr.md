@@ -74,7 +74,7 @@ void ShowSymbolsByAddress(IDiaSession *pSession)
             }
             else
             {
-               printf( "\t0x%08X %ws\n", rvaLast, name );
+                printf( "\t0x%08X %ws\n", rvaLast, name );
             }
             pSym = 0;
             celt = 0;
