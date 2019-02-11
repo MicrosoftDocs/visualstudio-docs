@@ -45,7 +45,7 @@ This example shows how to obtain (the `GetEnumSectionContribs` function) and use
 
 ```C++
 
-      IDiaEnumSectionContribs* GetEnumSectionContribs(IDiaSession *pSession)
+IDiaEnumSectionContribs* GetEnumSectionContribs(IDiaSession *pSession)
 {
     IDiaEnumSectionContribs* pUnknown    = NULL;
     REFIID                   iid         = __uuidof(IDiaEnumSectionContribs);
