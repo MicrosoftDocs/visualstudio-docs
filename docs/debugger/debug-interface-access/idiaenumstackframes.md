@@ -43,14 +43,14 @@ void DumpStackFrames(IDiaStackWalker*     pStackWalker,
         hr = pStackWalker->getEnumFrames2(cpuType, pStackWalkHelper, &pEnumFrames);
         if (SUCCEEDED(hr) && pEnumFrames != NULL)
         {
-             CComPtr<IDiaStackFrame> pStackFrame;
-             DWORD celt = 0;
+            CComPtr<IDiaStackFrame> pStackFrame;
+            DWORD celt = 0;
 
-             while (pEnumFrames->Next(1, &pStackFrame, &celt) == S_OK)
-             {
-                 PrintStackFrame(pStackFrame);
-             }
-             pStackFrame = NULL;
+            while (pEnumFrames->Next(1, &pStackFrame, &celt) == S_OK)
+            {
+                PrintStackFrame(pStackFrame);
+            }
+            pStackFrame = NULL;
         }
     }
 }
