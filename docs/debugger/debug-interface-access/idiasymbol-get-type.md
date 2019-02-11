@@ -19,8 +19,8 @@ Retrieves the symbol that represents the type for this symbol.
 ## Syntax
 
 ```C++
-HRESULT get_type ( 
-   IDiaSymbol** pRetVal
+HRESULT get_type (
+    IDiaSymbol** pRetVal
 );
 ```
 
