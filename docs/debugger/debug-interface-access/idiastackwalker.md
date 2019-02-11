@@ -41,7 +41,7 @@ This example shows how to obtain the `IDiaStackWalker` interface.
 
 ```C++
 
-      IDiaStackWalker* pStackWalker;
+IDiaStackWalker* pStackWalker;
 HRESULT hr = CoCreateInstance(CLSID_DiaStackWalker,
                               NULL,
                               CLSCTX_INPROC_SERVER,
