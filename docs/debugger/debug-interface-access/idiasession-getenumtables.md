@@ -19,8 +19,8 @@ Retrieves an enumerator for all tables contained in the symbol store.
 ## Syntax
 
 ```C++
-HRESULT getEnumTables ( 
-   IDiaEnumTables** ppEnumTables
+HRESULT getEnumTables (
+    IDiaEnumTables** ppEnumTables
 );
 ```
 
@@ -43,17 +43,17 @@ IUnknown *GetTable(IDiaSession *pSession, REFIID iid)
         CComPtr<IDiaEnumTables> pEnumTables;
         if (pSession->getEnumTables(&pEnumTables) == S_OK)
         {
-             CComPtr<IDiaTable> pTable;
-             DWORD celt = 0;
-             while(pEnumTables->Next(1,&pTable,&celt) == S_OK &&
-                   celt == 1)
-             {
-                  if (pTable->QueryInterface(iid, (void **)pUnknown) == S_OK)
-                  {
-                       break;
-                  }
-                  pTable = NULL;
-             }
+            CComPtr<IDiaTable> pTable;
+            DWORD celt = 0;
+            while(pEnumTables->Next(1,&pTable,&celt) == S_OK &&
+                  celt == 1)
+            {
+                if (pTable->QueryInterface(iid, (void **)pUnknown) == S_OK)
+                {
+                    break;
+                }
+                pTable = NULL;
+            }
         }
     }
     return(pUnknown);
