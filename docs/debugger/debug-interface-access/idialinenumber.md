@@ -118,7 +118,7 @@ void dumpFunctionLines( IDiaSymbol* pSymbol, IDiaSession* pSession )
                             pLine->get_lineNumber( &linenum );
                             printf( "\t\tfound line %d at 0x%x:0x%x\n", linenum, seg, offset );
                             pLine = NULL;
-                       }
+                        }
                     }
                     firstLine = false;
                 }
