@@ -20,10 +20,10 @@ Retrieves the lines in a specified compiland that contain a specified address.
 
 ```C++
 HRESULT findLinesByAddr (
-   DWORD                 seg,
-   DWORD                 offset,
-   DWORD                 length,
-   IDiaEnumLineNumbers** ppResult
+    DWORD                 seg,
+    DWORD                 offset,
+    DWORD                 length,
+    IDiaEnumLineNumbers** ppResult
 );
 ```
 
