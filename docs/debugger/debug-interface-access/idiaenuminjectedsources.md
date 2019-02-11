@@ -87,7 +87,7 @@ void DumpAllInjectedSources( IDiaSession* pSession)
         {
             IDiaPropertyStorage *pPropertyStorage;
             if (pInjSource->QueryInterface(__uuidof(IDiaPropertyStorage),
-                                           (void **)&pPropertyStorage) == S_OK)
+                                          (void **)&pPropertyStorage) == S_OK)
             {
                 PrintPropertyStorage(pPropertyStorage);
                 pPropertyStorage->Release();
