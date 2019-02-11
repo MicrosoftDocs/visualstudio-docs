@@ -6713,6 +6713,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "mac/activation.md",
+            "redirect_url": "/visualstudio/mac/enable-subscription",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/cross-platform/overview-of-visual-studio-tools-for-unity.md",
             "redirect_url": "/visualstudio/cross-platform/visual-studio-tools-for-unity",
             "redirect_document_id": false
@@ -7131,6 +7136,32 @@
             "source_path": "docs/ide/whats-new-visual-studio.md",
             "redirect_url": "/visualstudio/ide/whats-new-visual-studio-2019",
             "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/docker/vs-azure-tools-docker-edit-and-refresh.md",
+            "redirect_url": "/visualstudio/containers/vs-azure-tools-docker-edit-and-refresh",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/docker/docker-tools.md",
+            "redirect_url": "/visualstudio/containers/docker-tools",
+            "redirect_document_id": true
+        },
+        {  
+            "source_path": "docs/docker/vs-azure-tools-docker-hosting-web-apps-in-docker.md",
+            "redirect_url": "/visualstudio/containers/vs-azure-tools-docker-hosting-web-apps-in-docker",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/docker/vs-azure-tools-docker-setup.md",
+            "redirect_url": "/visualstudio/containers/vs-azure-tools-docker-setup",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/docker/vs-azure-tools-docker-troubleshooting-docker-errors.md",
+            "redirect_url": "/visualstudio/containers/vs-azure-tools-docker-troubleshooting-docker-errors",
+            "redirect_document_id": true
         }
+           
     ]
 }

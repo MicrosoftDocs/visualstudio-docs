@@ -1,7 +1,6 @@
 ---
 title: Manage external tools
 ms.date: 11/20/2017
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
   - "vs.externaltools"

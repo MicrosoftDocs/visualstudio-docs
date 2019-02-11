@@ -1,7 +1,6 @@
 ---
 title: Run as administrator
 ms.date: 06/05/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "Visual Studio, user permissions"

@@ -7,7 +7,6 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
 ---
 # Working with Domain-Specific Language Solutions
 A domain-specific language (DSL) is created using a Visual Studio solution. This section is about how to set up and customize the solution.

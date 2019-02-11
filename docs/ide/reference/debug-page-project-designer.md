@@ -1,7 +1,6 @@
 ---
 title: Debug Page, Project Designer
 ms.date: 06/27/2018
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "vb.ProjectPropertiesDebug"

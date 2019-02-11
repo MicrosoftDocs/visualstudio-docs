@@ -1,7 +1,6 @@
 ---
 title: Install offline help
 ms.date: 11/01/2017
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "installing Help Viewer"

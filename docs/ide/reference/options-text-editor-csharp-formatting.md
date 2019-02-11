@@ -1,7 +1,6 @@
 ---
 title: C# editor formatting options
 ms.date: 08/14/2018
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.CSharp.Formatting.Spacing"

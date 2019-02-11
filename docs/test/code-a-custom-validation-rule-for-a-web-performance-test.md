@@ -15,7 +15,6 @@ dev_langs:
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.prod: visual-studio-dev15
 ---
 # Code a custom validation rule for a web performance test
 

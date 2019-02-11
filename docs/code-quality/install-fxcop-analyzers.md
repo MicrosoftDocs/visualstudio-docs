@@ -1,7 +1,6 @@
 ---
 title: Install FxCop analyzers
 ms.date: 08/03/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "fxcop analyzers"

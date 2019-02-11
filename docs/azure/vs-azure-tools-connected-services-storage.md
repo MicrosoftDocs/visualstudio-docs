@@ -4,7 +4,6 @@ description: Add Azure Storage to your app by using the Visual Studio Add Connec
 author: ghogen
 manager: jillfra
 assetId: 521ec044-ad4b-4828-8864-01decde2e758
-ms.prod: visual-studio-dev15
 ms.custom: vs-azure
 ms.workload: azure-vs
 ms.topic: conceptual

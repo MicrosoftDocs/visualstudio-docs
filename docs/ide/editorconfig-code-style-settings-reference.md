@@ -13,7 +13,6 @@ helpviewer_keywords:
 author: kuhlenh
 ms.author: gewarren
 manager: jillfra
-ms.prod: visual-studio-dev15
 ms.workload:
   - "dotnet"
   - "dotnetcore"
@@ -1384,6 +1383,7 @@ The following list shows the formatting convention rules available in Visual Stu
 - .NET formatting settings
     - [Organize usings](#usings)
         - dotnet_sort_system_directives_first
+        - dotnet_separate_import_directive_groups
 - C# formatting settings
     - [Newline options](#newline)
         - csharp_new_line_before_open_brace
@@ -1426,6 +1426,7 @@ The following table shows the rule name, applicable languages, default value, an
 | Rule name | Applicable languages | Visual Studio default | Visual Studio 2017 version |
 | ----------- | -------------------- | ----------------------| ---------------- |
 | dotnet_sort_system_directives_first | C# and Visual Basic | true | 15.3 |
+| dotnet_separate_import_directive_groups | C# and Visual Basic | false | 15.5 |
 
 **dotnet\_sort\_system\_directives_first**
 
@@ -1452,6 +1453,34 @@ Example *.editorconfig* file:
 # .NET formatting settings:
 [*.{cs,vb}]
 dotnet_sort_system_directives_first = true
+```
+
+**dotnet\_separate\_import\_directive\_groups**
+
+- When this rule is set to **true**, place a blank line between using directive groups.
+- When this rule is set to **false**, do not place a blank line between using directive groups.
+
+Code examples:
+
+```csharp
+// dotnet_separate_import_directive_groups = true
+using System.Collections.Generic;
+using System.Threading.Tasks;
+
+using Octokit;
+
+// dotnet_separate_import_directive_groups = false
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using Octokit;
+```
+
+Example *.editorconfig* file:
+
+```EditorConfig
+# .NET formatting settings:
+[*.{cs,vb}]
+dotnet_separate_import_directive_groups = true
 ```
 
 ### C# formatting settings
@@ -2187,6 +2216,7 @@ charset = utf-8-bom
 [*.{cs,vb}]
 # Organize usings
 dotnet_sort_system_directives_first = true
+dotnet_separate_import_directive_groups = false
 
 # this. preferences
 dotnet_style_qualification_for_field = false:none

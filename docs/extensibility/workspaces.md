@@ -2,7 +2,6 @@
 title: "Workspaces in Visual Studio | Microsoft Docs"
 ms.date: "02/21/2018"
 ms.topic: "conceptual"
-ms.assetid: 3489592a-dc0c-4cd3-9b08-cd367626980a
 author: "vukelich"
 ms.author: "svukel"
 manager: "viveis"
@@ -174,5 +173,5 @@ Workspace extensibility is heavily MEF-based, and composition errors will cause 
 
 ## Next steps
 
-* [File contexts](workspace-file-contexts.md) - File context providers bring code intelligence for Open Folder workspaces. 
+* [File contexts](workspace-file-contexts.md) - File context providers bring code intelligence for Open Folder workspaces.
 * [Indexing](workspace-indexing.md) - Workspace indexing collects and persists information about the workspace.

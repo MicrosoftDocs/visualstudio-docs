@@ -7,7 +7,6 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
 ---
 # Guidelines for Writing T4 Text Templates
 These general guidelines might be helpful if you are generating program code or other application resources in Visual Studio. They are not fixed rules.
@@ -42,7 +41,7 @@ These general guidelines might be helpful if you are generating program code or 
 
   In other generated languages such as XML, use the `<#@include#>` directive to make simple combinations of hand-written and generated content. In more complex cases, you might have to write a post-processing step that combines the generated file with any hand-written files.
 
-  Move common material into include files or run-time templates
+  Move common material into include files or run-time templates.
   To avoid repeating similar blocks of text and code in multiple templates, use the `<#@ include #>` directive. For more information, see [T4 Include Directive](../modeling/t4-include-directive.md).
 
   You can also build run-time text templates in a separate project, and then call them from the design-time template. To do this, use the `<#@ assembly #>` directive to access the separate project. For examples, see ["Inheritance in Text Templates" in Gareth Jones' Blog](http://go.microsoft.com/fwlink/?LinkId=208373).
@@ -52,14 +51,14 @@ These general guidelines might be helpful if you are generating program code or 
 
   You can put the methods in an abstract class that the template can inherit. The abstract class must inherit from <xref:Microsoft.VisualStudio.TextTemplating.TextTransformation?displayProperty=fullName>. For more information, see [T4 Template Directive](../modeling/t4-template-directive.md).
 
-  Generate code, not configuration files
+  Generate code, not configuration files.
   One method of writing a variable application is to write generic program code that accepts a configuration file. An application written in this manner is very flexible, and can be reconfigured when the business requirements change, without rebuilding the application. However, a drawback of this approach is that the application will perform less well than a more specific application. Also, its program code will be more difficult to read and maintain, partly because it has always to deal with the most generic types.
 
   By contrast, an application whose variable parts are generated before compilation can be strongly typed. This makes it much easier and more reliable to write hand-written code and integrate it with the generated parts of the software.
 
   To obtain the full benefit of code generation, try to generate program code instead of configuration files.
 
-  Use a Generated Code folder
+  Use a Generated Code folder.
   Place the templates and the generated files in a project folder named **Generated Code**, to make it clear that these are not files that should be edited directly. If you create custom code to override or add to the generated classes, place those classes in a folder that is named **Custom Code**. The structure of a typical project looks like this:
 
 ```
@@ -76,7 +75,7 @@ MyProject
 ```
 
 ## Guidelines for Run-Time (Preprocessed) T4 Templates
- Move common material into inherited templates
+ Move common material into inherited templates.
  You can use inheritance to share methods and text blocks between T4 text templates. For more information, see [T4 Template Directive](../modeling/t4-template-directive.md).
 
  You can also use include files that have run-time templates.
@@ -94,7 +93,7 @@ MyProject
 
  `private string ComputeTotal() { ... }`
 
- Allow for custom code: provide extension points
+ Allow for custom code: provide extension points.
  Consider generating virtual methods in \<#+ class feature blocks #>. This allows a single template to be used in many contexts without modification. Instead of modifying the template, you can construct a derived class which supplies the minimum additional logic. The derived class can be either regular code, or it can be a run-time template.
 
  For example, in MyStandardRunTimeTemplate.tt:
@@ -116,10 +115,10 @@ class FabrikamTemplate : MyStandardRunTimeTemplate
 ```
 
 ## Guidelines for All T4 Templates
- Separate data-gathering from text generation
+ Separate data-gathering from text generation.
  Try to avoid mixing computation and text blocks. In each text template, use the first \<# code block #> to set variables and perform complex computations. From the first text block down to the end of the template or the first \<#+ class feature block #>, avoid long expressions, and avoid loops and conditionals unless they contain text blocks. This practice makes the template easier to read and maintain.
 
- Don't use `.tt` for include files
+ Don't use `.tt` for include files.
  Use a different file name extension such as `.ttinclude` for include files. Use `.tt` only for files that you want to be processed either as run-time or design-time text templates. In some cases, Visual Studio recognizes `.tt` files and automatically sets their properties for processing.
 
  Start each template as a fixed prototype.

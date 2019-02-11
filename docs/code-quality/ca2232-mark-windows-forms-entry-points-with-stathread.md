@@ -1,7 +1,6 @@
 ---
 title: "CA2232: Mark Windows Forms entry points with STAThread"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "MarkWindowsFormsEntryPointsWithStaThread"

@@ -1,7 +1,6 @@
 ---
 title: Basic Design Guideline Rules rule set for managed code
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 ms.assetid: 7eb384f5-f961-400b-b151-115d92addc6a
 author: gewarren

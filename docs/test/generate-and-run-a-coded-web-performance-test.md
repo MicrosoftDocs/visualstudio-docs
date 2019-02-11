@@ -14,7 +14,6 @@ dev_langs:
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.prod: visual-studio-dev15
 ---
 # Generate and run a coded web performance test
 

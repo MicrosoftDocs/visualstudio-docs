@@ -6,6 +6,8 @@
     href: javascript-in-vs-2017.md
 - name: Quickstarts
   items:
+  - name: First look at the Visual Studio IDE
+    href: quickstart-ide-orientation-js.md
   - name: Create a Node.js project
     href: /visualstudio/ide/quickstart-nodejs?toc=/visualstudio/javascript/toc.json
   - name: Create a Vue.js project

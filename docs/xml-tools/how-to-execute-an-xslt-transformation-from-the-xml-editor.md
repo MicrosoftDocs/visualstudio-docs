@@ -1,7 +1,6 @@
 ---
 title: "How to: Execute an XSLT Transformation from the XML Editor"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.assetid: 56a0fe82-5231-487d-8b6e-a08a9b04e0fc
 author: gewarren

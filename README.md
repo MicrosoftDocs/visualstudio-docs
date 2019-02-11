@@ -1,6 +1,6 @@
-# Visual Studio 2017 documentation
+# Visual Studio documentation
 
-Welcome! This repo contains source files for the Visual Studio 2017 technical documentation. The topics are published on [docs.microsoft.com](https://docs.microsoft.com/visualstudio).
+Welcome! This repo contains source files for the Visual Studio technical documentation. The topics are published on [docs.microsoft.com](https://docs.microsoft.com/visualstudio).
 
 This repo was moved on June 23, 2017 from https://github.com/Microsoft/vsdocs. Traffic to the old URLs is redirected here.
 
