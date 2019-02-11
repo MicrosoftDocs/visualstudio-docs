@@ -280,5 +280,4 @@ If you're ready to dive into more coding, one of the following language-specific
 - Discover [more Visual Studio features](../ide/advanced-feature-overview.md)
 - Visit [visualstudio.microsoft.com](https://visualstudio.microsoft.com/vs/)
 - Read [The Visual Studio blog](https://blogs.msdn.microsoft.com/visualstudio/)
-- Check out the free Visual Studio courses at [Microsoft Virtual Academy](https://mva.microsoft.com/product-training/visual-studio-courses#!index=2&lang=1033)
 - Download Visual Studio at [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017)
