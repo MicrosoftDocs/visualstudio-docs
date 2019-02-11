@@ -6709,7 +6709,7 @@
         },
         {
             "source_path": "mac/activation.md",
-            "redirect_url": "/visualstudio/mac/enable-subscription.md",
+            "redirect_url": "/visualstudio/mac/enable-subscription",
             "redirect_document_id": false
         },
         {
