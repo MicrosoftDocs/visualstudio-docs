@@ -20,7 +20,7 @@ Retrieves the base type for this symbol<em>.</em>
 
 ```C++
 HRESULT get_baseType (
-   DWORD* pRetVal
+    DWORD* pRetVal
 );
 ```
 
