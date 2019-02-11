@@ -20,7 +20,7 @@ Retrieves a flag that specifies whether the function is an introducing virtual f
 
 ```C++
 HRESULT get_intro ( 
-   BOOL* pRetVal
+    BOOL* pRetVal
 );
 ```
 
@@ -38,10 +38,10 @@ If successful, returns `S_OK`; otherwise, returns `S_FALSE` or error code.
 
 ```C++
 class A {
-   virtual int f1();
+    virtual int f1();
 }
 class B : public A {
-   int f1();
+    int f1();
 }
 ```
 
