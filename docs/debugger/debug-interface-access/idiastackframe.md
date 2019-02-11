@@ -64,13 +64,13 @@ void PrintStackFrame(IDiaStackFrame* pFrame)
         if (pFrame->get_base(&bottom) == S_OK &&
             pFrame->get_registerValue( CV_REG_ESP, &top ) == S_OK )
         {
-             printf("range = 0x%08I64x - 0x%08I64x\n", bottom, top);
+            printf("range = 0x%08I64x - 0x%08I64x\n", bottom, top);
         }
 
         ULONGLONG returnAddress = 0;
         if (pFrame->get_returnAddress(&returnAddress) == S_OK)
         {
-             printf("return address = 0x%08I64x\n", returnAddress);
+            printf("return address = 0x%08I64x\n", returnAddress);
         }
 
         DWORD lengthFrame     = 0;
