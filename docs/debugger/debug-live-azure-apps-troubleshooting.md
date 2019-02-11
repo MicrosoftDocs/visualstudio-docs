@@ -47,7 +47,19 @@ Take these steps:
 Take these steps:
 
 - Make sure the Snapshot Debugger component is installed. Open the Visual Studio Installer, and check the **Snapshot Debugger** component in the Azure workload.
+::: moniker range="< vs-2019"
 - Make sure your app is supported. Currently, only ASP.NET (4.6.1+) and ASP.NET Core (2.0+) apps deployed to Azure App Services are supported.
+::: moniker-end
+::: moniker range=">= vs-2019"
+- Make sure your app is supported:
+  - Azure App Services - ASP.NET applications running on .NET Framework 4.6.1 or later.
+  - Azure App Services - ASP.NET Core applications running on .NET Core 2.0 or later on Windows.
+  - Azure Virtual Machines (and VMSS) - ASP.NET applications running on .NET Framework 4.6.1 or later.
+  - Azure Virtual Machines (and VMSS) - ASP.NET Core applications running on .NET Core 2.0 or later on Windows.
+  - Azure Kubernetes Services - ASP.NET Core applications running on .NET Core 2.2 or later on Debian 9.
+  - Azure Kubernetes Services - ASP.NET Core applications running on .NET Core 2.2 or later on Alpine 3.8.
+  - Azure Kubernetes Services - ASP.NET Core applications running on .NET Core 2.2 or later on Ubuntu 18.04.
+::: moniker-end
 
 ## Issue: I only see Throttled Snapshots in the Diagnostic Tools
 
@@ -60,7 +72,7 @@ Take these steps:
 ## Known Issues
 
 - Snapshot debugging with multiple Visual Studio clients against the same App Service is not currently supported.
-- Roslyn IL optimizations are not fully supported in ASP.NET Core projects. For some ASP.NET Core projects, you may not be able to see some variables or use some variables in conditional statements. 
+- Roslyn IL optimizations are not fully supported in ASP.NET Core projects. For some ASP.NET Core projects, you may not be able to see some variables or use some variables in conditional statements.
 - Special variables, such as *$FUNCTION* or *$CALLER*, cannot be evaluated in conditional statements or logpoints for ASP.NET Core projects.
 - Snapshot debugging does not work on App Services that have [Local Caching](/azure/app-service/app-service-local-cache) turned on.
 - Snapshot debugging API Apps is not currently supported.
@@ -79,5 +91,7 @@ Snapshot Debugging and Application Insights depend on an ICorProfiler, which loa
 ## See also
 
 [Debugging in Visual Studio](../debugger/index.md)  
-[Debug live ASP.NET apps using the Snapshot Debugger](../debugger/debug-live-azure-applications.md)  
+[Debug live ASP.NET apps using the Snapshot Debugger](../debugger/debug-live-azure-applications.md)
+[Debug live ASP.NET Azure Virtual Machines\Virtual Machines Scale Sets using the Snapshot Debugger](../debugger/debug-live-azure-virtual-machines.md)  
+[Debug live ASP.NET Azure Kubernetes using the Snapshot Debugger](../debugger/debug-live-azure-kubernetes.md)  
 [FAQ for snapshot debugging](../debugger/debug-live-azure-apps-faq.md)  
