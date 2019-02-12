@@ -117,18 +117,6 @@ To learn about other ways you can personalize the IDE, see [Personalize Visual S
 
 ## Create a program
 
-First, we'll configure Visual Studio to use environment settings tailored to C# developers.
-
-1. On the menu bar, choose **Tools** > **Import and Export Settings**.
-
-2. In the **Import and Export Settings Wizard**, select **Reset all settings** on the first page, and then choose **Next**.
-
-3. On the **Save Current Settings** page, select an option to save your current settings or not, and then choose **Next**. (If you haven't customized any settings, select **No, just reset settings, overwriting my current settings**.)
-
-4. On the **Choose a Default Collection of Settings** page, choose **Visual C#** and then choose **Finish**.
-
-5. On the **Reset Complete** page, choose **Close**.
-
 Let's dive in and create a simple program.
 
 1. Open Visual Studio. On the menu, choose **File** > **New** > **Project**.
