@@ -65,10 +65,6 @@ To quickly test Python support after following the installation steps, open the 
 
     ![Launching, modifying, modifying, or uninstalling Visual Studio from the installer](media/installation-vs-launch.png)
 
-|   |   |
-|---|---|
-| ![movie camera icon for video](../install/media/video-icon.png "Watch a video") | [Watch a video (Microsoft Virtual Academy)](https://mva.microsoft.com/en-US/training-courses-embed/python-tools-for-visual-studio-2017-18121/Video-Installing-Visual-Studio-Python-Support-go1id3LWE_1705918567) on installing Python support in Visual Studio.|
-
 ### Troubleshooting
 
 If you encounter problems installing or running Python in Visual Studio, try the following:

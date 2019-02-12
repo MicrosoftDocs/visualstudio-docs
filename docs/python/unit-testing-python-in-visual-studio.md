@@ -21,10 +21,6 @@ Python uses unit tests extensively to validate scenarios while designing a progr
 
 This article provides a brief outline of unit testing capabilities in Visual Studio with Python. For more on unit testing in general, see [Unit test your code](../test/unit-test-your-code.md).
 
-|   |   |
-|---|---|
-| ![movie camera icon for video](../install/media/video-icon.png "Watch a video") | [Watch a video (Microsoft Virtual Academy)](https://mva.microsoft.com/en-US/training-courses-embed/python-tools-for-visual-studio-2017-18121/Video-Testing-Python-hb46k6LWE_405918567) on unit testing in Python (2m 31s). |
-
 ## Discover and view tests
 
 By convention, Visual Studio identifies tests as methods whose names start with `test`. To see this behavior, do the following:

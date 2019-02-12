@@ -74,5 +74,3 @@ In this tutorial you begin with a simple project containing a single, empty code
 - [Python projects in Visual Studio](managing-python-projects-in-visual-studio.md).
 - [Learn about the Python language on python.org](https://www.python.org)
 - [Python for Beginners](https://www.python.org/about/gettingstarted/) (python.org)
-- [Free Python courses on Microsoft Virtual Academy](https://mva.microsoft.com/search/SearchResults.aspx#!q=python)
-- [Top Python Questions at Microsoft Virtual Academy](https://aka.ms/mva-top-python-questions)

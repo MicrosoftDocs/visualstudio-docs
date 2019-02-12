@@ -19,10 +19,6 @@ Because you spend much of your development time in the code editor, [Python supp
 
 The editor is also integrated with the **Interactive** window in Visual Studio, making it easy to exchange code between the two. See [Tutorial Step 3: Use the Interactive REPL window](tutorial-working-with-python-in-visual-studio-step-03-interactive-repl.md) and [Use the Interactive window - Send to Interactive command](python-interactive-repl-in-visual-studio.md#send-to-interactive-command) for details.
 
-|   |   |
-|---|---|
-| ![movie camera icon for video](../install/media/video-icon.png "Watch a video") | [Watch a video (Microsoft Virtual Academy)](https://mva.microsoft.com/en-US/training-courses-embed/python-tools-for-visual-studio-2017-18121/Video-Editing-Python-Code-r2iQH5LWE_4605918567) for a demonstration of editing Python code (2m 30s).|
-
 For general documentation on editing code in Visual Studio, see [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md). Also see [Outlining](../ide/outlining.md), which helps you stay focused on particular sections of your code.
 
 You can also use the Visual Studio **Object Browser** (**View** > **Other Windows** > **Object Browser** or **Ctrl**+**W** > **J**) for inspecting Python classes defined in each module and the functions defined in those classes.
