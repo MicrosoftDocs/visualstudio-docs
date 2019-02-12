@@ -65,7 +65,7 @@ The following example shows a more complex custom reporting function. In this ex
 #include <malloc.h>
 #pragma runtime_checks("", off)
 int Catch_RTC_Failure(int errType, const wchar_t *file, int line,
-                   const wchar_t *module, const wchar_t *format, ...)
+                      const wchar_t *module, const wchar_t *format, ...)
 {
     // Prevent re-entrance.
     static long running = 0;
@@ -77,7 +77,7 @@ int Catch_RTC_Failure(int errType, const wchar_t *file, int line,
     for (int i = 0; i < numErrors; i++)
         errors[i] = _RTC_SetErrorType((_RTC_ErrorNumber)i, _RTC_ERRTYPE_IGNORE);
 
-   // First, get the rtc error number from the var-arg list.
+    // First, get the rtc error number from the var-arg list.
     va_list vl;
     va_start(vl, format);
     _RTC_ErrorNumber rtc_errnum = va_arg(vl, _RTC_ErrorNumber);
