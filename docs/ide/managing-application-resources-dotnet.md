@@ -1,7 +1,6 @@
 ---
 title: Manage application resources (.NET)
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
   - "msvse_resedit.dlg.SetCustomTool"
@@ -15,7 +14,7 @@ helpviewer_keywords:
   - "application resources [Visual Studio]"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

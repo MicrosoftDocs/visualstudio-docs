@@ -1,14 +1,13 @@
 ---
 title: Options, Text Editor, U-SQL, IntelliSense
 ms.date: 01/17/2019
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.U-SQL.IntelliSense"
   - "VS.ToolsOptionsPages.Text_Editor.HQL.IntelliSense"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

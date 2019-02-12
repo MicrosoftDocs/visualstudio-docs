@@ -3,12 +3,10 @@ title: Get started with C++
 description: ""
 ms.custom: mvc
 ms.date: 12/04/2017
-ms.prod: visual-studio-dev15
-ms.prod: visual-studio-dev15
 ms.topic: tutorial
 author: corob-msft
 ms.author: corob
-manager: douge
+manager: jillfra
 dev_langs:
   - "CPP"
 ms.workload:

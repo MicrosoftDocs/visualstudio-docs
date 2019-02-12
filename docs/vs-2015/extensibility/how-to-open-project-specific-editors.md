@@ -1,14 +1,9 @@
 ---
 title: "How to: Open Project-Specific Editors | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "project types, opening a project-specific editor"
   - "editors [Visual Studio SDK], opening project-specific editors"
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 83e56d39-c97b-4c6b-86d6-3ffbec97e8d1
 caps.latest.revision: 14
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Open Project-Specific Editors
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -56,4 +51,3 @@ If an item file being opened by a project is intrinsically bound to the particul
  [Opening and Saving Project Items](../extensibility/internals/opening-and-saving-project-items.md)   
  [How to: Open Standard Editors](../extensibility/how-to-open-standard-editors.md)   
  [How to: Open Editors for Open Documents](../extensibility/how-to-open-editors-for-open-documents.md)
-

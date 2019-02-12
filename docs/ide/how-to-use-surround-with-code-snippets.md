@@ -1,14 +1,13 @@
 ---
 title: "How to use surround-with code snippets | Microsoft Docs"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "surround-with snippets"
   - "snippets [C#], surround with"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

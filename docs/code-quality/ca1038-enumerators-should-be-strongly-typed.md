@@ -1,7 +1,6 @@
 ---
 title: "CA1038: Enumerators should be strongly typed"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "EnumeratorsShouldBeStronglyTyped"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 8919f526-d487-42a4-87dc-2b2ee25260c4
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

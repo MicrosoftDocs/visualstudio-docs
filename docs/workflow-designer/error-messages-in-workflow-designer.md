@@ -2,7 +2,6 @@
 title: "Error Messages in Workflow Designer"
 ms.date: 11/04/2016
 ms.topic: reference
-ms.prod: visual-studio-dev15
 f1_keywords:
   - "WFDErrorMessages.UI"
   - "System.Activities.Presentation.ErrorActivity.UI"
@@ -10,7 +9,7 @@ f1_keywords:
 ms.assetid: 4d8bbc2e-34fc-477f-9140-4adfd70c34a0
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

@@ -3,13 +3,12 @@ title: Learn Flask tutorial in Visual Studio step 1, Flask basics
 titleSuffix: ""
 description: A walkthrough of Flask basics in the context of Visual Studio projects, including prerequisites, Git, and virtual environments.
 ms.date: 01/07/2019
-ms.prod: visual-studio-dev15
 ms.topic: tutorial
 author: kraigb
 ms.author: kraigb
-manager: douge
+manager: jillfra
 ms.custom: seodec18
-ms.workload: 
+ms.workload:
   - python
   - data-science
 ---

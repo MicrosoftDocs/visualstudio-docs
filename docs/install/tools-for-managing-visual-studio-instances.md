@@ -4,7 +4,6 @@ titleSuffix: ""
 description: "Learn about the tools that you can use to detect and manage Visual Studio installations on client machines."
 ms.date: 08/14/2017
 ms.custom: "seodec18"
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "{{PLACEHOLDER}}"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 85686707-14C0-4860-9B7A-66485D43D241
 author: TerryGLee
 ms.author: tglee
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

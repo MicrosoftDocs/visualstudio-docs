@@ -1,7 +1,6 @@
 ---
 title: Debug Page, Project Designer
 ms.date: 06/27/2018
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "vb.ProjectPropertiesDebug"
@@ -11,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: ef11eae9-df96-4e20-aabd-2678ba317140
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

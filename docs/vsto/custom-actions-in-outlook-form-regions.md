@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "custom actions [Office development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload: 
   - "office"
 ---

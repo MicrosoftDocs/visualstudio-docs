@@ -1,19 +1,16 @@
 ---
 title: "BoundsRules Constrain Shape Location and Size | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Domain-Specific Language, events"
 ms.assetid: 4d08e541-fc67-4e68-bf31-30d346aa2aa0
 caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # BoundsRules Constrain Shape Location and Size
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -67,6 +64,3 @@ public class BarBoundsRule: BoundsRules
 ## See Also  
  <xref:Microsoft.VisualStudio.Modeling.Diagrams.BoundsRules>   
  [Responding to and Propagating Changes](../modeling/responding-to-and-propagating-changes.md)
-
-
-

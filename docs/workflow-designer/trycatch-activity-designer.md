@@ -2,14 +2,13 @@
 title: "Workflow Designer - TryCatch Activity Designer"
 ms.date: 11/04/2016
 ms.topic: reference
-ms.prod: visual-studio-dev15
 f1_keywords:
   - "System.Activities.Statements.TryCatch.UI"
   - "System.Activities.Statements.Catch`1.UI"
 ms.assetid: 02a326c2-4009-442f-b7cb-e42121fd2992
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

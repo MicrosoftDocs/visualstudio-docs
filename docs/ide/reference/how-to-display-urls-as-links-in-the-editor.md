@@ -1,7 +1,6 @@
 ---
 title: "How to: Display URLs as Links in the Editor"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "URLs, opening"
@@ -10,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: 7c673953-476e-4897-9c2d-1fc15556c172
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

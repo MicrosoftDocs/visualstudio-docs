@@ -1,7 +1,6 @@
 ---
 title: JavaScript IntelliSense
 ms.date: 06/28/2017
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "IntelliSense [JavaScript]"
@@ -22,7 +21,7 @@ helpviewer_keywords:
   - "XML documentation comments [JavaScript]"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

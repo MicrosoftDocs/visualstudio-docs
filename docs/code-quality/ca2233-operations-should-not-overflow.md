@@ -1,7 +1,6 @@
 ---
 title: "CA2233: Operations should not overflow"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "OperationsShouldNotOverflow"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 3a2b06ba-6d1b-4666-9eaf-e053ef47ffaa
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CSharp
  - VB

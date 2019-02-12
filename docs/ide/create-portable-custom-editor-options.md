@@ -6,8 +6,7 @@ helpviewer_keywords:
   - "editorconfig [Visual Studio]"
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
+manager: jillfra
 ---
 # Create portable, custom editor settings with EditorConfig
 

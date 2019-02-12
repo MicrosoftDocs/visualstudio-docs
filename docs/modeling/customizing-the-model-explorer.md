@@ -8,10 +8,9 @@ helpviewer_keywords:
   - "Domain-Specific Language Tools, Domain-Specific Language Explorer"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
 ---
 # Customizing the Model Explorer
 You can change the appearance and behavior of the explorer for your domain-specific language designer as follows:

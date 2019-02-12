@@ -1,14 +1,9 @@
 ---
 title: "Documents, Environment, Options Dialog Box | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "VS.Environment.Documents"
   - "VS.ToolsOptionsPages.Environment.Documents"
@@ -37,7 +32,7 @@ ms.assetid: 4e3ccf1b-cd68-4db6-9470-710c911b47fc
 caps.latest.revision: 25
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Documents, Environment, Options Dialog Box
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -46,7 +41,7 @@ manager: "ghogen"
 Use this page of the **Options** dialog box to control the display of documents in the integrated development environment (IDE) and manage external changes to documents and files. You can access this dialog box by clicking **Options** on the **Tools** menu and then selecting **Documents** in the **Environment** node. If **Documents** does not appear in the list, select **Show all settings** in the **Options** dialog box.  
   
 > [!NOTE]
->  The options available in dialog boxes, and the names and locations of menu commands you see, might differ from what is described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  The options available in dialog boxes, and the names and locations of menu commands you see, might differ from what is described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
  **Reuse current document window, if saved**  
  When selected, closes your current document if it has been saved, and opens a new document in the same window. If your current document has not been saved, it remains open and the new document is opened in a separate window. When this option is cleared, new documents always open in separate windows.  
@@ -89,6 +84,3 @@ Use this page of the **Options** dialog box to control the display of documents 
  [Environment Options Dialog Box](../../ide/reference/environment-options-dialog-box.md)   
  [Miscellaneous Files](../../ide/reference/miscellaneous-files.md)   
  [Finding and Replacing Text](../../ide/finding-and-replacing-text.md)
-
-
-

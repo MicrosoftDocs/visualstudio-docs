@@ -1,7 +1,6 @@
 ---
 title: "CA1063: Implement IDisposable correctly"
 ms.date: 02/12/2018
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "ImplementIDisposableCorrectly"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 12afb1ea-3a17-4a3f-a1f0-fcdb853e2359
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - "CSharp"
 ms.workload:

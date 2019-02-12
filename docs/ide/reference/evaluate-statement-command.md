@@ -1,7 +1,6 @@
 ---
 title: Evaluate Statement Command
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "debug.evaluatestatement"
@@ -11,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 032039bc-9477-4f93-9b9d-66d4be0e90f4
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

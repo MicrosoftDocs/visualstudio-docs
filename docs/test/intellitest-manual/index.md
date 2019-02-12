@@ -1,12 +1,11 @@
 ---
 title: "IntelliTest Reference Manual | Microsoft Developer Test Tools"
 ms.date: 05/02/2017
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "IntelliTest Reference Manual, IntelliTest"
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 author: gewarren

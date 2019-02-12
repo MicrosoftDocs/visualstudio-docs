@@ -1,7 +1,6 @@
 ---
 title: Globalization Warnings
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "vs.codeanalysis.globalizationrules"
@@ -13,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: a8d12d41-14bf-4b43-af24-168312d7c390
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

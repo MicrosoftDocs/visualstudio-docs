@@ -1,7 +1,6 @@
 ---
 title: -NoSplash (devenv.exe)
 ms.date: 12/10/2018
-ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 helpviewer_keywords:
@@ -10,7 +9,7 @@ helpviewer_keywords:
   - "NoSplash Devenv switch"
 author: DennisLee-DennisLee
 ms.author: v-dele
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

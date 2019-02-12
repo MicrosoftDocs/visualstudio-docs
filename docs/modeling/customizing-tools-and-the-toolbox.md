@@ -10,10 +10,9 @@ helpviewer_keywords:
   - "Domain-Specific Language, toolbox"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
 ---
 # Customizing Tools and the Toolbox
 

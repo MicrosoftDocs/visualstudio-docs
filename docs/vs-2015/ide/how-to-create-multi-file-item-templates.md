@@ -1,14 +1,9 @@
 ---
 title: "How to: Create Multi-file Item Templates | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Visual Studio templates, creating multi-file item templates"
   - "multi-file item templates"
@@ -17,7 +12,7 @@ ms.assetid: fe3c4257-e383-4c80-b8af-c5c521959c33
 caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Create Multi-file Item Templates
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -87,6 +82,3 @@ Item templates may only specify one item, but sometimes the item is made up of m
  [How to: Create Item Templates](../ide/how-to-create-item-templates.md)   
  [Template Parameters](../ide/template-parameters.md)   
  [How to: Substitute Parameters in a Template](../ide/how-to-substitute-parameters-in-a-template.md)
-
-
-

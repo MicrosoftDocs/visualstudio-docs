@@ -1,7 +1,6 @@
 ---
 title: "CA1714: Flags enums should have plural names"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "FlagsEnumsShouldHavePluralNames"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 95ef5b43-7681-49e9-a5a3-ac0357cf1be7
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

@@ -1,21 +1,16 @@
 ---
 title: "Instruction Pointers (IPs) View - Contention Data | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Instruction Pointers view"
 ms.assetid: f5e49c24-d4cf-4f87-977d-37e3223d1196
 caps.latest.revision: 14
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Instruction Pointers (IPs) View - Contention Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -49,6 +44,3 @@ The IPs view of contention data lists data for the assembly instructions that we
  [Instruction Pointers (IPs) View](../profiling/instruction-pointers-ips-view.md)   
  [Instruction Pointers (IPs) View - Sampling](../profiling/instruction-pointers-ips-view-dotnet-memory-sampling-data.md)   
  [Instruction Pointers (IPs) View](../profiling/instruction-pointers-ips-view-sampling-data.md)
-
-
-

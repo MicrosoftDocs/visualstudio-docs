@@ -4,12 +4,11 @@ titleSuffix: ""
 description: "Find out how to report a problem with Visual Studio 2017 to Microsoft so that we can diagnose and fix it."
 ms.date: 03/11/2018
 ms.custom: "seodec18"
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.assetid: bee01179-cde5-4419-9095-190ee0ba5902
 author: TerryGLee
 ms.author: tglee
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

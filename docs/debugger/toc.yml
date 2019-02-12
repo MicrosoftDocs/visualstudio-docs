@@ -4,7 +4,7 @@
   items:
   - name: "What is debugging?"
     href: what-is-debugging.md
-  - name: Fix bugs by writing better C# code
+  - name: Debugging techniques and tools
     href: write-better-code-with-visual-studio.md
 - name: Quickstarts
   items:
@@ -201,6 +201,9 @@
       items:
       - name: Create custom views of native objects
         href: create-custom-views-of-native-objects.md
+        items:
+        - name: "Visual C++ custom visualizer compatibility"
+          href: visual-cpp-custom-visualizer-compatibility.md
       - name: Create custom views of managed objects
         href: create-custom-views-of-dot-managed-objects.md
         items:

@@ -6,10 +6,9 @@ helpviewer_keywords:
   - "Domain-Specific Language, definition file"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
 ---
 # The DslDefinition.dsl File
 

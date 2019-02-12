@@ -9,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: e65b4b15-46d8-4ca7-9456-2b4c078f7cf9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: douge
+manager: jillfra
 ms.workload: 
   - "vssdk"
 ---
@@ -41,17 +41,15 @@ int GetHostPid ( 
  The following example shows how to implement this method for a simple `CProgram` object that implements the [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) interface.  
   
 ```cpp  
-HRESULT CProgram::GetHostPid(DWORD* pdwHostPid) {    
-    // Check for valid argument.    
-   if (pdwHostPid)    
-    {    
-        // Get the process identifier of the calling process.    
-      *pdwHostPid = GetCurrentProcessId();    
-  
-        return S_OK;    
-    }    
-  
-    return E_INVALIDARG;    
+HRESULT CProgram::GetHostPid(AD_PROCESS_ID* pdwHostPid) {
+   // Check for valid argument.
+   if (pdwHostPid == NULL)
+     return E_INVALIDARG;
+
+   // Get the process identifier of the calling process.
+   pdwHostPid->ProcessIdType = AD_PROCESS_ID_SYSTEM;
+   pdwHostPid->ProcessId.dwProcessId = GetCurrentProcessId();
+   return S_OK; 
 }    
 ```  
   

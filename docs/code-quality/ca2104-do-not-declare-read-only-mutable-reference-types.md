@@ -1,7 +1,6 @@
 ---
 title: "CA2104: Do not declare read only mutable reference types"
 ms.date: 11/01/2018
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "DoNotDeclareReadOnlyMutableReferenceTypes"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 81b83ee5-4db5-4be0-9f8d-90b53894ec3b
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CPP
  - CSharp

@@ -1,14 +1,13 @@
 ---
 title: Import and Export Settings, Environment, Options Dialog Box
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Environment.Profiles"
 ms.assetid: 4e69f97b-2bd2-4619-a5f9-92ca2e814de3
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

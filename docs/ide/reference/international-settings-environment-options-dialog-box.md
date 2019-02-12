@@ -1,7 +1,6 @@
 ---
 title: International Settings, Environment, Options Dialog Box
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Environment.InternationalSettings"
@@ -15,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: e3a8815c-6995-4099-8e88-34f91fad55b2
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

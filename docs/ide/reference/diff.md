@@ -1,7 +1,6 @@
 ---
 title: -Diff (devenv.exe)
 ms.date: 12/10/2018
-ms.prod: visual-studio-dev15
 ms.topic: reference
 helpviewer_keywords:
   - "Devenv, /Diff switch"
@@ -10,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: 5377fedb-632a-4e86-a947-7c11c86451e7
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -41,7 +40,7 @@ devenv /Diff SourceFile TargetFile [SourceDisplayName [TargetDisplayName]]
 - *TargetDisplayName*
 
   Optional. The display name of the second file.
-    
+
 ## Remarks
 
 If an instance of the IDE is already open, the file comparison appears in a tab in the current IDE.

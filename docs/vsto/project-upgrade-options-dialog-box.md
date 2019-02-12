@@ -11,9 +11,9 @@ dev_langs:
 helpviewer_keywords: 
   - "project upgrade [Office development in Visual Studio]"
   - "Options dialog box, Project Upgrade page"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

@@ -1,7 +1,6 @@
 ---
 title: "CA1305: Specify IFormatProvider"
 ms.date: 06/30/2018
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "SpecifyIFormatProvider"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: fb34ed9a-4eab-47cc-8eef-3068a4a1397e
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CSharp
 ms.workload:

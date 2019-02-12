@@ -9,8 +9,7 @@ helpviewer_keywords:
 ms.assetid: 499aca80-1069-408d-ac68-326da6a50645
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
+manager: jillfra
 ---
 # How to: Add custom counter sets using the Load Test Editor
 

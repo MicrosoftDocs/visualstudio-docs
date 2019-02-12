@@ -1,14 +1,13 @@
 ---
 title: Target a .NET Framework version
 ms.date: 02/06/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "targeting .NET Framework [Visual Studio]"
   - ".NET Framework version [Visual Studio]"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "dotnet"
 ---

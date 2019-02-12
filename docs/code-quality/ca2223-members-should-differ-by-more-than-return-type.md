@@ -1,7 +1,6 @@
 ---
 title: "CA2223: Members should differ by more than return type"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "MembersShouldDifferByMoreThanReturnType"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: eb326d9f-50d9-48cb-84be-d41c84a8fe09
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

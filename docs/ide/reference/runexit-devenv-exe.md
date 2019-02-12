@@ -1,7 +1,6 @@
 ---
 title: -RunExit (devenv.exe)
 ms.date: 12/10/2018
-ms.prod: visual-studio-dev15
 ms.topic: reference
 helpviewer_keywords:
   - "RunExit Devenv switch"
@@ -10,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: bfc94875-5fc0-4110-b961-d59c0b403790
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

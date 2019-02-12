@@ -1,7 +1,6 @@
 ---
 title: "CA2140: Transparent code must not reference security critical items"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "CA2129"
@@ -14,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 251a12da-0557-47f5-a4f7-0229d590ae7b
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

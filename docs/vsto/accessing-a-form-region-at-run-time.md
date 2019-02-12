@@ -1,7 +1,6 @@
 ---
 title: "Access a form region at runtime"
 ms.date: 02/02/2017
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 dev_langs:
   - "VB"
@@ -12,7 +11,7 @@ helpviewer_keywords:
   - "form regions [Office development in Visual Studio], accessing at runtime"
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
   - "office"
 ---

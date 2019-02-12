@@ -1,14 +1,9 @@
 ---
 title: "Debugging Windows Store and Windows Universal apps | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -18,7 +13,7 @@ ms.assetid: dd1723b7-4a43-47aa-9acf-d44afce78154
 caps.latest.revision: 8
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Debugging Windows Store and Windows Universal apps
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -39,6 +34,3 @@ The Visual Studio debugger provides complete support for debugging Windows Store
   
 ## See Also  
  [Analyze code quality using static code analysis](../test/analyze-the-code-quality-of-store-apps-using-visual-studio-static-code-analysis.md)
-
-
-

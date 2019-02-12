@@ -1,7 +1,6 @@
 ---
 title: "How to: View Existing Types (Class Designer)"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
   - "vs.classdesigner.CannotShowBaseType"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: de110a4e-5b51-4a40-9dee-615df4d8f999
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

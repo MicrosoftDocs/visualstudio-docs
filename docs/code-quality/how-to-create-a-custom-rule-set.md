@@ -1,7 +1,6 @@
 ---
 title: Create a custom code analysis rule set
 ms.date: 11/02/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
   - "vs.codeanalysis.addremoverulesets"
@@ -9,7 +8,7 @@ helpviewer_keywords:
   - "rule sets"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

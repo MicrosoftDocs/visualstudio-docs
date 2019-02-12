@@ -1,7 +1,6 @@
 ---
 title: Culture-Specific Classes for Global Windows Forms and Web Forms
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "globalization [Windows Forms], classes"
@@ -23,7 +22,7 @@ helpviewer_keywords:
 ms.assetid: 0d06a0a4-f887-4f7c-bde7-1d543c06f803
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CSharp
  - VB

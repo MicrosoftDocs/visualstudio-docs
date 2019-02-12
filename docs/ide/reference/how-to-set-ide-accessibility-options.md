@@ -2,15 +2,13 @@
 title: "How to: Set IDE accessibility options"
 description: "Learn how to set accessibility options in Visual Studio that will make its integrated development environment (IDE) easier for everyone to use, including for people who have low vision to read and for people who have limited dexterity to write."
 ms.date: 08/22/2017
-ms.prod: visual-studio-dev15
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "accessibility [Visual Studio]"
 ms.assetid: ddc96c4c-0600-46c1-8267-7dce4c44ad24
 author: TerryGLee
 ms.author: tglee
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

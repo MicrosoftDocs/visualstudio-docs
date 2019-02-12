@@ -1,20 +1,15 @@
 ---
 title: "Updating Property Values in the Properties Window | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "devlang-csharp"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Properties window, updating property values"
   - "property values, updating in Properties window"
 ms.assetid: 9358e8c3-b9d2-4fd4-aaab-cf48d1526db4
 caps.latest.revision: 9
-manager: "douge"
+manager: jillfra
 ---
 # Updating Property Values in the Properties Window
 There are two ways to keep the **Properties** window in sync with property value changes. The first is to call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell> interface, which provides access to basic windowing functionality, including access to and creation of tool and document windows provided by the environment. The following steps describe this synchronization process.  

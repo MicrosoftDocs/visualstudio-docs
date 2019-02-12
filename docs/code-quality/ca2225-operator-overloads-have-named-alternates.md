@@ -1,7 +1,6 @@
 ---
 title: "CA2225: Operator overloads have named alternates"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "OperatorOverloadsHaveNamedAlternates"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: af8f7ab1-63ad-4861-afb9-b7a7a2be15e1
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

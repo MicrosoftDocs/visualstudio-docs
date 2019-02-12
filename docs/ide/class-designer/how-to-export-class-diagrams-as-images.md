@@ -1,7 +1,6 @@
 ---
 title: "How to: Export Class Diagrams As Images (Class Designer)"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
   - "vs.classdesigner.exportdialog"
@@ -10,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: c57055c5-1340-449f-b9d3-ca6f87e2f69a
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

@@ -10,9 +10,9 @@ helpviewer_keywords:
   - "IntelliTrace [SharePoint development in Visual Studio]"
   - "SharePoint development in Visual Studio, IntelliTrace"
   - "SharePoint development in Visual Studio, unit testing"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
   - "office"
 ---

@@ -1,7 +1,6 @@
 ---
 title: "CA2213: Disposable fields should be disposed"
 ms.date: 11/05/2018
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "DisposableFieldsShouldBeDisposed"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: e99442c9-70e2-47f3-b61a-d8ac003bc6e5
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

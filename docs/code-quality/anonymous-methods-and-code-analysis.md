@@ -1,7 +1,6 @@
 ---
 title: Anonymous method code analysis warnings
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "methods, anonymous"
@@ -13,7 +12,7 @@ dev_langs:
  - VB
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

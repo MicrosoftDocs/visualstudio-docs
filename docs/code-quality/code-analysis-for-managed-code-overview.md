@@ -1,7 +1,6 @@
 ---
 title: Static code analysis for managed code
 ms.date: 03/26/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
   - "vs.projectpropertypages.codeanalysis"
@@ -10,7 +9,7 @@ helpviewer_keywords:
   - "managed code, code analysis"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "dotnet"
 ---

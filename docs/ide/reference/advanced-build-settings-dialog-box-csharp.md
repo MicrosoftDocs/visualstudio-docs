@@ -1,7 +1,6 @@
 ---
 title: Advanced Build Settings Dialog Box (C#)
 ms.date: 06/20/2017
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "cs.AdvancedBuildSettings"
@@ -10,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: 141f2dee-1563-4ce6-ba37-32920b082519
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "dotnet"
 ---

@@ -1,7 +1,6 @@
 ---
 title: "CA1810: Initialize reference type static fields inline"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "InitializeReferenceTypeStaticFieldsInline"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: e9693118-a914-4efb-9550-ec659d8d97d2
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CSharp
  - VB

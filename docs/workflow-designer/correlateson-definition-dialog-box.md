@@ -2,13 +2,12 @@
 title: "Workflow Designer - CorrelatesOn Definition Dialog Box"
 ms.date: 11/04/2016
 ms.topic: reference
-ms.prod: visual-studio-dev15
 f1_keywords:
   - "CorrelatesOnDefinition.UI"
 ms.assetid: 8b2b627a-f236-4479-aa09-525df65e3413
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

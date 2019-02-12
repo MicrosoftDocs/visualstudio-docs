@@ -1,7 +1,6 @@
 ---
 title: "How to: Visualize a Collection Association (Class Designer)"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
   - "vs.classdesigner.collectionassociationline"
@@ -13,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: 54e39838-2fc9-4dc2-85b6-7e88a743108e
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

@@ -1,7 +1,6 @@
 ---
 title: Word wrap
 ms.date: 11/07/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "word wrap"
@@ -10,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: 442f33ef-9f52-4515-b55f-fb816d664645
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

@@ -10,9 +10,9 @@ helpviewer_keywords:
   - "ranges, excluding paragraph marks in Word"
   - "documents [Office development in Visual Studio], paragraph marks"
   - "paragraphs, controlling structure"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

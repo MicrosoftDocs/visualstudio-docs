@@ -1,14 +1,9 @@
 ---
 title: "IDiaSession::findFile | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ ms.assetid: a215dc21-b316-40d7-9923-55bfa014976b
 caps.latest.revision: 12
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # IDiaSession::findFile
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -63,6 +58,3 @@ pSession->findFile( NULL, L"sourcefile.cpp", nsFNameExt, &pEnum );
  [IDiaSession](../../debugger/debug-interface-access/idiasession.md)   
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
  [NameSearchOptions Enumeration](../../debugger/debug-interface-access/namesearchoptions.md)
-
-
-

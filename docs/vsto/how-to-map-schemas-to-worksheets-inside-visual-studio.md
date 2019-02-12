@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "worksheets [Office development in Visual Studio], XML schemas"
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload: 
   - "office"
 ---

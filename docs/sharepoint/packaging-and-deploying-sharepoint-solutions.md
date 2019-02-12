@@ -9,9 +9,9 @@ helpviewer_keywords:
   - "packaging [SharePoint development in Visual Studio]"
   - "deploying [SharePoint development in Visual Studio]"
   - "SharePoint development in Visual Studio, packaging and deploying"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

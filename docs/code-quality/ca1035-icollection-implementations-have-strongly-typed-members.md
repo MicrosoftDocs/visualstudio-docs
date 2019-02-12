@@ -1,7 +1,6 @@
 ---
 title: "CA1035: ICollection implementations have strongly typed members"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "ICollectionImplementationsHaveStronglyTypedMembers"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: ad404eb5-cf6a-44b7-b78a-8ebfb654bc7f
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

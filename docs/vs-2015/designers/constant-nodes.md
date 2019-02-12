@@ -1,19 +1,14 @@
 ---
 title: "Constant Nodes | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 ms.assetid: 2c798a50-a2d7-459b-9879-ad4ad8290c9b
 caps.latest.revision: 13
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Constant Nodes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -45,6 +40,3 @@ In the Shader Designer, constant nodes represent literal values and interpolated
 |**Tangent Space Light Direction**|The vector that defines the direction in which light is cast from a light source in the tangent space of the current pixel.<br /><br /> You can use this to calculate lighting and specular contributions in tangent space.<br /><br /> **Output:**<br /><br /> `Output`: `float3`<br /> The vector from the current pixel to a light source.|None|  
 |**World Normal**|The surface normal of the current pixel in world space.<br /><br /> You can use this to calculate lighting contributions and reflections in world space.<br /><br /> **Output**<br /><br /> `Output`: `float3`<br /> The surface normal of the current pixel.|None|  
 |**World Position**|The position of the current pixel in world space.<br /><br /> **Output**<br /><br /> `Output`: `float4`<br /> The position of the current pixel.|None|
-
-
-

@@ -1,7 +1,6 @@
 ---
 title: "CA1027: Mark enums with FlagsAttribute"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "MarkEnumsWithFlags"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 249e882c-8cd1-4c00-a2de-7b6bdc1849ff
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

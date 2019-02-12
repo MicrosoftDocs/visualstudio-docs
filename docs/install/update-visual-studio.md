@@ -4,7 +4,6 @@ titleSuffix: ""
 description: "Learn how to update Visual Studio to the most recent release, step-by-step."
 ms.date: 04/23/2018
 ms.custom: "seodec18"
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "update Visual Studio"
@@ -12,7 +11,7 @@ helpviewer_keywords:
   - "changing Visual Studio"
 author: TerryGLee
 ms.author: tglee
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

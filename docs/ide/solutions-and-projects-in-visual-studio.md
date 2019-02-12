@@ -1,7 +1,6 @@
 ---
 title: Solutions and projects
 ms.date: 10/05/2017
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
   - "vs.addnewsolutionitem"
@@ -21,7 +20,7 @@ helpviewer_keywords:
   - "projects [Visual Studio]"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

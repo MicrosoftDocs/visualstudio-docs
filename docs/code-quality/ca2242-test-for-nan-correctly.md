@@ -1,7 +1,6 @@
 ---
 title: "CA2242: Test for NaN correctly"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "TestForNaNCorrectly"
@@ -11,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: e12dcffc-e255-4e1e-8fdf-3c6054d44abe
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CSharp
  - VB

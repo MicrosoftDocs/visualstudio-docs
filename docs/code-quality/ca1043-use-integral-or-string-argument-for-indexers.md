@@ -1,7 +1,6 @@
 ---
 title: "CA1043: Use integral or string argument for indexers"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "CA1043"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: d7f14b9e-2220-4f80-b6b8-48c655a05701
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CPP
  - CSharp

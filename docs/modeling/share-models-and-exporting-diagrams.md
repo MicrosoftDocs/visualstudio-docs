@@ -7,10 +7,9 @@ helpviewer_keywords:
   - "UML diagrams, saving"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
 ---
 # Share models and exporting diagrams
 In Visual Studio, you can share models and diagrams with colleagues in several ways.

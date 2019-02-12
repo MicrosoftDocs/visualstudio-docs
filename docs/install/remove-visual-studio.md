@@ -4,7 +4,6 @@ titleSuffix: ""
 description: "Learn how to completely remove Visual Studio from your computer, step-by-step."
 ms.date: 09/12/2017
 ms.custom: "seodec18"
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
   - "uninstall"
@@ -18,7 +17,7 @@ f1_keywords:
 ms.assetid: 9c81a777-9c95-4934-b517-c60c6dc78799
 author: heaths
 ms.author: tglee
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

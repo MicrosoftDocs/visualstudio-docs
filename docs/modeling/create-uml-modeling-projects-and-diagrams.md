@@ -7,10 +7,9 @@ helpviewer_keywords:
   - "UML designers"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
 ---
 # Create UML modeling projects and diagrams
 

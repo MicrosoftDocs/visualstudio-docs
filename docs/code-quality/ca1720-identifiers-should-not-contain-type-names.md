@@ -1,7 +1,6 @@
 ---
 title: "CA1720: Identifiers should not contain type names"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "CA1720"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: c95ee48f-f23a-45f0-ac9e-a3c1ecfabdea
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

@@ -1,7 +1,6 @@
 ---
 title: "CA1505: Avoid unmaintainable code"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "AvoidUnmaintainableCode"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 8292b268-5929-4221-b699-f9c414bcec5d
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

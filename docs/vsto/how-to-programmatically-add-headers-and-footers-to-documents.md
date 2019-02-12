@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "footers, adding to documents"
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload: 
   - "office"
 ---

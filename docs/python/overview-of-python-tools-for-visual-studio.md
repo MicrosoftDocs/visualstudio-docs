@@ -3,11 +3,10 @@ title: Python support in Visual Studio on Windows
 titleSuffix: ""
 description: Summary of Python features in Visual Studio, making it the best Python IDE on Windows (also known as Python Tools for Visual Studio, PTVS).
 ms.date: 11/19/2018
-ms.prod: visual-studio-dev15
 ms.topic: overview
 author: kraigb
 ms.author: kraigb
-manager: douge
+manager: jillfra
 ms.custom: seodec18
 ms.workload:
   - python
@@ -25,7 +24,7 @@ Python is not presently supported in Visual Studio for Mac, but is available on 
 To get started:
 
 - Follow the [installation instructions](installing-python-support-in-visual-studio.md) to set up the Python workload.
-- Familiarize yourself with the Python capabilities of Visual Studio through the sections in this article. You can also [Watch a video series (Microsoft Virtual Academy)](https://mva.microsoft.com/en-US/training-courses/python-tools-for-visual-studio-2017-18121) for an introduction to Python in Visual Studio (22 minutes total).
+- Familiarize yourself with the Python capabilities of Visual Studio through the sections in this article.
 - Go through one or more of the Quickstarts to create a project. If you're unsure, start with [Create a web app with Flask](../ide/quickstart-python.md?toc=/visualstudio/python/toc.json&bc=/visualstudio/python/_breadcrumb/toc.json).
 - Follow the [Work with Python in Visual Studio](tutorial-working-with-python-in-visual-studio-step-01-create-project.md) tutorial for a full end-to-end experience.
 
@@ -35,13 +34,12 @@ Visual Studio's **Python Environments** window (shown below in a wide, expanded 
 
 ![Expanded view of the Python Environments window](media/environments-expanded-view.png)
 
-Use the **Open interactive window** command to run Python interactively within the context of Visual Studio. Use the **Open in PowerShell** command to open a separate command window in the folder of the selected environment. From that command window you can run any python script. 
+Use the **Open interactive window** command to run Python interactively within the context of Visual Studio. Use the **Open in PowerShell** command to open a separate command window in the folder of the selected environment. From that command window you can run any python script.
 
 For more information:
 
-- Video (2m 35s): [Manage Python environments](https://mva.microsoft.com/en-US/training-courses/python-tools-for-visual-studio-2017-18121?l=qrDmN4LWE_8305918567)
-- Docs: [Manage Python environments](managing-python-environments-in-visual-studio.md)
-- Docs: [Python Environments  reference](python-environments-window-tab-reference.md)
+- [Manage Python environments](managing-python-environments-in-visual-studio.md)
+- [Python Environments  reference](python-environments-window-tab-reference.md)
 
 ## Rich editing, IntelliSense, and code comprehension
 
@@ -51,7 +49,6 @@ Visual Studio provides a first-class Python editor, including syntax coloring, a
 
 For more information:
 
-- Video (2m 30s): [Edit Python code](https://mva.microsoft.com/en-US/training-courses/python-tools-for-visual-studio-2017-18121?l=r2iQH5LWE_4605918567)
 - Docs: [Edit Python code](editing-python-code-in-visual-studio.md)
 - Docs: [Format code](formatting-python-code.md)
 - Docs: [Refactor code](refactoring-python-code.md)
@@ -70,9 +67,8 @@ Visual Studio also supports IPython/Jupyter in the REPL, including inline plots,
 
 For more information:
 
-- Video (2m 22s: [Python Interactive window](https://mva.microsoft.com/en-US/training-courses/python-tools-for-visual-studio-2017-18121?l=gJYKY5LWE_4605918567)
-- Docs: [Interactive window](python-interactive-repl-in-visual-studio.md)
-- Docs: [IPython in Visual Studio](interactive-repl-ipython.md)
+- [Interactive window](python-interactive-repl-in-visual-studio.md)
+- [IPython in Visual Studio](interactive-repl-ipython.md)
 
 ## Project system, and project and item templates
 
@@ -101,7 +97,6 @@ One of Visual Studio's strengths is its powerful debugger. For Python in particu
 
 For more information:
 
-- Video: [Debugging Python 3m 32s](https://mva.microsoft.com/en-US/training-courses/python-tools-for-visual-studio-2017-18121?l=Ep5dp5LWE_3805918567)
 - Docs: [Debug Python](debugging-python-in-visual-studio.md)
 - Docs: [Python/C++ mixed-mode debugging](debugging-mixed-mode-c-cpp-python-in-visual-studio.md)
 - Docs: [Remote debugging on Linux](debugging-python-code-on-remote-linux-machines.md)
@@ -115,7 +110,6 @@ Profiling explores how time is being spent within your application. Visual Studi
 
 For more information:
 
-- Video: [Profiling Python 3m 00s](https://mva.microsoft.com/en-US/training-courses/python-tools-for-visual-studio-2017-18121?l=s6FoC6LWE_1005918567)
 - Docs: [Python profiling tools](profiling-python-code-in-visual-studio.md)
 - General Visual Studio feature docs: [Profiling Feature Tour](../profiling/profiling-feature-tour.md). (Not all Visual Studio profiling features are available for Python).
 
@@ -127,7 +121,6 @@ Discover, run, and manage tests in Visual Studio **Test Explorer**, and easily d
 
 For more information:
 
-- Video: [Testing Python 2m 31s](https://mva.microsoft.com/en-US/training-courses/python-tools-for-visual-studio-2017-18121?l=hb46k6LWE_405918567)
 - Docs: [Unit testing tools for Python](unit-testing-python-in-visual-studio.md)
 - General Visual Studio feature docs: [Unit test your code](../test/unit-test-your-code.md).
 
@@ -135,13 +128,7 @@ For more information:
 
 The Python workload includes the Azure SDK for Python, which simplifies consuming Azure services from Windows, Mac OS X, and Linux apps.
 
-For more information, see [Azure SDK for Python](azure-sdk-for-python.md)
-
-## Python training on Microsoft Virtual Academy
-
-|   |   |
-|---|---|
-| ![movie camera icon for video](../install/media/video-icon.png "Watch a video") | <ul><li>[Introduction to programming with Python](https://mva.microsoft.com/en-US/training-courses/introduction-to-programming-with-python-8360?l=lqhuMxFz_8904984382)</li><li>[Python beginner: Strings and functions](https://mva.microsoft.com/en-US/training-courses/python-beginner-strings-and-functions-18015)</li><li>[Python fundamentals: List and loops](https://mva.microsoft.com/en-US/training-courses/python-fundamentals-lists-and-loops-18019)</li><li>[Top Python questions](https://mva.microsoft.com/en-US/training-courses/python-tools-for-visual-studio-2017-18121)</li></ul> |
+For more information, see [Azure SDK for Python](/python/azure/?view=azure-python).
 
 ## Questions and answers
 
@@ -309,9 +296,3 @@ Visual Studio 2015 and earlier are available at [visualstudio.microsoft.com/vs/o
 1. Requires Windows 8 or later. **Attach Debugger (Python)** command in **Server Explorer** requires [Azure SDK for .NET 2.3 - Visual Studio 2013](https://go.microsoft.com/fwlink/?LinkId=323510) or later.
 
 1. Requires Windows 8 or later.
-
-## Additional resources
-
-- [WFastCGI bridge between IIS and Python](https://pypi.org/p/wfastcgi) (pypi.org)
-- [Free Python courses on Microsoft Virtual Academy](https://mva.microsoft.com/search/SearchResults.aspx#!q=python)
-- [Top Python questions at Microsoft Virtual Academy](https://aka.ms/mva-top-python-questions)

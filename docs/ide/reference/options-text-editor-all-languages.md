@@ -1,28 +1,29 @@
 ---
 title: Options, Text Editor, All Languages
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
+  - "VS.ToolsOptionsPages.Text_Editor.JavaScript.General"
+  - "VS.ToolsOptionsPages.Text_Editor.ResJSON.General"
   - "VS.ToolsOptionsPages.Text_Editor.All_Languages.General"
   - "VS.ToolsOptionsPages.Text_Editor.Basic.General"
   - "VS.ToolsOptionsPages.Text_Editor.CSharp.General"
-  - "VS.ToolsOptionsPages.Text_Editor.C%2FC%2B%2B.General"
+  - "VS.ToolsOptionsPages.Text_Editor.C/C++.General"
   - "VS.ToolsOptionsPages.Text_Editor.CoffeeScript.General"
   - "VS.ToolsOptionsPages.Text_Editor.CSS.General"
   - "VS.ToolsOptionsPages.Text_Editor.Dockerfile.General"
-  - "VS.ToolsOptionsPages.Text_Editor.F%2523.General"
+  - "VS.ToolsOptionsPages.Text_Editor.F#.General"
+  - "VS.ToolsOptionsPages.Text_Editor.Fsharp.General"
   - "VS.ToolsOptionsPages.Text_Editor.HQL.General"
   - "VS.ToolsOptionsPages.Text_Editor.HTML.General"
-  - "VS.ToolsOptionsPages.Text_Editor.HTMLX.General"
+  - "VS.ToolsOptionsPages.Text_Editor.HTML_(Web_Forms).General"
   - "VS.ToolsOptionsPages.Text_Editor.JavaScript.General"
   - "VS.ToolsOptionsPages.Text_Editor.TypeScript.General"
   - "VS.ToolsOptionsPages.Text_Editor.JSON.General"
   - "VS.ToolsOptionsPages.Text_Editor.LESS.General"
   - "VS.ToolsOptionsPages.Text_Editor.Plain_Text.General"
-  - "VS.ToolsOptionsPages.Text_Editor.ResJSON.General"
   - "VS.ToolsOptionsPages.Text_Editor.SCSS.General"
-  - "VS.ToolsOptionsPages.Text_Editor.SQL_Server_Tools.General"
+  - "VS.TOOLSOPTIONSPAGES.TEXT_EDITOR.SQL_SERVER_TOOLS.GENERAL"
   - "VS.ToolsOptionsPages.Text_Editor.StreamAnalytics.General"
   - "VS.ToolsOptionsPages.Text_Editor.T-SQL90.General"
   - "VS.ToolsOptionsPages.Text_Editor.U-SQL.General"
@@ -38,7 +39,7 @@ helpviewer_keywords:
 ms.assetid: 49ee7306-9d46-4170-850f-a1716171752d
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 2ddefbf2-5662-4d55-99a6-ac383bf44560
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload: 
   - "multiple"
 ---
@@ -87,5 +87,6 @@ The AL task wraps *AL.exe*, a tool that is distributed with the [!INCLUDE[winsdk
 ```  
 
 ## See also  
- [Task reference](../msbuild/msbuild-task-reference.md)   
- [Tasks](../msbuild/msbuild-tasks.md)
+* [Task reference](../msbuild/msbuild-task-reference.md)   
+* [Tasks](../msbuild/msbuild-tasks.md)
+

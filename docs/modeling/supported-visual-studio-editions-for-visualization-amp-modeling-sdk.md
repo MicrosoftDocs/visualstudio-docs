@@ -7,10 +7,9 @@ helpviewer_keywords:
   - "Domain-Specific Language Tools, supported Visual Studio editions"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
 ---
 # Supported Visual Studio Editions for Visualization & Modeling SDK
 

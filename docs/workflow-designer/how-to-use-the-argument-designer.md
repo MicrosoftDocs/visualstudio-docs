@@ -2,14 +2,13 @@
 title: "Workflow Designer - How to: Use the Argument Designer"
 ms.date: 11/04/2016
 ms.topic: conceptual
-ms.prod: visual-studio-dev15
 f1_keywords:
   - "System.Activities.Presentation.View.ArgumentDesigner.UI"
   - "System.Activities.Presentation.View.DesignTimeArgument.UI"
 ms.assetid: 64813fd5-1ea1-499a-98b4-ab2a44b7ee5e
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

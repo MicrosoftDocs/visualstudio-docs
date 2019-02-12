@@ -1,14 +1,9 @@
 ---
 title: "-LCID (devenv.exe) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 helpviewer_keywords: 
   - "language default"
   - "locale IDs, setting for IDE"
@@ -21,7 +16,7 @@ ms.assetid: 3a3f4e70-ea66-4351-9d62-acb1dec30e8e
 caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # /LCID (devenv.exe)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -69,6 +64,3 @@ devenv /LCID 1033
  [Devenv Command Line Switches](../../ide/reference/devenv-command-line-switches.md)   
  [International Settings, Environment, Options Dialog Box](../../ide/reference/international-settings-environment-options-dialog-box.md)   
  [Customizing window layouts](../../ide/customizing-window-layouts-in-visual-studio.md)
-
-
-

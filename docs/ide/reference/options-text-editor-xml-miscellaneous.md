@@ -1,14 +1,13 @@
 ---
 title: Options, Text Editor, XML, Miscellaneous
 ms.date: 10/29/2018
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.XML.Miscellaneous"
 ms.assetid: b6538cbe-badd-4313-a1fb-39e906736bbe
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ---
 # Options, Text Editor, XML, Miscellaneous
 

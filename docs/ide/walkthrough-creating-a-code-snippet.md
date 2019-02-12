@@ -1,7 +1,6 @@
 ---
 title: "Walkthrough: Create a code snippet"
 ms.date: 10/27/2017
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "code snippets, creating"
@@ -13,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: 0dcaae11-39cf-4463-9c90-2494321251c2
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
   - "VB"
 ms.workload:

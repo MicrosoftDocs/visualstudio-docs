@@ -1,20 +1,16 @@
 ---
 title: "Publish an Extension | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: conceptual
 helpviewer_keywords:
   - "publishing web controls"
   - "web controls, publishing"
 ms.assetid: a7816161-0490-4043-86f5-0f7331ed83b3
 caps.latest.revision: 21
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Walkthrough: Publishing a Visual Studio Extension
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

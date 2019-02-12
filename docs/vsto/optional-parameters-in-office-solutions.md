@@ -13,9 +13,9 @@ helpviewer_keywords:
   - "missing field [Office development in Visual Studio]"
   - "optional parameters [Office development in Visual Studio]"
   - "parameters [Office development in Visual Studio], optional"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

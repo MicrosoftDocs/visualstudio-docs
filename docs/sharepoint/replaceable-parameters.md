@@ -10,9 +10,9 @@ helpviewer_keywords:
   - "tokens [SharePoint development in Visual Studio]"
   - "replaceable parameters [SharePoint development in Visual Studio]"
   - "SharePoint development in Visual Studio, replaceable parameters"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: "office"
 ---
 # Replaceable parameters

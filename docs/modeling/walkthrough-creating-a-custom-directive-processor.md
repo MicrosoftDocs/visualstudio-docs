@@ -7,10 +7,9 @@ helpviewer_keywords:
   - "walkthroughs [text templates], directive processor"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
 dev_langs:
  - CSharp
  - VB

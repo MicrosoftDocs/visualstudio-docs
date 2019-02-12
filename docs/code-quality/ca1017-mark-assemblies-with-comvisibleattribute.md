@@ -1,7 +1,6 @@
 ---
 title: "CA1017: Mark assemblies with ComVisibleAttribute"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "CA1017"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 4842cb49-8dd8-4e5d-a2d6-ceeaf6c6cf8e
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CPP
  - CSharp

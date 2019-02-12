@@ -1,7 +1,6 @@
 ---
 title: Organize templates
 ms.date: 01/02/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "project templates [Visual Studio], locations"
@@ -11,7 +10,7 @@ helpviewer_keywords:
   - "templates [Visual Studio], organizing"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ---
 # How to: Locate and organize project and item templates
 

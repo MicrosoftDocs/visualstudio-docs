@@ -1,7 +1,6 @@
 ---
 title: "CA2124: Wrap vulnerable finally clauses in outer try"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "CA2124"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 82efd224-9e60-4b88-a0f5-dfabcc49a254
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

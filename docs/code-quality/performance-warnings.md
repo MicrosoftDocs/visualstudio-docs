@@ -1,7 +1,6 @@
 ---
 title: Performance Warnings
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "vs.codeanalysis.performancerules"
@@ -13,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: e014ac3a-02e6-46d9-942c-3491dd63782f
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

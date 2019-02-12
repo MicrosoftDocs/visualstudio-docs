@@ -1,7 +1,6 @@
 ---
 title: "CA1819: Properties should not return arrays"
 ms.date: 09/28/2018
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "PropertiesShouldNotReturnArrays"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 85fcf312-57f8-438a-8b10-34441fe0bdeb
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CSharp
  - VB

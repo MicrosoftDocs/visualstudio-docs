@@ -1,7 +1,6 @@
 ---
 title: Application page of C# project properties
 ms.date: 10/30/2018
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "cs.ProjectPropertiesApplicationWPF"
@@ -11,7 +10,7 @@ helpviewer_keywords:
   - "Application page in Project Designer"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "dotnet"
 ---

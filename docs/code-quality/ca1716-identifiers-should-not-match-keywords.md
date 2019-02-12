@@ -1,7 +1,6 @@
 ---
 title: "CA1716: Identifiers should not match keywords"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "IdentifiersShouldNotMatchKeywords"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 900cc8a1-1089-4069-a4ce-10b109ac4fab
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

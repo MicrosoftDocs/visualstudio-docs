@@ -1,14 +1,13 @@
 ---
 title: Private data for problem reports
 ms.date: 06/21/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - developer community privacy
   - privacy, developer community
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

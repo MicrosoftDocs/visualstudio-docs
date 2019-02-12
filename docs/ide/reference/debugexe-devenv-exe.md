@@ -1,7 +1,6 @@
 ---
 title: -DebugExe (devenv.exe)
 ms.date: 12/10/2018
-ms.prod: visual-studio-dev15
 ms.topic: reference
 helpviewer_keywords:
   - "Devenv, /DebugExe switch"
@@ -11,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: cd700006-1648-418f-924b-4b1e5c1412ab
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

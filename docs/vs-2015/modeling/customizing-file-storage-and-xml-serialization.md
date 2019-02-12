@@ -1,12 +1,9 @@
 ---
 title: "Customizing File Storage and XML Serialization | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 f1_keywords: 
   - "vs.dsltools.dsldesigner.xmlbehavior"
 helpviewer_keywords: 
@@ -15,7 +12,7 @@ ms.assetid: 76c53ef1-e3b9-45da-b425-1bddb3c01395
 caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Customizing File Storage and XML Serialization
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -307,6 +304,3 @@ When the user saves an instance, or *model*, of a domain-specific language (DSL)
 ## See Also  
  [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md)   
  [Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md)
-
-
-

@@ -1,7 +1,6 @@
 ---
 title: References Page, Project Designer (Visual Basic)
 ms.date: 06/21/2017
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "vb.ProjectPropertiesReference"
@@ -14,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 5a47c595-e084-401c-86e1-74e0bf74fd86
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

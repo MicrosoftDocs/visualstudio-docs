@@ -1,19 +1,14 @@
 ---
 title: "How to: Create an XML Document Based on an XSD Schema | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: 193b195f-e918-4c79-a1a1-8096a1433bde
 caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Create an XML Document Based on an XSD Schema
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -78,6 +73,3 @@ The **Generate Sample XML** feature generates a sample XML file based on your XM
   
 ## See Also  
  [Working with XML Data](../xml-tools/working-with-xml-data.md)
-
-
-

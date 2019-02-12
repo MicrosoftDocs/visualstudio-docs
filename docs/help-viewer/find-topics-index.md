@@ -1,7 +1,6 @@
 ---
 title: Use Help Viewer index
 ms.date: 11/02/2017
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "Index tab [Help Viewer]"
@@ -13,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: cb071e93-f297-459c-a6fa-8ae0dabc42a4
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

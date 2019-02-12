@@ -2,14 +2,13 @@
 title: "Workflow Designer - Using the Activity Designers"
 ms.date: 11/04/2016
 ms.topic: conceptual
-ms.prod: visual-studio-dev15
 helpviewer_keywords:
   - "Workflow Designer [WFD], activity designer"
   - "Visual Studio Workflow Designer [WFD], activity designer"
 ms.assetid: 3c2725c3-091b-49ab-81e7-d4c7028d47a2
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

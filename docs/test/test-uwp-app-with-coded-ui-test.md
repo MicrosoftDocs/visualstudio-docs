@@ -1,11 +1,10 @@
 ---
 title: Test a UWP app with a coded UI test
 ms.date: 05/31/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CSharp
  - VB

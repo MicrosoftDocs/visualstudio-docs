@@ -8,9 +8,9 @@ dev_langs:
 helpviewer_keywords: 
   - "VBA code, managed code extensions"
   - "managed code extensions [Office development in Visual Studio], VBA compared to"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

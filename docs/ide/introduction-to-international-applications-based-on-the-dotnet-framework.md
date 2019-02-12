@@ -1,7 +1,6 @@
 ---
 title: Introduction to International Applications Based on the .NET Framework
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "strings [Visual Studio], localizing"
@@ -23,7 +22,7 @@ helpviewer_keywords:
 ms.assetid: b0788993-e62d-4f68-8235-5f87b1d48525
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "dotnet"
 ---

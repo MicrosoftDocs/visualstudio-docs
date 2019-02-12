@@ -1,7 +1,6 @@
 ---
 title: "How to: Add Comments to Class Diagrams (Class Designer)"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
   - "vs.classdesigner.comment"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: d54005d5-a29d-4c4e-b153-feb6e84dd44f
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

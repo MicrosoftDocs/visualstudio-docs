@@ -1,7 +1,6 @@
 ---
 title: Security Warnings
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "vs.codeanalysis.securityrules"
@@ -13,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: 60d4e8ea-230a-494f-aa6a-b91db77540e4
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

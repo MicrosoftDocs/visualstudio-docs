@@ -1,7 +1,6 @@
 ---
 title: VC++ Project Settings, Projects and Solutions, Options Dialog Box
 ms.date: 08/02/2017
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Projects.VCBuild"
@@ -16,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 56420efd-6a95-464e-b890-e2b38c48d66a
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "cplusplus"
 ---

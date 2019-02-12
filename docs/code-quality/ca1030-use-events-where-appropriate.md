@@ -1,7 +1,6 @@
 ---
 title: "CA1030: Use events where appropriate"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "UseEventsWhereAppropriate"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: ea051367-deeb-40f9-9b65-eb818f1e133a
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

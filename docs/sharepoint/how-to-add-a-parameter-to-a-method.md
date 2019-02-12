@@ -12,9 +12,9 @@ helpviewer_keywords:
   - "BDC [SharePoint development in Visual Studio], parameter"
   - "Business Data Connectivity service [SharePoint development in Visual Studio], method parameters"
   - "BDC [SharePoint development in Visual Studio], method parameters"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

@@ -12,13 +12,13 @@ helpviewer_keywords:
 ms.assetid: bb6291e1-596d-4af0-9f22-5fd713d6b84b
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
 # Inspect variables in the Autos and Locals windows
 
-The **Autos** and **Locals** windows show variable values while you are debugging. The windows are only available during a debugging session. The **Autos** window shows variables used around the current breakpoint. The **Locals** window shows variables defined in the local scope, which is usually the current function or method. If this is the first time that you've tried to debug code, you may want to read [Debugging for absolute beginners](../debugger/debugging-absolute-beginners.md) and [Fix bugs by writing better C# code](../debugger/write-better-code-with-visual-studio.md) before going through this article.
+The **Autos** and **Locals** windows show variable values while you are debugging. The windows are only available during a debugging session. The **Autos** window shows variables used around the current breakpoint. The **Locals** window shows variables defined in the local scope, which is usually the current function or method. If this is the first time that you've tried to debug code, you may want to read [Debugging for absolute beginners](../debugger/debugging-absolute-beginners.md) and [Debugging techniques and tools](../debugger/write-better-code-with-visual-studio.md) before going through this article.
 
  The **Autos** window is available for C#, Visual Basic, C++, and Python code, but not for JavaScript or F#.
   
@@ -144,6 +144,6 @@ To see the return values of the `sumVars()` and `subtractVars()` method calls in
   
 ## See also  
  [What is debugging?](../debugger/what-is-debugging.md)  
- [Fix bugs by writing better C# code](../debugger/write-better-code-with-visual-studio.md)  
+ [Debugging techniques and tools](../debugger/write-better-code-with-visual-studio.md)  
  [First look at debugging](../debugger/debugger-feature-tour.md)
  [Debugger windows](../debugger/debugger-windows.md)

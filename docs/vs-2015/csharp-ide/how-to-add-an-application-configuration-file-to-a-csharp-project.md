@@ -1,14 +1,9 @@
 ---
 title: "How to: Add an Application Configuration File to a C# Project | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-general
+ms.topic: conceptual
 dev_langs: 
   - "CSharp"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ ms.assetid: 9caf6bb0-c2fc-4ab6-ba69-bed3b880fbf8
 caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
-manager: "wpickett"
+manager: jillfra
 ---
 # How to: Add an Application Configuration File to a C# Project
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -45,5 +40,5 @@ By adding an application configuration file (app.config file) to a C# project, y
  [Managing Application Settings (.NET)](../ide/managing-application-settings-dotnet.md)   
  [Configuration File Schema](http://msdn.microsoft.com/library/69003d39-dc8a-460c-a6be-e6d93e690b38)   
  [Configuring Apps](http://msdn.microsoft.com/library/86bd26d3-737e-4484-9782-19b17f34cd1f)   
- [How to: Configure an App to Target a .NET Framework Version](http://msdn.microsoft.com/en-us/5247b307-89ca-417b-8dd0-e8f9bd2f4717)   
+ [How to: Configure an App to Target a .NET Framework Version](http://msdn.microsoft.com/5247b307-89ca-417b-8dd0-e8f9bd2f4717)   
  [Using the Visual Studio Development Environment for C#](../csharp-ide/using-the-visual-studio-development-environment-for-csharp.md)

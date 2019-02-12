@@ -1,7 +1,6 @@
 ---
 title: -Build (devenv.exe)
 ms.date: 12/10/2018
-ms.prod: visual-studio-dev15
 ms.topic: reference
 helpviewer_keywords:
   - "builds, command-line"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: ced21627-7653-455b-8821-3e31c6a448cf
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

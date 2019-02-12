@@ -1,18 +1,14 @@
 ---
 title: "Run unit tests for Store apps"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 ms.assetid: 5a6f5b32-bfce-4a63-81e9-02d54c592539
 caps.latest.revision: 14
 author: "alexhomer1"
 ms.author: gewarren
-manager: "robinr"
+manager: jillfra
 ---
 # Run unit tests for Store apps in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

@@ -1,9 +1,8 @@
 ---
 title: "Create an offline installation"
 description: "Learn how to install Visual Studio offline when you have an unreliable internet connection or low bandwidth."
-ms.date: 01/15/2019
+ms.date: 02/06/2019
 ms.custom: "seodec18"
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
   - "offline installation [Visual Studio]"
@@ -12,13 +11,13 @@ f1_keywords:
 ms.assetid: f8625d5e-f6ea-4db0-83c0-619b77fab3cf
 author: TerryGLee
 ms.author: tglee
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
 # Create an offline installation of Visual Studio 2017
 
-We designed Visual Studio 2017 to work well in a variety of network and computer configurations. While we recommend that you try the [Visual Studio web installer](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017)&mdash;which is a small file and allows you to stay current with all the latest fixes and features&mdash;we understand that you might not be able to.
+We designed Visual Studio 2017 to work well in a variety of network and computer configurations. While we recommend that you try the [Visual Studio web installer](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017)&mdash;which is a small file and allows you to stay current with all the latest fixes and features&mdash;we understand that you might not be able to.
 
 For example, you might have an unreliable internet connection or one that has low bandwidth. If so, you have a few options: You can use the new "Download all, then install" feature to download the files before you install, or you can use the command line to create a local cache of the files.
 
@@ -27,10 +26,14 @@ For example, you might have an unreliable internet connection or one that has lo
 
 ## Use the "Download all, then install" feature
 
-[**New in 15.8**](/visualstudio/releasenotes/vs2017-relnotes?context=visualstudio/default&contextView=vs-2017#install
-): After you download the web installer, select the new **Download all, then install** option from the Visual Studio Installer. Then, continue with your installation.
+[**New in 15.8**](/visualstudio/releasenotes/vs2017-relnotes-v15.8#install): After you download the web installer, select the new **Download all, then install** option from the Visual Studio Installer. Then, continue with your installation.
 
    ![The "Download all, then install" option](media/download-all-then-install.png)
+
+We designed the "Download all, then install" feature so that you can download Visual Studio as a single installation for the same computer on which you downloaded it. That way, you can safely disconnect from the web before you install Visual Studio.
+
+> [!IMPORTANT]
+> Do not use the "Download all, then install" feature to create an offline cache that you intend to transfer to another computer. It's not designed to work that way. <br><br>If you want to create an offline cache to install Visual Studio on another computer, see the [Use the command line to create a local cache](#use-the-command-line-to-create-a-local-cache) section of this page for information about how to create a local cache, or the [Create a network installation of Visual Studio 2017](../install/create-a-network-installation-of-visual-studio.md) page for information about how to create a network cache.
 
 ## Use the command line to create a local cache
 

@@ -1,7 +1,6 @@
 ---
 title: Visual C++ Typedefs in Class Designer
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
   - "vs.classdesigner.typedef"
@@ -11,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: c1984108-71fc-4d3a-b4d4-3eac2c6b4ebf
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "cplusplus"
 ---

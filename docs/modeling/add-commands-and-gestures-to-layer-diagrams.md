@@ -7,10 +7,9 @@ helpviewer_keywords:
   - "dependency diagrams, adding custom gestures"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
 ---
 # Add commands and gestures to dependency diagrams
 

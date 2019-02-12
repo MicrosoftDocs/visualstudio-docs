@@ -1,12 +1,11 @@
 ---
 title: "How to: Use the XML Schema Designer with XML Literals"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.assetid: d11803e7-f81a-41a2-a145-ba494a45cc93
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
   - "VB"
 ms.workload:

@@ -2,23 +2,24 @@
 title: "List of Available Services | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "services, Visual Studio"
   - "Visual Studio, services"
 ms.assetid: 724eb24b-b87c-4971-a2e7-adee7afc03b2
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "vssdk"
 ---
 # List of Available Services
-[!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] and the Visual Studio SDK support the following services. Some packages offer their own services which are not listed here—for example, language services do not have a single service GUID. You must use the name of the language to find the GUID of the language service in the registry.  
-  
- Use the service GUIDs listed here or obtained from some other source (for example, language services) to obtain the primary interface or interfaces shown with each service.  
-  
-## The Services  
-  
+
+[!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] and the Visual Studio SDK support the following services. Some packages offer their own services which are not listed here—for example, language services do not have a single service GUID. You must use the name of the language to find the GUID of the language service in the registry.
+
+Use the service GUIDs listed here or obtained from some other source (for example, language services) to obtain the primary interface or interfaces shown with each service.
+
+## The Services
+
 | Service | Interface | Visual Studio | Visual Studio 2005 | Description |
 | - | - |---------------|--------------------| - |
 | <xref:Microsoft.VisualStudio.OLE.Interop.SBindHost> | <xref:Microsoft.VisualStudio.OLE.Interop.IBindHost> | Yes | Yes | Used by VSPackages to obtain an <xref:Microsoft.VisualStudio.OLE.Interop.IBindHost> interface from an ActiveX control to facilitate asynchronous data transfers. |
@@ -150,7 +151,7 @@ ms.workload:
 | <xref:Microsoft.VisualStudio.Shell.Interop.SVsWebURLMRU> | <xref:Microsoft.VisualStudio.Shell.Interop.IVsWebURLMRU> | Yes | Yes | Enables a VSPackage to add a URL to the Most Recently Used (MRU) list of URLs and to obtain a list of all URLs in the MRU list. |
 | <xref:Microsoft.VisualStudio.Shell.Interop.SVsWindowFrame> | <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame> | Yes | Yes | Enables a VSPackage to obtain the window frame in which the package or part of the package might be situated. |
 | <xref:Microsoft.VisualStudio.Shell.Interop.SVsXMLMemberIndexService> | <xref:Microsoft.VisualStudio.Shell.Interop.IVsXMLMemberIndexService> | Yes | Yes | Provides access to XML-formatted documentation files associated with a particular metadata file. |
-  
-## See Also  
- [COM and Managed Services](http://msdn.microsoft.com/en-us/6c5808b4-ad87-48d7-ae06-33a81e7052af)   
- [Using and Providing Services](../../extensibility/using-and-providing-services.md)
+
+## See also
+
+- [Using and Providing Services](../../extensibility/using-and-providing-services.md)

@@ -1,7 +1,6 @@
 ---
 title: Code Snippet Picker
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "vs.expansionpicker"
@@ -11,7 +10,7 @@ helpviewer_keywords:
   - "code snippets, Code Snippet Picker"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

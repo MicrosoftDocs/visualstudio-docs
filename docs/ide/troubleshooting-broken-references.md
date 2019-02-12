@@ -1,7 +1,6 @@
 ---
 title: Troubleshoot broken references
 ms.date: 03/21/2017
-ms.prod: visual-studio-dev15
 ms.topic: troubleshooting
 helpviewer_keywords:
   - "C# projects, references"
@@ -11,7 +10,7 @@ helpviewer_keywords:
   - "referencing components, troubleshooting"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

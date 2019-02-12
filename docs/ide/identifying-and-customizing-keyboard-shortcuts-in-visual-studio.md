@@ -1,7 +1,6 @@
 ---
 title: Identify and customize keyboard shortcuts
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
   - "VS.ToolsOptionsPages.Environment.Keyboard"
@@ -15,7 +14,7 @@ helpviewer_keywords:
   - "exporting shortcut keys [Visual Studio]"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

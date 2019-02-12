@@ -1,19 +1,16 @@
 ---
 title: "How to: Intercept a Click on a Shape or Decorator | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Domain-Specific Language, programming domain models"
 ms.assetid: e2bc3124-c0c0-4104-9779-a5bf565d7f51
 caps.latest.revision: 23
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # How to: Intercept a Click on a Shape or Decorator
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -398,6 +395,3 @@ namespace Company.CompartmentDrag
 ## See Also  
  [Responding to and Propagating Changes](../modeling/responding-to-and-propagating-changes.md)   
  [Properties of Decorators](../modeling/properties-of-decorators.md)
-
-
-

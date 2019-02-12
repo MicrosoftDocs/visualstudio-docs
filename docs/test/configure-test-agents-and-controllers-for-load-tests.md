@@ -6,8 +6,7 @@ helpviewer_keywords:
   - "load tests, test agents and controllers"
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
+manager: jillfra
 ---
 # Configure test agents and test controllers for running load tests
 

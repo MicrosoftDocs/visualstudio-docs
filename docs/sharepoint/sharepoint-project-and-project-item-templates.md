@@ -15,9 +15,9 @@ dev_langs:
 helpviewer_keywords: 
   - "SharePoint development in Visual Studio, project and project item templates"
   - "SharePoint development in Visual Studio, templates"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

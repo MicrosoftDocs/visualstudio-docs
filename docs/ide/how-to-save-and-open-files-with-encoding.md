@@ -1,7 +1,6 @@
 ---
 title: "How to: Save and open files with encoding"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "Unicode, bi-directional language support"
@@ -11,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: cb52b732-b395-4ba1-a3ef-104b3942a12a
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

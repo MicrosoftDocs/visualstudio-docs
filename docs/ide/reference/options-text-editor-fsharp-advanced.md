@@ -1,13 +1,12 @@
 ---
 title: Options, Text Editor, F#, Advanced
 ms.date: 01/16/2019
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
-  - "VS.ToolsOptionsPages.Text_Editor.FSharp.Advanced"
+  - "VS.ToolsOptionsPages.Text_Editor.F%2523.Advanced"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "dotnet"
 ---
@@ -17,12 +16,12 @@ Use the **Advanced** options page to modify some text editor settings for F#. To
 
 ## Block Structure Guides
 
-Select this check box to display dotted vertical lines between curly brackets (**{}**) in your code. Doing so lets you easily identify your individual blocks of code.
-  
+When selected, vertical lines appear in the editor that line up with structured code blocks, which lets you easily identify the individual blocks of code.
+
 ## Outlining
 
 Select this check box to automatically outline the code file, which creates collapsible blocks of code.
-  
+
 ## See also
 
 - [General, Environment, Options Dialog Box](../../ide/reference/general-environment-options-dialog-box.md)

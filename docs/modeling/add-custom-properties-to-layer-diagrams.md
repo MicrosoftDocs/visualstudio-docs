@@ -6,10 +6,9 @@ helpviewer_keywords:
   - "dependency diagrams, adding custom properties"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
 ---
 # Add custom properties to dependency diagrams
 

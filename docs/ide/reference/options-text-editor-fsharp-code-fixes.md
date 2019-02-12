@@ -1,13 +1,12 @@
 ---
 title: Options, Text Editor, F#, Code Fixes
 ms.date: 01/16/2019
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
-  - "VS.ToolsOptionsPages.Text_Editor.FSharp.Code_Fixes"
+  - "VS.ToolsOptionsPages.Text_Editor.F%2523.Code_Fixes"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "dotnet"
 ---

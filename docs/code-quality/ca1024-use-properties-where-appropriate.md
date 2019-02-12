@@ -1,7 +1,6 @@
 ---
 title: "CA1024: Use properties where appropriate"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "UsePropertiesWhereAppropriate"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 3a04f765-af7c-4872-87ad-9cc29e8e657f
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CSharp
  - VB

@@ -1,7 +1,6 @@
 ---
 title: "Create or Update Standard Code Analysis Check-in Policies"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.codeanalysis.policyeditor"
@@ -9,7 +8,7 @@ helpviewer_keywords:
   - "code analysis, migrating check-in policy"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

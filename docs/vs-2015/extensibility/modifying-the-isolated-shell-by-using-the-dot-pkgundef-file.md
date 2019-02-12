@@ -1,20 +1,15 @@
 ---
 title: "Modifying the Isolated Shell By Using the .Pkgundef File | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Visual Studio shell, isolated mode%2C .pkgundef file"
 ms.assetid: 9cee2a20-f8ac-4d9d-aef9-068fcd9f27a4
 caps.latest.revision: 12
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Modifying the Isolated Shell By Using the .Pkgundef File
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -46,4 +41,3 @@ You can modify the .pkgundef file to exclude specified registry entries from an 
 ## See Also  
  [Package GUIDs of Visual Studio Features](../extensibility/package-guids-of-visual-studio-features.md)   
  [Customizing the Isolated Shell](../extensibility/customizing-the-isolated-shell.md)
-

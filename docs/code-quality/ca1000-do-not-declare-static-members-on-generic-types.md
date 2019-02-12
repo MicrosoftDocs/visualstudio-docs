@@ -1,7 +1,6 @@
 ---
 title: "CA1000: Do not declare static members on generic types"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "CA1000"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 5c0da594-f8d0-4f40-953d-56bf7fbd2087
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CSharp
  - VB

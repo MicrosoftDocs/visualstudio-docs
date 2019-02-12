@@ -1,20 +1,15 @@
 ---
 title: "SetNotificationForWaitCompletion Method | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "SetNotificationForWaitCompletion method, Task class [.NET Framework debug engines]"
 ms.assetid: da149c9a-20f4-4543-a29e-429c8c1d2e19
 caps.latest.revision: 6
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # SetNotificationForWaitCompletion Method
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -45,4 +40,3 @@ internal void SetNotificationForWaitCompletion(bool enabled)
   
 ## See Also  
  [Task Class](../../extensibility/debugger/task-class-internal-members.md)
-

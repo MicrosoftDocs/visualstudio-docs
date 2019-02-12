@@ -4,10 +4,9 @@ ms.date: 11/04/2016
 ms.topic: reference
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
 ---
 # Properties of Model Elements
 This section lists the properties that you see in the Properties window when you select an element in the DSL Definition diagram or in the DSL Explorer.

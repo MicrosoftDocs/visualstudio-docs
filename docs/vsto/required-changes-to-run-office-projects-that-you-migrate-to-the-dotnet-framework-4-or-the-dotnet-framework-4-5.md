@@ -7,9 +7,9 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "Office projects [Office development in Visual Studio], migrating to .NET Framework 4"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

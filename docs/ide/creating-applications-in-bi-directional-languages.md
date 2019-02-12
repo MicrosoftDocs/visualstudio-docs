@@ -1,7 +1,6 @@
 ---
 title: Creating Applications in Bi-directional Languages
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "Hebrew character display, creating applications"
@@ -10,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: b56f9795-ed8d-4452-9d49-8ca0b0145d86
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

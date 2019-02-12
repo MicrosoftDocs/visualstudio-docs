@@ -1,14 +1,9 @@
 ---
 title: "DA0502: Maximum CPU consumption by the Process being profiled | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 f1_keywords: 
   - "vs.performance.rules.DA0502"
   - "vs.performance.DA0502"
@@ -17,7 +12,7 @@ ms.assetid: 1ee53df5-b0dc-4265-9d4f-527830d08725
 caps.latest.revision: 13
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # DA0502: Maximum CPU consumption by the Process being profiled
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,6 +30,3 @@ Rule Id|DA0502|
   
 ## How to Use the Rule Data  
  Use the rule value to compare the performance of different versions or builds of the program or to understand the performance of the application under different profiling scenarios.
-
-
-

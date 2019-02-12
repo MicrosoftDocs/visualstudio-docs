@@ -1,7 +1,6 @@
 ---
 title: "CA1506: Avoid excessive class coupling"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "AvoidExcessiveClassCoupling"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 9f0943c0-e802-4e3f-8798-2ab8653ddc80
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

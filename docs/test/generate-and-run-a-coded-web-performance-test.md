@@ -13,8 +13,7 @@ dev_langs:
   - VB
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
+manager: jillfra
 ---
 # Generate and run a coded web performance test
 

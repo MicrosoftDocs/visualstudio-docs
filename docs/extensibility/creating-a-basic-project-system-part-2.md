@@ -9,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: aee48fc6-a15f-4fd5-8420-7f18824de220
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: douge
+manager: jillfra
 ms.workload: 
   - "vssdk"
 ---
@@ -333,7 +333,7 @@ ZipProjects:
     }  
     ```  
   
-## Creatr a project property page  
+## Create a project property page  
  You can create a property page for your project type so that users can view and change properties in projects that are based on your template. This section shows you how to create a configuration-independent property page. This basic property page uses a properties grid to display the public properties that you expose in your property page class.  
   
  Derive your property page class from the `SettingsPage` base class. The properties grid provided by the `SettingsPage` class is aware of most primitive data types and knows how to display them.  In addition, the `SettingsPage` class knows how to persist property values to the project file.  

@@ -10,10 +10,9 @@ helpviewer_keywords:
   - "Domain-Specific Language Tools, creating solutions"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
 ---
 # How to: Create a Domain-Specific Language Solution
 A domain-specific language (DSL) is created by using a specialized Visual Studio solution.

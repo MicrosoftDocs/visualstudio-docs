@@ -1,14 +1,9 @@
 ---
 title: "VSInstr | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "performance tools, instrumentation"
   - "instrumentation, VSInstr tool"
@@ -22,7 +17,7 @@ ms.assetid: 7b1334f7-f9b0-4a82-a145-d0607bfa8467
 caps.latest.revision: 49
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # VSInstr
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -63,6 +58,3 @@ VSInstr [/U] filename [/options]
  [VSPerfReport](../profiling/vsperfreport.md)   
  [VSInstr Warnings](../profiling/vsinstr-warnings.md)   
  [Performance Report Views](../profiling/performance-report-views.md)
-
-
-

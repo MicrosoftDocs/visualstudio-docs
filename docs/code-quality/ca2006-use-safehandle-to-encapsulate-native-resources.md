@@ -1,7 +1,6 @@
 ---
 title: "CA2006: Use SafeHandle to encapsulate native resources"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "CA2006"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: a71950bd-bcc1-463d-b1f2-5233bc451456
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "cplusplus"
 ---

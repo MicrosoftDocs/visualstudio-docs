@@ -1,7 +1,6 @@
 ---
 title: Creating a UI with XAML Designer
 ms.date: 11/05/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
   - "VS.XamlDesigner"
@@ -11,7 +10,7 @@ f1_keywords:
 ms.assetid: c54969a7-d75a-4a35-9b37-af7a596a7c24
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "uwp"
 ---

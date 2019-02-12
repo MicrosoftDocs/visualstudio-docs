@@ -10,9 +10,9 @@ helpviewer_keywords:
   - "end characters"
   - "start characters"
   - "documents [Office development in Visual Studio], retrieving ranges"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

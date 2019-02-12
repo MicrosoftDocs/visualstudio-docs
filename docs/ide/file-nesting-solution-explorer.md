@@ -2,13 +2,12 @@
 title: File nesting rules for Solution Explorer
 ms.date: 05/25/2018
 ms.topic: conceptual
-ms.prod: visual-studio-dev15
 helpviewer_keywords:
  - "file nesting"
  - "Solution Explorer, file nesting"
 author: angelosp
 ms.author: angelpe
-manager: douge
+manager: jillfra
 ---
 # Customize file nesting in Solution Explorer
 

@@ -1,14 +1,9 @@
 ---
 title: "How to: Expose Lists of Symbols Provided by the Library to the Object Manager | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "IVsSimpleLibrary2 interface, lists of symbols"
   - "IVsLibrary2 interface, lists of symbols"
@@ -18,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 19757068-bdaa-4e7e-85d6-f8ce5026a859
 caps.latest.revision: 26
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Expose Lists of Symbols Provided by the Library to the Object Manager
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -472,4 +467,3 @@ The symbol-browsing tools, **Class View**, **Object Browser**, **Call Browser** 
  [How to: Register a Library with the Object Manager](../../extensibility/internals/how-to-register-a-library-with-the-object-manager.md)   
  [How to: Identify Symbols in a Library](../../extensibility/internals/how-to-identify-symbols-in-a-library.md)   
  [Legacy Language Service Extensibility](../../extensibility/internals/legacy-language-service-extensibility.md)
-

@@ -1,7 +1,6 @@
 ---
 title: Manage assembly and manifest signing
 ms.date: 02/17/2017
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "manifests [Visual Studio]"
@@ -11,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 6c1ef36b-25f7-4ad0-b29a-51801b7a5420
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

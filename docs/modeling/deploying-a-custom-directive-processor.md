@@ -6,10 +6,9 @@ helpviewer_keywords:
   - "text templates, custom directive processors"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
 ---
 # Deploying a Custom Directive Processor
 

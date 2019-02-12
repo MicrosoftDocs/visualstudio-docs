@@ -1,21 +1,16 @@
 ---
 title: "Creating Your Own Start Page | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "devlang-csharp"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Create start page"
   - "custom start page"
   - "customize start page"
 ms.assetid: a0df5b9c-0932-4e54-86f0-28530ad9d684
 caps.latest.revision: 22
-manager: "douge"
+manager: jillfra
 ---
 # Creating Your Own Start Page
 You can create a custom Start Page either by using the Start Page Project Template or by creating a blank Start Page.  

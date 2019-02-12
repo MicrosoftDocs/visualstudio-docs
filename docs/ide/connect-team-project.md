@@ -1,11 +1,10 @@
 ---
 title: Connect to projects in Team Explorer
 ms.date: 12/04/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.author: gewarren
 author: gewarren
-ms.manager: douge
+ms.manager: jillfra
 ---
 # Connect to projects in Team Explorer
 

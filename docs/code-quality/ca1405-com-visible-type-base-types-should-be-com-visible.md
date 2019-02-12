@@ -1,7 +1,6 @@
 ---
 title: "CA1405: COM visible type base types should be COM visible"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "CA1405"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: a762ea2f-5285-4f73-bfb9-9eb10aea4290
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CSharp
  - VB

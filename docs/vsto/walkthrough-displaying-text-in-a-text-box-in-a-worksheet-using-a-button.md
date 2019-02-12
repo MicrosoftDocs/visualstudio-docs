@@ -10,9 +10,9 @@ helpviewer_keywords:
   - "worksheets, displaying text"
   - "text boxes, displaying text in worksheets"
   - "text [Office development in Visual Studio], text boxes"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

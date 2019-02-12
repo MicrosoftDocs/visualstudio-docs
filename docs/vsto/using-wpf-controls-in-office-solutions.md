@@ -7,9 +7,9 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords:
   - "WPF [Office development in Visual Studio]"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
   - "office"
 ---

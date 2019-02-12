@@ -1,12 +1,9 @@
 ---
 title: "Debugging by Using the Store Viewer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Domain-Specific Language, store viewer"
   - "Domain-Specific Language, store"
@@ -14,7 +11,7 @@ ms.assetid: 0178db2e-ae99-4ed3-9b87-8620fa9fa8e4
 caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Debugging by Using the Store Viewer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -51,6 +48,3 @@ Store Viewer
   
 ## See Also  
  [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md)
-
-
-

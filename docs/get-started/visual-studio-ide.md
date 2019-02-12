@@ -2,7 +2,6 @@
 title: Overview of Visual Studio 2017
 titleSuffix: ""
 ms.date: 10/26/2018
-ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
 ms.custom: vs-get-started
@@ -12,7 +11,7 @@ f1_keywords:
   - VS.StartPage.HowDoI
   - MSDNSTART
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -92,7 +91,7 @@ Some of the popular features in Visual Studio that help you to be more productiv
 
 ## Install the Visual Studio IDE
 
-This overview article walks you through creating a simple project and trying some of the things you can do with Visual Studio, like changing the color theme, using [IntelliSense](../ide/using-intellisense.md) as a coding aid, and debugging an app to see the value of a variable during the program's execution. To get started, [download Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) and install it on your system.
+This overview article walks you through creating a simple project and trying some of the things you can do with Visual Studio, like changing the color theme, using [IntelliSense](../ide/using-intellisense.md) as a coding aid, and debugging an app to see the value of a variable during the program's execution. To get started, [download Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) and install it on your system.
 
 The modular installer enables you to choose and install *workloads*, which are groups of features needed for the programming language or platform you prefer. To follow the steps for [creating a program](#create-a-program), be sure to select the **.NET Core cross-platform development** workload during installation.
 
@@ -281,5 +280,4 @@ If you're ready to dive into more coding, one of the following language-specific
 - Discover [more Visual Studio features](../ide/advanced-feature-overview.md)
 - Visit [visualstudio.microsoft.com](https://visualstudio.microsoft.com/vs/)
 - Read [The Visual Studio blog](https://blogs.msdn.microsoft.com/visualstudio/)
-- Check out the free Visual Studio courses at [Microsoft Virtual Academy](https://mva.microsoft.com/product-training/visual-studio-courses#!index=2&lang=1033)
 - Download Visual Studio at [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017)

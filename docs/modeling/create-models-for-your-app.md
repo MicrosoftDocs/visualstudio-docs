@@ -1,7 +1,6 @@
 ---
 title: Create models for your app
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
   - "vs.teamarch.common.commentlink.properties"
@@ -19,7 +18,7 @@ helpviewer_keywords:
   - "software, modeling"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

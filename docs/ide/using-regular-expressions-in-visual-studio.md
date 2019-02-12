@@ -1,7 +1,6 @@
 ---
 title: Use regular expressions
 ms.date: 03/26/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
   - "vsregularexpressionhelp"
@@ -14,7 +13,7 @@ helpviewer_keywords:
   - "regular expressions"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

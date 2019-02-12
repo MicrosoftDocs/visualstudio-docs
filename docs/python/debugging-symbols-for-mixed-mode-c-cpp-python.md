@@ -2,12 +2,11 @@
 title: Symbols for mixed-mode Python/C++ debugging
 description: How Visual Studio provides the ability to load symbols for complete mixed-mode C++ and Python debugging.
 ms.date: 11/12/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - python
   - data-science
 ---
@@ -46,7 +45,7 @@ If you downloaded symbols separately, follow the steps below to make Visual Stud
 
 1. Select the **Tools** > **Options** menu and navigate to **Debugging** > **Symbols**.
 
-1. Select the **Add** button on the toolbar (outlined below), enter the folder where you expanded the downloaded symbols (which is where *python.pdb* is located, such as *c:\python34\Symbols*, shown below), and select **OK**. 
+1. Select the **Add** button on the toolbar (outlined below), enter the folder where you expanded the downloaded symbols (which is where *python.pdb* is located, such as *c:\python34\Symbols*, shown below), and select **OK**.
 
     ![Mixed mode debugger symbols options](media/mixed-mode-debugging-symbols.png)
 
@@ -57,9 +56,9 @@ If you downloaded symbols separately, follow the steps below to make Visual Stud
 
 ## Official distributions
 
-| Python version | Downloads | 
-| --- | --- | 
-| 3.5 and later | Install symbols through the Python installer. | 
+| Python version | Downloads |
+| --- | --- |
+| 3.5 and later | Install symbols through the Python installer. |
 | 3.4.4 | [32-bit](https://www.python.org/ftp/python/3.4.4/python-3.4.4-pdb.zip) - [64-bit](https://www.python.org/ftp/python/3.4.4/python-3.4.4.amd64-pdb.zip) |
 | 3.4.3 | [32-bit](https://www.python.org/ftp/python/3.4.3/python-3.4.3-pdb.zip) - [64-bit](https://www.python.org/ftp/python/3.4.3/python-3.4.3.amd64-pdb.zip) |
 | 3.4.2 | [32-bit](https://www.python.org/ftp/python/3.4.2/python-3.4.2-pdb.zip) - [64-bit](https://www.python.org/ftp/python/3.4.2/python-3.4.2.amd64-pdb.zip) |

@@ -1,14 +1,13 @@
 ---
 title: "How to: Enforce Maintainable Code with a Code Analysis Check-in Policy"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "code analysis, check-in policies"
 ms.assetid: d1b3b04f-4dd9-40e6-b2d4-b414d33fb647
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

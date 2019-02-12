@@ -1,7 +1,6 @@
 ---
 title: Neutral Resources Languages for Localization
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "localization [Visual Studio], resources"
@@ -13,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: ef064995-3b84-4698-a708-9689b7723533
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

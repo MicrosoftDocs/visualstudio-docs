@@ -1,7 +1,6 @@
 ---
 title: Options, Text Editor, General
 ms.date: 01/18/2019
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.RDL_Expression.General"
@@ -27,7 +26,7 @@ helpviewer_keywords:
 ms.assetid: 4ac21e48-3243-4141-9058-7eaf12b3cde7
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -61,7 +60,7 @@ When selected, the project's specified coding conventions override any coding co
 
 When selected, you can press **Ctrl** and hover over an element while clicking the mouse. Doing so takes you to the definition of the selected element. You can also choose either **Alt** or **Ctrl** + **Alt** from the **Use modifier key** drop-down.
 
-Select the **Open definition in peek view** check box to display the element's definition in a window without navigating away from your current location in the code editor. 
+Select the **Open definition in peek view** check box to display the element's definition in a window without navigating away from your current location in the code editor.
 
 ## Display
 

@@ -1,14 +1,9 @@
 ---
 title: "WriteAllTLogs | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 api_name: 
   - "WriteAllTLogs"
 api_location: 
@@ -21,7 +16,7 @@ ms.assetid: 1fa3e10b-263c-4960-a9ad-485c02a7a872
 caps.latest.revision: 9
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # WriteAllTLogs
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -50,6 +45,3 @@ HRESULT WINAPI WriteAllTLogs(LPCTSTR intermediateDirectory, LPCTSTR tlogRootName
   
 ## See Also  
  [WriteContextTLogs](../msbuild/writecontexttlogs.md)
-
-
-

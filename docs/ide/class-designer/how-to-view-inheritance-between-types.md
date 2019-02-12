@@ -1,7 +1,6 @@
 ---
 title: "How to: View Inheritance Between Types (Class Designer)"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
   - "vs.classdesigner.AssociationTypeNotFoundError"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: ea3f0ada-f53b-4fb1-9fb5-908286f5ec3e
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

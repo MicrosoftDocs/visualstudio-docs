@@ -2,13 +2,12 @@
 title: Configure Python on Azure App Service (Windows)
 description: How to install a Python interpreter and libraries on Azure App Service, and configuring web applications to properly refer to that interpreter.
 ms.date: 01/07/2019
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
-manager: douge
+manager: jillfra
 ms.custom: seodec18
-ms.workload: 
+ms.workload:
   - python
   - data-science
   - azure
@@ -121,7 +120,7 @@ The `<appSettings>` defined here are available to your app as environment variab
 
 - The value for `PYTHONPATH` may be freely extended but must include the root of your app.
 - `WSGI_HANDLER` must point to a WSGI app importable from your app.
-- `WSGI_LOG` is optional but recommended for debugging your app. 
+- `WSGI_LOG` is optional but recommended for debugging your app.
 
 See [Publish to Azure](publishing-python-web-applications-to-azure-from-visual-studio.md) for additional details on *web.config* contents for Bottle, Flask, and Django web apps.
 

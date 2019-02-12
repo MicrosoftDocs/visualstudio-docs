@@ -1,7 +1,6 @@
 ---
 title: Resources for troubleshooting errors
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: troubleshooting
 f1_keywords:
   - "VS.Message.0x00005A89"
@@ -91,7 +90,7 @@ f1_keywords:
 ms.assetid: 8f866eb5-a206-4c16-807e-96a0f2c0e645
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

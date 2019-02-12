@@ -1,14 +1,9 @@
 ---
 title: "MSBuild Reference | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: reference
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -20,7 +15,7 @@ ms.assetid: 093395e1-70da-4f74-b34d-046c5e2b32e8
 caps.latest.revision: 28
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # MSBuild Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -72,7 +67,7 @@ manager: "ghogen"
  Lists the characters that may have to be "escaped" to be interpreted correctly. An escape sequence is a series of characters that signifies that what follows is an alternative interpretation.  
   
 ## Related Sections  
- [MSBuild Overview](http://msdn.microsoft.com/en-us/e39f13f7-1e1d-4435-95ca-0c222bca071c)
+ [MSBuild Overview](http://msdn.microsoft.com/e39f13f7-1e1d-4435-95ca-0c222bca071c)
  Introduces [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] and provides links to topics that explain how to use it to build projects.  
   
  <xref:Microsoft.Build.Conversion>  
@@ -95,6 +90,3 @@ manager: "ghogen"
   
  <xref:Microsoft.Build.Utilities>  
  Contains the Utilities namespace reference
-
-
-

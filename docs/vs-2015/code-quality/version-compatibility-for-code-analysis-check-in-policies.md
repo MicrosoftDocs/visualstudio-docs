@@ -1,14 +1,9 @@
 ---
 title: "Version Compatibility for Code Analysis Check-In Policies | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 helpviewer_keywords: 
   - "version compatibility, code analysis check-in policy"
   - "check-in policies, version compatibility for code analysis"
@@ -42,6 +37,3 @@ If you must evaluate and author code analysis check-in policies using different 
 -   To create a code analysis check-in policy with rule settings that apply for both [!INCLUDE[vstsTfsRosarioShort](../includes/vststfsrosarioshort-md.md)] and [!INCLUDE[vstsTfsOrcasShort](../includes/vststfsorcasshort-md.md)], you must create the policy in [!INCLUDE[vstsTfsRosarioShort](../includes/vststfsrosarioshort-md.md)], make all the changes needed, and save the policy. If the changes to rules exist only in [!INCLUDE[vstsTfsOrcasShort](../includes/vststfsorcasshort-md.md)], you modify and save the policy in [!INCLUDE[vstsTfsOrcasShort](../includes/vststfsorcasshort-md.md)].  
   
      After you save the policy in [!INCLUDE[vstsTfsOrcasShort](../includes/vststfsorcasshort-md.md)], you can no longer change settings for rules that exist in [!INCLUDE[vstsTfsRosarioShort](../includes/vststfsrosarioshort-md.md)] only.
-
-
-

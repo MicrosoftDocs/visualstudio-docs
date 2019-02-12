@@ -1,7 +1,6 @@
 ---
 title: "CA2226: Operators should have symmetrical overloads"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "OperatorsShouldHaveSymmetricalOverloads"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: d202401a-ea14-4559-b15e-0ea4f5b68789
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

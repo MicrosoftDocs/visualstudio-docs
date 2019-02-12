@@ -1,7 +1,6 @@
 ---
 title: Options Page, Environment Node Properties
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 helpviewer_keywords:
   - "automation [Visual Studio], controlling Tools Options"
@@ -9,7 +8,7 @@ helpviewer_keywords:
 ms.assetid: 26dca41f-91fc-4ca7-9103-3da402baa1d5
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

@@ -6,10 +6,9 @@ robots: noindex,nofollow
 f1_keywords:
  - "vs.texteditor"
  - "vs.ambient"
-manager: douge
+manager: jillfra
 author: gewarren
 ms.author: gewarren
-ms.prod: visual-studio-dev15
 ---
 # F1 help
 

@@ -1,7 +1,6 @@
 ---
 title: "CA1041: Provide ObsoleteAttribute message"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "CA1041"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: be5bee69-d2d2-44e1-be2e-3ea451969003
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CPP
  - CSharp

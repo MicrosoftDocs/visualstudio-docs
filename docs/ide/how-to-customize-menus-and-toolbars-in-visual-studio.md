@@ -1,7 +1,6 @@
 ---
 title: Customize menus and toolbars
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
   - "vs.renametoolbar"
@@ -25,7 +24,7 @@ helpviewer_keywords:
 ms.assetid: b570ae2f-5302-45dc-9cc9-8d4d1ad50603
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

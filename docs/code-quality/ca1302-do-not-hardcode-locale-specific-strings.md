@@ -1,7 +1,6 @@
 ---
 title: "CA1302: Do not hardcode locale specific strings"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "DoNotHardcodeLocaleSpecificStrings"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 05ed134a-837d-43d7-bf97-906edeac44ce
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CSharp
  - VB

@@ -1,7 +1,6 @@
 ---
 title: "CA1014: Mark assemblies with CLSCompliantAttribute"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "CA1014"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 4fe57449-cf45-4745-bcd2-6345f1ed266d
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CPP
  - CSharp

@@ -1,14 +1,13 @@
 ---
 title: Python interactive window (REPL)
 description: Use the interactive window (REPL) for rapid Python code development in Visual Studio.
-ms.date: 10/29/2018
-ms.prod: visual-studio-dev15
+ms.date: 02/11/2019
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
-manager: douge
+manager: jillfra
 ms.custom: seodec18
-ms.workload: 
+ms.workload:
   - python
   - data-science
 ---
@@ -26,15 +25,11 @@ Visual Studio has a number of Python REPL modes to choose from:
 | Standard | Default REPL, talks to Python directly | Standard editing (multiline, etc.). | Yes, via `$attach` | No |
 | Debug | Default REPL, talks to debugged Python process | Standard editing | Only debugging | No |
 | IPython | REPL talks to IPython backend | IPython commands, Pylab conveniences | No | Yes, inline in REPL |
-| IPython w/o Pylab | REPL talks to IPython backend | Standard IPython | No | Yes, separate window | 
+| IPython w/o Pylab | REPL talks to IPython backend | Standard IPython | No | Yes, separate window |
 
 This article describes the **Standard** and **Debug** REPL modes. For details on IPython modes, see [Use the IPython REPL](interactive-repl-ipython.md).
 
-For a detailed walkthrough with examples, including the interactions with the editor such as **Ctrl**+**Enter**, see [Tutorial Step 3: Use the Interactive REPL window](tutorial-working-with-python-in-visual-studio-step-03-interactive-repl.md). 
-
-|   |   |
-|---|---|
-| ![movie camera icon for video](../install/media/video-icon.png "Watch a video") | [Watch a video (Microsoft Virtual Academy)](https://mva.microsoft.com/en-US/training-courses-embed/python-tools-for-visual-studio-2017-18121/Video-Python-Interactive-Window-gJYKY5LWE_4605918567) on the **Interactive** window (2m 22s).|
+For a detailed walkthrough with examples, including the interactions with the editor such as **Ctrl**+**Enter**, see [Tutorial Step 3: Use the Interactive REPL window](tutorial-working-with-python-in-visual-studio-step-03-interactive-repl.md).
 
 ## Open an Interactive window
 

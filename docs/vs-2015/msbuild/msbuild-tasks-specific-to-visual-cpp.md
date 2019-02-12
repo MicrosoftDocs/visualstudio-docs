@@ -1,14 +1,9 @@
 ---
 title: "MSBuild Tasks Specific to Visual C++ | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: reference
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -20,7 +15,7 @@ ms.assetid: 05410f0c-7356-4692-bc00-20664421c9ff
 caps.latest.revision: 10
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # MSBuild Tasks Specific to Visual C++
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -54,6 +49,3 @@ Tasks provide the code that runs during the build process. When Visual C++ is in
 |[MSBuild Reference](../msbuild/msbuild-reference.md)|Describes the elements of the MSBuild system.|  
 |[Tasks](../msbuild/msbuild-tasks.md)|Describes tasks, which are units of code that can be combined to produce a build.|  
 |[Task Writing](../msbuild/task-writing.md)|Describes how to create a task.|
-
-
-

@@ -1,7 +1,6 @@
 ---
 title: Projects and Solutions, Options Dialog Box
 ms.date: 07/14/2017
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Projects.General"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 2801f24e-a138-488a-ae3c-e1f99a678ac0
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

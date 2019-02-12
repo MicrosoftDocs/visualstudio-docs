@@ -1,7 +1,6 @@
 ---
 title: "How to: Customize the Code Analysis Dictionary"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "code analysis dictionary"
@@ -10,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: 667e3b4e-beff-48be-b3d1-376e1716a895
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

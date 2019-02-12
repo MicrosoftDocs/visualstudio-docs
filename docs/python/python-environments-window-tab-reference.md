@@ -2,11 +2,10 @@
 title: Python environments window reference
 description: Details on each of the tabs that appear in the Python Environments window in Visual Studio.
 ms.date: 12/06/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
-manager: douge
+manager: jillfra
 ms.custom: seodec18
 ms.workload:
   - python

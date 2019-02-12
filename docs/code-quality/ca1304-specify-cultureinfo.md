@@ -1,7 +1,6 @@
 ---
 title: "CA1304: Specify CultureInfo"
 ms.date: 06/30/2018
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "SpecifyCultureInfo"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: b912d76a-54fd-4c93-b25d-16491e0ae319
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

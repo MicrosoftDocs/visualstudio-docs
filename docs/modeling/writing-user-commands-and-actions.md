@@ -4,10 +4,9 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
 ---
 # Writing User Commands and Actions
 You can customize a domain-specific language by adding commands to the diagram, and by responding to gestures such as drag-and-drop, click, and double-click events.

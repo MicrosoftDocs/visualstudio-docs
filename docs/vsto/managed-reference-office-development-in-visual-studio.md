@@ -8,9 +8,9 @@ dev_langs:
 helpviewer_keywords: 
   - "reference [Office development in Visual Studio], 2007 Microsoft Office system"
   - "Office development in Visual Studio, reference"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

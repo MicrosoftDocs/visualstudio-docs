@@ -17,10 +17,9 @@ helpviewer_keywords:
   - "dependency graphs, assigning categories and properties"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
 ---
 # Customize code maps by editing the DGML files
 

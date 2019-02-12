@@ -1,7 +1,6 @@
 ---
 title: "CA1501: Avoid excessive inheritance"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "CA1501"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 9e934746-1a4d-492a-91e4-085201abafa4
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CSharp
  - VB

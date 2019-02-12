@@ -1,7 +1,6 @@
 ---
 title: "CA1903: Use only API from targeted framework"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "UseOnlyAPIFromTargetedFramework"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: efdb5cc7-bbd8-4fa7-9fff-02b91e59350e
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

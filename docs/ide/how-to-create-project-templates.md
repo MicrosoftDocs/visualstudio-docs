@@ -1,7 +1,6 @@
 ---
 title: Create project templates
 ms.date: 01/02/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
   - "VS.ExportTemplateWizard"
@@ -9,7 +8,7 @@ helpviewer_keywords:
   - "project templates [Visual Studio], creating"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ---
 # How to: Create project templates
 

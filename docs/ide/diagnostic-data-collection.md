@@ -1,11 +1,10 @@
 ---
 title: Diagnostic data and system-generated logs
 ms.date: 05/24/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: gewarren
 ms.author: michma
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

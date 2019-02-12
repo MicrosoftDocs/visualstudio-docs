@@ -1,7 +1,6 @@
 ---
 title: "Scenario: Change your design using visualization and modeling"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "code visualization [Visual Studio ALM]"
@@ -13,7 +12,7 @@ helpviewer_keywords:
   - "walkthroughs [Visual Studio ALM], modeling software"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

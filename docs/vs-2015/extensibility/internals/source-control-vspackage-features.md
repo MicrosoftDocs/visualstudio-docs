@@ -1,20 +1,15 @@
 ---
 title: "Source Control VSPackage Features | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "source control packages, features"
 ms.assetid: 26c3ffda-22b8-4345-9fb6-2883f37699aa
 caps.latest.revision: 16
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Source Control VSPackage Features
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -37,4 +32,3 @@ This section describes the various features of a source control VSPackage. It ou
 ## Related Sections  
  [Creating a Source Control VSPackage](../../extensibility/internals/creating-a-source-control-vspackage.md)  
  Discusses how to create a source control VSPackage that not only supplies source control functionality but can be used to customize the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] source control UI.
-

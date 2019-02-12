@@ -1,14 +1,13 @@
 ---
 title: Code editor features
 ms.date: 02/23/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "code, editing [Visual Studio]"
   - "code editor [Visual Studio]"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

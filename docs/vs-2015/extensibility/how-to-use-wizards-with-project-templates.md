@@ -1,14 +1,9 @@
 ---
 title: "How to: Use Wizards with Project Templates | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "project templates [Visual Studio], wizards"
   - "Visual Studio templates, wizards"
@@ -18,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 47ee26cf-67b7-4ff1-8a9d-ab11a725405c
 caps.latest.revision: 23
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Use Wizards with Project Templates
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

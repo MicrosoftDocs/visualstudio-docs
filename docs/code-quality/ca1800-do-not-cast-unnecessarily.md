@@ -1,7 +1,6 @@
 ---
 title: "CA1800: Do not cast unnecessarily"
 ms.date: 10/26/2017
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "CA1800"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: b79a010a-6627-421e-8955-6007e32fa808
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
   - "VB"
   - "CSharp"

@@ -1,7 +1,6 @@
 ---
 title: "CA2234: Pass System.Uri objects instead of strings"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "PassSystemUriObjectsInsteadOfStrings"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 14616b37-74c4-4286-b051-115d00aceb5f
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CPP
  - CSharp

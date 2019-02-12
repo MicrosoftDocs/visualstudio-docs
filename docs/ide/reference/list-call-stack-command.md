@@ -1,7 +1,6 @@
 ---
 title: List Call Stack Command
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "debug.listcallstack"
@@ -11,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: a8b20bf2-81d2-4069-aea8-23e6b15b4347
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

@@ -6,10 +6,9 @@ helpviewer_keywords:
   - "Domain-Specific Language, programming"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
 ---
 # Write Code to Customize a Domain-Specific Language
 

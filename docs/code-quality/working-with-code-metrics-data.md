@@ -1,7 +1,6 @@
 ---
 title: Code Metrics window
 ms.date: 12/12/2017
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "vs.codemetrics.output"
@@ -11,7 +10,7 @@ helpviewer_keywords:
   - "results window, code metrics"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

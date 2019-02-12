@@ -1,7 +1,6 @@
 ---
 title: Immediate Window
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 dev_langs:
   - "VB"
@@ -14,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: d33e7937-73f3-4c69-9df0-777a8713c6f2
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -96,7 +95,7 @@ Enter the greater than sign (>) when issuing Visual Studio commands in the **Imm
 
 When you click on any previous line in the **Immediate** window, you shift automatically into Mark mode. This allows you to select, edit, and copy the text of previous commands as you would in any text editor, and paste them into the current line.
 
-## The equals sign(=)
+## The equals sign (=)
 
 The window used to enter the `EvaluateStatement` command determines whether an equals sign (=) is interpreted as a comparison operator or as an assignment operator.
 

@@ -1,7 +1,6 @@
 ---
 title: "Test Explorer FAQ"
 ms.date: 11/07/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "Test Explorer"
@@ -14,7 +13,7 @@ ms.author: "kehavens"
 ms.workload:
   - "multiple"
 author: kendrahavens
-manager: douge
+manager: jillfra
 ---
 # Visual Studio Test Explorer FAQ
 

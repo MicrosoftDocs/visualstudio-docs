@@ -2,9 +2,8 @@
 title: "Use command-line parameters to install Visual Studio"
 titleSuffix: ""
 description: "Learn how to use command-line parameters to control or customize your Visual Studio installation."
-ms.date: 11/14/2018
+ms.date: 02/12/2019
 ms.custom: "seodec18"
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
   - "command-line parameters"
@@ -13,7 +12,7 @@ f1_keywords:
 ms.assetid: 480f3cb4-d873-434e-a8bf-82cff7401cf2
 author: TerryGLee
 ms.author: tglee
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -31,7 +30,7 @@ The command-line options are used in conjunction with the setup bootstrapper, wh
 - [Visual Studio 2017 Professional](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=professional&rel=15?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=link+cta&utm_content=download+commandline+parameters+vs2017)
 - [Visual Studio 2017 Community](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=community&rel=15?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=link+cta&utm_content=download+commandline+parameters+vs2017)
 
-## List of command-line parameters
+## Command-line parameters
 
  Visual Studio command-line parameters are case-insensitive.
 
@@ -40,7 +39,7 @@ The command-line options are used in conjunction with the setup bootstrapper, wh
 (Replace `vs_enterprise.exe` as appropriate for the product edition you're installing.)
 
 >[!TIP]
-> For more examples of how to use the command line to install Visual Studio 2017, see the [Command-line parameter examples](command-line-parameter-examples.md) page.)
+> For more examples of how to use the command line to install Visual Studio 2017, see the [Command-line parameter examples](command-line-parameter-examples.md) page.
 
 | **Command** | **Description** |
 | ----------------------- | --------------- |
@@ -50,6 +49,8 @@ The command-line options are used in conjunction with the setup bootstrapper, wh
 | `repair` | Repairs an installed product. |
 | `uninstall` | Uninstalls an installed product. |
 | `export` | **New in 15.9**: Exports installation selection to an installation configuration file. **Note**: Can only be used with vs_installer.exe. |
+
+## Install options
 
 | **Install option** | **Description** |
 | ----------------------- | --------------- |
@@ -73,6 +74,8 @@ The command-line options are used in conjunction with the setup bootstrapper, wh
 
 > [!IMPORTANT]
 > When specifying multiple workloads and components, you must repeat the `--add` or `--remove` command-line switch for each item.
+
+## Layout options
 
 | **Layout options** | **Description** |
 | ----------------------- | --------------- |
@@ -98,7 +101,7 @@ The command-line options are used in conjunction with the setup bootstrapper, wh
 | `--cache` | **New in 15.2, optional**: If present, packages will be kept after being installed for subsequent repairs. This overrides the global policy setting to be used for subsequent installs, repairs, or modifications. The default policy is to cache packages. This is ignored for the uninstall command. Read how to [disable or move the package cache](disable-or-move-the-package-cache.md) for more information. |
 | `--nocache` | **New in 15.2, optional**: If present, packages will be deleted after being installed or repaired. They will be downloaded again only if needed and deleted again after use. This overrides the global policy setting to be used for subsequent installs, repairs, or modifications. The default policy is to cache packages. This is ignored for the uninstall command. Read how to [disable or move the package cache](disable-or-move-the-package-cache.md) for more information. |
 | `--noUpdateInstaller` | **New in 15.2, optional**: If present, prevents the installer from updating itself when quiet is specified. The installer will fail the command and return a non-zero exit code if noUpdateInstaller is specified with quiet when an installer update is required. |
-| `--noWeb` | **New in 15.3, optional**: Setup now downloads any content that it is installing from the Internet.  All content that is being installed must be available in an offline layout.  If the layout is missing content, setup fails.  For more information, see [Deploying from a network installation](create-a-network-installation-of-visual-studio.md). |
+| `--noWeb` | **New in 15.3, optional**: If present, Visual Studio setup uses the files in your layout directory to install Visual Studio. If a user tries to install components that are not in the layout, setup fails.  For more information, see [Deploying from a network installation](create-a-network-installation-of-visual-studio.md). <br/><br/> **Important**: This switch does not stop Visual Studio setup from checking for updates. For more information, see [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md).|
 | `--path <name>=<path>` | **New in 15.7, optional**: Used to specify custom install paths for the installation. Supported path names are shared, cache, and install. |
 | `--path cache=<path>` | **New in 15.7, optional**: Uses the location you specify to download installation files. This location can only be set the first time that Visual Studio is installed. Example: `--path cache="C:\VS\cache"` |
 | `--path shared=<path>` | **New in 15.7, optional**: Contains shared files for side-by-side Visual Studio installations. Some tools and SDKs install to a location on this drive, while some others might override this setting and install to another drive. Example: `--path shared="C:\VS\shared"` <br><br>Important: This can be set only once and on the first time that Visual Studio is installed. |

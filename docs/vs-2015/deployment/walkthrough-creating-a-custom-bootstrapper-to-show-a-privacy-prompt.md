@@ -1,14 +1,9 @@
 ---
 title: "Walkthrough: Creating a Custom Bootstrapper to Show a Privacy Prompt | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -24,7 +19,7 @@ ms.assetid: 2f3edd6a-84d1-4864-a1ae-6a13c5732aae
 caps.latest.revision: 12
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # Walkthrough: Creating a Custom Bootstrapper to Show a Privacy Prompt
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -306,6 +301,3 @@ You can configure ClickOnce applications to automatically update when assemblies
  [How to: Create a Product Manifest](../deployment/how-to-create-a-product-manifest.md)   
  [How to: Create a Package Manifest](../deployment/how-to-create-a-package-manifest.md)   
  [Product and Package Schema Reference](../deployment/product-and-package-schema-reference.md)
-
-
-

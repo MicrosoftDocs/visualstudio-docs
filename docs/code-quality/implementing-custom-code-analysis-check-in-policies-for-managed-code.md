@@ -1,7 +1,6 @@
 ---
 title: Implementing Custom Code Analysis Check-in Policies for Managed Code
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
   - "vs.code.analysis.selecttfsrulesets"
@@ -10,7 +9,7 @@ f1_keywords:
 ms.assetid: fd029003-5671-4b24-8b6f-032e0a98b2e8
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "dotnet"
 ---

@@ -1,14 +1,9 @@
 ---
 title: "Find in Files Command | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "edit.findinfiles"
 helpviewer_keywords: 
@@ -18,7 +13,7 @@ ms.assetid: 2fc78bfe-b339-4599-97f9-4cafd8a194d9
 caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Find in Files Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -92,6 +87,3 @@ Edit.FindinFiles findwhat [/case] [/ext:extensions]
  [Find/Command Box](../../ide/find-command-box.md)   
  [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)   
  [Visual Studio Command Aliases](../../ide/reference/visual-studio-command-aliases.md)
-
-
-

@@ -2,7 +2,6 @@
 title: "Developing Applications with the Workflow Designer"
 ms.date: 11/04/2016
 ms.topic: conceptual
-ms.prod: visual-studio-dev15
 f1_keywords:
   - "DefaultWorkflowDesigner"
   - "DefaultWorkflowDesigner.UI"
@@ -14,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 4cd062b1-b496-4668-bbc1-ee85545e066d
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

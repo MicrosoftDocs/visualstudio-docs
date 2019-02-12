@@ -1,7 +1,6 @@
 ---
 title: Go to file, go to symbol, go to line
 ms.date: 08/14/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "code editor, go to"
@@ -10,7 +9,7 @@ helpviewer_keywords:
   - "go to"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

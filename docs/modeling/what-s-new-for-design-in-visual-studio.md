@@ -1,7 +1,6 @@
 ---
 title: What's new for design
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "what's new [VIsual Studio ALM], architecture and modeling"
@@ -9,7 +8,7 @@ helpviewer_keywords:
   - "modeling software [Visual Studio ALM], What's New"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

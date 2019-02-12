@@ -1,7 +1,6 @@
 ---
 title: Code navigation commands
 ms.date: 08/14/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "code editor, navigation"
@@ -16,7 +15,7 @@ helpviewer_keywords:
   - "go to"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

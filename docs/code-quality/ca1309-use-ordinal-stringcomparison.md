@@ -1,7 +1,6 @@
 ---
 title: "CA1309: Use ordinal StringComparison"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "UseOrdinalStringComparison"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 19be0854-cb6e-4efd-a4c8-a5c1fc6f7a71
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

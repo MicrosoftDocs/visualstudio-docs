@@ -6,10 +6,9 @@ helpviewer_keywords:
   - "text templates, security"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
 ---
 # Security of Text Templates
 Text templates have the following security concerns:

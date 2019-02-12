@@ -1,12 +1,9 @@
 ---
 title: "Bind WPF controls to data | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs:
   - "VB"
   - "CSharp"
@@ -24,7 +21,7 @@ ms.assetid: e05a1e0c-5082-479d-bbc9-d395b0bc6580
 caps.latest.revision: 39
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Bind WPF controls to data in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

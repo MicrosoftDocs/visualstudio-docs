@@ -6,10 +6,9 @@ helpviewer_keywords:
   - "Domain-Specific Language, programming domain models"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
 ---
 # Navigate and Update a Model in Program Code
 

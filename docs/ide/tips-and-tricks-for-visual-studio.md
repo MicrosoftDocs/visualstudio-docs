@@ -1,11 +1,10 @@
 ---
 title: Keyboard shortcuts
 ms.date: 11/02/2018
-ms.prod: visual-studio-dev15
 ms.topic: reference
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

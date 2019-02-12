@@ -1,7 +1,6 @@
 ---
 title: Create multi-project templates
 ms.date: 01/02/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "Visual Studio templates, creating multi-project"
@@ -9,7 +8,7 @@ helpviewer_keywords:
   - "multi-project templates"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ---
 # How to: Create multi-project templates
 
@@ -63,17 +62,20 @@ The root *vstemplate* file for a multi-project template differs from a single-pr
     </TemplateContent>
     ```
 
-## To create a multi-project template from an existing solution
+## Create a multi-project template from an existing solution
 
 1. Create a solution and add two or more projects.
 
 1. Customize the projects until they are ready to be exported to a template.
 
+   > [!TIP]
+   > If you're using [template parameters](template-parameters.md) and you want to refer to variables from the parent template, prefix the name of the parameter with `ext_`. For example, `$ext_safeprojectname$`.
+
 1. On the **Project** menu, choose **Export Template**.
 
    The **Export Template Wizard** opens.
 
-1. On the **Choose Template Type** page, select **Project Template**. Select the project you want to export to a template, and then choose **Next**.
+1. On the **Choose Template Type** page, select **Project Template**. Select one of the projects that you want to export to a template, and then choose **Next**. (You'll repeat these steps for each project in the solution.)
 
 1. On the **Select Template Options** page, enter a name and optional description, icon, and preview image for your template. Choose **Finish**.
 

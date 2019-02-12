@@ -1,7 +1,6 @@
 ---
 title: "CA1008: Enums should have zero value"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "CA1008"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 3503a73c-360c-416d-8ee4-c2aa44365a05
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CPP
  - CSharp

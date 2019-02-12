@@ -1,7 +1,6 @@
 ---
 title: "CA1040: Avoid empty interfaces"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "CA1040"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 120a741b-5fd1-4836-8453-7857e0cd0380
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CPP
  - CSharp

@@ -2,12 +2,11 @@
 title: "Report a problem"
 description: "Provides an overview of the Report a Problem tool, and includes problem states and definitions"
 ms.date: 11/15/2018
-ms.prod: visual-studio-dev15
 ms.custom: "seodec18"
 ms.topic: conceptual
 author: seaniyer
 ms.author: seiyer
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -57,7 +56,7 @@ After you report a problem, states indicate where your submissions are in their 
 
 - - -
 
-![Closed - Fixed state for problem reporting on Developer Community](../ide/media/ProblemStates/ClosedFixed.jpg) 
+![Closed - Fixed state for problem reporting on Developer Community](../ide/media/ProblemStates/ClosedFixed.jpg)
 
 **Closed - Fixed** indicates that we've released a fix for the problem. The problem is also now tagged with a "fixed in:" tag specifying the release version.
 

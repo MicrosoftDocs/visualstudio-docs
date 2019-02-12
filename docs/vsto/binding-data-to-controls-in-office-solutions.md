@@ -1,7 +1,6 @@
 ---
 title: "Bind data to controls in Office solutions"
 ms.date: 02/02/2017
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 dev_langs: 
   - "VB"
@@ -16,7 +15,7 @@ helpviewer_keywords:
   - "controls, data binding"
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload: 
   - "office"
 ---

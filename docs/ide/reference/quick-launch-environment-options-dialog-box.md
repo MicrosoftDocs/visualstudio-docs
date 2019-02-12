@@ -1,7 +1,6 @@
 ---
 title: Quick Launch, Environment, Options Dialog Box
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Environment.QuickLaunch"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 4200f297-d065-4723-9a30-d91ff2e26c9d
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

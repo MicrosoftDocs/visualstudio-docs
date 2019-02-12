@@ -1,23 +1,25 @@
 ---
 title: Get started with unit testing
 ms.date: 05/02/2017
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "unit testing, create unit test plans"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
 # Get started with unit testing
 
-Use Visual Studio to define and run your unit tests to maintain code health, ensure code coverage, and to find errors and faults before your customers do.
+Use Visual Studio to define and run unit tests to maintain code health, ensure code coverage, and find errors and faults before your customers do. Run your unit tests frequently to make sure your code is working properly.
 
 ## Create unit tests
 
-Create unit tests and run them frequently to make sure your code is working properly.
+This section describes at a high level how to create a unit test project.
+
+> [!TIP]
+> The project under test, "HelloWorld", is an example project and no code for it is intended to be shown. If you want to create a "HelloWorld" project to test, see [Create your first C# console app](../ide/quickstart-csharp-console.md). For a complete walkthrough article, see [Create and run unit tests for managed code](walkthrough-creating-and-running-unit-tests-for-managed-code.md).
 
 1. Create a unit test project.
 
@@ -145,6 +147,7 @@ Following are the steps to enable third-party test frameworks:
 
 ## See also
 
+* [Walkthrough: Create and run unit tests for managed code](walkthrough-creating-and-running-unit-tests-for-managed-code.md)
 * [Create Unit Tests command](create-unit-tests-menu.md)
 * [Generate tests with IntelliTest](generate-unit-tests-for-your-code-with-intellitest.md)
 * [Run tests with Test Explorer](run-unit-tests-with-test-explorer.md)

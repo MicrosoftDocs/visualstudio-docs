@@ -1,7 +1,6 @@
 ---
 title: Target the .NET Framework
 ms.date: 02/06/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "targeting .NET Framework [Visual Studio]"
@@ -11,7 +10,7 @@ helpviewer_keywords:
   - ".NET framework targeting [Visual Studio]"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "dotnet"
 ---

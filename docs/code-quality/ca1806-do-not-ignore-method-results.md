@@ -1,7 +1,6 @@
 ---
 title: "CA1806: Do not ignore method results"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "CA1806"
@@ -16,7 +15,7 @@ dev_langs:
  - CPP
  - CSharp
  - VB
-manager: douge
+manager: jillfra
 ---
 # CA1806: Do not ignore method results
 

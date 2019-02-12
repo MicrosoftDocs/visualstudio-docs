@@ -2,9 +2,8 @@
 title: Managing roles in Azure cloud services
 description: Learn how to add and remove roles in Azure cloud services with Visual Studio.
 author: ghogen
-manager: douge
+manager: jillfra
 assetId: 5ec9ae2e-8579-4e5d-999e-8ae05b629bd1
-ms.prod: visual-studio-dev15
 ms.custom: vs-azure
 ms.workload: azure-vs
 ms.topic: conceptual
@@ -35,7 +34,7 @@ The following steps guide you through removing a web or worker role from an Azur
 
 1. Expand the **Roles** node.
 
-1. Right-click the node you want to remove, and, from the context menu, select **Remove**. 
+1. Right-click the node you want to remove, and, from the context menu, select **Remove**.
 
 	![Menu options to add a role to an Azure cloud service](./media/vs-azure-tools-cloud-service-project-managing-roles/remove-role.png)
 

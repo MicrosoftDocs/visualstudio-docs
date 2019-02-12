@@ -1,20 +1,15 @@
 ---
 title: "Run unit tests with Test Explorer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 f1_keywords: 
   - "vs.unittesting.testexplorer.overview"
 ms.assetid: 91b167a3-280a-498b-8fc2-f67859a2c64e
 caps.latest.revision: 29
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Run unit tests with Test Explorer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -294,6 +289,3 @@ FullName:"MyClass" - FullName:"PerfTest"
 ## See Also  
  [Unit Test Your Code](../test/unit-test-your-code.md)   
  [Run a unit test as a 64-bit process](../test/run-a-unit-test-as-a-64-bit-process.md)
-
-
-

@@ -1,7 +1,6 @@
 ---
 title: "CA1815: Override equals and operator equals on value types"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "CA1815"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 0a8ab3a3-ee8e-46f7-985d-dcf00c89363b
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

@@ -10,9 +10,9 @@ helpviewer_keywords:
   - "worksheets, ranges"
   - "ranges, common tasks"
   - "workbooks, ranges"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: 
   - "office"
 ---

@@ -1,12 +1,11 @@
 ---
 title: "Generate unit tests for your code with IntelliTest"
 ms.date: 10/05/2015
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
   - "vs.UnitTest.CreateIntelliTest"
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 author: gewarren
@@ -21,7 +20,7 @@ When you run IntelliTest, you can easily see which tests are failing and add any
 
 The **Create IntelliTest** and **Run IntelliTest** menu commands:
 
-* Are available in only the Enterprise Edition of Visual Studio 2015 and later.
+* Are available only in the Enterprise Edition of Visual Studio 2015 and later.
 
 * Support only C# code that targets the .NET Framework.
 

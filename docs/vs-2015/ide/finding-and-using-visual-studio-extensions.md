@@ -1,13 +1,9 @@
 ---
 title: "Finding and Using Extensions | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: conceptual
 f1_keywords:
   - "vs.ExtensionManager"
 helpviewer_keywords:
@@ -18,7 +14,7 @@ ms.assetid: 4ca92d93-31b9-47ef-8109-4a429d9e2ca3
 caps.latest.revision: 47
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Finding and Using Visual Studio Extensions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

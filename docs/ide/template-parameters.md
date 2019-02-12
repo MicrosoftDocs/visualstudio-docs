@@ -1,7 +1,6 @@
 ---
 title: Project and item template parameters
 ms.date: 01/02/2018
-ms.prod: visual-studio-dev15
 ms.topic: reference
 helpviewer_keywords:
   - "Visual Studio templates, parameters"
@@ -10,13 +9,13 @@ helpviewer_keywords:
   - "item templates, parameters"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ---
 # Template parameters
 
 You can replace values in your template when the template is instantiated. To set up this functionality, use *template parameters*. Template parameters can be used to replace values such as class names and namespaces in the template. The template wizard that runs in the background when a user adds a new item or project replaces these parameters.
 
-## Declaring and enabling template parameters
+## Declare and enable template parameters
 
 Template parameters are declared in the format $*parameter*$. For example:
 
@@ -26,7 +25,7 @@ Template parameters are declared in the format $*parameter*$. For example:
 
 - $guid5$
 
-### To enable parameter substitution in templates
+### Enable parameter substitution in templates
 
 1. In the *.vstemplate* file of the template, locate the `ProjectItem` element that corresponds to the item for which you want to enable parameter replacement.
 
@@ -40,11 +39,12 @@ Template parameters are declared in the format $*parameter*$. For example:
 
 ## Reserved template parameters
 
-The following table lists the reserved template parameters that can be used by any template.
+The following table lists the reserved template parameters that can be used by any template:
 
 |Parameter|Description|
 |---------------|-----------------|
 |clrversion|Current version of the common language runtime (CLR).|
+|ext_*|Add the `ext_` prefix to any parameter to refer to the variables of the parent template. For example, `ext_safeprojectname`.|
 |guid[1-10]|A GUID used to replace the project GUID in a project file. You can specify up to 10 unique GUIDs (for example, `guid1`).|
 |itemname|The name provided by the user in the **Add New Item** dialog box.|
 |machinename|The current computer name (for example, Computer01).|
@@ -112,6 +112,7 @@ In the *.vstemplate* file for the project template, include the `ReplaceParamete
 
 ## See also
 
+- [How to: Substitute parameters in a template](how-to-substitute-parameters-in-a-template.md)
 - [Customize templates](../ide/customizing-project-and-item-templates.md)
 - [How to: Create project templates](../ide/how-to-create-project-templates.md)
 - [Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)

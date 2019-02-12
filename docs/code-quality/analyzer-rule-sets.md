@@ -1,14 +1,13 @@
 ---
 title: Analyzer rule sets
 ms.date: 07/20/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "analyzers, rule sets"
   - "rule sets for analyzers"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

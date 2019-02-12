@@ -1,14 +1,9 @@
 ---
 title: "Managing Application Resources (.NET) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 f1_keywords: 
   - "msvse_resedit.dlg.SetCustomTool"
   - "msvse_settingsdesigner.err.formatvalue"
@@ -26,7 +21,7 @@ ms.assetid: f2582734-8ada-4baa-8a7c-e2ef943ddf7e
 caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Managing Application Resources (.NET)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,4 +36,3 @@ Resource files are files that are part of an application but are not compiled, f
  In a managed code project, open the project properties window (right-click the project node in **Solution Explorer** and select **Properties**, or type **project properties** in the **Quick Launch** window, or type ALT + ENTER in the **Solution Explorer** window). Select the **Resources** tab. You can add a .resx file if your project does not contain one already, add and delete different kinds of resources, and modify existing resources.  
   
  To find out how to work with resources in C++ projects, see [How to: Create a Resource](http://msdn.microsoft.com/library/aad44914-9145-45a3-a7d8-9de89b366716).
-

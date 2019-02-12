@@ -6,10 +6,9 @@ helpviewer_keywords:
   - "Domain-Specific Language Tools, creating solutions"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
 ---
 # Customizing and Extending a Domain-Specific Language
 Visual Studio Modeling and Visualization SDK (VMSDK) provides several levels at which you can define modeling tools:

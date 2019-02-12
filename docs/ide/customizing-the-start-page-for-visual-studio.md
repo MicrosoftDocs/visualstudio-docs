@@ -1,7 +1,6 @@
 ---
 title: Install custom start page or change startup item
 ms.date: 02/01/2017
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
   - "vs.ToolsOptionsPages.Startup"
@@ -11,7 +10,7 @@ helpviewer_keywords:
   - "Visual Studio Start Page"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

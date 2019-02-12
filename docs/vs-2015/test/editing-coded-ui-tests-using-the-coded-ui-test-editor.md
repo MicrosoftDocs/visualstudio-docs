@@ -1,14 +1,9 @@
 ---
 title: "Editing Coded UI Tests Using the Coded UI Test Editor | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 f1_keywords: 
   - "vs.codedUItest.testeditor"
 helpviewer_keywords: 
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 76435c4b-593e-43a3-a9fe-709a7f9f5e0f
 caps.latest.revision: 42
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Editing Coded UI Tests Using the Coded UI Test Editor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -220,6 +215,3 @@ Edit control properties
  [Creating a Data-Driven Coded UI Test](../test/creating-a-data-driven-coded-ui-test.md)   
  [Generating a Coded UI Test from an Existing Action Recording](http://msdn.microsoft.com/library/56736963-9027-493b-b5c4-2d4e86d1d497)   
  [Walkthrough: Creating, Editing and Maintaining a Coded UI Test](../test/walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md)
-
-
-

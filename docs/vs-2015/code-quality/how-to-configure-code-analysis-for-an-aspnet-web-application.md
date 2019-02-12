@@ -1,14 +1,9 @@
 ---
 title: "How to: Configure Code Analysis for an ASP.NET Web Application | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 f1_keywords: 
   - "vs.codeanalysis.propertypages.asp"
 ms.assetid: b3000b31-fd9d-489e-81a2-a4bee49453ba
@@ -45,6 +40,3 @@ In [!INCLUDE[vsPreShort](../includes/vspreshort-md.md)] and [!INCLUDE[vsUltShort
     -   Select **\<Browse>** to specify an existing custom rule set that is not in the list.  
   
     -   Define a custom rule set. For more information, see [Creating Custom Rule Sets](../code-quality/creating-custom-code-analysis-rule-sets.md).
-
-
-

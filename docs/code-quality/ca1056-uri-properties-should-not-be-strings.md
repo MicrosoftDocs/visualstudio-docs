@@ -1,7 +1,6 @@
 ---
 title: "CA1056: URI properties should not be strings"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "UriPropertiesShouldNotBeStrings"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: fdc99d29-0904-4a65-baa8-4f76833c953e
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CPP
  - CSharp

@@ -1,7 +1,6 @@
 ---
 title: "CA1400: P-Invoke entry points should exist"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "CA1400"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 1d64e470-7b2f-4cca-8fb0-ac92829e6332
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

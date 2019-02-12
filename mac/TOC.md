@@ -9,7 +9,7 @@
 
 # [User Accounts](user-accounts.md)
 ## [Signing In](signing-in.md)
-## [Enable Subscription](activation.md)
+## [Enable Subscription](enable-subscription.md)
 
 # [Customizing the IDE](customizing-the-ide.md)
 ## [Extending Visual Studio for Mac](extending-visual-studio-mac.md)
@@ -51,6 +51,11 @@
 ## [Working with Git](working-with-git.md)
 ## [Setting Up a Subversion Repository](set-up-subversion-repository.md)
 ## [Working with Subversion](working-with-subversion.md)
+
+# [Web App Deployment](web-app-deployment.md)
+## [Publish to Azure App Service](publish-app-svc.md)
+## [Publish to Folder](publish-folder.md)
+
 
 # [Workloads](workloads.md)
 ## [ASP.NET Core](asp-net-core.md)

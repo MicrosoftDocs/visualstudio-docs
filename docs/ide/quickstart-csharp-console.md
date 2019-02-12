@@ -3,13 +3,12 @@ title: "Use Visual Studio to create your first C# console app"
 titleSuffix: ""
 description: "Learn how to create a simple Hello World console app in Visual Studio with C#, step-by-step."
 ms.date: 09/21/2018
-ms.prod: visual-studio-dev15
 ms.custom: "seodec18"
 ms.topic: quickstart
 ms.devlang: vb
 author: TerryGLee
 ms.author: tglee
-manager: douge
+manager: jillfra
 dev_langs:
   - CSharp
 ms.workload:
@@ -19,7 +18,7 @@ ms.workload:
 
 In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), you'll create a simple C# app that runs on the console.
 
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) page to install it for free.
 
 ## Create a project
 
@@ -43,7 +42,7 @@ First, you'll create a C# application project. The project type comes with all t
 
 ## Create the application
 
-After you select your C# project template and name your project, Visual Studio creates a simple "Hello World" application for you. 
+After you select your C# project template and name your project, Visual Studio creates a simple "Hello World" application for you.
 
 (To do this, it calls the <xref:System.Console.WriteLine%2A> method to display the literal string "Hello World!" in the console window.)
 

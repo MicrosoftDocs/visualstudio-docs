@@ -6,8 +6,7 @@ helpviewer_keywords:
   - "full solution analysis"
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
+manager: jillfra
 ms.workload:
   - "dotnet"
 ---

@@ -1,17 +1,13 @@
 ---
 title: "Menus and Commands"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: conceptual
 ms.assetid: 0a1ed675-2bd1-4603-ba3a-f40dfb5cfb69
 caps.latest.revision: 5
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Menus and Commands for Visual Studio
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -229,7 +225,7 @@ manager: "ghogen"
 
 #### When naming commands:
 
--   Construct text so that it is easily localizable. For more about localizing text, see [World Readiness for Visual Studio](http://msdn.microsoft.com/en-us/1cc35051-8126-441f-bea9-059245a47b1d).
+-   Construct text so that it is easily localizable. For more about localizing text, see [World Readiness for Visual Studio](http://msdn.microsoft.com/1cc35051-8126-441f-bea9-059245a47b1d).
 
 -   Be concise. Commands should use no more than three words.
 

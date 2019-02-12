@@ -1,14 +1,9 @@
 ---
 title: "Extended Correctness Rules rule set for managed code | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 ms.assetid: 5b181f5b-6c7a-4e46-a783-360e1da427a0
 caps.latest.revision: 13
 author: gewarren
@@ -154,6 +149,3 @@ The Microsoft Extended Correctness Rules rule set maximizes the logic and framew
 |[CA2233](../code-quality/ca2233-operations-should-not-overflow.md)|Operations should not overflow|  
 |[CA2234](../code-quality/ca2234-pass-system-uri-objects-instead-of-strings.md)|Pass System.Uri objects instead of strings|  
 |[CA2243](../code-quality/ca2243-attribute-string-literals-should-parse-correctly.md)|Attribute string literals should parse correctly|
-
-
-

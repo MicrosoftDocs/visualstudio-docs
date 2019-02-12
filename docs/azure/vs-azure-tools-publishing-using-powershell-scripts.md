@@ -2,9 +2,8 @@
 title: Using Windows PowerShell Scripts to Publish to Dev and Test Environments | Microsoft Docs
 description: Learn how to use Windows PowerShell scripts from Visual Studio to publish to development and test environments.
 author: ghogen
-manager: douge
+manager: jillfra
 assetId: 5fff1301-5469-4d97-be88-c85c30f837c1
-ms.prod: visual-studio-dev15
 ms.custom: vs-azure
 ms.workload: azure-vs
 ms.topic: conceptual

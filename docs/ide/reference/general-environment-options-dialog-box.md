@@ -1,7 +1,6 @@
 ---
 title: General, Environment, Options Dialog Box
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "VS.Message.0x800a002e"
@@ -23,7 +22,7 @@ helpviewer_keywords:
   - "General Environment Options dialog box"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

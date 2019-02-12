@@ -1,7 +1,6 @@
 ---
 title: Code snippets
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
   - "vs.ExpansionManagerImport"
@@ -11,7 +10,7 @@ helpviewer_keywords:
   - "code snippets"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CSharp
  - VB

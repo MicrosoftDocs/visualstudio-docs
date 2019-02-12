@@ -1,7 +1,6 @@
 ---
 title: -Upgrade (devenv.exe)
 ms.date: 12/10/2018
-ms.prod: visual-studio-dev15
 ms.topic: reference
 helpviewer_keywords:
   - "/upgrade Devenv switch"
@@ -10,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: 3468045c-5cc9-4157-9a9d-622452145d27
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

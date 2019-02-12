@@ -1,24 +1,24 @@
 ---
 title: "Tutorial: Hello World app with Windows Presentation Foundation (WPF) in C#"
-description: Create a simple Windows Desktop .NET app in C# with Visual Studio using the Windows Presentation Foundation (WPF) UI framework. 
+description: Create a simple Windows Desktop .NET app in C# with Visual Studio using the Windows Presentation Foundation (WPF) UI framework.
 ms.custom: "seodec18, get-started"
 ms.date: 10/03/2017
-ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 dev_langs:
   - "CSharp"
 ms.assetid: f84339c7-d617-4f56-bfcd-af2215c347ba
 author: TerryGLee
 ms.author: tglee
-manager: douge
+manager: jillfra
 ms.workload:
   - "dotnet"
 ---
 # Tutorial: Create a simple application with C#
 
 By completing this walkthrough, you'll become familiar with many of the tools, dialog boxes, and designers that you can use when you develop applications with Visual Studio. You'll create a "Hello, World" application, design the UI, add code, and debug errors, while you learn about working in the integrated development environment ([IDE](visual-studio-ide.md)).
+
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) page to install it for free.
 
 ## Configure the IDE
 
@@ -270,5 +270,4 @@ Congratulations on completing this tutorial! You can find the *.exe* you built u
 
 ## See also
 
-- [What's new in Visual Studio 2017](../../ide/whats-new-in-visual-studio.md)
 - [Productivity tips](../../ide/productivity-tips-for-visual-studio.md)

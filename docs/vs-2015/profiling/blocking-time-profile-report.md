@@ -1,14 +1,9 @@
 ---
 title: "Blocking Time Profile Report | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.cv.threads.report.blocking"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ ms.assetid: 3bc45af0-3ba6-4fa3-a336-be8e9ae95107
 caps.latest.revision: 21
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Blocking Time Profile Report
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -62,6 +57,3 @@ The Profile Reports provide aggregate blocking time data for call stacks that ar
   
 ## See Also  
  [Threads View](../profiling/threads-view-parallel-performance.md)
-
-
-

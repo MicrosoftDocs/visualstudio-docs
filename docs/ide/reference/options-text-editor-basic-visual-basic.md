@@ -1,7 +1,6 @@
 ---
 title: Options, Text Editor, Basic (VB), Advanced
 ms.date: 01/16/2019
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Visual_Basic.Editor"
@@ -16,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 5a8cafca-f7b4-4a2d-92ce-6894a7673d00
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -34,18 +33,18 @@ The **VB Specific** property page, in the **Basic** folder of the **Text Editor*
 - Place 'System' directives first when sorting usings
 
    When selected, the **Remove and Sort Usings** command in the right-click menu sorts the `using` directives and places the 'System' namespaces at the top of the list.
-   
+
 - Separate using directive groups
 
    When selected, the **Remove and Sort Usings** command in the right-click menu separates `using` directives by inserting an empty line between groups of directives that have the same root namespace.
-   
-- Suggest usings for types in reference assemblies 
-- Suggest usings for types in NuGet packages 
+
+- Suggest usings for types in reference assemblies
+- Suggest usings for types in NuGet packages
 
    When these options are selected, a [Quick Action](../quick-actions.md) is available to install a NuGet package and add a `using` directive for unreferenced types.
 
    ![Quick Action to install NuGet package in Visual Studio](media/nuget-lightbulb.png)
-  
+
 
 ## Highlighting
 
@@ -71,7 +70,7 @@ The text editor indicates visual scope of procedures. A line is drawn in the *.v
 
 ## Block Structure Guides
 
-Select these check boxes to display dotted vertical lines between curly brackets (**{}**) in your code. Doing so lets you easily see individual blocks of code for your declaration level and code level constructs.
+When selected, vertical lines appear in the editor that line up with structured code blocks, which lets you easily identify the individual blocks of code. For example, you would see a line between `Sub` and `EndSub` in a `Sub` statement.
 
 ## Editor Help
 

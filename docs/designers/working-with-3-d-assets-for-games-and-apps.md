@@ -1,14 +1,13 @@
 ---
 title: Working with 3D Assets for Games and Apps
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
   - "vs.graphics"
 ms.assetid: 910d673b-c884-4eeb-9928-0e89f3d38cb6
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

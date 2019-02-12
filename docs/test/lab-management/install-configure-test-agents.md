@@ -1,13 +1,12 @@
 ---
 title: "Install test agents and test controllers"
 ms.date: 10/24/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "configure test agents, test lab"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

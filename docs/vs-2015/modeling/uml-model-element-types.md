@@ -1,19 +1,16 @@
 ---
 title: "UML model element types | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "UML API, types"
 ms.assetid: 25345a53-7246-4eb7-8ad9-0b695aa171a2
 caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # UML model element types
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -195,6 +192,3 @@ Classes.IElement
  [Define a profile to extend UML](../modeling/define-a-profile-to-extend-uml.md)   
  [Define validation constraints for UML models](../modeling/define-validation-constraints-for-uml-models.md)   
  [API Reference for UML Modeling Extensibility](../modeling/api-reference-for-uml-modeling-extensibility.md)
-
-
-

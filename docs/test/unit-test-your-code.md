@@ -1,14 +1,13 @@
 ---
 title: "Unit Testing"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "Visual Studio, unit tests"
   - "unit tests, verifying code with"
   - "testing code, automated tests"
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 author: gewarren

@@ -1,7 +1,6 @@
 ---
 title: "Access data in documents on the server"
 ms.date: 02/02/2017
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 dev_langs:
   - "VB"
@@ -11,7 +10,7 @@ helpviewer_keywords:
   - "data access [Office development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
   - "office"
 ---

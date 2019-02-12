@@ -1,7 +1,6 @@
 ---
 title: Security and Localized Satellite Assemblies
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "key pairs for strong-named assemblies"
@@ -15,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 6d953840-b301-47d5-8d34-30c1b29b5071
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

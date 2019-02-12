@@ -4,11 +4,10 @@ titleSuffix: ""
 description: "Learn how to repair an installation of Visual Studio 2017"
 ms.date: 01/15/2019
 ms.custom: "seodec18"
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: PoulChapman
 ms.author: tglee
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

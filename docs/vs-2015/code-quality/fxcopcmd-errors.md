@@ -8,7 +8,7 @@ helpviewer_keywords:
   - "FxCopCmd errors"
 ms.author: gewarren
 author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

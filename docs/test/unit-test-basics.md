@@ -1,13 +1,12 @@
 ---
 title: "Unit Test Basics"
 ms.date: 2016-01-07
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
   - "vs.UnitTest.CreateUnitTest"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

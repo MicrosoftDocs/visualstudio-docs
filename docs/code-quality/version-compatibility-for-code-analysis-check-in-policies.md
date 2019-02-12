@@ -1,7 +1,6 @@
 ---
 title: Version Compatibility for Code Analysis Check-In Policies
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "version compatibility, code analysis check-in policy"
@@ -9,7 +8,7 @@ helpviewer_keywords:
 ms.assetid: 1af376e3-3be7-4445-803b-76a858567a5b
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

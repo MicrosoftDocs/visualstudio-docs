@@ -1,7 +1,6 @@
 ---
 title: "CA1012: Abstract types should not have constructors"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "AbstractTypesShouldNotHaveConstructors"
@@ -11,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 09f458ac-dd88-4cd7-a47f-4106c1e80ece
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CSharp
  - VB

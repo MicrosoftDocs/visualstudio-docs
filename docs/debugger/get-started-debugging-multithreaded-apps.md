@@ -12,19 +12,15 @@ dev_langs:
 helpviewer_keywords: 
   - "multithreaded debugging, tutorial"
   - "tutorials, multithreaded debugging"
-ms.assetid: 62df746b-b0f6-4df4-83cf-b1d9d2e72833
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: jillfra
 ms.workload: 
   - "multiple"
 ---
 # Get started debugging multithreaded applications (C#, Visual Basic, C++)
-Visual Studio provides several tools and user interface elements to help you debug multithreaded applications. This tutorial shows how to use thread markers, the **Parallel Stacks** window, the **Parallel Watch** window, conditional breakpoints, and filter breakpoints. Completing this tutorial will familiarize you with Visual Studio features for debugging multithreaded applications.
 
-| | |
-|---------|---------|
-| ![movie camera icon for video](../install/media/video-icon.png "Watch a video") | [Watch a video](https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Debugging-Multi-threaded-Apps-in-Visual-Studio-2017-MoZPKMD6D_111787171) on multithreaded debugging that shows similar steps. |
+Visual Studio provides several tools and user interface elements to help you debug multithreaded applications. This tutorial shows how to use thread markers, the **Parallel Stacks** window, the **Parallel Watch** window, conditional breakpoints, and filter breakpoints. Completing this tutorial will familiarize you with Visual Studio features for debugging multithreaded applications.
 
 These two topics provide additional information on using other multithreaded debugging tools:
 
@@ -100,39 +96,37 @@ You'll first need a multithreaded application project. An example follows.
     ```
 
     ```C++
-    #include "stdafx.h"
+    #include "pch.h"
     #include <thread>
     #include <iostream>
     #include <vector>
-
-    using namespace;
 
     int count = 0;
 
     void doSomeWork() {
 
-        cout << "The doSomeWork function is running on another thread." << endl;
+        std::cout << "The doSomeWork function is running on another thread." << std::endl;
         int data = count++;
         // Pause for a moment to provide a delay to make
         // threads more apparent.
-        this_thread::sleep_for(chrono::seconds(3));
-        cout << "The function called by the worker thread has ended." << endl;
+        std::this_thread::sleep_for(std::chrono::seconds(3));
+        std::cout << "The function called by the worker thread has ended." << std::endl;
     }
 
     int main() {
-        vector<thread> threads;
+        std::vector<std::thread> threads;
 
         for (int i = 0; i < 10; ++i) {
 
-            threads.push_back(thread(doSomeWork));
-            cout << "The Main() thread calls this after starting the new thread" << endl;
-        }
+            threads.push_back(std::thread(doSomeWork));
+            std::cout << "The Main() thread calls this after starting the new thread" << std::endl;
+    }
 
-        for (auto& thread : threads) {
-            thread.join();
-        }
+    for (auto& thread : threads) {
+        thread.join();
+    }
 
-        return 0;
+    return 0;
     }
     ```
 
@@ -188,6 +182,8 @@ You'll first need a multithreaded application project. An example follows.
     ```
   
 7.  On the **File** menu, select **Save All**.  
+
+8. (Visual Basic only) In Solution Explorer (right pane), right-click the project node, choose **Properties**. Under the **Application** tab, change the **Startup object** to **Simple**.
   
 ## Debug the multithreaded app  
   
@@ -199,8 +195,8 @@ You'll first need a multithreaded application project. An example follows.
     ```  
   
     ```C++  
-    this_thread::sleep_for(chrono::seconds(3));
-    cout << "The function called by the worker thread has ended." << endl; 
+    std::this_thread::sleep_for(std::chrono::seconds(3));
+    std::cout << "The function called by the worker thread has ended." << std::endl; 
     ```  
 
     ```VB
@@ -208,7 +204,7 @@ You'll first need a multithreaded application project. An example follows.
     Console.WriteLine()
     ```
 
-1. Left-click in the left gutter of the `Thread.Sleep` or `this_thread::sleep_for` statement to insert a new breakpoint.  
+1. Left-click in the left gutter of the `Thread.Sleep` or `std::this_thread::sleep_for` statement to insert a new breakpoint.  
   
     In the gutter, a red circle indicates that a breakpoint is set at this location. 
   
@@ -336,7 +332,8 @@ You can set breakpoints on different conditions, such as the thread name or the 
     > [!NOTE]
     > When you advance the debugger, all threads will run. However, the debugger won't break into code on other threads unless one of the other threads hits a breakpoint. 
   
-## See also  
+## See also
+
 [Debug multithreaded applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)  
 [How to: Switch to another thread while debugging](../debugger/how-to-switch-to-another-thread-while-debugging.md)  
 [How to: Use the Parallel Stack window](../debugger/using-the-parallel-stacks-window.md)  

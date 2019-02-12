@@ -1,14 +1,9 @@
 ---
 title: "How to: Debug the OnStart Method | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -24,7 +19,7 @@ ms.assetid: b06b5d65-424b-490f-bf58-97583cd7006a
 caps.latest.revision: 19
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Debug the OnStart Method
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -57,6 +52,3 @@ You can debug a Windows service by starting the service and attaching the debugg
 ## See Also  
  [Debugger Security](../debugger/debugger-security.md)   
  [Debugging Managed Code](../debugger/debugging-managed-code.md)
-
-
-

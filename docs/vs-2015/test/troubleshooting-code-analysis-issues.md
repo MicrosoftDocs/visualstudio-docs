@@ -1,19 +1,14 @@
 ---
 title: "Troubleshooting Code Analysis Issues | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: troubleshooting
 ms.assetid: 61c7e44d-2780-4df5-9bcb-49e40c1152fc
 caps.latest.revision: 7
 author: "erickson-doug"
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Troubleshooting Code Analysis Issues
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,6 +30,3 @@ This topic contains troubleshooting information for the following Visual Studio 
  [Analyzing Application Quality](../code-quality/analyzing-application-quality-by-using-code-analysis-tools.md)   
  [Analyzing Managed Code Quality](../code-quality/analyzing-managed-code-quality-by-using-code-analysis.md)   
  [Using Rule Sets to Group Code Analysis Rules](../code-quality/using-rule-sets-to-group-code-analysis-rules.md)
-
-
-

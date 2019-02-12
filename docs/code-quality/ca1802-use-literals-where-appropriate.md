@@ -1,7 +1,6 @@
 ---
 title: "CA1802: Use Literals Where Appropriate"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "UseLiteralsWhereAppropriate"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 2515e4cd-9e61-486d-b067-58ba1a743ce4
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CSharp
  - VB

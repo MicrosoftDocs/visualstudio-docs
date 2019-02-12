@@ -1,7 +1,6 @@
 ---
 title: "CA1801: Review unused parameters"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "AvoidUnusedParameters"
@@ -13,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: 5d73545c-e153-4b7c-a7b2-be6bf5aca5be
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

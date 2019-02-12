@@ -1,10 +1,9 @@
 ---
 title: "Enable Coded UI Testing of Your Controls"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 author: gewarren

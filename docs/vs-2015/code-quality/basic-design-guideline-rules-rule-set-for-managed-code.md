@@ -1,14 +1,9 @@
 ---
 title: "Basic Design Guideline Rules rule set for managed code | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 ms.assetid: 7eb384f5-f961-400b-b151-115d92addc6a
 caps.latest.revision: 13
 author: gewarren
@@ -168,6 +163,3 @@ You can use the Microsoft Basic Design Guideline Rules rule set to focus on maki
 |[CA2230](../code-quality/ca2230-use-params-for-variable-arguments.md)|Use params for variable arguments|  
 |[CA2234](../code-quality/ca2234-pass-system-uri-objects-instead-of-strings.md)|Pass System.Uri objects instead of strings|  
 |[CA2239](../code-quality/ca2239-provide-deserialization-methods-for-optional-fields.md)|Provide deserialization methods for optional fields|
-
-
-

@@ -1,7 +1,6 @@
 ---
 title: "Build Office solutions"
 ms.date: 02/02/2017
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 dev_langs:
   - "VB"
@@ -24,7 +23,7 @@ helpviewer_keywords:
   - "Office solutions [Office development in Visual Studio], debugging"
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
   - "office"
 ---

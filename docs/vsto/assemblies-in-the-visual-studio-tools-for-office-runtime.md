@@ -2,7 +2,6 @@
 title: "Assemblies in the Visual Studio Tools for Office runtime"
 titleSuffix: ""
 ms.date: 02/02/2017
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 dev_langs: 
   - "VB"
@@ -11,7 +10,7 @@ helpviewer_keywords:
   - "Visual Studio Tools for Office runtime, assemblies"
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload: 
   - "office"
 ---

@@ -1,7 +1,6 @@
 ---
 title: "CA2108: Review declarative security on value types"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "ReviewDeclarativeSecurityOnValueTypes"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: d62bffdd-3826-4d52-a708-1c646c5d48c2
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

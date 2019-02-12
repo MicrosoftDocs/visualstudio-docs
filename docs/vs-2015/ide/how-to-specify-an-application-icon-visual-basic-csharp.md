@@ -1,14 +1,9 @@
 ---
 title: "How to: Specify an Application Icon (Visual Basic, C#) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "icons [Visual Studio], application"
   - "application properties [Visual Studio], icons"
@@ -17,7 +12,7 @@ ms.assetid: ad8e14ed-adc2-45b6-a0be-818b16d5616f
 caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Specify an Application Icon (Visual Basic, C#)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -45,7 +40,4 @@ The `Icon` property for a project specifies the icon file (.ico) that will be di
  [Application Page, Project Designer (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md)   
  [Application Page, Project Designer (C#)](../ide/reference/application-page-project-designer-csharp.md)   
  [Managing Application Properties](../ide/application-properties.md)  
- [How to: Add or Remove Resources](http://msdn.microsoft.com/en-us/7b77bc06-3952-4799-b029-def3f8f7f88d)
-
-
-
+ [How to: Add or Remove Resources](http://msdn.microsoft.com/7b77bc06-3952-4799-b029-def3f8f7f88d)

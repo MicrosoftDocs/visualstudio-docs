@@ -1,14 +1,13 @@
 ---
 title: Startup, Environment, Options Dialog Box
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Environment.Startup"
 ms.assetid: 9d517203-3c62-4660-b7b4-ea7d032dcb1e
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

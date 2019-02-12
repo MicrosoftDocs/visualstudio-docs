@@ -1,14 +1,9 @@
 ---
 title: "Visual Studio Integration (MSBuild) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 helpviewer_keywords: 
   - "MSBuild, reference resolution"
   - "MSBuild, well-known target names"
@@ -23,7 +18,7 @@ ms.assetid: 06cd6d7f-8dc1-4e49-8a72-cc9e331d7bca
 caps.latest.revision: 26
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Visual Studio Integration (MSBuild)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -55,7 +50,7 @@ Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' 
  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] looks at the conditions on `PropertyGroup`, `ItemGroup`, `Import`, property, and item elements for this purpose.  
   
 ## Additional Build Actions  
- [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] allows you to change the item type name of a file in a project with the **Build Action** property of the [File Properties](http://msdn.microsoft.com/en-us/013c4aed-08d6-4dce-a124-ca807ca08959) window. `Compile`, `EmbeddedResource`, `Content`, and `None` item type names are always listed in this menu, along with any other item type names already in your project. To ensure any custom item type names are always available in this menu, you can add the names to an item type named `AvailableItemName`. For example, adding the following to your project file will add the custom type `JScript` to this menu for all projects that import it:  
+ [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] allows you to change the item type name of a file in a project with the **Build Action** property of the [File Properties](http://msdn.microsoft.com/013c4aed-08d6-4dce-a124-ca807ca08959) window. `Compile`, `EmbeddedResource`, `Content`, and `None` item type names are always listed in this menu, along with any other item type names already in your project. To ensure any custom item type names are always available in this menu, you can add the names to an item type named `AvailableItemName`. For example, adding the following to your project file will add the custom type `JScript` to this menu for all projects that import it:  
   
 ```  
 <ItemGroup>  
@@ -191,6 +186,3 @@ Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' 
  [Target Element (MSBuild)](../msbuild/target-element-msbuild.md)   
  [Csc Task](../msbuild/csc-task.md)   
  [Vbc Task](../msbuild/vbc-task.md)
-
-
-

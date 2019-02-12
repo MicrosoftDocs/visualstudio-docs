@@ -7,7 +7,7 @@ ms.topic: "conceptual"
 ms.devlang: javascript
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: jillfra
 dev_langs:
   - JavaScript
 ms.workload:
@@ -171,6 +171,7 @@ An unknown issue with the vue-cli 3.0 prevents automating the build process. Eac
 * Running the command `npm run build` as a pre-build event on the project properties doesn't work when using vue-cli 3.0.
 
 ## See also
-https://vuejs.org/v2/guide - Vue get started guide.  
-https://github.com/vuejs/vue-cli - Vue CLI project.  
-https://webpack.js.org/configuration/ - Webpack configuration documentation.
+
+- [Vue get started guide](https://vuejs.org/v2/guide).
+- [Vue CLI project](https://github.com/vuejs/vue-cli(.
+- [Webpack configuration documentation](https://webpack.js.org/configuration/).

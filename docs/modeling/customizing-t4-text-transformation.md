@@ -7,10 +7,9 @@ helpviewer_keywords:
   - "text templates, custom hosts"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
 ---
 # Customize T4 Text Transformation
 

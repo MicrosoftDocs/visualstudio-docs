@@ -1,7 +1,6 @@
 ---
 title: Environment Options Dialog Box
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "VS.OptionsDialog.Environment"
@@ -9,7 +8,7 @@ f1_keywords:
 ms.assetid: 3f463cf0-734b-4fdc-b4ff-b47f9bb99069
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

@@ -1,7 +1,6 @@
 ---
 title: "CA2230: Use params for variable arguments"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "UseParamsForVariableArguments"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: bf98b733-4855-4110-9f16-eba5a9e79421
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

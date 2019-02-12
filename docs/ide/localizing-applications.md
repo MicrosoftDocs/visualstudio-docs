@@ -1,7 +1,6 @@
 ---
 title: Localizing Applications
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "Visual Basic code, international applications"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 879c20e0-8301-4f44-b520-97283848c965
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

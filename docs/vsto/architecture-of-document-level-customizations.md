@@ -1,7 +1,6 @@
 ---
 title: "Architecture of document-Level customizations"
 ms.date: 02/02/2017
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 dev_langs: 
   - "VB"
@@ -17,7 +16,7 @@ helpviewer_keywords:
   - "architecture [Office development in Visual Studio], document-level customizations"
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload: 
   - "office"
 ---

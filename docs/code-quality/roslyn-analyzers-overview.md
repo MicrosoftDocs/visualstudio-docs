@@ -1,7 +1,6 @@
 ---
 title: Code analysis using Roslyn analyzers
 ms.date: 03/26/2018
-ms.prod: visual-studio-dev15
 ms.topic: overview
 helpviewer_keywords:
   - "code analysis, managed code"
@@ -9,7 +8,7 @@ helpviewer_keywords:
   - "Roslyn analyzers"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "dotnet"
 ---

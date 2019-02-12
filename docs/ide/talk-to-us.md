@@ -1,8 +1,6 @@
 ---
 title: "Talk to us"
 ms.date: 10/09/2018
-ms.prod: visual-studio-dev15
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "product support [Visual Studio]"
@@ -10,7 +8,7 @@ helpviewer_keywords:
 ms.assetid: e0846d4d-2ce1-48e3-b219-674ff070bf4e
 author: TerryGLee
 ms.author: tglee
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

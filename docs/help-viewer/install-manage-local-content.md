@@ -1,7 +1,6 @@
 ---
 title: Install local help documentation
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
   - "hv_manage"
@@ -21,7 +20,7 @@ helpviewer_keywords:
 ms.assetid: efd9df4c-2e69-4c50-992c-9678a8d8cf19
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

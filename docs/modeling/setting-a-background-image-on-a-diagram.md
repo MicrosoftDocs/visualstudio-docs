@@ -4,10 +4,9 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
 ---
 # Setting a Background Image on a Diagram
 In Visual Studio Visualization and Modeling SDK, you can set the background image for a generated designer by using custom code.
