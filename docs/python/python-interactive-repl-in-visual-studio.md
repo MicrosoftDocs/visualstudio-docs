@@ -31,10 +31,6 @@ This article describes the **Standard** and **Debug** REPL modes. For details on
 
 For a detailed walkthrough with examples, including the interactions with the editor such as **Ctrl**+**Enter**, see [Tutorial Step 3: Use the Interactive REPL window](tutorial-working-with-python-in-visual-studio-step-03-interactive-repl.md).
 
-|   |   |
-|---|---|
-| ![movie camera icon for video](../install/media/video-icon.png "Watch a video") | [Watch a video (Microsoft Virtual Academy)](https://mva.microsoft.com/en-US/training-courses-embed/python-tools-for-visual-studio-2017-18121/Video-Python-Interactive-Window-gJYKY5LWE_4605918567) on the **Interactive** window (2m 22s).|
-
 ## Open an Interactive window
 
 There are several ways to open the **Interactive** window for an environment.
