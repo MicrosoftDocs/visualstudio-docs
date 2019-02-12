@@ -21,7 +21,7 @@ The following table lists the build numbers and release dates for Visual Studio 
 
 | **Version**| **Channel** | **Release date** | **Build version** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
-| 15.9.7| Release | February 12, 2019 | 15.9.28307.423 |
+| 15.9.7 | Release | February 12, 2019 | 15.9.28307.423 |
 | 15.9.6 | Release | January 24, 2019 | 15.9.28307.344 |
 | 15.9.5 | Release | January 8, 2019 | 15.9.28307.280 |
 | 15.9.4 | Release | December 11, 2018 | 15.9.28307.222 |
