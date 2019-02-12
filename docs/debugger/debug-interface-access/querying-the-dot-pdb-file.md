@@ -80,7 +80,7 @@ A program database file (extension .pdb) is a binary file that contains type and
     CComPtr< IDiaTable > pTable;
     while ( SUCCEEDED( hr = pTables->Next( 1, &pTable, &celt ) ) && celt == 1 )
     {
-         // Do something with each IDiaTable.
+        // Do something with each IDiaTable.
     }
     ```
 
