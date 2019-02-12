@@ -135,8 +135,6 @@ The freed blocks kept unused in the debug heap's linked list when the `_CRTDBG_D
 New objects (0xCD)
 New objects are filled with 0xCD when they are allocated.
 
-![Back to top](../debugger/media/pcs_backtotop.png "PCS_BackToTop")
-
 ![Back to top](../debugger/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)
 
 ## <a name="BKMK_Types_of_blocks_on_the_debug_heap"></a> Types of blocks on the debug heap
