@@ -11,7 +11,6 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
 ---
 # Properties of Port Shapes
 You can use port shapes to represent domain classes in the generated designer.

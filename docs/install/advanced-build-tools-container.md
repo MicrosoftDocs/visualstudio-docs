@@ -2,7 +2,6 @@
 title: "Advanced example for containers"
 description: ""
 ms.date: 04/18/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.assetid: e03835db-a616-41e6-b339-92b41d0cfc70
 author: heaths

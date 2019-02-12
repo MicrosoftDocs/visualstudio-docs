@@ -229,6 +229,8 @@
           href: ide/how-to-update-existing-templates.md
         - name: Substitute parameters in a template
           href: ide/how-to-substitute-parameters-in-a-template.md
+        - name: Template parameters
+          href: ide/template-parameters.md
       - name: 64-bit support
         href: ide/visual-studio-ide-64-bit-support.md
     - name: Develop without projects or solutions ("Open Folder")
@@ -718,10 +720,6 @@
       href: ide/creating-applications-in-bi-directional-languages.md
 - name: Reference
   items:
-  - name: Project and Item Templates
-    items:
-    - name: Template Parameters
-      href: ide/template-parameters.md
   - name: General User Interface Elements
     items:
     - name: Call Hierarchy

@@ -9,7 +9,6 @@ f1_keywords:
 manager: jillfra
 author: gewarren
 ms.author: gewarren
-ms.prod: visual-studio-dev15
 ---
 # F1 help
 

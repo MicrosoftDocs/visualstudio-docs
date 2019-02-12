@@ -7,7 +7,6 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
 ---
 # Multiple DSLs in One Solution
 You can package several DSLs as part of a single solution so that they are installed together.

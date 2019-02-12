@@ -1,7 +1,6 @@
 ---
 title: Troubleshooting Quality Tools
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: troubleshooting
 helpviewer_keywords:
   - "Visual Studio ALM, developing the application"

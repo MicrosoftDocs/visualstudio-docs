@@ -2,7 +2,6 @@
 title: "Report a problem"
 description: "Provides an overview of the Report a Problem tool, and includes problem states and definitions"
 ms.date: 11/15/2018
-ms.prod: visual-studio-dev15
 ms.custom: "seodec18"
 ms.topic: conceptual
 author: seaniyer

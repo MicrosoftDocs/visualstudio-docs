@@ -1,7 +1,6 @@
 ---
 title: Options, Text Editor, JavaScript, Formatting
 ms.date: 10/29/2018
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.JavaScript.Formatting.Spacing"

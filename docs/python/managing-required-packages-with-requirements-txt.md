@@ -2,7 +2,6 @@
 title: Manage package dependencies with a requirements.txt file
 description: A requirements.txt file describes a project's dependencies. If you receive a project that contains a requirements.txt file, you can easily install those dependencies in one step.
 ms.date: 01/28/2019
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb

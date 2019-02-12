@@ -1,7 +1,6 @@
 ---
 title: Code Analysis for C/C++ Overview
 ms.date: 04/28/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "annotations, code analysis"

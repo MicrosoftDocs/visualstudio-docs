@@ -1,7 +1,6 @@
 ---
 title: Quick Actions, light bulbs, and screwdrivers
 ms.date: 03/28/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren

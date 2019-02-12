@@ -1,7 +1,6 @@
 ---
 title: "CA2112: Secured types should not expose fields"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "CA2112"

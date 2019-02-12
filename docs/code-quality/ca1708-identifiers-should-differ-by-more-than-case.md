@@ -1,7 +1,6 @@
 ---
 title: "CA1708: Identifiers should differ by more than case"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "IdentifiersShouldDifferByMoreThanCase"

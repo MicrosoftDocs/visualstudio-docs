@@ -16,4 +16,4 @@ By signing-in, you enable access to all the services associated with your user a
 ## In this section
 
 * [Signing in to Visual Studio for Mac](signing-in.md)
-* [Enable Subscription](activation.md)
+* [Enable Subscription](enable-subscription.md)

@@ -2,8 +2,6 @@
 title: "How to: Use the keyboard exclusively"
 description: "Learn how to use default shortcut key combinations to make it easy to navigate and code within the Visual Studio integrated development environment (IDE)."
 ms.date: 08/22/2016
-ms.prod: visual-studio-dev15
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "Toolbox, shortcut keys"

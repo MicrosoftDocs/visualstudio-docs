@@ -1,7 +1,6 @@
 ---
 title: Help Viewer administrator guide
 ms.date: 11/01/2017
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.assetid: 4340c69f-b96b-4932-bb82-38b16a5ab149
 author: gewarren

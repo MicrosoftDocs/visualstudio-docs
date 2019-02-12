@@ -4,7 +4,6 @@ description: Learn how to use Cloud Explorer to browse and manage Azure resource
 author: ghogen
 manager: jillfra
 assetId: 6347dc53-f497-49d5-b29b-e8b9f0e939d7
-ms.prod: visual-studio-dev15
 ms.custom: vs-azure
 ms.workload: azure-vs
 ms.topic: conceptual
