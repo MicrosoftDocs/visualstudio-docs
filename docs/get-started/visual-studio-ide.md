@@ -302,9 +302,21 @@ First, let's rename the `name` variable:
 
    Notice that a gray box appears around the variable, and a light bulb appears in the margin.
 
+::: moniker range="vs-2017"
+
 3. Select the light bulb icon to show the available [Quick Actions](../ide/quick-actions.md). Select **Rename 'name' to 'username'**.
 
    ![Rename action in Visual Studio](media/rename-quick-action.png)
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+3. Select the light bulb icon to show the available [Quick Actions](../ide/quick-actions.md). Select **Rename 'name' to 'username'**.
+
+   ![Rename action in Visual Studio](media/vs-2019/rename-quick-action.png)
+
+::: moniker-end
 
    The variable is renamed across the project, which in our case is only two places.
 
@@ -340,9 +352,21 @@ First, let's rename the `name` variable:
 
 9. Click **Inline temporary variable** to refactor the code.
 
+::: moniker range="vs-2017"
+
 10. Run the program again by pressing **Ctrl**+**F5**. The output looks something like this:
 
    ![Console window with program output](media/overview-console-final.png)
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+10. Run the program again by pressing **Ctrl**+**F5**. The output looks something like this:
+
+   ![Console window with program output](media/vs-2019/overview-console-final.png)
+
+::: moniker-end
 
 ## Debug code
 
@@ -376,11 +400,25 @@ You can personalize the Visual Studio user interface, including change the defau
 
 1. On the menu bar, choose **Tools** > **Options** to open the **Options** dialog.
 
+::: moniker range="vs-2017"
+
 2. On the **Environment** > **General** options page, change the **Color theme** selection to **Dark**, and then choose **OK**.
 
    The color theme for the entire IDE changes to **Dark**.
 
    ![Visual Studio in dark theme](media/dark-theme.png)
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+2. On the **Environment** > **General** options page, change the **Color theme** selection to **Dark**, and then choose **OK**.
+
+   The color theme for the entire IDE changes to **Dark**.
+
+   ![Visual Studio in dark theme](media/vs-2019/dark-theme.png)
+
+::: moniker-end
 
 To learn about other ways you can personalize the IDE, see [Personalize Visual Studio](../ide/personalizing-the-visual-studio-ide.md).
 
