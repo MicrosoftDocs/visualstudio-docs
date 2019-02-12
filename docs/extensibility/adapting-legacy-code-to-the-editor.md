@@ -131,12 +131,12 @@ If you have an existing managed code component that does not use MEF and you wan
 
     ```
     componentModel =
-     (IComponentModel)Package.GetGlobalService(typeof(SComponentModel));
+        (IComponentModel)Package.GetGlobalService(typeof(SComponentModel));
     ```
 
 4. After this, you can get any one of the Visual Studio editor services by calling the `IComponentModel.GetService<T>()` method for the service you want.
 
     ```
     textBufferFactoryService =
-         componentModel.GetService<ITextBufferFactoryService>();
+        componentModel.GetService<ITextBufferFactoryService>();
     ```
