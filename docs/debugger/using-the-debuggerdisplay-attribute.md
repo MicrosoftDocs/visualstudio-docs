@@ -75,10 +75,10 @@ public sealed class MyClass
     public int count { get; set; }
     public bool flag { get; set; }
     private string DebuggerDisplay
-   {
+    {
         get
         {
-             return string.Format("Object {0}", count - 2);
+            return string.Format("Object {0}", count - 2);
         }
     }
 }
