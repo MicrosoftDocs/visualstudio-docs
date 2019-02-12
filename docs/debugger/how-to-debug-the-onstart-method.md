@@ -29,7 +29,7 @@ You can debug a Windows service by starting the service and attaching the debugg
     protected override void OnStart(string[] args)
     {
         System.Diagnostics.Debugger.Launch();
-     }
+    }
     ```
 
 2. Start the service (you can use `net start`, or start it in the **Services** window).
