@@ -32,8 +32,8 @@ An easier way to debug a visualizer is to run the visualizer from a test driver.
     ```csharp
     public static void TestShowVisualizer(object objectToVisualize)
     {
-       VisualizerDevelopmentHost myHost = new VisualizerDevelopmentHost(objectToVisualize, typeof(DebuggerSide));
-       myHost.ShowVisualizer();
+        VisualizerDevelopmentHost myHost = new VisualizerDevelopmentHost(objectToVisualize, typeof(DebuggerSide));
+        myHost.ShowVisualizer();
     }
     ```
 
