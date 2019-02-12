@@ -34,7 +34,7 @@ Change MainWindow.xaml to the following:
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:local="clr-namespace:TestXAML"
     mc:Ignorable="d"
-     Title="MainWindow" Height="350" Width="525">
+    Title="MainWindow" Height="350" Width="525">
     <Grid>
         <Button x:Name="button" Background="LightBlue" Content="Add Item" HorizontalAlignment="Left" Margin="216,206,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
         <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Margin="205,80,0,0"/>
