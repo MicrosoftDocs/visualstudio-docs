@@ -135,10 +135,10 @@ A console app takes input and displays output in a command-line window, a.k.a. a
 Congratulations on completing this tutorial! To learn even more, see the following tutorial.
 
 > [!div class="nextstepaction"]
-> [Video tutorial: Visual Basic fundamentals for absolute beginners](https://mva.microsoft.com/en-us/training-courses/visual-basic-fundamentals-for-absolute-beginners-16507)
+> [Build a library with Visual Basic and the .NET Core SDK in Visual Studio](/dotnet/core/tutorials/vb-library-with-visual-studio)
 
 ## See also
 
-* [What's new in Visual Basic](/dotnet/visual-basic/getting-started/whats-new)
-* [IntelliSense for Visual Basic code files](../../ide/visual-basic-specific-intellisense.md)
+* [Visual Basic language walkthroughs](/dotnet/visual-basic/walkthroughs)
 * [Visual Basic language reference](/dotnet/visual-basic/language-reference/index)
+* [IntelliSense for Visual Basic code files](../../ide/visual-basic-specific-intellisense.md)

@@ -66,10 +66,6 @@ To the right of each listed environment is a control that opens an **Interactive
 > [!Note]
 > Although Visual Studio respects the system-site-packages option, it doesn't provide a way to change it from within Visual Studio.
 
-|   |   |
-|---|---|
-| ![movie camera icon for video](../install/media/video-icon.png "Watch a video") | [Watch a video (Microsoft Virtual Academy)](https://mva.microsoft.com/en-US/training-courses/python-tools-for-visual-studio-2017-18121?l=qrDmN4LWE_8305918567) on Python environments in Visual Studio (2m 35s).|
-
 ### What if no environments appear?
 
 If no environments appear, it means Visual Studio failed to detect any Python installations in standard locations. For example, you may have installed Visual Studio 2017 but cleared all the interpreter options in the installer options for the Python workload. Similarly, you may have installed Visual Studio 2015 or earlier but did not install an interpreter manually (see [Install Python interpreters](installing-python-interpreters.md)).

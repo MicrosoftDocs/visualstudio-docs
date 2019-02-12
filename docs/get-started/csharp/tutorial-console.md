@@ -527,5 +527,4 @@ Congratulations on completing this tutorial! To learn even more, continue with t
 
 ## See also
 
-* [Video course: C# Fundamentals for Absolute Beginners](https://mva.microsoft.com/en-us/training-courses/c-fundamentals-for-absolute-beginners-16169)
 * [Learn to debug C# code in Visual Studio](tutorial-debugger.md)
