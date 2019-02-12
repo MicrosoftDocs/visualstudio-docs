@@ -79,7 +79,7 @@ sections:
         src: https://docs.microsoft.com/en-us/media/logos/logo_html5.svg
       text: HTML/Razor
       href: ~/razor.md
-- title: Writing code with Visual Studio for Mac
+- title: Write code with Visual Studio for Mac
   items:
   - type: paragraph
     text: Learn more about using Visual Studio to write, compile, debug, and store your code.
@@ -89,10 +89,10 @@ sections:
     columns: 3
     items:
     - href: ~/source-editor.md
-      html: <p>Make the most of the Visual Studio code editor</p>
+      html: <p>Intellisense, refactoring, and syntax highlighting for you favorite language.</p>
       image:
         src: https://docs.microsoft.com/media/common/i_code-edit.svg
-      title: Writing and editing code
+      title: Write code
     - href: ~/compiling-and-building.md
       html: <p>Configure your compiler and build your app.</p>
       image:
