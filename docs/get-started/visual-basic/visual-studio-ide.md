@@ -155,7 +155,7 @@ To change to the **Dark** theme:
 
 1. On the Start window, choose **Continue without code**.
 
-   ![Start window in Visual Studio 2019](media/2019/continue-without-code.png)
+   ![Start window in Visual Studio 2019](media/vs-2019/continue-without-code.png)
 
    The IDE opens.
 
