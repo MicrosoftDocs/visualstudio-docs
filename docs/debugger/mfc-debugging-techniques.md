@@ -170,14 +170,14 @@ Before you can use the memory diagnostics facilities, you must enable diagnostic
         // The next object is a heap object.
         CPerson* p = new CPerson( "Smith", "Alan", "581-0215" );
 
-   #ifdef _DEBUG
+    #ifdef _DEBUG
         newMemState.Checkpoint();
         if( diffMemState.Difference( oldMemState, newMemState ) )
         {
             TRACE( "Memory leaked!\n" );
         }
-   #endif
-   ```
+    #endif
+    ```
 
     Notice that the memory-checking statements are bracketed by **#ifdef _DEBUG / #endif** blocks so that they are compiled only in Debug versions of your program.
 
@@ -193,8 +193,8 @@ Consider the following example:
 ```cpp
 if( diffMemState.Difference( oldMemState, newMemState ) )
 {
-   TRACE( "Memory leaked!\n" );
-   diffMemState.DumpStatistics();
+    TRACE( "Memory leaked!\n" );
+    diffMemState.DumpStatistics();
 }
 ```
 
@@ -234,8 +234,8 @@ The following code tests for a memory leak by comparing two memory states and du
 ```cpp
 if( diffMemState.Difference( oldMemState, newMemState ) )
 {
-   TRACE( "Memory leaked!\n" );
-   diffMemState.DumpAllObjectsSince();
+    TRACE( "Memory leaked!\n" );
+    diffMemState.DumpAllObjectsSince();
 }
 ```
 
