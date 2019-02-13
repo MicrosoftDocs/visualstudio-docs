@@ -1,6 +1,6 @@
 ---
 title: Overview for C# developers
-ms.date: 11/15/2018
+ms.date: 03/19/2019
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.custom: get-started
