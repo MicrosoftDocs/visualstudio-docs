@@ -186,18 +186,18 @@ Starting in Visual Studio 2015, you do not install the Visual Studio SDK from th
             Guid clsid = Guid.Empty;
             int result;
             uiShell.ShowMessageBox(
-                       0,
-                       ref clsid,
-                       "Test Tool Window Toolbar Package",
-                       string.Format(CultureInfo.CurrentCulture,
-                                     "You selected {0}", selection),
-                       string.Empty,
-                       0,
-                       OLEMSGBUTTON.OLEMSGBUTTON_OK,
-                       OLEMSGDEFBUTTON.OLEMSGDEFBUTTON_FIRST,
-                       OLEMSGICON.OLEMSGICON_INFO,
-                       0,
-                       out result);
+                    0,
+                    ref clsid,
+                    "Test Tool Window Toolbar Package",
+                    string.Format(CultureInfo.CurrentCulture,
+                                 "You selected {0}", selection),
+                    string.Empty,
+                    0,
+                    OLEMSGBUTTON.OLEMSGBUTTON_OK,
+                    OLEMSGDEFBUTTON.OLEMSGDEFBUTTON_FIRST,
+                    OLEMSGICON.OLEMSGICON_INFO,
+                    0,
+                    out result);
         }
     }
     ```
