@@ -6,7 +6,7 @@ ms.assetid: 52f12785-1c51-4c2c-8228-c8e10316cd83
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "vssdk"
 ---
 # Add a Language Server Protocol extension
@@ -83,9 +83,9 @@ textDocument/rename | yes
 ## Getting started
 
 > [!NOTE]
-> Starting with Visual Studio 15.8 Preview 3, support for the common Language Server Protocol is built into Visual Studio.  If you've built LSP extensions using our preview [Language Server Client VSIX](https://marketplace.visualstudio.com/items?itemName=vsext.LanguageServerClientPreview) version, they will stop working once to you've upgraded to 15.8 Preview 3 or higher.  You will need to do the following to get your LSP extensions working again:
+> Starting with Visual Studio 15.8 Preview 3, support for the common Language Server Protocol is built into Visual Studio. If you've built LSP extensions using our preview [Language Server Client VSIX](https://marketplace.visualstudio.com/items?itemName=vsext.LanguageServerClientPreview) version, they will stop working once to you've upgraded to 15.8 Preview 3 or higher. You will need to do the following to get your LSP extensions working again:
 >
-> 1. Uninstall the Microsoft Visual Studio Language Server Protocol Preview VSIX.  Starting with 15.8 Preview 4, every time you perform an upgrade in Visual Studio, we will automatically detect and remove the preview VSIX for you during the upgrade process.
+> 1. Uninstall the Microsoft Visual Studio Language Server Protocol Preview VSIX. Starting with 15.8 Preview 4, every time you perform an upgrade in Visual Studio, we will automatically detect and remove the preview VSIX for you during the upgrade process.
 >
 > 2. Update your Nuget reference to the latest non-preview version for [LSP packages](https://www.nuget.org/packages/Microsoft.VisualStudio.LanguageServer.Client).
 >
@@ -340,7 +340,7 @@ Follow these steps below to add support for settings to your LSP language servic
    }
    ```
    ### Enabling diagnostics tracing
-   Diagnostics tracing can be enabled to output all messages between the client and server, which can be useful when debugging issues.  To enable diagnostic tracing, do the following:
+   Diagnostics tracing can be enabled to output all messages between the client and server, which can be useful when debugging issues. To enable diagnostic tracing, do the following:
 
 4. Open or create the workspace settings file *VSWorkspaceSettings.json* (see "User editing of settings for a workspace").
 5. Add the following line in the settings json file:
@@ -356,7 +356,7 @@ There are three possible values for trace verbosity:
 * "Messages": tracing turned on but only method name and response ID are traced.
 * "Verbose": tracing turned on; the entire rpc message is traced.
 
-When tracing is turned on the content is written to a file in the *%temp%\VisualStudio\LSP* directory.  The log follows the naming format *[LanguageClientName]-[Datetime Stamp].log*.  Currently, tracing can only be enabled for open folder scenarios.  Opening a single file to activate a language server does not have diagnostics tracing support.
+When tracing is turned on the content is written to a file in the *%temp%\VisualStudio\LSP* directory. The log follows the naming format *[LanguageClientName]-[Datetime Stamp].log*. Currently, tracing can only be enabled for open folder scenarios. Opening a single file to activate a language server does not have diagnostics tracing support.
 
 ### Custom messages
 
@@ -419,7 +419,7 @@ internal class MockCustomLanguageClient : MockLanguageClient, ILanguageClientCus
     }
 
     public async Task SendServerCustomNotification(object arg)
-    {    
+    {
         await this.customMessageRpc.NotifyWithParameterObjectAsync("OnCustomNotification", arg);
     }
 
