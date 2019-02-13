@@ -89,7 +89,7 @@ sections:
     columns: 3
     items:
     - href: ~/source-editor.md
-      html: <p>Intellisense, refactoring, and syntax highlighting for you favorite language.</p>
+      html: <p>Intellisense, refactoring, and syntax highlighting for your favorite language.</p>
       image:
         src: https://docs.microsoft.com/media/common/i_code-edit.svg
       title: Write code
