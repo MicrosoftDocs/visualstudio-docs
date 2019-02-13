@@ -123,10 +123,10 @@ The LSP does not include specification on how to provide text colorization for l
 
 4. Create a *.pkgdef* file and add a line similar to this:
 
-   ```xml
-   [$RootKey$\TextMate\Repositories]
-   "MyLang"="$PackageFolder$\Grammars"
-   ```
+    ```xml
+    [$RootKey$\TextMate\Repositories]
+    "MyLang"="$PackageFolder$\Grammars"
+    ```
 
 5. Right-click on the files and select **Properties**. Change the **Build** action to **Content** and the **Include in VSIX** property to true.
 
@@ -286,31 +286,31 @@ Follow these steps below to add support for settings to your LSP language servic
 
 1. Add a JSON file (for example, *MockLanguageExtensionSettings.json*) in your project that contains the settings and their default values. For example:
 
-   ```json
-   {
-    "foo.maxNumberOfProblems": -1
-   }
-   ```
+    ```json
+    {
+        "foo.maxNumberOfProblems": -1
+    }
+    ```
 2. Right-click on the JSON file and select **Properties**. Change the **Build** action to "Content" and the "Include in VSIX' property to true.
 
 3. Implement ConfigurationSections and return the list of prefixes for the settings defined in the JSON file (In Visual Studio Code, this would map to the configuration section name in package.json):
 
-   ```csharp
-   public IEnumerable<string> ConfigurationSections
-   {
-      get
-      {
-          yield return "foo";
-      }
-   }
-   ```
+    ```csharp
+    public IEnumerable<string> ConfigurationSections
+    {
+        get
+        {
+            yield return "foo";
+        }
+    }
+    ```
 
 4. Add a .pkgdef file to the project (add new text file and change the file extension to .pkgdef). The pkgdef file should contain this info:
 
-   ```xml
+    ```xml
     [$RootKey$\OpenFolder\Settings\VSWorkspaceSettings\[settings-name]]
     @="$PackageFolder$\[settings-file-name].json"
-   ```
+    ```
 
     Sample:
     ```xml
@@ -334,13 +334,13 @@ Follow these steps below to add support for settings to your LSP language servic
 2. User adds a file in the *.vs* folder called *VSWorkspaceSettings.json*.
 3. User adds a line to the *VSWorkspaceSettings.json* file for a setting the server provides. For example:
 
-   ```json
-   {
-    "foo.maxNumberOfProblems": 10
-   }
-   ```
-   ### Enabling diagnostics tracing
-   Diagnostics tracing can be enabled to output all messages between the client and server, which can be useful when debugging issues. To enable diagnostic tracing, do the following:
+    ```json
+    {
+        "foo.maxNumberOfProblems": 10
+    }
+    ```
+    ### Enabling diagnostics tracing
+    Diagnostics tracing can be enabled to output all messages between the client and server, which can be useful when debugging issues. To enable diagnostic tracing, do the following:
 
 4. Open or create the workspace settings file *VSWorkspaceSettings.json* (see "User editing of settings for a workspace").
 5. Add the following line in the settings json file:
