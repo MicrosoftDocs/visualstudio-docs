@@ -20,31 +20,31 @@ Contains the information required to implement a breakpoint.
 
 ```cpp
 typedef struct _BP_REQUEST_INFO {
-   BPREQI_FIELDS   dwFields;
-   GUID            guidLanguage;
-   BP_LOCATION     bpLocation;
-   IDebugProgram2* pProgram;
-   BSTR            bstrProgramName;
-   IDebugThread2*  pThread;
-   BSTR            bstrThreadName;
-   BP_CONDITION    bpCondition;
-   BP_PASSCOUNT    bpPassCount;
-   BP_FLAGS        dwFlags;
+    BPREQI_FIELDS   dwFields;
+    GUID            guidLanguage;
+    BP_LOCATION     bpLocation;
+    IDebugProgram2* pProgram;
+    BSTR            bstrProgramName;
+    IDebugThread2*  pThread;
+    BSTR            bstrThreadName;
+    BP_CONDITION    bpCondition;
+    BP_PASSCOUNT    bpPassCount;
+    BP_FLAGS        dwFlags;
 } BP_REQUEST_INFO;
 ```
 
 ```csharp
 public struct BP_REQUEST_INFO {
-   public uint           dwFields;
-   public Guid           guidLanguage;
-   public BP_LOCATION    bpLocation;
-   public IDebugProgram2 pProgram;
-   public string         bstrProgramName;
-   public IDebugThread2  pThread;
-   public string         bstrThreadName;
-   public BP_CONDITION   bpCondition;
-   public BP_PASSCOUNT   bpPassCount;
-   public uint           dwFlags;
+    public uint           dwFields;
+    public Guid           guidLanguage;
+    public BP_LOCATION    bpLocation;
+    public IDebugProgram2 pProgram;
+    public string         bstrProgramName;
+    public IDebugThread2  pThread;
+    public string         bstrThreadName;
+    public BP_CONDITION   bpCondition;
+    public BP_PASSCOUNT   bpPassCount;
+    public uint           dwFlags;
 };
 ```
 
