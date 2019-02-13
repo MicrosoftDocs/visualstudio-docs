@@ -47,7 +47,7 @@ The first thing you'll notice when you open Visual Studio 2019 is its new start 
 
 This new start window presents you with options to clone or check out code, open a project or solution, open a local folder, or create a new project. Having these options presented in a simple dialog helps both beginners and advanced Visual Studio users get to code quickly.
 
-For more information, see the [Get to code: How we designed the new Visual Studio start window](https://blogs.msdn.microsoft.com/visualstudio/2018/12/13/get-to-code-how-we-designed-the-new-visual-studio-start-window/) blog post.
+For more information, see the [Get to code: How we designed the new Visual Studio start window](https://devblogs.microsoft.com/visualstudio/get-to-code-how-we-designed-the-new-visual-studio-start-window/) blog post.
 
 ### Better search
 
@@ -75,7 +75,7 @@ You can also format how a value is displayed within the Watch, Locals, and Autos
 
    ![The new Watch window and format values feature in Visual Studio 2019](media/search-watch-window.png)
 
-For more information, see the [Enhanced in Visual Studio 2019: Search for Objects and Properties in the Watch, Autos, and Locals Windows](https://blogs.msdn.microsoft.com/visualstudio/2019/01/28/enhanced-in-visual-studio-2019-search-for-objects-and-properties-in-the-watch-autos-and-locals-windows/) blog post.
+For more information, see the [Enhanced in Visual Studio 2019: Search for Objects and Properties in the Watch, Autos, and Locals Windows](https://devblogs.microsoft.com/visualstudio/enhanced-in-visual-studio-2019-search-for-objects-and-properties-in-the-watch-autos-and-locals-windows/) blog post.
 
 ### Visual Studio Live Share
 
@@ -85,7 +85,7 @@ And with Visual Studio 2019 Preview, this service is installed by default.
 
    ![An animated GIF file that shows the Live Share collaboration feature in Visual Studio 2019](media/live-share-collaboration.gif)
 
-For more information, see the [Visual Studio Live Share for real-time code reviews and interactive education](https://blogs.msdn.microsoft.com/visualstudio/2018/12/06/visual-studio-live-share-for-real-time-code-reviews-and-interactive-education/) blog post.
+For more information, see the [Visual Studio Live Share for real-time code reviews and interactive education](https://devblogs.microsoft.com/visualstudio/visual-studio-live-share-for-real-time-code-reviews-and-interactive-education/) blog post.
 
 ## Modern development support
 
@@ -116,7 +116,7 @@ With the release of Visual Studio 2019 Preview, we are taking the first steps to
 
    ![Per-monitor aware (PMA) rendering in Visual Studio 2019](media/per-monitor-aware-dpi-scaling.png)
 
-For more information, see the [Better multi-monitor experience with Visual Studio 2019](https://blogs.msdn.microsoft.com/visualstudio/2019/02/07/a-better-multi-monitor-experience-with-visual-studio-2019/) blog post.
+For more information, see the [Better multi-monitor experience with Visual Studio 2019](https://devblogs.microsoft.com/visualstudio/a-better-multi-monitor-experience-with-visual-studio-2019/) blog post.
 
 ### Visual Studio IntelliCode
 
@@ -135,7 +135,7 @@ We initially supported only C# when we first previewed the IntelliCode extension
 
 And if you're using C#, we've also added the ability to train a custom model on your own code.
 
-For more information about the recent updates, see the [Visual Studio IntelliCode supports more languages and learns from your code](https://blogs.msdn.microsoft.com/visualstudio/2018/12/05/visual-studio-intellicode-supports-more-languages-and-learns-from-your-code/) blog post. And, for more information about the extension and how to download it, see the [Visual Studio IntelliCode - Preview](https://go.microsoft.com/fwlink/?linkid=872707) page on Microsoft DevLabs.
+For more information about the recent updates, see the [Visual Studio IntelliCode supports more languages and learns from your code](https://devblogs.microsoft.com/visualstudio/visual-studio-intellicode-supports-more-languages-and-learns-from-your-code/) blog post. And, for more information about the extension and how to download it, see the [Visual Studio IntelliCode - Preview](https://go.microsoft.com/fwlink/?linkid=872707) page on Microsoft DevLabs.
 
 ## Give us feedback
 
