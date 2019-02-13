@@ -203,36 +203,12 @@ Let's dive in and create a simple program.
 
    ![File > New Project on menu bar](media/file-new-project-menu.png)
 
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
-   ![File > New Project on menu bar](media/vs-2019/file-new-project.png)
-
-::: moniker-end
-
-::: moniker range="vs-2017"
-
-2. The **New Project** dialog box shows several project *templates*. A template contains the basic files and settings needed for a given project type. Choose the **.NET Core** category under **Visual Basic**, and then choose the **Console App (.NET Core)** template. In the **Name** text box, type **HelloWorld**, and then select the **OK** button.
+1. The **New Project** dialog box shows several project *templates*. A template contains the basic files and settings needed for a given project type. Choose the **.NET Core** category under **Visual Basic**, and then choose the **Console App (.NET Core)** template. In the **Name** text box, type **HelloWorld**, and then select the **OK** button.
 
    ![.NET Core app template](media/overview-npd.png)
 
    > [!NOTE]
    > If you don't see the **.NET Core** category, you need to install the **.NET Core cross-platform development** workload. To do this, choose the **Open Visual Studio Installer** link on the bottom left of the **New Project** dialog. After Visual Studio Installer opens, scroll down and select the **.NET Core cross-platform development** workload, and then select **Modify**.
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
-2. The **Create a new project** window opens and shows several project *templates*. A template contains the basic files and settings needed for a given project type. To find the template we want, type or enter **.net core console** in the search box. The list of available templates is automatically filtered based on the keywords you entered. You can further filter the template results by choosing **Visual Basic** from the **Language** drop-down list. Select the **Console App (.NET Core)** template, and then choose **Next**.
-
-    ![Create a new project in Visual Studio](media/vs-2019/create-new-project.png)
-
-3. In the **Configure your new project** window, enter **HelloWorld** in the **Project name** box, optionally change the directory location for your project files, and then choose **Create**.
-
-   ![Configure new project in Visual Studio](media/vs-2019/configure-new-project.png)
-
-::: moniker-end
 
    Visual Studio creates the project. It's a simple "Hello World" application that calls the <xref:System.Console.WriteLine?displayProperty=nameWithType> method to display the literal string "Hello World!" in the console (program output) window.
 
@@ -246,9 +222,7 @@ Let's dive in and create a simple program.
 
    There are other menus and tool windows available, but let's move on for now.
 
-::: moniker range="vs-2017"
-
-3. Now, start the app. You can do this by choosing **Start Without Debugging** from the **Debug** menu on the menu bar. You can also press **Ctrl**+**F5**.
+1. Now, start the app. You can do this by choosing **Start Without Debugging** from the **Debug** menu on the menu bar. You can also press **Ctrl**+**F5**.
 
    ![Debug > Start without debugging menu](../media/overview-start-without-debugging.png)
 
@@ -260,7 +234,31 @@ Let's dive in and create a simple program.
 
 ::: moniker range=">=vs-2019"
 
-3. Now, start the app. You can do this by choosing **Start Without Debugging** from the **Debug** menu on the menu bar. You can also press **Ctrl**+**F5**.
+1. On the menu bar, choose **File** > **New Project**.
+
+   ![File > New Project on menu bar](media/vs-2019/file-new-project.png)
+
+1. The **Create a new project** window opens and shows several project *templates*. A template contains the basic files and settings needed for a given project type. To find the template we want, type or enter **.net core console** in the search box. The list of available templates is automatically filtered based on the keywords you entered. You can further filter the template results by choosing **Visual Basic** from the **Language** drop-down list. Select the **Console App (.NET Core)** template, and then choose **Next**.
+
+    ![Create a new project in Visual Studio](media/vs-2019/create-new-project.png)
+
+1. In the **Configure your new project** window, enter **HelloWorld** in the **Project name** box, optionally change the directory location for your project files, and then choose **Create**.
+
+   ![Configure new project in Visual Studio](media/vs-2019/configure-new-project.png)
+
+   Visual Studio creates the project. It's a simple "Hello World" application that calls the <xref:System.Console.WriteLine?displayProperty=nameWithType> method to display the literal string "Hello World!" in the console (program output) window.
+
+   Shortly, you should see something like the following:
+
+   ![Visual Studio IDE](media/overview-ide-console-app.png)
+
+   The Visual Basic code for the app appears in the editor window, which takes up most of the space. Notice that the text is automatically colorized to indicate different parts of the code, such as keywords and types. In addition, small, vertical dashed lines in the code indicate which braces match one another, and line numbers help you locate code later. You can choose the small, boxed minus signs to collapse or expand blocks of code. This code outlining feature lets you hide code you don't need, helping to minimize onscreen clutter. The project files are listed on the right side in a window called **Solution Explorer**.
+
+   ![Visual Studio IDE with red boxes](media/overview-ide-console-app-red-boxes.png)
+
+   There are other menus and tool windows available, but let's move on for now.
+
+1. Now, start the app. You can do this by choosing **Start Without Debugging** from the **Debug** menu on the menu bar. You can also press **Ctrl**+**F5**.
 
    ![Debug > Start without debugging menu](media/vs-2019/start-without-debugging.png)
 
@@ -270,9 +268,9 @@ Let's dive in and create a simple program.
 
 ::: moniker-end
 
-4. To close the console window, press any key on your keyboard.
+1. To close the console window, press any key on your keyboard.
 
-5. Let's add some additional code to the app. Add the following Visual Basic code before the line that says `Console.WriteLine("Hello World!")`:
+1. Let's add some additional code to the app. Add the following Visual Basic code before the line that says `Console.WriteLine("Hello World!")`:
 
    ```vb
    Console.WriteLine("What is your name?")
@@ -281,19 +279,19 @@ Let's dive in and create a simple program.
 
    This code displays **What is your name?** in the console window, and then waits until the user enters some text followed by the **Enter** key.
 
-6. Change the line that says `Console.WriteLine("Hello World!")` to the following code:
+1. Change the line that says `Console.WriteLine("Hello World!")` to the following code:
 
    ```vb
    Console.WriteLine("Hello " + name + "!")
    ```
 
-7. Run the app again by pressing **Ctrl**+**F5**.
+1. Run the app again by pressing **Ctrl**+**F5**.
 
    Visual Studio rebuilds the app, and a console window opens and prompts you for your name.
 
 ::: moniker range="vs-2017"
 
-8. Enter your name in the console window and press **Enter**.
+1. Enter your name in the console window and press **Enter**.
 
    ![Console window input](../media/overview-console-input.png)
 
@@ -301,13 +299,13 @@ Let's dive in and create a simple program.
 
 ::: moniker range=">=vs-2019"
 
-8. Enter your name in the console window and press **Enter**.
+1. Enter your name in the console window and press **Enter**.
 
    ![Console window](../media/vs-2019/overview-console-input.png)
 
 ::: moniker-end
 
-9. Press any key to close the console window and stop the running program.
+1. Press any key to close the console window and stop the running program.
 
 ## Use refactoring and IntelliSense
 
@@ -364,7 +362,7 @@ First, let's rename the `name` variable:
 
 10. Run the program again by pressing **Ctrl**+**F5**. The output looks something like this:
 
-   ![Console window with program output](../media/overview-console-final.png)
+    ![Console window with program output](../media/overview-console-final.png)
 
 ::: moniker-end
 
@@ -372,7 +370,7 @@ First, let's rename the `name` variable:
 
 10. Run the program again by pressing **Ctrl**+**F5**. The output looks something like this:
 
-   ![Console window with program output](../media/vs-2019/overview-console-final.png)
+    ![Console window with program output](../media/vs-2019/overview-console-final.png)
 
 ::: moniker-end
 
