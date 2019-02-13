@@ -92,7 +92,7 @@ Just My Code in C++ considers only these functions to be non-user code:
   
 - For stepping behavior:
   
-  - Behavior matches the **Call Stack** window if you compile your project using the MSVC compilers in 15.8 Preview 3 or later, including customization support using *\*.natjmc* files (see [Customize C++ call stack behavior](#BKMK_CPP_Customize_call_stack_behavior)). For code compiled using older compilers, *.natstepfilter* files are the only way to customize code stepping, which is independent of Just My Code. See [Customize C++ stepping behavior](#BKMK_CPP_Customize_stepping_behavior)
+  - Behavior matches the **Call Stack** window if you compile your project using the MSVC compilers in 15.8 Preview 3 or later, including customization support using *\*.natjmc* files (see [Customize C++ call stack behavior](#BKMK_CPP_Customize_call_stack_behavior)). For additional details, see this [blog post](https://blogs.msdn.microsoft.com/vcblog/2018/06/29/announcing-jmc-stepping-in-visual-studio/). For code compiled using older compilers, *.natstepfilter* files are the only way to customize code stepping, which is independent of Just My Code. See [Customize C++ stepping behavior](#BKMK_CPP_Customize_stepping_behavior)
 
 <a name="BKMK_CPP_Stepping_behavior"></a>
 During C++ debugging:
@@ -106,9 +106,9 @@ If the debugger breaks in non-user code (for example, you use **Debug** > **Brea
 
 If the debugger hits an exception, it stops on the exception, whether it is in user or non-user code. **User-unhandled** options in the **Exception Settings** dialog box are ignored.   
   
-###  <a name="BKMK_CPP_Customize_call_stack_behavior"></a> Customize C++ call stack behavior  
+###  <a name="BKMK_CPP_Customize_call_stack_behavior"></a> Customize C++ call stack and code stepping behavior  
 
-For C++ projects, you can specify the modules, source files, and functions the **Call Stack** window treats as non-user code by specifying them in *\*.natjmc* files.  
+For C++ projects, you can specify the modules, source files, and functions the **Call Stack** window treats as non-user code by specifying them in *\*.natjmc* files. This customization also applies to code stepping unless you are using older compilers (see [C++ Just My Code](#BKMK_CPP_User_and_non_user_code)).
   
 -   To specify non-user code for all users of the Visual Studio machine, add the *.natjmc* file to the *%VsInstallDirectory%\Common7\Packages\Debugger\Visualizers* folder.  
 -   To specify non-user code for an individual user, add the *.natjmc* file to the *%USERPROFILE%\My Documents\Visual Studio 2017\Visualizers* folder.  
