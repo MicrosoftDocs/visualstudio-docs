@@ -75,10 +75,10 @@ namespace EEMC
 
                 // Get property from field.
                 CFieldProperty fieldProperty =
-                    new CFieldProperty(provider, address, binder, field[0]);
+                        new CFieldProperty(provider, address, binder, field[0]);
 
                 DEBUG_PROPERTY_INFO[] property =
-                                new DEBUG_PROPERTY_INFO[1];
+                        new DEBUG_PROPERTY_INFO[1];
                 fieldProperty.GetPropertyInfo((uint) infoFlags, radix, 0, null, 0, property);
                 properties[fetched++] = property[0];
             }
