@@ -55,16 +55,6 @@ Some of the popular features in Visual Studio that help you to be more productiv
 
    ![Squiggles in Visual Studio](media/squiggles-error.png)
 
-::: moniker range=">=vs-2019"
-
-- Code Cleanup
-
-   With the click of a button, format your code and apply any code fixes suggested by your [code style settings](../../ide/reference/options-text-editor-csharp-formatting.md), [.editorconfig conventions](../../ide/create-portable-custom-editor-options.md), and [Roslyn analyzers](../../code-quality/roslyn-analyzers-overview.md). **Code Cleanup** helps you resolve issues in your code before it goes to code review.
-
-   ![Code Cleanup button in Visual Studio](../media/vs-2019/code-cleanup.png)
-
-::: moniker-end
-
 - [Refactoring](../../ide/refactoring-in-visual-studio.md)
 
    Refactoring includes operations such as intelligent renaming of variables, extracting one or more lines of code into a new method, changing the order of method parameters, and more.
