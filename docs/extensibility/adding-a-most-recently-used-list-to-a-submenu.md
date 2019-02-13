@@ -48,7 +48,7 @@ To follow this walkthrough, you must install the Visual Studio SDK. For more inf
 
     ```cpp
     <Group guid="guidTestCommandPackageCmdSet" id="MRUListGroup"
-           priority="0x0100">
+            priority="0x0100">
         <Parent guid="guidTestCommandPackageCmdSet" id="SubMenu"/>
     </Group>
 
@@ -64,7 +64,7 @@ To follow this walkthrough, you must install the Visual Studio SDK. For more inf
         <Strings>
             <CommandName>cmdidMRUList</CommandName>
             <ButtonText>MRU Placeholder</ButtonText>
-                </Strings>
+        </Strings>
     </Button>
     ```
 
