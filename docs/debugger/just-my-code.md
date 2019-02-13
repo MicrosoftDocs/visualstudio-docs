@@ -77,10 +77,10 @@ If first chance exceptions are enabled for the exception, the calling user-code 
 
 ##  <a name="BKMK_C___Just_My_Code"></a> C++ Just My Code  
   
-In C++, enabling Just My Code is the same as using the [/JMC (Just my code debugging)](/cpp/build/reference/jmc) compiler switch.
+Starting in Visual Studio 2017 version 15.8, enabling C++ Just My Code also requires use of the [/JMC (Just my code debugging)](/cpp/build/reference/jmc) compiler switch. The switch is enabled by default.
 
 <a name="BKMK_CPP_User_and_non_user_code"></a>
-Just My Code is different in C++ than in .NET Framework and JavaScript, because you can specify non-user files separately for stepping behavior and the **Call Stack** window. 
+Just My Code is different in C++ than in .NET Framework and JavaScript, because you can specify non-user code separately for stepping behavior and the **Call Stack** window. 
 
 Just My Code in C++ considers only these functions to be non-user code:
 
@@ -88,13 +88,11 @@ Just My Code in C++ considers only these functions to be non-user code:
 
   - Functions with stripped source information in their symbols file.  
   - Functions where the symbol files indicate that there is no source file corresponding to the stack frame.  
-  - Functions specified in *\*.natjmc* files in the *%VsInstallDirectory%\Common7\Packages\Debugger\Visualizers* folder.  
+  - Functions specified in *\*.natjmc* files in the *%VsInstallDirectory%\Common7\Packages\Debugger\Visualizers* folder. See [Customize C++ call stack behavior](#BKMK_CPP_Customize_call_stack_behavior). 
   
 - For stepping behavior:
   
-  - Functions specified in *\*.natstepfilter* files in the *%VsInstallDirectory%\Common7\Packages\Debugger\Visualizers* folder.  
-  
-You can create *.natstepfilter* and *.natjmc* files to customize Just My Code stepping behavior and the **Call Stack** window. See [Customize C++ stepping behavior](#BKMK_CPP_Customize_stepping_behavior) and [Customize C++ call stack behavior](#BKMK_CPP_Customize_call_stack_behavior). 
+  - Behavior matches the **Call Stack** window if you compile your project using the MSVC compilers in 15.8 Preview 3 or later, including customization support using *\*.natjmc* files (see [Customize C++ call stack behavior](#BKMK_CPP_Customize_call_stack_behavior)). For code compiled using older compilers, *.natstepfilter* files are the only way to customize code stepping, which is independent of Just My Code. See [Customize C++ stepping behavior](#BKMK_CPP_Customize_stepping_behavior)
 
 <a name="BKMK_CPP_Stepping_behavior"></a>
 During C++ debugging:
@@ -106,39 +104,7 @@ If there's no more user code, debugging continues until it ends, hits another br
 
 If the debugger breaks in non-user code (for example, you use **Debug** > **Break All** and pause in non-user code), stepping continues in the non-user code.
 
-If the debugger hits an exception, it stops on the exception, whether it is in user or non-user code. **User-unhandled** options in the **Exception Settings** dialog box are ignored.  
-
-###  <a name="BKMK_CPP_Customize_stepping_behavior"></a> Customize C++ stepping behavior  
-
- In C++ projects, you can specify functions to step over by listing them as non-user code in *\*.natstepfilter* files.  
-  
-- To specify non-user code for all local Visual Studio users, add the *.natstepfilter* file to the *%VsInstallDirectory%\Common7\Packages\Debugger\Visualizers* folder.  
-- To specify non-user code for an individual user, add the *.natstepfilter* file to the *%USERPROFILE%\My Documents\Visual Studio 2017\Visualizers* folder.  
-  
-A *.natstepfilter* file is an XML file with this syntax:  
-  
-```xml  
-<?xml version="1.0" encoding="utf-8"?>  
-<StepFilter xmlns="http://schemas.microsoft.com/vstudio/debugger/natstepfilter/2010">  
-    <Function>  
-        <Name>FunctionSpec</Name>  
-        <Action>StepAction</Action>  
-    </Function>  
-    <Function>  
-        <Name>FunctionSpec</Name>  
-        <Module>ModuleSpec</Module>  
-        <Action>StepAction</Action>  
-    </Function>  
-</StepFilter>  
-  
-```  
-  
-|Element|Description|  
-|-------------|-----------------|  
-|`Function`|Required. Specifies one or more functions as non-user functions.|  
-|`Name`|Required. An ECMA-262 formatted regular expression specifying the full function name to match. For example:<br /><br /> `<Name>MyNS::MyClass.*</Name>`<br /><br /> tells the debugger that all methods in `MyNS::MyClass` are to be considered non-user code. The match is case-sensitive.|  
-|`Module`|Optional. An ECMA-262 formatted regular expression specifying the full path to the module containing the function. The match is case-insensitive.|  
-|`Action`|Required. One of these case-sensitive values:<br /><br /> `NoStepInto`  - tells the debugger to step over the function.<br /> `StepInto`  - tells the debugger to step into the function, overriding any other `NoStepInto` for the matched function.|  
+If the debugger hits an exception, it stops on the exception, whether it is in user or non-user code. **User-unhandled** options in the **Exception Settings** dialog box are ignored.   
   
 ###  <a name="BKMK_CPP_Customize_call_stack_behavior"></a> Customize C++ call stack behavior  
 
@@ -189,6 +155,38 @@ A *.natjmc* file is an XML file with this syntax:
 |`Name`|Required. The fully qualified name of the function to treat as external code.|  
 |`Module`|Optional. The name or full path to the module that contains the function. You can use this attribute to disambiguate functions with the same name.|  
 |`ExceptionImplementation`|When set to `true`, the call stack displays the function that threw the exception rather than this function.|  
+
+###  <a name="BKMK_CPP_Customize_stepping_behavior"></a> Customize C++ stepping behavior independent of Just My Code settings
+
+In C++ projects, you can specify functions to step over by listing them as non-user code in *\*.natstepfilter* files. Functions listed in *\*.natstepfilter* files are not dependent on Just My Code settings.
+  
+- To specify non-user code for all local Visual Studio users, add the *.natstepfilter* file to the *%VsInstallDirectory%\Common7\Packages\Debugger\Visualizers* folder.  
+- To specify non-user code for an individual user, add the *.natstepfilter* file to the *%USERPROFILE%\My Documents\Visual Studio 2017\Visualizers* folder.  
+  
+A *.natstepfilter* file is an XML file with this syntax:  
+  
+```xml  
+<?xml version="1.0" encoding="utf-8"?>  
+<StepFilter xmlns="http://schemas.microsoft.com/vstudio/debugger/natstepfilter/2010">  
+    <Function>  
+        <Name>FunctionSpec</Name>  
+        <Action>StepAction</Action>  
+    </Function>  
+    <Function>  
+        <Name>FunctionSpec</Name>  
+        <Module>ModuleSpec</Module>  
+        <Action>StepAction</Action>  
+    </Function>  
+</StepFilter>  
+  
+```  
+  
+|Element|Description|  
+|-------------|-----------------|  
+|`Function`|Required. Specifies one or more functions as non-user functions.|  
+|`Name`|Required. An ECMA-262 formatted regular expression specifying the full function name to match. For example:<br /><br /> `<Name>MyNS::MyClass.*</Name>`<br /><br /> tells the debugger that all methods in `MyNS::MyClass` are to be considered non-user code. The match is case-sensitive.|  
+|`Module`|Optional. An ECMA-262 formatted regular expression specifying the full path to the module containing the function. The match is case-insensitive.|  
+|`Action`|Required. One of these case-sensitive values:<br /><br /> `NoStepInto`  - tells the debugger to step over the function.<br /> `StepInto`  - tells the debugger to step into the function, overriding any other `NoStepInto` for the matched function.| 
   
 ##  <a name="BKMK_JavaScript_Just_My_Code"></a> JavaScript Just My Code  
 
