@@ -20,22 +20,22 @@ Specifies the structure of the breakpoint resolution location.
 
 ```cpp
 struct _BP_RESOLUTION_LOCATION {
-   BP_TYPE bpType;
-   union {
-      BP_RESOLUTION_CODE bpresCode;
-      BP_RESOLUTION_DATA bpresData;
-      int                unused;
-   } bpResLocation;
+    BP_TYPE bpType;
+    union {
+        BP_RESOLUTION_CODE bpresCode;
+        BP_RESOLUTION_DATA bpresData;
+        int                unused;
+    } bpResLocation;
 } BP_RESOLUTION_LOCATION;
 ```
 
 ```csharp
 public struct BP_RESOLUTION_LOCATION {
-   public uint bpType;
-   public IntPtr unionmember1;
-   public IntPtr unionmember2;
-   public IntPtr unionmember3;
-   public uint   unionmember4;
+    public uint   bpType;
+    public IntPtr unionmember1;
+    public IntPtr unionmember2;
+    public IntPtr unionmember3;
+    public uint   unionmember4;
 };
 ```
 
@@ -90,14 +90,14 @@ namespace MyPackage
         {
             if (bprl.bpType == (uint)enum_BP_TYPE.BPT_CODE)
             {
-                 IDebugCodeContext2 pContext = (IDebugCodeContext2)Marshal.GetObjectForIUnknown(bp.unionmember1);
+                IDebugCodeContext2 pContext = (IDebugCodeContext2)Marshal.GetObjectForIUnknown(bp.unionmember1);
             }
             else if (bprl.bpType == (uint)enum_BP_TYPE.BPT_DATA)
             {
-                 string dataExpression = Marshal.PtrToStringBSTR(bp.unionmember3);
-                 string functionName = Marshal.PtrToStringBSTR(bp.unionmember2);
-                 string imageName = Marshal.PtrToStringBSTR(bp.unionmember3);
-                 enum_BP_RES_DATA_FLAGS numElements = (enum_BP_RES_DATA_FLAGS)bp.unionmember4;
+                string dataExpression = Marshal.PtrToStringBSTR(bp.unionmember3);
+                string functionName = Marshal.PtrToStringBSTR(bp.unionmember2);
+                string imageName = Marshal.PtrToStringBSTR(bp.unionmember3);
+                enum_BP_RES_DATA_FLAGS numElements = (enum_BP_RES_DATA_FLAGS)bp.unionmember4;
             }
         }
     }
