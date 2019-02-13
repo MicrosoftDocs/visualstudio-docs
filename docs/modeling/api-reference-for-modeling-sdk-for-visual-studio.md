@@ -7,7 +7,6 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
 ---
 # API Reference for Modeling SDK for Visual Studio
 

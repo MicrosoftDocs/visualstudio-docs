@@ -9,7 +9,6 @@ ms.assetid: d1c10fb9-cfeb-4e7f-9991-2d1e1103699e
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.prod: visual-studio-dev15
 ---
 # Walkthrough: Using the Virtual User Activity Chart to isolate issues
 

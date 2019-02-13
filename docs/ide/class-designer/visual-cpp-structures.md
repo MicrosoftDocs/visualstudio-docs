@@ -1,7 +1,6 @@
 ---
 title: Visual C++ Structures in Class Designer
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "Class Designer [Visual Studio], structures"

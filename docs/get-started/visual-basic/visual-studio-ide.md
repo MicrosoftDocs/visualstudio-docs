@@ -1,7 +1,6 @@
 ---
 title: Overview for Visual Basic developers
 ms.date: 11/15/2018
-ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.custom: get-started
 ms.topic: conceptual
@@ -292,4 +291,3 @@ Explore Visual Studio further by following along with one of these introductory 
 - Discover [more Visual Studio features](../../ide/advanced-feature-overview.md)
 - Visit [visualstudio.microsoft.com](https://visualstudio.microsoft.com/vs/)
 - Read [The Visual Studio blog](https://blogs.msdn.microsoft.com/visualstudio/)
-- Check out the free Visual Studio courses at [Microsoft Virtual Academy](https://mva.microsoft.com/product-training/visual-studio-courses#!index=2&lang=1033)

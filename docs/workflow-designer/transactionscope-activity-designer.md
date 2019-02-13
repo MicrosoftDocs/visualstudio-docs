@@ -2,7 +2,6 @@
 title: "Workflow Designer - TransactionScope Activity Designer"
 ms.date: 11/04/2016
 ms.topic: reference
-ms.prod: visual-studio-dev15
 f1_keywords:
   - "System.Activities.Statements.TransactionScope.UI"
 ms.assetid: 8d7ebfc6-7478-4888-b3b0-b14f296096af

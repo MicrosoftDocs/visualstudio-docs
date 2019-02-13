@@ -10,7 +10,7 @@
 
 # [User Accounts](/visualstudio/mac/user-accounts)
 ## [Signing In](/visualstudio/mac/signing-in)
-## [Enable Subscription](/visualstudio/mac/activation)
+## [Enable Subscription](/visualstudio/mac/enable-subscription)
 
 # [Customizing the IDE](/visualstudio/mac/customizing-the-ide)
 ## [Extending Visual Studio for Mac](/visualstudio/mac/extending-visual-studio-mac)
@@ -52,6 +52,10 @@
 ## [Working with Git](/visualstudio/mac/working-with-git)
 ## [Setting Up a Subversion Repository](/visualstudio/mac/set-up-subversion-repository)
 ## [Working with Subversion](/visualstudio/mac/working-with-subversion)
+
+# [Web App Deployment](/visualstudio/mac/web-app-deployment.md)
+## [Publish to Azure App Service](/visualstudio/mac/publish-app-svc.md)
+## [Publish to Folder](/visualstudio/mac/publish-folder.md)
 
 # [Workloads](/visualstudio/mac/workloads)
 ## [ASP.NET Core](/visualstudio/mac/asp-net-core)

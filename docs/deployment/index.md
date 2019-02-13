@@ -4,7 +4,6 @@ title: Deploy your apps | Microsoft Docs
 description: Learn how use Visual Studio 2017 to deploy applications, services, and components.
 ms.custom: "seodec18"
 ms.topic: landing-page
-ms.prod: visual-studio-dev15
 ms.author: "mikejo"
 author: "mikejo5000"
 manager: jillfra

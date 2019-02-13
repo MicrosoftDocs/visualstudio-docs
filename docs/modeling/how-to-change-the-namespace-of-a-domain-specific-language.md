@@ -9,7 +9,6 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
 ---
 # How to: Change the namespace of a domain-specific language
 

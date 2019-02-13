@@ -1,7 +1,6 @@
 ---
 title: -Build (devenv.exe)
 ms.date: 12/10/2018
-ms.prod: visual-studio-dev15
 ms.topic: reference
 helpviewer_keywords:
   - "builds, command-line"

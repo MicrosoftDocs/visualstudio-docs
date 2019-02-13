@@ -1,7 +1,6 @@
 ---
 title: Word wrap
 ms.date: 11/07/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "word wrap"

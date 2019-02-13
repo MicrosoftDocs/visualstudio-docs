@@ -1,7 +1,6 @@
 ---
 title: Set Current Process
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 helpviewer_keywords:
   - "Debug.SetCurrentProcess command"
