@@ -20,21 +20,21 @@ Specifies the process ID, which may be either a system ID or a GUID.
 
 ```cpp
 typedef struct _AD_PROCESS_ID {
-   AD_PROCESS_ID_TYPE ProcessIdType;
-   union {
-      DWORD dwProcessId; 
-      GUID  guidProcessId; 
-      DWORD dwUnused; 
-   } ProcessId;
+    AD_PROCESS_ID_TYPE ProcessIdType;
+    union {
+        DWORD dwProcessId; 
+        GUID  guidProcessId; 
+        DWORD dwUnused; 
+    } ProcessId;
 } AD_PROCESS_ID;
 ```
 
 ```csharp
 public struct AD_PROCESS_ID {
-   AD_PROCESS_ID_TYPE ProcessIdType;
-   DWORD              dwProcessId; 
-   GUID               guidProcessId; 
-   DWORD              dwUnused; 
+    AD_PROCESS_ID_TYPE ProcessIdType;
+    DWORD              dwProcessId; 
+    GUID               guidProcessId; 
+    DWORD              dwUnused; 
 };
 ```
 
