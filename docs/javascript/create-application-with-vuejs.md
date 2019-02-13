@@ -173,5 +173,5 @@ An unknown issue with the vue-cli 3.0 prevents automating the build process. Eac
 ## See also
 
 - [Vue get started guide](https://vuejs.org/v2/guide).
-- [Vue CLI project](https://github.com/vuejs/vue-cli(.
+- [Vue CLI project](https://github.com/vuejs/vue-cli).
 - [Webpack configuration documentation](https://webpack.js.org/configuration/).
