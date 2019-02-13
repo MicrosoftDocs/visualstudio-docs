@@ -33,7 +33,7 @@ Here's a high-level recap of what Visual Studio has to offer:
 * **[Continuous innovation](#continuous-innovation)**. Code smart with intelligent, cloud-powered support.
 
 > [!NOTE]
-> For a complete list of new features and functionality in Visual Studio 2019 Preview, see the [release notes](/visualstudio/releases/2019/release-notes-preview?context=visualstudio/default&contextView=vs-2017). And for a roundup of what's new in our second preview, see the [Visual Studio 2019 Preview 2 is now available](https://blogs.msdn.microsoft.com/visualstudio/2019/01/24/visual-studio-2019-preview-2-is-now-available/) blog post.
+> For a complete list of new features and functionality in Visual Studio 2019 Preview, see the [release notes](/visualstudio/releases/2019/release-notes-preview?context=visualstudio/default&contextView=vs-2017).
 
 ## Personal and team productivity
 
