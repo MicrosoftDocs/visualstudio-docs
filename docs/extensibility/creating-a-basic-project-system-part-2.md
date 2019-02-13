@@ -53,35 +53,35 @@ By using a Visual Studio template (*.vstemplate* file) instead of a basic projec
 
 4. Replace the contents of *SimpleProject.vstemplate* with the following code.
 
-   ```xml
-   <VSTemplate Version="2.0.0" Type="Project"
-       xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
-     <TemplateData>
-       <Name>SimpleProject Application</Name>
-       <Description>
-           A project for creating a SimpleProject application
+    ```xml
+    <VSTemplate Version="2.0.0" Type="Project"
+        xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+      <TemplateData>
+        <Name>SimpleProject Application</Name>
+        <Description>
+          A project for creating a SimpleProject application
         </Description>
         <Icon>SimpleProject.ico</Icon>
         <ProjectType>SimpleProject</ProjectType>
-     </TemplateData>
-     <TemplateContent>
-       <Project File="SimpleProject.myproj" ReplaceParameters="true">
-         <ProjectItem ReplaceParameters="true" OpenInEditor="true">
-             Program.cs
-         </ProjectItem>
-         <ProjectItem ReplaceParameters="true" OpenInEditor="false">
+      </TemplateData>
+      <TemplateContent>
+        <Project File="SimpleProject.myproj" ReplaceParameters="true">
+          <ProjectItem ReplaceParameters="true" OpenInEditor="true">
+            Program.cs
+          </ProjectItem>
+          <ProjectItem ReplaceParameters="true" OpenInEditor="false">
             AssemblyInfo.cs
-         </ProjectItem>
-       </Project>
-     </TemplateContent>
-   </VSTemplate>
-   ```
+          </ProjectItem>
+        </Project>
+      </TemplateContent>
+    </VSTemplate>
+    ```
 
 5. In the **Properties** window, select all five files in the *\\Templates\Projects\SimpleProject\\* folder and set the **Build Action** to **ZipProject**.
 
-   ![Simple Project Folder](../extensibility/media/simpproj2.png "SimpProj2")
+    ![Simple Project Folder](../extensibility/media/simpproj2.png "SimpProj2")
 
-   The \<TemplateData> section determines the location and appearance of the SimpleProject project type in the **New Project** dialog box, as follows:
+    The \<TemplateData> section determines the location and appearance of the SimpleProject project type in the **New Project** dialog box, as follows:
 
 - The \<Name> element names the project template to be SimpleProject Application.
 
@@ -154,7 +154,7 @@ By using a Visual Studio template (*.vstemplate* file) instead of a basic projec
 
 4. Rebuild the SimpleProject project.
 
-   The build step to create the *.zip* project file should resemble the following example.
+    The build step to create the *.zip* project file should resemble the following example.
 
 ```
 ZipProjects:
@@ -169,12 +169,12 @@ ZipProjects:
 ```
 
 ## Deploy a Visual Studio template
- Visual Studio templates do not contain path information. Therefore, the template *.zip* file must be deployed to a location that is known to Visual Studio. The location of the ProjectTemplates folder is typically *<%LOCALAPPDATA%>\Microsoft\VisualStudio\14.0Exp\ProjectTemplates*.
+Visual Studio templates do not contain path information. Therefore, the template *.zip* file must be deployed to a location that is known to Visual Studio. The location of the ProjectTemplates folder is typically *<%LOCALAPPDATA%>\Microsoft\VisualStudio\14.0Exp\ProjectTemplates*.
 
- To deploy your project factory, the installation program must have administrator privileges. It deploys templates under the Visual Studio installation node: *...\Microsoft Visual Studio 14.0\Common7\IDE\ProjectTemplates*.
+To deploy your project factory, the installation program must have administrator privileges. It deploys templates under the Visual Studio installation node: *...\Microsoft Visual Studio 14.0\Common7\IDE\ProjectTemplates*.
 
 ## Test a Visual Studio template
- Test your project factory to see whether it creates a project hierarchy by using the Visual Studio template.
+Test your project factory to see whether it creates a project hierarchy by using the Visual Studio template.
 
 1. Reset the Visual Studio SDK experimental instance.
 
@@ -190,16 +190,16 @@ ZipProjects:
 
 5. You should see a new instance of SimpleProject.
 
-   ![Simple Project New Instance](../extensibility/media/simpproj2_newproj.png "SimpProj2_NewProj")
+    ![Simple Project New Instance](../extensibility/media/simpproj2_newproj.png "SimpProj2_NewProj")
 
-   ![My Project New Instance](../extensibility/media/simpproj2_myproj.png "SimpProj2_MyProj")
+    ![My Project New Instance](../extensibility/media/simpproj2_myproj.png "SimpProj2_MyProj")
 
 ## Create a project type child node
- You can add a child node to a project type node in the **New Project** dialog box. For example, for the SimpleProject project type, you could have child nodes for console applications, window applications, web applications, and so on.
+You can add a child node to a project type node in the **New Project** dialog box. For example, for the SimpleProject project type, you could have child nodes for console applications, window applications, web applications, and so on.
 
- Child nodes are created by altering the project file and adding \<OutputSubPath> children to the \<ZipProject> elements. When a template is copied during build or deployment, every child node becomes a subfolder of the project templates folder.
+Child nodes are created by altering the project file and adding \<OutputSubPath> children to the \<ZipProject> elements. When a template is copied during build or deployment, every child node becomes a subfolder of the project templates folder.
 
- This section shows how to create a Console child node for the SimpleProject project type.
+This section shows how to create a Console child node for the SimpleProject project type.
 
 1. Rename the *\\Templates\Projects\SimpleProject\\* folder to *\\Templates\Projects\ConsoleApp\\*.
 
@@ -221,20 +221,20 @@ ZipProjects:
 
     ```
     <ZipProject Include="Templates\Projects\ConsoleApp\AssemblyInfo.cs">
-          <OutputSubPath>Console</OutputSubPath>
-        </ZipProject>
-        <ZipProject Include="Templates\Projects\ConsoleApp\Program.cs">
-          <OutputSubPath>Console</OutputSubPath>
-        </ZipProject>
-        <ZipProject Include="Templates\Projects\ConsoleApp\SimpleProject.myproj">
-          <OutputSubPath>Console</OutputSubPath>
-        </ZipProject>
-        <ZipProject Include="Templates\Projects\ConsoleApp\SimpleProject.vstemplate">
-          <OutputSubPath>Console</OutputSubPath>
-        </ZipProject>
-        <ZipProject Include="Templates\Projects\ConsoleApp\SimpleProject.ico">
-          <OutputSubPath>Console</OutputSubPath>
-        </ZipProject>
+      <OutputSubPath>Console</OutputSubPath>
+    </ZipProject>
+    <ZipProject Include="Templates\Projects\ConsoleApp\Program.cs">
+      <OutputSubPath>Console</OutputSubPath>
+    </ZipProject>
+    <ZipProject Include="Templates\Projects\ConsoleApp\SimpleProject.myproj">
+      <OutputSubPath>Console</OutputSubPath>
+    </ZipProject>
+    <ZipProject Include="Templates\Projects\ConsoleApp\SimpleProject.vstemplate">
+      <OutputSubPath>Console</OutputSubPath>
+    </ZipProject>
+    <ZipProject Include="Templates\Projects\ConsoleApp\SimpleProject.ico">
+      <OutputSubPath>Console</OutputSubPath>
+    </ZipProject>
     ```
 
 7. Add this \<PropertyGroup> to the project file:
@@ -248,7 +248,7 @@ ZipProjects:
 8. Save the project file and reload the project.
 
 ## Test the project type child node
- Test the modified project file to see whether the **Console** child node appears in the **New Project** dialog box.
+Test the modified project file to see whether the **Console** child node appears in the **New Project** dialog box.
 
 1. Run the **Reset the Microsoft Visual Studio Experimental Instance** tool.
 
@@ -260,9 +260,9 @@ ZipProjects:
 
 5. Click **Cancel** and stop debugging.
 
-   ![Simple Project Rollup](../extensibility/media/simpproj2_rollup.png "SimpProj2_Rollup")
+    ![Simple Project Rollup](../extensibility/media/simpproj2_rollup.png "SimpProj2_Rollup")
 
-   ![Simple Project Console Node](../extensibility/media/simpproj2_subfolder.png "SimpProj2_Subfolder")
+    ![Simple Project Console Node](../extensibility/media/simpproj2_subfolder.png "SimpProj2_Subfolder")
 
 ## Substitute project template parameters
 [Creating a basic project system, part 1](../extensibility/creating-a-basic-project-system-part-1.md) showed how to overwrite the `ProjectNode.AddFileFromTemplate` method to do a basic kind of template parameter substitution. This section teaches how to use the more sophisticated Visual Studio template parameters.
@@ -348,29 +348,29 @@ The property page you create in this section lets you alter and save these proje
 
 1. In the *SimpleProjectPackage.cs* file, add this `ProvideObject` attribute to the `SimpleProjectPackage` class:
 
-   ```
-   [ProvideObject(typeof(GeneralPropertyPage))]
-   public sealed class SimpleProjectPackage : ProjectPackage
-   ```
+    ```
+    [ProvideObject(typeof(GeneralPropertyPage))]
+    public sealed class SimpleProjectPackage : ProjectPackage
+    ```
 
     This registers the property page class `GeneralPropertyPage` with COM.
 
 2. In the *SimpleProjectNode.cs* file, add these two overridden methods to the `SimpleProjectNode` class:
 
-   ```csharp
-   protected override Guid[] GetConfigurationIndependentPropertyPages()
-   {
-       Guid[] result = new Guid[1];
-       result[0] = typeof(GeneralPropertyPage).GUID;
-       return result;
-   }
-   protected override Guid[] GetPriorityProjectDesignerPages()
-   {
-       Guid[] result = new Guid[1];
-       result[0] = typeof(GeneralPropertyPage).GUID;
+    ```csharp
+    protected override Guid[] GetConfigurationIndependentPropertyPages()
+    {
+        Guid[] result = new Guid[1];
+        result[0] = typeof(GeneralPropertyPage).GUID;
         return result;
-   }
-   ```
+    }
+    protected override Guid[] GetPriorityProjectDesignerPages()
+    {
+        Guid[] result = new Guid[1];
+        result[0] = typeof(GeneralPropertyPage).GUID;
+        return result;
+    }
+    ```
 
     Both of these methods return an array of property page GUIDs. The GeneralPropertyPage GUID is the only element in the array, so the **Property Pages** dialog box will show only one page.
 
@@ -378,80 +378,73 @@ The property page you create in this section lets you alter and save these proje
 
 4. Replace the contents of this file by using the following code:
 
-   ```csharp
-   using System;
-   using System.Runtime.InteropServices;
-   using Microsoft.VisualStudio;
-   using Microsoft.VisualStudio.Project;
-   using System.ComponentModel;
+    ```csharp
+    using System;
+    using System.Runtime.InteropServices;
+    using Microsoft.VisualStudio;
+    using Microsoft.VisualStudio.Project;
+    using System.ComponentModel;
 
-   namespace SimpleProject
-   {
-       [ComVisible(true)]
-       [Guid("6BC7046B-B110-40d8-9F23-34263D8D2936")]
-       public class GeneralPropertyPage : SettingsPage
-       {
-           private string assemblyName;
-           private OutputType outputType;
-           private string defaultNamespace;
+    namespace SimpleProject
+    {
+        [ComVisible(true)]
+        [Guid("6BC7046B-B110-40d8-9F23-34263D8D2936")]
+        public class GeneralPropertyPage : SettingsPage
+        {
+            private string assemblyName;
+            private OutputType outputType;
+            private string defaultNamespace;
 
-           public GeneralPropertyPage()
-           {
-               this.Name = "General";
-           }
+            public GeneralPropertyPage()
+            {
+                this.Name = "General";
+            }
 
-           [Category("AssemblyName")]
-           [DisplayName("AssemblyName")]
-           [Description("The output file holding assembly metadata.")]
-           public string AssemblyName
-           {
-               get { return this.assemblyName; }
-           }
-           [Category("Application")]
-           [DisplayName("OutputType")]
-           [Description("The type of application to build.")]
-           public OutputType OutputType
-           {
-               get { return this.outputType; }
-               set { this.outputType = value; this.IsDirty = true; }
-           }
-           [Category("Application")]
-           [DisplayName("DefaultNamespace")]
-           [Description("Specifies the default namespace for added items.")]
-           public string DefaultNamespace
-           {
-               get { return this.defaultNamespace; }
-               set { this.defaultNamespace = value; this.IsDirty = true; }
-           }
+            [Category("AssemblyName")]
+            [DisplayName("AssemblyName")]
+            [Description("The output file holding assembly metadata.")]
+            public string AssemblyName
+            {
+                get { return this.assemblyName; }
+            }
+            [Category("Application")]
+            [DisplayName("OutputType")]
+            [Description("The type of application to build.")]
+            public OutputType OutputType
+            {
+                get { return this.outputType; }
+                set { this.outputType = value; this.IsDirty = true; }
+            }
+            [Category("Application")]
+            [DisplayName("DefaultNamespace")]
+            [Description("Specifies the default namespace for added items.")]
+            public string DefaultNamespace
+            {
+                get { return this.defaultNamespace; }
+                set { this.defaultNamespace = value; this.IsDirty = true; }
+            }
 
-           protected override void BindProperties()
-           {
-               this.assemblyName = this.ProjectMgr.GetProjectProperty(
-   "AssemblyName", true);
-               this.defaultNamespace = this.ProjectMgr.GetProjectProperty(
-   "RootNamespace", false);
+            protected override void BindProperties()
+            {
+                this.assemblyName = this.ProjectMgr.GetProjectProperty("AssemblyName", true);
+                this.defaultNamespace = this.ProjectMgr.GetProjectProperty("RootNamespace", false);
 
-               string outputType = this.ProjectMgr.GetProjectProperty(
-   "OutputType", false);
-               this.outputType =
-   (OutputType)Enum.Parse(typeof(OutputType), outputType);
-           }
+                string outputType = this.ProjectMgr.GetProjectProperty("OutputType", false);
+                this.outputType = (OutputType)Enum.Parse(typeof(OutputType), outputType);
+            }
 
-           protected override int ApplyChanges()
-           {
-               this.ProjectMgr.SetProjectProperty(
-   "AssemblyName", this.assemblyName);
-               this.ProjectMgr.SetProjectProperty(
-   "OutputType", this.outputType.ToString());
-               this.ProjectMgr.SetProjectProperty(
-   "RootNamespace", this.defaultNamespace);
-               this.IsDirty = false;
+            protected override int ApplyChanges()
+            {
+                this.ProjectMgr.SetProjectProperty("AssemblyName", this.assemblyName);
+                this.ProjectMgr.SetProjectProperty("OutputType", this.outputType.ToString());
+                this.ProjectMgr.SetProjectProperty("RootNamespace", this.defaultNamespace);
+                this.IsDirty = false;
 
-               return VSConstants.S_OK;
-           }
-       }
-   }
-   ```
+                return VSConstants.S_OK;
+            }
+        }
+    }
+    ```
 
     The `GeneralPropertyPage` class exposes the three public properties AssemblyName, OutputType, and RootNamespace. Because AssemblyName has no set method, it is displayed as a read-only property. OutputType is an enumerated constant, so it appears as dropdown list.
 
@@ -465,7 +458,7 @@ The property page you create in this section lets you alter and save these proje
 
 8. Right-click the project node in **Solution Explorer**, and then click **Properties**. The **Property Pages** dialog box is displayed.
 
-   ![Simple Project Property Page](../extensibility/media/simpproj2_proppage.png "SimpProj2_PropPage")
+    ![Simple Project Property Page](../extensibility/media/simpproj2_proppage.png "SimpProj2_PropPage")
 
 ## Test the project property page
 Now you can test whether you can modify and change property values.
@@ -485,4 +478,4 @@ Now you can test whether you can modify and change property values.
 7. Reopen the **Property Pages** dialog box and verify that your changes have been persisted.
 
 8. Close the experimental instance of Visual Studio.
-   ![Close the experimental instance](../extensibility/media/simpproj2_proppage2.png "SimpProj2_PropPage2")
+    ![Close the experimental instance](../extensibility/media/simpproj2_proppage2.png "SimpProj2_PropPage2")
