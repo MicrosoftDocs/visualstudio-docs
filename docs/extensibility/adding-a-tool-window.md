@@ -67,7 +67,7 @@ By adding a toolbar in the following manner, you guarantee that its gradients an
     </Menus>
     ```
 
-    There are several different kinds of menu. This menu is a toolbar in a tool window, defined by its `type` attribute. The `guid` and  `id` settings make up the fully qualified ID of the toolbar. Typically, the `<Parent>` of a menu is the containing group. However, a toolbar is defined as its own parent. Therefore, the same identifier is used for the `<Menu>` and `<Parent>` elements. The `priority` attribute is just '0'.
+    There are several different kinds of menu. This menu is a toolbar in a tool window, defined by its `type` attribute. The `guid` and `id` settings make up the fully qualified ID of the toolbar. Typically, the `<Parent>` of a menu is the containing group. However, a toolbar is defined as its own parent. Therefore, the same identifier is used for the `<Menu>` and `<Parent>` elements. The `priority` attribute is just '0'.
 
 4. Toolbars resemble menus in many ways. For example, just as a menu may have groups of commands, toolbars may also have groups. (On menus, the command groups are separated by horizontal lines. On toolbars, the groups are not separated by visual dividers.)
 
@@ -75,9 +75,9 @@ By adding a toolbar in the following manner, you guarantee that its gradients an
 
     ```xml
     <Groups>
-       <Group guid="guidFirstToolWindowPackageCmdSet" id="ToolbarGroupID" priority="0x0000">
-           <Parent guid="guidFirstToolWindowPackageCmdSet" id="ToolbarID" />
-       </Group>
+        <Group guid="guidFirstToolWindowPackageCmdSet" id="ToolbarGroupID" priority="0x0000">
+            <Parent guid="guidFirstToolWindowPackageCmdSet" id="ToolbarID" />
+        </Group>
     </Groups>
     ```
 
@@ -110,7 +110,7 @@ By adding a toolbar in the following manner, you guarantee that its gradients an
 
     ```csharp
     public const string guidFirstToolWindowPackageCmdSet = "00000000-0000-0000-0000-0000";  // get the GUID from the .vsct file
-    public const uint cmdidWindowsMedia =        0x100;
+    public const uint cmdidWindowsMedia = 0x100;
     public const int cmdidWindowsMediaOpen = 0x132;
     public const int ToolbarID = 0x1000;
     ```
@@ -213,13 +213,13 @@ Add a toolbar and a menu command that invokes the **Open File** dialog and plays
         window = (FirstToolWindow) this.package.FindToolWindow(typeof(FirstToolWindow), 0, true);
         if ((null == window) || (null == window.Frame))
         {
-                            throw new NotSupportedException("Cannot create tool window");
+            throw new NotSupportedException("Cannot create tool window");
         }
 
         IVsWindowFrame windowFrame = (IVsWindowFrame)window.Frame;
-                Microsoft.VisualStudio.ErrorHandler.ThrowOnFailure(windowFrame.Show());
+        Microsoft.VisualStudio.ErrorHandler.ThrowOnFailure(windowFrame.Show());
 
-         var mcs = this.ServiceProvider.GetService(typeof(IMenuCommandService)) as OleMenuCommandService;
+        var mcs = this.ServiceProvider.GetService(typeof(IMenuCommandService)) as OleMenuCommandService;
         var toolbarbtnCmdID = new CommandID(new Guid(FirstToolWindowCommandguidFirstToolWindowPackageCmdSet),
             FirstToolWindowCommand.cmdidWindowsMediaOpen);
         var menuItem = new MenuCommand(new EventHandler(
