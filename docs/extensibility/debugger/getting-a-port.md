@@ -76,8 +76,8 @@ HRESULT CDebugEngine::ResumeProcess(IDebugProcess2 *pDebugProcess)
         if (SUCCEEDED(hr))
         {
             // resume execution of the process using the port given to us earlier.
-           // (Querying for the IDebugPortEx2 interface is valid here since
-           // that's how we got the IDebugPortNotify2 interface in the first place.)
+            // (Querying for the IDebugPortEx2 interface is valid here since
+            // that's how we got the IDebugPortNotify2 interface in the first place.)
             CComPtr<IDebugPortEx2> spPortEx;
             hr = m_spPortNotify->QueryInterface(&spPortEx);
             if (SUCCEEDED(hr))
