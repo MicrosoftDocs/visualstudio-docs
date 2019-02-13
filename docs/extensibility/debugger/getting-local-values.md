@@ -190,13 +190,13 @@ STDMETHODIMP CFieldProperty::GetPropertyInfo(
     if (infoFlags & DEBUGPROP_INFO_FULLNAME)
     {
         ppropertyInfo->dwFields |= DEBUGPROP_INFO_FULLNAME;
-        ppropertyInfo->bstrFullName  = SysAllocString( m_fieldInfo.bstrFullName );
+        ppropertyInfo->bstrFullName = SysAllocString( m_fieldInfo.bstrFullName );
     }
 
     if (infoFlags & DEBUGPROP_INFO_NAME)
     {
         ppropertyInfo->dwFields |= DEBUGPROP_INFO_NAME;
-        ppropertyInfo->bstrName      = SysAllocString( m_fieldInfo.bstrName );
+        ppropertyInfo->bstrName  = SysAllocString( m_fieldInfo.bstrName );
     }
 
     if (infoFlags & DEBUGPROP_INFO_TYPE)
