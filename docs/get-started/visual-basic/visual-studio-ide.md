@@ -87,9 +87,9 @@ Some of the popular features in Visual Studio that help you to be more productiv
 
    ::: moniker-end
 
-   ::: moniker range="vs-2019"
+   ::: moniker range=">=vs-2019"
 
-   ![Quick Launch search box in Visual Studio 2019](../media/vs-2019/quick-launch-nuget.png)
+   ![Quick Launch search box in Visual Studio 2019](media/vs-2019/quick-launch.png)
 
    ::: moniker-end
 
@@ -207,9 +207,19 @@ To learn about other ways you can personalize the IDE, see [Personalize Visual S
 
 Let's dive in and create a simple program.
 
+::: moniker range="vs-2017"
+
 1. Open Visual Studio. On the menu bar, choose **File** > **New Project**.
 
    ![File > New Project on menu bar](media/file-new-project-menu.png)
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+   ![File > New Project on menu bar](media/vs-2019/file-new-project.png)
+
+::: moniker-end
 
 ::: moniker range="vs-2017"
 
@@ -262,7 +272,7 @@ Let's dive in and create a simple program.
 
 3. Now, start the app. You can do this by choosing **Start Without Debugging** from the **Debug** menu on the menu bar. You can also press **Ctrl**+**F5**.
 
-   ![Debug > Start without debugging menu](../media/overview-start-without-debugging.png)
+   ![Debug > Start without debugging menu](media/vs-2019/start-without-debugging.png)
 
    Visual Studio builds the app, and a console window opens with the message **Hello World!**. You now have a running app!
 
