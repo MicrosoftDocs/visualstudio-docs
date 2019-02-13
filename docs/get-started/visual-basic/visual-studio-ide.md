@@ -27,11 +27,13 @@ The Visual Studio *integrated development environment* is a creative launching p
 
 ![The Visual Studio IDE](media/vs-2019/ide-overview.png)
 
+[![](media/vs-2019/ide-overview.png "The Visual Studio IDE")](media/vs-2019/ide-overview.png#lightbox)
+
 ::: moniker-end
 
 This image shows Visual Studio with an open project and several key tool windows you'll likely use:
 
-- [**Solution Explorer**](../../ide/solutions-and-projects-in-visual-studio.md) (top right) lets you view, navigate, and manage your code files. **Solution Explorer** can help organize your code by grouping the files into [solutions and projects](tutorial-projects-solutions.md).
+- [Solution Explorer](../../ide/solutions-and-projects-in-visual-studio.md) (top right) lets you view, navigate, and manage your code files. **Solution Explorer** can help organize your code by grouping the files into [solutions and projects](tutorial-projects-solutions.md).
 
 - The [editor window](../../ide/writing-code-in-the-code-and-text-editor.md) (center), where you'll likely spend a majority of your time, displays file contents. This is where you can edit code or design a user interface such as a window with buttons and text boxes.
 
