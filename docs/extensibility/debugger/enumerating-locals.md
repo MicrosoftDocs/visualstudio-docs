@@ -77,7 +77,7 @@ namespace EEMC
                 // Enumerate "this", if any, and all parameters and local variables.
                 else if (guidFilter == FilterGuids.guidFilterLocalsPlusArgs)
                 {
-                    IDebugClassField fieldThis   = null;
+                    IDebugClassField fieldThis  = null;
                     IEnumDebugFields parameters = null;
                     IEnumDebugFields locals     = null;
 
@@ -92,7 +92,7 @@ namespace EEMC
                 // Enumerate only "this".
                 else if (guidFilter == FilterGuids.guidFilterThis)
                 {
-                    IDebugClassField fieldThis   = null;
+                    IDebugClassField fieldThis = null;
                     methodField.GetThis(out fieldThis);
 
                     CEnumMethodField enumMethodField =
@@ -104,7 +104,7 @@ namespace EEMC
             // Wrap a property enumerator around the field enumerator.
             CEnumPropertyInfo propertiesInfo =
                 new CEnumPropertyInfo(provider, address, binder, radix, fields,
-                 (DEBUGPROP_INFO_FLAGS) dwFields);
+                (DEBUGPROP_INFO_FLAGS) dwFields);
 
             properties = (IEnumDebugPropertyInfo2) propertiesInfo;
             return COM.S_OK;
@@ -192,7 +192,7 @@ STDMETHODIMP CFieldProperty::EnumChildren(
         }
         else if (guidFilter == guidFilterThis )
         {
-            IDebugClassField* pfieldThis  = NULL;
+            IDebugClassField* pfieldThis = NULL;
 
             hr = pmethod->GetThis( &pfieldThis );
             if (SUCCEEDED(hr))
