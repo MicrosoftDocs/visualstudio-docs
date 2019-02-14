@@ -327,6 +327,8 @@
             href: ide/reference/convert-get-method-to-property.md
           - name: Convert LINQ query to foreach statement
             href: ide/reference/convert-linq-to-foreach.md
+          - name: Pull Member Up
+            href: ide/reference/pull-members-up.md
           - name: Encapsulate field
             href: ide/reference/encapsulate-field.md
           - name: Extract interface
@@ -335,6 +337,8 @@
             href: ide/reference/extract-method.md
           - name: Inline temporary variable
             href: ide/reference/inline-temporary-variable.md
+          - name: Wrap, Indent, and Align Parameters
+            href: ide/reference/wrap-parameters.md
           - name: Move declaration near reference
             href: ide/reference/move-declaration-near-reference.md
           - name: Move type to matching file
@@ -347,6 +351,10 @@
             href: ide/reference/sync-type-and-file.md
           - name: Use explicit type
             href: ide/reference/convert-var-to-explicit-type.md
+          - name: Convert Anonymous Type to Tuple
+            href: ide/reference/convert-anonymous-type-to-tuple.md
+          - name: Convert Anonymous type to Class
+            href: ide/reference/convert-anonymous-to-class.md
         - name: "Walkthrough: Generate code from usage"
           href: ide/walkthrough-test-first-support-with-the-generate-from-usage-feature.md
       - name: Productivity tips
