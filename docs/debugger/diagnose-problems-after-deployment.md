@@ -210,7 +210,7 @@ Visual Studio 2017 does not include the *BuildInfo.config* file, which was depre
 
     - [What's all these other events and information in the IntelliTrace log?](../debugger/using-saved-intellitrace-data.md)
     - [What else can I do from here?](#WhatElse)
-    - [Want more information about performance events?](https://blogs.msdn.microsoft.com/devops/2013/09/20/performance-details-in-intellitrace/)
+    - [Want more information about performance events?](https://devblogs.microsoft.com/devops/performance-details-in-intellitrace/)
 
 ### Diagnose an exception
 

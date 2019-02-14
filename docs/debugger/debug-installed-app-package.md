@@ -28,7 +28,7 @@ Visual Studio can debug installed Universal Windows Platform (UWP) app packages 
 >[!NOTE]
 >Visual Studio debugging for installed UWP apps is not supported on phones.
    
-For more information about debugging UWP apps, see the blog posts on [debugging installed app packages](https://blogs.msdn.microsoft.com/devops/2016/03/30/updates-for-debugging-installed-app-packages-in-visual-studio-2015-update-2/) and [building Universal Windows Apps (UWP)](https://blogs.msdn.microsoft.com/visualstudio/2016/08/02/universal-windows-apps-targeting-windows-10-anniversary-sdk/).
+For more information about debugging UWP apps, see the blog posts on [debugging installed app packages](https://devblogs.microsoft.com/devops/updates-for-debugging-installed-app-packages-in-visual-studio-2015-update-2/) and [building Universal Windows Apps (UWP)](https://blogs.msdn.microsoft.com/visualstudio/2016/08/02/universal-windows-apps-targeting-windows-10-anniversary-sdk/).
 
 ## Debug an installed UWP app on a local machine
 

@@ -206,7 +206,7 @@ The new Exception Helper helps you view your exception information at-a-glance. 
 
 ![The New Exception Helper dialog in Visual Studio](media/vs2017ide-ExceptionHelper.png)
 
-For more information, see the [Use the new Exception Helper in Visual Studio](https://blogs.msdn.microsoft.com/devops/2016/03/31/using-the-new-exception-helper-in-visual-studio-15-preview/) blog post.
+For more information, see the [Use the new Exception Helper in Visual Studio](https://devblogs.microsoft.com/devops/using-the-new-exception-helper-in-visual-studio-15-preview/) blog post.
 
 #### Snapshots and IntelliTrace step-back
 
