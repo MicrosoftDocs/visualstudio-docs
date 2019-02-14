@@ -19,18 +19,18 @@ Retrieves the name of the module currently being debugged.
 
 ```cpp
 HRESULT GetModuleName(
-   BSTR *pbstrModuleName
+    BSTR *pbstrModuleName
 );
 ```
 
 ```csharp
 public int GetModuleName (
-   string pbstrModuleName
+    string pbstrModuleName
 );
 ```
 
 #### Parameters
-`pbstrModuleName` 
+`pbstrModuleName`  
 [out] Name of the module.
 
 ## Return Value
