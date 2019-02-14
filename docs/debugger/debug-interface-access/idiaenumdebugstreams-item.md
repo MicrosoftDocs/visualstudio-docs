@@ -19,17 +19,17 @@ Retrieves a debug stream by means of an index or name.
 ## Syntax
 
 ```C++
-HRESULT Item ( 
-   VARIANT                   index,
-   IDiaEnumDebugStreamData** stream
+HRESULT Item (
+    VARIANT                   index,
+    IDiaEnumDebugStreamData** stream
 );
 ```
 
 #### Parameters
-index
+index  
 [in] Index or name of the debug stream to be retrieved. If an integer variant is used, it must be in the range 0 to `count`-1, where `count` is as returned by the [IDiaEnumDebugStreams::get_Count](../../debugger/debug-interface-access/idiaenumdebugstreams-get-count.md) method.
 
-stream
+stream  
 [out] Returns an [IDiaEnumDebugStreamData](../../debugger/debug-interface-access/idiaenumdebugstreamdata.md) object representing the specified debug stream.
 
 ## Return Value
@@ -53,7 +53,7 @@ IDiaEnumDebugStreamData *GetStreamData(IDiaEnumDebugStreams *pStreamList,
             vIndex.lVal = whichStream;
             if (pStreamList->Item(vIndex,&pStreamData) != S_OK)
             {
-                 std::cerr << "Error retrieving stream " << whichStream << std::endl;
+                std::cerr << "Error retrieving stream " << whichStream << std::endl;
             }
         }
     }
