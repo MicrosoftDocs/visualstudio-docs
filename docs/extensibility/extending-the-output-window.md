@@ -147,7 +147,7 @@ void DeletePane(Guid paneGuid)
  This example shows how to get the built-in **General** pane of the **Output** window.  
   
 ```csharp  
-void GetGeneralPane()  
+IVsOutputWindowPane GetGeneralPane()  
 {  
     return (IVsOutputWindowPane)GetService(  
         typeof(SVsGeneralOutputWindowPane));  

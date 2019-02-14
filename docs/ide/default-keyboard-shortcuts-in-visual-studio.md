@@ -792,11 +792,17 @@ The sections in the following table include commands that are global in that you
 | Edit.ExpandCurrentRegion | **Ctrl+M, Ctrl+E** |
 | Edit.FormatDocument | **Ctrl+K, Ctrl+D** |
 | Edit.FormatSelection | **Ctrl+K, Ctrl+F** |
+| Edit.GotoAll | **Ctrl+T**<br /><br /> or<br /><br /> **Ctrl+,** |
 | Edit.GotoBrace | **Ctrl+]** |
 | Edit.GotoBraceExtend | **Ctrl+Shift+]** |
+| Edit.GotoRecent | **Ctrl+T,R** |
+| Edit.GotoNextIssueinFile | **Alt+PgDn** |
+| Edit.GotoPreviousIssueinFile  **Alt+PgUp** |
 | Edit.HideSelection | **Ctrl+M, Ctrl+H** |
 | Edit.IncreaseFilterLevel | **Alt+.** |
 | Edit.IncrementalSearch | **Ctrl+I** |
+| Edit.InsertCaretsatAllMatching | **Shift+Alt+;** | 
+| Edit.InsertNextMatchingCaret | **Shift+Alt+.** | 
 | Edit.InsertTab | **Tab** |
 | Edit.LineCut | **Ctrl+L** |
 | Edit.LineDelete | **Ctrl+Shift+L** |
@@ -839,7 +845,8 @@ The sections in the following table include commands that are global in that you
 | Edit.SelectCurrentWord | **Ctrl+W** |
 | Edit.SelectionCancel | **Escape** |
 | Edit.SelectToLastGoBack | **Ctrl+=** |
-| Edit.ShowCodeLensMenu | **Alt+\`** |
+| Edit.ShowCodeLensMenu | **Ctrl+K, Ctrl+\`** |
+| Edit.ShowNavigateMenu | **Alt+\`** |
 | Edit.StopHidingCurrent | **Ctrl+M, Ctrl+U** |
 | Edit.StopOutlining | **Ctrl+M, Ctrl+P** |
 | Edit.SwapAnchor | **Ctrl+K, Ctrl+A** |

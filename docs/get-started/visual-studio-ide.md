@@ -279,5 +279,5 @@ If you're ready to dive into more coding, one of the following language-specific
 
 - Discover [more Visual Studio features](../ide/advanced-feature-overview.md)
 - Visit [visualstudio.microsoft.com](https://visualstudio.microsoft.com/vs/)
-- Read [The Visual Studio blog](https://blogs.msdn.microsoft.com/visualstudio/)
+- Read [The Visual Studio blog](https://devblogs.microsoft.com/visualstudio/)
 - Download Visual Studio at [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017)
