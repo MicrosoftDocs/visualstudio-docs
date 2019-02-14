@@ -2,8 +2,8 @@
 title: Wrap, Indent, Align parameters
 ms.date: 02/13/2019
 ms.topic: reference
-author: kehavens
-ms.author: kehavens
+author: kendrahavens
+ms.author: kendrahavens
 manager: jillfra
 dev_langs:
   - CSharp
