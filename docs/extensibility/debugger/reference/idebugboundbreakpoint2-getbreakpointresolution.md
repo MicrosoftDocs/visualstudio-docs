@@ -21,13 +21,13 @@ Gets the breakpoint resolution that describes this breakpoint.
 
 ```cpp
 HRESULT GetBreakpointResolution( 
-   IDebugBreakpointResolution2** ppBPResolution
+    IDebugBreakpointResolution2** ppBPResolution
 );
 ```
 
 ```csharp
 int GetBreakpointResolution( 
-   out IDebugBreakpointResolution2 ppBPResolution
+    out IDebugBreakpointResolution2 ppBPResolution
 );
 ```
 
@@ -52,30 +52,30 @@ The following example shows how to implement this method for a simple `CBoundBre
 HRESULT CBoundBreakpoint::GetBreakpointResolution(
     IDebugBreakpointResolution2** ppBPResolution)
 {
-   HRESULT hr;
+    HRESULT hr;
 
-   if (ppBPResolution)
-   {
-      // Verify that the bound breakpoint has not been deleted. If
-      // deleted, then return hr = E_BP_DELETED.
-      if (m_state != BPS_DELETED)
-      {
-         // Query for the IDebugBreakpointResolution2 interface.
-         hr = m_pBPRes->QueryInterface(IID_IDebugBreakpointResolution2,
-                                       (void **)ppBPResolution);
-         assert(hr == S_OK);
-      }
-      else
-      {
-         hr = E_BP_DELETED;
-      }
-   }
-   else
-   {
-      hr = E_INVALIDARG;
-   }
+    if (ppBPResolution)
+    {
+        // Verify that the bound breakpoint has not been deleted. If
+        // deleted, then return hr = E_BP_DELETED.
+        if (m_state != BPS_DELETED)
+        {
+            // Query for the IDebugBreakpointResolution2 interface.
+            hr = m_pBPRes->QueryInterface(IID_IDebugBreakpointResolution2,
+                                          (void **)ppBPResolution);
+            assert(hr == S_OK);
+        }
+        else
+        {
+            hr = E_BP_DELETED;
+        }
+    }
+    else
+    {
+        hr = E_INVALIDARG;
+    }
 
-   return hr;
+    return hr;
 }
 ```
 
