@@ -81,9 +81,45 @@ If you have an existing project that _is not_ already in version control, use th
 
 ## Publishing a new project
 
-The new project dialog can be used to publish a new project using git. To enable it, select the **Use git for version control.** checkbox, as illustrated in the following screenshot. This will initialize your repo and add an optional .gitignore file:
+The new project dialog can be used to create a new project with a local git repository. To enable it, select the **Use git for version control** checkbox, as illustrated in the following screenshot. This will initialize your repo and add an optional .gitignore file:
 
-![Push Changes to remote repository](media/version-control-git12.png)
+![Create new project with git support](media/version-control-git-publish-new1.png)
+
+Follow the steps below to push your new local repository to a new GitHub repository:
+
+> [!NOTE]
+> If you have not already created a GitHub repository, refer back to the [Creating a remote repo on GitHub](#creating-a-remote-repo-on-github) section.
+
+1. Create your first commit by going to ***Version Control > Review Solution and Commit*** in the Menu Bar.
+
+2. In the Status tab, choose **Commit** in the top left.
+
+3. Write a commit message, for example "First Commit", then click on **Commit**.
+
+![Commit initial changes to the git repository](media/version-control-git-publish-new2.png)
+
+4. Next, in the Menu Bar go to **Version Control > Manage Branches and Remotes**.
+
+5. Go to the **Remote Sources** tab, then click **Add**.
+
+6. In the **Remote Source** window, add the details of your previously created GitHub repository and click **Ok**.
+
+![Configure remote sources for git repository](media/version-control-git-publish-new3.png)
+
+7. Close the **Git Repository Configuration** window, then in the Menu Bar go to **Version Control > Push Changes**.
+
+8. In the **Push to Repository** window click on the **Push Changes** button.
+
+![Push the changes to the remote repository](media/version-control-git-publish-new4.png)
+
+9. When prompted, enter your GitHub username and password.
+
+> [!NOTE]
+> If your account has two-factor authentication (2FA) enabled, you will need to create an Access Token, which is used in place of a password. If you have not created an access token, follow the steps in the Git [Access Token](https://help.github.com/articles/creating-an-access-token-for-command-line-use/) documentation.
+
+Visual Studio for Mac will now push the changes to your remote GitHub repository. 
+
+![Push operation successfully completed confirmation](media/version-control-git11.png)
 
 ## Check out an existing repository
 
