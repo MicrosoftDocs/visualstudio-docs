@@ -57,10 +57,10 @@ namespace EEMC
                 // Tokenize, then parse.
                 tokens = Tokenize(expression);
                 result = new CValueProperty(
-                             expression,
-                             (int) FindTerm(EvalToken(tokens[0], out field),1),
-                             field,
-                             binder);
+                        expression,
+                        (int) FindTerm(EvalToken(tokens[0], out field),1),
+                        field,
+                        binder);
             }
             catch (ParseException)
             {
