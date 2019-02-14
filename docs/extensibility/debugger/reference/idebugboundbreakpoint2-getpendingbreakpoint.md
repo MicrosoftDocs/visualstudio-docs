@@ -21,13 +21,13 @@ Gets the pending breakpoint from which the specified bound breakpoint was create
 
 ```cpp
 HRESULT GetPendingBreakpoint( 
-   IDebugPendingBreakpoint2** ppPendingBreakpoint
+    IDebugPendingBreakpoint2** ppPendingBreakpoint
 );
 ```
 
 ```csharp
 int GetPendingBreakpoint( 
-   out IDebugPendingBreakpoint2 ppPendingBreakpoint
+    out IDebugPendingBreakpoint2 ppPendingBreakpoint
 );
 ```
 
@@ -48,30 +48,30 @@ The following example shows how to implement this method for a simple `CBoundBre
 HRESULT CBoundBreakpoint::GetPendingBreakpoint(
     IDebugPendingBreakpoint2** ppPendingBreakpoint)
 {
-   HRESULT hr;
+    HRESULT hr;
 
-   // Check for valid IDebugPendingBreakpoint2 interface pointer.
-   if (ppPendingBreakpoint)
-   {
-      // Be sure that the bound breakpoint has not been deleted. If
-      // deleted, then return hr = E_BP_DELETED.
-      if (m_state != BPS_DELETED)
-      {
-         // Query for the IDebugPendingBreakpoint2 interface.
-         hr = m_pPendingBP->QueryInterface(IID_IDebugPendingBreakpoint2,
-                                           (void**)ppPendingBreakpoint);
-      }
-      else
-      {
-         hr = E_BP_DELETED;
-      }
-   }
-   else
-   {
-      hr = E_INVALIDARG;
-   }
+    // Check for valid IDebugPendingBreakpoint2 interface pointer.
+    if (ppPendingBreakpoint)
+    {
+        // Be sure that the bound breakpoint has not been deleted. If
+        // deleted, then return hr = E_BP_DELETED.
+        if (m_state != BPS_DELETED)
+        {
+            // Query for the IDebugPendingBreakpoint2 interface.
+            hr = m_pPendingBP->QueryInterface(IID_IDebugPendingBreakpoint2,
+                                              (void**)ppPendingBreakpoint);
+        }
+        else
+        {
+            hr = E_BP_DELETED;
+        }
+    }
+    else
+    {
+        hr = E_INVALIDARG;
+    }
 
-   return hr;
+    return hr;
 }
 ```
 
