@@ -19,14 +19,14 @@ Gets the breakpoint location type of this breakpoint request.
 ## Syntax
 
 ```cpp
-HRESULT GetLocationType( 
-   BP_LOCATION_TYPE* pBPLocationType
+HRESULT GetLocationType(
+    BP_LOCATION_TYPE* pBPLocationType
 );
 ```
 
 ```csharp
-int GetLocationType( 
-   out enum_BP_LOCATION_TYPE pBPLocationType
+int GetLocationType(
+    out enum_BP_LOCATION_TYPE pBPLocationType
 );
 ```
 
@@ -43,31 +43,31 @@ The following example shows how to implement this method for a simple `CDebugBre
 ```
 HRESULT CDebugBreakpointRequest::GetLocationType(BP_LOCATION_TYPE* pBPLocationType)
 {
-   HRESULT hr;
+    HRESULT hr;
 
-   if (pBPLocationType)
-   {
-      // Set default BP_LOCATION_TYPE.
-      *pBPLocationType = BPLT_NONE;
+    if (pBPLocationType)
+    {
+        // Set default BP_LOCATION_TYPE.
+        *pBPLocationType = BPLT_NONE;
 
-      // Check if the BPREQI_BPLOCATION flag is set in BPREQI_FIELDS.
-      if (IsFlagSet(m_bpRequestInfo.dwFields, BPREQI_BPLOCATION))
-      {
-         // Get the new BP_LOCATION_TYPE.
-         *pBPLocationType = m_bpRequestInfo.bpLocation.bpLocationType;
-         hr = S_OK;
-      }
-      else
-      {
-         hr = E_FAIL;
-      }
-   }
-   else
-   {
-      hr = E_INVALIDARG;
-   }
+        // Check if the BPREQI_BPLOCATION flag is set in BPREQI_FIELDS.
+        if (IsFlagSet(m_bpRequestInfo.dwFields, BPREQI_BPLOCATION))
+        {
+            // Get the new BP_LOCATION_TYPE.
+            *pBPLocationType = m_bpRequestInfo.bpLocation.bpLocationType;
+            hr = S_OK;
+        }
+        else
+        {
+            hr = E_FAIL;
+        }
+    }
+    else
+    {
+        hr = E_INVALIDARG;
+    }
 
-   return hr;
+    return hr;
 }
 ```
 
