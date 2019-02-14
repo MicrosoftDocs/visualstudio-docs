@@ -15,7 +15,6 @@ ms.assetid: 4a919cd8-541c-40ee-be3b-352fabc56140
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.prod: visual-studio-dev15
 ---
 # Analyze load test results in the Graphs view of the Load Test Analyzer
 

@@ -4,7 +4,6 @@ titleSuffix: ""
 description: "Learn how to uninstall Visual Studio, step-by-step."
 ms.date: 08/16/2017
 ms.custom: "seodec18"
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
   - "uninstall"

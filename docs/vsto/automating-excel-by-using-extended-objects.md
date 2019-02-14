@@ -1,7 +1,6 @@
 ---
 title: "Automate Excel by using extended objects"
 ms.date: 02/02/2017
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 dev_langs: 
   - "VB"

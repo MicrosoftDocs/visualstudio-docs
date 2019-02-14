@@ -1,7 +1,6 @@
 ---
 title: "Walkthrough: XSLT Profiler"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.assetid: 87387c9a-2e89-4801-ad51-83740cd6ea25
 author: gewarren

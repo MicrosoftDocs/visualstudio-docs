@@ -1,7 +1,6 @@
 ---
 title: "CA2107: Review deny and permit only usage"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "CA2107"

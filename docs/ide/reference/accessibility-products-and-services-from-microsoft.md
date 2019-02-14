@@ -2,7 +2,6 @@
 title: Accessibility products and services from Microsoft
 description: "Learn more about the products and services from Microsoft that can help make our operating systems, programs, and applications more accessible for everyone to use, including people with disabilities."
 ms.date: 08/22/2017
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "TTY/TDD services"

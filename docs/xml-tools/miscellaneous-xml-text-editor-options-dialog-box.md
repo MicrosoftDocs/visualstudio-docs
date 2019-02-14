@@ -1,7 +1,6 @@
 ---
 title: "Miscellaneous, XML, Text Editor, Options Dialog Box"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 ms.assetid: fd3fff31-cddc-422d-a2f0-a5a1ef492afd
 author: gewarren

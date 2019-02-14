@@ -13,7 +13,6 @@ helpviewer_keywords:
 author: kuhlenh
 ms.author: gewarren
 manager: jillfra
-ms.prod: visual-studio-dev15
 ms.workload:
   - "dotnet"
   - "dotnetcore"

@@ -3,7 +3,6 @@ title: "Select installation locations"
 description: "Learn how to reduce the installation footprint of Visual Studio on your system drive by changing the location of the download cache, shared components, SDKs, and tools to different drives."
 ms.date: 11/07/2018
 ms.custom: "seodec18"
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "change installation locations for Visual Studio"

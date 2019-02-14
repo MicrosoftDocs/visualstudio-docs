@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2019"
 titleSuffix: ""
 description: "Learn about the new features in Visual Studio 2019."
-ms.date: 01/29/2019
+ms.date: 02/14/2019
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
@@ -17,7 +17,7 @@ ms.workload:
 ---
 # What's new in Visual Studio 2019 Preview
 
-**Updated for the [Preview 2 release](/visualstudio/releases/2019/release-notes-preview?context=visualstudio/default&contextView=vs-2017)**
+**Updated for the [Preview 3 release](/visualstudio/releases/2019/release-notes-preview?context=visualstudio/default&contextView=vs-2017)**
 
 >[!div class="button"]
 >[Download Preview](https://visualstudio.microsoft.com/vs/preview/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2019+preview)
@@ -33,7 +33,7 @@ Here's a high-level recap of what Visual Studio has to offer:
 * **[Continuous innovation](#continuous-innovation)**. Code smart with intelligent, cloud-powered support.
 
 > [!NOTE]
-> For a complete list of new features and functionality in Visual Studio 2019 Preview, see the [release notes](/visualstudio/releases/2019/release-notes-preview?context=visualstudio/default&contextView=vs-2017). And for a roundup of what's new in our second preview, see the [Visual Studio 2019 Preview 2 is now available](https://blogs.msdn.microsoft.com/visualstudio/2019/01/24/visual-studio-2019-preview-2-is-now-available/) blog post.
+> For a complete list of new features and functionality in Visual Studio 2019 Preview, see the [release notes](/visualstudio/releases/2019/release-notes-preview?context=visualstudio/default&contextView=vs-2017).
 
 ## Personal and team productivity
 
@@ -75,13 +75,15 @@ You can also format how a value is displayed within the Watch, Locals, and Autos
 
    ![The new Watch window and format values feature in Visual Studio 2019](media/search-watch-window.png)
 
-For more information, see the [Enhanced in Visual Studio 2019: Search for Objects and Properties in the Watch, Autos, and Locals Windows](https://blogs.msdn.microsoft.com/visualstudio/2019/01/28/enhanced-in-visual-studio-2019-search-for-objects-and-properties-in-the-watch-autos-and-locals-windows/) blog post.
+For more information, see the [Enhanced in Visual Studio 2019: Search for Objects and Properties in the Watch, Autos, and Locals Windows](https://devblogs.microsoft.com/visualstudio/enhanced-in-visual-studio-2019-search-for-objects-and-properties-in-the-watch-autos-and-locals-windows/) blog post.
 
 ### Visual Studio Live Share
 
 [Visual Studio Live Share](https://visualstudio.microsoft.com/services/live-share/) is a developer service that allows you to share a codebase and its context with a teammate and get instant bi-directional collaboration directly from within Visual Studio. With Live Share, a teammate can read, navigate, edit, and debug a project that you've shared with them, and do so seamlessly and securely.
 
 And with Visual Studio 2019 Preview, this service is installed by default.
+
+![An animated GIF file that shows the Live Share collaboration feature in Visual Studio 2019](media/live-share-collaboration.gif)
 
 For more information, see the [Visual Studio Live Share for real-time code reviews and interactive education](https://devblogs.microsoft.com/visualstudio/visual-studio-live-share-for-real-time-code-reviews-and-interactive-education/) blog post.
 
@@ -93,11 +95,16 @@ We're introducing a new extension that you can download to use with Visual Studi
 
 To get started now, download the [Pull Requests for Visual Studio](https://aka.ms/pr4vs) extension from the Visual Studio Marketplace.
 
-### Develop with .NET Core 3 Preview 1
+### Develop with .NET Core 3 Preview
 
-The preview release of Visual Studio 2019 supports building [.NET Core 3](http://aka.ms/netcore3preview1) applications for any platform. We'll continue to support and improve cross-platform C++ development, as well as .NET mobile development for iOS and Android with Xamarin.
+The preview release of Visual Studio 2019 supports building [.NET Core 3](https://dotnet.microsoft.com/download/dotnet-core/3.0) applications for any platform. We'll continue to support and improve cross-platform C++ development, as well as .NET mobile development for iOS and Android with Xamarin.
 
-   ![Develop apps with .NET Core 3 Preview 1 in Visual Studio 2019](media/dot-net-core-three-dev.png)
+   ![Develop apps with .NET Core 3 Preview in Visual Studio 2019](media/dot-net-core-three-dev.png)
+
+For more information, see the following pages:
+
+* [.NET Core 3 Preview 1](https://github.com/dotnet/core/blob/master/release-notes/3.0/preview/3.0.0-preview1.md) and [.NET Core 3 Preview 2](https://github.com/dotnet/core/blob/master/release-notes/3.0/preview/3.0.0-preview2.md) release notes
+* [Announcing .NET Core 3 Preview 1](https://blogs.msdn.microsoft.com/dotnet/2018/12/04/announcing-net-core-3-preview-1-and-open-sourcing-windows-desktop-frameworks/) and [Announcing .NET Core 3 Preview 2](https://blogs.msdn.microsoft.com/dotnet/2019/01/29/announcing-net-core-3-preview-2/) blog posts
 
 ## Continuous innovation
 
@@ -109,6 +116,8 @@ With the release of Visual Studio 2019 Preview, we are taking the first steps to
 
    ![Per-monitor aware (PMA) rendering in Visual Studio 2019](media/per-monitor-aware-dpi-scaling.png)
 
+For more information, see the [Better multi-monitor experience with Visual Studio 2019](https://devblogs.microsoft.com/visualstudio/a-better-multi-monitor-experience-with-visual-studio-2019/) blog post.
+
 ### Visual Studio IntelliCode
 
 [Visual Studio IntelliCode](/visualstudio/intellicode/) is an extension that enhances your software development efforts by using artifical intelligence (AI). IntelliCode trains across 2,000 open-source projects on GitHub&mdash;each with over 100 stars&mdash;to generate its recommendations.
@@ -119,6 +128,8 @@ Here are a few ways that Visual Studio IntelliCode can help enhance your product
 * Guide developers to adhere to the patterns and styles of their team
 * Find difficult-to-catch code issues
 * Focus code reviews by drawing attention to areas that really matter
+
+ ![An example of an IntelliSense suggestion](media/intellicode-intellisense-suggestion.png)
 
 We initially supported only C# when we first previewed the IntelliCode extension for Visual Studio. Now, we've added support for C++ and XAML in Visual Studio, too.
 

@@ -1,7 +1,6 @@
 ---
 title: Use Help Viewer table of contents
 ms.date: 11/02/2017
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
   - "hv_contents"

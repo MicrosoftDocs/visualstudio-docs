@@ -1,7 +1,6 @@
 ---
 title: References Page, Project Designer (Visual Basic)
 ms.date: 06/21/2017
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "vb.ProjectPropertiesReference"

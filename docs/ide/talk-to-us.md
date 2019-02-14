@@ -1,7 +1,6 @@
 ---
 title: "Talk to us"
 ms.date: 10/09/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "product support [Visual Studio]"

@@ -4,7 +4,6 @@ description: Learn now to create an Azure cloud service project with Visual Stud
 author: ghogen
 manager: jillfra
 assetId: ec580df7-3dcc-45a9-a1d9-8c110678dfb5
-ms.prod: visual-studio-dev15
 ms.custom: vs-azure
 ms.workload: azure-vs
 ms.topic: conceptual

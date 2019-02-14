@@ -1,7 +1,6 @@
 ---
 title: "CA2119: Seal methods that satisfy private interfaces"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "SealMethodsThatSatisfyPrivateInterfaces"

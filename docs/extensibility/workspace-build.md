@@ -2,7 +2,6 @@
 title: "Workspace build in Visual Studio | Microsoft Docs"
 ms.date: "02/21/2018"
 ms.topic: "conceptual"
-ms.assetid: 813f7a5e-f298-4469-9f4c-a5bddf5a6e14
 author: "vukelich"
 ms.author: "svukel"
 manager: "viveis"

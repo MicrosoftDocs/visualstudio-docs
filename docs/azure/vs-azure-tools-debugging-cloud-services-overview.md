@@ -8,7 +8,6 @@ ms.topic: conceptual
 ms.workload: azure-vs
 ms.date: 03/18/2017
 ms.author: mikejo
-ms.prod: visual-studio-dev15
 ms.technology: vs-ide-debug
 ---
 # Learn the various ways to debug an Azure cloud service

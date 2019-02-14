@@ -2,7 +2,6 @@
 title: Tour of the Visual Studio IDE
 titleSuffix: ""
 ms.date: 07/12/2018
-ms.prod: visual-studio-dev15
 ms.topic: quickstart
 author: gewarren
 ms.author: gewarren

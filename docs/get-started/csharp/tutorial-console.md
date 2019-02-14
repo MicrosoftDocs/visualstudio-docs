@@ -4,7 +4,6 @@ description: "Learn how to create a C# console app in Visual Studio, step-by-ste
 ms.custom: "seodec18, get-started"
 ms.date: 01/25/2019
 ms.technology: vs-ide-general
-ms.prod: visual-studio-dev15
 ms.topic: tutorial
 ms.devlang: CSharp
 author: TerryGLee
@@ -528,5 +527,4 @@ Congratulations on completing this tutorial! To learn even more, continue with t
 
 ## See also
 
-* [Video course: C# Fundamentals for Absolute Beginners](https://mva.microsoft.com/en-us/training-courses/c-fundamentals-for-absolute-beginners-16169)
 * [Learn to debug C# code in Visual Studio](tutorial-debugger.md)
