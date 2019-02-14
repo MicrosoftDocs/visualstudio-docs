@@ -356,7 +356,7 @@ First, let's rename the `name` variable:
 
 10. Run the program again by pressing **Ctrl**+**F5**. The output looks something like this:
 
-   ![Console window with program output](../media/overview-console-final.png)
+    ![Console window with program output](../media/overview-console-final.png)
 
 ::: moniker-end
 
@@ -364,7 +364,7 @@ First, let's rename the `name` variable:
 
 10. Run the program again by pressing **Ctrl**+**F5**. The output looks something like this:
 
-   ![Console window with program output](../media/vs-2019/overview-console-final.png)
+    ![Console window with program output](../media/vs-2019/overview-console-final.png)
 
 ::: moniker-end
 

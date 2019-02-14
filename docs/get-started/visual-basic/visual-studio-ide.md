@@ -53,19 +53,49 @@ Some of the popular features in Visual Studio that help you to be more productiv
 
    Squiggles are wavy underlines that alert you to errors or potential problems in your code as you type. These visual clues enable you to fix problems immediately without waiting for the error to be discovered during build or when you run the program. If you hover over a squiggle, you see additional information about the error. A light bulb may also appear in the left margin with actions, known as Quick Actions, to fix the error.
 
+   ::: moniker range="vs-2017"
+
    ![Squiggles in Visual Studio](media/squiggles-error.png)
+
+   ::: moniker-end
+
+   ::: moniker range=">=vs-2019"
+
+   ![Squiggles in Visual Studio](media/vs-2019/squiggles-error.png)
+
+   ::: moniker-end
 
 - [Refactoring](../../ide/refactoring-in-visual-studio.md)
 
    Refactoring includes operations such as intelligent renaming of variables, extracting one or more lines of code into a new method, changing the order of method parameters, and more.
 
-   ![Refactoring in Visual Studio](media/refactoring-menu.png)
+   ::: moniker range="vs-2017"
+
+   ![Refactoring menu in Visual Studio](media/refactoring-menu.png)
+
+   ::: moniker-end
+
+   ::: moniker range=">=vs-2019"
+
+   ![Refactoring menu in Visual Studio](media/vs-2019/refactorings-menu.png)
+
+   ::: moniker-end
 
 - [IntelliSense](../../ide/using-intellisense.md)
 
    IntelliSense is a term for a set of features that displays information about your code directly in the editor and, in some cases, write small bits of code for you. It's like having basic documentation inline in the editor, which saves you from having to look up type information elsewhere. IntelliSense features vary by language. For more information, see [C# IntelliSense](../../ide/visual-csharp-intellisense.md), [Visual C++ IntelliSense](../../ide/visual-cpp-intellisense.md), [JavaScript IntelliSense](../../ide/javascript-intellisense.md), and [Visual Basic IntelliSense](../../ide/visual-basic-specific-intellisense.md). The following illustration shows how IntelliSense displays a member list for a type:
 
+   ::: moniker range="vs-2017"
+
    ![Visual Studio Member List](media/intellisense-list-members.png)
+
+   ::: moniker-end
+
+   ::: moniker range=">=vs-2019"
+
+   ![Visual Studio Member List](media/vs-2019/intellisense-list-members.png)
+
+   ::: moniker-end
 
 - [Quick Launch](../../ide/reference/quick-launch-environment-options-dialog-box.md)
 
@@ -91,25 +121,65 @@ Some of the popular features in Visual Studio that help you to be more productiv
 
    The **Call Hierarchy** window shows the methods that call a selected method. This can be useful information when you're thinking about changing or removing the method, or when you're trying to track down a bug.
 
+   ::: moniker range="vs-2017"
+
    ![Call Hierarchy window in Visual Studio](media/call-hierarchy.png)
+
+   ::: moniker-end
+
+   ::: moniker range=">=vs-2019"
+
+   ![Call Hierarchy window in Visual Studio](media/vs-2019/call-hierarchy.png)
+
+   ::: moniker-end
 
 - [CodeLens](../../ide/find-code-changes-and-other-history-with-codelens.md)
 
    CodeLens helps you find references to your code, changes to your code, linked bugs, work items, code reviews, and unit tests, all without leaving the editor.
 
+   ::: moniker range="vs-2017"
+
    ![CodeLens in Visual Studio](media/codelens.png)
+
+   ::: moniker-end
+
+   ::: moniker range=">=vs-2019"
+
+   ![CodeLens in Visual Studio](media/vs-2019/codelens.png)
+
+   ::: moniker-end
 
 - [Go To Definition](../../ide/go-to-and-peek-definition.md)
 
    The Go To Definition feature takes you directly to the location where a function or type is defined.
 
-   ![Go to Definition in Visual Studio](media/go-to-definition-menu.png)
+   ::: moniker range="vs-2017"
+
+   ![Go to Definition in Visual Studio 2017](media/go-to-definition-menu.png)
+
+   ::: moniker-end
+
+   ::: moniker range=">=vs-2019"
+
+   ![Go to Definition in Visual Studio 2019](media/vs-2019/go-to-definition-menu.png)
+
+   ::: moniker-end
 
 - [Peek Definition](../../ide/how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md)
 
    The **Peek Definition** window shows the definition of a method or type without actually opening a separate file.
 
+   ::: moniker range="vs-2017"
+
    ![Peek Definition in Visual Studio](media/peek-definition.png)
+
+   ::: moniker-end
+
+   ::: moniker range=">=vs-2019"
+
+   ![Peek Definition in Visual Studio](media/vs-2019/peek-definition.png)
+
+   ::: moniker-end
 
 ## Install the Visual Studio IDE
 
