@@ -1,7 +1,7 @@
 ---
 title: "Update a network-based installation"
 description: "Learn how to update a network-based Visual Studio installation by using the --layout command"
-ms.date: 08/03/2017
+ms.date: 08/14/2017
 ms.custom: "seodec18"
 ms.topic: conceptual
 helpviewer_keywords:
