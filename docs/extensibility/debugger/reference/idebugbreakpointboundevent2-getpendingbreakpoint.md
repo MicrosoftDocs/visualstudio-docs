@@ -19,14 +19,14 @@ Gets the pending breakpoint that is being bound.
 ## Syntax
 
 ```cpp
-HRESULT GetPendingBreakpoint( 
-   IDebugPendingBreakpoint2** ppPendingBP
+HRESULT GetPendingBreakpoint(
+    IDebugPendingBreakpoint2** ppPendingBP
 );
 ```
 
 ```cpp
-int GetPendingBreakpoint( 
-   out IDebugPendingBreakpoint2 ppPendingBP
+int GetPendingBreakpoint(
+    out IDebugPendingBreakpoint2 ppPendingBP
 );
 ```
 
