@@ -1,6 +1,6 @@
 ---
 title: "Debug user code with Just My Code | Microsoft Docs"
-ms.date: "10/22/2018"
+ms.date: "02/13/2019"
 ms.topic: "conceptual"
 ms.assetid: 0f0df097-bbaf-46ad-9ad1-ef5f40435079
 author: "mikejo5000"
@@ -77,22 +77,24 @@ If first chance exceptions are enabled for the exception, the calling user-code 
 
 ## <a name="BKMK_C___Just_My_Code"></a> C++ Just My Code
   
-Starting in Visual Studio 2017 version 15.8, enabling C++ Just My Code also requires use of the [/JMC (Just my code debugging)](/cpp/build/reference/jmc) compiler switch. The switch is enabled by default.
+Starting in Visual Studio 2017 version 15.8, Just My Code for code stepping is also supported. This feature also requires use of the [/JMC (Just my code debugging)](/cpp/build/reference/jmc) compiler switch. The switch is enabled by default. For **Call Stack** window and call stack support in Just My Code, the /JMC switch is not required.
 
 <a name="BKMK_CPP_User_and_non_user_code"></a>
-Just My Code is different in C++ than in .NET Framework and JavaScript, because you can specify non-user code separately for stepping behavior and the **Call Stack** window. 
+To be classified as user code, the PDB for the binary containing the user code must be loaded by the debugger (use the **Modules** window to check this).
 
-Just My Code in C++ considers only these functions to be non-user code:
+For call stack behavior, such as in the **Call Stack** window, Just My Code in C++ considers only these functions to be *non-user code*:
 
-- For the **Call Stack** window:
-
-  - Functions with stripped source information in their symbols file.
-  - Functions where the symbol files indicate that there is no source file corresponding to the stack frame.
-  - Functions specified in *\*.natjmc* files in the *%VsInstallDirectory%\Common7\Packages\Debugger\Visualizers* folder.
+- Functions with stripped source information in their symbols file.
+- Functions where the symbol files indicate that there is no source file corresponding to the stack frame.
+- Functions specified in *\*.natjmc* files in the *%VsInstallDirectory%\Common7\Packages\Debugger\Visualizers* folder.
   
-- For stepping behavior:
+For code stepping behavior, Just My Code in C++ considers only these functions to be *non-user code*:
   
-  - Behavior matches the **Call Stack** window if you compile your project using the MSVC compilers in 15.8 Preview 3 or later, including customization support using *\*.natjmc* files (see [Customize C++ call stack behavior](#BKMK_CPP_Customize_call_stack_behavior)). For additional details, see this [blog post](https://blogs.msdn.microsoft.com/vcblog/2018/06/29/announcing-jmc-stepping-in-visual-studio/). For code compiled using older compilers, *.natstepfilter* files are the only way to customize code stepping, which is independent of Just My Code. See [Customize C++ stepping behavior](#BKMK_CPP_Customize_stepping_behavior)
+- Functions for the which the corresponding PDB file has not been loaded in the debugger.
+- Functions specified in *\*.natjmc* files in the *%VsInstallDirectory%\Common7\Packages\Debugger\Visualizers* folder.
+
+> [!NOTE]
+> For code stepping support in Just My Code, C++ code must be compiled using the MSVC compilers in Visual Studio 15.8 Preview 3 or later, and the /JMC compiler switch must be enabled (it is enabled by default). For additional details, see [Customize C++ call stack and code stepping behavior](#BKMK_CPP_Customize_call_stack_behavior)) and this [blog post](https://blogs.msdn.microsoft.com/vcblog/2018/06/29/announcing-jmc-stepping-in-visual-studio/). For code compiled using an older compiler, *.natstepfilter* files are the only way to customize code stepping, which is independent of Just My Code. See [Customize C++ stepping behavior](#BKMK_CPP_Customize_stepping_behavior).
 
 <a name="BKMK_CPP_Stepping_behavior"></a>
 During C++ debugging:
@@ -108,13 +110,13 @@ If the debugger hits an exception, it stops on the exception, whether it is in u
   
 ###  <a name="BKMK_CPP_Customize_call_stack_behavior"></a> Customize C++ call stack and code stepping behavior  
 
-For C++ projects, you can specify the modules, source files, and functions the **Call Stack** window treats as non-user code by specifying them in *\*.natjmc* files. This customization also applies to code stepping unless you are using older compilers (see [C++ Just My Code](#BKMK_CPP_User_and_non_user_code)).
+For C++ projects, you can specify the modules, source files, and functions the **Call Stack** window treats as non-user code by specifying them in *\*.natjmc* files. This customization also applies to code stepping if you are using the latest compiler (see [C++ Just My Code](#BKMK_CPP_User_and_non_user_code)).
   
--   To specify non-user code for all users of the Visual Studio machine, add the *.natjmc* file to the *%VsInstallDirectory%\Common7\Packages\Debugger\Visualizers* folder.  
--   To specify non-user code for an individual user, add the *.natjmc* file to the *%USERPROFILE%\My Documents\Visual Studio 2017\Visualizers* folder.  
+- To specify non-user code for all users of the Visual Studio machine, add the *.natjmc* file to the *%VsInstallDirectory%\Common7\Packages\Debugger\Visualizers* folder.  
+- To specify non-user code for an individual user, add the *.natjmc* file to the *%USERPROFILE%\My Documents\Visual Studio 2017\Visualizers* folder.  
 
 A *.natjmc* file is an XML file with this syntax:  
-  
+
 ```xml  
 <?xml version="1.0" encoding="utf-8"?>  
 <NonUserCode xmlns="http://schemas.microsoft.com/vstudio/debugger/jmc/2015">  
@@ -134,7 +136,7 @@ A *.natjmc* file is an XML file with this syntax:
 </NonUserCode>  
   
 ```  
-  
+
  **Module element attributes**  
   
 |Attribute|Description|  
