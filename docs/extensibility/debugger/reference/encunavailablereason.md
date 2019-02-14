@@ -76,5 +76,6 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
-[Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)  
+[Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
+[DisableENC](../../../extensibility/debugger/reference/idebugprocess3-disableenc.md)
 [GetENCAvailableState](../../../extensibility/debugger/reference/idebugprocess3-getencavailablestate.md)
