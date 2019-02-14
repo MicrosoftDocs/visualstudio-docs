@@ -20,11 +20,11 @@ This refactoring applies to:
 
 **When:** You have an anonymous type that qualifies as a tuple.
 
-**Why:** [Tuples](https://docs.microsoft.com/en-us/dotnet/csharp/tuples) are helpful in keeping your syntax lightweight. This codefix makes it easier to take advantage of this C# feature.
+**Why:** [Tuples](https://docs.microsoft.com/en-us/dotnet/csharp/tuples) are helpful in keeping your syntax lightweight. This quick action makes it easier to take advantage of this C# feature.
 
 ## How-to
 
-1. Place your cusor in an anonymous type that .
+1. Place your cursor in an anonymous type.
 2. Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
 
 ![Convert Anonymous Type to Tuple](media/convert-anon-to-tuple.png)

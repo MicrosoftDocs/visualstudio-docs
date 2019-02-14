@@ -23,11 +23,11 @@ This refactoring applies to:
 
 **When:** You have a method declaration or call that has multiple parameters.
 
-**Why:** Reading a long list of parameters is easier when they are wrapped or indented according to user preference.
+**Why:** Reading a long list of parameters is easier when they're wrapped or indented according to user preference.
 
 ## How-to
 
-1. Place your cusor in a parameter list.
+1. Place your cursor in a parameter list.
 2. Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
 
 ![Wrap, Indent, and Align parameters](media/wrap-parameters.png)

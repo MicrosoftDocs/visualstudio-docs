@@ -23,18 +23,18 @@ This refactoring applies to:
 
 **When:** You have implemented an interface and you want to move a member to the base type.
 
-**Why:** Pulling members up enables other implemetations of your interface to inherit those members as well.
+**Why:** Pulling members up enables other implementations of your interface to inherit those members as well.
 
 ## How-to
 
-1. Place your cusor in any member of an implemented interface.
+1. Place your cursor in any member of an implemented interface.
 2. Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
 
 ![Pull Members up](media/pull-members-up.png)
 
 2. Select Pull Members up to base type...
 
-3. In the dialog, select what members you would like to add and the interface you would like to add them to.
+3. In the dialog, select what members you would like to add to the selected interface.
 
 ![Pull Member up](media/pull-members-up-dialog.png)
 
