@@ -19,9 +19,9 @@ Enumerates the valid values that represent the kinds of information to take from
 ```cpp
 enum enum_DisplayKind
 {
-   DisplayKind_Value = 0x1,
-   DisplayKind_Name = 0x2,
-   DisplayKind_Type = 0x3,
+    DisplayKind_Value = 0x1,
+    DisplayKind_Name = 0x2,
+    DisplayKind_Type = 0x3,
 };
 typedef DWORD DisplayKind;
 ```
@@ -29,9 +29,9 @@ typedef DWORD DisplayKind;
 ```csharp
 public enum enum_DisplayKind
 {
-   DisplayKind_Value = 0x1,
-   DisplayKind_Name = 0x2,
-   DisplayKind_Type = 0x3,
+    DisplayKind_Value = 0x1,
+    DisplayKind_Name = 0x2,
+    DisplayKind_Type = 0x3,
 };
 ```
 
