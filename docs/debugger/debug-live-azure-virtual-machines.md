@@ -54,9 +54,9 @@ In this tutorial, you will:
 
     ![Launch the snapshot debugger from the Publish page](../debugger/media/snapshot-publish-attach.png)
 
-    * In the Debug target dropdown menu select **Snapshot Debugger**, hit **F5** and if required select the Azure VM/VMSS your web app is deployed to and an Azure storage account then click **Attach**.
+    * In the Debug target drop-down menu select **Snapshot Debugger**, hit **F5** and if necessary select the Azure VM/VMSS your web app is deployed to and an Azure storage account then click **Attach**.
 
-    ![Launch the snapshot debugger from the F5 drop down menu](../debugger/media/snapshot-F5-dropdown-attach.png)
+    ![Launch the snapshot debugger from the F5 drop-down menu](../debugger/media/snapshot-F5-dropdown-attach.png)
 
     * Using the Cloud Explorer (**View > Cloud Explorer**), right-click the Azure VM/VMSS your web app is deployed to and select an Azure storage account then click **Attach Snapshot Debugger**.
 
