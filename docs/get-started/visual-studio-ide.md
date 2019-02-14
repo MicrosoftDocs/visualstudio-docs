@@ -18,9 +18,7 @@ ms.workload:
 ---
 # Welcome to the Visual Studio IDE
 
-[!INCLUDE [overview-part-1](includes/overview-part-1.md)]
-
-[!INCLUDE [overview-part-2](includes/overview-part-2.md)]
+[!INCLUDE [overview-part-1](includes/ide-overview.md)]
 
 ## Next steps
 
