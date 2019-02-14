@@ -62,7 +62,7 @@ This structure is passed to the following methods:
 
 - [GetProcess](../../../extensibility/debugger/reference/idebugport2-getprocess.md)
 
-  And is returned from the following methods:
+And is returned from the following methods:
 
 - [GetPhysicalProcessId](../../../extensibility/debugger/reference/idebugprocess2-getphysicalprocessid.md)
 
