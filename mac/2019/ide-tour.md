@@ -27,7 +27,6 @@ Visual Studio for Mac supports the following types of development:
 - Android, iOS, tvOS, and watchOS applications in Xamarin with C# or F# and XAML
 - Cocoa desktop apps in C# or F#
 
-
 This article explores various sections of Visual Studio for Mac, providing a look at some of the features that make it a powerful tool for creating these applications.
 
 ## IDE tour
