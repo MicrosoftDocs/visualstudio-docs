@@ -139,11 +139,15 @@ You can personalize the Visual Studio user interface, including change the defau
 
 To change to the **Dark** theme:
 
+::: moniker range="vs-2017"
+
 1. Open Visual Studio.
+
+::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
-   On the Start window, choose **Continue without code**.
+1. Open Visual Studio. On the Start window, choose **Continue without code**.
 
    ![Start window in Visual Studio 2019](media/vs-2019/continue-without-code.png)
 
