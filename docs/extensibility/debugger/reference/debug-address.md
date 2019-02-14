@@ -20,19 +20,19 @@ This structure represents an address.
 
 ```cpp
 typedef struct _tagDEBUG_ADDRESS {
-   ULONG32             ulAppDomainID;
-   GUID                guidModule;
-   _mdToken            tokClass;
-   DEBUG_ADDRESS_UNION addr;
+    ULONG32             ulAppDomainID;
+    GUID                guidModule;
+    _mdToken            tokClass;
+    DEBUG_ADDRESS_UNION addr;
 } DEBUG_ADDRESS;
 ```
 
 ```csharp
 public struct DEBUG_ADDRESS {
-   public uint                ulAppDomainID;
-   public Guid                guidModule;
-   public int                 tokClass;
-   public DEBUG_ADDRESS_UNION addr;
+    public uint                ulAppDomainID;
+    public Guid                guidModule;
+    public int                 tokClass;
+    public DEBUG_ADDRESS_UNION addr;
 }
 ```
 
