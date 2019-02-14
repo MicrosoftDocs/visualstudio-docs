@@ -15,7 +15,7 @@ ms.workload:
 ---
 # Welcome to the Visual Studio IDE | C#
 
-[!INCLUDE [overview-part-1](../includes/overview-part-1.md)]
+[!INCLUDE [overview-part-1](../includes/ide-overview.md)]
 
 ## Select environment settings
 
@@ -32,8 +32,6 @@ Let's configure Visual Studio to use environment settings tailored to C# develop
 5. On the **Reset Complete** page, choose **Close**.
 
 To learn about other ways you can personalize the IDE, see [Personalize Visual Studio](../../ide/personalizing-the-visual-studio-ide.md).
-
-[!INCLUDE [overview-part-2](../includes/overview-part-2.md)]
 
 ## Next steps
 
