@@ -18,15 +18,15 @@ Retrieves the document checksum for a breakpoint request given the unique identi
 
 ```cpp
 HRESULT GetChecksum(
-   REFGUID        guidAlgorithm,
-   CHECKSUM_DATA *pChecksumData
+    REFGUID        guidAlgorithm,
+    CHECKSUM_DATA *pChecksumData
 );
 ```
 
 ```csharp
 public int GetChecksum(
-   ref Guid               guidAlgorithm,
-   out enum_CHECKSUM_DATA pChecksumData
+    ref Guid               guidAlgorithm,
+    out enum_CHECKSUM_DATA pChecksumData
 );
 ```
 
