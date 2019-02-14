@@ -44,6 +44,8 @@ By default, references are grouped by project, then by definition. However, you 
 ## Filter by Reference type in .NET
 In C# or Visual Basic the Find References window has a Kind column where it lists what type of reference it found. This column can be used to filter by reference type by clicking on the filter icon that appears when hovering over the column header. References can be filtered by Read, Write, Reference, and NameOnly.
 
+![Find References Window Kind column ](../ide/media/vside_findallreferencesKind.png)
+
 ## See also
 
 - [Navigating code](../ide/navigating-code.md)
