@@ -1,6 +1,6 @@
 ---
 title: Pull Members Up
-ms.date: 01/26/2018
+ms.date: 02/13/2019
 ms.topic: reference
 author: kehavens
 ms.author: kehavens
