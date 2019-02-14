@@ -1,4 +1,4 @@
-# [Visual Studio for Mac](index.md)
+# [Visual Studio for Mac](index.yml)
 # [IDE Tour](/visualstudio/mac/ide-tour/)
 
 # [Installation](/visualstudio/mac/installation/)
