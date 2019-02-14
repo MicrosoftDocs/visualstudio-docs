@@ -21,7 +21,7 @@ Deletes the breakpoint.
 
 ```cpp
 HRESULT Delete( 
-   void 
+    void 
 );
 ```
 
@@ -38,27 +38,27 @@ The following example shows how to implement this method for a simple `CBoundBre
 ```
 HRESULT CBoundBreakpoint::Delete(void)
 {
-   HRESULT hr;
+    HRESULT hr;
 
-   // Verify that the bound breakpoint has not been
-   // deleted. If deleted, then return hr = E_BP_DELETED.
-   if (m_state != BPS_DELETED)
-   {
-      m_pInterp->RemoveBreakpoint(m_sbstrDoc, this);
+    // Verify that the bound breakpoint has not been
+    // deleted. If deleted, then return hr = E_BP_DELETED.
+    if (m_state != BPS_DELETED)
+    {
+        m_pInterp->RemoveBreakpoint(m_sbstrDoc, this);
 
-      // Change the state of the breakpoint to BPS_DELETED.
-      m_state = BPS_DELETED;
-      hr = S_OK;
-   }
-   else
-   {
-      hr = E_BP_DELETED;
-   }
+        // Change the state of the breakpoint to BPS_DELETED.
+        m_state = BPS_DELETED;
+        hr = S_OK;
+    }
+    else
+    {
+        hr = E_BP_DELETED;
+    }
 
-   return hr;
+    return hr;
 }
 ```
 
 ## See Also
-[IDebugBoundBreakpoint2](../../../extensibility/debugger/reference/idebugboundbreakpoint2.md)
+[IDebugBoundBreakpoint2](../../../extensibility/debugger/reference/idebugboundbreakpoint2.md)  
 [BP_STATE](../../../extensibility/debugger/reference/bp-state.md)
