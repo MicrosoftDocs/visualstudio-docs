@@ -21,13 +21,13 @@ Gets the state of this bound breakpoint.
 
 ```cpp
 HRESULT GetState( 
-   BP_STATE* pState
+    BP_STATE* pState
 );
 ```
 
 ```csharp
 int GetState( 
-   out enum_BP_STATE pState
+    out enum_BP_STATE pState
 );
 ```
 
@@ -44,20 +44,20 @@ The following example shows how to implement this method for a simple `CBoundBre
 ```
 HRESULT CBoundBreakpoint::GetState(BP_STATE* pState)
 {
-   HRESULT hr;
+    HRESULT hr;
 
-   // Check for a valid pointer to pState and assign the local state variable.
-   if (pState)
-   {
-      *pState = m_state;
-      hr = S_OK;
-   }
-   else
-   {
-      hr = E_INVALIDARG;
-   }
+    // Check for a valid pointer to pState and assign the local state variable.
+    if (pState)
+    {
+        *pState = m_state;
+        hr = S_OK;
+    }
+    else
+    {
+        hr = E_INVALIDARG;
+    }
 
-   return hr;
+    return hr;
 }
 ```
 
