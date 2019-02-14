@@ -27,7 +27,7 @@ sections:
     - href: ~/ide-tour.md
       html: <p></p>
       image:
-        src: https://docs.microsoft.com/media/logos/logo_vs-mac.svg.svg
+        src: https://docs.microsoft.com/media/logos/logo_vs-mac.svg
       title: Tour Visual Studio for Mac
     - href: ~/installation.md?view=vsmac-2019
       html: <p></p>
