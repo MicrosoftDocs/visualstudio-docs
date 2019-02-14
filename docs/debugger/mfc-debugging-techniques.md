@@ -50,7 +50,7 @@ If you are debugging an MFC program, these debugging techniques may be useful.
 
   - [Customizing object dumps](#BKMK_Customizing_object_dumps)
 
-    [Reducing the size of an MFC Debug build](#BKMK_Reducing_the_size_of_an_MFC_Debug_build)
+  - [Reducing the size of an MFC Debug build](#BKMK_Reducing_the_size_of_an_MFC_Debug_build)
 
   - [Building an MFC app with debug information for selected modules](#BKMK_Building_an_MFC_app_with_debug_information_for_selected_modules)
 
@@ -329,7 +329,7 @@ Phone #: 581-0215
 
 **Nonobject Allocations**
 
-Notice that some allocations are objects (such as `CPerson`) and some are nonobject allocations. "Nonobject allocations" are allocations for objects not derived from `CObject` or allocations of primitive C types such as `char`, `int`, or `long`. If the **CObject-**derived class allocates additional space, such as for internal buffers, those objects will show both object and nonobject allocations.
+Notice that some allocations are objects (such as `CPerson`) and some are nonobject allocations. "Nonobject allocations" are allocations for objects not derived from `CObject` or allocations of primitive C types such as `char`, `int`, or `long`. If the <strong>CObject-</strong>derived class allocates additional space, such as for internal buffers, those objects will show both object and nonobject allocations.
 
 **Preventing Memory Leaks**
 
