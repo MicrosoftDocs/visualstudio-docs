@@ -143,7 +143,7 @@ To change to the **Dark** theme:
 
 ::: moniker range=">=vs-2019"
 
-1. On the Start window, choose **Continue without code**.
+   On the Start window, choose **Continue without code**.
 
    ![Start window in Visual Studio 2019](media/vs-2019/continue-without-code.png)
 
@@ -151,31 +151,25 @@ To change to the **Dark** theme:
 
 ::: moniker-end
 
-1. On the menu bar, choose **Tools** > **Options** to open the **Options** dialog.
+2. On the menu bar, choose **Tools** > **Options** to open the **Options** dialog.
 
-::: moniker range="vs-2017"
-
-1. On the **Environment** > **General** options page, change the **Color theme** selection to **Dark**, and then choose **OK**.
+3. On the **Environment** > **General** options page, change the **Color theme** selection to **Dark**, and then choose **OK**.
 
    ![Change color theme to dark in Visual Studio](media/change-color-theme.png)
 
    The color theme for the entire IDE changes to **Dark**.
+
+   ::: moniker range="vs-2017"
 
    ![Visual Studio in dark theme](../../ide/media/quickstart-personalize-dark-theme.png)
 
-::: moniker-end
+   ::: moniker-end
 
-::: moniker range=">=vs-2019"
-
-1. On the **Environment** > **General** options page, change the **Color theme** selection to **Dark**, and then choose **OK**.
-
-   ![Change color theme to dark in Visual Studio](media/change-color-theme.png)
-
-   The color theme for the entire IDE changes to **Dark**.
+   ::: moniker range=">=vs-2019"
 
    ![Visual Studio in dark theme](media/vs-2019/dark-theme.png)
 
-::: moniker-end
+   ::: moniker-end
 
 ### Select environment settings
 
