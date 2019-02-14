@@ -1,6 +1,6 @@
 ---
 title: "Debug user code with Just My Code | Microsoft Docs"
-ms.date: "10/22/2018"
+ms.date: "02/13/2019"
 ms.topic: "conceptual"
 ms.assetid: 0f0df097-bbaf-46ad-9ad1-ef5f40435079
 author: "mikejo5000"
@@ -76,25 +76,25 @@ If an unhandled exception occurs in non-user code, the debugger breaks at the us
 If first chance exceptions are enabled for the exception, the calling user-code line is highlighted in green in source code. The **Call Stack** window displays the annotated frame labeled **[External Code]**.
 
 ## <a name="BKMK_C___Just_My_Code"></a> C++ Just My Code
-
-In C++, enabling Just My Code is the same as using the [/JMC (Just my code debugging)](/cpp/build/reference/jmc) compiler switch.
+  
+Starting in Visual Studio 2017 version 15.8, Just My Code for code stepping is also supported. This feature also requires use of the [/JMC (Just my code debugging)](/cpp/build/reference/jmc) compiler switch. The switch is enabled by default. For **Call Stack** window and call stack support in Just My Code, the /JMC switch is not required.
 
 <a name="BKMK_CPP_User_and_non_user_code"></a>
-Just My Code is different in C++ than in .NET Framework and JavaScript, because you can specify non-user files separately for stepping behavior and the **Call Stack** window.
+To be classified as user code, the PDB for the binary containing the user code must be loaded by the debugger (use the **Modules** window to check this).
 
-Just My Code in C++ considers only these functions to be non-user code:
+For call stack behavior, such as in the **Call Stack** window, Just My Code in C++ considers only these functions to be *non-user code*:
 
-- For the **Call Stack** window:
+- Functions with stripped source information in their symbols file.
+- Functions where the symbol files indicate that there is no source file corresponding to the stack frame.
+- Functions specified in *\*.natjmc* files in the *%VsInstallDirectory%\Common7\Packages\Debugger\Visualizers* folder.
+  
+For code stepping behavior, Just My Code in C++ considers only these functions to be *non-user code*:
+  
+- Functions for the which the corresponding PDB file has not been loaded in the debugger.
+- Functions specified in *\*.natjmc* files in the *%VsInstallDirectory%\Common7\Packages\Debugger\Visualizers* folder.
 
-  - Functions with stripped source information in their symbols file.
-  - Functions where the symbol files indicate that there is no source file corresponding to the stack frame.
-  - Functions specified in *\*.natjmc* files in the *%VsInstallDirectory%\Common7\Packages\Debugger\Visualizers* folder.
-
-- For stepping behavior:
-
-  - Functions specified in *\*.natstepfilter* files in the *%VsInstallDirectory%\Common7\Packages\Debugger\Visualizers* folder.
-
-You can create *.natstepfilter* and *.natjmc* files to customize Just My Code stepping behavior and the **Call Stack** window. See [Customize C++ stepping behavior](#BKMK_CPP_Customize_stepping_behavior) and [Customize C++ call stack behavior](#BKMK_CPP_Customize_call_stack_behavior).
+> [!NOTE]
+> For code stepping support in Just My Code, C++ code must be compiled using the MSVC compilers in Visual Studio 15.8 Preview 3 or later, and the /JMC compiler switch must be enabled (it is enabled by default). For additional details, see [Customize C++ call stack and code stepping behavior](#BKMK_CPP_Customize_call_stack_behavior)) and this [blog post](https://blogs.msdn.microsoft.com/vcblog/2018/06/29/announcing-jmc-stepping-in-visual-studio/). For code compiled using an older compiler, *.natstepfilter* files are the only way to customize code stepping, which is independent of Just My Code. See [Customize C++ stepping behavior](#BKMK_CPP_Customize_stepping_behavior).
 
 <a name="BKMK_CPP_Stepping_behavior"></a>
 During C++ debugging:
@@ -106,118 +106,118 @@ If there's no more user code, debugging continues until it ends, hits another br
 
 If the debugger breaks in non-user code (for example, you use **Debug** > **Break All** and pause in non-user code), stepping continues in the non-user code.
 
-If the debugger hits an exception, it stops on the exception, whether it is in user or non-user code. **User-unhandled** options in the **Exception Settings** dialog box are ignored.
+If the debugger hits an exception, it stops on the exception, whether it is in user or non-user code. **User-unhandled** options in the **Exception Settings** dialog box are ignored.   
+  
+###  <a name="BKMK_CPP_Customize_call_stack_behavior"></a> Customize C++ call stack and code stepping behavior  
 
-### <a name="BKMK_CPP_Customize_stepping_behavior"></a> Customize C++ stepping behavior
+For C++ projects, you can specify the modules, source files, and functions the **Call Stack** window treats as non-user code by specifying them in *\*.natjmc* files. This customization also applies to code stepping if you are using the latest compiler (see [C++ Just My Code](#BKMK_CPP_User_and_non_user_code)).
+  
+- To specify non-user code for all users of the Visual Studio machine, add the *.natjmc* file to the *%VsInstallDirectory%\Common7\Packages\Debugger\Visualizers* folder.  
+- To specify non-user code for an individual user, add the *.natjmc* file to the *%USERPROFILE%\My Documents\Visual Studio 2017\Visualizers* folder.  
 
-In C++ projects, you can specify functions to step over by listing them as non-user code in *\*.natstepfilter* files.
+A *.natjmc* file is an XML file with this syntax:  
 
-- To specify non-user code for all local Visual Studio users, add the *.natstepfilter* file to the *%VsInstallDirectory%\Common7\Packages\Debugger\Visualizers* folder.
-- To specify non-user code for an individual user, add the *.natstepfilter* file to the *%USERPROFILE%\My Documents\Visual Studio 2017\Visualizers* folder.
+```xml  
+<?xml version="1.0" encoding="utf-8"?>  
+<NonUserCode xmlns="http://schemas.microsoft.com/vstudio/debugger/jmc/2015">  
+  
+  <!-- Modules -->  
+  <Module Name="ModuleSpec" />  
+  <Module Name="ModuleSpec" Company="CompanyName" />  
+  
+  <!-- Files -->  
+  <File Name="FileSpec"/>  
+  
+  <!-- Functions -->  
+  <Function Name="FunctionSpec" />  
+  <Function Name="FunctionSpec" Module ="ModuleSpec" />  
+  <Function Name="FunctionSpec" Module ="ModuleSpec" ExceptionImplementation="true" />  
+  
+</NonUserCode>  
+  
+```  
 
-A *.natstepfilter* file is an XML file with this syntax:
+ **Module element attributes**  
+  
+|Attribute|Description|  
+|---------------|-----------------|  
+|`Name`|Required. The full path of the module or modules. You can use the Windows wildcard characters `?` (zero or one character) and `*` (zero or more characters). For example,<br /><br /> `<Module Name="?:\3rdParty\UtilLibs\*" />`<br /><br /> tells the debugger to treat all modules in *\3rdParty\UtilLibs* on any drive as external code.|  
+|`Company`|Optional. The name of the company that publishes the module that is embedded in the executable file. You can use this attribute to disambiguate the modules.|  
+  
+ **File element attributes**  
+  
+|Attribute|Description|  
+|---------------|-----------------|  
+|`Name`|Required. The full path of the source file or files to treat as external code. You can use the Windows wildcard characters `?` and `*` when specifying the path.|  
+  
+ **Function element attributes**  
+  
+|Attribute|Description|  
+|---------------|-----------------|  
+|`Name`|Required. The fully qualified name of the function to treat as external code.|  
+|`Module`|Optional. The name or full path to the module that contains the function. You can use this attribute to disambiguate functions with the same name.|  
+|`ExceptionImplementation`|When set to `true`, the call stack displays the function that threw the exception rather than this function.|  
 
-```xml
-<?xml version="1.0" encoding="utf-8"?>
-<StepFilter xmlns="http://schemas.microsoft.com/vstudio/debugger/natstepfilter/2010">
-    <Function>
-        <Name>FunctionSpec</Name>
-        <Action>StepAction</Action>
-    </Function>
-    <Function>
-        <Name>FunctionSpec</Name>
-        <Module>ModuleSpec</Module>
-        <Action>StepAction</Action>
-    </Function>
-</StepFilter>
+###  <a name="BKMK_CPP_Customize_stepping_behavior"></a> Customize C++ stepping behavior independent of Just My Code settings
 
-```
+In C++ projects, you can specify functions to step over by listing them as non-user code in *\*.natstepfilter* files. Functions listed in *\*.natstepfilter* files are not dependent on Just My Code settings.
+  
+- To specify non-user code for all local Visual Studio users, add the *.natstepfilter* file to the *%VsInstallDirectory%\Common7\Packages\Debugger\Visualizers* folder.  
+- To specify non-user code for an individual user, add the *.natstepfilter* file to the *%USERPROFILE%\My Documents\Visual Studio 2017\Visualizers* folder.  
+  
+A *.natstepfilter* file is an XML file with this syntax:  
+  
+```xml  
+<?xml version="1.0" encoding="utf-8"?>  
+<StepFilter xmlns="http://schemas.microsoft.com/vstudio/debugger/natstepfilter/2010">  
+    <Function>  
+        <Name>FunctionSpec</Name>  
+        <Action>StepAction</Action>  
+    </Function>  
+    <Function>  
+        <Name>FunctionSpec</Name>  
+        <Module>ModuleSpec</Module>  
+        <Action>StepAction</Action>  
+    </Function>  
+</StepFilter>  
+  
+```  
+  
+|Element|Description|  
+|-------------|-----------------|  
+|`Function`|Required. Specifies one or more functions as non-user functions.|  
+|`Name`|Required. An ECMA-262 formatted regular expression specifying the full function name to match. For example:<br /><br /> `<Name>MyNS::MyClass.*</Name>`<br /><br /> tells the debugger that all methods in `MyNS::MyClass` are to be considered non-user code. The match is case-sensitive.|  
+|`Module`|Optional. An ECMA-262 formatted regular expression specifying the full path to the module containing the function. The match is case-insensitive.|  
+|`Action`|Required. One of these case-sensitive values:<br /><br /> `NoStepInto`  - tells the debugger to step over the function.<br /> `StepInto`  - tells the debugger to step into the function, overriding any other `NoStepInto` for the matched function.| 
+  
+##  <a name="BKMK_JavaScript_Just_My_Code"></a> JavaScript Just My Code  
 
-|Element|Description|
-|-------------|-----------------|
-|`Function`|Required. Specifies one or more functions as non-user functions.|
-|`Name`|Required. An ECMA-262 formatted regular expression specifying the full function name to match. For example:<br /><br /> `<Name>MyNS::MyClass.*</Name>`<br /><br /> tells the debugger that all methods in `MyNS::MyClass` are to be considered non-user code. The match is case-sensitive.|
-|`Module`|Optional. An ECMA-262 formatted regular expression specifying the full path to the module containing the function. The match is case-insensitive.|
-|`Action`|Required. One of these case-sensitive values:<br /><br /> `NoStepInto`  - tells the debugger to step over the function.<br /> `StepInto`  - tells the debugger to step into the function, overriding any other `NoStepInto` for the matched function.|
+<a name="BKMK_JS_User_and_non_user_code"></a> 
+JavaScript Just My Code controls stepping and call stack display by categorizing code in one of these classifications:  
 
-### <a name="BKMK_CPP_Customize_call_stack_behavior"></a> Customize C++ call stack behavior
+|||  
+|-|-|  
+|**MyCode**|User code that you own and control.|  
+|**LibraryCode**|Non-user code from libraries that you use regularly and your app relies on to function correctly (for example WinJS or jQuery).|  
+|**UnrelatedCode**|Non-user code in your app that you don't own and your app doesn't rely on to function correctly. For example, an advertising SDK that displays ads could be UnrelatedCode. In UWP projects, any code that is loaded into your app from an HTTP or HTTPS URI is also considered UnrelatedCode.|  
 
-For C++ projects, you can specify the modules, source files, and functions the **Call Stack** window treats as non-user code by specifying them in *\*.natjmc* files.
+The JavaScript debugger classifies code as user or non-user in this order:  
+  
+1. The default classifications.  
+   -   Script executed by passing a string to the host-provided `eval` function is **MyCode**.  
+   -   Script executed by passing a string to the `Function` constructor is **LibraryCode**.  
+   -   Script in a framework reference, such as WinJS or the Azure SDK, is **LibraryCode**.  
+   -   Script executed by passing a string to the `setTimeout`, `setImmediate`, or `setInterval` functions is **UnrelatedCode**.  
+   
+2. Classifications specified for all Visual Studio JavaScript projects in the *%VSInstallDirectory%\JavaScript\JustMyCode\mycode.default.wwa.json* file.  
+   
+3. Classifications in the *mycode.json* file of the current project.  
+  
+Each classification step overrides the previous steps. 
 
-- To specify non-user code for all users of the Visual Studio machine, add the *.natjmc* file to the *%VsInstallDirectory%\Common7\Packages\Debugger\Visualizers* folder.
-- To specify non-user code for an individual user, add the *.natjmc* file to the *%USERPROFILE%\My Documents\Visual Studio 2017\Visualizers* folder.
+All other code is classified as **MyCode**.  
 
-A *.natjmc* file is an XML file with this syntax:
-
-```xml
-<?xml version="1.0" encoding="utf-8"?>
-<NonUserCode xmlns="http://schemas.microsoft.com/vstudio/debugger/jmc/2015">
-
-  <!-- Modules -->
-  <Module Name="ModuleSpec" />
-  <Module Name="ModuleSpec" Company="CompanyName" />
-
-  <!-- Files -->
-  <File Name="FileSpec"/>
-
-  <!-- Functions -->
-  <Function Name="FunctionSpec" />
-  <Function Name="FunctionSpec" Module ="ModuleSpec" />
-  <Function Name="FunctionSpec" Module ="ModuleSpec" ExceptionImplementation="true" />
-
-</NonUserCode>
-
-```
-
-**Module element attributes**
-
-|Attribute|Description|
-|---------------|-----------------|
-|`Name`|Required. The full path of the module or modules. You can use the Windows wildcard characters `?` (zero or one character) and `*` (zero or more characters). For example,<br /><br /> `<Module Name="?:\3rdParty\UtilLibs\*" />`<br /><br /> tells the debugger to treat all modules in *\3rdParty\UtilLibs* on any drive as external code.|
-|`Company`|Optional. The name of the company that publishes the module that is embedded in the executable file. You can use this attribute to disambiguate the modules.|
-
-**File element attributes**
-
-|Attribute|Description|
-|---------------|-----------------|
-|`Name`|Required. The full path of the source file or files to treat as external code. You can use the Windows wildcard characters `?` and `*` when specifying the path.|
-
-**Function element attributes**
-
-|Attribute|Description|
-|---------------|-----------------|
-|`Name`|Required. The fully qualified name of the function to treat as external code.|
-|`Module`|Optional. The name or full path to the module that contains the function. You can use this attribute to disambiguate functions with the same name.|
-|`ExceptionImplementation`|When set to `true`, the call stack displays the function that threw the exception rather than this function.|
-
-## <a name="BKMK_JavaScript_Just_My_Code"></a> JavaScript Just My Code
-
-<a name="BKMK_JS_User_and_non_user_code"></a>
-JavaScript Just My Code controls stepping and call stack display by categorizing code in one of these classifications:
-
-|||
-|-|-|
-|**MyCode**|User code that you own and control.|
-|**LibraryCode**|Non-user code from libraries that you use regularly and your app relies on to function correctly (for example WinJS or jQuery).|
-|**UnrelatedCode**|Non-user code in your app that you don't own and your app doesn't rely on to function correctly. For example, an advertising SDK that displays ads could be UnrelatedCode. In UWP projects, any code that is loaded into your app from an HTTP or HTTPS URI is also considered UnrelatedCode.|
-
-The JavaScript debugger classifies code as user or non-user in this order:
-
-1. The default classifications.
-   - Script executed by passing a string to the host-provided `eval` function is **MyCode**.
-   - Script executed by passing a string to the `Function` constructor is **LibraryCode**.
-   - Script in a framework reference, such as WinJS or the Azure SDK, is **LibraryCode**.
-   - Script executed by passing a string to the `setTimeout`, `setImmediate`, or `setInterval` functions is **UnrelatedCode**.
-
-2. Classifications specified for all Visual Studio JavaScript projects in the *%VSInstallDirectory%\JavaScript\JustMyCode\mycode.default.wwa.json* file.
-
-3. Classifications in the *mycode.json* file of the current project.
-
-Each classification step overrides the previous steps.
-
-All other code is classified as **MyCode**.
-
-You can modify the default classifications, and classify specific files and URLs as user or non-user code, by adding a *.json* file named *mycode.json* to the root folder of a JavaScript project. See [Customize JavaScript Just My Code](#BKMK_JS_Customize_Just_My_Code).
+You can modify the default classifications, and classify specific files and URLs as user or non-user code, by adding a *.json* file named *mycode.json* to the root folder of a JavaScript project. See [Customize JavaScript Just My Code](#BKMK_JS_Customize_Just_My_Code). 
 
 <a name="BKMK_JS_Stepping_behavior"></a>
 During JavaScript debugging:
