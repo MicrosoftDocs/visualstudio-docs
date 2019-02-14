@@ -17,7 +17,7 @@ sections:
   - type: list
     style: cards
     className: cardsM
-    columns: 2
+    columns: 3
     items:
     - href: ~/installation.md
       html: <p></p>
@@ -27,8 +27,13 @@ sections:
     - href: ~/ide-tour.md
       html: <p></p>
       image:
-        src: https://docs.microsoft.com/media/logos/logo_visual-studio.svg
+        src: https://docs.microsoft.com/media/logos/logo_vs-mac.svg.svg
       title: Tour Visual Studio for Mac
+    - href: ~/installation.md?view=vsmac-2019
+      html: <p></p>
+      image:
+        src: https://docs.microsoft.com/media/logos/logo_visual-studio.svg
+      title: Try 2019 Preview!
 - title: What apps can I build?
   items:
   - type: paragraph
