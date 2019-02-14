@@ -109,7 +109,7 @@ When you save IntelliTrace data to file, you get one .itrace file for each proce
 
 [Collect data from a windows service using the IntelliTrace Standalone Collector](https://devblogs.microsoft.com/devops/collect-data-from-a-windows-service-using-the-intellitrace-standalone-collector/)
 
-[Editing the IntelliTrace collection plan](https://devblogs.microsoft.com/devops/2015/03/09/editing-the-intellitrace-collection-plan/)
+[Editing the IntelliTrace collection plan](https://devblogs.microsoft.com/devops/editing-the-intellitrace-collection-plan)
 
 [Custom TraceSource and debugging using IntelliTrace](https://devblogs.microsoft.com/devops/custom-tracesource-and-debugging-using-intellitrace/)
 
