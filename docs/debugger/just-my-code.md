@@ -77,7 +77,7 @@ If first chance exceptions are enabled for the exception, the calling user-code 
 
 ## <a name="BKMK_C___Just_My_Code"></a> C++ Just My Code
   
-Starting in Visual Studio 2017 version 15.8, Just My Code for code stepping is also supported. This feature also requires use of the [/JMC (Just my code debugging)](/cpp/build/reference/jmc) compiler switch. The switch is enabled by default. For **Call Stack** window and call stack support in Just My Code, the /JMC switch is not required.
+Starting in Visual Studio 2017 version 15.8, Just My Code for code stepping is also supported. This feature also requires use of the [/JMC (Just my code debugging)](/cpp/build/reference/jmc) compiler switch. The switch is enabled by default in C++ projects. For **Call Stack** window and call stack support in Just My Code, the /JMC switch is not required.
 
 <a name="BKMK_CPP_User_and_non_user_code"></a>
 To be classified as user code, the PDB for the binary containing the user code must be loaded by the debugger (use the **Modules** window to check this).
