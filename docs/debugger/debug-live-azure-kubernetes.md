@@ -51,7 +51,7 @@ In this tutorial, you will:
 
 1. There are several ways to attach the Snapshot Debugger.
     * Choose **Debug > Attach Snapshot Debugger...**. Select the AKS resource your web app is deployed to and an Azure storage account then click **Attach**.
-    ![Launch the snapshot debugger from the Debug menu](../debugger/media/snapshot-debug-menu-attach.png)
+     ![Launch the snapshot debugger from the Debug menu](../debugger/media/snapshot-debug-menu-attach.png)
 
     * Right click on your project and select **Publish**, on the Publish page click **Attach Snapshot Debugger**. Select the AKS resource your web app is deployed to and an Azure storage account then click **Attach**.
     ![Launch the snapshot debugger from the Publish page](../debugger/media/snapshot-publish-attach.png)
