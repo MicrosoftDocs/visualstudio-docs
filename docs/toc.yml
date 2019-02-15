@@ -337,7 +337,7 @@
             href: ide/reference/extract-method.md
           - name: Inline temporary variable
             href: ide/reference/inline-temporary-variable.md
-          - name: Wrap, Indent, and Align Parameters
+          - name: Wrap, indent, and align parameters
             href: ide/reference/wrap-align-indent-parameters.md
           - name: Move declaration near reference
             href: ide/reference/move-declaration-near-reference.md
@@ -351,9 +351,9 @@
             href: ide/reference/sync-type-and-file.md
           - name: Use explicit type
             href: ide/reference/convert-var-to-explicit-type.md
-          - name: Convert Anonymous Type to Tuple
+          - name: Convert anonymous type to tuple
             href: ide/reference/convert-anonymous-type-to-tuple.md
-          - name: Convert Anonymous type to Class
+          - name: Convert anonymous type to class
             href: ide/reference/convert-anonymous-type-to-class.md
         - name: "Walkthrough: Generate code from usage"
           href: ide/walkthrough-test-first-support-with-the-generate-from-usage-feature.md

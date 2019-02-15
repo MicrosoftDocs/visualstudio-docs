@@ -10,7 +10,7 @@ dev_langs:
 ms.workload:
   - "dotnet"
 ---
-# Convert Anonymous Type to Class
+# Convert anonymous type to class
 
 This refactoring applies to:
 
@@ -27,11 +27,11 @@ This refactoring applies to:
 1. Place your cursor in an anonymous type.
 2. Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
 
-![Convert Anonymous Type to Class](media/convert-anon-to-class.png)
+   ![Convert Anonymous Type to Class](media/convert-anon-to-class.png)
 
 2. Hit **Enter** to accept.
 
-![Convert Anonymous Type to Class accepted](media/convert-anon-to-class-complete.png)
+   ![Convert Anonymous Type to Class accepted](media/convert-anon-to-class-complete.png)
 
 ## See also
 

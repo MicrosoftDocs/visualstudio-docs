@@ -34,7 +34,7 @@ This refactoring applies to:
 
 3. Press **Enter** to accept the refactoring.
 
-![Wrap, Indent, and Align parameters applied](media/wrap-parameters-completed.png)
+   ![Wrap, Indent, and Align parameters applied](media/wrap-parameters-completed.png)
 
 ## See also
 

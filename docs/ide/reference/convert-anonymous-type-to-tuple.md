@@ -10,7 +10,7 @@ dev_langs:
 ms.workload:
   - "dotnet"
 ---
-# Convert Anonymous Type to Tuple
+# Convert anonymous type to tuple
 
 This refactoring applies to:
 
@@ -27,11 +27,11 @@ This refactoring applies to:
 1. Place your cursor in an anonymous type.
 2. Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
 
-![Convert Anonymous Type to Tuple](media/convert-anon-to-tuple.png)
+   ![Convert Anonymous Type to Tuple](media/convert-anon-to-tuple.png)
 
 2. Hit **Enter** to accept.
 
-![Convert Anonymous Type to Tuple](media/convert-anon-to-tuple-complete.png)
+   ![Convert Anonymous Type to Tuple](media/convert-anon-to-tuple-complete.png)
 
 ## See also
 

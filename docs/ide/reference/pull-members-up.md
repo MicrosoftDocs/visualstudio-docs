@@ -11,7 +11,7 @@ dev_langs:
 ms.workload:
   - "dotnet"
 ---
-# Pull Members Up
+# Pull members up
 
 This refactoring applies to:
 
@@ -30,17 +30,17 @@ This refactoring applies to:
 1. Place your cursor in any member of an implemented interface.
 2. Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
 
-![Pull Members up](media/pull-members-up.png)
+   ![Pull Members up](media/pull-members-up.png)
 
 2. Select **Pull Members up to base type**.
 
 3. In the dialog, select what members you would like to add to the selected interface.
 
-![Pull Member up](media/pull-members-up-dialog.png)
+   ![Pull Member up](media/pull-members-up-dialog.png)
 
 4. Choose **OK**. The selected members are pulled up to the interface.
 
-![Pull Member up completed](media/pull-members-up-completed.png)
+   ![Pull Member up completed](media/pull-members-up-completed.png)
 
 ## See also
 
