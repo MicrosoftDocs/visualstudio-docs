@@ -47,7 +47,8 @@ In this tutorial, you will:
 
 1. There are several ways to attach the Snapshot Debugger.
     * Choose **Debug > Attach Snapshot Debugger...**. Select the Azure VM/VMSS your web app is deployed to and an Azure storage account then click **Attach**.
-    ![Launch the snapshot debugger from the Debug menu](../debugger/media/snapshot-debug-menu-attach.png)
+  
+      ![Launch the snapshot debugger from the Debug menu](../debugger/media/snapshot-debug-menu-attach.png)
 
     * Right click on your project and select **Publish**, on the Publish page click **Attach Snapshot Debugger**. Select the Azure VM/VMSS your web app is deployed to and an Azure storage account then click **Attach**.
     ![Launch the snapshot debugger from the Publish page](../debugger/media/snapshot-publish-attach.png)
@@ -56,7 +57,8 @@ In this tutorial, you will:
     ![Launch the snapshot debugger from the F5 drop-down menu](../debugger/media/snapshot-F5-dropdown-attach.png)
 
     * Using the Cloud Explorer (**View > Cloud Explorer**), right-click the Azure VM/VMSS your web app is deployed to and select an Azure storage account then click **Attach Snapshot Debugger**.
-    ![Launch the snapshot debugger from the Cloud Explorer](../debugger/media/snapshot-launch.png)
+  
+      ![Launch the snapshot debugger from the Cloud Explorer](../debugger/media/snapshot-launch.png)
 
     > [!IMPORTANT]
     > The first time you select **Attach Snapshot Debugger** for your VM, IIS is automatically restarted.
