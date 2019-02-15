@@ -986,7 +986,7 @@ ms.custom: seodec18
         <h2>Keep in touch with us</h2>
         <ul class="links">
            <li>
-                <a href="https://blogs.msdn.microsoft.com/visualstudio/">
+                <a href="https://devblogs.microsoft.com/visualstudio/">
                     Blog
                 </a>
             </li>

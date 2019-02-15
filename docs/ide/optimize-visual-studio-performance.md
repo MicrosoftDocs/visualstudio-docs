@@ -44,4 +44,4 @@ Your feedback helps us improve. Use the **Report a Problem** feature to “recor
 ## See also
 
 - [Performance tips and tricks](../ide/visual-studio-performance-tips-and-tricks.md)
-- [Visual Studio blog - Load solutions faster with Visual Studio 2017 version 15.6](https://blogs.msdn.microsoft.com/visualstudio/2018/04/04/load-solutions-faster-with-visual-studio-2017-version-15-6/)
+- [Visual Studio blog - Load solutions faster with Visual Studio 2017 version 15.6](https://devblogs.microsoft.com/visualstudio/load-solutions-faster-with-visual-studio-2017-version-15-6/)

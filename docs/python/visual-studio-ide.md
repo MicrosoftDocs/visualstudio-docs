@@ -128,4 +128,4 @@ Explore Python in Visual Studio further by following one of the following quicks
 
 - Discover [more Visual Studio features](../ide/advanced-feature-overview.md)
 - Visit [visualstudio.microsoft.com](https://visualstudio.microsoft.com/vs/)
-- Read [The Visual Studio blog](https://blogs.msdn.microsoft.com/visualstudio/)
+- Read [The Visual Studio blog](https://devblogs.microsoft.com/visualstudio/)
