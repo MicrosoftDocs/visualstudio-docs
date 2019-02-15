@@ -327,7 +327,7 @@
             href: ide/reference/convert-get-method-to-property.md
           - name: Convert LINQ query to foreach statement
             href: ide/reference/convert-linq-to-foreach.md
-          - name: Pull Member Up
+          - name: Pull member up
             href: ide/reference/pull-members-up.md
           - name: Encapsulate field
             href: ide/reference/encapsulate-field.md

@@ -11,7 +11,7 @@ dev_langs:
 ms.workload:
   - "dotnet"
 ---
-# Wrap, Indent, and Align parameters
+# Wrap, indent, and align parameters
 
 This refactoring applies to:
 
@@ -30,9 +30,9 @@ This refactoring applies to:
 1. Place your cursor in a parameter list.
 2. Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
 
-![Wrap, Indent, and Align parameters](media/wrap-parameters.png)
+   ![Wrap, Indent, and Align parameters](media/wrap-parameters.png)
 
-3. Type `Enter` to accept refactoring.
+3. Press **Enter** to accept the refactoring.
 
 ![Wrap, Indent, and Align parameters applied](media/wrap-parameters-completed.png)
 

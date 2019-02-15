@@ -32,13 +32,13 @@ This refactoring applies to:
 
 ![Pull Members up](media/pull-members-up.png)
 
-2. Select Pull Members up to base type...
+2. Select **Pull Members up to base type**.
 
 3. In the dialog, select what members you would like to add to the selected interface.
 
 ![Pull Member up](media/pull-members-up-dialog.png)
 
-4. Hit okay and the selected members are pulled up to the interface.
+4. Choose **OK**. The selected members are pulled up to the interface.
 
 ![Pull Member up completed](media/pull-members-up-completed.png)
 
