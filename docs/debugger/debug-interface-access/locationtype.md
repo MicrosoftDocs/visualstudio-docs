@@ -20,18 +20,18 @@ Indicates the kind of location information contained in a symbol.
 
 ```C++
 enum LocationType {
-   LocIsNull,
-   LocIsStatic,
-   LocIsTLS,
-   LocIsRegRel,
-   LocIsThisRel,
-   LocIsEnregistered,
-   LocIsBitField,
-   LocIsSlot,
-   LocIsIlRel,
-   LocInMetaData,
-   LocIsConstant,
-   LocTypeMax
+    LocIsNull,
+    LocIsStatic,
+    LocIsTLS,
+    LocIsRegRel,
+    LocIsThisRel,
+    LocIsEnregistered,
+    LocIsBitField,
+    LocIsSlot,
+    LocIsIlRel,
+    LocInMetaData,
+    LocIsConstant,
+    LocTypeMax
 };
 ```
 
