@@ -75,8 +75,8 @@ In this tutorial, you will:
 
    Visual Studio is now in snapshot debugging mode.
 
-    > [!NOTE]
-    > The Application Insights site extension also supports Snapshot Debugging. If you encounter a "site extension out of date" error message, see [troubleshooting tips and known issues for snapshot debugging](../debugger/debug-live-azure-apps-troubleshooting.md) for upgrading details.
+  > [!NOTE]
+  > The Application Insights site extension also supports Snapshot Debugging. If you encounter a "site extension out of date" error message, see [troubleshooting tips and known issues for snapshot debugging](../debugger/debug-live-azure-apps-troubleshooting.md) for upgrading details.
 
    ![Snapshot debugging mode](../debugger/media/snapshot-message.png)
 
