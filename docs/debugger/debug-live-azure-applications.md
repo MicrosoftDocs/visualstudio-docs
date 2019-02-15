@@ -1,12 +1,11 @@
 ---
 title: "Debug live ASP.NET Azure apps"
 description: "Learn how to set snappoints and view snapshots with the Snapshot Debugger."
-ms.custom: "mvc"
+ms.custom: ""
 ms.date: "03/16/2018"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "debugger"
-ms.assetid: adb22512-4d4d-40e5-9564-1af421b7087e
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
@@ -44,7 +43,7 @@ In this tutorial, you will:
 1. Open the project you would like to snapshot debug.
 
     > [!IMPORTANT]
-    > To snapshot debug, you need to open the **same version of source code** that is published to your Azure App Service.
+    > To snapshot debug, you need to open the *same version of source code* that is published to your Azure App Service.
 ::: moniker range="< vs-2019"
 
 2. In the Cloud Explorer (**View > Cloud Explorer**), right-click the Azure App Service your project is deployed to and select **Attach Snapshot Debugger**.
@@ -55,18 +54,19 @@ In this tutorial, you will:
 
 ::: moniker-end
 ::: moniker range=">= vs-2019"
-2. There are several ways to attach the Snapshot Debugger.
-    * Choose **Debug > Attach Snapshot Debugger...**. Select the Azure App Service your project is deployed to and an Azure storage account then click **Attach**.
+2. Attach the Snapshot Debugger. You can use one of several different methods:
+
+    * Choose **Debug > Attach Snapshot Debugger...**. Select the Azure App Service your project is deployed to and an Azure storage account, and then click **Attach**.
   
       ![Launch the snapshot debugger from the Debug menu](../debugger/media/snapshot-debug-menu-attach.png)
 
-    * Right click on your project and select **Publish**, on the Publish page click **Attach Snapshot Debugger**. Select the Azure App Service your project is deployed to and an Azure storage account then click **Attach**.
+    * Right click on your project and select **Publish**, and then on the Publish page click **Attach Snapshot Debugger**. Select the Azure App Service your project is deployed to and an Azure storage account, and then click **Attach**.
     ![Launch the snapshot debugger from the Publish page](../debugger/media/snapshot-publish-attach.png)
 
-    * In the Debug target drop-down menu select **Snapshot Debugger**, hit **F5** and if necessary select the Azure App Service your project is deployed to and an Azure storage account then click **Attach**.
+    * In the Debug target drop-down menu select **Snapshot Debugger**, hit **F5** and if necessary select the Azure App Service your project is deployed to and an Azure storage account, and then click **Attach**.
     ![Launch the snapshot debugger from the F5 drop-down menu](../debugger/media/snapshot-F5-dropdown-attach.png)
 
-    * Using the Cloud Explorer (**View > Cloud Explorer**), right-click the Azure App Service your project is deployed to and select an Azure storage account then click **Attach Snapshot Debugger**.
+    * Using the Cloud Explorer (**View > Cloud Explorer**), right-click the Azure App Service your project is deployed to and select an Azure storage account, and then click **Attach Snapshot Debugger**.
   
       ![Launch the snapshot debugger from the Cloud Explorer](../debugger/media/snapshot-launch.png)
 
@@ -80,7 +80,7 @@ In this tutorial, you will:
 
    ![Snapshot debugging mode](../debugger/media/snapshot-message.png)
 
-   The **Modules** window shows you when all the modules have loaded for the Azure App Service (choose **Debug / Windows / Modules** to open this window).
+   The **Modules** window shows you when all the modules have loaded for the Azure App Service (choose **Debug > Windows > Modules** to open this window).
 
    ![Check the Modules window](../debugger/media/snapshot-modules.png)
 
@@ -103,7 +103,7 @@ When a snappoint is turned on, it will capture a snapshot whenever the line of c
 
 ## Inspect snapshot data
 
-1. When the snappoint is hit, a snapshot appears in the Diagnostic Tools window. To open this window, choose **Debug / Windows / Show Diagnostic Tools**.
+1. When the snappoint is hit, a snapshot appears in the Diagnostic Tools window. To open this window, choose **Debug > Windows > Show Diagnostic Tools**.
 
    ![Open a snappoint](../debugger/media/snapshot-diagsession-window.png)
 
@@ -147,7 +147,7 @@ In addition to taking a snapshot when a snappoint is hit, you can also configure
 
     ![Create a logpoint](../debugger/media/snapshot-logpoint.png)
 
-1. In the Message field, you can enter the new log message you want to log. You can also evaluate variables in your log message by placing them inside curly braces.
+1. In the **Message** field, you can enter the new log message you want to log. You can also evaluate variables in your log message by placing them inside curly braces.
 
     If you choose **Send to Output Window**, when the logpoint is hit, the message appears in the Diagnostic Tools window.
 
