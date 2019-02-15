@@ -32,7 +32,7 @@ The **Architecture** menu now contains a command to directly create a Dependency
 
 You now see the impact of your changes immediately in the analysis results for the current code in the solution each time you save the diagram. You don't have to wait any longer for the completion of the "Validate Dependencies" command.
 
-For more details, see [this blog post](https://blogs.msdn.microsoft.com/devops/2016/10/07/live-architecture-dependency-validation-in-visual-studio-15-preview-5/).
+For more details, see [this blog post](https://devblogs.microsoft.com/devops/live-architecture-dependency-validation-in-visual-studio-15-preview-5/).
 
 ## UML designers have been removed
 
@@ -53,7 +53,7 @@ However, support for visualizing the architecture of .NET and C++ code is availa
 
 If you are a significant user of the UML designers, you can continue to use Visual Studio 2015 or earlier versions while you decide on an alternative tool for your UML needs.
 
-For more details, see [this blog post](https://blogs.msdn.microsoft.com/devops/2016/10/14/uml-designers-have-been-removed-layer-designer-now-supports-live-architectural-analysis/).
+For more details, see [this blog post](https://devblogs.microsoft.com/devops/uml-designers-have-been-removed-layer-designer-now-supports-live-architectural-analysis/).
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
 

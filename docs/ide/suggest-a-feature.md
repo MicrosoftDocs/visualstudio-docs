@@ -123,4 +123,4 @@ The response time depends on the status your feedback is in. Please review the e
 
 ## See also
 
-- [Introducing 'Suggest a Feature' in Developer Community (Visual Studio blog)](https://blogs.msdn.microsoft.com/visualstudio/2018/10/09/introducing-suggest-a-feature-in-developer-community/?utm_source=vs_developer_news&utm_medium=referral)
+- [Introducing 'Suggest a Feature' in Developer Community (Visual Studio blog)](https://devblogs.microsoft.com/visualstudio/introducing-suggest-a-feature-in-developer-community/?utm_source=vs_developer_news&utm_medium=referral)

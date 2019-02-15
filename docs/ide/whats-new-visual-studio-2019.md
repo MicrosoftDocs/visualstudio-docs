@@ -83,7 +83,7 @@ For more information, see the [Enhanced in Visual Studio 2019: Search for Object
 
 And with Visual Studio 2019 Preview, this service is installed by default.
 
-   ![An animated GIF file that shows the Live Share collaboration feature in Visual Studio 2019](media/live-share-collaboration.gif)
+![An animated GIF file that shows the Live Share collaboration feature in Visual Studio 2019](media/live-share-collaboration.gif)
 
 For more information, see the [Visual Studio Live Share for real-time code reviews and interactive education](https://devblogs.microsoft.com/visualstudio/visual-studio-live-share-for-real-time-code-reviews-and-interactive-education/) blog post.
 
