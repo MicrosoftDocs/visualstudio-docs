@@ -59,7 +59,7 @@
 # [Workloads](workloads.md)
 ## [ASP.NET Core](asp-net-core.md)
 ### [Razor](razor.md)
-### [JavaScript & TypeScript](javascript.md)
+### [JavaScript and TypeScript](javascript.md)
 ## [Azure](azure-workload.md)
 ### [Introduction to Azure Functions](azure-functions.md)
 ### [Tutorial: Azure Functions](azure-functions-lab.md)
