@@ -1,12 +1,11 @@
 ---
 title: "Debug live ASP.NET Azure apps"
 description: "Learn how to set snappoints and view snapshots with the Snapshot Debugger."
-ms.custom: "mvc"
+ms.custom: ""
 ms.date: "03/16/2018"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "debugger"
-ms.assetid: adb22512-4d4d-40e5-9564-1af421b7087e
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
@@ -55,7 +54,8 @@ In this tutorial, you will:
 
 ::: moniker-end
 ::: moniker range=">= vs-2019"
-2. There are several ways to attach the Snapshot Debugger.
+2. Attach the Snapshot Debugger. You can use one of several different methods:
+
     * Choose **Debug > Attach Snapshot Debugger...**. Select the Azure App Service your project is deployed to and an Azure storage account then click **Attach**.
   
       ![Launch the snapshot debugger from the Debug menu](../debugger/media/snapshot-debug-menu-attach.png)

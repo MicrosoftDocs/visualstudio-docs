@@ -1,12 +1,11 @@
 ---
 title: "Debug live ASP.NET Azure Kubernetes Services"
 description: "Learn how to set snappoints and view snapshots with the Snapshot Debugger."
-ms.custom: "mvc"
+ms.custom: ""
 ms.date: "02/11/2019"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "debugger"
-ms.assetid: 796e25cd-ffaf-47dd-8d75-f5206a093ca9
 author: "poppastring"
 ms.author: "madownie"
 manager: andster
@@ -49,7 +48,8 @@ In this tutorial, you will:
     > [!IMPORTANT]
     > To snapshot debug, you need to open the **same version of source code** that is published to your Azure Kubernetes service.
 
-1. There are several ways to attach the Snapshot Debugger.
+1. Attach the Snapshot Debugger. You can use one of several different methods:
+
     * Choose **Debug > Attach Snapshot Debugger...**. Select the AKS resource your web app is deployed to and an Azure storage account then click **Attach**.
   
       ![Launch the snapshot debugger from the Debug menu](../debugger/media/snapshot-debug-menu-attach.png)
