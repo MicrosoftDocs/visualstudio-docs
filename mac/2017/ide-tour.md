@@ -21,7 +21,7 @@ Creating, opening, and developing an app will be a familiar experience for anyon
 
 Visual Studio for Mac supports the following types of development:
 
-- ASP.NET Core web applications with C#, F#, and support for Razor pages, Javascript and Typescript
+- ASP.NET Core web applications with C#, F#, and support for Razor pages, JavaScript and TypeScript
 - .NET Core console applications with C# or F#
 - Cross-platform Unity games and applications with C#
 - Android, iOS, tvOS, and watchOS applications in Xamarin with C# or F# and XAML
