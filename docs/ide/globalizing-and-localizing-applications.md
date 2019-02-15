@@ -1,7 +1,7 @@
 ---
 title: Localization tools
 ms.date: 02/15/2019
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
   - "globalization [Visual Studio]"
   - "Visual Basic code, international applications"
