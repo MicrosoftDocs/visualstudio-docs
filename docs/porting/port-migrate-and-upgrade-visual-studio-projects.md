@@ -29,7 +29,7 @@ Support for some project types also changes over time. A newer version of Visual
 
 This present article provides details only for project types that Visual Studio 2017 can migrate. The article excludes project types that are no longer supported in Visual Studio 2017 and cannot therefore be migrated. The article also excludes supported project types that have no migration issues; that list is found on [Platform Targeting and Compatibility](/visualstudio/productinfo/vs2017-compatibility-vs).
 
-> [!Important]
+> [!IMPORTANT]
 > Certain project types require installing the appropriate workloads through the Visual Studio installer. If you don't have the workload installed, Visual Studio reports an unknown or incompatible project type. In that case, check your installation options and try again. Again, see the [Platform Targeting and Compatibility](/visualstudio/productinfo/vs2017-compatibility-vs) article for details on project support in Visual Studio 2017.
 
 ## Project types
