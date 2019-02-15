@@ -1,20 +1,21 @@
 ---
-title: "Debug live ASP.NET Azure apps"
+title: "Debug live ASP.NET Azure Virtual Machines and Azure Virtual Machines Scale Sets"
 description: "Learn how to set snappoints and view snapshots with the Snapshot Debugger."
 ms.custom: "mvc"
-ms.date: "03/16/2018"
+ms.date: "02/06/2019"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "debugger"
-ms.assetid: adb22512-4d4d-40e5-9564-1af421b7087e
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
+ms.assetid: 75decc66-5d29-43bc-ab94-8E717710da32
+author: "poppastring"
+ms.author: "madownie"
+manager: andster
+monikerRange: vs-2019
 ms.workload:
   - "aspnet"
   - "azure"
 ---
-# Debug live ASP.NET Azure apps using the Snapshot Debugger
+# Debug live ASP.NET Azure Virtual Machines and Azure Virtual Machines Scale Sets using the Snapshot Debugger
 
 The Snapshot Debugger takes a snapshot of your in-production apps when code that you're interested in executes. To instruct the debugger to take a snapshot, you set snappoints and logpoints in your code. The debugger lets you see exactly what went wrong, without impacting traffic of your production application. The Snapshot Debugger can help you dramatically reduce the time it takes to resolve issues that occur in production environments.
 
@@ -29,13 +30,11 @@ In this tutorial, you will:
 
 ## Prerequisites
 
-* Snapshot Debugger is only available for Visual Studio 2017 Enterprise version 15.5 or higher with the **Azure development workload**. (Under the **Individual components** tab, you find it under **Debugging and testing** > **Snapshot debugger**.)
+* Snapshot Debugger for Azure Virtual Machines (VM) and Azure Virtual Machine Scale Sets (VMSS) is only available for Visual Studio 2019 Enterprise preview or higher with the **Azure development workload**. (Under the **Individual components** tab, you find it under **Debugging and testing** > **Snapshot debugger**.)
 
-    If it's not already installed, install [Visual Studio 2017 Enterprise version 15.5](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) or later. If you are updating from a previous Visual Studio 2017 installation, run the Visual Studio Installer and check the Snapshot Debugger component in the **ASP.NET and web development workload**.
+    If it's not already installed, install [Visual Studio 2019 Enterprise preview](https://visualstudio.microsoft.com/vs/preview/).
 
-* Basic or higher Azure App Service plan.
-
-* Snapshot collection is available for the following web apps running in Azure App Service:
+* Snapshot collection is available for the following Azure VM/VMSS web apps:
   * ASP.NET applications running on .NET Framework 4.6.1 or later.
   * ASP.NET Core applications running on .NET Core 2.0 or later on Windows.
 
@@ -44,43 +43,36 @@ In this tutorial, you will:
 1. Open the project you would like to snapshot debug.
 
     > [!IMPORTANT]
-    > To snapshot debug, you need to open the **same version of source code** that is published to your Azure App Service.
-::: moniker range="< vs-2019"
+    > To snapshot debug, you need to open the **same version of source code** that is published to your Azure VM/VMSS service.
 
-2. In the Cloud Explorer (**View > Cloud Explorer**), right-click the Azure App Service your project is deployed to and select **Attach Snapshot Debugger**.
-
-   ![Launch the snapshot debugger](../debugger/media/snapshot-launch.png)
-
-    The first time you select **Attach Snapshot Debugger**, you're prompted to install the Snapshot Debugger site extension on your Azure App Service. This installation requires a restart of your Azure App Service.
-
-::: moniker-end
-::: moniker range=">= vs-2019"
-2. There are several ways to attach the Snapshot Debugger.
-    * Choose **Debug > Attach Snapshot Debugger...**. Select the Azure App Service your project is deployed to and an Azure storage account then click **Attach**.
+1. There are several ways to attach the Snapshot Debugger.
+    * Choose **Debug > Attach Snapshot Debugger...**. Select the Azure VM/VMSS your web app is deployed to and an Azure storage account then click **Attach**.
   
       ![Launch the snapshot debugger from the Debug menu](../debugger/media/snapshot-debug-menu-attach.png)
 
-    * Right click on your project and select **Publish**, on the Publish page click **Attach Snapshot Debugger**. Select the Azure App Service your project is deployed to and an Azure storage account then click **Attach**.
+    * Right click on your project and select **Publish**, on the Publish page click **Attach Snapshot Debugger**. Select the Azure VM/VMSS your web app is deployed to and an Azure storage account then click **Attach**.
     ![Launch the snapshot debugger from the Publish page](../debugger/media/snapshot-publish-attach.png)
 
-    * In the Debug target drop-down menu select **Snapshot Debugger**, hit **F5** and if necessary select the Azure App Service your project is deployed to and an Azure storage account then click **Attach**.
+    * In the Debug target drop-down menu select **Snapshot Debugger**, hit **F5** and if necessary select the Azure VM/VMSS your web app is deployed to and an Azure storage account then click **Attach**.
     ![Launch the snapshot debugger from the F5 drop-down menu](../debugger/media/snapshot-F5-dropdown-attach.png)
 
-    * Using the Cloud Explorer (**View > Cloud Explorer**), right-click the Azure App Service your project is deployed to and select an Azure storage account then click **Attach Snapshot Debugger**.
+    * Using the Cloud Explorer (**View > Cloud Explorer**), right-click the Azure VM/VMSS your web app is deployed to and select an Azure storage account then click **Attach Snapshot Debugger**.
   
       ![Launch the snapshot debugger from the Cloud Explorer](../debugger/media/snapshot-launch.png)
 
-    The first time you select **Attach Snapshot Debugger**, you're prompted to install the Snapshot Debugger site extension on your Azure App Service. This installation requires a restart of your Azure App Service.
-::: moniker-end
+    > [!IMPORTANT]
+    > The first time you select **Attach Snapshot Debugger** for your VM, IIS is automatically restarted.
+    > The first time you select **Attach Snapshot Debugger** for your VMSS, require the manual upgrade of each instance of the VMSS.
 
-   Visual Studio is now in snapshot debugging mode.
+    The meta data for the **Modules** will not initially be activated, navigate to the web app and the "Start Collection" button will become active. Visual Studio is now in snapshot debugging mode.
 
-  > [!NOTE]
-  > The Application Insights site extension also supports Snapshot Debugging. If you encounter a "site extension out of date" error message, see [troubleshooting tips and known issues for snapshot debugging](../debugger/debug-live-azure-apps-troubleshooting.md) for upgrading details.
+    > [!NOTE]
+    > The Application Insights site extension also supports Snapshot Debugging. If you encounter a "site extension out of date" error message, see [troubleshooting tips and known issues for snapshot debugging](../debugger/debug-live-azure-apps-troubleshooting.md) for upgrading details.
+    > For VMSS the user is required to manually upgrade the instances in their VMSS after attaching the Snapshot Debugger for the first time.
 
    ![Snapshot debugging mode](../debugger/media/snapshot-message.png)
 
-   The **Modules** window shows you when all the modules have loaded for the Azure App Service (choose **Debug / Windows / Modules** to open this window).
+   The **Modules** window shows you when all the modules have loaded for the Azure VM/VMSS (choose **Debug / Windows / Modules** to open this window).
 
    ![Check the Modules window](../debugger/media/snapshot-modules.png)
 
@@ -90,7 +82,7 @@ In this tutorial, you will:
 
    ![Set a snappoint](../debugger/media/snapshot-set-snappoint.png)
 
-2. Click **Start Collection** to turn on the snappoint.
+1. Click **Start Collection** to turn on the snappoint.
 
    ![Turn on the snappoint](../debugger/media/snapshot-start-collection.png)
 
@@ -157,7 +149,7 @@ In addition to taking a snapshot when a snappoint is hit, you can also configure
 
 ## Next steps
 
-In this tutorial, you've learned how to use the Snapshot Debugger for App Services. You may want to read more details about this feature.
+In this tutorial, you've learned how to use the Snapshot Debugger for Azure Virtual Machines and Azure Virtual Machines Scale Sets. You may want to read more details about this feature.
 
 > [!div class="nextstepaction"]
 > [FAQ for snapshot debugging](../debugger/debug-live-azure-apps-faq.md)

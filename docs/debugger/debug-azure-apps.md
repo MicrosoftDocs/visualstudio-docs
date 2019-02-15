@@ -17,6 +17,10 @@ You can use Visual Studio to debug Azure services in different scenarios:
 
 - To debug a production app hosted in Azure App Service, see [Debug live ASP.NET apps using the Snapshot Debugger](../debugger/debug-live-azure-applications.md).
 
+- To debug a production app hosted in Azure Virtual Machine or Azure Virtual Machine Scale Set, see [Debug live ASP.NET Azure Virtual Machines and Azure Virtual Machines Scale Sets using the Snapshot Debugger](../debugger/debug-live-azure-virtual-machines.md).
+
+- To debug a production app hosted in Azure Kubernetes Service, see [Debug live ASP.NET Azure Kubernetes Services using the Snapshot Debugger](../debugger/debug-live-azure-kubernetes.md).
+
 - To debug a production app using Application Insights and hosted in Azure App Service or Service Fabric, see [Debug snapshots on exceptions in .NET apps](/azure/application-insights/app-insights-snapshot-debugger).
 
 - To remote debug ASP.NET on IIS (Azure App Service or an Azure VM), see [Remote Debugging ASP.NET on Azure](remote-debugging-azure.md).
