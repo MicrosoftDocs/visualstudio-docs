@@ -507,6 +507,11 @@
       href: vsto/office-and-sharepoint-development-in-visual-studio.md
     - name: Work with XML and XSLT files
       href: xml-tools/xml-tools-in-visual-studio.md
+    - name: Develop international apps
+      href: ide/globalizing-and-localizing-applications.md
+      items:
+      - name: Bi-directional languages
+        href: ide/creating-applications-in-bi-directional-languages.md
     - name: Additional tutorials
       items:
       - name: Create a WPF app with C# or Visual Basic
@@ -695,29 +700,6 @@
       href: ide/reference/accessibility-products-and-services-from-microsoft.md
     - name: Resources for designing accessible apps
       href: ide/reference/resources-for-designing-accessible-applications.md
-  - name: Globalize and localize apps
-    href: ide/globalizing-and-localizing-applications.md
-    items:
-    - name: Intro to international .NET Framework apps
-      href: ide/introduction-to-international-applications-based-on-the-dotnet-framework.md
-    - name: Localize apps
-      href: ide/localizing-applications.md
-      items:
-      - name: Hierarchical Organization of Resources for Localization
-        href: ide/hierarchical-organization-of-resources-for-localization.md
-      - name: Security and Localized Satellite Assemblies
-        href: ide/security-and-localized-satellite-assemblies.md
-      - name: Version Numbers for Main and Localized Satellite Assemblies
-        href: ide/version-numbers-for-main-and-localized-satellite-assemblies.md
-      - name: Neutral Resources Languages for Localization
-        href: ide/neutral-resources-languages-for-localization.md
-    - name: Globalize apps
-      href: ide/globalizing-applications.md
-      items:
-      - name: Culture-Specific Classes for Global Windows Forms and Web Forms
-        href: ide/culture-specific-classes-for-global-windows-forms-and-web-forms.md
-    - name: Create apps in bi-directional languages
-      href: ide/creating-applications-in-bi-directional-languages.md
 - name: Reference
   items:
   - name: General User Interface Elements
