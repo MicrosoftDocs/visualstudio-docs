@@ -387,7 +387,7 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
 
  [Optimizing IntelliTrace Collection on Production Servers](http://go.microsoft.com/fwlink/?LinkId=255233)
 
- [Microsoft DevOps](https://blogs.msdn.microsoft.com/devops/)
+ [Microsoft DevOps](https://devblogs.microsoft.com/devops/)
 
 ### Forums
  [Visual Studio Debugger](http://go.microsoft.com/fwlink/?LinkId=262263)

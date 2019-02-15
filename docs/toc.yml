@@ -321,6 +321,10 @@
           items:
           - name: Change method signature
             href: ide/reference/change-method-signature.md
+          - name: Convert anonymous type to class
+            href: ide/reference/convert-anonymous-type-to-class.md
+          - name: Convert anonymous type to tuple
+            href: ide/reference/convert-anonymous-type-to-tuple.md
           - name: Convert between for loop and foreach statement
             href: ide/reference/convert-for-loop-to-foreach.md
           - name: Convert between Get method and property
@@ -339,6 +343,8 @@
             href: ide/reference/move-declaration-near-reference.md
           - name: Move type to matching file
             href: ide/reference/move-type-to-matching-file.md
+          - name: Pull member up
+            href: ide/reference/pull-members-up.md
           - name: Remove unreachable code
             href: ide/reference/remove-unreachable-code.md
           - name: Rename
@@ -347,6 +353,8 @@
             href: ide/reference/sync-type-and-file.md
           - name: Use explicit type
             href: ide/reference/convert-var-to-explicit-type.md
+          - name: Wrap, indent, and align parameters
+            href: ide/reference/wrap-align-indent-parameters.md
         - name: "Walkthrough: Generate code from usage"
           href: ide/walkthrough-test-first-support-with-the-generate-from-usage-feature.md
       - name: Productivity tips
