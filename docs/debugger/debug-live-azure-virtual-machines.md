@@ -1,5 +1,5 @@
 ---
-title: "Debug live ASP.NET Azure Virtual Machines and Azure Virtual Machines Scale Sets"
+title: "Debug live ASP.NET Azure virtual machines and Azure virtual machine scale sets"
 description: "Learn how to set snappoints and view snapshots with the Snapshot Debugger."
 ms.custom: ""
 ms.date: "02/06/2019"
@@ -14,7 +14,7 @@ ms.workload:
   - "aspnet"
   - "azure"
 ---
-# Debug live ASP.NET Azure Virtual Machines and Azure Virtual Machines Scale Sets using the Snapshot Debugger
+# Debug live ASP.NET apps on Azure virtual machines and Azure virtual machine scale sets using the Snapshot Debugger
 
 The Snapshot Debugger takes a snapshot of your in-production apps when code that you're interested in executes. To instruct the debugger to take a snapshot, you set snappoints and logpoints in your code. The debugger lets you see exactly what went wrong, without impacting traffic of your production application. The Snapshot Debugger can help you dramatically reduce the time it takes to resolve issues that occur in production environments.
 
@@ -149,7 +149,7 @@ In addition to taking a snapshot when a snappoint is hit, you can also configure
 
 ## Next steps
 
-In this tutorial, you've learned how to use the Snapshot Debugger for Azure Virtual Machines and Azure Virtual Machines Scale Sets. You may want to read more details about this feature.
+In this tutorial, you've learned how to use the Snapshot Debugger for Azure Virtual Machines and Azure Virtual Machine Scale Sets. You may want to read more details about this feature.
 
 > [!div class="nextstepaction"]
 > [FAQ for snapshot debugging](../debugger/debug-live-azure-apps-faq.md)
