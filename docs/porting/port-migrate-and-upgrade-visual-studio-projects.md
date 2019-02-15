@@ -7,8 +7,9 @@ ms.technology: vs-ide-general
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
-manager: douge
+manager: jillfra
 ms.workload: multiple
+monikerRange: vs-2017
 f1_keywords:
   - "Win8ExpressDesktopBlock"
   - "w8trefactor"
