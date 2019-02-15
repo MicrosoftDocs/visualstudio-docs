@@ -59,7 +59,7 @@ When you create a nested project type, there are several additional steps that m
      Because parent and child projects are instantiated programmatically, you can set properties for nested projects at this point.
 
     > [!NOTE]
-    > Not only do you receive the context information from the nested project, but you can also ask if the parent project has any context for that item by checking <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID>. In that way, you can add extra dynamic help attributes and menu options specific to individual nested projects.
+    > Not only do you receive the context information from the nested project, but you can also ask if the parent project has any context for that item by checking [__VSHPROPID.VSHPROPID_UserContext](<xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID.VSHPROPID_UserContext>). In that way, you can add extra dynamic help attributes and menu options specific to individual nested projects.
 
 10. The hierarchy is built for display in **Solution Explorer** with a call to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy.GetNestedHierarchy%2A> method.
 
