@@ -71,7 +71,7 @@ The following elements can be named using Arabic or Hebrew and are handled corre
     > [!NOTE]
     > The code editor does not support right-to-left reading order.
 
-- Data elements. **Server Explorer** displays these elements correctly and allow you to edit them.
+- Data elements. **Server Explorer** displays these elements correctly and allows you to edit them.
 
 - Elements copied to the Windows Clipboard.
 
