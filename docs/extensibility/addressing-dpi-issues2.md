@@ -212,9 +212,9 @@ Because WPF will scale the UI for the current DPI using the BitmapScalingMode pr
     ```xaml
     <Image Source="{Binding Path=SelectedImage, Converter={StaticResource DpiPrescaleImageSourceConverter}}" >
         <Image.LayoutTransform>
-         <ScaleTransform
-             ScaleX="{x:Static vsui:DpiHelper.PreScaledImageLayoutTransformScale}"
-             ScaleY="{x:Static vsui:DpiHelper.PreScaledImageLayoutTransformScale}" />
+            <ScaleTransform
+                ScaleX="{x:Static vsui:DpiHelper.PreScaledImageLayoutTransformScale}"
+                ScaleY="{x:Static vsui:DpiHelper.PreScaledImageLayoutTransformScale}" />
         </Image.LayoutTransform>
     </Image>
     ```
