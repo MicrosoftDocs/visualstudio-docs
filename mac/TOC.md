@@ -56,11 +56,10 @@
 ## [Publish to Azure App Service](publish-app-svc.md)
 ## [Publish to Folder](publish-folder.md)
 
-
 # [Workloads](workloads.md)
 ## [ASP.NET Core](asp-net-core.md)
 ### [Razor](razor.md)
-### [Javascript](javascript.md)
+### [JavaScript & TypeScript](javascript.md)
 ## [Azure](azure-workload.md)
 ### [Introduction to Azure Functions](azure-functions.md)
 ### [Tutorial: Azure Functions](azure-functions-lab.md)
