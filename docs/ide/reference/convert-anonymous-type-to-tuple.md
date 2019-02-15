@@ -29,7 +29,7 @@ This refactoring applies to:
 
    ![Convert Anonymous Type to Tuple](media/convert-anon-to-tuple.png)
 
-2. Hit **Enter** to accept.
+2. Press **Enter** to accept the refactoring.
 
    ![Convert Anonymous Type to Tuple](media/convert-anon-to-tuple-complete.png)
 

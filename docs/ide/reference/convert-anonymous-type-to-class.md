@@ -29,7 +29,7 @@ This refactoring applies to:
 
    ![Convert Anonymous Type to Class](media/convert-anon-to-class.png)
 
-2. Hit **Enter** to accept.
+2. Press **Enter** to accept the refactoring.
 
    ![Convert Anonymous Type to Class accepted](media/convert-anon-to-class-complete.png)
 
