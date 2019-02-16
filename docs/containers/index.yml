@@ -35,6 +35,7 @@ sections:
       html: <p></p>
       image: 
         src: https://docs.microsoft.com/media/logos/logo_kubernetes.svg
+      title: Visual Studio Tools for Kubernetes
 - title: .NET Core
   items:
   - type: list
@@ -87,7 +88,7 @@ sections:
     - href: /azure/dev-spaces
       html: <p></p>
       image:
-        src: https://docs.microsoft.com/media/AzureDevSpaceController_50x.svg
+        src: https://docs.microsoft.com/azure/media/index/AzureDevSpaceController_50x.svg
       title: Azure Dev Spaces
     - href: /azure/container-instances/container-instances-tutorial-prepare-app
       html: <p></p>
