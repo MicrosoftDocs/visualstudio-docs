@@ -24,21 +24,19 @@ sections:
     - href: docker-tools.md
       html: <p></p>
       image:
-        src: /media/logos/logo_docker.svg
+        src: https://docs.microsoft.com/media/logos/logo_docker.svg
       title: 'Quickstart: Visual Studio Container Tools'
     - href: /visualstudio/install/build-tools-container
       html: <p></p>
       image:
-        src: /media/common/i_build.svg
+        src: https://docs.microsoft.com/media/common/i_build.svg
       title: 'Running build tools in a container'
     - href: /visualstudio/deployment/tutorial-kubernetes-tools
       html: <p></p>
       image: 
-        src: /media/logos/logo_kubernetes.svg
+        src: https://docs.microsoft.com/media/logos/logo_kubernetes.svg
 - title: .NET Core
   items:
-  - type: paragraph
-    text:
   - type: list
     style: cards
     className: cardsM
@@ -47,27 +45,27 @@ sections:
     - href: /dotnet/core/docker/intro-net-docker
       html: <p></p>
       image:
-        src: /media/logos/logo_NETcore.svg
+        src: https://docs.microsoft.com/media/logos/logo_NETcore.svg
       title: Introduction to .NET and Docker
     - href: /dotnet/core/docker/docker-basics-dotnet-core
       html: <p></p>
       image:
-        src: /media/logos/logo_docker.svg
+        src: https://docs.microsoft.com/media/logos/logo_docker.svg
       title: Learn Docker Basics
     - href: /dotnet/core/docker/building-net-docker-images
       html: <p></p>
       image:
-        src: /media/common/i_build.svg
+        src: https://docs.microsoft.com/media/common/i_build.svg
       title: Build Docker Images
     - href: /aspnet/core/host-and-deploy/docker/visual-studio-tools-for-docker
       html: <p></p>
       image:
-        src: media/common/i_web.svg
+        src: https://docs.microsoft.com/media/common/i_web.svg
       title: ASP.NET Docker Tools
     - href: https://docs.microsoft.com/azure/vs-azure-tools-docker-hosting-web-apps-in-docker
       html: <p></p>
       image:
-        src: /media/logos/logo_azure.svg
+        src: https://docs.microsoft.com/media/logos/logo_azure.svg
       title: Deploy to Azure Container Registry
     - href: /dotnet/standard/containerized-lifecycle-architecture/
       html: <p></p>
@@ -84,22 +82,22 @@ sections:
     - href: /azure/aks
       html: <p></p>
       image:
-        src: /azure/media/index/ContainerService.svg
+        src: https://docs.microsoft.com/azure/media/index/ContainerService.svg
       title: Azure Kubernetes Service (AKS)
     - href: /azure/dev-spaces
       html: <p></p>
       image:
-        src: /media/AzureDevSpaceController_50x.svg
+        src: https://docs.microsoft.com/media/AzureDevSpaceController_50x.svg
       title: Azure Dev Spaces
     - href: /azure/container-instances/container-instances-tutorial-prepare-app
       html: <p></p>
       image:
-        src: /azure/media/index/ContainerInstances.svg
+        src: https://docs.microsoft.com/azure/media/index/ContainerInstances.svg
       title: Azure Container Instances
     - href: /azure/container-registry/
       html: <p></p>
       image:
-        src: /azure/media/index/container-registry.svg
+        src: https://docs.microsoft.com/azure/media/index/container-registry.svg
       title: Azure Container Registry
     - href: /azure/docker
       html: <p></p>
