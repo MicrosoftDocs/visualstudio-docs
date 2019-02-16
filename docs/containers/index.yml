@@ -107,7 +107,7 @@ sections:
         src: /azure/docker/
       title: Docker on Azure
 - title: Videos
-  items
+  items:
   - type: list
     style: cards
     className: cardsM
