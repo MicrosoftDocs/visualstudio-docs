@@ -4,7 +4,6 @@ titleSuffix: ""
 description: "Learn more about how to deploy Visual Studio in an enterprise environment."
 ms.date: 05/29/2018
 ms.custom: "seodec18"
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "network installation, Visual Studio"

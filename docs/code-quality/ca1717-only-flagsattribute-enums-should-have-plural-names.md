@@ -1,7 +1,6 @@
 ---
 title: "CA1717: Only FlagsAttribute enums should have plural names"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "CA1717"

@@ -7,7 +7,6 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
 ---
 # How to: Open a Model from File in Program Code
 You can open DSL models in any application.

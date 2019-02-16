@@ -1,7 +1,6 @@
 ---
 title: Build Events Page, Project Designer (C#)
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "cs.ProjectPropertiesBuildEvents"

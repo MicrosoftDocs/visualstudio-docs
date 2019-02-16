@@ -10,7 +10,7 @@
 
 # [User Accounts](/visualstudio/mac/user-accounts)
 ## [Signing In](/visualstudio/mac/signing-in)
-## [Enable Subscription](/visualstudio/mac/activation)
+## [Enable Subscription](/visualstudio/mac/enable-subscription)
 
 # [Customizing the IDE](/visualstudio/mac/customizing-the-ide)
 ## [Extending Visual Studio for Mac](/visualstudio/mac/extending-visual-studio-mac)
@@ -53,6 +53,10 @@
 ## [Setting Up a Subversion Repository](/visualstudio/mac/set-up-subversion-repository)
 ## [Working with Subversion](/visualstudio/mac/working-with-subversion)
 
+# [Web App Deployment](/visualstudio/mac/web-app-deployment.md)
+## [Publish to Azure App Service](/visualstudio/mac/publish-app-svc.md)
+## [Publish to Folder](/visualstudio/mac/publish-folder.md)
+
 # [Workloads](/visualstudio/mac/workloads)
 ## [ASP.NET Core](/visualstudio/mac/asp-net-core)
 ### [Razor](/visualstudio/mac/razor)
@@ -66,7 +70,7 @@
 ### [Using Unity Tools](/visualstudio/mac/using-vsmac-tools-unity)
 ### [Using .NET 4.x in Unity](/visualstudio/mac//visualstudio/cross-platform/unity-scripting-upgrade/?context=visualstudio/mac/context)
 ### [Change Log](/visualstudio/mac//visualstudio/cross-platform/change-log-visual-studio-tools-for-unity-mac/?context=visualstudio/mac/context)
-## [Mobile apps with Xamarin](/xamarin/)
+## [Mobile apps with Xamarin](/visualstudio/mac/xamarin)
 
 # [Accessibility](/visualstudio/mac/accessibility)
 

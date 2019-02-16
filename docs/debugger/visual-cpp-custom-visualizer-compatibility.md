@@ -1,21 +1,21 @@
 ---
 title: "Visual C/C++ Custom Visualizer Compatibility"
 ms.date: "01/28/2019"
+ms.prod: visual-studio-dev16
 ms.topic: "reference"
-dev_langs: 
+dev_langs:
   - "C++"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "debugging assertions"
   - "assertions, debugging"
   - "assertions, assertion failures"
   - "Assertion Failed dialog box"
-ms.assetid: 64af5bed-e38b-420f-b9ce-d64f35100aae
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
-monikerRange: '>= vs-2019'
+monikerRange: ">= vs-2019"
 ---
 # Visual C/C++ Custom Visualizer Compatibility
 

@@ -49,24 +49,6 @@ The Visual Studio debugger helps you observe the run-time behavior of your progr
         </div>
         </a>
     </li>
-    <li>
-        <a href="https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Debugger-Feature-tour-of-Visual-studio-2017-sqwiwLD6D_1111787171">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/common/i_video.svg" alt="">
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Watch a video on using the debugger</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
 </ul>
 
 <h2>Get started with the debugger</h2>

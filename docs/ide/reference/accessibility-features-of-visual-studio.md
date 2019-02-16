@@ -2,8 +2,6 @@
 title: "Accessibility features of Visual Studio"
 description: "Learn more about the accessibility features and utilities that help make both the Windows operating system and the Visual Studio developer suite more accessible for everyone, including people with disabilities."
 ms.date: 08/22/2017
-ms.prod: visual-studio-dev15
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "Visual Studio, accessibility"
@@ -18,7 +16,7 @@ ms.workload:
 # Accessibility features of Visual Studio
 
 > [!TIP]
-> To learn more about recent accessibility updates, see the [Accessibility improvements in Visual Studio 2017 version 15.3](https://blogs.msdn.microsoft.com/visualstudio/2017/08/14/accessibility-improvements-in-visual-studio-2017-version-15-3/) blog post.
+> To learn more about recent accessibility updates, see the [Accessibility improvements in Visual Studio 2017 version 15.3](https://devblogs.microsoft.com/visualstudio/accessibility-improvements-in-visual-studio-2017-version-15-3/) blog post.
 
 In addition to accessibility features and utilities in Windows, the following features make Visual Studio more accessible for people with disabilities:
 

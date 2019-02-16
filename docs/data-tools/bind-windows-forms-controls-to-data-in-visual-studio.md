@@ -15,7 +15,6 @@ ms.assetid: 243338ef-41af-4cc5-aff7-1e830236f0ec
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.prod: visual-studio-dev15
 ms.workload:
   - "data-storage"
 ---

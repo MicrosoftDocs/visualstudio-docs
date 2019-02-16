@@ -1,7 +1,6 @@
 ---
 title: "How to: Select the XML Schemas to Use"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.assetid: d6fda3ef-d465-4788-8514-2f2d528d658c
 author: gewarren

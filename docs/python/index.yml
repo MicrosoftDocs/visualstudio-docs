@@ -7,7 +7,7 @@ metadata:
   meta.description: Tutorials and conceptual articles about developing Python apps with Visual Studio.
   author: kraigb
   manager: jillfra
-  ms.prod: visual-studio-dev15
+  ms.prod: visual-studio-windows
   ms.technology: vs-python
   ms.topic: landing-page
   ms.date: 12/14/2018

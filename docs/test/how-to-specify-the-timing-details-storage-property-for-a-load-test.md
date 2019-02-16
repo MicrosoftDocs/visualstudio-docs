@@ -9,7 +9,6 @@ ms.assetid: 867a9c21-0909-4963-bc02-d41e9393008c
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.prod: visual-studio-dev15
 ---
 # How to: Specify the timing details storage property for a load test run setting
 

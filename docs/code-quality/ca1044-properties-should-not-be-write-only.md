@@ -1,7 +1,6 @@
 ---
 title: "CA1044: Properties should not be write only"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "PropertiesShouldNotBeWriteOnly"

@@ -1,7 +1,6 @@
 ---
 title: "Create a unit test project"
 ms.date: 01/29/2019
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.author: gewarren
 manager: jillfra

@@ -2,7 +2,6 @@
 title: Tour of the Visual Studio IDE
 titleSuffix: ""
 ms.date: 02/05/2019
-ms.prod: visual-studio-dev15
 ms.topic: quickstart
 author: mikejo5000
 ms.author: mikejo

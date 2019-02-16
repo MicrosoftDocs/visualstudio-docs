@@ -4,10 +4,8 @@ author: ghogen
 description: Learn how to use Visual Studio 2017 tooling and Docker for Windows
 ms.author: ghogen
 ms.date: 02/01/2019
-ms.prod: visual-studio-dev15
 ms.technology: vs-azure
 ms.topic: include
-monikerRange: ">= vs-2017"
 ---
 # Quickstart: Visual Studio Tools for Docker
 

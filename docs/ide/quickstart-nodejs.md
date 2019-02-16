@@ -2,7 +2,6 @@
 title: "Quickstart: Use Visual Studio to create your first Node.js app"
 description: In this quickstart, you create a Node.js app in Visual Studio
 ms.date: 06/27/2018
-ms.prod: visual-studio-dev15
 ms.technology: vs-nodejs
 ms.topic: quickstart
 ms.devlang: javascript

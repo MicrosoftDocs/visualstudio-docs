@@ -3,7 +3,6 @@ title: "Set defaults for enterprise deployments"
 description: "Learn about domain policies and other configuration operations for enterprise deployments of Visual Studio."
 ms.date: 05/05/2017
 ms.custom: "seodec18"
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
   - "gpo"

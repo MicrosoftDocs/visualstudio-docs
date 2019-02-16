@@ -2,7 +2,6 @@
 title: "Workflow Designer - Flowchart Activity Designer"
 ms.date: 11/04/2016
 ms.topic: reference
-ms.prod: visual-studio-dev15
 f1_keywords:
   - "System.Activities.Statements.Flowchart.UI"
   - "System.Activities.Statements.FlowStep.UI"

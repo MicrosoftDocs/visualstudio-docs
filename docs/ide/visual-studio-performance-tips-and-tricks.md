@@ -1,7 +1,6 @@
 ---
 title: Tips to improve performance
 ms.date: 08/14/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren
@@ -125,4 +124,4 @@ For a detailed description of the CLR garbage collector, see [Fundamentals of ga
 ## See also
 
 - [Optimize Visual Studio performance](../ide/optimize-visual-studio-performance.md)
-- [Load solutions faster (Visual Studio blog)](https://blogs.msdn.microsoft.com/visualstudio/2018/04/04/load-solutions-faster-with-visual-studio-2017-version-15-6/)
+- [Load solutions faster (Visual Studio blog)](https://devblogs.microsoft.com/visualstudio/load-solutions-faster-with-visual-studio-2017-version-15-6/)

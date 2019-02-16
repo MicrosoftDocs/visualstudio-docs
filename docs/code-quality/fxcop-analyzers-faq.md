@@ -1,7 +1,6 @@
 ---
 title: FxCop code analysis and FxCop analyzers
 ms.date: 09/06/2018
-ms.prod: visual-studio-dev15
 ms.topic: overview
 helpviewer_keywords:
   - "code analysis FAQ"

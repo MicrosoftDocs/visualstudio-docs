@@ -2,8 +2,6 @@
 title: "How to: Use the keyboard exclusively"
 description: "Learn how to use default shortcut key combinations to make it easy to navigate and code within the Visual Studio integrated development environment (IDE)."
 ms.date: 08/22/2016
-ms.prod: visual-studio-dev15
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "Toolbox, shortcut keys"
@@ -22,7 +20,7 @@ ms.workload:
 # How to: Use the keyboard exclusively
 
 > [!TIP]
-> To learn more about recent accessibility updates, see the [Accessibility improvements in Visual Studio 2017 version 15.3](https://blogs.msdn.microsoft.com/visualstudio/2017/08/14/accessibility-improvements-in-visual-studio-2017-version-15-3/) blog post.
+> To learn more about recent accessibility updates, see the [Accessibility improvements in Visual Studio 2017 version 15.3](https://devblogs.microsoft.com/visualstudio/accessibility-improvements-in-visual-studio-2017-version-15-3/) blog post.
 
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] provides many default shortcut key combinations to make it easy to navigate and code within the integrated development environment (IDE). For a full listing of shortcut keys used in Visual Studio, see [Default keyboard shortcuts](../../ide/default-keyboard-shortcuts-in-visual-studio.md). For information on keyboard shortcuts available for other Microsoft products, see [http://www.microsoft.com/enable/products/keyboard.aspx](http://go.microsoft.com/fwlink/?LinkID=40400).
 

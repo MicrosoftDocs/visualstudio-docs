@@ -1,7 +1,6 @@
 ---
 title: "Use a lab environment for devops"
 ms.date: 05/02/2017
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "lab environment, test lab"
@@ -137,4 +136,4 @@ For information about setting up environments, see:
 
 * [Install and configure test agents](../../test/lab-management/install-configure-test-agents.md)
 * [Visual Studio Lab Management Guide](https://aka.ms/vsarsolutions)
-* [Microsoft DevOps Blog](https://blogs.msdn.microsoft.com/devops/)
+* [Microsoft DevOps Blog](https://devblogs.microsoft.com/devops/)

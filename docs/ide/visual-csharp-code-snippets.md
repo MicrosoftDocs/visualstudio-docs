@@ -1,7 +1,6 @@
 ---
 title: C# code snippets
 ms.date: 06/05/2017
-ms.prod: visual-studio-dev15
 ms.topic: reference
 helpviewer_keywords:
   - "snippets [C#]"

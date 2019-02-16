@@ -2,7 +2,6 @@
 title: "Create a Windows Forms app with Visual Basic"
 description: "Learn how to create a Windows Forms app in Visual Studio with Visual Basic, step-by-step."
 ms.date: 12/04/2017
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.devlang: vb
 author: TerryGLee

@@ -3,7 +3,6 @@ title: Python in Visual Studio tutorial step 1, create a project
 titleSuffix: ""
 description: Overview and step 1 of a core walkthrough of Python capabilities in Visual Studio, including prerequisites and creating a new Python project.
 ms.date: 01/28/2019
-ms.prod: visual-studio-dev15
 ms.topic: tutorial
 author: kraigb
 ms.author: kraigb
@@ -74,5 +73,3 @@ In this tutorial you begin with a simple project containing a single, empty code
 - [Python projects in Visual Studio](managing-python-projects-in-visual-studio.md).
 - [Learn about the Python language on python.org](https://www.python.org)
 - [Python for Beginners](https://www.python.org/about/gettingstarted/) (python.org)
-- [Free Python courses on Microsoft Virtual Academy](https://mva.microsoft.com/search/SearchResults.aspx#!q=python)
-- [Top Python Questions at Microsoft Virtual Academy](https://aka.ms/mva-top-python-questions)

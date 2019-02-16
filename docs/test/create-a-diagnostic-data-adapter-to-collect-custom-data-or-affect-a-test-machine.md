@@ -9,7 +9,6 @@ ms.assetid: b0b53fae-7007-4ad9-a604-21685937622f
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.prod: visual-studio-dev15
 ---
 # Create a diagnostic data adapter to collect custom data or affect a test machine
 
