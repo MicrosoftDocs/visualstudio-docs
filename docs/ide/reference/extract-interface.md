@@ -50,13 +50,13 @@ This refactoring applies to:
 
 3. In the **Extract Interface** dialog box that pops up, enter the information asked:
 
-   ![Extract Interface](media/extractinterface-dialog-cs.png)
+   ![Extract Interface](media/extractinterface-dialog-same-file.png)
 
 
    | Field | Description |
    | - | - |
    | **New interface name** | The name of the interface to be created. This will default to I*ClassName*, where *ClassName* is the name of the class you selected above. |
-   | **New file name** | The name of the file which will be generated that will contain the interface. As with the interface name, this will default to I*ClassName*, where *ClassName* is the name of the class you selected above. |
+   | **New file name** | The name of the file which will be generated that will contain the interface. As with the interface name, this will default to I*ClassName*, where *ClassName* is the name of the class you selected above. You can also select the option to **Add to current file**. |
    | **Select public members to form interface** | The items to extract into the interface. You may select as many as you wish. |
 
 
