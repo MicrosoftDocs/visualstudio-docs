@@ -20,13 +20,13 @@ Gets an [IDebugErrorBreakpoint2](../../../extensibility/debugger/reference/idebu
 
 ```cpp
 HRESULT GetErrorBreakpoint( 
-   IDebugErrorBreakpoint2** ppErrorBP
+    IDebugErrorBreakpoint2** ppErrorBP
 );
 ```
 
 ```csharp
 int GetErrorBreakpoint( 
-   out IDebugErrorBreakpoint2 ppErrorBP
+    out IDebugErrorBreakpoint2 ppErrorBP
 );
 ```
 
