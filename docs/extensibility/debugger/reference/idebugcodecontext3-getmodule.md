@@ -18,13 +18,13 @@ Retrieves a reference to the interface of the debug module.
 
 ```cpp
 HRESULT GetModule(
-   IDebugModule2 **ppModule
+    IDebugModule2 **ppModule
 );
 ```
 
 ```csharp
 public int GetModule(
-   out IDebugModule2 ppModule
+    out IDebugModule2 ppModule
 );
 ```
 
