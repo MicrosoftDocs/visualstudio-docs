@@ -72,19 +72,48 @@ Host the layout on a network share so it can be run from other machines.
 
 There are several options you can use to customize your network layout. You can create a partial layout that only contains a specific set of [language locales](use-command-line-parameters-to-install-visual-studio.md#list-of-language-locales), [workloads, components, and their recommended or optional dependencies](workload-and-component-ids.md). This might be useful if you know that you are going to deploy only a subset of workloads to client workstations. Typical command-line parameters for customizing the layout include:
 
-* ```--add``` to specify [workload or component IDs](workload-and-component-ids.md).  If `--add` is used, only those workloads and components specified with `--add` are downloaded.  If `--add` is not used, all workload and components are downloaded.
-* ```--includeRecommended``` to include all the recommended  components for the specified workload IDs
-* ```--includeOptional``` to include all the recommended and optional components for the specified workload IDs.
-* ```--lang``` to specify [language locales](use-command-line-parameters-to-install-visual-studio.md#list-of-language-locales).
+* `--add` to specify [workload or component IDs](workload-and-component-ids.md).  If `--add` is used, only those workloads and components specified with `--add` are downloaded.  If `--add` is not used, all workload and components are downloaded.
+* `--includeRecommended` to include all the recommended  components for the specified workload IDs
+* `--includeOptional` to include all the recommended and optional components for the specified workload IDs.
+* `--lang` to specify [language locales](use-command-line-parameters-to-install-visual-studio.md#list-of-language-locales).
 
 Here are a few examples of how to create a custom partial layout.
 
-* To download all workloads and components for only one language, run: <br>```vs_enterprise.exe --layout C:\vs2017offline --lang en-US```
-* To download all workloads and components for multiple languages, run: <br>```vs_enterprise.exe --layout C:\vs2017offline --lang en-US de-DE ja-JP```
-* To download one workload for all languages, run <br> ```vs_enterprise.exe --layout C:\vs2017offline --add Microsoft.VisualStudio.Workload.Azure --includeRecommended```
-* To download two workloads and one optional component for three languages, run: <br>```vs_enterprise.exe --layout C:\vs2017offline --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Component.GitHub.VisualStudio --includeRecommended --lang en-US de-DE ja-JP ```
-* To download two workloads and all of their recommended components, run: <br>```vs_enterprise.exe --layout C:\vs2017offline --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Component.GitHub.VisualStudio --includeRecommended ```
-* To download two workloads and all of their recommended and optional components, run: <br>```vs_enterprise.exe --layout C:\vs2017offline --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Component.GitHub.VisualStudio --includeOptional ```
+* To download all workloads and components for only one language:
+
+    ```cmd
+    vs_enterprise.exe --layout C:\vs2017offline --lang en-US
+    ```
+
+* To download all workloads and components for multiple languages:
+
+    ```cmd
+    vs_enterprise.exe --layout C:\vs2017offline --lang en-US de-DE ja-JP
+    ```
+
+* To download one workload for all languages:
+
+    ```cmd
+    vs_enterprise.exe --layout C:\vs2017offline --add Microsoft.VisualStudio.Workload.Azure --includeRecommended
+    ```
+
+* To download two workloads and one optional component for three languages:
+
+    ```cmd
+    vs_enterprise.exe --layout C:\vs2017offline --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Component.GitHub.VisualStudio --includeRecommended --lang en-US de-DE ja-JP
+    ```
+
+* To download two workloads and all of their recommended components:
+
+    ```cmd
+    vs_enterprise.exe --layout C:\vs2017offline --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Component.GitHub.VisualStudio --includeRecommended 
+    ```
+
+* To download two workloads and all of their recommended and optional components: 
+
+    ```cmd
+    vs_enterprise.exe --layout C:\vs2017offline --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Component.GitHub.VisualStudio --includeOptional 
+    ```
 
 ### New in 15.3
 
@@ -108,16 +137,25 @@ If you want to update an existing layout to a full layout, use the --all option,
 
 Administrators can deploy Visual Studio onto client workstations as part of an installation script. Or, users who have administrator rights can run setup directly from the share to install Visual Studio on their machine.
 
-* Users can install by running: <br>```\\server\products\VS2017\vs_enterprise.exe```
-* Administrators can install in an unattended mode by running: <br>```\\server\products\VS2017\vs_enterprise.exe --quiet --wait --norestart```
+* Users can install by running the following command: <br>
+
+    ```cmd
+    \\server\products\VS2017\vs_enterprise.exe
+    ```
+
+* Administrators can install in an unattended mode by running the following command:
+
+    ```cmd
+    \server\products\VS2017\vs_enterprise.exe --quiet --wait --norestart
+    ```
 
 > [!IMPORTANT]
 > To prevent an error, make sure that your full installation path is less than 80 characters.
 >
 > [!TIP]
-> When executed as part of a batch file, the `--wait` option ensures that the `vs_enterprise.exe` process waits until the installation is complete before it returns an exit code. This is useful if an enterprise administrator wants to perform further actions on a completed installation (for example, to [apply a product key to a successful installation](automatically-apply-product-keys-when-deploying-visual-studio.md)) but must wait for the installation to finish to handle the return code from that installation.  If you do not use `--wait`, the `vs_enterprise.exe` process exits before the installation is complete and returns an inaccurate exit code that doesn't represent the state of the install operation.
+> When executed as part of a batch file, the `--wait` option ensures that the `vs_enterprise.exe` process waits until the installation is complete before it returns an exit code.<br><br>This is useful if an enterprise administrator wants to perform further actions on a completed installation (for example, to [apply a product key to a successful installation](automatically-apply-product-keys-when-deploying-visual-studio.md)) but must wait for the installation to finish to handle the return code from that installation.<br><br>If you do not use `--wait`, the `vs_enterprise.exe` process exits before the installation is complete and returns an inaccurate exit code that doesn't represent the state of the install operation.
 
-When you install from a layout, the content that is installed is acquired from the layout. However, if you select a component that is not in the layout, it will be acquired from the internet.  If you want to prevent Visual Studio setup from downloading any content that is missing in your layout, use the `--noWeb` option.  If `--noWeb` is used and the layout is missing any content that is selected to be installed, setup fails. 
+When you install from a layout, the content that is installed is acquired from the layout. However, if you select a component that is not in the layout, it will be acquired from the internet.  If you want to prevent Visual Studio setup from downloading any content that is missing in your layout, use the `--noWeb` option. If `--noWeb` is used and the layout is missing any content that is selected to be installed, setup fails.
 
 > [!IMPORTANT]
 > The `--noWeb` option does not stop Visual Studio setup from checking for updates. For more information, see the [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md) page.
@@ -153,7 +191,7 @@ We have other support options available, too. For a list, see our [Talk to us](.
 
 ## See also
 
-* [Install Visual Studio](install-visual-studio.md)
+* [Update a network-based installation of Visual Studio 2017](update-a-network-installation-of-visual-studio.md)
 * [Visual Studio administrator guide](visual-studio-administrator-guide.md)
 * [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
 * [Visual Studio workload and component IDs](workload-and-component-ids.md)
