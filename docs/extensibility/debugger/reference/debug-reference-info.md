@@ -20,25 +20,25 @@ Describes a reference.
 
 ```cpp
 typedef struct tagDEBUG_REFERENCE_INFO {
-   DEBUGREF_INFO_FLAGS dwFields;
-   BSTR                bstrName;
-   BSTR                bstrType;
-   BSTR                bstrValue;
-   DBG_ATTRIB_FLAGS    dwAttrib;
-   REFERENCE_TYPE.     dwRefType;
-   IDebugReference2*   m_pReference;
+    DEBUGREF_INFO_FLAGS dwFields;
+    BSTR                bstrName;
+    BSTR                bstrType;
+    BSTR                bstrValue;
+    DBG_ATTRIB_FLAGS    dwAttrib;
+    REFERENCE_TYPE.     dwRefType;
+    IDebugReference2*   m_pReference;
 } DEBUG_REFERENCE_INFO;
 ```
 
 ```csharp
 public struct DEBUG_REFERENCE_INFO {
-   public uint             dwFields;
-   public string           bstrName;
-   public string           bstrType;
-   public string           bstrValue;
-   public ulong            dwAttrib;
-   public uint.            dwRefType;
-   public IDebugReference2 m_pReference;
+    public uint             dwFields;
+    public string           bstrName;
+    public string           bstrType;
+    public string           bstrValue;
+    public ulong            dwAttrib;
+    public uint.            dwRefType;
+    public IDebugReference2 m_pReference;
 };
 ```
 
