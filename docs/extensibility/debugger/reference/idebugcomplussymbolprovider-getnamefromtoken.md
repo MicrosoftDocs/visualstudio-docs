@@ -19,17 +19,17 @@ Returns the name associated with the specified token given its metadata object.
 
 ```cpp
 HRESULT GetNameFromToken (
-   IUnknown* pMetadataImport,
-   DWORD     dwToken,
-   BSTR*     pbstrName
+    IUnknown* pMetadataImport,
+    DWORD     dwToken,
+    BSTR*     pbstrName
 );
 ```
 
 ```csharp
 int GetNameFromToken (
-   object     pMetadataImport,
-   uint       dwToken,
-   out string pbstrName
+    object     pMetadataImport,
+    uint       dwToken,
+    out string pbstrName
 );
 ```
 
