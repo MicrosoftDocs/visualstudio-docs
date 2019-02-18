@@ -20,18 +20,18 @@ Retrieves the classes with the specified attribute that are implemented in the s
 ```
 [C++]
 HRESULT GetAttributedClassesForLanguage (
-   GUID               guidLanguage,
-   LPOLESTR           pstrAttribute,
-   IEnumDebugFields** ppEnum
+    GUID               guidLanguage,
+    LPOLESTR           pstrAttribute,
+    IEnumDebugFields** ppEnum
 );
 ```
 
 ```
 [C#]
 int GetAttributedClassesForLanguage (
-   Guid                 guidLanguage,
-   string               pstrAttribute,
-   out IEnumDebugFields ppEnum
+    Guid                 guidLanguage,
+    string               pstrAttribute,
+    out IEnumDebugFields ppEnum
 );
 ```
 
