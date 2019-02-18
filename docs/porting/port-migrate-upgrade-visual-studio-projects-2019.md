@@ -8,7 +8,7 @@ ms.technology: vs-ide-general
 ms.topic: conceptual
 author: TerryGLee
 ms.author: tglee
-manager: douge
+manager: jillfra
 ms.workload: multiple
 f1_keywords:
   - "Win8ExpressDesktopBlock"
@@ -29,7 +29,7 @@ Support for some project types also changes over time. A newer version of Visual
 
 This article provides details for project types that Visual Studio 2019 Preview can migrate. It also provides details on project types that are deprecated in Visual Studio 2019 Preview, or are soon to be deprecated. The article excludes project types that are no longer supported in Visual Studio 2019 and cannot therefore be migrated. The article also excludes supported project types that have no migration issues; that list is found on [Platform Targeting and Compatibility](/visualstudio/releases/2019/compatibility).
 
-> [!Important]
+> [!IMPORTANT]
 > Certain project types require that you install specific workloads through the Visual Studio Installer. If you don't have the workload installed, Visual Studio reports an unknown or incompatible project type. In that case, check your installation options and try again. See the [Platform Targeting and Compatibility](/visualstudio/releases/2019/compatibility) article for details on project support in Visual Studio 2019 Preview.
 
 ## Project types
