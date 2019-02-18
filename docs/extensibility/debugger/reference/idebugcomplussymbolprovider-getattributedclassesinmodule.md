@@ -20,20 +20,20 @@ Retrieves the classes with the specified attribute in a given module.
 ```
 [C++]
 HRESULT GetAttributedClassesinModule (
-   ULONG32            ulAppDomainID,
-   GUID               guidModule,
-   LPOLESTR           pstrAttribute,
-   IEnumDebugFields** ppEnum
+    ULONG32            ulAppDomainID,
+    GUID               guidModule,
+    LPOLESTR           pstrAttribute,
+    IEnumDebugFields** ppEnum
 );
 ```
 
 ```
 [C#]
 int GetAttributedClassesinModule (
-   uint                 ulAppDomainID,
-   Guid                 guidModule,
-   string               pstrAttribute,
-   out IEnumDebugFields ppEnum
+    uint                 ulAppDomainID,
+    Guid                 guidModule,
+    string               pstrAttribute,
+    out IEnumDebugFields ppEnum
 );
 ```
 
