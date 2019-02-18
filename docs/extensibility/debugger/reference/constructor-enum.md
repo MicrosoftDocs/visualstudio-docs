@@ -20,17 +20,17 @@ Selects different types of constructors.
 
 ```cpp
 typedef enum ConstructorMatchOptions {
-   crAll       = 0,
-   crNonStatic = 1,
-   crStatic    = 2
+    crAll       = 0,
+    crNonStatic = 1,
+    crStatic    = 2
 } CONSTRUCTOR_ENUM;
 ```
 
 ```csharp
 public enum ConstructorMatchOptions {
-   crAll       = 0,
-   crNonStatic = 1,
-   crStatic    = 2
+    crAll       = 0,
+    crNonStatic = 1,
+    crStatic    = 2
 };
 ```
 
