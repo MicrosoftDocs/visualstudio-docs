@@ -20,30 +20,30 @@ Specifies what information to retrieve about a debug reference object.
 
 ```cpp
 enum enum_DEBUGREF_INFO_FLAGS {
-   DEBUGREF_INFO_NAME             = 0x00000001,
-   DEBUGREF_INFO_TYPE             = 0x00000002,
-   DEBUGREF_INFO_VALUE            = 0x00000004,
-   DEBUGREF_INFO_ATTRIB           = 0x00000008,
-   DEBUGREF_INFO_REFTYPE          = 0x00000010,
-   DEBUGREF_INFO_REF              = 0x00000020,
-   DEBUGREF_INFO_VALUE_AUTOEXPAND = 0x00010000,
-   DEBUGREF_INFO_NONE             = 0x00000000,
-   DEBUGREF_INFO_ALL              = 0xffffffff
+    DEBUGREF_INFO_NAME             = 0x00000001,
+    DEBUGREF_INFO_TYPE             = 0x00000002,
+    DEBUGREF_INFO_VALUE            = 0x00000004,
+    DEBUGREF_INFO_ATTRIB           = 0x00000008,
+    DEBUGREF_INFO_REFTYPE          = 0x00000010,
+    DEBUGREF_INFO_REF              = 0x00000020,
+    DEBUGREF_INFO_VALUE_AUTOEXPAND = 0x00010000,
+    DEBUGREF_INFO_NONE             = 0x00000000,
+    DEBUGREF_INFO_ALL              = 0xffffffff
 };
 typedef DWORD DEBUGREF_INFO_FLAGS;
 ```
 
 ```csharp
 public enum enum_DEBUGREF_INFO_FLAGS {
-   DEBUGREF_INFO_NAME             = 0x00000001,
-   DEBUGREF_INFO_TYPE             = 0x00000002,
-   DEBUGREF_INFO_VALUE            = 0x00000004,
-   DEBUGREF_INFO_ATTRIB           = 0x00000008,
-   DEBUGREF_INFO_REFTYPE          = 0x00000010,
-   DEBUGREF_INFO_REF              = 0x00000020,
-   DEBUGREF_INFO_VALUE_AUTOEXPAND = 0x00010000,
-   DEBUGREF_INFO_NONE             = 0x00000000,
-   DEBUGREF_INFO_ALL              = 0xffffffff
+    DEBUGREF_INFO_NAME             = 0x00000001,
+    DEBUGREF_INFO_TYPE             = 0x00000002,
+    DEBUGREF_INFO_VALUE            = 0x00000004,
+    DEBUGREF_INFO_ATTRIB           = 0x00000008,
+    DEBUGREF_INFO_REFTYPE          = 0x00000010,
+    DEBUGREF_INFO_REF              = 0x00000020,
+    DEBUGREF_INFO_VALUE_AUTOEXPAND = 0x00010000,
+    DEBUGREF_INFO_NONE             = 0x00000000,
+    DEBUGREF_INFO_ALL              = 0xffffffff
 };
 ```
 
