@@ -19,25 +19,25 @@ Retrieves the debug symbols with the given parent attribute for the specified mo
 
 ```cpp
 HRESULT GetSymAttribute (
-   ULONG32  ulAppDomainID,
-   GUID     guidModule,
-   _mdToken tokParent,
-   LPOLESTR pstrName,
-   ULONG32  cBuffer,
-   ULONG32* pcBuffer,
-   BYTE*    buffer
+    ULONG32  ulAppDomainID,
+    GUID     guidModule,
+    _mdToken tokParent,
+    LPOLESTR pstrName,
+    ULONG32  cBuffer,
+    ULONG32* pcBuffer,
+    BYTE*    buffer
 );
 ```
 
 ```csharp
 int GetSymAttribute (
-   uint      ulAppDomainID,
-   Guid      guidModule,
-   int       tokParent,
-   string    pstrName,
-   uint      cBuffer,
-   out uint  pcBuffer,
-   out int[] buffer
+    uint      ulAppDomainID,
+    Guid      guidModule,
+    int       tokParent,
+    string    pstrName,
+    uint      cBuffer,
+    out uint  pcBuffer,
+    out int[] buffer
 );
 ```
 
