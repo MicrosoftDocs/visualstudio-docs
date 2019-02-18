@@ -10,10 +10,9 @@ helpviewer_keywords:
   - "assertions, debugging"
   - "assertions, assertion failures"
   - "Assertion Failed dialog box"
-ms.assetid: 64af5bed-e38b-420f-b9ce-d64f35100aae
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 monikerRange: ">= vs-2019"

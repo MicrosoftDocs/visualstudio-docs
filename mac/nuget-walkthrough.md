@@ -5,6 +5,7 @@ author: conceptdev
 ms.author: crdun
 ms.date: 04/14/2017
 ms.assetid: 5C800815-0B13-4B27-B017-95FCEF1A0EA2
+ms.custom: video
 ---
 
 # Include a NuGet package in your project
@@ -108,6 +109,10 @@ The NuGet documentation discusses [using NuGet without committing packages to so
 ![Automatically restore packages](media/nuget-walkthrough-AutoRestore.png)
 
 Refer to your particular source control documentation for details on how to exclude the `packages` directory from being tracked.
+
+## Related Video
+
+> [!Video https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Using-NuGet/player]
 
 ## See also
 
