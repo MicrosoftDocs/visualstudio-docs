@@ -20,13 +20,13 @@ Gets the class that encloses this class.
 
 ```cpp
 HRESULT GetEnclosingClass(
-   IDebugClassField** ppClassField
+    IDebugClassField** ppClassField
 );
 ```
 
 ```csharp
 int GetEnclosingClass(
-   out IDebugClassField ppClassField
+    out IDebugClassField ppClassField
 );
 ```
 
@@ -42,7 +42,7 @@ If the class represented by this [IDebugClassField](../../../extensibility/debug
 
 ```
 class RootClass {
-   class NestedClass { }
+    class NestedClass { }
 };
 ```
 
