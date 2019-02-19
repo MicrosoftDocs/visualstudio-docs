@@ -50,7 +50,7 @@ ms.workload:
  [Well-known item metadata](../msbuild/msbuild-well-known-item-metadata.md)  
  Lists the metadata that is created together with every item.  
   
- [Response riles](../msbuild/msbuild-response-files.md)  
+ [Response files](../msbuild/msbuild-response-files.md)  
  Explains the *.rsp* files that contain command-line switches.  
   
  [Additional resources](https://social.msdn.microsoft.com/forums/vstudio/home?forum=msbuild)  
