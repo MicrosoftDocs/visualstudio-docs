@@ -18,24 +18,24 @@ In this tutorial, you'll learn how to manage more than one container and communi
 ## Step 1: Create a web site project
 
 1. In Visual Studio, create an **ASP.NET Core Web Application** project, named *WebFrontEnd*. Select **Web Application** to create a web application with Razor pages. Be sure that Enable Docker Support is selected, and that the container OS matches the OS selected in Docker Desktop.
-   
-   ![Screenshot of creating the web front end project](./media/docker-tutorial-enable-docker-support.png)
+  
+   ![Screenshot of creating the web front end project](./media/tutorial-multicontainer/docker-tutorial-enable-docker-support.png)
 
 ## Step 2: Create a web api project
 
 1. Add a project to the same solution and call it MyWebAPI. Select *API* as the project type.
-   
-   ![Screenshot of creating the Web API project](./media/docker-tutorial-mywebapi.png)
+
+   ![Screenshot of creating the Web API project](./media/tutorial-multicontainer/docker-tutorial-mywebapi.png)
 
 ## Step 3: Add code to call the web api
 
 1. In the WebFrontEnd project, open the *Index.cshtml.cs* file, and replace the `OnGet` method with the following code.
-   
+
    ```csharp
     public async Task OnGet()
     {
        ViewData["Message"] = "Hello from webfrontend";
-    
+
        using (var client = new System.Net.Http.HttpClient())
              {
                  // Call *mywebapi*, and display its response in the page
@@ -49,19 +49,19 @@ In this tutorial, you'll learn how to manage more than one container and communi
 
 1. In the *Index.cshtml* file, add a line to display `ViewData["Message"]` so that the file looks like this.
 
-   ```cshtml
-    @page
-    @model IndexModel
-    @{
-        ViewData["Title"] = "Home page";
-    }
-    
-    <div class="text-center">
-        <h1 class="display-4">Welcome</h1>
-        <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-        <p>@ViewData["Message"]</p>
-    </div>
-   ```
+  ```cshtml
+  @page
+  @model IndexModel
+  @{
+      ViewData["Title"] = "Home page";
+  }
+
+  <div class="text-center">
+      <h1 class="display-4">Welcome</h1>
+      <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+      <p>@ViewData["Message"]</p>
+  </div>
+  ```
 
 1. Now in the Web API project, add code to the Values controller to customize the message returned by the API for the call you added from webfrontend.
 
@@ -85,12 +85,12 @@ In this tutorial, you'll learn how to manage more than one container and communi
    A *docker-compose.yml* file and a *.dockerignore* file are created in the **docker-compose** node in the solution, and that project shows in boldface font, which shows that it is the startup project.
 
    ![Screenshot of Solution Explorer with docker-compose project added](media/tutorial-multicontainer/multicontainer-solution-explorer.png)
-    
+
    The *docker-compose.yml* appears as follows:
-    
+
    ```yaml
    version: '3.4'
-    
+
     services:
       webfrontend1:
         image: ${DOCKER_REGISTRY-}webfrontend1
