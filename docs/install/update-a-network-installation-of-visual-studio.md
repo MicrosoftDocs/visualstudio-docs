@@ -26,7 +26,7 @@ To refresh your network install share so that it includes the latest updates, ru
 
 If you host a layout on a file share, you should update a private copy of the layout (for example, c:\vs2017offline) and then, after all of the updated content is downloaded, copy it to your file share (for example, \\server\products\VS2017). If you don't do this, there is a greater chance that any users who run Setup while you are updating the layout might not be able to get all of the content from the layout because it is not yet completely updated.
 
-Let's walk through how to create and then update a layout:
+Let's walk through a few examples of how to create and then update a layout:
 
 * First, here's an example of how to create a layout with one workload for English only:
 
@@ -52,7 +52,7 @@ Let's walk through how to create and then update a layout:
   vs_enterprise.exe --layout c:\VS2017Layout --add Microsoft.VisualStudio.Workload.Azure --lang de-DE
   ```
 
-* And finally, here's how to add an additional workload and localized language without updating the version. (This command adds the ASP.NET & Web workload.)  Now the Managed Desktop, Azure, and ASP.NET & Web workloads are included in this layout.  The language resources for English, German, and French are also included for all these workloads.  However, the layout was not updated to the latest available version when this command was run.  It remains at the existing version.
+* And finally, here's how to add an additional workload and localized language without updating the version. (This command adds the ASP.NET & Web workload.)  Now the Managed Desktop, Azure, and ASP.NET & Web workloads are included in this layout. The language resources for English, German, and French are also included for all these workloads.  However, the layout was not updated to the latest available version when this command was run. It remains at the existing version.
 
   ```cmd
   vs_enterprise.exe --layout c:\VS2017Layout --add Microsoft.VisualStudio.Workload.NetWeb --lang fr-FR --keepLayoutVersion
