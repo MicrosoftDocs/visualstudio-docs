@@ -23,7 +23,7 @@ ms.workload:
 
 ## Rule description
 
-CSE indicates that the state of a process has been corrupted and not caught by the system. In the corrupted state scenario, a general handler only catches the exception if you mark your method with the <xref:System.Runtime.ExceptionServices.HandleProcessCorruptedStateExceptions?displayProperty=fullName> attribute. By default, the [Common Language Runtime (CLR)](/dotnet/standard/clr) does not invoke catch handlers for CSEs.
+CSE indicates that the state of a process has been corrupted and not caught by the system. In the corrupted state scenario, a general handler only catches the exception if you mark your method with the <xref:System.Runtime.ExceptionServices.HandleProcessCorruptedStateExceptionsAttribute?displayProperty=fullName> attribute. By default, the [Common Language Runtime (CLR)](/dotnet/standard/clr) does not invoke catch handlers for CSEs.
 
 The safest option is to allow the process to crash without catching these kinds of exceptions. Even logging code can allow attackers to exploit memory corruption bugs.
 
@@ -33,7 +33,7 @@ This warning triggers when catching CSEs with a general handler that catches all
 
 To resolve this warning, do one of the following:
 
-- Remove the <xref:System.Runtime.ExceptionServices.HandleProcessCorruptedStateExceptions> attribute. This reverts to the default runtime behavior where CSEs are not passed to catch handlers.
+- Remove the <xref:System.Runtime.ExceptionServices.HandleProcessCorruptedStateExceptionsAttribute> attribute. This reverts to the default runtime behavior where CSEs are not passed to catch handlers.
 
 - Remove the general catch handler in preference of handlers that catch specific exception types. This may include CSEs, assuming the handler code can safely handle them (rare).
 
@@ -67,7 +67,7 @@ void TestMethod1()
 
 ### Solution 1 - remove the attribute
 
-Removing the <xref:System.Runtime.ExceptionServices.HandleProcessCorruptedStateExceptions?displayProperty=fullName> attribute ensures that Corrupted State Exceptions are not handled by your method.
+Removing the <xref:System.Runtime.ExceptionServices.HandleProcessCorruptedStateExceptionsAttribute?displayProperty=fullName> attribute ensures that Corrupted State Exceptions are not handled by your method.
 
 ```csharp
 void TestMethod1()
