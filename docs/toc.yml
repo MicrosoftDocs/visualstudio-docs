@@ -304,6 +304,8 @@
             href: ide/reference/generate-field-property-local.md
           - name: Generate constructor
             href: ide/reference/generate-constructor.md
+          - name: Generate deconstructor
+            href: ide/reference/generate-deconstructor.md
           - name: Add parameter to method
             href: ide/reference/add-parameter.md
           - name: Generate override

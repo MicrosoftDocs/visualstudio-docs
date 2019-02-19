@@ -18,18 +18,19 @@ This refactoring applies to:
 - C#
 - Visual Basic
 
-**What:** Unused expression values or parameters are faded out.
+**What:** Unused parameters are faded out and unused expression values have a warning.
 
-**When:** When you have paramters or expression values that are never actually used.
+**When:** When you have parameters or expression values that are never actually used.
 
-**Why:** Sometimes it's difficult to tell if a value or parameter is no longer being used. By fading out these values you get a visual cue of what code you can delete.
+**Why:** Sometimes it's difficult to tell if a value or parameter is no longer being used. By fading out these values or giving a warning you get a visual cue of what code you can delete.
 
 ## How-to
 
 1. Have any expression value or parameter that isn't used.
-2. The unused expression value or parameter will appear faded out.
+2. The unused parameter appears faded out. The unused expression value receives a warning.
 
   ![Unused parameter](media/unused-parameter.png)
+  ![Unused value](media/unused-value.png)
 
 ## See also
 

@@ -1,6 +1,6 @@
 ---
 title: Invert conditional expressions and logical operations
-ms.date: 02/15/2019
+ms.date: 02/19/2019
 ms.topic: reference
 author: kendrahavens
 ms.author: kendrahavens
@@ -18,15 +18,15 @@ This refactoring applies to:
 - C#
 - Visual Basic
 
-**What:** Lets you invert a conditional expression or a logical operation.
+**What:** Lets you invert a conditional expression or a conditional AND/OR operator
 
-**When:** When you have a condition expression or logical operation that would be better understood if inverted.
+**When:** When you have a conditional expression or conditional AND/OR operator that would be better understood if inverted.
 
-**Why:** Inverting an experssion or operation by hand can take much longer and possibly introduce errors. This refactoring helps
+**Why:** Inverting an experssion or conditional AND/OR operator by hand can take much longer and possibly introduce errors. This refactoring helps you do this automatically.
 
 ## How-to
 
-1. Place your cursor in a conditional expression or logical operation.
+1. Place your cursor in a conditional expression or a conditional AND/OR operator.
 2. Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
 3. Select **Invert conditional** or **Replace '&&' with '||'**
   ![Invert conditional](media/invert-conditional.png)
