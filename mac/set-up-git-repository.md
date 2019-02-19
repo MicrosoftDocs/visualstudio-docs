@@ -90,7 +90,7 @@ Follow the steps below to push your new local repository to a new GitHub reposit
 > [!NOTE]
 > If you have not already created a GitHub repository, refer to the [Creating a remote repo on GitHub](#creating-a-remote-repo-on-github) section.
 
-1. Create your first commit by going to ***Version Control > Review Solution and Commit*** in the Menu Bar.
+1. Create your first commit by going to **Version Control > Review Solution and Commit** in the Menu Bar.
 
 2. In the Status tab, choose **Commit** in the top left.
 
