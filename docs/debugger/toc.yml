@@ -361,11 +361,14 @@
     items:
     - name: Debug a live Azure app
       href: debug-live-azure-applications.md
-      items:
-      - name: FAQ for snapshot debugging
-        href: debug-live-azure-apps-faq.md
-      - name: Troubleshooting snapshot debugging
-        href: debug-live-azure-apps-troubleshooting.md
+    - name: Debug a live Azure virtual machine app
+      href: debug-live-azure-virtual-machines.md
+    - name: Debug a live Azure Kubernetes app
+      href: debug-live-azure-kubernetes.md
+    - name: FAQ for snapshot debugging
+      href: debug-live-azure-apps-faq.md
+    - name: Troubleshooting snapshot debugging
+      href: debug-live-azure-apps-troubleshooting.md
   - name: Debug specific application types
     href: debugging-applications.md
     items:
