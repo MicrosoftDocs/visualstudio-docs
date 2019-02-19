@@ -1,12 +1,7 @@
 ---
 title: Overview of Visual Studio
 titleSuffix: ""
-<<<<<<< HEAD
 ms.date: 03/19/2019
-ms.prod: visual-studio-dev15
-=======
-ms.date: 10/26/2018
->>>>>>> 6c5eae3c36a3c4a7fad9f6150c344e13ad474db6
 ms.technology: vs-ide-general
 ms.topic: conceptual
 ms.custom: vs-get-started
