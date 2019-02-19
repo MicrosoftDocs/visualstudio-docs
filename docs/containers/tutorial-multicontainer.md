@@ -80,14 +80,16 @@ In this tutorial, you'll learn how to manage more than one container and communi
 
 1. Choose your Target OS, for example, Linux.
 
-    A *docker-compose.yml* file and a *.dockerignore* file are created in the **docker-compose** node in the solution, and that project shows in boldface font, which shows that it is the startup project.
+   ![Screenshot of choosing the Target OS](media/tutorial-multicontainer/docker-tutorial-docker-support-options.PNG)
+
+   A *docker-compose.yml* file and a *.dockerignore* file are created in the **docker-compose** node in the solution, and that project shows in boldface font, which shows that it is the startup project.
 
    ![Screenshot of Solution Explorer with docker-compose project added](media/tutorial-multicontainer/multicontainer-solution-explorer.png)
     
-    The *docker-compose.yml* appears as follows:
+   The *docker-compose.yml* appears as follows:
     
-    ```yaml
-    version: '3.4'
+   ```yaml
+   version: '3.4'
     
     services:
       webfrontend1:
@@ -95,11 +97,11 @@ In this tutorial, you'll learn how to manage more than one container and communi
         build:
           context: .
           dockerfile: WebFrontEnd1/Dockerfile
-    ```
+   ```
 
-    The *.dockerignore* file contains file types and extensions that you don't want Docker to include in the container. These are generally files associated with the development environment and source control, not part of the app or service you're developing.
+   The *.dockerignore* file contains file types and extensions that you don't want Docker to include in the container. These are generally files associated with the development environment and source control, not part of the app or service you're developing.
 
-    Look at the Container Tools section of the output pane for details of the commands being run.  You can see docker-compose is used to set up the right configuration.
+   Look at the **Container Tools** section of the output pane for details of the commands being run.  You can see the command-line tool docker-compose is used to configure and create the runtime containers.
 
     ```
     ========== Preparing Containers ==========
@@ -185,6 +187,12 @@ In this tutorial, you'll learn how to manage more than one container and communi
 
 1. Run this locally now (F5 or CTRL+F5) to verify that it works as expected. If everything works as expected, you see the message "Hello from webfrontend and webapi (with value 1)."
 
-## Deploy to Azure App Service
+## Next steps
 
-1. When you're ready to deploy the multicontainer app, right-click on the solution node and choose **Publish**.
+When you're ready to deploy the multicontainer app, you will need to decide what container orchestrator to use. You can use [Service Fabric](/azure/service-fabric/service-fabric-overview) or [Azure Kubernetes Service (AKS)](/azure/aks).
+
+## See Also
+
+[Docker Compose](https://docs.docker.com/compose/)
+[Service Fabric](/azure/service-fabric/service-fabric-overview)
+[Azure Kubernetes Service](/azure/aks)
