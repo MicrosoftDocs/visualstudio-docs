@@ -20,13 +20,13 @@ Retrieves a list of all code contexts associated with this document context.
 
 ```cpp
 HRESULT EnumCodeContexts(
-   IEnumDebugCodeContexts2** ppEnumCodeCxts
+    IEnumDebugCodeContexts2** ppEnumCodeCxts
 );
 ```
 
 ```csharp
 int EnumCodeContexts(
-   out IEnumDebugCodeContexts2 ppEnumCodeCxts
+    out IEnumDebugCodeContexts2 ppEnumCodeCxts
 );
 ```
 
@@ -46,56 +46,56 @@ The following example shows how to implement this method for a simple `CDebugCon
 ```cpp
 HRESULT CDebugContext::EnumCodeContexts(IEnumDebugCodeContexts2 **ppEnumCodeCxts)
 {
-   HRESULT hr;
+    HRESULT hr;
 
-   // Check for a valid IEnumDebugCodeContexts2 interface pointer.
-   if (ppEnumCodeCxts)
-   {
-      *ppEnumCodeCxts = NULL;
+    // Check for a valid IEnumDebugCodeContexts2 interface pointer.
+    if (ppEnumCodeCxts)
+    {
+        *ppEnumCodeCxts = NULL;
 
-      // Create a CEnumDebugCodeContexts object.
-      CComObject<CEnumDebugCodeContexts>* pEnum;
-      hr = CComObject<CEnumDebugCodeContexts>::CreateInstance(&pEnum);
-      assert(hr == S_OK);
-      if (hr == S_OK)
-      {
-         // Get an IID_IDebugCodeContext2 interface.
-         CComPtr<IDebugCodeContext2> spCodeCxt;
-         hr = QueryInterface(IID_IDebugCodeContext2,
-                             (void**)&spCodeCxt);
-         assert(hr == S_OK);
-         if (hr == S_OK)
-         {
-            // Initialize the code context enumerator with the
-            // IDebugCodeContext2 information.
-            IDebugCodeContext2* rgpCodeContext[] = { spCodeCxt.p };
-            hr = pEnum->Init(rgpCodeContext,
-                             &(rgpCodeContext[1]),
-                             NULL,
-                             AtlFlagCopy);
+        // Create a CEnumDebugCodeContexts object.
+        CComObject<CEnumDebugCodeContexts>* pEnum;
+        hr = CComObject<CEnumDebugCodeContexts>::CreateInstance(&pEnum);
+        assert(hr == S_OK);
+        if (hr == S_OK)
+        {
+            // Get an IID_IDebugCodeContext2 interface.
+            CComPtr<IDebugCodeContext2> spCodeCxt;
+            hr = QueryInterface(IID_IDebugCodeContext2,
+                                (void**)&spCodeCxt);
             assert(hr == S_OK);
             if (hr == S_OK)
             {
-               // Set the passed IEnumDebugCodeContexts2 pointer equal to the pointer
-               // value of the created CEnumDebugCodeContexts object.
-               hr = pEnum->QueryInterface(ppEnumCodeCxts);
-               assert(hr == S_OK);
+                // Initialize the code context enumerator with the
+                // IDebugCodeContext2 information.
+                IDebugCodeContext2* rgpCodeContext[] = { spCodeCxt.p };
+                hr = pEnum->Init(rgpCodeContext,
+                                 &(rgpCodeContext[1]),
+                                 NULL,
+                                 AtlFlagCopy);
+                assert(hr == S_OK);
+                if (hr == S_OK)
+                {
+                // Set the passed IEnumDebugCodeContexts2 pointer equal to the pointer
+                // value of the created CEnumDebugCodeContexts object.
+                hr = pEnum->QueryInterface(ppEnumCodeCxts);
+                assert(hr == S_OK);
+                }
             }
-         }
 
-         // Otherwise, delete the CEnumDebugCodeContexts object.
-         if (FAILED(hr))
-         {
-            delete pEnum;
-         }
-      }
-   }
-   else
-   {
-      hr = E_INVALIDARG;
-   }
+            // Otherwise, delete the CEnumDebugCodeContexts object.
+            if (FAILED(hr))
+            {
+                delete pEnum;
+            }
+        }
+    }
+    else
+    {
+        hr = E_INVALIDARG;
+    }
 
-   return hr;
+    return hr;
 }
 ```
 
