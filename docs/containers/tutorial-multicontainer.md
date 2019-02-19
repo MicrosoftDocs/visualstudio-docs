@@ -29,10 +29,10 @@ In this tutorial, you'll learn how to manage more than one container and communi
 
 ## Step 3: Add code to call the web api
 
-1. In the WebFrontEnd project, open the About controller and replace the About method with the following code.
+1. In the WebFrontEnd project, open the *Index.cshtml.cs* file, and replace the `OnGet` method with the following code.
    
    ```csharp
-    public OnGet()
+    public async Task OnGet()
     {
        ViewData["Message"] = "Hello from webfrontend";
     
@@ -44,9 +44,35 @@ In this tutorial, you'll learn how to manage more than one container and communi
                  var response = await client.SendAsync(request);
                  ViewData["Message"] += " and " + await response.Content.ReadAsStringAsync();
              }
-    
     }
    ```
+
+1. In the *Index.cshtml* file, add a line to display `ViewData["Message"]` so that the file looks like this.
+
+   ```cshtml
+    @page
+    @model IndexModel
+    @{
+        ViewData["Title"] = "Home page";
+    }
+    
+    <div class="text-center">
+        <h1 class="display-4">Welcome</h1>
+        <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+        <p>@ViewData["Message"]</p>
+    </div>
+   ```
+
+1. Now in the Web API project, add code to the Values controller to customize the message returned by the API for the call you added from webfrontend.
+
+  ```csharp
+    // GET api/values/5
+    [HttpGet("{id}")]
+    public ActionResult<string> Get(int id)
+    {
+        return "webapi (with value " + id + ")";
+    }
+  ```
 
 1. Choose **Add > Container Orchestrator Support**. The Docker Support Options dialog appears.
 
@@ -157,8 +183,8 @@ In this tutorial, you'll learn how to manage more than one container and communi
           dockerfile: MyWebAPI/Dockerfile
     ```
 
-1. Run this locally now to verify that it works as expected. If everything works as expected, you see the message "Hello from webfrontend and webapi."
+1. Run this locally now (F5 or CTRL+F5) to verify that it works as expected. If everything works as expected, you see the message "Hello from webfrontend and webapi (with value 1)."
 
 ## Deploy to Azure App Service
 
-1. When you're ready to deploy the multicontainer app, right-click on the solution node and choose Publish.
+1. When you're ready to deploy the multicontainer app, right-click on the solution node and choose **Publish**.
