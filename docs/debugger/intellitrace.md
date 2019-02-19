@@ -180,7 +180,7 @@ Collecting call information might slow down your application significantly. It m
 
 ### Blogs
 
-[Microsoft DevOps](https://blogs.msdn.microsoft.com/devops/)
+[Microsoft DevOps](https://devblogs.microsoft.com/devops/)
 
 ### Forums
 

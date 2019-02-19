@@ -1,7 +1,6 @@
 ---
 title: Configure Code Analysis
 ms.date: 04/04/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
   - "vs.codeanalysis.propertypages.csvb"

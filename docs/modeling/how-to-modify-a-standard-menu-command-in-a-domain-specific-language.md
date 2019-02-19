@@ -10,7 +10,6 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
 ---
 # How to: Modify a Standard Menu Command in a Domain-Specific Language
 

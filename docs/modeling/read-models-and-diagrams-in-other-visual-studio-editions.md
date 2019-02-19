@@ -10,7 +10,6 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
 ---
 # Read models and diagrams in other Visual Studio editions
 

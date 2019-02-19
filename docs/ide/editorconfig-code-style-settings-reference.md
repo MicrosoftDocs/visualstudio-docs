@@ -13,7 +13,6 @@ helpviewer_keywords:
 author: kuhlenh
 ms.author: gewarren
 manager: jillfra
-ms.prod: visual-studio-dev15
 ms.workload:
   - "dotnet"
   - "dotnetcore"
@@ -1427,7 +1426,7 @@ The following table shows the rule name, applicable languages, default value, an
 | Rule name | Applicable languages | Visual Studio default | Visual Studio 2017 version |
 | ----------- | -------------------- | ----------------------| ---------------- |
 | dotnet_sort_system_directives_first | C# and Visual Basic | true | 15.3 |
-| dotnet_separate_import_directive_groups | C# and Visual Basic | true | 15.5 |
+| dotnet_separate_import_directive_groups | C# and Visual Basic | false | 15.5 |
 
 **dotnet\_sort\_system\_directives_first**
 

@@ -1,7 +1,6 @@
 ---
 title: "Isolating Code Under Test with Microsoft Fakes"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.author: gewarren
 manager: jillfra
@@ -30,7 +29,8 @@ Fakes come in two flavors:
 -   A .NET Framework project
 
 > [!NOTE]
-> .NET Standard projects are not supported.
+> - .NET Standard projects are not supported.
+> - Profiling with Visual Studio is not available for tests that use Microsoft Fakes.
 
 ## Choose between stub and shim types
 Typically, you would consider a Visual Studio project to be a component, because you develop and update those classes at the same time. You would consider using stubs and shims for calls that the project makes to other projects in your solution, or to other assemblies that the project references.

@@ -96,7 +96,7 @@ Next, open the trace file. You can do this either using the same instance of Per
 Then, select the trace file in the left pane and open it by choosing **Open** from the right-click or context menu.
 
 > [!NOTE]
-> By default PerfView outputs a Zip archive. When you open *trace.zip*, it automatically decompresses the archive and opens the trace. You can skip this by unchecking the **Zip** box during trace collection. However, if you are planning to transfer and use traces across different machines, we strongly recommend against unchecking the **Zip** box. Without this option, the required PDBs for Ngen assemblies will not accompany the trace and thus symbols from Ngen assemblies will not be resolved on the destination machine. (See [this blog post](https://blogs.msdn.microsoft.com/devops/2012/12/10/creating-ngen-pdbs-for-profiling-reports/) for more information on PDBs for Ngen assemblies.) 
+> By default PerfView outputs a Zip archive. When you open *trace.zip*, it automatically decompresses the archive and opens the trace. You can skip this by unchecking the **Zip** box during trace collection. However, if you are planning to transfer and use traces across different machines, we strongly recommend against unchecking the **Zip** box. Without this option, the required PDBs for Ngen assemblies will not accompany the trace and thus symbols from Ngen assemblies will not be resolved on the destination machine. (See [this blog post](https://devblogs.microsoft.com/devops/creating-ngen-pdbs-for-profiling-reports/) for more information on PDBs for Ngen assemblies.) 
 
 It can take several minutes for PerfView to process and open the trace. Once the trace is open, a list of various "views" appear under it.
 

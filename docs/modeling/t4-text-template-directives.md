@@ -14,7 +14,6 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
 ---
 # T4 Text Template Directives
 Directives provide instructions to the text template transformation engine.

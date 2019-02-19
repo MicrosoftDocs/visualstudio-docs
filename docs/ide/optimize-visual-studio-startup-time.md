@@ -12,7 +12,6 @@ ms.author: gewarren
 manager: jillfra
 f1_keywords:
   - "vs.performancecenter"
-ms.prod: visual-studio-dev15
 ms.workload:
   - "multiple"
 ---
@@ -67,4 +66,4 @@ You can always re-enable the extension for future sessions by using the **Extens
 
 - [Optimize Visual Studio performance](../ide/optimize-visual-studio-performance.md)
 - [Visual Studio performance tips and tricks](../ide/visual-studio-performance-tips-and-tricks.md)
-- [Visual Studio blog - Load solutions faster with Visual Studio 2017 version 15.6](https://blogs.msdn.microsoft.com/visualstudio/2018/04/04/load-solutions-faster-with-visual-studio-2017-version-15-6/)
+- [Visual Studio blog - Load solutions faster with Visual Studio 2017 version 15.6](https://devblogs.microsoft.com/visualstudio/load-solutions-faster-with-visual-studio-2017-version-15-6/)

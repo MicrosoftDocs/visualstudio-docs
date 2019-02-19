@@ -1,7 +1,6 @@
 ---
 title: -UseEnv (devenv.exe)
 ms.date: 01/10/2019
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "VC.Project.UseEnvVars.ExcludePath"

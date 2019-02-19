@@ -2,7 +2,6 @@
 title: Manage Python application projects
 description: Projects in Visual Studio manage dependencies between files and the complexity of relationships in an application.
 ms.date: 01/28/2019
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
@@ -32,8 +31,7 @@ Visual Studio provides a variety of Python project templates to quickly set up a
 
 |   |   |
 |---|---|
-| ![movie camera icon for video](../install/media/video-icon.png "Watch a video") | [Watch a video (Microsoft Virtual Academy)](https://mva.microsoft.com/en-US/training-courses-embed/python-tools-for-visual-studio-2017-18121/Video-Getting-Python-Code-iLAv23LWE_3905918567) for an introduction to Python projects (2m 17s). |
-| ![movie camera icon for video](../install/media/video-icon.png "Watch a video") | Also see [Deep Dive: Use source control with Python projects](https://youtu.be/Aq8eqApnugM) (youtube.com, 8m 55s). |
+| ![movie camera icon for video](../install/media/video-icon.png "Watch a video") | [Deep Dive: Use source control with Python projects](https://youtu.be/Aq8eqApnugM) (youtube.com, 8m 55s). |
 
 ## Add files, assign a startup file, and set environments
 

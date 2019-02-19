@@ -2,7 +2,6 @@
 title: Overview of Visual Studio
 titleSuffix: ""
 ms.date: 03/19/2019
-ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
 ms.custom: vs-get-started
@@ -44,4 +43,4 @@ If you're ready to dive into more coding, one of the following language-specific
 
 - Discover [more Visual Studio features](../ide/advanced-feature-overview.md)
 - Visit [visualstudio.microsoft.com](https://visualstudio.microsoft.com/vs/)
-- Read [The Visual Studio blog](https://blogs.msdn.microsoft.com/visualstudio/)
+- Read [The Visual Studio blog](https://devblogs.microsoft.com/visualstudio/)

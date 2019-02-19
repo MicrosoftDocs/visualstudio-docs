@@ -11,7 +11,6 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
 ---
 # Add a Tracking Property to a Domain-Specific Language Definition
 

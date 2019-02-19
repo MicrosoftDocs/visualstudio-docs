@@ -2,7 +2,6 @@
 title: Overview of Visual Studio for Python developers
 titleSuffix: ""
 ms.date: 12/14/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
@@ -129,5 +128,4 @@ Explore Python in Visual Studio further by following one of the following quicks
 
 - Discover [more Visual Studio features](../ide/advanced-feature-overview.md)
 - Visit [visualstudio.microsoft.com](https://visualstudio.microsoft.com/vs/)
-- Read [The Visual Studio blog](https://blogs.msdn.microsoft.com/visualstudio/)
-- Check out the free Visual Studio courses at [Microsoft Virtual Academy](https://mva.microsoft.com/product-training/visual-studio-courses#!index=2&lang=1033)
+- Read [The Visual Studio blog](https://devblogs.microsoft.com/visualstudio/)

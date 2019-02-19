@@ -2,7 +2,6 @@
 title: "&lt;addin&gt; element (Office development in Visual Studio)"
 titleSuffix: ""
 ms.date: 02/02/2017
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 dev_langs:
   - "VB"

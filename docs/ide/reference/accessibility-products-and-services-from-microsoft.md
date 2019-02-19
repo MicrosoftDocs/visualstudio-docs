@@ -2,8 +2,6 @@
 title: Accessibility products and services from Microsoft
 description: "Learn more about the products and services from Microsoft that can help make our operating systems, programs, and applications more accessible for everyone to use, including people with disabilities."
 ms.date: 08/22/2017
-ms.prod: visual-studio-dev15
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "TTY/TDD services"
@@ -25,7 +23,7 @@ ms.workload:
 # Accessibility products and services from Microsoft
 
 > [!TIP]
-> To learn more about recent accessibility updates to Visual Studio, see the [Accessibility improvements in Visual Studio 2017 version 15.3](https://blogs.msdn.microsoft.com/visualstudio/2017/08/14/accessibility-improvements-in-visual-studio-2017-version-15-3/) blog post.
+> To learn more about recent accessibility updates to Visual Studio, see the [Accessibility improvements in Visual Studio 2017 version 15.3](https://devblogs.microsoft.com/visualstudio/accessibility-improvements-in-visual-studio-2017-version-15-3/) blog post.
 
 Microsoft is committed to making its products and services easier for everyone to use. The following topics provide information about the features, products, and services that make Microsoft Windows more accessible for people with disabilities:
 

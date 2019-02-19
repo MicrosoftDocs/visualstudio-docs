@@ -8,7 +8,6 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
 ---
 # Access Visual Studio or other Hosts from a Text Template
 

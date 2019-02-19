@@ -1,7 +1,6 @@
 ---
 title: Analyzer rule sets
 ms.date: 07/20/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "analyzers, rule sets"

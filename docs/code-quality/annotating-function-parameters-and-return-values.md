@@ -1,7 +1,6 @@
 ---
 title: Annotating Function Parameters and Return Values
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: "conceptual"
 f1_keywords:
   - "_Outptr_opt_result_bytebuffer_to_"

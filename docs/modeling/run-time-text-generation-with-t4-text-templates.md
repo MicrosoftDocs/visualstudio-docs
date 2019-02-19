@@ -15,7 +15,6 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
 ---
 # Run-Time Text Generation with T4 Text Templates
 

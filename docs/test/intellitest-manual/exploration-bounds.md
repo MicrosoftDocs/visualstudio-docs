@@ -1,7 +1,6 @@
 ---
 title: "Exploration bounds | Microsoft IntelliTest Developer Test Tool"
 ms.date: 05/02/2017
-ms.prod: visual-studio-dev15
 ms.topic: reference
 helpviewer_keywords:
   - "IntelliTest, Exploration bounds"
