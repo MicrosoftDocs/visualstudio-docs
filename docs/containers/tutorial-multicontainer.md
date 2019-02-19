@@ -11,9 +11,9 @@ monikerRange: ">= vs-2017"
 ---
 # Tutorial: Developing with multiple Docker containers
 
-In this tutorial, you'll learn how to manage more than one container and communicate between them when using Container Tools in Visual Studio, and then deploy it to Azure App Service.  Managing multiple containers requires *container orchestration* and requires an orchestrator such as Docker Compose, Kubernetes, or Service Fabric. In this tutorial, we'll use Docker Compose.
+In this tutorial, you'll learn how to manage more than one container and communicate between them when using Container Tools in Visual Studio.  Managing multiple containers requires *container orchestration* and requires an orchestrator such as Docker Compose, Kubernetes, or Service Fabric. Here, we'll use Docker Compose.
 
-## Prerequisities
+## Prerequisites
 
 ## Step 1: Create a web site project
 
@@ -47,32 +47,32 @@ In this tutorial, you'll learn how to manage more than one container and communi
     }
    ```
 
-1. In the *Index.cshtml* file, add a line to display `ViewData["Message"]` so that the file looks like this.
-
-  ```cshtml
-  @page
-  @model IndexModel
-  @{
-      ViewData["Title"] = "Home page";
-  }
-
-  <div class="text-center">
-      <h1 class="display-4">Welcome</h1>
-      <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-      <p>@ViewData["Message"]</p>
-  </div>
-  ```
+1. In the *Index.cshtml* file, add a line to display `ViewData["Message"]` so that the file looks like the following code:
+    
+      ```cshtml
+      @page
+      @model IndexModel
+      @{
+          ViewData["Title"] = "Home page";
+      }
+    
+      <div class="text-center">
+          <h1 class="display-4">Welcome</h1>
+          <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+          <p>@ViewData["Message"]</p>
+      </div>
+      ```
 
 1. Now in the Web API project, add code to the Values controller to customize the message returned by the API for the call you added from webfrontend.
-
-  ```csharp
-    // GET api/values/5
-    [HttpGet("{id}")]
-    public ActionResult<string> Get(int id)
-    {
-        return "webapi (with value " + id + ")";
-    }
-  ```
+    
+      ```csharp
+        // GET api/values/5
+        [HttpGet("{id}")]
+        public ActionResult<string> Get(int id)
+        {
+            return "webapi (with value " + id + ")";
+        }
+      ```
 
 1. Choose **Add > Container Orchestrator Support**. The Docker Support Options dialog appears.
 
@@ -82,7 +82,7 @@ In this tutorial, you'll learn how to manage more than one container and communi
 
    ![Screenshot of choosing the Target OS](media/tutorial-multicontainer/docker-tutorial-docker-support-options.PNG)
 
-   A *docker-compose.yml* file and a *.dockerignore* file are created in the **docker-compose** node in the solution, and that project shows in boldface font, which shows that it is the startup project.
+   Visual Studio creates a *docker-compose.yml* file and a *.dockerignore* file in the **docker-compose** node in the solution, and that project shows in boldface font, which shows that it's the startup project.
 
    ![Screenshot of Solution Explorer with docker-compose project added](media/tutorial-multicontainer/multicontainer-solution-explorer.png)
 
@@ -99,7 +99,7 @@ In this tutorial, you'll learn how to manage more than one container and communi
           dockerfile: WebFrontEnd1/Dockerfile
    ```
 
-   The *.dockerignore* file contains file types and extensions that you don't want Docker to include in the container. These are generally files associated with the development environment and source control, not part of the app or service you're developing.
+   The *.dockerignore* file contains file types and extensions that you don't want Docker to include in the container. These files are generally associated with the development environment and source control, not part of the app or service you're developing.
 
    Look at the **Container Tools** section of the output pane for details of the commands being run.  You can see the command-line tool docker-compose is used to configure and create the runtime containers.
 
@@ -185,14 +185,16 @@ In this tutorial, you'll learn how to manage more than one container and communi
           dockerfile: MyWebAPI/Dockerfile
     ```
 
-1. Run this locally now (F5 or CTRL+F5) to verify that it works as expected. If everything works as expected, you see the message "Hello from webfrontend and webapi (with value 1)."
+1. Run the site locally now (F5 or CTRL+F5) to verify that it works as expected. If everything works as expected, you see the message "Hello from webfrontend and webapi (with value 1)."
 
 ## Next steps
 
-When you're ready to deploy the multicontainer app, you will need to decide what container orchestrator to use. You can use [Service Fabric](/azure/service-fabric/service-fabric-overview) or [Azure Kubernetes Service (AKS)](/azure/aks).
+When you're ready to deploy the multicontainer app, you'll need to decide what container orchestrator to use. You can use [Service Fabric](/azure/service-fabric/service-fabric-host-app-in-a-container) or [Azure Kubernetes Service (AKS)](/azure/aks).
 
 ## See Also
 
 [Docker Compose](https://docs.docker.com/compose/)
-[Service Fabric](/azure/service-fabric/service-fabric-overview)
+
+[Service Fabric Overview](/azure/service-fabric/service-fabric-overview)
+
 [Azure Kubernetes Service](/azure/aks)
