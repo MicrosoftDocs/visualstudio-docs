@@ -18,13 +18,13 @@ Determines if the code at the specified debugger address is hidden.
 
 ```cpp
 HRESULT IsHiddenCode(
-   IDebugAddress* pAddress
+    IDebugAddress* pAddress
 );
 ```
 
 ```csharp
 int IsHiddenCode(
-   IDebugAddress pAddress
+    IDebugAddress pAddress
 );
 ```
 
