@@ -41,12 +41,12 @@ this.layer = view.GetAdornmentLayer("PurpleCornerBox");
 
 In the KeyBindingTestTextViewCreationListener.cs class file, change the name of the AdornmentLayer from **KeyBindingTest** to **PurpleCornerBox**:
   
-    ```csharp  
-    [Export(typeof(AdornmentLayerDefinition))]  
-    [Name("PurpleCornerBox")]  
-    [Order(After = PredefinedAdornmentLayers.Selection, Before = PredefinedAdornmentLayers.Text)]  
-    public AdornmentLayerDefinition editorAdornmentLayer;  
-    ```  
+```csharp  
+[Export(typeof(AdornmentLayerDefinition))]  
+[Name("PurpleCornerBox")]  
+[Order(After = PredefinedAdornmentLayers.Selection, Before = PredefinedAdornmentLayers.Text)]  
+public AdornmentLayerDefinition editorAdornmentLayer;  
+```  
 
 ## Handle TYPECHAR command
 Prior to Visual Studio 2017 version 15.6 the only way to handle commands in an editor extension was implementing an <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> based command filter. Visual Studio 2017 version 15.6 introduced a modern simplified approach based on editor command handlers. The next two sections demonstrate how to handle a command using both the legacy and modern approach.
