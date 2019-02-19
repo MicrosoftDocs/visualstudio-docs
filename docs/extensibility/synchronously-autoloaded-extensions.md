@@ -1,5 +1,5 @@
 ---
-title: "Synchronously autoloaded extensions
+title: "Synchronously autoloaded extensions"
 ms.date: "02/16/2019"
 ms.topic: "conceptual"
 ms.assetid: 822e3cf8-f723-4ff1-8467-e0fb42358a1f
