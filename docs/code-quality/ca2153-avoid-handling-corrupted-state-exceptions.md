@@ -27,7 +27,7 @@ CSE indicates that the state of a process has been corrupted and not caught by t
 
 The safest option is to allow the process to crash without catching these kinds of exceptions. Even logging code can allow attackers to exploit memory corruption bugs.
 
-This warning triggers when catching CSEs with a general handler that catches all exceptions, such as `catch (System.Exception e)` or `catch` with no exception parameter.
+This warning triggers when catching CSEs with a general handler that catches all exceptions, for example, `catch (System.Exception e)` or `catch` with no exception parameter.
 
 ## How to fix violations
 
@@ -67,7 +67,7 @@ void TestMethod1()
 
 ### Solution 1 - remove the attribute
 
-Removing the <xref:System.Runtime.ExceptionServices.HandleProcessCorruptedStateExceptionsAttribute?displayProperty=fullName> attribute ensures that Corrupted State Exceptions are not handled by your method.
+Removing the <xref:System.Runtime.ExceptionServices.HandleProcessCorruptedStateExceptionsAttribute> attribute ensures that Corrupted State Exceptions are not handled by your method.
 
 ```csharp
 void TestMethod1()
@@ -110,6 +110,7 @@ void TestMethod1()
 Rethrow the exception.
 
 ```csharp
+[HandleProcessCorruptedStateExceptions]
 void TestMethod1()
 {
     try
