@@ -13,6 +13,6 @@ ms.workload:
 
 The Visual Studio SDK has the following new and updated features for Visual Studio 2019.
 
-## Synchronsly autoloaded extensions warning
+## Synchronously autoloaded extensions warning
 
 Users will now see a warning if any of their installed extensions are synchronously autoloaded on startup. You can learn more about the warning at [Synchronously autoloaded extensions](synchronously-autoloaded-extensions.md)

@@ -13,13 +13,13 @@ ms.workload:
 
 Synchronously autoloaded extensions have a negative impact on the performance of Visual Studio and should be converted to use asynchronous autoload instead. Starting in Visual Studio 2019 Preview 2, users will be notified when an extension is being synchronously autoloaded. The extension will load and work as normal.
 
-![extension compatibililty warning](media/extension-compatibility-warning.png)
+![extension compatibility warning](media/extension-compatibility-warning.png)
 
 1. Users can click on **Learn more** to get to this information page.
 
 3. Users can click on **Manage performance** to open the [Performance Manager dialog](#performance-manager-dialog) that shows performance issues with extensions and tool windows.
 
-3. Users can click on **Don't show this message again** to dismiss the notification. Note this will also prevent all future notifications from synchronously autoloaded extensions. Users will continue to get notifications on other Visual Studio features.
+3. Users can click on **Don't show this message again** to dismiss the notification. Note choosing this option will also prevent all future notifications from synchronously autoloaded extensions. Users will continue to get notifications on other Visual Studio features.
 
 ### Performance Manager dialog
 
@@ -30,4 +30,4 @@ All extensions that synchronously loaded any packages in any user sessions will 
 * Users can click on the **More information about this issue** to gather more information about the deprecated APIs.
 * Users can contact their extension vendors for the migration progress.
 
-Extension authors can find instructions for migrating packages to asynchonous autoload at [Migrate to AsyncPackage](https://github.com/Microsoft/VSSDK-Extensibility-Samples/tree/master/AsyncPackageMigration).
+Extension authors can find instructions for migrating packages to asynchronous autoload at [Migrate to AsyncPackage](https://github.com/Microsoft/VSSDK-Extensibility-Samples/tree/master/AsyncPackageMigration).
