@@ -19,35 +19,35 @@ Replaces the current debug symbols with those in the specified data stream.
 
 ```cpp
 HRESULT ReplaceSymbols(
-   ULONG32  ulAppDomainID,
-   GUID     guidModule,
-   IStream* pStream
+    ULONG32  ulAppDomainID,
+    GUID     guidModule,
+    IStream* pStream
 );
 ```
 
 ```csharp
 int ReplaceSymbols(
-   uint    ulAppDomainID,
-   Guid    guidModule,
-   IStream pStream
+    uint    ulAppDomainID,
+    Guid    guidModule,
+    IStream pStream
 );
 ```
 
 #### Parameters
- `ulAppDomainID`
- [in] Identifier of the application domain.
+`ulAppDomainID`  
+[in] Identifier of the application domain.
 
- `guidModule`
- [in] Unique identifier of the module.
+`guidModule`  
+[in] Unique identifier of the module.
 
- `pStream`
- [in] Data stream that contains the new symbols.
+`pStream`  
+[in] Data stream that contains the new symbols.
 
 ## Return Value
- If successful, returns `S_OK`; otherwise, returns an error code.
+If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## Example
- The following example shows how to implement this method for a **CDebugSymbolProvider** object that exposes the [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md) interface.
+The following example shows how to implement this method for a **CDebugSymbolProvider** object that exposes the [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md) interface.
 
 ```cpp
 HRESULT CDebugSymbolProvider::ReplaceSymbols(
@@ -73,4 +73,4 @@ Error:
 ```
 
 ## See Also
- [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)
+[IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)
