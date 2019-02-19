@@ -1,9 +1,9 @@
 ---
 title: Generate a deconstructor quick action
-ms.date: 01/26/2018
+ms.date: 02/19/2019
 ms.topic: reference
-author: gewarren
-ms.author: gewarren
+author: kendrahavens
+ms.author: kendrahavens
 manager: jillfra
 ms.workload:
   - "dotnet"
@@ -31,7 +31,7 @@ This code generation applies to:
 1. Next, do one of the following in the:
 
    - **Keyboard**
-      - With your cursor in your Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
+      - With your cursor in your declaration, press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
    - **Mouse**
       - Right-click and select the **Quick Actions and Refactorings** menu.
       - Click the ![screwdriver](media/screwdriver.png) icon that appears in the left margin if the text cursor is already on the empty line in the class.

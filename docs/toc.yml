@@ -312,6 +312,8 @@
             href: ide/reference/generate-override.md
           - name: Generate Equals and GetHashCode method overrides
             href: ide/reference/generate-equals-gethashcode-methods.md
+          - name: Generate usings
+            href: ide/reference/generate-usings.md
           - name: Implement abstract class
             href: ide/reference/implement-abstract-class.md
           - name: Implement interface
