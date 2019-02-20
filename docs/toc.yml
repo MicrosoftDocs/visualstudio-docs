@@ -335,6 +335,8 @@
             href: ide/reference/convert-get-method-to-property.md
           - name: Convert local function to method
             href: ide/reference/convert-local-function-to-method.md
+          - name: Convert foreach loop to LINQ
+            href: ide/reference/convert-foreach-to-linq.md
           - name: Convert LINQ query to foreach statement
             href: ide/reference/convert-linq-to-foreach.md
           - name: Encapsulate field
@@ -345,6 +347,8 @@
             href: ide/reference/extract-method.md
           - name: Inline temporary variable
             href: ide/reference/inline-temporary-variable.md
+          - name: Invert conditional expressions and logical operations
+            href: ide/reference/invert-conditional-logical.md
           - name: Move declaration near reference
             href: ide/reference/move-declaration-near-reference.md
           - name: Move type to matching file
@@ -359,6 +363,10 @@
             href: ide/reference/sync-type-and-file.md
           - name: Use explicit type
             href: ide/reference/convert-var-to-explicit-type.md
+          - name: Use lambda expression or block body
+            href: ide/reference/use-block-body-lambda.md
+          - name: Unused values and parameters
+            href: ide/reference/unused-values-parameters.md
           - name: Wrap, indent, and align parameters
             href: ide/reference/wrap-align-indent-parameters.md
         - name: "Walkthrough: Generate code from usage"

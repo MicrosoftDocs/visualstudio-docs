@@ -18,7 +18,7 @@ This refactoring applies to:
 - C#
 - Visual Basic
 
-**What:** Lets you invert a conditional expression or a conditional AND/OR operator
+**What:** Lets you invert a conditional expression or a conditional AND/OR operator.
 
 **When:** When you have a conditional expression or conditional AND/OR operator that would be better understood if inverted.
 
