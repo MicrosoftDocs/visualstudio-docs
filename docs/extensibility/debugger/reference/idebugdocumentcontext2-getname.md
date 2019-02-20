@@ -20,15 +20,15 @@ Gets the displayable name of the document that contains this document context.
 
 ```cpp
 HRESULT GetName(
-   GETNAME_TYPE gnType,
-   BSTR*        pbstrFileName
+    GETNAME_TYPE gnType,
+    BSTR*        pbstrFileName
 );
 ```
 
 ```csharp
 int GetName(
-   enum_GETNAME_TYPE  gnType,
-   out string         pbstrFileName
+    enum_GETNAME_TYPE  gnType,
+    out string         pbstrFileName
 );
 ```
 
@@ -51,37 +51,37 @@ The following example shows how to implement this method for a simple `CDebugCon
 ```cpp
 HRESULT CDebugContext::GetName(GETNAME_TYPE gnType, BSTR* pbstrFileName)
 {
-   HRESULT hr;
+    HRESULT hr;
 
-   // Check for a valid file name argument.
-   if (pbstrFileName)
-   {
-      *pbstrFileName = NULL;
+    // Check for a valid file name argument.
+    if (pbstrFileName)
+    {
+        *pbstrFileName = NULL;
 
-      switch (gnType)
-      {
-         case GN_NAME:
-         case GN_FILENAME:
-         {
-            // Copy the member file name into the local file name.
-            *pbstrFileName = SysAllocString(m_sbstrFileName);
-            // Check for successful copy.
-            hr = (*pbstrFileName) ? S_OK : E_OUTOFMEMORY;
-            break;
-         }
-         default:
-         {
-            hr = E_FAIL;
-            break;
-         }
-      }
-   }
-   else
-   {
-      hr = E_INVALIDARG;
-   }
+        switch (gnType)
+        {
+            case GN_NAME:
+            case GN_FILENAME:
+            {
+                // Copy the member file name into the local file name.
+                *pbstrFileName = SysAllocString(m_sbstrFileName);
+                // Check for successful copy.
+                hr = (*pbstrFileName) ? S_OK : E_OUTOFMEMORY;
+                break;
+            }
+            default:
+            {
+                hr = E_FAIL;
+                break;
+            }
+        }
+    }
+    else
+    {
+        hr = E_INVALIDARG;
+    }
 
-   return hr;
+    return hr;
 }
 ```
 
