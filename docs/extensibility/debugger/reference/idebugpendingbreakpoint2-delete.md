@@ -21,7 +21,7 @@ Deletes this pending breakpoint and all breakpoints bound from it.
 
 ```cpp
 HRESULT Delete(
-   void
+    void
 );
 ```
 
@@ -38,40 +38,40 @@ The following example shows how to implement this method for a simple `CPendingB
 ```cpp
 HRESULT CPendingBreakpoint::Delete(void)
 {
-   HRESULT hr;
+    HRESULT hr;
 
-   // Verify that the pending breakpoint has not been deleted. If deleted,
-   // then return hr = E_BP_DELETED.
-   if (m_state.state != PBPS_DELETED)
-   {
-      // If the pending breakpoint has bound and has an associated bound
-      // breakpoint, delete and release the bound breakpoint and set the
-      // pointer to NULL.
-      if (m_pBoundBP)
-      {
-         m_pBoundBP->Delete();
-         m_pBoundBP->Release();
-         m_pBoundBP = NULL;
-      }
-      // If the pending breakpoint did not bind and has an associated
-      // error breakpoint, release the error breakpoint and set the
-      // pointer to NULL.
-      if (m_pErrorBP)
-      {
-         m_pErrorBP->Release();
-         m_pErrorBP = NULL;
-      }
+    // Verify that the pending breakpoint has not been deleted. If deleted,
+    // then return hr = E_BP_DELETED.
+    if (m_state.state != PBPS_DELETED)
+    {
+        // If the pending breakpoint has bound and has an associated bound
+        // breakpoint, delete and release the bound breakpoint and set the
+        // pointer to NULL.
+        if (m_pBoundBP)
+        {
+            m_pBoundBP->Delete();
+            m_pBoundBP->Release();
+            m_pBoundBP = NULL;
+        }
+        // If the pending breakpoint did not bind and has an associated
+        // error breakpoint, release the error breakpoint and set the
+        // pointer to NULL.
+        if (m_pErrorBP)
+        {
+            m_pErrorBP->Release();
+            m_pErrorBP = NULL;
+        }
 
-      // Set the PENDING_BP_STATE in the PENDING_BP_STATE_INFO structure
-      // to deleted.
-      m_state.state = PBPS_DELETED;
-   }
-   else
-   {
-      hr = E_BP_DELETED;
-   }
+        // Set the PENDING_BP_STATE in the PENDING_BP_STATE_INFO structure
+        // to deleted.
+        m_state.state = PBPS_DELETED;
+    }
+    else
+    {
+        hr = E_BP_DELETED;
+    }
 
-   return hr;
+    return hr;
 }
 ```
 
