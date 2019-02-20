@@ -20,13 +20,13 @@ Gets the number of custom viewers that might be available for this property.
 
 ```cpp
 HRESULT GetCustomViewerCount(
-   ULONG* pcelt
+    ULONG* pcelt
 );
 ```
 
 ```csharp
 int GetCustomViewerCount(
-   out uint pcelt
+    out uint pcelt
 );
 ```
 
