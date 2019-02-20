@@ -20,19 +20,19 @@ Retrieves the text from the specified position in the document.
 
 ```cpp
 HRESULT GetText(
-   TEXT_POSITION pos,
-   ULONG         cMaxChars,
-   WCHAR*        pText,
-   ULONG*        pcNumChars
+    TEXT_POSITION pos,
+    ULONG         cMaxChars,
+    WCHAR*        pText,
+    ULONG*        pcNumChars
 );
 ```
 
 ```csharp
 int GetText(
-   eumn_TEXT_POSITION pos,
-   uint               cMaxChars,
-   IntPtr             pText,
-   out uint           pcNumChars
+    eumn_TEXT_POSITION pos,
+    uint               cMaxChars,
+    IntPtr             pText,
+    out uint           pcNumChars
 );
 ```
 
@@ -64,29 +64,29 @@ namespace Mynamespace
 {
     class MyClass
     {
-         string GetDocumentText(IDebugDocumentText2 pText, TEXT_POSITION pos)
+        string GetDocumentText(IDebugDocumentText2 pText, TEXT_POSITION pos)
         {
-             string documentText = string.Empty;
-             if (pText != null)
-             {
-                  uint numLines = 0;
-                  uint numChars = 0;
-                  int hr;
-                  hr = pText.GetSize(ref numLines, ref numChars);
-                  if (ErrorHandler.Succeeded(hr))
-                  {
-                       IntPtr buffer = Marshal.AllocCoTaskMem((int)numChars * sizeof(char));
-                       uint actualChars = 0;
-                       hr = pText.GetText(pos, numChars, buffer, out actualChars);
-                       if (ErrorHandler.Succeeded(hr))
-                       {
-                            documentText = Marshal.PtrToStringUni(buffer, (int)actualChars);
-                       }
-                       Marshal.FreeCoTaskMem(buffer);
-                  }
-              }
-              return documentText;
-         }
+            string documentText = string.Empty;
+            if (pText != null)
+            {
+                uint numLines = 0;
+                uint numChars = 0;
+                int hr;
+                hr = pText.GetSize(ref numLines, ref numChars);
+                if (ErrorHandler.Succeeded(hr))
+                {
+                    IntPtr buffer = Marshal.AllocCoTaskMem((int)numChars * sizeof(char));
+                    uint actualChars = 0;
+                    hr = pText.GetText(pos, numChars, buffer, out actualChars);
+                    if (ErrorHandler.Succeeded(hr))
+                    {
+                        documentText = Marshal.PtrToStringUni(buffer, (int)actualChars);
+                    }
+                    Marshal.FreeCoTaskMem(buffer);
+                }
+            }
+            return documentText;
+        }
     }
 }
 ```
