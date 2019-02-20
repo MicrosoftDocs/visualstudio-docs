@@ -49,8 +49,8 @@ ms.workload:
  This code example assumes that the document contains a <xref:Microsoft.Office.Tools.Word.Bookmark> control (in a document-level customization) or <xref:Microsoft.Office.Interop.Word.Bookmark> control (in a VSTO Add-in) that is named `bookmark1`.
 
 ## See also
- [How to: Programmatically print documents](../vsto/how-to-programmatically-print-documents.md)
- [How to: Programmatically define and select ranges in documents](../vsto/how-to-programmatically-define-and-select-ranges-in-documents.md)
- [How to: Programmatically reset ranges in Word documents](../vsto/how-to-programmatically-reset-ranges-in-word-documents.md)
- [How to: Programmatically update Bookmark text](../vsto/how-to-programmatically-update-bookmark-text.md)
- [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)
+- [How to: Programmatically print documents](../vsto/how-to-programmatically-print-documents.md)
+- [How to: Programmatically define and select ranges in documents](../vsto/how-to-programmatically-define-and-select-ranges-in-documents.md)
+- [How to: Programmatically reset ranges in Word documents](../vsto/how-to-programmatically-reset-ranges-in-word-documents.md)
+- [How to: Programmatically update Bookmark text](../vsto/how-to-programmatically-update-bookmark-text.md)
+- [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)

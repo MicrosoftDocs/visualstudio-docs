@@ -174,8 +174,8 @@ ms.workload:
 -   Bind data to controls on an actions pane. For more information, see [Walkthrough: Bind data to controls on a Word actions pane](../vsto/walkthrough-binding-data-to-controls-on-a-word-actions-pane.md).
 
 ## See also
- [Actions pane overview](../vsto/actions-pane-overview.md)
- [How to: Add an actions pane to Word documents or Excel workbooks](../vsto/how-to-add-an-actions-pane-to-word-documents-or-excel-workbooks.md)
- [How to: Add an actions pane to Excel workbooks](/previous-versions/visualstudio/visual-studio-2010/e3zbk0hz(v=vs.100))
- [How to: Manage control layout on actions panes](../vsto/how-to-manage-control-layout-on-actions-panes.md)
- [Bookmark control](../vsto/bookmark-control.md)
+- [Actions pane overview](../vsto/actions-pane-overview.md)
+- [How to: Add an actions pane to Word documents or Excel workbooks](../vsto/how-to-add-an-actions-pane-to-word-documents-or-excel-workbooks.md)
+- [How to: Add an actions pane to Excel workbooks](/previous-versions/visualstudio/visual-studio-2010/e3zbk0hz(v=vs.100))
+- [How to: Manage control layout on actions panes](../vsto/how-to-manage-control-layout-on-actions-panes.md)
+- [Bookmark control](../vsto/bookmark-control.md)

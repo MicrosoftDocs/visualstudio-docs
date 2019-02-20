@@ -37,5 +37,5 @@ ms.workload:
  A valid inclusion list entry has two parts: a path to the deployment manifest, and the public key used to sign the solution. After a solution is added to the inclusion list, it is considered trusted. When the Office solution runs, the Office application compares the public key in the inclusion list with the signing key in the deployment manifest to verify that the solution that is currently running is the same as the original trusted version.
 
 ## See also
- [Grant trust to Office solutions](../vsto/granting-trust-to-office-solutions.md)
- [Secure Office solutions](../vsto/securing-office-solutions.md)
+- [Grant trust to Office solutions](../vsto/granting-trust-to-office-solutions.md)
+- [Secure Office solutions](../vsto/securing-office-solutions.md)

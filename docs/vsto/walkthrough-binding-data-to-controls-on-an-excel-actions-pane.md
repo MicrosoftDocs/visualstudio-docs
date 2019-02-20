@@ -178,6 +178,6 @@ ms.workload:
 -   Deploying the project. For more information, see [Deploy an Office solution by using ClickOnce](../vsto/deploying-an-office-solution-by-using-clickonce.md).
 
 ## See also
- [Actions pane overview](../vsto/actions-pane-overview.md)
- [How to: Manage control layout on actions panes](../vsto/how-to-manage-control-layout-on-actions-panes.md)
- [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)
+- [Actions pane overview](../vsto/actions-pane-overview.md)
+- [How to: Manage control layout on actions panes](../vsto/how-to-manage-control-layout-on-actions-panes.md)
+- [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)

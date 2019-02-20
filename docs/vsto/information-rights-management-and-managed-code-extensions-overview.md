@@ -34,8 +34,8 @@ ms.workload:
  To fix the problem, someone with Full Control access to the document or workbook must change the default permission settings to allow programmatic access to the object model. For more information, see [How to: Permit code to run behind documents with restricted permissions](../vsto/how-to-permit-code-to-run-behind-documents-with-restricted-permissions.md).
 
 ## See also
- [Document protection in document-level solutions](../vsto/document-protection-in-document-level-solutions.md)
- [Password protection on Office documents](../vsto/password-protection-on-office-documents.md)
- [Secure Office solutions](../vsto/securing-office-solutions.md)
- [Deploy an Office solution](../vsto/deploying-an-office-solution.md)
- [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)
+- [Document protection in document-level solutions](../vsto/document-protection-in-document-level-solutions.md)
+- [Password protection on Office documents](../vsto/password-protection-on-office-documents.md)
+- [Secure Office solutions](../vsto/securing-office-solutions.md)
+- [Deploy an Office solution](../vsto/deploying-an-office-solution.md)
+- [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)

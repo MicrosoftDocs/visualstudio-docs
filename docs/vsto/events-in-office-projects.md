@@ -147,8 +147,8 @@ ms.workload:
 >  You can force Outlook to raise the <xref:Microsoft.Office.Tools.AddInBase.Shutdown> event when it exits by modifying the registry. However, if an administrator reverts this setting, any code that you add to the `ThisAddIn_Shutdown` method no longer runs when Outlook exits. For more information, see [Shutdown changes for Outlook 2010](http://go.microsoft.com/fwlink/?LinkID=184614).
 
 ## See also
- [Develop Office solutions](../vsto/developing-office-solutions.md)
- [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md)
- [Program document-level customizations](../vsto/programming-document-level-customizations.md)
- [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)
- [Office project templates overview](../vsto/office-project-templates-overview.md)
+- [Develop Office solutions](../vsto/developing-office-solutions.md)
+- [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md)
+- [Program document-level customizations](../vsto/programming-document-level-customizations.md)
+- [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)
+- [Office project templates overview](../vsto/office-project-templates-overview.md)

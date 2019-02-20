@@ -246,11 +246,11 @@ ms.workload:
 -   To learn more about how to add a custom task pane to Outlook, see [Custom task panes](../vsto/custom-task-panes.md).
 
 ## See also
- [Access a form region at runtime](../vsto/accessing-a-form-region-at-run-time.md)
- [Create Outlook form regions](../vsto/creating-outlook-form-regions.md)
- [Guidelines to create Outlook form regions](../vsto/guidelines-for-creating-outlook-form-regions.md)
- [Walkthrough: Design an Outlook form region](../vsto/walkthrough-designing-an-outlook-form-region.md)
- [How to: Add a form region to an Outlook Add-in project](../vsto/how-to-add-a-form-region-to-an-outlook-add-in-project.md)
- [Associate a form region with an Outlook message class](../vsto/associating-a-form-region-with-an-outlook-message-class.md)
- [Custom actions in Outlook form regions](../vsto/custom-actions-in-outlook-form-regions.md)
- [How to: Prevent Outlook from displaying a form region](../vsto/how-to-prevent-outlook-from-displaying-a-form-region.md)
+- [Access a form region at runtime](../vsto/accessing-a-form-region-at-run-time.md)
+- [Create Outlook form regions](../vsto/creating-outlook-form-regions.md)
+- [Guidelines to create Outlook form regions](../vsto/guidelines-for-creating-outlook-form-regions.md)
+- [Walkthrough: Design an Outlook form region](../vsto/walkthrough-designing-an-outlook-form-region.md)
+- [How to: Add a form region to an Outlook Add-in project](../vsto/how-to-add-a-form-region-to-an-outlook-add-in-project.md)
+- [Associate a form region with an Outlook message class](../vsto/associating-a-form-region-with-an-outlook-message-class.md)
+- [Custom actions in Outlook form regions](../vsto/custom-actions-in-outlook-form-regions.md)
+- [How to: Prevent Outlook from displaying a form region](../vsto/how-to-prevent-outlook-from-displaying-a-form-region.md)

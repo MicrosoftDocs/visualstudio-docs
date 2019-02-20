@@ -38,6 +38,6 @@ ms.workload:
 -   You can store the document or workbook of a document-level solution in the same directory as the assembly, or in a different directory. For example, the document could be located on a SharePoint server and the assembly could be located on a network file share. For more information, see [How to: Publish a document-level Office solution to a SharePoint server by using ClickOnce](https://msdn.microsoft.com/2408e809-fb78-42a1-9152-00afa1522e58).
 
 ## See also
- [Grant trust to Office solutions](../vsto/granting-trust-to-office-solutions.md)
- [Troubleshoot Office solution security](../vsto/troubleshooting-office-solution-security.md)
- [Secure Office solutions](../vsto/securing-office-solutions.md)
+- [Grant trust to Office solutions](../vsto/granting-trust-to-office-solutions.md)
+- [Troubleshoot Office solution security](../vsto/troubleshooting-office-solution-security.md)
+- [Secure Office solutions](../vsto/securing-office-solutions.md)

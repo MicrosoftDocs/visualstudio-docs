@@ -37,12 +37,12 @@ ms.workload:
      [!code-vb[Trin_VstcoreExcelAutomationAddIn#12](../vsto/codesnippet/VisualBasic/trin_vstcoreexcelautomationaddin/ThisAddIn.vb#12)]
 
 ## See also
- [Work with worksheets](../vsto/working-with-worksheets.md)
- [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)
- [How to: Programmatically add new worksheets to workbooks](../vsto/how-to-programmatically-add-new-worksheets-to-workbooks.md)
- [How to: Programmatically delete worksheets from workbooks](../vsto/how-to-programmatically-delete-worksheets-from-workbooks.md)
- [How to: Programmatically select worksheets](../vsto/how-to-programmatically-select-worksheets.md)
- [Automate Excel by using extended objects](../vsto/automating-excel-by-using-extended-objects.md)
- [Global access to objects in Office projects](../vsto/global-access-to-objects-in-office-projects.md)
- [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)
- [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)
+- [Work with worksheets](../vsto/working-with-worksheets.md)
+- [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)
+- [How to: Programmatically add new worksheets to workbooks](../vsto/how-to-programmatically-add-new-worksheets-to-workbooks.md)
+- [How to: Programmatically delete worksheets from workbooks](../vsto/how-to-programmatically-delete-worksheets-from-workbooks.md)
+- [How to: Programmatically select worksheets](../vsto/how-to-programmatically-select-worksheets.md)
+- [Automate Excel by using extended objects](../vsto/automating-excel-by-using-extended-objects.md)
+- [Global access to objects in Office projects](../vsto/global-access-to-objects-in-office-projects.md)
+- [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)
+- [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)

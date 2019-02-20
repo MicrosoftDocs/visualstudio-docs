@@ -60,7 +60,7 @@ ms.workload:
      [!code-vb[Trin_VstcoreExcelAutomationAddIn#7](../vsto/codesnippet/VisualBasic/trin_vstcoreexcelautomationaddin/ThisAddIn.vb#7)]
 
 ## See also
- [Work with workbooks](../vsto/working-with-workbooks.md)
- [How to: Programmatically protect worksheets](../vsto/how-to-programmatically-protect-worksheets.md)
- [How to: Programmatically hide worksheets](../vsto/how-to-programmatically-hide-worksheets.md)
- [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)
+- [Work with workbooks](../vsto/working-with-workbooks.md)
+- [How to: Programmatically protect worksheets](../vsto/how-to-programmatically-protect-worksheets.md)
+- [How to: Programmatically hide worksheets](../vsto/how-to-programmatically-hide-worksheets.md)
+- [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)

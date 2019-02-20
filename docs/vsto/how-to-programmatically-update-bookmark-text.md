@@ -74,6 +74,6 @@ ms.workload:
      [!code-csharp[Trin_VstcoreWordAutomationAddIn#66](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationAddIn/ThisAddIn.cs#66)]
 
 ## See also
- [How to: Programmatically insert text into Word documents](../vsto/how-to-programmatically-insert-text-into-word-documents.md)
- [Word object model overview](../vsto/word-object-model-overview.md)
- [Bookmark control](../vsto/bookmark-control.md)
+- [How to: Programmatically insert text into Word documents](../vsto/how-to-programmatically-insert-text-into-word-documents.md)
+- [Word object model overview](../vsto/word-object-model-overview.md)
+- [Bookmark control](../vsto/bookmark-control.md)

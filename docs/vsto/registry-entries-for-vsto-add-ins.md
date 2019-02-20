@@ -99,7 +99,7 @@ ms.workload:
 |16|Loaded|Load first time, then load on demand|Set this value if you want your VSTO Add-in to be loaded on demand. The application loads the VSTO Add-in when the user runs the application for the first time. The next time the user runs the application, the application loads any UI elements that are defined by the VSTO Add-in, but the VSTO Add-in is not loaded until the user clicks a UI element that is associated with the VSTO Add-in.<br /><br /> When the application successfully loads the VSTO Add-in for the first time, the **LoadBehavior** value remains 16 while the VSTO Add-in is loaded. After the application closes, the **LoadBehavior** value changes to 9.|
 
 ## See also
- [Architecture of Office solutions in Visual Studio](../vsto/architecture-of-office-solutions-in-visual-studio.md)
- [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md)
- [Build Office solutions](../vsto/building-office-solutions.md)
- [Deploy an Office solution](../vsto/deploying-an-office-solution.md)
+- [Architecture of Office solutions in Visual Studio](../vsto/architecture-of-office-solutions-in-visual-studio.md)
+- [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md)
+- [Build Office solutions](../vsto/building-office-solutions.md)
+- [Deploy an Office solution](../vsto/deploying-an-office-solution.md)

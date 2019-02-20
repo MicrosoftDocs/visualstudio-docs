@@ -27,4 +27,4 @@ For example, you might select **Task (IPM.Task)** on the final page of the **New
 -   In the Forms Designer in Outlook, remove fields that aren't compatible with the message classes. Remove fields that you plan to select on the final page of the **New Form Region** wizard.
 
 ## See also
- [Walkthrough: Import a form region that is designed in Outlook](../vsto/walkthrough-importing-a-form-region-that-is-designed-in-outlook.md)
+- [Walkthrough: Import a form region that is designed in Outlook](../vsto/walkthrough-importing-a-form-region-that-is-designed-in-outlook.md)

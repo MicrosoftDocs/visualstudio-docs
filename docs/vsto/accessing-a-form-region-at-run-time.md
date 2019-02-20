@@ -67,12 +67,12 @@ ms.workload:
  For more information about how to create properties in Visual Basic, see [How to: Create a property (Visual Basic)](/dotnet/visual-basic/programming-guide/language-features/procedures/how-to-create-a-property).
 
 ## See also
- [Guidelines to create Outlook form regions](../vsto/guidelines-for-creating-outlook-form-regions.md)
- [Walkthrough: Design an Outlook form region](../vsto/walkthrough-designing-an-outlook-form-region.md)
- [How to: Add a form region to an Outlook Add-in project](../vsto/how-to-add-a-form-region-to-an-outlook-add-in-project.md)
- [Custom actions in Outlook form regions](../vsto/custom-actions-in-outlook-form-regions.md)
- [Associate a form region with an Outlook message class](../vsto/associating-a-form-region-with-an-outlook-message-class.md)
- [Walkthrough: Import a form region that is designed in Outlook](../vsto/walkthrough-importing-a-form-region-that-is-designed-in-outlook.md)
- [How to: Prevent Outlook from displaying a form region](../vsto/how-to-prevent-outlook-from-displaying-a-form-region.md)
- [Create Outlook form regions](../vsto/creating-outlook-form-regions.md)
- [Access the Ribbon at runtime](../vsto/accessing-the-ribbon-at-run-time.md)
+- [Guidelines to create Outlook form regions](../vsto/guidelines-for-creating-outlook-form-regions.md)
+- [Walkthrough: Design an Outlook form region](../vsto/walkthrough-designing-an-outlook-form-region.md)
+- [How to: Add a form region to an Outlook Add-in project](../vsto/how-to-add-a-form-region-to-an-outlook-add-in-project.md)
+- [Custom actions in Outlook form regions](../vsto/custom-actions-in-outlook-form-regions.md)
+- [Associate a form region with an Outlook message class](../vsto/associating-a-form-region-with-an-outlook-message-class.md)
+- [Walkthrough: Import a form region that is designed in Outlook](../vsto/walkthrough-importing-a-form-region-that-is-designed-in-outlook.md)
+- [How to: Prevent Outlook from displaying a form region](../vsto/how-to-prevent-outlook-from-displaying-a-form-region.md)
+- [Create Outlook form regions](../vsto/creating-outlook-form-regions.md)
+- [Access the Ribbon at runtime](../vsto/accessing-the-ribbon-at-run-time.md)

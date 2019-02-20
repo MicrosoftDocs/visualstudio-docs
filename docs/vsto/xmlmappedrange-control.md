@@ -52,8 +52,8 @@ ms.workload:
 -   <xref:Microsoft.Office.Tools.Excel.XmlMappedRange.SelectionChange>
 
 ## See also
- [Automate Excel by using extended objects](../vsto/automating-excel-by-using-extended-objects.md)
- [How to: Add XMLMappedRange controls to worksheets](../vsto/how-to-add-xmlmappedrange-controls-to-worksheets.md)
- [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)
- [How to: Map schemas to worksheets inside Visual Studio](../vsto/how-to-map-schemas-to-worksheets-inside-visual-studio.md)
- [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)
+- [Automate Excel by using extended objects](../vsto/automating-excel-by-using-extended-objects.md)
+- [How to: Add XMLMappedRange controls to worksheets](../vsto/how-to-add-xmlmappedrange-controls-to-worksheets.md)
+- [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)
+- [How to: Map schemas to worksheets inside Visual Studio](../vsto/how-to-map-schemas-to-worksheets-inside-visual-studio.md)
+- [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)

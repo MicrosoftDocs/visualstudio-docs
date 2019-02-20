@@ -66,8 +66,7 @@ ms.workload:
  A modeless form allows some type of interaction with the application while the form is displayed. The user interacts with the form, and the form interacts with the application without closing. The Office object model supports managed modeless forms; however, they should not be used on a background thread.
 
 ## See also
- [Managed threading](/dotnet/standard/threading/)
- [Threading (C#)](/dotnet/csharp/programming-guide/concepts/threading/index)
- [Threading (Visual Basic)](/dotnet/visual-basic/programming-guide/concepts/threading/index)
- [Use threads and threading](/dotnet/standard/threading/using-threads-and-threading)
- [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)
+- [Threading (C#)](/dotnet/csharp/programming-guide/concepts/threading/index)
+- [Threading (Visual Basic)](/dotnet/visual-basic/programming-guide/concepts/threading/index)
+- [Use threads and threading](/dotnet/standard/threading/using-threads-and-threading)
+- [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)

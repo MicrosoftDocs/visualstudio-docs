@@ -128,11 +128,11 @@ ms.workload:
 -   Deploying VSTO Add-ins for Word: [Deploy an Office solution](../vsto/deploying-an-office-solution.md).
 
 ## See also
- [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)
- [Word solutions](../vsto/word-solutions.md)
- [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)
- [Word object model overview](../vsto/word-object-model-overview.md)
- [Office UI customization](../vsto/office-ui-customization.md)
- [Build Office solutions](../vsto/building-office-solutions.md)
- [Deploy an Office solution](../vsto/deploying-an-office-solution.md)
- [Office project templates overview](../vsto/office-project-templates-overview.md)
+- [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)
+- [Word solutions](../vsto/word-solutions.md)
+- [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)
+- [Word object model overview](../vsto/word-object-model-overview.md)
+- [Office UI customization](../vsto/office-ui-customization.md)
+- [Build Office solutions](../vsto/building-office-solutions.md)
+- [Deploy an Office solution](../vsto/deploying-an-office-solution.md)
+- [Office project templates overview](../vsto/office-project-templates-overview.md)

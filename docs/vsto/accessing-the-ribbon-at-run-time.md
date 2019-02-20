@@ -49,11 +49,11 @@ ms.workload:
  [!code-csharp[Trin_Outlook_FR_Access#6](../vsto/codesnippet/CSharp/Trin_Outlook_FR_Access_O12/ThisAddIn.cs#6)]
 
 ## See also
- [Ribbon overview](../vsto/ribbon-overview.md)
- [Ribbon Designer](../vsto/ribbon-designer.md)
- [Ribbon XML](../vsto/ribbon-xml.md)
- [Ribbon object model overview](../vsto/ribbon-object-model-overview.md)
- [Walkthrough: Create a custom tab by using the Ribbon Designer](../vsto/walkthrough-creating-a-custom-tab-by-using-the-ribbon-designer.md)
- [Walkthrough: Update the controls on a Ribbon at runtime](../vsto/walkthrough-updating-the-controls-on-a-ribbon-at-run-time.md)
- [Customize a Ribbon for Outlook](../vsto/customizing-a-ribbon-for-outlook.md)
- [Access a form region at runtime](../vsto/accessing-a-form-region-at-run-time.md)
+- [Ribbon overview](../vsto/ribbon-overview.md)
+- [Ribbon Designer](../vsto/ribbon-designer.md)
+- [Ribbon XML](../vsto/ribbon-xml.md)
+- [Ribbon object model overview](../vsto/ribbon-object-model-overview.md)
+- [Walkthrough: Create a custom tab by using the Ribbon Designer](../vsto/walkthrough-creating-a-custom-tab-by-using-the-ribbon-designer.md)
+- [Walkthrough: Update the controls on a Ribbon at runtime](../vsto/walkthrough-updating-the-controls-on-a-ribbon-at-run-time.md)
+- [Customize a Ribbon for Outlook](../vsto/customizing-a-ribbon-for-outlook.md)
+- [Access a form region at runtime](../vsto/accessing-a-form-region-at-run-time.md)

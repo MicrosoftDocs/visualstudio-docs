@@ -71,6 +71,6 @@ ms.workload:
  For more information, see [Overview of classes and interfaces in the Office primary interop assemblies](http://go.microsoft.com/fwlink/?LinkId=189592) and [Office primary interop assemblies](../vsto/office-primary-interop-assemblies.md).
 
 ## See also
- [Visio solutions](../vsto/visio-solutions.md)
- [Work with Visio documents](../vsto/working-with-visio-documents.md)
- [Work with Visio shapes](../vsto/working-with-visio-shapes.md)
+- [Visio solutions](../vsto/visio-solutions.md)
+- [Work with Visio documents](../vsto/working-with-visio-documents.md)
+- [Work with Visio shapes](../vsto/working-with-visio-shapes.md)

@@ -30,7 +30,7 @@ ms.workload:
  Microsoft Office Word documents and Microsoft Office Excel workbooks can be set so that they cannot be opened by someone who does not know the password. Password protection is handled differently in Word and Excel, and can affect your development process. For more information, see [Password protection on Office documents](../vsto/password-protection-on-office-documents.md).
 
 ## See also
- [Document protection in document-level solutions](../vsto/document-protection-in-document-level-solutions.md)
- [Information rights management and managed code extensions overview](../vsto/information-rights-management-and-managed-code-extensions-overview.md)
- [Password protection on Office documents](../vsto/password-protection-on-office-documents.md)
- [How to: Open Office solutions without running code](../vsto/how-to-open-office-solutions-without-running-code.md)
+- [Document protection in document-level solutions](../vsto/document-protection-in-document-level-solutions.md)
+- [Information rights management and managed code extensions overview](../vsto/information-rights-management-and-managed-code-extensions-overview.md)
+- [Password protection on Office documents](../vsto/password-protection-on-office-documents.md)
+- [How to: Open Office solutions without running code](../vsto/how-to-open-office-solutions-without-running-code.md)

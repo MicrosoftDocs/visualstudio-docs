@@ -71,7 +71,7 @@ ms.workload:
  [!code-vb[Trin_VstcoreExcelAutomation#57](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#57)]
 
 ## See also
- [Work with ranges](../vsto/working-with-ranges.md)
- [How to: Programmatically apply styles to ranges in workbooks](../vsto/how-to-programmatically-apply-styles-to-ranges-in-workbooks.md)
- [How to: Programmatically refer to worksheet ranges in code](../vsto/how-to-programmatically-refer-to-worksheet-ranges-in-code.md)
- [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)
+- [Work with ranges](../vsto/working-with-ranges.md)
+- [How to: Programmatically apply styles to ranges in workbooks](../vsto/how-to-programmatically-apply-styles-to-ranges-in-workbooks.md)
+- [How to: Programmatically refer to worksheet ranges in code](../vsto/how-to-programmatically-refer-to-worksheet-ranges-in-code.md)
+- [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)

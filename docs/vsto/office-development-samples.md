@@ -35,5 +35,4 @@ ms.workload:
 |VBA and VSTO Interoperability Sample|Demonstrates how to call a method in a document-level customization for Excel from Visual Basic for Applications (VBA) code in the workbook.<br /><br /> This sample is only available online.|
 
 ## See also
- [MSDN developer samples: Learn through code samples](http://go.microsoft.com/fwlink/?LinkID=248199)
- [Common tasks in Office programming](../vsto/common-tasks-in-office-programming.md)
+- [Common tasks in Office programming](../vsto/common-tasks-in-office-programming.md)

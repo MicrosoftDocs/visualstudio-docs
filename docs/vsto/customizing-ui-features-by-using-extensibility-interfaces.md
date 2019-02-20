@@ -71,9 +71,9 @@ ms.workload:
  [!code-csharp[Trin_SimpleExtensibilityInterface#2](../vsto/codesnippet/CSharp/Trin_SimpleExtensibilityInterface/ThisAddIn.cs#2)]
 
 ## See also
- [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md)
- [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)
- [Develop Office solutions](../vsto/developing-office-solutions.md)
- [Call code in VSTO Add-ins from other Office solutions](../vsto/calling-code-in-vsto-add-ins-from-other-office-solutions.md)
- [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md)
- [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md)
+- [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md)
+- [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)
+- [Develop Office solutions](../vsto/developing-office-solutions.md)
+- [Call code in VSTO Add-ins from other Office solutions](../vsto/calling-code-in-vsto-add-ins-from-other-office-solutions.md)
+- [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md)
+- [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md)

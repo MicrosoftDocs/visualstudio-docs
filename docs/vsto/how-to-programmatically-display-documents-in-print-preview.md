@@ -52,6 +52,6 @@ ms.workload:
      [!code-csharp[Trin_VstcoreWordAutomation#14](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs#14)]
 
 ## See also
- [How to: Programmatically print documents](../vsto/how-to-programmatically-print-documents.md)
- [How to: Programmatically open existing documents](../vsto/how-to-programmatically-open-existing-documents.md)
- [How to: Programmatically create new documents](../vsto/how-to-programmatically-create-new-documents.md)
+- [How to: Programmatically print documents](../vsto/how-to-programmatically-print-documents.md)
+- [How to: Programmatically open existing documents](../vsto/how-to-programmatically-open-existing-documents.md)
+- [How to: Programmatically create new documents](../vsto/how-to-programmatically-create-new-documents.md)

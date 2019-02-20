@@ -181,9 +181,9 @@ ms.workload:
 -   For a walkthrough that demonstrates how to add controls to a worksheet by using a VSTO Add-in for Excel, see [Walkthrough: Add controls to a worksheet at runtime in VSTO add-in project](../vsto/walkthrough-adding-controls-to-a-worksheet-at-run-time-in-vsto-add-in-project.md).
 
 ## See also
- [Word solutions](../vsto/word-solutions.md)
- [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md)
- [Persist dynamic controls in Office documents](../vsto/persisting-dynamic-controls-in-office-documents.md)
- [How to: Add Windows Forms controls to Office documents](../vsto/how-to-add-windows-forms-controls-to-office-documents.md)
- [How to: Add content controls to Word documents](../vsto/how-to-add-content-controls-to-word-documents.md)
- [Extend Word documents and Excel workbooks in VSTO Add-ins at runtime](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md)
+- [Word solutions](../vsto/word-solutions.md)
+- [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md)
+- [Persist dynamic controls in Office documents](../vsto/persisting-dynamic-controls-in-office-documents.md)
+- [How to: Add Windows Forms controls to Office documents](../vsto/how-to-add-windows-forms-controls-to-office-documents.md)
+- [How to: Add content controls to Word documents](../vsto/how-to-add-content-controls-to-word-documents.md)
+- [Extend Word documents and Excel workbooks in VSTO Add-ins at runtime](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md)

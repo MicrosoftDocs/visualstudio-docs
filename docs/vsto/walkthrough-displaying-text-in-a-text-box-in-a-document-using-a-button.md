@@ -104,8 +104,8 @@ ms.workload:
 -   Using radio buttons to select chart styles. For more information, see [Walkthrough: Update a chart in a document using radio buttons](../vsto/walkthrough-updating-a-chart-in-a-document-using-radio-buttons.md).
 
 ## See also
- [Windows Forms controls on Office documents overview](../vsto/windows-forms-controls-on-office-documents-overview.md)
- [Walkthroughs using Word](../vsto/walkthroughs-using-word.md)
- [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md)
- [How to: Add Windows Forms controls to Office documents](../vsto/how-to-add-windows-forms-controls-to-office-documents.md)
- [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)
+- [Windows Forms controls on Office documents overview](../vsto/windows-forms-controls-on-office-documents-overview.md)
+- [Walkthroughs using Word](../vsto/walkthroughs-using-word.md)
+- [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md)
+- [How to: Add Windows Forms controls to Office documents](../vsto/how-to-add-windows-forms-controls-to-office-documents.md)
+- [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)

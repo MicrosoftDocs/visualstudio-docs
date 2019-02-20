@@ -32,12 +32,12 @@ ms.workload:
     >  You can create a workbook based on a template other than the default template: pass the template you want to use as a parameter to the <xref:Microsoft.Office.Interop.Excel.Workbooks.Add%2A> method.
 
 ## See also
- [Extend Word documents and Excel workbooks in VSTO Add-ins at runtime](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md)
- [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md)
- [Work with workbooks](../vsto/working-with-workbooks.md)
- [How to: Programmatically open workbooks](../vsto/how-to-programmatically-open-workbooks.md)
- [How to: Programmatically save workbooks](../vsto/how-to-programmatically-save-workbooks.md)
- [How to: Programmatically close workbooks](../vsto/how-to-programmatically-close-workbooks.md)
- [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)
- [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)
- [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)
+- [Extend Word documents and Excel workbooks in VSTO Add-ins at runtime](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md)
+- [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md)
+- [Work with workbooks](../vsto/working-with-workbooks.md)
+- [How to: Programmatically open workbooks](../vsto/how-to-programmatically-open-workbooks.md)
+- [How to: Programmatically save workbooks](../vsto/how-to-programmatically-save-workbooks.md)
+- [How to: Programmatically close workbooks](../vsto/how-to-programmatically-close-workbooks.md)
+- [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)
+- [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)
+- [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)

@@ -34,8 +34,8 @@ ms.workload:
      [!code-vb[Trin_VstcoreExcelAutomationAddIn#16](../vsto/codesnippet/VisualBasic/trin_vstcoreexcelautomationaddin/ThisAddIn.vb#16)]
 
 ## See also
- [Work with worksheets](../vsto/working-with-worksheets.md)
- [How to: Programmatically hide worksheets](../vsto/how-to-programmatically-hide-worksheets.md)
- [How to: Programmatically delete worksheets from workbooks](../vsto/how-to-programmatically-delete-worksheets-from-workbooks.md)
- [How to: Programmatically protect worksheets](../vsto/how-to-programmatically-protect-worksheets.md)
- [Global access to objects in Office projects](../vsto/global-access-to-objects-in-office-projects.md)
+- [Work with worksheets](../vsto/working-with-worksheets.md)
+- [How to: Programmatically hide worksheets](../vsto/how-to-programmatically-hide-worksheets.md)
+- [How to: Programmatically delete worksheets from workbooks](../vsto/how-to-programmatically-delete-worksheets-from-workbooks.md)
+- [How to: Programmatically protect worksheets](../vsto/how-to-programmatically-protect-worksheets.md)
+- [Global access to objects in Office projects](../vsto/global-access-to-objects-in-office-projects.md)

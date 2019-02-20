@@ -23,7 +23,7 @@ ms.workload:
  [!code-csharp[Trin_OL_AddContact#1](../vsto/codesnippet/CSharp/Trin_OL_AddContact/thisaddin.cs#1)]
 
 ## See also
- [Work with contact items](../vsto/working-with-contact-items.md)
- [How to: Programmatically create appointments](../vsto/how-to-programmatically-create-appointments.md)
- [How to: Programmatically access Outlook contacts](../vsto/how-to-programmatically-access-outlook-contacts.md)
- [How to: Programmatically search for an email address in contacts](../vsto/how-to-programmatically-search-for-an-e-mail-address-in-contacts.md)
+- [Work with contact items](../vsto/working-with-contact-items.md)
+- [How to: Programmatically create appointments](../vsto/how-to-programmatically-create-appointments.md)
+- [How to: Programmatically access Outlook contacts](../vsto/how-to-programmatically-access-outlook-contacts.md)
+- [How to: Programmatically search for an email address in contacts](../vsto/how-to-programmatically-search-for-an-e-mail-address-in-contacts.md)

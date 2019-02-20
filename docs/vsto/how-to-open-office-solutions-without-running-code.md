@@ -44,7 +44,7 @@ ms.workload:
      If the solution is used by multiple people, this method prevents the solution from running for all of them. This can be useful if a problem is found in the code or a referenced server and you want to stop all users from executing it.
 
 ## See also
- [Secure Office solutions](../vsto/securing-office-solutions.md)
- [Deploy an Office solution](../vsto/deploying-an-office-solution.md)
- [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)
- [Application and deployment manifests in Office solutions](../vsto/application-and-deployment-manifests-in-office-solutions.md)
+- [Secure Office solutions](../vsto/securing-office-solutions.md)
+- [Deploy an Office solution](../vsto/deploying-an-office-solution.md)
+- [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)
+- [Application and deployment manifests in Office solutions](../vsto/application-and-deployment-manifests-in-office-solutions.md)

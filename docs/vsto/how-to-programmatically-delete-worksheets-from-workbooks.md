@@ -59,11 +59,11 @@ ms.workload:
      [!code-vb[Trin_VstcoreExcelAutomation#18](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#18)]
 
 ## See also
- [Work with worksheets](../vsto/working-with-worksheets.md)
- [How to: Programmatically hide worksheets](../vsto/how-to-programmatically-hide-worksheets.md)
- [How to: Programmatically move worksheets within workbooks](../vsto/how-to-programmatically-move-worksheets-within-workbooks.md)
- [How to: Programmatically select worksheets](../vsto/how-to-programmatically-select-worksheets.md)
- [How to: Programmatically add new worksheets to workbooks](../vsto/how-to-programmatically-add-new-worksheets-to-workbooks.md)
- [Worksheet host item](../vsto/worksheet-host-item.md)
- [Global access to objects in Office projects](../vsto/global-access-to-objects-in-office-projects.md)
- [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)
+- [Work with worksheets](../vsto/working-with-worksheets.md)
+- [How to: Programmatically hide worksheets](../vsto/how-to-programmatically-hide-worksheets.md)
+- [How to: Programmatically move worksheets within workbooks](../vsto/how-to-programmatically-move-worksheets-within-workbooks.md)
+- [How to: Programmatically select worksheets](../vsto/how-to-programmatically-select-worksheets.md)
+- [How to: Programmatically add new worksheets to workbooks](../vsto/how-to-programmatically-add-new-worksheets-to-workbooks.md)
+- [Worksheet host item](../vsto/worksheet-host-item.md)
+- [Global access to objects in Office projects](../vsto/global-access-to-objects-in-office-projects.md)
+- [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)

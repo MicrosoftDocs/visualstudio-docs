@@ -36,7 +36,7 @@ ms.workload:
      [!code-vb[Trin_VstcoreExcelAutomationAddIn#22](../vsto/codesnippet/VisualBasic/trin_vstcoreexcelautomationaddin/ThisAddIn.vb#22)]
 
 ## See also
- [Work with worksheets](../vsto/working-with-worksheets.md)
- [How to: Programmatically run Excel calculations](../vsto/how-to-programmatically-run-excel-calculations-programmatically.md)
- [NamedRange control](../vsto/namedrange-control.md)
- [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)
+- [Work with worksheets](../vsto/working-with-worksheets.md)
+- [How to: Programmatically run Excel calculations](../vsto/how-to-programmatically-run-excel-calculations-programmatically.md)
+- [NamedRange control](../vsto/namedrange-control.md)
+- [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)

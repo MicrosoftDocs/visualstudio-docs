@@ -61,7 +61,7 @@ ms.workload:
      [!code-vb[Trin_VstcoreExcelAutomation#56](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#56)]
 
 ## See also
- [Work with ranges](../vsto/working-with-ranges.md)
- [NamedRange control](../vsto/namedrange-control.md)
- [Global access to objects in Office projects](../vsto/global-access-to-objects-in-office-projects.md)
- [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)
+- [Work with ranges](../vsto/working-with-ranges.md)
+- [NamedRange control](../vsto/namedrange-control.md)
+- [Global access to objects in Office projects](../vsto/global-access-to-objects-in-office-projects.md)
+- [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)

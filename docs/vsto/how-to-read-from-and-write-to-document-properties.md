@@ -75,6 +75,6 @@ ms.workload:
  Although you are working with Word and Excel and their objects, Microsoft Office supplies the list of available built-in document properties. Attempting to access an undefined property raises an exception.
 
 ## See also
- [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)
- [Program document-level customizations](../vsto/programming-document-level-customizations.md)
- [How to: Create and modify custom document properties](../vsto/how-to-create-and-modify-custom-document-properties.md)
+- [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)
+- [Program document-level customizations](../vsto/programming-document-level-customizations.md)
+- [How to: Create and modify custom document properties](../vsto/how-to-create-and-modify-custom-document-properties.md)

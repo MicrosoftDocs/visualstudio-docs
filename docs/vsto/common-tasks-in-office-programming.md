@@ -225,6 +225,6 @@ ms.workload:
 -   [How to: Change the installation path of an Office solution](https://msdn.microsoft.com/d0eaa07b-2d72-4902-899f-2f9fb165b8fd).
 
 ## See also
- [Get started &#40;Office development in Visual Studio&#41;](../vsto/getting-started-office-development-in-visual-studio.md)
- [Features available by Office application and project type](../vsto/features-available-by-office-application-and-project-type.md)
- [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md)
+- [Get started &#40;Office development in Visual Studio&#41;](../vsto/getting-started-office-development-in-visual-studio.md)
+- [Features available by Office application and project type](../vsto/features-available-by-office-application-and-project-type.md)
+- [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md)

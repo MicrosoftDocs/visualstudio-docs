@@ -63,7 +63,8 @@ ms.workload:
 
 8. Select **Create a new document**, and click **OK**.
 
-   - [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] creates the **FirstWorkbookCustomization** project, and adds the following files to the project.
+   - [!INCLUDE
+- [vsprvs](../sharepoint/includes/vsprvs-md.md)] creates the **FirstWorkbookCustomization** project, and adds the following files to the project.
 
    - *FirstWorkbookCustomization*.xlsx - Represents the Excel workbook in the project. Contains all the worksheets and charts.
 
@@ -161,12 +162,12 @@ ms.workload:
 -   Deploying document-level customizations for Excel: [Deploy an Office solution](../vsto/deploying-an-office-solution.md).
 
 ## See also
- [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)
- [Excel solutions](../vsto/excel-solutions.md)
- [Program document-level customizations](../vsto/programming-document-level-customizations.md)
- [Excel object model overview](../vsto/excel-object-model-overview.md)
- [Automate Excel by using extended objects](../vsto/automating-excel-by-using-extended-objects.md)
- [Office UI customization](../vsto/office-ui-customization.md)
- [Build Office solutions](../vsto/building-office-solutions.md)
- [Deploy an Office solution](../vsto/deploying-an-office-solution.md)
- [Office project templates overview](../vsto/office-project-templates-overview.md)
+- [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)
+- [Excel solutions](../vsto/excel-solutions.md)
+- [Program document-level customizations](../vsto/programming-document-level-customizations.md)
+- [Excel object model overview](../vsto/excel-object-model-overview.md)
+- [Automate Excel by using extended objects](../vsto/automating-excel-by-using-extended-objects.md)
+- [Office UI customization](../vsto/office-ui-customization.md)
+- [Build Office solutions](../vsto/building-office-solutions.md)
+- [Deploy an Office solution](../vsto/deploying-an-office-solution.md)
+- [Office project templates overview](../vsto/office-project-templates-overview.md)

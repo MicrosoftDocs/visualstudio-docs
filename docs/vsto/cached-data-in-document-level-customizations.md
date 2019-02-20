@@ -55,5 +55,5 @@ ms.workload:
 |Can you access the data without starting Microsoft Office applications?|Yes, by using the <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument> class provided by the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)].|Yes, by using classes in the <xref:System.IO.Packaging> namespace, or by using the Open XML Format SDK.|
 
 ## See also
- [Data in Office solutions](../vsto/data-in-office-solutions.md)
- [Architecture of Office solutions in Visual Studio](../vsto/architecture-of-office-solutions-in-visual-studio.md)
+- [Data in Office solutions](../vsto/data-in-office-solutions.md)
+- [Architecture of Office solutions in Visual Studio](../vsto/architecture-of-office-solutions-in-visual-studio.md)

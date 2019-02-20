@@ -250,4 +250,4 @@ ms.workload:
 -   Change formatting on a worksheet by using check boxes. For more information, see [Walkthrough: Change worksheet formatting using CheckBox controls](../vsto/walkthrough-changing-worksheet-formatting-using-checkbox-controls.md).
 
 ## See also
- [Walkthroughs using Excel](../vsto/walkthroughs-using-excel.md)
+- [Walkthroughs using Excel](../vsto/walkthroughs-using-excel.md)

@@ -202,5 +202,5 @@ ms.workload:
 3.  Build and run the application.
 
 ## See also
- [Trust Office solutions by using inclusion lists](../vsto/trusting-office-solutions-by-using-inclusion-lists.md)
- [Secure Office solutions](../vsto/securing-office-solutions.md)
+- [Trust Office solutions by using inclusion lists](../vsto/trusting-office-solutions-by-using-inclusion-lists.md)
+- [Secure Office solutions](../vsto/securing-office-solutions.md)

@@ -27,5 +27,5 @@ ms.workload:
 3.  Create a document-level solution based on the document or workbook.
 
 ## See also
- [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md)
- [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md)
+- [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md)
+- [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md)

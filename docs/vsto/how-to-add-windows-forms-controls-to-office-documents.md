@@ -127,8 +127,8 @@ ms.workload:
      [!code-csharp[Trin_WordAddInDynamicControls#7](../vsto/codesnippet/CSharp/Trin_WordAddInDynamicControls/ThisAddIn.cs#7)]
 
 ## See also
- [Windows Forms controls on Office documents overview](../vsto/windows-forms-controls-on-office-documents-overview.md)
- [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md)
- [How to: Resize controls within worksheet cells](../vsto/how-to-resize-controls-within-worksheet-cells.md)
- [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)
- [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)
+- [Windows Forms controls on Office documents overview](../vsto/windows-forms-controls-on-office-documents-overview.md)
+- [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md)
+- [How to: Resize controls within worksheet cells](../vsto/how-to-resize-controls-within-worksheet-cells.md)
+- [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)
+- [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)

@@ -66,9 +66,9 @@ ms.workload:
 -   A Visio document named `myTemplate.vst` must be located in a directory named `Test` in the *My Documents* folder (for Windows XP and earlier) or the *Documents* folder (for Windows Vista).
 
 ## See also
- [Visio solutions](../vsto/visio-solutions.md)
- [Visio object model overview](../vsto/visio-object-model-overview.md)
- [How to: Programmatically open Visio documents](../vsto/how-to-programmatically-open-visio-documents.md)
- [How to: Programmatically close Visio documents](../vsto/how-to-programmatically-close-visio-documents.md)
- [How to: Programmatically save Visio documents](../vsto/how-to-programmatically-save-visio-documents.md)
- [How to: Programmatically print Visio documents](../vsto/how-to-programmatically-print-visio-documents.md)
+- [Visio solutions](../vsto/visio-solutions.md)
+- [Visio object model overview](../vsto/visio-object-model-overview.md)
+- [How to: Programmatically open Visio documents](../vsto/how-to-programmatically-open-visio-documents.md)
+- [How to: Programmatically close Visio documents](../vsto/how-to-programmatically-close-visio-documents.md)
+- [How to: Programmatically save Visio documents](../vsto/how-to-programmatically-save-visio-documents.md)
+- [How to: Programmatically print Visio documents](../vsto/how-to-programmatically-print-visio-documents.md)

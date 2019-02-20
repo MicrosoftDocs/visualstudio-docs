@@ -31,6 +31,6 @@ ms.workload:
 -   Appointment, contact, and e-mail items in Microsoft Office Outlook.
 
 ## See also
- [Outlook object model overview](../vsto/outlook-object-model-overview.md)
- [How to: Programmatically retrieve a folder by name](../vsto/how-to-programmatically-retrieve-a-folder-by-name.md)
- [How to: Programmatically search for a specific contact](../vsto/how-to-programmatically-search-for-a-specific-contact.md)
+- [Outlook object model overview](../vsto/outlook-object-model-overview.md)
+- [How to: Programmatically retrieve a folder by name](../vsto/how-to-programmatically-retrieve-a-folder-by-name.md)
+- [How to: Programmatically search for a specific contact](../vsto/how-to-programmatically-search-for-a-specific-contact.md)

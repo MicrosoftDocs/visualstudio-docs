@@ -56,5 +56,5 @@ ms.workload:
 |Microsoft.VisualStudio.Tools.Office.Runtime.v10.0.dll|Provides the following types:<br /><br /> -   The Microsoft.VisualStudio.Tools.Office.Runtime.Security.AddInSecurityEntry and Microsoft.VisualStudio.Tools.Office.Runtime.Security.UserInclusionList classes, which you can use to create user inclusion list entries to grant trust to Office solutions that target the .NET Framework 3.5.<br />-   Other types that are part of the Visual Studio Tools for Office runtime infrastructure, and are not intended to be used directly from your code.|
 
 ## See also
- [Visual Studio Tools for Office runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md)
- [Visual Studio Tools for Office runtime installation scenarios](../vsto/visual-studio-tools-for-office-runtime-installation-scenarios.md)
+- [Visual Studio Tools for Office runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md)
+- [Visual Studio Tools for Office runtime installation scenarios](../vsto/visual-studio-tools-for-office-runtime-installation-scenarios.md)

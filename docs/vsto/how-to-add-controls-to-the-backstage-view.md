@@ -57,8 +57,8 @@ ms.workload:
 4.  Drag controls to move them to new positions on the menu.
 
 ## See also
- [Ribbon overview](../vsto/ribbon-overview.md)
- [Ribbon Designer](../vsto/ribbon-designer.md)
- [Ribbon XML](../vsto/ribbon-xml.md)
- [How to: Get started customize the Ribbon](../vsto/how-to-get-started-customizing-the-ribbon.md)
- [Walkthrough: Create a custom tab by using the Ribbon Designer](../vsto/walkthrough-creating-a-custom-tab-by-using-the-ribbon-designer.md)
+- [Ribbon overview](../vsto/ribbon-overview.md)
+- [Ribbon Designer](../vsto/ribbon-designer.md)
+- [Ribbon XML](../vsto/ribbon-xml.md)
+- [How to: Get started customize the Ribbon](../vsto/how-to-get-started-customizing-the-ribbon.md)
+- [Walkthrough: Create a custom tab by using the Ribbon Designer](../vsto/walkthrough-creating-a-custom-tab-by-using-the-ribbon-designer.md)

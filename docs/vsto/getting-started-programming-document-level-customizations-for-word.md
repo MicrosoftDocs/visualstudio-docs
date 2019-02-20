@@ -58,10 +58,10 @@ ms.workload:
  For a list of topics that walk you through some of the common tasks in Word projects, see [Common tasks in Office programming](../vsto/common-tasks-in-office-programming.md).
 
 ## See also
- [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md)
- [Program document-level customizations](../vsto/programming-document-level-customizations.md)
- [Word solutions](../vsto/word-solutions.md)
- [Walkthrough: Create your first document-level customization for Word](../vsto/walkthrough-creating-your-first-document-level-customization-for-word.md)
- [Walkthroughs using Word](../vsto/walkthroughs-using-word.md)
- [Word object model overview](../vsto/word-object-model-overview.md)
- [Write code in Office solutions](../vsto/writing-code-in-office-solutions.md)
+- [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md)
+- [Program document-level customizations](../vsto/programming-document-level-customizations.md)
+- [Word solutions](../vsto/word-solutions.md)
+- [Walkthrough: Create your first document-level customization for Word](../vsto/walkthrough-creating-your-first-document-level-customization-for-word.md)
+- [Walkthroughs using Word](../vsto/walkthroughs-using-word.md)
+- [Word object model overview](../vsto/word-object-model-overview.md)
+- [Write code in Office solutions](../vsto/writing-code-in-office-solutions.md)

@@ -32,4 +32,4 @@ ms.workload:
  Visual Studio receives shortcut key commands only when it has focus. When the Word document has focus, Word receives all shortcut key commands. For example, if you press the function key **F5** while the Word document has focus, Word opens the **Find and Replace** dialog box with the **Go To** tab selected. If you press **F5** while Visual Studio has focus, Visual Studio starts debugging your solution.
 
 ## See also
- [Microsoft Office Excel Keyboard, Microsoft Office Keyboard Settings, Options dialog box](../vsto/microsoft-office-excel-keyboard-microsoft-office-keyboard-settings-options-dialog-box.md)
+- [Microsoft Office Excel Keyboard, Microsoft Office Keyboard Settings, Options dialog box](../vsto/microsoft-office-excel-keyboard-microsoft-office-keyboard-settings-options-dialog-box.md)

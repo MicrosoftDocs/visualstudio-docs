@@ -55,7 +55,7 @@ ms.workload:
  Contains MSBuild task classes that are used to build Office projects.
 
 ## See also
- [Visual Studio tools for Office runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md)
- [Get started &#40;Office development in Visual Studio&#41;](../vsto/getting-started-office-development-in-visual-studio.md)
- [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md)
- [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)
+- [Visual Studio tools for Office runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md)
+- [Get started &#40;Office development in Visual Studio&#41;](../vsto/getting-started-office-development-in-visual-studio.md)
+- [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md)
+- [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)

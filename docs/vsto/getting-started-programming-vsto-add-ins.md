@@ -81,8 +81,8 @@ ms.workload:
   For a list of topics that walk you through some of the common tasks in Office projects, see [Common tasks in Office programming](../vsto/common-tasks-in-office-programming.md).
 
 ## See also
- [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md)
- [Get started &#40;Office development in Visual Studio&#41;](../vsto/getting-started-office-development-in-visual-studio.md)
- [Write code in Office solutions](../vsto/writing-code-in-office-solutions.md)
- [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md)
- [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)
+- [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md)
+- [Get started &#40;Office development in Visual Studio&#41;](../vsto/getting-started-office-development-in-visual-studio.md)
+- [Write code in Office solutions](../vsto/writing-code-in-office-solutions.md)
+- [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md)
+- [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)

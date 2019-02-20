@@ -94,8 +94,8 @@ ms.workload:
 -   A picture named *SamplePicture.jpg* must exist on drive C.
 
 ## See also
- [How to: Programmatically open existing documents](../vsto/how-to-programmatically-open-existing-documents.md)
- [How to: Programmatically insert text into Word documents](../vsto/how-to-programmatically-insert-text-into-word-documents.md)
- [How to: Programmatically restore selections after searches](../vsto/how-to-programmatically-restore-selections-after-searches.md)
- [How to: Programmatically save documents](../vsto/how-to-programmatically-save-documents.md)
- [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)
+- [How to: Programmatically open existing documents](../vsto/how-to-programmatically-open-existing-documents.md)
+- [How to: Programmatically insert text into Word documents](../vsto/how-to-programmatically-insert-text-into-word-documents.md)
+- [How to: Programmatically restore selections after searches](../vsto/how-to-programmatically-restore-selections-after-searches.md)
+- [How to: Programmatically save documents](../vsto/how-to-programmatically-save-documents.md)
+- [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)

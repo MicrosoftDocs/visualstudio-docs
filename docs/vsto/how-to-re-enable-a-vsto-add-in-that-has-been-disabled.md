@@ -68,6 +68,6 @@ ms.workload:
 7.  Click **OK**.
 
 ## See also
- [Build Office solutions](../vsto/building-office-solutions.md)
- [Debug Office projects](../vsto/debugging-office-projects.md)
- [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)
+- [Build Office solutions](../vsto/building-office-solutions.md)
+- [Debug Office projects](../vsto/debugging-office-projects.md)
+- [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)

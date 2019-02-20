@@ -42,8 +42,8 @@ ms.workload:
  To generate a <xref:Microsoft.Office.Tools.Word.Document> host item, use the `GetVstoObject` method. For more information, see [Extend Word documents and Excel workbooks in VSTO Add-ins at runtime](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md).
 
 ## See also
- [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)
- [Automate Word by using extended objects](../vsto/automating-word-by-using-extended-objects.md)
- [Word object model overview](../vsto/word-object-model-overview.md)
- [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)
- [Extend Word documents and Excel workbooks in VSTO Add-ins at runtime](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md)
+- [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)
+- [Automate Word by using extended objects](../vsto/automating-word-by-using-extended-objects.md)
+- [Word object model overview](../vsto/word-object-model-overview.md)
+- [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)
+- [Extend Word documents and Excel workbooks in VSTO Add-ins at runtime](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md)

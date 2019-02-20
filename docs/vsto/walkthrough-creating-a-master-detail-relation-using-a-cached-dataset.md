@@ -183,7 +183,7 @@ ms.workload:
 -   Deploy the solution. For more information, see [Deploy an Office solution](../vsto/deploying-an-office-solution.md)
 
 ## See also
- [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)
- [Data in Office solutions](../vsto/data-in-office-solutions.md)
- [Cache data](../vsto/caching-data.md)
- [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)
+- [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)
+- [Data in Office solutions](../vsto/data-in-office-solutions.md)
+- [Cache data](../vsto/caching-data.md)
+- [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)

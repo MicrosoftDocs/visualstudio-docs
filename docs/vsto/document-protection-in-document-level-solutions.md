@@ -47,9 +47,9 @@ ms.workload:
  Visual Studio automatically enables protection, but provides no password by default. If you want the document protection to have a password, you must add it before you deploy your solution. Adding a password enables you to let authorized users remove protection from the document; without a password, protection cannot be easily removed. For details about setting a password, see Help in the specific Office application.
 
 ## See also
- [How to: Programmatically protect documents and parts of documents](../vsto/how-to-programmatically-protect-documents-and-parts-of-documents.md)
- [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md)
- [Information rights management and managed code extensions overview](../vsto/information-rights-management-and-managed-code-extensions-overview.md)
- [Password protection on Office documents](../vsto/password-protection-on-office-documents.md)
- [How to: Permit code to run behind documents with restricted permissions](../vsto/how-to-permit-code-to-run-behind-documents-with-restricted-permissions.md)
- [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)
+- [How to: Programmatically protect documents and parts of documents](../vsto/how-to-programmatically-protect-documents-and-parts-of-documents.md)
+- [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md)
+- [Information rights management and managed code extensions overview](../vsto/information-rights-management-and-managed-code-extensions-overview.md)
+- [Password protection on Office documents](../vsto/password-protection-on-office-documents.md)
+- [How to: Permit code to run behind documents with restricted permissions](../vsto/how-to-permit-code-to-run-behind-documents-with-restricted-permissions.md)
+- [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)

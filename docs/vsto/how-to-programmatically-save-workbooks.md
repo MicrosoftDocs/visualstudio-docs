@@ -77,9 +77,9 @@ ms.workload:
  Interactively canceling any of the methods that save or copy the workbook raises a run-time error in your code. For example, if your procedure calls the <xref:Microsoft.Office.Tools.Excel.Workbook.SaveAs%2A> method but does not disable prompts from Excel, and your user clicks **Cancel** when prompted, Excel raises a run-time error.
 
 ## See also
- [Work with workbooks](../vsto/working-with-workbooks.md)
- [Workbook host item](../vsto/workbook-host-item.md)
- [How to: Programmatically close workbooks](../vsto/how-to-programmatically-close-workbooks.md)
- [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)
- [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)
- [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)
+- [Work with workbooks](../vsto/working-with-workbooks.md)
+- [Workbook host item](../vsto/workbook-host-item.md)
+- [How to: Programmatically close workbooks](../vsto/how-to-programmatically-close-workbooks.md)
+- [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)
+- [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)
+- [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)

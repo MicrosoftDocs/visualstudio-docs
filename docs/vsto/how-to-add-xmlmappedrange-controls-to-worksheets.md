@@ -55,8 +55,8 @@ ms.workload:
     >  If you drag a parent element from the **XML Source** task pane, a <xref:Microsoft.Office.Tools.Excel.ListObject> control is created.
 
 ## See also
- [XmlMappedRange control](../vsto/xmlmappedrange-control.md)
- [Automate Excel by using extended objects](../vsto/automating-excel-by-using-extended-objects.md)
- [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)
- [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)
- [How to: Map schemas to worksheets inside Visual Studio](../vsto/how-to-map-schemas-to-worksheets-inside-visual-studio.md)
+- [XmlMappedRange control](../vsto/xmlmappedrange-control.md)
+- [Automate Excel by using extended objects](../vsto/automating-excel-by-using-extended-objects.md)
+- [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)
+- [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)
+- [How to: Map schemas to worksheets inside Visual Studio](../vsto/how-to-map-schemas-to-worksheets-inside-visual-studio.md)

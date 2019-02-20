@@ -38,6 +38,6 @@ ms.workload:
    There are no special considerations for using configuration files with Office projects.
 
 ## See also
- [Configuration file schema for the .NET Framework](/dotnet/framework/configure-apps/file-schema/index)
- [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)
- [Deploy an Office solution](../vsto/deploying-an-office-solution.md)
+- [Configuration file schema for the .NET Framework](/dotnet/framework/configure-apps/file-schema/index)
+- [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)
+- [Deploy an Office solution](../vsto/deploying-an-office-solution.md)

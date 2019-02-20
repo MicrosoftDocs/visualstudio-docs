@@ -91,5 +91,5 @@ ms.workload:
 6.  Click **OK**.
 
 ## See also
- [Deploy an Office solution](../vsto/deploying-an-office-solution.md)
- [Troubleshoot Office solution deployment](../vsto/troubleshooting-office-solution-deployment.md)
+- [Deploy an Office solution](../vsto/deploying-an-office-solution.md)
+- [Troubleshoot Office solution deployment](../vsto/troubleshooting-office-solution-deployment.md)

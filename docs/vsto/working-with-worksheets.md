@@ -42,7 +42,7 @@ ms.workload:
  In some cases, the ways that you perform these tasks in VSTO Add-ins is different from the ways that you perform them in document-level customizations.
 
 ## See also
- [Automate Excel by using extended objects](../vsto/automating-excel-by-using-extended-objects.md)
- [Work with workbooks](../vsto/working-with-workbooks.md)
- [Work with ranges](../vsto/working-with-ranges.md)
- [Use Windows Forms controls on Excel worksheets](../vsto/using-windows-forms-controls-on-excel-worksheets.md)
+- [Automate Excel by using extended objects](../vsto/automating-excel-by-using-extended-objects.md)
+- [Work with workbooks](../vsto/working-with-workbooks.md)
+- [Work with ranges](../vsto/working-with-ranges.md)
+- [Use Windows Forms controls on Excel worksheets](../vsto/using-windows-forms-controls-on-excel-worksheets.md)

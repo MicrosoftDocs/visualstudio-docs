@@ -24,5 +24,5 @@ ms.workload:
  [!code-vb[Trin_Outlook_RL_SearchForContact#1](../vsto/codesnippet/VisualBasic/trin_outlook_rl_searchforcontact/thisaddin.vb#1)]
 
 ## See also
- [Work with contact items](../vsto/working-with-contact-items.md)
- [Get started programming VSTO Add-ins](../vsto/getting-started-programming-vsto-add-ins.md)
+- [Work with contact items](../vsto/working-with-contact-items.md)
+- [Get started programming VSTO Add-ins](../vsto/getting-started-programming-vsto-add-ins.md)

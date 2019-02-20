@@ -23,6 +23,6 @@ ms.workload:
 |Copy shapes from one Visio page and paste them in another page.|[How to: Programmatically copy and paste shapes in a Visio document](../vsto/how-to-programmatically-copy-and-paste-shapes-in-a-visio-document.md)|
 
 ## See also
- [Visio solutions](../vsto/visio-solutions.md)
- [Visio object model overview](../vsto/visio-object-model-overview.md)
- [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)
+- [Visio solutions](../vsto/visio-solutions.md)
+- [Visio object model overview](../vsto/visio-object-model-overview.md)
+- [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)

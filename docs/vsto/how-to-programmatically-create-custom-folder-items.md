@@ -23,6 +23,6 @@ ms.workload:
  [!code-csharp[Trin_OL_CustFolderItem#1](../vsto/codesnippet/CSharp/Trin_OL_CustFolderItem/thisaddin.cs#1)]
 
 ## See also
- [Work with folders](../vsto/working-with-folders.md)
- [How to: Programmatically add an entry to Outlook contacts](../vsto/how-to-programmatically-add-an-entry-to-outlook-contacts.md)
- [How to: Programmatically create appointments](../vsto/how-to-programmatically-create-appointments.md)
+- [Work with folders](../vsto/working-with-folders.md)
+- [How to: Programmatically add an entry to Outlook contacts](../vsto/how-to-programmatically-add-an-entry-to-outlook-contacts.md)
+- [How to: Programmatically create appointments](../vsto/how-to-programmatically-create-appointments.md)

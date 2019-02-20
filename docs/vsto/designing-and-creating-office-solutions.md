@@ -32,11 +32,14 @@ ms.workload:
 ## Choose a .NET Framework version
  After selecting the project type that best fits your requirements, you can choose which version of the .NET Framework to use in your development process. You can target the following .NET Framework versions in Office projects:
 
-- [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)]
+- [!INCLUDE
+- [net_v40_short](../sharepoint/includes/net-v40-short-md.md)]
 
-- [!INCLUDE[net_client_v40_long](../vsto/includes/net-client-v40-long-md.md)]
+- [!INCLUDE
+- [net_client_v40_long](../vsto/includes/net-client-v40-long-md.md)]
 
-- [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)]
+- [!INCLUDE
+- [net_v45](../vsto/includes/net-v45-md.md)]
 
   The .NET Framework version that you choose for your project is required on end-user computers for your solution to run. For example, if your project targets the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)], the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] is required on end-user computers. In this example, your solution will not run if only the .NET Framework 3.5 is installed on end-user computers.
 
@@ -86,16 +89,16 @@ ms.workload:
  The assembly can reference other assemblies, which are listed in the project's references. However, one document-level project assembly cannot reference another document-level project assembly.
 
 ## See also
- [Office project templates overview](../vsto/office-project-templates-overview.md)
- [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md)
- [Office projects in the Visual Studio environment](../vsto/office-projects-in-the-visual-studio-environment.md)
- [Properties in Office projects](../vsto/properties-in-office-projects.md)
- [Run solutions in different versions of Microsoft Office](../vsto/running-solutions-in-different-versions-of-microsoft-office.md)
- [How to: Target Office applications through primary interop assemblies](../vsto/how-to-target-office-applications-through-primary-interop-assemblies.md)
- [Application and deployment manifests in Office solutions](../vsto/application-and-deployment-manifests-in-office-solutions.md)
- [How to: Set up configuration information for an Office solution](../vsto/how-to-set-up-configuration-information-for-an-office-solution.md)
- [Use Office functionality inside of Visual Studio](../vsto/using-office-functionality-inside-of-visual-studio.md)
- [Deploy an Office solution](../vsto/deploying-an-office-solution.md)
- [Common tasks in Office programming](../vsto/common-tasks-in-office-programming.md)
- [Develop Office solutions](../vsto/developing-office-solutions.md)
- [Architecture of Office solutions in Visual Studio](../vsto/architecture-of-office-solutions-in-visual-studio.md)
+- [Office project templates overview](../vsto/office-project-templates-overview.md)
+- [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md)
+- [Office projects in the Visual Studio environment](../vsto/office-projects-in-the-visual-studio-environment.md)
+- [Properties in Office projects](../vsto/properties-in-office-projects.md)
+- [Run solutions in different versions of Microsoft Office](../vsto/running-solutions-in-different-versions-of-microsoft-office.md)
+- [How to: Target Office applications through primary interop assemblies](../vsto/how-to-target-office-applications-through-primary-interop-assemblies.md)
+- [Application and deployment manifests in Office solutions](../vsto/application-and-deployment-manifests-in-office-solutions.md)
+- [How to: Set up configuration information for an Office solution](../vsto/how-to-set-up-configuration-information-for-an-office-solution.md)
+- [Use Office functionality inside of Visual Studio](../vsto/using-office-functionality-inside-of-visual-studio.md)
+- [Deploy an Office solution](../vsto/deploying-an-office-solution.md)
+- [Common tasks in Office programming](../vsto/common-tasks-in-office-programming.md)
+- [Develop Office solutions](../vsto/developing-office-solutions.md)
+- [Architecture of Office solutions in Visual Studio](../vsto/architecture-of-office-solutions-in-visual-studio.md)

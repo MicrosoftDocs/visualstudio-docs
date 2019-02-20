@@ -80,7 +80,7 @@ ms.workload:
 -   To save a document with a new name, a directory named *Test* must exist on drive C.
 
 ## See also
- [How to: Programmatically close documents](../vsto/how-to-programmatically-close-documents.md)
- [How to: Programmatically open existing documents](../vsto/how-to-programmatically-open-existing-documents.md)
- [Document host item](../vsto/document-host-item.md)
- [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)
+- [How to: Programmatically close documents](../vsto/how-to-programmatically-close-documents.md)
+- [How to: Programmatically open existing documents](../vsto/how-to-programmatically-open-existing-documents.md)
+- [Document host item](../vsto/document-host-item.md)
+- [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)

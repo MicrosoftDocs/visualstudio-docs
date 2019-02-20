@@ -27,5 +27,5 @@ ms.workload:
 |Add text to a cell and format it.|[How to: Programmatically add text and formatting to cells in Word tables](../vsto/how-to-programmatically-add-text-and-formatting-to-cells-in-word-tables.md)|
 
 ## See also
- [Word object model overview](../vsto/word-object-model-overview.md)
- [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)
+- [Word object model overview](../vsto/word-object-model-overview.md)
+- [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)

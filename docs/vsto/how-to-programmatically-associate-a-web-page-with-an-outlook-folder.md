@@ -24,6 +24,6 @@ ms.workload:
  [!code-csharp[Trin_OL_HTMLFolder#1](../vsto/codesnippet/CSharp/Trin_OL_HTMLFolder/thisaddin.cs#1)]
 
 ## See also
- [Work with folders](../vsto/working-with-folders.md)
- [How to: Programmatically retrieve a folder by name](../vsto/how-to-programmatically-retrieve-a-folder-by-name.md)
- [How to: Programmatically create custom folder items](../vsto/how-to-programmatically-create-custom-folder-items.md)
+- [Work with folders](../vsto/working-with-folders.md)
+- [How to: Programmatically retrieve a folder by name](../vsto/how-to-programmatically-retrieve-a-folder-by-name.md)
+- [How to: Programmatically create custom folder items](../vsto/how-to-programmatically-create-custom-folder-items.md)

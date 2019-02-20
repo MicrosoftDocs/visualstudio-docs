@@ -155,6 +155,6 @@ ms.workload:
 -   Using a button to populate a text box. For more information, see [Walkthrough: Display text in a text box in a worksheet using a button](../vsto/walkthrough-displaying-text-in-a-text-box-in-a-worksheet-using-a-button.md).
 
 ## See also
- [Walkthroughs using Excel](../vsto/walkthroughs-using-excel.md)
- [NamedRange control](../vsto/namedrange-control.md)
- [Limitations of Windows Forms controls on Office documents](../vsto/limitations-of-windows-forms-controls-on-office-documents.md)
+- [Walkthroughs using Excel](../vsto/walkthroughs-using-excel.md)
+- [NamedRange control](../vsto/namedrange-control.md)
+- [Limitations of Windows Forms controls on Office documents](../vsto/limitations-of-windows-forms-controls-on-office-documents.md)

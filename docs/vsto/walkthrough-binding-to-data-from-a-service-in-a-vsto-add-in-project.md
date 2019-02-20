@@ -109,4 +109,4 @@ ms.workload:
      Information is downloaded from the MTPS Content Service and displayed inside the content control.
 
 ## See also
- [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)
+- [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)

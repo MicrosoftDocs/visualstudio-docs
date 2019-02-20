@@ -181,8 +181,8 @@ ms.workload:
 -   To learn about how to save controls to a worksheet, see the Excel VSTO Add-in Dynamic Controls Sample at [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md).
 
 ## See also
- [Excel solutions](../vsto/excel-solutions.md)
- [Windows forms controls on Office documents overview](../vsto/windows-forms-controls-on-office-documents-overview.md)
- [Controls on Office documents](../vsto/controls-on-office-documents.md)
- [NamedRange control](../vsto/namedrange-control.md)
- [ListObject control](../vsto/listobject-control.md)
+- [Excel solutions](../vsto/excel-solutions.md)
+- [Windows forms controls on Office documents overview](../vsto/windows-forms-controls-on-office-documents-overview.md)
+- [Controls on Office documents](../vsto/controls-on-office-documents.md)
+- [NamedRange control](../vsto/namedrange-control.md)
+- [ListObject control](../vsto/listobject-control.md)

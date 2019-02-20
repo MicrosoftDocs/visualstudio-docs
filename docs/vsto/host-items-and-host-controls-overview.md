@@ -163,10 +163,10 @@ ms.workload:
 >  You should not set the <xref:Microsoft.Office.Interop.Excel._Application.EnableEvents%2A> property of the <xref:Microsoft.Office.Interop.Excel.Application> object in Excel to **false**. Setting this property to **false** prevents Excel from raising any events, including the events of host controls.
 
 ## See also
- [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)
- [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)
- [Program document-level customizations](../vsto/programming-document-level-customizations.md)
- [Automate Word by using extended objects](../vsto/automating-word-by-using-extended-objects.md)
- [Automate Excel by using extended objects](../vsto/automating-excel-by-using-extended-objects.md)
- [Controls on Office documents](../vsto/controls-on-office-documents.md)
- [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)
+- [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)
+- [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)
+- [Program document-level customizations](../vsto/programming-document-level-customizations.md)
+- [Automate Word by using extended objects](../vsto/automating-word-by-using-extended-objects.md)
+- [Automate Excel by using extended objects](../vsto/automating-excel-by-using-extended-objects.md)
+- [Controls on Office documents](../vsto/controls-on-office-documents.md)
+- [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)

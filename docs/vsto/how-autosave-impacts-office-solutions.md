@@ -21,5 +21,4 @@ AutoSave is a feature for Excel, PowerPoint, and Word that automatically and con
 > AutoSave for Windows Desktop Word, Excel, and PowerPoint was introduced in 2017 and is currently available for Office365 subscribers. If you bought a perpetual license to Office 2016 or earlier, you don't currently have access to the coauthoring feature. (Excel Online, Excel for Android, Excel for iOS, and Excel Mobile in the Windows Store do support this feature, though.)
 
 ## See also
-
-[Develop Office solutions](./developing-office-solutions.md)
+- [Develop Office solutions](./developing-office-solutions.md)

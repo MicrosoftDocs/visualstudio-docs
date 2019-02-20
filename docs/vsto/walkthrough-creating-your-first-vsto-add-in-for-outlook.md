@@ -130,9 +130,9 @@ ms.workload:
 -   Deploying VSTO Add-ins for Outlook. For more information, see [Deploy an Office solution](../vsto/deploying-an-office-solution.md).
 
 ## See also
- [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)
- [Outlook solutions](../vsto/outlook-solutions.md)
- [Office UI customization](../vsto/office-ui-customization.md)
- [Build Office solutions](../vsto/building-office-solutions.md)
- [Deploy an Office solution](../vsto/deploying-an-office-solution.md)
- [Office project templates overview](../vsto/office-project-templates-overview.md)
+- [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)
+- [Outlook solutions](../vsto/outlook-solutions.md)
+- [Office UI customization](../vsto/office-ui-customization.md)
+- [Build Office solutions](../vsto/building-office-solutions.md)
+- [Deploy an Office solution](../vsto/deploying-an-office-solution.md)
+- [Office project templates overview](../vsto/office-project-templates-overview.md)

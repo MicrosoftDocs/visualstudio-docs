@@ -24,6 +24,6 @@ ms.workload:
  [!code-csharp[Trin_OL_CustomCalendar#1](../vsto/codesnippet/CSharp/Trin_OL_CustomCalendar/thisaddin.cs#1)]
 
 ## See also
- [Work with calendar items](../vsto/working-with-calendar-items.md)
- [How to: Programmatically create appointments](../vsto/how-to-programmatically-create-appointments.md)
- [How to: Programmatically create a meeting request](../vsto/how-to-programmatically-create-a-meeting-request.md)
+- [Work with calendar items](../vsto/working-with-calendar-items.md)
+- [How to: Programmatically create appointments](../vsto/how-to-programmatically-create-appointments.md)
+- [How to: Programmatically create a meeting request](../vsto/how-to-programmatically-create-a-meeting-request.md)

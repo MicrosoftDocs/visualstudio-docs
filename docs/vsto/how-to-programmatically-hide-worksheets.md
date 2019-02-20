@@ -44,9 +44,9 @@ ms.workload:
      [!code-vb[Trin_VstcoreExcelAutomation#26](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#26)]
 
 ## See also
- [Work with worksheets](../vsto/working-with-worksheets.md)
- [How to: Programmatically delete worksheets from workbooks](../vsto/how-to-programmatically-delete-worksheets-from-workbooks.md)
- [How to: Programmatically move worksheets Within workbooks](../vsto/how-to-programmatically-move-worksheets-within-workbooks.md)
- [How to: Programmatically protect worksheets](../vsto/how-to-programmatically-protect-worksheets.md)
- [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)
- [Global access to objects in Office projects](../vsto/global-access-to-objects-in-office-projects.md)
+- [Work with worksheets](../vsto/working-with-worksheets.md)
+- [How to: Programmatically delete worksheets from workbooks](../vsto/how-to-programmatically-delete-worksheets-from-workbooks.md)
+- [How to: Programmatically move worksheets Within workbooks](../vsto/how-to-programmatically-move-worksheets-within-workbooks.md)
+- [How to: Programmatically protect worksheets](../vsto/how-to-programmatically-protect-worksheets.md)
+- [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)
+- [Global access to objects in Office projects](../vsto/global-access-to-objects-in-office-projects.md)

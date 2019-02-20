@@ -72,9 +72,9 @@ ms.workload:
  The same differences exist between the <xref:Microsoft.Office.Tools.Word.XMLNode.ContextLeave> event and <xref:Microsoft.Office.Tools.Word.XMLNode.Deselect> event.
 
 ## See also
- [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)
- [Automate Word by using extended objects](../vsto/automating-word-by-using-extended-objects.md)
- [XMLNodes control](../vsto/xmlnodes-control.md)
- [How to: Add XMLNode controls to Word documents](../vsto/how-to-add-xmlnode-controls-to-word-documents.md)
- [How to: Map schemas to Word documents inside Visual Studio](../vsto/how-to-map-schemas-to-word-documents-inside-visual-studio.md)
- [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)
+- [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)
+- [Automate Word by using extended objects](../vsto/automating-word-by-using-extended-objects.md)
+- [XMLNodes control](../vsto/xmlnodes-control.md)
+- [How to: Add XMLNode controls to Word documents](../vsto/how-to-add-xmlnode-controls-to-word-documents.md)
+- [How to: Map schemas to Word documents inside Visual Studio](../vsto/how-to-map-schemas-to-word-documents-inside-visual-studio.md)
+- [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)

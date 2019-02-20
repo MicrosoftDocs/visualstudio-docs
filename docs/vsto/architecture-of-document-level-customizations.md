@@ -136,10 +136,10 @@ ms.workload:
 9. The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] calls the **Startup** event handler in your customization assembly. For more information, see [Events in Office projects](../vsto/events-in-office-projects.md)
 
 ## See also
- [Architecture of Office solutions in Visual Studio](../vsto/architecture-of-office-solutions-in-visual-studio.md)
- [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md)
- [Visual Studio Tools for Office runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md)
- [Secure Office solutions](../vsto/securing-office-solutions.md)
- [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)
- [Custom document properties overview](../vsto/custom-document-properties-overview.md)
- [Cached data in document-level customizations](../vsto/cached-data-in-document-level-customizations.md)
+- [Architecture of Office solutions in Visual Studio](../vsto/architecture-of-office-solutions-in-visual-studio.md)
+- [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md)
+- [Visual Studio Tools for Office runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md)
+- [Secure Office solutions](../vsto/securing-office-solutions.md)
+- [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)
+- [Custom document properties overview](../vsto/custom-document-properties-overview.md)
+- [Cached data in document-level customizations](../vsto/cached-data-in-document-level-customizations.md)

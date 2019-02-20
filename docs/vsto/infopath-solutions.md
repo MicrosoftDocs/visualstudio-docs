@@ -51,13 +51,13 @@ ms.workload:
  For more information about customizing the UI of InfoPath and other Microsoft Office applications, see [Office UI customization](../vsto/office-ui-customization.md).
 
 ## See also
- [About the Microsoft Office InfoPath primary interop assembly](https://msdn.microsoft.com/1b3ae03c-6951-49e4-a489-4712d3f7ba72)
- [Get started programming VSTO Add-ins](../vsto/getting-started-programming-vsto-add-ins.md)
- [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)
- [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md)
- [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md)
- [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)
- [Write code in Office solutions](../vsto/writing-code-in-office-solutions.md)
- [Office primary interop assemblies](../vsto/office-primary-interop-assemblies.md)
- [Office UI customization](../vsto/office-ui-customization.md)
- [InfoPath 2010 in Office development](http://go.microsoft.com/fwlink/?LinkId=199012)
+- [About the Microsoft Office InfoPath primary interop assembly](https://msdn.microsoft.com/1b3ae03c-6951-49e4-a489-4712d3f7ba72)
+- [Get started programming VSTO Add-ins](../vsto/getting-started-programming-vsto-add-ins.md)
+- [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)
+- [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md)
+- [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md)
+- [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)
+- [Write code in Office solutions](../vsto/writing-code-in-office-solutions.md)
+- [Office primary interop assemblies](../vsto/office-primary-interop-assemblies.md)
+- [Office UI customization](../vsto/office-ui-customization.md)
+- [InfoPath 2010 in Office development](http://go.microsoft.com/fwlink/?LinkId=199012)

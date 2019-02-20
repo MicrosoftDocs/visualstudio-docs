@@ -153,7 +153,7 @@ ms.workload:
      For more information on how to add a document to the trusted locations, see the Microsoft Office Online web site [Create, remove, or change a trusted location for your files](https://support.office.com/article/Create-remove-or-change-a-trusted-location-for-your-files-f5151879-25ea-4998-80a5-4208b3540a62).
 
 ## See also
- [Office project templates overview](../vsto/office-project-templates-overview.md)
- [Collaborative development of Office solutions](../vsto/collaborative-development-of-office-solutions.md)
- [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)
- [Get started programming VSTO Add-ins](../vsto/getting-started-programming-vsto-add-ins.md)
+- [Office project templates overview](../vsto/office-project-templates-overview.md)
+- [Collaborative development of Office solutions](../vsto/collaborative-development-of-office-solutions.md)
+- [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)
+- [Get started programming VSTO Add-ins](../vsto/getting-started-programming-vsto-add-ins.md)

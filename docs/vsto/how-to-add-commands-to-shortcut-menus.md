@@ -74,7 +74,7 @@ ms.workload:
      [!code-csharp[Trin_WordAddIn_Menus#2](../vsto/codesnippet/CSharp/trin_wordaddin_menus.cs/ribbon1.cs#2)]
 
 ## See also
- [Office UI customization](../vsto/office-ui-customization.md)
- [Walkthrough: Create Shortcut menus for bookmarks](../vsto/walkthrough-creating-shortcut-menus-for-bookmarks.md)
- [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)
- [Customize context menus in Office 2010](http://go.microsoft.com/fwlink/?LinkId=182186)
+- [Office UI customization](../vsto/office-ui-customization.md)
+- [Walkthrough: Create Shortcut menus for bookmarks](../vsto/walkthrough-creating-shortcut-menus-for-bookmarks.md)
+- [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)
+- [Customize context menus in Office 2010](http://go.microsoft.com/fwlink/?LinkId=182186)

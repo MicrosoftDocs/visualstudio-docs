@@ -40,9 +40,9 @@ ms.workload:
  [!code-vb[Trin_VstcoreWordAutomation#102](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#102)]
 
 ## See also
- [How to: Programmatically use Word dialog boxes in hidden mode](../vsto/how-to-programmatically-use-word-dialog-boxes-in-hidden-mode.md)
- [Word object model overview](../vsto/word-object-model-overview.md)
- [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)
- [Option strict statement](/dotnet/visual-basic/language-reference/statements/option-strict-statement)
- [Reflection (C#)](/dotnet/csharp/programming-guide/concepts/reflection)
- [Reflection (Visual Basic)](/dotnet/visual-basic/programming-guide/concepts/reflection)
+- [How to: Programmatically use Word dialog boxes in hidden mode](../vsto/how-to-programmatically-use-word-dialog-boxes-in-hidden-mode.md)
+- [Word object model overview](../vsto/word-object-model-overview.md)
+- [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)
+- [Option strict statement](/dotnet/visual-basic/language-reference/statements/option-strict-statement)
+- [Reflection (C#)](/dotnet/csharp/programming-guide/concepts/reflection)
+- [Reflection (Visual Basic)](/dotnet/visual-basic/programming-guide/concepts/reflection)

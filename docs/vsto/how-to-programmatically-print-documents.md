@@ -52,4 +52,4 @@ ms.workload:
      [!code-csharp[Trin_VstcoreWordAutomationAddIn#12](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationAddIn/ThisAddIn.cs#12)]
 
 ## See also
- [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)
+- [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)

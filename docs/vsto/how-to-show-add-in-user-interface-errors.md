@@ -37,7 +37,7 @@ ms.workload:
     >  For Outlook, the **Show VSTO Add-in user interface errors** checkbox is located in the **Developer** section of the details pane. For other applications, the checkbox is located in the **General** section of the details pane.
 
 ## See also
- [Office UI customization](../vsto/office-ui-customization.md)
- [Create Outlook form regions](../vsto/creating-outlook-form-regions.md)
- [Ribbon overview](../vsto/ribbon-overview.md)
- [Actions pane overview](../vsto/actions-pane-overview.md)
+- [Office UI customization](../vsto/office-ui-customization.md)
+- [Create Outlook form regions](../vsto/creating-outlook-form-regions.md)
+- [Ribbon overview](../vsto/ribbon-overview.md)
+- [Actions pane overview](../vsto/actions-pane-overview.md)

@@ -40,5 +40,5 @@ HRESULT Load([in] BSTR bstrManifestURL,
  Implement the [IManagedAddIn::Load](../vsto/imanagedaddin-load.md) method to perform tasks such as configuring the application domain and security policy for the VSTO Add-in that is being loaded.
 
 ## See also
- [IManagedAddin Interface](../vsto/imanagedaddin-interface.md)
- [IManagedAddin::Unload](../vsto/imanagedaddin-unload.md)
+- [IManagedAddin Interface](../vsto/imanagedaddin-interface.md)
+- [IManagedAddin::Unload](../vsto/imanagedaddin-unload.md)

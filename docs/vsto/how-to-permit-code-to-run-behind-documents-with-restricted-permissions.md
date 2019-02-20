@@ -41,9 +41,9 @@ ms.workload:
    Word or Excel will permit programmatic access to the object model.
 
 ## See also
- [Information rights management and managed code extensions overview](../vsto/information-rights-management-and-managed-code-extensions-overview.md)
- [Document protection in document-level solutions](../vsto/document-protection-in-document-level-solutions.md)
- [Password protection on Office documents](../vsto/password-protection-on-office-documents.md)
- [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)
- [Secure Office solutions](../vsto/securing-office-solutions.md)
- [Deploy an Office solution](../vsto/deploying-an-office-solution.md)
+- [Information rights management and managed code extensions overview](../vsto/information-rights-management-and-managed-code-extensions-overview.md)
+- [Document protection in document-level solutions](../vsto/document-protection-in-document-level-solutions.md)
+- [Password protection on Office documents](../vsto/password-protection-on-office-documents.md)
+- [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)
+- [Secure Office solutions](../vsto/securing-office-solutions.md)
+- [Deploy an Office solution](../vsto/deploying-an-office-solution.md)

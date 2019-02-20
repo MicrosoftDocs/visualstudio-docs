@@ -30,7 +30,7 @@ ms.workload:
  For more information about Outlook tasks and the Outlook object model, see [Outlook object model overview](../vsto/outlook-object-model-overview.md).
 
 ## See also
- [Work with mail items](../vsto/working-with-mail-items.md)
- [Work with folders](../vsto/working-with-folders.md)
- [Work with calendar items](../vsto/working-with-calendar-items.md)
- [Outlook solutions](../vsto/outlook-solutions.md)
+- [Work with mail items](../vsto/working-with-mail-items.md)
+- [Work with folders](../vsto/working-with-folders.md)
+- [Work with calendar items](../vsto/working-with-calendar-items.md)
+- [Outlook solutions](../vsto/outlook-solutions.md)

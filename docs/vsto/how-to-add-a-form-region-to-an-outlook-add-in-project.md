@@ -59,10 +59,10 @@ ms.workload:
 11. On the **Identify the message classes that will display this form region** page, select standard Outlook message classes or type the names of one or more custom message classes, and then click **Finish**. For more information, see [Associate a form region with an Outlook message class](../vsto/associating-a-form-region-with-an-outlook-message-class.md).
 
 ## See also
- [Access a form region at runtime](../vsto/accessing-a-form-region-at-run-time.md)
- [Outlook solutions](../vsto/outlook-solutions.md)
- [Create Outlook form regions](../vsto/creating-outlook-form-regions.md)
- [Guidelines for create Outlook form regions](../vsto/guidelines-for-creating-outlook-form-regions.md)
- [Walkthrough: Design an Outlook form region](../vsto/walkthrough-designing-an-outlook-form-region.md)
- [Walkthrough: Import a form region that is designed in Outlook](../vsto/walkthrough-importing-a-form-region-that-is-designed-in-outlook.md)
- [Custom actions in Outlook form regions](../vsto/custom-actions-in-outlook-form-regions.md)
+- [Access a form region at runtime](../vsto/accessing-a-form-region-at-run-time.md)
+- [Outlook solutions](../vsto/outlook-solutions.md)
+- [Create Outlook form regions](../vsto/creating-outlook-form-regions.md)
+- [Guidelines for create Outlook form regions](../vsto/guidelines-for-creating-outlook-form-regions.md)
+- [Walkthrough: Design an Outlook form region](../vsto/walkthrough-designing-an-outlook-form-region.md)
+- [Walkthrough: Import a form region that is designed in Outlook](../vsto/walkthrough-importing-a-form-region-that-is-designed-in-outlook.md)
+- [Custom actions in Outlook form regions](../vsto/custom-actions-in-outlook-form-regions.md)

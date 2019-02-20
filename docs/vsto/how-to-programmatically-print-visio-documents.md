@@ -42,9 +42,9 @@ ms.workload:
      [!code-vb[Trin_VstcoreVisioAutomationAddIn#9](../vsto/codesnippet/VisualBasic/trin_vstcorevisioautomationaddin/ThisAddIn.vb#9)]
 
 ## See also
- [Visio solutions](../vsto/visio-solutions.md)
- [Visio object model overview](../vsto/visio-object-model-overview.md)
- [How to: Programmatically create new Visio documents](../vsto/how-to-programmatically-create-new-visio-documents.md)
- [How to: Programmatically open Visio documents](../vsto/how-to-programmatically-open-visio-documents.md)
- [How to: Programmatically close Visio documents](../vsto/how-to-programmatically-close-visio-documents.md)
- [How to: Programmatically save Visio documents](../vsto/how-to-programmatically-save-visio-documents.md)
+- [Visio solutions](../vsto/visio-solutions.md)
+- [Visio object model overview](../vsto/visio-object-model-overview.md)
+- [How to: Programmatically create new Visio documents](../vsto/how-to-programmatically-create-new-visio-documents.md)
+- [How to: Programmatically open Visio documents](../vsto/how-to-programmatically-open-visio-documents.md)
+- [How to: Programmatically close Visio documents](../vsto/how-to-programmatically-close-visio-documents.md)
+- [How to: Programmatically save Visio documents](../vsto/how-to-programmatically-save-visio-documents.md)

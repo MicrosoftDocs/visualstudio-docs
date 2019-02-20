@@ -29,6 +29,6 @@ ms.workload:
      [!code-vb[Trin_VstcoreExcelAutomationAddIn#9](../vsto/codesnippet/VisualBasic/trin_vstcoreexcelautomationaddin/ThisAddIn.vb#9)]
 
 ## See also
- [Work with workbooks](../vsto/working-with-workbooks.md)
- [NamedRange control](../vsto/namedrange-control.md)
- [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)
+- [Work with workbooks](../vsto/working-with-workbooks.md)
+- [NamedRange control](../vsto/namedrange-control.md)
+- [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)

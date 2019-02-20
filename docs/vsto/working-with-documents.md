@@ -37,5 +37,5 @@ ms.workload:
 |Remove all comments from a document.|[How to: Programmatically remove all comments from documents](../vsto/how-to-programmatically-remove-all-comments-from-documents.md)|
 
 ## See also
- [Word object model overview](../vsto/word-object-model-overview.md)
- [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)
+- [Word object model overview](../vsto/word-object-model-overview.md)
+- [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)

@@ -62,7 +62,7 @@ ms.workload:
      An <xref:Microsoft.Office.Tools.Word.XMLNodes> control is created and added to the project.
 
 ## See also
- [XMLNodes control](../vsto/xmlnodes-control.md)
- [Automate Word by using extended objects](../vsto/automating-word-by-using-extended-objects.md)
- [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)
- [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)
+- [XMLNodes control](../vsto/xmlnodes-control.md)
+- [Automate Word by using extended objects](../vsto/automating-word-by-using-extended-objects.md)
+- [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)
+- [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)

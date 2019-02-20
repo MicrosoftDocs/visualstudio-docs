@@ -208,6 +208,6 @@ Word.Document document = Globals.ThisAddIn.Application.ActiveDocument;
  Whether you click **Yes** or **No** in the dialog box, Visual Studio terminates the Excel or Word process and stops the debugger. To stop debugging the project without displaying this dialog box, exit Excel or Word directly rather than stopping the debugger in Visual Studio.
 
 ## See also
- [Troubleshoot Office solutions](../vsto/troubleshooting-office-solutions.md)
- [Troubleshoot Office solution security](../vsto/troubleshooting-office-solution-security.md)
- [Troubleshoot Office solution deployment](../vsto/troubleshooting-office-solution-deployment.md)
+- [Troubleshoot Office solutions](../vsto/troubleshooting-office-solutions.md)
+- [Troubleshoot Office solution security](../vsto/troubleshooting-office-solution-security.md)
+- [Troubleshoot Office solution deployment](../vsto/troubleshooting-office-solution-deployment.md)

@@ -244,10 +244,10 @@ GetManagedClass(pdispInteropObject Object) As Object
 |After you rename the customization assembly, VBA code that calls into the customization assembly stops working.|If you change the name of the customization assembly after you expose it to VBA code, the link between the VBA project in the document and your customization assembly is broken. To fix this issue, change the **ReferenceFromVbaAssembly** property in your project to **False** and then back to **True**, and then replace any references to the old assembly name in the VBA code with the new assembly name.|
 
 ## See also
- [How to: Expose code to VBA in a Visual Basic project](../vsto/how-to-expose-code-to-vba-in-a-visual-basic-project.md)
- [How to: Expose code to VBA in a Visual C&#35; project](../vsto/how-to-expose-code-to-vba-in-a-visual-csharp-project.md)
- [Walkthrough: Call code from VBA in a Visual Basic project](../vsto/walkthrough-calling-code-from-vba-in-a-visual-basic-project.md)
- [Walkthrough: Call code from VBA in a Visual C&#35; project](../vsto/walkthrough-calling-code-from-vba-in-a-visual-csharp-project.md)
- [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)
- [VBA and Office solutions in Visual Studio compared](../vsto/vba-and-office-solutions-in-visual-studio-compared.md)
- [Program document-level customizations](../vsto/programming-document-level-customizations.md)
+- [How to: Expose code to VBA in a Visual Basic project](../vsto/how-to-expose-code-to-vba-in-a-visual-basic-project.md)
+- [How to: Expose code to VBA in a Visual C&#35; project](../vsto/how-to-expose-code-to-vba-in-a-visual-csharp-project.md)
+- [Walkthrough: Call code from VBA in a Visual Basic project](../vsto/walkthrough-calling-code-from-vba-in-a-visual-basic-project.md)
+- [Walkthrough: Call code from VBA in a Visual C&#35; project](../vsto/walkthrough-calling-code-from-vba-in-a-visual-csharp-project.md)
+- [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)
+- [VBA and Office solutions in Visual Studio compared](../vsto/vba-and-office-solutions-in-visual-studio-compared.md)
+- [Program document-level customizations](../vsto/programming-document-level-customizations.md)

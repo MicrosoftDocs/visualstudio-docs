@@ -133,11 +133,7 @@ ms.workload:
 - [Walkthrough: Create your first VSTO Add-in for Project](../vsto/walkthrough-creating-your-first-vsto-add-in-for-project.md)
 
 - [Walkthrough: Create your first VSTO Add-in for Word](../vsto/walkthrough-creating-your-first-vsto-add-in-for-word.md)
-
-## Document vs. template solutions
- When you design a solution around a Word document or Excel workbook, you must decide the best way to make that document available to your users.
-
- [!INCLUDE[appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]
+- [appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]
 
  In some situations, you might want to give a copy of a document to each user. In this case, create your solution by using an Excel or Word document project.
 
@@ -161,9 +157,9 @@ ms.workload:
  There is no Office project for creating an Excel VSTO Add-in (*.xla* file). It is possible to save a workbook as an .xla file, but it is not a supported operation and is not recommended. If you save a workbook that has managed code extensions as a **Microsoft Office Excel Add-In (\*.xla)** file, you can select it in the **Add-Ins** dialog box to apply to another workbook. In some cases, your code will run in the target workbook after the VSTO Add-in is applied, but such use of the Office solution is not supported.
 
 ## See also
- [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)
- [Develop Office solutions](../vsto/developing-office-solutions.md)
- [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md)
- [Get started programming document-level customizations for Excel](../vsto/getting-started-programming-document-level-customizations-for-excel.md)
- [Get started programming document-level customizations for Word](../vsto/getting-started-programming-document-level-customizations-for-word.md)
- [Get started programming VSTO Add-ins](../vsto/getting-started-programming-vsto-add-ins.md)
+- [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)
+- [Develop Office solutions](../vsto/developing-office-solutions.md)
+- [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md)
+- [Get started programming document-level customizations for Excel](../vsto/getting-started-programming-document-level-customizations-for-excel.md)
+- [Get started programming document-level customizations for Word](../vsto/getting-started-programming-document-level-customizations-for-word.md)
+- [Get started programming VSTO Add-ins](../vsto/getting-started-programming-vsto-add-ins.md)

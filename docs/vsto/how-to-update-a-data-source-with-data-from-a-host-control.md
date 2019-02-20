@@ -107,11 +107,11 @@ ms.workload:
      [!code-vb[Trin_VstcoreDataExcel#21](../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet1.vb#21)]
 
 ## See also
- [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)
- [Save data back to the database](../data-tools/save-data-back-to-the-database.md)
- [Update data by using a TableAdapter](../data-tools/update-data-by-using-a-tableadapter.md)
- [How to: Scroll through database records in a worksheet](../vsto/how-to-scroll-through-database-records-in-a-worksheet.md)
- [How to: Populate worksheets with data from a database](../vsto/how-to-populate-worksheets-with-data-from-a-database.md)
- [How to: Populate documents with data from objects](../vsto/how-to-populate-documents-with-data-from-objects.md)
- [How to: Populate documents with data from a database](../vsto/how-to-populate-documents-with-data-from-a-database.md)
- [How to: Populate documents with data from services](../vsto/how-to-populate-documents-with-data-from-services.md)
+- [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)
+- [Save data back to the database](../data-tools/save-data-back-to-the-database.md)
+- [Update data by using a TableAdapter](../data-tools/update-data-by-using-a-tableadapter.md)
+- [How to: Scroll through database records in a worksheet](../vsto/how-to-scroll-through-database-records-in-a-worksheet.md)
+- [How to: Populate worksheets with data from a database](../vsto/how-to-populate-worksheets-with-data-from-a-database.md)
+- [How to: Populate documents with data from objects](../vsto/how-to-populate-documents-with-data-from-objects.md)
+- [How to: Populate documents with data from a database](../vsto/how-to-populate-documents-with-data-from-a-database.md)
+- [How to: Populate documents with data from services](../vsto/how-to-populate-documents-with-data-from-services.md)

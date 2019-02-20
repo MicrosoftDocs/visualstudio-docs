@@ -24,5 +24,5 @@ ms.workload:
  [!code-csharp[Trin_OL_CreateMailItem#1](../vsto/codesnippet/CSharp/Trin_OL_CreateMailItem/thisaddin.cs#1)]
 
 ## See also
- [Work with mail items](../vsto/working-with-mail-items.md)
- [Get started programming VSTO Add-ins](../vsto/getting-started-programming-vsto-add-ins.md)
+- [Work with mail items](../vsto/working-with-mail-items.md)
+- [Get started programming VSTO Add-ins](../vsto/getting-started-programming-vsto-add-ins.md)

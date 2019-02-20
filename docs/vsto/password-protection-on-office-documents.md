@@ -32,7 +32,7 @@ ms.workload:
  The first time you open a Word document in Visual Studio that has **Password on Open** enabled, Word prompts you for the password. After you successfully enter the password, **Password on Open** is removed from the document and opening the document will no longer require a password. If you want the document in your solution to require a password before it can be opened, you must enable **Password on Open** after your final build and before you deploy the solution.
 
 ## See also
- [Document protection in document-level solutions](../vsto/document-protection-in-document-level-solutions.md)
- [Information rights management and managed code extensions overview](../vsto/information-rights-management-and-managed-code-extensions-overview.md)
- [How to: Permit code to run behind documents with restricted permissions](../vsto/how-to-permit-code-to-run-behind-documents-with-restricted-permissions.md)
- [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)
+- [Document protection in document-level solutions](../vsto/document-protection-in-document-level-solutions.md)
+- [Information rights management and managed code extensions overview](../vsto/information-rights-management-and-managed-code-extensions-overview.md)
+- [How to: Permit code to run behind documents with restricted permissions](../vsto/how-to-permit-code-to-run-behind-documents-with-restricted-permissions.md)
+- [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)

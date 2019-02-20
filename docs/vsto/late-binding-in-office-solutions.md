@@ -56,10 +56,10 @@ ms.workload:
  [!code-vb[Trin_VstcoreWordAutomation#102](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#102)]
 
 ## See also
- [Write code in Office solutions](../vsto/writing-code-in-office-solutions.md)
- [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)
- [Use Type dynamic &#40;C&#35; programming guide&#41;](/dotnet/csharp/programming-guide/types/using-type-dynamic)
- [Option Strict statement](/dotnet/visual-basic/language-reference/statements/option-strict-statement)
- [Reflection (C#)](/dotnet/csharp/programming-guide/concepts/reflection)
- [Reflection (Visual Basic)](/dotnet/visual-basic/programming-guide/concepts/reflection)
- [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)
+- [Write code in Office solutions](../vsto/writing-code-in-office-solutions.md)
+- [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)
+- [Use Type dynamic &#40;C&#35; programming guide&#41;](/dotnet/csharp/programming-guide/types/using-type-dynamic)
+- [Option Strict statement](/dotnet/visual-basic/language-reference/statements/option-strict-statement)
+- [Reflection (C#)](/dotnet/csharp/programming-guide/concepts/reflection)
+- [Reflection (Visual Basic)](/dotnet/visual-basic/programming-guide/concepts/reflection)
+- [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)

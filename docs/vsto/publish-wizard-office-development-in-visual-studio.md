@@ -60,6 +60,6 @@ ms.workload:
  Visual Studio does not burn the CD or DVD. You must copy the output to a CD or DVD manually.
 
 ## See also
- [Deploy an Office solution by using ClickOnce](../vsto/deploying-an-office-solution-by-using-clickonce.md)
- [Publish Page, Project Designer &#40;Office development in Visual Studio&#41;](../vsto/publish-page-project-designer-office-development-in-visual-studio.md)
- [Deploy an Office solution](../vsto/deploying-an-office-solution.md)
+- [Deploy an Office solution by using ClickOnce](../vsto/deploying-an-office-solution-by-using-clickonce.md)
+- [Publish Page, Project Designer &#40;Office development in Visual Studio&#41;](../vsto/publish-page-project-designer-office-development-in-visual-studio.md)
+- [Deploy an Office solution](../vsto/deploying-an-office-solution.md)

@@ -46,6 +46,6 @@ ms.workload:
  Use the **Value2** property in the **Properties** window to bind the <xref:Microsoft.Office.Tools.Excel.NamedRange.Value2%2A> property of the <xref:Microsoft.Office.Tools.Excel.NamedRange> to a field in your data source.
 
 ## See also
- [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)
- [Office project templates overview](../vsto/office-project-templates-overview.md)
- [Events in Office projects](../vsto/events-in-office-projects.md)
+- [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)
+- [Office project templates overview](../vsto/office-project-templates-overview.md)
+- [Events in Office projects](../vsto/events-in-office-projects.md)

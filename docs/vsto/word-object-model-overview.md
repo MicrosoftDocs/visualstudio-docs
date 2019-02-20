@@ -123,11 +123,11 @@ ms.workload:
  All of the objects and members in the VBA object model reference correspond to types and members in the Word PIA. For example, the Document object in the VBA object model reference corresponds to the <xref:Microsoft.Office.Interop.Word.Document> object in the Word PIA. Although the VBA object model reference provides code examples for most properties, methods, and events, you must translate the VBA code in this reference to Visual Basic or Visual C# if you want to use them in a Word project that you create by using Visual Studio.
 
 ## See also
- [Office primary interop assemblies](../vsto/office-primary-interop-assemblies.md)
- [Automate Word by using extended objects](../vsto/automating-word-by-using-extended-objects.md)
- [Work with documents](../vsto/working-with-documents.md)
- [Work with text in documents](../vsto/working-with-text-in-documents.md)
- [Work with tables](../vsto/working-with-tables.md)
- [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)
- [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)
- [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)
+- [Office primary interop assemblies](../vsto/office-primary-interop-assemblies.md)
+- [Automate Word by using extended objects](../vsto/automating-word-by-using-extended-objects.md)
+- [Work with documents](../vsto/working-with-documents.md)
+- [Work with text in documents](../vsto/working-with-text-in-documents.md)
+- [Work with tables](../vsto/working-with-tables.md)
+- [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)
+- [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)
+- [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)

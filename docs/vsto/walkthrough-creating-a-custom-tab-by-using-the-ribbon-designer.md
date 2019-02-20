@@ -153,12 +153,12 @@ ms.workload:
 -   Extend a standard or custom Microsoft Office Outlook form. For more information, see [Walkthrough: Design an Outlook form region](../vsto/walkthrough-designing-an-outlook-form-region.md).
 
 ## See also
- [Access the ribbon at runtime](../vsto/accessing-the-ribbon-at-run-time.md)
- [Ribbon overview](../vsto/ribbon-overview.md)
- [Ribbon Designer](../vsto/ribbon-designer.md)
- [Customize a ribbon for Outlook](../vsto/customizing-a-ribbon-for-outlook.md)
- [How to: Get started customizing the ribbon](../vsto/how-to-get-started-customizing-the-ribbon.md)
- [How to: Change the position of a tab on the ribbon](../vsto/how-to-change-the-position-of-a-tab-on-the-ribbon.md)
- [How to: Customize a built-in tab](../vsto/how-to-customize-a-built-in-tab.md)
- [How to: Add controls to the backstage view](../vsto/how-to-add-controls-to-the-backstage-view.md)
- [Ribbon object model overview](../vsto/ribbon-object-model-overview.md)
+- [Access the ribbon at runtime](../vsto/accessing-the-ribbon-at-run-time.md)
+- [Ribbon overview](../vsto/ribbon-overview.md)
+- [Ribbon Designer](../vsto/ribbon-designer.md)
+- [Customize a ribbon for Outlook](../vsto/customizing-a-ribbon-for-outlook.md)
+- [How to: Get started customizing the ribbon](../vsto/how-to-get-started-customizing-the-ribbon.md)
+- [How to: Change the position of a tab on the ribbon](../vsto/how-to-change-the-position-of-a-tab-on-the-ribbon.md)
+- [How to: Customize a built-in tab](../vsto/how-to-customize-a-built-in-tab.md)
+- [How to: Add controls to the backstage view](../vsto/how-to-add-controls-to-the-backstage-view.md)
+- [Ribbon object model overview](../vsto/ribbon-object-model-overview.md)

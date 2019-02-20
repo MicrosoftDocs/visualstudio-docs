@@ -54,13 +54,13 @@ ms.workload:
 |[Accessibility in Office projects](../vsto/accessibility-in-office-projects.md)|Describes the accessibility features that are available in Office solutions.|
 
 ## See also
- [How to: Create and modify custom document properties](../vsto/how-to-create-and-modify-custom-document-properties.md)
- [How to: Read from and write to document properties](../vsto/how-to-read-from-and-write-to-document-properties.md)
- [How to: Target the Office multilingual user interface](../vsto/how-to-target-the-office-multilingual-user-interface.md)
- [Walkthrough: Create your first VSTO Add-in for Excel](../vsto/walkthrough-creating-your-first-vsto-add-in-for-excel.md)
- [Walkthrough: Create your first document-level customization for Excel](../vsto/walkthrough-creating-your-first-document-level-customization-for-excel.md)
- [Walkthrough: Create your first VSTO Add-in for Outlook](../vsto/walkthrough-creating-your-first-vsto-add-in-for-outlook.md)
- [Walkthrough: Create your first VSTO Add-in for PowerPoint](../vsto/walkthrough-creating-your-first-vsto-add-in-for-powerpoint.md)
- [Walkthrough: Create your first VSTO Add-in for Project](../vsto/walkthrough-creating-your-first-vsto-add-in-for-project.md)
- [Walkthrough: Create your first VSTO Add-in for Word](../vsto/walkthrough-creating-your-first-vsto-add-in-for-word.md)
- [Walkthrough: Create your first document-level customization for Word](../vsto/walkthrough-creating-your-first-document-level-customization-for-word.md)
+- [How to: Create and modify custom document properties](../vsto/how-to-create-and-modify-custom-document-properties.md)
+- [How to: Read from and write to document properties](../vsto/how-to-read-from-and-write-to-document-properties.md)
+- [How to: Target the Office multilingual user interface](../vsto/how-to-target-the-office-multilingual-user-interface.md)
+- [Walkthrough: Create your first VSTO Add-in for Excel](../vsto/walkthrough-creating-your-first-vsto-add-in-for-excel.md)
+- [Walkthrough: Create your first document-level customization for Excel](../vsto/walkthrough-creating-your-first-document-level-customization-for-excel.md)
+- [Walkthrough: Create your first VSTO Add-in for Outlook](../vsto/walkthrough-creating-your-first-vsto-add-in-for-outlook.md)
+- [Walkthrough: Create your first VSTO Add-in for PowerPoint](../vsto/walkthrough-creating-your-first-vsto-add-in-for-powerpoint.md)
+- [Walkthrough: Create your first VSTO Add-in for Project](../vsto/walkthrough-creating-your-first-vsto-add-in-for-project.md)
+- [Walkthrough: Create your first VSTO Add-in for Word](../vsto/walkthrough-creating-your-first-vsto-add-in-for-word.md)
+- [Walkthrough: Create your first document-level customization for Word](../vsto/walkthrough-creating-your-first-document-level-customization-for-word.md)

@@ -33,7 +33,7 @@ ms.workload:
  Do not remove the filter code that searches for the domain name **example.com**. Your solution will send email messages to all of your contacts if you remove the filter.
 
 ## See also
- [Work with mail items](../vsto/working-with-mail-items.md)
- [How to: Programmatically create an email item](../vsto/how-to-programmatically-create-an-e-mail-item.md)
- [How to: Programmatically access Outlook contacts](../vsto/how-to-programmatically-access-outlook-contacts.md)
- [How to: Programmatically perform actions when an email message is received](../vsto/how-to-programmatically-perform-actions-when-an-e-mail-message-is-received.md)
+- [Work with mail items](../vsto/working-with-mail-items.md)
+- [How to: Programmatically create an email item](../vsto/how-to-programmatically-create-an-e-mail-item.md)
+- [How to: Programmatically access Outlook contacts](../vsto/how-to-programmatically-access-outlook-contacts.md)
+- [How to: Programmatically perform actions when an email message is received](../vsto/how-to-programmatically-perform-actions-when-an-e-mail-message-is-received.md)

@@ -60,11 +60,11 @@ ms.workload:
 |Visual document designer.|Document-level projects.|[Office projects in the Visual Studio environment](../vsto/office-projects-in-the-visual-studio-environment.md)|
 
 ## See also
- [Get started &#40;Office development in Visual Studio&#41;](../vsto/getting-started-office-development-in-visual-studio.md)
- [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)
- [Actions pane overview](../vsto/actions-pane-overview.md)
- [Ribbon overview](../vsto/ribbon-overview.md)
- [Create Outlook form regions](../vsto/creating-outlook-form-regions.md)
- [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)
- [Cached data in document-level customizations](../vsto/cached-data-in-document-level-customizations.md)
- [Deploy an Office solution](../vsto/deploying-an-office-solution.md)
+- [Get started &#40;Office development in Visual Studio&#41;](../vsto/getting-started-office-development-in-visual-studio.md)
+- [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)
+- [Actions pane overview](../vsto/actions-pane-overview.md)
+- [Ribbon overview](../vsto/ribbon-overview.md)
+- [Create Outlook form regions](../vsto/creating-outlook-form-regions.md)
+- [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)
+- [Cached data in document-level customizations](../vsto/cached-data-in-document-level-customizations.md)
+- [Deploy an Office solution](../vsto/deploying-an-office-solution.md)

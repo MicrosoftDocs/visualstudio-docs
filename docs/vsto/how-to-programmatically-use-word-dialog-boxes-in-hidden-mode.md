@@ -33,8 +33,8 @@ ms.workload:
  [!code-vb[Trin_VstcoreWordAutomation#104](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#104)]
 
 ## See also
- [How to: Programmatically use built-in dialog boxes in Word](../vsto/how-to-programmatically-use-built-in-dialog-boxes-in-word.md)
- [Word object model overview](../vsto/word-object-model-overview.md)
- [Late binding in Office solutions](../vsto/late-binding-in-office-solutions.md)
- [Reflection (C#)](/dotnet/csharp/programming-guide/concepts/reflection)
- [Reflection (Visual Basic)](/dotnet/visual-basic/programming-guide/concepts/reflection)
+- [How to: Programmatically use built-in dialog boxes in Word](../vsto/how-to-programmatically-use-built-in-dialog-boxes-in-word.md)
+- [Word object model overview](../vsto/word-object-model-overview.md)
+- [Late binding in Office solutions](../vsto/late-binding-in-office-solutions.md)
+- [Reflection (C#)](/dotnet/csharp/programming-guide/concepts/reflection)
+- [Reflection (Visual Basic)](/dotnet/visual-basic/programming-guide/concepts/reflection)

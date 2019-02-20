@@ -50,8 +50,8 @@ ms.workload:
  3. Office solutions that require the Visual Studio 2005 Tools for Office Second Edition Runtime are not compatible with 64-bit versions of [!INCLUDE[Office_15_short](../vsto/includes/office-15-short-md.md)] and [!INCLUDE[office14_long](../vsto/includes/office14-long-md.md)]. To run these solutions in the 64-bit edition of [!INCLUDE[Office_15_short](../vsto/includes/office-15-short-md.md)] or [!INCLUDE[office14_long](../vsto/includes/office14-long-md.md)], you must upgrade the project to [!INCLUDE[vs_dev10_long](../sharepoint/includes/vs-dev10-long-md.md)] or to a Visual Studio 2008 project that targets the 2007 Microsoft Office system.
 
 ## See also
- [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)
- [Visual Studio Tools for Office runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md)
- [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md)
- [Visual Studio Tools for Office runtime installation scenarios](../vsto/visual-studio-tools-for-office-runtime-installation-scenarios.md)
- [Configure a computer to develop Office solutions](../vsto/running-solutions-in-different-versions-of-microsoft-office.md)
+- [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)
+- [Visual Studio Tools for Office runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md)
+- [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md)
+- [Visual Studio Tools for Office runtime installation scenarios](../vsto/visual-studio-tools-for-office-runtime-installation-scenarios.md)
+- [Configure a computer to develop Office solutions](../vsto/running-solutions-in-different-versions-of-microsoft-office.md)

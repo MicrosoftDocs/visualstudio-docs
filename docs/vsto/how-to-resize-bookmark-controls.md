@@ -82,9 +82,9 @@ ms.workload:
 3.  In the **Bookmark** dialog box, select the name of the bookmark that you want to resize and click **Add**.
 
 ## See also
- [How to: Add Bookmark controls to Word documents](../vsto/how-to-add-bookmark-controls-to-word-documents.md)
- [Automate Word by using extended objects](../vsto/automating-word-by-using-extended-objects.md)
- [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)
- [How to: Resize NamedRange controls](../vsto/how-to-resize-namedrange-controls.md)
- [How to: Resize ListObject controls](../vsto/how-to-resize-listobject-controls.md)
- [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)
+- [How to: Add Bookmark controls to Word documents](../vsto/how-to-add-bookmark-controls-to-word-documents.md)
+- [Automate Word by using extended objects](../vsto/automating-word-by-using-extended-objects.md)
+- [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)
+- [How to: Resize NamedRange controls](../vsto/how-to-resize-namedrange-controls.md)
+- [How to: Resize ListObject controls](../vsto/how-to-resize-listobject-controls.md)
+- [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)

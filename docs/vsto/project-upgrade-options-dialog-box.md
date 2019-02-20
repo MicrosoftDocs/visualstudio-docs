@@ -27,5 +27,5 @@ ms.workload:
  This option is disabled for [!INCLUDE[vs_dev12](../vsto/includes/vs-dev12-md.md)] because Office projects in [!INCLUDE[vs_dev12](../vsto/includes/vs-dev12-md.md)] can target only [!INCLUDE[office14_long](../vsto/includes/office14-long-md.md)] or Microsoft [!INCLUDE[Office_15_short](../vsto/includes/office-15-short-md.md)] applications. For more information, see [Upgrade and migrate Office solutions](../vsto/upgrading-and-migrating-office-solutions.md).
 
 ## See also
- [Upgrade and migrate Office solutions](../vsto/upgrading-and-migrating-office-solutions.md)
- [How to: Upgrade Office solutions](https://msdn.microsoft.com/a269e539-b717-4680-a568-2152b070347e)
+- [Upgrade and migrate Office solutions](../vsto/upgrading-and-migrating-office-solutions.md)
+- [How to: Upgrade Office solutions](https://msdn.microsoft.com/a269e539-b717-4680-a568-2152b070347e)

@@ -63,5 +63,5 @@ ms.workload:
   For more information about value and reference type parameters, see [Pass arguments by value and by reference &#40;Visual Basic&#41;](/dotnet/visual-basic/programming-guide/language-features/procedures/passing-arguments-by-value-and-by-reference) (for Visual Basic) and [Pass parameters &#40;C&#35; programming guide&#41;](/dotnet/csharp/programming-guide/classes-and-structs/passing-parameters).
 
 ## See also
- [Develop Office solutions](../vsto/developing-office-solutions.md)
- [Write code in Office solutions](../vsto/writing-code-in-office-solutions.md)
+- [Develop Office solutions](../vsto/developing-office-solutions.md)
+- [Write code in Office solutions](../vsto/writing-code-in-office-solutions.md)

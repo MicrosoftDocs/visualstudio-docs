@@ -138,6 +138,6 @@ ms.workload:
 |`GetResourceText`|Called by the `GetCustomUI` method to obtain the contents of the Ribbon XML file.|
 
 ## See also
- [Ribbon overview](../vsto/ribbon-overview.md)
- [Walkthrough: Create a custom tab by using Ribbon XML](../vsto/walkthrough-creating-a-custom-tab-by-using-ribbon-xml.md)
- [Office UI customization](../vsto/office-ui-customization.md)
+- [Ribbon overview](../vsto/ribbon-overview.md)
+- [Walkthrough: Create a custom tab by using Ribbon XML](../vsto/walkthrough-creating-a-custom-tab-by-using-ribbon-xml.md)
+- [Office UI customization](../vsto/office-ui-customization.md)

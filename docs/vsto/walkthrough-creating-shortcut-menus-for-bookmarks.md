@@ -187,8 +187,8 @@ ms.workload:
 -   Use a check box to change formatting in a bookmark. For more information, see [Walkthrough: Change document formatting using CheckBox controls](../vsto/walkthrough-changing-document-formatting-using-checkbox-controls.md).
 
 ## See also
- [Walkthroughs using Word](../vsto/walkthroughs-using-word.md)
- [Office UI customization](../vsto/office-ui-customization.md)
- [Automate Word by using extended objects](../vsto/automating-word-by-using-extended-objects.md)
- [Bookmark control](../vsto/bookmark-control.md)
- [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)
+- [Walkthroughs using Word](../vsto/walkthroughs-using-word.md)
+- [Office UI customization](../vsto/office-ui-customization.md)
+- [Automate Word by using extended objects](../vsto/automating-word-by-using-extended-objects.md)
+- [Bookmark control](../vsto/bookmark-control.md)
+- [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)

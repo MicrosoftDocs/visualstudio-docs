@@ -82,8 +82,7 @@ ms.workload:
 - [How to: Add Content controls to Word documents](../vsto/how-to-add-content-controls-to-word-documents.md)
 
 - [How to: Add Bookmark controls to Word documents](../vsto/how-to-add-bookmark-controls-to-word-documents.md)
-
-  For more information about host controls, see [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md).
+- [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md).
 
   When a document is saved and then closed, all dynamically created host controls are disconnected from their events and they lose their data binding functionality. You can add code to your solution to re-create the host controls when the document is reopened. For more information, see [Persist dynamic controls in Office documents](../vsto/persisting-dynamic-controls-in-office-documents.md).
 
@@ -133,12 +132,12 @@ ms.workload:
   [!code-csharp[Trin_VstcoreProgrammingControlsExcel#3](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/Sheet1.cs#3)]
 
 ## See also
- [Controls on Office documents](../vsto/controls-on-office-documents.md)
- [Persist dynamic controls in Office documents](../vsto/persisting-dynamic-controls-in-office-documents.md)
- [How to: Add ListObject controls to worksheets](../vsto/how-to-add-listobject-controls-to-worksheets.md)
- [How to: Add NamedRange controls to worksheets](../vsto/how-to-add-namedrange-controls-to-worksheets.md)
- [How to: Add Chart controls to worksheets](../vsto/how-to-add-chart-controls-to-worksheets.md)
- [How to: Add content controls to Word documents](../vsto/how-to-add-content-controls-to-word-documents.md)
- [How to: Add Bookmark controls to Word documents](../vsto/how-to-add-bookmark-controls-to-word-documents.md)
- [Windows Forms controls on Office documents overview](../vsto/windows-forms-controls-on-office-documents-overview.md)
- [How to: Add Windows Forms controls to Office documents](../vsto/how-to-add-windows-forms-controls-to-office-documents.md)
+- [Controls on Office documents](../vsto/controls-on-office-documents.md)
+- [Persist dynamic controls in Office documents](../vsto/persisting-dynamic-controls-in-office-documents.md)
+- [How to: Add ListObject controls to worksheets](../vsto/how-to-add-listobject-controls-to-worksheets.md)
+- [How to: Add NamedRange controls to worksheets](../vsto/how-to-add-namedrange-controls-to-worksheets.md)
+- [How to: Add Chart controls to worksheets](../vsto/how-to-add-chart-controls-to-worksheets.md)
+- [How to: Add content controls to Word documents](../vsto/how-to-add-content-controls-to-word-documents.md)
+- [How to: Add Bookmark controls to Word documents](../vsto/how-to-add-bookmark-controls-to-word-documents.md)
+- [Windows Forms controls on Office documents overview](../vsto/windows-forms-controls-on-office-documents-overview.md)
+- [How to: Add Windows Forms controls to Office documents](../vsto/how-to-add-windows-forms-controls-to-office-documents.md)

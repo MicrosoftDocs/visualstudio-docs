@@ -56,8 +56,8 @@ ms.workload:
      [!code-csharp[Trin_VstcoreWordAutomation#4](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs#4)]
 
 ## See also
- [How to: Programmatically open existing documents](../vsto/how-to-programmatically-open-existing-documents.md)
- [How to: Programmatically save documents](../vsto/how-to-programmatically-save-documents.md)
- [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)
- [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)
- [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)
+- [How to: Programmatically open existing documents](../vsto/how-to-programmatically-open-existing-documents.md)
+- [How to: Programmatically save documents](../vsto/how-to-programmatically-save-documents.md)
+- [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)
+- [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)
+- [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)

@@ -22,6 +22,6 @@ ms.workload:
  [!code-csharp[Trin_OL_SearchFolder#1](../vsto/codesnippet/CSharp/Trin_OL_SearchFolder/thisaddin.cs#1)]
 
 ## See also
- [Work with folders](../vsto/working-with-folders.md)
- [Outlook object model overview](../vsto/outlook-object-model-overview.md)
- [How to: Programmatically retrieve a folder by name](../vsto/how-to-programmatically-retrieve-a-folder-by-name.md)
+- [Work with folders](../vsto/working-with-folders.md)
+- [Outlook object model overview](../vsto/outlook-object-model-overview.md)
+- [How to: Programmatically retrieve a folder by name](../vsto/how-to-programmatically-retrieve-a-folder-by-name.md)

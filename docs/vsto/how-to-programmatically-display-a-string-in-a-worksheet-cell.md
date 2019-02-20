@@ -40,8 +40,8 @@ ms.workload:
      [!code-vb[Trin_VstcoreExcelAutomation#69](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#69)]
 
 ## See also
- [Walkthrough: Collect data using a Windows form](../vsto/walkthrough-collecting-data-using-a-windows-form.md)
- [Troubleshoot Office solutions](../vsto/troubleshooting-office-solutions.md)
- [NamedRange control](../vsto/namedrange-control.md)
- [Global access to objects in Office projects](../vsto/global-access-to-objects-in-office-projects.md)
- [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)
+- [Walkthrough: Collect data using a Windows form](../vsto/walkthrough-collecting-data-using-a-windows-form.md)
+- [Troubleshoot Office solutions](../vsto/troubleshooting-office-solutions.md)
+- [NamedRange control](../vsto/namedrange-control.md)
+- [Global access to objects in Office projects](../vsto/global-access-to-objects-in-office-projects.md)
+- [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)

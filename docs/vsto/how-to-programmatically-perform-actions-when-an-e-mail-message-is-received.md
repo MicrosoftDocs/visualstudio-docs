@@ -26,6 +26,6 @@ ms.workload:
  [!code-csharp[Trin_Outlook_RL_PerformActions#1](../vsto/codesnippet/CSharp/Trin_Outlook_RL_PerformActions/thisaddin.cs#1)]
 
 ## See also
- [How to: Create event handlers in Office projects](../vsto/how-to-create-event-handlers-in-office-projects.md)
- [Work with mail items](../vsto/working-with-mail-items.md)
- [Get started programming VSTO Add-ins](../vsto/getting-started-programming-vsto-add-ins.md)
+- [How to: Create event handlers in Office projects](../vsto/how-to-create-event-handlers-in-office-projects.md)
+- [Work with mail items](../vsto/working-with-mail-items.md)
+- [Get started programming VSTO Add-ins](../vsto/getting-started-programming-vsto-add-ins.md)

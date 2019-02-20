@@ -45,9 +45,9 @@ ms.workload:
      The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] includes language packs. If your installation of Windows is set to a language other than English, you can display runtime messages in the same language that you use for Windows. Similarly, if end users install the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] and then run your solutions on installations of Windows that are set to a language other than English, runtime messages will appear in the same language as Windows. In some cases, you might need additional language packs. For example, you might need additional language packs if your copy of Windows uses more than one language setting, or you switch to another language after you've already installed the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)]. You can find language packs at [Microsoft Visual Studio 2010 Tools for the Microsoft Office system (version 4.0 runtime) language pack](http://go.microsoft.com/fwlink/?LinkId=140386).
 
 ## See also
- [Get started &#40;Office development in Visual Studio&#41;](../vsto/getting-started-office-development-in-visual-studio.md)
- [Configure a computer to develop Office solutions](../vsto/configuring-a-computer-to-develop-office-solutions.md)
- [How to: Configure a computer to develop Office solutions](../vsto/how-to-configure-a-computer-to-develop-office-solutions.md)
- [How to: Install Office primary interop assemblies](../vsto/how-to-install-office-primary-interop-assemblies.md)
- [Manage documents on a server by using the ServerDocument class](../vsto/managing-documents-on-a-server-by-using-the-serverdocument-class.md)
- [Deploy an Office solution](../vsto/deploying-an-office-solution.md)
+- [Get started &#40;Office development in Visual Studio&#41;](../vsto/getting-started-office-development-in-visual-studio.md)
+- [Configure a computer to develop Office solutions](../vsto/configuring-a-computer-to-develop-office-solutions.md)
+- [How to: Configure a computer to develop Office solutions](../vsto/how-to-configure-a-computer-to-develop-office-solutions.md)
+- [How to: Install Office primary interop assemblies](../vsto/how-to-install-office-primary-interop-assemblies.md)
+- [Manage documents on a server by using the ServerDocument class](../vsto/managing-documents-on-a-server-by-using-the-serverdocument-class.md)
+- [Deploy an Office solution](../vsto/deploying-an-office-solution.md)

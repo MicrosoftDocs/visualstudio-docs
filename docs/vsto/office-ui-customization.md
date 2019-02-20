@@ -90,12 +90,12 @@ ms.workload:
  A shortcut menu appears when you right-click in a document or an application window. You can set a shortcut menu to appear after an event takes place, such as when a user right-clicks a document, workbook, or host control. You can add a number of different menu commands or controls to a shortcut menu. Create shortcut menus by using XML. If you add a **Ribbon (XML)** item to your Office project, you can add XML to the Ribbon XML file to create shortcut menus. For more information about using XML to create shortcut menus, see [How to: Add commands to shortcut menus](../vsto/how-to-add-commands-to-shortcut-menus.md).
 
 ## See also
- [Ribbon overview](../vsto/ribbon-overview.md)
- [Windows forms controls on Office documents overview](../vsto/windows-forms-controls-on-office-documents-overview.md)
- [Actions pane overview](../vsto/actions-pane-overview.md)
- [Create Outlook form regions](../vsto/creating-outlook-form-regions.md)
- [Custom task panes](../vsto/custom-task-panes.md)
- [Use WPF controls in Office solutions](../vsto/using-wpf-controls-in-office-solutions.md)
- [How to: Show the Developer tab on the Ribbon](../vsto/how-to-show-the-developer-tab-on-the-ribbon.md)
- [How to: Show Add-in user interface errors](../vsto/how-to-show-add-in-user-interface-errors.md)
- [Walkthrough: Collect data using a Windows form](../vsto/walkthrough-collecting-data-using-a-windows-form.md)
+- [Ribbon overview](../vsto/ribbon-overview.md)
+- [Windows forms controls on Office documents overview](../vsto/windows-forms-controls-on-office-documents-overview.md)
+- [Actions pane overview](../vsto/actions-pane-overview.md)
+- [Create Outlook form regions](../vsto/creating-outlook-form-regions.md)
+- [Custom task panes](../vsto/custom-task-panes.md)
+- [Use WPF controls in Office solutions](../vsto/using-wpf-controls-in-office-solutions.md)
+- [How to: Show the Developer tab on the Ribbon](../vsto/how-to-show-the-developer-tab-on-the-ribbon.md)
+- [How to: Show Add-in user interface errors](../vsto/how-to-show-add-in-user-interface-errors.md)
+- [Walkthrough: Collect data using a Windows form](../vsto/walkthrough-collecting-data-using-a-windows-form.md)

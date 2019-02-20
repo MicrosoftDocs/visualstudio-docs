@@ -98,9 +98,9 @@ ms.workload:
 >  Visual Studio does not verify that the message class names that you provide are correct or valid.
 
 ## See also
- [Access a form region at runtime](../vsto/accessing-a-form-region-at-run-time.md)
- [Create Outlook form regions](../vsto/creating-outlook-form-regions.md)
- [Walkthrough: Design an Outlook form region](../vsto/walkthrough-designing-an-outlook-form-region.md)
- [Guidelines to create Outlook form regions](../vsto/guidelines-for-creating-outlook-form-regions.md)
- [Form name and message class overview](/office/vba/outlook/Concepts/Forms/form-name-and-message-class-overview)
- [How Outlook forms and items work together](/office/vba/outlook/Concepts/Forms/how-outlook-forms-and-items-work-together)
+- [Access a form region at runtime](../vsto/accessing-a-form-region-at-run-time.md)
+- [Create Outlook form regions](../vsto/creating-outlook-form-regions.md)
+- [Walkthrough: Design an Outlook form region](../vsto/walkthrough-designing-an-outlook-form-region.md)
+- [Guidelines to create Outlook form regions](../vsto/guidelines-for-creating-outlook-form-regions.md)
+- [Form name and message class overview](/office/vba/outlook/Concepts/Forms/form-name-and-message-class-overview)
+- [How Outlook forms and items work together](/office/vba/outlook/Concepts/Forms/how-outlook-forms-and-items-work-together)

@@ -37,6 +37,6 @@ ms.workload:
  The temporary certificates that are automatically generated at build time are not secured by passwords. The certificates contain the developer's login name and other personal information. If you deploy customizations that are signed by temporary certificates, others might be able to access this information.
 
 ## See also
- [Secure Office solutions](../vsto/securing-office-solutions.md)
- [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)
- [Build Office solutions](../vsto/building-office-solutions.md)
+- [Secure Office solutions](../vsto/securing-office-solutions.md)
+- [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)
+- [Build Office solutions](../vsto/building-office-solutions.md)

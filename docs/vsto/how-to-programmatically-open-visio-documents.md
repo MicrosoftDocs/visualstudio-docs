@@ -43,9 +43,9 @@ ms.workload:
 -   A Visio document named `myDrawing.vsd` must be located in a directory named `Test` in the *My Documents* folder (for Windows XP and earlier) or the *Documents* folder (for Windows Vista).
 
 ## See also
- [Visio solutions](../vsto/visio-solutions.md)
- [Visio object model overview](../vsto/visio-object-model-overview.md)
- [How to: Programmatically create new Visio documents](../vsto/how-to-programmatically-create-new-visio-documents.md)
- [How to: Programmatically close Visio documents](../vsto/how-to-programmatically-close-visio-documents.md)
- [How to: Programmatically save Visio documents](../vsto/how-to-programmatically-save-visio-documents.md)
- [How to: Programmatically print Visio documents](../vsto/how-to-programmatically-print-visio-documents.md)
+- [Visio solutions](../vsto/visio-solutions.md)
+- [Visio object model overview](../vsto/visio-object-model-overview.md)
+- [How to: Programmatically create new Visio documents](../vsto/how-to-programmatically-create-new-visio-documents.md)
+- [How to: Programmatically close Visio documents](../vsto/how-to-programmatically-close-visio-documents.md)
+- [How to: Programmatically save Visio documents](../vsto/how-to-programmatically-save-visio-documents.md)
+- [How to: Programmatically print Visio documents](../vsto/how-to-programmatically-print-visio-documents.md)

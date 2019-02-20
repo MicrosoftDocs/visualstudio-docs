@@ -45,6 +45,6 @@ ms.workload:
      Visual Studio automatically completes the line of code, creates the event handler, and moves the insertion point to the newly created event handler.
 
 ## See also
- [Write code in Office solutions](../vsto/writing-code-in-office-solutions.md)
- [Walkthrough: Program against events of a NamedRange control](../vsto/walkthrough-programming-against-events-of-a-namedrange-control.md)
- [Build Office solutions](../vsto/building-office-solutions.md)
+- [Write code in Office solutions](../vsto/writing-code-in-office-solutions.md)
+- [Walkthrough: Program against events of a NamedRange control](../vsto/walkthrough-programming-against-events-of-a-namedrange-control.md)
+- [Build Office solutions](../vsto/building-office-solutions.md)

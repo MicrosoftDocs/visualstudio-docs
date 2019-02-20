@@ -151,10 +151,10 @@ ms.workload:
 -   Deploying the project. For more information, see [Deploy an Office solution](../vsto/deploying-an-office-solution.md).
 
 ## See also
- [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)
- [Automate Excel by using extended objects](../vsto/automating-excel-by-using-extended-objects.md)
- [NamedRange control](../vsto/namedrange-control.md)
- [How to: Resize NamedRange controls](../vsto/how-to-resize-namedrange-controls.md)
- [How to: Add NamedRange controls to worksheets](../vsto/how-to-add-namedrange-controls-to-worksheets.md)
- [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)
- [How to: Create event handlers in Office projects](../vsto/how-to-create-event-handlers-in-office-projects.md)
+- [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)
+- [Automate Excel by using extended objects](../vsto/automating-excel-by-using-extended-objects.md)
+- [NamedRange control](../vsto/namedrange-control.md)
+- [How to: Resize NamedRange controls](../vsto/how-to-resize-namedrange-controls.md)
+- [How to: Add NamedRange controls to worksheets](../vsto/how-to-add-namedrange-controls-to-worksheets.md)
+- [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)
+- [How to: Create event handlers in Office projects](../vsto/how-to-create-event-handlers-in-office-projects.md)

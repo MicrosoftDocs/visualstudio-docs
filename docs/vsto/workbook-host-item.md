@@ -49,9 +49,9 @@ ms.workload:
  In VSTO Add-in projects, you can generate a <xref:Microsoft.Office.Tools.Excel.Workbook> host item at runtime for any workbook that is open in Excel. To generate a <xref:Microsoft.Office.Tools.Excel.Workbook> host item, use the `GetVstoObject` method. For more information, see [Extend Word documents and Excel workbooks in VSTO Add-ins at runtime](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md).
 
 ## See also
- [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md)
- [Extend Word documents and Excel workbooks in VSTO Add-ins at runtime](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md)
- [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)
- [Worksheet host item](../vsto/worksheet-host-item.md)
- [Automate Excel by using extended objects](../vsto/automating-excel-by-using-extended-objects.md)
- [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)
+- [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md)
+- [Extend Word documents and Excel workbooks in VSTO Add-ins at runtime](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md)
+- [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)
+- [Worksheet host item](../vsto/worksheet-host-item.md)
+- [Automate Excel by using extended objects](../vsto/automating-excel-by-using-extended-objects.md)
+- [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)

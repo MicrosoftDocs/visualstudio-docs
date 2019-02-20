@@ -110,10 +110,10 @@ ms.workload:
  If you need to repair the runtime, open **Programs and Features** or **Add or Remove Programs** in the Control Panel, select **Microsoft Visual Studio 2010 Tools for Office Runtime** in the list of programs, and then click **Uninstall**. The setup program that runs enables you to repair the runtime. If you click **Change**, you are not given an option for repairing the runtime.
 
 ## See also
- [Visual Studio Tools for Office runtime installation scenarios](../vsto/visual-studio-tools-for-office-runtime-installation-scenarios.md)
- [Assemblies in the Visual Studio Tools for Office runtime](../vsto/assemblies-in-the-visual-studio-tools-for-office-runtime.md)
- [Architecture of Office solutions in Visual Studio](../vsto/architecture-of-office-solutions-in-visual-studio.md)
- [Architecture of document-level customizations](../vsto/architecture-of-document-level-customizations.md)
- [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md)
- [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md)
- [Upgrade and migrate Office solutions](../vsto/upgrading-and-migrating-office-solutions.md)
+- [Visual Studio Tools for Office runtime installation scenarios](../vsto/visual-studio-tools-for-office-runtime-installation-scenarios.md)
+- [Assemblies in the Visual Studio Tools for Office runtime](../vsto/assemblies-in-the-visual-studio-tools-for-office-runtime.md)
+- [Architecture of Office solutions in Visual Studio](../vsto/architecture-of-office-solutions-in-visual-studio.md)
+- [Architecture of document-level customizations](../vsto/architecture-of-document-level-customizations.md)
+- [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md)
+- [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md)
+- [Upgrade and migrate Office solutions](../vsto/upgrading-and-migrating-office-solutions.md)

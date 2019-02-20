@@ -26,7 +26,7 @@ ms.workload:
  [!code-vb[Trin_Outlook_RL_AttachFiles#1](../vsto/codesnippet/VisualBasic/Trin_Outlook_RL_AttachFiles/thisaddin.vb#1)]
 
 ## See also
- [Work with mail items](../vsto/working-with-mail-items.md)
- [How to: Programmatically send email](../vsto/how-to-programmatically-send-e-mail-programmatically.md)
- [How to: Programmatically save attachments from Outlook email items](../vsto/how-to-programmatically-save-attachments-from-outlook-e-mail-items.md)
- [How to: Programmatically create an email item](../vsto/how-to-programmatically-create-an-e-mail-item.md)
+- [Work with mail items](../vsto/working-with-mail-items.md)
+- [How to: Programmatically send email](../vsto/how-to-programmatically-send-e-mail-programmatically.md)
+- [How to: Programmatically save attachments from Outlook email items](../vsto/how-to-programmatically-save-attachments-from-outlook-e-mail-items.md)
+- [How to: Programmatically create an email item](../vsto/how-to-programmatically-create-an-e-mail-item.md)

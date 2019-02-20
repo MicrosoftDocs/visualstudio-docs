@@ -34,6 +34,6 @@ ms.workload:
      [!code-vb[Trin_VstcoreExcelAutomationAddIn#21](../vsto/codesnippet/VisualBasic/trin_vstcoreexcelautomationaddin/ThisAddIn.vb#21)]
 
 ## See also
- [Work with worksheets](../vsto/working-with-worksheets.md)
- [How to: Programmatically add and delete worksheet comments](../vsto/how-to-programmatically-add-and-delete-worksheet-comments.md)
- [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)
+- [Work with worksheets](../vsto/working-with-worksheets.md)
+- [How to: Programmatically add and delete worksheet comments](../vsto/how-to-programmatically-add-and-delete-worksheet-comments.md)
+- [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)

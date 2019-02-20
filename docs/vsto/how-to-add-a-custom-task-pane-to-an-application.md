@@ -52,6 +52,6 @@ ms.workload:
     >  This code associates your custom task pane with the active window in the application. For some applications, you might want to modify this code to ensure that the task pane appears with other documents or items in the application. For more information, see [Custom task panes](../vsto/custom-task-panes.md).
 
 ## See also
- [Office UI customization](../vsto/office-ui-customization.md)
- [Custom task panes](../vsto/custom-task-panes.md)
- [Walkthrough: Automate an application from a custom task pane](../vsto/walkthrough-automating-an-application-from-a-custom-task-pane.md)
+- [Office UI customization](../vsto/office-ui-customization.md)
+- [Custom task panes](../vsto/custom-task-panes.md)
+- [Walkthrough: Automate an application from a custom task pane](../vsto/walkthrough-automating-an-application-from-a-custom-task-pane.md)

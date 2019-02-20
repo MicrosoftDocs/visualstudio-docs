@@ -46,7 +46,7 @@ ms.workload:
      The assembly name appears in the **References** folder of **Solution Explorer**.
 
 ## See also
- [Office primary interop assemblies](../vsto/office-primary-interop-assemblies.md)
- [Write code in Office solutions](../vsto/writing-code-in-office-solutions.md)
- [Develop Office solutions](../vsto/developing-office-solutions.md)
- [How to: Install Office primary interop assemblies](../vsto/how-to-install-office-primary-interop-assemblies.md)
+- [Office primary interop assemblies](../vsto/office-primary-interop-assemblies.md)
+- [Write code in Office solutions](../vsto/writing-code-in-office-solutions.md)
+- [Develop Office solutions](../vsto/developing-office-solutions.md)
+- [How to: Install Office primary interop assemblies](../vsto/how-to-install-office-primary-interop-assemblies.md)

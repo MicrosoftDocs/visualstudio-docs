@@ -26,4 +26,4 @@ ms.workload:
 |Full text search|You can use full text search using words from the first sentence in the error message text. On the **Help** menu, click **Search**.|
 
 ## See also
- [Office and SharePoint development in Visual Studio](../vsto/office-and-sharepoint-development-in-visual-studio.md)
+- [Office and SharePoint development in Visual Studio](../vsto/office-and-sharepoint-development-in-visual-studio.md)

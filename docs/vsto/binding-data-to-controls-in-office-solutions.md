@@ -94,11 +94,10 @@ ms.workload:
  For more information, see [How to: Update a data source with data from a host control](../vsto/how-to-update-a-data-source-with-data-from-a-host-control.md).
 
 ## See also
- [How do I: Consume database data in Excel?](http://go.microsoft.com/fwlink/?LinkID=130287)
- [Data binding and Windows Forms](/dotnet/framework/winforms/data-binding-and-windows-forms)
- [How to: Create a simple-bound control on a Windows Form](/dotnet/framework/winforms/how-to-create-a-simple-bound-control-on-a-windows-form)
- [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)
- [Save data back to the database](../data-tools/save-data-back-to-the-database.md)
- [Update data by using a TableAdapter](../data-tools/update-data-by-using-a-tableadapter.md)
- [Cache data](../vsto/caching-data.md)
- [Data in Office solutions](../vsto/data-in-office-solutions.md)
+- [Data binding and Windows Forms](/dotnet/framework/winforms/data-binding-and-windows-forms)
+- [How to: Create a simple-bound control on a Windows Form](/dotnet/framework/winforms/how-to-create-a-simple-bound-control-on-a-windows-form)
+- [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)
+- [Save data back to the database](../data-tools/save-data-back-to-the-database.md)
+- [Update data by using a TableAdapter](../data-tools/update-data-by-using-a-tableadapter.md)
+- [Cache data](../vsto/caching-data.md)
+- [Data in Office solutions](../vsto/data-in-office-solutions.md)

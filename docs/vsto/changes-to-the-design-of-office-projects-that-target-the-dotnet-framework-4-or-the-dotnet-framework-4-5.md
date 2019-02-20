@@ -51,6 +51,6 @@ ms.workload:
 |Host item classes, such as `ThisWorkbook`, `Sheet`*n*, `ThisDocument`, and `ThisAddIn`, no longer provide a `Dispose` method that you can override.|You must move any code in the `Dispose` method override to the `Shutdown` event handler in the host item class, for example, `ThisAddIn_Shutdown`, and remove the `Dispose` method override from your host item class.|
 
 ## See also
- [Migrate Office solutions to the .NET Framework 4 or later](../vsto/migrating-office-solutions-to-the-dotnet-framework-4-or-later.md)
- [What's new in Office development](https://msdn.microsoft.com/library/bf054af2-c896-4723-aa15-6381145b14bb)
- [Visual Studio Tools for Office runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md)
+- [Migrate Office solutions to the .NET Framework 4 or later](../vsto/migrating-office-solutions-to-the-dotnet-framework-4-or-later.md)
+- [What's new in Office development](https://msdn.microsoft.com/library/bf054af2-c896-4723-aa15-6381145b14bb)
+- [Visual Studio Tools for Office runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md)

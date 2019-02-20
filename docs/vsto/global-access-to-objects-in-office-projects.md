@@ -71,10 +71,10 @@ ms.workload:
 >  The `Globals` class is never initialized at design time, but control instances are created by the designer. This means that if you create a user control that uses a property of the `Globals` class from inside a user control class, you must whether the property returns **null** before you try to use the returned object.
 
 ## See also
- [Access the Ribbon at runtime](../vsto/accessing-the-ribbon-at-run-time.md)
- [Access a form region at runtime](../vsto/accessing-a-form-region-at-run-time.md)
- [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)
- [Document host item](../vsto/document-host-item.md)
- [Workbook host item](../vsto/workbook-host-item.md)
- [Worksheet host item](../vsto/worksheet-host-item.md)
- [Write code in Office solutions](../vsto/writing-code-in-office-solutions.md)
+- [Access the Ribbon at runtime](../vsto/accessing-the-ribbon-at-run-time.md)
+- [Access a form region at runtime](../vsto/accessing-a-form-region-at-run-time.md)
+- [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)
+- [Document host item](../vsto/document-host-item.md)
+- [Workbook host item](../vsto/workbook-host-item.md)
+- [Worksheet host item](../vsto/worksheet-host-item.md)
+- [Write code in Office solutions](../vsto/writing-code-in-office-solutions.md)

@@ -25,5 +25,5 @@ ms.workload:
  [!code-vb[Trin_Outlook_RL_MeetingRequest#1](../vsto/codesnippet/VisualBasic/Trin_Outlook_RL_MeetingRequest/thisaddin.vb#1)]
 
 ## See also
- [Work with calendar items](../vsto/working-with-calendar-items.md)
- [Get started programming VSTO Add-ins](../vsto/getting-started-programming-vsto-add-ins.md)
+- [Work with calendar items](../vsto/working-with-calendar-items.md)
+- [Get started programming VSTO Add-ins](../vsto/getting-started-programming-vsto-add-ins.md)

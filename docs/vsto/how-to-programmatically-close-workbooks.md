@@ -47,9 +47,9 @@ ms.workload:
      [!code-vb[Trin_VstcoreExcelAutomationAddIn#2](../vsto/codesnippet/VisualBasic/trin_vstcoreexcelautomationaddin/ThisAddIn.vb#2)]
 
 ## See also
- [Work with workbooks](../vsto/working-with-workbooks.md)
- [How to: Programmatically save workbooks](../vsto/how-to-programmatically-save-workbooks.md)
- [How to: Programmatically open workbooks](../vsto/how-to-programmatically-open-workbooks.md)
- [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)
- [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)
- [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)
+- [Work with workbooks](../vsto/working-with-workbooks.md)
+- [How to: Programmatically save workbooks](../vsto/how-to-programmatically-save-workbooks.md)
+- [How to: Programmatically open workbooks](../vsto/how-to-programmatically-open-workbooks.md)
+- [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)
+- [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)
+- [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)

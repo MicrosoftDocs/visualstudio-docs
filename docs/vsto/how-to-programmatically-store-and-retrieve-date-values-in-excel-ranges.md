@@ -75,9 +75,9 @@ ms.workload:
      [!code-vb[Trin_VstcoreExcelAutomationAddIn#27](../vsto/codesnippet/VisualBasic/trin_vstcoreexcelautomationaddin/ThisAddIn.vb#27)]
 
 ## See also
- [Work with ranges](../vsto/working-with-ranges.md)
- [Excel object model overview](../vsto/excel-object-model-overview.md)
- [NamedRange control](../vsto/namedrange-control.md)
- [How to: Programmatically refer to worksheet ranges in code](../vsto/how-to-programmatically-refer-to-worksheet-ranges-in-code.md)
- [How to: Add NamedRange controls to worksheets](../vsto/how-to-add-namedrange-controls-to-worksheets.md)
- [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)
+- [Work with ranges](../vsto/working-with-ranges.md)
+- [Excel object model overview](../vsto/excel-object-model-overview.md)
+- [NamedRange control](../vsto/namedrange-control.md)
+- [How to: Programmatically refer to worksheet ranges in code](../vsto/how-to-programmatically-refer-to-worksheet-ranges-in-code.md)
+- [How to: Add NamedRange controls to worksheets](../vsto/how-to-add-namedrange-controls-to-worksheets.md)
+- [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)

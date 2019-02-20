@@ -131,9 +131,9 @@ ms.workload:
 -   Modify the user interface of a Microsoft Office application from a document-level customization or a VSTO Add-in. For more information, see [Office UI customization](../vsto/office-ui-customization.md).
 
 ## See also
- [Develop Office solutions](../vsto/developing-office-solutions.md)
- [Write code in Office solutions](../vsto/writing-code-in-office-solutions.md)
- [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)
- [Program document-level customizations](../vsto/programming-document-level-customizations.md)
- [Walkthroughs using Word](../vsto/walkthroughs-using-word.md)
- [Walkthroughs using Excel](../vsto/walkthroughs-using-excel.md)
+- [Develop Office solutions](../vsto/developing-office-solutions.md)
+- [Write code in Office solutions](../vsto/writing-code-in-office-solutions.md)
+- [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)
+- [Program document-level customizations](../vsto/programming-document-level-customizations.md)
+- [Walkthroughs using Word](../vsto/walkthroughs-using-word.md)
+- [Walkthroughs using Excel](../vsto/walkthroughs-using-excel.md)

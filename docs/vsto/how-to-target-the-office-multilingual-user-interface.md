@@ -33,5 +33,5 @@ ms.workload:
      [!code-csharp[Trin_VstcoreCreatingExcel#10](../vsto/codesnippet/CSharp/Trin_VstcoreCreatingExcelCS/Sheet1.cs#10)]
 
 ## See also
- [How to: Target Office applications through primary interop assemblies](../vsto/how-to-target-office-applications-through-primary-interop-assemblies.md)
- [Late binding in Office solutions](../vsto/late-binding-in-office-solutions.md)
+- [How to: Target Office applications through primary interop assemblies](../vsto/how-to-target-office-applications-through-primary-interop-assemblies.md)
+- [Late binding in Office solutions](../vsto/late-binding-in-office-solutions.md)

@@ -63,8 +63,8 @@ ms.workload:
      [!code-csharp[Trin_VstcoreWordAutomationAddIn#111](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationAddIn/ThisAddIn.cs#111)]
 
 ## See also
- [Document protection in document-level solutions](../vsto/document-protection-in-document-level-solutions.md)
- [Password protection on Office documents](../vsto/password-protection-on-office-documents.md)
- [How to: Permit code to run behind documents with restricted permissions](../vsto/how-to-permit-code-to-run-behind-documents-with-restricted-permissions.md)
- [How to: Add Bookmark controls to Word documents](../vsto/how-to-add-bookmark-controls-to-word-documents.md)
- [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)
+- [Document protection in document-level solutions](../vsto/document-protection-in-document-level-solutions.md)
+- [Password protection on Office documents](../vsto/password-protection-on-office-documents.md)
+- [How to: Permit code to run behind documents with restricted permissions](../vsto/how-to-permit-code-to-run-behind-documents-with-restricted-permissions.md)
+- [How to: Add Bookmark controls to Word documents](../vsto/how-to-add-bookmark-controls-to-word-documents.md)
+- [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)

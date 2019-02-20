@@ -58,13 +58,13 @@ ms.workload:
  For more information about customizing the UI of Project and other Microsoft Office applications, see [Office UI customization](../vsto/office-ui-customization.md).
 
 ## See also
- [Walkthrough: Create your first VSTO Add-in for project](../vsto/walkthrough-creating-your-first-vsto-add-in-for-project.md)
- [Get started programming VSTO Add-ins](../vsto/getting-started-programming-vsto-add-ins.md)
- [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)
- [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md)
- [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md)
- [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)
- [Write code in Office solutions](../vsto/writing-code-in-office-solutions.md)
- [Office primary interop assemblies](../vsto/office-primary-interop-assemblies.md)
- [Office UI customization](../vsto/office-ui-customization.md)
- [Project 2010 and Project Server 2010 in Office development](http://go.microsoft.com/fwlink/?LinkId=199016)
+- [Walkthrough: Create your first VSTO Add-in for project](../vsto/walkthrough-creating-your-first-vsto-add-in-for-project.md)
+- [Get started programming VSTO Add-ins](../vsto/getting-started-programming-vsto-add-ins.md)
+- [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)
+- [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md)
+- [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md)
+- [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)
+- [Write code in Office solutions](../vsto/writing-code-in-office-solutions.md)
+- [Office primary interop assemblies](../vsto/office-primary-interop-assemblies.md)
+- [Office UI customization](../vsto/office-ui-customization.md)
+- [Project 2010 and Project Server 2010 in Office development](http://go.microsoft.com/fwlink/?LinkId=199016)

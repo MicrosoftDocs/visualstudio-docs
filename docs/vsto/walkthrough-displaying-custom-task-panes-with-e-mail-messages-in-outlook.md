@@ -263,10 +263,10 @@ ms.workload:
 -   Create a Ribbon button in Excel that can be used to hide or display a custom task pane. For more information, see [Walkthrough: Synchronize a custom task pane with a Ribbon button](../vsto/walkthrough-synchronizing-a-custom-task-pane-with-a-ribbon-button.md).
 
 ## See also
- [Custom task panes](../vsto/custom-task-panes.md)
- [How to: Add a custom task pane to an application](../vsto/how-to-add-a-custom-task-pane-to-an-application.md)
- [Walkthrough: Automate an application from a custom task pane](../vsto/walkthrough-automating-an-application-from-a-custom-task-pane.md)
- [Walkthrough: Synchronize a custom task pane with a Ribbon button](../vsto/walkthrough-synchronizing-a-custom-task-pane-with-a-ribbon-button.md)
- [Ribbon overview](../vsto/ribbon-overview.md)
- [Outlook object model overview](../vsto/outlook-object-model-overview.md)
- [Access the ribbon at runtime](../vsto/accessing-the-ribbon-at-run-time.md)
+- [Custom task panes](../vsto/custom-task-panes.md)
+- [How to: Add a custom task pane to an application](../vsto/how-to-add-a-custom-task-pane-to-an-application.md)
+- [Walkthrough: Automate an application from a custom task pane](../vsto/walkthrough-automating-an-application-from-a-custom-task-pane.md)
+- [Walkthrough: Synchronize a custom task pane with a Ribbon button](../vsto/walkthrough-synchronizing-a-custom-task-pane-with-a-ribbon-button.md)
+- [Ribbon overview](../vsto/ribbon-overview.md)
+- [Outlook object model overview](../vsto/outlook-object-model-overview.md)
+- [Access the ribbon at runtime](../vsto/accessing-the-ribbon-at-run-time.md)

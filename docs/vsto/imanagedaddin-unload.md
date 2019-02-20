@@ -29,5 +29,5 @@ HRESULT Unload();
  This method is not called by current versions of Microsoft Office. This method is reserved for future use.
 
 ## See also
- [IManagedAddin interface](../vsto/imanagedaddin-interface.md)
- [IManagedAddin::Load](../vsto/imanagedaddin-load.md)
+- [IManagedAddin interface](../vsto/imanagedaddin-interface.md)
+- [IManagedAddin::Load](../vsto/imanagedaddin-load.md)

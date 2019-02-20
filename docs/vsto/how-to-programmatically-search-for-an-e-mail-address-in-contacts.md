@@ -29,7 +29,7 @@ ms.workload:
 -   Contacts that have the domain name **example.com** in their e-mail addresses (for example, `somebody@example.com`), and that have first names and last names.
 
 ## See also
- [Work with contact items](../vsto/working-with-contact-items.md)
- [How to: Programmatically send email](../vsto/how-to-programmatically-send-e-mail-programmatically.md)
- [How to: Programmatically access Outlook contacts](../vsto/how-to-programmatically-access-outlook-contacts.md)
- [How to: Programmatically add an entry to Outlook contacts](../vsto/how-to-programmatically-add-an-entry-to-outlook-contacts.md)
+- [Work with contact items](../vsto/working-with-contact-items.md)
+- [How to: Programmatically send email](../vsto/how-to-programmatically-send-e-mail-programmatically.md)
+- [How to: Programmatically access Outlook contacts](../vsto/how-to-programmatically-access-outlook-contacts.md)
+- [How to: Programmatically add an entry to Outlook contacts](../vsto/how-to-programmatically-add-an-entry-to-outlook-contacts.md)
