@@ -20,15 +20,15 @@ Gets the properties that describe this thread.
 
 ```cpp
 HRESULT GetThreadProperties (
-   THREADPROPERTY_FIELDS dwFields,
-   THREADPROPERTIES*     ptp
+    THREADPROPERTY_FIELDS dwFields,
+    THREADPROPERTIES*     ptp
 );
 ```
 
 ```csharp
 int GetThreadProperties (
-   enum_THREADPROPERTY_FIELDS dwFields,
-   THREADPROPERTIES[]         ptp
+    enum_THREADPROPERTY_FIELDS dwFields,
+    THREADPROPERTIES[]         ptp
 );
 ```
 
@@ -55,27 +55,27 @@ HRESULT CProgram::GetThreadProperties(THREADPROPERTY_FIELDS dwFields,
     HRESULT hr = E_FAIL;
 
     // Check for valid argument.
-   if (ptp)
+    if (ptp)
     {
-      // Create an array of buffers at ptp the size of the
-      // THREADPROPERTIES structure and set all of the
-      // buffers at ptp to 0.
-      memset(ptp, 0, sizeof (THREADPROPERTIES));
+        // Create an array of buffers at ptp the size of the
+        // THREADPROPERTIES structure and set all of the
+        // buffers at ptp to 0.
+        memset(ptp, 0, sizeof (THREADPROPERTIES));
 
-      // Check if there is a valid THREADPROPERTY_FIELDS and the TPF_ID flag is set.
-      if (dwFields & TPF_ID)
-      {
-         // Check for successful assignment of the current thread ID to
-         // the dwThreadId of the passed THREADPROPERTIES.
-         if (GetThreadId(&(ptp->dwThreadId)) == S_OK)
-         {
-            // Set the TPF_ID flag in the THREADPROPERTY_FIELDS enumerator
-            // of the passed THREADPROPERTIES.
-            ptp->dwFields |= TPF_ID;
-         }
-      }
+        // Check if there is a valid THREADPROPERTY_FIELDS and the TPF_ID flag is set.
+        if (dwFields & TPF_ID)
+        {
+            // Check for successful assignment of the current thread ID to
+            // the dwThreadId of the passed THREADPROPERTIES.
+            if (GetThreadId(&(ptp->dwThreadId)) == S_OK)
+            {
+                // Set the TPF_ID flag in the THREADPROPERTY_FIELDS enumerator
+                // of the passed THREADPROPERTIES.
+                ptp->dwFields |= TPF_ID;
+            }
+        }
 
-      hr = S_OK;
+        hr = S_OK;
     }
     else
         hr = E_INVALIDARG;
