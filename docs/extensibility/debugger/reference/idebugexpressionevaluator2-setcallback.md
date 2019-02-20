@@ -19,13 +19,13 @@ Enables the expression evaluator (EE) to specify the callback interface that the
 
 ```cpp
 HRESULT SetCallback (
-   IDebugSettingsCallback2* pCallback
+    IDebugSettingsCallback2* pCallback
 );
 ```
 
 ```csharp
 int SetCallback (
-   IDebugSettingsCallback2 pCallback
+    IDebugSettingsCallback2 pCallback
 );
 ```
 
