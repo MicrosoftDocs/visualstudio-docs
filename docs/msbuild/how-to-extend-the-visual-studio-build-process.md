@@ -29,8 +29,8 @@ The *Microsoft.Common.targets* file contains a set of predefined empty targets t
 
 1. Identify a predefined target in *Microsoft.Common.targets* that you want to override. See the table below for the complete list of targets that you can safely override.
 
-2. Define the target or targets at the end of your project file, immediately before the `</Project>` tag. For example:  
-  
+2. Define the target or targets at the end of your project file, immediately before the `</Project>` tag. For example:
+
     ```xml
     <Project>
         ...
@@ -42,7 +42,7 @@ The *Microsoft.Common.targets* file contains a set of predefined empty targets t
         </Target>
     </Project>
     ```
-  
+
 3. Build the project file.
 
 The following table shows all of the targets in *Microsoft.Common.targets* that you can safely override.
@@ -118,6 +118,6 @@ Projects that import your project files can override these properties without ov
 |`CompileDependsOn`|The property to override if you want to insert custom processes before or after the compilation step.|
 
 ## See also
-[Visual Studio integration](../msbuild/visual-studio-integration-msbuild.md)  
-[MSBuild concepts](../msbuild/msbuild-concepts.md)  
+[Visual Studio integration](../msbuild/visual-studio-integration-msbuild.md)
+[MSBuild concepts](../msbuild/msbuild-concepts.md)
 [.targets files](../msbuild/msbuild-dot-targets-files.md)

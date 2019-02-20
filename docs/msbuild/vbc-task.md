@@ -21,10 +21,10 @@ ms.workload:
 ---
 
 # Vbc task
-Wraps *vbc.exe*, which produces executables (*.exe*), dynamic-link libraries (*.dll*), or code modules (*.netmodule*). For more information on *vbc.exe*, see [Visual Basic command-line compiler](/dotnet/visual-basic/reference/command-line-compiler/index).  
+Wraps *vbc.exe*, which produces executables (*.exe*), dynamic-link libraries (*.dll*), or code modules (*.netmodule*). For more information on *vbc.exe*, see [Visual Basic command-line compiler](/dotnet/visual-basic/reference/command-line-compiler/index).
 
-## Parameters  
- The following table describes the parameters of the `Vbc` task.  
+## Parameters
+ The following table describes the parameters of the `Vbc` task.
 
 
 | Parameter | Description |
@@ -83,21 +83,21 @@ Wraps *vbc.exe*, which produces executables (*.exe*), dynamic-link libraries (*.
 | `Win32Icon` | Optional `String` parameter.<br /><br /> Inserts an *.ico* file in the assembly, which gives the output file the desired appearance in **File Explorer**. This parameter corresponds to the [-win32icon](/dotnet/visual-basic/reference/command-line-compiler/win32icon) switch of the *vbc.exe* compiler. |
 | `Win32Resources` | Optional `String` parameter.<br /><br /> Inserts a Win32 resource (*.res*) file in the output file. This parameter corresponds to the [-win32resource](/dotnet/visual-basic/reference/command-line-compiler/win32resource) switch of the *vbc.exe* compiler. |
 
-## Remarks  
- In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.ToolTaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.ToolTask> class. For a list of these additional parameters and their descriptions, see [ToolTaskExtension base class](../msbuild/tooltaskextension-base-class.md).  
+## Remarks
+ In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.ToolTaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.ToolTask> class. For a list of these additional parameters and their descriptions, see [ToolTaskExtension base class](../msbuild/tooltaskextension-base-class.md).
 
-## Example  
- The following example compiles a Visual Basic project.  
+## Example
+ The following example compiles a Visual Basic project.
 
-```xml  
-<VBC  
-   Sources="@(sources)"  
-   Resources="strings.resources"  
-   Optimize="true"  
-   OutputAssembly="out.exe"/>  
-```  
+```xml
+<VBC
+   Sources="@(sources)"
+   Resources="strings.resources"
+   Optimize="true"
+   OutputAssembly="out.exe"/>
+```
 
-## See also  
- [Visual Basic command-line compiler](/dotnet/visual-basic/reference/command-line-compiler/index)   
- [Tasks](../msbuild/msbuild-tasks.md)   
+## See also
+ [Visual Basic command-line compiler](/dotnet/visual-basic/reference/command-line-compiler/index)
+ [Tasks](../msbuild/msbuild-tasks.md)
  [Task reference](../msbuild/msbuild-task-reference.md)

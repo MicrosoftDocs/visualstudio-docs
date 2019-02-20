@@ -55,5 +55,5 @@ The following example uses the `GetFrameworkPath` task to store the path to the 
 ```
 
 ## See also
-[Tasks](../msbuild/msbuild-tasks.md)  
+[Tasks](../msbuild/msbuild-tasks.md)
 [Task reference](../msbuild/msbuild-task-reference.md)

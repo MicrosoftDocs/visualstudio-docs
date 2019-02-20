@@ -67,5 +67,5 @@ The following example downloads a file and includes it in the `Content` items pr
 ```
 
 ## See also
-[Tasks](../msbuild/msbuild-tasks.md)  
+[Tasks](../msbuild/msbuild-tasks.md)
 [Task reference](../msbuild/msbuild-task-reference.md)

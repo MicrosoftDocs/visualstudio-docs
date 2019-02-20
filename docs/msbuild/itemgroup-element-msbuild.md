@@ -22,7 +22,7 @@ ms.workload:
 # ItemGroup element (MSBuild)
 Contains a set of user-defined [Item](../msbuild/item-element-msbuild.md) elements. Every item used in a [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project must be specified as a child of an `ItemGroup` element.
 
-\<Project>  
+\<Project>
 \<ItemGroup>
 
 ## Syntax
@@ -77,6 +77,6 @@ The following code example shows the user-defined item collections `Res` and `Co
 ```
 
 ## See also
-[Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)  
-[Items](../msbuild/msbuild-items.md)  
+[Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)
+[Items](../msbuild/msbuild-items.md)
 [Common MSBuild project items](../msbuild/common-msbuild-project-items.md)

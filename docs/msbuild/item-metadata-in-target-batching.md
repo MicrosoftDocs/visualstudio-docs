@@ -60,7 +60,7 @@ The following example contains an item list named `Res` that is divided into two
 ```
 
 ## See also
-[How to: Build incrementally](../msbuild/how-to-build-incrementally.md)  
-[Batching](../msbuild/msbuild-batching.md)  
-[Target element (MSBuild)](../msbuild/target-element-msbuild.md)  
+[How to: Build incrementally](../msbuild/how-to-build-incrementally.md)
+[Batching](../msbuild/msbuild-batching.md)
+[Target element (MSBuild)](../msbuild/target-element-msbuild.md)
 [Item metadata in task batching](../msbuild/item-metadata-in-task-batching.md)

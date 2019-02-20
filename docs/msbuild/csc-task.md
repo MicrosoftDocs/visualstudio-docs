@@ -88,5 +88,5 @@ The following example uses the `Csc` task to compile an executable from the sour
 ```
 
 ## See also
-[Task reference](../msbuild/msbuild-task-reference.md)  
+[Task reference](../msbuild/msbuild-task-reference.md)
 [Tasks](../msbuild/msbuild-tasks.md)

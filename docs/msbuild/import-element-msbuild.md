@@ -22,8 +22,8 @@ ms.workload:
 # Import element (MSBuild)
 Imports the contents of one project file into another project file.
 
-\<Project>  
-\<Import>  
+\<Project>
+\<Import>
 
 ## Syntax
 
@@ -102,5 +102,5 @@ Imports the contents of one project file into another project file.
 ```
 
 ## See also
-[Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)  
+[Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)
 [How to: Use the same target in multiple project files](../msbuild/how-to-use-the-same-target-in-multiple-project-files.md)

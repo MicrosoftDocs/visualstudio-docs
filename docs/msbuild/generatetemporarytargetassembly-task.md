@@ -65,9 +65,9 @@ The following example generates a temporary assembly because *Page1.xaml* contai
 ```
 
 ## See also
-[WPF MSBuild reference](../msbuild/wpf-msbuild-reference.md)  
-[Task reference](../msbuild/wpf-msbuild-task-reference.md)  
-[MSBuild reference](../msbuild/msbuild-reference.md)  
-[Task reference](../msbuild/msbuild-task-reference.md)  
-[Build a WPF application (WPF)](/dotnet/framework/wpf/app-development/building-a-wpf-application-wpf)  
+[WPF MSBuild reference](../msbuild/wpf-msbuild-reference.md)
+[Task reference](../msbuild/wpf-msbuild-task-reference.md)
+[MSBuild reference](../msbuild/msbuild-reference.md)
+[Task reference](../msbuild/msbuild-task-reference.md)
+[Build a WPF application (WPF)](/dotnet/framework/wpf/app-development/building-a-wpf-application-wpf)
 [WPF XAML browser applications overview](/dotnet/framework/wpf/app-development/wpf-xaml-browser-applications-overview)

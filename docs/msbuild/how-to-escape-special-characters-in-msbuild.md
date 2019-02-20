@@ -45,6 +45,6 @@ You can also use a [property function](../msbuild/property-functions.md) to esca
 Use the notation `%<xx>` in place of the special character, where `<xx>` represents the hexadecimal value of the ASCII character. For example, to use an asterisk (`*`) as a literal character, use the value `%2A`.
 
 ## See also
-[MSBuild concepts](../msbuild/msbuild-concepts.md)  
-[MSBuild](../msbuild/msbuild.md)  
+[MSBuild concepts](../msbuild/msbuild-concepts.md)
+[MSBuild](../msbuild/msbuild.md)
 [Items](../msbuild/msbuild-items.md)

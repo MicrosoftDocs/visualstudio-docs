@@ -2,7 +2,7 @@
 title: "How to: Build Incrementally | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "MSBuild, incremental builds"
   - "incremental builds"
   - "MSBuild, building incrementally"
@@ -10,7 +10,7 @@ ms.assetid: 8d82d7d8-a2f1-4df6-9d2f-80b9e0cb3ac3
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # How to: Build incrementally
@@ -32,12 +32,12 @@ A target can be built incrementally if the inputs and outputs are specified in t
   [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] can compare the timestamps of the input files with the timestamps of the output files and determine whether to skip, build, or partially rebuild a target. In the following example, if any file in the `@(CSFile)` item list is newer than the *hello.exe* file, [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] will run the target; otherwise it will be skipped:
 
 ```xml
-<Target Name="Build" 
-    Inputs="@(CSFile)" 
+<Target Name="Build"
+    Inputs="@(CSFile)"
     Outputs="hello.exe">
 
     <Csc
-        Sources="@(CSFile)" 
+        Sources="@(CSFile)"
         OutputAssembly="hello.exe"/>
 </Target>
 ```
@@ -97,8 +97,8 @@ This project file contains both the `Convert` and `Build` targets. The `Generate
 ```
 
 ## See also
-[Targets](../msbuild/msbuild-targets.md)  
-[Target element (MSBuild)](../msbuild/target-element-msbuild.md)  
-[Transforms](../msbuild/msbuild-transforms.md)  
-[Csc task](../msbuild/csc-task.md)  
+[Targets](../msbuild/msbuild-targets.md)
+[Target element (MSBuild)](../msbuild/target-element-msbuild.md)
+[Transforms](../msbuild/msbuild-transforms.md)
+[Csc task](../msbuild/csc-task.md)
 [Vbc task](../msbuild/vbc-task.md)

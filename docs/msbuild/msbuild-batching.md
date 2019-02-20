@@ -94,7 +94,7 @@ is not allowed.
 For more information about property functions, see [Property functions](../msbuild/property-functions.md).
 
 ## See also
-[ItemMetadata element (MSBuild)](../msbuild/itemmetadata-element-msbuild.md)  
-[MSBuild concepts](../msbuild/msbuild-concepts.md)  
-[MSBuild reference](../msbuild/msbuild-reference.md)  
+[ItemMetadata element (MSBuild)](../msbuild/itemmetadata-element-msbuild.md)
+[MSBuild concepts](../msbuild/msbuild-concepts.md)
+[MSBuild reference](../msbuild/msbuild-reference.md)
 [Advanced concepts](../msbuild/msbuild-advanced-concepts.md)

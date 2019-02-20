@@ -65,5 +65,5 @@ The following example uses the `Exec` task to run a command.
 ```
 
 ## See also
-[Tasks](../msbuild/msbuild-tasks.md)  
+[Tasks](../msbuild/msbuild-tasks.md)
 [Task reference](../msbuild/msbuild-task-reference.md)

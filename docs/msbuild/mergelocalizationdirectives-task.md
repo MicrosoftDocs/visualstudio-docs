@@ -49,8 +49,8 @@ The following example merges the localization comments of several [!INCLUDE[TLA2
 ```
 
 ## See also
-[WPF MSBuild reference](../msbuild/wpf-msbuild-reference.md)  
-[WPF MSBuild task reference](../msbuild/wpf-msbuild-task-reference.md)  
-[MSBuild reference](../msbuild/msbuild-reference.md)  
-[MSBuild task reference](../msbuild/msbuild-task-reference.md)  
-[Build a WPF application (WPF)](/dotnet/framework/wpf/app-development/building-a-wpf-application-wpf)  
+[WPF MSBuild reference](../msbuild/wpf-msbuild-reference.md)
+[WPF MSBuild task reference](../msbuild/wpf-msbuild-task-reference.md)
+[MSBuild reference](../msbuild/msbuild-reference.md)
+[MSBuild task reference](../msbuild/msbuild-task-reference.md)
+[Build a WPF application (WPF)](/dotnet/framework/wpf/app-development/building-a-wpf-application-wpf)

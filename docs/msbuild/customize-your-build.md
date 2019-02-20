@@ -2,14 +2,14 @@
 title: "Customize your build | Microsoft Docs"
 ms.date: "06/14/2017"
 ms.topic: "conceptual"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "MSBuild, transforms"
   - "transforms [MSBuild]"
 ms.assetid: d0bceb3b-14fb-455c-805a-63acefa4b3ed
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Customize your build (C#, Visual Basic)

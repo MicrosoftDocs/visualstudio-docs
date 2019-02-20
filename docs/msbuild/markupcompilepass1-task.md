@@ -2,12 +2,12 @@
 title: "MarkupCompilePass1 Task | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
-dev_langs: 
+dev_langs:
   - "VB"
   - "CSharp"
   - "C++"
   - "jsharp"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "converting XAML to binary format [WPF MSBuild]"
   - "MarkupCompilePass1 task [WPF MSBuild], parameters"
   - "converting XAML projects to compiled binary format [WPF MSBuild]"
@@ -15,7 +15,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # MarkupCompilePass1 task
@@ -96,11 +96,11 @@ The following example shows how to convert three *Page* [!INCLUDE[TLA2#tla_xaml]
 
 ```xml
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <UsingTask 
-    TaskName="Microsoft.Build.Tasks.Windows.MarkupCompilePass1" 
+  <UsingTask
+    TaskName="Microsoft.Build.Tasks.Windows.MarkupCompilePass1"
     AssemblyFile="C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.0\PresentationBuildTasks.dll" />
   <Target Name="MarkupCompilePass1Task">
-    <MarkupCompilePass1 
+    <MarkupCompilePass1
       AssemblyName="WPFMSBuildSample"
       Language="C#"
       OutputType="WinExe"
@@ -115,9 +115,9 @@ The following example shows how to convert three *Page* [!INCLUDE[TLA2#tla_xaml]
 
 ## See also
 
-[WPF MSBuild reference](../msbuild/wpf-msbuild-reference.md)  
-[WPF MSBuild task reference](../msbuild/wpf-msbuild-task-reference.md)  
-[MSBuild reference](../msbuild/msbuild-reference.md)  
-[MSBuild task reference](../msbuild/msbuild-task-reference.md)  
-[Build a WPF application (WPF)](/dotnet/framework/wpf/app-development/building-a-wpf-application-wpf)  
+[WPF MSBuild reference](../msbuild/wpf-msbuild-reference.md)
+[WPF MSBuild task reference](../msbuild/wpf-msbuild-task-reference.md)
+[MSBuild reference](../msbuild/msbuild-reference.md)
+[MSBuild task reference](../msbuild/msbuild-task-reference.md)
+[Build a WPF application (WPF)](/dotnet/framework/wpf/app-development/building-a-wpf-application-wpf)
 [WPF XAML browser applications overview](/dotnet/framework/wpf/app-development/wpf-xaml-browser-applications-overview)

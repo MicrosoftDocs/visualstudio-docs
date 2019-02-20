@@ -177,7 +177,7 @@ ToolsVersion="4.0" TreatAsLocalProperty="Color">
 ```
 
 ## See also
-[MSBuild](../msbuild/msbuild.md)  
-[MSBuild concepts](../msbuild/msbuild-concepts.md)  
-[MSBuild reference](../msbuild/msbuild-reference.md)  
+[MSBuild](../msbuild/msbuild.md)
+[MSBuild concepts](../msbuild/msbuild-concepts.md)
+[MSBuild reference](../msbuild/msbuild-reference.md)
 [Project element (MSBuild)](../msbuild/project-element-msbuild.md)

@@ -52,5 +52,5 @@ The following example uses the `GetFrameworkSdkPath` task to store the path to t
 ```
 
 ## See also
-[Tasks](../msbuild/msbuild-tasks.md)  
+[Tasks](../msbuild/msbuild-tasks.md)
 [Task reference](../msbuild/msbuild-task-reference.md)
