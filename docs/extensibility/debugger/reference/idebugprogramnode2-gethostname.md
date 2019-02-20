@@ -20,15 +20,15 @@ Gets the name of the process hosting the program.
 
 ```cpp
 HRESULT GetHostName (
-   GETHOSTNAME_TYPE dwHostNameType,
-   BSTR*            pbstrHostName
+    GETHOSTNAME_TYPE dwHostNameType,
+    BSTR*            pbstrHostName
 );
 ```
 
 ```csharp
 int GetHostName (
-   enum_GETHOSTNAME_TYPE dwHostNameType,
-   out string            pbstrHostName
+    enum_GETHOSTNAME_TYPE dwHostNameType,
+    out string            pbstrHostName
 );
 ```
 
@@ -47,41 +47,41 @@ The following example shows how to implement this method for a simple `CProgram`
 
 ```cpp
 HRESULT CProgram::GetHostName(DWORD dwHostNameType, BSTR* pbstrHostName) {
-   // Check for valid argument.
-   if (pbstrHostName)
-   {
-      char szModule[_MAX_PATH];
+    // Check for valid argument.
+    if (pbstrHostName)
+    {
+        char szModule[_MAX_PATH];
 
-      // Attempt to assign to szModule the path for the file used
-      // to create the calling process.
-      if (GetModuleFileName(NULL, szModule, sizeof (szModule)))
-      {
-         // If successful then declare several char arrays
-         char  szDrive[_MAX_DRIVE];
-         char  szDir[_MAX_DIR];
-         char  szName[_MAX_FNAME];
-         char  szExt[_MAX_EXT];
-         char  szFilename[_MAX_FNAME + _MAX_EXT];
-         WCHAR wszFilename[_MAX_FNAME + _MAX_EXT];
+        // Attempt to assign to szModule the path for the file used
+        // to create the calling process.
+        if (GetModuleFileName(NULL, szModule, sizeof (szModule)))
+        {
+            // If successful then declare several char arrays
+            char  szDrive[_MAX_DRIVE];
+            char  szDir[_MAX_DIR];
+            char  szName[_MAX_FNAME];
+            char  szExt[_MAX_EXT];
+            char  szFilename[_MAX_FNAME + _MAX_EXT];
+            WCHAR wszFilename[_MAX_FNAME + _MAX_EXT];
 
-         // Break the szModule path name into components.
-         _splitpath(szModule, szDrive, szDir, szName, szExt);
+            // Break the szModule path name into components.
+            _splitpath(szModule, szDrive, szDir, szName, szExt);
 
-         // Copy the base file name szName into szFilename.
-         lstrcpy(szFilename, szName);
-         // Append the field extension szExt into szFilename.
-         lstrcat(szFilename, szExt);
+            // Copy the base file name szName into szFilename.
+            lstrcpy(szFilename, szName);
+            // Append the field extension szExt into szFilename.
+            lstrcat(szFilename, szExt);
 
-         // Convert the szFilename sequence of multibyte characters
-         // to the wszFilename sequence of wide characters.
-         mbstowcs(wszFilename, szFilename, sizeof (wszFilename) / 2);
+            // Convert the szFilename sequence of multibyte characters
+            // to the wszFilename sequence of wide characters.
+            mbstowcs(wszFilename, szFilename, sizeof (wszFilename) / 2);
 
-         // Assign the wszFilename to the value at *pbstrHostName.
-         *pbstrHostName = SysAllocString(wszFilename);
+            // Assign the wszFilename to the value at *pbstrHostName.
+            *pbstrHostName = SysAllocString(wszFilename);
 
-          return S_OK;
-      }
-   }
+            return S_OK;
+        }
+    }
 
     return E_INVALIDARG;
 }
