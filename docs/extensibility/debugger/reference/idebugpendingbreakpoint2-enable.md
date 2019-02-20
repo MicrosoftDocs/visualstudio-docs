@@ -21,13 +21,13 @@ Toggles the enabled state of the pending breakpoint.
 
 ```cpp
 HRESULT Enable(
-   BOOL fEnable
+    BOOL fEnable
 );
 ```
 
 ```csharp
 int Enable(
-   int fEnable
+    int fEnable
 );
 ```
 
@@ -49,30 +49,30 @@ The following example shows how to implement this method for a simple `CPendingB
 ```cpp
 HRESULT CPendingBreakpoint::Enable(BOOL fEnable)
 {
-   HRESULT hr;
+    HRESULT hr;
 
-   // Verify that the pending breakpoint has not been deleted. If deleted,
-   // then return hr = E_BP_DELETED.
-   if (m_state.state != PBPS_DELETED)
-   {
-      // If the bound breakpoint member variable is valid, then enable or
-      // disable the bound breakpoint.
-      if (m_pBoundBP)
-      {
-         m_pBoundBP->Enable(fEnable);
-      }
-      // Set the PENDING_BP_STATE in the PENDING_BP_STATE_INFO structure
-      // to enabled or disabled depending on the passed BOOL condition.
-      m_state.state = fEnable ? PBPS_ENABLED : PBPS_DISABLED;
-      hr = S_OK;
+    // Verify that the pending breakpoint has not been deleted. If deleted,
+    // then return hr = E_BP_DELETED.
+    if (m_state.state != PBPS_DELETED)
+    {
+        // If the bound breakpoint member variable is valid, then enable or
+        // disable the bound breakpoint.
+        if (m_pBoundBP)
+        {
+            m_pBoundBP->Enable(fEnable);
+        }
+        // Set the PENDING_BP_STATE in the PENDING_BP_STATE_INFO structure
+        // to enabled or disabled depending on the passed BOOL condition.
+        m_state.state = fEnable ? PBPS_ENABLED : PBPS_DISABLED;
+        hr = S_OK;
 
-   }
-   else
-   {
-      hr = E_BP_DELETED;
-   }
+    }
+    else
+    {
+        hr = E_BP_DELETED;
+    }
 
-   return hr;
+    return hr;
 }
 ```
 
