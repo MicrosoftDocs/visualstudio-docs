@@ -52,9 +52,9 @@ void ExerciseProfileCurrentID()
 ```
 
 ## See also
- [Visual Studio profiler API reference (native)](../profiling/visual-studio-profiler-api-reference-native.md)
- [NameProfile](../profiling/nameprofile.md)
- [ResumeProfile](../profiling/resumeprofile.md)
- [StartProfile](../profiling/startprofile.md)
- [StopProfile](../profiling/stopprofile.md)
- [SuspendProfile](../profiling/suspendprofile.md)
+- [Visual Studio profiler API reference (native)](../profiling/visual-studio-profiler-api-reference-native.md)
+- [NameProfile](../profiling/nameprofile.md)
+- [ResumeProfile](../profiling/resumeprofile.md)
+- [StartProfile](../profiling/startprofile.md)
+- [StopProfile](../profiling/stopprofile.md)
+- [SuspendProfile](../profiling/suspendprofile.md)

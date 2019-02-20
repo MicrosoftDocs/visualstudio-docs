@@ -76,7 +76,7 @@ The Functions report view lists profiling data by function name.
 |**Min Application Exclusive Time**|The minimum application exclusive time of a call to this function.|
 
 ## See also
- [How to: Customize Report View columns](../profiling/how-to-customize-report-view-columns.md)
- [Functions View](../profiling/functions-view-sampling-data.md)
- [Functions View - sampling](../profiling/functions-view-dotnet-memory-sampling-data.md)
- [Functions View - instrumentation](../profiling/functions-view-dotnet-memory-instrumentation-data.md)
+- [How to: Customize Report View columns](../profiling/how-to-customize-report-view-columns.md)
+- [Functions View](../profiling/functions-view-sampling-data.md)
+- [Functions View - sampling](../profiling/functions-view-dotnet-memory-sampling-data.md)
+- [Functions View - instrumentation](../profiling/functions-view-dotnet-memory-instrumentation-data.md)

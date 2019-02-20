@@ -64,4 +64,4 @@ span(
  **Namespace:** Concurrency::diagnostic
 
  ## See also
- [span class](../profiling/span-class.md)
+- [span class](../profiling/span-class.md)

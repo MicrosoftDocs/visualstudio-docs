@@ -31,7 +31,7 @@ You can use the command-line tools of [!INCLUDE[vsprvs](../code-quality/includes
 | **Profile code on computers without Visual Studio:** You can use the Profiling Tools stand-alone profiler to collect data for applications on computers that do not have [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] installed. | -   [How to: Install the stand-alone profiler](../profiling/how-to-install-the-stand-alone-profiler.md) |
 
 ## Reference
- [Command-line Profiling Tools reference](../profiling/command-line-profiling-tools-reference.md)
+- [Command-line Profiling Tools reference](../profiling/command-line-profiling-tools-reference.md)
 
 ## See also
- [Performance Explorer](../profiling/performance-explorer.md)
+- [Performance Explorer](../profiling/performance-explorer.md)

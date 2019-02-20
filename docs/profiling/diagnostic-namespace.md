@@ -43,4 +43,4 @@ namespace diagnostic;
  **Namespace:** Concurrency
 
 ## See also
- [Concurrency namespace (Concurrency Visualizer)](../profiling/concurrency-namespace-concurrency-visualizer.md)
+- [Concurrency namespace (Concurrency Visualizer)](../profiling/concurrency-namespace-concurrency-visualizer.md)

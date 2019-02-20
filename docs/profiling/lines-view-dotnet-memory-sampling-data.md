@@ -55,4 +55,4 @@ The Lines view for .NET memory allocation profiling data that uses the sampling 
 |**Exclusive Bytes %**|The percentage of all bytes of memory that were allocated in the profiling run that were allocated in this line.|
 
 ## See also
- [Lines View](../profiling/lines-view-sampling-data.md)
+- [Lines View](../profiling/lines-view-sampling-data.md)

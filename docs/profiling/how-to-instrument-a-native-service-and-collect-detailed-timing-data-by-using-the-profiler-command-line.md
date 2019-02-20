@@ -87,5 +87,5 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
 3.  Replace the instrumented module with the original. If necessary, reconfigure the Startup Type of the service.
 
 ## See also
- [Profile services](../profiling/command-line-profiling-of-services.md)
- [Instrumentation method data views](../profiling/instrumentation-method-data-views.md)
+- [Profile services](../profiling/command-line-profiling-of-services.md)
+- [Instrumentation method data views](../profiling/instrumentation-method-data-views.md)

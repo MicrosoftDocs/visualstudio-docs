@@ -34,15 +34,15 @@ The Call Tree view displays the function execution paths that were traversed in 
 
  For more information about definitions for columns in the Call Tree view, see the following:
 
- [Call Tree view](../profiling/call-tree-view-sampling-data.md)
+- [Call Tree view](../profiling/call-tree-view-sampling-data.md)
 
- [Call Tree view](../profiling/call-tree-view-instrumentation-data.md)
+- [Call Tree view](../profiling/call-tree-view-instrumentation-data.md)
 
- [Call Tree view - sampling](../profiling/call-tree-view-dotnet-memory-sampling-data.md)
+- [Call Tree view - sampling](../profiling/call-tree-view-dotnet-memory-sampling-data.md)
 
- [Call Tree view](../profiling/call-tree-view-contention-data.md)
+- [Call Tree view](../profiling/call-tree-view-contention-data.md)
 
 ## See also
- [Performance report views](../profiling/performance-report-views.md)
- [Understanding instrumentation data values](../profiling/understanding-instrumentation-data-values.md)
- [Understanding sampling data values](../profiling/understanding-sampling-data-values.md)
+- [Performance report views](../profiling/performance-report-views.md)
+- [Understanding instrumentation data values](../profiling/understanding-instrumentation-data-values.md)
+- [Understanding sampling data values](../profiling/understanding-sampling-data-values.md)

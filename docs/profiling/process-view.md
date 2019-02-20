@@ -35,6 +35,6 @@ The Process view displays profiling data for the processes and threads that were
 |**End Time**|The number of milliseconds or processor cycles from the start of profiling to the end of the process or thread.|
 
 ## See also
- [Sampling method data views](../profiling/profiler-sampling-method-data-views.md)
- [Instrumentation method data views](../profiling/instrumentation-method-data-views.md)
- [.NET memory data views](../profiling/dotnet-memory-data-views.md)
+- [Sampling method data views](../profiling/profiler-sampling-method-data-views.md)
+- [Instrumentation method data views](../profiling/instrumentation-method-data-views.md)
+- [.NET memory data views](../profiling/dotnet-memory-data-views.md)

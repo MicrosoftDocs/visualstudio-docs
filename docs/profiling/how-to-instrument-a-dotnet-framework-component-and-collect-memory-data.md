@@ -93,5 +93,5 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
      **VSPerfCmd /off**
 
 ## See also
- [Profile stand-alone applications](../profiling/command-line-profiling-of-stand-alone-applications.md)
- [.NET memory data views](../profiling/dotnet-memory-data-views.md)
+- [Profile stand-alone applications](../profiling/command-line-profiling-of-stand-alone-applications.md)
+- [.NET memory data views](../profiling/dotnet-memory-data-views.md)

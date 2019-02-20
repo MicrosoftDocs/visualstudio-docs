@@ -60,6 +60,6 @@ You can limit instrumentation and data collection to one or more functions by se
    >  To list the functions in a binary, open a command prompt window in the Profiling Tools installation directory (see [Specify the path to command line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md)) and then type **vsinstr /DumpFuncs**
 
 ## See also
- [Control data collection](../profiling/controlling-data-collection.md)
- [How to: Limit instrumentation to specific DLLs](../profiling/how-to-limit-instrumentation-to-specific-dlls.md)
- [How to: Specify additional instrumentation options](../profiling/how-to-specify-additional-instrumentation-options.md)
+- [Control data collection](../profiling/controlling-data-collection.md)
+- [How to: Limit instrumentation to specific DLLs](../profiling/how-to-limit-instrumentation-to-specific-dlls.md)
+- [How to: Specify additional instrumentation options](../profiling/how-to-specify-additional-instrumentation-options.md)

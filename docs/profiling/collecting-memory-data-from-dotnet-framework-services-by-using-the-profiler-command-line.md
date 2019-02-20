@@ -38,7 +38,7 @@ This section describes the procedures and options for collecting memory allocati
 |**Profile ASP.NET Web applications**|-   [Collect memory data](../profiling/collecting-memory-data-from-an-aspnet-web-application.md)|
 
 ### Analyze .NET memory data views and reports
- [.NET memory data views](../profiling/dotnet-memory-data-views.md)
+- [.NET memory data views](../profiling/dotnet-memory-data-views.md)
 
 ## Reference
- [Command-line profiling tools reference](../profiling/command-line-profiling-tools-reference.md)
+- [Command-line profiling tools reference](../profiling/command-line-profiling-tools-reference.md)

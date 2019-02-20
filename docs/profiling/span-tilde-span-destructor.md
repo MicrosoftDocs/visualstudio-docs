@@ -28,4 +28,4 @@ Destroys the `span` object and releases its resources.
  **Namespace:** Concurrency::diagnostic
 
  ## See also
- [span class](../profiling/span-class.md)
+- [span class](../profiling/span-class.md)

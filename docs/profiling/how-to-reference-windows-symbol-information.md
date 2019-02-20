@@ -41,5 +41,5 @@ The Visual Studio Profiling Tools use symbol (.*pdb*) files to resolve symbolic 
      You can also click the ellipsis button (**...**) and then select a directory from the **Browse for Folder** dialog box.
 
 ## See also
- [Configure performance sessions](../profiling/configuring-performance-sessions.md)
- [How to: Serialize symbol information](../profiling/how-to-serialize-symbol-information.md)
+- [Configure performance sessions](../profiling/configuring-performance-sessions.md)
+- [How to: Serialize symbol information](../profiling/how-to-serialize-symbol-information.md)

@@ -23,7 +23,7 @@ ms.workload:
 |**Configure instrumentation profiling to limit the collected data:** You can use performance session configuration properties to limit the data that is collected in profiling runs that use the instrumentation method. You can include or exclude specific .dll files, namespaces, classes, and functions. You can also exclude functions that do not meet a size threshold that you specify.|-   [How to: Limit instrumentation to specific DLLs](../profiling/how-to-limit-instrumentation-to-specific-dlls.md)<br />-   [How to: Limit instrumentation to specific functions](../profiling/how-to-limit-instrumentation-to-specific-functions.md)<br />-   [How to: Exclude or include short functions from instrumentation](../profiling/how-to-exclude-or-include-short-functions-from-instrumentation.md)|
 
 ## Related sections
- [Configure performance sessions](../profiling/configuring-performance-sessions.md)
+- [Configure performance sessions](../profiling/configuring-performance-sessions.md)
 
 ## See also
- [Performance Explorer](../profiling/performance-explorer.md)
+- [Performance Explorer](../profiling/performance-explorer.md)

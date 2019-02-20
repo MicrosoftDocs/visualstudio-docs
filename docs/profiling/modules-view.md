@@ -25,8 +25,8 @@ The Modules view lists the modules of the profiling data. Each module is the roo
  The columns that are available in the Modules view depend on the profiling method (sampling or instrumentation) that was used to collect the data, and whether .NET memory data was collected in the profiling run.
 
 ## See also
- [Modules View](../profiling/modules-view-sampling-data.md)
- [Modules View](../profiling/modules-view-instrumentation-data.md)
- [Modules View - instrumentation](../profiling/modules-view-dotnet-memory-instrumentation-data.md)
- [Modules View - sampling](../profiling/modules-view-dotnet-memory-sampling-data.md)
- [Modules View](../profiling/modules-view-contention-data.md)
+- [Modules View](../profiling/modules-view-sampling-data.md)
+- [Modules View](../profiling/modules-view-instrumentation-data.md)
+- [Modules View - instrumentation](../profiling/modules-view-dotnet-memory-instrumentation-data.md)
+- [Modules View - sampling](../profiling/modules-view-dotnet-memory-sampling-data.md)
+- [Modules View](../profiling/modules-view-contention-data.md)

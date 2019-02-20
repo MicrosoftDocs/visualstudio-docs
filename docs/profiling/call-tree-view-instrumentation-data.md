@@ -77,7 +77,7 @@ The values for a function in the call tree indicate the time for the function in
 |**Min Application Exclusive Time**|The minimum application exclusive time of a call to this function in this context.|
 
 ## See also
- [How to: Customize report view columns](../profiling/how-to-customize-report-view-columns.md)
- [Call Tree view](../profiling/call-tree-view-sampling-data.md)
- [Call Tree view - instrumentation](../profiling/call-tree-view-dotnet-memory-instrumentation-data.md)
- [Call Tree view - sampling](../profiling/call-tree-view-dotnet-memory-sampling-data.md)
+- [How to: Customize report view columns](../profiling/how-to-customize-report-view-columns.md)
+- [Call Tree view](../profiling/call-tree-view-sampling-data.md)
+- [Call Tree view - instrumentation](../profiling/call-tree-view-dotnet-memory-instrumentation-data.md)
+- [Call Tree view - sampling](../profiling/call-tree-view-dotnet-memory-sampling-data.md)

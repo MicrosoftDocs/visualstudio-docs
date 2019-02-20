@@ -10,20 +10,27 @@ ms.workload:
   - "multiple"
 ---
 # Profiling Tools APIs
+
 You can insert managed or native methods of the APIs of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools to control data collection in a profiling run. This section describes the methods of the APIs and describes how to use them.
 
 ## In this section
- [Visual Studio Profiler API Reference (Native)](../profiling/visual-studio-profiler-api-reference-native.md)
- Describes the C++ Profiling Tools methods.
 
- <xref:Microsoft.VisualStudio.Profiler>
- Describes the .NET Profiling Tools methods.
+[Visual Studio Profiler API Reference (Native)](../profiling/visual-studio-profiler-api-reference-native.md)
 
- [Walkthrough: Using Profiler APIs](../profiling/walkthrough-using-profiler-apis.md)
- Learn how to use the .NET Profiling Tools methods in this complete example.
+Describes the C++ Profiling Tools methods.
+
+<xref:Microsoft.VisualStudio.Profiler>
+
+Describes the .NET Profiling Tools methods.
+
+[Walkthrough: Using Profiler APIs](../profiling/walkthrough-using-profiler-apis.md)
+
+Learn how to use the .NET Profiling Tools methods in this complete example.
 
 ## Related sections
- [Control data collection](../profiling/controlling-data-collection.md)
+
+[Control data collection](../profiling/controlling-data-collection.md)
 
 ## See also
- [Performance Explorer](../profiling/performance-explorer.md)
+
+- [Performance Explorer](../profiling/performance-explorer.md)

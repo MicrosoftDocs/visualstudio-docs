@@ -28,4 +28,4 @@ Destroys marker_series object and releases all allocated resources.
  **Namespace:** Concurrency::diagnostic
 
 ## See also
- [marker_series class](../profiling/marker-series-class.md)
+- [marker_series class](../profiling/marker-series-class.md)

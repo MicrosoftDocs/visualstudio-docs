@@ -32,8 +32,8 @@ The Caller/Callee view displays profiling information for a selected function an
  You can sort the data by clicking column names. Additional columns can be added to the Caller/Callee view. For more information, see [How to: Customize report view columns](../profiling/how-to-customize-report-view-columns.md).
 
 ## See also
- [Caller/Callee view - sampling data](../profiling/caller-callee-view-sampling-data.md)
- [Caller/Callee view - instrumentation data](../profiling/caller-callee-view-instrumentation-data.md)
- [Caller/Callee view - .NET memory instrumentation data](../profiling/caller-callee-view-net-memory-instrumentation-data.md)
- [Caller/Callee view - .NET memory sampling data](../profiling/caller-callee-view-dotnet-memory-sampling-data.md)
- [Caller/Callee view -  contention data](../profiling/caller-callee-view-contention-data.md)
+- [Caller/Callee view - sampling data](../profiling/caller-callee-view-sampling-data.md)
+- [Caller/Callee view - instrumentation data](../profiling/caller-callee-view-instrumentation-data.md)
+- [Caller/Callee view - .NET memory instrumentation data](../profiling/caller-callee-view-net-memory-instrumentation-data.md)
+- [Caller/Callee view - .NET memory sampling data](../profiling/caller-callee-view-dotnet-memory-sampling-data.md)
+- [Caller/Callee view -  contention data](../profiling/caller-callee-view-contention-data.md)

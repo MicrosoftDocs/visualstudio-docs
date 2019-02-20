@@ -351,4 +351,4 @@ if (performance.mark && performance.measure) {
 -   For info on the single-threaded code execution model and performance, see [Executing code](/previous-versions/windows/apps/hh781217\(v\=win.10\)).
 
 ## See also
- [First look at profiling tools](../profiling/profiling-feature-tour.md)
+- [First look at profiling tools](../profiling/profiling-feature-tour.md)

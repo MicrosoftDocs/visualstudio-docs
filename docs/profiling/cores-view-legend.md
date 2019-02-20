@@ -30,4 +30,4 @@ The Cores View legend identifies each thread by color and name. It includes colu
 |Percent of Context Switches that Cross Cores|Computed as a percentage by dividing the number of cross-core context switches by the number of total context switches. The higher this percentage, the greater the overall effect of the overhead of cross-core context switches on the performance of this particular thread.|
 
 ## See also
- [Cores View](../profiling/cores-view.md)
+- [Cores View](../profiling/cores-view.md)

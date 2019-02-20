@@ -31,5 +31,5 @@ The **Profiler Report View Filter** window is located at the top of the **Perfor
  To save the filter, click **Export Filter** on the **Performance Report** toolbar and then specify a location and file name for the .*vspf* file. To load a previously saved filter, click **Import Filter** and locate the saved filter file. Filter files can also be used to filter data files on computers that have the stand-alone Profiling Tools installed. For more information, see [VSPerfReport](../profiling/vsperfreport.md).
 
 ## See also
- [Analyze performance tools data](../profiling/analyzing-performance-tools-data.md)
- [VSPerfReport](../profiling/vsperfreport.md)
+- [Analyze performance tools data](../profiling/analyzing-performance-tools-data.md)
+- [VSPerfReport](../profiling/vsperfreport.md)

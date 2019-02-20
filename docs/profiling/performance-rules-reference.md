@@ -19,9 +19,10 @@ The performance rules of the Profiling Tools provide additional warnings and inf
 |**Information**|Information messages indicate that either the analysis of a rule condition did not reach the threshold to generate an Error message, or that the information in the message is useful but does not reflect a performance problem.|
 
 ## In This Section
- [Performance Rules by ID](../profiling/performance-rules-by-id.md)
 
- The Profiling Tools performance rules are organized in four categories:
+[Performance Rules by ID](../profiling/performance-rules-by-id.md)
+
+The Profiling Tools performance rules are organized in four categories:
 
 |||
 |-|-|

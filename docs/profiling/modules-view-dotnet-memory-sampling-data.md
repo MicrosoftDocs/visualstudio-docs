@@ -35,7 +35,7 @@ The Modules view of .NET memory allocation data that is collected by using the s
 |**Exclusive Bytes %**|The percentage of all bytes that were allocated in the profiling run that were exclusive bytes of the module, function, line, or instruction.|
 
 ## See also
- [How to: Customize Report View columns](../profiling/how-to-customize-report-view-columns.md)
- [Modules View - instrumentation](../profiling/modules-view-dotnet-memory-instrumentation-data.md)
- [Modules View](../profiling/modules-view-sampling-data.md)
- [Modules View](../profiling/modules-view-instrumentation-data.md)
+- [How to: Customize Report View columns](../profiling/how-to-customize-report-view-columns.md)
+- [Modules View - instrumentation](../profiling/modules-view-dotnet-memory-instrumentation-data.md)
+- [Modules View](../profiling/modules-view-sampling-data.md)
+- [Modules View](../profiling/modules-view-instrumentation-data.md)

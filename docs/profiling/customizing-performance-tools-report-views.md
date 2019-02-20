@@ -24,8 +24,8 @@ This section covers how to customize reports that are generated with [!INCLUDE[v
 |**Filter the date in a report view**: You can limit the data that appear in a report to a time segment of the profiling run. You can specify a time segment in the timeline graph of the Summary View, or you can specify the time segment in a query that you define in the report view filter. You can also filter the reports to show only functions that are defined in your code files.|-   [Filter report views](../profiling/filtering-report-views.md)<br />-   [How to: Filter report views from the summary timeline](../profiling/how-to-filter-report-views-from-the-summary-timeline.md)<br />-   [How to: Filter profiling tools report views to display just my code](../profiling/how-to-filter-profiling-tools-report-views-to-display-just-my-code.md)<br />-   [Performance report view filter](../profiling/performance-report-view-filter.md)|
 
 ## Related sections
- [Performance report views](../profiling/performance-report-views.md)
+- [Performance report views](../profiling/performance-report-views.md)
  Describes the views that you can use to analyze profiling data.
 
 ## See also
- [Analyze performance tools data](../profiling/analyzing-performance-tools-data.md)
+- [Analyze performance tools data](../profiling/analyzing-performance-tools-data.md)

@@ -38,4 +38,4 @@ This section describes the procedures and options for collecting detailed perfor
 |**Profile ASP.NET Web applications**|-   [Collect detailed timing data using instrumentation](../profiling/collecting-detailed-timing-data-aspnet-profiler-instrumentation-method.md)|
 
 ### Analyze instrumentation data views and reports
- [Instrumentation method data views](../profiling/instrumentation-method-data-views.md)
+- [Instrumentation method data views](../profiling/instrumentation-method-data-views.md)

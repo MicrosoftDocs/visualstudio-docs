@@ -45,4 +45,4 @@ marker_series(
  **Namespace:** Concurrency::diagnostic
 
 ## See also
- [marker_series class](../profiling/marker-series-class.md)
+- [marker_series class](../profiling/marker-series-class.md)

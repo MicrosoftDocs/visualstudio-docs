@@ -41,7 +41,7 @@ VSPerfMon [/U] </TRACE [/COUNTER:cfg] | /SAMPLE | /COVERAGE> /CROSSSESSION /OUTP
 |**AUTOMARK** `:n`|Specifies the time interval (in milliseconds) between automatic marks when you use /WINCOUNTER. Rounded up to the nearest 500ms.<br /><br /> Use 0 to disable automatic marks. (default=500ms if unspecified)|
 
 ## See also
- [VSInstr](../profiling/vsinstr.md)
- [VSPerfCmd](../profiling/vsperfcmd.md)
- [VSPerfReport](../profiling/vsperfreport.md)
- [Performance report views](../profiling/performance-report-views.md)
+- [VSInstr](../profiling/vsinstr.md)
+- [VSPerfCmd](../profiling/vsperfcmd.md)
+- [VSPerfReport](../profiling/vsperfreport.md)
+- [Performance report views](../profiling/performance-report-views.md)

@@ -222,5 +222,5 @@ You can use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profil
 ```
 
 ## See also
- [How to: Instrument a dynamically compiled ASP.NET application and collect detailed timing data](../profiling/how-to-instrument-a-dynamically-compiled-aspnet-app-and-collect-timing-data.md)
- [How to: Instrument a dynamically compiled ASP.NET application and collect memory data](../profiling/how-to-instrument-a-dynamically-compiled-aspnet-web-application-and-collect-memory-data.md)
+- [How to: Instrument a dynamically compiled ASP.NET application and collect detailed timing data](../profiling/how-to-instrument-a-dynamically-compiled-aspnet-app-and-collect-timing-data.md)
+- [How to: Instrument a dynamically compiled ASP.NET application and collect memory data](../profiling/how-to-instrument-a-dynamically-compiled-aspnet-web-application-and-collect-memory-data.md)

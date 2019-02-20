@@ -104,4 +104,4 @@ void ExerciseCommentMarkProfile()
 ```
 
 ## See also
- [Visual Studio profiler API reference (native)](../profiling/visual-studio-profiler-api-reference-native.md)
+- [Visual Studio profiler API reference (native)](../profiling/visual-studio-profiler-api-reference-native.md)

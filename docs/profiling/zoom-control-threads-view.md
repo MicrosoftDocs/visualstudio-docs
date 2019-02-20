@@ -23,7 +23,7 @@ The zoom control is a slider that helps you to zoom in and out on the timeline s
  Click on any point on the timeline (to ensure it has mouse focus), and then press **Ctrl** and move the mouse wheel (forward zooms in; backward zooms out).
 
 ## See also
- [Manage channels](../profiling/manage-channels.md)
- [Measure mode on/off](../profiling/measure-mode-on-off.md)
- [Threads view](../profiling/threads-view-parallel-performance.md)
- [Utilization navigator](../profiling/utilization-navigator.md)
+- [Manage channels](../profiling/manage-channels.md)
+- [Measure mode on/off](../profiling/measure-mode-on-off.md)
+- [Threads view](../profiling/threads-view-parallel-performance.md)
+- [Utilization navigator](../profiling/utilization-navigator.md)

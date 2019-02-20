@@ -47,5 +47,5 @@ ms.workload:
 |[Concurrency Visualizer command-line utility (CVCollectionCmd)](../profiling/concurrency-visualizer-command-line-utility-cvcollectioncmd.md)|Describes how to use the Concurrency Visualizer command line utility (CVCollectionCmd.exe) to collect and process traces on machines that don't have Visual Studio.|
 
 ## See also
- [Profiling in Visual Studio](../profiling/index.md)
- [First look at profiling tools](../profiling/profiling-feature-tour.md)
+- [Profiling in Visual Studio](../profiling/index.md)
+- [First look at profiling tools](../profiling/profiling-feature-tour.md)

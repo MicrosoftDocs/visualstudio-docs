@@ -92,6 +92,6 @@ The Modules view of .NET memory allocation data collected by using the instrumen
 |**Min Application Exclusive Time**|-   For a function, the minimum application exclusive time of a call to this module or function.<br />-   For a module, the minimum application exclusive time of all calls to functions in the module.|
 
 ## See also
- [Modules View - sampling](../profiling/modules-view-dotnet-memory-sampling-data.md)
- [Modules View](../profiling/modules-view-instrumentation-data.md)
- [Modules View](../profiling/modules-view-sampling-data.md)
+- [Modules View - sampling](../profiling/modules-view-dotnet-memory-sampling-data.md)
+- [Modules View](../profiling/modules-view-instrumentation-data.md)
+- [Modules View](../profiling/modules-view-sampling-data.md)

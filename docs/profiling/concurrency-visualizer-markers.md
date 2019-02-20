@@ -55,7 +55,7 @@ In the Concurrency Visualizer, markers are icons that represent events in an app
  The Concurrency Visualizer can also display EventSource events.  For more information, see [Visualize EventSource events as markers](../profiling/visualizing-eventsource-events-as-markers.md).
 
 ## See also
- [Flag markers](../profiling/flag-markers.md)
- [Message markers](../profiling/message-markers.md)
- [Span markers](../profiling/span-markers.md)
- [Visualize EventSource events as markers](../profiling/visualizing-eventsource-events-as-markers.md)
+- [Flag markers](../profiling/flag-markers.md)
+- [Message markers](../profiling/message-markers.md)
+- [Span markers](../profiling/span-markers.md)
+- [Visualize EventSource events as markers](../profiling/visualizing-eventsource-events-as-markers.md)

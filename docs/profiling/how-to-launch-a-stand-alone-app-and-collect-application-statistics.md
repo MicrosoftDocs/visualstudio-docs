@@ -99,5 +99,5 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
      **VSPerfCmd**  [/shutdown](../profiling/shutdown.md)
 
 ## See also
- [Profile stand-alone applications](../profiling/command-line-profiling-of-stand-alone-applications.md)
- [Sampling method data views](../profiling/profiler-sampling-method-data-views.md)
+- [Profile stand-alone applications](../profiling/command-line-profiling-of-stand-alone-applications.md)
+- [Sampling method data views](../profiling/profiler-sampling-method-data-views.md)

@@ -32,7 +32,7 @@ For more information, see:
 
 [Collect .NET memory allocation and lifetime data](../profiling/collecting-dotnet-memory-allocation-and-lifetime-data.md)
 
- [How to: Set performance data file name options](../profiling/how-to-set-performance-data-file-name-options.md)
+- [How to: Set performance data file name options](../profiling/how-to-set-performance-data-file-name-options.md)
 
 ## Launch
 

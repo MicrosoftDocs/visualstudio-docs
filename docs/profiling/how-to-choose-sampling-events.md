@@ -53,8 +53,8 @@ By default, the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profil
 5.  When you select a sample event, a default sampling interval value is displayed in the **Sampling interval** text box. If necessary, you can enter the value that you want in the text box.
 
 ## See also
- [Configure performance sessions](../profiling/configuring-performance-sessions.md)
- [How to: Choose collection methods](../profiling/how-to-choose-collection-methods.md)
- [CPU and Windows counters](../profiling/cpu-and-windows-counters.md)
- [Understand sampling data values](../profiling/understanding-sampling-data-values.md)
- [Profile from the command-line](../profiling/using-the-profiling-tools-from-the-command-line.md)
+- [Configure performance sessions](../profiling/configuring-performance-sessions.md)
+- [How to: Choose collection methods](../profiling/how-to-choose-collection-methods.md)
+- [CPU and Windows counters](../profiling/cpu-and-windows-counters.md)
+- [Understand sampling data values](../profiling/understanding-sampling-data-values.md)
+- [Profile from the command-line](../profiling/using-the-profiling-tools-from-the-command-line.md)

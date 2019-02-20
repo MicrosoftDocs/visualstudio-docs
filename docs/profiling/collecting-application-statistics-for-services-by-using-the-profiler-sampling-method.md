@@ -42,4 +42,4 @@ This section describes the procedures and options for collecting performance sta
 |**Profile ASP.NET Web applications**|-   [Collect application statistics using sampling](../profiling/collecting-application-statistics-for-aspnet-using-the-profiler-sampling-method.md)|
 
 ### Analyze sampling data views and reports
- [Sampling method data views](../profiling/profiler-sampling-method-data-views.md)
+- [Sampling method data views](../profiling/profiler-sampling-method-data-views.md)

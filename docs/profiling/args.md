@@ -37,7 +37,7 @@ VSPerfCmd.exe /Launch:TestApp.exe /Args:"123, 'Hello World'"
 ```
 
 ## See also
- [VSPerfCmd](../profiling/vsperfcmd.md)
- [Profiling stand-alone applications](../profiling/command-line-profiling-of-stand-alone-applications.md)
- [Profiling ASP.NET web applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)
- [Profiling services](../profiling/command-line-profiling-of-services.md)
+- [VSPerfCmd](../profiling/vsperfcmd.md)
+- [Profiling stand-alone applications](../profiling/command-line-profiling-of-stand-alone-applications.md)
+- [Profiling ASP.NET web applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)
+- [Profiling services](../profiling/command-line-profiling-of-services.md)

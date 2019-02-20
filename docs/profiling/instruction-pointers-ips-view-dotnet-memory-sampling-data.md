@@ -37,4 +37,4 @@ The IPs view for .NET memory allocation profiling data that was collected by usi
 |**Exclusive Bytes %**|The percentage of all bytes of memory that were allocated in the profiling run that were allocated by the instruction.|
 
 ## See also
- [Instruction Pointers (IPs) View](../profiling/instruction-pointers-ips-view-sampling-data.md)
+- [Instruction Pointers (IPs) View](../profiling/instruction-pointers-ips-view-sampling-data.md)

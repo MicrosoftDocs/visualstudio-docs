@@ -28,6 +28,6 @@ You can serialize symbols that you must have to analyze your application. Symbol
 3.  Under **General Setting**, select **Automatically serialize symbol information**.
 
 ## See also
- [Configure performance sessions](../profiling/configuring-performance-sessions.md)
- [How to: Reference Windows symbol information](../profiling/how-to-reference-windows-symbol-information.md)
- [How to: Save analyzed report files](/previous-versions/visualstudio/visual-studio-2010/bb763106\(v\=vs.100\))
+- [Configure performance sessions](../profiling/configuring-performance-sessions.md)
+- [How to: Reference Windows symbol information](../profiling/how-to-reference-windows-symbol-information.md)
+- [How to: Save analyzed report files](/previous-versions/visualstudio/visual-studio-2010/bb763106\(v\=vs.100\))

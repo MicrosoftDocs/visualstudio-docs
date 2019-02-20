@@ -30,5 +30,5 @@ The colors of the first five span categories
 A span aggregation marker
 
 ## See also
- [Concurrency Visualizer markers](../profiling/concurrency-visualizer-markers.md)
- [Concurrency Visualizer SDK](../profiling/concurrency-visualizer-sdk.md)
+- [Concurrency Visualizer markers](../profiling/concurrency-visualizer-markers.md)
+- [Concurrency Visualizer SDK](../profiling/concurrency-visualizer-sdk.md)

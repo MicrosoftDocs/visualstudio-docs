@@ -142,4 +142,4 @@ This tab shows the call stack for a selected point on a thread segment in the ti
 This tab shows which thread unblocked the selected thread, and the unblocking call stack.
 
 ## See also
- [Concurrency Visualizer](../profiling/concurrency-visualizer.md)
+- [Concurrency Visualizer](../profiling/concurrency-visualizer.md)

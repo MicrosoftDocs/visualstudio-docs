@@ -46,4 +46,4 @@ This section describes the procedures and options for collecting performance sta
 |-   **Profile services**|-   [Collect application statistics using sampling](../profiling/collecting-application-statistics-for-services-by-using-the-profiler-sampling-method.md)|
 
 ### Analyze sampling data views and reports
- [Sampling method data views](../profiling/profiler-sampling-method-data-views.md)
+- [Sampling method data views](../profiling/profiler-sampling-method-data-views.md)

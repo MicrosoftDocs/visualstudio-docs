@@ -37,9 +37,9 @@ The Modules view of contention data displays concurrency data grouped by the mod
 |**Source File**|The source file that contains the definition for this function.|
 
 ## See also
- [How to: Customize Report View columns](../profiling/how-to-customize-report-view-columns.md)
- [Modules View](../profiling/modules-view.md)
- [Modules View - instrumentation](../profiling/modules-view-dotnet-memory-instrumentation-data.md)
- [Modules View - sampling](../profiling/modules-view-dotnet-memory-sampling-data.md)
- [Modules View](../profiling/modules-view-instrumentation-data.md)
- [Modules View](../profiling/modules-view-sampling-data.md)
+- [How to: Customize Report View columns](../profiling/how-to-customize-report-view-columns.md)
+- [Modules View](../profiling/modules-view.md)
+- [Modules View - instrumentation](../profiling/modules-view-dotnet-memory-instrumentation-data.md)
+- [Modules View - sampling](../profiling/modules-view-dotnet-memory-sampling-data.md)
+- [Modules View](../profiling/modules-view-instrumentation-data.md)
+- [Modules View](../profiling/modules-view-sampling-data.md)

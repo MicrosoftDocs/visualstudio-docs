@@ -68,6 +68,6 @@ Your choice of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profili
  Adding tier interaction data to a profiling run requires specific procedures with the command line profiling tools. See [Collect tier interaction data](../profiling/adding-tier-interaction-data-from-the-command-line.md)
 
 ## See also
- [Profile stand-alone applications](../profiling/command-line-profiling-of-stand-alone-applications.md)
- [Profile ASP.NET web applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)
- [Profile services](../profiling/command-line-profiling-of-services.md)
+- [Profile stand-alone applications](../profiling/command-line-profiling-of-stand-alone-applications.md)
+- [Profile ASP.NET web applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)
+- [Profile services](../profiling/command-line-profiling-of-services.md)

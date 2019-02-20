@@ -29,11 +29,11 @@ The performance reports of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.
 |**Configure, sort, and filter report views:** You can specify and order the data columns to display in a report, sort the report rows, and filter the data to include only a time segment that you specify.|-   [Customize performance tools report views](../profiling/customizing-performance-tools-report-views.md)|
 
 ## Related sections
- [Compare performance data files](../profiling/comparing-performance-data-files.md)
+- [Compare performance data files](../profiling/comparing-performance-data-files.md)
 
- [Save and export performance tools data](../profiling/saving-and-exporting-performance-tools-data.md)
+- [Save and export performance tools data](../profiling/saving-and-exporting-performance-tools-data.md)
 
 ## See also
- [Performance Explorer](../profiling/performance-explorer.md)
- [Profiling in Visual Studio](../profiling/index.md)
- [First look at profiling tools](../profiling/profiling-feature-tour.md)
+- [Performance Explorer](../profiling/performance-explorer.md)
+- [Profiling in Visual Studio](../profiling/index.md)
+- [First look at profiling tools](../profiling/profiling-feature-tour.md)

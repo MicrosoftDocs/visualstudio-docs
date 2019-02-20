@@ -42,6 +42,6 @@ The Caller/Callee view displays profiling information for a selected function an
 |**Exclusive Samples %**|The percentage of all samples in the profiling run that were exclusive samples of this function.|
 
 ## See also
- [Caller/Callee view - .NET memory sampling data](../profiling/caller-callee-view-dotnet-memory-sampling-data.md)
- [Caller/Callee view - .NET memory instrumentation data](../profiling/caller-callee-view-net-memory-instrumentation-data.md)
- [Caller/Callee view - instrumentation data](../profiling/caller-callee-view-instrumentation-data.md)
+- [Caller/Callee view - .NET memory sampling data](../profiling/caller-callee-view-dotnet-memory-sampling-data.md)
+- [Caller/Callee view - .NET memory instrumentation data](../profiling/caller-callee-view-net-memory-instrumentation-data.md)
+- [Caller/Callee view - instrumentation data](../profiling/caller-callee-view-instrumentation-data.md)

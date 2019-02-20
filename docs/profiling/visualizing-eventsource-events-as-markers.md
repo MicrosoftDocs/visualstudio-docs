@@ -88,4 +88,4 @@ The Concurrency Visualizer can display EventSource events as markers, and you ca
 >  The use of SpanID to nest spans, allow them to partially overlap on the same thread, or allow them to start on one thread and end on another is not supported.
 
 ## See also
- [Concurrency visualizer markers](../profiling/concurrency-visualizer-markers.md)
+- [Concurrency visualizer markers](../profiling/concurrency-visualizer-markers.md)

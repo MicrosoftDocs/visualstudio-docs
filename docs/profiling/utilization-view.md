@@ -43,5 +43,5 @@ The **Utilization view** displays information about the CPU, GPU, and other syst
  To zoom in on the CPU Utilization graph or the GPU Activity graph, select a section or use the zoom slider tool above the graph. The zoom setting persists as you switch to other views. To zoom out again, use the zoom slider tool. You can also zoom by using **Ctrl**+**scroll**.
 
 ## See also
- [Concurrency Visualizer](../profiling/concurrency-visualizer.md)
- [Cores view](../profiling/cores-view.md)
+- [Concurrency Visualizer](../profiling/concurrency-visualizer.md)
+- [Cores view](../profiling/cores-view.md)

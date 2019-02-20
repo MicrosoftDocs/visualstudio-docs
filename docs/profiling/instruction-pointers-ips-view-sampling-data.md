@@ -36,4 +36,4 @@ The IPs view of sampling data lists performance data for the assembly instructio
 |**Exclusive Samples %**|The percentage of all samples in the profiling run that were collected when the instruction was executing.|
 
 ## See also
- [Instruction Pointers (IPs) View - sampling](../profiling/instruction-pointers-ips-view-dotnet-memory-sampling-data.md)
+- [Instruction Pointers (IPs) View - sampling](../profiling/instruction-pointers-ips-view-dotnet-memory-sampling-data.md)

@@ -27,5 +27,5 @@ The CPU Utilization graph shows the level of utilization in an app over time. Th
 -   White indicates the availability of unused logical cores on the system. Those cores are available for your process if you can find more opportunities for parallelism.
 
 ## See also
- [Utilization View](../profiling/utilization-view.md)
- [Average CPU Utilization](../profiling/average-cpu-utilization.md)
+- [Utilization View](../profiling/utilization-view.md)
+- [Average CPU Utilization](../profiling/average-cpu-utilization.md)

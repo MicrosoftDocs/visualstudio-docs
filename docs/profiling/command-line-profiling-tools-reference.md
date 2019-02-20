@@ -13,20 +13,26 @@ ms.workload:
 Command-line performance tools allow programmers to profile their applications at the command prompt. The following command-line profiling tools allow you to profile code at the command prompt.
 
 ## In this section
- [VSInstr](../profiling/vsinstr.md)
+- [VSInstr](../profiling/vsinstr.md)
+
  Lists VSInstr.exe instrumentation options.
 
- [VSInstr Warnings](../profiling/vsinstr-warnings.md)
+- [VSInstr Warnings](../profiling/vsinstr-warnings.md)
+
  Lists warnings issued by VSInstr tool.
 
- [VSPerfCLREnv](../profiling/vsperfclrenv.md)
+- [VSPerfCLREnv](../profiling/vsperfclrenv.md)
+
  Lists VSPerfCLREnv.exe options to configure the environment for profiling managed code.
 
- [VSPerfCmd](../profiling/vsperfcmd.md)
+- [VSPerfCmd](../profiling/vsperfcmd.md)
+
  Lists VSPerfCmd.exe options for collecting performance data.
 
- [VSPerfMon](../profiling/vsperfmon.md)
+- [VSPerfMon](../profiling/vsperfmon.md)
+
  Lists VSPerfMon.exe options for gathering data collection.
 
- [VSPerfReport](../profiling/vsperfreport.md)
+- [VSPerfReport](../profiling/vsperfreport.md)
+
  Lists VSPerfReport.exe command-line options for creating reports.

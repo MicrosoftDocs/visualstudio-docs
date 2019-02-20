@@ -61,7 +61,7 @@ VSPerfCmd.exe /Launch:TestApp.exe /Timer:1000000
 ```
 
 ## See also
- [VSPerfCmd](../profiling/vsperfcmd.md)
- [Profile stand-alone applications](../profiling/command-line-profiling-of-stand-alone-applications.md)
- [Profile ASP.NET web applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)
- [Profile services](../profiling/command-line-profiling-of-services.md)
+- [VSPerfCmd](../profiling/vsperfcmd.md)
+- [Profile stand-alone applications](../profiling/command-line-profiling-of-stand-alone-applications.md)
+- [Profile ASP.NET web applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)
+- [Profile services](../profiling/command-line-profiling-of-services.md)

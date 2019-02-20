@@ -55,8 +55,8 @@ The profiler can be used to attach to or detach from a running process to make s
 3.  Click **Detach**.
 
 ## See also
- [Control data collection](../profiling/controlling-data-collection.md)
- [Performance session overview](../profiling/performance-session-overview.md)
- [How to: Start and end performance data collection](../profiling/how-to-start-and-end-performance-data-collection.md)
- [Profiling and Windows Vista security](../profiling/profiling-and-windows-vista-security.md)
- [VSPerfCmd](../profiling/vsperfcmd.md)
+- [Control data collection](../profiling/controlling-data-collection.md)
+- [Performance session overview](../profiling/performance-session-overview.md)
+- [How to: Start and end performance data collection](../profiling/how-to-start-and-end-performance-data-collection.md)
+- [Profiling and Windows Vista security](../profiling/profiling-and-windows-vista-security.md)
+- [VSPerfCmd](../profiling/vsperfcmd.md)

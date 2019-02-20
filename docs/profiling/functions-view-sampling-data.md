@@ -34,7 +34,7 @@ The Functions report view for the sampling profile method lists the functions th
 |**Exclusive Samples %**|The percentage of all samples in the profiling run that were exclusive samples of this function.|
 
 ## See also
- [How to: Customize Report View columns](../profiling/how-to-customize-report-view-columns.md)
- [Functions View - instrumentation](../profiling/functions-view-dotnet-memory-instrumentation-data.md)
- [Functions View - sampling](../profiling/functions-view-dotnet-memory-sampling-data.md)
- [Functions View](../profiling/functions-view-instrumentation-data.md)
+- [How to: Customize Report View columns](../profiling/how-to-customize-report-view-columns.md)
+- [Functions View - instrumentation](../profiling/functions-view-dotnet-memory-instrumentation-data.md)
+- [Functions View - sampling](../profiling/functions-view-dotnet-memory-sampling-data.md)
+- [Functions View](../profiling/functions-view-instrumentation-data.md)

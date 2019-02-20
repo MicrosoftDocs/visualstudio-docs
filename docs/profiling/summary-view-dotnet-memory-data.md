@@ -42,5 +42,5 @@ The Summary view displays information about the .NET functions and types that al
 |**Instances %**|The percentage of the total number of.NET objects that were created in the profiling run that were instances of this type.|
 
 ## See also
- [Summary view - sampling data](../profiling/summary-view-sampling-data.md)
- [Summary view - instrumentation data](../profiling/summary-view-instrumentation-data.md)
+- [Summary view - sampling data](../profiling/summary-view-sampling-data.md)
+- [Summary view - instrumentation data](../profiling/summary-view-instrumentation-data.md)

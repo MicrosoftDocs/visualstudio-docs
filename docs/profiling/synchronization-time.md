@@ -23,4 +23,4 @@ These segments in the timeline are associated with blocking times that are categ
   To understand the underlying cause for a thread blocking event, carefully examine the blocking call stacks and profile reports.
 
 ## See also
- [Threads view](../profiling/threads-view-parallel-performance.md)
+- [Threads view](../profiling/threads-view-parallel-performance.md)

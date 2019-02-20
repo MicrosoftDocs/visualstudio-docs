@@ -33,5 +33,5 @@ The Process view displays contention data for the processes and threads that wer
 |**Unique ID**|A profiler-generated identifier that is unique to the process or thread.|
 
 ## See also
- [How to: Customize Report View columns](../profiling/how-to-customize-report-view-columns.md)
- [Process View](../profiling/process-view.md)
+- [How to: Customize Report View columns](../profiling/how-to-customize-report-view-columns.md)
+- [Process View](../profiling/process-view.md)

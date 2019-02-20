@@ -35,4 +35,4 @@ void write_alert(
  **Namespace:** Concurrency::diagnostic
 
 ## See also
- [marker_series class](../profiling/marker-series-class.md)
+- [marker_series class](../profiling/marker-series-class.md)

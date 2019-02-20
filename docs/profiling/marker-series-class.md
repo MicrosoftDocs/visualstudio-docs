@@ -49,4 +49,4 @@ class marker_series;
  **Namespace:** Concurrency::diagnostic
 
 ## See also
- [diagnostic namespace](../profiling/diagnostic-namespace.md)
+- [diagnostic namespace](../profiling/diagnostic-namespace.md)

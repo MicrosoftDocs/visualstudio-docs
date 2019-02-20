@@ -84,4 +84,4 @@ VSPerfReport [/U] /diff vspfilename1 vspfilename2 [/options]
 |**QueryDiffTables**|List the valid tables and columns for the two report files provided.|
 
 ## See also
- [Performance report views](../profiling/performance-report-views.md)
+- [Performance report views](../profiling/performance-report-views.md)

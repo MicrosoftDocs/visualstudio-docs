@@ -21,6 +21,6 @@ The **Cores View** shows how thread execution was mapped to the logical processo
  The legend area has an entry for each color in the graph. Each entry shows the thread color and name, the number of cross-core context switches, the total number of context switches, and the percentage of context switches that cross cores. The legend is sorted by the number of cross-core context switches, in decreasing order. It lists only the threads that executed during the displayed time range.  The list is updated if you zoom or pan.
 
 ## See also
- [Concurrency Visualizer](../profiling/concurrency-visualizer.md)
- [Utilization View](../profiling/utilization-view.md)
- [Threads View](../profiling/threads-view-parallel-performance.md)
+- [Concurrency Visualizer](../profiling/concurrency-visualizer.md)
+- [Utilization View](../profiling/utilization-view.md)
+- [Threads View](../profiling/threads-view-parallel-performance.md)

@@ -54,4 +54,4 @@ The Lines view of sampling data lists performance data for the statements that w
 |**Exclusive Samples %**|The percentage of all samples in the profiling run that were collected when the function line was executing.|
 
 ## See also
- [Lines View - sampling](../profiling/lines-view-dotnet-memory-sampling-data.md)
+- [Lines View - sampling](../profiling/lines-view-dotnet-memory-sampling-data.md)

@@ -53,4 +53,4 @@ _Check_return_ HRESULT CvCreateMarkerSeriesA(
  **ANSI:** CvCreateMarkerSeriesA
 
 ## See also
- [C++ library reference](../profiling/cpp-library-reference.md)
+- [C++ library reference](../profiling/cpp-library-reference.md)

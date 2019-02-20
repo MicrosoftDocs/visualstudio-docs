@@ -46,8 +46,8 @@ ms.workload:
 6. Use the [VSPerfReport](../profiling/vsperfreport.md) tool to serialize your symbols into the profiling data (.vsp) file. Use the **VSPerfReport /summary:all /packsymbols** switches. If you do not have symbols inserted in your data file, make sure that you have the _NT_SYMBOL_PATH environment variable set.
 
 ## See also
- [Profile from the command-line](../profiling/using-the-profiling-tools-from-the-command-line.md)
- [Walkthrough: Command-line profiling using sampling](../profiling/walkthrough-command-line-profiling-using-sampling.md)
- [Walkthrough: Command-line profiling using instrumentation](/visualstudio/profiling/command-line-profiling-of-stand-alone-applications)
- [How to: Reference Windows symbol information](../profiling/how-to-reference-windows-symbol-information.md)
- [VSPerfReport](../profiling/vsperfreport.md)
+- [Profile from the command-line](../profiling/using-the-profiling-tools-from-the-command-line.md)
+- [Walkthrough: Command-line profiling using sampling](../profiling/walkthrough-command-line-profiling-using-sampling.md)
+- [Walkthrough: Command-line profiling using instrumentation](/visualstudio/profiling/command-line-profiling-of-stand-alone-applications)
+- [How to: Reference Windows symbol information](../profiling/how-to-reference-windows-symbol-information.md)
+- [VSPerfReport](../profiling/vsperfreport.md)

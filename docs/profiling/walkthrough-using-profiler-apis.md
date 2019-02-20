@@ -33,9 +33,9 @@ The walkthrough uses a C# application to demonstrate how to use the [!INCLUDE[vs
 ## Prerequisites
  This walkthrough assumes your choice of development environment is configured to support debugging and sampling. The following topics provide an overview of these prerequisites:
 
- [How to: Choose collection methods](../profiling/how-to-choose-collection-methods.md)
+- [How to: Choose collection methods](../profiling/how-to-choose-collection-methods.md)
 
- [How to: Reference Windows symbol information](../profiling/how-to-reference-windows-symbol-information.md)
+- [How to: Reference Windows symbol information](../profiling/how-to-reference-windows-symbol-information.md)
 
  By default, when the profiler is started, the profiler collects data at the global level. The following code at the start of the program turns global profiling off.
 
@@ -160,7 +160,8 @@ DataCollection.CurrentId);
      A .*csv* file is created in the current directory with the resulting performance data.
 
 ## See also
- <xref:Microsoft.VisualStudio.Profiler>
- [Visual Studio profiler API reference (native)](../profiling/visual-studio-profiler-api-reference-native.md)
- [Getting started](../profiling/getting-started-with-performance-tools.md)
- [Profile from the command-line](../profiling/using-the-profiling-tools-from-the-command-line.md)
+
+- <xref:Microsoft.VisualStudio.Profiler>
+- [Visual Studio profiler API reference (native)](../profiling/visual-studio-profiler-api-reference-native.md)
+- [Getting started](../profiling/getting-started-with-performance-tools.md)
+- [Profile from the command-line](../profiling/using-the-profiling-tools-from-the-command-line.md)

@@ -21,4 +21,4 @@ These segments in the timeline are associated with blocking times that are categ
  The UI Processing category helps you understand the responsiveness of GUI applications, and is desirable in applications that depend on UI responsiveness. For example, if the UI thread in an application achieves 100% time in UI Processing, it is probably responsive. However, if the UI thread spends considerable time in other categories, look for the root causes and consider options for reducing non-UI categories on that thread.
 
 ## See also
- [Threads View](../profiling/threads-view-parallel-performance.md)
+- [Threads View](../profiling/threads-view-parallel-performance.md)

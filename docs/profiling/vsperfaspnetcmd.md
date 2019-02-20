@@ -33,5 +33,5 @@ The **VSPerfASPNetCmd.exe** command-line tool allows you to profile ASP.Net web 
 |`Website`|The url of the website to be profiled.|
 
 ## See also
- [Rapid web site profiling with VSPerfASPNETCmd](../profiling/rapid-web-site-profiling-with-vsperfaspnetcmd.md)
- [Profile ASP.NET web applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)
+- [Rapid web site profiling with VSPerfASPNETCmd](../profiling/rapid-web-site-profiling-with-vsperfaspnetcmd.md)
+- [Profile ASP.NET web applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)

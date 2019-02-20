@@ -19,4 +19,4 @@ The zoom control helps you zoom in on the CPU utilization chart in order to focu
  You can drag the mouse pointer in the CPU utilization chart or GPU activity chart to create a highlighted area. When the mouse button is released, the view zooms in on the selected range.
 
 ## See also
- [Utilization view](../profiling/utilization-view.md)
+- [Utilization view](../profiling/utilization-view.md)

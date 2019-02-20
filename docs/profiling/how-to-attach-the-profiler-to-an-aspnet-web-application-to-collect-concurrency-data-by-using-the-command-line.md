@@ -75,5 +75,5 @@ To get the path to the profiling tools, see [Specify the path to command line to
      **VSPerfCmd**  [/shutdown](../profiling/shutdown.md)
 
 ## See also
- [Profile ASP.NET web applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)
- [Rapid web site profiling with VSPerfASPNETCmd](../profiling/rapid-web-site-profiling-with-vsperfaspnetcmd.md)
+- [Profile ASP.NET web applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)
+- [Rapid web site profiling with VSPerfASPNETCmd](../profiling/rapid-web-site-profiling-with-vsperfaspnetcmd.md)

@@ -31,5 +31,5 @@ You can manually create a performance session. You are not required to open a pr
      A new binary is added.
 
 ## See also
- [Performance Explorer](../profiling/performance-explorer.md)
- [Getting started](../profiling/getting-started-with-performance-tools.md)
+- [Performance Explorer](../profiling/performance-explorer.md)
+- [Getting started](../profiling/getting-started-with-performance-tools.md)

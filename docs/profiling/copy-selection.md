@@ -17,4 +17,4 @@ ms.workload:
 To copy the entire call stack from the report tab, click **Copy**. You can then paste the call stack in any program that supports that action.
 
 ## See also
- [Threads View](../profiling/threads-view-parallel-performance.md)
+- [Threads View](../profiling/threads-view-parallel-performance.md)

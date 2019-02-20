@@ -50,6 +50,6 @@ The Summary view displays information about the most performance-expensive funct
 | **Toggle Full Screen** | Toggles full-screen mode for the report view. |
 
 ## See also
- [Summary view - sampling data](../profiling/summary-view-sampling-data.md)
- [Summary view - instrumentation data](../profiling/summary-view-instrumentation-data.md)
- [Summary view - .NET memory data](../profiling/summary-view-dotnet-memory-data.md)
+- [Summary view - sampling data](../profiling/summary-view-sampling-data.md)
+- [Summary view - instrumentation data](../profiling/summary-view-instrumentation-data.md)
+- [Summary view - .NET memory data](../profiling/summary-view-dotnet-memory-data.md)

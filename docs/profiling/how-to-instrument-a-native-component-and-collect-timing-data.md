@@ -75,5 +75,5 @@ To collect detailed timing data from a component by using the instrumentation me
      **VSPerfCmd /shutdown**
 
 ## See also
- [Profile stand-alone applications](../profiling/command-line-profiling-of-stand-alone-applications.md)
- [Instrumentation method data views](../profiling/instrumentation-method-data-views.md)
+- [Profile stand-alone applications](../profiling/command-line-profiling-of-stand-alone-applications.md)
+- [Instrumentation method data views](../profiling/instrumentation-method-data-views.md)

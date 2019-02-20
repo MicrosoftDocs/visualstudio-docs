@@ -68,5 +68,5 @@ This overview explains the basics of profiling. Developers who are new to perfor
  You can paste rows of any performance report view into e-mails and spreadsheets, and you can generate reports that contain the data for one or more views.
 
 ## See also
- [Overviews](../profiling/overviews-performance-tools.md)
- [Walkthrough: Identify performance problems](/visualstudio/profiling/beginners-guide-to-cpu-sampling)
+- [Overviews](../profiling/overviews-performance-tools.md)
+- [Walkthrough: Identify performance problems](/visualstudio/profiling/beginners-guide-to-cpu-sampling)

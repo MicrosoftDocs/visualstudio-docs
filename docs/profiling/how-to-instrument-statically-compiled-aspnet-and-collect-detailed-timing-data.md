@@ -101,5 +101,5 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
 5. Restart the computer.
 
 ## See also
- [Profile ASP.NET web applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)
- [Instrumentation method data views](../profiling/instrumentation-method-data-views.md)
+- [Profile ASP.NET web applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)
+- [Instrumentation method data views](../profiling/instrumentation-method-data-views.md)

@@ -34,4 +34,4 @@ The Execution Profile Report is a traditional sampling profile. Samples are take
  This report table can be seen in the [Execution time (Threads View)](../profiling/execution-time-threads-view.md) view.
 
 ## See also
- [Threads View](../profiling/threads-view-parallel-performance.md)
+- [Threads View](../profiling/threads-view-parallel-performance.md)

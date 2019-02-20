@@ -41,5 +41,5 @@ An alert marker
 Aggregation flags by level of importance
 
 ## See also
- [Concurrency Visualizer markers](../profiling/concurrency-visualizer-markers.md)
- [Concurrency Visualizer SDK](../profiling/concurrency-visualizer-sdk.md)
+- [Concurrency Visualizer markers](../profiling/concurrency-visualizer-markers.md)
+- [Concurrency Visualizer SDK](../profiling/concurrency-visualizer-sdk.md)

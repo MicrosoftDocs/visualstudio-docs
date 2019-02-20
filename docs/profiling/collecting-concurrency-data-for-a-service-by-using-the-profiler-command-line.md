@@ -41,9 +41,9 @@ The concurrency method of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.m
 |**Profile ASP.NET Web applications**|-   [Collect concurrency data](../profiling/collecting-concurrency-data-for-an-aspnet-web-application.md)|
 
 ### Analyze concurrency data views and reports
- [Resource contention data views](../profiling/resource-contention-data-views.md)
+- [Resource contention data views](../profiling/resource-contention-data-views.md)
 
- [Concurrency Visualizer](../profiling/concurrency-visualizer.md)
+- [Concurrency Visualizer](../profiling/concurrency-visualizer.md)
 
 ## Reference
- [Command-line profiling tools reference](../profiling/command-line-profiling-tools-reference.md)
+- [Command-line profiling tools reference](../profiling/command-line-profiling-tools-reference.md)

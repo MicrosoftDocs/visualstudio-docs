@@ -35,6 +35,6 @@ The Modules view of sampling data displays performance data that is grouped by t
 |**Exclusive Samples %**|-   For a function or module, the percentage of all samples in the profiling run that were exclusive samples of this function or module.<br />-   For a line or instruction, the percentage of all samples in the profiling run in which this line or instruction was executing.|
 
 ## See also
- [Modules View - sampling](../profiling/modules-view-dotnet-memory-sampling-data.md)
- [Modules View - instrumentation](../profiling/modules-view-dotnet-memory-instrumentation-data.md)
- [Modules View](../profiling/modules-view-instrumentation-data.md)
+- [Modules View - sampling](../profiling/modules-view-dotnet-memory-sampling-data.md)
+- [Modules View - instrumentation](../profiling/modules-view-dotnet-memory-instrumentation-data.md)
+- [Modules View](../profiling/modules-view-instrumentation-data.md)

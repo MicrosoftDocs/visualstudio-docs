@@ -26,7 +26,7 @@ To manually specify and configure a performance profiling session, select **Debu
 
 **See also:**
 
- [Performance tools overviews](../profiling/overviews-performance-tools.md)
- [Analyzing performance tools data](../profiling/analyzing-performance-tools-data.md)
- [Using performance rules to analyze data](../profiling/using-performance-rules-to-analyze-data.md)
- [Configuring performance sessions](../profiling/configuring-performance-sessions.md)
+- [Performance tools overviews](../profiling/overviews-performance-tools.md)
+- [Analyzing performance tools data](../profiling/analyzing-performance-tools-data.md)
+- [Using performance rules to analyze data](../profiling/using-performance-rules-to-analyze-data.md)
+- [Configuring performance sessions](../profiling/configuring-performance-sessions.md)

@@ -29,7 +29,7 @@ By using [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Too
 | **Set advanced configuration options:** When you profile .NET Framework applications that load multiple versions of the common language run-time (CLR), you can specify which version to profile. When you have multiple .exe files in a performance session, you can set the start order of the binaries. | -   [How to: Specify the .NET Framework runtime](../profiling/how-to-specify-the-dotnet-framework-runtime.md)<br />-   [How to: Specify the binary to start](../profiling/how-to-specify-the-binary-to-start.md) |
 
 ## Related sections
- [Control data collection](../profiling/controlling-data-collection.md)
+- [Control data collection](../profiling/controlling-data-collection.md)
 
 ## See also
- [Performance Explorer](../profiling/performance-explorer.md)
+- [Performance Explorer](../profiling/performance-explorer.md)

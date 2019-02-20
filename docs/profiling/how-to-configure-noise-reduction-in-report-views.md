@@ -71,7 +71,7 @@ Performance reports can be configured for noise reduction by limiting the amount
 4.  Click **OK**.
 
 ## See also
- [Customize performance tools report views](../profiling/customizing-performance-tools-report-views.md)
- [How to: Exclude or include short functions from instrumentation](../profiling/how-to-exclude-or-include-short-functions-from-instrumentation.md)
- [Call Tree View](../profiling/call-tree-view.md)
- [Allocations View](../profiling/dotnet-memory-allocations-view.md)
+- [Customize performance tools report views](../profiling/customizing-performance-tools-report-views.md)
+- [How to: Exclude or include short functions from instrumentation](../profiling/how-to-exclude-or-include-short-functions-from-instrumentation.md)
+- [Call Tree View](../profiling/call-tree-view.md)
+- [Allocations View](../profiling/dotnet-memory-allocations-view.md)

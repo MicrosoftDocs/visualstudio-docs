@@ -121,5 +121,5 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
     **IISReset /start**
 
 ## See also
- [Profile ASP.NET web applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)
- [.NET memory data views](../profiling/dotnet-memory-data-views.md)
+- [Profile ASP.NET web applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)
+- [.NET memory data views](../profiling/dotnet-memory-data-views.md)

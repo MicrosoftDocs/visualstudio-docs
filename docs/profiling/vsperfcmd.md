@@ -84,6 +84,6 @@ VSPerfCmd [/U] [/options]
  The **VSPerfCmd /Driver** option is now obsolete. Use the **VsPerfCmd Admin** options for this functionality.
 
 ## See also
- [VSInstr](../profiling/vsinstr.md)
- [VSPerfMon](../profiling/vsperfmon.md)
- [VSPerfReport](../profiling/vsperfreport.md)
+- [VSInstr](../profiling/vsinstr.md)
+- [VSPerfMon](../profiling/vsperfmon.md)
+- [VSPerfReport](../profiling/vsperfreport.md)

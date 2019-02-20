@@ -22,4 +22,4 @@ The GPU Activity graph in the Concurrency Visualizer displays the level of Direc
  White indicates the availability of unused DirectX engines on the system. Those engines are available for your process if you can find more opportunities to exploit them. Some engines can only be used for specific kinds of tasks.
 
 ## See also
- [Utilization View](../profiling/utilization-view.md)
+- [Utilization View](../profiling/utilization-view.md)

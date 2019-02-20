@@ -124,5 +124,5 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
 4.  Restart the computer.
 
 ## See also
- [Profile services](../profiling/command-line-profiling-of-services.md)
- [Sampling method data views](../profiling/profiler-sampling-method-data-views.md)
+- [Profile services](../profiling/command-line-profiling-of-services.md)
+- [Sampling method data views](../profiling/profiler-sampling-method-data-views.md)

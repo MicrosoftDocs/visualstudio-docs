@@ -34,5 +34,5 @@ The  *call trace report* for the [!INCLUDE[vsprvs](../code-quality/includes/vspr
 
 
 ## See also
- [How to: Collect Event Tracing for Windows (ETW) data](../profiling/how-to-collect-event-tracing-for-windows-etw-data.md)
- [Profiling tools APIs](../profiling/profiling-tools-apis.md)
+- [How to: Collect Event Tracing for Windows (ETW) data](../profiling/how-to-collect-event-tracing-for-windows-etw-data.md)
+- [Profiling tools APIs](../profiling/profiling-tools-apis.md)

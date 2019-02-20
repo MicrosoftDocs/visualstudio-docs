@@ -18,4 +18,4 @@ The **GPU Activity (Paging)** segments on the **Threads** tab represent times wh
  When you select a GPU paging segment, the report on the **Current** tab displays information about the DMA packet that was processed. This includes the amount of time it waited in the hardware queue that's associated with the DirectX engine, the process that submitted the DMA packet, and the time that's required to process the packet.
 
 ## See also
- [Utilization View](../profiling/utilization-view.md)
+- [Utilization View](../profiling/utilization-view.md)

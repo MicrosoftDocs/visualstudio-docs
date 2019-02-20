@@ -36,9 +36,9 @@ The Functions report view of contention data lists the functions in the profilin
 |**Source File**|The source file that contains the definition for this function.|
 
 ## See also
- [How to: Customize Report View columns](../profiling/how-to-customize-report-view-columns.md)
- [Functions View](../profiling/functions-view.md)
- [Functions View - instrumentation](../profiling/functions-view-dotnet-memory-instrumentation-data.md)
- [Functions View - sampling](../profiling/functions-view-dotnet-memory-sampling-data.md)
- [Functions View](../profiling/functions-view-instrumentation-data.md)
- [Functions View](../profiling/functions-view-sampling-data.md)
+- [How to: Customize Report View columns](../profiling/how-to-customize-report-view-columns.md)
+- [Functions View](../profiling/functions-view.md)
+- [Functions View - instrumentation](../profiling/functions-view-dotnet-memory-instrumentation-data.md)
+- [Functions View - sampling](../profiling/functions-view-dotnet-memory-sampling-data.md)
+- [Functions View](../profiling/functions-view-instrumentation-data.md)
+- [Functions View](../profiling/functions-view-sampling-data.md)

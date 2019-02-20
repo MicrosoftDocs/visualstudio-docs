@@ -89,5 +89,5 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
      **VSPerfClrEnv /off**
 
 ## See also
- [Profile stand-alone applications](../profiling/command-line-profiling-of-stand-alone-applications.md)
- [Instrumentation method data views](../profiling/instrumentation-method-data-views.md)
+- [Profile stand-alone applications](../profiling/command-line-profiling-of-stand-alone-applications.md)
+- [Instrumentation method data views](../profiling/instrumentation-method-data-views.md)

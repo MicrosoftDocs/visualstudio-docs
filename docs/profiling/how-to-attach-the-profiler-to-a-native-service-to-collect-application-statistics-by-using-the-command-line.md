@@ -98,5 +98,5 @@ This article describes how to use the [!INCLUDE[vsprvs](../code-quality/includes
      **VSPerfCmd /shutdown**
 
 ## See also
- [Profile services](../profiling/command-line-profiling-of-services.md)
- [Sampling method data views](../profiling/profiler-sampling-method-data-views.md)
+- [Profile services](../profiling/command-line-profiling-of-services.md)
+- [Sampling method data views](../profiling/profiler-sampling-method-data-views.md)

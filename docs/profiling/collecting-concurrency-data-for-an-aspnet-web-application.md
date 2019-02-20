@@ -23,7 +23,7 @@ The concurrency method of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.m
 |Attach the profiler to a running ASP.NET application|-   [How to: Attach the profiler to an ASP.NET application to collect concurrency data](../profiling/how-to-attach-the-profiler-to-an-aspnet-web-application-to-collect-concurrency-data-by-using-the-command-line.md)|
 
 ## Reference
- [Command-line profiling tools reference](../profiling/command-line-profiling-tools-reference.md)
+- [Command-line profiling tools reference](../profiling/command-line-profiling-tools-reference.md)
 
 ## Related tasks
 
@@ -44,9 +44,9 @@ The concurrency method of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.m
 |**Profile services**|-   [Collect concurrency data](../profiling/collecting-concurrency-data-for-a-service-by-using-the-profiler-command-line.md)|
 
 ### Analyze concurrency data views and reports
- [Resource contention data views](../profiling/resource-contention-data-views.md)
+- [Resource contention data views](../profiling/resource-contention-data-views.md)
 
- [Concurrency Visualizer](../profiling/concurrency-visualizer.md)
+- [Concurrency Visualizer](../profiling/concurrency-visualizer.md)
 
 ## Reference
- [Command-line profiling tools reference](../profiling/command-line-profiling-tools-reference.md)
+- [Command-line profiling tools reference](../profiling/command-line-profiling-tools-reference.md)

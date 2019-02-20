@@ -28,6 +28,6 @@ The Instruction Pointers view enables you to see specific instructions that are 
  For .NET memory data, the Lines view identifies the instructions that allocate memory.
 
 ## See also
- [Instruction Pointers (IPs) View](../profiling/instruction-pointers-ips-view-sampling-data.md)
- [Instruction Pointers (IPs) View - sampling](../profiling/instruction-pointers-ips-view-dotnet-memory-sampling-data.md)
- [Instruction Pointers (IPs) View](../profiling/instruction-pointers-ips-view-contention-data.md)
+- [Instruction Pointers (IPs) View](../profiling/instruction-pointers-ips-view-sampling-data.md)
+- [Instruction Pointers (IPs) View - sampling](../profiling/instruction-pointers-ips-view-dotnet-memory-sampling-data.md)
+- [Instruction Pointers (IPs) View](../profiling/instruction-pointers-ips-view-contention-data.md)

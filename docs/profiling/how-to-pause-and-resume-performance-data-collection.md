@@ -32,5 +32,5 @@ From the profiling session page window, you can control the collection of profil
     -   Choose **Stop profiling** to end the profiling session and generate reports.
 
 ## See also
- [Control data collection](../profiling/controlling-data-collection.md)
- [How to: Start and end performance data collection](../profiling/how-to-start-and-end-performance-data-collection.md)
+- [Control data collection](../profiling/controlling-data-collection.md)
+- [How to: Start and end performance data collection](../profiling/how-to-start-and-end-performance-data-collection.md)

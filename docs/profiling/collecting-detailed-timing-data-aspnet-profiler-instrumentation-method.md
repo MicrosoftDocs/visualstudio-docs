@@ -46,4 +46,4 @@ This section describes the procedures and options for collecting detailed perfor
 |**Profile services**|-   [Collect detailed timing data using instrumentation](../profiling/collecting-detailed-timing-data-for-services-by-using-the-instrumentation-method.md)|
 
 ### Analyze instrumentation data views and reports
- [Instrumentation method data views](../profiling/instrumentation-method-data-views.md)
+- [Instrumentation method data views](../profiling/instrumentation-method-data-views.md)

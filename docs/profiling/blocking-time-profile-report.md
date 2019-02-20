@@ -53,4 +53,4 @@ The Profile Reports provide aggregate blocking time data for call stacks that ar
  The UI Processing report shows the calls that are responsible for blocking segments that are blocking on UI processing blocks, and the aggregate blocking times of each call stack. For more information, see [UI processing time](../profiling/ui-processing-time.md).
 
 ## See also
- [Threads view](../profiling/threads-view-parallel-performance.md)
+- [Threads view](../profiling/threads-view-parallel-performance.md)

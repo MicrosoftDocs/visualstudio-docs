@@ -21,24 +21,25 @@ Visual Studio profiler APIs allow you to programmatically control the amount of 
 > To get the path to the profiling tools, see [Specify the path to command line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md).
 
 ## In this section
- [CommentMarkAtProfile](../profiling/commentmarkatprofile.md)
+[CommentMarkAtProfile](../profiling/commentmarkatprofile.md)
 
- [CommentMarkProfile](../profiling/commentmarkprofile.md)
+[CommentMarkProfile](../profiling/commentmarkprofile.md)
 
- [MarkProfile](../profiling/markprofile.md)
+[MarkProfile](../profiling/markprofile.md)
 
- [NameProfile](../profiling/nameprofile.md)
+[NameProfile](../profiling/nameprofile.md)
 
- [ResumeProfile](../profiling/resumeprofile.md)
+[ResumeProfile](../profiling/resumeprofile.md)
 
- [StartProfile](../profiling/startprofile.md)
+[StartProfile](../profiling/startprofile.md)
 
- [StopProfile](../profiling/stopprofile.md)
+[StopProfile](../profiling/stopprofile.md)
 
- [SuspendProfile](../profiling/suspendprofile.md)
+[SuspendProfile](../profiling/suspendprofile.md)
 
- [PROFILE_CURRENTID](../profiling/profile-currentid.md)
+[PROFILE_CURRENTID](../profiling/profile-currentid.md)
 
 ## See also
- [Profiling tools APIs](../profiling/profiling-tools-apis.md)
- [Walkthrough: Using profiler APIs](../profiling/walkthrough-using-profiler-apis.md)
+
+- [Profiling tools APIs](../profiling/profiling-tools-apis.md)
+- [Walkthrough: Using profiler APIs](../profiling/walkthrough-using-profiler-apis.md)

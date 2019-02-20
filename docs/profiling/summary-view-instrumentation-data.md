@@ -39,5 +39,5 @@ The Summary view displays information about the most performance-expensive funct
 |**Exclusive Time %**|The percentage of all time in the profiling data that the function spent executing code in its function body. Time spent in functions that the function called is not included.|
 
 ## See also
- [Summary view - sampling data](../profiling/summary-view-sampling-data.md)
- [Summary view - .NET memory data](../profiling/summary-view-dotnet-memory-data.md)
+- [Summary view - sampling data](../profiling/summary-view-sampling-data.md)
+- [Summary view - .NET memory data](../profiling/summary-view-dotnet-memory-data.md)

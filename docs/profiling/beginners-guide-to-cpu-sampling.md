@@ -118,8 +118,8 @@ You can use Visual Studio profiling tools to analyze performance issues in your 
      A new report window opens, displaying the results of the comparison. For more information about how to use the comparison view, see [How to: Compare performance data files](../profiling/how-to-compare-performance-data-files.md).
 
 ## See also
- [Performance Explorer](../profiling/performance-explorer.md)
- [Getting started](../profiling/getting-started-with-performance-tools.md)
- [Overviews](../profiling/overviews-performance-tools.md)
- [Profiling in Visual Studio](../profiling/index.md)
- [First look at profiling tools](../profiling/profiling-feature-tour.md)
+- [Performance Explorer](../profiling/performance-explorer.md)
+- [Getting started](../profiling/getting-started-with-performance-tools.md)
+- [Overviews](../profiling/overviews-performance-tools.md)
+- [Profiling in Visual Studio](../profiling/index.md)
+- [First look at profiling tools](../profiling/profiling-feature-tour.md)

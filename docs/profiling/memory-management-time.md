@@ -19,4 +19,4 @@ These segments in the timeline are associated with blocking times that are categ
  Examine the associated call stacks and profile reports to better understand the underlying reasons for blocks that are categorized as Memory Management.
 
 ## See also
- [Threads View](../profiling/threads-view-parallel-performance.md)
+- [Threads View](../profiling/threads-view-parallel-performance.md)

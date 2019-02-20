@@ -17,4 +17,4 @@ ms.workload:
 Each channel name represents one of the logical cores that exist on the profiled system. The naming counts up from 0 to the total number of logical cores. For example, a four-core system will count from logical core 0 to logical core 3.
 
 ## See also
- [Cores View](../profiling/cores-view.md)
+- [Cores View](../profiling/cores-view.md)
