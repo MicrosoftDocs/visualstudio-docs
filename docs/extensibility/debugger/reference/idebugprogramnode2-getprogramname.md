@@ -20,13 +20,13 @@ Gets the name of the program.
 
 ```cpp
 HRESULT GetProgramName (
-   BSTR* pbstrProgramName
+    BSTR* pbstrProgramName
 );
 ```
 
 ```csharp
 int GetProgramName (
-   out string pbstrProgramName
+    out string pbstrProgramName
 );
 ```
 
@@ -45,12 +45,12 @@ The following example shows how to implement this method for a simple `CProgram`
 
 ```cpp
 HRESULT CProgram::GetProgramName(BSTR* pbstrProgramName) {
-   if (!pbstrProgramName)
-      return E_INVALIDARG;
+    if (!pbstrProgramName)
+        return E_INVALIDARG;
 
-   // Assign the member program name to the passed program name.
-   *pbstrProgramName = MakeBstr(m_pszProgramName);
-   return NOERROR;
+    // Assign the member program name to the passed program name.
+    *pbstrProgramName = MakeBstr(m_pszProgramName);
+    return NOERROR;
 }
 ```
 
