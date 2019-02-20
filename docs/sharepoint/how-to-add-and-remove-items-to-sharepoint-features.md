@@ -47,5 +47,5 @@ ms.workload:
      The SharePoint Project Items appear in the **Items in the Solution** list.
 
 ## See also
- [Create SharePoint features](../sharepoint/creating-sharepoint-features.md)
- [Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)
+- [Create SharePoint features](../sharepoint/creating-sharepoint-features.md)
+- [Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)

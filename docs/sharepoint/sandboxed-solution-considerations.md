@@ -132,5 +132,5 @@ ms.workload:
 - Workflows with code
 
 ## See also
- [Differences between sandboxed and farm solutions](../sharepoint/differences-between-sandboxed-and-farm-solutions.md)
- [Developing SharePoint Solutions](../sharepoint/developing-sharepoint-solutions.md)
+- [Differences between sandboxed and farm solutions](../sharepoint/differences-between-sandboxed-and-farm-solutions.md)
+- [Developing SharePoint Solutions](../sharepoint/developing-sharepoint-solutions.md)

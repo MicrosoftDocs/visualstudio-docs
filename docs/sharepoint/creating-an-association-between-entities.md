@@ -71,5 +71,5 @@ ms.workload:
  [!code-vb[SP_BDC#10](../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/salesorderdetailservice.vb#10)]
 
 ## See also
- [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md)
- [How to: Create an association between entities](../sharepoint/how-to-create-an-association-between-entities.md)
+- [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md)
+- [How to: Create an association between entities](../sharepoint/how-to-create-an-association-between-entities.md)

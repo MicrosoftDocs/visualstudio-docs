@@ -72,6 +72,6 @@ ms.workload:
  To deploy the command, include the command assembly in the same [!include[vsprvs](../sharepoint/includes/vsprvs-md.md)] extension (*vsix*) package with the extension assembly that uses the command. You must also add an entry for the command assembly in the extension.vsixmanifest file. For more information, see [Deploy extensions for the SharePoint tools in Visual Studio](../sharepoint/deploying-extensions-for-the-sharepoint-tools-in-visual-studio.md).
 
 ## See also
- [Call into the SharePoint object models](../sharepoint/calling-into-the-sharepoint-object-models.md)
- [How to: Execute a SharePoint command](../sharepoint/how-to-execute-a-sharepoint-command.md)
- [Walkthrough: Extend Server Explorer to display web parts](../sharepoint/walkthrough-extending-server-explorer-to-display-web-parts.md)
+- [Call into the SharePoint object models](../sharepoint/calling-into-the-sharepoint-object-models.md)
+- [How to: Execute a SharePoint command](../sharepoint/how-to-execute-a-sharepoint-command.md)
+- [Walkthrough: Extend Server Explorer to display web parts](../sharepoint/walkthrough-extending-server-explorer-to-display-web-parts.md)

@@ -117,5 +117,5 @@ ms.workload:
 5.  On the QuickLaunch bar, choose the **Announcements Backup** link. Notice that all of the announcements that are contained in the **Announcements** list have been copied to this new list.
 
 ## See also
- [How to: Create an event receiver](../sharepoint/how-to-create-an-event-receiver.md)
- [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)
+- [How to: Create an event receiver](../sharepoint/how-to-create-an-event-receiver.md)
+- [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)

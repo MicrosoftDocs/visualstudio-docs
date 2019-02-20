@@ -112,8 +112,8 @@ ms.workload:
     A new type descriptor is added as a child to the collection type descriptor. Configure this type descriptor as an entity.
 
 ## See also
- [BDC model design tools overview](../sharepoint/bdc-model-design-tools-overview.md)
- [How to: Add an entity to a model](../sharepoint/how-to-add-an-entity-to-a-model.md)
- [How to: Add a parameter to a method](../sharepoint/how-to-add-a-parameter-to-a-method.md)
- [How to: Define a method instance](../sharepoint/how-to-define-a-method-instance.md)
- [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md)
+- [BDC model design tools overview](../sharepoint/bdc-model-design-tools-overview.md)
+- [How to: Add an entity to a model](../sharepoint/how-to-add-an-entity-to-a-model.md)
+- [How to: Add a parameter to a method](../sharepoint/how-to-add-a-parameter-to-a-method.md)
+- [How to: Define a method instance](../sharepoint/how-to-define-a-method-instance.md)
+- [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md)

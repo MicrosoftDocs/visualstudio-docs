@@ -128,7 +128,7 @@ ms.workload:
  The absence of a script manager control can be a problem when you import a [!INCLUDE[winshare3](../sharepoint/includes/winshare3-md.md)] or [!INCLUDE[offshare7](../sharepoint/includes/offshare7-md.md)] project into [!INCLUDE[vs_dev10_long](../sharepoint/includes/vs-dev10-long-md.md)], because the SharePointProductVersion attribute of all new projects is set to 14.0. If you deploy an upgraded project that has a Web form without a script manager, the form will not display in SharePoint.
 
 ## See also
- [Walkthrough: Import items from an existing SharePoint site](../sharepoint/walkthrough-import-items-from-an-existing-sharepoint-site.md)
- [Guidelines for importing reusable workflows](../sharepoint/guidelines-for-importing-reusable-workflows.md)
- [Walkthrough: Import a SharePoint Designer reusable workflow into Visual Studio](../sharepoint/walkthrough-import-a-sharepoint-designer-reusable-workflow-into-visual-studio.md)
- [How to: Add an existing BDC model file to a SharePoint project](../sharepoint/how-to-add-an-existing-bdc-model-file-to-a-sharepoint-project.md)
+- [Walkthrough: Import items from an existing SharePoint site](../sharepoint/walkthrough-import-items-from-an-existing-sharepoint-site.md)
+- [Guidelines for importing reusable workflows](../sharepoint/guidelines-for-importing-reusable-workflows.md)
+- [Walkthrough: Import a SharePoint Designer reusable workflow into Visual Studio](../sharepoint/walkthrough-import-a-sharepoint-designer-reusable-workflow-into-visual-studio.md)
+- [How to: Add an existing BDC model file to a SharePoint project](../sharepoint/how-to-add-an-existing-bdc-model-file-to-a-sharepoint-project.md)

@@ -44,4 +44,4 @@ ms.workload:
 |[How to: Add or remove SharePoint connections](../sharepoint/how-to-add-or-remove-sharepoint-connections.md)|Describes the steps that are required for adding a new SharePoint site to the **SharePoint Connections** node in **Server Explorer**.|
 
 ## See also
- [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)
+- [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)

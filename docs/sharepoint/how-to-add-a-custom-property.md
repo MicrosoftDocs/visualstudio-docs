@@ -38,7 +38,7 @@ ms.workload:
 6.  For the **Value** field of the custom property, specify a value, and then choose the **OK** button.
 
 ## See also
- [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md)
- [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md)
- [Create a business data connectivity model](../sharepoint/creating-a-business-data-connectivity-model.md)
- [Integrate business data into SharePoint](../sharepoint/integrating-business-data-into-sharepoint.md)
+- [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md)
+- [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md)
+- [Create a business data connectivity model](../sharepoint/creating-a-business-data-connectivity-model.md)
+- [Integrate business data into SharePoint](../sharepoint/integrating-business-data-into-sharepoint.md)

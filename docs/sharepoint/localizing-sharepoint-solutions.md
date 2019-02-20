@@ -123,8 +123,8 @@ HttpContext.GetGlobalResourceObject("<Resource File Name>", "<String ID>")
  In the derived class, reference the string ID from the resource file and the ResourceManager object to get the localized value for the string ID. Return this value to the property editor attribute.
 
 ## See also
- [How to: Localize a feature](../sharepoint/how-to-localize-a-feature.md)
- [How to: Localize ASPX markup](../sharepoint/how-to-localize-aspx-markup.md)
- [How to: Localize code](../sharepoint/how-to-localize-code.md)
- [How to: Add a resource file](../sharepoint/how-to-add-a-resource-file.md)
- [How to: Use a resource file to specify localized names, properties, and permissions](../sharepoint/how-to-use-a-resource-file-to-specify-localized-names-properties-and-permissions.md)
+- [How to: Localize a feature](../sharepoint/how-to-localize-a-feature.md)
+- [How to: Localize ASPX markup](../sharepoint/how-to-localize-aspx-markup.md)
+- [How to: Localize code](../sharepoint/how-to-localize-code.md)
+- [How to: Add a resource file](../sharepoint/how-to-add-a-resource-file.md)
+- [How to: Use a resource file to specify localized names, properties, and permissions](../sharepoint/how-to-use-a-resource-file-to-specify-localized-names-properties-and-permissions.md)

@@ -62,9 +62,9 @@ ms.workload:
      [!code-vb[SP_BDC#11](../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/salesorderservice.vb#11)]
 
 ## See also
- [How to: Add a Finder method](../sharepoint/how-to-add-a-finder-method.md)
- [How to: Add a specific Finder method](../sharepoint/how-to-add-a-specific-finder-method.md)
- [How to: Add a parameter to a method](../sharepoint/how-to-add-a-parameter-to-a-method.md)
- [How to: Define the type descriptor of a parameter](../sharepoint/how-to-define-the-type-descriptor-of-a-parameter.md)
- [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md)
- [Integrating business data into SharePoint](../sharepoint/integrating-business-data-into-sharepoint.md)
+- [How to: Add a Finder method](../sharepoint/how-to-add-a-finder-method.md)
+- [How to: Add a specific Finder method](../sharepoint/how-to-add-a-specific-finder-method.md)
+- [How to: Add a parameter to a method](../sharepoint/how-to-add-a-parameter-to-a-method.md)
+- [How to: Define the type descriptor of a parameter](../sharepoint/how-to-define-the-type-descriptor-of-a-parameter.md)
+- [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md)
+- [Integrating business data into SharePoint](../sharepoint/integrating-business-data-into-sharepoint.md)

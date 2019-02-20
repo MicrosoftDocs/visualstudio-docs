@@ -224,5 +224,5 @@ ms.workload:
     >  When accessing data in Silverlight across domains, Silverlight guards against security vulnerabilities that can be used to exploit web applications. If you encounter problems when accessing remote data in Silverlight, see [Making a Service Available Across Domain Boundaries](http://go.microsoft.com/fwlink/?LinkId=223276).
 
 ## See also
- [Create web parts for SharePoint](../sharepoint/creating-web-parts-for-sharepoint.md)
- [Deploy, publish, and upgrade SharePoint solution packages](../sharepoint/deploying-publishing-and-upgrading-sharepoint-solution-packages.md)
+- [Create web parts for SharePoint](../sharepoint/creating-web-parts-for-sharepoint.md)
+- [Deploy, publish, and upgrade SharePoint solution packages](../sharepoint/deploying-publishing-and-upgrading-sharepoint-solution-packages.md)

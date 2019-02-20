@@ -33,6 +33,6 @@ ms.workload:
  [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] attaches the debugger only to the W3WP or SPUCWorkerProcess processes running the current site. [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] also attaches the managed COM Plus and workflow debugging engines.
 
 ## See also
- [Debug SharePoint solutions](../sharepoint/debugging-sharepoint-solutions.md)
- [Build and debug SharePoint solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)
- [Sandboxed solution considerations](../sharepoint/sandboxed-solution-considerations.md)
+- [Debug SharePoint solutions](../sharepoint/debugging-sharepoint-solutions.md)
+- [Build and debug SharePoint solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)
+- [Sandboxed solution considerations](../sharepoint/sandboxed-solution-considerations.md)

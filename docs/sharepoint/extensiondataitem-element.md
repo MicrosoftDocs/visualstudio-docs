@@ -55,4 +55,4 @@ ms.workload:
 |**Can be empty**|No|
 
 ## See also
- [SharePoint project item schema reference](../sharepoint/sharepoint-project-item-schema-reference.md)
+- [SharePoint project item schema reference](../sharepoint/sharepoint-project-item-schema-reference.md)

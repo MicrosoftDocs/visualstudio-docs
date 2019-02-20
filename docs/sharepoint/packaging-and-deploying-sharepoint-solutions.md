@@ -96,5 +96,5 @@ ms.workload:
   If an added file does not apply to any specific project in the solution, you can add an Empty SharePoint Project to your solution and then add the additional files to it. Another alternative for deploying files to SharePoint, especially to the content database, is to add a module to the project and then add the files to the module. For more information, see [Use modules to include files in the solution](../sharepoint/using-modules-to-include-files-in-the-solution.md).
 
 ## See also
- [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)
- [Build and debug SharePoint solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)
+- [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)
+- [Build and debug SharePoint solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)

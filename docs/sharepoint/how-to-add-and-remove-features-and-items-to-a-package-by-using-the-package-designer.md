@@ -51,6 +51,6 @@ ms.workload:
      The SharePoint Items appear in the **Items in the Solution** list.
 
 ## See also
- [Create SharePoint solution packages](../sharepoint/creating-sharepoint-solution-packages.md)
- [How to: Customize a SharePoint solution package](../sharepoint/how-to-customize-a-sharepoint-solution-package.md)
- [How to: Create a Package](https://msdn.microsoft.com/b24be45c-e91d-49bb-afb0-7b265404214b)
+- [Create SharePoint solution packages](../sharepoint/creating-sharepoint-solution-packages.md)
+- [How to: Customize a SharePoint solution package](../sharepoint/how-to-customize-a-sharepoint-solution-package.md)
+- [How to: Create a Package](https://msdn.microsoft.com/b24be45c-e91d-49bb-afb0-7b265404214b)

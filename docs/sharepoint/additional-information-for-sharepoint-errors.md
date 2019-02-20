@@ -41,4 +41,4 @@ ms.workload:
  If you still cannot find  the answers that you need, you can access online support options, such as contacting Microsoft Product Support Services or searching KnowledgeBase articles. For more information, see the [Microsoft Help and Support](http://go.microsoft.com/fwlink/?LinkID=155371) page.
 
 ## See also
- [Build and debug SharePoint solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)
+- [Build and debug SharePoint solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)

@@ -336,9 +336,9 @@ ms.workload:
 4.  Close both instances of Visual Studio (the experimental instance and the instance of Visual Studio in which the CustomActionProjectItem solution is open).
 
 ## See also
- [Walkthrough: Create a custom action project item with an item template, Part 1](../sharepoint/walkthrough-creating-a-custom-action-project-item-with-an-item-template-part-1.md)
- [Define custom SharePoint project item types](../sharepoint/defining-custom-sharepoint-project-item-types.md)
- [Create item templates and project templates for SharePoint project items](../sharepoint/creating-item-templates-and-project-templates-for-sharepoint-project-items.md)
- [Visual Studio Template Schema Reference](/visualstudio/extensibility/visual-studio-template-schema-reference)
- [How to: Use Wizards with Project Templates](../extensibility/how-to-use-wizards-with-project-templates.md)
- [Default Custom Action Locations and IDs](http://go.microsoft.com/fwlink/?LinkId=181964)
+- [Walkthrough: Create a custom action project item with an item template, Part 1](../sharepoint/walkthrough-creating-a-custom-action-project-item-with-an-item-template-part-1.md)
+- [Define custom SharePoint project item types](../sharepoint/defining-custom-sharepoint-project-item-types.md)
+- [Create item templates and project templates for SharePoint project items](../sharepoint/creating-item-templates-and-project-templates-for-sharepoint-project-items.md)
+- [Visual Studio Template Schema Reference](/visualstudio/extensibility/visual-studio-template-schema-reference)
+- [How to: Use Wizards with Project Templates](../extensibility/how-to-use-wizards-with-project-templates.md)
+- [Default Custom Action Locations and IDs](http://go.microsoft.com/fwlink/?LinkId=181964)

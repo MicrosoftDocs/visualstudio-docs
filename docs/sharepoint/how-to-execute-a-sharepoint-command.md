@@ -65,6 +65,6 @@ ms.workload:
  This example requires a reference to the Microsoft.VisualStudio.SharePoint assembly.
 
 ## See also
- [Call into the SharePoint object models](../sharepoint/calling-into-the-sharepoint-object-models.md)
- [How to: Create a SharePoint command](../sharepoint/how-to-create-a-sharepoint-command.md)
- [Walkthrough: Extend Server Explorer to display web parts](../sharepoint/walkthrough-extending-server-explorer-to-display-web-parts.md)
+- [Call into the SharePoint object models](../sharepoint/calling-into-the-sharepoint-object-models.md)
+- [How to: Create a SharePoint command](../sharepoint/how-to-create-a-sharepoint-command.md)
+- [Walkthrough: Extend Server Explorer to display web parts](../sharepoint/walkthrough-extending-server-explorer-to-display-web-parts.md)

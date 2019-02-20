@@ -63,5 +63,5 @@ ms.workload:
 |**Can be empty**|No|
 
 ## See also
- [SharePoint project item schema reference](../sharepoint/sharepoint-project-item-schema-reference.md)
- [Provide packaging and deployment information in project items](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md)
+- [SharePoint project item schema reference](../sharepoint/sharepoint-project-item-schema-reference.md)
+- [Provide packaging and deployment information in project items](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md)

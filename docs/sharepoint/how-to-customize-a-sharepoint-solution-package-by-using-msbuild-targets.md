@@ -74,4 +74,4 @@ ms.workload:
    When you publish the project, the BeforeLayout message appears before packaging starts, and the AfterLayout message appears after packaging finishes.
 
 ## See also
- [Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)
+- [Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)

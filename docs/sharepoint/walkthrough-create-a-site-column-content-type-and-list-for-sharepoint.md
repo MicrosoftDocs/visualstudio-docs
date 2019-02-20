@@ -216,8 +216,8 @@ ms.workload:
      The new record appears in the list.
 
 ## See also
- [Create site columns, content types, and lists for SharePoint](../sharepoint/creating-site-columns-content-types-and-lists-for-sharepoint.md)
- [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)
- [How to: Create a Custom Field Type](http://go.microsoft.com/fwlink/?LinkId=192079)
- [Content Types](http://go.microsoft.com/fwlink/?LinkId=192080)
- [Columns](http://go.microsoft.com/fwlink/?LinkId=192081)
+- [Create site columns, content types, and lists for SharePoint](../sharepoint/creating-site-columns-content-types-and-lists-for-sharepoint.md)
+- [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)
+- [How to: Create a Custom Field Type](http://go.microsoft.com/fwlink/?LinkId=192079)
+- [Content Types](http://go.microsoft.com/fwlink/?LinkId=192080)
+- [Columns](http://go.microsoft.com/fwlink/?LinkId=192081)

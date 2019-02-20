@@ -35,11 +35,11 @@ ms.workload:
  To access a specific project instance, handle one of the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectEvents> events of the *projectService* parameter in your implementation of the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectExtension.Initialize%2A> method. For example, to determine when a SharePoint project is added to a solution, handle the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectEvents.ProjectAdded> event. For more information, see [How to: Create a SharePoint project extension](../sharepoint/how-to-create-a-sharepoint-project-extension.md).
 
 ## See also
- [How to: Create a SharePoint project extension](../sharepoint/how-to-create-a-sharepoint-project-extension.md)
- [How to: Add a shortcut menu item to SharePoint projects](../sharepoint/how-to-add-a-shortcut-menu-item-to-sharepoint-projects.md)
- [How to: Add a property to SharePoint projects](../sharepoint/how-to-add-a-property-to-sharepoint-projects.md)
- [Walkthrough: Create a SharePoint project extension](../sharepoint/walkthrough-creating-a-sharepoint-project-extension.md)
- [Define custom SharePoint project item types](../sharepoint/defining-custom-sharepoint-project-item-types.md)
- [Extend SharePoint project items](../sharepoint/extending-sharepoint-project-items.md)
- [Extend SharePoint packaging and deployment](../sharepoint/extending-sharepoint-packaging-and-deployment.md)
- [Extend the SharePoint project system](../sharepoint/extending-the-sharepoint-project-system.md)
+- [How to: Create a SharePoint project extension](../sharepoint/how-to-create-a-sharepoint-project-extension.md)
+- [How to: Add a shortcut menu item to SharePoint projects](../sharepoint/how-to-add-a-shortcut-menu-item-to-sharepoint-projects.md)
+- [How to: Add a property to SharePoint projects](../sharepoint/how-to-add-a-property-to-sharepoint-projects.md)
+- [Walkthrough: Create a SharePoint project extension](../sharepoint/walkthrough-creating-a-sharepoint-project-extension.md)
+- [Define custom SharePoint project item types](../sharepoint/defining-custom-sharepoint-project-item-types.md)
+- [Extend SharePoint project items](../sharepoint/extending-sharepoint-project-items.md)
+- [Extend SharePoint packaging and deployment](../sharepoint/extending-sharepoint-packaging-and-deployment.md)
+- [Extend the SharePoint project system](../sharepoint/extending-the-sharepoint-project-system.md)

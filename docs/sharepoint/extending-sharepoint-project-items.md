@@ -59,8 +59,8 @@ ms.workload:
 |Workflow Association Form|Microsoft.VisualStudio.SharePoint.WorkflowAssociation|
 
 ## See also
- [How to: Create a SharePoint project item extension](../sharepoint/how-to-create-a-sharepoint-project-item-extension.md)
- [How to: Add a shortcut menu item to a SharePoint project item extension](../sharepoint/how-to-add-a-shortcut-menu-item-to-a-sharepoint-project-item-extension.md)
- [How to: Add a property to a SharePoint project item extension](../sharepoint/how-to-add-a-property-to-a-sharepoint-project-item-extension.md)
- [Walkthrough: Extend a SharePoint project item type](../sharepoint/walkthrough-extending-a-sharepoint-project-item-type.md)
- [Extend the SharePoint project system](../sharepoint/extending-the-sharepoint-project-system.md)
+- [How to: Create a SharePoint project item extension](../sharepoint/how-to-create-a-sharepoint-project-item-extension.md)
+- [How to: Add a shortcut menu item to a SharePoint project item extension](../sharepoint/how-to-add-a-shortcut-menu-item-to-a-sharepoint-project-item-extension.md)
+- [How to: Add a property to a SharePoint project item extension](../sharepoint/how-to-add-a-property-to-a-sharepoint-project-item-extension.md)
+- [Walkthrough: Extend a SharePoint project item type](../sharepoint/walkthrough-extending-a-sharepoint-project-item-type.md)
+- [Extend the SharePoint project system](../sharepoint/extending-the-sharepoint-project-system.md)

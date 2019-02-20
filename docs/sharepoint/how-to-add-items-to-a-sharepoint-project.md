@@ -41,5 +41,5 @@ ms.workload:
 4.  Browse to the folder that contains the item that you want to add, choose it, and then choose the **Add** button.
 
 ## See also
- [SharePoint project and project item templates](../sharepoint/sharepoint-project-and-project-item-templates.md)
- [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)
+- [SharePoint project and project item templates](../sharepoint/sharepoint-project-and-project-item-templates.md)
+- [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)

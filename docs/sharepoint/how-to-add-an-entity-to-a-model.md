@@ -42,8 +42,8 @@ ms.workload:
      [!code-vb[SP_BDC_Entity_Data_Class#1](../sharepoint/codesnippet/VisualBasic/sp_bdc_entity_data_class/bdcmodel1/contact.vb#1)]
 
 ## See also
- [How to: Add a Creator method](../sharepoint/how-to-add-a-creator-method.md)
- [How to: Add a Deleter method](../sharepoint/how-to-add-a-deleter-method.md)
- [How to: Add an Updater method](../sharepoint/how-to-add-an-updater-method.md)
- [How to: Add a Finder method](../sharepoint/how-to-add-a-finder-method.md)
- [How to: Add a specific Finder method](../sharepoint/how-to-add-a-specific-finder-method.md)
+- [How to: Add a Creator method](../sharepoint/how-to-add-a-creator-method.md)
+- [How to: Add a Deleter method](../sharepoint/how-to-add-a-deleter-method.md)
+- [How to: Add an Updater method](../sharepoint/how-to-add-an-updater-method.md)
+- [How to: Add a Finder method](../sharepoint/how-to-add-a-finder-method.md)
+- [How to: Add a specific Finder method](../sharepoint/how-to-add-a-specific-finder-method.md)

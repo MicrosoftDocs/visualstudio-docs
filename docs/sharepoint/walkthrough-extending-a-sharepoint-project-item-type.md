@@ -287,6 +287,6 @@ ms.workload:
 5.  Close both instances of Visual Studio (the experimental instance and the instance in which the GenerateExternalDataLists solution is open).
 
 ## See also
- [Extend the SharePoint project system](../sharepoint/extending-the-sharepoint-project-system.md)
- [Create a business data connectivity model](../sharepoint/creating-a-business-data-connectivity-model.md)
- [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md)
+- [Extend the SharePoint project system](../sharepoint/extending-the-sharepoint-project-system.md)
+- [Create a business data connectivity model](../sharepoint/creating-a-business-data-connectivity-model.md)
+- [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md)

@@ -143,4 +143,4 @@ ms.workload:
  For more information about other SharePoint registry keys, see [Debug extensions for the SharePoint tools in Visual Studio](../sharepoint/debugging-extensions-for-the-sharepoint-tools-in-visual-studio.md).
 
 ## See also
- [Troubleshoot SharePoint solutions](../sharepoint/troubleshooting-sharepoint-solutions.md)
+- [Troubleshoot SharePoint solutions](../sharepoint/troubleshooting-sharepoint-solutions.md)

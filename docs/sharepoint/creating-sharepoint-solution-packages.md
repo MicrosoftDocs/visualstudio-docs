@@ -66,8 +66,8 @@ ms.workload:
  When you package your SharePoint project, a *.wsp* file is created for you in the *SolutionFolder\bin\\\<BuildConfiguration>* folder. For example, if your solution is in *C:\Visual Studio 2013\Projects\ListDefinition1* and your build configuration is set to Release, the *.wsp* file is located in *C:\Visual Studio 2013\Projects\ListDefinition1\bin\Release*.
 
 ## See also
- [How to: Customize a SharePoint solution package](../sharepoint/how-to-customize-a-sharepoint-solution-package.md)
- [How to: Add and remove features and items to a package by using the Package Designer](../sharepoint/how-to-add-and-remove-features-and-items-to-a-package-by-using-the-package-designer.md)
- [How to: Create a SharePoint Solution Package by using MSBuild tasks](../sharepoint/how-to-create-a-sharepoint-solution-package-by-using-msbuild-tasks.md)
- [How to: Create a SharePoint Solution Package by using MSBuild tasks](../sharepoint/how-to-create-a-sharepoint-solution-package-by-using-msbuild-tasks.md)
- [How to: Customize a SharePoint solution package by using MSBuild targets](../sharepoint/how-to-customize-a-sharepoint-solution-package-by-using-msbuild-targets.md)
+- [How to: Customize a SharePoint solution package](../sharepoint/how-to-customize-a-sharepoint-solution-package.md)
+- [How to: Add and remove features and items to a package by using the Package Designer](../sharepoint/how-to-add-and-remove-features-and-items-to-a-package-by-using-the-package-designer.md)
+- [How to: Create a SharePoint Solution Package by using MSBuild tasks](../sharepoint/how-to-create-a-sharepoint-solution-package-by-using-msbuild-tasks.md)
+- [How to: Create a SharePoint Solution Package by using MSBuild tasks](../sharepoint/how-to-create-a-sharepoint-solution-package-by-using-msbuild-tasks.md)
+- [How to: Customize a SharePoint solution package by using MSBuild targets](../sharepoint/how-to-customize-a-sharepoint-solution-package-by-using-msbuild-targets.md)

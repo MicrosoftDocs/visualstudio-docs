@@ -69,7 +69,7 @@ ms.workload:
      The localized strings appear in the application. To display localized resources, the SharePoint server must have a language pack installed that matches the resource file's culture.
 
 ## See also
- [Localize SharePoint solutions](../sharepoint/localizing-sharepoint-solutions.md)
- [How to: Localize a feature](../sharepoint/how-to-localize-a-feature.md)
- [How to: Add a resource file](../sharepoint/how-to-add-a-resource-file.md)
- [How to: Localize code](../sharepoint/how-to-localize-code.md)
+- [Localize SharePoint solutions](../sharepoint/localizing-sharepoint-solutions.md)
+- [How to: Localize a feature](../sharepoint/how-to-localize-a-feature.md)
+- [How to: Add a resource file](../sharepoint/how-to-add-a-resource-file.md)
+- [How to: Localize code](../sharepoint/how-to-localize-code.md)

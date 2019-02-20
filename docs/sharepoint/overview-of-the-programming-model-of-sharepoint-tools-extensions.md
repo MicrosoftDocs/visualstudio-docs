@@ -101,6 +101,6 @@ ms.workload:
 |Client object model|The client object model is a subset of the server object model that can be used to interoperate with SharePoint data from a remote client or server. It is designed to minimize the number of round trips that must be executed to perform common tasks. The majority of the client object model is defined in the *Microsoft.SharePoint.Client.dll* and *Microsoft.SharePoint.Client.Runtime.dll* assemblies. For more information about the client object model, see [Managed Client Object Model](http://go.microsoft.com/fwlink/?LinkId=177797).|
 
 ## See also
- [Extend the SharePoint tools in Visual Studio](../sharepoint/extending-the-sharepoint-tools-in-visual-studio.md)
- [Call into the SharePoint object models](../sharepoint/calling-into-the-sharepoint-object-models.md)
- [Use the SharePoint project service](../sharepoint/using-the-sharepoint-project-service.md)
+- [Extend the SharePoint tools in Visual Studio](../sharepoint/extending-the-sharepoint-tools-in-visual-studio.md)
+- [Call into the SharePoint object models](../sharepoint/calling-into-the-sharepoint-object-models.md)
+- [Use the SharePoint project service](../sharepoint/using-the-sharepoint-project-service.md)

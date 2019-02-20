@@ -57,4 +57,4 @@ ms.workload:
 2.  Open a shortcut menu for a Feature or package, and then choose **Validate**.
 
 ## See also
- [Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)
+- [Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)

@@ -53,4 +53,4 @@ ms.workload:
 |[Programming in Windows SharePoint Services](http://go.microsoft.com/fwlink/?LinkId=178729)|Describes how to use the managed object model that is provided in [!INCLUDE[sharepointShort](../sharepoint/includes/sharepointshort-md.md)].|
 
 ## See also
- [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)
+- [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)

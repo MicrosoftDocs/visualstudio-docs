@@ -49,6 +49,6 @@ ms.workload:
  Assemblies that define SharePoint commands are loaded in a 64-bit host process named *vssphost4.exe*. After you call a SharePoint command in a SharePoint tools extension, the command is executed by *vssphost4.exe* instead of the 32-bit Visual Studio process (*devenv.exe*). You can control some aspects of how SharePoint commands are executed by setting values in the registry. For more information, see [Debug extensions for the SharePoint tools in Visual Studio](../sharepoint/debugging-extensions-for-the-sharepoint-tools-in-visual-studio.md).
 
 ## See also
- [How to: Create a SharePoint command](../sharepoint/how-to-create-a-sharepoint-command.md)
- [How to: Execute a SharePoint command](../sharepoint/how-to-execute-a-sharepoint-command.md)
- [Overview of the programming model of SharePoint tools extensions](../sharepoint/overview-of-the-programming-model-of-sharepoint-tools-extensions.md)
+- [How to: Create a SharePoint command](../sharepoint/how-to-create-a-sharepoint-command.md)
+- [How to: Execute a SharePoint command](../sharepoint/how-to-execute-a-sharepoint-command.md)
+- [Overview of the programming model of SharePoint tools extensions](../sharepoint/overview-of-the-programming-model-of-sharepoint-tools-extensions.md)

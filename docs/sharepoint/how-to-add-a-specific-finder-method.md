@@ -80,11 +80,11 @@ ms.workload:
      [!code-vb[SP_BDC#3](../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/contactservice.vb#3)]
 
 ## See also
- [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md)
- [How to: Add a Finder method](../sharepoint/how-to-add-a-finder-method.md)
- [How to: Add a Creator method](../sharepoint/how-to-add-a-creator-method.md)
- [How to: Add a Deleter method](../sharepoint/how-to-add-a-deleter-method.md)
- [How to: Add an Updater method](../sharepoint/how-to-add-an-updater-method.md)
- [BDC model design tools overview](../sharepoint/bdc-model-design-tools-overview.md)
- [How to: Add a parameter to a method](../sharepoint/how-to-add-a-parameter-to-a-method.md)
- [How to: Define a method instance](../sharepoint/how-to-define-a-method-instance.md)
+- [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md)
+- [How to: Add a Finder method](../sharepoint/how-to-add-a-finder-method.md)
+- [How to: Add a Creator method](../sharepoint/how-to-add-a-creator-method.md)
+- [How to: Add a Deleter method](../sharepoint/how-to-add-a-deleter-method.md)
+- [How to: Add an Updater method](../sharepoint/how-to-add-an-updater-method.md)
+- [BDC model design tools overview](../sharepoint/bdc-model-design-tools-overview.md)
+- [How to: Add a parameter to a method](../sharepoint/how-to-add-a-parameter-to-a-method.md)
+- [How to: Define a method instance](../sharepoint/how-to-define-a-method-instance.md)

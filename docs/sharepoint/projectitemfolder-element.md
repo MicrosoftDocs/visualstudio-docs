@@ -58,5 +58,5 @@ ms.workload:
 |**Can be empty**|No|
 
 ## See also
- [SharePoint project item schema reference](../sharepoint/sharepoint-project-item-schema-reference.md)
- [How to: add and remove mapped folders](../sharepoint/how-to-add-and-remove-mapped-folders.md)
+- [SharePoint project item schema reference](../sharepoint/sharepoint-project-item-schema-reference.md)
+- [How to: add and remove mapped folders](../sharepoint/how-to-add-and-remove-mapped-folders.md)

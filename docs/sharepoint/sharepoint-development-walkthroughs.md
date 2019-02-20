@@ -88,4 +88,4 @@ ms.workload:
 |[Walkthrough: Call into the SharePoint client object model in a Server Explorer extension](../sharepoint/walkthrough-calling-into-the-sharepoint-client-object-model-in-a-server-explorer-extension.md)|Demonstrates how to add new nodes for displaying Web Parts in SharePoint sites that are displayed in Server Explorer. This walkthrough also demonstrates how to use the SharePoint client object model.|
 
 ## See also
- [SharePoint development samples and Walkthroughs](../sharepoint/sharepoint-development-samples-and-walkthroughs.md)
+- [SharePoint development samples and Walkthroughs](../sharepoint/sharepoint-development-samples-and-walkthroughs.md)

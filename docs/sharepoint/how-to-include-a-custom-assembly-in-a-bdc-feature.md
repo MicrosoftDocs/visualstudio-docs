@@ -42,8 +42,8 @@ ms.workload:
     >  To debug code in the custom assembly, you must add the assembly to the solution package. For more information, see [How to: Add and remove additional assemblies](../sharepoint/how-to-add-and-remove-additional-assemblies.md).
 
 ## See also
- [How to: Use a resource file to specify localized names, properties, and permissions](../sharepoint/how-to-use-a-resource-file-to-specify-localized-names-properties-and-permissions.md)
- [How to: Add an existing BDC model file to a SharePoint project](../sharepoint/how-to-add-an-existing-bdc-model-file-to-a-sharepoint-project.md)
- [Create a business data connectivity model](../sharepoint/creating-a-business-data-connectivity-model.md)
- [How to: Create a BDC model](../sharepoint/how-to-create-a-bdc-model.md)
- [Integragte business data into SharePoint](../sharepoint/integrating-business-data-into-sharepoint.md)
+- [How to: Use a resource file to specify localized names, properties, and permissions](../sharepoint/how-to-use-a-resource-file-to-specify-localized-names-properties-and-permissions.md)
+- [How to: Add an existing BDC model file to a SharePoint project](../sharepoint/how-to-add-an-existing-bdc-model-file-to-a-sharepoint-project.md)
+- [Create a business data connectivity model](../sharepoint/creating-a-business-data-connectivity-model.md)
+- [How to: Create a BDC model](../sharepoint/how-to-create-a-bdc-model.md)
+- [Integragte business data into SharePoint](../sharepoint/integrating-business-data-into-sharepoint.md)

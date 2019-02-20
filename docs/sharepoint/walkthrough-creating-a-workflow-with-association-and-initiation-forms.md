@@ -440,5 +440,5 @@ ms.workload:
 -   To learn more about SharePoint workflows, see [Workflows in Windows SharePoint Services](http://go.microsoft.com/fwlink/?LinkID=166275).
 
 ## See also
- [Create SharePoint workflow solutions](../sharepoint/creating-sharepoint-workflow-solutions.md)
- [Walkthrough: Add an application page to a workflow](../sharepoint/walkthrough-add-an-application-page-to-a-workflow.md)
+- [Create SharePoint workflow solutions](../sharepoint/creating-sharepoint-workflow-solutions.md)
+- [Walkthrough: Add an application page to a workflow](../sharepoint/walkthrough-add-an-application-page-to-a-workflow.md)

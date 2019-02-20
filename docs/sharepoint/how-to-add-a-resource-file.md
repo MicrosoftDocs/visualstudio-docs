@@ -45,4 +45,4 @@ ms.workload:
 3.  When the **Resource Editor** opens in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], add resources to the resource file.
 
 ## See also
- [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)
+- [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)

@@ -42,7 +42,7 @@ ms.workload:
      For an example, see [Walkthrough: Create a web part for SharePoint](../sharepoint/walkthrough-creating-a-web-part-for-sharepoint.md).
 
 ## See also
- [Create web parts for SharePoint](../sharepoint/creating-web-parts-for-sharepoint.md)
- [How to: Create a SharePoint web part by using a designer](../sharepoint/how-to-create-a-sharepoint-web-part-by-using-a-designer.md)
- [Walkthrough: Create a web part for SharePoint](../sharepoint/walkthrough-creating-a-web-part-for-sharepoint.md)
- [Walkthrough: Create a web part for SharePoint by using a designer](../sharepoint/walkthrough-creating-a-web-part-for-sharepoint-by-using-a-designer.md)
+- [Create web parts for SharePoint](../sharepoint/creating-web-parts-for-sharepoint.md)
+- [How to: Create a SharePoint web part by using a designer](../sharepoint/how-to-create-a-sharepoint-web-part-by-using-a-designer.md)
+- [Walkthrough: Create a web part for SharePoint](../sharepoint/walkthrough-creating-a-web-part-for-sharepoint.md)
+- [Walkthrough: Create a web part for SharePoint by using a designer](../sharepoint/walkthrough-creating-a-web-part-for-sharepoint-by-using-a-designer.md)

@@ -34,8 +34,8 @@ ms.workload:
 4.  In the **Properties** window, set the properties of the method instance. For more information about each property, see [MethodInstance](http://go.microsoft.com/fwlink/?LinkID=169282).
 
 ## See also
- [BDC model design tools overview](../sharepoint/bdc-model-design-tools-overview.md)
- [How to: Add an entity to a model](../sharepoint/how-to-add-an-entity-to-a-model.md)
- [How to: Add a parameter to a method](../sharepoint/how-to-add-a-parameter-to-a-method.md)
- [How to: Define the type descriptor of a parameter](../sharepoint/how-to-define-the-type-descriptor-of-a-parameter.md)
- [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md)
+- [BDC model design tools overview](../sharepoint/bdc-model-design-tools-overview.md)
+- [How to: Add an entity to a model](../sharepoint/how-to-add-an-entity-to-a-model.md)
+- [How to: Add a parameter to a method](../sharepoint/how-to-add-a-parameter-to-a-method.md)
+- [How to: Define the type descriptor of a parameter](../sharepoint/how-to-define-the-type-descriptor-of-a-parameter.md)
+- [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md)

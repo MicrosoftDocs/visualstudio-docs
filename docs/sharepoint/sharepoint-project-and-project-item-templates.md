@@ -135,5 +135,5 @@ ms.workload:
  A *web part* is a server-side control that runs inside a special type of page called a Web Part Page. They are the building blocks of pages that appear on a SharePoint site. The web part item provides files that enable you to design a web part for a SharePoint site. For more information, see [How to: Create a SharePoint web part](../sharepoint/how-to-create-a-sharepoint-web-part.md) and [Building Block: Web Parts](http://go.microsoft.com/fwlink/?LinkId=179438).
 
 ## See also
- [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)
- [SharePoint Products and Technologies](http://go.microsoft.com/fwlink/?LinkId=178818)
+- [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)
+- [SharePoint Products and Technologies](http://go.microsoft.com/fwlink/?LinkId=178818)

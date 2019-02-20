@@ -19,6 +19,6 @@ ms.workload:
  You can download each sample individually. You can also download a Sample Pack, which has related samples that share a technology or article. You'll receive a notification when source code changes are published for any sample that you download.
 
 ## See also
- [Create SharePoint solutions](../sharepoint/create-sharepoint-solutions.md)
- [Visual Studio Samples](http://go.microsoft.com/fwlink/?LinkId=150928)
- [Common Tasks in Office Programming](../vsto/common-tasks-in-office-programming.md)
+- [Create SharePoint solutions](../sharepoint/create-sharepoint-solutions.md)
+- [Visual Studio Samples](http://go.microsoft.com/fwlink/?LinkId=150928)
+- [Common Tasks in Office Programming](../vsto/common-tasks-in-office-programming.md)

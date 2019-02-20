@@ -73,5 +73,5 @@ ms.workload:
  Some manifest elements, such as ApplicationResourceFile and DwpFiles, specify a location that includes a file name. However, adding a file name entry to the manifest template does not add the underlying file to the package. You must add the file to the project to include it in the package and set its Deployment Type property accordingly.
 
 ## See also
- [Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)
- [Build and debug SharePoint solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)
+- [Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)
+- [Build and debug SharePoint solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)

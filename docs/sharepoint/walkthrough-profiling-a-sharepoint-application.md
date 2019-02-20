@@ -267,7 +267,7 @@ ms.workload:
      The feature should activate much faster now that the call to the idle loop has been eliminated. The Sample Profiling Report should reflect this.
 
 ## See also
- [Performance Explorer](/visualstudio/profiling/performance-explorer)
- [Performance Session Overview](/visualstudio/profiling/performance-session-overview)
- [Beginners Guide to Performance Profiling](/visualstudio/profiling/beginners-guide-to-performance-profiling)
- [Find Application Bottlenecks with Visual Studio Profiler](http://go.microsoft.com/fwlink/?LinkID=137266)
+- [Performance Explorer](/visualstudio/profiling/performance-explorer)
+- [Performance Session Overview](/visualstudio/profiling/performance-session-overview)
+- [Beginners Guide to Performance Profiling](/visualstudio/profiling/beginners-guide-to-performance-profiling)
+- [Find Application Bottlenecks with Visual Studio Profiler](http://go.microsoft.com/fwlink/?LinkID=137266)

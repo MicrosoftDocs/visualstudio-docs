@@ -43,6 +43,6 @@ ms.workload:
  When a SharePoint solution is installed on a SharePoint server for debugging, the **Clean** command does not uninstall the solution. Instead, you must deactivate the Features through the SharePoint configuration.
 
 ## See also
- [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)
- [Browse SharePoint connections using Server Explorer](../sharepoint/browsing-sharepoint-connections-using-server-explorer.md)
- [Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)
+- [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)
+- [Browse SharePoint connections using Server Explorer](../sharepoint/browsing-sharepoint-connections-using-server-explorer.md)
+- [Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)

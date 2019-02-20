@@ -66,6 +66,6 @@ ms.workload:
  You can explicitly change which master page is used by the application page by setting the `MasterPageFile` attribute of the application `Page` element. (For example: `MasterPageFile="~/_layouts/applicationv4.master"`). In fact, you must set this attribute if dynamic master pages are not enabled on the SharePoint server. For more information about master pages in SharePoint, see [Master Pages](http://go.microsoft.com/fwlink/?LinkID=169281).
 
 ## See also
- [SharePoint Foundation Development in Depth](http://go.microsoft.com/fwlink/?LinkID=182103)
- [ASP.NET overview](/aspnet/overview)
- [ASP.NET Web Pages](/aspnet/web-pages/index)
+- [SharePoint Foundation Development in Depth](http://go.microsoft.com/fwlink/?LinkID=182103)
+- [ASP.NET overview](/aspnet/overview)
+- [ASP.NET Web Pages](/aspnet/web-pages/index)

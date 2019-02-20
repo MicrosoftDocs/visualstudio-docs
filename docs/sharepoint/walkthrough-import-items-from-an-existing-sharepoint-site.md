@@ -135,6 +135,6 @@ ms.workload:
      Notice that the custom site column that you imported from the first SharePoint site appears in the list.
 
 ## See also
- [Import items from an existing SharePoint site](../sharepoint/importing-items-from-an-existing-sharepoint-site.md)
- [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)
- [Create reusable controls for web parts or application pages](../sharepoint/creating-reusable-controls-for-web-parts-or-application-pages.md)
+- [Import items from an existing SharePoint site](../sharepoint/importing-items-from-an-existing-sharepoint-site.md)
+- [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)
+- [Create reusable controls for web parts or application pages](../sharepoint/creating-reusable-controls-for-web-parts-or-application-pages.md)

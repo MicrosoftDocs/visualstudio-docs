@@ -50,6 +50,6 @@ ms.workload:
   Allows you to choose from a list of files that are appropriate for the task you are performing.
 
 ## See also
- [Create application pages for SharePoint](../sharepoint/creating-application-pages-for-sharepoint.md)
- [Create web parts for SharePoint](../sharepoint/creating-web-parts-for-sharepoint.md)
- [Create reusable controls for web parts or application pages](../sharepoint/creating-reusable-controls-for-web-parts-or-application-pages.md)
+- [Create application pages for SharePoint](../sharepoint/creating-application-pages-for-sharepoint.md)
+- [Create web parts for SharePoint](../sharepoint/creating-web-parts-for-sharepoint.md)
+- [Create reusable controls for web parts or application pages](../sharepoint/creating-reusable-controls-for-web-parts-or-application-pages.md)

@@ -94,6 +94,6 @@ ms.workload:
   In a Visual Studio extension that has access to a <xref:EnvDTE80.DTE2> object, you can request an <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectService> object by using the <xref:Microsoft.VisualStudio.Shell.ServiceProvider.GetService%2A> method of a <xref:Microsoft.VisualStudio.Shell.ServiceProvider> object. For more information, see [Getting a service from the DTE object](../extensibility/how-to-get-a-service.md#getting-a-service-from-the-dte-object).
 
 ## See also
- [Use the SharePoint project service](../sharepoint/using-the-sharepoint-project-service.md)
- [How to: Get a service](../extensibility/how-to-get-a-service.md)
- [How to: Use wizards with project templates](../extensibility/how-to-use-wizards-with-project-templates.md)
+- [Use the SharePoint project service](../sharepoint/using-the-sharepoint-project-service.md)
+- [How to: Get a service](../extensibility/how-to-get-a-service.md)
+- [How to: Use wizards with project templates](../extensibility/how-to-use-wizards-with-project-templates.md)

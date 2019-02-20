@@ -51,8 +51,8 @@ ms.workload:
  Each file that you want to deploy requires a separate `<File>` element entry in *Elements.xml*.
 
 ## See also
- [How to: Include files by using a module](../sharepoint/how-to-include-files-by-using-a-module.md)
- [how to: Provision a file](http://go.microsoft.com/fwlink/?LinkID=144271)
- [Developing SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)
- [Creating web parts for SharePoint](../sharepoint/creating-web-parts-for-sharepoint.md)
- [Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)
+- [How to: Include files by using a module](../sharepoint/how-to-include-files-by-using-a-module.md)
+- [how to: Provision a file](http://go.microsoft.com/fwlink/?LinkID=144271)
+- [Developing SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)
+- [Creating web parts for SharePoint](../sharepoint/creating-web-parts-for-sharepoint.md)
+- [Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)

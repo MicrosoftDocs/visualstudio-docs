@@ -282,6 +282,6 @@ ms.workload:
 -   To learn more about Windows Workflow Foundation activities, see [System.Workflow.Activities Namespace](http://go.microsoft.com/fwlink/?LinkId=178993).
 
 ## See also
- [Create SharePoint workflow solutions](../sharepoint/creating-sharepoint-workflow-solutions.md)
- [SharePoint project and project item templates](../sharepoint/sharepoint-project-and-project-item-templates.md)
- [Build and debug SharePoint solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)
+- [Create SharePoint workflow solutions](../sharepoint/creating-sharepoint-workflow-solutions.md)
+- [SharePoint project and project item templates](../sharepoint/sharepoint-project-and-project-item-templates.md)
+- [Build and debug SharePoint solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)

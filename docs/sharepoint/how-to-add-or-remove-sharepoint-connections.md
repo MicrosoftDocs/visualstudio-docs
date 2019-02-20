@@ -38,4 +38,4 @@ ms.workload:
     >  This step doesn't delete the underlying site; it deletes only the connection from **Server Explorer**.
 
 ## See also
- [Browse SharePoint connections using Server Explorer](../sharepoint/browsing-sharepoint-connections-using-server-explorer.md)
+- [Browse SharePoint connections using Server Explorer](../sharepoint/browsing-sharepoint-connections-using-server-explorer.md)

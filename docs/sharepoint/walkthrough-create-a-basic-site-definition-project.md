@@ -176,5 +176,5 @@ ms.workload:
      The text appears in the label on the right side of the button.
 
 ## See also
- [How to: Create an event receiver](../sharepoint/how-to-create-an-event-receiver.md)
- [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)
+- [How to: Create an event receiver](../sharepoint/how-to-create-an-event-receiver.md)
+- [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)

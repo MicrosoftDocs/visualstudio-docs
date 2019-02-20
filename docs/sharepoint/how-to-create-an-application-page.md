@@ -42,5 +42,5 @@ ms.workload:
      The code file appears if you expand the node for the ASP.NET page file and has a *.cs* or *.vb* extension, depending on the language of the project. For an end-to-end example of how to create an application page, see [Walkthrough: Create a SharePoint application page](../sharepoint/walkthrough-creating-a-sharepoint-application-page.md).
 
 ## See also
- [Create application pages for SharePoint](../sharepoint/creating-application-pages-for-sharepoint.md)
- [Walkthrough: Create a SharePoint application page](../sharepoint/walkthrough-creating-a-sharepoint-application-page.md)
+- [Create application pages for SharePoint](../sharepoint/creating-application-pages-for-sharepoint.md)
+- [Walkthrough: Create a SharePoint application page](../sharepoint/walkthrough-creating-a-sharepoint-application-page.md)

@@ -42,8 +42,8 @@ ms.workload:
      For information about how to define these elements, see [Model and Resource Files](http://go.microsoft.com/fwlink/?LinkID=169283).
 
 ## See also
- [How to: Add an existing BDC model file to a SharePoint project](../sharepoint/how-to-add-an-existing-bdc-model-file-to-a-sharepoint-project.md)
- [Create a business data connectivity model](../sharepoint/creating-a-business-data-connectivity-model.md)
- [How to: Create a BDC model](../sharepoint/how-to-create-a-bdc-model.md)
- [How to: Include a custom assembly in a BDC feature](../sharepoint/how-to-include-a-custom-assembly-in-a-bdc-feature.md)
- [Integrating business data into SharePoint](../sharepoint/integrating-business-data-into-sharepoint.md)
+- [How to: Add an existing BDC model file to a SharePoint project](../sharepoint/how-to-add-an-existing-bdc-model-file-to-a-sharepoint-project.md)
+- [Create a business data connectivity model](../sharepoint/creating-a-business-data-connectivity-model.md)
+- [How to: Create a BDC model](../sharepoint/how-to-create-a-bdc-model.md)
+- [How to: Include a custom assembly in a BDC feature](../sharepoint/how-to-include-a-custom-assembly-in-a-bdc-feature.md)
+- [Integrating business data into SharePoint](../sharepoint/integrating-business-data-into-sharepoint.md)

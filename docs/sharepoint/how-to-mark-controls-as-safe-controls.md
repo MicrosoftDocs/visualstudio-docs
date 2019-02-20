@@ -18,7 +18,7 @@ ms.workload:
 # How to: Mark controls as safe controls
   For security, SharePoint differentiates between Web controls that are protected against script injection and Web controls that are not. Protected controls, or *safe controls*, can be accessed by untrusted users. You can mark controls as safe in the Safe Control Entries property of a SharePoint project item or in the **Package Designer** when you add an assembly to the package. For more information, see
 
- [web.config file Settings Change](http://go.microsoft.com/fwlink/?LinkId=178965) and [Registering a Web Part Assembly as a Safe Control](http://go.microsoft.com/fwlink/?LinkId=171013).
+- [web.config file Settings Change](http://go.microsoft.com/fwlink/?LinkId=178965) and [Registering a Web Part Assembly as a Safe Control](http://go.microsoft.com/fwlink/?LinkId=171013).
 
 > [!IMPORTANT]
 >  These procedures are for illustrative purposes. Mark controls safe only if you are certain that they are secure.
@@ -107,5 +107,5 @@ ms.workload:
 16. Choose the **Tab** key, and then choose the **OK** button to close the dialog box.
 
 ## See also
- [Provide packaging and deployment information in project items](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md)
- [Package and deploying SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)
+- [Provide packaging and deployment information in project items](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md)
+- [Package and deploying SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)
