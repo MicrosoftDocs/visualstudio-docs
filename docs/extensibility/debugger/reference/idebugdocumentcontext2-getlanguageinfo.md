@@ -20,15 +20,15 @@ Gets the language associated with this document context.
 
 ```cpp
 HRESULT GetLanguageInfo(
-   BSTR* pbstrLanguage,
-   GUID* pguidLanguage
+    BSTR* pbstrLanguage,
+    GUID* pguidLanguage
 );
 ```
 
 ```csharp
 int GetLanguageInfo(
-   out string pbstrLanguage,
-   out Guid   pguidLanguage
+    out string pbstrLanguage,
+    out Guid   pguidLanguage
 );
 ```
 
@@ -48,29 +48,29 @@ The following example shows how to implement this method for a simple `CDebugCon
 ```cpp
 HRESULT CDebugContext::GetLanguageInfo(BSTR* pbstrLanguage, GUID* pguidLanguage)
 {
-   HRESULT hr;
+    HRESULT hr;
 
-   // Check for a valid language argument pointers.
-   if (pbstrLanguage && pguidLanguage)
-   {
-      *pguidLanguage = GUID_NULL;
-      *pbstrLanguage = SysAllocString(L"Batch File");
-      if (*pbstrLanguage)
-      {
-         *pguidLanguage = guidBatLang;
-         hr = S_OK;
-      }
-      else
-      {
-         hr = E_OUTOFMEMORY;
-      }
-   }
-   else
-   {
-      hr = E_INVALIDARG;
-   }
+    // Check for a valid language argument pointers.
+    if (pbstrLanguage && pguidLanguage)
+    {
+        *pguidLanguage = GUID_NULL;
+        *pbstrLanguage = SysAllocString(L"Batch File");
+        if (*pbstrLanguage)
+        {
+            *pguidLanguage = guidBatLang;
+            hr = S_OK;
+        }
+        else
+        {
+            hr = E_OUTOFMEMORY;
+        }
+    }
+    else
+    {
+        hr = E_INVALIDARG;
+    }
 
-   return hr;
+    return hr;
 }
 ```
 
