@@ -45,7 +45,7 @@ ms.workload:
   Each project provides files and code to get you started on a specific kind of solution. The generated code for each project includes startup and shutdown event handlers. You can add code to these event handlers to initialize your solution when it is loaded and to clean up your solution when it is unloaded. For more information, see [Office projects in the Visual Studio environment](../vsto/office-projects-in-the-visual-studio-environment.md) and [Events in Office projects](../vsto/events-in-office-projects.md).
 
 > [!NOTE]
->  The Office development tools are included with certain editions of Visual Studio. For more information, see [Configure a computer to develop Office solutions](../vsto/configuring-a-computer-to-develop-office-solutions.md).
+> The Office development tools are included with certain editions of Visual Studio. For more information, see [Configure a computer to develop Office solutions](../vsto/configuring-a-computer-to-develop-office-solutions.md).
 
 ##  <a name="DocLevel"></a> Document-level customizations
  The **Office** node in the **New Project** dialog box provides the following project templates to get you started creating document-level customizations for Word and Excel:
@@ -133,7 +133,11 @@ ms.workload:
 - [Walkthrough: Create your first VSTO Add-in for Project](../vsto/walkthrough-creating-your-first-vsto-add-in-for-project.md)
 
 - [Walkthrough: Create your first VSTO Add-in for Word](../vsto/walkthrough-creating-your-first-vsto-add-in-for-word.md)
-- [appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]
+
+## Document vs. template solutions
+ When you design a solution around a Word document or Excel workbook, you must decide the best way to make that document available to your users.
+
+ [!INCLUDE[appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]  
 
  In some situations, you might want to give a copy of a document to each user. In this case, create your solution by using an Excel or Word document project.
 

@@ -17,12 +17,13 @@ ms.workload:
   - "office"
 ---
 # Design and create Office solutions
-  Visual Studio provides project templates that you can use to create several different types of Office solutions. This section of the documentation describes the project templates and provides guidance about creating Office projects. For information about how to implement code and user interface customizations after you have created your project, see [Develop Office solutions](../vsto/developing-office-solutions.md).
 
- [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]
+Visual Studio provides project templates that you can use to create several different types of Office solutions. This section of the documentation describes the project templates and provides guidance about creating Office projects. For information about how to implement code and user interface customizations after you have created your project, see [Develop Office solutions](../vsto/developing-office-solutions.md).
+
+[!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]
 
 > [!NOTE]
->  Interested in developing solutions that extend the Office experience across [multiple platforms](https://dev.office.com/add-in-availability)? Check out the new [Office Add-ins model](https://dev.office.com/docs/add-ins/overview/office-add-ins). Office Add-ins have a small footprint compared to VSTO Add-ins and solutions, and you can build them by using almost any web programming technology, such as HTML5, JavaScript, CSS3, and XML.
+> Interested in developing solutions that extend the Office experience across [multiple platforms](https://dev.office.com/add-in-availability)? Check out the new [Office Add-ins model](https://dev.office.com/docs/add-ins/overview/office-add-ins). Office Add-ins have a small footprint compared to VSTO Add-ins and solutions, and you can build them by using almost any web programming technology, such as HTML5, JavaScript, CSS3, and XML.
 
 ## Create Office projects
  Before you begin, you should determine your requirements and discover the type of solution that offers the best fit. For example, if your Office solution must run every time the application is used, a VSTO Add-in best fits your requirements. If the code is tightly integrated with a single document, create a document-level customization. These project types are available as Visual Studio project templates. For more information about the Office project templates that are included with Visual Studio, see [Office project templates overview](../vsto/office-project-templates-overview.md). For more information about how to create Office projects, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
@@ -32,14 +33,11 @@ ms.workload:
 ## Choose a .NET Framework version
  After selecting the project type that best fits your requirements, you can choose which version of the .NET Framework to use in your development process. You can target the following .NET Framework versions in Office projects:
 
-- [!INCLUDE
-- [net_v40_short](../sharepoint/includes/net-v40-short-md.md)]
+- [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)]
 
-- [!INCLUDE
-- [net_client_v40_long](../vsto/includes/net-client-v40-long-md.md)]
+- [!INCLUDE[net_client_v40_long](../vsto/includes/net-client-v40-long-md.md)]
 
-- [!INCLUDE
-- [net_v45](../vsto/includes/net-v45-md.md)]
+- [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)]
 
   The .NET Framework version that you choose for your project is required on end-user computers for your solution to run. For example, if your project targets the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)], the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] is required on end-user computers. In this example, your solution will not run if only the .NET Framework 3.5 is installed on end-user computers.
 
