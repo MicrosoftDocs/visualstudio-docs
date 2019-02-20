@@ -20,13 +20,13 @@ Gets the system thread identifier.
 
 ```cpp
 HRESULT GetThreadId (
-   DWORD* pdwThreadId
+    DWORD* pdwThreadId
 );
 ```
 
 ```csharp
 int GetThreadId (
-   out uint pdwThreadId
+    out uint pdwThreadId
 );
 ```
 
@@ -45,8 +45,8 @@ The following example shows how to implement this method for a simple `CProgram`
 
 ```cpp
 HRESULT CProgram::GetThreadId(DWORD* pdwThreadId) {
-   *pdwThreadId = GetCurrentThreadId();
-   return NOERROR;
+    *pdwThreadId = GetCurrentThreadId();
+    return NOERROR;
 }
 ```
 
