@@ -19,13 +19,13 @@ Returns the number of constraints that are associated with this generic paramete
 
 ```cpp
 HRESULT ConstraintCount(
-   ULONG32* pcConst
+    ULONG32* pcConst
 );
 ```
 
 ```csharp
 int ConstraintCount(
-   ref uint pcConst
+    ref uint pcConst
 );
 ```
 
