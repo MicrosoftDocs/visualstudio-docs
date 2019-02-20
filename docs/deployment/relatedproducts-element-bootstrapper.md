@@ -77,4 +77,4 @@ The `RelatedProducts` element defines other products that either depend upon or 
 ```
 
 ## See also
- [\<Product> element](../deployment/product-element-bootstrapper.md)
+- [\<Product> element](../deployment/product-element-bootstrapper.md)

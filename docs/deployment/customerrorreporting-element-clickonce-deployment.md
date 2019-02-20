@@ -42,4 +42,4 @@ http://www.contoso.com/applications/error.asp? outer=System.Deployment.Applicati
 ```
 
 ## See also
- [ClickOnce deployment manifest](../deployment/clickonce-deployment-manifest.md)
+- [ClickOnce deployment manifest](../deployment/clickonce-deployment-manifest.md)

@@ -132,5 +132,5 @@ This article lists the following common errors that can occur when you deploy a 
 | The application is too large to run online in partial trust. Contact the application vendor or your system administrator for assistance. | An application that runs in partial trust cannot be larger than half of the size of the online application quota, which by default is 250 MB. |
 
 ## See also
- [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md)
- [Troubleshoot ClickOnce deployments](../deployment/troubleshooting-clickonce-deployments.md)
+- [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md)
+- [Troubleshoot ClickOnce deployments](../deployment/troubleshooting-clickonce-deployments.md)

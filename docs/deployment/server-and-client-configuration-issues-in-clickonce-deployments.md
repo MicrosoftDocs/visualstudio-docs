@@ -128,6 +128,6 @@ If you use Internet Information Services (IIS) on Windows Server, and your deplo
  For detailed instructions for IIS, see [How to specify additional document types for HTTP compression](http://go.microsoft.com/fwlink/?LinkId=178459).
 
 ## See also
- [Troubleshoot ClickOnce deployments](../deployment/troubleshooting-clickonce-deployments.md)
- [Choose a ClickOnce deployment strategy](../deployment/choosing-a-clickonce-deployment-strategy.md)
- [Application deployment prerequisites](../deployment/application-deployment-prerequisites.md)
+- [Troubleshoot ClickOnce deployments](../deployment/troubleshooting-clickonce-deployments.md)
+- [Choose a ClickOnce deployment strategy](../deployment/choosing-a-clickonce-deployment-strategy.md)
+- [Application deployment prerequisites](../deployment/application-deployment-prerequisites.md)

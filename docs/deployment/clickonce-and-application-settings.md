@@ -47,7 +47,7 @@ If you have created your own application settings wrapper class and wish to cust
  ClickOnce does not work with roaming settings, which allows your settings file to follow you across machines on a network. If you need roaming settings, you will need either to implement an application settings provider that stores settings over the network, or develop your own custom settings classes for storing settings on a remote computer. For more information in settings providers, see [Application settings architecture](/dotnet/framework/winforms/advanced/application-settings-architecture).
 
 ## See also
- [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md)
- [Application settings overview](/dotnet/framework/winforms/advanced/application-settings-overview)
- [ClickOnce cache overview](../deployment/clickonce-cache-overview.md)
- [Access local and remote data in ClickOnce applications](../deployment/accessing-local-and-remote-data-in-clickonce-applications.md)
+- [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md)
+- [Application settings overview](/dotnet/framework/winforms/advanced/application-settings-overview)
+- [ClickOnce cache overview](../deployment/clickonce-cache-overview.md)
+- [Access local and remote data in ClickOnce applications](../deployment/accessing-local-and-remote-data-in-clickonce-applications.md)

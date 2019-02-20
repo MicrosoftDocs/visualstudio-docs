@@ -57,5 +57,5 @@ The `Schedules` element contains `Schedule` elements, which define specific time
  The `AfterPackage` element instructs the installer to execute a command after the specified package is installed.
 
 ## See also
- [\<Product> element](../deployment/product-element-bootstrapper.md)
- [Product and package schema reference](../deployment/product-and-package-schema-reference.md)
+- [\<Product> element](../deployment/product-element-bootstrapper.md)
+- [Product and package schema reference](../deployment/product-and-package-schema-reference.md)

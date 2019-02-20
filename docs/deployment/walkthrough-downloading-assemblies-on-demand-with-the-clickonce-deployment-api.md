@@ -121,4 +121,4 @@ By default, all of the assemblies included in a [!INCLUDE[ndptecclick](../deploy
 3. When your main form appears, press the <xref:System.Windows.Forms.Button>. You should see a string in a message box window that reads "Hello, World!".
 
 ## See also
- <xref:System.Deployment.Application.ApplicationDeployment>
+- <xref:System.Deployment.Application.ApplicationDeployment>

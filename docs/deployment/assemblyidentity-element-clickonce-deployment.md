@@ -61,5 +61,5 @@ Identifies the primary assembly of the [!INCLUDE[ndptecclick](../deployment/incl
 ```
 
 ## See also
- [ClickOnce deployment manifest](../deployment/clickonce-deployment-manifest.md)
- [\<assemblyIdentity> element](../deployment/assemblyidentity-element-clickonce-application.md)
+- [ClickOnce deployment manifest](../deployment/clickonce-deployment-manifest.md)
+- [\<assemblyIdentity> element](../deployment/assemblyidentity-element-clickonce-application.md)

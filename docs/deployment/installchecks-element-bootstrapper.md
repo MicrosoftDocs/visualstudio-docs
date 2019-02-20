@@ -175,5 +175,5 @@ The `InstallChecks` element supports starting a variety of tests against the loc
 ```
 
 ## See also
- [\<Commands> element](../deployment/commands-element-bootstrapper.md)
- [Product and package schema reference](../deployment/product-and-package-schema-reference.md)
+- [\<Commands> element](../deployment/commands-element-bootstrapper.md)
+- [Product and package schema reference](../deployment/product-and-package-schema-reference.md)

@@ -198,5 +198,5 @@ The `Commands` element implements tests described by the elements underneath the
 ```
 
 ## See also
- [Product and package schema reference](../deployment/product-and-package-schema-reference.md)
- [\<InstallChecks> element](../deployment/installchecks-element-bootstrapper.md)
+- [Product and package schema reference](../deployment/product-and-package-schema-reference.md)
+- [\<InstallChecks> element](../deployment/installchecks-element-bootstrapper.md)

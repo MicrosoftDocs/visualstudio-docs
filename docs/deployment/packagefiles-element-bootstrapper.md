@@ -69,6 +69,6 @@ The `PackageFiles` element contains `PackageFile` elements, which define the ins
 ```
 
 ## See also
- [\<Product> element](../deployment/product-element-bootstrapper.md)
- [\<Package> element](../deployment/package-element-bootstrapper.md)
- [Product and package schema reference](../deployment/product-and-package-schema-reference.md)
+- [\<Product> element](../deployment/product-element-bootstrapper.md)
+- [\<Package> element](../deployment/package-element-bootstrapper.md)
+- [Product and package schema reference](../deployment/product-and-package-schema-reference.md)

@@ -36,6 +36,6 @@ When publishing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.m
 3.  In the Installation URL field, enter the installation location using a fully qualified URL using the format *http://www.microsoft.com/ApplicationName*, or a UNC path using the format *\\\Server\ApplicationName*.
 
 ## See also
- [How to: Specify where Visual Studio copies the files](../deployment/how-to-specify-where-visual-studio-copies-the-files.md)
- [Publishing ClickOnce applications](../deployment/publishing-clickonce-applications.md)
- [How to: Publish a ClickOnce application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)
+- [How to: Specify where Visual Studio copies the files](../deployment/how-to-specify-where-visual-studio-copies-the-files.md)
+- [Publishing ClickOnce applications](../deployment/publishing-clickonce-applications.md)
+- [How to: Publish a ClickOnce application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)

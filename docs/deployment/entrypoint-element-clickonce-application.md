@@ -106,4 +106,4 @@ Identifies the assembly that should be executed when this [!INCLUDE[ndptecclick]
 ```
 
 ## See also
- [ClickOnce application manifest](../deployment/clickonce-application-manifest.md)
+- [ClickOnce application manifest](../deployment/clickonce-application-manifest.md)

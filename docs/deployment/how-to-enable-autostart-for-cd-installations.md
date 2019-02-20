@@ -39,5 +39,5 @@ When deploying a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md
      An *Autorun.inf* file will be copied to the publish location when the application is published.
 
 ## See also
- [Publish ClickOnce applications](../deployment/publishing-clickonce-applications.md)
- [How to: Publish a ClickOnce application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)
+- [Publish ClickOnce applications](../deployment/publishing-clickonce-applications.md)
+- [How to: Publish a ClickOnce application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)

@@ -64,5 +64,5 @@ The top-level element for the application manifest.
 ```
 
 ## See also
- [ClickOnce application manifest](../deployment/clickonce-application-manifest.md)
- [\<assembly> element](../deployment/assembly-element-clickonce-deployment.md)
+- [ClickOnce application manifest](../deployment/clickonce-application-manifest.md)
+- [\<assembly> element](../deployment/assembly-element-clickonce-deployment.md)

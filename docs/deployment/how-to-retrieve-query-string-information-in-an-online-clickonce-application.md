@@ -73,4 +73,4 @@ The *query string* is the portion of a URL beginning with a question mark (?) th
  Allow passing URL parameters to your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application only if you plan to cleanse the input of any malicious characters before using it. A string embedded with quotes, slashes, or semicolons, for example, might perform arbitrary data operations if used unfiltered in a SQL query against a database. For more information on query string security, see [Script exploits overview](https://msdn.microsoft.com/Library/772c7312-211a-4eb3-8d6e-eec0aa1dcc07).
 
 ## See also
- [Secure ClickOnce applications](../deployment/securing-clickonce-applications.md)
+- [Secure ClickOnce applications](../deployment/securing-clickonce-applications.md)

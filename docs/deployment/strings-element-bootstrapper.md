@@ -68,4 +68,4 @@ Defines localized strings for product names, package names, and installation err
 ```
 
 ## See also
- [\<Package> element](../deployment/package-element-bootstrapper.md)
+- [\<Package> element](../deployment/package-element-bootstrapper.md)

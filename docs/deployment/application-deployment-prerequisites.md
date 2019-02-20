@@ -78,5 +78,5 @@ To have your application to install and run successfully, first install all comp
  The Visual Studio bootstrapper is not supported on Windows Server 2008 Server Core or Windows Server 2008 R2 Server Core, as they provide a low-maintenance server environment with limited functionality. For example, the Server Core installation option only supports the .NET Framework 3.5 Server Core profile, which cannot run the Visual Studio features that depend on the full .NET Framework.
 
 ## See also
- [Choose a ClickOnce deployment strategy](../deployment/choosing-a-clickonce-deployment-strategy.md)
- [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md)
+- [Choose a ClickOnce deployment strategy](../deployment/choosing-a-clickonce-deployment-strategy.md)
+- [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md)

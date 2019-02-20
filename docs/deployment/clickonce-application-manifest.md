@@ -110,4 +110,4 @@ A [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application 
 ```
 
 ## See also
- [Publish ClickOnce applications](../deployment/publishing-clickonce-applications.md)
+- [Publish ClickOnce applications](../deployment/publishing-clickonce-applications.md)

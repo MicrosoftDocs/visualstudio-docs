@@ -104,9 +104,9 @@ ms.workload:
 |Firefox|2.0 SP1, 3.5 SP1, 4|
 
 ## See also
- [ClickOnce deployment on Windows Vista](../deployment/clickonce-deployment-on-windows-vista.md)
- [Publish ClickOnce applications](../deployment/publishing-clickonce-applications.md)
- [Secure ClickOnce applications](../deployment/securing-clickonce-applications.md)
- [Deploy COM components with ClickOnce](../deployment/deploying-com-components-with-clickonce.md)
- [Build ClickOnce applications from the command line](../deployment/building-clickonce-applications-from-the-command-line.md)
- [Debug ClickOnce applications that use System.Deployment.Application](../deployment/debugging-clickonce-applications-that-use-system-deployment-application.md)
+- [ClickOnce deployment on Windows Vista](../deployment/clickonce-deployment-on-windows-vista.md)
+- [Publish ClickOnce applications](../deployment/publishing-clickonce-applications.md)
+- [Secure ClickOnce applications](../deployment/securing-clickonce-applications.md)
+- [Deploy COM components with ClickOnce](../deployment/deploying-com-components-with-clickonce.md)
+- [Build ClickOnce applications from the command line](../deployment/building-clickonce-applications-from-the-command-line.md)
+- [Debug ClickOnce applications that use System.Deployment.Application](../deployment/debugging-clickonce-applications-that-use-system-deployment-application.md)

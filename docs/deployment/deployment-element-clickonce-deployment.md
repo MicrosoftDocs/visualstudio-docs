@@ -118,4 +118,4 @@ Identifies the attributes used for the deployment of updates and exposure to the
 ```
 
 ## See also
- [ClickOnce deployment manifest](../deployment/clickonce-deployment-manifest.md)
+- [ClickOnce deployment manifest](../deployment/clickonce-deployment-manifest.md)

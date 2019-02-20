@@ -85,10 +85,10 @@ ClickOnce applications are based on the .NET Framework and are subject to code a
   In the **Advanced Security Settings** dialog box, the **Debug this application with the selected permission set** check box is selected and disabled. This is because Debug In Zone cannot be turned off for browser-hosted applications.
 
 ## See also
- [Secure ClickOnce applications](../deployment/securing-clickonce-applications.md)
- [How to: Enable ClickOnce security settings](../deployment/how-to-enable-clickonce-security-settings.md)
- [How to: Set a security zone for a ClickOnce application](../deployment/how-to-set-a-security-zone-for-a-clickonce-application.md)
- [How to: Set custom permissions for a ClickOnce application](../deployment/how-to-set-custom-permissions-for-a-clickonce-application.md)
- [How to: Debug a ClickOnce application with restricted permissions](../deployment/how-to-debug-a-clickonce-application-with-restricted-permissions.md)
- [Trusted application deployment overview](../deployment/trusted-application-deployment-overview.md)
- [Security Page, Project Designer](../ide/reference/security-page-project-designer.md)
+- [Secure ClickOnce applications](../deployment/securing-clickonce-applications.md)
+- [How to: Enable ClickOnce security settings](../deployment/how-to-enable-clickonce-security-settings.md)
+- [How to: Set a security zone for a ClickOnce application](../deployment/how-to-set-a-security-zone-for-a-clickonce-application.md)
+- [How to: Set custom permissions for a ClickOnce application](../deployment/how-to-set-custom-permissions-for-a-clickonce-application.md)
+- [How to: Debug a ClickOnce application with restricted permissions](../deployment/how-to-debug-a-clickonce-application-with-restricted-permissions.md)
+- [Trusted application deployment overview](../deployment/trusted-application-deployment-overview.md)
+- [Security Page, Project Designer](../ide/reference/security-page-project-designer.md)

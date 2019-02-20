@@ -71,5 +71,5 @@ ms.workload:
  Visual Studio includes the free [PreEmptive Protection - Dotfuscator Community Edition](../ide/dotfuscator/index.md), which you can use to protect your ClickOnce applications through code obfuscation and active protection measures.  For details, please see [the ClickOnce section of the Dotfuscator Community Edition User Guide](https://www.preemptive.com/dotfuscator/ce/docs/help/5.27/advanced_clickonce.html).
 
 ## See also
- [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md)
- [Choose a ClickOnce deployment strategy](../deployment/choosing-a-clickonce-deployment-strategy.md)
+- [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md)
+- [Choose a ClickOnce deployment strategy](../deployment/choosing-a-clickonce-deployment-strategy.md)

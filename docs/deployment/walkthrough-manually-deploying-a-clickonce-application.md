@@ -187,8 +187,8 @@ If you cannot use Visual Studio to deploy your [!INCLUDE[ndptecclick](../deploym
  When you need to deploy a new version of the application, create a new directory named after the new version—for example, 1.0.0.1—and copy the new application files into the new directory. Next, you need to follow the previous steps to create and sign a new application manifest, and update and sign the deployment manifest. Be careful to specify the same higher version in both the *Mage.exe* `-New` and `-Update` calls, as [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] only updates higher versions, with the left-most integer most significant. If you used *MageUI.exe*, you can update the deployment manifest by opening it, selecting the **Application Reference** tab, clicking the **Select Manifest** button, and then selecting the updated application manifest.
 
 ## See also
- [Mage.exe (Manifest Generation and Editing Tool)](/dotnet/framework/tools/mage-exe-manifest-generation-and-editing-tool)
- [MageUI.exe (Manifest Generation and Editing Tool, Graphical Client)](/dotnet/framework/tools/mageui-exe-manifest-generation-and-editing-tool-graphical-client)
- [Publish ClickOnce applications](../deployment/publishing-clickonce-applications.md)
- [ClickOnce deployment manifest](../deployment/clickonce-deployment-manifest.md)
- [ClickOnce application manifest](../deployment/clickonce-application-manifest.md)
+- [Mage.exe (Manifest Generation and Editing Tool)](/dotnet/framework/tools/mage-exe-manifest-generation-and-editing-tool)
+- [MageUI.exe (Manifest Generation and Editing Tool, Graphical Client)](/dotnet/framework/tools/mageui-exe-manifest-generation-and-editing-tool-graphical-client)
+- [Publish ClickOnce applications](../deployment/publishing-clickonce-applications.md)
+- [ClickOnce deployment manifest](../deployment/clickonce-deployment-manifest.md)
+- [ClickOnce application manifest](../deployment/clickonce-application-manifest.md)

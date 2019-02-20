@@ -51,5 +51,5 @@ Code access security for ClickOnce applications must be enabled in order to publ
     >  Each time the application is published with the Publish wizard, this check box will be selected; you must clear it again after each successful publish.
 
 ## See also
- [Secure ClickOnce applications](../deployment/securing-clickonce-applications.md)
- [Code access security for ClickOnce applications](../deployment/code-access-security-for-clickonce-applications.md)
+- [Secure ClickOnce applications](../deployment/securing-clickonce-applications.md)
+- [Code access security for ClickOnce applications](../deployment/code-access-security-for-clickonce-applications.md)

@@ -67,4 +67,4 @@ Identifies the versions of the .NET Framework where this application can install
 ```
 
 ## See also
- [ClickOnce deployment manifest](../deployment/clickonce-deployment-manifest.md)
+- [ClickOnce deployment manifest](../deployment/clickonce-deployment-manifest.md)

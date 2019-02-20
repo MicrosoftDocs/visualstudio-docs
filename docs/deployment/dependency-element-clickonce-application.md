@@ -214,5 +214,5 @@ Identifies a platform or assembly dependency that is required for the applicatio
 ```
 
 ## See also
- [ClickOnce application manifest](../deployment/clickonce-application-manifest.md)
- [\<dependency> element](../deployment/dependency-element-clickonce-deployment.md)
+- [ClickOnce application manifest](../deployment/clickonce-application-manifest.md)
+- [\<dependency> element](../deployment/dependency-element-clickonce-deployment.md)

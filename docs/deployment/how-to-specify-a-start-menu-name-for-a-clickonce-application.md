@@ -43,5 +43,5 @@ When a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applica
 6.  Optionally, you can enter a publisher name in **Publisher name**.
 
 ## See also
- [Publish ClickOnce applications](../deployment/publishing-clickonce-applications.md)
- [How to: Publish a ClickOnce application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)
+- [Publish ClickOnce applications](../deployment/publishing-clickonce-applications.md)
+- [How to: Publish a ClickOnce application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)

@@ -41,4 +41,4 @@ Typically, a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] a
 6.  Deploy your application.
 
 ## See also
- [Publishing ClickOnce applications](../deployment/publishing-clickonce-applications.md)
+- [Publishing ClickOnce applications](../deployment/publishing-clickonce-applications.md)

@@ -62,5 +62,5 @@ Identifies the application deployed in a [!INCLUDE[ndptecclick](../deployment/in
 ```
 
 ## See also
- [ClickOnce application manifest](../deployment/clickonce-application-manifest.md)
- [\<assemblyIdentity> element](../deployment/assemblyidentity-element-clickonce-deployment.md)
+- [ClickOnce application manifest](../deployment/clickonce-application-manifest.md)
+- [\<assemblyIdentity> element](../deployment/assemblyidentity-element-clickonce-deployment.md)

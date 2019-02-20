@@ -63,7 +63,7 @@ ms.workload:
 - You can store certificates as a *.pfx* file on your file system, or you can store them inside of a key container. A user on a Windows domain can have a number of key containers. By default, *MakeCert.exe* will store certificates in your personal key container, unless you specify that it should save it to a *.pfx* instead. *Mage.exe* and *MageUI.exe*, the [!INCLUDE[winsdkshort](../debugger/debug-interface-access/includes/winsdkshort_md.md)] tools for creating [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployments, enable you to use certificates stored in either fashion.
 
 ## See also
- [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md)
- [Secure ClickOnce applications](../deployment/securing-clickonce-applications.md)
- [Trusted application deployment overview](../deployment/trusted-application-deployment-overview.md)
- [Mage.exe (Manifest Generation and Editing Tool)](/dotnet/framework/tools/mage-exe-manifest-generation-and-editing-tool)
+- [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md)
+- [Secure ClickOnce applications](../deployment/securing-clickonce-applications.md)
+- [Trusted application deployment overview](../deployment/trusted-application-deployment-overview.md)
+- [Mage.exe (Manifest Generation and Editing Tool)](/dotnet/framework/tools/mage-exe-manifest-generation-and-editing-tool)

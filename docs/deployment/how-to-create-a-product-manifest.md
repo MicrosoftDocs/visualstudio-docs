@@ -153,4 +153,4 @@ To deploy prerequisites for your application, you can create a bootstrapper pack
 ```
 
 ## See also
- [Product and package schema reference](../deployment/product-and-package-schema-reference.md)
+- [Product and package schema reference](../deployment/product-and-package-schema-reference.md)

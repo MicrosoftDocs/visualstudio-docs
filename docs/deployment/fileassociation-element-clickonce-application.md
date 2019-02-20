@@ -73,4 +73,4 @@ Identifies a file extension to be associated with the application.
 ```
 
 ## See also
- [ClickOnce application manifest](../deployment/clickonce-application-manifest.md)
+- [ClickOnce application manifest](../deployment/clickonce-application-manifest.md)

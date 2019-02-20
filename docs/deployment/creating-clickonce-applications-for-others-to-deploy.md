@@ -92,6 +92,6 @@ Not all developers who are creating ClickOnce deployments plan to deploy the app
  The drawback of this method is that it requires the customer to install the .NET Framework SDK tools, and to have a developer or system administrator who is skilled at using them. Some customers may demand a solution that requires little or no technical effort on their part.
 
 ## See also
- [Deploy ClickOnce applications for testing and production servers without resigning](../deployment/deploying-clickonce-applications-for-testing-and-production-without-resigning.md)
- [Walkthrough: Manually deploying a ClickOnce application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md)
- [Walkthrough: Manually deploying a ClickOnce application that does not require re-signing and that preserves branding information](../deployment/walkthrough-manually-deploying-a-clickonce-app-no-re-signing-required.md)
+- [Deploy ClickOnce applications for testing and production servers without resigning](../deployment/deploying-clickonce-applications-for-testing-and-production-without-resigning.md)
+- [Walkthrough: Manually deploying a ClickOnce application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md)
+- [Walkthrough: Manually deploying a ClickOnce application that does not require re-signing and that preserves branding information](../deployment/walkthrough-manually-deploying-a-clickonce-app-no-re-signing-required.md)

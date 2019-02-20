@@ -97,8 +97,8 @@ You can deploy an application that targets multiple versions of the .NET Framewo
 -   Update and re-sign the application and deployment manifests. For more information, see [How to: Re-sign application and deployment manifests](../deployment/how-to-re-sign-application-and-deployment-manifests.md).
 
 ## See also
- [Publish ClickOnce applications](../deployment/publishing-clickonce-applications.md)
- [\<compatibleFrameworks> element](../deployment/compatibleframeworks-element-clickonce-deployment.md)
- [\<dependency> element](../deployment/dependency-element-clickonce-application.md)
- [ClickOnce deployment manifest](../deployment/clickonce-deployment-manifest.md)
- [Configuration file schema](/dotnet/framework/configure-apps/file-schema/index)
+- [Publish ClickOnce applications](../deployment/publishing-clickonce-applications.md)
+- [\<compatibleFrameworks> element](../deployment/compatibleframeworks-element-clickonce-deployment.md)
+- [\<dependency> element](../deployment/dependency-element-clickonce-application.md)
+- [ClickOnce deployment manifest](../deployment/clickonce-deployment-manifest.md)
+- [Configuration file schema](/dotnet/framework/configure-apps/file-schema/index)

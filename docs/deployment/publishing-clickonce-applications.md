@@ -95,5 +95,5 @@ When publishing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.m
 |[How to: Publish a WPF application with visual styles enabled](../deployment/how-to-publish-a-wpf-application-with-visual-styles-enabled.md)|Provides step-by-step instructions to resolve an error that appears when you attempt to publish a WPF application that has visual styles enabled.|
 
 ## See also
- [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md)
- [ClickOnce reference](../deployment/clickonce-reference.md)
+- [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md)
+- [ClickOnce reference](../deployment/clickonce-reference.md)

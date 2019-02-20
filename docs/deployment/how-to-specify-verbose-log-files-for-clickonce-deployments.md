@@ -35,4 +35,4 @@ ms.workload:
 4.  Set the `LogVerbosityLevel` value to `1`.
 
 ## See also
- [Troubleshoot ClickOnce deployments](../deployment/troubleshooting-clickonce-deployments.md)
+- [Troubleshoot ClickOnce deployments](../deployment/troubleshooting-clickonce-deployments.md)

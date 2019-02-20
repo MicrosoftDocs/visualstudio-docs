@@ -40,5 +40,5 @@ When you publish an application by using ClickOnce, the `Publish Location` prope
      Note that text must be present in the **Publishing Location** box in order for the Browse (**...**) button to work.
 
 ## See also
- [Publishing ClickOnce applications](../deployment/publishing-clickonce-applications.md)
- [How to: Publish a ClickOnce application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)
+- [Publishing ClickOnce applications](../deployment/publishing-clickonce-applications.md)
+- [How to: Publish a ClickOnce application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)

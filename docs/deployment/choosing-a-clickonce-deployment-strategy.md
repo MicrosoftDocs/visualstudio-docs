@@ -66,7 +66,7 @@ There are three different strategies for deploying a [!INCLUDE[ndptecclick](../d
  Applications that target .NET Framework 2.0 require Internet Explorer.
 
 ## See also
- [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md)
- [Choose a ClickOnce update strategy](../deployment/choosing-a-clickonce-update-strategy.md)
- [How to: Publish a ClickOnce application with the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)
- [Securing ClickOnce applications](../deployment/securing-clickonce-applications.md)
+- [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md)
+- [Choose a ClickOnce update strategy](../deployment/choosing-a-clickonce-update-strategy.md)
+- [How to: Publish a ClickOnce application with the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)
+- [Securing ClickOnce applications](../deployment/securing-clickonce-applications.md)

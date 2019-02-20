@@ -85,6 +85,6 @@ After you create a bootstrapper package, you can create localized versions of th
 6.  Save the *package.xml* file.
 
 ## See also
- [Create bootstrapper packages](../deployment/creating-bootstrapper-packages.md)
- [Application deployment prerequisites](../deployment/application-deployment-prerequisites.md)
- [How to: Create a package manifest](../deployment/how-to-create-a-package-manifest.md)
+- [Create bootstrapper packages](../deployment/creating-bootstrapper-packages.md)
+- [Application deployment prerequisites](../deployment/application-deployment-prerequisites.md)
+- [How to: Create a package manifest](../deployment/how-to-create-a-package-manifest.md)

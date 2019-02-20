@@ -65,4 +65,4 @@ MIIHnTCCBoWgAwIBAgIKJY9+nwAHAAB...
 ```
 
 ## See also
- [ClickOnce deployment manifest](../deployment/clickonce-deployment-manifest.md)
+- [ClickOnce deployment manifest](../deployment/clickonce-deployment-manifest.md)

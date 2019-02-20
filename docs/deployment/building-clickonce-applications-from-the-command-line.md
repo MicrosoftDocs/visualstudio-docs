@@ -159,8 +159,8 @@ msbuild /target:publish /property:BootstrapperEnabled=false
 |`UpdateURL`|Optional. Set this URL option if the update location is different than the `InstallURL`. For example, you could set the `PublishURL` to an FTP path and set the `UpdateURL` to a Web URL.|
 
 ## See also
- <xref:Microsoft.Build.Tasks.GenerateBootstrapper>
- <xref:Microsoft.Build.Tasks.GenerateApplicationManifest>
- <xref:Microsoft.Build.Tasks.GenerateDeploymentManifest>
- [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md)
- [Walkthrough: Manually deploy a ClickOnce application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md)
+- <xref:Microsoft.Build.Tasks.GenerateBootstrapper>
+- <xref:Microsoft.Build.Tasks.GenerateApplicationManifest>
+- <xref:Microsoft.Build.Tasks.GenerateDeploymentManifest>
+- [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md)
+- [Walkthrough: Manually deploy a ClickOnce application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md)

@@ -93,4 +93,4 @@ installing this package.</String>
 ```
 
 ## See also
- [Product and package schema reference](../deployment/product-and-package-schema-reference.md)
+- [Product and package schema reference](../deployment/product-and-package-schema-reference.md)

@@ -195,4 +195,4 @@ Identifies all nonassembly files downloaded and used by the application.
 ```
 
 ## See also
- [ClickOnce application manifest](../deployment/clickonce-application-manifest.md)
+- [ClickOnce application manifest](../deployment/clickonce-application-manifest.md)

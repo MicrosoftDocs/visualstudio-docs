@@ -56,4 +56,4 @@ Identifies application information used to create a shell presence and an **Add 
 ```
 
 ## See also
- [ClickOnce deployment manifest](../deployment/clickonce-deployment-manifest.md)
+- [ClickOnce deployment manifest](../deployment/clickonce-deployment-manifest.md)

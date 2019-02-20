@@ -262,5 +262,5 @@ Describes the minimum security permissions required for the application to run o
 ```
 
 ## See also
- [Trusted Application Deployment overview](../deployment/trusted-application-deployment-overview.md)
- [ClickOnce application manifest](../deployment/clickonce-application-manifest.md)
+- [Trusted Application Deployment overview](../deployment/trusted-application-deployment-overview.md)
+- [ClickOnce application manifest](../deployment/clickonce-application-manifest.md)

@@ -113,4 +113,4 @@ A deployment manifest is an XML file that describes a [!INCLUDE[ndptecclick](../
 ```
 
 ## See also
- [Publish ClickOnce applications](../deployment/publishing-clickonce-applications.md)
+- [Publish ClickOnce applications](../deployment/publishing-clickonce-applications.md)

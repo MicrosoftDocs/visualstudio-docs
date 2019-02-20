@@ -71,4 +71,4 @@ In [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)]
    Use the <xref:System.Deployment.Application.ApplicationDeployment.IsNetworkDeployed%2A> property to invoke the <xref:System.Deployment.Application> APIs only when the application is deployed; the APIs should not be invoked during debugging in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].
 
 ## See also
- <xref:System.Deployment.Application>
+- <xref:System.Deployment.Application>

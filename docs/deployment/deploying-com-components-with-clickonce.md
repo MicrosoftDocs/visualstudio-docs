@@ -166,4 +166,4 @@ Deployment of legacy COM components has traditionally been a difficult task. Com
   There are several scenarios in which COM registration is required on the developer's machine, even though the application's deployment does not require registration. The `Isolated` property requires that the COM component be registered on the developer's machine in order to auto-generate the manifest during the build. There are no registration-capturing capabilities that invoke the self-registration during the build. Also, any classes not explicitly defined in the type library will not be reflected in the manifest. When using a COM component with a pre-existing manifest, such as a native reference, the component may not need to be registered at development time. However, registration is required if the component is an ActiveX control and you want to include it in the **Toolbox** and the Windows Forms designer.
 
 ## See also
- [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md)
+- [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md)

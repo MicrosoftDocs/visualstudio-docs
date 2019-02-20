@@ -53,7 +53,7 @@ As a developer, you most likely are running your development computer with Full 
 6.  In the **Debug this application as if it were downloaded from the following URL** text box, enter a URL or network path.
 
 ## See Also
- [How to: Set custom permissions for a ClickOnce application](../deployment/how-to-set-custom-permissions-for-a-clickonce-application.md)
- [Secure ClickOnce applications](../deployment/securing-clickonce-applications.md)
- [Code access security for ClickOnce applications](../deployment/code-access-security-for-clickonce-applications.md)
- [Secure ClickOnce applications](../deployment/securing-clickonce-applications.md)
+- [How to: Set custom permissions for a ClickOnce application](../deployment/how-to-set-custom-permissions-for-a-clickonce-application.md)
+- [Secure ClickOnce applications](../deployment/securing-clickonce-applications.md)
+- [Code access security for ClickOnce applications](../deployment/code-access-security-for-clickonce-applications.md)
+- [Secure ClickOnce applications](../deployment/securing-clickonce-applications.md)
