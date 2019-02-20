@@ -20,13 +20,13 @@ Gets the breakpoint type.
 
 ```cpp
 HRESULT GetBreakpointType(
-   BP_TYPE* pBPType
+    BP_TYPE* pBPType
 );
 ```
 
 ```csharp
 int GetBreakpointType(
-   out enum_BP_TYPE pBPType
+    out enum_BP_TYPE pBPType
 );
 ```
 
@@ -46,31 +46,31 @@ The following example shows how to implement this method for a simple `CDebugErr
 ```
 HRESULT CDebugErrorBreakpointResolution::GetBreakpointType(BP_TYPE* pBPType)
 {
-   HRESULT hr;
+    HRESULT hr;
 
-   if (pBPType)
-   {
-      // Set default BP_TYPE.
-      *pBPType = BPT_NONE;
+    if (pBPType)
+    {
+        // Set default BP_TYPE.
+        *pBPType = BPT_NONE;
 
-      // Check if the BPERESI_BPRESLOCATION flag is set in BPERESI_FIELDS.
-      if (IsFlagSet(m_bpErrorResolutionInfo.dwFields, BPERESI_BPRESLOCATION))
-      {
-         // Set the new BP_TYPE.
-         *pBPType = m_bpErrorResolutionInfo.bpResLocation.bpType;
-         hr = S_OK;
-      }
-      else
-      {
-         hr = E_FAIL;
-      }
-   }
-   else
-   {
-      hr = E_INVALIDARG;
-   }
+        // Check if the BPERESI_BPRESLOCATION flag is set in BPERESI_FIELDS.
+        if (IsFlagSet(m_bpErrorResolutionInfo.dwFields, BPERESI_BPRESLOCATION))
+        {
+            // Set the new BP_TYPE.
+            *pBPType = m_bpErrorResolutionInfo.bpResLocation.bpType;
+            hr = S_OK;
+        }
+        else
+        {
+            hr = E_FAIL;
+        }
+    }
+    else
+    {
+        hr = E_INVALIDARG;
+    }
 
-   return hr;
+    return hr;
 }
 ```
 
