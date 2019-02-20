@@ -19,18 +19,18 @@ Retrieves the name of this generic parameter.
 
 ```cpp
 HRESULT GetNameOfFormalParam (
-   BSTR* pbstrName
+    BSTR* pbstrName
 );
 ```
 
 ```csharp
 int GetNameOfFormalParam (
-   string pbstrName
+    string pbstrName
 );
 ```
 
 #### Parameters
-`pbstrName`
+`pbstrName`  
 [out] Name of this generic parameter.
 
 ## Return Value
