@@ -24,7 +24,12 @@ You can open code into Visual Studio in any of the following ways:
 
 - On the Visual Studio menu bar, choose **File** > **Open** > **Folder**, and then browse to the code location.
 - On the context (right-click) menu of a folder containing code, choose the **Open in Visual Studio** command.
+::: moniker range="vs-2017"
 - Choose the **Open Folder** link on the Visual Studio **Start Page**.
+::: moniker-end
+::: moniker range=">=vs-2019"
+- Choose the **Open Folder** link on the Start window.
+::: moniker-end
 - If you are a keyboard user, press **Ctrl**+**Shift**+**Alt**+**O** in Visual Studio.
 - Open code from a cloned GitHub repo.
 

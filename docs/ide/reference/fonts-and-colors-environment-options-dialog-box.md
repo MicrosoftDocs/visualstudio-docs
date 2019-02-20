@@ -57,7 +57,13 @@ Lists all of the user interface elements for which you can change font and color
 
 -   **Environment Font**
 
-     Changes the font style and size for all IDE user interface elements that do not already have a separate option in **Show settings for.** For example, this option applies to the **Start Page** but would not affect the **Output** window.
+     Changes the font style and size for all IDE user interface elements that do not already have a separate option in **Show settings for**.
+
+     ::: moniker range="vs-2017"
+
+     For example, this option applies to the **Start Page** but does not affect the **Output** window.
+
+     ::: moniker-end
 
 -   **[All Text Tool Windows]**
 
