@@ -53,7 +53,7 @@ This walkthrough shows how to create a custom Visual Studio start page that cont
     </Grid>
     ```
 
-## Testi the custom start page
+## Test the custom start page
 
 1.  Press **F5**.
 
