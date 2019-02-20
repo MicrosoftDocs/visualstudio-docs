@@ -36,7 +36,7 @@ This page has options for formatting statements and blocks as you type them.
 
 ### Configuring ClangFormat options
 
-In Visual Studio 2017 version 15.7 and later, ClangFormat support is enabled by default. You can choose which of these common formating conventions to apply to all your projects: LLVM, Google, Chromium, Mozilla, or WebKit. You can also create a custom format definition .clang-format or _clang-format file. If such a file is present in a project folder, Visual Studio uses it to format all source code files in that folder and its subfolders. 
+In Visual Studio 2017 version 15.7 and later, ClangFormat support is enabled by default. You can choose which of these common formating conventions to apply to all your projects: LLVM, Google, Chromium, Mozilla, or WebKit. You can also create a custom format definition .clang-format or _clang-format file. If such a file is present in a project folder, Visual Studio uses it to format all source code files in that folder and its subfolders.
 
 By default, Visual Studio runs clangformat.exe in the background applies formatting as you type. You can also specify to run it only for manually invoked formatting commands **Format Document (Ctrl+K, Ctrl+D)** or **Format Selection (Ctrl + K, Ctrl + F)**.
 
