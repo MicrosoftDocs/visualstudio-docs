@@ -521,12 +521,12 @@ To modify custom properties, you create a program that removes the document-leve
 
    After the build completes, you can locate the *setup.exe* file of the **OfficeAddInSetup** project at the following location: <em>OfficeAddInSetupProjectRoot</em>**\OfficeAddInSetup\Express\SingleImage\DiskImages\DISK1\\**
 
-
 ## See also
+
 - [Office solution prerequisites for deployment](https://msdn.microsoft.com/library/9f672809-43a3-40a1-9057-397ce3b5126e)
 - [Deploy an Office solution](../vsto/deploying-an-office-solution.md)
-[Registry entries for VSTO Add-ins](../vsto/registry-entries-for-vsto-add-ins.md)
-[Custom document properties overview](../vsto/custom-document-properties-overview.md)
-[Grant trust to Office solutions](../vsto/granting-trust-to-office-solutions.md)
-[Grant trust to documents](../vsto/granting-trust-to-documents.md)
-[Deploy a Visual Studio 2010 Tools for Office solution using Windows Installer](http://go.microsoft.com/fwlink/?LinkId=201807)
+- [Registry entries for VSTO Add-ins](../vsto/registry-entries-for-vsto-add-ins.md)
+- [Custom document properties overview](../vsto/custom-document-properties-overview.md)
+- [Grant trust to Office solutions](../vsto/granting-trust-to-office-solutions.md)
+- [Grant trust to documents](../vsto/granting-trust-to-documents.md)
+- [Deploy a Visual Studio 2010 Tools for Office solution using Windows Installer](http://go.microsoft.com/fwlink/?LinkId=201807)
