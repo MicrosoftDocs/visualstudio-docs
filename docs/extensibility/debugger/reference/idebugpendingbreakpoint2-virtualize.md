@@ -21,13 +21,13 @@ Toggles the virtualized state of this pending breakpoint. When a pending breakpo
 
 ```cpp
 HRESULT Virtualize(
-   BOOL fVirtualize
+    BOOL fVirtualize
 );
 ```
 
 ```cpp
 int Virtualize(
-   int fVirtualize
+    int fVirtualize
 );
 ```
 
@@ -47,32 +47,32 @@ The following example shows how to implement this method for a simple `CPendingB
 ```cpp
 HRESULT CPendingBreakpoint::Virtualize(BOOL fVirtualize)
 {
-   HRESULT hr;
+    HRESULT hr;
 
-   // Verify that the pending breakpoint has not been deleted. If deleted,
-   // then return hr = E_BP_DELETED.
-   if (m_state.state != PBPS_DELETED)
-   {
-      if (fVirtualize)
-      {
-         // Set the PBPSF_VIRTUALIZED flag in the PENDING_BP_STATE_FLAGS
-         // structure.
-         SetFlag(m_state.flags, PBPSF_VIRTUALIZED);
-      }
-      else
-      {
-         // Clear the PBPSF_VIRTUALIZED flag in the PENDING_BP_STATE_FLAGS
-         // structure.
-         ClearFlag(m_state.flags, PBPSF_VIRTUALIZED);
-      }
-      hr = S_OK;
-   }
-   else
-   {
-      hr = E_BP_DELETED;
-   }
+    // Verify that the pending breakpoint has not been deleted. If deleted,
+    // then return hr = E_BP_DELETED.
+    if (m_state.state != PBPS_DELETED)
+    {
+        if (fVirtualize)
+        {
+            // Set the PBPSF_VIRTUALIZED flag in the PENDING_BP_STATE_FLAGS
+            // structure.
+            SetFlag(m_state.flags, PBPSF_VIRTUALIZED);
+        }
+        else
+        {
+            // Clear the PBPSF_VIRTUALIZED flag in the PENDING_BP_STATE_FLAGS
+            // structure.
+            ClearFlag(m_state.flags, PBPSF_VIRTUALIZED);
+        }
+        hr = S_OK;
+    }
+    else
+    {
+        hr = E_BP_DELETED;
+    }
 
-   return hr;
+    return hr;
 }
 ```
 
