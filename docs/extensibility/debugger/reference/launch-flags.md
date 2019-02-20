@@ -20,20 +20,20 @@ Specifies the debug launch flags.
 
 ```cpp
 enum enum_LAUNCH_FLAGS {
-   LAUNCH_DEBUG      = 0x0000,
-   LAUNCH_NODEBUG    = 0x0001,
-   LAUNCH_ENABLE_ENC = 0x0002,
-   LAUNCH_MERGE_ENV  = 0x0004
+    LAUNCH_DEBUG      = 0x0000,
+    LAUNCH_NODEBUG    = 0x0001,
+    LAUNCH_ENABLE_ENC = 0x0002,
+    LAUNCH_MERGE_ENV  = 0x0004
 };
 typedef DWORD LAUNCH_FLAGS;
 ```
 
 ```csharp
 public enum enum_LAUNCH_FLAGS {
-   LAUNCH_DEBUG      = 0x0000,
-   LAUNCH_NODEBUG    = 0x0001,
-   LAUNCH_ENABLE_ENC = 0x0002,
-   LAUNCH_MERGE_ENV  = 0x0004
+    LAUNCH_DEBUG      = 0x0000,
+    LAUNCH_NODEBUG    = 0x0001,
+    LAUNCH_ENABLE_ENC = 0x0002,
+    LAUNCH_MERGE_ENV  = 0x0004
 };
 ```
 
