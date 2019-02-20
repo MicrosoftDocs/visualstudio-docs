@@ -471,4 +471,4 @@ Your project file should now resemble the following code:
 
 ## See also
 [MSBuild overview](../msbuild/msbuild.md)
- [MSBuild reference](../msbuild/msbuild-reference.md)
+- [MSBuild reference](../msbuild/msbuild-reference.md)

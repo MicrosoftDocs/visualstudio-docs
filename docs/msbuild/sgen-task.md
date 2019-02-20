@@ -48,6 +48,6 @@ Creates an XML serialization assembly for types in the specified assembly. This 
  In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.ToolTaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.ToolTask> class. For a list of these additional parameters and their descriptions, see [ToolTaskExtension base class](../msbuild/tooltaskextension-base-class.md).
 
 ## See also
- [Task reference](../msbuild/msbuild-task-reference.md)
- [Tasks](../msbuild/msbuild-tasks.md)
- [MSBuild concepts](../msbuild/msbuild-concepts.md)
+- [Task reference](../msbuild/msbuild-task-reference.md)
+- [Tasks](../msbuild/msbuild-tasks.md)
+- [MSBuild concepts](../msbuild/msbuild-concepts.md)

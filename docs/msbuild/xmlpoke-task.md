@@ -75,5 +75,5 @@ In this example, if you want to modify `/Package/mp:PhoneIdentity/PhonePublisher
 
 ## See also
 
- [Tasks](../msbuild/msbuild-tasks.md)
- [Task reference](../msbuild/msbuild-task-reference.md)
+- [Tasks](../msbuild/msbuild-tasks.md)
+- [Task reference](../msbuild/msbuild-task-reference.md)

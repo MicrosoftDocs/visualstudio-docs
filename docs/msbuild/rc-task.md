@@ -45,4 +45,4 @@ Wraps the Microsoft Windows Resource Compiler tool, *rc.exe*. The **RC** task co
 |**UndefinePreprocessorDefinitions**|Undefine a preprocessor symbol.<br /><br /> For more information, see the **/u** option in [Using RC (the RC command line)](http://go.microsoft.com/fwlink/?LinkId=155730). Also see **PreprocessorDefinitions** in this table.|
 
 ## See also
- [Task reference](../msbuild/msbuild-task-reference.md)
+- [Task reference](../msbuild/msbuild-task-reference.md)

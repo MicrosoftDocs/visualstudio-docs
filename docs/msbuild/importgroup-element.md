@@ -67,5 +67,5 @@ Contains a collection of `Import` elements that are grouped under an optional co
 ```
 
 ## See also
- [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)
- [Items](../msbuild/msbuild-items.md)
+- [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)
+- [Items](../msbuild/msbuild-items.md)

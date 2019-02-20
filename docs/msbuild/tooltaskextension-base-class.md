@@ -43,5 +43,5 @@ Many tasks inherit from the <xref:Microsoft.Build.Tasks.ToolTaskExtension> class
 | <xref:Microsoft.Build.Utilities.ToolTask.YieldDuringToolExecution%2A> | Optional `bool` parameter.<br /><br /> When set to `true`, this task yields the node when its task is executing. |
 
 ## See also
- [Task reference](../msbuild/msbuild-task-reference.md)
- [Tasks](../msbuild/msbuild-tasks.md)
+- [Task reference](../msbuild/msbuild-task-reference.md)
+- [Tasks](../msbuild/msbuild-tasks.md)

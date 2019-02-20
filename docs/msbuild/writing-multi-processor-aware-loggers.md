@@ -106,4 +106,4 @@ msbuild.exe myproj.proj -distributedlogger:XMLCentralLogger,MyLogger,Version=1.0
 |SHOWCOMMANDLINE|
 
 ## See also
- [Creating forwarding loggers](../msbuild/creating-forwarding-loggers.md)
+- [Creating forwarding loggers](../msbuild/creating-forwarding-loggers.md)

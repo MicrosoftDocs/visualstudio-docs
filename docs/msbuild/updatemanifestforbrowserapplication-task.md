@@ -67,9 +67,9 @@ The <xref:Microsoft.Build.Tasks.Windows.UpdateManifestForBrowserApplication> tas
 ```
 
 ## See also
- [WPF MSBuild reference](../msbuild/wpf-msbuild-reference.md)
- [Task reference](../msbuild/wpf-msbuild-task-reference.md)
- [MSBuild reference](../msbuild/msbuild-reference.md)
- [Task reference](../msbuild/msbuild-task-reference.md)
- [Build a WPF application (WPF)](/dotnet/framework/wpf/app-development/building-a-wpf-application-wpf)
- [WPF XAML browser applications overview](/dotnet/framework/wpf/app-development/wpf-xaml-browser-applications-overview)
+- [WPF MSBuild reference](../msbuild/wpf-msbuild-reference.md)
+- [Task reference](../msbuild/wpf-msbuild-task-reference.md)
+- [MSBuild reference](../msbuild/msbuild-reference.md)
+- [Task reference](../msbuild/msbuild-task-reference.md)
+- [Build a WPF application (WPF)](/dotnet/framework/wpf/app-development/building-a-wpf-application-wpf)
+- [WPF XAML browser applications overview](/dotnet/framework/wpf/app-development/wpf-xaml-browser-applications-overview)

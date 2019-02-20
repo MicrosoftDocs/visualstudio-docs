@@ -54,5 +54,5 @@ Reads the metadata within the specified assembly and adds the necessary entries 
 ```
 
 ## See also
- [Tasks](../msbuild/msbuild-tasks.md)
- [Task reference](../msbuild/msbuild-task-reference.md)
+- [Tasks](../msbuild/msbuild-tasks.md)
+- [Task reference](../msbuild/msbuild-task-reference.md)

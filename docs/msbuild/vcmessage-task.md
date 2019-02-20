@@ -36,4 +36,4 @@ Logs warning and error messages during a build.
 |**Type**|Optional **String** parameter.<br /><br /> Specifies the kind of message to emit. Specify either "Warning" to emit a warning message, or "Error" to emit an error message.|
 
 ## See also
- [Task reference](../msbuild/msbuild-task-reference.md)
+- [Task reference](../msbuild/msbuild-task-reference.md)

@@ -33,6 +33,6 @@ Forwarding loggers improve logging efficiency by letting you choose the events y
  When you build a project on a multi-processor system, the build messages from each processor are not automatically interleaved in a unified sequence. Instead, you must establish a message grouping priority by using the <xref:Microsoft.Build.Framework.BuildEventContext> class that is attached to every message. For more information about multi-processor building, see [Logging in a multi-processor environment](../msbuild/logging-in-a-multi-processor-environment.md).
 
 ## See also
- [Obtain build logs](../msbuild/obtaining-build-logs-with-msbuild.md)
- [Build loggers](../msbuild/build-loggers.md)
- [Logging in a multi-processor environment](../msbuild/logging-in-a-multi-processor-environment.md)
+- [Obtain build logs](../msbuild/obtaining-build-logs-with-msbuild.md)
+- [Build loggers](../msbuild/build-loggers.md)
+- [Logging in a multi-processor environment](../msbuild/logging-in-a-multi-processor-environment.md)

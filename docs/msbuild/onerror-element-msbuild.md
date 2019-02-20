@@ -71,5 +71,5 @@ Causes one or more targets to execute, if the `ContinueOnError` attribute is `fa
 ```
 
 ## See also
- [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)
- [Targets](../msbuild/msbuild-targets.md)
+- [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)
+- [Targets](../msbuild/msbuild-targets.md)

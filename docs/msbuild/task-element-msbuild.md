@@ -79,6 +79,6 @@ Creates and executes an instance of an [!INCLUDE[vstecmsbuild](../extensibility/
 ```
 
 ## See also
- [Tasks](../msbuild/msbuild-tasks.md)
- [Task reference](../msbuild/msbuild-task-reference.md)
- [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)
+- [Tasks](../msbuild/msbuild-tasks.md)
+- [Task reference](../msbuild/msbuild-task-reference.md)
+- [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)

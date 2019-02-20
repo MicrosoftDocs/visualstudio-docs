@@ -106,5 +106,5 @@ If you have authored several [!INCLUDE[vstecmsbuild](../extensibility/internals/
 ```
 
 ## See also
- [Import element (MSBuild)](../msbuild/import-element-msbuild.md)
- [Targets](../msbuild/msbuild-targets.md)
+- [Import element (MSBuild)](../msbuild/import-element-msbuild.md)
+- [Targets](../msbuild/msbuild-targets.md)

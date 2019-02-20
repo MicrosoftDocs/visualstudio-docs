@@ -117,6 +117,6 @@ In a project file you can use wildcards to include all the files in one director
 ```
 
 ## See also
- [Items](../msbuild/msbuild-items.md)
- [MSBuild](../msbuild/msbuild.md)
- [How to: Select the files to build](../msbuild/how-to-select-the-files-to-build.md)
+- [Items](../msbuild/msbuild-items.md)
+- [MSBuild](../msbuild/msbuild.md)
+- [How to: Select the files to build](../msbuild/how-to-select-the-files-to-build.md)

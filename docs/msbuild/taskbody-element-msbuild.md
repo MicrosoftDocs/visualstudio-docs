@@ -68,6 +68,6 @@ Contains the data that is passed to a `UsingTask` `TaskFactory`. For more inform
 ```
 
 ## See also
- [Tasks](../msbuild/msbuild-tasks.md)
- [Task reference](../msbuild/msbuild-task-reference.md)
- [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)
+- [Tasks](../msbuild/msbuild-tasks.md)
+- [Task reference](../msbuild/msbuild-task-reference.md)
+- [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)

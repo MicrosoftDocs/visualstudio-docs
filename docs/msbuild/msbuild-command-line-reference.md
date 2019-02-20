@@ -84,5 +84,5 @@ msbuild SlnFolders.sln -t:NotInSolutionfolder:Rebuild;NewFolder\InSolutionFolder
 ```
 
 ## See also
- [MSBuild reference](../msbuild/msbuild-reference.md)
- [Common MSBuild project properties](../msbuild/common-msbuild-project-properties.md)
+- [MSBuild reference](../msbuild/msbuild-reference.md)
+- [Common MSBuild project properties](../msbuild/common-msbuild-project-properties.md)

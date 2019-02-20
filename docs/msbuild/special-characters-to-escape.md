@@ -37,5 +37,5 @@ Special characters must be escaped only if they have special meaning in the cont
 |*|Asterisk, a wildcard character when describing a file spec in an item's Include/Exclude section.|
 
 ## See also
- [How to: Escape special characters in MSBuild](../msbuild/how-to-escape-special-characters-in-msbuild.md)
- [MSBuild reference](../msbuild/msbuild-reference.md)
+- [How to: Escape special characters in MSBuild](../msbuild/how-to-escape-special-characters-in-msbuild.md)
+- [MSBuild reference](../msbuild/msbuild-reference.md)

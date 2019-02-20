@@ -139,4 +139,4 @@ In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.m
  Represents assemblies whose namespaces should be imported by the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] compiler.
 
 ## See also
- [Common MSBuild project properties](../msbuild/common-msbuild-project-properties.md)
+- [Common MSBuild project properties](../msbuild/common-msbuild-project-properties.md)

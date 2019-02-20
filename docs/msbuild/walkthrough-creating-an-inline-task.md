@@ -251,6 +251,6 @@ To create and run the tasks, use Visual Studio and the **Visual Studio Command P
 ```
 
 ## See also
- [Inline tasks](../msbuild/msbuild-inline-tasks.md)
- [Tasks](../msbuild/msbuild-tasks.md)
- [Targets](../msbuild/msbuild-targets.md)
+- [Inline tasks](../msbuild/msbuild-inline-tasks.md)
+- [Tasks](../msbuild/msbuild-tasks.md)
+- [Targets](../msbuild/msbuild-targets.md)

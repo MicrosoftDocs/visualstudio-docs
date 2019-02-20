@@ -185,5 +185,5 @@ File.WriteAllText(Path, content);
 ```
 
 ## See also
- [Tasks](../msbuild/msbuild-tasks.md)
- [Walkthrough: Create an inline task](../msbuild/walkthrough-creating-an-inline-task.md)
+- [Tasks](../msbuild/msbuild-tasks.md)
+- [Walkthrough: Create an inline task](../msbuild/walkthrough-creating-an-inline-task.md)

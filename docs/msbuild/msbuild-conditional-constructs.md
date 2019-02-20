@@ -71,7 +71,7 @@ ms.workload:
 ```
 
 ## See also
- [Choose element (MSBuild)](../msbuild/choose-element-msbuild.md)
- [When element (MSBuild)](../msbuild/when-element-msbuild.md)
- [Otherwise element (MSBuild)](../msbuild/otherwise-element-msbuild.md)
- [MSBuild reference](../msbuild/msbuild-reference.md)
+- [Choose element (MSBuild)](../msbuild/choose-element-msbuild.md)
+- [When element (MSBuild)](../msbuild/when-element-msbuild.md)
+- [Otherwise element (MSBuild)](../msbuild/otherwise-element-msbuild.md)
+- [MSBuild reference](../msbuild/msbuild-reference.md)

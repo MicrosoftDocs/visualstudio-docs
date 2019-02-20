@@ -26,10 +26,10 @@ HRESULT WINAPI WriteContextTLogs(LPCTSTR intermediateDirectory, LPCTSTR tlogRoot
 ```
 
 #### Parameters
- [in] `intermediateDirectory`
+- [in] `intermediateDirectory`
  The directory in which to store the tracking log.
 
- [in] `tlogRootName`
+- [in] `tlogRootName`
  The root name of the log file name.
 
 ## Return value
@@ -39,4 +39,4 @@ HRESULT WINAPI WriteContextTLogs(LPCTSTR intermediateDirectory, LPCTSTR tlogRoot
  **Header:** *FileTracker.h*
 
 ## See also
- [WriteAllTLogs](../msbuild/writealltlogs.md)
+- [WriteAllTLogs](../msbuild/writealltlogs.md)

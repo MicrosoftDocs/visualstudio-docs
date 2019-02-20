@@ -53,5 +53,5 @@ Logs a message during a build.
 ```
 
 ## See also
- [Task reference](../msbuild/msbuild-task-reference.md)
- [Obtain build logs](../msbuild/obtaining-build-logs-with-msbuild.md)
+- [Task reference](../msbuild/msbuild-task-reference.md)
+- [Obtain build logs](../msbuild/obtaining-build-logs-with-msbuild.md)

@@ -35,4 +35,4 @@ Sets or deletes the value of a specified environment variable.
 |**Value**|Optional **String** parameter.<br /><br /> The value assigned to the environment variable that is specified by the **Name** parameter. If **Value** is empty and the variable exists, the variable is deleted. If the variable does not exist, no error occurs even though the operation cannot be performed.<br /><br /> For more information, see [Environment::SetEnvironmentVariable Method](xref:System.Environment.SetEnvironmentVariable%2A).|
 
 ## See also
- [Task reference](../msbuild/msbuild-task-reference.md)
+- [Task reference](../msbuild/msbuild-task-reference.md)

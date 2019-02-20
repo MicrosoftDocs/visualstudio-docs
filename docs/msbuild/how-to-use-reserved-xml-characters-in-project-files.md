@@ -65,5 +65,5 @@ When you author project files, you might need to use reserved XML characters, fo
 ```
 
 ## See also
- [MSBuild reference](../msbuild/msbuild-reference.md)
- [MSBuild](../msbuild/msbuild.md)
+- [MSBuild reference](../msbuild/msbuild-reference.md)
+- [MSBuild](../msbuild/msbuild.md)

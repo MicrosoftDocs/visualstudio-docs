@@ -14,29 +14,29 @@ ms.workload:
 # File tracking
 File tracking logs calls to the Windows file system for a process and its child processes. By calling the functions listed below, programs control when to turn this logging on and off and specify the log file to use.
 
- [EndTrackingContext](../msbuild/endtrackingcontext.md)
+- [EndTrackingContext](../msbuild/endtrackingcontext.md)
  Stop tracking the current context.
 
- [ResumeTracking](../msbuild/resumetracking.md)
+- [ResumeTracking](../msbuild/resumetracking.md)
  Resume tracking after a call to [SuspendTracking](../msbuild/suspendtracking.md).
 
- [SetThreadCount](../msbuild/setthreadcount.md)
+- [SetThreadCount](../msbuild/setthreadcount.md)
  Set the number of threads to use for tracking.
 
- [StartTrackingContext](../msbuild/starttrackingcontext.md)
+- [StartTrackingContext](../msbuild/starttrackingcontext.md)
  Begin a new tracking context.
 
- [StartTrackingContextWithRoot](../msbuild/starttrackingcontextwithroot.md)
+- [StartTrackingContextWithRoot](../msbuild/starttrackingcontextwithroot.md)
  Begin a new tracking context with a specified root.
 
- [StopTrackingAndCleanup](../msbuild/stoptrackingandcleanup.md)
+- [StopTrackingAndCleanup](../msbuild/stoptrackingandcleanup.md)
  End tracking and release resources used.
 
- [SuspendTracking](../msbuild/suspendtracking.md)
+- [SuspendTracking](../msbuild/suspendtracking.md)
  Temporarily suspend tracking.
 
- [WriteAllTLogs](../msbuild/writealltlogs.md)
+- [WriteAllTLogs](../msbuild/writealltlogs.md)
  Write out the tracking logs for all contexts.
 
- [WriteContextTLogs](../msbuild/writecontexttlogs.md)
+- [WriteContextTLogs](../msbuild/writecontexttlogs.md)
  Write out the tracking log for the current context.

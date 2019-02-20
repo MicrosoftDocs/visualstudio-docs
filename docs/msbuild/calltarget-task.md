@@ -57,5 +57,5 @@ Invokes the specified targets within the project file.
 ```
 
 ## See also
- [Task reference](../msbuild/msbuild-task-reference.md)
- [Targets](../msbuild/msbuild-targets.md)
+- [Task reference](../msbuild/msbuild-task-reference.md)
+- [Targets](../msbuild/msbuild-targets.md)

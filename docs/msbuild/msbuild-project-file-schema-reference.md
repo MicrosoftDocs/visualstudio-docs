@@ -50,7 +50,7 @@ Provides a table of all the [!INCLUDE[vstecmsbuild](../extensibility/internals/i
 |[When element (MSBuild)](../msbuild/when-element-msbuild.md)|Choose<br /><br /> ItemGroup<br /><br /> PropertyGroup|Condition|
 
 ## See also
- [Task reference](../msbuild/msbuild-task-reference.md)
- [Conditions](../msbuild/msbuild-conditions.md)
- [MSBuild reference](../msbuild/msbuild-reference.md)
- [MSBuild](../msbuild/msbuild.md)
+- [Task reference](../msbuild/msbuild-task-reference.md)
+- [Conditions](../msbuild/msbuild-conditions.md)
+- [MSBuild reference](../msbuild/msbuild-reference.md)
+- [MSBuild](../msbuild/msbuild.md)

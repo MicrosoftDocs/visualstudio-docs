@@ -18,29 +18,39 @@ ms.workload:
   - "multiple"
 ---
 # WPF MSBuild reference
+
 Windows Presentation Foundation (WPF) extends Microsoft build engine (MSBuild) with additional build support, which is documented in this section.
 
 ## In this section
- [WPF .targets files](../msbuild/wpf-dot-targets-files.md)
- Describes WPF .targets files.
 
- [WPF MSBuild task reference](../msbuild/wpf-msbuild-task-reference.md)
- Lists the available WPF build tasks.
+[WPF .targets files](../msbuild/wpf-dot-targets-files.md)
 
- <xref:Microsoft.Build.Tasks>
- A build task assembly.
+Describes WPF .targets files.
 
- <xref:Microsoft.Build.Tasks.Deployment.Bootstrapper>
- A build task deployment bootstrapper assembly.
+[WPF MSBuild task reference](../msbuild/wpf-msbuild-task-reference.md)
 
- <xref:Microsoft.Build.Tasks.Deployment.ManifestUtilities>
- A build task deployment manifest utility assembly.
+Lists the available WPF build tasks.
 
- <xref:Microsoft.Build.Tasks.Hosting>
- A build task hosting assembly.
+<xref:Microsoft.Build.Tasks>
 
- <xref:Microsoft.Build.Tasks.Windows>
- A build task windows assembly.
+A build task assembly.
+
+<xref:Microsoft.Build.Tasks.Deployment.Bootstrapper>
+
+A build task deployment bootstrapper assembly.
+
+<xref:Microsoft.Build.Tasks.Deployment.ManifestUtilities>
+
+A build task deployment manifest utility assembly.
+
+<xref:Microsoft.Build.Tasks.Hosting>
+
+A build task hosting assembly.
+
+<xref:Microsoft.Build.Tasks.Windows>
+
+A build task windows assembly.
 
 ## See also
- [MSBuild](../msbuild/msbuild.md)
+
+- [MSBuild](../msbuild/msbuild.md)

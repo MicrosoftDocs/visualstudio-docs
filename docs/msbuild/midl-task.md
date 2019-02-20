@@ -410,4 +410,4 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, *midl.ex
      For more information, see the **/W** option in [MIDL command-line reference](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference). Also, see the **WarnAsError** parameter in this table.
 
 ## See also
- [Task reference](../msbuild/msbuild-task-reference.md)
+- [Task reference](../msbuild/msbuild-task-reference.md)

@@ -68,5 +68,5 @@ A project file can contain one or more `Target` elements that define how the pro
 
 ## See also
   [MSBuild](../msbuild/msbuild.md)
- [Targets](../msbuild/msbuild-targets.md)
- [How to: Clean a build](../msbuild/how-to-clean-a-build.md)
+- [Targets](../msbuild/msbuild-targets.md)
+- [How to: Clean a build](../msbuild/how-to-clean-a-build.md)

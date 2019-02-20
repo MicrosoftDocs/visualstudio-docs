@@ -60,4 +60,4 @@ Wraps the Microsoft 32-Bit Library Manager tool, *lib.exe*. The Library Manager 
 |**Verbose**|Optional **Boolean** parameter.<br /><br /> If `true`, displays details about the progress of the session; this includes names of the *.obj* files being added. The information is sent to standard output and can be redirected to a file.<br /><br /> For more information, see the **/VERBOSE** option in [Running LIB](/cpp/build/reference/running-lib).|
 
 ## See also
- [Task reference](../msbuild/msbuild-task-reference.md)
+- [Task reference](../msbuild/msbuild-task-reference.md)

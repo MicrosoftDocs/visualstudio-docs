@@ -76,7 +76,7 @@ Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/internals/i
  None.
 
 ## See also
- [How to: Specify which target to build first](../msbuild/how-to-specify-which-target-to-build-first.md)
- [Command-line reference](../msbuild/msbuild-command-line-reference.md)
- [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)
- [MSBuild](../msbuild/msbuild.md)
+- [How to: Specify which target to build first](../msbuild/how-to-specify-which-target-to-build-first.md)
+- [Command-line reference](../msbuild/msbuild-command-line-reference.md)
+- [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)
+- [MSBuild](../msbuild/msbuild.md)

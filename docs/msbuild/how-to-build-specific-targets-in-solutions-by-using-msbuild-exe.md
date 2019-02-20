@@ -36,7 +36,7 @@ If you would like to examine the options available to you, you can use a debuggi
 Do not build with this environment variable set unless you need this internal view. This setting can cause problems building projects in your solution.
 
 ## See also
- [Command-line reference](../msbuild/msbuild-command-line-reference.md)
- [MSBuild reference](../msbuild/msbuild-reference.md)
- [MSBuild](../msbuild/msbuild.md)
- [MSBuild concepts](../msbuild/msbuild-concepts.md)
+- [Command-line reference](../msbuild/msbuild-command-line-reference.md)
+- [MSBuild reference](../msbuild/msbuild-reference.md)
+- [MSBuild](../msbuild/msbuild.md)
+- [MSBuild concepts](../msbuild/msbuild-concepts.md)

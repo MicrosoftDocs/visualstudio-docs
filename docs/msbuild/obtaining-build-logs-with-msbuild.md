@@ -98,8 +98,8 @@ For more information, see [Command-line reference](../msbuild/msbuild-command-li
 
 ## See also
 
- <xref:Microsoft.Build.Framework.LoggerVerbosity>
- [Build loggers](../msbuild/build-loggers.md)
- [Logging in a multi-processor environment](../msbuild/logging-in-a-multi-processor-environment.md)
- [Creating forwarding loggers](../msbuild/creating-forwarding-loggers.md)
- [MSBuild concepts](../msbuild/msbuild-concepts.md)
+- <xref:Microsoft.Build.Framework.LoggerVerbosity>
+- [Build loggers](../msbuild/build-loggers.md)
+- [Logging in a multi-processor environment](../msbuild/logging-in-a-multi-processor-environment.md)
+- [Creating forwarding loggers](../msbuild/creating-forwarding-loggers.md)
+- [MSBuild concepts](../msbuild/msbuild-concepts.md)

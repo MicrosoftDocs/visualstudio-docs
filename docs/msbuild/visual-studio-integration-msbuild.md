@@ -175,12 +175,12 @@ Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' 
  For regular builds in Visual Studio, the fast update check doesn't apply, and the project will build as if you invoked the build at a command prompt.
 
 ## See also
- [How to: Extend the Visual Studio build process](../msbuild/how-to-extend-the-visual-studio-build-process.md)
- [Start a build from within the IDE](../msbuild/starting-a-build-from-within-the-ide.md)
- [Register extensions of the .NET Framework](../msbuild/registering-extensions-of-the-dotnet-framework.md)
- [MSBuild concepts](../msbuild/msbuild-concepts.md)
- [Item element (MSBuild)](../msbuild/item-element-msbuild.md)
- [Property element (MSBuild)](../msbuild/property-element-msbuild.md)
- [Target element (MSBuild)](../msbuild/target-element-msbuild.md)
- [Csc task](../msbuild/csc-task.md)
- [Vbc task](../msbuild/vbc-task.md)
+- [How to: Extend the Visual Studio build process](../msbuild/how-to-extend-the-visual-studio-build-process.md)
+- [Start a build from within the IDE](../msbuild/starting-a-build-from-within-the-ide.md)
+- [Register extensions of the .NET Framework](../msbuild/registering-extensions-of-the-dotnet-framework.md)
+- [MSBuild concepts](../msbuild/msbuild-concepts.md)
+- [Item element (MSBuild)](../msbuild/item-element-msbuild.md)
+- [Property element (MSBuild)](../msbuild/property-element-msbuild.md)
+- [Target element (MSBuild)](../msbuild/target-element-msbuild.md)
+- [Csc task](../msbuild/csc-task.md)
+- [Vbc task](../msbuild/vbc-task.md)

@@ -97,6 +97,6 @@ extension: .xsd
 ```
 
 ## See also
- [MSBuild concepts](../msbuild/msbuild-concepts.md)
- [MSBuild reference](../msbuild/msbuild-reference.md)
- [How to: Build incrementally](../msbuild/how-to-build-incrementally.md)
+- [MSBuild concepts](../msbuild/msbuild-concepts.md)
+- [MSBuild reference](../msbuild/msbuild-reference.md)
+- [How to: Build incrementally](../msbuild/how-to-build-incrementally.md)

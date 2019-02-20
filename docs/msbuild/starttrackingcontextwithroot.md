@@ -26,13 +26,13 @@ HRESULT WINAPI StartTrackingContextWithRoot(LPCTSTR intermediateDirectory, LPCTS
 ```
 
 #### Parameters
- [in] `intermediateDirectory`
+- [in] `intermediateDirectory`
  The directory in which to store the tracking log.
 
- [in] `taskName`
+- [in] `taskName`
  Identifies the tracking context. This name is used to create the log file name.
 
- [in] `rootMarkerResponseFile`
+- [in] `rootMarkerResponseFile`
  The pathname of a response file containing a root marker. The root name is used to group all tracking for a context together.
 
 ## Return value
@@ -42,4 +42,4 @@ HRESULT WINAPI StartTrackingContextWithRoot(LPCTSTR intermediateDirectory, LPCTS
  **Header:** *FileTracker.h*
 
 ## See also
- [StartTrackingContext](../msbuild/starttrackingcontext.md)
+- [StartTrackingContext](../msbuild/starttrackingcontext.md)

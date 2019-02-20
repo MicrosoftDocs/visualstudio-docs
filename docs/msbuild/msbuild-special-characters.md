@@ -32,5 +32,5 @@ ms.workload:
 |*|%2A|Wildcard character for use in file names in `Include` and `Exclude` attributes|
 
 ## See also
- [Advanced concepts](../msbuild/msbuild-advanced-concepts.md)
- [Items](../msbuild/msbuild-items.md)
+- [Advanced concepts](../msbuild/msbuild-advanced-concepts.md)
+- [Items](../msbuild/msbuild-items.md)

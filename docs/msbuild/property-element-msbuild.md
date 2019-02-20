@@ -69,4 +69,4 @@ Contains a user defined property name and value. Every property used in an [!INC
 
 ## See also
 [MSBuild properties](../msbuild/msbuild-properties.md)
- [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)
+- [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)

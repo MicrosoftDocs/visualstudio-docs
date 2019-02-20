@@ -67,5 +67,5 @@ Allows [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_
 ```
 
 ## See also
- [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)
- [MSBuild](../msbuild/msbuild.md)
+- [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)
+- [MSBuild](../msbuild/msbuild.md)

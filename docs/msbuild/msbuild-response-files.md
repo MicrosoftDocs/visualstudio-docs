@@ -29,5 +29,5 @@ The autoresponse file is a special *.rsp* file that *MSBuild.exe* automatically 
 In version 15.6 and above, MSBuild will search parent directories of the project for a file named *Directory.Build.rsp*.  This can be helpful in a source code repository to provide default arguments during command-line builds.  It can also be used to specify the command-line arguments of hosted builds.
 
 ## See also
- [MSBuild reference](../msbuild/msbuild-reference.md)
- [Command-line reference](../msbuild/msbuild-command-line-reference.md)
+- [MSBuild reference](../msbuild/msbuild-reference.md)
+- [Command-line reference](../msbuild/msbuild-command-line-reference.md)

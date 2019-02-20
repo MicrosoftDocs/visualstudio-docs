@@ -108,7 +108,7 @@ Only one version of each project SDK can be used during a build.  If you are ref
 
 ## See also
 
- [MSBuild concepts](../msbuild/msbuild-concepts.md)
- [Customize your build](../msbuild/customize-your-build.md)
- [Packages, metadata, and frameworks](/dotnet/core/packages)
- [Additions to the csproj format for .NET Core](/dotnet/core/tools/csproj)
+- [MSBuild concepts](../msbuild/msbuild-concepts.md)
+- [Customize your build](../msbuild/customize-your-build.md)
+- [Packages, metadata, and frameworks](/dotnet/core/packages)
+- [Additions to the csproj format for .NET Core](/dotnet/core/tools/csproj)

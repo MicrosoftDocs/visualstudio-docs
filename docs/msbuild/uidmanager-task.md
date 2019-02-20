@@ -49,9 +49,9 @@ The <xref:Microsoft.Build.Tasks.Windows.UidManager> task checks, updates, or rem
 ```
 
 ## See also
- [WPF MSBuild reference](../msbuild/wpf-msbuild-reference.md)
- [Task reference](../msbuild/wpf-msbuild-task-reference.md)
- [MSBuild reference](../msbuild/msbuild-reference.md)
- [Task reference](../msbuild/msbuild-task-reference.md)
- [Build a WPF application (WPF)](/dotnet/framework/wpf/app-development/building-a-wpf-application-wpf)
- [How to: Localize an application](/dotnet/framework/wpf/advanced/how-to-localize-an-application)
+- [WPF MSBuild reference](../msbuild/wpf-msbuild-reference.md)
+- [Task reference](../msbuild/wpf-msbuild-task-reference.md)
+- [MSBuild reference](../msbuild/msbuild-reference.md)
+- [Task reference](../msbuild/msbuild-task-reference.md)
+- [Build a WPF application (WPF)](/dotnet/framework/wpf/app-development/building-a-wpf-application-wpf)
+- [How to: Localize an application](/dotnet/framework/wpf/advanced/how-to-localize-an-application)

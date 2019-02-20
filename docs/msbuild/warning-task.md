@@ -58,5 +58,5 @@ Logs a warning during a build based on an evaluated conditional statement.
 ```
 
 ## See also
- [Obtain build logs](../msbuild/obtaining-build-logs-with-msbuild.md)
- [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)
+- [Obtain build logs](../msbuild/obtaining-build-logs-with-msbuild.md)
+- [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)

@@ -59,7 +59,7 @@ A build platform needs the ability to execute any number of actions during the b
  [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] looks for tasks in several locations. The first location is in files with the extension *.OverrideTasks* stored in the .NET Framework directories. Tasks in these files override any other tasks with the same names, including tasks in the project file. The second location is in files with the extension *.Tasks* in the .NET Framework directories. If the task is not found in either of these locations, the task in the project file is used.
 
 ## See also
- [MSBuild concepts](../msbuild/msbuild-concepts.md)
- [MSBuild](../msbuild/msbuild.md)
- [Task writing](../msbuild/task-writing.md)
- [Inline tasks](../msbuild/msbuild-inline-tasks.md)
+- [MSBuild concepts](../msbuild/msbuild-concepts.md)
+- [MSBuild](../msbuild/msbuild.md)
+- [Task writing](../msbuild/task-writing.md)
+- [Inline tasks](../msbuild/msbuild-inline-tasks.md)

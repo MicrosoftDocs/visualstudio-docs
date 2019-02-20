@@ -94,8 +94,8 @@ When you clean a build, all intermediate and output files are deleted, leaving o
 ```
 
 ## See also
- [Exec task](../msbuild/exec-task.md)
- [MakeDir task](../msbuild/makedir-task.md)
- [RemoveDir task](../msbuild/removedir-task.md)
- [Csc task](../msbuild/csc-task.md)
- [Targets](../msbuild/msbuild-targets.md)
+- [Exec task](../msbuild/exec-task.md)
+- [MakeDir task](../msbuild/makedir-task.md)
+- [RemoveDir task](../msbuild/removedir-task.md)
+- [Csc task](../msbuild/csc-task.md)
+- [Targets](../msbuild/msbuild-targets.md)

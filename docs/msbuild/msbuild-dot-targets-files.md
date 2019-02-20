@@ -39,6 +39,6 @@ ms.workload:
 *Directory.Build.targets* is a user-defined file that provides customizations to projects under a directory. This file is automatically imported from *Microsoft.Common.targets* unless the property **ImportDirectoryBuildTargets** is set to **false**.
 
 ## See also
- [Import element (MSBuild)](../msbuild/import-element-msbuild.md)
- [MSBuild reference](../msbuild/msbuild-reference.md)
- [MSBuild](../msbuild/msbuild.md)
+- [Import element (MSBuild)](../msbuild/import-element-msbuild.md)
+- [MSBuild reference](../msbuild/msbuild-reference.md)
+- [MSBuild](../msbuild/msbuild.md)

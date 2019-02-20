@@ -118,5 +118,5 @@ Specifies a possible block of code for the `Choose` element to select.
 ```
 
 ## See also
- [Conditional constructs](../msbuild/msbuild-conditional-constructs.md)
- [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)
+- [Conditional constructs](../msbuild/msbuild-conditional-constructs.md)
+- [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)

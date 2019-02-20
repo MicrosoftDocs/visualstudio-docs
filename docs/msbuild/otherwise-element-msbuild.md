@@ -115,5 +115,5 @@ Specifies the block of code to execute if and only if the conditions of all `Whe
 ```
 
 ## See also
- [Conditional constructs](../msbuild/msbuild-conditional-constructs.md)
- [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)
+- [Conditional constructs](../msbuild/msbuild-conditional-constructs.md)
+- [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)

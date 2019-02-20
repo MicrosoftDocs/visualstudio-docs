@@ -84,6 +84,6 @@ Removes duplicate items from the specified item collection.
 ```
 
 ## See also
- [Task reference](../msbuild/msbuild-task-reference.md)
- [MSBuild concepts](../msbuild/msbuild-concepts.md)
- [Tasks](../msbuild/msbuild-tasks.md)
+- [Task reference](../msbuild/msbuild-task-reference.md)
+- [MSBuild concepts](../msbuild/msbuild-concepts.md)
+- [Tasks](../msbuild/msbuild-tasks.md)

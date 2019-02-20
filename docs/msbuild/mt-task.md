@@ -63,4 +63,4 @@ Wraps the Microsoft Manifest Tool, *mt.exe*. For more information, see [Mt.exe](
 |**VerboseOutput**|Optional `Boolean` parameter.<br /><br /> If `true`, displays verbose debugging information.<br /><br /> For more information, see the **/verbose** option in [Mt.exe](https://docs.microsoft.com/windows/desktop/SbsCs/mt-exe).|
 
 ## See also
- [Task reference](../msbuild/msbuild-task-reference.md)
+- [Task reference](../msbuild/msbuild-task-reference.md)

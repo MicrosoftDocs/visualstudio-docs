@@ -111,5 +111,5 @@ Contains a set of tasks for [!INCLUDE[vstecmsbuild](../extensibility/internals/i
 ```
 
 ## See also
- [Targets](../msbuild/msbuild-targets.md)
- [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)
+- [Targets](../msbuild/msbuild-targets.md)
+- [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)

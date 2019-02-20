@@ -918,4 +918,4 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
      For more information, see [/VERSION (Version information)](/cpp/build/reference/version-version-information).
 
 ## See also
- [Task reference](../msbuild/msbuild-task-reference.md)
+- [Task reference](../msbuild/msbuild-task-reference.md)

@@ -114,5 +114,5 @@ Evaluates child elements to select one set of `ItemGroup` elements and/or `Prope
 ```
 
 ## See also
- [Conditional constructs](../msbuild/msbuild-conditional-constructs.md)
- [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)
+- [Conditional constructs](../msbuild/msbuild-conditional-constructs.md)
+- [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)

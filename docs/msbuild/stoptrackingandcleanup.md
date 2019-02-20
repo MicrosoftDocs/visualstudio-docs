@@ -32,4 +32,4 @@ HRESULT WINAPI StopTrackingAndCleanup(void);
  **Header:** *FileTracker.h*
 
 ## See also
- [StartTrackingContext](../msbuild/starttrackingcontext.md)
+- [StartTrackingContext](../msbuild/starttrackingcontext.md)

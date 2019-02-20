@@ -65,5 +65,5 @@ Contains a user-defined item metadata key, which contains the item metadata valu
 ```
 
 ## See also
- [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)
- [Items](../msbuild/msbuild-items.md)
+- [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)
+- [Items](../msbuild/msbuild-items.md)

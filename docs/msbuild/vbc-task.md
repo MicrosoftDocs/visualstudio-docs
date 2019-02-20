@@ -98,6 +98,6 @@ Wraps *vbc.exe*, which produces executables (*.exe*), dynamic-link libraries (*.
 ```
 
 ## See also
- [Visual Basic command-line compiler](/dotnet/visual-basic/reference/command-line-compiler/index)
- [Tasks](../msbuild/msbuild-tasks.md)
- [Task reference](../msbuild/msbuild-task-reference.md)
+- [Visual Basic command-line compiler](/dotnet/visual-basic/reference/command-line-compiler/index)
+- [Tasks](../msbuild/msbuild-tasks.md)
+- [Task reference](../msbuild/msbuild-task-reference.md)

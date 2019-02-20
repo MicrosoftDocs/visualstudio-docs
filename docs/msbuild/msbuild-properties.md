@@ -131,10 +131,10 @@ msbuild.exe MyProj.proj -p:Configuration=DEBUG
 ```
 
 ## See also
- [MSBuild concepts](../msbuild/msbuild-concepts.md)
- [MSBuild](../msbuild/msbuild.md)
- [How to: Use environment variables in a build](../msbuild/how-to-use-environment-variables-in-a-build.md)
- [How to: Reference the name or location of the project file](../msbuild/how-to-reference-the-name-or-location-of-the-project-file.md)
- [How to: Build the same source files with different options](../msbuild/how-to-build-the-same-source-files-with-different-options.md)
- [MSBuild reserved and well-known properties](../msbuild/msbuild-reserved-and-well-known-properties.md)
- [Property element (MSBuild)](../msbuild/property-element-msbuild.md)
+- [MSBuild concepts](../msbuild/msbuild-concepts.md)
+- [MSBuild](../msbuild/msbuild.md)
+- [How to: Use environment variables in a build](../msbuild/how-to-use-environment-variables-in-a-build.md)
+- [How to: Reference the name or location of the project file](../msbuild/how-to-reference-the-name-or-location-of-the-project-file.md)
+- [How to: Build the same source files with different options](../msbuild/how-to-build-the-same-source-files-with-different-options.md)
+- [MSBuild reserved and well-known properties](../msbuild/msbuild-reserved-and-well-known-properties.md)
+- [Property element (MSBuild)](../msbuild/property-element-msbuild.md)

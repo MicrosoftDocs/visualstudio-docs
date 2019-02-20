@@ -124,4 +124,4 @@ The following table lists frequently used properties that are defined in the Vis
 | Win32Resource | The file name of the Win32 resource to be embedded in the final assembly. This parameter is equivalent to the `/win32resource` compiler switch. |
 
 ## See also
- [Common MSBuild project items](../msbuild/common-msbuild-project-items.md)
+- [Common MSBuild project items](../msbuild/common-msbuild-project-items.md)

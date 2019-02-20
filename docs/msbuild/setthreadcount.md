@@ -26,7 +26,7 @@ HRESULT WINAPI SetThreadCount(int threadCount);
 ```
 
 #### Parameters
- [in] `threadCount`
+- [in] `threadCount`
  The number of threads to use.
 
 ## Return value
