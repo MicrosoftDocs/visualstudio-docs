@@ -2,15 +2,15 @@
 title: "How to: Collect CPU Counter Data | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
-f1_keywords: 
+f1_keywords:
   - "vs.performance.property.cpucounters"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "profiling tools, using portable CPU counters"
   - "performance tools, portable CPU counters"
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # How to: Collect CPU counter data
@@ -54,7 +54,7 @@ Two types of CPU counter events occur:
 
 ## See also
 
-[Configure performance sessions](../profiling/configuring-performance-sessions.md)  
-[Performance session properties](../profiling/performance-session-properties.md)  
-[CPU and Windows counters](../profiling/cpu-and-windows-counters.md)  
+[Configure performance sessions](../profiling/configuring-performance-sessions.md)
+[Performance session properties](../profiling/performance-session-properties.md)
+[CPU and Windows counters](../profiling/cpu-and-windows-counters.md)
 [How to: Choose sampling events](../profiling/how-to-choose-sampling-events.md)

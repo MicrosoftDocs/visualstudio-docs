@@ -2,14 +2,14 @@
 title: "Performance Session Properties | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "Profiling Tools,properties"
   - "property pages,Profiling Tools"
   - "performance tools, performance session properties"
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Performance session properties
@@ -105,6 +105,6 @@ For more information, see:
 
 ## See also
 
-[Overviews](../profiling/overviews-performance-tools.md)  
-[Configure performance sessions](../profiling/configuring-performance-sessions.md)  
+[Overviews](../profiling/overviews-performance-tools.md)
+[Configure performance sessions](../profiling/configuring-performance-sessions.md)
 [Control data collection](../profiling/controlling-data-collection.md)

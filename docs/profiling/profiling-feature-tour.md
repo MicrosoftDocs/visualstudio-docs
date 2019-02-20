@@ -4,13 +4,13 @@ description: "Take a brief look at the different diagnostic tools available in V
 ms.custom: "mvc"
 ms.date: "05/18/2017"
 ms.topic: "quickstart"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "diagnostic tools"
 ms.assetid: d2ee0301-ea78-43d8-851a-71b7b2043d73
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Quickstart: First look at profiling tools
@@ -143,22 +143,22 @@ If you need features such as instrumentation that are not currently present in C
 
 ![Performance Explorer tool](../profiling/media/prof-tour-performance-explorer.png "Performance Explorer")
 
-## Which tool should I use?  
+## Which tool should I use?
 
 Here is a table that lists the different tools Visual Studio offers and the different project types you can use them with:
-  
-|Performance Tool|Windows desktop|UWP|ASP.NET/ASP.NET Core| 
-|----------------------|---------------------|-------------|-------------|  
+
+|Performance Tool|Windows desktop|UWP|ASP.NET/ASP.NET Core|
+|----------------------|---------------------|-------------|-------------|
 |[CPU Usage](../profiling/cpu-usage.md)|yes|yes|yes|
-|[Memory Usage](../profiling/memory-usage.md)|yes|yes|yes| 
-|[GPU Usage](../debugger/gpu-usage.md)|yes|yes|no| 
+|[Memory Usage](../profiling/memory-usage.md)|yes|yes|yes|
+|[GPU Usage](../debugger/gpu-usage.md)|yes|yes|no|
 |[Application Timeline](../profiling/application-timeline.md)|yes|yes|no|
 |[PerfTips](../profiling/perftips.md)|yes|yes for XAML, no for HTML|yes|
 |[Performance Explorer](../profiling/performance-explorer.md)|yes|no|yes|
 |[IntelliTrace](../debugger/intellitrace.md)|.NET with Visual Studio Enterprise only|.NET with Visual Studio Enterprise only|.NET with Visual Studio Enterprise only|
 |[Network Usage](../profiling/network-usage.md)|no|yes|no|
-|[HTML UI responsiveness](../profiling/html-ui-responsiveness.md)|no|yes for HTML, no for XAML|no| 
+|[HTML UI responsiveness](../profiling/html-ui-responsiveness.md)|no|yes for HTML, no for XAML|no|
 |[JavaScript Memory](../profiling/javascript-memory.md)|no|yes for HTML, no for XAML|no|
 
-## See also  
+## See also
  [Debugging in Visual Studio](/visualstudio/debugger/debugger-feature-tour)
