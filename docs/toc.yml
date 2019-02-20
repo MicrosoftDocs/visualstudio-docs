@@ -518,7 +518,7 @@
     - name: Develop international apps
       href: ide/globalizing-and-localizing-applications.md
       items:
-      - name: Bi-directional languages
+      - name: Bidirectional languages
         href: ide/creating-applications-in-bi-directional-languages.md
     - name: Additional tutorials
       items:
