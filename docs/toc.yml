@@ -333,6 +333,8 @@
             href: ide/reference/convert-for-loop-to-foreach.md
           - name: Convert between Get method and property
             href: ide/reference/convert-get-method-to-property.md
+          - name: Convert local function to method
+            href: ide/reference/convert-local-function-to-method.md
           - name: Convert LINQ query to foreach statement
             href: ide/reference/convert-linq-to-foreach.md
           - name: Encapsulate field

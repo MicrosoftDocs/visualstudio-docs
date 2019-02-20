@@ -26,6 +26,9 @@ This code generation applies to:
 
 1. Copy and paste code from a different file without including the necessary using statements. The error is now accompanied by a codefix that adds the missing using statements.
 
+    > [!NOTE] This suggestion needs to be turned on in **Tools > Options > Text Editor > C# > Advanced > Using Directives**
+    > ![Generate usings](media/generate-using-option.png)
+
 2. Press **Ctrl**+**.** to open the **Quick Actions and Refactorings** menu. 
 
     ![Generate usings](media/generate-using-codefix.png)
