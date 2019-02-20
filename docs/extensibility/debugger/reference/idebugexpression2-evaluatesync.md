@@ -20,19 +20,19 @@ This method evaluates the expression synchronously.
 
 ```cpp
 HRESULT EvaluateSync(
-   EVALFLAGS             dwFlags,
-   DWORD                 dwTimeout,
-   IDebugEventCallback2* pExprCallback,
-   IDebugProperty2**     ppResult
+    EVALFLAGS             dwFlags,
+    DWORD                 dwTimeout,
+    IDebugEventCallback2* pExprCallback,
+    IDebugProperty2**     ppResult
 );
 ```
 
 ```csharp
 int EvaluateSync(
-   enum_EVALFLAGS       dwFlags,
-   uint                 dwTimeout,
-   IDebugEventCallback2 pExprCallback,
-   out IDebugProperty2  ppResult
+    enum_EVALFLAGS       dwFlags,
+    uint                 dwTimeout,
+    IDebugEventCallback2 pExprCallback,
+    out IDebugProperty2  ppResult
 );
 ```
 
