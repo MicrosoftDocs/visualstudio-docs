@@ -2,15 +2,15 @@
 title: "Configure a computer to develop Office solutions"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
-dev_langs: 
+dev_langs:
   - "VB"
   - "CSharp"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "Office development in Visual Studio, installing tools"
 author: John-Hart
 ms.author: johnhart
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "office"
 ---
 # Configure a computer to develop Office solutions
@@ -43,8 +43,8 @@ If you continue to experience problems, see [Additional support for errors in Of
 
 ## See also
 
-[Get started &#40;Office development in Visual Studio&#41;](../vsto/getting-started-office-development-in-visual-studio.md)  
-[How to: Configure a computer to develop Office solutions](../vsto/how-to-configure-a-computer-to-develop-office-solutions.md)  
-[How to: Install the Visual Studio Tools for Office runtime redistributable](../vsto/how-to-install-the-visual-studio-tools-for-office-runtime-redistributable.md)  
-[How to: Install Office primary interop assemblies](../vsto/how-to-install-office-primary-interop-assemblies.md)  
+[Get started &#40;Office development in Visual Studio&#41;](../vsto/getting-started-office-development-in-visual-studio.md)
+[How to: Configure a computer to develop Office solutions](../vsto/how-to-configure-a-computer-to-develop-office-solutions.md)
+[How to: Install the Visual Studio Tools for Office runtime redistributable](../vsto/how-to-install-the-visual-studio-tools-for-office-runtime-redistributable.md)
+[How to: Install Office primary interop assemblies](../vsto/how-to-install-office-primary-interop-assemblies.md)
 [Features available by Office application and project type](../vsto/features-available-by-office-application-and-project-type.md)

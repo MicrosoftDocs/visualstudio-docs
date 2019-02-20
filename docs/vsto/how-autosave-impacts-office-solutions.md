@@ -2,15 +2,15 @@
 title: "How AutoSave impacts Office solutions"
 ms.date: "10/26/2018"
 ms.topic: "conceptual"
-dev_langs: 
+dev_langs:
   - "VB"
   - "CSharp"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "autosave"
 author: John-Hart
 ms.author: johnhart
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "office"
 ---
 # How AutoSave impacts Office solutions

@@ -5,19 +5,19 @@ titleSuffix: ""
 ms.custom: "seodec18"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
-f1_keywords: 
+f1_keywords:
   - "vst.project.vbawrongversion"
   - "VST.Project.VBASecurityGenericError"
   - "VST.Project.VBASecurityPermissions"
   - "VST.SelectDocWizard.MissingCOM"
   - "VST.Project.VBASecurityNotSet"
-dev_langs: 
+dev_langs:
   - "VB"
   - "CSharp"
 author: John-Hart
 ms.author: johnhart
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "office"
 ---
 # Enable access to VBA to create or open a Visual Studio Tools for the Microsoft Office system project

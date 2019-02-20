@@ -2,15 +2,15 @@
 title: "Understand coauthoring and Add-ins"
 ms.date: "07/20/2017"
 ms.topic: "conceptual"
-dev_langs: 
+dev_langs:
   - "VB"
   - "CSharp"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "coauthoring, in Excel"
 author: John-Hart
 ms.author: johnhart
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "office"
 ---
 # Understand coauthoring and Add-ins
