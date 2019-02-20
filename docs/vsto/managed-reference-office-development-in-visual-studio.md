@@ -22,36 +22,47 @@ ms.workload:
 
 ## In this section
  <xref:Microsoft.Office.Tools>
+
  Contains classes common to programming Office solutions. These include the base class for VSTO Add-ins, classes for creating custom task panes in VSTO Add-ins, classes for creating smart tags in Excel and Word solutions, and classes for creating actions panes in document-level customizations.
 
  <xref:Microsoft.Office.Tools.Excel>
+
  Contains host controls and host items that can be used in solutions for Excel.
 
  <xref:Microsoft.Office.Tools.Excel.Controls>
+
  Contains Excel controls and Windows Forms controls that can be used in solutions for Excel.
 
  <xref:Microsoft.Office.Tools.Outlook>
+
  Contains classes used by VSTO Add-ins for Outlook, including classes that are used to create custom form regions.
 
  <xref:Microsoft.Office.Tools.Ribbon>
+
  Contains classes that are used to programmatically modify Ribbon customizations created by using the Ribbon designer.
 
  <xref:Microsoft.Office.Tools.Word>
+
  Contains host controls and host items that can be used in solutions for Word.
 
  <xref:Microsoft.Office.Tools.Word.Controls>
+
  Contains Word controls and Windows Forms controls that can be used in solutions for Word.
 
  <xref:Microsoft.VisualStudio.Tools.Applications>
+
  Contains the <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument> class and a set of related cached data classes. These classes can be used to modify some aspects of document-level customizations on computers that do not have Microsoft Office installed.
 
  <xref:Microsoft.VisualStudio.Tools.Applications.Deployment>
+
  Contains the <xref:Microsoft.VisualStudio.Tools.Applications.Deployment.IAddInPostDeploymentAction> interface (which you can implement to create a *post deployment action* for an Office solution), exceptions that can be thrown when installing an Office solution, and other APIs that are part of the Visual Studio infrastructure.
 
  <xref:Microsoft.VisualStudio.Tools.Applications.Runtime>
+
  Contains most of the exceptions that can be thrown by the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)], several classes that can be used to cache data in document-level customizations, and other APIs that are part of the Visual Studio infrastructure.
 
  <xref:Microsoft.VisualStudio.Tools.Office.BuildTasks>
+
  Contains MSBuild task classes that are used to build Office projects.
 
 ## See also

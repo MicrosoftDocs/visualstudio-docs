@@ -29,63 +29,83 @@ ms.workload:
 
 ## In this section
 - [Get started &#40;Office development in Visual Studio&#41;](../vsto/getting-started-office-development-in-visual-studio.md)
+
  Provides links to information about how to configure a development computer to create Office solutions, how to begin creating Office solutions, and what is new for Office development in Visual Studio.
 
 - [Upgrade and migrate Office solutions](../vsto/upgrading-and-migrating-office-solutions.md)
+
  Provides links to information about the upgrade process for projects created by using earlier versions of Visual Studio.
 
 - [Architecture of Office solutions in Visual Studio](../vsto/architecture-of-office-solutions-in-visual-studio.md)
+
  Provides links to information about how Office solutions work, including information about document-level customizations and VSTO Add-ins.
 
 - [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)
+
  Provides information about how to create an Office project and configure your project in Visual Studio.
 
 - [Develop Office solutions](../vsto/developing-office-solutions.md)
+
  Provides information about how to use managed code with Office solutions, including how to customize the Office user interface, work with data, and troubleshoot problems.
 
 - [Excel solutions](../vsto/excel-solutions.md)
+
  Provides information about how to automate Excel, create Excel solutions, and understand globalization issues specific to Excel.
 
 - [InfoPath solutions](../vsto/infopath-solutions.md)
+
  Provides information about how to create form templates and VSTO Add-ins for InfoPath.
 
 - [Outlook solutions](../vsto/outlook-solutions.md)
+
  Provides information about how to automate Outlook and create Outlook VSTO Add-ins and form regions.
 
 - [PowerPoint solutions](../vsto/powerpoint-solutions.md)
+
  Provides information about how to automate PowerPoint and create PowerPoint VSTO Add-ins.
 
 - [Project solutions](../vsto/project-solutions.md)
+
  Provides information about how to automate Microsoft Office project and create project VSTO Add-ins.
 
 - [Visio solutions](../vsto/visio-solutions.md)
+
  Provides information about how to automate Visio and create Visio VSTO Add-ins.
 
 - [Word solutions](../vsto/word-solutions.md)
+
  Provides information about how to automate Word and create Word solutions.
 
 - [Build Office solutions](../vsto/building-office-solutions.md)
+
  Provides information about the differences between building Office projects and other types of projects in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
 
 - [Debug Office projects](../vsto/debugging-office-projects.md)
+
  Provides information about the differences between debugging Office projects and other types of projects in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
 
 - [Secure Office solutions](../vsto/securing-office-solutions.md)
+
  Provides information about how security features work in Office solutions.
 
 - [Deploy an Office solution](../vsto/deploying-an-office-solution.md)
+
  Provides information about how to make Office solutions available to your users, and the major issues to consider when you choose a deployment method.
 
 - [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md)
+
  Provides links to sample applications and topics that give step-by-step instructions for performing common tasks.
 
 - [General reference &#40;Office development in Visual Studio&#41;](../vsto/general-reference-office-development-in-visual-studio.md)
+
  Provides links to detailed information about Office primary interop assemblies, manifests, user interface elements, and error messages.
 
 - [Managed reference &#40;Office development in Visual Studio&#41;](../vsto/managed-reference-office-development-in-visual-studio.md)
+
  Provides links to information about API namespaces and types that are used in Office projects that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)]. For API reference documentation about the namespaces and types that are used in Office projects that target the .NET Framework 3.5, see the following reference section in the Visual Studio 2008 documentation: [2007 system managed reference](http://go.microsoft.com/fwlink/?LinkId=160658).
 
 - [Unmanaged API reference &#40;Office development in Visual Studio&#41;](../vsto/unmanaged-api-reference-office-development-in-visual-studio.md)
+
  Contains links to information about COM interfaces that you can use to perform actions such as load and unload managed VSTO Add-ins in Office applications.
 
 ## Related sections

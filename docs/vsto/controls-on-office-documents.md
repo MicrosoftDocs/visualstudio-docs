@@ -28,20 +28,26 @@ ms.workload:
 
 ## In this section
 - [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)
+
  Describes the functionality of host items and host controls, including programming against events, binding the controls to data, and how the controls differ from the native objects.
 
 - [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)
+
  Describes the issues that you might encounter when you use host items and host controls in code.
 
 - [Windows Forms controls on Office documents overview](../vsto/windows-forms-controls-on-office-documents-overview.md)
+
  Provides information about using Windows Forms controls on Excel and Word documents and how they differ from controls on a Windows Form.
 
 - [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md)
+
  Describes how to add Windows Forms controls and host controls to Word and Excel documents, and describes limitations about how these controls persist in the document.
 
 ## Related sections
 - [Office UI customization](../vsto/office-ui-customization.md)
+
  Provides information about different ways to customize the UI of Microsoft Office applications by using Visual Studio.
 
 - [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)
+
  Describes how you can display data in Word and Excel documents by binding the data to host controls within the document.
