@@ -20,15 +20,15 @@ Gets the file statement range of the document context.
 
 ```cpp
 HRESULT GetStatementRange(
-   TEXT_POSITION* pBegPosition,
-   TEXT_POSITION* pEndPosition
+    TEXT_POSITION* pBegPosition,
+    TEXT_POSITION* pEndPosition
 );
 ```
 
 ```csharp
 int GetStatementRange(
-   TEXT_POSITION[] pBegPosition,
-   TEXT_POSITION[] pEndPosition
+    TEXT_POSITION[] pBegPosition,
+    TEXT_POSITION[] pEndPosition
 );
 ```
 
@@ -54,28 +54,28 @@ The following example shows how to implement this method for a simple `CDebugCon
 HRESULT CDebugContext::GetStatementRange(TEXT_POSITION* pBegPosition,
                                          TEXT_POSITION* pEndPosition)
 {
-   HRESULT hr;
+    HRESULT hr;
 
-   // Check for a valid beginning position argument pointer.
-   if (pBegPosition)
-   {
-      // Copy the member TEXT_POSITION into the local pBegPosition.
-      memcpy(pBegPosition, &m_pos, sizeof (TEXT_POSITION));
+    // Check for a valid beginning position argument pointer.
+    if (pBegPosition)
+    {
+        // Copy the member TEXT_POSITION into the local pBegPosition.
+        memcpy(pBegPosition, &m_pos, sizeof (TEXT_POSITION));
 
-      // Check for a valid ending position argument pointer.
-     if (pEndPosition)
-      {
-         // Copy the member TEXT_POSITION into the local pEndPosition.
-         memcpy(pEndPosition, &m_pos, sizeof (TEXT_POSITION));
-      }
-      hr = S_OK;
-   }
-   else
-   {
-      hr = E_INVALIDARG;
-   }
+        // Check for a valid ending position argument pointer.
+        if (pEndPosition)
+        {
+            // Copy the member TEXT_POSITION into the local pEndPosition.
+            memcpy(pEndPosition, &m_pos, sizeof (TEXT_POSITION));
+        }
+        hr = S_OK;
+    }
+    else
+    {
+        hr = E_INVALIDARG;
+    }
 
-   return hr;
+    return hr;
 }
 ```
 
