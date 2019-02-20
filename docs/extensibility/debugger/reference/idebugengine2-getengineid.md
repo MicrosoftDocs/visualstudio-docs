@@ -20,13 +20,13 @@ Gets the GUID of the debug engine (DE).
 
 ```cpp
 HRESULT GetEngineID(
-   GUID* pguidEngine
+    GUID* pguidEngine
 );
 ```
 
 ```csharp
 int GetEngineID(
-   out Guid pguidEngine
+    out Guid pguidEngine
 );
 ```
 
@@ -44,16 +44,16 @@ Some examples of typical GUIDs are `guidScriptEng`, `guidNativeEng`, or `guidSQL
 The following example shows how to implement this method for a simple `CEngine` object that implements the [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md) interface.
 
 ```cpp
-HRESULT CEngine::GetEngineId(GUID *pguidEngine){
-   if (pguidEngine) {
-      // Set pguidEngine to guidBatEng, as defined in the Batdbg.idl file.
-      // Other languages would require their own guidDifferentEngine to be
-      //defined in the Batdbg.idl file.
-      *pguidEngine = guidBatEng;
-      return NOERROR; // This is typically S_OK.
-   } else {
-      return E_INVALIDARG;
-   }
+HRESULT CEngine::GetEngineId(GUID *pguidEngine) {
+    if (pguidEngine) {
+        // Set pguidEngine to guidBatEng, as defined in the Batdbg.idl file.
+        // Other languages would require their own guidDifferentEngine to be
+        //defined in the Batdbg.idl file.
+        *pguidEngine = guidBatEng;
+        return NOERROR; // This is typically S_OK.
+    } else {
+        return E_INVALIDARG;
+    }
 }
 ```
 
