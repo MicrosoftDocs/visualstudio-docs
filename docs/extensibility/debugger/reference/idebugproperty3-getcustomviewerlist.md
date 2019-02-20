@@ -20,19 +20,19 @@ Gets a list of custom viewers associated with this property.
 
 ```cpp
 HRESULT GetCustomViewerList(
-   ULONG                celtSkip,
-   ULONG                celtRequested,
-   DEBUG_CUSTOM_VIEWER* rgViewers,
-   ULONG*               pceltFetched
+    ULONG                celtSkip,
+    ULONG                celtRequested,
+    DEBUG_CUSTOM_VIEWER* rgViewers,
+    ULONG*               pceltFetched
 );
 ```
 
 ```csharp
 int GetCustomViewerList(
-   uint                  celtSkip,
-   uint                  celtRequested,
-   DEBUG_CUSTOM_VIEWER[] rgViewers,
-   out uint              pceltFetched
+    uint                  celtSkip,
+    uint                  celtRequested,
+    DEBUG_CUSTOM_VIEWER[] rgViewers,
+    out uint              pceltFetched
 );
 ```
 
