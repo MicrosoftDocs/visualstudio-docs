@@ -20,13 +20,13 @@ Called by the session debug manager (SDM) to indicate that a synchronous debug e
 
 ```cpp
 HRESULT ContinueFromSynchronousEvent(
-   IDebugEvent2* pEvent
+    IDebugEvent2* pEvent
 );
 ```
 
 ```csharp
 HRESULT ContinueFromSynchronousEvent(
-   IDebugEvent2 pEvent
+    IDebugEvent2 pEvent
 );
 ```
 
@@ -46,39 +46,39 @@ The following example shows how to implement this method for a simple `CEngine` 
 ```cpp
 HRESULT CEngine::ContinueFromSynchronousEvent(IDebugEvent2* pEvent)
 {
-   HRESULT hr;
+    HRESULT hr;
 
-   // Create a pointer to a unique event interface defined for batch file
-   // breaks.
-   IAmABatchFileEvent *pBatEvent;
-   // Check for successful query for the unique batch file event
-   // interface.
-   if (SUCCEEDED(pEvent->QueryInterface(IID_IAmABatchFileEvent,
-                                       (void **)&pBatEvent)))
-   {
-      // Release the result of the QI.
-      pBatEvent->Release();
-      // Check thread message for notification to continue.
-      if (PostThreadMessage(GetCurrentThreadId(),
-                            WM_CONTINUE_SYNC_EVENT,
-                            0,
-                            0))
-      {
-         hr = S_OK;
-      }
-      else
-      {
-         hr = HRESULT_FROM_WIN32(GetLastError());
-      }
-   }
-   else
-   {
-      hr = E_INVALIDARG;
-   }
-   return hr;
+    // Create a pointer to a unique event interface defined for batch file
+    // breaks.
+    IAmABatchFileEvent *pBatEvent;
+    // Check for successful query for the unique batch file event
+    // interface.
+    if (SUCCEEDED(pEvent->QueryInterface(IID_IAmABatchFileEvent,
+                                        (void **)&pBatEvent)))
+    {
+        // Release the result of the QI.
+        pBatEvent->Release();
+        // Check thread message for notification to continue.
+        if (PostThreadMessage(GetCurrentThreadId(),
+                              WM_CONTINUE_SYNC_EVENT,
+                              0,
+                              0))
+        {
+            hr = S_OK;
+        }
+        else
+        {
+            hr = HRESULT_FROM_WIN32(GetLastError());
+        }
+    }
+    else
+    {
+        hr = E_INVALIDARG;
+    }
+    return hr;
 }
 ```
 
 ## See Also
-[IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)
+[IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)  
 [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md)
