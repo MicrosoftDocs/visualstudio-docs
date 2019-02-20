@@ -29,8 +29,10 @@ This refactoring applies to:
 1. Place your cursor in a conditional expression or a conditional AND/OR operator.
 2. Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
 3. Select **Invert conditional** or **Replace '&&' with '||'**
-  ![Invert conditional](media/invert-conditional.png)
-  ![Invert conditional](media/invert-logical-operator.png)
+
+    ![Invert conditional](media/invert-conditional.png)
+
+    ![Invert conditional](media/invert-logical-operator.png)
 
 ## See also
 

@@ -14,8 +14,6 @@ This code generation applies to:
 
 - C#
 
-- Visual Basic
-
 **What:** Lets you immediately add the necessary imports or "usings statements" of copy and pasted code.
 
 **When:** It is common practice to copy and paste code from different places in your project or other code sources. This quick action detects what imports are needed by analyzing the code and prompts you to add them after you copy and paste.

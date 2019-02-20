@@ -32,11 +32,11 @@ This refactoring applies to:
 
 2. Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
 
-  ![Invert if else codefix](media/invert-if-codefix.png)
+    ![Invert if else codefix](media/invert-if-codefix.png)
 
 3. Select **Invert if**.
 
-  ![Invert if else result](media/invert-if-codefix-result.png)
+    ![Invert if else result](media/invert-if-codefix-result.png)
 
 ## See also
 

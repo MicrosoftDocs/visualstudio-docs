@@ -14,8 +14,6 @@ This code generation applies to:
 
 - C#
 
-- Visual Basic
-
 **What:** Lets you immediately generate the method stub for a new deconstructor.
 
 **When:** You want to properly deconstruct your type automatically.
@@ -28,7 +26,7 @@ This code generation applies to:
 
    ![Missing deconstructor error](media/deconstruct.png)
 
-1. Next, do one of the following in the:
+2. Next, do one of the following in the:
 
    - **Keyboard**
       - With your cursor in your declaration, press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
@@ -36,7 +34,7 @@ This code generation applies to:
       - Right-click and select the **Quick Actions and Refactorings** menu.
       - Click the ![screwdriver](media/screwdriver.png) icon that appears in the left margin if the text cursor is already on the empty line in the class.
 
-   ![Generate deconstructor codefix](media/deconstruct-codefix.png)
+      ![Generate deconstructor codefix](media/deconstruct-codefix.png)
 
 3. Select **Generate method 'MyInternalClass.Deconstruct'** to generate the deconstructor.
 
