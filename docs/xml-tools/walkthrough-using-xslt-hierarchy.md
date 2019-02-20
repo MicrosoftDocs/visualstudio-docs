@@ -89,7 +89,7 @@ The example in this topic demonstrates debugging in a referenced style sheet.
       will be called instead.-->
       <xsl:template match="TITLE">
         <DIV STYLE="color:blue">
-          Title: <xsl:value-of select="."/>
+          title: <xsl:value-of select="."/>
         </DIV>
       </xsl:template>
 

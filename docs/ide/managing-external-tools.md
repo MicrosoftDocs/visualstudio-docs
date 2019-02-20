@@ -34,7 +34,7 @@ You can add an external tool to appear on the **Tools** menu.
 
 1. Click **Add**, and then fill in the information. For example, the following entry causes **Windows Explorer** to open at the directory of the file you currently have open in Visual Studio:
 
-   * Title: `Open File Location`
+   * title: `Open File Location`
 
    * Command: `explorer.exe`
 
