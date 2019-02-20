@@ -20,23 +20,23 @@ Parses an expression in text form for later evaluation.
 
 ```cpp
 HRESULT ParseText(
-   LPCOLESTR           pszCode,
-   PARSEFLAGS          dwFlags,
-   UINT                nRadix,
-   IDebugExpression2** ppExpr,
-   BSTR*               pbstrError,
-   UINT*               pichError
+    LPCOLESTR           pszCode,
+    PARSEFLAGS          dwFlags,
+    UINT                nRadix,
+    IDebugExpression2** ppExpr,
+    BSTR*               pbstrError,
+    UINT*               pichError
 );
 ```
 
 ```csharp
 int ParseText(
-   string                pszCode,
-   enum_PARSEFLAGS       dwFlags,
-   uint                  nRadix,
-   out IDebugExpression2 ppExpr,
-   out string            pbstrError,
-   out uint              pichError
+    string                pszCode,
+    enum_PARSEFLAGS       dwFlags,
+    uint                  nRadix,
+    out IDebugExpression2 ppExpr,
+    out string            pbstrError,
+    out uint              pichError
 );
 ```
 
@@ -72,47 +72,47 @@ The following example shows how to implement this method for a simple `CEnvBlock
 
 ```cpp
 HRESULT CEnvBlock::ParseText(
-   LPCOLESTR           pszCode,
-   PARSEFLAGS          dwFlags,
-   UINT                nRadix,
-   IDebugExpression2 **ppExpr,
-   BSTR               *pbstrError,
-   UINT               *pichError)
+    LPCOLESTR           pszCode,
+    PARSEFLAGS          dwFlags,
+    UINT                nRadix,
+    IDebugExpression2 **ppExpr,
+    BSTR               *pbstrError,
+    UINT               *pichError)
 {
-   HRESULT hr = E_OUTOFMEMORY;
-   // Create an integer variable with a value equal to one plus
-   // twice the length of the passed expression to be parsed.
-   int iAnsiLen      = 2 * (wcslen(pszCode)) + 1;
-   // Allocate a character string of the same length.
-   char *pszAnsiCode = (char *) malloc(iAnsiLen);
+    HRESULT hr = E_OUTOFMEMORY;
+    // Create an integer variable with a value equal to one plus
+    // twice the length of the passed expression to be parsed.
+    int iAnsiLen      = 2 * (wcslen(pszCode)) + 1;
+    // Allocate a character string of the same length.
+    char *pszAnsiCode = (char *) malloc(iAnsiLen);
 
-   // Check for successful memory allocation.
-   if (pszAnsiCode) {
-      // Map the wide-character pszCode string to the new pszAnsiCode character string.
-      WideCharToMultiByte(CP_ACP, 0, pszCode, -1, pszAnsiCode, iAnsiLen, NULL, NULL);
-      // Check to see if the app can succesfully get the environment variable.
-      if (GetEnv(pszAnsiCode)) {
+    // Check for successful memory allocation.
+    if (pszAnsiCode) {
+        // Map the wide-character pszCode string to the new pszAnsiCode character string.
+        WideCharToMultiByte(CP_ACP, 0, pszCode, -1, pszAnsiCode, iAnsiLen, NULL, NULL);
+        // Check to see if the app can succesfully get the environment variable.
+        if (GetEnv(pszAnsiCode)) {
 
-         // Create and initialize a CExpression object.
-         CComObject<CExpression> *pExpr;
-         CComObject<CExpression>::CreateInstance(&pExpr);
+            // Create and initialize a CExpression object.
+            CComObject<CExpression> *pExpr;
+            CComObject<CExpression>::CreateInstance(&pExpr);
             pExpr->Init(pszAnsiCode, this, NULL);
 
-         // Assign the pointer to the new object to the passed argument
-         // and AddRef the object.
-         *ppExpr = pExpr;
-         (*ppExpr)->AddRef();
-         hr = S_OK;
-      // If the program cannot succesfully get the environment variable.
-      } else {
-         // Set the errror message and return E_FAIL.
-         *pbstrError = SysAllocString(L"No such environment variable.");
-         hr = E_FAIL;
-      }
-      // Free the local character string.
-      free(pszAnsiCode);
-   }
-   return hr;
+            // Assign the pointer to the new object to the passed argument
+            // and AddRef the object.
+            *ppExpr = pExpr;
+            (*ppExpr)->AddRef();
+            hr = S_OK;
+        // If the program cannot succesfully get the environment variable.
+        } else {
+            // Set the errror message and return E_FAIL.
+            *pbstrError = SysAllocString(L"No such environment variable.");
+            hr = E_FAIL;
+        }
+        // Free the local character string.
+        free(pszAnsiCode);
+    }
+    return hr;
 }
 ```
 
