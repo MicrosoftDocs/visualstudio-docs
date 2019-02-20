@@ -57,8 +57,8 @@ You can find a number of advanced features on the **Edit** > **Advanced** menu o
 |Delete Horizontal White Space|Deletes tabs or spaces at the end of the current line.|
 |View White Space|Displays spaces as raised dots, and tabs as arrows. The end of a file is displayed as a rectangular glyph. If **Tools** > **Options** > **Text Editor** > **All Languages** > **Word Wrap** > **Show visible glyphs for word wrap** is selected, that glyph is also displayed.|
 |Word Wrap|Causes all the lines in a document to be visible in the code window. You can turn word wrap off and on in the **Text Editor All Languages** settings (**Tools** > **Options** > **Text Editor** > **All Languages**).|
-|Comment Selection|Adds comment characters to the selection or the current line.|
-|Uncomment Selection|Removes comment characters from the selection or the current line.|
+|Comment Selection|Adds comment characters to the selection or the current line. Shortcut: **Ctrl**+**K**, **Ctrl**+**C**|
+|Uncomment Selection|Removes comment characters from the selection or the current line. Shortcut: **Ctrl**+**K**, **Ctrl**+**U**|
 |Increase Line Indent|Adds a tab (or the equivalent spaces) to the selected lines or the current line.|
 |Decrease Line Indent|Removes a tab (or the equivalent spaces) from the selected lines or the current line.|
 |Select Tag|In a document that contains tags (for example, XML or HTML), selects the tag.|
