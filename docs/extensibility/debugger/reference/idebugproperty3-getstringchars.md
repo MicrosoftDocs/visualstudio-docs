@@ -20,17 +20,17 @@ Retrieves the string associated with this property and stores it in a user-suppl
 
 ```cpp
 HRESULT GetStringChars(
-   ULONG  buflen,
-   WCHAR* rgString,
-   ULONG* pceltFetched
+    ULONG  buflen,
+    WCHAR* rgString,
+    ULONG* pceltFetched
 );
 ```
 
 ```csharp
 int GetStringChars(
-   uint       buflen,
-   out string rgString,
-   out uint   pceltFetched
+    uint       buflen,
+    out string rgString,
+    out uint   pceltFetched
 );
 ```
 
