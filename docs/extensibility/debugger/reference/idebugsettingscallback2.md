@@ -54,7 +54,7 @@ HRESULT GetDebugSettingsCallback (IDebugSettingsCallback2 **ppCallback)
     HRESULT hRes = E_FAIL;
 
     if ( ppCallback )
-   {
+    {
         if ( EVAL(m_pdec) )
             hRes = m_pdec->QueryInterface(IID_IDebugSettingsCallback2, (void **)ppCallback);
         else
