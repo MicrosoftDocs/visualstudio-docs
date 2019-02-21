@@ -2,15 +2,15 @@
 title: "Performance Explorer Window | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
-f1_keywords: 
+f1_keywords:
   - "vs.performanceexplorer"
   - "vs.performance.explorer"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "performance tools, Performance Explorer"
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Performance Explorer Window
@@ -45,6 +45,6 @@ The **Performance Explorer** window contains a tree control that displays the bi
 
 ## See also
 
-[Overviews](../profiling/overviews-performance-tools.md)  
-[Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)  
+[Overviews](../profiling/overviews-performance-tools.md)
+[Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)
 [Controlling Data Collection](../profiling/controlling-data-collection.md)
