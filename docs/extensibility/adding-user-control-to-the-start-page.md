@@ -179,5 +179,5 @@ To implement a WPF user control, build the user interface (UI) in XAML and then 
     Your custom start page should be displayed. If you want to change any files, you must close the experimental instance, make the changes, copy and paste the changed files, and then re-open the experimental instance to view the changes.
 
 ## See also
-[WPF container controls](https://msdn.microsoft.com/library/a0177167-d7db-4205-9607-8ae316952566)  
-[Walkthrough: Add custom XAML to the Start Page](../extensibility/walkthrough-adding-custom-xaml-to-the-start-page.md)
+- [WPF container controls](https://msdn.microsoft.com/library/a0177167-d7db-4205-9607-8ae316952566)
+- [Walkthrough: Add custom XAML to the Start Page](../extensibility/walkthrough-adding-custom-xaml-to-the-start-page.md)

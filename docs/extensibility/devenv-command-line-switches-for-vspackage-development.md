@@ -2,7 +2,7 @@
 title: "Devenv Command-Line Switches for VSPackage Development | Microsoft Docs"
 ms.date: "12/10/2018"
 ms.topic: "conceptual"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "/Setup command line switch"
   - "/ResetSkipPkgs command line switch"
   - "/RootSuffix command line switch"
@@ -16,24 +16,24 @@ ms.assetid: d65d2c04-dd84-42b0-b956-555b11f5a645
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "vssdk"
 ---
 # Devenv command-line switches for VSPackage development
 
-Visual Studio allows developers to automate tasks from the command line when executing `devenv.exe`, the file that starts the Visual Studio IDE.  
+Visual Studio allows developers to automate tasks from the command line when executing `devenv.exe`, the file that starts the Visual Studio IDE.
 
- Tasks include:  
+ Tasks include:
 
-- Deploying applications in predesigned configurations from outside the IDE.  
+- Deploying applications in predesigned configurations from outside the IDE.
 
-- Automatically building projects using preset build settings or debug configurations.  
+- Automatically building projects using preset build settings or debug configurations.
 
-- Loading the IDE in specific configurations, all from outside the IDE. You can also customize the IDE upon launch.  
+- Loading the IDE in specific configurations, all from outside the IDE. You can also customize the IDE upon launch.
 
 ## Guidelines for switches
 
-Visual Studio documentation describes the user-level `devenv` command-line switches. For more information, see [Devenv command-line switches](../ide/reference/devenv-command-line-switches.md). The `devenv` tool also supports additional command-line switches that are useful with VSPackage development, deployment, and debugging.  
+Visual Studio documentation describes the user-level `devenv` command-line switches. For more information, see [Devenv command-line switches](../ide/reference/devenv-command-line-switches.md). The `devenv` tool also supports additional command-line switches that are useful with VSPackage development, deployment, and debugging.
 
 | Command-line switch | Description |
 |---------------------| - |
