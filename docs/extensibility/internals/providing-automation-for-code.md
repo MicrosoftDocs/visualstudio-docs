@@ -18,9 +18,9 @@ Creating an automation model for your code is not required. The Environment SDK 
 
  The objects that you extend, <xref:EnvDTE.CodeModel> and <xref:EnvDTE.FileCodeModel>, are available from the <xref:EnvDTE.Project> object, and look like the following:
 
- <xref:EnvDTE.Project.CodeModel%2A>
+- <xref:EnvDTE.Project.CodeModel%2A>
 
- <xref:EnvDTE.ProjectItem.FileCodeModel%2A>
+- <xref:EnvDTE.ProjectItem.FileCodeModel%2A>
 
  You can elect to implement just the `CodeModel` or the `FileCodeModel` interface in the object you return from your `Project` and <xref:EnvDTE.ProjectItem> objects. Provide any functionality from this interface that is appropriate for your project system.
 

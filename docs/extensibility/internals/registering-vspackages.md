@@ -17,7 +17,9 @@ ms.workload:
 
 ## In This Section
 - [Specifying VSPackage File Location to the VS Shell](../../extensibility/internals/specifying-vspackage-file-location-to-the-vs-shell.md)
+
  Describes the loading path for VSPackages.
 
 - [Registering and Unregistering VSPackages](../../extensibility/registering-and-unregistering-vspackages.md)
+
  Explains how to register a VSPackage.

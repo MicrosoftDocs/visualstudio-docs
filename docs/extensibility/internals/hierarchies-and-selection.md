@@ -18,17 +18,22 @@ When you customize [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)],
 
 ## In this section
 - [Hierarchies in Visual Studio](../../extensibility/internals/hierarchies-in-visual-studio.md)
+
  Describes project hierarchies and the general concept of hierarchies.
 
 - [Selection and currency in the IDE](../../extensibility/internals/selection-and-currency-in-the-ide.md)
+
  Describes how the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) maintains information about the user's currently active objects and lets VSPackages track currency.
 
 - [Selection context objects](../../extensibility/internals/selection-context-objects.md)
+
  Discusses the model for how you can determine the user's selection context focus on a window.
 
 - [Feedback to the user](../../extensibility/internals/feedback-to-the-user.md)
+
  Discusses how the available functionality in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] is based on the user's current selection context and overall IDE context.
 
 ## Related sections
 - [Project types architecture](../../extensibility/internals/project-types-architecture.md)
+
  Provides detailed technical information about project types.

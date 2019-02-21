@@ -58,12 +58,15 @@ Visual Studio uses a coloring service to identify elements of the language and d
 
 ## In This Section
 - [Implementing Syntax Coloring](../../extensibility/internals/implementing-syntax-coloring.md)
+
  Discusses how an editor accesses a language service's syntax coloring and what the language service must implement to support syntax coloring.
 
 - [How to: Use Built-In Colorable Items](../../extensibility/internals/how-to-use-built-in-colorable-items.md)
+
  Demonstrates how to use built-in colorable items from the language service.
 
 - [Custom Colorable Items](../../extensibility/internals/custom-colorable-items.md)
+
  Discusses how to implement custom colorable items.
 
 ## See Also

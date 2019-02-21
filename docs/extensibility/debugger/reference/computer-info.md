@@ -35,13 +35,13 @@ public struct COMPUTER_INFO
 ```
 
 ## Terms
-wProcessorArchitecture  
+wProcessorArchitecture
 Identifies the architecture of the microprocessor.
 
-wSuiteMask  
+wSuiteMask
 Identifies the suite mask.
 
-dwOperatingSystemVersion  
+dwOperatingSystemVersion
 Operating system version number.
 
 ## Remarks
@@ -55,5 +55,5 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
-[Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)  
-[GetComputerInfo](../../../extensibility/debugger/reference/idebugwindowscomputerport2-getcomputerinfo.md)
+- [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
+- [GetComputerInfo](../../../extensibility/debugger/reference/idebugwindowscomputerport2-getcomputerinfo.md)

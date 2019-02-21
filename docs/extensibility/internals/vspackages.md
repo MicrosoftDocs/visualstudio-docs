@@ -16,12 +16,15 @@ VSPackages are software modules that extend the [!INCLUDE[vsprvs](../../code-qua
 
 ## In This Section
 - [Specifying VSPackage File Location to the VS Shell](../../extensibility/internals/specifying-vspackage-file-location-to-the-vs-shell.md)
+
  Explains how to specify the VSPackage location to the Visual Studio shell.
 
 - [Resources in VSPackages](../../extensibility/internals/resources-in-vspackages.md)
+
  Explains how to manage resources in VSPackages.
 
 - [Best Practices for Security in VSPackages](../../extensibility/internals/best-practices-for-security-in-vspackages.md)
+
  Helps you to create more secure products by understanding security vulnerabilities.
 
 ## Related Sections

@@ -16,14 +16,18 @@ The topics in this section outline the structure the source control VSPackage mu
 
 ## In This Section
 - [VSPackage Structure](../../extensibility/internals/vspackage-structure-source-control-vspackage.md)
+
  Defines the structure of the source control VSPackage.
 
 - [Related Services and Interfaces](../../extensibility/internals/related-services-and-interfaces-source-control-vspackage.md)
+
  Lists source control package-related interfaces and services.
 
 - [Services Provided](../../extensibility/internals/services-provided-source-control-vspackage.md)
+
  Describes the source control service provided by the source control VSPackage.
 
 ## Related Sections
 - [Creating a Source Control VSPackage](../../extensibility/internals/creating-a-source-control-vspackage.md)
+
  Discusses how to create a source control VSPackage that not only supplies source control functionality but can be used to customize the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] source control UI.

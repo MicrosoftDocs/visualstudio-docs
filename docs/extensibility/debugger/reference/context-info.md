@@ -43,25 +43,25 @@ public struct CONTEXT_INFO {
 ```
 
 ## Members
-dwFields  
+dwFields
 A combination of flags from he [CONTEXT_INFO_FIELDS](../../../extensibility/debugger/reference/context-info-fields.md) enumeration that specifies which fields are filled out<strong>.</strong>
 
-bstrModuleUrl  
+bstrModuleUrl
 The name of the module where the context is located.
 
-bstrFunction  
+bstrFunction
 The function name where the context is located.
 
-posFunctionOffset  
+posFunctionOffset
 A [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md) structure that identifies the line and column offset of the function associated with the code context.
 
-bstrAddress  
+bstrAddress
 The address in code where the given context is located.
 
-bstrAddressOffset  
+bstrAddressOffset
 The offset of the address in code where the given context is located.
 
-bstrAddressAbsolute  
+bstrAddressAbsolute
 The absolute address in memory where the given context is located.
 
 ## Remarks
@@ -77,7 +77,7 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
-[Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)  
-[GetInfo](../../../extensibility/debugger/reference/idebugmemorycontext2-getinfo.md)  
-[CONTEXT_INFO_FIELDS](../../../extensibility/debugger/reference/context-info-fields.md)  
-[TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md)
+- [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
+- [GetInfo](../../../extensibility/debugger/reference/idebugmemorycontext2-getinfo.md)
+- [CONTEXT_INFO_FIELDS](../../../extensibility/debugger/reference/context-info-fields.md)
+- [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md)

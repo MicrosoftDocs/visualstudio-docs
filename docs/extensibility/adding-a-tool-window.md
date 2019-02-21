@@ -271,4 +271,4 @@ Add a toolbar and a menu command that invokes the **Open File** dialog and plays
     You should hear the chime sound.
 
 ## See also
-[Commands, menus, and toolbars](../extensibility/internals/commands-menus-and-toolbars.md)
+- [Commands, menus, and toolbars](../extensibility/internals/commands-menus-and-toolbars.md)

@@ -18,7 +18,7 @@ Retrieves type information about the specified array given its debug address.
 ## Syntax
 
 ```
-[C++]
+- [C++]
 HRESULT GetArrayTypeFromAddress(
     IDebugAddress* pAddress,
     BYTE*          pSig,
@@ -28,7 +28,7 @@ HRESULT GetArrayTypeFromAddress(
 ```
 
 ```
-[C#]
+- [C#]
 int GetArrayTypeFromAddress(
     IDebugAddress   pAddress,
     int[]           pSig,
@@ -38,17 +38,21 @@ int GetArrayTypeFromAddress(
 ```
 
 #### Parameters
-`pAddress`  
-[in] The debug address represented by an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface.
+`pAddress`
 
-`pSig`  
-[in] The array to examine.
+ [in] The debug address represented by an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface.
 
-`dwSigLength`  
-[in] Length in bytes of the `pSig` array.
+`pSig`
 
-`ppField`  
-[out] Returns the array type as represented by an [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md) interface.
+ [in] The array to examine.
+
+`dwSigLength`
+
+ [in] Length in bytes of the `pSig` array.
+
+`ppField`
+
+ [out] Returns the array type as represented by an [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md) interface.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -90,4 +94,4 @@ Error:
 ```
 
 ## See Also
-[IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)
+- [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

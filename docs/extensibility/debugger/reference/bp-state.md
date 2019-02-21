@@ -38,16 +38,16 @@ public enum enum_BP_STATE {
 ```
 
 ## Members
-BPS_NONE  
+BPS_NONE
 Specifies that no breakpoint exists.
 
-BPS_DELETED  
+BPS_DELETED
 Specifies that the breakpoint has been deleted.
 
-BPS_DISABLED  
+BPS_DISABLED
 Specifies that the breakpoint is disabled.
 
-BPS_ENABLED  
+BPS_ENABLED
 Specifies that the breakpoint is enabled.
 
 ## Remarks
@@ -61,5 +61,5 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
-[Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)  
-[GetState](../../../extensibility/debugger/reference/idebugboundbreakpoint2-getstate.md)
+- [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
+- [GetState](../../../extensibility/debugger/reference/idebugboundbreakpoint2-getstate.md)

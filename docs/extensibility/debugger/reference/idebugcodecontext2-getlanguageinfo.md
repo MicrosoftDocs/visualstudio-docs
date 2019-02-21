@@ -2,48 +2,50 @@
 title: "IDebugCodeContext2::GetLanguageInfo | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
-f1_keywords: 
+f1_keywords:
   - "IDebugCodeContext2::GetLanguageInfo"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "IDebugCodeContext2::GetLanguageInfo"
 ms.assetid: 03002ef1-9fe6-44b6-b23b-ef7b86b2b21b
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "vssdk"
 ---
 # IDebugCodeContext2::GetLanguageInfo
-Gets the language information for this code context.  
-  
-## Syntax  
-  
-```cpp  
-HRESULT GetLanguageInfo(   
-   BSTR* pbstrLanguage,  
-   GUID* pguidLanguage  
-);  
-```  
-  
-```csharp  
-int GetLanguageInfo(   
-   ref string pbstrLanguage,  
-   ref Guid pguidLanguage  
-);  
-```  
-  
-#### Parameters  
- `pbstrLanguage`  
- [in, out] Returns a string that contains the name of the language, such as "C++."  
-  
- `pguidLanguage`  
- [in, out] Returns the GUID for the language of the code context, for example, `guidCPPLang`.  
-  
-## Return Value  
- If successful, returns `S_OK`; otherwise, returns an error code.  
-  
-## Remarks  
- At least one of the parameters must return a non-null value.  
-  
-## See Also  
- [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md)
+Gets the language information for this code context.
+
+## Syntax
+
+```cpp
+HRESULT GetLanguageInfo( 
+   BSTR* pbstrLanguage,
+   GUID* pguidLanguage
+);
+```
+
+```csharp
+int GetLanguageInfo( 
+   ref string pbstrLanguage,
+   ref Guid pguidLanguage
+);
+```
+
+#### Parameters
+ `pbstrLanguage`
+
+ [in, out] Returns a string that contains the name of the language, such as "C++."
+
+ `pguidLanguage`
+
+ [in, out] Returns the GUID for the language of the code context, for example, `guidCPPLang`.
+
+## Return Value
+ If successful, returns `S_OK`; otherwise, returns an error code.
+
+## Remarks
+ At least one of the parameters must return a non-null value.
+
+## See Also
+- [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md)

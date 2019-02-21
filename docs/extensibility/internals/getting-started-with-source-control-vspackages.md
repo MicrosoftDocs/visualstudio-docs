@@ -17,11 +17,14 @@ A source-control VSPackage is a more advanced alternative to the source control 
 
 ## In this section
 - [Determine whether to implement a source control VSPackage](../../extensibility/internals/determining-whether-to-implement-a-source-control-vspackage.md)
+
  Explains the choices for source control solutions and provides broad guidelines for choosing an appropriate integration path.
 
 ## Related sections
 - [What's new in source control](../../extensibility/internals/what-s-new-in-source-control.md)
+
  Describes new features using VSPackages with source control.
 
 - [Create a source control VSPackage](../../extensibility/internals/creating-a-source-control-vspackage.md)
+
  Discusses how to create a source control VSPackage that not only supplies source control functionality but can be used to customize the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] source control UI.

@@ -19,20 +19,26 @@ This documentation includes links to the architecture overview of a source-contr
 
 ## In this section
 - [Get started](../../extensibility/internals/getting-started-with-source-control-vspackages.md)
+
  Discusses the source control package, which is a more advanced alternative to the source control plug-in for implementing source control features in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].
 
 - [Architecture](../../extensibility/internals/source-control-vspackage-architecture.md)
+
  Presents a diagram and explains the components of a source control package.
 
 - [Features](../../extensibility/internals/source-control-vspackage-features.md)
+
  Describes the various features of a source control package.
 
 - [Design elements](../../extensibility/internals/source-control-vspackage-design-elements.md)
+
  Describes the structure of the VSPackage that a source control package must implement for deep integration.
 
 ## Related sections
 - [Create a source control plug-in](../../extensibility/internals/creating-a-source-control-plug-in.md)
+
  Discusses how to create a source control plug-in that supplies source control functionality in the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] source control user interface (UI).
 
 - [Source control](../../extensibility/internals/source-control.md)
+
  Discusses the options for implementing source control as an integrated feature of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].

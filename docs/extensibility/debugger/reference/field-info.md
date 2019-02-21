@@ -39,19 +39,19 @@ public struct FIELD_INFO {
 ```
 
 ## Members
-dwFields  
+dwFields
 A combination of flags from the [FIELD_INFO_FIELDS](../../../extensibility/debugger/reference/field-info-fields.md) enumeration that specifies which members are filled in.
 
-bstrFullName  
+bstrFullName
 The full name of the field.
 
-bstrName  
+bstrName
 The short name of the field.
 
-bstrType  
+bstrType
 The type of the field.
 
-dwModifiers  
+dwModifiers
 A combination of flags from the [FIELD_MODIFIERS](../../../extensibility/debugger/reference/field-modifiers.md) enumeration that describes the field.
 
 ## Remarks
@@ -65,7 +65,7 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
-[Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)  
-[FIELD_INFO_FIELDS](../../../extensibility/debugger/reference/field-info-fields.md)  
-[FIELD_MODIFIERS](../../../extensibility/debugger/reference/field-modifiers.md)  
-[GetInfo](../../../extensibility/debugger/reference/idebugfield-getinfo.md)
+- [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
+- [FIELD_INFO_FIELDS](../../../extensibility/debugger/reference/field-info-fields.md)
+- [FIELD_MODIFIERS](../../../extensibility/debugger/reference/field-modifiers.md)
+- [GetInfo](../../../extensibility/debugger/reference/idebugfield-getinfo.md)

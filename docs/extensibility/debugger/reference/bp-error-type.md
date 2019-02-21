@@ -52,37 +52,37 @@ public enum enum_BP_ERROR_TYPE {
 ```
 
 ## Members
-BPET_NONE  
+BPET_NONE
 Specifies no breakpoint error.
 
-BPET_TYPE_WARNING  
+BPET_TYPE_WARNING
 Specifies a warning-style breakpoint error.
 
-BPET_TYPE_ERROR  
+BPET_TYPE_ERROR
 Specifies an error-style breakpoint error.
 
-BPET_SEV_HIGH  
+BPET_SEV_HIGH
 Specifies a high-severity breakpoint error.
 
-BPET_SEV_GENERAL  
+BPET_SEV_GENERAL
 Specifies a medium-severity breakpoint error.
 
-BPET_SEV_LOW  
+BPET_SEV_LOW
 Specifies a low-severity breakpoint error.
 
-BPET_TYPE_MASK  
+BPET_TYPE_MASK
 Specifies a mask-style breakpoint error.
 
-BPET_SEV_MASK  
+BPET_SEV_MASK
 Specifies a severity-mask-style breakpoint error.
 
-BPET_GENERAL_WARNING  
+BPET_GENERAL_WARNING
 Specifies a general-warning-style breakpoint error.
 
-BPET_GENERAL_ERROR  
+BPET_GENERAL_ERROR
 Specifies a general-error-style breakpoint error.
 
-BPET_ALL  
+BPET_ALL
 Specifies all breakpoint error types.
 
 ## Remarks
@@ -98,6 +98,6 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
-[Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)  
-[BP_ERROR_RESOLUTION_INFO](../../../extensibility/debugger/reference/bp-error-resolution-info.md)  
-[EnumErrorBreakpoints](../../../extensibility/debugger/reference/idebugpendingbreakpoint2-enumerrorbreakpoints.md)
+- [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
+- [BP_ERROR_RESOLUTION_INFO](../../../extensibility/debugger/reference/bp-error-resolution-info.md)
+- [EnumErrorBreakpoints](../../../extensibility/debugger/reference/idebugpendingbreakpoint2-enumerrorbreakpoints.md)

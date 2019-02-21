@@ -44,22 +44,22 @@ public enum enum_CONTEXT_INFO_FIELDS {
 ```
 
 ## Members
-CIF_MODULEURL  
+CIF_MODULEURL
 Initialize/use the `bstrModuleUrl` field of the [CONTEXT_INFO](../../../extensibility/debugger/reference/context-info.md) structure.
 
-CIF_FUNCTION  
+CIF_FUNCTION
 Initialize/use the `bstrFunction` field of the `CONTEXT_INFO` structure.
 
-CIF_FUNCTIONOFFSET  
+CIF_FUNCTIONOFFSET
 Initialize/use the `posFunctionOffset` field of the `CONTEXT_INFO` structure.
 
-CIF_ADDRESS  
+CIF_ADDRESS
 Initialize/use the `bstrAddress` field of the `CONTEXT_INFO` structure.
 
-CIF_ADDRESSOFFSET  
+CIF_ADDRESSOFFSET
 Initialize/use the `bstrAddressOffset` field of the `CONTEXT_INFO` structure.
 
-CIF_ALLFIELDS  
+CIF_ALLFIELDS
 Initialize/use all fields of the `CONTEXT_INFO` structure.
 
 ## Remarks
@@ -77,6 +77,6 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
-[Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)  
-[CONTEXT_INFO](../../../extensibility/debugger/reference/context-info.md)  
-[GetInfo](../../../extensibility/debugger/reference/idebugmemorycontext2-getinfo.md)
+- [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
+- [CONTEXT_INFO](../../../extensibility/debugger/reference/context-info.md)
+- [GetInfo](../../../extensibility/debugger/reference/idebugmemorycontext2-getinfo.md)

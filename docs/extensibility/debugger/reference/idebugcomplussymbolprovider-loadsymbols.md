@@ -40,23 +40,29 @@ int LoadSymbols(
 ```
 
 #### Parameters
-`ulAppDomainID`  
-[in] Identifier of the application domain.
+`ulAppDomainID`
 
-`guidModule`  
-[in] Unique identifier of the mondule.
+ [in] Identifier of the application domain.
 
-`baseAddress`  
-[in] Base memory address.
+`guidModule`
 
-`pUnkMetadataImport`  
-[in] Object that contains the symbol metadata.
+ [in] Unique identifier of the mondule.
 
-`bstrModuleName`  
-[in] Name of the module.
+`baseAddress`
 
-`bstrSymSearchPath`  
-[in] Path to search for the symbol file.
+ [in] Base memory address.
+
+`pUnkMetadataImport`
+
+ [in] Object that contains the symbol metadata.
+
+`bstrModuleName`
+
+ [in] Name of the module.
+
+`bstrSymSearchPath`
+
+ [in] Path to search for the symbol file.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -78,4 +84,4 @@ HRESULT CDebugSymbolProvider::LoadSymbols(
 ```
 
 ## See Also
-[IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)
+- [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

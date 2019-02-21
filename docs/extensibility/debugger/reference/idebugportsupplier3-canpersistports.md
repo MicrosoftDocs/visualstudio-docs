@@ -2,38 +2,38 @@
 title: "IDebugPortSupplier3::CanPersistPorts | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
-f1_keywords: 
+f1_keywords:
   - "IDebugPortSupplier3::CanPersistPorts"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "IDebugPortSupplier3::CanPersistPorts"
 ms.assetid: 4127760c-e602-4e86-9232-457e382a52c7
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "vssdk"
 ---
 # IDebugPortSupplier3::CanPersistPorts
-This method determines whether the port supplier can persist ports (by writing them to disk) between invocations of the debugger.  
-  
-## Syntax  
-  
-```cpp  
-HRESULT CanPersistPorts();  
-```  
-  
-```csharp  
-int CanPersistPorts();  
-```  
-  
-#### Parameters  
- None.  
-  
-## Return Value  
- `S_OK` if ports can be persisted, or `S_FALSE` to indicate that ports cannot be persisted.  
-  
-## Remarks  
- If the port supplier can persist ports, it should do so when it is destroyed and then reload them when it is instantiated once again.  
-  
-## See Also  
- [IDebugPortSupplier3](../../../extensibility/debugger/reference/idebugportsupplier3.md)
+This method determines whether the port supplier can persist ports (by writing them to disk) between invocations of the debugger.
+
+## Syntax
+
+```cpp
+HRESULT CanPersistPorts();
+```
+
+```csharp
+int CanPersistPorts();
+```
+
+#### Parameters
+ None.
+
+## Return Value
+ `S_OK` if ports can be persisted, or `S_FALSE` to indicate that ports cannot be persisted.
+
+## Remarks
+ If the port supplier can persist ports, it should do so when it is destroyed and then reload them when it is instantiated once again.
+
+## See Also
+- [IDebugPortSupplier3](../../../extensibility/debugger/reference/idebugportsupplier3.md)

@@ -17,11 +17,11 @@ Symbol-browsing tools display hierarchical views of symbols. The symbols represe
 
  Each symbol in the hierarchy can be identified by the navigation information passed by the symbol library to the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] object manager through the following interfaces:
 
- <xref:Microsoft.VisualStudio.Shell.Interop.IVsNavInfo>
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsNavInfo>
 
- <xref:Microsoft.VisualStudio.Shell.Interop.IVsNavInfoNode>
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsNavInfoNode>
 
- <xref:Microsoft.VisualStudio.Shell.Interop.IVsEnumNavInfoNodes>.
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsEnumNavInfoNodes>.
 
  The location of the symbol in the hierarchy distinguishes a symbol. It allows symbol-browsing tools to navigate to a specific symbol. The unique, fully qualified path to the symbol determines the location. Each element in the path is a node. The path starts with the top-level node and ends with the specific symbol. For example, if the M1 method is a member of the C1 class and C1 is in N1 namespace, the full path of the M1 method is N1.C1.M1. This path contains three nodes: N1, C1, and M1.
 

@@ -31,8 +31,9 @@ int GetBreakpointType( 
 ```
 
 #### Parameters
-`pBPType`  
-[out] Returns a value from the [BP_TYPE](../../../extensibility/debugger/reference/bp-type.md) enumeration that specifies the type of this breakpoint.
+`pBPType`
+
+ [out] Returns a value from the [BP_TYPE](../../../extensibility/debugger/reference/bp-type.md) enumeration that specifies the type of this breakpoint.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise returns an error code. Returns E_FAIL if the `bpResLocation` field in the associated [BP_RESOLUTION_INFO](../../../extensibility/debugger/reference/bp-resolution-info.md) structure is not valid.
@@ -75,8 +76,8 @@ HRESULT CDebugBreakpointResolution::GetBreakpointType(BP_TYPE* pBPType)
 ```
 
 ## See Also
-[IDebugBreakpointResolution2](../../../extensibility/debugger/reference/idebugbreakpointresolution2.md)  
-[BP_TYPE](../../../extensibility/debugger/reference/bp-type.md)  
-[BPRESI_FIELDS](../../../extensibility/debugger/reference/bpresi-fields.md)  
-[BP_RESOLUTION_LOCATION](../../../extensibility/debugger/reference/bp-resolution-location.md)  
-[BP_RESOLUTION_INFO](../../../extensibility/debugger/reference/bp-resolution-info.md)
+- [IDebugBreakpointResolution2](../../../extensibility/debugger/reference/idebugbreakpointresolution2.md)
+- [BP_TYPE](../../../extensibility/debugger/reference/bp-type.md)
+- [BPRESI_FIELDS](../../../extensibility/debugger/reference/bpresi-fields.md)
+- [BP_RESOLUTION_LOCATION](../../../extensibility/debugger/reference/bp-resolution-location.md)
+- [BP_RESOLUTION_INFO](../../../extensibility/debugger/reference/bp-resolution-info.md)

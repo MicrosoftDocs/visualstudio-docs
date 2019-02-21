@@ -16,18 +16,23 @@ ms.workload:
 
 ## In This Section
 - [Model for Source Control Packages](../../extensibility/internals/model-for-source-control-packages.md)
+
  Describes the interfaces a project type must implement to support source control.
 
 - [Design Decisions](../../extensibility/internals/source-control-design-decisions.md)
+
  Provides questions whose answers change how you implement a project type.
 
 - [Configuration Details](../../extensibility/internals/source-control-configuration-details.md)
+
  Describes how supporting source control changes the implementation of a project type.
 
 - [Additional Guidelines for Projects and Editors](../../extensibility/internals/additional-source-control-guidelines-for-projects-and-editors.md)
+
  Discusses best practices for project types and editors.
 
 - [Runtime Details](../../extensibility/internals/source-control-runtime-details.md)
+
  Describes how to register a project when a user adds it to a source-control system.
 
 ## Reference
@@ -48,4 +53,5 @@ ms.workload:
 
 ## Related Sections
 - [Project Types](../../extensibility/internals/project-types.md)
+
  Provides an overview of projects as the basic building blocks of the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE). Links are provided to additional topics that explain how projects control building and compiling code.

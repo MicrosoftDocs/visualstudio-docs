@@ -30,8 +30,9 @@ int ConstraintCount(
 ```
 
 #### Parameters
-`pcConst`  
-[in, out] Number of constraints that are associated with this field.
+`pcConst`
+
+ [in, out] Number of constraints that are associated with this field.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -73,4 +74,4 @@ Error:
 ```
 
 ## See Also
-[IDebugGenericParamField](../../../extensibility/debugger/reference/idebuggenericparamfield.md)
+- [IDebugGenericParamField](../../../extensibility/debugger/reference/idebuggenericparamfield.md)

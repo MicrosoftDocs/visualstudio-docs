@@ -17,11 +17,14 @@ A solution is a grouping of one or more projects that work together to create an
 
 ## In This Section
 - [Overview](../../extensibility/internals/solutions-overview.md)
+
  Discusses the types of solution files included in a solution, and the process that occurs when a solution is opened.
 
 ## Related Sections
 - [Solution (.Sln) File](../../extensibility/internals/solution-dot-sln-file.md)
+
  Explains the structure of a .sln file.
 
 - [Solution User Options (.Suo) File](../../extensibility/internals/solution-user-options-dot-suo-file.md)
+
  Explains the .suo file.

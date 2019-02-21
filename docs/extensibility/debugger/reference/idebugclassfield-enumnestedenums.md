@@ -31,8 +31,9 @@ int EnumNestedEnums(
 ```
 
 #### Parameters
-`ppEnum`  
-[out] Returns an [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md) object representing the list of nested enumerations. Returns a null value if there are no nested enumerations.
+`ppEnum`
+
+ [out] Returns an [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md) object representing the list of nested enumerations. Returns a null value if there are no nested enumerations.
 
 ## Return Value
 If successful, returns S_OK or returns S_FALSE if there are no nested enumerators. Otherwise, returns an error code.
@@ -51,6 +52,6 @@ class RootClass {
 The `EnumNestedEnums` method would return an [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md) object that contains one [IDebugEnumField](../../../extensibility/debugger/reference/idebugenumfield.md) object that represents the `NestedEnum` enumeration.
 
 ## See Also
-[IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md)  
-[IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md)  
-[IDebugEnumField](../../../extensibility/debugger/reference/idebugenumfield.md)
+- [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md)
+- [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md)
+- [IDebugEnumField](../../../extensibility/debugger/reference/idebugenumfield.md)

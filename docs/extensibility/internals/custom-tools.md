@@ -22,15 +22,19 @@ ms.workload:
 
 ## In this section
 - [Implement single-file generators](../../extensibility/internals/implementing-single-file-generators.md)
+
  Describes how to use the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSingleFileGenerator> interface to implement a custom tool.
 
 - [Register single file generators](../../extensibility/internals/registering-single-file-generators.md)
+
  Provides descriptions for all the registry entries for a custom tool.
 
 - [Expose types to visual designers](../../extensibility/internals/exposing-types-to-visual-designers.md)
+
  Explains how project systems provide support for visual designers to access generated classes and types through temporary portable executable (PE) files.
 
 - [Persist the property of a project item](../../extensibility/persisting-the-property-of-a-project-item.md)
+
  Shows how to persist a project item property, such as the author of a source file, in the project file.
 
 ## Reference
@@ -45,4 +49,5 @@ ms.workload:
 
 ## Related sections
 - [Extend projects](../../extensibility/extending-projects.md)
+
  Describes how to use [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] projects and solutions to organize code files and resource files, and how to implement source control.

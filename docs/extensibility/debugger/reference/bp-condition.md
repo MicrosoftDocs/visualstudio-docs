@@ -39,19 +39,19 @@ public struct BP_CONDITION {
 ```
 
 ## Members
-`pThread`  
+`pThread`
 The [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md) object that represents the active thread for the application that contains the breakpoint.
 
-`styleCondition`  
+`styleCondition`
 A value from the [BP_COND_STYLE](../../../extensibility/debugger/reference/bp-cond-style.md) enumeration describing the style of this breakpoint condition.
 
-`bstrContext`  
+`bstrContext`
 The location of the breakpoint.
 
-`bstrCondition`  
+`bstrCondition`
 The firing condition of the breakpoint.
 
-`nRadix`  
+`nRadix`
 Radix to be used in evaluating any numerical information.
 
 ## Remarks
@@ -67,10 +67,10 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
-[Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)  
-[BP_REQUEST_INFO](../../../extensibility/debugger/reference/bp-request-info.md)  
-[BP_REQUEST_INFO2](../../../extensibility/debugger/reference/bp-request-info2.md)  
-[SetCondition](../../../extensibility/debugger/reference/idebugboundbreakpoint2-setcondition.md)  
-[SetCondition](../../../extensibility/debugger/reference/idebugpendingbreakpoint2-setcondition.md)  
-[IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)  
-[BP_COND_STYLE](../../../extensibility/debugger/reference/bp-cond-style.md)
+- [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
+- [BP_REQUEST_INFO](../../../extensibility/debugger/reference/bp-request-info.md)
+- [BP_REQUEST_INFO2](../../../extensibility/debugger/reference/bp-request-info2.md)
+- [SetCondition](../../../extensibility/debugger/reference/idebugboundbreakpoint2-setcondition.md)
+- [SetCondition](../../../extensibility/debugger/reference/idebugpendingbreakpoint2-setcondition.md)
+- [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)
+- [BP_COND_STYLE](../../../extensibility/debugger/reference/bp-cond-style.md)

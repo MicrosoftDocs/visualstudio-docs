@@ -42,26 +42,33 @@ int GetSymAttribute (
 ```
 
 #### Parameters
-`ulAppDomainID`  
-[in] Identifier of the application domain.
+`ulAppDomainID`
 
-`guidModule`  
-[in] Unique identifier of the module.
+ [in] Identifier of the application domain.
 
-`tokParent`  
-[in] Token for the parent attribute.
+`guidModule`
 
-`pstrName`  
-[in] Name of the module.
+ [in] Unique identifier of the module.
 
-`cBuffer`  
-[in] Number of bytes required for the output `buffer`.
+`tokParent`
 
-`pcBuffer`  
-[out] Length of the output `buffer`.
+ [in] Token for the parent attribute.
 
-`buffer`  
-[out] Array that contains the symbols.
+`pstrName`
+
+ [in] Name of the module.
+
+`cBuffer`
+
+ [in] Number of bytes required for the output `buffer`.
+
+`pcBuffer`
+
+ [out] Length of the output `buffer`.
+
+`buffer`
+
+ [out] Array that contains the symbols.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -98,4 +105,4 @@ Error:
 ```
 
 ## See Also
-[IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)
+- [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

@@ -24,11 +24,14 @@ A Web site project system is a project system that creates Web projects. Web pro
 
 ## In This Section
 - [Web Site Support Templates](../../extensibility/internals/web-site-support-templates.md)
+
  Lists the templates that you can use to create new Web site projects and associated items.
 
 - [Web Site Support Attributes](../../extensibility/internals/web-site-support-attributes.md)
+
  Presents the registration attributes that connect a Web site project to [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] and [!INCLUDE[vstecasp](../../code-quality/includes/vstecasp_md.md)].
 
 ## Related Sections
 - [Web Projects](../../extensibility/internals/web-projects.md)
+
  Presents an overview of the two kinds of Web projects, Web site projects and Web application projects.

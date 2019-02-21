@@ -30,29 +30,38 @@ Menus and toolbars are the way users access commands in your VSPackage. Commands
 
 ## In this section
 - [How VSPackages add user interface elements](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)
+
  An in-depth description of the command table format specification.
 
 - [Visual Studio command table (.vsct) files](../../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
+
  Describes an XML-based syntax and compiler for command tables.
 
 - [Default command, group, and toolbar placement](../../extensibility/internals/default-command-group-and-toolbar-placement.md)
+
  Describes predefined commands, groups, menus, and toolbars.
 
 - [IDE-defined commands, menus, and groups](../../extensibility/internals/ide-defined-commands-menus-and-groups.md)
+
  Specifies the predefined menus, commands, and command groups available for use by the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] IDE.
 
 - [Command design](../../extensibility/internals/command-design.md)
+
  Explains how to design commands.
 
 - [Optimize menu and toolbar commands](../../extensibility/internals/optimizing-menu-and-toolbar-commands.md)
+
  Gives guidelines for commands.
 
 - [Make commands available](../../extensibility/internals/making-commands-available.md)
+
  Explains how to make commands available to Visual Studio.
 
 - [Commands and menus that use interop assemblies](../../extensibility/internals/commands-and-menus-that-use-interop-assemblies.md)
+
  Explains how to implement commands that use interop assemblies.
 
 ## Related sections
 - [Command routing in VSPackages](../../extensibility/internals/command-routing-in-vspackages.md)
+
  Explains command routing in VSPackages.

@@ -50,7 +50,7 @@ HRESULT GetSymbolTable(IDiaEnumTables *pEnumTables, IDiaTable **pTable)
 Header: dia2.h
 
 ## See Also
-[Reference](../../debugger/debug-interface-access/debug-interface-access-sdk-reference.md)  
-[Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)  
-[Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)  
-[IDiaEnumTables::Item](../../debugger/debug-interface-access/idiaenumtables-item.md)
+- [Reference](../../debugger/debug-interface-access/debug-interface-access-sdk-reference.md)
+- [Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)
+- [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)
+- [IDiaEnumTables::Item](../../debugger/debug-interface-access/idiaenumtables-item.md)

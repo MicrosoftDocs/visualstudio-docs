@@ -23,25 +23,25 @@ To include files for a build, they must be included in an item list in the [!INC
 
 #### To declare items individually
 
-- Use the `Include` attributes similar to following:  
-  
-    `<CSFile Include="form1.cs"/>`  
-  
-    or  
-  
-    `<VBFile Include="form1.vb"/>`  
-  
+- Use the `Include` attributes similar to following:
+
+    `<CSFile Include="form1.cs"/>`
+
+    or
+
+    `<VBFile Include="form1.vb"/>`
+
     > [!NOTE]
     > If items in an item collection are not in the same directory as the project file, you must specify the full or relative path to the item. For example: `Include="..\..\form2.cs"`.
 
 #### To declare multiple items
 
--   Use the `Include` attributes similar to following:  
-  
-    `<CSFile Include="form1.cs;form2.cs"/>`  
-  
-    or  
-  
+-   Use the `Include` attributes similar to following:
+
+    `<CSFile Include="form1.cs;form2.cs"/>`
+
+    or
+
     `<VBFile Include="form1.vb;form2.vb"/>`
 
 ## Specify inputs with wildcards
@@ -57,24 +57,24 @@ The following examples are based on a project that contains graphics files in th
 
 #### To include all *.jpg* files in the *Images* directory and subdirectories
 
-- Use the following `Include` attribute:  
-  
+- Use the following `Include` attribute:
+
     `Include="Images\**\*.jpg"`
 
 #### To include all *.jpg* files starting with *img*
 
-- Use the following `Include` attribute:  
-  
+- Use the following `Include` attribute:
+
     `Include="Images\**\img*.jpg"`
 
 #### To include all files in directories with names ending in *jpgs*
 
-- Use one of the following `Include` attributes:  
-  
-    `Include="Images\**\*jpgs\*.*"`  
-  
-    or  
-  
+- Use one of the following `Include` attributes:
+
+    `Include="Images\**\*jpgs\*.*"`
+
+    or
+
     `Include="Images\**\*jpgs\*"`
 
 ## Pass items to a task
@@ -82,17 +82,17 @@ In a project file, you can use the @() notation in tasks to specify an entire it
 
 #### To use all Visual C# or Visual Basic files as inputs
 
-- Use the `Include` attributes similar to the following:  
-  
-    `<CSC Sources="@(CSFile)">...</CSC>`  
-  
-    or  
-  
+- Use the `Include` attributes similar to the following:
+
+    `<CSC Sources="@(CSFile)">...</CSC>`
+
+    or
+
     `<VBC Sources="@(VBFile)">...</VBC>`
 
 > [!NOTE]
 >  You must use wildcards with items to specify the inputs for a build; you cannot specify the inputs using the `Sources` attribute in [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] tasks such as [Csc](../msbuild/csc-task.md) or [Vbc](../msbuild/vbc-task.md). The following example is not valid in a project file:
-> 
+>
 > `<CSC Sources="*.cs">...</CSC>`
 
 ## Example
@@ -164,5 +164,5 @@ The following code example uses a wildcard to include all the *.cs* files.
 ```
 
 ## See also
-[How to: Exclude files from the build](../msbuild/how-to-exclude-files-from-the-build.md)  
-[Items](../msbuild/msbuild-items.md)
+- [How to: Exclude files from the build](../msbuild/how-to-exclude-files-from-the-build.md)
+- [Items](../msbuild/msbuild-items.md)

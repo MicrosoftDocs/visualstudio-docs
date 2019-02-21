@@ -31,12 +31,15 @@ Many menus, commands and command groups are already defined for use by the [!INC
 
 ## In This Section
 - [GUIDs and IDs of Visual Studio Menus](../../extensibility/internals/guids-and-ids-of-visual-studio-menus.md)
+
  Gives the GUID and ID values of menus on the Visual Studio menu bar, and of the groups they contain.
 
 - [GUIDs and IDs of Visual Studio Toolbars](../../extensibility/internals/guids-and-ids-of-visual-studio-toolbars.md)
+
  Gives the GUID and ID values of toolbars in the Visual Studio IDE, and of the groups they contain.
 
 - [GUIDs and IDs of Visual Studio Commands](../../extensibility/internals/guids-and-ids-of-visual-studio-commands.md)
+
  Gives the GUID and ID values of commands defined by the Visual Studio IDE.
 
 ## See Also

@@ -36,17 +36,21 @@ int GetTypeFromToken(
 ```
 
 #### Parameters
-`appDomain`  
-[in] Identifier of the application domain.
+`appDomain`
 
-`guidModule`  
-[in] Unique identifier of the module.
+ [in] Identifier of the application domain.
 
-`tdToken`  
-[in] Token of the type to be retrieved.
+`guidModule`
 
-`ppField`  
-[out] Returns the type that is represented by the [IDebugField](../../../extensibility/debugger/reference/idebugfield.md).
+ [in] Unique identifier of the module.
+
+`tdToken`
+
+ [in] Token of the type to be retrieved.
+
+`ppField`
+
+ [out] Returns the type that is represented by the [IDebugField](../../../extensibility/debugger/reference/idebugfield.md).
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -81,4 +85,4 @@ Error:
 ```
 
 ## See Also
-[IDebugComPlusSymbolProvider2](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2.md)
+- [IDebugComPlusSymbolProvider2](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2.md)
