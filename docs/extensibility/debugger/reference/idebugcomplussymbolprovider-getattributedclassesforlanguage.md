@@ -1,7 +1,7 @@
 ---
 title: "IDebugComPlusSymbolProvider::GetAttributedClassesForLanguage | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 helpviewer_keywords:
   - "GetAttributedClassesForLanguage"
   - "IDebugComPlusSymbolProvider::GetAttributedClassesForLanguage"
@@ -18,7 +18,7 @@ Retrieves the classes with the specified attribute that are implemented in the s
 ## Syntax
 
 ```
-[C++]
+- [C++]
 HRESULT GetAttributedClassesForLanguage (
     GUID               guidLanguage,
     LPOLESTR           pstrAttribute,
@@ -27,7 +27,7 @@ HRESULT GetAttributedClassesForLanguage (
 ```
 
 ```
-[C#]
+- [C#]
 int GetAttributedClassesForLanguage (
     Guid                 guidLanguage,
     string               pstrAttribute,
@@ -36,14 +36,17 @@ int GetAttributedClassesForLanguage (
 ```
 
 #### Parameters
-`guidLanguage`  
-[in] Unique identifier for the language.
+`guidLanguage`
 
-`pstrAttribute`  
-[in] The attribute string.
+ [in] Unique identifier for the language.
 
-`ppEnum`  
-[out] Returns an enumeration of the attribute classes.
+`pstrAttribute`
+
+ [in] The attribute string.
+
+`ppEnum`
+
+ [out] Returns an enumeration of the attribute classes.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -180,4 +183,4 @@ Error:
 ```
 
 ## See Also
-[IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)
+- [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

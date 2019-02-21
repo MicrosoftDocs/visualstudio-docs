@@ -6,7 +6,7 @@ ms.assetid: 9976b6fd-d052-4017-b848-35b5bf4b2f66
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # What's new in MSBuild 15
@@ -42,8 +42,8 @@ MSBuild is now available as part of the [.NET Core SDK](https://www.microsoft.co
 - `EnsureTrailingSlash` adds a trailing slash to a path if one doesn't already exist.
 - `NormalizePath` combines path elements and ensures that the output string has the correct directory separator characters for the current operating system.
 - `NormalizeDirectory` combines path elements, ensures a trailing slash, and ensures that the output string has the correct directory separator characters for the current operating system.
-- `GetPathOfFileAbove` returns the path of the file immediately preceding this one. It is functionally equivalent to calling 
+- `GetPathOfFileAbove` returns the path of the file immediately preceding this one. It is functionally equivalent to calling
   `<Import Project="$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildThisFileDirectory), dir.props))\dir.props" />`
 
 ## See also
-[MSBuild](../msbuild/msbuild.md)
+- [MSBuild](../msbuild/msbuild.md)

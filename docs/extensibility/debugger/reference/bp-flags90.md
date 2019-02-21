@@ -1,7 +1,7 @@
 ---
 title: "BP_FLAGS90 | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 helpviewer_keywords:
   - "BP_FLAGS90 enumeration"
 ms.assetid: 3e5a06c5-fb30-4b8a-b2d5-4a0570fc80bd
@@ -44,16 +44,16 @@ public enum enum_BP_FLAGS90
 ```
 
 #### Parameters
-BP90_FLAG_NONE  
+BP90_FLAG_NONE
 Specifies no breakpoint flag.
 
-BP90_FLAG_MAP_DOCPOSITION  
+BP90_FLAG_MAP_DOCPOSITION
 Specifies that the debug engine (DE) should map the breakpoint by using the document position. This is applicable only to breakpoints set in script-oriented source files such as Active Server Pages (ASP).
 
-BP90_FLAG_DONT_STOP  
+BP90_FLAG_DONT_STOP
 Specifies that the breakpoint should be processed by the debug engine, but that the debug engine ultimately should not stop there; that is, an [IDebugBreakpointEvent2](../../../extensibility/debugger/reference/idebugbreakpointevent2.md) event object should not be sent. This flag is designed to be used primarily with trace points.
 
-BP90_FLAG_TRACEPOINT_CONTINUE  
+BP90_FLAG_TRACEPOINT_CONTINUE
 Used by the native debug engine to determine whether the stepping state should be cleared. It differs from BP90_FLAG_DONT_STOP because BP90_FLAG_DONT_STOP is not set if the trace point executes a macro.
 
 ## Requirements
@@ -64,4 +64,4 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
-[Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
+- [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)

@@ -1,7 +1,7 @@
 ---
 title: "IDebugComPlusSymbolProvider::AreSymbolsLoaded | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 helpviewer_keywords:
   - "AreSymbolsLoaded"
   - "IDebugComPlusSymbolProvider::AreSymbolsLoaded"
@@ -32,11 +32,13 @@ int AreSymbolsLoaded (
 ```
 
 #### Parameters
-`ulAppDomainID`  
-[in] Identifier for the application domain.
+`ulAppDomainID`
 
-`guidModule`  
-[in] Unique identifier for the module.
+ [in] Identifier for the application domain.
+
+`guidModule`
+
+ [in] Unique identifier for the module.
 
 ## Return Value
 If the debug symbols are loaded, returns `S_OK`; otherwise, returns `S_FALSE`.
@@ -65,4 +67,4 @@ Error:
 ```
 
 ## See Also
-[IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)
+- [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

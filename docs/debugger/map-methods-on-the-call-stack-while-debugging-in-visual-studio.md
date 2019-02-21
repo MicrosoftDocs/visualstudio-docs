@@ -34,7 +34,7 @@ ms.workload:
 
 Create a code map to visually trace the call stack while you're debugging. You can make notes on the map to track what the code is doing, so you can focus on finding bugs.
 
-For a walkthrough, watch this video: 
+For a walkthrough, watch this video:
 [Video: Debug visually with Code Map debugger integration (Channel 9)](http://go.microsoft.com/fwlink/?LinkId=293418)
 
 For details of commands and actions you can use with code maps, see [Browse and rearrange code maps](../modeling/browse-and-rearrange-code-maps.md).
@@ -49,7 +49,7 @@ Here's a quick look at a code map:
 ##  <a name="MapStack"></a> Map the call stack
 
 1. In a Visual Studio Enterprise C#, Visual Basic, C++, or JavaScript project, start debugging by selecting **Debug** > **Start Debugging** or pressing **F5**.
-   
+
 1. After your app enters break mode or you step into a function, select **Debug** > **Code Map**, or press **Ctrl**+**Shift**+**`**.
 
    The current call stack appears in orange on a new code map:
@@ -68,19 +68,19 @@ To get more information about an item, hover over it and look at the item's tool
 ## Map external code
 
 By default, only your own code appears on the map. To see external code on the map:
-  
+
 - Right-click in the **Call Stack** window and select **Show External Code**:
-  
+
   ![Display external code using the Call Stack window](../debugger/media/debuggermap_callstackmenu.png "DebuggerMap_CallStackMenu")
 - Or, deselect **Enable Just My Code** in Visual Studio **Tools** (or **Debug**) > **Options** > **Debugging**:
-  
+
   ![Show external code using Options dialog](../debugger/media/debuggermap_debugoptions.png "DebuggerMap_DebugOptions")
 
 ## Control the map's layout
 
-Changing the map's layout doesn't affect the code in any way. 
+Changing the map's layout doesn't affect the code in any way.
 
-To control the map's layout, select the **Layout** menu on the map toolbar. 
+To control the map's layout, select the **Layout** menu on the map toolbar.
 
 In the **Layout** menu, you can:
 
@@ -90,9 +90,9 @@ In the **Layout** menu, you can:
 
 ##  <a name="MakeNotes"></a> Make notes about the code
 
-You can add comments to track what's happening in the code. 
+You can add comments to track what's happening in the code.
 
-To add a comment, right-click in the code map and select **Edit** > **New Comment**, then type the comment. 
+To add a comment, right-click in the code map and select **Edit** > **New Comment**, then type the comment.
 
 To add a new line in a comment, press **Shift**+**Enter**.
 
@@ -104,11 +104,11 @@ As you run your app to the next breakpoint or step into a function, the map adds
 
 ![Update code map with next call stack](../debugger/media/debuggermap_addclearcallstack.png "DebuggerMap_AddClearCallStack")
 
-To stop the map from adding new call stacks automatically, select ![Show call stack on code map automatically](../debugger/media/debuggermap_automaticupdateicon.gif "Show call stack on code map automatically") on the code map toolbar. The map continues to highlight existing call stacks. To manually add the current call stack to the map, press **Ctrl**+**Shift**+**`**. 
+To stop the map from adding new call stacks automatically, select ![Show call stack on code map automatically](../debugger/media/debuggermap_automaticupdateicon.gif "Show call stack on code map automatically") on the code map toolbar. The map continues to highlight existing call stacks. To manually add the current call stack to the map, press **Ctrl**+**Shift**+**`**.
 
 ##  <a name="AddRelatedCode"></a> Add related code to the map
 
-Now that you've got a map, in C# or Visual Basic, you can add items like fields, properties, and other methods, to track what's happening in the code. 
+Now that you've got a map, in C# or Visual Basic, you can add items like fields, properties, and other methods, to track what's happening in the code.
 
 To go to the definition of a method in the code, double-click the method in the map, or select it and press **F12**, or right-click it and select **Go To Definition**.
 
@@ -146,7 +146,7 @@ Continue building the map to see more code.
 
 You can export a map, send it to others with Microsoft Outlook, save it to your solution, and check it into version control.
 
-To share or save the map, use **Share** in the code map toolbar. 
+To share or save the map, use **Share** in the code map toolbar.
 
 ![Share call stack code map with others](../debugger/media/debuggermap_sharewithothers.png "Share call stack code map with others")
 

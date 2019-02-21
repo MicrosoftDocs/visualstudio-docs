@@ -1,7 +1,7 @@
 ---
 title: "ASSEMBLYLOCRESOLUTION | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "ASSEMBLYLOCRESOLUTION"
 helpviewer_keywords:
@@ -38,16 +38,16 @@ public enum enum_ASSEMBLYLOCRESOLUTION {
 ```
 
 ## Members
-ALR_NAME  
+ALR_NAME
 Assembly is located in the current namespace.
 
-ALR_USERDIR  
+ALR_USERDIR
 Assembly is located in a user directory.
 
-ALR_SHAREDDIR  
+ALR_SHAREDDIR
 Assembly is located in shared directory.
 
-ALR_REMOTEDIR  
+ALR_REMOTEDIR
 Assembly is located in a remote directory.
 
 ## Remarks
@@ -63,6 +63,6 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
-[Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)  
-[ResolveAssemblyRef](../../../extensibility/debugger/reference/ipropertyproxyeeside-resolveassemblyref.md)  
-[GetManagedViewerCreationData](../../../extensibility/debugger/reference/ipropertyproxyeeside-getmanagedviewercreationdata.md)
+- [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
+- [ResolveAssemblyRef](../../../extensibility/debugger/reference/ipropertyproxyeeside-resolveassemblyref.md)
+- [GetManagedViewerCreationData](../../../extensibility/debugger/reference/ipropertyproxyeeside-getmanagedviewercreationdata.md)

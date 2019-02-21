@@ -19,8 +19,8 @@ Loggers provide a way for you to customize the output of your build and display 
 There are two approaches you can use when implementing a logger:
 
 - Implement the <xref:Microsoft.Build.Framework.ILogger> interface directly.
-- Derive your class from the helper class, <xref:Microsoft.Build.Utilities.Logger>, which is defined in the *Microsoft.Build.Utilities.dll* assembly. <xref:Microsoft.Build.Utilities.Logger> implements <xref:Microsoft.Build.Framework.ILogger> and provides default implementations of some <xref:Microsoft.Build.Framework.ILogger> members.  
-  
+- Derive your class from the helper class, <xref:Microsoft.Build.Utilities.Logger>, which is defined in the *Microsoft.Build.Utilities.dll* assembly. <xref:Microsoft.Build.Utilities.Logger> implements <xref:Microsoft.Build.Framework.ILogger> and provides default implementations of some <xref:Microsoft.Build.Framework.ILogger> members.
+
   This topic will explain how to write a simple logger that derives from <xref:Microsoft.Build.Utilities.Logger>, and displays messages on the console in response to certain build events.
 
 ## Register for events
@@ -70,5 +70,5 @@ The following example shows how to implement a logger that writes the log to a f
 [!code-csharp[msbuild_BasicLogger#1](../msbuild/codesnippet/CSharp/build-loggers_5.cs)]
 
 ## See also
-[Obtain build logs](../msbuild/obtaining-build-logs-with-msbuild.md)  
-[MSBuild concepts](../msbuild/msbuild-concepts.md)
+- [Obtain build logs](../msbuild/obtaining-build-logs-with-msbuild.md)
+- [MSBuild concepts](../msbuild/msbuild-concepts.md)

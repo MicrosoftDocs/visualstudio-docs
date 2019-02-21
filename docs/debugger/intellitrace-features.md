@@ -2,7 +2,7 @@
 title: "IntelliTrace Features | Microsoft Docs"
 ms.date: "09/19/2018"
 ms.topic: "conceptual"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "IntelliTrace, debugging with events"
   - "IntelliTrace, recording execution history"
   - "debugging [Visual Studio ALM], recording execution history"
@@ -18,7 +18,7 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # IntelliTrace Features (C#, Visual Basic, C++)
@@ -50,7 +50,7 @@ Snapshots are available in Visual Studio Enterprise 2017 version 15.5 and higher
 
 This isn't enabled by default, but IntelliTrace can record method calls along with events. To enable collection of method calls go to **Tools > Options > IntelliTrace > General**, and select **IntelliTrace events and call information (managed only)**.
 
-Call information is not currently available for .NET Core and ASP.NET Core apps. 
+Call information is not currently available for .NET Core and ASP.NET Core apps.
 
 This lets you see the call stack history and step backward and forward through calls in your code. IntelliTrace records data such as method names, method entry and exit points, and certain parameter values and return values.
 

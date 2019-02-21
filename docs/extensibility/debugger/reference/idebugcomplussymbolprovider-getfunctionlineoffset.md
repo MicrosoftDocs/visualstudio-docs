@@ -1,7 +1,7 @@
 ---
 title: "IDebugComPlusSymbolProvider::GetFunctionLineOffset | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 helpviewer_keywords:
   - "IDebugComPlusSymbolProvider::GetFunctionLineOffset"
   - "GetFunctionLineOffset"
@@ -34,14 +34,17 @@ int GetFunctionLineOffset(
 ```
 
 #### Parameters
-`pAddress`  
-[in] Address that represents function.
+`pAddress`
 
-`dwLine`  
-[in] Line offset from beginning of function.
+ [in] Address that represents function.
 
-`ppNewAddress`  
-[out] New address that represents line offset from beginning of function.
+`dwLine`
+
+ [in] Line offset from beginning of function.
+
+`ppNewAddress`
+
+ [out] New address that represents line offset from beginning of function.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -95,4 +98,4 @@ Error:
 ```
 
 ## See Also
-[IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)
+- [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

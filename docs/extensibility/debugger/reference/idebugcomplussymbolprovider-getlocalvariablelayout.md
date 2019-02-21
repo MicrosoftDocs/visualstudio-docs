@@ -1,7 +1,7 @@
 ---
 title: "IDebugComPlusSymbolProvider::GetLocalVariablelayout | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 helpviewer_keywords:
   - "GetLocalVariablelayout"
   - "IDebugComPlusSymbolProvider::GetLocalVariablelayout"
@@ -38,20 +38,25 @@ int GetLocalVariablelayout(
 ```
 
 #### Parameters
-`ulAppDomainID`  
-[in] Identifier of the application domain.
+`ulAppDomainID`
 
-`guidModule`  
-[in] Unique identifier of the module.
+ [in] Identifier of the application domain.
 
-`cMethods`  
-[in] Number of method tokens in the `rgMethodTokens` array.
+`guidModule`
 
-`rgMethodTokens`  
-[in] Array of method tokens.
+ [in] Unique identifier of the module.
 
-`pStreamLayout`  
-[out] A text stream that contains the variable layout.
+`cMethods`
+
+ [in] Number of method tokens in the `rgMethodTokens` array.
+
+`rgMethodTokens`
+
+ [in] Array of method tokens.
+
+`pStreamLayout`
+
+ [out] A text stream that contains the variable layout.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -105,4 +110,4 @@ HRESULT CDebugSymbolProvider::GetLocalVariablelayout(
 ```
 
 ## See Also
-[IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)
+- [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)
