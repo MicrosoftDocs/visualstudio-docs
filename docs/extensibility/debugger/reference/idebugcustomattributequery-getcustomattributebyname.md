@@ -39,7 +39,8 @@ int GetCustomAttributeByName(
  [in] Name of the custom attribute.
 
 `ppBlob`
-- [in,out] Array of bytes that contain the custom attribute data.
+
+[in,out] Array of bytes that contain the custom attribute data.
 
 `pdwLen`
 

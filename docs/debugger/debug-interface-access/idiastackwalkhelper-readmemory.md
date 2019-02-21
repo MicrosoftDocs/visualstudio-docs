@@ -46,7 +46,8 @@ HRESULT readMemory( 
 [out] Returns the number of bytes actually read. If `pbData` is `NULL`, then this is the total number of bytes of data available.
 
  `pbData`
-- [in, out] A buffer that is filled in with the memory read.
+
+[in, out] A buffer that is filled in with the memory read.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

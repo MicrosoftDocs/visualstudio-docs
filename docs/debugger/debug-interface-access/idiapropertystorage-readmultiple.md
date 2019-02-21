@@ -36,7 +36,8 @@ HRESULT ReadMultiple( 
 [in] An array of properties to be read. Properties can be specified either by a property ID or by an optional string name. It is not necessary to specify properties in any particular order in the array. The array can contain duplicate properties, resulting in duplicate property values on return for simple properties. Non-simple properties should return access denied on an attempt to open them a second time. The array can contain a mixture of property IDs and string IDs. This array must have at least `cpspec` number of property values.
 
  `rgvar`
-- [in, out] An array of `PROPVARIANT` structures (in the Microsoft.VisualStudio.OLE.Interop namespace) to be filled in with values for each property. The array must be at least `cpspec` elements in size. The caller does not need to initialize the values in the array.
+
+[in, out] An array of `PROPVARIANT` structures (in the Microsoft.VisualStudio.OLE.Interop namespace) to be filled in with values for each property. The array must be at least `cpspec` elements in size. The caller does not need to initialize the values in the array.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if one or more of the properties was not found. Otherwise returns an error code.

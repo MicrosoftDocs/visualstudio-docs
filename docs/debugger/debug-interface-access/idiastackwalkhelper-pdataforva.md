@@ -41,7 +41,8 @@ HRESULT pdataForVA( 
 [out] Returns the actual size of data in bytes that was obtained.
 
  `pbData`
-- [in, out] A buffer that is filled in with the requested data. Cannot be `NULL`.
+
+[in, out] A buffer that is filled in with the requested data. Cannot be `NULL`.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if there is no PDATA for the specified address. Otherwise, returns an error code.

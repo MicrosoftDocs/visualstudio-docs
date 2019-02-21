@@ -46,7 +46,8 @@ HRESULT Next ( 
 [out] A buffer that is to be filled with the debug stream record data.
 
  pceltFetched
-- [in, out] Returns the number of records in `data`.
+
+[in, out] Returns the number of records in `data`.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if there are no more records. Otherwise, returns an error code.
