@@ -70,7 +70,7 @@ You can move around in the code editor in several different ways, including navi
 
 ## Find references in your code base
 
-To find where particular code elements are referenced throughout your codebase, you can use the **Find All References** command, or press **Shift**+**F12**. Also, when you click on a type or member, the **reference highlighting** feature automatically highlights all references to that type or member. For more information, see [Find references in your code](finding-references.md).
+To find where particular code elements are referenced throughout your codebase, you can use the **Find All References** command or press **Shift**+**F12**. Also, when you click on a type or member, the **reference highlighting** feature automatically highlights all references to that type or member. For more information, see [Find references in your code](finding-references.md).
 
 ## Customize the editor
 
