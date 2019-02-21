@@ -67,14 +67,18 @@ See [Automate Visual Studio installation with a response file](automated-install
 ## Copy the layout to a network share
 
 Host the layout on a network share so it can be run from other machines.
-* Example:<br>
-```xcopy /e c:\vs2017offline \\server\products\VS2017```
+
+Example:
+
+```cmd
+xcopy /e c:\vs2017offline \\server\products\VS2017
+```
 
 ## Customize the network layout
 
 There are several options you can use to customize your network layout. You can create a partial layout that only contains a specific set of [language locales](use-command-line-parameters-to-install-visual-studio.md#list-of-language-locales), [workloads, components, and their recommended or optional dependencies](workload-and-component-ids.md). This might be useful if you know that you are going to deploy only a subset of workloads to client workstations. Typical command-line parameters for customizing the layout include:
 
-* `--add` to specify [workload or component IDs](workload-and-component-ids.md).  If `--add` is used, only those workloads and components specified with `--add` are downloaded.  If `--add` is not used, all workload and components are downloaded.
+* `--add` to specify [workload or component IDs](workload-and-component-ids.md). <br>If `--add` is used, only those workloads and components specified with `--add` are downloaded.  If `--add` is not used, all workload and components are downloaded.
 * `--includeRecommended` to include all the recommended  components for the specified workload IDs
 * `--includeOptional` to include all the recommended and optional components for the specified workload IDs.
 * `--lang` to specify [language locales](use-command-line-parameters-to-install-visual-studio.md#list-of-language-locales).
@@ -151,6 +155,7 @@ Administrators can deploy Visual Studio onto client workstations as part of an i
     ```cmd
     \\server\products\VS2017\vs_enterprise.exe
     ```
+
 * Administrators can install in an unattended mode by running the following command:
     ```cmd
     \server\products\VS2017\vs_enterprise.exe --quiet --wait --norestart
@@ -194,7 +199,7 @@ If you experience a problem with your offline installation, we want to know abou
 
 We also offer a [**live chat**](https://visualstudio.microsoft.com/vs/support/#talktous) (English only) support option for installation-related issues.
 
-We have other support options available, too. For a list, see our [Talk to us](../ide/how-to-report-a-problem-with-visual-studio-2017.md) page.
+We have other support options available, too. For a list, see our [Talk to us](../ide/talk-to-us.md) page.
 
 ## See also
 
