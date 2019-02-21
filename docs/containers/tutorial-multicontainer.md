@@ -32,17 +32,17 @@ In this tutorial, you'll learn how to manage more than one container and communi
 1. In Visual Studio, create an **ASP.NET Core Web Application** project, named *WebFrontEnd*. Select **Web Application** to create a web application with Razor pages. Be sure that **Enable Docker Support** is selected, and that the container OS matches the OS selected in Docker Desktop.
   
 ::: moniker range="vs-2017"
-   ![Screenshot of creating the web front end project](./media/tutorial-multicontainer/docker-tutorial-enable-docker-support.png)
+   ![Screenshot of creating the webfrontend project](./media/tutorial-multicontainer/docker-tutorial-enable-docker-support.png)
 ::: moniker-end
 
 ::: moniker range="vs-2019"
-    ![Screenshot of creating the web front end project](./media/tutorial-multicontainer/vs-2019/new-aspnet-core-project1.png)
-    ![Screenshot of creating the web front end project](./media/tutorial-multicontainer/vs-2019/new-aspnet-core-project.png)
+    ![Screenshot of creating the webfrontend project](./media/tutorial-multicontainer/vs-2019/new-aspnet-core-project1.png)
+    ![Screenshot of creating the webfrontend project](./media/tutorial-multicontainer/vs-2019/new-aspnet-core-project.png)
 ::: moniker-end
 
 ## Create a Web API project
 
-1. Add a project to the same solution and call it MyWebAPI. Select **API** as the project type, and clear the checkbox for **Configure for HTTPS**. There is generally no need to use SSL for communication from the front end to a web service, as long as the communication to external clients is secured.
+1. Add a project to the same solution and call it *MyWebAPI*. Select **API** as the project type, and clear the checkbox for **Configure for HTTPS**. In this design, we're only using SSL for communication with the client, not for communication from between containers in the same web application. Therefore, only *webfrontend* needs HTTPS.
 
 ::: moniker range="vs-2017"
    ![Screenshot of creating the Web API project](./media/tutorial-multicontainer/docker-tutorial-mywebapi.png)
@@ -53,7 +53,7 @@ In this tutorial, you'll learn how to manage more than one container and communi
 
 ## Add code to call the web api
 
-1. In the WebFrontEnd project, open the *Index.cshtml.cs* file, and replace the `OnGet` method with the following code.
+1. In the *WebFrontEnd* project, open the *Index.cshtml.cs* file, and replace the `OnGet` method with the following code.
 
    ```csharp
     public async Task OnGet()
@@ -87,7 +87,7 @@ In this tutorial, you'll learn how to manage more than one container and communi
       </div>
       ```
 
-1. Now in the Web API project, add code to the Values controller to customize the message returned by the API for the call you added from webfrontend.
+1. Now in the Web API project, add code to the Values controller to customize the message returned by the API for the call you added from *webfrontend*.
     
       ```csharp
         // GET api/values/5
@@ -209,7 +209,7 @@ In this tutorial, you'll learn how to manage more than one container and communi
           dockerfile: MyWebAPI/Dockerfile
     ```
 
-1. Run the site locally now (F5 or CTRL+F5) to verify that it works as expected. If everything is configured correctly, you see the message "Hello from webfrontend and webapi (with value 1)."
+1. Run the site locally now (**F5** or **CTRL+F5**) to verify that it works as expected. If everything is configured correctly, you see the message "Hello from webfrontend and webapi (with value 1)."
 
 ## Next steps
 
