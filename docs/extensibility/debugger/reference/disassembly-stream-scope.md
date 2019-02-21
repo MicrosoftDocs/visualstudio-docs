@@ -38,16 +38,16 @@ public enum enum_DISASSEMBLY_STREAM_SCOPE {
 ```
 
 ## Members
-DSS_HUGE  
+DSS_HUGE
 Specifies that disassembling the code context would generate more output than a client would typically want to retrieve in a single call.
 
-DSS_FUNCTION  
+DSS_FUNCTION
 Specifies that the function contained by the code context should be disassembled. Specifies that the disassembly stream represents a function, when returned by the [GetScope](../../../extensibility/debugger/reference/idebugdisassemblystream2-getscope.md) method.
 
-DSS_MODULE  
+DSS_MODULE
 When returned by the `IDebugDisassemblyStream2::GetScope` method, specifies that the disassembly stream represents a module.
 
-DSS_ALL  
+DSS_ALL
 Specifies disassembly for the entire address space.
 
 ## Remarks
@@ -63,6 +63,6 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
-[Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)  
-[GetDisassemblyStream](../../../extensibility/debugger/reference/idebugprogram2-getdisassemblystream.md)  
+[Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
+[GetDisassemblyStream](../../../extensibility/debugger/reference/idebugprogram2-getdisassemblystream.md)
 [GetScope](../../../extensibility/debugger/reference/idebugdisassemblystream2-getscope.md)

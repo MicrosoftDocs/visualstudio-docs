@@ -84,5 +84,5 @@ void CProgram::Start(IDebugEngine2 * pEngine)
 ```
 
 ## See Also
-[Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)  
+[Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)
 [IDebugProgramProvider2](../../../extensibility/debugger/reference/idebugprogramprovider2.md)

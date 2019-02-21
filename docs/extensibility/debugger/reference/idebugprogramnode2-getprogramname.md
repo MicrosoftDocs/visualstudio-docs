@@ -31,7 +31,7 @@ int GetProgramName (
 ```
 
 #### Parameters
-`pbstrProgramName`  
+`pbstrProgramName`
 [out] Returns the name of the program.
 
 ## Return Value

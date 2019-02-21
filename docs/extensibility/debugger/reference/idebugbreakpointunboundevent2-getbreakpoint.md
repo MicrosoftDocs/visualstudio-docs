@@ -31,7 +31,7 @@ int GetBreakpoint(
 ```
 
 #### Parameters
-`ppBP`  
+`ppBP`
 [out] Returns an [IDebugBoundBreakpoint2](../../../extensibility/debugger/reference/idebugboundbreakpoint2.md) object that represents the breakpoint that became unbound.
 
 ## Return Value
@@ -68,5 +68,5 @@ STDMETHODIMP CBreakpointUnboundDebugEventBase::GetBreakpoint(
 ```
 
 ## See Also
-[IDebugBreakpointUnboundEvent2](../../../extensibility/debugger/reference/idebugbreakpointunboundevent2.md)  
+[IDebugBreakpointUnboundEvent2](../../../extensibility/debugger/reference/idebugbreakpointunboundevent2.md)
 [IDebugBoundBreakpoint2](../../../extensibility/debugger/reference/idebugboundbreakpoint2.md)

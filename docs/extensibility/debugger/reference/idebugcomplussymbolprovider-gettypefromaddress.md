@@ -32,10 +32,10 @@ int GetTypeFromAddress(
 ```
 
 #### Parameters
-`pAddress`  
+`pAddress`
 [in] The debug address that is represented by an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface.
 
-`ppField`  
+`ppField`
 [out] Returns the array type as it is represented by an [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md) interface.
 
 ## Return Value

@@ -34,13 +34,13 @@ int UpdateSymbols (
 ```
 
 #### Parameters
-`ulAppDomainID`  
+`ulAppDomainID`
 [in] Identifier of the application domain.
 
-`guidModule`  
+`guidModule`
 [in] Unique identifier of the module.
 
-`pUpdateStream`  
+`pUpdateStream`
 [in] Data stream that contains the updated debug symbols.
 
 ## Example

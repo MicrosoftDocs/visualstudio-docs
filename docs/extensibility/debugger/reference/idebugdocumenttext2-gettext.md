@@ -37,16 +37,16 @@ int GetText(
 ```
 
 #### Parameters
-`pos`  
+`pos`
 [in] A [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md) structure that indicates the location of the text to be retrieved.
 
-`cMaxChars`  
+`cMaxChars`
 [in] The maximum number of characters of the text to be retrieved.
 
-`pText`  
+`pText`
 [in, out] A pointer to a buffer that is to be filled in with the desired text. This buffer must be able to contain at least `cMaxChars` number of wide characters.
 
-`pcNumChars`  
+`pcNumChars`
 [out] Returns the number of characters actually retrieved.
 
 ## Return Value
@@ -92,5 +92,5 @@ namespace Mynamespace
 ```
 
 ## See Also
-[IDebugDocumentText2](../../../extensibility/debugger/reference/idebugdocumenttext2.md)  
+[IDebugDocumentText2](../../../extensibility/debugger/reference/idebugdocumenttext2.md)
 [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md)

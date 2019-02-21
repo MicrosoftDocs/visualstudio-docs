@@ -31,7 +31,7 @@ int EnumCodeContexts(
 ```
 
 #### Parameters
-`ppEnumCodeCxts`  
+`ppEnumCodeCxts`
 [out] Returns an [IEnumDebugCodeContexts2](../../../extensibility/debugger/reference/ienumdebugcodecontexts2.md) object that contains a list of code contexts.
 
 ## Return Value
@@ -100,5 +100,5 @@ HRESULT CDebugContext::EnumCodeContexts(IEnumDebugCodeContexts2 **ppEnumCodeCxts
 ```
 
 ## See Also
-[IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md)  
+[IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md)
 [IEnumDebugCodeContexts2](../../../extensibility/debugger/reference/ienumdebugcodecontexts2.md)

@@ -30,7 +30,7 @@ public int GetModuleName (
 ```
 
 #### Parameters
-`pbstrModuleName`  
+`pbstrModuleName`
 [out] Name of the module.
 
 ## Return Value

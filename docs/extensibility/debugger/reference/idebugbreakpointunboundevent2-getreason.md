@@ -31,7 +31,7 @@ int GetReason(
 ```
 
 #### Parameters
-`pdwUnboundReason`  
+`pdwUnboundReason`
 [out] Returns a value from the [BP_UNBOUND_REASON](../../../extensibility/debugger/reference/bp-unbound-reason.md) enumeration specifying the reason the breakpoint was unbound.
 
 ## Return Value

@@ -33,10 +33,10 @@ struct BSTR_ARRAY {
 ```
 
 ## Terms
-dwCount  
+dwCount
 Number of strings in `Members` array.
 
-Members  
+Members
 Array of strings.
 
 ## Remarks
@@ -52,5 +52,5 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
-[Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)  
+[Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
 [EnumPersistedPorts](../../../extensibility/debugger/reference/idebugportsupplier3-enumpersistedports.md)

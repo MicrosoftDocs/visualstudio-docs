@@ -2,12 +2,12 @@
 title: "IDebugStopCompleteEvent2 | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "IDebugStopCompleteEvent2 interface"
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "vssdk"
 ---
 # IDebugStopCompleteEvent2

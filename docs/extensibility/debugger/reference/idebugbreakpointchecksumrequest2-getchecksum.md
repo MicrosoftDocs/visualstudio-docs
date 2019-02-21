@@ -31,10 +31,10 @@ public int GetChecksum(
 ```
 
 #### Parameters
-`guidAlgorithm`  
+`guidAlgorithm`
 [in] Unique identifier of the checksum algorithm.
 
-`pChecksumData`  
+`pChecksumData`
 [out] Document checksum for the breakpoint request.
 
 ## Return Value

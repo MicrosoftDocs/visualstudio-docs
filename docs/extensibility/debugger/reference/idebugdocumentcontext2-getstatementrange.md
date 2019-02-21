@@ -33,10 +33,10 @@ int GetStatementRange(
 ```
 
 #### Parameters
-`pBegPosition`  
+`pBegPosition`
 [in, out] A [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md) structure that is filled in with the starting position. Set this argument to a null value if this information is not needed.
 
-`pEndPosition`  
+`pEndPosition`
 [in, out] A [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md) structure that is filled in with the ending position. Set this argument to a null value if this information is not needed.
 
 ## Return Value
@@ -80,6 +80,6 @@ HRESULT CDebugContext::GetStatementRange(TEXT_POSITION* pBegPosition,
 ```
 
 ## See Also
-[IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md)  
-[GetSourceRange](../../../extensibility/debugger/reference/idebugdocumentcontext2-getsourcerange.md)  
+[IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md)
+[GetSourceRange](../../../extensibility/debugger/reference/idebugdocumentcontext2-getsourcerange.md)
 [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md)

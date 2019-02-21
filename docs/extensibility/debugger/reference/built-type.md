@@ -35,13 +35,13 @@ public struct BUILT_TYPE {
 ```
 
 #### Parameters
-ulAppDomainID  
+ulAppDomainID
 ID of the application from which the symbol came. This is used to uniquely identify an instance of the application.
 
-guidModule  
+guidModule
 The GUID of the module that contains this field.
 
-pUnderlyingField  
+pUnderlyingField
 An [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object identifying the underlying field associated with this built field.
 
 ## Remarks
@@ -55,7 +55,7 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
-[Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)  
-[TYPE_INFO](../../../extensibility/debugger/reference/type-info.md)  
-[dwTYPE_KIND](../../../extensibility/debugger/reference/dwtype-kind.md)  
+[Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
+[TYPE_INFO](../../../extensibility/debugger/reference/type-info.md)
+[dwTYPE_KIND](../../../extensibility/debugger/reference/dwtype-kind.md)
 [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)

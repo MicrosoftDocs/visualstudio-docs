@@ -32,10 +32,10 @@ int AreSymbolsLoaded (
 ```
 
 #### Parameters
-`ulAppDomainID`  
+`ulAppDomainID`
 [in] Identifier for the application domain.
 
-`guidModule`  
+`guidModule`
 [in] Unique identifier for the module.
 
 ## Return Value

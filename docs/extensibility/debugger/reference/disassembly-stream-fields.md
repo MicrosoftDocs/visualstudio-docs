@@ -56,43 +56,43 @@ public enum enum_DISASSEMBLY_STREAM_FIELDS {
 ```
 
 ## Members
-DSF_ADDRESS  
+DSF_ADDRESS
 Initialize/use the `bstrAddress` field.
 
-DSF_ADDRESSOFFSET  
+DSF_ADDRESSOFFSET
 Initialize/use the `bstrAddressOffset` field.
 
-DSF_CODEBYTES  
+DSF_CODEBYTES
 Initialize/use the `bstrCodeBytes` field.
 
-DSF_OPCODE  
+DSF_OPCODE
 Initialize/use the `bstrOpCode` field.
 
-DSF_OPERANDS  
+DSF_OPERANDS
 Initialize/use the `bstrOperands` field.
 
-DSF_SYMBOL  
+DSF_SYMBOL
 Initialize/use the `bstrSymbol` field.
 
-DSF_CODELOCATIONID  
+DSF_CODELOCATIONID
 Initialize/use the `uCodeLocationId` field.
 
-DSF_POSITION  
+DSF_POSITION
 Initialize/use the `posBeg` and `posEnd` fields.
 
-DSF_DOCUMENTURL  
+DSF_DOCUMENTURL
 Initialize/use the `bstrDocumentUrl` field.
 
-DSF_BYTEOFFSET  
+DSF_BYTEOFFSET
 Initialize/use the `dwByteOffset` field.
 
-DSF_FLAGS  
+DSF_FLAGS
 Initialize/use the `dwFlags` ([DISASSEMBLY_FLAGS](../../../extensibility/debugger/reference/disassembly-flags.md)) field.
 
-DSF_OPERANDS_SYMBOLS  
+DSF_OPERANDS_SYMBOLS
 Include symbol names in the `bstrOperands` field.
 
-DSF_ALL  
+DSF_ALL
 Specifies all fields for the disassembly stream.
 
 ## Remarks
@@ -110,7 +110,7 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
-[Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)  
-[DisassemblyData](../../../extensibility/debugger/reference/disassemblydata.md)  
-[Read](../../../extensibility/debugger/reference/idebugdisassemblystream2-read.md)  
+[Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
+[DisassemblyData](../../../extensibility/debugger/reference/disassemblydata.md)
+[Read](../../../extensibility/debugger/reference/idebugdisassemblystream2-read.md)
 [DISASSEMBLY_FLAGS](../../../extensibility/debugger/reference/disassembly-flags.md)

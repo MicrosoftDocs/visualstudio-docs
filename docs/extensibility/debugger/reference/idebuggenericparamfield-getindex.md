@@ -29,7 +29,7 @@ int GetIndex(
 ```
 
 #### Parameters
-`pIndex`  
+`pIndex`
 [out] Index value of this generic parameter.
 
 ## Return Value

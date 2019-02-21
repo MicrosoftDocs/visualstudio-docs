@@ -29,7 +29,7 @@ int IsHiddenCode(
 ```
 
 #### Parameters
-`pAddress`  
+`pAddress`
 [in] The debug address that is represented by an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface.
 
 ## Return Value

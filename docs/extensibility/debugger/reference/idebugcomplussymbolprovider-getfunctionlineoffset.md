@@ -34,13 +34,13 @@ int GetFunctionLineOffset(
 ```
 
 #### Parameters
-`pAddress`  
+`pAddress`
 [in] Address that represents function.
 
-`dwLine`  
+`dwLine`
 [in] Line offset from beginning of function.
 
-`ppNewAddress`  
+`ppNewAddress`
 [out] New address that represents line offset from beginning of function.
 
 ## Return Value

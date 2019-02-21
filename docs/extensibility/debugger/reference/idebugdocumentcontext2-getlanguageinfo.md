@@ -33,10 +33,10 @@ int GetLanguageInfo(
 ```
 
 #### Parameters
-`pbstrLanguage`  
+`pbstrLanguage`
 [out] Returns the name of the language that implements the code at this document context.
 
-`pguidLanguage`  
+`pguidLanguage`
 [out] Returns the GUID of the language that implements the code at this document context. For example, `guidVBScriptLang` or `guidCPPLang`. This GUID is not limited to the languages supplied by [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)].
 
 ## Return Value

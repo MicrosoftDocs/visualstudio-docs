@@ -37,16 +37,16 @@ int GetCustomViewerList(
 ```
 
 #### Parameters
-`celtSkip`  
+`celtSkip`
 [in] The number of viewers to skip over.
 
-`celtRequested`  
+`celtRequested`
 [in] The number of viewers to retrieve (also specifies the size of the `rgViewers` array).
 
-`rgViewers`  
+`rgViewers`
 [in, out] Array of [DEBUG_CUSTOM_VIEWER](../../../extensibility/debugger/reference/debug-custom-viewer.md) structures to be filled in.
 
-`pceltFetched`  
+`pceltFetched`
 [out] The actual number of viewers returned.
 
 ## Return Value
@@ -80,7 +80,7 @@ STDMETHODIMP CProperty::GetCustomViewerList(ULONG celtSkip, ULONG celtRequested,
 ```
 
 ## See Also
-[IDebugProperty3](../../../extensibility/debugger/reference/idebugproperty3.md)  
-[DEBUG_CUSTOM_VIEWER](../../../extensibility/debugger/reference/debug-custom-viewer.md)  
-[GetCustomViewerList](../../../extensibility/debugger/reference/ieevisualizerservice-getcustomviewerlist.md)  
+[IDebugProperty3](../../../extensibility/debugger/reference/idebugproperty3.md)
+[DEBUG_CUSTOM_VIEWER](../../../extensibility/debugger/reference/debug-custom-viewer.md)
+[GetCustomViewerList](../../../extensibility/debugger/reference/ieevisualizerservice-getcustomviewerlist.md)
 [Type Visualizer and Custom Viewer](../../../extensibility/debugger/type-visualizer-and-custom-viewer.md)

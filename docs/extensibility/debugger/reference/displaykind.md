@@ -36,13 +36,13 @@ public enum enum_DisplayKind
 ```
 
 #### Parameters
-DisplayKind_Value  
+DisplayKind_Value
 Value of the field.
 
-DisplayKind_Name  
+DisplayKind_Name
 Name of the field.
 
-DisplayKind_Type  
+DisplayKind_Type
 Type of field.
 
 ## Requirements
@@ -53,5 +53,5 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
-[Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)  
+[Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 [GetValueDisplayStringCount](../../../extensibility/debugger/reference/ieevisualizerservice-getvaluedisplaystringcount.md)

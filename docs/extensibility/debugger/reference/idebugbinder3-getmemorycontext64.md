@@ -34,13 +34,13 @@ int GetMemoryContext64 (
 ```
 
 #### Parameters
-`pField`  
+`pField`
 [in] An [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) that describes the object to locate. If `NULL`, then use `dwConstant` instead.
 
-`uConstant`  
+`uConstant`
 [in] A 64-bit memory address, such as 0x50000000.
 
-`ppMemCxt`  
+`ppMemCxt`
 [out] Returns the [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md) interface that represents the address of the object, or the address in memory.
 
 ## Return Value

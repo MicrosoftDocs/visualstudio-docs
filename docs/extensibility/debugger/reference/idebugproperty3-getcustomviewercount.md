@@ -31,7 +31,7 @@ int GetCustomViewerCount(
 ```
 
 #### Parameters
-`pcelt`  
+`pcelt`
 [out] The number of custom viewers available for this property.
 
 ## Return Value

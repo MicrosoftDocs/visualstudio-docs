@@ -38,16 +38,16 @@ int GetAttributedClassesinModule (
 ```
 
 #### Parameters
-`ulAppDomainID`  
+`ulAppDomainID`
 [in] Identifier of the application domain.
 
-`guidModule`  
+`guidModule`
 [in] Unique identifier of the module.
 
-`pstrAttribute`  
+`pstrAttribute`
 [in] The attribute string.
 
-`ppEnum`  
+`ppEnum`
 [out] Returns an enumeration of the attributed classes.
 
 ## Return Value

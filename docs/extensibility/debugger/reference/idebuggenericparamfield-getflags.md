@@ -30,7 +30,7 @@ int GetFlags(
 ```
 
 #### Parameters
-`pdwFlags`  
+`pdwFlags`
 [out] Returns the flags for this generic parameter.
 
 ## Return Value

@@ -34,13 +34,13 @@ int GetTypesByName(
 ```
 
 #### Parameters
-`pszClassName`  
+`pszClassName`
 [in] Name of the type.
 
-`nameMatch`  
+`nameMatch`
 [in] Selects the type of match, for example, case-sensitive. A value from the [NAME_MATCH](../../../extensibility/debugger/reference/name-match.md) enumeration.
 
-`ppEnum`  
+`ppEnum`
 [out] An enumerator that contains the type or types with the given name.
 
 ## Return Value

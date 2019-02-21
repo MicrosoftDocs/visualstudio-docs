@@ -30,7 +30,7 @@ int PreloadModules (
 ```
 
 #### Parameters
-`pSym`  
+`pSym`
 [in] Symbol provider for which the modules will be preloaded.
 
 ## Return Value

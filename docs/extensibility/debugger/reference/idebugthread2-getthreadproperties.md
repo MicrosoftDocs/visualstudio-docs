@@ -33,10 +33,10 @@ int GetThreadProperties (
 ```
 
 #### Parameters
-`dwFields`  
+`dwFields`
 [in] A combination of flags from the [THREADPROPERTY_FIELDS](../../../extensibility/debugger/reference/threadproperty-fields.md) enumeration that determines which fields of `ptp` are to be filled in.
 
-`ptp`  
+`ptp`
 [in, out] A [THREADPROPERTIES](../../../extensibility/debugger/reference/threadproperties.md) structure that is filled in with the properties of the thread.
 
 ## Return Value
@@ -85,6 +85,6 @@ HRESULT CProgram::GetThreadProperties(THREADPROPERTY_FIELDS dwFields,
 ```
 
 ## See Also
-[IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)  
-[THREADPROPERTY_FIELDS](../../../extensibility/debugger/reference/threadproperty-fields.md)  
+[IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)
+[THREADPROPERTY_FIELDS](../../../extensibility/debugger/reference/threadproperty-fields.md)
 [THREADPROPERTIES](../../../extensibility/debugger/reference/threadproperties.md)

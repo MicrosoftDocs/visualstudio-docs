@@ -42,25 +42,25 @@ int LoadSymbolsWithCorModule(
 ```
 
 #### Parameters
-`ulAppDomainID`  
+`ulAppDomainID`
 [in] Identifier of the application domain.
 
-`guidModule`  
+`guidModule`
 [in] Unique identifier of the module.
 
-`baseAddress`  
+`baseAddress`
 [in] Base memory address.
 
-`pUnkMetadataImport`  
+`pUnkMetadataImport`
 [in] Object that contains the debug symbol metadata.
 
-`pUnkCorDebugModule`  
+`pUnkCorDebugModule`
 [in] Object that implements the [ICorDebugModule Interface](/dotnet/framework/unmanaged-api/debugging/icordebugmodule-interface).
 
-`bstrModuleName`  
+`bstrModuleName`
 [in] Name of the module.
 
-`bstrSymSearchPath`  
+`bstrSymSearchPath`
 [in] Path to search for the symbol file.
 
 ## Return Value

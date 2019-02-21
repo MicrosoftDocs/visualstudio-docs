@@ -31,7 +31,7 @@ int GetEngineID(
 ```
 
 #### Parameters
-`pguidEngine`  
+`pguidEngine`
 [out] Returns the GUID of the DE.
 
 ## Return Value

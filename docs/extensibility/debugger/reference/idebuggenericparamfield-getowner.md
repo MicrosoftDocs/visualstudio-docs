@@ -29,7 +29,7 @@ int GetOwner(
 ```
 
 #### Parameters
-`ppOwner`  
+`ppOwner`
 [out] Returns the [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object that owns this generic parameter.
 
 ## Return Value

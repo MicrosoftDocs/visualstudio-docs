@@ -2,43 +2,43 @@
 title: "IDebugObject2::IsUserData | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
-f1_keywords: 
+f1_keywords:
   - "IDebugObject2::IsUserData"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "IDebugObject2::IsUserData method"
 ms.assetid: 6ffa0d0e-f742-496d-acc7-db74c248bc45
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "vssdk"
 ---
 # IDebugObject2::IsUserData
-Determines whether the object represents user data.  
-  
-## Syntax  
-  
-```cpp  
-HRESULT IsUserData(  
-   BOOL* pfUser  
-);  
-```  
-  
-```csharp  
-int IsUserData(  
-   out int pfUser  
-);  
-```  
-  
-#### Parameters  
- `pfUser`  
- [out] Returns nonzero (`TRUE`) if the object represents user data; zero (`FALSE`) if it does not.  
-  
-## Return Value  
- If successful, returns S_OK; otherwise, returns an error code.  
-  
-## Remarks  
- User data is any object that is part of a module designated as JustMyCode (a user-configurable option that marks a module as user code and therefore visible in a stack trace).  
-  
-## See Also  
+Determines whether the object represents user data.
+
+## Syntax
+
+```cpp
+HRESULT IsUserData(
+   BOOL* pfUser
+);
+```
+
+```csharp
+int IsUserData(
+   out int pfUser
+);
+```
+
+#### Parameters
+ `pfUser`
+ [out] Returns nonzero (`TRUE`) if the object represents user data; zero (`FALSE`) if it does not.
+
+## Return Value
+ If successful, returns S_OK; otherwise, returns an error code.
+
+## Remarks
+ User data is any object that is part of a module designated as JustMyCode (a user-configurable option that marks a module as user code and therefore visible in a stack trace).
+
+## See Also
  [IDebugObject2](../../../extensibility/debugger/reference/idebugobject2.md)

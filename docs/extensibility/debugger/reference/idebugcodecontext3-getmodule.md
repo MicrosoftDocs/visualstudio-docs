@@ -29,7 +29,7 @@ public int GetModule(
 ```
 
 #### Parameters
-`ppModule`  
+`ppModule`
 [out] Reference to the debug module interface.
 
 ## Return Value

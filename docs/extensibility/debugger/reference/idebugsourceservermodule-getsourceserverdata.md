@@ -31,10 +31,10 @@ public int GetSourceServerData(
 ```
 
 #### Parameters
-`pDataByteCount`  
+`pDataByteCount`
 [out] Number of bytes in the data array.
 
-`ppData`  
+`ppData`
 [out] Reference to the data array.
 
 ## Return Value

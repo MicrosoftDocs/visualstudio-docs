@@ -38,19 +38,19 @@ int LoadSymbolsFromStream(
 ```
 
 #### Parameters
-`ulAppDomainID`  
+`ulAppDomainID`
 [in] Identifier of the application domain.
 
-`guidModule`  
+`guidModule`
 [in] Unique identifier of the module.
 
-`baseAddress`  
+`baseAddress`
 [in] Base memory address.
 
-`pUnkMetadataImport`  
+`pUnkMetadataImport`
 [in] Object that contains the symbol metadata.
 
-`pStream`  
+`pStream`
 [in] Data stream that contains the symbols.
 
 ## Return Value

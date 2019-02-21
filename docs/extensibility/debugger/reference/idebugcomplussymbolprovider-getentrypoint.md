@@ -34,13 +34,13 @@ int GetEntryPoint(
 ```
 
 #### Parameters
-`ulAppDomainID`  
+`ulAppDomainID`
 [in] Identifier for the application domain.
 
-`guidModule`  
+`guidModule`
 [in] Unique identifier for the module.
 
-`ppAddress`  
+`ppAddress`
 [out] Returns the entry point represented by an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface.
 
 ## Return Value

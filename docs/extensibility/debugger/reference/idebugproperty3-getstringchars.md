@@ -35,15 +35,15 @@ int GetStringChars(
 ```
 
 #### Parameters
-`buflen`  
+`buflen`
 [in] Maximum number of characters the user-supplied buffer can hold.
 
-`rgString`  
+`rgString`
 [out] Returns the string.
 
 [C++ only], `rgString` is a pointer to a buffer that receives the Unicode characters of the string. This buffer must be at least `buflen` characters (not bytes) in size.
 
-`pceltFetched`  
+`pceltFetched`
 [out] Where the number of characters actually stored in the buffer is returned. (Can be `NULL` in C++.)
 
 ## Return Value
@@ -79,6 +79,6 @@ CStringW RetrievePropertyString(IDebugProperty2 *pPropInfo)
 ```
 
 ## See Also
-[GetStringCharLength](../../../extensibility/debugger/reference/idebugproperty3-getstringcharlength.md)  
-[IDebugProperty3](../../../extensibility/debugger/reference/idebugproperty3.md)  
+[GetStringCharLength](../../../extensibility/debugger/reference/idebugproperty3-getstringcharlength.md)
+[IDebugProperty3](../../../extensibility/debugger/reference/idebugproperty3.md)
 [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md)

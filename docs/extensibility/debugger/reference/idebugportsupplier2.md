@@ -75,7 +75,7 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
-[Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)  
-[GetPortSupplier](../../../extensibility/debugger/reference/idebugport2-getportsupplier.md)  
-[GetPortSupplier](../../../extensibility/debugger/reference/idebugcoreserver2-getportsupplier.md)  
+[Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)
+[GetPortSupplier](../../../extensibility/debugger/reference/idebugport2-getportsupplier.md)
+[GetPortSupplier](../../../extensibility/debugger/reference/idebugcoreserver2-getportsupplier.md)
 [IEnumDebugPortSuppliers2](../../../extensibility/debugger/reference/ienumdebugportsuppliers2.md)

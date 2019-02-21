@@ -30,7 +30,7 @@ int IsAddressSequencePoint(
 ```
 
 #### Parameters
-`pAddress`  
+`pAddress`
 [in] Debug address that is represented by the [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface.
 
 ## Return Value

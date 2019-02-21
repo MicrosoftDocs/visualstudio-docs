@@ -29,7 +29,7 @@ int IsFunctionStale(
 ```
 
 #### Parameters
-`pAddress`  
+`pAddress`
 [in] The debug address that is represented by an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface. This address must be a METHOD_ADDRESS.
 
 ## Return Value

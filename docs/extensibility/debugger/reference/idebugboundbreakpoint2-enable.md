@@ -32,7 +32,7 @@ int Enable( 
 ```
 
 #### Parameters
-`fEnable`  
+`fEnable`
 [in] Set to non-zero (`TRUE`) to enable or to zero (`FALSE`) to disable the breakpoint.
 
 ## Return Value
@@ -89,5 +89,5 @@ HRESULT CBoundBreakpoint::Enable(BOOL fEnable)
 ```
 
 ## See Also
-[IDebugBoundBreakpoint2](../../../extensibility/debugger/reference/idebugboundbreakpoint2.md)  
+[IDebugBoundBreakpoint2](../../../extensibility/debugger/reference/idebugboundbreakpoint2.md)
 [BP_STATE](../../../extensibility/debugger/reference/bp-state.md)

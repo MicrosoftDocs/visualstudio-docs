@@ -31,7 +31,7 @@ int GetBreakpointType(
 ```
 
 #### Parameters
-`pBPType`  
+`pBPType`
 [out] Returns a value from the [BP_TYPE](../../../extensibility/debugger/reference/bp-type.md) enumeration that describes the type of breakpoint.
 
 ## Return Value
@@ -75,5 +75,5 @@ HRESULT CDebugErrorBreakpointResolution::GetBreakpointType(BP_TYPE* pBPType)
 ```
 
 ## See Also
-[IDebugErrorBreakpointResolution2](../../../extensibility/debugger/reference/idebugerrorbreakpointresolution2.md)  
+[IDebugErrorBreakpointResolution2](../../../extensibility/debugger/reference/idebugerrorbreakpointresolution2.md)
 [BP_TYPE](../../../extensibility/debugger/reference/bp-type.md)

@@ -42,25 +42,25 @@ int GetSymAttribute (
 ```
 
 #### Parameters
-`ulAppDomainID`  
+`ulAppDomainID`
 [in] Identifier of the application domain.
 
-`guidModule`  
+`guidModule`
 [in] Unique identifier of the module.
 
-`tokParent`  
+`tokParent`
 [in] Token for the parent attribute.
 
-`pstrName`  
+`pstrName`
 [in] Name of the module.
 
-`cBuffer`  
+`cBuffer`
 [in] Number of bytes required for the output `buffer`.
 
-`pcBuffer`  
+`pcBuffer`
 [out] Length of the output `buffer`.
 
-`buffer`  
+`buffer`
 [out] Array that contains the symbols.
 
 ## Return Value

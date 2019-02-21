@@ -36,16 +36,16 @@ public int GetChecksumAndAlgorithmId(
 ```
 
 #### Parameters
-`pRetVal`  
+`pRetVal`
 [out] Unique identifier for the checksum algorithm.
 
-`cMaxBytes`  
+`cMaxBytes`
 [in] Maximum number of bytes to be used for the checksum.
 
-`pChecksum`  
+`pChecksum`
 [out] Value of the checksum.
 
-`pcNumBytes`  
+`pcNumBytes`
 [out] Actual number of bytes used for the checksum.
 
 ## Return Value

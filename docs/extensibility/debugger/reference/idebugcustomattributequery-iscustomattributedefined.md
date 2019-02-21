@@ -30,7 +30,7 @@ int IsCustomAttributeDefined(
 ```
 
 #### Parameters
-`pszCustomAttributeName`  
+`pszCustomAttributeName`
 [in] Name of the custom attribute.
 
 ## Return Value

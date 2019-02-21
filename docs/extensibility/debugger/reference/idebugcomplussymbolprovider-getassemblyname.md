@@ -36,13 +36,13 @@ int GetAssemblyName(
 ```
 
 #### Parameters
-`ulAppDomainID`  
+`ulAppDomainID`
 [in] Identifier for the application domain.
 
-`guidModule`  
+`guidModule`
 [in] Unique identifier for the module.
 
-`pbstrName`  
+`pbstrName`
 [out] Returns the name of the assembly.
 
 ## Return Value

@@ -29,7 +29,7 @@ public int GetProcess(
 ```
 
 #### Parameters
-`ppProcess`  
+`ppProcess`
 [out] Reference to the debug process interface.
 
 ## Return Value

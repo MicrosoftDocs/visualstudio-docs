@@ -72,7 +72,7 @@ HRESULT CDebugBreakpointRequest::GetLocationType(BP_LOCATION_TYPE* pBPLocationTy
 ```
 
 ## See Also
-[IDebugBreakpointRequest2](../../../extensibility/debugger/reference/idebugbreakpointrequest2.md)  
-[BP_LOCATION_TYPE](../../../extensibility/debugger/reference/bp-location-type.md)  
-[BPREQI_FIELDS](../../../extensibility/debugger/reference/bpreqi-fields.md)  
+[IDebugBreakpointRequest2](../../../extensibility/debugger/reference/idebugbreakpointrequest2.md)
+[BP_LOCATION_TYPE](../../../extensibility/debugger/reference/bp-location-type.md)
+[BPREQI_FIELDS](../../../extensibility/debugger/reference/bpreqi-fields.md)
 [BP_REQUEST_INFO](../../../extensibility/debugger/reference/bp-request-info.md)

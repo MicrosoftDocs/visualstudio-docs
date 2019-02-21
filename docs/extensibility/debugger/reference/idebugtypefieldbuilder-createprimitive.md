@@ -2,44 +2,44 @@
 title: "IDebugTypeFieldBuilder::CreatePrimitive | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "CreatePrimitive"
   - "IDebugTypeFieldBuilder::CreatePrimitive"
 ms.assetid: 512c6ff0-97c5-409f-939f-4cc969bc4bb9
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "vssdk"
 ---
 # IDebugTypeFieldBuilder::CreatePrimitive
-Creates an object that represents a primitive type.  
-  
-## Syntax  
-  
-```cpp  
-HRESULT CreatePrimitive (  
-   DWORD          dwElementType,  
-   IDebugField ** pTypeField  
-);  
-```  
-  
-```csharp  
-int CreatePrimitive (  
-   uint            dwElementType,  
-   out IDebugField pTypeField  
-);  
-```  
-  
-#### Parameters  
- `dwElementType`  
- [in] Value from the [CorElementType Enumeration](/dotnet/framework/unmanaged-api/metadata/corelementtype-enumeration) that represents the primitive type.  
-  
- `pTypeField`  
- [out] Returns the IDebugField interface for the new type.  
-  
-## Return Value  
- If successful, returns `S_OK`; otherwise, returns an error code.  
-  
-## See Also  
+Creates an object that represents a primitive type.
+
+## Syntax
+
+```cpp
+HRESULT CreatePrimitive (
+   DWORD          dwElementType,
+   IDebugField ** pTypeField
+);
+```
+
+```csharp
+int CreatePrimitive (
+   uint            dwElementType,
+   out IDebugField pTypeField
+);
+```
+
+#### Parameters
+ `dwElementType`
+ [in] Value from the [CorElementType Enumeration](/dotnet/framework/unmanaged-api/metadata/corelementtype-enumeration) that represents the primitive type.
+
+ `pTypeField`
+ [out] Returns the IDebugField interface for the new type.
+
+## Return Value
+ If successful, returns `S_OK`; otherwise, returns an error code.
+
+## See Also
  [IDebugTypeFieldBuilder](../../../extensibility/debugger/reference/idebugtypefieldbuilder.md)

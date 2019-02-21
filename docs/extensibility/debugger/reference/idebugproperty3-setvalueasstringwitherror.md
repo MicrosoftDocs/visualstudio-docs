@@ -37,16 +37,16 @@ int SetValueAsStringWithError(
 ```
 
 #### Parameters
-`pszValue`  
+`pszValue`
 [in] Value to set.
 
-`dwRadix`  
+`dwRadix`
 [in] The radix of the value being set.
 
-`dwTimeout`  
+`dwTimeout`
 [in] The length of time to wait for the value to be set (`INFINITE` means wait forever).
 
-`errorString`  
+`errorString`
 [out] If there was an error setting the value, this holds the reason for the failure.
 
 ## Return Value

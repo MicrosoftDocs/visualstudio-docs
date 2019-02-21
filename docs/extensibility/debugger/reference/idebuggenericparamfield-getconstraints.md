@@ -34,13 +34,13 @@ int GetConstraints(
 ```
 
 #### Parameters
-`cConstraints`  
+`cConstraints`
 [in] Number of constraints.
 
-`ppConstraints`  
+`ppConstraints`
 [out] Returns an array that contains the constraints associated with this field.
 
-`pcConstraints`  
+`pcConstraints`
 [in, out] Number of constraints in the `ppConstraints` array.
 
 ## Return Value

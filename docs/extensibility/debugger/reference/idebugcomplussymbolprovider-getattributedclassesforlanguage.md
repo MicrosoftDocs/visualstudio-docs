@@ -36,13 +36,13 @@ int GetAttributedClassesForLanguage (
 ```
 
 #### Parameters
-`guidLanguage`  
+`guidLanguage`
 [in] Unique identifier for the language.
 
-`pstrAttribute`  
+`pstrAttribute`
 [in] The attribute string.
 
-`ppEnum`  
+`ppEnum`
 [out] Returns an enumeration of the attribute classes.
 
 ## Return Value

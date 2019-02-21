@@ -33,10 +33,10 @@ int GetName(
 ```
 
 #### Parameters
-`gnType`  
+`gnType`
 [in] A value from the [GETNAME_TYPE](../../../extensibility/debugger/reference/getname-type.md) enumeration that specifies the type of name to return.
 
-`pbstrFileName`  
+`pbstrFileName`
 [out] Returns the name of the file.
 
 ## Return Value
@@ -86,5 +86,5 @@ HRESULT CDebugContext::GetName(GETNAME_TYPE gnType, BSTR* pbstrFileName)
 ```
 
 ## See Also
-[IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md)  
+[IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md)
 [GETNAME_TYPE](../../../extensibility/debugger/reference/getname-type.md)

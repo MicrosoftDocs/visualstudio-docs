@@ -34,13 +34,13 @@ int ReplaceSymbols(
 ```
 
 #### Parameters
-`ulAppDomainID`  
+`ulAppDomainID`
 [in] Identifier of the application domain.
 
-`guidModule`  
+`guidModule`
 [in] Unique identifier of the module.
 
-`pStream`  
+`pStream`
 [in] Data stream that contains the new symbols.
 
 ## Return Value

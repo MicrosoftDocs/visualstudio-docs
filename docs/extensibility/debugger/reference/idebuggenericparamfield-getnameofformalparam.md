@@ -30,7 +30,7 @@ int GetNameOfFormalParam (
 ```
 
 #### Parameters
-`pbstrName`  
+`pbstrName`
 [out] Name of this generic parameter.
 
 ## Return Value

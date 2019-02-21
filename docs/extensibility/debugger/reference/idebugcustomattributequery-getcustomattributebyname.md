@@ -34,13 +34,13 @@ int GetCustomAttributeByName(
 ```
 
 #### Parameters
-`pszCustomAttributeName`  
+`pszCustomAttributeName`
 [in] Name of the custom attribute.
 
-`ppBlob`  
+`ppBlob`
 [in,out] Array of bytes that contain the custom attribute data.
 
-`pdwLen`  
+`pdwLen`
 [out] Length in bytes of the `ppBlob` parameter.
 
 ## Return Value

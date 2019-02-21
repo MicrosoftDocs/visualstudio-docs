@@ -2,15 +2,15 @@
 title: "IDebugProgramNode2::DetachDebugger_V7 | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
-f1_keywords: 
+f1_keywords:
   - "IDebugProgramNode2::DetachDebugger"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "IDebugProgramNode2::DetachDebugger"
   - "IDebugProgramNode2::DetachDebugger_V7"
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "vssdk"
 ---
 # IDebugProgramNode2::DetachDebugger_V7

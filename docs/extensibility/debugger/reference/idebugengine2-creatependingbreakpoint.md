@@ -33,10 +33,10 @@ int CreatePendingBreakpoint(
 ```
 
 #### Parameters
-`pBPRequest`  
+`pBPRequest`
 [in] An [IDebugBreakpointRequest2](../../../extensibility/debugger/reference/idebugbreakpointrequest2.md) object that describes the pending breakpoint to create.
 
-`ppPendingBP`  
+`ppPendingBP`
 [out] Returns an [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md) object that represents the pending breakpoint.
 
 ## Return Value
@@ -64,7 +64,7 @@ HRESULT CProgram::CreatePendingBreakpoint(IDebugBreakpointRequest2* pBPRequest, 
 ```
 
 ## See Also
-[IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)  
-[Bind](../../../extensibility/debugger/reference/idebugpendingbreakpoint2-bind.md)  
-[IDebugBreakpointRequest2](../../../extensibility/debugger/reference/idebugbreakpointrequest2.md)  
+[IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)
+[Bind](../../../extensibility/debugger/reference/idebugpendingbreakpoint2-bind.md)
+[IDebugBreakpointRequest2](../../../extensibility/debugger/reference/idebugbreakpointrequest2.md)
 [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md)

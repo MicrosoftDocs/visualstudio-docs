@@ -30,7 +30,7 @@ int ConstraintCount(
 ```
 
 #### Parameters
-`pcConst`  
+`pcConst`
 [in, out] Number of constraints that are associated with this field.
 
 ## Return Value

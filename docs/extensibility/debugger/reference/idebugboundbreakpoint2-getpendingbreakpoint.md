@@ -32,7 +32,7 @@ int GetPendingBreakpoint( 
 ```
 
 #### Parameters
-`ppPendingBreakpoint`  
+`ppPendingBreakpoint`
 [out] Returns the [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md) object that represents the pending breakpoint that was used to create this bound breakpoint.
 
 ## Return Value
@@ -76,5 +76,5 @@ HRESULT CBoundBreakpoint::GetPendingBreakpoint(
 ```
 
 ## See Also
-[IDebugBoundBreakpoint2](../../../extensibility/debugger/reference/idebugboundbreakpoint2.md)  
+[IDebugBoundBreakpoint2](../../../extensibility/debugger/reference/idebugboundbreakpoint2.md)
 [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md)

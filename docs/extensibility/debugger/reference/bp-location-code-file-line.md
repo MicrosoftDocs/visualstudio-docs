@@ -26,10 +26,10 @@ typedef struct _BP_LOCATION_CODE_FILE_LINE {
 ```
 
 ## Members
-`bstrContext`  
+`bstrContext`
 The context of the breakpoint, typically a method or function name as seen on a call stack.
 
-`pDocPos`  
+`pDocPos`
 The [IDebugDocumentPosition2](../../../extensibility/debugger/reference/idebugdocumentposition2.md) object that represents the document position of the breakpoint.
 
 ## Remarks
@@ -43,6 +43,6 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
-[Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)  
-[BP_LOCATION](../../../extensibility/debugger/reference/bp-location.md)  
+[Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
+[BP_LOCATION](../../../extensibility/debugger/reference/bp-location.md)
 [IDebugDocumentPosition2](../../../extensibility/debugger/reference/idebugdocumentposition2.md)

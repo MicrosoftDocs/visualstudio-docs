@@ -32,7 +32,7 @@ int Virtualize(
 ```
 
 #### Parameters
-`fVirtualize`  
+`fVirtualize`
 [in] Set to nonzero (`TRUE`) to virtualize the pending breakpoint, or to zero (`FALSE`) to turn off virtualization.
 
 ## Return Value

@@ -33,10 +33,10 @@ int EvaluateAsync(
 ```
 
 #### Parameters
-`dwFlags`  
+`dwFlags`
 [in] A combination of flags from the [EVALFLAGS](../../../extensibility/debugger/reference/evalflags.md) enumeration that control expression evaluation.
 
-`pExprCallback`  
+`pExprCallback`
 [in] This parameter is always a null value.
 
 ## Return Value
@@ -67,7 +67,7 @@ HRESULT CExpression::EvaluateAsync(EVALFLAGS dwFlags,
 ```
 
 ## See Also
-[IDebugExpression2](../../../extensibility/debugger/reference/idebugexpression2.md)  
-[IDebugExpressionEvaluationCompleteEvent2](../../../extensibility/debugger/reference/idebugexpressionevaluationcompleteevent2.md)  
-[EVALFLAGS](../../../extensibility/debugger/reference/evalflags.md)  
+[IDebugExpression2](../../../extensibility/debugger/reference/idebugexpression2.md)
+[IDebugExpressionEvaluationCompleteEvent2](../../../extensibility/debugger/reference/idebugexpressionevaluationcompleteevent2.md)
+[EVALFLAGS](../../../extensibility/debugger/reference/evalflags.md)
 [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md)

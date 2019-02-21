@@ -30,7 +30,7 @@ int SetCallback (
 ```
 
 #### Parameters
-`pCallback`  
+`pCallback`
 [in] Interface to use for the settings callback.
 
 ## Return Value

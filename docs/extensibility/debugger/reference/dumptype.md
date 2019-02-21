@@ -34,10 +34,10 @@ public enum enum_DUMPTYPE {
 ```
 
 ## Members
-DUMP_MINIDUMP  
+DUMP_MINIDUMP
 Specifies a small, compact dump.
 
-DUMP_FULLDUMP  
+DUMP_FULLDUMP
 Specifies a large, complete dump.
 
 ## Remarks
@@ -51,5 +51,5 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
-[Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)  
+[Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 [WriteDump](../../../extensibility/debugger/reference/idebugprogram2-writedump.md)

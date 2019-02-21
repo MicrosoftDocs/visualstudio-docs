@@ -41,22 +41,22 @@ int ParseText(
 ```
 
 #### Parameters
-`pszCode`  
+`pszCode`
 [in] The expression to be parsed.
 
-`dwFlags`  
+`dwFlags`
 [in] A combination of flags from the [PARSEFLAGS](../../../extensibility/debugger/reference/parseflags.md) enumeration that controls parsing.
 
-`nRadix`  
+`nRadix`
 [in] The radix to be used in parsing any numerical information in `pszCode`.
 
-`ppExpr`  
+`ppExpr`
 [out] Returns the [IDebugExpression2](../../../extensibility/debugger/reference/idebugexpression2.md) object that represents the parsed expression, which is ready for binding and evaluation.
 
-`pbstrError`  
+`pbstrError`
 [out] Returns the error message if the expression contains an error.
 
-`pichError`  
+`pichError`
 [out] Returns the character index of the error in `pszCode` if the expression contains an error.
 
 ## Return Value
@@ -117,8 +117,8 @@ HRESULT CEnvBlock::ParseText(
 ```
 
 ## See Also
-[IDebugExpressionContext2](../../../extensibility/debugger/reference/idebugexpressioncontext2.md)  
-[PARSEFLAGS](../../../extensibility/debugger/reference/parseflags.md)  
-[IDebugExpression2](../../../extensibility/debugger/reference/idebugexpression2.md)  
-[EvaluateAsync](../../../extensibility/debugger/reference/idebugexpression2-evaluateasync.md)  
+[IDebugExpressionContext2](../../../extensibility/debugger/reference/idebugexpressioncontext2.md)
+[PARSEFLAGS](../../../extensibility/debugger/reference/parseflags.md)
+[IDebugExpression2](../../../extensibility/debugger/reference/idebugexpression2.md)
+[EvaluateAsync](../../../extensibility/debugger/reference/idebugexpression2-evaluateasync.md)
 [EvaluateSync](../../../extensibility/debugger/reference/idebugexpression2-evaluatesync.md)

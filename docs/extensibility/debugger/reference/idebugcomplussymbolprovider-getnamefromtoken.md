@@ -34,13 +34,13 @@ int GetNameFromToken (
 ```
 
 #### Parameters
-`pMetadataImport`  
+`pMetadataImport`
 [in] Object that contains the metadata information.
 
-`dwToken`  
+`dwToken`
 [in] Token to be named.
 
-`pbstrName`  
+`pbstrName`
 [out] Name that corresponds to the token.
 
 ## Return Value
