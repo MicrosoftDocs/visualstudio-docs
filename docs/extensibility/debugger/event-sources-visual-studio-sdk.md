@@ -67,4 +67,4 @@ HRESULT CEvent::SendAsynchronousEvent(IDebugEventCallback2 *pCallback, IDebugEng
 ```
 
 ## See also
-[Sending events](../../extensibility/debugger/sending-events.md)
+- [Sending events](../../extensibility/debugger/sending-events.md)
