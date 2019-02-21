@@ -25,7 +25,7 @@ HRESULT getEnumTables (
 ```
 
 #### Parameters
-`ppEnumTables`  
+`ppEnumTables`
 [out] Returns an [IDiaEnumTables](../../debugger/debug-interface-access/idiaenumtables.md) object. Use this interface to enumerate the tables in the symbol store.
 
 ## Return Value
@@ -61,5 +61,5 @@ IUnknown *GetTable(IDiaSession *pSession, REFIID iid)
 ```
 
 ## See Also
-[IDiaEnumTables](../../debugger/debug-interface-access/idiaenumtables.md)  
+[IDiaEnumTables](../../debugger/debug-interface-access/idiaenumtables.md)
 [IDiaSession](../../debugger/debug-interface-access/idiasession.md)

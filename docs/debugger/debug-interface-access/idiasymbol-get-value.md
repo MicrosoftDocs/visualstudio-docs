@@ -25,7 +25,7 @@ HRESULT get_value (
 ```
 
 #### Parameters
-`pRetVal`  
+`pRetVal`
 [in, out] A `VARIANT` object that is filled in with the value of a constant.
 
 ## Return Value

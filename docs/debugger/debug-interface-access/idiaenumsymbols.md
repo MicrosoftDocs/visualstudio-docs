@@ -87,7 +87,7 @@ Library: diaguids.lib
 DLL: msdia80.dll
 
 ## See Also
-[Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)  
-[IDiaSession::findChildren](../../debugger/debug-interface-access/idiasession-findchildren.md)  
-[IDiaSourceFile::get_compilands](../../debugger/debug-interface-access/idiasourcefile-get-compilands.md)  
+[Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)
+[IDiaSession::findChildren](../../debugger/debug-interface-access/idiasession-findchildren.md)
+[IDiaSourceFile::get_compilands](../../debugger/debug-interface-access/idiasourcefile-get-compilands.md)
 [IDiaSymbol::findChildren](../../debugger/debug-interface-access/idiasymbol-findchildren.md)

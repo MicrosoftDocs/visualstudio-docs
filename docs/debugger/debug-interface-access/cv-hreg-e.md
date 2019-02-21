@@ -403,37 +403,37 @@ enum CV_HREG_e {
 ```
 
 ## Elements
-CV_REG_*  
+CV_REG_*
 Registers used by Intel 80x86 and ix86 processors, and p-code.
 
-CV_R68_*  
+CV_R68_*
 Registers used by 68K processor.
 
-CV_M4_*  
+CV_M4_*
 Registers used by MIPS 4000 series processor.
 
-CV_ALPHA_*  
+CV_ALPHA_*
 Registers used by Digital Equipment Corporation Alpha AXP series processor.
 
-CV_PPC_*  
+CV_PPC_*
 Registers used by Motorola/IBM PowerPC processor.
 
-CV_SH3_* and CV_SH_\*  
+CV_SH3_* and CV_SH_\*
 Registers used by Hitachi SH3 and Hitachi SH series processor.
 
-CV_ARM_*  
+CV_ARM_*
 Registers used by Advanced RISC Machine (ARM) processors.
 
-CV_IA64_*  
+CV_IA64_*
 Registers used by Intel IA64 series processors.
 
-CV_TRI_*  
+CV_TRI_*
 Registers used by Infineon Technologies TriCore processor.
 
-CV_AM33_*  
+CV_AM33_*
 Registers used by Matsushita/Panasonic AM33 and related processors.
 
-CV_M32R_*  
+CV_M32R_*
 Registers used by Mitsubishi M32R processor.
 
 ## Remarks
@@ -455,9 +455,9 @@ The values in this enumeration are passed to the following methods:
 Header: cvconst.h
 
 ## See Also
-[Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)  
-[IDiaStackWalkFrame::get_registerValue](../../debugger/debug-interface-access/idiastackwalkframe-get-registervalue.md)  
-[IDiaStackWalkFrame::put_registerValue](../../debugger/debug-interface-access/idiastackwalkframe-put-registervalue.md)  
-[IDiaStackWalkHelper::get_registerValue](../../debugger/debug-interface-access/idiastackwalkhelper-get-registervalue.md)  
-[IDiaStackWalkHelper::put_registerValue](../../debugger/debug-interface-access/idiastackwalkhelper-put-registervalue.md)  
+[Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)
+[IDiaStackWalkFrame::get_registerValue](../../debugger/debug-interface-access/idiastackwalkframe-get-registervalue.md)
+[IDiaStackWalkFrame::put_registerValue](../../debugger/debug-interface-access/idiastackwalkframe-put-registervalue.md)
+[IDiaStackWalkHelper::get_registerValue](../../debugger/debug-interface-access/idiastackwalkhelper-get-registervalue.md)
+[IDiaStackWalkHelper::put_registerValue](../../debugger/debug-interface-access/idiastackwalkhelper-put-registervalue.md)
 [IDiaStackFrame::get_registerValue](../../debugger/debug-interface-access/idiastackframe-get-registervalue.md)

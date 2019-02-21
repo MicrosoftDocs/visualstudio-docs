@@ -107,8 +107,8 @@ Library: diaguids.lib
 DLL: msdia80.dll
 
 ## See Also
-[Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)  
-[IDiaSession::findInjectedSource](../../debugger/debug-interface-access/idiasession-findinjectedsource.md)  
-[IDiaSession::getEnumTables](../../debugger/debug-interface-access/idiasession-getenumtables.md)  
-[IDiaPropertyStorage](../../debugger/debug-interface-access/idiapropertystorage.md)  
+[Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)
+[IDiaSession::findInjectedSource](../../debugger/debug-interface-access/idiasession-findinjectedsource.md)
+[IDiaSession::getEnumTables](../../debugger/debug-interface-access/idiasession-getenumtables.md)
+[IDiaPropertyStorage](../../debugger/debug-interface-access/idiapropertystorage.md)
 [IDiaInjectedSource](../../debugger/debug-interface-access/idiainjectedsource.md)

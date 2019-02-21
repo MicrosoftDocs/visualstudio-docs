@@ -25,7 +25,7 @@ HRESULT get_intro ( 
 ```
 
 #### Parameters
-`pRetVal`  
+`pRetVal`
 [out] Returns `TRUE` if the function is intro virtual; otherwise, returns `FALSE`.
 
 ## Return Value

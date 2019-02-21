@@ -28,16 +28,16 @@ HRESULT findLinesByAddr (
 ```
 
 #### Parameters
-`seg`  
+`seg`
 [in] Specifies the section component of the specific address.
 
-`offset`  
+`offset`
 [in] Specifies the offset component of the specific address.
 
-`length`  
+`length`
 [in] Specifies the number of bytes of address range to cover with this query.
 
-`ppResult`  
+`ppResult`
 [out] Returns an [IDiaEnumLineNumbers](../../debugger/debug-interface-access/idiaenumlinenumbers.md) object that contains a list of all the line numbers that cover the specified address range.
 
 ## Return Value
@@ -66,6 +66,6 @@ IDiaEnumLineNumbers* GetLineNumbersByAddr(IDiaSymbol *pFunc,
 ```
 
 ## See Also
-[IDiaEnumLineNumbers](../../debugger/debug-interface-access/idiaenumlinenumbers.md)  
-[IDiaSession](../../debugger/debug-interface-access/idiasession.md)  
+[IDiaEnumLineNumbers](../../debugger/debug-interface-access/idiaenumlinenumbers.md)
+[IDiaSession](../../debugger/debug-interface-access/idiasession.md)
 [IDiaSession::findLinesByVA](../../debugger/debug-interface-access/idiasession-findlinesbyva.md)

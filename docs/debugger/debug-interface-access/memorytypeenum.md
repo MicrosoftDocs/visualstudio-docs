@@ -28,16 +28,16 @@ enum MemoryTypeEnum {
 ```
 
 #### Parameters
-`MemTypeCode`  
+`MemTypeCode`
 Accesses only code memory.
 
-`MemTypeData`  
+`MemTypeData`
 Accesses data or stack memory.
 
-`MemTypeStack`  
+`MemTypeStack`
 Accesses only stack memory.
 
-`MemTypeAny`  
+`MemTypeAny`
 Accesses any kind of memory.
 
 ## Remarks
@@ -47,5 +47,5 @@ The values in this enumeration are passed to the [IDiaStackWalkHelper::readMemor
 Header: cvconst.h
 
 ## See Also
-[Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)  
+[Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)
 [IDiaStackWalkHelper::readMemory](../../debugger/debug-interface-access/idiastackwalkhelper-readmemory.md)

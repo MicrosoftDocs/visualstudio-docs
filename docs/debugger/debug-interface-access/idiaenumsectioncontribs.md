@@ -101,6 +101,6 @@ Library: diaguids.lib
 DLL: msdia80.dll
 
 ## See Also
-[Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)  
-[IDiaSession::getEnumTables](../../debugger/debug-interface-access/idiasession-getenumtables.md)  
+[Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)
+[IDiaSession::getEnumTables](../../debugger/debug-interface-access/idiasession-getenumtables.md)
 [IDiaSectionContrib](../../debugger/debug-interface-access/idiasectioncontrib.md)

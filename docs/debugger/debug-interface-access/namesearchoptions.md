@@ -37,22 +37,22 @@ enum NameSearchOptions {
 ```
 
 ## Elements
-`nsNone`  
+`nsNone`
 No options are specified.
 
-`nsfCaseSensitive`  
+`nsfCaseSensitive`
 Applies a case-sensitive name match.
 
-`nsfCaseInsensitive`  
+`nsfCaseInsensitive`
 Applies a case-insensitive name match.
 
-`nsfFNameExt`  
+`nsfFNameExt`
 Treats names as paths and applies a filename.ext name match.
 
-`nsfRegularExpression`  
+`nsfRegularExpression`
 Applies a case-sensitive name match using asterisks (*) and question marks (?) as wildcards.
 
-`nsfUndecoratedName`  
+`nsfUndecoratedName`
 Applies only to symbols that have both undecorated and decorated names.
 
 ## Remarks
@@ -68,7 +68,7 @@ The values from this enumeration are passed to the following methods:
 Header: dia2.h
 
 ## See Also
-[Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)  
-[IDiaSession::findChildren](../../debugger/debug-interface-access/idiasession-findchildren.md)  
-[IDiaSession::findFile](../../debugger/debug-interface-access/idiasession-findfile.md)  
+[Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)
+[IDiaSession::findChildren](../../debugger/debug-interface-access/idiasession-findchildren.md)
+[IDiaSession::findFile](../../debugger/debug-interface-access/idiasession-findfile.md)
 [IDiaSymbol::findChildren](../../debugger/debug-interface-access/idiasymbol-findchildren.md)

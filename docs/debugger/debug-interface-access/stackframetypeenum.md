@@ -30,22 +30,22 @@ enum StackFrameTypeEnum {
 ```
 
 ## Elements
-`FrameTypeFPO`  
+`FrameTypeFPO`
 Frame pointer omitted; FPO info available.
 
-`FrameTypeTrap`  
+`FrameTypeTrap`
 Kernel Trap frame.
 
-`FrameTypeTSS`  
+`FrameTypeTSS`
 Kernel Trap frame.
 
-`FrameTypeStandard`  
+`FrameTypeStandard`
 Standard EBP stack frame.
 
-`FrameTypeFrameData`  
+`FrameTypeFrameData`
 Frame pointer omitted; Frame data info available.
 
-`FrameTypeUnknown`  
+`FrameTypeUnknown`
 Frame that does not have any debug info.
 
 ## Remarks
@@ -55,5 +55,5 @@ The values in this enumeration are returned by a call to the [IDiaStackFrame::ge
 Header: cvconst.h
 
 ## See Also
-[Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)  
+[Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)
 [IDiaStackFrame::get_type](../../debugger/debug-interface-access/idiastackframe-get-type.md)

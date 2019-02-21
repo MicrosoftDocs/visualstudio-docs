@@ -27,13 +27,13 @@ HRESULT findLinesByVA (
 ```
 
 #### Parameters
-`va`  
+`va`
 [in] Specifies the address as a VA.
 
-`length`  
+`length`
 [in] Specifies the number of bytes of address range to cover with this query.
 
-`ppResult`  
+`ppResult`
 [out] Returns an [IDiaEnumLineNumbers](../../debugger/debug-interface-access/idiaenumlinenumbers.md) object that contains a list of all the line numbers that cover the specified address range.
 
 ## Example
@@ -56,5 +56,5 @@ IDiaEnumLineNumbers *GetLineNumbersByVA(IDiaSymbol *pFunc, IDiaSession *pSession
 ```
 
 ## See Also
-[IDiaEnumLineNumbers](../../debugger/debug-interface-access/idiaenumlinenumbers.md)  
+[IDiaEnumLineNumbers](../../debugger/debug-interface-access/idiaenumlinenumbers.md)
 [IDiaSession](../../debugger/debug-interface-access/idiasession.md)

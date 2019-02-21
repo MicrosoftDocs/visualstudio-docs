@@ -61,5 +61,5 @@ Library: diaguids.lib
 DLL: msdia80.dll
 
 ## See Also
-[Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)  
+[Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)
 [IDiaStackWalkHelper](../../debugger/debug-interface-access/idiastackwalkhelper.md)

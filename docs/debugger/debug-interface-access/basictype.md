@@ -44,58 +44,58 @@ enum BasicType {
 ```
 
 ## Elements
-btNoType  
+btNoType
 No basic type is specified.
 
-btVoid  
+btVoid
 Basic type is a `void`.
 
-btChar  
+btChar
 Basic type is a `char` (C/C++ type).
 
-btWChar  
+btWChar
 Basic type is a wide (Unicode) character (`WCHAR`).
 
-btInt  
+btInt
 Basic type is `signed int` (C/C++ type).
 
-btUInt  
+btUInt
 Basic type is `unsigned int` (C/C++ type).
 
-btFloat  
+btFloat
 Basic type is a floating-point number (`FLOAT`).
 
-btBCD  
+btBCD
 Basic type is a binary-coded decimal (`BCD`).
 
-btBool  
+btBool
 Basic type is a Boolean (`BOOL`).
 
-btLong  
+btLong
 Basic type is a `long int` (C/C++ type).
 
-btULong  
+btULong
 Basic type is an `unsigned long int` (C/C++ type).
 
-btCurrency  
+btCurrency
 Basic type is currency.
 
-btDate  
+btDate
 Basic type is date/time (`DATE`).
 
-btVariant  
+btVariant
 Basic type is a variable type structure (`VARIANT`).
 
-btComplex  
+btComplex
 Basic type is a complex number.
 
-btBit  
+btBit
 Basic type is a bit.
 
-btBSTR  
+btBSTR
 Basic type is a basic or binary string (`BSTR`).
 
-btHresult  
+btHresult
 Basic type is an `HRESULT`.
 
 ## Remarks
@@ -105,6 +105,6 @@ The values in this enumeration are returned by the [IDiaSymbol::get_baseType](..
 Header: cvconst.h
 
 ## See Also
-[Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)  
-[IDiaSymbol::get_baseType](../../debugger/debug-interface-access/idiasymbol-get-basetype.md)  
+[Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)
+[IDiaSymbol::get_baseType](../../debugger/debug-interface-access/idiasymbol-get-basetype.md)
 [IDiaSymbol::get_length](../../debugger/debug-interface-access/idiasymbol-get-length.md)

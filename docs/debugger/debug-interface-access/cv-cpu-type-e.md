@@ -95,5 +95,5 @@ The values in this enumeration are returned by a call to the [IDiaSymbol::get_pl
 Header: cvconst.h
 
 ## See Also
-[Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)  
+[Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)
 [IDiaSymbol::get_platform](../../debugger/debug-interface-access/idiasymbol-get-platform.md)

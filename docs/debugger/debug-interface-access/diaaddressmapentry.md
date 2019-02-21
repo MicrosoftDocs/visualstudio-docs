@@ -26,10 +26,10 @@ struct DiaAddressMapEntry {
 ```
 
 ## Elements
-`rva`  
+`rva`
 A relative virtual address (RVA) in image A.
 
-`rvaTo`  
+`rvaTo`
 The relative virtual address `rva` is mapped to in image B.
 
 ## Remarks
@@ -49,5 +49,5 @@ To translate an address, `addrA`, in image A to an address, `addrB`, in image B,
 Header: dia2.h
 
 ## See Also
-[Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)  
+[Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)
 [IDiaAddressMap::set_addressMap](../../debugger/debug-interface-access/idiaaddressmap-set-addressmap.md)

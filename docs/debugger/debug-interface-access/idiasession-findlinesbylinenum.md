@@ -29,22 +29,22 @@ HRESULT findLinesByLinenum ( 
 ```
 
 #### Parameters
-`compiland`  
+`compiland`
 [in] An [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) object that represents the compiland in which to search for the line numbers. This parameter cannot be `NULL`.
 
-`file`  
+`file`
 [in] An [IDiaSourceFile](../../debugger/debug-interface-access/idiasourcefile.md) object that represents the source file to search in. This parameter cannot be `NULL`.
 
-`linenum`  
+`linenum`
 [in] Specifies a one-based line number.
 
 > [!NOTE]
 > You cannot use zero to specify all lines (use the [IDiaSession::findLines](../../debugger/debug-interface-access/idiasession-findlines.md) method to find all lines).
 
-`column`  
+`column`
 [in] Specifies the column number. Use zero to specify all columns. A column is a byte offset into a line.
 
-`ppResult`  
+`ppResult`
 [out] Returns an [IDiaEnumLineNumbers](../../debugger/debug-interface-access/idiaenumlinenumbers.md) objta that contains a list of the line numbers retrieved.
 
 ## Return Value
@@ -91,8 +91,8 @@ void ShowLinesInCompilands(IDiaSession *pSession, LPCOLESTR filename)
 ```
 
 ## See Also
-[IDiaEnumLineNumbers](../../debugger/debug-interface-access/idiaenumlinenumbers.md)  
-[IDiaSession](../../debugger/debug-interface-access/idiasession.md)  
-[IDiaSession::findLinesByAddr](../../debugger/debug-interface-access/idiasession-findlinesbyaddr.md)  
-[IDiaSourceFile](../../debugger/debug-interface-access/idiasourcefile.md)  
+[IDiaEnumLineNumbers](../../debugger/debug-interface-access/idiaenumlinenumbers.md)
+[IDiaSession](../../debugger/debug-interface-access/idiasession.md)
+[IDiaSession::findLinesByAddr](../../debugger/debug-interface-access/idiasession-findlinesbyaddr.md)
+[IDiaSourceFile](../../debugger/debug-interface-access/idiasourcefile.md)
 [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

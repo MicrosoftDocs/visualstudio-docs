@@ -25,7 +25,7 @@ HRESULT loadDataFromPdb (
 ```
 
 #### Parameters
-pdbPath  
+pdbPath
 [in] The path to the .pdb file.
 
 ## Return Value
@@ -58,7 +58,7 @@ if (FAILED(hr))
 ```
 
 ## See Also
-[IDiaDataSource](../../debugger/debug-interface-access/idiadatasource.md)  
-[IDiaDataSource::loadDataForExe](../../debugger/debug-interface-access/idiadatasource-loaddataforexe.md)  
-[IDiaDataSource::loadAndValidateDataFromPdb](../../debugger/debug-interface-access/idiadatasource-loadandvalidatedatafrompdb.md)  
+[IDiaDataSource](../../debugger/debug-interface-access/idiadatasource.md)
+[IDiaDataSource::loadDataForExe](../../debugger/debug-interface-access/idiadatasource-loaddataforexe.md)
+[IDiaDataSource::loadAndValidateDataFromPdb](../../debugger/debug-interface-access/idiadatasource-loadandvalidatedatafrompdb.md)
 [IDiaDataSource::loadDataFromIStream](../../debugger/debug-interface-access/idiadatasource-loaddatafromistream.md)

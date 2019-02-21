@@ -26,10 +26,10 @@ HRESULT symbolById (
 ```
 
 #### Parameters
-`id`  
+`id`
 [in] Unique identifier.
 
-`ppSymbol`  
+`ppSymbol`
 [out] Returns an [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) object that represents the symbol retrieved.
 
 ## Return Value
@@ -58,6 +58,6 @@ IDiaSymbol *GetSymbolType(IDiaSymbol *pSymbol, IDiaSession *pSession)
 ```
 
 ## See Also
-[IDiaSession](../../debugger/debug-interface-access/idiasession.md)  
-[IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)  
+[IDiaSession](../../debugger/debug-interface-access/idiasession.md)
+[IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
 [IDiaSymbol::get_type](../../debugger/debug-interface-access/idiasymbol-get-type.md)

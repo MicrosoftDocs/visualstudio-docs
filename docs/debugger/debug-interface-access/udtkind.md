@@ -28,16 +28,16 @@ enum UdtKind {
 ```
 
 ## Elements
-UdtStruct  
+UdtStruct
 UDT is a structure.
 
-UdtClass  
+UdtClass
 UDT is a class.
 
-UdtUnion  
+UdtUnion
 UDT is a union.
 
-UdtInterface  
+UdtInterface
 UDT is an interface.
 
 ## Remarks
@@ -47,5 +47,5 @@ The values in this enumeration are returned by the [IDiaSymbol::get_udtKind](../
 Header: cvconst.h
 
 ## See Also
-[Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)  
+[Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)
 [IDiaSymbol::get_udtKind](../../debugger/debug-interface-access/idiasymbol-get-udtkind.md)

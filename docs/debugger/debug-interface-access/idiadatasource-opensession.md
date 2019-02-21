@@ -25,7 +25,7 @@ HRESULT openSession ( 
 ```
 
 #### Parameters
-ppSession  
+ppSession
 [out] Returns an [IDiaSession](../../debugger/debug-interface-access/idiasession.md) object representing the open session.
 
 ## Return Value
@@ -54,7 +54,7 @@ if (FAILED(hr))
 ```
 
 ## See Also
-[IDiaDataSource](../../debugger/debug-interface-access/idiadatasource.md)  
-[Overview](../../debugger/debug-interface-access/overview-debug-interface-access-sdk.md)  
-[IDiaSession](../../debugger/debug-interface-access/idiasession.md)  
+[IDiaDataSource](../../debugger/debug-interface-access/idiadatasource.md)
+[Overview](../../debugger/debug-interface-access/overview-debug-interface-access-sdk.md)
+[IDiaSession](../../debugger/debug-interface-access/idiasession.md)
 [Querying the .Pdb File](../../debugger/debug-interface-access/querying-the-dot-pdb-file.md)

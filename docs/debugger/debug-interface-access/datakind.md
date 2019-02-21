@@ -34,34 +34,34 @@ enum DataKind {
 ```
 
 ## Elements
-DataIsUnknown  
+DataIsUnknown
 Data symbol cannot be determined.
 
-DataIsLocal  
+DataIsLocal
 Data item is a local variable.
 
-DataIsStaticLocal  
+DataIsStaticLocal
 Data item is a static local variable.
 
-DataIsParam  
+DataIsParam
 Data item is a formal parameter.
 
-DataIsObjectPtr  
+DataIsObjectPtr
 Data item is an object pointer (`this`).
 
-DataIsFileStatic  
+DataIsFileStatic
 Data item is a file-scoped variable.
 
-DataIsGlobal  
+DataIsGlobal
 Data item is a global variable.
 
-DataIsMember  
+DataIsMember
 Data item is an object member variable.
 
-DataIsStaticMember  
+DataIsStaticMember
 Data item is a class static variable.
 
-DataIsConstant  
+DataIsConstant
 Data item is a constant value.
 
 ## Remarks
@@ -71,5 +71,5 @@ The values in this enumeration are returned by the [IDiaSymbol::get_dataKind](..
 Header: cvconst.h
 
 ## See Also
-[Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)  
+[Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)
 [IDiaSymbol::get_dataKind](../../debugger/debug-interface-access/idiasymbol-get-datakind.md)
