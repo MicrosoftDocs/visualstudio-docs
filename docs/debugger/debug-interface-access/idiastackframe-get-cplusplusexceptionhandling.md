@@ -26,7 +26,7 @@ HRESULT get_cplusplusExceptionHandling ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns `TRUE` if C++ exception handling is in effect for this frame; otherwise, returns `FALSE`.
+- [out] Returns `TRUE` if C++ exception handling is in effect for this frame; otherwise, returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if the property is not supported. Otherwise, returns an error code.
@@ -37,5 +37,5 @@ HRESULT get_cplusplusExceptionHandling ( 
  To determine if structured exception handling is in effect, call the [IDiaStackFrame::get_systemExceptionHandling](../../debugger/debug-interface-access/idiastackframe-get-systemexceptionhandling.md) method.
 
 ## See Also
- [IDiaStackFrame](../../debugger/debug-interface-access/idiastackframe.md)
- [IDiaStackFrame::get_systemExceptionHandling](../../debugger/debug-interface-access/idiastackframe-get-systemexceptionhandling.md)
+- [IDiaStackFrame](../../debugger/debug-interface-access/idiastackframe.md)
+- [IDiaStackFrame::get_systemExceptionHandling](../../debugger/debug-interface-access/idiastackframe-get-systemexceptionhandling.md)

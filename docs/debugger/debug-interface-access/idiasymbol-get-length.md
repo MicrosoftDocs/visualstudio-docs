@@ -26,7 +26,7 @@ HRESULT get_length ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns the number of bytes or bits of memory used by the object represented by this symbol.
+- [out] Returns the number of bytes or bits of memory used by the object represented by this symbol.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
@@ -53,5 +53,5 @@ pSymbol->get_length( &length );
 |Version:|DIA SDK v7.0|
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
- [LocationType Enumeration](../../debugger/debug-interface-access/locationtype.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [LocationType Enumeration](../../debugger/debug-interface-access/locationtype.md)

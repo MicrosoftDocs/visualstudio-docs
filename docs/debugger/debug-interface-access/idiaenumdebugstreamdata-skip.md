@@ -26,10 +26,10 @@ HRESULT Skip ( 
 
 #### Parameters
  celt
- [in] The number of records to skip in the enumerated sequence.
+- [in] The number of records to skip in the enumerated sequence.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` if there are no more records to skip.
 
 ## See Also
- [IDiaEnumDebugStreamData](../../debugger/debug-interface-access/idiaenumdebugstreamdata.md)
+- [IDiaEnumDebugStreamData](../../debugger/debug-interface-access/idiaenumdebugstreamdata.md)

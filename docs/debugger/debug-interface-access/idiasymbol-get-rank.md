@@ -26,7 +26,7 @@ HRESULT get_rank ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns the number of dimensions in a FORTRAN multi-dimensional array.
+- [out] Returns the number of dimensions in a FORTRAN multi-dimensional array.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
@@ -38,4 +38,4 @@ HRESULT get_rank ( 
  Rank refers to the number of dimensions in an array where the array is declared as `myarray[1,2,3]`. This example has a rank of 3 and 3 dimensions. Rank does not apply to C++ which uses the concept of an array of arrays for each dimension (that is, `myarray[1][2][3]`).
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

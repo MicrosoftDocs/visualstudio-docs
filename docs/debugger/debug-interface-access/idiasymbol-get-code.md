@@ -26,7 +26,7 @@ HRESULT get_code ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns `TRUE` if the symbol refers to a code address, otherwise, returns `FALSE`.
+- [out] Returns `TRUE` if the symbol refers to a code address, otherwise, returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or error code.
@@ -42,4 +42,4 @@ HRESULT get_code ( 
 |Version:|DIA SDK v7.0|
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

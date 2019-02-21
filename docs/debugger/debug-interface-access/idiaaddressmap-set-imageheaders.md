@@ -28,13 +28,13 @@ HRESULT set_imageHeaders ( 
 
 #### Parameters
  cbData
- [in] Number of bytes of header data. Must be `n*sizeof(IMAGE_SECTION_HEADER)` where `n` is the number of section headers in the executable.
+- [in] Number of bytes of header data. Must be `n*sizeof(IMAGE_SECTION_HEADER)` where `n` is the number of section headers in the executable.
 
  data[]
- [in] An array of  `IMAGE_SECTION_HEADER` structures to be used as the image headers.
+- [in] An array of  `IMAGE_SECTION_HEADER` structures to be used as the image headers.
 
  originalHeaders
- [in] Set to `FALSE` if the image headers are from the new image, `TRUE` if they reflect the original image prior to an upgrade. Typically, this would be set to `TRUE` only in combination with calls to the [IDiaAddressMap::set_addressMap](../../debugger/debug-interface-access/idiaaddressmap-set-addressmap.md) method.
+- [in] Set to `FALSE` if the image headers are from the new image, `TRUE` if they reflect the original image prior to an upgrade. Typically, this would be set to `TRUE` only in combination with calls to the [IDiaAddressMap::set_addressMap](../../debugger/debug-interface-access/idiaaddressmap-set-addressmap.md) method.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -45,7 +45,7 @@ HRESULT set_imageHeaders ( 
  Relative virtual address calculations depend upon the `IMAGE_SECTION_HEADER` values. Usually, the DIA retrieves these from the program database (.pdb) file. If these values are missing, the DIA is unable to calculate relative virtual addresses and the [IDiaAddressMap::get_relativeVirtualAddressEnabled](../../debugger/debug-interface-access/idiaaddressmap-get-relativevirtualaddressenabled.md) method returns `FALSE`. The client must then call the [IDiaAddressMap::put_relativeVirtualAddressEnabled](../../debugger/debug-interface-access/idiaaddressmap-put-relativevirtualaddressenabled.md) method to enable the relative virtual address calculations after providing the missing image headers from the image itself.
 
 ## See Also
- [IDiaAddressMap](../../debugger/debug-interface-access/idiaaddressmap.md)
- [IDiaAddressMap::set_addressMap](../../debugger/debug-interface-access/idiaaddressmap-set-addressmap.md)
- [IDiaAddressMap::get_relativeVirtualAddressEnabled](../../debugger/debug-interface-access/idiaaddressmap-get-relativevirtualaddressenabled.md)
- [IDiaAddressMap::put_relativeVirtualAddressEnabled](../../debugger/debug-interface-access/idiaaddressmap-put-relativevirtualaddressenabled.md)
+- [IDiaAddressMap](../../debugger/debug-interface-access/idiaaddressmap.md)
+- [IDiaAddressMap::set_addressMap](../../debugger/debug-interface-access/idiaaddressmap-set-addressmap.md)
+- [IDiaAddressMap::get_relativeVirtualAddressEnabled](../../debugger/debug-interface-access/idiaaddressmap-get-relativevirtualaddressenabled.md)
+- [IDiaAddressMap::put_relativeVirtualAddressEnabled](../../debugger/debug-interface-access/idiaaddressmap-put-relativevirtualaddressenabled.md)

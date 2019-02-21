@@ -26,7 +26,7 @@ HRESULT get_hasManagedCode(
 
 #### Parameters
  `pFlag`
- [out] Returns `TRUE` if the module contains managed code; otherwise, returns `FALSE`, the code is unmanaged code.
+- [out] Returns `TRUE` if the module contains managed code; otherwise, returns `FALSE`, the code is unmanaged code.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
@@ -45,5 +45,5 @@ HRESULT get_hasManagedCode(
 |Version:|DIA SDK v8.0|
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
- [CompilandDetails](../../debugger/debug-interface-access/compilanddetails.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [CompilandDetails](../../debugger/debug-interface-access/compilanddetails.md)

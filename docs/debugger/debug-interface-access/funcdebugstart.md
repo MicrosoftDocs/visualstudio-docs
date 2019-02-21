@@ -42,6 +42,6 @@ If a function has a defined point at which debugging is to begin, that point is 
 |[IDiaSymbol::get_virtualAddress](../../debugger/debug-interface-access/idiasymbol-get-virtualaddress.md)|`ULONGLONG`|Position of the function within the executable.|
 
 ## See Also
- [Lexical Hierarchy of Symbol Types](../../debugger/debug-interface-access/lexical-hierarchy-of-symbol-types.md)
- [LocationType Enumeration](../../debugger/debug-interface-access/locationtype.md)
- [Symbol Locations](../../debugger/debug-interface-access/symbol-locations.md)
+- [Lexical Hierarchy of Symbol Types](../../debugger/debug-interface-access/lexical-hierarchy-of-symbol-types.md)
+- [LocationType Enumeration](../../debugger/debug-interface-access/locationtype.md)
+- [Symbol Locations](../../debugger/debug-interface-access/symbol-locations.md)

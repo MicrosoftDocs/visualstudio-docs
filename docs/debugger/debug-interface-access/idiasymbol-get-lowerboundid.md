@@ -26,7 +26,7 @@ HRESULT get_lowerBoundId ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns the symbol ID of the symbol that represents the lower bound of a FORTRAN array dimension.
+- [out] Returns the symbol ID of the symbol that represents the lower bound of a FORTRAN array dimension.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
@@ -38,4 +38,4 @@ HRESULT get_lowerBoundId ( 
  The identifier is a unique value created by the DIA SDK to mark all symbols as unique.
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

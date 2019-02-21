@@ -26,7 +26,7 @@ HRESULT get_value (
 
 #### Parameters
 `pRetVal`
-[in, out] A `VARIANT` object that is filled in with the value of a constant.
+- [in, out] A `VARIANT` object that is filled in with the value of a constant.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
@@ -63,4 +63,4 @@ void ProcessValue2(IDiaSymbol *pSymbol)
 ```
 
 ## See Also
-[IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

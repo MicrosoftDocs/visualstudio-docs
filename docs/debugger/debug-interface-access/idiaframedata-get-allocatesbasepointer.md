@@ -26,7 +26,7 @@ HRESULT get_allocatesBasePointer ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns `TRUE` if a base pointer is allocated; otherwise, returns `FALSE`.
+- [out] Returns `TRUE` if a base pointer is allocated; otherwise, returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.
@@ -35,5 +35,5 @@ HRESULT get_allocatesBasePointer ( 
  This property should be used only by code that formerly accessed FPO_DATA, or when the program string returned by the [IDiaFrameData::get_program](../../debugger/debug-interface-access/idiaframedata-get-program.md) method is `NULL`. Otherwise, the program string contains all the information needed to compute previous register values.
 
 ## See Also
- [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)
- [IDiaFrameData::get_program](../../debugger/debug-interface-access/idiaframedata-get-program.md)
+- [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)
+- [IDiaFrameData::get_program](../../debugger/debug-interface-access/idiaframedata-get-program.md)

@@ -26,7 +26,7 @@ HRESULT get_program ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns the program string.
+- [out] Returns the program string.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.
@@ -45,4 +45,4 @@ HRESULT get_program ( 
    Note that the program string is specific to the CPU and to the calling convention set up for the function represented by the current stack frame.
 
 ## See Also
- [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)
+- [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)

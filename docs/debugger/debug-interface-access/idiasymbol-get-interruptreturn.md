@@ -26,7 +26,7 @@ HRESULT get_interruptReturn(
 
 #### Parameters
  `pFlag`
- [out] Returns `TRUE` if the function has a return from interrupt instruction; otherwise, returns `FALSE`.
+- [out] Returns `TRUE` if the function has a return from interrupt instruction; otherwise, returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
@@ -42,4 +42,4 @@ HRESULT get_interruptReturn(
 |Version:|DIA SDK v8.0|
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

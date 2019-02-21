@@ -29,4 +29,4 @@ HRESULT RestrictSymbolServerAccess();
  Any return code other than `S_OK` prevents use of a symbol server to resolve symbols.
 
 ## See Also
- [IDiaLoadCallback2](../../debugger/debug-interface-access/idialoadcallback2.md)
+- [IDiaLoadCallback2](../../debugger/debug-interface-access/idialoadcallback2.md)

@@ -26,7 +26,7 @@ HRESULT get_offset ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns the offset in bytes of the symbol location.
+- [out] Returns the offset in bytes of the symbol location.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
@@ -45,5 +45,5 @@ HRESULT get_offset ( 
 |Version:|DIA SDK v7.0|
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
- [LocationType Enumeration](../../debugger/debug-interface-access/locationtype.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [LocationType Enumeration](../../debugger/debug-interface-access/locationtype.md)

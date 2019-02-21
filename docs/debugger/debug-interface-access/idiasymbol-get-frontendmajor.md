@@ -26,7 +26,7 @@ HRESULT get_frontEndMajor ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns the front end major version number. See Remarks.
+- [out] Returns the front end major version number. See Remarks.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
@@ -47,4 +47,4 @@ HRESULT get_frontEndMajor ( 
 |Version:|DIA SDK v7.0|
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

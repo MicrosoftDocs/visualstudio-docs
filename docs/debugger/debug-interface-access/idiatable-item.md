@@ -27,10 +27,10 @@ HRESULT Item ( 
 
 #### Parameters
  `index`
- [in] The index of the table entry in the range 0 to `count`-1, where `count` is returned by the [IDiaTable::get_Count](../../debugger/debug-interface-access/idiatable-get-count.md)method.
+- [in] The index of the table entry in the range 0 to `count`-1, where `count` is returned by the [IDiaTable::get_Count](../../debugger/debug-interface-access/idiatable-get-count.md)method.
 
  `element`
- [out] Returns an `IUnknown` object that represents the specified table entry.
+- [out] Returns an `IUnknown` object that represents the specified table entry.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -41,7 +41,7 @@ HRESULT Item ( 
  It is a more common approach to call the `QueryInterface` method in the [IDiaTable](../../debugger/debug-interface-access/idiatable.md) interface for the appropriate enumerator interface and use the enumerator's specific methods to access the table contents. See the [IDiaEnumInjectedSources](../../debugger/debug-interface-access/idiaenuminjectedsources.md) interface for an example.
 
 ## See Also
- [IDiaTable](../../debugger/debug-interface-access/idiatable.md)
- [IDiaTable::get_Count](../../debugger/debug-interface-access/idiatable-get-count.md)
- [IDiaSegment](../../debugger/debug-interface-access/idiasegment.md)
- [IDiaEnumInjectedSources](../../debugger/debug-interface-access/idiaenuminjectedsources.md)
+- [IDiaTable](../../debugger/debug-interface-access/idiatable.md)
+- [IDiaTable::get_Count](../../debugger/debug-interface-access/idiatable-get-count.md)
+- [IDiaSegment](../../debugger/debug-interface-access/idiasegment.md)
+- [IDiaEnumInjectedSources](../../debugger/debug-interface-access/idiaenuminjectedsources.md)

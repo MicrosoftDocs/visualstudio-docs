@@ -23,11 +23,11 @@ HRESULT get_baseSymbolId(
 
 #### Parameters
  `pRetVal`
- [out] A pointer to a `DWORD` that holds the symbol ID from which the pointer is based.
+- [out] A pointer to a `DWORD` that holds the symbol ID from which the pointer is based.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
- [IDiaSymbol::get_baseSymbol](../../debugger/debug-interface-access/idiasymbol-get-basesymbol.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSymbol::get_baseSymbol](../../debugger/debug-interface-access/idiasymbol-get-basesymbol.md)

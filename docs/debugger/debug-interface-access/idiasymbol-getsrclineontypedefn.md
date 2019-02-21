@@ -23,11 +23,11 @@ HRESULT getSrcLineOnTypeDefn(
 
 #### Parameters
  `ppResult`
- [out] A `IDiaLineNumber` object that contains the source file and line number where the user-defined.
+- [out] A `IDiaLineNumber` object that contains the source file and line number where the user-defined.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
- [IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md)

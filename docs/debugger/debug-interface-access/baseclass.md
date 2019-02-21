@@ -56,5 +56,5 @@ Each base class for a user-defined type (UDT) symbol is identified by a child wi
 |[IDiaSymbol::get_volatileType](../../debugger/debug-interface-access/idiasymbol-get-volatiletype.md)|`BOOL`|`TRUE` if the base class is marked as volatile.|
 
 ## See Also
- [Class Hierarchy of Symbol Types](../../debugger/debug-interface-access/class-hierarchy-of-symbol-types.md)
- [UDT](../../debugger/debug-interface-access/udt.md)
+- [Class Hierarchy of Symbol Types](../../debugger/debug-interface-access/class-hierarchy-of-symbol-types.md)
+- [UDT](../../debugger/debug-interface-access/udt.md)

@@ -26,4 +26,4 @@ HRESULT Reset();
  Returns `S_OK`.
 
 ## See Also
- [IDiaEnumStackFrames](../../debugger/debug-interface-access/idiaenumstackframes.md)
+- [IDiaEnumStackFrames](../../debugger/debug-interface-access/idiaenumstackframes.md)

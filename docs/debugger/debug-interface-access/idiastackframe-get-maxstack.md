@@ -26,10 +26,10 @@ HRESULT get_maxStack ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns the maximum number of bytes pushed on the stack.
+- [out] Returns the maximum number of bytes pushed on the stack.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if the property is not supported. Otherwise, returns an error code.
 
 ## See Also
- [IDiaStackFrame](../../debugger/debug-interface-access/idiastackframe.md)
+- [IDiaStackFrame](../../debugger/debug-interface-access/idiastackframe.md)

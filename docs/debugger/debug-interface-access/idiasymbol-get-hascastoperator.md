@@ -26,7 +26,7 @@ HRESULT get_hasCastOperator ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns a `TRUE` if the user-defined data type has any cast operators defined; otherwise, returns `FALSE`.
+- [out] Returns a `TRUE` if the user-defined data type has any cast operators defined; otherwise, returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
@@ -42,4 +42,4 @@ HRESULT get_hasCastOperator ( 
 |Version:|DIA SDK v7.0|
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

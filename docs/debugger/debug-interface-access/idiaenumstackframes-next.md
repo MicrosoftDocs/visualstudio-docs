@@ -28,17 +28,17 @@ HRESULT Next( 
 
 #### Parameters
  celt
- [in] The number of stackframe elements in the enumerator to be retrieved.
+- [in] The number of stackframe elements in the enumerator to be retrieved.
 
  rgelt
- [out] An array that is to be filled in with the requested [IDiaStackFrame](../../debugger/debug-interface-access/idiastackframe.md) objects.
+- [out] An array that is to be filled in with the requested [IDiaStackFrame](../../debugger/debug-interface-access/idiastackframe.md) objects.
 
  pceltFetched
- [out] Returns the number of stack frame elements in the fetched enumerator.
+- [out] Returns the number of stack frame elements in the fetched enumerator.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if there are no more stack frames. Otherwise, returns an error code.
 
 ## See Also
- [IDiaEnumStackFrames](../../debugger/debug-interface-access/idiaenumstackframes.md)
- [IDiaStackFrame](../../debugger/debug-interface-access/idiastackframe.md)
+- [IDiaEnumStackFrames](../../debugger/debug-interface-access/idiaenumstackframes.md)
+- [IDiaStackFrame](../../debugger/debug-interface-access/idiastackframe.md)

@@ -27,10 +27,10 @@ HRESULT get_registerValue ( 
 
 #### Parameters
  `index`
- [in] A value from the [CV_HREG_e Enumeration](../../debugger/debug-interface-access/cv-hreg-e.md) enumeration specifying which register to get the value from.
+- [in] A value from the [CV_HREG_e Enumeration](../../debugger/debug-interface-access/cv-hreg-e.md) enumeration specifying which register to get the value from.
 
  `pRetVal`
- [out] Returns the current value of the register.
+- [out] Returns the current value of the register.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -39,5 +39,5 @@ HRESULT get_registerValue ( 
  Despite the size of the `pRetVal` parameter, an implementation should store only what the register normally holds. For example, an 8-bit register holds only the lowest 8-bits of the given value. This 8-bit value is expanded to 64-bits when returned from this method.
 
 ## See Also
- [IDiaStackWalkHelper](../../debugger/debug-interface-access/idiastackwalkhelper.md)
- [CV_HREG_e Enumeration](../../debugger/debug-interface-access/cv-hreg-e.md)
+- [IDiaStackWalkHelper](../../debugger/debug-interface-access/idiastackwalkhelper.md)
+- [CV_HREG_e Enumeration](../../debugger/debug-interface-access/cv-hreg-e.md)

@@ -26,11 +26,11 @@ HRESULT get_Count ( 
 
 #### Parameters
  pRetVal
- [out] Returns the number of line numbers.
+- [out] Returns the number of line numbers.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## See Also
- [IDiaEnumLineNumbers](../../debugger/debug-interface-access/idiaenumlinenumbers.md)
- [IDiaEnumLineNumbers::Item](../../debugger/debug-interface-access/idiaenumlinenumbers-item.md)
+- [IDiaEnumLineNumbers](../../debugger/debug-interface-access/idiaenumlinenumbers.md)
+- [IDiaEnumLineNumbers::Item](../../debugger/debug-interface-access/idiaenumlinenumbers-item.md)

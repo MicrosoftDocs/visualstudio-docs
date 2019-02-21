@@ -27,10 +27,10 @@ HRESULT findFileById ( 
 
 #### Parameters
  `uniqueId`
- [in] Specifies the source file identifier.
+- [in] Specifies the source file identifier.
 
  `ppResult`
- [out] Returns an [IDiaSourceFile](../../debugger/debug-interface-access/idiasourcefile.md) object that represents the source file retrieved.
+- [out] Returns an [IDiaSourceFile](../../debugger/debug-interface-access/idiasourcefile.md) object that represents the source file retrieved.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -39,6 +39,6 @@ HRESULT findFileById ( 
  The source file identifier is a unique value used internally to the DIA SDK to make all source files unique. This method is typically used internally to the DIA SDK.
 
 ## See Also
- [IDiaSession](../../debugger/debug-interface-access/idiasession.md)
- [IDiaSession::findFile](../../debugger/debug-interface-access/idiasession-findfile.md)
- [IDiaSourceFile](../../debugger/debug-interface-access/idiasourcefile.md)
+- [IDiaSession](../../debugger/debug-interface-access/idiasession.md)
+- [IDiaSession::findFile](../../debugger/debug-interface-access/idiasession-findfile.md)
+- [IDiaSourceFile](../../debugger/debug-interface-access/idiasourcefile.md)

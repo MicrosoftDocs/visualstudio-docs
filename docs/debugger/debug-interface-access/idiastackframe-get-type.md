@@ -26,11 +26,11 @@ HRESULT get_type ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns a value from the [StackFrameTypeEnum Enumeration](../../debugger/debug-interface-access/stackframetypeenum.md) enumeration.
+- [out] Returns a value from the [StackFrameTypeEnum Enumeration](../../debugger/debug-interface-access/stackframetypeenum.md) enumeration.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if the property is not supported. Otherwise, returns an error code.
 
 ## See Also
- [IDiaStackFrame](../../debugger/debug-interface-access/idiastackframe.md)
- [StackFrameTypeEnum Enumeration](../../debugger/debug-interface-access/stackframetypeenum.md)
+- [IDiaStackFrame](../../debugger/debug-interface-access/idiastackframe.md)
+- [StackFrameTypeEnum Enumeration](../../debugger/debug-interface-access/stackframetypeenum.md)

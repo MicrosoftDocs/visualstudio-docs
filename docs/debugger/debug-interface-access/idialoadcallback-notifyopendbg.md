@@ -27,13 +27,13 @@ HRESULT NotifyOpenDBG ( 
 
 #### Parameters
  `dbgPath`
- [in] The full path of the .dbg file.
+- [in] The full path of the .dbg file.
 
  `resultCode`
- [in] Code that indicates the success (`S_OK`) or failure of the load as applied to this file.
+- [in] Code that indicates the success (`S_OK`) or failure of the load as applied to this file.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code. The return code is typically ignored.
 
 ## See Also
- [IDiaLoadCallback2](../../debugger/debug-interface-access/idialoadcallback2.md)
+- [IDiaLoadCallback2](../../debugger/debug-interface-access/idialoadcallback2.md)

@@ -26,10 +26,10 @@ HRESULT get_compilandId ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns `DWORD` that contains the unique identifier for the compiland that contributed this line.
+- [out] Returns `DWORD` that contains the unique identifier for the compiland that contributed this line.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.
 
 ## See Also
- [IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md)
+- [IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md)

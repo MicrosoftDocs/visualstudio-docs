@@ -28,24 +28,24 @@ HRESULT findAcceleratorInlineeLinesByName ( 
 
 #### Parameters
  `parent`
- [in] An `IDiaSymbol` that corresponds to the Accelerator stub function that needs to be searched.
+- [in] An `IDiaSymbol` that corresponds to the Accelerator stub function that needs to be searched.
 
  `file`
- [in] The `IDiaSourceFile` of the source location.
+- [in] The `IDiaSourceFile` of the source location.
 
  `linenum`
- [in] The line number of the source location.
+- [in] The line number of the source location.
 
  `colnum`
- [in] The column number of the source location.
+- [in] The column number of the source location.
 
  `ppResult`
- [out] A pointer to an `IDiaEnumLineNumbers` interface pointer that is initialized with the result.
+- [out] A pointer to an `IDiaEnumLineNumbers` interface pointer that is initialized with the result.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## See Also
- [IDiaSession](../../debugger/debug-interface-access/idiasession.md)
- [IDiaEnumLineNumbers](../../debugger/debug-interface-access/idiaenumlinenumbers.md)
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSession](../../debugger/debug-interface-access/idiasession.md)
+- [IDiaEnumLineNumbers](../../debugger/debug-interface-access/idiaenumlinenumbers.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

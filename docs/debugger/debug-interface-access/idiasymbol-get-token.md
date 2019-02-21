@@ -26,7 +26,7 @@ HRESULT get_token ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns the metadata token of a managed function or variable.
+- [out] Returns the metadata token of a managed function or variable.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
@@ -35,4 +35,4 @@ HRESULT get_token ( 
 >  A return value of `S_FALSE` means that the property is not available for the symbol.
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

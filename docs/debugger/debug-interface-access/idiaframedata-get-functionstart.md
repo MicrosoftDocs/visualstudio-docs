@@ -26,7 +26,7 @@ HRESULT get_functionStart ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns `TRUE` if the block contains the entry point; otherwise returns `FALSE`.
+- [out] Returns `TRUE` if the block contains the entry point; otherwise returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.
@@ -35,4 +35,4 @@ HRESULT get_functionStart ( 
  It is possible for a stack frame to not be the start of a function because the frame represents an inline method or function inserted into a function.
 
 ## See Also
- [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)
+- [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)

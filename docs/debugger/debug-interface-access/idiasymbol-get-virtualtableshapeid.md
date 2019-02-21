@@ -26,7 +26,7 @@ HRESULT get_virtualTableShapeId ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns the virtual table shape symbol ID of the symbol.
+- [out] Returns the virtual table shape symbol ID of the symbol.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
@@ -38,4 +38,4 @@ HRESULT get_virtualTableShapeId ( 
  The identifier is a unique value created by the DIA SDK to mark all symbols as unique.
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

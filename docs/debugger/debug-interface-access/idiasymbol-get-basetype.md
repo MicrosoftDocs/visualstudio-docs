@@ -26,7 +26,7 @@ HRESULT get_baseType (
 
 #### Parameters
 `pRetVal`
-[out] Returns a value from the [BasicType Enumeration](../../debugger/debug-interface-access/basictype.md) enumeration specifying the base type of the symbol.
+- [out] Returns a value from the [BasicType Enumeration](../../debugger/debug-interface-access/basictype.md) enumeration specifying the base type of the symbol.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
@@ -60,6 +60,6 @@ if (pType->get_type( &pBaseType ) == S_OK)
 |Version:|DIA SDK v7.0|
 
 ## See Also
-[IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
-[BasicType Enumeration](../../debugger/debug-interface-access/basictype.md)
-[IDiaSymbol::get_type](../../debugger/debug-interface-access/idiasymbol-get-type.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [BasicType Enumeration](../../debugger/debug-interface-access/basictype.md)
+- [IDiaSymbol::get_type](../../debugger/debug-interface-access/idiasymbol-get-type.md)

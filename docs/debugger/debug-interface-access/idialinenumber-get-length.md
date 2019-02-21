@@ -26,7 +26,7 @@ HRESULT get_length ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns the number of bytes in a block.
+- [out] Returns the number of bytes in a block.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.
@@ -35,4 +35,4 @@ HRESULT get_length ( 
  The block is the length of source code on the line as represented by the [IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md) object.
 
 ## See Also
- [IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md)
+- [IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md)

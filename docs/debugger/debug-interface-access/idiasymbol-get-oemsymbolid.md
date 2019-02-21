@@ -26,7 +26,7 @@ HRESULT get_oemSymbolId ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns an OEM's internally assigned symbol ID.
+- [out] Returns an OEM's internally assigned symbol ID.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
@@ -40,5 +40,5 @@ HRESULT get_oemSymbolId ( 
  This property applies only to symbols with a [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md) type of `SymTagCustomType`.
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
- [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md)

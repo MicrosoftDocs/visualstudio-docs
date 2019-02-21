@@ -26,7 +26,7 @@ HRESULT get_imageBase ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns the suggested image base value.
+- [out] Returns the suggested image base value.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -35,4 +35,4 @@ HRESULT get_imageBase ( 
  Due to image base conflicts, an image may be rebased automatically to an unused memory location when it is loaded. This method returns the base hint (suggested memory location) that was stored in the module at compile time.
 
 ## See Also
- [IDiaImageData](../../debugger/debug-interface-access/idiaimagedata.md)
+- [IDiaImageData](../../debugger/debug-interface-access/idiaimagedata.md)

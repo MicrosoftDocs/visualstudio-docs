@@ -29,16 +29,16 @@ HRESULT findFile ( 
 
 #### Parameters
  `pCompiland`
- [in] An [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) object representing the compiland to be used as a context for the search. Set this parameter to `NULL` to find source files in all compilands.
+- [in] An [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) object representing the compiland to be used as a context for the search. Set this parameter to `NULL` to find source files in all compilands.
 
  `name`
- [in] Specifies the name of the source file to be retrieved. Set this parameter to `NULL` for all source files to be retrieved.
+- [in] Specifies the name of the source file to be retrieved. Set this parameter to `NULL` for all source files to be retrieved.
 
  `option`
- [in] Specifies the comparison options applied to name searching. Values from the [NameSearchOptions Enumeration](../../debugger/debug-interface-access/namesearchoptions.md) enumeration can be used alone or in combination.
+- [in] Specifies the comparison options applied to name searching. Values from the [NameSearchOptions Enumeration](../../debugger/debug-interface-access/namesearchoptions.md) enumeration can be used alone or in combination.
 
  `ppResult`
- [out] Returns an [IDiaEnumSourceFiles](../../debugger/debug-interface-access/idiaenumsourcefiles.md) object that contains a list of the source files retrieved.
+- [out] Returns an [IDiaEnumSourceFiles](../../debugger/debug-interface-access/idiaenumsourcefiles.md) object that contains a list of the source files retrieved.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -51,7 +51,7 @@ pSession->findFile( NULL, L"sourcefile.cpp", nsFNameExt, &pEnum );
 ```
 
 ## See Also
- [IDiaEnumSourceFiles](../../debugger/debug-interface-access/idiaenumsourcefiles.md)
- [IDiaSession](../../debugger/debug-interface-access/idiasession.md)
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
- [NameSearchOptions Enumeration](../../debugger/debug-interface-access/namesearchoptions.md)
+- [IDiaEnumSourceFiles](../../debugger/debug-interface-access/idiaenumsourcefiles.md)
+- [IDiaSession](../../debugger/debug-interface-access/idiasession.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [NameSearchOptions Enumeration](../../debugger/debug-interface-access/namesearchoptions.md)

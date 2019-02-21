@@ -28,13 +28,13 @@ HRESULT set_addressMap ( 
 
 #### Parameters
  `cbData`
- [in] The number of elements in the `data` parameter.
+- [in] The number of elements in the `data` parameter.
 
  `data[]`
- [in] An array of [DiaAddressMapEntry Structure](../../debugger/debug-interface-access/diaaddressmapentry.md) structures that define the translation map.
+- [in] An array of [DiaAddressMapEntry Structure](../../debugger/debug-interface-access/diaaddressmapentry.md) structures that define the translation map.
 
  `imagetoSymbols`
- [in] `TRUE` if the `data` parameter defines a map from the new image layout to the original layout (as described by the debug symbols). `FALSE` if `data` is a map to the new image layout taken from the original layout.
+- [in] `TRUE` if the `data` parameter defines a map from the new image layout to the original layout (as described by the debug symbols). `FALSE` if `data` is a map to the new image layout taken from the original layout.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -43,7 +43,7 @@ HRESULT set_addressMap ( 
  Usually, the DIA retrieves address translation maps from the program database (.pdb) file. If these values are missing, the [IDiaAddressMap::set_imageHeaders](../../debugger/debug-interface-access/idiaaddressmap-set-imageheaders.md) method is called twice, once with the `imagetoSymbols` parameter set to `TRUE` and once with the `imagetoSymbols` parameter set to `FALSE`. Address map translations cannot be enabled using the [IDiaAddressMap::put_addressMapEnabled](../../debugger/debug-interface-access/idiaaddressmap-put-addressmapenabled.md) method unless both translation maps are provided.
 
 ## See Also
- [DiaAddressMapEntry Structure](../../debugger/debug-interface-access/diaaddressmapentry.md)
- [IDiaAddressMap](../../debugger/debug-interface-access/idiaaddressmap.md)
- [IDiaAddressMap::put_addressMapEnabled](../../debugger/debug-interface-access/idiaaddressmap-put-addressmapenabled.md)
- [IDiaAddressMap::set_imageHeaders](../../debugger/debug-interface-access/idiaaddressmap-set-imageheaders.md)
+- [DiaAddressMapEntry Structure](../../debugger/debug-interface-access/diaaddressmapentry.md)
+- [IDiaAddressMap](../../debugger/debug-interface-access/idiaaddressmap.md)
+- [IDiaAddressMap::put_addressMapEnabled](../../debugger/debug-interface-access/idiaaddressmap-put-addressmapenabled.md)
+- [IDiaAddressMap::set_imageHeaders](../../debugger/debug-interface-access/idiaaddressmap-set-imageheaders.md)

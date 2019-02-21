@@ -26,7 +26,7 @@ HRESULT get_sealed( 
 
 #### Parameters
  `pRetVal`
- [out] Returns `TRUE` if the class or method is sealed; otherwise, returns `FALSE`.
+- [out] Returns `TRUE` if the class or method is sealed; otherwise, returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
@@ -45,4 +45,4 @@ HRESULT get_sealed( 
  DLL: msdia100.dll
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

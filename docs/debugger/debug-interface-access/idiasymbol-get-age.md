@@ -26,7 +26,7 @@ HRESULT get_age ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns the age value of a .pdb file.
+- [out] Returns the age value of a .pdb file.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or error code.
@@ -45,4 +45,4 @@ HRESULT get_age ( 
 |Version:|DIA SDK v7.0|
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

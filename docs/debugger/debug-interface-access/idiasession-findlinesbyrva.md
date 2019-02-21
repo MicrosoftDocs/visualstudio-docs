@@ -28,13 +28,13 @@ HRESULT findLinesByRVA ( 
 
 #### Parameters
 `rva`
-[in] Specifies the address as an RVA.
+- [in] Specifies the address as an RVA.
 
 `length`
-[in] Specifies the number of bytes of address range to cover with this query.
+- [in] Specifies the number of bytes of address range to cover with this query.
 
 `ppResult`
-[out] Returns an [IDiaEnumLineNumbers](../../debugger/debug-interface-access/idiaenumlinenumbers.md) object that contains a list of all the line numbers that cover the specified address range.
+- [out] Returns an [IDiaEnumLineNumbers](../../debugger/debug-interface-access/idiaenumlinenumbers.md) object that contains a list of all the line numbers that cover the specified address range.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -59,5 +59,5 @@ IDiaEnumLineNumbers* GetLineNumbersByRVA(IDiaSymbol *pFunc, IDiaSession *pSessio
 ```
 
 ## See Also
-[IDiaEnumLineNumbers](../../debugger/debug-interface-access/idiaenumlinenumbers.md)
-[IDiaSession](../../debugger/debug-interface-access/idiasession.md)
+- [IDiaEnumLineNumbers](../../debugger/debug-interface-access/idiaenumlinenumbers.md)
+- [IDiaSession](../../debugger/debug-interface-access/idiasession.md)

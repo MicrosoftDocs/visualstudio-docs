@@ -26,10 +26,10 @@ HRESULT get_functionParent ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns an [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md) object for the enclosing function.
+- [out] Returns an [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md) object for the enclosing function.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## See Also
- [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)
+- [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)

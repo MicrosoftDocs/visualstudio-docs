@@ -81,7 +81,7 @@ The values in this enumeration are returned by a call to the [IDiaSymbol::get_lo
 Header: cvconst.h
 
 ## See Also
-[Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)
-[IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
-[IDiaSymbol::get_locationType](../../debugger/debug-interface-access/idiasymbol-get-locationtype.md)
-[Symbol Locations](../../debugger/debug-interface-access/symbol-locations.md)
+- [Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSymbol::get_locationType](../../debugger/debug-interface-access/idiasymbol-get-locationtype.md)
+- [Symbol Locations](../../debugger/debug-interface-access/symbol-locations.md)

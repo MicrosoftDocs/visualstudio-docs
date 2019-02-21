@@ -26,7 +26,7 @@ HRESULT get_optimizedCodeDebugInfo(
 
 #### Parameters
  `pFlag`
- [out] Returns `TRUE` if the optimized function or label contains debugging information; otherwise, returns `FALSE`.
+- [out] Returns `TRUE` if the optimized function or label contains debugging information; otherwise, returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
@@ -41,4 +41,4 @@ HRESULT get_optimizedCodeDebugInfo(
 |Header:|dia2.h|
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

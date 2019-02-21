@@ -26,7 +26,7 @@ HRESULT get_undecoratedName ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns the undecorated name for a C++ decorated name.
+- [out] Returns the undecorated name for a C++ decorated name.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
@@ -35,4 +35,4 @@ HRESULT get_undecoratedName ( 
 >  A return value of `S_FALSE` means the property is not available for the symbol.
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

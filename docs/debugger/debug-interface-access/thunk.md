@@ -53,6 +53,6 @@ Each `thunk` is identified by a `SymTagThunk` tag.
 |[IDiaSymbol::get_volatileType](../../debugger/debug-interface-access/idiasymbol-get-volatiletype.md)|`BOOL`|`TRUE` if the thunk is marked as volatile (only in DIA SDK V8.0 or later).|
 
 ## See Also
- [Lexical Hierarchy of Symbol Types](../../debugger/debug-interface-access/lexical-hierarchy-of-symbol-types.md)
- [LocationType Enumeration](../../debugger/debug-interface-access/locationtype.md)
- [THUNK_ORDINAL Enumeration](../../debugger/debug-interface-access/thunk-ordinal.md)
+- [Lexical Hierarchy of Symbol Types](../../debugger/debug-interface-access/lexical-hierarchy-of-symbol-types.md)
+- [LocationType Enumeration](../../debugger/debug-interface-access/locationtype.md)
+- [THUNK_ORDINAL Enumeration](../../debugger/debug-interface-access/thunk-ordinal.md)

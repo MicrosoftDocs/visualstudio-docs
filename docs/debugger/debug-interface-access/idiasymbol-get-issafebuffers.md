@@ -26,7 +26,7 @@ HRESULT get_isSafeBuffers( 
 
 #### Parameters
  `pRetVal`
- [out] Returns `TRUE` if the pointer uses a preprocessor directive for a safe buffer; otherwise, returns `FALSE`.
+- [out] Returns `TRUE` if the pointer uses a preprocessor directive for a safe buffer; otherwise, returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
@@ -44,5 +44,5 @@ HRESULT get_isSafeBuffers( 
  DLL: msdia100.dll
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
- [strict_gs_check](/cpp/preprocessor/strict-gs-check)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [strict_gs_check](/cpp/preprocessor/strict-gs-check)

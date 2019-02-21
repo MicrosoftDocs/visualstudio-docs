@@ -26,10 +26,10 @@ HRESULT get_filename ( 
 
 #### Parameters
  pRetVal
- [out] Returns the file name for the source.
+- [out] Returns the file name for the source.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.
 
 ## See Also
- [IDiaInjectedSource](../../debugger/debug-interface-access/idiainjectedsource.md)
+- [IDiaInjectedSource](../../debugger/debug-interface-access/idiainjectedsource.md)

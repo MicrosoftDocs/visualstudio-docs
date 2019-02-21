@@ -26,7 +26,7 @@ HRESULT get_addressOffset ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns the offset part of the memory address where a block begins.
+- [out] Returns the offset part of the memory address where a block begins.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.
@@ -40,5 +40,5 @@ pLine->get_addressOffset( &offset);
 ```
 
 ## See Also
- [IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md)
- [IDiaLineNumber::get_addressSection](../../debugger/debug-interface-access/idialinenumber-get-addresssection.md)
+- [IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md)
+- [IDiaLineNumber::get_addressSection](../../debugger/debug-interface-access/idialinenumber-get-addresssection.md)

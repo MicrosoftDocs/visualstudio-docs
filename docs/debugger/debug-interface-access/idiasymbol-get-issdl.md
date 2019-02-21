@@ -23,10 +23,10 @@ HRESULT get_isSdl(
 
 #### Parameters
  `pRetVal`
- [out] A pointer to a `BOOL` that specifies whether the module is compiled with the /SDL option.
+- [out] A pointer to a `BOOL` that specifies whether the module is compiled with the /SDL option.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

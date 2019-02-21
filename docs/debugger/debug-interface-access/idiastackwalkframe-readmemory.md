@@ -30,22 +30,22 @@ HRESULT readMemory ( 
 
 #### Parameters
  `type`
- [in] One of the [MemoryTypeEnum Enumeration](../../debugger/debug-interface-access/memorytypeenum.md) enumeration values that specifies the kind of memory to access.
+- [in] One of the [MemoryTypeEnum Enumeration](../../debugger/debug-interface-access/memorytypeenum.md) enumeration values that specifies the kind of memory to access.
 
  `va`
- [in] Virtual address location in image to begin reading.
+- [in] Virtual address location in image to begin reading.
 
  `cbData`
- [in] Size of the data buffer, in bytes.
+- [in] Size of the data buffer, in bytes.
 
  `pcbData`
- [out] Returns the number of bytes returned. If `data` is `NULL`, then `pcbData` contains the total number of bytes of data available.
+- [out] Returns the number of bytes returned. If `data` is `NULL`, then `pcbData` contains the total number of bytes of data available.
 
  `data`
- [out] A buffer that is to be filled in with data from the specified location.
+- [out] A buffer that is to be filled in with data from the specified location.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## See Also
- [IDiaStackWalkFrame](../../debugger/debug-interface-access/idiastackwalkframe.md)
+- [IDiaStackWalkFrame](../../debugger/debug-interface-access/idiastackwalkframe.md)

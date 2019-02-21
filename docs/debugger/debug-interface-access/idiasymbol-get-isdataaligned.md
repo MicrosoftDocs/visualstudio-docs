@@ -26,7 +26,7 @@ HRESULT get_isDataAligned(
 
 #### Parameters
  `pFlag`
- [out] Returns `TRUE` if the UDT has been aligned to some memory boundary; otherwise, returns `FALSE`.
+- [out] Returns `TRUE` if the UDT has been aligned to some memory boundary; otherwise, returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or error code.
@@ -45,4 +45,4 @@ HRESULT get_isDataAligned(
 |Version:|DIA SDK v8.0|
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

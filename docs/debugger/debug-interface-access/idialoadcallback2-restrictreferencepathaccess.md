@@ -29,4 +29,4 @@ HRESULT RestrictReferencePathAccess();
  Any return code other than `S_OK` to prevent looking for a .pdb file in the path where the .exe file is located.
 
 ## See Also
- [IDiaLoadCallback2](../../debugger/debug-interface-access/idialoadcallback2.md)
+- [IDiaLoadCallback2](../../debugger/debug-interface-access/idialoadcallback2.md)

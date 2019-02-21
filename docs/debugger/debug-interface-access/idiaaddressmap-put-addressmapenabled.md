@@ -26,7 +26,7 @@ HRESULT put_addressMapEnabled ( 
 
 #### Parameters
  NewVal
- [in] Set to `TRUE` to enable the translation of symbols, or `FALSE` to disable.
+- [in] Set to `TRUE` to enable the translation of symbols, or `FALSE` to disable.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -39,6 +39,6 @@ HRESULT put_addressMapEnabled ( 
  The current state of the address map being enabled can be retrieved with a call to the [IDiaAddressMap::get_addressMapEnabled](../../debugger/debug-interface-access/idiaaddressmap-get-addressmapenabled.md) method.
 
 ## See Also
- [IDiaAddressMap](../../debugger/debug-interface-access/idiaaddressmap.md)
- [IDiaAddressMap::set_addressMap](../../debugger/debug-interface-access/idiaaddressmap-set-addressmap.md)
- [IDiaAddressMap::get_addressMapEnabled](../../debugger/debug-interface-access/idiaaddressmap-get-addressmapenabled.md)
+- [IDiaAddressMap](../../debugger/debug-interface-access/idiaaddressmap.md)
+- [IDiaAddressMap::set_addressMap](../../debugger/debug-interface-access/idiaaddressmap-set-addressmap.md)
+- [IDiaAddressMap::get_addressMapEnabled](../../debugger/debug-interface-access/idiaaddressmap-get-addressmapenabled.md)

@@ -26,10 +26,10 @@ HRESULT get_discardable ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns `TRUE` if the section can be discarded from memory as needed; otherwise, returns `FALSE`.
+- [out] Returns `TRUE` if the section can be discarded from memory as needed; otherwise, returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.
 
 ## See Also
- [IDiaSectionContrib](../../debugger/debug-interface-access/idiasectioncontrib.md)
+- [IDiaSectionContrib](../../debugger/debug-interface-access/idiasectioncontrib.md)

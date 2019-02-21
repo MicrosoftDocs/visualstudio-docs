@@ -37,5 +37,5 @@ An array is identified by a `SymTagArray` symbol.
 |[IDiaSymbol::get_volatileType](../../debugger/debug-interface-access/idiasymbol-get-volatiletype.md)|`BOOL`|`TRUE` if the array is marked as volatile.|
 
 ## See Also
- [Class Hierarchy of Symbol Types](../../debugger/debug-interface-access/class-hierarchy-of-symbol-types.md)
- [Dimension](../../debugger/debug-interface-access/dimension.md)
+- [Class Hierarchy of Symbol Types](../../debugger/debug-interface-access/class-hierarchy-of-symbol-types.md)
+- [Dimension](../../debugger/debug-interface-access/dimension.md)

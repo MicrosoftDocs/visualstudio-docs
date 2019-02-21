@@ -26,10 +26,10 @@ HRESULT Skip ( 
 
 #### Parameters
  celt
- [in] The number of line numbers in the enumeration sequence to skip.
+- [in] The number of line numbers in the enumeration sequence to skip.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` if there are no more line numbers to skip.
 
 ## See Also
- [IDiaEnumLineNumbers](../../debugger/debug-interface-access/idiaenumlinenumbers.md)
+- [IDiaEnumLineNumbers](../../debugger/debug-interface-access/idiaenumlinenumbers.md)

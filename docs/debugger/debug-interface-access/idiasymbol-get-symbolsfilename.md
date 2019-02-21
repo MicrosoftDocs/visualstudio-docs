@@ -26,7 +26,7 @@ HRESULT get_symbolsFileName ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns the name of the file from which the symbols were loaded.
+- [out] Returns the name of the file from which the symbols were loaded.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
@@ -38,5 +38,5 @@ HRESULT get_symbolsFileName ( 
  This property is valid only for symbols with a [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md) value of `SymTagExe` that also have global scope.
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
- [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md)

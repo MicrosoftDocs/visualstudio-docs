@@ -26,7 +26,7 @@ HRESULT get_columnNumberEnd ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns the column number where the expression or statement ends. If the value is zero, then the column end information is not present.
+- [out] Returns the column number where the expression or statement ends. If the value is zero, then the column end information is not present.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.
@@ -35,4 +35,4 @@ HRESULT get_columnNumberEnd ( 
  The column value returned by this method is a byte offset into the line to the position after the last character of the statement on the line.
 
 ## See Also
- [IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md)
+- [IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md)

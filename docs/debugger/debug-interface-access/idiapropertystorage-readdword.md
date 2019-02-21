@@ -27,10 +27,10 @@ HRESULT ReadDWORD ( 
 
 #### Parameters
  `id`
- [in] Identifier of the property to be read (`PROPID` is defined in WTypes.h as a `ULONG`).
+- [in] Identifier of the property to be read (`PROPID` is defined in WTypes.h as a `ULONG`).
 
  `pValue`
- [out] Returns the property value.
+- [out] Returns the property value.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise returns an error code. Returns `E_INVALIDARG` if the property is not of type `DWORD`.
@@ -39,4 +39,4 @@ HRESULT ReadDWORD ( 
  A `DWORD` is defined by Windows as a 32-bit unsigned integer.
 
 ## See Also
- [IDiaPropertyStorage](../../debugger/debug-interface-access/idiapropertystorage.md)
+- [IDiaPropertyStorage](../../debugger/debug-interface-access/idiapropertystorage.md)

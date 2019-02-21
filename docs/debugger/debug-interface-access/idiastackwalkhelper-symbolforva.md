@@ -27,14 +27,14 @@ HRESULT symbolForVA( 
 
 #### Parameters
  `va`
- [in] The virtual address that is contained in the requested symbol. The symbol must be a `SymTagFunctionType` (a value from the [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md) enumeration).
+- [in] The virtual address that is contained in the requested symbol. The symbol must be a `SymTagFunctionType` (a value from the [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md) enumeration).
 
  `ppSymbol`
- [out] An [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) object that represents the symbol at the specified address.
+- [out] An [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) object that represents the symbol at the specified address.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## See Also
- [IDiaStackWalkHelper](../../debugger/debug-interface-access/idiastackwalkhelper.md)
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaStackWalkHelper](../../debugger/debug-interface-access/idiastackwalkhelper.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

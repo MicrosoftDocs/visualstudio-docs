@@ -26,10 +26,10 @@ HRESULT get_offset ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns the offset, in segments, where the section begins.
+- [out] Returns the offset, in segments, where the section begins.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.
 
 ## See Also
- [IDiaSegment](../../debugger/debug-interface-access/idiasegment.md)
+- [IDiaSegment](../../debugger/debug-interface-access/idiasegment.md)

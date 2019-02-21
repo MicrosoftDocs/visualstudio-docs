@@ -26,10 +26,10 @@ HRESULT Clone ( 
 
 #### Parameters
  `ppenum`
- [out] Returns an [IDiaEnumDebugStreams](../../debugger/debug-interface-access/idiaenumdebugstreams.md) object that contains a duplicate of the  enumerator. The streams are not duplicated, only the enumerator.
+- [out] Returns an [IDiaEnumDebugStreams](../../debugger/debug-interface-access/idiaenumdebugstreams.md) object that contains a duplicate of the  enumerator. The streams are not duplicated, only the enumerator.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## See Also
- [IDiaEnumDebugStreams](../../debugger/debug-interface-access/idiaenumdebugstreams.md)
+- [IDiaEnumDebugStreams](../../debugger/debug-interface-access/idiaenumdebugstreams.md)

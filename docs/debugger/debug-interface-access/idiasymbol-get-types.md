@@ -28,13 +28,13 @@ HRESULT get_types ( 
 
 #### Parameters
  `cTypes`
- [in] Size of the buffer to hold the data.
+- [in] Size of the buffer to hold the data.
 
  `pcTypes`
- [out] Returns the number of types written, or, if the `types` parameter is `NULL`, then the total number of types available.
+- [out] Returns the number of types written, or, if the `types` parameter is `NULL`, then the total number of types available.
 
  `types[]`
- [out] An array that is to be filled in with the [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) objects that represent all the types for this symbol.
+- [out] An array that is to be filled in with the [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) objects that represent all the types for this symbol.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
@@ -43,4 +43,4 @@ HRESULT get_types ( 
 >  A return value of `S_FALSE` means the property is not available for the symbol.
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

@@ -26,7 +26,7 @@ HRESULT get_checksumType ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns the checksum type.
+- [out] Returns the checksum type.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -45,5 +45,5 @@ HRESULT get_checksumType ( 
  To obtain the actual checksum bytes for the source file, call the [IDiaSourceFile::get_checksum](../../debugger/debug-interface-access/idiasourcefile-get-checksum.md) method.
 
 ## See Also
- [IDiaSourceFile](../../debugger/debug-interface-access/idiasourcefile.md)
- [IDiaSourceFile::get_checksum](../../debugger/debug-interface-access/idiasourcefile-get-checksum.md)
+- [IDiaSourceFile](../../debugger/debug-interface-access/idiasourcefile.md)
+- [IDiaSourceFile::get_checksum](../../debugger/debug-interface-access/idiasourcefile-get-checksum.md)

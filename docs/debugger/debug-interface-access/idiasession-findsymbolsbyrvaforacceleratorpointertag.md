@@ -27,16 +27,16 @@ HRESULT findSymbolsByRVAForAcceleratorPointerTag ( 
 
 #### Parameters
  `parent`
- [in] An `IDiaSymbol` that corresponds to the Accelerator stub function to be searched.
+- [in] An `IDiaSymbol` that corresponds to the Accelerator stub function to be searched.
 
  `tagValue`
- [in] The pointer tag value.
+- [in] The pointer tag value.
 
  `rva`
- [in] The relative virtual address.
+- [in] The relative virtual address.
 
  `ppResult`
- [out] A pointer to an `IDiaEnumSymbols` interface pointer that is initialized with the result.
+- [out] A pointer to an `IDiaEnumSymbols` interface pointer that is initialized with the result.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -45,6 +45,6 @@ HRESULT findSymbolsByRVAForAcceleratorPointerTag ( 
  Call this method only on an `IDiaSymbol` interface that corresponds to an Accelerator stub function.
 
 ## See Also
- [IDiaSession](../../debugger/debug-interface-access/idiasession.md)
- [IDiaEnumSymbols](../../debugger/debug-interface-access/idiaenumsymbols.md)
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSession](../../debugger/debug-interface-access/idiasession.md)
+- [IDiaEnumSymbols](../../debugger/debug-interface-access/idiaenumsymbols.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

@@ -26,7 +26,7 @@ HRESULT put_imageAlign ( 
 
 #### Parameters
  NewVal
- [in] The new image alignment value for the executable.
+- [in] The new image alignment value for the executable.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -40,5 +40,5 @@ HRESULT put_imageAlign ( 
 >  The image is already loaded by the time this method can be called. The `put_imageAlign` method is typically used when the image has been moved or changed and a new alignment is required.
 
 ## See Also
- [IDiaAddressMap](../../debugger/debug-interface-access/idiaaddressmap.md)
- [IDiaAddressMap::get_imageAlign](../../debugger/debug-interface-access/idiaaddressmap-get-imagealign.md)
+- [IDiaAddressMap](../../debugger/debug-interface-access/idiaaddressmap.md)
+- [IDiaAddressMap::get_imageAlign](../../debugger/debug-interface-access/idiaaddressmap-get-imagealign.md)

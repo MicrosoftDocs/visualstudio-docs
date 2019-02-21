@@ -26,7 +26,7 @@ HRESULT get_udtKind ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns a value from the [UdtKind Enumeration](../../debugger/debug-interface-access/udtkind.md) enumeration that specifies the kind of a UDT: structure, class, or union.
+- [out] Returns a value from the [UdtKind Enumeration](../../debugger/debug-interface-access/udtkind.md) enumeration that specifies the kind of a UDT: structure, class, or union.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or error code.
@@ -35,5 +35,5 @@ HRESULT get_udtKind ( 
 >  A return value of `S_FALSE` means the property is not available for the symbol.
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
- [UdtKind Enumeration](../../debugger/debug-interface-access/udtkind.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [UdtKind Enumeration](../../debugger/debug-interface-access/udtkind.md)

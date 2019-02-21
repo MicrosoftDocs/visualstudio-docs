@@ -32,6 +32,6 @@ A location program code can be annotated with a `SymTagAnnotation` symbol.
 |[IDiaSymbol::get_virtualAddress](../../debugger/debug-interface-access/idiasymbol-get-virtualaddress.md)|`ULONGLONG`|Position of this annotation within the executable image.|
 
 ## See Also
- [Lexical Hierarchy of Symbol Types](../../debugger/debug-interface-access/lexical-hierarchy-of-symbol-types.md)
- [LocationType Enumeration](../../debugger/debug-interface-access/locationtype.md)
- [Symbol Locations](../../debugger/debug-interface-access/symbol-locations.md)
+- [Lexical Hierarchy of Symbol Types](../../debugger/debug-interface-access/lexical-hierarchy-of-symbol-types.md)
+- [LocationType Enumeration](../../debugger/debug-interface-access/locationtype.md)
+- [Symbol Locations](../../debugger/debug-interface-access/symbol-locations.md)

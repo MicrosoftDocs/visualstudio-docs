@@ -26,7 +26,7 @@ HRESULT get_isNaked(
 
 #### Parameters
  `pFlag`
- [out] Returns `TRUE` if the function has the `naked` attribute; otherwise, returns `FALSE`.
+- [out] Returns `TRUE` if the function has the `naked` attribute; otherwise, returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
@@ -42,5 +42,5 @@ HRESULT get_isNaked(
 |Version:|DIA SDK v8.0|
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
- [Naked Function Calls](/cpp/cpp/naked-function-calls)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [Naked Function Calls](/cpp/cpp/naked-function-calls)

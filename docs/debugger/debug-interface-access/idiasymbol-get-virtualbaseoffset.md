@@ -26,7 +26,7 @@ HRESULT get_virtualBaseOffset ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns the offset in the virtual function table of a virtual function.
+- [out] Returns the offset in the virtual function table of a virtual function.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
@@ -35,4 +35,4 @@ HRESULT get_virtualBaseOffset ( 
 >  A return value of `S_FALSE` means the property is not available for the symbol.
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

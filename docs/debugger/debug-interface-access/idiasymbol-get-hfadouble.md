@@ -26,7 +26,7 @@ HRESULT get_hfaDouble( 
 
 #### Parameters
  `pRetVal`
- [out] Returns `TRUE` if the UDT contains HFA data of type double; otherwise, returns `FALSE`.
+- [out] Returns `TRUE` if the UDT contains HFA data of type double; otherwise, returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
@@ -44,5 +44,5 @@ HRESULT get_hfaDouble( 
  DLL: msdia100.dll
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
- [IDiaSymbol::get_udtKind](../../debugger/debug-interface-access/idiasymbol-get-udtkind.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSymbol::get_udtKind](../../debugger/debug-interface-access/idiasymbol-get-udtkind.md)

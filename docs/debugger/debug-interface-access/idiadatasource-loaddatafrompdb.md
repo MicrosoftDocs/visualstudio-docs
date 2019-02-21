@@ -26,7 +26,7 @@ HRESULT loadDataFromPdb (
 
 #### Parameters
 pdbPath
-[in] The path to the .pdb file.
+- [in] The path to the .pdb file.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code. The following table shows the possible return values for this method.
@@ -58,7 +58,7 @@ if (FAILED(hr))
 ```
 
 ## See Also
-[IDiaDataSource](../../debugger/debug-interface-access/idiadatasource.md)
-[IDiaDataSource::loadDataForExe](../../debugger/debug-interface-access/idiadatasource-loaddataforexe.md)
-[IDiaDataSource::loadAndValidateDataFromPdb](../../debugger/debug-interface-access/idiadatasource-loadandvalidatedatafrompdb.md)
-[IDiaDataSource::loadDataFromIStream](../../debugger/debug-interface-access/idiadatasource-loaddatafromistream.md)
+- [IDiaDataSource](../../debugger/debug-interface-access/idiadatasource.md)
+- [IDiaDataSource::loadDataForExe](../../debugger/debug-interface-access/idiadatasource-loaddataforexe.md)
+- [IDiaDataSource::loadAndValidateDataFromPdb](../../debugger/debug-interface-access/idiadatasource-loadandvalidatedatafrompdb.md)
+- [IDiaDataSource::loadDataFromIStream](../../debugger/debug-interface-access/idiadatasource-loaddatafromistream.md)

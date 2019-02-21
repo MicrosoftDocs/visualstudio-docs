@@ -25,13 +25,13 @@ HRESULT findSymbolsByRVAForAcceleratorPointerTag (
 
 #### Parameters
  `tagValue`
- [in] The pointer tag value for which the pointee symbol records are found.
+- [in] The pointer tag value for which the pointee symbol records are found.
 
  `rva`
- [in] The rva that is used to filter the symbols that correspond to the pointee variable with the specified tag value.
+- [in] The rva that is used to filter the symbols that correspond to the pointee variable with the specified tag value.
 
  `ppResult`
- [out] A pointer to an `IDiaEnumSymbols` interface pointer which is initialized with the result.
+- [out] A pointer to an `IDiaEnumSymbols` interface pointer which is initialized with the result.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
@@ -40,5 +40,5 @@ HRESULT findSymbolsByRVAForAcceleratorPointerTag (
  Call this method only on an `IDiaSymbol` interface that corresponds to an Accelerator stub function.
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
- [IDiaEnumSymbols](../../debugger/debug-interface-access/idiaenumsymbols.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaEnumSymbols](../../debugger/debug-interface-access/idiaenumsymbols.md)

@@ -26,7 +26,7 @@ HRESULT get_addressSection ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns the section part of an address location.
+- [out] Returns the section part of an address location.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
@@ -47,5 +47,5 @@ HRESULT get_addressSection ( 
 |Version:|DIA SDK v7.0|
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
- [LocationType Enumeration](../../debugger/debug-interface-access/locationtype.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [LocationType Enumeration](../../debugger/debug-interface-access/locationtype.md)

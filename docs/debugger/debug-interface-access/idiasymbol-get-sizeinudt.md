@@ -23,10 +23,10 @@ HRESULT get_sizeInUdt(
 
 #### Parameters
  `pRetVal`
- [out] A pointer to a `DWORD` that specifies the size of the member.
+- [out] A pointer to a `DWORD` that specifies the size of the member.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

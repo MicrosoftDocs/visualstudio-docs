@@ -26,7 +26,7 @@ HRESULT get_arrayIndexTypeId ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns the array index type ID of the symbol.
+- [out] Returns the array index type ID of the symbol.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
@@ -45,4 +45,4 @@ HRESULT get_arrayIndexTypeId ( 
 |Version:|DIA SDK v7.0|
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

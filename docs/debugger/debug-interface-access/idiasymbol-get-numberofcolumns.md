@@ -23,10 +23,10 @@ HRESULT get_numberOfColumns(
 
 #### Parameters
  `pRetVal`
- [out] A pointer to a `DWORD` that holds the number of columns in the matrix.
+- [out] A pointer to a `DWORD` that holds the number of columns in the matrix.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

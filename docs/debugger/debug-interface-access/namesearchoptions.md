@@ -68,7 +68,7 @@ The values from this enumeration are passed to the following methods:
 Header: dia2.h
 
 ## See Also
-[Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)
-[IDiaSession::findChildren](../../debugger/debug-interface-access/idiasession-findchildren.md)
-[IDiaSession::findFile](../../debugger/debug-interface-access/idiasession-findfile.md)
-[IDiaSymbol::findChildren](../../debugger/debug-interface-access/idiasymbol-findchildren.md)
+- [Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)
+- [IDiaSession::findChildren](../../debugger/debug-interface-access/idiasession-findchildren.md)
+- [IDiaSession::findFile](../../debugger/debug-interface-access/idiasession-findfile.md)
+- [IDiaSymbol::findChildren](../../debugger/debug-interface-access/idiasymbol-findchildren.md)

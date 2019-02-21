@@ -26,7 +26,7 @@ HRESULT get_RValueReference (
 
 #### Parameters
  `pRetVal`
- [out] Returns `TRUE` if the pointer is an rvalue reference; otherwise, returns `FALSE`.
+- [out] Returns `TRUE` if the pointer is an rvalue reference; otherwise, returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
@@ -44,4 +44,4 @@ HRESULT get_RValueReference (
  DLL: msdia100.dll
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

@@ -26,10 +26,10 @@ HRESULT Skip ( 
 
 #### Parameters
  celt
- [in] The number of source files in the enumeration sequence to skip.
+- [in] The number of source files in the enumeration sequence to skip.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` if there are no more source files to skip.
 
 ## See Also
- [IDiaEnumSourceFiles](../../debugger/debug-interface-access/idiaenumsourcefiles.md)
+- [IDiaEnumSourceFiles](../../debugger/debug-interface-access/idiaenumsourcefiles.md)

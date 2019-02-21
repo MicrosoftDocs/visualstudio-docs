@@ -26,7 +26,7 @@ HRESULT get_statement ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns `TRUE` if this line information describes the beginning of a statement in the program source.
+- [out] Returns `TRUE` if this line information describes the beginning of a statement in the program source.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.
@@ -35,4 +35,4 @@ HRESULT get_statement ( 
  Statements can span multiple lines. This method indicates if the associated line number marks the beginning of such a multi-line statement.
 
 ## See Also
- [IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md)
+- [IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md)

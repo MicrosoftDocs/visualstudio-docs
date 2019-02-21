@@ -26,7 +26,7 @@ HRESULT get_language ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns a value from the [CV_CFL_LANG Enumeration](../../debugger/debug-interface-access/cv-cfl-lang.md) enumeration that specifies the language of the source.
+- [out] Returns a value from the [CV_CFL_LANG Enumeration](../../debugger/debug-interface-access/cv-cfl-lang.md) enumeration that specifies the language of the source.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or error code.
@@ -35,5 +35,5 @@ HRESULT get_language ( 
 >  A return value of `S_FALSE` means the property is not available for the symbol.
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
- [CV_CFL_LANG Enumeration](../../debugger/debug-interface-access/cv-cfl-lang.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [CV_CFL_LANG Enumeration](../../debugger/debug-interface-access/cv-cfl-lang.md)

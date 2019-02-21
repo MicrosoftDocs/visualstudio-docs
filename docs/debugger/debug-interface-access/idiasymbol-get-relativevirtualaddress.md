@@ -26,7 +26,7 @@ HRESULT get_relativeVirtualAddress ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns the relative virtual address of the location.
+- [out] Returns the relative virtual address of the location.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
@@ -43,5 +43,5 @@ pSymbol->get_relativeVirtualAddress( &rva );
 ```
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
- [LocationType Enumeration](../../debugger/debug-interface-access/locationtype.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [LocationType Enumeration](../../debugger/debug-interface-access/locationtype.md)

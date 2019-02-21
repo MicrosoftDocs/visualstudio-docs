@@ -26,10 +26,10 @@ HRESULT Clone( 
 
 #### Parameters
  ppenum
- [out] Returns an [IDiaEnumSectionContribs](../../debugger/debug-interface-access/idiaenumsectioncontribs.md) object that contains a duplicate of the enumerator. The section contributions are not duplicated, only the enumerator.
+- [out] Returns an [IDiaEnumSectionContribs](../../debugger/debug-interface-access/idiaenumsectioncontribs.md) object that contains a duplicate of the enumerator. The section contributions are not duplicated, only the enumerator.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## See Also
- [IDiaEnumSectionContribs](../../debugger/debug-interface-access/idiaenumsectioncontribs.md)
+- [IDiaEnumSectionContribs](../../debugger/debug-interface-access/idiaenumsectioncontribs.md)

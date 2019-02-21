@@ -26,7 +26,7 @@ HRESULT get_editAndContinueEnabled ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns `TRUE` if edit-and-continue was enabled at compilation; otherwise, returns `FALSE`.
+- [out] Returns `TRUE` if edit-and-continue was enabled at compilation; otherwise, returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
@@ -42,5 +42,5 @@ HRESULT get_editAndContinueEnabled ( 
 |Version:|DIA SDK v7.0|
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
- [/Z7, /Zi, /ZI (Debug Information Format)](/cpp/build/reference/z7-zi-zi-debug-information-format)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [/Z7, /Zi, /ZI (Debug Information Format)](/cpp/build/reference/z7-zi-zi-debug-information-format)

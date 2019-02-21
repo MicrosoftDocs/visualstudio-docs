@@ -21,14 +21,19 @@ Debug information about a compiled program is stored in the program database (.p
  When trying to access the property, if no error occurs and the symbol property has been assigned a value, the property's "get" method returns `S_OK`. A return value of `S_FALSE` indicates that the property is not valid for the current symbol.
 
 ## In This Section
- [Symbol Locations](../../debugger/debug-interface-access/symbol-locations.md)
- Describes the different kinds of locations a symbol can have.
 
- [Lexical Hierarchy of Symbol Types](../../debugger/debug-interface-access/lexical-hierarchy-of-symbol-types.md)
- Describes the symbol types that form lexical hierarchies such as files, modules, and functions.
+[Symbol Locations](../../debugger/debug-interface-access/symbol-locations.md)
 
- [Class Hierarchy of Symbol Types](../../debugger/debug-interface-access/class-hierarchy-of-symbol-types.md)
- Describes the symbol types that correspond to different language elements such as classes, arrays, and function return types.
+Describes the different kinds of locations a symbol can have.
+
+[Lexical Hierarchy of Symbol Types](../../debugger/debug-interface-access/lexical-hierarchy-of-symbol-types.md)
+
+Describes the symbol types that form lexical hierarchies such as files, modules, and functions.
+
+[Class Hierarchy of Symbol Types](../../debugger/debug-interface-access/class-hierarchy-of-symbol-types.md)
+
+Describes the symbol types that correspond to different language elements such as classes, arrays, and function return types.
 
 ## See Also
- [Debug Interface Access SDK](../../debugger/debug-interface-access/debug-interface-access-sdk.md)
+
+- [Debug Interface Access SDK](../../debugger/debug-interface-access/debug-interface-access-sdk.md)

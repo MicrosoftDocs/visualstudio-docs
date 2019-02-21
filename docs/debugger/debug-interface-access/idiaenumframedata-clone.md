@@ -26,10 +26,10 @@ HRESULT Clone( 
 
 #### Parameters
  ppenum
- [out] Returns an [IDiaEnumFrameData](../../debugger/debug-interface-access/idiaenumframedata.md) object that contains a duplicate  of the enumerator. The frame data is not duplicated, only the enumerator.
+- [out] Returns an [IDiaEnumFrameData](../../debugger/debug-interface-access/idiaenumframedata.md) object that contains a duplicate  of the enumerator. The frame data is not duplicated, only the enumerator.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## See Also
- [IDiaEnumFrameData](../../debugger/debug-interface-access/idiaenumframedata.md)
+- [IDiaEnumFrameData](../../debugger/debug-interface-access/idiaenumframedata.md)

@@ -121,13 +121,13 @@ Library: diaguids.lib
 DLL: msdia80.dll
 
 ## See Also
-[Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)
-[IDiaSession::getEnumTables](../../debugger/debug-interface-access/idiasession-getenumtables.md)
-[IDiaSectionContrib](../../debugger/debug-interface-access/idiasectioncontrib.md)
-[IDiaSegment](../../debugger/debug-interface-access/idiasegment.md)
-[IDiaInjectedSource](../../debugger/debug-interface-access/idiainjectedsource.md)
-[IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)
-[IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
-[IDiaSourceFile](../../debugger/debug-interface-access/idiasourcefile.md)
-[IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md)
-[IDiaEnumInjectedSources](../../debugger/debug-interface-access/idiaenuminjectedsources.md)
+- [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)
+- [IDiaSession::getEnumTables](../../debugger/debug-interface-access/idiasession-getenumtables.md)
+- [IDiaSectionContrib](../../debugger/debug-interface-access/idiasectioncontrib.md)
+- [IDiaSegment](../../debugger/debug-interface-access/idiasegment.md)
+- [IDiaInjectedSource](../../debugger/debug-interface-access/idiainjectedsource.md)
+- [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSourceFile](../../debugger/debug-interface-access/idiasourcefile.md)
+- [IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md)
+- [IDiaEnumInjectedSources](../../debugger/debug-interface-access/idiaenuminjectedsources.md)

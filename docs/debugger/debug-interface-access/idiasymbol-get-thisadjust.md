@@ -26,7 +26,7 @@ HRESULT get_thisAdjust ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns the logical `this` adjustor for the method.
+- [out] Returns the logical `this` adjustor for the method.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
@@ -38,4 +38,4 @@ HRESULT get_thisAdjust ( 
  In some multiple inheritance cases the method itself must calculate a true `this` value by adding an offset to `this`.
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

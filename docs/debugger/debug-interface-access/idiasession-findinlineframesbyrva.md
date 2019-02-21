@@ -25,19 +25,19 @@ HRESULT findInlineFramesByRVA ( 
 
 #### Parameters
  `parent`
- [in] An `IDiaSymbol` object representing the parent.
+- [in] An `IDiaSymbol` object representing the parent.
 
  `rva`
- [in] Specifies the address as an RVA.
+- [in] Specifies the address as an RVA.
 
  `ppResult`
- [out] Holds an `IDiaEnumSymbols` object that contains the list of frames that are retrieved.
+- [out] Holds an `IDiaEnumSymbols` object that contains the list of frames that are retrieved.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## See Also
- [IDiaSession](../../debugger/debug-interface-access/idiasession.md)
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
- [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md)
- [IDiaEnumSymbols](../../debugger/debug-interface-access/idiaenumsymbols.md)
+- [IDiaSession](../../debugger/debug-interface-access/idiasession.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md)
+- [IDiaEnumSymbols](../../debugger/debug-interface-access/idiaenumsymbols.md)

@@ -26,7 +26,7 @@ HRESULT get_unalignedType ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns `TRUE` if the user-defined data type is unaligned; otherwise, returns `FALSE`.
+- [out] Returns `TRUE` if the user-defined data type is unaligned; otherwise, returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
@@ -35,4 +35,4 @@ HRESULT get_unalignedType ( 
 >  A return value of `S_FALSE` means the property is not available for the symbol.
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

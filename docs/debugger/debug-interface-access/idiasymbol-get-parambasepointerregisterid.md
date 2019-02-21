@@ -26,7 +26,7 @@ HRESULT get_paramBasePointerRegisterId ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns the ID of the register that holds a base pointer to the parameters.
+- [out] Returns the ID of the register that holds a base pointer to the parameters.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
@@ -44,4 +44,4 @@ HRESULT get_paramBasePointerRegisterId ( 
  DLL: msdia100.dll
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

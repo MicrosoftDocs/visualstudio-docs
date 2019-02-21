@@ -26,10 +26,10 @@ HRESULT Enum ( 
 
 #### Parameters
  `ppenum`
- [out] Returns an `IEnumSTATPROPSTG` object (in the Microsoft.VisualStudio.OLE.Interop namespace) representing an enumeration of properties.
+- [out] Returns an `IEnumSTATPROPSTG` object (in the Microsoft.VisualStudio.OLE.Interop namespace) representing an enumeration of properties.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise returns an error code.
 
 ## See Also
- [IDiaPropertyStorage](../../debugger/debug-interface-access/idiapropertystorage.md)
+- [IDiaPropertyStorage](../../debugger/debug-interface-access/idiapropertystorage.md)

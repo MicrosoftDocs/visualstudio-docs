@@ -29,5 +29,5 @@ The compiler may include additional environment variables with symbols. There is
 |[IDiaSymbol::get_value](../../debugger/debug-interface-access/idiasymbol-get-value.md)|`VARIANT`|String-valued contents of the variable (`VT_BSTR`).|
 
 ## See Also
- [Compiland](../../debugger/debug-interface-access/compiland.md)
- [Lexical Hierarchy of Symbol Types](../../debugger/debug-interface-access/lexical-hierarchy-of-symbol-types.md)
+- [Compiland](../../debugger/debug-interface-access/compiland.md)
+- [Lexical Hierarchy of Symbol Types](../../debugger/debug-interface-access/lexical-hierarchy-of-symbol-types.md)

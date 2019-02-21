@@ -26,7 +26,7 @@ HRESULT get_imageAlign ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns  the image alignment value from the executable.
+- [out] Returns  the image alignment value from the executable.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -35,5 +35,5 @@ HRESULT get_imageAlign ( 
  Images are aligned to specific memory boundaries depending how the image was loaded and created. The alignment is typically on 1, 2, 4, 8, 16, 32, or 64 byte boundaries. The image alignment can be set with a call to the [IDiaAddressMap::put_imageAlign](../../debugger/debug-interface-access/idiaaddressmap-put-imagealign.md) method.
 
 ## See Also
- [IDiaAddressMap](../../debugger/debug-interface-access/idiaaddressmap.md)
- [IDiaAddressMap::put_imageAlign](../../debugger/debug-interface-access/idiaaddressmap-put-imagealign.md)
+- [IDiaAddressMap](../../debugger/debug-interface-access/idiaaddressmap.md)
+- [IDiaAddressMap::put_imageAlign](../../debugger/debug-interface-access/idiaaddressmap-put-imagealign.md)

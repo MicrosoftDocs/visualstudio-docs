@@ -26,10 +26,10 @@ HRESULT get_notPaged ( 
 
 #### Parameters
  `pRetVal`
- [out, retval] Returns `TRUE` if the section cannot be paged out; otherwise, returns `FALSE`.
+- [out, retval] Returns `TRUE` if the section cannot be paged out; otherwise, returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.
 
 ## See Also
- [IDiaSectionContrib](../../debugger/debug-interface-access/idiasectioncontrib.md)
+- [IDiaSectionContrib](../../debugger/debug-interface-access/idiasectioncontrib.md)

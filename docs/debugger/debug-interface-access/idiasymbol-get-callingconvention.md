@@ -26,7 +26,7 @@ HRESULT get_callingConvention ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns a value from the [CV_call_e Enumeration](../../debugger/debug-interface-access/cv-call-e.md) enumeration that specifies a method's calling convention.
+- [out] Returns a value from the [CV_call_e Enumeration](../../debugger/debug-interface-access/cv-call-e.md) enumeration that specifies a method's calling convention.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
@@ -42,5 +42,5 @@ HRESULT get_callingConvention ( 
 |Version:|DIA SDK v7.0|
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
- [CV_call_e Enumeration](../../debugger/debug-interface-access/cv-call-e.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [CV_call_e Enumeration](../../debugger/debug-interface-access/cv-call-e.md)

@@ -26,10 +26,10 @@ HRESULT get_relativeVirtualAddress ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns the image RVA of the contribution.
+- [out] Returns the image RVA of the contribution.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.
 
 ## See Also
- [IDiaSectionContrib](../../debugger/debug-interface-access/idiasectioncontrib.md)
+- [IDiaSectionContrib](../../debugger/debug-interface-access/idiasectioncontrib.md)

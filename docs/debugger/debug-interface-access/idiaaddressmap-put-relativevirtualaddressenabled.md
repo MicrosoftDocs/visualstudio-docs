@@ -26,7 +26,7 @@ HRESULT put_relativeVirtualAddressEnabled ( 
 
 #### Parameters
  NewVal
- [in] Set to `TRUE` to enable, or `FALSE` to disable.
+- [in] Set to `TRUE` to enable, or `FALSE` to disable.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -39,6 +39,6 @@ HRESULT put_relativeVirtualAddressEnabled ( 
  The `put_relativeVirtualAddress` method must be called to enable RVAs after a successful call to the [IDiaAddressMap::set_imageHeaders](../../debugger/debug-interface-access/idiaaddressmap-set-imageheaders.md) method has established new image headers.
 
 ## See Also
- [IDiaAddressMap](../../debugger/debug-interface-access/idiaaddressmap.md)
- [IDiaAddressMap::get_relativeVirtualAddressEnabled](../../debugger/debug-interface-access/idiaaddressmap-get-relativevirtualaddressenabled.md)
- [IDiaAddressMap::set_imageHeaders](../../debugger/debug-interface-access/idiaaddressmap-set-imageheaders.md)
+- [IDiaAddressMap](../../debugger/debug-interface-access/idiaaddressmap.md)
+- [IDiaAddressMap::get_relativeVirtualAddressEnabled](../../debugger/debug-interface-access/idiaaddressmap-get-relativevirtualaddressenabled.md)
+- [IDiaAddressMap::set_imageHeaders](../../debugger/debug-interface-access/idiaaddressmap-set-imageheaders.md)

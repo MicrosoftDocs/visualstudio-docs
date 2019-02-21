@@ -26,7 +26,7 @@ HRESULT get_virtualBasePointerOffset ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns the offset of the virtual base pointer.
+- [out] Returns the offset of the virtual base pointer.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
@@ -35,4 +35,4 @@ HRESULT get_virtualBasePointerOffset ( 
 >  A return value of `S_FALSE` means that the property is not available for the symbol.
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

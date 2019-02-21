@@ -26,7 +26,7 @@ HRESULT get_loadAddress ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns a virtual address (VA) where an .exe file or .dll file is loaded.
+- [out] Returns a virtual address (VA) where an .exe file or .dll file is loaded.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -35,5 +35,5 @@ HRESULT get_loadAddress ( 
  The returned load address is always zero unless specifically set using the [IDiaSession::put_loadAddress](../../debugger/debug-interface-access/idiasession-put-loadaddress.md) method.
 
 ## See Also
- [IDiaSession](../../debugger/debug-interface-access/idiasession.md)
- [IDiaSession::put_loadAddress](../../debugger/debug-interface-access/idiasession-put-loadaddress.md)
+- [IDiaSession](../../debugger/debug-interface-access/idiasession.md)
+- [IDiaSession::put_loadAddress](../../debugger/debug-interface-access/idiasession-put-loadaddress.md)

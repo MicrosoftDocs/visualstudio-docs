@@ -26,7 +26,7 @@ HRESULT get_bitPosition ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns the bit position of the location.
+- [out] Returns the bit position of the location.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or error code.
@@ -42,5 +42,5 @@ HRESULT get_bitPosition ( 
 |Version:|DIA SDK v7.0|
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
- [LocationType Enumeration](../../debugger/debug-interface-access/locationtype.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [LocationType Enumeration](../../debugger/debug-interface-access/locationtype.md)

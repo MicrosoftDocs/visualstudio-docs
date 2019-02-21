@@ -28,17 +28,17 @@ HRESULT searchForReturnAddressStart ( 
 
 #### Parameters
  `frame`
- [in] An [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md) object that represents the current stack frame.
+- [in] An [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md) object that represents the current stack frame.
 
  `startAddress`
- [in] A virtual memory address from which to begin searching.
+- [in] A virtual memory address from which to begin searching.
 
  `returnAddress`
- [out] Returns the nearest function return address to `startAddress`.
+- [out] Returns the nearest function return address to `startAddress`.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## See Also
- [IDiaStackWalkFrame](../../debugger/debug-interface-access/idiastackwalkframe.md)
- [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)
+- [IDiaStackWalkFrame](../../debugger/debug-interface-access/idiastackwalkframe.md)
+- [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)

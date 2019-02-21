@@ -39,6 +39,6 @@ Each unique function signature is identified by a `SymTagFunctionType` symbol. E
 |[IDiaSymbol::get_volatileType](../../debugger/debug-interface-access/idiasymbol-get-volatiletype.md)|`BOOL`|`TRUE` if the function is marked as volatile.|
 
 ## See Also
- [Class Hierarchy of Symbol Types](../../debugger/debug-interface-access/class-hierarchy-of-symbol-types.md)
- [CV_access_e Enumeration](../../debugger/debug-interface-access/cv-access-e.md)
- [FunctionArgType](../../debugger/debug-interface-access/functionargtype.md)
+- [Class Hierarchy of Symbol Types](../../debugger/debug-interface-access/class-hierarchy-of-symbol-types.md)
+- [CV_access_e Enumeration](../../debugger/debug-interface-access/cv-access-e.md)
+- [FunctionArgType](../../debugger/debug-interface-access/functionargtype.md)

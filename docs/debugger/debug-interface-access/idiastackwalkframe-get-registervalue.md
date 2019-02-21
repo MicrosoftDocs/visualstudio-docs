@@ -27,14 +27,14 @@ HRESULT get_registerValue ( 
 
 #### Parameters
  `index`
- [in] A value from the [CV_HREG_e Enumeration](../../debugger/debug-interface-access/cv-hreg-e.md) enumeration specifying the register to get the value for.
+- [in] A value from the [CV_HREG_e Enumeration](../../debugger/debug-interface-access/cv-hreg-e.md) enumeration specifying the register to get the value for.
 
  `pRetVal`
- [out] Returns the current value of the register.
+- [out] Returns the current value of the register.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## See Also
- [IDiaStackWalkFrame](../../debugger/debug-interface-access/idiastackwalkframe.md)
- [CV_HREG_e Enumeration](../../debugger/debug-interface-access/cv-hreg-e.md)
+- [IDiaStackWalkFrame](../../debugger/debug-interface-access/idiastackwalkframe.md)
+- [CV_HREG_e Enumeration](../../debugger/debug-interface-access/cv-hreg-e.md)

@@ -23,10 +23,10 @@ HRESULT get_numberOfModifiers(
 
 #### Parameters
  `pRetVal`
- [out] A pointer to a `DWORD` that specifies the number of modifiers that are applied to the original type.
+- [out] A pointer to a `DWORD` that specifies the number of modifiers that are applied to the original type.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

@@ -26,7 +26,7 @@ HRESULT get_hasSecurityChecks(
 
 #### Parameters
  `pFlag`
- [out] Returns `TRUE` if the function has any security checks; otherwise, returns `FALSE`.
+- [out] Returns `TRUE` if the function has any security checks; otherwise, returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
@@ -42,5 +42,5 @@ HRESULT get_hasSecurityChecks(
 |Version:|DIA SDK v8.0|
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
- [/GS (Buffer Security Check)](/cpp/build/reference/gs-buffer-security-check)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [/GS (Buffer Security Check)](/cpp/build/reference/gs-buffer-security-check)

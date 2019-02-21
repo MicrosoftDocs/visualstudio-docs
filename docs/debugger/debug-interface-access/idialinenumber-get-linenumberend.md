@@ -26,10 +26,10 @@ HRESULT get_lineNumberEnd ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns the line number where the statement or expression ends. If the value is zero, then the end information is not present.
+- [out] Returns the line number where the statement or expression ends. If the value is zero, then the end information is not present.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.
 
 ## See Also
- [IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md)
+- [IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md)

@@ -26,10 +26,10 @@ HRESULT get_virtualAddress ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns the VA of the beginning of the section.
+- [out] Returns the VA of the beginning of the section.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.
 
 ## See Also
- [IDiaSegment](../../debugger/debug-interface-access/idiasegment.md)
+- [IDiaSegment](../../debugger/debug-interface-access/idiasegment.md)

@@ -36,11 +36,15 @@ The Debug Interface Access (DIA) SDK supplies you with instructional documentati
   IDL: idl\dia2.idl
 
 ## In This Section
- [Overview](../../debugger/debug-interface-access/overview-debug-interface-access-sdk.md)
- Reviews the basic architecture of DIA.
 
- [Querying the .Pdb File](../../debugger/debug-interface-access/querying-the-dot-pdb-file.md)
- Provides step-by-step instructions on how to use the DIA API to query a .pdb file.
+[Overview](../../debugger/debug-interface-access/overview-debug-interface-access-sdk.md)
+
+Reviews the basic architecture of DIA.
+
+[Querying the .Pdb File](../../debugger/debug-interface-access/querying-the-dot-pdb-file.md)
+
+Provides step-by-step instructions on how to use the DIA API to query a .pdb file.
 
 ## See Also
- [Debug Interface Access SDK](../../debugger/debug-interface-access/debug-interface-access-sdk.md)
+
+- [Debug Interface Access SDK](../../debugger/debug-interface-access/debug-interface-access-sdk.md)

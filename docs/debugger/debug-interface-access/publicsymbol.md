@@ -41,6 +41,6 @@ When the .exe file is created, each public symbol (at a minimum, each global fun
 |[IDiaSymbol::get_undecoratedNameEx](../../debugger/debug-interface-access/idiasymbol-get-undecoratednameex.md)|`BSTR`|Part or all of the undecorated symbol name.|
 
 ## See Also
- [Lexical Hierarchy of Symbol Types](../../debugger/debug-interface-access/lexical-hierarchy-of-symbol-types.md)
- [LocationType Enumeration](../../debugger/debug-interface-access/locationtype.md)
- [Symbol Locations](../../debugger/debug-interface-access/symbol-locations.md)
+- [Lexical Hierarchy of Symbol Types](../../debugger/debug-interface-access/lexical-hierarchy-of-symbol-types.md)
+- [LocationType Enumeration](../../debugger/debug-interface-access/locationtype.md)
+- [Symbol Locations](../../debugger/debug-interface-access/symbol-locations.md)

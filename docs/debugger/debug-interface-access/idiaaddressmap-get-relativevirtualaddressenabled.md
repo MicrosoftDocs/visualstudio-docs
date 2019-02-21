@@ -26,7 +26,7 @@ HRESULT get_relativeVirtualAddressEnabled ( 
 
 #### Parameters
  pRetVal
- [out] Returns `TRUE` if the calculation of RVAs is enabled.
+- [out] Returns `TRUE` if the calculation of RVAs is enabled.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -37,6 +37,6 @@ HRESULT get_relativeVirtualAddressEnabled ( 
  Also, new image headers can be established by calling the [IDiaAddressMap::set_imageHeaders](../../debugger/debug-interface-access/idiaaddressmap-set-imageheaders.md) method followed by a call to the `put_relativeVirtualAddressEnabled` method to enable use of the RVAs using the new image headers.
 
 ## See Also
- [IDiaAddressMap](../../debugger/debug-interface-access/idiaaddressmap.md)
- [IDiaAddressMap::set_imageHeaders](../../debugger/debug-interface-access/idiaaddressmap-set-imageheaders.md)
- [IDiaAddressMap::put_relativeVirtualAddressEnabled](../../debugger/debug-interface-access/idiaaddressmap-put-relativevirtualaddressenabled.md)
+- [IDiaAddressMap](../../debugger/debug-interface-access/idiaaddressmap.md)
+- [IDiaAddressMap::set_imageHeaders](../../debugger/debug-interface-access/idiaaddressmap-set-imageheaders.md)
+- [IDiaAddressMap::put_relativeVirtualAddressEnabled](../../debugger/debug-interface-access/idiaaddressmap-put-relativevirtualaddressenabled.md)

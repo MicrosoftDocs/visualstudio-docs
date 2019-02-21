@@ -26,7 +26,7 @@ HRESULT get_noReturn(
 
 #### Parameters
  pFlag
- [out] Returns `TRUE` if the function has been declared as never returning with the `noreturn` attribute; otherwise, returns `FALSE`.
+- [out] Returns `TRUE` if the function has been declared as never returning with the `noreturn` attribute; otherwise, returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
@@ -42,5 +42,5 @@ HRESULT get_noReturn(
 |Version:|DIA SDK v8.0|
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
- [noreturn](/cpp/cpp/noreturn)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [noreturn](/cpp/cpp/noreturn)

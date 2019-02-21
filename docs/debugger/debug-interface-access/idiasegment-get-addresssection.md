@@ -26,10 +26,10 @@ HRESULT get_addressSection ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns the section number that maps to this segment.
+- [out] Returns the section number that maps to this segment.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.
 
 ## See Also
- [IDiaSegment](../../debugger/debug-interface-access/idiasegment.md)
+- [IDiaSegment](../../debugger/debug-interface-access/idiasegment.md)

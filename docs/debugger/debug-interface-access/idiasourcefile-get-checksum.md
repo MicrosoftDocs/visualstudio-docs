@@ -28,13 +28,13 @@ HRESULT get_checksum ( 
 
 #### Parameters
  `cbData`
- [in] Size of the data buffer, in bytes.
+- [in] Size of the data buffer, in bytes.
 
  `pcbData`
- [out] Returns the number of checksum bytes. This parameter cannot be `NULL`.
+- [out] Returns the number of checksum bytes. This parameter cannot be `NULL`.
 
  `data`
- [in, out] A buffer that is filled with the checksum bytes. If this parameter is `NULL`, then `pcbData` returns the number of bytes required.
+- [in, out] A buffer that is filled with the checksum bytes. If this parameter is `NULL`, then `pcbData` returns the number of bytes required.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -47,5 +47,5 @@ HRESULT get_checksum ( 
  Typical checksums are never more than 32 bytes in size but do not assume that is the maximum size of a checksum. Set the `data` parameter to `NULL` to get the number of bytes required to retrieve the checksum. Then allocate a buffer of the appropriate size and call this method once more with the new buffer.
 
 ## See Also
- [IDiaSourceFile](../../debugger/debug-interface-access/idiasourcefile.md)
- [IDiaSourceFile::get_checksumType](../../debugger/debug-interface-access/idiasourcefile-get-checksumtype.md)
+- [IDiaSourceFile](../../debugger/debug-interface-access/idiasourcefile.md)
+- [IDiaSourceFile::get_checksumType](../../debugger/debug-interface-access/idiasourcefile-get-checksumtype.md)

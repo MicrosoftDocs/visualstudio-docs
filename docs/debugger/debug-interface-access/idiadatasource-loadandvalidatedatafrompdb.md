@@ -29,16 +29,16 @@ HRESULT loadAndValidateDataFromPdb ( 
 
 #### Parameters
 `pdbPath`
-[in] The path to the .pdb file.
+- [in] The path to the .pdb file.
 
 `pcsig70`
-[in] The GUID signature to verify against the .pdb file signature. Only .pdb files in [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)] and later have GUID signatures.
+- [in] The GUID signature to verify against the .pdb file signature. Only .pdb files in [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)] and later have GUID signatures.
 
 `sig`
-[in] The 32-bit signature to verify against the .pdb file signature.
+- [in] The 32-bit signature to verify against the .pdb file signature.
 
 `age`
-[in] Age value to verify. The age does not necessarily correspond to any known time value, it is used to determine if a .pdb file is out of sync with a corresponding .exe file.
+- [in] Age value to verify. The age does not necessarily correspond to any known time value, it is used to determine if a .pdb file is out of sync with a corresponding .exe file.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code. The following table shows the possible return values for this method.
@@ -82,7 +82,7 @@ if (FAILED(hr))
 ```
 
 ## See Also
-[IDiaDataSource](../../debugger/debug-interface-access/idiadatasource.md)
-[IDiaDataSource::loadDataForExe](../../debugger/debug-interface-access/idiadatasource-loaddataforexe.md)
-[IDiaDataSource::loadDataFromPdb](../../debugger/debug-interface-access/idiadatasource-loaddatafrompdb.md)
-[IDiaDataSource::loadDataFromIStream](../../debugger/debug-interface-access/idiadatasource-loaddatafromistream.md)
+- [IDiaDataSource](../../debugger/debug-interface-access/idiadatasource.md)
+- [IDiaDataSource::loadDataForExe](../../debugger/debug-interface-access/idiadatasource-loaddataforexe.md)
+- [IDiaDataSource::loadDataFromPdb](../../debugger/debug-interface-access/idiadatasource-loaddatafrompdb.md)
+- [IDiaDataSource::loadDataFromIStream](../../debugger/debug-interface-access/idiadatasource-loaddatafromistream.md)

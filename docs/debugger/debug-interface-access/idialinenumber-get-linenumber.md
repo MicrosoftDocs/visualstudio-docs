@@ -26,7 +26,7 @@ HRESULT get_lineNumber ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns the line number in the source file.
+- [out] Returns the line number in the source file.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.
@@ -40,4 +40,4 @@ pLine->get_lineNumber( &linenum );
 ```
 
 ## See Also
- [IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md)
+- [IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md)

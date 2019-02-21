@@ -26,7 +26,7 @@ HRESULT get_intro ( 
 
 #### Parameters
 `pRetVal`
-[out] Returns `TRUE` if the function is intro virtual; otherwise, returns `FALSE`.
+- [out] Returns `TRUE` if the function is intro virtual; otherwise, returns `FALSE`.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns `S_FALSE` or error code.
@@ -55,4 +55,4 @@ Both `A::f1` and `B::f1` are virtual functions, but `A::f1` is intro virtual.
 |Version:|DIA SDK v7.0|
 
 ## See Also
-[IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

@@ -26,7 +26,7 @@ HRESULT get_targetVirtualAddress ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns the VA of a thunk target.
+- [out] Returns the VA of a thunk target.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
@@ -40,5 +40,5 @@ HRESULT get_targetVirtualAddress ( 
  A "thunk" is a piece of code that converts between a 32-bit memory address space (also known as flat address space) and a 16-bit address space (known as a segmented address space).
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
- [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md)

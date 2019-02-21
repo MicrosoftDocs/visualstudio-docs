@@ -26,10 +26,10 @@ HRESULT get_addressSection ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns the section part of the contribution's address.
+- [out] Returns the section part of the contribution's address.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.
 
 ## See Also
- [IDiaSectionContrib](../../debugger/debug-interface-access/idiasectioncontrib.md)
+- [IDiaSectionContrib](../../debugger/debug-interface-access/idiasectioncontrib.md)

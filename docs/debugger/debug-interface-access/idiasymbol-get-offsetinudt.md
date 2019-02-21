@@ -26,7 +26,7 @@ HRESULT get_offsetInUdt( 
 
 #### Parameters
  `pRetVal`
- [out] Returns the offset in bytes of the symbol location.
+- [out] Returns the offset in bytes of the symbol location.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
@@ -45,4 +45,4 @@ HRESULT get_offsetInUdt( 
  DLL: msdia100.dll
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

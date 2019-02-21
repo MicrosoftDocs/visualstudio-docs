@@ -26,10 +26,10 @@ HRESULT get_size ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns the size of the stack frame in bytes.
+- [out] Returns the size of the stack frame in bytes.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if the property is not supported. Otherwise, returns an error code.
 
 ## See Also
- [IDiaStackFrame](../../debugger/debug-interface-access/idiastackframe.md)
+- [IDiaStackFrame](../../debugger/debug-interface-access/idiastackframe.md)

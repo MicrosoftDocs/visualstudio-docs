@@ -26,10 +26,10 @@ HRESULT get_execute ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns `TRUE` if the segment is marked as executable; otherwise, returns `FALSE`.
+- [out] Returns `TRUE` if the segment is marked as executable; otherwise, returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.
 
 ## See Also
- [IDiaSegment](../../debugger/debug-interface-access/idiasegment.md)
+- [IDiaSegment](../../debugger/debug-interface-access/idiasegment.md)

@@ -26,7 +26,7 @@ HRESULT get_frontEndMinor ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns the front.end minor version number.
+- [out] Returns the front.end minor version number.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or error code.
@@ -47,4 +47,4 @@ HRESULT get_frontEndMinor ( 
 |Version:|DIA SDK v7.0|
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

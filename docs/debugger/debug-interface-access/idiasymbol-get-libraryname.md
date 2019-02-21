@@ -26,7 +26,7 @@ HRESULT get_libraryName ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns the file name of the library or object file from which the object was loaded.
+- [out] Returns the file name of the library or object file from which the object was loaded.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
@@ -35,4 +35,4 @@ HRESULT get_libraryName ( 
 >  A return value of `S_FALSE` means the property is not available for the symbol.
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

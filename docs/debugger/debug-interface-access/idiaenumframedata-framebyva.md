@@ -27,14 +27,14 @@ HRESULT frameByVA( 
 
 #### Parameters
  virtualAddress
- [in] VA of the frame of interest.
+- [in] VA of the frame of interest.
 
  frame
- [out] Returns an [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md) object that represents the frame that contains the address provided.
+- [out] Returns an [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md) object that represents the frame that contains the address provided.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if no frame data matches the specified address. Otherwise, returns an error code.
 
 ## See Also
- [IDiaEnumFrameData](../../debugger/debug-interface-access/idiaenumframedata.md)
- [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)
+- [IDiaEnumFrameData](../../debugger/debug-interface-access/idiaenumframedata.md)
+- [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)

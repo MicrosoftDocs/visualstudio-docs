@@ -26,7 +26,7 @@ HRESULT get_liveRangeStartAddressOffset ( 
 
 #### Parameters
  `offset`
- [out] Returns the offset part of the starting address range.
+- [out] Returns the offset part of the starting address range.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -47,4 +47,4 @@ HRESULT get_liveRangeStartAddressOffset ( 
  DLL: msdia100.dll
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

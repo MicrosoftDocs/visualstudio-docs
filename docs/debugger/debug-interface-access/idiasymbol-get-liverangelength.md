@@ -26,7 +26,7 @@ HRESULT get_liveRangeLength ( 
 
 #### Parameters
  `length`
- [out] Returns the length of the address range.
+- [out] Returns the length of the address range.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -44,4 +44,4 @@ HRESULT get_liveRangeLength ( 
  DLL: msdia100.dll
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

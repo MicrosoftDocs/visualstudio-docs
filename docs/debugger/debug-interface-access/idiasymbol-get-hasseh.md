@@ -26,7 +26,7 @@ HRESULT get_hasSEH(
 
 #### Parameters
  `pFlag`
- [out] Returns `TRUE` if the function has any structured exception handling blocks; otherwise, returns `FALSE`.
+- [out] Returns `TRUE` if the function has any structured exception handling blocks; otherwise, returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or error code.
@@ -42,5 +42,5 @@ HRESULT get_hasSEH(
 |Version:|DIA SDK v8.0|
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
- [Structured Exception Handling (C/C++)](/cpp/cpp/structured-exception-handling-c-cpp)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [Structured Exception Handling (C/C++)](/cpp/cpp/structured-exception-handling-c-cpp)

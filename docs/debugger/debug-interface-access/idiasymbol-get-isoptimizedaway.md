@@ -23,10 +23,10 @@ HRESULT get_isOptimizedAway(
 
 #### Parameters
  `pRetVal`
- [out] A pointer to a `BOOL` that specifies whether the variable is optimized away.
+- [out] A pointer to a `BOOL` that specifies whether the variable is optimized away.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

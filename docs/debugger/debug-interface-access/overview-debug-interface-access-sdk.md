@@ -28,5 +28,5 @@ Use the DIA SDK to access the Microsoft debug information. The DIA SDK provides 
  Each interface in the DIA SDK represents a different COM object, except where stated otherwise. Additional interfaces, and thus additional objects, are created by means of explicit queries, such as [IDiaDataSource::openSession](../../debugger/debug-interface-access/idiadatasource-opensession.md) or [IDiaSession::findChildren](../../debugger/debug-interface-access/idiasession-findchildren.md), rather than by calling `QueryInterface` on existing interface pointers.
 
 ## See Also
- [IDiaDataSource::openSession](../../debugger/debug-interface-access/idiadatasource-opensession.md)
- [IDiaSession::findChildren](../../debugger/debug-interface-access/idiasession-findchildren.md)
+- [IDiaDataSource::openSession](../../debugger/debug-interface-access/idiadatasource-opensession.md)
+- [IDiaSession::findChildren](../../debugger/debug-interface-access/idiasession-findchildren.md)

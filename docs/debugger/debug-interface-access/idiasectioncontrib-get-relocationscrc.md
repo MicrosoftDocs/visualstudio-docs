@@ -26,10 +26,10 @@ HRESULT get_relocationsCrc ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns the CRC of the relocation information for the section.
+- [out] Returns the CRC of the relocation information for the section.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.
 
 ## See Also
- [IDiaSectionContrib](../../debugger/debug-interface-access/idiasectioncontrib.md)
+- [IDiaSectionContrib](../../debugger/debug-interface-access/idiasectioncontrib.md)

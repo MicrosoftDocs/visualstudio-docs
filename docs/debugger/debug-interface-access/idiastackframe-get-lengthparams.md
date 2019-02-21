@@ -26,10 +26,10 @@ HRESULT get_lengthParams ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns the number of bytes of parameters.
+- [out] Returns the number of bytes of parameters.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if the property is not supported. Otherwise, returns an error code.
 
 ## See Also
- [IDiaStackFrame](../../debugger/debug-interface-access/idiastackframe.md)
+- [IDiaStackFrame](../../debugger/debug-interface-access/idiastackframe.md)

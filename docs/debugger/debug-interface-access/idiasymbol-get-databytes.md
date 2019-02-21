@@ -28,13 +28,13 @@ HRESULT get_dataBytes ( 
 
 #### Parameters
  `cbData`
- [in] Size of the buffer to hold the data.
+- [in] Size of the buffer to hold the data.
 
  `pcbData`
- [out] Returns the number of bytes written, or, if the `data` parameter is `NULL`, returns the number of bytes available.
+- [out] Returns the number of bytes written, or, if the `data` parameter is `NULL`, returns the number of bytes available.
 
  `data[]`
- [out,] A buffer that is filled in with the data bytes.
+- [out,] A buffer that is filled in with the data bytes.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
@@ -50,4 +50,4 @@ HRESULT get_dataBytes ( 
 |Version:|DIA SDK v7.0|
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

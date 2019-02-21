@@ -27,14 +27,14 @@ HRESULT Item ( 
 
 #### Parameters
  index
- [in] Index of the [IDiaSourceFile](../../debugger/debug-interface-access/idiasourcefile.md) object to be retrieved. The index is in the range 0 to `count`-1, where `count` is returned by the [IDiaEnumSourceFiles::get_Count](../../debugger/debug-interface-access/idiaenumsourcefiles-get-count.md) method.
+- [in] Index of the [IDiaSourceFile](../../debugger/debug-interface-access/idiasourcefile.md) object to be retrieved. The index is in the range 0 to `count`-1, where `count` is returned by the [IDiaEnumSourceFiles::get_Count](../../debugger/debug-interface-access/idiaenumsourcefiles-get-count.md) method.
 
  sourceFile
- [out] Returns an [IDiaSourceFile](../../debugger/debug-interface-access/idiasourcefile.md) object representing the desired source file.
+- [out] Returns an [IDiaSourceFile](../../debugger/debug-interface-access/idiasourcefile.md) object representing the desired source file.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## See Also
- [IDiaEnumSourceFiles](../../debugger/debug-interface-access/idiaenumsourcefiles.md)
- [IDiaSourceFile](../../debugger/debug-interface-access/idiasourcefile.md)
+- [IDiaEnumSourceFiles](../../debugger/debug-interface-access/idiaenumsourcefiles.md)
+- [IDiaSourceFile](../../debugger/debug-interface-access/idiasourcefile.md)

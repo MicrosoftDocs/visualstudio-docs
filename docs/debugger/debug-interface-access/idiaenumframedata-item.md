@@ -27,14 +27,14 @@ HRESULT Item ( 
 
 #### Parameters
  index
- [in] Index of the [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md) object to be retrieved. The index is in the range 0 to `count`-1, where `count` is returned by the [IDiaEnumFrameData::get_Count](../../debugger/debug-interface-access/idiaenumframedata-get-count.md) method.
+- [in] Index of the [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md) object to be retrieved. The index is in the range 0 to `count`-1, where `count` is returned by the [IDiaEnumFrameData::get_Count](../../debugger/debug-interface-access/idiaenumframedata-get-count.md) method.
 
  section
- [out] Returns an [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md) object representing the desired frame data element.
+- [out] Returns an [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md) object representing the desired frame data element.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## See Also
- [IDiaEnumFrameData](../../debugger/debug-interface-access/idiaenumframedata.md)
- [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)
+- [IDiaEnumFrameData](../../debugger/debug-interface-access/idiaenumframedata.md)
+- [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)

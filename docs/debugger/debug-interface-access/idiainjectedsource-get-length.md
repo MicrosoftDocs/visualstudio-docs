@@ -26,7 +26,7 @@ HRESULT get_length ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns the number of bytes of code.
+- [out] Returns the number of bytes of code.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.
@@ -35,5 +35,5 @@ HRESULT get_length ( 
  The value returned by this method is the length of the source code and is the same value as returned by the [IDiaInjectedSource::get_source](../../debugger/debug-interface-access/idiainjectedsource-get-source.md) method.
 
 ## See Also
- [IDiaInjectedSource](../../debugger/debug-interface-access/idiainjectedsource.md)
- [IDiaInjectedSource::get_source](../../debugger/debug-interface-access/idiainjectedsource-get-source.md)
+- [IDiaInjectedSource](../../debugger/debug-interface-access/idiainjectedsource.md)
+- [IDiaInjectedSource::get_source](../../debugger/debug-interface-access/idiainjectedsource-get-source.md)

@@ -26,7 +26,7 @@ HRESULT get_addressTaken ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns `TRUE` if another symbol references this address; otherwise, returns `FALSE`.
+- [out] Returns `TRUE` if another symbol references this address; otherwise, returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
@@ -50,4 +50,4 @@ int* B = &A;
 |Version:|DIA SDK v7.0|
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

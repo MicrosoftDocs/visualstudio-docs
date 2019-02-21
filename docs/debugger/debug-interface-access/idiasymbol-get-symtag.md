@@ -26,7 +26,7 @@ HRESULT get_symTag ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns A value from the [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md) enumeration that specifies the symbol type classifier.
+- [out] Returns A value from the [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md) enumeration that specifies the symbol type classifier.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
@@ -43,5 +43,5 @@ pType->get_symTag( &tag );
 ```
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
- [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md)

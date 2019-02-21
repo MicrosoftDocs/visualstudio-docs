@@ -26,7 +26,7 @@ HRESULT get_name ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns the name of the symbol.
+- [out] Returns the name of the symbol.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
@@ -43,4 +43,4 @@ pType->get_name( &name );
 ```
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

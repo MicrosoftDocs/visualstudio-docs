@@ -55,5 +55,5 @@ The values in this enumeration are returned by a call to the [IDiaStackFrame::ge
 Header: cvconst.h
 
 ## See Also
-[Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)
-[IDiaStackFrame::get_type](../../debugger/debug-interface-access/idiastackframe-get-type.md)
+- [Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)
+- [IDiaStackFrame::get_type](../../debugger/debug-interface-access/idiastackframe-get-type.md)

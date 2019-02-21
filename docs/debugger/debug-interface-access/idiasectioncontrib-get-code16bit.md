@@ -26,7 +26,7 @@ HRESULT get_code16bit(
 
 #### Parameters
  `pRetVal`
- [out] Returns `TRUE` if the code in the section is 16-bit; otherwise, returns `FALSE`.
+- [out] Returns `TRUE` if the code in the section is 16-bit; otherwise, returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
@@ -35,4 +35,4 @@ HRESULT get_code16bit(
  This method only indicates if the code is 16-bit. If the code is not 16-bit, it could be anything else, such as 32-bit or 64-bit code.
 
 ## See Also
- [IDiaSectionContrib](../../debugger/debug-interface-access/idiasectioncontrib.md)
+- [IDiaSectionContrib](../../debugger/debug-interface-access/idiasectioncontrib.md)

@@ -26,7 +26,7 @@ HRESULT get_informational(
 
 #### Parameters
  `pRetVal`
- [out] Returns `TRUE` if the section contains comments or other information; otherwise returns `FALSE`.
+- [out] Returns `TRUE` if the section contains comments or other information; otherwise returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.
@@ -35,4 +35,4 @@ HRESULT get_informational(
  Typically the .directive section contains information.
 
 ## See Also
- [IDiaSectionContrib](../../debugger/debug-interface-access/idiasectioncontrib.md)
+- [IDiaSectionContrib](../../debugger/debug-interface-access/idiasectioncontrib.md)

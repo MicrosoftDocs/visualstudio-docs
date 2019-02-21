@@ -28,13 +28,13 @@ HRESULT NotifyDebugDir ( 
 
 #### Parameters
  `fExecutable`
- [in] `TRUE` if the debug directory is read from an executable (rather than a .dbg file).
+- [in] `TRUE` if the debug directory is read from an executable (rather than a .dbg file).
 
  `cbData`
- [in] Count of bytes of data in the debug directory.
+- [in] Count of bytes of data in the debug directory.
 
  `data[]`
- [in] An array that is filled in with the debug directory.
+- [in] An array that is filled in with the debug directory.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code. The return code is typically ignored.
@@ -47,5 +47,5 @@ HRESULT NotifyDebugDir ( 
  Most clients will not need this callback because the `IDiaDataSource::loadDataForExe` method transparently opens both .pdb and .dbg files when necessary to serve symbols.
 
 ## See Also
- [IDiaLoadCallback2](../../debugger/debug-interface-access/idialoadcallback2.md)
- [IDiaDataSource::loadDataForExe](../../debugger/debug-interface-access/idiadatasource-loaddataforexe.md)
+- [IDiaLoadCallback2](../../debugger/debug-interface-access/idialoadcallback2.md)
+- [IDiaDataSource::loadDataForExe](../../debugger/debug-interface-access/idiadatasource-loaddataforexe.md)

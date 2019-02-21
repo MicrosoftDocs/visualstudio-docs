@@ -28,16 +28,16 @@ HRESULT get_source ( 
 
 #### Parameters
  `cbData`
- [in] The number of bytes that represents the size of the data buffer.
+- [in] The number of bytes that represents the size of the data buffer.
 
  `pcbData`
- [out] Returns the number of bytes that represents the bytes returned. If `data` is `NULL`, then `pcbData` is the total number of bytes of data available.
+- [out] Returns the number of bytes that represents the bytes returned. If `data` is `NULL`, then `pcbData` is the total number of bytes of data available.
 
  `data[]`
- [out] A buffer that is to be filled in with the source bytes.
+- [out] A buffer that is to be filled in with the source bytes.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.
 
 ## See Also
- [IDiaInjectedSource](../../debugger/debug-interface-access/idiainjectedsource.md)
+- [IDiaInjectedSource](../../debugger/debug-interface-access/idiainjectedsource.md)

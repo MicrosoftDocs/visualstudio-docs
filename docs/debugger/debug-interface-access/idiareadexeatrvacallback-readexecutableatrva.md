@@ -29,20 +29,20 @@ HRESULT ReadExecutableAtRVA ( 
 
 #### Parameters
  `relativeVirtualAddress`
- [in] The RVA in the executable file to begin reading.
+- [in] The RVA in the executable file to begin reading.
 
  `cbData`
- [in] Number of bytes to read.
+- [in] Number of bytes to read.
 
  `pcbData`
- [out] Returns the number of bytes read.
+- [out] Returns the number of bytes read.
 
  `data[]`
- [in, out] An array that is filled in with bytes read from the file.
+- [in, out] An array that is filled in with bytes read from the file.
 
 ## Remarks
  This method is called by the DIA support code to load data bytes from an executable using a relative virtual address. This method is called in support of the [IDiaDataSource::loadDataForExe](../../debugger/debug-interface-access/idiadatasource-loaddataforexe.md) method.
 
 ## See Also
- [IDiaReadExeAtRVACallback](../../debugger/debug-interface-access/idiareadexeatrvacallback.md)
- [IDiaDataSource::loadDataForExe](../../debugger/debug-interface-access/idiadatasource-loaddataforexe.md)
+- [IDiaReadExeAtRVACallback](../../debugger/debug-interface-access/idiareadexeatrvacallback.md)
+- [IDiaDataSource::loadDataForExe](../../debugger/debug-interface-access/idiadatasource-loaddataforexe.md)

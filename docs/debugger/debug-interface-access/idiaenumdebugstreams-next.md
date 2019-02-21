@@ -28,16 +28,16 @@ HRESULT Next ( 
 
 #### Parameters
  celt
- [in] The number of debug streams in the enumerator to be retrieved.
+- [in] The number of debug streams in the enumerator to be retrieved.
 
  rgelt
- [out] Returns an array of [IDiaEnumDebugStreamData](../../debugger/debug-interface-access/idiaenumdebugstreamdata.md) objects that represents the debug streams being retrieved.
+- [out] Returns an array of [IDiaEnumDebugStreamData](../../debugger/debug-interface-access/idiaenumdebugstreamdata.md) objects that represents the debug streams being retrieved.
 
  pceltFetched
- [out] Returns the number of debug streams returned.
+- [out] Returns the number of debug streams returned.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if there are no more streams. Otherwise, returns an error code.
 
 ## See Also
- [IDiaEnumDebugStreams](../../debugger/debug-interface-access/idiaenumdebugstreams.md)
+- [IDiaEnumDebugStreams](../../debugger/debug-interface-access/idiaenumdebugstreams.md)

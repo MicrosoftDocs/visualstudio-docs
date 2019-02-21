@@ -26,10 +26,10 @@ HRESULT Skip( 
 
 #### Parameters
  `celt`
- [in] The number of section contributions in the enumeration sequence to skip.
+- [in] The number of section contributions in the enumeration sequence to skip.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` if there are no more section contributions to skip.
 
 ## See Also
- [IDiaEnumSectionContribs](../../debugger/debug-interface-access/idiaenumsectioncontribs.md)
+- [IDiaEnumSectionContribs](../../debugger/debug-interface-access/idiaenumsectioncontribs.md)

@@ -19,12 +19,12 @@ Retrieves a flag that specifies whether the function contains a call to `alloca`
 ## Syntax
 
 ```
-[C++]HRESULT get_hasAlloca(   BOOL *pFlag);
+- [C++]HRESULT get_hasAlloca(   BOOL *pFlag);
 ```
 
 #### Parameters
  `pFlag`
- [out] Returns `TRUE` if the function contains a call to `alloca`; otherwise, returns `FALSE`.
+- [out] Returns `TRUE` if the function contains a call to `alloca`; otherwise, returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
@@ -40,4 +40,4 @@ Retrieves a flag that specifies whether the function contains a call to `alloca`
 |Version:|DIA SDK v8.0|
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

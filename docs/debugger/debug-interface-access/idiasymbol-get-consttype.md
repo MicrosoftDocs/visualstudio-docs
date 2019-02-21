@@ -26,7 +26,7 @@ HRESULT get_constType ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns `TRUE` if the user-defined data type is constant; otherwise, returns `FALSE`.
+- [out] Returns `TRUE` if the user-defined data type is constant; otherwise, returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or error code.
@@ -42,4 +42,4 @@ HRESULT get_constType ( 
 |Version:|DIA SDK v7.0|
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

@@ -26,10 +26,10 @@ HRESULT get_name ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns the name of the table.
+- [out] Returns the name of the table.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## See Also
- [IDiaTable](../../debugger/debug-interface-access/idiatable.md)
+- [IDiaTable](../../debugger/debug-interface-access/idiatable.md)

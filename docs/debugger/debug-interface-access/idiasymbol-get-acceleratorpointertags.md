@@ -25,13 +25,13 @@ HRESULT get_acceleratorPointerTags(
 
 #### Parameters
  `cnt`
- [in] The size of the output array `pPointerTags`.
+- [in] The size of the output array `pPointerTags`.
 
  `pcnt`
- [out] The count of accelerator pointer tags in the C++ AMP accelerator stub function.
+- [out] The count of accelerator pointer tags in the C++ AMP accelerator stub function.
 
  `pPointerTags`
- [out] A `DWORD` array pointer that is filled with the accelerator pointer tag values in the C++ AMP accelerator stub function.
+- [out] A `DWORD` array pointer that is filled with the accelerator pointer tag values in the C++ AMP accelerator stub function.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
@@ -40,4 +40,4 @@ HRESULT get_acceleratorPointerTags(
  This method is called on an `IDiaSymbol` interface that corresponds to a C++ AMP accelerator stub function.
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

@@ -29,5 +29,5 @@ Each FORTRAN array has a dimension that is identified by a `SymTagDimension` sym
 |[IDiaSymbol::get_upperBoundId](../../debugger/debug-interface-access/idiasymbol-get-upperboundid.md)|`DWORD`|ID of the upper-bound symbol.|
 
 ## See Also
- [ArrayType](../../debugger/debug-interface-access/arraytype.md)
- [Class Hierarchy of Symbol Types](../../debugger/debug-interface-access/class-hierarchy-of-symbol-types.md)
+- [ArrayType](../../debugger/debug-interface-access/arraytype.md)
+- [Class Hierarchy of Symbol Types](../../debugger/debug-interface-access/class-hierarchy-of-symbol-types.md)

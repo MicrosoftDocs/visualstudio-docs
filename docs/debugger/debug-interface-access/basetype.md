@@ -32,5 +32,5 @@ Base types are identified by `SymTagBaseType` symbols.
 |[IDiaSymbol::get_volatileType](../../debugger/debug-interface-access/idiasymbol-get-volatiletype.md)|`BOOL`|`TRUE` if the base type is marked as volatile.|
 
 ## See Also
- [BasicType Enumeration](../../debugger/debug-interface-access/basictype.md)
- [Class Hierarchy of Symbol Types](../../debugger/debug-interface-access/class-hierarchy-of-symbol-types.md)
+- [BasicType Enumeration](../../debugger/debug-interface-access/basictype.md)
+- [Class Hierarchy of Symbol Types](../../debugger/debug-interface-access/class-hierarchy-of-symbol-types.md)

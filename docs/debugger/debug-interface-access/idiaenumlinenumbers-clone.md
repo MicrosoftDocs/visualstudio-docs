@@ -26,10 +26,10 @@ HRESULT Clone ( 
 
 #### Parameters
  `ppenum`
- [out] Returns an [IDiaEnumLineNumbers](../../debugger/debug-interface-access/idiaenumlinenumbers.md) object that contains a duplicate of the enumerator. The line numbers are not duplicated, only the enumerator..
+- [out] Returns an [IDiaEnumLineNumbers](../../debugger/debug-interface-access/idiaenumlinenumbers.md) object that contains a duplicate of the enumerator. The line numbers are not duplicated, only the enumerator..
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## See Also
- [IDiaEnumLineNumbers](../../debugger/debug-interface-access/idiaenumlinenumbers.md)
+- [IDiaEnumLineNumbers](../../debugger/debug-interface-access/idiaenumlinenumbers.md)

@@ -26,7 +26,7 @@ HRESULT get_noInline(
 
 #### Parameters
  `pFlag`
- [out] Returns `TRUE` if the function has the `noinline` attribute; otherwise, returns `FALSE`.
+- [out] Returns `TRUE` if the function has the `noinline` attribute; otherwise, returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
@@ -42,5 +42,5 @@ HRESULT get_noInline(
 |Version:|DIA SDK v8.0|
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
- [noinline](/cpp/cpp/noinline)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [noinline](/cpp/cpp/noinline)

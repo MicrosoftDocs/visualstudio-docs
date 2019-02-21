@@ -27,10 +27,10 @@ HRESULT get_undecoratedNameEx( 
 
 #### Parameters
  `undecoratedOptions`
- [in] Specifies a combination of flags that control what is returned. See the Remarks section for the specific values and what they do.
+- [in] Specifies a combination of flags that control what is returned. See the Remarks section for the specific values and what they do.
 
  `pRetVal`
- [out] Returns the undecorated name for a C++ decorated name.
+- [out] Returns the undecorated name for a C++ decorated name.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
@@ -68,4 +68,4 @@ HRESULT get_undecoratedNameEx( 
 |UNDNAME_NO_PTR64|0x20000|Does not include ptr64 in output.|
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

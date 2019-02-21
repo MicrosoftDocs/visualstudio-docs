@@ -26,7 +26,7 @@ HRESULT get_lengthProlog ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns the number of bytes of prologue code.
+- [out] Returns the number of bytes of prologue code.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.
@@ -35,4 +35,4 @@ HRESULT get_lengthProlog ( 
  The prologue code is a sequence of instructions that preserves registers, sets the CPU state, and establishes the stack for the function.
 
 ## See Also
- [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)
+- [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)

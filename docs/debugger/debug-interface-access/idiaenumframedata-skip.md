@@ -26,10 +26,10 @@ HRESULT Skip ( 
 
 #### Parameters
  celt
- [in] The number of frame data elements in the enumeration sequence to skip.
+- [in] The number of frame data elements in the enumeration sequence to skip.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` if there are no more records to skip.
 
 ## See Also
- [IDiaEnumFrameData](../../debugger/debug-interface-access/idiaenumframedata.md)
+- [IDiaEnumFrameData](../../debugger/debug-interface-access/idiaenumframedata.md)

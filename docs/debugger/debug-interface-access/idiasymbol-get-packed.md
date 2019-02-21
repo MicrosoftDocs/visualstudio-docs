@@ -26,7 +26,7 @@ HRESULT get_packed ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns `TRUE` if the UDT is packed; otherwise, returns `FALSE`.
+- [out] Returns `TRUE` if the UDT is packed; otherwise, returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
@@ -38,4 +38,4 @@ HRESULT get_packed ( 
  Packed means all the members of the UDT are positioned as close together as possible, with no intervening padding to align to memory boundaries.
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

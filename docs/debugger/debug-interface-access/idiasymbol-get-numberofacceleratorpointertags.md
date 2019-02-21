@@ -23,7 +23,7 @@ HRESULT get_numberOfAcceleratorPointerTags(
 
 #### Parameters
  `count`
- [out] A pointer to a `DWORD` that holds the number of accelerator pointer tags in a C++ AMP stub function.
+- [out] A pointer to a `DWORD` that holds the number of accelerator pointer tags in a C++ AMP stub function.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
@@ -32,4 +32,4 @@ HRESULT get_numberOfAcceleratorPointerTags(
  This method is called on an `IDiaSymbol` interface that corresponds to a C++ AMP accelerator stub function.
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

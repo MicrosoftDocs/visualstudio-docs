@@ -26,7 +26,7 @@ HRESULT get_typeId ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns the type ID of the symbol.
+- [out] Returns the type ID of the symbol.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
@@ -38,4 +38,4 @@ HRESULT get_typeId ( 
  The identifier is a unique value created by the DIA SDK to mark all symbols as unique.
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

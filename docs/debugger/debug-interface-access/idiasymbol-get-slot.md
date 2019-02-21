@@ -26,7 +26,7 @@ HRESULT get_slot ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns the slot number of the location.
+- [out] Returns the slot number of the location.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
@@ -35,5 +35,5 @@ HRESULT get_slot ( 
 >  A return value of `S_FALSE` means that the property is not available for the symbol.
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
- [LocationType Enumeration](../../debugger/debug-interface-access/locationtype.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [LocationType Enumeration](../../debugger/debug-interface-access/locationtype.md)

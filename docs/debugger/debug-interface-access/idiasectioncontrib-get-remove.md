@@ -26,10 +26,10 @@ HRESULT get_remove ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns `TRUE` if the section is not to be added to the in-memory image; otherwise, returns `FALSE`.
+- [out] Returns `TRUE` if the section is not to be added to the in-memory image; otherwise, returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.
 
 ## See Also
- [IDiaSectionContrib](../../debugger/debug-interface-access/idiasectioncontrib.md)
+- [IDiaSectionContrib](../../debugger/debug-interface-access/idiasectioncontrib.md)

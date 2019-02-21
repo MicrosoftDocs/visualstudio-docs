@@ -26,7 +26,7 @@ HRESULT get_classParentId ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns the class parent ID of the symbol.
+- [out] Returns the class parent ID of the symbol.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or error code.
@@ -45,4 +45,4 @@ HRESULT get_classParentId ( 
 |Version:|DIA SDK v7.0|
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

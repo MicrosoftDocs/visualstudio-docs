@@ -26,7 +26,7 @@ HRESULT get_compilerGenerated ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns `TRUE` if the compiler generated the symbol; otherwise, returns `FALSE` if the symbol was generated from user-written source.
+- [out] Returns `TRUE` if the compiler generated the symbol; otherwise, returns `FALSE` if the symbol was generated from user-written source.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or error code.
@@ -42,4 +42,4 @@ HRESULT get_compilerGenerated ( 
 |Version:|DIA SDK v7.0|
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

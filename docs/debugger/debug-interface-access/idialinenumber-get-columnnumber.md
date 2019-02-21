@@ -19,7 +19,7 @@ Retrieves the column number where the expression or statement begins.
 ## Syntax
 
 ```
-[C++]
+- [C++]
 HRESULT get_columnNumber ( 
    DWORD* pRetVal
 );
@@ -27,7 +27,7 @@ HRESULT get_columnNumber ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns the column number where the expression or statement begins. If the value is zero, then column information is not present.
+- [out] Returns the column number where the expression or statement begins. If the value is zero, then column information is not present.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.
@@ -36,4 +36,4 @@ HRESULT get_columnNumber ( 
  The column value returned by this method is a byte offset into the line to the first character of the statement on the line.
 
 ## See Also
- [IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md)
+- [IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md)

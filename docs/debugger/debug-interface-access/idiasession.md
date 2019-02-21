@@ -111,11 +111,11 @@ Library: diaguids.lib
 DLL: msdia80.dll
 
 ## See Also
-[Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)
-[Overview](../../debugger/debug-interface-access/overview-debug-interface-access-sdk.md)
-[Exe](../../debugger/debug-interface-access/exe.md)
-[IDiaAddressMap](../../debugger/debug-interface-access/idiaaddressmap.md)
-[IDiaDataSource](../../debugger/debug-interface-access/idiadatasource.md)
-[IDiaDataSource::openSession](../../debugger/debug-interface-access/idiadatasource-opensession.md)
-[IDiaSymbol::findChildren](../../debugger/debug-interface-access/idiasymbol-findchildren.md)
-[Querying the .Pdb File](../../debugger/debug-interface-access/querying-the-dot-pdb-file.md)
+- [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)
+- [Overview](../../debugger/debug-interface-access/overview-debug-interface-access-sdk.md)
+- [Exe](../../debugger/debug-interface-access/exe.md)
+- [IDiaAddressMap](../../debugger/debug-interface-access/idiaaddressmap.md)
+- [IDiaDataSource](../../debugger/debug-interface-access/idiadatasource.md)
+- [IDiaDataSource::openSession](../../debugger/debug-interface-access/idiadatasource-opensession.md)
+- [IDiaSymbol::findChildren](../../debugger/debug-interface-access/idiasymbol-findchildren.md)
+- [Querying the .Pdb File](../../debugger/debug-interface-access/querying-the-dot-pdb-file.md)

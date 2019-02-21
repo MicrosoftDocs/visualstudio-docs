@@ -26,7 +26,7 @@ HRESULT get_signature ( 
 
 #### Parameters
  `pRetVal`
- [out] Returns the symbol's signature value.
+- [out] Returns the symbol's signature value.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
@@ -35,4 +35,4 @@ HRESULT get_signature ( 
 >  A return value of `S_FALSE` means that the property is not available for the symbol.
 
 ## See Also
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
