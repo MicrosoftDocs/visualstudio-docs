@@ -53,7 +53,7 @@ ms.workload:
 </ui:DialogWindow>
 ```
 
-code behind:
+Code behind:
 
 ```csharp
 internal partial class WebConfigModificationWindow : DialogWindow

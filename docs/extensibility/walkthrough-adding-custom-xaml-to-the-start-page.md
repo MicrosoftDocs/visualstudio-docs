@@ -75,9 +75,7 @@ This walkthrough shows how to create a custom Visual Studio start page that cont
 
 7.  Close the experimental instance.
 
-## Apply the custom start page
-
-1.  In **Tools** > **Options** > **Environment**, select **Startup**. On the **Customize Start Page** list, select your *.xaml* file, and click **OK**.
+To apply the custom start page, in **Tools** > **Options** > **Environment**, select **Startup**. On the **Customize Start Page** list, select your *.xaml* file, and click **OK**.
 
 ## Next steps
 
