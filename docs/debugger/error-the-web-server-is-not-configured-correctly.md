@@ -2,19 +2,19 @@
 title: "Error: The web server is not configured correctly | Microsoft Docs"
 ms.date: "09/20/2017"
 ms.topic: "troubleshooting"
-f1_keywords: 
+f1_keywords:
   - "vs.debug.remote.projnotconfigured"
-dev_langs: 
+dev_langs:
   - "CSharp"
   - "VB"
   - "FSharp"
   - "C++"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "debugger, Web application errors"
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Error: The web server is not configured correctly
@@ -38,9 +38,9 @@ Take these steps to resolve this issue:
 4. (IIS) Make sure that the correct version of ASP.NET is installed on the server.
 
     Mismatched versions of ASP.NET on IIS and in your Visual Studio project may cause this issue. You may need to set the framework version in web.config. To install ASP.NET on IIS, use the [Web Platform Installer (WebPI)](https://www.microsoft.com/web/downloads/platform.aspx). Also, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45) or, for ASP.NET Core, [Host on Windows with IIS](https://docs.asp.net/en/latest/publishing/iis.html).
-  
+
 4. If the `maxConnection` limit in IIS is too low, and you have too many connections, you may need to [increase the connection limit](/iis/configuration/system.applicationhost/sites/sitedefaults/limits).
-  
-## See Also  
- [Remote Debugging ASP.NET on a Remote IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md)   
+
+## See Also
+ [Remote Debugging ASP.NET on a Remote IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md)
  [Debugging Web Applications: Errors and Troubleshooting](../debugger/debugging-web-applications-errors-and-troubleshooting.md)

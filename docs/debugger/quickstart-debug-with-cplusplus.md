@@ -4,20 +4,20 @@ description: "Debug native code using the Visual Studio debugger"
 ms.custom: "mvc"
 ms.date: "08/06/2018"
 ms.topic: "quickstart"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "debugger"
 ms.assetid: 639e430b-6d2d-46bd-b738-8c60dfb384f1
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "cplusplus"
 ---
 # Quickstart: Debug with C++ using the Visual Studio debugger
 
 The Visual Studio debugger provides many powerful features to help you debug your apps. This topic provides a quick way to learn some of the basic features.
 
-## Create a new project 
+## Create a new project
 
 1. In Visual Studio, choose **File > New Project**.
 
@@ -41,7 +41,7 @@ The Visual Studio debugger provides many powerful features to help you debug you
     with this code (do not remove `#include "stdafx.h"`):
 
     ```c++
-    #include <list>  
+    #include <list>
     #include <iostream>
 
     using namespace std;
@@ -84,7 +84,7 @@ A *breakpoint* is a marker that indicates where Visual Studio should suspend you
     > [!TIP]
     > If you have a breakpoint in a loop or recursion, or if you have many breakpoints that you frequently step through, use a [conditional breakpoint](../debugger/using-breakpoints.md#BKMK_Specify_a_breakpoint_condition_using_a_code_expression) to make sure that your code is suspended ONLY when specific conditions are met. A conditional breakpoint saves time and can also make it easier to debug issues that are hard to reproduce.
 
-    When trying to debug memory-related failures in C++, you can also use breakpoints to inspect address values (look for NULL) and reference counts. 
+    When trying to debug memory-related failures in C++, you can also use breakpoints to inspect address values (look for NULL) and reference counts.
 
 ## Navigate code
 
@@ -104,7 +104,7 @@ Common keyboard commands used to step through code include **F10** and **F11**. 
 
     ![View a datatip](../debugger/media/dbg-qs-data-tip.png "View a datatip")
 
-    The datatip shows you the current value of the `c1` variable and allows you to inspect its properties. When debugging, if you see a value you don't expect, you probably have a bug in the preceding or calling lines of code. 
+    The datatip shows you the current value of the `c1` variable and allows you to inspect its properties. When debugging, if you see a value you don't expect, you probably have a bug in the preceding or calling lines of code.
 
 2. Expand the datatip to look at the current property values of the `c1` object.
 

@@ -112,7 +112,7 @@ For detailed information on project settings for debug configurations in C# or V
    The compiler creates the symbol file(s) in the same folder as the executable or the main output file.
 
 ## <a name="see-also"></a>See also
- 
+
 [Specify symbol (.pdb) files and source files in the Visual Studio debugger](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)<br/>
 [Debugger settings and preparation](../debugger/debugger-settings-and-preparation.md)<br/>
 [Project settings for a C++ debug configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md)<br/>

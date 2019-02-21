@@ -98,13 +98,13 @@ console.log(user.first, user.last);
  The following substitution patterns are supported:
 
 - %s - string
-  %i - integer  
-  %d - integer  
-  %f - float  
-  %o - object  
-  %b - binary  
-  %x - hexadecimal  
-  %e - exponent  
+  %i - integer
+  %d - integer
+  %f - float
+  %o - object
+  %b - binary
+  %x - hexadecimal
+  %e - exponent
 
   Here are some examples of using substitution patterns in `console.log`:
 
@@ -124,5 +124,5 @@ console.log("%s is %f years old!", user.first, user.age);
 ```
 
 ## See Also
-[QuickStart: Debug JavaScript](../debugger/quickstart-debug-javascript-using-the-console.md)  
+[QuickStart: Debug JavaScript](../debugger/quickstart-debug-javascript-using-the-console.md)
 [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md)

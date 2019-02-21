@@ -7,7 +7,7 @@ ms.assetid: a6c04b53-d1b9-4552-a8fd-3ed6f4902ce6
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "aspnet"
   - "dotnetcore"
   - "azure"
@@ -42,7 +42,7 @@ The recommended way to remote debug on Azure depends on your scenario:
 
 Debugging between two computers connected through a proxy is not supported. Debugging over a high latency or low bandwidth connection, such as dialup Internet, or over the Internet across countries is not recommended and may fail or be unacceptably slow. For a complete list of requirements, see [Requirements](../debugger/remote-debugging.md#requirements_msvsmon).
 
-## Create the ASP.NET Core application on the Visual Studio 2017 computer 
+## Create the ASP.NET Core application on the Visual Studio 2017 computer
 
 1. Create a new ASP.NET Core application. (Choose **File > New > Project**, then select **Visual C# > Web > ASP.NET Core Web Application**).
 
@@ -56,7 +56,7 @@ Debugging between two computers connected through a proxy is not supported. Debu
 
 ## <a name="remote_debug_azure_app_service"></a> Remote Debug ASP.NET Core on an Azure App Service
 
-From Visual Studio, you can quickly publish and debug your app to a fully provisioned instance of IIS. However, the configuration of IIS is preset and you cannot customize it. For more detailed instructions, see [Deploy an ASP.NET Core web app to Azure using Visual Studio](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs). (If you need the ability to customize IIS, try debugging on an [Azure VM](#remote_debug_azure_vm).) 
+From Visual Studio, you can quickly publish and debug your app to a fully provisioned instance of IIS. However, the configuration of IIS is preset and you cannot customize it. For more detailed instructions, see [Deploy an ASP.NET Core web app to Azure using Visual Studio](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs). (If you need the ability to customize IIS, try debugging on an [Azure VM](#remote_debug_azure_vm).)
 
 #### To deploy the app and remote debug using Server Explorer
 
@@ -179,7 +179,7 @@ If you're not using Web Deploy, you must publish and deploy the app using the fi
 In this tutorial, we are using Visual Studio 2017.
 
 [!INCLUDE [remote-debugger-download](../debugger/includes/remote-debugger-download.md)]
-  
+
 ### <a name="BKMK_setup"></a> Set up the remote debugger on Windows Server
 
 [!INCLUDE [remote-debugger-configuration](../debugger/includes/remote-debugger-configuration.md)]
@@ -193,7 +193,7 @@ In this tutorial, we are using Visual Studio 2017.
 2. In Visual Studio, click **Debug > Attach to Process** (Ctrl + Alt + P).
 
     > [!TIP]
-    > In Visual Studio 2017, you can re-attach to the same process you previously attached to by using **Debug > Reattach to Process...** (Shift+Alt+P). 
+    > In Visual Studio 2017, you can re-attach to the same process you previously attached to by using **Debug > Reattach to Process...** (Shift+Alt+P).
 
 3. Set the Qualifier field to **\<remote computer name>:4022**.
 4. Click **Refresh**.
@@ -206,7 +206,7 @@ In this tutorial, we are using Visual Studio 2017.
 5. Check  **Show processes from all users**.
 
 6. Type the first letter of a process name to quickly find *dotnet.exe* (for ASP.NET Core).
-   
+
    For an ASP.NET Core app, the previous process name was *dnx.exe*.
 
     ![RemoteDBG_AttachToProcess](../debugger/media/remotedbg_attachtoprocess_aspnetcore.png "RemoteDBG_AttachToProcess")
@@ -214,7 +214,7 @@ In this tutorial, we are using Visual Studio 2017.
 7. Click **Attach**.
 
 8. Open the remote computer's website. In a browser, go to **http://\<remote computer name>**.
-    
+
     You should see the ASP.NET web page.
 9. In the running ASP.NET application, click the link to the **About** page.
 
@@ -224,7 +224,7 @@ In this tutorial, we are using Visual Studio 2017.
 
 In most setups, required ports are opened by the installation of ASP.NET and the remote debugger. However, if you are troubleshooting deployment issues and the app is hosted behind a firewall, you may need to verify that the correct ports are open.
 
-On an Azure VM, you must open ports through the [Network security group](/azure/virtual-machines/virtual-machines-windows-hero-role#open-port-80-for-web-traffic). 
+On an Azure VM, you must open ports through the [Network security group](/azure/virtual-machines/virtual-machines-windows-hero-role#open-port-80-for-web-traffic).
 
 Required ports:
 
