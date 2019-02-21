@@ -26,10 +26,12 @@ HRESULT WINAPI WriteAllTLogs(LPCTSTR intermediateDirectory, LPCTSTR tlogRootName
 ```
 
 #### Parameters
-- [in] `intermediateDirectory`
+[in] `intermediateDirectory`
+
  The directory in which to store the tracking log.
 
-- [in] `tlogRootName`
+[in] `tlogRootName`
+
  The root name of the log file name.
 
 ## Return value
