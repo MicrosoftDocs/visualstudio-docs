@@ -1,7 +1,7 @@
 ---
 title: "IDebugEnumField::GetUnderlyingSymbol | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IDebugEnumField::GetUnderlyingSymbol"
 helpviewer_keywords:

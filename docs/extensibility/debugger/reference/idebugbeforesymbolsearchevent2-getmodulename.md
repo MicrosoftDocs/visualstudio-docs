@@ -1,7 +1,7 @@
 ---
 title: "IDebugBeforeSymbolSearchEvent2::GetModuleName | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 helpviewer_keywords:
   - "GetModuleName"
   - "IDebugBeforeSymbolSearchEvent2::GetModuleName"

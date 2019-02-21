@@ -1,7 +1,7 @@
 ---
 title: "IDebugExtendedField | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 helpviewer_keywords:
   - "IDebugExtendedField interface"
 ms.assetid: b491499c-af57-47da-87d6-34b7398f6591

@@ -1,7 +1,7 @@
 ---
 title: "IDebugProperty2::GetSize | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IDebugProperty2::GetSize"
 helpviewer_keywords:

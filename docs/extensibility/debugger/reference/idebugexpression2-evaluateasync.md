@@ -1,7 +1,7 @@
 ---
 title: "IDebugExpression2::EvaluateAsync | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IDebugExpression2::EvaluateAsync"
 helpviewer_keywords:

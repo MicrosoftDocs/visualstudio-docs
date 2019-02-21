@@ -1,7 +1,7 @@
 ---
 title: "IDebugDocumentTextEvents2::onDestroy | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IDebugDocumentTextEvents2::OnDestroy"
 helpviewer_keywords:

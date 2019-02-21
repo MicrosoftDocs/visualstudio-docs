@@ -1,7 +1,7 @@
 ---
 title: "IDebugSettingsCallback2::GetMetricGuid | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 helpviewer_keywords:
   - "IDebugSettingsCallback2::GetMetricGuid"
 ms.assetid: 91092763-3362-4857-adf0-231bc1254206

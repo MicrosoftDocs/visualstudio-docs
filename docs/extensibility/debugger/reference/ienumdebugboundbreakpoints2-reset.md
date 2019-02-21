@@ -1,7 +1,7 @@
 ---
 title: "IEnumDebugBoundBreakpoints2::Reset | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IEnumDebugBoundBreakpoints2::Reset"
 helpviewer_keywords:

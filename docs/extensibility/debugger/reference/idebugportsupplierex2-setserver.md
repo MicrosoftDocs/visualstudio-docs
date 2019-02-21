@@ -1,7 +1,7 @@
 ---
 title: "IDebugPortSupplierEx2::SetServer | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 helpviewer_keywords:
   - "IDebugPortSupplierEx2::SetServer"
 ms.assetid: 0e8ef194-3a4f-4abf-8382-4607ab3005d1

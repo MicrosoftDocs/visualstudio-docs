@@ -1,7 +1,7 @@
 ---
 title: "IDebugPortSupplier3::EnumPersistedPorts | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IDebugPortSupplier3::EnumPersistedPorts"
 helpviewer_keywords:

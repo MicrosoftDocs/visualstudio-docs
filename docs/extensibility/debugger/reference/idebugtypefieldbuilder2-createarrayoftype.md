@@ -1,7 +1,7 @@
 ---
 title: "IDebugTypeFieldBuilder2::CreateArrayOfType | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 helpviewer_keywords:
   - "IDebugTypeFieldBuilder2::CreateArrayOfType"
   - "CreateArrayOfType"

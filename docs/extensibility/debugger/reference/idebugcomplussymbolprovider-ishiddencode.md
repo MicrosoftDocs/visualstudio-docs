@@ -1,7 +1,7 @@
 ---
 title: "IDebugComPlusSymbolProvider::IsHiddenCode | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 helpviewer_keywords:
   - "IDebugComPlusSymbolProvider::IsHiddenCode"
 ms.assetid: 1352c6ab-7b92-4a16-b2d2-6520b628830e

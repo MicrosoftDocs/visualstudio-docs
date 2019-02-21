@@ -1,7 +1,7 @@
 ---
 title: "Enumerations (Visual Studio Debugging) | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 helpviewer_keywords:
   - "enumerations [Visual Studio SDK]"
   - "debugging [Debugging SDK], enumerations"

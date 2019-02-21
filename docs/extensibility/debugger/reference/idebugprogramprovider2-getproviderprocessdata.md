@@ -1,7 +1,7 @@
 ---
 title: "IDebugProgramProvider2::GetProviderProcessData | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IDebugProgramProvider2::GetProviderProcessData"
 helpviewer_keywords:

@@ -1,7 +1,7 @@
 ---
 title: "IEnumDebugFields::Skip | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IEnumDebugFields::Skip"
 helpviewer_keywords:

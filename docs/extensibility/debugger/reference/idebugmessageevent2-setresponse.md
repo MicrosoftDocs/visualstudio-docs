@@ -1,7 +1,7 @@
 ---
 title: "IDebugMessageEvent2::SetResponse | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IDebugMessageEvent2::SetResponse"
 helpviewer_keywords:

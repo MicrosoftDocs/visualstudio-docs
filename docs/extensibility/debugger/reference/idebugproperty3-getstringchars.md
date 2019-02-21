@@ -1,7 +1,7 @@
 ---
 title: "IDebugProperty3::GetStringChars | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IDebugProperty3::GetStringChars"
 helpviewer_keywords:

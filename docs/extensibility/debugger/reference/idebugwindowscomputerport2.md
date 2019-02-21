@@ -1,7 +1,7 @@
 ---
 title: "IDebugWindowsComputerPort2 | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 helpviewer_keywords:
   - "IDebugWindowsComputerPort2 interface"
 ms.assetid: 25f327b8-0303-4268-88d1-74df630436aa

@@ -1,7 +1,7 @@
 ---
 title: "IDebugObject::IsEqual | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IDebugObject::IsEqual"
 helpviewer_keywords:

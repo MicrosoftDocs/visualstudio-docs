@@ -1,7 +1,7 @@
 ---
 title: "IDebugProgramEngines2::SetEngine | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IDebugProgramEngines2::SetEngine"
 helpviewer_keywords:

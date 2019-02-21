@@ -1,7 +1,7 @@
 ---
 title: "IDebugProgramHost2::GetHostMachineName | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IDebugProgramHost2::GetHostMachineName"
 helpviewer_keywords:

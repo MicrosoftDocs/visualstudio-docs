@@ -1,7 +1,7 @@
 ---
 title: "IEnumDebugErrorBreakpoints2::GetCount | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IEnumDebugErrorBreakpoints2::GetCount"
 helpviewer_keywords:

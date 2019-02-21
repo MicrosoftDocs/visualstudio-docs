@@ -1,7 +1,7 @@
 ---
 title: "IDebugCoreServer2::EnumPortSuppliers | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IDebugCoreServer2::EnumPortSuppliers"
 helpviewer_keywords:

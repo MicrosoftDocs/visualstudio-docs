@@ -1,7 +1,7 @@
 ---
 title: "IEnumDebugPrograms2::Next | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IEnumDebugPrograms2::Next"
 helpviewer_keywords:

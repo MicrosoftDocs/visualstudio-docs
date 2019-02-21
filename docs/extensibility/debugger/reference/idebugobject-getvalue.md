@@ -1,7 +1,7 @@
 ---
 title: "IDebugObject::GetValue | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IDebugObject::GetValue"
 helpviewer_keywords:

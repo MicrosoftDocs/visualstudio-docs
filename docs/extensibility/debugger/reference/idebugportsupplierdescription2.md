@@ -1,7 +1,7 @@
 ---
 title: "IDebugPortSupplierDescription2 | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 helpviewer_keywords:
   - "IDebugPortSupplierDescription2 interface"
 ms.assetid: dd19b9d6-0703-44b3-9498-cedffa0ce5b7

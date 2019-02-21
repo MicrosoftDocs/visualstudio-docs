@@ -1,7 +1,7 @@
 ---
 title: "IDebugPointerObject3 | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 helpviewer_keywords:
   - "IDebugPointerObject3 interface"
 ms.assetid: 11d26af4-1079-435e-96fa-d5269cbea8eb

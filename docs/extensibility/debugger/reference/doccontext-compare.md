@@ -1,7 +1,7 @@
 ---
 title: "DOCCONTEXT_COMPARE | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "DOCCONTEXT_COMPARE"
 helpviewer_keywords:

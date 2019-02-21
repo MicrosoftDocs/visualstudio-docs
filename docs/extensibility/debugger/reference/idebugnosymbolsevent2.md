@@ -1,7 +1,7 @@
 ---
 title: "IDebugNoSymbolsEvent2 | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 helpviewer_keywords:
   - "IDebugNoSymbolsEvent2 interface"
 ms.assetid: f6fb6388-47f6-4385-9ad5-95d62f9a7592

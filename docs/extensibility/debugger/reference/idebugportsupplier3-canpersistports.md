@@ -1,7 +1,7 @@
 ---
 title: "IDebugPortSupplier3::CanPersistPorts | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IDebugPortSupplier3::CanPersistPorts"
 helpviewer_keywords:

@@ -1,7 +1,7 @@
 ---
 title: "IEnumDebugBoundBreakpoints2::Clone | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IEnumDebugBoundBreakpoints2::Clone"
 helpviewer_keywords:

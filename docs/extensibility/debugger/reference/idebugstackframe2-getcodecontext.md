@@ -1,7 +1,7 @@
 ---
 title: "IDebugStackFrame2::GetCodeContext | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IDebugStackFrame2::GetCodeContext"
 helpviewer_keywords:

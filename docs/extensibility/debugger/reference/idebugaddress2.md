@@ -1,7 +1,7 @@
 ---
 title: "IDebugAddress2 | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IDebugAddress2"
 helpviewer_keywords:
