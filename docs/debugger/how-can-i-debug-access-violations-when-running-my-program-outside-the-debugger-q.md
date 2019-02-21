@@ -29,5 +29,5 @@ ms.workload:
  Set the [Just-in-time debugging](../debugger/just-in-time-debugging-in-visual-studio.md) option and run your program stand-alone until the access violation occurs. Then, in the **Access Violation** dialog box, you can click **Cancel** to start the debugger.
 
 ## See Also
- [Debugging Native Code FAQs](../debugger/debugging-native-code-faqs.md)
- [Debugging Native Code](../debugger/debugging-native-code.md)
+- [Debugging Native Code FAQs](../debugger/debugging-native-code-faqs.md)
+- [Debugging Native Code](../debugger/debugging-native-code.md)

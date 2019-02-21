@@ -54,4 +54,4 @@ The Visual Studio Remote Debugger can run as an application or as a background s
 |Microsoft.WindowsAzure.Plugins.RemoteDebugger.FileUpload|32400|32398|
 
 ## See Also
- [Remote Debugging](../debugger/remote-debugging.md)
+- [Remote Debugging](../debugger/remote-debugging.md)

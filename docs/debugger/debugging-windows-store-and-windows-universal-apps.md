@@ -27,4 +27,4 @@ The Visual Studio debugger provides complete support for debugging UWP apps. See
 
 
 ## See Also
- [Analyze code quality using static code analysis](/visualstudio/code-quality/code-analysis-for-managed-code-overview)
+- [Analyze code quality using static code analysis](/visualstudio/code-quality/code-analysis-for-managed-code-overview)

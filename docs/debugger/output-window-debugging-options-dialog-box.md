@@ -32,5 +32,5 @@ For more information, see [How to: Display WPF Trace Information](../debugger/ho
 If you need to restore default settings, you can do that using **Tools** > **Import and Export Settings** > **Reset all settings**. If you only want to reset a subset of settings, save your settings in the **Import and Export Settings Wizard** before making the changes that you want to test, then import your saved settings later.
 
 ## See also
-[Debugging, Options Dialog Box](../debugger/debugging-options-dialog-box.md)
-[Output Window](../ide/reference/output-window.md)
+- [Debugging, Options Dialog Box](../debugger/debugging-options-dialog-box.md)
+- [Output Window](../ide/reference/output-window.md)

@@ -40,4 +40,4 @@ Server-side script files are visible in Solution Explorer. Client-side script fi
      The client-side script file opens in a source window.
 
 ## See Also
- [Viewing Data in the Debugger](../debugger/viewing-data-in-the-debugger.md)
+- [Viewing Data in the Debugger](../debugger/viewing-data-in-the-debugger.md)

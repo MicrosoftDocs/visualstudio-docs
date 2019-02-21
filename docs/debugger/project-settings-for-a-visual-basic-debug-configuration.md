@@ -52,4 +52,4 @@ You can change the project settings for a [!INCLUDE[vbprvb](../code-quality/incl
 | **Define TRACE Constant** | Defining this symbol enables conditional compiling of output functions from the [Trace class](/dotnet/api/system.diagnostics.trace). With this symbol defined, the Trace class methods generate output to the [Output window](../ide/reference/output-window.md). Without this symbol, Trace class methods are not compiled and no Trace output is generated. This symbol is defined by default for both Debug and Release versions. |
 
 ## See Also
- [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)
+- [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)

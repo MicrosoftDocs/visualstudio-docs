@@ -118,5 +118,5 @@ The Graphics Pipeline Stages window helps you understand how an individual draw 
  ![The vertex shader stage result preview](media/gfx_diag_vertex_shader_preview.png)
 
 ## See Also
- [Walkthrough: Missing Objects Due to Vertex Shading](walkthrough-missing-objects-due-to-vertex-shading.md)
- [Walkthrough: Debugging Rendering Errors Due to Shading](walkthrough-debugging-rendering-errors-due-to-shading.md)
+- [Walkthrough: Missing Objects Due to Vertex Shading](walkthrough-missing-objects-due-to-vertex-shading.md)
+- [Walkthrough: Debugging Rendering Errors Due to Shading](walkthrough-debugging-rendering-errors-due-to-shading.md)

@@ -45,6 +45,6 @@ Because Spy++ runs independently, after you start it you can close Visual Studio
 2.  Enter **spyxx.exe**.
 
 ## See also
- [Using Spy++](../debugger/using-spy-increment.md)
- [Spy++ Views](../debugger/spy-increment-views.md)
- [Spy++ Reference](../debugger/spy-increment-reference.md)
+- [Using Spy++](../debugger/using-spy-increment.md)
+- [Spy++ Views](../debugger/spy-increment-views.md)
+- [Spy++ Reference](../debugger/spy-increment-reference.md)

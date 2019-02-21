@@ -104,5 +104,5 @@ The Graphics Object Table in Visual Studio Graphics Analysis helps you understan
 |**bool**|A Boolean (`true` or `false`) value. Each Boolean value is represented by a 32-bit value.|
 
 ## See Also
- [Graphics Diagnostics (Debugging DirectX Graphics)](visual-studio-graphics-diagnostics.md)
- [Walkthrough: Missing Objects Due to Device State](walkthrough-missing-objects-due-to-device-state.md)
+- [Graphics Diagnostics (Debugging DirectX Graphics)](visual-studio-graphics-diagnostics.md)
+- [Walkthrough: Missing Objects Due to Device State](walkthrough-missing-objects-due-to-device-state.md)

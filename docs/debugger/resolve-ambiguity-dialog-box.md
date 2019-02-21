@@ -36,4 +36,4 @@ The `Resolve Ambiguity` dialog box appears when the debugger cannot choose the l
  Shows the module (EXE or DLL) containing the object code for the function.
 
 ## See Also
- [Expressions in the Debugger](../debugger/expressions-in-the-debugger.md)
+- [Expressions in the Debugger](../debugger/expressions-in-the-debugger.md)

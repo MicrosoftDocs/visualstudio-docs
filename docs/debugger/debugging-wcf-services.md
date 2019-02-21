@@ -29,5 +29,5 @@ ms.workload:
  Describes how to debug a WCF Service that runs outside IIS or the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Development server.
 
 ## See Also
- [Debugger Security](../debugger/debugger-security.md)
- [First look at the debugger](../debugger/debugger-feature-tour.md)
+- [Debugger Security](../debugger/debugger-security.md)
+- [First look at the debugger](../debugger/debugger-feature-tour.md)

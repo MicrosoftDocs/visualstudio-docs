@@ -41,7 +41,7 @@ If you are only interested in debugging the code you are building locally, it is
 2. This option has no effect on DLLs that have been pre-compiled (a.k.a ngen'ed) to native code. However, you can disable usage of pre-compiled code by starting the process with the environment variable 'COMPlus_ZapDisable' set to '1'.
 
 ## See Also
- [Debugging Managed Code](../debugger/debugging-managed-code.md)
- [Navigating through Code with the Debugger](../debugger/navigating-through-code-with-the-debugger.md)
- [Attach to Running Processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)
- [Managed Execution Process](/dotnet/standard/managed-execution-process)
+- [Debugging Managed Code](../debugger/debugging-managed-code.md)
+- [Navigating through Code with the Debugger](../debugger/navigating-through-code-with-the-debugger.md)
+- [Attach to Running Processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)
+- [Managed Execution Process](/dotnet/standard/managed-execution-process)

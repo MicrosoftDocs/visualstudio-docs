@@ -43,4 +43,4 @@ You can play back graphics information by using your local machine, or by using 
 >  The **Remote Debugger Connections** dialog box might also display remote debugging targets that are directly connected to your development machine or are on the same subnet. You can use one of these remote debugging targets as the Graphics Diagnostics playback machine without manually configuring it. In the **Remote Debugger Connections** dialog box, select the target you want and then choose the **Select** button.
 
 ## See Also
- [Graphics Log Document](graphics-log-document.md)
+- [Graphics Log Document](graphics-log-document.md)

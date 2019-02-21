@@ -154,4 +154,4 @@ If the IIS configuration is not causing the issue, try these steps:
     If you can't get your app to work with the debugger, try creating a basic ASP.NET application locally on the server, and try to debug the basic app. (You might want to use the default ASP.NET MVC template.) If you can debug a basic app, that may help you identify what's different between the two configurations. Look for differences in settings in the web.config file, such as URL rewrite rules.
 
 ## See Also
- [Debugging Web Applications: Errors and Troubleshooting](../debugger/debugging-web-applications-errors-and-troubleshooting.md)
+- [Debugging Web Applications: Errors and Troubleshooting](../debugger/debugging-web-applications-errors-and-troubleshooting.md)

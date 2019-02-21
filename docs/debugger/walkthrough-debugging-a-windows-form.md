@@ -177,5 +177,5 @@ A Windows Form is one of the most common managed applications. A Windows Form cr
      The debugger breaks execution of the Windows Form at the breakpoint.
 
 ## See Also
- [Debugging Managed Code](../debugger/debugging-managed-code.md)
- [Debugger Security](../debugger/debugger-security.md)
+- [Debugging Managed Code](../debugger/debugging-managed-code.md)
+- [Debugger Security](../debugger/debugger-security.md)

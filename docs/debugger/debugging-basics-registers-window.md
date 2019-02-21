@@ -44,5 +44,5 @@ The **Registers** window is available only if address-level debugging is enabled
  To reduce clutter, the **Registers** window organizes registers into groups. If you right-click on the **Registers** window, you will see a shortcut menu containing a list of groups, which you can display or hide as you see fit.
 
 ## See Also
- [How to: Use the Registers Window](../debugger/how-to-use-the-registers-window.md)
- [First look at the debugger](../debugger/debugger-feature-tour.md)
+- [How to: Use the Registers Window](../debugger/how-to-use-the-registers-window.md)
+- [First look at the debugger](../debugger/debugger-feature-tour.md)

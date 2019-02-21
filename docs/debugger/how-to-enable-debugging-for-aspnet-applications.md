@@ -177,10 +177,10 @@ There are different ways to publish apps to IIS. These steps show how to create 
 > Debug mode greatly reduces the performance of your app. For best performance, set `debug="false"` in the *web.config* and specify a Release build when you deploy a production app or conduct performance measurements.
 
 ## See also
-[ASP.NET debugging: system requirements](aspnet-debugging-system-requirements.md)
-[How to: Run the worker process under a user account](how-to-run-the-worker-process-under-a-user-account.md)
-[How to: Find the name of the ASP.NET process](how-to-find-the-name-of-the-aspnet-process.md)
-[Debug deployed web applications](debugging-deployed-web-applications.md)
-[Walkthrough: Debugging a web form](walkthrough-debugging-a-web-form.md)
-[How to: Debug ASP.NET exceptions](how-to-debug-aspnet-exceptions.md)
-[Debug web applications: Errors and troubleshooting](debugging-web-applications-errors-and-troubleshooting.md)
+- [ASP.NET debugging: system requirements](aspnet-debugging-system-requirements.md)
+- [How to: Run the worker process under a user account](how-to-run-the-worker-process-under-a-user-account.md)
+- [How to: Find the name of the ASP.NET process](how-to-find-the-name-of-the-aspnet-process.md)
+- [Debug deployed web applications](debugging-deployed-web-applications.md)
+- [Walkthrough: Debugging a web form](walkthrough-debugging-a-web-form.md)
+- [How to: Debug ASP.NET exceptions](how-to-debug-aspnet-exceptions.md)
+- [Debug web applications: Errors and troubleshooting](debugging-web-applications-errors-and-troubleshooting.md)

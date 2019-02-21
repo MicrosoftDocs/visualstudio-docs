@@ -52,6 +52,6 @@ Debug.Fail("a clever output string goes here")
 ```
 
 ## See Also
- [Debugger Security](../debugger/debugger-security.md)
- [C#, F#, and Visual Basic Project Types](../debugger/debugging-preparation-csharp-f-hash-and-visual-basic-project-types.md)
- [Debugging Managed Code](../debugger/debugging-managed-code.md)
+- [Debugger Security](../debugger/debugger-security.md)
+- [C#, F#, and Visual Basic Project Types](../debugger/debugging-preparation-csharp-f-hash-and-visual-basic-project-types.md)
+- [Debugging Managed Code](../debugger/debugging-managed-code.md)

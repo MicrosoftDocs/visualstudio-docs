@@ -162,5 +162,5 @@ In a multithreaded program, each thread has its own call stack. The **Threads** 
 -   In the toolbar at the top of the **Threads** window, select **Expand Call Stacks** or **Collapse Call Stacks**.
 
 ## See also
- [Debug multithreaded applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)
- [Get started debugging multithreaded applications](../debugger/get-started-debugging-multithreaded-apps.md)
+- [Debug multithreaded applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)
+- [Get started debugging multithreaded applications](../debugger/get-started-debugging-multithreaded-apps.md)

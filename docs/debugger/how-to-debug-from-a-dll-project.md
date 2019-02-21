@@ -76,7 +76,7 @@ Native and managed DLL projects have different settings to specify calling apps.
 If debugging does not hit your breakpoints, make sure that your DLL output (by default, the *\<project>\Debug* folder) is the location that the calling app is calling.
 
 ## See also
- [Debugging DLL projects](../debugger/debugging-dll-projects.md)
- [Project settings for  C# debug configurations](../debugger/project-settings-for-csharp-debug-configurations.md)
- [Project settings for a Visual Basic debug configuration](../debugger/project-settings-for-a-visual-basic-debug-configuration.md)
- [Project settings for a C++ debug configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md)
+- [Debugging DLL projects](../debugger/debugging-dll-projects.md)
+- [Project settings for  C# debug configurations](../debugger/project-settings-for-csharp-debug-configurations.md)
+- [Project settings for a Visual Basic debug configuration](../debugger/project-settings-for-a-visual-basic-debug-configuration.md)
+- [Project settings for a C++ debug configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md)

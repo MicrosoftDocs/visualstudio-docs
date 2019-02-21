@@ -34,7 +34,7 @@ The **Debugging** folder, in the **Options** dialog box on the **Tools** menu, p
 -   [Symbols, Debugging, Options Dialog Box](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)
 
 ## See Also
- [Debugger Security](../debugger/debugger-security.md)
- [Debugging in Visual Studio](../debugger/index.md)
- [First look at the debugger](../debugger/debugger-feature-tour.md)
- [Debugging User Interface Reference](../debugger/debugging-user-interface-reference.md)
+- [Debugger Security](../debugger/debugger-security.md)
+- [Debugging in Visual Studio](../debugger/index.md)
+- [First look at the debugger](../debugger/debugger-feature-tour.md)
+- [Debugging User Interface Reference](../debugger/debugging-user-interface-reference.md)

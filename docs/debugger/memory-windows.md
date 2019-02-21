@@ -112,4 +112,4 @@ In native code apps, you can use register names as live expressions. For example
    When you use a debug command such as **Step**, the memory address displayed in the **Address** field and at the top of the **Memory** window automatically changes as the pointer changes.
 
 ## See also
- [View data in the debugger](../debugger/viewing-data-in-the-debugger.md)
+- [View data in the debugger](../debugger/viewing-data-in-the-debugger.md)

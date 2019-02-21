@@ -33,5 +33,5 @@ ms.workload:
  For more information, see [How to: Use Edit and Continue (C#)](../debugger/how-to-use-edit-and-continue-csharp.md).
 
 ## See Also
- [How to: Use Edit and Continue (C#)](../debugger/how-to-use-edit-and-continue-csharp.md)
- [Supported Code Changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md)
+- [How to: Use Edit and Continue (C#)](../debugger/how-to-use-edit-and-continue-csharp.md)
+- [Supported Code Changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md)

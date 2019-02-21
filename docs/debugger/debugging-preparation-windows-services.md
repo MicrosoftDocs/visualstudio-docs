@@ -22,8 +22,8 @@ ms.workload:
 A Windows service is a program that runs in the background under Microsoft Windows. Examples include the Telnet service and the Windows time service, which updates your computer's visible clock. A Windows service cannot be run from within [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]; it must run within the context of the Services Control Manager. For more information, see [Creating Windows Services](/dotnet/framework/windows-services/how-to-create-windows-services), [Debugging Windows Service Applications](/dotnet/framework/windows-services/how-to-debug-windows-service-applications), and [Windows Service Applications](/dotnet/framework/windows-services/index).
 
 ## See Also
- [Debugging Managed Code](../debugger/debugging-managed-code.md)
- [C#, F#, and Visual Basic Project Types](../debugger/debugging-preparation-csharp-f-hash-and-visual-basic-project-types.md)
- [Project Settings for  C# Debug Configurations](../debugger/project-settings-for-csharp-debug-configurations.md)
- [Project Settings for a Visual Basic Debug Configuration](../debugger/project-settings-for-a-visual-basic-debug-configuration.md)
- [How to: Debug the OnStart Method](../debugger/how-to-debug-the-onstart-method.md)
+- [Debugging Managed Code](../debugger/debugging-managed-code.md)
+- [C#, F#, and Visual Basic Project Types](../debugger/debugging-preparation-csharp-f-hash-and-visual-basic-project-types.md)
+- [Project Settings for  C# Debug Configurations](../debugger/project-settings-for-csharp-debug-configurations.md)
+- [Project Settings for a Visual Basic Debug Configuration](../debugger/project-settings-for-a-visual-basic-debug-configuration.md)
+- [How to: Debug the OnStart Method](../debugger/how-to-debug-the-onstart-method.md)

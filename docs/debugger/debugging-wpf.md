@@ -28,4 +28,4 @@ ms.workload:
 | [How to: Display WPF Trace Information](../debugger/how-to-display-wpf-trace-information.md) | [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] can receive debug trace information from WPF applications and display that information in the **Output** window. This topic describes how to enable and customize the display of WPF trace information. |
 
 ## See Also
- [Debugging Managed Code](../debugger/debugging-managed-code.md)
+- [Debugging Managed Code](../debugger/debugging-managed-code.md)

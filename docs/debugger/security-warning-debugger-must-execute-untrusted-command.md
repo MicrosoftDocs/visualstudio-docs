@@ -37,6 +37,6 @@ This warning dialog box appears when you are using Source Server. It indicates t
  Stop execution of command and downloading of the file from Source Server.
 
 ## See Also
- [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)
- [Debugger Security](../debugger/debugger-security.md)
- [Source Server](/windows/desktop/Debug/source-server-and-source-indexing)
+- [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)
+- [Debugger Security](../debugger/debugger-security.md)
+- [Source Server](/windows/desktop/Debug/source-server-and-source-indexing)

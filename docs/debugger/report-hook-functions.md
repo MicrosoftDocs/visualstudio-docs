@@ -42,5 +42,5 @@ typedef int (__cdecl *_CRT_REPORT_HOOK)(int, char *, int *);
  If the hook handles the message in question completely, so that no further reporting is required, it should return **TRUE**. If it returns **FALSE**, `_CrtDbgReport` will report the message normally.
 
 ## See Also
- [Debug Hook Function Writing](../debugger/debug-hook-function-writing.md)
- [crt_dbg2 Sample](https://github.com/Microsoft/VCSamples/tree/master/VC2010Samples/crt/crt_dbg2)
+- [Debug Hook Function Writing](../debugger/debug-hook-function-writing.md)
+- [crt_dbg2 Sample](https://github.com/Microsoft/VCSamples/tree/master/VC2010Samples/crt/crt_dbg2)

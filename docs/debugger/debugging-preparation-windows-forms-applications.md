@@ -59,10 +59,10 @@ The Windows Forms project template creates a Windows Forms application. Debuggin
 4. Debug using the techniques discussed in [First look at the debugger](../debugger/debugger-feature-tour.md).
 
 ## See Also
- [Debugging Managed Code](../debugger/debugging-managed-code.md)
- [C#, F#, and Visual Basic Project Types](../debugger/debugging-preparation-csharp-f-hash-and-visual-basic-project-types.md)
- [How to: Set Debug and Release Configurations](../debugger/how-to-set-debug-and-release-configurations.md)
- [Project Settings for  C# Debug Configurations](../debugger/project-settings-for-csharp-debug-configurations.md)
- [Project Settings for a Visual Basic Debug Configuration](../debugger/project-settings-for-a-visual-basic-debug-configuration.md)
- [Attach to Running Processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)
- [Windows Forms](/dotnet/framework/winforms/index)
+- [Debugging Managed Code](../debugger/debugging-managed-code.md)
+- [C#, F#, and Visual Basic Project Types](../debugger/debugging-preparation-csharp-f-hash-and-visual-basic-project-types.md)
+- [How to: Set Debug and Release Configurations](../debugger/how-to-set-debug-and-release-configurations.md)
+- [Project Settings for  C# Debug Configurations](../debugger/project-settings-for-csharp-debug-configurations.md)
+- [Project Settings for a Visual Basic Debug Configuration](../debugger/project-settings-for-a-visual-basic-debug-configuration.md)
+- [Attach to Running Processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)
+- [Windows Forms](/dotnet/framework/winforms/index)

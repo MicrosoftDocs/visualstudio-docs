@@ -334,7 +334,7 @@ You can set breakpoints on different conditions, such as the thread name or the 
 
 ## See also
 
-[Debug multithreaded applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)
-[How to: Switch to another thread while debugging](../debugger/how-to-switch-to-another-thread-while-debugging.md)
-[How to: Use the Parallel Stack window](../debugger/using-the-parallel-stacks-window.md)
-[How to: Use the Parallel Watch window](../debugger/how-to-use-the-parallel-watch-window.md)
+- [Debug multithreaded applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)
+- [How to: Switch to another thread while debugging](../debugger/how-to-switch-to-another-thread-while-debugging.md)
+- [How to: Use the Parallel Stack window](../debugger/using-the-parallel-stacks-window.md)
+- [How to: Use the Parallel Watch window](../debugger/how-to-use-the-parallel-watch-window.md)

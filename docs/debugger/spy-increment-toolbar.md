@@ -36,6 +36,6 @@ The toolbar appears under the menu bar in Spy++. To display or hide the toolbar,
 |![Spy&#43;&#43; Refresh Button](../debugger/media/icon_spy--_refresh.gif "Icon_Spy++_Refresh")|Refreshes the system views.|
 
 ## See Also
- [Using Spy++](../debugger/using-spy-increment.md)
- [Spy++ Views](../debugger/spy-increment-views.md)
- [Spy++ Reference](../debugger/spy-increment-reference.md)
+- [Using Spy++](../debugger/using-spy-increment.md)
+- [Spy++ Views](../debugger/spy-increment-views.md)
+- [Spy++ Reference](../debugger/spy-increment-reference.md)

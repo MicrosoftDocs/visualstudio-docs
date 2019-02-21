@@ -172,7 +172,8 @@ class MyHashtable
 ```
 
 ## See Also
-[Using DebuggerTypeProxy Attribute](../debugger/using-debuggertypeproxy-attribute.md)
-[Create custom views of managed objects](../debugger/create-custom-views-of-dot-managed-objects.md)
-[Format specifiers in C#](../debugger/format-specifiers-in-csharp.md)
-[Enhancing Debugging with the Debugger Display Attributes](/dotnet/framework/debug-trace-profile/enhancing-debugging-with-the-debugger-display-attributes)
+
+- [Using DebuggerTypeProxy Attribute](../debugger/using-debuggertypeproxy-attribute.md)
+- [Create custom views of managed objects](../debugger/create-custom-views-of-dot-managed-objects.md)
+- [Format specifiers in C#](../debugger/format-specifiers-in-csharp.md)
+- [Enhancing Debugging with the Debugger Display Attributes](/dotnet/framework/debug-trace-profile/enhancing-debugging-with-the-debugger-display-attributes)

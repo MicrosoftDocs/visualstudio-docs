@@ -53,5 +53,5 @@ Error: The Visual Studio Remote Debugger on the target computer cannot connect b
 5.  Compare the IP address values.
 
 ## See Also
- [Remote Debugging Errors and Troubleshooting](../debugger/remote-debugging-errors-and-troubleshooting.md)
- [Remote Debugging](../debugger/remote-debugging.md)
+- [Remote Debugging Errors and Troubleshooting](../debugger/remote-debugging-errors-and-troubleshooting.md)
+- [Remote Debugging](../debugger/remote-debugging.md)

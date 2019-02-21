@@ -112,5 +112,5 @@ Visual Studio *Graphics Diagnostics* is a set of tools for recording and then an
  But Frame Analysis isn't just about going fast - it's about gaining the most performance you can while giving up the least amount of visual quality. Sometimes an expensive effect that looks great on a large display doesn't make the same impact when viewed on the small screen of a phone, where a simpler effect might look just as good without draining the battery. The automatic changes and benchmarks that Graphics Analysis provides can help you find the balance that's right for your app across a range of devices.
 
 ## See Also
- [Command-Line Capture Tool](command-line-capture-tool.md)
- [HLSL Debugger](hlsl-shader-debugger.md)
+- [Command-Line Capture Tool](command-line-capture-tool.md)
+- [HLSL Debugger](hlsl-shader-debugger.md)

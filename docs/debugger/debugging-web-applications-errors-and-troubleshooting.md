@@ -50,5 +50,5 @@ You may encounter the following errors when attempting to debug Web applications
 -   [Error: Unable to Start Debugging on the Web Server](../debugger/error-unable-to-start-debugging-on-the-web-server.md)
 
 ## See Also
- [Debugger Security](../debugger/debugger-security.md)
- [Debugging Web Applications and Script](/visualstudio/debugger/how-to-enable-debugging-for-aspnet-applications)
+- [Debugger Security](../debugger/debugger-security.md)
+- [Debugging Web Applications and Script](/visualstudio/debugger/how-to-enable-debugging-for-aspnet-applications)

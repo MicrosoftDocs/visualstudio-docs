@@ -32,7 +32,7 @@ Writing a Visualizer involves possible security threats. No known exploit curren
  To mitigate this vulnerability, be mindful of the interfaces exposed by your visualizer.
 
 ## See Also
- [Visualizer Architecture](../debugger/visualizer-architecture.md)
- [How to: Write a Visualizer](/visualstudio/debugger/create-custom-visualizers-of-data)
- [Create Custom Visualizers](../debugger/create-custom-visualizers-of-data.md)
- [Viewing Data in the Debugger](../debugger/viewing-data-in-the-debugger.md)
+- [Visualizer Architecture](../debugger/visualizer-architecture.md)
+- [How to: Write a Visualizer](/visualstudio/debugger/create-custom-visualizers-of-data)
+- [Create Custom Visualizers](../debugger/create-custom-visualizers-of-data.md)
+- [Viewing Data in the Debugger](../debugger/viewing-data-in-the-debugger.md)

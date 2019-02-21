@@ -74,6 +74,6 @@ You can debug C++ code that is running on the graphics processing unit (GPU). GP
  It is possible for C++ AMP computations to exceed the default time interval that's set by the Windows timeout detection and recovery process (TDR). When that happens, the computation is canceled and the data is lost. For more information, see [Handling TDRs in C++ AMP](http://go.microsoft.com/fwlink/p/?LinkId=249154).
 
 ## See Also
- [Walkthrough: Debugging a C++ AMP Application](/cpp/parallel/amp/walkthrough-debugging-a-cpp-amp-application)
- [Project Settings for a C++ Debug Configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md)
- [Start GPU Debugging in Visual Studio](http://go.microsoft.com/fwlink/p/?LinkId=255381)
+- [Walkthrough: Debugging a C++ AMP Application](/cpp/parallel/amp/walkthrough-debugging-a-cpp-amp-application)
+- [Project Settings for a C++ Debug Configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md)
+- [Start GPU Debugging in Visual Studio](http://go.microsoft.com/fwlink/p/?LinkId=255381)

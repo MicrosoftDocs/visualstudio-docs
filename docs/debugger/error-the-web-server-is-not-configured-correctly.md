@@ -42,5 +42,5 @@ Take these steps to resolve this issue:
 4. If the `maxConnection` limit in IIS is too low, and you have too many connections, you may need to [increase the connection limit](/iis/configuration/system.applicationhost/sites/sitedefaults/limits).
 
 ## See Also
- [Remote Debugging ASP.NET on a Remote IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md)
- [Debugging Web Applications: Errors and Troubleshooting](../debugger/debugging-web-applications-errors-and-troubleshooting.md)
+- [Remote Debugging ASP.NET on a Remote IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md)
+- [Debugging Web Applications: Errors and Troubleshooting](../debugger/debugging-web-applications-errors-and-troubleshooting.md)

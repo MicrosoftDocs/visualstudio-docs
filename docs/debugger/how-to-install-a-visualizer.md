@@ -39,5 +39,5 @@ After you have created a visualizer, you must install the visualizer so that it 
 4.  Restart the debugging session.
 
 ## See Also
- [Create Custom Visualizers](../debugger/create-custom-visualizers-of-data.md)
- [How to: Write a Visualizer](/visualstudio/debugger/create-custom-visualizers-of-data)
+- [Create Custom Visualizers](../debugger/create-custom-visualizers-of-data.md)
+- [How to: Write a Visualizer](/visualstudio/debugger/create-custom-visualizers-of-data)

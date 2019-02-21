@@ -37,4 +37,4 @@ The Registers window is available only if address-level debugging is enabled in 
     >  Editing floating-point values can result in minor inaccuracies because of decimal-to-binary conversion of fractional components. Even a seemingly innocuous edit can result in changes to some of the least significant bits in a floating-point register.
 
 ## See Also
- [How to: Use the Registers Window](../debugger/how-to-use-the-registers-window.md)
+- [How to: Use the Registers Window](../debugger/how-to-use-the-registers-window.md)

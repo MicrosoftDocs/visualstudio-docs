@@ -48,4 +48,4 @@ Versions of the Microsoft .NET Framework earlier than 2.0 do not provide support
 -   See [Setting Up SQL Debugging](/previous-versions/visualstudio/visual-studio-2010/s4sszxst(v=vs.100)).
 
 ## See Also
- [Debug 64-Bit Applications](../debugger/debug-64-bit-applications.md)
+- [Debug 64-Bit Applications](../debugger/debug-64-bit-applications.md)

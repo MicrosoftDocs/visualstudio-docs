@@ -55,4 +55,4 @@ For more information, see [Debug and release configurations](how-to-set-debug-an
 |**Advanced** button|For information on advanced debugging options, see [Advanced build settings dialog box (C#)](../ide/reference/advanced-build-settings-dialog-box-csharp.md). The portable format for symbol (*.pdb*) files is a recent cross-platform format for .NET Core apps.
 
 ## See also
- [Debugger settings and preparation](../debugger/debugger-settings-and-preparation.md)
+- [Debugger settings and preparation](../debugger/debugger-settings-and-preparation.md)

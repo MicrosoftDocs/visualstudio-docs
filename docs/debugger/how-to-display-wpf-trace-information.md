@@ -79,4 +79,4 @@ ms.workload:
 8.  Click **OK**.
 
 ## See Also
- [Debugging WPF](../debugger/debugging-wpf.md)
+- [Debugging WPF](../debugger/debugging-wpf.md)

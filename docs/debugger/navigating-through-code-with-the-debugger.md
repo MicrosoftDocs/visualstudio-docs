@@ -179,6 +179,6 @@ To load Microsoft symbols, see [Configure symbol locations and loading options](
  The debugger steps over properties and operators in managed code by default. In most cases, this provides a better debugging experience. To enable stepping into properties or operators, choose **Debug** > **Options**. On the **Debugging** > **General** page, clear the **Step over properties and operators (Managed only)** check box.
 
 ## See also
- [What is debugging?](../debugger/what-is-debugging.md)
- [Debugging techniques and tools](../debugger/write-better-code-with-visual-studio.md)
- [First look at debugging](../debugger/debugger-feature-tour.md)
+- [What is debugging?](../debugger/what-is-debugging.md)
+- [DDebugging techniques and tools](../debugger/write-better-code-with-visual-studio.md)
+- [First look at debugging](../debugger/debugger-feature-tour.md)

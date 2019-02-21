@@ -33,6 +33,6 @@ You can expand and collapse the Windows, Processes, and Threads views using two 
 2.  From the **Tree** menu, choose one of the expand or collapse commands.
 
 ## See Also
- [Using Spy++](../debugger/using-spy-increment.md)
- [Spy++ Views](../debugger/spy-increment-views.md)
- [Spy++ Reference](../debugger/spy-increment-reference.md)
+- [Using Spy++](../debugger/using-spy-increment.md)
+- [Spy++ Views](../debugger/spy-increment-views.md)
+- [Spy++ Reference](../debugger/spy-increment-reference.md)

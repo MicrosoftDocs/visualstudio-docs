@@ -59,4 +59,4 @@ In the rare cases where this error appears, you can set a registry key to indica
      If you still get an error message when you start to debug, verify that you have entered the version number correctly in the registry. Also verify that you are using a version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] supported by Visual Studio. The debugger is compatible with the current .NET Framework version and previous versions, but may not be forward compatible with future versions.
 
 ## See Also
- [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)
+- [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)

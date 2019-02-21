@@ -39,5 +39,5 @@ ms.workload:
 2.  When you hit the breakpoint, use the **Memory** window to view memory contents starting at 0x00408000. For more information, see [Memory Windows](../debugger/memory-windows.md).
 
 ## See Also
- [Debugging Native Code FAQs](../debugger/debugging-native-code-faqs.md)
- [Debugging Native Code](../debugger/debugging-native-code.md)
+- [Debugging Native Code FAQs](../debugger/debugging-native-code-faqs.md)
+- [Debugging Native Code](../debugger/debugging-native-code.md)

@@ -63,6 +63,6 @@ In these situations, you can create a Visual Studio EXE project for the app, or 
 1. With the new file selected, start debugging the app by selecting an execution command, like **Start Debugging**, from the **Debug** menu.
 
 ### See also
- [Debugger settings and preparation](../debugger/debugger-settings-and-preparation.md)
- [Debugger security](../debugger/debugger-security.md)
- [DBG files](/previous-versions/visualstudio/visual-studio-2010/da528y14(v=vs.100))
+- [Debugger settings and preparation](../debugger/debugger-settings-and-preparation.md)
+- [Debugger security](../debugger/debugger-security.md)
+- [DBG files](/previous-versions/visualstudio/visual-studio-2010/da528y14(v=vs.100))

@@ -30,4 +30,4 @@ void Init(
  You can finalize and close the active graphics log file by calling `UnInit`, and then capture and record more graphics information to a new graphics log file by calling `Init` again. You can repeat this as many times as you want to create several independent graphics log files by using the same `VsgDbg` instance.
 
 ## See Also
- [UnInit](init.md)
+- [UnInit](init.md)

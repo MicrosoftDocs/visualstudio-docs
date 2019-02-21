@@ -55,5 +55,5 @@ For limitations on using Edit and Continue while debugging, see [Supported Code 
      Your code now executes with your applied edits incorporated into the project.
 
 ## See Also
- [Supported Code Changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md)
- [Edit and Continue (Visual Basic)](../debugger/edit-and-continue-visual-basic.md)
+- [Supported Code Changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md)
+- [Edit and Continue (Visual Basic)](../debugger/edit-and-continue-visual-basic.md)

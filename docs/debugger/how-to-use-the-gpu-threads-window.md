@@ -97,6 +97,6 @@ In the GPU Threads window, you can examine and work with threads that are runnin
 -   Choose the flag button in the GPU Threads window.
 
 ## See Also
- [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)
- [How to: Use the Parallel Watch Window](../debugger/how-to-use-the-parallel-watch-window.md)
- [Walkthrough: Debugging a C++ AMP Application](/cpp/parallel/amp/walkthrough-debugging-a-cpp-amp-application)
+- [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)
+- [How to: Use the Parallel Watch Window](../debugger/how-to-use-the-parallel-watch-window.md)
+- [Walkthrough: Debugging a C++ AMP Application](/cpp/parallel/amp/walkthrough-debugging-a-cpp-amp-application)

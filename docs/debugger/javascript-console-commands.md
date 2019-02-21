@@ -124,5 +124,5 @@ console.log("%s is %f years old!", user.first, user.age);
 ```
 
 ## See Also
-[QuickStart: Debug JavaScript](../debugger/quickstart-debug-javascript-using-the-console.md)
-[Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md)
+- [QuickStart: Debug JavaScript](../debugger/quickstart-debug-javascript-using-the-console.md)
+- [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md)

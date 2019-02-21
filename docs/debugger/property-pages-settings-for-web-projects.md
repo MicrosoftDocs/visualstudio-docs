@@ -47,4 +47,4 @@ You can change the property settings for a web site debug configuration in the *
 | **Silverlight debugging** | Allows debugging of Silverlight components. |
 
 ## See Also
- [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)
+- [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)

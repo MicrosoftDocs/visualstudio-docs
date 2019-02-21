@@ -93,5 +93,5 @@ Debugging isn't possible because a kernel debugger is enabled on the system
      `gn`
 
 ## See Also
- [Debugger Security](../debugger/debugger-security.md)
- [Debugging Managed Code](../debugger/debugging-managed-code.md)
+- [Debugger Security](../debugger/debugger-security.md)
+- [Debugging Managed Code](../debugger/debugging-managed-code.md)

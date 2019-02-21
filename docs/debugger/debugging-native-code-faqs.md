@@ -43,5 +43,5 @@ The following topics contain answers to some frequently asked questions:
 -   [If Halted in MFC, How Can I Get Back to the Function That Called MFC?](../debugger/how-to-get-back-to-the-function-that-called-mfc-if-halted.md)
 
 ## See Also
- [Debugger Security](../debugger/debugger-security.md)
- [Debugging Native Code](../debugger/debugging-native-code.md)
+- [Debugger Security](../debugger/debugger-security.md)
+- [Debugging Native Code](../debugger/debugging-native-code.md)

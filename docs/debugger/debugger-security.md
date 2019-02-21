@@ -72,7 +72,7 @@ The ability to debug another process gives you extremely broad powers that you w
   See [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)
 
 ## See Also
- [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)
- [First look at the debugger](../debugger/debugger-feature-tour.md)
- [Security Warning: Attaching to a process owned by an untrusted user can be dangerous. If the following information looks suspicious or you are unsure, do not attach to this process](../debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user.md)
- [Security Warning: Debugger Must Execute Untrusted Command](../debugger/security-warning-debugger-must-execute-untrusted-command.md)
+- [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)
+- [First look at the debugger](../debugger/debugger-feature-tour.md)
+- [Security Warning: Attaching to a process owned by an untrusted user can be dangerous. If the following information looks suspicious or you are unsure, do not attach to this process](../debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user.md)
+- [Security Warning: Debugger Must Execute Untrusted Command](../debugger/security-warning-debugger-must-execute-untrusted-command.md)

@@ -74,4 +74,4 @@ someVar=%d, otherVar=%d.\n", someVar, otherVar );
  You can easily change a custom macro to report more or less information to different destinations. This approach is particularly useful as your debugging requirements evolve.
 
 ## See Also
- [CRT Debugging Techniques](../debugger/crt-debugging-techniques.md)
+- [CRT Debugging Techniques](../debugger/crt-debugging-techniques.md)

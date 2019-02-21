@@ -38,4 +38,4 @@ Defines by its presence whether the graphics log file is saved to the user's tem
 ```
 
 ## See Also
- [VSG_DEFAULT_RUN_FILENAME](vsg-default-run-filename.md)
+- [VSG_DEFAULT_RUN_FILENAME](vsg-default-run-filename.md)

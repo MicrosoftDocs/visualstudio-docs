@@ -180,8 +180,8 @@ To debug project types such as static libraries and DLLs, your Visual Studio pro
 To debug DLLs that are external to your project, see [Debugging DLL projects](../debugger/debugging-dll-projects.md#vxtskdebuggingdllprojectsexternal). If you need to debug your own DLL project, but don't have access to the project for the calling application, see [How to debug from a DLL project](../debugger/how-to-debug-from-a-dll-project.md).
 
 ## See also
- [Debugging native code](../debugger/debugging-native-code.md)
- [Debugger settings and preparation](../debugger/debugger-settings-and-preparation.md)
- [Create and manage Visual C++ projects](/cpp/ide/creating-and-managing-visual-cpp-projects)
- [/ASSEMBLYDEBUG (Add DebuggableAttribute)](/cpp/build/reference/assemblydebug-add-debuggableattribute)
- [Common macros for build commands and properties](/cpp/ide/common-macros-for-build-commands-and-properties)
+- [Debugging native code](../debugger/debugging-native-code.md)
+- [Debugger settings and preparation](../debugger/debugger-settings-and-preparation.md)
+- [Create and manage Visual C++ projects](/cpp/ide/creating-and-managing-visual-cpp-projects)
+- [/ASSEMBLYDEBUG (Add DebuggableAttribute)](/cpp/build/reference/assemblydebug-add-debuggableattribute)
+- [Common macros for build commands and properties](/cpp/ide/common-macros-for-build-commands-and-properties)

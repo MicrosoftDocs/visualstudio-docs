@@ -254,6 +254,6 @@ One technique for finding memory leaks begins by placing `_CrtMemCheckpoint` cal
  `_CrtDumpMemoryLeaks` can give false indications of memory leaks if a library marks internal allocations as normal blocks instead of CRT blocks or client blocks. In that case, `_CrtDumpMemoryLeaks` is unable to tell the difference between user allocations and internal library allocations. If the global destructors for the library allocations run after the point where you call `_CrtDumpMemoryLeaks`, every internal library allocation is reported as a memory leak. Versions of the Standard Template Library earlier than Visual Studio .NET may cause `_CrtDumpMemoryLeaks` to report such false positives.
 
 ## See also
- [CRT debug heap details](../debugger/crt-debug-heap-details.md)
- [Debugger security](../debugger/debugger-security.md)
- [Debugging native code](../debugger/debugging-native-code.md)
+- [CRT debug heap details](../debugger/crt-debug-heap-details.md)
+- [Debugger security](../debugger/debugger-security.md)
+- [Debugging native code](../debugger/debugging-native-code.md)

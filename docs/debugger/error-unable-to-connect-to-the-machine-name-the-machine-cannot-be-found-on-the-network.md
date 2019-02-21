@@ -39,5 +39,5 @@ This behavior occurs if one of the following conditions is true:
 -   Make sure that the password that you are using to connect to the remote computer is valid and has not expired.
 
 ## See Also
- [Remote Debugging](../debugger/remote-debugging.md)
- [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)
+- [Remote Debugging](../debugger/remote-debugging.md)
+- [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)

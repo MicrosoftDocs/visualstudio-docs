@@ -104,8 +104,8 @@ This section describes how to debug the basic project types created by the [!INC
  [In this topic](../debugger/debugging-preparation-visual-cpp-project-types.md#BKMK_In_this_topic)
 
 ## See Also
- [First look at the debugger](../debugger/debugger-feature-tour.md)
- [Project Settings for a C++ Debug Configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md)
- [Attaching to a Running Program or Multiple Programs](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)
- [Debug and Release Configurations](../debugger/how-to-set-debug-and-release-configurations.md)
- [How to: Create a Windows Application Project](https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2010/42wc9kk5(v=vs.100))
+- [First look at the debugger](../debugger/debugger-feature-tour.md)
+- [Project Settings for a C++ Debug Configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md)
+- [Attaching to a Running Program or Multiple Programs](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)
+- [Debug and Release Configurations](../debugger/how-to-set-debug-and-release-configurations.md)
+- [How to: Create a Windows Application Project](https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2010/42wc9kk5(v=vs.100))

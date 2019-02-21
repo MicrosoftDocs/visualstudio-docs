@@ -19,4 +19,4 @@ Destroys an instance of the `VsgDbg` class. If graphics information is actively 
 ```
 
 ## See Also
- [VsgDbg::VsgDbg (Constructor)](vsgdbg-vsgdbg-constructor.md)
+- [VsgDbg::VsgDbg (Constructor)](vsgdbg-vsgdbg-constructor.md)

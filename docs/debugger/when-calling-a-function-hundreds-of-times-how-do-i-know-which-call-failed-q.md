@@ -43,6 +43,6 @@ CnvtV(int) (no condition) when hit count is equal to 1000 (currently 101)
  You now know that the function failed on the 101st call. If you reset the breakpoint with a hit count of 101 and run the program again, the program stops at the call to `CnvtV` that caused it to fail.
 
 ## See Also
- [Debugging Native Code FAQs](../debugger/debugging-native-code-faqs.md)
- [Setting Breakpoints](https://msdn.microsoft.com/library/fe4eedc1-71aa-4928-962f-0912c334d583)
- [Debugging Native Code](../debugger/debugging-native-code.md)
+- [Debugging Native Code FAQs](../debugger/debugging-native-code-faqs.md)
+- [Setting Breakpoints](https://msdn.microsoft.com/library/fe4eedc1-71aa-4928-962f-0912c334d583)
+- [Debugging Native Code](../debugger/debugging-native-code.md)

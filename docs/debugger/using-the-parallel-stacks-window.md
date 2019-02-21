@@ -130,10 +130,10 @@ From either **Threads** view or **Tasks** view, you can pivot the graph on the c
 If you switch to a new stack frame, you make that method the current method, and **Method View** shows all callers and callees for the new method. This may cause some threads to appear or disappear from the view, depending on whether that method appears on their call stacks. To return to the call stack view, select the **Method View** toolbar icon again.
 
 ## See also
- [Get started debugging a multithreaded application](../debugger/get-started-debugging-multithreaded-apps.md)
- [Walkthrough: Debug a parallel application](../debugger/walkthrough-debugging-a-parallel-application.md)
- [First look at the debugger](../debugger/debugger-feature-tour.md)
- [Debugging managed code](../debugger/debugging-managed-code.md)
- [Parallel programming](/dotnet/standard/parallel-programming/index)
- [Use the Tasks window](../debugger/using-the-tasks-window.md)
- [Task class](../extensibility/debugger/task-class-internal-members.md)
+- [Get started debugging a multithreaded application](../debugger/get-started-debugging-multithreaded-apps.md)
+- [Walkthrough: Debug a parallel application](../debugger/walkthrough-debugging-a-parallel-application.md)
+- [First look at the debugger](../debugger/debugger-feature-tour.md)
+- [Debugging managed code](../debugger/debugging-managed-code.md)
+- [Parallel programming](/dotnet/standard/parallel-programming/index)
+- [Use the Tasks window](../debugger/using-the-tasks-window.md)
+- [Task class](../extensibility/debugger/task-class-internal-members.md)

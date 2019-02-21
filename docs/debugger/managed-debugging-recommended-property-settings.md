@@ -45,5 +45,5 @@ Certain properties should be set the same way for all managed debugging scenario
 |**Define TRACE constant**|Select this check box to define the `TRACE` constant, which enables your application to use the <xref:System.Diagnostics.Trace> class.|
 
 ## See Also
- [Debugging Managed Code](../debugger/debugging-managed-code.md)
- [C#, F#, and Visual Basic Project Types](../debugger/debugging-preparation-csharp-f-hash-and-visual-basic-project-types.md)
+- [Debugging Managed Code](../debugger/debugging-managed-code.md)
+- [C#, F#, and Visual Basic Project Types](../debugger/debugging-preparation-csharp-f-hash-and-visual-basic-project-types.md)

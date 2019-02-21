@@ -82,4 +82,4 @@ In this section you'll prepare to use Graphics Diagnostics for the first time, t
  To learn more about how to use the Graphics Analyzer tools together, see the [Examples](graphics-diagnostics-examples.md).
 
 ## See Also
- [Direct3D 12 Graphics](/windows/desktop/direct3d12/direct3d-12-graphics)
+- [Direct3D 12 Graphics](/windows/desktop/direct3d12/direct3d-12-graphics)

@@ -243,11 +243,11 @@ The following illustration shows the Target list in the JavaScript Console windo
 You can also switch the execution context by using the `cd` command, but you must know the name of the other execution context and the reference you use must be in scope. The **Target** list provides better access to other execution contexts.
 
 ## See Also
-[Debug apps in Visual Studio](/visualstudio/debugger/debugging-windows-store-and-windows-universal-apps)
-[JavaScript Console commands](../debugger/javascript-console-commands.md)
-[Refresh an app (JavaScript)](../debugger/refresh-an-app-javascript.md)
-[Keyboard shortcuts](../debugger/keyboard-shortcuts-html-and-javascript.md)
-[Debug HTML, CSS, and JavaScript sample code](../debugger/debug-html-css-and-javascript-sample-code.md)
-[Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md)
-[Debug a WebView control](../debugger/debug-a-webview-control.md)
-[Product Support and Accessibility](https://visualstudio.microsoft.com/vs/support/)
+- [Debug apps in Visual Studio](/visualstudio/debugger/debugging-windows-store-and-windows-universal-apps)
+- [JavaScript Console commands](../debugger/javascript-console-commands.md)
+- [Refresh an app (JavaScript)](../debugger/refresh-an-app-javascript.md)
+- [Keyboard shortcuts](../debugger/keyboard-shortcuts-html-and-javascript.md)
+- [Debug HTML, CSS, and JavaScript sample code](../debugger/debug-html-css-and-javascript-sample-code.md)
+- [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md)
+- [Debug a WebView control](../debugger/debug-a-webview-control.md)
+- [Product Support and Accessibility](https://visualstudio.microsoft.com/vs/support/)
