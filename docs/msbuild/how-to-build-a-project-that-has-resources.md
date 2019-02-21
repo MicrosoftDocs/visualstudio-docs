@@ -71,7 +71,7 @@ The following example project contains two tasks: the `GenerateResource` task to
 ```
 
 ## See also
-[MSBuild](../msbuild/msbuild.md)  
-[GenerateResource task](../msbuild/generateresource-task.md)  
-[Csc task](../msbuild/csc-task.md)  
-[Resgen.exe (Resource File Generator)](/dotnet/framework/tools/resgen-exe-resource-file-generator)
+- [MSBuild](../msbuild/msbuild.md)
+- [GenerateResource task](../msbuild/generateresource-task.md)
+- [Csc task](../msbuild/csc-task.md)
+- [Resgen.exe (Resource File Generator)](/dotnet/framework/tools/resgen-exe-resource-file-generator)

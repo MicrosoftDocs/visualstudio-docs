@@ -14,44 +14,49 @@ ms.workload:
   - "vssdk"
 ---
 # METADATA_ADDRESS_ARRAYELEM
+
 This structure represents an array element within an array.
 
 ## Syntax
 
 ```cpp
 typedef struct _tagMETADATA_ADDRESS_ARRAYELEM {
-   _mdToken tokMethod;
-   DWORD    dwIndex;
+    _mdToken tokMethod;
+    DWORD    dwIndex;
 } METADATA_ADDRESS_ARRAYELEM;
 ```
 
 ```csharp
 public struct METADATA_ADDRESS_ARRAYELEM {
-   public int  tokMethod;
-   public uint dwIndex;
+    public int  tokMethod;
+    public uint dwIndex;
 }
 ```
 
 ## Terms
- tokMethod
- The ID of the array this element is a part of.
 
-- [C++] `_mdToken` is a `typedef` for a 32-bit `int`.
+tokMethod
 
- dwIndex
- The index of this element within the array.
+The ID of the array this element is a part of.
+
+[C++] `_mdToken` is a `typedef` for a 32-bit `int`.
+
+dwIndex
+
+The index of this element within the array.
 
 ## Remarks
- This structure is part of the union in the [DEBUG_ADDRESS_UNION](../../../extensibility/debugger/reference/debug-address-union.md) structure when the `dwKind` field of the `DEBUG_ADDRESS_UNION` structure is set to `ADDRESS_KIND_ARRAYELEM` (a value from the [ADDRESS_KIND](../../../extensibility/debugger/reference/address-kind.md) enumeration).
+This structure is part of the union in the [DEBUG_ADDRESS_UNION](../../../extensibility/debugger/reference/debug-address-union.md) structure when the `dwKind` field of the `DEBUG_ADDRESS_UNION` structure is set to `ADDRESS_KIND_ARRAYELEM` (a value from the [ADDRESS_KIND](../../../extensibility/debugger/reference/address-kind.md) enumeration).
 
 ## Requirements
- Header: sh.h
+Header: sh.h
 
- Namespace: Microsoft.VisualStudio.Debugger.Interop
+Namespace: Microsoft.VisualStudio.Debugger.Interop
 
- Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
+Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
+
 - [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [DEBUG_ADDRESS_UNION](../../../extensibility/debugger/reference/debug-address-union.md)
 - [ADDRESS_KIND](../../../extensibility/debugger/reference/address-kind.md)

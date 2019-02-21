@@ -54,8 +54,8 @@ ms.workload:
 4.  In the **Properties** window, set the **Modifiers** property to **Public** (by default it is **Internal**).
 
 ## See also
- [Cache data](../vsto/caching-data.md)
- [How to: Programmatically cache a data source in an Office document](../vsto/how-to-programmatically-cache-a-data-source-in-an-office-document.md)
- [How to: Cache data in a password-protected document](../vsto/how-to-cache-data-in-a-password-protected-document.md)
- [Access data in documents on the server](../vsto/accessing-data-in-documents-on-the-server.md)
- [Save data](../data-tools/saving-data.md)
+- [Cache data](../vsto/caching-data.md)
+- [How to: Programmatically cache a data source in an Office document](../vsto/how-to-programmatically-cache-a-data-source-in-an-office-document.md)
+- [How to: Cache data in a password-protected document](../vsto/how-to-cache-data-in-a-password-protected-document.md)
+- [Access data in documents on the server](../vsto/accessing-data-in-documents-on-the-server.md)
+- [Save data](../data-tools/saving-data.md)

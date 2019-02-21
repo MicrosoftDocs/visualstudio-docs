@@ -40,7 +40,7 @@ Visual C++ supports assertion statements that are based on the following constru
 
 - CRT assertions for programs that use the C run-time library.
 
-- The ANSI [assert function](/cpp/c-runtime-library/reference/assert-macro-assert-wassert) for other C/C++ programs.  
+- The ANSI [assert function](/cpp/c-runtime-library/reference/assert-macro-assert-wassert) for other C/C++ programs.
 
   You can use assertions to catch logic errors, check results of an operation, and Test error conditions that should have been handled.
 
@@ -57,7 +57,7 @@ Visual C++ supports assertion statements that are based on the following constru
 
 - [MFC ASSERT_VALID and CObject::AssertValid](#BKMK_MFC_ASSERT_VALID_and_CObject__AssertValid)
 
-- [Limitations of AssertValid](#BKMK_Limitations_of_AssertValid)  
+- [Limitations of AssertValid](#BKMK_Limitations_of_AssertValid)
 
   [Using assertions](#BKMK_Using_assertions)
 
@@ -333,6 +333,7 @@ This code relies on the assertion statement to handle the error condition. As a 
 [In this topic](#BKMK_In_this_topic)
 
 ## See Also
-[Debugger Security](../debugger/debugger-security.md)  
-[Debugging Native Code](../debugger/debugging-native-code.md)  
-[Assertions in Managed Code](../debugger/assertions-in-managed-code.md)
+
+- [Debugger Security](../debugger/debugger-security.md)
+- [Debugging Native Code](../debugger/debugging-native-code.md)
+- [Assertions in Managed Code](../debugger/assertions-in-managed-code.md)

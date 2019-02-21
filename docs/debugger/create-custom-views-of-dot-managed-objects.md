@@ -2,14 +2,14 @@
 title: "Create custom views of objects | Microsoft Docs"
 ms.date: "01/08/2019"
 ms.topic: "conceptual"
-f1_keywords: 
+f1_keywords:
   - "vs.debug.data.elements"
-dev_langs: 
+dev_langs:
   - "CSharp"
   - "VB"
   - "FSharp"
   - "C++"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "data types, custom"
   - "custom data types"
   - "managed code, custom data types"
@@ -21,11 +21,11 @@ ms.assetid: 9969e9b2-9008-4729-8a14-0d6deaa61576
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "dotnet"
 ---
 # Create custom views of objects (C#, Visual Basic, C++)
-You can customize the way Visual Studio displays data types in debugger variable windows.  
+You can customize the way Visual Studio displays data types in debugger variable windows.
 
 ## Native Code
 
@@ -33,16 +33,17 @@ For C++ code, you can add custom data type expansions using the Natvis framework
 
 ## Attributes
 
-In C#, Visual Basic, and C++ (C++/CLI code only), you can add expansions for custom data using <xref:System.Diagnostics.DebuggerTypeProxyAttribute>, <xref:System.Diagnostics.DebuggerDisplayAttribute>, and <xref:System.Diagnostics.DebuggerBrowsableAttribute>.  
-  
-In [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)] code, Visual Basic does not support the DebuggerBrowsable attribute. This limitation is removed in more recent versions of the .NET Framework.    
+In C#, Visual Basic, and C++ (C++/CLI code only), you can add expansions for custom data using <xref:System.Diagnostics.DebuggerTypeProxyAttribute>, <xref:System.Diagnostics.DebuggerDisplayAttribute>, and <xref:System.Diagnostics.DebuggerBrowsableAttribute>.
+
+In [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)] code, Visual Basic does not support the DebuggerBrowsable attribute. This limitation is removed in more recent versions of the .NET Framework.
 
 ## Visualizers
 
 You can write a visualizer to display any managed data type. For more information, see [How to: Write a Visualizer](/visualstudio/debugger/create-custom-visualizers-of-data).
-  
-## See Also  
- [Using DebuggerTypeProxy Attribute](../debugger/using-debuggertypeproxy-attribute.md)   
- [Using the DebuggerDisplay Attribute](../debugger/using-the-debuggerdisplay-attribute.md)   
- [Watch and QuickWatch Windows](../debugger/watch-and-quickwatch-windows.md)   
- [Enhancing Debugging with the Debugger Display Attributes](/dotnet/framework/debug-trace-profile/enhancing-debugging-with-the-debugger-display-attributes)
+
+## See Also
+
+- [Using DebuggerTypeProxy Attribute](../debugger/using-debuggertypeproxy-attribute.md)
+- [Using the DebuggerDisplay Attribute](../debugger/using-the-debuggerdisplay-attribute.md)
+- [Watch and QuickWatch Windows](../debugger/watch-and-quickwatch-windows.md)
+- [Enhancing Debugging with the Debugger Display Attributes](/dotnet/framework/debug-trace-profile/enhancing-debugging-with-the-debugger-display-attributes)
