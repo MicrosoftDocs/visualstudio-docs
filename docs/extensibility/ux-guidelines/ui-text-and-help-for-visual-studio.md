@@ -419,6 +419,6 @@ public class HelpForm : Form
 ```
 
 ## See Also
- [Fonts and Formatting for Visual Studio](../../extensibility/ux-guidelines/fonts-and-formatting-for-visual-studio.md)
- [Layout for Visual Studio](../../extensibility/ux-guidelines/layout-for-visual-studio.md)
- [Notifications and Progress for Visual Studio](../../extensibility/ux-guidelines/notifications-and-progress-for-visual-studio.md)
+- [Fonts and Formatting for Visual Studio](../../extensibility/ux-guidelines/fonts-and-formatting-for-visual-studio.md)
+- [Layout for Visual Studio](../../extensibility/ux-guidelines/layout-for-visual-studio.md)
+- [Notifications and Progress for Visual Studio](../../extensibility/ux-guidelines/notifications-and-progress-for-visual-studio.md)
