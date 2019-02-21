@@ -17,8 +17,7 @@ Retrieves type information about the specified array given its debug address.
 
 ## Syntax
 
-```
-- [C++]
+```cpp
 HRESULT GetArrayTypeFromAddress(
     IDebugAddress* pAddress,
     BYTE*          pSig,
@@ -27,8 +26,7 @@ HRESULT GetArrayTypeFromAddress(
 );
 ```
 
-```
-- [C#]
+```csharp
 int GetArrayTypeFromAddress(
     IDebugAddress   pAddress,
     int[]           pSig,

@@ -77,7 +77,6 @@ namespace EEMC
 This is an implementation of the `IDebugParsedExpression::EvaluateSync` in unmanaged code. The helper function `Evaluate` parses and evaluates the expression, returning a `VARIANT` holding the resulting value. The helper function `VariantValueToProperty` bundles the `VARIANT` into a `CValueProperty` object.
 
 ```cpp
-[C++]
 STDMETHODIMP CParsedExpression::EvaluateSync(
     in  DWORD                 evalFlags,
     in  DWORD                 dwTimeout,

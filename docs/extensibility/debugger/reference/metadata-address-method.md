@@ -36,14 +36,17 @@ public struct METADATA_ADDRESS_METHOD {
 
 ## Terms
  tokMethod
+
  The ID of the method.
 
-- [C++] `_mdToken` is a `typedef` for a 32-bit `int`.
+ [C++] `_mdToken` is a `typedef` for a 32-bit `int`.
 
  dwOffset
+
  The offset from the class start to this method (can represent the offset into the vtable).
 
  dwVersion
+
  The version of the method (this value is unique to the symbol provider).
 
 ## Remarks

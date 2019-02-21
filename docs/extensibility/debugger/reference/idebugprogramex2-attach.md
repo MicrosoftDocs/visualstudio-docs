@@ -26,8 +26,7 @@ HRESULT Attach( 
 );
 ```
 
-```
-- [C#]
+```csharp
 int Attach( 
    IDebugEventCallback2 pCallback,
    uint                 dwReason,

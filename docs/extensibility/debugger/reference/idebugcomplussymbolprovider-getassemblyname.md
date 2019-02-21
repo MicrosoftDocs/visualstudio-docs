@@ -17,8 +17,7 @@ Retrieves the name of the assembly given its module and application domain.
 
 ## Syntax
 
-```
-- [C++]
+```cpp
 HRESULT GetAssemblyName(
     ULONG32 ulAppDomainID,
     GUID    guidModule,
@@ -26,8 +25,7 @@ HRESULT GetAssemblyName(
 );
 ```
 
-```
-- [C#]
+```csharp
 int GetAssemblyName(
     uint   ulAppDomainID,
     Guid   guidModule,

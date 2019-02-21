@@ -17,8 +17,7 @@ Retrieves the classes with the specified attribute in a given module.
 
 ## Syntax
 
-```
-- [C++]
+```cpp
 HRESULT GetAttributedClassesinModule (
     ULONG32            ulAppDomainID,
     GUID               guidModule,
@@ -27,8 +26,7 @@ HRESULT GetAttributedClassesinModule (
 );
 ```
 
-```
-- [C#]
+```csharp
 int GetAttributedClassesinModule (
     uint                 ulAppDomainID,
     Guid                 guidModule,

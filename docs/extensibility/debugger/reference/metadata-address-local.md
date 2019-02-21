@@ -36,14 +36,17 @@ public struct METADATA_ADDRESS_LOCAL {
 
 ## Terms
  tokMethod
+
  The ID of the method or function the local variable is part of.
 
-- [C++] `_mdToken` is a `typedef` for a 32-bit `int`.
+ [C++] `_mdToken` is a `typedef` for a 32-bit `int`.
 
  pLocal
+
  The token whose address this structure represents.
 
  dwIndex
+
  Can be the index of this local variable in the method or function, or some other value (language-specific).
 
 ## Remarks

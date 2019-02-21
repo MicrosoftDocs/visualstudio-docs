@@ -17,8 +17,7 @@ Maps a document position in the specified module to an array of debug addresses.
 
 ## Syntax
 
-```
-- [C++]
+```cpp
 HRESULT GetAddressesInModuleFromPosition(
    ULONG32                  ulAppDomainID,
    GUID                     guidModule,
@@ -29,8 +28,7 @@ HRESULT GetAddressesInModuleFromPosition(
 );
 ```
 
-```
-- [C#]
+```csharp
 int GetAddressesInModuleFromPosition(
    uint                    ulAppDomainID,
    Guid                    guidModule,

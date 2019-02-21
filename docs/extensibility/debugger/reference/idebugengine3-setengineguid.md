@@ -24,8 +24,7 @@ HRESULT SetEngineGuid(
 );
 ```
 
-```
-- [C#]
+```csharp
 int SetEngineGuid(
    ref Guid guidEngine
 );

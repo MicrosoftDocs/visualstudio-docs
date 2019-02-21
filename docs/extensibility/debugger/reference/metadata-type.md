@@ -36,15 +36,18 @@ public struct METADATA_TYPE {
 
 #### Parameters
  ulAppDomainID
+
  ID of the application from which the symbol came. This is used to uniquely identify an instance of the application.
 
  guidModule
+
  The GUID of the module that contains this field.
 
  tokClass
+
  The metadata token ID of this type.
 
-- [C++] `_mdToken` is a `typedef` for a 32-bit `int`.
+ [C++] `_mdToken` is a `typedef` for a 32-bit `int`.
 
 ## Remarks
  This structure appears as part of the union in the [TYPE_INFO](../../../extensibility/debugger/reference/type-info.md) structure when the `dwKind` field of the `TYPE_INFO` structure is set to `TYPE_KIND_METADATA` (a value from the [dwTYPE_KIND](../../../extensibility/debugger/reference/dwtype-kind.md) enumeration).

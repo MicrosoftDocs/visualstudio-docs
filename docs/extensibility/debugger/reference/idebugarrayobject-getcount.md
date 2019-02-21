@@ -18,15 +18,13 @@ Gets the count of elements in the array.
 
 ## Syntax
 
-```
-- [C++]
+```cpp
 HRESULT GetCount( 
    DWORD* pdwElements
 );
 ```
 
-```
-- [C#]
+```csharp
 int GetCount(
    out uint pdwElements
 );
