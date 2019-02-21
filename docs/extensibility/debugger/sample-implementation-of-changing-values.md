@@ -35,7 +35,6 @@ ms.workload:
  The following code is an implementation of `IDebugProperty2::SetValueAsString` in managed code.
 
 ```csharp
-[C#]
 namespace EEMC
 {
     public class CFieldProperty : IDebugProperty2
@@ -221,7 +220,6 @@ namespace EEMC
  The following code is an implementation of `IDebugProperty2::SetValueAsString` in managed code. The helper function `FieldCoerceValueType` (not shown) forces a `VARIANT` to be a specific type and makes sure the value is one of the types `FieldSetValue` can handle.
 
 ```cpp
-[C++]
 STDMETHODIMP CFieldProperty::SetValueAsString(
         in LPCOLESTR pszValueStr,
         in DWORD     radix,

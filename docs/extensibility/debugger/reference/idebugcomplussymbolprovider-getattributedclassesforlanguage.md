@@ -17,8 +17,7 @@ Retrieves the classes with the specified attribute that are implemented in the s
 
 ## Syntax
 
-```
-- [C++]
+```cpp
 HRESULT GetAttributedClassesForLanguage (
     GUID               guidLanguage,
     LPOLESTR           pstrAttribute,
@@ -26,8 +25,7 @@ HRESULT GetAttributedClassesForLanguage (
 );
 ```
 
-```
-- [C#]
+```csharp
 int GetAttributedClassesForLanguage (
     Guid                 guidLanguage,
     string               pstrAttribute,

@@ -24,8 +24,7 @@ HRESULT GetCount( 
 );
 ```
 
-```
-- [C#]
+```csharp
 int GetCount(
    out uint pdwElements
 );

@@ -17,8 +17,7 @@ Creates a type from the specified primitive type.
 
 ## Syntax
 
-```
-- [C++]
+```cpp
 HRESULT CreateTypeFromPrimitive(
     DWORD          dwPrimType,
     IDebugAddress* pAddress,
@@ -26,8 +25,7 @@ HRESULT CreateTypeFromPrimitive(
 );
 ```
 
-```
-- [C#]
+```csharp
 int CreateTypeFromPrimitive(
     uint          dwPrimType,
     IDebugAddress pAddress,
