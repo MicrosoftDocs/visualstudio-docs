@@ -34,14 +34,17 @@ int GetSymUnmanagedReader(
 ```
 
 #### Parameters
-`ulAppDomainID`  
-[in] Identifier of the application domain.
+`ulAppDomainID`
 
-`guidModule`  
-[in] Unique identifier of the module.
+ [in] Identifier of the application domain.
 
-`ppSymUnmanagedReader`  
-[out] Returns the object that represents the symbol reader.
+`guidModule`
+
+ [in] Unique identifier of the module.
+
+`ppSymUnmanagedReader`
+
+ [out] Returns the object that represents the symbol reader.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -73,4 +76,4 @@ Error:
 ```
 
 ## See Also
-[IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)
+- [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

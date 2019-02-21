@@ -34,14 +34,16 @@ int GetCustomAttributeByName(
 ```
 
 #### Parameters
-`pszCustomAttributeName`  
-[in] Name of the custom attribute.
+`pszCustomAttributeName`
 
-`ppBlob`  
-[in,out] Array of bytes that contain the custom attribute data.
+ [in] Name of the custom attribute.
 
-`pdwLen`  
-[out] Length in bytes of the `ppBlob` parameter.
+`ppBlob`
+- [in,out] Array of bytes that contain the custom attribute data.
+
+`pdwLen`
+
+ [out] Length in bytes of the `ppBlob` parameter.
 
 ## Return Value
 If successful, returns `S_OK`. If custom attribute does not exist, returns `S_FALSE`. Otherwise, returns an error code.
@@ -85,4 +87,4 @@ Error:
 ```
 
 ## See Also
-[IDebugCustomAttributeQuery](../../../extensibility/debugger/reference/idebugcustomattributequery.md)
+- [IDebugCustomAttributeQuery](../../../extensibility/debugger/reference/idebugcustomattributequery.md)

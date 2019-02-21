@@ -38,20 +38,25 @@ int LoadSymbolsFromStream(
 ```
 
 #### Parameters
-`ulAppDomainID`  
-[in] Identifier of the application domain.
+`ulAppDomainID`
 
-`guidModule`  
-[in] Unique identifier of the module.
+ [in] Identifier of the application domain.
 
-`baseAddress`  
-[in] Base memory address.
+`guidModule`
 
-`pUnkMetadataImport`  
-[in] Object that contains the symbol metadata.
+ [in] Unique identifier of the module.
 
-`pStream`  
-[in] Data stream that contains the symbols.
+`baseAddress`
+
+ [in] Base memory address.
+
+`pUnkMetadataImport`
+
+ [in] Object that contains the symbol metadata.
+
+`pStream`
+
+ [in] Data stream that contains the symbols.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -73,4 +78,4 @@ HRESULT CDebugSymbolProvider::LoadSymbolsFromStream(
 ```
 
 ## See Also
-[IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)
+- [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

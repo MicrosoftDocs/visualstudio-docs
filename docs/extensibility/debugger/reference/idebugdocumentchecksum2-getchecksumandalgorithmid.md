@@ -36,17 +36,21 @@ public int GetChecksumAndAlgorithmId(
 ```
 
 #### Parameters
-`pRetVal`  
-[out] Unique identifier for the checksum algorithm.
+`pRetVal`
 
-`cMaxBytes`  
-[in] Maximum number of bytes to be used for the checksum.
+ [out] Unique identifier for the checksum algorithm.
 
-`pChecksum`  
-[out] Value of the checksum.
+`cMaxBytes`
 
-`pcNumBytes`  
-[out] Actual number of bytes used for the checksum.
+ [in] Maximum number of bytes to be used for the checksum.
+
+`pChecksum`
+
+ [out] Value of the checksum.
+
+`pcNumBytes`
+
+ [out] Actual number of bytes used for the checksum.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -118,4 +122,4 @@ HRESULT CDebugCodeContext::GetDocumentChecksumAndAlgorithmId(GUID *pguidAlgorith
 ```
 
 ## See Also
-[IDebugDocumentChecksum2](../../../extensibility/debugger/reference/idebugdocumentchecksum2.md)
+- [IDebugDocumentChecksum2](../../../extensibility/debugger/reference/idebugdocumentchecksum2.md)

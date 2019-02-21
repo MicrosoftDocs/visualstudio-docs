@@ -32,7 +32,8 @@ int GetThreadId (
 
 #### Parameters
 `pdwThreadId`
-[out] Returns the system thread identifier.
+
+ [out] Returns the system thread identifier.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -51,4 +52,4 @@ HRESULT CProgram::GetThreadId(DWORD* pdwThreadId) {
 ```
 
 ## See Also
-[IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)
+- [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)

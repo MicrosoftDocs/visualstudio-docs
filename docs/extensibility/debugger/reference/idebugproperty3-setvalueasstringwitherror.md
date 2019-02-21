@@ -37,17 +37,21 @@ int SetValueAsStringWithError(
 ```
 
 #### Parameters
-`pszValue`  
-[in] Value to set.
+`pszValue`
 
-`dwRadix`  
-[in] The radix of the value being set.
+ [in] Value to set.
 
-`dwTimeout`  
-[in] The length of time to wait for the value to be set (`INFINITE` means wait forever).
+`dwRadix`
 
-`errorString`  
-[out] If there was an error setting the value, this holds the reason for the failure.
+ [in] The radix of the value being set.
+
+`dwTimeout`
+
+ [in] The length of time to wait for the value to be set (`INFINITE` means wait forever).
+
+`errorString`
+
+ [out] If there was an error setting the value, this holds the reason for the failure.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -161,4 +165,4 @@ HRESULT CProperty::SetValueAsStringWithError(
 ```
 
 ## See Also
-[IDebugProperty3](../../../extensibility/debugger/reference/idebugproperty3.md)
+- [IDebugProperty3](../../../extensibility/debugger/reference/idebugproperty3.md)

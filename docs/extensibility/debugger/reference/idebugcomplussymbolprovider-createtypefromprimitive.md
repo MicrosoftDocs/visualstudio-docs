@@ -18,7 +18,7 @@ Creates a type from the specified primitive type.
 ## Syntax
 
 ```
-[C++]
+- [C++]
 HRESULT CreateTypeFromPrimitive(
     DWORD          dwPrimType,
     IDebugAddress* pAddress,
@@ -27,7 +27,7 @@ HRESULT CreateTypeFromPrimitive(
 ```
 
 ```
-[C#]
+- [C#]
 int CreateTypeFromPrimitive(
     uint          dwPrimType,
     IDebugAddress pAddress,
@@ -36,14 +36,17 @@ int CreateTypeFromPrimitive(
 ```
 
 #### Parameters
-`dwPrimType`  
-[in] Value from the [CorElementType Enumeration](/dotnet/framework/unmanaged-api/metadata/corelementtype-enumeration) that represents the primitive type.
+`dwPrimType`
 
-`pAddress`  
-[in] An address object represented by an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface.
+ [in] Value from the [CorElementType Enumeration](/dotnet/framework/unmanaged-api/metadata/corelementtype-enumeration) that represents the primitive type.
 
-`ppType`  
-[in] Returns an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object that describes the type.
+`pAddress`
+
+ [in] An address object represented by an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface.
+
+`ppType`
+
+ [in] Returns an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object that describes the type.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -89,4 +92,4 @@ Error:
 ```
 
 ## See Also
-[IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)
+- [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

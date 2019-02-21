@@ -31,8 +31,9 @@ int GetErrorBreakpoint( 
 ```
 
 #### Parameters
-`ppErrorBP`  
-[out] Returns an [IDebugErrorBreakpoint2](../../../extensibility/debugger/reference/idebugerrorbreakpoint2.md) object that describes the warning or error.
+`ppErrorBP`
+
+ [out] Returns an [IDebugErrorBreakpoint2](../../../extensibility/debugger/reference/idebugerrorbreakpoint2.md) object that describes the warning or error.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -70,6 +71,6 @@ STDMETHODIMP CBreakpointErrorDebugEventBase::GetErrorBreakpoint(
 ```
 
 ## See Also
-[IDebugBreakpointErrorEvent2](../../../extensibility/debugger/reference/idebugbreakpointerrorevent2.md)  
-[IDebugErrorBreakpointResolution2](../../../extensibility/debugger/reference/idebugerrorbreakpointresolution2.md)  
-[IDebugErrorBreakpoint2](../../../extensibility/debugger/reference/idebugerrorbreakpoint2.md)
+- [IDebugBreakpointErrorEvent2](../../../extensibility/debugger/reference/idebugbreakpointerrorevent2.md)
+- [IDebugErrorBreakpointResolution2](../../../extensibility/debugger/reference/idebugerrorbreakpointresolution2.md)
+- [IDebugErrorBreakpoint2](../../../extensibility/debugger/reference/idebugerrorbreakpoint2.md)

@@ -34,10 +34,10 @@ public enum enum_CANSTOP_REASON {
 ```
 
 ## Members
-CANSTOP_ENTRYPOINT  
+CANSTOP_ENTRYPOINT
 Specifies the entry point of the given program.
 
-CANSTOP_STEPIN  
+CANSTOP_STEPIN
 Specifies stepping into a function.
 
 ## Remarks
@@ -51,5 +51,5 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
-[Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)  
-[GetReason](../../../extensibility/debugger/reference/idebugcanstopevent2-getreason.md)
+- [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
+- [GetReason](../../../extensibility/debugger/reference/idebugcanstopevent2-getreason.md)

@@ -28,16 +28,16 @@ typedef struct _BP_LOCATION_CODE_ADDRESS {
 ```
 
 ## Members
-`bstrContext`  
+`bstrContext`
 The context of the breakpoint, typically a method or function name as seen on a call stack.
 
-`bstrModuleUrl`  
+`bstrModuleUrl`
 The URL of the module that contains the breakpoint.
 
-`bstrFunction`  
+`bstrFunction`
 The name of the function that contains the breakpoint.
 
-`bstrAddress`  
+`bstrAddress`
 The address of the breakpoint, which is parsed by an expression evaluator to bind it to an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) object.
 
 ## Remarks
@@ -51,6 +51,6 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
-[Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)  
-[BP_LOCATION](../../../extensibility/debugger/reference/bp-location.md)  
-[IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md)
+- [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
+- [BP_LOCATION](../../../extensibility/debugger/reference/bp-location.md)
+- [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md)

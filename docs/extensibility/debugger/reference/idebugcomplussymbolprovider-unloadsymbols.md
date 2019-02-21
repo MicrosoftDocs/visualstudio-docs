@@ -32,11 +32,13 @@ int UnloadSymbols(
 ```
 
 #### Parameters
-`ulAppDomainID`  
-[in] Identifier of the application domain.
+`ulAppDomainID`
 
-`guidModule`  
-[in] Unique identifier of the module.
+ [in] Identifier of the application domain.
+
+`guidModule`
+
+ [in] Unique identifier of the module.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -84,4 +86,4 @@ Error:
 ```
 
 ## See Also
-[IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)
+- [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

@@ -43,29 +43,37 @@ HRESULT Parse2 (
 ```
 
 #### Parameters
-`upstrExpression`  
-[in] The expression string to be parsed.
+`upstrExpression`
 
-`dwFlags`  
-[in] A collection of [PARSEFLAGS](../../../extensibility/debugger/reference/parseflags.md) constants that determine how the expression is to be parsed.
+ [in] The expression string to be parsed.
 
-`nRadix`  
-[in] Radix to be used to interpret any numerical information.
+`dwFlags`
 
-`pSymbolProvider`  
-[in] Interface of the symbol provider.
+ [in] A collection of [PARSEFLAGS](../../../extensibility/debugger/reference/parseflags.md) constants that determine how the expression is to be parsed.
 
-`pAddress`  
-[in] Address of the evaluating frame.
+`nRadix`
 
-`pbstrError`  
-[out] Returns the error as human-readable text.
+ [in] Radix to be used to interpret any numerical information.
 
-`pichError`  
-[out] Returns the character position of the start of the error in the expression string.
+`pSymbolProvider`
 
-`ppParsedExpression`  
-[out] Returns the parsed expression in an [IDebugParsedExpression](../../../extensibility/debugger/reference/idebugparsedexpression.md) object.
+ [in] Interface of the symbol provider.
+
+`pAddress`
+
+ [in] Address of the evaluating frame.
+
+`pbstrError`
+
+ [out] Returns the error as human-readable text.
+
+`pichError`
+
+ [out] Returns the character position of the start of the error in the expression string.
+
+`ppParsedExpression`
+
+ [out] Returns the parsed expression in an [IDebugParsedExpression](../../../extensibility/debugger/reference/idebugparsedexpression.md) object.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -129,4 +137,4 @@ HRESULT CEE::Parse2 ( LPCOLESTR in_szExprText,
 ```
 
 ## See Also
-[IDebugExpressionEvaluator3](../../../extensibility/debugger/reference/idebugexpressionevaluator3.md)
+- [IDebugExpressionEvaluator3](../../../extensibility/debugger/reference/idebugexpressionevaluator3.md)

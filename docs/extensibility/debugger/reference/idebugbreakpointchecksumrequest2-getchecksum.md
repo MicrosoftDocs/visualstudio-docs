@@ -31,11 +31,13 @@ public int GetChecksum(
 ```
 
 #### Parameters
-`guidAlgorithm`  
-[in] Unique identifier of the checksum algorithm.
+`guidAlgorithm`
 
-`pChecksumData`  
-[out] Document checksum for the breakpoint request.
+ [in] Unique identifier of the checksum algorithm.
+
+`pChecksumData`
+
+ [out] Document checksum for the breakpoint request.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -96,4 +98,4 @@ bool CDebugProgram::DoChecksumsMatch(CDebugPendingBreakpoint *pPending, CDebugCo
 ```
 
 ## See Also
-[IDebugBreakpointChecksumRequest2](../../../extensibility/debugger/reference/idebugbreakpointchecksumrequest2.md)
+- [IDebugBreakpointChecksumRequest2](../../../extensibility/debugger/reference/idebugbreakpointchecksumrequest2.md)

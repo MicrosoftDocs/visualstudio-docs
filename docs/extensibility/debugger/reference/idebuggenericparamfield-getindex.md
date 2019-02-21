@@ -29,8 +29,9 @@ int GetIndex(
 ```
 
 #### Parameters
-`pIndex`  
-[out] Index value of this generic parameter.
+`pIndex`
+
+ [out] Index value of this generic parameter.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -60,4 +61,4 @@ Error:
 ```
 
 ## See Also
-[IDebugGenericParamField](../../../extensibility/debugger/reference/idebuggenericparamfield.md)
+- [IDebugGenericParamField](../../../extensibility/debugger/reference/idebuggenericparamfield.md)
