@@ -250,7 +250,7 @@ The MSBuild `GetRegistryValueFromView` property function gets system registry da
 The syntax for this property function is:
 
 ```fundamental
-[MSBuild]::GetRegistryValueFromView(string keyName, string valueName, object defaultValue, params object[] views)
+- [MSBuild]::GetRegistryValueFromView(string keyName, string valueName, object defaultValue, params object[] views)
 ```
 
 The Windows 64-bit operating system maintains a **HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node** registry key that presents a **HKEY_LOCAL_MACHINE\SOFTWARE** registry view for 32-bit applications.
@@ -332,6 +332,6 @@ Output:
 
 ## See also
 
-[MSBuild properties](../msbuild/msbuild-properties.md)
+- [MSBuild properties](../msbuild/msbuild-properties.md)
 
-[MSBuild overview](../msbuild/msbuild.md)
+- [MSBuild overview](../msbuild/msbuild.md)

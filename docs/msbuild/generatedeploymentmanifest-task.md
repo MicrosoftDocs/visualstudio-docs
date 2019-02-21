@@ -61,7 +61,7 @@ In addition to the parameters listed above, this task inherits parameters from t
 
 ## See also
 
-[Tasks](../msbuild/msbuild-tasks.md)
-[GenerateApplicationManifest task](../msbuild/generateapplicationmanifest-task.md)
-[SignFile task](../msbuild/signfile-task.md)
-[Task reference](../msbuild/msbuild-task-reference.md)
+- [Tasks](../msbuild/msbuild-tasks.md)
+- [GenerateApplicationManifest task](../msbuild/generateapplicationmanifest-task.md)
+- [SignFile task](../msbuild/signfile-task.md)
+- [Task reference](../msbuild/msbuild-task-reference.md)

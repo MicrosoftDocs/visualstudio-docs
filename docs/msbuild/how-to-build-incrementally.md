@@ -97,8 +97,8 @@ This project file contains both the `Convert` and `Build` targets. The `Generate
 ```
 
 ## See also
-[Targets](../msbuild/msbuild-targets.md)
-[Target element (MSBuild)](../msbuild/target-element-msbuild.md)
-[Transforms](../msbuild/msbuild-transforms.md)
-[Csc task](../msbuild/csc-task.md)
-[Vbc task](../msbuild/vbc-task.md)
+- [Targets](../msbuild/msbuild-targets.md)
+- [Target element (MSBuild)](../msbuild/target-element-msbuild.md)
+- [Transforms](../msbuild/msbuild-transforms.md)
+- [Csc task](../msbuild/csc-task.md)
+- [Vbc task](../msbuild/vbc-task.md)

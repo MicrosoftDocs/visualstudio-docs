@@ -160,7 +160,7 @@ Tasks provide the code that runs during the build process. The tasks in the foll
 
  Computes checksums of the contents of a file or set of files.
 
-[GetFrameworkPath task](../msbuild/getframeworkpath-task.md)
+- [GetFrameworkPath task](../msbuild/getframeworkpath-task.md)
 
  Retrieves the path to the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] assemblies.
 

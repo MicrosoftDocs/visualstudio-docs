@@ -154,6 +154,6 @@ For example, you could define a new target to write a custom log message after b
 
 ## See also
 
-[MSBuild concepts](../msbuild/msbuild-concepts.md)
+- [MSBuild concepts](../msbuild/msbuild-concepts.md)
 
-[MSBuild reference](../msbuild/msbuild-reference.md)
+- [MSBuild reference](../msbuild/msbuild-reference.md)

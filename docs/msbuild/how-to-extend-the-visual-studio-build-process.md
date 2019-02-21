@@ -118,6 +118,6 @@ Projects that import your project files can override these properties without ov
 |`CompileDependsOn`|The property to override if you want to insert custom processes before or after the compilation step.|
 
 ## See also
-[Visual Studio integration](../msbuild/visual-studio-integration-msbuild.md)
-[MSBuild concepts](../msbuild/msbuild-concepts.md)
-[.targets files](../msbuild/msbuild-dot-targets-files.md)
+- [Visual Studio integration](../msbuild/visual-studio-integration-msbuild.md)
+- [MSBuild concepts](../msbuild/msbuild-concepts.md)
+- [.targets files](../msbuild/msbuild-dot-targets-files.md)

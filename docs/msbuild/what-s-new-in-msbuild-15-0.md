@@ -46,4 +46,4 @@ MSBuild is now available as part of the [.NET Core SDK](https://www.microsoft.co
   `<Import Project="$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildThisFileDirectory), dir.props))\dir.props" />`
 
 ## See also
-[MSBuild](../msbuild/msbuild.md)
+- [MSBuild](../msbuild/msbuild.md)

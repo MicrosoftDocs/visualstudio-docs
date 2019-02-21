@@ -77,5 +77,5 @@ The following code example defines two metadata items, m and n, in an ItemDefini
 ```
 
 ## See also
-[Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)
-[Items](../msbuild/msbuild-items.md)
+- [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)
+- [Items](../msbuild/msbuild-items.md)

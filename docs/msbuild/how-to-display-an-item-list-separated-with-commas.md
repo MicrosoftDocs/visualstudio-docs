@@ -61,5 +61,5 @@ For this example, the equivalent command-line command is:
 ```
 
 ## See also
-[MSBuild reference](../msbuild/msbuild-reference.md)
-[Items](../msbuild/msbuild-items.md)
+- [MSBuild reference](../msbuild/msbuild-reference.md)
+- [Items](../msbuild/msbuild-items.md)

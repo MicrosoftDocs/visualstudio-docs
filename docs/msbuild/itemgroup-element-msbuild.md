@@ -77,6 +77,6 @@ The following code example shows the user-defined item collections `Res` and `Co
 ```
 
 ## See also
-[Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)
-[Items](../msbuild/msbuild-items.md)
-[Common MSBuild project items](../msbuild/common-msbuild-project-items.md)
+- [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)
+- [Items](../msbuild/msbuild-items.md)
+- [Common MSBuild project items](../msbuild/common-msbuild-project-items.md)

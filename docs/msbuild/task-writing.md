@@ -129,7 +129,7 @@ public class SimpleTask : ITask
  You can mark certain task properties as "required" so that any project file that runs the task must set values for these properties or the build fails. Apply the `[Required]` attribute to the .NET property in your task as follows:
 
 ```csharp
-[Required]
+- [Required]
 public string RequiredProperty { get; set; }
 ```
 

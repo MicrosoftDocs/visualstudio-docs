@@ -70,6 +70,6 @@ In addition to the above, names corresponding to MSBuild language elements canno
 * Otherwise
 
 ## See also
-[MSBuild reference](../msbuild/msbuild-reference.md)
+- [MSBuild reference](../msbuild/msbuild-reference.md)
 
-[MSBuild properties](../msbuild/msbuild-properties.md)
+- [MSBuild properties](../msbuild/msbuild-properties.md)

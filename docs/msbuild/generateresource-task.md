@@ -89,5 +89,5 @@ Assuming that the assembly is named myAssembly, the following code generates an 
 Without the \<LogicalName> metadata, the resource would be named *myAssembly.myResource.resources*.  This example applies only to the Visual Basic and Visual C# build process.
 
 ## See also
-[Tasks](../msbuild/msbuild-tasks.md)
-[Task reference](../msbuild/msbuild-task-reference.md)
+- [Tasks](../msbuild/msbuild-tasks.md)
+- [Task reference](../msbuild/msbuild-task-reference.md)

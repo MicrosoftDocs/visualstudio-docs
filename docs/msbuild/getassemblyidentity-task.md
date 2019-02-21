@@ -52,5 +52,5 @@ The following example retrieves the identity of the files specified in the `MyAs
 ```
 
 ## See also
-[Tasks](../msbuild/msbuild-tasks.md)
-[Task reference](../msbuild/msbuild-task-reference.md)
+- [Tasks](../msbuild/msbuild-tasks.md)
+- [Task reference](../msbuild/msbuild-task-reference.md)

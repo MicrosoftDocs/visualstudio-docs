@@ -64,6 +64,6 @@ The following is an example, taken from *microsoft.common.targets*, about how to
 ```
 
 ## See also
-[Use multiple processors to build projects](../msbuild/using-multiple-processors-to-build-projects.md)
-[Write multi-processor-aware loggers](../msbuild/writing-multi-processor-aware-loggers.md)
-[Tuning C++ build parallelism blog](http://go.microsoft.com/fwlink/?LinkId=251457)
+- [Use multiple processors to build projects](../msbuild/using-multiple-processors-to-build-projects.md)
+- [Write multi-processor-aware loggers](../msbuild/writing-multi-processor-aware-loggers.md)
+- [Tuning C++ build parallelism blog](http://go.microsoft.com/fwlink/?LinkId=251457)

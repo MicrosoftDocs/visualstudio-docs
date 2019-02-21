@@ -54,6 +54,6 @@ The following code example illustrates that the `Build` target still runs and th
 ```
 
 ## See also
-[MSBuild](../msbuild/msbuild.md)
-[Task reference](../msbuild/msbuild-task-reference.md)
-[Tasks](../msbuild/msbuild-tasks.md)
+- [MSBuild](../msbuild/msbuild.md)
+- [Task reference](../msbuild/msbuild-task-reference.md)
+- [Tasks](../msbuild/msbuild-tasks.md)

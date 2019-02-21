@@ -72,5 +72,5 @@ The following table describes the value of the output items after task execution
 |`OutCultureNeutralAssignedFiles`|*MyResource1.resx* (Culture="fr")<br /><br /> *MyResource2.XX.resx* (no additional metadata)|
 
 ## See also
-[Tasks](../msbuild/msbuild-tasks.md)
-[Task reference](../msbuild/msbuild-task-reference.md)
+- [Tasks](../msbuild/msbuild-tasks.md)
+- [Task reference](../msbuild/msbuild-task-reference.md)

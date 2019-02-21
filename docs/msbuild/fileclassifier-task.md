@@ -58,8 +58,8 @@ The following example classifies a single source file as a resource and then emb
 ```
 
 ## See also
-[WPF MSBuild reference](../msbuild/wpf-msbuild-reference.md)
-[Task reference](../msbuild/wpf-msbuild-task-reference.md)
-[MSBuild reference](../msbuild/msbuild-reference.md)
-[Task reference](../msbuild/msbuild-task-reference.md)
-[Build a WPF application (WPF)](/dotnet/framework/wpf/app-development/building-a-wpf-application-wpf)
+- [WPF MSBuild reference](../msbuild/wpf-msbuild-reference.md)
+- [Task reference](../msbuild/wpf-msbuild-task-reference.md)
+- [MSBuild reference](../msbuild/msbuild-reference.md)
+- [Task reference](../msbuild/msbuild-task-reference.md)
+- [Build a WPF application (WPF)](/dotnet/framework/wpf/app-development/building-a-wpf-application-wpf)

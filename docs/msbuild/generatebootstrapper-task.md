@@ -170,5 +170,5 @@ The following example uses the `GenerateBootstrapper` task to install an applica
 ```
 
 ## See also
-[Tasks](../msbuild/msbuild-tasks.md)
-[Task reference](../msbuild/msbuild-task-reference.md)
+- [Tasks](../msbuild/msbuild-tasks.md)
+- [Task reference](../msbuild/msbuild-task-reference.md)

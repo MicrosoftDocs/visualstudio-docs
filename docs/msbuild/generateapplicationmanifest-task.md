@@ -344,7 +344,7 @@ This example produces the *Test.exe.manifest*, making the application XCOPY depl
 ```
 
 ## See also
-[Tasks](../msbuild/msbuild-tasks.md)
-[GenerateDeploymentManifest task](../msbuild/generatedeploymentmanifest-task.md)
-[SignFile task](../msbuild/signfile-task.md)
-[Task reference](../msbuild/msbuild-task-reference.md)
+- [Tasks](../msbuild/msbuild-tasks.md)
+- [GenerateDeploymentManifest task](../msbuild/generatedeploymentmanifest-task.md)
+- [SignFile task](../msbuild/signfile-task.md)
+- [Task reference](../msbuild/msbuild-task-reference.md)

@@ -80,5 +80,5 @@ You can use the name or location of the project in the project file itself witho
 ```
 
 ## See also
-[MSBuild](../msbuild/msbuild.md)
-[MSBuild reserved and well-known properties](../msbuild/msbuild-reserved-and-well-known-properties.md)
+- [MSBuild](../msbuild/msbuild.md)
+- [MSBuild reserved and well-known properties](../msbuild/msbuild-reserved-and-well-known-properties.md)

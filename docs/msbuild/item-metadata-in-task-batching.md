@@ -212,9 +212,9 @@ Items in ExampColl: Item2;Item5
 ```
 
 ## See also
-[Well-known item metadata](../msbuild/msbuild-well-known-item-metadata.md)
-[Item element (MSBuild)](../msbuild/item-element-msbuild.md)
-[ItemMetadata element (MSBuild)](../msbuild/itemmetadata-element-msbuild.md)
-[Batching](../msbuild/msbuild-batching.md)
-[MSBuild concepts](../msbuild/msbuild-concepts.md)
-[MSBuild reference](../msbuild/msbuild-reference.md)
+- [Well-known item metadata](../msbuild/msbuild-well-known-item-metadata.md)
+- [Item element (MSBuild)](../msbuild/item-element-msbuild.md)
+- [ItemMetadata element (MSBuild)](../msbuild/itemmetadata-element-msbuild.md)
+- [Batching](../msbuild/msbuild-batching.md)
+- [MSBuild concepts](../msbuild/msbuild-concepts.md)
+- [MSBuild reference](../msbuild/msbuild-reference.md)
