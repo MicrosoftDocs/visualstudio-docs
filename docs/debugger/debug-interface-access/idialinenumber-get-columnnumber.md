@@ -18,8 +18,7 @@ Retrieves the column number where the expression or statement begins.
 
 ## Syntax
 
-```
-- [C++]
+```cpp
 HRESULT get_columnNumber ( 
    DWORD* pRetVal
 );
