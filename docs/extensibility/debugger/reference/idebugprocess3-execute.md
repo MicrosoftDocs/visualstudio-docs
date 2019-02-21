@@ -1,7 +1,7 @@
 ---
 title: "IDebugProcess3::Execute | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IDebugProcess3::Execute"
 helpviewer_keywords:

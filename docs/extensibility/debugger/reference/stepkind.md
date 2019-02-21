@@ -1,7 +1,7 @@
 ---
 title: "STEPKIND | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "STEPKIND"
 helpviewer_keywords:

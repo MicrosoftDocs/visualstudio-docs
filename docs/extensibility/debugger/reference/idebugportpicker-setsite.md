@@ -1,7 +1,7 @@
 ---
 title: "IDebugPortPicker::SetSite | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 helpviewer_keywords:
   - "IDebugPortPicker::SetSite"
 ms.assetid: 7319e187-adfe-4b3f-aec9-521356fb5a8a

@@ -1,7 +1,7 @@
 ---
 title: "IDebugCustomAttributeQuery2::GetCustomAttributeByName | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IDebugCustomAttributeQuery2::GetCustomAttributeByName"
 helpviewer_keywords:

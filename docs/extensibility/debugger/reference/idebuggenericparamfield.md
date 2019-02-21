@@ -1,7 +1,7 @@
 ---
 title: "IDebugGenericParamField | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 helpviewer_keywords:
   - "IDebugGenericParamField interface"
 ms.assetid: ba24f499-5ba7-4c67-83e6-923229b52327

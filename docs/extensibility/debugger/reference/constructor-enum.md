@@ -1,7 +1,7 @@
 ---
 title: "CONSTRUCTOR_ENUM | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "CONSTRUCTOR_ENUM"
 helpviewer_keywords:

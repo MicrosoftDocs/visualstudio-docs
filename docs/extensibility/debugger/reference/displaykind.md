@@ -1,7 +1,7 @@
 ---
 title: "DisplayKind | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 helpviewer_keywords:
   - "DisplayKind enumeration"
 ms.assetid: 940968c5-6065-4bda-8ee6-c31597db4d71

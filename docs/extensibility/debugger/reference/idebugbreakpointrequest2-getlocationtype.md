@@ -1,7 +1,7 @@
 ---
 title: "IDebugBreakpointRequest2::GetLocationType | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IDebugBreakpointRequest2::GetLocationType"
 helpviewer_keywords:

@@ -1,7 +1,7 @@
 ---
 title: "IDebugFunctionObject2::CreateStringObjectWithLength | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 helpviewer_keywords:
   - "CreateStringObjectWithLength"
   - "IDebugFunctionObject2::CreateStringObjectWithLength"

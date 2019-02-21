@@ -1,7 +1,7 @@
 ---
 title: "IDebugPort2::GetPortRequest | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IDebugPort2::GetPortRequest"
 helpviewer_keywords:

@@ -1,7 +1,7 @@
 ---
 title: "IDebugBinder3 | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IDebugBinder3"
 helpviewer_keywords:

@@ -1,7 +1,7 @@
 ---
 title: "IDebugProgram3 | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 helpviewer_keywords:
   - "IDebugProgram3 interface"
 ms.assetid: 4301ba23-c00c-4ce5-8b1e-3f27da312034

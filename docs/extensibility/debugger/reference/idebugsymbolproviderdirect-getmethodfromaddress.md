@@ -1,7 +1,7 @@
 ---
 title: "IDebugSymbolProviderDirect::GetMethodFromAddress | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 helpviewer_keywords:
   - "IDebugSymbolProviderDirect::GetMethodFromAddress"
   - "GetMethodFromAddress"

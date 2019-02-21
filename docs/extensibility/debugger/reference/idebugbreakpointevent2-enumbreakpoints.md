@@ -1,7 +1,7 @@
 ---
 title: "IDebugBreakpointEvent2::EnumBreakpoints | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IDebugBreakpointEvent2:::EnumBreakpoints"
 helpviewer_keywords:

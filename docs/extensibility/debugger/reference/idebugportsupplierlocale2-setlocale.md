@@ -1,7 +1,7 @@
 ---
 title: "IDebugPortSupplierLocale2::SetLocale | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 helpviewer_keywords:
   - "IDebugPortSupplierLocale2::SetLocale"
 ms.assetid: 21e88510-caac-405e-ba45-cb00e19a28bc

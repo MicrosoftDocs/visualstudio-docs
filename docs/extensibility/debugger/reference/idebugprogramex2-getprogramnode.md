@@ -1,7 +1,7 @@
 ---
 title: "IDebugProgramEx2::GetProgramNode | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IDebugProgramEx2::Attach"
 helpviewer_keywords:

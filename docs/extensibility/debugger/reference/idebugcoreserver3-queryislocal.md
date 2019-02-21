@@ -1,7 +1,7 @@
 ---
 title: "IDebugCoreServer3::QueryIsLocal | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IDebugCoreServer3::QueryIsLocal"
 helpviewer_keywords:

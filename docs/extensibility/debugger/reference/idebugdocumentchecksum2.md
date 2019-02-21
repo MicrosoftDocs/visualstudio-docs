@@ -1,7 +1,7 @@
 ---
 title: "IDebugDocumentChecksum2 | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 helpviewer_keywords:
   - "IDebugDocumentChecksum2 interface"
 ms.assetid: 6d22fa94-21aa-46cb-b5b5-32a6399ebb20

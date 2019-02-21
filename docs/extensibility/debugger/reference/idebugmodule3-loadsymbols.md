@@ -1,7 +1,7 @@
 ---
 title: "IDebugModule3::LoadSymbols | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IDebugModule3::LoadSymbols"
 helpviewer_keywords:

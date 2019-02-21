@@ -1,7 +1,7 @@
 ---
 title: "IDebugProcess2::CauseBreak | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IDebugProcess2::CauseBreak"
 helpviewer_keywords:

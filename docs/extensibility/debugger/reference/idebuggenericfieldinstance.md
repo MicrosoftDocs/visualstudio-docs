@@ -1,7 +1,7 @@
 ---
 title: "IDebugGenericFieldInstance | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 helpviewer_keywords:
   - "IDebugGenericFieldInstance interface"
 ms.assetid: f68b4761-be8b-4801-9d4b-cde90e01d95e

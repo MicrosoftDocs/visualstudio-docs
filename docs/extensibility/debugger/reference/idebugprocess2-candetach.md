@@ -1,7 +1,7 @@
 ---
 title: "IDebugProcess2::CanDetach | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IDebugProcess2::CanDetach"
 helpviewer_keywords:

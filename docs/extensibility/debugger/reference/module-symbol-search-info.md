@@ -1,7 +1,7 @@
 ---
 title: "MODULE_SYMBOL_SEARCH_INFO | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "MODULE_SYMBOL_SEARCH_INFO"
 helpviewer_keywords:

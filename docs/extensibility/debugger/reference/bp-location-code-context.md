@@ -1,7 +1,7 @@
 ---
 title: "BP_LOCATION_CODE_CONTEXT | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "BP_LOCATION_CODE_CONTEXT"
 helpviewer_keywords:

@@ -1,7 +1,7 @@
 ---
 title: "IEnumDebugProcesses2::Skip | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IEnumDebugProcesses2::Skip"
 helpviewer_keywords:

@@ -1,7 +1,7 @@
 ---
 title: "IDebugMemoryContext2::Compare | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IDebugMemoryContext2::Compare"
 helpviewer_keywords:

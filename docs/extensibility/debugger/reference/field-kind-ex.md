@@ -1,7 +1,7 @@
 ---
 title: "FIELD_KIND_EX | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 helpviewer_keywords:
   - "FIELD_KIND_EX enumeration"
 ms.assetid: 922c3208-1e94-485f-b70a-3bc96affeff8

@@ -1,7 +1,7 @@
 ---
 title: "DBG_ATTRIB_FLAGS | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "DBG_ATTRIB_FLAGS"
 helpviewer_keywords:

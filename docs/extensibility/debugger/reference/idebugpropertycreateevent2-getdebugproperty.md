@@ -1,7 +1,7 @@
 ---
 title: "IDebugPropertyCreateEvent2::GetDebugProperty | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IDebugPropertyCreateEvent2::GetDebugProperty"
 helpviewer_keywords:

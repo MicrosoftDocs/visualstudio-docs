@@ -1,7 +1,7 @@
 ---
 title: "IDebugCodeContext2::GetLanguageInfo | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IDebugCodeContext2::GetLanguageInfo"
 helpviewer_keywords:

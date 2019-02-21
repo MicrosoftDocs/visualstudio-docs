@@ -1,7 +1,7 @@
 ---
 title: "IDebugPrimitiveTypeField | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 helpviewer_keywords:
   - "IDebugPrimitiveTypeField interface"
 ms.assetid: 73a428fd-797e-4ceb-8392-ba16f1c5226b

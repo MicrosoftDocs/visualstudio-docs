@@ -1,7 +1,7 @@
 ---
 title: "IDebugSymbolSearchEvent2::GetSymbolSearchInfo | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IDebugSymbolSearchEvent2::GetSymbolSearchInfo"
 helpviewer_keywords:

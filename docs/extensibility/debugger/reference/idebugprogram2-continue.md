@@ -1,7 +1,7 @@
 ---
 title: "IDebugProgram2::Continue | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IDebugProgram2::Continue"
 helpviewer_keywords:

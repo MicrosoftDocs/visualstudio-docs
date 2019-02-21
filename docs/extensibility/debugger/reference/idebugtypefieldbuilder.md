@@ -1,7 +1,7 @@
 ---
 title: "IDebugTypeFieldBuilder | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 helpviewer_keywords:
   - "IDebugTypeFieldBuilder interface"
 ms.assetid: 2dfed0be-6972-4bec-baec-f0b78df9ef97

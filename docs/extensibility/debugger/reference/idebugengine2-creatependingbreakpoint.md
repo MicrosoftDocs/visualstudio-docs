@@ -1,7 +1,7 @@
 ---
 title: "IDebugEngine2::CreatePendingBreakpoint | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IDebugEngine2::CreatePendingBreakpoint"
 helpviewer_keywords:

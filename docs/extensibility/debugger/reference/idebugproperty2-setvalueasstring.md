@@ -1,7 +1,7 @@
 ---
 title: "IDebugProperty2::SetValueAsString | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IDebugProperty2::SetValueAsString"
 helpviewer_keywords:

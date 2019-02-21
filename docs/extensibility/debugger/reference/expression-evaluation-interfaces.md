@@ -1,7 +1,7 @@
 ---
 title: "Expression Evaluation Interfaces | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 helpviewer_keywords:
   - "expression evaluation, interfaces"
 ms.assetid: 2d259f60-2cd7-460e-b02d-24a8fb202850

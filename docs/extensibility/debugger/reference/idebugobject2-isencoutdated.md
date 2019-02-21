@@ -1,7 +1,7 @@
 ---
 title: "IDebugObject2::IsEncOutdated | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IDebugObject2::IsEncOutdated"
 helpviewer_keywords:

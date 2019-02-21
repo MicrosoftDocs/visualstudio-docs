@@ -1,7 +1,7 @@
 ---
 title: "IDebugBoundBreakpoint2::GetState | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IDebugBoundBreakpoint2::GetState"
 helpviewer_keywords:

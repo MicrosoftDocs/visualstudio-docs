@@ -1,7 +1,7 @@
 ---
 title: "IDebugSymbolProviderDirect::GetCurrentModulesState | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 helpviewer_keywords:
   - "GetCurrentModulesState"
   - "IDebugSymbolProviderDirect::GetCurrentModulesState"

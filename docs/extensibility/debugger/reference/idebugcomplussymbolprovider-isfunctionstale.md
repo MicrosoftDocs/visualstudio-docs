@@ -1,7 +1,7 @@
 ---
 title: "IDebugComPlusSymbolProvider::IsFunctionStale | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 helpviewer_keywords:
   - "IDebugComPlusSymbolProvider::IsFunctionStale"
 ms.assetid: dcffc090-4ed8-47b2-ba51-bce1a6b6428d

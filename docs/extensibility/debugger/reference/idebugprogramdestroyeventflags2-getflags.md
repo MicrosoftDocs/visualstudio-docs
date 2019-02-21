@@ -1,7 +1,7 @@
 ---
 title: "IDebugProgramDestroyEventFlags2::GetFlags | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 helpviewer_keywords:
   - "GetFlags"
   - "IDebugProgramDestroyEventFlags2::GetFlags"

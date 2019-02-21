@@ -1,7 +1,7 @@
 ---
 title: "IDebugExpression2::Abort | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IDebugExpression2::Abort"
 helpviewer_keywords:

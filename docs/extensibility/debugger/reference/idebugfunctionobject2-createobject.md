@@ -1,7 +1,7 @@
 ---
 title: "IDebugFunctionObject2::CreateObject | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 helpviewer_keywords:
   - "IDebugFunctionObject2::CreateObject"
   - "CreateObject"
