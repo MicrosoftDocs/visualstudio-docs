@@ -26,7 +26,8 @@ HRESULT get_liveRangeStartRelativeVirtualAddress ( 
 
 #### Parameters
  `address`
-- [out] Returns the start of the address range.
+
+[out] Returns the start of the address range.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code. The relative virtual address returned is the beginning of the range in which the symbol is valid.

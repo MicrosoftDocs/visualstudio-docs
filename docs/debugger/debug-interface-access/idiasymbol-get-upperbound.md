@@ -26,7 +26,8 @@ HRESULT get_upperBound ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns an [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) object that represents the upper bound of a FORTRAN array dimension.
+
+[out] Returns an [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) object that represents the upper bound of a FORTRAN array dimension.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

@@ -26,7 +26,8 @@ HRESULT get_arrayIndexTypeId ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns the array index type ID of the symbol.
+
+[out] Returns the array index type ID of the symbol.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

@@ -29,16 +29,20 @@ HRESULT findSymbolByVAEx ( 
 
 #### Parameters
  `va`
-- [in] Specifies the VA.
+
+[in] Specifies the VA.
 
  `symtag`
-- [in] Symbol type to be found. Values are taken from the [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md) enumeration.
+
+[in] Symbol type to be found. Values are taken from the [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md) enumeration.
 
  `ppSymbol`
-- [out] Returns an [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) object that represents the symbol retrieved.
+
+[out] Returns an [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) object that represents the symbol retrieved.
 
  `displacement`
-- [out] Returns a value that specifies an offset from the virtual address given by `va`.
+
+[out] Returns a value that specifies an offset from the virtual address given by `va`.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

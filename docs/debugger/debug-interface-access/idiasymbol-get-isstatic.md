@@ -26,7 +26,8 @@ HRESULT get_isStatic(
 
 #### Parameters
  `pFlag`
-- [out] Returns `TRUE` if the function or thunk layer has been marked as static; otherwise, returns `FALSE`.
+
+[out] Returns `TRUE` if the function or thunk layer has been marked as static; otherwise, returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

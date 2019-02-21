@@ -26,7 +26,8 @@ HRESULT get_udtKind ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns a value from the [UdtKind Enumeration](../../debugger/debug-interface-access/udtkind.md) enumeration that specifies the kind of a UDT: structure, class, or union.
+
+[out] Returns a value from the [UdtKind Enumeration](../../debugger/debug-interface-access/udtkind.md) enumeration that specifies the kind of a UDT: structure, class, or union.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or error code.

@@ -24,7 +24,8 @@ Retrieves a flag that specifies whether the function contains a call to `alloca`
 
 #### Parameters
  `pFlag`
-- [out] Returns `TRUE` if the function contains a call to `alloca`; otherwise, returns `FALSE`.
+
+[out] Returns `TRUE` if the function contains a call to `alloca`; otherwise, returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

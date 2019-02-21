@@ -28,13 +28,16 @@ HRESULT get_typeIds ( 
 
 #### Parameters
  `cTypeIds`
-- [in] Size of the buffer to hold the data.
+
+[in] Size of the buffer to hold the data.
 
  `pcTypeIds`
-- [out] Returns the number of `typeIds` written, or, if `typeIds` is `NULL`, then the total number of type identifiers available.
+
+[out] Returns the number of `typeIds` written, or, if `typeIds` is `NULL`, then the total number of type identifiers available.
 
  `typeIds[]`
-- [out] An array that is to be filled in with the type identifiers.
+
+[out] An array that is to be filled in with the type identifiers.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

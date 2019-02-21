@@ -28,13 +28,16 @@ HRESULT findSymbolByRVA ( 
 
 #### Parameters
  `rva`
-- [in] Specifies the RVA.
+
+[in] Specifies the RVA.
 
  `symtag`
-- [in] Symbol type to be found. Values are taken from the [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md) enumeration.
+
+[in] Symbol type to be found. Values are taken from the [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md) enumeration.
 
  `ppSymbol`
-- [out] Returns an [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) object that represents the symbol retrieved.
+
+[out] Returns an [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) object that represents the symbol retrieved.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

@@ -26,7 +26,8 @@ HRESULT get_isHotpatchable(
 
 #### Parameters
  `pFlag`
-- [out] Returns `TRUE` if the module is hot-patchable; otherwise, returns `FALSE`.
+
+[out] Returns `TRUE` if the module is hot-patchable; otherwise, returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or error code.

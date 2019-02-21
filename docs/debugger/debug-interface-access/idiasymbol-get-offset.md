@@ -26,7 +26,8 @@ HRESULT get_offset ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns the offset in bytes of the symbol location.
+
+[out] Returns the offset in bytes of the symbol location.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

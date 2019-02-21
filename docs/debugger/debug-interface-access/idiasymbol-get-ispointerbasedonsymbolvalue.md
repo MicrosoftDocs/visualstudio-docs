@@ -23,7 +23,8 @@ HRESULT get_isPointerBasedOnSymbolValue(
 
 #### Parameters
  `pRetVal`
-- [out] A pointer to a `BOOL` that specifies whether the `this` pointer is based on a symbol value.
+
+[out] A pointer to a `BOOL` that specifies whether the `this` pointer is based on a symbol value.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

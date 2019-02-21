@@ -26,7 +26,8 @@ HRESULT get_symbolsFileName ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns the name of the file from which the symbols were loaded.
+
+[out] Returns the name of the file from which the symbols were loaded.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

@@ -26,7 +26,8 @@ HRESULT get_baseType (
 
 #### Parameters
 `pRetVal`
-- [out] Returns a value from the [BasicType Enumeration](../../debugger/debug-interface-access/basictype.md) enumeration specifying the base type of the symbol.
+
+[out] Returns a value from the [BasicType Enumeration](../../debugger/debug-interface-access/basictype.md) enumeration specifying the base type of the symbol.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

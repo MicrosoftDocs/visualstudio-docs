@@ -26,7 +26,8 @@ HRESULT get_relativeVirtualAddress ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns the RVA of the beginning of the section.
+
+[out] Returns the RVA of the beginning of the section.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.

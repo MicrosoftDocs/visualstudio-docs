@@ -26,7 +26,8 @@ HRESULT get_cplusplusExceptionHandling ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns `TRUE` if C++ exception handling is in effect; otherwise, returns `FALSE`.
+
+[out] Returns `TRUE` if C++ exception handling is in effect; otherwise, returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.

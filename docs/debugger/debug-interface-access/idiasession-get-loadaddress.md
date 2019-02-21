@@ -26,7 +26,8 @@ HRESULT get_loadAddress ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns a virtual address (VA) where an .exe file or .dll file is loaded.
+
+[out] Returns a virtual address (VA) where an .exe file or .dll file is loaded.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

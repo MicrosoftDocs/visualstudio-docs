@@ -26,7 +26,8 @@ HRESULT get_nopad(
 
 #### Parameters
  `pRetVal`
-- [out] Returns `TRUE` if the section should not be padded to the next memory boundary; otherwise returns `FALSE`.
+
+[out] Returns `TRUE` if the section should not be padded to the next memory boundary; otherwise returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.

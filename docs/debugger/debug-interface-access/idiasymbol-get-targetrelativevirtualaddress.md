@@ -26,7 +26,8 @@ HRESULT get_targetRelativeVirtualAddress ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns the RVA of a thunk target.
+
+[out] Returns the RVA of a thunk target.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

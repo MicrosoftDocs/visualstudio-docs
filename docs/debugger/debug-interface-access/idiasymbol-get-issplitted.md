@@ -26,7 +26,8 @@ HRESULT get_isSplitted(
 
 #### Parameters
  `pFlag`
-- [out] Returns `TRUE` if the symbol has been split into an aggregate of symbols; otherwise, returns `FALSE`.
+
+[out] Returns `TRUE` if the symbol has been split into an aggregate of symbols; otherwise, returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or error code.

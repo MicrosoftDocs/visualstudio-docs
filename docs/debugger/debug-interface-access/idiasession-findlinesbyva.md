@@ -28,13 +28,16 @@ HRESULT findLinesByVA (
 
 #### Parameters
 `va`
-- [in] Specifies the address as a VA.
+
+[in] Specifies the address as a VA.
 
 `length`
-- [in] Specifies the number of bytes of address range to cover with this query.
+
+[in] Specifies the number of bytes of address range to cover with this query.
 
 `ppResult`
-- [out] Returns an [IDiaEnumLineNumbers](../../debugger/debug-interface-access/idiaenumlinenumbers.md) object that contains a list of all the line numbers that cover the specified address range.
+
+[out] Returns an [IDiaEnumLineNumbers](../../debugger/debug-interface-access/idiaenumlinenumbers.md) object that contains a list of all the line numbers that cover the specified address range.
 
 ## Example
 This example shows a function that obtains all line numbers contained in a function using the function's virtual address and length.

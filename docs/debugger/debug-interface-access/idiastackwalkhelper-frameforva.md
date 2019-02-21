@@ -27,10 +27,12 @@ HRESULT frameForVA( 
 
 #### Parameters
  `va`
-- [in] The virtual address for the frame data.
+
+[in] The virtual address for the frame data.
 
  `ppFrame`
-- [out] An [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md) object that represents the stack frame at the specified address.
+
+[out] An [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md) object that represents the stack frame at the specified address.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

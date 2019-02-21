@@ -23,7 +23,8 @@ HRESULT get_isHLSLData(
 
 #### Parameters
  `pRetVal`
-- [out] A pointer to a `BOOL` that specifies whether this symbol represents HLSL data.
+
+[out] A pointer to a `BOOL` that specifies whether this symbol represents HLSL data.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

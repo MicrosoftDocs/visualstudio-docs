@@ -26,7 +26,8 @@ HRESULT get_virtualBasePointerOffset ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns the offset of the virtual base pointer.
+
+[out] Returns the offset of the virtual base pointer.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

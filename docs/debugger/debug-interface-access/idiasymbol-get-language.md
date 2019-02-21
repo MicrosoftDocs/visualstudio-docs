@@ -26,7 +26,8 @@ HRESULT get_language ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns a value from the [CV_CFL_LANG Enumeration](../../debugger/debug-interface-access/cv-cfl-lang.md) enumeration that specifies the language of the source.
+
+[out] Returns a value from the [CV_CFL_LANG Enumeration](../../debugger/debug-interface-access/cv-cfl-lang.md) enumeration that specifies the language of the source.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or error code.

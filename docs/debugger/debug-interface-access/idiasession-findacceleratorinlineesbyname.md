@@ -26,13 +26,16 @@ HRESULT findAcceleratorInlineeLinesByName ( 
 
 #### Parameters
  `name`
-- [in] The inlinee function name to be searched.
+
+[in] The inlinee function name to be searched.
 
  `option`
-- [in] The name search options to be used when searching for inline frames that correspond to `name`. For more information, see [NameSearchOptions Enumeration](../../debugger/debug-interface-access/namesearchoptions.md).
+
+[in] The name search options to be used when searching for inline frames that correspond to `name`. For more information, see [NameSearchOptions Enumeration](../../debugger/debug-interface-access/namesearchoptions.md).
 
  `ppResult`
-- [out] A pointer to an `IDiaEnumSymbols` interface pointer that is initialized with the result.
+
+[out] A pointer to an `IDiaEnumSymbols` interface pointer that is initialized with the result.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

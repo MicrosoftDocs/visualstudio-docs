@@ -26,7 +26,8 @@ HRESULT get_objectFilename ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns the object file name to which the source was compiled.
+
+[out] Returns the object file name to which the source was compiled.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.

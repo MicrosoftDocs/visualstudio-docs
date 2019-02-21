@@ -26,7 +26,8 @@ HRESULT get_dataCrc ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns the CRC of the data in the section.
+
+[out] Returns the CRC of the data in the section.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.

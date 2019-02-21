@@ -26,7 +26,8 @@ HRESULT get_isCTypes(
 
 #### Parameters
  `pFlag`
-- [out] Returns `TRUE` if the symbol file contains C types; otherwise, returns `FALSE`.
+
+[out] Returns `TRUE` if the symbol file contains C types; otherwise, returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

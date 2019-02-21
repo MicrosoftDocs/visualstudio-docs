@@ -26,7 +26,8 @@ HRESULT get_virtualTableShapeId ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns the virtual table shape symbol ID of the symbol.
+
+[out] Returns the virtual table shape symbol ID of the symbol.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

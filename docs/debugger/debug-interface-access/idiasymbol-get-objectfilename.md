@@ -23,7 +23,8 @@ HRESULT get_objectFilename(
 
 #### Parameters
  `pRetVal`
-- [out] A pointer to a `BSTR` that holds the object file name.
+
+[out] A pointer to a `BSTR` that holds the object file name.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

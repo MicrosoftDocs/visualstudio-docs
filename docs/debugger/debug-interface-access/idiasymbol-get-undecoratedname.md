@@ -26,7 +26,8 @@ HRESULT get_undecoratedName ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns the undecorated name for a C++ decorated name.
+
+[out] Returns the undecorated name for a C++ decorated name.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

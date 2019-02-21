@@ -27,10 +27,12 @@ HRESULT symsAreEquiv ( 
 
 #### Parameters
  `symbolA`
-- [in] The first [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) object used in the comparison.
+
+[in] The first [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) object used in the comparison.
 
  `symbolB`
-- [in] The second `IDiaSymbol` object used in the comparison.
+
+[in] The second `IDiaSymbol` object used in the comparison.
 
 ## Return Value
  If the symbols are equivalent, returns `S_OK`; otherwise, returns `S_FALSE`, the symbols are not equivalent. Otherwise, return an error code.

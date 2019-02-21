@@ -26,7 +26,8 @@ HRESULT get_Count ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns the number of section contributions.
+
+[out] Returns the number of section contributions.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

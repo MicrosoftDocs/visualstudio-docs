@@ -26,7 +26,8 @@ HRESULT get_virtualAddress ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns the VA of the contribution.
+
+[out] Returns the VA of the contribution.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.

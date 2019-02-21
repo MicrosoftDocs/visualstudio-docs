@@ -26,7 +26,8 @@ HRESULT get_isStripped(
 
 #### Parameters
  `pFlag`
-- [out] Returns `TRUE` if private symbols were removed from the symbol file; otherwise, returns `FALSE`.
+
+[out] Returns `TRUE` if private symbols were removed from the symbol file; otherwise, returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

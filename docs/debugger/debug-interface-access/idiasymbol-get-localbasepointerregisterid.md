@@ -26,7 +26,8 @@ HRESULT get_localBasePointerRegisterId ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns the ID of the register that holds a base pointer to local variables on the stack.
+
+[out] Returns the ID of the register that holds a base pointer to local variables on the stack.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

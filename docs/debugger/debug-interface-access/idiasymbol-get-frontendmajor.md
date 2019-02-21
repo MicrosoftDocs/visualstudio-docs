@@ -26,7 +26,8 @@ HRESULT get_frontEndMajor ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns the front end major version number. See Remarks.
+
+[out] Returns the front end major version number. See Remarks.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

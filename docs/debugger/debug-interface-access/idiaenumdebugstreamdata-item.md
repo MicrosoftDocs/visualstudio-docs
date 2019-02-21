@@ -29,16 +29,20 @@ HRESULT Item ( 
 
 #### Parameters
  index
-- [in] Index of the record to be retrieved. The index is in the range 0 to `count`-1, where `count` is returned by [IDiaEnumDebugStreamData::get_Count](../../debugger/debug-interface-access/idiaenumdebugstreamdata-get-count.md).
+
+[in] Index of the record to be retrieved. The index is in the range 0 to `count`-1, where `count` is returned by [IDiaEnumDebugStreamData::get_Count](../../debugger/debug-interface-access/idiaenumdebugstreamdata-get-count.md).
 
  cbData
-- [in] Size of the data buffer, in bytes.
+
+[in] Size of the data buffer, in bytes.
 
  pcbData
-- [out] Returns the number of bytes returned. If `data` is `NULL`, then `pcbData` contains the total number of bytes of data available in the specified record.
+
+[out] Returns the number of bytes returned. If `data` is `NULL`, then `pcbData` contains the total number of bytes of data available in the specified record.
 
  data[]
-- [out] A buffer that is filled in with the debug stream record data.
+
+[out] A buffer that is filled in with the debug stream record data.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code. Returns `E_INVALIDARG` for invalid parameters and if the `index` parameter is out of bounds.

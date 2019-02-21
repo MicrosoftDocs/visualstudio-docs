@@ -26,7 +26,8 @@ HRESULT get_count ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns the number of items in a list or array.
+
+[out] Returns the number of items in a list or array.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

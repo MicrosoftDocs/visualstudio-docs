@@ -26,7 +26,8 @@ HRESULT get_hfaFloat( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns `TRUE` if the UDT contains HFA data of type float; otherwise, returns `FALSE`.
+
+[out] Returns `TRUE` if the UDT contains HFA data of type float; otherwise, returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

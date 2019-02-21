@@ -26,7 +26,8 @@ HRESULT get_countLiveRanges ( 
 
 #### Parameters
  `count`
-- [out] Returns the number of address ranges.
+
+[out] Returns the number of address ranges.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

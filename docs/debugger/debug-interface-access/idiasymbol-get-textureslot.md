@@ -23,7 +23,8 @@ HRESULT get_textureSlot(
 
 #### Parameters
  `pRetVal`
-- [out] A pointer to a `DWORD` that holds the texture slot.
+
+[out] A pointer to a `DWORD` that holds the texture slot.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

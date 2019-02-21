@@ -26,7 +26,8 @@ HRESULT loadDataFromIStream ( 
 
 #### Parameters
  pIStream
-- [in] An <xref:IStream> object representing the data stream to use.
+
+[in] An <xref:IStream> object representing the data stream to use.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code. The following table shows the possible return values for this method.

@@ -26,7 +26,8 @@ HRESULT get_function ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns a `TRUE` if the symbol refers to a function; otherwise, returns `FALSE`.
+
+[out] Returns a `TRUE` if the symbol refers to a function; otherwise, returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or error code.

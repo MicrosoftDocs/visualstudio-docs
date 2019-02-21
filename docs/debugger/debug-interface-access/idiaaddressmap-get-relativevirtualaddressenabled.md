@@ -26,7 +26,8 @@ HRESULT get_relativeVirtualAddressEnabled ( 
 
 #### Parameters
  pRetVal
-- [out] Returns `TRUE` if the calculation of RVAs is enabled.
+
+[out] Returns `TRUE` if the calculation of RVAs is enabled.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

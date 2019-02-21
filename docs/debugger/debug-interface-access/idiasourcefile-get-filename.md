@@ -26,7 +26,8 @@ HRESULT get_fileName ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns the source file name.
+
+[out] Returns the source file name.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

@@ -26,7 +26,8 @@ HRESULT get_hasAssignmentOperator ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns `TRUE` if the user-defined data type has any assignment operators defined; otherwise, returns `FALSE`.
+
+[out] Returns `TRUE` if the user-defined data type has any assignment operators defined; otherwise, returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

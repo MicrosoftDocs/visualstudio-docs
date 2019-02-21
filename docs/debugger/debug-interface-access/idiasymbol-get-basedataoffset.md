@@ -23,7 +23,8 @@ HRESULT get_baseDataOffset(
 
 #### Parameters
  `pRetVal`
-- [out] A pointer to a `DWORD` that holds the base data offset.
+
+[out] A pointer to a `DWORD` that holds the base data offset.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

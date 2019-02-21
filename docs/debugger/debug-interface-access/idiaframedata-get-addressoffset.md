@@ -26,7 +26,8 @@ HRESULT get_addressOffset ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns the offset part of the code address for the frame.
+
+[out] Returns the offset part of the code address for the frame.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.

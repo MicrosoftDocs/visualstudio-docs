@@ -26,7 +26,8 @@ HRESULT get_targetOffset ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns the offset part of a thunk target address.
+
+[out] Returns the offset part of a thunk target address.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

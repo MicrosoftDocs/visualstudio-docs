@@ -26,7 +26,8 @@ HRESULT get_age ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns the age value of a .pdb file.
+
+[out] Returns the age value of a .pdb file.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or error code.

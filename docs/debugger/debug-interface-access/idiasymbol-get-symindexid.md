@@ -26,7 +26,8 @@ HRESULT get_symIndexId ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns the symbol ID of the symbol.
+
+[out] Returns the symbol ID of the symbol.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or error code.

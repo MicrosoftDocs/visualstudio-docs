@@ -28,13 +28,16 @@ HRESULT Next ( 
 
 #### Parameters
  celt
-- [in] The number of segments in the enumerator to be retrieved.
+
+[in] The number of segments in the enumerator to be retrieved.
 
  rgelt
-- [out] An array that is to be filled in with the desired [IDiaSegment](../../debugger/debug-interface-access/idiasegment.md) objects that represent the segments.
+
+[out] An array that is to be filled in with the desired [IDiaSegment](../../debugger/debug-interface-access/idiasegment.md) objects that represent the segments.
 
  pceltFetched
-- [out] Returns the number of segments in the fetched enumerator.
+
+[out] Returns the number of segments in the fetched enumerator.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if there are no more segments. Otherwise, returns an error code.

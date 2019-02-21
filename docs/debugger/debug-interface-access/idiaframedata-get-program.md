@@ -26,7 +26,8 @@ HRESULT get_program ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns the program string.
+
+[out] Returns the program string.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.

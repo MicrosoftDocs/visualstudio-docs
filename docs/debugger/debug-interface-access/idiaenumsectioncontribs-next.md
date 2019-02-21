@@ -28,13 +28,16 @@ HRESULT Next( 
 
 #### Parameters
  celt
-- [in] The number of section contributions in the enumerator to be retrieved.
+
+[in] The number of section contributions in the enumerator to be retrieved.
 
  rgelt
-- [out] An array that is to be filled with the [IDiaSectionContrib](../../debugger/debug-interface-access/idiasectioncontrib.md) objects that represent the desired section contributions.
+
+[out] An array that is to be filled with the [IDiaSectionContrib](../../debugger/debug-interface-access/idiasectioncontrib.md) objects that represent the desired section contributions.
 
  pceltFetched
-- [out] Returns the number of section contributions in the enumerator fetched.
+
+[out] Returns the number of section contributions in the enumerator fetched.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if there are no more section contributions. Otherwise, returns an error code.

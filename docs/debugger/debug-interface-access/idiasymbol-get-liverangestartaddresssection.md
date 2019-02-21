@@ -26,7 +26,8 @@ HRESULT get_liveRangeStartAddressSection ( 
 
 #### Parameters
  `section`
-- [out] Returns the section part of the starting address range.
+
+[out] Returns the section part of the starting address range.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

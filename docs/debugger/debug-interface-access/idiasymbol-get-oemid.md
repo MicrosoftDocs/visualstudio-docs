@@ -26,7 +26,8 @@ HRESULT get_oemId ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns a unique value that identifies an OEM.
+
+[out] Returns a unique value that identifies an OEM.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

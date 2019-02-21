@@ -27,10 +27,12 @@ HRESULT Item ( 
 
 #### Parameters
  `index`
-- [in] Index or name of the [IDiaTable](../../debugger/debug-interface-access/idiatable.md) to be retrieved. If an integer variant is used, it must be in the range 0 to `count`-1, where `count` is as returned by the [IDiaEnumTables::get_Count](../../debugger/debug-interface-access/idiaenumtables-get-count.md) method.
+
+[in] Index or name of the [IDiaTable](../../debugger/debug-interface-access/idiatable.md) to be retrieved. If an integer variant is used, it must be in the range 0 to `count`-1, where `count` is as returned by the [IDiaEnumTables::get_Count](../../debugger/debug-interface-access/idiaenumtables-get-count.md) method.
 
  `table`
-- [out] Returns an [IDiaTable](../../debugger/debug-interface-access/idiatable.md) object representing the desired table.
+
+[out] Returns an [IDiaTable](../../debugger/debug-interface-access/idiatable.md) object representing the desired table.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

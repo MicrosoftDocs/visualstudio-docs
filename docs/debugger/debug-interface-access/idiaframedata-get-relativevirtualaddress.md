@@ -26,7 +26,8 @@ HRESULT get_relativeVirtualAddress ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns the relative virtual address of the code for the frame.
+
+[out] Returns the relative virtual address of the code for the frame.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.

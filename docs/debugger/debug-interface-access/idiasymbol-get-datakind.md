@@ -26,7 +26,8 @@ HRESULT get_dataKind ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns a value from the [DataKind Enumeration](../../debugger/debug-interface-access/datakind.md) enumeration specifying the kind of data such as global, static, or constant, for example.
+
+[out] Returns a value from the [DataKind Enumeration](../../debugger/debug-interface-access/datakind.md) enumeration specifying the kind of data such as global, static, or constant, for example.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

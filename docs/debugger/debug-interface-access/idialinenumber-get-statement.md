@@ -26,7 +26,8 @@ HRESULT get_statement ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns `TRUE` if this line information describes the beginning of a statement in the program source.
+
+[out] Returns `TRUE` if this line information describes the beginning of a statement in the program source.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.

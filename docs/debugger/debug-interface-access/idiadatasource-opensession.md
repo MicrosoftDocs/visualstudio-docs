@@ -26,7 +26,8 @@ HRESULT openSession ( 
 
 #### Parameters
 ppSession
-- [out] Returns an [IDiaSession](../../debugger/debug-interface-access/idiasession.md) object representing the open session.
+
+[out] Returns an [IDiaSession](../../debugger/debug-interface-access/idiasession.md) object representing the open session.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code. The following table shows the possible return values for this method.

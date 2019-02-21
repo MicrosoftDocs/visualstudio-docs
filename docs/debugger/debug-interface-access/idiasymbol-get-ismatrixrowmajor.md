@@ -23,7 +23,8 @@ HRESULT get_isMatrixRowMajor(
 
 #### Parameters
  `pRetVal`
-- [out] A pointer to a `BOOL` that specifies whether the matrix is row major.
+
+[out] A pointer to a `BOOL` that specifies whether the matrix is row major.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

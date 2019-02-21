@@ -26,7 +26,8 @@ HRESULT get_hasDebugInfo(
 
 #### Parameters
  `pFlag`
-- [out] Returns `TRUE` if the compiland contains debugging information; otherwise, returns `FALSE`.
+
+[out] Returns `TRUE` if the compiland contains debugging information; otherwise, returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

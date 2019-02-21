@@ -29,13 +29,16 @@ HRESULT pdataForVA( 
 
 #### Parameters
  `va`
-- [in] Specifies the virtual address of the data to obtain.
+
+[in] Specifies the virtual address of the data to obtain.
 
  `cbData`
-- [in] The size of data in bytes to obtain.
+
+[in] The size of data in bytes to obtain.
 
  `pcbData`
-- [out] Returns the actual size of data in bytes that was obtained.
+
+[out] Returns the actual size of data in bytes that was obtained.
 
  `pbData`
 - [in, out] A buffer that is filled in with the requested data. Cannot be `NULL`.

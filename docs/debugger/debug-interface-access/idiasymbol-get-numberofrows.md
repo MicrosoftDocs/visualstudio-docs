@@ -23,7 +23,8 @@ HRESULT get_numberOfRows(
 
 #### Parameters
  `pRetVal`
-- [out] A pointer to a `DWORD` that holds the number of rows in the matrix.
+
+[out] A pointer to a `DWORD` that holds the number of rows in the matrix.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

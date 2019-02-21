@@ -23,7 +23,8 @@ HRESULT get_registerType(
 
 #### Parameters
  `pRetVal`
-- [out] A pointer to a `DWORD` that holds the register type.
+
+[out] A pointer to a `DWORD` that holds the register type.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

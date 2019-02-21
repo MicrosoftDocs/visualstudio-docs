@@ -26,7 +26,8 @@ HRESULT get_token ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns the metadata token of a managed function or variable.
+
+[out] Returns the metadata token of a managed function or variable.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

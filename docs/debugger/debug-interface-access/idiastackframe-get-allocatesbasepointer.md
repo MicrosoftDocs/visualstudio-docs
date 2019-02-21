@@ -26,7 +26,8 @@ HRESULT get_allocatesBasePointer ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns `TRUE` if a base pointer is allocated for code in this frame; otherwise, returns `FALSE`.
+
+[out] Returns `TRUE` if a base pointer is allocated for code in this frame; otherwise, returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if the property is not supported. Otherwise, returns an error code.

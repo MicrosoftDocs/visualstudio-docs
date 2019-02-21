@@ -26,7 +26,8 @@ HRESULT get_lengthLocals ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns the number of bytes of local variables.
+
+[out] Returns the number of bytes of local variables.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.

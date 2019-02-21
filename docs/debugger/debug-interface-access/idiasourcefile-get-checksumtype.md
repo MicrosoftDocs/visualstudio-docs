@@ -26,7 +26,8 @@ HRESULT get_checksumType ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns the checksum type.
+
+[out] Returns the checksum type.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

@@ -30,16 +30,20 @@ HRESULT Next ( 
 
 #### Parameters
  celt
-- [in] The number of records to be retrieved.
+
+[in] The number of records to be retrieved.
 
  cbData
-- [in] Size of the data buffer, in bytes.
+
+[in] Size of the data buffer, in bytes.
 
  pcbData
-- [out] Returns the number of bytes returned. If `data` is NULL, then `pcbData` contains the total number of bytes of data available for all requested records.
+
+[out] Returns the number of bytes returned. If `data` is NULL, then `pcbData` contains the total number of bytes of data available for all requested records.
 
  data[]
-- [out] A buffer that is to be filled with the debug stream record data.
+
+[out] A buffer that is to be filled with the debug stream record data.
 
  pceltFetched
 - [in, out] Returns the number of records in `data`.

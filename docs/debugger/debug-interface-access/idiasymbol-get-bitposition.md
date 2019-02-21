@@ -26,7 +26,8 @@ HRESULT get_bitPosition ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns the bit position of the location.
+
+[out] Returns the bit position of the location.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or error code.

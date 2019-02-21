@@ -26,7 +26,8 @@ HRESULT get_virtualBaseOffset ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns the offset in the virtual function table of a virtual function.
+
+[out] Returns the offset in the virtual function table of a virtual function.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

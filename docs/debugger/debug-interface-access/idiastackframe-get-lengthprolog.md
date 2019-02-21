@@ -26,7 +26,8 @@ HRESULT get_lengthProlog ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns the number of bytes of prologue code.
+
+[out] Returns the number of bytes of prologue code.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if the property is not supported. Otherwise, returns an error code.

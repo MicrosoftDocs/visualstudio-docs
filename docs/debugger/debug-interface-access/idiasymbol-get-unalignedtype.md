@@ -26,7 +26,8 @@ HRESULT get_unalignedType ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns `TRUE` if the user-defined data type is unaligned; otherwise, returns `FALSE`.
+
+[out] Returns `TRUE` if the user-defined data type is unaligned; otherwise, returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

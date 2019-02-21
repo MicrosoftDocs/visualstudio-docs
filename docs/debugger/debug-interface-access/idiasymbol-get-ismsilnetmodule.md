@@ -26,7 +26,8 @@ HRESULT get_isMSILNetmodule(
 
 #### Parameters
  `pFlag`
-- [out] Returns `TRUE` if the module is MSIL; otherwise, returns `FALSE`.
+
+[out] Returns `TRUE` if the module is MSIL; otherwise, returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

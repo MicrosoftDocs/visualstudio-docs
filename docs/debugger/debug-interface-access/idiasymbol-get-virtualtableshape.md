@@ -26,7 +26,8 @@ HRESULT get_virtualTableShape ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns an [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) object representing the virtual table for a user-defined type.
+
+[out] Returns an [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) object representing the virtual table for a user-defined type.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or error code.

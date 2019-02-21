@@ -26,7 +26,8 @@ HRESULT get_indirectVirtualBaseClass ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns `TRUE` if the user-defined data type is an indirect virtual base class; otherwise, returns `FALSE`.
+
+[out] Returns `TRUE` if the user-defined data type is an indirect virtual base class; otherwise, returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or error code.

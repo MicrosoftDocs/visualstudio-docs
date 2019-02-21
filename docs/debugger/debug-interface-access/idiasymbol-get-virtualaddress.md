@@ -26,7 +26,8 @@ HRESULT get_virtualAddress ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns the virtual address of the location.
+
+[out] Returns the virtual address of the location.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

@@ -27,10 +27,12 @@ HRESULT findInjectedSource ( 
 
 #### Parameters
  srcFile
-- [in] Name of the source file for which to search.
+
+[in] Name of the source file for which to search.
 
  ppResult
-- [out] Returns an [IDiaEnumInjectedSources](../../debugger/debug-interface-access/idiaenuminjectedsources.md) object that contains a list of all of the injected sources.
+
+[out] Returns an [IDiaEnumInjectedSources](../../debugger/debug-interface-access/idiaenuminjectedsources.md) object that contains a list of all of the injected sources.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

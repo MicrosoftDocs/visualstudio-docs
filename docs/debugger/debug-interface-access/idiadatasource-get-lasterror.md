@@ -26,7 +26,8 @@ HRESULT get_lastError (
 
 #### Parameters
  pRetVal
-- [out] Returns a string that contains the .pdb file name associated with the last load error.
+
+[out] Returns a string that contains the .pdb file name associated with the last load error.
 
 ## Return Value
  Returns the last error code caused by a load operation. Returns `E_INVALIDARG` if the `pRetVal` parameter is `NULL`.

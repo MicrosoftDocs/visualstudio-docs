@@ -26,7 +26,8 @@ HRESULT get_sourceFileId ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns the unique source file identifier for the source file that contributed this line.
+
+[out] Returns the unique source file identifier for the source file that contributed this line.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.

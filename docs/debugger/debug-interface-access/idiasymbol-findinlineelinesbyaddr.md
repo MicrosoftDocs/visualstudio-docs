@@ -27,16 +27,20 @@ HRESULT findInlineeLinesByAddr ( 
 
 #### Parameters
  `isect`
-- [in] Specifies the section component of the address.
+
+[in] Specifies the section component of the address.
 
  `offset`
-- [in] Specifies the offset component of the address.
+
+[in] Specifies the offset component of the address.
 
  `length`
-- [in] Specifies the address range, in number of bytes, to cover with this query.
+
+[in] Specifies the address range, in number of bytes, to cover with this query.
 
  `ppResult`
-- [out] Holds an `IDiaEnumLineNumbers` object that contains the list of line numbers that are retrieved.
+
+[out] Holds an `IDiaEnumLineNumbers` object that contains the list of line numbers that are retrieved.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

@@ -26,7 +26,8 @@ HRESULT get_thunkOrdinal ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns a value from the [THUNK_ORDINAL Enumeration](../../debugger/debug-interface-access/thunk-ordinal.md) enumeration that specifies the thunk type of a function.
+
+[out] Returns a value from the [THUNK_ORDINAL Enumeration](../../debugger/debug-interface-access/thunk-ordinal.md) enumeration that specifies the thunk type of a function.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

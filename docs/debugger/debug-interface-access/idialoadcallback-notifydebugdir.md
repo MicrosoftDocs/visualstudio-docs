@@ -28,13 +28,16 @@ HRESULT NotifyDebugDir ( 
 
 #### Parameters
  `fExecutable`
-- [in] `TRUE` if the debug directory is read from an executable (rather than a .dbg file).
+
+[in] `TRUE` if the debug directory is read from an executable (rather than a .dbg file).
 
  `cbData`
-- [in] Count of bytes of data in the debug directory.
+
+[in] Count of bytes of data in the debug directory.
 
  `data[]`
-- [in] An array that is filled in with the debug directory.
+
+[in] An array that is filled in with the debug directory.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code. The return code is typically ignored.

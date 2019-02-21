@@ -26,7 +26,8 @@ HRESULT get_notReached(
 
 #### Parameters
  pFlag
-- [out] Returns `TRUE` if the function or label is never reached; otherwise, returns `FALSE`.
+
+[out] Returns `TRUE` if the function or label is never reached; otherwise, returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

@@ -26,7 +26,8 @@ HRESULT get_uniqueId ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns a simple integer key value that is unique for this image.
+
+[out] Returns a simple integer key value that is unique for this image.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

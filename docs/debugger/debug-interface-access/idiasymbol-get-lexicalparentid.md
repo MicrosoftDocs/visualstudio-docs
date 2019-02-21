@@ -26,7 +26,8 @@ HRESULT get_lexicalParentId ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns the lexical parent ID of the symbol.
+
+[out] Returns the lexical parent ID of the symbol.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

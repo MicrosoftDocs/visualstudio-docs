@@ -28,13 +28,16 @@ HRESULT Next ( 
 
 #### Parameters
  celt
-- [in] The number of symbols in the enumerator to be retrieved.
+
+[in] The number of symbols in the enumerator to be retrieved.
 
  rgelt
-- [out] An array that is to be filled in with the [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) object that represent the desired symbols.
+
+[out] An array that is to be filled in with the [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) object that represent the desired symbols.
 
  pceltFetched
-- [out] Returns the number of symbols in the fetched enumerator.
+
+[out] Returns the number of symbols in the fetched enumerator.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if there are no more symbols. Otherwise, returns an error code.

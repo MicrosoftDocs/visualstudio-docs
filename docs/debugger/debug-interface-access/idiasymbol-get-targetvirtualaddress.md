@@ -26,7 +26,8 @@ HRESULT get_targetVirtualAddress ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns the VA of a thunk target.
+
+[out] Returns the VA of a thunk target.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

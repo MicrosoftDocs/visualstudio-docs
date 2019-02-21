@@ -23,7 +23,8 @@ HRESULT get_isPointerToDataMember(
 
 #### Parameters
  `pRetVal`
-- [out] A pointer to a `BOOL` that specifies whether this symbol is a pointer to a data member.
+
+[out] A pointer to a `BOOL` that specifies whether this symbol is a pointer to a data member.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

@@ -26,7 +26,8 @@ HRESULT get_registerId ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns the register designator of the location.
+
+[out] Returns the register designator of the location.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

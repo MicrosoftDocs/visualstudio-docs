@@ -28,13 +28,16 @@ HRESULT Next ( 
 
 #### Parameters
  celt
-- [in] The number of frame data elements in the enumerator to be retrieved.
+
+[in] The number of frame data elements in the enumerator to be retrieved.
 
  rgelt
-- [out] An array of [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md) objects to be filled in with the requested frame data elements.
+
+[out] An array of [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md) objects to be filled in with the requested frame data elements.
 
  pceltFetched
-- [out] Returns the number of frame data elements in the fetched enumerator.
+
+[out] Returns the number of frame data elements in the fetched enumerator.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if there are no more records. Otherwise, returns an error code.

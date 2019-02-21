@@ -26,7 +26,8 @@ HRESULT get_hasEH(
 
 #### Parameters
  `pFlag`
-- [out] Returns `TRUE` if the function has any C++-style exception handling; otherwise, returns `FALSE`.
+
+[out] Returns `TRUE` if the function has any C++-style exception handling; otherwise, returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or error code.

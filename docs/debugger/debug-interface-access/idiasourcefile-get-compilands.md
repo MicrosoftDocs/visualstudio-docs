@@ -26,7 +26,8 @@ HRESULT get_compilands ( 
 
 #### Parameters
  `ppRetVal`
-- [out] Returns an [IDiaEnumSymbols](../../debugger/debug-interface-access/idiaenumsymbols.md) object that contains a list of all compilands that have line numbers referencing this file.
+
+[out] Returns an [IDiaEnumSymbols](../../debugger/debug-interface-access/idiaenumsymbols.md) object that contains a list of all compilands that have line numbers referencing this file.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

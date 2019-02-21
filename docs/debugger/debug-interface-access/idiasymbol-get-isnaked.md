@@ -26,7 +26,8 @@ HRESULT get_isNaked(
 
 #### Parameters
  `pFlag`
-- [out] Returns `TRUE` if the function has the `naked` attribute; otherwise, returns `FALSE`.
+
+[out] Returns `TRUE` if the function has the `naked` attribute; otherwise, returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

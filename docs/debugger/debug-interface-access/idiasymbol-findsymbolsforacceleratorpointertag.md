@@ -24,10 +24,12 @@ HRESULT findSymbolsForAccleratorPointerTag (
 
 #### Parameters
  `tagValue`
-- [in] The pointer tag value for which the pointee symbol records are found.
+
+[in] The pointer tag value for which the pointee symbol records are found.
 
  `ppResult`
-- [out] A pointer to an `IDiaEnumSymbols` interface pointer which is initialized with the result.
+
+[out] A pointer to an `IDiaEnumSymbols` interface pointer which is initialized with the result.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

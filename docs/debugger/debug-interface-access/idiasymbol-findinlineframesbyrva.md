@@ -24,10 +24,12 @@ HRESULT findInlineFramesByRVA (    DWORD             rva,
 
 #### Parameters
  `rva`
-- [in] Specifies the address as an RVA.
+
+[in] Specifies the address as an RVA.
 
  `ppResult`
-- [out] Holds an `IDiaEnumSymbols` object that contains the list of frames that are retrieved.
+
+[out] Holds an `IDiaEnumSymbols` object that contains the list of frames that are retrieved.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

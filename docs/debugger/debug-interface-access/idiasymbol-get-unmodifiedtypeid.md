@@ -23,7 +23,8 @@ HRESULT get_unmodifiedTypeId(
 
 #### Parameters
  `pRetVal`
-- [out] A pointer to a `DWORD` that holds the ID.
+
+[out] A pointer to a `DWORD` that holds the ID.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

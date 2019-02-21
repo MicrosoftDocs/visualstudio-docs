@@ -21,7 +21,8 @@ HRESULT get_isSingleInheritance(
 
 #### Parameters
  `pRetVal`
-- [out] A pointer to a `BOOL` that specifies whether the `this` pointer points to a data member with single inheritance.
+
+[out] A pointer to a `BOOL` that specifies whether the `this` pointer points to a data member with single inheritance.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

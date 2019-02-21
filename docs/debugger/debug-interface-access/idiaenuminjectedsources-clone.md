@@ -26,7 +26,8 @@ HRESULT Clone ( 
 
 #### Parameters
  `ppenum`
-- [out] Returns an [IDiaEnumInjectedSources](../../debugger/debug-interface-access/idiaenuminjectedsources.md) object that contains a duplicate of the enumerator. The injected sources are not duplicated, only the enumerator.
+
+[out] Returns an [IDiaEnumInjectedSources](../../debugger/debug-interface-access/idiaenuminjectedsources.md) object that contains a duplicate of the enumerator. The injected sources are not duplicated, only the enumerator.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

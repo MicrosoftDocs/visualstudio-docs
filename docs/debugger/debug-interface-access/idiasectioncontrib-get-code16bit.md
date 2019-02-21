@@ -26,7 +26,8 @@ HRESULT get_code16bit(
 
 #### Parameters
  `pRetVal`
-- [out] Returns `TRUE` if the code in the section is 16-bit; otherwise, returns `FALSE`.
+
+[out] Returns `TRUE` if the code in the section is 16-bit; otherwise, returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

@@ -26,7 +26,8 @@ HRESULT loadDataFromPdb (
 
 #### Parameters
 pdbPath
-- [in] The path to the .pdb file.
+
+[in] The path to the .pdb file.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code. The following table shows the possible return values for this method.

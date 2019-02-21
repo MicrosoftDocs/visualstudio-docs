@@ -26,7 +26,8 @@ HRESULT put_loadAddress ( 
 
 #### Parameters
  `NewVal`
-- [in] Load address for the executable file.
+
+[in] Load address for the executable file.
 
 ## Remarks
  Symbol virtual address (VA) properties are computed using the value of this method. Virtual addresses are not calculated unless this property is set to non-zero.

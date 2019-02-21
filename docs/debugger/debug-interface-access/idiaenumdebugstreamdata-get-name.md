@@ -26,7 +26,8 @@ HRESULT get_Name ( 
 
 #### Parameters
  pRetVal
-- [out] Returns the name of a debug data stream.
+
+[out] Returns the name of a debug data stream.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

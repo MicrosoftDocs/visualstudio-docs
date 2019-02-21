@@ -26,7 +26,8 @@ HRESULT get_addressMapEnabled ( 
 
 #### Parameters
  pRetVal
-- [out] Returns `TRUE` if the address mapping is enabled.
+
+[out] Returns `TRUE` if the address mapping is enabled.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

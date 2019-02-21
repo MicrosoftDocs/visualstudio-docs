@@ -26,7 +26,8 @@ HRESULT put_imageAlign ( 
 
 #### Parameters
  NewVal
-- [in] The new image alignment value for the executable.
+
+[in] The new image alignment value for the executable.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

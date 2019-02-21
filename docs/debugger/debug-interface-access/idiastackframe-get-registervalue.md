@@ -27,10 +27,12 @@ HRESULT get_registerValue(
 
 #### Parameters
  `registerIndex`
-- [in] One of the [CV_HREG_e Enumeration](../../debugger/debug-interface-access/cv-hreg-e.md) enumeration values.
+
+[in] One of the [CV_HREG_e Enumeration](../../debugger/debug-interface-access/cv-hreg-e.md) enumeration values.
 
  `pRetVal`
-- [out] Value stored in the register.
+
+[out] Value stored in the register.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns error code.

@@ -26,7 +26,8 @@ HRESULT get_relativeVirtualAddress ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns the relative virtual memory offset of the module.
+
+[out] Returns the relative virtual memory offset of the module.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

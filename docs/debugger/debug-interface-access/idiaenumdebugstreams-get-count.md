@@ -26,7 +26,8 @@ HRESULT get_Count( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns the number of debug streams available in this enumerator.
+
+[out] Returns the number of debug streams available in this enumerator.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

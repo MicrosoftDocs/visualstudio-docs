@@ -26,7 +26,8 @@ HRESULT get_thisAdjust ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns the logical `this` adjustor for the method.
+
+[out] Returns the logical `this` adjustor for the method.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

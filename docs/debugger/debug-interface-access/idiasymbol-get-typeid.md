@@ -26,7 +26,8 @@ HRESULT get_typeId ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns the type ID of the symbol.
+
+[out] Returns the type ID of the symbol.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

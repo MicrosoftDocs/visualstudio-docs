@@ -26,7 +26,8 @@ HRESULT get_imageBase ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns the suggested image base value.
+
+[out] Returns the suggested image base value.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

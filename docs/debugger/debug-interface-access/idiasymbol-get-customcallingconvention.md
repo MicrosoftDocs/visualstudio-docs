@@ -26,7 +26,8 @@ HRESULT get_customCallingConvention(
 
 #### Parameters
  `pFlag`
-- [out] Returns `TRUE` if the function has a custom calling convention; otherwise, returns `FALSE`, the function has a known calling convention.
+
+[out] Returns `TRUE` if the function has a custom calling convention; otherwise, returns `FALSE`, the function has a known calling convention.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

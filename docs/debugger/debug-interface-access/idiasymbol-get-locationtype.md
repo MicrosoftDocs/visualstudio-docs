@@ -26,7 +26,8 @@ HRESULT get_locationType ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns a value from the [LocationType Enumeration](../../debugger/debug-interface-access/locationtype.md) enumeration that specifies the location type of a data symbol, such as `static` or `local`.
+
+[out] Returns a value from the [LocationType Enumeration](../../debugger/debug-interface-access/locationtype.md) enumeration that specifies the location type of a data symbol, such as `static` or `local`.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

@@ -26,7 +26,8 @@ HRESULT get_allocatesBasePointer ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns `TRUE` if a base pointer is allocated; otherwise, returns `FALSE`.
+
+[out] Returns `TRUE` if a base pointer is allocated; otherwise, returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.

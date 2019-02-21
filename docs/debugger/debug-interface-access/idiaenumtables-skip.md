@@ -26,7 +26,8 @@ HRESULT Skip ( 
 
 #### Parameters
  `celt`
-- [in] The number of tables in the enumeration sequence to skip.
+
+[in] The number of tables in the enumeration sequence to skip.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` if there are no more tables to skip.

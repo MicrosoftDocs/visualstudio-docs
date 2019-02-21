@@ -29,13 +29,16 @@ HRESULT ReadExecutableAt ( 
 
 #### Parameters
  fileOffset
-- [in] The offset in the executable file to begin reading.
+
+[in] The offset in the executable file to begin reading.
 
  cbData
-- [in] Number of bytes to read.
+
+[in] Number of bytes to read.
 
  pcbData
-- [out] Returns the number of bytes read.
+
+[out] Returns the number of bytes read.
 
  data[]
 - [in, out] An array that is filled in with bytes read from file.

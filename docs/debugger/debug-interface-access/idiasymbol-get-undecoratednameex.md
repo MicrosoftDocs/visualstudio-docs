@@ -27,10 +27,12 @@ HRESULT get_undecoratedNameEx( 
 
 #### Parameters
  `undecoratedOptions`
-- [in] Specifies a combination of flags that control what is returned. See the Remarks section for the specific values and what they do.
+
+[in] Specifies a combination of flags that control what is returned. See the Remarks section for the specific values and what they do.
 
  `pRetVal`
-- [out] Returns the undecorated name for a C++ decorated name.
+
+[out] Returns the undecorated name for a C++ decorated name.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

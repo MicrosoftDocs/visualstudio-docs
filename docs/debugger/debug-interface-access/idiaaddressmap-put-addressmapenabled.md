@@ -26,7 +26,8 @@ HRESULT put_addressMapEnabled ( 
 
 #### Parameters
  NewVal
-- [in] Set to `TRUE` to enable the translation of symbols, or `FALSE` to disable.
+
+[in] Set to `TRUE` to enable the translation of symbols, or `FALSE` to disable.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

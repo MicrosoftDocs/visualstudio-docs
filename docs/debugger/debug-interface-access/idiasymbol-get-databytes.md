@@ -28,10 +28,12 @@ HRESULT get_dataBytes ( 
 
 #### Parameters
  `cbData`
-- [in] Size of the buffer to hold the data.
+
+[in] Size of the buffer to hold the data.
 
  `pcbData`
-- [out] Returns the number of bytes written, or, if the `data` parameter is `NULL`, returns the number of bytes available.
+
+[out] Returns the number of bytes written, or, if the `data` parameter is `NULL`, returns the number of bytes available.
 
  `data[]`
 - [out,] A buffer that is filled in with the data bytes.

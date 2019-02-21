@@ -26,7 +26,8 @@ HRESULT get_addressSection ( 
 
 #### Parameters
  pRetVal
-- [out] Returns the section part of the memory address where a block begins.
+
+[out] Returns the section part of the memory address where a block begins.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.

@@ -23,7 +23,8 @@ HRESULT get_numberOfAcceleratorPointerTags(
 
 #### Parameters
  `count`
-- [out] A pointer to a `DWORD` that holds the number of accelerator pointer tags in a C++ AMP stub function.
+
+[out] A pointer to a `DWORD` that holds the number of accelerator pointer tags in a C++ AMP stub function.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

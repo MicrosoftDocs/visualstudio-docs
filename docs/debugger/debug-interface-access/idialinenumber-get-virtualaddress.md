@@ -26,7 +26,8 @@ HRESULT get_virtualAddress ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns the virtual address of the block.
+
+[out] Returns the virtual address of the block.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.

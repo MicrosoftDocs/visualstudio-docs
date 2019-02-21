@@ -28,13 +28,16 @@ HRESULT Next ( 
 
 #### Parameters
  celt
-- [in] The number of line numbers in the enumerator to be retrieved.
+
+[in] The number of line numbers in the enumerator to be retrieved.
 
  rgelt
-- [out] Returns an array of [IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md) objects that represent the desired line numbers.
+
+[out] Returns an array of [IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md) objects that represent the desired line numbers.
 
  pceltFetched
-- [out] Returns the number of line numbers in the fetched enumerator.
+
+[out] Returns the number of line numbers in the fetched enumerator.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if there are no more line numbers. Otherwise, returns an error code.

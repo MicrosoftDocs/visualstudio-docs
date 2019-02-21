@@ -23,7 +23,8 @@ HRESULT get_buildInKind(
 
 #### Parameters
  `pRetVal`
-- [out] A pointer to a `DWORD` that holds a built-in kind of the HLSL type.
+
+[out] A pointer to a `DWORD` that holds a built-in kind of the HLSL type.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

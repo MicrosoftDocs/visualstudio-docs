@@ -26,7 +26,8 @@ HRESULT get_targetSection ( 
 
 #### Parameters
  `pRetVal`
-- [out] Section part of a thunk target address.
+
+[out] Section part of a thunk target address.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

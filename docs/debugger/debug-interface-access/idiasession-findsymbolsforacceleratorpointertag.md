@@ -26,13 +26,16 @@ HRESULT findSymbolsForAcceleratorPointerTag ( 
 
 #### Parameters
  `parent`
-- [in] An IDiaSymbol that corresponds to the Accelerator stub function to be searched.
+
+[in] An IDiaSymbol that corresponds to the Accelerator stub function to be searched.
 
  `tagValue`
-- [in] The pointer tag value.
+
+[in] The pointer tag value.
 
  `ppResult`
-- [out] A pointer to an `IDiaEnumSymbols` interface pointer that is initialized with the result.
+
+[out] A pointer to an `IDiaEnumSymbols` interface pointer that is initialized with the result.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

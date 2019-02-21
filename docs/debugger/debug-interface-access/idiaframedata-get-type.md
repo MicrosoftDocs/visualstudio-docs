@@ -26,7 +26,8 @@ HRESULT get_type ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns a value from the [StackFrameTypeEnum Enumeration](../../debugger/debug-interface-access/stackframetypeenum.md) enumeration that indicates the compiler-specific frame type.
+
+[out] Returns a value from the [StackFrameTypeEnum Enumeration](../../debugger/debug-interface-access/stackframetypeenum.md) enumeration that indicates the compiler-specific frame type.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.

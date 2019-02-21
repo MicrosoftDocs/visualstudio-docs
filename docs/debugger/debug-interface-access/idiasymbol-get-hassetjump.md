@@ -26,7 +26,8 @@ HRESULT get_hasSetJump(
 
 #### Parameters
  `pFlag`
-- [out] Returns `TRUE` if the function contains a `setjmp` command; otherwise, returns `FALSE`.
+
+[out] Returns `TRUE` if the function contains a `setjmp` command; otherwise, returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or error code.

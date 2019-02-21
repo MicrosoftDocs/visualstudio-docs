@@ -23,7 +23,8 @@ HRESULT get_isMultipleInheritance(
 
 #### Parameters
  `pRetVal`
-- [out] A pointer to a `BOOL` that specifies whether the `this` pointer points to a data member with multiple inheritance.
+
+[out] A pointer to a `BOOL` that specifies whether the `this` pointer points to a data member with multiple inheritance.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

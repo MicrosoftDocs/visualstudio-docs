@@ -26,7 +26,8 @@ HRESULT get_crc ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns the CRC calculated from the bytes of the source code.
+
+[out] Returns the CRC calculated from the bytes of the source code.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.

@@ -26,7 +26,8 @@ HRESULT get_sourceFileName ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns the file name of the compiland source file.
+
+[out] Returns the file name of the compiland source file.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

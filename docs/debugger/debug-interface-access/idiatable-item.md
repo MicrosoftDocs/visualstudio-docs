@@ -27,10 +27,12 @@ HRESULT Item ( 
 
 #### Parameters
  `index`
-- [in] The index of the table entry in the range 0 to `count`-1, where `count` is returned by the [IDiaTable::get_Count](../../debugger/debug-interface-access/idiatable-get-count.md)method.
+
+[in] The index of the table entry in the range 0 to `count`-1, where `count` is returned by the [IDiaTable::get_Count](../../debugger/debug-interface-access/idiatable-get-count.md)method.
 
  `element`
-- [out] Returns an `IUnknown` object that represents the specified table entry.
+
+[out] Returns an `IUnknown` object that represents the specified table entry.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

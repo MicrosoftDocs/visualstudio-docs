@@ -28,13 +28,16 @@ HRESULT Next ( 
 
 #### Parameters
  celt
-- [in] The number of source files in the enumerator to be retrieved.
+
+[in] The number of source files in the enumerator to be retrieved.
 
  rgelt
-- [out]An array that is to be filled in with the [IDiaSourceFile](../../debugger/debug-interface-access/idiasourcefile.md) objects that represent the desired source files.
+
+[out]An array that is to be filled in with the [IDiaSourceFile](../../debugger/debug-interface-access/idiasourcefile.md) objects that represent the desired source files.
 
  pceltFetched
-- [out] Returns the number of source files in the fetched enumerator.
+
+[out] Returns the number of source files in the fetched enumerator.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if there are no more source files. Otherwise, returns an error code.

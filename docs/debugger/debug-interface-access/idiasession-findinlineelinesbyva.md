@@ -25,16 +25,20 @@ HRESULT findInlineeLinesByVA ( 
 
 #### Parameters
  `parent`
-- [in] An `IDiaSymbol` object representing the parent.
+
+[in] An `IDiaSymbol` object representing the parent.
 
  `va`
-- [in] Specifies the address as a VA.
+
+[in] Specifies the address as a VA.
 
  `length`
-- [in] Specifies the address range, in number of bytes, to cover with this query.
+
+[in] Specifies the address range, in number of bytes, to cover with this query.
 
  `ppResult`
-- [out] Holds an `IDiaEnumLineNumbers` object that contains the list of line numbers that are retrieved.
+
+[out] Holds an `IDiaEnumLineNumbers` object that contains the list of line numbers that are retrieved.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

@@ -26,7 +26,8 @@ HRESULT get_farReturn(
 
 #### Parameters
  `pFlag`
-- [in] Returns `TRUE` if the function uses a far return, otherwise, returns `FALSE`.
+
+[in] Returns `TRUE` if the function uses a far return, otherwise, returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

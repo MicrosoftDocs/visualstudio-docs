@@ -28,10 +28,12 @@ HRESULT get_checksum ( 
 
 #### Parameters
  `cbData`
-- [in] Size of the data buffer, in bytes.
+
+[in] Size of the data buffer, in bytes.
 
  `pcbData`
-- [out] Returns the number of checksum bytes. This parameter cannot be `NULL`.
+
+[out] Returns the number of checksum bytes. This parameter cannot be `NULL`.
 
  `data`
 - [in, out] A buffer that is filled with the checksum bytes. If this parameter is `NULL`, then `pcbData` returns the number of bytes required.

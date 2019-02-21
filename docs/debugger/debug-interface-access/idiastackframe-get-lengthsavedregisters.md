@@ -26,7 +26,8 @@ HRESULT get_lengthSavedRegisters ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns the number of bytes of saved registers.
+
+[out] Returns the number of bytes of saved registers.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if the property is not supported. Otherwise, returns an error code.

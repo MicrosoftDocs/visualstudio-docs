@@ -23,7 +23,8 @@ HRESULT get_baseSymbol(
 
 #### Parameters
  `pRetVal`
-- [out] A pointer to the symbol from which the pointer is based.
+
+[out] A pointer to the symbol from which the pointer is based.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

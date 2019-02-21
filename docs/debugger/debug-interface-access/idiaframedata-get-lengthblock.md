@@ -26,7 +26,8 @@ HRESULT get_lengthBlock ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns the number of bytes of code in the frame.
+
+[out] Returns the number of bytes of code in the frame.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.

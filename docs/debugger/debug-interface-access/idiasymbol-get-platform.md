@@ -26,7 +26,8 @@ HRESULT get_platform ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns a value from the [CV_CPU_TYPE_e Enumeration](../../debugger/debug-interface-access/cv-cpu-type-e.md) enumeration that specifies the platform type for which the compiland was compiled.
+
+[out] Returns a value from the [CV_CPU_TYPE_e Enumeration](../../debugger/debug-interface-access/cv-cpu-type-e.md) enumeration that specifies the platform type for which the compiland was compiled.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

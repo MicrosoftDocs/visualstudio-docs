@@ -28,13 +28,16 @@ HRESULT symbolByAddr ( 
 
 #### Parameters
  isect
-- [in] Image section number.
+
+[in] Image section number.
 
  offsect
-- [in] Offset in section.
+
+[in] Offset in section.
 
  ppsymbol
-- [out] Returns an [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) object representing the symbol found.
+
+[out] Returns an [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) object representing the symbol found.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if the symbol could not be found. Otherwise, returns an error code.

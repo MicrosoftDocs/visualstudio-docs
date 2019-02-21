@@ -26,7 +26,8 @@ HRESULT get_isCVTCIL(
 
 #### Parameters
  `pFlag`
-- [out] Returns `TRUE` if the module was converted from CIL to native code; otherwise, returns `FALSE`.
+
+[out] Returns `TRUE` if the module was converted from CIL to native code; otherwise, returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

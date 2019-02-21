@@ -27,10 +27,12 @@ HRESULT Item ( 
 
 #### Parameters
  index
-- [in] Index of the [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) object to be retrieved. The index is in the range 0 to `count`-1, where `count` is returned by the [IDiaEnumSymbols::get_Count](../../debugger/debug-interface-access/idiaenumsymbols-get-count.md) method.
+
+[in] Index of the [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) object to be retrieved. The index is in the range 0 to `count`-1, where `count` is returned by the [IDiaEnumSymbols::get_Count](../../debugger/debug-interface-access/idiaenumsymbols-get-count.md) method.
 
  symbol
-- [out] Returns an [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) object representing the desired symbol.
+
+[out] Returns an [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) object representing the desired symbol.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

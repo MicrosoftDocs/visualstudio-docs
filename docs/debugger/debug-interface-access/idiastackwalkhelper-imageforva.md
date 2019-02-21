@@ -27,10 +27,12 @@ HRESULT imageForVA(
 
 #### Parameters
  `vaContext`
-- [in] The virtual address that lies somewhere in the executable's space.
+
+[in] The virtual address that lies somewhere in the executable's space.
 
  `pvaImageStart`
-- [out] Returns the starting virtual address of the executable's image.
+
+[out] Returns the starting virtual address of the executable's image.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

@@ -26,7 +26,8 @@ HRESULT get_functionStart ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns `TRUE` if the stack frame contains the entry point of a function; otherwise, returns `FALSE`.
+
+[out] Returns `TRUE` if the stack frame contains the entry point of a function; otherwise, returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if the property is not supported. Otherwise, returns an error code.

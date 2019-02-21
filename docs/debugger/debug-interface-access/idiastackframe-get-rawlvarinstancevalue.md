@@ -29,16 +29,20 @@ HRESULT get_rawLVarInstanceValue(
 
 #### Parameters
  `pInstance`
-- [in] An `IDiaLVarInstance` object representing an instance of local variable to get the value for.
+
+[in] An `IDiaLVarInstance` object representing an instance of local variable to get the value for.
 
  `cbDataMax`
-- [in] Maximum number of bytes in the buffer pointed to by `pbData`. This can be a maximum of 8 bytes (`sizeof(ULONGLONG)`).
+
+[in] Maximum number of bytes in the buffer pointed to by `pbData`. This can be a maximum of 8 bytes (`sizeof(ULONGLONG)`).
 
  `pcbData`
-- [out] Returns the actual number of bytes stored in the buffer.
+
+[out] Returns the actual number of bytes stored in the buffer.
 
  `pbData`
-- [out] A buffer to be filled in with data. This cannot be `NULL`.
+
+[out] A buffer to be filled in with data. This cannot be `NULL`.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

@@ -26,7 +26,8 @@ HRESULT get_reference ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns `TRUE` if a pointer type is a reference; otherwise, returns `FALSE`.
+
+[out] Returns `TRUE` if a pointer type is a reference; otherwise, returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

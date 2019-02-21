@@ -23,7 +23,8 @@ HRESULT get_uavSlot(
 
 #### Parameters
  `pRetVal`
-- [out] A pointer to a `DWORD` that holds the uav slot.
+
+[out] A pointer to a `DWORD` that holds the uav slot.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

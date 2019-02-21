@@ -26,7 +26,8 @@ HRESULT get_libraryName ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns the file name of the library or object file from which the object was loaded.
+
+[out] Returns the file name of the library or object file from which the object was loaded.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

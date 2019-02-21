@@ -26,13 +26,16 @@ HRESULT findInlineFramesByAddr ( 
 
 #### Parameters
  `isect`
-- [in] Specifies the section component of the address.
+
+[in] Specifies the section component of the address.
 
  `offset`
-- [in] Specifies the offset component of the address.
+
+[in] Specifies the offset component of the address.
 
  `ppResult`
-- [out] Holds an `IDiaEnumSymbols` object that contains the list of frames that are retrieved.
+
+[out] Holds an `IDiaEnumSymbols` object that contains the list of frames that are retrieved.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

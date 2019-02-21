@@ -28,13 +28,16 @@ HRESULT set_addressMap ( 
 
 #### Parameters
  `cbData`
-- [in] The number of elements in the `data` parameter.
+
+[in] The number of elements in the `data` parameter.
 
  `data[]`
-- [in] An array of [DiaAddressMapEntry Structure](../../debugger/debug-interface-access/diaaddressmapentry.md) structures that define the translation map.
+
+[in] An array of [DiaAddressMapEntry Structure](../../debugger/debug-interface-access/diaaddressmapentry.md) structures that define the translation map.
 
  `imagetoSymbols`
-- [in] `TRUE` if the `data` parameter defines a map from the new image layout to the original layout (as described by the debug symbols). `FALSE` if `data` is a map to the new image layout taken from the original layout.
+
+[in] `TRUE` if the `data` parameter defines a map from the new image layout to the original layout (as described by the debug symbols). `FALSE` if `data` is a map to the new image layout taken from the original layout.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

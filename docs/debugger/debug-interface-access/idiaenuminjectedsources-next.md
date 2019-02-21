@@ -28,13 +28,16 @@ HRESULT Next ( 
 
 #### Parameters
  celt
-- [in] The number of injected sources in the enumerator to be retrieved.
+
+[in] The number of injected sources in the enumerator to be retrieved.
 
  rgelt
-- [out] Returns an array of [IDiaInjectedSource](../../debugger/debug-interface-access/idiainjectedsource.md) objects that represents the desired injected sources.
+
+[out] Returns an array of [IDiaInjectedSource](../../debugger/debug-interface-access/idiainjectedsource.md) objects that represents the desired injected sources.
 
  pceltFetched
-- [out] Returns the number of injected sources in the fetched enumerator.
+
+[out] Returns the number of injected sources in the fetched enumerator.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if there are no more injected sources. Otherwise, returns an error code.

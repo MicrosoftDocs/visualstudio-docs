@@ -26,7 +26,8 @@ HRESULT get_imageAlign ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns  the image alignment value from the executable.
+
+[out] Returns  the image alignment value from the executable.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

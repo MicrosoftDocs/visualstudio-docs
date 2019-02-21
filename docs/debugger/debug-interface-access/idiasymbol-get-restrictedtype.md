@@ -23,7 +23,8 @@ HRESULT get_restrictedType(
 
 #### Parameters
  `pRetVal`
-- [out] A pointer to a `BOOL` that specifies whether the `this` pointer is flagged as restricted.
+
+[out] A pointer to a `BOOL` that specifies whether the `this` pointer is flagged as restricted.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

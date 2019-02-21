@@ -26,7 +26,8 @@ HRESULT get_virtualBaseDispIndex (
 
 #### Parameters
  `pRetVal`
-- [out] Returns the index into the virtual base displacement table.
+
+[out] Returns the index into the virtual base displacement table.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or error code.

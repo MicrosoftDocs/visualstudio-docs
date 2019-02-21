@@ -26,7 +26,8 @@ HRESULT get_localsBase ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns the base address of the local variables.
+
+[out] Returns the base address of the local variables.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if the property is not supported. Otherwise, returns an error code.

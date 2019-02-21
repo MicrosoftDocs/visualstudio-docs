@@ -26,7 +26,8 @@ HRESULT get_systemExceptionHandling ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns `TRUE` if system exception handling is in effect for this frame; otherwise, returns `FALSE`.
+
+[out] Returns `TRUE` if system exception handling is in effect for this frame; otherwise, returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if the property is not supported. Otherwise, returns an error code.

@@ -26,7 +26,8 @@ HRESULT get_guid ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns the symbol's GUID.
+
+[out] Returns the symbol's GUID.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or error code.

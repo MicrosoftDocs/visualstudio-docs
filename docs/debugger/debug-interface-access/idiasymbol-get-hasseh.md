@@ -26,7 +26,8 @@ HRESULT get_hasSEH(
 
 #### Parameters
  `pFlag`
-- [out] Returns `TRUE` if the function has any structured exception handling blocks; otherwise, returns `FALSE`.
+
+[out] Returns `TRUE` if the function has any structured exception handling blocks; otherwise, returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or error code.

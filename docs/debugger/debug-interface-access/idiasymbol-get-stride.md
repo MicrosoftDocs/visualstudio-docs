@@ -23,7 +23,8 @@ HRESULT get_stride(
 
 #### Parameters
  `pRetVal`
-- [out] A pointer to a `DWORD` that holds the stride.
+
+[out] A pointer to a `DWORD` that holds the stride.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

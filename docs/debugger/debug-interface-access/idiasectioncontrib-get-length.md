@@ -26,7 +26,8 @@ HRESULT get_length ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns the number of bytes in a section.
+
+[out] Returns the number of bytes in a section.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.

@@ -26,7 +26,8 @@ HRESULT get_compiland ( 
 
 #### Parameters
  pRetVal
-- [out] Returns an [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) object for the compiland that contributed the bytes of image text.
+
+[out] Returns an [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) object for the compiland that contributed the bytes of image text.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.

@@ -26,7 +26,8 @@ HRESULT get_rank ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns the number of dimensions in a FORTRAN multi-dimensional array.
+
+[out] Returns the number of dimensions in a FORTRAN multi-dimensional array.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

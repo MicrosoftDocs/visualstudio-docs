@@ -26,7 +26,8 @@ HRESULT get_virtual ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns `TRUE` if the function is virtual; otherwise, returns `FALSE`.
+
+[out] Returns `TRUE` if the function is virtual; otherwise, returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

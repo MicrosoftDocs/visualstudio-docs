@@ -26,7 +26,8 @@ HRESULT get_length ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns the number of bytes or bits of memory used by the object represented by this symbol.
+
+[out] Returns the number of bytes or bits of memory used by the object represented by this symbol.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

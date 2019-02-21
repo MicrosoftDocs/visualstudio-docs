@@ -26,7 +26,8 @@ HRESULT get_signature ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns the symbol's signature value.
+
+[out] Returns the symbol's signature value.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

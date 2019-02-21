@@ -23,7 +23,8 @@ HRESULT get_isAcceleratorPointerTagLiveRange(
 
 #### Parameters
  `pFlag`
-- [out] A pointer to a `BOOL` that indicates whether the symbol corresponds to the definition range symbol.
+
+[out] A pointer to a `BOOL` that indicates whether the symbol corresponds to the definition range symbol.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

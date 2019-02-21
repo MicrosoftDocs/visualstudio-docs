@@ -25,10 +25,12 @@ HRESULT findInlineeLines ( 
 
 #### Parameters
  `parent`
-- [in] An `IDiaSymbol` object representing the parent.
+
+[in] An `IDiaSymbol` object representing the parent.
 
  `ppResult`
-- [out] Holds an `IDiaEnumLineNumbers` object that contains the list of line numbers that are retrieved.
+
+[out] Holds an `IDiaEnumLineNumbers` object that contains the list of line numbers that are retrieved.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

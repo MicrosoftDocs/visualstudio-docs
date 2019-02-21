@@ -26,7 +26,8 @@ HRESULT get_backEndMajor ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns the back-end major version number. See Remarks.
+
+[out] Returns the back-end major version number. See Remarks.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or error code.

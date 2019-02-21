@@ -26,7 +26,8 @@ HRESULT execute ( 
 
 #### Parameters
  `frame`
-- [in] An [IDiaStackWalkFrame](../../debugger/debug-interface-access/idiastackwalkframe.md) object that holds the state of frame registers.
+
+[in] An [IDiaStackWalkFrame](../../debugger/debug-interface-access/idiastackwalkframe.md) object that holds the state of frame registers.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code. The following table shows the possible return values for this method.

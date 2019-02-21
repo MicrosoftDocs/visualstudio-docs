@@ -27,10 +27,12 @@ HRESULT findFileById ( 
 
 #### Parameters
  `uniqueId`
-- [in] Specifies the source file identifier.
+
+[in] Specifies the source file identifier.
 
  `ppResult`
-- [out] Returns an [IDiaSourceFile](../../debugger/debug-interface-access/idiasourcefile.md) object that represents the source file retrieved.
+
+[out] Returns an [IDiaSourceFile](../../debugger/debug-interface-access/idiasourcefile.md) object that represents the source file retrieved.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

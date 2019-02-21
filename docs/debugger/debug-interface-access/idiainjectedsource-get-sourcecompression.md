@@ -26,7 +26,8 @@ HRESULT get_sourceCompression ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns the indicator of the source compression used. A value of zero indicates that no source compression was used.
+
+[out] Returns the indicator of the source compression used. A value of zero indicates that no source compression was used.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.

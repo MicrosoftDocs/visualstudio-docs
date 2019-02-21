@@ -26,7 +26,8 @@ HRESULT get_objectPointerType ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns an [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) object that represents the object pointer for a class method.
+
+[out] Returns an [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) object that represents the object pointer for a class method.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

@@ -26,7 +26,8 @@ HRESULT get_oemSymbolId ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns an OEM's internally assigned symbol ID.
+
+[out] Returns an OEM's internally assigned symbol ID.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

@@ -26,7 +26,8 @@ HRESULT get_managed ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns `TRUE` if the symbol refers to managed code; otherwise, returns `FALSE`.
+
+[out] Returns `TRUE` if the symbol refers to managed code; otherwise, returns `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.

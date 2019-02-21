@@ -28,13 +28,16 @@ HRESULT Next ( 
 
 #### Parameters
  `celt`
-- [in] The number of tables in the enumerator to be retrieved.
+
+[in] The number of tables in the enumerator to be retrieved.
 
  `rgelt`
-- [out] An array that is to be filled in with the [IDiaTable](../../debugger/debug-interface-access/idiatable.md) objects that represent the desired tables.
+
+[out] An array that is to be filled in with the [IDiaTable](../../debugger/debug-interface-access/idiatable.md) objects that represent the desired tables.
 
  `pceltFetched`
-- [out] Returns the number of tables in the fetched enumerator.
+
+[out] Returns the number of tables in the fetched enumerator.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if there are no more tables. Otherwise, returns an error code.

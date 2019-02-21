@@ -26,7 +26,8 @@ HRESULT get_returnAddress ( 
 
 #### Parameters
  `pRetVal`
-- [out] Returns the return address of the frame.
+
+[out] Returns the return address of the frame.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if the property is not supported. Otherwise, returns an error code.
