@@ -44,4 +44,4 @@ A variety of third-party setup tools provide a development environment for Windo
    For commercial products that integrate into [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] by using the [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)], see [http://visualstudiogallery.com](http://visualstudiogallery.com/).
 
 ## See also
- [Install VSPackages With Windows Installer](../../extensibility/internals/installing-vspackages-with-windows-installer.md)
+- [Install VSPackages With Windows Installer](../../extensibility/internals/installing-vspackages-with-windows-installer.md)

@@ -16,18 +16,23 @@ ms.workload:
 A command is routed in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] based on the context in which it is executed. It is routed from the initial context outward to the global context.
 
 ## In this section
- [Command routing algorithm](../../extensibility/internals/command-routing-algorithm.md)
+- [Command routing algorithm](../../extensibility/internals/command-routing-algorithm.md)
+
  Describes the order of command routing resolution.
 
- [Command availability](../../extensibility/internals/command-availability.md)
+- [Command availability](../../extensibility/internals/command-availability.md)
+
  Discusses command routing.
 
- [Commands and menus that use interop assemblies](../../extensibility/internals/commands-and-menus-that-use-interop-assemblies.md)
+- [Commands and menus that use interop assemblies](../../extensibility/internals/commands-and-menus-that-use-interop-assemblies.md)
+
  Discusses considerations in routing commands between managed code and COM.
 
 ## Related sections
- [Selection context objects](../../extensibility/internals/selection-context-objects.md)
+- [Selection context objects](../../extensibility/internals/selection-context-objects.md)
+
  Discusses the model for how you can determine the user's selection context focus on a window.
 
- [Commands, menus, and toolbars](../../extensibility/internals/commands-menus-and-toolbars.md)
+- [Commands, menus, and toolbars](../../extensibility/internals/commands-menus-and-toolbars.md)
+
  Explains how to create a UI that includes menus, toolbars, and command combo boxes.

@@ -23,4 +23,4 @@ A custom tool — sometimes referred to as a single file generator — can be us
  A custom tool must implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSingleFileGenerator> interface. Optionally, custom tools support the <xref:Microsoft.VisualStudio.OLE.Interop.IObjectWithSite> interface to retrieve information from sources other than the input file. In any case, before you can use a custom tool, you must register it with the system or in the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] local registry. For more information on registering custom tools, see [Registering Single File Generators](../../extensibility/internals/registering-single-file-generators.md).
 
 ## See Also
- [Exposing Types to Visual Designers](../../extensibility/internals/exposing-types-to-visual-designers.md)
+- [Exposing Types to Visual Designers](../../extensibility/internals/exposing-types-to-visual-designers.md)

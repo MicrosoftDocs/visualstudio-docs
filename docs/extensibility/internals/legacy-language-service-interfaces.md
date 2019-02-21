@@ -45,5 +45,5 @@ For any particular programming language, there can be only one instance of a lan
 |<xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget>|Intercepts commands that the user types into the code window. Monitor output from your <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> implementation to provide custom completion information and view modification<br /><br /> To pass your <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> object to the text view, call <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.AddCommandFilter%2A>.|
 
 ## See Also
- [Developing a Legacy Language Service](../../extensibility/internals/developing-a-legacy-language-service.md)
- [Checklist: Creating a Legacy Language Service](../../extensibility/internals/checklist-creating-a-legacy-language-service.md)
+- [Developing a Legacy Language Service](../../extensibility/internals/developing-a-legacy-language-service.md)
+- [Checklist: Creating a Legacy Language Service](../../extensibility/internals/checklist-creating-a-legacy-language-service.md)

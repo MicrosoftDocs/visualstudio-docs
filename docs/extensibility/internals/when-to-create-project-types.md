@@ -52,6 +52,6 @@ Creating a new project type provides a basis for customizing [!INCLUDE[vsprvs](.
  You can use project subtypes to extend a managed project type without having to create a new project type. Project subtypes use COM aggregation to extend managed projects written in Microsoft [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] or [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)]. With COM aggregation, you can reuse much of the managed project system implementation and  still customize for a particular scenario through aggregation and the use of supporting interfaces. For more information about project subtypes, see [Project Subtypes](../../extensibility/internals/project-subtypes.md).
 
 ## See Also
- [Document Windows and Editors](https://msdn.microsoft.com/library/603625e1-62b6-413a-bc44-089346e166bc)
- [Checklist: Creating New Project Types](../../extensibility/internals/checklist-creating-new-project-types.md)
- [Hierarchies in Visual Studio](../../extensibility/internals/hierarchies-in-visual-studio.md)
+- [Document Windows and Editors](https://msdn.microsoft.com/library/603625e1-62b6-413a-bc44-089346e166bc)
+- [Checklist: Creating New Project Types](../../extensibility/internals/checklist-creating-new-project-types.md)
+- [Hierarchies in Visual Studio](../../extensibility/internals/hierarchies-in-visual-studio.md)

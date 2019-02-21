@@ -36,7 +36,7 @@ Param="PROJECT_TYPE = CSPROJ"
  For more information, see [Wizard (.vsz) file](../../extensibility/internals/wizard-dot-vsz-file.md).
 
 ## See also
- <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3>
- [Context parameters](../../extensibility/internals/context-parameters.md)
- [Wizards](../../extensibility/internals/wizards.md)
- [Wizard (.vsz) file](../../extensibility/internals/wizard-dot-vsz-file.md)
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3>
+- [Context parameters](../../extensibility/internals/context-parameters.md)
+- [Wizards](../../extensibility/internals/wizards.md)
+- [Wizard (.vsz) file](../../extensibility/internals/wizard-dot-vsz-file.md)

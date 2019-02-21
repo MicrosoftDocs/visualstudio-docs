@@ -23,5 +23,5 @@ In the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] IDE, project
  The global environment maintains the RDT. The environment maintains entries for all open windows and documents in the RDT, which makes it possible for them to receive special notifications, such as when a solution is closed. In addition, the RDT makes it possible for the environment to track their corresponding nodes in **Solution Explorer**. The RDT maintains one record per open, persistable object, including both project files and project-item documents.
 
 ## See Also
- [Running Document Table](../../extensibility/internals/running-document-table.md)
- [Selection and Currency in the IDE](../../extensibility/internals/selection-and-currency-in-the-ide.md)
+- [Running Document Table](../../extensibility/internals/running-document-table.md)
+- [Selection and Currency in the IDE](../../extensibility/internals/selection-and-currency-in-the-ide.md)

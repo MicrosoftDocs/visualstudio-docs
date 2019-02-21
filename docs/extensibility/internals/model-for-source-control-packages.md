@@ -29,10 +29,10 @@ Example Source Control Project
 |<xref:Microsoft.VisualStudio.Shell.Interop.IVsSccProject2>|Implemented by the project to respond to source control requests for information about files and to obtain the source control settings required for the project file.|
 
 ## See Also
- <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2>
- <xref:Microsoft.VisualStudio.Shell.Interop.IVsSccManager2>
- <xref:Microsoft.VisualStudio.Shell.Interop.IVsSccProject2>
- <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackProjectDocuments2>
- <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackProjectDocuments2.AdviseTrackProjectDocumentsEvents%2A>
- <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackProjectDocumentsEvents2>
- [Supporting Source Control](../../extensibility/internals/supporting-source-control.md)
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2>
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsSccManager2>
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsSccProject2>
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackProjectDocuments2>
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackProjectDocuments2.AdviseTrackProjectDocumentsEvents%2A>
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackProjectDocumentsEvents2>
+- [Supporting Source Control](../../extensibility/internals/supporting-source-control.md)

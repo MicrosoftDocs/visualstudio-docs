@@ -37,5 +37,5 @@ Persistence is a key design consideration for your project. Most projects use pr
  The methods on the `IVsPersistHierarchyItem2` interface are used to determine whether an item can be reloaded and, if the item can be, to reload it. Additionally, the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistHierarchyItem2.IgnoreItemFileChanges%2A> method can be implemented to cause changed items to be discarded without being saved.
 
 ## See Also
- [Checklist: Creating New Project Types](../../extensibility/internals/checklist-creating-new-project-types.md)
- [Creating Project Instances By Using Project Factories](../../extensibility/internals/creating-project-instances-by-using-project-factories.md)
+- [Checklist: Creating New Project Types](../../extensibility/internals/checklist-creating-new-project-types.md)
+- [Creating Project Instances By Using Project Factories](../../extensibility/internals/creating-project-instances-by-using-project-factories.md)

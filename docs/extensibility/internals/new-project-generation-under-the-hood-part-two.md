@@ -148,5 +148,5 @@ namespace Simple
 ```
 
 ## See Also
- [New Project Generation: Under the Hood, Part One](../../extensibility/internals/new-project-generation-under-the-hood-part-one.md)
- [MSBuild](../../msbuild/msbuild.md)
+- [New Project Generation: Under the Hood, Part One](../../extensibility/internals/new-project-generation-under-the-hood-part-one.md)
+- [MSBuild](../../msbuild/msbuild.md)

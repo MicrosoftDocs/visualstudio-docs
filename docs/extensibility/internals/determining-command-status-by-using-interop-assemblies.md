@@ -28,5 +28,5 @@ A VSPackage must keep track of the state of the commands it can handle. The envi
  Failure of your VSPackage to notify the environment of a command state change can place the UI in an inconsistent state. Remember that any of your menu or context menu commands can be placed on a toolbar by the user. Therefore, updating the UI only when a menu or context menu opens is not enough.
 
 ## See also
- [How VSPackages add user interface elements](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)
- [Implementation](../../extensibility/internals/command-implementation.md)
+- [How VSPackages add user interface elements](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)
+- [Implementation](../../extensibility/internals/command-implementation.md)

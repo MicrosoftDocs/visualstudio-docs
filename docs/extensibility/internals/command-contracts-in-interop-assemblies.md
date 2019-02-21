@@ -22,6 +22,6 @@ The basic contract for handling commands through the <xref:Microsoft.VisualStudi
  In cases where commands must operate within a hierarchy window, the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy> interface must be used. The <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy> interface has a similar contract with similar methods: <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy.QueryStatusCommand%2A> and <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy.ExecCommand%2A>.
 
 ## See also
- [How VSPackages add user interface elements](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)
- [Command routing in VSPackages](../../extensibility/internals/command-routing-in-vspackages.md)
- [Command implementation](../../extensibility/internals/command-implementation.md)
+- [How VSPackages add user interface elements](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)
+- [Command routing in VSPackages](../../extensibility/internals/command-routing-in-vspackages.md)
+- [Command implementation](../../extensibility/internals/command-implementation.md)

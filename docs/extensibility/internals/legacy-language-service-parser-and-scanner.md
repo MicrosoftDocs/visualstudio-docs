@@ -126,7 +126,7 @@ namespace MyNamespace
  The <xref:Microsoft.VisualStudio.Package.AuthoringSink> object is passed to the parser as part of the <xref:Microsoft.VisualStudio.Package.ParseRequest> object, and a new <xref:Microsoft.VisualStudio.Package.AuthoringSink> object is created every time that a new <xref:Microsoft.VisualStudio.Package.ParseRequest> object is created. In addition, the <xref:Microsoft.VisualStudio.Package.LanguageService.ParseSource%2A> method must return an <xref:Microsoft.VisualStudio.Package.AuthoringScope> object, which is used to handle various IntelliSense operations. The <xref:Microsoft.VisualStudio.Package.AuthoringScope> object maintains a list for declarations and a list for methods, either of which is populated, depending on the reason for parsing. The <xref:Microsoft.VisualStudio.Package.AuthoringScope> class must be implemented.
 
 ## See Also
- [Implementing a Legacy Language Service](../../extensibility/internals/implementing-a-legacy-language-service1.md)
- [Legacy Language Service Overview](../../extensibility/internals/legacy-language-service-overview.md)
- [Syntax Colorizing in a Legacy Language Service](../../extensibility/internals/syntax-colorizing-in-a-legacy-language-service.md)
- [Brace Matching in a Legacy Language Service](../../extensibility/internals/brace-matching-in-a-legacy-language-service.md)
+- [Implementing a Legacy Language Service](../../extensibility/internals/implementing-a-legacy-language-service1.md)
+- [Legacy Language Service Overview](../../extensibility/internals/legacy-language-service-overview.md)
+- [Syntax Colorizing in a Legacy Language Service](../../extensibility/internals/syntax-colorizing-in-a-legacy-language-service.md)
+- [Brace Matching in a Legacy Language Service](../../extensibility/internals/brace-matching-in-a-legacy-language-service.md)

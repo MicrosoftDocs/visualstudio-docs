@@ -118,5 +118,5 @@ The following checklist summarizes the basic steps you must take in order to cre
     -   Provide all user context by implementing the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageContextProvider> interface.
 
 ## See also
- [Develop a legacy language service](../../extensibility/internals/developing-a-legacy-language-service.md)
- [Write a CLR expression evaluator](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md)
+- [Develop a legacy language service](../../extensibility/internals/developing-a-legacy-language-service.md)
+- [Write a CLR expression evaluator](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md)

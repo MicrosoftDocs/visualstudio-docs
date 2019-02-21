@@ -74,7 +74,7 @@ Project Property Pages dialog box with field format and tree structure
    Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.GetCurrentSelection%2A> method to retrieve the project hierarchy and project item or items selected. From DTE, you would use the `SelectedItems.SelectedItem.Project` and `SelectedItems.SelectedItem.ProjectItem` methods. There is sample code under those headings in the core [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] documents.
 
 ## See Also
- <xref:Microsoft.VisualStudio.Shell.Interop.IVsPropertyPage>
- [Managing Configuration Options](../../extensibility/internals/managing-configuration-options.md)
- [Project Configuration Object](../../extensibility/internals/project-configuration-object.md)
- [Solution Configuration](../../extensibility/internals/solution-configuration.md)
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsPropertyPage>
+- [Managing Configuration Options](../../extensibility/internals/managing-configuration-options.md)
+- [Project Configuration Object](../../extensibility/internals/project-configuration-object.md)
+- [Solution Configuration](../../extensibility/internals/solution-configuration.md)

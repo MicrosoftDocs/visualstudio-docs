@@ -24,4 +24,4 @@ The object list in the **Properties** window is a drop-down list that allows you
  If the COM object does not implement <xref:Microsoft.VisualStudio.OLE.Interop.IProvideClassInfo>, the **Properties** window displays the interface name in place of the object name on the left side of the list.
 
 ## See Also
- [Extending Properties](../../extensibility/internals/extending-properties.md)
+- [Extending Properties](../../extensibility/internals/extending-properties.md)

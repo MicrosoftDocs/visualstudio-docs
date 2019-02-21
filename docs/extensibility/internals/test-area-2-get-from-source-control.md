@@ -48,4 +48,4 @@ This test area covers test cases for retrieving items from the version store via
 |Get a solution with one project|1.  Create a solution with one project.<br />2.  Place the solution under source control.<br />3.  Delete all the project files locally.<br />4.  Get the solution (**File**, **Source Control**, **Get**).|All deleted files are restored locally.|
 
 ## See Also
- [Test Guide for Source Control Plug-ins](../../extensibility/internals/test-guide-for-source-control-plug-ins.md)
+- [Test Guide for Source Control Plug-ins](../../extensibility/internals/test-guide-for-source-control-plug-ins.md)

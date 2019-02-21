@@ -139,6 +139,6 @@ namespace TestLanguagePackage
 ```
 
 ## See Also
- [Legacy Language Service Features](../../extensibility/internals/legacy-language-service-features1.md)
- [Legacy Language Service Parser and Scanner](../../extensibility/internals/legacy-language-service-parser-and-scanner.md)
- [Registering a Legacy Language Service](../../extensibility/internals/registering-a-legacy-language-service1.md)
+- [Legacy Language Service Features](../../extensibility/internals/legacy-language-service-features1.md)
+- [Legacy Language Service Parser and Scanner](../../extensibility/internals/legacy-language-service-parser-and-scanner.md)
+- [Registering a Legacy Language Service](../../extensibility/internals/registering-a-legacy-language-service1.md)

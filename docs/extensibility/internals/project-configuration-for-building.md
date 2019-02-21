@@ -43,7 +43,7 @@ Project dependencies
 
  [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] build processes include the typical compile and link operations that are invoked with a single Build command. Two other build processes can also be supported: a clean operation to delete all output items from a previous build, and an up-to-date check to determine if an output item in a configuration has changed.
 
- <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectCfg2> objects return a corresponding <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildableProjectCfg> (returned from <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectCfg2.get_CfgType%2A>) to manage their build processes. To report the status of a build operation while it is occurring, configurations make calls to <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildStatusCallback>, an interface implemented by the environment and any other object interested in build status events.
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectCfg2> objects return a corresponding <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildableProjectCfg> (returned from <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectCfg2.get_CfgType%2A>) to manage their build processes. To report the status of a build operation while it is occurring, configurations make calls to <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildStatusCallback>, an interface implemented by the environment and any other object interested in build status events.
 
  Once built, configuration settings can be used to determine whether or not they can be run under the control of the debugger. Configurations implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsDebuggableProjectCfg> to support debugging.
 
@@ -52,6 +52,6 @@ Project dependencies
  In addition, you can provide a grid in the project dependencies window. For more information, see [Properties Display Grid](../../extensibility/internals/properties-display-grid.md).
 
 ## See Also
- [Managing Configuration Options](../../extensibility/internals/managing-configuration-options.md)
- [Project Configuration for Managing Deployment](../../extensibility/internals/project-configuration-for-managing-deployment.md)
- [Project Configuration for Output](../../extensibility/internals/project-configuration-for-output.md)
+- [Managing Configuration Options](../../extensibility/internals/managing-configuration-options.md)
+- [Project Configuration for Managing Deployment](../../extensibility/internals/project-configuration-for-managing-deployment.md)
+- [Project Configuration for Output](../../extensibility/internals/project-configuration-for-output.md)

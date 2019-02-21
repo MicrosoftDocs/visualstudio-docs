@@ -58,7 +58,7 @@ STDMETHOD(Execute)(THIS_
     ```
 
 ## See Also
- [Context Parameters](../../extensibility/internals/context-parameters.md)
- [Custom Parameters](../../extensibility/internals/custom-parameters.md)
- [Wizards](../../extensibility/internals/wizards.md)
- [Wizard (.Vsz) File](../../extensibility/internals/wizard-dot-vsz-file.md)
+- [Context Parameters](../../extensibility/internals/context-parameters.md)
+- [Custom Parameters](../../extensibility/internals/custom-parameters.md)
+- [Wizards](../../extensibility/internals/wizards.md)
+- [Wizard (.Vsz) File](../../extensibility/internals/wizard-dot-vsz-file.md)

@@ -46,6 +46,6 @@ The IDE can pass commands that are passed through the <xref:Microsoft.VisualStud
     The parent project does not have to route the command to the child project. The IDE performs this task..
 
 ## See Also
- <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy>
- [Commands, Menus, and Toolbars](../../extensibility/internals/commands-menus-and-toolbars.md)
- [Nesting Projects](../../extensibility/internals/nesting-projects.md)
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy>
+- [Commands, Menus, and Toolbars](../../extensibility/internals/commands-menus-and-toolbars.md)
+- [Nesting Projects](../../extensibility/internals/nesting-projects.md)

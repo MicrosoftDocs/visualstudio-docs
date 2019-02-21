@@ -40,4 +40,4 @@ When a newer edition is installed, the registry keys for that edition are added 
  Your VSPackage can't be registered correctly if Visual Studio is running when the VSPackage is installed. The installer must detect when Visual Studio is running and then refuse to install the program. Windows Installer doesn't let you use table entries to enable such detection. Instead, you must create a custom action, as follows: Use the `EnumProcesses` function to detect the *devenv.exe* process, and then either set an installer property that's used in a launch condition or conditionally display a dialog box that prompts the user to close Visual Studio.
 
 ## See also
- [Install VSPackages With Windows Installer](../../extensibility/internals/installing-vspackages-with-windows-installer.md)
+- [Install VSPackages With Windows Installer](../../extensibility/internals/installing-vspackages-with-windows-installer.md)

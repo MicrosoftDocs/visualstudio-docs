@@ -68,7 +68,7 @@ This section compares the two ways to integrate into Visual Studio source contro
 -   The VSPackage is not confined to a particular source control model.
 
 ## See Also
- [Source Control](../../extensibility/internals/source-control.md)
- [Creating a Source Control Plug-in](../../extensibility/internals/creating-a-source-control-plug-in.md)
- [Creating a Source Control VSPackage](../../extensibility/internals/creating-a-source-control-vspackage.md)
- [What's New in Source Control](../../extensibility/internals/what-s-new-in-source-control.md)
+- [Source Control](../../extensibility/internals/source-control.md)
+- [Creating a Source Control Plug-in](../../extensibility/internals/creating-a-source-control-plug-in.md)
+- [Creating a Source Control VSPackage](../../extensibility/internals/creating-a-source-control-vspackage.md)
+- [What's New in Source Control](../../extensibility/internals/what-s-new-in-source-control.md)

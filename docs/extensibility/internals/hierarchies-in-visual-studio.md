@@ -27,6 +27,6 @@ The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated deve
  When a user opens an item in an editor, the hierarchy that controls that item is selected and becomes the active hierarchy. The selected hierarchy determines the set of commands available to act on the item. Tracking user focus in this manner enables the hierarchy to reflect the user's current context.
 
 ## See also
- [Project types](../../extensibility/internals/project-types.md)
- [Selection and currency in the IDE](../../extensibility/internals/selection-and-currency-in-the-ide.md)
- [VSSDK samples](http://aka.ms/vs2015sdksamples)
+- [Project types](../../extensibility/internals/project-types.md)
+- [Selection and currency in the IDE](../../extensibility/internals/selection-and-currency-in-the-ide.md)
+- [VSSDK samples](http://aka.ms/vs2015sdksamples)

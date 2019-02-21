@@ -28,12 +28,12 @@ Enterprise application developers who use your VS Package can conveniently group
 Nested projects example
 
 ## See Also
- [How to: Implement Nested Projects](../../extensibility/internals/how-to-implement-nested-projects.md)
- [Considerations for Unloading and Reloading Nested Projects](../../extensibility/internals/considerations-for-unloading-and-reloading-nested-projects.md)
- [Wizard Support for Nested Projects](../../extensibility/internals/wizard-support-for-nested-projects.md)
- [Registering Project and Item Templates](../../extensibility/internals/registering-project-and-item-templates.md)
- [Implementing Command Handling for Nested Projects](../../extensibility/internals/implementing-command-handling-for-nested-projects.md)
- [Filtering the AddItem Dialog Box for Nested Projects](../../extensibility/internals/filtering-the-additem-dialog-box-for-nested-projects.md)
- [Checklist: Creating New Project Types](../../extensibility/internals/checklist-creating-new-project-types.md)
- [Context Parameters](../../extensibility/internals/context-parameters.md)
- [Wizard (.Vsz) File](../../extensibility/internals/wizard-dot-vsz-file.md)
+- [How to: Implement Nested Projects](../../extensibility/internals/how-to-implement-nested-projects.md)
+- [Considerations for Unloading and Reloading Nested Projects](../../extensibility/internals/considerations-for-unloading-and-reloading-nested-projects.md)
+- [Wizard Support for Nested Projects](../../extensibility/internals/wizard-support-for-nested-projects.md)
+- [Registering Project and Item Templates](../../extensibility/internals/registering-project-and-item-templates.md)
+- [Implementing Command Handling for Nested Projects](../../extensibility/internals/implementing-command-handling-for-nested-projects.md)
+- [Filtering the AddItem Dialog Box for Nested Projects](../../extensibility/internals/filtering-the-additem-dialog-box-for-nested-projects.md)
+- [Checklist: Creating New Project Types](../../extensibility/internals/checklist-creating-new-project-types.md)
+- [Context Parameters](../../extensibility/internals/context-parameters.md)
+- [Wizard (.Vsz) File](../../extensibility/internals/wizard-dot-vsz-file.md)

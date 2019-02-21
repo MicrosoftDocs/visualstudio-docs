@@ -104,4 +104,4 @@ STDMETHODIMP CVsPackage::GetAutomationObject(
  Event objects are retrieved from the same central location, the `DTE.Events` object. This way, all event objects are grouped together so that an end user does not have to browse the entire object model to find a specific event. This also lets you provide your specific VSPackage objects, instead of requiring you to implement your own code for system-wide events. However, for the end user, who must find an event for your `ProjectItem` interface, it is not immediately clear from where that event object is retrieved.
 
 ## See also
- <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetAutomationObject%2A>
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetAutomationObject%2A>

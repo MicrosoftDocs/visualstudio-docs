@@ -23,24 +23,31 @@ After you create a wizard, you typically want to add it to the [!INCLUDE[vsprvs]
  The topics in this section discuss the files that you implement to cause the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] **Add New Project** and **Add New Item** dialog boxes to list your wizard among the available wizards and templates, and the requirements that your wizard must meet to operate correctly in the IDE.
 
 ## In This Section
- [Template Directory Description (.Vsdir) Files](../../extensibility/internals/template-directory-description-dot-vsdir-files.md)
+- [Template Directory Description (.Vsdir) Files](../../extensibility/internals/template-directory-description-dot-vsdir-files.md)
+
  Provides an overview of what template directory description files and explains how they function in the IDE to display folders, wizard .vsz files, and template files that are associated with a project in the dialog boxes.
 
- [Wizard (.Vsz) File](../../extensibility/internals/wizard-dot-vsz-file.md)
+- [Wizard (.Vsz) File](../../extensibility/internals/wizard-dot-vsz-file.md)
+
  Explains how the IDE starts wizards and lists the three parts of the .vsz file.
 
- [Wizard Interface (IDTWizard)](../../extensibility/internals/wizard-interface-idtwizard.md)
+- [Wizard Interface (IDTWizard)](../../extensibility/internals/wizard-interface-idtwizard.md)
+
  Describes the `IDTWizard` interface that wizards must implement to work in the IDE.
 
- [Context Parameters](../../extensibility/internals/context-parameters.md)
+- [Context Parameters](../../extensibility/internals/context-parameters.md)
+
  Explains how wizards are implemented and what occurs when the IDE passes Context Parameters to the implementation.
 
- [Custom Parameters](../../extensibility/internals/custom-parameters.md)
+- [Custom Parameters](../../extensibility/internals/custom-parameters.md)
+
  Explains how to use Custom Parameters to control the operation of the wizard after the wizard is started.
 
 ## Related Sections
- [Project Types](../../extensibility/internals/project-types.md)
+- [Project Types](../../extensibility/internals/project-types.md)
+
  Provides links to additional topics that offer information about how to design new project types.
 
- [Extending Projects](../../extensibility/extending-projects.md)
+- [Extending Projects](../../extensibility/extending-projects.md)
+
  Describes how to use [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] projects and solutions to organize code files and resource files, and how to implement source control.

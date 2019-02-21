@@ -89,5 +89,5 @@ const LPOLESTR CVCReferences::s_wszCATID = L"{FE8299CA-19B6-4f20-ABEA-E1FD9A33B6
 | [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] | {F184B08F-C81C-45F6-A57F-5ABD9991F28F} |
 
 ## See also
- [Add project and project item templates](../../extensibility/internals/adding-project-and-project-item-templates.md)
- [Register project and item templates](../../extensibility/internals/registering-project-and-item-templates.md)
+- [Add project and project item templates](../../extensibility/internals/adding-project-and-project-item-templates.md)
+- [Register project and item templates](../../extensibility/internals/registering-project-and-item-templates.md)

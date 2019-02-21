@@ -51,5 +51,5 @@ The IDE maintains the list of all currently open documents in an internal struct
 -   Use the hierarchy or item ID to ask the project system for the full document path, and then look the item up in the RDT.
 
 ## See Also
- [RDT_ReadLock Usage](../../extensibility/internals/rdt-readlock-usage.md)
- [Persistence and the Running Document Table](../../extensibility/internals/persistence-and-the-running-document-table.md)
+- [RDT_ReadLock Usage](../../extensibility/internals/rdt-readlock-usage.md)
+- [Persistence and the Running Document Table](../../extensibility/internals/persistence-and-the-running-document-table.md)

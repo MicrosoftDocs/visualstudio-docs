@@ -178,4 +178,4 @@ namespace MyLanguagePackage
 
 ## See Also
 
-[Legacy Language Service Features](legacy-language-service-features1.md)
+- [Legacy Language Service Features](legacy-language-service-features1.md)

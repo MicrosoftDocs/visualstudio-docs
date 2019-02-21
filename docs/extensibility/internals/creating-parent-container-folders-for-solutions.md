@@ -23,9 +23,9 @@ In the Source Control Plug-in API Version 1.2, a user can specify a single root 
  `SCC_CAP_GETPARENTPROJECT`
 
 ## New functions
- [SccCreateSubProject](../../extensibility/scccreatesubproject-function.md)
+- [SccCreateSubProject](../../extensibility/scccreatesubproject-function.md)
 
- [SccGetParentProjectPath](../../extensibility/sccgetparentprojectpath-function.md)
+- [SccGetParentProjectPath](../../extensibility/sccgetparentprojectpath-function.md)
 
  The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] IDE almost always creates an SUR folder when adding a solution to source control. Specifically, it does so in the following cases:
 
@@ -60,4 +60,4 @@ In [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], it is suggested
  **[HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\8.0\SourceControl] DoNotCreateSolutionRootFolderInSourceControl** = *dword:00000001*
 
 ## See also
- [What's new in the Source Control Plug-in API Version 1.2](../../extensibility/internals/what-s-new-in-the-source-control-plug-in-api-version-1-2.md)
+- [What's new in the Source Control Plug-in API Version 1.2](../../extensibility/internals/what-s-new-in-the-source-control-plug-in-api-version-1-2.md)

@@ -294,4 +294,4 @@ priority="0x0100" type="Menu">
 - To cause certain UI elements to be displayed in the IDE, you must implement one or more interfaces or write some code.
 
 ## See also
- [Extend menus and commands](../../extensibility/extending-menus-and-commands.md)
+- [Extend menus and commands](../../extensibility/extending-menus-and-commands.md)

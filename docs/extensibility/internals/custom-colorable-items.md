@@ -59,8 +59,8 @@ You can override the list of types for colorizing, such as keywords and comments
     For an example of how to implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorableItem> and <xref:Microsoft.VisualStudio.TextManager.Interop.IVsHiColorItem> interfaces, see <xref:Microsoft.VisualStudio.TextManager.Interop.IVsHiColorItem>.
 
 ## See also
- [Model of a legacy language service](../../extensibility/internals/model-of-a-legacy-language-service.md)
- [Syntax coloring in custom editors](../../extensibility/syntax-coloring-in-custom-editors.md)
- [Syntax coloring in a legacy language service](../../extensibility/internals/syntax-coloring-in-a-legacy-language-service.md)
- [Implement syntax coloring](../../extensibility/internals/implementing-syntax-coloring.md)
- [How to: Use built-in colorable items](../../extensibility/internals/how-to-use-built-in-colorable-items.md)
+- [Model of a legacy language service](../../extensibility/internals/model-of-a-legacy-language-service.md)
+- [Syntax coloring in custom editors](../../extensibility/syntax-coloring-in-custom-editors.md)
+- [Syntax coloring in a legacy language service](../../extensibility/internals/syntax-coloring-in-a-legacy-language-service.md)
+- [Implement syntax coloring](../../extensibility/internals/implementing-syntax-coloring.md)
+- [How to: Use built-in colorable items](../../extensibility/internals/how-to-use-built-in-colorable-items.md)

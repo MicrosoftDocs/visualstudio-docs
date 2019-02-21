@@ -42,5 +42,5 @@ Units of tasks in the Windows Installer are referred to as Windows Installer com
      If you do, the shared keys will be overwritten when another versioned VSPackage is installed. After you remove the second version, the file to which the key is pointing is gone.
 
 ## See also
- [Choose between shared and versioned VSPackages](../../extensibility/choosing-between-shared-and-versioned-vspackages.md)
- [VSPackage setup scenarios](../../extensibility/internals/vspackage-setup-scenarios.md)
+- [Choose between shared and versioned VSPackages](../../extensibility/choosing-between-shared-and-versioned-vspackages.md)
+- [VSPackage setup scenarios](../../extensibility/internals/vspackage-setup-scenarios.md)

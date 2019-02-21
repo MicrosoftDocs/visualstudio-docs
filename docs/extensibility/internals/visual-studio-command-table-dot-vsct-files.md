@@ -19,23 +19,29 @@ A command table configuration file is a text file that describes the set of comm
 
 ## In This Section
  [Designing XML Command Table (.Vsct) Files](../../extensibility/internals/designing-xml-command-table-dot-vsct-files.md)
+
  Describes how to design .vsct files.
 
  [How to: Create a .Vsct File](../../extensibility/internals/how-to-create-a-dot-vsct-file.md)
+
  Compares the methods for creating a .vsct file. Describes the process for manually creating a new .vsct file.
 
 ## Related Sections
  [VSCT XML Schema Reference](../../extensibility/vsct-xml-schema-reference.md)
+
  Provides details about each section of the command table XML configuration file.
 
  [Command Table Configuration (.Ctc) Files](https://msdn.microsoft.com/library/3413dda1-f372-4669-bcf0-c64d3463842c)
  Presents an overview of the deprecated .ctc file format.
 
  [How VSPackages Add User Interface Elements](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)
+
  Describes the command table format specification.
 
  [Resources in VSPackages](../../extensibility/internals/resources-in-vspackages.md)
+
  Describes how to use managed and unmanaged resources in managed VSPackages.
 
  [Commands, Menus, and Toolbars](../../extensibility/internals/commands-menus-and-toolbars.md)
+
  Explains how to create a UI that includes menus, toolbars, and command combo boxes.

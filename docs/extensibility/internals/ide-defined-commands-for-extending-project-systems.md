@@ -64,6 +64,6 @@ When you want to extend project systems, you can use commands and command groups
 |IDG_VS_CTXT_PROJECT_PROPERTIES|Commands that provide access to the **Project Properties** dialog box.|
 
 ## See Also
- [How VSPackages Add User Interface Elements](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)
- [MenuCommands Vs. OleMenuCommands](../../extensibility/menucommands-vs-olemenucommands.md)
- [Creating Reusable Groups of Buttons](../../extensibility/creating-reusable-groups-of-buttons.md)
+- [How VSPackages Add User Interface Elements](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)
+- [MenuCommands Vs. OleMenuCommands](../../extensibility/menucommands-vs-olemenucommands.md)
+- [Creating Reusable Groups of Buttons](../../extensibility/creating-reusable-groups-of-buttons.md)

@@ -32,6 +32,6 @@ Architecture Diagram showing interaction between VS and source control plug-in
  A source control plug-in cannot make changes to the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] shell and, consequently, to either the Source Control Adapter Package or the source control UI provided by the IDE. It must make maximum use of the flexibility offered through the implementation of the various Source Control Plug-in API functions that contribute to an integrated experience for the end user. The reference section of the Source Control Plug-in API documentation includes information for some advanced source control plug-in capabilities. To exploit these features, the source control plug-in must declare its advanced capabilities to the IDE during initialization, and it must implement specific advanced functions for each capability.
 
 ## See Also
- [Source Control Plug-ins](../../extensibility/source-control-plug-ins.md)
- [Glossary](../../extensibility/source-control-plug-in-glossary.md)
- [Creating a Source Control Plug-in](../../extensibility/internals/creating-a-source-control-plug-in.md)
+- [Source Control Plug-ins](../../extensibility/source-control-plug-ins.md)
+- [Glossary](../../extensibility/source-control-plug-in-glossary.md)
+- [Creating a Source Control Plug-in](../../extensibility/internals/creating-a-source-control-plug-in.md)

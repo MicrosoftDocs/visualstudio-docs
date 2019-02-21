@@ -232,4 +232,4 @@ ExampleHKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\8.0Exp\
 ```
 
 ## See Also
- [Developing a Legacy Language Service](../../extensibility/internals/developing-a-legacy-language-service.md)
+- [Developing a Legacy Language Service](../../extensibility/internals/developing-a-legacy-language-service.md)

@@ -45,6 +45,6 @@ ms.workload:
    For more information, see [Creating a Source Control VSPackage](../../extensibility/internals/creating-a-source-control-vspackage.md).
 
 ## See Also
- [Overview](../../extensibility/internals/source-control-integration-overview.md)
- [Creating a Source Control Plug-in](../../extensibility/internals/creating-a-source-control-plug-in.md)
- [Creating a Source Control VSPackage](../../extensibility/internals/creating-a-source-control-vspackage.md)
+- [Overview](../../extensibility/internals/source-control-integration-overview.md)
+- [Creating a Source Control Plug-in](../../extensibility/internals/creating-a-source-control-plug-in.md)
+- [Creating a Source Control VSPackage](../../extensibility/internals/creating-a-source-control-vspackage.md)

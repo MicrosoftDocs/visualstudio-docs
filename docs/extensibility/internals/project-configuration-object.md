@@ -43,8 +43,8 @@ Project configuration property pages
  `ISpecifyPropertyPages` and `IDispatch` are used in conjunction with property pages to retrieve and display configuration-dependent information to the user. For more information, see [Property Pages](../../extensibility/internals/property-pages.md).
 
 ## See Also
- [Managing Configuration Options](../../extensibility/internals/managing-configuration-options.md)
- [Project Configuration for Building](../../extensibility/internals/project-configuration-for-building.md)
- [Project Configuration for Output](../../extensibility/internals/project-configuration-for-output.md)
- [Property Pages](../../extensibility/internals/property-pages.md)
- [Solution Configuration](../../extensibility/internals/solution-configuration.md)
+- [Managing Configuration Options](../../extensibility/internals/managing-configuration-options.md)
+- [Project Configuration for Building](../../extensibility/internals/project-configuration-for-building.md)
+- [Project Configuration for Output](../../extensibility/internals/project-configuration-for-output.md)
+- [Property Pages](../../extensibility/internals/property-pages.md)
+- [Solution Configuration](../../extensibility/internals/solution-configuration.md)

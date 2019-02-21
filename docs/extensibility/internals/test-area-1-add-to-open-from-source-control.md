@@ -78,4 +78,4 @@ This source-control plug-in test area covers placing solutions or projects under
 |Add to solution — solution added to source control by selection|1.  Create a solution with a project.<br />2.  Add only solution to source control as selection. If this step succeeds, continue to next step.<br />3.  Close the solution.<br />4.  Create a new solution.<br />5.  Add the previously controlled solution from source control (**File**, **Source Control**, **Add Project from Source Control**).|`Result from Step 2:`<br /><br /> Project is not under source control.<br /><br /> `Result from Step 5:`<br /><br /> If the first solution had solution items, they cannot be added from source control, so they do not appear.<br /><br /> Project from first solution appears as unavailable.|
 
 ## See Also
- [Test Guide for Source Control Plug-ins](../../extensibility/internals/test-guide-for-source-control-plug-ins.md)
+- [Test Guide for Source Control Plug-ins](../../extensibility/internals/test-guide-for-source-control-plug-ins.md)

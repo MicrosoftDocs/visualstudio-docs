@@ -58,5 +58,5 @@ SourceFile.cpp|{E59935A1-6156-11d1-87A6-00A0C91E2A46}|#122|110|#123|0|0|0|#124
 -   If you delete the .vsz files, folders, or template files, you must also remove their associated records from the .vsdir file.
 
 ## See Also
- [Wizards](../../extensibility/internals/wizards.md)
- [Wizard (.Vsz) File](../../extensibility/internals/wizard-dot-vsz-file.md)
+- [Wizards](../../extensibility/internals/wizards.md)
+- [Wizard (.Vsz) File](../../extensibility/internals/wizard-dot-vsz-file.md)

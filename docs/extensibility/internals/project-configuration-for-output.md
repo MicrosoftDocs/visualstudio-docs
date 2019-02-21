@@ -39,7 +39,7 @@ Output groups
  For more information, see the implementation of `IVsOutputGroup` in the Custom Project sample at [MPF for Projects](https://github.com/tunnelvisionlabs/MPFProj10).
 
 ## See Also
- [Managing Configuration Options](../../extensibility/internals/managing-configuration-options.md)
- [Project Configuration for Building](../../extensibility/internals/project-configuration-for-building.md)
- [Project Configuration Object](../../extensibility/internals/project-configuration-object.md)
- [Solution Configuration](../../extensibility/internals/solution-configuration.md)
+- [Managing Configuration Options](../../extensibility/internals/managing-configuration-options.md)
+- [Project Configuration for Building](../../extensibility/internals/project-configuration-for-building.md)
+- [Project Configuration Object](../../extensibility/internals/project-configuration-object.md)
+- [Solution Configuration](../../extensibility/internals/solution-configuration.md)

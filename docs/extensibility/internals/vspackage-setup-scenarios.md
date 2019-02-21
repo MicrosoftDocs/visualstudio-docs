@@ -72,5 +72,5 @@ For more information on deployment of side-by-side assemblies, see [Simplifying 
 
 ## See Also
 
-[Windows Installer](/windows/desktop/Msi/windows-installer-portal)
-[Supporting Multiple Versions of Visual Studio](../../extensibility/supporting-multiple-versions-of-visual-studio.md)
+- [Windows Installer](/windows/desktop/Msi/windows-installer-portal)
+- [Supporting Multiple Versions of Visual Studio](../../extensibility/supporting-multiple-versions-of-visual-studio.md)

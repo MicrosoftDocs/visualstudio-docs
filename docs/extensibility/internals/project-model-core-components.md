@@ -94,8 +94,8 @@ The following tables expand on the project model. The tables present brief descr
 |<xref:Microsoft.VisualStudio.Shell.Interop.SVsUIHierWinClipboardHelper>|Used to implement clipboard events on the project object in the hierarchy. `SVsUIHierWinClipboardHelper` lets you correctly handle cut, copy, and paste operations.|
 
 ## See Also
- <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget>
- [Checklist: Creating New Project Types](../../extensibility/internals/checklist-creating-new-project-types.md)
- [Not in Build: Using HierUtil7 Project Classes to Implement a Project Type (C++)](https://msdn.microsoft.com/library/a5c16a09-94a2-46ef-87b5-35b815e2f346)
- [Supporting Symbol-Browsing Tools](../../extensibility/internals/supporting-symbol-browsing-tools.md)
- [Elements of a Project Model](../../extensibility/internals/elements-of-a-project-model.md)
+- <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget>
+- [Checklist: Creating New Project Types](../../extensibility/internals/checklist-creating-new-project-types.md)
+- [Not in Build: Using HierUtil7 Project Classes to Implement a Project Type (C++)](https://msdn.microsoft.com/library/a5c16a09-94a2-46ef-87b5-35b815e2f346)
+- [Supporting Symbol-Browsing Tools](../../extensibility/internals/supporting-symbol-browsing-tools.md)
+- [Elements of a Project Model](../../extensibility/internals/elements-of-a-project-model.md)

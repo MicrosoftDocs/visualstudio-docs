@@ -16,12 +16,15 @@ ms.workload:
 A solution is a grouping of one or more projects that work together to create an application. The project and status information that pertain to the solution are stored in two solution files, a text-based solution (.sln) file and a binary solution user option (.suo) file.
 
 ## In This Section
- [Overview](../../extensibility/internals/solutions-overview.md)
+- [Overview](../../extensibility/internals/solutions-overview.md)
+
  Discusses the types of solution files included in a solution, and the process that occurs when a solution is opened.
 
 ## Related Sections
- [Solution (.Sln) File](../../extensibility/internals/solution-dot-sln-file.md)
+- [Solution (.Sln) File](../../extensibility/internals/solution-dot-sln-file.md)
+
  Explains the structure of a .sln file.
 
- [Solution User Options (.Suo) File](../../extensibility/internals/solution-user-options-dot-suo-file.md)
+- [Solution User Options (.Suo) File](../../extensibility/internals/solution-user-options-dot-suo-file.md)
+
  Explains the .suo file.

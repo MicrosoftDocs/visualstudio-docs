@@ -20,22 +20,28 @@ The following topics list some of the legacy language service features you can p
 >  We recommend that you begin to use the new editor API as soon as possible. This will improve the performance of your language service and let you take advantage of new editor features.
 
 ## In This Section
- [Syntax Coloring in a Legacy Language Service](../../extensibility/internals/syntax-coloring-in-a-legacy-language-service.md)
+- [Syntax Coloring in a Legacy Language Service](../../extensibility/internals/syntax-coloring-in-a-legacy-language-service.md)
+
  Explains how to implement syntax coloring.
 
- [Automatic Formatting in a Legacy Language Service](../../extensibility/internals/automatic-formatting-in-a-legacy-language-service.md)
+- [Automatic Formatting in a Legacy Language Service](../../extensibility/internals/automatic-formatting-in-a-legacy-language-service.md)
+
  Explains how to implement automatic formatting.
 
- [Parameter Info in a Legacy Language Service](../../extensibility/internals/parameter-info-in-a-legacy-language-service1.md)
+- [Parameter Info in a Legacy Language Service](../../extensibility/internals/parameter-info-in-a-legacy-language-service1.md)
+
  Explains how to implement the IntelliSense Parameter Info Tooltip.
 
- [Statement Completion in a Legacy Language Service](../../extensibility/internals/statement-completion-in-a-legacy-language-service.md)
+- [Statement Completion in a Legacy Language Service](../../extensibility/internals/statement-completion-in-a-legacy-language-service.md)
+
  Explains how to implement the IntelliSense statement list and member completion list.
 
- [Outlining and Hidden Text in a Legacy Language Service](../../extensibility/internals/outlining-and-hidden-text-in-a-legacy-language-service.md)
+- [Outlining and Hidden Text in a Legacy Language Service](../../extensibility/internals/outlining-and-hidden-text-in-a-legacy-language-service.md)
+
  Explains how to implement outlining or hidden text.
 
- [How to: Provide Expanded Outlining Support in a Legacy Language Service](../../extensibility/internals/how-to-provide-expanded-outlining-support-in-a-legacy-language-service.md)
+- [How to: Provide Expanded Outlining Support in a Legacy Language Service](../../extensibility/internals/how-to-provide-expanded-outlining-support-in-a-legacy-language-service.md)
+
  Explains some of the steps in implementing debugger support..
 
 ## Related Sections

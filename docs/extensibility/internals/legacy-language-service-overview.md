@@ -84,5 +84,5 @@ A language service provides editor support that lets you implement certain [!INC
 -   [Validating Breakpoints in a Legacy Language Service](../../extensibility/internals/validating-breakpoints-in-a-legacy-language-service.md)
 
 ## See Also
- [Implementing a Legacy Language Service](../../extensibility/internals/implementing-a-legacy-language-service1.md)
- [Legacy Language Service Extensibility](../../extensibility/internals/legacy-language-service-extensibility.md)
+- [Implementing a Legacy Language Service](../../extensibility/internals/implementing-a-legacy-language-service1.md)
+- [Legacy Language Service Extensibility](../../extensibility/internals/legacy-language-service-extensibility.md)

@@ -30,4 +30,4 @@ The following new functions support the batch operation:
 The `SCCBeginBatch` function starts a group of source control operations. The `SccEndBatch` function closes the group. The groups may not be nested.
 
 ## See also
- [What's new in the Source Control Plug-in API Version 1.2](../../extensibility/internals/what-s-new-in-the-source-control-plug-in-api-version-1-2.md)
+- [What's new in the Source Control Plug-in API Version 1.2](../../extensibility/internals/what-s-new-in-the-source-control-plug-in-api-version-1-2.md)

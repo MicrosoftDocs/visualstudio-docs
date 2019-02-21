@@ -15,10 +15,11 @@ ms.workload:
 The topics in this section describe the tools that ship with the VSSDK.
 
 ## In This Section
- [RegPkg Utility](../../extensibility/internals/regpkg-utility.md)
-  [CreatePkgDef Utility](../../extensibility/internals/createpkgdef-utility.md)
-  [CreateExpInstance Utility](../../extensibility/internals/createexpinstance-utility.md)
-  [Color Theming Tools](../../extensibility/internals/color-theming-tools.md)
-  [Image Service Tools](../../extensibility/internals/image-service-tools.md)
+
+- [RegPkg Utility](../../extensibility/internals/regpkg-utility.md)
+- [CreatePkgDef Utility](../../extensibility/internals/createpkgdef-utility.md)
+- [CreateExpInstance Utility](../../extensibility/internals/createexpinstance-utility.md)
+- [Color Theming Tools](../../extensibility/internals/color-theming-tools.md)
+- [Image Service Tools](../../extensibility/internals/image-service-tools.md)
 
 ## Related Sections

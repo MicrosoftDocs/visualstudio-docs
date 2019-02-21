@@ -46,7 +46,7 @@ The following steps describe how the IDE handles the **Open File** command, whic
 5.  The project then has the option of opening the file by using a project-specific editor or a standard editor. For more information, see [How to: Open project-specific editors](../../extensibility/how-to-open-project-specific-editors.md) and [How to: Open standard editors](../../extensibility/how-to-open-standard-editors.md), respectively.
 
 ## See also
- [Display files by using the Open With command](../../extensibility/internals/displaying-files-by-using-the-open-with-command.md)
- [Open and save project items](../../extensibility/internals/opening-and-saving-project-items.md)
- [How to: Open project-specific editors](../../extensibility/how-to-open-project-specific-editors.md)
- [How to: Open standard editors](../../extensibility/how-to-open-standard-editors.md)
+- [Display files by using the Open With command](../../extensibility/internals/displaying-files-by-using-the-open-with-command.md)
+- [Open and save project items](../../extensibility/internals/opening-and-saving-project-items.md)
+- [How to: Open project-specific editors](../../extensibility/how-to-open-project-specific-editors.md)
+- [How to: Open standard editors](../../extensibility/how-to-open-standard-editors.md)

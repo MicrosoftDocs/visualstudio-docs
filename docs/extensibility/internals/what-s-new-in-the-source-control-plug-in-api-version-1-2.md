@@ -16,20 +16,20 @@ ms.workload:
 This section highlights the advanced source code control functionality in the Source Control Plug-in API version 1.2. The following lists the new features in version 1.2:
 
 ## Changes
- [Elimination of ~SAK Files](../../extensibility/internals/elimination-of-tilde-sak-files.md)
+- [Elimination of ~SAK Files](../../extensibility/internals/elimination-of-tilde-sak-files.md)
  Explains how the Source Control Plug-in API 1.2 interacts with temporary files.
 
- [Application of Settings Across Multiple Project Connections](../../extensibility/internals/application-of-settings-across-multiple-project-connections.md)
+- [Application of Settings Across Multiple Project Connections](../../extensibility/internals/application-of-settings-across-multiple-project-connections.md)
  Illustrates how a source control plug-in can use a batch operation to execute the same source control operation across multiple projects or multiple connection contexts.
 
- [Creating Parent Container Folders for Solutions](../../extensibility/internals/creating-parent-container-folders-for-solutions.md)
+- [Creating Parent Container Folders for Solutions](../../extensibility/internals/creating-parent-container-folders-for-solutions.md)
  Explains how the Source Control Plug-in API Version 1.2 enables a user to specify a single root source control destination for all Web projects within the solution.
 
- [Optional Comparison of Local Project Folder to Source Control Store](../../extensibility/internals/optional-comparison-of-local-project-folder-to-source-control-store.md)
+- [Optional Comparison of Local Project Folder to Source Control Store](../../extensibility/internals/optional-comparison-of-local-project-folder-to-source-control-store.md)
  Explains how the Source Control Plug-in API 1.2 compares versions of files.
 
- [Removal of Source Control Information from .Proj and .Sln Files](../../extensibility/internals/removal-of-source-control-information-from-dot-proj-and-dot-sln-files.md)
+- [Removal of Source Control Information from .Proj and .Sln Files](../../extensibility/internals/removal-of-source-control-information-from-dot-proj-and-dot-sln-files.md)
  Explains how the Source Control Plug-in API Version 1.2 stores information about projects and solutions.
 
 ## See Also
- [Getting Started](../../extensibility/internals/getting-started-with-source-control-plug-ins.md)
+- [Getting Started](../../extensibility/internals/getting-started-with-source-control-plug-ins.md)

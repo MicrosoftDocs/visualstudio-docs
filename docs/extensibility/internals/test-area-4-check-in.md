@@ -61,4 +61,4 @@ This source-control plug-in test area covers sending updated items to the versio
 |Add a project to a blank solution under source control (**Pending Checkins** window)|1.  Create a blank solution.<br />2.  Add the solution to source control.<br />3.  Add a new project.<br />4.  Accept check out of the solution if prompted.<br />5.  Check in solution from **Pending Checkins** window.|Common Expected Behavior.|
 
 ## See Also
- [Test Guide for Source Control Plug-ins](../../extensibility/internals/test-guide-for-source-control-plug-ins.md)
+- [Test Guide for Source Control Plug-ins](../../extensibility/internals/test-guide-for-source-control-plug-ins.md)

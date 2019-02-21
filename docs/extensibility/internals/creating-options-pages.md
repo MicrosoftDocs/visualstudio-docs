@@ -77,5 +77,5 @@ In the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] managed pack
  [!code-vb[UI_UserSettings_ToolsOptionPages#08](../../extensibility/internals/codesnippet/VisualBasic/creating-options-pages_3.vb)]
 
 ## See also
- [Extend user settings and options](../../extensibility/extending-user-settings-and-options.md)
- [Automation support for options pages](../../extensibility/internals/automation-support-for-options-pages.md)
+- [Extend user settings and options](../../extensibility/extending-user-settings-and-options.md)
+- [Automation support for options pages](../../extensibility/internals/automation-support-for-options-pages.md)

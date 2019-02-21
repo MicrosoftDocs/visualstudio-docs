@@ -54,4 +54,4 @@ CreateExpInstance.exe [/Create | /Reset | /Clean] /VSInstance=VsInstance /RootSu
  **CreateExpInstance.exe /Reset /VSInstance=14.0 /RootSuffix=Exp**
 
 ## See also
- [VSPackages](../../extensibility/internals/vspackages.md)
+- [VSPackages](../../extensibility/internals/vspackages.md)

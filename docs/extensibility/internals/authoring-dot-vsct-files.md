@@ -230,6 +230,6 @@ This document shows how to author a *.vsct* file to add menu items, toolbars, an
    A menu controller is a button that has an arrow next to it. Clicking the arrow opens a list. To add a menu controller to the UI, create a `Menu` element and set its `type` attribute to `MenuController` or `MenuControllerLatched`, depending on the behavior you want. To populate a menu controller, set it as the parent of a `Group` element. The menu controller will display all children of that group on its drop-down list.
 
 ## See also
- [Extend menus and commands](../../extensibility/extending-menus-and-commands.md)
- [Visual Studio command table (.vsct) files](../../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
- [VSCT XML schema reference](../../extensibility/vsct-xml-schema-reference.md)
+- [Extend menus and commands](../../extensibility/extending-menus-and-commands.md)
+- [Visual Studio command table (.vsct) files](../../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
+- [VSCT XML schema reference](../../extensibility/vsct-xml-schema-reference.md)

@@ -57,5 +57,5 @@ The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated deve
 -   Events that change the elements traced within the window frame selection context. Examples include changing selection within a DocObject or changing selection in a project-type window.
 
 ## See Also
- [Selection Context Objects](../../extensibility/internals/selection-context-objects.md)
- [Feedback to the User](../../extensibility/internals/feedback-to-the-user.md)
+- [Selection Context Objects](../../extensibility/internals/selection-context-objects.md)
+- [Feedback to the User](../../extensibility/internals/feedback-to-the-user.md)

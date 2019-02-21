@@ -21,5 +21,5 @@ When the user adds or works with projects and project items, the IDE uses the no
  At other times, the project context of an item is not explicitly specified. For example, the context of an item is not available when the user opens a file by selecting the **Open Existing File** command on the **File** menu, when the debugger operates on a file, or when the user clicks the **Find In Files** command in the **Find and Replace** dialog box. To handle these situations, the IDE calls <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument> to manage the process of finding the best project to open a document.
 
 ## See Also
- [Project Priority](../../extensibility/internals/project-priority.md)
- [Adding Project and Project Item Templates](../../extensibility/internals/adding-project-and-project-item-templates.md)
+- [Project Priority](../../extensibility/internals/project-priority.md)
+- [Adding Project and Project Item Templates](../../extensibility/internals/adding-project-and-project-item-templates.md)

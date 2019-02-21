@@ -63,31 +63,31 @@ You can use the *vsct.exe* compiler to convert an existing *.cto* file into a *.
 ## The .vsct file elements
  The command table has the following hierarchy and elements:
 
- [CommandTable element](../../extensibility/commandtable-element.md): Represents all of the commands, menu groups, and menus associated with the VSPackage.
+- [CommandTable element](../../extensibility/commandtable-element.md): Represents all of the commands, menu groups, and menus associated with the VSPackage.
 
- [Extern element](../../extensibility/extern-element.md): References any external .h files you want to merge with the *.vsct* file.
+- [Extern element](../../extensibility/extern-element.md): References any external .h files you want to merge with the *.vsct* file.
 
- [Include element](../../extensibility/include-element.md): References any additional header (.h) files you want to compile along with your *.vsct* file. A *.vsct* file can include *.h* files containing constants that define commands, menu groups, and menus that the IDE or another VSPackage provides.
+- [Include element](../../extensibility/include-element.md): References any additional header (.h) files you want to compile along with your *.vsct* file. A *.vsct* file can include *.h* files containing constants that define commands, menu groups, and menus that the IDE or another VSPackage provides.
 
- [Commands element](../../extensibility/commands-element.md): Represents all of the individual commands that can be executed. Each command has the following four child elements:
+- [Commands element](../../extensibility/commands-element.md): Represents all of the individual commands that can be executed. Each command has the following four child elements:
 
- [Menus element](../../extensibility/menus-element.md): Represents all of the menus and toolbars in the VSPackage. Menus are containers for groups of commands.
+- [Menus element](../../extensibility/menus-element.md): Represents all of the menus and toolbars in the VSPackage. Menus are containers for groups of commands.
 
- [Groups element](../../extensibility/groups-element.md): Represents all of the groups in the VSPackage. Groups are collections of individual commands.
+- [Groups element](../../extensibility/groups-element.md): Represents all of the groups in the VSPackage. Groups are collections of individual commands.
 
- [Buttons element](../../extensibility/buttons-element.md): Represents all of the command buttons and menu items in the VSPackage. Buttons are visual controls that can be associated with commands.
+- [Buttons element](../../extensibility/buttons-element.md): Represents all of the command buttons and menu items in the VSPackage. Buttons are visual controls that can be associated with commands.
 
- [Bitmaps element](../../extensibility/bitmaps-element.md): Represents all of the bitmaps for all of the buttons in the VSPackage. Bitmaps are pictures that display next to or on the command buttons, depending on the context.
+- [Bitmaps element](../../extensibility/bitmaps-element.md): Represents all of the bitmaps for all of the buttons in the VSPackage. Bitmaps are pictures that display next to or on the command buttons, depending on the context.
 
- [CommandPlacements element](../../extensibility/commandplacements-element.md): Indicates additional locations where the individual commands should be sited in the menus of your VSPackage.
+- [CommandPlacements element](../../extensibility/commandplacements-element.md): Indicates additional locations where the individual commands should be sited in the menus of your VSPackage.
 
- [VisibilityConstraints element](../../extensibility/visibilityconstraints-element.md): Specifies whether or not a command displays at all times, or only in certain contexts, such as when a particular dialog box or window is displayed. Menus and commands that have a value for this element will display only when the specified context is active. The default behavior is to display the command at all times.
+- [VisibilityConstraints element](../../extensibility/visibilityconstraints-element.md): Specifies whether or not a command displays at all times, or only in certain contexts, such as when a particular dialog box or window is displayed. Menus and commands that have a value for this element will display only when the specified context is active. The default behavior is to display the command at all times.
 
- [KeyBindings element](../../extensibility/keybindings-element.md): Specifies any key bindings for the commands. That is, one or more key combinations that must be pressed to execute the command, such as **Ctrl**+**S**.
+- [KeyBindings element](../../extensibility/keybindings-element.md): Specifies any key bindings for the commands. That is, one or more key combinations that must be pressed to execute the command, such as **Ctrl**+**S**.
 
- [UsedCommands element](../../extensibility/usedcommands-element.md): Informs the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] environment that although the specified command is implemented by other code, when the current VSPackage is active, it provides the command implementation.
+- [UsedCommands element](../../extensibility/usedcommands-element.md): Informs the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] environment that although the specified command is implemented by other code, when the current VSPackage is active, it provides the command implementation.
 
- [Symbols element](../../extensibility/symbols-element.md): Contains the symbol names and GUID IDs for all of your commands in the package.
+- [Symbols element](../../extensibility/symbols-element.md): Contains the symbol names and GUID IDs for all of your commands in the package.
 
 ## .vsct file design guidelines
  To successfully design a *.vsct* file, follow these guidelines.
@@ -116,4 +116,4 @@ You can use the *vsct.exe* compiler to convert an existing *.cto* file into a *.
  Run the tool by using the command **CreateExpInstance /Reset**. Remember that this tool removes from the experimental hive all the registered VSPackages not normally installed with [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].
 
 ## See also
- [Extend menus and commands](../../extensibility/extending-menus-and-commands.md)
+- [Extend menus and commands](../../extensibility/extending-menus-and-commands.md)

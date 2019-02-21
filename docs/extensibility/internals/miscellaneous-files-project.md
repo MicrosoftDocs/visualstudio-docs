@@ -30,10 +30,10 @@ When a user opens project items, the IDE assigns to the Miscellaneous Files proj
  The Miscellaneous Files project does not require the user to explicitly create it with the **New Project** dialog box. Also, the Miscellaneous Files project does not permanently manage a list of project members. It uses an optional feature to record a list of most recently used files for each user.
 
 ## See Also
- <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3>
- <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument>
- <xref:Microsoft.VisualStudio.Shell.Interop.VSDOCUMENTPRIORITY>
- [How to: Open Project-Specific Editors](../../extensibility/how-to-open-project-specific-editors.md)
- [How to: Open Standard Editors](../../extensibility/how-to-open-standard-editors.md)
- [Adding Project and Project Item Templates](../../extensibility/internals/adding-project-and-project-item-templates.md)
- [Adding Project and Project Item Templates](../../extensibility/internals/adding-project-and-project-item-templates.md)
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3>
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument>
+- <xref:Microsoft.VisualStudio.Shell.Interop.VSDOCUMENTPRIORITY>
+- [How to: Open Project-Specific Editors](../../extensibility/how-to-open-project-specific-editors.md)
+- [How to: Open Standard Editors](../../extensibility/how-to-open-standard-editors.md)
+- [Adding Project and Project Item Templates](../../extensibility/internals/adding-project-and-project-item-templates.md)
+- [Adding Project and Project Item Templates](../../extensibility/internals/adding-project-and-project-item-templates.md)

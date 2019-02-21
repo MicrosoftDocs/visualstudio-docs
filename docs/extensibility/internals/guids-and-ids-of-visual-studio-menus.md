@@ -207,6 +207,6 @@ This article enumerates the GUID and ID values of the menus and groups on the Vi
 |||IDG_VS_PGO_BUILD_CASCADE_RUN|
 
 ## See also
- [GUIDs and IDs of Visual Studio toolbars](../../extensibility/internals/guids-and-ids-of-visual-studio-toolbars.md)
- [GUIDs and IDs of Visual Studio commands](../../extensibility/internals/guids-and-ids-of-visual-studio-commands.md)
- [Visual Studio command table (.vsct) files](../../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
+- [GUIDs and IDs of Visual Studio toolbars](../../extensibility/internals/guids-and-ids-of-visual-studio-toolbars.md)
+- [GUIDs and IDs of Visual Studio commands](../../extensibility/internals/guids-and-ids-of-visual-studio-commands.md)
+- [Visual Studio command table (.vsct) files](../../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

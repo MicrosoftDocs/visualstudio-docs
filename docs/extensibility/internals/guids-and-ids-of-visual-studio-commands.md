@@ -55,6 +55,6 @@ The GUID and ID values of the commands included in the Visual Studio integrated 
      There is no reliable way to search on dynamic text. Instead, find a group that hosts the desired command by consulting [GUIDs and IDs of Visual Studio menus](../../extensibility/internals/guids-and-ids-of-visual-studio-menus.md) or [GUIDs and IDs of Visual Studio toolbars](../../extensibility/internals/guids-and-ids-of-visual-studio-toolbars.md), and search on the ID of that group. If the command definition does not have the group as its [Parent element](../../extensibility/parent-element.md), search *SharedCmdPlace.vsct* and *ShellCmdPlace.vsct* (or *VsDbgCmdPlace.vsct* for debugger commands) for a `<CommandPlacement>` element that sets the parent of the command. *SharedCmdPlace.vsct*, *ShellCmdPlace.vsct*, and *VsDbgCmdPlace.vsct* are in the *\<Visual Studio SDK installation path\>\VisualStudioIntegration\Common\Inc\\* folder.
 
 ## See also
- [MenuCommands vs. OleMenuCommands](../../extensibility/menucommands-vs-olemenucommands.md)
- [Visual Studio command table (.vsct) files](../../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
- [VSCT XML schema reference](../../extensibility/vsct-xml-schema-reference.md)
+- [MenuCommands vs. OleMenuCommands](../../extensibility/menucommands-vs-olemenucommands.md)
+- [Visual Studio command table (.vsct) files](../../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
+- [VSCT XML schema reference](../../extensibility/vsct-xml-schema-reference.md)

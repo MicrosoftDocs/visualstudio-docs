@@ -34,9 +34,9 @@ When a user opens a file in a project, the environment goes through a polling pr
  The environment now rechecks its internal list of registered editors to find the newly registered editor factory for *.rtf* files. The environment calls your implementation of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory.CreateEditorInstance%2A> method, passing in the file name and view type to create.
 
 ## See also
- <xref:Microsoft.VisualStudio.Shell.Interop.IPersistFileFormat>
- <xref:Microsoft.VisualStudio.OLE.Interop.IPersistStorage>
- <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.SetSite%2A>
- <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3.IsDocumentInProject%2A>
- <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3.OpenItem%2A>
- <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.OpenStandardEditor%2A>
+- <xref:Microsoft.VisualStudio.Shell.Interop.IPersistFileFormat>
+- <xref:Microsoft.VisualStudio.OLE.Interop.IPersistStorage>
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.SetSite%2A>
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3.IsDocumentInProject%2A>
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3.OpenItem%2A>
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.OpenStandardEditor%2A>

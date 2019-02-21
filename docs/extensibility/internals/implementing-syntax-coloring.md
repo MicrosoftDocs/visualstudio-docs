@@ -57,7 +57,7 @@ When the language service provides syntax colorization, the parser converts a li
  The managed package framework (MPF) provides all the classes that are required to implement a colorizer. Your language service class should inherit the <xref:Microsoft.VisualStudio.Package.LanguageService> class and implement the required methods. You must supply a scanner and parser by implementing the <xref:Microsoft.VisualStudio.Package.IScanner> interface, and return an instance of that interface from the <xref:Microsoft.VisualStudio.Package.LanguageService.GetScanner%2A> method (one of the methods that must be implemented in the <xref:Microsoft.VisualStudio.Package.LanguageService> class). For more information, see [Syntax Colorizing in a Legacy Language Service](../../extensibility/internals/syntax-colorizing-in-a-legacy-language-service.md).
 
 ## See Also
- [How to: Use Built-In Colorable Items](../../extensibility/internals/how-to-use-built-in-colorable-items.md)
- [Custom Colorable Items](../../extensibility/internals/custom-colorable-items.md)
- [Developing a Legacy Language Service](../../extensibility/internals/developing-a-legacy-language-service.md)
- [Syntax Colorizing in a Legacy Language Service](../../extensibility/internals/syntax-colorizing-in-a-legacy-language-service.md)
+- [How to: Use Built-In Colorable Items](../../extensibility/internals/how-to-use-built-in-colorable-items.md)
+- [Custom Colorable Items](../../extensibility/internals/custom-colorable-items.md)
+- [Developing a Legacy Language Service](../../extensibility/internals/developing-a-legacy-language-service.md)
+- [Syntax Colorizing in a Legacy Language Service](../../extensibility/internals/syntax-colorizing-in-a-legacy-language-service.md)

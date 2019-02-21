@@ -20,4 +20,4 @@ In version 1.2 of the Source Control Plug-in API the SCC information is stored i
  In the Source Control Plug-in API version 1.1, the IDE used ~SAK files to detect if a plug-in supported the MSSCCPRJ.SCC method of storing source control information. The Source Control Plug-in API version 1.2 provides a new capability for detecting the support for MSSCCPRJ.SCC file without using a ~SAK file. For more information, see [Elimination of ~SAK Files](../../extensibility/internals/elimination-of-tilde-sak-files.md).
 
 ## See Also
- [What's New in the Source Control Plug-in API Version 1.2](../../extensibility/internals/what-s-new-in-the-source-control-plug-in-api-version-1-2.md)
+- [What's New in the Source Control Plug-in API Version 1.2](../../extensibility/internals/what-s-new-in-the-source-control-plug-in-api-version-1-2.md)

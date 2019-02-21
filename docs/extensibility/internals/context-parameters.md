@@ -53,9 +53,9 @@ In the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated d
 | `Silent` | Boolean that indicates whether the wizard should run silently as if **Finish** were clicked (`TRUE`). |
 
 ## See Also
- <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject>
- <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject2>
- [Custom parameters](../../extensibility/internals/custom-parameters.md)
- [Wizards](../../extensibility/internals/wizards.md)
- [Wizard (.vsz) file](../../extensibility/internals/wizard-dot-vsz-file.md)
- [Context parameters for launching wizards](https://msdn.microsoft.com/Library/051a10f4-9e45-4604-b344-123044f33a24)
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject>
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject2>
+- [Custom parameters](../../extensibility/internals/custom-parameters.md)
+- [Wizards](../../extensibility/internals/wizards.md)
+- [Wizard (.vsz) file](../../extensibility/internals/wizard-dot-vsz-file.md)
+- [Context parameters for launching wizards](https://msdn.microsoft.com/Library/051a10f4-9e45-4604-b344-123044f33a24)

@@ -143,6 +143,6 @@ You can create an XML-based *.vsct* file from an existing binary *.cto* file. Do
      The first parameter value must match the value of the `ResourceName` attribute you defined in the project file.
 
 ## See also
- [Author .vsct files](../../extensibility/internals/authoring-dot-vsct-files.md)
- [Visual Studio command table (.vsct) files](../../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
- [VSCT XML schema reference](../../extensibility/vsct-xml-schema-reference.md)
+- [Author .vsct files](../../extensibility/internals/authoring-dot-vsct-files.md)
+- [Visual Studio command table (.vsct) files](../../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
+- [VSCT XML schema reference](../../extensibility/vsct-xml-schema-reference.md)

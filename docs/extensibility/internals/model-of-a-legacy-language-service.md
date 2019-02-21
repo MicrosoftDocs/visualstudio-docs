@@ -43,4 +43,4 @@ A language service defines the elements and features for a specific language, an
 | Language service | Implementation dependent; implements <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageInfo> | An object that provides the editor with language-specific information such as syntax highlighting, statement completion, and brace matching. |
 
 ## See Also
- [Document Data and Document View in Custom Editors](../../extensibility/document-data-and-document-view-in-custom-editors.md)
+- [Document Data and Document View in Custom Editors](../../extensibility/document-data-and-document-view-in-custom-editors.md)

@@ -53,4 +53,4 @@ This test area covers sharing items between locations via the **Share** command.
 |Share several files from one project to another|1.  Create a new project with several files in it.<br />2.  Add the solution to source control.<br />3.  Close the solution.<br />4.  Create a new project in a new solution.<br />5.  Add the solution to source control.<br />6.  Select the project.<br />7.  Open the **Share** dialog box (**File** -> **Source Control** -> **Share**).<br />8.  Share several files from the previously created project to the currently open project.|Common Expected Behavior.|
 
 ## See Also
- [Test Guide for Source Control Plug-ins](../../extensibility/internals/test-guide-for-source-control-plug-ins.md)
+- [Test Guide for Source Control Plug-ins](../../extensibility/internals/test-guide-for-source-control-plug-ins.md)

@@ -30,4 +30,4 @@ ms.workload:
  This method must behave in a transactional manner; that is, if the save is cancelled on a single file, the save is cancelled for all the files. Conversely, if the save is allowed, it must be allowed for all the files. As with the `IVsQueryEditQuerySave2::QueryEditFiles` method, cases to consider in implementing the `IVsQueryEditQuerySave2::QuerySaveFiles` method include multiple files, special files, cancel from user, and in-memory edits.
 
 ## See Also
- <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2>
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2>

@@ -33,4 +33,4 @@ If you want to create a fully featured language service filter, consider handlin
 |<xref:Microsoft.VisualStudio.VSConstants.VSStd2KCmdID><br /><br /> <xref:Microsoft.VisualStudio.VSConstants.VSStd2KCmdID>|Sent from a menu, typically **Comment Selection** or **Uncomment Selection** from **Advanced** in the **Edit** menu. <xref:Microsoft.VisualStudio.VSConstants.VSStd2KCmdID> indicates that the user wants to comment out the selected text; <xref:Microsoft.VisualStudio.VSConstants.VSStd2KCmdID> indicates that the user wants to uncomment the selected text. These commands can be implemented only by the language service.|
 
 ## See Also
- [Developing a Legacy Language Service](../../extensibility/internals/developing-a-legacy-language-service.md)
+- [Developing a Legacy Language Service](../../extensibility/internals/developing-a-legacy-language-service.md)

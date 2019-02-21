@@ -34,8 +34,8 @@ The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated deve
 3.  The VSPackage acts on the events it receives by performing activities such as updating a hierarchy, reactivating a tool, or other similar tasks.
 
 ## See Also
- <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackSelectionEx>
- <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection>
- [Hierarchies in Visual Studio](../../extensibility/internals/hierarchies-in-visual-studio.md)
- [Selection and Currency in the IDE](../../extensibility/internals/selection-and-currency-in-the-ide.md)
- [Project Types](../../extensibility/internals/project-types.md)
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackSelectionEx>
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection>
+- [Hierarchies in Visual Studio](../../extensibility/internals/hierarchies-in-visual-studio.md)
+- [Selection and Currency in the IDE](../../extensibility/internals/selection-and-currency-in-the-ide.md)
+- [Project Types](../../extensibility/internals/project-types.md)

@@ -58,5 +58,5 @@ RegPkg [/root:<root>] [/regfile:<regfile>] [/rgsfile:<rgsfile> [/rgm]] [/vrgfile
  with /regfile or /vrgfile or /rgsfile or /wixfile.
 
 ## See Also
- [VSPackages](../../extensibility/internals/vspackages.md)
- [Troubleshooting RegPkg Package Registration](../../extensibility/internals/troubleshooting-regpkg-package-registration.md)
+- [VSPackages](../../extensibility/internals/vspackages.md)
+- [Troubleshooting RegPkg Package Registration](../../extensibility/internals/troubleshooting-regpkg-package-registration.md)

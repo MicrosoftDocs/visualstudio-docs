@@ -36,9 +36,9 @@ The interfaces and implementations of all projects in [!INCLUDE[vsprvs](../../co
   Projects can support commands and therefore must implement the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface to participate in command routing through the command context GUIDs.
 
 ## See also
- [Checklist: Create new project types](../../extensibility/internals/checklist-creating-new-project-types.md)
- [Use HierUtil7 project classes to implement a project type (C++)](https://msdn.microsoft.com/library/a5c16a09-94a2-46ef-87b5-35b815e2f346)
- [Project model core components](../../extensibility/internals/project-model-core-components.md)
- [Create project instances by using project factories](../../extensibility/internals/creating-project-instances-by-using-project-factories.md)
- [How to: Get a service](../../extensibility/how-to-get-a-service.md)
- [Create project types](../../extensibility/internals/creating-project-types.md)
+- [Checklist: Create new project types](../../extensibility/internals/checklist-creating-new-project-types.md)
+- [Use HierUtil7 project classes to implement a project type (C++)](https://msdn.microsoft.com/library/a5c16a09-94a2-46ef-87b5-35b815e2f346)
+- [Project model core components](../../extensibility/internals/project-model-core-components.md)
+- [Create project instances by using project factories](../../extensibility/internals/creating-project-instances-by-using-project-factories.md)
+- [How to: Get a service](../../extensibility/how-to-get-a-service.md)
+- [Create project types](../../extensibility/internals/creating-project-types.md)

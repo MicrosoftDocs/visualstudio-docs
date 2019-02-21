@@ -31,4 +31,4 @@ This section elaborates the choices of source control plug-ins and source contro
 4.  Handle Query Edit and Query Save events (see [Query Edit Query Save](../../extensibility/internals/query-edit-query-save-source-control-vspackage.md)).
 
 ## See also
- [Create a source control plug-in](../../extensibility/internals/creating-a-source-control-plug-in.md)
+- [Create a source control plug-in](../../extensibility/internals/creating-a-source-control-plug-in.md)

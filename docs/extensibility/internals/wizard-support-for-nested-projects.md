@@ -23,5 +23,5 @@ The IDE runs two wizards that the parent project for nested projects can impleme
  For more information about wizards, see [Wizard (.Vsz) File](../../extensibility/internals/wizard-dot-vsz-file.md), [Context Parameters](../../extensibility/internals/context-parameters.md) and [Registering Project and Item Templates](../../extensibility/internals/registering-project-and-item-templates.md).
 
 ## See Also
- <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy>
- [Nesting Projects](../../extensibility/internals/nesting-projects.md)
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy>
+- [Nesting Projects](../../extensibility/internals/nesting-projects.md)

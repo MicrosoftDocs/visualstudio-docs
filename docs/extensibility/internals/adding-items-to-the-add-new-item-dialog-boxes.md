@@ -73,9 +73,9 @@ The process for adding items to the **Add New Item** dialog box starts with the 
   If you implement this filter functionality, you do not have to map a table of every item that should be hidden. You can simply classify items into types and put the classifications in the *.vsdir* file or files. Then you can hide any of the items that have a specific classification by implementing the interface. In this way, you can make the items in the **Add New Item** dialog box dynamic based on the state within the project.
 
 ## See also
- <xref:Microsoft.VisualStudio.Shell.Interop.IVsFilterAddProjectItemDlg2>
- [Register project and item templates](../../extensibility/internals/registering-project-and-item-templates.md)
- [CATIDs for objects that are typically used to extend projects](../../extensibility/internals/catids-for-objects-that-are-typically-used-to-extend-projects.md)
- [Add project and project item templates](../../extensibility/internals/adding-project-and-project-item-templates.md)
- [Template directory description (.vsdir) files](../../extensibility/internals/template-directory-description-dot-vsdir-files.md)
- [Wizard (.vsz) file](../../extensibility/internals/wizard-dot-vsz-file.md)
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsFilterAddProjectItemDlg2>
+- [Register project and item templates](../../extensibility/internals/registering-project-and-item-templates.md)
+- [CATIDs for objects that are typically used to extend projects](../../extensibility/internals/catids-for-objects-that-are-typically-used-to-extend-projects.md)
+- [Add project and project item templates](../../extensibility/internals/adding-project-and-project-item-templates.md)
+- [Template directory description (.vsdir) files](../../extensibility/internals/template-directory-description-dot-vsdir-files.md)
+- [Wizard (.vsz) file](../../extensibility/internals/wizard-dot-vsz-file.md)

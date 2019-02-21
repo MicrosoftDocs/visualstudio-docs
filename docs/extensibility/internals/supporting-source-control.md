@@ -15,19 +15,24 @@ ms.workload:
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] supports file checkouts, check-ins, and other source control operations for your project or editor. As a source control client, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] is designed to interact with a source control package, such as [!INCLUDE[vsvss](../../extensibility/includes/vsvss_md.md)], which provides archiving, versioning, and control facilities for a dynamically defined set of files.
 
 ## In This Section
- [Model for Source Control Packages](../../extensibility/internals/model-for-source-control-packages.md)
+- [Model for Source Control Packages](../../extensibility/internals/model-for-source-control-packages.md)
+
  Describes the interfaces a project type must implement to support source control.
 
- [Design Decisions](../../extensibility/internals/source-control-design-decisions.md)
+- [Design Decisions](../../extensibility/internals/source-control-design-decisions.md)
+
  Provides questions whose answers change how you implement a project type.
 
- [Configuration Details](../../extensibility/internals/source-control-configuration-details.md)
+- [Configuration Details](../../extensibility/internals/source-control-configuration-details.md)
+
  Describes how supporting source control changes the implementation of a project type.
 
- [Additional Guidelines for Projects and Editors](../../extensibility/internals/additional-source-control-guidelines-for-projects-and-editors.md)
+- [Additional Guidelines for Projects and Editors](../../extensibility/internals/additional-source-control-guidelines-for-projects-and-editors.md)
+
  Discusses best practices for project types and editors.
 
- [Runtime Details](../../extensibility/internals/source-control-runtime-details.md)
+- [Runtime Details](../../extensibility/internals/source-control-runtime-details.md)
+
  Describes how to register a project when a user adds it to a source-control system.
 
 ## Reference
@@ -47,5 +52,6 @@ ms.workload:
  Notifies clients of changes that were made to project files or directories.
 
 ## Related Sections
- [Project Types](../../extensibility/internals/project-types.md)
+- [Project Types](../../extensibility/internals/project-types.md)
+
  Provides an overview of projects as the basic building blocks of the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE). Links are provided to additional topics that explain how projects control building and compiling code.

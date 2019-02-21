@@ -27,8 +27,8 @@ Before you use the built-in colorable items, you must first signal to the integr
    >  Do not set this registry entry if you are providing custom colorable items. For more information, see [Custom colorable items](../../extensibility/internals/custom-colorable-items.md).
 
 ## See also
- [Syntax coloring in custom editors](../../extensibility/syntax-coloring-in-custom-editors.md)
- [Syntax coloring in a legacy language service](../../extensibility/internals/syntax-coloring-in-a-legacy-language-service.md)
- [Implementing syntax coloring](../../extensibility/internals/implementing-syntax-coloring.md)
- [Custom colorable items](../../extensibility/internals/custom-colorable-items.md)
- [Register a legacy language service](../../extensibility/internals/registering-a-legacy-language-service2.md)
+- [Syntax coloring in custom editors](../../extensibility/syntax-coloring-in-custom-editors.md)
+- [Syntax coloring in a legacy language service](../../extensibility/internals/syntax-coloring-in-a-legacy-language-service.md)
+- [Implementing syntax coloring](../../extensibility/internals/implementing-syntax-coloring.md)
+- [Custom colorable items](../../extensibility/internals/custom-colorable-items.md)
+- [Register a legacy language service](../../extensibility/internals/registering-a-legacy-language-service2.md)

@@ -32,6 +32,6 @@ Deployment is the act of physically moving the output items from a build process
   Configurations can specify dependencies that affect their build or deployment operations. Build or deploy dependencies are projects that must either be built or deployed before or after the configurations themselves are built or deployed. Build dependencies between projects are described with the <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildDependency> interface and deploy dependencies with the <xref:Microsoft.VisualStudio.Shell.Interop.IVsDeployDependency> interface. For more information, see [Project Configuration for Building](../../extensibility/internals/project-configuration-for-building.md).
 
 ## See Also
- [Managing Configuration Options](../../extensibility/internals/managing-configuration-options.md)
- [Project Configuration for Building](../../extensibility/internals/project-configuration-for-building.md)
- [Project Configuration for Output](../../extensibility/internals/project-configuration-for-output.md)
+- [Managing Configuration Options](../../extensibility/internals/managing-configuration-options.md)
+- [Project Configuration for Building](../../extensibility/internals/project-configuration-for-building.md)
+- [Project Configuration for Output](../../extensibility/internals/project-configuration-for-output.md)

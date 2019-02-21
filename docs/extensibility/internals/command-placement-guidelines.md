@@ -50,5 +50,5 @@ Best practices for positioning commands in the Visual Studio integrated developm
 -   In the `CommandPlacements` element section, the entries that populate a given menu or group should be adjacent to one another. This aids readability and makes the `Priority` rankings easier to determine.
 
 ## See also
- [How VSPackages add user interface elements](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)
- [Visual Studio command table (.vsct) files](../../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
+- [How VSPackages add user interface elements](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)
+- [Visual Studio command table (.vsct) files](../../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

@@ -37,9 +37,9 @@ In [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)] you can provi
 6. Your source control VSPackage must listen to events such as those implementing the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionEvents3> interface as well as Track Project Document (TPD) events (as implemented by the <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackProjectDocuments2> interface) and take necessary action.
 
 ## See Also
- <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2>
- <xref:Microsoft.VisualStudio.Shell.Interop.IVsSccProvider>
- <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionEvents3>
- <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackProjectDocuments2>
- [Overview](../../extensibility/internals/source-control-integration-overview.md)
- [Creating a Source Control VSPackage](../../extensibility/internals/creating-a-source-control-vspackage.md)
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2>
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsSccProvider>
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionEvents3>
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackProjectDocuments2>
+- [Overview](../../extensibility/internals/source-control-integration-overview.md)
+- [Creating a Source Control VSPackage](../../extensibility/internals/creating-a-source-control-vspackage.md)

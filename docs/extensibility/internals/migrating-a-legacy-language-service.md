@@ -102,4 +102,4 @@ You can migrate a legacy language service to a later version of Visual Studio by
 12. Start debugging. A second instance of Visual Studio opened.
 
 ## See Also
- [Legacy Language Service Extensibility](../../extensibility/internals/legacy-language-service-extensibility.md)
+- [Legacy Language Service Extensibility](../../extensibility/internals/legacy-language-service-extensibility.md)

@@ -57,5 +57,5 @@ namespace MyLanguagePackage
 ```
 
 ## See also
- [Legacy language service features](../../extensibility/internals/legacy-language-service-features1.md)
- [Register a legacy language service](../../extensibility/internals/registering-a-legacy-language-service1.md)
+- [Legacy language service features](../../extensibility/internals/legacy-language-service-features1.md)
+- [Register a legacy language service](../../extensibility/internals/registering-a-legacy-language-service1.md)

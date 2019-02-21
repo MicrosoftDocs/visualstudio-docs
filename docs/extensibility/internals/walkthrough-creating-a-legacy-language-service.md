@@ -125,4 +125,4 @@ Using the managed package framework (MPF) language classes to implement a langua
      For example, type `public override` to see a list of all methods that can be overridden in that class.
 
 ## See Also
- [Implementing a Legacy Language Service](../../extensibility/internals/implementing-a-legacy-language-service1.md)
+- [Implementing a Legacy Language Service](../../extensibility/internals/implementing-a-legacy-language-service1.md)

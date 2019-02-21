@@ -50,6 +50,6 @@ Solution configurations store solution-level properties. They direct the behavio
   Once a new solution configuration is added, the user can select it from the Solution Configuration drop-down list box on the standard toolbar to build and/or start that configuration.
 
 ## See Also
- [Managing Configuration Options](../../extensibility/internals/managing-configuration-options.md)
- [Project Configuration for Building](../../extensibility/internals/project-configuration-for-building.md)
- [Project Configuration Object](../../extensibility/internals/project-configuration-object.md)
+- [Managing Configuration Options](../../extensibility/internals/managing-configuration-options.md)
+- [Project Configuration for Building](../../extensibility/internals/project-configuration-for-building.md)
+- [Project Configuration Object](../../extensibility/internals/project-configuration-object.md)

@@ -93,4 +93,4 @@ namespace TestLanguagePackage
 ```
 
 ## See Also
- [Legacy Language Service Features](../../extensibility/internals/legacy-language-service-features1.md)
+- [Legacy Language Service Features](../../extensibility/internals/legacy-language-service-features1.md)

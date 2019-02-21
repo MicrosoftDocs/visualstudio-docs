@@ -56,4 +56,4 @@ This section lists all the source control VSPackage-related interfaces in the [!
 | <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionEvents3> | This interface is used to monitor events in order to perform operations such as checking in project files before closing solutions, or getting new files from source control when opening a project. | Source control VSPackage | Recommended |
 
 ## See Also
- [Design Elements](../../extensibility/internals/source-control-vspackage-design-elements.md)
+- [Design Elements](../../extensibility/internals/source-control-vspackage-design-elements.md)

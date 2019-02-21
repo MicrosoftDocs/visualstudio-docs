@@ -353,7 +353,7 @@ public enum IconImageIndex
 ```
 
 ## See Also
- [Implementing a Legacy Language Service](../../extensibility/internals/implementing-a-legacy-language-service1.md)
- [Legacy Language Service Overview](../../extensibility/internals/legacy-language-service-overview.md)
- [Registering a Legacy Language Service](../../extensibility/internals/registering-a-legacy-language-service1.md)
- [Legacy Language Service Parser and Scanner](../../extensibility/internals/legacy-language-service-parser-and-scanner.md)
+- [Implementing a Legacy Language Service](../../extensibility/internals/implementing-a-legacy-language-service1.md)
+- [Legacy Language Service Overview](../../extensibility/internals/legacy-language-service-overview.md)
+- [Registering a Legacy Language Service](../../extensibility/internals/registering-a-legacy-language-service1.md)
+- [Legacy Language Service Parser and Scanner](../../extensibility/internals/legacy-language-service-parser-and-scanner.md)
