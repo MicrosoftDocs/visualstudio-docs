@@ -17,10 +17,10 @@ ms.workload:
   - "multiple"
 ---
 # MSBuild task reference
+
 Tasks provide the code that runs during the build process. The tasks in the following list are included with [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]. When [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] is installed, additional tasks are available that are used to build [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] projects. For more information, see [Visual C++ tasks](../msbuild/msbuild-tasks-specific-to-visual-cpp.md).
 
- In addition to the parameters listed in the topics in this section, each task also has the following parameters:
-
+In addition to the parameters listed in the topics in this section, each task also has the following parameters:
 
 | Parameter | Description |
 |-------------------| - |
@@ -28,6 +28,7 @@ Tasks provide the code that runs during the build process. The tasks in the foll
 | `ContinueOnError` | Optional parameter. Can contain one of the following values:<br /><br /> -   **WarnAndContinue** or **true**. When a task fails, subsequent tasks in the [Target](../msbuild/target-element-msbuild.md) element and the build continue to execute, and all errors from the task are treated as warnings.<br />-   **ErrorAndContinue**. When a task fails, subsequent tasks in the `Target` element and the build continue to execute, and all errors from the task are treated as errors.<br />-   **ErrorAndStop** or **false** (default). When a task fails, the remaining tasks in the `Target` element and the build aren't executed, and the entire `Target` element and the build is considered to have failed.<br /><br /> Versions of the .NET Framework before 4.5 supported only the `true` and `false` values.<br /><br /> For more information, see [How to: Ignore errors in tasks](../msbuild/how-to-ignore-errors-in-tasks.md). |
 
 ## In this section
+
 - [Task base class](../msbuild/task-base-class.md)
 
  Adds several parameters to the tasks that derive from the <xref:Microsoft.Build.Utilities.Task> class.
@@ -212,7 +213,8 @@ Tasks provide the code that runs during the build process. The tasks in the foll
 
  Determines whether the application requires the .NET Framework 3.5 SP1.
 
- ResGen Task
+- ResGen Task
+
  Obsolete. Use the [GenerateResource task](../msbuild/generateresource-task.md) task to convert *.txt* and *.resx* files to and from common language runtime binary *.resources* files.
 
 - [ResolveAssemblyReference task](../msbuild/resolveassemblyreference-task.md)
@@ -295,7 +297,7 @@ Tasks provide the code that runs during the build process. The tasks in the foll
 
  Transforms an XML input by using an *Extensible Stylesheet Language Transformation* (XSLT) or compiled XSLT and outputs to an output device or a file.
 
-  [ZipDirectory task](../msbuild/zipdirectory-task.md)
+- [ZipDirectory task](../msbuild/zipdirectory-task.md)
 
  Creates a *.zip* archive from the contents of a directory.
 
