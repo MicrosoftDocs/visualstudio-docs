@@ -55,7 +55,7 @@ An XML command table (*.vsct*) file describes the layout and appearance of comma
 - Keybinding: You no longer have to specify an emulator. If you do specify one, the compiler will assume that the editor and the emulator are the same.
 
 - Keychord: Keychord has been dropped. The new format is *Key1,Mod1,Key2,Mod2*.  You can specify either a character, hexadecimal, or VK constant.
-       
+
 The new compiler, *vsct.exe*, compiles both *.ctc* and *.vsct* files. The old *ctc.exe* compiler, however, will not recognize or compile *.vsct* files.
 
 You can use the *vsct.exe* compiler to convert an existing *.cto* file into a *.vsct* file. For more information, see [How to: Create a .vsct file from an existing .cto file](../../extensibility/internals/how-to-create-a-dot-vsct-file.md#how-to-create-a-dot-vsct-file-from-an-existing-dot-cto-file).
