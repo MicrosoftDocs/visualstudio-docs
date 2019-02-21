@@ -1,9 +1,9 @@
 ---
-title: Visual Studio Container Tools multicontainer tutorial with ASP.NET Core
+title: Visual Studio Container Tools multicontainer tutorial with Docker Compose and ASP.NET Core
 author: ghogen
-description: Learn how to use multiple containers with Docker for Windows
+description: Learn how to use multiple containers with Docker Compose
 ms.author: ghogen
-ms.date: 02/01/2019
+ms.date: 02/21/2019
 ms.prod: visual-studio-dev15
 ms.technology: vs-azure
 ms.topic: include
@@ -27,9 +27,9 @@ In this tutorial, you'll learn how to manage more than one container and communi
 * [.NET Core 2.2 Development Tools](https://dotnet.microsoft.com/download/dotnet-core/2.2) for development with .NET Core 2.2
 ::: moniker-end
 
-## Create a Web Site project
+## Create a Web Application project
 
-1. In Visual Studio, create an **ASP.NET Core Web Application** project, named *WebFrontEnd*. Select **Web Application** to create a web application with Razor pages. Be sure that Enable Docker Support is selected, and that the container OS matches the OS selected in Docker Desktop.
+1. In Visual Studio, create an **ASP.NET Core Web Application** project, named *WebFrontEnd*. Select **Web Application** to create a web application with Razor pages. Be sure that **Enable Docker Support** is selected, and that the container OS matches the OS selected in Docker Desktop.
   
 ::: moniker range="vs-2017"
    ![Screenshot of creating the web front end project](./media/tutorial-multicontainer/docker-tutorial-enable-docker-support.png)
@@ -209,7 +209,7 @@ In this tutorial, you'll learn how to manage more than one container and communi
           dockerfile: MyWebAPI/Dockerfile
     ```
 
-1. Run the site locally now (F5 or CTRL+F5) to verify that it works as expected. If everything works as expected, you see the message "Hello from webfrontend and webapi (with value 1)."
+1. Run the site locally now (F5 or CTRL+F5) to verify that it works as expected. If everything is configured correctly, you see the message "Hello from webfrontend and webapi (with value 1)."
 
 ## Next steps
 
