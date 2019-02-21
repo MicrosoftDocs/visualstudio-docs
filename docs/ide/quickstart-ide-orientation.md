@@ -75,7 +75,7 @@ Let's build the project to see some build output. From the **Build** menu, choos
 
 The **Quick Launch** box is a quick and easy way to do pretty much anything in Visual Studio. You can enter some text related to what you want to do, and it'll show you a list of options that pertain to the text. For example, imagine you want to increase the build output's verbosity to display additional details about what exactly build is doing. Here's how you might do that:
 
-1. Type **verbosity** into the **Quick Launch** box. From the displayed results, choose **Projects and Solutions --> Build and Run** under the **Options** category.
+1. Type **verbosity** into the **Quick Launch** box (or, press **Ctrl**+**Q** to access it). From the displayed results, choose **Projects and Solutions --> Build and Run** under the **Options** category.
 
    ![Quick launch box in Visual Studio](media/quickstart-IDE-quick-launch.png)
 
