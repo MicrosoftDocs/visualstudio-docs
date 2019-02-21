@@ -672,15 +672,15 @@
       href: ide/environment-settings.md
     - name: Synchronized settings
       href: ide/synchronized-settings-in-visual-studio.md
-    - name: Change fonts and colors
+    - name: Fonts and colors
       href: ide/how-to-change-fonts-and-colors-in-visual-studio.md
-    - name: Customize menus and toolbars
+    - name: Menus and toolbars
       href: ide/how-to-customize-menus-and-toolbars-in-visual-studio.md
-    - name: Customize window layouts
+    - name: Window layouts
       href: ide/customizing-window-layouts-in-visual-studio.md
-    - name: Customize file nesting in Solution Explorer
+    - name: File nesting in Solution Explorer
       href: ide/file-nesting-solution-explorer.md
-    - name: Customize the Start page
+    - name: Startup behavior
       href: ide/customizing-the-start-page-for-visual-studio.md
     - name: Find and use Visual Studio extensions
       href: ide/finding-and-using-visual-studio-extensions.md

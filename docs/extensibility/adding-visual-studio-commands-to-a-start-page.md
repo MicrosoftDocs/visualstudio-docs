@@ -11,27 +11,30 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+monikerRange: vs-2017
 ---
 # Add Visual Studio commands to a Start Page
+
 When you create a custom Start Page, you can add Visual Studio commands to it. This document discusses the different ways to bind Visual Studio commands to XAML objects on a Start Page.
 
- For more information about commands in XAML, see [Commanding overview](/dotnet/framework/wpf/advanced/commanding-overview)
+For more information about commands in XAML, see [Commanding overview](/dotnet/framework/wpf/advanced/commanding-overview)
 
 ## Add commands from the command well
- The Start Page created in [Create a custom Start Page](../extensibility/creating-a-custom-start-page.md) added the <xref:Microsoft.VisualStudio.PlatformUI?displayProperty=fullName> and <xref:Microsoft.VisualStudio.Shell?displayProperty=fullName> namespaces, as follows.
 
-```
+The Start Page created in [Create a custom Start Page](../extensibility/creating-a-custom-start-page.md) added the <xref:Microsoft.VisualStudio.PlatformUI?displayProperty=fullName> and <xref:Microsoft.VisualStudio.Shell?displayProperty=fullName> namespaces, as follows.
+
+```xml
 xmlns:vs="clr-namespace:Microsoft.VisualStudio.PlatformUI;assembly=Microsoft.VisualStudio.Shell.14.0"
 xmlns:vsfx="clr-namespace:Microsoft.VisualStudio.Shell;assembly=Microsoft.VisualStudio.Shell.14.0"
 ```
 
- Add another namespace for Microsoft.VisualStudio.Shell from the assembly *Microsoft.VisualStudio.Shell.Immutable.11.0.dll*. (You may need to add a reference to this assembly in your project.)
+Add another namespace for Microsoft.VisualStudio.Shell from the assembly *Microsoft.VisualStudio.Shell.Immutable.11.0.dll*. (You may need to add a reference to this assembly in your project.)
 
 ```xml
 xmlns:vscom="clr-namespace:Microsoft.VisualStudio.Shell;assembly=Microsoft.VisualStudio.Shell.Immutable.11.0"
 ```
 
- You can use the `vscom:` alias to bind Visual Studio commands to XAML controls on the page by setting the <xref:System.Windows.Controls.Primitives.ButtonBase.Command%2A> property of the control to `vscom:VSCommands.ExecuteCommand`. You can then set the <xref:System.Windows.Controls.Primitives.ButtonBase.CommandParameter%2A> property to the name of the command to execute, as shown in the following example.
+You can use the `vscom:` alias to bind Visual Studio commands to XAML controls on the page by setting the <xref:System.Windows.Controls.Primitives.ButtonBase.Command%2A> property of the control to `vscom:VSCommands.ExecuteCommand`. You can then set the <xref:System.Windows.Controls.Primitives.ButtonBase.CommandParameter%2A> property to the name of the command to execute, as shown in the following example.
 
 ```xml
 <Button Name="btnNewProj" Content="New Project"
@@ -102,4 +105,5 @@ xmlns:vscom="clr-namespace:Microsoft.VisualStudio.Shell;assembly=Microsoft.Visua
  For an example, see [Walkthrough: Saving user settings on a Start Page](../extensibility/walkthrough-saving-user-settings-on-a-start-page.md).
 
 ## See also
+
 - [Adding user control to the Start Page](../extensibility/adding-user-control-to-the-start-page.md)

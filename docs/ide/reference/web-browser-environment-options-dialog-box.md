@@ -9,7 +9,6 @@ f1_keywords:
 helpviewer_keywords:
   - "browsers, customizing"
   - "searching, search page for Web browser"
-  - "Visual Studio Start page, default URL"
   - "Web browsers, customizing"
   - "searches, default Web browser search page"
   - "URLs, specifying VS home page"

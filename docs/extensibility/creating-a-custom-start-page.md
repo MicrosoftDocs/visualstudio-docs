@@ -8,14 +8,15 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+monikerRange: vs-2017
 ---
 # Creating a custom Start Page
+
 You can create a custom Start Page by following the steps in this document.
 
 ## Create a blank Start Page
- First, make a blank Start Page by creating a *.xaml* file that has a tag structure that Visual Studio will recognize. Then, add markup and code-behind to produce the appearance and functionality you want.
 
-### To create a blank Start Page
+First, make a blank Start Page by creating a *.xaml* file that has a tag structure that Visual Studio will recognize. Then, add markup and code-behind to produce the appearance and functionality you want.
 
 1.  Create a new project of the type **WPF Application** (**Visual C#** > **Windows Desktop**).
 
@@ -57,7 +58,8 @@ You can create a custom Start Page by following the steps in this document.
 6.  Add controls to the empty \<UserControl> element to fill in your custom Start Page. For information about how to add functionality that is specific to Visual Studio, see [Add Visual Studio commands to a Start Page](../extensibility/adding-visual-studio-commands-to-a-start-page.md).
 
 ## Test and apply the custom Start Page
- Do not set the primary instance of Visual Studio to run the custom Start Page until you verify that it does not crash Visual Studio. Instead, test it in the experimental instance.
+
+Do not set the primary instance of Visual Studio to run the custom Start Page until you verify that it does not crash Visual Studio. Instead, test it in the experimental instance.
 
 ### To test a manually-created custom Start Page
 
@@ -78,6 +80,7 @@ You can create a custom Start Page by following the steps in this document.
 -   After you have tested your Start Page and found it to be stable, use the **Customize Start Page** option in the **Options** dialog box to select it as the start page in the primary instance of Visual Studio
 
 ## See also
+
 - [Walkthrough: Add custom XAML to the Start Page](../extensibility/walkthrough-adding-custom-xaml-to-the-start-page.md)
 - [Add user control to the Start Page](../extensibility/adding-user-control-to-the-start-page.md)
 - [Add Visual Studio commands to a Start Page](../extensibility/adding-visual-studio-commands-to-a-start-page.md)

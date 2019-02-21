@@ -53,7 +53,7 @@ ms.workload:
 </ui:DialogWindow>
 ```
 
-code behind:
+Code behind:
 
 ```csharp
 internal partial class WebConfigModificationWindow : DialogWindow
@@ -96,7 +96,7 @@ xmlns:vsui="clr-namespace:Microsoft.VisualStudio.Shell;assembly=Microsoft.Visual
 
 #### 375% Environment font + Light
  **Appears as:** 34 pt Segoe UI Light
- **Use for:** (rare) unique branded UI, like in the Start Page
+ **Use for:** (rare) unique branded UI, like in the Visual Studio 2017 Start Page
 
  **Procedural code:** Where `textBlock` is a previously defined TextBlock and `label` is a previously defined Label:
 
@@ -403,7 +403,7 @@ protected static void SetFontStyles(Control topControl, Control parent, Font ref
 
 |||
 |-|-|
-|**Usage:** Rare. Unique branded UI only.<br /><br /> **Do:**<br /><br /> -   Use sentence case<br />-   Always use Light weight<br /><br /> **Don't:**<br /><br /> -   Use for UI other than signature UI such as Start Page<br />-   Bold, italic, or bold italic<br />-   Use for body text<br />-   Use in tool windows|**Appears as:** 34 pt Segoe UI Light<br /><br /> **Visual example:**<br /><br /> *Currently not used. May be used in the Start Page.*|
+|**Usage:** Rare. Unique branded UI only.<br /><br /> **Do:**<br /><br /> -   Use sentence case<br />-   Always use Light weight<br /><br /> **Don't:**<br /><br /> -   Use for UI other than signature UI such as Start Page<br />-   Bold, italic, or bold italic<br />-   Use for body text<br />-   Use in tool windows|**Appears as:** 34 pt Segoe UI Light<br /><br /> **Visual example:**<br /><br /> *Currently not used. May be used in the Visual Studio 2017 Start Page.*|
 
 #### 310% Environment font + Light
 
@@ -456,6 +456,7 @@ protected static void SetFontStyles(Control topControl, Control parent, Font ref
 
 -   Bolded environment font text should follow default line height spacing and padding.
 
-## See Also
+## See also
+
 - [MSDN: Fonts (Windows)](/windows/desktop/uxguide/vis-fonts)
 - [MSDN: User Interface Text (Windows)](/windows/desktop/uxguide/text-ui)

@@ -8,26 +8,26 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+monikerRange: vs-2017
 ---
 # Walkthrough: Save user settings on a Start Page
+
 You can persist user settings for your Start Page. By following this walkthrough, you can create a control that saves a setting to the registry when the user clicks a button, and then retrieves that setting every time the Start Page loads. Because the Start Page project template includes a customizable user control, and the default Start Page XAML calls that control, you don't have to modify the Start Page itself.
 
- The settings store that is instantiated in this walkthrough is an instance of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsWritableSettingsStore> interface, which reads and writes to the following registry location when it's called: **HKCU\Software\Microsoft\VisualStudio\14.0\\\<CollectionName>**
+The settings store that is instantiated in this walkthrough is an instance of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsWritableSettingsStore> interface, which reads and writes to the following registry location when it's called: **HKCU\Software\Microsoft\VisualStudio\14.0\\\<CollectionName>**
 
- When it's running in the experimental instance of Visual Studio, the settings store reads and writes to **HKCU\Software\Microsoft\VisualStudio\14.0Exp\\\<CollectionName>.**
+When it's running in the experimental instance of Visual Studio, the settings store reads and writes to **HKCU\Software\Microsoft\VisualStudio\14.0Exp\\\<CollectionName>.**
 
- For more information about how to persist settings, see [Extending User Settings and Options](../extensibility/extending-user-settings-and-options.md).
+For more information about how to persist settings, see [Extending User Settings and Options](../extensibility/extending-user-settings-and-options.md).
 
 ## Prerequisites
 
 > [!NOTE]
->  To follow this walkthrough, you must install the Visual Studio SDK. For more information, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md).
+> To follow this walkthrough, you must install the Visual Studio SDK. For more information, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md).
 >
->  You can download the Start Page project template by using **Extension Manager**.
+> You can download the Start Page project template by using **Extension Manager**.
 
-## Setting up the project
-
-### To configure the project for this walkthrough
+## Set up the project
 
 1.  Create a Start Page project as described in [Create a custom Start Page](creating-a-custom-start-page.md). Name the project **SaveMySettings**.
 
@@ -68,8 +68,6 @@ You can persist user settings for your Start Page. By following this walkthrough
     ```
 
 ## Implement the user control
-
-### To implement the user control
 
 1.  In the XAML pane, right-click the `Click` attribute of the <xref:System.Windows.Controls.Button> element, and then click **Navigate to Event Handler**.
 
@@ -156,8 +154,6 @@ You can persist user settings for your Start Page. By following this walkthrough
 
 ## Test the control
 
-### To test the user control
-
 1.  Press **F5**.
 
      The experimental instance of Visual Studio opens.
@@ -191,8 +187,10 @@ You can persist user settings for your Start Page. By following this walkthrough
 12. The word "Cat" should be displayed in the text box.
 
 ## Next steps
- You can modify this user control to save and retrieve any number of custom settings by using different values from different event handlers to get and set the `SettingsStore` property. As long as you use a different `propertyName` parameter for each call to <xref:Microsoft.VisualStudio.Shell.Interop.IVsWritableSettingsStore.SetString%2A>, the values don't overwrite one another in the registry.
+
+You can modify this user control to save and retrieve any number of custom settings by using different values from different event handlers to get and set the `SettingsStore` property. As long as you use a different `propertyName` parameter for each call to <xref:Microsoft.VisualStudio.Shell.Interop.IVsWritableSettingsStore.SetString%2A>, the values don't overwrite one another in the registry.
 
 ## See also
+
 - <xref:EnvDTE80.DTE2?displayProperty=fullName>
 - [Adding Visual Studio commands to a Start Page](../extensibility/adding-visual-studio-commands-to-a-start-page.md)
