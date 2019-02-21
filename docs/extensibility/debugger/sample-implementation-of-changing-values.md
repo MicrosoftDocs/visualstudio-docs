@@ -417,5 +417,5 @@ HRESULT FieldSetValue(
 ```
 
 ## See also
- [Changing the value of a local](../../extensibility/debugger/changing-the-value-of-a-local.md)
- [Evaluation context](../../extensibility/debugger/evaluation-context.md)
+- [Changing the value of a local](../../extensibility/debugger/changing-the-value-of-a-local.md)
+- [Evaluation context](../../extensibility/debugger/evaluation-context.md)

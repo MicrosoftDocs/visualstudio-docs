@@ -27,5 +27,5 @@ Represents the lazily initialized object used by the debugger to uniquely identi
 ```
 
 ## See also
- <xref:System.Runtime.CompilerServices.AsyncVoidMethodBuilder>
- [Parallel extension internals for the .NET Framework](../../extensibility/debugger/parallel-extension-internals-for-the-dotnet-framework.md)
+- <xref:System.Runtime.CompilerServices.AsyncVoidMethodBuilder>
+- [Parallel extension internals for the .NET Framework](../../extensibility/debugger/parallel-extension-internals-for-the-dotnet-framework.md)

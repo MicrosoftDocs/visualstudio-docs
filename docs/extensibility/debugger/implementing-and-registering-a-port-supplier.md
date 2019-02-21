@@ -54,6 +54,6 @@ RemoveMetric(metrictypePortSupplier,
  A port supplier can supply its name and GUID through the methods [GetPortSupplierName](../../extensibility/debugger/reference/idebugportsupplier2-getportsuppliername.md) and [GetPortSupplierId](../../extensibility/debugger/reference/idebugportsupplier2-getportsupplierid.md), respectively.
 
 ## See also
- [Implement a port supplier](../../extensibility/debugger/implementing-a-port-supplier.md)
- [SDK helpers for debugging](../../extensibility/debugger/reference/sdk-helpers-for-debugging.md)
- [Port suppliers](../../extensibility/debugger/port-suppliers.md)
+- [Implement a port supplier](../../extensibility/debugger/implementing-a-port-supplier.md)
+- [SDK helpers for debugging](../../extensibility/debugger/reference/sdk-helpers-for-debugging.md)
+- [Port suppliers](../../extensibility/debugger/port-suppliers.md)

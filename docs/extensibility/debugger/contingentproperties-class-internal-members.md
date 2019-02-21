@@ -40,4 +40,4 @@ Contains additional properties for a <xref:System.Threading.Tasks.Task> object.
  The .NET Framework initializes the fields of this class only when they are needed.
 
 ## See also
- [Parallel extension internals for the .NET Framework](../../extensibility/debugger/parallel-extension-internals-for-the-dotnet-framework.md)
+- [Parallel extension internals for the .NET Framework](../../extensibility/debugger/parallel-extension-internals-for-the-dotnet-framework.md)

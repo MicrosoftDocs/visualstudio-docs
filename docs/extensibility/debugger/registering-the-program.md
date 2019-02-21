@@ -99,5 +99,5 @@ After the debug engine has acquired a port, represented by an [IDebugPort2](../.
     ```
 
 ## See also
- [Getting a port](../../extensibility/debugger/getting-a-port.md)
- [Enabling a program to be debugged](../../extensibility/debugger/enabling-a-program-to-be-debugged.md)
+- [Getting a port](../../extensibility/debugger/getting-a-port.md)
+- [Enabling a program to be debugged](../../extensibility/debugger/enabling-a-program-to-be-debugged.md)

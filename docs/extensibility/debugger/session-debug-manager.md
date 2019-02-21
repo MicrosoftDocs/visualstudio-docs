@@ -31,6 +31,6 @@ The session debug manager (SDM) manages any number of debug engines (DE) that ar
  The SDM does not track the current program, thread, or stack frame. The process, program, and thread information are sent to the SDM in conjunction with specific debugging events.
 
 ## See also
- [Debug engine](../../extensibility/debugger/debug-engine.md)
- [Debugger components](../../extensibility/debugger/debugger-components.md)
- [Debugger contexts](../../extensibility/debugger/debugger-contexts.md)
+- [Debug engine](../../extensibility/debugger/debug-engine.md)
+- [Debugger components](../../extensibility/debugger/debugger-components.md)
+- [Debugger contexts](../../extensibility/debugger/debugger-contexts.md)

@@ -27,5 +27,5 @@ Represents the lazily initialized built task.
 ```
 
 ## See also
- <xref:System.Runtime.CompilerServices.AsyncTaskMethodBuilder%601>
- [Parallel extension internals for the .NET Framework](../../extensibility/debugger/parallel-extension-internals-for-the-dotnet-framework.md)
+- <xref:System.Runtime.CompilerServices.AsyncTaskMethodBuilder%601>
+- [Parallel extension internals for the .NET Framework](../../extensibility/debugger/parallel-extension-internals-for-the-dotnet-framework.md)

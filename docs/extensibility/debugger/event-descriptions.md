@@ -39,4 +39,4 @@ Each type of event has a specific purpose.
 |Program name change events|Sent when the user changes the name of a program.|
 
 ## See also
- [Sending events](../../extensibility/debugger/sending-events.md)
+- [Sending events](../../extensibility/debugger/sending-events.md)

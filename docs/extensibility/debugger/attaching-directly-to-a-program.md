@@ -35,5 +35,5 @@ Users who want to debug programs in a process that is already running typically 
    The second exception is that the startup events sent by a DE attaching to a program that is already running do not typically include the entry point event.
 
 ## See also
- [Sending startup events after a launch](../../extensibility/debugger/sending-startup-events-after-a-launch.md)
- [Debugging tasks](../../extensibility/debugger/debugging-tasks.md)
+- [Sending startup events after a launch](../../extensibility/debugger/sending-startup-events-after-a-launch.md)
+- [Debugging tasks](../../extensibility/debugger/debugging-tasks.md)

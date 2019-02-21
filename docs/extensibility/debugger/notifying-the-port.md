@@ -39,6 +39,6 @@ After launching a program, the port must be notified, as follows:
  Once the identity of the DE is known, the SDM is ready to attach it to the program.
 
 ## See also
- [Launching a program](../../extensibility/debugger/launching-a-program.md)
- [Attaching after a launch](../../extensibility/debugger/attaching-after-a-launch.md)
- [Debugging tasks](../../extensibility/debugger/debugging-tasks.md)
+- [Launching a program](../../extensibility/debugger/launching-a-program.md)
+- [Attaching after a launch](../../extensibility/debugger/attaching-after-a-launch.md)
+- [Debugging tasks](../../extensibility/debugger/debugging-tasks.md)

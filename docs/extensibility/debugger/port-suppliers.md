@@ -26,8 +26,8 @@ In the debugger architecture, a *port supplier*:
   [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] provides a default port supplier and a default port. If a custom port needs to be implemented, a custom port supplier also needs to be implemented to supply those custom ports.
 
 ## See also
- [Servers](../../extensibility/debugger/servers-visual-studio-sdk.md)
- [Ports](../../extensibility/debugger/ports.md)
- [Debugger concepts](../../extensibility/debugger/debugger-concepts.md)
- [IDebugPortSupplier2](../../extensibility/debugger/reference/idebugportsupplier2.md)
- [GetPortSupplier](../../extensibility/debugger/reference/idebugcoreserver2-getportsupplier.md)
+- [Servers](../../extensibility/debugger/servers-visual-studio-sdk.md)
+- [Ports](../../extensibility/debugger/ports.md)
+- [Debugger concepts](../../extensibility/debugger/debugger-concepts.md)
+- [IDebugPortSupplier2](../../extensibility/debugger/reference/idebugportsupplier2.md)
+- [GetPortSupplier](../../extensibility/debugger/reference/idebugcoreserver2-getportsupplier.md)

@@ -68,4 +68,4 @@ The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] debugger is imp
  Contains links to various debugging tasks, such as launching a program and evaluating expressions.
 
 ## See also
- [Get started](../../extensibility/debugger/getting-started-with-debugger-extensibility.md)
+- [Get started](../../extensibility/debugger/getting-started-with-debugger-extensibility.md)

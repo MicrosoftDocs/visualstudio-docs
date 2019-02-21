@@ -40,5 +40,5 @@ This article describes the internal members of the <xref:System.Threading.Tasks.
 ## Remarks
 
 ## See also
- <xref:System.Threading.Tasks.TaskScheduler?displayProperty=fullName>
- [Parallel extension internals for the .NET Framework](../../extensibility/debugger/parallel-extension-internals-for-the-dotnet-framework.md)
+- <xref:System.Threading.Tasks.TaskScheduler?displayProperty=fullName>
+- [Parallel extension internals for the .NET Framework](../../extensibility/debugger/parallel-extension-internals-for-the-dotnet-framework.md)

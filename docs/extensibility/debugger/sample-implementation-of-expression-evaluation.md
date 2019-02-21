@@ -102,5 +102,5 @@ STDMETHODIMP CExpressionEvaluator::Parse(
 ```
 
 ## See also
- [Evaluate a Watch window expression](../../extensibility/debugger/evaluating-a-watch-window-expression.md)
- [Evaluate a Watch expression](../../extensibility/debugger/evaluating-a-watch-expression.md)
+- [Evaluate a Watch window expression](../../extensibility/debugger/evaluating-a-watch-window-expression.md)
+- [Evaluate a Watch expression](../../extensibility/debugger/evaluating-a-watch-expression.md)

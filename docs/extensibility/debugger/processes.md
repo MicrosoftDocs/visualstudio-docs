@@ -29,11 +29,11 @@ In the debugger architecture, a *process*:
   The debug package can attach a debug engine (DE) to a process by calling [Attach](../../extensibility/debugger/reference/idebugprocess2-attach.md), which means that the DE attaches to all possible programs running in the process that it can handle. For example, if the common language runtime DE attaches to a process, it attaches only to programs that are running managed code.
 
 ## See also
- [Programs](../../extensibility/debugger/programs.md)
- [Threads](../../extensibility/debugger/threads.md)
- [Debugger concepts](../../extensibility/debugger/debugger-concepts.md)
- [Debug package](../../extensibility/debugger/debug-package.md)
- [Debug engine](../../extensibility/debugger/debug-engine.md)
- [IDebugProcess2](../../extensibility/debugger/reference/idebugprocess2.md)
- [LaunchSuspended](../../extensibility/debugger/reference/idebugenginelaunch2-launchsuspended.md)
- [Attach](../../extensibility/debugger/reference/idebugprocess2-attach.md)
+- [Programs](../../extensibility/debugger/programs.md)
+- [Threads](../../extensibility/debugger/threads.md)
+- [Debugger concepts](../../extensibility/debugger/debugger-concepts.md)
+- [Debug package](../../extensibility/debugger/debug-package.md)
+- [Debug engine](../../extensibility/debugger/debug-engine.md)
+- [IDebugProcess2](../../extensibility/debugger/reference/idebugprocess2.md)
+- [LaunchSuspended](../../extensibility/debugger/reference/idebugenginelaunch2-launchsuspended.md)
+- [Attach](../../extensibility/debugger/reference/idebugprocess2-attach.md)

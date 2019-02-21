@@ -34,7 +34,7 @@ This section describes the internal types, methods, and fields of classes that h
  Describes the internal members of the <xref:System.Runtime.CompilerServices.AsyncVoidMethodBuilder> structure.
 
 ## See also
- <xref:System.Threading.Tasks.Task?displayProperty=fullName>
- <xref:System.Threading.Tasks.TaskScheduler?displayProperty=fullName>
+- <xref:System.Threading.Tasks.Task?displayProperty=fullName>
+- <xref:System.Threading.Tasks.TaskScheduler?displayProperty=fullName>
  [Visual Studio debugger extensibility](../../extensibility/debugger/visual-studio-debugger-extensibility.md)
  [Parallel programming](/dotnet/standard/parallel-programming/index)

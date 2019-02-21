@@ -39,9 +39,9 @@ There are three types of breakpoints: pending, bound, and error.
 - Is represented by an [IDebugErrorBreakpoint2](../../extensibility/debugger/reference/idebugerrorbreakpoint2.md) interface.
 
 ## See also
- [Programs](../../extensibility/debugger/programs.md)
- [Debugger concepts](../../extensibility/debugger/debugger-concepts.md)
- [Code context](../../extensibility/debugger/code-context.md)
- [IDebugBoundBreakpoint2](../../extensibility/debugger/reference/idebugboundbreakpoint2.md)
- [IDebugPendingBreakpoint2](../../extensibility/debugger/reference/idebugpendingbreakpoint2.md)
- [IDebugErrorBreakpoint2](../../extensibility/debugger/reference/idebugerrorbreakpoint2.md)
+- [Programs](../../extensibility/debugger/programs.md)
+- [Debugger concepts](../../extensibility/debugger/debugger-concepts.md)
+- [Code context](../../extensibility/debugger/code-context.md)
+- [IDebugBoundBreakpoint2](../../extensibility/debugger/reference/idebugboundbreakpoint2.md)
+- [IDebugPendingBreakpoint2](../../extensibility/debugger/reference/idebugpendingbreakpoint2.md)
+- [IDebugErrorBreakpoint2](../../extensibility/debugger/reference/idebugerrorbreakpoint2.md)

@@ -29,4 +29,4 @@ When a breakpoint can't be bound at the time a call is made to the [IDebugPendin
 5.  [IDebugBreakpointBoundEvent2::GetPendingBreakpoint](../../extensibility/debugger/reference/idebugbreakpointboundevent2-getpendingbreakpoint.md) and [IDebugBreakpointBoundEvent2::EnumBoundBreakpoints](../../extensibility/debugger/reference/idebugbreakpointboundevent2-enumboundbreakpoints.md) methods to verify and to get the bound breakpoints.
 
 ## See also
- [Calling debugger events](../../extensibility/debugger/calling-debugger-events.md)
+- [Calling debugger events](../../extensibility/debugger/calling-debugger-events.md)

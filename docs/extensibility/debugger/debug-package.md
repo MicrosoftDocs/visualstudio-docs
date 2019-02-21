@@ -21,7 +21,7 @@ The debug package runs in the Visual Studio shell and handles all of the UI. It 
  The debug package is implemented by *vsdebug.dll*.
 
 ## See also
- [Session debug manager](../../extensibility/debugger/session-debug-manager.md)
- [Stack frames](../../extensibility/debugger/stack-frames.md)
- [Threads](../../extensibility/debugger/threads.md)
- [Debugger components](../../extensibility/debugger/debugger-components.md)
+- [Session debug manager](../../extensibility/debugger/session-debug-manager.md)
+- [Stack frames](../../extensibility/debugger/stack-frames.md)
+- [Threads](../../extensibility/debugger/threads.md)
+- [Debugger components](../../extensibility/debugger/debugger-components.md)

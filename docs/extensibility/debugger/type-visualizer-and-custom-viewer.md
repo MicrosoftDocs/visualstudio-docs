@@ -24,9 +24,9 @@ A type visualizer is a component that displays a piece of data in a specific for
  An EE can also support custom viewers in which the EE itself supplies the code for viewing the data type. A custom viewer implements the [IDebugCustomViewer](../../extensibility/debugger/reference/idebugcustomviewer.md) interface, which handles all the duties of showing the data in whatever format is desired; the viewer has full control over the display and can even let the data be modified. Any custom viewers supplied by the EE come with the EE when the product is shipped.
 
 ## See also
- [Debugger components](../../extensibility/debugger/debugger-components.md)
- [Expression evaluator](../../extensibility/debugger/expression-evaluator.md)
- [Debug engine](../../extensibility/debugger/debug-engine.md)
- [IDebugCustomViewer](../../extensibility/debugger/reference/idebugcustomviewer.md)
- [IEEVisualizerService](../../extensibility/debugger/reference/ieevisualizerservice.md)
- [IEEVisualizerDataProvider](../../extensibility/debugger/reference/ieevisualizerdataprovider.md)
+- [Debugger components](../../extensibility/debugger/debugger-components.md)
+- [Expression evaluator](../../extensibility/debugger/expression-evaluator.md)
+- [Debug engine](../../extensibility/debugger/debug-engine.md)
+- [IDebugCustomViewer](../../extensibility/debugger/reference/idebugcustomviewer.md)
+- [IEEVisualizerService](../../extensibility/debugger/reference/ieevisualizerservice.md)
+- [IEEVisualizerDataProvider](../../extensibility/debugger/reference/ieevisualizerdataprovider.md)

@@ -433,6 +433,6 @@ HRESULT FieldGetValue( in IDebugField* pfield, out VARIANT* pvarValue )
 ```
 
 ## See also
-[Sample implementation of locals](../../extensibility/debugger/sample-implementation-of-locals.md)
-[Get local properties](../../extensibility/debugger/getting-local-properties.md)
-[Evaluation context](../../extensibility/debugger/evaluation-context.md)
+- [Sample implementation of locals](../../extensibility/debugger/sample-implementation-of-locals.md)
+- [Get local properties](../../extensibility/debugger/getting-local-properties.md)
+- [Evaluation context](../../extensibility/debugger/evaluation-context.md)

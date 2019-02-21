@@ -32,4 +32,4 @@ In order to view the stack frames of the call stack during break mode, you must 
  To enumerate code contexts, you must implement all the methods of [IEnumDebugCodeContexts2](../../extensibility/debugger/reference/ienumdebugcodecontexts2.md).
 
 ## See also
- [Execution control and state evaluation](../../extensibility/debugger/execution-control-and-state-evaluation.md)
+- [Execution control and state evaluation](../../extensibility/debugger/execution-control-and-state-evaluation.md)

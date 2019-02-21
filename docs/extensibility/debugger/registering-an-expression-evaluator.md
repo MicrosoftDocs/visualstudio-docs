@@ -204,5 +204,5 @@ static HRESULT RegisterMetric( bool registerIt )
 ```
 
 ## See also
- [Writing a CLR expression evaluator](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md)
- [SDK helpers for debugging](../../extensibility/debugger/reference/sdk-helpers-for-debugging.md)
+- [Writing a CLR expression evaluator](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md)
+- [SDK helpers for debugging](../../extensibility/debugger/reference/sdk-helpers-for-debugging.md)

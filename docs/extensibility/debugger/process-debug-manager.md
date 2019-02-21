@@ -18,8 +18,8 @@ The process debug manager (PDM) is a component of Visual Studio that manages pro
  The PDM manages all the processes that can be debugged. To be debugged, a program must be registered with the PDM. This registration is done at the time the program is launched, either by a port or a debug engine.
 
 ## See also
- [Processes](../../extensibility/debugger/processes.md)
- [Debug engine](../../extensibility/debugger/debug-engine.md)
- [Ports](../../extensibility/debugger/ports.md)
- [Programs](../../extensibility/debugger/programs.md)
- [Debugger components](../../extensibility/debugger/debugger-components.md)
+- [Processes](../../extensibility/debugger/processes.md)
+- [Debug engine](../../extensibility/debugger/debug-engine.md)
+- [Ports](../../extensibility/debugger/ports.md)
+- [Programs](../../extensibility/debugger/programs.md)
+- [Debugger components](../../extensibility/debugger/debugger-components.md)

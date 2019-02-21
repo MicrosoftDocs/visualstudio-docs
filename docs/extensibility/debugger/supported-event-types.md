@@ -80,4 +80,4 @@ Visual Studio debugging currently supports the following event types:
 |[IDebugThreadNameChangedEvent2](../../extensibility/debugger/reference/idebugthreadnamechangedevent2.md)|Allowed, but not required|Allowed, but not required|No|
 
 ## See also
- [Sending events](../../extensibility/debugger/sending-events.md)
+- [Sending events](../../extensibility/debugger/sending-events.md)

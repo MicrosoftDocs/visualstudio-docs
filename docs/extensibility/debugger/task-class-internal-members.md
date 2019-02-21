@@ -74,5 +74,5 @@ This article describes the internal members of the <xref:System.Threading.Tasks.
 -   `InternalWait`
 
 ## See also
- <xref:System.Threading.Tasks.Task?displayProperty=fullName>
- [Parallel extension internals for the .NET Framework](../../extensibility/debugger/parallel-extension-internals-for-the-dotnet-framework.md)
+- <xref:System.Threading.Tasks.Task?displayProperty=fullName>
+- [Parallel extension internals for the .NET Framework](../../extensibility/debugger/parallel-extension-internals-for-the-dotnet-framework.md)

@@ -22,8 +22,8 @@ In the debugger architecture, a *thread*:
 -   Is represented by an [IDebugThread2](../../extensibility/debugger/reference/idebugthread2.md) interface, typically created by a debug engine (DE) or virtual machine as a consequence of executing a program.
 
 ## See also
- [Programs](../../extensibility/debugger/programs.md)
- [Stack frames](../../extensibility/debugger/stack-frames.md)
- [Debug engine](../../extensibility/debugger/debug-engine.md)
- [Debugger concepts](../../extensibility/debugger/debugger-concepts.md)
- [Session debug manager](../../extensibility/debugger/session-debug-manager.md)
+- [Programs](../../extensibility/debugger/programs.md)
+- [Stack frames](../../extensibility/debugger/stack-frames.md)
+- [Debug engine](../../extensibility/debugger/debug-engine.md)
+- [Debugger concepts](../../extensibility/debugger/debugger-concepts.md)
+- [Session debug manager](../../extensibility/debugger/session-debug-manager.md)

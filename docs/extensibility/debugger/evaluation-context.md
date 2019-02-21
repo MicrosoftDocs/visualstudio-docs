@@ -29,10 +29,10 @@ ms.workload:
  `IDebugParsedExpression::EvaluateSync` returns an [IDebugProperty2](../../extensibility/debugger/reference/idebugproperty2.md) interface representing the resulting value and its type.
 
 ## See also
- [Key expression evaluator interfaces](../../extensibility/debugger/key-expression-evaluator-interfaces.md)
- [Displaying locals](../../extensibility/debugger/displaying-locals.md)
- [EvaluateSync](../../extensibility/debugger/reference/idebugparsedexpression-evaluatesync.md)
- [IDebugProperty2](../../extensibility/debugger/reference/idebugproperty2.md)
- [IDebugSymbolProvider](../../extensibility/debugger/reference/idebugsymbolprovider.md)
- [IDebugAddress](../../extensibility/debugger/reference/idebugaddress.md)
- [IDebugBinder](../../extensibility/debugger/reference/idebugbinder.md)
+- [Key expression evaluator interfaces](../../extensibility/debugger/key-expression-evaluator-interfaces.md)
+- [Displaying locals](../../extensibility/debugger/displaying-locals.md)
+- [EvaluateSync](../../extensibility/debugger/reference/idebugparsedexpression-evaluatesync.md)
+- [IDebugProperty2](../../extensibility/debugger/reference/idebugproperty2.md)
+- [IDebugSymbolProvider](../../extensibility/debugger/reference/idebugsymbolprovider.md)
+- [IDebugAddress](../../extensibility/debugger/reference/idebugaddress.md)
+- [IDebugBinder](../../extensibility/debugger/reference/idebugbinder.md)

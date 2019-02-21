@@ -44,4 +44,4 @@ Attaching the debugger requires sending the correct sequence of methods and even
 6. The DE sends an [IDebugProgramDestroyEvent2](../../extensibility/debugger/reference/idebugprogramdestroyevent2.md).
 
 ## See also
- [Calling debugger events](../../extensibility/debugger/calling-debugger-events.md)
+- [Calling debugger events](../../extensibility/debugger/calling-debugger-events.md)

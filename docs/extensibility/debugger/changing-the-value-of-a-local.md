@@ -41,5 +41,5 @@ ms.workload:
  Uses the MyCEE sample to step through the process of changing values.
 
 ## See also
- [Writing a CLR expression evaluator](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md)
- [Displaying locals](../../extensibility/debugger/displaying-locals.md)
+- [Writing a CLR expression evaluator](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md)
+- [Displaying locals](../../extensibility/debugger/displaying-locals.md)

@@ -30,4 +30,4 @@ ms.workload:
  When the CLR DE calls the proprietary EE to evaluate an expression, the DE supplies the EE with interfaces to an SP and a binder object. Thus, writing a CLR-based debug engine means it's necessary only to implement the appropriate expression evaluator interfaces; the CLR takes care of the binding and the symbol handling for you.
 
 ## See also
- [Write a CLR expression evaluator](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md)
+- [Write a CLR expression evaluator](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md)

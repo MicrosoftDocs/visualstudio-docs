@@ -41,5 +41,5 @@ Type visualizers and custom viewers present data in a way that is quickly meanin
  An EE can support both type visualizers and custom viewers in the [GetCustomViewerCount](../../extensibility/debugger/reference/idebugproperty3-getcustomviewercount.md) and [GetCustomViewerList](../../extensibility/debugger/reference/idebugproperty3-getcustomviewerlist.md) methods. First, the EE adds the number of custom viewers that it is supplying to the value returned by the [GetCustomViewerCount](../../extensibility/debugger/reference/ieevisualizerservice-getcustomviewercount.md) method. Second, the EE appends the `CLSID`s of its own custom viewers to the list returned by the [GetCustomViewerList](../../extensibility/debugger/reference/ieevisualizerservice-getcustomviewerlist.md) method.
 
 ## See also
- [Debugging tasks](../../extensibility/debugger/debugging-tasks.md)
- [Type visualizer and custom viewer](../../extensibility/debugger/type-visualizer-and-custom-viewer.md)
+- [Debugging tasks](../../extensibility/debugger/debugging-tasks.md)
+- [Type visualizer and custom viewer](../../extensibility/debugger/type-visualizer-and-custom-viewer.md)

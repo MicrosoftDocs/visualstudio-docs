@@ -43,6 +43,6 @@ HRESULT CTextInterpreterModule::RegisterServer(BOOL bRegTypeLib, const CLSID * p
 ```
 
 ## See also
- [Creating a custom debug engine](../../extensibility/debugger/creating-a-custom-debug-engine.md)
- [SDK helpers for debugging](../../extensibility/debugger/reference/sdk-helpers-for-debugging.md)
- [Tutorial: Building a debug engine using ATL COM](https://msdn.microsoft.com/library/9097b71e-1fe7-48f7-bc00-009e25940c24)
+- [Creating a custom debug engine](../../extensibility/debugger/creating-a-custom-debug-engine.md)
+- [SDK helpers for debugging](../../extensibility/debugger/reference/sdk-helpers-for-debugging.md)
+- [Tutorial: Building a debug engine using ATL COM](https://msdn.microsoft.com/library/9097b71e-1fe7-48f7-bc00-009e25940c24)

@@ -30,4 +30,4 @@ private void NotifyDebuggerOfWaitCompletion()
 ## Requirements
 
 ## See also
- [Task class](../../extensibility/debugger/task-class-internal-members.md)
+- [Task class](../../extensibility/debugger/task-class-internal-members.md)

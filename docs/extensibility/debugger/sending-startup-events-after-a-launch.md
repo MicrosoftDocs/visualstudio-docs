@@ -38,5 +38,5 @@ Once the debug engine (DE) is attached to the program, it sends a series of star
   When the code is loaded and ready to run, but before any code is executed, the DE sends the SDM an [IDebugLoadCompleteEvent2](../../extensibility/debugger/reference/idebugloadcompleteevent2.md) load complete event. Finally, if the program isn't already running, the DE sends an [IDebugEntryPointEvent2](../../extensibility/debugger/reference/idebugentrypointevent2.md) entry point event, signaling that the program has reached its main entry point and is ready for debugging.
 
 ## See also
- [Control of execution](../../extensibility/debugger/control-of-execution.md)
- [Debugging tasks](../../extensibility/debugger/debugging-tasks.md)
+- [Control of execution](../../extensibility/debugger/control-of-execution.md)
+- [Debugging tasks](../../extensibility/debugger/debugging-tasks.md)

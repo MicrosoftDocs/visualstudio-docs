@@ -32,4 +32,4 @@ The list of child tasks that are registered with this task.
  If the task is completed, other threads can access this field as long as they don't add anything to it or remove anything from it.
 
 ## See also
- [ContingentProperties class](../../extensibility/debugger/contingentproperties-class-internal-members.md)
+- [ContingentProperties class](../../extensibility/debugger/contingentproperties-class-internal-members.md)

@@ -20,6 +20,6 @@ To debug a program using Visual Studio, the only permissions needed are the same
  A developer can debug programs that they started with no special permissions. The developer can even debug processes started by someone else if that other person is a member of the same security group. And, to enable remote debugging, it's necessary only to copy the required files to the remote machine and start *msvsmon.exe*. For more information, see [Remote debugging](../../debugger/remote-debugging.md).
 
 ## See also
- [Debugging tasks](../../extensibility/debugger/debugging-tasks.md)
- [Process debug manager](../../extensibility/debugger/process-debug-manager.md)
- [Remote debugging](../../debugger/remote-debugging.md)
+- [Debugging tasks](../../extensibility/debugger/debugging-tasks.md)
+- [Process debug manager](../../extensibility/debugger/process-debug-manager.md)
+- [Remote debugging](../../debugger/remote-debugging.md)

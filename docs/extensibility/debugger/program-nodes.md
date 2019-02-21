@@ -28,9 +28,9 @@ In the debugger architecture, a *program node*:
   Before a program is attached to, the IDE needs only a lightweight description of the program. This information can be obtained from the program node. Once the program is attached to, the IDE displays more detailed information, such as a list of all threads running in the program. This information is obtained from the program itself.
 
 ## See also
- [Programs](../../extensibility/debugger/programs.md)
- [Processes](../../extensibility/debugger/processes.md)
- [Debug engine](../../extensibility/debugger/debug-engine.md)
- [Debugger concepts](../../extensibility/debugger/debugger-concepts.md)
- [IDebugProgramNode2](../../extensibility/debugger/reference/idebugprogramnode2.md)
- [AddProgramNode](../../extensibility/debugger/reference/idebugportnotify2-addprogramnode.md)
+- [Programs](../../extensibility/debugger/programs.md)
+- [Processes](../../extensibility/debugger/processes.md)
+- [Debug engine](../../extensibility/debugger/debug-engine.md)
+- [Debugger concepts](../../extensibility/debugger/debugger-concepts.md)
+- [IDebugProgramNode2](../../extensibility/debugger/reference/idebugprogramnode2.md)
+- [AddProgramNode](../../extensibility/debugger/reference/idebugportnotify2-addprogramnode.md)

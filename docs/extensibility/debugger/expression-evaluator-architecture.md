@@ -48,6 +48,6 @@ ms.workload:
  Describes the crucial interfaces needed when writing an EE, along with the evaluation context.
 
 ## See also
- [Writing a CLR expression evaluator](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md)
- [Displaying locals](../../extensibility/debugger/displaying-locals.md)
- [Changing the value of a local](../../extensibility/debugger/changing-the-value-of-a-local.md)
+- [Writing a CLR expression evaluator](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md)
+- [Displaying locals](../../extensibility/debugger/displaying-locals.md)
+- [Changing the value of a local](../../extensibility/debugger/changing-the-value-of-a-local.md)

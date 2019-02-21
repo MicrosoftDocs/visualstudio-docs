@@ -21,8 +21,8 @@ In [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] debugging, a *do
 -   Is implemented by an [IDebugDocumentPosition2](../../extensibility/debugger/reference/idebugdocumentposition2.md) interface.
 
 ## See also
- [Code context](../../extensibility/debugger/code-context.md)
- [Document context](../../extensibility/debugger/document-context.md)
- [Symbol provider](../../extensibility/debugger/symbol-provider.md)
- [Symbol provider Interfaces](../../extensibility/debugger/reference/symbol-provider-interfaces.md)
- [Debugger contexts](../../extensibility/debugger/debugger-contexts.md)
+- [Code context](../../extensibility/debugger/code-context.md)
+- [Document context](../../extensibility/debugger/document-context.md)
+- [Symbol provider](../../extensibility/debugger/symbol-provider.md)
+- [Symbol provider Interfaces](../../extensibility/debugger/reference/symbol-provider-interfaces.md)
+- [Debugger contexts](../../extensibility/debugger/debugger-contexts.md)

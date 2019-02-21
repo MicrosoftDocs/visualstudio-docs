@@ -25,5 +25,5 @@ In [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] debugging, a **c
 -   Is implemented by an [IDebugCodeContext2](../../extensibility/debugger/reference/idebugcodecontext2.md) interface.
 
 ## See also
- [Document context](../../extensibility/debugger/document-context.md)
- [Debugger contexts](../../extensibility/debugger/debugger-contexts.md)
+- [Document context](../../extensibility/debugger/document-context.md)
+- [Debugger contexts](../../extensibility/debugger/debugger-contexts.md)
