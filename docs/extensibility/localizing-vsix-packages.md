@@ -2,7 +2,7 @@
 title: "Localizing VSIX Packages | Microsoft Docs"
 ms.date: "10/26/2017"
 ms.topic: "conceptual"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "localize package"
   - "localize extension"
   - "localized deployment"
@@ -10,7 +10,7 @@ ms.assetid: 10e80b13-b39e-466c-a7c8-774a862355af
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "vssdk"
 ---
 # Localizing VSIX Packages
@@ -21,7 +21,7 @@ If the content your VSIX package includes a VSPackage that adds menu commands or
 
 ## Directory structure
 
- When a user installs an extension, **Extensions and Updates** checks the top level of the VSIX package for a folder whose name matches the Visual Studio locale of the target computer. If **Extensions and Updates** finds a *.vsixlangpack* file in the folder, it substitutes the localized values in that file for the corresponding values in the *.vsixmanifest* file. These values are displayed when the extension is being installed. The following example shows the directory structure for a VSIX package that is localized into Spanish (es-ES) and French (fr-FR).  
+ When a user installs an extension, **Extensions and Updates** checks the top level of the VSIX package for a folder whose name matches the Visual Studio locale of the target computer. If **Extensions and Updates** finds a *.vsixlangpack* file in the folder, it substitutes the localized values in that file for the corresponding values in the *.vsixmanifest* file. These values are displayed when the extension is being installed. The following example shows the directory structure for a VSIX package that is localized into Spanish (es-ES) and French (fr-FR).
 
 ```text
 .

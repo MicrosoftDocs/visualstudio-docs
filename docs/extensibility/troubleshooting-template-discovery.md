@@ -5,7 +5,7 @@ ms.topic: "conceptual"
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "vssdk"
 ---
 # Troubleshooting template installation
