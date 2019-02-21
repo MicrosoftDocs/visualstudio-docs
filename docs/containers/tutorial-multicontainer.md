@@ -17,7 +17,7 @@ In this tutorial, you'll learn how to manage more than one container and communi
 
 ::: moniker range="vs-2017"
 * [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
-* [Visual Studio 2017](https://visualstudio.microsoft.com/) with the **Web Development**, **Azure Tools** workload, and/or **.NET Core cross-platform development** workload installed
+* [Visual Studio 2017](https://visualstudio.microsoft.com/) with the **Web Development**, **Azure Tools** workload, or **.NET Core cross-platform development** workload installed
 * To publish to Azure Container Registry, an Azure subscription. [Sign up for a free trial](https://azure.microsoft.com/en-us/offers/ms-azr-0044p/).
 ::: moniker-end
 
@@ -32,17 +32,17 @@ In this tutorial, you'll learn how to manage more than one container and communi
 In Visual Studio, create an **ASP.NET Core Web Application** project, named *WebFrontEnd*. Select **Web Application** to create a web application with Razor pages. Be sure that **Enable Docker Support** is selected, and that the container OS matches the OS selected in Docker Desktop.
   
 ::: moniker range="vs-2017"
-   ![Screenshot of creating the webfrontend project](./media/tutorial-multicontainer/docker-tutorial-enable-docker-support.png)
+   ![Screenshot of creating the web project](./media/tutorial-multicontainer/docker-tutorial-enable-docker-support.png)
 ::: moniker-end
 
 ::: moniker range="vs-2019"
-    ![Screenshot of creating the webfrontend project](./media/tutorial-multicontainer/vs-2019/new-aspnet-core-project1.png)
-    ![Screenshot of creating the webfrontend project](./media/tutorial-multicontainer/vs-2019/new-aspnet-core-project.png)
+    ![Screenshot of creating the web project](./media/tutorial-multicontainer/vs-2019/new-aspnet-core-project1.png)
+    ![Screenshot of creating the web project](./media/tutorial-multicontainer/vs-2019/new-aspnet-core-project.png)
 ::: moniker-end
 
 ## Create a Web API project
 
-Add a project to the same solution and call it *MyWebAPI*. Select **API** as the project type, and clear the checkbox for **Configure for HTTPS**. In this design, we're only using SSL for communication with the client, not for communication from between containers in the same web application. Therefore, only *webfrontend* needs HTTPS.
+Add a project to the same solution and call it *MyWebAPI*. Select **API** as the project type, and clear the checkbox for **Configure for HTTPS**. In this design, we're only using SSL for communication with the client, not for communication from between containers in the same web application. Only *webfrontend* needs HTTPS.
 
 ::: moniker range="vs-2017"
    ![Screenshot of creating the Web API project](./media/tutorial-multicontainer/docker-tutorial-mywebapi.png)
@@ -116,11 +116,11 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
    version: '3.4'
 
     services:
-      webfrontend1:
-        image: ${DOCKER_REGISTRY-}webfrontend1
+      webfrontend:
+        image: ${DOCKER_REGISTRY-}webfrontend
         build:
           context: .
-          dockerfile: WebFrontEnd1/Dockerfile
+          dockerfile: WebFrontEnd/Dockerfile
    ```
 
    The *.dockerignore* file contains file types and extensions that you don't want Docker to include in the container. These files are generally associated with the development environment and source control, not part of the app or service you're developing.
@@ -135,11 +135,11 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
     version: '3.4'
     
     services:
-      webfrontend1:
+      webfrontend:
         image: ${DOCKER_REGISTRY-}webfrontend
         build:
           context: .
-          dockerfile: WebFrontEnd1/Dockerfile
+          dockerfile: WebFrontEnd/Dockerfile
     
       mywebapi:
         image: ${DOCKER_REGISTRY-}mywebapi
@@ -148,7 +148,7 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
           dockerfile: MyWebAPI/Dockerfile
     ```
 
-1. Run the site locally now (**F5** or **CTRL+F5**) to verify that it works as expected. If everything is configured correctly, you see the message "Hello from webfrontend and webapi (with value 1)."
+1. Run the site locally now (F5 or Ctrl+F5) to verify that it works as expected. If everything is configured correctly, you see the message "Hello from webfrontend and webapi (with value 1)."
 
 ## Next steps
 
