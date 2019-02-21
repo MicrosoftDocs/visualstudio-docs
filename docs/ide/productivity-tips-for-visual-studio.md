@@ -1,6 +1,6 @@
 ---
 title: Productivity tips
-ms.date: 11/04/2016
+ms.date: 2/21/2019
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren
@@ -60,13 +60,13 @@ You can search across the IDE for commands, files, and options, in addition to f
 
 - **Display only the errors you want to address**. If you choose the **Filter** button on the **Error List** toolbar, you can reduce the number of errors that appear in the **Error List** window. You can display only the errors in the files that are open in the editor, only the errors in the current file, or only the errors in the current project. You can also search within the **Error List** window to find specific errors.
 
-- **Find dialog boxes, menu commands, and options**. In the [Quick Launch](../ide/reference/quick-launch-environment-options-dialog-box.md) box, enter keywords or phrases for the items that you're trying to find. For example, the following options appear if you enter `new project`:
+- **Find dialog boxes, menu commands, and options**. In the [Quick Launch](../ide/reference/quick-launch-environment-options-dialog-box.md) search box, enter keywords or phrases for the items that you're trying to find. For example, the following options appear if you enter `new project`:
 
     ![Quick Launch Results for 'new project'](../ide/media/productivity_quicklaunch.png)
 
     **Quick Launch** displays links to the **New Project** dialog box, the **Add New Item** dialog box, and the **Projects and Solutions** page in the **Options** dialog box, among others. Quick Launch results can also include project files and tool windows.
 
-  You can find the **Quick Launch** search box in the upper right of the IDE. (Alternatively, press **Ctrl**+**Q** to access it.)
+  The **Quick Launch** search box appears in the upper right of the IDE. (Alternatively, press **Ctrl**+**Q** to access it.)
 
 ## Debug code
 
