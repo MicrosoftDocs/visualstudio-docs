@@ -54,7 +54,7 @@ You can find a number of advanced features on the **Edit** > **Advanced** menu o
 |Make Lowercase|Changes all characters in the selection to lowercase, or if there is no selection, changes the character at the insertion point to lowercase. Shortcut: **Ctrl**+**U**.|
 |Move selected Lines Up|Moves the selected line up one line. Shortcut: **Alt**+**Up Arrow**.|
 |Move Selected Lines Down|Moves the selected line down one line. Shortcut: **Alt**+**Down Arrow**.|
-|Delete Horizontal White Space|Deletes tabs or spaces at the end of the current line.|
+|Delete Horizontal White Space|Deletes tabs or spaces at the end of the current line. Shortcut: **Ctrl**+**K**, **Ctrl**+**\\**|
 |View White Space|Displays spaces as raised dots, and tabs as arrows. The end of a file is displayed as a rectangular glyph. If **Tools** > **Options** > **Text Editor** > **All Languages** > **Word Wrap** > **Show visible glyphs for word wrap** is selected, that glyph is also displayed.|
 |Word Wrap|Causes all the lines in a document to be visible in the code window. You can turn word wrap off and on in the **Text Editor All Languages** settings (**Tools** > **Options** > **Text Editor** > **All Languages**).|
 |Comment Selection|Adds comment characters to the selection or the current line. Shortcut: **Ctrl**+**K**, **Ctrl**+**C**|
@@ -70,7 +70,7 @@ You can move around in the code editor in several different ways, including navi
 
 ## Find references in your code base
 
-To find where particular code elements are referenced throughout your codebase, you can use the **Find All References** command. Also, when you click on a type or member, the **reference highlighting** feature automatically highlights all references to that type or member. For more information, see [Find references in your code](finding-references.md).
+To find where particular code elements are referenced throughout your codebase, you can use the **Find All References** command or press **Shift**+**F12**. Also, when you click on a type or member, the **reference highlighting** feature automatically highlights all references to that type or member. For more information, see [Find references in your code](finding-references.md).
 
 ## Customize the editor
 
