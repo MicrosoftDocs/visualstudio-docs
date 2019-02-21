@@ -20,9 +20,9 @@ This refactoring applies to:
 
 **What:** Lets you invert a conditional expression or a conditional AND/OR operator.
 
-**When:** When you have a conditional expression or conditional AND/OR operator that would be better understood if inverted.
+**When:** You have a conditional expression or conditional AND/OR operator that would be better understood if inverted.
 
-**Why:** Inverting an experssion or conditional AND/OR operator by hand can take much longer and possibly introduce errors. This refactoring helps you do this automatically.
+**Why:** Inverting an expression or conditional AND/OR operator by hand can take much longer and possibly introduce errors. This code fix helps you do this refactoring automatically.
 
 ## How-to
 

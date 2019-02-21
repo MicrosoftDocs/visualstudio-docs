@@ -22,7 +22,7 @@ This refactoring applies to:
 
 **When:** When you have an `if` or `if else` statement that would be better understood when inverted.
 
-**Why:** Inverting an `if` or `if else` statement by hand can take much longer and possibly introduce errors. This refactoring helps you do this automatically.
+**Why:** Inverting an `if` or `if else` statement by hand can take much longer and possibly introduce errors. This code fix helps you do this refactoring automatically.
 
 ## How-to
 

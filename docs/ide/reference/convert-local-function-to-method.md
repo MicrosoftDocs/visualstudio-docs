@@ -22,7 +22,7 @@ This refactoring applies to:
 
 **When:** You have a local function that you want to define outside of your current local context.
 
-**Why:** You may want to convert a local function to a method so you can call it outside of your local context. You may also want to convert to a method when your local function is getting too long and defining it in a separate method makes your code easier to read.
+**Why:** You may want to convert a local function to a method so you can call it outside of your local context. You may want to convert to a method when your local function is getting too long. Defining it in a separate method makes your code easier to read.
 
 ## How-to
 

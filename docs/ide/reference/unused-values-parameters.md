@@ -20,9 +20,9 @@ This refactoring applies to:
 
 **What:** Unused parameters are faded out and unused expression values have a warning.
 
-**When:** When you have parameters or expression values that are never actually used.
+**When:** You have parameters or expression values that are never used.
 
-**Why:** Sometimes it's difficult to tell if a value or parameter is no longer being used. By fading out these values or giving a warning you get a visual cue of what code you can delete.
+**Why:** Sometimes it's difficult to tell if a value or parameter is no longer being used. By fading out these values or giving a warning, you get a visual cue of what code you can delete.
 
 ## How-to
 

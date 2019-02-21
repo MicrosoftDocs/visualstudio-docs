@@ -22,7 +22,7 @@ This code generation applies to:
 
 ## Generate deconstructor
 
-1. Declare a new type with the desired out parameters specified. This will cause an error when no deconstruct instance can be found matching your declaration.
+1. Declare a new type with the desired out parameters specified. This declaration will cause an error when no deconstruct instance can be found matching your declaration.
 
    ![Missing deconstructor error](media/deconstruct.png)
 

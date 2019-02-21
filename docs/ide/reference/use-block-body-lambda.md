@@ -29,7 +29,7 @@ This refactoring applies to:
 
   ![Use lambda expression/block body](media/block-body-lambda.png)
 
-3. Select **Use block body for lamda expressions** or **Use expression body for lambda expressions**.
+3. Select **Use block body for lambda expressions** or **Use expression body for lambda expressions**.
 
 ## See also
 
