@@ -34,9 +34,11 @@ int GetLanguageInfo( 
 
 #### Parameters
  `pbstrLanguage`
+
  [in, out] Returns a string that contains the name of the language, such as "C++."
 
  `pguidLanguage`
+
  [in, out] Returns the GUID for the language of the code context, for example, `guidCPPLang`.
 
 ## Return Value
@@ -46,4 +48,4 @@ int GetLanguageInfo( 
  At least one of the parameters must return a non-null value.
 
 ## See Also
- [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md)
+- [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md)

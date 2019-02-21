@@ -19,11 +19,13 @@ The Visual Studio Debugging SDK references outline the basic model for the run-t
  The goal of the reference section is to provide support to as diverse a set of languages, run times, and operating systems as possible.
 
 ## In This Section
- [API Reference](../../../extensibility/debugger/reference/api-reference-visual-studio-debugging.md)
+- [API Reference](../../../extensibility/debugger/reference/api-reference-visual-studio-debugging.md)
+
  Contains documentation for the interfaces, enumerators, and structures of the Visual Studio Debugging API.
 
- [Glossary](../../../extensibility/debugger/reference/visual-studio-debugger-glossary.md)
+- [Glossary](../../../extensibility/debugger/reference/visual-studio-debugger-glossary.md)
+
  Provides a list of debugging-related terms and their definitions.
 
 ## See Also
- [Visual Studio Debugger Extensibility](../../../extensibility/debugger/visual-studio-debugger-extensibility.md)
+- [Visual Studio Debugger Extensibility](../../../extensibility/debugger/visual-studio-debugger-extensibility.md)

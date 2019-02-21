@@ -32,6 +32,7 @@ int SetFromManagedObject(
 
 #### Parameters
  `pManagedObject`
+
  [in] An interface that represents the managed object containing the new value.
 
 ## Return Value
@@ -41,4 +42,4 @@ int SetFromManagedObject(
  This method is used to change the managed object as represented by the [IDebugManagedObject](../../../extensibility/debugger/reference/idebugmanagedobject.md) object.
 
 ## See Also
- [IDebugManagedObject](../../../extensibility/debugger/reference/idebugmanagedobject.md)
+- [IDebugManagedObject](../../../extensibility/debugger/reference/idebugmanagedobject.md)

@@ -35,5 +35,5 @@ int CauseBreak();
  This method is asynchronous: an [IDebugBreakEvent2](../../../extensibility/debugger/reference/idebugbreakevent2.md) event is sent when the program next attempts to execute after this method is called.
 
 ## See Also
- [CauseBreak](../../../extensibility/debugger/reference/idebugprogram2-causebreak.md)
- [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)
+- [CauseBreak](../../../extensibility/debugger/reference/idebugprogram2-causebreak.md)
+- [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)

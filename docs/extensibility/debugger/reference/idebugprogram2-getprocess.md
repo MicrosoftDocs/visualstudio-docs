@@ -32,6 +32,7 @@ int GetProcess(
 
 #### Parameters
  `ppProcess`
+
  [out] Returns the [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md) interface that represents the process.
 
 ## Return Value
@@ -43,6 +44,6 @@ int GetProcess(
  Implementing the `IDebugEngineLaunch2` interface means that the DE must know how to create a process; therefore, the DE's implementation of the [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) interface is able to know what process it is running in.
 
 ## See Also
- [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)
- [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md)
- [IDebugEngineLaunch2](../../../extensibility/debugger/reference/idebugenginelaunch2.md)
+- [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)
+- [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md)
+- [IDebugEngineLaunch2](../../../extensibility/debugger/reference/idebugenginelaunch2.md)

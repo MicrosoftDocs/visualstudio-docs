@@ -32,10 +32,11 @@ int GetFunctionName(
 
 #### Parameters
  `pbstrFunctionName`
+
  [out] Returns the name of the function.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## See Also
- [IDebugFunctionPosition2](../../../extensibility/debugger/reference/idebugfunctionposition2.md)
+- [IDebugFunctionPosition2](../../../extensibility/debugger/reference/idebugfunctionposition2.md)

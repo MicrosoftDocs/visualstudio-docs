@@ -32,6 +32,7 @@ int IsPositionInDocument( 
 
 #### Parameters
  `pDoc`
+
  [in] The [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md) object that represents the containing document candidate.
 
 ## Return Value
@@ -41,5 +42,5 @@ int IsPositionInDocument( 
  This method is used primarily in setting breakpoints in [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md) interfaces. As documents are loaded, the breakpoint position is called to determine if the document contains this position.
 
 ## See Also
- [IDebugDocumentPosition2](../../../extensibility/debugger/reference/idebugdocumentposition2.md)
- [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md)
+- [IDebugDocumentPosition2](../../../extensibility/debugger/reference/idebugdocumentposition2.md)
+- [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md)

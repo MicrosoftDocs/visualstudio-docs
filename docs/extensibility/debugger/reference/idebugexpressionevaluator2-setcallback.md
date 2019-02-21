@@ -31,7 +31,8 @@ int SetCallback (
 
 #### Parameters
 `pCallback`
-[in] Interface to use for the settings callback.
+
+ [in] Interface to use for the settings callback.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -68,4 +69,4 @@ HRESULT CEE::SetCallback(IDebugSettingsCallback2* in_pCallback)
 ```
 
 ## See Also
-[IDebugExpressionEvaluator2](../../../extensibility/debugger/reference/idebugexpressionevaluator2.md)
+- [IDebugExpressionEvaluator2](../../../extensibility/debugger/reference/idebugexpressionevaluator2.md)

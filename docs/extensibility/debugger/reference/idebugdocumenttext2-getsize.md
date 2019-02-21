@@ -34,18 +34,20 @@ int GetSize( 
 
 #### Parameters
  `pcNumLines`
+
  [out] Returns the number of lines of text.
 
  `pcNumChars`
+
  [out] Returns the number of characters of text.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## Remarks
- [C++ only] If a particular value is not desired, pass a NULL for the parameter.
+- [C++ only] If a particular value is not desired, pass a NULL for the parameter.
 
- [C# only] Both parameters must be specified.
+- [C# only] Both parameters must be specified.
 
 ## See Also
- [IDebugDocumentText2](../../../extensibility/debugger/reference/idebugdocumenttext2.md)
+- [IDebugDocumentText2](../../../extensibility/debugger/reference/idebugdocumenttext2.md)

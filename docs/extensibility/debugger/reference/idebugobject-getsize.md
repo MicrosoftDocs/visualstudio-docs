@@ -32,6 +32,7 @@ int GetSize(
 
 #### Parameters
  `pnSize`
+
  [out] Returns the size in bytes.
 
 ## Return Value
@@ -41,5 +42,5 @@ int GetSize(
  Use the [GetValue](../../../extensibility/debugger/reference/idebugobject-getvalue.md) method to retrieve the value as a sequence of bytes.
 
 ## See Also
- [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)
- [GetValue](../../../extensibility/debugger/reference/idebugobject-getvalue.md)
+- [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)
+- [GetValue](../../../extensibility/debugger/reference/idebugobject-getvalue.md)

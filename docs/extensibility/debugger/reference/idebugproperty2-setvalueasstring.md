@@ -36,12 +36,15 @@ int SetValueAsString ( 
 
 #### Parameters
  `pszValue`
+
  [in] A string containing the value to be set.
 
  `nRadix`
+
  [in] A radix to be used in interpreting any numerical information. This can be 0 to attempt to determine the radix automatically.
 
  `dwTimeout`
+
  [in] Specifies the maximum time, in milliseconds, to wait before returning from this method. Use `INFINITE` to wait indefinitely.
 
 ## Return Value
@@ -53,4 +56,4 @@ int SetValueAsString ( 
 |`E_SETVALUE_VALUE_IS_READONLY`|The property is read-only.|
 
 ## See Also
- [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md)
+- [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md)

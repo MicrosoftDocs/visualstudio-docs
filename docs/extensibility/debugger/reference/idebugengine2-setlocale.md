@@ -32,6 +32,7 @@ int SetLocale( 
 
 #### Parameters
  `wLangID`
+
  [in] Specifies the language locale. For example, 1033 for English.
 
 ## Return Value
@@ -41,4 +42,4 @@ int SetLocale( 
  This method is called by the session debug manager (SDM) to propagate the locale settings of the IDE so that strings returned by the DE are properly localized.
 
 ## See Also
- [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)
+- [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)

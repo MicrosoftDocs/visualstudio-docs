@@ -41,18 +41,23 @@ int ReadAt(
 
 #### Parameters
  `pStartContext`
+
  [in] The [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md) object that specifies where to start reading bytes.
 
  `dwCount`
+
  [in] The number of bytes to read. Also specifies the length of the `rgbMemory` array.
 
  `rgbMemory`
+
  [in, out] Array filled in with the bytes actually read.
 
  `pdwRead`
+
  [out] Returns the number of contiguous bytes actually read.
 
  `pdwUnreadable`
+
  [in, out] Returns the number of unreadable bytes. May be a null value if the client is uninterested in the number of unreadable bytes.
 
 ## Return Value
@@ -68,5 +73,5 @@ int ReadAt(
  In this case, because `*pdwRead + *pdwUnreadable < dwCount`, the caller must make an additional call to read the remaining 30 bytes of the original 100 requested and the [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md) object passed in the `pStartContext` parameter must be advanced by 70.
 
 ## See Also
- [IDebugMemoryBytes2](../../../extensibility/debugger/reference/idebugmemorybytes2.md)
- [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md)
+- [IDebugMemoryBytes2](../../../extensibility/debugger/reference/idebugmemorybytes2.md)
+- [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md)

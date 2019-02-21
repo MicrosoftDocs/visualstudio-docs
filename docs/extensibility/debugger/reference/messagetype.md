@@ -73,6 +73,6 @@ public enum enum_MESSAGETYPE { 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
- [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
- [GetMessage](../../../extensibility/debugger/reference/idebugmessageevent2-getmessage.md)
- [GetErrorMessage](../../../extensibility/debugger/reference/idebugerrorevent2-geterrormessage.md)
+- [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
+- [GetMessage](../../../extensibility/debugger/reference/idebugmessageevent2-getmessage.md)
+- [GetErrorMessage](../../../extensibility/debugger/reference/idebugerrorevent2-geterrormessage.md)

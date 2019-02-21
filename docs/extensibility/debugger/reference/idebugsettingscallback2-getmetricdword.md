@@ -36,19 +36,23 @@ private int GetMetricDword(
 
 #### Parameters
  `pszType`
+
  [in] Type of the metric.
 
  `guidSection`
+
  [in] Unique identifier of the section.
 
  `pszMetric`
+
  [in] Name of the metric.
 
  `pdwValue`
+
  [out] Returns the value of the metric.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## See Also
- [IDebugSettingsCallback2](../../../extensibility/debugger/reference/idebugsettingscallback2.md)
+- [IDebugSettingsCallback2](../../../extensibility/debugger/reference/idebugsettingscallback2.md)

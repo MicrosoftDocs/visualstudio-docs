@@ -32,6 +32,7 @@ int RemoveAllSetExceptions( 
 
 #### Parameters
  `guidType`
+
  [in] Either the GUID for the language or the GUID for the debug engine that is specific to a run-time architecture.
 
 ## Return Value
@@ -43,6 +44,6 @@ int RemoveAllSetExceptions( 
  To remove a specific exception, call the [RemoveSetException](../../../extensibility/debugger/reference/idebugengine2-removesetexception.md) method.
 
 ## See Also
- [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)
- [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)
- [RemoveSetException](../../../extensibility/debugger/reference/idebugengine2-removesetexception.md)
+- [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)
+- [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)
+- [RemoveSetException](../../../extensibility/debugger/reference/idebugengine2-removesetexception.md)

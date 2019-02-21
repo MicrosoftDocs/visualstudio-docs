@@ -35,6 +35,7 @@ int GetMachineUtilities_V7(
 
 #### Parameters
  `ppUtil`
+
  [out] Returns an `IDebugMDMUtil2_V7` interface that represents the machine utilities information.
 
 ## Return Value
@@ -44,4 +45,4 @@ int GetMachineUtilities_V7(
  [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] always returns `E_NOTIMPL` if this method is called.
 
 ## See Also
- [IDebugCoreServer2](../../../extensibility/debugger/reference/idebugcoreserver2.md)
+- [IDebugCoreServer2](../../../extensibility/debugger/reference/idebugcoreserver2.md)

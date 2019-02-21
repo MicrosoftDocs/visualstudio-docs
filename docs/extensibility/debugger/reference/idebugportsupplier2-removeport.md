@@ -32,6 +32,7 @@ int RemovePort( 
 
 #### Parameters
  `pPort`
+
  [in] An [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md) object that represents the port to be removed.
 
 ## Return Value
@@ -41,5 +42,5 @@ int RemovePort( 
  This method removes the port from the port supplier's internal list of active ports.
 
 ## See Also
- [IDebugPortSupplier2](../../../extensibility/debugger/reference/idebugportsupplier2.md)
- [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md)
+- [IDebugPortSupplier2](../../../extensibility/debugger/reference/idebugportsupplier2.md)
+- [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md)

@@ -38,15 +38,19 @@ int CreateObject(
 
 #### Parameters
  `pConstructor`
+
  [in] An [IDebugFunctionObject](../../../extensibility/debugger/reference/idebugfunctionobject.md) object representing the constructor of the object to be created.
 
  `dwArgs`
+
  [in] The number of parameters in the `pArg` array. Represents the number of parameters passed to the constructor.
 
  `pArg`
+
  [in] An array of [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) objects representing the parameters passed to the constructor.
 
  `ppObject`
+
  [out] Returns an `IDebugObject` representing the newly created object.
 
 ## Return Value
@@ -58,5 +62,5 @@ int CreateObject(
  If the object parameter does not require a constructor, call the [CreateObjectNoConstructor](../../../extensibility/debugger/reference/idebugfunctionobject-createobjectnoconstructor.md) method.
 
 ## See Also
- [IDebugFunctionObject](../../../extensibility/debugger/reference/idebugfunctionobject.md)
- [CreateObjectNoConstructor](../../../extensibility/debugger/reference/idebugfunctionobject-createobjectnoconstructor.md)
+- [IDebugFunctionObject](../../../extensibility/debugger/reference/idebugfunctionobject.md)
+- [CreateObjectNoConstructor](../../../extensibility/debugger/reference/idebugfunctionobject-createobjectnoconstructor.md)

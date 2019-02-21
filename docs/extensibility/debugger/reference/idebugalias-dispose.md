@@ -36,4 +36,4 @@ int Dispose();
  Once this method is called, the alias is no longer available.
 
 ## See Also
- [IDebugAlias](../../../extensibility/debugger/reference/idebugalias.md)
+- [IDebugAlias](../../../extensibility/debugger/reference/idebugalias.md)

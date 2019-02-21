@@ -43,25 +43,32 @@ int LoadSymbolsFromCallback(
 
 #### Parameters
 `ulAppDomainID`
-[in] Identifier of the application domain.
+
+ [in] Identifier of the application domain.
 
 `guidModule`
-[in] Unique identifier of the module.
+
+ [in] Unique identifier of the module.
 
 `pUnkMetadataImport`
-[in] Object that contains the symbol metadata.
+
+ [in] Object that contains the symbol metadata.
 
 `pUnkCorDebugModule`
-[in] Object that implements the [ICorDebugModule Interface](/dotnet/framework/unmanaged-api/debugging/icordebugmodule-interface).
+
+ [in] Object that implements the [ICorDebugModule Interface](/dotnet/framework/unmanaged-api/debugging/icordebugmodule-interface).
 
 `bstrModuleName`
-[in] Name of the module.
+
+ [in] Name of the module.
 
 `bstrSymSearchPath`
-[in] Path to search for the symbol file.
+
+ [in] Path to search for the symbol file.
 
 `pCallback`
-[in] Object that represents the callback method.
+
+ [in] Object that represents the callback method.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -161,4 +168,4 @@ Error:
 ```
 
 ## See Also
-[IDebugComPlusSymbolProvider2](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2.md)
+- [IDebugComPlusSymbolProvider2](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2.md)

@@ -39,7 +39,7 @@ IDebugProcessSecurity : IUnknown
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
- [Ports](../../../extensibility/debugger/ports.md)
- [Port Suppliers](../../../extensibility/debugger/port-suppliers.md)
- [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)
- [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md)
+- [Ports](../../../extensibility/debugger/ports.md)
+- [Port Suppliers](../../../extensibility/debugger/port-suppliers.md)
+- [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)
+- [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md)

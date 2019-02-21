@@ -18,7 +18,7 @@ Retrieves the classes with the specified attribute in a given module.
 ## Syntax
 
 ```
-[C++]
+- [C++]
 HRESULT GetAttributedClassesinModule (
     ULONG32            ulAppDomainID,
     GUID               guidModule,
@@ -28,7 +28,7 @@ HRESULT GetAttributedClassesinModule (
 ```
 
 ```
-[C#]
+- [C#]
 int GetAttributedClassesinModule (
     uint                 ulAppDomainID,
     Guid                 guidModule,
@@ -39,16 +39,20 @@ int GetAttributedClassesinModule (
 
 #### Parameters
 `ulAppDomainID`
-[in] Identifier of the application domain.
+
+ [in] Identifier of the application domain.
 
 `guidModule`
-[in] Unique identifier of the module.
+
+ [in] Unique identifier of the module.
 
 `pstrAttribute`
-[in] The attribute string.
+
+ [in] The attribute string.
 
 `ppEnum`
-[out] Returns an enumeration of the attributed classes.
+
+ [out] Returns an enumeration of the attributed classes.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -145,4 +149,4 @@ Error:
 ```
 
 ## See Also
-[IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)
+- [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

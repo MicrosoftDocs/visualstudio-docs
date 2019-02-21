@@ -39,12 +39,15 @@ int Step(
 
 #### Parameters
  `pThread`
+
  [in] An [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md) object representing the thread being stepped.
 
  `sk`
+
  [in] One of the [STEPKIND](../../../extensibility/debugger/reference/stepkind.md) values.
 
  `step`
+
  [in] One of the [STEPUNIT](../../../extensibility/debugger/reference/stepunit.md) values.
 
 ## Return Value
@@ -56,8 +59,8 @@ int Step(
  **Warning** Do not send a stopping event or an immediate (synchronous) event to [Event](../../../extensibility/debugger/reference/idebugeventcallback2-event.md) while handling this call; otherwise the debugger may hang.
 
 ## See Also
- [IDebugProcess3](../../../extensibility/debugger/reference/idebugprocess3.md)
- [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)
- [STEPKIND](../../../extensibility/debugger/reference/stepkind.md)
- [STEPUNIT](../../../extensibility/debugger/reference/stepunit.md)
- [Event](../../../extensibility/debugger/reference/idebugeventcallback2-event.md)
+- [IDebugProcess3](../../../extensibility/debugger/reference/idebugprocess3.md)
+- [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)
+- [STEPKIND](../../../extensibility/debugger/reference/stepkind.md)
+- [STEPUNIT](../../../extensibility/debugger/reference/stepunit.md)
+- [Event](../../../extensibility/debugger/reference/idebugeventcallback2-event.md)

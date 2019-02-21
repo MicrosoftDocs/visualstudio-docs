@@ -39,22 +39,27 @@ int GetCurrentModulesInfo(
 
 #### Parameters
  `pCount`
+
  [in] Number of modules in the `ppGuids` array.
 
  `ppGuids`
+
  [in] Array that contains the unique identifiers for the modules.
 
  `pADIds`
+
  [in] Identifiers for the application domains.
 
  `pCurrentState`
+
  [in] Current state of the symbol group.
 
  `ppCDModItfs`
+
  [out] Returns an object that contains the modules in the symbol group.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## See Also
- [IDebugSymbolProviderDirect](../../../extensibility/debugger/reference/idebugsymbolproviderdirect.md)
+- [IDebugSymbolProviderDirect](../../../extensibility/debugger/reference/idebugsymbolproviderdirect.md)

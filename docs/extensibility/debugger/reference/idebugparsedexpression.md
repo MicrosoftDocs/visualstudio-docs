@@ -49,6 +49,6 @@ IDebugParsedExpression : IUnknown
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
- [Parse](../../../extensibility/debugger/reference/idebugexpressionevaluator-parse.md)
- [EvaluateSync](../../../extensibility/debugger/reference/idebugparsedexpression-evaluatesync.md)
- [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md)
+- [Parse](../../../extensibility/debugger/reference/idebugexpressionevaluator-parse.md)
+- [EvaluateSync](../../../extensibility/debugger/reference/idebugparsedexpression-evaluatesync.md)
+- [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md)

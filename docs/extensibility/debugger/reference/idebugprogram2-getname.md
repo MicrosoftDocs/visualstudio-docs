@@ -32,6 +32,7 @@ int GetName( 
 
 #### Parameters
  `pbstrName`
+
  [out] Returns the name of the program.
 
 ## Return Value
@@ -41,4 +42,4 @@ int GetName( 
  The name returned by this method is always a friendly, user-displayable name that describes the program.
 
 ## See Also
- [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)
+- [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)

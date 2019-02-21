@@ -32,11 +32,12 @@ int GetMemoryBytes ( 
 
 #### Parameters
  `ppMemoryBytes`
+
  [out] Returns an [IDebugMemoryBytes2](../../../extensibility/debugger/reference/idebugmemorybytes2.md) object that can be used to retrieve the memory that contains the value of the reference.
 
 ## Return Value
  Always returns `E_NOTIMPL`.
 
 ## See Also
- [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md)
- [IDebugMemoryBytes2](../../../extensibility/debugger/reference/idebugmemorybytes2.md)
+- [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md)
+- [IDebugMemoryBytes2](../../../extensibility/debugger/reference/idebugmemorybytes2.md)

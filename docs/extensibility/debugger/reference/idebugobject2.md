@@ -55,7 +55,7 @@ IDebugObject2 : IDebugObject
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
- [Expression Evaluation Interfaces](../../../extensibility/debugger/reference/expression-evaluation-interfaces.md)
- [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)
- [IDebugAlias](../../../extensibility/debugger/reference/idebugalias.md)
- [GetObject](../../../extensibility/debugger/reference/idebugalias-getobject.md)
+- [Expression Evaluation Interfaces](../../../extensibility/debugger/reference/expression-evaluation-interfaces.md)
+- [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)
+- [IDebugAlias](../../../extensibility/debugger/reference/idebugalias.md)
+- [GetObject](../../../extensibility/debugger/reference/idebugalias-getobject.md)

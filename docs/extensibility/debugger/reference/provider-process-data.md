@@ -55,7 +55,7 @@ public struct PROVIDER_PROCESS_DATA {
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
- [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
- [PROVIDER_FIELDS](../../../extensibility/debugger/reference/provider-fields.md)
- [PROGRAM_NODE_ARRAY](../../../extensibility/debugger/reference/program-node-array.md)
- [GetProviderProcessData](../../../extensibility/debugger/reference/idebugprogramprovider2-getproviderprocessdata.md)
+- [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
+- [PROVIDER_FIELDS](../../../extensibility/debugger/reference/provider-fields.md)
+- [PROGRAM_NODE_ARRAY](../../../extensibility/debugger/reference/program-node-array.md)
+- [GetProviderProcessData](../../../extensibility/debugger/reference/idebugprogramprovider2-getproviderprocessdata.md)

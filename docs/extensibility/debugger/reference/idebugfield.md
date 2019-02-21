@@ -64,4 +64,4 @@ weather stormy;
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
- [Symbol Provider Interfaces](../../../extensibility/debugger/reference/symbol-provider-interfaces.md)
+- [Symbol Provider Interfaces](../../../extensibility/debugger/reference/symbol-provider-interfaces.md)

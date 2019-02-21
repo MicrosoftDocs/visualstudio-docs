@@ -36,20 +36,23 @@ int AddImplicitProgramNodes(
 
 #### Parameters
  `guidLaunchingEngine`
+
  [in] The `GUID` of a DE that is to be used to launch programs (and is assumed to add its own program nodes).
 
  `rgguidSpecificEngines`
+
  [in] Array of `GUID`s of DEs for which program nodes will be added.
 
  `celtSpecificEngines`
+
  [in] The number of `GUID`s in the `rgguidSpecificEngines` array.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## Remarks
- [Program Nodes](../../../extensibility/debugger/program-nodes.md) will be added for each DE listed in `rgguidSpecificEngines`—excluding the launching engine (as given in `guidLaunchingEngine`), which is assumed to add its own program node when it launches a program.
+- [Program Nodes](../../../extensibility/debugger/program-nodes.md) will be added for each DE listed in `rgguidSpecificEngines`—excluding the launching engine (as given in `guidLaunchingEngine`), which is assumed to add its own program node when it launches a program.
 
 ## See Also
- [IDebugProgramEx2](../../../extensibility/debugger/reference/idebugprogramex2.md)
- [Program Nodes](../../../extensibility/debugger/program-nodes.md)
+- [IDebugProgramEx2](../../../extensibility/debugger/reference/idebugprogramex2.md)
+- [Program Nodes](../../../extensibility/debugger/program-nodes.md)

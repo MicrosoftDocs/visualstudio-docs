@@ -50,5 +50,5 @@ IEnumDebugProcesses : IUnknown
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
- [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)
- [EnumProcesses](../../../extensibility/debugger/reference/idebugport2-enumprocesses.md)
+- [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)
+- [EnumProcesses](../../../extensibility/debugger/reference/idebugport2-enumprocesses.md)

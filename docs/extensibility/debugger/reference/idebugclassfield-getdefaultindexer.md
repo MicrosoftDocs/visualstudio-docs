@@ -32,6 +32,7 @@ int GetDefaultIndexer(
 
 #### Parameters
  `pbstrIndexer`
+
  [out] Returns a string containing the name of the default indexer.
 
 ## Return Value
@@ -71,4 +72,4 @@ End Function
 ```
 
 ## See Also
- [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md)
+- [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md)

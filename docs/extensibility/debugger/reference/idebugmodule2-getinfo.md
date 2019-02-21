@@ -35,9 +35,11 @@ int GetInfo( 
 
 #### Parameters
  `dwFields`
+
  [in] A combination of flags from the [MODULE_INFO_FIELDS](../../../extensibility/debugger/reference/module-info-fields.md) enumeration that specify which fields of `pInfo` are to be filled out.
 
  `pInfo`
+
  [in, out] A [MODULE_INFO](../../../extensibility/debugger/reference/module-info.md) structure that is filled in with a description of the module.
 
 ## Return Value
@@ -47,6 +49,6 @@ int GetInfo( 
  The [MODULE_INFO](../../../extensibility/debugger/reference/module-info.md) structure contains the name of the module that is displayed in the **Modules** window.
 
 ## See Also
- [IDebugModule2](../../../extensibility/debugger/reference/idebugmodule2.md)
- [MODULE_INFO_FIELDS](../../../extensibility/debugger/reference/module-info-fields.md)
- [MODULE_INFO](../../../extensibility/debugger/reference/module-info.md)
+- [IDebugModule2](../../../extensibility/debugger/reference/idebugmodule2.md)
+- [MODULE_INFO_FIELDS](../../../extensibility/debugger/reference/module-info-fields.md)
+- [MODULE_INFO](../../../extensibility/debugger/reference/module-info.md)

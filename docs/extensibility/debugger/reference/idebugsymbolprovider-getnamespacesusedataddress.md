@@ -34,9 +34,11 @@ int GetNamespacesUsedAtAddress(
 
 #### Parameters
  `pAddress`
+
  [in] The debug address.
 
  `ppEnum`
+
  [out] Returns an [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md) enumerator for the namespaces.
 
 ## Return Value
@@ -46,5 +48,5 @@ int GetNamespacesUsedAtAddress(
  There may be several namespaces associated with a given debug address, for example, nested namespaces or multiple `using` statements.
 
 ## See Also
- [IDebugSymbolProvider](../../../extensibility/debugger/reference/idebugsymbolprovider.md)
- [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md)
+- [IDebugSymbolProvider](../../../extensibility/debugger/reference/idebugsymbolprovider.md)
+- [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md)

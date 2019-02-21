@@ -29,7 +29,7 @@ IEnumDebugObjects : IUnknown
  The expression evaluator implements this interface to provide sets of objects that implement the [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) interface. Note that this is not a standard COM enumeration due to the presence of the [GetCount](../../../extensibility/debugger/reference/ienumdebugobjects-getcount.md) method.
 
 ## Notes for Callers
- [GetElements](../../../extensibility/debugger/reference/idebugarrayobject-getelements.md) returns this interface.
+- [GetElements](../../../extensibility/debugger/reference/idebugarrayobject-getelements.md) returns this interface.
 
 ## Methods in Vtable order
  This interface implements the following methods.
@@ -53,5 +53,5 @@ IEnumDebugObjects : IUnknown
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
- [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)
- [GetElements](../../../extensibility/debugger/reference/idebugarrayobject-getelements.md)
+- [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)
+- [GetElements](../../../extensibility/debugger/reference/idebugarrayobject-getelements.md)

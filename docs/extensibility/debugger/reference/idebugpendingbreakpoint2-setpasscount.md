@@ -33,6 +33,7 @@ int SetPassCount( 
 
 #### Parameters
  `bpPassCount`
+
  [in] A [BP_PASSCOUNT](../../../extensibility/debugger/reference/bp-passcount.md) structure that contains the pass count.
 
 ## Return Value
@@ -42,5 +43,5 @@ int SetPassCount( 
  Any pass count that was previously associated with the pending breakpoint is lost. All breakpoints bound from this pending breakpoint are called to set their pass count to the `bpPassCount` parameter.
 
 ## See Also
- [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md)
- [BP_PASSCOUNT](../../../extensibility/debugger/reference/bp-passcount.md)
+- [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md)
+- [BP_PASSCOUNT](../../../extensibility/debugger/reference/bp-passcount.md)

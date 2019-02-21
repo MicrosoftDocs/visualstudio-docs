@@ -32,6 +32,7 @@ int GetExceptionDescription( 
 
 #### Parameters
  `pbstrDescription`
+
  [out] Returns a displayable description of the exception.
 
 ## Return Value
@@ -41,4 +42,4 @@ int GetExceptionDescription( 
  The string returned from this method is typically the name of the exception and is shown in the **Output** window when the exception occurs.
 
 ## See Also
- [IDebugExceptionEvent2](../../../extensibility/debugger/reference/idebugexceptionevent2.md)
+- [IDebugExceptionEvent2](../../../extensibility/debugger/reference/idebugexceptionevent2.md)

@@ -34,14 +34,16 @@ int onRemoveText( 
 
 #### Parameters
  `pos`
+
  [in] A [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md) structure that indicates where the text was removed.
 
  `dwNumToRemove`
+
  [in] Specifies the number of characters of text that were removed.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## See Also
- [IDebugDocumentTextEvents2](../../../extensibility/debugger/reference/idebugdocumenttextevents2.md)
- [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md)
+- [IDebugDocumentTextEvents2](../../../extensibility/debugger/reference/idebugdocumenttextevents2.md)
+- [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md)

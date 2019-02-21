@@ -37,19 +37,23 @@ int GetTypeFromTypeDef(
 
 #### Parameters
  `ulAppDomainID`
+
  [in] Identifier of the application domain.
 
  `guidModule`
+
  [in] Unique identifier of the module.
 
  `tokClass`
+
  [in] Token that represents the type.
 
  `ppType`
+
  [out] Returns an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object that contains the type.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## See Also
- [IDebugDynamicFieldCOMPlus](../../../extensibility/debugger/reference/idebugdynamicfieldcomplus.md)
+- [IDebugDynamicFieldCOMPlus](../../../extensibility/debugger/reference/idebugdynamicfieldcomplus.md)

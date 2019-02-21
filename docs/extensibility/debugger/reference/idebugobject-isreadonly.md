@@ -32,6 +32,7 @@ int IsReadOnly(
 
 #### Parameters
  `pfIsReadOnly`
+
  [out] Returns non-zero (`TRUE`) if this object is read-only; otherwise, returns zero (`FALSE`).
 
 ## Return Value
@@ -41,4 +42,4 @@ int IsReadOnly(
  A read-only object cannot have its value changed after it is created.
 
 ## See Also
- [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)
+- [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)

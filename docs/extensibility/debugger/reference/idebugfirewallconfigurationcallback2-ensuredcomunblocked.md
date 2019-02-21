@@ -31,4 +31,4 @@ public int EnsureDCOMUnblocked();
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## See Also
- [IDebugFirewallConfigurationCallback2](../../../extensibility/debugger/reference/idebugfirewallconfigurationcallback2.md)
+- [IDebugFirewallConfigurationCallback2](../../../extensibility/debugger/reference/idebugfirewallconfigurationcallback2.md)

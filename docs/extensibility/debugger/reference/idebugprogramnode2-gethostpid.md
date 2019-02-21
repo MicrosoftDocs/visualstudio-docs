@@ -32,6 +32,7 @@ int GetHostPid ( 
 
 #### Parameters
  `pdwHostPid`
+
  [out] Returns the system process identifier for the hosting process.
 
 ## Return Value
@@ -54,4 +55,4 @@ HRESULT CProgram::GetHostPid(AD_PROCESS_ID* pdwHostPid) {
 ```
 
 ## See Also
- [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)
+- [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)

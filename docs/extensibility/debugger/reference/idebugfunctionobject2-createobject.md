@@ -41,21 +41,27 @@ int CreateObject (
 
 #### Parameters
  `pConstructor`
+
  [in] An [IDebugFunctionObject](../../../extensibility/debugger/reference/idebugfunctionobject.md) object that represents the constructor of the object to be created.
 
  `dwArgs`
+
  [in] The number of parameters in the `pArg` array. Represents the number of parameters passed to the constructor.
 
  `pArgs`
+
  [in] An array of [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) objects that represents the parameters passed to the constructor.
 
  `dwEvalFlags`
+
  [in] A combination of flags from the [EVALFLAGS](../../../extensibility/debugger/reference/evalflags.md) enumeration that specify how the evaluation is to be performed.
 
  `dwTimeout`
+
  [in] Maximum time, in milliseconds, to wait before returning from this method. Use **INFINITE** to wait indefinitely.
 
  `ppObject`
+
  [out] Returns an **IDebugObject** representing the newly created object.
 
 ## Return Value
@@ -65,4 +71,4 @@ int CreateObject (
  Call this method to create an object that represents an instance of a class, or other complex type that requires a constructor, that is a parameter.
 
 ## See Also
- [IDebugFunctionObject2](../../../extensibility/debugger/reference/idebugfunctionobject2.md)
+- [IDebugFunctionObject2](../../../extensibility/debugger/reference/idebugfunctionobject2.md)

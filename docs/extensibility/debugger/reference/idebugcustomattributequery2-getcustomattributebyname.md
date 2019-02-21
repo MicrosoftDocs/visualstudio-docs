@@ -36,12 +36,15 @@ int GetCustomAttributeByName(
 
 #### Parameters
  `pszCustomAttributeName`
+
  [in] A string containing the name of the custom attribute to look for.
 
  `ppBlob`
+
  [in, out] An array that is filled in with the custom attribute bytes.
 
  `pdwLen`
+
  [in, out] Specifies the maximum number of bytes to return in the `ppBlob` array and returns the number of bytes actually written to the array.
 
 ## Return Value
@@ -55,5 +58,5 @@ int GetCustomAttributeByName(
  If the `ppBlob` and `pdwLen` parameters are set to a null value, this method can be used to determine if the custom attribute merely exists. An easier alternative, however, is to call the [IsCustomAttributeDefined](../../../extensibility/debugger/reference/idebugcustomattributequery2-iscustomattributedefined.md) method.
 
 ## See Also
- [IDebugCustomAttributeQuery2](../../../extensibility/debugger/reference/idebugcustomattributequery2.md)
- [IsCustomAttributeDefined](../../../extensibility/debugger/reference/idebugcustomattributequery2-iscustomattributedefined.md)
+- [IDebugCustomAttributeQuery2](../../../extensibility/debugger/reference/idebugcustomattributequery2.md)
+- [IsCustomAttributeDefined](../../../extensibility/debugger/reference/idebugcustomattributequery2-iscustomattributedefined.md)

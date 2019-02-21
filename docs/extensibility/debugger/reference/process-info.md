@@ -85,10 +85,10 @@ public struct PROCESS_INFO { 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
- [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
- [PROCESS_INFO_FIELDS](../../../extensibility/debugger/reference/process-info-fields.md)
- [PROCESS_INFO_FLAGS](../../../extensibility/debugger/reference/process-info-flags.md)
- [GetInfo](../../../extensibility/debugger/reference/idebugprocess2-getinfo.md)
- [GetName](../../../extensibility/debugger/reference/idebugprocess2-getname.md)
- [GetPhysicalProcessId](../../../extensibility/debugger/reference/idebugprocess2-getphysicalprocessid.md)
- [GetAttachedSessionName](../../../extensibility/debugger/reference/idebugprocess2-getattachedsessionname.md)
+- [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
+- [PROCESS_INFO_FIELDS](../../../extensibility/debugger/reference/process-info-fields.md)
+- [PROCESS_INFO_FLAGS](../../../extensibility/debugger/reference/process-info-flags.md)
+- [GetInfo](../../../extensibility/debugger/reference/idebugprocess2-getinfo.md)
+- [GetName](../../../extensibility/debugger/reference/idebugprocess2-getname.md)
+- [GetPhysicalProcessId](../../../extensibility/debugger/reference/idebugprocess2-getphysicalprocessid.md)
+- [GetAttachedSessionName](../../../extensibility/debugger/reference/idebugprocess2-getattachedsessionname.md)

@@ -35,7 +35,8 @@ int GetHostMachineName_V7 (
 #### Parameters
 
 `pbstrHostMachineName`
-[out] Returns the name of the machine in which the program is running.
+
+ [out] Returns the name of the machine in which the program is running.
 
 ## Return Value
 
@@ -48,4 +49,4 @@ An implementation should always return `E_NOTIMPL`.
 
 ## See Also
 
-[IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)
+- [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)

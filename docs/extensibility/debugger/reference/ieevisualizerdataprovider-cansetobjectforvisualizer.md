@@ -32,6 +32,7 @@ int CanSetObjectForVisualizer(
 
 #### Parameters
  `b`
+
  [out] Nonzero (`TRUE`) if the object on the visualizer can be updated, zero (`FALSE`) if it cannot.
 
 ## Return Value
@@ -41,4 +42,4 @@ int CanSetObjectForVisualizer(
  An object might not be changeable if it is bound to read-only memory, for example.
 
 ## See Also
- [IEEVisualizerDataProvider](../../../extensibility/debugger/reference/ieevisualizerdataprovider.md)
+- [IEEVisualizerDataProvider](../../../extensibility/debugger/reference/ieevisualizerdataprovider.md)

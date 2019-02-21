@@ -34,9 +34,11 @@ int UnmarshalDebuggeeInterface(
 
 #### Parameters
  `riid`
+
  [in] GUID of the interface to obtain.
 
  `ppvObject`
+
  [out] Returns the object implementing the desired interface. [C++] this can be cast directly to the desired interface type. [C#] use the <xref:System.Runtime.InteropServices.Marshal.GetObjectForIUnknown%2A> method to get the desired interface.
 
 ## Return Value
@@ -46,4 +48,4 @@ int UnmarshalDebuggeeInterface(
  This method is used when the debug engine is running in the [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] process space and the program being debugged is running in its own process space.
 
 ## See Also
- [IDebugProviderProgramNode2](../../../extensibility/debugger/reference/idebugproviderprogramnode2.md)
+- [IDebugProviderProgramNode2](../../../extensibility/debugger/reference/idebugproviderprogramnode2.md)

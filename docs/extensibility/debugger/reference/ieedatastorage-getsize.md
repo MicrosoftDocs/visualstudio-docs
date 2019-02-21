@@ -32,6 +32,7 @@ int GetSize(
 
 #### Parameters
  `size`
+
  [out] The number of bytes contained in this object.
 
 ## Return Value
@@ -41,5 +42,5 @@ int GetSize(
  Use the [GetData](../../../extensibility/debugger/reference/ieedatastorage-getdata.md) method to retrieve the actual data bytes.
 
 ## See Also
- [IEEDataStorage](../../../extensibility/debugger/reference/ieedatastorage.md)
- [GetData](../../../extensibility/debugger/reference/ieedatastorage-getdata.md)
+- [IEEDataStorage](../../../extensibility/debugger/reference/ieedatastorage.md)
+- [GetData](../../../extensibility/debugger/reference/ieedatastorage-getdata.md)

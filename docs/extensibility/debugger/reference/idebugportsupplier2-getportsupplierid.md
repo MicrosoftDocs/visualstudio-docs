@@ -32,10 +32,11 @@ HRESULT GetPortSupplierId( 
 
 #### Parameters
  `pguidPortSupplier`
+
  [out] Returns the GUID of the port supplier.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## See Also
- [IDebugPortSupplier2](../../../extensibility/debugger/reference/idebugportsupplier2.md)
+- [IDebugPortSupplier2](../../../extensibility/debugger/reference/idebugportsupplier2.md)

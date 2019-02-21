@@ -31,6 +31,7 @@ int IsProxy (
 
 #### Parameters
  `pfIsProxy`
+
  [out] `TRUE` if the object is a transparent proxy; otherwise, `FALSE`.
 
 ## Return Value
@@ -40,4 +41,4 @@ int IsProxy (
  This method is implemented by the default C++ debug engine.
 
 ## See Also
- [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)
+- [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)

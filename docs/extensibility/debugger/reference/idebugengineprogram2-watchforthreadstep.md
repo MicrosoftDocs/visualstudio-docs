@@ -38,15 +38,19 @@ int WatchForThreadStep( 
 
 #### Parameters
  `pOriginatingProgram`
+
  [in] An [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) object representing the program being stepped.
 
  `dwTid`
+
  [in] Specifies the identifier of the thread to watch.
 
  `fWatch`
+
  [in] Non-zero (`TRUE`) means start watching for execution on the thread identified by `dwTid`; otherwise, zero (`FALSE`) means stop watching for execution on `dwTid`.
 
  `dwFrame`
+
  [in] Specifies a frame index that controls the step type. When this is value is zero (0), the step type is "step into" and the program should stop whenever the thread identified by `dwTid` executes. When `dwFrame` is non-zero, the step type is "step over" and the program should stop only if the thread identified by `dwTid` is running in a frame whose index is equal to or higher on the stack than `dwFrame`.
 
 ## Return Value
@@ -58,5 +62,5 @@ int WatchForThreadStep( 
  This method is applicable only to same-thread stepping.
 
 ## See Also
- [IDebugEngineProgram2](../../../extensibility/debugger/reference/idebugengineprogram2.md)
- [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)
+- [IDebugEngineProgram2](../../../extensibility/debugger/reference/idebugengineprogram2.md)
+- [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)

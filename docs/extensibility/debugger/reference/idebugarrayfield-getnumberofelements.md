@@ -32,6 +32,7 @@ int GetNumberOfElements(
 
 #### Parameters
  `pdwNumElements`
+
  [out] Returns the number of elements in the array.
 
 ## Return Value
@@ -41,4 +42,4 @@ int GetNumberOfElements(
  The value returned is the total number of elements in the array, regardless of the number of dimensions.
 
 ## See Also
- [IDebugArrayField](../../../extensibility/debugger/reference/idebugarrayfield.md)
+- [IDebugArrayField](../../../extensibility/debugger/reference/idebugarrayfield.md)

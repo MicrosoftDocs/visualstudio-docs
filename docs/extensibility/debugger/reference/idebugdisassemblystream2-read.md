@@ -38,15 +38,19 @@ int Read( 
 
 #### Parameters
  `dwInstructions`
+
  [in] The number of instructions to disassemble. This value is also the maximum length of the `prgDisassembly` array.
 
  `dwFields`
+
  [in] A combination of flags from the [DISASSEMBLY_STREAM_FIELDS](../../../extensibility/debugger/reference/disassembly-stream-fields.md) enumeration that indicate which fields of `prgDisassembly` are to be filled out.
 
  `pdwInstructionsRead`
+
  [out] Returns the number of instructions actually disassembled.
 
  `prgDisassembly`
+
  [out] An array of [DisassemblyData](../../../extensibility/debugger/reference/disassemblydata.md) structures that is filled in with the disassembled code, one structure per disassembled instruction. The length of this array is dictated by the `dwInstructions` parameter.
 
 ## Return Value
@@ -60,8 +64,8 @@ int Read( 
  The `DSF_OPERANDS_SYMBOLS` flag can be added to the `DSF_OPERANDS` flag in the `dwFields` parameter to indicate that symbol names should be used when disassembling instructions.
 
 ## See Also
- [IDebugDisassemblyStream2](../../../extensibility/debugger/reference/idebugdisassemblystream2.md)
- [DISASSEMBLY_STREAM_FIELDS](../../../extensibility/debugger/reference/disassembly-stream-fields.md)
- [DisassemblyData](../../../extensibility/debugger/reference/disassemblydata.md)
- [GetSize](../../../extensibility/debugger/reference/idebugdisassemblystream2-getsize.md)
- [Seek](../../../extensibility/debugger/reference/idebugdisassemblystream2-seek.md)
+- [IDebugDisassemblyStream2](../../../extensibility/debugger/reference/idebugdisassemblystream2.md)
+- [DISASSEMBLY_STREAM_FIELDS](../../../extensibility/debugger/reference/disassembly-stream-fields.md)
+- [DisassemblyData](../../../extensibility/debugger/reference/disassemblydata.md)
+- [GetSize](../../../extensibility/debugger/reference/idebugdisassemblystream2-getsize.md)
+- [Seek](../../../extensibility/debugger/reference/idebugdisassemblystream2-seek.md)

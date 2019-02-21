@@ -31,6 +31,7 @@ HRESULT DisableENC(
 
 #### Parameters
  `reason`
+
  [in] A value from the [EncUnavailableReason](../../../extensibility/debugger/reference/encunavailablereason.md) enumeration.
 
 ## Return Value
@@ -43,5 +44,5 @@ HRESULT DisableENC(
  Once Edit and Continue is disabled for a process, it can be re-enabled only by restarting the process.
 
 ## See Also
- [IDebugProcess3](../../../extensibility/debugger/reference/idebugprocess3.md)
- [EncUnavailableReason](../../../extensibility/debugger/reference/encunavailablereason.md)
+- [IDebugProcess3](../../../extensibility/debugger/reference/idebugprocess3.md)
+- [EncUnavailableReason](../../../extensibility/debugger/reference/encunavailablereason.md)

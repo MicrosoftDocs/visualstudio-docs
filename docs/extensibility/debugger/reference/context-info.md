@@ -77,7 +77,7 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
-[Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
-[GetInfo](../../../extensibility/debugger/reference/idebugmemorycontext2-getinfo.md)
-[CONTEXT_INFO_FIELDS](../../../extensibility/debugger/reference/context-info-fields.md)
-[TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md)
+- [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
+- [GetInfo](../../../extensibility/debugger/reference/idebugmemorycontext2-getinfo.md)
+- [CONTEXT_INFO_FIELDS](../../../extensibility/debugger/reference/context-info-fields.md)
+- [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md)

@@ -32,6 +32,7 @@ int GetUnderlyingSymbol(
 
 #### Parameters
  `ppField`
+
  [out] Returns the [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) describing the name of this enumeration.
 
 ## Return Value
@@ -41,6 +42,6 @@ int GetUnderlyingSymbol(
  The name of the enumeration also contains the type of the enumeration, which is bound to a memory location by using [Bind](../../../extensibility/debugger/reference/idebugbinder-bind.md).
 
 ## See Also
- [IDebugEnumField](../../../extensibility/debugger/reference/idebugenumfield.md)
- [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)
- [Bind](../../../extensibility/debugger/reference/idebugbinder-bind.md)
+- [IDebugEnumField](../../../extensibility/debugger/reference/idebugenumfield.md)
+- [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)
+- [Bind](../../../extensibility/debugger/reference/idebugbinder-bind.md)

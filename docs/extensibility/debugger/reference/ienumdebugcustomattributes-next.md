@@ -36,17 +36,20 @@ int Next(
 
 #### Parameters
  `celt`
+
  [in] The number of elements to retrieve. Also specifies the maximum size of the `rgelt` array.
 
  `rgelt`
+
  [out] An array of [IDebugCustomAttribute](../../../extensibility/debugger/reference/idebugcustomattribute.md) objects to be filled in.
 
  `pceltFetched`
+
  [out] Returns the number of elements actually returned in `rgelt`.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if fewer than the requested number of elements could be returned; otherwise, returns an error code.
 
 ## See Also
- [IEnumDebugCustomAttributes](../../../extensibility/debugger/reference/ienumdebugcustomattributes.md)
- [IDebugCustomAttribute](../../../extensibility/debugger/reference/idebugcustomattribute.md)
+- [IEnumDebugCustomAttributes](../../../extensibility/debugger/reference/ienumdebugcustomattributes.md)
+- [IDebugCustomAttribute](../../../extensibility/debugger/reference/idebugcustomattribute.md)

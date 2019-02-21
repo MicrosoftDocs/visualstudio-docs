@@ -32,6 +32,7 @@ int GetAttribute( 
 
 #### Parameters
  `pdwAttrib`
+
  [out] A combination of flags from the [EVENTATTRIBUTES](../../../extensibility/debugger/reference/eventattributes.md) enumeration.
 
 ## Return Value
@@ -41,5 +42,5 @@ int GetAttribute( 
  The [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md) interface is common to all events. This method describes the type of event; for example, is the event synchronous or asynchronous and is it a stopping event.
 
 ## See Also
- [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md)
- [EVENTATTRIBUTES](../../../extensibility/debugger/reference/eventattributes.md)
+- [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md)
+- [EVENTATTRIBUTES](../../../extensibility/debugger/reference/eventattributes.md)

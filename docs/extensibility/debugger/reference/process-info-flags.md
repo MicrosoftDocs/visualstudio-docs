@@ -67,5 +67,5 @@ Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
 
-[Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
-[PROCESS_INFO](../../../extensibility/debugger/reference/process-info.md)
+- [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
+- [PROCESS_INFO](../../../extensibility/debugger/reference/process-info.md)

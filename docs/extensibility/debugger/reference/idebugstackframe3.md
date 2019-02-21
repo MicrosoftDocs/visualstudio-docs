@@ -39,7 +39,7 @@ IDebugStackFrame3 : IDebugStackFrame2
 ## Remarks
  An intercepted exception means that a debugger can process an exception before any normal exception handling routines are called by the run time. Intercepting an exception essentially means making the run time pretend that there is an exception handler present even when there is not.
 
- [InterceptCurrentException](../../../extensibility/debugger/reference/idebugstackframe3-interceptcurrentexception.md) is called during all normal exception callback events (the only exception to this is if you are debugging mixed-mode code (managed and unmanaged code), in which case the exception cannot be intercepted during the last-chance callback). If the DE does not implement `IDebugStackFrame3`, or the DE returns an error from IDebugStackFrame3::`InterceptCurrentException` (such as `E_NOTIMPL`), then the debugger will handle the exception normally.
+- [InterceptCurrentException](../../../extensibility/debugger/reference/idebugstackframe3-interceptcurrentexception.md) is called during all normal exception callback events (the only exception to this is if you are debugging mixed-mode code (managed and unmanaged code), in which case the exception cannot be intercepted during the last-chance callback). If the DE does not implement `IDebugStackFrame3`, or the DE returns an error from IDebugStackFrame3::`InterceptCurrentException` (such as `E_NOTIMPL`), then the debugger will handle the exception normally.
 
  By intercepting an exception, the debugger can allow the user to make changes to the state of the program being debugged and then resume execution at the point where the exception was thrown.
 
@@ -56,6 +56,6 @@ IDebugStackFrame3 : IDebugStackFrame2
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
- [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)
- [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md)
- [SDK Helpers for Debugging](../../../extensibility/debugger/reference/sdk-helpers-for-debugging.md)
+- [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)
+- [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md)
+- [SDK Helpers for Debugging](../../../extensibility/debugger/reference/sdk-helpers-for-debugging.md)

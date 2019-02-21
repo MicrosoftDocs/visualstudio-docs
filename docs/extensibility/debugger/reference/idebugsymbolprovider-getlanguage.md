@@ -36,12 +36,15 @@ int GetLanguage(
 
 #### Parameters
  `pAddress`
+
  [in] An address object represented by an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface.
 
  `pguidLanguage`
+
  [out] Returns a `GUID` that specifies the language.
 
  `pguidLanguageVendor`
+
  [out] Returns a `GUID` that specifies the language vendor.
 
 ## Return Value
@@ -51,5 +54,5 @@ int GetLanguage(
  The debug engine calls this method to obtain the information it needs to select the correct expression evaluator.
 
 ## See Also
- [IDebugSymbolProvider](../../../extensibility/debugger/reference/idebugsymbolprovider.md)
- [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md)
+- [IDebugSymbolProvider](../../../extensibility/debugger/reference/idebugsymbolprovider.md)
+- [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md)

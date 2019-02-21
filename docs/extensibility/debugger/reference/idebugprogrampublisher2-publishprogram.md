@@ -36,12 +36,15 @@ int PublishProgram(
 
 #### Parameters
  `Engines`
+
  [in] An array of GUIDs for DEs that can launch or attach to this program.
 
  `szFriendlyName`
+
  [in] Friendly name for the program (this appears in menus or dialogs presented to the user).
 
  `pDebuggeeInterface`
+
  [in] `IUnknown` interface for the program (this value is used as a cookie to uniquely identify the program; this same value is used to "unpublish" the program)
 
 ## Return Value
@@ -51,5 +54,5 @@ int PublishProgram(
  To make a program no longer available for debugging, call [UnpublishProgram](../../../extensibility/debugger/reference/idebugprogrampublisher2-unpublishprogram.md).
 
 ## See Also
- [IDebugProgramPublisher2](../../../extensibility/debugger/reference/idebugprogrampublisher2.md)
- [UnpublishProgram](../../../extensibility/debugger/reference/idebugprogrampublisher2-unpublishprogram.md)
+- [IDebugProgramPublisher2](../../../extensibility/debugger/reference/idebugprogrampublisher2.md)
+- [UnpublishProgram](../../../extensibility/debugger/reference/idebugprogrampublisher2-unpublishprogram.md)

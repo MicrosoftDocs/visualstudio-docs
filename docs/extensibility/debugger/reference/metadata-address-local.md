@@ -38,7 +38,7 @@ public struct METADATA_ADDRESS_LOCAL {
  tokMethod
  The ID of the method or function the local variable is part of.
 
- [C++] `_mdToken` is a `typedef` for a 32-bit `int`.
+- [C++] `_mdToken` is a `typedef` for a 32-bit `int`.
 
  pLocal
  The token whose address this structure represents.
@@ -66,7 +66,7 @@ if (addr.dwKind == ADDRESS_KIND_METADATA_LOCAL &&  addr.addr.addrLocal.pLocal !=
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
- [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
- [DEBUG_ADDRESS_UNION](../../../extensibility/debugger/reference/debug-address-union.md)
- [DEBUG_ADDRESS](../../../extensibility/debugger/reference/debug-address.md)
- [ADDRESS_KIND](../../../extensibility/debugger/reference/address-kind.md)
+- [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
+- [DEBUG_ADDRESS_UNION](../../../extensibility/debugger/reference/debug-address-union.md)
+- [DEBUG_ADDRESS](../../../extensibility/debugger/reference/debug-address.md)
+- [ADDRESS_KIND](../../../extensibility/debugger/reference/address-kind.md)

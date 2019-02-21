@@ -32,6 +32,7 @@ int GetProcessId(
 
 #### Parameters
  `pguidProcessId`
+
  [out] Returns the GUID for this process.
 
 ## Return Value
@@ -41,4 +42,4 @@ int GetProcessId(
  The Globally Unique IDentifier (GUID) identifies this process from all other processes running in the system.
 
 ## See Also
- [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md)
+- [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md)

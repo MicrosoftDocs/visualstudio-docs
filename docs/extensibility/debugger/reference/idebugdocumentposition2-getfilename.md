@@ -32,6 +32,7 @@ int GetFileName( 
 
 #### Parameters
  `pbstrFileName`
+
  [out] Returns the file name of the source file.
 
 ## Return Value
@@ -41,4 +42,4 @@ int GetFileName( 
  A source file may not always have a file name (the source file may not exist on disk, for example).
 
 ## See Also
- [IDebugDocumentPosition2](../../../extensibility/debugger/reference/idebugdocumentposition2.md)
+- [IDebugDocumentPosition2](../../../extensibility/debugger/reference/idebugdocumentposition2.md)

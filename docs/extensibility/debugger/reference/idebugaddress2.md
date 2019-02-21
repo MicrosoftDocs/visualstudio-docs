@@ -43,5 +43,5 @@ IDebugAddress2 : IDebugAddress
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
- [Symbol Provider Interfaces](../../../extensibility/debugger/reference/symbol-provider-interfaces.md)
- [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md)
+- [Symbol Provider Interfaces](../../../extensibility/debugger/reference/symbol-provider-interfaces.md)
+- [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md)

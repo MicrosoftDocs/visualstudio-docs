@@ -35,4 +35,4 @@ int Reset();
  After this method is called, the next call to the [Next](../../../extensibility/debugger/reference/ienumdebugthreads2-next.md) method returns the first element of the enumeration.
 
 ## See Also
- [IEnumDebugThreads2](../../../extensibility/debugger/reference/ienumdebugthreads2.md)
+- [IEnumDebugThreads2](../../../extensibility/debugger/reference/ienumdebugthreads2.md)

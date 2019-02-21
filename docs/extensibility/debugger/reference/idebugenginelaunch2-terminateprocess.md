@@ -32,6 +32,7 @@ int TerminateProcess ( 
 
 #### Parameters
  `pProcess`
+
  [in] An [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md) object that represents the process to be terminated.
 
 ## Return Value
@@ -41,6 +42,6 @@ int TerminateProcess ( 
  Call the [CanTerminateProcess](../../../extensibility/debugger/reference/idebugenginelaunch2-canterminateprocess.md) method before calling this method.
 
 ## See Also
- [IDebugEngineLaunch2](../../../extensibility/debugger/reference/idebugenginelaunch2.md)
- [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md)
- [CanTerminateProcess](../../../extensibility/debugger/reference/idebugenginelaunch2-canterminateprocess.md)
+- [IDebugEngineLaunch2](../../../extensibility/debugger/reference/idebugenginelaunch2.md)
+- [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md)
+- [CanTerminateProcess](../../../extensibility/debugger/reference/idebugenginelaunch2-canterminateprocess.md)

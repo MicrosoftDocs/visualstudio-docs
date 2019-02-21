@@ -30,6 +30,7 @@ int GetUserName (
 
 #### Parameters
  `pbstrUserName`
+
  [out] A string containing the user name.
 
 ## Return Value
@@ -39,4 +40,4 @@ int GetUserName (
  `GetUserName` returns the user name that is displayed in the **User Name** column of the **Attach to Process** dialog box. To view the **Attach to Process** dialog box, click **Attach to Process** on the **Tools** menu in the [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE).
 
 ## See Also
- [IDebugProcessSecurity](../../../extensibility/debugger/reference/idebugprocesssecurity.md)
+- [IDebugProcessSecurity](../../../extensibility/debugger/reference/idebugprocesssecurity.md)

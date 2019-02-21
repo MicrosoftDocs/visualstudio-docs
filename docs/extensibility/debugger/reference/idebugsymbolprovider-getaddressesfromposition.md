@@ -38,15 +38,19 @@ int GetAddressesFromPosition( 
 
 #### Parameters
  `pDocPos`
+
  [in] The document position.
 
  `fStatmentOnly`
+
  [in] If TRUE, limits the debug addresses to a single statement.
 
  `ppEnumBegAddresses`
+
  [out] Returns an enumerator for the starting debug addresses associated with this statement or line.
 
  `ppEnumEndAddresses`
+
  [out] Returns an [IEnumDebugAddresses](../../../extensibility/debugger/reference/ienumdebugaddresses.md) enumerator for the ending debug addresses associated with this statement or line.
 
 ## Return Value
@@ -58,6 +62,6 @@ int GetAddressesFromPosition( 
  It is possible for a single statement to have multiple debug addresses, as in the case of templates.
 
 ## See Also
- [IDebugSymbolProvider](../../../extensibility/debugger/reference/idebugsymbolprovider.md)
- [GetAddressesFromContext](../../../extensibility/debugger/reference/idebugsymbolprovider-getaddressesfromcontext.md)
- [IEnumDebugAddresses](../../../extensibility/debugger/reference/ienumdebugaddresses.md)
+- [IDebugSymbolProvider](../../../extensibility/debugger/reference/idebugsymbolprovider.md)
+- [GetAddressesFromContext](../../../extensibility/debugger/reference/idebugsymbolprovider-getaddressesfromcontext.md)
+- [IEnumDebugAddresses](../../../extensibility/debugger/reference/ienumdebugaddresses.md)

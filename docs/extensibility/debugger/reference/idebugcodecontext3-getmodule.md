@@ -30,7 +30,8 @@ public int GetModule(
 
 #### Parameters
 `ppModule`
-[out] Reference to the debug module interface.
+
+ [out] Reference to the debug module interface.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -57,4 +58,4 @@ Error:
 ```
 
 ## See Also
-[IDebugCodeContext3](../../../extensibility/debugger/reference/idebugcodecontext3.md)
+- [IDebugCodeContext3](../../../extensibility/debugger/reference/idebugcodecontext3.md)

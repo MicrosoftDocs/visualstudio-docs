@@ -31,10 +31,11 @@ int GetPrimitiveType (
 
 #### Parameters
  `pdwType`
+
  [out] Value from the [CorElementType Enumeration](/dotnet/framework/unmanaged-api/metadata/corelementtype-enumeration) that represents the primitive type.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE`.
 
 ## See Also
- [IDebugPrimitiveTypeField](../../../extensibility/debugger/reference/idebugprimitivetypefield.md)
+- [IDebugPrimitiveTypeField](../../../extensibility/debugger/reference/idebugprimitivetypefield.md)

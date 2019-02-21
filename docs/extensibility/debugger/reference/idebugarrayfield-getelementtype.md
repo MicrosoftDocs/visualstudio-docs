@@ -32,6 +32,7 @@ int GetElementType(
 
 #### Parameters
  `ppType`
+
  [out] Returns an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object that describes the type of element.
 
 ## Return Value
@@ -41,5 +42,5 @@ int GetElementType(
  The [IDebugArrayField](../../../extensibility/debugger/reference/idebugarrayfield.md) object assumes that all elements of the array are the same type.
 
 ## See Also
- [IDebugArrayField](../../../extensibility/debugger/reference/idebugarrayfield.md)
- [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)
+- [IDebugArrayField](../../../extensibility/debugger/reference/idebugarrayfield.md)
+- [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)

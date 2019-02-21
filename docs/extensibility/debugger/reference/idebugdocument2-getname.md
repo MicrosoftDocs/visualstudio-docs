@@ -34,9 +34,11 @@ int GetName( 
 
 #### Parameters
  `gnType`
+
  [in] A value from the [GETNAME_TYPE](../../../extensibility/debugger/reference/getname-type.md) enumeration that determines the type of name to return.
 
  `pbstrFileName`
+
  [out] Returns a string containing the document name.
 
 ## Return Value
@@ -46,5 +48,5 @@ int GetName( 
  This method can, for example, return the name of the document as a title or as a file name or even part of a file name.
 
 ## See Also
- [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md)
- [GETNAME_TYPE](../../../extensibility/debugger/reference/getname-type.md)
+- [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md)
+- [GETNAME_TYPE](../../../extensibility/debugger/reference/getname-type.md)

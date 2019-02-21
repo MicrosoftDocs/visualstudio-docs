@@ -32,10 +32,11 @@ int GetName(
 
 #### Parameters
  `pbstrName`
+
  [out] Name of the alias.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.
 
 ## See Also
- [IDebugAlias](../../../extensibility/debugger/reference/idebugalias.md)
+- [IDebugAlias](../../../extensibility/debugger/reference/idebugalias.md)

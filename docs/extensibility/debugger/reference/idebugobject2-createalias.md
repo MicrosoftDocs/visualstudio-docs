@@ -32,6 +32,7 @@ int CreateAlias(
 
 #### Parameters
  `ppAlias`
+
  [out] The new (or existing) alias.
 
 ## Return Value
@@ -41,5 +42,5 @@ int CreateAlias(
  An alias is a label that represents a particular object while the object is in memory.
 
 ## See Also
- [IDebugObject2](../../../extensibility/debugger/reference/idebugobject2.md)
- [IDebugAlias](../../../extensibility/debugger/reference/idebugalias.md)
+- [IDebugObject2](../../../extensibility/debugger/reference/idebugobject2.md)
+- [IDebugAlias](../../../extensibility/debugger/reference/idebugalias.md)

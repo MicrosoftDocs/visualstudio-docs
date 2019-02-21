@@ -35,4 +35,4 @@ int Reset();
  After this method is called, the next call to the [Next](../../../extensibility/debugger/reference/ienumdebugprograms2-next.md) method returns the first element of the enumeration.
 
 ## See Also
- [IEnumDebugPrograms2](../../../extensibility/debugger/reference/ienumdebugprograms2.md)
+- [IEnumDebugPrograms2](../../../extensibility/debugger/reference/ienumdebugprograms2.md)

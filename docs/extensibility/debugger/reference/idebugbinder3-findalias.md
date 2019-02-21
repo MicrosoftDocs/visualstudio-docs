@@ -34,9 +34,11 @@ int FindAlias(
 
 #### Parameters
  `pcstrName`
+
  [in] Name of alias to find.
 
  `ppAlias`
+
  [out] Alias found (if any) represented by the [IDebugAlias](../../../extensibility/debugger/reference/idebugalias.md) interface.
 
 ## Return Value
@@ -46,5 +48,5 @@ int FindAlias(
  This method initializes the destination object to null before calling; then it tests for a null value afterward to determine whether or not the alias was found.
 
 ## See Also
- [IDebugBinder3](../../../extensibility/debugger/reference/idebugbinder3.md)
- [IDebugAlias](../../../extensibility/debugger/reference/idebugalias.md)
+- [IDebugBinder3](../../../extensibility/debugger/reference/idebugbinder3.md)
+- [IDebugAlias](../../../extensibility/debugger/reference/idebugalias.md)

@@ -32,6 +32,7 @@ int GetICorDebugValue(
 
 #### Parameters
  `ppUnk`
+
  [out] `IUnknown` interface that represents this alias. This interface can be queried for the `ICorDebugValue` interface.
 
 ## Return Value
@@ -41,4 +42,4 @@ int GetICorDebugValue(
  The `ICorDebugValue` object is a Common Language Runtime interface that represents a value.
 
 ## See Also
- [IDebugObject2](../../../extensibility/debugger/reference/idebugobject2.md)
+- [IDebugObject2](../../../extensibility/debugger/reference/idebugobject2.md)

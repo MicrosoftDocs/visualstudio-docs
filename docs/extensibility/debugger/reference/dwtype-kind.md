@@ -57,9 +57,9 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
-[Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
-[TYPE_INFO](../../../extensibility/debugger/reference/type-info.md)
-[GetTypeInfo](../../../extensibility/debugger/reference/idebugfield-gettypeinfo.md)
-[METADATA_TYPE](../../../extensibility/debugger/reference/metadata-type.md)
-[PDB_TYPE](../../../extensibility/debugger/reference/pdb-type.md)
-[BUILT_TYPE](../../../extensibility/debugger/reference/built-type.md)
+- [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
+- [TYPE_INFO](../../../extensibility/debugger/reference/type-info.md)
+- [GetTypeInfo](../../../extensibility/debugger/reference/idebugfield-gettypeinfo.md)
+- [METADATA_TYPE](../../../extensibility/debugger/reference/metadata-type.md)
+- [PDB_TYPE](../../../extensibility/debugger/reference/pdb-type.md)
+- [BUILT_TYPE](../../../extensibility/debugger/reference/built-type.md)

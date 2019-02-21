@@ -32,6 +32,7 @@ int GetServerName(
 
 #### Parameters
  `pbstrName`
+
  [out] Returns the name of the server.
 
 > [!NOTE]
@@ -44,5 +45,5 @@ int GetServerName(
  For a friendly server name, call the [GetServerFriendlyName](../../../extensibility/debugger/reference/idebugcoreserver3-getserverfriendlyname.md) method.
 
 ## See Also
- [IDebugCoreServer3](../../../extensibility/debugger/reference/idebugcoreserver3.md)
- [GetServerFriendlyName](../../../extensibility/debugger/reference/idebugcoreserver3-getserverfriendlyname.md)
+- [IDebugCoreServer3](../../../extensibility/debugger/reference/idebugcoreserver3.md)
+- [GetServerFriendlyName](../../../extensibility/debugger/reference/idebugcoreserver3-getserverfriendlyname.md)

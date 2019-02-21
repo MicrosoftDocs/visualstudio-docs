@@ -33,9 +33,11 @@ int GetBaseIndices (
 
 #### Parameters
  `dwRank`
+
  [in] The number of dimensions (rank) of the array.
 
  `dwIndices`
+
  [out] The base indices (lower bounds) for the array.
 
 ## Return Value
@@ -51,4 +53,4 @@ Array.CreateInstance(typeof(int), lengths, lowerbounds);
 ```
 
 ## See Also
- [IDebugArrayObject2](../../../extensibility/debugger/reference/idebugarrayobject2.md)
+- [IDebugArrayObject2](../../../extensibility/debugger/reference/idebugarrayobject2.md)

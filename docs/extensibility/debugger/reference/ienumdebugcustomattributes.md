@@ -26,7 +26,7 @@ IEnumCustomAttributes : IUnknown
  A symbol provider implements this interface to support custom attributes (through the [IDebugCustomAttribute](../../../extensibility/debugger/reference/idebugcustomattribute.md) interface).
 
 ## Notes for Callers
- [EnumCustomAttributes](../../../extensibility/debugger/reference/idebugcustomattributequery2-enumcustomattributes.md) returns this interface.
+- [EnumCustomAttributes](../../../extensibility/debugger/reference/idebugcustomattributequery2-enumcustomattributes.md) returns this interface.
 
 ## Methods in Vtable Order
  The following table shows the methods of `IEnumDebugCustomAttributes`.
@@ -47,6 +47,6 @@ IEnumCustomAttributes : IUnknown
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
- [Symbol Provider Interfaces](../../../extensibility/debugger/reference/symbol-provider-interfaces.md)
- [EnumCustomAttributes](../../../extensibility/debugger/reference/idebugcustomattributequery2-enumcustomattributes.md)
- [IDebugCustomAttribute](../../../extensibility/debugger/reference/idebugcustomattribute.md)
+- [Symbol Provider Interfaces](../../../extensibility/debugger/reference/symbol-provider-interfaces.md)
+- [EnumCustomAttributes](../../../extensibility/debugger/reference/idebugcustomattributequery2-enumcustomattributes.md)
+- [IDebugCustomAttribute](../../../extensibility/debugger/reference/idebugcustomattribute.md)

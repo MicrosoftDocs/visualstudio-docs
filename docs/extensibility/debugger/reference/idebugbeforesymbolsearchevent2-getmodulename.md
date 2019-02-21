@@ -31,7 +31,8 @@ public int GetModuleName (
 
 #### Parameters
 `pbstrModuleName`
-[out] Name of the module.
+
+ [out] Name of the module.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -60,4 +61,4 @@ STDMETHODIMP CDebugBeforeSymbolSearchEventBase::GetModuleName(BSTR *pbstrModuleN
 ```
 
 ## See Also
-[IDebugBeforeSymbolSearchEvent2](../../../extensibility/debugger/reference/idebugbeforesymbolsearchevent2.md)
+- [IDebugBeforeSymbolSearchEvent2](../../../extensibility/debugger/reference/idebugbeforesymbolsearchevent2.md)

@@ -32,10 +32,11 @@ int GetParent ( 
 
 #### Parameters
  `ppParent`
+
  [out] Returns an [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md) object that represents the parent of this property.
 
 ## Return Value
  Always returns `E_NOTIMPL`.
 
 ## See Also
- [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md)
+- [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md)

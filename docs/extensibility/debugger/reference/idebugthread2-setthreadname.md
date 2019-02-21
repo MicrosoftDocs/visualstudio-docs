@@ -32,6 +32,7 @@ int SetThreadName ( 
 
 #### Parameters
  `pszName`
+
  [in] The name of the thread.
 
 ## Return Value
@@ -41,5 +42,5 @@ int SetThreadName ( 
  To get the thread name, call the [GetName](../../../extensibility/debugger/reference/idebugthread2-getname.md) method.
 
 ## See Also
- [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)
- [GetName](../../../extensibility/debugger/reference/idebugthread2-getname.md)
+- [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)
+- [GetName](../../../extensibility/debugger/reference/idebugthread2-getname.md)

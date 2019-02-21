@@ -46,5 +46,5 @@ public enum enum_PPROGRAM_DESTROY_FLAGS
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
- [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
- [GetFlags](../../../extensibility/debugger/reference/idebugprogramdestroyeventflags2-getflags.md)
+- [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
+- [GetFlags](../../../extensibility/debugger/reference/idebugprogramdestroyeventflags2-getflags.md)

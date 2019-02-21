@@ -33,6 +33,7 @@ int SetCondition( 
 
 #### Parameters
  `bpCondition`
+
  [in] A value from the [BP_CONDITION](../../../extensibility/debugger/reference/bp-condition.md) enumeration that describes the condition.
 
 ## Return Value
@@ -42,6 +43,6 @@ int SetCondition( 
  Any condition that was previously associated with this breakpoint is lost.
 
 ## See Also
- [IDebugBoundBreakpoint2](../../../extensibility/debugger/reference/idebugboundbreakpoint2.md)
- [BP_CONDITION](../../../extensibility/debugger/reference/bp-condition.md)
- [BP_STATE](../../../extensibility/debugger/reference/bp-state.md)
+- [IDebugBoundBreakpoint2](../../../extensibility/debugger/reference/idebugboundbreakpoint2.md)
+- [BP_CONDITION](../../../extensibility/debugger/reference/bp-condition.md)
+- [BP_STATE](../../../extensibility/debugger/reference/bp-state.md)

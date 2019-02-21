@@ -32,14 +32,15 @@ int SetHostingProcessLanguage(
 
 #### Parameters
  `guidLang`
+
  [in] `GUID` of the language that the DE should use. Specify `GUID_NULL` (C++) or `Guid.Empty` (C#) to have the DE use the default language.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns error code.
 
 ## Remarks
- [GetHostingProcessLanguage](../../../extensibility/debugger/reference/idebugprocess3-gethostingprocesslanguage.md) can be used to retrieve the current language setting.
+- [GetHostingProcessLanguage](../../../extensibility/debugger/reference/idebugprocess3-gethostingprocesslanguage.md) can be used to retrieve the current language setting.
 
 ## See Also
- [IDebugProcess3](../../../extensibility/debugger/reference/idebugprocess3.md)
- [GetHostingProcessLanguage](../../../extensibility/debugger/reference/idebugprocess3-gethostingprocesslanguage.md)
+- [IDebugProcess3](../../../extensibility/debugger/reference/idebugprocess3.md)
+- [GetHostingProcessLanguage](../../../extensibility/debugger/reference/idebugprocess3-gethostingprocesslanguage.md)

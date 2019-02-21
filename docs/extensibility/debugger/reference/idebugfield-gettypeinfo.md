@@ -32,6 +32,7 @@ int GetTypeInfo(
 
 #### Parameters
  `pTypeInfo`
+
  [out] Returns type information in the supplied [TYPE_INFO](../../../extensibility/debugger/reference/type-info.md) structure.
 
 ## Return Value
@@ -41,6 +42,6 @@ int GetTypeInfo(
  Type-independent information would include, for example, the AppDomain, the module, and the class that contains the symbol.
 
 ## See Also
- [GetType](../../../extensibility/debugger/reference/idebugfield-gettype.md)
- [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)
- [TYPE_INFO](../../../extensibility/debugger/reference/type-info.md)
+- [GetType](../../../extensibility/debugger/reference/idebugfield-gettype.md)
+- [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)
+- [TYPE_INFO](../../../extensibility/debugger/reference/type-info.md)

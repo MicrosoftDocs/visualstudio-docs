@@ -35,16 +35,19 @@ int GetValueDisplayStringCount (
 
 #### Parameters
  `displayKind`
+
  [in] Value from the [DisplayKind](../../../extensibility/debugger/reference/displaykind.md) enumeration.
 
  `propertyOrField`
+
  [in] An [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) interface that represents a property or field.
 
  `pcelt`
+
  [out] Returns the number of value strings to display.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## See Also
- [IEEVisualizerService](../../../extensibility/debugger/reference/ieevisualizerservice.md)
+- [IEEVisualizerService](../../../extensibility/debugger/reference/ieevisualizerservice.md)

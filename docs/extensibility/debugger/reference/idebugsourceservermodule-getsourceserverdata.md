@@ -32,10 +32,12 @@ public int GetSourceServerData(
 
 #### Parameters
 `pDataByteCount`
-[out] Number of bytes in the data array.
+
+ [out] Number of bytes in the data array.
 
 `ppData`
-[out] Reference to the data array.
+
+ [out] Reference to the data array.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -66,4 +68,4 @@ Error:
 ```
 
 ## See Also
-[IDebugSourceServerModule](../../../extensibility/debugger/reference/idebugsourceservermodule.md)
+- [IDebugSourceServerModule](../../../extensibility/debugger/reference/idebugsourceservermodule.md)

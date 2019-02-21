@@ -32,10 +32,11 @@ int Equal(
 
 #### Parameters
  `pField`
+
  [in] The field to compare to this one.
 
 ## Return Value
  If the fields are the same, returns `S_OK`. If the fields are different, returns `S_FALSE.` Otherwise, returns an error code.
 
 ## See Also
- [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)
+- [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)

@@ -36,18 +36,21 @@ int GetMemoryObject(
 
 #### Parameters
  `pField`
+
  [in] Specifies which field to get the memory object for.
 
  `uConstant`
+
  [in] Represents a memory address or value for a constant value.
 
  `ppObject`
+
  [out] An [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) representing the memory that this object is bound to.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## See Also
- [IDebugBinder3](../../../extensibility/debugger/reference/idebugbinder3.md)
- [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)
- [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)
+- [IDebugBinder3](../../../extensibility/debugger/reference/idebugbinder3.md)
+- [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)
+- [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)

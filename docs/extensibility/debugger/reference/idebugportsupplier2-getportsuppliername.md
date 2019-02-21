@@ -32,10 +32,11 @@ int GetPortSupplierName( 
 
 #### Parameters
  `pbstrName`
+
  [out] Returns the name of the port supplier.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## See Also
- [IDebugPortSupplier2](../../../extensibility/debugger/reference/idebugportsupplier2.md)
+- [IDebugPortSupplier2](../../../extensibility/debugger/reference/idebugportsupplier2.md)

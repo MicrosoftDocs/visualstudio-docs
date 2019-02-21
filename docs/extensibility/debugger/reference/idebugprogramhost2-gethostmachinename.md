@@ -32,10 +32,11 @@ int GetHostMachineName( 
 
 #### Parameters
  `pbstrHostMachineName`
+
  [out] Returns the name of the machine.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## See Also
- [IDebugProgramHost2](../../../extensibility/debugger/reference/idebugprogramhost2.md)
+- [IDebugProgramHost2](../../../extensibility/debugger/reference/idebugprogramhost2.md)

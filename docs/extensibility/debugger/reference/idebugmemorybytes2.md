@@ -26,7 +26,7 @@ IDebugMemoryBytes2 : IUnknown
  The debug engine (DE) implements this interface to represent bytes in memory.
 
 ## Notes for Callers
- [GetMemoryBytes](../../../extensibility/debugger/reference/idebugprogram2-getmemorybytes.md) returns this interface to provide access to system memory. [GetMemoryBytes](../../../extensibility/debugger/reference/idebugproperty2-getmemorybytes.md) and [GetMemoryBytes](../../../extensibility/debugger/reference/idebugreference2-getmemorybytes.md) return this interface to provide access to an object's bytes.
+- [GetMemoryBytes](../../../extensibility/debugger/reference/idebugprogram2-getmemorybytes.md) returns this interface to provide access to system memory. [GetMemoryBytes](../../../extensibility/debugger/reference/idebugproperty2-getmemorybytes.md) and [GetMemoryBytes](../../../extensibility/debugger/reference/idebugreference2-getmemorybytes.md) return this interface to provide access to an object's bytes.
 
 ## Methods in Vtable Order
  The following table shows the methods of `IDebugMemoryBytes2`.
@@ -50,8 +50,8 @@ IDebugMemoryBytes2 : IUnknown
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
- [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)
- [GetMemoryBytes](../../../extensibility/debugger/reference/idebugprogram2-getmemorybytes.md)
- [GetMemoryBytes](../../../extensibility/debugger/reference/idebugproperty2-getmemorybytes.md)
- [GetMemoryBytes](../../../extensibility/debugger/reference/idebugreference2-getmemorybytes.md)
- [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md)
+- [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)
+- [GetMemoryBytes](../../../extensibility/debugger/reference/idebugprogram2-getmemorybytes.md)
+- [GetMemoryBytes](../../../extensibility/debugger/reference/idebugproperty2-getmemorybytes.md)
+- [GetMemoryBytes](../../../extensibility/debugger/reference/idebugreference2-getmemorybytes.md)
+- [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md)

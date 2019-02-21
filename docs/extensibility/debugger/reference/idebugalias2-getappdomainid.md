@@ -31,6 +31,7 @@ int GetAppDomainId (
 
 #### Parameters
  `pappDomainId`
+
  [out] Returns the application domain identifier.
 
 ## Return Value
@@ -40,4 +41,4 @@ int GetAppDomainId (
  The application domain identifier changes whenever the application is restarted and a new application domain is created.
 
 ## See Also
- [IDebugAlias2](../../../extensibility/debugger/reference/idebugalias2.md)
+- [IDebugAlias2](../../../extensibility/debugger/reference/idebugalias2.md)

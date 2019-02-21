@@ -15,18 +15,22 @@ ms.workload:
 Methods are listed alphabetically under each interface in the table of contents and on the interface page in Vtable order.
 
 ## In This Section
- [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)
+- [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)
+
  Describes the interfaces used in the debug engine.
 
- [Expression Evaluation Interfaces](../../../extensibility/debugger/reference/expression-evaluation-interfaces.md)
+- [Expression Evaluation Interfaces](../../../extensibility/debugger/reference/expression-evaluation-interfaces.md)
+
  Describes the interfaces that evaluate expressions in a call stack during break mode.
 
- [Symbol Provider Interfaces](../../../extensibility/debugger/reference/symbol-provider-interfaces.md)
+- [Symbol Provider Interfaces](../../../extensibility/debugger/reference/symbol-provider-interfaces.md)
+
  Describes the interfaces that a symbol provider implements to associate types to identifiers.
 
 ## Related Sections
- [API Reference](../../../extensibility/debugger/reference/api-reference-visual-studio-debugging.md)
+- [API Reference](../../../extensibility/debugger/reference/api-reference-visual-studio-debugging.md)
+
  Contains documentation for the interfaces, enumerators, and structures of the [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] Debugging SDK.
 
 ## See Also
- [API Reference](../../../extensibility/debugger/reference/api-reference-visual-studio-debugging.md)
+- [API Reference](../../../extensibility/debugger/reference/api-reference-visual-studio-debugging.md)

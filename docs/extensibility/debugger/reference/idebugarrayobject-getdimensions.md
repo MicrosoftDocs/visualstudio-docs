@@ -34,9 +34,11 @@ int GetDimensions(
 
 #### Parameters
  `dwCount`
+
  [in] The number of dimensions to retrieve.
 
  `dwDimensions`
+
  [in, out] An array that is filled in with the sizes of each dimension. `dwCount` specifies the maximum size of the `dwDimensions` array.
 
 ## Return Value
@@ -46,4 +48,4 @@ int GetDimensions(
  A multi-dimensional array can have different sizes for each dimension. For example, given the three-dimensional array `myarray[3][2][6]`, this method would return 3, 2, and 6 in the `dwDimensions` parameter in that order.
 
 ## See Also
- [IDebugArrayObject](../../../extensibility/debugger/reference/idebugarrayobject.md)
+- [IDebugArrayObject](../../../extensibility/debugger/reference/idebugarrayobject.md)

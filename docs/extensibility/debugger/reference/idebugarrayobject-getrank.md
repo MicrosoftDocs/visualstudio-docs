@@ -32,6 +32,7 @@ int GetRank(
 
 #### Parameters
  `pdwRank`
+
  [out] Returns the rank.
 
 ## Return Value
@@ -41,4 +42,4 @@ int GetRank(
  Use the [GetDimensions](../../../extensibility/debugger/reference/idebugarrayobject-getdimensions.md) method to retrieve the size of each dimension of the array object.
 
 ## See Also
- [IDebugArrayObject](../../../extensibility/debugger/reference/idebugarrayobject.md)
+- [IDebugArrayObject](../../../extensibility/debugger/reference/idebugarrayobject.md)

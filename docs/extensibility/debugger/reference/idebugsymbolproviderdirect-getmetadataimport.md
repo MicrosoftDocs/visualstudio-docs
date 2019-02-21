@@ -35,16 +35,19 @@ int GetMetaDataImport (
 
 #### Parameters
  `guid`
+
  [in] Unique identifier for the module.
 
  `appID`
+
  [in] Identifier for the application domain.
 
  `ppImport`
+
  [out] Returns an object that contains the metadata import information.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## See Also
- [IDebugSymbolProviderDirect](../../../extensibility/debugger/reference/idebugsymbolproviderdirect.md)
+- [IDebugSymbolProviderDirect](../../../extensibility/debugger/reference/idebugsymbolproviderdirect.md)

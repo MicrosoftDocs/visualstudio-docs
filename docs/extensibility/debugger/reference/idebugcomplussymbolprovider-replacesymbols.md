@@ -35,13 +35,16 @@ int ReplaceSymbols(
 
 #### Parameters
 `ulAppDomainID`
-[in] Identifier of the application domain.
+
+ [in] Identifier of the application domain.
 
 `guidModule`
-[in] Unique identifier of the module.
+
+ [in] Unique identifier of the module.
 
 `pStream`
-[in] Data stream that contains the new symbols.
+
+ [in] Data stream that contains the new symbols.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -73,4 +76,4 @@ Error:
 ```
 
 ## See Also
-[IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)
+- [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

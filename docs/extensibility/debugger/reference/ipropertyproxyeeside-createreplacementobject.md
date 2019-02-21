@@ -34,9 +34,11 @@ int CreateReplacementObject(
 
 #### Parameters
  `dataIn`
+
  [in] An [IEEDataStorage](../../../extensibility/debugger/reference/ieedatastorage.md) object holding the data to be copied.
 
  `dataOut`
+
  [out] Returns a new `IEEDataStorage` object.
 
 ## Return Value
@@ -48,5 +50,5 @@ int CreateReplacementObject(
  Note that the data supplied by the incoming `IEEDataStorage` object must be the same data in the outgoing `IEEDataStorage` object.
 
 ## See Also
- [IPropertyProxyEESide](../../../extensibility/debugger/reference/ipropertyproxyeeside.md)
- [IEEDataStorage](../../../extensibility/debugger/reference/ieedatastorage.md)
+- [IPropertyProxyEESide](../../../extensibility/debugger/reference/ipropertyproxyeeside.md)
+- [IEEDataStorage](../../../extensibility/debugger/reference/ieedatastorage.md)

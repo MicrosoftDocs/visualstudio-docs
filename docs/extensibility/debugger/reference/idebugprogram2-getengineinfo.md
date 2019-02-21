@@ -34,9 +34,11 @@ int GetEngineInfo( 
 
 #### Parameters
  `pbstrEngine`
+
  [out] Returns the name of the DE running this program.
 
  `pguidEngine`
+
  [out] Returns the GUID of the DE running this program.
 
 ## Return Value
@@ -46,4 +48,4 @@ int GetEngineInfo( 
  Each DE defines its own GUID for identification.
 
 ## See Also
- [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)
+- [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)

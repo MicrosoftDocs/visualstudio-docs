@@ -33,6 +33,7 @@ int GetDocumentContext ( 
 
 #### Parameters
  `ppDocContext`
+
  [out] Returns an [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md) object that represents a position in a source file document.
 
 ## Remarks
@@ -42,5 +43,5 @@ int GetDocumentContext ( 
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## See Also
- [IDebugActivateDocumentEvent2](../../../extensibility/debugger/reference/idebugactivatedocumentevent2.md)
- [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md)
+- [IDebugActivateDocumentEvent2](../../../extensibility/debugger/reference/idebugactivatedocumentevent2.md)
+- [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md)

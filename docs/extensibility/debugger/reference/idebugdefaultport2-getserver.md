@@ -32,6 +32,7 @@ int GetServer(
 
 #### Parameters
  `ppServer`
+
  [out] Returns an object implementing the [IDebugCoreServer3](../../../extensibility/debugger/reference/idebugcoreserver3.md) interface.
 
 ## Return Value
@@ -41,5 +42,5 @@ int GetServer(
  The [IDebugCoreServer3](../../../extensibility/debugger/reference/idebugcoreserver3.md) is implemented by Visual Studio and represents the server that the port is located on.
 
 ## See Also
- [IDebugDefaultPort2](../../../extensibility/debugger/reference/idebugdefaultport2.md)
- [IDebugCoreServer3](../../../extensibility/debugger/reference/idebugcoreserver3.md)
+- [IDebugDefaultPort2](../../../extensibility/debugger/reference/idebugdefaultport2.md)
+- [IDebugCoreServer3](../../../extensibility/debugger/reference/idebugcoreserver3.md)

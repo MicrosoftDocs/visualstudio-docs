@@ -32,11 +32,12 @@ int GetConnectionProtocol(
 
 #### Parameters
  `pProtocol`
+
  [out] Returns one of the values from the [CONNECTION_PROTOCOL](../../../extensibility/debugger/reference/connection-protocol.md) enumeration.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns error code.
 
 ## See Also
- [IDebugCoreServer3](../../../extensibility/debugger/reference/idebugcoreserver3.md)
- [CONNECTION_PROTOCOL](../../../extensibility/debugger/reference/connection-protocol.md)
+- [IDebugCoreServer3](../../../extensibility/debugger/reference/idebugcoreserver3.md)
+- [CONNECTION_PROTOCOL](../../../extensibility/debugger/reference/connection-protocol.md)

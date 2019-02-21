@@ -32,6 +32,7 @@ int Skip(
 
 #### Parameters
  `celt`
+
  [in] Number of elements to skip.
 
 ## Return Value
@@ -41,4 +42,4 @@ int Skip(
  If `celt` specifies a value greater than the number of remaining elements, the enumeration is set to the end and `S_FALSE` is returned.
 
 ## See Also
- [IEnumDebugReferenceInfo2](../../../extensibility/debugger/reference/ienumdebugreferenceinfo2.md)
+- [IEnumDebugReferenceInfo2](../../../extensibility/debugger/reference/ienumdebugreferenceinfo2.md)

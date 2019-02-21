@@ -32,4 +32,4 @@ int onDestroy();
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## See Also
- [IDebugDocumentTextEvents2](../../../extensibility/debugger/reference/idebugdocumenttextevents2.md)
+- [IDebugDocumentTextEvents2](../../../extensibility/debugger/reference/idebugdocumenttextevents2.md)

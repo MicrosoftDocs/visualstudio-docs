@@ -32,6 +32,7 @@ int Clone(
 
 #### Parameters
  `ppEnum`
+
  [out] Returns a copy of this enumeration as a separate object.
 
 ## Property Value/Return Value
@@ -41,4 +42,4 @@ int Clone(
  The copy of the enumeration has the same state as the original at the time this method is called. However, the copy's and the original's states are separate and can be changed individually.
 
 ## See Also
- [IEnumDebugAddresses](../../../extensibility/debugger/reference/ienumdebugaddresses.md)
+- [IEnumDebugAddresses](../../../extensibility/debugger/reference/ienumdebugaddresses.md)

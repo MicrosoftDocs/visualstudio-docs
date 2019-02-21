@@ -32,10 +32,11 @@ int IsCustomAttributeDefined(
 
 #### Parameters
  `pszCustomAttributeName`
+
  [in] A string containing the name of the custom attribute to find.
 
 ## Return Value
  Returns S_OK if the custom attribute is defined on this method, otherwise returns S_FALSE.
 
 ## See Also
- [IDebugMethodField](../../../extensibility/debugger/reference/idebugmethodfield.md)
+- [IDebugMethodField](../../../extensibility/debugger/reference/idebugmethodfield.md)

@@ -32,6 +32,7 @@ int GetName( 
 
 #### Parameters
  `pbstrName`
+
  [out] Returns the name of the evaluation context.
 
 ## Return Value
@@ -45,4 +46,4 @@ int GetName( 
 ```
 
 ## See Also
- [IDebugExpressionContext2](../../../extensibility/debugger/reference/idebugexpressioncontext2.md)
+- [IDebugExpressionContext2](../../../extensibility/debugger/reference/idebugexpressioncontext2.md)

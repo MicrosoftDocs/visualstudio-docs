@@ -33,6 +33,7 @@ int SetHitCount( 
 
 #### Parameters
  `dwHitCount`
+
  [in] The hit count to set.
 
 ## Return Value
@@ -44,5 +45,5 @@ int SetHitCount( 
  This method is typically called by the debug engine to update the current hit count on this breakpoint.
 
 ## See Also
- [IDebugBoundBreakpoint2](../../../extensibility/debugger/reference/idebugboundbreakpoint2.md)
- [BP_STATE](../../../extensibility/debugger/reference/bp-state.md)
+- [IDebugBoundBreakpoint2](../../../extensibility/debugger/reference/idebugboundbreakpoint2.md)
+- [BP_STATE](../../../extensibility/debugger/reference/bp-state.md)

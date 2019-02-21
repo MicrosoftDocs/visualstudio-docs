@@ -31,13 +31,13 @@ IDebugProperty2 : IUnknown
 ## Notes for Callers
  Call [EvaluateSync](../../../extensibility/debugger/reference/idebugexpression2-evaluatesync.md) or [EvaluateAsync](../../../extensibility/debugger/reference/idebugexpression2-evaluateasync.md) to obtain this interface, which represents the result of an evaluation. `IDebugExpression2::EvaluateAsync` returns this interface by sending an [IDebugExpressionEvaluationCompleteEvent2](../../../extensibility/debugger/reference/idebugexpressionevaluationcompleteevent2.md) interface to the SDM, which in turn calls [GetResult](../../../extensibility/debugger/reference/idebugexpressionevaluationcompleteevent2-getresult.md) to retrieve the property.
 
- [GetDebugProperty](../../../extensibility/debugger/reference/idebugpropertycreateevent2-getdebugproperty.md) returns this interface to provide the associated script document.
+- [GetDebugProperty](../../../extensibility/debugger/reference/idebugpropertycreateevent2-getdebugproperty.md) returns this interface to provide the associated script document.
 
- [GetReturnValue](../../../extensibility/debugger/reference/idebugreturnvalueevent2-getreturnvalue.md) returns this interface to represent the return value of a function.
+- [GetReturnValue](../../../extensibility/debugger/reference/idebugreturnvalueevent2-getreturnvalue.md) returns this interface to represent the return value of a function.
 
- [GetDebugProperty](../../../extensibility/debugger/reference/idebugprogram2-getdebugproperty.md) returns this interface to represent various properties of the program such as a name or a memory context.
+- [GetDebugProperty](../../../extensibility/debugger/reference/idebugprogram2-getdebugproperty.md) returns this interface to represent various properties of the program such as a name or a memory context.
 
- [GetDebugProperty](../../../extensibility/debugger/reference/idebugstackframe2-getdebugproperty.md) returns this interface to represent various properties of the stack frame such as local variables.
+- [GetDebugProperty](../../../extensibility/debugger/reference/idebugstackframe2-getdebugproperty.md) returns this interface to represent various properties of the stack frame such as local variables.
 
 ## Methods in Vtable Order
  The following table shows the methods of `IDebugProperty2`.
@@ -71,6 +71,6 @@ IDebugProperty2 : IUnknown
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
- [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)
- [DEBUG_PROPERTY_INFO](../../../extensibility/debugger/reference/debug-property-info.md)
- [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md)
+- [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)
+- [DEBUG_PROPERTY_INFO](../../../extensibility/debugger/reference/debug-property-info.md)
+- [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md)

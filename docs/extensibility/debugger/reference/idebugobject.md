@@ -58,6 +58,6 @@ IDebugObject : IUnknown
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
- [Expression Evaluation Interfaces](../../../extensibility/debugger/reference/expression-evaluation-interfaces.md)
- [GetElement](../../../extensibility/debugger/reference/idebugarrayobject-getelement.md)
- [Bind](../../../extensibility/debugger/reference/idebugbinder-bind.md)
+- [Expression Evaluation Interfaces](../../../extensibility/debugger/reference/expression-evaluation-interfaces.md)
+- [GetElement](../../../extensibility/debugger/reference/idebugarrayobject-getelement.md)
+- [Bind](../../../extensibility/debugger/reference/idebugbinder-bind.md)

@@ -56,42 +56,55 @@ int LaunchSuspended(
 
 #### Parameters
  `pszMachine`
+
  [in] The name of the machine in which to launch the process. Use a null value to specify the local machine.
 
  `pPort`
+
  [in] The [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md) interface representing the port that the program will run in.
 
  `pszExe`
+
  [in] The name of the executable to be launched.
 
  `pszArgs`
+
  [in] The arguments to pass to the executable. May be a null value if there are no arguments.
 
  `pszDir`
+
  [in] The name of the working directory used by the executable. May be a null value if no working directory is required.
 
  `bstrEnv`
+
  [in] Environment block of NULL-terminated strings, followed by an additional NULL terminator.
 
  `pszOptions`
+
  [in] The options for the executable.
 
  `dwLaunchFlags`
+
  [in] Specifies the [LAUNCH_FLAGS](../../../extensibility/debugger/reference/launch-flags.md) for a session.
 
  `hStdInput`
+
  [in] Handle to an alternate input stream. May be 0 if redirection is not required.
 
  `hStdOutput`
+
  [in] Handle to an alternate output stream. May be 0 if redirection is not required.
 
  `hStdError`
+
  [in] Handle to an alternate error output stream. May be 0 if redirection is not required.
 
  `pCallback`
+
  [in] The [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md) object that receives debugger events.
 
  `ppDebugProcess`
+
  [out] Returns the resulting [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md) object that represents the launched process.
 
 ## Return Value
@@ -103,10 +116,10 @@ int LaunchSuspended(
  The [ResumeProcess](../../../extensibility/debugger/reference/idebugenginelaunch2-resumeprocess.md) method is called to start the process after the process has been successfully launched in a suspended state.
 
 ## See Also
- [IDebugEngineLaunch2](../../../extensibility/debugger/reference/idebugenginelaunch2.md)
- [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md)
- [LAUNCH_FLAGS](../../../extensibility/debugger/reference/launch-flags.md)
- [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md)
- [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md)
- [LaunchSuspended](../../../extensibility/debugger/reference/idebugportex2-launchsuspended.md)
- [ResumeProcess](../../../extensibility/debugger/reference/idebugenginelaunch2-resumeprocess.md)
+- [IDebugEngineLaunch2](../../../extensibility/debugger/reference/idebugenginelaunch2.md)
+- [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md)
+- [LAUNCH_FLAGS](../../../extensibility/debugger/reference/launch-flags.md)
+- [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md)
+- [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md)
+- [LaunchSuspended](../../../extensibility/debugger/reference/idebugportex2-launchsuspended.md)
+- [ResumeProcess](../../../extensibility/debugger/reference/idebugenginelaunch2-resumeprocess.md)

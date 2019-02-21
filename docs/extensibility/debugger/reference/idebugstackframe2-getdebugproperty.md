@@ -32,6 +32,7 @@ int GetDebugProperty ( 
 
 #### Parameters
  `ppDebugProp`
+
  [out] Returns an [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) object that describes the properties of this stack frame.
 
 ## Return Value
@@ -41,5 +42,5 @@ int GetDebugProperty ( 
  Calling the [EnumChildren](../../../extensibility/debugger/reference/idebugproperty2-enumchildren.md) method with appropriate filters can retrieve the local variables, method parameters, registers, and "this" pointer associated with the stack frame.
 
 ## See Also
- [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md)
- [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md)
+- [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md)
+- [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md)

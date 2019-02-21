@@ -42,21 +42,27 @@ int Parse(
 
 #### Parameters
  `upstrExpression`
+
  [in] The expression string to be parsed.
 
  `dwFlags`
+
  [in] A collection of [PARSEFLAGS](../../../extensibility/debugger/reference/parseflags.md) constants that determine how the expression is to be parsed.
 
  `nRadix`
+
  [in] Radix to be used to interpret any numerical information.
 
  `pbstrError`
+
  [out] Returns the  error as human-readable text.
 
  `pichError`
+
  [out] Returns the character position of the start of the error in the expression string.
 
  `ppParsedExpression`
+
  [out] Returns the parsed expression in an [IDebugParsedExpression](../../../extensibility/debugger/reference/idebugparsedexpression.md) object.
 
 ## Return Value
@@ -66,6 +72,6 @@ int Parse(
  This method produces a parsed expression, not an actual value. A parsed expression is ready to be evaluated, that is, converted to a value.
 
 ## See Also
- [IDebugExpressionEvaluator](../../../extensibility/debugger/reference/idebugexpressionevaluator.md)
- [IDebugParsedExpression](../../../extensibility/debugger/reference/idebugparsedexpression.md)
- [PARSEFLAGS](../../../extensibility/debugger/reference/parseflags.md)
+- [IDebugExpressionEvaluator](../../../extensibility/debugger/reference/idebugexpressionevaluator.md)
+- [IDebugParsedExpression](../../../extensibility/debugger/reference/idebugparsedexpression.md)
+- [PARSEFLAGS](../../../extensibility/debugger/reference/parseflags.md)

@@ -19,14 +19,14 @@ Gets the count of elements in the array.
 ## Syntax
 
 ```
-[C++]
+- [C++]
 HRESULT GetCount( 
    DWORD* pdwElements
 );
 ```
 
 ```
-[C#]
+- [C#]
 int GetCount(
    out uint pdwElements
 );
@@ -34,6 +34,7 @@ int GetCount(
 
 #### Parameters
  `pdwElements`
+
  [out] Returns the count.
 
 ## Return Value
@@ -43,4 +44,4 @@ int GetCount(
  This method sees all of the elements of an array object as a one-dimensional array, even if the array object is multi-dimensional. For example, given the array `myarray[3][2][6]`, this method would return 36 in the `pdwElements` parameter. Use the [GetElement](../../../extensibility/debugger/reference/idebugarrayobject-getelement.md) method to retrieve the individual elements one at a time.
 
 ## See Also
- [IDebugArrayObject](../../../extensibility/debugger/reference/idebugarrayobject.md)
+- [IDebugArrayObject](../../../extensibility/debugger/reference/idebugarrayobject.md)

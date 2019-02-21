@@ -32,10 +32,11 @@ int SetJustMyCodeState(
 
 #### Parameters
  `fIsUserCode`
+
  [in] Nonzero (`TRUE`) if the module should be considered user code, zero (`FALSE`) if it should not.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns error code.
 
 ## See Also
- [IDebugModule3](../../../extensibility/debugger/reference/idebugmodule3.md)
+- [IDebugModule3](../../../extensibility/debugger/reference/idebugmodule3.md)

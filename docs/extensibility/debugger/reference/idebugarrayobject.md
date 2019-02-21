@@ -53,4 +53,4 @@ IDebugArrayObject : IDebugObject
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
- [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)
+- [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)

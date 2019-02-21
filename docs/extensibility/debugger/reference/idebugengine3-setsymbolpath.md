@@ -57,5 +57,5 @@ int SetSymbolPath(
  The [LoadSymbols](../../../extensibility/debugger/reference/idebugengine3-loadsymbols.md) method performs the actual load of the symbols.
 
 ## See Also
- [LoadSymbols](../../../extensibility/debugger/reference/idebugengine3-loadsymbols.md)
- [IDebugEngine3](../../../extensibility/debugger/reference/idebugengine3.md)
+- [LoadSymbols](../../../extensibility/debugger/reference/idebugengine3-loadsymbols.md)
+- [IDebugEngine3](../../../extensibility/debugger/reference/idebugengine3.md)

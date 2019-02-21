@@ -30,7 +30,8 @@ int GetOwner(
 
 #### Parameters
 `ppOwner`
-[out] Returns the [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object that owns this generic parameter.
+
+ [out] Returns the [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object that owns this generic parameter.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -87,4 +88,4 @@ Error:
 ```
 
 ## See Also
-[IDebugGenericParamField](../../../extensibility/debugger/reference/idebuggenericparamfield.md)
+- [IDebugGenericParamField](../../../extensibility/debugger/reference/idebuggenericparamfield.md)

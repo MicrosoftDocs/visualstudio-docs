@@ -31,10 +31,11 @@ int GetPointerAddress (
 
 #### Parameters
  `puAddress`
+
  [out] Returns the address of the pointer.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## See Also
- [IDebugPointerObject3](../../../extensibility/debugger/reference/idebugpointerobject3.md)
+- [IDebugPointerObject3](../../../extensibility/debugger/reference/idebugpointerobject3.md)

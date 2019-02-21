@@ -32,6 +32,7 @@ int GetENCUpdate(
 
 #### Parameters
  `ppUpdate`
+
  [out] Returns an internal interface that can be used to update this program.
 
 ## Return Value
@@ -41,4 +42,4 @@ int GetENCUpdate(
 >  A custom debug engine should always return `E_NOTIMPL`.
 
 ## See Also
- [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)
+- [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)

@@ -32,4 +32,4 @@ int DisableAutoAttach();
  If successful, returns `S_OK`; otherwise, returns error code.
 
 ## See Also
- [IDebugCoreServer3](../../../extensibility/debugger/reference/idebugcoreserver3.md)
+- [IDebugCoreServer3](../../../extensibility/debugger/reference/idebugcoreserver3.md)

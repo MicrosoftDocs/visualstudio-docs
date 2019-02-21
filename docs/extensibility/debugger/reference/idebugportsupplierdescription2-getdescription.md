@@ -32,13 +32,15 @@ public int GetDescription(
 
 #### Parameters
  `pdwFlags`
+
  [out] Metadata flags for the description.
 
  `pbstrText`
+
  [out] Description of the port supplier.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## See Also
- [IDebugPortSupplierDescription2](../../../extensibility/debugger/reference/idebugportsupplierdescription2.md)
+- [IDebugPortSupplierDescription2](../../../extensibility/debugger/reference/idebugportsupplierdescription2.md)

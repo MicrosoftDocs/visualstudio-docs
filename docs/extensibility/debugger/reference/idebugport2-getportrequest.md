@@ -32,12 +32,13 @@ int GetPortRequest( 
 
 #### Parameters
  `ppRequest`
+
  [out] Returns an [IDebugPortRequest2](../../../extensibility/debugger/reference/idebugportrequest2.md) object representing the request that was used to create the port.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.  Returns `E_PORT_NO_REQUEST` if a port was not created using an [IDebugPortRequest2](../../../extensibility/debugger/reference/idebugportrequest2.md) port request.
 
 ## See Also
- [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md)
- [IDebugPortRequest2](../../../extensibility/debugger/reference/idebugportrequest2.md)
- [AddPort](../../../extensibility/debugger/reference/idebugportsupplier2-addport.md)
+- [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md)
+- [IDebugPortRequest2](../../../extensibility/debugger/reference/idebugportrequest2.md)
+- [AddPort](../../../extensibility/debugger/reference/idebugportsupplier2-addport.md)

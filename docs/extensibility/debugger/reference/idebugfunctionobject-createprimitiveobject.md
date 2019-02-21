@@ -34,9 +34,11 @@ int CreatePrimitiveObject(
 
 #### Parameters
  `ot`
+
  [in] A value from the [OBJECT_TYPE](../../../extensibility/debugger/reference/object-type.md) enumeration representing the type of primitive to create.
 
  `ppObject`
+
  [out] Returns an [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) representing the newly created object.
 
 ## Return Value
@@ -46,4 +48,4 @@ int CreatePrimitiveObject(
  Call this method to create an object that represents a primitive object that is a parameter to the function which is represented by the [IDebugFunctionObject](../../../extensibility/debugger/reference/idebugfunctionobject.md) interface. For example, if the expression string is "myString(5)", this method would be used to create an object representing the integer 5.
 
 ## See Also
- [IDebugFunctionObject](../../../extensibility/debugger/reference/idebugfunctionobject.md)
+- [IDebugFunctionObject](../../../extensibility/debugger/reference/idebugfunctionobject.md)

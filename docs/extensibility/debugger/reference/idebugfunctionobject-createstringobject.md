@@ -34,9 +34,11 @@ int CreateStringObject(
 
 #### Parameters
  `pcstrString`
+
  [in] The string value for the string object.
 
  `ppObject`
+
  [out] Returns an [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) object that represents the newly created string object.
 
 ## Return Value
@@ -46,4 +48,4 @@ int CreateStringObject(
  Call this method to create an object that represents a string that is a parameter to the function which is represented by the [IDebugFunctionObject](../../../extensibility/debugger/reference/idebugfunctionobject.md) interface.
 
 ## See Also
- [IDebugFunctionObject](../../../extensibility/debugger/reference/idebugfunctionobject.md)
+- [IDebugFunctionObject](../../../extensibility/debugger/reference/idebugfunctionobject.md)

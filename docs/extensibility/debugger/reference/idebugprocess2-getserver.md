@@ -32,6 +32,7 @@ int GetServer( 
 
 #### Parameters
  `ppServer`
+
  [out] Returns an [IDebugCoreServer2](../../../extensibility/debugger/reference/idebugcoreserver2.md) object that represents the server on which this process is running.
 
 ## Return Value
@@ -41,5 +42,5 @@ int GetServer( 
  More than one server can be running on a single machine.
 
 ## See Also
- [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md)
- [IDebugCoreServer2](../../../extensibility/debugger/reference/idebugcoreserver2.md)
+- [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md)
+- [IDebugCoreServer2](../../../extensibility/debugger/reference/idebugcoreserver2.md)

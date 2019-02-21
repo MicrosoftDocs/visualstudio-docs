@@ -34,9 +34,11 @@ int Dereference(
 
 #### Parameters
  `dwIndex`
+
  [in] A simple byte offset from the beginning of the object pointed to.
 
  `ppObject`
+
  [out] Returns an [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) object representing the object pointed to, plus offset, if any.
 
 ## Return Value
@@ -46,4 +48,4 @@ int Dereference(
  The object pointed to can be a primitive or a more complex type such as a class or structure.
 
 ## See Also
- [IDebugPointerObject](../../../extensibility/debugger/reference/idebugpointerobject.md)
+- [IDebugPointerObject](../../../extensibility/debugger/reference/idebugpointerobject.md)

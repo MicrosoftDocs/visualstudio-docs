@@ -42,21 +42,27 @@ int GetManagedViewerCreationData(
 
 #### Parameters
  `assemName`
+
  [out] Returns the name of the assembly holding this object.
 
  `assemBytes`
+
  [out] Returns an [IEEDataStorage](../../../extensibility/debugger/reference/ieedatastorage.md) object containing the assembly bytes of this object (this is a null value if no bytes are available).
 
  `assemPdb`
+
  [out] Returns an `IEEDataStorage` object containing the symbol store information for this object (this is a null value if no symbol store is available).
 
  `className`
+
  [out] Returns the class name containing this object.
 
  `alr`
+
  [out] Returns a value from the [ASSEMBLYLOCRESOLUTION](../../../extensibility/debugger/reference/assemblylocresolution.md) enumeration indicating the location of the assembly.
 
  `replacementOk`
+
  [out] Returns nonzero (`TRUE`) if this object's value can be changed; zero (`FALSE`) if the object is read-only.
 
 ## Return Value
@@ -66,6 +72,6 @@ int GetManagedViewerCreationData(
  This method is used by type visualizers to instantiate a managed viewer.
 
 ## See Also
- [IPropertyProxyEESide](../../../extensibility/debugger/reference/ipropertyproxyeeside.md)
- [ASSEMBLYLOCRESOLUTION](../../../extensibility/debugger/reference/assemblylocresolution.md)
- [IEEDataStorage](../../../extensibility/debugger/reference/ieedatastorage.md)
+- [IPropertyProxyEESide](../../../extensibility/debugger/reference/ipropertyproxyeeside.md)
+- [ASSEMBLYLOCRESOLUTION](../../../extensibility/debugger/reference/assemblylocresolution.md)
+- [IEEDataStorage](../../../extensibility/debugger/reference/ieedatastorage.md)

@@ -34,9 +34,11 @@ int GetValueFromStringCaseInsensitive(
 
 #### Parameters
  `pszValue`
+
  [in] A string specifying the name for which to get the value. Note that for C++, this is a wide character string.
 
  `pValue`
+
  [out] Returns the associated numerical value.
 
 ## Return Value
@@ -46,5 +48,5 @@ int GetValueFromStringCaseInsensitive(
  This method is case-insensitive. If a case-sensitive search is needed (for example, in a language such as C++ where names are case-sensitive), use [GetValueFromString](../../../extensibility/debugger/reference/idebugenumfield-getvaluefromstring.md).
 
 ## See Also
- [IDebugEnumField](../../../extensibility/debugger/reference/idebugenumfield.md)
- [GetValueFromString](../../../extensibility/debugger/reference/idebugenumfield-getvaluefromstring.md)
+- [IDebugEnumField](../../../extensibility/debugger/reference/idebugenumfield.md)
+- [GetValueFromString](../../../extensibility/debugger/reference/idebugenumfield-getvaluefromstring.md)

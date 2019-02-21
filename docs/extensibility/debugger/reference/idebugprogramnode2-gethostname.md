@@ -34,10 +34,12 @@ int GetHostName (
 
 #### Parameters
 `dwHostNameType`
-[in] A value from the [GETHOSTNAME_TYPE](../../../extensibility/debugger/reference/gethostname-type.md) enumeration that specifies the type of name to return.
+
+ [in] A value from the [GETHOSTNAME_TYPE](../../../extensibility/debugger/reference/gethostname-type.md) enumeration that specifies the type of name to return.
 
 `pbstrHostName`
-[out] Returns the name of the hosting process.
+
+ [out] Returns the name of the hosting process.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -88,6 +90,6 @@ HRESULT CProgram::GetHostName(DWORD dwHostNameType, BSTR* pbstrHostName) {
 ```
 
 ## See Also
-[IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)
-[GETHOSTNAME_TYPE](../../../extensibility/debugger/reference/gethostname-type.md)
-[IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)
+- [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)
+- [GETHOSTNAME_TYPE](../../../extensibility/debugger/reference/gethostname-type.md)
+- [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)

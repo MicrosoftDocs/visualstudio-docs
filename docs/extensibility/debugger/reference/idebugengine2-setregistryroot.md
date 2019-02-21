@@ -32,6 +32,7 @@ int SetRegistryRoot( 
 
 #### Parameters
  `pszRegistryRoot`
+
  [in] The registry root to use.
 
 ## Return Value
@@ -41,4 +42,4 @@ int SetRegistryRoot( 
  This method allows [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] to specify an alternate registry root that the DE should use to obtain registry settings; for example, "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\8.0Exp".
 
 ## See Also
- [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)
+- [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)

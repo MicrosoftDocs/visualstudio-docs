@@ -37,8 +37,8 @@ The reference section includes a conceptual overview of the API, a guide that sh
 >  Invalid or `NULL` [out] parameters may cause the IDE to crash.
 
 ## See Also
- [Interfaces](../../../extensibility/debugger/reference/interfaces-visual-studio-debugging.md)
- [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
- [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
- [SDK Helpers for Debugging](../../../extensibility/debugger/reference/sdk-helpers-for-debugging.md)
- [Visual Studio Debugger Extensibility](../../../extensibility/debugger/visual-studio-debugger-extensibility.md)
+- [Interfaces](../../../extensibility/debugger/reference/interfaces-visual-studio-debugging.md)
+- [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
+- [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
+- [SDK Helpers for Debugging](../../../extensibility/debugger/reference/sdk-helpers-for-debugging.md)
+- [Visual Studio Debugger Extensibility](../../../extensibility/debugger/visual-studio-debugger-extensibility.md)

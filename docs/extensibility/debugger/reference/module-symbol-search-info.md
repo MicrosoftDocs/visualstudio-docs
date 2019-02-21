@@ -65,5 +65,5 @@ public struct MODULE_SYMBOL_SEARCH_INFO {
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
- [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
- [GetSymbolInfo](../../../extensibility/debugger/reference/idebugmodule3-getsymbolinfo.md)
+- [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
+- [GetSymbolInfo](../../../extensibility/debugger/reference/idebugmodule3-getsymbolinfo.md)

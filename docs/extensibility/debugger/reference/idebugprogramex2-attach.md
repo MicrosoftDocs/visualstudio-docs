@@ -27,7 +27,7 @@ HRESULT Attach( 
 ```
 
 ```
-[C#]
+- [C#]
 int Attach( 
    IDebugEventCallback2 pCallback,
    uint                 dwReason,
@@ -37,12 +37,15 @@ int Attach( 
 
 #### Parameters
  `pCallback`
+
  [in] An [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md) object that represents the callback function that the attached debug engine sends events to.
 
  `dwReason`
+
  [in] A value from the [ATTACH_REASON](../../../extensibility/debugger/reference/attach-reason.md) enumeration that describes the reason for the attach operation.
 
  `pSession`
+
  [in] A value that uniquely identifies the session that is attaching to the program.
 
 ## Return Value
@@ -55,4 +58,4 @@ int Attach( 
 >  The interface passed in `pSession` is to be treated only as a cookie, a value that uniquely identifies the session debug manager attaching to this program; none of the methods on the supplied interface are functional.
 
 ## See Also
- [IDebugProgramEx2](../../../extensibility/debugger/reference/idebugprogramex2.md)
+- [IDebugProgramEx2](../../../extensibility/debugger/reference/idebugprogramex2.md)

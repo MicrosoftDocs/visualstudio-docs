@@ -37,5 +37,5 @@ int Stop();
  No debug event is sent in response to this method.
 
 ## See Also
- [IDebugEngineProgram2](../../../extensibility/debugger/reference/idebugengineprogram2.md)
- [CauseBreak](../../../extensibility/debugger/reference/idebugprogram2-causebreak.md)
+- [IDebugEngineProgram2](../../../extensibility/debugger/reference/idebugengineprogram2.md)
+- [CauseBreak](../../../extensibility/debugger/reference/idebugprogram2-causebreak.md)

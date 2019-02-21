@@ -32,6 +32,7 @@ int GetAttributeTypeField(
 
 #### Parameters
  `ppCAType`
+
  [out] Returns the [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md) object that represents the class of which the custom attribute is an instance.
 
 ## Return Value
@@ -41,5 +42,5 @@ int GetAttributeTypeField(
  A custom attribute is always a class. This method provides access to an [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md) object that describes that class.
 
 ## See Also
- [IDebugCustomAttribute](../../../extensibility/debugger/reference/idebugcustomattribute.md)
- [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md)
+- [IDebugCustomAttribute](../../../extensibility/debugger/reference/idebugcustomattribute.md)
+- [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md)

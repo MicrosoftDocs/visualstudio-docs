@@ -33,10 +33,11 @@ int GetSize(
 
 #### Parameters
  `pqwSize`
+
  [out] Returns the size, in bytes of the memory space.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## See Also
- [IDebugMemoryBytes2](../../../extensibility/debugger/reference/idebugmemorybytes2.md)
+- [IDebugMemoryBytes2](../../../extensibility/debugger/reference/idebugmemorybytes2.md)

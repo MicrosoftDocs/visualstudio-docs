@@ -37,5 +37,5 @@ int CauseBreak();
  This method is asynchronous in that the method returns immediately without necessarily waiting for the program to stop.
 
 ## See Also
- [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)
- [IDebugBreakEvent2](../../../extensibility/debugger/reference/idebugbreakevent2.md)
+- [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)
+- [IDebugBreakEvent2](../../../extensibility/debugger/reference/idebugbreakevent2.md)

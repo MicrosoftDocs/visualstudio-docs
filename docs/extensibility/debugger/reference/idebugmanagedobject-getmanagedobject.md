@@ -32,6 +32,7 @@ int GetManagedObject(
 
 #### Parameters
  `ppManagedObject`
+
  [out] Returns an interface that represents the managed object.
 
 ## Return Value
@@ -41,4 +42,4 @@ int GetManagedObject(
  The interface returned from this method can be queried for any interface implemented by the managed class, allowing its methods to be called.
 
 ## See Also
- [IDebugManagedObject](../../../extensibility/debugger/reference/idebugmanagedobject.md)
+- [IDebugManagedObject](../../../extensibility/debugger/reference/idebugmanagedobject.md)

@@ -36,12 +36,15 @@ int SetJustMyCodeState(
 
 #### Parameters
  `fUpdate`
+
  [in] Nonzero (`TRUE`) to update current information, zero (`FALSE`) to reset all information (ignoring anything previously set).
 
  `dwModules`
+
  [in] Number of information structures in `rgJMCSpec.`
 
  `rgJMCSpec`
+
  [in] Array of [JMC_CODE_SPEC](../../../extensibility/debugger/reference/jmc-code-spec.md) structures to use.
 
 ## Return Value
@@ -51,5 +54,5 @@ int SetJustMyCodeState(
  JustMyCode is the concept of debugging only the code that belongs to a user and ignoring all intermediate code such as system code—even if source code is available for that system code.
 
 ## See Also
- [IDebugEngine3](../../../extensibility/debugger/reference/idebugengine3.md)
- [JMC_CODE_SPEC](../../../extensibility/debugger/reference/jmc-code-spec.md)
+- [IDebugEngine3](../../../extensibility/debugger/reference/idebugengine3.md)
+- [JMC_CODE_SPEC](../../../extensibility/debugger/reference/jmc-code-spec.md)

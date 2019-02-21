@@ -36,5 +36,5 @@ int LoadSymbols();
  This loads debugging symbols for all modules referenced by this debugging engine. The symbols are loaded only if they have not already been loaded. Symbols are searched on the paths set by a call to [SetSymbolPath](../../../extensibility/debugger/reference/idebugengine3-setsymbolpath.md).
 
 ## See Also
- [SetSymbolPath](../../../extensibility/debugger/reference/idebugengine3-setsymbolpath.md)
- [IDebugEngine3](../../../extensibility/debugger/reference/idebugengine3.md)
+- [SetSymbolPath](../../../extensibility/debugger/reference/idebugengine3-setsymbolpath.md)
+- [IDebugEngine3](../../../extensibility/debugger/reference/idebugengine3.md)

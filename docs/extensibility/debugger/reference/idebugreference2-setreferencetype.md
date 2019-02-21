@@ -32,11 +32,12 @@ int SetReferenceType ( 
 
 #### Parameters
  `dwRefType`
+
  [in] A value from the [REFERENCE_TYPE](../../../extensibility/debugger/reference/reference-type.md) enumeration that specifies the reference type.
 
 ## Return Value
  Always returns `E_NOTIMPL`.
 
 ## See Also
- [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md)
- [REFERENCE_TYPE](../../../extensibility/debugger/reference/reference-type.md)
+- [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md)
+- [REFERENCE_TYPE](../../../extensibility/debugger/reference/reference-type.md)

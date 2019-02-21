@@ -75,7 +75,7 @@ public struct THREADPROPERTIES { 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
- [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
- [GetThreadProperties](../../../extensibility/debugger/reference/idebugthread2-getthreadproperties.md)
- [THREADPROPERTY_FIELDS](../../../extensibility/debugger/reference/threadproperty-fields.md)
- [THREADSTATE](../../../extensibility/debugger/reference/threadstate.md)
+- [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
+- [GetThreadProperties](../../../extensibility/debugger/reference/idebugthread2-getthreadproperties.md)
+- [THREADPROPERTY_FIELDS](../../../extensibility/debugger/reference/threadproperty-fields.md)
+- [THREADSTATE](../../../extensibility/debugger/reference/threadstate.md)

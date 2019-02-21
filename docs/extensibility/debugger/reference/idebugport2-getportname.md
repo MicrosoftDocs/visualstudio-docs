@@ -32,10 +32,11 @@ int GetPortName( 
 
 #### Parameters
  `pbstrName`
+
  [out] Returns the name of the port.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## See Also
- [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md)
+- [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md)

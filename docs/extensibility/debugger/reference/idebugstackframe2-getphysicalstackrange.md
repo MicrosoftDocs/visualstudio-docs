@@ -34,9 +34,11 @@ int GetPhysicalStackRange ( 
 
 #### Parameters
  `paddrMin`
+
  [out] Returns the lowest physical address associated with this stack frame.
 
  `paddrMax`
+
  [out] Returns the highest physical address associated with this stack frame.
 
 ## Return Value
@@ -48,4 +50,4 @@ int GetPhysicalStackRange ( 
  It is assumed that the call stack grows down, that is, that new stack frames are added at increasingly lower memory addresses. A run-time architecture must provide physical stack ranges that match this assumption.
 
 ## See Also
- [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md)
+- [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md)

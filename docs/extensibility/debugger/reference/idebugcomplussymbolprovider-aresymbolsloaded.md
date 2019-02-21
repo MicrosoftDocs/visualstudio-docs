@@ -33,10 +33,12 @@ int AreSymbolsLoaded (
 
 #### Parameters
 `ulAppDomainID`
-[in] Identifier for the application domain.
+
+ [in] Identifier for the application domain.
 
 `guidModule`
-[in] Unique identifier for the module.
+
+ [in] Unique identifier for the module.
 
 ## Return Value
 If the debug symbols are loaded, returns `S_OK`; otherwise, returns `S_FALSE`.
@@ -65,4 +67,4 @@ Error:
 ```
 
 ## See Also
-[IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)
+- [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

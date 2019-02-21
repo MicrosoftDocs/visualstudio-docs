@@ -34,9 +34,11 @@ int GetPropertyProxy(
 
 #### Parameters
  `dwID`
+
  [in] ID of the desired property proxy.
 
  `proxy`
+
  [out] Returns an [IPropertyProxyEESide](../../../extensibility/debugger/reference/ipropertyproxyeeside.md) object.
 
 ## Return Value
@@ -46,7 +48,7 @@ int GetPropertyProxy(
  To support external type visualizers, this method typically forwards the call to the [GetPropertyProxy](../../../extensibility/debugger/reference/ieevisualizerservice-getpropertyproxy.md) method. See [Visualizing and Viewing Data](../../../extensibility/debugger/visualizing-and-viewing-data.md) for details on how the IEEVisualizerService is obtained.
 
 ## See Also
- [IPropertyProxyProvider](../../../extensibility/debugger/reference/ipropertyproxyprovider.md)
- [IPropertyProxyEESide](../../../extensibility/debugger/reference/ipropertyproxyeeside.md)
- [GetPropertyProxy](../../../extensibility/debugger/reference/ieevisualizerservice-getpropertyproxy.md)
- [Visualizing and Viewing Data](../../../extensibility/debugger/visualizing-and-viewing-data.md)
+- [IPropertyProxyProvider](../../../extensibility/debugger/reference/ipropertyproxyprovider.md)
+- [IPropertyProxyEESide](../../../extensibility/debugger/reference/ipropertyproxyeeside.md)
+- [GetPropertyProxy](../../../extensibility/debugger/reference/ieevisualizerservice-getpropertyproxy.md)
+- [Visualizing and Viewing Data](../../../extensibility/debugger/visualizing-and-viewing-data.md)

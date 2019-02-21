@@ -35,9 +35,11 @@ int Add(
 
 #### Parameters
  `dwCount`
+
  [in] The value to add to the current context.
 
  `ppMemCxt`
+
  [out] Returns a new [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md) object.
 
 ## Return Value
@@ -49,4 +51,4 @@ int Add(
  This method must always produce a new context, even if the resulting address is outside the memory space associated with this context. The only exception to this is if no memory can be allocated for the new context or if `ppMemCxt` is a null value (which is an error).
 
 ## See Also
- [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md)
+- [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md)

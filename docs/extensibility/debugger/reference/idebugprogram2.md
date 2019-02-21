@@ -66,11 +66,11 @@ IDebugProgram2 : IUnknown
  A program is a thread container running in a particular run-time architecture, while a process is made up of one or more programs.
 
 ## See Also
- [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)
- [GetProgram](../../../extensibility/debugger/reference/idebugthread2-getprogram.md)
- [Next](../../../extensibility/debugger/reference/ienumdebugprograms2-next.md)
- [Event](../../../extensibility/debugger/reference/idebugportevents2-event.md)
- [Attach](../../../extensibility/debugger/reference/idebugengine2-attach.md)
- [DestroyProgram](../../../extensibility/debugger/reference/idebugengine2-destroyprogram.md)
- [Event](../../../extensibility/debugger/reference/idebugeventcallback2-event.md)
- [Attach_V7](../../../extensibility/debugger/reference/idebugprogramnode2-attach-v7.md)
+- [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)
+- [GetProgram](../../../extensibility/debugger/reference/idebugthread2-getprogram.md)
+- [Next](../../../extensibility/debugger/reference/ienumdebugprograms2-next.md)
+- [Event](../../../extensibility/debugger/reference/idebugportevents2-event.md)
+- [Attach](../../../extensibility/debugger/reference/idebugengine2-attach.md)
+- [DestroyProgram](../../../extensibility/debugger/reference/idebugengine2-destroyprogram.md)
+- [Event](../../../extensibility/debugger/reference/idebugeventcallback2-event.md)
+- [Attach_V7](../../../extensibility/debugger/reference/idebugprogramnode2-attach-v7.md)

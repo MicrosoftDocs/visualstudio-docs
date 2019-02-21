@@ -32,6 +32,7 @@ int GetSize(
 
 #### Parameters
  `pdwSize`
+
  [out] Returns the size.
 
 ## Return Value
@@ -41,4 +42,4 @@ int GetSize(
  All fields have a type and all types have a size. For example, a field with a type of byte has a size of 1 byte.
 
 ## See Also
- [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)
+- [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)

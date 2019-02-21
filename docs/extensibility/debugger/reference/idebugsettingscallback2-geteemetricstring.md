@@ -36,19 +36,23 @@ private int GetEEMetricString(
 
 #### Parameters
  `guidLang`
+
  [in] Unique identifier of the programming language.
 
  `guidVendor`
+
  [in] Unique identifier of the vendor.
 
  `pszMetric`
+
  [in] Name of the metric.
 
  `pbstrValue`
+
  [out] Returns the metric value string.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## See Also
- [IDebugSettingsCallback2](../../../extensibility/debugger/reference/idebugsettingscallback2.md)
+- [IDebugSettingsCallback2](../../../extensibility/debugger/reference/idebugsettingscallback2.md)

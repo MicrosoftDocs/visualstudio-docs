@@ -32,10 +32,11 @@ int SetLocale(
 
 #### Parameters
  `wLangID`
+
  [in] Language ID to establish. For example, 1033 for English.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## See Also
- [IDebugProgramProvider2](../../../extensibility/debugger/reference/idebugprogramprovider2.md)
+- [IDebugProgramProvider2](../../../extensibility/debugger/reference/idebugprogramprovider2.md)

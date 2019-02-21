@@ -34,9 +34,11 @@ int SetMetric(
 
 #### Parameters
  `pszMetric`
+
  [in] The metric name.
 
  `varValue`
+
  [in] Specifies the metric value.
 
 ## Return Value
@@ -46,5 +48,5 @@ int SetMetric(
  A metric is a registry value used to change a debug engine's behavior or to advertise supported functionality. This method can forward the call to the appropriate form of the [SDK Helpers for Debugging](../../../extensibility/debugger/reference/sdk-helpers-for-debugging.md) function, `SetMetric`.
 
 ## See Also
- [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)
- [SDK Helpers for Debugging](../../../extensibility/debugger/reference/sdk-helpers-for-debugging.md)
+- [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)
+- [SDK Helpers for Debugging](../../../extensibility/debugger/reference/sdk-helpers-for-debugging.md)

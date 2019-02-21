@@ -32,6 +32,7 @@ int SetRegistryRoot(
 
 #### Parameters
  `ustrRegistryRoot`
+
  [in] The new registry root.
 
 ## Return Value
@@ -41,4 +42,4 @@ int SetRegistryRoot(
  The specified registry root is typically set when the expression evaluator is first instantiated and points to the registry key for a specific version of Visual Studio (HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*X.Y*, where *X.Y* is a version number).
 
 ## See Also
- [IDebugExpressionEvaluator](../../../extensibility/debugger/reference/idebugexpressionevaluator.md)
+- [IDebugExpressionEvaluator](../../../extensibility/debugger/reference/idebugexpressionevaluator.md)

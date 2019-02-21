@@ -32,6 +32,7 @@ int GetAddress(
 
 #### Parameters
  `pAddress`
+
  [in, out] A [DEBUG_ADDRESS](../../../extensibility/debugger/reference/debug-address.md) structure that is filled in by this method.
 
 ## Return Value
@@ -41,4 +42,4 @@ int GetAddress(
  The [DEBUG_ADDRESS](../../../extensibility/debugger/reference/debug-address.md) structure is passed to this method, which then fills it in with the appropriate information. How this information is interpreted depends on the kind of information returned and the symbol handler itself. See [DEBUG_ADDRESS](../../../extensibility/debugger/reference/debug-address.md) for more details.
 
 ## See Also
- [DEBUG_ADDRESS](../../../extensibility/debugger/reference/debug-address.md)
+- [DEBUG_ADDRESS](../../../extensibility/debugger/reference/debug-address.md)

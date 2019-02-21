@@ -35,6 +35,7 @@ int Execute(
 
 #### Parameters
  `pThread`
+
  [in] An [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md) object representing the thread to execute.
 
 ## Return Value
@@ -47,7 +48,7 @@ int Execute(
 >  Do not send a stopping event or an immediate (synchronous) event to [Event](../../../extensibility/debugger/reference/idebugeventcallback2-event.md) while handling this call; otherwise the debugger may hang.
 
 ## See Also
- [IDebugProcess3](../../../extensibility/debugger/reference/idebugprocess3.md)
- [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)
- [Resume](../../../extensibility/debugger/reference/idebugthread2-resume.md)
- [Event](../../../extensibility/debugger/reference/idebugeventcallback2-event.md)
+- [IDebugProcess3](../../../extensibility/debugger/reference/idebugprocess3.md)
+- [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)
+- [Resume](../../../extensibility/debugger/reference/idebugthread2-resume.md)
+- [Event](../../../extensibility/debugger/reference/idebugeventcallback2-event.md)

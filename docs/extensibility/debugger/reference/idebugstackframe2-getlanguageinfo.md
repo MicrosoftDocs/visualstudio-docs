@@ -34,9 +34,11 @@ int GetLanguageInfo ( 
 
 #### Parameters
  `pbstrLanguage`
+
  [out] Returns the name of the language that implements the method associated with this stack frame.
 
  `pguidLanguage`
+
  [out] Returns the `GUID` of the language. For the [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] languages, for example, the following can be returned:
 
 -   `guidVBScriptLang`
@@ -55,4 +57,4 @@ int GetLanguageInfo ( 
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## See Also
- [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md)
+- [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md)

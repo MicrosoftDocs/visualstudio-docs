@@ -36,16 +36,19 @@ int SetValueAsString ( 
 
 #### Parameters
  `pszValue`
+
  [in] The value as a string.
 
  `dwRadix`
+
  [in] The radix to be used in formatting any numerical information.
 
  `dwTimeout`
+
  [in] Maximum time, in milliseconds, to wait before returning from this method. Use `INFINITE` to wait indefinitely.
 
 ## Return Value
  Always returns `E_NOTIMPL`.
 
 ## See Also
- [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md)
+- [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md)

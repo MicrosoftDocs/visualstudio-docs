@@ -32,6 +32,7 @@ int GetName ( 
 
 #### Parameters
  `pbstrName`
+
  [out] Returns the name of the stack frame.
 
 ## Return Value
@@ -41,4 +42,4 @@ int GetName ( 
  The name of a stack frame is typically the name of the method being executed.
 
 ## See Also
- [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md)
+- [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md)

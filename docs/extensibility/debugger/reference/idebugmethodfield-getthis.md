@@ -32,6 +32,7 @@ int GetThis(
 
 #### Parameters
  `ppClass`
+
  [out] Returns an [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md) object representing the "this" pointer.
 
 ## Return Value
@@ -41,5 +42,5 @@ int GetThis(
  In object-oriented languages, there is typically an implied pointer to the current instantiation of a class. This is known as `this` in C#/C++ and as `Me` in [!INCLUDE[vbprvb](../../../code-quality/includes/vbprvb_md.md)].
 
 ## See Also
- [IDebugMethodField](../../../extensibility/debugger/reference/idebugmethodfield.md)
- [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md)
+- [IDebugMethodField](../../../extensibility/debugger/reference/idebugmethodfield.md)
+- [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md)

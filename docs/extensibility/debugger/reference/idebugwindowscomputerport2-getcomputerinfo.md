@@ -31,11 +31,12 @@ public int GetComputerInfo(
 
 #### Parameters
  `pInfo`
+
  [out] Reference to a structure that contains the computer information.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## See Also
- [IDebugWindowsComputerPort2](../../../extensibility/debugger/reference/idebugwindowscomputerport2.md)
- [COMPUTER_INFO](../../../extensibility/debugger/reference/computer-info.md)
+- [IDebugWindowsComputerPort2](../../../extensibility/debugger/reference/idebugwindowscomputerport2.md)
+- [COMPUTER_INFO](../../../extensibility/debugger/reference/computer-info.md)

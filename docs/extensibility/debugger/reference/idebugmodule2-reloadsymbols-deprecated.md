@@ -34,9 +34,11 @@ int ReloadSymbols( 
 
 #### Parameters
  `pszUrlToSymbols`
+
  [in] The path to the symbol store.
 
  `pbstrDebugMessage`
+
  [out] Returns an informational message, such as a status or error message, that is displayed to the right of the module name in the Modules window.
 
 ## Return Value
@@ -46,5 +48,5 @@ int ReloadSymbols( 
  This method is no longer supported. Implement the [LoadSymbols](../../../extensibility/debugger/reference/idebugmodule3-loadsymbols.md) method instead.
 
 ## See Also
- [IDebugModule2](../../../extensibility/debugger/reference/idebugmodule2.md)
- [LoadSymbols](../../../extensibility/debugger/reference/idebugmodule3-loadsymbols.md)
+- [IDebugModule2](../../../extensibility/debugger/reference/idebugmodule2.md)
+- [LoadSymbols](../../../extensibility/debugger/reference/idebugmodule3-loadsymbols.md)

@@ -53,4 +53,4 @@ The following are the Symbol Handling Interfaces for the [!INCLUDE[vsipsdk](../.
 |[IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md)|SP|Represents a collection of [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) objects.|
 
 ## See Also
- [API Reference](../../../extensibility/debugger/reference/api-reference-visual-studio-debugging.md)
+- [API Reference](../../../extensibility/debugger/reference/api-reference-visual-studio-debugging.md)

@@ -70,9 +70,9 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
-[Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
-[EXCEPTION_STATE](../../../extensibility/debugger/reference/exception-state.md)
-[IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)
-[SetException](../../../extensibility/debugger/reference/idebugengine2-setexception.md)
-[RemoveSetException](../../../extensibility/debugger/reference/idebugengine2-removesetexception.md)
-[GetException](../../../extensibility/debugger/reference/idebugexceptionevent2-getexception.md)
+- [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
+- [EXCEPTION_STATE](../../../extensibility/debugger/reference/exception-state.md)
+- [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)
+- [SetException](../../../extensibility/debugger/reference/idebugengine2-setexception.md)
+- [RemoveSetException](../../../extensibility/debugger/reference/idebugengine2-removesetexception.md)
+- [GetException](../../../extensibility/debugger/reference/idebugexceptionevent2-getexception.md)

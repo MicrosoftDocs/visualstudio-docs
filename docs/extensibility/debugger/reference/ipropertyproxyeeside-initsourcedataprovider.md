@@ -32,6 +32,7 @@ int InitSourceDataProvider(
 
 #### Parameters
  `dataOut`
+
  [out] Returns an [IEEDataStorage](../../../extensibility/debugger/reference/ieedatastorage.md) object
 
 ## Return Value
@@ -41,5 +42,5 @@ int InitSourceDataProvider(
  This method does whatever is necessary to initialize an object so it can return an [IEEDataStorage](../../../extensibility/debugger/reference/ieedatastorage.md) interface on the object's data. This allows the object's data to be viewed and, if allowed, changed by a type visualizer.
 
 ## See Also
- [IPropertyProxyEESide](../../../extensibility/debugger/reference/ipropertyproxyeeside.md)
- [IEEDataStorage](../../../extensibility/debugger/reference/ieedatastorage.md)
+- [IPropertyProxyEESide](../../../extensibility/debugger/reference/ipropertyproxyeeside.md)
+- [IEEDataStorage](../../../extensibility/debugger/reference/ieedatastorage.md)

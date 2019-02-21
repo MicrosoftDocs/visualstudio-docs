@@ -32,6 +32,7 @@ int IsUserData(
 
 #### Parameters
  `pfUser`
+
  [out] Returns nonzero (`TRUE`) if the object represents user data; zero (`FALSE`) if it does not.
 
 ## Return Value
@@ -41,4 +42,4 @@ int IsUserData(
  User data is any object that is part of a module designated as JustMyCode (a user-configurable option that marks a module as user code and therefore visible in a stack trace).
 
 ## See Also
- [IDebugObject2](../../../extensibility/debugger/reference/idebugobject2.md)
+- [IDebugObject2](../../../extensibility/debugger/reference/idebugobject2.md)

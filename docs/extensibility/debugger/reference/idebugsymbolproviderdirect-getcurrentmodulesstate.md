@@ -33,9 +33,11 @@ int GetCurrentModulesState(
 
 #### Parameters
  `pState`
+
  [out] The state of the symbol provider group.
 
  `count`
+
  [out] Number of modules in the group.
 
 ## Return Value
@@ -45,4 +47,4 @@ int GetCurrentModulesState(
  The state is changed whenever a module is added to, or removed from, the symbol group. Therefore, this method can be used to detect if a symbol group has been modified.
 
 ## See Also
- [IDebugSymbolProviderDirect](../../../extensibility/debugger/reference/idebugsymbolproviderdirect.md)
+- [IDebugSymbolProviderDirect](../../../extensibility/debugger/reference/idebugsymbolproviderdirect.md)

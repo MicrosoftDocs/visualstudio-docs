@@ -34,9 +34,11 @@ int ResolveRuntimeType(
 
 #### Parameters
  `pObject`
+
  [in] The [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) to be resolved.
 
  `ppResolved`
+
  [out] Returns the type of the object as an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md).
 
 ## Return Value
@@ -46,6 +48,6 @@ int ResolveRuntimeType(
  The run-time type of an object is not always known at compile time. For example, using polymorphism, an argument can be passed to a function as its base class, such as a button class. The actual argument might be a derived class, such as a radio button class.
 
 ## See Also
- [IDebugBinder](../../../extensibility/debugger/reference/idebugbinder.md)
- [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)
- [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)
+- [IDebugBinder](../../../extensibility/debugger/reference/idebugbinder.md)
+- [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)
+- [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)

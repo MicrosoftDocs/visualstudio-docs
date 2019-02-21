@@ -32,7 +32,8 @@ int GetProgramName (
 
 #### Parameters
 `pbstrProgramName`
-[out] Returns the name of the program.
+
+ [out] Returns the name of the program.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -55,4 +56,4 @@ HRESULT CProgram::GetProgramName(BSTR* pbstrProgramName) {
 ```
 
 ## See Also
-[IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)
+- [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)

@@ -37,19 +37,23 @@ private int GetMetricString(
 
 #### Parameters
  `pszType`
+
  [in] Type of the metric.
 
  `guidSection`
+
  [in] Unique identifier of the section.
 
  `pszMetric`
+
  [in] Name of the metric.
 
  `pbstrValue`
+
  [out] Returns the value string of the metric.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## See Also
- [IDebugSettingsCallback2](../../../extensibility/debugger/reference/idebugsettingscallback2.md)
+- [IDebugSettingsCallback2](../../../extensibility/debugger/reference/idebugsettingscallback2.md)

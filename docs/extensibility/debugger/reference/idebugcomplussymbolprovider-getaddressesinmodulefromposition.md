@@ -18,7 +18,7 @@ Maps a document position in the specified module to an array of debug addresses.
 ## Syntax
 
 ```
-[C++]
+- [C++]
 HRESULT GetAddressesInModuleFromPosition(
    ULONG32                  ulAppDomainID,
    GUID                     guidModule,
@@ -30,7 +30,7 @@ HRESULT GetAddressesInModuleFromPosition(
 ```
 
 ```
-[C#]
+- [C#]
 int GetAddressesInModuleFromPosition(
    uint                    ulAppDomainID,
    Guid                    guidModule,
@@ -43,21 +43,27 @@ int GetAddressesInModuleFromPosition(
 
 #### Parameters
  `ulAppDomainID`
+
  [in] Application domain identifier.
 
  `guidModule`
+
  [in] Unique identifier of the module.
 
  `pDocPos`
+
  [in] The document position.
 
  `fStatmentOnly`
+
  [in] If `TRUE`, limits the debug addresses to a single statement.
 
  `ppEnumBegAddresses`
+
  [out] Returns an enumerator for the starting debug addresses that are associated with this statement or line.
 
  `ppEnumEndAddresses`
+
  [out] Returns an enumerator for the ending debug addresses that are associated with this statement or line.
 
 ## Return Value
@@ -216,4 +222,4 @@ Error:
 ```
 
 ## See Also
- [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)
+- [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

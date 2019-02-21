@@ -32,6 +32,7 @@ int RemoveSetException( 
 
 #### Parameters
  `pException`
+
  [in] An [EXCEPTION_INFO](../../../extensibility/debugger/reference/exception-info.md) structure that describes the exception to be removed.
 
 ## Return Value
@@ -43,5 +44,5 @@ int RemoveSetException( 
  To remove all set exceptions at once, call the [RemoveAllSetExceptions](../../../extensibility/debugger/reference/idebugengine2-removeallsetexceptions.md) method.
 
 ## See Also
- [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)
- [EXCEPTION_INFO](../../../extensibility/debugger/reference/exception-info.md)
+- [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)
+- [EXCEPTION_INFO](../../../extensibility/debugger/reference/exception-info.md)

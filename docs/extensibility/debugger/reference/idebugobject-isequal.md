@@ -34,9 +34,11 @@ int IsEqual(
 
 #### Parameters
  `pObject`
+
  [in] An [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) object representing the object to compare to.
 
  `pfIsEqual`
+
  [out] Returns non-zero (`TRUE`) if the values of the objects are equal; otherwise, returns zero (`FALSE`).
 
 ## Return Value
@@ -46,4 +48,4 @@ int IsEqual(
  Typically, this method can compare the addresses of the values represented by the `pObject` parameter and this [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) object; if the addresses are equal, then the objects can be considered equal.
 
 ## See Also
- [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)
+- [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)

@@ -32,10 +32,11 @@ int IsUserCode(
 
 #### Parameters
  `pfUser`
+
  [out] Nonzero (`TRUE`) if module represents user code, zero (`FALSE`) if it does not.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns error code.
 
 ## See Also
- [IDebugModule3](../../../extensibility/debugger/reference/idebugmodule3.md)
+- [IDebugModule3](../../../extensibility/debugger/reference/idebugmodule3.md)

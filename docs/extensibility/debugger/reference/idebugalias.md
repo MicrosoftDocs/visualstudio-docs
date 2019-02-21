@@ -29,7 +29,7 @@ IDebugAlias : IUnknown
  The expression evaluator (EE) implements this interface to support numerical aliases for variables.
 
 ## Notes for Callers
- [CreateAlias](../../../extensibility/debugger/reference/idebugobject2-createalias.md) creates an alias for a particular object. To search for aliases, use [FindAlias](../../../extensibility/debugger/reference/idebugbinder3-findalias.md) or [GetAllAliases](../../../extensibility/debugger/reference/idebugbinder3-getallaliases.md).
+- [CreateAlias](../../../extensibility/debugger/reference/idebugobject2-createalias.md) creates an alias for a particular object. To search for aliases, use [FindAlias](../../../extensibility/debugger/reference/idebugbinder3-findalias.md) or [GetAllAliases](../../../extensibility/debugger/reference/idebugbinder3-getallaliases.md).
 
 ## Methods in Vtable Order
  The following methods are defined in the `IDebugAlias` interface.
@@ -52,7 +52,7 @@ IDebugAlias : IUnknown
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
- [Expression Evaluation Interfaces](../../../extensibility/debugger/reference/expression-evaluation-interfaces.md)
- [CreateAlias](../../../extensibility/debugger/reference/idebugobject2-createalias.md)
- [FindAlias](../../../extensibility/debugger/reference/idebugbinder3-findalias.md)
- [GetAllAliases](../../../extensibility/debugger/reference/idebugbinder3-getallaliases.md)
+- [Expression Evaluation Interfaces](../../../extensibility/debugger/reference/expression-evaluation-interfaces.md)
+- [CreateAlias](../../../extensibility/debugger/reference/idebugobject2-createalias.md)
+- [FindAlias](../../../extensibility/debugger/reference/idebugbinder3-findalias.md)
+- [GetAllAliases](../../../extensibility/debugger/reference/idebugbinder3-getallaliases.md)

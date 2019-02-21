@@ -32,6 +32,7 @@ int GetNewObjectForVisualizer(
 
 #### Parameters
  `ppObject`
+
  [out] The new object.
 
 ## Return Value
@@ -41,5 +42,5 @@ int GetNewObjectForVisualizer(
  `This method` re-evaluates the object it currently represents and returns the result as a new object. The existing object will be updated as a result of the evaluation.
 
 ## See Also
- [IEEVisualizerDataProvider](../../../extensibility/debugger/reference/ieevisualizerdataprovider.md)
- [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)
+- [IEEVisualizerDataProvider](../../../extensibility/debugger/reference/ieevisualizerdataprovider.md)
+- [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)

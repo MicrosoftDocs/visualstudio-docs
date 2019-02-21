@@ -36,5 +36,5 @@ int Reset();
  After this method is called, the next call to [Next](../../../extensibility/debugger/reference/ienumdebugobjects-next.md) returns the first element of the enumeration.
 
 ## See Also
- [IEnumDebugObjects](../../../extensibility/debugger/reference/ienumdebugobjects.md)
- [Next](../../../extensibility/debugger/reference/ienumdebugobjects-next.md)
+- [IEnumDebugObjects](../../../extensibility/debugger/reference/ienumdebugobjects.md)
+- [Next](../../../extensibility/debugger/reference/ienumdebugobjects-next.md)

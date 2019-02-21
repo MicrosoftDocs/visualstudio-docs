@@ -38,15 +38,19 @@ int SetValueAsReference(
 
 #### Parameters
  `rgpArgs`
+
  [in] An array of arguments to pass to the managed code property setter. If the property setter does not take arguments or if this [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) object does not refer to such a property setter, `rgpArgs` should be a null value. This parameter is typically a null value.
 
  `dwArgCount`
+
  [in] The number of arguments in the `rgpArgs` array.
 
  `pValue`
+
  [in] A reference, in the form of an [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md) object, to the value to use to set this property.
 
  `dwTimeout`
+
  [in] How long to take to set the value, in milliseconds. A typical value is `INFINITE`. This affects the length of time that any possible evaluation can take.
 
 ## Return Value
@@ -60,5 +64,5 @@ int SetValueAsReference(
 |`E_NOTIMPL`|The method is not implemented.|
 
 ## See Also
- [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md)
- [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md)
+- [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md)
+- [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md)

@@ -34,9 +34,11 @@ int GetValue(
 
 #### Parameters
  `pValue`
+
  [in, out] An array that is filled in with a consecutive series of bytes representing the value of the object.
 
  `nSize`
+
  [in] The maximum number of bytes to fetch.
 
 ## Return Value
@@ -46,4 +48,4 @@ int GetValue(
  Get the total number of value bytes that can be fetched by calling the [GetSize](../../../extensibility/debugger/reference/idebugobject-getsize.md) method.
 
 ## See Also
- [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)
+- [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)

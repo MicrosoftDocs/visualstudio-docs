@@ -32,6 +32,7 @@ int GetName ( 
 
 #### Parameters
  `pbstrName`
+
  [out] Returns the name of the thread.
 
 ## Return Value
@@ -41,5 +42,5 @@ int GetName ( 
  The retrieved name is always a name that can be displayed and this name describes the thread. The thread name might be derived from a run-time architecture that supports named threads, or it might be a name derived from the debug engine. Alternatively, the name of the thread can be set by a call to the [SetThreadName](../../../extensibility/debugger/reference/idebugthread2-setthreadname.md) method.
 
 ## See Also
- [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)
- [SetThreadName](../../../extensibility/debugger/reference/idebugthread2-setthreadname.md)
+- [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)
+- [SetThreadName](../../../extensibility/debugger/reference/idebugthread2-setthreadname.md)

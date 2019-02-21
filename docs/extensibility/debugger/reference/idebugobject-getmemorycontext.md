@@ -32,6 +32,7 @@ int GetMemoryContext(
 
 #### Parameters
  `pContext`
+
  [out] Returns an [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md) object representing the address of the value of the object.
 
 ## Return Value
@@ -41,4 +42,4 @@ int GetMemoryContext(
  The returned memory context specifies the address of the value as represented by this [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) object.
 
 ## See Also
- [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md)
+- [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md)

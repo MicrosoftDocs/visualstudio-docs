@@ -32,11 +32,12 @@ int GetHostingProcessLanguage(
 
 #### Parameters
  `pguidLang`
+
  [out] The `GUID` of the language of this process. `GUID_NULL` (C++) or `Guid.Empty` (C#) means that the language is not set.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns error code.
 
 ## See Also
- [IDebugProcess3](../../../extensibility/debugger/reference/idebugprocess3.md)
- [SetHostingProcessLanguage](../../../extensibility/debugger/reference/idebugprocess3-sethostingprocesslanguage.md)
+- [IDebugProcess3](../../../extensibility/debugger/reference/idebugprocess3.md)
+- [SetHostingProcessLanguage](../../../extensibility/debugger/reference/idebugprocess3-sethostingprocesslanguage.md)

@@ -31,6 +31,7 @@ int TypeParamCount(
 
 #### Parameters
  `pcParams`
+
  [in, out] Number of type parameters.
 
 ## Return Value
@@ -40,4 +41,4 @@ int TypeParamCount(
  If List\<T>, this method returns 1, and, if List\<T1,T2>, this method returns 2. This method returns 0 if there are no type parameters.
 
 ## See Also
- [IDebugGenericFieldDefinition](../../../extensibility/debugger/reference/idebuggenericfielddefinition.md)
+- [IDebugGenericFieldDefinition](../../../extensibility/debugger/reference/idebuggenericfielddefinition.md)

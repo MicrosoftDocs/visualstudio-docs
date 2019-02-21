@@ -32,6 +32,7 @@ int GetParentField(
 
 #### Parameters
  `ppField`
+
  [out] Returns the [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object that represents the field to which the custom attribute is attached.
 
 ## Return Value
@@ -41,5 +42,5 @@ int GetParentField(
  Call the [GetKind](../../../extensibility/debugger/reference/idebugfield-getkind.md) method on the returned [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object to determine what kind of field the parent is.
 
 ## See Also
- [IDebugCustomAttribute](../../../extensibility/debugger/reference/idebugcustomattribute.md)
- [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)
+- [IDebugCustomAttribute](../../../extensibility/debugger/reference/idebugcustomattribute.md)
+- [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)

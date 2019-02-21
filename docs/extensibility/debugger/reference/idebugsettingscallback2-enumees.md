@@ -36,19 +36,23 @@ public int EnumEEs(
 
 #### Parameters
  `celtBuffer`
+
  [in] Number of elements in the `pceltEEs` buffer.
 
  `rgguidLang`
+
  [in, out] Unique identifier for the programming language.
 
  `rgguidVendor`
+
  [in, out] Unique identifier for the vendor.
 
  `pceltEEs`
+
  [in, out] Array of expression evaluators.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## See Also
- [IDebugSettingsCallback2](../../../extensibility/debugger/reference/idebugsettingscallback2.md)
+- [IDebugSettingsCallback2](../../../extensibility/debugger/reference/idebugsettingscallback2.md)

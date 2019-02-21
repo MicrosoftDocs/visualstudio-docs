@@ -32,6 +32,7 @@ int GetPropertyGetter(
 
 #### Parameters
  `ppField`
+
  [out] Returns an [IDebugMethodField](../../../extensibility/debugger/reference/idebugmethodfield.md) object representing the method that gets the property.
 
 ## Return Value
@@ -41,6 +42,6 @@ int GetPropertyGetter(
  To get the method that sets the property, [GetPropertySetter](../../../extensibility/debugger/reference/idebugpropertyfield-getpropertysetter.md) call the method.
 
 ## See Also
- [IDebugPropertyField](../../../extensibility/debugger/reference/idebugpropertyfield.md)
- [GetPropertySetter](../../../extensibility/debugger/reference/idebugpropertyfield-getpropertysetter.md)
- [IDebugMethodField](../../../extensibility/debugger/reference/idebugmethodfield.md)
+- [IDebugPropertyField](../../../extensibility/debugger/reference/idebugpropertyfield.md)
+- [GetPropertySetter](../../../extensibility/debugger/reference/idebugpropertyfield-getpropertysetter.md)
+- [IDebugMethodField](../../../extensibility/debugger/reference/idebugmethodfield.md)

@@ -32,7 +32,8 @@ int EnumNestedClasses(
 
 #### Parameters
 `ppEnum`
-[out] Returns an [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md) object representing the list of nested classes. Returns a null value if there are no nested classes.
+
+ [out] Returns an [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md) object representing the list of nested classes. Returns a null value if there are no nested classes.
 
 ## Return Value
 If successful, returns S_OK or returns S_FALSE if there are no nested classes. Otherwise, returns an error code.
@@ -51,5 +52,5 @@ class RootClass {
 The [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md) enumeration would contain one object representing the `NestedClass` class.
 
 ## See Also
-[IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md)
-[IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md)
+- [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md)
+- [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md)

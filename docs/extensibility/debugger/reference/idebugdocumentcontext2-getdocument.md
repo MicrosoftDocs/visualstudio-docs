@@ -32,6 +32,7 @@ int GetDocument( 
 
 #### Parameters
  `ppDocument`
+
  [out] Returns an [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md) object that represents the document that contains this document context.
 
 ## Return Value
@@ -41,5 +42,5 @@ int GetDocument( 
  This method is for those debug engines that supply documents directly to the IDE. Otherwise, this method should return `E_NOTIMPL`.
 
 ## See Also
- [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md)
- [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md)
+- [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md)
+- [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md)

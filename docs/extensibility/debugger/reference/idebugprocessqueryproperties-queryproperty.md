@@ -30,6 +30,7 @@ int QueryProperty(
 
 #### Parameters
  `dwPropType`
+
  [in] Definition of the property queried. The values are:
 
 - PROCESS_PROPERTY_COMMAND_LINE = 1
@@ -48,4 +49,4 @@ int QueryProperty(
  This method is seldom used.
 
 ## See Also
- [IDebugProcessQueryProperties](../../../extensibility/debugger/reference/idebugprocessqueryproperties.md)
+- [IDebugProcessQueryProperties](../../../extensibility/debugger/reference/idebugprocessqueryproperties.md)

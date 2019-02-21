@@ -32,6 +32,7 @@ int GetTypeArgumentCount(
 
 #### Parameters
  `uCount`
+
  [out] Number of argument types associated with this object.
 
 ## Return Value
@@ -41,5 +42,5 @@ int GetTypeArgumentCount(
  The value returned by this method can be used to allocate an array for use with the [GetTypeArguments](../../../extensibility/debugger/reference/idebugbinder3-gettypearguments.md) method.
 
 ## See Also
- [IDebugBinder3](../../../extensibility/debugger/reference/idebugbinder3.md)
- [GetTypeArguments](../../../extensibility/debugger/reference/idebugbinder3-gettypearguments.md)
+- [IDebugBinder3](../../../extensibility/debugger/reference/idebugbinder3.md)
+- [GetTypeArguments](../../../extensibility/debugger/reference/idebugbinder3-gettypearguments.md)

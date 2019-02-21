@@ -38,15 +38,19 @@ int EnableAutoAttach(
 
 #### Parameters
  `rgguidSpecificEngines`
+
  [in] Array of GUIDs for each debug engine to mark as auto-attaching.
 
  `celtSpecificEngines`
+
  [in] The number of engines specified in `rgguidSpecificEngines`.
 
  `pszStartPageUrl`
+
  [in] The starting URL to use when auto-attaching.
 
  `pbstrSessionID`
+
  [out] ID of the session that was auto-attached.
 
 ## Return Value
@@ -56,4 +60,4 @@ int EnableAutoAttach(
  When a program associated with the specified URL is started, the specified debug engines are automatically started and attached.
 
 ## See Also
- [IDebugCoreServer3](../../../extensibility/debugger/reference/idebugcoreserver3.md)
+- [IDebugCoreServer3](../../../extensibility/debugger/reference/idebugcoreserver3.md)

@@ -33,6 +33,7 @@ int GetName(
 
 #### Parameters
  `pbstrName`
+
  [out] Returns the name of the memory context.
 
 ## Return Value
@@ -42,4 +43,4 @@ int GetName(
  The name of a memory context is not normally used.
 
 ## See Also
- [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md)
+- [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md)

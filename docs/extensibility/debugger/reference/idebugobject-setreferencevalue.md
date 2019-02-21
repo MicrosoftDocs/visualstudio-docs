@@ -32,6 +32,7 @@ int SetReferenceValue(
 
 #### Parameters
  `pObject`
+
  [in] An [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) object representing the new reference value.
 
 ## Return Value
@@ -41,5 +42,5 @@ int SetReferenceValue(
  This method makes this [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) object a reference to the value of the object given in the `pObject` parameter, throwing away any previous reference. Note that this `IDebugObject` object must already be a reference type.
 
 ## See Also
- [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)
- [GetValue](../../../extensibility/debugger/reference/idebugobject-getvalue.md)
+- [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)
+- [GetValue](../../../extensibility/debugger/reference/idebugobject-getvalue.md)

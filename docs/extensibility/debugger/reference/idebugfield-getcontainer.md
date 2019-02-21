@@ -32,6 +32,7 @@ int GetContainer(
 
 #### Parameters
  `ppContainerField`
+
  [out] Returns the container as represented by the [IDebugContainerField](../../../extensibility/debugger/reference/idebugcontainerfield.md) interface.
 
 ## Return Value
@@ -41,5 +42,5 @@ int GetContainer(
  If this field does not have a container, the returned `ppContainerField` will be a null value.
 
 ## See Also
- [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)
- [IDebugContainerField](../../../extensibility/debugger/reference/idebugcontainerfield.md)
+- [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)
+- [IDebugContainerField](../../../extensibility/debugger/reference/idebugcontainerfield.md)

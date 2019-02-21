@@ -43,4 +43,4 @@ This method is called when the debugger unexpectedly quits. When this method is 
 
 ## See Also
 
-[IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)
+- [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)

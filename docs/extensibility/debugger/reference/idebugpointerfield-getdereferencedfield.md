@@ -32,6 +32,7 @@ int GetDereferencedField(
 
 #### Parameters
  `ppField`
+
  [out] Returns an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) describing the type of target object.
 
 ## Return Value
@@ -41,5 +42,5 @@ int GetDereferencedField(
  If, for example, the [IDebugPointerField](../../../extensibility/debugger/reference/idebugpointerfield.md) object points to an integer, the [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) type returned by this method describes that integer type.
 
 ## See Also
- [IDebugPointerField](../../../extensibility/debugger/reference/idebugpointerfield.md)
- [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)
+- [IDebugPointerField](../../../extensibility/debugger/reference/idebugpointerfield.md)
+- [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)

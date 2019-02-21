@@ -36,4 +36,4 @@ int SetServer(
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## See Also
- [IDebugPortSupplierEx2](../../../extensibility/debugger/reference/idebugportsupplierex2.md)
+- [IDebugPortSupplierEx2](../../../extensibility/debugger/reference/idebugportsupplierex2.md)

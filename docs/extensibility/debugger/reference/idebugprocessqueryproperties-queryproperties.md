@@ -32,9 +32,11 @@ int QueryProperties(
 
 #### Parameters
  `celt`
+
  [in] Size of the arrays containing the property definitions and property values.
 
  `dwPropType`
+
  [in] An array that contains definitions of the queried properties. The possible values are:
 
 - PROCESS_PROPERTY_COMMAND_LINE = 1
@@ -53,4 +55,4 @@ int QueryProperties(
  This method is seldom used.
 
 ## See Also
- [IDebugProcessQueryProperties](../../../extensibility/debugger/reference/idebugprocessqueryproperties.md)
+- [IDebugProcessQueryProperties](../../../extensibility/debugger/reference/idebugprocessqueryproperties.md)

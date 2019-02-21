@@ -32,6 +32,7 @@ int Detach(
 
 #### Parameters
  `pSession`
+
  [in] A value that uniquely identifies the session to detach this process from.
 
 ## Return Value
@@ -41,4 +42,4 @@ int Detach(
  The interface passed in `pSession` is to be treated only as a cookie, a value that uniquely identifies the session debug manager that originally attached to this process; none of the methods on the supplied interface are functional.
 
 ## See Also
- [IDebugProcessEx2](../../../extensibility/debugger/reference/idebugprocessex2.md)
+- [IDebugProcessEx2](../../../extensibility/debugger/reference/idebugprocessex2.md)

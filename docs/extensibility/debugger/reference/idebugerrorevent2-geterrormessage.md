@@ -42,21 +42,27 @@ int GetErrorMessage(
 
 #### Parameters
  `pMessageType`
+
  [out] Returns a value from the [MESSAGETYPE](../../../extensibility/debugger/reference/messagetype.md) enumeration, describing the type of message.
 
  `pbstrErrorFormat`
+
  [out] The format of the final message to the user (see "Remarks" for details).
 
  `hrErrorReason`
+
  [out] The error code the message is about.
 
  `pdwType`
+
  [out] Severity of the error (use the MB_XXX constants for `MessageBox`; for example, `MB_EXCLAMATION` or `MB_WARNING`).
 
  `pbstrHelpFileName`
+
  [out] Path to a help file (set to a null value if there is no help file).
 
  `pdwHelpId`
+
  [out] ID of the help topic to display (set to 0 if there is no help topic).
 
 ## Return Value
@@ -66,5 +72,5 @@ int GetErrorMessage(
  The error message should be formatted along the lines of `"What I was doing.  %1"`. The `"%1"` would then be replaced by the caller with the error message derived from the error code (which is returned in `hrErrorReason`). The `pMessageType` parameter tells the caller how the final error message should be displayed.
 
 ## See Also
- [IDebugErrorEvent2](../../../extensibility/debugger/reference/idebugerrorevent2.md)
- [MESSAGETYPE](../../../extensibility/debugger/reference/messagetype.md)
+- [IDebugErrorEvent2](../../../extensibility/debugger/reference/idebugerrorevent2.md)
+- [MESSAGETYPE](../../../extensibility/debugger/reference/messagetype.md)

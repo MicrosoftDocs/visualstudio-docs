@@ -32,6 +32,7 @@ int EnumBaseClasses(
 
 #### Parameters
  `ppEnum`
+
  [out] Returns an [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md) object representing the list of base classes. Returns a null value if there are no base classes.
 
 ## Return Value
@@ -50,5 +51,5 @@ class MyClass : Level2 { }
  The enumeration would return the base classes in the order `Level2`, `Level1`, `Root`.
 
 ## See Also
- [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md)
- [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md)
+- [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md)
+- [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md)

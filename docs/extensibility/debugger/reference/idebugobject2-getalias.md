@@ -32,6 +32,7 @@ int GetAlias(
 
 #### Parameters
  `ppAlias`
+
  [out] Returns an [IDebugAlias](../../../extensibility/debugger/reference/idebugalias.md) object representing the alias for this object; otherwise, returns a null value.
 
 ## Return Value
@@ -41,5 +42,5 @@ int GetAlias(
  An alias for an object is created with a call to the [CreateAlias](../../../extensibility/debugger/reference/idebugobject2-createalias.md) method.
 
 ## See Also
- [IDebugObject2](../../../extensibility/debugger/reference/idebugobject2.md)
- [IDebugAlias](../../../extensibility/debugger/reference/idebugalias.md)
+- [IDebugObject2](../../../extensibility/debugger/reference/idebugobject2.md)
+- [IDebugAlias](../../../extensibility/debugger/reference/idebugalias.md)

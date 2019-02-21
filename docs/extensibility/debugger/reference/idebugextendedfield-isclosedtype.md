@@ -31,4 +31,4 @@ int IsClosedType();
  If the field is a closed type, returns `S_OK`; otherwise, returns `S_FALSE`.
 
 ## See Also
- [IDebugExtendedField](../../../extensibility/debugger/reference/idebugextendedfield.md)
+- [IDebugExtendedField](../../../extensibility/debugger/reference/idebugextendedfield.md)

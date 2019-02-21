@@ -55,7 +55,7 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
-[Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
-[TYPE_INFO](../../../extensibility/debugger/reference/type-info.md)
-[dwTYPE_KIND](../../../extensibility/debugger/reference/dwtype-kind.md)
-[IDebugField](../../../extensibility/debugger/reference/idebugfield.md)
+- [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
+- [TYPE_INFO](../../../extensibility/debugger/reference/type-info.md)
+- [dwTYPE_KIND](../../../extensibility/debugger/reference/dwtype-kind.md)
+- [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)

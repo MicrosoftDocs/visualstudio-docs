@@ -33,9 +33,11 @@ int GetService (
 
 #### Parameters
  `uid`
+
  [in] Unique identifier of the service to retrieve.
 
  `ppService`
+
  [out] Returns an object that represents the service.
 
 ## Return Value
@@ -45,4 +47,4 @@ int GetService (
  This can be consumed by a third-party expression evaluator to obtain services from another expression evaluator. For example, this method could be used to obtain the interface for the visualizer service from the default expression evaluator. Third-party expression evaluators are unlikely to need to implement this interface.
 
 ## See Also
- [IDebugExpressionEvaluator2](../../../extensibility/debugger/reference/idebugexpressionevaluator2.md)
+- [IDebugExpressionEvaluator2](../../../extensibility/debugger/reference/idebugexpressionevaluator2.md)

@@ -34,13 +34,15 @@ int Seek( 
 
 #### Parameters
  `nCount`
+
  [in] The number of statements or lines to move ahead, depending on the document context.
 
  `ppDocContext`
+
  [out] Returns a new [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md) object with the new position.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## See Also
- [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md)
+- [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md)

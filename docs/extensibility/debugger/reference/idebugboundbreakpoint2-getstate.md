@@ -33,7 +33,8 @@ int GetState( 
 
 #### Parameters
 `pState`
-[out] Returns a value from the [BP_STATE](../../../extensibility/debugger/reference/bp-state.md) enumeration that describes the state of the breakpoint.
+
+ [out] Returns a value from the [BP_STATE](../../../extensibility/debugger/reference/bp-state.md) enumeration that describes the state of the breakpoint.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -62,5 +63,5 @@ HRESULT CBoundBreakpoint::GetState(BP_STATE* pState)
 ```
 
 ## See Also
-[IDebugBoundBreakpoint2](../../../extensibility/debugger/reference/idebugboundbreakpoint2.md)
-[BP_STATE](../../../extensibility/debugger/reference/bp-state.md)
+- [IDebugBoundBreakpoint2](../../../extensibility/debugger/reference/idebugboundbreakpoint2.md)
+- [BP_STATE](../../../extensibility/debugger/reference/bp-state.md)

@@ -32,6 +32,7 @@ int GetCount(
 
 #### Parameters
  `pcelt`
+
  [out] Returns the number of elements in the enumeration.
 
 ## Return Value
@@ -41,4 +42,4 @@ int GetCount(
  This method is not part of the customary COM enumeration interface which specifies that only the `Next`, `Clone`, `Skip`, and `Reset` methods need to be implemented.
 
 ## See Also
- [IEnumDebugPorts2](../../../extensibility/debugger/reference/ienumdebugports2.md)
+- [IEnumDebugPorts2](../../../extensibility/debugger/reference/ienumdebugports2.md)

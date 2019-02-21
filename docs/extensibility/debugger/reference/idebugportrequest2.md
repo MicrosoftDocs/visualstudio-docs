@@ -46,6 +46,6 @@ IDebugPortRequest2 : IUnknown
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
- [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)
- [AddPort](../../../extensibility/debugger/reference/idebugportsupplier2-addport.md)
- [GetPortRequest](../../../extensibility/debugger/reference/idebugport2-getportrequest.md)
+- [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)
+- [AddPort](../../../extensibility/debugger/reference/idebugportsupplier2-addport.md)
+- [GetPortRequest](../../../extensibility/debugger/reference/idebugport2-getportrequest.md)

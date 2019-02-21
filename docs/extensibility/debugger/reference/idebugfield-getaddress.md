@@ -32,11 +32,12 @@ int GetAddress(
 
 #### Parameters
  `ppAddress`
+
  [out] Returns the address as an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) object.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, return an error code.
 
 ## See Also
- [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)
- [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md)
+- [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)
+- [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md)

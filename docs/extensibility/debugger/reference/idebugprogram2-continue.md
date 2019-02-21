@@ -35,6 +35,7 @@ int Continue( 
 
 #### Parameters
  `pThread`
+
  [in] An [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md) object that represents the thread.
 
 ## Return Value
@@ -47,5 +48,5 @@ int Continue( 
 >  Do not send a stopping event or an immediate (synchronous) event to [Event](../../../extensibility/debugger/reference/idebugeventcallback2-event.md) while handling this call; otherwise the debugger may hang.
 
 ## See Also
- [IDebugEngineProgram2](../../../extensibility/debugger/reference/idebugengineprogram2.md)
- [Event](../../../extensibility/debugger/reference/idebugeventcallback2-event.md)
+- [IDebugEngineProgram2](../../../extensibility/debugger/reference/idebugengineprogram2.md)
+- [Event](../../../extensibility/debugger/reference/idebugeventcallback2-event.md)

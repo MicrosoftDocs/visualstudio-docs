@@ -30,6 +30,7 @@ public int SetSite(
 
 #### Parameters
  `pSP`
+
  [in] Reference to the interface of the service provider.
 
 ## Return Value
@@ -39,4 +40,4 @@ public int SetSite(
  This method will be called before any other methods are called.
 
 ## See Also
- [IDebugPortPicker](../../../extensibility/debugger/reference/idebugportpicker.md)
+- [IDebugPortPicker](../../../extensibility/debugger/reference/idebugportpicker.md)

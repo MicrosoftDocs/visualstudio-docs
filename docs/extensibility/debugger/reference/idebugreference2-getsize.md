@@ -32,10 +32,11 @@ int GetSize ( 
 
 #### Parameters
  `pdwSize`
+
  [out] Returns the size, in bytes, of the value of the reference.
 
 ## Return Value
  Always returns `E_NOTIMPL`.
 
 ## See Also
- [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md)
+- [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md)

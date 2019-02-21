@@ -50,7 +50,7 @@ IDebugProperty3 : IDebugProperty2
 |[SetValueAsStringWithError](../../../extensibility/debugger/reference/idebugproperty3-setvalueasstringwitherror.md)|Sets the value of this property, returning an error message if anything went wrong.|
 
 ## Remarks
- [SetValueAsStringWithError](../../../extensibility/debugger/reference/idebugproperty3-setvalueasstringwitherror.md) is the preferred way for the session debug manager (SDM) to set a property's value.
+- [SetValueAsStringWithError](../../../extensibility/debugger/reference/idebugproperty3-setvalueasstringwitherror.md) is the preferred way for the session debug manager (SDM) to set a property's value.
 
 ## Requirements
  Header: msdbg.h
@@ -60,6 +60,6 @@ IDebugProperty3 : IDebugProperty2
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
- [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)
- [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md)
- [IDebugCustomViewer](../../../extensibility/debugger/reference/idebugcustomviewer.md)
+- [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)
+- [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md)
+- [IDebugCustomViewer](../../../extensibility/debugger/reference/idebugcustomviewer.md)

@@ -31,6 +31,7 @@ int SetCorPath(
 
 #### Parameters
  `pcstrCorPath`
+
  [in] Path to the CLR loaded in the debugger.
 
 ## Return Value
@@ -118,4 +119,4 @@ STDMETHODIMP ExpressionEvaluatorPackage::SetCorPath(LPCOLESTR pcstrCorPath)
 ```
 
 ## See Also
- [IDebugExpressionEvaluator2](../../../extensibility/debugger/reference/idebugexpressionevaluator2.md)
+- [IDebugExpressionEvaluator2](../../../extensibility/debugger/reference/idebugexpressionevaluator2.md)

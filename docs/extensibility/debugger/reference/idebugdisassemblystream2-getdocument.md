@@ -34,9 +34,11 @@ int GetDocument( 
 
 #### Parameters
  `bstrDocumentUrl`
+
  [in] The document URL.
 
  `ppDocument`
+
  [out] Returns an [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md) object representing the document.
 
 ## Return Value
@@ -46,5 +48,5 @@ int GetDocument( 
  This method is implemented by debug engines that have text documents that are not stored in an actual file.
 
 ## See Also
- [IDebugDisassemblyStream2](../../../extensibility/debugger/reference/idebugdisassemblystream2.md)
- [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md)
+- [IDebugDisassemblyStream2](../../../extensibility/debugger/reference/idebugdisassemblystream2.md)
+- [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md)

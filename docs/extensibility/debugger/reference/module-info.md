@@ -102,7 +102,7 @@ public struct MODULE_INFO { 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
- [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
- [MODULE_INFO_FIELDS](../../../extensibility/debugger/reference/module-info-fields.md)
- [MODULE_FLAGS](../../../extensibility/debugger/reference/module-flags.md)
- [GetInfo](../../../extensibility/debugger/reference/idebugmodule2-getinfo.md)
+- [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
+- [MODULE_INFO_FIELDS](../../../extensibility/debugger/reference/module-info-fields.md)
+- [MODULE_FLAGS](../../../extensibility/debugger/reference/module-flags.md)
+- [GetInfo](../../../extensibility/debugger/reference/idebugmodule2-getinfo.md)

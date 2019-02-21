@@ -34,9 +34,11 @@ int GetExceptionObjectAndType(
 
 #### Parameters
  `ppException`
+
  [out] Returns the object representing the exception.
 
  `ppField`
+
  [out] Returns the object representing a specific field that may have caused the exception (this may be a null value).
 
 ## Return Value
@@ -46,4 +48,4 @@ int GetExceptionObjectAndType(
 >  To verify whether there is an exception, check the value returned by `ppException`: if it is a null value, then no exception is associated with this object.
 
 ## See Also
- [IDebugBinder3](../../../extensibility/debugger/reference/idebugbinder3.md)
+- [IDebugBinder3](../../../extensibility/debugger/reference/idebugbinder3.md)

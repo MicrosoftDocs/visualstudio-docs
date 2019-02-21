@@ -32,11 +32,12 @@ int GetDebugReason(
 
 #### Parameters
  `pReason`
+
  [out] Returns a value from the [DEBUG_REASON](../../../extensibility/debugger/reference/debug-reason.md) enumeration.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns error code.
 
 ## See Also
- [IDebugProcess3](../../../extensibility/debugger/reference/idebugprocess3.md)
- [DEBUG_REASON](../../../extensibility/debugger/reference/debug-reason.md)
+- [IDebugProcess3](../../../extensibility/debugger/reference/idebugprocess3.md)
+- [DEBUG_REASON](../../../extensibility/debugger/reference/debug-reason.md)

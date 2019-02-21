@@ -92,13 +92,13 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
-[Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
-[GetRequestInfo](../../../extensibility/debugger/reference/idebugbreakpointrequest2-getrequestinfo.md)
-[BPREQI_FIELDS](../../../extensibility/debugger/reference/bpreqi-fields.md)
-[BP_LOCATION](../../../extensibility/debugger/reference/bp-location.md)
-[IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)
-[IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)
-[BP_CONDITION](../../../extensibility/debugger/reference/bp-condition.md)
-[BP_PASSCOUNT](../../../extensibility/debugger/reference/bp-passcount.md)
-[BP_FLAGS](../../../extensibility/debugger/reference/bp-flags.md)
-[BP_REQUEST_INFO2](../../../extensibility/debugger/reference/bp-request-info2.md)
+- [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
+- [GetRequestInfo](../../../extensibility/debugger/reference/idebugbreakpointrequest2-getrequestinfo.md)
+- [BPREQI_FIELDS](../../../extensibility/debugger/reference/bpreqi-fields.md)
+- [BP_LOCATION](../../../extensibility/debugger/reference/bp-location.md)
+- [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)
+- [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)
+- [BP_CONDITION](../../../extensibility/debugger/reference/bp-condition.md)
+- [BP_PASSCOUNT](../../../extensibility/debugger/reference/bp-passcount.md)
+- [BP_FLAGS](../../../extensibility/debugger/reference/bp-flags.md)
+- [BP_REQUEST_INFO2](../../../extensibility/debugger/reference/bp-request-info2.md)

@@ -32,6 +32,7 @@ int IsNullReference(
 
 #### Parameters
  `pfIsNull`
+
  [out] Returns non-zero (`TRUE`) if this object is a null reference; otherwise, returns zero (`FALSE`).
 
 ## Return Value
@@ -41,4 +42,4 @@ int IsNullReference(
  A null reference means an empty object or an object that has not been assigned to.
 
 ## See Also
- [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)
+- [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)

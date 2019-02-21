@@ -32,6 +32,7 @@ int IsEncOutdated(
 
 #### Parameters
  `pfEncOutdated`
+
  [out] Nonzero (`TRUE`) if the Edit and Continue state is out of date, zero (`FALSE`) if it is not.
 
 ## Return Value
@@ -41,4 +42,4 @@ int IsEncOutdated(
 >  A custom expression evaluator should always return `E_NOTIMPL`.
 
 ## See Also
- [IDebugObject2](../../../extensibility/debugger/reference/idebugobject2.md)
+- [IDebugObject2](../../../extensibility/debugger/reference/idebugobject2.md)

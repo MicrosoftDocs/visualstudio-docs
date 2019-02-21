@@ -36,4 +36,4 @@ int SetLocale(
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## See Also
- [IDebugPortSupplierLocale2](../../../extensibility/debugger/reference/idebugportsupplierlocale2.md)
+- [IDebugPortSupplierLocale2](../../../extensibility/debugger/reference/idebugportsupplierlocale2.md)

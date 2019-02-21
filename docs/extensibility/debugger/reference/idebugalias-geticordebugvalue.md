@@ -32,6 +32,7 @@ int GetICorDebugValue(
 
 #### Parameters
  `ppUnk`
+
  [out] `IUnknown` interface that represents the value associated with this alias. This interface can be queried for the `ICorDebugValue` interface.
 
 ## Return Value
@@ -41,4 +42,4 @@ int GetICorDebugValue(
  This method applies only to managed values (the `ICorDebugValue` is an interface available in the [!INCLUDE[dnprdnshort](../../../code-quality/includes/dnprdnshort_md.md)] and is defined in the [!INCLUDE[dnprdnshort](../../../code-quality/includes/dnprdnshort_md.md)] SDK in the cordebug.idl file).
 
 ## See Also
- [IDebugAlias](../../../extensibility/debugger/reference/idebugalias.md)
+- [IDebugAlias](../../../extensibility/debugger/reference/idebugalias.md)

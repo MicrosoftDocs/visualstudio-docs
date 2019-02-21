@@ -34,9 +34,11 @@ int SetValue(
 
 #### Parameters
  `pValue`
+
  [in] An array of bytes representing the new value.
 
  `nSize`
+
  [in] The size of the value in bytes.
 
 ## Return Value
@@ -46,5 +48,5 @@ int SetValue(
  The values in the array are copied into this [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) object, replacing any existing value. The size of the new value can be larger or smaller than the existing value. This `IDebugObject` cannot be a null reference.
 
 ## See Also
- [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)
- [GetValue](../../../extensibility/debugger/reference/idebugobject-getvalue.md)
+- [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)
+- [GetValue](../../../extensibility/debugger/reference/idebugobject-getvalue.md)

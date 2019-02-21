@@ -36,12 +36,15 @@ int EnumPossibleEngines( 
 
 #### Parameters
  `celtBuffer`
+
  [in] The number of DE GUIDs to return. This also specifies the maximum size of the `rgguidEngines` array.
 
  `rgguidEngines`
+
  [in, out] An array of DE GUIDs to be filled in.
 
  `pceltEngines`
+
  [out] Returns the actual number of DE GUIDs that are returned.
 
 ## Return Value
@@ -51,4 +54,4 @@ int EnumPossibleEngines( 
  In order to determine how many engines there are, call this method once with the `celtBuffer` parameter set to 0 and the `rgguidEngines` parameter set to a null value. This returns `HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER)` (0x8007007A for C#), and the `pceltEngines` parameter returns the necessary size of the buffer.
 
 ## See Also
- [IDebugProgramEngines2](../../../extensibility/debugger/reference/idebugprogramengines2.md)
+- [IDebugProgramEngines2](../../../extensibility/debugger/reference/idebugprogramengines2.md)

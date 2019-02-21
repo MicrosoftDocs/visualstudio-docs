@@ -30,10 +30,11 @@ public int IsChecksumEnabled(
 
 #### Parameters
  `pfChecksumEnabled`
+
  [out] Returns TRUE if the checksum is enabled; otherwise, returns FALSE.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## See Also
- [IDebugBreakpointChecksumRequest2](../../../extensibility/debugger/reference/idebugbreakpointchecksumrequest2.md)
+- [IDebugBreakpointChecksumRequest2](../../../extensibility/debugger/reference/idebugbreakpointchecksumrequest2.md)

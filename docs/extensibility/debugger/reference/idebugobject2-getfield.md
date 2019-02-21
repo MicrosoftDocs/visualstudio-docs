@@ -32,6 +32,7 @@ int GetField(
 
 #### Parameters
  `ppField`
+
  [out] Returns an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object if not a null value.
 
 ## Return Value
@@ -41,5 +42,5 @@ int GetField(
  A field describes the type of the object.
 
 ## See Also
- [IDebugObject2](../../../extensibility/debugger/reference/idebugobject2.md)
- [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)
+- [IDebugObject2](../../../extensibility/debugger/reference/idebugobject2.md)
+- [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)

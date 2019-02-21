@@ -36,19 +36,23 @@ private int GetMetricGuid(
 
 #### Parameters
  `pszType`
+
  [in] Type of the metric.
 
  `guidSection`
+
  [in] Unique identifier of the section.
 
  `pszMetric`
+
  [in] Name of the metric.
 
  `pguidValue`
+
  [out] Returns the unique identifier of the metric.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## See Also
- [IDebugSettingsCallback2](../../../extensibility/debugger/reference/idebugsettingscallback2.md)
+- [IDebugSettingsCallback2](../../../extensibility/debugger/reference/idebugsettingscallback2.md)

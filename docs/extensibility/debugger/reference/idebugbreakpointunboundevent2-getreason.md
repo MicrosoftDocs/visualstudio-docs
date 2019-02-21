@@ -32,7 +32,8 @@ int GetReason(
 
 #### Parameters
 `pdwUnboundReason`
-[out] Returns a value from the [BP_UNBOUND_REASON](../../../extensibility/debugger/reference/bp-unbound-reason.md) enumeration specifying the reason the breakpoint was unbound.
+
+ [out] Returns a value from the [BP_UNBOUND_REASON](../../../extensibility/debugger/reference/bp-unbound-reason.md) enumeration specifying the reason the breakpoint was unbound.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -63,4 +64,4 @@ STDMETHODIMP CBreakpointUnboundDebugEventBase::GetReason(
 ```
 
 ## See Also
-[IDebugBreakpointUnboundEvent2](../../../extensibility/debugger/reference/idebugbreakpointunboundevent2.md)
+- [IDebugBreakpointUnboundEvent2](../../../extensibility/debugger/reference/idebugbreakpointunboundevent2.md)

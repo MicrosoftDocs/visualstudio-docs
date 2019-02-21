@@ -36,17 +36,20 @@ int Next(
 
 #### Parameters
  `celt`
+
  [in] The number of elements to retrieve. Also specifies the maximum size of the `rgelt` array.
 
  `rgelt`
+
  [in, out] Array of [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md) elements to be filled in.
 
  `pceltFetched`
+
  [out] Returns the number of elements actually returned in `rgelt`.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if fewer than the requested number of elements could be returned; otherwise, returns an error code.
 
 ## See Also
- [IEnumDebugCodeContexts2](../../../extensibility/debugger/reference/ienumdebugcodecontexts2.md)
- [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md)
+- [IEnumDebugCodeContexts2](../../../extensibility/debugger/reference/ienumdebugcodecontexts2.md)
+- [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md)

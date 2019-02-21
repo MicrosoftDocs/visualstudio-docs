@@ -43,28 +43,35 @@ int GetMethodFromAddress(
 
 #### Parameters
  `pAddress`
+
  [in] Debug address that is represented by the [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface.
 
  `pGuid`
+
  [out] Unique identifier of the module.
 
  `pAppID`
+
  [out] Identifier of the application domain.
 
  `pTokenClass`
+
  [out] Token that represents the containing class.
 
  `pTokenMethod`
+
  [out] Token that represents the module.
 
  `pdwOffset`
+
  [out] An offset in bytes from the start of the `pAddress` parameter.
 
  `pdwVersion`
+
  [out] Version number of the method.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## See Also
- [IDebugSymbolProviderDirect](../../../extensibility/debugger/reference/idebugsymbolproviderdirect.md)
+- [IDebugSymbolProviderDirect](../../../extensibility/debugger/reference/idebugsymbolproviderdirect.md)

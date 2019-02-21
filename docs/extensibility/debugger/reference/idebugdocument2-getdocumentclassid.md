@@ -32,6 +32,7 @@ int GetDocumentClassID( 
 
 #### Parameters
  `pclsid`
+
  [out] Returns a GUID that is the class ID of the document.
 
 ## Return Value
@@ -41,4 +42,4 @@ int GetDocumentClassID( 
  The class GUID can be used to instantiate individual classes each of which represents a document.
 
 ## See Also
- [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md)
+- [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md)

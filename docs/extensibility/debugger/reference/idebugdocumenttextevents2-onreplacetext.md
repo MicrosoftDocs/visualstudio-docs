@@ -34,14 +34,16 @@ int onReplaceText( 
 
 #### Parameters
  `pos`
+
  [in] A [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md) indicates where the text was replaced.
 
  `dwNumToReplace`
+
  [in] Specifies the number of characters of text that were replaced.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## See Also
- [IDebugDocumentTextEvents2](../../../extensibility/debugger/reference/idebugdocumenttextevents2.md)
- [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md)
+- [IDebugDocumentTextEvents2](../../../extensibility/debugger/reference/idebugdocumenttextevents2.md)
+- [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md)

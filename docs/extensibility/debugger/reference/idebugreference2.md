@@ -53,7 +53,7 @@ IDebugReference2 : IUnknown
 > [!NOTE]
 >  This use of "property" should not be confused with that meaning a member variable of a class, although an `IDebugReference2` can represent such an entity.
 
- [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) represents a property, while `IDebugReference2` represents a reference to a property, typically a reference to an object in the program being debugged.
+- [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) represents a property, while `IDebugReference2` represents a reference to a property, typically a reference to an object in the program being debugged.
 
  The main difference between a property and a reference is that a property refers to a named instance of an object, while a reference refers to an unnamed instance. For example, a property may refer to an object in the program's heap by `"a.b"`. Another property may refer to the same object as `"c.d"`. The way of referring to this property requires that `"a.b"` or `"c.d"` be in scope. A reference to this same object is nameless; the object can be referred to as long as the memory for that object is valid.
 
@@ -67,7 +67,7 @@ IDebugReference2 : IUnknown
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
- [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)
- [DEBUG_REFERENCE_INFO](../../../extensibility/debugger/reference/debug-reference-info.md)
- [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md)
- [GetReference](../../../extensibility/debugger/reference/idebugproperty2-getreference.md)
+- [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)
+- [DEBUG_REFERENCE_INFO](../../../extensibility/debugger/reference/debug-reference-info.md)
+- [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md)
+- [GetReference](../../../extensibility/debugger/reference/idebugproperty2-getreference.md)

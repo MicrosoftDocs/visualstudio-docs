@@ -42,6 +42,7 @@ int WatchForProviderEvents(
 
 #### Parameters
  `Flags`
+
  [in] A combination of flags from the [PROVIDER_FLAGS](../../../extensibility/debugger/reference/provider-flags.md) enumeration. The following flags are typical for this call:
 
 |Flag|Description|
@@ -52,18 +53,23 @@ int WatchForProviderEvents(
 |`PFLAG_REASON_WATCH`|Caller wants to watch for events. If this flag is not set. then the callback event is removed and the caller no longer receives notifications.|
 
  `pPort`
+
  [in] The port the calling process is running on.
 
  `processId`
+
  [in] An [AD_PROCESS_ID](../../../extensibility/debugger/reference/ad-process-id.md) structure holding the ID of the process that contains the program in question.
 
  `EngineFilter`
+
  [in] An array of GUIDs of debug engines associated with the process.
 
  `guidLaunchingEngine`
+
  [in] GUID of the debug engine that launched this process (if any).
 
  `pEventCallback`
+
  [in] An [IDebugPortNotify2](../../../extensibility/debugger/reference/idebugportnotify2.md) object that receives the event notifications.
 
 ## Return Value
@@ -202,9 +208,9 @@ STDMETHODIMP CDebugEngine::WatchForProviderEvents(
 ```
 
 ## See Also
- [IDebugProgramProvider2](../../../extensibility/debugger/reference/idebugprogramprovider2.md)
- [PROVIDER_FLAGS](../../../extensibility/debugger/reference/provider-flags.md)
- [AD_PROCESS_ID](../../../extensibility/debugger/reference/ad-process-id.md)
- [CONST_GUID_ARRAY](../../../extensibility/debugger/reference/const-guid-array.md)
- [IDebugDefaultPort2](../../../extensibility/debugger/reference/idebugdefaultport2.md)
- [IDebugPortNotify2](../../../extensibility/debugger/reference/idebugportnotify2.md)
+- [IDebugProgramProvider2](../../../extensibility/debugger/reference/idebugprogramprovider2.md)
+- [PROVIDER_FLAGS](../../../extensibility/debugger/reference/provider-flags.md)
+- [AD_PROCESS_ID](../../../extensibility/debugger/reference/ad-process-id.md)
+- [CONST_GUID_ARRAY](../../../extensibility/debugger/reference/const-guid-array.md)
+- [IDebugDefaultPort2](../../../extensibility/debugger/reference/idebugdefaultport2.md)
+- [IDebugPortNotify2](../../../extensibility/debugger/reference/idebugportnotify2.md)

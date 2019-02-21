@@ -18,7 +18,7 @@ Retrieves the name of the assembly given its module and application domain.
 ## Syntax
 
 ```
-[C++]
+- [C++]
 HRESULT GetAssemblyName(
     ULONG32 ulAppDomainID,
     GUID    guidModule,
@@ -27,7 +27,7 @@ HRESULT GetAssemblyName(
 ```
 
 ```
-[C#]
+- [C#]
 int GetAssemblyName(
     uint   ulAppDomainID,
     Guid   guidModule,
@@ -37,13 +37,16 @@ int GetAssemblyName(
 
 #### Parameters
 `ulAppDomainID`
-[in] Identifier for the application domain.
+
+ [in] Identifier for the application domain.
 
 `guidModule`
-[in] Unique identifier for the module.
+
+ [in] Unique identifier for the module.
 
 `pbstrName`
-[out] Returns the name of the assembly.
+
+ [out] Returns the name of the assembly.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -78,4 +81,4 @@ Error:
 ```
 
 ## See Also
-[IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)
+- [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

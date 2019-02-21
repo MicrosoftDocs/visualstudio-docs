@@ -76,7 +76,7 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
-[Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
-[GetName](../../../extensibility/debugger/reference/idebugdocument2-getname.md)
-[GetName](../../../extensibility/debugger/reference/idebugdocumentcontext2-getname.md)
-[GetName](../../../extensibility/debugger/reference/idebugprocess2-getname.md)
+- [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
+- [GetName](../../../extensibility/debugger/reference/idebugdocument2-getname.md)
+- [GetName](../../../extensibility/debugger/reference/idebugdocumentcontext2-getname.md)
+- [GetName](../../../extensibility/debugger/reference/idebugprocess2-getname.md)

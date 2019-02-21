@@ -32,6 +32,7 @@ int IsCustomAttributeDefined(
 
 #### Parameters
  `pszCustomAttributeName`
+
  [in] A string containing the name of the custom attribute to find.
 
 ## Return Value
@@ -41,4 +42,4 @@ int IsCustomAttributeDefined(
  To obtain the attribute bytes associated with the custom attribute, call the [GetCustomAttributeByName](../../../extensibility/debugger/reference/idebugcustomattributequery2-getcustomattributebyname.md) method.
 
 ## See Also
- [IDebugCustomAttributeQuery2](../../../extensibility/debugger/reference/idebugcustomattributequery2.md)
+- [IDebugCustomAttributeQuery2](../../../extensibility/debugger/reference/idebugcustomattributequery2.md)

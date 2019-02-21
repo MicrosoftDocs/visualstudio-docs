@@ -32,6 +32,7 @@ int GetPortProcessId ( 
 
 #### Parameters
  `pdwProcessId`
+
  [out] Returns the physical process ID of the port itself.
 
 ## Return Value
@@ -41,4 +42,4 @@ int GetPortProcessId ( 
  In the Win32 runtime for example, this method typically calls the Win32 function `GetCurrentProcessId` to get the physical process ID.
 
 ## See Also
- [IDebugPortEx2](../../../extensibility/debugger/reference/idebugportex2.md)
+- [IDebugPortEx2](../../../extensibility/debugger/reference/idebugportex2.md)

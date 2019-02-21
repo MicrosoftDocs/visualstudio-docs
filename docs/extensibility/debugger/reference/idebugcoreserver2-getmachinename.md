@@ -32,10 +32,11 @@ int GetName( 
 
 #### Parameters
  `pbstrName`
+
  [out] Returns a string containing the name of the machine.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## See Also
- [IDebugCoreServer2](../../../extensibility/debugger/reference/idebugcoreserver2.md)
+- [IDebugCoreServer2](../../../extensibility/debugger/reference/idebugcoreserver2.md)

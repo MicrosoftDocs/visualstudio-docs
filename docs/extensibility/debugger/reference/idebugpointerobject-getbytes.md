@@ -38,15 +38,19 @@ int GetBytes(
 
 #### Parameters
  `dwStart`
+
  [in] An offset, in bytes, from the start of the object pointed to.
 
  `dwCount`
+
  [in] The number of bytes to retrieve.
 
  `pBytes`
+
  [in, out] An array that is filled in with the value as a series of consecutive bytes, starting at the given offset from the object pointed to.
 
  `pdwBytes`
+
  [out] Returns the number of bytes actually retrieved.
 
 ## Return Value
@@ -56,5 +60,5 @@ int GetBytes(
  This method is used if the pointer as represented by this [IDebugPointerObject](../../../extensibility/debugger/reference/idebugpointerobject.md) points to a primitive type or a simple array of primitive types (that is, an array that can be represented by a simple sequence of bytes).
 
 ## See Also
- [IDebugPointerObject](../../../extensibility/debugger/reference/idebugpointerobject.md)
- [SetBytes](../../../extensibility/debugger/reference/idebugpointerobject-setbytes.md)
+- [IDebugPointerObject](../../../extensibility/debugger/reference/idebugpointerobject.md)
+- [SetBytes](../../../extensibility/debugger/reference/idebugpointerobject-setbytes.md)

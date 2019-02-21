@@ -37,12 +37,15 @@ int WriteAt(
 
 #### Parameters
  `pStartContext`
+
  [in] The [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md) object that specifies where to start writing bytes.
 
  `dwCount`
+
  [in] The number of bytes to write.
 
  `rgbMemory`
+
  [in] The bytes to write. This array is assumed to be at least `dwCount` bytes in size.
 
 ## Return Value
@@ -52,5 +55,5 @@ int WriteAt(
  If the starting address is not within the memory window represented by this [IDebugMemoryBytes2](../../../extensibility/debugger/reference/idebugmemorybytes2.md) object, no writing occurs and an error code of `E_FAIL` is returned — even if the amount to write overlaps into the memory space.
 
 ## See Also
- [IDebugMemoryBytes2](../../../extensibility/debugger/reference/idebugmemorybytes2.md)
- [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md)
+- [IDebugMemoryBytes2](../../../extensibility/debugger/reference/idebugmemorybytes2.md)
+- [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md)

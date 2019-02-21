@@ -32,6 +32,7 @@ int GetDerivedMostReference( 
 
 #### Parameters
  `ppDerivedMost`
+
  [out] Returns an [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md) object that represents the derived-most property.
 
 ## Return Value
@@ -41,4 +42,4 @@ int GetDerivedMostReference( 
  For example, if this property describes an object that implements `ClassRoot` but which is actually an instantiation of `ClassDerived` that is derived from `ClassRoot`, then this method returns an [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md) object representing a reference to the `ClassDerived` object.
 
 ## See Also
- [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md)
+- [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md)

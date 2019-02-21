@@ -38,15 +38,19 @@ int Compare( 
 
 #### Parameters
  `compare`
+
  [in] A value from the [DOCCONTEXT_COMPARE](../../../extensibility/debugger/reference/doccontext-compare.md) enumeration that specifies the type of comparison.
 
  `rgpDocContextSet`
+
  [in] An array of [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md) objects that represent the document contexts being compared to.
 
  `dwDocContextSetLen`
+
  [in] The length of the array of document contexts to compare.
 
  `pdwDocContext`
+
  [out] Returns the index into the `rgpDocContextSet` array of the first document context that satisfies the comparison.
 
 ## Return Value
@@ -56,5 +60,5 @@ int Compare( 
  The [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md) objects that are passed in the array must be implemented by the same debug engine that implements the `IDebugDocumentContext2` object being called on; otherwise, the comparison is not valid.
 
 ## See Also
- [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md)
- [DOCCONTEXT_COMPARE](../../../extensibility/debugger/reference/doccontext-compare.md)
+- [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md)
+- [DOCCONTEXT_COMPARE](../../../extensibility/debugger/reference/doccontext-compare.md)

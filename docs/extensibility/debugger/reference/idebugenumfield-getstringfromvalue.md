@@ -34,9 +34,11 @@ int GetStringFromValue(
 
 #### Parameters
  `value`
+
  [in] The value for which to get the name of the enumeration constant.
 
  `pbstrValue`
+
  [out] Returns the name of the enumeration constant.
 
 ## Return Value
@@ -46,4 +48,4 @@ int GetStringFromValue(
  If there is more than one name associated with the same value, the first name defined in the enumeration will be returned.
 
 ## See Also
- [IDebugEnumField](../../../extensibility/debugger/reference/idebugenumfield.md)
+- [IDebugEnumField](../../../extensibility/debugger/reference/idebugenumfield.md)

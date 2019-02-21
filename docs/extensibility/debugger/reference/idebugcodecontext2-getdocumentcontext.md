@@ -32,6 +32,7 @@ int GetDocumentContext( 
 
 #### Parameters
  `ppSrcCxt`
+
  [out] Returns the [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md) object that corresponds to the code context.
 
 ## Return Value
@@ -41,5 +42,5 @@ int GetDocumentContext( 
  Generally, the document context can be thought of as a position in a source file while the code context is a position of a code instruction in an execution stream.
 
 ## See Also
- [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md)
- [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md)
+- [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md)
+- [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md)

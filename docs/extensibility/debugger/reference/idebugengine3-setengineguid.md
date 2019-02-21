@@ -25,7 +25,7 @@ HRESULT SetEngineGuid(
 ```
 
 ```
-[C#]
+- [C#]
 int SetEngineGuid(
    ref Guid guidEngine
 );
@@ -33,10 +33,11 @@ int SetEngineGuid(
 
 #### Parameters
  `guidEngine`
+
  [in] `GUID` of the engine.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns error code.
 
 ## See Also
- [IDebugEngine3](../../../extensibility/debugger/reference/idebugengine3.md)
+- [IDebugEngine3](../../../extensibility/debugger/reference/idebugengine3.md)

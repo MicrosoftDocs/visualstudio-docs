@@ -32,6 +32,7 @@ int GetPortName( 
 
 #### Parameters
  `pbstrPortName`
+
  [out] Returns the name of the port.
 
 ## Return Value
@@ -41,4 +42,4 @@ int GetPortName( 
  The [IDebugPortRequest2](../../../extensibility/debugger/reference/idebugportrequest2.md) interface is usually passed from a debug package (the client) to a port supplier (the server) to obtain a connection to a port. Both the debug package and the port supplier are aware of the possible choices for the port. If a simple string can describe the port, then the `IDebugPortRequest2::GetPortName` method has enough information to make the connection. Otherwise, additional interfaces can be provided by the client, which can be obtained by the server using `IDebugPortRequest2::QueryInterface`.
 
 ## See Also
- [IDebugPortRequest2](../../../extensibility/debugger/reference/idebugportrequest2.md)
+- [IDebugPortRequest2](../../../extensibility/debugger/reference/idebugportrequest2.md)

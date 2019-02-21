@@ -32,6 +32,7 @@ int DiagnoseWebDebuggingError(
 
 #### Parameters
  `pszUrl`
+
  [in] Not currently used; should always be set to a null value.
 
 ## Return Value
@@ -44,4 +45,4 @@ int DiagnoseWebDebuggingError(
 |`E_WEBDBG_DEBUG_VERB_BLOCKED`|The web server has been locked down and is blocking the DEBUG verb, which is required to enable debugging.|
 
 ## See Also
- [IDebugCoreServer3](../../../extensibility/debugger/reference/idebugcoreserver3.md)
+- [IDebugCoreServer3](../../../extensibility/debugger/reference/idebugcoreserver3.md)

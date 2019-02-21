@@ -35,12 +35,15 @@ int ConstructInstantiation(
 
 #### Parameters
  `cArgs`
+
  [in] Number of arguments in the `ppArgs` array.
 
  `ppArgs`
+
  [in] Array that contains the type arguments. The type arguments must be closed types (non-generic or fully instantiated generics).
 
  `ppConstructedField`
+
  [out] Returns the [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) interface that represents the new field.
 
 ## Return Value
@@ -50,4 +53,4 @@ int ConstructInstantiation(
  Constraints are not checked.
 
 ## See Also
- [IDebugGenericFieldDefinition](../../../extensibility/debugger/reference/idebuggenericfielddefinition.md)
+- [IDebugGenericFieldDefinition](../../../extensibility/debugger/reference/idebuggenericfielddefinition.md)

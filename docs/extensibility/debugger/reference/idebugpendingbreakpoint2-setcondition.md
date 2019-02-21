@@ -33,6 +33,7 @@ int SetCondition( 
 
 #### Parameters
  `bpCondition`
+
  [in] A [BP_CONDITION](../../../extensibility/debugger/reference/bp-condition.md) structure that specifies the condition to set.
 
 ## Return Value
@@ -42,5 +43,5 @@ int SetCondition( 
  Any condition that was previously associated with the pending breakpoint is lost. All breakpoints bound from this pending breakpoint are called to set their condition to the value specified in the `bpCondition` parameter.
 
 ## See Also
- [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md)
- [BP_CONDITION](../../../extensibility/debugger/reference/bp-condition.md)
+- [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md)
+- [BP_CONDITION](../../../extensibility/debugger/reference/bp-condition.md)

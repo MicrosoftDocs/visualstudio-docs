@@ -32,6 +32,7 @@ int RemoveProgramNode( 
 
 #### Parameters
  `pProgramNode`
+
  [in] An [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) objecy that represents the program to be unregistered.
 
 ## Return Value
@@ -41,6 +42,6 @@ int RemoveProgramNode( 
  This method removes a program node that was added with a call to the [AddProgramNode](../../../extensibility/debugger/reference/idebugportnotify2-addprogramnode.md) method.
 
 ## See Also
- [IDebugPortNotify2](../../../extensibility/debugger/reference/idebugportnotify2.md)
- [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)
- [AddProgramNode](../../../extensibility/debugger/reference/idebugportnotify2-addprogramnode.md)
+- [IDebugPortNotify2](../../../extensibility/debugger/reference/idebugportnotify2.md)
+- [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)
+- [AddProgramNode](../../../extensibility/debugger/reference/idebugportnotify2-addprogramnode.md)

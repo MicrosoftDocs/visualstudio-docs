@@ -35,12 +35,15 @@ int GetFormalTypeParams(
 
 #### Parameters
  `cParams`
+
  [in] Number of parameters.
 
  `ppParams`
+
  [out] Array of type parameters.
 
  `pcParams`
+
  [in, out] Number of parameters in the `ppParams` array.
 
 ## Return Value
@@ -50,4 +53,4 @@ int GetFormalTypeParams(
  Return the type parameters in order from left to right. For example, Dictionary\<K,V> returns IDebugFormalGenericParameters {K,V}.
 
 ## See Also
- [IDebugGenericFieldDefinition](../../../extensibility/debugger/reference/idebuggenericfielddefinition.md)
+- [IDebugGenericFieldDefinition](../../../extensibility/debugger/reference/idebuggenericfielddefinition.md)

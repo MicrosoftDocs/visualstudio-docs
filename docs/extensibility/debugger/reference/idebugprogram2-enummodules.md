@@ -32,6 +32,7 @@ int EnumModules( 
 
 #### Parameters
  `ppEnum`
+
  [out] Returns an [IEnumDebugModules2](../../../extensibility/debugger/reference/ienumdebugmodules2.md) object that contains a list of the modules.
 
 ## Return Value
@@ -41,5 +42,5 @@ int EnumModules( 
  A module is a DLL or assembly and is typically listed in the **Modules** debug window.
 
 ## See Also
- [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)
- [IEnumDebugModules2](../../../extensibility/debugger/reference/ienumdebugmodules2.md)
+- [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)
+- [IEnumDebugModules2](../../../extensibility/debugger/reference/ienumdebugmodules2.md)

@@ -32,6 +32,7 @@ int DoesInterfaceExist(
 
 #### Parameters
  `pszInterfaceName`
+
  [in] A string containing the interface name to look for.
 
 ## Return Value
@@ -41,4 +42,4 @@ int DoesInterfaceExist(
  This method in effect gets an enumeration of all interfaces and searches the list for a matching interface.
 
 ## See Also
- [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md)
+- [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md)

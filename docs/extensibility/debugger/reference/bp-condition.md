@@ -67,10 +67,10 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
-[Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
-[BP_REQUEST_INFO](../../../extensibility/debugger/reference/bp-request-info.md)
-[BP_REQUEST_INFO2](../../../extensibility/debugger/reference/bp-request-info2.md)
-[SetCondition](../../../extensibility/debugger/reference/idebugboundbreakpoint2-setcondition.md)
-[SetCondition](../../../extensibility/debugger/reference/idebugpendingbreakpoint2-setcondition.md)
-[IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)
-[BP_COND_STYLE](../../../extensibility/debugger/reference/bp-cond-style.md)
+- [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
+- [BP_REQUEST_INFO](../../../extensibility/debugger/reference/bp-request-info.md)
+- [BP_REQUEST_INFO2](../../../extensibility/debugger/reference/bp-request-info2.md)
+- [SetCondition](../../../extensibility/debugger/reference/idebugboundbreakpoint2-setcondition.md)
+- [SetCondition](../../../extensibility/debugger/reference/idebugpendingbreakpoint2-setcondition.md)
+- [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)
+- [BP_COND_STYLE](../../../extensibility/debugger/reference/bp-cond-style.md)

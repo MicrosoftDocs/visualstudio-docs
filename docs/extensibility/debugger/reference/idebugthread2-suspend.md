@@ -32,6 +32,7 @@ HRESULT Suspend ( 
 
 #### Parameters
  `pdwSuspendCount`
+
  [out] Returns the suspend count after the suspend operation.
 
 ## Return Value
@@ -43,5 +44,5 @@ HRESULT Suspend ( 
  For each call to this method, there must be a later call to the [Resume](../../../extensibility/debugger/reference/idebugthread2-resume.md) method.
 
 ## See Also
- [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)
- [Resume](../../../extensibility/debugger/reference/idebugthread2-resume.md)
+- [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)
+- [Resume](../../../extensibility/debugger/reference/idebugthread2-resume.md)
