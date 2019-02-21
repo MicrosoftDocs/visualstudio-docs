@@ -35,4 +35,4 @@ To find Visual Studio and other tools in build environments, PowerShell scripts,
 
 ## See also
 
-* [Changes to Visual Studio 2017 setup](https://blogs.msdn.microsoft.com/heaths/2016/09/15/changes-to-visual-studio-15-setup/)
+* [Changes to Visual Studio 2017 setup](https://devblogs.microsoft.com/setup/changes-to-visual-studio-15-setup/)

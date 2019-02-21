@@ -23,7 +23,7 @@ Visual Studio provides the capability to publish a Python web app directly to Az
 The publishing process differs between Visual Studio 2017 and Visual Studio 2015. Specifically, Visual Studio 2015 automates some of the steps, including the creation of `web.config`, but this automation limits long-term flexibility and control. Visual Studio 2017 requires more manual steps but provides more exact control over your Python environment. Both options are described here.
 
 > [!Note]
-> For background on the changes between Visual Studio 2015 and Visual Studio 2017, see the blog post, [Publish to Azure in Visual Studio 2017](https://blogs.msdn.microsoft.com/pythonengineering/2016/12/12/publish-to-azure-in-vs-2017/).
+> For background on the changes between Visual Studio 2015 and Visual Studio 2017, see the blog post, [Publish to Azure in Visual Studio 2017](https://devblogs.microsoft.com/python/publish-to-azure-in-vs-2017/).
 
 ## Prerequisites
 
