@@ -1,7 +1,7 @@
 ---
 title: Tour of the Visual Studio IDE
 titleSuffix: ""
-ms.date: 07/12/2018
+ms.date: 02/21/2019
 ms.topic: quickstart
 author: gewarren
 ms.author: gewarren

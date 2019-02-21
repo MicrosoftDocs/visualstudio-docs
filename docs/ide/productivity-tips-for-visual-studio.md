@@ -66,6 +66,8 @@ You can search across the IDE for commands, files, and options, in addition to f
 
     **Quick Launch** displays links to the **New Project** dialog box, the **Add New Item** dialog box, and the **Projects and Solutions** page in the **Options** dialog box, among others. Quick Launch results can also include project files and tool windows.
 
+  You can find the **Quick Launch** search box in the upper right of the IDE. (Alternatively, press **Ctrl**+**Q** to access it.)
+
 ## Debug code
 
 Debugging can consume a lot of time, but the following tips can help you speed up the process.
