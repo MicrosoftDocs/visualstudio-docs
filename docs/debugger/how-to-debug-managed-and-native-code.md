@@ -18,7 +18,7 @@ ms.workload:
 ---
 # Tutorial: Debug C# and C++ in the same debugging session
 
-Visual Studio lets you enable more than one debugger type in a debugging session, which is called mixed-mode debugging. In this tutorial, you learn to debug both managed and native code in a single debugging session. 
+Visual Studio lets you enable more than one debugger type in a debugging session, which is called mixed-mode debugging. In this tutorial, you learn to debug both managed and native code in a single debugging session.
 
 This tutorial shows how to debug native code from a managed app, but you can also [debug managed code from a native app](../debugger/how-to-debug-in-mixed-mode.md). The debugger also supports other types of mixed-mode debugging, such as debugging [Python and native code](../python/debugging-mixed-mode-c-cpp-python-in-visual-studio.md), and using the script debugger in app types such as ASP.NET.
 
@@ -54,7 +54,7 @@ If you have Visual Studio installed, but don't have the workloads you need, sele
 
    Visual Studio creates the empty project and displays it in **Solution Explorer**.
 
-1. In **Solution Explorer**, select **Source Files**, and then select **Project** > **Add New Item**. Or, right-click **Source Files** and select **Add** > **New Item**. 
+1. In **Solution Explorer**, select **Source Files**, and then select **Project** > **Add New Item**. Or, right-click **Source Files** and select **Add** > **New Item**.
 
 1. In the **New Item** dialog, select **C++ file (.cpp)**. Type **Mixed_Mode.cpp** in the **Name** field, and then select **Add**.
 
@@ -65,7 +65,7 @@ If you have Visual Studio installed, but don't have the workloads you need, sele
     ```cpp
     #include "Mixed_Mode.h"
     ```
-1. In **Solution Explorer**, select **Header Files**, and then select **Project** > **Add New Item**. Or, right-click **Header Files** and select **Add** > **New Item**. 
+1. In **Solution Explorer**, select **Header Files**, and then select **Project** > **Add New Item**. Or, right-click **Header Files** and select **Add** > **New Item**.
 
 1. In the **New Item** dialog, select **Header file (.h)**. Type **Mixed_Mode.h** in the **Name** field, and then select **Add**.
 
@@ -94,10 +94,10 @@ If you have Visual Studio installed, but don't have the workloads you need, sele
 
 1. In **Solution Explorer**, select the **Mixed_Mode_Debugging** project node and select the **Properties** icon, or right-click the project node and select **Properties**.
 
-1. At the top of the **Properties** pane, make sure the **Configuration** is set to **Active(Debug)** and the **Platform** is the same as what you set in the toolbar: **x64**, or **Win32** for x86 platform. 
+1. At the top of the **Properties** pane, make sure the **Configuration** is set to **Active(Debug)** and the **Platform** is the same as what you set in the toolbar: **x64**, or **Win32** for x86 platform.
 
    > [!IMPORTANT]
-   > If you switch platform from **x86** to **x64** or vice versa, you must reconfigure the properties for the new platform. 
+   > If you switch platform from **x86** to **x64** or vice versa, you must reconfigure the properties for the new platform.
 
 1. Under **Configuration Properties** in the left pane, select **Linker** > **Advanced**, and in the dropdown next to **No Entry Point**, select **No**. If you had to change it to **No**, select **Apply**.
 
@@ -119,7 +119,7 @@ If you have Visual Studio installed, but don't have the workloads you need, sele
 1. In the **New Project** dialog box, select **Visual C#**, and in the middle pane:
 
    - For a .NET Framework app, select **Console App (.NET Framework)**.
-   
+
    - For a .NET Core app, select **Console App (.NET Core)**.
 
 1. In the **Name** field, type **Mixed_Mode_Calling_App**, and then select **OK**.
@@ -158,9 +158,9 @@ If you have Visual Studio installed, but don't have the workloads you need, sele
 
 1. Select **File** > **Save Program.cs** or press **Ctrl**+**S** to save the file.
 
-## Configure mixed-mode debugging 
+## Configure mixed-mode debugging
 
-### To configure mixed-mode debugging for a .NET Framework app 
+### To configure mixed-mode debugging for a .NET Framework app
 
 1. In **Solution Explorer**, select the **Mixed_Mode_Calling_App** project node and select the **Properties** icon, or right-click the project node and select **Properties**.
 
@@ -168,11 +168,11 @@ If you have Visual Studio installed, but don't have the workloads you need, sele
 
     ![Enable mixed mode debugging](../debugger/media/mixed-mode-enable-native-code-debugging.png)
 
-### To configure mixed-mode debugging for a .NET Core app 
+### To configure mixed-mode debugging for a .NET Core app
 
 In most versions of Visual Studio 2017, you must use the *launchSettings.json* file instead of the project properties to enable mixed-mode debugging for native code in a .NET Core app. To track UI updates for this feature, see this [GitHub issue](https://github.com/dotnet/project-system/issues/1125).
 
-1. In **Solution Explorer**, expand **Properties**, and open the *launchSettings.json* file. 
+1. In **Solution Explorer**, expand **Properties**, and open the *launchSettings.json* file.
 
    >[!NOTE]
    >By default, *launchSettings.json* is in *C:\Users\username\source\repos\Mixed_Mode_Calling_App\Properties*. If *launchSettings.json* doesn't exist, select the **Mixed_Mode_Calling_App** project in **Solution Explorer** and then select the **Properties** icon, or right-click the project and select **Properties**. Make a temporary change in the **Debug** tab, and build the project. This will create a *launchSettings.json* file. Revert the change that you made in the **Debug** tab.
