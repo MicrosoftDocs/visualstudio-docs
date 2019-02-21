@@ -33,16 +33,20 @@ public struct TEXT_POSITION { 
 ```
 
 ## Members
- dwLine
- Index of line in source file.
 
- dwColumn
- Character offset into line.
+dwLine
+
+Index of line in source file.
+
+dwColumn
+
+Character offset into line.
 
 ## Remarks
- This structure is used in the [CONTEXT_INFO](../../../extensibility/debugger/reference/context-info.md) and [DisassemblyData](../../../extensibility/debugger/reference/disassemblydata.md) structures.
 
- This structure is filled in by a call to the following methods:
+This structure is used in the [CONTEXT_INFO](../../../extensibility/debugger/reference/context-info.md) and [DisassemblyData](../../../extensibility/debugger/reference/disassemblydata.md) structures.
+
+This structure is filled in by a call to the following methods:
 
 - [GetStatementRange](../../../extensibility/debugger/reference/idebugdocumentcontext2-getstatementrange.md)
 
@@ -52,7 +56,7 @@ public struct TEXT_POSITION { 
 
 - [GetOffset](../../../extensibility/debugger/reference/idebugfunctionposition2-getoffset.md)
 
-  This structure is passed as a parameter to the following methods:
+This structure is passed as a parameter to the following methods:
 
 - [GetText](../../../extensibility/debugger/reference/idebugdocumenttext2-gettext.md)
 
@@ -65,6 +69,7 @@ public struct TEXT_POSITION { 
 - [onUpdateTextAttributes](../../../extensibility/debugger/reference/idebugdocumenttextevents2-onupdatetextattributes.md)
 
 ## Requirements
+
  Header: msdbg.h
 
  Namespace: Microsoft.VisualStudio.Debugger.Interop
@@ -72,6 +77,7 @@ public struct TEXT_POSITION { 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
+
 - [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [GetStatementRange](../../../extensibility/debugger/reference/idebugdocumentcontext2-getstatementrange.md)
 - [GetSourceRange](../../../extensibility/debugger/reference/idebugdocumentcontext2-getsourcerange.md)
