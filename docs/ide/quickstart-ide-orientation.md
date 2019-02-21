@@ -77,7 +77,7 @@ The **Quick Launch** box is a quick and easy way to do pretty much anything in V
 
 1. Locate the **Quick Launch** box in the upper right of the IDE. (Alternatively, press **Ctrl**+**Q** to access it.)
 
-1. Type **verbosity** into the **Quick Launch** box (or, press **Ctrl**+**Q** to access it). From the displayed results, choose **Projects and Solutions --> Build and Run** under the **Options** category.
+1. Type **verbosity** into the **Quick Launch** box. From the displayed results, choose **Projects and Solutions --> Build and Run** under the **Options** category.
 
    ![Quick launch box in Visual Studio](media/quickstart-IDE-quick-launch.png)
 
