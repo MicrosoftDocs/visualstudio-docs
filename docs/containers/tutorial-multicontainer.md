@@ -15,19 +15,43 @@ In this tutorial, you'll learn how to manage more than one container and communi
 
 ## Prerequisites
 
-## Step 1: Create a web site project
+::: moniker range="vs-2017"
+* [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
+* [Visual Studio 2017](https://visualstudio.microsoft.com/) with the **Web Development**, **Azure Tools** workload, and/or **.NET Core cross-platform development** workload installed
+* To publish to Azure Container Registry, an Azure subscription. [Sign up for a free trial](https://azure.microsoft.com/en-us/offers/ms-azr-0044p/).
+::: moniker-end
+
+::: moniker range=">= vs-2019"
+* [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
+* [Visual Studio 2019 Preview](https://visualstudio.microsoft.com/vs/preview/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2019+preview) with the **Web Development**, **Azure Tools** workload, and/or **.NET Core cross-platform development** workload installed
+* [.NET Core 2.2 Development Tools](https://dotnet.microsoft.com/download/dotnet-core/2.2) for development with .NET Core 2.2
+::: moniker-end
+
+## Create a Web Site project
 
 1. In Visual Studio, create an **ASP.NET Core Web Application** project, named *WebFrontEnd*. Select **Web Application** to create a web application with Razor pages. Be sure that Enable Docker Support is selected, and that the container OS matches the OS selected in Docker Desktop.
   
+::: moniker range="vs-2017"
    ![Screenshot of creating the web front end project](./media/tutorial-multicontainer/docker-tutorial-enable-docker-support.png)
+::: moniker-end
 
-## Step 2: Create a web api project
+::: moniker range="vs-2019"
+    ![Screenshot of creating the web front end project](./media/tutorial-multicontainer/vs-2019/new-aspnet-core-project1.png)
+    ![Screenshot of creating the web front end project](./media/tutorial-multicontainer/vs-2019/new-aspnet-core-project.png)
+::: moniker-end
 
-1. Add a project to the same solution and call it MyWebAPI. Select *API* as the project type.
+## Create a Web API project
 
+1. Add a project to the same solution and call it MyWebAPI. Select **API** as the project type, and clear the checkbox for **Configure for HTTPS**. There is generally no need to use SSL for communication from the front end to a web service, as long as the communication to external clients is secured.
+
+::: moniker range="vs-2017"
    ![Screenshot of creating the Web API project](./media/tutorial-multicontainer/docker-tutorial-mywebapi.png)
+::: moniker-end
+::: moniker range="vs-2019"
+   ![Screenshot of creating the Web API project](./media/tutorial-multicontainer/new-webapi-project.png)
+::: moniker-end
 
-## Step 3: Add code to call the web api
+## Add code to call the web api
 
 1. In the WebFrontEnd project, open the *Index.cshtml.cs* file, and replace the `OnGet` method with the following code.
 
@@ -192,9 +216,7 @@ In this tutorial, you'll learn how to manage more than one container and communi
 When you're ready to deploy the multicontainer app, you'll need to decide what container orchestrator to use. You can use [Service Fabric](/azure/service-fabric/service-fabric-host-app-in-a-container) or [Azure Kubernetes Service (AKS)](/azure/aks).
 
 ## See Also
-
-[Docker Compose](https://docs.docker.com/compose/)
-
-[Service Fabric Overview](/azure/service-fabric/service-fabric-overview)
-
-[Azure Kubernetes Service](/azure/aks)
+  
+[Docker Compose](https://docs.docker.com/compose/)  
+[Service Fabric Overview](/azure/service-fabric/service-fabric-overview)  
+[Azure Kubernetes Service](/azure/aks)  
