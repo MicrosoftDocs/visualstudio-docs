@@ -45,9 +45,11 @@ int GetSize( 
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## Remarks
-- [C++ only] If a particular value is not desired, pass a NULL for the parameter.
 
-- [C# only] Both parameters must be specified.
+ [C++ only] If a particular value is not desired, pass a NULL for the parameter.
+
+
+ [C# only] Both parameters must be specified.
 
 ## See Also
 - [IDebugDocumentText2](../../../extensibility/debugger/reference/idebugdocumenttext2.md)
