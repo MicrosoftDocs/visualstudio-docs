@@ -2,27 +2,27 @@
 title: "MSBuild Reserved and Well-known Properties | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
-dev_langs: 
+dev_langs:
   - "VB"
   - "CSharp"
   - "C++"
   - "jsharp"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "MSBuild, reserved properties"
 ms.assetid: 99333e61-83c9-4804-84e3-eda297c2478d
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # MSBuild reserved and well-known properties
-[!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] provides a set of predefined properties that store information about the project file and the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] binaries. These properties are evaluated in the same manner as other [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] properties. For example, to use the `MSBuildProjectFile` property, you type `$(MSBuildProjectFile)`.  
+[!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] provides a set of predefined properties that store information about the project file and the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] binaries. These properties are evaluated in the same manner as other [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] properties. For example, to use the `MSBuildProjectFile` property, you type `$(MSBuildProjectFile)`.
 
  MSBuild uses the values in the following table to predefine reserved and well-known properties. Reserved properties cannot be overridden, but well-known properties can be overridden by using identically named environment properties, global properties, or properties that are declared in the project file.
 
-## Reserved and well-known properties  
- The following table describes the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] predefined properties.  
+## Reserved and well-known properties
+ The following table describes the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] predefined properties.
 
 
 | Property | Reserved or well-known | Description |
@@ -69,7 +69,7 @@ In addition to the above, names corresponding to MSBuild language elements canno
 * When
 * Otherwise
 
-## See also  
-[MSBuild reference](../msbuild/msbuild-reference.md)
+## See also
+- [MSBuild reference](../msbuild/msbuild-reference.md)
 
-[MSBuild properties](../msbuild/msbuild-properties.md)
+- [MSBuild properties](../msbuild/msbuild-properties.md)

@@ -177,8 +177,8 @@ For more information, see [Multitargeting](../msbuild/msbuild-multitargeting-ove
 | [Additional resources](https://social.msdn.microsoft.com/forums/vstudio/home?forum=msbuild) | Lists community and support resources for more information about MSBuild. |
 
 ## Reference
- [MSBuild reference](../msbuild/msbuild-reference.md)
+- [MSBuild reference](../msbuild/msbuild-reference.md)
  Links to topics that contain reference information.
 
- [Glossary](msbuild-glossary.md)
+- [Glossary](msbuild-glossary.md)
  Defines common MSBuild terms.

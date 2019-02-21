@@ -20,9 +20,9 @@ ms.workload:
 # Item element (MSBuild)
 Contains a user-defined item and its metadata. Every item that is used in a [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project must be specified as a child of an `ItemGroup` element.
 
-\<Project>  
-\<ItemGroup>  
-\<Item>  
+\<Project>
+\<ItemGroup>
+\<Item>
 
 ## Syntax
 
@@ -114,7 +114,7 @@ The following code example shows how to use the `Update` attribute to modify the
 ```
 
 ## See also
-[Items](../msbuild/msbuild-items.md)  
-[Common MSBuild project items](../msbuild/common-msbuild-project-items.md)  
-[MSBuild properties](../msbuild/msbuild-properties.md)  
-[Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)
+- [Items](../msbuild/msbuild-items.md)
+- [Common MSBuild project items](../msbuild/common-msbuild-project-items.md)
+- [MSBuild properties](../msbuild/msbuild-properties.md)
+- [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)
