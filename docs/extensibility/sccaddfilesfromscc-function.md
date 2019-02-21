@@ -34,31 +34,40 @@ SCCRTN SccAddFilesFromSCC(
 
 ### Parameters
  pContext
-- [in] The source control plug-in context pointer.
+
+[in] The source control plug-in context pointer.
 
  hWnd
-- [in] A handle to the IDE window that the source control plug-in can use as a parent for any dialog boxes that it provides.
+
+[in] A handle to the IDE window that the source control plug-in can use as a parent for any dialog boxes that it provides.
 
  lpUser
-- [in, out] The username (up to SCC_USER_SIZE, including the null terminator).
+
+[in, out] The username (up to SCC_USER_SIZE, including the null terminator).
 
  lpAuxProjPath
-- [in, out] Auxiliary string identifying the project (up to `SCC_PRJPATH_`SIZE, including the null terminator).
+
+[in, out] Auxiliary string identifying the project (up to `SCC_PRJPATH_`SIZE, including the null terminator).
 
  cFiles
-- [in] Number of files given by `lpFilePaths`.
+
+[in] Number of files given by `lpFilePaths`.
 
  lpFilePaths
-- [in, out] Array of file names to add to the current project.
+
+[in, out] Array of file names to add to the current project.
 
  lpDestination
-- [in] The destination path where the files are to be written.
+
+[in] The destination path where the files are to be written.
 
  lpComment
-- [in] The comment to be applied to each of the files being added.
+
+[in] The comment to be applied to each of the files being added.
 
  pbResults
-- [in, out] Array of flags that are set to indicate success (nonzero or TRUE) or failure (zero or FALSE) for each file (size of the array must be at least `cFiles` long).
+
+[in, out] Array of flags that are set to indicate success (nonzero or TRUE) or failure (zero or FALSE) for each file (size of the array must be at least `cFiles` long).
 
 ## Return value
  The source control plug-in implementation of this function is expected to return one of the following values:

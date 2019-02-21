@@ -30,19 +30,24 @@ SCCRTN SccEnumChangedFiles(
 
 ### Parameters
  pContext
-- [in] The source control plug-in context pointer.
+
+[in] The source control plug-in context pointer.
 
  hWnd
-- [in] A handle to the IDE window that the source control plug-in can use as a parent for any dialog boxes that it provides.
+
+[in] A handle to the IDE window that the source control plug-in can use as a parent for any dialog boxes that it provides.
 
  cFiles
-- [in] Number of file names specified in the `lpFileNames` array. Also specifies size of `plIsFileDifferent` array.
+
+[in] Number of file names specified in the `lpFileNames` array. Also specifies size of `plIsFileDifferent` array.
 
  lpFileNames
-- [in] Array of local file names to check.
+
+[in] Array of local file names to check.
 
  plIsFileDifferent
-- [in, out] Array of values indicating the difference status of each file (array must have at least `cFiles` entries). Nonzero means that the file is different.
+
+[in, out] Array of values indicating the difference status of each file (array must have at least `cFiles` entries). Nonzero means that the file is different.
 
 ## Return value
  The source control plug-in implementation of this function is expected to return one of the following values:

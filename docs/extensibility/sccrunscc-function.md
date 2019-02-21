@@ -29,16 +29,20 @@ SCCRTN SccRunScc(
 
 #### Parameters
  pvContext
-- [in] The source control plug-in context structure.
+
+[in] The source control plug-in context structure.
 
  hWnd
-- [in] A handle to the IDE window that the source control plug-in can use as a parent for any dialog boxes that it provides.
+
+[in] A handle to the IDE window that the source control plug-in can use as a parent for any dialog boxes that it provides.
 
  nFiles
-- [in] Number of files specified in the `lpFileNames` array.
+
+[in] Number of files specified in the `lpFileNames` array.
 
  lpFileNames
-- [in] Array of selected file names.
+
+[in] Array of selected file names.
 
 ## Return Value
  The source control plug-in implementation of this function is expected to return one of the following values:

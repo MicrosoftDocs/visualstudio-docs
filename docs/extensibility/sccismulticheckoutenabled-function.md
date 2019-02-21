@@ -27,10 +27,12 @@ SCCRTN SccIsMultiCheckoutEnabled(
 
 #### Parameters
  pContext
-- [in] The source control plug-in context structure.
+
+[in] The source control plug-in context structure.
 
  pbMultiCheckout
-- [out] Specifies whether multiple checkouts are enabled for this project (nonzero means that multiple checkouts are supported).
+
+[out] Specifies whether multiple checkouts are enabled for this project (nonzero means that multiple checkouts are supported).
 
 ## Return Value
  The source control plug-in implementation of this function is expected to return one of the following values:

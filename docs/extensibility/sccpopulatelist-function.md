@@ -33,28 +33,36 @@ SCCRTN SccPopulateList (
 
 #### Parameters
  pvContext
-- [in] The source control plug-in context structure.
+
+[in] The source control plug-in context structure.
 
  nCommand
-- [in] The source control command that will be applied to all files in the `lpFileNames` array (see [Command Code](../extensibility/command-code-enumerator.md) for a list of possible commands).
+
+[in] The source control command that will be applied to all files in the `lpFileNames` array (see [Command Code](../extensibility/command-code-enumerator.md) for a list of possible commands).
 
  nFiles
-- [in] Number of files in the `lpFileNames` array.
+
+[in] Number of files in the `lpFileNames` array.
 
  lpFileNames
-- [in] An array of file names known to the IDE.
+
+[in] An array of file names known to the IDE.
 
  pfnPopulate
-- [in] The IDE callback function to call to add and remove files (see [POPLISTFUNC](../extensibility/poplistfunc.md) for details).
+
+[in] The IDE callback function to call to add and remove files (see [POPLISTFUNC](../extensibility/poplistfunc.md) for details).
 
  pvCallerData
-- [in] Value that is to be passed unchanged to the callback function.
+
+[in] Value that is to be passed unchanged to the callback function.
 
  lpStatus
-- [in, out] An array for the source control plug-in to return the status flags for each file.
+
+[in, out] An array for the source control plug-in to return the status flags for each file.
 
  fOptions
-- [in] Command flags (see the "PopulateList flag" section of [Bitflags Used by Specific Commands](../extensibility/bitflags-used-by-specific-commands.md) for details).
+
+[in] Command flags (see the "PopulateList flag" section of [Bitflags Used by Specific Commands](../extensibility/bitflags-used-by-specific-commands.md) for details).
 
 ## Return Value
  The source control plug-in implementation of this function is expected to return one of the following values:

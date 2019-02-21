@@ -34,31 +34,40 @@ SCCRTN SccOpenProject (
 
 #### Parameters
  pvContext
-- [in] The source control plug-in context structure.
+
+[in] The source control plug-in context structure.
 
  hWnd
-- [in] A handle to the IDE window that the source control plug-in can use as a parent for any dialog boxes that it provides.
+
+[in] A handle to the IDE window that the source control plug-in can use as a parent for any dialog boxes that it provides.
 
  lpUser
-- [in, out] The name of the user (not to exceed SCC_USER_SIZE, including the NULL terminator).
+
+[in, out] The name of the user (not to exceed SCC_USER_SIZE, including the NULL terminator).
 
  lpProjName
-- [in] The string identifying the name of the project.
+
+[in] The string identifying the name of the project.
 
  lpLocalProjPath
-- [in] The path to the working folder for the project.
+
+[in] The path to the working folder for the project.
 
  lpAuxProjPath
-- [in, out]An optional auxiliary string identifying the project (not to exceed SCC_AUXPATH_SIZE, including the NULL terminator).
+
+[in, out]An optional auxiliary string identifying the project (not to exceed SCC_AUXPATH_SIZE, including the NULL terminator).
 
  lpComment
-- [in] Comment to a new project that is being created.
+
+[in] Comment to a new project that is being created.
 
  lpTextOutProc
-- [in] An optional callback function to display text output from the source control plug-in.
+
+[in] An optional callback function to display text output from the source control plug-in.
 
  dwFlags
-- [in] Signals whether a new project needs to be created if the project is unknown to the source control plug-in. Value can be a combination of `SCC_OP_CREATEIFNEW` and `SCC_OP_SILENTOPEN.`
+
+[in] Signals whether a new project needs to be created if the project is unknown to the source control plug-in. Value can be a combination of `SCC_OP_CREATEIFNEW` and `SCC_OP_SILENTOPEN.`
 
 ## Return Value
  The source control plug-in implementation of this function is expected to return one of the following values:

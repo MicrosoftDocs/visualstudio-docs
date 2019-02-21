@@ -29,16 +29,20 @@ SCCRTN SccWillCreateSccFile(
 
 #### Parameters
  pContext
-- [in] The source control plug-in context pointer.
+
+[in] The source control plug-in context pointer.
 
  nFiles
-- [in] The number of file names included in the `lpFileNames` array as well as the length of the `pbSccFiles` array.
+
+[in] The number of file names included in the `lpFileNames` array as well as the length of the `pbSccFiles` array.
 
  lpFileNames
-- [in] An array of fully qualified file names to check (array must be allocated by caller).
+
+[in] An array of fully qualified file names to check (array must be allocated by caller).
 
  pbSccFiles
-- [in, out] Array in which to store the results.
+
+[in, out] Array in which to store the results.
 
 ## Return Value
  The source control plug-in implementation of this function is expected to return one of the following values:

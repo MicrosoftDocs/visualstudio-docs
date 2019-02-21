@@ -29,16 +29,20 @@ SCCRTN SccRename(
 
 #### Parameters
  pvContext
-- [in] The source control plug-in context structure.
+
+[in] The source control plug-in context structure.
 
  hWnd
-- [in] A handle to the IDE window that the source control plug-in can use as a parent for any dialog boxes that it provides.
+
+[in] A handle to the IDE window that the source control plug-in can use as a parent for any dialog boxes that it provides.
 
  lpFileName
-- [in] The fully qualified file name of the file being renamed.
+
+[in] The fully qualified file name of the file being renamed.
 
  lpNewName
-- [in] The fully qualified new name. If the directory path is different, then the file has moved from one subdirectory to another.
+
+[in] The fully qualified new name. If the directory path is different, then the file has moved from one subdirectory to another.
 
 ## Return Value
  The source control plug-in implementation of this function is expected to return one of the following values:

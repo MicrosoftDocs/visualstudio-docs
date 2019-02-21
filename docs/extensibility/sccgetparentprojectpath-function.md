@@ -31,22 +31,28 @@ SCCRTN SccGetParentProjectPath(
 
 ### Parameters
  pContext
-- [in] The source control plug-in context pointer.
+
+[in] The source control plug-in context pointer.
 
  hWnd
-- [in] A handle to the IDE window that the source control plug-in can use as a parent for any dialog boxes that it provides.
+
+[in] A handle to the IDE window that the source control plug-in can use as a parent for any dialog boxes that it provides.
 
  lpUser
-- [in, out] The user name (up to SCC_USER_SIZE, including the NULL terminator).
+
+[in, out] The user name (up to SCC_USER_SIZE, including the NULL terminator).
 
  lpProjPath
-- [in] String identifying the project path (up to SCC_PRJPATH_SIZE, including the NULL terminator).
+
+[in] String identifying the project path (up to SCC_PRJPATH_SIZE, including the NULL terminator).
 
  lpAuxProjPath
-- [in, out] Auxiliary string identifying the project (up to SCC_PRJPATH_SIZE, including the NULL terminator).
+
+[in, out] Auxiliary string identifying the project (up to SCC_PRJPATH_SIZE, including the NULL terminator).
 
  lpParentProjPath
-- [in, out] Output string identifying the parent project path (up to SCC_PRJPATH_SIZE, including the NULL terminator).
+
+[in, out] Output string identifying the parent project path (up to SCC_PRJPATH_SIZE, including the NULL terminator).
 
 ## Return value
  The source control plug-in implementation of this function is expected to return one of the following values:

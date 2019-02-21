@@ -29,16 +29,20 @@ SCCRTN SccGetCommandOptions(
 
 ### Parameters
  pvContext
-- [in] The source control plug-in context structure.
+
+[in] The source control plug-in context structure.
 
  hWnd
-- [in] A handle to the IDE window that the source control plug-in can use as a parent for any dialog boxes that it provides.
+
+[in] A handle to the IDE window that the source control plug-in can use as a parent for any dialog boxes that it provides.
 
  iCommand
-- [in] The command for which advanced options are requested (see [Command code](../extensibility/command-code-enumerator.md) for possible values).
+
+[in] The command for which advanced options are requested (see [Command code](../extensibility/command-code-enumerator.md) for possible values).
 
  ppvOptions
-- [in] The option structure (can also be `NULL`).
+
+[in] The option structure (can also be `NULL`).
 
 ## Return value
  The source control plug-in implementation of this function is expected to return one of the following values:

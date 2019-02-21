@@ -28,13 +28,16 @@ SCCRTN SccProperties (
 
 #### Parameters
  pvContext
-- [in] The source control plug-in context structure.
+
+[in] The source control plug-in context structure.
 
  hWnd
-- [in] A handle to the IDE window that the source control plug-in can use as a parent for any dialog boxes that it provides.
+
+[in] A handle to the IDE window that the source control plug-in can use as a parent for any dialog boxes that it provides.
 
  lpFileName
-- [in] The fully qualified path name of the file or project.
+
+[in] The fully qualified path name of the file or project.
 
 ## Return Value
  The source control plug-in implementation of this function is expected to return one of the following values:

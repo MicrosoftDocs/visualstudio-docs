@@ -28,13 +28,16 @@ SCCRTN SccSetOption(
 
 #### Parameters
  pvContext
-- [in] The source control plug-in context structure.
+
+[in] The source control plug-in context structure.
 
  nOption
-- [in] The option that is being set.
+
+[in] The option that is being set.
 
  dwVal
-- [in] Settings for the option.
+
+[in] Settings for the option.
 
 ## Return Value
  The source control plug-in implementation of this function is expected to return one of the following values:

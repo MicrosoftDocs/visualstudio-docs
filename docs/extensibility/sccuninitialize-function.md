@@ -26,7 +26,8 @@ SCCRTN SccUninitialize (
 
 #### Parameters
  pvContext
-- [in] The pointer to the source control plug-in context structure created in the [SccInitialize](../extensibility/sccinitialize-function.md).
+
+[in] The pointer to the source control plug-in context structure created in the [SccInitialize](../extensibility/sccinitialize-function.md).
 
 ## Return Value
  The source control plug-in implementation of this function is expected to return one of the following values:

@@ -33,28 +33,36 @@ SCCRTN SccInitialize (
 
 #### Parameters
  `ppvContext`
-- [in] The source control plug-in can place a pointer to its context structure here.
+
+[in] The source control plug-in can place a pointer to its context structure here.
 
  `hWnd`
-- [in] A handle to the IDE window that the source control plug-in can use as a parent for any dialog boxes that it provides.
+
+[in] A handle to the IDE window that the source control plug-in can use as a parent for any dialog boxes that it provides.
 
  `lpCallerName`
-- [in] The name of the program calling the source control plug-in.
+
+[in] The name of the program calling the source control plug-in.
 
  `lpSccName`
-- [in, out] The buffer where the source control plug-in puts its own name (not to exceed `SCC_NAME_LEN`).
+
+[in, out] The buffer where the source control plug-in puts its own name (not to exceed `SCC_NAME_LEN`).
 
  `lpSccCaps`
-- [out] Returns the source control plug-in's capability flags.
+
+[out] Returns the source control plug-in's capability flags.
 
  `lpAuxPathLabel`
-- [in, out] The buffer where the source control plug-in puts a string that describes the `lpAuxProjPath` parameter returned by the [SccOpenProject](../extensibility/sccopenproject-function.md) and the [SccGetProjPath](../extensibility/sccgetprojpath-function.md) (not to exceed `SCC_AUXLABEL_LEN`).
+
+[in, out] The buffer where the source control plug-in puts a string that describes the `lpAuxProjPath` parameter returned by the [SccOpenProject](../extensibility/sccopenproject-function.md) and the [SccGetProjPath](../extensibility/sccgetprojpath-function.md) (not to exceed `SCC_AUXLABEL_LEN`).
 
  `pnCheckoutCommentLen`
-- [out] Returns the maximum permissible length for a checkout comment.
+
+[out] Returns the maximum permissible length for a checkout comment.
 
  `pnCommentLen`
-- [out] Returns the maximum permissible length for other comments.
+
+[out] Returns the maximum permissible length for other comments.
 
 ## Return Value
  The source control plug-in implementation of this function is expected to return one of the following values:

@@ -39,28 +39,36 @@ SCCRTN SccGetProjPath (
 
 ### Parameters
  pvContext
-- [in] The source control plug-in context structure.
+
+[in] The source control plug-in context structure.
 
  hWnd
-- [in] A handle to the IDE window that the source control plug-in can use as a parent for any dialog boxes that it provides.
+
+[in] A handle to the IDE window that the source control plug-in can use as a parent for any dialog boxes that it provides.
 
  lpUser
-- [in, out] The user name (not to exceed SCC_USER_SIZE, including the NULL terminator)
+
+[in, out] The user name (not to exceed SCC_USER_SIZE, including the NULL terminator)
 
  lpProjName
-- [in, out] The name of the IDE project, project workspace, or makefile (not to exceed SCC_PRJPATH_SIZE, including the NULL terminator).
+
+[in, out] The name of the IDE project, project workspace, or makefile (not to exceed SCC_PRJPATH_SIZE, including the NULL terminator).
 
  lpLocalPath
-- [in, out] The project's working path. If `bAllowChangePath` is `TRUE`, the source control plug-in can modify this string (not to exceed _MAX_PATH, including the null-terminator).
+
+[in, out] The project's working path. If `bAllowChangePath` is `TRUE`, the source control plug-in can modify this string (not to exceed _MAX_PATH, including the null-terminator).
 
  lpAuxProjPath
-- [in, out] A buffer for the returned project path (not to exceed SCC_PRJPATH_SIZE, including the NULL terminator).
+
+[in, out] A buffer for the returned project path (not to exceed SCC_PRJPATH_SIZE, including the NULL terminator).
 
  bAllowChangePath
-- [in] If this is `TRUE`, the source control plug-in can prompt for and modify the `lpLocalPath` string.
+
+[in] If this is `TRUE`, the source control plug-in can prompt for and modify the `lpLocalPath` string.
 
  pbNew
-- [in, out] Value coming in indicates whether to create a new project. Value returned indicates success of creating a project:
+
+[in, out] Value coming in indicates whether to create a new project. Value returned indicates success of creating a project:
 
 |Incoming|Interpretation|
 |--------------|--------------------|

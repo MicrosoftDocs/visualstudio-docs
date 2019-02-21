@@ -31,22 +31,28 @@ SCCRTN SccPopulateDirList(
 
 #### Parameters
  pContext
-- [in] The source control plug-in context pointer.
+
+[in] The source control plug-in context pointer.
 
  nDirs
-- [in] Number of directory paths in the `lpDirPaths` array.
+
+[in] Number of directory paths in the `lpDirPaths` array.
 
  lpDirPaths
-- [in] Array of directory paths to examine.
+
+[in] Array of directory paths to examine.
 
  pfnPopulate
-- [in] Callback function to call for each directory path and (optionally) filename in `lpDirPaths` (see [POPDIRLISTFUNC](../extensibility/popdirlistfunc.md) for details).
+
+[in] Callback function to call for each directory path and (optionally) filename in `lpDirPaths` (see [POPDIRLISTFUNC](../extensibility/popdirlistfunc.md) for details).
 
  pvCallerData
-- [in] Value that is to be passed unchanged to the callback function.
+
+[in] Value that is to be passed unchanged to the callback function.
 
  fOptions
-- [in] A combination of values that control how the directories are processed (see the "PopulateDirList flags" section of [Bitflags Used by Specific Commands](../extensibility/bitflags-used-by-specific-commands.md) for possible values).
+
+[in] A combination of values that control how the directories are processed (see the "PopulateDirList flags" section of [Bitflags Used by Specific Commands](../extensibility/bitflags-used-by-specific-commands.md) for possible values).
 
 ## Return Value
  The source control plug-in implementation of this function is expected to return one of the following values:

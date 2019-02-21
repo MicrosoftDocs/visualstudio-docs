@@ -28,13 +28,16 @@ SCCRTN SccGetUserOption(
 
 #### Parameters
  pContext
-- [in] The source control plug-in context pointer.
+
+[in] The source control plug-in context pointer.
 
  nOption
-- [in] Option to retrieve (see Remarks for possible options).
+
+[in] Option to retrieve (see Remarks for possible options).
 
  lpVal
-- [out] Value associated with option.
+
+[out] Value associated with option.
 
 ## Return Value
  The source control plug-in implementation of this function is expected to return one of the following values:

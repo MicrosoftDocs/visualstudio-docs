@@ -30,19 +30,24 @@ SCCRTN SccDiff(
 
 ### Parameters
  pvContext
-- [in] The source control plug-in context structure.
+
+[in] The source control plug-in context structure.
 
  hWnd
-- [in] A handle to the IDE window that the source control plug-in can use as a parent for any dialog boxes that it provides.
+
+[in] A handle to the IDE window that the source control plug-in can use as a parent for any dialog boxes that it provides.
 
  lpFileName
-- [in] File name for which the difference is requested.
+
+[in] File name for which the difference is requested.
 
  fOptions
-- [in] Command flags. See Remarks for details.
+
+[in] Command flags. See Remarks for details.
 
  pvOptions
-- [in] Source control plug-in-specific options.
+
+[in] Source control plug-in-specific options.
 
 ## Return value
  The source control plug-in implementation of this function is expected to return one of the following values:
