@@ -5,7 +5,7 @@ ms.topic: "conceptual"
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "aspnet"
 ---
 # How to: Instrument a dynamically compiled ASP.NET web application and collect detailed timing data with the profiler by using the command line
@@ -109,5 +109,5 @@ When you have completed all profiling, replace the *web.config* file, clear the 
 
 ## See also
 
-[Profile ASP.NET web applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)  
+[Profile ASP.NET web applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)
 [Instrumentation method data views](../profiling/instrumentation-method-data-views.md)
